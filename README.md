@@ -10,6 +10,7 @@ A free, open, general-education online institute. The goal is simple to state an
 
 | Path | What |
 |---|---|
+| `docs/BACKLOG.md` | What's in flight and what's next; read first in a new session |
 | `docs/VALUES.md` | What the institute stands on; the filter for every decision and every piece of feedback |
 | `curriculum/TAXONOMY.md` | The full map: 15 schools, ~155 courses, and the Foval Core progression |
 | `curriculum/core-path.yaml` | The Core path as data, used by the site |

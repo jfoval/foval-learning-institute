@@ -20,3 +20,10 @@ All notable changes to Foval Learning Institute: courses published, platform fea
 - Renamed to **Foval Learning Institute**. Tagline: Faith. Knowledge. Life. Free for everyone. Repo is now github.com/jfoval/foval-learning-institute; site at jfoval.github.io/foval-learning-institute.
 - Added `docs/VALUES.md`, the nine values every decision and every piece of feedback runs against. Shown on the About page.
 - Removed the "review" status and the owner sign-off gate. Courses go live when they finish the pipeline and improve through the feedback loop; the owner reads them as a learner.
+
+## 2026-09-05 (later)
+- Hero video (Pexels, free licence), quieter type, no italics, larger tagline, schools section.
+- Media in lessons: figure and video blocks, standards 4.5, drafting brief updated; all new drafts include charts, images, videos, and links.
+- Logic and Argument: 10 lessons drafted, lesson 1 reviewed. Bible Basics: lessons 1–8 drafted, 9–12 in progress.
+- Custom domain www.fovallearninginstitute.org configured on Pages (DNS pending at Namecheap).
+- `docs/BACKLOG.md` added as the handoff document.
