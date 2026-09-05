@@ -295,7 +295,7 @@ The Core is the general-education spine: the sequence a student takes to become 
 15. Introduction to Philosophy
 16. Great Books I: The Ancients
 17. World Religions
-18. The Bible: What It Is and How to Read It *(Christian standpoint)*
+18. The Bible: What It Is and How to Read It *(Christian Standpoint)*
 
 **Term 4: The physical world**
 18. Physics I
@@ -331,7 +331,7 @@ The Core is the general-education spine: the sequence a student takes to become 
 **Term 8: Integration**
 41. Ethics
 42. Meaning, Death, and the Good Life
-43. The Case for Christianity *(Christian standpoint)*
+43. The Case for Christianity *(Christian Standpoint)*
 44. Mental Models
 45. Investing
 46. Capstone project: teach something you learned to someone else, and write it up.

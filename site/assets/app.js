@@ -103,7 +103,8 @@
     { name: "Christian Studies", line: "The Bible, the faith, and the case for it." },
   ];
   const STANDPOINT = { christian: "Taught from within the Christian tradition. This course makes the case; it does not pretend to be neutral." };
-  const spLabel = sp => sp ? `<span class="standpoint-tag">${esc(sp)} standpoint</span>` : "";
+  const spName = sp => sp ? sp.charAt(0).toUpperCase() + sp.slice(1) + " Standpoint" : "";
+  const spLabel = sp => sp ? `<span class="standpoint-tag">${esc(spName(sp))}</span>` : "";
   const shuffle = a => { for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
   function setActiveNav(path) {
     document.querySelectorAll(".site-nav a").forEach(a => {
@@ -211,10 +212,10 @@
       let remainingMin = 0;
       const items = t.courses.map(e => {
         const c = byId(e.id);
-        if (!c) return `<li><span class="path-item soon"><span class="path-dot"></span><span>${esc(e.title)}${e.optional ? " <span class='path-meta'>(optional)</span>" : ""}${e.standpoint ? " <span class='path-meta'>· " + esc(e.standpoint) + " standpoint</span>" : ""}</span><span class="path-meta">coming soon</span></span></li>`;
+        if (!c) return `<li><span class="path-item soon"><span class="path-dot"></span><span>${esc(e.title)}${e.optional ? " <span class='path-meta'>(optional)</span>" : ""}${e.standpoint ? " <span class='path-meta'>· " + esc(spName(e.standpoint)) + "</span>" : ""}</span><span class="path-meta">coming soon</span></span></li>`;
         const p = courseProgress(c); const done = p.done === p.total;
         if (!done) remainingMin += totalMinutes(c) * (1 - p.done / p.total);
-        return `<li><a class="path-item" href="#/course/${c.id}"><span class="path-dot ${done ? "done" : courseStarted(c) ? "active" : ""}"></span><span>${esc(c.title)}${e.optional ? " <span class='path-meta'>(optional)</span>" : ""}${c.standpoint ? " <span class='path-meta'>· " + esc(c.standpoint) + " standpoint</span>" : ""}</span><span class="path-meta">${done ? "complete" : courseStarted(c) ? `${p.pct}%` : fmtHours(totalMinutes(c))}</span></a></li>`;
+        return `<li><a class="path-item" href="#/course/${c.id}"><span class="path-dot ${done ? "done" : courseStarted(c) ? "active" : ""}"></span><span>${esc(c.title)}${e.optional ? " <span class='path-meta'>(optional)</span>" : ""}${c.standpoint ? " <span class='path-meta'>· " + esc(spName(c.standpoint)) + "</span>" : ""}</span><span class="path-meta">${done ? "complete" : courseStarted(c) ? `${p.pct}%` : fmtHours(totalMinutes(c))}</span></a></li>`;
       }).join("");
       const live = t.courses.filter(e => byId(e.id)).length;
       const weeks = remainingMin ? Math.max(1, Math.round(remainingMin / 60 / pr.hoursPerWeek)) : 0;
