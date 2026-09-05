@@ -62,7 +62,7 @@ for (const school of fs.readdirSync(COURSES_DIR, { withFileTypes: true }).filter
     req(meta, ["id", "title", "school", "subject", "level", "status", "summary", "description", "outcomes"], rel);
     if (meta.id !== cdir.name) errors.push(`${rel}: id "${meta.id}" must match folder name "${cdir.name}"`);
     if (meta.school !== school.name) errors.push(`${rel}: school "${meta.school}" must match folder "${school.name}"`);
-    if (meta.status === "planned") continue;
+    if (meta.status !== "published") { warn.push(`${rel}: status ${meta.status}, not built (only published courses go to the site)`); continue; }
 
     const lessonsDir = path.join(dir, "lessons");
     const files = fs.existsSync(lessonsDir) ? fs.readdirSync(lessonsDir).filter(f => f.endsWith(".md")).sort() : [];
