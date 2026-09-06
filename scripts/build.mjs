@@ -86,7 +86,7 @@ for (const school of fs.readdirSync(COURSES_DIR, { withFileTypes: true }).filter
       });
       const words = body.split(/\s+/).filter(Boolean).length;
       if (words < 250) warn.push(`${file}: only ${words} words; depth standard expects substantially more`);
-      return { id: f.replace(/\.md$/, ""), title: lm.title, minutes: lm.minutes, video: lm.video, objectives: Array.isArray(lm.objectives) ? lm.objectives : [], quiz, content: marked.parse(renderBlocks(body)) };
+      return { id: f.replace(/\.md$/, ""), title: lm.title, minutes: lm.minutes, video: lm.video, audio: lm.audio, objectives: Array.isArray(lm.objectives) ? lm.objectives : [], quiz, content: marked.parse(renderBlocks(body)) };
     });
     // assessments: final test (has quiz) and projects
     const aDir = path.join(dir, "assessments");

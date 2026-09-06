@@ -162,7 +162,45 @@ A third way in, alongside the Foval Core and free choice. Spec:
 - **Verifiable certificates** need Phase 2 (accounts) so a certificate ID can be looked up at `/verify/<id>`; until then the share page is self-attested and says so.
 - **Accreditation:** documented in `docs/PLATFORM_ROADMAP.md` Phase 3. Realistic path: Open Badges 3.0 issuance, LinkedIn "Add to profile" fields, employer or institution partnerships, and rigorous public assessments. Formal accreditation as a degree-granting institution is a multi-year regulatory process; revisit when there are learners and a track record. Research options for a certificate mark that is honest ("Foval Learning Institute Certificate of Completion, not accredited credit").
 
-## 6. Podcast for every lesson (APPROVED to build, 2026-09-06 — this is the next feature)
+## 6. Podcast for every lesson (FIRST EPISODE LIVE 2026-09-06; pipeline script still to build)
+
+**Where this stands now, after the setup session on 2026-09-06 (read this, skip the history below
+unless you need it):**
+
+- **The engine is chosen: VibeVoice 7B on fal.ai.** John asked "are you sure?" and a fourth
+  research pass (recorded in `docs/PODCAST_OPTIONS.md`) confirmed it; he then called it himself.
+  His fal.ai account exists, has $10 of credits, and its API key lives in **`.env.local`**
+  (git-ignored) as `FAL_KEY`. `source .env.local` before rendering.
+- **The first real episode exists.** Bible Basics lesson 2, a 6-minute two-host script written by
+  hand from the lesson (`scripts/podcast/samples/bible-basics-02.script.md`), fact-checked in a
+  fresh-context subagent (PASS WITH NITS; all five nits fixed before rendering), rendered for
+  $0.32. Hosts are still unnamed; John still owes two host names.
+- **R2 is live.** John activated R2 on the Cloudflare account; bucket `foval-audio`, public at
+  `https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev`. Objects go at
+  `<school>/<course>/<lesson>.mp3`. Upload:
+  `npx wrangler r2 object put foval-audio/<path> --file <mp3> --content-type audio/mpeg --remote`.
+  The r2.dev URL is rate-limited and fine for now; move to a custom domain
+  (audio.fovallearninginstitute.org) if it ever matters.
+- **The site plays it.** Lessons take an `audio:` frontmatter URL; `scripts/build.mjs` passes it
+  through and the lesson page renders a gold-topped "Listen: this lesson as a conversation" block
+  (`.podcast` in styles.css) with the synthetic-voices disclosure the standards require. Lesson 2
+  carries the URL now; it goes live when Bible Basics publishes.
+- **Homepage card 08 is now a real screenshot** (`tile-podcast-{light,dark}-phone.png`, target in
+  `scripts/screenshots.mjs`), replacing the typographic teaser; the `feature-soon` CSS was removed
+  with it. Like the chart panel, it photographs a drafting course, which John already approved.
+- **`scripts/podcast-compare.mjs` request shapes are now verified against the live docs** and two
+  bugs are fixed (ElevenLabs returns raw MP3 and caps requests at 2,000 characters, so it batches
+  and concatenates; Gemini default model is now `gemini-3.1-flash-tts-preview`). fal cold starts
+  ran 13 minutes on the first render, so the poll budget is 20 minutes.
+- **Still to build: `scripts/podcast.mjs` and a `/make-podcast <lesson>` command** — script
+  generation from a lesson, the same fresh-context fact-check, render, upload, frontmatter. About
+  a day. **Still needed from John: the two host names.**
+- **Regenerate lesson 2's audio after the split/renumber pass** (7b): the episode covers the
+  whole current lesson, so when it becomes two lessons the audio must be redone (~$0.32).
+
+---
+
+### History: how the decision was made (kept for the reasoning)
 
 **John approved starting this at the end of the homepage session on 2026-09-06.** The homepage
 already advertises it as feature card 08 ("in the works now"). Pick up at "After that" below:

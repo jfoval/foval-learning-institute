@@ -1,6 +1,7 @@
 ---
 title: "One story: Genesis to Revelation in a single sitting"
 minutes: 90
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/christian-studies/bible-basics/02-one-story.mp3
 objectives:
   - Place any book of the Bible on the timeline of the one story, in the right act and on the right side of the four-hundred-year gap
   - Explain the five covenants (Noah, Abraham, Sinai, David, the new covenant) as the spine of the story and say what each one promises

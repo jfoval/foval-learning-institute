@@ -275,11 +275,6 @@
         <span class="feature-num">${String(i + 1).padStart(2, "0")}</span>
         <figcaption class="feature-label"><b>${esc(t[1])}</b><span>${esc(t[2])}</span></figcaption>
       </figure>`).join("")}
-      <figure class="feature feature-soon" tabindex="0">
-        <div class="soon-art"><span class="soon-kicker">Coming next</span><span class="soon-line">Two voices.<br>Every lesson.</span></div>
-        <span class="feature-num">08</span>
-        <figcaption class="feature-label"><b>A podcast for every lesson</b><span>Each lesson talked through by two voices, for people who take things in better by listening. In the works now.</span></figcaption>
-      </figure>
     </div>`;
   }
 
@@ -298,6 +293,8 @@
       "A Python lesson showing three runnable for-loops with their output in comments, and the paragraph explaining range."],
     ["tile-transcript", "A record that adds up", "Lessons, hours, retention, streak. What you can still do, not what you saw.",
       "The transcript page showing courses completed, lessons completed, hours of study, questions in the review bank, retention and day streak."],
+    ["tile-podcast", "A podcast for every lesson", "Two voices talk the lesson through, from a script checked against it line by line.",
+      "The listen block at the top of a lesson, with an audio player and a note saying the voices are synthetic and the script was checked against the lesson."],
   ];
 
   const WHY_PANELS = [
@@ -541,6 +538,7 @@
           <div class="breadcrumb"><a href="#/courses">Courses</a> / <a href="#/course/${c.id}">${esc(c.title)}</a> / Lesson ${idx + 1}</div>
           <h1>${esc(l.title)}</h1>
           <p class="muted">${l.minutes} min ${st.done ? "· <span style='color:var(--success)'>Completed</span>" : ""}</p>
+          ${l.audio ? `<div class="podcast"><b>Listen: this lesson as a conversation</b><audio controls preload="none" src="${esc(l.audio)}"></audio><p class="muted small">Two hosts talk the lesson through. The voices are synthetic; the script was written from this lesson and checked against it, and asserts nothing the lesson does not.</p></div>` : ""}
           ${l.objectives && l.objectives.length ? `<div class="objectives"><b>In this lesson you will learn to</b><ul>${l.objectives.map(o => `<li>${esc(o)}</li>`).join("")}</ul></div>` : ""}
           ${l.video ? `<iframe class="video" src="${esc(l.video)}" title="${esc(l.title)}" allowfullscreen loading="lazy"></iframe>` : ""}
           <div class="lesson-content">${l.content}</div>

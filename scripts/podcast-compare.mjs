@@ -14,12 +14,11 @@
 // This cannot be run from a Claude Code web session: the egress policy there blocks
 // fal.run and api.elevenlabs.io. Run it on a machine with ordinary internet.
 //
-// HONESTY NOTE, please read before the first real run. The request shapes below for fal
-// and ElevenLabs are written from documentation this session could not reach to verify,
-// because those domains are blocked here. The parsing, the cost guard, the polling and
-// the file handling are tested; the exact field names may need one correction. Run the
-// dry run first, compare what it prints against the current docs, and fix the REQUESTS
-// block if a name has moved. Nothing is spent until --go.
+// Request shapes verified against the live docs on 2026-09-06 (fal model page, ElevenLabs
+// API reference, Google AI TTS docs). Two things the first draft had wrong, now fixed:
+// ElevenLabs returns raw MP3 bytes rather than JSON, and caps each request at 2,000
+// characters total, so long scripts are sent in batches and the MP3s concatenated.
+// Nothing is spent until --go.
 
 import fs from "node:fs";
 import path from "node:path";
@@ -55,7 +54,7 @@ const ENGINES = {
   },
   gemini: {
     key: "GEMINI_API_KEY",
-    label: "Gemini Flash TTS, two speakers",
+    label: "Gemini 3.1 Flash TTS, two speakers",
     cost: () => (chars / 1000) * 0.012,
     note: "billed per character in, audio out",
   },
@@ -80,7 +79,7 @@ const REQUESTS = {
     queued: true,
   }),
   gemini: () => ({
-    url: `https://generativelanguage.googleapis.com/v1beta/models/${process.env.GEMINI_TTS_MODEL || "gemini-2.5-flash-preview-tts"}:generateContent?key=${process.env.GEMINI_API_KEY}`,
+    url: `https://generativelanguage.googleapis.com/v1beta/models/${process.env.GEMINI_TTS_MODEL || "gemini-3.1-flash-tts-preview"}:generateContent?key=${process.env.GEMINI_API_KEY}`,
     headers: { "Content-Type": "application/json" },
     body: {
       contents: [{ parts: [{ text: turns.map(t => `Speaker${t.speaker}: ${t.text}`).join("\n") }] }],
@@ -99,18 +98,27 @@ const REQUESTS = {
     // Gemini returns base64 PCM, which needs a WAV header before anything will play it.
     pcm: true,
   }),
-  elevenlabs: () => ({
-    url: "https://api.elevenlabs.io/v1/text-to-dialogue",
-    headers: { "xi-api-key": process.env.ELEVENLABS_API_KEY, "Content-Type": "application/json" },
-    body: {
-      inputs: turns.map(t => ({
-        text: t.text,
-        voice_id: t.speaker === 1 ? (process.env.ELEVEN_VOICE_1 || "JBFqnCBsd6RMkjVDRZzb")
-                                  : (process.env.ELEVEN_VOICE_2 || "EXAVITQu4vr4xnSDxMaL"),
-      })),
-      model_id: "eleven_v3",
-    },
-  }),
+  // ElevenLabs caps each text-to-dialogue request at 2,000 characters across all inputs,
+  // so the turns are sent in batches and the returned MP3s concatenated. Same-format MP3
+  // streams concatenate cleanly enough for a listening comparison.
+  elevenlabs: () => {
+    const voice = t => t.speaker === 1 ? (process.env.ELEVEN_VOICE_1 || "JBFqnCBsd6RMkjVDRZzb")
+                                       : (process.env.ELEVEN_VOICE_2 || "EXAVITQu4vr4xnSDxMaL");
+    const batches = [];
+    let batch = [], size = 0;
+    for (const t of turns) {
+      if (size + t.text.length > 1900 && batch.length) { batches.push(batch); batch = []; size = 0; }
+      batch.push({ text: t.text, voice_id: voice(t) }); size += t.text.length;
+    }
+    if (batch.length) batches.push(batch);
+    return {
+      url: "https://api.elevenlabs.io/v1/text-to-dialogue?output_format=mp3_44100_128",
+      headers: { "xi-api-key": process.env.ELEVENLABS_API_KEY, "Content-Type": "application/json" },
+      bodies: batches.map(inputs => ({ inputs, model_id: "eleven_v3" })),
+      body: { inputs: batches[0], model_id: "eleven_v3", batches: batches.length }, // for the dry-run printout
+      binary: true,
+    };
+  },
 };
 
 /* ---------- a WAV header, for the one engine that returns raw samples ---------- */
@@ -126,6 +134,19 @@ function wav(pcm, rate = 24000, channels = 1, bits = 16) {
 
 async function render(name) {
   const req = REQUESTS[name]();
+
+  if (req.binary) {
+    // One or more requests, each answering with raw MP3 bytes; concatenate in order.
+    const parts = [];
+    for (const body of req.bodies) {
+      const r = await fetch(req.url, { method: "POST", headers: req.headers, body: JSON.stringify(body) });
+      if (!r.ok) throw new Error(`${r.status} ${(await r.text()).slice(0, 300)}`);
+      parts.push(Buffer.from(await r.arrayBuffer()));
+      process.stdout.write(".");
+    }
+    return { ext: "mp3", buf: Buffer.concat(parts) };
+  }
+
   let res = await fetch(req.url, { method: "POST", headers: req.headers, body: JSON.stringify(req.body) });
   if (!res.ok) throw new Error(`${res.status} ${(await res.text()).slice(0, 300)}`);
   let data = await res.json();
@@ -133,8 +154,10 @@ async function render(name) {
   if (req.queued) {
     // Poll until the job finishes. fal returns status_url and response_url.
     const statusUrl = data.status_url || data.status;
-    for (let i = 0; i < 120; i++) {
-      await new Promise(r => setTimeout(r, 3000));
+    // Cold-starting the 7B model plus long audio can take well over ten minutes;
+    // the first real render sat IN_QUEUE for six and IN_PROGRESS for seven more.
+    for (let i = 0; i < 240; i++) {
+      await new Promise(r => setTimeout(r, 5000));
       const s = await (await fetch(statusUrl, { headers: req.headers })).json();
       if (s.status === "COMPLETED") { data = await (await fetch(data.response_url, { headers: req.headers })).json(); break; }
       if (s.status === "FAILED") throw new Error("fal reported FAILED: " + JSON.stringify(s).slice(0, 300));

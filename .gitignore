@@ -11,3 +11,4 @@ node_modules/
 
 # rendered audio samples, not source
 audio-samples/
+.env.local

@@ -6,6 +6,26 @@ the institute works. Items move here out of `BACKLOG.md` when they are done.
 Everything from the founding onwards is here. Entries before 2026-09-06 came from the old root
 `CHANGELOG.md`, which was merged into this file on 2026-09-06 so there is only one changelog.
 
+## 2026-09-06 (podcast setup session)
+
+**The first podcast episode exists, and the plumbing around it**
+
+- Fourth research pass on the engine question after John asked "are you sure?": VibeVoice on
+  fal.ai confirmed (memo updated with the community-fork provenance, the reseller pricing, and
+  ElevenLabs v3 promoted to challenger); John then chose fal himself.
+- fal.ai account created by John with $10 credits; API key in git-ignored `.env.local`.
+- Bible Basics lesson 2 rendered as a 6-minute two-host episode for $0.32: script written by hand
+  from the lesson, fact-checked in a fresh-context subagent (five nits found and fixed before
+  rendering), rendered on VibeVoice 7B.
+- R2 activated by John; bucket `foval-audio` created, public dev URL enabled, episode uploaded.
+- Lessons take `audio:` frontmatter; the lesson page renders a gold-topped Listen block with the
+  synthetic-voices disclosure. Live when Bible Basics publishes.
+- Homepage feature card 08 became a real capture of the player (new `tile-podcast` screenshot
+  target); the typographic teaser and its `feature-soon` CSS removed.
+- `podcast-compare.mjs` request shapes verified against live docs; ElevenLabs binary response and
+  2,000-character batching fixed, Gemini default bumped to 3.1 Flash TTS, poll budget raised to
+  20 minutes after a 13-minute cold start.
+
 ## 2026-09-06
 
 **Homepage redesign (approved by John, live)**

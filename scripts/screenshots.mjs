@@ -98,6 +98,7 @@ const TARGETS = {
   "tile-transcript": { page: "#/my-learning", sel: "#main .eyebrow", widths: "phone", seed: true },
   "tile-video": { page: `#/course/${BIBLE}/lesson/01-finding-your-way-around`, sel: ".video-fig", widths: "phone",
     draft: true, needsYouTube: true, before: loadVideo },
+  "tile-podcast": { page: `#/course/${BIBLE}/lesson/02-one-story`, sel: ".podcast", widths: "phone", draft: true },
 };
 
 /* ---------- a plausible learner, so the Review page and the transcript have something on them ---------- */

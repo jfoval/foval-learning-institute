@@ -288,6 +288,11 @@ a.path-item:hover { background: var(--surface-2); color: var(--text); }
 /* Standpoint courses (standards 3.7) */
 .standpoint-tag { display: inline-block; font-family: var(--serif); font-size: .9rem; color: var(--gold); border: 1px solid var(--gold); padding: .1rem .5rem; margin-bottom: .6rem; align-self: flex-start; }
 .standpoint { border-left: 3px solid var(--gold); padding: .6rem 1rem; margin: 0 0 1rem; font-size: .95rem; color: var(--text-2); }
+.podcast { border: 1px solid var(--line); border-top: 3px solid var(--gold); padding: .9rem 1.1rem; margin: 1rem 0 1.5rem; }
+.podcast b { display: block; font-family: var(--serif); font-weight: 400; font-size: 1rem; color: var(--text-2); margin-bottom: .5rem; }
+.podcast audio { display: block; width: 100%; }
+.podcast .small { margin: .5rem 0 0; }
+
 .objectives { border: 1px solid var(--line); padding: .9rem 1.1rem; margin: 1rem 0 1.5rem; font-size: .95rem; }
 .objectives b { display: block; font-family: var(--serif); font-weight: 400; font-size: 1rem; color: var(--text-2); margin-bottom: .4rem; }
 .objectives ul { margin: 0; padding-left: 1.2rem; }
@@ -440,11 +445,6 @@ a.path-item:hover { background: var(--surface-2); color: var(--text); }
 .feature-label span { position: absolute; left: 0; right: 0; bottom: 100%; background: var(--surface); border-top: 1px solid var(--line); padding: .65rem .9rem; font-size: .85rem; line-height: 1.45; color: var(--text-2); opacity: 0; transform: translateY(6px); transition: opacity .3s ease, transform .3s ease; pointer-events: none; }
 .feature:hover .feature-label span, .feature:focus .feature-label span { opacity: 1; transform: none; }
 /* Card 08 has no screenshot to photograph yet, so it says so in type instead of a mockup. */
-.feature-soon .soon-art { aspect-ratio: 3 / 3.4; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: .7rem; background: var(--surface-2); text-align: center; padding: 1rem; }
-.soon-kicker { font-size: .72rem; letter-spacing: .12em; text-transform: uppercase; font-weight: 600; color: var(--oxblood); }
-.soon-line { font-family: var(--serif); font-size: 1.5rem; line-height: 1.25; color: var(--text); }
-.feature-soon { transition: border-color .25s ease; }
-.feature-soon:hover, .feature-soon:focus { border-color: var(--gold); }
 
 /* Touch screens keep the images at full strength (there is no cursor to bring one
    forward) and a tap reveals the line through focus. */
