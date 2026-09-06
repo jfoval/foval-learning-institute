@@ -54,7 +54,7 @@
 - **Spaced review of:** lesson 1's Tanakh/Old Testament order (the two endings, now explained as two ways of reading the same story).
 - **Neutrality note:** the historicity of the events on the timeline (patriarchs, exodus, conquest, the size of David's kingdom) is named as argued and deferred to lesson 10 and *Hard Questions*. The Tel Dan stele (1993, "House of David") and the exile are given as established.
 
-### 3. Genre first: the reading rule that changes everything, and how to read narrative (~45 min)
+### 3. Genre first: what kind of writing is this, and how to read a story (~120 min; split candidate, see REVIEWS.md)
 - **Opens with:** 1 Samuel 17:47, "the battle is the LORD's", and the question of who the hero of the chapter is.
 - **Objectives:** explain why identifying the kind of writing is the first interpretive decision and state Fee & Stuart's basic rule; apply the ten principles for Old Testament narrative to a story; distinguish description from prescription in a narrative; identify when a narrative's silence is being read as approval.
 - **Core ideas:** the Fee & Stuart method: what kind of writing is this, what are the rules of that kind, then read. The basic rule: "a text cannot mean what it never could have meant to its author or readers". Narrative is over forty percent of the Old Testament and the Old Testament is three-quarters of the Bible, so this is the genre most readers meet most. The ten principles, especially: narratives don't usually teach doctrine directly; they record what happened, not what should have happened; people in them are often examples of the opposite; God is the hero of all biblical narratives. The narrator's voice (what the text itself evaluates, as at 2 Samuel 11:27) against what it merely reports.

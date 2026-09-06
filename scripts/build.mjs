@@ -149,6 +149,20 @@ function lintLessons() {
           });
         if (darkText.length) warn.push(`${file}: ${darkText.length} SVG <text> fill(s) hardcoded dark (${[...new Set(darkText)].join(", ")}); use var(--text, ...) or var(--text-2, ...) so they survive the dark theme`);
 
+        // The mirror of the dark-fill rule, and easy to miss. White label text was safe
+        // while bars were a fixed dark colour. Once the bars became var(--navy) they flip
+        // light on the dark theme, and the white text on them disappears. Any hardcoded
+        // fill on SVG text is now a bug: use a token, or put the label outside the bar
+        // with a colour swatch, which is what bible-basics lesson 3 does.
+        const lightText = [...src.matchAll(/<text[^>]*fill="(#[0-9a-fA-F]{3,6})"/g)]
+          .map(m => m[1].toLowerCase())
+          .filter(hex => {
+            const h = hex.length === 4 ? "#" + [...hex.slice(1)].map(c => c + c).join("") : hex;
+            const [r, g, b] = [1, 3, 5].map(i => parseInt(h.slice(i, i + 2), 16));
+            return (0.299 * r + 0.587 * g + 0.114 * b) >= 140;
+          });
+        if (lightText.length) warn.push(`${file}: ${lightText.length} SVG <text> fill(s) hardcoded light (${[...new Set(lightText)].join(", ")}); these sat on bars that are now themed, so they vanish on the dark theme. Put labels outside the bar with a swatch, as bible-basics lesson 3 does.`);
+
         // 4.6: shape fills matter as much as text fills. A navy marker on a dark ground
         // vanishes even when its label re-themes correctly, which leaves a chart with
         // labels and no bars.

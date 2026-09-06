@@ -1135,3 +1135,266 @@ before drafting the next one.** That is a Stage 3 process fix worth more than an
 Two more: `scripts/build.mjs` should warn on `fill="#ffffff"` inside `<text>` (white-on-flipped-token
 is now the second SVG contrast bug in this course, and the validator sees neither), and `SOURCES.md`
 line 150's error list must be corrected before lesson 6 is reviewed.
+
+### Resolutions applied, 2026-09-06
+
+Applied in a single fix pass on `lessons/03-genre-first-and-narrative.md`, with corrections made in
+`research/SOURCES.md` and `research/OUTLINE.md` so later lessons do not inherit them.
+`npm run validate` exits 0 and **both of this lesson's warnings are gone** (the six undersized SVG
+labels and the no-links-in-the-body warning); no new warning appears for this lesson or any other.
+Zero em dashes and zero en dashes. Frontmatter parses; six quiz items, each still a mapping with q,
+four options, answer and explain. Body grew from about 5,000 words to about 8,900, all of it
+required by findings above.
+
+**Blocking.**
+
+- **L3-B1.** The unhidden answer is gone. The middle-level task and its model answer are now a single
+  `:::predict` block, so the prompt and the answer arrive one at a time, and the answer sits behind a
+  button. **L3-P2 fixed with it**: the earlier predict now asks for the bottom and top levels only
+  and says explicitly "We'll come to the middle level in a moment, and you'll work that one out for
+  yourself", so the six lookups do real work instead of confirming a conclusion already printed.
+- **L3-B2 and L3-N3.** The Gideon section no longer contradicts its own authority in silence. It
+  names **misappropriation** as Fee and Stuart's own term for the popular reading, quotes their
+  actual position (God saved Israel through Gideon *despite* his lack of trust), says the
+  BibleProject video agrees, and says in the teacher's voice that the textbook is harder on Gideon
+  than this lesson is. "Both are adding a sentence the narrator didn't write" is gone. The two
+  readings are now weighed rather than dismissed: the approval reading "has nothing at all to work
+  with", the condemnation reading "has a good deal", with **Judges 8:27 quoted** ("It became a snare
+  to Gideon and his family") and Webb and Block named as conservative evangelical commentators who
+  read the cycle as critique. The narrow claim survives and is stated as narrow: the fleece itself is
+  never approved, condemned or mentioned again, and arguing from chapter 8 back to chapter 6 is an
+  inference from the whole story that a reader should own as one. The predict answer now says "no
+  reference to the fleece" rather than "the silence is total". The video caption says it "reaches a
+  firmer verdict on Gideon than this lesson does".
+- **L3-B3.** All **nine** errors are now given, in Fee and Stuart's own order and with one-clause
+  glosses, including the two that were missing and that matter most here: misappropriation and false
+  appropriation, which between them are "if the Bible records it, the Bible recommends it".
+  "Extracanonical authority" is gone from the lesson and **corrected at source in `SOURCES.md`**,
+  with a note that it came from an earlier edition through secondary summaries.
+- **L3-B4 and L3-P1.** Objective 1 now has practice, and the basic rule is now used three times
+  instead of admired once. A new subsection, "Using the rule, twice", works the rule as a boundary
+  test on Philippians 4:13 and then hands the learner Jeremiah 29:11 in a `:::checkpoint`. Objective
+  1 was rewritten to say "and **use** Fee and Stuart's basic rule as a boundary test on a passage",
+  and the replacement Q5 tests it on a fresh case. Both worked instances end by naming what the rule
+  did **not** do, which is the misreading the new Q4 explanation warns about.
+- **L3-B5.** The chart is redrawn. viewBox narrowed from 600 to 344 so labels render larger, not
+  smaller: every label is now font-size 15 to 17 and renders at **14 to 16px on a 360px phone**,
+  against 7.1 to 7.7px before. **No text sits inside a bar any more**, so there is no white-on-token
+  text left; every label is `var(--text-2, #4a5260)` outside the bars with a colour swatch beside it,
+  which also fixes the identify-by-colour-alone problem. Rect fills are `var(--navy)`,
+  `var(--navy-soft)` with a `var(--navy)` stroke, and `var(--oxblood)`. Verified by screenshot at
+  400px width in **both** light and dark emulation: all four segments and all six labels are legible
+  in both. A `<desc>` was added and `aria-labelledby` now names title and desc, so a screen-reader
+  user gets the chart's content rather than a 33-word run-on title.
+- **L3-B6.** Q5 and Q6 replaced with fresh cases, Q1, Q2, Q3 and Q4 rebuilt or repaired.
+  **Q5** is now Joshua 10:12-14, a prose report that stops to quote two lines of poetry and names its
+  source, which tests the order of the questions without recycling the Genesis 1 paragraph or
+  importing the creation debate. **Q6 is now 2 Samuel 6, Uzzah**, which is the discrimination item the
+  quiz did not have: a case where the narrator *does* evaluate, so the quiz stops training "the text
+  is silent" as a rule. Every option in every item was levelled for length so the key is no longer
+  the longest, and every "always", "only", "never", "must" and "settled" tell was removed from the
+  distractors or given to the key's neighbours. Q1's two dead distractors are replaced (one now
+  swaps Samson for Deborah, which is the real half-corrected error, and its explanation teaches that
+  the warm material about Deborah is a character's song rather than the narrator's verdict). Q2's two
+  implausible options are replaced, and its new option B is a genuinely careful wrong answer that the
+  explanation credits for the half it gets right. **Keys now spread 1, 3, 0, 2, 3, 1**: all four
+  indices used, index 3 twice, no run, no repeat of the previous item.
+- **L3-B7 (links).** Thirteen in-body links added: 1 Samuel 17, 1 Samuel 8 to 10, 1 Samuel 16,
+  2 Samuel 11, Judges 6, Judges 11, Genesis 25:19-34 and Genesis 27, all at Bible Gateway in the NET
+  so every "open this" instruction is reachable; plus the Chicago Statement, *Dei Verbum* 12, the
+  *Catechism* on the four senses, Sefaria for the JPS verse, the two Hayes lectures by number, the
+  two BibleProject companion videos, and *The Jewish Study Bible*.
+
+**Facts.**
+
+- **L3-F1.** "Go out before us" is gone. The predict answer now quotes the NET, "judge us and lead us
+  and fight our battles" (1 Samuel 8:20), and the argument runs on "lead us", which the NET supports.
+- **L3-F2.** The Judges refrain is now "each man did what he considered to be right" (Judges 17:6 and
+  21:25, NET), matching the NET and matching lesson 2's corrected form.
+- **L3-F3.** The Jephthah checkpoint now says outright that the NET renders 11:39 "She died a
+  virgin", so the reader's own Bible settles on the page a question the minority reading treats as
+  open, and turns that into a teaching point about translation decisions pointing forward to lesson
+  11. "Whatever first comes out of his door" is now "whoever", matching NET 11:31.
+- **L3-F4.** The bar is drawn at exactly 40 percent and the labels now read "40 percent or more".
+  The caption says explicitly that Fee and Stuart give no exact number, so the bar is drawn at the
+  floor, and warns the reader not to read a precision off a picture the source did not supply.
+  "Over two-fifths" and "the top bar's navy" are gone.
+- **L3-F5.** "The next five lessons" is now "the next four lessons".
+- **L3-F6.** New alt text: Goliath "towers over him upright with a spear raised in one hand and a
+  crowd of Philistine warriors ranked behind". The caption now says "lithograph" rather than "colour
+  lithograph", with the discrepancy recorded in source 9.
+- **L3-F7.** Esther 4:14 is now listed in source 3 as quoted, along with every other quotation in the
+  lesson including the quiz stems; the 1 Samuel 8:20 fragment carries its `(NET)` tag; the Judges
+  6:17-27 range is corrected to the verses actually used; Q6 no longer says "displeased the LORD".
+- **L3-F8.** Article XIII now reads "materials", corrected in the lesson and in `SOURCES.md`. David
+  carries "roasted grain and loaves" for his brothers and "ten cheeses for their commanding officer".
+  Eliab is "angry with him and accuses him of pride", not mocking. Principle 5 is "Many, if not most".
+  Samson's "marriages" is now singular in the Q1 explanation. Go Deeper says Hayes "taught".
+
+**Neutrality.**
+
+- **L3-N1.** The standpoint section now separates the two halves explicitly: that 1 Samuel 17 puts
+  God at the centre is on the page and any reader can see it; that the same holds of *every*
+  biblical narrative "is not something the texts can be made to show, and Esther, which never names
+  God, is the case that proves it". It names the tenth principle as "a confession about the whole
+  book, held by faith, and then applied as a reading rule". In the body, "the narrator built it into
+  the climax" is now "the climax of **this chapter**".
+- **L3-N2.** Rewritten as a three-way sort. What scholars establish is now only that Hebrew narrative
+  is spare. How much the silence is doing is given as argued, with **Sternberg named as the
+  counter-position** and Alter's reticence given as a *technique* rather than an absence. Alter's own
+  "historicized prose fiction" is disclosed, with the note that it is not this course's view and is a
+  reason to argue with him.
+- **L3-N4.** A new paragraph gives the text-critical complication at full strength: the shorter Greek
+  text of 1 Samuel 17 to 18, Saul's question at 17:55-58 against 16:21-23, and Elhanan at 2 Samuel
+  21:19. **The Elhanan point is stated the only honest way**, since NET 21:19 already reads "the
+  brother of Goliath": the lesson says so, names it as a translation decision following 1 Chronicles
+  20:5, and says the reader should know about it rather than discover it. The section then says what
+  holding the conservative view costs: "the confidence with which I said 'the narrator set this up'"
+  assumes one designing mind behind chapters 16 and 17. "Nothing in this lesson depends on it" is
+  gone.
+- **L3-N5.** A full paragraph now follows the errors list: Origen, Gregory of Nyssa and Augustine;
+  Cassian's four senses; the *Catechism* at 115 to 118, linked; Orthodox liturgical reading. It says
+  the objection is to allegory that replaces the plain sense rather than resting on it, that the
+  fathers said the literal sense comes first too, and that the difference from a Catholic or Orthodox
+  reader "is a difference inside the church, not a difference between reading well and reading
+  badly". Moralising is named as Cassian's third sense "under a less friendly name". The point is
+  carried into the exercise: the model answer for the allegorising item repeats the care.
+- **L3-N6.** "Protestant Old Testament" wherever a number is attached, in the prose, in the two bar
+  labels, and in the SVG's `<desc>`. A new sentence names Tobit, Judith, 1 and 2 Maccabees and the
+  additions to Esther and Daniel and says narrative's share goes **up**, not down, in a Catholic or
+  Orthodox Bible.
+- **L3-N7.** A new paragraph gives the fair version: authorial meaning is "a position rather than a
+  fact, and it is argued", with Gadamer, Ricoeur and reader-response named, *Dei Verbum* 12 linked
+  for the Catholic qualification, and the critical objection that most Old Testament narrative has no
+  single author to recover. It closes "you should know we hold it rather than found it". The four
+  mind-reading sentences are softened to reading claims ("The chapter is built so that you feel the
+  size of the giant"; "That detail is not there by accident"), and "The chapter would rather you
+  noticed who saves" is cut.
+- **L3-N8.** A new paragraph teaches the Deuteronomistic History as Noth's hypothesis, says the
+  refrain the lesson used on Jephthah is one of its main exhibits, states the conservative reply,
+  says plainly that "the narrator of Judges" assumes the second view and what changes if the first is
+  right, and hands the argument to lesson 10. The Go Deeper entry now says these are the lectures
+  "where you will meet the Deuteronomistic History as an argument rather than a label".
+- **L3-N9 and L3-N12.** The Jewish reader paragraph is rewritten. It places 1 Samuel among the Former
+  Prophets, the Nevi'im Rishonim, names midrash, Rashi and Radak, and **quotes 1 Samuel 17:47 in JPS
+  1917 with a Sefaria link** (new source 12), which is where 4.7's rule bites. It ends by saying the
+  three-level scheme "is ours and not a neutral description" and that a Jewish reader "does not read
+  the Tanakh as a book missing its last act. They read it as complete." Q3's explanation now says the
+  genre ruling holds "by the categories this lesson uses" and notes that the Jewish arrangement calls
+  Kings prophecy in a different sense. *The Jewish Study Bible* added to Go Deeper.
+- **L3-N10.** The Genesis 1 paragraph now reaches outside evangelicalism: the critical reading as a
+  priestly text against *Enuma Elish*, and Rashi's dependent clause giving the JPS "When God began to
+  create".
+- **L3-N11.** A new paragraph gives Chicago's limits alongside its latitude: the 1982 Hermeneutics
+  statement's Article XXII and the 1978 Article XII, with the conclusion that "Chicago is not a
+  licence to reclassify whatever you find awkward". "The strictest evangelical view" and "the most
+  conservative statement" are replaced by "drafted by nearly three hundred evangelical leaders as the
+  reference statement of that doctrine".
+- **L3-N13.** Q3's strawman sermon title is replaced with a real one that a preacher would actually
+  write, and its explanation now says "this sermon is not stupid, which is why it is the example". A
+  new sentence closes the Gideon section: "None of that is a sneer at the bookmark. People reach for
+  these lines because they want God to say something to them personally, which is the right instinct."
+
+**Depth (the researched-and-unused hunt).** Added and now cited from the body: **Chicago Article
+XIII's "reporting of falsehoods"**, inside the description/prescription callout, which is the
+inerrantists' own statement making this lesson's argument; **Duvall and Hays's fifth step**, with
+"consult the biblical map" restored, flagged as the step to hold on to, and then named twice where
+the lesson performs it (principle 6, and the fleece checkpoint); **Alter's reticence**, attached to
+the 2 Samuel 11:27 paragraph where the lesson was already teaching it unnamed; **John 21:25**,
+quoted against principle 7, which is the passage `SOURCES.md` assigned to exactly that idea;
+**Hayes's verified "It's a library" quotation** in place of the unattributed phrase; **Longman and
+Dillard** added to Go Deeper as the answer to a real gap, since the lesson sends the reader into four
+chapters of Judges and Samuel with no way to get their bearings in a book they have not read;
+**Hayes's lecture numbers**, 12 and 13, per `OUTLINE.md` convention 8; **the two BibleProject
+companion videos with real URLs**. Every one of the ten principles now has a gloss or an example, so
+"apply the ten principles" is no longer a promise against a list where half the items have never
+done anything. "The most-used introduction to reading the Bible" is rescoped to "the standard first
+book on the subject in evangelical colleges and seminaries", and the three-step order is labelled in
+source 1 as this course's summary rather than a formula quoted from the book.
+
+**Voice and pedagogy.** The **title** is now "Genre first: what kind of writing is this, and how to
+read a story", so the string the learner sees no longer carries the tic the style guide names by
+example; `OUTLINE.md`'s heading updated to match. All six one-line morals are gone, including "The
+chapter would rather you noticed who saves" and the two promissory closings. **All "Here is" openers
+are gone**, count now zero. Pipeline vocabulary is out of every heading: the worked examples are
+"David and Goliath, read three times" and "Gideon's fleece, and the silence that gets read as a yes",
+"## Practice" is now "## Now do it yourself, on Jacob and Esau", and the exercise is named after its
+parts. The banned shapes at "The question is never literal or not", the empty triad at "it's real",
+and the rhythm triad "No verdict, no comment, no later reference" are rewritten; the second
+rhetorical-question opener is gone and the one at "Who is the hero of that chapter?" is kept, as is
+"So may a Christian ask God for a sign?", which the guide allows because a real student asks it.
+Contractions now run 183 in the body. The eleven read-aloud failures are rewritten, including the
+62-word Alter sentence and the 34-word Connections sentence. The **Judges 6 block quote is split in
+two** at the seam, with the "as you promised" observation moved between the halves so the analysis
+sits next to its evidence; the 1 Samuel 17 speech is split at "cut off your head" so the two clauses
+the worked example turns on are not buried at the end of an eighteen-line block. **The exercise no
+longer prints its own finding**: part 2 ends at "Count both", and the tick-and-dash result moved into
+a hidden checkpoint. **Line 189's pre-emption is fixed**: the predict now sits *before* the popular
+reading, and the popular reading says "nobody in the text objects" rather than announcing the answer.
+**The exercise has model answers**, three `:::checkpoint` blocks after it covering parts 1 and 2,
+part 4, and part 5, since the renderer will not nest blocks. **A fifth exercise part was added for
+interleaving**, a mixed set of four short cases to be sorted among the nine errors and deliberately
+not done in order, which is the fix lesson 2 got and lesson 3 lacked. **Two misconceptions were
+added**: "The story is about me", which is personalising and which the lesson's own opening paragraph
+sets up, and "If God blessed them, he approved of what they did", which is outcome read as verdict
+and is what two quiz items turn on. Predict 2 is sharpened from a yes/no to "write down what you
+expect... and where in the next chapter you expect to find it", so the learner commits to a
+prediction before discovering there is nothing there.
+
+**`minutes` 45 to 150.** The pedagogy reviewer measured 115 to 130 against the 5,000-word draft. The
+fixes took the body to about 8,900 words, which adds roughly twenty minutes of reading, and added a
+checkpoint, an exercise part and three model-answer blocks, which add about fifteen more. Components:
+47 reading; 11 two videos; 10 1 Samuel 17; 8 the 1 Samuel 8 to 16 lookups; 7 Judges 6; 15 Genesis 25
+and 27; 12 the five predict and checkpoint blocks; 28 the five exercise parts, of which part 2 alone
+is ten; 7 free recall; 12 the quiz with its explanations. **The number was set to what the lesson
+actually costs rather than to what looks reasonable**, because lesson 2's record shows the opposite
+choice being made and regretted in the same paragraph.
+
+### Deliberately not fixed, with reasons
+
+- **Splitting the lesson in two. This is the one thing that needs John, and it is now urgent.**
+  `minutes: 150` is two and a half times 1.3's one-sitting guidance, and the fix pass made it worse
+  rather than better, because every blocking finding asked for more teaching and more practice rather
+  than less. Both reviewers found a seam independently. The depth reviewer put it after "You can't
+  ask what a text meant to its first readers until you know what kind of text they thought they were
+  reading"; the pedagogy reviewer put it one section later, after the proportions chart, so Part A
+  keeps the chart that motivates Part B. **The pedagogy seam is the better one**, and it is now even
+  cleaner than when they found it, because the new "Using the rule, twice" subsection gives Part A
+  its own worked example, its own checkpoint and its own quiz item, which is exactly what it was
+  missing. The split would give a Part A of about 2,600 words and 40 minutes with objective 1
+  properly taught and tested, and a Part B of about 6,300 words and 110 minutes. It was not done
+  because it renumbers the course and every cross-reference in the other eleven lessons, and because
+  lesson 3 itself carries four forward references. **This is the second lesson in a row to hit it.
+  It should go to John as one decision about the course, not two about lessons.**
+- **A third bar on the chart for the Gospels and Acts.** L3-D3 is right that Fee and Stuart's two
+  figures do not on their own establish that narrative is the largest kind of writing in the Bible,
+  because they cover the Old Testament only. The prose now says so and adds that the Gospels and Acts
+  are narrative too, so the real share is larger. A third bar was not drawn, because the only figures
+  available are chapter counts and the first two bars are drawn from a claim about bulk. Mixing the
+  two units in one picture would be exactly the kind of false precision the caption now warns
+  against. A verified bulk figure for New Testament narrative would let this be drawn properly, and
+  it is not in `SOURCES.md`.
+- **Köstenberger and Patterson's hermeneutical triad.** `SOURCES.md` names it as the graduate-level
+  check on the genre lessons and it is still unused. One more Go Deeper entry would have made six on
+  a lesson already at 150 minutes, and the triad's real payoff is across lessons 3 to 7 rather than
+  inside one. Recorded for the lesson 4 draft.
+- **Fee and Stuart's three-step method, verified.** Source 1 now says the three-step order is this
+  course's summary of how the book works rather than a formula quoted from it, which is honest, but
+  it is a downgrade rather than a verification. Whoever next has the book open should check whether
+  ch. 1 states it as a method.
+- **Sternberg cited rather than read.** He is named as the counter-position on narrator evaluation
+  from the reviewer's report, with the book and its publisher and year in source 10, but nothing of
+  his is quoted and the book was not opened at this pass. Same for Webb, Block, Klein and Exum on the
+  Gideon cycle, who are named without page references.
+- **Alter's "historicized prose fiction".** Widely attributed and used in the lesson as his
+  self-description, but not verified against a page of the revised edition at this pass. Flag for the
+  next fact-check.
+- **`scripts/build.mjs` does not warn on `fill="#ffffff"` inside `<text>`.** This lesson's dark-theme
+  bug was invisible to the validator, and it is the second SVG contrast failure in this course that
+  the linter could not see. The fix belongs in the build script, not in a lesson fix pass, and it
+  would catch the same defect in the eight other lessons still carrying SVG warnings. Recorded for
+  the backlog.
+- **The other eight bible-basics lessons' SVG warnings.** Nine lessons in this course still warn on
+  undersized SVG labels or hardcoded dark fills. Lesson 3 is now clean and its chart is the working
+  pattern (narrow viewBox, labels outside the bars with swatches, `var()` fills, a `<desc>`), but
+  fixing the rest is a separate pass and would have buried this one.
