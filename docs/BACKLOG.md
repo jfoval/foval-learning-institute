@@ -1,6 +1,6 @@
 # Backlog and Handoff
 
-*Last updated 2026-09-05. Read this first in a new session, after `CLAUDE.md`. It is the single list of what is in flight, what is next, and what John has asked for that isn't built yet. Keep it current: when something ships, move it to `CHANGELOG.md` and delete it here.*
+*Last updated 2026-09-06. Read this first in a new session, after `CLAUDE.md`. It is the single list of what is in flight, what is next, and what John has asked for that isn't built yet. Keep it current: when something ships, move it to `CHANGELOG.md` and delete it here.*
 
 ## 1. Pipeline state right now
 
@@ -294,3 +294,29 @@ lesson already rested it. The argument is unaffected; the texture of the passage
 - Term milestones ("Foundations" etc.) on the Path page when a term is complete.
 - Audio mode and "Ask this lesson" are on the roadmap (Phase 2 and 3).
 - The taxonomy's `Christian standpoint` labels are now capitalised as "Christian Standpoint" everywhere the site shows them; keep that form.
+
+## 10. Course requests from people (opened 2026-09-06)
+
+Requests that came in by text message, not through the feedback form. All are now rows in
+`curriculum/TAXONOMY.md` with status `planned`; none has a folder yet. A folder gets created when
+research begins (`/research-course`).
+
+| Course | School | Requested by | Why |
+|---|---|---|---|
+| Graphic Design Fundamentals | Literature and the Arts | M. Wesley | Wants to take it himself. First outside request for a course. |
+| Statistics for Citizens (existing row, note widened) | Foundations | M. Wesley | Asked for "intro to statistics and the normal distribution". The existing course already covers averages, sampling and correlation; the note now names spread and the normal distribution explicitly so the outline has to teach the bell curve properly, including where it does not apply. |
+| Computer Science Foundations | Computer Science and AI | John | Part of the "speciality technology courses" ask. Sits between How Computers Work and Data Structures and Algorithms: computation and its limits, complexity, languages and compilers, memory, concurrency. |
+| Technology Leadership: CTO and CIO | Computer Science and AI | John | The other half of that ask. The executive job rather than the craft: architecture and build-vs-buy, budgets and vendors, security posture, team structure, roadmaps, talking to a board. Marked Advanced because it assumes the technical courses under it. |
+
+**Data science basics (John).** Deliberately not a new row. The path already exists and adding a
+"Data Science" course would duplicate three others: Statistics for Citizens, then Statistics and
+Probability (Mathematics), then Data Analysis (Computer Science and AI), with Machine Learning
+Fundamentals after it. If those four are built in that order they are the data science basics. Worth
+raising with John only if he wants them bundled and labelled as one track on the Path page, which is
+a packaging decision, not a new course.
+
+**Ordering.** These four are all `planned` behind a queue that is already long: two courses are
+mid-review (Bible Basics, Logic and Argument) and four live placeholder courses have never been
+through the pipeline (§8e). Nothing here jumps that queue without John saying so. Graphic Design
+Fundamentals is the one with a named person waiting on it, which is the strongest reason on the list
+to move a course up.

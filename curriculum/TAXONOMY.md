@@ -23,7 +23,7 @@ The map is deliberately ambitious. Most courses are `planned`. The point of writ
 |---|---|---|---|
 | Reading Well | Foundation | planned | How to read a book, a paper, a primary source. Adler's levels of reading. Note-taking that sticks. |
 | Logic and Argument | Foundation | drafting | Deductive and inductive reasoning, argument structure, formal fallacies, informal fallacies, steelmanning. |
-| Statistics for Citizens | Foundation | planned | Averages that lie, base rates, sampling, confidence, correlation vs causation, how to read a study and a news claim. |
+| Statistics for Citizens | Foundation | planned | Averages that lie, base rates, sampling, spread and the normal distribution (what the bell curve really claims and where it fails), confidence, correlation vs causation, how to read a study and a news claim. |
 | Probability and Decisions | Core | planned | Expected value, Bayes, risk, decision-making under uncertainty. |
 | How We Know: Epistemology in Practice | Core | planned | Evidence hierarchies, expert disagreement, when to trust whom, calibrated confidence. |
 | The Scientific Method | Foundation | planned | What science is and isn't, experiments, replication, why science self-corrects, its limits. |
@@ -123,6 +123,7 @@ The map is deliberately ambitious. Most courses are `planned`. The point of writ
 | Film as Art | Foundation | planned | |
 | Architecture | Core | planned | |
 | Creative Writing | Core | planned | Fiction, essay, poetry. |
+| Graphic Design Fundamentals | Foundation | planned | Type, colour, hierarchy, grid and composition, contrast, whitespace. Reading a design and fixing one. Real projects, real critique. |
 
 ## 7. School of Economics, Government, and Law — `economics-government-and-law`
 *How societies organise money, power, and rules.*
@@ -156,6 +157,8 @@ The map is deliberately ambitious. Most courses are `planned`. The point of writ
 | Using AI Effectively | Foundation | planned | Prompting, workflows, verification, where it fails. |
 | Building with AI | Core | planned | APIs, agents, tools; shipping something real. |
 | Cybersecurity for Everyone | Foundation | planned | |
+| Computer Science Foundations | Core | planned | The theory under the craft: computation and what a computer cannot do, complexity and Big O, languages and compilers, memory, concurrency. |
+| Technology Leadership: CTO and CIO | Advanced | planned | The job above the code. Architecture and build-vs-buy decisions, budgets and vendors, security and risk posture, team structure and hiring, roadmaps, and explaining technology to a board. |
 
 ## 9. School of Business and Enterprise — `business-and-enterprise`
 *How to create value and get paid for it.*
