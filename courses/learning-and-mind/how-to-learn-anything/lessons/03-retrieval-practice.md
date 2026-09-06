@@ -31,7 +31,7 @@ quiz:
     options:
       - The mappers win, because practice in the format of the final test is one of the moderators that increases the testing effect
       - The closed-book group wins, because they were the ones reconstructing the structure from memory during practice
-      - The two groups tie: the mappers' format advantage and the recallers' retrieval advantage cancel out
+      - The two groups tie, because the mappers' format advantage and the recallers' retrieval advantage cancel each other out
       - The mappers win on the map test but would have lost on a short-answer test, since each method is strongest at what it practised
     answer: 1
     explain: >-
