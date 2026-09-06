@@ -81,15 +81,48 @@ Working memory is where you think. It holds whatever you're attending to right n
 
 Long-term memory is where everything you know lives, and for practical purposes it has no capacity limit. Nobody has ever run out.
 
-For the kind of learning this course is about, everything has to pass through the small store to reach the large one. That's the bottleneck, and most of what goes wrong in studying goes wrong there.
+For the kind of learning this course is about, everything has to pass through the small store to reach the large one. That's the bottleneck, and most of what goes wrong in studying goes wrong there. The diagram below is the whole architecture this lesson runs on; keep it in view as you read.
 
-How small is small? You've probably heard the number seven. George Miller's 1956 paper put the limit at "seven, plus or minus two".[2]
+<svg viewBox="0 0 584 302" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:584px;display:block;margin:1.5em auto;font-family:system-ui,sans-serif" role="img" aria-labelledby="wm-title wm-desc">
+  <title id="wm-title">The bottleneck: new material passes through a small working memory to reach an unlimited long-term memory</title>
+  <desc id="wm-desc">Three boxes in a row. New material flows into working memory, a small box labelled about four chunks of new material, held for seconds. An arrow labelled thinking about meaning carries material from working memory into long-term memory, a large box labelled everything you know, no practical limit. A return arrow underneath shows stored chunks coming back to working memory as single units.</desc>
+  <text x="20" y="22" font-size="17" font-weight="700" fill="var(--text, #1a1a1a)">Two memories, one bottleneck</text>
+  <rect x="20" y="60" width="120" height="90" rx="6" fill="none" stroke="var(--text-2, #4a5260)" stroke-width="2"/>
+  <text x="80" y="95" font-size="15" text-anchor="middle" fill="var(--text, #1a1a1a)">New</text>
+  <text x="80" y="115" font-size="15" text-anchor="middle" fill="var(--text, #1a1a1a)">material</text>
+  <line x1="140" y1="105" x2="182" y2="105" stroke="var(--text-2, #4a5260)" stroke-width="2"/>
+  <path d="M182 105 l-9 -5 v10 z" fill="var(--text-2, #4a5260)"/>
+  <rect x="184" y="60" width="150" height="90" rx="6" fill="none" stroke="var(--oxblood, #8b1e2d)" stroke-width="3"/>
+  <text x="259" y="85" font-size="15" font-weight="700" text-anchor="middle" fill="var(--oxblood, #8b1e2d)">Working memory</text>
+  <text x="259" y="107" font-size="15" text-anchor="middle" fill="var(--text, #1a1a1a)">~4 chunks of new</text>
+  <text x="259" y="127" font-size="15" text-anchor="middle" fill="var(--text, #1a1a1a)">material, for seconds</text>
+  <line x1="334" y1="105" x2="376" y2="105" stroke="var(--text-2, #4a5260)" stroke-width="2"/>
+  <path d="M376 105 l-9 -5 v10 z" fill="var(--text-2, #4a5260)"/>
+  <text x="374" y="34" font-size="15" text-anchor="end" fill="var(--text-2, #4a5260)">thinking about</text>
+  <text x="374" y="52" font-size="15" text-anchor="end" fill="var(--text-2, #4a5260)">meaning</text>
+  <rect x="378" y="40" width="186" height="130" rx="6" fill="none" stroke="var(--navy, #0f2a4a)" stroke-width="3"/>
+  <text x="471" y="85" font-size="15" font-weight="700" text-anchor="middle" fill="var(--navy, #0f2a4a)">Long-term memory</text>
+  <text x="471" y="107" font-size="15" text-anchor="middle" fill="var(--text, #1a1a1a)">everything you know,</text>
+  <text x="471" y="127" font-size="15" text-anchor="middle" fill="var(--text, #1a1a1a)">no practical limit</text>
+  <path d="M440 170 v34 h-200 v-34" fill="none" stroke="var(--gold, #b08d2a)" stroke-width="2"/>
+  <path d="M240 174 l-5 9 h10 z" fill="var(--gold, #b08d2a)"/>
+  <text x="340" y="224" font-size="15" text-anchor="middle" fill="var(--text, #1a1a1a)">stored chunks come back as single units,</text>
+  <text x="340" y="244" font-size="15" text-anchor="middle" fill="var(--text, #1a1a1a)">without spending a slot on each part</text>
+  <text x="20" y="280" font-size="15" fill="var(--text-2, #4a5260)">The two-store picture cognitive load theory is built on (Sweller;</text>
+  <text x="20" y="298" font-size="15" fill="var(--text-2, #4a5260)">capacity estimate from Cowan 2001). Sizes not to scale.</text>
+</svg>
+
+How small is small? You've probably heard the number seven. [George Miller's 1956 paper](https://psychclassics.yorku.ca/Miller/), one of the most cited in psychology and free to read, put the limit at "seven, plus or minus two".[2]
 
 :::predict Miller's people were allowed to rehearse and regroup. If you stop them doing that, does the number go up, go down, or stay the same?
-Down. Nelson Cowan reviewed the evidence in 2001 and argued that when you prevent rehearsing and regrouping, the limit is three to five, about four on average.[3] Four is what you get when you meet material for the first time and have no tricks available. Miller's seven is what you get once people have already found ways to group.
+Down. Nelson Cowan [reviewed the evidence in 2001](https://pubmed.ncbi.nlm.nih.gov/11515286/) and argued that when you prevent rehearsing and regrouping, the limit is three to five, about four on average.[3] Four is what you get when you meet material for the first time and have no tricks available. Miller's seven is what you get once people have already found ways to group.
 :::
 
 So Miller's number is famous and, for learning, misleading. Four is the number to keep in mind.
+
+:::video https://www.youtube.com/watch?v=k8Bgs8EarR0 | Alan Baddeley: how are long-term and working memory related?
+Baddeley is the researcher whose 1974 model made "working memory" the standard term, and this five-minute interview is him on exactly the relation this section describes: the small active store, the large permanent one, and why what you already know changes what the small one can hold.
+:::
 
 Two honesties about that number. First, "slots" is a metaphor, and a contested one. Memory researchers still argue over whether working memory has a fixed number of discrete places or a single resource that spreads thinner as you add items. For a learner, the two pictures give the same advice, so this lesson uses slots. Second, the limit is a limit on new material. Once something is stored in long-term memory, working memory can pull it in without spending a slot in the same way. The four-item ceiling is a ceiling on what you have never seen before.[1]
 
@@ -121,7 +154,7 @@ Barbara Oakley's course (with Terrence Sejnowski) draws "chunking" from the same
 
 ## Memory is the residue of thought
 
-If chunks are built in long-term memory, how do things get there? Not, for this kind of learning, by exposure. Daniel Willingham's summary of decades of memory research is one sentence: "memory is the residue of thought".[7] You remember what you thought about.
+If chunks are built in long-term memory, how do things get there? Not, for this kind of learning, by exposure. [Daniel Willingham's summary of decades of memory research](https://www.aft.org/ae/winter2008-2009/willingham) is one sentence: "memory is the residue of thought".[7] You remember what you thought about.
 
 The experiment behind the sentence is Craik and Tulving's from 1975. They showed people a list of words and asked a different question about each one: is it in capitals? does it rhyme with *train*? would it fit in this sentence? Then came a surprise memory test. The words people had judged for meaning were recognised several times as often as the words they had judged for typeface.[11]
 
@@ -141,7 +174,7 @@ Because what they thought about differed. Memory is the residue of thought: the 
 
 ## Cognitive load: two kinds, one to cut
 
-John Sweller's cognitive load theory turns these limits into rules for instruction and study.[1] The load on working memory during learning comes from two sources.
+[John Sweller's cognitive load theory](https://link.springer.com/article/10.1007/s10648-019-09465-5) turns these limits into rules for instruction and study.[1] The load on working memory during learning comes from two sources.
 
 Intrinsic load comes from the material itself. Specifically it comes from what Sweller calls *element interactivity*: how many elements you have to hold at once because they only make sense together. Learning ten Spanish nouns is low interactivity; each word can be learned alone. Learning to conjugate a verb in a sentence is high interactivity; person, tense, ending and word order all interact, and you can't understand one without the others. Intrinsic load isn't the enemy. It's the content. But it can be managed, by building up the sub-parts first so they become chunks, and by sequencing so that only a few new interacting elements arrive at once.
 

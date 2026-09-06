@@ -36,7 +36,10 @@ parallel sessions is the ceiling. A platform session must not touch `courses/` o
    links in the body. One or two lessons per session. **Lesson 1 done 2026-09-06** (crossover
    chart from the Roediger and Karpicke data, Bjork's own five-minute gocognitive video on the
    two strengths, six body links to free PDFs of the cited papers, every URL verified live;
-   the gocognitive channel likely has clips for later lessons too). Lessons 2 to 8 remain.
+   the gocognitive channel likely has clips for later lessons too). **Lesson 2 done the same
+   day** (two-stores bottleneck diagram, Baddeley's gocognitive interview on working versus
+   long-term memory, links to Miller 1956 full text, Cowan 2001, Willingham's AFT article,
+   and the open-access Sweller 2019). Lessons 3 to 8 remain.
    (c) Podcast each lesson as it settles.
 3. **The four placeholder courses** (Python, Algebra, Personal Finance, Writing Clearly), which
    are live and have never been through the pipeline. For each, in this order: run Stage 1

@@ -8,6 +8,18 @@ Everything from the founding onwards is here. Entries before 2026-09-06 came fro
 
 ## 2026-09-06 (podcast pipeline session)
 
+**How to Learn Anything lesson 2: media pass (second of eight)**
+
+- A two-stores bottleneck diagram (new material → working memory → long-term memory, with the
+  gold return arrow for stored chunks), drawn inline with theme tokens and checked in both
+  themes at both widths.
+- Alan Baddeley's five-minute gocognitive interview on how long-term and working memory
+  relate, embedded where the two stores are introduced; availability verified via oEmbed.
+- Body links, all verified live: Miller 1956 full text at Classics in the History of
+  Psychology, Cowan 2001 on PubMed, Willingham's "What Will Improve a Student's Memory?" at
+  AFT, and the open-access Sweller, van Merriënboer & Paas 2019 at Springer. The lesson's
+  no-links warning is gone.
+
 **How to Learn Anything lesson 1: media pass (marching-order item 2b, first of eight)**
 
 - A line chart of the Roediger and Karpicke (2006) crossover, drawn inline from the six real
