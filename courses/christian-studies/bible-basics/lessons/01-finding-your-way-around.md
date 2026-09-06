@@ -22,7 +22,8 @@ quiz:
       - Nothing is missing from either; the same material is cut up differently, with Samuel, Kings, Chronicles and Ezra-Nehemiah each counted as one book and the twelve short prophets counted as one
       - The gap is the deuterocanonical books, which Catholic Bibles carry and Protestant Bibles and the Tanakh do not
     answer: 2
-    explain: C. Twenty-four and thirty-nine are two ways of counting one set of books, not two different sets. Four books split in two gives you four more, and counting the Twelve one by one gives you eleven more, which takes twenty-four to thirty-nine. A gets the direction backwards and treats the Christian arrangement as the standard the Jewish one departed from; both are ancient and neither is a corruption of the other. B invents a place for them. D is a real disagreement about real books, but it is a different one: it concerns seven books beyond the thirty-nine, and it has nothing to do with the gap between twenty-four and thirty-nine.
+    explain: >-
+      C. Twenty-four and thirty-nine are two ways of counting one set of books, not two different sets. Four books split in two gives you four more, and counting the Twelve one by one gives you eleven more, which takes twenty-four to thirty-nine. A gets the direction backwards and treats the Christian arrangement as the standard the Jewish one departed from; both are ancient and neither is a corruption of the other. B invents a place for them. D is a real disagreement about real books, but it is a different one: it concerns seven books beyond the thirty-nine, and it has nothing to do with the gap between twenty-four and thirty-nine.
   - q: A reader finishes Genesis 1 on the sixth day, turns the page, and finds that chapter 2 opens with three verses about the seventh day before the account moves to a garden. She asks why the seventh day is in a different chapter from the other six. What is the move this lesson has taught her?
     options:
       - The break falls inside the unit; the seventh day completes the six, so read 1:1 to 2:3 as one account and let the next section begin at 2:4
@@ -30,7 +31,8 @@ quiz:
       - She should shift every chapter opening in Genesis back by one verse, since the breaks there are placed consistently early
       - Only a commentary can settle where the account ends, because the original Hebrew divisions have been lost
     answer: 0
-    explain: A. Same habit as Isaiah 52:13. The numbers are an address, not the author's outline, so when a line will not sit where the number puts it, read across the number and find where the thought actually starts and stops. B is the misconception in its purest form: no biblical author saw a chapter number, and Langton added these about eleven hundred years after the New Testament was finished. C swaps one bad rule for another; some breaks are well placed and some are not, and the only way to know is to look at the passage. D hands away a job she has already half done, since she is the one who noticed the seam.
+    explain: >-
+      A. Same habit as Isaiah 52:13. The numbers are an address, not the author's outline, so when a line will not sit where the number puts it, read across the number and find where the thought actually starts and stops. B is the misconception in its purest form: no biblical author saw a chapter number, and Langton added these about eleven hundred years after the New Testament was finished. C swaps one bad rule for another; some breaks are well placed and some are not, and the only way to know is to look at the passage. D hands away a job she has already half done, since she is the one who noticed the seam.
   - q: Someone in a class argues that Ezra must have been written before Isaiah, "because Ezra comes earlier in the Bible". How would you answer?
     options:
       - Agree, since the History books were all written before the Prophets, which is why every Bible prints them first
@@ -38,7 +40,8 @@ quiz:
       - Disagree, since the books are shelved by kind rather than by date, so where Ezra sits on the page is no evidence either way about when it was written
       - Agree in part, since the Old Testament is chronological even though the New Testament is not, so the rule holds here
     answer: 2
-    explain: C. Page order is a reading order, a library arranged by shelf, and it carries no information about dates in either direction. That is why the right reply is not "you have it backwards" but "the page cannot tell you either way"; for the dates themselves you need a timeline, which is lesson 2. A takes the shelf order as a timeline, the misconception this lesson names first. B is the same mistake made smaller: the History shelf is arranged by the stretch of the story each book covers, not by when each was written, and Chronicles restarts from Adam after Kings has already reached the exile. D is wrong on both halves, since neither testament is arranged by date and Paul's letters were written before the Gospels printed in front of them.
+    explain: >-
+      C. Page order is a reading order, a library arranged by shelf, and it carries no information about dates in either direction. That is why the right reply is not "you have it backwards" but "the page cannot tell you either way"; for the dates themselves you need a timeline, which is lesson 2. A takes the shelf order as a timeline, the misconception this lesson names first. B is the same mistake made smaller: the History shelf is arranged by the stretch of the story each book covers, not by when each was written, and Chronicles restarts from Adam after Kings has already reached the exile. D is wrong on both halves, since neither testament is arranged by date and Paul's letters were written before the Gospels printed in front of them.
   - q: A preacher says that because Genesis 1:1 is numbered as its own verse, "the author meant that sentence to stand alone, so we can read it on its own". Which reply fits what you learned about verse numbers?
     options:
       - He is right; verse numbers follow the sentence breaks the original authors marked in the Hebrew and Greek manuscripts
@@ -47,14 +50,16 @@ quiz:
       - He is wrong; verse numbers were added by the church councils of the fourth century and reflect the church's reading
     answer: 1
     explain: B is right. Robert Estienne numbered the verses of the Greek New Testament in 1551 and a French Bible in 1553, and the Geneva Bible of 1560 was the first English Bible to carry them; they exist so that two people can find the same line. A is wrong because the manuscripts had no such numbers. C is wrong because the Old Testament's printed verse numbers are the same early-modern layer, even though Jewish tradition had earlier ways of marking off verses. D has the wrong century and the wrong people.
-  - q: This course sorts its claims three ways: history establishes it, scholars argue about it, or we hold it by faith. Which of these belongs in the middle box, the one for questions where serious, informed people disagree and the evidence does not settle it?
+  - q: >-
+      This course sorts its claims three ways: history establishes it, scholars argue about it, or we hold it by faith. Which of these belongs in the middle box, the one for questions where serious, informed people disagree and the evidence does not settle it?
     options:
       - Why the Tanakh shelves Daniel among the Writings rather than among the Prophets
       - That Stephen Langton divided the Bible into the chapters nearly every Bible now uses
       - That in these books God speaks, and speaks truly, about himself and about us
       - That a Protestant Bible holds sixty-six books and a Catholic one seventy-three
     answer: 0
-    explain: A. Nobody disputes that Daniel sits in the Writings; you can open a Hebrew Bible and see it. What is argued is the reason, and this lesson gave three suggestions without picking one, because the evidence does not pick one. B and D belong in the first box: they are settled by documents and contents pages that a Jewish scholar, an atheist historian and a Catholic priest would all read the same way. C belongs in the third, and the course says so in its own voice rather than slipping it in as a fact. Notice which box is easiest to empty by mistake. It is the middle one, and it goes wrong in both directions, with an argued question reported as settled or a settled one treated as still open.
+    explain: >-
+      A. Nobody disputes that Daniel sits in the Writings; you can open a Hebrew Bible and see it. What is argued is the reason, and this lesson gave three suggestions without picking one, because the evidence does not pick one. B and D belong in the first box: they are settled by documents and contents pages that a Jewish scholar, an atheist historian and a Catholic priest would all read the same way. C belongs in the third, and the course says so in its own voice rather than slipping it in as a fact. Notice which box is easiest to empty by mistake. It is the middle one, and it goes wrong in both directions, with an argued question reported as settled or a settled one treated as still open.
 ---
 
 Then he said to them, "These are my words that I spoke to you while I was still with you, that everything written about me in the law of Moses and the prophets and the psalms must be fulfilled." (Luke 24:44, NET)[1]

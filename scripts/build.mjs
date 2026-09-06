@@ -118,6 +118,23 @@ function lintLessons() {
         const file = path.relative(ROOT, path.join(lessonsDir, f));
         const src = fs.readFileSync(path.join(lessonsDir, f), "utf8");
 
+        // Frontmatter must parse even in a draft. The main build only reads published
+        // courses, so a YAML error in a draft stays invisible until the day it is
+        // published, which is the worst possible moment to find it. A colon inside an
+        // unquoted value is the usual cause; wrap the value in a >- block.
+        try {
+          const fmText = src.split(/^---$/m)[1];
+          const fm = yaml.load(fmText);
+          if (fm && Array.isArray(fm.quiz)) {
+            fm.quiz.forEach((q, i) => {
+              if (!q || !q.q || !Array.isArray(q.options) || q.options.length < 2)
+                fail(`${file}: quiz #${i + 1} lost its question or options when the frontmatter parsed; check for an unquoted value containing a colon`);
+            });
+          }
+        } catch (e) {
+          fail(`${file}: frontmatter does not parse as YAML (${e.reason || e.message}); a colon inside an unquoted value is the usual cause`);
+        }
+
         // Rule 7: never an em dash in learner-facing prose.
         if (src.includes("\u2014")) fail(`${file}: contains an em dash (CLAUDE.md rule 7)`);
 
