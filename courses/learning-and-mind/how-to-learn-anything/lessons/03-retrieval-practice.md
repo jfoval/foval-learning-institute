@@ -66,9 +66,9 @@ Lesson 1 explained the first half of that: familiarity was being read as knowled
 
 Pulling information out of memory strengthens it more than putting it in again. The act of retrieving something you've partly learned, from a question, a blank page, or a flashcard, does more for later memory than another exposure to the same material. Psychologists call this the *testing effect*, and the technique built on it *retrieval practice*.
 
-How confident should you be in it? When Dunlosky, Rawson, Marsh, Nathan and Willingham (2013) reviewed ten common study techniques for the Association for Psychological Science, they rated each against how well it held up across learners, materials, and kinds of test. Only two came out "high utility". Practice testing was one; distributed practice, which is lesson 4, was the other. Rereading, the technique 84% of students in one elite-university sample listed and 55% ranked first, was rated low. [1]
+How confident should you be in it? When Dunlosky, Rawson, Marsh, Nathan and Willingham (2013) [reviewed ten common study techniques](https://doi.org/10.1177/1529100612453266) for the Association for Psychological Science, they rated each against how well it held up across learners, materials, and kinds of test. Only two came out "high utility". Practice testing was one; distributed practice, which is lesson 4, was the other. Rereading, the technique 84% of students in one elite-university sample listed and 55% ranked first, was rated low. [1]
 
-The founding modern study is worth knowing in numbers, because it tells you exactly when retrieval wins and when it looks like it loses. Roediger and Karpicke (2006), at Washington University in St. Louis, had students read short prose passages. Each student then restudied one passage and took a free-recall test on the other (write down everything you remember, no feedback). After five minutes, the restudied passage was ahead, 81% to 75%. [2]
+The founding modern study is worth knowing in numbers, because it tells you exactly when retrieval wins and when it looks like it loses. [Roediger and Karpicke (2006)](https://learninglab.psych.purdue.edu/downloads/2006/2006_Roediger_Karpicke_PsychSci.pdf), at Washington University in St. Louis, had students read short prose passages. Each student then restudied one passage and took a free-recall test on the other (write down everything you remember, no feedback). After five minutes, the restudied passage was ahead, 81% to 75%. [2]
 
 :::predict Same students, tested again a week later. Which passage do they remember better now, the one they restudied or the one they were tested on? And by how much?
 The tested one, and by a wider margin than restudy had on day one. After two days the tested passage led, 68% to 54%. After a week, 56% to 42%. In a second experiment, students who studied a passage once and then took three recall tests remembered 61% at one week, against 40% for students who studied it four times. The four-time studiers were also the more confident. [2]
@@ -76,11 +76,15 @@ The tested one, and by a wider margin than restudy had on day one. After two day
 
 Read that again with lesson 1 in mind. Restudying boosted performance today and did less for storage than the today number suggested. Testing cost a little today and paid at a week. The students' confidence tracked the today number. If your exam is tomorrow morning, rereading tonight is a defensible choice. This lesson is about what you'll still have in a week.
 
+:::video https://www.youtube.com/watch?v=gkJz0PpvGf4 | The Power of Testing, Dr. Robert Bjork
+Three and a half minutes of Bjork on why a test is a learning event and not just a measurement, which is this lesson's core idea said by the researcher whose lab produced much of its evidence.
+:::
+
 ## Does it hold outside the lab?
 
 For a long time the honest answer was "mostly lab studies with word lists and short passages". That's no longer the case.
 
-Yang, Luo, Vadillo, Yu and Shanks (2021) meta-analysed 222 classroom studies covering 48,478 students and found an overall effect of g = 0.499 for classroom quizzing on later performance. [3] Agarwal, Nunes and Blunt (2021) reviewed 50 classroom experiments from 37 studies (5,374 students) in real courses and found 57% of the effects medium or large; their practical conclusion was that nearly every quiz format they saw worked. [4] One caveat they make themselves: only 6% of those experiments came from outside Western, industrialised countries, so the classroom evidence is broad in age and subject and narrow in geography. And one caveat I'll make: everything in this lesson is about low-stakes or no-stakes retrieval with feedback. It says nothing about high-stakes exams as a policy, which is a different argument.
+Yang, Luo, Vadillo, Yu and Shanks (2021) [meta-analysed 222 classroom studies](https://doi.org/10.1037/bul0000309) covering 48,478 students and found an overall effect of g = 0.499 for classroom quizzing on later performance. [3] Agarwal, Nunes and Blunt (2021) [reviewed 50 classroom experiments](https://link.springer.com/article/10.1007/s10648-021-09595-9) from 37 studies (5,374 students) in real courses and found 57% of the effects medium or large; their practical conclusion was that nearly every quiz format they saw worked. [4] One caveat they make themselves: only 6% of those experiments came from outside Western, industrialised countries, so the classroom evidence is broad in age and subject and narrow in geography. And one caveat I'll make: everything in this lesson is about low-stakes or no-stakes retrieval with feedback. It says nothing about high-stakes exams as a policy, which is a different argument.
 
 Yang and colleagues also measured what made the effect bigger, and the directions turn into three design rules. The effect was larger when the quiz came with feedback (g = 0.537 with feedback against 0.374 without), larger when the practice quiz matched the format of the final test, and larger the more often quizzing was repeated. [3] So: always check your answers; practise in the form you'll be tested in; and quiz more than once.
 
@@ -122,7 +126,7 @@ One correct recall isn't much. Rawson and Dunlosky (2011) ran 533 students throu
 
 Here is the study most often cited against the objection you're probably forming: "fine for vocabulary, but I need to *understand* my subject, not memorise it."
 
-Karpicke and Blunt (2011) took a 276-word science text and gave undergraduates one of four ways to learn it, twenty students in each. One group studied it once. One studied it repeatedly. One group did *elaborative concept mapping*: drawing the text's ideas as a diagram of nodes and labelled links, with the text and an example map in front of them. Concept mapping isn't a study-guide gimmick; it comes from Novak's tradition of meaningful learning and has a research literature of its own. The last group did retrieval practice: study the text, put it away, write down everything you can recall, study it again, recall again. [15]
+[Karpicke and Blunt (2011)](https://learninglab.psych.purdue.edu/downloads/2011/2011_Karpicke_Blunt_Science.pdf) took a 276-word science text and gave undergraduates one of four ways to learn it, twenty students in each. One group studied it once. One studied it repeatedly. One group did *elaborative concept mapping*: drawing the text's ideas as a diagram of nodes and labelled links, with the text and an example map in front of them. Concept mapping isn't a study-guide gimmick; it comes from Novak's tradition of meaningful learning and has a research literature of its own. The last group did retrieval practice: study the text, put it away, write down everything you can recall, study it again, recall again. [15]
 
 :::predict Before you look at the result, do what they asked the students to do. Rank the four methods (study once, study repeatedly, concept map, retrieval) by how well you think each will hold up on a test a week later.
 The students, asked during learning, ranked repeated study best and retrieval worst, with mapping and single study in between. A week later the retrieval group scored 0.67 and the concept-mapping group 0.45, with the two study groups below mapping. If you ranked retrieval last, you're in good company, and wrong in the same way.
@@ -130,7 +134,35 @@ The students, asked during learning, ranked repeated study best and retrieval wo
 
 The test a week later asked both verbatim questions (facts stated in the text) and inference questions (things you'd have to work out by connecting the facts). Retrieval over mapping was an effect size of d = 1.50, one of the largest you'll see in this field, though it comes from twenty students per group, so hold the exact number loosely. And retrieval won on the inference questions, not just the verbatim ones.
 
-Their second experiment made it personal, and put the size on firmer ground. 120 students each learned two texts, one by concept mapping and one by retrieval, so every student was their own control. 84% did better on the retrieval text. Yet when asked, during learning, which method would work better, 90 of the 120 (three-quarters) expected concept mapping to do as well as or better than retrieval; about half expected it to do better outright. [15]
+Their second experiment made it personal, and put the size on firmer ground. 120 students each learned two texts, one by concept mapping and one by retrieval, so every student was their own control. 84% did better on the retrieval text. Yet when asked, during learning, which method would work better, 90 of the 120 (three-quarters) expected concept mapping to do as well as or better than retrieval; about half expected it to do better outright. [15] The paper's own table puts the two facts side by side, and the chart below redraws it:
+
+<svg viewBox="0 0 584 308" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:584px;display:block;margin:1.5em auto;font-family:system-ui,sans-serif" role="img" aria-labelledby="kb-title kb-desc">
+  <title id="kb-title">Karpicke and Blunt experiment 2: what happened on the test versus what the students predicted</title>
+  <desc id="kb-desc">Two stacked bars, each representing the same 120 students. In the top bar, actual performance on the one-week final test: retrieval practice won for 101 students, 6 showed no difference, and concept mapping won for 13. In the bottom bar, the students' own predictions made during learning: 30 predicted retrieval would win, 31 predicted no difference, and 59 predicted concept mapping would win. The two bars are nearly mirror images.</desc>
+  <text x="20" y="22" font-size="17" font-weight="700" fill="var(--text, #1a1a1a)">The same 120 students, twice</text>
+  <rect x="20" y="38" width="15" height="15" fill="var(--navy, #0f2a4a)"/>
+  <text x="42" y="51" font-size="15" fill="var(--text, #1a1a1a)">Retrieval won</text>
+  <rect x="190" y="38" width="15" height="15" fill="var(--gold, #b08d2a)"/>
+  <text x="212" y="51" font-size="15" fill="var(--text, #1a1a1a)">About the same</text>
+  <rect x="380" y="38" width="15" height="15" fill="var(--oxblood, #8b1e2d)"/>
+  <text x="402" y="51" font-size="15" fill="var(--text, #1a1a1a)">Mapping won</text>
+  <text x="22" y="88" font-size="15" font-weight="700" fill="var(--text, #1a1a1a)">What happened on the test a week later</text>
+  <rect x="22" y="98" width="454" height="34" fill="var(--navy, #0f2a4a)"/>
+  <rect x="476" y="98" width="27" height="34" fill="var(--gold, #b08d2a)"/>
+  <rect x="503" y="98" width="59" height="34" fill="var(--oxblood, #8b1e2d)"/>
+  <text x="249" y="152" font-size="15" text-anchor="middle" fill="var(--navy, #0f2a4a)">101 students</text>
+  <text x="490" y="152" font-size="15" text-anchor="middle" fill="var(--gold, #b08d2a)">6</text>
+  <text x="533" y="152" font-size="15" text-anchor="middle" fill="var(--oxblood, #8b1e2d)">13</text>
+  <text x="22" y="196" font-size="15" font-weight="700" fill="var(--text, #1a1a1a)">What they predicted while learning</text>
+  <rect x="22" y="206" width="135" height="34" fill="var(--navy, #0f2a4a)"/>
+  <rect x="157" y="206" width="140" height="34" fill="var(--gold, #b08d2a)"/>
+  <rect x="297" y="206" width="265" height="34" fill="var(--oxblood, #8b1e2d)"/>
+  <text x="89" y="260" font-size="15" text-anchor="middle" fill="var(--navy, #0f2a4a)">30</text>
+  <text x="227" y="260" font-size="15" text-anchor="middle" fill="var(--gold, #b08d2a)">31</text>
+  <text x="429" y="260" font-size="15" text-anchor="middle" fill="var(--oxblood, #8b1e2d)">59</text>
+  <text x="20" y="288" font-size="15" fill="var(--text-2, #4a5260)">Data: Karpicke and Blunt (2011), experiment 2, Table 1.</text>
+  <text x="20" y="306" font-size="15" fill="var(--text-2, #4a5260)">Each student learned one text by each method.</text>
+</svg>
 
 Then the wrinkle inside the wrinkle. For half of those 120 students, the final test was itself a concept map: they had to draw the diagram from memory. The text they had learned by retrieval *still* came out ahead, d = 1.01. Practising the drawing lost to practising the recall, at drawing. [15] That's not a contradiction of the format-match rule from earlier. Format match helps when both formats are retrieval from memory; it doesn't rescue a format that has the source open in front of it.
 
@@ -225,11 +257,11 @@ Lesson 4 answers the question this lesson leaves open: *when* to come back. Raws
 
 ## Go deeper
 
-- **Dunlosky, "Strengthening the Student Toolbox", *American Educator*, Fall 2013**: the ten-technique ratings in plain English, free online. Read this before anything else.
+- **Dunlosky, ["Strengthening the Student Toolbox"](https://www.aft.org/ae/fall2013/dunlosky), *American Educator*, Fall 2013**: the ten-technique ratings in plain English, free online. Read this before anything else.
 - **Brown, Roediger and McDaniel, *Make It Stick* (2014), chapter 2, "To Learn, Retrieve"**: the narrative version of this lesson, with the classroom studies told as stories; Roediger is an author of the founding study.
-- **Carpenter, Pan and Butler, "The science of effective learning with spacing and retrieval practice", *Nature Reviews Psychology* 1, 496–511 (2022)**: the current review of both this lesson and the next, written for a general scientific reader.
-- **Agarwal, Nunes and Blunt, "Retrieval Practice Consistently Benefits Student Learning" (2021)**: the classroom review; read it for the range of formats that worked and the honest list of what the field still hasn't tested. Author PDF is free.
-- **RetrievalPractice.org**: Agarwal's site of short free guides for teachers and tutors setting up quizzing in a class.
+- **Carpenter, Pan and Butler, ["The science of effective learning with spacing and retrieval practice"](https://doi.org/10.1038/s44159-022-00089-1), *Nature Reviews Psychology* 1, 496–511 (2022)**: the current review of both this lesson and the next, written for a general scientific reader.
+- **Agarwal, Nunes and Blunt, ["Retrieval Practice Consistently Benefits Student Learning"](https://link.springer.com/article/10.1007/s10648-021-09595-9) (2021)**: the classroom review; read it for the range of formats that worked and the honest list of what the field still hasn't tested. Free to read at the link.
+- **[RetrievalPractice.org](https://www.retrievalpractice.org/)**: Agarwal's site of short free guides for teachers and tutors setting up quizzing in a class; [the main guide](https://pdf.retrievalpractice.org/RetrievalPracticeGuide.pdf) is a ten-minute read.
 
 ## Sources
 

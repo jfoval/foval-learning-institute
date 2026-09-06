@@ -39,7 +39,9 @@ parallel sessions is the ceiling. A platform session must not touch `courses/` o
    the gocognitive channel likely has clips for later lessons too). **Lesson 2 done the same
    day** (two-stores bottleneck diagram, Baddeley's gocognitive interview on working versus
    long-term memory, links to Miller 1956 full text, Cowan 2001, Willingham's AFT article,
-   and the open-access Sweller 2019). Lessons 3 to 8 remain.
+   and the open-access Sweller 2019). **Lesson 3 done** (result-versus-prediction stacked
+   bars from Karpicke & Blunt's Table 1, Bjork's "Power of Testing" clip, seven verified
+   links). Lessons 4 to 8 remain.
    (c) Podcast each lesson as it settles.
 3. **The four placeholder courses** (Python, Algebra, Personal Finance, Writing Clearly), which
    are live and have never been through the pipeline. For each, in this order: run Stage 1

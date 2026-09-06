@@ -8,6 +8,17 @@ Everything from the founding onwards is here. Entries before 2026-09-06 came fro
 
 ## 2026-09-06 (podcast pipeline session)
 
+**How to Learn Anything lesson 3: media pass (third of eight)**
+
+- A stacked-bar chart of Karpicke and Blunt (2011) experiment 2, Table 1: the same 120
+  students as two bars, what happened on the test (101/6/13) against what they predicted
+  (30/31/59). The exact counts were verified against the paper's PDF before drawing.
+- Bjork's "The Power of Testing" (LastingLearning, 3½ minutes) embedded after the founding
+  study; verified via oEmbed.
+- Seven verified links: Dunlosky 2013 DOI, both Purdue learning-lab PDFs (Roediger &
+  Karpicke 2006, Karpicke & Blunt 2011), Yang 2021 DOI, Agarwal 2021 at Springer, plus
+  linked Go deeper entries including RetrievalPractice.org and its main guide PDF.
+
 **How to Learn Anything lesson 2: media pass (second of eight)**
 
 - A two-stores bottleneck diagram (new material → working memory → long-term memory, with the
