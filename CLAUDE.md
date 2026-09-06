@@ -18,6 +18,7 @@ Foval Learning Institute is a free, open, general-education online university. C
 - `courses/<school>/<course-id>/` — course.yaml, research/, lessons/, assessments/
 - `site/` — the static site. `site/data/courses.js` is GENERATED; never edit it by hand.
 - `scripts/build.mjs` — compiles courses/ into site/data/. `npm run build`, `npm run validate`.
+- `scripts/core-path.mjs` — keeps TAXONOMY.md and core-path.yaml agreeing and generates the Core list. Runs inside `npm run validate` and `npm run build`; `npm run path -- --write` to regenerate.
 - `templates/` — starting points for course.yaml, lessons, SOURCES, OUTLINE, REVIEWS.
 - `.claude/commands/` — pipeline stages: /new-course, /research-course, /outline-course, /draft-lesson, /review-lesson, /fact-check, /neutrality-audit, /status.
 - `docs/PLATFORM_ROADMAP.md` — where the platform is going (accounts, review system, credentials, social).
@@ -27,6 +28,7 @@ Foval Learning Institute is a free, open, general-education online university. C
 2. One lesson per drafting session. Do not batch-generate lessons.
 3. Reviews run in fresh-context subagents, never in the same context as the draft.
 4. Every lesson change: run `npm run validate` before committing. Run `npm run build` and commit `site/data/courses.js` when publishing.
+4b. Every course on the map carries a placement decision in the `Path` column of `curriculum/TAXONOMY.md`: a term (`T1` to `T8`) if it belongs on the Foval Core, or `elective` if it does not. Adding a course to the map means making that call in the same edit, following "Placing a course on the Core" in TAXONOMY.md, and adding it to `curriculum/core-path.yaml` when it is on the Core. `npm run validate` fails on a blank cell or on the two files disagreeing. The numbered term list in TAXONOMY.md is generated: `npm run path -- --write`, never by hand.
 5. When a course's status changes, update both `course.yaml` and its row in `curriculum/TAXONOMY.md`. Statuses are planned → research → drafting → published. There is no "review" state and no owner sign-off gate: a course goes live when its lessons have passed Stage 4 and the voice pass, and improves afterwards through the feedback loop. The build includes only `status: published` courses. Never hold a course for the owner to review.
 6. Sensitive domains (standards Part 3.4) require the neutrality audit before publish. No exceptions.
 6b. School of Christian Studies courses carry `standpoint: christian` and follow standards 3.7: taught from within the faith, labelled as such, objections engaged at full strength. Neutral schools never assert or mock religious claims either way.

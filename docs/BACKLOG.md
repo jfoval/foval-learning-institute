@@ -315,8 +315,45 @@ Fundamentals after it. If those four are built in that order they are the data s
 raising with John only if he wants them bundled and labelled as one track on the Path page, which is
 a packaging decision, not a new course.
 
+**Where each sits on the Core.** Every course on the map now carries a placement decision (see
+below). Graphic Design Fundamentals, Computer Science Foundations and Technology Leadership are all
+`elective`: they are specialities, and the Core is what a broadly educated adult needs rather than
+everything worth teaching. Statistics for Citizens was already on the Core in term 2 and stays there.
+
 **Ordering.** These four are all `planned` behind a queue that is already long: two courses are
 mid-review (Bible Basics, Logic and Argument) and four live placeholder courses have never been
 through the pipeline (§8e). Nothing here jumps that queue without John saying so. Graphic Design
 Fundamentals is the one with a named person waiting on it, which is the strongest reason on the list
 to move a course up.
+
+## 11. Core-path placement is now enforced (built 2026-09-06)
+
+The map and the Core had no link between them, so a new course could be added and simply never
+considered for the Foval Core. Nothing was checking, and two files were describing the Core by hand.
+
+**What is in place now.**
+
+- `curriculum/TAXONOMY.md` has a **Path** column on every course row. Its value is a term (`T1` to
+  `T8`) or the word `elective`. That cell is the placement decision, recorded on the map itself.
+- `scripts/core-path.mjs` checks that TAXONOMY.md and `curriculum/core-path.yaml` agree: every row
+  has a valid Path cell, every row marked `Tn` is in that term of the path file, every path entry
+  has a row on the map, every `elective` is absent from the path, and no school lists a course
+  twice. It runs inside `npm run validate` and `npm run build`, and exits non-zero on any of those.
+  A new row with a blank Path cell fails the build, which is the whole point: a course cannot reach
+  the map without someone deciding where it belongs.
+- TAXONOMY.md's numbered term list is generated from `core-path.yaml` between HTML comment markers
+  by `npm run path -- --write`. It used to be maintained by hand and had drifted: two courses
+  numbered 18, term 5 numbering out by one, and "History of Western Philosophy I and II" collapsed
+  into one line.
+- "Placing a course on the Core" in TAXONOMY.md is the decision rule: does the Core need it, what
+  does it need first, which term's theme, does the term still balance, where in the term.
+  `/new-course` now makes the placement its first step, and CLAUDE.md carries it as rule 4b.
+
+**Four real bugs it caught immediately.** Four entries in `core-path.yaml` had unquoted titles
+containing commas inside a YAML flow mapping, so the comma started a new key. The live Path page was
+showing "Early Modern World", "The Age of Revolutions", "The Modern World" and "Meaning" with their
+titles cut off at the comma. Fixed and rebuilt. The checker now rejects any entry with keys other
+than id, school, title, optional and standpoint, so that class of error cannot come back.
+
+**Also.** The Capstone was on the Core but had no row on the map. It now has one, in Foundations.
+Current shape: 165 courses, 51 on the Core across 8 terms, 114 electives.

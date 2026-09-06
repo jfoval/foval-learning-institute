@@ -51,7 +51,7 @@ terms:
     theme: The medieval and early modern world, and how societies organise themselves.
     courses:
       - { id: medieval-world, school: history, title: The Medieval World }
-      - { id: early-modern-world, school: history, title: Early Modern World, 1400–1750 }
+      - { id: early-modern-world, school: history, title: "Early Modern World, 1400–1750" }
       - { id: western-philosophy-1, school: philosophy-and-religion, title: "History of Western Philosophy I: Ancient and Medieval" }
       - { id: western-philosophy-2, school: philosophy-and-religion, title: "History of Western Philosophy II: Modern" }
       - { id: great-books-2, school: literature-and-arts, title: "Great Books II: Medieval and Renaissance" }
@@ -61,8 +61,8 @@ terms:
   - title: The modern world
     theme: Revolutions, wars, ideologies, and the arguments that still shape today.
     courses:
-      - { id: age-of-revolutions, school: history, title: The Age of Revolutions, 1750–1850 }
-      - { id: modern-world, school: history, title: The Modern World, 1850–1945 }
+      - { id: age-of-revolutions, school: history, title: "The Age of Revolutions, 1750–1850" }
+      - { id: modern-world, school: history, title: "The Modern World, 1850–1945" }
       - { id: world-since-1945, school: history, title: The World Since 1945 }
       - { id: political-economy, school: economics-government-and-law, title: "Political Economy: The Great Debates" }
       - { id: political-philosophy, school: philosophy-and-religion, title: Political Philosophy }
@@ -85,7 +85,7 @@ terms:
     theme: Putting it together and deciding how to live.
     courses:
       - { id: ethics, school: philosophy-and-religion, title: Ethics }
-      - { id: meaning-and-the-good-life, school: philosophy-and-religion, title: Meaning, Death, and the Good Life }
+      - { id: meaning-and-the-good-life, school: philosophy-and-religion, title: "Meaning, Death, and the Good Life" }
       - { id: case-for-christianity, school: christian-studies, title: The Case for Christianity, standpoint: christian }
       - { id: mental-models, school: learning-and-mind, title: Mental Models }
       - { id: investing, school: money, title: Investing }
