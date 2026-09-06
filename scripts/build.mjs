@@ -168,6 +168,16 @@ function lintLessons() {
         // 4.7: the ESV cannot be quoted in this project. See the standard for why.
         if (/\(([^)]*,\s*)?ESV\)/.test(src)) fail(`${file}: quotes the ESV, which our licence terms do not permit (Editorial Standards 4.7); use the NET, JPS 1917, Brenton or KJV`);
 
+        // A conclusion line written straight after numbered premises, outside a code
+        // fence, is swallowed into the last premise by the markdown list parser. The
+        // learner then sees the conclusion glued to a premise. Logic and Argument
+        // lesson 1 sets the house form: a fenced block, premises, a rule, then "C:".
+        {
+          const outside = src.split("```").filter((_, i) => i % 2 === 0).join("\n");
+          const swallowed = (outside.match(/^\d+\.[^\n]*\n(?:C|Conclusion):/gm) || []).length;
+          if (swallowed) fail(`${file}: ${swallowed} argument display(s) put a conclusion line directly after a numbered premise outside a code fence; the markdown parser folds it into the premise. Fence the display and separate the conclusion with a rule.`);
+        }
+
         // 4.5: a lesson that links nothing hides its sources.
         const body = src.split(/^---$/m).slice(2).join("---");
         const sourcesAt = body.search(/^## Sources/m);

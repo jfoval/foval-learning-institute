@@ -154,9 +154,12 @@ Stephen Toulmin, in *The Uses of Argument* (1958), thought the premise-and-concl
 
 Now write the same argument in the standard form you've been using since lesson 1:
 
+```
 1. Harry was born in Bermuda.
 2. [A person born in Bermuda is generally a British subject.]
+-------------------------------------------------------------
 C: Harry is (presumably) a British subject.
+```
 
 Look at what happened. The warrant is the bracketed premise. The two layouts are one argument viewed twice, so the second view has to earn its place.
 
@@ -178,11 +181,14 @@ Here's a message of the kind a person might send to the family group chat. It's 
 
 **Now the reconstruction.** The conclusion is the last sentence. The stated premises are the age, the fifteen-year rule, the servicing, and the payback. Put them in standard form:
 
+```
 1. The boiler is fourteen years old.
 2. Boilers don't last past fifteen years.
 3. It has been serviced twice this year, which is probably more than a new one would need in five.
 4. A new boiler costs about £2,500 and would pay that back in gas savings within a few years.
+--------------------------------------------------------------------------------------------------
 C: We should replace the boiler this autumn rather than wait for it to fail.
+```
 
 Premises 1 and 2 are linked. The age means nothing without the rule and the rule means nothing without the age; together they support an intermediate conclusion, "the boiler will fail within about a year". Premises 3 and 4 are convergent: each is a separate reason for replacing, and each would still count if the other fell.
 

@@ -77,8 +77,11 @@ The conclusion can still be false. That's not a defect in the argument; it's wha
 
 Now for the property that separates inductive arguments from deductive ones outright. Take the coin:
 
+```
 1. This coin has come up heads on all of the last 1,000 tosses.
+---------------------------------------------------------------
 C: The next toss will probably be heads.
+```
 
 That's strong. A thousand heads in a row is about as good a reason as you could want to expect another.
 
@@ -88,9 +91,12 @@ For a valid deductive argument, never. If the conclusion follows from the premis
 
 Now add a premise that you've just learned, and that's true:
 
+```
 1. This coin has come up heads on all of the last 1,000 tosses.
 2. The coin has just been checked by a lab and is a fair coin.
+---------------------------------------------------------------
 C: The next toss will probably be heads.
+```
 
 Premise 2 doesn't contradict premise 1. Both are true. But the argument is now weaker, because a fair coin has no memory, and the thousand heads, which looked like evidence about the coin, now look like an astonishing run of luck that says nothing about the next toss. (If you want to say "I'd want to re-check that lab", good, that's the right instinct, and it's step 5, testing the premises. Take the premise as given for now.)
 
@@ -112,8 +118,11 @@ The informal-logic literature sorts arguments into four kinds by the link they c
 
 Start with a version of the argument that a new business owner makes every week. Suppose, hypothetically, you've made a hot sauce and want to know whether people would buy it. You give a bottle to twelve friends. Ten say they'd buy it. So:
 
+```
 1. Ten of twelve people who tried the sauce said they'd buy it.
+---------------------------------------------------------------
 C: Most people who try the sauce would buy it.
+```
 
 Weak, and it's worth being precise about why, because it's weak in two separate ways and fixing one doesn't fix the other.
 

@@ -73,9 +73,12 @@ Someone at work says this to you in the lift: "Everyone who gets promoted here h
 
 Put it in standard form, the way lesson 1 taught you:
 
+```
 1. All people who get promoted here are people who have done the course.
 2. All people on my team are people who have done the course.
+------------------------------------------------------------------------
 C: All people on my team are people who get promoted here.
+```
 
 Something is wrong, and you can probably feel it. But feeling it isn't checking it, and if the conclusion had been one you liked, you might not have felt it at all. Lesson 2 gave you the counterexample method: imagine a case where both premises are true and the conclusion false. That works, and it takes imagination, which runs out when you're tired or when the argument is about something you care about. This lesson gives you the same test done with a pencil. You draw three circles, draw the premises, and look. If the conclusion is already on the page, the argument is valid. If it isn't, the gap on the page is your counterexample.
 
@@ -173,9 +176,12 @@ Why shade before placing the X? Because the shading tells you where the X can't 
 
 Here is the argument every logic teacher uses, because it catches everyone.
 
+```
 1. All dogs are mammals.
 2. All cats are mammals.
+------------------------
 C: All dogs are cats.
+```
 
 :::predict Is this argument valid? Most people say no, at once, because the conclusion is absurd. Set that aside. Can you say what is wrong with the form, in a way that would still be wrong if the conclusion were something you believed?
 Both premises put things inside the mammal circle. Neither premise says anything about the relationship between dogs and cats directly; they only say each group sits inside a third. Two groups that both sit inside a third can overlap completely, partly, or not at all. The premises don't say which. Below is the same point drawn out.
@@ -203,9 +209,12 @@ No. They've defended a premise, which is step 5. The fault was at step 4: even w
 
 Now an argument with a "some" premise, which is where the method earns its keep, because the X has to be placed carefully.
 
+```
 1. Some of the applicants are qualified.
 2. All the qualified applicants have degrees.
+---------------------------------------------
 C: Some of the applicants have degrees.
+```
 
 Three circles: Applicants, Qualified, Degrees. Shade first. Premise 2 says the part of Qualified outside Degrees is empty. Shade it: that's "qualified, not an applicant, no degree" and "qualified applicant, no degree".
 
@@ -219,9 +228,12 @@ Valid. The conclusion needs an X somewhere inside the overlap of Applicants and 
 
 Here's the wrinkle. Swap two of the terms around:
 
+```
 1. Some of the applicants have degrees.
 2. All the qualified applicants have degrees.
+---------------------------------------------
 C: Some of the applicants are qualified.
+```
 
 It reads nearly the same, and a hiring manager in a hurry would nod along. Draw it. Shade premise 2 as before: Qualified outside Degrees is empty. Now the X for "some applicants have degrees" belongs in the overlap of Applicants and Degrees. That overlap is cut in two by the Qualified circle: "applicant, degree, qualified" and "applicant, degree, not qualified". Is either half shaded? No. Premise 2 shaded parts of the Qualified circle outside Degrees; both of these regions are inside Degrees. So the X goes on the line between them.
 
