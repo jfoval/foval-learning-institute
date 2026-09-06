@@ -133,7 +133,36 @@ Goal: a two-voice conversational audio version of each lesson, playable on the l
 
 Add a section below the hero with three or four panels, each with a real screenshot (not a mockup) from the live site: a lesson with a chart and a video; a predict block open; the Review page; the feedback form. Copy, in the style guide's voice: written from the sources and fact-checked; you think as you read; knowledge that stays through spaced review; a podcast for every lesson (once built); Christian Studies taught honestly and labelled; and the one ask: *"We provide this free. The one thing we ask is that you help make it better: when a lesson is unclear or could be better, say so in the form at the bottom of every lesson. We read all of it and use it."* Screenshots go under `site/assets/media/screens/`, taken at phone and desktop width.
 
-## 7b. Lesson splits: batched, not done one at a time (decided 2026-09-06)
+## 7b. Lesson splits: SETTLED. Do not re-open with John.
+
+**John's instruction, 2026-09-06:** "I want lessons and courses to be as long as they need to be to
+do what they should do. Splitting doesn't concern me that much but makes sense you don't want an
+individual lesson to go on forever. Do what you think is best."
+
+**The standing rule, which needs no further approval:**
+
+1. Split a lesson when it holds two ideas that each stand alone with a natural stopping point
+   between them, which is the test standard 1.3 already sets. Do not split on length alone; 1.3 has
+   no ceiling and tells reviewers never to flag length by itself.
+2. Do not renumber as you go. Mark each seam with an HTML comment saying where it falls and what
+   each half would need, and record it here.
+3. Do the renumbering **once**, as a required step before the course goes to `status: published`.
+   Rename the files, rewrite every "lesson N" reference in the lessons, OUTLINE.md and SOURCES.md,
+   then verify by grepping for pointers to lessons that no longer exist.
+4. While doing that pass, switch prose references from numbers to titles where it reads naturally.
+   "The genre lesson" survives any reordering; "lesson 3" does not. That removes this problem
+   permanently for this course and the 140 planned ones.
+
+Nothing is published while this is pending, so no learner meets an over-long lesson in the meantime.
+
+**Confirmed seams so far:** lesson 2 (after the Act 3 map, before "Three levels at once"); lesson 3
+(after the proportions chart, before "What a biblical story is doing"); lesson 4 is a candidate
+flagged by its drafter at the heading "What a prophet was", unconfirmed until it is reviewed.
+
+---
+
+### Why this needs no decision from John (background)
+
 
 Stage 4 reviews grow lessons. Lesson 2 went from 5,400 to 8,700 words in its fix pass, and its real
 runtime is about 110 minutes. Under Editorial Standards 1.3 that is **not** a defect: there is no
