@@ -323,3 +323,67 @@ throughout. These entries exist so that no later lesson repeats the same over-re
   it, and confirming the address is on the "owed to a session with network access" list in
   REVIEWS.md. Six of lesson 6's ten sources have no free address on file, and the lesson now says so
   at the head of its Sources list rather than leaving a reader to wonder.
+
+## Added at fix time (lesson 7, Stage 4 resolutions, 2026-09-06)
+
+Nothing here was newly read; the network was refused throughout. These entries record what the Stage 4
+reviewers found lesson 7 attributing to sources this file does not support, so that no later lesson
+repeats it.
+
+- **The phrase "a general, step-authorizing statement" is Toulmin, Rieke & Janik 1984, pp. 46 to 47,
+  not Toulmin 1958.** Line 28 has recorded this since it was corrected after the lesson 1 fact-check,
+  and lesson 1 held the phrase back rather than use it. Lesson 7 was the first lesson to use it and
+  attributed it to *The Uses of Argument* at "pp. 98 to 100", a page range that appears nowhere in
+  this file. Fixed: the body now names all three authors and lesson 7 carries the 1984 book as its own
+  Sources entry, marked not read and known only through Hitchcock's quotation. The three page facts
+  this file actually holds from Hitchcock are data p. 97, warrant p. 98, and the Harry example pp. 99
+  to 102, all for the layout and none for the phrase.
+- **The Harry warrant is "A man born in Bermuda will generally be a British subject".** That is
+  Toulmin's own diagram wording, settled at lesson 1's fact-check finding 1 and used in lesson 1's
+  body and figure. Lesson 7 had silently rewritten it as "a person born in Bermuda is generally a
+  British subject", so the same example read two ways two lessons apart. Now identical in both, and
+  lesson 7 carries lesson 1's gloss of "aliens" and its note that the 1958 warrant has since expired.
+- **Copi and Hurley were cited in lesson 7's Sources list, which line 202 forbids by name.** Neither
+  was cited by a marker in the body, so both were deleted at no cost. The Copi entry also reproduced
+  the chapter error corrected at line 52 (enthymemes are ch. 7 sec. 7.5, not ch. 2). The stale
+  instruction came from `OUTLINE.md` line 100, which listed "Copi ch. 2" as a source for this lesson;
+  the outline has now been corrected so the next drafter is not sent the same way. Nothing was lost:
+  what the two entries purported to carry is already in Van Cleave 1.6 to 1.9, which lessons 1, 2 and
+  5 use.
+- **Govier is the fifth lesson running to be cited by chapter for content no page of which has been
+  read** (line 12 is a publisher listing). Lesson 7 rested linked-versus-convergent and the whole ARG
+  section on it. Both are now taken from Groarke's SEP "Informal Logic" entry, which line 137 records
+  as read at draft time and which carries the diagramming convention and the ARS criteria verbatim.
+  Govier keeps what this file supports and no more: the ARG letters, and the chapter titles from the
+  publisher's listing, with the Sources entry saying so in terms. The acceptability paragraph's three
+  places a premise gets earned now come from the CSUN PHIL 200 syllabus (line 21), read in full, which
+  the outline named for exactly that slot and which lesson 7 had listed in Sources while using nothing
+  from it.
+- **Groarke and this lesson define acceptability differently, and the lesson now says so.** Line 137
+  records "acceptable when they are true or acceptable in some other way". The audience-relative test
+  lesson 7 teaches ("a reasonable person in the arguer's audience could grant it without an argument")
+  is recorded nowhere in this file. It is probably Govier's, and Govier has not been read, so the
+  lesson states both and says which it is using rather than attributing its own version to a source.
+- **"Cogent" now means two different things in this course, and lesson 7 flags it.** Lesson 5 uses it
+  for an inductive argument that is strong and whose premises are in fact true. The ARG frame uses it
+  for any argument whose premises are acceptable, relevant and adequate, where the first condition is
+  explicitly not truth. Both are standard usage in their own literatures; the collision is real and a
+  learner meeting it two lessons apart needs it named.
+- **Also cut from lesson 7 as recorded nowhere:** Toulmin's motive for proposing the six slots; "later
+  writers say grounds" as a claim about terminology; "arrows" as part of the SEP's recorded notation
+  (line 137 records separate reasons and the plus sign, and the word "arrow" appears nowhere in
+  `research/`); the description of Dennett's chapter as "three pages" and of the chapters around it;
+  every evaluative clause about a Govier chapter in Go deeper; and the first names of Fogelin, Van
+  Cleave, Govier, Toulmin, Hitchcock, Dennett, Rapoport, Johnson and Blair, per the rule at the head
+  of the lesson 6 block. Sinnott-Armstrong and Groarke keep their first names, which this file records
+  at lines 149 and 42.
+- **Truncated quotations restored:** Van Cleave's exercise sentence 4 now runs to "which have become
+  all too common in our day and age", which is useful, because the dropped clause is itself a second
+  assurance; and Groarke's relevance definition now ends "for the conclusion of the argument".
+- **The Hitchcock PDF address is `https://humanities.mcmaster.ca/~hitchckd/Toulminswarrants.pdf`.**
+  Lesson 1's fix pass verified it and put it in that lesson's Sources only, so a `SOURCES.md` grep did
+  not find it and lesson 7 shipped with no links at all. Recorded here now, and linked in lesson 7's
+  body and Go deeper. The Van Cleave chapter-1 index address is at line 136's neighbours and is
+  likewise now linked. **No address is on file for Van Cleave section 1.10 or for Groarke's SEP
+  entry**, so neither is linked; both are on the network-owed list in REVIEWS.md rather than
+  constructed from a pattern, on the precedent set for Wason in lesson 3 and Dyer in lesson 6.

@@ -1013,8 +1013,8 @@ is renumbered here.
 
 Every outbound request from this session was refused by the egress proxy, so nothing could be
 reopened or verified. This list is cumulative across the whole course, items 1 to 6 from lessons 2
-and 3, 7 to 10 from lesson 5, 11 to 14 from lesson 4 and 15 to 18 from lesson 6, and it can be cleared
-in one pass by a session that can reach the web:
+and 3, 7 to 10 from lesson 5, 11 to 14 from lesson 4, 15 to 18 from lesson 6 and 19 to 21 from lesson
+7, and it can be cleared in one pass by a session that can reach the web:
 
 1. **A free full-text URL for Wason 1968 and for Ragni, Kola & Johnson-Laird 2017**, added to
    `SOURCES.md` and linked at first mention and in Go deeper in lesson 3.
@@ -1076,21 +1076,39 @@ in one pass by a session that can reach the web:
 18. **Which of Gigerenzer & Hoffrage's two frequency wordings scored 46% and which scored 50%.** This
    file records the pair without saying which is which, so lesson 6's bar chart has to label them
    "one wording" and "other wording", and says so in the caption.
+19. **An address for Groarke's SEP "Informal Logic" entry and for Van Cleave section 1.10.** These are
+   the two sources lesson 7 leans on hardest, and neither has a URL on file. The SEP entry is quoted
+   four times in that lesson and is the source its whole ARG section now rests on; 1.10 is the free
+   full text of its opening section. Both addresses are guessable from patterns the repository
+   already uses, and both were deliberately left unlinked on the precedent set for Wason in lesson 3
+   and for Dyer in lesson 6. (Item 9 already asks for the SEP "Informal Logic" address; this repeats
+   it because lesson 7 makes it the most valuable missing link in the course.)
+20. **Read one page of Govier.** Five consecutive lessons have now cited chapters of *A Practical
+   Study of Argument* for content this file holds only as a publisher's listing, and lesson 7 rested
+   two of its four objectives on it before the fix. Chapter 4 for the ARG conditions and chapter 2 for
+   linked and convergent support are the two that would clear the most. Until then the standing
+   position is the one lesson 7 now takes: the letters and the chapter titles may be cited, the
+   contents may not, and the teaching comes from Groarke.
+21. **Confirm Dennett's chapter and page for Rapoport's rules against the printed book**, which line
+   135 has been asking for since the lesson 6 pass and which lesson 7 quotes in full. The wording is
+   corroborated by a published verbatim excerpt; only the locator is unconfirmed, and lesson 7 now
+   says so in its Sources entry rather than printing a page number as though it had been read.
 
 ### Requests for the shared files
 
 These belong to files another session owns (`docs/`, `curriculum/`, `site/`, `scripts/`), so they are
 recorded here rather than made.
 
-1. **`docs/BACKLOG.md` section 7b, "Confirmed seams so far".** Add three: *Logic and Argument lesson
+1. **`docs/BACKLOG.md` section 7b, "Confirmed seams so far".** Add four: *Logic and Argument lesson
    3, after the car example and before the four cards*; *Logic and Argument lesson 5, between the
-   analogy family and the causal family*; and *Logic and Argument lesson 6, between the safety callout
-   and the Sally Clark section.* Lessons 2 and 4 were both considered and **not** split, on two
-   reviewers' advice each. So the Logic course stands at three confirmed seams and will be thirteen
-   lessons after the pre-publish renumbering, unless lessons 7 to 10 add more.
+   analogy family and the causal family*; *Logic and Argument lesson 6, between the safety callout
+   and the Sally Clark section*; and *Logic and Argument lesson 7, between the boiler reconstruction
+   and "Charity: reconstruct the version they'd sign".* Lessons 2 and 4 were both considered and
+   **not** split, on two reviewers' advice each. So the Logic course stands at four confirmed seams
+   and will be fourteen lessons after the pre-publish renumbering, unless lessons 8 to 10 add more.
 2. **`docs/BACKLOG.md` section 1.** The Logic entry needs updating as lessons land; as of this pass,
-   lessons 1 to 6 are reviewed and fixed (lesson 1 still owes the targeted re-source pass for its
-   Hurley and Copi citations), lessons 7 to 10 are not, and the assessments folder does not yet
+   lessons 1 to 7 are reviewed and fixed (lesson 1 still owes the targeted re-source pass for its
+   Hurley and Copi citations), lessons 8 to 10 are not, and the assessments folder does not yet
    exist.
 3. **`research/OUTLINE.md` line 74 has impossible arithmetic** for lesson 5's practice set: "two
    generalisations, two analogies, two causal claims, one IBE, one conductive" is already eight, and
@@ -2130,4 +2148,386 @@ throughout, most heavily in the four sections the reviewer measured worst.
 5. **No video.** The only verified clip in `SOURCES.md` is the TED-Ed Gigerenzer piece, recorded for
    lesson 9, about relative versus absolute risk rather than base rates. The same five minutes in two
    lessons of one course reads as filler.
+6. **The lesson is not split.** BACKLOG 7b: mark the seam, do not renumber as you go. Marked.
+
+---
+
+## Lesson 7, "Reconstruction and charity" — Stage 4 round 1, 2026-09-06
+
+Five fresh-context reviewers, launched in one message. Consolidated with IDs and applied in the same
+pass. Network egress refused throughout; the fact-check ran against `SOURCES.md`.
+
+**Verdict: the best-written lesson in the course and the worst-sourced.** Four of the six recurring
+voice defects are genuinely fixed here for the first time: zero em dashes, zero banned phrases, mean
+sentence 15.4 words, the best contraction rate in the course, and **zero parenthetical-plus-numbered
+citations**, a tic settled in lesson 1 and back in every lesson since at 4, 13, 14 and 13 occurrences.
+Against that, the unread-source failure that lessons 2, 3, 4 and 5 each closed in turn is back at
+fourteen sites in its worst form yet, because here it is the spine rather than the decoration: the
+lesson's two central concepts, linked-versus-convergent and ARG, both rested entirely on a book no
+page of which has ever been read, while the free source that *was* read at draft time and carries both
+sat beside it as a supporting citation. Two of the sourcing errors are ones this repository had
+already found and corrected once, and the stale instruction that caused one of them was sitting in our
+own outline.
+
+### BLOCKING
+
+**L7-B1. Six citation sites rest the lesson's two central concepts on Govier, no page of which has
+ever been read. Fifth lesson running.** Depth's finding 1 and cross-flags from the fact-checker,
+neutrality and voice. `SOURCES.md` line 12 is a Cengage listing, one title of which was found wrong
+and corrected this week; L5-B1 records "no page of Govier has ever been read". Lesson 7 cited it for
+the linked/convergent distinction, for the ARG conditions, for a chapter's worth of grounds for
+accepting a premise, for "grounds is the same idea", and twice more in Go deeper and Sources with
+chapter contents described as though read. Objectives 1 and 4 both stood on it. The remedy was already
+in the lesson's own Sources list: Groarke's SEP entry, recorded as read at draft time, carries the
+diagramming convention and the ARS criteria verbatim.
+
+**L7-B2. The Sources list cites Copi and Hurley, which `SOURCES.md` forbids by name, and the Copi
+entry reproduces an error corrected after the lesson 1 fact-check.** All five reviewers found it. Line
+202: "neither has been read, and no lesson may cite either as an authority until one is." Neither was
+cited by a marker in the body, so both were orphans as well as prohibited. Copi's entry gave "ch. 2
+'Analyzing Arguments'" for enthymemes, where line 52 records ch. 7 sec. 7.5 "corrected 2026-09-06
+after the lesson 1 fact-check". **The cause is ours: `OUTLINE.md` line 100 still listed "Copi ch. 2"
+as a source for this lesson, so the drafter cited what the plan told it to.** That is the same
+mechanism as L2-B1 through L5-B1, and the outline is now corrected so it stops feeding forward.
+
+**L7-B3. The Toulmin quotation is attributed to the wrong book with a page range the record does not
+hold, reproducing exactly the error `SOURCES.md` was corrected to prevent.** Fact-check 1, depth
+L7-B2. "Toulmin calls it 'a general, step-authorizing statement'" with "1958, pp. 98 to 100, via
+Hitchcock". Line 28: the phrase is quoted by Hitchcock from **Toulmin, Rieke & Janik, *An Introduction
+to Reasoning* (1984), pp. 46 to 47**, and "this file attributed it to 1958 until it was corrected on
+2026-09-06 after the lesson 1 fact-check". Three errors in one citation: wrong work, two co-authors
+dropped, and a page range that appears nowhere in `research/`. Lesson 1's fact-check caught this and
+held the phrase back; lesson 7 was the first lesson to use it and re-committed it.
+
+**L7-B4. The warrant's wording contradicts lesson 1, and lesson 7 uses the version lesson 1 was
+corrected away from.** Lesson 1 settled on Toulmin's own diagram wording, "A man born in Bermuda will
+generally be a British subject". Lesson 7 wrote "a person born in Bermuda is generally a British
+subject", in the body and in the bracketed premise. Not a misquotation, since lesson 7 did not use
+quotation marks, but the same example now read two ways two lessons apart.
+
+**L7-B5. Zero figures and zero links, in the lesson that twice orders the learner to draw a diagram it
+never draws.** Depth L7-B4, voice 2 and 3, pedagogy 3. This is **L4-B2 in a new subject**: the lesson
+that teaches Venn diagrams contained no diagram, and the lesson that teaches argument diagrams
+contained no argument diagram. Practice item 1 said "draw the diagram (which premises are linked,
+which convergent)" and the notation existed only as a sentence of prose. Lesson 1 also carries an
+explicit promise that "lesson 7 gives you the full layout, with the two slots this drawing leaves
+out", so shipping without the Toulmin figure would have left lesson 1 carrying a broken promise. The
+linter reported the links: "no links in the body".
+
+**L7-B6. The practice set has no answer key at all.** Voice 3, pedagogy 1, depth L7-B5. This is the
+inverse of the defect fixed six times running (resolution 29, L2-B4, L3-B3, L4-B4, L5-B4, L6-B4) and
+worse in one respect: a wrong reconstruction is silent. A learner who marks "although" as guarding, or
+calls a convergent pair linked, gets an answer that looks exactly as plausible as the right one and
+has nothing to check it against. Their first correction would have arrived in the quiz, on a different
+case.
+
+**L7-B7. The ARG section has no worked example, so the lesson whose fourth objective is "say which
+condition an argument fails" never once named a condition on a case.** Depth L7-B6. The boiler was
+evaluated fifty lines earlier, in a paragraph labelled "done here in preview", and the words
+acceptability, relevance and grounds appear nowhere in it. The outline specifies the other order:
+"the learner supplies the missing premise before the reveal, then the ARG evaluation."
+
+**L7-B8. Contested question 3 gives this course's own school the entire lesson and the other two one
+borrowed clause each, with no proponent named.** Neutrality 1. The logical school gets the lesson,
+named founders, a quoted definition, a worked example and two Go deeper entries; rhetoric and dialectic
+get one clause apiece, lifted from the same SEP sentence, characterised by what they explain about
+*failure* rather than by what they claim. This is **L4-N1 and L6-B7 for the third time**, and worse
+than either, because both rival positions were available in `SOURCES.md` unused, with named proponents
+and their actual claims. On the lesson's framing neither adherent would recognise the description,
+which is standard 3.2.
+
+### Fact-check
+
+Beyond the blocking items. **L7-F1.** Five unsourced frequency claims and superlatives, two of them
+load-bearing and one of them keyed in the quiz: "writers reach for an assurance where they have no
+evidence to hand" (which inverts Van Cleave's recorded reason, that an assurance goes where a writer
+expects resistance, and which the quiz then made the learner select to score); "a guarded claim is
+usually the honest one" (the opposite valence from the only recorded source on guarding, which
+describes it as a defensive move); "the condition that real arguments fail most often", stated twice
+and contradicted by the lesson's own worked case one section later; "this happens to careful people
+all the time"; "the one people get wrong most". **L7-F2.** Two quotations truncated inside quotation
+marks without an ellipsis: Van Cleave's pediatricians sentence, whose dropped clause is itself a second
+assurance and improves the example, and Groarke's relevance definition. **L7-F3.** Go deeper described
+the contents of two books nobody has opened, including Dennett's chapter as "three pages" and every
+evaluative clause about a Govier chapter. Same class as L3-D5, L4-B1 and L6-F3. **L7-F4.** "Arrows"
+attributed to the SEP's recorded notation; the record has separate reasons and the plus sign, and the
+word appears nowhere in `research/`. **L7-F5.** Eight first names and nine sets of initials the record
+does not hold, the rule set at L4-F8 and restated in the lesson 6 block. **L7-F6.** Two unrecorded
+claims about Toulmin: his motive for proposing the six slots, and "later writers say grounds" as a
+claim about terminology. **L7-F7.** Sources entries 7, 8 and 9 were never cited by a marker in the
+body. **L7-F8.** Oaksford-style over-reach on Dennett's locator: the page and chapter come from
+search-result descriptions and the entry did not say so.
+
+### Neutrality
+
+Perspectives audited: informal-logic scholar; formal logician; rhetorician (Perelman and
+Olbrechts-Tyteca, Tindale); pragma-dialectician (van Eemeren and Grootendorst); Toulmin scholar;
+Walton-school theorist; fallacy-theory sceptic; lawyer and nationality practitioner; Bermudian and
+other former-colony readers; a person described in 1958 law as an "alien"; doctor and screening
+epidemiologist; a reader who has just finished lesson 6; parents for and against homework; cyclist and
+driver; a resident for and against a cycle scheme; landlord and tenant; both neighbours on the
+noticeboard; employer and employee; non-UK readers; a religious reader; a learner who intends to bring
+a political argument to the project.
+
+Beyond L7-B8. **L7-N1.** The modelled objection to the modelled steelman is itself a small straw man of
+it, in the passage teaching you not to build one. The sister's case gives five reasons; the objection
+says "the case depends on the children doing it", and at most two of the five do. Worse, the "compare
+what I'd have said without the rules" contrast turns out to be the same objection twice, so the reader
+is shown a before and after in which nothing improves. **L7-N2.** The lesson resolves contested
+question 1 in passing, one lesson before lesson 8 teaches it as contested: "every one of them is a
+shortcut to a failure of one of these conditions" asserts the Johnson and Blair reduction as fact,
+where `SOURCES.md` records three live rivals including pragma-dialectics, which is recorded as covering
+moves the ARS sort misses. **L7-N3.** Harry's warrant is presented as current law and "aliens" is used
+unglossed; lesson 1 fixed both after its own audit and lesson 7 reintroduced both, in more detail and
+in the present tense. **L7-N4.** The lesson's example of a legitimate medical warrant is "this test is
+positive, so probably this disease", which is exactly the inference lesson 6 spends a lesson
+demolishing. A doctor, a screening epidemiologist and any learner who did lesson 6 last week all stop
+on that sentence, in a passage arguing that a warrant is only as good as its field. **L7-N5.** Cycle
+lanes are back in the practice topic list, having been struck from lesson 4 at L4-N3, and a second
+transport topic (car ownership) was added that the outline never asked for; `OUTLINE.md` line 96 still
+listed them, so the plan fed it forward. Fifth item of this class in seven lessons, after L2-N5
+immigration, L3-N11 citizenship, L4-N3 cyclists and L5-N1 crime and wealth. **L7-N6.** The steelman
+stipulation is presented as a correction of a wrong usage, on the authority of a word the lesson has
+just said has no authority. **L7-N7.** Three British references unglossed (the residents' board, the
+council, "the new operator" for a rail franchise), the class fixed at L3-N12, L4-N13, L5-N13 and
+L6-N14. **L7-N8.** Practice item 4 sends the learner to the argument they most disagree with, which is
+often political or religious, without the note the project text carries. **L7-N9.** The boiler
+evaluation asserts a fact about boilers and reports what a trade would say, two lines after the lesson
+says nothing in the message needs to be true.
+
+### Pedagogy and depth
+
+**L7-P1.** Two of six quiz items key on cases the body has already worked. Q2 is the linked/convergent
+predict block re-dressed, with the same two arguments, the same intervention and the same question,
+answered by the predict's own hidden text. Q4 is the café paragraph, with both the key and its
+principal distractor printed in the body. Honest application count two, against 4.3's floor of three.
+Same as L2-B3 and L6-P6. **L7-P2.** The ARG predict declares the boiler argument valid eight lines
+after the lesson calls it inductive, and its answer illustrates relevance with an argument whose
+premises are perfectly relevant to their own conclusion and whose conclusion is off-topic, which is a
+step-1 failure rather than a relevance failure. **L7-P3.** Q3 is pre-answered by a body sentence
+fifty lines earlier ("the bread might have been in a sealed bag" is quiz option D verbatim), and its
+key is the body's own definition of a warrant with two nouns changed. Same as L3-P3 and L6-P6.
+**L7-P4.** Q1's key is not unique on the lesson's own rule: both premises carry an assuring term, and
+"clearly" is on the lesson's own assuring list, so option B's choice of premise is defensible and only
+its label is wrong. **L7-P5.** A 1,579-word stretch with no think-block, containing all of objective 3;
+the lesson runs three predicts and three checkpoints, the thinnest in the course, in the lesson whose
+whole content is a procedure the reader must perform. **L7-P6.** The removal test is used four times
+and never stated, so the learner sees verdicts rather than a procedure. Same as L6-P1. **L7-P7.** The
+boiler's evaluation turns on an intermediate conclusion that does not appear in its standard form, and
+sub-conclusions are never named or taught. **L7-P8.** The full five-premise reconstruction, the
+section's payoff, is never displayed: premise 5 arrives as a bare markdown list item outside the fence,
+which slips the linter precisely because no `C:` sits beneath it. **L7-P9.** The six-step check is
+printed for the learner three times and retrieved never, in the lesson that completes it, and it is
+not in the free-recall list. **L7-P10.** All three prescribed spaced reviews are told, not retrieved.
+Same as L6-P12. **L7-P11.** Objective 2 names three Toulmin slots and the learner produces one; the
+qualifier, which carries the connection to lesson 10 and to the project rubric, is never written and
+never chosen. **L7-P12.** "Cogent" is redefined against lesson 5 one lesson later with no flag: lesson
+5 requires the premises to be true, and lesson 7 spends a paragraph explaining that acceptability is
+not truth. **L7-P13.** The practice is blocked rather than interleaved, four tools in the order the
+body taught them, each under its own heading, and both passages fail on premise conditions, so nothing
+in the set exercises grounds. **L7-P14.** The free-recall list names five items where the course runs
+eight to eleven. **L7-P15.** `minutes: 45` against measured costings of 85, 95 and 104. **L7-P16.**
+Two terms introduced and abandoned ("deep analysis", "backing"), and pipeline vocabulary back in a
+learner-facing heading ("Worked example with a wrinkle") and in the exercise label ("Do it now"), the
+sixth occurrence of the latter. **L7-P17.** The lesson opens on an anecdote about an argument rather
+than an argument, which OUTLINE line 7 forbids; the first argument appears at line 122. **L7-P18.**
+Argument-display rules are 61 and 98 characters where lessons 2 to 5 standardised on 72, and the
+98-dash rule sets the horizontal scroll extent at 360px.
+
+### Voice
+
+**L7-V1.** Thirteen paragraphs end on a compressed one-line moral, the worst count yet (running 5, 6,
+6, 8, 12, 13), and five of the eight unearned ones fall in a 65-line stretch, four of them closing
+consecutive misconception entries. **L7-V2.** Three "Here's" openers, which is an improvement for the
+first time in the course (running 6, 4, 4, 4, 8, 6, 3). **L7-V3.** Four sentences that restate the
+previous one with more drama, and the steelman point made five separate times. **L7-V4.** "Writers
+reach for an assurance where they have no evidence to hand" imputes motive to strangers, the L6-V8
+defect. **L7-V5.** Two uncashed terms: "straw man", used three times before lesson 8 defines it, and
+"diagram" as a notation the reader has never seen.
+
+### Split verdict: PASSES the 1.3 test. Seam marked, not split.
+
+The depth and pedagogy reviewers put the seam in the same place, between the boiler reconstruction
+and "Charity: reconstruct the version they'd sign", and gave the same reasons. Part A is "rebuilding
+an argument", ending on a complete testable skill; Part B is "whose argument, and does it hold". The
+dependency runs one way only and weakly: Part B needs the notion of a reconstruction, which lesson 1
+already supplies. Three pieces of evidence neither reviewer designed for: the word count divides almost
+exactly in half; the quiz divides three and three by topic with no item straddling; and **Part B's
+opening is already written**, because the lesson's current opening is about answering the wrong version
+of someone's argument, which is charity's subject rather than reconstruction's. Both halves keep a
+folder exercise, which is the breach lesson 5's split analysis had to flag. Marked with a comment in
+the file per BACKLOG 7b, recording the four costs. Not renumbered. The Logic course now stands at four
+confirmed seams.
+
+**One correction to both split reports:** each recommended adding a `:::callout A good place to stop`
+"in the form lessons 2, 3, 5 and 6 use". Those lessons use a comment only, with no callout. Followed
+actual precedent rather than the reports.
+
+### What is working, and must survive
+
+**The charity mechanism paragraph, which is the best thing in the lesson and possibly in the course.**
+"So charity isn't politeness. It's accuracy about the object you're evaluating. A reconstruction that
+the arguer wouldn't sign is a wrong answer to the question 'what is this person's argument?', in the
+same way that a wrong sum is a wrong answer, and the fact that it was uncharitable is just the way it
+went wrong." Almost every treatment of this material makes charity a virtue and stops. This one makes
+it a correctness condition, which is truer and far more persuasive to a reader who has no wish to be
+nice to people they disagree with.
+
+**"A diagram is a prediction about damage."** Eleven words that turn a piece of notation into a reason
+to bother, and the image the whole boiler example then runs on. The lesson-3 and lesson-6 move again:
+one picture doing structural work across a lesson.
+
+**The steelman distinction, and its last five words.** "If you build a magnificent argument for a
+position and no one who holds the position would recognise it, you haven't steelmanned them; you've
+built your own argument and put their name on it, which is a straw man with better manners."
+
+**The Rapoport modelling.** The lesson does not describe rule 1, it performs it, on a disagreement
+where the author holds the losing side, in the author's own voice, and then shows the unruled version
+and diagnoses why it misses. A professor showing their own working, including the bad version. Nothing
+in lessons 1 to 6 does this and it should be copied.
+
+**The predict at the linked/convergent section, and its placement.** The reader meets two arguments, is
+told a premise in each is false, and is asked which survives, *before* the words "linked" and
+"convergent" exist. Examples first, then the name, done exactly as the style guide asks.
+
+**"The point after 'but' is the one the writer wants you to keep; the point before it is the one
+they've decided you'll set aside."** Twenty-five words, no jargon, and discounting terms are visible
+forever after.
+
+**The two layouts as one argument viewed twice**, and then making Toulmin earn the second view with two
+specific things a premise list cannot do. Most textbook treatments present Toulmin as an alternative
+notation and never say why anyone would use it.
+
+**And the citation discipline the last four lessons kept failing on.** Zero parenthetical citations,
+zero em dashes, every marker bare, and a Sources entry that stated its own grade unprompted before any
+reviewer asked.
+
+### Resolutions applied, 2026-09-06
+
+Rewritten wholesale rather than patched, keeping verbatim every passage the reviewers said must
+survive. `minutes: 45` to `90`, the middle of the three costings. Body 6,922 words to 9,710 by the
+same count. Figures zero to three. Markdown links zero to four. Think-blocks 3 predicts and 3
+checkpoints to 6 and 9, one of the nine being the practice key. Practice passages two to three,
+interleaved so they fail on three different conditions. Quiz: three items replaced, one stem repaired,
+answer key `2,0,1,3,1,3` unchanged with all four indices. Linter warnings one to zero. Contraction
+rate improved from one every 34.2 to one every 33.4, which is the best in the course.
+
+**L7-B1.** Linked-versus-convergent and the whole ARG section now rest on Groarke's SEP entry, read at
+draft time and quoted verbatim. Govier keeps only what `SOURCES.md` supports: the ARG letters and two
+chapter titles from the publisher's listing, with the Sources entry saying in terms that nobody on
+this course has read the book and that everything taught about the three conditions comes from
+Groarke. The acceptability paragraph's three places a premise gets earned now come from the CSUN
+syllabus, read in full, which the outline named for that slot and which the lesson had listed in
+Sources while using nothing from it. Go deeper's Govier entry now says the same thing in the reader's
+hearing, which also models the acceptability condition the lesson teaches.
+
+**L7-B2.** Copi and Hurley deleted. Nothing was lost; both were orphans. `OUTLINE.md` line 100
+corrected so it stops sending the next drafter the same way, with the reason recorded in the line
+itself.
+
+**L7-B3 and L7-B4.** The phrase is now attributed to Toulmin, Rieke and Janik, which is a new Sources
+entry marked not read and known only through Hitchcock; the invented page range is gone and Sources
+entry 1 carries both editions' real page sets. The warrant is lesson 1's verified wording, in the
+body, the figure and the bracketed premise, with lesson 1's gloss of "aliens" carried across and its
+note that the 1958 warrant has since expired, which is the best illustration in the course of
+Hitchcock's field-dependence point: a warrant can expire.
+
+**L7-B5.** Three SVGs, all rendered headless at 340px before committing per L4-B2, all theme tokens,
+all font-size 15 or above, captions in prose. Figure 1 is the two shapes side by side, the notation
+practice item 1 asks the learner to produce, with the flat argument's three separate lines and the
+train argument's plus signs; it also carries the fix for the missing premise, since the train argument
+needed "[she catches the last train]" and the lesson had never supplied it. Figure 2 is Toulmin's six
+slots on Harry, growing lesson 1's four-box drawing by the backing and the qualifier, so a reader who
+did lesson 1 sees a picture they know acquire two boxes. Figure 3 is the boiler's mixed diagram, the
+linked chain ringed and the two convergent premises alongside. Lesson 1's own SVG was deliberately not
+used as a template: it uses font-size 10 and 11 and raises the linter's warning today. Four links,
+using the two addresses recorded in the repository, Hitchcock's PDF and Van Cleave's chapter index.
+**Not linked:** Groarke's SEP entry and Van Cleave 1.10, the two most valuable, because no address for
+either is on file and constructing one is what lesson 3 refused for Wason and lesson 6 for Dyer. Both
+are item 19 on the network list. **Not drawn:** any chart of how often arguments fail each condition
+(no data exists, and drawing it would launder an unsourced claim into a graphic), any portrait, and any
+video, since the only verified clips in `SOURCES.md` belong to lessons 8 and 9 and are on other topics.
+
+**L7-B6.** A `:::checkpoint` key for all three practice passages, in the house form, with the standard
+forms, the diagrams in words, the ARG verdicts and the diagnostic sentence naming the commonest error
+on passage (a). Items 2 to 4 are folder work and the block says so rather than leaving the learner
+looking.
+
+**L7-B7.** The boiler's evaluation moved into the ARG section as its worked example, under its own
+heading, with each verdict labelled by condition, and a one-line pointer left where it used to be.
+The reordering also fixes L7-P2: the ARG predict now runs before the conditions are named, which is
+the state in which the question is a prediction, and it no longer asserts that the boiler argument is
+valid.
+
+**L7-B8.** Contested question 3 rewritten. Pragma-dialectics gets van Eemeren and Grootendorst by name,
+its actual claim, two of its ten rules, and its own account of why a straw man is bad, which is a
+different and arguably deeper reason than the one this lesson gave. Rhetoric gets Perelman and
+Olbrechts-Tyteca, Tindale, and the point that lands on this lesson: the acceptability condition says a
+premise is acceptable if a reasonable person *in the arguer's audience* would grant it, so the audience
+is already in the test. The course's own choice is then stated as an answer to those two rather than
+as a default. The one clause the neutrality reviewer flagged as going beyond the record was cut.
+
+**Fact-check.** L7-F1: all five frequency claims replaced by mechanisms, and the assuring claim is now
+Van Cleave's recorded reason rather than a claim about what writers know; the guarding paragraph now
+gives both readings with a test for telling them apart, which is better teaching than either. Quiz Q1's
+key and explanation were rewritten to match, since the item had been keying on the overreach. L7-F2:
+both quotations restored whole. L7-F3, F5, F6, F7, F8 applied. L7-F4: "arrows" replaced by "separate
+reasons, each with its own line", which is what the record supports.
+
+**Neutrality.** N1: the modelled objection now says two of the five reasons need the children, names
+what survives, and calls itself an objection that narrows the case rather than sinking it; the
+contrast is now a genuinely different, worse objection aimed at the one part of her case that was
+already armoured. N2: the fallacy-name sentence now attributes the sort to Johnson and Blair, says it
+is not the only one, and names Walton, pragma-dialectics and the Fallacy Fork as the rivals lesson 8
+will give. N3 and N4 applied as proposed; the medical warrant became a structural-engineering one,
+which collides with nothing. N5: cycle lanes and the car are out, replaced by two topics with two
+genuine sides and no partisan valence, and `OUTLINE.md` line 96 is corrected with the reason recorded
+so it is not restored. N6, N7, N8, N9 applied.
+
+**Pedagogy and depth.** P1: Q2 and Q4 replaced with fresh cases, indices verified, application count
+now five of six. P3: Q3 replaced, and the body sentence that pre-answered it rewritten to make the
+point without naming any of its own quiz items. P4: Q1's second premise now carries a guard instead of
+a second assurance, so the key is unique and the item also tests that a guarded claim is not the one
+to attack. P5: five new think-blocks, placed in the three sections that had none. P6: the removal test
+written out as a procedure and then run visibly on the boiler. P7 and P8: the intermediate conclusion
+is now in the display and named as a move, and the full five-premise reconstruction is reprinted whole
+inside a fence. P9: a retrieval checkpoint for the six-step check, and the check added to free recall.
+P10: the lesson-1 spaced review is now a checkpoint at the Toulmin section, and the grounds review is a
+checkpoint running three cases across lessons 2, 5 and 6. P11: practice item 2 now sets the qualifier
+from the warrant. P12: the clash with lesson 5's "cogent" is named where the learner meets it. P13: a
+third passage added, on affirming the consequent, so the set fails on three different conditions and
+the learner has to reach back for the tool. P14: free recall extended from five items to ten. P15:
+`minutes: 90`, and the outline corrected. P16 and P17: terms cashed, heading renamed to "The boiler
+message", exercise renamed to "On paper, with two passages and one argument of your own"; the opening
+scene was kept, on the voice reviewer's judgement, and a real quoted argument now follows it
+immediately so the convention is met on the first screen. P18: both rules set to 72 characters.
+
+**Voice.** Ten of the thirteen one-line morals folded or cut, keeping the five that earned it. The
+steelman point now made twice instead of five times. The motive imputation gone. "Straw man" cashed at
+first use. Contractions raised throughout.
+
+### Deliberately not fixed, with reasons
+
+1. **The opening scene stays**, against pedagogy 13 and depth 15, which both read it as breaching
+   OUTLINE line 7. The voice reviewer called it the best of the course's three scene openings and said
+   not to touch it, and lessons 2 and 3 both open on scenes and were praised for it, so the convention
+   has been read as satisfied by a scene before. The reviewers' real point was that no argument
+   appears for twenty lines, and that is answered by quoting one immediately after the scene, which
+   costs sixty words and displaces nothing. Depth's observation that the opening belongs to Part B is
+   recorded in the seam comment instead, where the person renumbering will read it.
+2. **Practice passage (a)'s bus cost is not listed as a premise**, following pedagogy against depth and
+   voice, both of whose keys numbered it. Disposing of an objection removes a reason against rather
+   than adding a reason for, so on the lesson's own standard it is not support for the conclusion. The
+   key now says so and names it as the commonest error on the passage, which is a teaching point the
+   other two versions would have lost.
+3. **Quiz Q4's option A is left as an eliminable absolute**, against depth 22, which wanted it replaced
+   along with option B. "The 7:40 is never packed" survives because noticing that "never" is too strong
+   to be anyone's view *is* the charity judgement the item tests, so a learner who eliminates it has
+   done the thing the lesson wanted.
+4. **Quiz Q5 keeps its abstract stem.** Depth and pedagogy both offered to give it a case. With three
+   items replaced the application count already reaches five of six, and Q5 is the only item that tests
+   the three conditions against each other rather than on a case, which is worth one slot.
+5. **No `:::callout A good place to stop` at the seam**, against both split reports, which described it
+   as the house form. Lessons 3, 5 and 6 use a comment only. Followed the files rather than the
+   reports.
 6. **The lesson is not split.** BACKLOG 7b: mark the seam, do not renumber as you go. Marked.
