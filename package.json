@@ -13,7 +13,8 @@
     "feedback:deploy": "wrangler deploy --cwd workers/feedback",
     "net": "node scripts/net-quotes.mjs",
     "build:drafts": "node scripts/build.mjs --drafts",
-    "shots": "node scripts/screenshots.mjs"
+    "shots": "node scripts/screenshots.mjs",
+    "card": "node scripts/social-card.mjs"
   },
   "license": "CC-BY-SA-4.0",
   "dependencies": {
