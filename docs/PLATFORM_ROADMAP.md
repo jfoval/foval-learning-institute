@@ -5,7 +5,7 @@ How Foval Learning Institute gets from a static prototype to a full learning pla
 ## Principles
 
 1. **Content is the product; the platform serves it.** Content lives in git as Markdown, forever. Every platform decision must keep that true.
-2. **Free means free.** No ads, no paywalls, no data selling. Infrastructure must cost near zero at small scale and scale cheaply. Static hosting plus a free-tier backend does this.
+2. **Free means free.** No paywalls, and no advertising inside a lesson. Infrastructure must cost near zero at small scale and scale cheaply; static hosting plus a free-tier backend does this. If sponsorship ever covers the bill, it goes on pages that teach nothing, and it is labelled. See VALUES.md value 1.
 3. **Any device, first.** Phone-first responsive design, installable as a web app, lessons readable offline. Native apps only if a web app cannot do something we need.
 4. **No lock-in.** Learner data is exportable. Accounts are optional for reading; required only for sync and social features.
 5. **Ship in phases.** Each phase is usable on its own.
@@ -37,11 +37,11 @@ How Foval Learning Institute gets from a static prototype to a full learning pla
 
 **Goal:** sign in on any device and your progress follows you.
 
-- **Backend: Supabase** (free tier: 50k monthly active users, Postgres, auth, row-level security). Alternatives considered: Firebase (fine, less open), a custom server (more to maintain). Supabase wins on cost, openness, and Postgres.
-- **Auth:** email + password, magic link, and Google sign-in. Username chosen at signup for social features.
-- **Tables:** `profiles`, `lesson_progress` (user, course, lesson, done, score, at), `review_items` (user, question id, ease, interval, due), `feedback` (user or anon, lesson, rating, comment), `study_sessions` (for streaks and hours).
-- **Sync strategy:** the browser stays the source of truth while offline; on sign-in, merge local progress with the server (union of completions, max of scores, latest review schedule). No feature is lost for signed-out users.
-- **Content stays static.** The site keeps loading `courses.js` from GitHub Pages; only learner state goes to Supabase. The two can never be out of step in a way that matters.
+- **Backend: Cloudflare Worker plus D1** (`workers/api/`). Superseded the original Supabase plan when the project moved to Cloudflare in September 2026; the Worker and database were already deployed and proven by the feedback endpoint. Written and tested, not yet deployed. Alternatives weighed in `docs/AUTH_OPTIONS.md`.
+- **Auth:** Google sign-in and a six-digit code by email. Not passwords: hashing one costs 50 to 100 ms of CPU and the Workers Free plan allows 10 ms, so passwords alone would put this on a paid plan for a method the other two already cover. Add them if learners ask.
+- **Tables:** `users`, `identities`, `sessions`, `login_codes` for the sign-in itself; `profiles`, `lesson_progress` (user, course, lesson, done, score, at), `review_items` (user, item key, ease, interval, due, reps, lapses, last), `study_sessions` (for streaks and hours). Feedback keeps its own table and its own write-only Worker.
+- **Sync strategy:** the browser stays the source of truth; on sign-in, merge local progress with the server (a lesson stays done, the higher score wins, a review item keeps the schedule further ahead, the larger day tally wins). Signing in cannot lose progress. No feature is lost for signed-out users, and nothing here needs an account to work. Writes are batched on a timer because D1's free plan counts row writes and, since 1 September 2026, fails queries once the daily cap is hit.
+- **Content stays static.** The site keeps loading `courses.js` from GitHub Pages; only learner state goes to D1. The two can never be out of step in a way that matters.
 - Migration path: Phase 1's local progress format is designed to map 1:1 onto these tables.
 - **Audio mode**: every lesson gets a narrated audio version (generated from the lesson text, reviewed for pronunciation), with playback speed control, so a course can be taken on a walk or a commute. Offline download comes free with the PWA cache.
 
@@ -98,12 +98,16 @@ Things that fail the bar and we won't do: points for logging in, cartoon mascots
 
 | Scale | Hosting | Backend | Total / month |
 |---|---|---|---|
-| Launch to 10k users | GitHub Pages: $0 | Supabase free tier: $0 | $0 |
-| 10k–100k users | Cloudflare Pages: $0 | Supabase Pro: $25 | ~$25 + usage |
-| 100k+ | CDN: ~$20 | Supabase Team or self-hosted Postgres | ~$100–500 |
+| Launch to 10k users | GitHub Pages or Cloudflare Pages: $0 | Workers Free plus D1 free: $0 | $0 |
+| 10k–100k users | Cloudflare Pages: $0 | Workers Paid $5 plus D1 usage | ~$5 to $15 |
+| 100k+ | Cloudflare Pages: $0 | Workers Paid plus D1 at volume | ~$25 to $100 |
+
+The free plan runs out on row writes before anything else: 100,000 a day, which is roughly
+ten thousand learners finishing a course on the same day. Workers Paid at $5 a month is the
+first thing to buy, and it also unlocks email and password sign-in.
 
 AI-assisted feedback (Phase 3) is the one meaningfully variable cost; cap it per user per month.
 
 ## What we are not building
 
-A video platform (link to great lectures instead), a marketplace for instructors, a social feed, or anything that would need advertising to fund.
+A video platform (link to great lectures instead), a marketplace for instructors, a social feed, or anything we could only afford by selling the learner's attention.

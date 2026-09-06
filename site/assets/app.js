@@ -12,7 +12,11 @@
   // Leave empty to keep feedback in this browser and offer the GitHub issue route. See docs/FEEDBACK_LOOP.md.
   const FEEDBACK_ENDPOINT = window.FOVAL_FEEDBACK_ENDPOINT || "";
   const FEEDBACK_HEADERS = window.FOVAL_FEEDBACK_HEADERS || { "Content-Type": "application/json" };
-  const K = { progress: "foval.progress.v1", review: "foval.review.v1", activity: "foval.activity.v1", prefs: "foval.prefs.v1" };
+  // Accounts backend (workers/api). Empty until the Worker is deployed and this is set in
+  // index.html; while it is empty the site behaves exactly as it did before, with progress
+  // in this browser only and no network calls. See docs/AUTH_OPTIONS.md.
+  const API = window.FOVAL_API || "";
+  const K = { progress: "foval.progress.v1", review: "foval.review.v1", activity: "foval.activity.v1", prefs: "foval.prefs.v1", auth: "foval.auth.v1" };
   const main = document.getElementById("main");
   const DAY = 86400000;
 
@@ -29,12 +33,78 @@
   }
   const prefs = () => load(K.prefs, { hoursPerWeek: 5 });
 
+  /* ---------- account and sync ----------
+     The browser stays the source of truth. Signing in never replaces local progress; it
+     merges with the server (a lesson stays done, the higher score wins, a review item
+     keeps the further-ahead schedule) and the merged result comes back. Writes are
+     batched on a timer because D1's free plan counts row writes, not requests. */
+  const account = () => load(K.auth, null);
+  function setAccount(a) {
+    if (a) save(K.auth, a);
+    else { try { localStorage.removeItem(K.auth); } catch { /* private mode */ } }
+    const link = document.getElementById("accountLink");
+    if (link) link.textContent = a && a.token ? "Account" : "Sign in";
+  }
+  const signedIn = () => Boolean(API && account() && account().token);
+
+  async function apiCall(path, { method = "GET", body, token, keepalive } = {}) {
+    const headers = {};
+    if (body) headers["Content-Type"] = "application/json";
+    const t = token || (account() || {}).token;
+    if (t) headers.Authorization = `Bearer ${t}`;
+    const r = await fetch(API + path, { method, headers, body: body ? JSON.stringify(body) : undefined, keepalive });
+    const data = await r.json().catch(() => ({}));
+    if (r.status === 401 && t) { setAccount(null); throw new Error("Your session expired. Sign in again."); }
+    if (!r.ok) throw new Error(data.error || `Request failed (${r.status})`);
+    return data;
+  }
+
+  const localState = () => ({
+    progress: load(K.progress, {}), review: load(K.review, {}), activity: load(K.activity, {}),
+    prefs: prefs(), name: (() => { try { return localStorage.getItem("foval.name") || ""; } catch { return ""; } })(),
+  });
+
+  // Merged progress carries done, score and at. Anything else the browser keeps on a
+  // lesson, feedback above all, is local and must survive the write-back.
+  function applyState(state) {
+    const local = load(K.progress, {}), next = {};
+    for (const [cid, lessons] of Object.entries(state.progress || {})) {
+      next[cid] = {};
+      for (const [lid, v] of Object.entries(lessons)) next[cid][lid] = Object.assign({}, (local[cid] || {})[lid], v);
+    }
+    for (const [cid, lessons] of Object.entries(local)) {
+      next[cid] = Object.assign({}, lessons, next[cid] || {});
+    }
+    save(K.progress, next);
+    save(K.review, state.review || {});
+    save(K.activity, state.activity || {});
+    if (state.prefs) save(K.prefs, state.prefs);
+    if (state.name) { try { localStorage.setItem("foval.name", state.name); } catch { /* private mode */ } }
+  }
+
+  let syncTimer = null, syncing = false;
+  async function syncNow(keepalive) {
+    if (!signedIn() || syncing) return null;
+    syncing = true;
+    try {
+      const r = await apiCall("/state", { method: "PUT", body: localState(), keepalive });
+      applyState(r.state);
+      setAccount(Object.assign({}, account(), { syncedAt: Date.now() }));
+      return r.state;
+    } finally { syncing = false; }
+  }
+  function scheduleSync() {
+    if (!signedIn()) return;
+    clearTimeout(syncTimer);
+    syncTimer = setTimeout(() => syncNow().catch(() => { /* the browser still has it */ }), 15000);
+  }
+
   /* progress */
   const lessonState = (cid, lid) => (load(K.progress, {})[cid] || {})[lid] || null;
   function markLesson(cid, lid, data) {
     const p = load(K.progress, {}); p[cid] = p[cid] || {};
     p[cid][lid] = Object.assign({}, p[cid][lid], data, { at: Date.now() });
-    save(K.progress, p); logActivity();
+    save(K.progress, p); logActivity(); scheduleSync();
   }
   const courseItems = c => [...c.lessons, ...(c.assessments || [])];
   function courseProgress(c) {
@@ -64,7 +134,7 @@
       it.reps = 0; it.lapses += 1; it.interval = 1; it.ease = Math.max(1.3, it.ease - 0.2);
     }
     it.last = correct; it.due = Date.now() + it.interval * DAY;
-    save(K.review, bank); logActivity();
+    save(K.review, bank); logActivity(); scheduleSync();
   }
   function resolveKey(key) {
     const [cid, lid, qi] = key.split("/");
@@ -140,6 +210,106 @@
     return null;
   }
 
+  /* Screenshots of the real site, taken at phone and desktop width in both themes.
+     Four files per shot: <name>-{light,dark}-{phone,desktop}.png in assets/media/screens/.
+     Never a mockup: if a feature has no live course to photograph, it gets no panel. */
+  const SHOTS = "assets/media/screens/";
+  function shot(name, alt, caption) {
+    return `<figure class="shot">
+        <picture>
+          <source media="(prefers-color-scheme: dark) and (max-width: 700px)" srcset="${SHOTS}${name}-dark-phone.png">
+          <source media="(prefers-color-scheme: dark)" srcset="${SHOTS}${name}-dark-desktop.png">
+          <source media="(max-width: 700px)" srcset="${SHOTS}${name}-light-phone.png">
+          <img src="${SHOTS}${name}-light-desktop.png" alt="${esc(alt)}" loading="lazy" decoding="async">
+        </picture>
+        <figcaption>${esc(caption)}</figcaption>
+      </figure>`;
+  }
+
+  function tileShot(name, label, line, alt) {
+    return `<figure class="shot">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="${SHOTS}${name}-dark-phone.png">
+          <img src="${SHOTS}${name}-light-phone.png" alt="${esc(alt)}" loading="lazy" decoding="async">
+        </picture>
+        <figcaption><b>${esc(label)}</b>${esc(line)}</figcaption>
+      </figure>`;
+  }
+
+  const WHY_TILES = [
+    ["tile-quiz", "The quiz argues back", "Right and wrong are marked, then it says why yours was wrong.",
+      "A quiz question after answering, one option marked correct in green, the chosen one marked wrong in red, and the explanation beginning below."],
+    ["tile-video", "Watch it explained", "When somebody has already explained it better in six minutes, the lesson embeds it and says why.",
+      "An embedded video at the foot of a lesson section, with a caption saying how long it is and why it is worth watching."],
+    ["tile-map", "Maps of the material", "A whole library on one page, with the dates, the covenants and the gaps.",
+      "A timeline of the Bible in six acts, from creation to new creation, marking the covenants, the fall of Samaria in 722 BC, the exile in 586 BC and the four hundred years with no book in it."],
+    ["tile-exercise", "Work to do", "At least one thing per lesson that you do on paper, before the quiz.",
+      "An exercise block headed Do it now, asking the reader to audit their own study habits."],
+    ["tile-recall", "Recall before the quiz", "Close the page and write what you remember. Then the questions open.",
+      "The free recall box at the foot of a lesson, part filled with a learner's own summary and a running word count."],
+    ["tile-code", "Real material", "Code you run, data you read, sources you can go and check.",
+      "A Python lesson showing three runnable for-loops with their output in comments, and the paragraph explaining range."],
+    ["tile-transcript", "A record that adds up", "Lessons, hours, retention, streak. What you can still do, not what you saw.",
+      "The transcript page showing courses completed, lessons completed, hours of study, questions in the review bank, retention and day streak."],
+  ];
+
+  const WHY_PANELS = [
+    {
+      shot: ["predict",
+        "A lesson paused at a question, with the answer revealed under a button after the reader has committed to a guess.",
+        "How to Learn Anything, lesson 3"],
+      title: "You think while you read",
+      body: "Reading is the weakest way to learn there is. So a lesson here stops, asks you what you think happens next, and only then tells you. You commit to an answer, then find out. That small bit of work before the reveal is most of the difference between having read a page and knowing something.",
+    },
+    {
+      shot: ["chart",
+        "A chart from a Bible course showing that of the Bible's 1,189 chapters, 918 sit in one act, the story of Israel.",
+        "The Bible: What It Is and How to Read It, lesson 2"],
+      title: "Drawn, photographed, and linked",
+      body: "Where a count settles the argument, you get the chart. Where a manuscript or a painting is the evidence, you get a picture of the real thing, credited and licensed. Where somebody has already explained something better than we can in five minutes, the lesson embeds the video and says why to watch it. Nothing is here as decoration, and nothing is generated to look like a photograph or a painting.",
+    },
+    {
+      shot: ["review",
+        "The Review page showing a question from a completed lesson, with the four answer options and the number due today.",
+        "The Review page, mid session"],
+      title: "It comes back until it stays",
+      body: "Every question you pass joins your review bank. It returns tomorrow, then in three days, then a week, then a month, with the gap growing each time you get it right and resetting when you miss. Your transcript then shows what you can still recall, which is a different number from how much you once read.",
+    },
+    {
+      shot: ["standpoint",
+        "The Path page showing a Christian Studies course carrying a Christian Standpoint label next to its title.",
+        "The Foval Core, term three"],
+      title: "Faith courses say so on the label",
+      body: "Christian Studies teaches from inside the Christian faith and carries a Christian Standpoint label on the card, on the path, and at the top of the course. Objections are put in their strongest form, not a soft version we can knock down. Every other school teaches on neutral ground and leans on neither belief nor unbelief. You always know which kind of course you are in.",
+    },
+  ];
+
+  function whySection() {
+    return `
+      <section class="section why">
+        <div class="section-head"><h2>What makes this different</h2></div>
+        <p class="why-lede">Every lesson is written from the standard references in its field, then read again in a separate pass for accuracy and for balance. Where a question is genuinely open, you get the disagreement at full strength instead of a tidy answer. Everything below is a photograph of the live site, not a drawing of one.</p>
+        <div class="why-rows">
+          ${WHY_PANELS.map(p => `<div class="why-row">${shot(...p.shot)}<div class="why-copy"><h3>${esc(p.title)}</h3><p>${esc(p.body)}</p></div></div>`).join("")}
+        </div>
+        <h3 class="why-strip-head">A lesson page is more than words</h3>
+        <p class="why-strip-lede">Reading is where a lesson starts, not where it stops.</p>
+        <div class="why-strip">${WHY_TILES.map(t => tileShot(...t)).join("")}</div>
+        <div class="why-rows">
+          <div class="why-row why-ask">
+            ${shot("feedback",
+              "The feedback form at the foot of a lesson, asking how clear it was and what would have made it better.",
+              "The foot of every lesson")}
+            <div class="why-copy">
+              <h3>One ask</h3>
+              <p class="ask-line">We provide this free. The one thing we ask is that you help make it better: when a lesson is unclear or could be better, say so in the form at the bottom of every lesson. We read all of it and use it.</p>
+              <p class="muted small">Not built yet, and next on the list: a two-voice audio version of every lesson, for people who take things in better by listening.</p>
+            </div>
+          </div>
+        </div>
+      </section>`;
+  }
+
   /* ---------- views ---------- */
   function viewHome() {
     const lessons = COURSES.reduce((n, c) => n + c.lessons.length, 0);
@@ -177,6 +347,7 @@
       </section>
       ${rs.due.length ? `<div class="path-next"><div><h3>${rs.due.length} question${rs.due.length === 1 ? "" : "s"} due for review</h3><p>A few minutes now keeps it from fading.</p></div><a class="btn btn-primary" href="#/review">Review now</a></div>` : ""}
       ${started.length ? `<section class="section"><div class="section-head"><h2>Continue</h2><p><a href="#/my-learning">Your page →</a></p></div><div class="grid">${started.filter(c => !courseComplete(c)).slice(0, 3).map(courseCard).join("")}</div></section>` : ""}
+      ${whySection()}
       <section class="section">
         <div class="section-head"><h2>Courses</h2><p><a href="#/courses">See all</a></p></div>
         <div class="grid">${COURSES.slice(0, 6).map(courseCard).join("")}</div>
@@ -233,7 +404,7 @@
       ${next ? `<div class="path-next"><div><h3>Next up: ${esc(next.title)}</h3><p>${esc(next.summary)}</p></div><a class="btn btn-primary" href="#/course/${next.id}">${courseStarted(next) ? "Continue" : "Start"}</a></div>` : `<div class="path-next"><div><h3>You've finished every live course on the path.</h3><p>More are being written. Keep your knowledge fresh in <a href="#/review">Review</a>.</p></div></div>`}
       ${terms}
     `, "Path");
-    main.querySelector("#hpw").addEventListener("change", e => { save(K.prefs, { ...prefs(), hoursPerWeek: Number(e.target.value) }); route(); });
+    main.querySelector("#hpw").addEventListener("change", e => { save(K.prefs, { ...prefs(), hoursPerWeek: Number(e.target.value) }); scheduleSync(); route(); });
   }
 
   function viewCourse(id) {
@@ -483,7 +654,7 @@
       ${finished.length ? `<section class="section"><h2>Completed</h2><ul class="lesson-list">${finished.map(c => `<li><a href="#/certificate/${c.id}"><span class="lesson-num">✓</span><span>${esc(c.title)}</span><span class="lesson-time">certificate</span></a></li>`).join("")}</ul></section>` : ""}
       <section class="section">
         <h3>Your data</h3>
-        <p class="muted">Everything is stored in this browser only. Export it to move to another device, or clear it. Accounts with sync are on the roadmap.</p>
+        <p class="muted">${API ? `Everything is stored in this browser. ${signedIn() ? `It also syncs to <a href="#/signin">your account</a>, so it follows you between devices.` : `<a href="#/signin">Sign in</a> and it follows you between devices. You can also move it by hand.`}` : "Everything is stored in this browser only. Export it to move to another device, or clear it. Accounts with sync are on the roadmap."}</p>
         <div class="btn-row">
           <button class="btn btn-secondary" id="exportBtn">Copy my data</button>
           <button class="btn btn-secondary" id="importBtn">Paste my data</button>
@@ -539,7 +710,7 @@
         <p class="lede">Faith. Knowledge. Life. Free for everyone. Good teaching should not be rationed by price, and a real education should cover the great questions, the practical skills of living well, and the faith that gives both their meaning. Foval Learning Institute is free, open, and built to make you well-read, hard to fool, and useful.</p>
         <h2>The values</h2>
         <ol>
-          <li><strong>Free, for everyone.</strong> No tuition, no ads, no paywalls, no account needed to learn.</li>
+          <li><strong>Free, for everyone.</strong> No tuition, no paywalls, no account needed to learn, and no lesson carries an advertisement.</li>
           <li><strong>Truth, and honesty about it.</strong> What is known, how it is known, and what is not settled. Every claim sourced and fact-checked.</li>
           <li><strong>Faith, taught honestly.</strong> The School of Christian Studies teaches from within the Christian faith and says so on every course. The rest of the institute teaches on neutral ground and never mocks belief or unbelief.</li>
           <li><strong>Depth over polish.</strong> Written from the standard references, with worked examples and the mistakes experts know beginners make.</li>
@@ -560,7 +731,9 @@
           <li><strong>Prove it.</strong> Your transcript tallies everything. Finish a course and print a certificate.</li>
         </ol>
         <h2>Privacy</h2>
-        <p>No account is needed. Your progress is stored in your own browser and never sent anywhere. Export it from <a href="#/my-learning">your page</a> to move devices.</p>
+        <p>${API
+          ? `No account is needed to read anything here, and there never will be. Your progress is stored in your own browser. If you <a href="#/signin">sign in</a>, it also syncs to our database so it follows you between devices, and then we hold your email address and that progress, and nothing else. There is no password to leak, because there is no password. You can delete the account and every row of it from the account page, or move your progress by hand from <a href="#/my-learning">your page</a>.`
+          : `No account is needed. Your progress is stored in your own browser and never sent anywhere. Export it from <a href="#/my-learning">your page</a> to move devices.`}</p>
         <h2>Tell us when it's wrong</h2>
         <p>Every lesson has a feedback form at the bottom and a "Report a problem" link. Both are read. What makes a lesson clearer, deeper, or more accurate gets built in, and what would make it shallower or slanted is set aside with a reason. That is the only thing the institute asks of you.</p>
         <h2>Who built it</h2>
@@ -592,6 +765,138 @@
     `, "John Foval");
   }
 
+  /* ---------- sign in ---------- */
+  const SIGNIN_ERRORS = {
+    state: "That sign-in link did not come back the way it left. Start again.",
+    expired: "That took too long and the link expired. Start again.",
+    google: "Google did not complete the sign-in. Try again, or use an email code.",
+    email: "Google did not give us a verified email address for that account.",
+  };
+
+  function viewSignIn(params) {
+    if (!API) return viewNotFound();
+
+    // Google sends the browser back with the session token in the fragment, which never
+    // reaches a server or a log. Take it, then drop it out of the address bar.
+    const incoming = params.get("token");
+    if (incoming) {
+      setAccount({ token: incoming, email: "", name: "", syncedAt: 0 });
+      history.replaceState(null, "", "#/signin");   // no history entry, and no token left in the bar
+      return route();
+    }
+
+    const note = SIGNIN_ERRORS[params.get("error")] || "";
+    const a = account();
+    if (a && a.token) return viewSignedIn(a, note);
+
+    render(`
+      <div class="prose signin">
+        <span class="eyebrow">Your account</span>
+        <h1>Sign in so your progress follows you.</h1>
+        <p class="lede">You do not need an account to learn here, and you never will. An account does one thing: it carries your completed lessons, your review schedule and your streak between your phone and your computer. Nothing you have done in this browser is lost by signing in; it is merged in.</p>
+        ${note ? `<p class="signin-note bad">${esc(note)}</p>` : ""}
+        <div class="btn-row"><a class="btn btn-primary" href="${API}/auth/google/start">Continue with Google</a></div>
+        <h2>Or get a code by email</h2>
+        <form id="emailForm">
+          <label class="fb-field">Your email address<input type="email" name="email" autocomplete="email" required></label>
+          <div class="btn-row"><button class="btn btn-secondary" type="submit">Email me a code</button></div>
+        </form>
+        <form id="codeForm" hidden>
+          <p class="muted" id="codeSent"></p>
+          <label class="fb-field">The six-digit code<input type="text" name="code" inputmode="numeric" autocomplete="one-time-code" pattern="[0-9]{6}" maxlength="6" required></label>
+          <div class="btn-row"><button class="btn btn-primary" type="submit">Sign in</button><button class="btn btn-secondary" type="button" id="codeBack">Use a different address</button></div>
+        </form>
+        <p class="signin-note" id="signinNote" aria-live="polite"></p>
+        <h2>What we keep</h2>
+        <p>Your email address, so you can sign back in, and the progress you can already see on <a href="#/my-learning">your page</a>. Nothing else, and no password, because signing in uses a code or your Google account instead. You can delete the whole account, and everything in it, from this page once you are signed in.</p>
+      </div>
+    `, "Sign in");
+
+    const emailForm = main.querySelector("#emailForm");
+    const codeForm = main.querySelector("#codeForm");
+    const noteEl = main.querySelector("#signinNote");
+    const say = (text, bad) => { noteEl.textContent = text; noteEl.className = "signin-note" + (bad ? " bad" : ""); };
+    let address = "";
+
+    emailForm.addEventListener("submit", async e => {
+      e.preventDefault();
+      address = emailForm.email.value.trim();
+      const btn = emailForm.querySelector("button");
+      btn.disabled = true; say("Sending the code.");
+      try {
+        await apiCall("/auth/email/start", { method: "POST", body: { email: address } });
+        emailForm.hidden = true; codeForm.hidden = false;
+        main.querySelector("#codeSent").textContent = `We sent a six-digit code to ${address}. It works once and expires in ten minutes.`;
+        say(""); codeForm.code.focus();
+      } catch (err) { say(err.message, true); }
+      btn.disabled = false;
+    });
+    main.querySelector("#codeBack").addEventListener("click", () => { codeForm.hidden = true; emailForm.hidden = false; say(""); });
+    codeForm.addEventListener("submit", async e => {
+      e.preventDefault();
+      const btn = codeForm.querySelector("button");
+      btn.disabled = true; say("Checking.");
+      try {
+        const r = await apiCall("/auth/email/verify", { method: "POST", body: { email: address, code: codeForm.code.value.trim() } });
+        setAccount({ token: r.token, email: address, name: (r.user || {}).name || "", syncedAt: 0 });
+        route();   // already on #/signin, so setting the hash would fire no event
+      } catch (err) { say(err.message, true); btn.disabled = false; }
+    });
+  }
+
+  function viewSignedIn(a, note) {
+    const last = a.syncedAt ? new Date(a.syncedAt).toLocaleString() : "not yet";
+    render(`
+      <div class="prose signin">
+        <span class="eyebrow">Your account</span>
+        <h1>You are signed in.</h1>
+        <p class="lede" id="whoami">${a.email ? esc(a.email) : "Checking your account."}</p>
+        ${note ? `<p class="signin-note bad">${esc(note)}</p>` : ""}
+        <p class="muted">Last synced: <span id="lastSync">${esc(last)}</span>. Your progress syncs on its own a few seconds after you finish a lesson or a review, and when you close the tab.</p>
+        <div class="btn-row">
+          <button class="btn btn-primary" id="syncBtn">Sync now</button>
+          <a class="btn btn-secondary" href="#/my-learning">Your page</a>
+          <button class="btn btn-secondary" id="signoutBtn">Sign out</button>
+        </div>
+        <p class="signin-note" id="signinNote" aria-live="polite"></p>
+        <h2>Leaving</h2>
+        <p>Signing out leaves everything in this browser exactly as it is; it only forgets the account. Deleting the account removes your email address and every row of your progress from our database, permanently, and cannot be undone. Your copy in this browser is untouched either way.</p>
+        <div class="btn-row"><button class="btn btn-secondary" id="deleteBtn">Delete my account</button></div>
+      </div>
+    `, "Your account");
+
+    const noteEl = main.querySelector("#signinNote");
+    const say = (text, bad) => { noteEl.textContent = text; noteEl.className = "signin-note" + (bad ? " bad" : ""); };
+
+    if (!a.email) {
+      apiCall("/auth/session").then(r => {
+        if (!r.signedIn) return route();
+        setAccount(Object.assign({}, account(), { email: r.user.email, name: r.user.name }));
+        const who = main.querySelector("#whoami"); if (who) who.textContent = r.user.email;
+      }).catch(() => route());
+    }
+    if (!a.syncedAt) {
+      say("Merging this browser with your account.");
+      syncNow().then(() => { say("Merged. Everything you had here is on your account."); const el = main.querySelector("#lastSync"); if (el) el.textContent = new Date().toLocaleString(); })
+        .catch(err => say(err.message, true));
+    }
+    main.querySelector("#syncBtn").addEventListener("click", async () => {
+      say("Syncing.");
+      try { await syncNow(); say("Synced."); main.querySelector("#lastSync").textContent = new Date().toLocaleString(); }
+      catch (err) { say(err.message, true); }
+    });
+    main.querySelector("#signoutBtn").addEventListener("click", async () => {
+      try { await syncNow(); } catch { /* sign out anyway */ }
+      try { await apiCall("/auth/signout", { method: "POST" }); } catch { /* the token is going in the bin regardless */ }
+      setAccount(null); route();
+    });
+    main.querySelector("#deleteBtn").addEventListener("click", async () => {
+      if (!confirm("Delete your account and every row of your progress from our database? This cannot be undone. Your copy in this browser is not touched.")) return;
+      try { await apiCall("/account", { method: "POST" }); setAccount(null); route(); }
+      catch (err) { say(err.message, true); }
+    });
+  }
+
   function viewNotFound() { render(`<div class="empty"><h2>Page not found</h2><a class="btn btn-primary" href="#/">Go home</a></div>`, "Not found"); }
 
   /* ---------- router ---------- */
@@ -608,10 +913,26 @@
     if ((m = path.match(/^\/course\/([^/]+)$/))) return viewCourse(m[1]);
     if ((m = path.match(/^\/certificate\/([^/]+)$/))) return viewCertificate(m[1]);
     if (path === "/my-learning") return viewMyLearning();
+    if (path === "/signin") return viewSignIn(params);
     if (path === "/about") return viewAbout();
     if (path === "/about-john") return viewAboutJohn();
     viewNotFound();
   }
   window.addEventListener("hashchange", route);
+
+  if (API) {
+    const nav = document.querySelector(".site-nav");
+    if (nav) nav.insertAdjacentHTML("beforeend", `<a href="#/signin" id="accountLink">${signedIn() ? "Account" : "Sign in"}</a>`);
+    // The footer's promise has to stay true now that progress can leave the browser.
+    const privacy = document.getElementById("privacyLine");
+    if (privacy) privacy.textContent = "No paywalls, and no account needed to learn. Without an account your progress stays in this browser; with one it syncs so it follows you between devices.";
+    // Pull anything the other device did, but not on every page load.
+    if (signedIn() && Date.now() - ((account() || {}).syncedAt || 0) > 300000) syncNow().catch(() => {});
+    // keepalive so the flush survives the page going away.
+    const flush = () => { if (signedIn()) { clearTimeout(syncTimer); syncNow(true).catch(() => {}); } };
+    window.addEventListener("pagehide", flush);
+    document.addEventListener("visibilitychange", () => { if (document.visibilityState === "hidden") flush(); });
+  }
+
   route();
 })();

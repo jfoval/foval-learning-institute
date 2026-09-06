@@ -2,6 +2,16 @@
 
 *Last updated 2026-09-06. Read this first in a new session, after `CLAUDE.md`. It is the single list of what is in flight, what is next, and what John has asked for that isn't built yet. Keep it current: when something ships, move it to `docs/CHANGELOG.md` and delete it here.*
 
+## 0. Work that is not on `main` is not done
+
+The live site serves `main`. A platform session on 2026-09-06 left thirteen commits on a branch
+while John refreshed his browser wondering why a layout fix had not appeared. That is the whole
+lesson. `CLAUDE.md` rule 11 is the rule; this is the reminder at the top of the page you read first.
+
+Merge when `npm run validate` exits 0 and anything visual has been checked in both themes at phone
+and desktop width. `git pull --rebase origin main` first: content sessions push there too, and on
+2026-09-06 two of them did while a third was mid-merge.
+
 ## 1. Pipeline state right now
 
 *Rewritten 2026-09-06 at the end of a long session. This is the handoff.*
@@ -20,6 +30,14 @@ none of which are started or urgent.
 **One thing changed that affects how you work:** adding a course to `curriculum/TAXONOMY.md` now
 requires a `Path` cell (a Core term or `elective`) and `npm run validate` fails without it. See
 rule 4b in `CLAUDE.md`.
+
+### What a platform session owns, and what it must not touch
+
+Two content sessions ran in parallel on 2026-09-06, one on `courses/foundations/**` and one on
+`courses/christian-studies/**`. A platform session owns `site/`, `workers/`, `scripts/` and `docs/`
+and **must not edit anything under `courses/` or `curriculum/`**. If a content change is needed,
+note it here and leave it. Two are noted and still outstanding: the media pass on How to Learn
+Anything (section 7) and the clipped SVG labels (section 8e).
 
 ### Live on the site
 
@@ -96,8 +114,17 @@ applied" including what it chose not to fix and why.
 `scripts/build.mjs` lints every lesson including drafts. Findings fail the build on a published
 course and warn with "[draft: fix before publishing]" on a draft. It checks: em dashes; ESV
 quotations; frontmatter that does not parse and quiz items that lost their question or options;
-SVG text and shape fills hardcoded dark; SVG labels under font-size 15; bodies with no links; and
-argument displays whose conclusion line would be folded into the previous premise.
+SVG text and shape fills hardcoded dark; SVG labels under font-size 15; **SVG labels wider than
+their own viewBox, which the browser clips silently**; bodies with no links; and argument displays
+whose conclusion line would be folded into the previous premise.
+
+The viewBox rule is worth understanding before acting on it. Node cannot measure text, so
+`scripts/text-width.mjs` holds real Arial advance widths, checked against Chromium over all 252
+labels in the repo. The catch is that these SVGs ask for `system-ui`, which is a different typeface
+per platform: the true width ran between 0.97 and 1.13 times the Arial estimate, so **a label can
+fit on a Mac and be clipped on Android**. The rule therefore has two tiers. Over the box even in the
+narrow font is a finding (build failure on a published course). Over it only in the wide font is a
+warning, and that tier can over-report slightly; the fix is cheap either way, so give it the room.
 
 ## 2. Custom domain (DONE 2026-09-06)
 
@@ -135,18 +162,176 @@ A third way in, alongside the Foval Core and free choice. Spec:
 - **Verifiable certificates** need Phase 2 (accounts) so a certificate ID can be looked up at `/verify/<id>`; until then the share page is self-attested and says so.
 - **Accreditation:** documented in `docs/PLATFORM_ROADMAP.md` Phase 3. Realistic path: Open Badges 3.0 issuance, LinkedIn "Add to profile" fields, employer or institution partnerships, and rigorous public assessments. Formal accreditation as a degree-granting institution is a multi-year regulatory process; revisit when there are learners and a track record. Research options for a certificate mark that is honest ("Foval Learning Institute Certificate of Completion, not accredited credit").
 
-## 6. Podcast for every lesson (not started; John learns best this way)
+## 6. Podcast for every lesson (researched three times on 2026-09-06, awaiting John)
 
-Goal: a two-voice conversational audio version of each lesson, playable on the lesson page.
+Full memo: **`docs/PODCAST_OPTIONS.md`**, which now evaluates all four routes by name. John pushed
+back twice that the research was not deep enough and he was right both times: the second pass named
+Podcastfy without evaluating it and missed Play.ai PlayNote entirely. Two findings from the third
+pass change the shape of the decision.
 
-- **NotebookLM** has no public API for Audio Overviews as of the last check; generation is manual in the app (upload the lesson Markdown as a source, click Generate Audio Overview, download the file). Workable for a first batch of 8–20 lessons by hand, not for hundreds. Also check whether Google has since released an API (Gemini API "audio overview" or NotebookLM Enterprise).
-- **Better automated option:** generate a conversation script from the lesson with Claude (two named hosts, a curious learner and a teacher, following the style guide, ~10–15 minutes, covering the reason to care, the mechanism, the worked examples, and the misconceptions, and never inventing facts not in the lesson), then render with a multi-speaker TTS: Gemini 2.5 TTS multi-speaker, ElevenLabs (two voices, dialogue mode), or OpenAI TTS. Store MP3s under `site/assets/audio/<course>/<lesson>.mp3` (or a CDN if the repo gets heavy; GitHub Pages has a 1 GB soft limit, so plan for external storage early: Cloudflare R2 free tier).
-- **Pipeline:** `scripts/podcast.mjs` that takes a lesson path, writes `audio/<lesson>.script.md`, calls the TTS API, writes the MP3, and adds `audio: <path>` to the lesson frontmatter; the build renders an `<audio>` player at the top of the lesson with a "Listen instead" label and a transcript toggle. Add a `/make-podcast <lesson>` command. Scripts get a light fact-check against the lesson before rendering.
-- Style: warm, real conversation, no hype, no "welcome to the show" filler. The hosts should be named and consistent across the institute.
+**Play.ai PlayNote is dead.** It was exactly the thing everyone wants: a commercial API with
+`synthesisStyle: "podcast"` and two voices, around 40,000 customers, marketed as "NotebookLM but
+with any voice, custom prompts and API access". Meta acquired PlayAI in July 2025 and the platform
+shut down permanently on **31 December 2025**, deleting accounts, saved audio, voice clones and every
+API endpoint with no migration path. Any guide still recommending it is stale. It is also the
+strongest argument on the page for preferring a model whose weights we can download.
 
-## 7. Homepage: what makes the institute unique (not started)
+**Browser automation risks the whole Google Account, not just the tool.**
+`israelbls/notebooklm-podcast-automator` (113 stars, 34 forks, FastAPI wrapping Playwright) works.
+But it authenticates by keeping a Chrome profile permanently signed in to a real Google account, and
+NotebookLM has no suspension of its own: a flag disables the entire Google Account. `workers/api/`
+uses a Google OAuth client for sign-in, so putting audio generation on that account means one
+automated abuse flag takes out John's email, his Drive, and every learner's ability to sign in to the
+institute, together. The standards objection stands underneath that anyway: the script would be
+Google's, and Editorial Standards 2 wants it checked.
 
-Add a section below the hero with three or four panels, each with a real screenshot (not a mockup) from the live site: a lesson with a chart and a video; a predict block open; the Review page; the feedback form. Copy, in the style guide's voice: written from the sources and fact-checked; you think as you read; knowledge that stays through spaced review; a podcast for every lesson (once built); Christian Studies taught honestly and labelled; and the one ask: *"We provide this free. The one thing we ask is that you help make it better: when a lesson is unclear or could be better, say so in the form at the bottom of every lesson. We read all of it and use it."* Screenshots go under `site/assets/media/screens/`, taken at phone and desktop width.
+**Podcastfy is alive and good, and solves the half we should own.** 6,500 stars, actively
+maintained, your own OpenAI/Google/ElevenLabs keys. What it automates is source in, script out,
+audio out. The script generation is the part we specifically do not want to outsource, and stripping
+it out leaves one function. Worth reading for its prompt design; not worth adding Python to a Node
+repo with two npm packages in it.
+
+**The framing that matters.** "NotebookLM quality" is two things: the two-host script, and voices
+that stay themselves for twelve minutes and hand over cleanly. We are better placed than Google on
+the first, because we wrote the lesson and we have a fact-check stage. The second is a model you
+can rent or download.
+
+**Ruled out.** The official audio-overview API is Gemini Notebook Enterprise only: fifteen-licence
+minimum, about $135 a month. The unofficial library that drives the consumer product is free and
+genuinely works, but it hands the script back to Google, so the audio would carry our name with
+nothing here having written or checked it. That objection is about standards 2, not about terms of
+service, and it applies equally to generating them by hand in the app.
+
+**Recommended: VibeVoice on fal.ai at $0.04 a generated minute, with a script we write and check.**
+About **$0.48** a twelve-minute lesson, **$13** for all 28 lessons live today, about $670 for all
+1,400 planned. VibeVoice is Microsoft's open-weights model built for multi-speaker long-form (up to
+90 minutes, four speakers, stable voice identity, clean turn-taking), which is the specific thing
+people mean by "it sounds like NotebookLM". Being open weights, it is also the only option with no
+lock-in: if fal changes its pricing we run the same model ourselves and get the same voices.
+
+This **replaces the earlier recommendation of Gemini Flash TTS** ($0.13 a lesson), which was chosen
+on price before the multi-speaker models had been looked at properly. The $0.35 a lesson difference
+is a rounding error against what it buys.
+
+Podcastfy and Open Notebook are the open orchestration layers and are worth reading, but neither
+has a step that checks the script against the source, which is the whole difference between our
+audio and everyone else's. Read their prompt design, write our own thin Node script.
+
+**The pilot is written and the comparison tool is built. It needs one account and one command.**
+
+- `scripts/podcast/samples/how-to-learn-anything-03.script.md` is a real four minute two-host
+  script, written **by hand** from lesson 3 of How to Learn Anything. Every figure in it appears in
+  the lesson and traces to the lesson's own sources. Writing it by hand is the point, twice over: it
+  means the comparison needs no LLM key, and it is the concrete form of the argument that the script
+  is the half we own. The hosts are unnamed so the comparison survives John picking names.
+- `node scripts/podcast-compare.mjs <script.md>` renders it on VibeVoice via fal, Gemini Flash TTS
+  and ElevenLabs, skipping any engine with no key. **Dry run by default; nothing is spent without
+  `--go`.** For this sample: $0.16, $0.04 and $0.59, so **$0.79 for all three**.
+- **Caveat written into the file, do not skip it:** the fal and ElevenLabs request shapes were
+  written from docs the authoring session could not reach, because Claude Code web blocks
+  `fal.run` and `api.elevenlabs.io`. The parsing, cost guard, polling and file handling are tested;
+  a field name may need one correction. The dry run prints exactly what it would POST. **This tool
+  cannot run from a web session at all**, for the same egress reason.
+
+**Waiting on John:** a fal.ai account (nobody here can create it; it needs his email and a card),
+then `FAL_KEY=... node scripts/podcast-compare.mjs scripts/podcast/samples/how-to-learn-anything-03.script.md --go`,
+then his ears. Also two host names, which become the sound of the institute.
+
+**After that:** build `scripts/podcast.mjs` and a `/make-podcast` command, about a day. MP3s go to
+**Cloudflare R2** (free tier 10 GB, no egress charge), not git: 6 MB a lesson is 8 GB at full scale
+against a 1 GB soft limit on Pages.
+
+Needs from John: a fal.ai account (and optionally Google AI Studio and ElevenLabs for the
+comparison), an R2 bucket on the existing Cloudflare account, approval to spend, and two host names.
+Nothing has been spent and no accounts created.
+
+## 7. Homepage: what makes the institute unique (shipped 2026-09-06)
+
+Live below the hero as `whySection()` in `site/assets/app.js`, styled under "Home: what makes this
+different" in `styles.css`. Three panels, then John's one ask, laid out as alternating rows so each
+screenshot gets enough width to be legible instead of shrinking to an unreadable thumbnail.
+
+The screenshots are real captures of the live site at `site/assets/media/screens/`. Four files per
+panel: `<name>-{light,dark}-{phone,desktop}.png`, chosen by a `<picture>` element on
+`prefers-color-scheme` and viewport width, so a dark reader never gets a photograph of a light page
+and a phone gets the phone capture. Verified rendering in all four combinations.
+
+Below the four panels sits a strip of six tiles, "A lesson page is more than words": a marked quiz
+question with its explanation, the six-act map from Bible Basics, an exercise, the free-recall box
+part filled, a Python code block, and the transcript stat cards. They are phone captures at every
+width, because each is a narrow object that a phone frames best, and on a phone the strip becomes one
+swipeable row rather than two thousand pixels of scrolling.
+
+The section is now about 3,700px tall on a desktop and 4,100px on a phone, which is long for a
+homepage. If it needs trimming, the tiles are the part to cut, not the panels.
+
+**The chart panel is live and it photographs an unpublished course. John's call, 2026-09-06:**
+"Go ahead and screenshot it now and don't put coming soon. I'll have it up before anyone really
+comes here anyways." So the "Drawn, photographed, and linked" panel and the "Maps of the material"
+tile are captures of **bible-basics lesson 2**, which is `status: drafting` and therefore not on the
+site. **Publishing Bible Basics is now a dependency of the homepage being honest**, not just a
+content milestone. Until it publishes, the homepage shows a lesson a visitor cannot open.
+
+Lesson 2 was chosen because it is reviewed and settled; lessons 3 and up are still in review and
+their screenshots would go stale. If lesson 2 is edited, retake the two images.
+
+**The video tile is done.** `tile-video-{light,dark}-phone.png` were captured on John's Mac and the
+seventh entry is in `WHY_TILES`. It still cannot be captured from a Claude Code web session, where
+the network policy blocks YouTube and the capture script refuses to write a blank player, so retake
+it on a machine with ordinary internet.
+
+Getting it took three fixes to `scripts/screenshots.mjs`, all of which matter to anyone retaking it:
+
+- The embed is `loading="lazy"` and sits a long way down the lesson, so nothing requested YouTube at
+  all while the page sat at the top. The target now scrolls it into view first.
+- The check for "did YouTube load" watched `youtube.com`, which answers fine even when the poster
+  never arrives. It now watches `i.ytimg.com`, the poster itself, which is what actually decides
+  whether the tile is a picture or a black box, and waits on it rather than on a fixed timeout.
+- A cross-origin player paints **black** in a `fullPage` capture wherever the page is scrolled, so
+  the video target photographs the viewport with the embed sitting in it, dropped below the sticky
+  header. `html { scroll-behavior: smooth }` means the scroll position has to be read back after it
+  settles, not worked out in advance.
+
+Check the two PNGs by eye after retaking. A green run is not proof: the guard passing only means
+YouTube answered, and the first two runs here wrote files that were entirely black.
+
+**Every screenshot in the section is now regenerated by `scripts/screenshots.mjs`**, so this is one
+command on any machine with ordinary internet:
+
+```
+npm install
+npm run build:drafts                 # the chart, map and video live in a drafting course
+npm run shots -- tile-video          # or `npm run shots` for all twelve targets
+npm run build                        # put site/data/courses.js back
+git diff --stat site/data/courses.js # must be empty before committing
+```
+
+It drives the Chrome already installed on the machine, so there is no browser download; set
+`CHROME_CHANNEL=msedge` or `CHROME_PATH=...` if it cannot find one. `npm run shots -- --list` prints
+the targets. The strip is seven tiles now: four across at desktop width wrapping to three, and one
+swipeable row on a phone.
+
+**All 34 files were regenerated together on 6 September 2026**, not just the video, because the
+committed ones predated `c84af0e` (the hero going full width and the content column widening) and so
+were photographs of a narrower column than the site has now. Heights moved with it: the predict
+block grew 58px on a phone, the review card 112px. Every one was checked by eye in both themes,
+including the SVG targets, where nothing came out white on white. If you change the site's layout or
+type, retake the lot rather than one target, or the panels stop matching each other.
+
+Known and left alone: the chart legend's last line (`Act 6, Revelation: 22`) has its descenders
+shaved. That is the same crop as before, and it follows from the clipped-caption bug above, so it
+goes away when that is fixed. Do not paper over it in the capture script.
+
+The one new dependency this adds is `playwright-core` in `devDependencies`. It is dev-only, never
+served to a learner, and it deliberately does not bundle a browser. Rule 9 is about what the site
+ships, not what the toolchain uses, but it is a dependency and worth knowing about.
+
+The podcast is named in the ask block as not built yet, in one line, rather than given a panel. It
+gets a panel when it exists (see section 6).
+
+**Content note for whoever owns `courses/`:** How to Learn Anything is the institute's shop window
+and it currently has no images, no charts, no video and no links in any lesson body. That is the
+media pass under standards 4.5 and it is the single highest-value content job for the homepage.
 
 ## 7b. Lesson splits: SETTLED. Do not re-open with John.
 
@@ -235,18 +420,87 @@ genre lesson" survives any reordering; "lesson 3" does not.
 - **Donate:** a `#/support` page and a footer link. Copy from John: "We're constantly using tons of tokens to expand our offerings and make updates. We'd appreciate anything you can do to pitch in if it becomes something you find valuable over time. Cheers!" Options: GitHub Sponsors (fits the open repo), Ko-fi or Buy Me a Coffee (simplest), Stripe Payment Link (lowest fees). John must create the account; then it's one link.
 - **FLI ideas** (subtle, not the main thing): "FLI" reads as "fly": a light touch such as "Fly high with us" on the support page or the store, and donors as members of "the FLI Club" with a small mark on their achievements page and early access to new courses. Alternative expansions to consider for a tagline or a store line: "Faith, Learning, Ideas"; "Faith. Learning. Integrity."; "Free Learning Institute". Keep it to one or two places; the institute's name stays the main thing.
 
+**Funding, settled 2026-09-06 over two passes.** John raised that he may want some advertising later
+to keep the main site free as it grows. The old copy promised "no ads" flatly in five places,
+including `VALUES.md` value 1, so it was a promise that would have had to be broken publicly.
 
-## 8b. Supabase backend: blocked on a free-tier project slot (investigated 2026-09-05)
+First pass narrowed it to a data promise plus an editorial one. John then cut the data half too:
+"take off the tracking promise too. No need to over promise." So **the only forward-looking promise
+left about funding is the editorial one**:
 
-Accounts, cross-device sync, verifiable certificates, the achievements page, and a working feedback endpoint all unblock together once there is a Supabase project. John asked the agent to set it up; the agent is signed in to his dashboard (GitHub OAuth, his session).
+- **No lesson, assessment, or review card ever carries an advertisement, sponsor slot, affiliate
+  link, or paid placement.** This is Editorial Standards 4.5, not marketing copy: a sponsor beside a
+  fact-checked claim changes how the claim reads, and the reader cannot tell which sentences were
+  bought. It also closes the affiliate-link door, which is how this usually erodes.
+- Sponsorship, if it ever happens, goes on pages that teach nothing, and is labelled.
 
-**The blocker.** Supabase free tier allows 2 projects per member. John Org already has 3: **Mainline** (active), **math-quest** (active), **John Project** (paused). Supabase therefore refuses both *creating* a new project and *resuming* the paused one. Existing projects are grandfathered; only new/resumed ones are blocked.
+**Deliberately no longer promised anywhere:** that nothing about a learner is tracked, profiled or
+sold, and that nothing they read decides what they get shown. Those were removed on purpose, not by
+oversight. Do not put them back without asking John.
 
-**Ways out:** delete one project, upgrade the org to Pro ($25/month, John must purchase), or repurpose an existing project. Repurposing sidesteps the limit because it creates nothing, but repurposing John Project still needs a resume, which is blocked, so a slot has to be freed either way.
+**What stayed, and why it is different.** Present-tense statements of fact about how the thing works
+today are not promises and were kept: "your progress is saved in this browser and never sent
+anywhere" in the footer, and on the account pages, that we hold an email address and progress and
+nothing else. Removing accurate disclosure would be worse than making no promise, not safer. The rule
+going forward: **describe what actually happens, do not promise what will never happen.**
 
-**What John Project is: settled 2026-09-05. It is empty.** Ref `ebkuhylfhyfretagpczf`. Its database backup was downloaded from the paused project (works without resuming) and read locally. The only object in the `public` schema is a table called `keepalive` holding just `id` and `created_at`, which is the standard trick for pinging a free project so it does not auto-pause. Everything else in the dump is Supabase's own `auth`, `storage` and `realtime` system schemas. `auth.users` has 0 rows and `storage.buckets` has 0 rows. It is not Memory-App's backend (Memory-App's schema would show `profiles`, `content_sets`, `items`, `reviews`, `card_results`) and it is not referenced by any repo, Actions secret, Vercel project, or local file. It is a throwaway with nothing in it. Safe to delete. A copy of the dump is in John's Downloads as `db_cluster-23-08-2026@00-45-32.backup.gz`.
+**Open, and it becomes real the day any advertising or analytics is added:** there is no privacy
+policy anywhere in the repo or on the site. Nothing needs one today (the only thing leaving the
+browser is anonymous lesson feedback, and the feedback Worker deliberately stores no IP or user
+agent). An ad network or an analytics script would change that, and most ad networks set cookies
+whether or not you asked them to. Worth deciding deliberately rather than discovering.
 
-**The plan, awaiting one click from John.** Reusing the project would need a resume, which the free-tier limit blocks, so the working path is: John deletes John Project at https://supabase.com/dashboard/project/ebkuhylfhyfretagpczf/settings/general (the agent does not perform permanent deletions), which frees a slot, then the agent creates a fresh project named `foval-learning-institute` and builds the schema, RLS, and auth from the Phase 2 spec in `docs/PLATFORM_ROADMAP.md`. Net project count stays at 3. Cost stays $0.
+Changed together across `VALUES.md`, `EDITORIAL_STANDARDS.md` 4.5, `PLATFORM_ROADMAP.md`, the About
+page, the footer and the README, so no two places contradict each other. **Nothing about ads has been
+built and no decision has been made to run any.** This settles only what the institute is allowed to
+do if John chooses to.
+
+## 8b. Accounts backend: NOT blocked. Corrected 2026-09-06.
+
+**The old entry here was wrong and has been replaced.** It said accounts were blocked on a Supabase
+free-tier project slot, waiting on John to delete an empty project. That stopped being true when the
+project moved to Cloudflare. There is a working Cloudflare account, a deployed Worker and a D1
+database (`workers/feedback/`, database `foval-feedback`), proven end to end on the live site. D1 is
+a real SQL database and it is enough for profiles, lesson progress, review items and study sessions.
+Nothing is blocked. Accounts simply have not been built.
+
+Do not go back to Supabase for this. It reopens the project-slot problem the Cloudflare move already
+solved and puts a second vendor in the path of every sign-in. (The old investigation is still worth
+keeping for one fact: the paused **John Project**, ref `ebkuhylfhyfretagpczf`, was confirmed empty on
+2026-09-05, `auth.users` 0 rows, `storage.buckets` 0 rows, not referenced by any repo or deployment.
+It is safe for John to delete whenever he wants the slot back. Nothing here needs it.)
+
+**Decided and built, 2026-09-06.** The options and the tradeoffs are in **`docs/AUTH_OPTIONS.md`**.
+John picked: write the session layer in the Worker we already have, ship Google sign-in and six-digit
+email codes first, add email-and-password later. Passwords are the one method that needs the $5 a
+month Workers Paid plan, because hashing costs 50 to 100 ms and Workers Free allows 10 ms of CPU.
+
+**`workers/api/` is written and tested and NOT deployed.** 28 Worker checks and 12 browser checks
+pass against a local D1. It is inert until `window.FOVAL_API` in `site/index.html` is set to the
+deployed URL; while that is empty the site behaves exactly as before, with no sign-in link and no
+network calls, which is what is on `main` now.
+
+**What is left, and it needs John, because it needs credentials and two free accounts:** the deploy
+steps are written out in `workers/api/README.md`. In short: apply `schema.sql` to the existing
+`foval-feedback` database, create a Google OAuth client and a Resend account (both free), set four
+secrets with `wrangler secret put`, `wrangler deploy`, then set `FOVAL_API`. That order matters;
+setting `FOVAL_API` first gives every visitor a broken sign-in page.
+
+**One thing to improve as soon as the site moves to Cloudflare Pages (8c):** the session token is a
+bearer token in `localStorage`, not an HttpOnly cookie, because the site and the Worker are on
+different origins today and third-party cookies are being phased out. Once they share an origin,
+switch to an HttpOnly, Secure, SameSite=Lax cookie and delete the bearer path. It is a real security
+improvement, not a tidy-up.
+
+**One design constraint that comes out of the research and holds under any option:** since
+1 September 2026 D1 free-plan queries *fail* when the daily caps are hit, and the binding cap is
+**100,000 row writes a day**, not storage. So progress is one row per learner per course, updated in
+place, and review items flush on a timer and on sign-out rather than on every answered card. The
+browser stays the source of truth and the site keeps working with no network.
+
+**Session note:** `wrangler` is not authenticated in the agent sessions running on Claude Code on the
+web, and the network policy there blocks `workers.dev` and the live site. The Worker can be written
+and tested locally in such a session, but the deploy needs credentials.
 
 ## 8c. Going private: what has to move first (opened 2026-09-05)
 
@@ -298,6 +552,14 @@ lesson already rested it. The argument is unaffected; the texture of the passage
   lesson 10's SVG is the worst and is the anti-pattern, not the template: it hardcodes colours and
   uses font-size 9 and 10.
 - **Five lessons still carry greys outside the palette** in SVG fills.
+- **Nine SVG labels run past their own viewBox and are silently clipped by the browser**, now caught
+  by the linter (see section 1). Two of them are the source captions on both charts in bible-basics
+  lesson 2, so the line naming where the numbers came from loses its last words. Measured in
+  Chromium: bible-basics 02 (two labels), 04, 05 and logic-and-argument 10 are clipped outright;
+  bible-basics 09, 11, 12 and logic 09 are clipped only in a wide system font, which is why they
+  survive a look on one machine. The fix is a wider viewBox or a shorter label, never a smaller font.
+  **The homepage chart screenshot is cropped above bible-basics 02's caption because of this. Retake
+  it once the label is fixed** so the source line is visible: see section 7.
 - **The four placeholder courses** (Python, Algebra, Personal Finance, Writing Clearly) are live and
   have never been through the pipeline. They are the largest untouched quality risk on the site,
   because they are the ones learners can actually read today.

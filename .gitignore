@@ -5,3 +5,9 @@ node_modules/
 
 # wrangler local state
 .wrangler/
+
+# wrangler secrets for local dev
+.dev.vars
+
+# rendered audio samples, not source
+audio-samples/

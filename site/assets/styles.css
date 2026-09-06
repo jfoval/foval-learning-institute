@@ -44,6 +44,9 @@
   }
 }
 * { box-sizing: border-box; }
+/* .btn is display:inline-flex, which outranks the user agent's [hidden] rule. Without this the
+   Review card's "Next" button is visible before the reader has answered. */
+[hidden] { display: none !important; }
 html { scroll-behavior: smooth; }
 body {
   margin: 0;
@@ -53,6 +56,7 @@ body {
   color: var(--text);
   background: var(--bg);
   -webkit-font-smoothing: antialiased;
+  overflow-x: clip;
 }
 h1, h2, h3, h4 { font-family: var(--serif); font-weight: 400; line-height: 1.15; margin: 0 0 .5em; letter-spacing: 0; }
 h1 { font-size: clamp(2.1rem, 5vw, 3.4rem); }
@@ -92,7 +96,7 @@ th { font-weight: 600; border-bottom: 2px solid var(--line-strong); }
 .site-nav a { color: var(--text-2); text-decoration: none; font-size: .95rem; font-weight: 500; letter-spacing: 0; text-transform: none; padding-bottom: 2px; border-bottom: 2px solid transparent; white-space: nowrap; }
 .site-nav a.active, .site-nav a:hover { color: var(--text); border-bottom-color: var(--oxblood); }
 
-.page { max-width: 1100px; margin: 0 auto; padding: clamp(1.5rem, 4vw, 3rem) clamp(1rem, 4vw, 2rem); min-height: 60vh; overflow-x: hidden; }
+.page { max-width: 1280px; margin: 0 auto; padding: clamp(1.5rem, 4vw, 3rem) clamp(1rem, 4vw, 2rem); min-height: 60vh; }
 .site-footer { border-top: 1px solid var(--line); padding: 2rem clamp(1rem, 4vw, 3rem); font-size: .9rem; color: var(--text-2); }
 .site-footer p { margin: 0 0 .25rem; }
 .footer-nav { display: flex; flex-wrap: wrap; gap: 3rem; margin-bottom: 2rem; }
@@ -324,11 +328,11 @@ a.path-item:hover { background: var(--surface-2); color: var(--text); }
 .lesson-content svg { max-width: 100%; height: auto; }
 
 /* Full-bleed hero with optional video */
-.hero-wrap { position: relative; margin: calc(-1 * clamp(1.5rem, 4vw, 3rem)) calc(-1 * clamp(1rem, 4vw, 2rem)) 0; background: var(--navy); color: #fff; overflow: hidden; }
+.hero-wrap { position: relative; width: 100vw; margin: calc(-1 * clamp(1.5rem, 4vw, 3rem)) calc(50% - 50vw) 0; background: var(--navy); color: #fff; overflow: hidden; }
 .hero-media { position: absolute; inset: 0; }
 .hero-media video, .hero-media img { width: 100%; height: 100%; object-fit: cover; display: block; opacity: .55; }
 .hero-media::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(15,42,74,.55) 0%, rgba(15,42,74,.75) 60%, rgba(15,42,74,.95) 100%); }
-.hero-inner { position: relative; max-width: 1100px; margin: 0 auto; padding: clamp(3rem, 8vw, 6rem) clamp(1rem, 4vw, 2rem) clamp(2.5rem, 6vw, 4rem); display: grid; grid-template-columns: 1.25fr 1fr; gap: 3rem; align-items: end; }
+.hero-inner { position: relative; max-width: 1280px; margin: 0 auto; padding: clamp(3rem, 8vw, 6rem) clamp(1rem, 4vw, 2rem) clamp(2.5rem, 6vw, 4rem); display: grid; grid-template-columns: 1.25fr 1fr; gap: 3rem; align-items: end; }
 .hero-inner h1 { color: #fff; font-size: clamp(2.3rem, 5.5vw, 3.8rem); margin-bottom: .75rem; }
 .hero-inner .eyebrow { color: var(--gold); font-size: clamp(1.25rem, 2.4vw, 1.6rem); font-weight: 400; margin-bottom: .9rem; }
 .hero-inner .lede { color: rgba(255,255,255,.85); font-size: 1.15rem; max-width: 36rem; }
@@ -343,7 +347,7 @@ a.path-item:hover { background: var(--surface-2); color: var(--text); }
 .hero-card-dark .stat span { color: rgba(255,255,255,.7); }
 .hero-card-dark .stat-row { border-top-color: rgba(255,255,255,.25); }
 @media (prefers-reduced-motion: reduce) { .hero-media video { display: none; } }
-@media (max-width: 860px) { .hero-inner { grid-template-columns: 1fr; gap: 1.5rem; } .hero-wrap { margin-left: calc(-1 * clamp(1rem, 4vw, 2rem)); margin-right: calc(-1 * clamp(1rem, 4vw, 2rem)); } }
+@media (max-width: 860px) { .hero-inner { grid-template-columns: 1fr; gap: 1.5rem; } }
 
 /* Schools grid */
 .schools { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: .75rem 1.25rem; }
@@ -351,3 +355,58 @@ a.path-item:hover { background: var(--surface-2); color: var(--text); }
 .school b { display: block; font-family: var(--serif); font-weight: 400; font-size: 1.1rem; }
 .school span { font-size: .88rem; color: var(--text-2); }
 .school .soon { color: var(--muted); }
+
+/* Home: what makes this different. The screenshots are real captures of the live site,
+   swapped by theme and width with <picture>, so a dark reader never sees a light page and
+   a phone gets the phone capture. Rows alternate so each capture gets enough width to read. */
+.why-lede { font-size: 1.08rem; color: var(--text-2); max-width: 46rem; }
+.why-rows { margin-top: 1.25rem; }
+.why-row { display: grid; grid-template-columns: 1.1fr .9fr; gap: clamp(1.5rem, 4vw, 3rem); align-items: center; padding: 2.25rem 0; border-top: 1px solid var(--line); }
+.why-row:first-child { border-top: 0; padding-top: 1rem; }
+.why-row > .shot { order: 1; }
+.why-row > .why-copy { order: 2; }
+.why-row:nth-child(even) { grid-template-columns: .9fr 1.1fr; }
+.why-row:nth-child(even) > .shot { order: 2; }
+.why-row:nth-child(even) > .why-copy { order: 1; }
+.why-copy h3 { margin: 0 0 .5rem; font-size: 1.45rem; }
+.why-copy p { margin: 0 0 .6rem; color: var(--text-2); }
+.why-copy p:last-child { margin-bottom: 0; }
+.shot { margin: 0; min-width: 0; }
+.shot img { display: block; width: 100%; height: auto; border: 1px solid var(--line); background: var(--surface-2); }
+.shot figcaption { font-size: .8rem; color: var(--muted); margin-top: .45rem; }
+.why-ask { margin-top: 2.25rem; background: var(--navy-soft); border-top: 0; border-left: 4px solid var(--oxblood); padding: 1.75rem clamp(1rem, 3vw, 2rem); }
+.why-ask .ask-line { font-size: 1.1rem; color: var(--text); }
+/* The ask keeps its layout wherever it sits, rather than depending on where it falls in a row list. */
+.why-row.why-ask { grid-template-columns: .9fr 1.1fr; }
+.why-row.why-ask > .shot { order: 2; }
+.why-row.why-ask > .why-copy { order: 1; }
+
+/* The strip: four narrow captures of things that are on every lesson today. They are phone
+   captures at every width, because each one is a narrow object and a phone frames it best. */
+.why-strip-head { margin: 2.5rem 0 .4rem; font-size: 1.45rem; }
+.why-strip-lede { color: var(--text-2); margin: 0 0 1.25rem; max-width: 46rem; }
+.why-strip { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem 1.25rem; }
+.why-strip .shot img { aspect-ratio: 3 / 4; object-fit: cover; object-position: left top; max-height: none; }
+.why-strip figcaption { font-size: .82rem; line-height: 1.4; }
+.why-strip figcaption b { display: block; font-family: var(--serif); font-weight: 400; font-size: 1.02rem; color: var(--text); margin-bottom: .1rem; }
+
+/* On a phone the four tiles stacked would be two thousand pixels of scrolling before the
+   ask, so they become one swipeable row with the next tile showing at the edge. */
+@media (max-width: 700px) {
+  .why-strip { grid-template-columns: none; grid-auto-flow: column; grid-auto-columns: 64%; overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: .5rem; }
+  .why-strip .shot { scroll-snap-align: start; }
+}
+
+@media (max-width: 860px) {
+  /* Phone captures are tall. Show the top of each one rather than a screen and a half of it. */
+  .shot img { max-height: 380px; object-fit: cover; object-position: left top; }
+  .why-row, .why-row:nth-child(even), .why-row.why-ask { grid-template-columns: 1fr; gap: 1.1rem; padding: 1.75rem 0; }
+  .why-row > .shot, .why-row:nth-child(even) > .shot, .why-row.why-ask > .shot { order: 1; }
+  .why-row > .why-copy, .why-row:nth-child(even) > .why-copy, .why-row.why-ask > .why-copy { order: 2; }
+}
+
+/* Sign in */
+.signin form { margin: 0 0 1rem; }
+.signin .fb-field input { display: block; width: 100%; max-width: 22rem; margin-top: .35rem; font: inherit; font-size: 1rem; padding: .6rem; border: 1px solid var(--line); background: var(--bg); color: var(--text); }
+.signin-note { font-size: .92rem; color: var(--text-2); min-height: 1.4em; margin: .5rem 0 0; }
+.signin-note.bad { color: var(--danger); }

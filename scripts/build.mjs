@@ -1,12 +1,18 @@
 // Build: compile courses/**/course.yaml + lessons/*.md into site/data/courses.js
-// Usage: node scripts/build.mjs [--check]
+// Usage: node scripts/build.mjs [--check] [--drafts]
+//
+// --drafts also compiles courses that are still `drafting`, so a draft can be read in the
+// real site before it is published. The output is a PREVIEW: never commit site/data/courses.js
+// after a --drafts build. Run a plain `npm run build` to put it back.
 import fs from "node:fs";
 import path from "node:path";
 import yaml from "js-yaml";
 import { marked } from "marked";
 import { fileURLToPath } from "node:url";
+import { estimateTextWidth, FONT_SPREAD } from "./text-width.mjs";
 
 const CHECK = process.argv.includes("--check");
+const DRAFTS = process.argv.includes("--drafts");
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const COURSES_DIR = path.join(ROOT, "courses");
 const OUT = path.join(ROOT, "site", "data", "courses.js");
@@ -62,7 +68,7 @@ for (const school of fs.readdirSync(COURSES_DIR, { withFileTypes: true }).filter
     req(meta, ["id", "title", "school", "subject", "level", "status", "summary", "description", "outcomes"], rel);
     if (meta.id !== cdir.name) errors.push(`${rel}: id "${meta.id}" must match folder name "${cdir.name}"`);
     if (meta.school !== school.name) errors.push(`${rel}: school "${meta.school}" must match folder "${school.name}"`);
-    if (meta.status !== "published") { warn.push(`${rel}: status ${meta.status}, not built (only published courses go to the site)`); continue; }
+    if (meta.status !== "published" && !DRAFTS) { warn.push(`${rel}: status ${meta.status}, not built (only published courses go to the site)`); continue; }
 
     const lessonsDir = path.join(dir, "lessons");
     const files = fs.existsSync(lessonsDir) ? fs.readdirSync(lessonsDir).filter(f => f.endsWith(".md")).sort() : [];
@@ -179,6 +185,32 @@ function lintLessons() {
         const small = [...src.matchAll(/<text[^>]*font-size="(\d+)"/g)].map(m => +m[1]).filter(n => n < 15);
         if (small.length) warn.push(`${file}: ${small.length} SVG label(s) under font-size 15; they render below ~10px on a phone (4.6)`);
 
+        // 4.6: a label wider than its own viewBox is clipped by the browser, silently, on
+        // every device. It cost bible-basics lesson 2 the last word of both its chart
+        // captions, including the one naming the source. Node cannot measure text, so this
+        // uses real Arial advance widths (scripts/text-width.mjs). Checked against Chromium
+        // over all 252 labels in the repo, the estimate never ran more than 3% over the
+        // truth and usually a little under, so it under-reports rather than crying wolf.
+        for (const [, attrs, body] of src.matchAll(/<text([^>]*)>([^<]*)<\/text>/g)) {
+          const size = Number((attrs.match(/font-size="(\d+(?:\.\d+)?)"/) || [])[1]);
+          const x = Number((attrs.match(/\bx="(-?\d+(?:\.\d+)?)"/) || [])[1]);
+          if (!size || !Number.isFinite(x) || !body.trim()) continue;
+          // The viewBox this label sits in is the last one opened before it.
+          const boxes = [...src.slice(0, src.indexOf(body)).matchAll(/viewBox="\s*[-\d.]+\s+[-\d.]+\s+([\d.]+)\s+[\d.]+"/g)];
+          const vbWidth = boxes.length ? Number(boxes[boxes.length - 1][1]) : 0;
+          if (!vbWidth) continue;
+          const width = estimateTextWidth(body, size, /font-weight="(bold|[6-9]00)"/.test(attrs));
+          const anchor = (attrs.match(/text-anchor="(\w+)"/) || [])[1] || "start";
+          const left = anchor === "middle" ? x - width / 2 : anchor === "end" ? x - width : x;
+          if (left + width > vbWidth) {
+            fail(`${file}: SVG label "${body.trim().slice(0, 45)}" runs about ${Math.round(left + width - vbWidth)} units past its viewBox (${vbWidth} wide); the browser clips the end of it on every device. Shorten it, drop the font size, or widen the viewBox.`);
+          } else if (left + width * FONT_SPREAD > vbWidth) {
+            // Fits in Arial, does not fit in the widest system font. That means it is clipped
+            // for some readers and not others, which is why it survives a look on one machine.
+            warn.push(`${file}: SVG label "${body.trim().slice(0, 45)}" fits its viewBox (${vbWidth} wide) in a narrow system font but not a wide one, so it is clipped for some readers and not others. Give it about ${Math.round(left + width * FONT_SPREAD - vbWidth)} more units of room.`);
+          }
+        }
+
         // 4.7: the ESV cannot be quoted in this project. See the standard for why.
         if (/\(([^)]*,\s*)?ESV\)/.test(src)) fail(`${file}: quotes the ESV, which our licence terms do not permit (Editorial Standards 4.7); use the NET, JPS 1917, Brenton or KJV`);
 
@@ -212,3 +244,4 @@ try { corePath = yaml.load(fs.readFileSync(PATH_FILE, "utf8")); } catch (e) { co
 fs.mkdirSync(path.dirname(OUT), { recursive: true });
 fs.writeFileSync(OUT, `/* GENERATED by scripts/build.mjs from courses/ and curriculum/core-path.yaml — do not edit by hand. */\nwindow.FOVAL_COURSES = ${JSON.stringify(courses, null, 1)};\nwindow.FOVAL_PATH = ${JSON.stringify(corePath)};\n`);
 console.log(`built ${courses.length} courses, ${courses.reduce((n, c) => n + c.lessons.length, 0)} lessons -> ${path.relative(ROOT, OUT)}`);
+if (DRAFTS) console.warn("\nPREVIEW BUILD: drafting courses are in this output. Do NOT commit site/data/courses.js.\nRun `npm run build` to put it back.");

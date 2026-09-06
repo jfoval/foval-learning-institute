@@ -1,0 +1,19 @@
+{
+  "name": "foval-api",
+  "main": "src/index.js",
+  "compatibility_date": "2026-09-06",
+  "observability": { "enabled": true },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "foval-feedback",
+      "database_id": "87d5eec1-8a69-4620-9c7d-d2e154b55e89"
+    }
+  ],
+  // MAIL_ENDPOINT is left unset in production so the Worker posts to Resend. `wrangler dev`
+  // points it at a stub in .dev.vars so the tests never send a real email.
+  "vars": {
+    "SITE_ORIGIN": "https://www.fovallearninginstitute.org",
+    "MAIL_FROM": "Foval Learning Institute <signin@fovallearninginstitute.org>"
+  }
+}
