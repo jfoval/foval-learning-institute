@@ -8,3 +8,6 @@ node_modules/
 
 # wrangler secrets for local dev
 .dev.vars
+
+# rendered audio samples, not source
+audio-samples/
