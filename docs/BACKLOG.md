@@ -199,9 +199,10 @@ unless you need it):**
   ran 13 minutes on the first render, so the poll budget is 20 minutes.
 - **Still to build: `scripts/podcast.mjs` and a `/make-podcast <lesson>` command** — script
   generation from a lesson, the same fresh-context fact-check, render, upload, frontmatter. About
-  a day. **Still needed from John: which voice pair is John and Haley** (samples delivered
-  2026-09-06); then regenerate the lesson 2 episode with the chosen voices and host names in
-  the script.
+  a day. Nothing else is owed by John: **the voices are chosen (John is the Carter preset,
+  Haley is Alice, picked by ear 2026-09-06)** and the lesson 2 episode was regenerated with the
+  named intro and sign-off and re-uploaded to the same R2 URL. `podcast-compare.mjs` carries
+  Carter/Alice as the defaults now.
 - **Regenerate lesson 2's audio after the split/renumber pass** (7b): the episode covers the
   whole current lesson, so when it becomes two lessons the audio must be redone (~$0.32).
 

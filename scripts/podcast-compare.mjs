@@ -73,8 +73,10 @@ const REQUESTS = {
     url: "https://queue.fal.run/fal-ai/vibevoice/7b",
     headers: { Authorization: `Key ${process.env.FAL_KEY}`, "Content-Type": "application/json" },
     body: {
+      // The institute's voices, chosen by John by ear on 2026-09-06: S1 is John (Carter),
+      // S2 is Haley (Alice). Change these only if John changes the hosts.
       script: turns.map(t => `Speaker ${t.speaker}: ${t.text}`).join("\n"),
-      speakers: [{ preset: "Frank [EN]" }, { preset: "Alice [EN]" }],
+      speakers: [{ preset: "Carter [EN]" }, { preset: "Alice [EN]" }],
     },
     queued: true,
   }),

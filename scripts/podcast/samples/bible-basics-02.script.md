@@ -10,12 +10,18 @@ checked: >-
   nits were fixed in this file before rendering.
 about: >-
   About six minutes, written for the first real render on the chosen engine. Hosts are
-  unnamed on purpose: the names are John's to choose, and the script works regardless.
+  John (S1, the Carter voice) and Haley (S2, the Alice voice), named and chosen by John
+  on 2026-09-06. The intro and sign-off name the hosts and the lesson and assert nothing
+  factual beyond that.
 speakers: 2
 approx_minutes: 6
 ---
 
-S1: Two people are walking home from Jerusalem, and a stranger falls in beside them. And over the next few miles he does something nobody has ever done for them. He takes the whole Old Testament and reads it as one thing. Not a shelf of separate books. One story, with a shape, and a direction, and, he says, a subject.
+S1: Welcome in. This is the Foval Learning Institute podcast, where the two of us talk a lesson through. I'm John.
+
+S2: And I'm Haley. Today we're in the Bible Basics course, on the lesson called One story. Genesis to Revelation in a single sitting.
+
+S1: And it starts on a road. Two people are walking home from Jerusalem, and a stranger falls in beside them. And over the next few miles he does something nobody has ever done for them. He takes the whole Old Testament and reads it as one thing. Not a shelf of separate books. One story, with a shape, and a direction, and, he says, a subject.
 
 S2: That's the road to Emmaus.
 
@@ -76,3 +82,7 @@ S1: And the course says that out loud rather than smuggling it. We read the Old 
 S2: So. Any book, any verse. First question, where am I in the story.
 
 S1: Which act, and which promise is in play. Get those two, and you'll never read a verse floating free again.
+
+S2: The full lesson has the map itself, the timeline, and the practice to make it stick. It's free at Foval Learning Institute dot org.
+
+S1: Thanks for listening. Go read well.
