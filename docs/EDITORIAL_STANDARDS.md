@@ -187,6 +187,47 @@ A lesson is not only prose. Where a picture, a short video, a link, or a chart w
 - **Where they go.** Media sits where the reader needs it, not in a gallery at the end. A figure should be referred to in the text ("look at the second bar").
 - **Licensing.** Only use what we are allowed to use: public domain, Creative Commons with the required attribution, or embedding from the platform that hosts it. Record the licence in the caption. When in doubt, link instead of embedding.
 
+### 4.7 Quoting scripture and other licensed texts
+
+The institute publishes its content under an open licence and promises in value 9 that it is
+licensed for reuse. That promise constrains what we are allowed to quote, and it constrains it more
+tightly than most people expect.
+
+**Modern Bible translations are copyrighted**, and their free-quotation allowances usually exclude
+openly licensed works. Crossway's ESV permission, for one, states that the text "may not be quoted
+in any publication made available to the public by a Creative Commons license", and excludes
+commentaries and Bible reference works. A course on how to read the Bible, published under
+CC-BY-SA, fails both conditions. Do not assume a verse allowance covers us; read the actual terms.
+
+**Default: the NET Bible.** Its terms allow free quotation in non-commercial work with no verse
+cap, state no exclusion for openly licensed works, and state no exclusion for reference works,
+which is what rules out the ESV here. It is a scholars' translation with tens of thousands of
+translator notes, so quoting it also gives a course about reading the Bible something to teach
+with. Every quotation carries the tag `(NET)`, and each course carries the required notice:
+
+> Scripture quoted by permission. Quotations designated (NET) are from the NET Bible® copyright
+> ©1996, 2019 by Biblical Studies Press, L.L.C. All rights reserved.
+
+**Use a different translation only when the choice teaches something:**
+
+- **JPS 1917** (public domain) when quoting the Tanakh or discussing how Jews read these books.
+  Quoting a Christian translation while describing someone else's scripture is a neutrality problem
+  as well as a licensing one.
+- **Brenton 1851** (public domain) for the Septuagint.
+- **KJV** (public domain in the US) where the familiar wording is itself the subject.
+- **Short comparative snippets** from copyrighted translations where comparing renderings is the
+  teaching, as in a lesson on choosing a translation. Keep them short, name each version, and do
+  not build a lesson's substance out of them.
+
+**Our own licence does not extend to quoted scripture.** Foval's writing is openly licensed; the
+translations we quote are not ours to sublicense. Say so wherever the licence is stated: quotations
+from copyrighted translations are used by permission and remain under their own copyright. This is
+ordinary practice for openly licensed work containing third-party material.
+
+**Never** quote a copyrighted translation at length, and never carry a running verse count as a way
+of staying inside someone's allowance. If the plan requires counting, the plan is wrong: switch to
+a public-domain text instead. The same reasoning applies to any licensed source, not only Bibles.
+
 ### 4.6 Accessibility and devices
 
 Lessons must read well on a phone. Short paragraphs, headings every few hundred words, tables that fit or degrade gracefully, code blocks that scroll horizontally, no essential information conveyed only by colour or images. Alt text on every image. Videos are supplementary, never the only carrier of content.
