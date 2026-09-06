@@ -1012,7 +1012,9 @@ is renumbered here.
 ### Owed to a session with network access
 
 Every outbound request from this session was refused by the egress proxy, so nothing could be
-reopened or verified. Cleared in one pass by a session that can reach the web:
+reopened or verified. This list is cumulative across the whole course, items 1 to 6 from lessons 2
+and 3 and items 7 to 10 from lesson 4, and it can be cleared in one pass by a session that can reach
+the web:
 
 1. **A free full-text URL for Wason 1968 and for Ragni, Kola & Johnson-Laird 2017**, added to
    `SOURCES.md` and linked at first mention and in Go deeper in lesson 3.
@@ -1028,6 +1030,17 @@ reopened or verified. Cleared in one pass by a session that can reach the web:
    paragraph.
 6. **The believability norming behind the 1983 Evans materials** (lesson 2, L2-N6), so the labels can
    be attributed to a study rather than described generically.
+7. **A URL for Knachel's *Fundamental Methods of Logic* section 3.6 on LibreTexts, and for
+   Lagerlund's SEP entry "Medieval Theories of the Syllogism", plus Lagerlund's revision year.**
+   These are the two sources lesson 4's Venn conventions and its 256/15/24 count rest on, and it
+   recommends both by name in Go deeper, unlinked.
+8. **URLs for Groarke's SEP "Informal Logic" entry and for Abrami et al. 2015.** Both are cited in
+   lesson 4 and neither has a recorded address.
+9. **The title of Cheng, Holyoak, Nisbett & Oliver 1986**, which `SOURCES.md` records by author,
+   journal, volume and pages but never by title, so lesson 4's Sources entry has to say so.
+10. **Abrami et al.'s moderator tables**, which `SOURCES.md` says to read before quoting any specific
+   moderator effect. Until then lesson 4 quotes only g+ = 0.30 and states the moderators as
+   associations.
 
 ### Requests for the shared files
 
@@ -1046,3 +1059,314 @@ recorded here rather than made.
    line before `C:`, which slips the pattern but still renders as a list plus a stray paragraph
    rather than as a standard form. Allowing optional blank lines in that pattern would have caught
    all eight without a human reading for them.
+
+---
+
+## Lesson 4, "All, no, some" — Stage 4 round 1, 2026-09-06
+
+Five fresh-context reviewers, launched in one message. Findings consolidated with IDs and applied in
+the same pass. Network egress was refused throughout, so the fact-check ran against `SOURCES.md`;
+items it could not settle are added to "Owed to a session with network access".
+
+**Verdict: not clean as drafted, but the strongest draft of the four reviewed.** The logic is in
+excellent shape: every Venn walkthrough, every validity verdict, every counterexample, all six quiz
+keys and all six practice answers were checked independently and are correct. The argument displays
+were already fenced, so L3-B5 did not recur, and the practice already interleaved lesson 3's
+conditional forms. The failures are sourcing, media, and two teaching errors that only a careful
+reader would ever hit.
+
+### BLOCKING
+
+**L4-B1. Hurley and Copi are cited five times, for the third lesson running.** In prose at the Venn
+marks and at the undistributed middle; as the basis of the whole "Why the course stops here" section
+("Textbooks like Hurley's give categorical logic two chapters, then three more..."); as a Go deeper
+entry describing contents (the square of opposition "drawn out", a "rules-based test") that
+`SOURCES.md` records nowhere; and as Sources 2 and 4, both written as though the books were read.
+`SOURCES.md` line 202 forbids it by name and its own lesson-4 entry says "Hurley ch. 5 was still not
+read directly". **All five reviewers flagged it independently.** Note the one thing that is not a
+breach and must stay: "one of them using Copi's textbook" inside the Cheng description reports what a
+1986 classroom used, read from Cheng et al., not what Copi says.
+
+**L4-B2. The lesson that teaches Venn diagrams contains no diagram.** Zero figures, zero links. A
+three-circle Venn has seven regions and the reader is asked to track four of them by name in worked
+example 1 and six across worked example 2. The lesson's own Go deeper entry admits it: Knachel has
+"drawn Venn diagrams, **which this lesson could only describe in words**". A lesson that sends the
+reader elsewhere for its own central object has outsourced its teaching, and the reader least able to
+follow, the one without a pencil, is the one it fails. Unlike lessons 2 and 3, nothing here needs a
+source: a Venn diagram is geometry, not data.
+
+**L4-B3. Worked example 2 has four terms, and the shading described does not follow from the premise
+as written.** Premise 2 was "All the qualified **applicants** have degrees", and the lesson then
+shades "qualified, not an applicant, no degree", which that premise says nothing about. "Qualified
+applicant" welds two terms into one, so the argument is not a categorical syllogism at all. The
+verdicts survive under either reading, which is why it would pass every check except a careful one,
+but a learner who draws exactly what the premise says gets a different picture from the one the
+lesson describes and concludes the mistake is theirs. Found independently by depth, fact-check and
+pedagogy.
+
+**L4-B4. The wrinkle in worked example 2 prints its own answer.** "Draw it." and then eleven lines of
+solution ending "Not forced. Invalid." The repeat defect, fifth lesson running. It is worse here than
+elsewhere because the first half of the same worked example does it correctly, so the reader has just
+been trained to expect a hidden reveal and then gets the answer handed over. It is also the only
+production slot the lesson had: across both worked examples the reader is never asked to shade a
+region or place an X before being shown one, so they reach the practice having watched the method
+twice and performed one step of it once.
+
+### Neutrality (neutral course, Part 3 in its ordinary form)
+
+Perspectives audited: formal logician; informal-logic scholar; historian of logic; medieval and
+Aristotelian scholar; mathematician; cognitive psychologists in both the heuristics-and-biases and
+ecological-rationality camps; linguist on scalar implicature; non-UK readers (US, Canadian,
+Australian, South Asian); a religious reader; a lawyer or regulator; a learner who found the Venn
+method hard; a cyclist and a driver; a local-government officer; employer and applicant; landlord and
+tenant.
+
+**L4-N1. The formal-first camp is given two sentences, no proponent and none of its real arguments,
+while the informal camp gets named founders, a quoted definition, an argument and all the evidence.**
+The course has a stake in the answer, so this is where a thumb on the scale does most damage. Two
+things a logic professor would insist on are absent: **expressive reach** (these tools cannot
+represent relations or nested quantifiers at all, which is a fact about the tools and not a
+preference), and the other payoffs (formal notation is the working language of mathematics,
+computing, database query and formal semantics). "Trains rigour" is the weakest version of the case
+and was the only version given.
+
+**L4-N2.** The belief-bias interaction is restated flat, reintroducing the claim L2-N3 removed from
+lesson 2's established column one lesson earlier.
+
+**L4-N3.** Practice item 5 made a stereotype about cyclists the "believable" half of a belief-bias
+trap, in the author's voice, in the one place the lesson teaches that believability is a trap. Same
+class as the immigration content removed at L2-N5 and the citizenship content at L3-N11, and it costs
+nothing to avoid.
+
+**L4-N4.** Cheng's Experiment 1 is reported as "errors fell from 75% to 39%". Those are two different
+groups, an untrained control and a trained one, not a before and after, and Experiment 1 is a
+different experiment from the classroom study with different subjects. The sentence immediately
+before it uses a genuine pretest frame with the same 75%, so a reader carries it straight across. The
+overstatement runs in the direction that supports this course's own method, and the sentence says so
+("That second finding is the one this course is built on"). Found independently by three reviewers.
+
+**L4-N5.** Govier is cited by chapter for a claim `SOURCES.md` records only as the movement's
+collective position, and no page of Govier has been read. Flagged with a warning about the remedy:
+strip Hurley and Copi and leave Govier standing, and the formal-first camp ends the section with no
+citation while the informal camp keeps two. Resolve symmetrically.
+
+**L4-N6.** The 11%-against-62% sentence invites the reading that the logic course made students
+worse. The two figures are for two different problem types, which the sentence does say, but the
+"after the semester... when before any training" construction carries a decline.
+
+**L4-N7.** Abrami's moderators upgraded from "associated with larger effects" to "the strategies that
+helped most", which is a causal ranking the source note expressly warns against, and they happen to
+be this course's own strategies.
+
+**L4-N8.** Six unsourced frequency and superlative claims. **L4-N9.** "Between them they cover most
+of the deductive arguments you'll meet" asserts the contested line 180 lines before the reader is told
+the question is open. **L4-N10.** The pragmatic account of "some" stated as settled, same shape as
+L3-N3. **L4-N11.** Aristotle's assumption reported without the context that makes it reasonable, and
+the medieval logicians who built the traditional list appear only in a source note. **L4-N12.** The
+traditional rules-based apparatus waved away in the body while Go deeper concedes it does the same
+job. **L4-N13.** "Outfielders" reads as a baseball position to a US reader, inside a sentence about
+goalkeepers. **L4-N14.** The only person in the lesson holding public office is also the only one
+shown reasoning badly.
+
+### Fact-check
+
+**L4-F1.** The Groarke definition is misquoted inside quotation marks: "reasoning as it occurs" for
+the recorded "reasoning and inference as they occur". Lesson 3 was praised for having no paraphrase
+presented as a quotation; this is that defect returning. **L4-F2.** Smith 2022 is cited for
+contradictories, which `SOURCES.md` does not record him saying. **L4-F3.** Experiment 2's margins
+(± 5) are dropped and the authors' own summary, "the mean improvement was a bare 3 ± 7%", is unused,
+while the "wide confidence intervals" caution is attached to the wrong experiment; the biconditional
+result (81 ± 8 to 87 ± 8, the wrong way) is recorded and unused. **L4-F4.** "abstract problems" for
+the paper's "arbitrary problems". **L4-F5.** "Lagerlund, 2022" gives a year `SOURCES.md` does not
+record and the lesson's own Sources entry omits; carried over from Smith 2022. **L4-F6.** "All A are
+B" and "No A are B" are called contraries, which is true on Aristotle's reading and false on the
+modern reading the lesson commits to thirty lines later, where an empty A makes both true. It is one
+of the exact nine forms the 24-versus-15 difference is made of. **L4-F7.** The promotion argument's
+counterexample drops the term that makes it one ("a person who did the course and isn't promoted"
+falsifies nothing unless they are on the team). **L4-F8.** Four bibliographic details not recorded:
+the Cheng title, Magnus's initials, the first names of Johnson, Blair and Govier, and the claim about
+what the two Michigan courses covered. **L4-F9.** Practice item 3 runs the culinary sense of
+"vegetable" and the botanical sense of "fruit" through one argument, and the answer key asserts the
+conclusion across both senses without noticing.
+
+### Depth, media and pedagogy
+
+**L4-D1.** `minutes: 40` against three independent costings of 70, 75 and 85. **L4-D2.** Recorded
+research bearing directly on the lesson and unused: the CSUN and Lander syllabi, both read in full,
+which draw the same boundary this course draws and would give the "why we stop" section the
+specificity it lacks; Aristotle's three figures and the middle term's position; subcontraries, which
+is the relation that explains why "some" doesn't imply "some not" and which the lesson leans on twice
+without naming; Lagerlund's breakdown of the 24; and the Evans figures, which lesson 2 now carries.
+**L4-D3.** Lesson 3's forward promise is delivered in substance and never closed in words, so a
+reader who followed the pointer gets the answer without recognising it. **L4-D4.** "Square of
+opposition" appears only in a Go deeper entry that has to be deleted. **L4-D5.** Quiz Q5's explain
+names the wrong misconception for option A. **L4-D6.** Quiz Q6 is the third pass at the same "only"
+rule and two of its four options are ones nobody would pick, which its own explain concedes.
+
+**L4-P1.** No free recall. **L4-P2.** The interleaving contract is not met: four syllogisms where the
+outline specifies six, and both conditionals announce themselves with their first word, so the
+tool-choice decision the instruction asks for has already been made by the layout. **L4-P3.**
+Objective 1 is translation, and not one practice item requires a translation; all six arrive
+pre-translated. Two of the five traps the lesson spends 400 words teaching are never exercised at
+all. **L4-P4.** Objective 3's second half, spotting where an argument leans on the wrong reading of
+"some", is modelled once in prose and never practised. **L4-P5.** Quiz Q1's second premise is about
+one named thing, and the taught procedure has no rule for a singular term. **L4-P6.** No predict
+block anywhere in the evidence section, which carries five empirical figures and is the one place a
+reader has a prior worth testing. **L4-P7.** Objective 4, the tool choice, has no quiz item, and Q6
+is displaceable. **L4-P8.** Quiz Q1's key is the only option that supplies a concrete case, which is
+the leak flagged as L3-P4. **L4-P9.** The case where an X on a line is still valid is asserted in a
+checkpoint and never shown or practised, so the lesson teaches "line means invalid" by three examples
+and denies it in one sentence. **L4-P10.** "Why the course stops here" sits between the last diagram
+the reader sees and the first one they build.
+
+### Voice
+
+Zero em dashes. Four "Here's" openers, the same count as lessons 2 and 3. **Thirteen**
+parenthetical-plus-numbered citations, worse than either. 97 contractions in 5,361 words, one every
+55 against lesson 3's one every 41, and badly distributed: two sections run 500-plus words on eight
+each. Six paragraphs ending on a one-line moral, three earned. Pipeline vocabulary in two headings
+and the exercise label. Jargon uncashed: "categorical" appears in an objective and then nowhere in
+the body; "existential import" is first met by the learner in a quiz explanation; "256" arrives with
+no account of where it comes from; "syllogism" is in the title and undefined for nine hundred words.
+The Cheng paragraph reads as a literature review, with the two longest sentences in the lesson and
+four numbers handed over before the reader is told why any of them matters.
+
+### Split verdict: DO NOT SPLIT
+
+Depth and pedagogy agreed, independently and for the same reason. The lesson is one skill with its
+prerequisites: the four forms feed the contradictories, those and "some" feed the Venn conventions,
+and both worked examples use all of it. The only detachable block is "Why the course stops here",
+which is a section and not a lesson: a part B beginning there would have no method, no worked
+example, no practice and nothing a quiz could test. Stopping before the Venn check leaves a reader
+with vocabulary and no method, which is not a natural stopping point with something learned. No
+`SPLIT SEAM` marker. No padding was found; the outline calls this "the shortest lesson in the course
+by design" and after the fixes it still is.
+
+### Resolutions applied, 2026-09-06
+
+`npm run validate` exits 0 and **lesson 4 now raises no linter warnings**, down from one. Frontmatter
+re-parsed: six items, each a mapping with `q`, `options`, `answer`, `explain`; key `3,2,1,0,2,1`,
+using all four indices. Zero em dashes. Body 7,908 words.
+
+**L4-B1: all five citations removed, and the section rebuilt on sources that have been read.** The
+Venn marks now cite Knachel alone. The undistributed middle is introduced as field vocabulary needing
+no authority, the remedy already used for the Latin form-names in lesson 3. The "you could spend a
+semester on this" sentence now rests on *forall x*, whose Parts II and III were read from the PDF.
+The Go deeper Hurley entry is deleted and its one recoverable clause (where 256 comes from) moved
+into the Knachel entry, which is free and read; Lagerlund takes the vacated slot. Sources 2 and 4 are
+gone and the list renumbered from eleven entries to eight, every one read. Govier goes too (L4-N5,
+resolved symmetrically as the neutrality reviewer asked): the transfer claim is now attributed to the
+movement via Groarke, which was read, rather than to chapters of a book that was not.
+
+**L4-B2: three figures, all geometry, none needing a source.** The four sentence forms as four
+two-circle panels, so the lesson's alphabet is seen rather than imagined; the dogs, cats and mammals
+diagram with both premises shaded and the open region ringed and numbered, which is the region the
+whole example turns on; and the straddling X, which is the one thing in this lesson prose genuinely
+cannot carry and which two quiz items depend on. Theme tokens throughout, font-size 15 or above, no
+hardcoded fills. **All three were rendered in a headless browser at 340px before committing**, which
+caught two bugs static reasoning had missed: the captions inside the two three-circle figures
+overflowed the viewBox and were clipped, and the term labels collided with the circle arcs. Captions
+now sit in prose, where they also serve a screen reader better. Five links added, all to URLs already
+in the repository. Nothing was drawn that could not honestly be drawn: no chart of the Cheng numbers
+(four figures in a paragraph do not need one, and drawing them without the paper's own intervals
+would overstate them), and no video, since `SOURCES.md` records that the only *Think Again* item
+found is a trailer.
+
+**L4-B3: premise 2 rewritten, and the defect turned into the teaching point the lesson was missing.**
+Both displays now read "Everyone who is qualified has a degree", so the shading follows from the
+premise as written, and a new sentence says why: "A syllogism has three terms, and 'qualified
+applicant' would smuggle in a fourth by welding two of them together. Watching for that is half of
+translation."
+
+**L4-B4: the wrinkle is a predict block**, with the reviewer's added diagnostic ("If you put the X
+inside Qualified, you drew the conclusion instead of the premises"), which is the move lesson 3's
+review said should be copied into the other lessons.
+
+**Neutrality, all fourteen.** N1: the formal-first camp now leads with expressive reach, worked
+through a concrete valid argument no diagram in the course can touch, then the notation's other uses,
+then rigour; it is the longest of the three paragraphs rather than the shortest. N2: the interaction
+is not restated; the entry gives the bare pattern and points at lesson 2 for the numbers and the
+dispute. N3: the cyclists item is replaced by Saturday deliveries, same shape, same X on a line, same
+believable conclusion, no grievance. N4: reported as four groups with the control named as a control,
+all four figures given with their intervals and the authors' caution that the intervals are wide.
+N5: resolved symmetrically, see B1. N6: recast as the authors' own comparison between problem types,
+ending "What the problem was about mattered more than what they'd been taught." N7: "associated with
+the larger effects", with a sentence saying these are associations across studies and not a
+comparison the reviewers ran. N8 and N9: every frequency claim replaced by a mechanism. N10: the
+cancellability test is now "the standard test", with one clause saying linguists argue about how far
+it settles matters and that nothing here turns on it. N11: two sentences on why the assumption was
+reasonable in a theory of demonstration about real kinds, and the medieval logicians named in the
+body. N12: the rules-based test is described accurately, as faster once memorised, and the course's
+reason for preferring the diagram is given honestly (it needs nothing memorised and it shows the
+counterexample rather than announcing it). N13: "outfield players". N14: a resident at a council
+meeting rather than a councillor.
+
+**Fact-check, all nine.** F1: the Groarke quotation restored verbatim. F2: the citation dropped and
+the relation derived from the definitions instead. F3: both Experiment 2 margins given, "a bare
+3 ± 7%" quoted, the biconditional result added inside the new predict block, and the wide-intervals
+caution moved to the experiment it belongs to. F4: "arbitrary problems". F5: the year dropped in both
+places, with a note in Sources saying why. F6: handled in the empty-classes callout, which now says
+the same assumption is what makes "all" and "no" contraries, and that with no As at all both come out
+true and the pair stops excluding each other; the body's label carries "on the traditional reading"
+and a pointer to the footnote. F7: "someone on my team who did the course and isn't promoted". F8:
+the Cheng title dropped from Sources with a line saying it is not recorded, Magnus's initials kept as
+`SOURCES.md` has them from lesson 2's entry, first names dropped, and the claim about what the
+courses covered deleted. F9: item 3's answer now names the two senses and hands the move to lesson 8
+under its name, which makes the item better rather than safer.
+
+**Depth and pedagogy.** D1: `minutes` 40 to 75, and the outline's "~30 min" corrected. D2: the
+subcontraries relation is now named and used to explain why "some" doesn't imply "some not"; the
+square of opposition is named where it is taught; Lagerlund's "the extra nine are the ones that need
+something to exist" is in the callout; the 256 is unpacked in a parenthesis. **The CSUN and Lander
+syllabi were deliberately not added; see below.** D3: the section now opens by naming the question
+lesson 3 left open, in lesson 3's own words. D4, D5, D6: done, with Q6 replaced (see P7). P1: free
+recall added, in the house form, and placed last in the body so it sits immediately before the quiz.
+P2, P3, P4: the practice is now eight items, six syllogisms and two conditionals, meeting the
+outline's contract for the first time. Item 4 is restated so its first word no longer announces it as
+a conditional. Item 2 arrives as a bare plural that has to be translated, item 7 as an "only" that
+has to be reversed, item 8 as the implicature slide in argument form, so objectives 1 and 3 are
+practised rather than only taught. Verdict sequence has no run longer than two. P5: a sixth
+translation rule added, that a claim about one named thing behaves like "some" and is drawn as an X
+with the name beside it. P6: a predict block before the Cheng result, giving the reader the setup and
+asking for the post-course number. P7: Q6 replaced by a two-argument item that requires choosing
+between the conditional shapes and the Venn check, which assesses objective 4 for the first time. P8:
+Q1's option A is now a genuine distractor with a case of its own, reasoning from a true contrapositive
+to the wrong conclusion, which also spaces lesson 3's material. P9: a callout, "A straddling X is not
+a verdict", showing the same X and the same line producing opposite verdicts. P10: "Why the course
+stops here" moved after the practice and the exercise, so nothing separates the worked examples from
+the problems.
+
+**Voice.** All four "Here's" openers rewritten. All thirteen parenthetical citations reduced to the
+bare marker with names in prose. Three of the six one-line morals cut or folded, three kept ("That's
+step 6, and it's a different question", "This is lesson 2's method, with the imagining done by the
+page", "The premises still need evidence, which no diagram supplies"), and the procedural ones kept
+as instructions. Both "Worked example" headings replaced with content names, and the exercise label
+too. The four uncashed terms are now cashed at first use. The Cheng paragraph is rewritten as
+speech. "Thirty seconds" is now "under a minute", consistent with the title.
+
+### Deliberately not fixed, with reasons
+
+1. **The CSUN and Lander syllabi were not added to "Why the course stops here".** The depth reviewer
+   proposed them as evidence that other people draw the boundary in the same place, and both are
+   recorded as read in full. Two syllabi agreeing with us is not evidence that we are right, it is
+   evidence that the choice is common, and dropping it into the section that argues our own line
+   would read as support it cannot give. The section is stronger admitting that its line is a
+   judgement about what a general reader has time for, which it now says outright.
+2. **Practice item 3's tomato equivocation is kept rather than swapped.** The fact-check offered
+   either. Keeping it and naming the slide teaches something real and sets up lesson 8; swapping it
+   would have removed the only place in the course where a learner meets a valid argument whose
+   premises need one word held to one meaning.
+3. **No chart of the Cheng figures**, though they are recorded and could be drawn. Four numbers in a
+   paragraph do not need one, and drawing them without the paper's own intervals would overstate
+   them, which is the error L4-N4 was about.
+4. **No `:::callout A good place to stop`**, unlike lessons 2 and 3. There is no point at which a
+   reader could stop with something complete: before the Venn check they have vocabulary and no
+   method. The lesson is also the shortest of the four reviewed.
+5. **"Some A are B" and "Some A are not B" are named subcontraries without a citation.** The relation
+   follows from the four forms as defined, and no source read by this course records the term. Named
+   because a learner will meet it, derived rather than attributed, which is the same treatment the
+   Latin form-names got in lesson 3.
+6. **Objective 4 now has a quiz item, so lesson 3's "deliberately not fixed" item 3 does not carry
+   over.** Lesson 3 accepted an unassessed objective because its quiz was at the six-item ceiling
+   with nothing displaceable. Lesson 4 had a displaceable item, and objective 4 is this lesson's
+   contract with the outline rather than a fourth item of coverage.
