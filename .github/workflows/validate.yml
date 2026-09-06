@@ -20,9 +20,12 @@ jobs:
       # someone edited content without rebuilding, and the live site is behind.
       - run: npm run build
       - name: Check the committed build output is current
+        # index.html and sw.js carry content hashes of the assets they load. If they are
+        # stale the deploy is invisible to anyone who has visited before, which is exactly
+        # the bug this stamping was added to fix, so a stale stamp fails the build.
         run: |
-          if ! git diff --quiet -- site/data/courses.js; then
-            echo "site/data/courses.js is out of date. Run 'npm run build' and commit the result."
-            git diff --stat -- site/data/courses.js
+          if ! git diff --quiet -- site/data/courses.js site/index.html site/sw.js; then
+            echo "Generated output is out of date. Run 'npm run build' and commit the result."
+            git diff --stat -- site/data/courses.js site/index.html site/sw.js
             exit 1
           fi
