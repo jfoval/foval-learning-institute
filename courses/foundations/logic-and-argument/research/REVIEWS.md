@@ -125,6 +125,105 @@ Voice (zero em dashes; one banned phrase)
 
 ---
 
+## Lesson 3, "Conditionals" — Stage 4 round 1, 2026-09-06
+
+Five reviewers, fresh context: depth, fact-check, neutrality, voice, pedagogy. 40-odd findings.
+The lesson's skeleton, its ten-item interleaved practice and its six-item quiz are the strongest
+in the course so far; every reviewer said so independently. What failed was the second layer of
+expertise on the two places a knowledgeable reader stops, and the media requirement.
+
+### Fixed
+
+- **Factual, and the lesson contradicted itself.** "The two you should turn are the two valid
+  forms. The two people reach for are the two invalid ones." The lesson's own numbers two
+  paragraphs later say the modal selection is P and Q at 39%, and P is modus ponens, which is
+  valid. Wason's quoted line on the next page ("Nearly all subjects select P") says the same. The
+  two sets also overlap, so presenting them as disjoint was wrong twice. Rewritten.
+- **Wason 1966 vs 1968.** The lesson said Wason "published" the task in 1968. The selection task
+  first appears in Wason, "Reasoning", *New Horizons in Psychology 1* (1966); the 1968 QJEP paper
+  quotes the vowel rule inside its summary of that earlier study. Now cited as 1966 for the task
+  and 1968 for the quote. **SOURCES.md line 30 carries the same conflation and still needs fixing
+  at source**, or lessons 4 onward inherit it.
+- **Griggs and Cox 1982 were uncited.** The drinking-age rule, its four cards and the whole deontic
+  result are theirs (*Br J Psychol* 73, 407-420, Exp. 3). Crediting only the 2017 meta-analysis for
+  someone else's experiment inverts the source hierarchy in 2.2. Now source [4].
+- **The deontic claim was overstated.** "Researchers have run the same task" and "correctly means
+  modus tollens" are wrong on the point the literature is clearest about: a regulation cannot be
+  false, so participants are detecting violators, not testing a claim. Same four-card format,
+  different question. Manktelow and Over's objection is now named in the text.
+- **One account of the abstract failure was asserted as settled, five times** ("Confirming is the
+  reflex; refuting is the skill"), while the lesson explicitly hedged the *deontic* explanation.
+  That is backwards: both are contested. Evans' matching bias and Oaksford and Chater's
+  information-gain account are now named alongside Wason's reading, and the practical advice, which
+  does not depend on which is right, is unchanged.
+- **"Some researchers... some... some..."** named three live positions with no name, date or
+  citation, in a lesson that footnotes everything else. Now four named camps with the evidence that
+  discriminates between them, including Cheng and Holyoak's abstract permission rule, which is the
+  awkward result for the familiarity account. Source [7] added.
+- **Two answer leaks in worked examples.** Third occurrence of this defect in three lessons (see
+  lesson 1 and lesson 2 entries above). Worse here: the prompt itself gave away the verdict
+  ("a situation where both premises are true **and the battery is fine**") before the reader
+  started. Both now `:::predict` blocks. **A linter rule for this class is being added, since three
+  hand reviews in a row have caught it and a fourth should not have to.**
+- **Banned sentence shape**: "By the end of this lesson you'll be able to..." (style guide line 44).
+  Replaced with a predict block, so the opening asks instead of promising.
+- **No free recall before the quiz**, which the Definition of Done requires. Added as Practice Part 3.
+- **Zero links in 5,800 words**, and a URL printed as dead text. 4.5: "a lesson with no links is a
+  lesson that hides its sources."
+- **No figure or chart**, in the lesson whose two central objects are a spatial layout and a set of
+  percentages. Added two inline SVGs: the four cards mapped to their four moves, and the selection
+  distribution. Both checked in a browser in both themes: four distinct fills each, no label
+  clipped, no token collision.
+- Smaller: "Latin names" narrowed to the two that are Latin; doubled citation apparatus reduced to
+  footnotes alone; the unsourced "almost nobody wastes a look at the 22-year-old" cut; three
+  one-line morals that restated the sentence before them removed; a value question ("was the parent
+  misled?") separated from the logic that the lesson does settle.
+
+### NOT fixed, and blocking publish
+
+The fact-checker could not reach any primary source: the egress proxy returned 403 on every host,
+so verification ran through search over source pages rather than the PDFs. **"Unverifiable from
+here" is not "wrong", and nothing below was changed on that basis.** SOURCES.md marks all of these
+"(PDF read)" at Stage 1, so someone with the PDFs must confirm them:
+
+1. **36 + 39 + 5 + 19 = 99%.** That leaves ~1% for every other selection pattern, which is not how
+   abstract selection-task data distribute. Re-read the table.
+2. **n = 36 first-year psychology and statistics students at UCL** for Wason 1968 Exp. 1. UCL is
+   confirmed; the rest is not corroborated anywhere accessible.
+3. **The 104 / 44 / 80 breakdown** and **the 64% deontic figure**. Only the 19% has independent
+   corroboration.
+4. **Two verbatim quotations**: Wason's "Nearly all subjects select P..." (the head is confirmed,
+   the tail is not, and it may read "nearly all *the* subjects"), and the *forall x: Calgary*
+   validity sentence, where validity is defined in ch. 1 and counterexamples in ch. 2, so the
+   chapter attribution needs checking along with the wording.
+5. **The *forall x: Calgary* edition date.** "Fall 2025" could not be confirmed; the citation now
+   omits it rather than asserting it.
+
+### Deferred, worth doing before publish
+
+- Objective 3 promises "necessary and sufficient" and the biconditional is never taught, although
+  the lesson's own diagnosis of affirming the consequent ("treated the promise as running both
+  ways") is exactly a conditional read as a biconditional.
+- Objective 1 names four valid forms; hypothetical syllogism and disjunctive syllogism appear in no
+  quiz item. The quiz is at the six-item ceiling, so this is a swap. Pedagogy proposed a full
+  replacement item covering both plus denying the antecedent; it is in the review output.
+- The selection task has no practice item, so the reader meets it once as a worked example and then
+  cold in the quiz.
+- `minutes: 50` understates a 5,800-word lesson with a four-part written exercise. Third lesson
+  running with this. 65 is closer.
+
+### Found in a different lesson while checking colours
+
+**Lesson 09's processed-meat chart is broken on the live site.** It draws its 1,000-person track in
+`var(--line-strong)` and its value bar in `var(--navy)`, and those two tokens are defined
+*identically* in both themes (`#0f2a4a` light, `#c9d3e2` dark), so the chart renders as one solid
+block and its caption describes a "grey bar" that is not grey. The `#9a9a9a` fallback never fires,
+because the variable exists. Verified by reading the computed fills. Its labels are also font-size
+10 to 12, under the linter's threshold. **A second linter rule is being added for two tokens that
+resolve to the same colour being used to distinguish two things.** Lessons 01, 08 and 10 need the
+same check.
+
+
 ## Lesson 2, "Valid and sound" — Stage 4 round 1, 2026-09-06
 
 All five reviewers recorded. Fixes below are NOT yet applied; this is a work order.

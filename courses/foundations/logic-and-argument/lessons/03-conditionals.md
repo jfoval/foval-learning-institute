@@ -71,7 +71,11 @@ Two people are looking at the same flat, and each makes an argument to the other
 
 The first says: "If this place had damp, you'd see stains on the ceiling. There aren't any stains. So there's no damp." The second says: "If this place had damp, you'd see stains on the ceiling. Look, there are stains. So it's got damp."
 
-Both arguments use the same first premise, the same everyday words, and the same confident "so". One of them is valid and one of them isn't, and if you had five seconds to say which, most people would guess wrong, or guess right and not be able to say why. By the end of this lesson you'll be able to tell in five seconds, and say why, and you'll know why the wrong one feels so right.
+Both arguments use the same first premise, the same everyday words, and the same confident "so". One of them is valid and one of them isn't.
+
+:::predict The first viewer says: no stains, so no damp. The second says: stains, so damp. One of those holds and one doesn't. Which, and what's the difference?
+The first one holds. The rule promised stains wherever there's damp, so no stains means no damp, or the rule would have been broken. The second doesn't. The rule never promised that stains have to come from damp: a leak fixed years ago would leave stains in a perfectly dry flat, and that is a case where both premises are true and the conclusion is false. Why the second one feels so right is most of this lesson.
+:::
 
 Before we go on, say the six-step check out loud. You've had it since lesson 1: find the conclusion; find the premises; supply what's missing; test the link; test the premises; only then consult your opinion of the conclusion. Lesson 2 gave you the test for step 4 on a deductive argument: could the premises all be true and the conclusion false? This lesson makes that test fast for the commonest kind of premise there is, the "if, then" sentence.
 
@@ -90,7 +94,7 @@ So there are four situations to think about, and the conditional rules out just 
 - P false, Q true: no damp, stains anyway. The promise never applied. Fine.
 - P false, Q false: no damp, no stains. Also fine.
 
-That's the whole mechanism of this lesson in one list. A conditional is refuted by one and only one kind of case: antecedent true, consequent false. Every valid form below is a way of using that fact; every invalid form is a way of forgetting it.
+A conditional is refuted by one and only one kind of case: antecedent true, consequent false. Every valid form below is a way of using that fact; every invalid form is a way of forgetting it.
 
 Two more words you'll need. In "if P then Q", P is a *sufficient* condition for Q: P on its own is enough to guarantee Q. And Q is a *necessary* condition for P: you can't have P without Q. Damp is sufficient for stains; stains are necessary for damp. Necessary does not mean sufficient. Stains being necessary for damp doesn't make stains a guarantee of damp, and that asymmetry is where both of the famous mistakes come from.
 
@@ -100,7 +104,7 @@ Necessary. The sentence says you can't vote without being 18; it does not say ev
 
 ## The four valid forms
 
-Here are the four shapes worth having in memory. Textbooks such as Hurley's and Copi's give them their Latin names, and the names are worth learning because you'll meet them (Hurley, ch. 6; Copi, Cohen & McMahon, ch. 8).[3][4] But the names are labels for shapes, and the shapes are what you'll use.
+Here are the four shapes worth having in memory. Hurley and Copi give the first two their Latin names, and the names are worth learning because you'll meet them.[5][6] But the names are labels for shapes, and the shapes are what you'll use.
 
 **Modus ponens** ("the affirming way"). Affirm the antecedent, get the consequent.
 
@@ -118,7 +122,7 @@ C: Q.
 
 C: Not P.
 
-Our first flat-viewer: if damp then stains; no stains; so no damp. Why is this valid? Suppose the premises are both true and try to make the conclusion false. That means the flat does have damp. But then, by premise 1, there are stains, and premise 2 says there aren't. Contradiction. There's no possible case with true premises and a false conclusion, which is exactly what lesson 2 said "valid" means (*forall x*, ch. 2).[5] The link holds.
+Our first flat-viewer: if damp then stains; no stains; so no damp. Why is this valid? Suppose the premises are both true and try to make the conclusion false. That means the flat does have damp. But then, by premise 1, there are stains, and premise 2 says there aren't. Contradiction. There's no possible case with true premises and a false conclusion, which is exactly what lesson 2 said "valid" means.[8] The link holds.
 
 Notice what modus tollens is, in plain terms. It's a search for the one breaking case. The rule promises Q whenever P; you found not-Q; so P can't be there, or the rule would have broken. Hold on to that description, because the Wason task later in this lesson is about how rarely people go looking for it.
 
@@ -189,22 +193,20 @@ Now the neighbour tries the reverse. Suppose the lights had stayed dark.
 
 "If the battery's dead, the lights won't come on. The lights don't come on. So the battery's dead."
 
-Before you read on, write this one in standard form and name the shape. Then try to build the counterexample: a situation where both premises are true and the battery is fine.
-
-Here's the shape:
-
+:::predict Write this one in standard form and name the shape. Then decide whether it holds, and if it doesn't, build the counterexample.
 1. If the battery is dead, the lights won't come on.
 2. The lights don't come on.
 
 C: The battery is dead.
 
-Premise 2 affirms the consequent. Invalid. The counterexample is a blown fuse in the lighting circuit: the battery is full of charge, the lights are dark, and premise 1 is still perfectly true, because a dead battery *would* keep the lights off. Dark lights are what a dead battery produces, and they're also what a blown fuse produces, and the rule never said otherwise.
+Premise 2 affirms the consequent, so it doesn't hold. The counterexample is a blown fuse in the lighting circuit: the battery is full of charge, the lights are dark, and premise 1 is still perfectly true, because a dead battery *would* keep the lights off. Dark lights are what a dead battery produces, and they're also what a blown fuse produces, and the rule never said otherwise.
+:::
 
 Notice that the invalid version is the one you'd be more likely to hear. Dark lights and a silent engine make "it's the battery" feel obvious, and the feeling is doing the arguing. This is lesson 2's belief bias in a small key: the conclusion is plausible, so the link goes unchecked. The check is the same one as always. Could the premises be true and the conclusion false? Blown fuse. Yes.
 
 ## Worked example 2: four cards
 
-In 1968 Peter Wason published a short experiment that has since been repeated in hundreds of studies (Wason, 1968; Ragni, Kola & Johnson-Laird, 2017).[1][2] Try it before you read the results. Really try it; write your answer down.
+Peter Wason devised a short experiment in 1966 that has since been run 228 times over (Wason, 1966; Ragni, Kola & Johnson-Laird, 2017).[1][3] Try it before you read the results. Really try it; write your answer down.
 
 You're shown four cards. Each has a letter on one side and a number on the other. The cards on the table show, face up: a vowel, a consonant, an even number, an odd number. Say E, K, 4, 7.
 
@@ -224,23 +226,75 @@ The 4: an even number. If the back is a vowel, that's a vowel with an even numbe
 
 The 7: an odd number. If the back is a vowel, that's a vowel with an odd number. Broken. Turn it. (Modus tollens: not Q, so check for not P.)
 
-So the four cards are the four one-step moves on a conditional, laid out on a table. The two you should turn are the two valid forms. The two people reach for are the two invalid ones.
+<svg viewBox="0 0 344 244" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="wr-t wr-d" style="max-width:100%;height:auto;font-family:inherit">
+  <title id="wr-t">The same four cards as the four moves on a conditional</title>
+  <desc id="wr-d">The four cards labelled with their logical role. E is P, turn it, modus ponens. K is not P, leave it, since turning it would be denying the antecedent. 4 is Q, leave it, since turning it would be affirming the consequent. 7 is not Q, turn it, modus tollens.</desc>
+  <text x="0" y="15" font-size="17" font-weight="600" fill="var(--text-2, #4a5260)">The same cards, as four moves</text>
+  <rect x="1" y="28" width="66" height="80" rx="3" fill="var(--navy-soft, #e8eef6)" stroke="var(--oxblood, #8b1e2d)" stroke-width="3"/>
+  <text x="34" y="82" font-size="36" text-anchor="middle" fill="var(--navy, #0f2a4a)">E</text>
+  <text x="34" y="130" font-size="16" text-anchor="middle" fill="var(--text-2, #4a5260)">P</text>
+  <text x="34" y="152" font-size="16" text-anchor="middle" fill="var(--oxblood, #8b1e2d)">Turn</text>
+  <rect x="93" y="28" width="66" height="80" rx="3" fill="var(--navy-soft, #e8eef6)" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
+  <text x="126" y="82" font-size="36" text-anchor="middle" fill="var(--navy, #0f2a4a)">K</text>
+  <text x="126" y="130" font-size="16" text-anchor="middle" fill="var(--text-2, #4a5260)">not P</text>
+  <text x="126" y="152" font-size="16" text-anchor="middle" fill="var(--text-2, #4a5260)">Leave</text>
+  <rect x="185" y="28" width="66" height="80" rx="3" fill="var(--navy-soft, #e8eef6)" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
+  <text x="218" y="82" font-size="36" text-anchor="middle" fill="var(--navy, #0f2a4a)">4</text>
+  <text x="218" y="130" font-size="16" text-anchor="middle" fill="var(--text-2, #4a5260)">Q</text>
+  <text x="218" y="152" font-size="16" text-anchor="middle" fill="var(--text-2, #4a5260)">Leave</text>
+  <rect x="277" y="28" width="66" height="80" rx="3" fill="var(--navy-soft, #e8eef6)" stroke="var(--oxblood, #8b1e2d)" stroke-width="3"/>
+  <text x="310" y="82" font-size="36" text-anchor="middle" fill="var(--navy, #0f2a4a)">7</text>
+  <text x="310" y="130" font-size="16" text-anchor="middle" fill="var(--text-2, #4a5260)">not Q</text>
+  <text x="310" y="152" font-size="16" text-anchor="middle" fill="var(--oxblood, #8b1e2d)">Turn</text>
+  <text x="0" y="182" font-size="15" fill="var(--text-2, #4a5260)">Turn P and not-Q: modus ponens and</text>
+  <text x="0" y="200" font-size="15" fill="var(--text-2, #4a5260)">modus tollens. Turning Q is affirming the</text>
+  <text x="0" y="218" font-size="15" fill="var(--text-2, #4a5260)">consequent; turning not-P is denying the</text>
+  <text x="0" y="236" font-size="15" fill="var(--text-2, #4a5260)">antecedent.</text>
+</svg>
 
-Wason summarised what was already known by the time of his 1968 paper: "Nearly all subjects select P, from 60 to 75 per cent select Q, only a minority select not-Q."[1] His own first experiment was run on 36 first-year psychology and statistics students at University College London.[1] Almost everyone turns the vowel; most people also turn the even number; hardly anyone turns the odd number, which is the one card that could sink the rule.
+So the four cards are the four one-step moves on a conditional, laid out on a table. The two you should turn are the two valid moves: the vowel and the odd number. The pair most people actually reach for is one of those plus one of the invalid ones: the vowel, which is right, and the even number, which is affirming the consequent. The card that goes unturned is the one modus tollens would have sent them to.
 
-Half a century of replications lets us put numbers on it. Ragni, Kola and Johnson-Laird pooled 228 selection-task experiments in 2017: 104 with abstract rules like Wason's, 44 with everyday content, 80 with rules about what people are permitted or obliged to do (Ragni, Kola & Johnson-Laird, 2017).[2] On the abstract rules, the four canonical selections came out like this: P alone, 36%; P and Q, 39%; P, Q and not-Q, 5%; the correct P and not-Q, 19%.[2]
+Wason summarised what was already known by the time of his 1968 paper: "Nearly all subjects select P, from 60 to 75 per cent select Q, only a minority select not-Q."[2] His own first experiment was run on 36 first-year psychology and statistics students at University College London.[2] Almost everyone turns the vowel; most people also turn the even number; hardly anyone turns the odd number, which is the one card that could sink the rule.
 
-One in five. On a task with four cards and a rule one sentence long.
+Half a century of replications lets us put numbers on it. Ragni, Kola and Johnson-Laird pooled 228 selection-task experiments in 2017: 104 with abstract rules like Wason's, 44 with everyday content, 80 with rules about what people are permitted or obliged to do (Ragni, Kola & Johnson-Laird, 2017).[2] The four canonical selections on those abstract rules came out like this.[2]
 
-Now the second half of the experiment, and another prediction. Researchers have run the same task with a rule that is a regulation rather than a description: "If a person is drinking beer, then the person must be over 19."[2] The four cards show a person drinking beer, a person drinking a soft drink, a person aged 22, and a person aged 16. Which do you check?
+<svg viewBox="0 0 344 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="wb-t wb-d" style="max-width:100%;height:auto;font-family:inherit">
+  <title id="wb-t">Which cards people turn over on an abstract Wason task</title>
+  <desc id="wb-d">Four bars on one scale. P alone, the vowel, 36 per cent. P and Q, the vowel and the even number, 39 per cent. P and not-Q, the vowel and the odd number, the correct choice, 19 per cent. P, Q and not-Q together, 5 per cent. Pooled from 104 abstract-rule experiments.</desc>
+  <text x="0" y="15" font-size="17" font-weight="600" fill="var(--text-2, #4a5260)">What people turn over, abstract rules</text>
+  <text x="0" y="44" font-size="16" fill="var(--text-2, #4a5260)">P alone: the vowel</text>
+  <rect x="0" y="52" width="240" height="26" fill="var(--surface-2, #f3f5f8)" stroke="var(--line, #d6dbe3)" stroke-width="1.5"/>
+  <rect x="0" y="52" width="86" height="26" fill="var(--navy, #0f2a4a)"/>
+  <text x="250" y="71" font-size="16" fill="var(--text-2, #4a5260)">36%</text>
+  <text x="0" y="102" font-size="16" fill="var(--text-2, #4a5260)">P and Q: vowel and even number</text>
+  <rect x="0" y="110" width="240" height="26" fill="var(--surface-2, #f3f5f8)" stroke="var(--line, #d6dbe3)" stroke-width="1.5"/>
+  <rect x="0" y="110" width="94" height="26" fill="var(--navy, #0f2a4a)"/>
+  <text x="250" y="129" font-size="16" fill="var(--text-2, #4a5260)">39%</text>
+  <text x="0" y="160" font-size="16" fill="var(--text-2, #4a5260)">P and not-Q: vowel and odd, correct</text>
+  <rect x="0" y="168" width="240" height="26" fill="var(--surface-2, #f3f5f8)" stroke="var(--line, #d6dbe3)" stroke-width="1.5"/>
+  <rect x="0" y="168" width="46" height="26" fill="var(--oxblood, #8b1e2d)"/>
+  <text x="250" y="187" font-size="16" fill="var(--text-2, #4a5260)">19%</text>
+  <text x="0" y="218" font-size="16" fill="var(--text-2, #4a5260)">P, Q and not-Q: three cards</text>
+  <rect x="0" y="226" width="240" height="26" fill="var(--surface-2, #f3f5f8)" stroke="var(--line, #d6dbe3)" stroke-width="1.5"/>
+  <rect x="0" y="226" width="12" height="26" fill="var(--navy, #0f2a4a)"/>
+  <text x="250" y="245" font-size="16" fill="var(--text-2, #4a5260)">5%</text>
+  <text x="0" y="272" font-size="15" fill="var(--text-2, #4a5260)">Each outlined bar is 100% of subjects.</text>
+  <text x="0" y="290" font-size="15" fill="var(--text-2, #4a5260)">104 abstract experiments, Ragni et al. 2017.</text>
+</svg>
+
+If you picked E and 4 up there, you are in the largest group on that chart.
+
+Now the second half, and another prediction. Griggs and Cox ran the same four-card *format* with a rule that is a regulation rather than a description: "If a person is drinking beer, then the person must be over 19."[4] Read that as a change of question, not just of subject matter. With the vowel rule you are asked whether a claim is true. With the drinking rule you are asked who is breaking it, and a regulation cannot be false the way a claim can. Same four cards, different job. The four cards show a person drinking beer, a person drinking a soft drink, a person aged 22, and a person aged 16. Which do you check?
 
 :::predict Same structure, same four moves. Will people do better or worse on the beer rule than on the vowel rule?
-Better, and by a lot. On these permission-and-obligation rules the pooled rate for the correct choice (the beer drinker and the 16-year-old) is 64%, against 19% for abstract rules.[2] Most people find the underage drinker at once, and almost nobody wastes a look at the 22-year-old, even though the 22-year-old is exactly the "4" card.
+Better, and by a lot. On these permission-and-obligation rules the pooled rate for the correct choice (the beer drinker and the 16-year-old) is 64%, against 19% for abstract rules.[2] Most people find the underage drinker at once. Note that the 22-year-old is exactly the "4" card, the one that goes unturned here and gets turned so often on the vowel rule.
 :::
 
-Read that contrast carefully, because it's easy to draw the wrong lesson from it. It is not that people can't reason about conditionals. Given a rule with a purpose and a cheater to catch, most of them reason about it correctly, and correctly means modus tollens: go and look at the case that could break the rule. What the abstract version shows is the mind's *default*. Left to itself, it looks for cases that fit the rule (the vowel, the even number) rather than the one case that could break it (the odd number). Confirming is the reflex; refuting is the skill.
+Read that contrast carefully, because it's easy to draw the wrong lesson from it. It is not that people can't reason about conditionals. Given a rule someone could be breaking, most of them go straight to the case that would break it, which is the move the abstract version could not get out of them. Whether that is the same inference as modus tollens or a different job wearing its clothes is itself argued over: Manktelow and Over make the case that hunting for violators of a rule you already accept is not the same act as testing whether a claim is true. What the abstract version shows is the mind's *default*. Left to itself, it looks for cases that fit the rule (the vowel, the even number) rather than the one case that could break it (the odd number). Confirming is the reflex; refuting is the skill.
 
-Why the content helps as much as it does is still argued over. Some researchers put it down to familiarity with the situation, some to a special facility for reasoning about permissions and obligations, some to what the rule makes seem relevant. The finding that it helps is not in dispute; the explanation is, and I'd rather tell you that than pick one for you.
+Why the content helps as much as it does is still argued over, and the four live answers are worth knowing because they disagree about what the task measures at all. Griggs and Cox put it down to familiarity: you have met this rule before.[4] Cheng and Holyoak argue for a general permission schema rather than memory, and their evidence is the awkward one for the familiarity account, because an *abstract* permission rule with no familiar content still lifts performance a long way.[7] Cosmides makes a narrower and stronger claim, that we have a dedicated facility for catching cheats in a bargain. Sperber and Girotto put it down to what the rule makes seem relevant. The finding that content helps is not in dispute. What it shows about the mind is.
+
+The same caution applies to the failure, not just the fix. Calling the abstract result a confirmation reflex is Wason's own reading, and it is one reading. Evans' matching-bias account says selections track the items *named* in the rule rather than confirming cases, which predicts that people improve on rules phrased with a "not" in them, and they do. Oaksford and Chater argue the common answer is a reasonable way to gather information if you read the rule as a probabilistic claim. What survives all of them is the practical bit: the card people leave face down is the one that could break the rule.
 
 What you can take from it is practical. When you meet "if P then Q" and want to know whether to believe it, the reflex will send you to find P-and-Q cases. The rule can survive a thousand of those. Go and look for a P-and-not-Q case. If there's a purpose you can attach to the rule, or someone who'd be cheating if it were broken, you'll find the move easier, and that's worth doing to yourself on purpose.
 
@@ -260,7 +314,7 @@ The **converse** is "if Q then P". It's a different claim. "If there are stains 
 
 The **inverse** is "if not P then not Q". Also a different claim, and equivalent to the converse. Denying the antecedent is the inverse smuggled in.
 
-So: contrapositive, same; converse and inverse, different. That's the whole table.
+So: contrapositive, same; converse and inverse, different.
 
 Now the two English constructions that cause the most trouble.
 
@@ -268,7 +322,7 @@ Now the two English constructions that cause the most trouble.
 
 Here's a way to check yourself. Ask: what does the sentence rule out? "You'll pass only if you sit" rules out passing without sitting. It does not rule out sitting without passing. Whatever a conditional rules out, that's its P-and-not-Q case, and once you have that you have the direction.
 
-**"Unless."** "The picnic's on unless it rains." Logicians read "P unless Q" as "if not Q then P": if it doesn't rain, the picnic's on. That reading is the safe one, because it's the part of the sentence nobody would deny. Many speakers also mean the reverse, "if it rains, the picnic's off", and often that's what the speaker had in mind. But the sentence doesn't strictly say it, and there's a real gap between "we'll go ahead if it's dry" and "we'll cancel if it's wet" (drizzle, anyone?). So translate "unless" as "if not", write the reverse direction down as a separate premise if the speaker plainly meant it, and never let it in unstated. Hurley's chapter on translating ordinary English into conditional form gives the same rule.[3]
+**"Unless."** "The picnic's on unless it rains." Logicians read "P unless Q" as "if not Q then P": if it doesn't rain, the picnic's on. That reading is the safe one, because it's the part of the sentence nobody would deny. Many speakers also mean the reverse, "if it rains, the picnic's off", and often that's what the speaker had in mind. But the sentence doesn't strictly say it, and there's a real gap between "we'll go ahead if it's dry" and "we'll cancel if it's wet", and drizzle sits right in it. So translate "unless" as "if not", write the reverse direction down as a separate premise if the speaker plainly meant it, and never let it in unstated. Hurley's chapter on translating ordinary English into conditional form gives the same rule.[3]
 
 :::checkpoint "The alarm will go off unless the code is entered within thirty seconds." Put it in "if, then" form, then say whether "the code was entered in time, so the alarm didn't go off" follows from the sentence alone.
 "If the code is not entered within thirty seconds, the alarm will go off." The inference "code entered, so no alarm" starts from not-P on this conditional, which is denying the antecedent, and it doesn't follow from the sentence alone. Any real alarm system probably works that way, but that's a second claim about the system, not something the "unless" sentence said. Write it in as a bracketed premise and the argument is fine.
@@ -280,9 +334,13 @@ A school sends a letter: "Pupils will be allowed on the trip only if a consent f
 
 Was the parent misled? Put the letter in standard form. "Trip only if form" is "if trip then form": being on the trip requires the form. The parent read it as "if form then trip". That's the converse, and the letter didn't say it. So the letter was accurate and the parent's inference was affirming the consequent, with the thirty-place limit as the counterexample.
 
-Now the other half, which people miss. Suppose a different parent forgot the form. From "if trip then form" plus "no form", what follows? Do this one yourself before reading on: which form is it, and is it valid?
+The other half is the one people miss.
 
-It's modus tollens, and it's valid: no form, so no trip. The letter really does guarantee that. So the sentence gives the school a firm rule in one direction (no form, no trip) and no commitment at all in the other (form, so trip), which is precisely what a school writing carefully would want, and precisely what a parent reading quickly would miss.
+:::predict A different parent forgot the form. From "if trip then form" plus "no form", what follows? Name the form and say whether it holds.
+Modus tollens, and it holds: no form, so no trip. The letter really does guarantee that.
+:::
+
+So the sentence gives the school a firm rule in one direction (no form, no trip) and no commitment at all in the other (form, so trip), which is precisely what a school writing carefully would want, and precisely what a parent reading quickly would miss.
 
 One more thing, and it's a spaced review from lesson 1. Is the school's sentence an argument? No. It's a single conditional claim, and a conditional on its own asserts neither of its parts; it asserts a connection between them. It becomes an argument only when someone adds a second premise ("the form's in") and draws a conclusion. The same goes for "if the yeast was old, the bread won't rise" said over a flat loaf. That's an explanation offered as a conditional, not an argument for anything, until someone adds "and the yeast was old, so that's why". Lesson 1's test still applies: is the passage trying to establish something, or explain something already accepted?
 
@@ -324,7 +382,9 @@ Lesson 2's counterexample method was: keep the shape, find a case with true prem
 12. "The road will stay open unless the river floods."
 13. "A completed form is necessary for a parking permit."
 
-**Part 3, your folder.** Find one conditional claim in something you read or heard this week: an "if", an "only if", an "unless", a "you can't X without Y". Write it in "if, then" form. Then write its contrapositive and its converse underneath. Now the question that matters: which of those does the writer seem to want you to accept? If they stated the conditional and are relying on you to swallow the converse, you've found the weak step. Put the whole thing in your argument folder with a note.
+**Part 3, from memory.** Close the page and write down: the one case that makes a conditional false; the four valid forms and what each one starts from; the two invalid ones and the counterexample that sinks each; what "P only if Q" and "P unless Q" become in "if, then" form; and which of contrapositive, converse and inverse keeps the original claim. Check what you missed, and reread only those parts.
+
+**Part 4, your folder.** Find one conditional claim in something you read or heard this week: an "if", an "only if", an "unless", a "you can't X without Y". Write it in "if, then" form. Then write its contrapositive and its converse underneath. Now the question that matters: which of those does the writer seem to want you to accept? If they stated the conditional and are relying on you to swallow the converse, you've found the weak step. Put the whole thing in your argument folder with a note.
 :::
 
 :::checkpoint Answers to Parts 1 and 2. Open only when you've written yours.
@@ -345,15 +405,18 @@ And affirming the consequent comes back in lesson 6 in a heavier coat. The prose
 
 ## Go deeper
 
-- *forall x: Calgary*, Part II, the chapters on the connectives and on "if" in particular (free, forallx.openlogicproject.org): the symbolic version of this lesson, including the honest discussion of why the logician's "if" and the English "if" don't quite line up, which this lesson only touched.
+- [*forall x: Calgary*](https://forallx.openlogicproject.org/), Part II, the chapters on the connectives and on "if" in particular (free): the symbolic version of this lesson, including the honest discussion of why the logician's "if" and the English "if" don't quite line up, which this lesson only touched.
 - Wason, "Reasoning about a rule" (1968): nine pages, and the experiment is described plainly enough that you can run it on a friend tonight.
 - Ragni, Kola & Johnson-Laird, "The Wason selection task: A meta-analysis" (Proceedings of the Cognitive Science Society, 2017): where the 19% and 64% come from, and the authors' own account of what they think the task measures, which you can weigh against mine.
 - Hurley, *A Concise Introduction to Logic*, chapter 6: the standard treatment of translating "only if", "unless", "necessary", and "sufficient", with a lot of exercises.
 
 ## Sources
 
-1. Wason, P. C., "Reasoning about a rule", *Quarterly Journal of Experimental Psychology* 20(3), 273–281 (1968). The four-card task; the rule "if there is a vowel on one side of the card, then there is an even number on the other side"; cards showing a vowel, a consonant, an even number, an odd number; Wason's summary of prior results, "Nearly all subjects select P, from 60 to 75 per cent select Q, only a minority select not-Q"; Experiment 1 run on 36 first-year psychology and statistics students at University College London.
-2. Ragni, M., Kola, I. & Johnson-Laird, P. N., "The Wason selection task: A meta-analysis", *Proceedings of the Cognitive Science Society* (2017). 228 experiments (104 abstract, 44 everyday, 80 deontic). Pooled selections on abstract rules: p alone 36%, p and q 39%, p, q and not-q 5%, p and not-q 19%. On deontic rules such as "If a person is drinking beer, then the person must be over 19", p and not-q 64%.
-3. Hurley, P. J. (with Watson, L.), *A Concise Introduction to Logic*, 13th ed. (Cengage, 2018), chapter 6. The names and shapes of modus ponens, modus tollens, hypothetical syllogism, disjunctive syllogism, affirming the consequent, and denying the antecedent; translation of "only if", "unless", "necessary", and "sufficient" into conditional form.
-4. Copi, I. M., Cohen, C. & McMahon, K., *Introduction to Logic*, 14th ed. (Pearson, 2011), chapter 8. The same argument forms and fallacies in the propositional-logic setting.
-5. Magnus, P. D., Button, T., Trueman, R., Zach, R. et al., *forall x: Calgary* (Fall 2025, CC BY 4.0), chapter 2. "An argument is valid if and only if the conclusion is a consequence of the premises. An argument is invalid if and only if it is not valid, i.e., it has a counterexample." Used for the validity test applied to each form.
+1. Wason, P. C., "Reasoning", in B. M. Foss (ed.), *New Horizons in Psychology 1* (Penguin, 1966). Where the four-card selection task first appears.
+2. Wason, P. C., "Reasoning about a rule", *Quarterly Journal of Experimental Psychology* 20(3), 273-281 (1968), [doi:10.1080/14640746808400161](https://doi.org/10.1080/14640746808400161). The rule "if there is a vowel on one side of the card, then there is an even number on the other side"; cards showing a vowel, a consonant, an even number, an odd number; Wason's summary of what was already known, "Nearly all subjects select P, from 60 to 75 per cent select Q, only a minority select not-Q"; Experiment 1 run on 36 first-year psychology and statistics students at University College London.
+3. Ragni, M., Kola, I. & Johnson-Laird, P. N., "The Wason selection task: A meta-analysis", *Proceedings of the Cognitive Science Society* (2017); the fuller version is *Psychological Bulletin* 144(8), 779-796 (2018). 228 experiments (104 abstract, 44 everyday, 80 deontic). Pooled selections on abstract rules: p alone 36%, p and q 39%, p, q and not-q 5%, p and not-q 19%. On deontic rules, p and not-q 64%.
+4. Griggs, R. A. & Cox, J. R., "The elusive thematic-materials effect in Wason's selection task", *British Journal of Psychology* 73, 407-420 (1982). The drinking-age rule and its four cards, and the finding that familiar content alone does not reliably help.
+5. Hurley, P. J. (with Watson, L.), *A Concise Introduction to Logic*, 13th ed. (Cengage, 2018), chapter 6. The names and shapes of the four valid forms and the two invalid look-alikes; translation of "only if", "unless", "necessary", and "sufficient" into conditional form.
+6. Copi, I. M., Cohen, C. & McMahon, K., *Introduction to Logic*, 14th ed. (Pearson, 2011), chapters 8 and 9. The same argument forms and fallacies in the propositional-logic setting, with the forms developed as rules of inference in chapter 9.
+7. Cheng, P. W., Holyoak, K. J., Nisbett, R. E. & Oliver, L. M., "Pragmatic versus syntactic approaches to training deductive reasoning", *Cognitive Psychology* 18(3), 293-328 (1986). The permission-schema account, and the finding that an abstract permission rule lifts performance where familiarity cannot explain it.
+8. Magnus, P. D., Button, T., Thomas-Bolduc, A., Zach, R. et al., [*forall x: Calgary*](https://forallx.openlogicproject.org/) (CC BY 4.0), chapter 1 on arguments and chapter 2 on counterexamples. "An argument is valid if and only if the conclusion is a consequence of the premises. An argument is invalid if and only if it is not valid, i.e., it has a counterexample." Used for the validity test applied to each form.
