@@ -64,13 +64,13 @@ The question this lesson answers isn't whether to review (you should) but when. 
 
 Take a fixed amount of study time, say one hour on a set of material. Spend it in one block and you've got massed practice. Split it into two or more sessions with a gap between them and you've got spaced (or distributed) practice. At a delayed test, spaced wins, and it wins at the same total time.
 
-This is one of the oldest findings in experimental psychology and one of the best replicated. Cepeda, Pashler, Vul, Wixted and Rohrer (2006) reviewed 184 articles containing 317 experiments and 839 separate assessments of the effect in verbal recall tasks. Spacing reliably beat massing, and the review found something more useful than the headline: the best gap isn't a fixed number. It grows with how long you need to remember the material.[1] Dunlosky and colleagues (2013), rating ten study techniques for their monograph, put distributed practice in the top tier alongside practice testing, the only two techniques to earn a "high utility" rating.[2]
+This is one of the oldest findings in experimental psychology and one of the best replicated. Cepeda, Pashler, Vul, Wixted and Rohrer (2006) [reviewed 184 articles](https://www.yorku.ca/ncepeda/publications/CPVWR2006.pdf) containing 317 experiments and 839 separate assessments of the effect in verbal recall tasks. Spacing reliably beat massing, and the review found something more useful than the headline: the best gap isn't a fixed number. It grows with how long you need to remember the material.[1] Dunlosky and colleagues (2013), rating ten study techniques for their monograph, put distributed practice in the top tier alongside practice testing, the only two techniques to earn a "high utility" rating.[2]
 
 One distinction is worth having before we go further. "Spacing" is really two findings. The first is that any gap beats no gap. The second, sometimes called the lag effect, is that the size of the gap matters too. Most of this lesson is about the second, because that's the one you have to make a decision about.
 
 ### How big should the gap be?
 
-The gap-sizing numbers come from Cepeda, Vul, Rohrer, Wixted and Pashler (2008). They ran more than 1,350 participants through a study with two learning sessions, a gap between them of anywhere up to 3.5 months, and a final test up to a year later. Then they plotted the best gap against the test delay.[3]
+The gap-sizing numbers come from [Cepeda, Vul, Rohrer, Wixted and Pashler (2008)](https://www.yorku.ca/ncepeda/publications/CVRWP2008.pdf). They ran more than 1,350 participants through a study with two learning sessions, a gap between them of anywhere up to 3.5 months, and a final test up to a year later. Then they plotted the best gap against the test delay.[3]
 
 :::predict Before you see the numbers: for a test one week away, the best gap turned out to be one day. For a test a year away, should the best gap be a bigger or a smaller share of the horizon than that?
 Smaller. The best gap for a one-year test was about three weeks, which is 6% of the horizon, against one day out of seven, which is 14%. The best gap grows as the horizon grows, but nowhere near in proportion. The authors called the shape a "temporal ridgeline".
@@ -85,7 +85,34 @@ Here are the four horizons they tested and the gap that produced the best recall
 | 70 days | 21 days | about 30% |
 | 350 days | 21 days | about 6% |
 
-The fitted curve put the one-year optimum at 23 days, or 7% of the horizon.[3] Two things to take from the table. The best gap gets longer as the horizon lengthens, from a day to three weeks. And the share isn't constant: it's about a seventh for a week, closer to a third for a month or two, and back down to a sixteenth for a year. There is no single percentage that fits every row.
+The fitted curve put the one-year optimum at 23 days, or 7% of the horizon.[3] The same four rows as a picture:
+
+<svg viewBox="0 0 584 322" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:584px;display:block;margin:1.5em auto;font-family:system-ui,sans-serif" role="img" aria-labelledby="cep-title cep-desc">
+  <title id="cep-title">The best first gap grows with the horizon, but not in proportion</title>
+  <desc id="cep-desc">A bar chart with four bars. For a test 7 days away the best gap was 1 day, about 14 percent of the horizon. For 35 days, 11 days, about 31 percent. For 70 days, 21 days, about 30 percent. For 350 days, 21 days, about 6 percent. The bars rise steeply and then level off.</desc>
+  <text x="20" y="22" font-size="17" font-weight="700" fill="var(--text, #1a1a1a)">Best gap between the two study sessions</text>
+  <rect x="65" y="223" width="90" height="7" fill="var(--navy, #0f2a4a)"/>
+  <rect x="195" y="153" width="90" height="77" fill="var(--navy, #0f2a4a)"/>
+  <rect x="325" y="83" width="90" height="147" fill="var(--navy, #0f2a4a)"/>
+  <rect x="455" y="83" width="90" height="147" fill="var(--navy, #0f2a4a)"/>
+  <text x="110" y="213" font-size="15" font-weight="700" text-anchor="middle" fill="var(--navy, #0f2a4a)">1 day</text>
+  <text x="240" y="143" font-size="15" font-weight="700" text-anchor="middle" fill="var(--navy, #0f2a4a)">11 days</text>
+  <text x="370" y="73" font-size="15" font-weight="700" text-anchor="middle" fill="var(--navy, #0f2a4a)">21 days</text>
+  <text x="500" y="73" font-size="15" font-weight="700" text-anchor="middle" fill="var(--navy, #0f2a4a)">21 days</text>
+  <line x1="40" y1="230" x2="564" y2="230" stroke="var(--line, #d9d9d9)" stroke-width="2"/>
+  <text x="110" y="252" font-size="15" text-anchor="middle" fill="var(--text, #1a1a1a)">7 days</text>
+  <text x="240" y="252" font-size="15" text-anchor="middle" fill="var(--text, #1a1a1a)">35 days</text>
+  <text x="370" y="252" font-size="15" text-anchor="middle" fill="var(--text, #1a1a1a)">70 days</text>
+  <text x="500" y="252" font-size="15" text-anchor="middle" fill="var(--text, #1a1a1a)">350 days</text>
+  <text x="110" y="272" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">(14%)</text>
+  <text x="240" y="272" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">(31%)</text>
+  <text x="370" y="272" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">(30%)</text>
+  <text x="500" y="272" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">(6%)</text>
+  <text x="302" y="296" font-size="15" text-anchor="middle" fill="var(--text, #1a1a1a)">Time until the test, with the gap as a share of it</text>
+  <text x="20" y="318" font-size="15" fill="var(--text-2, #4a5260)">Data: Cepeda and colleagues (2008), best gap tested per horizon.</text>
+</svg>
+
+Two things to take from the table. The best gap gets longer as the horizon lengthens, from a day to three weeks. And the share isn't constant: it's about a seventh for a week, closer to a third for a month or two, and back down to a sixteenth for a year. There is no single percentage that fits every row.
 
 That's why the working rule is a rule of thumb and not a formula. Carpenter, Cepeda, Rohrer, Kang and Pashler (2012), reviewing this and related work for teachers, suggested a gap of roughly 10–20% of the time until you need the material.[4] Against the table, that rule runs a little short for the middle horizons (it would give 3 to 7 days for a 35-day test, where 11 was best). That doesn't much matter, for a reason that's the most useful single fact in the study.
 
@@ -99,7 +126,7 @@ Three honest caveats. The ridgeline study used two study sessions and one test; 
 
 ### Spacing plus retrieval
 
-The spacing effect was originally studied with restudy: read the material, wait, read it again. That works. Spaced rereading beats massed rereading, and most of the experiments in Cepeda's 2006 review were exactly that.[1] But you already know from lesson 3 that retrieval beats rereading at every gap. Put the two together and you get spaced retrieval practice, which Latimier, Peyre and Ramus (2021) examined across 29 studies. Spaced retrieval beat massed retrieval with an effect size of g = 0.74, large by the field's conventions.[5] So the ordering is: spaced retrieval, then spaced rereading, then massed anything. Every review in the schedules below starts with the book closed for that reason.
+The spacing effect was originally studied with restudy: read the material, wait, read it again. That works. Spaced rereading beats massed rereading, and most of the experiments in Cepeda's 2006 review were exactly that.[1] But you already know from lesson 3 that retrieval beats rereading at every gap. Put the two together and you get spaced retrieval practice, which Latimier, Peyre and Ramus (2021) [examined across 29 studies](https://link.springer.com/article/10.1007/s10648-020-09572-8). Spaced retrieval beat massed retrieval with an effect size of g = 0.74, large by the field's conventions.[5] So the ordering is: spaced retrieval, then spaced rereading, then massed anything. Every review in the schedules below starts with the book closed for that reason.
 
 The same review compared expanding schedules (gaps that grow) with uniform ones (gaps that stay the same) and found them about equal. We'll come back to that under misconceptions, because a lot of people believe otherwise.
 
@@ -108,6 +135,10 @@ Kang (2016) is the accessible policy summary of all this. If you want one short 
 ## The mechanism: forgetting is the price
 
 Why should a gap help? Nothing happens during the gap except forgetting, and forgetting sounds like the enemy.
+
+:::video https://www.youtube.com/watch?v=Hv6Vye1JCjo | Robert Bjork: the theory of disuse and the role of forgetting in human memory
+Seven minutes of Bjork on why forgetting is not the enemy of learning but part of its machinery, which is exactly the claim this section has to earn. Watch it after reading the section and notice that his account is the storage-and-retrieval model from lesson 1 doing the work.
+:::
 
 Here's the account that fits the most data. Recall lesson 1's distinction between storage strength (how entrenched a memory is) and retrieval strength (how accessible it is right now). Immediately after study, retrieval strength is high. Review then, and the memory is simply recognised: "yes, I know this." Recognition is easy, fluent, and does almost nothing to storage strength. It's the reread-and-nod experience that feels like learning and isn't.
 
@@ -229,10 +260,10 @@ Lesson 5 adds the third technique, interleaving, which mixes what you practise t
 
 ## Go deeper
 
-- Cepeda, Vul, Rohrer, Wixted & Pashler (2008), "Spacing Effects in Learning: A Temporal Ridgeline of Optimal Retention", *Psychological Science* 19. The source of the gap table, short enough to read in an evening; look at the ridgeline figure.
-- Carpenter, Cepeda, Rohrer, Kang & Pashler (2012), "Using Spacing to Enhance Diverse Forms of Learning", *Educational Psychology Review* 24. Where the 10–20% rule comes from, with the evidence for spacing beyond word lists.
-- Kang (2016), "Spaced Repetition Promotes Efficient and Effective Learning", *Policy Insights from the Behavioral and Brain Sciences* 3. The plain-language summary to hand to a teacher, trainer or study group.
-- Carpenter, Pan & Butler (2022), "The science of effective learning with spacing and retrieval practice", *Nature Reviews Psychology* 1. The current review of both techniques together, with the open questions the field is still working on.
+- Cepeda, Vul, Rohrer, Wixted & Pashler (2008), ["Spacing Effects in Learning: A Temporal Ridgeline of Optimal Retention"](https://www.yorku.ca/ncepeda/publications/CVRWP2008.pdf), *Psychological Science* 19. The source of the gap table, free from Cepeda's own site and short enough to read in an evening; look at the ridgeline figure.
+- Carpenter, Cepeda, Rohrer, Kang & Pashler (2012), ["Using Spacing to Enhance Diverse Forms of Learning"](https://doi.org/10.1007/s10648-012-9205-z), *Educational Psychology Review* 24. Where the 10–20% rule comes from, with the evidence for spacing beyond word lists.
+- Kang (2016), ["Spaced Repetition Promotes Efficient and Effective Learning"](https://doi.org/10.1177/2372732215624708), *Policy Insights from the Behavioral and Brain Sciences* 3. The plain-language summary to hand to a teacher, trainer or study group.
+- Carpenter, Pan & Butler (2022), ["The science of effective learning with spacing and retrieval practice"](https://doi.org/10.1038/s44159-022-00089-1), *Nature Reviews Psychology* 1. The current review of both techniques together, with the open questions the field is still working on.
 - Brown, Roediger & McDaniel, *Make It Stick* (2014), chapter 3, "Mix Up Your Practice". The narrative account of spacing and interleaving, with cases from surgery training and sport.
 
 ## Sources

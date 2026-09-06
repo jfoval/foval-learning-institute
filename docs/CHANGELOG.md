@@ -8,6 +8,17 @@ Everything from the founding onwards is here. Entries before 2026-09-06 came fro
 
 ## 2026-09-06 (podcast pipeline session)
 
+**How to Learn Anything lesson 4: media pass (fourth of eight)**
+
+- A bar chart of the ridgeline study's four horizons: best gap 1/11/21/21 days for tests
+  7/35/70/350 days out, with each gap's share of the horizon under the axis, drawn from the
+  lesson's own verified table.
+- Bjork's gocognitive clip on the theory of disuse and the role of forgetting (7 minutes),
+  embedded at the top of the mechanism section it argues for.
+- Verified links: both Cepeda papers as free PDFs from Cepeda's own York site (2006 review
+  and 2008 ridgeline), Latimier 2021 at Springer, and DOIs for the Carpenter 2012, Kang
+  2016, and Carpenter 2022 Go deeper entries.
+
 **How to Learn Anything lesson 3: media pass (third of eight)**
 
 - A stacked-bar chart of Karpicke and Blunt (2011) experiment 2, Table 1: the same 120

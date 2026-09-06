@@ -41,7 +41,9 @@ parallel sessions is the ceiling. A platform session must not touch `courses/` o
    long-term memory, links to Miller 1956 full text, Cowan 2001, Willingham's AFT article,
    and the open-access Sweller 2019). **Lesson 3 done** (result-versus-prediction stacked
    bars from Karpicke & Blunt's Table 1, Bjork's "Power of Testing" clip, seven verified
-   links). Lessons 4 to 8 remain.
+   links). **Lesson 4 done** (best-gap-by-horizon bar chart from Cepeda 2008, Bjork's
+   theory-of-disuse clip, links incl. both Cepeda PDFs from the author's site). Lessons
+   5 to 8 remain.
    (c) Podcast each lesson as it settles.
 3. **The four placeholder courses** (Python, Algebra, Personal Finance, Writing Clearly), which
    are live and have never been through the pipeline. For each, in this order: run Stage 1
