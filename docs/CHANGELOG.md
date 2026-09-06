@@ -8,6 +8,24 @@ Everything from the founding onwards is here. Entries before 2026-09-06 came fro
 
 ## 2026-09-06
 
+**Homepage redesign (approved by John, live)**
+
+- The hero keeps Oxford navy but the library video shows through more, closed by a gold rule.
+  Motion throughout, all gated on prefers-reduced-motion: staggered hero entrance, scroll-reveal
+  on sections and cards, count-up stats, sliding nav underlines.
+- The "more than words" strip became eight numbered feature cards: dimmed screenshots that come
+  forward on hover with a sliding description; a two-column grid on phones. Card 08 is a
+  typographic teaser for the podcast (no mockups of unbuilt features).
+- Three credited Pexels photographs as full-bleed bands with navy scrims and gold rules; a
+  centred closing CTA band. Credit files sit beside each image in `site/assets/media/`.
+- Copy cut roughly in half across the hero, panels, and the ask. Gold and oxblood now do
+  structural work: section-rule tabs, panel dashes, card subject lines, hero stats.
+- Link previews (iMessage etc.) had been grabbing a quiz screenshot; `index.html` now carries
+  Open Graph and Twitter tags pointing at a branded card, regenerated with `npm run card`
+  (`scripts/social-card.mjs`).
+- Housekeeping: the stranded `claude/foval-platform-work-zllo4u` branch (homepage screenshots,
+  accounts worker) was merged into `main`; FLI shirt ideas noted in the backlog for the swag store.
+
 **Curriculum map**
 
 - Added 12 courses. Four were requested by name: Graphic Design Fundamentals (M. Wesley),

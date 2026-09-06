@@ -162,7 +162,11 @@ A third way in, alongside the Foval Core and free choice. Spec:
 - **Verifiable certificates** need Phase 2 (accounts) so a certificate ID can be looked up at `/verify/<id>`; until then the share page is self-attested and says so.
 - **Accreditation:** documented in `docs/PLATFORM_ROADMAP.md` Phase 3. Realistic path: Open Badges 3.0 issuance, LinkedIn "Add to profile" fields, employer or institution partnerships, and rigorous public assessments. Formal accreditation as a degree-granting institution is a multi-year regulatory process; revisit when there are learners and a track record. Research options for a certificate mark that is honest ("Foval Learning Institute Certificate of Completion, not accredited credit").
 
-## 6. Podcast for every lesson (researched three times on 2026-09-06, awaiting John)
+## 6. Podcast for every lesson (APPROVED to build, 2026-09-06 — this is the next feature)
+
+**John approved starting this at the end of the homepage session on 2026-09-06.** The homepage
+already advertises it as feature card 08 ("in the works now"). Pick up at "After that" below:
+build `scripts/podcast.mjs` and the player, using the route the memo recommends.
 
 Full memo: **`docs/PODCAST_OPTIONS.md`**, which now evaluates all four routes by name. John pushed
 back twice that the research was not deep enough and he was right both times: the second pass named
@@ -245,7 +249,20 @@ Needs from John: a fal.ai account (and optionally Google AI Studio and ElevenLab
 comparison), an R2 bucket on the existing Cloudflare account, approval to spend, and two host names.
 Nothing has been spent and no accounts created.
 
-## 7. Homepage: what makes the institute unique (shipped 2026-09-06)
+## 7. Homepage: what makes the institute unique (shipped 2026-09-06; redesigned and John-approved later that day)
+
+**Redesign addendum (2026-09-06, commits `54f069a` and `5453101`, approved by John):** the section
+below still exists but reshaped. The strip is now eight numbered feature cards (`showcase()` in
+`app.js`): screenshots rest dimmed and come forward on hover with a sliding description; a
+two-column grid on phones (John rejected the swipe carousel twice, do not bring it back); card 08
+is a typographic podcast teaser, so the "named in the ask block, not a panel" sentence below is
+outdated. Panel shots sit on gold-topped mats (offset outline frames failed, do not bring those
+back either). Three credited Pexels photo bands (`study-*.jpg` + `-CREDIT.txt` in
+`site/assets/media/`), scroll-reveal motion in `app.js` `reveal()`, hero kept Oxford navy per John,
+copy cut hard (his standing rule: one or two short sentences per panel). Link previews now use
+`site/assets/media/social-card.png` via og:/twitter: meta in `index.html`; regenerate with
+`npm run card` after brand changes. The transcript/My-learning capture predates the gold
+section-rule tabs; consider `npm run shots` next time captures are touched.
 
 Live below the hero as `whySection()` in `site/assets/app.js`, styled under "Home: what makes this
 different" in `styles.css`. Three panels, then John's one ask, laid out as alternating rows so each
