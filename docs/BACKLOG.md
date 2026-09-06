@@ -320,24 +320,39 @@ genre lesson" survives any reordering; "lesson 3" does not.
 - **Donate:** a `#/support` page and a footer link. Copy from John: "We're constantly using tons of tokens to expand our offerings and make updates. We'd appreciate anything you can do to pitch in if it becomes something you find valuable over time. Cheers!" Options: GitHub Sponsors (fits the open repo), Ko-fi or Buy Me a Coffee (simplest), Stripe Payment Link (lowest fees). John must create the account; then it's one link.
 - **FLI ideas** (subtle, not the main thing): "FLI" reads as "fly": a light touch such as "Fly high with us" on the support page or the store, and donors as members of "the FLI Club" with a small mark on their achievements page and early access to new courses. Alternative expansions to consider for a tagline or a store line: "Faith, Learning, Ideas"; "Faith. Learning. Integrity."; "Free Learning Institute". Keep it to one or two places; the institute's name stays the main thing.
 
-**Funding, settled 2026-09-06.** John raised that he may want some advertising later, to keep the
-main site free as it grows. The old copy promised "no ads" flatly in five places, including
-`VALUES.md` value 1, so it was a promise that would have had to be broken. It has been narrowed
-rather than dropped, on his call, to the part that is actually worth something to a learner and that
-we can hold forever:
+**Funding, settled 2026-09-06 over two passes.** John raised that he may want some advertising later
+to keep the main site free as it grows. The old copy promised "no ads" flatly in five places,
+including `VALUES.md` value 1, so it was a promise that would have had to be broken publicly.
 
-- Nothing about you is tracked, profiled, or sold.
-- Nothing you read is used to decide what you get shown.
+First pass narrowed it to a data promise plus an editorial one. John then cut the data half too:
+"take off the tracking promise too. No need to over promise." So **the only forward-looking promise
+left about funding is the editorial one**:
+
 - **No lesson, assessment, or review card ever carries an advertisement, sponsor slot, affiliate
-  link, or paid placement.** This is now Editorial Standards 4.5, not just marketing copy: a sponsor
-  beside a fact-checked claim changes how the claim reads, and the reader cannot tell which sentences
-  were bought.
-- Sponsorship, if it ever happens, is a plain labelled notice on a page that teaches nothing, chosen
-  without knowing anything about the reader.
+  link, or paid placement.** This is Editorial Standards 4.5, not marketing copy: a sponsor beside a
+  fact-checked claim changes how the claim reads, and the reader cannot tell which sentences were
+  bought. It also closes the affiliate-link door, which is how this usually erodes.
+- Sponsorship, if it ever happens, goes on pages that teach nothing, and is labelled.
 
-Changed together in `VALUES.md`, `EDITORIAL_STANDARDS.md` 4.5, `PLATFORM_ROADMAP.md`, the About page,
-the footer and the README, so no two places contradict each other. **Nothing about ads has been
-built, and no decision has been made to run any.** This only settles what the institute is allowed to
+**Deliberately no longer promised anywhere:** that nothing about a learner is tracked, profiled or
+sold, and that nothing they read decides what they get shown. Those were removed on purpose, not by
+oversight. Do not put them back without asking John.
+
+**What stayed, and why it is different.** Present-tense statements of fact about how the thing works
+today are not promises and were kept: "your progress is saved in this browser and never sent
+anywhere" in the footer, and on the account pages, that we hold an email address and progress and
+nothing else. Removing accurate disclosure would be worse than making no promise, not safer. The rule
+going forward: **describe what actually happens, do not promise what will never happen.**
+
+**Open, and it becomes real the day any advertising or analytics is added:** there is no privacy
+policy anywhere in the repo or on the site. Nothing needs one today (the only thing leaving the
+browser is anonymous lesson feedback, and the feedback Worker deliberately stores no IP or user
+agent). An ad network or an analytics script would change that, and most ad networks set cookies
+whether or not you asked them to. Worth deciding deliberately rather than discovering.
+
+Changed together across `VALUES.md`, `EDITORIAL_STANDARDS.md` 4.5, `PLATFORM_ROADMAP.md`, the About
+page, the footer and the README, so no two places contradict each other. **Nothing about ads has been
+built and no decision has been made to run any.** This settles only what the institute is allowed to
 do if John chooses to.
 
 ## 8b. Accounts backend: NOT blocked. Corrected 2026-09-06.

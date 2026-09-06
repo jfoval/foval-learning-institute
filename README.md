@@ -2,7 +2,7 @@
 
 **Faith. Knowledge. Life. Free for everyone.**
 
-A free, open, general-education online institute. The goal is simple to state and hard to do: make a person broadly educated, in the classical sense (history, philosophy, mathematics, science, literature) *and* in the practical sense almost no university bothers with (money, sales, health, self-reliance, using AI). Free for everyone, no account needed to learn, and nothing about you tracked, profiled, or sold.
+A free, open, general-education online institute. The goal is simple to state and hard to do: make a person broadly educated, in the classical sense (history, philosophy, mathematics, science, literature) *and* in the practical sense almost no university bothers with (money, sales, health, self-reliance, using AI). Free for everyone, and no account needed to learn.
 
 **Live site:** https://jfoval.github.io/foval-learning-institute/ (deployed from `site/` by GitHub Pages on every push to main).
 

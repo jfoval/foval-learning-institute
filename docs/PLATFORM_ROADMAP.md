@@ -5,7 +5,7 @@ How Foval Learning Institute gets from a static prototype to a full learning pla
 ## Principles
 
 1. **Content is the product; the platform serves it.** Content lives in git as Markdown, forever. Every platform decision must keep that true.
-2. **Free means free.** No paywalls, no tracking, no data selling, and no advertising inside a lesson. Infrastructure must cost near zero at small scale and scale cheaply; static hosting plus a free-tier backend does this. If sponsorship ever covers the bill, it goes on pages that are not lessons, chosen without knowing anything about the reader, and labelled. See VALUES.md value 1 for the full line.
+2. **Free means free.** No paywalls, and no advertising inside a lesson. Infrastructure must cost near zero at small scale and scale cheaply; static hosting plus a free-tier backend does this. If sponsorship ever covers the bill, it goes on pages that teach nothing, and it is labelled. See VALUES.md value 1.
 3. **Any device, first.** Phone-first responsive design, installable as a web app, lessons readable offline. Native apps only if a web app cannot do something we need.
 4. **No lock-in.** Learner data is exportable. Accounts are optional for reading; required only for sync and social features.
 5. **Ship in phases.** Each phase is usable on its own.

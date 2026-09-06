@@ -708,7 +708,7 @@
         <p class="lede">Faith. Knowledge. Life. Free for everyone. Good teaching should not be rationed by price, and a real education should cover the great questions, the practical skills of living well, and the faith that gives both their meaning. Foval Learning Institute is free, open, and built to make you well-read, hard to fool, and useful.</p>
         <h2>The values</h2>
         <ol>
-          <li><strong>Free, for everyone.</strong> No tuition, no paywalls, no account needed to learn. Nothing about you is tracked, profiled, or sold, and no lesson carries an advertisement.</li>
+          <li><strong>Free, for everyone.</strong> No tuition, no paywalls, no account needed to learn, and no lesson carries an advertisement.</li>
           <li><strong>Truth, and honesty about it.</strong> What is known, how it is known, and what is not settled. Every claim sourced and fact-checked.</li>
           <li><strong>Faith, taught honestly.</strong> The School of Christian Studies teaches from within the Christian faith and says so on every course. The rest of the institute teaches on neutral ground and never mocks belief or unbelief.</li>
           <li><strong>Depth over polish.</strong> Written from the standard references, with worked examples and the mistakes experts know beginners make.</li>
@@ -730,7 +730,7 @@
         </ol>
         <h2>Privacy</h2>
         <p>${API
-          ? `No account is needed to read anything here, and there never will be. Your progress is stored in your own browser. If you <a href="#/signin">sign in</a>, it also syncs to our database so it follows you between devices, and then we hold your email address and that progress, nothing else: no password, no tracking, no advertising, and none of it sold or shared. You can delete the account and every row of it from the account page, or move your progress by hand from <a href="#/my-learning">your page</a>.`
+          ? `No account is needed to read anything here, and there never will be. Your progress is stored in your own browser. If you <a href="#/signin">sign in</a>, it also syncs to our database so it follows you between devices, and then we hold your email address and that progress, and nothing else. There is no password to leak, because there is no password. You can delete the account and every row of it from the account page, or move your progress by hand from <a href="#/my-learning">your page</a>.`
           : `No account is needed. Your progress is stored in your own browser and never sent anywhere. Export it from <a href="#/my-learning">your page</a> to move devices.`}</p>
         <h2>Tell us when it's wrong</h2>
         <p>Every lesson has a feedback form at the bottom and a "Report a problem" link. Both are read. What makes a lesson clearer, deeper, or more accurate gets built in, and what would make it shallower or slanted is set aside with a reason. That is the only thing the institute asks of you.</p>
@@ -806,7 +806,7 @@
         </form>
         <p class="signin-note" id="signinNote" aria-live="polite"></p>
         <h2>What we keep</h2>
-        <p>Your email address, so you can sign back in, and the progress you can already see on <a href="#/my-learning">your page</a>. Nothing else. No password to leak, no tracking, no advertising, and no sending any of it anywhere. You can delete the whole account, and everything in it, from this page once you are signed in.</p>
+        <p>Your email address, so you can sign back in, and the progress you can already see on <a href="#/my-learning">your page</a>. Nothing else, and no password, because signing in uses a code or your Google account instead. You can delete the whole account, and everything in it, from this page once you are signed in.</p>
       </div>
     `, "Sign in");
 
@@ -923,7 +923,7 @@
     if (nav) nav.insertAdjacentHTML("beforeend", `<a href="#/signin" id="accountLink">${signedIn() ? "Account" : "Sign in"}</a>`);
     // The footer's promise has to stay true now that progress can leave the browser.
     const privacy = document.getElementById("privacyLine");
-    if (privacy) privacy.textContent = "No paywalls, no tracking, and no account needed to learn. Without an account your progress stays in this browser; with one it syncs so it follows you between devices.";
+    if (privacy) privacy.textContent = "No paywalls, and no account needed to learn. Without an account your progress stays in this browser; with one it syncs so it follows you between devices.";
     // Pull anything the other device did, but not on every page load.
     if (signedIn() && Date.now() - ((account() || {}).syncedAt || 0) > 300000) syncNow().catch(() => {});
     // keepalive so the flush survives the page going away.
