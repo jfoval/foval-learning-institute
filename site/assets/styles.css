@@ -56,6 +56,7 @@ body {
   color: var(--text);
   background: var(--bg);
   -webkit-font-smoothing: antialiased;
+  overflow-x: clip;
 }
 h1, h2, h3, h4 { font-family: var(--serif); font-weight: 400; line-height: 1.15; margin: 0 0 .5em; letter-spacing: 0; }
 h1 { font-size: clamp(2.1rem, 5vw, 3.4rem); }
@@ -95,7 +96,7 @@ th { font-weight: 600; border-bottom: 2px solid var(--line-strong); }
 .site-nav a { color: var(--text-2); text-decoration: none; font-size: .95rem; font-weight: 500; letter-spacing: 0; text-transform: none; padding-bottom: 2px; border-bottom: 2px solid transparent; white-space: nowrap; }
 .site-nav a.active, .site-nav a:hover { color: var(--text); border-bottom-color: var(--oxblood); }
 
-.page { max-width: 1100px; margin: 0 auto; padding: clamp(1.5rem, 4vw, 3rem) clamp(1rem, 4vw, 2rem); min-height: 60vh; overflow-x: hidden; }
+.page { max-width: 1280px; margin: 0 auto; padding: clamp(1.5rem, 4vw, 3rem) clamp(1rem, 4vw, 2rem); min-height: 60vh; }
 .site-footer { border-top: 1px solid var(--line); padding: 2rem clamp(1rem, 4vw, 3rem); font-size: .9rem; color: var(--text-2); }
 .site-footer p { margin: 0 0 .25rem; }
 .footer-nav { display: flex; flex-wrap: wrap; gap: 3rem; margin-bottom: 2rem; }
@@ -327,11 +328,11 @@ a.path-item:hover { background: var(--surface-2); color: var(--text); }
 .lesson-content svg { max-width: 100%; height: auto; }
 
 /* Full-bleed hero with optional video */
-.hero-wrap { position: relative; margin: calc(-1 * clamp(1.5rem, 4vw, 3rem)) calc(-1 * clamp(1rem, 4vw, 2rem)) 0; background: var(--navy); color: #fff; overflow: hidden; }
+.hero-wrap { position: relative; width: 100vw; margin: calc(-1 * clamp(1.5rem, 4vw, 3rem)) calc(50% - 50vw) 0; background: var(--navy); color: #fff; overflow: hidden; }
 .hero-media { position: absolute; inset: 0; }
 .hero-media video, .hero-media img { width: 100%; height: 100%; object-fit: cover; display: block; opacity: .55; }
 .hero-media::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(15,42,74,.55) 0%, rgba(15,42,74,.75) 60%, rgba(15,42,74,.95) 100%); }
-.hero-inner { position: relative; max-width: 1100px; margin: 0 auto; padding: clamp(3rem, 8vw, 6rem) clamp(1rem, 4vw, 2rem) clamp(2.5rem, 6vw, 4rem); display: grid; grid-template-columns: 1.25fr 1fr; gap: 3rem; align-items: end; }
+.hero-inner { position: relative; max-width: 1280px; margin: 0 auto; padding: clamp(3rem, 8vw, 6rem) clamp(1rem, 4vw, 2rem) clamp(2.5rem, 6vw, 4rem); display: grid; grid-template-columns: 1.25fr 1fr; gap: 3rem; align-items: end; }
 .hero-inner h1 { color: #fff; font-size: clamp(2.3rem, 5.5vw, 3.8rem); margin-bottom: .75rem; }
 .hero-inner .eyebrow { color: var(--gold); font-size: clamp(1.25rem, 2.4vw, 1.6rem); font-weight: 400; margin-bottom: .9rem; }
 .hero-inner .lede { color: rgba(255,255,255,.85); font-size: 1.15rem; max-width: 36rem; }
@@ -346,7 +347,7 @@ a.path-item:hover { background: var(--surface-2); color: var(--text); }
 .hero-card-dark .stat span { color: rgba(255,255,255,.7); }
 .hero-card-dark .stat-row { border-top-color: rgba(255,255,255,.25); }
 @media (prefers-reduced-motion: reduce) { .hero-media video { display: none; } }
-@media (max-width: 860px) { .hero-inner { grid-template-columns: 1fr; gap: 1.5rem; } .hero-wrap { margin-left: calc(-1 * clamp(1rem, 4vw, 2rem)); margin-right: calc(-1 * clamp(1rem, 4vw, 2rem)); } }
+@media (max-width: 860px) { .hero-inner { grid-template-columns: 1fr; gap: 1.5rem; } }
 
 /* Schools grid */
 .schools { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: .75rem 1.25rem; }
