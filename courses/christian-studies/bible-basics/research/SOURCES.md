@@ -237,13 +237,13 @@ Verified while drafting lesson 7 (letters and Revelation); each was fetched and 
 
 ## Added at draft time (lesson 5)
 
-- **Fee & Stuart 2014, chs. 10, 11, and 12, read in full from the PDF at draft time.** Ch. 10, "The Prophets as Poets": the three forms of parallelism defined (synonymous, Isaiah 44:22; antithetical, Hosea 7:14; synthetic, Obadiah 21), with a recommendation of Longman, *How to Read the Psalms* (IVP 1988), chs. 6 and 7. Ch. 11, "The Psalms: Israel's Prayers and Ours": "words spoken to God... too, are God's Word"; "a unique problem of hermeneutics"; Psalm 19:1-2 as synonymous parallelism ("not trying to say four different things"; the plain-prose paraphrase "totally colorless"); poetry's vocabulary "purposefully metaphorical"; Psalm 51:5 as hyperbole; seven types with psalm numbers: laments "more than sixty" (individual e.g. 3, 22, 31, 39, 42, 57, 71, 88, 120, 139, 142; corporate 12, 44, 80, 94, 137), thanksgiving (six community: 65, 67, 75, 107, 124, 136; ten individual: 18, 30, 32, 34, 40, 66, 92, 116, 118, 138), hymns of praise (8, 19, 104, 148; 66, 100, 111, 114, 149; 33, 103, 113, 117, 145-147), salvation-history (78, 105, 106, 135, 136), celebration and affirmation (covenant renewal 50, 81; Davidic covenant 89, 132; nine royal: 2, 18, 20, 21, 45, 72, 101, 110, 144; enthronement 24, 29, 47, 93, 95-99; Songs of Zion 46, 48, 76, 84, 87, 122), eight wisdom psalms (36, 37, 49, 73, 112, 127, 128, 133), ten songs of trust (11, 16, 23, 27, 62, 63, 91, 121, 125, 131); the six elements of a lament (address, complaint, trust, deliverance, assurance, praise) "in one way or another in virtually all of them", worked on Psalm 3, and "our discovery, not a rigid form"; thanksgiving elements (introduction, distress, appeal, deliverance, testimony) worked on Psalm 138; the imprecatory psalms section: Psalm 137 as a lament for the exile, "hyperbolic language of the same extreme sort found in the covenant curses themselves", "calls for judgment according to the covenant curses", "it is God who is the actual hearer of these angry words", "guide or channel our anger to and through God verbally rather than to or at anyone else", and "do not contradict Jesus' teaching to love our enemies"; the closing answer, "precisely in the ways they functioned for Israel in the first place". Ch. 12, "Wisdom: Then and Now": *mashal* "figures of speech", "parables", "specially contrived sayings"; "The briefer a statement is, the less likely it is to be totally precise and universally applicable"; "Look before you leap"; four guidelines, the first "Proverbs Are Not Legal Guarantees from God" ("likely to follow"; "nowhere does Proverbs teach automatic success"; Ecclesiastes and Job "remind us that there is very little that is automatic"); Proverbs 16:3 "the sort of proverb that is most often misinterpreted", "not a categorical, always applicable, ironclad promise, but a more general truth"; Job 15:20 as Eliphaz, vindicated against in 42:7-9; "Do not engage in the kind of wisdom Job's friends did"; Job's prose prologue (chs. 1-2) and epilogue (42:7-17); the double verdict (on fairness "Job had prevailed; it is not"); Ecclesiastes' prologue 1:1-11 and epilogue 12:8-14 in the third person, the Teacher (*qohelet*) in the first; *hebel* thirty-seven times in the book of seventy-three in the OT; Longman ("cynical wisdom" as foil) and Provan (positive) as "close friends" with opposite readings, and Fee and Stuart themselves split one each way; 12:13-14 as the final perspective. Note: Fee & Stuart do not discuss Proverbs 22:6; the lesson uses their general rule and their 16:3 example for it.
+- **Fee & Stuart 2014, chs. 10, 11, and 12, read in full from the PDF at draft time.** Ch. 10 is titled "The Prophets: Enforcing the Covenant in Israel" (as line 11 records and lesson 4 uses); **"The Prophets as Poets" is a section inside it**, which resolves the conflict between the two entries noted at lesson 4's Stage 4. That section: the three forms of parallelism defined (synonymous, Isaiah 44:22; antithetical, Hosea 7:14; synthetic, Obadiah 21), with a recommendation of Longman, *How to Read the Psalms* (IVP 1988), chs. 6 and 7. Ch. 11, "The Psalms: Israel's Prayers and Ours": "words spoken to God... too, are God's Word"; "a unique problem of hermeneutics"; Psalm 19:1-2 as synonymous parallelism ("not trying to say four different things"; the plain-prose paraphrase "totally colorless"); poetry's vocabulary "purposefully metaphorical"; Psalm 51:5 as hyperbole; seven types with psalm numbers: laments "more than sixty" (individual e.g. 3, 22, 31, 39, 42, 57, 71, 88, 120, 139, 142; corporate 12, 44, 80, 94, 137), thanksgiving (six community: 65, 67, 75, 107, 124, 136; ten individual: 18, 30, 32, 34, 40, 66, 92, 116, 118, 138), hymns of praise (8, 19, 104, 148; 66, 100, 111, 114, 149; 33, 103, 113, 117, 145-147), salvation-history (78, 105, 106, 135, 136), celebration and affirmation (covenant renewal 50, 81; Davidic covenant 89, 132; nine royal: 2, 18, 20, 21, 45, 72, 101, 110, 144; enthronement 24, 29, 47, 93, 95-99; Songs of Zion 46, 48, 76, 84, 87, 122), eight wisdom psalms (36, 37, 49, 73, 112, 127, 128, 133), ten songs of trust (11, 16, 23, 27, 62, 63, 91, 121, 125, 131); the six elements of a lament (address, complaint, trust, deliverance, assurance, praise) "in one way or another in virtually all of them", worked on Psalm 3, and "our discovery, not a rigid form"; thanksgiving elements (introduction, distress, appeal, deliverance, testimony) worked on Psalm 138; the imprecatory psalms section: Psalm 137 as a lament for the exile, "hyperbolic language of the same extreme sort found in the covenant curses themselves", "calls for judgment according to the covenant curses", "it is God who is the actual hearer of these angry words", "guide or channel our anger to and through God verbally rather than to or at anyone else", and "do not contradict Jesus' teaching to love our enemies"; the closing answer, "precisely in the ways they functioned for Israel in the first place". Ch. 12, "Wisdom: Then and Now": *mashal* "figures of speech", "parables", "specially contrived sayings"; "The briefer a statement is, the less likely it is to be totally precise and universally applicable"; "Look before you leap"; four guidelines, the first "Proverbs Are Not Legal Guarantees from God" ("likely to follow"; "nowhere does Proverbs teach automatic success"; Ecclesiastes and Job "remind us that there is very little that is automatic"); Proverbs 16:3 "the sort of proverb that is most often misinterpreted", "not a categorical, always applicable, ironclad promise, but a more general truth"; Job 15:20 as Eliphaz, vindicated against in 42:7-9; "Do not engage in the kind of wisdom Job's friends did"; Job's prose prologue (chs. 1-2) and epilogue (42:7-17); the double verdict (on fairness "Job had prevailed; it is not"); Ecclesiastes' prologue 1:1-11 and epilogue 12:8-14 in the third person, the Teacher (*qohelet*) in the first; *hebel* thirty-seven times in the book of seventy-three in the OT; Longman ("cynical wisdom" as foil) and Provan (positive) as "close friends" with opposite readings, and Fee and Stuart themselves split one each way; 12:13-14 as the final perspective. Note: Fee & Stuart do not discuss Proverbs 22:6; the lesson uses their general rule and their 16:3 example for it.
 - **Lowth, R., *De Sacra Poesi Hebraeorum Praelectiones Academicae* (Oxford, 1753); Gregory's English translation *Lectures on the Sacred Poetry of the Hebrews* (1787).** Lecture 19: parallelism in three forms, synonymous, antithetic, synthetic. Verified against the Wikipedia articles "Robert Lowth" and "Biblical poetry" at draft time (Wikipedia used as a starting point for a date and a title that are not in dispute).
 - **Kugel, J. L., *The Idea of Biblical Poetry: Parallelism and Its History* (Yale University Press, 1981), 339 pp.** The second line "seconds" the first; "A, and what's more, B". Publication details verified against the AJS Review notice and Patrick Miller's 1982 *Theology Today* review; the formula from standard summaries of the book. The book itself was not opened; quote only the formula.
 - **Gunkel, H. (1862-1932), with Begrich, J., *Einleitung in die Psalmen* (1933).** Origin of the form-critical psalm types. Dates and title verified against the Wikipedia article on Gunkel; the specific Gattungen not taken from it.
 - **Hayes, RLST 145, lecture 21 "Biblical Poetry: Psalms and Song of Songs" (transcript read at draft time).** Form criticism from Gunkel and Mowinckel; "the very serious form critics will give you upwards of 13, 14, 15 or more different forms for the psalms"; Psalm 137 "clearly from the perspective of the exile". Lecture 20 is "Responses to Suffering and Evil: Lamentations and Wisdom Literature" (lecture list verified at oyc.yale.edu). Hayes does not discuss parallelism in lecture 21.
 - **Ecclesiastes in Jewish liturgy**: read "on Shemini Atzeret (by Yemenites, Italians, some Sephardim, and the mediaeval French Jewish rite) or on the Shabbat of the intermediate days of Sukkot (by Ashkenazim)" (Wikipedia, "Ecclesiastes"; reference-work claim about current practice, flagged for the fact-check).
-- **ESV text** of every verse quoted in lesson 5 was fetched from BibleGateway at draft time: Proverbs 26:4-5; Psalm 19:1-4; Psalm 13; Psalm 42:5 and 11; Proverbs 22:6; Job 42:7; Proverbs 3:9-10; Ecclesiastes 1:2; Psalm 137:1-9; Romans 12:19; Psalm 22:1 and 22-24; Psalm 1:1-3. Lesson 5 quotes 22 verses.
+- **CORRECTED at lesson 5's Stage 4, 2026-09-06.** The entry below recorded the draft-time fetch as **ESV from BibleGateway**, and the standing instruction to re-fetch in the NET was carried out for the lesson's body and **not for its quiz**, where six ESV wordings survived to Stage 4. Every quotation in the lesson is now NET 2nd edition, verified against the mirrors recorded above, except where JPS 1917 is required by 4.7. **The running verse count that followed this entry has been deleted; 4.7 abolished it.** The original entry, kept so the error is traceable: ESV text of every verse quoted in lesson 5 was fetched from BibleGateway at draft time: Proverbs 26:4-5; Psalm 19:1-4; Psalm 13; Psalm 42:5 and 11; Proverbs 22:6; Job 42:7; Proverbs 3:9-10; Ecclesiastes 1:2; Psalm 137:1-9; Romans 12:19; Psalm 22:1 and 22-24; Psalm 1:1-3. (Verse count deleted at Stage 4; 4.7 keeps no running count.)
 - **Media verified at draft time**: BibleProject, "The Art of Biblical Poetry" (youtube.com/watch?v=q9yp1ZXbsEg; channel confirmed as BibleProject via YouTube oEmbed; note that watch?v=OYLM63r3OPw is a re-upload by another channel and must not be used); BibleProject, "Metaphor in Biblical Poetry" (watch?v=L9W5afjndtU; channel confirmed); BibleProject, "The Book of Proverbs" (watch?v=Gab04dPs_uA; channel confirmed; the site's own Proverbs video is Mux-hosted, so the YouTube upload is the one to embed). Wikimedia Commons "Psalms Scroll.jpg": 11Q5, photographed by the Israel Antiquities Authority, June 1993, Library of Congress Dead Sea Scrolls exhibition, public domain (CC Public Domain Mark 1.0), 983 x 463 px, direct URL upload.wikimedia.org/wikipedia/commons/6/67/Psalms_Scroll.jpg.
 - **Not obtained**: Athanasius, *Letter to Marcellinus* (the "mirror" passage on the Psalms; CCEL and athanasius.com URLs failed); the NET Bible note on Proverbs 22:6 (netbible.org returned 403). Neither is cited in the lesson.
 
@@ -460,3 +460,94 @@ each caught at least one real error.
   strongest available support for a *sensus plenior* reading precisely because it is not partisan,
   and any lesson arguing a far horizon should reach for it. His *Handbook on the New Testament Use
   of the Old Testament* (Baker, 2012) is where it is worked out; not opened, no page reference.
+
+## Added at lesson 5's Stage 4, 2026-09-06 (verified there, for later lessons to use)
+
+- **The build destroys poetry line breaks, course-wide.** `scripts/build.mjs` sets `marked` with
+  `breaks: false` and `site/assets/styles.css` sets no `white-space` on `blockquote`, so two quoted
+  poetic lines render as one paragraph with the newline collapsed to a space. Verified by running
+  marked with the project's own options. **Every psalm, proverb and oracle quoted anywhere in this
+  course currently reaches the learner as run-on prose.** The lesson-local fix, tested and applied in
+  lesson 5, is **two trailing spaces at the end of each poetic line**, which makes marked emit
+  `<br>`; leave the attribution line at the end of a blockquote without them. Counts of quoted
+  poetic lines still needing this: lesson 6 has 23, lesson 4 has 11 (fixed at its Stage 4 where
+  quoted as verse), lessons 2, 9 and 10 have about 5 each. A proper `:::verse` block belongs in the
+  shared files and is requested in `REVIEWS.md`.
+- **NET renderings that a lesson's prose must not contradict.** Deuteronomy 32:35 reads "**I will get
+  revenge and pay them back** at the time their foot slips"; the familiar "Vengeance is mine, I will
+  repay" is **Paul's wording at Romans 12:19**, and lesson 5 had attributed it to Deuteronomy and
+  called it "a command given to Israel". Proverbs 10:1 reads "**child**", not "son"; 10:4 "The one
+  who is lazy becomes poor"; 15:1 "A **gentle response** turns away anger"; 16:3 "your plans will be
+  **established**" (Fee and Stuart quote this verse in the NIV, "your plans will succeed", and a
+  lesson citing them must say so). Psalm 30:6 "I will never be shaken"; 30:11 "Then you turned my
+  **lament** into dancing", and the psalm ends at **30:12**, not 30:11. Psalm 88:1 "O Lord God who
+  delivers me", not "the God of my salvation". Ecclesiastes 9:5 "the dead do not know anything; they
+  have no further reward" (the NET continues with an em dash, so **stop the quotation there**).
+  Isaiah 55:12 "will give a joyful shout before you". Matthew 2:15 "I called my Son out of Egypt".
+  The sword-and-tongue image is at Psalm 57:4 and 55:21, **not** at 59:7.
+- **NET verses containing em dashes, which may only be quoted in fragments**: Psalm 6:3, Ecclesiastes
+  9:5, Colossians 2:16, Micah 5:2. Check any verse before block-quoting it; the linter will catch an
+  em dash but only after it is in the file.
+- **JPS 1917 verified and quotable**: Psalm 19:8, "The law of the LORD is perfect, restoring the
+  soul; the testimony of the LORD is sure, making wise the simple"; Ecclesiastes 1:2, "Vanity of
+  vanities, saith Koheleth; vanity of vanities, all is vanity"; Isaiah 7:14 (recorded at lesson 4).
+  **Hebrew versification**: JPS counts a psalm's superscription as verse 1, so JPS Psalm 19:8 is
+  English 19:7 and JPS Psalm 13:2 to 3 is English 13:1 to 2. Any lesson telling a reader to look up
+  a psalm verse should say so once.
+- **Psalm numbering differs by tradition.** Greek and Latin psalters (so Orthodox Bibles and older
+  Catholic ones) run one lower than the Hebrew from about Psalm 10 to 147: Hebrew 51 is Greek 50,
+  Hebrew 137 is 136. The Greek Psalter also has **Psalm 151**, which 11Q5 carries in Hebrew. Lesson 1
+  already teaches the Psalm 9/10 case. **A lesson that sends a reader to a psalm number owes them
+  this sentence.**
+- **Psalm 42 and 43 are one psalm**, on the majority view: the refrain stands identically at 42:5,
+  42:11 **and 43:5**, and Psalm 43 has no superscription. Verified in the NET. Lesson 5 originally
+  sent the reader to Psalm 42 alone and called the turn "twice".
+- **The Psalter's living liturgical use**, for the range that lessons 2 to 5 were each faulted for
+  narrowing. Jewish: Ashrei (Psalm 145) three times daily, Hallel (113 to 118) at festivals, a psalm
+  for each weekday, Psalm 30 at the morning service, psalms in a house of mourning. Catholic: the
+  Rule of St Benedict prays the whole Psalter weekly; the Liturgy of the Hours spreads it over four
+  weeks. Orthodox: twenty kathismata, the whole Psalter weekly and twice weekly in Lent.
+- **The Liturgy of the Hours (1971) omits Psalms 58, 83 and 109 and the imprecatory verses of others,
+  including Psalm 137:7 to 9**, on pastoral grounds about public vernacular prayer. **C. S. Lewis,
+  *Reflections on the Psalms*, calls the spirit of the cursing psalms "devilish" while holding them
+  to be Scripture.** Any lesson listing "skip the violent psalms" as a beginner's misconception is
+  grading the Psalter's largest living Christian use as an error, and must say what that practice is
+  and why. This is the same class as the figural-reading note above, which has now had to be made
+  three times.
+- **Deuterocanonical wisdom.** Catholic and Orthodox Bibles carry **Sirach** and the **Wisdom of
+  Solomon** as wisdom books. Sirach is the closest ancient relative Proverbs has, and **Wisdom of
+  Solomon 3:1** ("the souls of the righteous are in the hand of God") is the answer another canon
+  gives to the problem Ecclesiastes 9:5 poses. A lesson saying "three wisdom books" without saying
+  "in a Protestant Bible" repeats L1-N5 and L3-N6.
+- **The Ecclesiastes frame is argued, not settled.** That the book has a prologue and epilogue in the
+  third person is not disputed. Whether the frame *governs* the Teacher (Longman) or *presents him
+  approvingly* (Provan, Michael Fox) is the live question, and Fee and Stuart are themselves split
+  one each way. A lesson may say which it holds; it may not put "the epilogue has the last word" in a
+  quiz key as the graded-correct reading. Also: Ecclesiastes 1:1 and 1:12 give a Solomonic voice,
+  which most scholars read as a persona, partly on the Persian loanwords in its Hebrew.
+- ***b. Bava Batra* 15a** records the rabbis debating whether Job existed or is a *mashal*, a parable.
+  ***m. Yadayim* 3:5** records the dispute over whether Ecclesiastes "defiles the hands" and the
+  ruling that it does. Both are the honest correction to any sentence saying a book "is there on
+  purpose" as though that were never argued, and this course already cites Bava Batra 14b and
+  m. Yadayim 3:5 in lesson 1.
+- **Elihu (Job 32 to 37) is the failure case for the who-is-speaking rule.** God's verdict at 42:7
+  names "Eliphaz the Temanite and your two friends" and says nothing about Elihu, so the rule returns
+  no verdict on a sixth of the book. Free, inside the text, and it answers L1-D2's standing complaint
+  that rules taught without a failure case are memorised rather than usable.
+- **Alphabetic acrostics are the counter-example to any claim that Hebrew poetry survives
+  translation intact**: Psalms 25, 34, 37, 111, 112, 119, 145 and Lamentations, plus the broken
+  acrostic across Psalms 9 and 10 that lesson 1 already works and that `SOURCES.md` line 170 records
+  as verified. Psalm 119 is twenty-two eight-verse stanzas, one per letter.
+- **Fee and Stuart's five thanksgiving elements** (introduction, distress recalled, appeal
+  reiterated, deliverance described, testimony), worked by them on **Psalm 138**, are the tool that
+  makes psalm classification teachable; recorded at Stage 1 and unused until lesson 5's fix pass.
+  Their three parallelism examples, **Isaiah 44:22 (synonymous), Hosea 7:14 (antithetic) and
+  Obadiah 21 (synthetic)**, are likewise recorded and were unused; all three are now quoted in
+  lesson 5 and verified in the NET.
+- **Psalm 6 is a clean fresh case for classification practice**: an individual lament with address,
+  complaint, petition and an assurance turn at verse 8, and it is in none of the psalm-number lists
+  Fee and Stuart print, so a quiz item built on it cannot be answered by looking up a list.
+- **Corrected at source**: the corporate-lament list above omitted **Psalm 94**; Fee and Stuart's
+  chapter 10 is "The Prophets: Enforcing the Covenant in Israel" with "The Prophets as Poets" as a
+  section inside it; Psalm 88 has **18 verses in total**; Psalm 137 has nine, of which **verse 7 is
+  already an imprecation**, so "six verses of grief and then the last two" miscounts it.
