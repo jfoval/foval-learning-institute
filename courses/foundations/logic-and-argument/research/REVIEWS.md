@@ -1013,8 +1013,8 @@ is renumbered here.
 
 Every outbound request from this session was refused by the egress proxy, so nothing could be
 reopened or verified. This list is cumulative across the whole course, items 1 to 6 from lessons 2
-and 3, 7 to 10 from lesson 5, 11 to 14 from lesson 4, 15 to 18 from lesson 6 and 19 to 21 from lesson
-7, and it can be cleared in one pass by a session that can reach the web:
+and 3, 7 to 10 from lesson 5, 11 to 14 from lesson 4, 15 to 18 from lesson 6, 19 to 21 from lesson 7
+and 22 to 24 from lesson 8, and it can be cleared in one pass by a session that can reach the web:
 
 1. **A free full-text URL for Wason 1968 and for Ragni, Kola & Johnson-Laird 2017**, added to
    `SOURCES.md` and linked at first mention and in Go deeper in lesson 3.
@@ -1093,13 +1093,34 @@ and 3, 7 to 10 from lesson 5, 11 to 14 from lesson 4, 15 to 18 from lesson 6 and
    135 has been asking for since the lesson 6 pass and which lesson 7 quotes in full. The wording is
    corroborated by a published verbatim excerpt; only the locator is unconfirmed, and lesson 7 now
    says so in its Sources entry rather than printing a page number as though it had been read.
+22. **Confirm the sign of Robinson's ecological correlation against the IJE reprint.** `SOURCES.md`
+   line 190 records ".619" with no minus sign, read from the reprint PDF. Lesson 8 explained the gap
+   between .619 and the individual .118 by saying the foreign-born lived in the divisions with the
+   least illiteracy, which reads as a negative correlation and is recorded nowhere. Either the lesson
+   took its explanation from a popular retelling, which line 190 warns about by name, or this file
+   dropped a minus sign at transcription. **This matters beyond one sentence: lesson 8's body, its
+   practice set and one quiz explanation all now rest on these figures.** The fix pass cut the
+   explanation rather than replacing it, because the reviewer's proposed replacement asserted a
+   positive correlation, which is equally unrecorded and would be worse if the sign is wrong.
+23. **Confirm the two addresses recorded retrospectively for lesson 8**: SEP "Fallacies" at
+   `plato.stanford.edu/entries/fallacies/` and IEP "Fallacies" at `iep.utm.edu/fallacy/`. `SOURCES.md`
+   lines 194 and 195 record both entries as re-read for lesson 8 with verbatim quotations, so the
+   pages were opened and the addresses were simply not written down. They are kept and linked, which
+   departs from the lesson 7 decision on Groarke and Van Cleave 1.10, and the reason is recorded in
+   the lesson 8 SOURCES block. Also wanted: free addresses for the 1998 Wakefield paper and the 2010
+   retraction, both of which lesson 8 reached by inventing a DOI and now reaches by identifier alone.
+24. **Record a "read from" note for Walton.** `SOURCES.md` line 45 holds the expert-opinion scheme,
+   its six critical questions and the ad hominem thesis, and is the only draft-time entry in the file
+   with no provenance of any kind. Two lessons now lean on it. Until it is graded, lesson 8's Sources
+   entry says the books have not been read.
 
 ### Requests for the shared files
 
 These belong to files another session owns (`docs/`, `curriculum/`, `site/`, `scripts/`), so they are
 recorded here rather than made.
 
-1. **`docs/BACKLOG.md` section 7b, "Confirmed seams so far".** Add four: *Logic and Argument lesson
+1. **`docs/BACKLOG.md` section 7b, "Confirmed seams so far".** Add four (lesson 8 was considered and
+   refused; see its entry below): *Logic and Argument lesson
    3, after the car example and before the four cards*; *Logic and Argument lesson 5, between the
    analogy family and the causal family*; *Logic and Argument lesson 6, between the safety callout
    and the Sally Clark section*; and *Logic and Argument lesson 7, between the boiler reconstruction
@@ -1107,9 +1128,9 @@ recorded here rather than made.
    **not** split, on two reviewers' advice each. So the Logic course stands at four confirmed seams
    and will be fourteen lessons after the pre-publish renumbering, unless lessons 8 to 10 add more.
 2. **`docs/BACKLOG.md` section 1.** The Logic entry needs updating as lessons land; as of this pass,
-   lessons 1 to 7 are reviewed and fixed (lesson 1 still owes the targeted re-source pass for its
-   Hurley and Copi citations), lessons 8 to 10 are not, and the assessments folder does not yet
-   exist.
+   lessons 1 to 8 are reviewed and fixed (lesson 1 still owes the targeted re-source pass for its
+   Hurley and Copi citations, and for four argument-display rules that are off the 72-character house
+   width), lessons 9 and 10 are not, and the assessments folder does not yet exist.
 3. **`research/OUTLINE.md` line 74 has impossible arithmetic** for lesson 5's practice set: "two
    generalisations, two analogies, two causal claims, one IBE, one conductive" is already eight, and
    the same sentence asks for "three of them" to be deductive look-alikes. The lesson now ships nine
@@ -2540,3 +2561,355 @@ first use. Contractions raised throughout.
    confirmed a mistake against itself. Callouts have now been added at the marked seams in lessons 6
    and 7.
 6. **The lesson is not split.** BACKLOG 7b: mark the seam, do not renumber as you go. Marked.
+
+---
+
+## Lesson 8, "Fallacies" — Stage 4 round 1, 2026-09-06
+
+Five fresh-context reviewers, launched in one message. Consolidated with IDs and applied in the same
+pass. Network egress refused throughout; the fact-check ran against `SOURCES.md`.
+
+**Verdict: the best-sourced examples in the course and the worst-sourced authorities.** The neutrality
+auditor's headline is worth quoting, because five of the seven previous lessons were blocked on
+neutrality and this one was not: fifteen documented cases, every one named, dated, citable and present
+in `SOURCES.md`; **zero political examples, zero invented political examples, zero single-sided real
+ones.** The outline's stricter rule for this lesson demanded real sourced instances and budgeted
+drafting time to find them, and the drafter went and found court opinions, advertising rulings, a
+retraction, a commission report and a 1950 paper rather than inventing specimens. The auditor's
+controlling test was whether a left-leaning and a right-leaning reader could tell from the text which
+one the author is; neither can.
+
+Against that, two things the repository had been warning about in writing for two lessons were still
+in the file, and one of them puts invented words in a real institution's mouth about the case that
+sent Sally Clark to prison.
+
+### BLOCKING
+
+**L8-B1. The RSS quotation carries a clause the record does not hold, exactly where `SOURCES.md` said
+it would.** All three reviewers who checked quotations found it. Line 280 of `SOURCES.md`, written at
+lesson 6's fix pass, records the clause "an assumption that would need to be justified empirically" as
+appearing nowhere in `research/`, says it was cut from lesson 6, and says in terms: "**Lesson 8 still
+carries it and must be fixed in its own pass.**" It did. The lesson's own Sources entry did not list
+the clause either, so the body ran past what its own citation claimed.
+
+**L8-B2. A second RSS over-extension in the same paragraph, not previously caught.** `SOURCES.md` line
+182 records eight words with a trailing ellipsis: "a medical expert witness drew on published studies
+...". The lesson stitched that fragment onto the separately recorded "went on to square this figure"
+sentence, printed the join as one continuous quotation, and supplied the intervening clause about
+"families having some of the characteristics of the defendant's family", which is in `research/`
+nowhere. The ellipsis at line 182 is precisely the marker that should have stopped it.
+
+**L8-B3. Hurley is cited as the authority for the lesson's entire organising structure. Sixth lesson
+running, and the outline was still feeding it forward.** All five reviewers found it. Line 202 forbids
+it by name. Worse than L2-B1 through L5-B1 in one respect: here the unread book supplies the five
+families the reader carries away, and the citation is offered as the reason to use them. Better in
+another: the content is on the record at line 9, so nothing was asserted the file does not hold. **The
+cause was ours again.** `OUTLINE.md` line 106 said "the list, taught by Hurley's five groups" and line
+112 listed "Hurley ch. 3" as a source, which is L7-B2's mechanism unfixed for this lesson.
+
+**L8-B4. The Cengage marketing claim that `SOURCES.md` says never to reintroduce is back in a
+paraphrase.** "The textbook you'd be handed today in a US logic class" is the claim struck from lesson
+2 at lines 267 to 269, narrowed to the US, with no source, and used as the justification for the
+taxonomy.
+
+**L8-B5. The Robinson passage explains a gap with a mechanism the record does not hold, and the
+explanation contradicts the number printed two sentences above it.** The lesson gave the ecological
+correlation as 0.619 and then said the foreign-born "were concentrated in the divisions where
+illiteracy was lowest", which reads as a negative correlation. `SOURCES.md` line 190 warns by name
+that popular retellings of this paper use a different sign convention. **See the resolution below:
+this one could not be settled without the paper, and the fix is the conservative one.**
+
+**L8-B6. The twelve-passage practice set is twelve cases the body has already adjudicated, and the
+answer key models the label-slinging the lesson spends ten thousand words arguing against.** Depth and
+pedagogy found both halves independently. Every one of the twelve had already been named and given a
+verdict in the body, so the set exercised recall of verdicts rather than the running of questions;
+meanwhile every one of the twelve model answers was *name, verdict, one clause* ("Appeal to authority;
+cogent. A statistical society on a statistical question; passes all six"), which is the finished form
+of the work the learner learns from the key rather than from the instruction. The lesson taught the
+right thing and then practised the wrong one. The quiz, by contrast, was genuinely fresh, so the
+lesson had the pattern exactly backwards: application in the quiz, recognition in the practice.
+
+**L8-B7. Twenty-nine arguments and not one fenced display, in the lesson that promises a two-line
+schema for every fallacy and asks the learner to write cards containing one.** Voice found this alone.
+Objective 1 promises it, the second exercise instructs it, and the opening of the list announces it,
+and then all twenty-one schemas are run-on sentences sharing a bullet with their twin. The reader is
+asked to produce an object the lesson never displays. The build linter cannot see it: its pattern
+fires only where `C:` sits under a numbered premise, and there was no `C:` in the file.
+
+**L8-B8. Five constructed addresses, two of them containing DOIs that appear nowhere in the
+repository.** The SEP and IEP entries were guessed from a pattern; the two *Lancet* DOIs were invented
+outright, where line 188 records a PMID only and line 189 records a Wayback reading and says the
+Lancet site blocks direct fetches. A guessed address is a guess; an invented identifier is a fact
+stated as read.
+
+**L8-B9. The one figure fails on the dark theme and on a phone, and two of its five faults are ones
+the linter cannot report.** `npm run validate` flagged two hardcoded light text fills, four hardcoded
+dark shape fills and eleven labels under font-size 15; voice added two the linter misses, the white
+prong rectangles and the gold conclusion box, whose single sentence, "Either way, the name is not the
+verdict", resolved to pale-on-pale at about 1.4:1. The lesson's whole payload disappeared for
+dark-theme readers.
+
+### Fact-check
+
+**L8-F1.** Three more quotations run past the record: the Aristotle phrase "absolutely or not
+absolutely but with some qualification", which is this file's own gloss and not a quoted string; "it
+was noted that" inside the Feynman 51-C quotation; and a definition of "safety factor" attributed to
+Feynman that appears nowhere. **L8-F2.** The Lander schema is introduced as quoted "word for word" and
+is not: the record has "p is unproved. Therefore not-p is true." **L8-F3.** Two pragma-dialectical
+rules given in wordings the record does not hold; line 83 holds two rule *names* and no wording for
+any of the ten. **L8-F4.** Abrami's moderators upgraded from "associated with larger effects" to
+"mattering most", dropping mentoring, which the record holds and the lesson's own Sources entry kept;
+repeat of L4-N7, and the upgrade favours this course's own method. **L8-F5.** Nine unrecorded glosses
+on documented cases: two university affiliations, "a trade body", "the main prosecution witness", the
+whole content of the *Davis* defence theory, "seven votes to two", the car-insurance subject matter of
+*Wolf*, "some traffic" for the recorded "p2p traffic", and a duration for the video. **L8-F6.** About
+twenty first names the record does not hold, the rule set at L4-F8 and now in its seventh lesson.
+**L8-F7.** Locke's date of 1690 and the gloss "to modesty", neither recorded. **L8-F8.** "Most of them
+had", about the Colgate dentists, which is load-bearing because it is what makes question 3 fail.
+**L8-F9.** Bibliographic detail invented for Finocchiaro and Massey: both article titles, both first
+names and an issue number, none of them in `research/`.
+
+### Neutrality
+
+Perspectives audited: fallacy-theory sceptics in the Hamblin line, Finocchiaro, Massey, Boudry,
+Paglieri and Pigliucci; Walton-school theorist; pragma-dialectician; informal logician; a textbook
+author defending the standard treatment; historian of logic; US trial and appellate judge, prosecutor,
+defence counsel, an expert witness in the Clark witness's position, a juvenile prosecution witness with
+a record and his family; statistician, epidemiologist, paediatrician, a parent of an autistic child, a
+vaccine-hesitant parent, a parent who lost an infant to SIDS, Sally Clark's family; nutrition
+researchers on both sides of the fat-and-sugar question; NASA engineers and managers of 1986; a
+sociologist and a historian of the 1930 census; advertisers and an advertising regulator; a dentist; a
+market-liberal reader and a consumer-advocacy reader; immigrant readers and readers holding
+restrictionist and expansionist views; non-UK readers; a religious reader; a learner already fluent in
+internet fallacy-naming.
+
+**L8-N1.** "The internet has spent twenty years not listening" is a sneer at a population in the
+author's voice, with an invented duration, in the opening, where it sets the reader's posture towards
+everyone outside the lesson. Third occurrence of this family after L6-V8 and L7-V4. It also settles
+contested question 1 by consensus 180 lines before the lesson says the question is open, which is
+L4-N9. **L8-N2.** "A slippery slope that was strong, which is rarer than you'd think" decides, in one
+clause, the frequency question the lesson's own "what would settle it" paragraph says nobody has
+answered. **L8-N3.** Motive imputed to a named juvenile witness: the body attributes the defence theory
+correctly and the predict answer then drops the attribution and asserts it. **L8-N4.** The three
+schools that answer the sceptics share one paragraph, none quoted, none with a diagram, and
+pragma-dialectics is described as a list of ten rules, which is the one thing its authors built it to
+replace. Fourth occurrence after L4-N1, L6-B7 and L7-B8, and the mildest so far, because the sceptics
+are treated superbly. **L8-N5.** The false-dichotomy specimen is an invented public-finance argument,
+the sixth item of a class struck five times. **L8-N6.** Five British and US-specific references
+unglossed, including US constitutional law stated as though universal. **L8-N7.** Twenty unsourced
+frequency claims and superlatives. **L8-N8.** "They showed, from the documents" ratifies a finding in
+the author's voice where the lesson attributes properly everywhere else. **L8-N9.** The twenty shuttle
+flights read as a fact about the programme; the record says the count is not in the appendix.
+**L8-N10.** The exercise header claims all twelve items are documented; two are not. **L8-N11.** No
+commercial actor anywhere in the lesson reasons well, and both advertising cases are upheld
+complaints, which is partly an artefact of drawing examples from adjudications, a sampling point this
+course teaches in lesson 9 and could name here.
+
+### Pedagogy and voice
+
+**L8-P1.** The conflict-of-interest gap asks its question and prints the answer two lines below it, the
+seventh occurrence of the defect fixed at resolution 29, L2-B4, L3-B3, L4-B4, L5-B4, L6-B4 and L7-B6.
+**L8-P2.** Five of the six quiz keys are the "don't convict, check further" option while every
+distractor overreaches, so a learner who has absorbed nothing but the lesson's slogan scores five of
+six by heuristic; the heuristic rewarded is the lesson's slogan rather than its method. **L8-P3.** Two
+quiz items are the body's own worked cases re-dressed, one of them pre-answered by a body sentence and
+keyed to a near-verbatim lift. **L8-P4.** Practice item 12 is keyed against the reading the body gives
+the same Feynman sentence: a strong slippery slope in the body, a weak appeal to ignorance in the key,
+with no acknowledgement, so a learner who read carefully is marked wrong. **L8-P5.** A 1,363-word run
+with nothing to do, the longest in the course, covering the opening and the entire list; a second of
+1,079 covering the whole critique, which is objective 4. **L8-P6.** No free-recall block, the only
+lesson from 2 onwards without one. **L8-P7.** The six-step check is invoked three times and never
+printed, retrieved or run, so the lesson quietly substitutes Walton's questions for the method the
+outline named. **L8-P8.** All three prescribed spaced reviews told, not retrieved. **L8-P9.** The list
+promises schema, real case and twin for each and delivers a case for none of the twenty-two entries
+and no twin for six. **L8-P10.** `minutes: 55` against measured costings of 100, 120 and 124.
+**L8-V1.** Contraction rate one every 93, the worst in the course by a wide margin, and diagnostic
+rather than random: the three worked examples built from court opinions and quoted documents run at
+one every 190, while the fourth, where the lesson argues in its own voice, runs at one every 38.
+**L8-V2.** Twenty-seven paragraphs close on a one-line moral, eight of them consecutive. **L8-V3.**
+"Cogent" is used twenty-two times as the lesson's load-bearing word and never cashed, in the one course
+where it already means two different things. **L8-V4.** Pipeline vocabulary in eight learner-facing
+sites, the highest count in the course, including "Do it now" for the seventh and eighth time.
+
+### Split verdict: REFUSED, and the reviewers split on it
+
+Depth said the 1.3 test passes, named the seam between the end of the list and "Now the honest part",
+and conceded two costs no previous confirmed seam has had: **Part B has no opening**, which would be
+the first in the course, and **the quiz does not divide**, five items to Part A and one to Part B.
+Pedagogy said do not split, and its reasons decide it. The lesson's opening promises Part B and
+nothing else ("The name tells you the shape. It doesn't tell you the verdict"), so Part A would open
+on a promise it never delivers; and the mechanism section, in the middle of Part A, already states
+Part B's conclusion, so a split would ship one lesson asserting the central claim and a second arguing
+for a claim the reader had already been given. That is the lesson 2 verdict exactly, and lesson 2 was
+refused for it. Depth's own count makes Part B 1,654 teaching words with no worked example of its own,
+which it conceded is a lecture with a quiz question rather than a lesson.
+
+**Resolution: refused, treated as lesson 2 was.** A `:::callout A good place to stop` at the place both
+reviewers identified, no `<!-- SPLIT SEAM -->` comment, since 7b reserves that marker for confirmed
+seams. The Logic course stays at four confirmed seams. Depth's analysis is recorded here so a later
+pass can revisit if Part B ever acquires a worked example and three quiz items of its own.
+
+### What is working, and must survive
+
+**The example set, which is the point of the outline's stricter rule for this lesson and the first
+time the course has met it.** Fifteen documented, non-partisan cases with no political content of any
+kind.
+
+**Pairing every name with its cogent twin, which is itself the neutrality device.** "The twin is the
+important half. If you learn only the names, you'll spend the rest of your life convicting good
+arguments." A reader finishes this lesson less able to dismiss an opponent by label, not more, which is
+what the values document is for. No treatment of this material I know of puts the good argument next to
+the bad one in the same table.
+
+**The same shape, opposite verdicts, three times over, on the same material.** Colgate fails the
+appeal to authority and the RSS statement passes it nine lines later. *Davis* and the plumber. The drug
+licensed last month and the Danish cohort. The reader cannot dismiss it as cherry-picking, because it
+is the same case twice.
+
+**"Verdict: weak here, and it fails on question 3."** Six words replacing a Latin name with a repair
+instruction, and then the sentence that says why it matters: "You know which question it fails, which
+means you know what a fixed version of the poster would have to say."
+
+**"'It cites an authority' is not a diagnosis; it's the start of one."**
+
+**The honesty about case B**, which is lesson 6's number-hygiene discipline applied to examples and a
+step further than lesson 6 went: "This one is hypothetical, because I could not find a documented
+instance I could present fairly, and the outline for this course says not to invent one and pass it
+off."
+
+**The MMR section, which is the strongest 3.1 work in the lesson.** A settled question treated as
+settled with no manufactured balance, and the retraction and the evidence kept as two separate
+verdicts: "The retraction destroyed an argument; the cohort study settled the claim." A
+vaccine-hesitant parent is told what settles the question and is sneered at nowhere.
+
+**The critique section**, which arrives at standard 3.1 on the first pass in a lesson where the course
+has an obvious stake in the answer. Hamblin, Finocchiaro, Massey and Boudry each get their own argument
+in their own terms, Boudry gets a diagram and a Go deeper entry inviting the reader to decide against
+the course, and "This course's line, said plainly" states the choice as an answer to them rather than
+as a default. Lessons 4, 6 and 7 all had to be rebuilt to reach this.
+
+**The last misconception**, which turns the lesson on the reader and is the one thing that stops a
+fallacy lesson producing a reader who is worse than before.
+
+**And the practice key behind a button.** Seven lessons running printed their answers in the open.
+That defect is finally closed at draft time.
+
+### Resolutions applied, 2026-09-06
+
+`minutes: 55` to `110`, the middle of three costings. Sources 24 entries to 23, renumbered. Figures
+redrawn. Think-blocks 3 predicts and 5 checkpoints to 7 and 8. Practice: three items replaced, four
+leaks removed, a fourth step added, the key rewritten. Quiz: three items replaced, one stem repaired,
+answer key `1,0,3,2,1,0` to `1,3,2,2,1,0`, all four indices. Linter warnings three to zero.
+
+**L8-B1 and L8-B2.** Both RSS quotations cut back to the record. The squaring quotation now ends at
+"within families" and is followed by the recorded "very strong a priori reasons" sentence, which makes
+the same point on the record and repairs a duplication, since that sentence previously sat only inside
+a predict answer where a reader who guessed right never saw it. The opening quotation is now two
+separate recorded fragments with the connective in the lesson's own words. **The warning `SOURCES.md`
+has carried since the lesson 6 pass is discharged.**
+
+**L8-B3 and L8-B4.** Hurley deleted from body and Sources; the marketing claim gone with him. The five
+families are now introduced as the arrangement most introductory courses use, attributed to nobody,
+with the merit stated ("it groups the patterns by what has gone wrong rather than by their Latin
+names") and a forward pointer to the two rival sorts the critique will give. That pointer pays off,
+because Johnson and Blair's three conditions come from a source that has been read. **`OUTLINE.md`
+lines 104, 106 and 112 corrected, with the reason recorded in the line**, as lesson 7 did to line 100.
+Recorded for the credit: **the drafter dropped Copi unprompted**, which the outline also listed, and
+that is the first time a lesson has beaten this stale-outline mechanism at draft time rather than at
+review.
+
+**L8-B5, and the one finding that could not be settled.** The fact-checker and the depth reviewer both
+called the Robinson sentence a contradiction, on the ground that 0.619 is positive and large. The
+record does print ".619" with no minus sign. But Robinson's nativity result is famous precisely because
+the sign flips, and `SOURCES.md` line 190 warns by name that popular retellings use a different sign
+convention. So either the lesson took its explanation from a retelling, or this file dropped a minus
+sign when the paper was transcribed, and neither can be settled without the paper. **The fix is the
+conservative one: the explanation is cut and nothing is put in its place.** The depth reviewer's
+proposed replacement asserted a positive correlation, which is equally unrecorded and would be worse if
+the sign is wrong. The lesson now gives the numbers, says in terms that the paper does not explain the
+gap and that it is not going to invent a story, and uses the colour-and-illiteracy pair (individual
+0.203, ecological 0.946) that this file records and that no lesson had used, which makes the section
+stronger rather than shorter. Item 22 on the network list, flagged as affecting three lessons.
+
+**L8-B6.** The practice instruction now asks for four things rather than three, and the fourth, "write
+the one change to the passage that would flip your verdict", cannot be answered from memory of the
+lesson. Three of the twelve items replaced with cases the body does not adjudicate: a *Daubert*
+four-factor item, the colour-and-illiteracy division, and a straw man the learner has themselves
+committed, which the lesson gave a courtroom instance of and never gave the reader. Four leaks removed:
+the court's own words "attacks a straw man" inside an item, "(The inference Robinson warned against)",
+"retracted" attached to the 1998 paper, and "the further step someone might take". The announcement
+"at least four of the twelve are the cogent twin" is gone, since it hands over the distribution. The set
+is reordered so no two adjacent items share a pattern. **And the key is rewritten in the form the
+lesson argues for**: pattern hypothesised, the question or test that decides it, the fact that answers
+it, verdict, and the flip. Item 7 now names the collision at L8-P4 explicitly and makes it the best
+teaching moment in the set: two patterns in one Feynman sentence, opposite verdicts, and which form you
+hold it to is a choice you are making, which is Massey in miniature.
+
+**L8-B7.** Fenced displays added where they carry the most: the Lander ad ignorantiam schema, at the
+point the lesson names it as the two-line form it will keep asking for, and Walton's expert-opinion
+scheme, which is the lesson's most important display and was a semicolon run. Both on the 72-character
+house rule. **Deliberately not fenced: the other twenty schemas in the list.** Voice's proposal was to
+fence all twenty-one, which at roughly six lines each would have added about 126 lines and destroyed
+the list's function as a scannable reference. The learner now meets the fenced form twice before being
+asked to write one, and the objective is honoured. Recorded as a judgement call rather than a
+dismissal.
+
+**L8-B8.** Both invented *Lancet* DOIs deleted; those entries now carry the identifier the file holds
+(PMID 9500320, and a note that the retraction was read from a Wayback capture) and no link. **The SEP
+and IEP addresses are kept, which departs from the lesson 7 decision on Groarke and Van Cleave 1.10.**
+The reason, which depth argued and I accept: lines 194 and 195 record both entries as "re-read for
+lesson 8" with verbatim quotations, so the pages were demonstrably opened and the address was simply
+not written down, which is a different case from a source read elsewhere or not at all. Both are
+recorded retrospectively in `SOURCES.md`, flagged as recorded from the lesson rather than from a page
+this session opened, and put on the network list as item 23. The IEP one is load-bearing, because the
+second exercise sends the learner there.
+
+**L8-B9.** The Fallacy Fork redrawn: viewBox 420 by 330, every label at font-size 15, every fill and
+stroke a theme token, the two white prong rectangles now `var(--bg)`, the gold conclusion box now
+`var(--navy-soft)` with a navy stroke and body text, and the branch labels moved clear of the
+connectors. Rendered headless at 340px **in both themes** before committing, which is a step past the
+L4-B2 rule and was worth it: the light render alone would not have shown the dark-theme failures the
+reviewers found by reading the tokens.
+
+**Fact-check.** L8-F1, F2, F3, F5, F6, F7, F8, F9 all applied. F4: Abrami restored to "associated with
+the larger effects", mentoring restored, and a clause added saying these are associations across a body
+of studies rather than a horse race the reviewers ran.
+
+**Neutrality.** N1: the sneer replaced by "People who study fallacies have been making that distinction
+since Hamblin's book in 1970, and it is the part that usually falls off in the retelling", which is
+checkable and does not pre-empt the critique. N2, N3, N6, N7, N8, N9, N10 applied. N4: pragma-dialectics
+now gets its actual claim, that arguing is a procedure for resolving a difference of opinion, with the
+two recorded rule names and its own account of why a straw man is bad; Johnson and Blair get a reason
+why three questions might beat twenty-two names. N5: the budget dichotomy is now a sports club.
+**Separately, the lesson's treatment of Boudry was corrected in the other direction from most of this
+pass.** It had enlisted him as agreeing with the course's line, against his recorded conclusion. He now
+disagrees, in the lesson's own text, and the lesson answers him: you will meet these names whether or
+not they are any good, so you need to be able to say what a name would have to show. That is a stronger
+section than the one that pretended the disagreement away.
+
+**Pedagogy and voice.** P1: the printed answer is now a predict. P2, P3: three quiz items replaced, so
+the key pattern is no longer uniform and the application count is six of six. P4: the collision named
+in the key. P5: five new think-blocks in the two long runs, including a predict deriving Hamblin's
+complaint before the reader reads it (begging the question is valid) and a checkpoint on Massey's
+asymmetry. P6: free recall added. P7: the six-step check retrieved, and a paragraph added joining Massey
+to the fallacy fallacy, which objective 4 promised and the lesson never delivered. P8: the spaced
+reviews moved into the body. P9: the six missing twins written, and the list's promise amended to what
+the section actually does, including saying out loud that six patterns get no documented case and why.
+V1, V2, V3, V4: contractions raised in the three worst sections, ten of the morals folded, "cogent"
+cashed at first use, and all eight pipeline sites renamed.
+
+### Deliberately not fixed, with reasons
+
+1. **The list's other twenty schemas are not fenced**, against voice's proposal to fence all
+   twenty-one. Six lines each would add about 126 lines and turn a scannable reference into a
+   catalogue. Two fenced displays now demonstrate the form before the learner is asked to produce it.
+2. **The lesson is not split**, against depth and with pedagogy. Reasons above; the callout goes in and
+   the seam comment does not.
+3. **The SEP and IEP links stay**, against voice and the fact-checker and with depth. Reasons above.
+   The two invented DOIs go, which is the distinction all four of us actually agree on.
+4. **Quiz Q4 keeps its abstract framing.** Depth wanted every name-matching item marked; Q4's key
+   already carries the check ("the check is to reconstruct the critics' actual claim"), and with three
+   items replaced the quiz no longer rewards the slogan heuristic.
+5. **The Robinson explanation is not replaced, only removed.** Reasons above. This is the first finding
+   in the course where the reviewers' proposed fix could not be applied because the record itself may
+   be wrong.

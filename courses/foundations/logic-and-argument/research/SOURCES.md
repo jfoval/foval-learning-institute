@@ -387,3 +387,76 @@ repeats it.
   likewise now linked. **No address is on file for Van Cleave section 1.10 or for Groarke's SEP
   entry**, so neither is linked; both are on the network-owed list in REVIEWS.md rather than
   constructed from a pattern, on the precedent set for Wason in lesson 3 and Dyer in lesson 6.
+
+## Added at fix time (lesson 8, Stage 4 resolutions, 2026-09-06)
+
+Nothing here was newly read; the network was refused throughout.
+
+- **The RSS clause this file has been warning about since the lesson 6 pass is now cut.** Lesson 8
+  carried "an assumption that would need to be justified empirically" inside the squaring quotation.
+  The recorded sentence ends at "within families." **That warning is now discharged, and the lesson
+  uses the recorded "very strong a priori reasons" sentence instead, which makes the same point on
+  the record.**
+- **A second RSS over-extension in the same paragraph, not previously caught.** Line 182 records eight
+  words with a trailing ellipsis: "a medical expert witness drew on published studies ...". Lesson 8
+  had stitched that fragment onto the separately recorded "went on to square this figure" sentence and
+  printed the join as one continuous quotation, supplying the intervening clause about "families
+  having some of the characteristics of the defendant's family", which appears nowhere in `research/`.
+  Both fragments now stand as separate quotations with the connective in the lesson's own words.
+- **Hurley is gone from lesson 8, and the outline line that put him there is corrected.** He was cited
+  for the lesson's entire five-family structure, and the sentence doing it ("the textbook you'd be
+  handed today in a US logic class") reintroduced the Cengage marketing claim that line 267 says must
+  never be reintroduced anywhere. The five family names are field-standard vocabulary needing no
+  authority, as the Latin fallacy names were found to be at L3-B1; the lesson now sorts by them and
+  attributes the sort to nobody. Sources entry 4 deleted and the remaining twenty-three renumbered.
+- **Copi was in the outline's source line for lesson 8 and the drafter dropped it.** First time a
+  lesson has beaten this stale-outline mechanism at draft time rather than at review.
+- **Robinson's ecological correlations: the lesson's explanation is cut, and the record needs
+  checking.** Lesson 8 said the foreign-born "were concentrated in the divisions where illiteracy was
+  lowest". That is recorded nowhere, and it reads as a negative ecological correlation while line 190
+  records ".619" with no minus sign. The lesson now gives the numbers and refuses to supply a
+  mechanism, and it uses the colour-and-illiteracy pair (individual .203, ecological .946) that this
+  file records and no lesson had used. **A session with network access should confirm the sign of the
+  .619 against the IJE reprint.** Line 190 itself warns that popular retellings use a different sign
+  convention, so either the lesson took its story from a retelling, or this file dropped a minus sign
+  when the paper was transcribed. Three lessons now cite these figures; if the file is wrong, they all
+  are. This is item 22 on the network list in REVIEWS.md.
+- **Walton's provenance is not recorded.** Line 45 holds the expert-opinion scheme, all six critical
+  questions and the ad hominem thesis, but it carries no "read from" note of any kind, unlike every
+  other entry added at draft time. Lesson 8's Sources entry now says in terms that neither book has
+  been read and that what is used is this file's record of the scheme plus the SEP entry's account of
+  dialogue types. **Do not treat line 45 as read from the books.** Also cut from lesson 8: "a move
+  that's fine in a negotiation may be a fallacy in an inquiry", since "negotiation" appears nowhere in
+  `research/` and the record holds only "dialogue types".
+- **The two pragma-dialectical rule wordings were the lesson's, not the school's.** Line 83 holds the
+  names of two rules, the freedom rule and the burden-of-proof rule, and no wording for any of the
+  ten. The lesson now names the two and describes the school's actual claim, that arguing is a
+  procedure for resolving a difference of opinion, which line 85 records.
+- **Also cut as recorded nowhere:** "an assumption that would need to be justified empirically" (see
+  above); the Aristotle phrase "absolutely or not absolutely but with some qualification", which is
+  this file's own gloss rather than a quoted string; "it was noted that" inside the Feynman 51-C
+  quotation; the definition of a safety factor attributed to Feynman ("to allow for uncertain excesses
+  of load..."); "Most of them had", about the Colgate dentists; the University of California and
+  Harvard affiliations and "a trade body"; "the main prosecution witness" and the entire content of
+  the Davis defence theory; "seven votes to two"; the car-insurance subject matter of *Wolf* and the
+  gloss on what an elasticity clause does; "some traffic" for the recorded "p2p traffic"; Locke's date
+  of 1690 and the gloss "to modesty"; "nobody had noticed for centuries"; the description of the SEP
+  entry's length and of Appendix F as "five pages"; and about twenty first names, per the rule at the
+  head of the lesson 6 block. Lee Archie, Bradley Dowden, Hans Hansen (without the V.), Lori Watson,
+  W. S. Robinson and Paul Henne are recorded and stand.
+- **Two invented DOIs deleted.** Lesson 8 linked the 1998 Wakefield paper and the 2010 retraction at
+  `doi.org` addresses whose identifiers appear nowhere in `research/`. Line 188 records a PMID only;
+  line 189 records a Wayback reading and says the Lancet site blocks direct fetches. Both entries now
+  carry the identifier this file holds and no link. A guessed address is a guess; an invented
+  identifier is a fact stated as read, and it is the worse of the two.
+- **The SEP and IEP addresses are kept, and this is a deliberate departure from the lesson 7
+  decision.** Lines 194 and 195 record both entries as "re-read for lesson 8", with verbatim
+  quotations, so the drafting session demonstrably opened both pages and simply failed to write the
+  address down. That is a different case from Wason, Dyer, Groarke and Van Cleave 1.10, where the
+  source was read elsewhere or not at all and the address would have been pure construction. Recorded
+  here retrospectively from the lesson-8 drafting session: SEP "Fallacies" at
+  `https://plato.stanford.edu/entries/fallacies/`, IEP "Fallacies" at `https://iep.utm.edu/fallacy/`.
+  **Both are recorded from the lesson rather than from a page this session opened, and a networked
+  session should confirm them.** The IEP one is load-bearing, because lesson 8's second exercise sends
+  the learner there. The Annals resolver address for Hviid et al. is constructed from the DOI this
+  file does record, and lesson 8's Sources entry says so.
