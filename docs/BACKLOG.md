@@ -259,17 +259,27 @@ keeping for one fact: the paused **John Project**, ref `ebkuhylfhyfretagpczf`, w
 2026-09-05, `auth.users` 0 rows, `storage.buckets` 0 rows, not referenced by any repo or deployment.
 It is safe for John to delete whenever he wants the slot back. Nothing here needs it.)
 
-**What is actually open:** Cloudflare does not provide authentication, so the one real decision is
-what to put in front of D1. Researched and written up as a decision memo in **`docs/AUTH_OPTIONS.md`**
-with four options, the tradeoffs, and a recommendation. **Put to John 2026-09-06, awaiting his answer.
-Do not start building until he picks.**
+**Decided and built, 2026-09-06.** The options and the tradeoffs are in **`docs/AUTH_OPTIONS.md`**.
+John picked: write the session layer in the Worker we already have, ship Google sign-in and six-digit
+email codes first, add email-and-password later. Passwords are the one method that needs the $5 a
+month Workers Paid plan, because hashing costs 50 to 100 ms and Workers Free allows 10 ms of CPU.
 
-The short version: write the session layer in the Worker we already have, ship Google sign-in and
-six-digit email codes first, and add email-and-password later. The reason for that order is that
-Workers Free allows 10 ms of CPU per request and password hashing costs 50 to 100 ms, so passwords
-alone are what pushes this onto the $5 a month Workers Paid plan. Every other sign-in method is free.
-The alternative worth taking seriously is Better Auth self-hosted in the Worker, which has a
-first-class D1 dialect and writes to the same schema, so choosing it later costs nothing.
+**`workers/api/` is written and tested and NOT deployed.** 28 Worker checks and 12 browser checks
+pass against a local D1. It is inert until `window.FOVAL_API` in `site/index.html` is set to the
+deployed URL; while that is empty the site behaves exactly as before, with no sign-in link and no
+network calls, which is what is on `main` now.
+
+**What is left, and it needs John, because it needs credentials and two free accounts:** the deploy
+steps are written out in `workers/api/README.md`. In short: apply `schema.sql` to the existing
+`foval-feedback` database, create a Google OAuth client and a Resend account (both free), set four
+secrets with `wrangler secret put`, `wrangler deploy`, then set `FOVAL_API`. That order matters;
+setting `FOVAL_API` first gives every visitor a broken sign-in page.
+
+**One thing to improve as soon as the site moves to Cloudflare Pages (8c):** the session token is a
+bearer token in `localStorage`, not an HttpOnly cookie, because the site and the Worker are on
+different origins today and third-party cookies are being phased out. Once they share an origin,
+switch to an HttpOnly, Secure, SameSite=Lax cookie and delete the bearer path. It is a real security
+improvement, not a tidy-up.
 
 **One design constraint that comes out of the research and holds under any option:** since
 1 September 2026 D1 free-plan queries *fail* when the daily caps are hit, and the binding cap is

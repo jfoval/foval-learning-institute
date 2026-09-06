@@ -12,7 +12,11 @@
   // Leave empty to keep feedback in this browser and offer the GitHub issue route. See docs/FEEDBACK_LOOP.md.
   const FEEDBACK_ENDPOINT = window.FOVAL_FEEDBACK_ENDPOINT || "";
   const FEEDBACK_HEADERS = window.FOVAL_FEEDBACK_HEADERS || { "Content-Type": "application/json" };
-  const K = { progress: "foval.progress.v1", review: "foval.review.v1", activity: "foval.activity.v1", prefs: "foval.prefs.v1" };
+  // Accounts backend (workers/api). Empty until the Worker is deployed and this is set in
+  // index.html; while it is empty the site behaves exactly as it did before, with progress
+  // in this browser only and no network calls. See docs/AUTH_OPTIONS.md.
+  const API = window.FOVAL_API || "";
+  const K = { progress: "foval.progress.v1", review: "foval.review.v1", activity: "foval.activity.v1", prefs: "foval.prefs.v1", auth: "foval.auth.v1" };
   const main = document.getElementById("main");
   const DAY = 86400000;
 
@@ -29,12 +33,78 @@
   }
   const prefs = () => load(K.prefs, { hoursPerWeek: 5 });
 
+  /* ---------- account and sync ----------
+     The browser stays the source of truth. Signing in never replaces local progress; it
+     merges with the server (a lesson stays done, the higher score wins, a review item
+     keeps the further-ahead schedule) and the merged result comes back. Writes are
+     batched on a timer because D1's free plan counts row writes, not requests. */
+  const account = () => load(K.auth, null);
+  function setAccount(a) {
+    if (a) save(K.auth, a);
+    else { try { localStorage.removeItem(K.auth); } catch { /* private mode */ } }
+    const link = document.getElementById("accountLink");
+    if (link) link.textContent = a && a.token ? "Account" : "Sign in";
+  }
+  const signedIn = () => Boolean(API && account() && account().token);
+
+  async function apiCall(path, { method = "GET", body, token, keepalive } = {}) {
+    const headers = {};
+    if (body) headers["Content-Type"] = "application/json";
+    const t = token || (account() || {}).token;
+    if (t) headers.Authorization = `Bearer ${t}`;
+    const r = await fetch(API + path, { method, headers, body: body ? JSON.stringify(body) : undefined, keepalive });
+    const data = await r.json().catch(() => ({}));
+    if (r.status === 401 && t) { setAccount(null); throw new Error("Your session expired. Sign in again."); }
+    if (!r.ok) throw new Error(data.error || `Request failed (${r.status})`);
+    return data;
+  }
+
+  const localState = () => ({
+    progress: load(K.progress, {}), review: load(K.review, {}), activity: load(K.activity, {}),
+    prefs: prefs(), name: (() => { try { return localStorage.getItem("foval.name") || ""; } catch { return ""; } })(),
+  });
+
+  // Merged progress carries done, score and at. Anything else the browser keeps on a
+  // lesson, feedback above all, is local and must survive the write-back.
+  function applyState(state) {
+    const local = load(K.progress, {}), next = {};
+    for (const [cid, lessons] of Object.entries(state.progress || {})) {
+      next[cid] = {};
+      for (const [lid, v] of Object.entries(lessons)) next[cid][lid] = Object.assign({}, (local[cid] || {})[lid], v);
+    }
+    for (const [cid, lessons] of Object.entries(local)) {
+      next[cid] = Object.assign({}, lessons, next[cid] || {});
+    }
+    save(K.progress, next);
+    save(K.review, state.review || {});
+    save(K.activity, state.activity || {});
+    if (state.prefs) save(K.prefs, state.prefs);
+    if (state.name) { try { localStorage.setItem("foval.name", state.name); } catch { /* private mode */ } }
+  }
+
+  let syncTimer = null, syncing = false;
+  async function syncNow(keepalive) {
+    if (!signedIn() || syncing) return null;
+    syncing = true;
+    try {
+      const r = await apiCall("/state", { method: "PUT", body: localState(), keepalive });
+      applyState(r.state);
+      setAccount(Object.assign({}, account(), { syncedAt: Date.now() }));
+      return r.state;
+    } finally { syncing = false; }
+  }
+  function scheduleSync() {
+    if (!signedIn()) return;
+    clearTimeout(syncTimer);
+    syncTimer = setTimeout(() => syncNow().catch(() => { /* the browser still has it */ }), 15000);
+  }
+
   /* progress */
   const lessonState = (cid, lid) => (load(K.progress, {})[cid] || {})[lid] || null;
   function markLesson(cid, lid, data) {
     const p = load(K.progress, {}); p[cid] = p[cid] || {};
     p[cid][lid] = Object.assign({}, p[cid][lid], data, { at: Date.now() });
-    save(K.progress, p); logActivity();
+    save(K.progress, p); logActivity(); scheduleSync();
   }
   const courseItems = c => [...c.lessons, ...(c.assessments || [])];
   function courseProgress(c) {
@@ -64,7 +134,7 @@
       it.reps = 0; it.lapses += 1; it.interval = 1; it.ease = Math.max(1.3, it.ease - 0.2);
     }
     it.last = correct; it.due = Date.now() + it.interval * DAY;
-    save(K.review, bank); logActivity();
+    save(K.review, bank); logActivity(); scheduleSync();
   }
   function resolveKey(key) {
     const [cid, lid, qi] = key.split("/");
@@ -295,7 +365,7 @@
       ${next ? `<div class="path-next"><div><h3>Next up: ${esc(next.title)}</h3><p>${esc(next.summary)}</p></div><a class="btn btn-primary" href="#/course/${next.id}">${courseStarted(next) ? "Continue" : "Start"}</a></div>` : `<div class="path-next"><div><h3>You've finished every live course on the path.</h3><p>More are being written. Keep your knowledge fresh in <a href="#/review">Review</a>.</p></div></div>`}
       ${terms}
     `, "Path");
-    main.querySelector("#hpw").addEventListener("change", e => { save(K.prefs, { ...prefs(), hoursPerWeek: Number(e.target.value) }); route(); });
+    main.querySelector("#hpw").addEventListener("change", e => { save(K.prefs, { ...prefs(), hoursPerWeek: Number(e.target.value) }); scheduleSync(); route(); });
   }
 
   function viewCourse(id) {
@@ -545,7 +615,7 @@
       ${finished.length ? `<section class="section"><h2>Completed</h2><ul class="lesson-list">${finished.map(c => `<li><a href="#/certificate/${c.id}"><span class="lesson-num">✓</span><span>${esc(c.title)}</span><span class="lesson-time">certificate</span></a></li>`).join("")}</ul></section>` : ""}
       <section class="section">
         <h3>Your data</h3>
-        <p class="muted">Everything is stored in this browser only. Export it to move to another device, or clear it. Accounts with sync are on the roadmap.</p>
+        <p class="muted">${API ? `Everything is stored in this browser. ${signedIn() ? `It also syncs to <a href="#/signin">your account</a>, so it follows you between devices.` : `<a href="#/signin">Sign in</a> and it follows you between devices. You can also move it by hand.`}` : "Everything is stored in this browser only. Export it to move to another device, or clear it. Accounts with sync are on the roadmap."}</p>
         <div class="btn-row">
           <button class="btn btn-secondary" id="exportBtn">Copy my data</button>
           <button class="btn btn-secondary" id="importBtn">Paste my data</button>
@@ -622,7 +692,9 @@
           <li><strong>Prove it.</strong> Your transcript tallies everything. Finish a course and print a certificate.</li>
         </ol>
         <h2>Privacy</h2>
-        <p>No account is needed. Your progress is stored in your own browser and never sent anywhere. Export it from <a href="#/my-learning">your page</a> to move devices.</p>
+        <p>${API
+          ? `No account is needed to read anything here, and there never will be. Your progress is stored in your own browser. If you <a href="#/signin">sign in</a>, it also syncs to our database so it follows you between devices, and then we hold your email address and that progress, nothing else: no password, no tracking, no advertising, and none of it sold or shared. You can delete the account and every row of it from the account page, or move your progress by hand from <a href="#/my-learning">your page</a>.`
+          : `No account is needed. Your progress is stored in your own browser and never sent anywhere. Export it from <a href="#/my-learning">your page</a> to move devices.`}</p>
         <h2>Tell us when it's wrong</h2>
         <p>Every lesson has a feedback form at the bottom and a "Report a problem" link. Both are read. What makes a lesson clearer, deeper, or more accurate gets built in, and what would make it shallower or slanted is set aside with a reason. That is the only thing the institute asks of you.</p>
         <h2>Who built it</h2>
@@ -654,6 +726,138 @@
     `, "John Foval");
   }
 
+  /* ---------- sign in ---------- */
+  const SIGNIN_ERRORS = {
+    state: "That sign-in link did not come back the way it left. Start again.",
+    expired: "That took too long and the link expired. Start again.",
+    google: "Google did not complete the sign-in. Try again, or use an email code.",
+    email: "Google did not give us a verified email address for that account.",
+  };
+
+  function viewSignIn(params) {
+    if (!API) return viewNotFound();
+
+    // Google sends the browser back with the session token in the fragment, which never
+    // reaches a server or a log. Take it, then drop it out of the address bar.
+    const incoming = params.get("token");
+    if (incoming) {
+      setAccount({ token: incoming, email: "", name: "", syncedAt: 0 });
+      history.replaceState(null, "", "#/signin");   // no history entry, and no token left in the bar
+      return route();
+    }
+
+    const note = SIGNIN_ERRORS[params.get("error")] || "";
+    const a = account();
+    if (a && a.token) return viewSignedIn(a, note);
+
+    render(`
+      <div class="prose signin">
+        <span class="eyebrow">Your account</span>
+        <h1>Sign in so your progress follows you.</h1>
+        <p class="lede">You do not need an account to learn here, and you never will. An account does one thing: it carries your completed lessons, your review schedule and your streak between your phone and your computer. Nothing you have done in this browser is lost by signing in; it is merged in.</p>
+        ${note ? `<p class="signin-note bad">${esc(note)}</p>` : ""}
+        <div class="btn-row"><a class="btn btn-primary" href="${API}/auth/google/start">Continue with Google</a></div>
+        <h2>Or get a code by email</h2>
+        <form id="emailForm">
+          <label class="fb-field">Your email address<input type="email" name="email" autocomplete="email" required></label>
+          <div class="btn-row"><button class="btn btn-secondary" type="submit">Email me a code</button></div>
+        </form>
+        <form id="codeForm" hidden>
+          <p class="muted" id="codeSent"></p>
+          <label class="fb-field">The six-digit code<input type="text" name="code" inputmode="numeric" autocomplete="one-time-code" pattern="[0-9]{6}" maxlength="6" required></label>
+          <div class="btn-row"><button class="btn btn-primary" type="submit">Sign in</button><button class="btn btn-secondary" type="button" id="codeBack">Use a different address</button></div>
+        </form>
+        <p class="signin-note" id="signinNote" aria-live="polite"></p>
+        <h2>What we keep</h2>
+        <p>Your email address, so you can sign back in, and the progress you can already see on <a href="#/my-learning">your page</a>. Nothing else. No password to leak, no tracking, no advertising, and no sending any of it anywhere. You can delete the whole account, and everything in it, from this page once you are signed in.</p>
+      </div>
+    `, "Sign in");
+
+    const emailForm = main.querySelector("#emailForm");
+    const codeForm = main.querySelector("#codeForm");
+    const noteEl = main.querySelector("#signinNote");
+    const say = (text, bad) => { noteEl.textContent = text; noteEl.className = "signin-note" + (bad ? " bad" : ""); };
+    let address = "";
+
+    emailForm.addEventListener("submit", async e => {
+      e.preventDefault();
+      address = emailForm.email.value.trim();
+      const btn = emailForm.querySelector("button");
+      btn.disabled = true; say("Sending the code.");
+      try {
+        await apiCall("/auth/email/start", { method: "POST", body: { email: address } });
+        emailForm.hidden = true; codeForm.hidden = false;
+        main.querySelector("#codeSent").textContent = `We sent a six-digit code to ${address}. It works once and expires in ten minutes.`;
+        say(""); codeForm.code.focus();
+      } catch (err) { say(err.message, true); }
+      btn.disabled = false;
+    });
+    main.querySelector("#codeBack").addEventListener("click", () => { codeForm.hidden = true; emailForm.hidden = false; say(""); });
+    codeForm.addEventListener("submit", async e => {
+      e.preventDefault();
+      const btn = codeForm.querySelector("button");
+      btn.disabled = true; say("Checking.");
+      try {
+        const r = await apiCall("/auth/email/verify", { method: "POST", body: { email: address, code: codeForm.code.value.trim() } });
+        setAccount({ token: r.token, email: address, name: (r.user || {}).name || "", syncedAt: 0 });
+        route();   // already on #/signin, so setting the hash would fire no event
+      } catch (err) { say(err.message, true); btn.disabled = false; }
+    });
+  }
+
+  function viewSignedIn(a, note) {
+    const last = a.syncedAt ? new Date(a.syncedAt).toLocaleString() : "not yet";
+    render(`
+      <div class="prose signin">
+        <span class="eyebrow">Your account</span>
+        <h1>You are signed in.</h1>
+        <p class="lede" id="whoami">${a.email ? esc(a.email) : "Checking your account."}</p>
+        ${note ? `<p class="signin-note bad">${esc(note)}</p>` : ""}
+        <p class="muted">Last synced: <span id="lastSync">${esc(last)}</span>. Your progress syncs on its own a few seconds after you finish a lesson or a review, and when you close the tab.</p>
+        <div class="btn-row">
+          <button class="btn btn-primary" id="syncBtn">Sync now</button>
+          <a class="btn btn-secondary" href="#/my-learning">Your page</a>
+          <button class="btn btn-secondary" id="signoutBtn">Sign out</button>
+        </div>
+        <p class="signin-note" id="signinNote" aria-live="polite"></p>
+        <h2>Leaving</h2>
+        <p>Signing out leaves everything in this browser exactly as it is; it only forgets the account. Deleting the account removes your email address and every row of your progress from our database, permanently, and cannot be undone. Your copy in this browser is untouched either way.</p>
+        <div class="btn-row"><button class="btn btn-secondary" id="deleteBtn">Delete my account</button></div>
+      </div>
+    `, "Your account");
+
+    const noteEl = main.querySelector("#signinNote");
+    const say = (text, bad) => { noteEl.textContent = text; noteEl.className = "signin-note" + (bad ? " bad" : ""); };
+
+    if (!a.email) {
+      apiCall("/auth/session").then(r => {
+        if (!r.signedIn) return route();
+        setAccount(Object.assign({}, account(), { email: r.user.email, name: r.user.name }));
+        const who = main.querySelector("#whoami"); if (who) who.textContent = r.user.email;
+      }).catch(() => route());
+    }
+    if (!a.syncedAt) {
+      say("Merging this browser with your account.");
+      syncNow().then(() => { say("Merged. Everything you had here is on your account."); const el = main.querySelector("#lastSync"); if (el) el.textContent = new Date().toLocaleString(); })
+        .catch(err => say(err.message, true));
+    }
+    main.querySelector("#syncBtn").addEventListener("click", async () => {
+      say("Syncing.");
+      try { await syncNow(); say("Synced."); main.querySelector("#lastSync").textContent = new Date().toLocaleString(); }
+      catch (err) { say(err.message, true); }
+    });
+    main.querySelector("#signoutBtn").addEventListener("click", async () => {
+      try { await syncNow(); } catch { /* sign out anyway */ }
+      try { await apiCall("/auth/signout", { method: "POST" }); } catch { /* the token is going in the bin regardless */ }
+      setAccount(null); route();
+    });
+    main.querySelector("#deleteBtn").addEventListener("click", async () => {
+      if (!confirm("Delete your account and every row of your progress from our database? This cannot be undone. Your copy in this browser is not touched.")) return;
+      try { await apiCall("/account", { method: "POST" }); setAccount(null); route(); }
+      catch (err) { say(err.message, true); }
+    });
+  }
+
   function viewNotFound() { render(`<div class="empty"><h2>Page not found</h2><a class="btn btn-primary" href="#/">Go home</a></div>`, "Not found"); }
 
   /* ---------- router ---------- */
@@ -670,10 +874,26 @@
     if ((m = path.match(/^\/course\/([^/]+)$/))) return viewCourse(m[1]);
     if ((m = path.match(/^\/certificate\/([^/]+)$/))) return viewCertificate(m[1]);
     if (path === "/my-learning") return viewMyLearning();
+    if (path === "/signin") return viewSignIn(params);
     if (path === "/about") return viewAbout();
     if (path === "/about-john") return viewAboutJohn();
     viewNotFound();
   }
   window.addEventListener("hashchange", route);
+
+  if (API) {
+    const nav = document.querySelector(".site-nav");
+    if (nav) nav.insertAdjacentHTML("beforeend", `<a href="#/signin" id="accountLink">${signedIn() ? "Account" : "Sign in"}</a>`);
+    // The footer's promise has to stay true now that progress can leave the browser.
+    const privacy = document.getElementById("privacyLine");
+    if (privacy) privacy.textContent = "No ads, no paywalls, and no account needed to learn. Without one your progress stays in this browser; with one it syncs so it follows you between devices.";
+    // Pull anything the other device did, but not on every page load.
+    if (signedIn() && Date.now() - ((account() || {}).syncedAt || 0) > 300000) syncNow().catch(() => {});
+    // keepalive so the flush survives the page going away.
+    const flush = () => { if (signedIn()) { clearTimeout(syncTimer); syncNow(true).catch(() => {}); } };
+    window.addEventListener("pagehide", flush);
+    document.addEventListener("visibilitychange", () => { if (document.visibilityState === "hidden") flush(); });
+  }
+
   route();
 })();

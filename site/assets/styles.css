@@ -382,3 +382,9 @@ a.path-item:hover { background: var(--surface-2); color: var(--text); }
   .why-row > .shot, .why-row:nth-child(even) > .shot { order: 1; }
   .why-row > .why-copy, .why-row:nth-child(even) > .why-copy { order: 2; }
 }
+
+/* Sign in */
+.signin form { margin: 0 0 1rem; }
+.signin .fb-field input { display: block; width: 100%; max-width: 22rem; margin-top: .35rem; font: inherit; font-size: 1rem; padding: .6rem; border: 1px solid var(--line); background: var(--bg); color: var(--text); }
+.signin-note { font-size: .92rem; color: var(--text-2); min-height: 1.4em; margin: .5rem 0 0; }
+.signin-note.bad { color: var(--danger); }
