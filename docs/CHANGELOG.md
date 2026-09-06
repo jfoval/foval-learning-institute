@@ -8,6 +8,19 @@ Everything from the founding onwards is here. Entries before 2026-09-06 came fro
 
 ## 2026-09-06 (podcast pipeline session)
 
+**How to Learn Anything lesson 6: media pass (sixth of eight)**
+
+- A fading-the-guidance diagram (worked example → completion problem → problems alone →
+  mixed types) with the three-in-a-row rule under the arrows, placed in the fade stage of
+  the worked example. No data chart: the lesson's key numbers live inside predict blocks
+  and a chart beside them would print the hidden answers.
+- No video embedded: the only Sweller material on YouTube is hour-long podcasts, which fail
+  the "say why to watch and how long" test for an embed; Ollie Lovell's free written
+  interview series with Sweller went into Go deeper instead.
+- Nine verified links: Sweller & Cooper 1985, Kalyuga 2003, both Chi papers (DOIs),
+  open-access Bisra 2018 and Sweller 2019 at Springer, Dunlosky at AFT, and the Lovell
+  series.
+
 **How to Learn Anything lesson 5: media pass (fifth of eight)**
 
 - A grouped bar chart of Rohrer and Taylor (2007) experiment 2: blocked versus interleaved,

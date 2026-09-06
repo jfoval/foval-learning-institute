@@ -63,7 +63,7 @@ Lessons 3 to 5 gave you tools for holding on to things you already understand. T
 
 ## The core idea
 
-Start in an algebra classroom. Sweller and Cooper (1985) gave Year 9 algebra students pairs of similar problems. One group solved both. The other group studied the first as a worked solution and then solved the second.
+Start in an algebra classroom. [Sweller and Cooper (1985)](https://doi.org/10.1207/s1532690xci0201_3) gave Year 9 algebra students pairs of similar problems. One group solved both. The other group studied the first as a worked solution and then solved the second.
 
 :::predict Which group did better on the test problems, and by roughly how much?
 The group that had studied worked examples, by a wide margin. In the key experiment they solved the test problems in about 44 seconds each against 78 seconds for those who had practised by solving, and made 0.18 mathematical errors per problem against 1.64.[1]
@@ -71,15 +71,15 @@ The group that had studied worked examples, by a wide margin. In the key experim
 
 Look at the design before you take a lesson from it. This wasn't "reading instead of doing". It was a worked example immediately followed by a problem of the same type. And there's a boundary: the advantage did not extend to problems that used the same algebraic moves in a different order. The worked example taught the pattern shown, not the general skill.
 
-The second finding is that the benefit reverses as you gain expertise. Kalyuga and colleagues (2003) named this the expertise-reversal effect. Guidance that helps a novice becomes redundant for a more knowledgeable learner, and it can actively harm one who already has the pattern, because processing an explanation you no longer need costs working memory that could go on the task.[2] The same worked example that builds the schema in week one is dead weight once the schema exists.
+The second finding is that the benefit reverses as you gain expertise. [Kalyuga and colleagues (2003)](https://doi.org/10.1207/S15326985EP3801_4) named this the expertise-reversal effect. Guidance that helps a novice becomes redundant for a more knowledgeable learner, and it can actively harm one who already has the pattern, because processing an explanation you no longer need costs working memory that could go on the task.[2] The same worked example that builds the schema in week one is dead weight once the schema exists.
 
-The third finding is about what happens while you read. Chi and colleagues (1989) recorded eight university students with no college physics working through a mechanics text and its worked examples, thinking aloud. The students who went on to do well explained each step to themselves as they read, asking what it was for and why it followed, and they noticed accurately when they were lost.
+The third finding is about what happens while you read. [Chi and colleagues (1989)](https://doi.org/10.1207/s15516709cog1302_1) recorded eight university students with no college physics working through a mechanics text and its worked examples, thinking aloud. The students who went on to do well explained each step to themselves as they read, asking what it was for and why it followed, and they noticed accurately when they were lost.
 
 :::predict The students who did poorly later got stuck on problems. What did they do then?
 They went back and reread the example, searching for a line to use. And while reading, they had seldom noticed when they hadn't understood.[3]
 :::
 
-That study couldn't tell whether the habit caused the difference or whether better students simply had it. So Chi and colleagues (1994) prompted ordinary eighth-graders to explain a text on the circulatory system to themselves, sentence by sentence. The fourteen who were prompted learned more than the ten who read the text twice.[4] Bisra and colleagues (2018) pooled the later studies of prompted self-explanation and found a moderate overall benefit, g = 0.55 across 69 effect sizes.[10]
+That study couldn't tell whether the habit caused the difference or whether better students simply had it. So [Chi and colleagues (1994)](https://doi.org/10.1207/s15516709cog1803_3) prompted ordinary eighth-graders to explain a text on the circulatory system to themselves, sentence by sentence. The fourteen who were prompted learned more than the ten who read the text twice.[4] [Bisra and colleagues (2018)](https://link.springer.com/article/10.1007/s10648-018-9434-x) pooled the later studies of prompted self-explanation and found a moderate overall benefit, g = 0.55 across 69 effect sizes.[10]
 
 There's a related habit, elaborative interrogation, which comes from Pressley and colleagues (1987): as you read a claim, ask "why would that be true?" and answer it.[5] Dunlosky and colleagues (2013) rate both self-explanation and elaborative interrogation as moderate utility, mainly because neither has been adequately tested in real classrooms. They add a condition for elaborative interrogation: its effects grow with prior knowledge and are uncertain for learners who have little.[6] Keep that condition in mind. It comes back later.
 
@@ -137,6 +137,36 @@ Now the pattern from Stage 1 stalls. There is no bracket to expand; there is a f
 In 1985 the advantage ran out on problems that used the same moves in a different order; a problem needing a new move, like this one, is further out still. Worked examples didn't fail; the method is *study examples of each pattern you need*, not *study one example and expect the skill*. A varied problem you can't start is the signal to find a worked example of that variation, explain it, and return.
 
 **Stage 4: fade.** After a few rounds, complete worked examples stop helping, and Kalyuga's effect says they start to cost. Move to completion problems: a solution with one or two steps blanked out for you to fill in. Then problems alone. Then mixed problems of several types, which is lesson 5's interleaving arriving on schedule. Guidance goes from full, to partial, to none.
+
+<svg viewBox="0 0 584 240" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:584px;display:block;margin:1.5em auto;font-family:system-ui,sans-serif" role="img" aria-labelledby="fade-title fade-desc">
+  <title id="fade-title">Fading the guidance: worked example, completion problem, problems alone, mixed problems</title>
+  <desc id="fade-desc">Four boxes in a row joined by arrows. Worked example, then completion problem with steps blanked, then problems alone, then mixed problem types. Under the arrows a rule reads: move right after three correct in a row; a stall means step back left.</desc>
+  <text x="20" y="22" font-size="17" font-weight="700" fill="var(--text, #1a1a1a)">Fading the guidance</text>
+  <rect x="20" y="48" width="122" height="76" rx="6" fill="none" stroke="var(--oxblood, #8b1e2d)" stroke-width="3"/>
+  <text x="81" y="80" font-size="15" font-weight="700" text-anchor="middle" fill="var(--text, #1a1a1a)">Worked</text>
+  <text x="81" y="100" font-size="15" font-weight="700" text-anchor="middle" fill="var(--text, #1a1a1a)">example</text>
+  <line x1="142" y1="86" x2="160" y2="86" stroke="var(--text-2, #4a5260)" stroke-width="2"/>
+  <path d="M160 86 l-8 -5 v10 z" fill="var(--text-2, #4a5260)"/>
+  <rect x="162" y="48" width="122" height="76" rx="6" fill="none" stroke="var(--gold, #b08d2a)" stroke-width="3"/>
+  <text x="223" y="72" font-size="15" font-weight="700" text-anchor="middle" fill="var(--text, #1a1a1a)">Completion</text>
+  <text x="223" y="92" font-size="15" text-anchor="middle" fill="var(--text, #1a1a1a)">problem, steps</text>
+  <text x="223" y="112" font-size="15" text-anchor="middle" fill="var(--text, #1a1a1a)">blanked out</text>
+  <line x1="284" y1="86" x2="302" y2="86" stroke="var(--text-2, #4a5260)" stroke-width="2"/>
+  <path d="M302 86 l-8 -5 v10 z" fill="var(--text-2, #4a5260)"/>
+  <rect x="304" y="48" width="122" height="76" rx="6" fill="none" stroke="var(--navy, #0f2a4a)" stroke-width="3"/>
+  <text x="365" y="80" font-size="15" font-weight="700" text-anchor="middle" fill="var(--text, #1a1a1a)">Problems</text>
+  <text x="365" y="100" font-size="15" font-weight="700" text-anchor="middle" fill="var(--text, #1a1a1a)">alone</text>
+  <line x1="426" y1="86" x2="444" y2="86" stroke="var(--text-2, #4a5260)" stroke-width="2"/>
+  <path d="M444 86 l-8 -5 v10 z" fill="var(--text-2, #4a5260)"/>
+  <rect x="446" y="48" width="122" height="76" rx="6" fill="none" stroke="var(--navy, #0f2a4a)" stroke-width="3"/>
+  <text x="507" y="72" font-size="15" font-weight="700" text-anchor="middle" fill="var(--text, #1a1a1a)">Mixed types</text>
+  <text x="507" y="92" font-size="15" text-anchor="middle" fill="var(--text, #1a1a1a)">(lesson 5's</text>
+  <text x="507" y="112" font-size="15" text-anchor="middle" fill="var(--text, #1a1a1a)">interleaving)</text>
+  <text x="294" y="156" font-size="15" text-anchor="middle" fill="var(--text, #1a1a1a)">Move one box right after three correct in a row.</text>
+  <text x="294" y="176" font-size="15" text-anchor="middle" fill="var(--text, #1a1a1a)">A problem you cannot start means step back left.</text>
+  <text x="20" y="210" font-size="15" fill="var(--text-2, #4a5260)">The progression the worked-example research supports</text>
+  <text x="20" y="230" font-size="15" fill="var(--text-2, #4a5260)">(Sweller and Cooper 1985; Kalyuga et al. 2003).</text>
+</svg>
 
 When to fade is a decision, and lesson 1 warned you not to make decisions like this by feel. So use a count. Fade one step when you have solved three near-transfer problems in a row without looking at the example; fade the next when the completion problems go three for three; move to varied and mixed problems only after that. This is the same three-correct-recalls criterion that Rawson and Dunlosky set for retrieval practice (lesson 3), applied to guidance. If reading the full solution has started to feel like a chore, that's a prompt to run the test, not the test itself.
 
@@ -219,9 +249,10 @@ Lesson 7 takes the same logic to skills: the worked example becomes a demonstrat
 
 ## Go deeper
 
-- **Sweller, van Merriënboer & Paas, "Cognitive Architecture and Instructional Design: 20 Years Later", *Educational Psychology Review* 31 (2019).** The theory's authors restating it with its effects, including worked examples and expertise reversal, in one paper.
-- **Chi, Bassok, Lewis, Reimann & Glaser, "Self-Explanations", *Cognitive Science* 13 (1989).** The original protocol study. The transcripts of good and poor students are the clearest picture of what self-explanation actually looks like.
-- **Dunlosky, "Strengthening the Student Toolbox", *American Educator* (Fall 2013).** Free via ERIC. The plain-English ratings of all ten techniques, including why elaborative interrogation and self-explanation are moderate rather than high.
+- **Sweller, van Merriënboer & Paas, ["Cognitive Architecture and Instructional Design: 20 Years Later"](https://link.springer.com/article/10.1007/s10648-019-09465-5), *Educational Psychology Review* 31 (2019).** The theory's authors restating it with its effects, including worked examples and expertise reversal, in one paper; free to read at the link.
+- **Chi, Bassok, Lewis, Reimann & Glaser, ["Self-Explanations"](https://doi.org/10.1207/s15516709cog1302_1), *Cognitive Science* 13 (1989).** The original protocol study. The transcripts of good and poor students are the clearest picture of what self-explanation actually looks like.
+- **Dunlosky, ["Strengthening the Student Toolbox"](https://www.aft.org/ae/fall2013/dunlosky), *American Educator* (Fall 2013).** Free online. The plain-English ratings of all ten techniques, including why elaborative interrogation and self-explanation are moderate rather than high.
+- **[Ollie Lovell's interview series with John Sweller](https://www.ollielovell.com/johnsweller/)**: the theory's author answering a teacher's practical questions, free as text and audio; the worked-examples and expertise-reversal instalments cover this lesson's ground.
 - **The *Educational Psychologist* 42(2) exchange (2007): Hmelo-Silver, Duncan & Chinn; Schmidt, Loyens, van Gog & Paas; Kuhn; and the Sweller, Kirschner & Clark reply**, following Kirschner, Sweller & Clark (2006). Read the whole exchange rather than a single pair, to see a scientific disagreement conducted well and to decide for yourself how much of it is about definitions.
 
 ## Sources
