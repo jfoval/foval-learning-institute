@@ -4642,7 +4642,13 @@ clause; Ware's page number; Eusebius's edition history; and the Marcion scholars
 
 ### Requests for the shared files (items 1 to 11 stand; these are new)
 
-12. **`scripts/build.mjs` must assert that every quiz option is a string.** Its guard currently tests
+12. **DONE, 2026-09-06.** `scripts/build.mjs` now asserts that every quiz option is a string, and the
+    published lesson has been fixed and the site data rebuilt. The check lives in `checkQuizTypes`,
+    called from the lint pass for every lesson (drafts warn, published courses fail the build) and
+    from the assessments path, which the lint pass does not walk. Verified by reintroducing the defect
+    in a draft and in a published lesson and confirming one message each and the right exit code.
+    Original request follows.
+    **`scripts/build.mjs` must assert that every quiz option is a string.** Its guard currently tests
     only that `options` is an array of length 2 or more, so an unquoted option containing a colon
     parses as a mapping and reaches the learner as `[object Object]`. One line: `typeof o === "string"`
     for each option, plus the same check on `q` and `explain`.
