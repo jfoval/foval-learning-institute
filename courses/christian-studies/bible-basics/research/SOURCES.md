@@ -469,10 +469,13 @@ each caught at least one real error.
   marked with the project's own options. **Every psalm, proverb and oracle quoted anywhere in this
   course currently reaches the learner as run-on prose.** The lesson-local fix, tested and applied in
   lesson 5, is **two trailing spaces at the end of each poetic line**, which makes marked emit
-  `<br>`; leave the attribution line at the end of a blockquote without them. Counts of quoted
-  poetic lines still needing this: lesson 6 has 23, lesson 4 has 11 (fixed at its Stage 4 where
-  quoted as verse), lessons 2, 9 and 10 have about 5 each. A proper `:::verse` block belongs in the
-  shared files and is requested in `REVIEWS.md`.
+  `<br>`; leave the attribution line at the end of a blockquote without them. **Count poetic lines,
+  not blockquote lines.** A first pass at this counted every `> ` line and produced a wrong figure
+  for lesson 6, which was corrected at its Stage 4: **lesson 6 quotes no poetry at all**, since all
+  of its blockquotes are Gospel narrative, Acts, Papias and Irenaeus, which render correctly as
+  prose. Lesson 4 is fixed where it quotes verse. Lessons 2, 9 and 10 have a few lines each and want
+  checking individually before anything is changed. A proper `:::verse` block belongs in the shared
+  files and is requested in `REVIEWS.md`.
 - **NET renderings that a lesson's prose must not contradict.** Deuteronomy 32:35 reads "**I will get
   revenge and pay them back** at the time their foot slips"; the familiar "Vengeance is mine, I will
   repay" is **Paul's wording at Romans 12:19**, and lesson 5 had attributed it to Deuteronomy and
