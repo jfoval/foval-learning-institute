@@ -1013,7 +1013,7 @@ is renumbered here.
 
 Every outbound request from this session was refused by the egress proxy, so nothing could be
 reopened or verified. This list is cumulative across the whole course, items 1 to 6 from lessons 2
-and 3 and items 7 to 10 from lesson 4, and it can be cleared in one pass by a session that can reach
+and 3, 7 to 10 from lesson 5 and 11 to 14 from lesson 4, and it can be cleared in one pass by a session that can reach
 the web:
 
 1. **A free full-text URL for Wason 1968 and for Ragni, Kola & Johnson-Laird 2017**, added to
@@ -1030,15 +1030,28 @@ the web:
    paragraph.
 6. **The believability norming behind the 1983 Evans materials** (lesson 2, L2-N6), so the labels can
    be attributed to a study rather than described generically.
-7. **A URL for Knachel's *Fundamental Methods of Logic* section 3.6 on LibreTexts, and for
+7. **Read Harman 1965 pp. 88 to 95 and record it**, including whether the paper treats enumerative
+   induction as a case of inference to the best explanation, which lesson 5 currently declines to
+   summarise because `SOURCES.md` records nothing about it.
+8. **Re-key Mill's second canon from the Bennett PDF, character for character**, so lesson 5 can quote
+   the whole sentence rather than the two recorded fragments, and record Mill's own example for
+   concomitant variation if he gives one.
+9. **A URL for Mill in Bennett's modernised text**, and for the SEP entries "Inductive Logic" and
+   "Informal Logic", none of which the repository holds. These are the sources lessons 5 and 4 most
+   want the reader to be able to open.
+10. **Resolve the Weston edition year**, which `SOURCES.md` gives as Feb 2018 in two places and 2017
+   in a third, and record whether any freely licensed copy of chapters I, II, III, V and VI to VIII
+   exists. **Do not link the copy currently recorded**: it is a complete PDF of an in-print Hackett
+   book on a school district's file server with no visible licence, which 4.5 does not permit.
+11. **A URL for Knachel's *Fundamental Methods of Logic* section 3.6 on LibreTexts, and for
    Lagerlund's SEP entry "Medieval Theories of the Syllogism", plus Lagerlund's revision year.**
    These are the two sources lesson 4's Venn conventions and its 256/15/24 count rest on, and it
    recommends both by name in Go deeper, unlinked.
-8. **URLs for Groarke's SEP "Informal Logic" entry and for Abrami et al. 2015.** Both are cited in
+12. **URLs for Groarke's SEP "Informal Logic" entry and for Abrami et al. 2015.** Both are cited in
    lesson 4 and neither has a recorded address.
-9. **The title of Cheng, Holyoak, Nisbett & Oliver 1986**, which `SOURCES.md` records by author,
+13. **The title of Cheng, Holyoak, Nisbett & Oliver 1986**, which `SOURCES.md` records by author,
    journal, volume and pages but never by title, so lesson 4's Sources entry has to say so.
-10. **Abrami et al.'s moderator tables**, which `SOURCES.md` says to read before quoting any specific
+14. **Abrami et al.'s moderator tables**, which `SOURCES.md` says to read before quoting any specific
    moderator effect. Until then lesson 4 quotes only g+ = 0.30 and states the moderators as
    associations.
 
@@ -1047,14 +1060,20 @@ the web:
 These belong to files another session owns (`docs/`, `curriculum/`, `site/`, `scripts/`), so they are
 recorded here rather than made.
 
-1. **`docs/BACKLOG.md` section 7b, "Confirmed seams so far".** Add: *Logic and Argument lesson 3, after
-   the car example and before the four cards.* Lesson 2 was considered and **not** split, on both
-   reviewers' advice. So the Logic course currently stands at one confirmed seam and will be eleven
-   lessons after the pre-publish renumbering, unless lessons 4 to 10 add more.
+1. **`docs/BACKLOG.md` section 7b, "Confirmed seams so far".** Add two: *Logic and Argument lesson 3,
+   after the car example and before the four cards*, and *Logic and Argument lesson 5, between the
+   analogy family and the causal family.* Lessons 2 and 4 were both considered and **not** split, on
+   two reviewers' advice each. So the Logic course stands at two confirmed seams and will be twelve
+   lessons after the pre-publish renumbering, unless lessons 6 to 10 add more.
 2. **`docs/BACKLOG.md` section 1.** The Logic entry needs updating as lessons land; as of this pass,
    lessons 1, 2 and 3 are reviewed and fixed, lessons 4 to 10 are not, and the assessments folder does
    not yet exist.
-3. **`scripts/build.mjs`, one linter gap worth closing.** The unfenced-argument-display check fires
+3. **`research/OUTLINE.md` line 74 has impossible arithmetic** for lesson 5's practice set: "two
+   generalisations, two analogies, two causal claims, one IBE, one conductive" is already eight, and
+   the same sentence asks for "three of them" to be deductive look-alikes. The lesson now ships nine
+   items with three deductive. This is our own file, not a shared one, and is fixed in this pass; noted
+   so the discrepancy is not read as drift.
+4. **`scripts/build.mjs`, one linter gap worth closing.** The unfenced-argument-display check fires
    only when `C:` sits directly under a numbered premise. Lesson 3 had eight displays with a blank
    line before `C:`, which slips the pattern but still renders as a list plus a stray paragraph
    rather than as a standard form. Allowing optional blank lines in that pattern would have caught
@@ -1370,3 +1389,309 @@ speech. "Thirty seconds" is now "under a minute", consistent with the title.
    over.** Lesson 3 accepted an unassessed objective because its quiz was at the six-item ceiling
    with nothing displaceable. Lesson 4 had a displaceable item, and objective 4 is this lesson's
    contract with the outline rather than a fourth item of coverage.
+
+---
+
+## Lesson 5, "Inductive strength" — Stage 4 round 1, 2026-09-06
+
+Five fresh-context reviewers, launched in one message. Consolidated with IDs and applied in the same
+pass. Network egress refused throughout; the fact-check ran against `SOURCES.md`.
+
+**Verdict: the most defective lesson reviewed so far, and the one with the best prose.** The
+coverage mechanism is the strongest single passage in the course. Around it sit four errors of
+reasoning inside the lesson's own worked material, one of them in the opening paragraph and two in
+the practice answer key, plus the sourcing failure now in its fourth consecutive lesson and its
+widest form yet: Hurley, Copi, Weston and Govier all cited as authorities, none of them read.
+
+### BLOCKING
+
+**L5-B1. Four unread books cited as authorities, at fourteen sites.** Hurley seven times (six in
+prose, once in Sources), Copi twice, Weston for chapters III and V, Govier twice by chapter.
+`SOURCES.md` line 202 forbids Hurley and Copi by name and names this lesson. Weston is worse than it
+looks: `SOURCES.md` clears **chapter IV only**, read for lesson 9, and says in terms that "chapters I
+and VI to VIII still need reading for lesson 10", so chapters II, III and V were never covered. Only
+chapter II survives, and only because lesson 10's draft-time entry recorded rules 7 to 10 by title
+from the publisher's contents pages. No page of Govier has ever been read; `SOURCES.md` has a
+publisher chapter list, one title of which was found wrong and corrected this week. The neutrality
+reviewer added the point that decided the remedy: strip Hurley and Copi and leave Govier and Weston
+standing, and the section on how much formal logic a reader needs ends with one camp cited and the
+other not. **Resolve symmetrically or not at all.**
+
+**L5-B2. The opening declares the argument invalid after supplying a missing premise that makes it
+valid.** The reconstruction added "[what happened to three of them will happen to the next]", and the
+offered counterexample ("the three cars could all have failed and the fourth could be fine") is a
+case in which that premise is false, so it is not a counterexample to the argument as reconstructed.
+Lesson 1 spends a session teaching the reader to write the missing premise and *then* test the link.
+A reader who did lesson 1 properly stops on the second paragraph of lesson 5.
+
+**L5-B3. The myth correction doesn't work, and lesson 2 was cut on the promise that it would.** The
+passage offers "All humans are mortal, so Socrates is" as evidence against the general-to-particular
+myth. That example runs general to particular *and* is deductive, which is exactly what the myth
+predicts: it is a confirming instance presented as a refutation. The coin handles half the myth; the
+other half is never touched. Per this file's lesson 2 resolutions, "Deliberately not fixed" item 1,
+the 257-word treatment was **cut from lesson 2** on the ground that lesson 5 already carried it, so
+this sixty-word passage is now the course's entire treatment. Net across the two lessons, the course
+taught this less after the lesson 2 pass than before it. Nothing later in the lesson turns on
+direction of travel either, so a reader who still holds the myth is never caught.
+
+**L5-B4. Two self-checks print their own answers in plain body text. Sixth lesson running.** The
+sample gap ("name the weakness that's still there" / "Here's mine") and the café gap ("Write it down
+before reading on" / "Here's one answer"). Three other blocks in the same lesson hide their answers
+correctly, so the reader is trained to expect a button and then twice handed the answer. These were
+also the lesson's only two production slots outside the practice set.
+
+**L5-B5. Two practice answers get the lesson's own taxonomy wrong.** Item 6's key calls "the manager
+was hired because takings were already falling" a **common cause**; it is B causing A, which is
+reading 2 in the lesson's own numbered list, and it is the cleanest example of reading 2 anywhere in
+the lesson. Item 1's key calls the swan argument "strong on the sample as described" and then, in the
+next clause, says "the sample didn't cover the population", which is the lesson's own definition of a
+weak sample. A learner checking their work is mistaught at both points.
+
+### Neutrality
+
+Perspectives audited: statistician; epidemiologist; Popperian; Bayesian; Humean sceptic; working
+experimental scientist; historian of science and of Mill; decision theorist; mathematician;
+informal-logic scholar; non-UK readers (US, Canadian, Australian, South Asian, West African);
+Australian and Indigenous-Australian readers; religious reader; a learner who has met "correlation
+isn't causation" only as a slogan; small-business owner; local-government officer and resident;
+police-and-crime researcher.
+
+**L5-N1. [critical] Quiz item 4 is an invented social-policy correlation about crime and wealth,
+which the outline forbids by name for this lesson.** OUTLINE.md line 71: a correlation used as an
+example must be documented in `SOURCES.md` or "a plainly hypothetical everyday one (shop sales and
+weather); **never a social-policy correlation**". The item has a council deciding whether to plant
+trees to cut burglary, with "wealthier streets have both more trees and less burglary" as the keyed
+answer. Labelling it hypothetical does not convert it: the item still asserts an empirical
+relationship in a named 3.4 domain as the correct answer, with nothing behind it, and a real
+literature on tree canopy and crime exists so a learner will take it as reporting a finding. Fourth
+item of this class in four lessons, after L2-N5, L3-N11 and L4-N3, and like all three it costs
+nothing to avoid.
+
+**L5-N2.** The lesson settles contested question 4 in its own voice: "almost everything you know
+about the world ... reached you by an argument of this kind" and "it's the only kind that reaches new
+facts", with Hume's problem and Popper's denial absent from a lesson wholly about induction.
+`SOURCES.md` records the course's line as "say plainly that the philosophical foundations are argued
+over", and L3-N9 softened the mirror-image claim one lesson earlier, so the two lessons would
+otherwise sit on opposite sides of one open question.
+
+**L5-N3.** "There's no formula for the last step, and you should distrust anyone who offers one"
+resolves a live question against a whole discipline and contradicts a sibling Foval course, since
+Probability and Decisions is named in the outline as where expected value is taught.
+
+**L5-N4.** Mill's 1843 canon is used as the authority on what a correlation licenses, and the
+lesson's own fourth reading (chance) then contradicts it. Mill wrote before there was a theory of
+sampling error, so his "vary together" presumes a real pattern. The lesson departs from the authority
+it has just quoted without telling the reader, and it is the one place where the no-presentism rule
+cuts the other way: Mill should be placed in what was available to him.
+
+**L5-N5.** "the slogan that stops thinking" as a heading passes a verdict in the author's voice on a
+phrase most readers use, and the treatment gives the slogan no legitimate employment at all. As an
+objection to someone who has just inferred a cause from a correlation, it is correct and complete;
+its only failure is stopping there.
+
+**L5-N6 to L5-N12.** Seven unsourced frequency claims and superlatives; "could easily happen by
+chance" (see L5-F1); "a valid deductive argument never tells you anything that wasn't already in the
+premises", which a mathematician would deny and which takes back L4-N1 one lesson after it was
+applied; the four readings presented as exhaustive when selection effects are a fifth and lesson 9
+teaches one; "coverage" presented as what an inductive link *is* rather than as this lesson's
+picture; randomisation absent from the paragraph on controlled experiments; IBE presented as a
+settled category. **L5-N13:** "torch" reads as a flame to a US reader inside the quiz item whose key
+depends on it, and the postcode in the analogy example is not as irrelevant as the lesson needs it to
+be. **L5-N14:** the black swan answer uses a discovery framing. **L5-N15:** the opening slips from
+"a friend of yours" to "my friend", turning a hypothetical into an undated anecdote.
+
+### Fact-check
+
+**L5-F1.** The one piece of arithmetic in the lesson is wrong. "Ten-out-of-twelve could easily happen
+by chance among people whose real rate is nearer half": at a true rate of one half, ten or more out
+of twelve happens 79 times in 4,096, **1.9%**. Both the depth and fact-check reviewers caught it
+independently with different framings, and the orchestrator verified every figure: 1.9% at p=0.5,
+8.3% at 0.6, 25.3% at 0.7, 73.6% at 0.85. The real point is discrimination, not chance.
+
+**L5-F2.** "Mill explains it in the next sentence" introduces a quotation that begins mid-sentence
+with "I add that last clause because" removed and no ellipsis. **L5-F3.** Bennett's dot-brackets,
+which mark his own insertions into Mill, are silently deleted from inside a quotation, in a lesson
+that elsewhere makes a point of what a source actually says. **L5-F4.** The method-of-agreement
+quotation drops "more especially" from inside the quotation marks. **L5-F5.** "Mill says this is *the*
+logical process behind" promotes the recorded "*a* logical process". **L5-F6.** Part of the difference
+canon inside quotation marks is `SOURCES.md`'s paraphrase, not recorded wording. **L5-F7.** Mill's
+heat-and-expansion example is recorded nowhere; the only example `SOURCES.md` records is the man shot
+through the heart, and it belongs to a different canon. **L5-F8.** Go deeper gives the Mill chapter as
+"about fifteen pages" against the recorded pp. 191 to 199, contradicted by the lesson's own Sources
+entry six lines later, and calls Bennett's modernisation "the author's own voice". **L5-F9.** Harman
+is credited with arguing IBE is "not reducible to generalising from cases", which `SOURCES.md` does
+not record and which may be the reverse of his actual move. **L5-F10.** The IBE criteria are conceded
+in Sources to be "the standard textbook gloss", which repairs one unsourced attribution by making
+another, since the only textbooks in the Sources list are the three nobody has opened.
+**L5-F11.** The café predict names reading 2 as "sunburn causes iced-drink sales" when the correlated
+variable is after-sun *sales*. **L5-F12.** The timetable checkpoint files a separate cause (a new
+attendance officer) under reading 3. **L5-F13.** Three courses referred to in the present tense are
+`planned`, not built. **L5-F14.** "The next four sections" precedes five sections, and the heading
+"Family four: inference to the best explanation" numbers as a fourth inductive family the thing its
+own first line calls a separate kind.
+
+### Pedagogy and depth
+
+**L5-P1.** The practice instruction promises three deductive look-alikes and the set contains two,
+and both announce their form in their first word, which is L4-P2 one lesson after it was fixed.
+**L5-P2.** The outline's own arithmetic for this practice set does not close, so it needs correcting
+too. **L5-P3.** Objective 3 promises concomitant variation and nothing in the lesson applies it; it
+appears only as the source of the four-readings hedge. **L5-P4.** The conductive family is the one of
+five that is never worked: the reasons are listed, nothing is weighed, no verdict is reached, and the
+first weighing anywhere is in an answer key after the learner has been asked to produce one.
+**L5-P5.** The last third of the body, about 1,050 words covering the two least familiar families,
+has no think-block at all, and three rhetorical questions in it answer themselves. **L5-P6.**
+Defeasibility, the lesson's hinge, is built well and never once produced by the learner. **L5-P7.**
+The free recall is buried as the second paragraph of the exercise block. **L5-P8.** Practice item 3 is
+Mill's third canon, the joint method, keyed as the method of difference. **L5-P9.** Quiz leaks: Q6's
+key is the only option that hedges; Q2's key is the only option naming the technical term; Q4's option
+D is the only one saying nothing needs checking; Q3's and Q5's option C are eliminable on a sweeping
+absolute alone. **L5-P10.** Zero figures and zero links, the only lesson of the five with neither.
+**L5-P11.** `minutes: 55` against costings of 70, 75 and, everything done honestly, 113.
+
+### Voice
+
+Zero em dashes. **Eight "Here's" openers, the highest count in the course** and up from four in each
+of lessons 2, 3 and 4. **Fourteen parenthetical-plus-numbered citations, also the highest**, against
+thirteen in lesson 4 and four in lesson 3, a tic settled in lesson 1's resolution 32 and re-fixed
+twice since. Contraction rate is the best of the last three lessons at one every 37 words, but badly
+distributed: four sections run at one every 51 to 68. Eight paragraphs end on a one-line moral, three
+earned. Pipeline vocabulary in two headings, one body sentence and the exercise label. Four terms
+uncashed: concomitant variation, confounders, conductive, abductive. The hypothetical label is
+stamped four times in identical words.
+
+One licensing catch worth recording beyond this lesson: `SOURCES.md` line 169 holds a URL for
+Weston's chapter IV, a **complete PDF of an in-print Hackett book on a school district's file
+server**. Standard 4.5 says use only what we are allowed to use. Do not link it from any lesson;
+name the book instead. Lesson 9 cites that entry and should be checked when it is reviewed.
+
+### Split verdict: PASSES the 1.3 test. Seam marked, not split.
+
+Depth and pedagogy both said yes, independently, and put the seam within two headings of each other,
+before the causal material. Part A is what inductive strength is plus the two families coverage
+governs directly; part B is causes, explanations and weighing. The dependency runs one way only.
+Depth's strongest evidence: **the folder exercise is entirely causal**, so part A currently has no
+"Do it now" at all, which breaches OUTLINE.md line 12 and only becomes visible once you notice the
+lesson is behaving as two. Pedagogy's: the lesson's promise that "the rest of the lesson follows from"
+coverage already only pays out for three of the five families. Seam marked with an HTML comment and a
+stopping callout, per BACKLOG 7b. Nothing renumbered.
+
+### Resolutions applied, 2026-09-06
+
+`npm run validate` exits 0 and **lesson 5 now raises no linter warnings**. Frontmatter re-parsed: six
+items, each a mapping with `q`, `options`, `answer`, `explain`; key `2,0,3,1,0,3`, all four indices.
+Zero em dashes. Body 9,631 words, up from 6,701.
+
+**L5-B1: all four books removed or reduced to what was actually read.** Hurley and Copi are gone
+entirely. The deductive/inductive distinction and defeasibility now rest on Van Cleave 1.8, linked;
+"cogent" is introduced as field vocabulary with no citation, since `SOURCES.md` does not record it
+from Van Cleave either; the broad/narrow sense of "inductive" is now stated as **this lesson's own
+convention** rather than as Hurley's, with Groarke's taxonomy explaining why it differs; post hoc's
+fallacy name is handed to lesson 8. Weston survives at exactly one site, the three rules of chapter II,
+now quoted by number and title as `SOURCES.md` records them, with the Sources entry saying plainly
+that the chapter itself has not been read. Weston's chapters III and V are gone, and the analogies-as-
+pictures point is made in the lesson's own voice, which costs nothing. Govier is reduced to a
+pointer to the existence of chapter 12 by its recorded title, with the description of conductive
+arguments attributed to Groarke, who was read. *forall x* is added as source 8, carrying the rebuttal
+refrain the outline asks every lesson to echo and which this lesson had never used. Sources: eight
+entries, of which two carry an explicit note about the grade of their reading.
+
+**L5-B2: the opening reconstruction fixed.** The bracketed premise is now one the arguer would sign
+("[three failures out of three is a sign of how this maker builds gearboxes]"), and the counterexample
+is a case in which that premise holds and the conclusion fails: the maker changed gearbox supplier
+two years ago. The invalidity verdict survives, and it now survives for a reason lesson 1's method
+actually delivers.
+
+**L5-B3: the myth gets all four cells and a checkpoint.** General-to-particular deductive, particular-
+to-particular inductive, general-to-particular inductive (97 bolts in 100), particular-to-general
+deductive (one faulty bolt refutes "all sound"). The two new cells are the ones that kill the myth. A
+checkpoint then makes the reader classify two cases, so the correction is practised rather than
+announced, and it is sourced by derivation from the definitions, which is the route `SOURCES.md` line
+245 told this lesson to take. A new subsection, "How to tell which kind you're looking at", supplies
+the three tests the lesson demanded and never taught: what they said, the shrug test, and charity.
+
+**L5-B4: both gaps are predict blocks**, with a diagnostic line added to each, the move lesson 3's
+review said to copy into the other lessons.
+
+**L5-B5: both answer keys corrected.** Item 6 now names reading 2 as the one people miss, with a
+genuine reading 3 alongside it, and the body gains a paragraph keeping readings 2 and 3 apart and
+saying that a rival cause unrelated to A is none of the four. Item 1 is rebuilt around Weston's third
+rule: the verdict turns on what you had reason to expect about how much plumage varies, and the
+answer says so instead of calling the same sample strong and unrepresentative in consecutive clauses.
+
+**Neutrality, all fifteen.** N1: quiz item 4 is now a gardener, compost and tomato crops, with
+pedagogy's improved fourth option (the same reading as the key, with a test that cannot work, because
+more data of the same kind makes a confounded correlation more certain rather than less confounded).
+No crime, no policy, no council. N2: a closing callout gives Hume's circularity and Popper's denial
+their own paragraph, says the foundations are argued over, and says the tests are worth having
+whichever way that goes; "the only kind that reaches new facts" becomes "the kind that reaches beyond
+what you already have". N3: decision theory is credited and Probability and Decisions named, with the
+honest limit (it helps when reasons come in comparable units, and most don't). N4: a paragraph before
+the four readings says Mill wrote before sampling error, which is why the modern list has four
+readings where his canon has three, and the list now says to rule out chance first because until you
+have, the canon doesn't apply. N5: the heading is "what the slogan leaves out", and the slogan is
+credited as a good objection whose only failure is stopping. N6 to N12: every frequency claim
+replaced by a mechanism; the deduction claim rewritten to concede that a proof tells you plenty and
+to locate the real limit (it adds no premises); the fifth reading pointed forward to lesson 9;
+coverage marked as "a picture rather than a theory"; randomisation added in one sentence with the
+detail handed to The Scientific Method; IBE's status marked as argued over. N13: "the phone's torch",
+and the postcode replaced by a bedroom count. N14: the black swan answer no longer turns on a
+discovery. N15: "my friend" is gone.
+
+**Fact-check, all fourteen.** F1: the arithmetic is now 70% and 85% with their real probabilities, and
+the point is that twelve people cannot tell those two worlds apart. F2 to F6: every Mill quotation
+re-cut to what `SOURCES.md` records. "I add that last clause because" restored; Bennett's insertion
+kept and marked, with a sentence saying what the brackets are; "more especially" restored; "a logical
+process"; and the second canon now quotes only the two recorded fragments with the connecting words
+in the lesson's voice, and the Sources entry says so. F7: heat and expansion deleted. F8: nine pages,
+and Bennett described as rewriting rather than reprinting. F9 and F10: Harman is credited with naming
+and defending the inference and nothing more, with a line saying how he relates it to enumerative
+induction is the paper's argument and is not summarised; the three criteria are now marked in the
+body as the lesson's own statement of the test. F11 and F12: both corrected. F13: all three planned
+courses in the future tense. F14: five sections, and the heading is now "Inference to the best
+explanation".
+
+**Pedagogy and depth.** P1 and P2: nine practice items, three of them deductive, none announcing
+itself in its first word, no two adjacent items sharing a type; the new item 7 is a valid deductive
+argument dressed as a diagnosis, sitting next to the IBE item so the learner has to notice that one
+of them claims a guarantee. P3: not fixed by a new item; see below. P4: the job decision is now
+weighed in the open, with a verdict, naming which reason carries the weight and what would flip it,
+plus a checkpoint contrasting an argument that hides its other side with one that doesn't. P5: three
+blocks added in the last third, two predicts and two checkpoints across IBE and conductive arguments.
+P6: the IBE checkpoint asks the reader to produce a defeater, and a fifth step in the folder exercise
+asks for one on their own argument. P7: free recall lifted out, placed last in the body, and extended
+to cover cogency and conductive arguments, both of which it had omitted. P8: item 3 is named as the
+joint method. P9: all five quiz leaks closed. P10: two figures, both structure and neither needing a
+source, the method of difference as two instances differing in one column, and the four readings as
+four arrow diagrams; both rendered headless at 340px before committing. Five links. P11: `minutes` 55
+to 75, and the outline's "~50 min" corrected.
+
+**Voice.** All eight "Here's" openers rewritten. All fourteen parenthetical citations reduced to the
+bare marker. Five of the eight one-line morals folded, three kept ("It's the system working" in its
+rewritten form, "The dog story predicts pie crumbs in the basket. Go and look.", and the legs-and-
+wheels line). Both pipeline headings and the exercise label renamed. All four uncashed terms cashed
+at first use. The four identical "hypothetically" stampings varied. The contraction-poor mechanism
+paragraph rewritten as speech, which also broke the 51-word sentence into two.
+
+### Deliberately not fixed, with reasons
+
+1. **Objective 3's concomitant-variation half still has no practice item** (L5-P3). The depth reviewer
+   proposed a coffee-and-sleep item where the method of difference is unavailable. It is a good item
+   and it is not in this pass: the practice set already grew from eight to nine, and a tenth item
+   about a personal health habit would have been the only item in the lesson inviting a learner to
+   reason about their own body, which the course's safety note reserves for lesson 6. The gap is real
+   and is logged here for the next pass or for the split.
+2. **The coverage figure was not drawn.** Voice and depth both proposed a population rectangle with
+   the sample as a shaded corner. Two figures already arrived in a lesson that had none, and coverage
+   is carried by the word plus four one-sentence applications, which is doing its job. Reconsider at
+   the split, when part A would be short of media.
+3. **The lesson is not split**, though it passes. BACKLOG 7b says mark the seam and renumber once,
+   before publish. Pedagogy's warning is recorded and agreed: **do the teaching fixes first**, because
+   a part B built from the old text would have contained no worked conductive example and no
+   think-block at all. It now contains both.
+4. **The Weston chapter IV PDF is still not linked** from any lesson, and should not be. See the
+   licensing note above.
+5. **The 1.9%-at-a-half figure is not quoted in the lesson.** It is the sharpest correction to the
+   original sentence, but the teaching point is that twelve people cannot discriminate between two
+   plausible rates, not that a run at even odds is rare. The 70% and 85% figures make that point and
+   are verified.
