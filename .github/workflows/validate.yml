@@ -1,0 +1,28 @@
+name: Validate
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22 }
+      - run: npm ci
+      # Checks the curriculum map against the Core path, then lints every lesson.
+      - run: npm run validate
+      # site/data/courses.js is generated and committed. If a build here changes it,
+      # someone edited content without rebuilding, and the live site is behind.
+      - run: npm run build
+      - name: Check the committed build output is current
+        run: |
+          if ! git diff --quiet -- site/data/courses.js; then
+            echo "site/data/courses.js is out of date. Run 'npm run build' and commit the result."
+            git diff --stat -- site/data/courses.js
+            exit 1
+          fi
