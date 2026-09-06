@@ -4,6 +4,7 @@ Foval Learning Institute is a free, open, general-education online university. C
 
 ## Start here in a new session
 - `docs/BACKLOG.md` — what is in flight, what is next, and every request from John that isn't built yet. Read it first, keep it current.
+- `docs/CHANGELOG.md` — what has already shipped. Check here before rebuilding something that is done.
 
 ## Read these before working on content
 - `docs/VALUES.md` — what the institute stands on. Every decision, and every piece of feedback, runs against this.
@@ -18,6 +19,7 @@ Foval Learning Institute is a free, open, general-education online university. C
 - `courses/<school>/<course-id>/` — course.yaml, research/, lessons/, assessments/
 - `site/` — the static site. `site/data/courses.js` is GENERATED; never edit it by hand.
 - `scripts/build.mjs` — compiles courses/ into site/data/. `npm run build`, `npm run validate`.
+- `scripts/core-path.mjs` — keeps TAXONOMY.md and core-path.yaml agreeing and generates the Core list. Runs inside `npm run validate` and `npm run build`; `npm run path -- --write` to regenerate.
 - `templates/` — starting points for course.yaml, lessons, SOURCES, OUTLINE, REVIEWS.
 - `.claude/commands/` — pipeline stages: /new-course, /research-course, /outline-course, /draft-lesson, /review-lesson, /fact-check, /neutrality-audit, /status.
 - `docs/PLATFORM_ROADMAP.md` — where the platform is going (accounts, review system, credentials, social).
@@ -27,6 +29,7 @@ Foval Learning Institute is a free, open, general-education online university. C
 2. One lesson per drafting session. Do not batch-generate lessons.
 3. Reviews run in fresh-context subagents, never in the same context as the draft.
 4. Every lesson change: run `npm run validate` before committing. Run `npm run build` and commit `site/data/courses.js` when publishing.
+4b. Every course on the map carries a placement decision in the `Path` column of `curriculum/TAXONOMY.md`: a term (`T1` to `T8`) if it belongs on the Foval Core, or `elective` if it does not. Adding a course to the map means making that call in the same edit, following "Placing a course on the Core" in TAXONOMY.md, and adding it to `curriculum/core-path.yaml` when it is on the Core. `npm run validate` fails on a blank cell or on the two files disagreeing. The numbered term list in TAXONOMY.md is generated: `npm run path -- --write`, never by hand.
 5. When a course's status changes, update both `course.yaml` and its row in `curriculum/TAXONOMY.md`. Statuses are planned → research → drafting → published. There is no "review" state and no owner sign-off gate: a course goes live when its lessons have passed Stage 4 and the voice pass, and improves afterwards through the feedback loop. The build includes only `status: published` courses. Never hold a course for the owner to review.
 6. Sensitive domains (standards Part 3.4) require the neutrality audit before publish. No exceptions.
 6b. School of Christian Studies courses carry `standpoint: christian` and follow standards 3.7: taught from within the faith, labelled as such, objections engaged at full strength. Neutral schools never assert or mock religious claims either way.
@@ -34,6 +37,7 @@ Foval Learning Institute is a free, open, general-education online university. C
 8. Lesson content format: YAML frontmatter (title, minutes, objectives, quiz) + Markdown body. `:::callout Title`, `:::exercise Title`, `:::predict Question` (body is the hidden answer), `:::checkpoint Question` (body is the hidden answer), `:::figure <url> | <alt>` (body is the caption with credit and licence), and `:::video <youtube url> | <title>` (body is why to watch) blocks, each closed with `:::`, render as styled elements; predict and checkpoint hide their body behind a button. Media rules are in standards 4.5: real images with credits, YouTube only for video, charts drawn from real data, nothing decorative or AI-generated. Raw HTML is allowed but discouraged.
 9. Site code is plain HTML/CSS/JS with no framework and no build step. Keep it that way; it must run fast on cheap phones.
 10. Commit messages: short imperative subject; body says what changed and why. Content commits name the course and lesson.
+11. Finish the job without asking permission for the routine parts of it. Open the pull request when the work on a branch is done, and merge it once its checks are green, rather than asking whether to. Make the ordinary judgement calls (which term a course belongs in, whether a suggestion duplicates something already on the map, how to word a note) and say what you decided and why. Bring John a decision only when it changes what the institute claims or teaches, or when two readings of a request would produce genuinely different work. Rule 5 already says the same thing about publishing: never hold work for his review.
 
 ## Local preview
 `npm run build && npm run serve` then open http://localhost:4173
