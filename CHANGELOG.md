@@ -42,3 +42,4 @@ All notable changes to Foval Learning Institute: courses published, platform fea
 ## 2026-09-06
 - Homepage: a "What makes this different" section below the hero. Three panels (thinking while you read, spaced review, the Christian Standpoint label) and John's one ask about the feedback form. Every picture is a real screenshot of the live site, captured at phone and desktop width in both themes and swapped with `<picture>` on `prefers-color-scheme`, so a dark reader never gets a photograph of a light page.
 - Fixed: the Review card's "Next" button was visible before the reader answered, because `.btn { display: inline-flex }` outranks the user agent's `[hidden]` rule.
+- Researched what to put in front of D1 for accounts and wrote `docs/AUTH_OPTIONS.md`, a decision memo with four options and a recommendation. Corrected `BACKLOG.md` 8b, which still said accounts were blocked on a Supabase project slot; they are not, and have not been since the move to Cloudflare.

@@ -244,17 +244,42 @@ genre lesson" survives any reordering; "lesson 3" does not.
 - **FLI ideas** (subtle, not the main thing): "FLI" reads as "fly": a light touch such as "Fly high with us" on the support page or the store, and donors as members of "the FLI Club" with a small mark on their achievements page and early access to new courses. Alternative expansions to consider for a tagline or a store line: "Faith, Learning, Ideas"; "Faith. Learning. Integrity."; "Free Learning Institute". Keep it to one or two places; the institute's name stays the main thing.
 
 
-## 8b. Supabase backend: blocked on a free-tier project slot (investigated 2026-09-05)
+## 8b. Accounts backend: NOT blocked. Corrected 2026-09-06.
 
-Accounts, cross-device sync, verifiable certificates, the achievements page, and a working feedback endpoint all unblock together once there is a Supabase project. John asked the agent to set it up; the agent is signed in to his dashboard (GitHub OAuth, his session).
+**The old entry here was wrong and has been replaced.** It said accounts were blocked on a Supabase
+free-tier project slot, waiting on John to delete an empty project. That stopped being true when the
+project moved to Cloudflare. There is a working Cloudflare account, a deployed Worker and a D1
+database (`workers/feedback/`, database `foval-feedback`), proven end to end on the live site. D1 is
+a real SQL database and it is enough for profiles, lesson progress, review items and study sessions.
+Nothing is blocked. Accounts simply have not been built.
 
-**The blocker.** Supabase free tier allows 2 projects per member. John Org already has 3: **Mainline** (active), **math-quest** (active), **John Project** (paused). Supabase therefore refuses both *creating* a new project and *resuming* the paused one. Existing projects are grandfathered; only new/resumed ones are blocked.
+Do not go back to Supabase for this. It reopens the project-slot problem the Cloudflare move already
+solved and puts a second vendor in the path of every sign-in. (The old investigation is still worth
+keeping for one fact: the paused **John Project**, ref `ebkuhylfhyfretagpczf`, was confirmed empty on
+2026-09-05, `auth.users` 0 rows, `storage.buckets` 0 rows, not referenced by any repo or deployment.
+It is safe for John to delete whenever he wants the slot back. Nothing here needs it.)
 
-**Ways out:** delete one project, upgrade the org to Pro ($25/month, John must purchase), or repurpose an existing project. Repurposing sidesteps the limit because it creates nothing, but repurposing John Project still needs a resume, which is blocked, so a slot has to be freed either way.
+**What is actually open:** Cloudflare does not provide authentication, so the one real decision is
+what to put in front of D1. Researched and written up as a decision memo in **`docs/AUTH_OPTIONS.md`**
+with four options, the tradeoffs, and a recommendation. **Put to John 2026-09-06, awaiting his answer.
+Do not start building until he picks.**
 
-**What John Project is: settled 2026-09-05. It is empty.** Ref `ebkuhylfhyfretagpczf`. Its database backup was downloaded from the paused project (works without resuming) and read locally. The only object in the `public` schema is a table called `keepalive` holding just `id` and `created_at`, which is the standard trick for pinging a free project so it does not auto-pause. Everything else in the dump is Supabase's own `auth`, `storage` and `realtime` system schemas. `auth.users` has 0 rows and `storage.buckets` has 0 rows. It is not Memory-App's backend (Memory-App's schema would show `profiles`, `content_sets`, `items`, `reviews`, `card_results`) and it is not referenced by any repo, Actions secret, Vercel project, or local file. It is a throwaway with nothing in it. Safe to delete. A copy of the dump is in John's Downloads as `db_cluster-23-08-2026@00-45-32.backup.gz`.
+The short version: write the session layer in the Worker we already have, ship Google sign-in and
+six-digit email codes first, and add email-and-password later. The reason for that order is that
+Workers Free allows 10 ms of CPU per request and password hashing costs 50 to 100 ms, so passwords
+alone are what pushes this onto the $5 a month Workers Paid plan. Every other sign-in method is free.
+The alternative worth taking seriously is Better Auth self-hosted in the Worker, which has a
+first-class D1 dialect and writes to the same schema, so choosing it later costs nothing.
 
-**The plan, awaiting one click from John.** Reusing the project would need a resume, which the free-tier limit blocks, so the working path is: John deletes John Project at https://supabase.com/dashboard/project/ebkuhylfhyfretagpczf/settings/general (the agent does not perform permanent deletions), which frees a slot, then the agent creates a fresh project named `foval-learning-institute` and builds the schema, RLS, and auth from the Phase 2 spec in `docs/PLATFORM_ROADMAP.md`. Net project count stays at 3. Cost stays $0.
+**One design constraint that comes out of the research and holds under any option:** since
+1 September 2026 D1 free-plan queries *fail* when the daily caps are hit, and the binding cap is
+**100,000 row writes a day**, not storage. So progress is one row per learner per course, updated in
+place, and review items flush on a timer and on sign-out rather than on every answered card. The
+browser stays the source of truth and the site keeps working with no network.
+
+**Session note:** `wrangler` is not authenticated in the agent sessions running on Claude Code on the
+web, and the network policy there blocks `workers.dev` and the live site. The Worker can be written
+and tested locally in such a session, but the deploy needs credentials.
 
 ## 8c. Going private: what has to move first (opened 2026-09-05)
 
