@@ -17,6 +17,12 @@ All notable changes to Foval Learning Institute: courses published, platform fea
 - Revised Keystone Arch mark installed (header, icon, certificate seal).
 
 ## 2026-09-05
+- Custom domain live and secure at https://www.fovallearninginstitute.org, with HTTPS enforced.
+- Bible Basics switched from the ESV to the NET Bible across all twelve lessons; Editorial Standards 4.7 added, covering which translation to quote and why. The ESV's free allowance excludes Creative Commons works and Bible reference works, and this course is both.
+- Bible Basics lessons 1 and 2 through Stage 4 review and fixed. Logic and Argument lesson 2 reviewed, findings recorded, fixes pending.
+- `scripts/build.mjs` now lints every lesson including drafts: em dashes, ESV quotations, unparseable frontmatter, dark SVG fills, sub-15px SVG labels, link-free bodies, and argument displays whose conclusion would render inside the previous premise.
+- Nine argument displays in Logic lessons 4, 5 and 7 fixed; they had been rendering with the conclusion folded into the last premise.
+- SVG text and shape fills across 13 lessons converted to theme tokens so diagrams follow the reader's light or dark theme.
 - Feedback endpoint live: Cloudflare Worker (`workers/feedback/`) backed by a D1 database, wired into the site. Write-only, origin-restricted, stores no IP or user agent. Read with `npm run feedback`.
 - Value 9 reworded from open source code to openness about the teaching, in `docs/VALUES.md` and on the About page.
 - "About" added to the main navigation; footer rebuilt as a real two-column menu.
