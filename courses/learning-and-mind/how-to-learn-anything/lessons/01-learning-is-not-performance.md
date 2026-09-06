@@ -64,18 +64,22 @@ Retrieval strength is how accessible the memory is right now. It rises with rece
 
 The childhood phone number has high storage strength and low retrieval strength today. The number from thirty seconds ago has high retrieval strength and very little storage strength. So the two can come apart in both directions, and that's the whole reason the distinction is worth having.
 
-I should say plainly that this is the Bjorks' model. It is one model among several of how memory works, and researchers argue about the details. The experiments you'll meet in the rest of this lesson are real whichever model you prefer; the two strengths are the clearest way I know to read them.
+I should say plainly that this is [the Bjorks' model](https://bjorklab.psych.ucla.edu/wp-content/uploads/sites/13/2016/04/EBjork_RBjork_2011.pdf). It is one model among several of how memory works, and researchers argue about the details. The experiments you'll meet in the rest of this lesson are real whichever model you prefer; the two strengths are the clearest way I know to read them.
 
 Here is the problem the model exposes. Every test you give yourself in the moment, every "yes, I know this" as you look over a page, measures retrieval strength. What you actually want for an exam next month, a conversation next year, or a skill for life is storage strength. And you have no direct sense of storage strength at all. You infer it from how easy things feel now.
 
 There's one more rule in the model, and it's the one that does the real work. The Bjorks propose that the gain in storage strength from a study or retrieval event is larger the lower the memory's current retrieval strength is at the time.[1][2] Put crudely: you build the most when the thing is hardest to bring to mind. That single rule predicts that recalling beats rereading (the answer isn't in front of you), that a gap between sessions helps (retrieval strength has dropped), and that mixing topics helps (each one is less accessible when you come back to it). Lessons 3, 4 and 5 take each of those in turn. For now, hold on to the rule.
+
+:::video https://www.youtube.com/watch?v=1FQoGUCgb5w | Robert Bjork: storage strength versus retrieval strength
+Five minutes of Bjork explaining the distinction you have just read, in his own words: why an accessible memory is not the same as a well-learned one, and why what you can produce today misleads you about what you have built. Hearing the model from its author is a second pass at the idea before the lesson starts using it.
+:::
 
 :::checkpoint Your friend says she "has forgotten" all the French she learned at school, because she can't say anything in it any more. In the Bjorks' terms, which strength is she reporting, and what does the model predict about a month of relearning?
 She is reporting low retrieval strength: the French isn't accessible now. If she learned it well and used it for years, storage strength is high, and the model says it doesn't decrease. So relearning should be fast, much faster than learning it the first time, because each retrieval event on a high-storage, low-retrieval memory brings it back quickly.
 :::
 
 :::callout Learning versus performance
-Nicholas Soderstrom and Robert Bjork reviewed nearly a century of research on this gap and concluded that performance during practice is an unreliable index of learning, and that some study conditions move the two in opposite directions: they make you look better today and remember less later (Soderstrom & Bjork, 2015).[3] That sentence is the one to test every study session against.
+Nicholas Soderstrom and Robert Bjork [reviewed nearly a century of research](https://bjorklab.psych.ucla.edu/wp-content/uploads/sites/13/2016/07/Soderstrom_Bjork_Learning_versus_Performance.pdf) on this gap and concluded that performance during practice is an unreliable index of learning, and that some study conditions move the two in opposite directions: they make you look better today and remember less later (Soderstrom & Bjork, 2015).[3] That sentence is the one to test every study session against.
 :::
 
 ## Why familiarity gets read as knowledge
@@ -94,7 +98,7 @@ Koriat and Bjork built two kinds of pairs: ones where the link runs forward from
 
 Rereading a chapter is that situation on a large scale. Every sentence is a cue with its answer sitting right next to it.
 
-A review by Bjork, John Dunlosky and Nate Kornell summarises the pattern across many studies: judgements of learning track fluency and current performance, so they are wrong in a predictable direction (Bjork, Dunlosky & Kornell, 2013).[5] One study they discuss makes the point with numbers. Jeffrey Karpicke and Janell Blunt had 120 students learn a science text two ways, once by drawing a concept map with the text in front of them, and once by closing the text and writing down what they could recall (Karpicke & Blunt, 2011).[6] On a test a week later, 84% of the students did better on the material they had recalled. Yet during the learning session, before any test, 90 of the 120 had predicted that concept mapping would work as well as or better than recall (49% said better, 26% said the same).[6] The prediction was made while the text was open and the map was taking shape, which is to say while everything felt fluent.
+A review by Bjork, John Dunlosky and Nate Kornell summarises the pattern across many studies: judgements of learning track fluency and current performance, so they are wrong in a predictable direction (Bjork, Dunlosky & Kornell, 2013).[5] One study they discuss makes the point with numbers. Jeffrey Karpicke and Janell Blunt [had 120 students learn a science text two ways](https://learninglab.psych.purdue.edu/downloads/2011/2011_Karpicke_Blunt_Science.pdf), once by drawing a concept map with the text in front of them, and once by closing the text and writing down what they could recall (Karpicke & Blunt, 2011).[6] On a test a week later, 84% of the students did better on the material they had recalled. Yet during the learning session, before any test, 90 of the 120 had predicted that concept mapping would work as well as or better than recall (49% said better, 26% said the same).[6] The prediction was made while the text was open and the map was taking shape, which is to say while everything felt fluent.
 
 The bias has consequences beyond feeling good. Dunlosky and Katherine Rawson found that students whose judgements of their own learning were overconfident dropped items from practice sooner and recalled less two days later (Dunlosky & Rawson, 2012).[7] The illusion flatters you, and it also decides when you stop.
 
@@ -106,7 +110,7 @@ Because it shows the illusion at the moment it does damage. While you're studyin
 
 Before you read the results, commit to a prediction. Write it down or say it out loud; it matters that you can't quietly revise it afterwards.
 
-Henry Roediger and Jeffrey Karpicke ran a study at Washington University in St. Louis that has become the founding experiment of modern research on testing (Roediger & Karpicke, 2006).[8] Each student read two short prose passages. One passage they then restudied: read it again. The other they closed and wrote down everything they could recall, with no feedback. So every student did both things, on different passages, and the comparison is within the same people.
+Henry Roediger and Jeffrey Karpicke [ran a study](https://learninglab.psych.purdue.edu/downloads/2006/2006_Roediger_Karpicke_PsychSci.pdf) at Washington University in St. Louis that has become the founding experiment of modern research on testing (Roediger & Karpicke, 2006).[8] Each student read two short prose passages. One passage they then restudied: read it again. The other they closed and wrote down everything they could recall, with no feedback. So every student did both things, on different passages, and the comparison is within the same people.
 
 Later, everyone took a final recall test on both passages. Some took it five minutes after the study session, some two days later, some a week later.
 
@@ -118,7 +122,44 @@ At five minutes, restudy won: 81% recalled, against 75% for the recall condition
 
 At two days, the order had flipped: the recalled passage came back at 68%, the restudied one at 54%.[8] That is a large effect (d = 0.95, in the units researchers use; Jacob Cohen's rule of thumb, still the one most people quote, calls 0.2 small, 0.5 medium and 0.8 large).[9]
 
-At one week, the recalled passage scored 56% and the restudied one 42%.[8] Restudy had lost nearly half of what it had at five minutes; recall had lost a quarter. The one-week effect size was d = 0.83.
+At one week, the recalled passage scored 56% and the restudied one 42%.[8] Restudy had lost nearly half of what it had at five minutes; recall had lost a quarter. The one-week effect size was d = 0.83. The chart below draws all six numbers; the crossover between the two lines is the whole lesson in one picture.
+
+<svg viewBox="0 0 584 352" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:584px;display:block;margin:1.5em auto;font-family:system-ui,sans-serif" role="img" aria-labelledby="rk-title rk-desc">
+  <title id="rk-title">The Roediger and Karpicke crossover: restudy wins at five minutes, recall wins later</title>
+  <desc id="rk-desc">A line chart with two lines. The restudy line starts at 81 percent at five minutes, falls to 54 percent at two days and 42 percent at one week. The recall line starts lower, at 75 percent at five minutes, but falls more slowly, to 68 percent at two days and 56 percent at one week. The lines cross between five minutes and two days, and the recall line ends 14 points higher.</desc>
+  <text x="20" y="22" font-size="17" font-weight="700" fill="var(--text, #1a1a1a)">Percent recalled on the final test</text>
+  <line x1="70" y1="83" x2="520" y2="83" stroke="var(--line, #d9d9d9)" stroke-width="1"/>
+  <line x1="70" y1="150" x2="520" y2="150" stroke="var(--line, #d9d9d9)" stroke-width="1"/>
+  <line x1="70" y1="217" x2="520" y2="217" stroke="var(--line, #d9d9d9)" stroke-width="1"/>
+  <text x="26" y="88" font-size="15" fill="var(--text-2, #4a5260)">80%</text>
+  <text x="26" y="155" font-size="15" fill="var(--text-2, #4a5260)">60%</text>
+  <text x="26" y="222" font-size="15" fill="var(--text-2, #4a5260)">40%</text>
+  <rect x="340" y="44" width="15" height="6" fill="var(--oxblood, #8b1e2d)"/>
+  <text x="364" y="53" font-size="15" fill="var(--text, #1a1a1a)">Read the passage again</text>
+  <rect x="340" y="66" width="15" height="6" fill="var(--navy, #0f2a4a)"/>
+  <text x="364" y="75" font-size="15" fill="var(--text, #1a1a1a)">Wrote it from memory once</text>
+  <polyline points="130,80 320,170 500,210" fill="none" stroke="var(--oxblood, #8b1e2d)" stroke-width="3"/>
+  <polyline points="130,100 320,123 500,163" fill="none" stroke="var(--navy, #0f2a4a)" stroke-width="3"/>
+  <circle cx="130" cy="80" r="4" fill="var(--oxblood, #8b1e2d)"/>
+  <circle cx="320" cy="170" r="4" fill="var(--oxblood, #8b1e2d)"/>
+  <circle cx="500" cy="210" r="4" fill="var(--oxblood, #8b1e2d)"/>
+  <circle cx="130" cy="100" r="4" fill="var(--navy, #0f2a4a)"/>
+  <circle cx="320" cy="123" r="4" fill="var(--navy, #0f2a4a)"/>
+  <circle cx="500" cy="163" r="4" fill="var(--navy, #0f2a4a)"/>
+  <text x="130" y="66" font-size="15" font-weight="700" text-anchor="middle" fill="var(--oxblood, #8b1e2d)">81%</text>
+  <text x="320" y="192" font-size="15" font-weight="700" text-anchor="middle" fill="var(--oxblood, #8b1e2d)">54%</text>
+  <text x="500" y="232" font-size="15" font-weight="700" text-anchor="middle" fill="var(--oxblood, #8b1e2d)">42%</text>
+  <text x="106" y="122" font-size="15" font-weight="700" text-anchor="middle" fill="var(--navy, #0f2a4a)">75%</text>
+  <text x="320" y="113" font-size="15" font-weight="700" text-anchor="middle" fill="var(--navy, #0f2a4a)">68%</text>
+  <text x="500" y="153" font-size="15" font-weight="700" text-anchor="middle" fill="var(--navy, #0f2a4a)">56%</text>
+  <line x1="70" y1="250" x2="520" y2="250" stroke="var(--line, #d9d9d9)" stroke-width="2"/>
+  <text x="130" y="272" font-size="15" text-anchor="middle" fill="var(--text, #1a1a1a)">5 minutes</text>
+  <text x="320" y="272" font-size="15" text-anchor="middle" fill="var(--text, #1a1a1a)">2 days</text>
+  <text x="500" y="272" font-size="15" text-anchor="middle" fill="var(--text, #1a1a1a)">1 week</text>
+  <text x="295" y="294" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">Delay before the final test (spacing not to scale)</text>
+  <text x="20" y="324" font-size="15" fill="var(--text-2, #4a5260)">Data: Roediger and Karpicke (2006), experiment 1. Each student</text>
+  <text x="20" y="344" font-size="15" fill="var(--text-2, #4a5260)">restudied one prose passage and free-recalled the other.</text>
+</svg>
 
 :::checkpoint Take the two-strengths model and explain the five-minute result and the one-week result with it. Which strength did rereading raise, and which did recalling raise? Say it in two sentences before you look.
 Here's mine. Rereading pushed retrieval strength up fast, which is why it won at five minutes, and did little for storage strength, so by a week most of what it built had drained away. Writing the passage from memory was an attempt to retrieve something with lower retrieval strength (the page was closed), which by the Bjorks' rule is exactly when the storage gain is biggest; it scored worse in the moment and was the only condition that built anything durable.
@@ -132,7 +173,7 @@ So: at five minutes, bet on rereading. At a week, bet on retrieval. If you have 
 
 You might hope that experience would fix the illusion. If your own test showed that method B beat method A, surely you'd switch to B. Here is the harder case.
 
-Nate Kornell and Robert Bjork asked people to learn the painting styles of twelve artists, six paintings each (Kornell & Bjork, 2008).[10] The task was to look at a painting they had never seen and say which of the twelve artists painted it: not memorising the paintings, but learning to recognise a style.
+Nate Kornell and Robert Bjork [asked people to learn the painting styles of twelve artists](https://bjorklab.psych.ucla.edu/wp-content/uploads/sites/13/2016/07/Kornell_Bjork_2008_PsychScience.pdf), six paintings each (Kornell & Bjork, 2008).[10] The task was to look at a painting they had never seen and say which of the twelve artists painted it: not memorising the paintings, but learning to recognise a style.
 
 For some artists, the six paintings were shown one after another in a block. For others, the paintings were spread out among other artists' work, so a painting by one artist was followed by a painting by a different one. The paper calls these massed and spaced; lesson 5 will call the second one interleaving and explain why it helps. For now the point is what the learners believed about it.
 
@@ -158,7 +199,7 @@ A score per condition. They got item-by-item feedback in the first experiment an
 
 "If it feels easy and fluent, I've learned it." Ease measures retrieval strength now. Bjork and Bjork put it this way: learners mistake current retrieval strength for storage strength (Bjork & Bjork, 2011).[1] The painters study shows the feeling doesn't correct itself when your own performance says otherwise. Treat ease during study as information about the present, not a promise about the future.
 
-"Rereading and highlighting are studying." They are the most common study methods, which is part of why the illusion is so widespread. When Karpicke, Andrew Butler and Roediger surveyed 177 undergraduates at a selective university, 84% listed rereading among their strategies and 55% ranked it first; only 11% mentioned self-testing (Karpicke, Butler & Roediger, 2009).[12] Dunlosky and colleagues, in the most thorough review of study techniques to date, rated rereading and highlighting as low utility. They also report one study in which highlighting hurt performance on questions that required inference, presumably because it pulls attention to isolated phrases rather than to how ideas connect; they note it needs replicating (Dunlosky et al., 2013).[13] The two techniques they rated highest, practice testing and spreading study out over time, are the subject of lessons 3 and 4. Rereading does have a role: use it for what you could not retrieve, after you have tried.
+"Rereading and highlighting are studying." They are the most common study methods, which is part of why the illusion is so widespread. When Karpicke, Andrew Butler and Roediger surveyed 177 undergraduates at a selective university, 84% listed rereading among their strategies and 55% ranked it first; only 11% mentioned self-testing (Karpicke, Butler & Roediger, 2009).[12] Dunlosky and colleagues, in [the most thorough review of study techniques to date](https://doi.org/10.1177/1529100612453266), rated rereading and highlighting as low utility. They also report one study in which highlighting hurt performance on questions that required inference, presumably because it pulls attention to isolated phrases rather than to how ideas connect; they note it needs replicating (Dunlosky et al., 2013).[13] The two techniques they rated highest, practice testing and spreading study out over time, are the subject of lessons 3 and 4. Rereading does have a role: use it for what you could not retrieve, after you have tried.
 
 "Self-testing tells you what you know. It doesn't teach you anything." This is the belief that keeps students rereading even when they own flashcards. Kornell and Bjork asked 472 UCLA students why they self-test. Only 18% said it was because they learn more that way; 68% said they did it to find out how well they had learned the material, and 9% didn't self-test at all (Kornell & Bjork, 2007).[14] Most people, in other words, use the best learning tool they have as a thermometer. Roediger and Karpicke's students who closed the book weren't measuring anything; they were building storage strength, and it showed a week later.
 
@@ -199,11 +240,11 @@ The reason this lesson comes first is that it changes what "did that study sessi
 
 ## Go deeper
 
-- Bjork & Bjork, "Making things hard on yourself, but in a good way" (2011): nine pages, free from the Bjork Learning and Forgetting Lab website; the clearest statement of the two-strengths idea by the people who developed it.
+- Bjork & Bjork, ["Making things hard on yourself, but in a good way"](https://bjorklab.psych.ucla.edu/wp-content/uploads/sites/13/2016/04/EBjork_RBjork_2011.pdf) (2011): nine pages, free from the Bjork Learning and Forgetting Lab website; the clearest statement of the two-strengths idea by the people who developed it.
 - Brown, Roediger & McDaniel, *Make It Stick* (2014), chapters 1 and 5: "Learning Is Misunderstood" and "Avoid Illusions of Knowing"; the narrative version of this lesson, written by two of the field's central figures.
-- Soderstrom & Bjork, "Learning Versus Performance: An Integrative Review" (2015): for readers who want the full evidence that practice performance and long-term learning can move in opposite directions.
-- Carpenter, Pan & Butler, "The science of effective learning with spacing and retrieval practice", *Nature Reviews Psychology* 1, 496–511 (2022): the current review of the two techniques this lesson points towards, with the boundary conditions the older papers didn't have.
-- Dunlosky, "Strengthening the Student Toolbox" (*American Educator*, 2013): free, plain-English ratings of ten study techniques, so you can check your own audit against the evidence.
+- Soderstrom & Bjork, ["Learning Versus Performance: An Integrative Review"](https://bjorklab.psych.ucla.edu/wp-content/uploads/sites/13/2016/07/Soderstrom_Bjork_Learning_versus_Performance.pdf) (2015): for readers who want the full evidence that practice performance and long-term learning can move in opposite directions.
+- Carpenter, Pan & Butler, ["The science of effective learning with spacing and retrieval practice"](https://doi.org/10.1038/s44159-022-00089-1), *Nature Reviews Psychology* 1, 496–511 (2022): the current review of the two techniques this lesson points towards, with the boundary conditions the older papers didn't have.
+- Dunlosky, ["Strengthening the Student Toolbox"](https://www.aft.org/ae/fall2013/dunlosky) (*American Educator*, 2013): free, plain-English ratings of ten study techniques, so you can check your own audit against the evidence.
 
 ## Sources
 

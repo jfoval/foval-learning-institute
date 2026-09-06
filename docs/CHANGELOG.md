@@ -8,6 +8,22 @@ Everything from the founding onwards is here. Entries before 2026-09-06 came fro
 
 ## 2026-09-06 (podcast pipeline session)
 
+**How to Learn Anything lesson 1: media pass (marching-order item 2b, first of eight)**
+
+- A line chart of the Roediger and Karpicke (2006) crossover, drawn inline from the six real
+  percentages with theme tokens, direct value labels, and the source in the caption. The
+  standards name this exact chart as the kind worth drawing.
+- Robert Bjork explaining storage versus retrieval strength in his own words: a five-minute
+  gocognitive interview embedded where the model is introduced. Availability verified via
+  YouTube oEmbed before embedding.
+- Six links in the body, each to a verified free copy: Bjork & Bjork 2011 and Soderstrom &
+  Bjork 2015 (Bjork lab PDFs), Roediger & Karpicke 2006 and Karpicke & Blunt 2011 (Purdue
+  learning-lab PDFs), Kornell & Bjork 2008 (Bjork lab), Dunlosky et al. 2013 (DOI). Go deeper
+  entries linked too. The lesson's "no links in the body" lint warning is gone.
+- Verified by headless capture in both themes at phone and desktop width: chart legible
+  everywhere, video poster loads, no token collisions (one --navy/--line-strong collision the
+  linter caught was fixed before commit).
+
 **How to Learn Anything: the six shipped answer leaks fixed; the lint now bites**
 
 - Marching-order item 2(a). The six prompts in the live course that told the reader to answer
