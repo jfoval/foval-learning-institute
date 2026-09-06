@@ -226,6 +226,27 @@
       </figure>`;
   }
 
+  function tileShot(name, label, line, alt) {
+    return `<figure class="shot">
+        <picture>
+          <source media="(prefers-color-scheme: dark)" srcset="${SHOTS}${name}-dark-phone.png">
+          <img src="${SHOTS}${name}-light-phone.png" alt="${esc(alt)}" loading="lazy" decoding="async">
+        </picture>
+        <figcaption><b>${esc(label)}</b>${esc(line)}</figcaption>
+      </figure>`;
+  }
+
+  const WHY_TILES = [
+    ["tile-quiz", "The quiz argues back", "Right and wrong are marked, then it says why yours was wrong.",
+      "A quiz question after answering, one option marked correct in green, the chosen one marked wrong in red, and the explanation beginning below."],
+    ["tile-exercise", "Work to do", "At least one thing per lesson you do on paper, before the quiz.",
+      "An exercise block headed Do it now, asking the reader to audit their own study habits."],
+    ["tile-code", "Real material", "Code you run, data you read, sources you can go and check.",
+      "A Python lesson showing three runnable for-loops with their output in comments, and the paragraph explaining range."],
+    ["tile-transcript", "A record that adds up", "Lessons, hours, retention, streak. What you can still do, not what you saw.",
+      "The transcript page showing courses completed, lessons completed, hours of study, questions in the review bank, retention and day streak."],
+  ];
+
   const WHY_PANELS = [
     {
       shot: ["predict",
@@ -257,6 +278,11 @@
         <p class="why-lede">Every lesson is written from the standard references in its field, then read again in a separate pass for accuracy and for balance. Where a question is genuinely open, you get the disagreement at full strength instead of a tidy answer. Everything below is a photograph of the live site, not a drawing of one.</p>
         <div class="why-rows">
           ${WHY_PANELS.map(p => `<div class="why-row">${shot(...p.shot)}<div class="why-copy"><h3>${esc(p.title)}</h3><p>${esc(p.body)}</p></div></div>`).join("")}
+        </div>
+        <h3 class="why-strip-head">A lesson page is more than words</h3>
+        <p class="why-strip-lede">Charts drawn from real data, and short video where somebody explains a thing better than we can, are in the courses being written now and reach the site the day those courses publish. Here is what is already on every lesson.</p>
+        <div class="why-strip">${WHY_TILES.map(t => tileShot(...t)).join("")}</div>
+        <div class="why-rows">
           <div class="why-row why-ask">
             ${shot("feedback",
               "The feedback form at the foot of a lesson, asking how clear it was and what would have made it better.",

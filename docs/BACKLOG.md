@@ -120,14 +120,37 @@ A third way in, alongside the Foval Core and free choice. Spec:
 - **Verifiable certificates** need Phase 2 (accounts) so a certificate ID can be looked up at `/verify/<id>`; until then the share page is self-attested and says so.
 - **Accreditation:** documented in `docs/PLATFORM_ROADMAP.md` Phase 3. Realistic path: Open Badges 3.0 issuance, LinkedIn "Add to profile" fields, employer or institution partnerships, and rigorous public assessments. Formal accreditation as a degree-granting institution is a multi-year regulatory process; revisit when there are learners and a track record. Research options for a certificate mark that is honest ("Foval Learning Institute Certificate of Completion, not accredited credit").
 
-## 6. Podcast for every lesson (not started; John learns best this way)
+## 6. Podcast for every lesson (researched 2026-09-06, awaiting John; he learns best this way)
 
-Goal: a two-voice conversational audio version of each lesson, playable on the lesson page.
+**The 2026-09-04 note here was out of date and is replaced.** NotebookLM became Gemini
+Notebook in July 2026 and Google now documents an audio-overview API. It belongs to Gemini
+Notebook Enterprise, sold per licence with a fifteen-licence minimum, so about $135 a month
+for a project whose hosting bill is $0. The API exists and we cannot use it. The unofficial
+library that drives the consumer product is against Google's terms and breaks on UI changes;
+not for something with the institute's name on it. The consumer product is still free by hand.
 
-- **NotebookLM** has no public API for Audio Overviews as of the last check; generation is manual in the app (upload the lesson Markdown as a source, click Generate Audio Overview, download the file). Workable for a first batch of 8–20 lessons by hand, not for hundreds. Also check whether Google has since released an API (Gemini API "audio overview" or NotebookLM Enterprise).
-- **Better automated option:** generate a conversation script from the lesson with Claude (two named hosts, a curious learner and a teacher, following the style guide, ~10–15 minutes, covering the reason to care, the mechanism, the worked examples, and the misconceptions, and never inventing facts not in the lesson), then render with a multi-speaker TTS: Gemini 2.5 TTS multi-speaker, ElevenLabs (two voices, dialogue mode), or OpenAI TTS. Store MP3s under `site/assets/audio/<course>/<lesson>.mp3` (or a CDN if the repo gets heavy; GitHub Pages has a 1 GB soft limit, so plan for external storage early: Cloudflare R2 free tier).
-- **Pipeline:** `scripts/podcast.mjs` that takes a lesson path, writes `audio/<lesson>.script.md`, calls the TTS API, writes the MP3, and adds `audio: <path>` to the lesson frontmatter; the build renders an `<audio>` player at the top of the lesson with a "Listen instead" label and a transcript toggle. Add a `/make-podcast <lesson>` command. Scripts get a light fact-check against the lesson before rendering.
-- Style: warm, real conversation, no hype, no "welcome to the show" filler. The hosts should be named and consistent across the institute.
+Full memo with costs and a recommendation: **`docs/PODCAST_OPTIONS.md`**. **Put to John
+2026-09-06.** The recommendation, short version:
+
+1. Free, this week: generate audio by hand in Gemini Notebook for three lessons of How to
+   Learn Anything, add a "Listen instead" player, and find out whether anyone presses play
+   before spending anything. Label them as machine-made summaries, because that is what they
+   are; we did not write the script and standards 2 has not been met on it.
+2. If people listen, build `scripts/podcast.mjs`: Claude writes a two-host script from the
+   lesson, the script is fact-checked against the lesson the way a draft is, then a two-voice
+   TTS renders it. The script being a reviewable artefact is the whole reason to prefer this
+   over an Audio Overview.
+3. Engine by listening, not by spreadsheet. Gemini Flash TTS is about **$0.13** a
+   twelve-minute episode; ElevenLabs text to dialogue is about **$1.90**, roughly fifteen
+   times more, and reviewers say it holds up better across a long episode. Render one lesson
+   both ways for about $2 and let John pick.
+4. **Files go to Cloudflare R2, not git.** A twelve-minute mono MP3 at 64 kbps is about 6 MB:
+   160 MB for the 28 live lessons, about 8 GB for all 1,400 planned. GitHub Pages has a 1 GB
+   soft limit. R2 free tier is 10 GB with no egress charge, and we are already on Cloudflare.
+
+Needs from John: a Gemini or ElevenLabs key, approval to spend (about $2 to compare, about $4
+to do all 28 live lessons on Gemini), names for the two hosts, and a yes or no on the by-hand
+batch. Nothing has been spent.
 
 ## 7. Homepage: what makes the institute unique (shipped 2026-09-06)
 
@@ -140,17 +163,28 @@ panel: `<name>-{light,dark}-{phone,desktop}.png`, chosen by a `<picture>` elemen
 `prefers-color-scheme` and viewport width, so a dark reader never gets a photograph of a light page
 and a phone gets the phone capture. Verified rendering in all four combinations.
 
-**What was cut, and why.** The spec asked for four screenshots including "a lesson with a chart and a
-video". No live course has either. How to Learn Anything, the only live course through the pipeline,
-has zero `:::figure`, zero `:::video` and zero inline SVG across all eight lessons, and its media
-pass is still outstanding. Rather than fake one or ship an empty labelled slot, "written from the
-sources and fact-checked" moved into the section lede where it needs no photograph, and the section
-runs three panels instead of four. **When a course with real charts and video publishes, add a fourth
-panel**: capture it with the script pattern in the commit, add
-`chart-{light,dark}-{phone,desktop}.png`, and push an entry onto `WHY_PANELS`.
+Below the three panels sits a strip of four tiles, "A lesson page is more than words": a marked quiz
+question with its explanation, an exercise, a Python code block, and the transcript stat cards. All
+four are live, published courses. They are phone captures at every width, because each is a narrow
+object that a phone frames best, and on a phone the strip becomes one swipeable row rather than two
+thousand pixels of scrolling.
+
+**What is still missing, and why.** The spec asked for "a lesson with a chart and a video", and John
+has since asked again for screenshots showing the video links and graphics. **No published course has
+any.** How to Learn Anything, the only live course through the pipeline, has zero `:::figure`, zero
+`:::video` and zero inline SVG across all eight lessons. The media exists in **Bible Basics** (15
+figures, 17 videos, 14 inline SVG charts across 12 lessons) and a little in **Logic and Argument**
+(1 figure, 2 videos, 4 SVGs), and both are `status: drafting`, so no learner can reach them. A
+homepage panel advertising a course nobody can open is worse than no panel.
+
+**So this is queued on a publish, not on design work.** The day Bible Basics or Logic goes to
+`published`, add a fourth panel: capture the chart and the video block with the same script pattern,
+save `chart-{light,dark}-{phone,desktop}.png` under `site/assets/media/screens/`, and push an entry
+onto `WHY_PANELS` in `app.js`. Half an hour of work. The strip lede already tells visitors this is
+coming, so the copy needs no change.
 
 The podcast is named in the ask block as not built yet, in one line, rather than given a panel. It
-gets a panel when it exists.
+gets a panel when it exists (see section 6).
 
 **Content note for whoever owns `courses/`:** How to Learn Anything is the institute's shop window
 and it currently has no images, no charts, no video and no links in any lesson body. That is the
