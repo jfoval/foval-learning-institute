@@ -6,6 +6,10 @@ const ALLOWED_ORIGINS = new Set([
   "https://www.fovallearninginstitute.org",
   "https://fovallearninginstitute.org",
   "https://jfoval.github.io",
+  // Plain http while GitHub Pages is still issuing the TLS certificate. Once
+  // https_enforced is on, Pages redirects http to https and these can go.
+  "http://www.fovallearninginstitute.org",
+  "http://fovallearninginstitute.org",
   "http://localhost:4173",
   "http://127.0.0.1:4173",
 ]);
