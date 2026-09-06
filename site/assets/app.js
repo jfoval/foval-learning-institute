@@ -708,7 +708,7 @@
         <p class="lede">Faith. Knowledge. Life. Free for everyone. Good teaching should not be rationed by price, and a real education should cover the great questions, the practical skills of living well, and the faith that gives both their meaning. Foval Learning Institute is free, open, and built to make you well-read, hard to fool, and useful.</p>
         <h2>The values</h2>
         <ol>
-          <li><strong>Free, for everyone.</strong> No tuition, no ads, no paywalls, no account needed to learn.</li>
+          <li><strong>Free, for everyone.</strong> No tuition, no paywalls, no account needed to learn. Nothing about you is tracked, profiled, or sold, and no lesson carries an advertisement.</li>
           <li><strong>Truth, and honesty about it.</strong> What is known, how it is known, and what is not settled. Every claim sourced and fact-checked.</li>
           <li><strong>Faith, taught honestly.</strong> The School of Christian Studies teaches from within the Christian faith and says so on every course. The rest of the institute teaches on neutral ground and never mocks belief or unbelief.</li>
           <li><strong>Depth over polish.</strong> Written from the standard references, with worked examples and the mistakes experts know beginners make.</li>
@@ -923,7 +923,7 @@
     if (nav) nav.insertAdjacentHTML("beforeend", `<a href="#/signin" id="accountLink">${signedIn() ? "Account" : "Sign in"}</a>`);
     // The footer's promise has to stay true now that progress can leave the browser.
     const privacy = document.getElementById("privacyLine");
-    if (privacy) privacy.textContent = "No ads, no paywalls, and no account needed to learn. Without one your progress stays in this browser; with one it syncs so it follows you between devices.";
+    if (privacy) privacy.textContent = "No paywalls, no tracking, and no account needed to learn. Without an account your progress stays in this browser; with one it syncs so it follows you between devices.";
     // Pull anything the other device did, but not on every page load.
     if (signedIn() && Date.now() - ((account() || {}).syncedAt || 0) > 300000) syncNow().catch(() => {});
     // keepalive so the flush survives the page going away.

@@ -6,7 +6,9 @@ These are the values every decision here runs against: what we teach, how we wri
 
 ## 1. Free, for everyone
 
-No tuition, no ads, no paywalls, no account needed to learn. The cost of a real education should be zero, and the door should have no lock. We'd rather grow slowly than fund this with anything that compromises the learner.
+No tuition, no paywalls, no account needed to learn. The cost of a real education should be zero, and the door should have no lock.
+
+Free still costs something to run, so here is the line, rather than a promise we might have to break later. Nothing about you is tracked, profiled, or sold. Nothing you read here is used to decide what you get shown. No lesson carries an advertisement, ever. If the institute ever takes sponsorship to keep the servers running, it will be a plain notice, on a page that is not a lesson, chosen without knowing anything about you, and labelled as what it is. We'd rather grow slowly than fund this with anything that compromises the learner.
 
 ## 2. Truth, and honesty about it
 
