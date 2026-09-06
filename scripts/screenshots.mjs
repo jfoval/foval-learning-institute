@@ -44,20 +44,18 @@ const standpointBox = (page, v) => page.evaluate(narrow => {
   return { x, y, width: Math.min(document.documentElement.scrollWidth - x, a.width + pad * 2), height: b.bottom + scrollY - y + pad };
 }, !!v.mobile);
 
-// An inline chart, stopping above its last line of text. That last line is the source
-// caption, and in bible-basics lesson 2 it is wider than its own viewBox, so the browser
-// clips it. The build warns about that; until it is fixed, keep it out of the picture.
+// An inline chart, whole. This used to stop above the last line of text, because that line
+// is the source caption and it was wider than its own viewBox, so the browser clipped it and
+// a photograph of it looked like a mistake. The viewBox is fixed and the linter guards it, so
+// the caption is in the picture now: a chart that does not name its source is worth less.
 const svgBox = (page, i) => page.evaluate(i => {
   window.scrollTo(0, 0);
   const svg = document.querySelectorAll(".lesson-content svg")[i];
   if (!svg) return null;
   const r = svg.getBoundingClientRect();
   const col = svg.closest(".lesson-body").getBoundingClientRect();
-  const texts = svg.querySelectorAll("text");
-  const last = texts[texts.length - 1];
-  const bottom = last ? last.getBoundingClientRect().top - 6 : r.bottom;
   const pad = 12, left = Math.min(col.left, r.left), right = Math.max(col.right, r.right);
-  return { x: Math.max(0, left + scrollX - pad), y: Math.max(0, r.top + scrollY - pad), width: right - left + pad * 2, height: bottom - r.top + pad };
+  return { x: Math.max(0, left + scrollX - pad), y: Math.max(0, r.top + scrollY - pad), width: right - left + pad * 2, height: r.height + pad * 2 };
 }, i);
 
 // The default: an element, in a fixed window for the tiles so they are all one shape.

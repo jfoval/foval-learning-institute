@@ -181,6 +181,23 @@ function lintLessons() {
           });
         if (darkShapes.length) warn.push(`${file}: ${darkShapes.length} SVG shape fill(s) hardcoded dark (${[...new Set(darkShapes)].join(", ")}); markers and rules vanish on the dark theme even when their labels do not`);
 
+        // A blank line inside a raw HTML block ends it, so Markdown closes the <svg> early and
+        // hands the rest to the paragraph parser. The chart still looks fine in the source and
+        // its words still appear in the built HTML, so nothing catches it except opening the
+        // page: the shapes after the blank line simply never draw. It cost bible-basics 01 all
+        // ten of its labels and lesson 08 thirty-nine of its forty-three.
+        {
+          let inSvg = false;
+          src.split("\n").forEach((line, i) => {
+            if (line.includes("<svg")) inSvg = true;
+            if (inSvg && !line.trim()) {
+              fail(`${file}: blank line ${i + 1} sits inside an <svg>. Markdown ends the raw HTML block there, so everything after it renders outside the chart and never draws. Delete the blank line.`);
+              inSvg = false;
+            }
+            if (line.includes("</svg>")) inSvg = false;
+          });
+        }
+
         // 4.6: labels below about 15 viewBox units are unreadable once an SVG is scaled to phone width.
         const small = [...src.matchAll(/<text[^>]*font-size="(\d+)"/g)].map(m => +m[1]).filter(n => n < 15);
         if (small.length) warn.push(`${file}: ${small.length} SVG label(s) under font-size 15; they render below ~10px on a phone (4.6)`);
@@ -199,7 +216,17 @@ function lintLessons() {
           const boxes = [...src.slice(0, src.indexOf(body)).matchAll(/viewBox="\s*[-\d.]+\s+[-\d.]+\s+([\d.]+)\s+[\d.]+"/g)];
           const vbWidth = boxes.length ? Number(boxes[boxes.length - 1][1]) : 0;
           if (!vbWidth) continue;
-          const width = estimateTextWidth(body, size, /font-weight="(bold|[6-9]00)"/.test(attrs));
+          const advance = estimateTextWidth(body, size, /font-weight="(bold|[6-9]00)"/.test(attrs));
+          // A rotated label takes up its line height across the page, not its length: turned on
+          // its side, a long caption is only as wide as its font is tall. Project the advance
+          // onto the x axis instead of assuming the text runs left to right.
+          const transform = (attrs.match(/transform="([^"]*)"/) || [])[1];
+          const rotate = transform && (transform.match(/rotate\(\s*(-?\d+(?:\.\d+)?)/) || [])[1];
+          // Any other transform moves the label in ways this cannot reason about. Skip those
+          // rather than measure the wrong box and report a label that is really fine.
+          if (transform && !rotate) continue;
+          const rad = (Number(rotate) || 0) * Math.PI / 180;
+          const width = Math.abs(advance * Math.cos(rad)) + Math.abs(size * Math.sin(rad));
           const anchor = (attrs.match(/text-anchor="(\w+)"/) || [])[1] || "start";
           const left = anchor === "middle" ? x - width / 2 : anchor === "end" ? x - width : x;
           if (left + width > vbWidth) {

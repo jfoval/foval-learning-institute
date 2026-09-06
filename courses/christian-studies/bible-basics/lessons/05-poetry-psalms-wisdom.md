@@ -151,7 +151,8 @@ The second rule is that psalms come in types, and each type has a shape. The Isr
     <rect x="118" y="173" width="19" height="16" fill="var(--navy, #0f2a4a)"/>
     <text x="142" y="185">5</text>
   </g>
-  <text x="8" y="214" font-size="9" fill="var(--text-2, #4a5260)">Counts from Fee and Stuart 2014, ch. 11. Categories overlap; hymns and celebration psalms are not counted there.</text>
+  <text x="8" y="206" font-size="9" fill="var(--text-2, #4a5260)">Counts from Fee and Stuart 2014, ch. 11. Categories overlap;</text>
+  <text x="8" y="218" font-size="9" fill="var(--text-2, #4a5260)">hymns and celebration psalms are not counted there.</text>
 </svg>
 
 Look at the first bar. Laments outnumber every other type, and Fee and Stuart remark that this "probably says something about our common humanity".[2] More of Israel's prayer book is complaint than praise. If your own praying has no room for that, the Psalms will widen it.

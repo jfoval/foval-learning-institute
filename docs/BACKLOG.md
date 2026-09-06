@@ -318,9 +318,11 @@ block grew 58px on a phone, the review card 112px. Every one was checked by eye 
 including the SVG targets, where nothing came out white on white. If you change the site's layout or
 type, retake the lot rather than one target, or the panels stop matching each other.
 
-Known and left alone: the chart legend's last line (`Act 6, Revelation: 22`) has its descenders
-shaved. That is the same crop as before, and it follows from the clipped-caption bug above, so it
-goes away when that is fixed. Do not paper over it in the capture script.
+The chart photograph used to stop above its own source caption, because that caption was wider than
+its viewBox and the browser clipped it. Both are fixed now: the viewBox is wide enough, the linter
+guards it, and `svgBox` no longer crops. The homepage chart names where its numbers came from, and
+`Act 6, Revelation: 22` keeps its descenders. If a caption ever looks cut again, fix the chart, not
+the capture script.
 
 The one new dependency this adds is `playwright-core` in `devDependencies`. It is dev-only, never
 served to a learner, and it deliberately does not bundle a browser. Rule 9 is about what the site
@@ -552,14 +554,24 @@ lesson already rested it. The argument is unaffected; the texture of the passage
   lesson 10's SVG is the worst and is the anti-pattern, not the template: it hardcodes colours and
   uses font-size 9 and 10.
 - **Five lessons still carry greys outside the palette** in SVG fills.
-- **Nine SVG labels run past their own viewBox and are silently clipped by the browser**, now caught
-  by the linter (see section 1). Two of them are the source captions on both charts in bible-basics
-  lesson 2, so the line naming where the numbers came from loses its last words. Measured in
-  Chromium: bible-basics 02 (two labels), 04, 05 and logic-and-argument 10 are clipped outright;
-  bible-basics 09, 11, 12 and logic 09 are clipped only in a wide system font, which is why they
-  survive a look on one machine. The fix is a wider viewBox or a shorter label, never a smaller font.
-  **The homepage chart screenshot is cropped above bible-basics 02's caption because of this. Retake
-  it once the label is fixed** so the source line is visible: see section 7.
+- ~~**Nine SVG labels run past their own viewBox and are silently clipped by the browser.**~~ Fixed
+  on 6 September 2026, and the linter now holds the line. Eight were real and each took the fix its
+  own shape allowed: bible-basics 02's chart and map got a wider viewBox with `max-width` widened to
+  match, so the drawing keeps 1 unit to 1 pixel instead of shrinking; 05, 11, logic 09 and 12 had
+  their captions wrapped onto a second line, which is what lesson 11 already did; 04's annotation
+  moved to a centred line under the rows; 09's label started further left. The ninth, logic 10's
+  "concession feeds the qualifier", was **never clipped at all**: it is `transform="rotate(90 ...)"`,
+  so it takes up its line height across the page and not its length, and the linter was measuring it
+  as if it ran left to right. The linter now projects the rotation and skips transforms it cannot
+  reason about, so that false positive is gone.
+- ~~**A blank line inside an `<svg>` silently truncates the chart.**~~ Found and fixed the same day.
+  Markdown ends a raw HTML block at a blank line, so `marked` closed the `<svg>` early and handed
+  the rest to the paragraph parser: the words still reached the built HTML, which is why nothing
+  caught it, but the shapes after the blank line rendered outside the chart and never drew. It had
+  taken **all ten** of bible-basics 01's labels, **thirty-nine of forty-three** in lesson 08, and
+  **sixteen of twenty-five** in lesson 11, which was showing one translation out of ten. The linter
+  now fails the build on a blank line inside an `<svg>`. If you write a chart, do not put blank
+  lines between its groups.
 - **The four placeholder courses** (Python, Algebra, Personal Finance, Writing Clearly) are live and
   have never been through the pipeline. They are the largest untouched quality risk on the site,
   because they are the ones learners can actually read today.

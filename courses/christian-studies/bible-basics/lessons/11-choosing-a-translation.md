@@ -103,7 +103,7 @@ Fee and Stuart put it in the middle. Most people who own one guess "literal", be
 
 Here is their placement, with the dates I've verified from the publishers, and with the CSB (which replaced the HCSB in 2017) placed where its own publisher describes it.[1][13][14]
 
-<svg viewBox="0 0 420 330" role="img" aria-labelledby="spectrum-title spectrum-desc" style="width:100%;height:auto;font-family:inherit">
+<svg viewBox="0 0 420 346" role="img" aria-labelledby="spectrum-title spectrum-desc" style="width:100%;height:auto;font-family:inherit">
   <title id="spectrum-title">The translation spectrum</title>
   <desc id="spectrum-desc">A horizontal spectrum from formal equivalence on the left to free translation on the right. On the formal side: NASB 1971 and 2020, KJV 1611, NKJV 1982, ESV 2001, NRSV 1989 and NRSVue 2021. In the middle: CSB 2017, NIV 1978, 1984, and 2011, NLT 1996 and 2004. On the free end: The Message 2002. Placement follows Fee and Stuart, with the CSB placed by its publisher's description.</desc>
   <defs>
@@ -115,50 +115,43 @@ Here is their placement, with the dates I've verified from the publishers, and w
   </defs>
   <rect x="20" y="40" width="380" height="14" rx="7" fill="url(#spec)"/>
   <g font-size="12" font-weight="700" fill="var(--text)">
-    <text x="20" y="28">Formal: keeps the form</text>
-    <text x="400" y="28" text-anchor="end">Free: restates the idea</text>
+    <text x="20" y="28">Formal: the form</text>
+    <text x="400" y="28" text-anchor="end">Free: the idea</text>
   </g>
-  <text x="210" y="28" text-anchor="middle" font-size="12" font-weight="700" fill="var(--text)">Functional: keeps the sense</text>
+  <text x="210" y="28" text-anchor="middle" font-size="12" font-weight="700" fill="var(--text)">Functional: the sense</text>
   <g font-size="13" fill="var(--text)">
     <line x1="48" y1="54" x2="48" y2="72" stroke="var(--line)" stroke-width="2"/>
     <text x="48" y="88" text-anchor="middle" font-weight="700">NASB</text>
     <text x="48" y="103" text-anchor="middle" font-size="11" fill="var(--text-2)">1971, 2020</text>
-
     <line x1="92" y1="54" x2="92" y2="112" stroke="var(--line)" stroke-width="2"/>
     <text x="92" y="128" text-anchor="middle" font-weight="700">KJV</text>
     <text x="92" y="143" text-anchor="middle" font-size="11" fill="var(--text-2)">1611</text>
-
     <line x1="126" y1="54" x2="126" y2="152" stroke="var(--line)" stroke-width="2"/>
     <text x="126" y="168" text-anchor="middle" font-weight="700">NKJV</text>
     <text x="126" y="183" text-anchor="middle" font-size="11" fill="var(--text-2)">1982</text>
-
     <line x1="150" y1="54" x2="150" y2="72" stroke="var(--line)" stroke-width="2"/>
     <text x="150" y="88" text-anchor="middle" font-weight="700">ESV</text>
     <text x="150" y="103" text-anchor="middle" font-size="11" fill="var(--text-2)">2001</text>
-
     <line x1="172" y1="54" x2="172" y2="192" stroke="var(--line)" stroke-width="2"/>
     <text x="172" y="208" text-anchor="middle" font-weight="700">NRSV</text>
     <text x="172" y="223" text-anchor="middle" font-size="11" fill="var(--text-2)">1989, 2021</text>
-
     <line x1="210" y1="54" x2="210" y2="112" stroke="var(--line)" stroke-width="2"/>
     <text x="210" y="128" text-anchor="middle" font-weight="700">CSB</text>
     <text x="210" y="143" text-anchor="middle" font-size="11" fill="var(--text-2)">2017</text>
-
     <line x1="250" y1="54" x2="250" y2="72" stroke="var(--line)" stroke-width="2"/>
     <text x="250" y="88" text-anchor="middle" font-weight="700">NIV</text>
     <text x="250" y="103" text-anchor="middle" font-size="11" fill="var(--text-2)">1978, 1984, 2011</text>
-
     <line x1="300" y1="54" x2="300" y2="152" stroke="var(--line)" stroke-width="2"/>
     <text x="300" y="168" text-anchor="middle" font-weight="700">NLT</text>
     <text x="300" y="183" text-anchor="middle" font-size="11" fill="var(--text-2)">1996, 2004</text>
-
     <line x1="378" y1="54" x2="378" y2="72" stroke="var(--line)" stroke-width="2"/>
     <text x="378" y="88" text-anchor="middle" font-weight="700">Message</text>
     <text x="378" y="103" text-anchor="middle" font-size="11" fill="var(--text-2)">2002</text>
   </g>
-  <text x="20" y="262" font-size="11" fill="var(--text-2)">Placement after Fee and Stuart, How to Read the Bible for All Its Worth, ch. 2.</text>
-  <text x="20" y="278" font-size="11" fill="var(--text-2)">Dates are first editions and major revisions, from the publishers.</text>
-  <text x="20" y="300" font-size="11" fill="var(--text-2)">Positions within a band are approximate; the bands are the point.</text>
+  <text x="20" y="262" font-size="11" fill="var(--text-2)">Placement after Fee and Stuart,</text>
+  <text x="20" y="278" font-size="11" fill="var(--text-2)">How to Read the Bible for All Its Worth, ch. 2.</text>
+  <text x="20" y="294" font-size="11" fill="var(--text-2)">Dates are first editions and major revisions, from the publishers.</text>
+  <text x="20" y="316" font-size="11" fill="var(--text-2)">Positions within a band are approximate; the bands are the point.</text>
 </svg>
 
 Look at the left third of the chart. The King James and the NASB are both formal, and they translate different Greek texts. The ESV and the NKJV are both formal, and one is a revision of the 1971 Revised Standard Version while the other is a revision of the King James.[10][8] Formal and functional describe *how* a version translates; Received Text and critical text describe *what* it translates. Those are two separate axes, and a lot of arguments about translations are two people each talking about a different one.

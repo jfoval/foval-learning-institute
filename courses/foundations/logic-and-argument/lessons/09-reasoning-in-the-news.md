@@ -130,7 +130,8 @@ Now do the bacon story yourself, with a gap. Cancer Research UK's figure for the
   <rect x="19" y="98" width="3.4" height="18" fill="var(--oxblood, #8b1e2d)"/>
   <text x="27" y="112" font-size="11" fill="var(--navy, #0f2a4a)">66</text>
   <text x="60" y="112" font-size="11" fill="var(--oxblood, #8b1e2d)">10 extra, in red</text>
-  <text x="0" y="140" font-size="10" fill="var(--text-2, #4a5260)">Each grey bar is 1,000 people. Source: Cancer Research UK, 26 October 2015.</text>
+  <text x="0" y="132" font-size="10" fill="var(--text-2, #4a5260)">Each grey bar is 1,000 people.</text>
+  <text x="0" y="144" font-size="10" fill="var(--text-2, #4a5260)">Source: Cancer Research UK, 26 October 2015.</text>
 </svg>
 
 Two more things the story needed. First, "Group 1" is a statement about the strength of the evidence that something causes cancer, not about how much cancer it causes; tobacco and processed meat sit in the same group and cause very different amounts.[4] Second, the press release itself said it: "For an individual, the risk of developing colorectal cancer because of their consumption of processed meat remains small, but this risk increases with the amount of meat consumed."[3] The sentence that would have stopped the bacon-and-cigarettes headline was in the source. The headline left it out. Weston's rule 15 in action: not a lie, an omission.

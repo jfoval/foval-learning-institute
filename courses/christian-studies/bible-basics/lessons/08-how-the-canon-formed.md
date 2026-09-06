@@ -140,73 +140,59 @@ Then the councils. In 393 a regional council at Hippo in North Africa, with Augu
   <line x1="92" y1="548" x2="92" y2="760" stroke="var(--line)" stroke-width="2"/>
   <line x1="92" y1="524" x2="92" y2="544" stroke="var(--line)" stroke-width="2" stroke-dasharray="3 4"/>
   <text x="104" y="538" font-size="11" fill="var(--text-2)">about 1,100 years</text>
-
   <g font-size="13" fill="var(--text)">
     <text x="80" y="44" text-anchor="end" font-weight="700">c. 132 BC</text>
     <circle cx="92" cy="40" r="6" fill="var(--navy, #0f2a4a)" stroke="var(--gold, #b08d2a)" stroke-width="2"/>
     <text x="104" y="37">Prologue to Sirach: "the Law, the Prophets,</text>
     <text x="104" y="52" fill="var(--text-2)" font-size="12">and the rest of the books"</text>
-
     <text x="80" y="94" text-anchor="end" font-weight="700">c. AD 95</text>
     <circle cx="92" cy="90" r="6" fill="var(--navy, #0f2a4a)" stroke="var(--gold, #b08d2a)" stroke-width="2"/>
     <text x="104" y="87">Josephus: twenty-two books,</text>
     <text x="104" y="102" fill="var(--text-2)" font-size="12">"no one has been so bold as to add"</text>
-
     <text x="80" y="144" text-anchor="end" font-weight="700">c. 144</text>
     <circle cx="92" cy="140" r="6" fill="var(--navy, #0f2a4a)" stroke="var(--gold, #b08d2a)" stroke-width="2"/>
     <text x="104" y="137">Marcion cuts the collection down</text>
     <text x="104" y="152" fill="var(--text-2)" font-size="12">to an edited Luke and ten Pauline letters</text>
-
     <text x="80" y="194" text-anchor="end" font-weight="700">c. 180</text>
     <circle cx="92" cy="190" r="6" fill="var(--navy, #0f2a4a)" stroke="var(--gold, #b08d2a)" stroke-width="2"/>
     <text x="104" y="187">Irenaeus: four Gospels,</text>
     <text x="104" y="202" fill="var(--text-2)" font-size="12">"neither more nor fewer"</text>
-
     <text x="80" y="244" text-anchor="end" font-weight="700">c. 180–200?</text>
     <circle cx="92" cy="240" r="6" fill="var(--navy, #0f2a4a)" stroke="var(--gold, #b08d2a)" stroke-width="2"/>
     <text x="104" y="237">Muratorian Fragment (date argued):</text>
     <text x="104" y="252" fill="var(--text-2)" font-size="12">about 22 books; the Shepherd read, not Scripture</text>
-
     <text x="80" y="294" text-anchor="end" font-weight="700">c. 325</text>
     <circle cx="92" cy="290" r="6" fill="var(--navy, #0f2a4a)" stroke="var(--gold, #b08d2a)" stroke-width="2"/>
     <text x="104" y="287">Eusebius sorts the books:</text>
     <text x="104" y="302" fill="var(--text-2)" font-size="12">recognised, disputed, rejected</text>
-
     <text x="80" y="344" text-anchor="end" font-weight="700" fill="var(--oxblood, #8b1e2d)">325</text>
     <circle cx="92" cy="340" r="7" fill="var(--oxblood, #8b1e2d)"/>
     <text x="104" y="337" fill="var(--oxblood, #8b1e2d)" font-weight="700">Council of Nicaea</text>
     <text x="104" y="352" fill="var(--text-2)" font-size="12">no record of any business about the canon</text>
-
     <text x="80" y="394" text-anchor="end" font-weight="700">367</text>
     <circle cx="92" cy="390" r="7" fill="var(--gold, #b08d2a)"/>
     <text x="104" y="387" font-weight="700">Athanasius, Festal Letter 39:</text>
     <text x="104" y="402" fill="var(--text-2)" font-size="12">first surviving list of exactly our 27</text>
-
     <text x="80" y="444" text-anchor="end" font-weight="700">393, 397</text>
     <circle cx="92" cy="440" r="6" fill="var(--navy, #0f2a4a)" stroke="var(--gold, #b08d2a)" stroke-width="2"/>
     <text x="104" y="437">Hippo and Carthage list the books,</text>
     <text x="104" y="452" fill="var(--text-2)" font-size="12">deuterocanon included; ask Rome to confirm</text>
-
     <text x="80" y="494" text-anchor="end" font-weight="700">c. 405</text>
     <circle cx="92" cy="490" r="6" fill="var(--navy, #0f2a4a)" stroke="var(--gold, #b08d2a)" stroke-width="2"/>
     <text x="104" y="487">Jerome's Vulgate: the extra books kept,</text>
     <text x="104" y="502" fill="var(--text-2)" font-size="12">read for edification, "not to give authority"</text>
-
     <text x="80" y="584" text-anchor="end" font-weight="700">1534</text>
     <circle cx="92" cy="580" r="6" fill="var(--navy, #0f2a4a)" stroke="var(--gold, #b08d2a)" stroke-width="2"/>
     <text x="104" y="577">Luther's Bible: Apocrypha set apart,</text>
     <text x="104" y="592" fill="var(--text-2)" font-size="12">"not held equal", "useful and good to read"</text>
-
     <text x="80" y="634" text-anchor="end" font-weight="700">1546</text>
     <circle cx="92" cy="630" r="6" fill="var(--navy, #0f2a4a)" stroke="var(--gold, #b08d2a)" stroke-width="2"/>
     <text x="104" y="627">Council of Trent defines 46 + 27,</text>
     <text x="104" y="642" fill="var(--text-2)" font-size="12">"entire with all their parts", with an anathema</text>
-
     <text x="80" y="684" text-anchor="end" font-weight="700">1611</text>
     <circle cx="92" cy="680" r="6" fill="var(--navy, #0f2a4a)" stroke="var(--gold, #b08d2a)" stroke-width="2"/>
     <text x="104" y="677">King James Bible printed with</text>
     <text x="104" y="692" fill="var(--text-2)" font-size="12">the Apocrypha between the testaments</text>
-
     <text x="80" y="734" text-anchor="end" font-weight="700">1672</text>
     <circle cx="92" cy="730" r="6" fill="var(--navy, #0f2a4a)" stroke="var(--gold, #b08d2a)" stroke-width="2"/>
     <text x="104" y="727">Synod of Jerusalem (Orthodox): the books</text>

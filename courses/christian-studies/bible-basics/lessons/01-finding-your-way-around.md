@@ -131,14 +131,12 @@ The picture below puts all three arrangements side by side, drawn to one scale s
 
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 365" width="100%" style="max-width:480px;display:block;margin:1.5em auto;font-family:system-ui,sans-serif" role="img" aria-label="Three arrangements of the same books, drawn to one scale of eleven units per book. The Tanakh has three shelves totalling 24 books; the Protestant Old Testament has four shelves totalling 39; the New Testament has four shelves totalling 27. The Old Testament row is longer than the Tanakh row because the same material is divided into more books, not because there is more of it.">
   <title>The shelves, drawn to one scale: Tanakh (24), Protestant Old Testament (39), New Testament (27)</title>
-
   <text x="8" y="20" font-size="18" font-weight="700" fill="var(--text, #0f2a4a)">Tanakh, 24 books</text>
   <rect x="8" y="30" width="55" height="26" fill="var(--navy, #0f2a4a)"/>
   <rect x="67" y="30" width="88" height="26" fill="var(--oxblood, #8b1e2d)"/>
   <rect x="159" y="30" width="121" height="26" fill="var(--gold, #b08d2a)"/>
   <text x="8" y="76" font-size="16" fill="var(--text, #1a1a1a)">Torah 5 · Nevi'im 8 · Ketuvim 11</text>
   <text x="8" y="96" font-size="14" fill="var(--text-2, #4a5260)">Ends with Chronicles: "let him go up."</text>
-
   <text x="8" y="134" font-size="18" font-weight="700" fill="var(--text, #0f2a4a)">Protestant Old Testament, 39 books</text>
   <rect x="8" y="144" width="55" height="26" fill="var(--navy, #0f2a4a)"/>
   <rect x="67" y="144" width="132" height="26" fill="var(--oxblood, #8b1e2d)"/>
@@ -146,7 +144,6 @@ The picture below puts all three arrangements side by side, drawn to one scale s
   <rect x="262" y="144" width="187" height="26" fill="var(--text-2, #4a5260)"/>
   <text x="8" y="190" font-size="16" fill="var(--text, #1a1a1a)">Law 5 · History 12 · Poetry 5 · Prophets 17</text>
   <text x="8" y="210" font-size="14" fill="var(--text-2, #4a5260)">Ends with Malachi: "I will send you Elijah."</text>
-
   <text x="8" y="248" font-size="18" font-weight="700" fill="var(--text, #0f2a4a)">New Testament, 27 books</text>
   <rect x="8" y="258" width="44" height="26" fill="var(--navy, #0f2a4a)"/>
   <rect x="56" y="258" width="11" height="26" fill="var(--oxblood, #8b1e2d)"/>
@@ -154,7 +151,6 @@ The picture below puts all three arrangements side by side, drawn to one scale s
   <rect x="306" y="258" width="11" height="26" fill="var(--text-2, #4a5260)"/>
   <text x="8" y="304" font-size="16" fill="var(--text, #1a1a1a)">Gospels 4 · Acts 1 · Letters 21 · Revelation 1</text>
   <text x="8" y="324" font-size="14" fill="var(--text-2, #4a5260)">Ends with Revelation: the new creation.</text>
-
   <text x="8" y="356" font-size="13" fill="var(--text-2, #4a5260)">One scale throughout: eleven units per book.</text>
 </svg>
 

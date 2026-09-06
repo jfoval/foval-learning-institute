@@ -82,7 +82,7 @@ If you go on to *How to Study the Bible*, you'll meet the same four under other 
 
 The four questions tell you what to ask. Here is the habit that answers them: read outward from the verse in circles.
 
-<svg viewBox="0 0 360 250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Five concentric circles labelled from the centre outward: sentence, paragraph, book, testament, Bible" style="max-width:100%;height:auto;display:block;margin:1em auto">
+<svg viewBox="0 0 360 278" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Five concentric circles labelled from the centre outward: sentence, paragraph, book, testament, Bible" style="max-width:100%;height:auto;display:block;margin:1em auto">
   <circle cx="180" cy="125" r="118" fill="none" stroke="var(--navy, #0f2a4a)" stroke-width="2"/>
   <circle cx="180" cy="125" r="94" fill="none" stroke="var(--navy, #0f2a4a)" stroke-width="2"/>
   <circle cx="180" cy="125" r="70" fill="none" stroke="var(--oxblood, #8b1e2d)" stroke-width="2"/>
@@ -93,7 +93,8 @@ The four questions tell you what to ask. Here is the habit that answers them: re
   <text x="180" y="70" text-anchor="middle" font-size="11" font-family="sans-serif" fill="var(--oxblood, #8b1e2d)">book</text>
   <text x="180" y="46" text-anchor="middle" font-size="11" font-family="sans-serif" fill="var(--navy, #0f2a4a)">testament</text>
   <text x="180" y="22" text-anchor="middle" font-size="11" font-family="sans-serif" fill="var(--navy, #0f2a4a)">whole Bible</text>
-  <text x="180" y="244" text-anchor="middle" font-size="10" font-family="sans-serif" fill="var(--text-2, #4a5260)">Read outward. Each circle answers a question the last one raised.</text>
+  <text x="180" y="258" text-anchor="middle" font-size="10" font-family="sans-serif" fill="var(--text-2, #4a5260)">Read outward. Each circle answers</text>
+  <text x="180" y="270" text-anchor="middle" font-size="10" font-family="sans-serif" fill="var(--text-2, #4a5260)">a question the last one raised.</text>
 </svg>
 
 Take Philippians 4:13, since you've done it once and can watch the circles work. The sentence says "I can do all things through him who strengthens me". The paragraph (4:10 to 13) says the "all things" are hunger and plenty, abundance and need. The book is a letter from prison to a church that sent money. The testament tells you what "in Christ" means across Paul's letters. The whole Bible tells you where contentment sits in the story of God's people. By the third circle the gym-wall reading is gone, and nothing outside the page was needed to remove it.

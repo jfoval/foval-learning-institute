@@ -98,16 +98,16 @@ And these are all Protestant evangelical schemes, which is a limit worth naming,
 
 Second, notice how lopsided the acts are. Count the chapters. A Protestant Bible has 1,189 of them,[7] and Act 3 alone, Genesis 12 through Malachi, has 918.
 
-<svg viewBox="0 0 560 225" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:560px;display:block;margin:1.5em auto;font-family:system-ui,sans-serif" role="img" aria-labelledby="bulk-title bulk-desc">
+<svg viewBox="0 0 584 225" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:584px;display:block;margin:1.5em auto;font-family:system-ui,sans-serif" role="img" aria-labelledby="bulk-title bulk-desc">
   <title id="bulk-title">Chapters per act: Act 3 is 918 of the Bible's 1,189 chapters</title>
   <desc id="bulk-desc">A single horizontal bar divided into five segments in proportion to the number of chapters in each act. Acts 1 and 2 together (Genesis 1 to 11) are 11 chapters. Act 3 (Genesis 12 to Malachi) is 918. Act 4, the four Gospels, is 89. Act 5, Acts through Jude, is 149. Act 6, Revelation, is 22. Act 3 fills about three quarters of the bar.</desc>
   <text x="20" y="22" font-size="17" font-weight="700" fill="var(--text, #1a1a1a)">Where the bulk sits: chapters per act</text>
   <rect x="20" y="36" width="5" height="34" fill="var(--line-strong, #9a9a9a)"/>
-  <rect x="25" y="36" width="402" height="34" fill="var(--oxblood, #8b1e2d)"/>
-  <rect x="427" y="36" width="39" height="34" fill="var(--navy, #0f2a4a)"/>
-  <rect x="466" y="36" width="65" height="34" fill="var(--gold, #b08d2a)"/>
-  <rect x="531" y="36" width="9" height="34" fill="var(--text-2, #4a5260)"/>
-  <text x="34" y="59" font-size="15" font-weight="700" fill="#ffffff">Act 3, Israel</text>
+  <rect x="25" y="36" width="420" height="34" fill="var(--oxblood, #8b1e2d)"/>
+  <rect x="445" y="36" width="41" height="34" fill="var(--navy, #0f2a4a)"/>
+  <rect x="486" y="36" width="68" height="34" fill="var(--gold, #b08d2a)"/>
+  <rect x="554" y="36" width="10" height="34" fill="var(--text-2, #4a5260)"/>
+  <text x="34" y="59" font-size="15" font-weight="700" fill="var(--bg, #ffffff)">Act 3, Israel</text>
   <rect x="20" y="90" width="15" height="15" fill="var(--line-strong, #9a9a9a)"/>
   <text x="44" y="103" font-size="15" fill="var(--text, #1a1a1a)">Acts 1 and 2, Genesis 1 to 11: 11 chapters</text>
   <rect x="20" y="114" width="15" height="15" fill="var(--oxblood, #8b1e2d)"/>
@@ -167,7 +167,7 @@ David's. "The throne of his father David" and a kingdom that "will never end" ar
 
 This is the act most readers get lost in, laid out so you can find your place. Read it top to bottom, then keep it open while you read the rest of the lesson.
 
-<svg viewBox="0 0 560 880" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:560px;display:block;margin:1.5em auto;font-family:system-ui,sans-serif" role="img" aria-labelledby="tl-title tl-desc">
+<svg viewBox="0 0 584 880" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:584px;display:block;margin:1.5em auto;font-family:system-ui,sans-serif" role="img" aria-labelledby="tl-title tl-desc">
   <title id="tl-title">The six acts of the Bible's story, with the books of Act 3 in order</title>
   <desc id="tl-desc">A vertical timeline. Act 1 Creation and Act 2 Fall at the top (Genesis 1 to 11). Act 3 Israel runs from Genesis 12 through the patriarchs, Egypt and Sinai, conquest and judges, the united kingdom, the divided kingdom, the fall of Samaria in 722 BC, the fall of Jerusalem and the exile in 586 BC, and the return under Persia, ending with Malachi. Two fixed archaeological points are marked in the pre-exilic stretch: the Tel Dan stele of the ninth century BC and the Ketef Hinnom amulets of the late seventh century BC. A four-hundred-year gap follows, empty of books in a Protestant Bible. Act 4 Jesus (the four Gospels, around AD 30). Act 5 Church (Acts and the letters). Act 6 New creation (Revelation, ending at chapters 21 and 22).</desc>
   <line x1="44" y1="20" x2="44" y2="800" stroke="var(--line-strong, #9a9a9a)" stroke-width="2"/>
