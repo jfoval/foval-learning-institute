@@ -389,10 +389,11 @@ Books I to III with Shakespeare and Mythology. Design was added earlier the same
 what the institute claims an educated adult must know, so the bar is high. See "Placing a course on
 the Core" in TAXONOMY.md.
 
-**The one worth arguing about: Practical Civics.** It has the strongest claim of the nine to a Core
-place, in term 6 next to American Government and Political Economy. The case for it is that knowing
-how the system is designed without knowing how to act in it is half an education. The case against
-is term size. Left as an elective pending John's call.
+**Practical Civics is on the Core.** John's call, 2026-09-06. It sits in term 6, after Political
+Philosophy and before Great Books III, which puts it after American Government and the Constitution
+in term 5 and next to Political Economy. The reasoning: knowing how the system is designed without
+knowing how to act in it is half an education. Term 6 is now seven courses, the same size as term 5,
+so the balance rule in "Placing a course on the Core" still holds. The Core is 52 courses.
 
 **Considered and not added.** Systems Thinking (Mental Models covers the same ground; revisit if
 that course's outline turns out not to). Photography (Drawing and Graphic Design cover seeing and

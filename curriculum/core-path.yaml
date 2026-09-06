@@ -66,6 +66,7 @@ terms:
       - { id: world-since-1945, school: history, title: The World Since 1945 }
       - { id: political-economy, school: economics-government-and-law, title: "Political Economy: The Great Debates" }
       - { id: political-philosophy, school: philosophy-and-religion, title: Political Philosophy }
+      - { id: practical-civics, school: economics-government-and-law, title: "Practical Civics: Being Useful in Public Life" }
       - { id: great-books-3, school: literature-and-arts, title: "Great Books III: The Modern Novel" }
 
   - title: Competence

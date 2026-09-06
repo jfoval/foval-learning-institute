@@ -145,7 +145,7 @@ The map is deliberately ambitious. Most courses are `planned`. The point of writ
 | International Relations and Geopolitics | Core | planned | elective | |
 | World Geography | Foundation | planned | elective | Physical and human. Where things are and why it matters. |
 | Economics of Everyday Life | Foundation | planned | elective | Applying economic thinking to decisions. |
-| Practical Civics: Being Useful in Public Life | Foundation | planned | elective | The other half of American Government: how a bill, a budget, a zoning decision or a school board vote actually moves, who really decides, how to testify, organise, run, serve on a board, or get one thing changed in your own town. |
+| Practical Civics: Being Useful in Public Life | Foundation | planned | T6 | The other half of American Government: how a bill, a budget, a zoning decision or a school board vote actually moves, who really decides, how to testify, organise, run, serve on a board, or get one thing changed in your own town. |
 
 ## 8. School of Computer Science and AI — `computer-science-and-ai`
 *Understanding and building with computers and AI.*
@@ -288,7 +288,7 @@ The map is deliberately ambitious. Most courses are `planned`. The point of writ
 
 The Core is the general-education spine: the sequence a student takes to become broadly educated, in the order that builds best. Roughly two years at a few hours a week. Any course can be taken standalone; the Core is the recommended path.
 
-It runs to 51 courses across 8 terms. Everything not listed here is an elective, taken whenever it is wanted.
+It runs to 52 courses across 8 terms. Everything not listed here is an elective, taken whenever it is wanted.
 
 **Term 1: Tools**
 
@@ -354,32 +354,33 @@ It runs to 51 courses across 8 terms. Everything not listed here is an elective,
 33. The World Since 1945
 34. Political Economy: The Great Debates
 35. Political Philosophy
-36. Great Books III: The Modern Novel
+36. Practical Civics: Being Useful in Public Life
+37. Great Books III: The Modern Novel
 
 **Term 7: Competence**
 
 *Skills for making a living and staying alive.*
 
-37. Sales
-38. Entrepreneurship: Idea to First Customer
-39. Negotiation
-40. Nutrition: The Evidence
-41. Strength and Fitness
-42. Sleep
-43. First Aid and CPR
-44. Wilderness Survival
-45. Emergency Preparedness
+38. Sales
+39. Entrepreneurship: Idea to First Customer
+40. Negotiation
+41. Nutrition: The Evidence
+42. Strength and Fitness
+43. Sleep
+44. First Aid and CPR
+45. Wilderness Survival
+46. Emergency Preparedness
 
 **Term 8: Integration**
 
 *Putting it together and deciding how to live.*
 
-46. Ethics
-47. Meaning, Death, and the Good Life
-48. The Case for Christianity *(Christian Standpoint)*
-49. Mental Models
-50. Investing
-51. Capstone: Teach What You Learned
+47. Ethics
+48. Meaning, Death, and the Good Life
+49. The Case for Christianity *(Christian Standpoint)*
+50. Mental Models
+51. Investing
+52. Capstone: Teach What You Learned
 
 <!-- END GENERATED -->
 
