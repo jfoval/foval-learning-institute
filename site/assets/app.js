@@ -239,6 +239,8 @@
   const WHY_TILES = [
     ["tile-quiz", "The quiz argues back", "Right and wrong are marked, then it says why yours was wrong.",
       "A quiz question after answering, one option marked correct in green, the chosen one marked wrong in red, and the explanation beginning below."],
+    ["tile-video", "Watch it explained", "When somebody has already explained it better in six minutes, the lesson embeds it and says why.",
+      "An embedded video at the foot of a lesson section, with a caption saying how long it is and why it is worth watching."],
     ["tile-map", "Maps of the material", "A whole library on one page, with the dates, the covenants and the gaps.",
       "A timeline of the Bible in six acts, from creation to new creation, marking the covenants, the fall of Samaria in 722 BC, the exile in 586 BC and the four hundred years with no book in it."],
     ["tile-exercise", "Work to do", "At least one thing per lesson that you do on paper, before the quiz.",

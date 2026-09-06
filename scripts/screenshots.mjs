@@ -99,7 +99,7 @@ const TARGETS = {
   "tile-code": { page: "#/course/python-basics/lesson/04-loops", sel: ".lesson-content pre", nth: 1, widths: "phone" },
   "tile-transcript": { page: "#/my-learning", sel: "#main .eyebrow", widths: "phone", seed: true },
   "tile-video": { page: `#/course/${BIBLE}/lesson/01-finding-your-way-around`, sel: ".video-fig", widths: "phone",
-    draft: true, needsYouTube: true },
+    draft: true, needsYouTube: true, before: loadVideo },
 };
 
 /* ---------- a plausible learner, so the Review page and the transcript have something on them ---------- */
@@ -133,6 +133,13 @@ async function answerTheQuiz(page) {
   }, answers);
   await page.click("#quizForm button[type=submit]");
   await page.waitForSelector(".q label.correct");
+}
+// The embed is lazy-loaded and sits a long way down the lesson, so the browser never asks
+// YouTube for it while the page is parked at the top. Scroll it into view the way a reader
+// would, then let the player fetch its poster before the needsYouTube check reads the result.
+async function loadVideo(page) {
+  await page.evaluate(() => document.querySelector(".video-fig").scrollIntoView({ block: "center" }));
+  await page.waitForTimeout(400);
 }
 async function fillRecall(page) {
   await page.evaluate(() => {
@@ -229,14 +236,23 @@ for (const scheme of ["light", "dark"]) {
       if (!v.mobile && t.desktopWidth) await page.setViewportSize({ width: t.desktopWidth, height: v.height });
 
       let youTubeOk = false;
-      const watch = r => { if (/youtube(-nocookie)?\.com/.test(r.url()) && r.status() < 400) youTubeOk = true; };
+      // The poster image is what decides whether this photographs as a picture or as a black
+      // box, and it comes from i.ytimg.com. Watch for that, not for the embed document, which
+      // arrives fine on a machine where the poster never does.
+      const watch = r => { if (/i\.ytimg\.com\/vi/.test(r.url()) && r.status() < 400) youTubeOk = true; };
       if (t.needsYouTube) page.on("response", watch);
 
       await page.goto(BASE + t.page, { waitUntil: "networkidle" });
       if (typeof t.sel === "string") await page.waitForSelector(t.sel);
       if (t.before) await t.before(page);
       if (t.needsYouTube) {
-        await page.waitForTimeout(2500);
+        // The player takes several seconds to fetch its poster, far longer than the rest of
+        // the page, so wait on the poster itself rather than on a fixed guess.
+        if (!youTubeOk) {
+          try {
+            await page.waitForResponse(r => /i\.ytimg\.com\/vi/.test(r.url()) && r.status() < 400, { timeout: 25000 });
+          } catch { /* youTubeOk stays false, and the check below reports it */ }
+        }
         page.off("response", watch);
         if (!youTubeOk) {
           // Better no file than a screenshot of an empty player.
@@ -244,12 +260,33 @@ for (const scheme of ["light", "dark"]) {
           if (!v.mobile && t.desktopWidth) await page.setViewportSize({ width: v.width, height: v.height });
           continue;
         }
+        // The player fades the poster and its title bar in. Photographed mid-fade it comes out
+        // with a half-drawn title across the picture, so let the animation settle.
+        await page.waitForTimeout(4000);
       }
 
       const box = typeof t.sel === "function" ? await t.sel(page, v) : await elementBox(page, t.sel, { nth: t.nth, anchor: t.anchor, pad: t.pad, tile });
       if (!box) { skipped.push(`${name}: nothing matched on the page.`); continue; }
       const file = path.join(OUT, `${name}-${scheme}-${tile ? "phone" : v.key}.png`);
-      await page.screenshot({ path: file, fullPage: true, clip: box, scale: v.raw ? "device" : "css" });
+      if (t.needsYouTube) {
+        // A cross-origin player paints black in a fullPage capture wherever the page is
+        // scrolled, so photograph the viewport with the embed actually sitting in it. The
+        // header is sticky, so drop below it or it lands across the top of the picture.
+        await page.evaluate(top => {
+          const head = document.querySelector(".site-header");
+          const off = head && getComputedStyle(head).position === "sticky" ? head.getBoundingClientRect().height + 8 : 8;
+          // The stylesheet asks for smooth scrolling, which would leave the position still
+          // moving when the shot is taken. Jump instead.
+          window.scrollTo({ top: Math.max(0, top - off), behavior: "instant" });
+        }, box.y);
+        await page.waitForTimeout(1200);
+        // Read the element back once the scroll has settled rather than working the offset out
+        // in advance, so the clip lines up with where the embed actually ended up.
+        const y = await page.evaluate(sel => Math.round(document.querySelector(sel).getBoundingClientRect().top - 8), t.sel);
+        await page.screenshot({ path: file, clip: { ...box, y }, scale: v.raw ? "device" : "css" });
+      } else {
+        await page.screenshot({ path: file, fullPage: true, clip: box, scale: v.raw ? "device" : "css" });
+      }
       written.push(path.relative(ROOT, file));
 
       if (!v.mobile && t.desktopWidth) await page.setViewportSize({ width: v.width, height: v.height });
