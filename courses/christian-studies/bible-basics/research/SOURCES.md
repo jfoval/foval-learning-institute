@@ -231,13 +231,14 @@ Verified while drafting lesson 7 (letters and Revelation); each was fetched and 
 - **Irenaeus, *Against Heresies* 5.30 (New Advent, ANF translation)** — 666 "found in all the most approved and ancient copies"; the 616 reading treated as a copyists' error; candidate names Evanthas, Lateinos, Teitan, none affirmed; "more certain, and less hazardous, to await the fulfilment of the prophecy, than to be making surmises"; the vision seen "towards the end of Domitian's reign".
 - **Tacitus, *Annals* 15.44 (Church & Brodribb, Wikisource)** — Nero "fastened the guilt and inflicted the most exquisite tortures on a class hated for their abominations, called Christians by the populace"; Christus executed under Tiberius by Pontius Pilatus.
 - **Pate (ed.), *Four Views on the Book of Revelation* (Zondervan, 1998)** — contributors confirmed: Gentry (preterist), Hamstra (idealist), Pate (progressive dispensationalist), Thomas (classical dispensationalist). No historicist chapter.
-- **Beale 1999 (NIGTC)**: "eclecticism, or a redemptive-historical form of modified idealism". **Osborne 2002 (BECNT)**: eclectic, preterist/idealist/futurist interacting, futurist primary. **Ladd 1972**: historic premillennial, blending preterist and futurist. All three confirmed from publisher and review descriptions, not from the books' pages; the fact-check may wish to confirm Beale's phrase against p. 48 of the introduction.
+- **Beale 1999 (NIGTC)**: "eclecticism, or a redemptive-historical form of modified idealism". **Osborne 2002 (BECNT)**: eclectic, preterist/idealist/futurist interacting, futurist primary. **Ladd 1972**: historic premillennial, blending preterist and futurist. All three confirmed from publisher and review descriptions, not from the books' pages. **Escalated at lesson 7's Stage 4: NONE OF THESE THREE MAY BE QUOTED.** The lesson 7 draft printed Beale's phrase verbatim inside quotation marks and then rested the course's own declared position on "the Beale and Osborne family", which is the L6-B14 (Burridge) defect at larger scale. Report what a book is described as saying, say that the description is second-hand, and never put an unopened book's words in quotation marks. The same applies to **Gentry 1989**, **Elliott 1844** and **Köstenberger and Patterson**, none of which has been opened for this course.
 - **Gentry, *Before Jerusalem Fell* (1989)** — pre-70 date under Nero. **Gentry, *Have We Missed the Second Coming?* (2016)** — his terms "orthodox preterism" and "hyper-preterism"; he rejects the view that the return, resurrection, and final judgment occurred in AD 70.
-- **Elliott, *Horae Apocalypticae* (1st ed. 1844; Internet Archive)** — the fullest historicist commentary; the Reformation identification of the papacy with the antichrist is widely documented (given in the lesson without a primary quotation).
+- **Elliott, *Horae Apocalypticae* (1st ed. 1844; Internet Archive)** — the fullest historicist commentary; the Reformation identification of the papacy with the antichrist is widely documented (given in the lesson without a primary quotation). **Corrected at lesson 7's Stage 4:** the draft's source note asserted that the identification "is documented in its historical survey", which is a claim about the contents of four volumes nobody opened. Say where a claim is documented, or say that it is documented elsewhere.
 - **Martin, Yale RLST 152, lecture 23, "Apocalyptic and Resistance"** (oyc.yale.edu) — confirmed title and that it covers Revelation as resistance literature, Rome as Babylon.
 - **BibleProject, "How to Read the Bible: Apocalyptic Literature"**, YouTube UNDX4tUdj1Y — title and channel confirmed via YouTube oEmbed.
 - **Wikimedia Commons, P115 Plate 3 verso crop (616)** — public domain; direct URL recorded in the lesson.
 - **ESV text** of Philippians 4:10–13, 1 Corinthians 12:31, 13:1–7, 14:1, 1 Corinthians 11:3, 5, 8–10, 13–16, Philemon 1–2, 8–12, 15–17, 21, Revelation 1:1, 3, 4, 13–16, 12:1, 2, 5, 9, 13:1–2, 18 (with footnote "Some manuscripts 616") — read from esv.org / BibleGateway at draft time.
+  **Resolved at lesson 7's Stage 4, and this entry is why the lesson shipped nine version survivals.** The draft's own source note claimed the text was "read via the bible.org API", which did not happen; that is the **third** lesson running to carry a false provenance line (L5-B3, L6-F2, L7-F1). Every quotation is now re-rendered in the NET and verified word for word against both mirrors. The wordings that had survived, recorded so no later lesson reintroduces them: **Revelation 1:1** is "what must happen **very soon**", not "that must soon take place" (ESV), and the NET wording is the *stronger* one for the preterist case the sentence was making. **1 Timothy 5:23** is "use a little wine for your **digestion and your frequent illnesses**". **1 Corinthians 13:10** is "but when **what is perfect** comes, the partial will be **set aside**". **1 Corinthians 11:12** is "For just as woman came from man, so man comes **through** woman. **But all things come from God.**", and the third clause is the strongest part of the balance the egalitarian argument cites. **Colossians 3:12** is "clothe yourselves with **a heart of mercy**". **Daniel 7:9** puts "white like snow" on the attire and "like lamb's wool" on the hair; "white as wool" is Revelation 1:14. **Revelation 17:9** is "seven **mountains**", not "seven hills", and 17:18 stops at "the great city that has sovereignty over the kings of the earth" without naming Rome. **The `(NET)` tag was missing from about twenty quotations including every one in the quiz, and that omission is what hid the rest: tag every quotation and the survivals become visible.**
 
 ## Added at draft time (lesson 5)
 
@@ -653,3 +654,111 @@ each caught at least one real error.
   undersized labels when all twenty-one were undersized. **Three distinct evasion routes are now
   recorded** (lesson 3 `fill="#ffffff"`, lessons 4 and 5 `<g>` wrappers, lesson 6 CSS), so **read
   every SVG by eye and do not trust `npm run validate` on this check.**
+
+## Added at lesson 7's Stage 4, 2026-09-06 (verified there, for later lessons to use)
+
+- **A FOURTH route past the SVG validator, and the first that defeats the size check rather than the
+  fill check.** `scripts/build.mjs` matches `font-size=` **as an attribute on `<text>`**. Lesson 7's
+  chart declared `font-size:11px` once, in the **`style` attribute on the `<svg>` root**, and carried
+  no `font-size` attribute anywhere, so `npm run validate` reported **0 undersized labels when all
+  eleven were undersized**, rendering at 10.0px against the 14px floor. The four routes now recorded
+  in this course are: `fill="#ffffff"` on a themed rect (lesson 3), a fill on a `<g>` wrapper
+  (lessons 4 and 5), an inline `<style>` block (lesson 6), and a `style` attribute on `<svg>`
+  (lesson 7). **Read every SVG by eye. The validator is not evidence on this check.**
+  The working pattern is now lesson 7's chart: viewBox `0 0 344 330`, every size as an attribute on
+  the element (15, or 16 for headings), `var(--token, #literal)` fills only, a `<desc>`, `xmlns`,
+  `font-family:inherit`, and every row named in text so nothing depends on colour.
+- **A schematic axis must say it is schematic.** Lesson 7's chart ran "AD 95" to "Christ returns"
+  with "today" in the middle, so nineteen centuries and an unknown span were drawn at the same width,
+  and the preterist bar, labelled "first century", drew about seven hundred years. It also began at
+  AD 95, which put the pre-70 date that preterism requires off the left edge of the one graphic whose
+  job was even-handedness. **Label the left end "John's day", say in the caption and the `<desc>`
+  that the line is not to scale, and read every bar back against its own label.**
+- **Encode a distinction, or stop claiming the picture shows it.** The draft drew the historicist and
+  idealist bars identically and distinguished them by colour and 50% opacity, then told the reader to
+  "look at the bars" for the difference between a sequence and a pattern. The fix is to draw it: the
+  historicist bar is now five separate blocks (eras in order) and the idealist bar one unbroken span
+  (one pattern present throughout). Also: **an element drawn at half opacity reads as "less real"**,
+  and it was the school the course's own preferred reading is closest to.
+- **Gematria, so no later lesson has to re-derive it.** Neron Kaisar in Hebrew letters: nun 50, resh
+  200, vav 6, final nun 50, qof 100, samekh 60, resh 200, summing to **666**. Drop the final nun (50),
+  which is what the Latin spelling Nero Kaisar gives, and the total is **616**. Checked by hand.
+  A lesson that tells the reader John expected them to calculate must print the table and let them
+  calculate; giving both totals and one letter value teaches nothing.
+- **P47 (Chester Beatty III) contains Revelation 13:18 and reads 666**, and is dated to the early to
+  mid third century, so **P115 is the oldest witness to the 616 reading and not the oldest copy of
+  the verse.** The lesson 7 draft's figure caption said the latter, which was false on the lesson's
+  own dating of P115. Note also the tension already recorded above: Chapa dates P115 late third or
+  early fourth century and the standard manuscript lists date it c. 225 to 275. **Print both.**
+- **Irenaeus refused to name the beast as a futurist, not as a preterist.** He held the antichrist
+  still future, which is why he says it is "more certain, and less hazardous, to await the fulfilment
+  of the prophecy". A lesson that uses his refusal to tie the number to the first century has him
+  backwards, and lesson 7's draft did that in a quiz key. He also rates **Teitan** "very probable"
+  among the three candidates, so "slightly more likely" undersells him. The ANF spelling is
+  **Euanthas**, not "Evanthas".
+- **Calvin never wrote on Revelation.** He commented on every New Testament book except Revelation
+  and 2 and 3 John, and reached the papacy-as-antichrist identification from Daniel and
+  2 Thessalonians. **Luther's** historicist outline is in the revised **1530** preface; his 1522
+  preface rejected the book. Three reviewers reached this independently. Web search only.
+- **The year-day principle is what makes historicism a method rather than a habit**: a prophetic day
+  stands for a year, on the pattern of Numbers 14:34 and Ezekiel 4:6, so the 1,260 days and forty-two
+  months of Revelation 11 to 13 map onto twelve and a half centuries. It is also the standing reading
+  of the **Seventh-day Adventist** tradition, whose scholars still work it out in print. **No lesson
+  may present historicism without it**, and lesson 7's draft gave that school no method, no living
+  defender, one criticism in the author's voice, and an appearance in the quiz only inside wrong
+  answers.
+- **The idealist reading is the oldest of the four, and this is the fifth time the figural-reading
+  instruction has had to be applied.** **Tyconius** (*Book of Rules*, c. 380s) and **Augustine**
+  (*City of God* 20) read the thousand years as the present age of the church; that was the standard
+  Western reading for a millennium, and **Andrew of Caesarea's** commentary of about 600 is still the
+  Orthodox Church's standard guide to Revelation. With the *Catechism* 115 to 118 (recorded at lesson
+  6's Stage 4), this is what any lesson owes the spiritual sense before calling it a beginner's
+  error. Web search and reference works; no primary text fetched.
+- **Gordon Fee's own commitments must be disclosed wherever he is the method-giver.** Fee was a board
+  of reference member of **Christians for Biblical Equality** and a contributing editor of
+  *Discovering Biblical Equality*, where his essay is "Hermeneutics and the Gender Debate". Lesson 7
+  used him as the neutral procedure in every section, said "We hold, with Fee" on head coverings, and
+  printed his jab at complementarians unanswered, without ever saying he was a party to the dispute.
+  This course's own rule at the Fee-and-Hayes note above already required the disclosure.
+  **For the other sides, named as positions and not opened:** Piper and Grudem (eds), *Recovering
+  Biblical Manhood and Womanhood* (1991), for the complementarian lexical case on *kephalē*; Pierce
+  and Groothuis (eds), *Discovering Biblical Equality* (2005), for the egalitarian one. **Covering-
+  keeping Christians must be allowed to name themselves too**: conservative Anabaptists, the Plymouth
+  Brethren, most Orthodox and traditional Catholic women, much of the church in Africa, India, the
+  Middle East and Latin America, and the self-described head covering movement in the West. It is the
+  largest of the three positions worldwide and was the only one of the three the draft left unnamed.
+- **Two contested renderings this course must never print as fact.** NET **Romans 16:1** calls Phoebe
+  "a **servant** of the church in Cenchrea", not a deacon; NET **Romans 16:7** reads Andronicus and
+  Junia are "well known **to** the apostles", the exclusive reading, defended in one of the longest
+  translator notes in the NET. Lesson 7 printed both the other way round, unflagged, in the paragraph
+  founding the section it then adjudicated. **Give both renderings and say the question is argued**,
+  which sharpens Fee's point about a non-uniform witness rather than blunting it.
+- **The strongest scriptural objection to the basic rule, which apocalyptic lessons must engage.**
+  **Daniel 12:4 and 12:8 to 9**: Daniel is told to "close up these words and seal the book until the
+  time of the end", says "I heard, but I did not understand", and is told the matters are "closed and
+  sealed". **1 Peter 1:10 to 12**: the prophets "searched and investigated carefully" and "were shown
+  that they were serving not themselves but you" (stop before the em dash). Apocalyptic may be the
+  one genre Scripture itself says was not fully intelligible to its first hearers, and that is what
+  futurists and historicists actually press. A lesson may still hold the rule; it may not pretend the
+  objection is not there.
+- **Apocalypses to name, so no lesson says "dozens survive" and names none.** *1 Enoch* (third to
+  first century BC, the Book of the Watchers), *4 Ezra* (in many Catholic Bibles as 2 Esdras) and
+  *2 Baruch*, both written after AD 70 and wrestling with the same fall of Jerusalem. And the
+  reader's own Bible contains one: **Daniel 7 to 12**, which is why Daniel supplies more of
+  Revelation's furniture than any other book.
+- **Brent Shaw, "The Myth of the Neronian Persecution", *Journal of Roman Studies* 105 (2015)**,
+  argues the Neronian persecution is a later construction; answered by Jones, Barrett and others, and
+  most historians still accept Tacitus. So **"History establishes" may not be used of it**, and
+  Tacitus should be dated in the sentence: he wrote about fifty years after the event. Web search.
+- **Images in Revelation 4 and 5 and where they actually come from**, because the lesson 7 draft sent
+  the reader to Isaiah 6, Ezekiel 1 and Daniel 7 and then listed two images that are in none of them.
+  The **sealed scroll written front and back** is **Ezekiel 2:9 to 10**, not Ezekiel 1. The **Lion of
+  the tribe of Judah** is **Genesis 49:9** and the **root of David** is **Isaiah 11:1 and 10**, not
+  any of the three. Placeable cleanly: the throne and elders (Daniel 7:9, Ezekiel 1:26 to 28), the
+  four living creatures (Ezekiel 1:5 to 10 with Isaiah 6:2 for the six wings), the "holy, holy, holy"
+  (Isaiah 6:3, word for word). **The sea of glass (4:6) has no clean address** (Exodus 24:10 and
+  1 Kings 7:23 are both partial), which makes it the right answer to "name one you cannot place".
+- **NET verses carrying em dashes, added to the list at lesson 5's Stage 4**: **Galatians 3:28**
+  (before "for all of you are one in Christ Jesus"), **1 Peter 1:12** (before "things angels long to
+  catch a glimpse of"), **Genesis 49:9**, **Revelation 12:9**, **Philemon 9 and 12**, **Revelation
+  1:5 and 17:16**. Quote these in fragments that stop before the dash.

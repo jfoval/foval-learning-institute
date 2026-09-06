@@ -3968,3 +3968,225 @@ the later date the lesson prints alone. The P115 Commons file and licence. The B
 existence, title and run-time. Whether Fee attaches the barbarian-hordes reading to the locusts of
 9:1-11 or the cavalry of 9:13-19. Gentry 2016's publisher. Calvin's and Luther's positions, and the
 Fee-CBE connection, rest on web search rather than a fetched source.
+
+### Resolutions applied, 2026-09-06
+
+Rewritten in full rather than patched, because seven of the nineteen blocking findings were
+structural: an objective taught but never modelled, an exercise answered twice over by the body, a
+chart that had to be redrawn, a whole third of the lesson with nothing for the learner to do, four
+schools presented in four walls of text, and a quiz in which nothing was fresh. `minutes` went from
+60 to **130**, objectives from four to **six**, in-body links from **0 to 54**, and five of six quiz
+items were replaced. `npm run validate` exits 0 with no warning on this lesson, and the file still
+carries **zero em dashes and zero en dashes**, which is what it came in with and the one thing this
+draft did better than any before it.
+
+**L7-B1, the self-check printing its own answer.** "This is your step" and "Here is my list" are
+gone. The step is now a `:::checkpoint` whose stem asks for the **kinds** of reason rather than the
+reasons, so it can't be the compounding form caught at L5-B1 and L6-B1, and the hidden body ends by
+saying that which kind a reader thinks carries the weight is what the next step turns on. Seventh
+lesson, seventh time this fix has been written.
+
+**L7-B2, five unopened books made authorities.** Beale's phrase is no longer in quotation marks; the
+body reports what the commentary is described as saying. The course's position now reads "a mixed
+reading in the family Beale and Osborne are usually placed in", which is a claim about the field
+rather than about two books. Sources 9, 10, 11, 12, 13 and 23 each now say in bold that the volume
+was not opened, and source 13 no longer asserts what is inside Elliott's four volumes.
+`SOURCES.md` has been escalated at source: those books **may not be quoted at all** by any later
+lesson.
+
+**L7-B3, nine version survivals.** All corrected against NET2 and each recorded in `SOURCES.md` so no
+later lesson reintroduces them. Revelation 1:1 is now "what must happen very soon", and the
+preterist paragraph's argument now turns on the NET's own stronger wording. 1 Corinthians 13:10 is
+"but when what is perfect comes, the partial will be set aside". 1 Corinthians 11:12 is quoted in
+full, including "But all things come from God", which is the clause the egalitarian argument
+actually needs and which the draft had dropped. Colossians 3:12 is "a heart of mercy". Daniel 7:9 is
+"the hair of his head was like lamb's wool". Revelation 17:9 is "seven mountains" and 17:18 stops
+where John stops, with "which Fee and most commentators take to be Rome" outside the quotation.
+1 Timothy 5:23 no longer appears in ESV at all, because the quiz item built on it was replaced; the
+KJV phrase in the body stays and is now attributed as Fee's, which 4.7 permits. **The `(NET)` tag is
+now on every quotation, including every quotation in the quiz**, which is the change that would have
+made the other eight visible in the first place.
+
+**L7-B4, Phoebe and Junia.** Both are now given with both renderings and the NET's named: Phoebe
+"called *diakonos* of the church at Cenchrea, which the NET renders 'servant' and other translations
+'deacon'"; Junia "whom the NET reads as 'well known to the apostles' and others as outstanding
+*among* the apostles". The paragraph then says that every one of those readings is argued, which
+sharpens Fee's point about a non-uniform witness rather than blunting it.
+
+**L7-B5, Fee's own position.** Disclosed where his guidelines are introduced, in the body: board
+member of Christians for Biblical Equality, contributing editor of *Discovering Biblical Equality*,
+"a method offered by someone with a position in the argument the method is about to be used on".
+Line 131's jab now carries the complementarian reply in the same breath (prophesying is not the
+teaching or governing 1 Timothy 2:12 restricts; 1 Corinthians 14:34 to 35 is where Paul draws that
+line). And the section now says plainly that **this course does not take a side between
+complementarians and egalitarians**, because the test just run does not settle it.
+
+**L7-B6, the figural instruction, fifth recurrence.** The idealist paragraph now carries Tyconius in
+the 380s, Augustine in *City of God* 20, the thousand years as the present age of the church as the
+standard Western reading for a millennium, Andrew of Caesarea's commentary as the Orthodox Church's
+standard guide, and the *Catechism* 115 to 118 on the four senses with the literal as the
+foundation. It closes by saying that when Fee says not to press every detail allegorically he is
+stating a rule inside the grammatical-historical method **this course uses**, not a rule the whole
+church has kept. The reader can no longer finish believing nobody read Revelation between Irenaeus
+and 1844.
+
+**L7-B7, objective 4 taught but never modelled or practised.** Three additions. A `:::checkpoint`
+after the four schools asks the learner to state a futurist reading of Revelation 12 at full
+strength, then an idealist reply, then **which of the two they found harder to state fairly**; the
+model answer says which one the writer finds harder and why, which is the ideological Turing test
+performed rather than described. Q4 now tests the performance (which answer would an idealist
+actually give) rather than a matching exercise. And exercise Part 3 makes the learner sort six
+passages by reflex.
+
+**L7-B8, historicism.** It now has its method: the year-day principle, on the pattern of Numbers
+14:34 and Ezekiel 4:6, mapping 1,260 days onto twelve and a half centuries, with the note that this
+is why historicists say theirs is the only reading that takes the book's numbers as measurements of
+anything. Luther's 1530 preface is dated, Calvin is removed as a reader of Revelation and explained,
+Seventh-day Adventist scholars are said to still work it out in print, and the criticism is now
+attributed ("the objection its holders answer most often") rather than delivered in the author's
+voice. It also has a quiz presence that is not a wrong answer, since Q4 and Q5 no longer use it as a
+distractor at all.
+
+**L7-B9, line 258 against line 246.** The preference sentence now gives a reason that doesn't rank
+the others ("each of Revelation's three genres does work the others leave undone") and grants equal
+seriousness to **all four** schools by name.
+
+**L7-B10 and L7-B11, the quiz.** Q2 to Q6 replaced. New cases: Galatians 3:28 read as a social
+programme (which tests objective 2's first half, the basic rule, which the old quiz never tested at
+all), Revelation 8:6 to 12, the idealist's own answer to a standard objection, Revelation 17:9 to 10
+where two of the lesson's conventions pull against each other, and James 5:14. **Not one is worked
+in the body.** Keys are **1, 3, 0, 2, 1, 2**: all four indices used, no adjacent repeat. Option
+lengths are levelled to spreads of **4 to 11 characters** (the draft's own best feature, which the
+neutrality reviewer asked us not to break), the key is nowhere the longest except a tie at Q4, and
+**every item now has at least two options carrying no absolute**, so the shape leak that scored four
+of six is closed. Every explanation credits each distractor for what it gets right before saying
+where it fails, which is lesson 6's feature restored.
+
+**L7-B12, the exercise.** Rewritten in three parts with **three model-answer checkpoints**. Part 1 no
+longer repeats the Philemon checkpoint: it says so explicitly and sets the argument-paragraph
+question and a full four-step run instead, with the "there is an obvious one" giveaway deleted. Part
+2 no longer lists the six images it asks for; it asks for **one image the learner can place and one
+they cannot**, which is a better task and an honest one, and the chapter list is corrected to include
+Ezekiel 2, Genesis 49 and Isaiah 11 so the scroll and the Lion are reachable. The model answer names
+the sea of glass as the one with no clean address. Part 3 is new and interleaves. Free recall was
+added before the quiz.
+
+**L7-B13, links.** 0 to **54** in the teaching prose, including every read-this instruction, the
+non-canonical apocalypses, the *Catechism*, Martin's lecture, and every passage in exercise Part 3.
+
+**L7-B14 and L7-B15, the chart.** Redrawn. viewBox `0 0 344 330`, every size an **attribute** on its
+own element (15, and 16 for the two heading lines), rendering at 14.3px at 360px width. No `style`
+font-size, no hardcoded fills or strokes, `xmlns` restored, `font-family:inherit`, and a `<desc>`
+that narrates all four positions. The axis now starts at **"John's day"** rather than AD 95, so the
+pre-70 date preterism needs is no longer off the edge, and both the caption and the `<desc>` say the
+line is schematic and not to scale. The sequence-versus-pattern distinction is now **drawn**: the
+historicist bar is five separate blocks, the idealist bar one unbroken span. Idealism is at full
+opacity in its own token like the other three. "Look at where the bars sit" is now true.
+
+**L7-B16, the empty last third.** Two blocks added there: the four-schools checkpoint and a
+`:::predict` before the dating section asking what a preterist needs the date to be and why the date
+matters more to that school than to the other three. Free recall added at the end of the exercise.
+
+**L7-B17, spaced review as restatement.** "Notice the spaced review" is deleted. Lesson 3's basic
+rule is now a `:::predict` asking the learner to state it from memory and then apply it to Fee's
+1 Corinthians 13:10 example, and the hidden answer ends by saying what the rule does and doesn't do.
+Lessons 4 and 6 are now retrieved by a second `:::predict` ("what did lesson 4 say a prophet's oracle
+has two of, and what did lesson 6 say a parable does to its hearer?") whose body is the paragraph
+that used to tell them.
+
+**L7-B18, minutes.** 60 to **130**, at the middle of the three measurements, with the exercise trimmed
+so Ezekiel 1 is no longer held open alongside four other chapters.
+
+**L7-B19, pipeline vocabulary.** All six gone. The headings are now "1 Corinthians 13, read at a
+wedding and read in Corinth", "Head coverings, where three readings part company", "666, and the copy
+that says 616", "The woman, the child, and the dragon", and "Now do it yourself, on Philemon,
+Revelation 4 and 5, and six passages you have to sort", with `:::exercise Three tasks`, which is the
+convention lessons 5 and 6 settled on. "Here is the mechanism" is now "That runs the letter's problem
+backwards", and "the mechanism" appears nowhere in learner-facing prose.
+
+**Facts.** L7-F1: source 5 now says what actually happened and lists every passage quoted. L7-F2: the
+caption now says P115 is the oldest copy **that reads 616**, and names P47 as an earlier witness
+reading 666. L7-F3: Calvin removed and explained, Luther's 1530 preface dated. L7-F4: Q5 replaced,
+and the body now says explicitly that Irenaeus refused **as a futurist**, which cuts against a use
+this lesson could have been tempted to make of him. L7-F5: the frontier-invasion reading is moved to
+the Euphrates cavalry of 9:13 to 19 where it standardly sits, so the body no longer presses details
+in the same eleven verses a quiz item forbids pressing; the remaining uncertainty about which passage
+Fee attaches it to is disclosed in source 3. L7-F6 and L7-F7: all four unsourced majority claims
+downgraded; the heading is now "Mixed readings" and the body says "two of the most widely cited
+recent commentaries". L7-F8: Tacitus is now dated in the sentence and Shaw's 2015 article is named
+with the note that most historians still accept the report. L7-F9: `(NET)` on every quotation.
+L7-F10: 144,000 now reads "most commentators therefore read", with futurists who take it as a count
+described as "being consistent with their own rule rather than careless with ours". L7-F11: Daniel
+12:4 and 12:8 to 9 and 1 Peter 1:10 to 12 are now a paragraph of their own, and "entirely" at 167 is
+"in the picture first". L7-F12: Q5 replaced. L7-F13: the 616 predict now ends by saying modern
+editions still print 666 and that this isn't a knockdown. L7-F14: one sentence in the body says the
+course writes "Paul" for all thirteen letters, that most critical scholars hold the Pastorals are
+later, and that nothing in the method turns on it. L7-F15: the run-time is cut and the caption points
+at the video's own page. L7-F16: Teitan named and "very probable"; source 6 corrected to Euanthas.
+L7-F17: the *Four Views* motive is no longer asserted.
+
+**Depth items now used.** Köstenberger and Patterson's **hermeneutical triad** is named in
+Connections as the frame the five genre lessons have been running, which is its fifth and last
+chance in this course. **Duvall and Hays** are no longer a picture used for nothing: their five steps
+and Fee's two are compressed into a numbered **four-step box** that the head-coverings section then
+walks step by step and the exercise cites, which is what `SOURCES.md` called "a teachable procedure".
+**Osborne 2006** is added to Go deeper. **Beale's common-ground observation** is now the sentence
+that closes the Ezekiel 40 to 48 paragraph, which is where lesson 4's Stage 4 said it was worth most.
+**Daniel as an apocalypse** is now stated, and "dozens survive" is replaced by *1 Enoch*, *4 Ezra*
+and *2 Baruch*, each linked and each with a line. **Gematria is runnable**: the seven Hebrew letters
+and their values are a table, and the reader is told to add them and then drop the final nun.
+
+**Neutrality, remaining items.** "We hold by faith" now appears, on the return and the judgment, so
+all three labels are in the lesson. Covering-keeping Christians name themselves and are located
+(conservative Anabaptists, Plymouth Brethren, most Orthodox and traditional Catholic women, much of
+the church outside the West, the head covering movement). The complementarian block has its lexical
+argument (Grudem on *kephalē*). "Pretribulation rapture" and "amillennialism" are both named. The
+one-way register is gone: "stranger", "costumes", "modern pamphlets" and "but it is also held with
+great care by serious scholars" are all rewritten. The same-sex clause now carries one sentence
+stating the argument on the other side and pointing at *Hard Questions*. The dating section gives
+each side its own paragraph, with Laodicea, the state of the churches and the emperor cult on the
+late side and the temple, the count of kings and the ambiguity of Irenaeus's Greek on the early side.
+
+**Voice.** Contraction density went from 1 in 813 (real contractions) to **1 in 42 in the body and
+1 in 58 in the quiz**, which sits inside the house band (lessons 4 and 5 run 1 in 45, lesson 6 1 in
+52). Paragraphs over 120 words went from 17 to **9**, and the four-schools section is now eleven
+paragraphs instead of four, with the idealist school given the most space rather than the least.
+"Here is" openers went from four to zero and "Now the" openers from four to one. The video moved to
+sit directly after the apocalyptic conventions it illustrates, and its caption no longer has to tell
+the reader to come back to it later. Three misconceptions were added: "the letters are a doctrine
+manual", "666 identifies a living public figure", and "the four schools are four levels of
+seriousness", each of which the lesson argues against and two of which the quiz used to test without
+naming.
+
+### Deliberately not fixed, with reasons
+
+- **The lesson was not split**, only seamed, per BACKLOG 7b. `minutes: 130` therefore describes the
+  whole lesson as it stands. The seam comment records what each half would carry, including which
+  quiz items and which objectives, and notes that exercise Part 3 interleaves both halves and belongs
+  to whichever half comes second.
+- **Objective 1 still bundles two performances** (reconstruct the occasion, read by paragraph). They
+  are one habit in practice and the lesson teaches them as one; splitting them would give six
+  objectives where the second adds nothing a learner could be tested on separately. Objective 3 was
+  split from objective 4 as the reviewer asked, which is where the bundling actually cost something.
+- **The head-covering positions still have no page-cited authority on any side.** Grudem and the two
+  edited volumes are named as positions and disclosed as unopened, which is the honest available
+  move; citing pages from books nobody read is the defect this pass exists to remove. `SOURCES.md`
+  records the gap as the largest unresearched hole in this lesson's spec.
+- **Brown's Catholic critical introduction and a full treatment of Revelation's hymnody** were both
+  considered and left. The lesson quotes no poetry, so the trailing-space workaround does not apply,
+  and adding a hymn from Revelation 4 or 5 would give away exercise Part 2. The reviewer's point
+  stands as an argument for the split, after which the second half would have room.
+- **The Fee attributions remain fact-check debt.** Every hosted copy of the textbook is 403 here, so
+  the whole method of this lesson rests on the drafter's Stage 1 record. Source 3 now discloses the
+  one place that matters, the frontier-invasion reading, because the body had to choose a passage.
+- **The P115 image, the Williams article and the BibleProject video** stay unverified for the same
+  proxy reasons and are listed as debt above.
+
+### Requests for the shared files (items 1 to 10 stand from lessons 4, 5 and 6; this is new)
+
+11. **The SVG checks in `scripts/build.mjs` must also read `style` attributes on the `<svg>` root and
+    on `<g>`, not only attributes on `<text>`.** Request 9 asked for `<style>` blocks and `<g>` fills;
+    lesson 7 adds a fourth route and the first one to defeat the **font-size** check rather than the
+    fill check, reporting 0 of 11 undersized labels. Four separate evasion routes across four lessons
+    is enough evidence that the check should resolve inherited and inline CSS or be replaced with a
+    render-time measurement.
