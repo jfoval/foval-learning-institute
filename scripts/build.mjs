@@ -109,12 +109,17 @@ function lintLessons() {
     for (const cdir of fs.readdirSync(path.join(COURSES_DIR, school.name), { withFileTypes: true }).filter(d => d.isDirectory())) {
       const lessonsDir = path.join(COURSES_DIR, school.name, cdir.name, "lessons");
       if (!fs.existsSync(lessonsDir)) continue;
+      // A draft quoting the wrong translation must not block the deploy of courses that
+      // are already live. Drafts warn; published courses fail the build.
+      let published = false;
+      try { published = yaml.load(fs.readFileSync(path.join(COURSES_DIR, school.name, cdir.name, "course.yaml"), "utf8")).status === "published"; } catch {}
+      const fail = m => (published ? errors : warn).push(published ? m : m + " [draft: fix before publishing]");
       for (const f of fs.readdirSync(lessonsDir).filter(f => f.endsWith(".md"))) {
         const file = path.relative(ROOT, path.join(lessonsDir, f));
         const src = fs.readFileSync(path.join(lessonsDir, f), "utf8");
 
         // Rule 7: never an em dash in learner-facing prose.
-        if (src.includes("\u2014")) errors.push(`${file}: contains an em dash (CLAUDE.md rule 7)`);
+        if (src.includes("\u2014")) fail(`${file}: contains an em dash (CLAUDE.md rule 7)`);
 
         // 4.6: SVG text drawn in a fixed dark colour disappears on the dark theme.
         // Text sitting on a coloured bar is fine, so only flag fills outside a bar's own colours.
@@ -132,7 +137,7 @@ function lintLessons() {
         if (small.length) warn.push(`${file}: ${small.length} SVG label(s) under font-size 15; they render below ~10px on a phone (4.6)`);
 
         // 4.7: the ESV cannot be quoted in this project. See the standard for why.
-        if (/\(([^)]*,\s*)?ESV\)/.test(src)) errors.push(`${file}: quotes the ESV, which our licence terms do not permit (Editorial Standards 4.7); use the NET, JPS 1917, Brenton or KJV`);
+        if (/\(([^)]*,\s*)?ESV\)/.test(src)) fail(`${file}: quotes the ESV, which our licence terms do not permit (Editorial Standards 4.7); use the NET, JPS 1917, Brenton or KJV`);
 
         // 4.5: a lesson that links nothing hides its sources.
         const body = src.split(/^---$/m).slice(2).join("---");

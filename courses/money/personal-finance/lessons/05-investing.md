@@ -39,7 +39,9 @@ An **index fund** simply buys every company in an index, such as the largest 500
 
 Decades of evidence show that most professional fund managers fail to beat the index over long periods, especially after their fees. Buying the index means you get the market's return minus almost nothing.
 
-> "Don't look for the needle in the haystack. Just buy the haystack." — John Bogle, founder of Vanguard
+> "Don't look for the needle in the haystack. Just buy the haystack."
+>
+> John Bogle, founder of Vanguard
 
 ## Why fees matter so much
 
