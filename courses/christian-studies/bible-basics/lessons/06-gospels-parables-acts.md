@@ -57,9 +57,9 @@ quiz:
     explain: The three passages give three different orders, which is exactly what the consistency test is for, since a pattern that changes from story to story is not being prescribed. Option A picks one story as the norm without a reason from the text. Option B overcorrects; Acts teaches a great deal about the Spirit, and Christians who read these passages as revealing a pattern are making a serious case, which is why the lesson calls it a real debate rather than a settled point. Option D finds a constant and then treats it as a command, which is the description-to-prescription move again.
 ---
 
-> Now the tax collectors and sinners were all drawing near to hear him. And the Pharisees and the scribes grumbled, saying, "This man receives sinners and eats with them."
+> Now all the tax collectors and sinners were coming to hear him. But the Pharisees and the experts in the law were complaining, "This man welcomes sinners and eats with them."
 >
-> Luke 15:1–2 (ESV)
+> Luke 15:1–2 (NET)
 
 Most people who know the story of the prodigal son have never read those two verses, and it shows. They know the story as a picture of a sinner coming home to a forgiving father, and that reading isn't wrong. But it stops two-thirds of the way through, at the party, and it never asks who Jesus was talking to. Luke tells you. He was talking to religious people who were angry that he ate with the wrong crowd. Read the story with those people in front of you and it turns out the last character to appear, the older brother who won't come in, is the one the story was built to reach.
 
@@ -69,9 +69,9 @@ That is the whole lesson in miniature. The Gospels are the most read part of the
 
 Start with what the writers say about their own work. John ends his Gospel like this:
 
-> Now there are also many other things that Jesus did. Were every one of them to be written, I suppose that the world itself could not contain the books that would be written.
+> There are many other things that Jesus did. If every one of them were written down, I suppose the whole world would not have room for the books that would be written.
 >
-> John 21:25 (ESV)
+> John 21:25 (NET)
 
 That's a writer telling you he selected. He chose some events and left out others, and he chose for a reason (he gives it at 20:31: so that you may believe). Luke opens his Gospel by saying he consulted eyewitness accounts and wrote an orderly account for a named reader. Mark starts with the words "the beginning of the gospel". None of them claims to be a transcript.
 
@@ -79,9 +79,9 @@ So what are they? The best current answer is that they are ancient biographies w
 
 The Gospels are also, all four of them, about one thing. The first words Jesus speaks in Mark are these:
 
-> "The time is fulfilled, and the kingdom of God is at hand; repent and believe in the gospel."
+> "The time is fulfilled and the kingdom of God is near. Repent and believe the gospel!"
 >
-> Mark 1:15 (ESV)
+> Mark 1:15 (NET)
 
 The kingdom of God is the centre of his preaching, and it's the thread from lesson 4: the covenant God made with Israel, enforced by the prophets, is now being kept by God himself arriving as king. Nearly every parable is about that kingdom, which is why the parables can't be read as timeless moral fables. They're announcements, told to a particular crowd, that something has started.
 
@@ -107,9 +107,9 @@ Five minutes of animation on what a Gospel is and what "gospel" meant to the fir
 
 The Old Testament has a parable that shows you the mechanism in a single scene. King David has taken Bathsheba and had her husband killed. The prophet Nathan comes to him and tells a story about a rich man with many flocks who takes a poor man's only lamb to feed a guest. David is furious; the rich man deserves to die. Then Nathan says:
 
-> "You are the man!"
+> "You are that man!"
 >
-> 2 Samuel 12:7 (ESV)
+> 2 Samuel 12:7 (NET)
 
 Look at what happened. David walked into the story agreeing with it. He judged the rich man freely, because the story wasn't about him, until it was. A parable works on the hearer the way a trap works on the foot: you step in willingly and the story closes. Its power depends on the hearer not seeing themselves until the last moment.
 
@@ -121,19 +121,19 @@ Now the pious mistake. For most of church history the parables were read as alle
 
 Augustine took the man going down from Jerusalem to Jericho as Adam, fallen from the heavenly city into mortality. The robbers are the devil and his angels, who strip him of immortality and leave him half dead. The priest and Levite are the Old Testament priesthood and ministry, which could not save. The Samaritan is Christ (Augustine notes that "Samaritan" can mean "guardian"). The inn is the church, and the innkeeper the apostle Paul.[5] It's beautiful. It fits the whole of Christian doctrine into one story.
 
-And it defuses the trap. Luke tells you who Jesus was talking to. A lawyer, wanting to justify himself, had asked:
+And it defuses the trap. Luke tells you who Jesus was talking to. An expert in religious law, wanting to justify himself, had asked:
 
 > "And who is my neighbor?"
 >
-> Luke 10:29 (ESV)
+> Luke 10:29 (NET)
 
 After the story Jesus turns the question round:
 
-> "Which of these three, do you think, proved to be a neighbor to the man who fell among the robbers?" He said, "The one who showed him mercy." And Jesus said to him, "You go, and do likewise."
+> "Which of these three do you think became a neighbor to the man who fell into the hands of the robbers?" The expert in religious law said, "The one who showed mercy to him." So Jesus said to him, "Go and do the same."
 >
-> Luke 10:36–37 (ESV)
+> Luke 10:36–37 (NET)
 
-The lawyer had asked who counted as his neighbour, hoping for a limit. The story makes a Samaritan, the last person a Judean lawyer would choose, the one who acts as neighbour, and then asks the lawyer which man he'd rather be. That is the punch. Notice the lawyer can't even say the word "Samaritan"; he says "the one who showed him mercy". In Augustine's reading, the lawyer vanishes, the Samaritan is Christ, and nobody in the room is caught. The story becomes a diagram of salvation instead of a question the hearer has to answer about his own contempt.
+The expert had asked who counted as his neighbour, hoping for a limit. The story makes a Samaritan, the last person a Judean expert in the law would choose, the one who acts as neighbour, and then asks the expert which man he'd rather be. That is the punch. Notice he can't even say the word "Samaritan"; he says "The one who showed mercy to him". In Augustine's reading, the expert vanishes, the Samaritan is Christ, and nobody in the room is caught. The story becomes a diagram of salvation instead of a question the hearer has to answer about his own contempt.
 
 We don't follow Augustine's reading, and the reason is the basic rule from lesson 3: a text cannot mean what it could not have meant to its author or first hearers.[6] Nobody on that road could have heard "the inn is the church". But be fair to the old readers: the church survived on allegorised parables for over a thousand years, and it was usually reaching for truths it had learned elsewhere in Scripture. The cost wasn't heresy. The cost was that the parables stopped catching anyone.
 
@@ -149,7 +149,7 @@ Read Luke 15:11–32 now, all of it, with 15:1–2 still in mind. Then come back
 
 **The reading most people bring.** The younger son demands his inheritance, wastes it, comes to his senses in a pigsty, and goes home rehearsing an apology. The father runs to him, cuts the apology short, and throws a feast. The story is about repentance and a father's forgiveness, and the reader is the younger son. Some readers go further and allegorise the details: the robe is Christ's righteousness, the ring is adoption, the shoes are the freedom of a son, the fattened calf is the sacrifice. That version has been preached for centuries and most of it is true as doctrine.
 
-**The reading the genre asks for.** Ask the two questions. Who was listening? Luke told you: Pharisees and scribes, grumbling that Jesus receives sinners and eats with them. Jesus answers with three stories (a lost sheep, a lost coin, a lost son), each ending in a party over something found. So far the grumblers can nod along; who objects to a shepherd finding his sheep?
+**The reading the genre asks for.** Ask the two questions. Who was listening? Luke told you: Pharisees and experts in the law, complaining that Jesus welcomes sinners and eats with them. Jesus answers with three stories (a lost sheep, a lost coin, a lost son), each ending in a party over something found. So far the grumblers can nod along; who objects to a shepherd finding his sheep?
 
 Then the third story keeps going after the party.
 
@@ -159,13 +159,13 @@ No. The story ends with the father outside, pleading, and the older brother's an
 
 Here is the ending:
 
-> But he was angry and refused to go in. His father came out and entreated him, but he answered his father, "Look, these many years I have served you, and I never disobeyed your command, yet you never gave me a young goat, that I might celebrate with my friends. But when this son of yours came, who has devoured your property with prostitutes, you killed the fattened calf for him!" And he said to him, "Son, you are always with me, and all that is mine is yours. It was fitting to celebrate and be glad, for this your brother was dead, and is alive; he was lost, and is found."
+> But the older son became angry and refused to go in. His father came out and appealed to him, but he answered his father, "Look! These many years I have worked like a slave for you, and I never disobeyed your commands. Yet you never gave me even a goat so that I could celebrate with my friends! But when this son of yours came back, who has devoured your assets with prostitutes, you killed the fattened calf for him!" Then the father said to him, "Son, you are always with me, and everything that belongs to me is yours. It was appropriate to celebrate and be glad, for your brother was dead, and is alive; he was lost and is found."
 >
-> Luke 15:28–32 (ESV)
+> Luke 15:28–32 (NET)
 
-Now do the next step yourself before reading on. The Pharisees and scribes have been listening to a story about a father who welcomes a wastrel. At which line do they discover the story is about them, and what exactly is the father asking them to do?
+Now do the next step yourself before reading on. The Pharisees and experts in the law have been listening to a story about a father who welcomes a wastrel. At which line do they discover the story is about them, and what exactly is the father asking them to do?
 
-Here's my answer. They discover it at "this son of yours". The older brother has done everything right and is standing outside a party for someone who did everything wrong, complaining that the father receives sinners and eats with them. That is Luke 15:2 in the older brother's mouth. The father doesn't rebuke him; he goes out to him, calls him "son", and asks him to come in and call the wastrel "your brother". The story stops there because the question is now the hearers': will you come in? Nathan's trap has closed, and the last word is an invitation rather than a verdict.
+Here's my answer. They discover it at "this son of yours". The older brother has done everything right and is standing outside a party for someone who did everything wrong, complaining that the father welcomes sinners and eats with them. That is Luke 15:2 in the older brother's mouth. The father doesn't rebuke him; he goes out to him, calls him "son", and asks him to come in and call the wastrel "your brother". The story stops there because the question is now the hearers': will you come in? Nathan's trap has closed, and the last word is an invitation rather than a verdict.
 
 Notice what the allegorised version lost. The robe and the ring and the calf all sit in the first two-thirds, and a reader busy decoding them arrives at the older brother with no energy left. The story about repentance is in the text. The story about the person who resents repentance is what the text was for.
 
@@ -189,19 +189,19 @@ He doesn't. He describes it twice, warmly, and then in Acts 5:4 Peter tells Anan
 
 Here are the two descriptions:
 
-> And all who believed were together and had all things in common. And they were selling their possessions and belongings and distributing the proceeds to all, as any had need.
+> All who believed were together and held everything in common, and they began selling their property and possessions and distributing the proceeds to everyone, as anyone had need.
 >
-> Acts 2:44–45 (ESV)
+> Acts 2:44–45 (NET)
 
-> There was not a needy person among them, for as many as were owners of lands or houses sold them and brought the proceeds of what was sold and laid it at the apostles' feet, and it was distributed to each as any had need.
+> For there was no one needy among them because those who were owners of land or houses were selling them and bringing the proceeds from the sales and placing them at the apostles' feet. The proceeds were distributed to each, as anyone had need.
 >
-> Acts 4:34–35 (ESV)
+> Acts 4:34–35 (NET)
 
 Now the other passage. Before Pentecost the eleven pick a replacement for Judas:
 
-> And they cast lots for them, and the lot fell on Matthias, and he was numbered with the eleven apostles.
+> Then they cast lots for them, and the one chosen was Matthias; so he was counted with the eleven apostles.
 >
-> Acts 1:26 (ESV)
+> Acts 1:26 (NET)
 
 Run the test on both. Is holding goods in common commanded elsewhere? Generosity to the poor is commanded everywhere, from Deuteronomy to the letters, so the principle is binding. Selling all property into a common fund is not commanded anywhere, and Peter's words in Acts 5:4 show it was voluntary in Jerusalem itself. Is it consistent across Acts? Paul's churches in the letters own property and are told to give freely and proportionately (2 Corinthians 8–9), not to pool everything. So: the generosity is a rule, the common fund is a description of one church's response.
 
@@ -209,7 +209,7 @@ Is casting lots commanded elsewhere? No. Is it consistent across Acts? It happen
 
 **The wrinkle.** Now the hard case, and I'm not going to resolve it, because Christians haven't. In Acts 8 the Samaritans believe and are baptised, and the Spirit comes on them only later when the apostles arrive. In Acts 10 Cornelius and his household receive the Spirit while Peter is still preaching, before baptism. In Acts 19 some disciples at Ephesus are baptised and receive the Spirit when Paul lays hands on them. Pentecostal and charismatic Christians read these as showing that receiving the Spirit can be a distinct event after conversion, and they have a serious case, since Luke plainly records it happening. Most Reformed, Lutheran, Catholic and Orthodox readers hold that these were unique moments as the gospel crossed each new boundary (Samaritans, Gentiles, disciples of John), and that the letters teach the Spirit is given at conversion; they also have a serious case. The consistency test tells you Luke isn't laying down a sequence, since he gives three different ones. What he *is* showing you is argued, at full strength, on both sides. This is a real disagreement between Christians who love the same book, and a lesson on reading Acts should say so rather than pick a side and pretend the test settled it.
 
-:::checkpoint Acts 2:42 says the first believers devoted themselves to the apostles' teaching, fellowship, the breaking of bread, and the prayers. Which of these does the test make binding, and why?
+:::checkpoint Acts 2:42 says the first believers devoted themselves to the apostles' teaching and to fellowship, to the breaking of bread and to prayer. Which of these does the test make binding, and why?
 All of them, but not because Acts 2:42 reports them. Teaching, fellowship, the Lord's Supper and prayer are commanded in the Gospels and the letters (for instance 1 Corinthians 11:23–26 for the Supper, and the Great Commission for teaching), and they run consistently through the whole of Acts. The verse describes a church doing what it was told to do. That's the pattern to look for: description that matches a command elsewhere is confirmation, not the source of the obligation.
 :::
 
@@ -235,9 +235,9 @@ Bart Ehrman, whose textbook is the set text at Yale and many other universities,
 
 The main lever for the dates is Mark 13. Jesus says of the Temple:
 
-> "Do you see these great buildings? There will not be left here one stone upon another that will not be thrown down."
+> "Do you see these great buildings? Not one stone will be left on another. All will be torn down!"
 >
-> Mark 13:2 (ESV)
+> Mark 13:2 (NET)
 
 The Romans destroyed the Temple in AD 70. Critical scholars argue that a prediction this specific, given this much weight, is most likely recorded by someone who knows it has happened, so Mark is written around or after 70, and Matthew and Luke, who used Mark, later still.[10] A thoughtful critical scholar would add that this is an argument about probability, not proof, and that the field's ranges are wide.
 
@@ -339,7 +339,7 @@ Then close the page and write, from memory, the two questions to ask any parable
 
 ## Connections
 
-Lesson 3 gave you the narrative rules; this lesson applied them to the Gospels and Acts, where the temptation to turn description into prescription is strongest because the reader is in the story. Lesson 4's covenant and prophets are what "the kingdom of God is at hand" means; without Deuteronomy and Amos behind it, Mark 1:15 is just a slogan. Lesson 2's timeline puts the Gospels at act four of six; a parable of the kingdom is the news that the story has turned.
+Lesson 3 gave you the narrative rules; this lesson applied them to the Gospels and Acts, where the temptation to turn description into prescription is strongest because the reader is in the story. Lesson 4's covenant and prophets are what "the kingdom of God is near" means; without Deuteronomy and Amos behind it, Mark 1:15 is just a slogan. Lesson 2's timeline puts the Gospels at act four of six; a parable of the kingdom is the news that the story has turned.
 
 Ahead: lesson 7 does the letters, where the basic rule does its heaviest work and where Paul's own commands supply the "commanded elsewhere" half of today's Acts test. Lesson 8 returns to Irenaeus and the four Gospels when it explains how the canon formed. Lesson 9 shows you the actual manuscripts of the Gospels, which is the other half of the "hundreds of years later" answer. *The Case for Christianity* and *The Life and Teachings of Jesus* take the historical and theological questions from here.
 
@@ -368,5 +368,5 @@ Ahead: lesson 7 does the letters, where the basic rule does its heaviest work an
 12. Robinson, J. A. T., *Redating the New Testament* (SCM, 1976): the whole New Testament dated before 70 on the silence about the Temple's destruction. Per SOURCES.md; the book itself was not opened for this lesson.
 13. SOURCES.md, Contested question 3, "What is established": every Gospel within about seventy years of the crucifixion; Paul's undisputed letters in the 50s; no fourth-century composition. This is shared ground between the Ehrman and Carson & Moo positions cited above, and it follows arithmetically from their dates.
 14. Martin, D. B., Open Yale Courses RLST 152, *Introduction to New Testament History and Literature* (2009): lecture 5, "The New Testament as History"; lecture 6, "The Gospel of Mark"; lecture 8, "The Gospel of Thomas". Lecture list read at oyc.yale.edu.
-15. Scripture quotations are from the ESV (English Standard Version), read at BibleGateway: Luke 15:1–2; John 21:25; Mark 1:15; 2 Samuel 12:7 (part); Luke 10:29, 36–37; Luke 15:28–32; Acts 2:44–45; Acts 4:34–35; Acts 1:26; Mark 13:2; and, in part, Mark 12:12 (in a quiz explanation) and Acts 6:3 (in the exercise). Twenty-two verses in all, counting partial quotations as whole verses, for the course's running total.
+15. Scripture quotations are from the *NET Bible*, [netbible.org](https://netbible.org), read via the bible.org API: Luke 15:1–2; John 21:25; Mark 1:15; 2 Samuel 12:7 (part); Luke 10:29, 36–37; Luke 15:28–32; Acts 2:44–45; Acts 4:34–35; Acts 1:26; Mark 13:2. Scripture quoted by permission. Quotations designated (NET) are from the NET Bible® copyright ©1996, 2019 by Biblical Studies Press, L.L.C. All rights reserved. See Editorial Standards 4.7 for why this course uses the NET.
 16. Rembrandt, *The Return of the Prodigal Son*, c. 1668, Hermitage Museum; image file and public-domain status read at Wikimedia Commons.

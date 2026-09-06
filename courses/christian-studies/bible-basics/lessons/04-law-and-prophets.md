@@ -63,11 +63,11 @@ quiz:
       Options A and B are matters of record; anyone can check the Hebrew and the Greek, and Jews and Christians agree on what each says. Option C is what the text itself indicates in 7:16, and readers across traditions accept it, though the identity of the child is argued. Option D is what we hold by faith: that the apostle's reading is true. It is the kind of claim evidence bears on but cannot settle, which is why the lesson labels it as ours rather than presenting it as what the Hebrew obviously means.
 ---
 
-Two verses, one after the other, in Leviticus 19. Here they are in the ESV.[1]
+Two verses, one after the other, in Leviticus 19. Here they are in the NET.[1]
 
-> **18** You shall not take vengeance or bear a grudge against the sons of your own people, but you shall love your neighbor as yourself: I am the LORD.
+> **18** You must not take vengeance or bear a grudge against any of your people, but you must love your neighbor as yourself. I am the Lord.
 >
-> **19** You shall keep my statutes. You shall not let your cattle breed with a different kind. You shall not sow your field with two kinds of seed, nor shall you wear a garment of cloth made of two kinds of material.
+> **19** You must keep my statutes. You must not allow two different kinds of your animals to breed together, you must not sow your field with two different kinds of seed, and you must not wear a garment made of two different kinds of material.
 
 Jesus called the first of these the second greatest commandment. Paul said the whole law is summed up in it. You probably own a cotton-polyester shirt that breaks the second.
 
@@ -98,7 +98,7 @@ Here is where the ancient world helps. Scholars in the 1950s, George Mendenhall 
 5. "A concluding invocation of witnesses, usually the gods."
 6. "A list of blessings for the party who obeys, and curses for the party that violates the pact."
 
-Now watch the Bible do the same things. Exodus 20 opens with the LORD naming himself and what he did: he brought them out of Egypt (preamble and prologue in one sentence). The commandments follow (stipulations). Deuteronomy 31 has Moses write the law down and hand it to the priests to be read aloud to all Israel every seven years (deposit and publication). Deuteronomy 30:19, in the ESV: "I call heaven and earth to witness against you today, that I have set before you life and death, blessing and curse. Therefore choose life, that you and your offspring may live."[7] There are the witnesses, and there is the blessing and curse. Deuteronomy 28 spells that last part out at length, and we'll come back to it, because the prophets never stopped reading it.
+Now watch the Bible do the same things. Exodus 20 opens with the LORD naming himself and what he did: he brought them out of Egypt (preamble and prologue in one sentence). The commandments follow (stipulations). Deuteronomy 31 has Moses write the law down and hand it to the priests to be read aloud to all Israel every seven years (deposit and publication). Deuteronomy 30:19, in the NET: "Today I invoke heaven and earth as witnesses against you that I have set life and death, blessing and curse, before you. Therefore choose life so that you and your descendants may live!"[7] There are the witnesses, and there is the blessing and curse. Deuteronomy 28 spells that last part out at length, and we'll come back to it, because the prophets never stopped reading it.
 
 Hayes is careful, and so should we be: "no one passage contains all of the elements of the Hittite treaty form", but "there are enough of them scattered around to suggest it as a model."[6] That is the honest strength of the claim. The form is not exact. It is recognisable.
 
@@ -116,7 +116,7 @@ Prologue (what the LORD did: brought them up, swore the land), stipulation (the 
 
 So the law is the terms of a covenant made with Israel. You are (probably) not an Israelite at Sinai. What, then, is the law to you?
 
-Christians have never had one answer to that, and I'd rather show you the real range than hand you one view as if the others didn't exist. What every serious answer agrees on is that the question is real: Jesus said "Do not think that I have come to abolish the Law or the Prophets; I have not come to abolish them but to fulfill them" (Matthew 5:17, ESV),[9] and the same New Testament says, in a parenthesis in Mark 7:19, that "he declared all foods clean".[9] Any account of the law has to hold both sentences.
+Christians have never had one answer to that, and I'd rather show you the real range than hand you one view as if the others didn't exist. What every serious answer agrees on is that the question is real: Jesus said "Do not think that I have come to abolish the law or the prophets. I have not come to abolish these things but to fulfill them" (Matthew 5:17, NET),[9] and the same New Testament says, in a parenthesis in Mark 7:19, that "This means all foods are clean."[9] Any account of the law has to hold both sentences.
 
 ### Proposal 1: three kinds of law
 
@@ -126,7 +126,7 @@ This is a strong tool and most Christians use some version of it without knowing
 
 ### Proposal 2: what the new covenant renews
 
-Fee and Stuart take a different route.[2] The old covenant, they say, was made with Israel, and it is not the covenant Christians are under; Jeremiah 31 promised a new one, and the New Testament says it has come. So the working test is: has this stipulation been renewed in the new covenant? Where it has (love of neighbour: Galatians 5:14 quotes Leviticus 19:18 and calls it the whole law fulfilled in one word),[9] it binds as command. Where it has not (the food laws: Mark 7:19), it does not bind as command. And then the half people forget: all of it is still God's word to us. Nothing in the Old Testament is deleted. It is all Scripture, all teaching, all evidence of who God is and what he cares about; it is just not all commandment to us.
+Fee and Stuart take a different route.[2] The old covenant, they say, was made with Israel, and it is not the covenant Christians are under; Jeremiah 31 promised a new one, and the New Testament says it has come. So the working test is: has this stipulation been renewed in the new covenant? Where it has (love of neighbour: Galatians 5:14 quotes Leviticus 19:18 and says "the whole law can be summed up in a single commandment"),[9] it binds as command. Where it has not (the food laws: Mark 7:19), it does not bind as command. And then the half people forget: all of it is still God's word to us. Nothing in the Old Testament is deleted. It is all Scripture, all teaching, all evidence of who God is and what he cares about; it is just not all commandment to us.
 
 This proposal is cleaner than the first, and its weakness is the mirror image. To run the test you need the whole New Testament in your head, and there are laws the New Testament never mentions at all. What does "renewed" mean for the parapet in Deuteronomy 22:8? Fee and Stuart would say: the command isn't renewed, the concern behind it is.
 
@@ -196,7 +196,7 @@ Here is the mechanism, and it's the part I most want you to see for yourself.
 Most people get drought and defeat in war. Fewer think of crop disease, and almost nobody thinks of the specific pairing of blight and mildew, or of locusts. The list below has all of them.
 :::
 
-Deuteronomy 28:15, in the ESV: "But if you will not obey the voice of the LORD your God or be careful to do all his commandments and his statutes that I command you today, then all these curses shall come upon you and overtake you."[7] What follows, quoted here from the NET Bible, includes these:[17]
+Deuteronomy 28:15, in the NET: "But if you ignore the Lord your God and are not careful to keep all his commandments and statutes I am giving you today, then all these curses will come upon you in full force."[7] What follows, quoted here from the NET Bible, includes these:[17]
 
 - 28:21: "The Lord will plague you with deadly diseases until he has completely removed you from the land"
 - 28:22: "He will afflict you with weakness, fever, inflammation, infection, sword, blight, and mildew"
@@ -205,7 +205,7 @@ Deuteronomy 28:15, in the ESV: "But if you will not obey the voice of the LORD y
 - 28:41: "You will bear sons and daughters but not keep them, because they will be taken into captivity"
 - 28:42: "Whirring locusts will take over every tree and all the produce of your soil"
 
-Now Amos 4:6 to 11. The oracle is a list of things that have already happened to Israel, each closed with the same refrain. In the ESV, verse 6 begins: "I gave you cleanness of teeth in all your cities, and lack of bread in all your places, yet you did not return to me," declares the LORD.[7] (Cleanness of teeth means nothing to chew. Lesson 11 uses this verse for a different reason.) Then, from the NET:[17]
+Now Amos 4:6 to 11. The oracle is a list of things that have already happened to Israel, each closed with the same refrain. Verse 6 begins: "But surely I gave you no food to eat in all your cities; you lacked food everywhere you lived. Still you did not come back to me."[17] (The Hebrew idiom behind "no food to eat" is literally "cleanness of teeth", which means nothing to chew. Lesson 11 uses this verse for a different reason.) Then, still from the NET:[17]
 
 - 4:7: "I withheld rain from you three months before the harvest"
 - 4:9: "I destroyed your crops with blight and disease. Locusts kept devouring your orchards, vineyards, fig trees, and olive trees"
@@ -222,7 +222,7 @@ Lay them side by side.
   <text x="90" y="22" text-anchor="middle" font-size="12" font-weight="700" fill="var(--gold, #b08d2a)">Deuteronomy 28</text>
   <text x="90" y="36" text-anchor="middle" font-size="10" fill="var(--text-2, #4a5260)">the treaty's penalty clause</text>
   <text x="270" y="22" text-anchor="middle" font-size="12" font-weight="700" fill="var(--gold, #b08d2a)">Amos 4:6 to 11</text>
-  <text x="270" y="36" text-anchor="middle" font-size="10" fill="var(--text-2, #4a5260)">"yet you did not return"</text>
+  <text x="270" y="36" text-anchor="middle" font-size="10" fill="var(--text-2, #4a5260)">"Still you did not come back"</text>
   <g font-size="11" fill="#0f2a4a">
     <text x="20" y="66">28:38 little harvest</text>
     <text x="20" y="106">28:23-24 no rain</text>
@@ -253,19 +253,19 @@ Lay them side by side.
 
 Every item in Amos's list is in Deuteronomy's. And the one item in Deuteronomy's list that is not yet in Amos's, captivity, is exactly what Amos 4:12 turns to: "Therefore this is what I will do to you, Israel... prepare to meet your God".[17] The northern kingdom went into Assyrian exile a few decades later. That is what people mean when they say Amos predicted it. What he was doing, in his own terms, was pointing at the last line of a contract his hearers had signed.
 
-Now the oracle everyone quotes. Amos 5:21 to 24, ESV:[1]
+Now the oracle everyone quotes. Amos 5:21 to 24, NET:[1]
 
-> **21** "I hate, I despise your feasts, and I take no delight in your solemn assemblies.
-> **22** Even though you offer me your burnt offerings and grain offerings, I will not accept them; and the peace offerings of your fattened animals, I will not look upon them.
-> **23** Take away from me the noise of your songs; to the melody of your harps I will not listen.
-> **24** But let justice roll down like waters, and righteousness like an ever-flowing stream."
+> **21** "I absolutely despise your festivals! I get no pleasure from your religious assemblies.
+> **22** Even if you offer me burnt and grain offerings, I will not be satisfied; I will not look with favor on your peace offerings of fattened calves.
+> **23** Take away from me your noisy songs; I don't want to hear the music of your stringed instruments.
+> **24** Justice must flow like torrents of water, righteous actions like a stream that never dries up."
 
 Read badly, this is a prediction: God is announcing that one day sacrifice and festival will be abolished and replaced by ethics, and the reader who wants to may hear Christianity or modern secular justice in it. But Amos's hearers were not being told about a future. They were being sued. The feasts and offerings are the feasts and offerings the covenant itself commanded (Leviticus 23 lists them), and the charge is that Israel is keeping the ritual clauses while breaking the ones about the poor, the courts, and honest weights (Amos 2:6 to 8; 5:10 to 12; 8:4 to 6). Hayes reads it as "an attack on empty piety" offered "in accompaniment to social injustice".[16] The form is a lawsuit, what scholars call the *riv* (the Hebrew word for a legal dispute), and Hayes flags the form in Hosea and Isaiah as well: "he's now the first to couch his charge in the form of this formal *riv*, or lawsuit."[18] Summons, charge, evidence, verdict. Verse 24 is the verdict's demand, not a forecast.
 
-Does the oracle say anything beyond its century? Yes, and the New Testament takes up the pattern (Jesus quotes Hosea 6:6, "I desire mercy, and not sacrifice", twice in Matthew). But you can only see what carries forward once you have seen what it said first. Reading order: near horizon, then far.
+Does the oracle say anything beyond its century? Yes, and the New Testament takes up the pattern (Jesus quotes Hosea 6:6, "I want mercy and not sacrifice", twice in Matthew). But you can only see what carries forward once you have seen what it said first. Reading order: near horizon, then far.
 
-:::checkpoint Hosea 4:1 to 3, ESV: "Hear the word of the LORD, O children of Israel, for the LORD has a controversy with the inhabitants of the land. There is no faithfulness or steadfast love, and no knowledge of God in the land; there is swearing, lying, murder, stealing, and committing adultery; they break all bounds, and bloodshed follows bloodshed. Therefore the land mourns, and all who dwell in it languish, and also the beasts of the field and the birds of the heavens, and even the fish of the sea are taken away."[1] What is the charge, which covenant is being enforced, and what is the sanction?
-The word the ESV renders "controversy" is the *riv*, the lawsuit. The charge is a list of broken stipulations, and you can hear the Ten Commandments in it: swearing (the name), lying, murder, stealing, adultery. The covenant is Sinai's. The sanction is the land itself failing, which is Deuteronomy 28's language of a cursed field and a sky of bronze, extended to the animals. Note the shape: summons ("Hear"), charge, sanction. That is the lawsuit form, and once you can see it you will find it in most of the prophets.
+:::checkpoint Hosea 4:1 to 3, NET: "Listen to the Lord's message, you Israelites! For the Lord has a covenant lawsuit against the people of Israel. For there is neither faithfulness nor loyalty in the land, nor do they acknowledge God. There is only cursing, lying, murder, stealing, and adultery. They resort to violence and bloodshed. Therefore the land will mourn, and all its inhabitants will perish. The wild animals, the birds of the sky, and even the fish in the sea will perish."[1] What is the charge, which covenant is being enforced, and what is the sanction?
+The phrase the NET renders "covenant lawsuit" is the *riv*. The charge is a list of broken stipulations, and you can hear the Ten Commandments in it: cursing (the name), lying, murder, stealing, adultery. The covenant is Sinai's. The sanction is the land itself failing, which is Deuteronomy 28's language of a cursed field and a sky of bronze, extended to the animals. Note the shape: summons ("Listen"), charge, sanction. That is the lawsuit form, and once you can see it you will find it in most of the prophets.
 :::
 
 :::video https://www.youtube.com/watch?v=edcqUu_BtN0 | How to Read the 15 Prophetic Books in the Bible (BibleProject)
@@ -282,19 +282,19 @@ The whole art of reading the prophets is keeping both horizons in view and not l
 
 First the near horizon, and you'll be surprised how much of it everyone agrees on.
 
-**The situation.** Isaiah 7:1 dates the oracle: Ahaz is king of Judah; Rezin of Syria and Pekah of Israel have marched on Jerusalem.[19] The year is about 734 BC. Assyria under Tiglath-Pileser is pressing on the whole region, Syria and Israel have allied against it, and, in Hayes's summary, "Judah refused to join the alliance... So in anger, Aram and Israel moved south and lay siege to Jerusalem."[18] Ahaz is terrified (7:2). Isaiah is sent to him with his own son, whose name Shear-jashub means "a remnant will return", and the message, in Hayes's paraphrase of 7:4, is "be quiet and do not fear."[18] The two kings, God says, will fail (7:7). Then the line that turns the chapter: "If you are not firm in faith, you will not be firm at all" (7:9, ESV).[19]
+**The situation.** Isaiah 7:1 dates the oracle: Ahaz is king of Judah; Rezin of Syria and Pekah of Israel have marched on Jerusalem.[19] The year is about 734 BC. Assyria under Tiglath-Pileser is pressing on the whole region, Syria and Israel have allied against it, and, in Hayes's summary, "Judah refused to join the alliance... So in anger, Aram and Israel moved south and lay siege to Jerusalem."[18] Ahaz is terrified (7:2). Isaiah is sent to him with his own son, whose name Shear-jashub means "a remnant will return", and the message, in Hayes's paraphrase of 7:4, is "be quiet and do not fear."[18] The two kings, God says, will fail (7:7). Then the line that turns the chapter: "If your faith does not remain firm, then you will not remain secure" (7:9, NET).[19]
 
-Ahaz is offered a sign and refuses one. So God gives one anyway. ESV:[1]
+Ahaz is offered a sign and refuses one. So God gives one anyway. NET:[1]
 
-> **14** Therefore the Lord himself will give you a sign. Behold, the virgin shall conceive and bear a son, and shall call his name Immanuel.
+> **14** For this reason the Lord himself will give you a confirming sign. Look, this young woman is about to conceive and will give birth to a son. You, young woman, will name him Immanuel.
 >
-> **16** For before the boy knows how to refuse the evil and choose the good, the land whose two kings you dread will be deserted.
+> **16** Here is why this will be so: Before the child knows how to reject evil and choose what is right, the land whose two kings you fear will be desolate.
 
-(The ESV's footnote: *Immanuel* means *God is with us*.)
+(*Immanuel* means *God is with us*.)
 
-**What the sign was for Ahaz.** Read verse 16 slowly, because it fixes the near horizon. Before a child born now is old enough to know right from wrong, the two kingdoms Ahaz fears will be empty. That is a sign for Ahaz, in Ahaz's lifetime, about Ahaz's enemies. Isaiah 8 continues in the same key: the prophet fathers a son with another portentous name, Maher-shalal-hash-baz, and before that child can say "my father", Damascus and Samaria will be plundered (8:3 to 4).[19] The name Immanuel comes back at 8:8 and 8:10 as the reason Judah will survive, and 8:18 has Isaiah say, "Behold, I and the children whom the LORD has given me are signs and portents in Israel."[19] History establishes this much: the oracle was spoken into a specific crisis, it promised something Ahaz would see, and the children with the strange names were the signs.
+**What the sign was for Ahaz.** Read verse 16 slowly, because it fixes the near horizon. Before a child born now is old enough to know right from wrong, the two kingdoms Ahaz fears will be empty. That is a sign for Ahaz, in Ahaz's lifetime, about Ahaz's enemies. Isaiah 8 continues in the same key: the prophet fathers a son with another portentous name, Maher Shalal Hash Baz, and before that child knows how to cry out "My father" or "My mother", the wealth of Damascus and the plunder of Samaria will be carried off (8:3 to 4).[19] The name Immanuel comes back at 8:8 and 8:10 as the reason Judah will survive, and 8:18 has Isaiah say, "Look, I and the sons whom the Lord has given me are reminders and object lessons in Israel."[19] History establishes this much: the oracle was spoken into a specific crisis, it promised something Ahaz would see, and the children with the strange names were the object lessons.
 
-**The word.** The Hebrew word for the mother is *almah*. The Jewish Publication Society's Tanakh translates the verse: "Look, the young woman is with child and about to give birth to a son. Let her name him Immanuel."[20] Note the present tense: she is already pregnant. The Greek translation of Isaiah made by Jewish scholars in the centuries before Jesus, the Septuagint, has *parthenos*, which in Greek normally means a virgin, and a future tense: "behold, the virgin shall conceive in the womb, and shall bring forth a son."[21] Matthew 1:23 quotes the Greek: "Behold, the virgin shall conceive and bear a son, and they shall call his name Immanuel" (which means, God with us).[1]
+**The word.** The Hebrew word for the mother is *almah*, and the English word a translator picks for it is most of the argument. The NET, which this course quotes throughout, has "young woman", and so does the Jewish Publication Society's Tanakh: "Look, the young woman is with child and about to give birth to a son. Let her name him Immanuel."[20] Note the present tense in both: she is already pregnant. Many other English Bibles read "virgin" here instead, and lesson 11 comes back to that decision. The Greek translation of Isaiah made by Jewish scholars in the centuries before Jesus, the Septuagint, has *parthenos*, which in Greek normally means a virgin, and a future tense: "behold, the virgin shall conceive in the womb, and shall bring forth a son."[21] Matthew 1:23 quotes the Greek: "Look! The virgin will conceive and give birth to a son, and they will name him Emmanuel," which means "God with us".[1]
 
 Now the two readings, each in its own words.
 
@@ -368,15 +368,15 @@ Lesson 2 gave you the covenants as the spine of the story; this lesson turned th
 
 ## Sources
 
-1. The Holy Bible, English Standard Version (Crossway, 2001; text edition 2016), read at esv.org: Leviticus 19:18 to 19; Amos 5:21 to 24; Isaiah 7:14 and 7:16 with the footnote on Immanuel; Matthew 1:23; Hosea 4:1 to 3.
+1. *NET Bible*, [netbible.org](https://netbible.org), read via the bible.org API: Leviticus 19:18 to 19; Amos 5:21 to 24; Isaiah 7:14 and 7:16; Matthew 1:23; Hosea 4:1 to 3. Scripture quoted by permission. Quotations designated (NET) are from the NET Bible® copyright ©1996, 2019 by Biblical Studies Press, L.L.C. All rights reserved. The NET is the course's default translation; see Editorial Standards 4.7.
 2. Fee, G. D. and Stuart, D., *How to Read the Bible for All Its Worth*, 4th ed. (Zondervan, 2014), chapter 9, "The Law(s): Covenant Stipulations for Israel", and chapter 10, "The Prophets: Enforcing the Covenant in Israel". The law as covenant terms not renewed as command but all God's word; "THINK ORACLES"; the estimate "Less than 2 percent of Old Testament prophecy is messianic. Less than 5 percent specifically describes the new-covenant age. Less than 1 percent concerns events yet to come in our time", given without a source and quoted as their estimate.
 3. Babylonian Talmud, *Makkot* 23b, read at Sefaria: Rabbi Simlai's teaching of 613 commandments, 365 prohibitions for the days of the solar year and 248 positive commandments for the limbs of the body.
 4. Maimonides, *Sefer HaMitzvot* (Book of Commandments), read at Sefaria; the classic enumeration of the 613.
 5. Mendenhall, G. E., "Covenant Forms in Israelite Tradition", *The Biblical Archaeologist* 17 (1954), 50 to 76. The original argument that the Sinai covenant follows the form of Hittite suzerainty treaties.
 6. Hayes, C., Yale Open Courses RLST 145, Lecture 8, "Exodus: From Egypt to Sinai" (2006), transcript at oyc.yale.edu. The six elements of the Hittite treaty form quoted in the text; "no one passage contains all of the elements", "enough of them scattered around to suggest it as a model"; the footnote identifying Mendenhall's work.
-7. ESV: Deuteronomy 28:15; Deuteronomy 30:19; Amos 4:6.
+7. NET: Deuteronomy 28:15; Deuteronomy 30:19.
 8. Wikimedia Commons, "Treaty of Kadesh.jpg", photograph by Iocanus (2009), CC BY 3.0; Museum of the Ancient Orient, Istanbul Archaeology Museums. Treaty date of about 1259 BC and the Hattusa find-spot from the standard references on the Egyptian-Hittite treaty.
-9. ESV: Matthew 5:17; Mark 7:19; Galatians 5:14; Amos 1:1; Jeremiah 31:31 to 33 for the new covenant.
+9. NET: Matthew 5:17; Mark 7:19; Galatians 5:14; Amos 1:1; Jeremiah 31:31 to 33 for the new covenant.
 10. Thomas Aquinas, *Summa Theologiae* I-II, question 99, article 4, "Whether, besides the moral and ceremonial precepts, there are also judicial precepts?", read at newadvent.org. The threefold distinction quoted.
 11. Westminster Confession of Faith (1646), chapter 19, "Of the Law of God", sections 3 to 5, read at opc.org and ccel.org. Ceremonial laws "now abrogated under the New Testament"; judicial laws expired with Israel's state, obliging others only as their "general equity" requires; the moral law binding always.
 12. SOURCES.md for this course, contested question 5, which sets out covenant theology, dispensationalism, progressive covenantalism, and progressive dispensationalism as a range to be presented without resolution.
@@ -384,9 +384,9 @@ Lesson 2 gave you the covenants as the spine of the story; this lesson turned th
 14. Gentry, P. J. and Wellum, S. J., *Kingdom through Covenant: A Biblical-Theological Understanding of the Covenants* (Crossway, 2012). Progressive covenantalism as a middle way.
 15. Blaising, C. A. and Bock, D. L., *Progressive Dispensationalism* (Victor/BridgePoint, 1993).
 16. Hayes, C., RLST 145, Lecture 16, "Literary Prophecy: Amos". A prophet as one "sent by God with a message, not someone who is consulted by a client to find out what God thinks"; the prophetic books as "anthologies of oracles"; Amos 5:21 to 24 as "an attack on empty piety" in "accompaniment to social injustice".
-17. NET Bible, 2nd ed. (Biblical Studies Press, 2019), read via the bible.org API: Deuteronomy 28:21 to 24, 38, 41, 42; Amos 4:7, 9, 10, 11, 12. Quoted under the NET's open terms.
+17. NET Bible, 2nd ed. (Biblical Studies Press, 2019), read via the bible.org API: Deuteronomy 28:21 to 24, 38, 41, 42; Amos 4:6, 7, 9, 10, 11, 12. "Cleanness of teeth" is the literal Hebrew of Amos 4:6, which more literal English versions print as it stands; the NET renders the sense and puts the idiom in its translators' note on the verse, calling it "a vivid way of picturing the famine Israel experienced". Lesson 11 uses the verse to show the trade.
 18. Hayes, C., RLST 145, Lecture 17, "Literary Prophecy: Hosea and Isaiah". The *riv* or lawsuit form; the crisis of 734 under Tiglath-Pileser; "Judah refused to join the alliance"; Isaiah's counsel "be quiet and do not fear"; the sign of Immanuel; the Greek as "a mistranslation of the word 'young woman' as 'virgin'."
-19. ESV: Isaiah 7:1 to 9; Isaiah 8:1 to 10; Isaiah 8:18.
+19. NET: Isaiah 7:1 to 9; Isaiah 8:1 to 10; Isaiah 8:18.
 20. *Tanakh: The Holy Scriptures* (Jewish Publication Society, 1985; gender-sensitive edition 2023), Isaiah 7:14, read at Sefaria: "Look, the young woman is with child and about to give birth to a son. Let her name him Immanuel."
 21. Septuagint, Isaiah 7:14, Greek text with Brenton's English translation, read at ellopos.net: *idou hē parthenos en gastri hexei*, "behold, the virgin shall conceive in the womb".
 22. Rashi on Isaiah 7:14, read at Sefaria (English): "My wife will conceive this year. This was the fourth year of Ahaz."

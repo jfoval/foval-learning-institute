@@ -8,7 +8,7 @@ objectives:
   - Explain why a passage's place in the story changes what it can mean, using a real passage and its original audience
 quiz:
   - q: >-
-      A friend reads Psalm 137 ("By the waters of Babylon, there we sat down and wept") and asks you where it belongs in the story. Which placement is right, and what does it change?
+      A friend reads Psalm 137 ("By the rivers of Babylon we sit down and weep") and asks you where it belongs in the story. Which placement is right, and what does it change?
     options:
       - "Act 3, in the united kingdom under David, so it is a royal song celebrating Jerusalem at the height of its glory and safety"
       - "Act 3, in the exile, so the grief is over a city that has really fallen and the singers are captives of the empire they name"
@@ -48,7 +48,7 @@ quiz:
     explain: >-
       The three levels do not depend on the name of God appearing. The middle level asks what this story does for Israel, and Esther is about a threat to wipe out the whole people. The top level asks what God's plan is doing, and a people that survives is a promise that survives (B). Option A confuses the mention of God with the presence of God in the story, which is the mistake the top level exists to correct. Option C mixes up the shelf a book sits on with the place it holds in the story; Esther is in both canons. Option D is the reading the lesson warns against: seeing Christ in the story is not the same as turning every character into a code for him.
   - q: >-
-      A church notice quotes Jeremiah 29:7, "seek the welfare of the city where I have sent you into exile," to encourage members to serve their town. Compared with the graduation-card use of 29:11, how should you assess this one?
+      A church notice quotes Jeremiah 29:7, "work to see that the city where I sent you as exiles enjoys peace and prosperity," to encourage members to serve their town. Compared with the graduation-card use of 29:11, how should you assess this one?
     options:
       - "It is the same mistake. Both verses were written to exiles in Babylon, so neither one can say anything at all to a modern reader"
       - "It is worse. Verse 7 is a command rather than a promise, and commands given to Israel never carry over to Christians in any form"
@@ -69,7 +69,7 @@ quiz:
       2 Kings 17 is the Deuteronomistic writer doing exactly what Deuteronomy 28 said would happen, and Judah's survival is the reason the promise to Abraham and David does not end here (A). Option B misplaces the bottom level (the chapter is about Israel's last king, not Assyria's) and states as a conclusion the thing the rest of the story denies. Option C draws a line between history and narrative that the Bible's own historians did not draw; the explanation is the narrator's evaluation, which lesson 3 will teach you to weigh. Option D confuses Samaria's fall (722 BC, still in Act 3) with the gap that comes after Malachi.
 ---
 
-> "And beginning with Moses and all the Prophets, he interpreted to them in all the Scriptures the things concerning himself." (Luke 24:27, ESV)[1]
+> "Then beginning with Moses and all the prophets, he interpreted to them the things written about himself in all the scriptures." (Luke 24:27, NET)[1]
 
 Two people are walking home from Jerusalem, and a stranger falls in beside them. Over the next few miles he does something nobody in the room has been able to do for you: he takes the whole Old Testament and reads it as one thing. Not a shelf of separate books. One story, with a shape and a direction and, he says, a subject.
 
@@ -104,15 +104,15 @@ A six-act summary tells you the order. It does not tell you what holds the story
 
 A covenant is a binding relationship with terms, sealed by promise and usually by a sign. The Bible's story is carried forward by five of them, and every book of the Bible sits under one or more. Learn these and you can tell, for almost any passage, which promise is in play.
 
-**Noah.** After the flood God binds himself to the whole living world: "I establish my covenant with you, that never again shall all flesh be cut off by the waters of the flood, and never again shall there be a flood to destroy the earth" (Genesis 9:11).[6] The sign is the rainbow. What it promises is a stable stage: the story will not be wiped out before it can be told.
+**Noah.** After the flood God binds himself to the whole living world: "I confirm my covenant with you: Never again will all living things be wiped out by the waters of a flood; never again will a flood destroy the earth" (Genesis 9:11, NET).[6] The sign is the rainbow. What it promises is a stable stage: the story will not be wiped out before it can be told.
 
-**Abraham.** God calls one man out of Mesopotamia and gives him three things, a nation, a land, and a blessing that reaches past him: "And I will make of you a great nation, and I will bless you and make your name great, so that you will be a blessing. I will bless those who bless you, and him who dishonors you I will curse, and in you all the families of the earth shall be blessed" (Genesis 12:2 and 3).[7] Everything after Genesis 12 is, one way or another, this promise being kept, threatened, or renewed. Paul reads that last clause as the gospel itself, "preached beforehand to Abraham" (Galatians 3:8).[8]
+**Abraham.** God calls one man out of Mesopotamia and gives him three things, a nation, a land, and a blessing that reaches past him: "Then I will make you into a great nation, and I will bless you, and I will make your name great, so that you will exemplify divine blessing. I will bless those who bless you, but the one who treats you lightly I must curse, so that all the families of the earth may receive blessing through you" (Genesis 12:2 and 3, NET).[7] Everything after Genesis 12 is, one way or another, this promise being kept, threatened, or renewed. Paul reads that last clause as the gospel itself, "proclaimed" to Abraham "ahead of time" (Galatians 3:8, NET).[8]
 
-**Sinai.** Abraham's family, now a nation, is brought out of Egypt and given the terms of its life with God at Mount Sinai (Exodus 19 to 24), with the law as the stipulations and the land as the setting. This is the covenant the prophets will spend centuries enforcing, and lesson 4 is about it. Notice where grace sits inside it: when Moses asks to see God's glory, what he hears is "The LORD, the LORD, a God merciful and gracious, slow to anger, and abounding in steadfast love and faithfulness" (Exodus 34:6).[9] Hold on to that verse; you will need it when someone tells you the Old Testament is law and the New is grace.
+**Sinai.** Abraham's family, now a nation, is brought out of Egypt and given the terms of its life with God at Mount Sinai (Exodus 19 to 24), with the law as the stipulations and the land as the setting. This is the covenant the prophets will spend centuries enforcing, and lesson 4 is about it. Notice where grace sits inside it: when Moses asks to see God's glory, what he hears is "The Lord, the Lord, the compassionate and gracious God, slow to anger, and abounding in loyal love and faithfulness" (Exodus 34:6, NET).[9] Hold on to that verse; you will need it when someone tells you the Old Testament is law and the New is grace.
 
-**David.** The nation gets a king, and God promises the king a line that will not end: "And your house and your kingdom shall be made sure forever before me. Your throne shall be established forever" (2 Samuel 7:16).[10] From here on, "son of David" is a loaded phrase, and the collapse of the kingdom two acts later becomes a question about whether God keeps his word.
+**David.** The nation gets a king, and God promises the king a line that will not end: "Your house and your kingdom will stand before me permanently; your dynasty will be permanent" (2 Samuel 7:16, NET).[10] From here on, "son of David" is a loaded phrase, and the collapse of the kingdom two acts later becomes a question about whether God keeps his word.
 
-**The new covenant.** Speaking to a nation about to lose its land, its Temple, and its king, Jeremiah promises a covenant "not like the covenant that I made with their fathers": "I will put my law within them, and I will write it on their hearts. And I will be their God, and they shall be my people" (Jeremiah 31:33).[11] Jesus takes those words at the last supper (Luke 22:20), and the letter to the Hebrews quotes Jeremiah 31 at length to explain what has changed (Hebrews 8). The New Testament's name for itself comes from this promise.
+**The new covenant.** Speaking to a nation about to lose its land, its Temple, and its king, Jeremiah promises a covenant "not like the old covenant that I made with their ancestors" (Jeremiah 31:32, NET): "I will put my law within them and write it on their hearts and minds. I will be their God, and they will be my people" (Jeremiah 31:33, NET).[11] Jesus takes those words at the last supper (Luke 22:20), and the letter to the Hebrews quotes Jeremiah 31 at length to explain what has changed (Hebrews 8). The New Testament's name for itself comes from this promise.
 
 Look at what the list does. Noah gives the story a stage. Abraham gives it a family and a destination. Sinai gives the family a shape. David gives it a king. The new covenant answers the failure of the others from inside. Five promises, one direction.
 
@@ -203,10 +203,10 @@ The **top level** is the whole plan of God: creation, fall, rescue, new creation
 
 Most readers only ever see the bottom level, and the bottom level on its own is where the graduation-card readings come from. The middle level is what the map gives you. The top level is what Jesus was showing the two on the road.
 
-Here is how the levels work together. Take Ruth 1:1: "In the days when the judges ruled there was a famine in the land, and a man of Bethlehem in Judah went to sojourn in the country of Moab, he and his wife and his two sons."[14] On the bottom level, a family leaves home in a famine. On the middle level, "the days when the judges ruled" is a period the previous book has just summed up as everyone doing what was right in their own eyes, and "Bethlehem in Judah" is a town the reader will hear of again. On the top level, a family from Abraham's line leaving Abraham's land is a promise in danger. Three readings of one sentence, and only the first one is visible without the map.
+Here is how the levels work together. Take Ruth 1:1: "During the time of the judges, there was a famine in the land of Judah. So a man from Bethlehem in Judah went to live as a resident foreigner in the region of Moab, along with his wife and two sons." (Ruth 1:1, NET)[14] On the bottom level, a family leaves home in a famine. On the middle level, "the time of the judges" is a period the previous book has just summed up as everyone doing what was right in their own eyes, and "Bethlehem in Judah" is a town the reader will hear of again. On the top level, a family from Abraham's line leaving Abraham's land is a promise in danger. Three readings of one sentence, and only the first one is visible without the map.
 
 :::checkpoint Nehemiah 8. The people gather at the Water Gate, Ezra reads the Law of Moses from morning to midday, the Levites give the sense, and the people weep. Which act, which covenant, and what is being renewed?
-Act 3, in the return after exile, under Persian rule. The covenant being read is Sinai: "the Book of the Law of Moses" is its terms. What is being renewed is the nation's life under that covenant in the land it has just come back to; the people weep because they hear, for the first time in a generation, the stipulations they broke and the curses that were carried out. On the top level, a people that should have vanished in 586 BC is standing in Jerusalem hearing God's word again, which is Abraham's promise still alive.
+Act 3, in the return after exile, under Persian rule. The covenant being read is Sinai: "the book of the law of Moses" is its terms. What is being renewed is the nation's life under that covenant in the land it has just come back to; the people weep because they hear, for the first time in a generation, the stipulations they broke and the curses that were carried out. On the top level, a people that should have vanished in 586 BC is standing in Jerusalem hearing God's word again, which is Abraham's promise still alive.
 :::
 
 ## Worked example 1: Ruth, read on one level and then on three
@@ -215,7 +215,7 @@ Ruth is four chapters long and you can read it in twenty minutes, which is why I
 
 **Read badly.** A stand-alone love story. A loyal daughter-in-law, a kind landowner, a courtship on a threshing floor, a wedding. Sermons on loyalty; sermons on finding a good spouse. All of that is in the book. None of it is the point, and if you stop there you will never notice how strange the ending is.
 
-**Read well.** Start at the middle level. The book opens "in the days when the judges ruled", so we are in the period after the conquest and before the kings, and the reader who has just finished Judges knows how badly it has gone. It opens with a famine "in the land", the land God promised Abraham, and the family goes to Moab, which is not the land. Everyone in the first five verses dies except the widows. So the story begins with Abraham's promise, a family and a land, at its lowest point in miniature: no land, no men, no children.
+**Read well.** Start at the middle level. The book opens "during the time of the judges", so we are in the period after the conquest and before the kings, and the reader who has just finished Judges knows how badly it has gone. It opens with a famine in Judah, in the land God promised Abraham, and the family goes to Moab, which is not that land. Everyone in the first five verses dies except the widows. So the story begins with Abraham's promise, a family and a land, at its lowest point in miniature: no land, no men, no children.
 
 Then a foreigner, a Moabite, chooses the God of Israel. A kinsman-redeemer (the Hebrew is *go'el*, a relative with the duty to buy back family land and keep a name alive) does his duty. A child is born.
 
@@ -223,7 +223,7 @@ Then a foreigner, a Moabite, chooses the God of Israel. A kinsman-redeemer (the 
 It ends with a genealogy. Not a wedding, not a moral, not a prayer: a list of names.
 :::
 
-"And the women of the neighborhood gave him a name, saying, 'A son has been born to Naomi.' They named him Obed. He was the father of Jesse, the father of David" (Ruth 4:17).[15] Then the book closes with ten generations, ending "Obed fathered Jesse, and Jesse fathered David" (Ruth 4:22).[15]
+"The neighbor women gave him a name, saying, 'A son has been born to Naomi.' They named him Obed." Then the same verse names Obed as the father of Jesse, and Jesse as David's father (Ruth 4:17, NET).[15] Then the book closes with ten generations, ending "Obed was the father of Jesse, and Jesse was the father of David" (Ruth 4:22, NET).[15]
 
 A romance does not end with a family tree. A story on the middle level does. The last word of Ruth is David, and David has not been born yet. In the days when there was no king, in a famine, through a foreign woman, God is keeping the promise to Abraham on its way to the promise to David. Ruth is the hinge between Judges and Samuel, and the writer tells you so by ending where he does.
 
@@ -235,7 +235,7 @@ One more thing, and it matters. In the Jewish Bible, the Tanakh, Ruth does not s
 
 Now the hard one, and the one you have probably met on a card, a mug, or a graduation programme.
 
-> "For I know the plans I have for you, declares the LORD, plans for welfare and not for evil, to give you a future and a hope." (Jeremiah 29:11)[17]
+> "For I know what I have planned for you," says the Lord. "I have plans to prosper you, not to harm you. I have plans to give you a future filled with hope." (Jeremiah 29:11, NET)[17]
 
 **Read badly.** A personal promise. God has a plan for my life, it is a good one, and this verse is his word to me about my next step. Nearly everyone reads it this way the first time, and I am not going to sneer at that; the person who brought this verse on a card is the person this course is for. The reading feels right because the words, taken alone, say exactly that.
 
@@ -245,15 +245,15 @@ Now the hard one, and the one you have probably met on a card, a mug, or a gradu
 The exiles. The verse is inside a letter sent from Jerusalem to the people Nebuchadnezzar had already deported to Babylon.
 :::
 
-The chapter tells you in its first line: "These are the words of the letter that Jeremiah the prophet sent from Jerusalem to the surviving elders of the exiles, and to the priests, the prophets, and all the people, whom Nebuchadnezzar had taken into exile from Jerusalem to Babylon" (Jeremiah 29:1).[17] So we are in Act 3, at the exile, among people who have lost the land, the Temple is about to go, and the king of David's line has been carried off. The Sinai covenant's curses have fallen. Now read what the letter tells them to do:
+The chapter tells you in its first line: "The prophet Jeremiah sent a letter to the exiles Nebuchadnezzar had carried off from Jerusalem to Babylon. It was addressed to the elders who were left among the exiles, to the priests, to the prophets, and to all the other people who were exiled in Babylon" (Jeremiah 29:1, NET).[17] So we are in Act 3, at the exile, among people who have lost the land, the Temple is about to go, and the king of David's line has been carried off. The Sinai covenant's curses have fallen. Now read what the letter tells them to do:
 
-> "Build houses and live in them; plant gardens and eat their produce. Take wives and have sons and daughters; take wives for your sons, and give your daughters in marriage, that they may bear sons and daughters; multiply there, and do not decrease. But seek the welfare of the city where I have sent you into exile, and pray to the LORD on its behalf, for in its welfare you will find your welfare." (Jeremiah 29:5 to 7)[17]
+> "Build houses and settle down. Plant gardens and eat what they produce. Marry and have sons and daughters. Find wives for your sons and allow your daughters to get married so that they too can have sons and daughters. Grow in number; do not dwindle away. Work to see that the city where I sent you as exiles enjoys peace and prosperity. Pray to the Lord for it. For as it prospers you will prosper." (Jeremiah 29:5 to 7, NET)[17]
 
-And then the timescale: "When seventy years are completed for Babylon, I will visit you, and I will fulfill to you my promise and bring you back to this place" (Jeremiah 29:10).[17] Verse 11 follows straight after.
+And then the timescale: "Only when the seventy years of Babylonian rule are over will I again take up consideration for you. Then I will fulfill my gracious promise to you and restore you to your homeland" (Jeremiah 29:10, NET).[17] Verse 11 follows straight after.
 
-Here is where I want you to do the next step before I do. You are one of those exiles. You have just been told to plant a garden, marry off your children, and wait seventy years. Then you hear "I know the plans I have for you... to give you a future and a hope." Who, exactly, will see that future, and what does "the plans" include? Write your answer before reading on.
+Here is where I want you to do the next step before I do. You are one of those exiles. You have just been told to plant a garden, marry off your children, and wait seventy years. Then you hear "I know what I have planned for you... I have plans to give you a future filled with hope." Who, exactly, will see that future, and what do those plans include? Write your answer before reading on.
 
-Here is mine. The "you" is plural, a people, not a person. The plans include the exile itself: "I have sent you into exile", the letter says twice, and the seventy years are part of the plan, not an interruption of it. The future is a return to the land, and most of the people reading the letter will be dead before it comes; the promise is to their grandchildren. So the verse is not "your life will go well". It is "this catastrophe is not the end of my promise to Abraham and David, and your children's children will see me keep it". That is a bigger promise than the card version, and a harder one, because it is a promise to people who will not live to see it.
+Here is mine. The "you" is plural, a people, not a person. The plans include the exile itself: God speaks in this letter as the one who sent them there, "to all those he sent into exile to Babylon" (29:4) and about "the city where I sent you as exiles" (29:7), and the seventy years are part of the plan, not an interruption of it. The future is a return to the land, and most of the people reading the letter will be dead before it comes; the promise is to their grandchildren. So the verse is not "your life will go well". It is "this catastrophe is not the end of my promise to Abraham and David, and your children's children will see me keep it". That is a bigger promise than the card version, and a harder one, because it is a promise to people who will not live to see it.
 
 **Now the wrinkle.** May a Christian still take comfort from this verse?
 
@@ -261,7 +261,7 @@ Yes. But watch how. Not by lifting the sentence off the page and addressing it t
 
 Lesson 7 will give you the formal tool for this, Fee and Stuart's "comparable particulars" test. For now, hold the rule in its simplest form: find where you are on the map, ask what the words meant there, and let that meaning travel to you through the covenant it belongs to, not around it.
 
-:::checkpoint Same letter, verse 7: "seek the welfare of the city where I have sent you into exile". On the method you have just used, what did it mean to its first readers, and what may a Christian take from it?
+:::checkpoint Same letter, verse 7: "Work to see that the city where I sent you as exiles enjoys peace and prosperity" (NET). On the method you have just used, what did it mean to its first readers, and what may a Christian take from it?
 To the exiles it was a shock: pray for Babylon, the city that had burned yours. It meant settling in, working for the good of a pagan city, and treating seventy years as home rather than a waiting room. What travels to a Christian is the same instruction to the same kind of people: a community living somewhere it did not choose, told to do good there rather than withdraw. The setting is kept, the covenant is kept, and the instruction lands. That is the difference between this reading and the card.
 :::
 
@@ -275,7 +275,7 @@ The reader who knows where they are can ask the one question that stops most mis
 
 ## What people get wrong
 
-**"The Old Testament is law; the New Testament is grace."** This is the oldest misreading of the shape there is. A teacher named Marcion, in Rome around the year 144, concluded that the God of the Old Testament could not be the Father of Jesus, and produced a Bible of his own: an edited Luke and ten of Paul's letters, with the Old Testament left out. The church rejected him, and in doing so had to say out loud that it already had a larger collection and meant to keep it.[18] Against Marcion, put Exodus 34:6 (grace at Sinai, in God's own description of himself) next to the Sermon on the Mount, where Jesus says "Do not think that I have come to abolish the Law or the Prophets; I have not come to abolish them but to fulfill them" (Matthew 5:17).[19] Grace is in the third act; law is in the fourth. The story is one story.
+**"The Old Testament is law; the New Testament is grace."** This is the oldest misreading of the shape there is. A teacher named Marcion, in Rome around the year 144, concluded that the God of the Old Testament could not be the Father of Jesus, and produced a Bible of his own: an edited Luke and ten of Paul's letters, with the Old Testament left out. The church rejected him, and in doing so had to say out loud that it already had a larger collection and meant to keep it.[18] Against Marcion, put Exodus 34:6 (grace at Sinai, in God's own description of himself) next to the Sermon on the Mount, where Jesus says "Do not think that I have come to abolish the law or the prophets. I have not come to abolish these things but to fulfill them" (Matthew 5:17, NET).[19] Grace is in the third act; law is in the fourth. The story is one story.
 
 **"Christians don't need the Old Testament."** Count the quotations. Roger Nicole, working only with passages the New Testament writers introduce with a formula that shows they mean to quote, counted 224; counting quotations and direct allusions together, he found 278 different Old Testament verses cited, and other scholars who count looser echoes reach far higher numbers.[20] Jesus taught from the Old Testament; on the road to Emmaus he had nothing else to teach from, since none of the New Testament existed. If you set the Old Testament aside, you have set aside the book the New Testament assumes you have read.
 
@@ -315,23 +315,23 @@ Every genre lesson from here on will start by asking where a passage sits on thi
 
 ## Sources
 
-1. Luke 24:25 to 27 and 24:44, ESV. Jesus reading "Moses and all the Prophets" and "the Law of Moses and the Prophets and the Psalms" as about himself; the course's warrant, held by faith, for reading the whole as one story pointing to Christ.
+1. *NET Bible*, [netbible.org](https://netbible.org). Luke 24:25 to 27 and 24:44. Jesus reading "Moses and all the prophets" and "the law of Moses and the prophets and the psalms" as about himself; the course's warrant, held by faith, for reading the whole as one story pointing to Christ. All scripture in this lesson is quoted from the NET. Scripture quoted by permission. Quotations designated (NET) are from the NET Bible® copyright ©1996, 2019 by Biblical Studies Press, L.L.C. All rights reserved.
 2. Craig G. Bartholomew and Michael W. Goheen, *The Drama of Scripture: Finding Our Place in the Biblical Story*, 3rd ed. (Baker Academic, 2024). The six acts (creation; fall; Israel, "redemption initiated"; Jesus, "redemption accomplished"; church; new creation, "redemption completed") and the interlude, "A Kingdom Story Waiting for an Ending: The Intertestamental Period", described as "four hundred years of Israel's history between Malachi and Matthew".
 3. Vaughan Roberts, *God's Big Picture: Tracing the Storyline of the Bible* (IVP, 2002). Eight stages of the kingdom (pattern, perished, promised, partial, prophesied, present, proclaimed, perfected) under the definition "God's people in God's place under God's rule and blessing".
 4. Graeme Goldsworthy, *According to Plan: The Unfolding Revelation of God in the Bible* (IVP, 1991). A kingdom-centred reading of the whole story, named as an alternative scheme.
 5. Gordon D. Fee and Douglas Stuart, *How to Read the Bible for All Its Worth*, 4th ed. (Zondervan, 2014), chapters 1, 4, and 5. The Old Testament as "three-quarters of the bulk of the Bible"; "over 40 percent of the Old Testament is narrative"; the three levels of narrative (the whole plan of God, the story of Israel, the individual stories); the basic rule that "a text cannot mean what it never could have meant to its author or readers".
-6. Genesis 9:11, ESV. The covenant with Noah.
-7. Genesis 12:2 and 3, ESV. The promise to Abraham: nation, name, blessing to all families of the earth.
-8. Galatians 3:8, ESV. Paul reading Genesis 12:3 as the gospel "preached beforehand to Abraham".
-9. Exodus 34:6, ESV. God's self-description at Sinai; grace inside the Sinai covenant.
-10. 2 Samuel 7:16, ESV. The promise to David of a house and throne "forever".
-11. Jeremiah 31:31 to 34, ESV (31:33 quoted). The new covenant promised to Israel and Judah in the shadow of exile; taken up at Luke 22:20 and quoted at length in Hebrews 8.
+6. Genesis 9:11, NET. The covenant with Noah.
+7. Genesis 12:2 and 3, NET. The promise to Abraham: nation, name, blessing to all families of the earth.
+8. Galatians 3:8, NET. Paul reading Genesis 12:3 as the gospel "proclaimed" to Abraham "ahead of time".
+9. Exodus 34:6, NET. God's self-description at Sinai; grace inside the Sinai covenant.
+10. 2 Samuel 7:16, NET. The promise to David of a house and kingdom that "will stand before me permanently".
+11. Jeremiah 31:31 to 34, NET (31:32 and 31:33 quoted). The new covenant promised to Israel and Judah in the shadow of exile; taken up at Luke 22:20 and quoted at length in Hebrews 8.
 12. Christine Hayes, RLST 145 *Introduction to the Old Testament (Hebrew Bible)*, lecture 1, "The Parts of the Whole" (Open Yale Courses, Fall 2006), transcript at oyc.yale.edu. 586 BCE for the Babylonian conquest of Jerusalem and the exile; the Bible as "a library... an anthology of writings or books written and edited over an extensive period of time"; her reason for saying "Hebrew Bible" rather than "Old Testament", quoted in the text. Lecture 14, "The Deuteronomistic History: Response to Catastrophe", for the fall of the northern kingdom to Assyria in 722 (used in the quiz).
 13. Avraham Biran and Joseph Naveh, "An Aramaic Stele Fragment from Tel Dan", *Israel Exploration Journal* 43 (1993), and "The Tel Dan Inscription: A New Fragment", *Israel Exploration Journal* 45 (1995), 1 to 18. The stele: found 1993 (further fragments 1994), ninth century BC, Aramaic, naming the "House of David"; now in the Israel Museum, Jerusalem. Supports "history establishes that a king David existed"; the size of his kingdom is argued (SOURCES.md, contested question 7).
-14. Ruth 1:1, ESV.
-15. Ruth 4:17 and 4:22, ESV. The book's ending in Obed, Jesse, and David.
+14. Ruth 1:1, NET.
+15. Ruth 4:17 and 4:22, NET. The book's ending in Obed, Jesse, and David.
 16. "Megillot, the Five", *Jewish Encyclopedia* (1906), jewishencyclopedia.com. Ruth as one of the five festival scrolls (with Song of Songs, Lamentations, Ecclesiastes, and Esther), read at Pentecost (Shavuot). The article records a midrashic reason for the pairing and notes it is a later addition; the harvest and Torah connections in the text are the standard ones and are not attributed to the article.
-17. Jeremiah 29:1 to 14, ESV (verses 1, 5 to 7, 10, and 11 quoted). The letter to the exiles: addressee, instructions, the seventy years, the promise.
+17. Jeremiah 29:1 to 14, NET (verses 1, 4, 5 to 7, 10, and 11 quoted). The letter to the exiles: addressee, instructions, the seventy years, the promise.
 18. F. F. Bruce, *The Canon of Scripture* (IVP, 1988), on Marcion: Rome, c. 144; an edited Luke plus ten Pauline letters; rejection of the Old Testament; the church's response as evidence it already held a wider collection.
-19. Matthew 5:17, ESV.
+19. Matthew 5:17, NET.
 20. Roger Nicole, "New Testament Use of the Old Testament", in Carl F. H. Henry (ed.), *Revelation and the Bible* (Baker, 1958), reproduced at bible-researcher.com/nicole.html. 224 direct citations introduced by a formula; 278 different Old Testament verses cited when quotations and direct allusions are counted together (94 from the Pentateuch, 99 from the Prophets, 85 from the Writings); higher counts (Toy 613, Dittmar 1,640, Huehn 4,105) when looser allusions are included.

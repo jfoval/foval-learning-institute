@@ -59,12 +59,12 @@ quiz:
 
 Open a Bible to Proverbs 26 and read verses 4 and 5, one after the other. They sit side by side, in the same paragraph, in a book of wisdom that a great many people read one verse at a time.
 
-> Answer not a fool according to his folly,
-> lest you be like him yourself.
+> Do not answer a fool according to his folly,
+> lest you yourself also be like him.
 > Answer a fool according to his folly,
-> lest he be wise in his own eyes.
+> lest he be wise in his own opinion.
 >
-> Proverbs 26:4 to 5 (ESV)[1]
+> Proverbs 26:4 to 5 (NET)[1]
 
 :::predict Which of the two is correct? Pick one before you read on, and say in a sentence why the other one is there.
 Both are correct, and the placement is the point. Whoever put Proverbs together set two opposite instructions next to each other on purpose. A proverb is not a rule that covers every case. It is a compressed observation about how things usually go, and it leaves the reader to judge which case they are in. Sometimes engaging with a fool drags you down to his level; sometimes silence lets him think he has won. Wisdom is knowing which is which. If you read either verse alone as a command, you would be doing the thing the book is built to teach you not to do.
@@ -76,18 +76,18 @@ That pair of verses is the whole of this lesson in miniature. A large part of th
 
 Start with the one thing everyone needs to know. Hebrew poetry does not rhyme sounds. It rhymes ideas. A poet says something in one line and then says it again in a second line that repeats, sharpens, contrasts, or completes the first. Read the opening of Psalm 19:
 
-> The heavens declare the glory of God,
-> and the sky above proclaims his handiwork.
-> Day to day pours out speech,
-> and night to night reveals knowledge.
+> The heavens declare the glory of God;
+> the sky displays his handiwork.
+> Day after day it speaks out;
+> night after night it reveals his greatness.
 >
-> Psalm 19:1 to 2 (ESV)[1]
+> Psalm 19:1 to 2 (NET)[1]
 
-Heavens and sky; declare and proclaim; glory and handiwork. The second line is not adding a new fact about a different object. Fee and Stuart, whose textbook this course follows, put it plainly: the four lines "are not trying to say four different things", and the poet "is not trying to say that the 'heavens' do one thing and the 'skies' another; together the two lines speak of one glorious reality".[2] Then the second pair adds something: the speech goes on day and night, without pause.
+Heavens and sky; declare and display; glory and handiwork. The second line is not adding a new fact about a different object. Fee and Stuart, whose textbook this course follows, put it plainly: the four lines "are not trying to say four different things", and the poet "is not trying to say that the 'heavens' do one thing and the 'skies' another; together the two lines speak of one glorious reality".[2] Then the second pair adds something: the speech goes on day and night, without pause.
 
 This pairing is called parallelism. The name and the classic description come from an Oxford lecturer, Robert Lowth, whose lectures on Hebrew poetry were published in Latin in 1753 and identified three forms: synonymous (the second line restates the first), antithetic (the second line contrasts with the first, as in almost every verse of Proverbs 10), and synthetic (the second line adds to the first without either restating or contrasting).[3] Fee and Stuart still teach those three labels and give one prophetic example of each.[4]
 
-The labels are useful and also a little misleading, and you should know the correction. In 1981 James Kugel argued in *The Idea of Biblical Poetry* that "synonymous" lines are almost never simply synonymous. The second line seconds the first: it goes further, narrows it, intensifies it, or completes it. His shorthand for the relationship is "A, and what's more, B".[5] You can test this on Psalm 19. "Declare the glory of God" is general; "proclaims his handiwork" makes it specific, the skies as evidence of a maker. The second line is where the poet's emphasis lands.
+The labels are useful and also a little misleading, and you should know the correction. In 1981 James Kugel argued in *The Idea of Biblical Poetry* that "synonymous" lines are almost never simply synonymous. The second line seconds the first: it goes further, narrows it, intensifies it, or completes it. His shorthand for the relationship is "A, and what's more, B".[5] You can test this on Psalm 19. "Declare the glory of God" is general; "displays his handiwork" makes it specific, the sky as evidence of a maker. The second line is where the poet's emphasis lands.
 
 So here is the reading habit to build: whenever you meet a pair of lines, ask what the second line adds. Not "what does line B mean on its own", and not "these two lines say the same thing so I can skip one", but "what's more". You will find that most of the meaning of a Hebrew poem is carried in that gap.
 
@@ -99,7 +99,7 @@ Antithetic. The second line contrasts with the first. And it adds more than a co
 
 The second thing to know is that poetry's vocabulary is, in Fee and Stuart's words, "purposefully metaphorical".[2] In the Psalms, mountains skip like rams, enemies have swords in their lips, and God is a shepherd, a rock, a fortress, a shield. None of that is decoration on top of a plain statement. It is how the statement is made.
 
-The mistake runs in two directions. One is to press the picture: to read Psalm 23 as a recommendation of rural life, or, as Fee and Stuart note about Psalm 51:5 ("in sin my mother conceived me"), to extract a doctrine about the sinfulness of conception from a line of hyperbole whose point is that the psalmist's sin goes back as far as he can remember.[2] The other mistake is to strip the picture out and keep only a proposition. "God is revealed in his creation" is a true sentence, but Fee and Stuart are right that it is "totally colorless" next to Psalm 19, and the colour was the point.[2] A poem is meant to be felt as well as understood; that is why poetry is what people remember.
+The mistake runs in two directions. One is to press the picture: to read Psalm 23 as a recommendation of rural life, or, as Fee and Stuart note about Psalm 51:5 ("a sinner the moment my mother conceived me"), to extract a doctrine about the sinfulness of conception from a line of hyperbole whose point is that the psalmist's sin goes back as far as he can remember.[2] The other mistake is to strip the picture out and keep only a proposition. "God is revealed in his creation" is a true sentence, but Fee and Stuart are right that it is "totally colorless" next to Psalm 19, and the colour was the point.[2] A poem is meant to be felt as well as understood; that is why poetry is what people remember.
 
 Here is the mechanism under all of this. Poetry compresses. A prose writer spells out the connections; a poet leaves them for you to supply. When you read a psalm as a list of propositions, you strip out exactly the part where the meaning lives, which is the leap between line A and line B, and between the picture and what it points at. The reader does the work, and a reader who refuses to do it gets a flat, contradictory text and blames the text.
 
@@ -157,48 +157,47 @@ The second rule is that psalms come in types, and each type has a shape. The Isr
 Look at the first bar. Laments outnumber every other type, and Fee and Stuart remark that this "probably says something about our common humanity".[2] More of Israel's prayer book is complaint than praise. If your own praying has no room for that, the Psalms will widen it.
 
 :::predict Read Psalm 13:1 to 2 in your own Bible and stop. Four times the psalmist asks "how long". On that evidence, how will the psalm end? Write your guess in one line.
-Most readers guess it ends in the dark, or with a plea. It ends: "I will sing to the LORD, because he has dealt bountifully with me." Nothing in the situation has changed between verse 2 and verse 6. What changed is the psalmist. That movement is the shape of a lament, and it is what the next section is about.
+Most readers guess it ends in the dark, or with a plea. It ends: "I will sing praises to the Lord when he vindicates me." Nothing in the situation has changed between verse 2 and verse 6. What changed is the psalmist. That movement is the shape of a lament, and it is what the next section is about.
 :::
 
 ## Worked example 1: Psalm 13, read badly and then well
 
 Here is the whole psalm.
 
-> How long, O LORD? Will you forget me forever?
-> How long will you hide your face from me?
-> How long must I take counsel in my soul
-> and have sorrow in my heart all the day?
-> How long shall my enemy be exalted over me?
+> How long, Lord, will you continue to ignore me?
+> How long will you pay no attention to me?
+> How long must I worry, and suffer in broad daylight?
+> How long will my enemy gloat over me?
 >
-> Consider and answer me, O LORD my God;
-> light up my eyes, lest I sleep the sleep of death,
-> lest my enemy say, "I have prevailed over him,"
-> lest my foes rejoice because I am shaken.
+> Look at me! Answer me, O Lord my God!
+> Revive me, or else I will die.
+> Then my enemy will say, "I have defeated him."
+> Then my foes will rejoice because I am shaken.
 >
-> But I have trusted in your steadfast love;
-> my heart shall rejoice in your salvation.
-> I will sing to the LORD,
-> because he has dealt bountifully with me.
+> But I trust in your faithfulness.
+> May I rejoice because of your deliverance.
+> I will sing praises to the Lord
+> when he vindicates me.
 >
-> Psalm 13 (ESV)[1]
+> Psalm 13 (NET)[1]
 
-**Read badly.** Treat it as a list of claims. Verse 1: God forgets people, forever, and hides his face. Verse 5: God's love is steadfast and he saves. Verse 6: God has been generous. Which is it? A reader who takes the psalm as doctrine has to either pick a verse and discard the rest, or conclude that the psalmist changed his theology between lines. Neither is reading.
+**Read badly.** Treat it as a list of claims. Verse 1: God ignores people and pays them no attention. Verse 5: God is faithful and he delivers. Verse 6: God vindicates. Which is it? A reader who takes the psalm as doctrine has to either pick a verse and discard the rest, or conclude that the psalmist changed his theology between lines. Neither is reading.
 
 **Read well.** Ask what type this is. It is an individual lament, and Fee and Stuart, comparing all the laments, find six elements that appear "in one way or another in virtually all of them", usually in this order: address, complaint, trust, deliverance (the actual petition), assurance, and praise.[2] Now lay the psalm on that template.
 
-- *Address:* "O LORD", in the first line, and again in verse 3, "O LORD my God".
-- *Complaint:* the four "how long" questions of verses 1 and 2. Notice they escalate: forgotten by God, hidden from, left alone with his own thoughts, and then beaten by an enemy. That is parallelism doing its "what's more" work across five lines.
+- *Address:* "Lord", in the first line, and again in verse 3, "O Lord my God".
+- *Complaint:* the four "how long" questions of verses 1 and 2. Notice they escalate: ignored by God, given no attention, left alone to worry and suffer in broad daylight, and then gloated over by an enemy. That is parallelism doing its "what's more" work across four lines.
 
-Now you do the next two. Verses 3 and 4 are the petition, and they carry their own "lest" clauses. Which of the six elements are they, and what does the psalmist ask for, exactly? Write your answer before reading on.
+Now you do the next two. Verses 3 and 4 are the petition, and they spell out what is at stake if it is not answered. Which of the six elements are they, and what does the psalmist ask for, exactly? Write your answer before reading on.
 
-Here is mine. Verses 3 and 4 are *deliverance*, the petition: "consider", "answer", "light up my eyes". And the three "lest" clauses are the complaint restated as stakes: death, the enemy's boast, the foes' joy. Then verses 5 and 6 carry the last three elements in quick succession. *Trust:* "I have trusted in your steadfast love." *Assurance:* "my heart shall rejoice in your salvation", future tense, not yet seen. *Praise:* "I will sing".
+Here is mine. Verses 3 and 4 are *deliverance*, the petition: "look at me", "answer me", "revive me". And what follows is the complaint restated as stakes: death, the enemy's boast, the foes' joy. Then verses 5 and 6 carry the last three elements in quick succession. *Trust:* "I trust in your faithfulness." *Assurance:* "May I rejoice because of your deliverance", asked for and not yet seen. *Praise:* "I will sing praises to the Lord".
 
-So the psalm is not a set of claims that contradict. It is a movement, and the movement is the meaning. A person in real trouble speaks the trouble to God at full strength, asks, and then, without the trouble being resolved, chooses to stand on what he knows of God's character. The word the ESV gives as "steadfast love" is the Hebrew *hesed*, the loyalty God promised in the covenant you met in lesson 2. The psalmist reaches for the covenant when he cannot see the rescue. That is what the psalm teaches, and it teaches it by making you say it.
+So the psalm is not a set of claims that contradict. It is a movement, and the movement is the meaning. A person in real trouble speaks the trouble to God at full strength, asks, and then, without the trouble being resolved, chooses to stand on what he knows of God's character. The word the NET gives as "faithfulness" is the Hebrew *hesed*, the loyalty God promised in the covenant you met in lesson 2. The psalmist reaches for the covenant when he cannot see the rescue. That is what the psalm teaches, and it teaches it by making you say it.
 
 One caution, from the same textbook. The six elements are "our discovery, not a rigid form a psalmist felt compelled to fit the musical poem into".[2] Psalm 88 is a lament that never reaches praise. The shape is a strong pattern, and the exceptions are real, and the Psalter kept them.
 
 :::checkpoint Psalm 42. Read it now, all eleven verses. What type is it, where is the turn, and what does the refrain in verses 5 and 11 do?
-An individual lament (Fee and Stuart list it as one). It is unusual because the turn happens twice, and it is the refrain itself: "Why are you cast down, O my soul, and why are you in turmoil within me? Hope in God; for I shall again praise him, my salvation and my God" (42:11, ESV).[1] Each time, the psalmist talks to himself, and turns from complaint toward trust and assurance, and then the complaint comes back. The refrain shows you that the turn in a lament is not a switch that stays flipped. It is a thing the praying person does, and does again.
+An individual lament (Fee and Stuart list it as one). It is unusual because the turn happens twice, and it is the refrain itself: "Why are you depressed, O my soul? Why are you upset? Wait for God! For I will again give thanks to my God for his saving intervention" (42:11, NET).[1] Each time, the psalmist talks to himself, and turns from complaint toward trust and assurance, and then the complaint comes back. The refrain shows you that the turn in a lament is not a switch that stays flipped. It is a thing the praying person does, and does again.
 :::
 
 ## Wisdom: a proverb is not a promise
@@ -215,10 +214,10 @@ No. It has done what a proverb does: told you the usual result, in the fewest wo
 
 ## Worked example 2: Proverbs 22:6, with a wrinkle
 
-> Train up a child in the way he should go;
-> even when he is old he will not depart from it.
+> Train a child in the way that he should go,
+> and when he is old he will not turn from it.
 >
-> Proverbs 22:6 (ESV)[1]
+> Proverbs 22:6 (NET)[1]
 
 **Read badly.** As a guarantee to parents. Raise your child rightly and they will stay in the faith. The reading feels like taking God at his word, and it produces two kinds of damage. Parents whose grown children have left the faith conclude they failed, or that God did. And parents whose children stayed conclude it was their doing.
 
@@ -228,14 +227,14 @@ No. It has done what a proverb does: told you the usual result, in the fewest wo
 
 There is, and it is the sharpest thing in the wisdom books. Job's three friends spend most of the book quoting wisdom at him. Suffering follows sin; the wicked do not prosper; put your house in order and God will restore you. Much of what they say could be lifted straight out of Proverbs. At the end, God speaks:
 
-> After the LORD had spoken these words to Job, the LORD said to Eliphaz the Temanite: "My anger burns against you and against your two friends, for you have not spoken of me what is right, as my servant Job has."
+> After the Lord had spoken these things to Job, he said to Eliphaz the Temanite, "My anger is stirred up against you and your two friends because you have not spoken about me what is right, as my servant Job has."
 >
-> Job 42:7 (ESV)[1]
+> Job 42:7 (NET)[1]
 
 The friends took true generalisations and applied them as guarantees to a case they did not fit, and God calls that not speaking rightly of him. Fee and Stuart's warning is exactly this: "Do not engage in the kind of wisdom Job's friends did, equating worldly success with righteousness in God's eyes."[8] So the rule that a proverb is not a promise is not a modern reader's escape hatch. It is the verdict of the book of Job, inside the same canon, on the people who made the mistake.
 
 :::callout Set them side by side
-Read Proverbs 3:9 to 10 and then think of anyone you know who has done what it says and is not rich. "Honor the LORD with your wealth and with the firstfruits of all your produce; then your barns will be filled with plenty, and your vats will be bursting with wine" (ESV).[1] The proverb is true as a pattern: generosity and honesty tend, over a life, toward stability, and a community that practises them prospers. It is false as a formula for any individual, and the Bible says so in Job, in Ecclesiastes, in Psalm 73, and on a cross. Both halves are in the same book so that you cannot keep one without the other.
+Read Proverbs 3:9 to 10 and then think of anyone you know who has done what it says and is not rich. "Honor the Lord from your wealth and from the firstfruits of all your crops; then your barns will be filled completely, and your vats will overflow with new wine" (Proverbs 3:9 to 10, NET).[1] The proverb is true as a pattern: generosity and honesty tend, over a life, toward stability, and a community that practises them prospers. It is false as a formula for any individual, and the Bible says so in Job, in Ecclesiastes, in Psalm 73, and on a cross. Both halves are in the same book so that you cannot keep one without the other.
 :::
 
 ## Job and Ecclesiastes: the counter-voices
@@ -244,46 +243,46 @@ Why are Job and Ecclesiastes in the Bible at all? Because Proverbs on its own wo
 
 **Job** is a dialogue with a frame. A prose prologue (chapters 1 and 2) tells you, before anyone speaks, that Job's suffering is not punishment, and a prose epilogue (42:7 to 17) vindicates him against his friends.[8] Between them sit thirty-nine chapters of poetry in which the friends argue that the world is fair and Job argues that it is not. The reader is given information the speakers lack, which means you cannot read any speech in Job as "what the Bible teaches" without asking who is speaking and what God says about them at the end. Fee and Stuart's example is Job 15:20, "All his days the wicked man suffers torment", which sounds like doctrine and is Eliphaz, whom God rebukes.[8] Job's own conclusion is double: on whether life is fair, Job prevailed, "it is not"; on why him, God prevailed, and Job never gets an answer, only God.[8]
 
-**Ecclesiastes** is a monologue with a frame. The Teacher (Hebrew *Qohelet*) speaks in the first person from 1:12 to 12:7; a prologue (1:1 to 11) and an epilogue (12:8 to 14) speak about him in the third person.[8] His key word is *hebel*, "vanity" in the ESV, "meaningless" in the NIV, a word whose literal sense is vapour or breath, and which occurs thirty-seven times in this book out of seventy-three in the whole Old Testament.[8]
+**Ecclesiastes** is a monologue with a frame. The Teacher (Hebrew *Qohelet*) speaks in the first person from 1:12 to 12:7; a prologue (1:1 to 11) and an epilogue (12:8 to 14) speak about him in the third person.[8] His key word is *hebel*, "futile" in the NET, "vanity" in the King James and the versions that follow it, "meaningless" in the NIV, a word whose literal sense is vapour or breath, and which occurs thirty-seven times in this book out of seventy-three in the whole Old Testament.[8]
 
-> Vanity of vanities, says the Preacher,
-> vanity of vanities! All is vanity.
+> "Futile! Futile!" laments the Teacher.
+> "Absolutely futile! Everything is futile!"
 >
-> Ecclesiastes 1:2 (ESV)[1]
+> Ecclesiastes 1:2 (NET)[1]
 
 What the Teacher means by it is a real scholarly disagreement, and I want you to see one because it runs through the middle of the textbook this course uses. Fee and Stuart report that their two recommended commentators, Tremper Longman and Iain Provan, "happen to be close friends" and read the book in opposite ways: Longman takes most of it as "cynical wisdom" set up as a foil, an outlook to be avoided; Provan takes it positively, as a guide to enjoying life under God in a world where everyone dies. And then the two authors add that they themselves are split, one with each commentator.[8] That is not a failure of the textbook. It is what honest reading of a hard book looks like. Both readings agree on the thing that matters for you: the epilogue's last two verses, "Fear God and keep his commandments", are the perspective the reader is meant to hold the Teacher's words in, and a single line of the Teacher is not where you settle a doctrine.[8]
 
-A word for the Jewish reader, whose book this also is. Ecclesiastes is one of the five Megillot and is read in the synagogue at Sukkot (by Ashkenazi Jews on the Sabbath of the festival's middle days; by other communities on Shemini Atzeret), the festival of rejoicing.[9] A community that reads "all is vanity" at its feast of joy has understood the book's frame at least as well as any Christian commentator.
+A word for the Jewish reader, whose book this also is. Ecclesiastes is one of the five Megillot and is read in the synagogue at Sukkot (by Ashkenazi Jews on the Sabbath of the festival's middle days; by other communities on Shemini Atzeret), the festival of rejoicing.[9] A community that reads "everything is futile" at its feast of joy has understood the book's frame at least as well as any Christian commentator.
 
 ## The wrinkle in the Psalms: Psalm 137
 
 One psalm shocks almost everyone who finds it. It belongs here, at the end, because reading it needs everything the lesson has given you: the type, the shape, the imagery, and the covenant.
 
-> By the waters of Babylon,
-> there we sat down and wept,
-> when we remembered Zion.
+> By the rivers of Babylon
+> we sit down and weep
+> when we remember Zion.
 >
-> Psalm 137:1 (ESV)[1]
+> Psalm 137:1 (NET)[1]
 
 Place it on the timeline from lesson 2. Jerusalem has fallen to Babylon; the temple is burned; the survivors are in exile, and their captors ask them for a song. Hayes tells her students the psalm is "clearly from the perspective of the exile".[7] It is a corporate lament, and Fee and Stuart list it as one.[2] Then, after six verses of grief, the last two:
 
-> O daughter of Babylon, doomed to be destroyed,
-> blessed shall he be who repays you
-> with what you have done to us!
-> Blessed shall he be who takes your little ones
-> and dashes them against the rock!
+> O daughter Babylon, soon to be devastated,
+> how blessed will be the one who repays you
+> for what you dished out to us.
+> How blessed will be the one who grabs your babies
+> and smashes them on a rock.
 >
-> Psalm 137:8 to 9 (ESV)[1]
+> Psalm 137:8 to 9 (NET)[1]
 
 **Read badly.** As an endorsement. The Bible blesses killing infants. Or, the mirror reading, which is just as bad: tear the page out, because a Christian cannot say this.
 
-**Read well.** Notice, first, what the psalm is. It is a prayer, spoken to God (verse 7 addresses him directly), by people who have watched this done to their own children. Verse 8 says so: "with what you have done to us". The image in verse 9 is not the psalmist's invention; it is a description of what a besieging army did, and the psalmist asks that Babylon receive its own measure. Fee and Stuart note that the language is "hyperbolic language of the same extreme sort found in the covenant curses themselves", and that the psalmist "calls for judgment according to the covenant curses" of Deuteronomy, the sanctions you met in lesson 4.[2]
+**Read well.** Notice, first, what the psalm is. It is a prayer, spoken to God (verse 7 addresses him directly), by people who have watched this done to their own children. Verse 8 says so: "for what you dished out to us". The image in verse 9 is not the psalmist's invention; it is a description of what a besieging army did, and the psalmist asks that Babylon receive its own measure. Fee and Stuart note that the language is "hyperbolic language of the same extreme sort found in the covenant curses themselves", and that the psalmist "calls for judgment according to the covenant curses" of Deuteronomy, the sanctions you met in lesson 4.[2]
 
 Notice, second, what the psalm does not do. It does not pick up a sword. It hands the rage to God and leaves it there. That is the whole logic of the imprecatory psalms, and it rests on a command: "Vengeance is mine, I will repay, says the Lord", which Deuteronomy 32:35 gives to Israel and Paul quotes to the Roman church:
 
-> Beloved, never avenge yourselves, but leave it to the wrath of God, for it is written, "Vengeance is mine, I will repay, says the Lord."
+> Do not avenge yourselves, dear friends, but give place to God's wrath, for it is written, "Vengeance is mine, I will repay," says the Lord.
 >
-> Romans 12:19 (ESV)[1]
+> Romans 12:19 (NET)[1]
 
 Paul's instruction and the psalm are the same instruction. Do not take vengeance; give it to God. The psalm is what obeying that instruction sounds like when you are the one who has been wronged past bearing. Fee and Stuart put it this way: these psalms "guide or channel our anger to and through God verbally rather than to or at anyone else", and "it is God who is the actual hearer of these angry words", which is where angry words belong.[2] They add that this does not contradict Jesus' command to love enemies, because the psalm asks God to act and does not act.[2]
 
@@ -312,7 +311,7 @@ Eight minutes on how Proverbs is built, what the "fear of the LORD" means, and w
 :::exercise Do it now
 Three tasks, each on a passage this lesson did not read for you.
 
-1. **Psalm 22.** Read all thirty-one verses in one sitting. It opens, "My God, my God, why have you forsaken me?" (22:1, ESV).[1] Mark the six elements of a lament in the margin as you find them. Then find the turn. It is sharp, and it comes with a change of audience: "I will tell of your name to my brothers; in the midst of the congregation I will praise you" (22:22, ESV).[1] Write one sentence on what changes at that verse and one on what has not changed in the psalmist's situation. If you know where Jesus quoted the first line, note that too, and notice which part of the psalm he was praying.
+1. **Psalm 22.** Read all thirty-one verses in one sitting. It opens, "My God, my God, why have you abandoned me?" (22:1, NET).[1] Mark the six elements of a lament in the margin as you find them. Then find the turn. It is sharp, and it comes with a change of audience: "I will declare your name to my countrymen. In the middle of the assembly I will praise you" (22:22, NET).[1] Write one sentence on what changes at that verse and one on what has not changed in the psalmist's situation. If you know where Jesus quoted the first line, note that too, and notice which part of the psalm he was praying.
 
 2. **Ecclesiastes 1:1 to 11 and Proverbs 3:1 to 10**, back to back. Read them in that order, then write one paragraph answering this: how are these two voices both wisdom? Use the words "pattern" and "frame" somewhere in your answer. Then say which of the two you would read to a friend who has just lost a job, and why.
 
@@ -335,7 +334,7 @@ Lesson 6 uses the same reflex on the parables, which compress the way a proverb 
 
 ## Sources
 
-1. *The Holy Bible, English Standard Version* (Crossway, 2001; text edition 2016). All quotations: Proverbs 26:4 to 5; Psalm 19:1 to 2; Psalm 13; Psalm 42:11; Proverbs 22:6; Job 42:7; Proverbs 3:9 to 10; Ecclesiastes 1:2; Psalm 137:1 and 8 to 9; Romans 12:19; Psalm 22:1 and 22:22. Twenty-two verses in the body; the quiz also quotes phrases from Psalm 88:18, Proverbs 10:4, Isaiah 55:12, Ecclesiastes 9:5, Psalm 109:8 to 9, and Psalm 30:1 and 11 (eight verses in part), twenty-nine in all. Quoted under Crossway's standard permission for non-commercial use of up to 500 verses.
+1. *NET Bible*, [netbible.org](https://netbible.org), read via the bible.org API. All quotations: Proverbs 26:4 to 5; Psalm 19:1 to 2; Psalm 51:5; Psalm 13; Psalm 42:11; Proverbs 22:6; Job 42:7; Proverbs 3:9 to 10; Ecclesiastes 1:2; Psalm 137:1 and 8 to 9; Romans 12:19; Psalm 22:1 and 22:22. Superscriptions ("For the music director...") are omitted from the psalm quotations. Scripture quoted by permission. Quotations designated (NET) are from the NET Bible® copyright ©1996, 2019 by Biblical Studies Press, L.L.C. All rights reserved. See Editorial Standards 4.7 for why this course uses the NET.
 2. Fee, G. D. & Stuart, D., *How to Read the Bible for All Its Worth*, 4th ed. (Zondervan, 2014), ch. 11, "The Psalms: Israel's Prayers and Ours". Psalm 19 as synonymous parallelism ("not trying to say four different things"; "totally colorless"); poetry's vocabulary "purposefully metaphorical"; Psalm 51:5 as hyperbole; "a unique problem of hermeneutics", "words spoken to God"; the answer, "precisely in the ways they functioned for Israel in the first place"; the seven types with psalm numbers and counts ("more than sixty" laments; six community and ten individual thanksgiving psalms; nine royal; eight wisdom; ten songs of trust; "probably says something about our common humanity"); the six elements of a lament "in one way or another in virtually all of them" and "our discovery, not a rigid form"; Psalm 137 as a corporate lament, "hyperbolic language of the same extreme sort found in the covenant curses", "calls for judgment according to the covenant curses", "it is God who is the actual hearer of these angry words", and the imprecatory psalms not contradicting Jesus' command to love enemies.
 3. Lowth, R., *De Sacra Poesi Hebraeorum Praelectiones Academicae* (Oxford, 1753); English translation by G. Gregory, *Lectures on the Sacred Poetry of the Hebrews* (1787). Lecture 19 sets out parallelism in three forms: synonymous, antithetic, synthetic. Dates and the three forms verified against the Wikipedia article on Lowth and its cited sources at draft time.
 4. Fee & Stuart 2014, ch. 10, "The Prophets: Enforcing the Covenant in Israel", section "The Prophets as Poets": the three forms of parallelism defined, with Isaiah 44:22, Hosea 7:14, and Obadiah 21 as examples; the recommendation of Longman's *How to Read the Psalms*, chs. 6 and 7.
