@@ -551,6 +551,18 @@ lesson already rested it. The argument is unaffected; the texture of the passage
   a fixed viewBox can overflow, so each needs the viewBox widened rather than a blind bump. Logic
   lesson 10's SVG is the worst and is the anti-pattern, not the template: it hardcodes colours and
   uses font-size 9 and 10.
+- **Fourteen answer leaks across the courses, six of them in published How to Learn Anything.** A
+  prompt telling the reader to answer before reading on, followed by the answer in plain prose.
+  Only `:::predict` and `:::checkpoint` hide their body. The build now warns on every one
+  (`npm run validate | grep "prints the answer"`). It warns rather than fails because the rule was
+  added after the defects shipped; once the published six are fixed, consider promoting it to a
+  build failure on published courses. **How to Learn Anything is the flagship and should be fixed
+  first**: lessons 1, 2, 3, 5 (twice) and 7.
+- **Ten SVG token collisions**, where a chart uses two tokens that resolve to the same colour to
+  tell two things apart. `--line-strong` and `--navy` are byte-identical in both themes (`#0f2a4a`
+  light, `#c9d3e2` dark), so those charts render as one solid block. Logic lesson 9's is the worst:
+  its caption describes a "grey bar" that is not grey and never was. Also in bible-basics 2, 6 and
+  7. The build now warns on each (`npm run validate | grep "render identically"`).
 - **Five lessons still carry greys outside the palette** in SVG fills.
 - **Nine SVG labels run past their own viewBox and are silently clipped by the browser**, now caught
   by the linter (see section 1). Two of them are the source captions on both charts in bible-basics

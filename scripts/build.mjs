@@ -111,6 +111,21 @@ for (const school of fs.readdirSync(COURSES_DIR, { withFileTypes: true }).filter
    These run over drafts too, because a draft is where a defect is cheap to fix.
    Findings here are the ones a Stage 4 review caught by hand and should never
    have to catch again. See docs/EDITORIAL_STANDARDS.md 4.5, 4.6 and 4.7. */
+// The site's two palettes, read from the stylesheet so the check tracks the real thing.
+const TOKENS = (() => {
+  const out = { light: {}, dark: {} };
+  let css = "";
+  try { css = fs.readFileSync(path.join(ROOT, "site", "assets", "styles.css"), "utf8"); } catch { return out; }
+  const light = css.slice(0, css.indexOf("@media (prefers-color-scheme: dark)"));
+  const dark = css.slice(css.indexOf("@media (prefers-color-scheme: dark)"));
+  for (const [scope, text] of [["light", light], ["dark", dark]]) {
+    for (const m of text.matchAll(/(--[a-z0-9-]+):\s*(#[0-9a-fA-F]{3,8})\s*;/g)) out[scope][m[1]] = m[2].toLowerCase();
+  }
+  // A token not restated in the dark block keeps its light value.
+  for (const [k, v] of Object.entries(out.light)) if (!(k in out.dark)) out.dark[k] = v;
+  return out;
+})();
+
 function lintLessons() {
   for (const school of fs.readdirSync(COURSES_DIR, { withFileTypes: true }).filter(d => d.isDirectory())) {
     for (const cdir of fs.readdirSync(path.join(COURSES_DIR, school.name), { withFileTypes: true }).filter(d => d.isDirectory())) {
@@ -209,6 +224,44 @@ function lintLessons() {
             // Fits in Arial, does not fit in the widest system font. That means it is clipped
             // for some readers and not others, which is why it survives a look on one machine.
             warn.push(`${file}: SVG label "${body.trim().slice(0, 45)}" fits its viewBox (${vbWidth} wide) in a narrow system font but not a wide one, so it is clipped for some readers and not others. Give it about ${Math.round(left + width * FONT_SPREAD - vbWidth)} more units of room.`);
+          }
+        }
+
+        // 4.2: a prompt that tells the reader to answer before reading on, followed by the
+        // answer in plain prose, is recognition wearing retrieval's clothes. Only :::predict
+        // and :::checkpoint bodies render behind a button. Three lessons in a row shipped this
+        // and three hand reviews caught it; the fourth should not have to.
+        {
+          const lines = src.split("\n");
+          let depth = 0;
+          lines.forEach((line, i) => {
+            if (/^:::\w/.test(line)) depth++;
+            else if (/^:::\s*$/.test(line)) depth = Math.max(0, depth - 1);
+            if (depth > 0) return;                       // already inside a hidden block
+            if (!/\b(before you read on|before reading on|do this one yourself|do it yourself|write this one|try to build the counterexample|cover the answer)\b/i.test(line)) return;
+            const ahead = lines.slice(i + 1, i + 9);
+            if (ahead.some(l => /^:::(predict|checkpoint)/.test(l))) return;
+            warn.push(`${file}:${i + 1}: asks the reader to answer before reading on, then prints the answer in plain prose. Only :::predict and :::checkpoint hide their body. Quoted: "${line.trim().slice(0, 70)}"`);
+          });
+        }
+
+        // 4.6: two different tokens that resolve to the same colour cannot distinguish two
+        // things. Logic lesson 9 drew a background track in var(--line-strong) and its value
+        // bar in var(--navy), and those are byte-identical in both themes, so the chart
+        // rendered as one solid block under a caption describing a grey bar that was not there.
+        {
+          const svgs = src.match(/<svg[\s\S]*?<\/svg>/g) || [];
+          for (const svg of svgs) {
+            const used = [...new Set([...svg.matchAll(/(?:fill|stroke)="var\((--[a-z0-9-]+)/g)].map(m => m[1]))];
+            for (const theme of ["light", "dark"]) {
+              const seen = new Map();
+              for (const tok of used) {
+                const v = TOKENS[theme][tok];
+                if (!v) continue;
+                if (seen.has(v)) warn.push(`${file}: an SVG uses ${seen.get(v)} and ${tok} to tell two things apart, but both are ${v} on the ${theme} theme, so they render identically. Pick tokens that differ, or put a label on each.`);
+                else seen.set(v, tok);
+              }
+            }
           }
         }
 
