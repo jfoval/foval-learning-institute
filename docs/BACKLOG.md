@@ -50,7 +50,11 @@ parallel sessions is the ceiling. A platform session must not touch `courses/` o
    podcasts, which went into Go deeper instead). **Lesson 7 done** (Macnamara
    variance-by-domain bar chart, links incl. the Ericsson 1993 PDF and both open-access
    debate papers; Ericsson's last interview linked in Go deeper, not embedded, because it
-   runs 27 minutes and the only short clip is Amazon-branded). Lesson 8 remains.
+   runs 27 minutes and the only short clip is Amazon-branded). **Lesson 8 done, so the
+   media pass (2b) is COMPLETE on all eight lessons 2026-09-06** (Dewald correlations drawn
+   at actual size on the full −1..1 scale, Oakley's TEDx talk, ten verified links incl. the
+   Why We Sleep critique). Next for this course: (c), podcasts, one episode per session via
+   /make-podcast, starting with lesson 1.
    (c) Podcast each lesson as it settles.
 3. **The four placeholder courses** (Python, Algebra, Personal Finance, Writing Clearly), which
    are live and have never been through the pipeline. For each, in this order: run Stage 1

@@ -79,7 +79,7 @@ Because in the moment, the useful technique always feels worse than its rival, a
 
 ## Attention: single-task, in short blocks
 
-Start with the habit almost everyone has: studying with something else open. May and Elder (2018) reviewed the research on media multitasking, which means using a second stream of media (messages, video, social feeds) while doing academic work.[2] Their finding is consistent across the studies they surveyed. Media multitasking goes with lower grade point averages, worse test performance, worse recall, and worse reading comprehension, and the effects show up both in class and while students are studying on their own.
+Start with the habit almost everyone has: studying with something else open. May and Elder (2018) [reviewed the research on media multitasking](https://educationaltechnologyjournal.springeropen.com/articles/10.1186/s41239-018-0096-z), which means using a second stream of media (messages, video, social feeds) while doing academic work.[2] Their finding is consistent across the studies they surveyed. Media multitasking goes with lower grade point averages, worse test performance, worse recall, and worse reading comprehension, and the effects show up both in class and while students are studying on their own.
 
 Two limits on that finding. It's a narrative review, so it reports direction and consistency, not a pooled effect size; you're acting on the agreement of many studies, not on one number. And much of the survey evidence is associational, so some of the relationship could run the other way, with weaker students multitasking more.
 
@@ -91,17 +91,21 @@ The practical rule is short blocks of single tasking. The block length is a conv
 
 Oakley's chapters are where most learners meet procrastination, and her vocabulary is a useful bridge: "focus on process, not product", meaning commit to a block of time rather than to finishing something, and her point, drawn from research on maths anxiety, that the discomfort peaks in anticipation and fades once you start.[5] Her chapters are written for a general reader, so they carry the ideas on stories and metaphors and cite only a few studies. The three tactics below come from the self-regulation literature itself.
 
-**Implementation intentions.** Compare two plans. "I will study statistics this week." And: "When I put my plate in the sink on Tuesday, I open the statistics notes." Gollwitzer (1999) called the first a goal intention and the second an implementation intention, which always has the form "when situation X arises, I will do Y".[6] A goal intention leaves the decision of when and how to a future self who will be tired and holding a phone. An implementation intention hands the cue to the situation itself, so the action fires without a fresh decision.
+:::video https://www.youtube.com/watch?v=O96fE1E-rf8 | Learning how to learn, Barbara Oakley at TEDxOaklandUniversity
+Eighteen minutes, so save it for after the lesson. Oakley telling the story her chapters come from: she flunked maths, worked as an Army linguist, and retrained as an engineering professor. The focus, procrastination and process-not-product ideas are the ones this section has just put on an evidence footing.
+:::
 
-Gollwitzer and Sheeran's 2006 meta-analysis of 94 tests found that adding an if-then plan to a goal produced a medium-to-large improvement in goal attainment over the goal alone, d = 0.65, across a wide range of behaviours.[7] What makes it work is specificity: "after dinner" is weaker than "when I put my plate in the sink on Tuesday".
+**Implementation intentions.** Compare two plans. "I will study statistics this week." And: "When I put my plate in the sink on Tuesday, I open the statistics notes." [Gollwitzer (1999)](https://doi.org/10.1037/0003-066X.54.7.493) called the first a goal intention and the second an implementation intention, which always has the form "when situation X arises, I will do Y".[6] A goal intention leaves the decision of when and how to a future self who will be tired and holding a phone. An implementation intention hands the cue to the situation itself, so the action fires without a fresh decision.
+
+[Gollwitzer and Sheeran's 2006 meta-analysis](https://doi.org/10.1016/S0065-2601(06)38002-1) of 94 tests found that adding an if-then plan to a goal produced a medium-to-large improvement in goal attainment over the goal alone, d = 0.65, across a wide range of behaviours.[7] What makes it work is specificity: "after dinner" is weaker than "when I put my plate in the sink on Tuesday".
 
 :::checkpoint A friend writes "I'll do my reading on Thursday evenings from now on." What kind of intention is that, and what one change would turn it into the other kind?
 It's a goal intention: it names a wish and leaves when and how to a future self. To make it an implementation intention, tie a specific cue to a specific action: "When the 6.15 bus pulls in on Thursday, I open the reading at chapter 3." The cue happens to you, so no fresh decision is needed.
 :::
 
-**Shrink the first step.** Steel's 2007 meta-analysis of 691 correlations found the strongest, most consistent predictors of procrastination were how aversive a task is, how far away its payoff is, low confidence in doing it, and impulsiveness.[8] You can't move the exam, but you can make the first step nearly costless. "Study statistics" is aversive. "Open the notes to question 4 and read it" isn't. Once you've read question 4 you're in, and Oakley's point about the discomfort fading applies. Write the first step into the if-then plan so that the cue triggers something almost too small to refuse.
+**Shrink the first step.** [Steel's 2007 meta-analysis](https://doi.org/10.1037/0033-2909.133.1.65) of 691 correlations found the strongest, most consistent predictors of procrastination were how aversive a task is, how far away its payoff is, low confidence in doing it, and impulsiveness.[8] You can't move the exam, but you can make the first step nearly costless. "Study statistics" is aversive. "Open the notes to question 4 and read it" isn't. Once you've read question 4 you're in, and Oakley's point about the discomfort fading applies. Write the first step into the if-then plan so that the cue triggers something almost too small to refuse.
 
-**Design the environment.** Duckworth, Gendler and Gross (2016) argue, from a process model of self-control, that because an impulse strengthens over time, strategies applied before temptation appears (choosing or changing the situation) should beat strategies applied during it (resisting), and that people underuse them because they feel effortless.[4] It's an argument, not a trial result, but it's the reason the concrete moves work: the phone in another room or on airplane mode, the notes already open, the problem set printed the night before, the chat apps in a folder off the home screen. Each removes a decision from the moment when your judgement is worst.
+**Design the environment.** [Duckworth, Gendler and Gross (2016)](https://doi.org/10.1177/1745691615623247) argue, from a process model of self-control, that because an impulse strengthens over time, strategies applied before temptation appears (choosing or changing the situation) should beat strategies applied during it (resisting), and that people underuse them because they feel effortless.[4] It's an argument, not a trial result, but it's the reason the concrete moves work: the phone in another room or on airplane mode, the notes already open, the problem set printed the night before, the chat apps in a folder off the home screen. Each removes a decision from the moment when your judgement is worst.
 
 None of these is a personality change. They're engineering around a known weakness in how people decide about future effort, which is why they work for people who have "tried to be more disciplined" many times.
 
@@ -109,21 +113,46 @@ None of these is a personality change. They're engineering around a known weakne
 
 You've probably heard that sleep is where learning happens and that a night's sleep after study is worth more than the study. The evidence supports a weaker and more interesting claim.
 
-The mechanism is well developed. Rasch and Born's 2013 review in *Physiological Reviews* describes active systems consolidation: during slow-wave sleep, memories encoded during the day are reactivated and gradually integrated into longer-term stores.[9] That consolidation happens during sleep is established; how much of it runs through slow-wave sleep specifically is now in question.
+The mechanism is well developed. [Rasch and Born's 2013 review](https://pmc.ncbi.nlm.nih.gov/articles/PMC3768102/) in *Physiological Reviews* describes active systems consolidation: during slow-wave sleep, memories encoded during the day are reactivated and gradually integrated into longer-term stores.[9] That consolidation happens during sleep is established; how much of it runs through slow-wave sleep specifically is now in question.
 
 The behavioural size of the effect is where the popular version overreaches. Cordi and Rasch (2021), with Rasch a co-author of that review, asked how reliable sleep-mediated memory benefits are and concluded they are "smaller, more task-dependent, less SWS-related, less robust and less long-lasting than previously assumed".[10] In a separate 2021 study with 159 participants they found no within-person correlation between the amount of slow-wave sleep and how much was consolidated.[11] That's a careful group reporting that its own headline is smaller than it looked.
 
-The classroom-level number is smaller still. Dewald et al. (2010) meta-analysed sleep and school performance across 15,199 children and adolescents.
+The classroom-level number is smaller still. [Dewald et al. (2010)](https://doi.org/10.1016/j.smrv.2009.10.004) meta-analysed sleep and school performance across 15,199 children and adolescents.
 
 :::predict Before you see it: how strong a correlation would you guess between how long children sleep and how well they do at school? Pick a number between 0 and 1.
 About r = 0.07.[12] Sleep quality did slightly better (r of about 0.10) and daytime sleepiness best (r of about −0.13), all small.
 :::
 
-Read that number for what it is. It's a between-person correlation across children who mostly sleep roughly enough, so it says the differences in their hours don't track grades much. It's the wrong number for "does a lost night hurt" and the right number for "is sleep the lever".
+Read that number for what it is. It's a between-person correlation across children who mostly sleep roughly enough, so it says the differences in their hours don't track grades much. It's the wrong number for "does a lost night hurt" and the right number for "is sleep the lever". Numbers this small are hard to feel, so here they are drawn on the full scale a correlation can take:
 
-A lost night does hurt, and it hurts attention first. Lim and Dinges' meta-analysis of 70 studies of short-term sleep deprivation found lapses in simple attention among the largest effects (g of about −0.78), with reasoning accuracy barely moved.[13] So a tired study session is a worse one, mostly because the single-tasking you just read about gets harder.
+<svg viewBox="0 0 584 306" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:584px;display:block;margin:1.5em auto;font-family:system-ui,sans-serif" role="img" aria-labelledby="dew-title dew-desc">
+  <title id="dew-title">Sleep and school performance at actual size: three small correlations on the full minus-one-to-one scale</title>
+  <desc id="dew-desc">A chart whose horizontal axis runs from minus one to plus one, a correlation's full range. Three bars sit near the zero line: sleep duration at 0.07, sleep quality at 0.10, and daytime sleepiness at minus 0.13. All three are slivers against the width of the axis.</desc>
+  <text x="20" y="22" font-size="17" font-weight="700" fill="var(--text, #1a1a1a)">Sleep and school grades, at actual size</text>
+  <line x1="42" y1="50" x2="42" y2="222" stroke="var(--line, #d9d9d9)" stroke-width="1"/>
+  <line x1="172" y1="50" x2="172" y2="222" stroke="var(--line, #d9d9d9)" stroke-width="1"/>
+  <line x1="302" y1="50" x2="302" y2="222" stroke="var(--text-2, #4a5260)" stroke-width="1"/>
+  <line x1="432" y1="50" x2="432" y2="222" stroke="var(--line, #d9d9d9)" stroke-width="1"/>
+  <line x1="562" y1="50" x2="562" y2="222" stroke="var(--line, #d9d9d9)" stroke-width="1"/>
+  <text x="48" y="66" font-size="15" fill="var(--text, #1a1a1a)">Sleep duration, r = 0.07</text>
+  <rect x="302" y="74" width="18" height="20" fill="var(--navy, #0f2a4a)"/>
+  <text x="48" y="126" font-size="15" fill="var(--text, #1a1a1a)">Sleep quality, r = 0.10</text>
+  <rect x="302" y="134" width="26" height="20" fill="var(--navy, #0f2a4a)"/>
+  <text x="48" y="186" font-size="15" fill="var(--text, #1a1a1a)">Daytime sleepiness, r = −0.13</text>
+  <rect x="268" y="194" width="34" height="20" fill="var(--oxblood, #8b1e2d)"/>
+  <line x1="42" y1="222" x2="562" y2="222" stroke="var(--line, #d9d9d9)" stroke-width="2"/>
+  <text x="42" y="244" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">−1</text>
+  <text x="172" y="244" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">−0.5</text>
+  <text x="302" y="244" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">0</text>
+  <text x="432" y="244" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">0.5</text>
+  <text x="562" y="244" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">1</text>
+  <text x="302" y="268" font-size="15" text-anchor="middle" fill="var(--text, #1a1a1a)">The full range a correlation can take</text>
+  <text x="20" y="296" font-size="15" fill="var(--text-2, #4a5260)">Data: Dewald and colleagues (2010), 15,199 children and adolescents.</text>
+</svg>
 
-Classify this the way lesson 7 classified practice: established that sleep matters for consolidation, contested how much and by what mechanism. Sleep enough, because consolidation is real and because a tired session is a worse one. Don't skip a review on the theory that sleep will do the work. Matthew Walker's *Why We Sleep* is the book most learners will have met; this course doesn't cite it, because its claims run larger than the reviews above support and a 2019 critique documented factual errors in it.[14]
+A lost night does hurt, and it hurts attention first. [Lim and Dinges' meta-analysis](https://doi.org/10.1037/a0018883) of 70 studies of short-term sleep deprivation found lapses in simple attention among the largest effects (g of about −0.78), with reasoning accuracy barely moved.[13] So a tired study session is a worse one, mostly because the single-tasking you just read about gets harder.
+
+Classify this the way lesson 7 classified practice: established that sleep matters for consolidation, contested how much and by what mechanism. Sleep enough, because consolidation is real and because a tired session is a worse one. Don't skip a review on the theory that sleep will do the work. Matthew Walker's *Why We Sleep* is the book most learners will have met; this course doesn't cite it, because its claims run larger than the reviews above support and [a 2019 critique documented factual errors in it](https://guzey.com/books/why-we-sleep/).[14]
 
 :::checkpoint Dewald's r = 0.07 is a small number. Which question is it the wrong number for, and which is it the right number for?
 Wrong for "does a lost night hurt": that's a within-person question, and Lim and Dinges show a lost night costs attention a lot. Right for "is sleep the lever that moves grades": across children who mostly sleep roughly enough, differences in their hours barely track performance.
@@ -269,10 +298,10 @@ This lesson is where the course turns from findings into a routine. Lesson 1's f
 
 ## Go deeper
 
-- **Gollwitzer, "Implementation Intentions: Strong Effects of Simple Plans", *American Psychologist* 54 (1999)**: the original statement of if-then planning, short and readable.
-- **Cordi and Rasch, "How robust are sleep-mediated memory benefits?", *Current Opinion in Neurobiology* 67 (2021)**: researchers honestly resizing their own finding; a model of calibrated science.
-- **Pashler, McDaniel, Rohrer and Bjork, "Learning Styles: Concepts and Evidence", *Psychological Science in the Public Interest* 9 (2008)**: read it for the crossover test itself, which you can apply to any future "styles" claim.
-- **Deans for Impact, *The Science of Learning* (2nd ed., 2026; free PDF)**: the one-page misconceptions table is the fastest check on any study advice you encounter.
+- **Gollwitzer, ["Implementation Intentions: Strong Effects of Simple Plans"](https://doi.org/10.1037/0003-066X.54.7.493), *American Psychologist* 54 (1999)**: the original statement of if-then planning, short and readable.
+- **Cordi and Rasch, ["How robust are sleep-mediated memory benefits?"](https://doi.org/10.1016/j.conb.2021.06.002), *Current Opinion in Neurobiology* 67 (2021)**: researchers honestly resizing their own finding; a model of calibrated science.
+- **Pashler, McDaniel, Rohrer and Bjork, ["Learning Styles: Concepts and Evidence"](https://doi.org/10.1111/j.1539-6053.2009.01038.x), *Psychological Science in the Public Interest* 9 (2008)**: read it for the crossover test itself, which you can apply to any future "styles" claim.
+- **Deans for Impact, [*The Science of Learning*](https://www.deansforimpact.org/tools-and-resources/the-science-of-learning) (free PDF)**: the one-page misconceptions table is the fastest check on any study advice you encounter.
 
 ## Sources
 

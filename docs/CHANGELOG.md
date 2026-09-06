@@ -8,6 +8,20 @@ Everything from the founding onwards is here. Entries before 2026-09-06 came fro
 
 ## 2026-09-06 (podcast pipeline session)
 
+**How to Learn Anything lesson 8: media pass (eighth of eight; item 2b complete)**
+
+- The Dewald sleep-and-grades correlations (0.07, 0.10, −0.13) drawn at actual size on the
+  full −1..1 scale a correlation can take, which is the section's own argument made visible.
+- Barbara Oakley's TEDx talk embedded in the procrastination section with its length stated
+  (18 minutes, flagged as save-for-after).
+- Ten verified links: the open-access May & Elder review, Gollwitzer 1999 and the 2006
+  meta-analysis, Steel 2007, Duckworth 2016, Rasch & Born free on PMC, Dewald, Lim &
+  Dinges, the Guzey critique of Why We Sleep, and linked Go deeper entries.
+- With this, every lesson of the flagship course carries media per standards 4.5: five data
+  charts, two teaching diagrams, six videos (four of them the cited researchers speaking),
+  and verified links throughout. The gocognitive channel (interviews with Bjork, Baddeley
+  and others) proved to be the course's video goldmine and is noted in the backlog.
+
 **How to Learn Anything lesson 7: media pass (seventh of eight)**
 
 - A horizontal bar chart of Macnamara, Hambrick and Oswald (2014): variance in performance
