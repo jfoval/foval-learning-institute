@@ -119,18 +119,18 @@ Now do the bacon story yourself, with a gap. Cancer Research UK's figure for the
 
 <svg viewBox="0 0 360 150" role="img" aria-labelledby="meat-title" style="max-width:100%;height:auto;font-family:inherit">
   <title id="meat-title">Bowel cancer over a lifetime per 1,000 people: 56 among those who eat the least processed meat, 66 among those who eat the most</title>
-  <text x="0" y="14" font-size="12" fill="#0f2a4a" font-weight="bold">Bowel cancer over a lifetime, per 1,000 people</text>
-  <text x="0" y="42" font-size="11" fill="#333">Eat the least</text>
+  <text x="0" y="14" font-size="12" fill="var(--navy, #0f2a4a)" font-weight="bold">Bowel cancer over a lifetime, per 1,000 people</text>
+  <text x="0" y="42" font-size="11" fill="var(--text-2, #4a5260)">Eat the least</text>
   <rect x="0" y="48" width="340" height="18" fill="#ddd"/>
   <rect x="0" y="48" width="19" height="18" fill="#0f2a4a"/>
-  <text x="24" y="62" font-size="11" fill="#0f2a4a">56</text>
-  <text x="0" y="92" font-size="11" fill="#333">Eat the most</text>
+  <text x="24" y="62" font-size="11" fill="var(--navy, #0f2a4a)">56</text>
+  <text x="0" y="92" font-size="11" fill="var(--text-2, #4a5260)">Eat the most</text>
   <rect x="0" y="98" width="340" height="18" fill="#ddd"/>
   <rect x="0" y="98" width="19" height="18" fill="#0f2a4a"/>
   <rect x="19" y="98" width="3.4" height="18" fill="#8b1e2d"/>
-  <text x="27" y="112" font-size="11" fill="#0f2a4a">66</text>
-  <text x="60" y="112" font-size="11" fill="#8b1e2d">10 extra, in red</text>
-  <text x="0" y="140" font-size="10" fill="#666">Each grey bar is 1,000 people. Source: Cancer Research UK, 26 October 2015.</text>
+  <text x="27" y="112" font-size="11" fill="var(--navy, #0f2a4a)">66</text>
+  <text x="60" y="112" font-size="11" fill="var(--oxblood, #8b1e2d)">10 extra, in red</text>
+  <text x="0" y="140" font-size="10" fill="var(--text-2, #4a5260)">Each grey bar is 1,000 people. Source: Cancer Research UK, 26 October 2015.</text>
 </svg>
 
 Two more things the story needed. First, "Group 1" is a statement about the strength of the evidence that something causes cancer, not about how much cancer it causes; tobacco and processed meat sit in the same group and cause very different amounts.[4] Second, the press release itself said it: "For an individual, the risk of developing colorectal cancer because of their consumption of processed meat remains small, but this risk increases with the amount of meat consumed."[3] The sentence that would have stopped the bacon-and-cigarettes headline was in the source. The headline left it out. Weston's rule 15 in action: not a lie, an omission.

@@ -130,7 +130,7 @@ The second rule is that psalms come in types, and each type has a shape. The Isr
 - **Songs of trust**, ten (11, 16, 23, 27, 62, 63, 91, 121, 125, 131).
 
 <svg viewBox="0 0 360 230" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Bar chart of psalm counts by type from Fee and Stuart: laments more than 60, thanksgiving 16, songs of trust 10, royal 9, wisdom 8, salvation history 5" style="max-width:100%;height:auto;font-family:sans-serif">
-  <text x="8" y="16" font-size="12" fill="#0f2a4a" font-weight="bold">Psalms by type, where Fee and Stuart give a count</text>
+  <text x="8" y="16" font-size="12" fill="var(--navy, #0f2a4a)" font-weight="bold">Psalms by type, where Fee and Stuart give a count</text>
   <g font-size="11" fill="#333">
     <text x="8" y="44">Laments</text>
     <rect x="118" y="33" width="228" height="16" fill="#8b1e2d"/>
@@ -151,7 +151,7 @@ The second rule is that psalms come in types, and each type has a shape. The Isr
     <rect x="118" y="173" width="19" height="16" fill="#0f2a4a"/>
     <text x="142" y="185">5</text>
   </g>
-  <text x="8" y="214" font-size="9" fill="#666">Counts from Fee and Stuart 2014, ch. 11. Categories overlap; hymns and celebration psalms are not counted there.</text>
+  <text x="8" y="214" font-size="9" fill="var(--text-2, #4a5260)">Counts from Fee and Stuart 2014, ch. 11. Categories overlap; hymns and celebration psalms are not counted there.</text>
 </svg>
 
 Look at the first bar. Laments outnumber every other type, and Fee and Stuart remark that this "probably says something about our common humanity".[2] More of Israel's prayer book is complaint than praise. If your own praying has no room for that, the Psalms will widen it.

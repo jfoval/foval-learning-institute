@@ -179,7 +179,7 @@ Here's the whole shape drawn out, on one scale, so you can see the two gaps side
     <circle cx="70" cy="43" r="5" fill="#b08d2a"/>
     <text x="78" y="36" font-size="10" fill="var(--text-2)">Ketef Hinnom c. 600 BC (Numbers 6 only)</text>
     <circle cx="165" cy="43" r="6" fill="#8b1e2d"/>
-    <text x="175" y="47" font-size="11" fill="#8b1e2d" font-weight="700">Isaiah Scroll c. 125 BC</text>
+    <text x="175" y="47" font-size="11" fill="var(--oxblood, #8b1e2d)" font-weight="700">Isaiah Scroll c. 125 BC</text>
     <line x1="171" y1="43" x2="386" y2="43" stroke="var(--line)" stroke-width="2" stroke-dasharray="4 4"/>
     <text x="230" y="78" font-size="11" fill="var(--text-2)">over 1,000 years, unseen until 1947</text>
     <circle cx="391" cy="43" r="6" fill="#0f2a4a"/>
@@ -191,7 +191,7 @@ Here's the whole shape drawn out, on one scale, so you can see the two gaps side
     <rect x="208" y="120" width="12" height="10" fill="#0f2a4a"/>
     <text x="160" y="129" font-size="11" fill="var(--text-2)" text-anchor="end">written c. 90</text>
     <circle cx="222" cy="125" r="6" fill="#8b1e2d"/>
-    <text x="232" y="121" font-size="11" fill="#8b1e2d" font-weight="700">P52, 2nd century</text>
+    <text x="232" y="121" font-size="11" fill="var(--oxblood, #8b1e2d)" font-weight="700">P52, 2nd century</text>
     <circle cx="260" cy="125" r="6" fill="#0f2a4a"/>
     <text x="232" y="146" font-size="11" fill="var(--text-2)">Sinaiticus, 4th century</text>
   </g>
@@ -201,7 +201,7 @@ Here's the whole shape drawn out, on one scale, so you can see the two gaps side
     <rect x="200" y="186" width="30" height="10" fill="#0f2a4a"/>
     <text x="160" y="195" font-size="11" fill="var(--text-2)" text-anchor="end">letters, AD 50s</text>
     <circle cx="230" cy="191" r="6" fill="#8b1e2d"/>
-    <text x="240" y="195" font-size="11" fill="#8b1e2d" font-weight="700">P46, c. 200</text>
+    <text x="240" y="195" font-size="11" fill="var(--oxblood, #8b1e2d)" font-weight="700">P46, c. 200</text>
   </g>
 </svg>
 

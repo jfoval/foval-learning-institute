@@ -89,11 +89,11 @@ The four questions tell you what to ask. Here is the habit that answers them: re
   <circle cx="180" cy="125" r="46" fill="none" stroke="#8b1e2d" stroke-width="2"/>
   <circle cx="180" cy="125" r="22" fill="#b08d2a" stroke="#b08d2a" stroke-width="2"/>
   <text x="180" y="129" text-anchor="middle" font-size="10" font-family="sans-serif" fill="#ffffff">sentence</text>
-  <text x="180" y="94" text-anchor="middle" font-size="11" font-family="sans-serif" fill="#8b1e2d">paragraph</text>
-  <text x="180" y="70" text-anchor="middle" font-size="11" font-family="sans-serif" fill="#8b1e2d">book</text>
-  <text x="180" y="46" text-anchor="middle" font-size="11" font-family="sans-serif" fill="#0f2a4a">testament</text>
-  <text x="180" y="22" text-anchor="middle" font-size="11" font-family="sans-serif" fill="#0f2a4a">whole Bible</text>
-  <text x="180" y="244" text-anchor="middle" font-size="10" font-family="sans-serif" fill="#555555">Read outward. Each circle answers a question the last one raised.</text>
+  <text x="180" y="94" text-anchor="middle" font-size="11" font-family="sans-serif" fill="var(--oxblood, #8b1e2d)">paragraph</text>
+  <text x="180" y="70" text-anchor="middle" font-size="11" font-family="sans-serif" fill="var(--oxblood, #8b1e2d)">book</text>
+  <text x="180" y="46" text-anchor="middle" font-size="11" font-family="sans-serif" fill="var(--navy, #0f2a4a)">testament</text>
+  <text x="180" y="22" text-anchor="middle" font-size="11" font-family="sans-serif" fill="var(--navy, #0f2a4a)">whole Bible</text>
+  <text x="180" y="244" text-anchor="middle" font-size="10" font-family="sans-serif" fill="var(--text-2, #4a5260)">Read outward. Each circle answers a question the last one raised.</text>
 </svg>
 
 Take Philippians 4:13, since you've done it once and can watch the circles work. The sentence says "I can do all things through him who strengthens me". The paragraph (4:10 to 13) says the "all things" are hunger and plenty, abundance and need. The book is a letter from prison to a church that sent money. The testament tells you what "in Christ" means across Paul's letters. The whole Bible tells you where contentment sits in the story of God's people. By the third circle the gym-wall reading is gone, and nothing outside the page was needed to remove it.
@@ -203,25 +203,25 @@ Roughly seventy. Crossway surveyed more than 11,000 readers in August 2018 and w
 :::
 
 <svg viewBox="0 0 360 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Bar chart of reading times: Philippians 15 minutes, Ruth 15 minutes, the four Gospels and Acts about 10 hours, the Prophets about 15 hours, the whole Bible about 73 hours" style="max-width:100%;height:auto;display:block;margin:1em auto">
-  <text x="8" y="16" font-size="11" font-family="sans-serif" fill="#0f2a4a">Hours to read, at about 12 minutes a day (Crossway, 2018)</text>
+  <text x="8" y="16" font-size="11" font-family="sans-serif" fill="var(--navy, #0f2a4a)">Hours to read, at about 12 minutes a day (Crossway, 2018)</text>
   <g font-size="10" font-family="sans-serif">
-    <text x="8" y="44" fill="#333">Philippians</text>
+    <text x="8" y="44" fill="var(--text-2, #4a5260)">Philippians</text>
     <rect x="110" y="34" width="1" height="14" fill="#b08d2a"/>
-    <text x="116" y="45" fill="#333">15 min</text>
-    <text x="8" y="72" fill="#333">Ruth</text>
+    <text x="116" y="45" fill="var(--text-2, #4a5260)">15 min</text>
+    <text x="8" y="72" fill="var(--text-2, #4a5260)">Ruth</text>
     <rect x="110" y="62" width="1" height="14" fill="#b08d2a"/>
-    <text x="116" y="73" fill="#333">15 min</text>
-    <text x="8" y="100" fill="#333">Gospels + Acts</text>
+    <text x="116" y="73" fill="var(--text-2, #4a5260)">15 min</text>
+    <text x="8" y="100" fill="var(--text-2, #4a5260)">Gospels + Acts</text>
     <rect x="110" y="90" width="32" height="14" fill="#8b1e2d"/>
-    <text x="148" y="101" fill="#333">about 10 h</text>
-    <text x="8" y="128" fill="#333">Prophets</text>
+    <text x="148" y="101" fill="var(--text-2, #4a5260)">about 10 h</text>
+    <text x="8" y="128" fill="var(--text-2, #4a5260)">Prophets</text>
     <rect x="110" y="118" width="48" height="14" fill="#8b1e2d"/>
-    <text x="164" y="129" fill="#333">about 15 h</text>
-    <text x="8" y="156" fill="#333">Whole Bible</text>
+    <text x="164" y="129" fill="var(--text-2, #4a5260)">about 15 h</text>
+    <text x="8" y="156" fill="var(--text-2, #4a5260)">Whole Bible</text>
     <rect x="110" y="146" width="234" height="14" fill="#0f2a4a"/>
     <text x="118" y="157" fill="#ffffff">about 73 h (12 min a day for a year)</text>
   </g>
-  <text x="8" y="188" font-size="9" font-family="sans-serif" fill="#555">Scale: 3.2 px per hour. The two short books are under a single pixel wide.</text>
+  <text x="8" y="188" font-size="9" font-family="sans-serif" fill="var(--text-2, #4a5260)">Scale: 3.2 px per hour. The two short books are under a single pixel wide.</text>
 </svg>
 
 The number matters less than the shape of it. Seventy hours once is a lot. Twelve minutes a day is not, and the difference between those two ways of spending seventy hours is the whole reason a plan exists.

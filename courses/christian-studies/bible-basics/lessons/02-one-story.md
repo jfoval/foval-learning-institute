@@ -130,53 +130,53 @@ Here is the act most readers get lost in, laid out so you can find your place. R
   <line x1="40" y1="20" x2="40" y2="680" stroke="#9a9a9a" stroke-width="2"/>
   <!-- Act 1 -->
   <circle cx="40" cy="30" r="6" fill="#0f2a4a"/>
-  <text x="56" y="34" font-size="13" font-weight="700" fill="#0f2a4a">Act 1  Creation</text>
-  <text x="56" y="50" font-size="11" fill="#444">Genesis 1 to 2</text>
+  <text x="56" y="34" font-size="13" font-weight="700" fill="var(--navy, #0f2a4a)">Act 1  Creation</text>
+  <text x="56" y="50" font-size="11" fill="var(--text-2, #4a5260)">Genesis 1 to 2</text>
   <!-- Act 2 -->
   <circle cx="40" cy="72" r="6" fill="#0f2a4a"/>
-  <text x="56" y="76" font-size="13" font-weight="700" fill="#0f2a4a">Act 2  Fall</text>
-  <text x="56" y="92" font-size="11" fill="#444">Genesis 3 to 11. Noah covenant (Gen 9)</text>
+  <text x="56" y="76" font-size="13" font-weight="700" fill="var(--navy, #0f2a4a)">Act 2  Fall</text>
+  <text x="56" y="92" font-size="11" fill="var(--text-2, #4a5260)">Genesis 3 to 11. Noah covenant (Gen 9)</text>
   <!-- Act 3 -->
   <rect x="34" y="112" width="12" height="356" fill="#0f2a4a" opacity="0.15"/>
   <circle cx="40" cy="118" r="6" fill="#0f2a4a"/>
-  <text x="56" y="122" font-size="13" font-weight="700" fill="#0f2a4a">Act 3  Israel</text>
-  <text x="56" y="140" font-size="11" fill="#444">Patriarchs: Genesis 12 to 50</text>
-  <text x="56" y="154" font-size="11" fill="#8b1e2d">Abraham covenant (Gen 12, 15, 17)</text>
-  <text x="56" y="176" font-size="11" fill="#444">Egypt and Sinai: Exodus to Deuteronomy</text>
-  <text x="56" y="190" font-size="11" fill="#8b1e2d">Sinai covenant (Exod 19 to 24)</text>
-  <text x="56" y="212" font-size="11" fill="#444">Land and judges: Joshua, Judges, Ruth</text>
-  <text x="56" y="234" font-size="11" fill="#444">United kingdom: 1 and 2 Samuel, 1 Kings 1 to 11</text>
-  <text x="56" y="248" font-size="11" fill="#8b1e2d">David covenant (2 Sam 7)</text>
-  <text x="56" y="262" font-size="11" fill="#444">Psalms, Proverbs, Song mostly placed here</text>
-  <text x="56" y="284" font-size="11" fill="#444">Divided kingdom: 1 Kings 12 to 2 Kings 25</text>
-  <text x="56" y="298" font-size="11" fill="#444">Amos, Hosea, Isaiah, Micah, Jeremiah...</text>
-  <text x="56" y="312" font-size="11" fill="#444">Samaria falls to Assyria (north ends)</text>
+  <text x="56" y="122" font-size="13" font-weight="700" fill="var(--navy, #0f2a4a)">Act 3  Israel</text>
+  <text x="56" y="140" font-size="11" fill="var(--text-2, #4a5260)">Patriarchs: Genesis 12 to 50</text>
+  <text x="56" y="154" font-size="11" fill="var(--oxblood, #8b1e2d)">Abraham covenant (Gen 12, 15, 17)</text>
+  <text x="56" y="176" font-size="11" fill="var(--text-2, #4a5260)">Egypt and Sinai: Exodus to Deuteronomy</text>
+  <text x="56" y="190" font-size="11" fill="var(--oxblood, #8b1e2d)">Sinai covenant (Exod 19 to 24)</text>
+  <text x="56" y="212" font-size="11" fill="var(--text-2, #4a5260)">Land and judges: Joshua, Judges, Ruth</text>
+  <text x="56" y="234" font-size="11" fill="var(--text-2, #4a5260)">United kingdom: 1 and 2 Samuel, 1 Kings 1 to 11</text>
+  <text x="56" y="248" font-size="11" fill="var(--oxblood, #8b1e2d)">David covenant (2 Sam 7)</text>
+  <text x="56" y="262" font-size="11" fill="var(--text-2, #4a5260)">Psalms, Proverbs, Song mostly placed here</text>
+  <text x="56" y="284" font-size="11" fill="var(--text-2, #4a5260)">Divided kingdom: 1 Kings 12 to 2 Kings 25</text>
+  <text x="56" y="298" font-size="11" fill="var(--text-2, #4a5260)">Amos, Hosea, Isaiah, Micah, Jeremiah...</text>
+  <text x="56" y="312" font-size="11" fill="var(--text-2, #4a5260)">Samaria falls to Assyria (north ends)</text>
   <!-- exile marker -->
   <circle cx="40" cy="336" r="6" fill="#8b1e2d"/>
-  <text x="56" y="340" font-size="12" font-weight="700" fill="#8b1e2d">586 BC  Jerusalem falls. Exile</text>
-  <text x="56" y="356" font-size="11" fill="#444">Lamentations, Ezekiel, Daniel</text>
-  <text x="56" y="370" font-size="11" fill="#8b1e2d">New covenant promised (Jer 31)</text>
-  <text x="56" y="392" font-size="11" fill="#444">Return under Persia: Ezra, Nehemiah, Esther,</text>
-  <text x="56" y="406" font-size="11" fill="#444">Haggai, Zechariah, Malachi. Chronicles written</text>
-  <text x="56" y="428" font-size="11" fill="#444">Tel Dan stele (9th c. BC) names "House of David"</text>
-  <text x="56" y="442" font-size="11" fill="#444">Earlier periods: dates argued, see lesson 10</text>
+  <text x="56" y="340" font-size="12" font-weight="700" fill="var(--oxblood, #8b1e2d)">586 BC  Jerusalem falls. Exile</text>
+  <text x="56" y="356" font-size="11" fill="var(--text-2, #4a5260)">Lamentations, Ezekiel, Daniel</text>
+  <text x="56" y="370" font-size="11" fill="var(--oxblood, #8b1e2d)">New covenant promised (Jer 31)</text>
+  <text x="56" y="392" font-size="11" fill="var(--text-2, #4a5260)">Return under Persia: Ezra, Nehemiah, Esther,</text>
+  <text x="56" y="406" font-size="11" fill="var(--text-2, #4a5260)">Haggai, Zechariah, Malachi. Chronicles written</text>
+  <text x="56" y="428" font-size="11" fill="var(--text-2, #4a5260)">Tel Dan stele (9th c. BC) names "House of David"</text>
+  <text x="56" y="442" font-size="11" fill="var(--text-2, #4a5260)">Earlier periods: dates argued, see lesson 10</text>
   <!-- gap -->
   <rect x="34" y="470" width="12" height="60" fill="#b08d2a" opacity="0.35"/>
-  <text x="56" y="496" font-size="12" font-weight="700" fill="#b08d2a">Four hundred years, no books</text>
-  <text x="56" y="512" font-size="11" fill="#444">Persia, Greece, Maccabees, Rome</text>
+  <text x="56" y="496" font-size="12" font-weight="700" fill="var(--gold, #b08d2a)">Four hundred years, no books</text>
+  <text x="56" y="512" font-size="11" fill="var(--text-2, #4a5260)">Persia, Greece, Maccabees, Rome</text>
   <!-- Act 4 -->
   <circle cx="40" cy="548" r="6" fill="#0f2a4a"/>
-  <text x="56" y="552" font-size="13" font-weight="700" fill="#0f2a4a">Act 4  Jesus  (about AD 30)</text>
-  <text x="56" y="568" font-size="11" fill="#444">Matthew, Mark, Luke, John</text>
-  <text x="56" y="582" font-size="11" fill="#8b1e2d">New covenant made (Luke 22:20)</text>
+  <text x="56" y="552" font-size="13" font-weight="700" fill="var(--navy, #0f2a4a)">Act 4  Jesus  (about AD 30)</text>
+  <text x="56" y="568" font-size="11" fill="var(--text-2, #4a5260)">Matthew, Mark, Luke, John</text>
+  <text x="56" y="582" font-size="11" fill="var(--oxblood, #8b1e2d)">New covenant made (Luke 22:20)</text>
   <!-- Act 5 -->
   <circle cx="40" cy="606" r="6" fill="#0f2a4a"/>
-  <text x="56" y="610" font-size="13" font-weight="700" fill="#0f2a4a">Act 5  Church</text>
-  <text x="56" y="626" font-size="11" fill="#444">Acts; Paul's letters; Hebrews to Jude</text>
+  <text x="56" y="610" font-size="13" font-weight="700" fill="var(--navy, #0f2a4a)">Act 5  Church</text>
+  <text x="56" y="626" font-size="11" fill="var(--text-2, #4a5260)">Acts; Paul's letters; Hebrews to Jude</text>
   <!-- Act 6 -->
   <circle cx="40" cy="656" r="6" fill="#0f2a4a"/>
-  <text x="56" y="660" font-size="13" font-weight="700" fill="#0f2a4a">Act 6  New creation</text>
-  <text x="56" y="676" font-size="11" fill="#444">Revelation 21 to 22</text>
+  <text x="56" y="660" font-size="13" font-weight="700" fill="var(--navy, #0f2a4a)">Act 6  New creation</text>
+  <text x="56" y="676" font-size="11" fill="var(--text-2, #4a5260)">Revelation 21 to 22</text>
 </svg>
 
 A few things to notice on the map.

@@ -172,9 +172,9 @@ Then the councils. In 393 a regional council at Hippo in North Africa, with Augu
     <text x="104" y="287">Eusebius sorts the books:</text>
     <text x="104" y="302" fill="var(--text-2)" font-size="12">recognised, disputed, rejected</text>
 
-    <text x="80" y="344" text-anchor="end" font-weight="700" fill="#8b1e2d">325</text>
+    <text x="80" y="344" text-anchor="end" font-weight="700" fill="var(--oxblood, #8b1e2d)">325</text>
     <circle cx="92" cy="340" r="7" fill="#8b1e2d"/>
-    <text x="104" y="337" fill="#8b1e2d" font-weight="700">Council of Nicaea</text>
+    <text x="104" y="337" fill="var(--oxblood, #8b1e2d)" font-weight="700">Council of Nicaea</text>
     <text x="104" y="352" fill="var(--text-2)" font-size="12">no record of any business about the canon</text>
 
     <text x="80" y="394" text-anchor="end" font-weight="700">367</text>

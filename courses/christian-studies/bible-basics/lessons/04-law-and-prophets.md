@@ -219,10 +219,10 @@ Lay them side by side.
 <svg viewBox="0 0 360 330" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="amos-title amos-desc" style="max-width:100%;height:auto;font-family:system-ui,sans-serif">
   <title id="amos-title">Deuteronomy 28 sanctions matched to Amos 4 events</title>
   <desc id="amos-desc">Two columns. Left, six covenant sanctions from Deuteronomy 28: famine, drought, blight and mildew, locusts, disease and sword, captivity. Right, the events Amos 4 says have already happened: hunger, withheld rain, blight and disease, locusts, plague and sword. Lines join each Amos item to its Deuteronomy source. The last Deuteronomy item, captivity, has no Amos match yet, and is marked as what comes next.</desc>
-  <text x="90" y="22" text-anchor="middle" font-size="12" font-weight="700" fill="#b08d2a">Deuteronomy 28</text>
-  <text x="90" y="36" text-anchor="middle" font-size="10" fill="#666">the treaty's penalty clause</text>
-  <text x="270" y="22" text-anchor="middle" font-size="12" font-weight="700" fill="#b08d2a">Amos 4:6 to 11</text>
-  <text x="270" y="36" text-anchor="middle" font-size="10" fill="#666">"yet you did not return"</text>
+  <text x="90" y="22" text-anchor="middle" font-size="12" font-weight="700" fill="var(--gold, #b08d2a)">Deuteronomy 28</text>
+  <text x="90" y="36" text-anchor="middle" font-size="10" fill="var(--text-2, #4a5260)">the treaty's penalty clause</text>
+  <text x="270" y="22" text-anchor="middle" font-size="12" font-weight="700" fill="var(--gold, #b08d2a)">Amos 4:6 to 11</text>
+  <text x="270" y="36" text-anchor="middle" font-size="10" fill="var(--text-2, #4a5260)">"yet you did not return"</text>
   <g font-size="11" fill="#0f2a4a">
     <text x="20" y="66">28:38 little harvest</text>
     <text x="20" y="106">28:23-24 no rain</text>
@@ -246,9 +246,9 @@ Lay them side by side.
     <line x1="150" y1="222" x2="195" y2="222"/>
   </g>
   <line x1="150" y1="262" x2="195" y2="262" stroke="#999" stroke-width="1.5" stroke-dasharray="4 3"/>
-  <text x="200" y="266" font-size="11" fill="#8b1e2d" font-style="italic">4:12 "prepare to meet your God"</text>
-  <text x="180" y="300" text-anchor="middle" font-size="10" fill="#666">Five sanctions have already fallen. One remains.</text>
-  <text x="180" y="316" text-anchor="middle" font-size="10" fill="#666">Amos is reading the covenant's own terms back to Israel.</text>
+  <text x="200" y="266" font-size="11" fill="var(--oxblood, #8b1e2d)" font-style="italic">4:12 "prepare to meet your God"</text>
+  <text x="180" y="300" text-anchor="middle" font-size="10" fill="var(--text-2, #4a5260)">Five sanctions have already fallen. One remains.</text>
+  <text x="180" y="316" text-anchor="middle" font-size="10" fill="var(--text-2, #4a5260)">Amos is reading the covenant's own terms back to Israel.</text>
 </svg>
 
 Every item in Amos's list is in Deuteronomy's. And the one item in Deuteronomy's list that is not yet in Amos's, captivity, is exactly what Amos 4:12 turns to: "Therefore this is what I will do to you, Israel... prepare to meet your God".[17] The northern kingdom went into Assyrian exile a few decades later. That is what people mean when they say Amos predicted it. What he was doing, in his own terms, was pointing at the last line of a contract his hearers had signed.

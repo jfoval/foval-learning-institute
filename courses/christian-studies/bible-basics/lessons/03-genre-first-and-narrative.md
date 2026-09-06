@@ -95,16 +95,16 @@ Fee and Stuart give two figures. Over 40 percent of the Old Testament is narrati
 
 <svg viewBox="0 0 600 150" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="genre-bar-title" style="max-width:100%;height:auto;font-family:inherit">
   <title id="genre-bar-title">Proportions of the Bible: the Old Testament is three-quarters of the whole, and over 40 percent of the Old Testament is narrative, so narrative alone is roughly three-tenths of the entire Bible</title>
-  <text x="0" y="18" font-size="14" fill="#333">The whole Bible, by bulk</text>
+  <text x="0" y="18" font-size="14" fill="var(--text-2, #4a5260)">The whole Bible, by bulk</text>
   <rect x="0" y="30" width="450" height="40" fill="#0f2a4a"/>
   <rect x="450" y="30" width="150" height="40" fill="#9a9a9a"/>
   <text x="225" y="55" font-size="14" fill="#ffffff" text-anchor="middle">Old Testament, about 75%</text>
   <text x="525" y="55" font-size="14" fill="#ffffff" text-anchor="middle">New, 25%</text>
-  <text x="0" y="98" font-size="14" fill="#333">Inside the Old Testament</text>
+  <text x="0" y="98" font-size="14" fill="var(--text-2, #4a5260)">Inside the Old Testament</text>
   <rect x="0" y="108" width="450" height="30" fill="#d9d9d9"/>
   <rect x="0" y="108" width="180" height="30" fill="#8b1e2d"/>
   <text x="90" y="128" font-size="13" fill="#ffffff" text-anchor="middle">narrative, over 40%</text>
-  <text x="315" y="128" font-size="13" fill="#333" text-anchor="middle">law, poetry, wisdom, prophecy</text>
+  <text x="315" y="128" font-size="13" fill="var(--text-2, #4a5260)" text-anchor="middle">law, poetry, wisdom, prophecy</text>
 </svg>
 
 The chart is drawn from Fee and Stuart's two figures.[1] Look at the second bar: the oxblood section is narrative, and it's over two-fifths of the top bar's navy. Whatever else you learn to read, you'll spend more time in story than in anything else.

@@ -100,6 +100,51 @@ for (const school of fs.readdirSync(COURSES_DIR, { withFileTypes: true }).filter
   }
 }
 
+/* ---------- lint every lesson, published or not ----------
+   These run over drafts too, because a draft is where a defect is cheap to fix.
+   Findings here are the ones a Stage 4 review caught by hand and should never
+   have to catch again. See docs/EDITORIAL_STANDARDS.md 4.5, 4.6 and 4.7. */
+function lintLessons() {
+  for (const school of fs.readdirSync(COURSES_DIR, { withFileTypes: true }).filter(d => d.isDirectory())) {
+    for (const cdir of fs.readdirSync(path.join(COURSES_DIR, school.name), { withFileTypes: true }).filter(d => d.isDirectory())) {
+      const lessonsDir = path.join(COURSES_DIR, school.name, cdir.name, "lessons");
+      if (!fs.existsSync(lessonsDir)) continue;
+      for (const f of fs.readdirSync(lessonsDir).filter(f => f.endsWith(".md"))) {
+        const file = path.relative(ROOT, path.join(lessonsDir, f));
+        const src = fs.readFileSync(path.join(lessonsDir, f), "utf8");
+
+        // Rule 7: never an em dash in learner-facing prose.
+        if (src.includes("\u2014")) errors.push(`${file}: contains an em dash (CLAUDE.md rule 7)`);
+
+        // 4.6: SVG text drawn in a fixed dark colour disappears on the dark theme.
+        // Text sitting on a coloured bar is fine, so only flag fills outside a bar's own colours.
+        const darkText = [...src.matchAll(/<text[^>]*fill="(#[0-9a-fA-F]{3,6})"/g)]
+          .map(m => m[1].toLowerCase())
+          .filter(hex => {
+            const h = hex.length === 4 ? "#" + [...hex.slice(1)].map(c => c + c).join("") : hex;
+            const [r, g, b] = [1, 3, 5].map(i => parseInt(h.slice(i, i + 2), 16));
+            return (0.299 * r + 0.587 * g + 0.114 * b) < 140; // dark on a dark ground
+          });
+        if (darkText.length) warn.push(`${file}: ${darkText.length} SVG <text> fill(s) hardcoded dark (${[...new Set(darkText)].join(", ")}); use var(--text, ...) or var(--text-2, ...) so they survive the dark theme`);
+
+        // 4.6: labels below about 15 viewBox units are unreadable once an SVG is scaled to phone width.
+        const small = [...src.matchAll(/<text[^>]*font-size="(\d+)"/g)].map(m => +m[1]).filter(n => n < 15);
+        if (small.length) warn.push(`${file}: ${small.length} SVG label(s) under font-size 15; they render below ~10px on a phone (4.6)`);
+
+        // 4.7: the ESV cannot be quoted in this project. See the standard for why.
+        if (/\(([^)]*,\s*)?ESV\)/.test(src)) errors.push(`${file}: quotes the ESV, which our licence terms do not permit (Editorial Standards 4.7); use the NET, JPS 1917, Brenton or KJV`);
+
+        // 4.5: a lesson that links nothing hides its sources.
+        const body = src.split(/^---$/m).slice(2).join("---");
+        const sourcesAt = body.search(/^## Sources/m);
+        const prose = sourcesAt === -1 ? body : body.slice(0, sourcesAt);
+        if (!/\]\(https?:\/\//.test(prose)) warn.push(`${file}: no links in the body; 4.5 asks for plain Markdown links in the text, not only in the Sources list`);
+      }
+    }
+  }
+}
+lintLessons();
+
 if (warn.length) console.warn(warn.map(w => "warn: " + w).join("\n"));
 if (errors.length) { console.error(errors.map(e => "ERROR: " + e).join("\n")); process.exit(1); }
 if (CHECK) { console.log(`ok: ${courses.length} courses, ${courses.reduce((n, c) => n + c.lessons.length, 0)} lessons`); process.exit(0); }

@@ -202,28 +202,28 @@ That is what step 3 is for. Writing the missing premise down shows you how far t
 
 <svg viewBox="0 0 360 236" role="img" aria-labelledby="toulmin-harry-title" style="max-width:100%;height:auto;font-family:inherit">
   <title id="toulmin-harry-title">Toulmin's layout of the Harry argument: data "Harry was born in Bermuda" leads by an arrow marked "so, presumably" to the claim "Harry is a British subject"; beneath the arrow sits the warrant "A man born in Bermuda will generally be a British subject"; hanging from the claim is the rebuttal "unless both his parents were aliens, or he has since become a naturalised American"</title>
-  <text x="4" y="12" font-size="10" fill="#8b1e2d" font-weight="bold">Data</text>
+  <text x="4" y="12" font-size="10" fill="var(--oxblood, #8b1e2d)" font-weight="bold">Data</text>
   <rect x="4" y="18" width="126" height="44" fill="none" stroke="#0f2a4a" stroke-width="1.5"/>
-  <text x="12" y="36" font-size="11" fill="#0f2a4a">Harry was born</text>
-  <text x="12" y="52" font-size="11" fill="#0f2a4a">in Bermuda.</text>
+  <text x="12" y="36" font-size="11" fill="var(--navy, #0f2a4a)">Harry was born</text>
+  <text x="12" y="52" font-size="11" fill="var(--navy, #0f2a4a)">in Bermuda.</text>
   <line x1="130" y1="40" x2="226" y2="40" stroke="#0f2a4a" stroke-width="1.5"/>
   <polygon points="226,35 234,40 226,45" fill="#0f2a4a"/>
-  <text x="180" y="32" font-size="10" fill="#8b1e2d" text-anchor="middle" font-style="italic">so, presumably</text>
-  <text x="234" y="12" font-size="10" fill="#8b1e2d" font-weight="bold">Claim</text>
+  <text x="180" y="32" font-size="10" fill="var(--oxblood, #8b1e2d)" text-anchor="middle" font-style="italic">so, presumably</text>
+  <text x="234" y="12" font-size="10" fill="var(--oxblood, #8b1e2d)" font-weight="bold">Claim</text>
   <rect x="234" y="18" width="122" height="44" fill="none" stroke="#0f2a4a" stroke-width="1.5"/>
-  <text x="242" y="36" font-size="11" fill="#0f2a4a">Harry is a</text>
-  <text x="242" y="52" font-size="11" fill="#0f2a4a">British subject.</text>
+  <text x="242" y="36" font-size="11" fill="var(--navy, #0f2a4a)">Harry is a</text>
+  <text x="242" y="52" font-size="11" fill="var(--navy, #0f2a4a)">British subject.</text>
   <line x1="180" y1="40" x2="180" y2="78" stroke="#0f2a4a" stroke-width="1.5" stroke-dasharray="4 3"/>
-  <text x="60" y="90" font-size="10" fill="#8b1e2d" font-weight="bold">Warrant (the missing premise)</text>
+  <text x="60" y="90" font-size="10" fill="var(--oxblood, #8b1e2d)" font-weight="bold">Warrant (the missing premise)</text>
   <rect x="60" y="96" width="240" height="44" fill="none" stroke="#0f2a4a" stroke-width="1.5"/>
-  <text x="68" y="114" font-size="11" fill="#0f2a4a">A man born in Bermuda will</text>
-  <text x="68" y="130" font-size="11" fill="#0f2a4a">generally be a British subject.</text>
+  <text x="68" y="114" font-size="11" fill="var(--navy, #0f2a4a)">A man born in Bermuda will</text>
+  <text x="68" y="130" font-size="11" fill="var(--navy, #0f2a4a)">generally be a British subject.</text>
   <line x1="295" y1="62" x2="295" y2="164" stroke="#8b1e2d" stroke-width="1.5" stroke-dasharray="4 3"/>
-  <text x="150" y="176" font-size="10" fill="#8b1e2d" font-weight="bold">Rebuttal (unless...)</text>
+  <text x="150" y="176" font-size="10" fill="var(--oxblood, #8b1e2d)" font-weight="bold">Rebuttal (unless...)</text>
   <rect x="150" y="182" width="206" height="50" fill="none" stroke="#8b1e2d" stroke-width="1.5"/>
-  <text x="158" y="198" font-size="11" fill="#0f2a4a">both his parents were aliens,</text>
-  <text x="158" y="212" font-size="11" fill="#0f2a4a">or he has since become a</text>
-  <text x="158" y="226" font-size="11" fill="#0f2a4a">naturalised American.</text>
+  <text x="158" y="198" font-size="11" fill="var(--navy, #0f2a4a)">both his parents were aliens,</text>
+  <text x="158" y="212" font-size="11" fill="var(--navy, #0f2a4a)">or he has since become a</text>
+  <text x="158" y="226" font-size="11" fill="var(--navy, #0f2a4a)">naturalised American.</text>
 </svg>
 
 Look at where the warrant sits: under the arrow, not in the line of premises. It's the rule that licenses the step from data to claim, and it's the thing nobody said. The rebuttal hangs off the claim, and it only exists because the warrant says "generally". Lesson 7 gives you the full layout, with the two slots this drawing leaves out. For now, the habit is enough: write the rule the arguer relies on, then ask what it doesn't cover.

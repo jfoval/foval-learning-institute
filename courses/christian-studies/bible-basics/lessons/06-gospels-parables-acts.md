@@ -285,14 +285,14 @@ Scholars argue about the decade and about whether the traditional authors wrote 
   <text x="200" y="249" class="sm" text-anchor="middle">year AD</text>
   <!-- markers -->
   <line x1="60" y1="20" x2="60" y2="222" stroke="#b08d2a" stroke-width="1" stroke-dasharray="3 3"/>
-  <text x="63" y="16" class="sm" fill="#b08d2a">crucifixion, c. 30</text>
+  <text x="63" y="16" class="sm" fill="var(--gold, #b08d2a)">crucifixion, c. 30</text>
   <line x1="220" y1="20" x2="220" y2="222" stroke="#b08d2a" stroke-width="1" stroke-dasharray="3 3"/>
   <text x="223" y="16" class="sm">Temple falls, 70</text>
   <!-- Paul -->
   <text x="4" y="42" class="lbl">Paul's letters</text>
   <rect x="140" y="33" width="40" height="10" fill="#777"/>
   <!-- Critical (Ehrman) -->
-  <text x="4" y="66" class="hd" fill="#8b1e2d">Critical</text>
+  <text x="4" y="66" class="hd" fill="var(--oxblood, #8b1e2d)">Critical</text>
   <text x="4" y="82" class="lbl">Mark</text>
   <rect x="216" y="73" width="8" height="10" fill="#8b1e2d"/>
   <text x="4" y="98" class="lbl">Matthew, Luke</text>
@@ -300,7 +300,7 @@ Scholars argue about the decade and about whether the traditional authors wrote 
   <text x="4" y="114" class="lbl">John</text>
   <rect x="300" y="105" width="20" height="10" fill="#8b1e2d"/>
   <!-- Conservative (Carson & Moo) -->
-  <text x="4" y="140" class="hd" fill="#0f2a4a">Conservative</text>
+  <text x="4" y="140" class="hd" fill="var(--navy, #0f2a4a)">Conservative</text>
   <text x="4" y="156" class="lbl">Mark</text>
   <rect x="168" y="147" width="52" height="10" fill="#0f2a4a"/>
   <text x="4" y="172" class="lbl">Luke, Acts</text>

@@ -202,39 +202,39 @@ Here's the structure that comes out the other end, drawn as one picture so you c
   <line x1="180" y1="100" x2="180" y2="56" stroke="#0f2a4a" stroke-width="1.5"/>
   <line x1="280" y1="100" x2="220" y2="56" stroke="#0f2a4a" stroke-width="1.5"/>
   <rect x="30" y="100" width="100" height="40" rx="4" fill="#ffffff" stroke="#0f2a4a" stroke-width="1.5"/>
-  <text x="80" y="117" text-anchor="middle" font-size="10" fill="#0f2a4a">Basic premise 1</text>
-  <text x="80" y="131" text-anchor="middle" font-size="9" fill="#555555">acceptable? relevant?</text>
+  <text x="80" y="117" text-anchor="middle" font-size="10" fill="var(--navy, #0f2a4a)">Basic premise 1</text>
+  <text x="80" y="131" text-anchor="middle" font-size="9" fill="var(--text-2, #4a5260)">acceptable? relevant?</text>
   <rect x="130" y="100" width="100" height="40" rx="4" fill="#ffffff" stroke="#0f2a4a" stroke-width="1.5"/>
-  <text x="180" y="117" text-anchor="middle" font-size="10" fill="#0f2a4a">Basic premise 2</text>
-  <text x="180" y="131" text-anchor="middle" font-size="9" fill="#555555">acceptable? relevant?</text>
+  <text x="180" y="117" text-anchor="middle" font-size="10" fill="var(--navy, #0f2a4a)">Basic premise 2</text>
+  <text x="180" y="131" text-anchor="middle" font-size="9" fill="var(--text-2, #4a5260)">acceptable? relevant?</text>
   <rect x="230" y="100" width="100" height="40" rx="4" fill="#ffffff" stroke="#0f2a4a" stroke-width="1.5"/>
-  <text x="280" y="117" text-anchor="middle" font-size="10" fill="#0f2a4a">Basic premise 3</text>
-  <text x="280" y="131" text-anchor="middle" font-size="9" fill="#555555">acceptable? relevant?</text>
+  <text x="280" y="117" text-anchor="middle" font-size="10" fill="var(--navy, #0f2a4a)">Basic premise 3</text>
+  <text x="280" y="131" text-anchor="middle" font-size="9" fill="var(--text-2, #4a5260)">acceptable? relevant?</text>
   <line x1="80" y1="140" x2="80" y2="170" stroke="#777777" stroke-width="1.2"/>
   <line x1="180" y1="140" x2="180" y2="170" stroke="#777777" stroke-width="1.2"/>
   <line x1="280" y1="140" x2="280" y2="170" stroke="#777777" stroke-width="1.2"/>
   <rect x="30" y="170" width="100" height="36" rx="4" fill="#f2f2f2" stroke="#777777" stroke-width="1"/>
-  <text x="80" y="185" text-anchor="middle" font-size="9" fill="#333333">Sub-argument or</text>
-  <text x="80" y="198" text-anchor="middle" font-size="9" fill="#333333">source (rule 31)</text>
+  <text x="80" y="185" text-anchor="middle" font-size="9" fill="var(--text-2, #4a5260)">Sub-argument or</text>
+  <text x="80" y="198" text-anchor="middle" font-size="9" fill="var(--text-2, #4a5260)">source (rule 31)</text>
   <rect x="130" y="170" width="100" height="36" rx="4" fill="#f2f2f2" stroke="#777777" stroke-width="1"/>
-  <text x="180" y="185" text-anchor="middle" font-size="9" fill="#333333">Sub-argument or</text>
-  <text x="180" y="198" text-anchor="middle" font-size="9" fill="#333333">source (rule 31)</text>
+  <text x="180" y="185" text-anchor="middle" font-size="9" fill="var(--text-2, #4a5260)">Sub-argument or</text>
+  <text x="180" y="198" text-anchor="middle" font-size="9" fill="var(--text-2, #4a5260)">source (rule 31)</text>
   <rect x="230" y="170" width="100" height="36" rx="4" fill="#f2f2f2" stroke="#777777" stroke-width="1"/>
-  <text x="280" y="185" text-anchor="middle" font-size="9" fill="#333333">Sub-argument or</text>
-  <text x="280" y="198" text-anchor="middle" font-size="9" fill="#333333">source (rule 31)</text>
+  <text x="280" y="185" text-anchor="middle" font-size="9" fill="var(--text-2, #4a5260)">Sub-argument or</text>
+  <text x="280" y="198" text-anchor="middle" font-size="9" fill="var(--text-2, #4a5260)">source (rule 31)</text>
   <rect x="30" y="240" width="140" height="70" rx="4" fill="#ffffff" stroke="#8b1e2d" stroke-width="1.5"/>
-  <text x="100" y="258" text-anchor="middle" font-size="10" fill="#8b1e2d" font-weight="bold">Strongest objection</text>
-  <text x="100" y="273" text-anchor="middle" font-size="9" fill="#333333">stated so its holders</text>
-  <text x="100" y="286" text-anchor="middle" font-size="9" fill="#333333">would sign it</text>
-  <text x="100" y="301" text-anchor="middle" font-size="9" fill="#333333">(rules 32, 37)</text>
+  <text x="100" y="258" text-anchor="middle" font-size="10" fill="var(--oxblood, #8b1e2d)" font-weight="bold">Strongest objection</text>
+  <text x="100" y="273" text-anchor="middle" font-size="9" fill="var(--text-2, #4a5260)">stated so its holders</text>
+  <text x="100" y="286" text-anchor="middle" font-size="9" fill="var(--text-2, #4a5260)">would sign it</text>
+  <text x="100" y="301" text-anchor="middle" font-size="9" fill="var(--text-2, #4a5260)">(rules 32, 37)</text>
   <rect x="190" y="240" width="140" height="70" rx="4" fill="#ffffff" stroke="#b08d2a" stroke-width="1.5"/>
-  <text x="260" y="258" text-anchor="middle" font-size="10" fill="#b08d2a" font-weight="bold">Answer or concede</text>
-  <text x="260" y="273" text-anchor="middle" font-size="9" fill="#333333">answered: say why it fails</text>
-  <text x="260" y="286" text-anchor="middle" font-size="9" fill="#333333">conceded: it becomes the</text>
-  <text x="260" y="301" text-anchor="middle" font-size="9" fill="#333333">claim's "unless" (rule 39)</text>
+  <text x="260" y="258" text-anchor="middle" font-size="10" fill="var(--gold, #b08d2a)" font-weight="bold">Answer or concede</text>
+  <text x="260" y="273" text-anchor="middle" font-size="9" fill="var(--text-2, #4a5260)">answered: say why it fails</text>
+  <text x="260" y="286" text-anchor="middle" font-size="9" fill="var(--text-2, #4a5260)">conceded: it becomes the</text>
+  <text x="260" y="301" text-anchor="middle" font-size="9" fill="var(--text-2, #4a5260)">claim's "unless" (rule 39)</text>
   <line x1="170" y1="275" x2="190" y2="275" stroke="#8b1e2d" stroke-width="1.5"/>
   <path d="M 330 275 L 345 275 L 345 33 L 300 33" fill="none" stroke="#b08d2a" stroke-width="1.5" stroke-dasharray="4 3"/>
-  <text x="352" y="160" text-anchor="middle" font-size="8" fill="#b08d2a" transform="rotate(90 352 160)">concession feeds the qualifier</text>
+  <text x="352" y="160" text-anchor="middle" font-size="8" fill="var(--gold, #b08d2a)" transform="rotate(90 352 160)">concession feeds the qualifier</text>
 </svg>
 
 The dashed line on the right is the one to remember. When you concede, the concession doesn't disappear into a paragraph near the end. It travels up and becomes part of the claim.
