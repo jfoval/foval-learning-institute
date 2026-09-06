@@ -129,10 +129,34 @@ A third way in, alongside the Foval Core and free choice. Spec:
 - **Verifiable certificates** need Phase 2 (accounts) so a certificate ID can be looked up at `/verify/<id>`; until then the share page is self-attested and says so.
 - **Accreditation:** documented in `docs/PLATFORM_ROADMAP.md` Phase 3. Realistic path: Open Badges 3.0 issuance, LinkedIn "Add to profile" fields, employer or institution partnerships, and rigorous public assessments. Formal accreditation as a degree-granting institution is a multi-year regulatory process; revisit when there are learners and a track record. Research options for a certificate mark that is honest ("Foval Learning Institute Certificate of Completion, not accredited credit").
 
-## 6. Podcast for every lesson (researched twice on 2026-09-06, awaiting John)
+## 6. Podcast for every lesson (researched three times on 2026-09-06, awaiting John)
 
-Full memo, rewritten after John pushed back and asked for a harder look at the unofficial and
-open-source routes: **`docs/PODCAST_OPTIONS.md`**. He was right to push; the answer changed.
+Full memo: **`docs/PODCAST_OPTIONS.md`**, which now evaluates all four routes by name. John pushed
+back twice that the research was not deep enough and he was right both times: the second pass named
+Podcastfy without evaluating it and missed Play.ai PlayNote entirely. Two findings from the third
+pass change the shape of the decision.
+
+**Play.ai PlayNote is dead.** It was exactly the thing everyone wants: a commercial API with
+`synthesisStyle: "podcast"` and two voices, around 40,000 customers, marketed as "NotebookLM but
+with any voice, custom prompts and API access". Meta acquired PlayAI in July 2025 and the platform
+shut down permanently on **31 December 2025**, deleting accounts, saved audio, voice clones and every
+API endpoint with no migration path. Any guide still recommending it is stale. It is also the
+strongest argument on the page for preferring a model whose weights we can download.
+
+**Browser automation risks the whole Google Account, not just the tool.**
+`israelbls/notebooklm-podcast-automator` (113 stars, 34 forks, FastAPI wrapping Playwright) works.
+But it authenticates by keeping a Chrome profile permanently signed in to a real Google account, and
+NotebookLM has no suspension of its own: a flag disables the entire Google Account. `workers/api/`
+uses a Google OAuth client for sign-in, so putting audio generation on that account means one
+automated abuse flag takes out John's email, his Drive, and every learner's ability to sign in to the
+institute, together. The standards objection stands underneath that anyway: the script would be
+Google's, and Editorial Standards 2 wants it checked.
+
+**Podcastfy is alive and good, and solves the half we should own.** 6,500 stars, actively
+maintained, your own OpenAI/Google/ElevenLabs keys. What it automates is source in, script out,
+audio out. The script generation is the part we specifically do not want to outsource, and stripping
+it out leaves one function. Worth reading for its prompt design; not worth adding Python to a Node
+repo with two npm packages in it.
 
 **The framing that matters.** "NotebookLM quality" is two things: the two-host script, and voices
 that stay themselves for twelve minutes and hand over cleanly. We are better placed than Google on
