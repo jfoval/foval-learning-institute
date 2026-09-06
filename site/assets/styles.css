@@ -384,7 +384,7 @@ a.path-item:hover { background: var(--surface-2); color: var(--text); }
    captures at every width, because each one is a narrow object and a phone frames it best. */
 .why-strip-head { margin: 2.5rem 0 .4rem; font-size: 1.45rem; }
 .why-strip-lede { color: var(--text-2); margin: 0 0 1.25rem; max-width: 46rem; }
-.why-strip { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 1.25rem; }
+.why-strip { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem 1.25rem; }
 .why-strip .shot img { aspect-ratio: 3 / 4; object-fit: cover; object-position: left top; max-height: none; }
 .why-strip figcaption { font-size: .82rem; line-height: 1.4; }
 .why-strip figcaption b { display: block; font-family: var(--serif); font-weight: 400; font-size: 1.02rem; color: var(--text); margin-bottom: .1rem; }

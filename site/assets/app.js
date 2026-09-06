@@ -239,8 +239,12 @@
   const WHY_TILES = [
     ["tile-quiz", "The quiz argues back", "Right and wrong are marked, then it says why yours was wrong.",
       "A quiz question after answering, one option marked correct in green, the chosen one marked wrong in red, and the explanation beginning below."],
-    ["tile-exercise", "Work to do", "At least one thing per lesson you do on paper, before the quiz.",
+    ["tile-map", "Maps of the material", "A whole library on one page, with the dates, the covenants and the gaps.",
+      "A timeline of the Bible in six acts, from creation to new creation, marking the covenants, the fall of Samaria in 722 BC, the exile in 586 BC and the four hundred years with no book in it."],
+    ["tile-exercise", "Work to do", "At least one thing a lesson that you do on paper, before the quiz.",
       "An exercise block headed Do it now, asking the reader to audit their own study habits."],
+    ["tile-recall", "Recall before the quiz", "Close the page and write what you remember. Then the questions open.",
+      "The free recall box at the foot of a lesson, part filled with a learner's own summary and a running word count."],
     ["tile-code", "Real material", "Code you run, data you read, sources you can go and check.",
       "A Python lesson showing three runnable for-loops with their output in comments, and the paragraph explaining range."],
     ["tile-transcript", "A record that adds up", "Lessons, hours, retention, streak. What you can still do, not what you saw.",
@@ -254,6 +258,13 @@
         "How to Learn Anything, lesson 3"],
       title: "You think while you read",
       body: "Reading is the weakest way to learn there is. So a lesson here stops, asks you what you think happens next, and only then tells you. You commit to an answer, then find out. That small bit of work before the reveal is most of the difference between having read a page and knowing something.",
+    },
+    {
+      shot: ["chart",
+        "A chart from a Bible course showing that of the Bible's 1,189 chapters, 918 sit in one act, the story of Israel.",
+        "The Bible: What It Is and How to Read It, lesson 2"],
+      title: "Drawn, photographed, and linked",
+      body: "Where a count settles the argument, you get the chart. Where a manuscript or a painting is the evidence, you get a picture of the real thing, credited and licensed. Where somebody has already explained something better than we can in five minutes, the lesson embeds the video and says why to watch it. Nothing is here as decoration, and nothing is generated to look like a photograph or a painting.",
     },
     {
       shot: ["review",
@@ -280,7 +291,7 @@
           ${WHY_PANELS.map(p => `<div class="why-row">${shot(...p.shot)}<div class="why-copy"><h3>${esc(p.title)}</h3><p>${esc(p.body)}</p></div></div>`).join("")}
         </div>
         <h3 class="why-strip-head">A lesson page is more than words</h3>
-        <p class="why-strip-lede">Charts drawn from real data, and short video where somebody explains a thing better than we can, are in the courses being written now and reach the site the day those courses publish. Here is what is already on every lesson.</p>
+        <p class="why-strip-lede">Reading is where a lesson starts, not where it stops.</p>
         <div class="why-strip">${WHY_TILES.map(t => tileShot(...t)).join("")}</div>
         <div class="why-rows">
           <div class="why-row why-ask">

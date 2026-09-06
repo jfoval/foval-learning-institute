@@ -10,7 +10,8 @@
     "serve": "npx --yes serve site -l 4173",
     "feedback": "node scripts/feedback.mjs",
     "feedback:deploy": "wrangler deploy --cwd workers/feedback",
-    "net": "node scripts/net-quotes.mjs"
+    "net": "node scripts/net-quotes.mjs",
+    "build:drafts": "node scripts/build.mjs --drafts"
   },
   "license": "CC-BY-SA-4.0",
   "dependencies": {
