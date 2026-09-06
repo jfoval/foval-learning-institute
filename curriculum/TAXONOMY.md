@@ -29,6 +29,7 @@ The map is deliberately ambitious. Most courses are `planned`. The point of writ
 | The Scientific Method | Foundation | planned | T2 | What science is and isn't, experiments, replication, why science self-corrects, its limits. |
 | Cognitive Biases and Clear Thinking | Core | planned | elective | The reliable findings (not the pop-psych versions), and what actually helps. |
 | Research Skills | Foundation | planned | elective | Finding sources, libraries and databases, evaluating websites, tracing claims to origin. |
+| Forecasting: Thinking About What Happens Next | Core | planned | elective | Base rates, calibration, scenario thinking, prediction markets, the Tetlock findings on why credentialled experts forecast badly and what the good forecasters do differently. |
 | Capstone: Teach What You Learned | Core | planned | T8 | The Core's final course. Pick something you learned, teach it to someone who does not know it, and write up what the teaching exposed that you had not understood. |
 
 ## 2. School of Mathematics — `mathematics`
@@ -64,6 +65,7 @@ The map is deliberately ambitious. Most courses are `planned`. The point of writ
 | Astronomy and Cosmology | Foundation | planned | T4 | From the night sky to the Big Bang. |
 | Ecology and the Living Planet | Core | planned | elective | Ecosystems, energy flow, biodiversity. |
 | Energy: How the World Is Powered | Foundation | planned | elective | Fossil fuels, nuclear, renewables, the grid, the numbers. |
+| How Things Work: Engineering for Everyone | Foundation | planned | elective | Structures, engines, electricity, materials, water and sewage, planes and bridges. Why things are shaped the way they are and how they fail. |
 | History of Science | Core | planned | elective | How we came to know what we know. |
 
 ## 4. School of History — `history`
@@ -88,6 +90,7 @@ The map is deliberately ambitious. Most courses are `planned`. The point of writ
 | Military History: How Wars Are Won and Lost | Core | planned | elective | |
 | Economic History: How Humanity Got Rich | Core | planned | elective | From subsistence to abundance. |
 | History of Technology | Core | planned | elective | |
+| Why Nations Diverged | Core | planned | elective | The big argument about why some societies got rich and powerful and others did not. Diamond on geography, Acemoglu and Robinson on institutions, McCloskey and Mokyr on ideas, and the serious objections to each. Taught as a live debate, not a settled answer. |
 
 ## 5. School of Philosophy and Religion — `philosophy-and-religion`
 *The big questions and the traditions that have answered them.*
@@ -124,6 +127,7 @@ The map is deliberately ambitious. Most courses are `planned`. The point of writ
 | Film as Art | Foundation | planned | elective | |
 | Architecture | Core | planned | elective | |
 | Creative Writing | Core | planned | elective | Fiction, essay, poetry. |
+| Drawing and Visual Thinking | Foundation | planned | elective | Learning to see and to put it on paper. Line, proportion, perspective, light. Drawing as a thinking tool, not a talent you either have or don't. |
 | Graphic Design Fundamentals | Foundation | planned | elective | Type, colour, hierarchy, grid and composition, contrast, whitespace. Reading a design and fixing one. Real projects, real critique. |
 
 ## 7. School of Economics, Government, and Law — `economics-government-and-law`
@@ -141,6 +145,7 @@ The map is deliberately ambitious. Most courses are `planned`. The point of writ
 | International Relations and Geopolitics | Core | planned | elective | |
 | World Geography | Foundation | planned | elective | Physical and human. Where things are and why it matters. |
 | Economics of Everyday Life | Foundation | planned | elective | Applying economic thinking to decisions. |
+| Practical Civics: Being Useful in Public Life | Foundation | planned | elective | The other half of American Government: how a bill, a budget, a zoning decision or a school board vote actually moves, who really decides, how to testify, organise, run, serve on a board, or get one thing changed in your own town. |
 
 ## 8. School of Computer Science and AI — `computer-science-and-ai`
 *Understanding and building with computers and AI.*
@@ -176,6 +181,8 @@ The map is deliberately ambitious. Most courses are `planned`. The point of writ
 | Leadership | Core | planned | elective | |
 | Strategy | Advanced | planned | elective | |
 | Operations and Systems | Core | planned | elective | Processes, checklists, scaling without chaos. |
+| Project Management | Core | planned | elective | Scope, schedule, budget, dependencies, risk, and stakeholders. Waterfall and agile compared honestly on what each is actually good for. Why projects run late and over budget, and the few practices that reliably help. |
+| Process Improvement: Lean and Six Sigma | Core | planned | elective | The real ideas under the certification industry: variation, flow, waste, statistical process control, the Toyota Production System, and the theory of constraints. What the belt courses teach, what the evidence supports, and where the method does not fit. |
 | Small Business Operations | Core | planned | elective | Entities, tax, contracts, insurance, hiring. |
 | Career Skills | Foundation | planned | elective | Resumes, interviews, promotions, changing fields. |
 
@@ -188,6 +195,7 @@ The map is deliberately ambitious. Most courses are `planned`. The point of writ
 | Investing | Core | planned | T8 | Asset classes, risk, evidence on active vs passive, building a portfolio. |
 | Taxes Explained | Core | planned | elective | How they work, how to be efficient, US-focused with notes for others. |
 | Real Estate | Core | planned | elective | Renting, buying, investing; the actual numbers. |
+| How Markets Work | Core | planned | elective | What a share is, what an exchange does, order types and order books, market makers, indexes and ETFs, short selling, options in plain terms. Includes the evidence on active trading and day trading, which is that the large majority of day traders lose money. |
 | Retirement and Financial Independence | Core | planned | elective | |
 | Insurance and Risk | Foundation | planned | elective | What to insure, what not to. |
 | Credit and Debt | Foundation | planned | elective | Deep dive. |
@@ -247,6 +255,7 @@ The map is deliberately ambitious. Most courses are `planned`. The point of writ
 | Focus and Deep Work | Foundation | planned | elective | |
 | Note-Taking and Personal Knowledge | Foundation | planned | elective | |
 | Reading Faster and Deeper | Foundation | planned | elective | |
+| How to Learn a Language | Foundation | planned | elective | What the research says actually works: comprehensible input, spaced review, speaking early, and the honest hours required to reach each level. |
 | Habits and Self-Discipline | Foundation | planned | elective | |
 | Time Management | Foundation | planned | elective | |
 | Mental Models | Core | planned | T8 | The 50 that matter, with worked examples. |

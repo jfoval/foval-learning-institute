@@ -357,3 +357,48 @@ than id, school, title, optional and standpoint, so that class of error cannot c
 
 **Also.** The Capstone was on the Core but had no row on the map. It now has one, in Foundations.
 Current shape: 165 courses, 51 on the Core across 8 terms, 114 electives.
+
+## 12. Renaissance-man gaps: what John suggested, what was already there, what got added (2026-09-06)
+
+John brainstormed a list of what makes someone broadly capable: design, art, music appreciation,
+business operations, accounting, geography, how politics works and how to be politically valuable,
+economics, investing and how the stock market really works, famous books, project management, Lean
+Six Sigma, forecasting, and the Guns Germs and Steel question.
+
+**Nine of those were already on the map** and need building, not adding: Art History, How to Listen
+to Music, Operations and Systems, Small Business Operations, Accounting and Financial Statements,
+World Geography, American Government and the Constitution (plus Comparative Government, Political
+Philosophy, Political Economy), the four economics courses, Investing and Real Estate, and Great
+Books I to III with Shakespeare and Mythology. Design was added earlier the same day.
+
+**Nine courses added, all `elective`:**
+
+| Course | School | What it covers that nothing else did |
+|---|---|---|
+| Forecasting: Thinking About What Happens Next | Foundations | John's "predicting the future". Base rates, calibration, scenario thinking, the Tetlock findings. Probability and Decisions teaches the maths; this teaches the practice. |
+| Why Nations Diverged | History | John's "Guns Germs and Steel". Diamond, Acemoglu and Robinson, McCloskey and Mokyr, and the objections to each. A live debate, which is the only honest way to teach it under standards 3.4. Economic History tells the story; this argues about the cause. |
+| How Things Work: Engineering for Everyone | Natural Sciences | Structures, engines, electricity, materials, how things fail. A gap nobody named but the most renaissance-man subject on the list. |
+| Drawing and Visual Thinking | Literature and the Arts | Making, not only looking. Pairs with Graphic Design Fundamentals; Art History is appreciation. |
+| Practical Civics: Being Useful in Public Life | Economics, Government, and Law | John's "how to be politically valuable", which is the one thing the government courses miss. They teach how the system is designed; this teaches how to move it. |
+| Project Management | Business and Enterprise | Scope, schedule, risk, dependencies; agile and waterfall compared on merits. |
+| Process Improvement: Lean and Six Sigma | Business and Enterprise | The real content under the belt certifications: variation, flow, SPC, Toyota, theory of constraints, and where it does not fit. |
+| How Markets Work | Money | John's "day trading, how the stock market works". Mechanics first, then the evidence, which is that most day traders lose money. Investing covers portfolios; this covers plumbing and speculation. |
+| How to Learn a Language | Learning and Mind | Not on John's list and a clear gap for a broadly educated person. |
+
+**Why all electives.** The Core is already 51 courses and roughly two years. Every addition raises
+what the institute claims an educated adult must know, so the bar is high. See "Placing a course on
+the Core" in TAXONOMY.md.
+
+**The one worth arguing about: Practical Civics.** It has the strongest claim of the nine to a Core
+place, in term 6 next to American Government and Political Economy. The case for it is that knowing
+how the system is designed without knowing how to act in it is half an education. The case against
+is term size. Left as an elective pending John's call.
+
+**Considered and not added.** Systems Thinking (Mental Models covers the same ground; revisit if
+that course's outline turns out not to). Photography (Drawing and Graphic Design cover seeing and
+composition). Playing an instrument (hard to teach honestly at a distance without a teacher).
+Chess and strategy games (fun, not general education). Latin or Greek (real value for reading the
+sources, but a large investment for a narrow return; revisit if Great Books demand grows).
+
+**Nothing here jumps the queue.** All 174 courses on the map, minus the six with folders, are
+`planned`. The build order is still governed by §1 and §8e.
