@@ -47,7 +47,10 @@ parallel sessions is the ceiling. A platform session must not touch `courses/` o
    eight verified links incl. the 2015 classroom paper free on ERIC). **Lesson 6 done**
    (fading-the-guidance diagram, nine links incl. open-access Bisra 2018 and Ollie Lovell's
    Sweller interviews; no video embedded because no good short one exists, only hour-long
-   podcasts, which went into Go deeper instead). Lessons 7 and 8 remain.
+   podcasts, which went into Go deeper instead). **Lesson 7 done** (Macnamara
+   variance-by-domain bar chart, links incl. the Ericsson 1993 PDF and both open-access
+   debate papers; Ericsson's last interview linked in Go deeper, not embedded, because it
+   runs 27 minutes and the only short clip is Amazon-branded). Lesson 8 remains.
    (c) Podcast each lesson as it settles.
 3. **The four placeholder courses** (Python, Algebra, Personal Finance, Writing Clearly), which
    are live and have never been through the pipeline. For each, in this order: run Stage 1

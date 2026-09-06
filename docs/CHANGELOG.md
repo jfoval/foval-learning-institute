@@ -8,6 +8,19 @@ Everything from the founding onwards is here. Entries before 2026-09-06 came fro
 
 ## 2026-09-06 (podcast pipeline session)
 
+**How to Learn Anything lesson 7: media pass (seventh of eight)**
+
+- A horizontal bar chart of Macnamara, Hambrick and Oswald (2014): variance in performance
+  explained by practice, by domain (26/21/18/4/under 1), with the professions bar in
+  oxblood and its "not distinguishable from zero" caveat on the bar. Drawn from figures
+  already fact-checked into the lesson's debate section.
+- Verified links: the Ericsson 1993 paper as a free PDF, the 2014 meta-analysis DOI, the
+  open-access Ericsson & Harwell reply at Frontiers, and the open-access preregistered
+  replication at Royal Society Open Science, in body and Go deeper.
+- No embed: Ericsson short-form video does not exist except an Amazon-branded clip, which
+  the no-sponsored-content rule excludes; his 27-minute final interview is linked in Go
+  deeper with its length stated.
+
 **How to Learn Anything lesson 6: media pass (sixth of eight)**
 
 - A fading-the-guidance diagram (worked example → completion problem → problems alone →
