@@ -245,7 +245,7 @@ Lay them side by side.
     <line x1="150" y1="182" x2="195" y2="182"/>
     <line x1="150" y1="222" x2="195" y2="222"/>
   </g>
-  <line x1="150" y1="262" x2="195" y2="262" stroke="#999" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <line x1="150" y1="262" x2="195" y2="262" stroke="var(--line-strong, #9a9a9a)" stroke-width="1.5" stroke-dasharray="4 3"/>
   <text x="200" y="266" font-size="11" fill="var(--oxblood, #8b1e2d)" font-style="italic">4:12 "prepare to meet your God"</text>
   <text x="180" y="300" text-anchor="middle" font-size="10" fill="var(--text-2, #4a5260)">Five sanctions have already fallen. One remains.</text>
   <text x="180" y="316" text-anchor="middle" font-size="10" fill="var(--text-2, #4a5260)">Amos is reading the covenant's own terms back to Israel.</text>

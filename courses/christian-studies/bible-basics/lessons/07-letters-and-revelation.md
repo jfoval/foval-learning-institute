@@ -230,16 +230,16 @@ So far the rules have been the ones nearly every serious commentator accepts. No
   <text x="180" y="28" text-anchor="middle" fill="var(--text-2, #4a5260)">today</text>
   <text x="336" y="28" text-anchor="end" fill="var(--text-2, #4a5260)">Christ returns</text>
   <text x="20" y="72" fill="var(--navy, #0f2a4a)" font-weight="bold">Preterist</text>
-  <rect x="24" y="78" width="60" height="12" fill="#0f2a4a"/>
+  <rect x="24" y="78" width="60" height="12" fill="var(--navy, #0f2a4a)"/>
   <text x="90" y="88" fill="var(--text-2, #4a5260)">first century: Jerusalem (70) or Rome</text>
   <text x="20" y="114" fill="var(--oxblood, #8b1e2d)" font-weight="bold">Historicist</text>
-  <rect x="24" y="120" width="312" height="12" fill="#8b1e2d"/>
+  <rect x="24" y="120" width="312" height="12" fill="var(--oxblood, #8b1e2d)"/>
   <text x="24" y="146" fill="var(--text-2, #4a5260)">the whole span of church history, in order</text>
   <text x="20" y="172" fill="var(--gold, #b08d2a)" font-weight="bold">Futurist</text>
-  <rect x="270" y="178" width="66" height="12" fill="#b08d2a"/>
+  <rect x="270" y="178" width="66" height="12" fill="var(--gold, #b08d2a)"/>
   <text x="24" y="188" fill="var(--text-2, #4a5260)">a short period just before the end</text>
   <text x="20" y="214" fill="var(--text-2, #4a5260)" font-weight="bold">Idealist</text>
-  <rect x="24" y="220" width="312" height="12" fill="#999" opacity="0.5"/>
+  <rect x="24" y="220" width="312" height="12" fill="var(--line-strong, #9a9a9a)" opacity="0.5"/>
   <text x="24" y="246" fill="var(--text-2, #4a5260)">every age at once: patterns, not a sequence</text>
 </svg>
 

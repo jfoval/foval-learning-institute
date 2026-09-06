@@ -132,6 +132,18 @@ function lintLessons() {
           });
         if (darkText.length) warn.push(`${file}: ${darkText.length} SVG <text> fill(s) hardcoded dark (${[...new Set(darkText)].join(", ")}); use var(--text, ...) or var(--text-2, ...) so they survive the dark theme`);
 
+        // 4.6: shape fills matter as much as text fills. A navy marker on a dark ground
+        // vanishes even when its label re-themes correctly, which leaves a chart with
+        // labels and no bars.
+        const darkShapes = [...src.matchAll(/<(?:rect|circle|line|path|polygon|ellipse|polyline)\b[^>]*?(?:fill|stroke)="(#[0-9a-fA-F]{3,6})"/g)]
+          .map(m => m[1].toLowerCase())
+          .filter(hex => {
+            const h = hex.length === 4 ? "#" + [...hex.slice(1)].map(c => c + c).join("") : hex;
+            const [r, g, b] = [1, 3, 5].map(i => parseInt(h.slice(i, i + 2), 16));
+            return (0.299 * r + 0.587 * g + 0.114 * b) < 140;
+          });
+        if (darkShapes.length) warn.push(`${file}: ${darkShapes.length} SVG shape fill(s) hardcoded dark (${[...new Set(darkShapes)].join(", ")}); markers and rules vanish on the dark theme even when their labels do not`);
+
         // 4.6: labels below about 15 viewBox units are unreadable once an SVG is scaled to phone width.
         const small = [...src.matchAll(/<text[^>]*font-size="(\d+)"/g)].map(m => +m[1]).filter(n => n < 15);
         if (small.length) warn.push(`${file}: ${small.length} SVG label(s) under font-size 15; they render below ~10px on a phone (4.6)`);

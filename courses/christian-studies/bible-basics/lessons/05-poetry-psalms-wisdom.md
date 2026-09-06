@@ -133,22 +133,22 @@ The second rule is that psalms come in types, and each type has a shape. The Isr
   <text x="8" y="16" font-size="12" fill="var(--navy, #0f2a4a)" font-weight="bold">Psalms by type, where Fee and Stuart give a count</text>
   <g font-size="11" fill="#333">
     <text x="8" y="44">Laments</text>
-    <rect x="118" y="33" width="228" height="16" fill="#8b1e2d"/>
+    <rect x="118" y="33" width="228" height="16" fill="var(--oxblood, #8b1e2d)"/>
     <text x="122" y="45" fill="#fff" font-weight="bold">more than 60</text>
     <text x="8" y="72">Thanksgiving</text>
-    <rect x="118" y="61" width="61" height="16" fill="#0f2a4a"/>
+    <rect x="118" y="61" width="61" height="16" fill="var(--navy, #0f2a4a)"/>
     <text x="184" y="73">16</text>
     <text x="8" y="100">Songs of trust</text>
-    <rect x="118" y="89" width="38" height="16" fill="#0f2a4a"/>
+    <rect x="118" y="89" width="38" height="16" fill="var(--navy, #0f2a4a)"/>
     <text x="161" y="101">10</text>
     <text x="8" y="128">Royal</text>
-    <rect x="118" y="117" width="34" height="16" fill="#0f2a4a"/>
+    <rect x="118" y="117" width="34" height="16" fill="var(--navy, #0f2a4a)"/>
     <text x="157" y="129">9</text>
     <text x="8" y="156">Wisdom</text>
-    <rect x="118" y="145" width="30" height="16" fill="#0f2a4a"/>
+    <rect x="118" y="145" width="30" height="16" fill="var(--navy, #0f2a4a)"/>
     <text x="153" y="157">8</text>
     <text x="8" y="184">Salvation history</text>
-    <rect x="118" y="173" width="19" height="16" fill="#0f2a4a"/>
+    <rect x="118" y="173" width="19" height="16" fill="var(--navy, #0f2a4a)"/>
     <text x="142" y="185">5</text>
   </g>
   <text x="8" y="214" font-size="9" fill="var(--text-2, #4a5260)">Counts from Fee and Stuart 2014, ch. 11. Categories overlap; hymns and celebration psalms are not counted there.</text>

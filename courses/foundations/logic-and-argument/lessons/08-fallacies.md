@@ -262,24 +262,24 @@ Three objections followed that you should be able to state.
 
 <svg viewBox="0 0 360 250" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="forkTitle" style="max-width:100%;height:auto;font-family:inherit">
   <title id="forkTitle">The Fallacy Fork: a strict definition catches almost nothing real; a loose definition catches good arguments too</title>
-  <rect x="105" y="14" width="150" height="46" rx="6" fill="#0f2a4a"/>
+  <rect x="105" y="14" width="150" height="46" rx="6" fill="var(--navy, #0f2a4a)"/>
   <text x="180" y="33" text-anchor="middle" font-size="12" fill="#ffffff">Define "fallacy X"</text>
   <text x="180" y="50" text-anchor="middle" font-size="12" fill="#ffffff">how strictly?</text>
   <line x1="150" y1="60" x2="80" y2="112" stroke="#6b7280" stroke-width="2"/>
   <line x1="210" y1="60" x2="280" y2="112" stroke="#6b7280" stroke-width="2"/>
   <text x="96" y="90" text-anchor="middle" font-size="11" fill="var(--text-2, #4a5260)">strictly</text>
   <text x="266" y="90" text-anchor="middle" font-size="11" fill="var(--text-2, #4a5260)">loosely</text>
-  <rect x="12" y="112" width="150" height="60" rx="6" fill="#ffffff" stroke="#8b1e2d" stroke-width="2"/>
+  <rect x="12" y="112" width="150" height="60" rx="6" fill="#ffffff" stroke="var(--oxblood, #8b1e2d)" stroke-width="2"/>
   <text x="87" y="132" text-anchor="middle" font-size="11" fill="var(--oxblood, #8b1e2d)">Always bad when it fits,</text>
   <text x="87" y="148" text-anchor="middle" font-size="11" fill="var(--oxblood, #8b1e2d)">but it almost never fits</text>
   <text x="87" y="164" text-anchor="middle" font-size="11" fill="var(--oxblood, #8b1e2d)">a real argument</text>
-  <rect x="198" y="112" width="150" height="60" rx="6" fill="#ffffff" stroke="#8b1e2d" stroke-width="2"/>
+  <rect x="198" y="112" width="150" height="60" rx="6" fill="#ffffff" stroke="var(--oxblood, #8b1e2d)" stroke-width="2"/>
   <text x="273" y="132" text-anchor="middle" font-size="11" fill="var(--oxblood, #8b1e2d)">Fits real arguments,</text>
   <text x="273" y="148" text-anchor="middle" font-size="11" fill="var(--oxblood, #8b1e2d)">but many of them</text>
   <text x="273" y="164" text-anchor="middle" font-size="11" fill="var(--oxblood, #8b1e2d)">are cogent</text>
   <line x1="87" y1="172" x2="180" y2="205" stroke="#6b7280" stroke-width="2"/>
   <line x1="273" y1="172" x2="180" y2="205" stroke="#6b7280" stroke-width="2"/>
-  <rect x="70" y="205" width="220" height="34" rx="6" fill="#b08d2a"/>
+  <rect x="70" y="205" width="220" height="34" rx="6" fill="var(--gold, #b08d2a)"/>
   <text x="180" y="227" text-anchor="middle" font-size="12" fill="var(--navy, #0f2a4a)">Either way, the name is not the verdict</text>
 </svg>
 

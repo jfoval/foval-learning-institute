@@ -271,7 +271,7 @@ Scholars argue about the decade and about whether the traditional authors wrote 
     .hd { font: 600 11px system-ui, sans-serif; }
   </style>
   <!-- axis: AD 30 to 100 mapped to x 60..340 (4px per year) -->
-  <line x1="60" y1="222" x2="340" y2="222" stroke="#999" stroke-width="1"/>
+  <line x1="60" y1="222" x2="340" y2="222" stroke="var(--line-strong, #9a9a9a)" stroke-width="1"/>
   <g class="sm" text-anchor="middle">
     <text x="60" y="238">30</text>
     <text x="100" y="238">40</text>
@@ -284,9 +284,9 @@ Scholars argue about the decade and about whether the traditional authors wrote 
   </g>
   <text x="200" y="249" class="sm" text-anchor="middle">year AD</text>
   <!-- markers -->
-  <line x1="60" y1="20" x2="60" y2="222" stroke="#b08d2a" stroke-width="1" stroke-dasharray="3 3"/>
+  <line x1="60" y1="20" x2="60" y2="222" stroke="var(--gold, #b08d2a)" stroke-width="1" stroke-dasharray="3 3"/>
   <text x="63" y="16" class="sm" fill="var(--gold, #b08d2a)">crucifixion, c. 30</text>
-  <line x1="220" y1="20" x2="220" y2="222" stroke="#b08d2a" stroke-width="1" stroke-dasharray="3 3"/>
+  <line x1="220" y1="20" x2="220" y2="222" stroke="var(--gold, #b08d2a)" stroke-width="1" stroke-dasharray="3 3"/>
   <text x="223" y="16" class="sm">Temple falls, 70</text>
   <!-- Paul -->
   <text x="4" y="42" class="lbl">Paul's letters</text>
@@ -294,21 +294,21 @@ Scholars argue about the decade and about whether the traditional authors wrote 
   <!-- Critical (Ehrman) -->
   <text x="4" y="66" class="hd" fill="var(--oxblood, #8b1e2d)">Critical</text>
   <text x="4" y="82" class="lbl">Mark</text>
-  <rect x="216" y="73" width="8" height="10" fill="#8b1e2d"/>
+  <rect x="216" y="73" width="8" height="10" fill="var(--oxblood, #8b1e2d)"/>
   <text x="4" y="98" class="lbl">Matthew, Luke</text>
-  <rect x="260" y="89" width="20" height="10" fill="#8b1e2d"/>
+  <rect x="260" y="89" width="20" height="10" fill="var(--oxblood, #8b1e2d)"/>
   <text x="4" y="114" class="lbl">John</text>
-  <rect x="300" y="105" width="20" height="10" fill="#8b1e2d"/>
+  <rect x="300" y="105" width="20" height="10" fill="var(--oxblood, #8b1e2d)"/>
   <!-- Conservative (Carson & Moo) -->
   <text x="4" y="140" class="hd" fill="var(--navy, #0f2a4a)">Conservative</text>
   <text x="4" y="156" class="lbl">Mark</text>
-  <rect x="168" y="147" width="52" height="10" fill="#0f2a4a"/>
+  <rect x="168" y="147" width="52" height="10" fill="var(--navy, #0f2a4a)"/>
   <text x="4" y="172" class="lbl">Luke, Acts</text>
-  <rect x="196" y="163" width="24" height="10" fill="#0f2a4a"/>
+  <rect x="196" y="163" width="24" height="10" fill="var(--navy, #0f2a4a)"/>
   <text x="4" y="188" class="lbl">Matthew</text>
-  <rect x="200" y="179" width="18" height="10" fill="#0f2a4a"/>
+  <rect x="200" y="179" width="18" height="10" fill="var(--navy, #0f2a4a)"/>
   <text x="4" y="204" class="lbl">John</text>
-  <rect x="260" y="195" width="20" height="10" fill="#0f2a4a"/>
+  <rect x="260" y="195" width="20" height="10" fill="var(--navy, #0f2a4a)"/>
 </svg>
 
 *When the Gospels were written, on the two datings. Red bars: the critical mainstream as Ehrman states it (Mark c. 70; Matthew and Luke c. 80–85; John c. 90–95). Navy bars: Carson and Moo (Mark late 50s to 60s; Luke and Acts mid-to-late 60s; Matthew shortly before 70; John 80–85). Grey: Paul's undisputed letters, 50s. Look at the whole width of the chart: everything sits inside one lifetime.*

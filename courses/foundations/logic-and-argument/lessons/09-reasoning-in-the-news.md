@@ -121,13 +121,13 @@ Now do the bacon story yourself, with a gap. Cancer Research UK's figure for the
   <title id="meat-title">Bowel cancer over a lifetime per 1,000 people: 56 among those who eat the least processed meat, 66 among those who eat the most</title>
   <text x="0" y="14" font-size="12" fill="var(--navy, #0f2a4a)" font-weight="bold">Bowel cancer over a lifetime, per 1,000 people</text>
   <text x="0" y="42" font-size="11" fill="var(--text-2, #4a5260)">Eat the least</text>
-  <rect x="0" y="48" width="340" height="18" fill="#ddd"/>
-  <rect x="0" y="48" width="19" height="18" fill="#0f2a4a"/>
+  <rect x="0" y="48" width="340" height="18" fill="var(--line-strong, #9a9a9a)"/>
+  <rect x="0" y="48" width="19" height="18" fill="var(--navy, #0f2a4a)"/>
   <text x="24" y="62" font-size="11" fill="var(--navy, #0f2a4a)">56</text>
   <text x="0" y="92" font-size="11" fill="var(--text-2, #4a5260)">Eat the most</text>
-  <rect x="0" y="98" width="340" height="18" fill="#ddd"/>
-  <rect x="0" y="98" width="19" height="18" fill="#0f2a4a"/>
-  <rect x="19" y="98" width="3.4" height="18" fill="#8b1e2d"/>
+  <rect x="0" y="98" width="340" height="18" fill="var(--line-strong, #9a9a9a)"/>
+  <rect x="0" y="98" width="19" height="18" fill="var(--navy, #0f2a4a)"/>
+  <rect x="19" y="98" width="3.4" height="18" fill="var(--oxblood, #8b1e2d)"/>
   <text x="27" y="112" font-size="11" fill="var(--navy, #0f2a4a)">66</text>
   <text x="60" y="112" font-size="11" fill="var(--oxblood, #8b1e2d)">10 extra, in red</text>
   <text x="0" y="140" font-size="10" fill="var(--text-2, #4a5260)">Each grey bar is 1,000 people. Source: Cancer Research UK, 26 October 2015.</text>

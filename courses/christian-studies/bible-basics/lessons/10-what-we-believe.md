@@ -80,9 +80,9 @@ Here's the mechanism, and why the sort ends arguments rather than starting them.
 <svg viewBox="0 0 360 250" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="sort-title sort-desc" style="max-width:100%;height:auto;font-family:system-ui,sans-serif">
 <title id="sort-title">Three kinds of claim about the Bible</title>
 <desc id="sort-desc">Three columns. Established by history: Paul wrote in the first century; a House of David existed; settled by evidence. Argued from evidence: who wrote the Pentateuch; when Mark was written; both sides have a case. Held by faith: the Bible is God's Word; God acts in history; evidence bears on it, cannot decide it.</desc>
-<rect x="4" y="4" width="112" height="242" rx="6" fill="#0f2a4a"/>
-<rect x="124" y="4" width="112" height="242" rx="6" fill="#b08d2a"/>
-<rect x="244" y="4" width="112" height="242" rx="6" fill="#8b1e2d"/>
+<rect x="4" y="4" width="112" height="242" rx="6" fill="var(--navy, #0f2a4a)"/>
+<rect x="124" y="4" width="112" height="242" rx="6" fill="var(--gold, #b08d2a)"/>
+<rect x="244" y="4" width="112" height="242" rx="6" fill="var(--oxblood, #8b1e2d)"/>
 <g fill="#ffffff" font-size="11" font-weight="700">
 <text x="60" y="26" text-anchor="middle">History</text><text x="60" y="40" text-anchor="middle">establishes</text>
 <text x="180" y="26" text-anchor="middle">Scholars</text><text x="180" y="40" text-anchor="middle">argue</text>
