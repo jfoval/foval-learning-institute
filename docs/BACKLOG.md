@@ -1,10 +1,43 @@
 # Backlog and Handoff
 
-*Last updated 2026-09-05. Read this first in a new session, after `CLAUDE.md`. It is the single list of what is in flight, what is next, and what John has asked for that isn't built yet. Keep it current: when something ships, move it to `CHANGELOG.md` and delete it here.*
+*Last updated 2026-09-06. Read this first in a new session, after `CLAUDE.md`. It is the single list of what is in flight, what is next, and what John has asked for that isn't built yet. Keep it current: when something ships, move it to `CHANGELOG.md` and delete it here.*
+
+## 0. READ THIS FIRST: twelve commits of platform work are not on `main`
+
+A platform session on 2026-09-06 put **twelve commits on `claude/foval-platform-work-zllo4u`**
+and none of them are merged. **Nothing in the list below is live**, including the fix for the
+homepage not filling a wide screen, which John noticed and refreshed his browser over. Refreshing
+was never going to help: the live site serves `main`.
+
+```
+git log --oneline origin/main..origin/claude/foval-platform-work-zllo4u
+```
+
+What is sitting there: the homepage "What makes this different" section with eleven real
+screenshots, the accounts backend (`workers/api/`, built and tested, not deployed), the funding and
+accounts copy changes, the full-width hero fix, two new linter rules, `npm run shots`,
+`npm run build:drafts`, and the podcast pilot script and comparison tool.
+
+**Merging is John's call and he has not been asked yet in a way he answered.** The agent that wrote
+it is under instructions never to push to a branch other than its own without explicit permission.
+A new session should ask him whether to merge or open a pull request, and not assume.
+
+One thing to know before merging: the homepage now shows a chart and a map from **bible-basics
+lesson 2, which is `status: drafting`**, so merging makes the homepage advertise a lesson visitors
+cannot open. That was John's explicit decision ("I'll have it up before anyone really comes here
+anyways"), so the fix is to publish Bible Basics, not to revert the panel. See section 7.
 
 ## 1. Pipeline state right now
 
 *Rewritten 2026-09-06 at the end of a long session. This is the handoff.*
+
+### What a platform session owns, and what it must not touch
+
+Two content sessions ran in parallel on 2026-09-06, one on `courses/foundations/**` and one on
+`courses/christian-studies/**`. A platform session owns `site/`, `workers/`, `scripts/` and `docs/`
+and **must not edit anything under `courses/` or `curriculum/`**. If a content change is needed,
+note it here and leave it. Two are noted and still outstanding: the media pass on How to Learn
+Anything (section 7) and the clipped SVG labels (section 8e).
 
 ### Live on the site
 
@@ -184,9 +217,27 @@ Podcastfy and Open Notebook are the open orchestration layers and are worth read
 has a step that checks the script against the source, which is the whole difference between our
 audio and everyone else's. Read their prompt design, write our own thin Node script.
 
-**Next, in order:** pick two host names (John's call, they become the sound of the institute);
-render one lesson on VibeVoice, Gemini and ElevenLabs for about **$2.50** and let John's ears
-decide; then build `scripts/podcast.mjs` and a `/make-podcast` command, about a day. MP3s go to
+**The pilot is written and the comparison tool is built. It needs one account and one command.**
+
+- `scripts/podcast/samples/how-to-learn-anything-03.script.md` is a real four minute two-host
+  script, written **by hand** from lesson 3 of How to Learn Anything. Every figure in it appears in
+  the lesson and traces to the lesson's own sources. Writing it by hand is the point, twice over: it
+  means the comparison needs no LLM key, and it is the concrete form of the argument that the script
+  is the half we own. The hosts are unnamed so the comparison survives John picking names.
+- `node scripts/podcast-compare.mjs <script.md>` renders it on VibeVoice via fal, Gemini Flash TTS
+  and ElevenLabs, skipping any engine with no key. **Dry run by default; nothing is spent without
+  `--go`.** For this sample: $0.16, $0.04 and $0.59, so **$0.79 for all three**.
+- **Caveat written into the file, do not skip it:** the fal and ElevenLabs request shapes were
+  written from docs the authoring session could not reach, because Claude Code web blocks
+  `fal.run` and `api.elevenlabs.io`. The parsing, cost guard, polling and file handling are tested;
+  a field name may need one correction. The dry run prints exactly what it would POST. **This tool
+  cannot run from a web session at all**, for the same egress reason.
+
+**Waiting on John:** a fal.ai account (nobody here can create it; it needs his email and a card),
+then `FAL_KEY=... node scripts/podcast-compare.mjs scripts/podcast/samples/how-to-learn-anything-03.script.md --go`,
+then his ears. Also two host names, which become the sound of the institute.
+
+**After that:** build `scripts/podcast.mjs` and a `/make-podcast` command, about a day. MP3s go to
 **Cloudflare R2** (free tier 10 GB, no egress charge), not git: 6 MB a lesson is 8 GB at full scale
 against a 1 GB soft limit on Pages.
 
