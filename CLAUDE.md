@@ -4,6 +4,7 @@ Foval Learning Institute is a free, open, general-education online university. C
 
 ## Start here in a new session
 - `docs/BACKLOG.md` — what is in flight, what is next, and every request from John that isn't built yet. Read it first, keep it current.
+- `docs/CHANGELOG.md` — what has already shipped. Check here before rebuilding something that is done.
 
 ## Read these before working on content
 - `docs/VALUES.md` — what the institute stands on. Every decision, and every piece of feedback, runs against this.

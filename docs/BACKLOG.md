@@ -1,10 +1,25 @@
 # Backlog and Handoff
 
-*Last updated 2026-09-06. Read this first in a new session, after `CLAUDE.md`. It is the single list of what is in flight, what is next, and what John has asked for that isn't built yet. Keep it current: when something ships, move it to `CHANGELOG.md` and delete it here.*
+*Last updated 2026-09-06. Read this first in a new session, after `CLAUDE.md`. It is the single list of what is in flight, what is next, and what John has asked for that isn't built yet. Keep it current: when something ships, move it to `docs/CHANGELOG.md` and delete it here.*
 
 ## 1. Pipeline state right now
 
 *Rewritten 2026-09-06 at the end of a long session. This is the handoff.*
+
+### If you are starting fresh, read this paragraph first
+
+Nothing is half-finished on disk. The working tree is clean and the branch
+`claude/courses-to-be-added-78s29b` is pushed. The last session worked on the curriculum map and the
+tooling around it, not on lessons, so no course moved and no lesson changed. **The next real work is
+still lesson reviews**: Bible Basics lesson 3 (check `research/REVIEWS.md` for how far its cycle
+got), then lesson 4 onward, and Logic and Argument lesson 2, whose five reviews are written up as a
+work order with the fixes not yet applied. Both are described below. Everything shipped on
+2026-09-06 is in `docs/CHANGELOG.md`; sections 10 to 13 here are new course requests and notes,
+none of which are started or urgent.
+
+**One thing changed that affects how you work:** adding a course to `curriculum/TAXONOMY.md` now
+requires a `Path` cell (a Core term or `elective`) and `npm run validate` fails without it. See
+rule 4b in `CLAUDE.md`.
 
 ### Live on the site
 
