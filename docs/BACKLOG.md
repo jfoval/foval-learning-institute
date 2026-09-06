@@ -1,28 +1,35 @@
 # Backlog and Handoff
 
-*Last updated 2026-09-06. Read this first in a new session, after `CLAUDE.md`. It is the single list of what is in flight, what is next, and what John has asked for that isn't built yet. Keep it current: when something ships, move it to `CHANGELOG.md` and delete it here.*
+*Last updated 2026-09-06. Read this first in a new session, after `CLAUDE.md`. It is the single list of what is in flight, what is next, and what John has asked for that isn't built yet. Keep it current: when something ships, move it to `docs/CHANGELOG.md` and delete it here.*
 
-## 0. Shipping: platform work goes to `main` without asking
+## 0. Work that is not on `main` is not done
 
-**Standing decision from John, 2026-09-06:** a platform session merges its own finished work to
-`main`. Do not sit on it waiting for permission. His words when he found out a session had been
-holding thirteen commits on a branch: "merge to main crazy! You shouldn't have to ask me to do
-that."
+The live site serves `main`. A platform session on 2026-09-06 left thirteen commits on a branch
+while John refreshed his browser wondering why a layout fix had not appeared. That is the whole
+lesson. `CLAUDE.md` rule 11 is the rule; this is the reminder at the top of the page you read first.
 
-So the loop is: work on a branch, get `npm run validate` to exit 0, verify in both themes at phone
-and desktop width, merge to `main`, push. `git pull --rebase origin main` first, because content
-sessions push there too.
-
-The thing that made this worth writing down: John spent time refreshing his browser wondering why a
-layout fix had not appeared, when the real answer was that thirteen commits were sitting unmerged.
-**Work that is not on `main` is not done.** The live site serves `main`.
-
-What still genuinely needs asking, and this has not changed: anything that spends money, creates an
-account, or changes what the institute promises. Those go to him first.
+Merge when `npm run validate` exits 0 and anything visual has been checked in both themes at phone
+and desktop width. `git pull --rebase origin main` first: content sessions push there too, and on
+2026-09-06 two of them did while a third was mid-merge.
 
 ## 1. Pipeline state right now
 
 *Rewritten 2026-09-06 at the end of a long session. This is the handoff.*
+
+### If you are starting fresh, read this paragraph first
+
+Nothing is half-finished on disk. The working tree is clean and the branch
+`claude/courses-to-be-added-78s29b` is pushed. The last session worked on the curriculum map and the
+tooling around it, not on lessons, so no course moved and no lesson changed. **The next real work is
+still lesson reviews**: Bible Basics lesson 3 (check `research/REVIEWS.md` for how far its cycle
+got), then lesson 4 onward, and Logic and Argument lesson 2, whose five reviews are written up as a
+work order with the fixes not yet applied. Both are described below. Everything shipped on
+2026-09-06 is in `docs/CHANGELOG.md`; sections 10 to 13 here are new course requests and notes,
+none of which are started or urgent.
+
+**One thing changed that affects how you work:** adding a course to `curriculum/TAXONOMY.md` now
+requires a `Path` cell (a Core term or `elective`) and `npm run validate` fails without it. See
+rule 4b in `CLAUDE.md`.
 
 ### What a platform session owns, and what it must not touch
 
@@ -553,3 +560,188 @@ lesson already rested it. The argument is unaffected; the texture of the passage
 - Term milestones ("Foundations" etc.) on the Path page when a term is complete.
 - Audio mode and "Ask this lesson" are on the roadmap (Phase 2 and 3).
 - The taxonomy's `Christian standpoint` labels are now capitalised as "Christian Standpoint" everywhere the site shows them; keep that form.
+
+## 10. Course requests from people (opened 2026-09-06)
+
+Requests that came in by text message, not through the feedback form. All are now rows in
+`curriculum/TAXONOMY.md` with status `planned`; none has a folder yet. A folder gets created when
+research begins (`/research-course`).
+
+| Course | School | Requested by | Why |
+|---|---|---|---|
+| Graphic Design Fundamentals | Literature and the Arts | M. Wesley | Wants to take it himself. First outside request for a course. |
+| Statistics for Citizens (existing row, note widened) | Foundations | M. Wesley | Asked for "intro to statistics and the normal distribution". The existing course already covers averages, sampling and correlation; the note now names spread and the normal distribution explicitly so the outline has to teach the bell curve properly, including where it does not apply. |
+| Computer Science Foundations | Computer Science and AI | John | Part of the "speciality technology courses" ask. Sits between How Computers Work and Data Structures and Algorithms: computation and its limits, complexity, languages and compilers, memory, concurrency. |
+| Technology Leadership: CTO and CIO | Computer Science and AI | John | The other half of that ask. The executive job rather than the craft: architecture and build-vs-buy, budgets and vendors, security posture, team structure, roadmaps, talking to a board. Marked Advanced because it assumes the technical courses under it. |
+
+**Data science basics (John).** Deliberately not a new row. The path already exists and adding a
+"Data Science" course would duplicate three others: Statistics for Citizens, then Statistics and
+Probability (Mathematics), then Data Analysis (Computer Science and AI), with Machine Learning
+Fundamentals after it. If those four are built in that order they are the data science basics. Worth
+raising with John only if he wants them bundled and labelled as one track on the Path page, which is
+a packaging decision, not a new course.
+
+**Where each sits on the Core.** Every course on the map now carries a placement decision (see
+below). Graphic Design Fundamentals, Computer Science Foundations and Technology Leadership are all
+`elective`: they are specialities, and the Core is what a broadly educated adult needs rather than
+everything worth teaching. Statistics for Citizens was already on the Core in term 2 and stays there.
+
+**Ordering.** These four are all `planned` behind a queue that is already long: two courses are
+mid-review (Bible Basics, Logic and Argument) and four live placeholder courses have never been
+through the pipeline (§8e). Nothing here jumps that queue without John saying so. Graphic Design
+Fundamentals is the one with a named person waiting on it, which is the strongest reason on the list
+to move a course up.
+
+## 11. Core-path placement is now enforced (built 2026-09-06)
+
+The map and the Core had no link between them, so a new course could be added and simply never
+considered for the Foval Core. Nothing was checking, and two files were describing the Core by hand.
+
+**What is in place now.**
+
+- `curriculum/TAXONOMY.md` has a **Path** column on every course row. Its value is a term (`T1` to
+  `T8`) or the word `elective`. That cell is the placement decision, recorded on the map itself.
+- `scripts/core-path.mjs` checks that TAXONOMY.md and `curriculum/core-path.yaml` agree: every row
+  has a valid Path cell, every row marked `Tn` is in that term of the path file, every path entry
+  has a row on the map, every `elective` is absent from the path, and no school lists a course
+  twice. It runs inside `npm run validate` and `npm run build`, and exits non-zero on any of those.
+  A new row with a blank Path cell fails the build, which is the whole point: a course cannot reach
+  the map without someone deciding where it belongs.
+- TAXONOMY.md's numbered term list is generated from `core-path.yaml` between HTML comment markers
+  by `npm run path -- --write`. It used to be maintained by hand and had drifted: two courses
+  numbered 18, term 5 numbering out by one, and "History of Western Philosophy I and II" collapsed
+  into one line.
+- "Placing a course on the Core" in TAXONOMY.md is the decision rule: does the Core need it, what
+  does it need first, which term's theme, does the term still balance, where in the term.
+  `/new-course` now makes the placement its first step, and CLAUDE.md carries it as rule 4b.
+
+**Four real bugs it caught immediately.** Four entries in `core-path.yaml` had unquoted titles
+containing commas inside a YAML flow mapping, so the comma started a new key. The live Path page was
+showing "Early Modern World", "The Age of Revolutions", "The Modern World" and "Meaning" with their
+titles cut off at the comma. Fixed and rebuilt. The checker now rejects any entry with keys other
+than id, school, title, optional and standpoint, so that class of error cannot come back.
+
+**Also.** The Capstone was on the Core but had no row on the map. It now has one, in Foundations.
+Current shape: 165 courses, 51 on the Core across 8 terms, 114 electives.
+
+## 12. Renaissance-man gaps: what John suggested, what was already there, what got added (2026-09-06)
+
+John brainstormed a list of what makes someone broadly capable: design, art, music appreciation,
+business operations, accounting, geography, how politics works and how to be politically valuable,
+economics, investing and how the stock market really works, famous books, project management, Lean
+Six Sigma, forecasting, and the Guns Germs and Steel question.
+
+**Nine of those were already on the map** and need building, not adding: Art History, How to Listen
+to Music, Operations and Systems, Small Business Operations, Accounting and Financial Statements,
+World Geography, American Government and the Constitution (plus Comparative Government, Political
+Philosophy, Political Economy), the four economics courses, Investing and Real Estate, and Great
+Books I to III with Shakespeare and Mythology. Design was added earlier the same day.
+
+**Nine courses added, all `elective`:**
+
+| Course | School | What it covers that nothing else did |
+|---|---|---|
+| Forecasting: Thinking About What Happens Next | Foundations | John's "predicting the future". Base rates, calibration, scenario thinking, the Tetlock findings. Probability and Decisions teaches the maths; this teaches the practice. |
+| Why Nations Diverged | History | John's "Guns Germs and Steel". Diamond, Acemoglu and Robinson, McCloskey and Mokyr, and the objections to each. A live debate, which is the only honest way to teach it under standards 3.4. Economic History tells the story; this argues about the cause. |
+| How Things Work: Engineering for Everyone | Natural Sciences | Structures, engines, electricity, materials, how things fail. A gap nobody named but the most renaissance-man subject on the list. |
+| Drawing and Visual Thinking | Literature and the Arts | Making, not only looking. Pairs with Graphic Design Fundamentals; Art History is appreciation. |
+| Practical Civics: Being Useful in Public Life | Economics, Government, and Law | John's "how to be politically valuable", which is the one thing the government courses miss. They teach how the system is designed; this teaches how to move it. |
+| Project Management | Business and Enterprise | Scope, schedule, risk, dependencies; agile and waterfall compared on merits. |
+| Process Improvement: Lean and Six Sigma | Business and Enterprise | The real content under the belt certifications: variation, flow, SPC, Toyota, theory of constraints, and where it does not fit. |
+| How Markets Work | Money | John's "day trading, how the stock market works". Mechanics first, then the evidence, which is that most day traders lose money. Investing covers portfolios; this covers plumbing and speculation. |
+| How to Learn a Language | Learning and Mind | Not on John's list and a clear gap for a broadly educated person. |
+
+**Why all electives.** The Core is already 51 courses and roughly two years. Every addition raises
+what the institute claims an educated adult must know, so the bar is high. See "Placing a course on
+the Core" in TAXONOMY.md.
+
+**Practical Civics is on the Core.** John's call, 2026-09-06. It sits in term 6, after Political
+Philosophy and before Great Books III, which puts it after American Government and the Constitution
+in term 5 and next to Political Economy. The reasoning: knowing how the system is designed without
+knowing how to act in it is half an education. Term 6 is now seven courses, the same size as term 5,
+so the balance rule in "Placing a course on the Core" still holds. The Core is 52 courses.
+
+**Considered and not added.** Systems Thinking (Mental Models covers the same ground; revisit if
+that course's outline turns out not to). Photography (Drawing and Graphic Design cover seeing and
+composition). Playing an instrument (hard to teach honestly at a distance without a teacher).
+Chess and strategy games (fun, not general education). Latin or Greek (real value for reading the
+sources, but a large investment for a narrow return; revisit if Great Books demand grows).
+
+**Nothing here jumps the queue.** All 174 courses on the map, minus the six with folders, are
+`planned`. The build order is still governed by §1 and §8e.
+
+## 13. Alex Hormozi as a source and as a teaching model (opened 2026-09-06)
+
+John reads Hormozi and likes how he distils business concepts. This is a note for whoever runs
+`/research-course` on Sales, Marketing, Entrepreneurship, Copywriting or Small Business Operations.
+**Do not delete this when the backlog is trimmed. Copy it into each of those courses'
+`research/SOURCES.md` at Stage 1.**
+
+### What he actually is
+
+Alex Hormozi built and sold gym businesses (Gym Launch, Prestige Labs), and with Leila Hormozi runs
+[Acquisition.com](https://www.acquisition.com/), which buys stakes in founder-owned companies. He
+has written [$100M Offers](https://www.amazon.com/100M-Offers-People-Stupid-Saying/dp/1737475731)
+(2021), [$100M Leads](https://www.amazon.com/100M-Leads-Strangers-Stuff-Acquisition-com/dp/1737475774)
+(2023) and [$100M Money Models](https://www.amazon.com/100M-Money-Models-Make-Acquisition-com/dp/1963349156)
+(2025), plus a Lost Chapters volume. The books are cheap or free, and the free content is the top of
+a funnel into his firm's deal flow and products. That is stated openly by him; it is a declared
+interest, not a hidden one, and the courses should say so once rather than insinuate it.
+
+### The pedagogy is the part worth taking
+
+This is genuinely good teaching craft and most of it transfers straight into our lessons:
+
+1. **One idea per unit, and the idea gets a name.** "Grand Slam Offer", "the value equation". A named
+   idea is recallable a month later. Our lessons often teach a concept without ever naming it.
+2. **A formula or checklist the learner can apply before finishing the page.** The value equation is
+   dream outcome times perceived likelihood of achievement, divided by time delay times effort and
+   sacrifice. Whatever else it is, it is a thing you can run your own offer through in two minutes.
+3. **Before and after with real numbers.** He shows the weak version and the rebuilt version side by
+   side. That is exactly what standards 4.2 asks for and what our business drafts will otherwise
+   skip.
+4. **Naming the common mistake explicitly** rather than only teaching the correct method.
+5. **Short sentences and no throat-clearing**, which is our style guide already.
+
+Points 1 to 4 are worth writing into `docs/STYLE_GUIDE.md` or the business courses' outlines as
+requirements, independent of whether we cite him at all.
+
+### What he is not, under standards 2.2 and 2.5
+
+His material is a **primary source on how one successful operator thinks and what he did**. It is
+not evidence that the methods cause the results. The evidence problems are ordinary and worth
+stating plainly in the lesson rather than hiding:
+
+- **Survivorship and selection.** We hear from the operator whose gyms worked. The base rate of
+  people who ran the same playbook and failed is unobserved.
+- **Self-reported figures**, not audited, and mostly from one sector cluster: gyms, supplements,
+  agencies, and information products.
+- **Frameworks, not findings.** The value equation is a useful heuristic with no measurement behind
+  the multiplication. Teach it as a practitioner's model, labelled that way, not as a result.
+- Standard 2.5 already covers this: "Never present a guru's claim as settled." Business advice is a
+  contested-empirical domain under 3.1, so his claims get the same treatment as anyone's.
+
+### So: cite him, and cross-check him
+
+Use him for what he is good at, always paired with the research literature:
+
+| Where he is used | Cross-check against |
+|---|---|
+| Offers, pricing, value framing | Nagle, *The Strategy and Tactics of Pricing* (the standard text); Kahneman and Tversky on framing and reference points |
+| Lead generation, channels, advertising | Byron Sharp, *How Brands Grow* and the Ehrenberg-Bass work on penetration and mental availability, which pushes hard against niche-offer thinking and is the strongest opposing case |
+| Sales conversations | Neil Rackham, *SPIN Selling*, one of the few sales books built on observed calls; Dixon and Adamson, *The Challenger Sale*, with the caveat that its underlying analysis has been questioned |
+| Anything about entrepreneurial odds | Scott Shane, *The Illusions of Entrepreneurship*; BLS and Kauffman business survival data. This is the antidote to survivorship and belongs in the Entrepreneurship course regardless |
+| Management and operations claims | Bloom and Van Reenen, the World Management Survey work, which is the actual causal evidence that management practices move performance |
+
+**The best use of him is as a worked example of two things at once.** Teach the value equation,
+apply it to a real offer, and then, in the same lesson, teach why his own results cannot tell us
+whether it works. A learner who can admire a framework and still ask for the base rate has got
+something out of the course that no business book gives them. That is a Foval lesson and nobody
+else's.
+
+### Next step
+
+Nothing to build yet. When the first business course reaches Stage 1, the researcher reads at least
+$100M Offers and $100M Leads in full (not summaries, per rule 1 and the repeated defect of citing
+unread sources in §1), records in SOURCES.md which specific claims come from him and which come from
+the research literature, and marks every Hormozi claim with what kind of claim it is under 3.1.

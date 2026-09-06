@@ -4,7 +4,7 @@ This is the operating manual for producing Foval courses at quality and at scale
 
 ## The core idea
 
-**Separate the stages, and give each stage the right inputs.** Research happens before outlining. Outlining before drafting. Drafting one lesson at a time with the research in context. Review in a fresh session by a reviewer whose only job is to find problems. Nothing is published until it passes review and a human signs off.
+**Separate the stages, and give each stage the right inputs.** Research happens before outlining. Outlining before drafting. Drafting one lesson at a time with the research in context. Review in a fresh session by a reviewer whose only job is to find problems. Nothing is published until it passes review and the voice pass. There is no owner sign-off gate: see rule 5 in `CLAUDE.md`. A course goes live when its lessons have passed Stage 4, and it keeps improving through the feedback loop.
 
 Each stage is a slash command in `.claude/commands/`. Each produces a file in the course folder. The files are the memory: any future session can pick up where the last one left off by reading them.
 
@@ -29,8 +29,10 @@ Templates for each file are in `templates/`.
 
 ## The stages
 
-### Stage 0: Choose and brief
-Pick a course from `curriculum/TAXONOMY.md`. Create the folder from `templates/`. Fill in `course.yaml`: audience, prerequisites, what the learner will be able to do. Set `status: research`.
+### Stage 0: Choose and brief — `/new-course <school> <id> "<Title>"`
+Pick a course from `curriculum/TAXONOMY.md`. If it is not on the map yet, add the row first, including its **Path** cell: a term (`T1` to `T8`) if it belongs on the Foval Core, or `elective` if it does not. That decision is required, not deferred, and `npm run validate` fails without it. The rule for choosing is "Placing a course on the Core" in TAXONOMY.md. A course placed on the Core also goes into `curriculum/core-path.yaml`, in the position it should be taken.
+
+Then create the folder from `templates/`. Fill in `course.yaml`: audience, prerequisites, what the learner will be able to do. Set `status: research`.
 
 ### Stage 1: Research — `/research-course <path>`
 The most important stage. Claude uses web search and fetch to find and read:
