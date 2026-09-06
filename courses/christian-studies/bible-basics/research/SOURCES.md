@@ -199,12 +199,16 @@ Added at the Stage 4 fix pass, 2026-09-06 (each fetched and read, not recalled):
 - **Ehrman's dates in his own words**, "Why Date the Gospels after 70 CE?", *The Bart Ehrman Blog* (ehrmanblog.org): "Critical scholars are widely agreed that the earliest Gospel was Mark, written around 70 c.e.; that Matthew and Luke were written some years later, say, around 80–85 c.e.; and that John was the last Gospel, written around 90–95 c.e." Mark 13 as the lever. Confirms the ranges given under Contested question 3.
 - **Papias in Eusebius 3.39, NPNF wording** (CCEL): "Mark, having become the interpreter of Peter, wrote down accurately, though not in order, whatsoever he remembered of the things said or done by Christ." "Matthew wrote the oracles in the Hebrew language, and every one interpreted them as he was able." Slightly different from the wording recorded above ("composed", "Hebrew dialect", "the Lord"), which is another translation; the lesson quotes the NPNF text as fetched.
 - **Irenaeus, *Against Heresies* 3.1.1, ANF wording** (New Advent), verified: Matthew "issued a written Gospel among the Hebrews in their own dialect"; "Mark, the disciple and interpreter of Peter"; "Luke also, the companion of Paul"; "John, the disciple of the Lord... during his residence at Ephesus in Asia".
-- **Augustine, *Quaestiones Evangeliorum* 2.19** on the good Samaritan (traveller as Adam; Jerusalem the heavenly city; Jericho mortality; robbers the devil and his angels; priest and Levite the Old Testament priesthood and ministry; Samaritan as Christ, "guardian"; inn as the church): as quoted by C. H. Dodd, *The Parables of the Kingdom* (1935), and reproduced in "Revisiting the Parable of the Good Samaritan", *Studies in Christian-Jewish Relations* 16 (2021). Latin original not consulted.
+- **Augustine, *Quaestiones Evangeliorum* 2.19** on the good Samaritan (traveller as Adam; Jerusalem the heavenly city; Jericho mortality; robbers the devil and his angels; priest and Levite the Old Testament priesthood and ministry; Samaritan as Christ, "guardian"; inn as the church): as quoted by C. H. Dodd, *The Parables of the Kingdom* (1935), and reproduced in "Revisiting the Parable of the Good Samaritan", *Studies in Christian-Jewish Relations* 16 (2021). Latin original not consulted. **Corrected at lesson 6's Stage 4: one-point parable reading does not begin with Dodd.** It begins with **Adolf Jülicher, *Die Gleichnisreden Jesu* (1888 to 1899)**; Dodd builds on Jülicher and adds realised eschatology. Neither book was opened here, so do not characterise either beyond that. Note also that the strict one-point rule is itself now a minority position: **Craig Blomberg, *Interpreting the Parables* (1990)**, argues most parables carry one point per main character, and **Klyne Snodgrass, *Stories with Intent* (2008)**, likewise rejects Jülicher's strictness. A lesson teaching the one-point rule must say the rule is argued (both positions rest on web search here, not on a fetched source).
 - **Open Yale RLST 152 lecture numbers** (oyc.yale.edu): 5 "The New Testament as History"; 6 "The Gospel of Mark"; 8 "The Gospel of Thomas"; 9 "The Gospel of Luke"; 10 "The Acts of the Apostles".
 - **BibleProject, "The Gospel"**: YouTube ID xrzq_X1NNaA, verified via YouTube oEmbed (title "The Gospel", author "BibleProject"). **"The Parables of Jesus"** (5:42) verified at bibleproject.com/videos/how-to-read-the-bible-the-parables-of-jesus/; its YouTube ID could not be confirmed, so the lesson links the BibleProject page rather than embedding.
 - **Rembrandt, *The Return of the Prodigal Son***, c. 1668, Hermitage (accession 742), public domain; file at upload.wikimedia.org/wikipedia/commons/9/93/Rembrandt_Harmensz_van_Rijn_-_Return_of_the_Prodigal_Son_-_Google_Art_Project.jpg.
-- **ESV text** for Luke 15:1–2, 15:28–32; John 21:25; Mark 1:15, 13:2, 12:12; 2 Samuel 12:7; Luke 10:29, 36–37; Luke 18:1–8; Acts 1:26, 2:44–45, 4:32–35, 5:4, 6:1–7: read at BibleGateway. These are the right passages; **re-fetch the wording in the NET** before quoting (Editorial Standards 4.7). No verse count is kept any more.
+- **ESV text** for Luke 15:1-2, 15:28-32; John 21:25; Mark 1:15, 13:2, 12:12; 2 Samuel 12:7; Luke 10:29, 36-37; Luke 18:1-8; Acts 1:26, 2:44-45, 4:32-35, 5:4, 6:1-7: read at BibleGateway. These are the right passages; **re-fetch the wording in the NET** before quoting (Editorial Standards 4.7). No verse count is kept any more.
+  **Resolved at lesson 6's Stage 4.** Every body quotation in the shipped lesson is verbatim NET2, verified independently against both mirrors; do not "re-fix" it. Four wordings that had survived from the ESV, now corrected in the lesson and recorded here so no later lesson reintroduces them:
+  **Mark 12:12** NET is "because they **realized** that he told this parable against them", not "perceived" (ESV and KJV). **Luke 18:2** NET is a judge "who neither **feared** God nor **respected people**", not "fears neither God nor man". **Acts 6:3** NET is "seven men who are **well-attested**", not "of good repute, full of the Spirit and wisdom"; **Acts 6:2** is "**wait on** tables", not "serve tables". **Acts 4:34** NET has a comma: "among them, because". Also verified verbatim NET2 and safe to quote: Luke 15:1-2, 15:28-32; John 21:25; Mark 1:15, 13:2; 2 Samuel 12:7; Luke 10:29, 36-37; Acts 1:26, 2:44-45, 4:32, 4:34-35, 5:4.
+  **The lesson 6 draft's own source note claimed these were "read via the bible.org API", which did not happen** (that host is 403 here; see the lesson 4 Stage 4 block for what does work). Draft-time source notes must say where a text actually came from.
 - **Fee & Stuart ch. 6 principle on Acts** (what is only narrated or described does not function normatively unless Scripture elsewhere commands it or the author can be shown to intend it as a pattern): paraphrased in the lesson, not quoted, since the exact wording was not recorded here at Stage 1; the fact-check may restore the quotation from the book.
+- **Richard Burridge, *What Are the Gospels? A Comparison with Graeco-Roman Biography* (Cambridge, 1992; 2nd ed. 2004): NOT RESEARCHED at Stage 1 and NOT OPENED.** Recorded here at lesson 6's Stage 4 because the draft made Burridge the authority for its central genre claim (the Gospels are ancient biographies with a theological aim) and called the position "now the standard view", with no entry in this file at all. The reception claim is real but is second-hand here: it rests on web search, on the book's 2nd-edition reception and on Graham Stanton's endorsement, not on a fetched source. **Anyone quoting Burridge must open the book first.** The lesson now states the claim with its supporters and its critics named rather than as settled.
 
 ## Added at draft time (lesson 8)
 
@@ -554,3 +558,98 @@ each caught at least one real error.
   chapter 10 is "The Prophets: Enforcing the Covenant in Israel" with "The Prophets as Poets" as a
   section inside it; Psalm 88 has **18 verses in total**; Psalm 137 has nine, of which **verse 7 is
   already an imprecation**, so "six verses of grief and then the last two" miscounts it.
+
+## Added at lesson 6's Stage 4, 2026-09-06 (verified there, for later lessons to use)
+
+- **The Chicago Statement's limits, which SOURCES.md line 148 already required and lesson 6 still
+  dropped.** The 1978 *Chicago Statement on Biblical Inerrancy* **Article XII** denies that "biblical
+  infallibility and inerrancy are limited to spiritual, religious, or redemptive themes, exclusive of
+  assertions in the fields of history and science", so the genre latitude of Article XIII is not a
+  licence to treat a historical claim as a literary device. The 1982 *Chicago Statement on Biblical
+  Hermeneutics* **Article XXII** affirms that Genesis 1 to 11 is factual and denies that its teaching
+  may be dismissed as myth. The Article XIII phrase is "variant selections of **materials** in
+  parallel accounts", plural, and it covers each evangelist **selecting different material**; it does
+  not cover **compression**, which is Michael Licona's category and was the subject of a public
+  inerrancy quarrel with Norman Geisler in 2011. **A lesson may not enlist the signatories, least of
+  all in a quiz key, for compression.** The ETS archive copy is 404; use
+  `https://www.etsjets.org/files/documents/Chicago_Statement.pdf` only if it resolves, otherwise
+  link the Dallas Theological Seminary or Alliance of Confessing Evangelicals copy and say which.
+- **The four senses, which the standing figural-reading instruction requires and which four lessons
+  have now dropped.** *Catechism of the Catholic Church* **115 to 118**: the senses are the literal
+  and the spiritual, the spiritual subdividing into allegorical, moral and anagogical; 116 says the
+  literal is the foundation and 118 gives the medieval couplet (*Littera gesta docet…*). The
+  grammatical-historical rule is therefore **one hermeneutic among the living ones**, not the rule,
+  and a lesson stating it flatly asserts a contested claim in its own direction. This has now had to
+  be said **four** times (L2-N9, L3-N5, lesson 4, lesson 6).
+- **The lot is a living practice, not a hypothetical over-application.** The **Coptic Orthodox
+  Church** elects its Pope by the **altar lot**, drawn by a blindfolded child after the liturgy, most
+  recently for **Tawadros II in November 2012**; the **Moravians** used the lot for calls and
+  decisions from 1727 into the nineteenth century, and the Church of England's own
+  *Acts 1* precedent is cited on both sides. **No lesson may use "draws its leaders from a hat" or any
+  equivalent as a reductio** (3.3, 3.7). Give the reasoned account (the lot hands the choice to God
+  rather than to a majority) before disagreeing with it.
+- **Irenaeus does not predate the non-canonical gospels.** *Against Heresies* is c. 180 and
+  **1.31.1 names a Gospel of Judas in that same work** ("a fictitious history of this kind, which
+  they style the Gospel of Judas"), verified. Thomas is normally dated c. 140, Peter c. 150, and a
+  real minority (Koester, Patterson, DeConick's earliest layer) dates a core of Thomas to the 50s to
+  70s. **So the fourfold-Gospel argument postdates most of the texts it is used against**, and any
+  lesson linking Martin's RLST 152 lecture 8 must not also call the late dating unanimous, since that
+  lecture argues the other way.
+- **Datings, corrected.** **Paul's death is conventionally c. 64 to 67**, after the Great Fire of
+  Rome; **62 is the end of the two-year house arrest of Acts 28:30**, not the death. The mainstream
+  range for **John runs to about 110**, so "the latest date anyone serious gives is the mid-90s" is
+  false and the hedge in contested question 3 ("within *about* seventy years") must not be tightened
+  into an absolute. **Carson and Moo are not the whole conservative side**: **John A. T. Robinson**,
+  *Redating the New Testament* (1976), dates the whole New Testament before 70, and Wallace, Leon
+  Morris and N. T. Wright argue for a pre-70 John. Robinson was **Bishop of Woolwich**, a suffragan
+  see, and later Dean of Trinity College, Cambridge. **Papias's own date is argued, c. 95 to c. 130**,
+  so his testimony is "scholars argue about", not "history establishes".
+- **Harold Lindsell's harmonisation, stated correctly.** *The Battle for the Bible* (1976) proposed
+  that **Peter denied Jesus six times**, three before each cock crowing. "The cock crowed six times"
+  is a misstatement and makes the position sillier than it is.
+- **Markan priority does not explain double tradition.** A parable in Matthew and Luke but not Mark
+  is double-tradition material, which needs **Q** or the **Farrer hypothesis** (Luke used Matthew).
+  A lesson that scopes the synoptic problem out must still not offer Markan priority as the mechanism
+  for a Matthew-and-Luke difference.
+- **Eyewitness testimony, the conservative case's strongest current advocate**, which this course had
+  not recorded: **Richard Bauckham, *Jesus and the Eyewitnesses* (Eerdmans, 2006; 2nd ed. 2017)**,
+  argues the Gospels transmit named eyewitness testimony rather than anonymous community tradition.
+  Not opened; cite as a position held, with its critics (Judith Redman, Ehrman) named.
+- **Luke 21:20 is the detail the critical dating turns on.** Luke has "Jerusalem surrounded by
+  armies" where Mark 13:14 has "the abomination of desolation", which the critical case reads as
+  knowledge of the 70 siege and the conservative case reads as ordinary siege language from the
+  Septuagint. Quote both and let the learner see why the same verse serves both sides.
+- **Mark 4:10 to 12 is the hard verse about the form**, and no lesson teaching parables may assign it
+  without teaching it. NET: Jesus speaks in parables "so that although they look they may look but
+  not see, and although they hear they may hear but not understand, so they may not repent and be
+  forgiven", quoting Isaiah 6:9 to 10. The four standard readings (purpose, result, irony, and the
+  Isaianic-commission reading) are all live; **the lesson must not resolve it**.
+- ***Mashal*** is the Hebrew category behind "parable": it covers proverb, riddle, taunt and extended
+  comparison (Ezekiel 17:2, Psalm 78:2, Numbers 23:7), which is why a parable is not simply an
+  illustration with a moral. Free, inside the text, and it is the honest answer to "why does Jesus
+  talk like this".
+- **Luke 1:1 to 4 carries objective 1's mechanism in the evangelist's own words** and was gathered at
+  Stage 1 and paraphrased rather than quoted. NET: "Many have undertaken to compile an account of the
+  things that have been fulfilled among us… it seemed good to me as well… to write an orderly account
+  for you, most excellent Theophilus". **Acts 4:32** ("everything was held in common") and **Acts
+  5:4** ("Before it was sold, did it not belong to you? And when it was sold, was the money not at
+  your disposal?") were likewise gathered and unquoted, though the whole description-versus-
+  prescription argument about the Jerusalem community turns on 5:4.
+- **Ehrman's textbook is not "the set text at Yale", present tense.** `SOURCES.md` 28 records it from
+  **Dale Martin's RLST 152, Spring 2009**; Martin is emeritus and the course is archived. The same
+  standing instruction at line 168 covers every "is used at" claim in this course, and lessons 1, 4
+  and 6 have each been faulted for it.
+- **BibleProject running times.** Only **"The Parables of Jesus" (5:42)** is verified, at
+  bibleproject.com. YouTube oEmbed returns title, author and thumbnail but **no duration**, so no
+  other run-time in this course is verified and none may be printed. Lessons 4, 5 and 9 cut theirs.
+- **En dashes (U+2013) are invisible to the validator.** `scripts/build.mjs` checks only U+2014, so
+  a lesson can ship forty of them and pass. Lesson 6 had forty, all in verse and decade ranges;
+  lesson 1 still has eight. **Grep for both characters before committing**, and use the course's
+  " to " convention. Requested as a shared-file fix in `REVIEWS.md`.
+- **The SVG validator can be defeated a third way: an inline `<style>` block.**
+  `scripts/build.mjs` matches `fill=` and `font-size=` **as attributes on `<text>`**, so
+  `.lbl { font: 11px …; fill: #333 }` inside `<style>` is invisible to it, exactly as a `<g>` wrapper
+  is. Lesson 6's chart reported one hardcoded fill when the true count was twenty-one, and zero
+  undersized labels when all twenty-one were undersized. **Three distinct evasion routes are now
+  recorded** (lesson 3 `fill="#ffffff"`, lessons 4 and 5 `<g>` wrappers, lesson 6 CSS), so **read
+  every SVG by eye and do not trust `npm run validate` on this check.**
