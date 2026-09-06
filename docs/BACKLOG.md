@@ -2,30 +2,23 @@
 
 *Last updated 2026-09-06. Read this first in a new session, after `CLAUDE.md`. It is the single list of what is in flight, what is next, and what John has asked for that isn't built yet. Keep it current: when something ships, move it to `CHANGELOG.md` and delete it here.*
 
-## 0. READ THIS FIRST: twelve commits of platform work are not on `main`
+## 0. Shipping: platform work goes to `main` without asking
 
-A platform session on 2026-09-06 put **twelve commits on `claude/foval-platform-work-zllo4u`**
-and none of them are merged. **Nothing in the list below is live**, including the fix for the
-homepage not filling a wide screen, which John noticed and refreshed his browser over. Refreshing
-was never going to help: the live site serves `main`.
+**Standing decision from John, 2026-09-06:** a platform session merges its own finished work to
+`main`. Do not sit on it waiting for permission. His words when he found out a session had been
+holding thirteen commits on a branch: "merge to main crazy! You shouldn't have to ask me to do
+that."
 
-```
-git log --oneline origin/main..origin/claude/foval-platform-work-zllo4u
-```
+So the loop is: work on a branch, get `npm run validate` to exit 0, verify in both themes at phone
+and desktop width, merge to `main`, push. `git pull --rebase origin main` first, because content
+sessions push there too.
 
-What is sitting there: the homepage "What makes this different" section with eleven real
-screenshots, the accounts backend (`workers/api/`, built and tested, not deployed), the funding and
-accounts copy changes, the full-width hero fix, two new linter rules, `npm run shots`,
-`npm run build:drafts`, and the podcast pilot script and comparison tool.
+The thing that made this worth writing down: John spent time refreshing his browser wondering why a
+layout fix had not appeared, when the real answer was that thirteen commits were sitting unmerged.
+**Work that is not on `main` is not done.** The live site serves `main`.
 
-**Merging is John's call and he has not been asked yet in a way he answered.** The agent that wrote
-it is under instructions never to push to a branch other than its own without explicit permission.
-A new session should ask him whether to merge or open a pull request, and not assume.
-
-One thing to know before merging: the homepage now shows a chart and a map from **bible-basics
-lesson 2, which is `status: drafting`**, so merging makes the homepage advertise a lesson visitors
-cannot open. That was John's explicit decision ("I'll have it up before anyone really comes here
-anyways"), so the fix is to publish Bible Basics, not to revert the panel. See section 7.
+What still genuinely needs asking, and this has not changed: anything that spends money, creates an
+account, or changes what the institute promises. Those go to him first.
 
 ## 1. Pipeline state right now
 

@@ -34,6 +34,7 @@ Foval Learning Institute is a free, open, general-education online university. C
 8. Lesson content format: YAML frontmatter (title, minutes, objectives, quiz) + Markdown body. `:::callout Title`, `:::exercise Title`, `:::predict Question` (body is the hidden answer), `:::checkpoint Question` (body is the hidden answer), `:::figure <url> | <alt>` (body is the caption with credit and licence), and `:::video <youtube url> | <title>` (body is why to watch) blocks, each closed with `:::`, render as styled elements; predict and checkpoint hide their body behind a button. Media rules are in standards 4.5: real images with credits, YouTube only for video, charts drawn from real data, nothing decorative or AI-generated. Raw HTML is allowed but discouraged.
 9. Site code is plain HTML/CSS/JS with no framework and no build step. Keep it that way; it must run fast on cheap phones.
 10. Commit messages: short imperative subject; body says what changed and why. Content commits name the course and lesson.
+11. Finished platform work goes to `main` without asking. Work on a branch, get `npm run validate` to exit 0, verify in both themes at phone and desktop width, then `git pull --rebase origin main` and merge. Work that is not on `main` is not done, because the live site serves `main`. Still ask first about anything that spends money, creates an account, or changes what the institute promises.
 
 ## Local preview
 `npm run build && npm run serve` then open http://localhost:4173
