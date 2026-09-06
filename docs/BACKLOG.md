@@ -159,6 +159,29 @@ renames the files, rewrites every "lesson N" reference in lessons, OUTLINE.md an
 verified by grepping for references to lessons that no longer exist. Each confirmed seam is marked
 in the lesson with an HTML comment (`<!-- SPLIT SEAM: ... -->`) so the eventual split is mechanical.
 
+**Updated 2026-09-06 after lesson 3.** The pattern is now measured, not suspected. Reviews grow
+lessons by roughly two to three times, because almost every finding asks for *more* teaching, not
+less: a missing worked example, an objection engaged at full strength, a practice item for an
+objective that had none.
+
+| Lesson | minutes before | after | words after |
+|---|---|---|---|
+| 1 | 40 | 70 | ~7,000 |
+| 2 | 45 | 90 | 8,700 |
+| 3 | 45 | **150** | ~8,900 |
+
+Three lessons reviewed, **two are split candidates** (2 and 3), and lesson 4 is a third flagged by
+its own drafter. So the finished course is realistically **16 to 18 lessons, not 12**. The outline
+was written for lessons that were undertaught.
+
+**The deferral still holds, for one reason: nothing is published.** No learner can reach a
+150-minute lesson, because the course is `status: drafting` and the build excludes it. The bad
+experience is hypothetical until publish, so the renumbering can still happen once, at the end,
+after every seam is known. Splitting now would mean renumbering three or four times.
+
+**But the renumber is no longer optional and must happen before `status: published`.** Treat it as
+a required step in the Definition of Done for this course, not a nice-to-have.
+
 **Worth considering at that point:** referencing lessons by title rather than number would remove
 this problem permanently, for this course and for the other 140 planned. A pointer reading "the
 genre lesson" survives any reordering; "lesson 3" does not.
