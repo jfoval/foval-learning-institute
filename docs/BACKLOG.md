@@ -595,6 +595,7 @@ lesson already rested it. The argument is unaffected; the texture of the passage
 - Term milestones ("Foundations" etc.) on the Path page when a term is complete.
 - Audio mode and "Ask this lesson" are on the roadmap (Phase 2 and 3).
 - The taxonomy's `Christian standpoint` labels are now capitalised as "Christian Standpoint" everywhere the site shows them; keep that form.
+- Swag store (asked by John 2026-09-06): when it exists, make shirts playing on the FLI initials, in the vein of "I'm so FLI" and "Learning to FLI". Funny but cool; keep the mark and the Caslon/Plex system so they still look like the institute.
 
 ## 10. Course requests from people (opened 2026-09-06)
 

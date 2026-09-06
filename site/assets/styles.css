@@ -93,8 +93,8 @@ th { font-weight: 600; border-bottom: 2px solid var(--line-strong); }
 .brand-mark .ks-f { fill: var(--bg); }
 .cert-seal { width: 110px; height: 110px; margin: 0 auto .5rem; display: block; }
 .site-nav { display: flex; gap: 1.5rem; }
-.site-nav a { color: var(--text-2); text-decoration: none; font-size: .95rem; font-weight: 500; letter-spacing: 0; text-transform: none; padding-bottom: 2px; border-bottom: 2px solid transparent; white-space: nowrap; }
-.site-nav a.active, .site-nav a:hover { color: var(--text); border-bottom-color: var(--oxblood); }
+.site-nav a { color: var(--text-2); text-decoration: none; font-size: .95rem; font-weight: 500; letter-spacing: 0; text-transform: none; padding-bottom: 2px; white-space: nowrap; background: linear-gradient(var(--oxblood), var(--oxblood)) no-repeat left bottom / 0 2px; transition: background-size .22s ease, color .15s ease; }
+.site-nav a.active, .site-nav a:hover { color: var(--text); background-size: 100% 2px; }
 
 .page { max-width: 1280px; margin: 0 auto; padding: clamp(1.5rem, 4vw, 3rem) clamp(1rem, 4vw, 2rem); min-height: 60vh; }
 .site-footer { border-top: 1px solid var(--line); padding: 2rem clamp(1rem, 4vw, 3rem); font-size: .9rem; color: var(--text-2); }
@@ -136,7 +136,8 @@ th { font-weight: 600; border-bottom: 2px solid var(--line-strong); }
 
 /* Sections */
 .section { margin: 3rem 0; }
-.section-head { display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; margin-bottom: 1.25rem; padding-bottom: .5rem; border-bottom: 2px solid var(--line-strong); }
+.section-head { display: flex; align-items: baseline; justify-content: space-between; gap: 1rem; margin-bottom: 1.25rem; padding-bottom: .5rem; border-bottom: 2px solid var(--line-strong); position: relative; }
+.section-head::after { content: ""; position: absolute; left: 0; bottom: -2px; width: 3.5rem; height: 2px; background: var(--gold); }
 .section-head h2 { margin: 0; }
 .section-head p { color: var(--text-2); margin: 0; font-size: .9rem; }
 
@@ -145,9 +146,9 @@ th { font-weight: 600; border-bottom: 2px solid var(--line-strong); }
 .chip { padding: .4rem .8rem; border-radius: var(--radius); border: 1px solid var(--line); background: var(--surface); font-size: .88rem; font-weight: 500; cursor: pointer; color: var(--text-2); font-family: var(--sans); }
 .chip.active { background: var(--navy); color: var(--navy-ink); border-color: var(--navy); }
 .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1.25rem; }
-.card { display: flex; flex-direction: column; background: var(--surface); border: 1px solid var(--line); border-top: 3px solid var(--line-strong); padding: 1.25rem; color: var(--text); text-decoration: none; transition: border-color .12s ease; }
-.card:hover { border-color: var(--oxblood); color: var(--text); }
-.card .eyebrow { margin-bottom: .35rem; }
+.card { display: flex; flex-direction: column; background: var(--surface); border: 1px solid var(--line); border-top: 3px solid var(--line-strong); padding: 1.25rem; color: var(--text); text-decoration: none; transition: border-color .15s ease, transform .2s ease; }
+.card:hover { border-color: var(--oxblood); color: var(--text); transform: translateY(-3px); }
+.card .eyebrow { margin-bottom: .35rem; color: var(--oxblood); }
 .card h3 { margin-bottom: .4rem; }
 .card p { color: var(--text-2); font-size: .95rem; flex: 1; }
 .card-meta { display: flex; gap: 1rem; font-size: .82rem; color: var(--muted); margin-top: .5rem; }
@@ -327,11 +328,12 @@ a.path-item:hover { background: var(--surface-2); color: var(--text); }
 .video-fig .video { margin: 0; }
 .lesson-content svg { max-width: 100%; height: auto; }
 
-/* Full-bleed hero with optional video */
-.hero-wrap { position: relative; width: 100vw; margin: calc(-1 * clamp(1.5rem, 4vw, 3rem)) calc(50% - 50vw) 0; background: var(--navy); color: #fff; overflow: hidden; }
+/* Full-bleed hero with optional video. Oxford navy, broken up by the gold rule,
+   the gold card border, and the video showing through more than it used to. */
+.hero-wrap { position: relative; width: 100vw; margin: calc(-1 * clamp(1.5rem, 4vw, 3rem)) calc(50% - 50vw) 0; background: var(--navy); color: #fff; overflow: hidden; border-bottom: 3px solid var(--gold); }
 .hero-media { position: absolute; inset: 0; }
-.hero-media video, .hero-media img { width: 100%; height: 100%; object-fit: cover; display: block; opacity: .55; }
-.hero-media::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(15,42,74,.55) 0%, rgba(15,42,74,.75) 60%, rgba(15,42,74,.95) 100%); }
+.hero-media video, .hero-media img { width: 100%; height: 100%; object-fit: cover; display: block; opacity: .6; }
+.hero-media::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, rgba(15,42,74,.45) 0%, rgba(15,42,74,.68) 55%, rgba(15,42,74,.92) 100%); }
 .hero-inner { position: relative; max-width: 1280px; margin: 0 auto; padding: clamp(3rem, 8vw, 6rem) clamp(1rem, 4vw, 2rem) clamp(2.5rem, 6vw, 4rem); display: grid; grid-template-columns: 1.25fr 1fr; gap: 3rem; align-items: end; }
 .hero-inner h1 { color: #fff; font-size: clamp(2.3rem, 5.5vw, 3.8rem); margin-bottom: .75rem; }
 .hero-inner .eyebrow { color: var(--gold); font-size: clamp(1.25rem, 2.4vw, 1.6rem); font-weight: 400; margin-bottom: .9rem; }
@@ -340,18 +342,56 @@ a.path-item:hover { background: var(--surface-2); color: var(--text); }
 .hero-inner .btn-primary:hover { background: #fff; border-color: #fff; color: var(--navy); }
 .hero-inner .btn-secondary { color: #fff; border-color: rgba(255,255,255,.7); }
 .hero-inner .btn-secondary:hover { background: rgba(255,255,255,.12); color: #fff; }
-.hero-card-dark { border: 1px solid rgba(255,255,255,.3); padding: 1.5rem; backdrop-filter: blur(2px); background: rgba(15,42,74,.35); }
+.hero-card-dark { border: 1px solid rgba(255,255,255,.28); border-top: 3px solid var(--gold); padding: 1.5rem; backdrop-filter: blur(2px); background: rgba(15,42,74,.4); }
 .hero-card-dark h3 { color: #fff; font-size: 1.1rem; margin-bottom: .75rem; }
 .hero-card-dark .principles li::before { color: var(--gold); }
-.hero-card-dark .stat b { color: #fff; }
+.hero-card-dark .stat b { color: var(--gold); }
 .hero-card-dark .stat span { color: rgba(255,255,255,.7); }
 .hero-card-dark .stat-row { border-top-color: rgba(255,255,255,.25); }
 @media (prefers-reduced-motion: reduce) { .hero-media video { display: none; } }
 @media (max-width: 860px) { .hero-inner { grid-template-columns: 1fr; gap: 1.5rem; } }
 
+/* Motion. Quiet and editorial: things settle into place, nothing bounces.
+   Everything here is gated on prefers-reduced-motion. */
+@keyframes rise { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
+@media (prefers-reduced-motion: no-preference) {
+  .hero-inner .eyebrow { animation: rise .55s ease both .05s; }
+  .hero-inner h1 { animation: rise .55s ease both .16s; }
+  .hero-inner .lede { animation: rise .55s ease both .27s; }
+  .hero-inner .btn-row { animation: rise .55s ease both .38s; }
+  .hero-card-dark { animation: rise .55s ease both .5s; }
+  .reveal { opacity: 0; transform: translateY(16px); transition: opacity .55s ease, transform .55s ease; transition-delay: var(--reveal-delay, 0s); }
+  .reveal.in { opacity: 1; transform: none; }
+}
+
+/* Full-bleed photo bands. Real photographs (credits in assets/media/*-CREDIT.txt),
+   a dark scrim for the text, the gold rule to tie them to the hero. */
+.band { position: relative; width: 100vw; margin: 3.5rem calc(50% - 50vw); overflow: hidden; color: #fff; border-top: 3px solid var(--gold); border-bottom: 3px solid var(--gold); }
+.band img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.band::after { content: ""; position: absolute; inset: 0; background: linear-gradient(90deg, rgba(15,42,74,.82) 0%, rgba(15,42,74,.5) 55%, rgba(15,42,74,.12) 100%); }
+.band-right::after { background: linear-gradient(270deg, rgba(15,42,74,.82) 0%, rgba(15,42,74,.5) 55%, rgba(15,42,74,.12) 100%); }
+.band-inner { position: relative; z-index: 1; max-width: 1280px; margin: 0 auto; padding: clamp(3rem, 7vw, 5rem) clamp(1rem, 4vw, 2rem); }
+.band-right .band-inner { display: flex; flex-direction: column; align-items: flex-end; text-align: right; }
+/* Keep the subject in frame when a wide viewport crops the photo to a short strip. */
+.band-right img { object-position: center 65%; }
+.band h2 { color: #fff; max-width: 28rem; }
+.band p { color: rgba(255,255,255,.88); max-width: 32rem; margin-bottom: 1.25rem; }
+.band p:last-child { margin-bottom: 0; }
+.btn-gold { background: var(--gold); border-color: var(--gold); color: #1a1400; }
+.btn-gold:hover { background: #fff; border-color: #fff; color: #0f2a4a; }
+.btn-ghost { background: transparent; color: #fff; border-color: rgba(255,255,255,.7); }
+.btn-ghost:hover { background: rgba(255,255,255,.14); color: #fff; }
+
+/* The closing band: an even scrim over an already-dark photo, everything centred. */
+.band-center::after { background: rgba(15,42,74,.5); }
+.band-center .band-inner { display: flex; flex-direction: column; align-items: center; text-align: center; }
+.band-center h2 { font-size: clamp(1.9rem, 4vw, 2.8rem); }
+.band-center .btn-row { justify-content: center; margin-top: .25rem; }
+
 /* Schools grid */
 .schools { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: .75rem 1.25rem; }
-.school { padding: .9rem 0; border-top: 1px solid var(--line); }
+.school { padding: .9rem 0; border-top: 1px solid var(--line); transition: border-top-color .25s ease; }
+.school:hover { border-top-color: var(--gold); }
 .school b { display: block; font-family: var(--serif); font-weight: 400; font-size: 1.1rem; }
 .school span { font-size: .88rem; color: var(--text-2); }
 .school .soon { color: var(--muted); }
@@ -369,6 +409,7 @@ a.path-item:hover { background: var(--surface-2); color: var(--text); }
 .why-row:nth-child(even) > .shot { order: 2; }
 .why-row:nth-child(even) > .why-copy { order: 1; }
 .why-copy h3 { margin: 0 0 .5rem; font-size: 1.45rem; }
+.why-row:not(.why-ask) .why-copy h3::before { content: ""; display: block; width: 2.5rem; height: 3px; background: var(--oxblood); margin-bottom: .7rem; }
 .why-copy p { margin: 0 0 .6rem; color: var(--text-2); }
 .why-copy p:last-child { margin-bottom: 0; }
 .shot { margin: 0; min-width: 0; }
@@ -381,21 +422,44 @@ a.path-item:hover { background: var(--surface-2); color: var(--text); }
 .why-row.why-ask > .shot { order: 2; }
 .why-row.why-ask > .why-copy { order: 1; }
 
-/* The strip: four narrow captures of things that are on every lesson today. They are phone
-   captures at every width, because each one is a narrow object and a phone frames it best. */
-.why-strip-head { margin: 2.5rem 0 .4rem; font-size: 1.45rem; }
-.why-strip-lede { color: var(--text-2); margin: 0 0 1.25rem; max-width: 46rem; }
-.why-strip { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem 1.25rem; }
-.why-strip .shot img { aspect-ratio: 3 / 4; object-fit: cover; object-position: left top; max-height: none; }
-.why-strip figcaption { font-size: .82rem; line-height: 1.4; }
-.why-strip figcaption b { display: block; font-family: var(--serif); font-weight: 400; font-size: 1.02rem; color: var(--text); margin-bottom: .1rem; }
+/* The seven points as numbered feature cards. Screenshot fills the card, the point sits
+   on a navy scrim at its foot; hover or focus zooms the capture and reveals the line. */
+.feature-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 1.25rem; }
+.feature { display: flex; flex-direction: column; margin: 0; overflow: hidden; border: 1px solid var(--line); background: var(--surface); }
+.feature picture { display: block; aspect-ratio: 3 / 3.4; overflow: hidden; }
+/* The captures rest dimmed so seven at once read as texture, not seven pages to read.
+   The one under the cursor comes forward at full strength. */
+.feature img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: left top; opacity: .55; filter: saturate(.65); transition: opacity .4s ease, filter .4s ease, transform .5s ease; }
+.feature:hover img, .feature:focus img { opacity: 1; filter: none; transform: scale(1.05); }
+.feature-num { position: absolute; top: .6rem; left: .6rem; font-family: var(--serif); font-size: .95rem; color: var(--gold); background: rgba(15,42,74,.88); padding: .1rem .55rem; letter-spacing: .05em; }
+/* The title lives on its own solid bar under the image, never on the screenshot. */
+.feature { position: relative; }
+.feature-label { position: relative; margin-top: auto; background: var(--surface); border-top: 2px solid var(--gold); padding: .7rem .9rem .8rem; }
+.feature-label b { display: block; font-family: var(--serif); font-weight: 400; font-size: 1.08rem; color: var(--text); }
+/* The line slides up over the image as an opaque panel on hover or focus; no text on text. */
+.feature-label span { position: absolute; left: 0; right: 0; bottom: 100%; background: var(--surface); border-top: 1px solid var(--line); padding: .65rem .9rem; font-size: .85rem; line-height: 1.45; color: var(--text-2); opacity: 0; transform: translateY(6px); transition: opacity .3s ease, transform .3s ease; pointer-events: none; }
+.feature:hover .feature-label span, .feature:focus .feature-label span { opacity: 1; transform: none; }
+/* Card 08 has no screenshot to photograph yet, so it says so in type instead of a mockup. */
+.feature-soon .soon-art { aspect-ratio: 3 / 3.4; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: .7rem; background: var(--surface-2); text-align: center; padding: 1rem; }
+.soon-kicker { font-size: .72rem; letter-spacing: .12em; text-transform: uppercase; font-weight: 600; color: var(--oxblood); }
+.soon-line { font-family: var(--serif); font-size: 1.5rem; line-height: 1.25; color: var(--text); }
+.feature-soon { transition: border-color .25s ease; }
+.feature-soon:hover, .feature-soon:focus { border-color: var(--gold); }
 
-/* On a phone the four tiles stacked would be two thousand pixels of scrolling before the
-   ask, so they become one swipeable row with the next tile showing at the edge. */
+/* Touch screens keep the images at full strength (there is no cursor to bring one
+   forward) and a tap reveals the line through focus. */
+@media (hover: none) { .feature img { opacity: 1; filter: none; } }
+
+/* On a phone the cards pair up into a compact grid; no scrolling bars. */
 @media (max-width: 700px) {
-  .why-strip { grid-template-columns: none; grid-auto-flow: column; grid-auto-columns: 64%; overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: .5rem; }
-  .why-strip .shot { scroll-snap-align: start; }
+  .feature-grid { grid-template-columns: 1fr 1fr; gap: .8rem; }
+  .feature-label { padding: .55rem .65rem .6rem; }
+  .feature-label b { font-size: .95rem; }
 }
+
+/* The panel shots sit on a gold-topped mat, echoing the course cards. The screenshot
+   keeps its natural size; its text is texture, not something to read up close. */
+.why-row:not(.why-ask) .shot picture { display: block; background: var(--surface-2); border: 1px solid var(--line); border-top: 3px solid var(--gold); padding: clamp(.6rem, 1.5vw, 1rem); }
 
 @media (max-width: 860px) {
   /* Phone captures are tall. Show the top of each one rather than a screen and a half of it. */

@@ -182,10 +182,41 @@
       a.classList.toggle("active", path === href || (href !== "/" && path.startsWith(href)));
     });
   }
+  const noMotion = matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const revealer = (!noMotion && "IntersectionObserver" in window)
+    ? new IntersectionObserver(entries => {
+        for (const e of entries) if (e.isIntersecting) { e.target.classList.add("in"); revealer.unobserve(e.target); }
+      }, { rootMargin: "0px 0px -8% 0px", threshold: 0.05 })
+    : null;
+  function reveal() {
+    if (!revealer) return;
+    main.querySelectorAll(".section, .path-next, .card, .school, .why-row, .feature, .band").forEach(el => {
+      // stagger siblings so grids ripple in rather than land as one block
+      const sibs = Array.prototype.filter.call(el.parentElement.children, s => s.classList.contains(el.classList[0]));
+      const i = sibs.indexOf(el);
+      if (i > 0) el.style.setProperty("--reveal-delay", `${Math.min(i, 6) * 70}ms`);
+      el.classList.add("reveal");
+      revealer.observe(el);
+    });
+  }
+  function countUp() {
+    if (noMotion) return;
+    main.querySelectorAll(".stat b").forEach(el => {
+      if (!/^\d+$/.test(el.textContent)) return;
+      const n = Number(el.textContent), dur = 900, t0 = performance.now();
+      el.textContent = "0";
+      requestAnimationFrame(function tick(t) {
+        const k = Math.min(1, (t - t0) / dur);
+        el.textContent = String(Math.round(n * (1 - Math.pow(1 - k, 3))));
+        if (k < 1) requestAnimationFrame(tick);
+      });
+    });
+  }
   function render(html, title) {
     main.innerHTML = html;
     document.title = title ? `${title} · Foval Learning Institute` : "Foval Learning Institute";
     window.scrollTo({ top: 0 });
+    reveal();
   }
 
   /* ---------- shared pieces ---------- */
@@ -226,14 +257,30 @@
       </figure>`;
   }
 
-  function tileShot(name, label, line, alt) {
-    return `<figure class="shot">
-        <picture>
-          <source media="(prefers-color-scheme: dark)" srcset="${SHOTS}${name}-dark-phone.png">
-          <img src="${SHOTS}${name}-light-phone.png" alt="${esc(alt)}" loading="lazy" decoding="async">
-        </picture>
-        <figcaption><b>${esc(label)}</b>${esc(line)}</figcaption>
-      </figure>`;
+  function tilePicture(name, alt) {
+    return `<picture>
+        <source media="(prefers-color-scheme: dark)" srcset="${SHOTS}${name}-dark-phone.png">
+        <img src="${SHOTS}${name}-light-phone.png" alt="${esc(alt)}" loading="lazy" decoding="async">
+      </picture>`;
+  }
+
+  /* The seven points as numbered feature cards. The screenshot fills the card and the
+     point sits on a navy scrim at its foot; hover or keyboard focus zooms the capture
+     and reveals the line. On touch there is no hover, so the line is always shown and
+     the cards become one swipeable row. */
+  function showcase() {
+    return `<div class="feature-grid">
+      ${WHY_TILES.map((t, i) => `<figure class="feature" tabindex="0">
+        ${tilePicture(t[0], t[3])}
+        <span class="feature-num">${String(i + 1).padStart(2, "0")}</span>
+        <figcaption class="feature-label"><b>${esc(t[1])}</b><span>${esc(t[2])}</span></figcaption>
+      </figure>`).join("")}
+      <figure class="feature feature-soon" tabindex="0">
+        <div class="soon-art"><span class="soon-kicker">Coming next</span><span class="soon-line">Two voices.<br>Every lesson.</span></div>
+        <span class="feature-num">08</span>
+        <figcaption class="feature-label"><b>A podcast for every lesson</b><span>Each lesson talked through by two voices, for people who take things in better by listening. In the works now.</span></figcaption>
+      </figure>
+    </div>`;
   }
 
   const WHY_TILES = [
@@ -259,42 +306,47 @@
         "A lesson paused at a question, with the answer revealed under a button after the reader has committed to a guess.",
         "How to Learn Anything, lesson 3"],
       title: "You think while you read",
-      body: "Reading is the weakest way to learn there is. So a lesson here stops, asks you what you think happens next, and only then tells you. You commit to an answer, then find out. That small bit of work before the reveal is most of the difference between having read a page and knowing something.",
+      body: "Reading is the weakest way to learn. So a lesson stops, asks what you think happens next, and only then tells you.",
     },
     {
       shot: ["chart",
         "A chart from a Bible course showing that of the Bible's 1,189 chapters, 918 sit in one act, the story of Israel.",
         "The Bible: What It Is and How to Read It, lesson 2"],
       title: "Drawn, photographed, and linked",
-      body: "Where a count settles the argument, you get the chart. Where a manuscript or a painting is the evidence, you get a picture of the real thing, credited and licensed. Where somebody has already explained something better than we can in five minutes, the lesson embeds the video and says why to watch it. Nothing is here as decoration, and nothing is generated to look like a photograph or a painting.",
+      body: "Charts drawn from real counts. Photographs of the real thing, credited and licensed. Nothing is decoration.",
     },
     {
       shot: ["review",
         "The Review page showing a question from a completed lesson, with the four answer options and the number due today.",
         "The Review page, mid session"],
       title: "It comes back until it stays",
-      body: "Every question you pass joins your review bank. It returns tomorrow, then in three days, then a week, then a month, with the gap growing each time you get it right and resetting when you miss. Your transcript then shows what you can still recall, which is a different number from how much you once read.",
+      body: "Every question you pass comes back tomorrow, then next week, then next month. Your transcript shows what you can still recall.",
     },
     {
       shot: ["standpoint",
         "The Path page showing a Christian Studies course carrying a Christian Standpoint label next to its title.",
         "The Foval Core, term three"],
       title: "Faith courses say so on the label",
-      body: "Christian Studies teaches from inside the Christian faith and carries a Christian Standpoint label on the card, on the path, and at the top of the course. Objections are put in their strongest form, not a soft version we can knock down. Every other school teaches on neutral ground and leans on neither belief nor unbelief. You always know which kind of course you are in.",
+      body: "Christian Studies teaches from inside the faith, and says so on the label. Every other school stays on neutral ground.",
     },
   ];
 
-  function whySection() {
+  function whyPanels() {
     return `
       <section class="section why">
         <div class="section-head"><h2>What makes this different</h2></div>
-        <p class="why-lede">Every lesson is written from the standard references in its field, then read again in a separate pass for accuracy and for balance. Where a question is genuinely open, you get the disagreement at full strength instead of a tidy answer. Everything below is a photograph of the live site, not a drawing of one.</p>
+        <p class="why-lede">Written from the standard references, then read again for accuracy and balance. Everything below is a photograph of the live site.</p>
         <div class="why-rows">
           ${WHY_PANELS.map(p => `<div class="why-row">${shot(...p.shot)}<div class="why-copy"><h3>${esc(p.title)}</h3><p>${esc(p.body)}</p></div></div>`).join("")}
         </div>
-        <h3 class="why-strip-head">A lesson page is more than words</h3>
-        <p class="why-strip-lede">Reading is where a lesson starts, not where it stops.</p>
-        <div class="why-strip">${WHY_TILES.map(t => tileShot(...t)).join("")}</div>
+      </section>`;
+  }
+
+  function whyMore() {
+    return `
+      <section class="section why">
+        <div class="section-head"><h2>A lesson page is more than words</h2><p>Reading is where a lesson starts, not where it stops.</p></div>
+        ${showcase()}
         <div class="why-rows">
           <div class="why-row why-ask">
             ${shot("feedback",
@@ -302,8 +354,7 @@
               "The foot of every lesson")}
             <div class="why-copy">
               <h3>One ask</h3>
-              <p class="ask-line">We provide this free. The one thing we ask is that you help make it better: when a lesson is unclear or could be better, say so in the form at the bottom of every lesson. We read all of it and use it.</p>
-              <p class="muted small">Not built yet, and next on the list: a two-voice audio version of every lesson, for people who take things in better by listening.</p>
+              <p class="ask-line">We provide this free. The one thing we ask: when a lesson is unclear, say so in the form at its foot. We read all of it and use it.</p>
             </div>
           </div>
         </div>
@@ -323,7 +374,7 @@
           <div>
             <span class="eyebrow">Faith. Knowledge. Life. Free for everyone.</span>
             <h1>A real education, free, for anyone who wants one.</h1>
-            <p class="lede">History, philosophy, mathematics, science, and Scripture, alongside what most schools skip: money, sales, health, self-reliance, and how to think. Written by people who know the subject, checked against the sources, and taught the way a good professor talks.</p>
+            <p class="lede">History, philosophy, mathematics, science, and Scripture, alongside what most schools skip: money, sales, health, and how to think. Checked against the sources and taught the way a good professor talks.</p>
             <div class="btn-row">
               <a class="btn btn-primary" href="#/path">Start the path</a>
               <a class="btn btn-secondary" href="#/courses">Browse the courses</a>
@@ -347,16 +398,41 @@
       </section>
       ${rs.due.length ? `<div class="path-next"><div><h3>${rs.due.length} question${rs.due.length === 1 ? "" : "s"} due for review</h3><p>A few minutes now keeps it from fading.</p></div><a class="btn btn-primary" href="#/review">Review now</a></div>` : ""}
       ${started.length ? `<section class="section"><div class="section-head"><h2>Continue</h2><p><a href="#/my-learning">Your page →</a></p></div><div class="grid">${started.filter(c => !courseComplete(c)).slice(0, 3).map(courseCard).join("")}</div></section>` : ""}
-      ${whySection()}
+      ${whyPanels()}
+      <section class="band">
+        <img src="assets/media/study-laptop.jpg" alt="A man studying alone at a library desk in the evening, a laptop and open books in front of him" loading="lazy" decoding="async">
+        <div class="band-inner">
+          <h2>An hour of real study beats a day of scrolling.</h2>
+          <p>Everything here is built for that hour: lessons that make you work, questions that come back until they stay, and a record of what you can still do.</p>
+          <a class="btn btn-gold" href="#/path">Start the path</a>
+        </div>
+      </section>
+      ${whyMore()}
       <section class="section">
         <div class="section-head"><h2>Courses</h2><p><a href="#/courses">See all</a></p></div>
         <div class="grid">${COURSES.slice(0, 6).map(courseCard).join("")}</div>
+      </section>
+      <section class="band band-right">
+        <img src="assets/media/study-notes.jpg" alt="A student writing in a notebook at a desk by a bright window" loading="lazy" decoding="async">
+        <div class="band-inner">
+          <h2>Bring a notebook.</h2>
+          <p>Every lesson asks for real work on paper before the quiz opens. Slow is fine. Slow is the point.</p>
+        </div>
       </section>
       <section class="section">
         <div class="section-head"><h2>Fifteen schools</h2><p><a href="${REPO}/blob/main/curriculum/TAXONOMY.md" target="_blank" rel="noopener">The full map</a></p></div>
         <div class="schools">${SCHOOLS.map(s => `<div class="school"><b>${esc(s.name)}</b><span>${esc(s.line)}</span>${liveSchools.has(s.name) ? "" : "<br><span class='soon'>courses in progress</span>"}</div>`).join("")}</div>
       </section>
+      <section class="band band-center">
+        <img src="assets/media/study-lamp.jpg" alt="A desk lamp lighting a stack of books and a notebook against a dark bookshelf" loading="lazy" decoding="async">
+        <div class="band-inner">
+          <h2>Class is always in session.</h2>
+          <p>No term dates, no tuition, no application. Pick a course and begin tonight.</p>
+          <div class="btn-row"><a class="btn btn-gold" href="#/path">Start the path</a><a class="btn btn-ghost" href="#/courses">Browse the courses</a></div>
+        </div>
+      </section>
     `);
+    countUp();
   }
 
   function viewCourses(subject) {
