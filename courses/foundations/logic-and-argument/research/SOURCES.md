@@ -460,3 +460,84 @@ Nothing here was newly read; the network was refused throughout.
   session should confirm them.** The IEP one is load-bearing, because lesson 8's second exercise sends
   the learner there. The Annals resolver address for Hviid et al. is constructed from the DOI this
   file does record, and lesson 8's Sources entry says so.
+
+## Added at fix time (lesson 9, Stage 4 resolutions, 2026-09-06)
+
+Written while applying the five Stage 4 reviews of lesson 9. Nothing here is a new reading; these are
+rulings on what the file already holds, made because five reviewers found the lesson quoting past it.
+
+- **Eleven strings that lesson 9 printed inside quotation marks are not in this file and were deleted.**
+  For the record, so no later pass restores them: Weston's "so that others can easily find the source on
+  their own" and "not quite so motivated when the evidence points the other way"; Mangel and Samaniego's
+  49-word problem statement beginning "Aircraft returning from missions have hits by enemy weapons" and
+  the phrase "impairs its mission"; the 30-word mismatched-framing passage beginning "used mismatched
+  framing and did not report the benefits in the same metric as the harms", which is **this file's own
+  paraphrase at the Gigerenzer et al. entry and was never a quotation**; the pill warning's "potentially
+  life-threatening blood clots in the legs or lungs twofold" (the record holds "twofold, that is, by
+  100%" and nothing else); and the three headline shapes attributed to the TED-Ed clip ("reduces the
+  risk by 40%", "up by a factor of two", "doubles your chance"), which nobody has watched. **Do not
+  reintroduce any of these anywhere.**
+- **Quotations must not be extended by a word inside the marks.** Six cases were fixed: "had shown that"
+  moved outside the 7,000-women quotation; "Wald also assumed that" moved outside; "also" moved outside
+  the FactCheck job-chart quotation; "than less numerate ones" cut from the Kahan quotation; "subjects'
+  responses" and "would" moved outside two more Kahan quotations. This is the same defect logged at
+  L6-B1, L8-B1 and L8-B2, and it is now the most frequent single fault in this course.
+- **The FactCheck.org "Numbers" entries carry no bylines.** Lesson 9's Sources list invented a
+  five-author byline ("Gore, D., Jackson, B., Robertson, L., Farley, R. & Jaffe, A."); "Jackson" and
+  "Jaffe" appear nowhere in this directory. The two "Numbers" pages are cited by organisation, title and
+  date only. The two dated fact-checks (9 February 2024 and 19 February 2026) do have recorded author
+  names, and even those are now given as the organisation in the lesson, because the first-name rule
+  below applies to them and the surnames add nothing a reader can use.
+- **The first-names rule, restated for the seventh lesson running.** This file records initials only for
+  Weston, Walton, Mangel, Samaniego, Wald, Furedi, Robertson, Gore, Farley, Kahan, Peters, Dawson,
+  Slovic, Evans, Barston, Pollard and Hoffrage. The first names it does record, and which may be used,
+  are **Gerd Gigerenzer**, **Sarah Leo**, **Casey Dunlop**, **Kurt Straif**, **Abraham Wald** and
+  **Anthony Weston** (the last only inside the recorded PDF filename, which is thin; if that address is
+  ever dropped from this file, drop the first name too). Everything else goes to surnames.
+- **Three details about Wald's memoranda that this file does not hold**, deleted from lesson 9: that the
+  Statistical Research Group was **at Columbia**, that the memoranda were **never published**, and that
+  they were **declassified**. What the record holds is "eight SRG memoranda for the National Defense
+  Research Committee, over 100 pages, reprinted by the Center for Naval Analyses in 1980." Also: the
+  Vietnam-era user of the method was the **Operations Evaluation Group**, not the Center for Naval
+  Analyses, which is the body that reprinted the memoranda in 1980. Lesson 9's body had this right and
+  its Sources entry had it wrong.
+- **The four hit counts on returning planes (19, 39, 18, 26) are derived, not read.** This file records
+  the observed hit *fractions* (.186, .382, .176, .255) and the total of 102. The counts follow exactly
+  (102 × each fraction rounds to 19, 39, 18, 26, summing to 102), and lesson 9 now says they are the
+  lesson's arithmetic rather than figures read from the paper.
+- **The mammography base rate of 4 in 1,000 is the lesson's arithmetic, not the review's.** Gigerenzer
+  et al. record only that a 25% reduction "in fact means that 1 less woman out of 1,000 will die of the
+  disease." The base is uniquely forced by that sentence (a quarter of the deaths being one in a
+  thousand makes the deaths four in a thousand), so the lesson keeps the derivation and says in the
+  lesson's own words that the step is its own. **Two reviewers proposed cutting it and one proposed
+  keeping it silently; neither is right.** The practice item that used to ask a learner to reproduce the
+  two counts has been replaced with an invented hip-fracture conversion, labelled as invented, so no
+  exercise now depends on an unrecorded number.
+- **Nothing about "Group 1 grades the strength of the evidence rather than the size of the risk" is
+  recorded as a claim by Cancer Research UK or by IARC**, and lesson 9 had attributed it to the former.
+  The point is true and the lesson still makes it, but now as an inference the reader can check against
+  the release itself: the same document assigns the top category and quotes Straif saying the individual
+  risk "remains small", and a label that does both cannot be a statement about magnitude. No citation
+  marker is attached to the inference. If a later session reads a source that states the hazard-versus-
+  risk distinction directly, record it here first.
+- **"Over a lifetime" is not recorded, and is probably right.** This file gives "About 61 per 1,000
+  people in the UK develop bowel cancer" with no time base, and lesson 9 had added a lifetime framing in
+  four places, including inside the chart's accessible title. All four are gone from the lesson. A web
+  search run at the fix pass returned a summary of the same Cancer Research UK article saying the
+  figures are lifetime risks ("about 56 cases per 1000 low meat-eaters"; among 1,000 of the heaviest
+  eaters "you'd expect 66 to develop bowel cancer at some point in their lives"). **That is a search
+  engine's summary, not the page, so it is a secondary source and the convention at OUTLINE line 14 keeps
+  it out of the lesson.** It is recorded here so the next session with page access knows what it will
+  probably find. See network item 25.
+- **Two courses named in Connections are `planned`.** *How We Know* and *Statistics for Citizens* are
+  now in the future tense, as lessons 5 and 6 already do it. Third occurrence of this defect.
+- **The Weston chapter IV PDF stays unlinked, and the warning from the lesson 5 pass is discharged.**
+  That pass recorded that the only copy on file is a complete in-print Hackett book on a school
+  district's file server with no visible licence, and named lesson 9 as the lesson to check. Checked:
+  lesson 9 names the book and links nothing, and its Sources entry now says why.
+- **Group 2A is on the record and is now used.** The IARC entry records red meat as "probably
+  carcinogenic to humans (Group 2A)", which no lesson had spent. Lesson 9's practice item 2 uses it as a
+  fresh documented case at no research cost.
+- **CSUN PHIL 200 objective 2 is now used.** The syllabus was read in full at Stage 1 and named in the
+  outline for this lesson, and no lesson had cited it. Lesson 9 now uses its three sources of belief
+  (media, experts, personal experience) to add the third, which the lesson previously ignored entirely.

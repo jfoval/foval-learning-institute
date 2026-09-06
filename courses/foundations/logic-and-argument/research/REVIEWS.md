@@ -1114,6 +1114,37 @@ and 22 to 24 from lesson 8, and it can be cleared in one pass by a session that 
    with no provenance of any kind. Two lessons now lean on it. Until it is graded, lesson 8's Sources
    entry says the books have not been read.
 
+25. **Cancer Research UK's time base for the bowel-cancer figures.** `SOURCES.md` records "About 61 per
+    1,000 people in the UK develop bowel cancer" with no time frame, and lesson 9 had added "over a
+    lifetime" in four places, including inside a chart's accessible title. All four were removed at the
+    fix pass. A search run during that pass returned a summary of the article saying the figures are
+    lifetime risks, which is a secondary source and so stays out of the lesson; open the page itself and
+    record the wording. This one is close to settled and only needs somebody to read the sentence.
+26. **Whether Cancer Research UK's 66 per 1,000 comes from applying the IARC 18% once to 56.** Lesson 9
+    now says the two agree and names the assumption the multiplication needs (that the heaviest eaters
+    are about one 50 gram daily portion above the lightest). The article may say how it got there. If it
+    does, record it and the lesson can drop the hedge.
+27. **One dated headline from the coverage of the 26 October 2015 IARC release.** The lesson opened by
+    asserting that "within hours the headlines had bacon in the same sentence as cigarettes", and
+    `research/` records no press coverage of the release at all. The claim is gone and the lesson now
+    makes the point from the release's own two sentences. One named, dated, citable headline would let
+    the section say what it originally wanted to say, and OUTLINE neutrality note 1 requires exactly
+    that standard for this lesson.
+28. **The contents of the TED-Ed clip.** `SOURCES.md` records channel, title, date and length, all
+    confirmed by oEmbed, and one topic. Nobody has watched it. The lesson's video block now says so out
+    loud. Watch the five minutes and record what it actually covers.
+29. **Sarah Leo's role, and the two chart descriptions.** The record holds her name, the article and two
+    quoted verdicts. "A visual journalist", "a data journalist", "the redrawn version showed his bar in
+    full", "swinging by a couple of percentage points" and "the movement was inside the noise" were all
+    unrecorded and are gone. Reread the article and record her role and what the corrected charts show.
+30. **The alt text on the Wikimedia survivorship figure.** Nobody in this project has seen the image;
+    the alt text was written from the record's one-line description. It has been softened to what the
+    record supports. Someone with a browser should look at the file once and write the alt text from it.
+31. **The four Gigerenzer et al. items lesson 9's Go deeper claimed and the record does not hold:**
+    "survival versus mortality rates" and "how to write a fact box" as contents of the 2007 review, plus
+    whether the review prints the mammography base rate anywhere (see the fix-time note on 4 in 1,000).
+    The full text is free at the kops address already on file, so this is a read, not a hunt.
+
 ### Requests for the shared files
 
 These belong to files another session owns (`docs/`, `curriculum/`, `site/`, `scripts/`), so they are
@@ -1128,9 +1159,9 @@ recorded here rather than made.
    **not** split, on two reviewers' advice each. So the Logic course stands at four confirmed seams
    and will be fourteen lessons after the pre-publish renumbering, unless lessons 8 to 10 add more.
 2. **`docs/BACKLOG.md` section 1.** The Logic entry needs updating as lessons land; as of this pass,
-   lessons 1 to 8 are reviewed and fixed (lesson 1 still owes the targeted re-source pass for its
+   lessons 1 to 9 are reviewed and fixed (lesson 1 still owes the targeted re-source pass for its
    Hurley and Copi citations, and for four argument-display rules that are off the 72-character house
-   width), lessons 9 and 10 are not, and the assessments folder does not yet exist.
+   width), lesson 10 is not, and the assessments folder does not yet exist.
 3. **`research/OUTLINE.md` line 74 has impossible arithmetic** for lesson 5's practice set: "two
    generalisations, two analogies, two causal claims, one IBE, one conductive" is already eight, and
    the same sentence asks for "three of them" to be deductive look-alikes. The lesson now ships nine
@@ -1141,6 +1172,19 @@ recorded here rather than made.
    line before `C:`, which slips the pattern but still renders as a list plus a stray paragraph
    rather than as a standard form. Allowing optional blank lines in that pattern would have caught
    all eight without a human reading for them.
+5. **`scripts/build.mjs`, a second linter gap, and this one has now cost two lessons.** The SVG check
+   catches a fill hardcoded light or dark, and cannot see two *theme tokens that resolve to the same
+   value*. `--line-strong` and `--navy` are identical in both themes (`#0f2a4a` light, `#c9d3e2` dark,
+   at `site/assets/styles.css` lines 13 to 14 and 36 to 37), so lesson 9's only chart drew a
+   1,000-person track and the count inside it in two tokens that painted the same colour, and the
+   figure had no payload in either theme. A check that resolves each SVG's tokens against both palettes
+   and warns when a fill and the fill drawn on top of it come out equal would have caught it. Lesson
+   8's dark-theme failure was the same class. Until it exists, the house rule stands: render headless
+   at 340px in both themes before committing any figure.
+6. **`site/assets/styles.css`, worth a look by whoever owns it.** `--line-strong` and `--navy` having
+   the same value in both themes makes one of the two names misleading. Nothing in our courses depends
+   on them differing, so this is a naming question rather than a bug, but every author who reaches for
+   `--line-strong` expecting a rule colour gets navy.
 
 ---
 
@@ -2913,3 +2957,177 @@ cashed at first use, and all eight pipeline sites renamed.
 5. **The Robinson explanation is not replaced, only removed.** Reasons above. This is the first finding
    in the course where the reviewers' proposed fix could not be applied because the record itself may
    be wrong.
+
+---
+
+## Lesson 9, "Bad reasoning in the news and everyday life" — Stage 4 round 1, 2026-09-06
+
+Five fresh-context reviewers: depth, fact-check, neutrality, pedagogy, voice. All five reports read in
+full before anything was changed, which is the standing practice and earned its keep again here: three
+reviewers proposed replacement text that a fourth had independently disproved.
+
+**Where the lesson started well, and it matters after six lessons of the same failure.** Hurley, Copi
+and Govier appear nowhere in this lesson, body or Sources, and the barred Weston PDF is named and not
+linked. The drafter got both right unprompted, and dropped the outline's stale "Hurley ch. 12" line
+without being told. That line has now been struck in `OUTLINE.md` with the reason inside it, as the
+lesson 6, 7 and 8 passes did for theirs, so it stops feeding forward. The matched pair meets the
+outline's hardest contract for this lesson: two documented, dated, cited instances from opposite
+political sides, run through one checklist to one verdict, with the checker's own even-handedness
+quoted from both sides' pages. The neutrality auditor could not tell from the text which way the author
+votes, which was the controlling test set at lesson 8.
+
+### The findings, consolidated
+
+**L9-B1 (all five). The one chart had no payload in either theme.** The 1,000-person track was drawn in
+`var(--line-strong, #9a9a9a)` and the count inside it in `var(--navy, #0f2a4a)`. Those two tokens are
+identical in both palettes (`#0f2a4a` light, `#c9d3e2` dark, `site/assets/styles.css` lines 13 to 14 and
+36 to 37), so the hex fallbacks never fired and the two rectangles painted the same colour. The caption
+also overflowed the viewBox and was clipped, seven labels sat under font-size 15, and the ten extra
+cases were encoded by colour alone with the label thirty-eight units away from the three-unit segment it
+named. This is L8-B9 with the light theme added, and it is the second lesson in a row where the linter
+could not see the fault. Redrawn: `--bg` track with a `--navy` stroke, `--text-2` fill, oxblood segment
+with a leader line and a written label, everything at font-size 15, caption in prose beneath. Rendered
+headless at 340px in both themes before committing. Recorded as a linter request below.
+
+**L9-B2 (fact-check, depth, voice). Eleven strings printed inside quotation marks are not on the
+record.** Two attributed to Weston, a 49-word passage plus a phrase attributed to Mangel and Samaniego,
+thirty words attributed to Gigerenzer et al. that are **this project's own paraphrase**, the pill
+warning's clinical descriptor, and three headline shapes attributed to a video nobody has watched. Six
+more quotations had a word added inside the marks. All deleted or repaired, and listed by string in
+`SOURCES.md` so no later pass restores them. On the count of recurrences this is now the most frequent
+single fault in the course.
+
+**L9-B3 (fact-check, depth, pedagogy). Quiz 1's keyed answer was arithmetically wrong and its own
+`explain` gave the right numbers.** The stem follows 10,000 people in two arms, so 300 in 5,000 is 6%
+and 200 in 5,000 is 4%: a two-point absolute fall and 50 treated per stroke prevented. The keyed option
+said "from 3 in 100 to 2 in 100 ... so 100 people", which needs 10,000 per arm, while the explain said
+6% and 4%. A learner doing the arithmetic the lesson spends two thousand words teaching found no correct
+option and was then told they were right. Option and explain fixed; the stem now says "half on the drug
+and half on a placebo"; the answer index and the key spread are unchanged.
+
+**L9-B4 (all five). Two worked gaps printed their own answers in plain body text.** Ninth and tenth
+occurrence of the defect closed at lesson 1 resolution 29 and reopened in every lesson since. Both are
+now `:::predict` blocks. The bacon one names the assumption the conversion needs and teaches the
+asymmetry (counts give you the ratio, the ratio never gives you the counts); the fuselage one adds the
+diagnostic line lesson 3's review asked every lesson to carry.
+
+**L9-B5 (fact-check, depth, pedagogy, voice). Zero links, in the lesson that teaches rule 13.** Thirteen
+addresses were sitting in `SOURCES.md` recorded verbatim. All are now in the body or in Go deeper. The
+Weston PDF stays unlinked and the lesson says why, which discharges the warning the lesson 5 pass left
+for this lesson specifically.
+
+**L9-B6 (pedagogy, depth). The practice set had no key, and all three of its cases were already
+adjudicated in the body.** Both halves of L8-B6 in one section, and the only computational item was
+pre-answered by a checkpoint a hundred lines earlier. Rebuilt: item 1 runs the source questions on the
+coverage rather than on IARC, item 2 uses the Group 2A classification that no lesson had spent, item 3
+keeps the matched pair but asks for the missing premise and the flipping comparison rather than the
+verdict, item 4 is a new survivorship item, and the conversion is a fresh invented hip-fracture case
+labelled as invented. A model-answer checkpoint covers all five, with the commonest error named.
+
+**L9-B7 (depth, pedagogy, voice). The lesson told the reader to write the argument down and never wrote
+one.** The only one of the drafted lessons with no standard-form display at all, in the lesson that
+applies the whole method. Three added on the 72-character rule: the IARC appeal to authority at the head
+of the source section, which lets the lesson show an argument passing all six of Walton's questions and
+still being misreported, and the two halves of the matched pair one under the other, which is what makes
+"the same sentence" something the reader can see.
+
+**L9-B8 (neutrality). The lesson ran rule 15 on both presidents and exempted the fact-checker**, in the
+author's voice, by asserting it had "no stake". That is not checkable and it is exactly what a large
+body of readers disputes. The lesson now runs the rule on the checker too and answers it with the thing
+the record already held: the same organisation saying the same sentence about each president. This was
+the auditor's strongest finding and it makes the section teach rather than assert.
+
+**Depth, fact-check and neutrality, applied without further comment:** the invented five-author
+FactCheck byline; ten unrecorded first names and about twenty unrecorded initials; the Columbia,
+"never published" and "declassified" details about Wald's memoranda; the Operations Evaluation Group
+misattributed to the Center for Naval Analyses in the Sources entry; the invented emergency media
+announcement and the "decline running since 1990"; the four hit counts presented as read rather than
+derived; the four unrecorded glosses on the Leo article and her two contradictory job titles; the two Go
+deeper entries describing contents the record does not hold; the Group 1 gloss attributed to Cancer
+Research UK; the "over a lifetime" time base; the two `planned` courses in the present tense; the orphan
+`[6]` marker; the Evans entry saying "abstract only" when the full text was read and linked at lesson 2;
+the Kahan cell-level clause and the added italics; the unglossed British and jurisdiction-specific
+references; the lesson's own mismatched framing (3 in 100 against 19%) twelve lines before the callout
+forbidding it; the medical date-and-scope note pointing back to lesson 6's disclaimer; the invented-figure
+labels; and the imputed motives ("on purpose or by accident", "a chart that doesn't want checked", "a
+celebrity on anything", "distressed women").
+
+**Pedagogy and voice, applied:** contraction rate raised in the four coldest sections, including the
+1,208-word central teaching that carried one; all five "Here is" openers rewritten; both "the mechanism"
+sites and `:::exercise Do it now` renamed for the ninth time; ten of the sixteen paragraph-final morals
+folded; relative risk, absolute risk, base rate and the log scale cashed where the reader meets them;
+Group 1 explained in the opening rather than seventy lines later; six new think-blocks in the four
+sections that had none, including a predict that makes the reader commit before the matched pair's
+symmetry is revealed; the six-step check retrieved before it is printed and Walton's six questions
+retrieved rather than handed over; a free-recall paragraph before the quiz; three quiz items replaced
+(the invented political example, the invented crime statistic, and the item whose key was a body
+sentence rearranged); the fund-advert leak deleted from the survivorship list so quiz 2 is a clean
+application; objective 2 widened to cover the axis baseline that quiz 4 tests; the parenthetical
+citation removed; and the en dash inside the Kahan quotation rendered as a comma with a note in Sources.
+
+**Two sections added that the reviewers argued for and I agree with.** Depth's mechanism for expert
+disagreement, because every other section of this lesson earns its keep on a mechanism and that one
+asserted three things to look for with no account of why honest experts end up apart. And pedagogy's
+"What a claim that survives looks like", because six of six worked cases in the body failed, three of
+three practice items failed, and five of six quiz items keyed on a flaw, so a reader finishing the
+lesson had no model of a claim that passes. The material was already in the file and was already the
+hero of the lesson: Cancer Research UK's article passes all five questions and the lesson never ran
+them on it. The checklist now has a seventh step saying what an argument has earned, with three outcomes
+rather than one.
+
+**`minutes: 50` to `minutes: 90`.** Pedagogy costed 88 by components and proposed 80; depth proposed 70
+rising to 75; voice said 50 was not reachable and left the number to pedagogy. The fix pass added
+roughly 2,500 words, which is past the point at which pedagogy's own note said to re-cost, and 90 puts
+it level with lesson 7 on the course's measured words-per-minute. `OUTLINE.md` line 116 corrected in the
+same pass.
+
+### Split test: REFUSED
+
+Both reviewers who ran it refused, on the same reasoning and against two different candidate seams. The
+lesson is one checklist assembled in five pieces and you cannot ship half a checklist: either seam gives
+a Part A that promises five questions and never hands over the object built from them, which is the
+ground on which lessons 2 and 8 were refused. Part B would carry no worked example of its own, no
+separable practice, and a quiz divided four to two. Motivated reasoning is not a second lesson; the
+outline puts the inward turn in lesson 10 and reserves the reader's own bias here as the sixth step of
+the same procedure.
+
+**House form for a refused split, per lessons 2 and 8: the `:::callout A good place to stop` alone, no
+`<!-- SPLIT SEAM -->` comment, nothing renumbered.** The Logic course stays at four confirmed seams.
+Placed after the charts section and before the matched pair, which is pedagogy's location rather than
+depth's: depth put it earlier, before the charts, but the charts section completes the second number
+question, and both reviewers agree the matched pair and motivated reasoning are what wants a fresh head.
+
+### Deliberately not fixed, with reasons
+
+1. **The mammography base rate of 4 in 1,000 stays, and is now marked as the lesson's own arithmetic.**
+   Depth and voice both wanted it out; the fact-checker wanted it kept and predicted, correctly, that
+   others would flag it. It is not on the record, and it is uniquely forced by the sentence that is: if a
+   quarter of the deaths is one in a thousand, the deaths are four in a thousand. Cutting a derivation
+   the reader can check, in the lesson about putting the base rate back, would have been the wrong
+   lesson. What depth was right about is the dependency: the practice item that asked a learner to
+   reproduce those counts is gone, replaced by an invented conversion, so no exercise now rests on it.
+2. **Quiz 6 is rebuilt as a head teacher, not as the documented White House case.** The fact-checker
+   proposed keying it to the matched pair. That would have made it a recall item on a case the body
+   adjudicates in full, which is the very fault L9-B6 fixes in the practice set. Pedagogy's version is a
+   fresh application with no invented political actor, and its explain still points at both halves of
+   the pair.
+3. **The invented-figure labels are on the two quiz items where the invention could mislead** (the
+   clinical trial and the chart) and on the two invented practice items, not on every hypothetical.
+   Labelling the fund manager, the sleep app and the head teacher would turn lesson 6's number hygiene
+   into a tic; the rule those labels exist for is that an invented *figure* must not be repeatable as a
+   fact, and a fund that beat the market is not a figure.
+4. **The Corbyn chart stays, second, with a gloss and a sentence.** Depth read the charts section as
+   running one political side alone. The arguer convicted is the outlet, on itself, and the error ran
+   against the side it depicted, so it is not a single-sided political example under the outline's rule;
+   the neutrality auditor reached the same conclusion independently. The section now leads with the
+   Brexit chart, which names no party, glosses Corbyn for readers outside the UK, and says out loud that
+   both cases are British politics because that is what the paper was charting that month.
+5. **The "you may have noticed which of the two you wanted to defend" line stays, and its follow-on
+   goes.** Voice wanted the whole closer folded as a self-referential tic; depth called it the best
+   pedagogical move in the second half. Both are right about different halves of it. The observation
+   stands alone; "Hold that thought; it's the next section" is gone.
+6. **The lifetime framing is not restored on the strength of a search summary.** A search run during the
+   fix pass indicates the Cancer Research UK figures are lifetime risks, which is what the lesson used to
+   say. A search engine's summary is a secondary source, and OUTLINE line 14 sets the bar at
+   read-it-or-omit-it, so the lesson goes without a time base and network item 25 stays open with the
+   finding recorded against it.
