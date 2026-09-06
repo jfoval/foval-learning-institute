@@ -11,11 +11,15 @@
     "feedback": "node scripts/feedback.mjs",
     "feedback:deploy": "wrangler deploy --cwd workers/feedback",
     "net": "node scripts/net-quotes.mjs",
-    "build:drafts": "node scripts/build.mjs --drafts"
+    "build:drafts": "node scripts/build.mjs --drafts",
+    "shots": "node scripts/screenshots.mjs"
   },
   "license": "CC-BY-SA-4.0",
   "dependencies": {
     "js-yaml": "^4.3.2",
     "marked": "^13.0.3"
+  },
+  "devDependencies": {
+    "playwright-core": "^1.56.0"
   }
 }
