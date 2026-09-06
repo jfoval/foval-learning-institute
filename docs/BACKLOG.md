@@ -76,18 +76,32 @@ parallel sessions is the ceiling. A platform session must not touch `courses/` o
 
 ## 1. Pipeline state right now
 
-*Rewritten 2026-09-06 at the end of a long session. This is the handoff.*
+*Rewritten 2026-09-06 at the end of the marching-order session. This is the handoff.*
 
 ### If you are starting fresh, read this paragraph first
 
-Nothing is half-finished on disk. The working tree is clean and the branch
-`claude/courses-to-be-added-78s29b` is pushed. The last session worked on the curriculum map and the
-tooling around it, not on lessons, so no course moved and no lesson changed. **The next real work is
-still lesson reviews**: Bible Basics lesson 3 (check `research/REVIEWS.md` for how far its cycle
-got), then lesson 4 onward, and Logic and Argument lesson 2, whose five reviews are written up as a
-work order with the fixes not yet applied. Both are described below. Everything shipped on
-2026-09-06 is in `docs/CHANGELOG.md`; sections 10 to 13 here are new course requests and notes,
-none of which are started or urgent.
+Nothing is half-finished on disk; the working tree is clean and `main` is pushed. The last
+session worked the marching order (0b) top down and closed its first two items: **the podcast
+pipeline is built** (`scripts/podcast.mjs` + `/make-podcast`, dry-run tested against the live
+lesson 2 episode) and **How to Learn Anything is at the new standard**: the six answer leaks
+fixed (lint now fails published builds), and the media pass done on all eight lessons (five
+data charts, two diagrams, six videos, verified links throughout; every visual checked in both
+themes at phone and desktop width). So the topmost unfinished work is now, in order:
+**(1) podcast How to Learn Anything, one episode per session** — the lessons are settled, so
+`/make-podcast courses/learning-and-mind/how-to-learn-anything/lessons/01-...md` is the next
+command, ~$0.30 an episode from the fal credits; **(2) Personal Finance into the pipeline**
+(0b item 3); and, runnable in parallel by a second content session, **the reviews that were
+already queued**: Bible Basics lesson 3 (check `research/REVIEWS.md` for how far its cycle
+got) and Logic and Argument lesson 2, whose recorded fixes are still unapplied. Everything
+shipped on 2026-09-06 is in `docs/CHANGELOG.md`; sections 10 to 13 here are new course
+requests and notes, none started or urgent.
+
+**Tricks the media pass proved, worth reusing on the placeholder courses:** the gocognitive
+YouTube channel is short interviews with the researchers the lessons actually cite (Bjork,
+Baddeley, and more); verify every URL before it goes in (curl the PDFs, YouTube's oEmbed
+endpoint for videos; several candidates failed and were swapped); verify chart numbers
+against the paper itself when the lesson doesn't carry them; and place charts so they don't
+sit beside a `:::predict` whose hidden answer they would print.
 
 **One thing changed that affects how you work:** adding a course to `curriculum/TAXONOMY.md` now
 requires a `Path` cell (a Core term or `elective`) and `npm run validate` fails without it. See
@@ -461,9 +475,11 @@ ships, not what the toolchain uses, but it is a dependency and worth knowing abo
 The podcast is named in the ask block as not built yet, in one line, rather than given a panel. It
 gets a panel when it exists (see section 6).
 
-**Content note for whoever owns `courses/`:** How to Learn Anything is the institute's shop window
-and it currently has no images, no charts, no video and no links in any lesson body. That is the
-media pass under standards 4.5 and it is the single highest-value content job for the homepage.
+**Content note for whoever owns `courses/`:** How to Learn Anything is the institute's shop window.
+It used to have no images, charts, video or links in any lesson body; the media pass under
+standards 4.5 was **done on all eight lessons on 2026-09-06** (see 0b item 2), so the shop window
+now shows what a Foval lesson is. If a homepage capture ever photographs one of these lessons,
+the new charts and video blocks are what it should show.
 
 ## 7b. Lesson splits: SETTLED. Do not re-open with John.
 
@@ -677,7 +693,8 @@ lesson already rested it. The argument is unaffected; the texture of the passage
 
 ## 8e. Known defects not yet fixed, course-wide
 
-- **38 lessons have no links in the body**, against 4.5. Warned by the linter. Needs per-lesson
+- **28 lessons have no links in the body** (was 38 before the How to Learn Anything media pass),
+  against 4.5. Warned by the linter. Needs per-lesson
   judgement about which sources to link, so it belongs in each lesson's review pass.
 - **SVG labels under font-size 15** in several lessons. Warned by the linter. Raising a font size in
   a fixed viewBox can overflow, so each needs the viewBox widened rather than a blind bump. Logic
