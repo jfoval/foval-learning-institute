@@ -332,3 +332,221 @@ the authors' names and Plymouth Polytechnic affiliation; **the 87% / 48% figures
 attribution to Experiment 2** (verified from p. 300); the three other *forall x* quotations; the
 Copi and Klauer and Dube bibliographic details; that Hurley does correct the general-to-particular
 myth explicitly; all six practice answers; the four-cell table; zero em dashes.
+
+### Resolutions applied, 2026-09-06
+
+Applied in one fix pass over `lessons/02-valid-and-sound.md`, `research/SOURCES.md` and this file.
+`npm run validate` exits 0 and lesson 2 now raises **no linter warnings at all**; it previously
+raised two (three unfenced argument displays, and no links in the body). Frontmatter re-parsed after
+every edit: six quiz items, each still a mapping with `q`, `options`, `answer` and `explain`; answer
+key now `1,2,2,1,3,0`, using all four indices. Zero em dashes. Body 7,735 words.
+
+**One constraint shaped several of these fixes and is recorded here so the next reviewer does not
+mistake it for laziness.** Every outbound network request from this session was refused by the
+egress proxy. No source could be opened, re-read or re-verified, including the ones this course has
+read before. Where a fix depended on reading something, the paragraphs below say what was done
+instead, and `SOURCES.md` carries the same caveat at the entry it applies to.
+
+**L2-B1, the integrity finding: re-sourced, not patched.** Hurley and Copi could not be read (both
+paywalled; nothing reachable). So the second half of the finding was taken: lesson 2 no longer cites
+either, anywhere. Hurley's three citations and Copi's one are gone from the body, both are gone from
+the Sources list, and the Hurley entry in Go deeper is replaced by Van Cleave 1.6 to 1.8, free, CC
+BY, linked twice in the body and three times in Go deeper. What each book was carrying went as
+follows. The four-cell table no longer appeals to "standard textbooks such as Hurley's and Copi's"
+at all; it is now derived from the definition of validity the reader already has, which is better
+teaching as well as honest sourcing, since the empty cell is a consequence of the definition rather
+than a convention textbooks share. The deductive/inductive distinction and the definitions of valid
+and sound now rest on Van Cleave 1.6 to 1.8 and on *forall x*. `SOURCES.md` carries a new standing
+note: neither book has been read, no lesson may cite either until one is, and **lessons 1 and 5
+still carry the same defect** (lesson 1 in Sources 3 and 4, lesson 5 in six prose citations and
+Source 1). Those are logged for their own passes rather than fixed here.
+The Van Cleave entry itself is honest about its own grade: the LibreTexts pages were unreachable, so
+its wording came from cross-checked search-engine extracts, it is marked in `SOURCES.md` as one
+grade weaker than "read from the source", and lesson 2 quotes only the two short phrases that
+appeared verbatim in those extracts.
+
+**L2-B2, "counterexample" defined three ways: both notions named, and related.** A new short section,
+"Two ways to say the same thing", separates the semantic notion (a possible case in which the
+premises hold and the conclusion fails, which is what the word means) from the substitution
+technique (build a *different* argument with the same shape whose premises are plainly true and
+whose conclusion is plainly false), and says how the second produces the first: it lets you build a
+possible case you can see all at once, and it works because validity belongs to the shape. The
+technique is named, refutation by logical analogy, and pointed forward to lesson 8. Objective 2 now
+covers both readings in one sentence instead of committing to one while objective 1 commits to the
+other. The practice instruction and the model answers agree with each other.
+
+**L2-B3, the quiz: four of six items replaced.** Q3 (soundness) is rebuilt on four fresh arguments,
+none from the body: a valid argument with a false premise, an invalid one with true premises, the
+sound one, and, as the item to dwell on, an invalid argument with true premises *and a true
+conclusion*, which is the trap the four-cell table exists to remove. This also disposes of L2-F10,
+since the Moon option is gone. Q4 (belief bias) is rebuilt on a fresh pair (fizzy drinks against
+vegetables) that actually splits on believability, and its self-refuting distractor is replaced by
+one that predicts the wrong direction coherently. Q5 (which was the deductive/inductive item whose
+key was line 140 verbatim, and which leaked three ways) is replaced by an application item on the
+order of operations, keyed at index 3 with options of even length. Q6 keeps the substitution task
+but on a shape the body does not work (no A are B, some C are not A, so some C are B) with fresh
+content, and its fourth option is now the instructive failure: a substitution that reaches a false
+conclusion but has a false premise, so it proves nothing. Q1's stem now asks for the verdict *and*
+the reason, so the two "invalid" options no longer both count as right. All six are application
+items on cases not in the text.
+
+**L2-B4, the printed answer key: hidden.** The six practice answers are now inside
+`:::checkpoint Open this when all six verdicts are written down.`, matching what lesson 1 does. The
+spaced-review item at the end had the same defect in miniature (it asked a question and answered it
+six words later) and is now set as a task with its answer in a checkpoint too.
+
+**L2-B5, the three argument displays: fenced.** All three now use the house form from lesson 1:
+fenced block, numbered premises, a rule, then `C:`. The linter no longer reports them.
+
+**L2-N1, the load-bearing takeaway: restated as the actual shared ground.** "The practical fact,
+which no one disputes" is gone. The lesson now says which part is disputed (the mechanism, and the
+size of the invalid-versus-valid difference) and which part every camp accepts, Dube and colleagues
+included: a conclusion you already believe is more likely to get your endorsement, whether or not
+the argument has earned it. It then shows that the advice survives either account, because testing
+the link first works whether the effect is less checking or a lower bar for saying yes.
+
+**L2-N2 and L2-N3, the dissent: named, explained, and given its target.** Dube, Rotello and Heit are
+named in the body, their position is stated as they hold it (a shift in response bias rather than in
+reasoning accuracy), and the misdescription is corrected in so many words: their claim is not "we
+cannot tell", it is "we can tell, and the answer is response bias". The interaction they dispute is
+no longer listed as established; the established column is now the bare pattern, and the sentence
+that follows says the interaction is exactly what their sharpest argument targets and what the
+chart's two gaps display. Klauer and colleagues are named too, with the correction from L2-F8: four
+experiments and an account of their own, not a shrug (L2-D9 covers the same point).
+
+**L2-N4, the replication's own figures: included.** All four are given (74, 59, 70, 29) with the
+41-point invalid gap set against the original's 61, and the moral drawn where it belongs: the
+direction is robust, the magnitude moves with the materials, which is worth remembering about any
+single striking number, "this lesson's included".
+
+**L2-N5, practice item 6: replaced.** The voting-eligibility item is gone. It is now library
+borrowing and a borough resident who never joined, which carries the same necessary-versus-sufficient
+point with no immigration content, as the review suggested.
+
+**L2-N6, the six smaller items: all six done.** The believability labels are now attributed to the
+experimenters and described as fixed in advance from ratings rather than asserted in the author's
+voice. "Prejudiced" is glossed as its 1983 sense, pre-judged. "Judgement fell to a coin toss" is
+replaced: 48% looks like guessing and was not, because the subjects were being pulled off the answer
+in a particular direction. "You can't switch belief bias off" is replaced by a claim with a reason
+attached (nobody has shown a way to stop belief arriving first, and the studies find it in people
+who have just been told not to let it in). "The part the textbooks were slower to admit" is gone,
+with its imputed motive; the sentence now says the finding was not obvious from the armchair and
+took an experiment. And the instruction wording is now given as it was: subjects were told to accept
+only conclusions that necessarily followed, which is what the misinterpreted-necessity account turns
+on, and the misconception entry says so.
+
+**L2-D1, the missing media: two figures, both drawn from verified numbers.** The first is the 2x2
+table itself, because which cell is empty is a spatial fact prose cannot carry; three cells read
+"conclusion can be either" and one reads "conclusion must be true", so the asymmetry is visible
+before it is explained. The second is a four-bar chart of the 1983 acceptance rates. The reviewers
+warned that this could not honestly be drawn, on the ground that the valid-cell figures were
+unverified; that warning is now out of date. `SOURCES.md` line 153 records the 89/56/71/10 figures
+as **resolved** on 2026-09-06, read from Tables 1, 2, 4 and 6 of the paper, with the correction that
+they are sample-weighted means across the three experiments. The chart is captioned accordingly and
+the text tells the reader to read the two gaps rather than the four numbers. Both SVGs use theme
+tokens for every fill and font-size 15 throughout, so neither raises a linter warning, and lesson
+10's SVG was deliberately not used as a template.
+
+**L2-D2, zero links: now nine.** *forall x* is linked at first use (the dead URL in Go deeper is now
+a live link), Van Cleave 1.6, 1.7, 1.8 and the chapter index are linked, the 1983 paper is linked to
+its free full text at core.ac.uk, and Evans 2003 is linked.
+
+**L2-D3, Massey: three sentences, as prescribed.** "A failed attempt proves nothing, and a successful
+one proves everything" is gone. The asymmetry is now stated accurately (one clean substitution
+settles invalidity; failed attempts settle nothing), and then deepened: an argument instantiates
+more than one form, so you have to choose which shape to hold it to, which is why "no argument can
+be convicted of being a fallacy on logical grounds". The passage says plainly that in practice a
+clean counterexample on the obvious shape is as convincing as reasoning gets, and hands the
+objection to lesson 8, where naming fallacies from shape alone is the business.
+
+**L2-D4, the pre-labelled demonstration: un-labelled.** The four syllogisms now appear numbered and
+bare, with the instruction the 1983 subjects were given and a request for four written answers
+before reading on. The cells are revealed in a `:::predict` afterwards, which also asks which two
+share a shape, and which ends by telling the reader what their own pattern of answers means. This is
+what OUTLINE.md specified and the draft dropped.
+
+**L2-D5 to L2-D9: all five done.** D5, the replication 2x2 is used (see N4). D6, the presentation-order
+paper is now described as what it is, and the finding this lesson's advice actually rests on is
+reported: subjects who started at the conclusion were more swayed by belief, those who started at
+the premises reasoned better. That claim appears twice, once in the mechanism section and once as
+the support for the order of operations. **What is not claimed is the order manipulation's own
+result**, because `SOURCES.md` does not record it and the paper could not be opened; saying "the fix
+is an order of operations" and then citing an order experiment for a result it does not record would
+have been the same defect as L2-B1 in a smaller size. D7, a free-recall block now sits immediately
+before the quiz, naming the five things to try to recall. D8 and L2-F7, misinterpreted necessity is
+named and its content given: treating a conclusion merely *consistent with* the premises as one that
+*follows from* them. D9, Klauer and Dube are cited by author throughout.
+
+**L2-F1, the misattributed figures: corrected everywhere.** The predict block now reads "71% of the
+invalid arguments with a believable conclusion, the type item 3 illustrates" and says in the same
+breath that the figures belong to the four problem types rather than to those two passages, because
+each subject saw one problem per topic. Quiz Q4's explanation carries the same correction. L2-F11 is
+folded in nearby: the arguments reached subjects inside prose passages of about eighty words, which
+changes what the effect is a result about, so it is stated rather than left out.
+
+**L2-F2 to L2-F13: all applied.** F2, Lambell et al. now has its full citation, and the figures are
+attributed to the 1983 paper, which has been read, rather than to the restatement. F3, the *forall x*
+ellipsis is gone; the footnote is quoted in full and put to work, since the case it describes is the
+empty cell and it is the only place where looking at the world settles a question about the link.
+F4, "the most widely assigned introduction to logic in the United States" is gone, with a note in
+`SOURCES.md` never to reintroduce it. F5, the authors' third account is now in the lesson, presented
+as a caveat about their own materials and as the sort of caveat worth copying. F6, selective scrutiny
+is marked as a later name for a mechanism the 1983 paper describes unlabelled. F8, F9 and F10 as
+above. F12, "In *forall x*'s words" no longer introduces a paraphrase; the paraphrase in the
+misconceptions section is now unquoted and Source 1 says which of the two it is. F13, the reductio
+aside has moved out from beside the checkpoint to after it, and now says what it was missing: in a
+reductio you have nominated the suspect premise in advance, which is why it delivers a verdict where
+the table alone leaves you to work out which premise has to go.
+
+**Voice and pedagogy: done.** All four "Here is" openers rewritten, including the lesson's opening
+words. Pipeline vocabulary out of every heading ("Worked example" twice, "Where it goes wrong in
+practice", "the mechanism") and out of the two sentences that carried it, including "The mechanism
+the outline of this course uses", which pointed the learner at a document they have never seen. The
+one-line morals are folded into their paragraphs except the two the review said must survive.
+`minutes` is 40 no longer; it is 70. The invented "a quarter" statistic is gone with the section that
+carried it. The 57-word sentence is broken up, and no sentence in the lesson now runs past about 35
+words.
+
+**Split: not split, as both reviewers advised.** `minutes` is 70 and a `:::callout A good place to
+stop` sits at the seam the reviewers identified, after the counterexample machinery and before belief
+bias, telling the reader to break there if they are reading in one sitting. No `SPLIT SEAM` comment
+was added, because the verdict was not to split and BACKLOG 7b's marker is for confirmed seams.
+
+**Everything the review said must survive, survived**, checked line by line: the damp-then-cats
+opening and "Same skeleton"; "Your neighbour might still be right about the damp. Their argument
+didn't show it."; the bridge from the wrong bank; the Symmetry callout; the honest limits; both
+halves of the 1983 result including "equally substantial effects of logic"; and all four Evans 2003
+syllogisms verbatim.
+
+### Deliberately not fixed, with reasons
+
+1. **The "myth worth clearing away" section was cut from lesson 2, not moved to lesson 5.** The
+   review's instruction was to move it. Lesson 5 turns out to teach the same correction already, at
+   its line 68, and to open it with "Lesson 2 warned you off the general to particular myth; here's
+   the spaced repeat." Moving 257 words into a lesson that already has them would have produced a
+   duplicate, so lesson 2 keeps a three-sentence misconception entry with the correct account and a
+   pointer to lesson 5, which is what the outline asks lesson 2 for, and lesson 5 keeps the full
+   treatment. **Lesson 5's version sources the correction to Hurley and will need re-sourcing in its
+   own pass**; that is logged in `SOURCES.md`, not fixed here, because this pass touches one lesson.
+2. **Copi is not named as the origin of "refutation by logical analogy".** The review asked for the
+   attribution. The term is named in the lesson because a learner will meet it, but crediting it to a
+   book this course has never opened is the exact defect L2-B1 is about, and it would have been
+   perverse to reintroduce it inside the fix for it. The term is given without a citation, and
+   `SOURCES.md` records that the attribution is owed.
+3. **Lesson 1's and lesson 5's Hurley and Copi citations are left standing for now.** They are the
+   same integrity defect and they are recorded as such in `SOURCES.md`, with the specific line
+   references. Lesson 5 gets its own Stage 4 cycle, which is the right place. Lesson 1 has already
+   had its cycle, so it needs a separate targeted pass before the course is published; it is on the
+   task list for this session, not dropped.
+4. **The presentation-order result from Lambell et al. is not reported**, only the protocol finding
+   and the paper's subject. See L2-D6 above. Reporting a result that is not in `SOURCES.md` and could
+   not be read would have reintroduced L2-B1.
+5. **The 1980 norming study behind the believability labels is not cited.** The neutrality report
+   named it. Nothing in `SOURCES.md` records it and no source could be opened, so the lesson says
+   what is defensible without it: the labels are the experimenters' categories, fixed in advance from
+   ratings of the conclusions rather than assigned afterwards. If a later pass finds the norming
+   study, the sentence can name it.
+6. **No independent re-verification of the fact-check findings was possible.** F1, F3, F5 and F11
+   rest on the reviewers' reading of the 1983 paper and of *forall x*, which `SOURCES.md` records as
+   read from full text. With the network closed, this pass could not re-open either. They are applied
+   on the reviewers' authority, and that is worth a spot-check by a session that can reach the PDFs.
