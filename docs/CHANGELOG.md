@@ -8,6 +8,16 @@ Everything from the founding onwards is here. Entries before 2026-09-06 came fro
 
 ## 2026-09-06 (podcast pipeline session)
 
+**How to Learn Anything lesson 5: media pass (fifth of eight)**
+
+- A grouped bar chart of Rohrer and Taylor (2007) experiment 2: blocked versus interleaved,
+  during practice (89/60) and a week later (20/63), placed after the worked example so it
+  does not spoil the predict block that holds the same numbers.
+- Bjork's gocognitive clip on the benefits of interleaving practice (6 minutes).
+- Verified links: the 2007 paper at Springer, the 2015 classroom study free on ERIC, DOIs
+  for the 2020 trial and Brunmair & Richter, the EEF review page, and linked Go deeper
+  entries including RetrievalPractice.org and Learning Scientists interleaving guides.
+
 **How to Learn Anything lesson 4: media pass (fourth of eight)**
 
 - A bar chart of the ridgeline study's four horizons: best gap 1/11/21/21 days for tests

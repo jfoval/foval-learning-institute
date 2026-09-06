@@ -56,11 +56,11 @@ That gap isn't a memory failure. It's a skill you never practised, because the a
 
 Blocked practice groups problems by type: AAAA BBBB CCCC. Interleaved practice mixes them: ABCBACCAB. Same problems, same total time, different order.
 
-The finding is that blocked practice looks better during the session and interleaved practice wins on a delayed test. It's old. Shea and Morgan showed it in 1979 with a movement task: people learned three arm-movement patterns either in blocks or in a random mix, and the blocked group looked better during practice while the random group did better on retention and transfer tests afterwards.[8] Motor-learning researchers call this the contextual interference effect, and for four decades it has held up in labs, gyms and clinics. The maths version arrived with Rohrer and Taylor in 2007, in a lab study on the volume formulae for four solids. I'll hold those numbers back for the worked example below, because I want you to predict them first.
+The finding is that blocked practice looks better during the session and interleaved practice wins on a delayed test. It's old. Shea and Morgan showed it in 1979 with a movement task: people learned three arm-movement patterns either in blocks or in a random mix, and the blocked group looked better during practice while the random group did better on retention and transfer tests afterwards.[8] Motor-learning researchers call this the contextual interference effect, and for four decades it has held up in labs, gyms and clinics. The maths version arrived with [Rohrer and Taylor in 2007](https://link.springer.com/article/10.1007/s11251-007-9015-8), in a lab study on the volume formulae for four solids. I'll hold those numbers back for the worked example below, because I want you to predict them first.
 
-What made people take interleaving seriously for classrooms came later. Rohrer, Dedrick and Stershic (2015) took it into a real school: 126 seventh-graders, over three months, in their ordinary maths classes. On a test one day after the review the interleaved group scored 80% against 64% (d = 0.42). Thirty days later the gap had widened: 74% against 42%, d = 0.79.[2] Notice the direction. The advantage grew with time.
+What made people take interleaving seriously for classrooms came later. [Rohrer, Dedrick and Stershic (2015)](https://files.eric.ed.gov/fulltext/ED557355.pdf) took it into a real school: 126 seventh-graders, over three months, in their ordinary maths classes. On a test one day after the review the interleaved group scored 80% against 64% (d = 0.42). Thirty days later the gap had widened: 74% against 42%, d = 0.79.[2] Notice the direction. The advantage grew with time.
 
-Then Rohrer, Dedrick, Hartwig and Cheung (2020) ran a preregistered, cluster-randomised controlled trial across 54 seventh-grade classes, 15 teachers and five schools, over four months. On a test one month after the practice ended, interleaved classes scored 61% and blocked classes 38%, d = 0.83, and the effect was positive for every one of the 15 teachers. The teachers implemented it from the worksheets alone, without any training.[3]
+Then Rohrer, Dedrick, Hartwig and Cheung (2020) ran [a preregistered, cluster-randomised controlled trial](https://doi.org/10.1037/edu0000367) across 54 seventh-grade classes, 15 teachers and five schools, over four months. On a test one month after the practice ended, interleaved classes scored 61% and blocked classes 38%, d = 0.83, and the effect was positive for every one of the 15 teachers. The teachers implemented it from the worksheets alone, without any training.[3]
 
 :::callout Why "d" keeps appearing, and why 0.83 is not the number to remember
 The d values are effect sizes: the difference between groups in standard deviations. By convention 0.2 is small, 0.5 medium, 0.8 large. For scale, the average classroom effect of retrieval practice across 222 studies is about g = 0.50.[10] The 2020 trial's 0.83 is bigger than that, which is why it got attention. But a single trial run by the method's main advocate will usually come out above the average of all trials: across the whole maths literature the meta-analytic figure is g = 0.34.[5] Read 0.83 as "large in that study" and 0.34 as "what to expect on average".
@@ -72,7 +72,7 @@ Strong for maths in school, with limits you should know before you generalise. N
 
 There's also a confound to be honest about. When you interleave, you automatically space: an A problem is now followed by a B and a C before the next A. Rohrer's team says plainly that their classroom effects "probably reflect the spacing effect" in part, and that their review assignment equalised the delay between last practice and test, not the spacing of practice itself.[2] The study that separated the two is Taylor and Rohrer (2010): they fixed the amount of spacing in both conditions and found interleaving still roughly doubled scores on a test a day later.[9] So mixing does something over and above spacing, but in the classroom numbers the two are working together.
 
-The Education Endowment Foundation's 2021 review of cognitive-science approaches in classrooms rates the evidence for interleaving below that for retrieval and spacing for exactly these reasons: fewer studies, mostly maths, mostly one team.[11] And as with the rest of this course, nearly all of it comes from Western, mostly American, schools and universities.
+The Education Endowment Foundation's [2021 review of cognitive-science approaches in classrooms](https://educationendowmentfoundation.org.uk/education-evidence/evidence-reviews/cognitive-science-approaches-in-the-classroom) rates the evidence for interleaving below that for retrieval and spacing for exactly these reasons: fewer studies, mostly maths, mostly one team.[11] And as with the rest of this course, nearly all of it comes from Western, mostly American, schools and universities.
 
 :::checkpoint Rohrer's 2020 trial gave d = 0.83 and the meta-analysis gives g = 0.34 for maths. Are these in conflict?
 No. One is a single large, well-run study; the other is the average across all studies, including smaller and weaker effects. A single study by the method's advocates will usually sit above the average, and the average is the better guide to what you'll get. The trial tells you the effect is real and can be big; the meta-analysis tells you what size to plan for.
@@ -86,9 +86,13 @@ Step one is deciding which method the problem needs. Step two is executing that 
 
 Every real test, and every real use of knowledge outside a classroom, starts with step one. A patient doesn't arrive with the diagnosis written on their forehead. Interleaving puts step one back into practice. On every problem you have to look at the surface features, work out what kind of thing it is, and pick the right tool, which is exactly what the delayed test will ask.[1][2] Taylor and Rohrer looked at what kind of errors blocked-practice students made on the test, and most were discrimination errors: the right procedure, applied to the wrong kind of problem.[9] They could execute. They couldn't choose.
 
-The second thing interleaving trains is discrimination. When problem types sit next to each other, you notice how they differ. Two solids can look similar in a diagram; seeing them back to back teaches you what to attend to. Blocked practice hides the contrast, because the contrasting case is always three pages away. Brunmair and Richter (2019) put this at the centre of their meta-analysis: interleaving works when the categories are confusable, because its job is to teach you to tell them apart.[5]
+The second thing interleaving trains is discrimination. When problem types sit next to each other, you notice how they differ. Two solids can look similar in a diagram; seeing them back to back teaches you what to attend to. Blocked practice hides the contrast, because the contrasting case is always three pages away. Brunmair and Richter (2019) put this at the centre of [their meta-analysis](https://doi.org/10.1037/bul0000209): interleaving works when the categories are confusable, because its job is to teach you to tell them apart.[5]
 
 This is why Bjork and Bjork (2011) list interleaving alongside spacing and testing as a desirable difficulty.[6] It makes practice slower and less accurate now, and that slowness is the work of learning being done rather than skipped.
+
+:::video https://www.youtube.com/watch?v=l-1K61BalIA | Robert Bjork: the benefits of interleaving practice
+Six minutes of Bjork on why mixed practice loses the session and wins the test, from the researcher whose lab helped establish the effect. A second pass at the mechanism you have just read, in the voice of someone who has spent decades watching learners refuse to believe it.
+:::
 
 :::checkpoint A student says "I got every problem right in the practice set, so the test shouldn't be a problem." What question do you ask her?
 Did the practice set tell you which method to use? If every problem sat under a heading, she has practised executing and never practised choosing. The test will ask her to choose, and she has no evidence yet about how she'll do at that.
@@ -116,7 +120,30 @@ Problem 3 has straight edges and flat faces only. Step one: the only solid with 
 Spherical cone. The circular base rules out the wedge and the spheroid; the rounded top rules out the half cone, which ends in a point. Then you retrieve the spherical-cone formula from the full set of four, having just used three others.
 :::
 
-Compare the blocked student. For the first quarter of the sheet every problem was a wedge, so step one never happened; the heading did it. Read the numbers with lesson 1's vocabulary. The 89% was retrieval strength: the formula was sitting at the front of the mind because the last nine problems had used it. The test a week later measured the two things blocked practice had never trained, identifying the solid and pulling the matching formula out of a full set. The interleaved student had done that on every single problem, which is why their practice score was lower and their test score three times higher.
+Compare the blocked student. For the first quarter of the sheet every problem was a wedge, so step one never happened; the heading did it. Read the numbers with lesson 1's vocabulary. The 89% was retrieval strength: the formula was sitting at the front of the mind because the last nine problems had used it. The test a week later measured the two things blocked practice had never trained, identifying the solid and pulling the matching formula out of a full set. The interleaved student had done that on every single problem, which is why their practice score was lower and their test score three times higher. Here are the four numbers side by side; the reversal between the two panels is the whole finding:
+
+<svg viewBox="0 0 584 330" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:584px;display:block;margin:1.5em auto;font-family:system-ui,sans-serif" role="img" aria-labelledby="rt-title rt-desc">
+  <title id="rt-title">Rohrer and Taylor: blocked practice wins the session, interleaved practice wins the week</title>
+  <desc id="rt-desc">A grouped bar chart with two clusters. During practice, the blocked group scored 89 percent and the interleaved group 60 percent. On the test a week later, the blocked group scored 20 percent and the interleaved group 63 percent. The blocked bars collapse between the clusters while the interleaved bars barely move.</desc>
+  <text x="20" y="22" font-size="17" font-weight="700" fill="var(--text, #1a1a1a)">Accuracy on the volume problems</text>
+  <rect x="20" y="38" width="15" height="15" fill="var(--oxblood, #8b1e2d)"/>
+  <text x="42" y="51" font-size="15" fill="var(--text, #1a1a1a)">Blocked</text>
+  <rect x="140" y="38" width="15" height="15" fill="var(--navy, #0f2a4a)"/>
+  <text x="162" y="51" font-size="15" fill="var(--text, #1a1a1a)">Interleaved</text>
+  <rect x="90" y="72" width="70" height="178" fill="var(--oxblood, #8b1e2d)"/>
+  <rect x="170" y="130" width="70" height="120" fill="var(--navy, #0f2a4a)"/>
+  <rect x="340" y="210" width="70" height="40" fill="var(--oxblood, #8b1e2d)"/>
+  <rect x="420" y="124" width="70" height="126" fill="var(--navy, #0f2a4a)"/>
+  <text x="125" y="64" font-size="15" font-weight="700" text-anchor="middle" fill="var(--oxblood, #8b1e2d)">89%</text>
+  <text x="205" y="122" font-size="15" font-weight="700" text-anchor="middle" fill="var(--navy, #0f2a4a)">60%</text>
+  <text x="375" y="202" font-size="15" font-weight="700" text-anchor="middle" fill="var(--oxblood, #8b1e2d)">20%</text>
+  <text x="455" y="116" font-size="15" font-weight="700" text-anchor="middle" fill="var(--navy, #0f2a4a)">63%</text>
+  <line x1="40" y1="250" x2="564" y2="250" stroke="var(--line, #d9d9d9)" stroke-width="2"/>
+  <text x="165" y="274" font-size="15" text-anchor="middle" fill="var(--text, #1a1a1a)">During practice</text>
+  <text x="415" y="274" font-size="15" text-anchor="middle" fill="var(--text, #1a1a1a)">Test one week later</text>
+  <text x="20" y="302" font-size="15" fill="var(--text-2, #4a5260)">Data: Rohrer and Taylor (2007), experiment 2. Eighteen students,</text>
+  <text x="20" y="322" font-size="15" fill="var(--text-2, #4a5260)">identical problems in a different order.</text>
+</svg>
 
 ## A harder example: the painters
 
@@ -229,10 +256,10 @@ Lesson 6 adds a complication that the ECG evidence makes vivid: very early in le
 ## Go deeper
 
 - **Brown, Roediger & McDaniel, *Make It Stick* (2014), chapter 3, "Mix Up Your Practice"**: the readable account of interleaving and variation, the studies above told as stories, and the practical advice for students and teachers.
-- **Rohrer, Dedrick, Hartwig & Cheung (2020), *Journal of Educational Psychology* 112, 40–52**: the preregistered trial. Worth reading for the method as much as the result, and for the four caveats the authors list at the end.
-- **Brunmair & Richter (2019), "Similarity matters", *Psychological Bulletin* 145, 1029–1052**: the meta-analysis that draws the boundary. If you want to know whether interleaving will help in your subject, this is where the answer lives.
-- **Dunlosky, "Strengthening the Student Toolbox", *American Educator* (Fall 2013), free via ERIC**: the plain-English version of the ten-technique ratings, with interleaving in context.
-- **RetrievalPractice.org, "How to use interleaving"** and **The Learning Scientists, the interleaving poster and blog posts** (learningscientists.org): short, free, and built for students and teachers who want to try it this week.
+- **[Rohrer, Dedrick, Hartwig & Cheung (2020)](https://doi.org/10.1037/edu0000367), *Journal of Educational Psychology* 112, 40–52**: the preregistered trial. Worth reading for the method as much as the result, and for the four caveats the authors list at the end.
+- **[Brunmair & Richter (2019)](https://doi.org/10.1037/bul0000209), "Similarity matters", *Psychological Bulletin* 145, 1029–1052**: the meta-analysis that draws the boundary. If you want to know whether interleaving will help in your subject, this is where the answer lives.
+- **Dunlosky, ["Strengthening the Student Toolbox"](https://www.aft.org/ae/fall2013/dunlosky), *American Educator* (Fall 2013)**: the plain-English version of the ten-technique ratings, with interleaving in context.
+- **RetrievalPractice.org, ["How to use interleaving"](https://www.retrievalpractice.org/interleaving)** and **The Learning Scientists, [the interleaving poster and blog posts](https://www.learningscientists.org/interleaving)**: short, free, and built for students and teachers who want to try it this week.
 
 ## Sources
 
