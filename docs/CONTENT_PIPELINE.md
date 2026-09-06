@@ -61,9 +61,21 @@ Four independent review passes, each run as a subagent with fresh context so it 
 Findings are appended to `research/REVIEWS.md`. Then the fixes are applied. Then review again until clean. A lesson that needed heavy rewriting gets a second full review.
 
 ### Stage 5: Publish
-When every lesson has passed Stage 4 and the voice pass, set `status: published`, run `npm run build`, commit, push. GitHub Pages deploys. There is no separate sign-off gate: the owner reads courses as a learner, and that reading, together with everyone else's feedback, is Stage 6.
+When every lesson has passed Stage 4 and the voice pass, set `status: published`, run `npm run build`, commit, push. GitHub Pages deploys. There is no separate sign-off gate: the owner reads courses as a learner, and that reading, together with everyone else's feedback, is Stage 7.
 
-### Stage 6: Feedback loop
+### Stage 6: Podcast — `/make-podcast <path/to/lesson.md>`
+**Every lesson gets its podcast when its content settles** (after the Stage 4 review, the
+voice pass, and the media pass), never before, so audio is not paid for twice. The episode
+is a six-minute two-host conversation: John (S1, the teaching voice) and Haley (S2, the
+curious one). The command writes the script from the lesson (every claim must appear in
+the lesson; the script adds nothing), fact-checks it in a fresh-context subagent before
+any money is spent, then hands off to `scripts/podcast.mjs` to render on VibeVoice via
+fal (~$0.30 an episode), upload to R2, and stamp `audio:` into the lesson frontmatter.
+The script lives at `courses/<school>/<course>/podcast/<lesson-id>.script.md` and is
+committed; the MP3 lives in R2, never in git. Publishing does not wait for podcasts: a
+settled lesson can go live and get its episode after.
+
+### Stage 7: Feedback loop
 This is how lessons get better after they're live, and it never ends. Learner feedback (from the form on every lesson, GitHub Issues, or later the platform's feedback table) runs through `/triage-feedback`, which sorts it against `docs/VALUES.md` and the standards: what makes a lesson clearer, deeper, or more honest is built in; what would make it shallower, slanted, or softer on the truth is declined with a reason. Everything is logged in REVIEWS.md. Content is versioned in git, so every change is traceable. See `docs/FEEDBACK_LOOP.md`.
 
 ## Working practices that protect quality

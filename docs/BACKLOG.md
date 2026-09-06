@@ -23,16 +23,11 @@ review cycle is 600k to 900k tokens (one lesson per sitting), rate limits are sh
 parallel sessions is the ceiling. A platform session must not touch `courses/` or `curriculum/`
 (see below); items 2 to 5 are content work, item 1 is platform work, so they can run in parallel.
 
-1. **Build the podcast pipeline: `scripts/podcast.mjs` + `/make-podcast <lesson>`.** About a
-   day, and it unblocks the podcast step for everything below. Lesson in; two-host script out
-   (S1 is John, the teaching voice; S2 is Haley, the curious one; VibeVoice presets Carter [EN]
-   and Alice [EN]; intro and sign-off shaped like
-   `scripts/podcast/samples/bible-basics-02.script.md`); the script fact-checked against the
-   lesson in a fresh-context subagent, findings fixed before rendering; rendered via fal
-   (`FAL_KEY` in `.env.local`); MP3 to R2 at `foval-audio/<school>/<course>/<lesson>.mp3`;
-   `audio:` frontmatter stamped. When it works, add "Stage 6: podcast" to
-   `docs/CONTENT_PIPELINE.md`: **every lesson gets its podcast when its content settles**
-   (after review, voice pass, and media pass), never before, so audio is not paid for twice.
+1. ~~**Build the podcast pipeline.**~~ **DONE 2026-09-06.** `scripts/podcast.mjs`
+   (plan/render/upload/stamp, dry-run by default, refuses to render an unchecked script or
+   spend over $2 without `--force`) plus `/make-podcast <lesson>` (writes the script, fresh-
+   context fact-check before money, then render/upload/stamp). Stage 6 added to
+   `docs/CONTENT_PIPELINE.md`. Details in the changelog.
 2. **How to Learn Anything up to the new standard.** The flagship, and what the homepage
    photographs. (a) Fix the six answer leaks first (lessons 1, 2, 3, 5 twice, 7; found with
    `npm run validate | grep "prints the answer"`), one short session, then promote that lint to
@@ -207,7 +202,7 @@ A third way in, alongside the Foval Core and free choice. Spec:
 - **Verifiable certificates** need Phase 2 (accounts) so a certificate ID can be looked up at `/verify/<id>`; until then the share page is self-attested and says so.
 - **Accreditation:** documented in `docs/PLATFORM_ROADMAP.md` Phase 3. Realistic path: Open Badges 3.0 issuance, LinkedIn "Add to profile" fields, employer or institution partnerships, and rigorous public assessments. Formal accreditation as a degree-granting institution is a multi-year regulatory process; revisit when there are learners and a track record. Research options for a certificate mark that is honest ("Foval Learning Institute Certificate of Completion, not accredited credit").
 
-## 6. Podcast for every lesson (FIRST EPISODE LIVE 2026-09-06; pipeline script still to build)
+## 6. Podcast for every lesson (FIRST EPISODE LIVE 2026-09-06; PIPELINE BUILT later that day)
 
 **Where this stands now, after the setup session on 2026-09-06 (read this, skip the history below
 unless you need it):**
@@ -217,7 +212,8 @@ unless you need it):**
   His fal.ai account exists, has $10 of credits, and its API key lives in **`.env.local`**
   (git-ignored) as `FAL_KEY`. `source .env.local` before rendering.
 - **The first real episode exists.** Bible Basics lesson 2, a 6-minute two-host script written by
-  hand from the lesson (`scripts/podcast/samples/bible-basics-02.script.md`), fact-checked in a
+  hand from the lesson (now at `courses/christian-studies/bible-basics/podcast/02-one-story.script.md`,
+  the canonical location the pipeline derives), fact-checked in a
   fresh-context subagent (PASS WITH NITS; all five nits fixed before rendering), rendered for
   $0.32. **The hosts are named: John and Haley** (John's call, 2026-09-06; male voice is John,
   female is Haley). The voice presets are being chosen by ear from the four clean English
@@ -242,12 +238,16 @@ unless you need it):**
   bugs are fixed (ElevenLabs returns raw MP3 and caps requests at 2,000 characters, so it batches
   and concatenates; Gemini default model is now `gemini-3.1-flash-tts-preview`). fal cold starts
   ran 13 minutes on the first render, so the poll budget is 20 minutes.
-- **Still to build: `scripts/podcast.mjs` and a `/make-podcast <lesson>` command** — script
-  generation from a lesson, the same fresh-context fact-check, render, upload, frontmatter. About
-  a day. Nothing else is owed by John: **the voices are chosen (John is the Carter preset,
-  Haley is Alice, picked by ear 2026-09-06)** and the lesson 2 episode was regenerated with the
-  named intro and sign-off and re-uploaded to the same R2 URL. `podcast-compare.mjs` carries
-  Carter/Alice as the defaults now.
+- **Built 2026-09-06: `scripts/podcast.mjs` and `/make-podcast <lesson>`.** One argument (the
+  lesson path) drives everything; script, MP3, R2 key and public URL are all derived from it.
+  Guards: dry-run by default, no render without a `checked:` fact-check entry in the script's
+  frontmatter, $2 cost cap without `--force`, upload verifies the public URL answers before
+  anyone stamps. `FAL_KEY` is read from `.env.local` automatically. Episode scripts are content
+  and live in git at `courses/<school>/<course>/podcast/<id>.script.md`; MP3s go to git-ignored
+  `audio-out/` and R2. Nothing is owed by John: **the voices are chosen (John is the Carter
+  preset, Haley is Alice, picked by ear 2026-09-06)** and the lesson 2 episode was regenerated
+  with the named intro and sign-off and re-uploaded to the same R2 URL. `podcast-compare.mjs`
+  carries Carter/Alice as the defaults now.
 - **Regenerate lesson 2's audio after the split/renumber pass** (7b): the episode covers the
   whole current lesson, so when it becomes two lessons the audio must be redone (~$0.32).
 

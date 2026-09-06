@@ -6,6 +6,25 @@ the institute works. Items move here out of `BACKLOG.md` when they are done.
 Everything from the founding onwards is here. Entries before 2026-09-06 came from the old root
 `CHANGELOG.md`, which was merged into this file on 2026-09-06 so there is only one changelog.
 
+## 2026-09-06 (podcast pipeline session)
+
+**The podcast pipeline is built: marching-order item 1 is done**
+
+- `scripts/podcast.mjs`: plan / render / upload / stamp, all driven by the lesson path alone
+  (script, MP3, R2 key and public URL derived from it). Dry-run by default; refuses to render
+  a script whose frontmatter carries no `checked:` fact-check entry; $2 cost cap without
+  `--force`; upload verifies the public R2 URL answers before stamping; `FAL_KEY` read from
+  `.env.local` automatically. The fal request shape is the one that rendered the first episode.
+- `/make-podcast <lesson>` command: gates on the lesson being settled (review, voice pass,
+  media pass), writes the six-minute John/Haley script from the lesson only, fact-checks it in
+  a fresh-context subagent before any money is spent, then renders, uploads, and stamps.
+- Stage 6 (podcast) added to `docs/CONTENT_PIPELINE.md`; the feedback loop became Stage 7.
+- Episode scripts are content and now live in git at
+  `courses/<school>/<course>/podcast/<id>.script.md`; the lesson 2 script moved there from
+  `scripts/podcast/samples/`. Rendered MP3s go to git-ignored `audio-out/` and R2, never git.
+- Verified against the live lesson 2 episode: plan reports it done end to end, the dry-run
+  estimate ($0.34) matches the real spend ($0.32), and stamping is idempotent.
+
 ## 2026-09-06 (podcast setup session)
 
 **The first podcast episode exists, and the plumbing around it**
