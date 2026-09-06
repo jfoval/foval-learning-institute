@@ -36,9 +36,11 @@ Reading is the weakest form of learning there is, so a lesson here makes you thi
 
 Every lesson asks for feedback, and every piece of feedback is read. What makes a lesson clearer, deeper, or more honest gets built in. What would make it shallower, slanted, or softer on the truth gets set aside, with a reason. The learners improve the institute; the values decide how.
 
-## 9. Open
+## 9. Open about the teaching
 
-The whole institute, content and code, lives in the open. Anyone can read how a lesson was researched, reviewed, and revised. Anyone can propose a course. The content is licensed for reuse. An education that costs nothing should also hide nothing.
+Every lesson names its sources, so you can go and check us. Where a question is contested, the disagreement is shown rather than quietly settled. What changed after a learner pushed back is written down. Anyone can propose a course, and the content is licensed for reuse.
+
+This is about the teaching, not the plumbing. An education that costs nothing should hide nothing a learner needs in order to trust it.
 
 ---
 

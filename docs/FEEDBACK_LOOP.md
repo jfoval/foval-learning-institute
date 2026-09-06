@@ -18,12 +18,19 @@ No name, no email, no account. "Report an error" is a separate route (a prefille
 
 ## Where it goes
 
-**Now (Phase 1):** the site is static. Feedback is saved in the learner's browser and, when `window.FOVAL_FEEDBACK_ENDPOINT` is set in `site/index.html`, POSTed as JSON to that endpoint. The endpoint can be:
+**Now, live since 2026-09-05.** The form on every lesson saves to the learner's browser and POSTs the same record as JSON to a Cloudflare Worker, set as `window.FOVAL_FEEDBACK_ENDPOINT` in `site/index.html`:
 
-- **Supabase** (recommended, free tier): a `feedback` table with the fields above, row-level security allowing anonymous inserts only, and the REST URL plus anon key as the endpoint and headers. Ten minutes to set up; the same project becomes the Phase 2 backend.
-- **Formspree** or similar: works, but free tiers cap submissions.
+    https://foval-feedback.johnfoval.workers.dev
 
-Until an endpoint is set, the form still works and tells the learner their feedback is saved locally. Set the endpoint before promoting the site.
+The Worker lives in `workers/feedback/` and writes to a D1 database called `foval-feedback`. It is deliberately **write-only**: a `GET` returns 405, so a leaked URL cannot be used to read learner feedback back out. It accepts requests only from the institute's own origins plus localhost, caps the body at 20 KB and each free-text field at 4,000 characters, ignores submissions where the learner said nothing, and **stores no IP address and no user agent**. Progress is private to the learner's browser, and feedback is held to the same standard.
+
+**Reading it:**
+
+    npm run feedback                     new feedback, oldest first
+    npm run feedback -- --all            everything, including handled
+    npm run feedback -- --triage 12 15   mark those rows dealt with
+
+**Changing the Worker:** edit `workers/feedback/src/index.js`, then `npm run feedback:deploy`. Schema changes go in `workers/feedback/schema.sql` and are applied with `wrangler d1 execute foval-feedback --remote --file=schema.sql` from that directory.
 
 **Phase 2:** feedback lives in the platform database next to progress, and the form can attach the learner's quiz score and time-on-lesson automatically, which makes "where did people struggle" answerable with data as well as words.
 

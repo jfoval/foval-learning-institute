@@ -26,6 +26,7 @@
       <a href="#/courses">Courses</a>
       <a href="#/path">Path</a>
       <a href="#/review">Review</a>
+      <a href="#/about">About</a>
       <a href="#/my-learning">Me</a>
     </nav>
   </header>
@@ -33,11 +34,35 @@
   <main id="main" class="page"></main>
 
   <footer class="site-footer">
-    <p><strong>Foval Learning Institute.</strong> Faith. Knowledge. Life. Free for everyone.</p>
-    <p class="muted">No accounts, no ads, no paywalls. <a href="#/about">What we stand on</a>.</p>
-    <p class="muted"><a href="#/about">About</a> · Your progress is saved in this browser. Export it from <a href="#/my-learning">your page</a>.</p>
+    <nav class="footer-nav" aria-label="Footer">
+      <div class="footer-col">
+        <h2>Learn</h2>
+        <ul>
+          <li><a href="#/courses">Courses</a></li>
+          <li><a href="#/path">The Foval Core</a></li>
+          <li><a href="#/review">Review</a></li>
+          <li><a href="#/my-learning">Your progress</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h2>The institute</h2>
+        <ul>
+          <li><a href="#/about">What we stand on</a></li>
+          <li><a href="#/about-john">John Foval</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="footer-base">
+      <p><strong>Foval Learning Institute.</strong> Faith. Knowledge. Life. Free for everyone.</p>
+      <p class="muted">No accounts, no ads, no paywalls. Your progress is saved in this browser and never sent anywhere.</p>
+    </div>
   </footer>
 
+  <script>
+    // Lesson feedback goes to a Cloudflare Worker backed by D1. Write-only endpoint;
+    // no IP or user agent is stored. See workers/feedback/ and docs/FEEDBACK_LOOP.md.
+    window.FOVAL_FEEDBACK_ENDPOINT = "https://foval-feedback.johnfoval.workers.dev";
+  </script>
   <script src="data/courses.js"></script>
   <script src="assets/app.js"></script>
   <script>

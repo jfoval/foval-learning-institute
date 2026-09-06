@@ -18,31 +18,25 @@
 
 **Folder rename:** John asked to rename `~/Desktop/Foval University` to `~/Desktop/Foval Learning Institute`. Do it only when no agents are running, as the last act of a session, then copy the memory directory `~/.claude/projects/-Users-johnfoval-Desktop-Foval-University/memory/` to the new path's project directory so notes carry over, and tell John to start the next session from the new folder.
 
-## 2. Custom domain (in progress; needs John's DNS)
+## 2. Custom domain (records added 2026-09-05; waiting on propagation)
 
-John bought `fovallearninginstitute.org` at Namecheap. Done: `site/CNAME` contains `www.fovallearninginstitute.org` and GitHub Pages is set to that custom domain. **John must add these DNS records in Namecheap (Advanced DNS):**
+John bought `fovallearninginstitute.org` at Namecheap. `site/CNAME` contains `www.fovallearninginstitute.org` and GitHub Pages is set to that custom domain.
 
-| Type | Host | Value |
-|---|---|---|
-| CNAME | www | jfoval.github.io |
-| A | @ | 185.199.108.153 |
-| A | @ | 185.199.109.153 |
-| A | @ | 185.199.110.153 |
-| A | @ | 185.199.111.153 |
+**Done 2026-09-05:** the two Namecheap parking records (CNAME `www` to `parkingpage.namecheap.com` and the URL Redirect on `@`) were deleted and these five records added and saved in Advanced DNS:
 
-Then, once DNS resolves (up to an hour), run `gh api -X PUT repos/jfoval/foval-learning-institute/pages -f https_enforced=true` and check https://www.fovallearninginstitute.org. Update `REPO`-derived links only if the repo moves; the site itself uses relative paths. Update the memory file with the live URL.
+| Type | Host | Value | TTL |
+|---|---|---|---|
+| A | @ | 185.199.108.153 | Automatic |
+| A | @ | 185.199.109.153 | Automatic |
+| A | @ | 185.199.110.153 | Automatic |
+| A | @ | 185.199.111.153 | Automatic |
+| CNAME | www | jfoval.github.io | Automatic |
 
-## 3. About page with John's bio (not started)
+**Still to do:** once the authoritative nameservers serve the new values (`dig @dns1.registrar-servers.com www.fovallearninginstitute.org CNAME +short` should return `jfoval.github.io.`), let GitHub Pages issue the certificate, then run `gh api -X PUT repos/jfoval/foval-learning-institute/pages -f https_enforced=true` and check https://www.fovallearninginstitute.org. Update the memory file with the live URL.
 
-A page at `#/about-john` (linked from the About page and footer) with John's headshot and a short bio in the style guide's voice, first person. **Needs from John:** the headshot image file (I cannot access LinkedIn; the feed URL he gave requires login) and confirmation of where he's from. Content he gave, to be written up, not padded:
+## 3. About page with John's bio (shipped 2026-09-05)
 
-- Who he is and where he's from.
-- Was in Talented and Gifted as a young kid; did reasonably well in school; was interested in so much as a child that the structure of school was hard even though he enjoyed learning.
-- Went to LSU briefly; living life was more interesting at the time, so he went straight into working and never graduated. That decision has served him well, and he has always kept loving learning.
-- Has always been drawn to a renaissance-man mentality; general studies suited him; likes big breadth of knowledge with reasonable depth in each.
-- Works in AI, where knowledge is unusually accessible; thought it would be valuable to organise and compile the knowledge inside powerful AI models alongside the vast information of the internet into free courses, so anyone who wanted unbiased information and valuable life skills could come, grow, and learn.
-
-Design: one column, headshot at the top left in a square with a thin navy border, no italics, plain headings. Put the image at `site/assets/media/john-foval.jpg` with a credit line if it isn't his own.
+Done. `#/about-john` in `site/assets/app.js` (`viewAboutJohn`), linked from the About page and the footer, headshot at `site/assets/media/john-foval.jpg` (his own photo, no credit line needed), `.portrait` style in `styles.css`. If John wants changes, edit `viewAboutJohn`.
 
 ## 4. Personalised learning path from a questionnaire (not started)
 
@@ -79,9 +73,40 @@ Add a section below the hero with three or four panels, each with a real screens
 - **Donate:** a `#/support` page and a footer link. Copy from John: "We're constantly using tons of tokens to expand our offerings and make updates. We'd appreciate anything you can do to pitch in if it becomes something you find valuable over time. Cheers!" Options: GitHub Sponsors (fits the open repo), Ko-fi or Buy Me a Coffee (simplest), Stripe Payment Link (lowest fees). John must create the account; then it's one link.
 - **FLI ideas** (subtle, not the main thing): "FLI" reads as "fly": a light touch such as "Fly high with us" on the support page or the store, and donors as members of "the FLI Club" with a small mark on their achievements page and early access to new courses. Alternative expansions to consider for a tagline or a store line: "Faith, Learning, Ideas"; "Faith. Learning. Integrity."; "Free Learning Institute". Keep it to one or two places; the institute's name stays the main thing.
 
+## 8b. Supabase backend: blocked on a free-tier project slot (investigated 2026-09-05)
+
+Accounts, cross-device sync, verifiable certificates, the achievements page, and a working feedback endpoint all unblock together once there is a Supabase project. John asked the agent to set it up; the agent is signed in to his dashboard (GitHub OAuth, his session).
+
+**The blocker.** Supabase free tier allows 2 projects per member. John Org already has 3: **Mainline** (active), **math-quest** (active), **John Project** (paused). Supabase therefore refuses both *creating* a new project and *resuming* the paused one. Existing projects are grandfathered; only new/resumed ones are blocked.
+
+**Ways out:** delete one project, upgrade the org to Pro ($25/month, John must purchase), or repurpose an existing project. Repurposing sidesteps the limit because it creates nothing, but repurposing John Project still needs a resume, which is blocked, so a slot has to be freed either way.
+
+**What John Project is: settled 2026-09-05. It is empty.** Ref `ebkuhylfhyfretagpczf`. Its database backup was downloaded from the paused project (works without resuming) and read locally. The only object in the `public` schema is a table called `keepalive` holding just `id` and `created_at`, which is the standard trick for pinging a free project so it does not auto-pause. Everything else in the dump is Supabase's own `auth`, `storage` and `realtime` system schemas. `auth.users` has 0 rows and `storage.buckets` has 0 rows. It is not Memory-App's backend (Memory-App's schema would show `profiles`, `content_sets`, `items`, `reviews`, `card_results`) and it is not referenced by any repo, Actions secret, Vercel project, or local file. It is a throwaway with nothing in it. Safe to delete. A copy of the dump is in John's Downloads as `db_cluster-23-08-2026@00-45-32.backup.gz`.
+
+**The plan, awaiting one click from John.** Reusing the project would need a resume, which the free-tier limit blocks, so the working path is: John deletes John Project at https://supabase.com/dashboard/project/ebkuhylfhyfretagpczf/settings/general (the agent does not perform permanent deletions), which frees a slot, then the agent creates a fresh project named `foval-learning-institute` and builds the schema, RLS, and auth from the Phase 2 spec in `docs/PLATFORM_ROADMAP.md`. Net project count stays at 3. Cost stays $0.
+
+## 8c. Going private: what has to move first (opened 2026-09-05)
+
+John confirmed the codebase does not need to be public; it is only public because free GitHub Pages requires it. Value 9 has been rewritten in `docs/VALUES.md` and on the About page so "open" now promises openness about the *teaching* (sources named, disagreement shown, revisions recorded) rather than open source code. The "Content and code on GitHub" footer link is removed.
+
+**Do not make the repo private yet.** GitHub Pages will not serve a private repo on a free account, so flipping it today takes the live site down. Order of operations: move static hosting to Cloudflare Pages (free, serves private repos, custom domain, fast HTTPS), repoint DNS, *then* flip the repo to private.
+
+**Six site links still point into the public repo** and will 404 for visitors the moment it is private. All are in `site/assets/app.js` via the `REPO` constant:
+
+| Line | What | Replace with |
+|---|---|---|
+| 185 | "The full map" on the home page, to `curriculum/TAXONOMY.md` | an on-site `#/map` page generated from TAXONOMY.md at build time |
+| 202 | "curriculum" link on the Courses page, same target | same `#/map` page |
+| 286 | "Report a problem" on every lesson, opens a GitHub issue | the feedback endpoint (see §9) |
+| 555 | "editorial standards" on the About page | an on-site `#/standards` page generated from `docs/EDITORIAL_STANDARDS.md` |
+| 565 | About page "Contribute" paragraph | done, rewritten, no longer links to GitHub |
+| `site/index.html` footer | "Content and code on GitHub" | done, removed |
+
+The build script would need to render TAXONOMY.md and EDITORIAL_STANDARDS.md into `site/data/` as HTML so those pages work without the repo. That is the real prerequisite, and it is worth doing anyway since both read better on the site than on GitHub.
+
 ## 9. Smaller items
 
-- Feedback endpoint: John to create a free Supabase project; set `window.FOVAL_FEEDBACK_ENDPOINT` and headers in `site/index.html`. Until then, feedback saves locally.
+- ~~Feedback endpoint~~ **done 2026-09-05**: Cloudflare Worker + D1, live at `https://foval-feedback.johnfoval.workers.dev`, wired into `site/index.html`. Read it with `npm run feedback`. See `docs/FEEDBACK_LOOP.md` and `workers/feedback/`.
 - Four placeholder courses through the pipeline (research, outline, redraft, review) or off the site before promotion.
 - Term milestones ("Foundations" etc.) on the Path page when a term is complete.
 - Audio mode and "Ask this lesson" are on the roadmap (Phase 2 and 3).

@@ -17,6 +17,11 @@ All notable changes to Foval Learning Institute: courses published, platform fea
 - Revised Keystone Arch mark installed (header, icon, certificate seal).
 
 ## 2026-09-05
+- Feedback endpoint live: Cloudflare Worker (`workers/feedback/`) backed by a D1 database, wired into the site. Write-only, origin-restricted, stores no IP or user agent. Read with `npm run feedback`.
+- Value 9 reworded from open source code to openness about the teaching, in `docs/VALUES.md` and on the About page.
+- "About" added to the main navigation; footer rebuilt as a real two-column menu.
+- Custom domain DNS added at Namecheap: parking records removed, four GitHub Pages A records on `@` and `www` CNAME to `jfoval.github.io`. Waiting on propagation before HTTPS is enforced.
+- Added the About John page at `#/about-john`, linked from the About page and the footer, with his headshot at `site/assets/media/john-foval.jpg`.
 - Renamed to **Foval Learning Institute**. Tagline: Faith. Knowledge. Life. Free for everyone. Repo is now github.com/jfoval/foval-learning-institute; site at jfoval.github.io/foval-learning-institute.
 - Added `docs/VALUES.md`, the nine values every decision and every piece of feedback runs against. Shown on the About page.
 - Removed the "review" status and the owner sign-off gate. Courses go live when they finish the pipeline and improve through the feedback loop; the owner reads them as a learner.

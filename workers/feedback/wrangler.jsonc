@@ -1,0 +1,13 @@
+{
+  "name": "foval-feedback",
+  "main": "src/index.js",
+  "compatibility_date": "2026-09-05",
+  "observability": { "enabled": true },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "foval-feedback",
+      "database_id": "87d5eec1-8a69-4620-9c7d-d2e154b55e89"
+    }
+  ]
+}

@@ -547,7 +547,7 @@
           <li><strong>Plain speech.</strong> A good professor talking to one student across a table.</li>
           <li><strong>Learning that lasts.</strong> You think while you read, do the work before the quiz, and come back on a schedule so it stays learned.</li>
           <li><strong>Built with the people learning from it.</strong> Every lesson asks for feedback. What makes it better gets built in; what would make it shallower or slanted is set aside, with a reason.</li>
-          <li><strong>Open.</strong> Content and code live in the open, and anyone can see how a lesson was researched, reviewed, and revised.</li>
+          <li><strong>Open about the teaching.</strong> Every lesson names its sources, so you can check us. Where a question is contested, the disagreement is shown rather than quietly settled.</li>
         </ol>
         <h2>What we teach</h2>
         <p>Fourteen schools: thinking tools, mathematics, the natural sciences, history, philosophy and religion, literature and the arts, economics and government, computer science and AI, business, money, health, practical self-reliance, communication, and learning itself. The Foval Core is a recommended path through them, in the order that builds best.</p>
@@ -561,10 +561,35 @@
         </ol>
         <h2>Privacy</h2>
         <p>No account is needed. Your progress is stored in your own browser and never sent anywhere. Export it from <a href="#/my-learning">your page</a> to move devices.</p>
-        <h2>Contribute</h2>
-        <p>The whole university, content and code, lives in the open on <a href="${REPO}" target="_blank" rel="noopener">GitHub</a>. Found an error? Every lesson has a "Report a problem" link.</p>
+        <h2>Tell us when it's wrong</h2>
+        <p>Every lesson has a feedback form at the bottom and a "Report a problem" link. Both are read. What makes a lesson clearer, deeper, or more accurate gets built in, and what would make it shallower or slanted is set aside with a reason. That is the only thing the institute asks of you.</p>
+        <h2>Who built it</h2>
+        <p>One person started this. <a href="#/about-john">More about John Foval</a>.</p>
       </div>
     `, "About");
+  }
+
+  function viewAboutJohn() {
+    render(`
+      <div class="prose">
+        <img class="portrait" src="assets/media/john-foval.jpg" width="800" height="788" alt="John Foval" loading="lazy">
+        <span class="eyebrow">About</span>
+        <h1>John Foval</h1>
+        <p class="lede">I built Foval Learning Institute. Here's where it came from.</p>
+        <p>I'm in the Baton Rouge area of Louisiana and I work in AI.</p>
+        <h2>School and me</h2>
+        <p>I was in Talented and Gifted as a young kid and I did fine in school after that. Grades were never the problem. I was interested in way too many things at once, and school wants you in one room, on one subject, on somebody else's clock. I liked learning. I was not good at that.</p>
+        <h2>LSU, briefly</h2>
+        <p>I went to LSU for a while and didn't finish. Living life was more interesting to me at the time, so I went straight to work. I'm not going to dress that up as a plan. It worked out, and I kept on loving learning the whole way, school or no school.</p>
+        <h2>Breadth</h2>
+        <p>I've always been drawn to a renaissance man kind of mentality, and general studies suited me for that reason. I want wide breadth of knowledge with reasonable depth in each part of it. That's what the Foval Core is built to give you.</p>
+        <h2>Why this exists</h2>
+        <p>Working in AI means I see up close how much knowledge is sitting inside these models, and how much more is sitting on the internet next to it. Very little of it is arranged so a person can actually learn from it. Putting it into real courses seemed worth doing. So that's what this is. Free, for anybody who wants straight information and skills worth having.</p>
+        <h2>One ask</h2>
+        <p>If a lesson is wrong, unclear, or could be better, tell me. There's a form at the bottom of every one. I read what comes in and I use it.</p>
+        <p class="muted"><a href="#/about">What we stand on</a></p>
+      </div>
+    `, "John Foval");
   }
 
   function viewNotFound() { render(`<div class="empty"><h2>Page not found</h2><a class="btn btn-primary" href="#/">Go home</a></div>`, "Not found"); }
@@ -584,6 +609,7 @@
     if ((m = path.match(/^\/certificate\/([^/]+)$/))) return viewCertificate(m[1]);
     if (path === "/my-learning") return viewMyLearning();
     if (path === "/about") return viewAbout();
+    if (path === "/about-john") return viewAboutJohn();
     viewNotFound();
   }
   window.addEventListener("hashchange", route);

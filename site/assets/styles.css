@@ -95,6 +95,13 @@ th { font-weight: 600; border-bottom: 2px solid var(--line-strong); }
 .page { max-width: 1100px; margin: 0 auto; padding: clamp(1.5rem, 4vw, 3rem) clamp(1rem, 4vw, 2rem); min-height: 60vh; overflow-x: hidden; }
 .site-footer { border-top: 1px solid var(--line); padding: 2rem clamp(1rem, 4vw, 3rem); font-size: .9rem; color: var(--text-2); }
 .site-footer p { margin: 0 0 .25rem; }
+.footer-nav { display: flex; flex-wrap: wrap; gap: 3rem; margin-bottom: 2rem; }
+.footer-col h2 { font-family: var(--sans); font-size: .72rem; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; color: var(--text-2); margin: 0 0 .7rem; }
+.footer-col ul { list-style: none; margin: 0; padding: 0; }
+.footer-col li { margin-bottom: .45rem; }
+.footer-col a { color: var(--text); text-decoration: none; font-size: .95rem; }
+.footer-col a:hover { text-decoration: underline; text-underline-offset: 3px; }
+.footer-base { border-top: 1px solid var(--line); padding-top: 1.25rem; }
 
 /* Labels */
 .eyebrow { font-family: var(--serif); font-size: 1.02rem; color: var(--text-2); margin-bottom: .5rem; display: block; letter-spacing: 0; text-transform: none; font-weight: 400; }
@@ -258,6 +265,7 @@ a.path-item:hover { background: var(--surface-2); color: var(--text); }
 .cert .seal { font-size: 2.5rem; }
 .prose { max-width: 42rem; }
 .prose h2 { margin-top: 2rem; }
+.portrait { width: 180px; height: 180px; object-fit: cover; border: 1px solid var(--navy); display: block; margin: 0 0 1.5rem; }
 
 @media (max-width: 860px) {
   .hero, .course-hero, .lesson-layout, .path-next { grid-template-columns: 1fr; }
