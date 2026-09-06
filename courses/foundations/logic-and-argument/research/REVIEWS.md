@@ -550,3 +550,499 @@ syllogisms verbatim.
    rest on the reviewers' reading of the 1983 paper and of *forall x*, which `SOURCES.md` records as
    read from full text. With the network closed, this pass could not re-open either. They are applied
    on the reviewers' authority, and that is worth a spot-check by a session that can reach the PDFs.
+
+---
+
+## Lesson 3, "Conditionals" — Stage 4 round 1, 2026-09-06
+
+Five fresh-context reviewers (depth, fact-check, neutrality, pedagogy, voice), launched in one
+message. Findings consolidated below with IDs. **Applied in the same pass; see "Resolutions
+applied" at the end.**
+
+**Verdict: not clean for publish as drafted, and the reason is the one from lesson 2.** Three of the
+five reviewers independently flagged the Hurley and Copi citations without knowing what the others
+had found. Otherwise the lesson is in better shape than lesson 2 was: the fact-check verified every
+quotation, every quiz key, every practice answer and every percentage against the right condition,
+and found nothing factually wrong that was not caused by citing an unread book.
+
+**Context for the fact-check pass.** Every outbound network request from this session is refused by
+the egress proxy, so no source could be opened. The fact-checker worked against `SOURCES.md`, which
+records for each figure where it was read. That is a weaker pass than reopening the papers, and the
+items it could not settle are listed under "Owed to a session with network access" at the end.
+
+### BLOCKING
+
+**L3-B1. Hurley and Copi are cited five times, and `SOURCES.md` forbids it by name.** Line 103 in
+prose and in a parenthetical ("Textbooks such as Hurley's and Copi's give them their Latin names ...
+(Hurley, ch. 6; Copi, Cohen & McMahon, ch. 8).[3][4]"); line 271 attributes the "unless" translation
+rule to Hurley; Go deeper recommends Hurley ch. 6 by its contents; Sources 3 and 4 describe both
+chapters as though read. This is L2-B1 reproduced one lesson later, and worse in one respect: line
+271 rests the lesson's most contestable translation rule on a book nobody has opened, and `SOURCES.md`
+records nothing whatever about what Hurley ch. 6 contains beyond a secondhand chapter title. Nothing
+is lost by removal: the Latin names are field-standard vocabulary needing no authority, and the
+"unless" rule is derived two paragraphs earlier from what the sentence rules out, which is better
+teaching than an appeal.
+
+**L3-B2. "The two people reach for are the two invalid ones" is refuted by the lesson's own figures
+four paragraphs later.** Line 227. The pooled selections at line 231 are P and Q at 39% and P alone
+at 36%, so the modal answer includes the E card, which is one of the two you *should* turn. Nobody
+reaches for "the two invalid ones"; that pattern is not among the four canonical selections. An
+expert reader stops dead here, and the sentence undoes the lesson's best paragraph.
+
+**L3-B3. Both worked-example gaps print their own answers in plain body text.** Line 192 asks the
+reader to write the standard form, name the shape and build the counterexample, then answers all
+three from line 194. Line 283 asks for the form and the verdict and answers in the next paragraph.
+Same defect as lesson 1 (resolution 29), lesson 2 (L2-B4) and Bible Basics lessons 1 to 3.
+
+**L3-B4. Cheng, Holyoak, Nisbett & Oliver 1986 is recorded as read in full and is used nowhere, and
+its absence leaves the lesson's one contested paragraph unsourced.** Line 243 gives three accounts of
+the content effect as "some researchers ... some ... some", unnamed and uncited, in a lesson that
+footnotes everything else. `SOURCES.md` line 143 records the paper read from the Michigan repository,
+including the datum that settles the paragraph: an **abstract** permission rule was solved by about
+60% against about 20% on the matching card version, which rules familiarity out as the explanation,
+because there was no familiar content to remember.
+
+**L3-B5. Eight standard-form displays break the house form.** Lines 107, 116, 127, 136, 149, 160,
+181, 196: bare numbered list, blank line, then `C:`. OUTLINE.md line 9 and lessons 1, 2, 4, 5 and 7
+use a fenced block with a rule above `C:`. The linter does not catch these, because its pattern
+fires only when `C:` sits directly under a premise with no blank line, so the same argument currently
+renders as two different things in lessons 2 and 3.
+
+### Neutrality (neutral course, Part 3 in its ordinary form)
+
+Perspectives audited: formal logician; informal-logic scholar; ecological-rationality psychologist;
+heuristics-and-biases psychologist; philosopher of language on indicative conditionals; philosopher
+of science; non-UK reader (US, Canadian, Australian, South Asian); a reader who has just got both
+tasks wrong; a religious reader; a lawyer or regulator working with deontic conditionals; landlord
+and tenant; parent and school administrator.
+
+**L3-N1.** The confirmation-seeking reading of the Wason task is asserted in the author's voice as
+what the task shows, three times (lines 241, 299, 302). What the task shows about human reasoning is
+contested, and not only on the deontic effect the lesson does flag: rival accounts hold that people
+select the cards *named* in the rule without reasoning about them, or that the choice is a defensible
+bet about which card is most informative. `SOURCES.md` contested question 4 records this shape of
+dispute. The lesson's own Go deeper line already concedes the point ("their own account ... which you
+can weigh against mine") while the body states it flat.
+
+**L3-N2.** "One in five. On a task with four cards and a rule one sentence long." A deficit beat
+whose clauses assert that the task is trivial, which is precisely what the ecological-rationality
+camp denies, placed eight lines before the corrective arrives. It also reports a pooled figure from
+mostly-undergraduate samples in a form that reads as one in five people.
+
+**L3-N3.** The truth-functional reading of "if" is presented as what English "if" means, under a
+heading that says so ("What 'if, then' actually promises"), including "P false, Q true: the promise
+never applied. Fine" and "This is the only case that makes 'if P then Q' false." Whether English
+indicatives are truth-functional is a live question in exactly the literature the lesson cites. The
+lesson's own Go deeper entry says the body "only touched" this; the body asserts the opposite.
+Nothing in the lesson turns on the disputed rows: all six forms use only the P-true-Q-false row.
+(Also raised by depth as its finding 9. The lesson already handles the identical problem for "or"
+correctly at line 143, which is the model.)
+
+**L3-N4.** "If a person is drinking beer, then the person must be over 19" is quoted with no gloss.
+Nineteen is not the drinking age in the UK, the US, Australia or most places this will be read; it is
+the age in the jurisdiction where the original studies ran. A reader will take it for a typo, in the
+middle of the contrast the lesson's empirical claim rests on.
+
+**L3-N5.** "What it does convict us of is a reflex, and reflexes can be trained" is an unsourced
+optimistic claim, and the course has read a study that cuts against it. Depth argued the opposite:
+the classroom result belongs to lesson 4, which OUTLINE.md assigns contested question 2, and lesson 3
+should not spend it. Both are right; see the resolution.
+
+**L3-N6.** Adjectives where the lesson's own numbers belong: "hardly anyone turns the odd number"
+(selections including not-Q are 19 + 5 = 24%) and "almost nobody wastes a look at the 22-year-old"
+(64% choosing exactly P and not-Q leaves 36% doing something else). The two errors push opposite
+ways, so this is looseness rather than slant, but it is looseness in the two sentences a reader
+carries away.
+
+**L3-N7.** "the one card that could sink the rule" contradicts the lesson's own analysis ten lines
+earlier, where the E card can also break it. Two cards can; that is why the answer is two cards.
+Saying otherwise makes the majority's answer look emptier than it is.
+
+**L3-N8.** Two unsourced frequency claims that an informal-logic scholar would dispute: "the
+commonest kind of premise there is, the 'if, then' sentence" and "the 'if, then' premises that most
+real arguments run on". Same class as lesson 1's neutrality finding 1.
+
+**L3-N9.** "the discipline, in logic and in science alike, is to go looking for the one that doesn't"
+states a Popperian account of science as what science is. `SOURCES.md` contested question 4 lists it
+as one of three and records that the course leaves the foundations open.
+
+**L3-N10.** The school-letter verdict ("precisely what a school writing carefully would want, and
+precisely what a parent reading quickly would miss") answers a value question in the author's voice,
+putting the fault on the reader. A lawyer or regulator, the perspective this material speaks to most
+directly, would note that the working presumption in consumer drafting runs the other way.
+
+**L3-N11.** The voting checkpoint's answer reintroduces citizenship content ("they may need to be
+registered, or a citizen") that L2-N5 removed from the course. The stem is outline-prescribed and
+stays; registration alone makes the necessary-not-sufficient point.
+
+**L3-N12.** Two British settings are genuinely opaque abroad. "If the oven's at 220" reads as 220°F
+to a US reader, which is a slow oven in which bread never browns, so the premise flips from obviously
+true to obviously false and the reader's grip on modus ponens goes with it. "The pitch is
+waterlogged" needs one word. Everything else (flat, boiler, deposit, meter, timetable) reads fine
+from context.
+
+### Depth and media
+
+**L3-D1. No figure, chart or video anywhere,** in the lesson whose two central objects are a
+four-card layout and a 19-versus-64 contrast. The reader is asked, in a predict block, to choose
+among four cards they cannot see, and line 227's identification of the four cards with the four
+one-step moves is a two-by-two carried entirely in prose. What can honestly be drawn: the four cards
+(every element recorded in `SOURCES.md` line 30); the affirm/deny by antecedent/consequent grid (a
+consequence of the lesson's own definitions, needing no source); the pooled abstract selections
+36/39/5/19 with the deontic 64%. **What cannot:** any per-card numbers for Wason's own 1968
+experiment (only his qualitative summary of prior work is recorded), any figure for the 44
+everyday-content experiments, any breakdown of the deontic condition beyond the 64%, and any video
+(`SOURCES.md` line 149 records that the only Think Again video found is a trailer, and the only
+verified Wireless Philosophy item is lesson 8's).
+
+**L3-D2. Zero links in 5,600 words,** and Go deeper prints `forallx.openlogicproject.org` as dead
+text, which is L2-D2 exactly. Lesson 1 has 13, lesson 2 has 9.
+
+**L3-D3. `minutes: 50` understates by about a third.** Three reviewers costed it independently at 75,
+86 and 75, counting the ten practice arguments, the three translations, the folder exercise and the
+six-item quiz. Lesson 1 is 60 for 4,669 words, lesson 2 is 70 for 7,735, and lesson 3 has the
+heaviest practice section of the three.
+
+**L3-D4. Objective 2 promises counterexample construction and the learner never builds one.** Practice
+Part 1 asks only for the form and the verdict; the counterexamples sit in the answer key as
+parentheses to read. Quiz items 1 and 4 contain counterexamples in their options, which is
+recognition. The one production slot is the worked-example gap at L3-B3, which is not hidden.
+
+**L3-D5. Two Go deeper entries describe contents `SOURCES.md` does not record:** *forall x* Part II's
+"honest discussion of why the logician's 'if' and the English 'if' don't quite line up" (only "truth
+tables" is recorded), and Ragni et al.'s "own account of what they think the task measures" (only the
+design and the pooled figures are recorded).
+
+**L3-D6. No free-recall block** before the quiz. Lessons 5, 6, 7, 10 have one; lesson 2 gained one at
+L2-D7; the Definition of Done lists it.
+
+**L3-D7.** "most people would guess wrong" (line 74) is an invented frequency. Nothing in
+`SOURCES.md` gives a rate for judging these two forms; Wason's numbers are about card selection.
+
+**L3-D8.** Two prose summaries do not match the lesson's own pooled numbers. "if you chose E and 4
+you're in the majority": 39% is a plurality. "most people also turn the even number" sits four lines
+above pooled figures in which Q appears in 44% of selections, against the 60 to 75% Wason reported
+for the earlier work.
+
+**L3-D9.** The beer task's four card values are stated as fact and `SOURCES.md` records only the rule
+and the 64%. "almost nobody wastes a look at the 22-year-old" is a per-card claim the recorded data
+cannot support.
+
+**L3-D10.** The meta-analysis's third category ("44 with everyday content") is named at line 231 and
+then dropped, and it is the category that would separate familiarity from deontic content in the
+paragraph at L3-B4. Its pooled figure is not in `SOURCES.md`, so it cannot be quoted.
+
+**L3-D11.** Quiz item 3's explanation gives half the reason the padded-bin parcel is safe. It covers
+the standard-label case only; if the label says fragile, the rule has been *kept*, and that is the
+half that makes "affirming the consequent" the right name.
+
+### Pedagogy
+
+**L3-P1.** The opening retrieval of the six-step check is answered inside its own sentence, in the one
+lesson where OUTLINE.md says the learner "should be able to recite it from lesson 3 onward".
+
+**L3-P2.** The lesson 1 spaced review ("Is the school's sentence an argument? No.") answers itself in
+the next word. Identical to the defect fixed in lesson 2's spaced-review item.
+
+**L3-P3.** The body pre-answers quiz item 1. "The stains, the black leaves, the dark headlights" names
+"the black leaves", which appears nowhere else in the body; its only referent in the file is quiz item
+1's gardener, and the phrase states that item's key before the learner meets it.
+
+**L3-P4.** Quiz item 4: options A and D are eliminable on a sweeping absolute alone ("always the valid
+move", "cannot serve as premises") without engaging the logic, leaving a two-way choice in which the
+key is the only option supplying a counterexample. Full replacement supplied by the reviewer.
+
+**L3-P5.** Quiz item 6 leaks twice: three of four options end "that form is invalid" so the key is the
+odd one out, and the key is the only translation with a "not" in the antecedent, so the slogan
+"unless means if not" wins the item without naming a form. Full replacement supplied.
+
+**L3-P6.** Practice Part 1 ends on a run of three invalid items (8, 9, 10), against the outline's
+"mixed so the invalid ones are not obvious by position".
+
+**L3-P7.** The two skills are practised in separate blocks: Part 1 is ten arguments already in "if,
+then" form, Part 2 is three bare sentences to translate. The learner is never made to translate and
+then name on one item, which is what every real case demands and what quiz items 2 and 6 demand.
+
+**L3-P8.** Objective 4 is taught and checkpointed but not assessed in the quiz. 4.3 requires every
+question to test an objective, not every objective to get a question, so this is defensible; noted so
+the coverage is deliberate rather than accidental.
+
+**L3-P9.** Phone width: the heading "Same claim, different words: contrapositive, converse, and the
+traps in 'only if' and 'unless'" runs to four lines at 360px, and quiz item 3's stem is 90 words of
+setup to hold while scrolling to the options.
+
+### Voice
+
+Zero em dashes. 207 contractions in 5,627 words, the best rate in the course. Mean sentence 12.9
+words. Longest 55 words.
+
+**L3-V1.** Four "Here's"/"Here are" section openers (lines 103, 167, 194, 269). Lesson 1 had six,
+lesson 2 had four, so no improvement.
+
+**L3-V2.** "By the end of this lesson you'll be able to tell in five seconds" is the banned shape, and
+it wastes the strongest predict opportunity in the lesson: the reader has two arguments in front of
+them and is told the answer is coming rather than asked for it.
+
+**L3-V3.** Pipeline vocabulary in three headings ("Worked example 1/2/3") and two sentences ("That's
+the whole mechanism of this lesson in one list"; the `:::exercise Do it now` label, which is the style
+guide's own category name lifted into the learner's view).
+
+**L3-V4.** Four parenthetical-plus-numbered citations, the journal-article tic settled in lesson 1 by
+resolution 32, all four back. Line 231 names the authors twice in one sentence, once in prose and
+once in brackets.
+
+**L3-V5.** Six paragraphs end on a compressed one-line moral. Three earn it and must survive
+(the two-cards contrast at 227, the 19% beat at 233, and "Confirming is the reflex; refuting is the
+skill"); four should be cut or folded (93, 167, 263, 285).
+
+**L3-V6.** Lines 229 to 231 switch from professor to literature review: passive ("was run on"), no
+contractions across about 130 words, and the sample size and study counts given with no reason the
+reader needs them, which is fact-stating without teaching.
+
+**L3-V7.** A 55-word sentence at line 342 with three relative clauses stacked at the end and two
+forward references in one breath.
+
+**L3-V8.** Two sentences restate the previous one with more drama. One of the two ("Read it again
+slowly. It says nothing.") does teaching work and should survive.
+
+**L3-V9.** The title's "the two that fool almost everyone" against the lesson's own 19% correct, so
+81% wrong. Not worth changing the title; noted because a careful reader will do the subtraction.
+
+### Split verdict: PASSES the 1.3 test, seam marked, not split in this pass
+
+The two reviewers who considered it disagreed on the verdict and **agreed on the location**: the seam
+falls between the car example and the four cards. Pedagogy says split, and gives the analysis: what
+comes before is a complete idea with its own opening, its own payoff ("tell in five seconds") and its
+own quiz-ready practice set, and what comes after is a second idea (how people actually test
+conditionals, and how English disguises the direction) that depends on the first one-way, which is
+the ordinary relation between consecutive lessons. Depth says do not split, on the ground that the
+four cards *are* the four moves, so the second half is the demonstration that the first half's shapes
+are the ones people get wrong, and that a second lesson would need a new opening.
+
+Depth's objection is about the cost of splitting, not about whether the two ideas stand alone, and it
+concedes the same seam. At a measured 75 minutes the lesson is over the sitting length 1.3
+describes. **So it passes the test**, and BACKLOG 7b applies: mark the seam, do not renumber as you
+go, do the renumbering once before the course goes to `status: published`. A `<!-- SPLIT SEAM -->`
+comment is now in the lesson at that point, with what each half would need, and the seam is recorded
+in "Requests for the shared files" below because `docs/BACKLOG.md` belongs to another session.
+
+### What is working, and must survive
+
+The opening: two people, the same first premise, the same confident "so", one of them wrong. It is
+lesson 2's damp-then-cats move done again with different material. **Silence as the governing image,
+introduced at line 84, applied at line 165, and used to diagnose the reader's own errors at line 335**;
+one image carried across a whole lesson, and the best structural move in either course so far.
+"Confirming is the reflex; refuting is the skill." The battery pair, whose conditional has an already
+negated consequent so the learner must look at *where* the "not" falls rather than whether one is
+present, then run invalid with a blown fuse. "Dark lights are what a dead battery produces, and
+they're also what a blown fuse produces, and the rule never said otherwise", which states the
+mechanism of affirming the consequent in twenty-three words with no jargon. The identification of the
+four cards with the four one-step moves. The rule-out test for direction ("what does the sentence rule
+out?"), which most textbook treatments do not give. The "one idea wearing three coats" callout tying
+the counterexample, modus tollens and Mill's method of difference. The inclusive-"or" caution, which
+handles the gap between logic and speech exactly as L3-N3 asks the conditional section to. The
+practice diagnostic, which names the specific error behind each pattern of wrong answers and should
+be copied into the other lessons.
+
+### Verified correct, not to be re-audited
+
+Every logical verdict in the lesson: all eight standard-form displays correctly classified; both
+worked-example-1 verdicts; the blown-fuse counterexample; worked example 3's translation and both
+halves. All four quoted strings verbatim against `SOURCES.md` (the Wason rule, Wason's summary
+sentence, the beer rule, the *forall x* definition), with **no ellipsis anywhere in the lesson**, so
+none of lesson 2's ellipsis problem recurs, and no paraphrase presented as a quotation. Wason's
+citation, sample (36 first-year psychology and statistics students at UCL) and page range. Ragni et
+al.'s 228 experiments as 104 abstract, 44 everyday, 80 deontic, summing correctly, and all four
+abstract percentages **attached to the abstract condition in both lesson and source**, which is the
+lesson 2 error class and does not occur here. The deontic 64% correctly conditioned in all four
+places it appears. All six quiz answer indices against the option each explanation names, using all
+four positions, every explanation teaching all three distractors. All ten Part 1 answers, all three
+Part 2 translations, the diagnostic's grouping of items, and all four checkpoint answers. Every
+outline contract item except those flagged: opens with a real argument, six-step check recited, both
+required predicts and both required checkpoints in their named positions, "Do it now" folder exercise
+present, both required spaced reviews present, no symbols beyond English words. Contested question 2
+correctly left to lesson 4. Every example checked individually against the two example conventions:
+no invented political, religious or culture-war example anywhere, and no religious claim used as a
+specimen.
+
+### Resolutions applied, 2026-09-06
+
+Applied in one fix pass. `npm run validate` exits 0 and **lesson 3 now raises no linter warnings**,
+down from one (no links in the body). Frontmatter re-parsed after the edits: six quiz items, each
+still a mapping with `q`, `options`, `answer` and `explain`; answer key now `2,0,3,1,0,1`, using all
+four indices. Zero em dashes. Body 7,676 words, up from 5,627, almost all of it in the four figures,
+the five predict blocks and the Cheng material.
+
+**L3-B1, the blocking one: Hurley and Copi removed, nothing re-sourced to a book we haven't read.**
+All five citations gone: the prose sentence and its parenthetical at line 103, the "unless"
+attribution at line 271, the Go deeper recommendation, and Sources 3 and 4. The Latin names are now
+introduced as field vocabulary needing no authority, which is what they are. The "unless" rule stands
+on the two paragraphs above it, which derive it from what the sentence rules out; the appeal to
+Hurley was adding nothing but borrowed weight. Sources are now four, every one read: Wason 1968,
+Ragni et al. 2017, *forall x* ch. 2, and Cheng et al. 1986. The *forall x* marker renumbered from [5]
+to [3].
+
+**L3-B2, the sentence that contradicted the lesson's own numbers: rewritten.** "The two people reach
+for are the two invalid ones" is replaced by what the figures actually say: "People mostly turn the
+E, which is right, and then add the 4, which cannot break the rule; the card they leave on the table
+is the 7, which can. So the two errors are the two invalid forms: turning the 4 is affirming the
+consequent, and skipping the 7 is refusing modus tollens." The contrast the reviewers wanted kept
+("The two you should turn are the two valid forms") survives as the lead-in to the new figure.
+
+**L3-B3, both worked-example gaps: now real gaps.** The battery reverse and the school-letter modus
+tollens are both `:::predict` blocks with the reveal inside. Two more predicts were added where the
+lesson had none: the opening flat-viewers, which turns the banned "By the end of this lesson you'll
+be able to tell in five seconds" into something the reader tests on themselves, and the six-step
+check as a checkpoint rather than a question answered in its own sentence (L3-P1). The lesson now has
+**five predicts and six checkpoints**, against two and four before, and the first half is no longer a
+stretch of pure reading.
+
+**L3-B4, Cheng et al. 1986: used, and used for the thing it settles.** The three unnamed camps at
+line 243 are replaced by the named argument. Cheng, Holyoak, Nisbett and Oliver's summary of Cheng &
+Holyoak 1985 is now in the lesson: an *abstract* permission rule, with no familiar content to
+remember, was solved by about 60% against about 20% on the matching card version, so familiarity
+cannot be what is doing the work. The other two accounts are still given, still unresolved, and the
+sentence the reviewers asked to protect survives verbatim. L3-D10 is folded in here: the lesson now
+names the 44 everyday-content experiments as the group that would separate the accounts and says
+plainly that no figure is quoted for them because none has been read.
+
+**L3-B5, eight argument displays fenced,** in the house form from lesson 1: fenced block, numbered
+premises, a rule, then `C:`. The ninth display, inside the new battery predict block, is indented
+rather than fenced, because a fence inside a `:::` block does not survive the renderer; it uses the
+same rule and reads identically.
+
+**Neutrality, all twelve.** L3-N1: the confirmation-seeking reading is now marked as a reading ("The
+reading I'd put on the abstract version is...") with the two rival accounts named in a sentence, and
+"confirming is the reflex, refuting is the skill" survives as the practical rule rather than as the
+finding. L3-N2: "One in five" is gone as a standalone beat; the number now arrives with its scope
+("on rules with no content to hold on to, in samples that are mostly undergraduates") and hands
+straight to the argument about what it means. L3-N3: a paragraph after the four rows says the last
+two are the logician's reading, gives the moon-and-cheese case, says the question is argued over, and
+says nothing in the lesson turns on it because every form uses only the row nobody disputes; the Go
+deeper entry no longer claims the body "touched" a discussion it never had. L3-N4: "over 19" is
+glossed. L3-N5: resolved in the direction both reviewers can accept, by softening the claim rather
+than spending lesson 4's evidence. The text now says whether the reflex can be trained is a real
+question, that the evidence is mixed enough that lesson 4 spends a section on it, and that the one
+question is cheap to ask anyway. The classroom study stays in lesson 4, where OUTLINE.md puts it.
+L3-N6: "hardly anyone" and "almost nobody" both gone. L3-N7: "the one card that could sink the rule"
+gone with them. L3-N8: both frequency claims replaced ("one of the commonest kinds of premise";
+"the 'if, then' premises that turn up everywhere in contracts, instructions, planning and
+diagnosis"). L3-N9: "the discipline, in logic and in science alike" is now "a large part of the
+discipline, in logic and in experimental science alike". L3-N10: the school-letter verdict no longer
+blames the reader; it says the asymmetry is easy to write and easy to read past, and notes that
+consumer and plain-language rules put the burden on the drafter. L3-N11: the voting checkpoint's
+parenthesis is now "they may still need to be on the electoral roll", with the citizenship content
+gone, keeping the course consistent with L2-N5. L3-N12: "220°C" and "the football pitch".
+
+**Depth and media.** L3-D1: **three figures, all from recorded numbers.** The four cards drawn face
+up before the predict block, so the reader is no longer choosing among objects they cannot see; the
+affirm-or-deny by antecedent-or-consequent grid after the walkthrough, with each cell naming the
+form, the card and the verdict, which is the lesson's own summary of itself made visible; and a bar
+chart of the pooled selections, 36 / 39 / 5 / 19 on abstract rules with the deontic 64% as a second
+panel, captioned with the experiment counts. All three use theme tokens for every fill and font-size
+15 or above, so none raises a linter warning, and lesson 2's SVGs were the template rather than
+lesson 10's. **Nothing was drawn that could not be honestly drawn:** no per-card figures for Wason's
+own experiment, no everyday-content bar, no breakdown of the deontic condition beyond the 64%, and no
+video. L3-D2: four links where there were none, all to URLs already in the repository. L3-D3:
+`minutes` 50 to 75, and the outline's stale estimates for lessons 1 to 3 corrected in the same pass,
+with a note explaining why the Stage 2 figures run low. L3-D4: Part 1 now requires a written
+counterexample for every invalid item, and the answer key supplies one for each of the five. L3-D5:
+both Go deeper descriptions trimmed to what `SOURCES.md` records. L3-D6: free-recall paragraph added
+before the quiz, in lesson 2's house form. L3-D7: "most people would guess wrong" gone. L3-D8: "in
+the majority" is now "in the largest group", and the pooled figures are introduced with the reason
+the reader needs the sample size, which also fixes L3-V6. L3-D9: the beer cards are marked as the
+four moves rather than asserted as the paper's, and "almost nobody wastes a look at the 22-year-old"
+is replaced by a claim the 64% supports. L3-D11: quiz item 3's explanation now gives both halves of
+why the padded-bin parcel is safe, which is what makes "affirming the consequent" the right name.
+
+**Pedagogy.** L3-P2: the lesson 1 spaced review is a checkpoint. L3-P3: "the black leaves" replaced
+by "the flat loaf", so quiz item 1 is no longer pre-answered by the misconceptions section and the
+phrase now has a referent in the body. L3-P4 and L3-P5: quiz items 4 and 6 replaced with the
+reviewer's versions. Item 4's two absolutes are gone, and its option C is now the missing premise
+that would rescue the argument, which teaches step 3. Item 6 now has two options saying valid and two
+invalid, and two of them share the correct translation and differ only on which half the second
+premise touches, so the slogan "unless means if not" no longer wins it. L3-P6 and L3-P7: practice
+Part 1 reordered and one item replaced. The verdict sequence is now invalid, valid, invalid, valid,
+valid, invalid, valid, invalid, valid, invalid, with no run longer than two (the reviewer's proposed
+swap left a run of three valid at positions 2 to 4, so a different order was used), and old item 7
+is replaced by an "only if" argument that has to be translated before it can be named, which is the
+two-step move nothing in the practice previously required. All six forms still appear; the answer key
+and the diagnostic line are renumbered to match. L3-P9: the long heading is now "Contrapositive,
+converse, and the traps in 'only if' and 'unless'", and quiz item 3's stem is broken into one
+sentence per parcel.
+
+**Voice.** All four "Here's" openers gone. Pipeline vocabulary out of the three "Worked example"
+headings, out of "That's the whole mechanism of this lesson in one list", and out of the
+`:::exercise Do it now` label. All four parenthetical-plus-numbered citations reduced to the marker,
+with names in prose. Of the six one-line morals, the three the reviewer said had earned it are kept
+(the two-cards contrast, the 19% beat in its rewritten form, and "confirming is the reflex; refuting
+is the skill") and four are cut or folded. The 55-word sentence is four sentences. "Really try it"
+folded. "Read it again slowly. It says nothing." kept, as advised.
+
+**Split: passes the test, seam marked, not split.** `minutes: 75`, a `:::callout A good place to
+stop` at the seam, and a `<!-- SPLIT SEAM -->` comment recording where it falls, what each half would
+contain, and the two things a part B would need (a new opening, since the convention forbids opening
+on a definition or an experiment, and a two-sentence recap of the four moves). Per BACKLOG 7b nothing
+is renumbered here.
+
+### Deliberately not fixed, with reasons
+
+1. **No checkpoint was added on the ruling-in "or" trap**, which the voice reviewer proposed and wrote
+   out. The lesson would then carry seven checkpoints and five predicts, and the style guide warns
+   against formatting standing in for writing. The trap is already given a worked contrast in its own
+   paragraph and is exercised by practice item 4. If a later pass finds learners getting it wrong,
+   the block is written out in the voice report and can be dropped in.
+2. **No fourth figure of the four P-and-Q situations.** Voice and pedagogy both proposed it. The
+   affirm-or-deny grid is a two-by-two doing the same spatial job at the point where it pays off, and
+   two two-by-twos in one lesson invite the reader to confuse them. The four rows stay as a list,
+   which is already a table in list form.
+3. **Objective 4 still has no quiz item** (L3-P8). 4.3 requires every question to test an objective,
+   not the reverse, and the quiz is at the six-item ceiling. Coverage is now deliberate: the Wason
+   checkpoint tests it and the free-recall paragraph names both percentages and what separates them.
+   The item to displace, if the owner ever wants it in the quiz, is item 3, whose objective is covered
+   twice.
+4. **The title keeps "the two that fool almost everyone"** (L3-V9) although the lesson's own 19%
+   implies 81%, not almost everyone. The phrase is about the two invalid *forms* fooling people in
+   ordinary argument, not about the card task's score, and no reviewer proposed a replacement worth
+   the churn.
+5. **Wason 1968 and Ragni et al. 2017 are still unlinked.** `SOURCES.md` records both as "PDF read"
+   but records no URL for either, and nothing outbound resolves from this session, so a link would be
+   a guess. These are the two sources a reader most wants to open. Listed below as owed.
+
+### Owed to a session with network access
+
+Every outbound request from this session was refused by the egress proxy, so nothing could be
+reopened or verified. Cleared in one pass by a session that can reach the web:
+
+1. **A free full-text URL for Wason 1968 and for Ragni, Kola & Johnson-Laird 2017**, added to
+   `SOURCES.md` and linked at first mention and in Go deeper in lesson 3.
+2. **Van Cleave 1.6 to 1.8 read from LibreTexts**, confirming the wording lesson 2 took from search
+   extracts, and the caveat paragraph in that `SOURCES.md` entry deleted.
+3. **Hurley ch. 1 and ch. 6, or Copi ch. 1 and ch. 8, actually read**, or the standing note in
+   `SOURCES.md` left in force permanently. Until then lessons 1 and 5 still cite them and must be
+   re-sourced.
+4. **The card set used in the deontic version of the selection task**, and any per-card selection
+   rates for the deontic condition, so lesson 3 can stop hedging both.
+5. **The pooled figure for the 44 everyday-content experiments** in Ragni et al., which is the number
+   that would separate the familiarity account from the schema account in lesson 3's contested
+   paragraph.
+6. **The believability norming behind the 1983 Evans materials** (lesson 2, L2-N6), so the labels can
+   be attributed to a study rather than described generically.
+
+### Requests for the shared files
+
+These belong to files another session owns (`docs/`, `curriculum/`, `site/`, `scripts/`), so they are
+recorded here rather than made.
+
+1. **`docs/BACKLOG.md` section 7b, "Confirmed seams so far".** Add: *Logic and Argument lesson 3, after
+   the car example and before the four cards.* Lesson 2 was considered and **not** split, on both
+   reviewers' advice. So the Logic course currently stands at one confirmed seam and will be eleven
+   lessons after the pre-publish renumbering, unless lessons 4 to 10 add more.
+2. **`docs/BACKLOG.md` section 1.** The Logic entry needs updating as lessons land; as of this pass,
+   lessons 1, 2 and 3 are reviewed and fixed, lessons 4 to 10 are not, and the assessments folder does
+   not yet exist.
+3. **`scripts/build.mjs`, one linter gap worth closing.** The unfenced-argument-display check fires
+   only when `C:` sits directly under a numbered premise. Lesson 3 had eight displays with a blank
+   line before `C:`, which slips the pattern but still renders as a list plus a stray paragraph
+   rather than as a standard form. Allowing optional blank lines in that pattern would have caught
+   all eight without a human reading for them.

@@ -17,7 +17,7 @@
 
 ## Lesson sequence
 
-### 1. What an argument is, and how to find the missing step (~35 min)
+### 1. What an argument is, and how to find the missing step (60 min, measured after Stage 4)
 - **Objectives:** identify the conclusion and premises of a passage and rewrite it in standard form; distinguish an argument from an explanation, a report, and a bare assertion; supply the most plausible missing premise of an enthymeme.
 - **Core ideas:** an argument is reasons offered for a conclusion; everything else that looks like one (an explanation of why something happened, a report of what someone said, a conditional on its own, a flat assertion) isn't, and the test is whether the passage is trying to *establish* the claim or take it as given (Govier ch. 1; Van Cleave ch. 1). Indicator words ("so", "therefore", "because", "since") help and are unreliable: "because" introduces an explanation as often as a premise. Standard form. Most real arguments leave a premise unstated (Copi ch. 2 on enthymemes), and the first skill is to write the missing one down in the form the arguer would accept. Aristotle's definition of a deduction ("certain things being stated, something other than what is stated follows of necessity") introduced as the oldest statement of the idea, so the learner knows the subject has a history.
 - **Mechanism:** an argument has a direction (from what's offered to what's claimed) and an explanation has the opposite direction (from what's accepted to why). Same sentence, different job. Missing premises are missing because the arguer thought them too obvious to say; that's exactly where the weak step usually hides, because obvious-to-the-arguer is where nobody checked.
@@ -28,7 +28,7 @@
 - **Sources:** Govier ch. 1 to 2; Van Cleave ch. 1; Copi, Cohen & McMahon ch. 2; Hurley ch. 1; Toulmin 1958 via Hitchcock 2002; Aristotle, *Prior Analytics* I 24b18 to 20 (Jenkinson / Smith 2022).
 - **Connects:** introduces the six-step check with steps 1 to 3 filled in; lesson 2 fills step 4 for deductive arguments.
 
-### 2. Valid, sound, and why your opinion of the conclusion gets in the way (~40 min)
+### 2. Valid, sound, and why your opinion of the conclusion gets in the way (70 min, measured after Stage 4)
 - **Objectives:** explain validity as the absence of any case where the premises are true and the conclusion false; construct a counterexample to show an argument invalid; compare valid/invalid with true/false premises and identify the one combination that cannot occur; predict the effect of belief bias on a judgement of validity.
 - **Core ideas:** validity is a property of the link, not the premises: "logic doesn't care about feelings. Actually, it doesn't care about facts, either" (*forall x* ch. 2). Invalid means there is a counterexample, a possible case with true premises and a false conclusion. Soundness is validity plus true premises, and only sound arguments guarantee their conclusions. The four-cell table (true/false premises against valid/invalid): every cell can occur except true premises, valid form, false conclusion. The correction of the "general to particular" myth: deductive and inductive differ in what the premises are *claimed* to do (guarantee vs make probable), not in the direction of travel (Hurley ch. 1). Belief bias: people accept invalid arguments with believable conclusions and reject valid arguments with unbelievable ones; the effect was larger on invalid syllogisms, and some verbal protocols were rationalisations after the fact (Evans, Barston & Pollard 1983, abstract). The procedural fix is the six-step check's step 6: test the link before you consult your opinion.
 - **Mechanism:** a valid form is a shape; the counterexample method works by keeping the shape and swapping in content that makes the premises obviously true and the conclusion obviously false. If that can be done, the shape doesn't guarantee anything, and neither did the original. Belief bias exists because the mind checks the conclusion against memory first, which is fast, and the link second, which is slow, and it often stops after the first check.
@@ -40,7 +40,7 @@
 - **Connects:** fills step 4 for deduction; lesson 3 gives the four shapes worth memorising and the two that fool people.
 - **Spaced review of:** argument vs explanation (lesson 1), applied to a passage where the "because" turns out to be a premise.
 
-### 3. Conditionals: the four forms and the two that fool almost everyone (~45 min)
+### 3. Conditionals: the four forms and the two that fool almost everyone (75 min, measured after Stage 4)
 - **Objectives:** identify modus ponens, modus tollens, hypothetical syllogism, and disjunctive syllogism in everyday arguments; identify affirming the consequent and denying the antecedent and explain why each is invalid; translate "only if", "unless", and necessary/sufficient statements into "if, then" form correctly; explain what the Wason task shows about how people test conditionals.
 - **Core ideas:** "If P then Q" says P is sufficient for Q and Q is necessary for P, and nothing about what happens when P is false. The four valid forms and the two invalid look-alikes, each shown as a shape and each with a counterexample for the invalid ones. The contrapositive ("if not Q then not P") is the same claim; the converse is not. "Only if" reverses the direction; "unless" is "if not". Wason's selection task (1968): four cards, rule "if a vowel on one side then an even number on the other"; the correct turn is the vowel card and the odd-number card. Pooled results on abstract rules (Ragni, Kola & Johnson-Laird 2017, 228 experiments): P alone 36%, P and Q 39%, the correct P and not-Q 19%. On a deontic rule ("if drinking beer, then over 19") the correct choice rises to 64%. The lesson's reading: the natural error is to look for confirming cases (affirming the consequent) rather than the one case that could break the rule (modus tollens), and content that gives the rule a purpose fixes much of it.
 - **Mechanism:** a conditional is a promise about one situation (P true) and is silent about the rest. Affirming the consequent treats the promise as running both ways. Modus tollens is the search for the breaking case, which is the same move as a counterexample in lesson 2 and, in lesson 5, the same move as a controlled experiment. Wason shows the mind's default is to seek matches, not breaks; the deontic result shows that when the rule is a permission with a cheater to catch, the mind finds the break easily.
@@ -152,3 +152,15 @@ The course is not a sensitive domain and `sensitive_domain` stays false. Four th
 4. **Belief bias and motivated reasoning are taught symmetrically.** The lesson 2 and lesson 9 material on checking the other side's link and your own side's conclusion applies to every reader, and the text should never imply which side the reader is on.
 
 Figures are quoted exactly as SOURCES.md records them; the "via secondary source" items are read from the source or omitted, never carried into a lesson under a flag.
+
+---
+
+## Note on the time estimates, added 2026-09-06
+
+The per-lesson figures above were written at Stage 2, before any lesson was drafted or reviewed, and
+they have proved systematically low. Reviewed lessons run 1.5 to 2 times their outline estimate,
+because Stage 4 findings almost always ask for *more* teaching (a missing worked example, a practice
+item for an objective that had none, an objection engaged at full strength) and almost never for
+less. Lessons 1, 2 and 3 now carry their measured figures above and in their frontmatter. The
+estimates for lessons 4 to 10 are still the Stage 2 guesses; expect each to rise when it is reviewed,
+and expect lesson 4's "~30 min" in particular to be the least reliable number in this file.
