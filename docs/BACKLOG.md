@@ -311,6 +311,17 @@ It drives the Chrome already installed on the machine, so there is no browser do
 the targets. The strip is seven tiles now: four across at desktop width wrapping to three, and one
 swipeable row on a phone.
 
+**All 34 files were regenerated together on 6 September 2026**, not just the video, because the
+committed ones predated `c84af0e` (the hero going full width and the content column widening) and so
+were photographs of a narrower column than the site has now. Heights moved with it: the predict
+block grew 58px on a phone, the review card 112px. Every one was checked by eye in both themes,
+including the SVG targets, where nothing came out white on white. If you change the site's layout or
+type, retake the lot rather than one target, or the panels stop matching each other.
+
+Known and left alone: the chart legend's last line (`Act 6, Revelation: 22`) has its descenders
+shaved. That is the same crop as before, and it follows from the clipped-caption bug above, so it
+goes away when that is fixed. Do not paper over it in the capture script.
+
 The one new dependency this adds is `playwright-core` in `devDependencies`. It is dev-only, never
 served to a learner, and it deliberately does not bundle a browser. Rule 9 is about what the site
 ships, not what the toolchain uses, but it is a dependency and worth knowing about.
