@@ -172,9 +172,11 @@ Priya is three weeks from a first-year anatomy test on the bones and muscles of 
 
 Day 6 she takes out all eleven cards and answers each until it's right once. Nine go straight through. Two she misses.
 
-Before reading on: what should happen to those two cards on day 6, and what does the schedule look like for them from here?
+:::checkpoint What should happen to those two missed cards on day 6, and what does the schedule look like for them from here?
+They go back to three. She works each of the two until she has answered it correctly three times in that session, then they rejoin the others for day 12 and day 18, one correct recall each.
+:::
 
-They go back to three. She works each of the two until she has answered it correctly three times in that session, then they rejoin the others for day 12 and day 18, one correct recall each. Day 12 she misses one card; same treatment. Day 18, all eleven come through first time. The day before the test she does nothing to the cards, because the schedule has already done the work, and she spends the evening on a free recall of the whole topic instead, which is a test of the structure rather than the items.
+Day 12 she misses one card; same treatment. Day 18, all eleven come through first time. The day before the test she does nothing to the cards, because the schedule has already done the work, and she spends the evening on a free recall of the whole topic instead, which is a test of the structure rather than the items.
 
 Notice what's not in the routine: no rereading of the chapter from the start. The only rereading was the sections behind the eleven gaps, once, on day 1.
 

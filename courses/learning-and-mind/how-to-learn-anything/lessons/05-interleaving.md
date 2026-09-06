@@ -112,9 +112,9 @@ Problem 2 has a flat semicircular base and comes to a point. Step one: a point r
 
 Problem 3 has straight edges and flat faces only. Step one: the only solid with no curves is the wedge. Step two: wedge formula.
 
-Problem 4 has a circular base and a rounded top with no point. Before you read on, do both steps yourself: which solid, and what do you have to pull from memory?
-
+:::checkpoint Problem 4 has a circular base and a rounded top with no point. Do both steps yourself: which solid, and what do you have to pull from memory?
 Spherical cone. The circular base rules out the wedge and the spheroid; the rounded top rules out the half cone, which ends in a point. Then you retrieve the spherical-cone formula from the full set of four, having just used three others.
+:::
 
 Compare the blocked student. For the first quarter of the sheet every problem was a wedge, so step one never happened; the heading did it. Read the numbers with lesson 1's vocabulary. The 89% was retrieval strength: the formula was sitting at the front of the mind because the last nine problems had used it. The test a week later measured the two things blocked practice had never trained, identifying the solid and pulling the matching formula out of a full set. The interleaved student had done that on every single problem, which is why their practice score was lower and their test score three times higher.
 
@@ -192,9 +192,9 @@ Step one: write items that don't name the tense. "Translate: Yesterday I went to
 
 Step two: for each item, decide the tense before you write a word of French, and write your decision down. Item 1: a completed action at a stated time, so passé composé: *Hier je suis allé au marché.* Item 2, "I was reading when he came in": an ongoing background action interrupted by a completed one, so imparfait for the reading and passé composé for the coming in: *Je lisais quand il est entré.* That item needs two choices, which is the kind of wrinkle a good set includes.
 
-Item 3, "I had already eaten when she called." Decide the tense for "had eaten" before you read on.
-
+:::checkpoint Item 3, "I had already eaten when she called." Decide the tense for "had eaten" before you look.
 Plus-que-parfait, because the eating was complete before another past event, and passé composé for the call: *J'avais déjà mangé quand elle a appelé.*
+:::
 
 Step three: vary the surface within each tense (different verbs, different time expressions, questions as well as statements), so the choice can't be made from one giveaway word.
 

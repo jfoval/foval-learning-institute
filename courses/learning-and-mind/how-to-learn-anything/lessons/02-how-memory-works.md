@@ -189,9 +189,9 @@ Here's a sentence from a commercial contract. Read it once at normal speed.
 
 Now count what someone meeting this for the first time has to hold in working memory. I'll start. "Notwithstanding the foregoing": an unfamiliar phrase, so its two words plus a guess at what it does. "Indemnifying party" and "indemnified party": two near-identical terms that must be kept apart, each needing its own definition looked up and held.
 
-Stop there and do the rest yourself. Go through the remaining phrases ("no obligation under this Section", "to the extent", "gross negligence", "wilful misconduct") and for each one, write down what a first-time reader has to hold. Then total the count before you read on.
-
+:::checkpoint Stop there and do the rest yourself. For each remaining phrase ("no obligation under this Section", "to the extent", "gross negligence", "wilful misconduct"), write down what a first-time reader has to hold, then total the count.
 Here's my count. "No obligation under this Section": which Section, what obligation? "To the extent": a proportional qualifier that changes the whole meaning. "Gross negligence" and "wilful misconduct": two legal standards, each a chunk you don't have yet. That's nine or ten interacting elements, depending how you count. Working memory holds four. The sentence doesn't fit, so it can't be chunked, so you reach the full stop with nothing.
+:::
 
 A second-year law student, marking the same list, would put "indemnifying" and "indemnified" down as *own*, "gross negligence" as *half* (she recognises it but couldn't state the test), and "notwithstanding the foregoing" as *new*. Three items over the limit, and now she knows which three to build.
 

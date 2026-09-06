@@ -257,7 +257,8 @@ function lintLessons() {
         // 4.2: a prompt that tells the reader to answer before reading on, followed by the
         // answer in plain prose, is recognition wearing retrieval's clothes. Only :::predict
         // and :::checkpoint bodies render behind a button. Three lessons in a row shipped this
-        // and three hand reviews caught it; the fourth should not have to.
+        // and three hand reviews caught it; the fourth should not have to. Fails the build on
+        // a published course (promoted 2026-09-06 once the six shipped ones were fixed).
         {
           const lines = src.split("\n");
           let depth = 0;
@@ -268,7 +269,7 @@ function lintLessons() {
             if (!/\b(before you read on|before reading on|do this one yourself|do it yourself|write this one|try to build the counterexample|cover the answer)\b/i.test(line)) return;
             const ahead = lines.slice(i + 1, i + 9);
             if (ahead.some(l => /^:::(predict|checkpoint)/.test(l))) return;
-            warn.push(`${file}:${i + 1}: asks the reader to answer before reading on, then prints the answer in plain prose. Only :::predict and :::checkpoint hide their body. Quoted: "${line.trim().slice(0, 70)}"`);
+            fail(`${file}:${i + 1}: asks the reader to answer before reading on, then prints the answer in plain prose. Only :::predict and :::checkpoint hide their body. Quoted: "${line.trim().slice(0, 70)}"`);
           });
         }
 

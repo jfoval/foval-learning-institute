@@ -120,9 +120,9 @@ At two days, the order had flipped: the recalled passage came back at 68%, the r
 
 At one week, the recalled passage scored 56% and the restudied one 42%.[8] Restudy had lost nearly half of what it had at five minutes; recall had lost a quarter. The one-week effect size was d = 0.83.
 
-Now do the next step yourself before reading on. Take the two-strengths model and explain the five-minute result and the one-week result with it. Which strength did rereading raise, and which did recalling raise? Say it in two sentences.
-
+:::checkpoint Take the two-strengths model and explain the five-minute result and the one-week result with it. Which strength did rereading raise, and which did recalling raise? Say it in two sentences before you look.
 Here's mine. Rereading pushed retrieval strength up fast, which is why it won at five minutes, and did little for storage strength, so by a week most of what it built had drained away. Writing the passage from memory was an attempt to retrieve something with lower retrieval strength (the page was closed), which by the Bjorks' rule is exactly when the storage gain is biggest; it scored worse in the moment and was the only condition that built anything durable.
+:::
 
 Roediger and Karpicke's second experiment sharpened this. One group studied a passage four times (study, study, study, study). Another studied it once and then recalled it three times (study, test, test, test). Before reading the result, predict the one-week scores for each. Then check: at one week the repeated testers recalled 61%; the repeated studiers recalled 40%.[8] And the repeated studiers were more confident they would remember it. The condition that felt best was the one that worked worst, by 21 percentage points.
 

@@ -101,9 +101,9 @@ The first plays songs he knows. He warms up with the same three, tries a new one
 
 The second starts each session by naming one transition she can't yet make cleanly, say the change from a C to an F barre chord. She sets a metronome at a speed where she can make it about seven times in ten, and drills that change, and only that change, for ten minutes. She records the last minute on her phone and listens back: is the F buzzing? Which string? She moves the metronome up 4 beats per minute when she's clean nine times in ten. Then she does the same for one more weak spot. The final fifteen minutes she plays songs, partly for pleasure and partly to check whether the drilled change survives inside real music.
 
-Now you run the list on her, before you read on. Take the five parts in order and decide whether her session has each one. One of the five is only partly there. Which, and why?
-
+:::checkpoint Now you run the list on her. Take the five parts in order and decide whether her session has each one. One of the five is only partly there. Which, and why?
 Here's how I'd score it. Designed to improve: one named transition. At the edge: the metronome speed is chosen so that she fails sometimes. Immediate feedback: the metronome (in time?), the recording (clean?), and a rule for when to move on. Designed by someone who knows the domain: partly. She's following a standard method (isolate, slow down, metronome, record) that teachers use, and a teacher would design it better. Effortful: yes, and she's tired after. So this is purposeful practice with borrowed design, and it should make her measurably better at things she couldn't do in January.
+:::
 
 Same instrument, same hours. The difference is entirely in the structure.
 

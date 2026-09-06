@@ -8,6 +8,19 @@ Everything from the founding onwards is here. Entries before 2026-09-06 came fro
 
 ## 2026-09-06 (podcast pipeline session)
 
+**How to Learn Anything: the six shipped answer leaks fixed; the lint now bites**
+
+- Marching-order item 2(a). The six prompts in the live course that told the reader to answer
+  before reading on and then printed the answer in plain prose (lessons 1, 2, 3, 5 twice, 7)
+  are `:::checkpoint` blocks now, so the answer sits behind the button the way the pedagogy
+  intends. Wording preserved; in lesson 3 the answer was split from the narrative that follows
+  it so only the answer hides.
+- The answer-leak lint in `scripts/build.mjs` was promoted from a warning to a build failure on
+  published courses, now that no published course trips it. Drafts still warn (eight remain,
+  in Bible Basics and Logic 9) and those will block publishing until fixed.
+- Verified in the served site: the new blocks render as the standard Check-yourself component
+  with the answer in a closed details element, and no stray `:::` fences reached the build.
+
 **The podcast pipeline is built: marching-order item 1 is done**
 
 - `scripts/podcast.mjs`: plan / render / upload / stamp, all driven by the lesson path alone
