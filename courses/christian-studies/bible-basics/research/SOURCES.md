@@ -252,23 +252,23 @@ Verified while drafting lesson 7 (letters and Revelation); each was fetched and 
 All fetched and read on 2026-09-05 while drafting lesson 4; each item records what it establishes for the lesson.
 
 - **Hayes, RLST 145 Lecture 8, "Exodus: From Egypt to Sinai"** (oyc.yale.edu transcript) — the six elements of the Hittite suzerainty treaty form in her wording (preamble; historical prologue; stipulations; deposit and publication; witnesses; blessings and curses); Hittite treaties "1500 to 1200, or so"; "no one passage contains all of the elements of the Hittite treaty form, but there are enough of them scattered around to suggest it as a model"; editorial footnote identifies the underlying work as Mendenhall's in the 1950s.
-- **Mendenhall, G. E., "Covenant Forms in Israelite Tradition", *The Biblical Archaeologist* 17 (1954), 50–76** — bibliographic details confirmed by search (Semantic Scholar record); the article itself not opened. Cited only for the origin of the treaty-form argument.
+- **Mendenhall, G. E., "Covenant Forms in Israelite Tradition", *The Biblical Archaeologist* 17, no. 3 (September 1954), 49-76** — bibliographic details confirmed by search (Semantic Scholar record); the article itself not opened. Cited only for the origin of the treaty-form argument.
 - **Hayes, RLST 145 Lecture 16, "Literary Prophecy: Amos"** — a prophet is "sent by God with a message, not someone who is consulted by a client to find out what God thinks"; the prophetic books are "anthologies of oracles"; Amos 5:21–24 is "an attack on empty piety" in "accompaniment to social injustice".
 - **Hayes, RLST 145 Lecture 17, "Literary Prophecy: Hosea and Isaiah"** — the *riv* (lawsuit) form; "In 734, you have the Assyrians, who at this time are under Tiglath-Pileser"; "Judah refused to join the alliance... So in anger, Aram and Israel moved south and lay siege to Jerusalem"; Isaiah's advice "be quiet and do not fear (chapter 7:4)"; the Immanuel sign as "a young woman who has conceived will bear a son"; the Greek as "a mistranslation of the word 'young woman' as 'virgin'" (her critical-side position, quoted as such in the lesson).
 - **Babylonian Talmud, *Makkot* 23b** (Sefaria, English) — Rabbi Simlai: 613 mitzvot, 365 prohibitions for the days of the solar year and 248 positive commandments for the limbs of the body; Rav Hamnuna's gematria of "Torah" from Deuteronomy 33:4.
 - **Maimonides, *Sefer HaMitzvot*** (Sefaria) — the enumeration; first positive commandment is belief in God from Exodus 20:2.
 - **Aquinas, *Summa Theologiae* I-II q. 99 a. 2–4** (newadvent.org) — a. 4: "We must therefore distinguish three kinds of precept in the Old Law; viz. 'moral' precepts... 'ceremonial' precepts... and 'judicial' precepts, which are determinations of the justice to be maintained among men."
-- **Westminster Confession of Faith (1646) ch. 19, "Of the Law of God"** (opc.org; ccel.org, where it is numbered ch. 21 in the PCUS edition) — 19.3 ceremonial laws "now abrogated under the New Testament"; 19.4 judicial laws given to Israel "as a body politic" expired with that state, obliging others only as their "general equity" requires; 19.5 the moral law binds all always. Fetched as summaries with those phrases quoted; the fact-check should confirm the exact wording of 19.3–19.5 against a printed edition.
+- **Westminster Confession of Faith (1646) ch. 19, "Of the Law of God"** (opc.org; ccel.org, where it is numbered ch. 21 in the PCUS edition) — 19.3 ceremonial laws "now abrogated under the New Testament"; 19.4 judicial laws given to Israel "as a body politic" expired with that state, obliging others only as their "general equity" requires; 19.5 the moral law binds all always. **Confirmed at lesson 4's Stage 4, 2026-09-06, so this open item is closed.** Verbatim: 19.3 "All which ceremonial laws are now abrogated, under the New Testament"; 19.4 "To them also, as a body politic, He gave sundry judicial laws, which expired together with the State of that people; not obliging... further than the general equity thereof may require"; 19.5 "The moral law does forever bind all."
 - **Ryrie, C. C., *Dispensationalism*, rev. ed. (Moody, 1995)** — the three essentials (Israel–church distinction; consistent literal interpretation; the glory of God as the purpose of history) confirmed by search across several secondary summaries; the book not opened.
 - **Gentry, P. J. and Wellum, S. J., *Kingdom through Covenant* (Crossway, 2012)** — progressive covenantalism as a "via media" between covenant theology and dispensationalism (Themelios and EFCA reviews). Book not opened.
 - **Blaising, C. A. and Bock, D. L., *Progressive Dispensationalism* (Victor/BridgePoint, 1993)** — title, authors, and 1993 date confirmed (publisher and Google Books records). Book not opened.
-- **JPS Tanakh, Isaiah 7:14** (Sefaria; 1985 and the 2023 gender-sensitive edition) — "Look, the young woman is with child and about to give birth to a son. Let her name him Immanuel." Hebrew: הָעַלְמָה הָרָה וְיֹלֶדֶת בֵּן.
-- **Septuagint, Isaiah 7:14** (ellopos.net, Greek with Brenton) — ἰδοὺ ἡ παρθένος ἐν γαστρὶ ἕξει, καὶ τέξεται υἱόν; Brenton: "behold, the virgin shall conceive in the womb, and shall bring forth a son".
+- **JPS Tanakh, Isaiah 7:14. Use the 1917, not the 1985 or 2023.** Editorial Standards 4.7 asks for the public-domain **JPS 1917**, which reads: "Therefore the Lord Himself shall give you a sign: behold, the young woman shall conceive, and bear a son, and shall call his name Immanuel." Note the future ("shall conceive"), which matches the NET's "is about to conceive"; only the copyrighted editions read "is with child", so **no lesson may say the Hebrew is present tense on the strength of a JPS quotation**. Lesson 4 quoted the copyrighted edition and drew exactly that inference; both were fixed at its Stage 4. The superseded entry, kept so the error is traceable: JPS (Sefaria; 1985 and the 2023 gender-sensitive edition) — "Look, the young woman is with child and about to give birth to a son. Let her name him Immanuel." Hebrew: הָעַלְמָה הָרָה וְיֹלֶדֶת בֵּן.
+- **Septuagint, Isaiah 7:14** (ellopos.net, Greek with Brenton) — ἰδοὺ ἡ παρθένος ἐν γαστρὶ ἕξει, καὶ τέξεται υἱόν; Brenton: "behold, **a** virgin shall conceive in the womb, and shall bring forth a son". **Corrected at lesson 4's Stage 4, 2026-09-06:** this entry previously read "the virgin", and lesson 4 quoted it that way. The definite article is the force of Matthew 1:23's "The virgin", so upgrading Brenton's "a" to "the" strengthens the Christian case with a word the translation does not carry. The Greek does have the article; argue it from ἡ παρθένος and say so, never from Brenton's English.
 - **Rashi on Isaiah 7:14** (Sefaria, English) — "My wife will conceive this year. This was the fourth year of Ahaz." The sign: divine inspiration resting on a girl who never prophesied.
 - **Ibn Ezra on Isaiah 7:14** (Sefaria, Friedländer 1873) — "It is to me a matter of surprise that there are those who say the prophet here refers to Jesus, since the sign was given to Ahaz, and Jesus was born many years afterwards"; Immanuel as Isaiah's own son alongside Shear-jashub and Maher-shalal-hash-baz.
 - **Radak on Isaiah 7:14** (Sefaria, Hebrew; read via summary) — *almah* is a young woman, virgin or not; the mother is Ahaz's wife, the child a royal son. The fact-check should confirm against the Hebrew.
 - **Justin Martyr, *Dialogue with Trypho* ch. 67** (newadvent.org, ANF 1) — Trypho: "The Scripture has not, 'Behold, the virgin shall conceive, and bear a son,' but, 'Behold, the young woman shall conceive, and bear a son'"; the Perseus comparison. Establishes that the *almah*/*parthenos* dispute is second-century.
-- **Rashi on Isaiah 53:3** (Sefaria, English) — the prophet "characterizes all Israel as a single entity", citing 44:2 and 52:13 as the house of Jacob.
+- **Rashi on Isaiah 53:3** (Sefaria, English) — the prophet "**mentions all Israel as one man**", citing **44:1 and 44:2** ("Fear not, My servant Jacob"; "And now, hearken, Jacob, My servant") and taking 52:13 to refer to the house of Jacob. **Corrected at lesson 4's Stage 4, 2026-09-06.** The wording previously recorded here, "characterizes all Israel as a single entity", is in no edition found and had reached lesson 4 as a quotation inside quotation marks; the Judaica Press translation Sefaria carries reads as now given.
 - **Targum Jonathan on Isaiah 52:13** (Sefaria) — "Behold, my servant the messiah shall prosper" (עַבְדִי מְשִׁיחָא). Shows the Jewish tradition is not one voice on the servant.
 - **NET Bible via the bible.org API** (labs.bible.org) — Deuteronomy 28:15–24, 38–42 and Amos 4:6–12 verbatim; used for the sanction pairing in the lesson because the ESV fetch would only summarise those passages. NET is free by design.
 - **ESV at esv.org** — verbatim: Leviticus 19:18–19; Amos 5:21–24; Isaiah 7:14–16 (footnote: Immanuel means God is with us); Matthew 1:22–23; Hosea 4:1–3; Deuteronomy 28:1, 28:15; Deuteronomy 30:15, 30:19; Amos 4:6–9; Isaiah 7:1, 7:4, 7:7, 7:9, 8:3–4, 8:18; Matthew 5:17; Mark 7:19 (parenthesis); Galatians 5:14. These are the right passages; **re-fetch the wording in the NET** before quoting (Editorial Standards 4.7).
@@ -349,3 +349,114 @@ All fetched and read on 2026-09-05 while drafting lesson 10 (what we believe, an
 - **Image: Pilate inscription** — Wikimedia Commons "File:Limestone Inscription with Name of Pontius Pilate, Caesarea, 26-36 AD (42500903014).jpg", Gary Todd, 5 July 2018, CC0, 6000 x 4000, Israel Museum; direct URL upload.wikimedia.org/wikipedia/commons/8/8c/Limestone_Inscription_with_Name_of_Pontius_Pilate%2C_Caesarea%2C_26-36_AD_%2842500903014%29.jpg. Licence confirmed via the Commons API. (The alternative "File:Pilate Inscription.JPG" is CC BY-SA 2.0, Marion Doss, 2005.)
 - **Bibliographic confirmations (books not opened):** Rogers & McKim, *The Authority and Interpretation of the Bible: An Historical Approach* (Harper & Row, 1979); Woodbridge, *Biblical Authority: A Critique of the Rogers/McKim Proposal* (Zondervan, 1982; ISBN 9780310447511); Baden, *The Composition of the Pentateuch: Renewing the Documentary Hypothesis*, Anchor Yale Bible Reference Library (Yale UP, 2012; reviewed *JNES* 72.2 and *RSR* 2013); Enns, *Inspiration and Incarnation: Evangelicals and the Problem of the Old Testament*, 2nd ed. (Baker Academic, 22 September 2015; ISBN 9780801097485; postscript added); Wenham, *Christ and the Bible*, 3rd ed. (Wipf & Stock, 1 August 2009; ISBN 9781606088883). Brown's *Introduction to the New Testament* is Anchor Bible Reference Library, 1997 (Doubleday), not Yale as recorded above; the lesson gives the year only.
 - **ESV text** read at esv.org / BibleGateway: 2 Timothy 3:14–17; Luke 24:44; John 10:35 (fragment "Scripture cannot be broken"; the ESV verse contains em dashes, so only the fragment is quoted); Matthew 5:18; 2 Peter 1:21; 2 Peter 3:16 (fragment); Mark 4:30–32; Deuteronomy 34:5–6, 34:10; Genesis 36:31; Exodus 24:4 (fragment). Mark 12:26 ("have you not read in the book of Moses") and Mark 1:5 ("all the country of Judea and all Jerusalem were going out to him") were also fetched at BibleGateway; the lesson refers to them and quotes only the short fragments given here. These are the right passages; **re-fetch the wording in the NET** before quoting (Editorial Standards 4.7).
+
+## Added at lesson 4's Stage 4, 2026-09-06 (verified there, for later lessons to use)
+
+### How to verify scripture when the usual hosts are blocked
+
+**Read this before drafting or reviewing another lesson.** In some sessions the network policy blocks
+`labs.bible.org`, `sefaria.org`, `biblegateway.com`, `oyc.yale.edu`, `commons.wikimedia.org`,
+`newadvent.org`, `youtube.com` and `en.wikipedia.org` at the proxy, from curl and from the fetch tool
+alike, so **the `curl` recipe in 4.7 and in the entry above does not always work.** What does work:
+`raw.githubusercontent.com`, and web search. The mirrors below were used at lesson 4's Stage 4 and
+each caught at least one real error.
+
+- **NET, complete, mirror 1:**
+  `https://raw.githubusercontent.com/jabinweb/BibleTranslations/master/NET/NET_books/<Book>.json`
+  (branch `master`; `main` 404s). Top-level object with two keys, `"Info"` and the book name;
+  address a verse as `d["<Book>"]["<chapter>"]["<verse>"]`, chapter and verse both **strings**.
+  Real newlines are preserved inside poetic verses, which makes this the better mirror for quoting.
+  Book names are full and capitalised, with spaces percent-encoded (`1%20Corinthians`), and the
+  Psalter is **`Psalm.json`, not `Psalms.json`**.
+- **NET, mirror 2, for cross-checking:**
+  `https://raw.githubusercontent.com/staspk/Bible-Vault/master/bible_txt/NET/<Book>/<chapter>.txt`
+  Plain text, one verse per line, no verse numbers, so line *N* is verse *N*. Poetry line breaks are
+  stripped without a space, so compare on collapsed whitespace and never on exact bytes.
+  `Mark/7.txt` is missing from this mirror.
+- **Confirm the edition before trusting either.** NET1 (1996/2005) and NET2 (2019) differ in ways
+  that bite: NET1 renders *Adonai* "the sovereign master" and *tseva'ot* "the LORD who commands
+  armies"; NET2 reads "the Lord" and "the Lord of Heaven's Armies". Grep a book for
+  `Heaven's Armies` (NET2) against `sovereign master` and `who commands armies` (NET1). Both mirrors
+  above are NET2 and both agree with the wordings this course fetched from the bible.org API for
+  lessons 2 and 11. **A web search for a NET verse will often return NET1**, because Biblia's online
+  NET is the older text; a search result disagreeing with the lesson is not by itself a finding.
+- **JPS 1917, complete:** `https://raw.githubusercontent.com/scrollmapper/bible_databases/master/formats/json/JPS.json`
+  (6.4 MB; `{translation, books:[{name, chapters:[{chapter, verses:[{verse, text}]}]}]}`, book names
+  in the form `I Samuel`). **One caution that matters:** this edition substitutes `HaShem`, `L-rd`
+  and `G-d` for the divine name in about 7,100 verses. Printed JPS 1917 has "the LORD" and "the
+  Lord", so **restore the divine name and spot-check any verse you quote** against Sefaria or
+  Wikisource. Sefaria's own export of the same version, book by book, is at
+  `https://raw.githubusercontent.com/elyhahami18/NU-farbrang-final/main/txt/Tanakh/<Torah|Prophets|Writings>/<Book>/English/The%20Holy%20Scriptures%20A%20New%20Translation%20JPS%201917.txt`
+  and does not have the substitution.
+- **Sefaria commentary exports** (Rashi, Targum Jonathan) are in the same `elyhahami18` repo under
+  `txt/Tanakh/Rishonim on Tanakh/...` and `txt/Tanakh/Targum/...`. Comments carry inline `<b>lemma</b>`
+  tags; grep the lemma, because line offsets are not verse numbers. **The Ibn Ezra path in that repo
+  is a near-empty stub** and does not contain the Isaiah 7:14 comment.
+- **Brenton's Septuagint:** `https://raw.githubusercontent.com/codexcommunion/bible-toolkit/main/data/septuagint/brenton/english/<USFM><zero-padded chapter>.yaml`
+  (e.g. `ISA07.yaml`). Index on `usfm_code` plus chapter and verse; the `book` field carries the
+  Septuagint name (`Esaias`, not Isaiah).
+- **Standing caveat.** These are third-party mirrors, not publisher texts. They are reliable for
+  catching a wrong wording, which is what they did four times at this pass, but a claim that turns on
+  a single word should still be confirmed against bible.org or Sefaria when egress allows.
+
+### Corrections and findings recorded at this pass
+
+- **Hayes's *riv* quotation belongs to Hosea, and says Hosea was the first.** RLST 145 lecture 17:
+  "he's now the first to couch his charge in the form of this formal *riv*, or lawsuit." The subject
+  is **Hosea**, so on her account the form excludes Amos. Lesson 4 had used the sentence as
+  corroboration for reading **Amos 5:21 to 24** as a lawsuit, with an "as well" that inverted her
+  claim and a pronoun with no antecedent. No lesson may cite this sentence for Amos. On the
+  substance: Amos 5:21 to 24 has neither summons nor witnesses; the full *riv* form (summons,
+  witnesses, charge, verdict) is at Micah 6:1 to 8, Hosea 4:1 to 3 and Isaiah 1:2 to 20.
+- **Fee and Stuart chapter 10 is titled two different ways in this file.** Line 11 gives "The
+  Prophets: Enforcing the Covenant in Israel" (which lesson 4 uses) and the lesson 5 block gives
+  "The Prophets as Poets". One of the two is a section heading rather than a chapter title. Whoever
+  next has the book open should settle it; both lessons currently assert theirs.
+- **Deuteronomy 28's closest treaty parallels are argued, and the argument bears on dating.**
+  Mendenhall's parallels are second-millennium Hittite. Weinfeld traced a shared Mesopotamian curse
+  tradition, and Steymans, *Deuteronomium 28 und die adê zur Thronfolgeregelung Asarhaddons* (1995),
+  argued that Deuteronomy 28:20 to 44 parallels the seventh-century succession treaty of Esarhaddon;
+  others point to the Aramaic Sefire treaties. **A lesson presenting the Hittite parallel as settled
+  is taking the side that favours an early date**, which is the recurring neutrality defect. None of
+  these works was opened; name them as positions, do not quote them.
+- **Any lesson arguing that a prophet reads Deuteronomy 28 back to Israel must disclose what that
+  assumes.** On the majority critical view Deuteronomy reached its present form in the seventh
+  century, after Amos (c. 760), so the dependence runs the other way or from a shared stock. The
+  *working* form of the argument survives either dating (the covenant carried known sanctions and the
+  prophets enforced them, which is visible on the page); the *strong* form ("Amos held a scroll of
+  Deuteronomy") does not. Lesson 4 now says so and hands the authorship question to lesson 10.
+- **Verified at this pass and safe to reuse:** Aquinas *ST* I-II q. 99 a. 4 verbatim; Westminster
+  19.3 to 19.5 (see above); Justin *Dialogue* 67 verbatim, and **Trypho's own candidate for the
+  child is Hezekiah**, which is also Radak's; Rashi on Isaiah 7:14 verbatim, including his note that
+  the Hebrew participle is "actually the future"; Ibn Ezra on 7:14 verbatim; Targum Jonathan on
+  52:13 verbatim; the NET text of every verse lesson 4 quotes.
+- **NET Matthew 2:15** reads "I called my Son out of Egypt"; **NET Hosea 11:1** reads "and I summoned
+  my son out of Egypt". "Out of Egypt I called my son" is ESV/NIV and matches neither. It had
+  survived into a lesson 4 quiz stem whose whole subject was what Matthew's quotation says.
+- **Catholic, Anglican and Lutheran statements on the Old Law, for the range that lessons 2, 3 and 4
+  were each faulted for narrowing.** *Catechism of the Catholic Church* 1961 to 1974, "The Old Law":
+  the Old Law is "the first stage of revealed Law" and "its moral prescriptions are summed up in the
+  Ten Commandments" (1962), at
+  `https://www.vatican.va/content/catechism/en/part_three/section_one/chapter_three/article_1/ii_the_old_law.html`.
+  Thirty-Nine Articles, **Article VII**: the law "as touching Ceremonies and Rites" does not bind
+  Christians, nor need its "Civil precepts" be received in any commonwealth, "yet notwithstanding, no
+  Christian man whatsoever is free from the obedience of the Commandments which are called Moral" (so
+  **the threefold division is a confessional Anglican position, not only a Presbyterian one**).
+  Formula of Concord (1577) **Article VI**, the three uses of the law: it restrains the unruly, shows
+  people their sin, and gives the reborn a rule for living. None of the three volumes was opened;
+  the Catechism paragraph and Article VII wording were confirmed by search against the official texts.
+- **Jewish practice is not one thing, and the 613 are not an inventory.** Orthodox Judaism holds the
+  ritual commandments binding as halakhah, Conservative Judaism holds them binding within a
+  developing halakhic process, and Reform Judaism holds the ethical commandments binding and treats
+  the ritual ones as a matter of choice. The count itself is disputed inside the tradition
+  (Nachmanides' critical notes on Maimonides, the *Halakhot Gedolot*'s different enumeration, Ibn
+  Ezra's doubt that the figure is more than homiletical), and a large share of the 613 concern the
+  Temple and cannot be performed since it fell. **A lesson that treats "613" as a devotional flourish
+  or as a synonym for an impossible burden fails the Jewish Turing test**; lesson 4 did the first and
+  was corrected.
+- **Beale's common-ground observation**, that the Old Testament writers did not exhaustively grasp
+  what they wrote, is recorded in contested question 5 as accepted across all four
+  Old-Testament-to-New frameworks. It went unused in lessons 2 and 4 until this pass. It is the
+  strongest available support for a *sensus plenior* reading precisely because it is not partisan,
+  and any lesson arguing a far horizon should reach for it. His *Handbook on the New Testament Use
+  of the Old Testament* (Baker, 2012) is where it is worked out; not opened, no page reference.
