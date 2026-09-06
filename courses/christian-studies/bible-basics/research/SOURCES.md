@@ -220,7 +220,7 @@ Added at the Stage 4 fix pass, 2026-09-06 (each fetched and read, not recalled):
 - **Synod of Jerusalem (1672), Confession of Dositheus, Question 3** — ccel.org (Schaff, *Creeds of Christendom*): Wisdom, Judith, Tobit, Bel and the Dragon, Susanna, Maccabees, Sirach called "genuine parts of Scripture".
 - **Dan Brown, *The Da Vinci Code* (2003), ch. 55** — the Teabing line that the Bible "was collated by the pagan Roman Emperor Constantine the Great"; confirmed via secondary summaries of the chapter. Cited only as the source of the popular story.
 - **Videos verified via YouTube oEmbed:** "2. From Stories to Canon" (YaleCourses, u72myyXDA74); "How Did We Get The Bible? | Michael Kruger" (Christ Covenant, vPUBjRxDQXo).
-- **Ware, *The Orthodox Church*** — cited in lesson 8 for the view that many Orthodox scholars regard the deuterocanonical books as on a lower footing; from the drafter's recollection of the chapter on Holy Tradition, not re-read at draft time. Fact-check should confirm the page.
+- **Ware, *The Orthodox Church*** — cited in lesson 8 for the view that many Orthodox scholars regard the deuterocanonical books as on a lower footing; from the drafter's recollection of the chapter on Holy Tradition, not re-read at draft time. **Corrected at lesson 8's Stage 4.** The drafter's recollection also weakened the claim: Ware writes "**most** Orthodox scholars at the present day, following the opinion of Athanasius and Jerome, consider that the Deutero-Canonical Books, although part of the Bible, stand on a lower footing than the rest of the Old Testament", and the draft rendered it "many ... though not all agree", which is a weaker claim than the source makes. Wording now confirmed from the widely reproduced excerpt; the page is still unconfirmed. **This was the only substantive Orthodox theological claim in the lesson and it rested on the worst-sourced item on the page.** Fact-check should confirm the page.
 
 ## Added at draft time (lesson 7)
 
@@ -762,3 +762,106 @@ each caught at least one real error.
   (before "for all of you are one in Christ Jesus"), **1 Peter 1:12** (before "things angels long to
   catch a glimpse of"), **Genesis 49:9**, **Revelation 12:9**, **Philemon 9 and 12**, **Revelation
   1:5 and 17:16**. Quote these in fragments that stop before the dash.
+
+## Added at lesson 8's Stage 4, 2026-09-06 (verified there, for later lessons to use)
+
+- **A FIFTH route past the validator, and the first that reaches the learner as visible nonsense.**
+  A quiz option beginning with an unquoted word and a colon (`Orthodoxy: ...`) parses as a **YAML
+  mapping, not a string**, and `site/assets/app.js` renders it through `String()`, so the learner sees
+  **`[object Object]`**. `npm run validate` passes it, because its guard checks only that `options` is
+  an array of length two or more. Lesson 8 shipped a whole item that way, four options out of four.
+  **A sweep of all 50 lessons with quizzes in this repo found one other instance, in a course with
+  `status: published`.** It is filed as shared-file request 12 in `REVIEWS.md` and as a separate task,
+  and was not edited from this course. **Before committing any lesson, parse the frontmatter and
+  assert every option is a string, not just that the array exists.** Note the near miss that makes
+  this findable: when the colon breaks the *whole* frontmatter, validate does report it; the dangerous
+  case is the one where the file still parses and one value silently becomes a map.
+- **Block bodies need blank lines between paragraphs, and a body that starts with a number and a full
+  stop becomes an ordered list.** `scripts/build.mjs` renders `:::predict`, `:::checkpoint`,
+  `:::callout` and `:::exercise` bodies through `marked.parse`, with `breaks: false`, so **single
+  newlines inside a block collapse into one run-on paragraph**. Three checkpoint bodies in lesson 8,
+  one in lesson 4 and two in lesson 7 were shipping as walls of 160 to 290 words for this reason, and
+  all six are now fixed. Separately, a body opening `367. It's a letter from Athanasius` renders as
+  `<ol start="367">` with the sentence as a list item. **`:::figure` and `:::video` are different**:
+  they use `marked.parseInline`, so their captions must stay a single paragraph.
+  This is the same family as the poetry bug recorded at lesson 5's Stage 4, and the check is the same:
+  run the body through marked with the project's own options and count the paragraphs.
+- **Brenton is the public-domain Septuagint and it covers the deuterocanon this course needs.**
+  Fetched and verified at this pass from the mirror recorded at lesson 4's Stage 4. **Prologue to
+  Sirach**, all three tripartite references: "delivered unto us by the law and the prophets, and by
+  others that have followed their steps"; "the law, and the prophets, and other books of our fathers";
+  "the law itself, and the prophets, and the rest of the books". It also carries "in the eight and
+  thirtieth year coming into Egypt, when Euergetes was king", which is the basis for the conventional
+  132 BC and which dates **his arrival, not the preface**. **2 Maccabees 7:9**: "the King of the world
+  shall raise us up, who have died for his laws, unto everlasting life." **2 Maccabees 12:44**: "for
+  if he had not hoped that they that were slain should have risen again, it had been **superfluous and
+  vain** to pray for the dead." Note that last wording: the NRSVue reads "superfluous and foolish", and
+  lesson 8's draft quoted the NRSVue, which 4.7 does not permit.
+- **The Council of Florence, 1442, is the fact the Catholic case turns on and the course had missed
+  it.** Bull *Cantate Domino*, 4 February 1442, listed the whole canon with the deuterocanonical books
+  in it. **It was a general council and it sat seventy-five years before Luther's theses**, and Trent's
+  1546 list repeats it. Innocent I sent Exsuperius of Toulouse a similar list in 405. Without Florence,
+  "Trent defined rather than added" is an assertion; with it, it is a demonstration, and any timeline
+  that draws a blank thousand-year gap between Jerome and Trent is asserting a magisterial vacuum that
+  did not exist. Not fetched here; the fact-check should confirm the decree's text when egress allows.
+- **Luther's New Testament, which a Catholic reader raises first and this course had never mentioned.**
+  In the September Testament of 1522 he moved **Hebrews, James, Jude and Revelation** to the end and
+  left them out of the numbered contents while the other twenty-three were numbered; the general
+  preface said those four "have from ancient times had a different reputation". **The "epistle of
+  straw" phrase was in that general preface, not in the preface to James**, and he **dropped it from
+  every edition after 1537**. He removed nothing and no Lutheran Bible since has. The point cuts both
+  ways and a lesson should say so: he was applying Eusebius's own category of disputed books, and he
+  also made himself the kind of authority he said the church should not be.
+- **"The edges settled by 400" is true of the Latin and Alexandrian churches and false elsewhere.**
+  The **Peshitta**, the standard Syriac New Testament from the early fifth century, has **twenty-two
+  books** and omits 2 Peter, 2 and 3 John, Jude and Revelation; those five reached Syriac only in the
+  Philoxenian (508) and Harklean (616) versions, and **the Church of the East has never received
+  Revelation**. Any lesson that says the canon closed in the fourth century owes the reader that
+  qualifier, especially one that already tells them Old Testament canons still vary.
+- **Eusebius has FOUR categories, not three**, and the fourth is the one the "lost gospels were
+  suppressed" argument actually needs: recognised, disputed "which are nevertheless recognized by
+  many", spurious (the Shepherd, Barnabas, the Didache), and **the forgeries circulated by heretics,
+  where the Gospels of Peter, Thomas and Matthias sit**. He also names **Revelation in both the
+  recognised and the rejected lists**, which is stronger evidence for indecision than quoting either
+  alone. And **the *History* was substantially written before Nicaea**, in editions of about 313, 316
+  and 324 to 325, with Book 3 most likely in the earliest. That correction **strengthens** the
+  anti-Nicaea argument rather than weakening it: he revised after the council and left 3.25 standing.
+- **Marcion**, corrected: he was **himself the shipowner** (*nauclerus*, per Rhodon and Tertullian) and
+  by tradition **the son of the bishop of Sinope**, who expelled him. Lesson 8's draft inverted both.
+  The dropped detail is the better one, because it makes Marcion an insider dispute. **And what his
+  edit proves is argued**: Harnack's case that you cannot abridge a collection that does not exist,
+  against von Campenhausen's that no normative collection is attested before Marcion and the lists are
+  a response to him, with Harnack himself granting part of the second. A minority (BeDuhn, Klinghardt,
+  Vinzent) argues Marcion's gospel is prior to canonical Luke.
+- **The ecclesial account of what a canon is, which this course had left out of a section headed "two
+  live positions".** Catholic and Orthodox theology holds that a canon presupposes an authority
+  competent to recognise one, because the question "which books" cannot be answered by the books
+  themselves. Its sharp form is the question put to Protestants: with no inspired list anywhere in
+  Scripture, you have a fallible collection of infallible books, received from the Church whose
+  judgement you otherwise decline. **Kruger's self-authenticating model is in large part the answer to
+  that question**, so a lesson that gives the answer without the question has not presented either.
+- **The Muratorian Fragment's traditional range is c. 170 to 200**, not 180 to 200: Metzger's own
+  headnote to the translation this course cites dates the list to about 170. And the Sundberg and
+  Hahneman case deserves stating at strength (the Fragment's shape resembles the fourth-century
+  Eastern lists, no comparable Western list survives that early, and "in our times" may be inherited),
+  because 3.1 forbids resolving a contested empirical question by editorial preference. **Rothschild's
+  2022 critical edition keeps the late case in play** and had been cited in this course's sources
+  while never appearing in a lesson body.
+- **Sundberg's argument cuts both ways and this course was using half of it.** The case that dissolved
+  the "Alexandrian canon" is Sundberg's (*The Old Testament of the Early Church*, 1964), and his
+  conclusion was that in the first century **neither** community had a closed list: no Alexandrian
+  canon, and no closed Palestinian one either. Reporting only the half that costs the Catholic side an
+  argument, while asserting a closed first-century Hebrew canon elsewhere in the same lesson, is the
+  motivated-framing failure 3.3 names.
+- **Books that may not be quoted or made authorities, added to the list from lesson 7.** `SOURCES.md`
+  records **Bruce, Kruger, McDonald and Ware** as not opened for this course. Lesson 8's note 5 made
+  Bruce the authority for five specific facts the research file does not record him supporting,
+  including the absence of canon business at Nicaea and the Alexandrian-canon doubt, across five call
+  sites. **Bruce is also an evangelical Protestant whose stated thesis is the recognition model this
+  course holds**, so he is a party to the dispute he is used to adjudicate and must be disclosed where
+  he is cited approvingly, exactly as lesson 7's Stage 4 required for Fee.
+  **McDonald's publisher is Hendrickson, not Baker**, in the 2007 third edition; the error was in this
+  file and in three places in the lesson.
+- **The transmarina clause is single-manuscript.** The Hippo and Carthage request that "the church
+  across the sea" confirm the list survives in one manuscript strand rather than in every copy. The
+  argument built on it is good, and the hedge belongs in the body rather than only in a source note.

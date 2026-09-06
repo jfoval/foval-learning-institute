@@ -329,7 +329,9 @@ Reading a vision for its spiritual sense rather than its calendar isn't a modern
 
 :::checkpoint A futurist reads Revelation 12 as a picture of a still-future assault on Israel. State the strongest version of that reading, then state what an idealist would say back. Then say which of the two you found harder to state fairly.
 The futurist: the woman is Israel, crowned with the twelve stars of Joseph's dream, and the chapter's 1,260 days are a real period still ahead in which Israel is preserved through the tribulation; the child's snatching to the throne is the ascension, so the chapter spans from the first coming to a future the church has not yet reached, and the flight into the wilderness is what's still outstanding. The reading takes the numbers as measurements and Israel's promises as Israel's, which is consistent with how it reads the rest of the book.
+
 The idealist: every image in the chapter has an Old Testament address, and the addresses are about the past, so the vision is showing the church what has already been settled rather than scheduling what hasn't; the dragon's defeat is the cross, the wilderness is where God has always fed his people, and the point is a persecuted congregation in Asia being told who is losing. On this reading a future assault on Israel might well happen, but it isn't what the picture is for.
+
 Being honest about which is harder: the writer of this lesson finds the futurist reading harder to state fairly, because the course holds a mixed reading closer to the idealist end, and the temptation is to state the futurist case in its crudest form and answer that. If you found the same, notice it. If you found the opposite, notice that too, and check whether the version of the idealist reading you produced is one an idealist would recognise.
 :::
 
@@ -403,6 +405,7 @@ The sentence about what the chapters are doing: something like "they show a chur
 
 :::checkpoint Model answers for exercise Part 3, the sorting task.
 Colossians 2:16 to 23 is a letter: reconstruct what the Colossians were being told by whoever Paul is answering. Amos 7:10 to 17 is a prophet: ask what a priest at Bethel and a farmer from Tekoa each heard in the crisis of the 750s. Luke 12:16 to 21 is a parable: ask who was listening, which Luke tells you two verses earlier, and what would have caught them. Daniel 8:1 to 14 is apocalyptic: find the Old Testament and Near Eastern furniture and see the picture whole, and notice that Daniel is given an interpretation in the same chapter, which is your anchor.
+
 Two of the six are deliberately hard, and "both, in this order" is the right answer for each. **Revelation 2:12 to 17** is a letter inside an apocalypse: reconstruct Pergamum first, a city with the imperial cult and a named martyr, and only then read the sword and the white stone as pictures. **2 Thessalonians 2:1 to 12** is apocalyptic inside a letter: reconstruct what the Thessalonians had been told that made them think the day had already come, and then read the man of lawlessness by apocalyptic conventions rather than as a portrait. If you gave one answer for either of those, that's the discrimination this lesson exists to teach, and it's worth going back to see which half you missed.
 :::
 

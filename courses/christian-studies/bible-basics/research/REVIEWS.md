@@ -4656,3 +4656,156 @@ clause; Ware's page number; Eusebius's edition history; and the Marcion scholars
     a `<g>`, so 28 of 43 undersized labels were invisible. Five instances across six lessons, now
     defeating two different checks by four different syntaxes, is the case for replacing the regex
     checks with a render-time measurement rather than patching them a fifth time.
+
+### Resolutions applied, 2026-09-06
+
+Rewritten in full. `minutes` 50 to **130**, objectives four to **six**, in-body links 2 to **22**,
+four of six quiz items replaced and the other two levelled, and the quiz block's contraction density
+brought from 1 in 116 to **1 in 53 against a body at 1 in 51**, which is the first time in this course
+the quiz has not read stiffer than the lesson around it. `npm run validate` exits 0 with no warning on
+this lesson. Zero em dashes and zero en dashes.
+
+**L8-B1, the unrenderable quiz item.** Fixed by replacement, and the finding turned out to be bigger
+than the lesson. The item is gone; every option in the new quiz is a plain string, checked by parsing
+the frontmatter and asserting the type rather than by eye. **The repo-wide sweep found one other
+instance in a published course**, which was left untouched (it is outside this course's ownership) and
+filed as shared-file request 12 and as a standalone task for whoever owns that course.
+
+**L8-B2, "membership was assumed".** Gone, and replaced with what `SOURCES.md` 41 actually asked for:
+*m. Yadayim* 3:5 on whether Ecclesiastes and the Song of Songs "defile the hands", and Barton, Lim and
+McDonald named as holding the Writings were still open. The section now says out loud that **a closed
+first-century Hebrew canon is the premise the Protestant case later in the lesson rests on**, so the
+reader meets the weakness of the course's own strongest argument before the argument arrives rather
+than never.
+
+**L8-B3 and L8-B4, the missing traditions.** The two-model section is now three, with the **ecclesial
+account** given in its own terms and the question it answers put before Kruger's answer to it,
+including the sharp form ("a fallible collection of infallible books"). The Orthodox case now has its
+own paragraph beginning "An Orthodox reader makes the case in their own terms", with the liturgical
+argument, the Quinisext ratification, the reason there is no Orthodox Trent, and the observation that
+both Western sides are arguing inside a frame Orthodoxy does not use. *Anagignoskomena* is introduced
+as **the Orthodox term** rather than as "the Greek term for the extra books", and the callout now
+carries all three words.
+
+**L8-B5, Florence.** Added, with Innocent I's 405 list alongside it, and the timeline's dashed
+thousand-year gap is now bridged by a Florence entry and a Quinisext entry. Trent's paragraph no
+longer opens "The Catholic Church answered Luther", which was the Protestant framing in the author's
+voice, and the misconception at 305 now names Florence as the evidence.
+
+**L8-B6, the Peshitta.** The heading is now "The edges settle **in the West and in Alexandria**", and a
+flagged paragraph gives the twenty-two-book Syriac New Testament, the Philoxenian and Harklean
+supplements, and the Church of the East's never receiving Revelation, closing "they settled where this
+course's ancestors were standing".
+
+**L8-B7, the opening.** The 2 Peter caveat is now the second paragraph of the lesson: 2 Peter is one
+of the disputed books, its date is argued, and if it is late the passage shows a second-century church
+doing this, **which is what one of the models in the lesson predicts**. It cost the argument almost
+nothing and it is now the most honest paragraph on the page.
+
+**L8-B8 and the Marcion facts.** He is now the shipowner and the bishop's son, the church at Rome
+excommunicated him rather than "threw him out", and what his edit proves is given as an argument with
+Harnack, von Campenhausen and Harnack's own concession, rather than as a settled inference.
+
+**L8-B9, Bruce.** Note 5 now says in bold that the research file records only his thesis, two chapter
+titles and the three tests, and marks the other four claims "as standardly reported" rather than as
+his. The body discloses that he is an evangelical Protestant and that the recognition thesis is his,
+before his tests are used. The Alexandrian-canon paragraph now gives **both halves of Sundberg's
+conclusion**, and says plainly that taken whole it costs the Catholic side an argument and the
+Protestant side its premise.
+
+**L8-B10, the self-check.** "Now do the next step before I do" and "Here's mine" are gone; the Jude
+step is a `:::checkpoint` whose stem does not state its own answer. Eighth lesson, eighth time.
+
+**L8-B11 to L8-B13, the quiz.** Q3, Q4, Q5 and Q6 replaced with cases the body does not work: the
+Orthodox and Catholic answers about Psalm 151 and 3 Maccabees, a hypothetical second-century papyrus
+read through two models, the Apocalypse of Peter run through the three tests, and the "Trent added
+nothing" sentence sorted three ways. Q1 and Q2 kept as the two the lesson exists to arm the reader
+for, with their distractors rebuilt: **Q2's stem is now the strong Catholic claim** (Florence, before
+Luther, your list is the innovation) rather than the strawman "Luther cut them out", and its key
+concedes the history and locates the real disagreement. **Both invented attributions are gone.**
+Keys stay **1, 3, 0, 2, 1, 3**; option spreads are now **5 to 16 characters** against 13 to 45; the
+key is longest in **none** of the six against five of six; and no item has the key as its only
+unhedged option.
+
+**L8-B14, the criteria.** Each test now has its own paragraph with the mechanism, and a `:::checkpoint`
+runs all three on **1 Clement and Hebrews**, neither of which the lesson settles. The model answer's
+point is the one the lesson had been missing: the criteria are not a checklist where three passes
+admit, they are three considerations weighed against each other, and Hebrews is the case where two
+outvoted one over two centuries.
+
+**L8-B15 and L8-B16, objectives and the dead half.** Six objectives, with the old objective 1 split in
+two and the criteria and the sorting each given their own. Four new blocks sit in what was the empty
+half: the three-models predict is now inside the section, the Thomas predict replaces the flat
+misconception, the Jude checkpoint, and the exercise's own model-answer checkpoint. The longest run
+without a learner-facing block is now under 900 words.
+
+**L8-B17, the exercise.** Four tasks, three model answers behind a checkpoint. Task 1's label set is
+now **four labels, because three would not cover it**, and the two books that could not be resolved
+from the assigned texts (Hebrews and the Wisdom of Solomon) are cut. Task 2 says "without looking back
+at this lesson" and then asks the learner to compare and mark where theirs is weaker, which turns
+transcription into the Turing test performed. Task 3 is the interleaved sort, six claims unlabelled,
+**two of which carry claims of more than one kind**. Task 4 is free recall, extended from the timeline
+alone to the tests and the three models.
+
+**L8-B18, Eusebius's fourth category.** Restored, with the Gospels of Peter, Thomas and Matthias named
+in it, and Revelation now noted as appearing in **both** the recognised and rejected lists. The "lost
+gospels were suppressed" misconception now works, because it points at the category that actually
+holds those texts.
+
+**L8-B19, the NRSVue.** All three quotations replaced with **Brenton**, fetched and verified at this
+pass. The Sirach paragraph gained from it, because Brenton also carries the Euergetes line that is the
+basis for the 132 BC date, and the date is now given as **his arrival** rather than the writing.
+2 Maccabees 12:44 changes wording: "superfluous and **vain**", not "foolish".
+
+**L8-B20, the chart.** Redrawn at viewBox `0 0 344 1060`. **No `<g>` wrapper**, so every size is an
+attribute the validator can see: 35 labels at 15 and 17 at 16, rendering at 14.3 and 15.3px on a
+328px column. `xmlns` added, the spine and ticks moved to `var(--line-strong)` with a literal fallback,
+Nicaea marked with a **square** and Athanasius with a **ring** so the running text no longer identifies
+them by colour, Jerome redated to c. 391 to 405, the Synod of Jerusalem relabelled "a regional synod,
+binds where received", the Muratorian entry carrying both dates, and Florence, Quinisext and 1826
+added. The dashed axis break is gone and the caption says the spacing is not proportional, which
+removes the one place the graphic claimed a scale it did not keep.
+
+**L8-B21, minutes.** 50 to **130**, with both videos explicitly placed outside the lesson clock in
+their captions, which also removes the unverified "about fifty minutes".
+
+**Facts.** L8-F1: note 25 now says what actually happened, and the false bible.org line is gone for
+the fourth time in this course. L8-F2: Eusebius's editions are given, and the Nicaea argument now
+turns on the stronger point that he **revised after the council and left 3.25 standing**. L8-F3:
+Marcion corrected. L8-F4: Ware quoted as he wrote it, "most" restored, and the to-do deleted from the
+Sources block. L8-F5: the Muratorian range is now 170 to 200, per Metzger's own headnote. L8-F6: the
+Sundberg and Hahneman case is stated at strength, Rothschild is in the body, "I'd teach it as" is gone,
+and the section ends by saying what would settle it. L8-F7 and L8-F8: chart dates and the Jerusalem
+label corrected. L8-F9 and L8-F10: scale claim removed, colour-only identification removed. L8-F11:
+the single-manuscript hedge is in the body. L8-F12: Luther's New Testament is now a paragraph, with the
+1537 detail and the point that it cuts both ways. L8-F13: Hendrickson. L8-F14: Jerome's actual
+translation work stated. L8-F15: the small ones all applied.
+
+**Two rendering bugs found during the fix pass, neither of which any reviewer could see.** Block
+bodies are parsed with `breaks: false`, so **single newlines inside a `:::checkpoint` collapse into one
+run-on paragraph**; three of lesson 8's model answers were 160 to 290-word walls for that reason.
+Checking the rest of the course found the same defect in **lesson 4 (one block) and lesson 7 (two)**,
+all now fixed. And a checkpoint body opening `367. It's a letter from Athanasius` renders as
+`<ol start="367">` with the sentence as a list item; that opening is reworded. Both are recorded in
+`SOURCES.md`, with the note that `:::figure` and `:::video` are the opposite case, since they use
+`parseInline` and must stay one paragraph.
+
+**Misconceptions.** All six kept, including the one the drafter added against the course's own
+evidence, and **four added**: "Luther cut seven books out", "Protestants never had the Apocrypha",
+"the criteria were arbitrary", and "a New Testament allusion proves a book is Scripture". A fifth
+covers the models, since the reader arrives holding one and assuming it is the plain reading.
+
+### Deliberately not fixed, with reasons
+
+- **The lesson was not split**, only seamed at the point both the depth and neutrality reviewers
+  identified, per BACKLOG 7b. `minutes: 130` therefore describes the whole lesson.
+- **The Ware claim stays second-hand**, quoted accurately and disclosed as unopened. Opening the book
+  is not possible in this environment, and the Orthodox case no longer depends on it, since the new
+  Orthodox paragraph rests on liturgical practice and conciliar reception instead.
+- **Sinaiticus and Vaticanus are still absent**, correctly: the outline assigns them to lesson 9, and
+  the fact-checker confirmed their absence here is not an omission.
+- **The two videos were kept**, both outside the clock. Cutting one would have removed the critical
+  side's own advocate, which outline convention 8 requires.
+- **Florence, the Peshitta, Luther's 1522 numbering, Eusebius's edition history and the Marcion
+  scholarship all rest on standard reference accounts**, not on fetched primary texts, because every
+  relevant host is blocked here. Each is marked as such in its source note rather than passed silently.
