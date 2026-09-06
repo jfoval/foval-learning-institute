@@ -12,6 +12,51 @@ Merge when `npm run validate` exits 0 and anything visual has been checked in bo
 and desktop width. `git pull --rebase origin main` first: content sessions push there too, and on
 2026-09-06 two of them did while a third was mid-merge.
 
+## 0b. THE MARCHING ORDER (set by John, 2026-09-06). Work this queue top to bottom.
+
+John set the priority at the end of the podcast session: bring everything currently live up to
+the standard the new lessons set, finish the two in-flight courses, podcast all of it, and only
+then start the next course. A fresh session picks up **the topmost unfinished item** below, does
+one session-sized bite of it, updates this list, and pushes to `main`. Do not skip ahead and do
+not start new courses until this queue is empty. Constraints that shape the pace: a Stage 4
+review cycle is 600k to 900k tokens (one lesson per sitting), rate limits are shared, two
+parallel sessions is the ceiling. A platform session must not touch `courses/` or `curriculum/`
+(see below); items 2 to 5 are content work, item 1 is platform work, so they can run in parallel.
+
+1. **Build the podcast pipeline: `scripts/podcast.mjs` + `/make-podcast <lesson>`.** About a
+   day, and it unblocks the podcast step for everything below. Lesson in; two-host script out
+   (S1 is John, the teaching voice; S2 is Haley, the curious one; VibeVoice presets Carter [EN]
+   and Alice [EN]; intro and sign-off shaped like
+   `scripts/podcast/samples/bible-basics-02.script.md`); the script fact-checked against the
+   lesson in a fresh-context subagent, findings fixed before rendering; rendered via fal
+   (`FAL_KEY` in `.env.local`); MP3 to R2 at `foval-audio/<school>/<course>/<lesson>.mp3`;
+   `audio:` frontmatter stamped. When it works, add "Stage 6: podcast" to
+   `docs/CONTENT_PIPELINE.md`: **every lesson gets its podcast when its content settles**
+   (after review, voice pass, and media pass), never before, so audio is not paid for twice.
+2. **How to Learn Anything up to the new standard.** The flagship, and what the homepage
+   photographs. (a) Fix the six answer leaks first (lessons 1, 2, 3, 5 twice, 7; found with
+   `npm run validate | grep "prints the answer"`), one short session, then promote that lint to
+   a build failure on published courses. (b) Media pass per standards 4.5 on all eight lessons:
+   real images with credits, charts from real data, YouTube where someone explains it better,
+   links in the body. One or two lessons per session. (c) Podcast each lesson as it settles.
+3. **The four placeholder courses** (Python, Algebra, Personal Finance, Writing Clearly), which
+   are live and have never been through the pipeline. For each, in this order: run Stage 1
+   research to produce `research/SOURCES.md`, then Stage 4 reviews lesson by lesson against it
+   (the redraft decision comes out of the reviews; some lessons may survive, some need
+   rewriting), voice pass, media pass, podcasts. They stay live while improving. Start with
+   Personal Finance (most consequential if wrong), then Python, Algebra, Writing Clearly.
+4. **Bible Basics to published.** Lesson 3's review cycle finished (check `research/REVIEWS.md`
+   for how far it got), lessons 4 to 12 reviewed, lesson 1's eight open findings closed, the
+   neutrality audit where 3.4 domains are touched, assessments built (folder is empty), then
+   the one-time split/renumber pass (7b; seams are marked in-file), then `status: published` in
+   both course.yaml and TAXONOMY.md. Publishing this course is a homepage-honesty dependency.
+   Podcasts for all lessons after the renumber (lesson 2's episode regenerates then, ~$0.32).
+5. **Logic and Argument to published.** Lesson 2's recorded fixes applied first (they are a
+   work order in `research/REVIEWS.md`), lessons 3 to 10 reviewed, assessments built
+   (OUTLINE.md lines 140 to 143 specify them), publish, podcasts.
+6. **Queue empty: stop.** John starts the next Foval Core course in its own session
+   (`/new-course` etc.), with the podcast as a standard pipeline stage from then on.
+
 ## 1. Pipeline state right now
 
 *Rewritten 2026-09-06 at the end of a long session. This is the handoff.*
