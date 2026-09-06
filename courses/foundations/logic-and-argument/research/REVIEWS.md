@@ -1161,7 +1161,10 @@ recorded here rather than made.
 2. **`docs/BACKLOG.md` section 1.** The Logic entry needs updating as lessons land; as of this pass,
    lessons 1 to 9 are reviewed and fixed (lesson 1 still owes the targeted re-source pass for its
    Hurley and Copi citations, and for four argument-display rules that are off the 72-character house
-   width), lesson 10 is not, and the assessments folder does not yet exist.
+   width), lesson 10 is not, and the assessments folder does not yet exist. **A state-of-play file now sits at
+   `courses/foundations/logic-and-argument/research/HANDOFF.md`**, written so a new session can pick the
+   course up without reading this whole log; if the BACKLOG entry is updated, point it there rather than
+   restating it.
 3. **`research/OUTLINE.md` line 74 has impossible arithmetic** for lesson 5's practice set: "two
    generalisations, two analogies, two causal claims, one IBE, one conductive" is already eight, and
    the same sentence asks for "three of them" to be deductive look-alikes. The lesson now ships nine
