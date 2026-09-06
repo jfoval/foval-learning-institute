@@ -94,6 +94,48 @@ left is "call a TTS with two voices", which is one function. So Podcastfy is wor
 for its prompt design and worth stealing ideas from, and adopting the dependency buys us the
 half we should own while adding Python to a Node repo with two npm packages in it.
 
+## Fourth pass, 2026-09-06: John asked "are you sure?" and the answer held
+
+John's standard is NotebookLM: it sounds natural and it works. So this pass checked every way to
+get that sound, including services the earlier passes had not named. Findings:
+
+- **VibeVoice on fal.ai is confirmed live at $0.04 a generated minute** ([model page](https://fal.ai/models/fal-ai/vibevoice/7b)).
+  One provenance fact worth knowing: Microsoft pulled the official code repo in September 2025
+  citing misuse concerns, twelve days after launch. The weights stayed on Hugging Face, a
+  [community fork](https://github.com/vibevoice-community/VibeVoice) maintains the code, and the
+  model has been in Hugging Face Transformers since August 2026. The self-host escape hatch is
+  intact; it just runs through the community fork rather than Microsoft.
+- **Head-to-heads rate VibeVoice at or above NotebookLM on the audio itself.** Reviews that tested
+  both ([allaboutai](https://www.allaboutai.com/comparison/notebooklm-vs-microsoft-vibevoice/),
+  [Data Science in Your Pocket](https://medium.com/data-science-in-your-pocket/microsoft-vibevoice-vs-google-notebooklm-98412ce2ccc1))
+  describe it as more emotionally expressive over long form, "might be the best publicly available
+  system for podcasts". Its one known gap against NotebookLM: speakers strictly take turns, no
+  overlapping speech. NotebookLM hosts occasionally talk over each other, which is part of why it
+  feels alive. **ElevenLabs v3 Text to Dialogue does handle interruptions and overlaps**, which is
+  the strongest reason it stays in the three-way listen despite costing four times as much
+  (~$0.10 per 1,000 characters, roughly $1 to $2 a lesson).
+- **The NotebookLM-as-a-service resellers exist and are priced like agencies.**
+  [AutoContent API](https://www.capterra.com/p/10029592/AutoContent-API/) is the closest thing to
+  "NotebookLM behind a REST endpoint": $199 a month for one 15-minute watermarked podcast, $499
+  for two. Jellypod, Podhoc and Wondercraft are subscription studio UIs. All of them also generate
+  the script themselves, which is the half the standards require us to own. Ruled out on both
+  grounds.
+- **The official route is unchanged**: audio-overview creation is a Pre-GA preview inside
+  [Gemini Notebook Enterprise](https://docs.cloud.google.com/gemini/enterprise/notebooklm-enterprise/docs/api-audio-overview),
+  licence-priced; the consumer product still has
+  [no public API](https://autocontentapi.com/blog/does-notebooklm-have-an-api).
+- **Google's TTS line has moved on** since the memo's engine list was written: reviews now cover
+  **Gemini 3.1 Flash TTS** with per-speaker control and scene direction. When the comparison runs,
+  point `podcast-compare.mjs` at the newest Gemini TTS model rather than 2.5 Flash.
+- Newer open dialogue models checked and not adopted: Dia (1.6B, English-only, built for short
+  exchanges, unproven at twelve minutes), Higgs Audio v2/v3 (strong cloning, dialogue is not its
+  centre), Kokoro (tops one Elo table but is a single-voice model, irrelevant here). Hume,
+  Cartesia and Inworld are real-time agent voices, optimised for latency, not long-form dialogue.
+
+**Verdict: the recommendation stands, with ElevenLabs promoted from also-ran to genuine
+challenger in the listen test.** The decision between them is exactly what the $0.79 three-way
+comparison exists to settle, by ear.
+
 ## What it costs, per twelve-minute episode
 
 | Route | Per lesson | The 28 lessons live now | All ~1,400 planned | Lock-in |
