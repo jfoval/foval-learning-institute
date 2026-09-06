@@ -73,6 +73,36 @@ Add a section below the hero with three or four panels, each with a real screens
 - **Donate:** a `#/support` page and a footer link. Copy from John: "We're constantly using tons of tokens to expand our offerings and make updates. We'd appreciate anything you can do to pitch in if it becomes something you find valuable over time. Cheers!" Options: GitHub Sponsors (fits the open repo), Ko-fi or Buy Me a Coffee (simplest), Stripe Payment Link (lowest fees). John must create the account; then it's one link.
 - **FLI ideas** (subtle, not the main thing): "FLI" reads as "fly": a light touch such as "Fly high with us" on the support page or the store, and donors as members of "the FLI Club" with a small mark on their achievements page and early access to new courses. Alternative expansions to consider for a tagline or a store line: "Faith, Learning, Ideas"; "Faith. Learning. Integrity."; "Free Learning Institute". Keep it to one or two places; the institute's name stays the main thing.
 
+## 7b. Lesson splits: batched, not done one at a time (decided 2026-09-06)
+
+Stage 4 reviews grow lessons. Lesson 2 went from 5,400 to 8,700 words in its fix pass, and its real
+runtime is about 110 minutes. Under Editorial Standards 1.3 that is **not** a defect: there is no
+ceiling, and reviewers are told never to flag length on its own. The test 1.3 actually sets is
+whether a lesson holds two ideas that each stand alone and a reader would benefit from a quiz and a
+rest between them.
+
+**Lesson 2 passes that test.** The seam is between the map (six acts, five covenants, the Act 3
+timeline) and reading with the map (the three levels, Ruth, Jeremiah 29). The first half stands
+alone and leaves a learner with something real. Lesson 4 is a second candidate, flagged by its
+drafter, with the seam at the heading "What a prophet was"; that one is unconfirmed until lesson 4
+is reviewed.
+
+**The splits are deliberately deferred.** Lessons are referenced by ordinal number in prose, and
+there are **274 such references** in this course (188 across the lessons, 47 in OUTLINE.md, 39 in
+SOURCES.md). Inserting one lesson invalidates about 200 of them, and the migration must be repeated
+for every later split. Doing it once, after all twelve lessons are reviewed and every seam is known,
+costs one careful scripted pass. Doing it per lesson costs three or four, each with a fresh chance
+of leaving a pointer aimed at the wrong lesson.
+
+**So: finish the reviews at twelve lessons, collect the seams, then do one renumbering pass** that
+renames the files, rewrites every "lesson N" reference in lessons, OUTLINE.md and SOURCES.md, and is
+verified by grepping for references to lessons that no longer exist. Each confirmed seam is marked
+in the lesson with an HTML comment (`<!-- SPLIT SEAM: ... -->`) so the eventual split is mechanical.
+
+**Worth considering at that point:** referencing lessons by title rather than number would remove
+this problem permanently, for this course and for the other 140 planned. A pointer reading "the
+genre lesson" survives any reordering; "lesson 3" does not.
+
 ## 8b. Supabase backend: blocked on a free-tier project slot (investigated 2026-09-05)
 
 Accounts, cross-device sync, verifiable certificates, the achievements page, and a working feedback endpoint all unblock together once there is a Supabase project. John asked the agent to set it up; the agent is signed in to his dashboard (GitHub OAuth, his session).

@@ -238,6 +238,12 @@ The Tel Dan stele in the Israel Museum, Jerusalem. Found in 1993, ninth century 
 BibleProject's five-minute animation of the whole story, from the garden to the new creation. Watch it after you've read the map above and see whether you can name the act and the covenant at each point as the drawing goes past. The animation cuts the story differently from our six acts, which is a useful reminder that the lines are ours.
 :::
 
+<!-- SPLIT SEAM (see docs/BACKLOG.md 7b): everything above teaches the map (six acts, five
+     covenants, the Act 3 timeline) and stands alone; everything below teaches reading with the map
+     (the three levels, Ruth, Jeremiah 29). If this lesson is split, it splits here, and each half
+     needs its own quiz, objectives and Practice block. Deferred until all twelve lessons are
+     reviewed so the renumbering of 274 cross-references happens once. -->
+
 ## Three levels at once
 
 Now the tool that makes the map useful. Fee and Stuart, in the chapter on Old Testament narrative that lesson 3 will use in full, say that every biblical story is being told on three levels at the same time.[8]
