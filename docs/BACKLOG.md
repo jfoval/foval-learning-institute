@@ -129,9 +129,32 @@ Goal: a two-voice conversational audio version of each lesson, playable on the l
 - **Pipeline:** `scripts/podcast.mjs` that takes a lesson path, writes `audio/<lesson>.script.md`, calls the TTS API, writes the MP3, and adds `audio: <path>` to the lesson frontmatter; the build renders an `<audio>` player at the top of the lesson with a "Listen instead" label and a transcript toggle. Add a `/make-podcast <lesson>` command. Scripts get a light fact-check against the lesson before rendering.
 - Style: warm, real conversation, no hype, no "welcome to the show" filler. The hosts should be named and consistent across the institute.
 
-## 7. Homepage: what makes the institute unique (not started)
+## 7. Homepage: what makes the institute unique (shipped 2026-09-06)
 
-Add a section below the hero with three or four panels, each with a real screenshot (not a mockup) from the live site: a lesson with a chart and a video; a predict block open; the Review page; the feedback form. Copy, in the style guide's voice: written from the sources and fact-checked; you think as you read; knowledge that stays through spaced review; a podcast for every lesson (once built); Christian Studies taught honestly and labelled; and the one ask: *"We provide this free. The one thing we ask is that you help make it better: when a lesson is unclear or could be better, say so in the form at the bottom of every lesson. We read all of it and use it."* Screenshots go under `site/assets/media/screens/`, taken at phone and desktop width.
+Live below the hero as `whySection()` in `site/assets/app.js`, styled under "Home: what makes this
+different" in `styles.css`. Three panels, then John's one ask, laid out as alternating rows so each
+screenshot gets enough width to be legible instead of shrinking to an unreadable thumbnail.
+
+The screenshots are real captures of the live site at `site/assets/media/screens/`. Four files per
+panel: `<name>-{light,dark}-{phone,desktop}.png`, chosen by a `<picture>` element on
+`prefers-color-scheme` and viewport width, so a dark reader never gets a photograph of a light page
+and a phone gets the phone capture. Verified rendering in all four combinations.
+
+**What was cut, and why.** The spec asked for four screenshots including "a lesson with a chart and a
+video". No live course has either. How to Learn Anything, the only live course through the pipeline,
+has zero `:::figure`, zero `:::video` and zero inline SVG across all eight lessons, and its media
+pass is still outstanding. Rather than fake one or ship an empty labelled slot, "written from the
+sources and fact-checked" moved into the section lede where it needs no photograph, and the section
+runs three panels instead of four. **When a course with real charts and video publishes, add a fourth
+panel**: capture it with the script pattern in the commit, add
+`chart-{light,dark}-{phone,desktop}.png`, and push an entry onto `WHY_PANELS`.
+
+The podcast is named in the ask block as not built yet, in one line, rather than given a panel. It
+gets a panel when it exists.
+
+**Content note for whoever owns `courses/`:** How to Learn Anything is the institute's shop window
+and it currently has no images, no charts, no video and no links in any lesson body. That is the
+media pass under standards 4.5 and it is the single highest-value content job for the homepage.
 
 ## 7b. Lesson splits: SETTLED. Do not re-open with John.
 

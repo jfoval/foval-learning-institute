@@ -140,6 +140,67 @@
     return null;
   }
 
+  /* Screenshots of the real site, taken at phone and desktop width in both themes.
+     Four files per shot: <name>-{light,dark}-{phone,desktop}.png in assets/media/screens/.
+     Never a mockup: if a feature has no live course to photograph, it gets no panel. */
+  const SHOTS = "assets/media/screens/";
+  function shot(name, alt, caption) {
+    return `<figure class="shot">
+        <picture>
+          <source media="(prefers-color-scheme: dark) and (max-width: 700px)" srcset="${SHOTS}${name}-dark-phone.png">
+          <source media="(prefers-color-scheme: dark)" srcset="${SHOTS}${name}-dark-desktop.png">
+          <source media="(max-width: 700px)" srcset="${SHOTS}${name}-light-phone.png">
+          <img src="${SHOTS}${name}-light-desktop.png" alt="${esc(alt)}" loading="lazy" decoding="async">
+        </picture>
+        <figcaption>${esc(caption)}</figcaption>
+      </figure>`;
+  }
+
+  const WHY_PANELS = [
+    {
+      shot: ["predict",
+        "A lesson paused at a question, with the answer revealed under a button after the reader has committed to a guess.",
+        "How to Learn Anything, lesson 3"],
+      title: "You think while you read",
+      body: "Reading is the weakest way to learn there is. So a lesson here stops, asks you what you think happens next, and only then tells you. You commit to an answer, then find out. That small bit of work before the reveal is most of the difference between having read a page and knowing something.",
+    },
+    {
+      shot: ["review",
+        "The Review page showing a question from a completed lesson, with the four answer options and the number due today.",
+        "The Review page, mid session"],
+      title: "It comes back until it stays",
+      body: "Every question you pass joins your review bank. It returns tomorrow, then in three days, then a week, then a month, with the gap growing each time you get it right and resetting when you miss. Your transcript then shows what you can still recall, which is a different number from how much you once read.",
+    },
+    {
+      shot: ["standpoint",
+        "The Path page showing a Christian Studies course carrying a Christian Standpoint label next to its title.",
+        "The Foval Core, term three"],
+      title: "Faith courses say so on the label",
+      body: "Christian Studies teaches from inside the Christian faith and carries a Christian Standpoint label on the card, on the path, and at the top of the course. Objections are put in their strongest form, not a soft version we can knock down. Every other school teaches on neutral ground and leans on neither belief nor unbelief. You always know which kind of course you are in.",
+    },
+  ];
+
+  function whySection() {
+    return `
+      <section class="section why">
+        <div class="section-head"><h2>What makes this different</h2></div>
+        <p class="why-lede">Every lesson is written from the standard references in its field, then read again in a separate pass for accuracy and for balance. Where a question is genuinely open, you get the disagreement at full strength instead of a tidy answer. Everything below is a photograph of the live site, not a drawing of one.</p>
+        <div class="why-rows">
+          ${WHY_PANELS.map(p => `<div class="why-row">${shot(...p.shot)}<div class="why-copy"><h3>${esc(p.title)}</h3><p>${esc(p.body)}</p></div></div>`).join("")}
+          <div class="why-row why-ask">
+            ${shot("feedback",
+              "The feedback form at the foot of a lesson, asking how clear it was and what would have made it better.",
+              "The foot of every lesson")}
+            <div class="why-copy">
+              <h3>One ask</h3>
+              <p class="ask-line">We provide this free. The one thing we ask is that you help make it better: when a lesson is unclear or could be better, say so in the form at the bottom of every lesson. We read all of it and use it.</p>
+              <p class="muted small">Not built yet, and next on the list: a two-voice audio version of every lesson, for people who take things in better by listening.</p>
+            </div>
+          </div>
+        </div>
+      </section>`;
+  }
+
   /* ---------- views ---------- */
   function viewHome() {
     const lessons = COURSES.reduce((n, c) => n + c.lessons.length, 0);
@@ -177,6 +238,7 @@
       </section>
       ${rs.due.length ? `<div class="path-next"><div><h3>${rs.due.length} question${rs.due.length === 1 ? "" : "s"} due for review</h3><p>A few minutes now keeps it from fading.</p></div><a class="btn btn-primary" href="#/review">Review now</a></div>` : ""}
       ${started.length ? `<section class="section"><div class="section-head"><h2>Continue</h2><p><a href="#/my-learning">Your page →</a></p></div><div class="grid">${started.filter(c => !courseComplete(c)).slice(0, 3).map(courseCard).join("")}</div></section>` : ""}
+      ${whySection()}
       <section class="section">
         <div class="section-head"><h2>Courses</h2><p><a href="#/courses">See all</a></p></div>
         <div class="grid">${COURSES.slice(0, 6).map(courseCard).join("")}</div>

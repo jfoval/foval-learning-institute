@@ -38,3 +38,7 @@ All notable changes to Foval Learning Institute: courses published, platform fea
 - Logic and Argument: 10 lessons drafted, lesson 1 reviewed. Bible Basics: lessons 1–8 drafted, 9–12 in progress.
 - Custom domain www.fovallearninginstitute.org configured on Pages (DNS pending at Namecheap).
 - `docs/BACKLOG.md` added as the handoff document.
+
+## 2026-09-06
+- Homepage: a "What makes this different" section below the hero. Three panels (thinking while you read, spaced review, the Christian Standpoint label) and John's one ask about the feedback form. Every picture is a real screenshot of the live site, captured at phone and desktop width in both themes and swapped with `<picture>` on `prefers-color-scheme`, so a dark reader never gets a photograph of a light page.
+- Fixed: the Review card's "Next" button was visible before the reader answered, because `.btn { display: inline-flex }` outranks the user agent's `[hidden]` rule.
