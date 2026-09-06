@@ -241,7 +241,7 @@
       "A quiz question after answering, one option marked correct in green, the chosen one marked wrong in red, and the explanation beginning below."],
     ["tile-map", "Maps of the material", "A whole library on one page, with the dates, the covenants and the gaps.",
       "A timeline of the Bible in six acts, from creation to new creation, marking the covenants, the fall of Samaria in 722 BC, the exile in 586 BC and the four hundred years with no book in it."],
-    ["tile-exercise", "Work to do", "At least one thing a lesson that you do on paper, before the quiz.",
+    ["tile-exercise", "Work to do", "At least one thing per lesson that you do on paper, before the quiz.",
       "An exercise block headed Do it now, asking the reader to audit their own study habits."],
     ["tile-recall", "Recall before the quiz", "Close the page and write what you remember. Then the questions open.",
       "The free recall box at the foot of a lesson, part filled with a learner's own summary and a running word count."],
