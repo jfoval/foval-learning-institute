@@ -174,7 +174,12 @@ unless you need it):**
 - **The first real episode exists.** Bible Basics lesson 2, a 6-minute two-host script written by
   hand from the lesson (`scripts/podcast/samples/bible-basics-02.script.md`), fact-checked in a
   fresh-context subagent (PASS WITH NITS; all five nits fixed before rendering), rendered for
-  $0.32. Hosts are still unnamed; John still owes two host names.
+  $0.32. **The hosts are named: John and Haley** (John's call, 2026-09-06; male voice is John,
+  female is Haley). The voice presets are being chosen by ear from the four clean English
+  presets (Carter/Frank male, Alice/Maya female; "Mary" carries background music, ruled out);
+  `scripts/podcast/samples/voice-test.script.md` is the 40-second snippet used to compare them.
+  Custom voices via a reference clip (`audio_url`, presets ignored) are the fallback if no
+  preset satisfies, but need a rights-cleared sample.
 - **R2 is live.** John activated R2 on the Cloudflare account; bucket `foval-audio`, public at
   `https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev`. Objects go at
   `<school>/<course>/<lesson>.mp3`. Upload:
@@ -194,7 +199,9 @@ unless you need it):**
   ran 13 minutes on the first render, so the poll budget is 20 minutes.
 - **Still to build: `scripts/podcast.mjs` and a `/make-podcast <lesson>` command** — script
   generation from a lesson, the same fresh-context fact-check, render, upload, frontmatter. About
-  a day. **Still needed from John: the two host names.**
+  a day. **Still needed from John: which voice pair is John and Haley** (samples delivered
+  2026-09-06); then regenerate the lesson 2 episode with the chosen voices and host names in
+  the script.
 - **Regenerate lesson 2's audio after the split/renumber pass** (7b): the episode covers the
   whole current lesson, so when it becomes two lessons the audio must be redone (~$0.32).
 
