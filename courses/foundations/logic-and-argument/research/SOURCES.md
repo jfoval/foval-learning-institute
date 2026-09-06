@@ -267,3 +267,59 @@ which have been read.
 - **"The most widely assigned introduction to logic in the United States"** was sourced only to
   Cengage's own marketing copy, which standard 2.2 bars, and the publisher's claim is about North
   America rather than the United States. Removed from lesson 2. Do not reintroduce it anywhere.
+
+## Added at fix time (lesson 6, Stage 4 resolutions, 2026-09-06)
+
+Corrections to what this file was recorded as holding, found when the five Stage 4 reviewers checked
+lesson 6's Sally Clark section against it. Nothing here was newly read; the network was refused
+throughout. These entries exist so that no later lesson repeats the same over-reach.
+
+- **Two clauses attributed to the Royal Statistical Society in lesson 6 are recorded nowhere in this
+  file, and one of them is in lesson 8 too.** (a) The squaring quotation ends at "It would only be
+  valid if SIDS cases arose independently within families." The trailing clause **"an assumption that
+  would need to be justified empirically"** is not recorded at line 34, at line 182, or anywhere
+  else. It was cut from lesson 6. **Lesson 8 still carries it and must be fixed in its own pass.**
+  (b) The phrase **"may be very much less incriminating than the figure presented to the jury at
+  trial"** is recorded nowhere at all; the word "incriminating" does not appear in `research/`. It was
+  cut from lesson 6's body and from its Sources entry 5. The recorded sentence that does the same work
+  and is now used instead: "The well-publicised figure of 1 in 73 million thus has no statistical
+  basis."
+- **The Court of Appeal quotation at para 178 ends at "may have had a major effect on their
+  thinking".** The trailing clause "notwithstanding the efforts of the trial judge to down play it"
+  is not recorded. Cut from lesson 6.
+- **Nothing in this file records a month or an age for either Clark child, and no content is recorded
+  for judgment paras 8 or 9.** The judgment entry at line 116 records paras 1, 2, 4, 5, 96, 99, 108,
+  112 to 113, 134, 135 to 136, 177, 178, 180 and 181. Dyer records the years only: Christopher 1996,
+  Harry 1998. Lesson 6 now gives the years and cites paras 1 and Dyer, and the "paras 8 to 9" citation
+  is gone from body and Sources.
+- **Also cut from lesson 6 as recorded nowhere:** Sally Clark's occupation ("a solicitor"); Professor
+  Meadow's first name and his profession ("a paediatrician"); the three risk factors said to define
+  the study's low-risk family ("a young mother, a smoker in the household, no wage earner") and the
+  claim that there were three; "her husband and others kept working on the case"; and "not disclosed
+  to the lawyers on either side" (para 112 to 113 records "known to Dr Williams, not disclosed"). The
+  Grand National paraphrase now uses the judgment's own "1 in 80 chance" rather than "an 80 to 1
+  outsider", which is a different number.
+- **First names generally.** This file records initials only for Tversky, Kahneman, Eddy, Hoffrage,
+  Hertwig, Oaksford, Hahn and Meadow. Gerd Gigerenzer is the one first name recorded (line 175).
+  Lesson 6 now uses surnames throughout, as lesson 4 was fixed to do at L4-F8.
+- **Gigerenzer, *Reckoning with Risk* / *Calculated Risks*, is not in this file and has never been
+  read.** Lesson 6's Go deeper described its contents in four clauses. Removed, and replaced by
+  Gigerenzer, Gaissmaier, Kurz-Milcke, Schwartz & Woloshin 2007 (line 165), which was read from the
+  full text, covers the same ground for the same audience, and is free. Do not reintroduce the book
+  anywhere until someone opens it.
+- **Oaksford & Hahn 2004 is an abstract read, not a full text.** The recorded abstract says "an
+  experiment shows variables affecting their strength". It does not say the variable is how thorough
+  the search was; that is the lesson's own inference and is now attributed as such. Nor does it
+  support "showed that this argument form can be strong"; what it supports is "legitimate, and
+  textbook cases weak rather than fallacious".
+- **SEP "Inductive Logic" sets the priors problem out; it does not settle the subjective/objective
+  split** (line 86 records that it sets that aside). Lesson 6 said the entry "maps it" and now says it
+  "sets out the framework in which it's argued". The entry's worked example is a COVID-19 test; no
+  section numbers are recorded, so lesson 6's Go deeper now says "the early sections".
+- **URLs used in lesson 6, and where each came from.** Recorded verbatim in this file and safe:
+  `caselaw.nationalarchives.gov.uk/ewca/crim/2003/1020` (line 116), the RSS PDF (line 182),
+  `ccrc.gov.uk/decision/clark-sally` (line 118), and the kops full text for Gigerenzer et al. 2007
+  (line 165). Dyer's obituary is recorded as an identifier only (PMC1832002); lesson 6 does not link
+  it, and confirming the address is on the "owed to a session with network access" list in
+  REVIEWS.md. Six of lesson 6's ten sources have no free address on file, and the lesson now says so
+  at the head of its Sources list rather than leaving a reader to wonder.

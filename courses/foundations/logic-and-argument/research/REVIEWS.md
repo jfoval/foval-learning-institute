@@ -1013,8 +1013,8 @@ is renumbered here.
 
 Every outbound request from this session was refused by the egress proxy, so nothing could be
 reopened or verified. This list is cumulative across the whole course, items 1 to 6 from lessons 2
-and 3, 7 to 10 from lesson 5 and 11 to 14 from lesson 4, and it can be cleared in one pass by a session that can reach
-the web:
+and 3, 7 to 10 from lesson 5, 11 to 14 from lesson 4 and 15 to 18 from lesson 6, and it can be cleared
+in one pass by a session that can reach the web:
 
 1. **A free full-text URL for Wason 1968 and for Ragni, Kola & Johnson-Laird 2017**, added to
    `SOURCES.md` and linked at first mention and in Go deeper in lesson 3.
@@ -1054,20 +1054,44 @@ the web:
 14. **Abrami et al.'s moderator tables**, which `SOURCES.md` says to read before quoting any specific
    moderator effect. Until then lesson 4 quotes only g+ = 0.30 and states the moderators as
    associations.
+15. **Reopen the RSS statement PDF and the R v Clark judgment and re-key three passages, character
+   for character.** Lesson 6 cut them because this file does not record them: the RSS clause "an
+   assumption that would need to be justified empirically"; the RSS phrase "may be very much less
+   incriminating than the figure presented to the jury at trial", which appears nowhere in
+   `research/` at all; and the judgment's para 178 clause "notwithstanding the efforts of the trial
+   judge to down play it". **Lesson 8 still carries the first of the three and must be fixed in its
+   own pass whether or not this item is ever cleared.** While in the judgment, record paras 8 and 9,
+   which carry the Clark children's dates and ages; lesson 6 gives the years only because that is all
+   Dyer records.
+16. **Confirmed public addresses for Dyer's BMJ obituary and for Oaksford & Hahn 2004.** This file
+   records identifiers only, PMC1832002 and PubMed 15285597. The repository's own PMC link pattern
+   would produce a plausible address for the first, but lesson 3 refused to construct a URL for Wason
+   on exactly this reasoning, so lesson 6 leaves both unlinked. Dyer's is the one worth having: it is
+   the only free public account of what happened to Sally Clark afterwards.
+17. **Full texts of the three psychology papers this file holds only as abstracts**: Hertwig &
+   Gigerenzer 1999, Hahn & Oaksford 2007, and Oaksford & Hahn 2004. The specific thing lesson 6 wants
+   from the last of these is which variables its experiment found to move the strength of an argument
+   from ignorance, since the lesson currently attributes "how thorough the search was" to itself
+   rather than to the paper.
+18. **Which of Gigerenzer & Hoffrage's two frequency wordings scored 46% and which scored 50%.** This
+   file records the pair without saying which is which, so lesson 6's bar chart has to label them
+   "one wording" and "other wording", and says so in the caption.
 
 ### Requests for the shared files
 
 These belong to files another session owns (`docs/`, `curriculum/`, `site/`, `scripts/`), so they are
 recorded here rather than made.
 
-1. **`docs/BACKLOG.md` section 7b, "Confirmed seams so far".** Add two: *Logic and Argument lesson 3,
-   after the car example and before the four cards*, and *Logic and Argument lesson 5, between the
-   analogy family and the causal family.* Lessons 2 and 4 were both considered and **not** split, on
-   two reviewers' advice each. So the Logic course stands at two confirmed seams and will be twelve
-   lessons after the pre-publish renumbering, unless lessons 6 to 10 add more.
+1. **`docs/BACKLOG.md` section 7b, "Confirmed seams so far".** Add three: *Logic and Argument lesson
+   3, after the car example and before the four cards*; *Logic and Argument lesson 5, between the
+   analogy family and the causal family*; and *Logic and Argument lesson 6, between the safety callout
+   and the Sally Clark section.* Lessons 2 and 4 were both considered and **not** split, on two
+   reviewers' advice each. So the Logic course stands at three confirmed seams and will be thirteen
+   lessons after the pre-publish renumbering, unless lessons 7 to 10 add more.
 2. **`docs/BACKLOG.md` section 1.** The Logic entry needs updating as lessons land; as of this pass,
-   lessons 1, 2 and 3 are reviewed and fixed, lessons 4 to 10 are not, and the assessments folder does
-   not yet exist.
+   lessons 1 to 6 are reviewed and fixed (lesson 1 still owes the targeted re-source pass for its
+   Hurley and Copi citations), lessons 7 to 10 are not, and the assessments folder does not yet
+   exist.
 3. **`research/OUTLINE.md` line 74 has impossible arithmetic** for lesson 5's practice set: "two
    generalisations, two analogies, two causal claims, one IBE, one conductive" is already eight, and
    the same sentence asks for "three of them" to be deductive look-alikes. The lesson now ships nine
@@ -1695,3 +1719,415 @@ paragraph rewritten as speech, which also broke the 51-word sentence into two.
    original sentence, but the teaching point is that twelve people cannot discriminate between two
    plausible rates, not that a run at even odds is rare. The 70% and 85% figures make that point and
    are verified.
+
+---
+
+## Lesson 6, "How much should the evidence move you" — Stage 4 round 1, 2026-09-06
+
+Five fresh-context reviewers, launched in one message. Consolidated with IDs and applied in the same
+pass. Network egress refused throughout; the fact-check ran against `SOURCES.md`.
+
+**Verdict: the first lesson in the course to clear the unread-source bar on its own, and the one that
+gets the most arithmetic wrong.** Hurley, Copi, Weston and Govier appear nowhere in it, body, quiz,
+practice, Sources or Go deeper, despite the outline listing "Hurley ch. 11 (lightly)"; the drafter
+dropped it and derived Bayes' rule from the count the reader had just done instead. Four lessons
+running had shipped citations to books nobody opened, and that defect is now closed at the source.
+What replaced it is a different sourcing failure in the same family, and a worse one, because it
+lands on a real woman's criminal case: the lesson stopped citing unread books and started attributing
+to read documents things the record does not contain. Alongside it sit two teaching errors inside the
+lesson's own worked material, one of which the lesson's own checkpoint refutes sixty lines earlier.
+
+### BLOCKING
+
+**L6-B1. Three quotations run past what `SOURCES.md` records, one quotation is recorded nowhere at
+all, and a block of case detail about two dead children has no source behind it.** Found
+independently by the depth reviewer (finding 1), the fact-checker (3, 4, 6, 8, 12) and the neutrality
+auditor (8, and its closing note). The four separate failures: (a) the RSS squaring quotation, which
+`SOURCES.md` ends at "within families", is extended by "an assumption that would need to be justified
+empirically"; (b) the phrase "may be very much less incriminating than the figure presented to the
+jury at trial" is attributed to the RSS in the body and again in Sources entry 5, and the word
+"incriminating" appears nowhere in `research/`; (c) the judgment's para 178 quotation, recorded as
+ending at "a major effect on their thinking", is extended by "notwithstanding the efforts of the trial
+judge to down play it"; (d) the children's months of death and ages in weeks are cited to "R v Clark,
+2003, paras 1, 8 to 9", and `SOURCES.md` records no content whatever for paras 8 or 9, only Dyer's
+years. Trailing that: "a solicitor", "Roy", "a paediatrician", "the three risk factors the study used
+(a young mother, a smoker in the household, no wage earner)", "her husband and others kept working on
+the case", "not disclosed to the lawyers on either side", and "an 80 to 1 outsider" for the recorded
+"1 in 80 chance". `OUTLINE.md` line 15 is explicit that a new documented detail goes into
+`SOURCES.md` before a lesson cites it. **This is L2-B1 in a new form, applied to a real family.**
+
+**L6-B2. The spam-filter answer credits the base rate with a change it did not make, inside the
+answer key a learner checks their own count against.** Fact-check 1, depth 2, pedagogy 2. "There the
+base rate was 1% and here it's 5%, and that difference alone moves the answer from 8% to 70%." Three
+numbers differ, not one: base rate 1% to 5%, catch rate 80% to 90%, false-alarm rate 9.6% to 2%. The
+base rate alone, on the mammogram's test, gives 40 true among 131 positives, **30.5%**. The test
+alone, at a 1% base rate, gives 9 among about 29, **31%**. Neither change on its own gets near 70, and
+the sentence hands the base rate credit for a move it is responsible for less than half of, in the
+lesson whose whole argument is that the two must be kept apart.
+
+**L6-B3. The likelihood ratio is taught as multiplying a probability. It multiplies odds, and the
+lesson's own checkpoint refutes the rule sixty-four lines earlier.** Fact-check 2, depth 5, pedagogy
+3. "A ratio of about 8 ... so it should move you about eightfold: from 1 in 100 before the test to
+about 8 in 100 after it, which is exactly the 8 in 103 you counted." Two errors. 8 in 100 is 8.0% and
+8 in 103 is 7.8%, so "exactly" is false and the near-agreement is a coincidence of the small base
+rate. Worse, the rule as stated fails on the second number the reader meets: the checkpoint at a 2%
+base rate counts 16 of 110, **14.5%**, and the stated rule predicts 16.7%; at a 20% base rate it
+predicts 166%, which is not a probability. This is the one lesson in the course that asks the learner
+to calculate, and it handed them a shortcut that breaks immediately.
+
+**L6-B4. The practice answer key is printed in plain body text, 175 words of it, directly under the
+instruction to work the items on paper. Sixth lesson running.** Voice 3, pedagogy 1. Resolution 29 in
+lesson 1, then L2-B4, L3-B3, L4-B4, L5-B4, fixed every time and back every time. It is worse here
+than in any of the five, because these are arithmetic answers: a learner who glances at "18 of 517,
+about 3.5%" has lost not only the retrieval but the only evidence they will ever get that their own
+count was right.
+
+**L6-B5. Zero figures and zero links, in the lesson where the picture is the method and the primary
+documents are free.** Depth 3, voice 1 and 2, pedagogy 21. A natural-frequency count is a tree, and
+the reason Gigerenzer and Hoffrage's format works is that it puts the 8 next to the 95 where you can
+see them; this lesson carried that structure in prose four times. Meanwhile it names the Court of
+Appeal's judgment, the RSS statement and the CCRC referral in the body and links none of them, while
+`SOURCES.md` holds all three addresses verbatim. A lesson whose whole claim to authority is that the
+error and its correction are on the public record printed not one address at which a doubting reader
+could go and look.
+
+**L6-B6. A low positive predictive value is left looking like an argument against screening, and the
+lesson never says it isn't.** Neutrality 1. The lesson gives 7.8% four times, calls the physicians'
+70 to 80% an error by a factor of ten, and never says what a screening epidemiologist would say in
+the next breath: a positive screen is not a diagnosis, it is the reason for the next look. The lesson
+knows the argument, because practice item 2 makes exactly it about an airport scanner ("say why the
+scanner is still worth running") and never carries it back to the mammogram, where a real reader has
+a real decision. The omission runs in the direction of the lesson's own rhetorical payoff.
+
+**L6-B7. Contested question 4 is stated with the evidence all on one side, and the side it favours is
+the one whose method the course has adopted.** Neutrality 2, 3 and 4, depth 8. Gigerenzer's camp gets
+two named proponents and two cited results. The heuristics-and-biases camp gets one sentence and no
+evidence, described in a word its adherents reject ("systematically irrational" is the critics'
+term, not the programme's own), while the lesson holds their best evidence elsewhere in its own text
+and never spends it: 88% violations with "no effect of statistical sophistication", 56% still
+violating under a betting frame, a 36% floor in the best group in the paper. Separately, Popper is
+absent from a three-way dispute the lesson presents as a two-horse race with one horse dead, and his
+is the strongest available objection to the whole enterprise the lesson is conducting.
+
+### Fact-check
+
+Beyond L6-B1 to B3. **L6-F1.** "Same information, half as many wrong answers" is false arithmetic:
+wrong answers went 84% to 54% and 72% to 50%, reductions of 36% and 31%. What holds is that right
+answers roughly tripled in one comparison, 16% to 46%. Found independently by fact-check 5, depth 4
+and pedagogy 4; the voice reviewer's proposed rewrite of the same paragraph kept the false clause,
+which is the reason all five reports are consolidated before any is applied. **L6-F2.** "Nobody at
+the trial put a number on how rare" is a negative claim about the conduct of a real criminal trial
+with nothing on the record behind it; what the RSS supports is that one side of the comparison was
+supplied and the other was not. **L6-F3.** Go deeper recommended Gigerenzer's *Reckoning with Risk*
+with a four-clause description of its contents; neither title appears anywhere in `research/`. Same
+defect as L3-D5 and L4-B1. **L6-F4.** Oaksford & Hahn 2004 is credited twice with more than its
+recorded abstract says: "strength depends on ... how thorough the search was", and "showed that this
+argument form can be strong". **L6-F5.** The mammography problem is Gigerenzer and Hoffrage's
+adaptation, not Eddy's own wording, and "near-certain diagnosis" overstates 70 to 80%. **L6-F6.** The
+frequency wording is truncated mid-phrase without an ellipsis ("95 out of every 990 women without").
+**L6-F7.** "Statistics for Citizens and Probability and Decisions **own** this material": both are
+`planned` in TAXONOMY. This is L5-F13 exactly. **L6-F8.** Four Go deeper and Sources details the
+record does not hold: the RSS statement's length, the judgment's para ranges, the SEP entry's section
+numbers, and "maps it" for a question the entry sets aside.
+
+### Neutrality
+
+Perspectives audited: statistician; Bayesian; frequentist; ecological-rationality psychologist;
+heuristics-and-biases psychologist; Popperian; Carnapian; screening epidemiologist; a woman deciding
+whether to attend screening and a woman holding a result; GP and radiologist; barrister; trial and
+appellate judge; juror; forensic scientist; defence solicitor; Sally Clark's family; a paediatrician
+and expert witness in Meadow's position; a pathologist; a parent who has lost an infant to SIDS; a
+parent investigated after a cot death; non-UK readers; a religious reader and a reader who believes
+in the supernatural; an employee subject to workplace drug testing; a philosopher of probability.
+
+Beyond L6-B6 and B7. **L6-N1.** The opening asserts that the statistical argument put Sally Clark in
+prison, which the lesson itself withdraws ninety lines later ("the statistics were not the ground on
+which the case was won"), and says the Court of Appeal found the deaths could not safely be called
+murders, when what it found was that the convictions were unsafe. **L6-N2.** Motive is imputed to
+real people in a real prosecution: the jury was "invited to feel" the number's smallness, and "it's a
+number chosen for its smallness" attributes deliberate selection to a named expert witness, which is
+not what the court found. The structural point is stronger without it, because the moral of the
+section is that the error is invisible to the person making it. **L6-N3.** Meadow's quoted answer
+contains an unexplained "it", and the thing it refers to is the fact most favourable to him: the
+multiplication was printed in the report he was being questioned about. **L6-N4.** Her death is the
+last fact before the paragraph explaining why her case makes a good example, which invites the causal
+reading the lesson's own text is careful to decline; the same paragraph carries an unsourced
+superlative ("the best-documented instance in the English-speaking world"). **L6-N5.** "People who
+learn the count get the right answer more often than people who learn the formula" upgrades a
+comparison of problem formats into a comparison of trained learners, and the upgrade favours the
+course's own method. **L6-N6.** The frequentist is given no room: counting shares of a reference class
+concedes nothing about degrees of belief, and saying so costs one sentence and makes the priors
+paragraph land harder. **L6-N7.** "What would settle it" is written from one camp's side only.
+**L6-N8.** Quiz 1 put workplace drug testing into an item that did not need it; the outline names the
+costless alternative in the lesson's own specification ("a quality-control test"). **L6-N9.** The DNA
+explanation's "one in six" drops the flat prior it depends on. **L6-N10.** "SIDS or murder" is
+correctly quoted from the RSS as the alternatives before that jury, then generalised in the lesson's
+own voice. **L6-N11.** Three unsourced frequency claims ("both are usually wrong", "the pattern is
+everywhere", "the commonest way"), the class flagged at L3-N8, L4-N8 and L5-N6. **L6-N12.** The Linda
+stereotype is asserted in the author's voice rather than located in the reader. **L6-N13.** "Shy" in
+the ghost checkpoint plays a belief some readers hold for a smile. **L6-N14.** Three British
+references unglossed (the Grand National, "a solicitor", "the top four"), the class fixed at L3-N12,
+L4-N13 and L5-N13. **L6-N15.** The safety callout hedges only the base rate; the sensitivity and the
+false-positive rate are 1982 figures too.
+
+### Pedagogy and depth
+
+Beyond the blocking items. **L6-P1.** The natural-frequency count is demonstrated twice and never
+taught as a procedure, and the one step a learner will actually have to make for themselves, picking
+the population, is the one step the lesson performs for them in both practice items that need it
+("Start with 10,000 people", "Start with 1,000,000 bags"). **L6-P2.** A learner is given no way to
+check their own count, and a wrong count here is silent: apply the false-alarm rate to the whole
+population instead of the healthy group and you get a number that looks exactly as plausible as the
+right one. Lessons 3, 4 and 5 all gained a practice diagnostic; this lesson had none, in the lesson
+where wrong answers are invisible. **L6-P3.** All five practice items are labelled with their type in
+bold, so the tool choice is made for the learner. "The missing number" is the worst: noticing is the
+entire skill of the item and the heading gives it away. Same defect as L4-P2 and L5-P1. The set is
+also blocked rather than interleaved. **L6-P4.** Practice item 3 asks only what is missing, a
+one-word answer, and then does the count for the learner in the key; the transferable half is showing
+that the argument collapses once a plausible value is supplied. **L6-P5.** Objective 4 has no
+practice item at all, so the learner's first unaided attempt at it is a quiz question. **L6-P6.** Quiz
+Q6's key is the body checkpoint's own closing sentence with one noun changed, and its stem is that
+checkpoint's stem re-dressed; it is the only one of the six answerable by recognition. **L6-P7.** The
+section heading "Adding a detail can only lower the probability" prints the answer to the Linda
+predict five lines before the predict asks the question. **L6-P8.** `minutes: 50` against measured
+estimates of 75, 85 and 105 from the three reviewers who costed it. **L6-P9.** Quiz Q1 and Q3 leak:
+the key is the only option that shows a count, so a learner who knows this is the counting lesson can
+pick it without counting. Same class as L3-P4 and L4-P8. **L6-P10.** 1,050 words with no retrieval
+between the last checkpoint and the practice, falling immediately before the practice where the
+reader most needs their own recall tested. **L6-P11.** The free-recall list names four items where
+lessons 2, 4 and 5 name eight to eleven, and omits both the count as a procedure and absence of
+evidence, which is an objective. **L6-P12.** All three spaced reviews are told rather than retrieved.
+**L6-P13.** The six-step check is mentioned once, in Connections, after all the teaching, where the
+outline says the learner should be able to recite it from lesson 3 onward. **L6-P14.** Phone width:
+the Bayes formula is a 30-word plain-text paragraph that wraps mid-expression at 360px, and the
+"Plug in" line is three chained calculations in one semicolon run. **L6-P15.** Think-blocks stop at
+the ghost checkpoint; three sections over 300 words carry nothing, including the one that names the
+lesson's central measure. **L6-P16.** Jargon uncashed: "sensitivity" appears first as a bare label
+inside the formula and is never defined in words; "posterior" appears once, inside a quotation, inside
+a hidden answer; "prosecutor's fallacy" is named in the title and explained twenty-six lines later;
+"natural frequencies" is in an objective and a quiz stem and never named in the body as the method.
+
+### Voice
+
+**L6-V1.** 100 contractions in 6,922 words, one every 69, the worst rate in the course, against
+lesson 3's one every 38 and lesson 5's one every 37, and badly distributed: the four best-written
+sections are the four that beat one every 50. **L6-V2.** Six "Here's/Here is" openers. The running
+count across six fix passes is 6, 4, 4, 4, 8, 6, which has never improved. **L6-V3.** Thirteen
+parenthetical-plus-numbered citations, settled in lesson 1 and back in every lesson since (4, 13, 14,
+13). **L6-V4.** The formula passage is a wall of decimals in a lesson arguing that decimals are the
+problem. **L6-V5.** A 72-word sentence handing over four percentages and a study count before saying
+why any of them matters, one contraction in 121 words; L3-V6 and lesson 4's Cheng paragraph, third
+occurrence. **L6-V6.** Twelve paragraphs end on a compressed one-line moral (running count 5, 6, 6,
+8, 12), and the bare imperative "count" closes a paragraph five times. Two of the twelve earned it:
+"Matching is not counting" and "Unlikely compared with what?" **L6-V7.** Pipeline vocabulary: "the
+mechanism" twice, and `:::exercise Do it now` back as a learner-facing label after being renamed in
+lessons 3, 4 and 5. **L6-V8.** "A person quoting accuracy alone has either not noticed this or hopes
+you won't" sneers at an unnamed hypothetical in a lesson whose whole subject is honest error.
+**L6-V9.** Five unsupported absolutes and invented frequencies, down from lesson 5's twelve.
+
+### Split verdict: PASSES the 1.3 test. Seam marked, not split.
+
+The depth and pedagogy reviewers put the seam in exactly the same place, between the safety callout
+and the Sally Clark heading, and gave the same reasons. Part A is "a probability is a share of
+cases", ending on a complete testable skill; Part B is "how far should this evidence move you". The
+dependency runs one way only: Part B's central move is stated as "these are the mammogram's two
+sentences again" and its ratio is built from the mammogram's 80 and 9.6. Part B's opening is already
+written, in the second of the two arguments the lesson opens on. Both reviewers named the same three
+costs a split would have to pay, and both said do the teaching fixes first, because a Part B built
+from the pre-fix text would have carried no practice item for its own objective. Marked with a
+comment in the file per BACKLOG 7b. Not renumbered in this pass. The Logic course now stands at three
+confirmed seams.
+
+### What is working, and must survive
+
+**The first job came back clean, and the remedy generalised.** Bayes' rule arrives as "what you just
+did has a name", derived from a count the reader has already performed, with the formula shown to be
+"a compressed count. If you ever forget it, count." That is what the Hurley citation would have
+bought, without the citation, and it is the strongest version of the lesson-3 and lesson-4 remedy so
+far.
+
+**The number hygiene is the best in either course and should become the house standard.** Every
+invented figure in the file announces itself: "(I'm inventing this number to show the shape)", "The
+numbers are invented for the exercise", "The example is invented; the shape is everywhere", "Every
+number below is invented for the exercise unless it cites a source". Four times, in a lesson made of
+numbers, and not once does a made-up figure get to pass as a finding. Copy this into lessons 7 to 10.
+
+**One image doing structural work across six thousand words.** "A probability is a share of a pile of
+cases. Every trick in the lesson works by getting you to lose track of which pile", then carried
+through the conjunction, the base rate, the courtroom, the misconceptions and the exercise. This is
+the "silence" move from lesson 3 done again and done better, because this one also does arithmetic.
+
+**The two women who tested negative**, introduced in a parenthesis with "keep them in mind for later"
+and cashed sixty lines on. Almost every treatment of this problem drops them.
+
+**The refusal to overcorrect,** twice: quiz 3's explanation says that going from 5 million candidates
+to about six is an enormous amount of evidence, just not a verdict, and the fibre checkpoint ends
+"the fibre narrows the field a great deal; it doesn't settle it." Most treatments of the prosecutor's
+fallacy teach a reader to distrust forensic evidence; this one teaches them to price it.
+
+**The handling of Sally Clark, in everything except its sourcing.** No adjective is applied to Meadow
+anywhere, and the Grand National comparison is reported with the trial judge's attempt to play it
+down, which is the context favourable to him. The appeal is correctly attributed to the undisclosed
+microbiology rather than to the statistics. The first appeal's dismissal is reported. No cause of
+death is stated, exactly as `SOURCES.md` instructs. The neutrality auditor's verdict, which the
+resolutions below were written to preserve: "the most careful use of a real case anywhere in this
+course."
+
+**The six `explain` fields**, every one of which teaches all three distractors, and the outline
+contract, which is the most prescriptive entry in the file and was met item for item: all three named
+predicts and both named checkpoints in their named positions, all four worked examples in order, the
+formula placed after the counting under a heading that says so, all five prescribed practice kinds,
+the one disclaimer, all three spaced reviews, and no invented political, religious or culture-war
+example anywhere.
+
+### Resolutions applied, 2026-09-06
+
+The lesson was rewritten wholesale rather than patched. `minutes: 50` to `85`. Body 6,922 words to
+9,323 by the same count. Figures zero to two. Markdown links in the body and Go deeper zero to six.
+Think-blocks 4 predicts and 4 checkpoints to 7 and 9, one of the nine being the practice key.
+Practice 5 items to 6, interleaved, unlabelled, key hidden. Quiz: two items replaced, three amended,
+answer key `2,0,1,3,0,1` to `2,0,1,3,0,2`. Linter warnings one to zero.
+
+**L6-B1, the sourcing.** Every one of the four failures fixed by cutting back to what `SOURCES.md`
+records. The RSS squaring quotation now ends at "within families"; the para 178 quotation ends at "a
+major effect on their thinking"; "may be very much less incriminating" is gone from body and Sources,
+replaced by the recorded sentence that does the same work, "The well-publicised figure of 1 in 73
+million thus has no statistical basis"; the children now have years and no months or ages, cited to
+para 1 and Dyer, with the "paras 8 to 9" citation deleted from body and Sources. Also cut: "a
+solicitor", "Roy", "a paediatrician", the three risk factors and the claim that there were three,
+"her husband and others", and "to the lawyers on either side". "An 80 to 1 outsider" is now the
+judgment's own "a 1 in 80 chance", which is a different number and the right one. First names are
+gone throughout except Gerd Gigerenzer, the only one this file records. All of it is recorded in a
+new `SOURCES.md` block, including the fact that **lesson 8 carries the same unrecorded RSS clause and
+must be fixed in its own pass**, and the three cut passages are item 15 on the network list.
+
+**L6-B2.** The predict's answer now separates the three changes and gives both counterfactuals: the
+mammogram's test at a 5% base rate gives about 30 in 100, this filter at a 1% base rate gives about
+31, and neither alone gets near 70. Better teaching than the error was, because it is the lesson's
+own lesson.
+
+**L6-B3.** The passage now says what the ratio multiplies, works the odds through (10 against 990,
+times 8.3, to about 83 against 990, the same ratio as the counted 8 against 95), and then breaks its
+own shortcut on the lesson's own numbers: 17 against the counted 15 at a 2% base rate, and 166% at
+20%. The failure is the teaching.
+
+**L6-B4.** The key is now a `:::checkpoint Check your six answers. Open this only when all six are
+written down.`, one numbered paragraph per item rather than a single semicolon run, matching the form
+lessons 2, 3, 4 and 5 all use.
+
+**L6-B5.** Two SVGs, both rendered headless at 340px before committing, per the rule established at
+L4-B2. Figure 1 is the natural-frequency tree: 1,000 splitting into 10 and 990, then into 2/8 and
+95/895, with the two positive boxes shaded and ringed together as the pile of 103, and a sentence of
+prose under it telling the reader to look at the two ringed boxes. Every number is recorded at
+`SOURCES.md` line 33. Figure 2 is the four Study 1 bars, 16 and 28 against 46 and 50, with a caption
+in prose saying these are four wordings of the same fifteen problems rather than four groups of
+people, and that the record does not say which frequency wording got which figure. Six links added,
+using four addresses recorded verbatim in this repository: the judgment at the Meadow quotation and
+again in Go deeper, the RSS PDF at the statement and again in Go deeper, the CCRC page at the
+referral, and the kops full text for Gigerenzer et al. 2007 in Go deeper. **Not drawn, on all three
+reviewers' advice:** any corrected figure for two natural infant deaths (no number exists in either
+document); any figure for how rare two murders in one family are (the absence is the teaching point);
+a chart of Tversky and Kahneman's 85/88/56/36 (four different tasks with different samples, which is
+the L4-N4 error); any photograph of Sally Clark (no image or licence recorded); and the TED-Ed
+Gigerenzer clip, which is verified but recorded for lesson 9 and is about a different topic.
+
+**L6-B6.** A new paragraph immediately after the count, before the "what did the work" paragraph:
+the test moved her about eightfold, a positive screen is not a diagnosis but the reason for the next
+look, whether a programme is worth running is a further question this lesson does not answer, and
+quoting 7.8% as though it did would be the lesson's own error committed on the lesson.
+
+**L6-B7.** The heuristics-and-biases camp now leads its own paragraph with its own evidence, all of
+which the lesson already held: 88% with no effect of statistical sophistication, 56% under the
+betting frame, a 36% floor, and "a shortcut that survives money and training is, on their reading, a
+shortcut." "Systematically irrational" is gone, replaced by the programme's own framing.
+Gigerenzer's paragraph is unchanged, which was the point. Popper added in three sentences with a
+pointer to lesson 5's closing note, so the two lessons tell one story about the same open question.
+The "what would settle it" test now carries the symmetric case. And the frequentist gets the sentence
+neutrality 6 asked for, before the priors paragraph, which makes that paragraph land harder.
+
+**Fact-check.** L6-F1: the false "half as many wrong answers" is gone; the sentence now says nearly
+three times as many people got it right on the harder wording, which is what 16 to 46 supports. The
+voice reviewer's rewrite of the same paragraph was adopted for its structure and not for that clause.
+L6-F2: "nobody at the trial put a number on how rare" became "the jury was given no figure for that
+side at all", which is what the RSS supports without asserting anything about who said what in court.
+L6-F3: *Reckoning with Risk* deleted from Go deeper, replaced by Gigerenzer et al. 2007, read from
+the full text, free, and the source lesson 9 works from. L6-F4: Oaksford & Hahn 2004 now gets what
+its abstract says, with "how thorough the search was" attributed to this lesson rather than to the
+paper, in the body and in the quiz explanation. L6-F5, F6, F7, F8 all applied: the problem is
+attributed as Gigerenzer and Hoffrage's adaptation with a note that the figures are illustrative;
+"near-certain diagnosis" is now "something close to a diagnosis"; the frequency wording is quoted
+whole; the two planned courses are in the future tense; and the RSS statement's length, the SEP
+section numbers, the judgment's para ranges and "maps it" are all trimmed to the record.
+
+**Neutrality.** N1: the opening now names Sally Clark, says the convictions were quashed as unsafe,
+and quotes what the court actually said about the number, rather than asserting that the argument
+imprisoned her. N2: "invited to feel its smallness" became "left with one small probability and
+nothing to hold it against", and "a number chosen for its smallness" became "one small number with
+nothing to hold it against, and a small number on its own is persuasive in a way it hasn't earned",
+which keeps the sentence's force and drops the imputation. N3: a paragraph after Meadow's quotation
+explains what "it" refers to and says plainly that this is the fact most favourable to him, followed
+by what it teaches about how a bad number travels. N4: the paragraph explaining why the case earns
+its space now precedes her death, and her death is the last line of the section with nothing after
+it; the superlative is gone. N5, N6, N7, N9, N10, N11, N12, N13, N14, N15 all applied as proposed.
+N8: quiz 1 is now a factory testing components for a hairline fracture, which the outline names, and
+the arithmetic is identical.
+
+**Pedagogy and depth.** P1: a new "The count, as five steps you can repeat" block after the tree, and
+practice items 1 and 3 no longer hand over the population; step 1 does that job. P2: three checks
+under it, all verified against every case in the lesson, and the upper bound pedagogy 6 warned
+against is deliberately not included, because it fails at high base rates and a check that is
+sometimes false is worse than none. P3: all five bold labels deleted and the set reordered to
+medical, conjunction, scanner, courtroom, lie detector, absence of evidence, so no two adjacent items
+share a type and the missing-base-rate item arrives after the learner has twice reached for the
+count. P4: item 5 now asks the learner to supply a base rate themselves, count 1,000 people and say
+what share of failures are lying. P5: a sixth item added, two people saying "nobody has reported a
+fault" in a warehouse and in a sampling plant, which is objective 4's first unaided attempt. P6: quiz
+Q6 replaced with a two-clinic item requiring an actual count in both places, verified at 1.77% and
+69.2%, a factor of about forty; answer key is now `2,0,1,3,0,2`, using all four indices. P7: the
+section is retitled "A question about Linda". P8: `minutes: 85`, and `OUTLINE.md` corrected to match.
+P9: every option in Q1 now carries a count of its own, and Q5's option B gets one. P10, P11, P12,
+P13, P14, P15, P16 all applied: a retrieval checkpoint opens the misconceptions list; the free-recall
+list grows to seven items including the count as a procedure, absence of evidence and the six-step
+check; the lesson-3 spaced review is now a checkpoint rather than exposition; step 4 is named in the
+third paragraph; the formula is in a fenced block on one line with the decimals gone; five new
+think-blocks are placed in the three sections that had none; and "sensitivity", "posterior",
+"prosecutor's fallacy" and "natural frequencies" are each cashed where the reader first meets them.
+
+**Voice.** All six "Here's" openers rewritten. All thirteen parenthetical citations reduced to bare
+markers, with the judgment's paragraph numbers moved into prose where a reader following the link
+wants them. The formula passage and the Study 1 paragraph rewritten as proposed. "The mechanism"
+gone twice; the exercise renamed to "On paper, with one number from this week's news". Ten of the
+twelve one-line morals folded or cut, keeping "Matching is not counting" and "Unlikely compared with
+what?"; the second, verbatim repeat of the latter in the misconceptions list is now varied rather
+than identical. Two of the five closing "count"s cut. "Or hopes you won't" gone. Contractions raised
+throughout, most heavily in the four sections the reviewer measured worst.
+
+### Deliberately not fixed, with reasons
+
+1. **The safety callout stays where it is,** after the base-rate section and before the courtroom
+   case, rather than moving before the mammogram as depth 26 proposed. The neutrality auditor, whose
+   axis owns this call, examined the placement specifically and recorded it as "the right place",
+   covering both the medical and the legal example. Depth's own note that a split would strand it in
+   Part A is recorded in the seam comment instead, where the person doing the renumbering will read
+   it. Depth's second half was applied: the callout now hedges the test's own figures as well as the
+   base rate.
+2. **The ghost checkpoint stays,** with "shy" removed, rather than being swapped for a wasps'-nest
+   search as depth 25 proposed. The neutrality auditor cleared it explicitly and at length: the
+   argument criticised is the sceptic's dismissal rather than the believer's belief, the parenthesis
+   says in terms that the course takes no side on whether ghosts exist, and the same treatment is
+   applied symmetrically to a strong claim. Flagging one adjective and keeping the item is the
+   narrower fix, and the item teaches something the wasps' nest does not, which is that the strength
+   depends on what the claim predicts you would have seen.
+3. **Quiz Q4's option A is left as an eliminable absolute.** Depth 22 wanted it replaced along with
+   option B. Option B was replaced with a coherent wrong ranking, which also puts two options on
+   "Engineer B" and so defeats the shared-verdict heuristic. Option A survives because "absence of
+   evidence is never evidence of absence" is the slogan the whole section exists to argue against,
+   and a learner who eliminates it on its absoluteness has done the thing the lesson wanted.
+4. **Dyer's obituary and Oaksford & Hahn 2004 are still unlinked.** Both addresses are constructible
+   from identifiers this file records, and the repository already uses the PMC pattern twice. Lesson
+   3 refused to guess a URL for Wason on exactly this reasoning and that precedent is followed here.
+   Both are item 16 on the network list.
+5. **No video.** The only verified clip in `SOURCES.md` is the TED-Ed Gigerenzer piece, recorded for
+   lesson 9, about relative versus absolute risk rather than base rates. The same five minutes in two
+   lessons of one course reads as filler.
+6. **The lesson is not split.** BACKLOG 7b: mark the seam, do not renumber as you go. Marked.
