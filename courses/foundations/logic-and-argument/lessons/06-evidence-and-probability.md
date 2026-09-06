@@ -258,6 +258,13 @@ This lesson uses a screening test and a criminal case because they are the best-
      rational-versus-adapted half belonging to A and its Bayesian-foundations half to B; (d) the
      misconceptions list splits four to A and two to B. Per BACKLOG 7b: do not renumber in this pass. -->
 
+:::callout A good place to stop
+That's the counting: a probability is a share of a pile, a detail can only shrink the pile, and a
+test result means nothing until you know how big the two piles were. If you're reading in one
+sitting and want a break, take it here. The rest of the lesson is one courtroom argument and the
+measure that would have caught it, and it will land better on a fresh head.
+:::
+
 ## The prosecutor's fallacy: Sally Clark
 
 The same swap has been made in a courtroom. This is what it cost there.

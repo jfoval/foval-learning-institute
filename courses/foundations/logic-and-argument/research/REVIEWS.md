@@ -2149,6 +2149,9 @@ throughout, most heavily in the four sections the reviewer measured worst.
    lesson 9, about relative versus absolute risk rather than base rates. The same five minutes in two
    lessons of one course reads as filler.
 6. **The lesson is not split.** BACKLOG 7b: mark the seam, do not renumber as you go. Marked.
+   Correction, made while reviewing lesson 8: the seam was marked with a comment and no
+   `:::callout A good place to stop`, which lessons 2, 3 and 5 all carry. That was an error, from a
+   check that looked at the comment blocks rather than the callouts. The callout has been added.
 
 ---
 
@@ -2527,7 +2530,13 @@ first use. Contractions raised throughout.
 4. **Quiz Q5 keeps its abstract stem.** Depth and pedagogy both offered to give it a case. With three
    items replaced the application count already reaches five of six, and Q5 is the only item that tests
    the three conditions against each other rather than on a case, which is worth one slot.
-5. **No `:::callout A good place to stop` at the seam**, against both split reports, which described it
-   as the house form. Lessons 3, 5 and 6 use a comment only. Followed the files rather than the
-   reports.
+5. ~~No `:::callout A good place to stop` at the seam, against both split reports, which described it
+   as the house form. Lessons 3, 5 and 6 use a comment only.~~ **Withdrawn, and the reviewers were
+   right.** Lessons 2, 3 and 5 all carry a `:::callout A good place to stop`: lessons 3 and 5 at their
+   confirmed seams alongside the comment, and lesson 2 at a refused split with no comment. So the
+   callout is the reader-facing stopping point and the comment is the bookkeeping marker, and a
+   marked seam takes both. The check that produced this note looked at the comment blocks rather than
+   the callouts, and at lesson 6, which is my own earlier work and carried the same omission, so it
+   confirmed a mistake against itself. Callouts have now been added at the marked seams in lessons 6
+   and 7.
 6. **The lesson is not split.** BACKLOG 7b: mark the seam, do not renumber as you go. Marked.

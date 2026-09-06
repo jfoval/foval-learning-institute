@@ -351,6 +351,13 @@ Hold the verdict for two sections. You need three words for it first.
      exercise, so the convention at OUTLINE line 12 is met on both sides, which is the breach lesson
      5's split analysis had to flag. Per BACKLOG 7b: do not renumber in this pass. -->
 
+:::callout A good place to stop
+That's the rebuilding: the small words, the two shapes of support, the six slots, and one message
+taken apart to the last unstated premise. If you're reading in one sitting and want a break, take
+it here, and do practice items 1 and 2 before you come back. The rest of the lesson is about
+making sure the argument you rebuilt is theirs, and then deciding whether it holds.
+:::
+
 ## Charity: reconstruct the version they'd sign
 
 The principle of charity is old and plain. When a passage can be read more than one way, read it the way the arguer would accept. When you supply a missing premise, supply the one they'd agree to, not the one that's easiest to knock down and not the one that makes the argument valid at the price of being absurd.
