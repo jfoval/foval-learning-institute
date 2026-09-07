@@ -1,6 +1,7 @@
 ---
 title: "Running yourself: attention, procrastination, sleep, and your system"
 minutes: 40
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/learning-and-mind/how-to-learn-anything/08-running-yourself.mp3
 objectives:
   - Build a weekly study plan that spaces and interleaves within the hours you actually have
   - Apply one evidence-based attention or procrastination tactic to a real study block
