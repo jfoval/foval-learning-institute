@@ -55,8 +55,13 @@ anywhere, and that is why the old queue survived as long as it did.
 | Python Basics | live | 6 | **0** | 0 | none |
 | Algebra Essentials | live | 5 | **0** | 0 | none |
 | Clear Writing | live | 4 | **0** | 0 | none |
-| Bible Basics | **drafting** | 12 | 3 | 0 | 1 (regenerates after renumber) |
-| Logic and Argument | **drafting** | 10 | 8 | 0 | none |
+| Bible Basics | **drafting** | 12 | **8** (1 to 8) | 0 | 1 (regenerates after renumber) |
+| Logic and Argument | **drafting** | 10 | **9** (1 to 9) | 0 | none |
+
+*Updated 2026-09-07.* Bible Basics moved 3 to 8 by merging the takeover branch;
+Logic moved 8 to 9 by taking that course's branch lesson 9. Both branches had sat
+unmerged since 2026-09-06. **Logic's only unreviewed lesson is 10**, and it holds
+every remaining warning on the course.
 
 ### A process rule, because this session broke it
 
@@ -65,6 +70,39 @@ without touching it, and John had to point that out. **Update the backlog in the
 the work, not at the end of the session.** A session that dies mid-task should leave the next one a
 true picture, and the reviews running in the background are part of that picture: if you launch
 subagents, write down what they are reviewing before you launch them.
+
+## 0c. The parallel-work failure of 2026-09-06, and the rule that comes out of it (2026-09-07)
+
+Two sessions worked the same two courses on the same day from the same commit and
+never saw each other. **Logic lessons 2 to 8 were given a full Stage 4 cycle twice**,
+once on `main` in the evening and once on `claude/logic-argument-course-3mbwv1` at
+midday, and the two diverged by thousands of words per lesson. That is the whole of
+why the courses felt like they were in an eternal review loop: the reviews finished,
+and then half of them were thrown away.
+
+**How it was resolved, and the rule that generalises.** Main's versions were kept.
+Not because they were longer (the branch's were longer, and had roughly twice the
+`:::predict` and `:::checkpoint` blocks) but because **main's session could reach
+primary sources and the branch's could not**. The branch's own `research/HANDOFF.md`
+says its container "denies general CONNECT" and lists 31 items owed to a session with
+network access. The cost is concrete: its lesson 8 reports Robinson's foreign-birth
+and illiteracy ecological correlation as +0.619 and builds the teaching point on it,
+when the true figure is negative. The 2009 IJE reprint typesets minus signs so faintly
+that text extraction drops them. Main caught it; the branch could not have.
+
+> **The rule: length is not quality, and a review that cannot reach the sources is not
+> a fact-check.** When two versions of a lesson compete, ask which session could open
+> the primary source, not which produced more words.
+
+The branch's lesson 9 was taken, because `main` never reviewed lesson 9 at all. The
+rest of that branch is preserved as the tag `superseded/logic-stage4-alt-2026-09-06`
+rather than deleted, so the alternative text and its 3,136-line REVIEWS.md stay
+reachable by name.
+
+**To stop it happening again: content sessions commit to `main` and pull first.** Do
+not open a branch for lesson work. The branch is what let two sessions diverge for
+nine hours without either noticing, and `CLAUDE.md` rule 11 already says work that is
+not on `main` is not done.
 
 ## 1. Pipeline state right now
 
