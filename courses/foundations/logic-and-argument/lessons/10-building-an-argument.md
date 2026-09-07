@@ -1,6 +1,6 @@
 ---
 title: Building an argument that holds up
-minutes: 45
+minutes: 70
 objectives:
   - Build a short argument in standard form with acceptable premises and a link you can name as valid or strong
   - Build an extended one-page argument that states its strongest objection and either answers it or concedes it with a qualifier
@@ -12,7 +12,7 @@ quiz:
       - Cut the list to the three strongest reasons, since more premises only give the reader more places to stop
       - Add a ninth reason from a different angle, so the case rests on a wider base of independent support
       - State the strongest objection to the four-day week as its supporters would put it, then answer or concede it
-      - Move the conclusion to the end of the proposal, so that the reasons build toward it in a natural order
+      - Move the conclusion to the end of the proposal, so that the eight reasons build toward it in a natural order
     answer: 2
     explain: A reader who runs the six-step check will supply the objection Dana left out, and a reader who has to do that trusts the rest less. Weston's rule is to reckon with objections; Rapoport's rules say to state them in the form their holders would accept. Option A confuses convergent premises with linked ones; eight independent reasons do not multiply the ways to fail. Option B adds more of what the draft already has plenty of. Option D is not wrong in itself, but Weston's advice for essays is to state the claim early, and moving it fixes nothing about the missing objection.
   - q: A fundraising letter argues that a new gym is a healthy investment for the town, because exercise is healthy, and healthy investments pay for themselves. Which of Weston's rules does it break, and what is the pattern called?
@@ -33,12 +33,12 @@ quiz:
     explain: A qualifier is precision about scope; hedging is vagueness about everything. Version 2 tells you the claim's reach (a house like ours, four winters) and its rebuttal (unless the loft is already done), so a reader can check it. Version 1 says nothing anyone could test or disagree with. Option A treats vagueness as safety, which it is not; a claim nobody can pin down persuades nobody. Option B mislabels filler as Toulmin's slots; "might be worth considering" is not a rebuttal condition. Option C is wrong because Toulmin's layout puts the qualifier on the claim on purpose; that is where the reader needs it.
   - q: Marcus is arguing, in writing, that he should keep his old laptop another year rather than replace it. He has three reasons for. He had a paragraph beginning "on the other hand, it crashes about once a week", and he deletes it because it undercuts his case. To a careful reader, what has the deletion done?
     options:
-      - Strengthened the argument, since a reason against the conclusion has no place in an argument for it
+      - Strengthened it, because a paragraph that undercuts your own case hands the reader a reason to doubt you
       - Weakened it, because the reader will think of the crashes anyway and now knows Marcus did not weigh them
-      - Left it unchanged, since a conductive argument is judged only by the reasons for, not the ones against
-      - Made it valid, because with no counter-considerations left the premises now guarantee the conclusion
+      - Left it unchanged, since what matters is whether the reasons in favour hold up under their own tests
+      - Made it valid, because the premises that remain support the conclusion with nothing pulling against
     answer: 1
-    explain: Marcus's argument is conductive; several reasons for are weighed against reasons against. Its persuasive power to a careful reader comes from the weighing being visible. A reader who supplies the crashes himself will conclude either that Marcus did not think of them or that he hid them, and both cost more than the paragraph would have. Option A describes how a debate feels, not how a reader judges. Option C misdescribes conductive form; the counter-considerations are part of the argument. Option D confuses inductive weighing with deductive guarantee; deleting a sentence cannot turn a conductive argument valid.
+    explain: Marcus's argument is conductive; several reasons for are weighed against reasons against. Its persuasive power to a careful reader comes from the weighing being visible. A reader who supplies the crashes himself will conclude either that Marcus did not think of them or that he hid them, and both cost more than the paragraph would have. Option A describes how a debate feels rather than how a reader judges, since a paragraph that undercuts your own case is exactly what shows you have weighed it. Option C misdescribes conductive form, where the counter-considerations are part of the argument and not a separate matter. Option D confuses inductive weighing with deductive guarantee; deleting a sentence cannot turn a conductive argument valid.
   - q: In a written exchange, Priya concedes that her opponent is right about one of her three reasons and drops it. Her opponent replies, "so you admit your argument fails". Which response is best supported by this lesson?
     options:
       - Say the reasons were convergent, so the other two still carry the conclusion, and restate the claim at the narrower scope the concession leaves
@@ -111,7 +111,7 @@ C: I should buy the used car.
 The link is now deductive and valid: if 1 to 4 are true, the conclusion follows. Every premise is something a friend can check, and premise 4, the unstated one, is written down in brackets where the reader can see it. Look at what premise 4 does. It says "other things being roughly equal", and that's the door the objection walks through, which is the subject of the next section. A short argument that holds up doesn't hide that door. It marks it.
 
 :::callout The refrain, one more time
-*forall x* put it this way in lesson 2: to rebut an argument, you can show a premise is false or show the argument is invalid, and logic only helps with the second.[2] When you're the writer, that sentence tells you where your work is. Making the link valid is the easy part; you did it above by writing a conditional premise. The premises are where the friend will push, and each one needs a number, a source, or a reason it counts as common knowledge (Govier's acceptability condition from lesson 7).[3]
+*forall x* put it this way in lesson 2: to rebut an argument, you can show a premise is false or show the argument is invalid, and logic only helps with the second.[2] When you're the writer, that sentence tells you where your work is. Making the link valid is the easy part; you did it above by writing a conditional premise. The premises are where the friend will push, and each one needs a number, a source, or a reason it counts as common knowledge (the acceptability condition from lesson 7).[6]
 :::
 
 ## Worked example 2: when the objection is partly right
@@ -144,7 +144,7 @@ Both, to different readers. To a reader who is scoring the exchange like a match
 
 ## Worked example 3: the conductive argument, with and without its other side
 
-Lesson 5 introduced Govier's conductive argument: several independent reasons for a conclusion, weighed against counter-considerations, with the weighing done in the open.[3] Most practical arguments are this shape. Here's one, hypothetical, written out properly, and then written the way people usually write it.
+Lesson 5 introduced the conductive argument, named by Carl Wellman in 1971: several independent reasons for a conclusion, weighed against the considerations pulling the other way, with the weighing done in the open.[3] Most practical arguments are this shape. Here's one, hypothetical, written out properly, and then written the way people usually write it.
 
 The question: should a family replace their twelve-year-old car this year or run it one more year?
 
@@ -183,7 +183,7 @@ Before you send anything, run the course on it. This is the six-step check turne
 1. Is the conclusion stated, early, and definite? (Weston rules 34 and 35.)[1]
 2. Are the premises written out, including the ones you thought too obvious to say? Write the obvious one in brackets and look at it. (Lesson 1.)
 3. What kind of link is it? If deductive, could the premises be true and the conclusion false? Build the counterexample yourself. If inductive, name the family (sample, analogy, cause, best explanation, conductive) and ask its question: how big and representative is the sample, does the analogy share the feature that matters, which of the four readings of the correlation have you ruled out. (Lessons 2 to 5.)
-4. Is every premise acceptable to your reader, relevant to the conclusion, and enough, with the others, to carry it? That's Govier's ARG test from lesson 7, run on yourself.[3]
+4. Is every premise acceptable to your reader, relevant to the conclusion, and enough, with the others, to carry it? That's the ARG test from lesson 7, run on yourself.[6]
 5. Any number without its base rate or its denominator? Any "doubles the risk" without the absolute figure? (Lessons 6 and 9.)
 6. Have you stated the strongest objection in a form its holders would sign, and either answered it or written the concession into the conclusion as a qualifier? (Lesson 7; Weston rules 32 and 37.)[1][4]
 7. Does every important word mean one thing throughout? (Weston rule 6; equivocation, lesson 8.)[1]
@@ -193,48 +193,33 @@ Before you send anything, run the course on it. This is the six-step check turne
 
 Here's the structure that comes out the other end, drawn as one picture so you can see where each piece sits.
 
-<svg viewBox="0 0 360 330" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="argtitle" style="max-width:100%;height:auto;font-family:inherit">
-  <title id="argtitle">The shape of an extended argument: a qualified claim carried by three basic premises, each defended by its own sub-argument, with the strongest objection stated and either answered or turned into the claim's qualifier and rebuttal.</title>
-  <rect x="60" y="10" width="240" height="46" rx="4" fill="var(--navy, #0f2a4a)"/>
-  <text x="180" y="29" text-anchor="middle" font-size="12" fill="#ffffff" font-weight="bold">Claim (early, definite)</text>
-  <text x="180" y="46" text-anchor="middle" font-size="10" fill="#ffffff">presumably ... unless ...</text>
-  <line x1="80" y1="100" x2="140" y2="56" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
-  <line x1="180" y1="100" x2="180" y2="56" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
-  <line x1="280" y1="100" x2="220" y2="56" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
-  <rect x="30" y="100" width="100" height="40" rx="4" fill="#ffffff" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
-  <text x="80" y="117" text-anchor="middle" font-size="10" fill="var(--navy, #0f2a4a)">Basic premise 1</text>
-  <text x="80" y="131" text-anchor="middle" font-size="9" fill="var(--text-2, #4a5260)">acceptable? relevant?</text>
-  <rect x="130" y="100" width="100" height="40" rx="4" fill="#ffffff" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
-  <text x="180" y="117" text-anchor="middle" font-size="10" fill="var(--navy, #0f2a4a)">Basic premise 2</text>
-  <text x="180" y="131" text-anchor="middle" font-size="9" fill="var(--text-2, #4a5260)">acceptable? relevant?</text>
-  <rect x="230" y="100" width="100" height="40" rx="4" fill="#ffffff" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
-  <text x="280" y="117" text-anchor="middle" font-size="10" fill="var(--navy, #0f2a4a)">Basic premise 3</text>
-  <text x="280" y="131" text-anchor="middle" font-size="9" fill="var(--text-2, #4a5260)">acceptable? relevant?</text>
-  <line x1="80" y1="140" x2="80" y2="170" stroke="#777777" stroke-width="1.2"/>
-  <line x1="180" y1="140" x2="180" y2="170" stroke="#777777" stroke-width="1.2"/>
-  <line x1="280" y1="140" x2="280" y2="170" stroke="#777777" stroke-width="1.2"/>
-  <rect x="30" y="170" width="100" height="36" rx="4" fill="#f2f2f2" stroke="#777777" stroke-width="1"/>
-  <text x="80" y="185" text-anchor="middle" font-size="9" fill="var(--text-2, #4a5260)">Sub-argument or</text>
-  <text x="80" y="198" text-anchor="middle" font-size="9" fill="var(--text-2, #4a5260)">source (rule 31)</text>
-  <rect x="130" y="170" width="100" height="36" rx="4" fill="#f2f2f2" stroke="#777777" stroke-width="1"/>
-  <text x="180" y="185" text-anchor="middle" font-size="9" fill="var(--text-2, #4a5260)">Sub-argument or</text>
-  <text x="180" y="198" text-anchor="middle" font-size="9" fill="var(--text-2, #4a5260)">source (rule 31)</text>
-  <rect x="230" y="170" width="100" height="36" rx="4" fill="#f2f2f2" stroke="#777777" stroke-width="1"/>
-  <text x="280" y="185" text-anchor="middle" font-size="9" fill="var(--text-2, #4a5260)">Sub-argument or</text>
-  <text x="280" y="198" text-anchor="middle" font-size="9" fill="var(--text-2, #4a5260)">source (rule 31)</text>
-  <rect x="30" y="240" width="140" height="70" rx="4" fill="#ffffff" stroke="var(--oxblood, #8b1e2d)" stroke-width="1.5"/>
-  <text x="100" y="258" text-anchor="middle" font-size="10" fill="var(--oxblood, #8b1e2d)" font-weight="bold">Strongest objection</text>
-  <text x="100" y="273" text-anchor="middle" font-size="9" fill="var(--text-2, #4a5260)">stated so its holders</text>
-  <text x="100" y="286" text-anchor="middle" font-size="9" fill="var(--text-2, #4a5260)">would sign it</text>
-  <text x="100" y="301" text-anchor="middle" font-size="9" fill="var(--text-2, #4a5260)">(rules 32, 37)</text>
-  <rect x="190" y="240" width="140" height="70" rx="4" fill="#ffffff" stroke="var(--gold, #b08d2a)" stroke-width="1.5"/>
-  <text x="260" y="258" text-anchor="middle" font-size="10" fill="var(--gold, #b08d2a)" font-weight="bold">Answer or concede</text>
-  <text x="260" y="273" text-anchor="middle" font-size="9" fill="var(--text-2, #4a5260)">answered: say why it fails</text>
-  <text x="260" y="286" text-anchor="middle" font-size="9" fill="var(--text-2, #4a5260)">conceded: it becomes the</text>
-  <text x="260" y="301" text-anchor="middle" font-size="9" fill="var(--text-2, #4a5260)">claim's "unless" (rule 39)</text>
-  <line x1="170" y1="275" x2="190" y2="275" stroke="var(--oxblood, #8b1e2d)" stroke-width="1.5"/>
-  <path d="M 330 275 L 345 275 L 345 33 L 300 33" fill="none" stroke="var(--gold, #b08d2a)" stroke-width="1.5" stroke-dasharray="4 3"/>
-  <text x="352" y="160" text-anchor="middle" font-size="8" fill="var(--gold, #b08d2a)" transform="rotate(90 352 160)">concession feeds the qualifier</text>
+<svg viewBox="0 0 344 372" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="argtitle argdesc" style="max-width:100%;height:auto;font-family:inherit">
+  <title id="argtitle">The shape of an extended argument</title>
+  <desc id="argdesc">Five stacked stages, each in its own labelled box, read top to bottom. One, the claim, stated early and definite, carrying a qualifier and a rebuttal. Two, the three basic premises, each tested for whether it is acceptable, relevant, and with the others enough. Three, each premise defended by a sub-argument or a source, which is rule 31. Four, the strongest objection, stated so that the people who hold it would sign the statement, which is rules 32 and 37. Five, answer the objection or concede it: an answered objection gets a reason it fails, and a conceded one becomes the claim's "unless", which is rule 39. A dashed line runs up the right-hand side from stage five back to stage one, because the concession feeds the qualifier rather than sitting at the end of the essay. Every stage is named in its own text, so nothing depends on colour.</desc>
+  <text x="0" y="14" font-size="15" font-weight="600" fill="var(--oxblood, #8b1e2d)">1. Claim, early and definite</text>
+  <rect x="0" y="22" width="296" height="34" fill="none" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
+  <text x="10" y="45" font-size="15" fill="var(--navy, #0f2a4a)">carries "presumably" and "unless"</text>
+  <line x1="20" y1="56" x2="20" y2="76" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
+  <polygon points="15,76 25,76 20,84" fill="var(--navy, #0f2a4a)"/>
+  <text x="0" y="102" font-size="15" font-weight="600" fill="var(--oxblood, #8b1e2d)">2. Three basic premises</text>
+  <rect x="0" y="110" width="296" height="34" fill="none" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
+  <text x="10" y="133" font-size="15" fill="var(--navy, #0f2a4a)">each: acceptable? relevant? enough?</text>
+  <line x1="20" y1="144" x2="20" y2="164" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
+  <polygon points="15,164 25,164 20,172" fill="var(--navy, #0f2a4a)"/>
+  <text x="0" y="190" font-size="15" font-weight="600" fill="var(--oxblood, #8b1e2d)">3. Each premise defended</text>
+  <rect x="0" y="198" width="296" height="34" fill="none" stroke="var(--navy, #0f2a4a)" stroke-width="1.5" stroke-dasharray="5 3"/>
+  <text x="10" y="221" font-size="15" fill="var(--text-2, #4a5260)">a sub-argument, or a source</text>
+  <line x1="20" y1="232" x2="20" y2="252" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
+  <polygon points="15,252 25,252 20,260" fill="var(--navy, #0f2a4a)"/>
+  <text x="0" y="278" font-size="15" font-weight="600" fill="var(--oxblood, #8b1e2d)">4. The strongest objection</text>
+  <rect x="0" y="286" width="296" height="34" fill="none" stroke="var(--oxblood, #8b1e2d)" stroke-width="1.5"/>
+  <text x="10" y="309" font-size="15" fill="var(--navy, #0f2a4a)">its holders would sign it</text>
+  <text x="0" y="342" font-size="15" font-weight="600" fill="var(--gold, #b08d2a)">5. Answer it, or concede it</text>
+  <rect x="0" y="350" width="296" height="20" fill="none" stroke="var(--gold, #b08d2a)" stroke-width="1.5"/>
+  <text x="10" y="365" font-size="15" fill="var(--navy, #0f2a4a)">conceded, it becomes the "unless"</text>
+  <path d="M 296 360 L 324 360 L 324 39 L 296 39" fill="none" stroke="var(--gold, #b08d2a)" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <polygon points="301,34 301,44 293,39" fill="var(--gold, #b08d2a)"/>
+  <text x="333" y="196" text-anchor="middle" font-size="15" fill="var(--gold, #b08d2a)" transform="rotate(90 333 196)">feeds the qualifier</text>
 </svg>
 
 The dashed line on the right is the one to remember. When you concede, the concession doesn't disappear into a paragraph near the end. It travels up and becomes part of the claim.
@@ -265,7 +250,7 @@ Where it goes next: any Foval course in which you have to argue, which is most o
 ## Go deeper
 
 - Weston, *A Rulebook for Arguments*, 5th ed. (Hackett, 2018), chapters I, VII, and VIII: forty-odd pages that cover everything in this lesson with more examples; read it once now and keep it for when you're writing.
-- Govier, *A Practical Study of Argument*, 7th ed., chapter 12, "Conductive Arguments and Counterconsiderations": the fullest treatment of the argument shape that most real decisions take, including how to write the weighing.
+- Possin, K., ["Conductive Arguments: Why is This Still a Thing?"](https://doi.org/10.22329/il.v36i4.4527), *Informal Logic* 36(4), 2016 (open access): the conductive argument's history and the live dispute about whether it is a distinct kind at all, with Wellman quoted throughout.
 - Dennett, *Intuition Pumps and Other Tools for Thinking* (2013), the short section on Rapoport's rules: two pages, and the clearest statement of why stating the other side well is not a courtesy but a method.
 - Duke's *Think Again* series on Coursera (free to audit), especially the "How to Understand Arguments" course: the video companion to this whole course, and its exercises on constructing arguments are a good next step after the project.
 
@@ -273,6 +258,7 @@ Where it goes next: any Foval course in which you have to argue, which is most o
 
 1. Weston, A., *A Rulebook for Arguments*, 5th ed. (Hackett, February 2018, 118 pp). Rule numbers and titles verified against the publisher's edition in the Google Books preview at draft time: rule 2 "Unfold your ideas in a natural order" (p. 3), rule 3 "Start from reliable premises" (pp. 3 to 4, including the advice to do research or give an argument for a premise you are not sure of), rule 4 "Be concrete and concise" (pp. 4 to 5), rule 5 "Build on substance, not overtone" (pp. 5 to 6), rule 6 "Use consistent terms" (pp. 7 to 8); chapter VII Extended Arguments, rule 29 "Explore the issue" (p. 51), rule 30 "Spell out basic ideas as arguments" (p. 53), rule 31 "Defend basic premises with arguments of their own" (p. 55), rule 32 "Reckon with objections" (p. 57, with the observation that writers who attend only to the pro side find objections come as a shock), rule 33 "Explore alternatives" (p. 58); chapter VIII Argumentative Essays, rule 34 "Jump right in" (p. 61), rule 35 "Urge a definite claim or proposal" (p. 62), rule 36 "Your argument is your outline" (p. 63, which cross-references rule 6 on consistent terms), rule 37 "Detail objections and meet them" (p. 65), rule 38 "Seek feedback and use it" (p. 66, "what seems clear to you may be far from clear to anyone else"), rule 39 "Modesty, please!" (pp. 67 to 68: summarise fairly, don't claim more; you will very seldom put all the objections to rest, and the world is an uncertain place). Appendix I defines equivocation as sliding from one meaning of a term to another in the middle of an argument (p. 90). The wording of rule 1 was not visible in the preview and is paraphrased in the text without a rule number.
 2. Magnus, P. D., Button, T., Trueman, R., Zach, R. et al., *forall x: Calgary* (Fall 2025, CC BY 4.0), chapter 2. To rebut an argument you can show a premise is not true or show the argument is not valid, and logic only helps with the latter. Read from the PDF for this course's SOURCES.md.
-3. Govier, T., *A Practical Study of Argument*, 7th ed. (Cengage, 2013), chapter 4 (the ARG conditions: premises acceptable, relevant, and adequate grounds), chapter 2 (linked versus convergent support), and chapter 12 (conductive arguments and counter-considerations).
+3. Possin, K., ["Conductive Arguments: Why is This Still a Thing?"](https://doi.org/10.22329/il.v36i4.4527), *Informal Logic* 36(4), 2016, 563 to 593 (open access), quoting Wellman, *Challenge and Response: Justification in Ethics* (1971), who named the conductive argument and described the verdict as coming from weighing the pros and the cons. Used for the shape and for Wellman's "negative considerations"; taught in full in lesson 5.
 4. Dennett, D. C., *Intuition Pumps and Other Tools for Thinking* (Norton, 2013), "Rapoport's Rules": re-express the other position so well that its holder accepts the statement; list agreements; say what you learned; only then criticise. The four rules are paraphrased here, not quoted, because the book's exact wording was checked only against secondary quotations of it, which agree with each other.
 5. Toulmin, S., *The Uses of Argument* (Cambridge University Press, 1958; updated ed. 2003), pp. 97 to 102, via Hitchcock, D., "Toulmin's Warrants" (ISSA, 2002/2003): the layout of claim, data, warrant, backing, modal qualifier ("presumably"), and rebuttal ("unless"), with the Harry example. As recorded in this course's SOURCES.md.
+6. Groarke, L., ["Informal Logic"](https://plato.stanford.edu/entries/logic-informal/), *Stanford Encyclopedia of Philosophy*, sec. 4.1. The ARS conditions that lesson 7 teaches as ARG: "premises are acceptable when they are true or acceptable in some other way; relevant when they provide some (i.e. any) support for the conclusion of the argument; and sufficient when they provide enough support to warrant its acceptance." Following Johnson and Blair.
