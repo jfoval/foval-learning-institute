@@ -1,1 +1,6 @@
-{"version":"0.0.1","configurations":[{"name":"foval","runtimeExecutable":"npx","runtimeArgs":["--yes","serve","site","-l","4173"],"port":4173}]}
+{
+  "version": "0.0.1",
+  "configurations": [
+    { "name": "foval", "runtimeExecutable": "npx", "runtimeArgs": ["--yes", "serve", "site", "-l", "4173"], "port": 4173 }
+  ]
+}
