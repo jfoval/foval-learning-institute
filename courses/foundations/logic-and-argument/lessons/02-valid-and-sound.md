@@ -83,15 +83,21 @@ Yes. Ask the question: is there any possible case where all fish fly and all wha
 
 Stay with the fish. Write it in standard form, the way lesson 1 taught you.
 
+```
 1. All fish fly.
 2. All whales are fish.
+--------------------------
 C: All whales fly.
+```
 
 Two false premises, a false conclusion, and a valid argument. Now swap the content and keep the shape.
 
+```
 1. All mammals breathe air.
 2. All whales are mammals.
+------------------------------
 C: All whales breathe air.
+```
 
 Two true premises, a true conclusion, and the same valid argument. The letters underneath are identical: all A are B, all C are A, so all C are B. What made the first argument valid wasn't anything about fish. It was the shape, and the shape is shared.
 
@@ -111,7 +117,7 @@ Once you separate validity from truth, there's a small table you should be able 
 
 **Invalid, a false premise.** Anything goes.
 
-The empty cell is: valid, all premises true, conclusion false. That combination cannot exist. Rarity has nothing to do with it; "valid" rules it out by definition. Standard textbooks such as Hurley's and Copi's lay the same table out in their first chapter, and it's the one piece of this lesson I'd ask you to memorise rather than reconstruct.[2][3]
+The empty cell is: valid, all premises true, conclusion false. That combination cannot exist. Rarity has nothing to do with it; "valid" rules it out by definition. Knachel's open textbook states validity three ways in a row to make exactly this point: an argument is valid when "its premises guarantee its conclusion", when "IF its premises are true, then its conclusion must also be true", and when "it is impossible for its premises to be true and its conclusion false".[2] Those are three descriptions of one empty cell, and it's the piece of this lesson I'd ask you to memorise rather than reconstruct.
 
 The table has a use that's easy to miss. If you know an argument is valid and you know its conclusion is false, you've learned something about the premises without reading them: at least one of them is false. That's the shape of a very old style of argument called reductio, and it's the shape of every "if that were true, then this would follow, and it doesn't" you have ever made.
 
@@ -133,11 +139,11 @@ Step 5, the premises. If the argument is genuinely sound, the conclusion is true
 
 ## A myth worth clearing away
 
-You may have been taught that deduction goes from the general to the particular and induction goes from the particular to the general. It's in a lot of school notes. It's wrong, and Hurley's textbook, the most widely assigned introduction to logic in the United States, corrects it explicitly.[2]
+You may have been taught that deduction goes from the general to the particular and induction goes from the particular to the general. It's in a lot of school notes, and it's wrong. The *Internet Encyclopedia of Philosophy*'s survey of this distinction takes the proposal up directly, in the form that deductive arguments "begin with a 'general' or 'universal' premise and move to a *less* general conclusion" while inductive ones "begin with 'particular', 'specific', or 'individual' premises and move to a more general conclusion", and rejects it as "much too crude for drawing a categorical distinction", facing "*prima facie* plausible exceptions" it can't absorb.[3]
 
-The real difference is what the premises are *claimed* to do. A deductive argument claims that its premises guarantee its conclusion: if they're true, it can't be false. An inductive argument claims only that its premises make its conclusion probable. Direction of travel has nothing to do with it.
+The real difference is what the premises are *claimed* to do. Van Cleave's open textbook puts it in one pair of sentences: a deductive argument is one "whose conclusion is supposed to follow from its premises with absolute certainty", and an inductive argument is one "whose conclusion is supposed to follow from its premises with a high level of probability".[2] Direction of travel has nothing to do with it.
 
-Two examples make this stick. "All humans are mortal; Socrates is human; so Socrates is mortal" is deductive and runs general to particular, which fits the myth. But "this coin came up heads a thousand times, so the next toss will probably be heads" is inductive and runs particular to particular. And "Ana and Ben are the only two people in the choir; Ana is forty; Ben is forty; so everyone in the choir is forty" runs particular to general and is deductive: if those premises are true the conclusion cannot be false.[2]
+Two examples make this stick. "All humans are mortal; Socrates is human; so Socrates is mortal" is deductive and runs general to particular, which fits the myth. But "this coin came up heads a thousand times, so the next toss will probably be heads" is inductive and runs particular to particular. And "Ana and Ben are the only two people in the choir; Ana is forty; Ben is forty; so everyone in the choir is forty" runs particular to general and is deductive: if those premises are true the conclusion cannot be false.
 
 Why does it matter? Because the two kinds get different tests. For a deductive argument, one counterexample is fatal, and "valid" is all or nothing. For an inductive argument, a counterexample is just a data point, and the question is how strong the support is, which is lesson 5. If you sort by direction, you'll run the wrong test on a quarter of what you meet.
 
@@ -145,9 +151,12 @@ Why does it matter? Because the two kinds get different tests. For a deductive a
 
 Here's the method, done once for you and then handed over. Take this shape:
 
+```
 1. All A are B.
 2. Some B are C.
+-------------------
 C: Some A are C.
+```
 
 It looks reasonable. A sits inside B, and C overlaps B, so surely C reaches A? Let's try to break it. The rule: pick everyday classes for A, B and C that make both premises obviously true and the conclusion obviously false.
 
@@ -230,7 +239,7 @@ One habit that helps: when the conclusion is one you like, swap the content for 
 
 **"Logic tells you what's true."** It tells you what follows from what. In *forall x*'s words, logic helps you show an argument is invalid but not that a premise is false.[1] If someone says "logically, X", they've either shown that X follows from premises you'll have to check separately, or they've said nothing.
 
-**"Deduction goes general to particular."** Covered above. The distinction is what the premises claim to do, and Hurley is explicit that the direction test fails.[2]
+**"Deduction goes general to particular."** Covered above. The distinction is what the premises claim to do, and the direction test fails on ordinary examples running both ways.[3]
 
 **"I understood the definition, so I'm immune."** The subjects in 1983 had the definition in the instructions. Understanding validity and applying it under the pull of a believable conclusion are two different skills, and only the second one protects you.
 
@@ -270,15 +279,17 @@ Lesson 5 opens the other kind of link, where the premises only claim to make the
 ## Go deeper
 
 - *forall x: Calgary*, Part I (chapters 1 to 3), free at forallx.openlogicproject.org. Twenty pages on arguments, validity, and the other logical notions, written plainly by logicians. Parts II and III give you truth tables, the formal version of the counterexample method, if you want the symbols.
-- Hurley, *A Concise Introduction to Logic*, chapter 1, especially the sections on deduction and induction and on validity, truth, soundness, strength, and cogency. The four-cell table is there with worked examples, and the correction of the general-to-particular myth.
+- Van Cleave, *Introduction to Logic and Critical Thinking* (2nd ed., CC BY 4.0), [sections 1.6 to 1.8](https://human.libretexts.org/Bookshelves/Philosophy/Logic_and_Reasoning/Introduction_to_Logic_and_Critical_Thinking_2e_(van_Cleave)/01%3A_Reconstructing_and_Analyzing_Arguments/1.06%3A_Validity). Validity, soundness and the deductive/inductive distinction in about six pages, free, with exercises. The natural next thing to read after this lesson.
+- Knachel, *Fundamental Methods of Logic* (CC BY 4.0), [section 1.4](https://human.libretexts.org/Bookshelves/Philosophy/Logic_and_Reasoning/Fundamental_Methods_of_Logic_(Knachel)/01%3A_The_Basics_of_Logical_Analysis/1.04%3A_Deductive_and_Inductive_Arguments), the same ground stated a different way. Reading one idea in two writers’ words is a cheap way to find out whether you actually have it.
+- The [*Internet Encyclopedia of Philosophy* on deductive and inductive arguments](https://iep.utm.edu/deductive-inductive-arguments/), if you want to see how unsettled the distinction gets once you push on it. Section 9 is where the general-to-particular proposal is taken apart. Harder than the rest of this list, and worth it.
 - Evans, "In two minds: dual-process accounts of reasoning", *Trends in Cognitive Sciences* 7(10), 2003, 454 to 459. A short, readable review by the lead author of the 1983 study, with the belief-bias effect in a box and the Wason task, which lesson 3 covers, in another.
 - Evans, Barston and Pollard, "On the conflict between logic and belief in syllogistic reasoning", *Memory & Cognition* 11(3), 1983, 295 to 306. The original paper. It's readable, and the verbal protocols in the discussion are worth the effort.
 
 ## Sources
 
 1. Magnus, P. D., Button, T., Trueman, R., Zach, R. et al., *forall x: Calgary* (Fall 2025 edition, CC BY 4.0), chapter 2. Definitions of valid, invalid and counterexample; "validity is not about the actual truth or falsity of the sentences in the argument ... It is often said that logic doesn't care about feelings. Actually, it doesn't care about facts, either"; definition of sound as valid with all premises true; rebutting an argument by attacking a premise or the link, and "Logic, however, will only help you with the latter!"
-2. Hurley, P. J. (with Watson, L.), *A Concise Introduction to Logic*, 13th ed. (Cengage, 2018), chapter 1. Deductive arguments claim their premises guarantee the conclusion, inductive arguments claim only that they make it probable; the general-to-particular account is corrected explicitly; the valid/invalid by true/false table with the one impossible combination; definitions of valid, invalid, sound, unsound.
-3. Copi, I. M., Cohen, C. & McMahon, K., *Introduction to Logic*, 14th ed. (Pearson, 2011), chapter 1. The relations between validity and truth, with the combinations laid out; supports the four-cell table alongside Hurley.
+2. Two open textbooks, both CC BY 4.0, both read on LibreTexts at draft time. Knachel, M., *Fundamental Methods of Logic* (University of Wisconsin-Milwaukee), section 1.4: validity stated three ways ("its premises guarantee its conclusion"; "IF its premises are true, then its conclusion must also be true"; "it is impossible for its premises to be true and its conclusion false"), and an argument is sound "just in case (i) it’s valid, AND (ii) its premises are in fact true". https://human.libretexts.org/Bookshelves/Philosophy/Logic_and_Reasoning/Fundamental_Methods_of_Logic_(Knachel)/01%3A_The_Basics_of_Logical_Analysis/1.04%3A_Deductive_and_Inductive_Arguments  Van Cleave, M., *Introduction to Logic and Critical Thinking*, 2nd ed., sections 1.6 to 1.8: a deductive argument’s conclusion is "supposed to follow from its premises with absolute certainty", an inductive argument’s "with a high level of probability"; a sound argument is "a valid argument that has all true premises"; "whereas strong inductive arguments are defeasible, valid deductive arguments aren’t". https://human.libretexts.org/Bookshelves/Philosophy/Logic_and_Reasoning/Introduction_to_Logic_and_Critical_Thinking_2e_(van_Cleave)/01%3A_Reconstructing_and_Analyzing_Arguments/1.06%3A_Validity
+3. *Internet Encyclopedia of Philosophy*, "Deductive and Inductive Arguments", section 9. States the general-to-particular proposal in the form quoted here and rejects it as "much too crude for drawing a categorical distinction", one facing "*prima facie* plausible exceptions" it cannot absorb. https://iep.utm.edu/deductive-inductive-arguments/
 4. Evans, J. St. B. T., Barston, J. L. & Pollard, P., "On the conflict between logic and belief in syllogistic reasoning", *Memory & Cognition* 11(3), 1983, 295 to 306. Plymouth Polytechnic. Three experiments; abstract: "Substantial belief biases were observed despite controls for possible conversions of the premises. Equally substantial effects of logic were observed despite controls for two possible response biases. A consistent interaction between belief and logic was also recorded; belief bias was more marked on invalid than on valid syllogisms." Protocols "interpreted in some cases as providing rationalizations for prejudiced decisions and, in other cases, as reflecting a genuine process of premise to conclusion reasoning." Experiment 2 (64 undergraduates, paid volunteers): "Overall, subjects were correct 87% of the time when logic accorded with belief and 48% of the time when it did not" (p. 300, read from the paper).
 5. Evans, J. St. B. T., "In two minds: dual-process accounts of reasoning", *Trends in Cognitive Sciences* 7(10), 2003, 454 to 459, Box 1. The four example syllogisms (police dogs; vitamin tablets; cigarettes; millionaires) as the four cells of the 1983 design; participants instructed to endorse only conclusions that necessarily follow; "intelligent adult populations (undergraduate students) are consistently influenced by the prior believability of the conclusion"; "more belief-bias on invalid arguments".
 6. Lambell, N. J., Evans, J. St. B. T. & Handley, S. J., "Belief bias, logical reasoning and presentation order on the syllogistic evaluation task", *Proceedings of the Cognitive Science Society* (read from the eScholarship PDF). Restates the 1983 results with the same materials: "71% of participants across three experiments erroneously endorsed" the invalid believable conclusion, and "only 10% of participants across three experiments erroneously endorse" the invalid unbelievable one. Describes the selective scrutiny model (believability of the conclusion scanned first) and the misinterpreted necessity model, and reports from the 1983 protocols that subjects who focused first on the conclusion were more susceptible to belief while those who focused on the premises reasoned better. Their own replication used materials "identical to those employed by Evans et al. (1983)".

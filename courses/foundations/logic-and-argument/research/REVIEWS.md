@@ -431,3 +431,120 @@ the authors' names and Plymouth Polytechnic affiliation; **the 87% / 48% figures
 attribution to Experiment 2** (verified from p. 300); the three other *forall x* quotations; the
 Copi and Klauer and Dube bibliographic details; that Hurley does correct the general-to-particular
 myth explicitly; all six practice answers; the four-cell table; zero em dashes.
+
+---
+
+## Lesson 2, "Valid and sound". Work order PARTLY APPLIED, 2026-09-06
+
+The work order recorded earlier in this file said "Fixes below are NOT yet applied". Two of the
+five blocking items are now applied. Recording that here rather than at session end, because the
+earlier entry sat unapplied for a whole session precisely because nobody wrote down where it stood.
+
+**L2-B1 DONE. The unread textbooks are gone.** Hurley and Copi were cited four times in the body,
+once in Go deeper with a description of contents, and as sources [2] and [3], for material
+SOURCES.md records as "confirmed against several course summaries of the book rather than the 14th
+edition itself" and "from memory of the 14th ed." Zero references to either remain. Replaced with
+three sources that were actually read this session, all free and openly licensed:
+
+- **Knachel, *Fundamental Methods of Logic*, section 1.4** (CC BY 4.0, LibreTexts), now source [2],
+  carrying the four-cell table's load. It states validity three ways in a row, ending "it is
+  impossible for its premises to be true and its conclusion false", which is a better statement of
+  the empty cell than the attribution it replaces, and soundness as valid "AND ... its premises are
+  in fact true".
+- **Van Cleave, *Introduction to Logic and Critical Thinking* 2e, sections 1.6 to 1.8** (CC BY 4.0,
+  LibreTexts), folded into source [2], for the deductive/inductive definitions by certainty versus
+  probability and for defeasibility.
+- **The *Internet Encyclopedia of Philosophy*, "Deductive and Inductive Arguments", section 9**, now
+  source [3], for the myth correction. This is a better source than the one it replaces: it states
+  the general-to-particular proposal in its strongest form and rejects it as "much too crude for
+  drawing a categorical distinction", which is an argument rather than an assertion of authority.
+
+Note for whoever does lessons 3 and 4: Van Cleave 1.8 defines the distinction by certainty versus
+probability but does **not** explicitly correct the general-to-particular myth, and neither does
+Knachel 1.4. The IEP entry is the one that does. Do not cite the two textbooks for that claim.
+
+**L2-B5 DONE.** The three standard-form displays are fenced, with a rule between the premises and
+the conclusion, matching lesson 1's pattern. The linter warning is gone.
+
+**Still open on this lesson**: L2-B2 (counterexample defined one way, taught a second, practised a
+third), L2-B3 (three of six quiz items keyed on material lifted from the body), L2-B4 (a 174-word
+answer key printed in plain body text under the instruction to answer first), and the two
+neutrality items L2-N1 and L2-N2 about Dube, Rotello and Heit.
+
+## Lesson 4, "All, no, some". Stage 4 round 1, 2026-09-06. NOT YET APPLIED
+
+First review of this lesson. One reviewer, all five passes in a fresh context. **Verdict: the
+prose, the quiz explanations and the interleaved practice are the strongest in the course; three
+things block publish.** Recording in full so this does not repeat lesson 2's fate.
+
+### Blocking
+
+1. **No diagram, in a lesson about diagrams.** The reader is asked to hold three overlapping
+   circles, seven regions, two shaded areas, and an X straddling a boundary line, in prose only.
+   Go deeper then sends them to Knachel for "drawn Venn diagrams, which this lesson could only
+   describe in words", so the lesson knows it failed 4.5. Three inline SVGs are specified in the
+   review: the four categorical forms as four small panels; the dogs/cats/mammals three-circle
+   diagram with the counterexample region called out; and the two applicant diagrams side by side
+   showing the X forced into a half versus straddling the line. Constraints from earlier reviews in
+   this course apply: font-size 15 or larger on every label, and never distinguish two things with
+   `--line-strong` and `--navy`, which resolve to the same colour in both themes.
+2. **No links at all in 6,985 words, and the body promises one that does not exist.** Line 266 says
+   "the link is in Go deeper"; Go deeper prints `forallx.openlogicproject.org` as dead text. Six
+   free sources are listed in the review with their verified URLs.
+3. **L2-B1 repeating.** Hurley chs. 4 to 5, Copi chs. 5 to 6 and Govier are cited for content
+   SOURCES.md records as never read, including a Go deeper paragraph describing the contents of an
+   unopened book. Knachel covers all of it, free and already read. Fix the same way lesson 2 was
+   fixed this session.
+
+### Facts wrong
+
+- **"Lagerlund, 2022" is an invented year.** The SEP entry *Medieval Theories of the Syllogism* was
+  first published 2004 and last revised 26 January 2026. The 2022 looks copied from the Smith
+  citation. Drop the year in text, put "rev. 2026" in the source entry.
+- **"errors fell from 75% to 39%" misdescribes Cheng et al. 1986.** Those are two of four separate
+  groups in Experiment 1 (rules and examples 39 ± 12; control 75 ± 12), measured once. Nothing
+  fell. Rewrite as a between-groups comparison.
+- **A truncated Groarke quotation changes what informal logic claims to be about**, cutting the
+  definition at "public discussion and debate" and dropping the clause that says the field is not
+  confined to it. SOURCES.md carries the same truncation and should be fixed too.
+- **Trudy Govier is not among the movement's originators in the cited source.** Groarke names
+  Johnson and Blair at Windsor and Kahane 1971. Move Govier to the following sentence.
+- Smaller: "abstract" where the paper says "arbitrary"; wide confidence intervals attached to the
+  wrong experiment; "the strategies that helped most" upgrading Abrami's "associated with larger
+  effects" into causation; "Fall 2025" reasserted for *forall x: Calgary* after lesson 3's review
+  had already dropped it as unconfirmable.
+
+### Neutrality
+
+**The contested question gets one side's evidence only.** The formal-first view is given two
+clauses, no advocate and no citation; the informal-logic side gets a full paragraph with named
+founders, a date, a quoted self-definition and three pieces of supporting evidence. The lesson is
+entitled to state its own line, and does so honestly, but 3.1 forbids resolving a contested
+question by presenting only one side's materials. Also, "symbolic logic is the only precise account
+of what 'follows from' means" is a caricature no logician would sign, and the camp's strongest
+argument (that logic is worth knowing on its own terms, and that a card-selection puzzle is a poor
+proxy for what a logic course teaches) is never stated.
+
+One example needs swapping: practice item 5 uses cyclists and red lights, which is a live public
+argument in the UK and is excluded by the course's own example rules. A same-shape replacement is
+in the review.
+
+### Voice and pedagogy
+
+Contractions, em dashes and banned vocabulary all pass comfortably. Two hidden answers are leaked
+by the prose directly above them (the trains checkpoint and the students checkpoint), which is the
+fourth lesson running with this defect. No free recall before the quiz. Objective 4 (choosing
+between lesson 3's conditional shapes and the Venn check) is taught in one clause and tested by no
+quiz item, while Q6 is the third pass at the same "only" translation the body and a checkpoint have
+already done; a ready-to-paste replacement item that tests objective 4 is in the review output.
+`minutes: 40` should be 60, the fourth lesson running to understate its own length.
+
+### What is working and must survive
+
+The lift-conversation opening and its callback; "shade first, then place the X" with its reason;
+the X-on-the-line explanation and its checkpoint, which is the clearest treatment of the hardest
+idea in the topic anywhere in this course; the interleaved practice that forces a tool choice;
+every `explain` field; the honest "I don't know of a decisive one"; the empty-classes callout,
+correctly declassified as convention rather than controversy; and the practice answers correctly
+hidden behind a checkpoint, which is the defect lesson 2 still has.
+
