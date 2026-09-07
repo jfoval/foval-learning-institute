@@ -191,7 +191,7 @@ The map is deliberately ambitious. Most courses are `planned`. The point of writ
 
 | Course | Level | Status | Path | Notes |
 |---|---|---|---|---|
-| Personal Finance Fundamentals | Foundation | published | T1 | Built. |
+| Personal Finance Fundamentals | Foundation | published | T1 | Built pre-standards; Stage 1 research done 2026-09-06 (research/SOURCES.md), Stage 4 reviews next. Stays live while improving. |
 | Investing | Core | planned | T8 | Asset classes, risk, evidence on active vs passive, building a portfolio. |
 | Taxes Explained | Core | planned | elective | How they work, how to be efficient, US-focused with notes for others. |
 | Real Estate | Core | planned | elective | Renting, buying, investing; the actual numbers. |
