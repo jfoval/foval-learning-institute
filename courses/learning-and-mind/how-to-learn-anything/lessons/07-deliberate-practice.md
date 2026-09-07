@@ -1,6 +1,7 @@
 ---
 title: "Getting good at a skill: deliberate practice and feedback"
 minutes: 35
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/learning-and-mind/how-to-learn-anything/07-deliberate-practice.mp3
 objectives:
   - Define deliberate practice and distinguish it from naive practice in a described routine
   - Design a practice session for a real skill with a specific sub-skill, a drill, a feedback source, and a length
