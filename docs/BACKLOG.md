@@ -12,227 +12,133 @@ Merge when `npm run validate` exits 0 and anything visual has been checked in bo
 and desktop width. `git pull --rebase origin main` first: content sessions push there too, and on
 2026-09-06 two of them did while a third was mid-merge.
 
-## 0b. THE MARCHING ORDER (set by John, 2026-09-06). Work this queue top to bottom.
+## 0b. THE MARCHING ORDER (reset by John, 2026-09-06, second revision). Work this queue top to bottom.
 
-John set the priority at the end of the podcast session: bring everything currently live up to
-the standard the new lessons set, finish the two in-flight courses, podcast all of it, and only
-then start the next course. A fresh session picks up **the topmost unfinished item** below, does
-one session-sized bite of it, updates this list, and pushes to `main`. Do not skip ahead and do
-not start new courses until this queue is empty. Constraints that shape the pace: a Stage 4
-review cycle is 600k to 900k tokens (one lesson per sitting), rate limits are shared, two
-parallel sessions is the ceiling. A platform session must not touch `courses/` or `curriculum/`
-(see below); items 2 to 5 are content work, item 1 is platform work, so they can run in parallel.
+**This replaces the earlier marching order.** John reset the priority mid-session after asking a
+question the old queue could not answer: *"why are you working on personal finance? Are all the
+live courses up to par and done? Weren't the logic and Christian studies courses close to being
+done already?"* The old queue had the four placeholder courses at item 3, ahead of the two drafted
+courses at items 4 and 5. That ordering was wrong, and here is the reason in one line:
 
-1. ~~**Build the podcast pipeline.**~~ **DONE 2026-09-06.** `scripts/podcast.mjs`
-   (plan/render/upload/stamp, dry-run by default, refuses to render an unchecked script or
-   spend over $2 without `--force`) plus `/make-podcast <lesson>` (writes the script, fresh-
-   context fact-check before money, then render/upload/stamp). Stage 6 added to
-   `docs/CONTENT_PIPELINE.md`. Details in the changelog.
-2. **How to Learn Anything up to the new standard.** The flagship, and what the homepage
-   photographs. (a) ~~Fix the six answer leaks and promote the lint~~ DONE 2026-09-06: all six
-   are `:::checkpoint` blocks now, and the leak lint fails the build on published courses.
-   (b) Media pass per standards 4.5 on all eight lessons:
-   real images with credits, charts from real data, YouTube where someone explains it better,
-   links in the body. One or two lessons per session. **Lesson 1 done 2026-09-06** (crossover
-   chart from the Roediger and Karpicke data, Bjork's own five-minute gocognitive video on the
-   two strengths, six body links to free PDFs of the cited papers, every URL verified live;
-   the gocognitive channel likely has clips for later lessons too). **Lesson 2 done the same
-   day** (two-stores bottleneck diagram, Baddeley's gocognitive interview on working versus
-   long-term memory, links to Miller 1956 full text, Cowan 2001, Willingham's AFT article,
-   and the open-access Sweller 2019). **Lesson 3 done** (result-versus-prediction stacked
-   bars from Karpicke & Blunt's Table 1, Bjork's "Power of Testing" clip, seven verified
-   links). **Lesson 4 done** (best-gap-by-horizon bar chart from Cepeda 2008, Bjork's
-   theory-of-disuse clip, links incl. both Cepeda PDFs from the author's site). **Lesson 5
-   done** (Rohrer & Taylor practice-versus-test grouped bars, Bjork's interleaving clip,
-   eight verified links incl. the 2015 classroom paper free on ERIC). **Lesson 6 done**
-   (fading-the-guidance diagram, nine links incl. open-access Bisra 2018 and Ollie Lovell's
-   Sweller interviews; no video embedded because no good short one exists, only hour-long
-   podcasts, which went into Go deeper instead). **Lesson 7 done** (Macnamara
-   variance-by-domain bar chart, links incl. the Ericsson 1993 PDF and both open-access
-   debate papers; Ericsson's last interview linked in Go deeper, not embedded, because it
-   runs 27 minutes and the only short clip is Amazon-branded). **Lesson 8 done, so the
-   media pass (2b) is COMPLETE on all eight lessons 2026-09-06** (Dewald correlations drawn
-   at actual size on the full −1..1 scale, Oakley's TEDx talk, ten verified links incl. the
-   Why We Sleep critique). Next for this course: (c), podcasts, one episode per session via
-   /make-podcast. **Episodes 1 and 2 are LIVE 2026-09-06** (commits `80a219a`, `112a5e9`):
-   scripts fact-checked fresh-context, rendered ~$0.30 each, on R2, stamped, episode 1's
-   player verified in both themes at both widths. **Episodes 3 to 8: scripts are WRITTEN,
-   fact-checked (each in a fresh-context subagent, all findings fixed), and stamped
-   `checked:`, sitting in `podcast/`. BLOCKED on money only: fal returned "User is locked.
-   Reason: Exhausted balance" mid-render on episode 3. John tops up at
-   fal.ai/dashboard/billing (the six renders cost $1.74 total), then per episode:
-   `node scripts/podcast.mjs render <lesson> --go`, `upload`, `stamp`, validate, build,
-   commit. No script work remains.**
-   (c) Podcast each lesson as it settles.
-3. **The four placeholder courses** (Python, Algebra, Personal Finance, Writing Clearly), which
-   are live and have never been through the pipeline. For each, in this order: run Stage 1
-   research to produce `research/SOURCES.md`, then Stage 4 reviews lesson by lesson against it
-   (the redraft decision comes out of the reviews; some lessons may survive, some need
-   rewriting), voice pass, media pass, podcasts. They stay live while improving. Start with
-   Personal Finance (most consequential if wrong), then Python, Algebra, Writing Clearly.
-   **Personal Finance: DONE through Stage 4 on all five lessons, 2026-09-06** (commits
-   `e537fb8` research, `de5f86a`..`58a70cd` lessons 1-5). Every lesson got the full cycle:
-   five fresh-context reviewers, unanimous rewrite verdicts, rewritten from SOURCES.md with
-   voice and media folded into the rewrites (four data charts, all computed or verified
-   against primary sources, checked in both themes), 237 findings total logged in
-   `research/REVIEWS.md`. Remaining for this course, in order: (a) **Stage 2 re-outline** to
-   decide the missing lessons SOURCES.md logs (insurance, taxes, scams as its own lesson,
-   housing/rent-vs-buy which course.yaml's outcomes promise, retirement-account machinery)
-   plus the course-end test that 4.4 requires at six-plus lessons; (b) podcasts per lesson
-   once the outline settles. Then Python next.
-4. **Bible Basics to published.** Lesson 3's review cycle finished (check `research/REVIEWS.md`
-   for how far it got), lessons 4 to 12 reviewed, lesson 1's eight open findings closed, the
-   neutrality audit where 3.4 domains are touched, assessments built (folder is empty), then
-   the one-time split/renumber pass (7b; seams are marked in-file), then `status: published` in
-   both course.yaml and TAXONOMY.md. Publishing this course is a homepage-honesty dependency.
-   Podcasts for all lessons after the renumber (lesson 2's episode regenerates then, ~$0.32).
-5. **Logic and Argument to published.** Lesson 2's recorded fixes applied first (they are a
-   work order in `research/REVIEWS.md`), lessons 3 to 10 reviewed, assessments built
-   (OUTLINE.md lines 140 to 143 specify them), publish, podcasts.
-6. **Queue empty: stop.** John starts the next Foval Core course in its own session
-   (`/new-course` etc.), with the podcast as a standard pipeline stage from then on.
+> **Bible Basics and Logic and Argument are 22 written lessons that no learner can see.** Personal
+> Finance was already live. Improving a live course ranks below publishing a finished one.
+
+So the queue is now:
+
+1. **Logic and Argument to `status: published`.** Ten lessons written, three reviewed. Nearest to
+   the finish and the least complicated (no standpoint rules, no renumber pass pending). Detailed
+   work order in section 1 below.
+2. **Bible Basics to `status: published`.** Twelve lessons written, three reviewed, plus the
+   neutrality audit, the assessments, and the one-time split/renumber pass (7b).
+3. **The three untouched placeholder courses** (Python Basics, Algebra Essentials, Clear Writing).
+   Live, never through the pipeline, and the honest weak point of the site. Same treatment
+   Personal Finance got: Stage 1 research, then Stage 4 lesson by lesson, then voice, media,
+   podcasts. Personal Finance came off this list on 2026-09-06.
+4. **Personal Finance lessons 7 to 10** and its assessments, per `research/OUTLINE.md`. Paused
+   mid-course on purpose; lesson 6 shipped, 7 to 10 are outlined and not drafted.
+5. **Podcasts** for whatever is published, one episode per session, as a standing background task.
+6. **Queue empty: stop.** John starts the next Foval Core course in its own session.
+
+Constraints that shape the pace: a Stage 4 cycle on one lesson runs 100k to 250k subagent tokens,
+two parallel sessions is the ceiling, and a platform session must not touch `courses/` or
+`curriculum/`.
+
+### The status table, which is the answer to "is everything up to par"
+
+Keep this current. It took a direct question from John to notice that no such table existed
+anywhere, and that is why the old queue survived as long as it did.
+
+| Course | Status | Lessons | Through Stage 4 | Assessments | Podcasts |
+|---|---|---|---|---|---|
+| How to Learn Anything | live | 8 | 8 | 2 | 4 of 8 live |
+| Personal Finance | live | 6 | 6 | 0 | none |
+| Python Basics | live | 6 | **0** | 0 | none |
+| Algebra Essentials | live | 5 | **0** | 0 | none |
+| Clear Writing | live | 4 | **0** | 0 | none |
+| Bible Basics | **drafting** | 12 | 3 | 0 | 1 (regenerates after renumber) |
+| Logic and Argument | **drafting** | 10 | 3 | 0 | none |
+
+### A process rule, because this session broke it
+
+`CLAUDE.md` says to keep `docs/BACKLOG.md` current. On 2026-09-06 a session shipped four commits
+without touching it, and John had to point that out. **Update the backlog in the same commit as
+the work, not at the end of the session.** A session that dies mid-task should leave the next one a
+true picture, and the reviews running in the background are part of that picture: if you launch
+subagents, write down what they are reviewing before you launch them.
 
 ## 1. Pipeline state right now
 
-*Rewritten 2026-09-06 at the end of the marching-order session. This is the handoff.*
+*Rewritten 2026-09-06, third session of the day, at the point John reset the priority. This is the
+handoff. If you are starting fresh, read section 0b first, then this.*
 
-### If you are starting fresh, read this paragraph first
+### In flight at the moment this was written
 
-*Updated 2026-09-06, end of the second marching-order session.* The working tree is clean and
-`main` is pushed. That session shipped: **How to Learn Anything episodes 1 and 2 live** on the
-lesson pages; **episode scripts 3 to 8 written, fresh-context fact-checked, and stamped**,
-blocked ONLY on the fal balance (John tops up at fal.ai/dashboard/billing, then the six renders
-cost $1.74; per episode: `node scripts/podcast.mjs render <lesson> --go`, `upload`, `stamp`,
-validate, build, commit); and **Personal Finance through Stage 1 and Stage 4 on all five
-lessons** (see 0b item 3 for what remains: the Stage 2 re-outline for the missing lessons and
-final test, then podcasts, then Python). The Stage 4 orchestrator pattern that worked five
-times in a row: one general-purpose agent per lesson that reads the standards, style guide,
-SOURCES.md and REVIEWS.md, launches five reviewers in a single blocking message, consolidates
-into REVIEWS.md, applies the rewrite itself, and runs validate; ~130k-180k subagent tokens per
-lesson, far under the older 600-900k estimate. The paragraph below describes the state one
-session earlier and is kept for context.
+**Logic and Argument is the active course.** Two Stage 4 reviews were running in background
+subagents when this was written, on **lesson 4 (`04-syllogisms.md`)** and **lesson 5
+(`05-inductive-strength.md`)**, each doing all five passes in one context and returning findings
+without editing. If this session ended before they landed, their findings are lost and those two
+lessons simply have not been reviewed; relaunch them. Nothing is half-edited on disk. Working tree
+clean, `main` pushed.
 
-Nothing is half-finished on disk; the working tree is clean and `main` is pushed. The last
-session worked the marching order (0b) top down and closed its first two items: **the podcast
-pipeline is built** (`scripts/podcast.mjs` + `/make-podcast`, dry-run tested against the live
-lesson 2 episode) and **How to Learn Anything is at the new standard**: the six answer leaks
-fixed (lint now fails published builds), and the media pass done on all eight lessons (five
-data charts, two diagrams, six videos, verified links throughout; every visual checked in both
-themes at phone and desktop width). So the topmost unfinished work is now, in order:
-**(1) podcast How to Learn Anything, one episode per session** — lesson 1's episode shipped
-2026-09-06, so `/make-podcast courses/learning-and-mind/how-to-learn-anything/lessons/02-how-memory-works.md`
-is the next command, ~$0.30 an episode from the fal credits; **(2) Personal Finance into the pipeline**
-(0b item 3); and, runnable in parallel by a second content session, **the reviews that were
-already queued**: Bible Basics lesson 3 (check `research/REVIEWS.md` for how far its cycle
-got) and Logic and Argument lesson 2, whose recorded fixes are still unapplied. Everything
-shipped on 2026-09-06 is in `docs/CHANGELOG.md`; sections 10 to 13 here are new course
-requests and notes, none started or urgent.
+### Logic and Argument: the work order to published
 
-**Tricks the media pass proved, worth reusing on the placeholder courses:** the gocognitive
-YouTube channel is short interviews with the researchers the lessons actually cite (Bjork,
-Baddeley, and more); verify every URL before it goes in (curl the PDFs, YouTube's oEmbed
-endpoint for videos; several candidates failed and were swapped); verify chart numbers
-against the paper itself when the lesson doesn't carry them; and place charts so they don't
-sit beside a `:::predict` whose hidden answer they would print.
+Do these in order. Items 1 and 2 are already written down in full and were never applied, which is
+the main reason this course is not live.
 
-**One thing changed that affects how you work:** adding a course to `curriculum/TAXONOMY.md` now
-requires a `Path` cell (a Core term or `elective`) and `npm run validate` fails without it. See
-rule 4b in `CLAUDE.md`.
+1. **Apply lesson 2's recorded work order.** `research/REVIEWS.md` under "Lesson 2, Valid and
+   sound" is an explicit work order that says at the top "Fixes below are NOT yet applied". Five
+   blocking items: L2-B1 the lesson cites Hurley and Copi as authorities when SOURCES.md records
+   neither as actually read (the fix is to re-source to Van Cleave, which is free, CC BY, already
+   in SOURCES.md, and covers the same syllabus in sections 1.6 to 1.8, or to read the chapters and
+   record them); L2-B2 "counterexample" is defined one way, taught a second and practised a third;
+   L2-B3 three of six quiz items key on material lifted from the body; L2-B4 a 174-word answer key
+   printed in plain body text under the instruction to answer before reading; L2-B5 three
+   standard-form displays render with the conclusion inside a premise. Plus two neutrality items,
+   L2-N1 and L2-N2, both about Dube, Rotello and Heit being described as a contrarian aside when
+   they are a live challenge to the lesson's load-bearing takeaway.
+2. **Close lesson 3's five open verification items.** The fact-checker's egress was blocked, so
+   five figures from Wason 1968 and two quotations were left "unverifiable from here, not wrong":
+   the 36/39/5/19 breakdown that sums to 99%, the n=36 UCL sample, the 104/44/80 breakdown, the
+   64% deontic figure, and the wording of Wason's "Nearly all subjects select P" quotation plus the
+   *forall x: Calgary* validity sentence and its chapter attribution. Someone with working access
+   to the PDFs has to confirm or correct each one. Also deferred there: the biconditional is
+   promised by objective 3 and never taught, and two of the four named valid forms appear in no
+   quiz item.
+3. **Review lessons 4 to 10** (seven lessons, none reviewed). Lessons 4 and 5 were in flight when
+   this was written.
+4. **Clear the 20 validation warnings on this course.** `npm run validate` lists them. They are
+   not cosmetic. The worst is **lesson 9's processed-meat chart, which is broken on the live
+   site**: it uses `--line-strong` and `--navy` to distinguish two things, and those tokens resolve
+   to the same colour in both themes, so it renders as one solid block under a caption describing
+   a grey bar that is not grey. Lesson 9 also has an answer printed in plain prose right after
+   asking the reader to answer first, marked in-file `[draft: fix before publishing]`. Lessons 8,
+   9 and 10 have SVG labels under font-size 15, hardcoded light and dark fills that vanish in one
+   theme, and several lessons have no links in the body at all, which 4.5 asks for.
+5. **Build the assessments.** `research/OUTLINE.md` lines 140 to 143 specify them. The folder does
+   not exist yet. The site already supports assessments of type `test` and `project`; How to
+   Learn Anything has two and is the working example to copy.
+6. **Publish**: `status: published` in both `course.yaml` and the course's row in
+   `curriculum/TAXONOMY.md`, then build and commit `site/data/courses.js`.
 
-### What a platform session owns, and what it must not touch
+### What shipped earlier today, for context
 
-Two content sessions ran in parallel on 2026-09-06, one on `courses/foundations/**` and one on
-`courses/christian-studies/**`. A platform session owns `site/`, `workers/`, `scripts/` and `docs/`
-and **must not edit anything under `courses/` or `curriculum/`**. If a content change is needed,
-note it here and leave it. Two are noted and still outstanding: the media pass on How to Learn
-Anything (section 7) and the clipped SVG labels (section 8e).
+Two other sessions were working the old queue in parallel. **How to Learn Anything podcast episodes
+3 and 4 went live** (commits `732df94`, `15d3830`), which means the fal balance was topped up and
+the six blocked renders are unblocking one by one; episodes 5 to 8 have scripts written,
+fact-checked and stamped, so each is `render --go`, `upload`, `stamp`, validate, build, commit.
+**Personal Finance got its Stage 2 re-outline and lesson 6** (see the changelog). That course is
+now paused at item 4 of the new queue with lessons 7 to 10 outlined and undrafted.
 
-### Live on the site
+### Two things worth reusing, learned on lesson 6
 
-Five courses, 28 lessons: How to Learn Anything (8), Python (6), Algebra (5), Personal Finance (5),
-Writing Clearly (4). The four besides How to Learn Anything predate the standards and have not been
-through the pipeline. The site is live and secure at https://www.fovallearninginstitute.org.
-
-### Bible Basics (`courses/christian-studies/bible-basics`, `standpoint: christian`)
-
-12 lessons drafted. **Lesson 1 reviewed and fixed. Lesson 2 reviewed and fixed. Lesson 3 was in its
-review cycle when the session ended; check `research/REVIEWS.md` for how far it got and re-run
-whatever is missing.** Lessons 4 to 12 not reviewed. Assessments folder empty.
-
-Course-wide work already done, so do not redo it: every lesson now quotes the **NET Bible** with the
-required notice (the ESV was unusable, see 8d below); `SOURCES.md` corrected in five places at
-source so the errors stop propagating; all SVG text and shape fills tokenised for the dark theme;
-all frontmatter parses.
-
-Still open on lesson 1 (recorded in REVIEWS.md, eight findings): Fee & Stuart and Longman & Dillard
-still uncited though SOURCES.md names the first as the origin of the lesson's central idea; no
-failure case for the shelf rule (Jonah is researched and unused); Hayes's own words on "Old
-Testament"; the Psalm 9/10 attribution; the two-block arrangement of the Letters; two missing
-misconceptions.
-
-### Logic and Argument (`courses/foundations/logic-and-argument`)
-
-10 lessons drafted, **status `drafting`, never been live**. Lesson 1 reviewed in an earlier session.
-**Lesson 2: all five reviews are recorded in `research/REVIEWS.md` as a work order and the fixes are
-NOT applied. Start there.** Lessons 3 to 10 not reviewed. Assessments folder empty; `OUTLINE.md`
-lines 140 to 143 fully specify both the 20-item final test and the project rubric.
-
-Already fixed course-wide: nine argument displays in lessons 4, 5 and 7 that rendered with the
-conclusion swallowed into the last premise (lesson 2's three remain, in its fix pass); SVG fills
-tokenised.
-
-### What a Stage 4 cycle costs
-
-Roughly 600k to 900k tokens per lesson across seven agents (five reviewers, an orchestrator, a fix
-pass), and it produces 30 to 45 findings. Budget one lesson per sitting. Rate limits are the real
-constraint and are shared across sessions; two parallel sessions is the ceiling before they starve
-each other.
-
-### How to run one (this works; earlier attempts stalled)
-
-One orchestrator agent per lesson that: reads the standards, the style guide, SOURCES.md and BOTH
-courses' REVIEWS.md; launches five reviewers **in a single message with `run_in_background: false`**
-so it blocks until they return (backgrounding them makes the orchestrator end its turn and lose the
-work); consolidates into REVIEWS.md with finding IDs; applies the fixes; appends "Resolutions
-applied" including what it chose not to fix and why.
-
-### Defects this drafter repeats, confirmed across three lessons in two courses
-
-1. **Research gathered at Stage 1 and never used.** The largest category every time. Named textbooks
-   uncited, verified passages unquoted, explicit SOURCES.md instructions dropped. Lesson 2 of Bible
-   Basics had eleven such items.
-2. **Citing sources that were never read.** Logic lesson 2 cites Hurley and Copi as authorities while
-   SOURCES.md records neither chapter was opened. The worst class, because it is an integrity
-   problem rather than an error.
-3. **Diagrams that contradict the lesson.** One taught the misconception its own quiz punished; one
-   put a ninth-century-BC object below fifth-century-BC events in a timeline; one was drawn on three
-   different scales while its caption claimed one.
-4. **Self-checks that print their own answer** in plain body text instead of hiding it behind
-   `:::predict` or `:::checkpoint`. Found in all three lessons reviewed.
-5. **Quiz items answerable by option shape alone**: the key being the only hedged option, the only
-   one that applies the method, or the longest. Bible Basics also never uses answer index 3; Logic
-   lesson 2 does, so check rather than assume.
-6. **Contested claims asserted as settled** in the direction that favours the course's position.
-7. **Voice tics**: "Here is" section openers, paragraphs ending on a compressed one-line moral,
-   pipeline vocabulary in learner-facing headings ("worked example", "the mechanism", "Do it now").
-8. **`minutes` understating real load** by a third to a half.
-
-### What the linter now catches, so reviewers need not
-
-`scripts/build.mjs` lints every lesson including drafts. Findings fail the build on a published
-course and warn with "[draft: fix before publishing]" on a draft. It checks: em dashes; ESV
-quotations; frontmatter that does not parse and quiz items that lost their question or options;
-SVG text and shape fills hardcoded dark; SVG labels under font-size 15; **SVG labels wider than
-their own viewBox, which the browser clips silently**; bodies with no links; and argument displays
-whose conclusion line would be folded into the previous premise.
-
-The viewBox rule is worth understanding before acting on it. Node cannot measure text, so
-`scripts/text-width.mjs` holds real Arial advance widths, checked against Chromium over all 252
-labels in the repo. The catch is that these SVGs ask for `system-ui`, which is a different typeface
-per platform: the true width ran between 0.97 and 1.13 times the Arial estimate, so **a label can
-fit on a Mac and be clipped on Android**. The rule therefore has two tiers. Over the box even in the
-narrow font is a finding (build failure on a published course). Over it only in the wide font is a
-warning, and that tier can over-report slightly; the fix is cheap either way, so give it the room.
+- **Check that SOURCES.md actually covers the lesson's domain before drafting it.** Lesson 6 was
+  drafted for a 3.4-sensitive domain (tax) with no tax research in the file, and the neutrality
+  audit traced the lesson's worst finding directly to that gap. Running Stage 1 on the gap first
+  costs far less than the rewrite it prevents.
+- **The one-agent-per-lesson pattern works and is cheaper than five separate agents.** One
+  subagent doing all five passes in its own fresh context ran about 100k tokens for a lesson and
+  found everything the five-agent version found on the same lesson, because the passes share the
+  reading. Use it for the remaining Logic and Bible Basics lessons.
 
 ## 2. Custom domain (DONE 2026-09-06)
 

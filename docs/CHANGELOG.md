@@ -6,6 +6,54 @@ the institute works. Items move here out of `BACKLOG.md` when they are done.
 Everything from the founding onwards is here. Entries before 2026-09-06 came from the old root
 `CHANGELOG.md`, which was merged into this file on 2026-09-06 so there is only one changelog.
 
+## 2026-09-06 (priority reset session)
+
+**Priority reset by John.** He asked why a session was improving Personal Finance when Logic and
+Argument and Bible Basics were nearly finished and still invisible. The marching order in
+`docs/BACKLOG.md` had the placeholder courses ahead of the two drafted ones; it was wrong, and it
+is rewritten. Publishing a finished course now outranks improving a live one. The backlog also
+gained the course status table that would have made the mistake obvious, and a rule to update the
+backlog in the same commit as the work rather than at session end, which this session had not been
+doing.
+
+**Personal Finance lesson 6, "What you actually keep" (taxes)**
+
+- New lesson, the first of the five that `research/OUTLINE.md` planned. Bracket slicing, marginal
+  versus effective rate, deductions versus credits, payroll tax, phase-outs and cliffs, withholding.
+- Every figure computed from the IRS 2025 brackets, the $15,750 standard deduction and the SSA
+  contribution and benefit base, with two charts drawn from those numbers and checked at 375px in
+  both themes. One of them draws the whole tax bill on the same scale as the salary, which is the
+  effective rate made visible as a length.
+- Five fresh-context reviewers found two arithmetic errors that mattered (a predict block claiming
+  a bracket crossing that does not happen, and two wrong answers in the practice key), three
+  mechanism gaps (itemising, refundable credits, the underpayment penalty), seven neutrality
+  findings, and a voice that was not yet the course's voice (12 contractions per 4,500 words
+  against lesson 4's 71 per 3,500). All applied. Full log in the course's `research/REVIEWS.md`.
+- **A process finding worth repeating:** the neutrality audit caught that this lesson had been
+  drafted for a 3.4-sensitive domain with no tax research in `SOURCES.md` at all, and traced the
+  lesson's worst finding straight to that gap. A "Taxes" section was added to `SOURCES.md` before
+  any fix was applied, covering the mechanics sources, the benefit-cliff literature, and four
+  contested questions with their positions.
+
+**Personal Finance: Stage 2 re-outline and an honest course.yaml**
+
+- `research/OUTLINE.md`: the five live lessons recorded and left unrenumbered, then lessons 6 to 10
+  planned in full to close the scope gaps `SOURCES.md` had logged (taxes, retirement-account
+  machinery, insurance, housing, scams). Taxes precedes accounts because the Roth choice is a bet
+  on a marginal rate; scams closes the course because it defends everything before it. Plus the
+  24-item course-end test blueprint and the one-page-plan project with its rubric, which standard
+  4.4 requires once a course passes six lessons.
+- `course.yaml` now describes the course a learner can actually take today. It had been promising a
+  renting-versus-buying outcome that no lesson delivered, so that came out until lesson 9 delivers
+  it, and `estimated_hours` went from 2.1 to 4.2 to 5.0 as lesson 6 landed.
+
+**Homepage: the One ask panel keeps its side padding on phones**
+
+- The `max-width: 860px` rule flattened every `.why-row` to `padding: 1.75rem 0`, and `.why-ask`
+  was caught by it. But `.why-ask` is a tinted panel with a 4px oxblood rule down its left edge,
+  not a plain row, so zeroing the horizontal padding put its text hard against that rule at phone
+  width. Reported by John with a screenshot. Fixed at 1.15rem, checked at 375px in both themes.
+
 ## 2026-09-06 (podcast pipeline session)
 
 **How to Learn Anything lesson 8: media pass (eighth of eight; item 2b complete)**
