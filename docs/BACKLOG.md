@@ -70,6 +70,16 @@ parallel sessions is the ceiling. A platform session must not touch `courses/` o
    (the redraft decision comes out of the reviews; some lessons may survive, some need
    rewriting), voice pass, media pass, podcasts. They stay live while improving. Start with
    Personal Finance (most consequential if wrong), then Python, Algebra, Writing Clearly.
+   **Personal Finance: DONE through Stage 4 on all five lessons, 2026-09-06** (commits
+   `e537fb8` research, `de5f86a`..`58a70cd` lessons 1-5). Every lesson got the full cycle:
+   five fresh-context reviewers, unanimous rewrite verdicts, rewritten from SOURCES.md with
+   voice and media folded into the rewrites (four data charts, all computed or verified
+   against primary sources, checked in both themes), 237 findings total logged in
+   `research/REVIEWS.md`. Remaining for this course, in order: (a) **Stage 2 re-outline** to
+   decide the missing lessons SOURCES.md logs (insurance, taxes, scams as its own lesson,
+   housing/rent-vs-buy which course.yaml's outcomes promise, retirement-account machinery)
+   plus the course-end test that 4.4 requires at six-plus lessons; (b) podcasts per lesson
+   once the outline settles. Then Python next.
 4. **Bible Basics to published.** Lesson 3's review cycle finished (check `research/REVIEWS.md`
    for how far it got), lessons 4 to 12 reviewed, lesson 1's eight open findings closed, the
    neutrality audit where 3.4 domains are touched, assessments built (folder is empty), then
@@ -87,6 +97,20 @@ parallel sessions is the ceiling. A platform session must not touch `courses/` o
 *Rewritten 2026-09-06 at the end of the marching-order session. This is the handoff.*
 
 ### If you are starting fresh, read this paragraph first
+
+*Updated 2026-09-06, end of the second marching-order session.* The working tree is clean and
+`main` is pushed. That session shipped: **How to Learn Anything episodes 1 and 2 live** on the
+lesson pages; **episode scripts 3 to 8 written, fresh-context fact-checked, and stamped**,
+blocked ONLY on the fal balance (John tops up at fal.ai/dashboard/billing, then the six renders
+cost $1.74; per episode: `node scripts/podcast.mjs render <lesson> --go`, `upload`, `stamp`,
+validate, build, commit); and **Personal Finance through Stage 1 and Stage 4 on all five
+lessons** (see 0b item 3 for what remains: the Stage 2 re-outline for the missing lessons and
+final test, then podcasts, then Python). The Stage 4 orchestrator pattern that worked five
+times in a row: one general-purpose agent per lesson that reads the standards, style guide,
+SOURCES.md and REVIEWS.md, launches five reviewers in a single blocking message, consolidates
+into REVIEWS.md, applies the rewrite itself, and runs validate; ~130k-180k subagent tokens per
+lesson, far under the older 600-900k estimate. The paragraph below describes the state one
+session earlier and is kept for context.
 
 Nothing is half-finished on disk; the working tree is clean and `main` is pushed. The last
 session worked the marching order (0b) top down and closed its first two items: **the podcast
