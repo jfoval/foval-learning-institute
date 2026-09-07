@@ -937,3 +937,57 @@ lesson 5 would then be the primary teacher, not the repeat.
 `npm run validate` after all edits: exit 0, lesson 5 produces zero warnings (previously the
 unread-source and no-links warnings, plus two SVG warnings during this session's passes, all
 cleared). Em dashes in the lesson: zero. Banned vocabulary: none found.
+
+## Lesson 3 verification items closed, 2026-09-06
+
+The five items left "unverifiable from here" in the Stage 4 round 1 entry were checked against
+the actual primary sources: the published PDF of Wason (1968), *QJEP* 20(3), 273-281 (retrieved
+via web.mit.edu/curhan/www/docs/Articles/biases/); the CogSci 2017 proceedings PDF of Ragni,
+Kola & Johnson-Laird (retrieved via escholarship.org/uc/item/3rv0k45d); and the live HTML of
+*forall x: Calgary* chapter 2 (forallx.openlogicproject.org/html/Ch2.html).
+
+1. **36/39/5/19 summing to 99. CONFIRMED**, Ragni et al. Table 2, abstract row: p 36, pq 39,
+   pqq-bar 5, pq-bar 19, exactly as the lesson has them. The reviewer's worry about the missing
+   ~1% dissolves on reading the table: these are the shares of the four *canonical* selections
+   (the everyday and deontic rows sum to exactly 100; the abstract row's 99 is rounding), not of
+   all response patterns. The chart's footer, which said "Each outlined bar is 100% of subjects",
+   was the one thing wrong; it now reads "Bars are shares of the four canonical picks."
+2. **n = 36, first-year psychology and statistics students, UCL. CONFIRMED verbatim**, Wason 1968
+   p. 275: "Subjects. Thirty-six first year psychology and statistics students of University
+   College London." Sources note [2] now quotes the line with its page number.
+3. **104/44/80. CONFIRMED**, Ragni et al. Table 1 (abstract 104, everyday 44, deontic 80, total
+   228). **64% deontic. CONFIRMED**, Table 2, deontic row, pq-bar column. But the lesson cited
+   all of these figures, plus both uses of 19%-vs-64%, to footnote [2] (Wason 1968) instead of
+   [3] (the meta-analysis): four citation-index errors, all corrected to [3]. A fifth had
+   Hurley's "unless" rule cited to [3] instead of [5]; also corrected.
+4. **Wason quotation. CORRECTED.** The head was exact ("subjects", not "the subjects"), but the
+   lesson stopped the sentence early with no ellipsis. Full sentence, p. 273: "Nearly all
+   subjects select P, from 60 to 75 per cent. select Q, only a minority select Q-bar and hardly
+   any select P-bar." The lesson and Sources note [2] now carry the whole sentence, with the
+   overbar symbols rendered as not-Q and not-P and the rendering declared in the note. The
+   *forall x: Calgary* validity sentence is **CONFIRMED verbatim** against the live HTML, but
+   both definitions (validity and counterexample) sit in chapter 2, "The scope of logic";
+   chapter 1 is "Arguments". Sources note [8] no longer says "chapter 2 on counterexamples".
+5. **Edition date**: the round 1 fix (omit it) stands; the site advertises a Fall 2023 print
+   edition and an undated development version, so no date is assertable.
+
+Also verified in passing: the vowel/even rule wording (Wason 1968 p. 273, exact) and the
+Griggs and Cox drinking rule, which the lesson truncated; it now reads "must be over 19 years
+of age" per the wording quoted in Ragni et al.
+
+Two deferred items closed in the same pass:
+
+- **Biconditional taught.** A short passage in the contrapositive/converse section now names
+  "P if and only if Q", ties it to the necessary-and-sufficient vocabulary from earlier, and
+  reframes affirming the consequent as a conditional silently upgraded to a biconditional,
+  which is the lesson's own diagnosis. Objective 3 is now delivered.
+- **Quiz covers all four named valid forms.** Q1 (affirming the consequent, gardener) swapped
+  for a disjunctive syllogism item whose distractors carry the exclusive-"or" caution; Q4
+  (denying the antecedent, courier) swapped for a hypothetical syllogism item. Both invalid
+  forms remain tested through Q3's card choices and the distractors of Q5 and Q6, and both
+  removed items' content survives in the practice set. Keys are now 1,0,3,2,0,3. A stale
+  reference to the gardener item's black leaves in "What people get wrong" was replaced with
+  examples still in the lesson.
+
+Still open from the deferred list: no practice item on the selection task itself, and
+`minutes: 50` on a 5,800-word lesson (65 is closer).
