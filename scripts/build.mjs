@@ -55,12 +55,22 @@ function parseFrontmatter(src, file) {
 function req(obj, keys, where) {
   for (const k of keys) if (obj[k] === undefined || obj[k] === "" || (Array.isArray(obj[k]) && !obj[k].length)) errors.push(`${where}: missing "${k}"`);
 }
+// Quiz shape: a question, at least two options, and an in-range answer index.
+// Types are checked separately by checkQuizTypes, which the lint pass runs over
+// every lesson, draft or published.
+function checkQuizShape(quiz, file, label) {
+  quiz.forEach((q, i) => {
+    const at = `${file}: ${label} #${i + 1}`;
+    if (!q || !q.q || !Array.isArray(q.options) || q.options.length < 2) errors.push(`${at} needs a question and 2+ options`);
+    else if (!Number.isInteger(q.answer) || q.answer < 0 || q.answer >= q.options.length) errors.push(`${at} answer index out of range`);
+  });
+}
 // A YAML plain scalar cannot contain ": ", so an unquoted option like
 //   - Orthodoxy: the church received it
 // parses as a mapping rather than a string. The frontmatter still parses, so the
-// shape check passes, and the site renders options through String(), which turns
-// an object into the literal text "[object Object]". One published lesson shipped
-// that way. Check the types, not just the shape.
+// shape check above passes, and the site renders options through String(), which
+// turns an object into the literal text "[object Object]". One published lesson
+// shipped that way. Check the types, not just the shape.
 function checkQuizTypes(quiz, file, label, report) {
   const kind = v => (Array.isArray(v) ? "a list" : v === null ? "empty" : typeof v);
   const hint = "check for an unquoted value containing a colon";
@@ -100,10 +110,7 @@ for (const school of fs.readdirSync(COURSES_DIR, { withFileTypes: true }).filter
       req(lm, ["title", "minutes"], file);
       const quiz = Array.isArray(lm.quiz) ? lm.quiz : [];
       if (!quiz.length) warn.push(`${file}: no quiz (lesson will use "mark complete")`);
-      quiz.forEach((q, i) => {
-        if (!q.q || !Array.isArray(q.options) || q.options.length < 2) errors.push(`${file}: quiz #${i + 1} needs a question and 2+ options`);
-        else if (!Number.isInteger(q.answer) || q.answer < 0 || q.answer >= q.options.length) errors.push(`${file}: quiz #${i + 1} answer index out of range`);
-      });
+      checkQuizShape(quiz, file, "quiz");
       const words = body.split(/\s+/).filter(Boolean).length;
       if (words < 250) warn.push(`${file}: only ${words} words; depth standard expects substantially more`);
       return { id: f.replace(/\.md$/, ""), title: lm.title, minutes: lm.minutes, video: lm.video, audio: lm.audio, objectives: Array.isArray(lm.objectives) ? lm.objectives : [], quiz, content: marked.parse(renderBlocks(body)) };
@@ -116,10 +123,7 @@ for (const school of fs.readdirSync(COURSES_DIR, { withFileTypes: true }).filter
       const { meta: am, body } = parseFrontmatter(fs.readFileSync(path.join(aDir, f), "utf8"), file);
       req(am, ["title"], file);
       const quiz = Array.isArray(am.quiz) ? am.quiz : [];
-      quiz.forEach((q, i) => {
-        if (!q.q || !Array.isArray(q.options) || q.options.length < 2) errors.push(`${file}: item #${i + 1} needs a question and 2+ options`);
-        else if (!Number.isInteger(q.answer) || q.answer < 0 || q.answer >= q.options.length) errors.push(`${file}: item #${i + 1} answer index out of range`);
-      });
+      checkQuizShape(quiz, file, "item");
       checkQuizTypes(quiz, file, "item", m => errors.push(m));
       const type = am.type || (quiz.length ? "test" : "project");
       return { id: f.replace(/\.md$/, ""), title: am.title, type, minutes: am.minutes || 0, pass_mark: am.pass_mark || 0.8, quiz, content: marked.parse(renderBlocks(body)) };

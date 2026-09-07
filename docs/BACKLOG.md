@@ -135,6 +135,67 @@ the main reason this course is not live.
 
 ### What shipped earlier today, for context
 
+### Bible Basics: the work order to published
+
+*Section rewritten 2026-09-06 at the end of the takeover session, on branch
+`claude/bible-basics-takeover-brdgvj`. Everything below is pushed.*
+
+12 lessons drafted. **Lessons 1 to 8 are reviewed and fixed.** Lessons 1, 2 and 3 were done in an
+earlier session; **4, 5, 6, 7 and 8 were done in the takeover session, one full five-reviewer cycle
+each.** Lessons 9 to 12 are not reviewed. Assessments folder is still empty.
+
+**Start a new session at lesson 9.** Then 10, 11, 12, then the lesson 1 second pass, then the
+assessments. Read `research/REVIEWS.md` from the bottom up: each lesson has a findings entry, a
+"Resolutions applied" block, a "Deliberately not fixed" block, and the running "Requests for the
+shared files" list.
+
+**Course-wide work already done, so do not redo it:** every lesson quotes the **NET Bible** with the
+required notice (the ESV was unusable, see 8d); `SOURCES.md` corrected at source in roughly twenty
+places across five Stage 4 blocks so the errors stop propagating; all SVG fills tokenised; all
+frontmatter parses.
+
+**Still open on lesson 1** (recorded in REVIEWS.md, eight findings): Fee & Stuart and Longman &
+Dillard uncited though SOURCES.md names the first as the origin of the lesson's central idea; no
+failure case for the shelf rule (Jonah researched and unused); Hayes's own words on "Old Testament";
+the Psalm 9/10 attribution; the two-block arrangement of the Letters; two missing misconceptions.
+Plus **eight en dashes**, which the linter cannot see.
+
+#### What the five cycles established, which a new session should not rediscover
+
+- **The reviewer brief matters more than the prompts.** A shared brief covering the standards, the
+  scripture rules, the blocked hosts and the eight repeating defects is what makes five parallel
+  reviewers useful. The last version is in the session scratchpad; **rebuild it from this section and
+  from the most recent "Resolutions applied" block if it is gone.**
+- **Roughly two thirds of every lesson's blocking findings are defects already fixed in an earlier
+  lesson of the same course.** Lesson 7 had thirteen of nineteen; lesson 8 had fourteen of twenty-one,
+  one of them fixed originally in lesson 1. Reviewers should be told this explicitly and pointed at
+  the previous "Resolutions applied" blocks, because those repeats are the highest-value catches.
+- **`minutes` has been understated by half to two thirds in every single lesson.** 50 to 130, 60 to
+  130, 50 to 105. Measure it component by component, including assigned Bible reading and video.
+- **The quiz block reads stiffer than the body** in six consecutive lessons. Measure contraction
+  density in both halves separately; the house band is about 1 in 42 to 1 in 52.
+- **Reviewers disagree, and the disagreements are informative.** Record both readings and say which
+  you took. At lesson 8, one reviewer reported the scripture clean and another reported nine version
+  survivals; both were right, because one checked the tagged quotations and the other checked every
+  quoted fragment. Missing `(NET)` tags are what hides that class of error.
+
+#### Environment constraint that shapes every cycle
+
+**Every scripture, patristic and reference host is 403 at the proxy**: labs.bible.org, netbible.org,
+biblegateway, sefaria, newadvent, ccel, tertullian, bible-researcher, papalencyclicals, wikisource,
+commons.wikimedia, youtube, oyc.yale.edu, archive.org, en.wikipedia. **So the `curl` recipe in
+standards 4.7 does not work, and four lessons in a row shipped a source note claiming a fetch that
+could not have happened.** What does work: `raw.githubusercontent.com` mirrors for the NET, JPS 1917
+and Brenton (URLs and the NET1/NET2 diagnostic are in `SOURCES.md`), plus web search for everything
+else, flagged as second-hand. Everything unreachable is listed per lesson under "Unverified in this
+environment" and is real fact-check debt.
+
+**If a session has browser or local-machine access, that debt is the highest-value thing to clear.**
+The largest items: F. F. Bruce, Kruger, McDonald and Ware are cited across the canon lessons and
+**none has ever been opened**; Fee & Stuart underpins the method in lessons 3 to 7 and is unverified;
+the Muratorian and Trent primary texts; and the Council of Florence decree, which lesson 8's Catholic
+case now turns on.
+
 Two other sessions were working the old queue in parallel. **How to Learn Anything is now fully
 podcasted: all eight episodes live** (episodes 3 to 8 in commits `732df94` through `c336470`).
 The fal balance was never topped up and never needed to be: the "Exhausted balance" lock was
@@ -154,6 +215,90 @@ now paused at item 4 of the new queue with lessons 7 to 10 outlined and undrafte
   subagent doing all five passes in its own fresh context ran about 100k tokens for a lesson and
   found everything the five-agent version found on the same lesson, because the passes share the
   reading. Use it for the remaining Logic and Bible Basics lessons.
+
+Already fixed course-wide: nine argument displays in lessons 4, 5 and 7 that rendered with the
+conclusion swallowed into the last premise (lesson 2's three remain, in its fix pass); SVG fills
+tokenised.
+
+### What a Stage 4 cycle costs
+
+Roughly 600k to 900k tokens per lesson across seven agents (five reviewers, an orchestrator, a fix
+pass), and it produces 30 to 45 findings. Budget one lesson per sitting. Rate limits are the real
+constraint and are shared across sessions; two parallel sessions is the ceiling before they starve
+each other.
+
+### How to run one (this works; earlier attempts stalled)
+
+One orchestrator agent per lesson that: reads the standards, the style guide, SOURCES.md and BOTH
+courses' REVIEWS.md; launches five reviewers **in a single message with `run_in_background: false`**
+so it blocks until they return (backgrounding them makes the orchestrator end its turn and lose the
+work); consolidates into REVIEWS.md with finding IDs; applies the fixes; appends "Resolutions
+applied" including what it chose not to fix and why.
+
+### Defects this drafter repeats, confirmed across nine lessons in two courses
+
+1. **Research gathered at Stage 1 and never used.** The largest category every time. Named textbooks
+   uncited, verified passages unquoted, explicit SOURCES.md instructions dropped. Lesson 2 of Bible
+   Basics had eleven such items.
+2. **Citing sources that were never read.** Logic lesson 2 cites Hurley and Copi as authorities while
+   SOURCES.md records neither chapter was opened. The worst class, because it is an integrity
+   problem rather than an error.
+3. **Diagrams that contradict the lesson.** One taught the misconception its own quiz punished; one
+   put a ninth-century-BC object below fifth-century-BC events in a timeline; one was drawn on three
+   different scales while its caption claimed one.
+4. **Self-checks that print their own answer** in plain body text instead of hiding it behind
+   `:::predict` or `:::checkpoint`. **Found in eight consecutive Bible Basics lessons**, usually
+   signalled by "Now do it yourself" or "Here's mine". Lesson 12 still has one, unreviewed. The
+   compounding form is a block whose *stem* states the thing it then asks for.
+5. **Quiz items answerable by option shape alone**: the key being the only hedged option, the only
+   one without an absolute, the only one that applies the method, or the longest. Measure it, do not
+   eyeball it: at lesson 8 the key was the longest option in five of six items, so "pick the longest"
+   scored 83% against a 70% pass mark, and at lesson 7 the key was the only unhedged option in four of
+   six. **The old note that Bible Basics never uses answer index 3 is now wrong**, since lessons 6, 7
+   and 8 all use it; check the spread rather than assuming either way. Target after a fix pass: option
+   lengths within about 15 characters, all four indices used, no adjacent repeat, and at least two
+   options per item carrying no absolute.
+6. **Contested claims asserted as settled** in the direction that favours the course's position.
+7. **Voice tics**: "Here is" section openers, paragraphs ending on a compressed one-line moral,
+   pipeline vocabulary in learner-facing headings ("worked example", "the mechanism", "Do it now").
+8. **`minutes` understating real load** by a third to two thirds. Measured every time so far.
+
+### What the linter now catches, so reviewers need not
+
+`scripts/build.mjs` lints every lesson including drafts. Findings fail the build on a published
+course and warn with "[draft: fix before publishing]" on a draft. It checks: em dashes; ESV
+quotations; frontmatter that does not parse and quiz items that lost their question or options;
+**quiz questions, options and explanations that did not parse as text** (added 2026-09-06, see
+below); SVG text and shape fills hardcoded dark; SVG labels under font-size 15; bodies with no
+links; and argument displays whose conclusion line would be folded into the previous premise.
+
+### What the linter still cannot catch, so reviewers must
+
+Recorded across five Stage 4 cycles. **Do not trust `npm run validate` on any of these.**
+
+- **Five distinct routes past the SVG checks**, because they match `fill=` and `font-size=` only as
+  attributes on `<text>`: a themed `fill="#ffffff"` (lesson 3); a `fill` on a `<g>` wrapper (4 and 5);
+  an inline `<style>` block (6); a `style` attribute on the `<svg>` root (7); and a `font-size`
+  attribute on a `<g>` wrapper (8), where it reported 15 of 43 undersized labels. **Read every SVG by
+  eye.** The working pattern is bible-basics lesson 8: no `<g>`, every size an attribute, `xmlns`,
+  `var(--token, #literal)` fills, a `<desc>`, and every row named in text so nothing depends on colour.
+- **En dashes.** Line 139 checks U+2014 only. Lesson 6 shipped forty and lesson 8 nine, past a clean
+  validate. Grep for U+2013 as well; the course convention is " to ".
+- **`minutes`.** Never sanity-checked, and understated in every lesson so far.
+- **Block bodies that collapse.** `:::predict`, `:::checkpoint`, `:::callout` and `:::exercise` bodies
+  are parsed with `breaks: false`, so **single newlines inside a block render as one run-on
+  paragraph**; six blocks across lessons 4, 7 and 8 were shipping as 160 to 290-word walls. Blank
+  lines are required. A body opening `367. It's a letter` becomes `<ol start="367">`. Note
+  `:::figure` and `:::video` are the opposite case: they use `parseInline` and must stay one
+  paragraph. Poetry has the same root cause and needs two trailing spaces per line (see lesson 5).
+
+**Fixed in the linter 2026-09-06, so it no longer needs watching:** a quiz option written as an
+unquoted YAML value containing a colon parsed as a mapping, the frontmatter still parsed, and the
+site rendered it through `String()`, so the learner saw the literal text `[object Object]`. **A
+published lesson had shipped that way** (How to Learn Anything, lesson 3, question 3); it is fixed
+and `site/data/courses.js` rebuilt. A sweep of all 50 lessons with quizzes found only that one and a
+Bible Basics draft. `checkQuizTypes` now catches the class, and `explain` is checked only when
+present, because the four pre-standards courses omit it.
 
 ## 2. Custom domain (DONE 2026-09-06)
 
@@ -682,6 +827,10 @@ lesson already rested it. The argument is unaffected; the texture of the passage
   **sixteen of twenty-five** in lesson 11, which was showing one translation out of ten. The linter
   now fails the build on a blank line inside an `<svg>`. If you write a chart, do not put blank
   lines between its groups.
+- **Bible Basics lessons 9 to 12 still carry the known SVG size problems** the linter reports (9, 11
+  and 12), and lesson 12 additionally has `## Worked example 1` and a "Here's mine." that prints its
+  own answer, spotted while reviewing lesson 7. Those will be handled in their own Stage 4 cycles;
+  they are listed here so nobody treats them as new.
 - **The four placeholder courses** (Python, Algebra, Personal Finance, Writing Clearly) are live and
   have never been through the pipeline. They are the largest untouched quality risk on the site,
   because they are the ones learners can actually read today.

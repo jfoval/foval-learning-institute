@@ -199,12 +199,16 @@ Added at the Stage 4 fix pass, 2026-09-06 (each fetched and read, not recalled):
 - **Ehrman's dates in his own words**, "Why Date the Gospels after 70 CE?", *The Bart Ehrman Blog* (ehrmanblog.org): "Critical scholars are widely agreed that the earliest Gospel was Mark, written around 70 c.e.; that Matthew and Luke were written some years later, say, around 80–85 c.e.; and that John was the last Gospel, written around 90–95 c.e." Mark 13 as the lever. Confirms the ranges given under Contested question 3.
 - **Papias in Eusebius 3.39, NPNF wording** (CCEL): "Mark, having become the interpreter of Peter, wrote down accurately, though not in order, whatsoever he remembered of the things said or done by Christ." "Matthew wrote the oracles in the Hebrew language, and every one interpreted them as he was able." Slightly different from the wording recorded above ("composed", "Hebrew dialect", "the Lord"), which is another translation; the lesson quotes the NPNF text as fetched.
 - **Irenaeus, *Against Heresies* 3.1.1, ANF wording** (New Advent), verified: Matthew "issued a written Gospel among the Hebrews in their own dialect"; "Mark, the disciple and interpreter of Peter"; "Luke also, the companion of Paul"; "John, the disciple of the Lord... during his residence at Ephesus in Asia".
-- **Augustine, *Quaestiones Evangeliorum* 2.19** on the good Samaritan (traveller as Adam; Jerusalem the heavenly city; Jericho mortality; robbers the devil and his angels; priest and Levite the Old Testament priesthood and ministry; Samaritan as Christ, "guardian"; inn as the church): as quoted by C. H. Dodd, *The Parables of the Kingdom* (1935), and reproduced in "Revisiting the Parable of the Good Samaritan", *Studies in Christian-Jewish Relations* 16 (2021). Latin original not consulted.
+- **Augustine, *Quaestiones Evangeliorum* 2.19** on the good Samaritan (traveller as Adam; Jerusalem the heavenly city; Jericho mortality; robbers the devil and his angels; priest and Levite the Old Testament priesthood and ministry; Samaritan as Christ, "guardian"; inn as the church): as quoted by C. H. Dodd, *The Parables of the Kingdom* (1935), and reproduced in "Revisiting the Parable of the Good Samaritan", *Studies in Christian-Jewish Relations* 16 (2021). Latin original not consulted. **Corrected at lesson 6's Stage 4: one-point parable reading does not begin with Dodd.** It begins with **Adolf Jülicher, *Die Gleichnisreden Jesu* (1888 to 1899)**; Dodd builds on Jülicher and adds realised eschatology. Neither book was opened here, so do not characterise either beyond that. Note also that the strict one-point rule is itself now a minority position: **Craig Blomberg, *Interpreting the Parables* (1990)**, argues most parables carry one point per main character, and **Klyne Snodgrass, *Stories with Intent* (2008)**, likewise rejects Jülicher's strictness. A lesson teaching the one-point rule must say the rule is argued (both positions rest on web search here, not on a fetched source).
 - **Open Yale RLST 152 lecture numbers** (oyc.yale.edu): 5 "The New Testament as History"; 6 "The Gospel of Mark"; 8 "The Gospel of Thomas"; 9 "The Gospel of Luke"; 10 "The Acts of the Apostles".
 - **BibleProject, "The Gospel"**: YouTube ID xrzq_X1NNaA, verified via YouTube oEmbed (title "The Gospel", author "BibleProject"). **"The Parables of Jesus"** (5:42) verified at bibleproject.com/videos/how-to-read-the-bible-the-parables-of-jesus/; its YouTube ID could not be confirmed, so the lesson links the BibleProject page rather than embedding.
 - **Rembrandt, *The Return of the Prodigal Son***, c. 1668, Hermitage (accession 742), public domain; file at upload.wikimedia.org/wikipedia/commons/9/93/Rembrandt_Harmensz_van_Rijn_-_Return_of_the_Prodigal_Son_-_Google_Art_Project.jpg.
-- **ESV text** for Luke 15:1–2, 15:28–32; John 21:25; Mark 1:15, 13:2, 12:12; 2 Samuel 12:7; Luke 10:29, 36–37; Luke 18:1–8; Acts 1:26, 2:44–45, 4:32–35, 5:4, 6:1–7: read at BibleGateway. These are the right passages; **re-fetch the wording in the NET** before quoting (Editorial Standards 4.7). No verse count is kept any more.
+- **ESV text** for Luke 15:1-2, 15:28-32; John 21:25; Mark 1:15, 13:2, 12:12; 2 Samuel 12:7; Luke 10:29, 36-37; Luke 18:1-8; Acts 1:26, 2:44-45, 4:32-35, 5:4, 6:1-7: read at BibleGateway. These are the right passages; **re-fetch the wording in the NET** before quoting (Editorial Standards 4.7). No verse count is kept any more.
+  **Resolved at lesson 6's Stage 4.** Every body quotation in the shipped lesson is verbatim NET2, verified independently against both mirrors; do not "re-fix" it. Four wordings that had survived from the ESV, now corrected in the lesson and recorded here so no later lesson reintroduces them:
+  **Mark 12:12** NET is "because they **realized** that he told this parable against them", not "perceived" (ESV and KJV). **Luke 18:2** NET is a judge "who neither **feared** God nor **respected people**", not "fears neither God nor man". **Acts 6:3** NET is "seven men who are **well-attested**", not "of good repute, full of the Spirit and wisdom"; **Acts 6:2** is "**wait on** tables", not "serve tables". **Acts 4:34** NET has a comma: "among them, because". Also verified verbatim NET2 and safe to quote: Luke 15:1-2, 15:28-32; John 21:25; Mark 1:15, 13:2; 2 Samuel 12:7; Luke 10:29, 36-37; Acts 1:26, 2:44-45, 4:32, 4:34-35, 5:4.
+  **The lesson 6 draft's own source note claimed these were "read via the bible.org API", which did not happen** (that host is 403 here; see the lesson 4 Stage 4 block for what does work). Draft-time source notes must say where a text actually came from.
 - **Fee & Stuart ch. 6 principle on Acts** (what is only narrated or described does not function normatively unless Scripture elsewhere commands it or the author can be shown to intend it as a pattern): paraphrased in the lesson, not quoted, since the exact wording was not recorded here at Stage 1; the fact-check may restore the quotation from the book.
+- **Richard Burridge, *What Are the Gospels? A Comparison with Graeco-Roman Biography* (Cambridge, 1992; 2nd ed. 2004): NOT RESEARCHED at Stage 1 and NOT OPENED.** Recorded here at lesson 6's Stage 4 because the draft made Burridge the authority for its central genre claim (the Gospels are ancient biographies with a theological aim) and called the position "now the standard view", with no entry in this file at all. The reception claim is real but is second-hand here: it rests on web search, on the book's 2nd-edition reception and on Graham Stanton's endorsement, not on a fetched source. **Anyone quoting Burridge must open the book first.** The lesson now states the claim with its supporters and its critics named rather than as settled.
 
 ## Added at draft time (lesson 8)
 
@@ -216,7 +220,7 @@ Added at the Stage 4 fix pass, 2026-09-06 (each fetched and read, not recalled):
 - **Synod of Jerusalem (1672), Confession of Dositheus, Question 3** — ccel.org (Schaff, *Creeds of Christendom*): Wisdom, Judith, Tobit, Bel and the Dragon, Susanna, Maccabees, Sirach called "genuine parts of Scripture".
 - **Dan Brown, *The Da Vinci Code* (2003), ch. 55** — the Teabing line that the Bible "was collated by the pagan Roman Emperor Constantine the Great"; confirmed via secondary summaries of the chapter. Cited only as the source of the popular story.
 - **Videos verified via YouTube oEmbed:** "2. From Stories to Canon" (YaleCourses, u72myyXDA74); "How Did We Get The Bible? | Michael Kruger" (Christ Covenant, vPUBjRxDQXo).
-- **Ware, *The Orthodox Church*** — cited in lesson 8 for the view that many Orthodox scholars regard the deuterocanonical books as on a lower footing; from the drafter's recollection of the chapter on Holy Tradition, not re-read at draft time. Fact-check should confirm the page.
+- **Ware, *The Orthodox Church*** — cited in lesson 8 for the view that many Orthodox scholars regard the deuterocanonical books as on a lower footing; from the drafter's recollection of the chapter on Holy Tradition, not re-read at draft time. **Corrected at lesson 8's Stage 4.** The drafter's recollection also weakened the claim: Ware writes "**most** Orthodox scholars at the present day, following the opinion of Athanasius and Jerome, consider that the Deutero-Canonical Books, although part of the Bible, stand on a lower footing than the rest of the Old Testament", and the draft rendered it "many ... though not all agree", which is a weaker claim than the source makes. Wording now confirmed from the widely reproduced excerpt; the page is still unconfirmed. **This was the only substantive Orthodox theological claim in the lesson and it rested on the worst-sourced item on the page.** Fact-check should confirm the page.
 
 ## Added at draft time (lesson 7)
 
@@ -227,23 +231,24 @@ Verified while drafting lesson 7 (letters and Revelation); each was fetched and 
 - **Irenaeus, *Against Heresies* 5.30 (New Advent, ANF translation)** — 666 "found in all the most approved and ancient copies"; the 616 reading treated as a copyists' error; candidate names Evanthas, Lateinos, Teitan, none affirmed; "more certain, and less hazardous, to await the fulfilment of the prophecy, than to be making surmises"; the vision seen "towards the end of Domitian's reign".
 - **Tacitus, *Annals* 15.44 (Church & Brodribb, Wikisource)** — Nero "fastened the guilt and inflicted the most exquisite tortures on a class hated for their abominations, called Christians by the populace"; Christus executed under Tiberius by Pontius Pilatus.
 - **Pate (ed.), *Four Views on the Book of Revelation* (Zondervan, 1998)** — contributors confirmed: Gentry (preterist), Hamstra (idealist), Pate (progressive dispensationalist), Thomas (classical dispensationalist). No historicist chapter.
-- **Beale 1999 (NIGTC)**: "eclecticism, or a redemptive-historical form of modified idealism". **Osborne 2002 (BECNT)**: eclectic, preterist/idealist/futurist interacting, futurist primary. **Ladd 1972**: historic premillennial, blending preterist and futurist. All three confirmed from publisher and review descriptions, not from the books' pages; the fact-check may wish to confirm Beale's phrase against p. 48 of the introduction.
+- **Beale 1999 (NIGTC)**: "eclecticism, or a redemptive-historical form of modified idealism". **Osborne 2002 (BECNT)**: eclectic, preterist/idealist/futurist interacting, futurist primary. **Ladd 1972**: historic premillennial, blending preterist and futurist. All three confirmed from publisher and review descriptions, not from the books' pages. **Escalated at lesson 7's Stage 4: NONE OF THESE THREE MAY BE QUOTED.** The lesson 7 draft printed Beale's phrase verbatim inside quotation marks and then rested the course's own declared position on "the Beale and Osborne family", which is the L6-B14 (Burridge) defect at larger scale. Report what a book is described as saying, say that the description is second-hand, and never put an unopened book's words in quotation marks. The same applies to **Gentry 1989**, **Elliott 1844** and **Köstenberger and Patterson**, none of which has been opened for this course.
 - **Gentry, *Before Jerusalem Fell* (1989)** — pre-70 date under Nero. **Gentry, *Have We Missed the Second Coming?* (2016)** — his terms "orthodox preterism" and "hyper-preterism"; he rejects the view that the return, resurrection, and final judgment occurred in AD 70.
-- **Elliott, *Horae Apocalypticae* (1st ed. 1844; Internet Archive)** — the fullest historicist commentary; the Reformation identification of the papacy with the antichrist is widely documented (given in the lesson without a primary quotation).
+- **Elliott, *Horae Apocalypticae* (1st ed. 1844; Internet Archive)** — the fullest historicist commentary; the Reformation identification of the papacy with the antichrist is widely documented (given in the lesson without a primary quotation). **Corrected at lesson 7's Stage 4:** the draft's source note asserted that the identification "is documented in its historical survey", which is a claim about the contents of four volumes nobody opened. Say where a claim is documented, or say that it is documented elsewhere.
 - **Martin, Yale RLST 152, lecture 23, "Apocalyptic and Resistance"** (oyc.yale.edu) — confirmed title and that it covers Revelation as resistance literature, Rome as Babylon.
 - **BibleProject, "How to Read the Bible: Apocalyptic Literature"**, YouTube UNDX4tUdj1Y — title and channel confirmed via YouTube oEmbed.
 - **Wikimedia Commons, P115 Plate 3 verso crop (616)** — public domain; direct URL recorded in the lesson.
 - **ESV text** of Philippians 4:10–13, 1 Corinthians 12:31, 13:1–7, 14:1, 1 Corinthians 11:3, 5, 8–10, 13–16, Philemon 1–2, 8–12, 15–17, 21, Revelation 1:1, 3, 4, 13–16, 12:1, 2, 5, 9, 13:1–2, 18 (with footnote "Some manuscripts 616") — read from esv.org / BibleGateway at draft time.
+  **Resolved at lesson 7's Stage 4, and this entry is why the lesson shipped nine version survivals.** The draft's own source note claimed the text was "read via the bible.org API", which did not happen; that is the **third** lesson running to carry a false provenance line (L5-B3, L6-F2, L7-F1). Every quotation is now re-rendered in the NET and verified word for word against both mirrors. The wordings that had survived, recorded so no later lesson reintroduces them: **Revelation 1:1** is "what must happen **very soon**", not "that must soon take place" (ESV), and the NET wording is the *stronger* one for the preterist case the sentence was making. **1 Timothy 5:23** is "use a little wine for your **digestion and your frequent illnesses**". **1 Corinthians 13:10** is "but when **what is perfect** comes, the partial will be **set aside**". **1 Corinthians 11:12** is "For just as woman came from man, so man comes **through** woman. **But all things come from God.**", and the third clause is the strongest part of the balance the egalitarian argument cites. **Colossians 3:12** is "clothe yourselves with **a heart of mercy**". **Daniel 7:9** puts "white like snow" on the attire and "like lamb's wool" on the hair; "white as wool" is Revelation 1:14. **Revelation 17:9** is "seven **mountains**", not "seven hills", and 17:18 stops at "the great city that has sovereignty over the kings of the earth" without naming Rome. **The `(NET)` tag was missing from about twenty quotations including every one in the quiz, and that omission is what hid the rest: tag every quotation and the survivals become visible.**
 
 ## Added at draft time (lesson 5)
 
-- **Fee & Stuart 2014, chs. 10, 11, and 12, read in full from the PDF at draft time.** Ch. 10, "The Prophets as Poets": the three forms of parallelism defined (synonymous, Isaiah 44:22; antithetical, Hosea 7:14; synthetic, Obadiah 21), with a recommendation of Longman, *How to Read the Psalms* (IVP 1988), chs. 6 and 7. Ch. 11, "The Psalms: Israel's Prayers and Ours": "words spoken to God... too, are God's Word"; "a unique problem of hermeneutics"; Psalm 19:1-2 as synonymous parallelism ("not trying to say four different things"; the plain-prose paraphrase "totally colorless"); poetry's vocabulary "purposefully metaphorical"; Psalm 51:5 as hyperbole; seven types with psalm numbers: laments "more than sixty" (individual e.g. 3, 22, 31, 39, 42, 57, 71, 88, 120, 139, 142; corporate 12, 44, 80, 94, 137), thanksgiving (six community: 65, 67, 75, 107, 124, 136; ten individual: 18, 30, 32, 34, 40, 66, 92, 116, 118, 138), hymns of praise (8, 19, 104, 148; 66, 100, 111, 114, 149; 33, 103, 113, 117, 145-147), salvation-history (78, 105, 106, 135, 136), celebration and affirmation (covenant renewal 50, 81; Davidic covenant 89, 132; nine royal: 2, 18, 20, 21, 45, 72, 101, 110, 144; enthronement 24, 29, 47, 93, 95-99; Songs of Zion 46, 48, 76, 84, 87, 122), eight wisdom psalms (36, 37, 49, 73, 112, 127, 128, 133), ten songs of trust (11, 16, 23, 27, 62, 63, 91, 121, 125, 131); the six elements of a lament (address, complaint, trust, deliverance, assurance, praise) "in one way or another in virtually all of them", worked on Psalm 3, and "our discovery, not a rigid form"; thanksgiving elements (introduction, distress, appeal, deliverance, testimony) worked on Psalm 138; the imprecatory psalms section: Psalm 137 as a lament for the exile, "hyperbolic language of the same extreme sort found in the covenant curses themselves", "calls for judgment according to the covenant curses", "it is God who is the actual hearer of these angry words", "guide or channel our anger to and through God verbally rather than to or at anyone else", and "do not contradict Jesus' teaching to love our enemies"; the closing answer, "precisely in the ways they functioned for Israel in the first place". Ch. 12, "Wisdom: Then and Now": *mashal* "figures of speech", "parables", "specially contrived sayings"; "The briefer a statement is, the less likely it is to be totally precise and universally applicable"; "Look before you leap"; four guidelines, the first "Proverbs Are Not Legal Guarantees from God" ("likely to follow"; "nowhere does Proverbs teach automatic success"; Ecclesiastes and Job "remind us that there is very little that is automatic"); Proverbs 16:3 "the sort of proverb that is most often misinterpreted", "not a categorical, always applicable, ironclad promise, but a more general truth"; Job 15:20 as Eliphaz, vindicated against in 42:7-9; "Do not engage in the kind of wisdom Job's friends did"; Job's prose prologue (chs. 1-2) and epilogue (42:7-17); the double verdict (on fairness "Job had prevailed; it is not"); Ecclesiastes' prologue 1:1-11 and epilogue 12:8-14 in the third person, the Teacher (*qohelet*) in the first; *hebel* thirty-seven times in the book of seventy-three in the OT; Longman ("cynical wisdom" as foil) and Provan (positive) as "close friends" with opposite readings, and Fee and Stuart themselves split one each way; 12:13-14 as the final perspective. Note: Fee & Stuart do not discuss Proverbs 22:6; the lesson uses their general rule and their 16:3 example for it.
+- **Fee & Stuart 2014, chs. 10, 11, and 12, read in full from the PDF at draft time.** Ch. 10 is titled "The Prophets: Enforcing the Covenant in Israel" (as line 11 records and lesson 4 uses); **"The Prophets as Poets" is a section inside it**, which resolves the conflict between the two entries noted at lesson 4's Stage 4. That section: the three forms of parallelism defined (synonymous, Isaiah 44:22; antithetical, Hosea 7:14; synthetic, Obadiah 21), with a recommendation of Longman, *How to Read the Psalms* (IVP 1988), chs. 6 and 7. Ch. 11, "The Psalms: Israel's Prayers and Ours": "words spoken to God... too, are God's Word"; "a unique problem of hermeneutics"; Psalm 19:1-2 as synonymous parallelism ("not trying to say four different things"; the plain-prose paraphrase "totally colorless"); poetry's vocabulary "purposefully metaphorical"; Psalm 51:5 as hyperbole; seven types with psalm numbers: laments "more than sixty" (individual e.g. 3, 22, 31, 39, 42, 57, 71, 88, 120, 139, 142; corporate 12, 44, 80, 94, 137), thanksgiving (six community: 65, 67, 75, 107, 124, 136; ten individual: 18, 30, 32, 34, 40, 66, 92, 116, 118, 138), hymns of praise (8, 19, 104, 148; 66, 100, 111, 114, 149; 33, 103, 113, 117, 145-147), salvation-history (78, 105, 106, 135, 136), celebration and affirmation (covenant renewal 50, 81; Davidic covenant 89, 132; nine royal: 2, 18, 20, 21, 45, 72, 101, 110, 144; enthronement 24, 29, 47, 93, 95-99; Songs of Zion 46, 48, 76, 84, 87, 122), eight wisdom psalms (36, 37, 49, 73, 112, 127, 128, 133), ten songs of trust (11, 16, 23, 27, 62, 63, 91, 121, 125, 131); the six elements of a lament (address, complaint, trust, deliverance, assurance, praise) "in one way or another in virtually all of them", worked on Psalm 3, and "our discovery, not a rigid form"; thanksgiving elements (introduction, distress, appeal, deliverance, testimony) worked on Psalm 138; the imprecatory psalms section: Psalm 137 as a lament for the exile, "hyperbolic language of the same extreme sort found in the covenant curses themselves", "calls for judgment according to the covenant curses", "it is God who is the actual hearer of these angry words", "guide or channel our anger to and through God verbally rather than to or at anyone else", and "do not contradict Jesus' teaching to love our enemies"; the closing answer, "precisely in the ways they functioned for Israel in the first place". Ch. 12, "Wisdom: Then and Now": *mashal* "figures of speech", "parables", "specially contrived sayings"; "The briefer a statement is, the less likely it is to be totally precise and universally applicable"; "Look before you leap"; four guidelines, the first "Proverbs Are Not Legal Guarantees from God" ("likely to follow"; "nowhere does Proverbs teach automatic success"; Ecclesiastes and Job "remind us that there is very little that is automatic"); Proverbs 16:3 "the sort of proverb that is most often misinterpreted", "not a categorical, always applicable, ironclad promise, but a more general truth"; Job 15:20 as Eliphaz, vindicated against in 42:7-9; "Do not engage in the kind of wisdom Job's friends did"; Job's prose prologue (chs. 1-2) and epilogue (42:7-17); the double verdict (on fairness "Job had prevailed; it is not"); Ecclesiastes' prologue 1:1-11 and epilogue 12:8-14 in the third person, the Teacher (*qohelet*) in the first; *hebel* thirty-seven times in the book of seventy-three in the OT; Longman ("cynical wisdom" as foil) and Provan (positive) as "close friends" with opposite readings, and Fee and Stuart themselves split one each way; 12:13-14 as the final perspective. Note: Fee & Stuart do not discuss Proverbs 22:6; the lesson uses their general rule and their 16:3 example for it.
 - **Lowth, R., *De Sacra Poesi Hebraeorum Praelectiones Academicae* (Oxford, 1753); Gregory's English translation *Lectures on the Sacred Poetry of the Hebrews* (1787).** Lecture 19: parallelism in three forms, synonymous, antithetic, synthetic. Verified against the Wikipedia articles "Robert Lowth" and "Biblical poetry" at draft time (Wikipedia used as a starting point for a date and a title that are not in dispute).
 - **Kugel, J. L., *The Idea of Biblical Poetry: Parallelism and Its History* (Yale University Press, 1981), 339 pp.** The second line "seconds" the first; "A, and what's more, B". Publication details verified against the AJS Review notice and Patrick Miller's 1982 *Theology Today* review; the formula from standard summaries of the book. The book itself was not opened; quote only the formula.
 - **Gunkel, H. (1862-1932), with Begrich, J., *Einleitung in die Psalmen* (1933).** Origin of the form-critical psalm types. Dates and title verified against the Wikipedia article on Gunkel; the specific Gattungen not taken from it.
 - **Hayes, RLST 145, lecture 21 "Biblical Poetry: Psalms and Song of Songs" (transcript read at draft time).** Form criticism from Gunkel and Mowinckel; "the very serious form critics will give you upwards of 13, 14, 15 or more different forms for the psalms"; Psalm 137 "clearly from the perspective of the exile". Lecture 20 is "Responses to Suffering and Evil: Lamentations and Wisdom Literature" (lecture list verified at oyc.yale.edu). Hayes does not discuss parallelism in lecture 21.
 - **Ecclesiastes in Jewish liturgy**: read "on Shemini Atzeret (by Yemenites, Italians, some Sephardim, and the mediaeval French Jewish rite) or on the Shabbat of the intermediate days of Sukkot (by Ashkenazim)" (Wikipedia, "Ecclesiastes"; reference-work claim about current practice, flagged for the fact-check).
-- **ESV text** of every verse quoted in lesson 5 was fetched from BibleGateway at draft time: Proverbs 26:4-5; Psalm 19:1-4; Psalm 13; Psalm 42:5 and 11; Proverbs 22:6; Job 42:7; Proverbs 3:9-10; Ecclesiastes 1:2; Psalm 137:1-9; Romans 12:19; Psalm 22:1 and 22-24; Psalm 1:1-3. Lesson 5 quotes 22 verses.
+- **CORRECTED at lesson 5's Stage 4, 2026-09-06.** The entry below recorded the draft-time fetch as **ESV from BibleGateway**, and the standing instruction to re-fetch in the NET was carried out for the lesson's body and **not for its quiz**, where six ESV wordings survived to Stage 4. Every quotation in the lesson is now NET 2nd edition, verified against the mirrors recorded above, except where JPS 1917 is required by 4.7. **The running verse count that followed this entry has been deleted; 4.7 abolished it.** The original entry, kept so the error is traceable: ESV text of every verse quoted in lesson 5 was fetched from BibleGateway at draft time: Proverbs 26:4-5; Psalm 19:1-4; Psalm 13; Psalm 42:5 and 11; Proverbs 22:6; Job 42:7; Proverbs 3:9-10; Ecclesiastes 1:2; Psalm 137:1-9; Romans 12:19; Psalm 22:1 and 22-24; Psalm 1:1-3. (Verse count deleted at Stage 4; 4.7 keeps no running count.)
 - **Media verified at draft time**: BibleProject, "The Art of Biblical Poetry" (youtube.com/watch?v=q9yp1ZXbsEg; channel confirmed as BibleProject via YouTube oEmbed; note that watch?v=OYLM63r3OPw is a re-upload by another channel and must not be used); BibleProject, "Metaphor in Biblical Poetry" (watch?v=L9W5afjndtU; channel confirmed); BibleProject, "The Book of Proverbs" (watch?v=Gab04dPs_uA; channel confirmed; the site's own Proverbs video is Mux-hosted, so the YouTube upload is the one to embed). Wikimedia Commons "Psalms Scroll.jpg": 11Q5, photographed by the Israel Antiquities Authority, June 1993, Library of Congress Dead Sea Scrolls exhibition, public domain (CC Public Domain Mark 1.0), 983 x 463 px, direct URL upload.wikimedia.org/wikipedia/commons/6/67/Psalms_Scroll.jpg.
 - **Not obtained**: Athanasius, *Letter to Marcellinus* (the "mirror" passage on the Psalms; CCEL and athanasius.com URLs failed); the NET Bible note on Proverbs 22:6 (netbible.org returned 403). Neither is cited in the lesson.
 
@@ -252,23 +257,23 @@ Verified while drafting lesson 7 (letters and Revelation); each was fetched and 
 All fetched and read on 2026-09-05 while drafting lesson 4; each item records what it establishes for the lesson.
 
 - **Hayes, RLST 145 Lecture 8, "Exodus: From Egypt to Sinai"** (oyc.yale.edu transcript) — the six elements of the Hittite suzerainty treaty form in her wording (preamble; historical prologue; stipulations; deposit and publication; witnesses; blessings and curses); Hittite treaties "1500 to 1200, or so"; "no one passage contains all of the elements of the Hittite treaty form, but there are enough of them scattered around to suggest it as a model"; editorial footnote identifies the underlying work as Mendenhall's in the 1950s.
-- **Mendenhall, G. E., "Covenant Forms in Israelite Tradition", *The Biblical Archaeologist* 17 (1954), 50–76** — bibliographic details confirmed by search (Semantic Scholar record); the article itself not opened. Cited only for the origin of the treaty-form argument.
+- **Mendenhall, G. E., "Covenant Forms in Israelite Tradition", *The Biblical Archaeologist* 17, no. 3 (September 1954), 49-76** — bibliographic details confirmed by search (Semantic Scholar record); the article itself not opened. Cited only for the origin of the treaty-form argument.
 - **Hayes, RLST 145 Lecture 16, "Literary Prophecy: Amos"** — a prophet is "sent by God with a message, not someone who is consulted by a client to find out what God thinks"; the prophetic books are "anthologies of oracles"; Amos 5:21–24 is "an attack on empty piety" in "accompaniment to social injustice".
 - **Hayes, RLST 145 Lecture 17, "Literary Prophecy: Hosea and Isaiah"** — the *riv* (lawsuit) form; "In 734, you have the Assyrians, who at this time are under Tiglath-Pileser"; "Judah refused to join the alliance... So in anger, Aram and Israel moved south and lay siege to Jerusalem"; Isaiah's advice "be quiet and do not fear (chapter 7:4)"; the Immanuel sign as "a young woman who has conceived will bear a son"; the Greek as "a mistranslation of the word 'young woman' as 'virgin'" (her critical-side position, quoted as such in the lesson).
 - **Babylonian Talmud, *Makkot* 23b** (Sefaria, English) — Rabbi Simlai: 613 mitzvot, 365 prohibitions for the days of the solar year and 248 positive commandments for the limbs of the body; Rav Hamnuna's gematria of "Torah" from Deuteronomy 33:4.
 - **Maimonides, *Sefer HaMitzvot*** (Sefaria) — the enumeration; first positive commandment is belief in God from Exodus 20:2.
 - **Aquinas, *Summa Theologiae* I-II q. 99 a. 2–4** (newadvent.org) — a. 4: "We must therefore distinguish three kinds of precept in the Old Law; viz. 'moral' precepts... 'ceremonial' precepts... and 'judicial' precepts, which are determinations of the justice to be maintained among men."
-- **Westminster Confession of Faith (1646) ch. 19, "Of the Law of God"** (opc.org; ccel.org, where it is numbered ch. 21 in the PCUS edition) — 19.3 ceremonial laws "now abrogated under the New Testament"; 19.4 judicial laws given to Israel "as a body politic" expired with that state, obliging others only as their "general equity" requires; 19.5 the moral law binds all always. Fetched as summaries with those phrases quoted; the fact-check should confirm the exact wording of 19.3–19.5 against a printed edition.
+- **Westminster Confession of Faith (1646) ch. 19, "Of the Law of God"** (opc.org; ccel.org, where it is numbered ch. 21 in the PCUS edition) — 19.3 ceremonial laws "now abrogated under the New Testament"; 19.4 judicial laws given to Israel "as a body politic" expired with that state, obliging others only as their "general equity" requires; 19.5 the moral law binds all always. **Confirmed at lesson 4's Stage 4, 2026-09-06, so this open item is closed.** Verbatim: 19.3 "All which ceremonial laws are now abrogated, under the New Testament"; 19.4 "To them also, as a body politic, He gave sundry judicial laws, which expired together with the State of that people; not obliging... further than the general equity thereof may require"; 19.5 "The moral law does forever bind all."
 - **Ryrie, C. C., *Dispensationalism*, rev. ed. (Moody, 1995)** — the three essentials (Israel–church distinction; consistent literal interpretation; the glory of God as the purpose of history) confirmed by search across several secondary summaries; the book not opened.
 - **Gentry, P. J. and Wellum, S. J., *Kingdom through Covenant* (Crossway, 2012)** — progressive covenantalism as a "via media" between covenant theology and dispensationalism (Themelios and EFCA reviews). Book not opened.
 - **Blaising, C. A. and Bock, D. L., *Progressive Dispensationalism* (Victor/BridgePoint, 1993)** — title, authors, and 1993 date confirmed (publisher and Google Books records). Book not opened.
-- **JPS Tanakh, Isaiah 7:14** (Sefaria; 1985 and the 2023 gender-sensitive edition) — "Look, the young woman is with child and about to give birth to a son. Let her name him Immanuel." Hebrew: הָעַלְמָה הָרָה וְיֹלֶדֶת בֵּן.
-- **Septuagint, Isaiah 7:14** (ellopos.net, Greek with Brenton) — ἰδοὺ ἡ παρθένος ἐν γαστρὶ ἕξει, καὶ τέξεται υἱόν; Brenton: "behold, the virgin shall conceive in the womb, and shall bring forth a son".
+- **JPS Tanakh, Isaiah 7:14. Use the 1917, not the 1985 or 2023.** Editorial Standards 4.7 asks for the public-domain **JPS 1917**, which reads: "Therefore the Lord Himself shall give you a sign: behold, the young woman shall conceive, and bear a son, and shall call his name Immanuel." Note the future ("shall conceive"), which matches the NET's "is about to conceive"; only the copyrighted editions read "is with child", so **no lesson may say the Hebrew is present tense on the strength of a JPS quotation**. Lesson 4 quoted the copyrighted edition and drew exactly that inference; both were fixed at its Stage 4. The superseded entry, kept so the error is traceable: JPS (Sefaria; 1985 and the 2023 gender-sensitive edition) — "Look, the young woman is with child and about to give birth to a son. Let her name him Immanuel." Hebrew: הָעַלְמָה הָרָה וְיֹלֶדֶת בֵּן.
+- **Septuagint, Isaiah 7:14** (ellopos.net, Greek with Brenton) — ἰδοὺ ἡ παρθένος ἐν γαστρὶ ἕξει, καὶ τέξεται υἱόν; Brenton: "behold, **a** virgin shall conceive in the womb, and shall bring forth a son". **Corrected at lesson 4's Stage 4, 2026-09-06:** this entry previously read "the virgin", and lesson 4 quoted it that way. The definite article is the force of Matthew 1:23's "The virgin", so upgrading Brenton's "a" to "the" strengthens the Christian case with a word the translation does not carry. The Greek does have the article; argue it from ἡ παρθένος and say so, never from Brenton's English.
 - **Rashi on Isaiah 7:14** (Sefaria, English) — "My wife will conceive this year. This was the fourth year of Ahaz." The sign: divine inspiration resting on a girl who never prophesied.
 - **Ibn Ezra on Isaiah 7:14** (Sefaria, Friedländer 1873) — "It is to me a matter of surprise that there are those who say the prophet here refers to Jesus, since the sign was given to Ahaz, and Jesus was born many years afterwards"; Immanuel as Isaiah's own son alongside Shear-jashub and Maher-shalal-hash-baz.
 - **Radak on Isaiah 7:14** (Sefaria, Hebrew; read via summary) — *almah* is a young woman, virgin or not; the mother is Ahaz's wife, the child a royal son. The fact-check should confirm against the Hebrew.
 - **Justin Martyr, *Dialogue with Trypho* ch. 67** (newadvent.org, ANF 1) — Trypho: "The Scripture has not, 'Behold, the virgin shall conceive, and bear a son,' but, 'Behold, the young woman shall conceive, and bear a son'"; the Perseus comparison. Establishes that the *almah*/*parthenos* dispute is second-century.
-- **Rashi on Isaiah 53:3** (Sefaria, English) — the prophet "characterizes all Israel as a single entity", citing 44:2 and 52:13 as the house of Jacob.
+- **Rashi on Isaiah 53:3** (Sefaria, English) — the prophet "**mentions all Israel as one man**", citing **44:1 and 44:2** ("Fear not, My servant Jacob"; "And now, hearken, Jacob, My servant") and taking 52:13 to refer to the house of Jacob. **Corrected at lesson 4's Stage 4, 2026-09-06.** The wording previously recorded here, "characterizes all Israel as a single entity", is in no edition found and had reached lesson 4 as a quotation inside quotation marks; the Judaica Press translation Sefaria carries reads as now given.
 - **Targum Jonathan on Isaiah 52:13** (Sefaria) — "Behold, my servant the messiah shall prosper" (עַבְדִי מְשִׁיחָא). Shows the Jewish tradition is not one voice on the servant.
 - **NET Bible via the bible.org API** (labs.bible.org) — Deuteronomy 28:15–24, 38–42 and Amos 4:6–12 verbatim; used for the sanction pairing in the lesson because the ESV fetch would only summarise those passages. NET is free by design.
 - **ESV at esv.org** — verbatim: Leviticus 19:18–19; Amos 5:21–24; Isaiah 7:14–16 (footnote: Immanuel means God is with us); Matthew 1:22–23; Hosea 4:1–3; Deuteronomy 28:1, 28:15; Deuteronomy 30:15, 30:19; Amos 4:6–9; Isaiah 7:1, 7:4, 7:7, 7:9, 8:3–4, 8:18; Matthew 5:17; Mark 7:19 (parenthesis); Galatians 5:14. These are the right passages; **re-fetch the wording in the NET** before quoting (Editorial Standards 4.7).
@@ -349,3 +354,514 @@ All fetched and read on 2026-09-05 while drafting lesson 10 (what we believe, an
 - **Image: Pilate inscription** — Wikimedia Commons "File:Limestone Inscription with Name of Pontius Pilate, Caesarea, 26-36 AD (42500903014).jpg", Gary Todd, 5 July 2018, CC0, 6000 x 4000, Israel Museum; direct URL upload.wikimedia.org/wikipedia/commons/8/8c/Limestone_Inscription_with_Name_of_Pontius_Pilate%2C_Caesarea%2C_26-36_AD_%2842500903014%29.jpg. Licence confirmed via the Commons API. (The alternative "File:Pilate Inscription.JPG" is CC BY-SA 2.0, Marion Doss, 2005.)
 - **Bibliographic confirmations (books not opened):** Rogers & McKim, *The Authority and Interpretation of the Bible: An Historical Approach* (Harper & Row, 1979); Woodbridge, *Biblical Authority: A Critique of the Rogers/McKim Proposal* (Zondervan, 1982; ISBN 9780310447511); Baden, *The Composition of the Pentateuch: Renewing the Documentary Hypothesis*, Anchor Yale Bible Reference Library (Yale UP, 2012; reviewed *JNES* 72.2 and *RSR* 2013); Enns, *Inspiration and Incarnation: Evangelicals and the Problem of the Old Testament*, 2nd ed. (Baker Academic, 22 September 2015; ISBN 9780801097485; postscript added); Wenham, *Christ and the Bible*, 3rd ed. (Wipf & Stock, 1 August 2009; ISBN 9781606088883). Brown's *Introduction to the New Testament* is Anchor Bible Reference Library, 1997 (Doubleday), not Yale as recorded above; the lesson gives the year only.
 - **ESV text** read at esv.org / BibleGateway: 2 Timothy 3:14–17; Luke 24:44; John 10:35 (fragment "Scripture cannot be broken"; the ESV verse contains em dashes, so only the fragment is quoted); Matthew 5:18; 2 Peter 1:21; 2 Peter 3:16 (fragment); Mark 4:30–32; Deuteronomy 34:5–6, 34:10; Genesis 36:31; Exodus 24:4 (fragment). Mark 12:26 ("have you not read in the book of Moses") and Mark 1:5 ("all the country of Judea and all Jerusalem were going out to him") were also fetched at BibleGateway; the lesson refers to them and quotes only the short fragments given here. These are the right passages; **re-fetch the wording in the NET** before quoting (Editorial Standards 4.7).
+
+## Added at lesson 4's Stage 4, 2026-09-06 (verified there, for later lessons to use)
+
+### How to verify scripture when the usual hosts are blocked
+
+**Read this before drafting or reviewing another lesson.** In some sessions the network policy blocks
+`labs.bible.org`, `sefaria.org`, `biblegateway.com`, `oyc.yale.edu`, `commons.wikimedia.org`,
+`newadvent.org`, `youtube.com` and `en.wikipedia.org` at the proxy, from curl and from the fetch tool
+alike, so **the `curl` recipe in 4.7 and in the entry above does not always work.** What does work:
+`raw.githubusercontent.com`, and web search. The mirrors below were used at lesson 4's Stage 4 and
+each caught at least one real error.
+
+- **NET, complete, mirror 1:**
+  `https://raw.githubusercontent.com/jabinweb/BibleTranslations/master/NET/NET_books/<Book>.json`
+  (branch `master`; `main` 404s). Top-level object with two keys, `"Info"` and the book name;
+  address a verse as `d["<Book>"]["<chapter>"]["<verse>"]`, chapter and verse both **strings**.
+  Real newlines are preserved inside poetic verses, which makes this the better mirror for quoting.
+  Book names are full and capitalised, with spaces percent-encoded (`1%20Corinthians`), and the
+  Psalter is **`Psalm.json`, not `Psalms.json`**.
+- **NET, mirror 2, for cross-checking:**
+  `https://raw.githubusercontent.com/staspk/Bible-Vault/master/bible_txt/NET/<Book>/<chapter>.txt`
+  Plain text, one verse per line, no verse numbers, so line *N* is verse *N*. Poetry line breaks are
+  stripped without a space, so compare on collapsed whitespace and never on exact bytes.
+  `Mark/7.txt` is missing from this mirror.
+- **Confirm the edition before trusting either.** NET1 (1996/2005) and NET2 (2019) differ in ways
+  that bite: NET1 renders *Adonai* "the sovereign master" and *tseva'ot* "the LORD who commands
+  armies"; NET2 reads "the Lord" and "the Lord of Heaven's Armies". Grep a book for
+  `Heaven's Armies` (NET2) against `sovereign master` and `who commands armies` (NET1). Both mirrors
+  above are NET2 and both agree with the wordings this course fetched from the bible.org API for
+  lessons 2 and 11. **A web search for a NET verse will often return NET1**, because Biblia's online
+  NET is the older text; a search result disagreeing with the lesson is not by itself a finding.
+- **JPS 1917, complete:** `https://raw.githubusercontent.com/scrollmapper/bible_databases/master/formats/json/JPS.json`
+  (6.4 MB; `{translation, books:[{name, chapters:[{chapter, verses:[{verse, text}]}]}]}`, book names
+  in the form `I Samuel`). **One caution that matters:** this edition substitutes `HaShem`, `L-rd`
+  and `G-d` for the divine name in about 7,100 verses. Printed JPS 1917 has "the LORD" and "the
+  Lord", so **restore the divine name and spot-check any verse you quote** against Sefaria or
+  Wikisource. Sefaria's own export of the same version, book by book, is at
+  `https://raw.githubusercontent.com/elyhahami18/NU-farbrang-final/main/txt/Tanakh/<Torah|Prophets|Writings>/<Book>/English/The%20Holy%20Scriptures%20A%20New%20Translation%20JPS%201917.txt`
+  and does not have the substitution.
+- **Sefaria commentary exports** (Rashi, Targum Jonathan) are in the same `elyhahami18` repo under
+  `txt/Tanakh/Rishonim on Tanakh/...` and `txt/Tanakh/Targum/...`. Comments carry inline `<b>lemma</b>`
+  tags; grep the lemma, because line offsets are not verse numbers. **The Ibn Ezra path in that repo
+  is a near-empty stub** and does not contain the Isaiah 7:14 comment.
+- **Brenton's Septuagint:** `https://raw.githubusercontent.com/codexcommunion/bible-toolkit/main/data/septuagint/brenton/english/<USFM><zero-padded chapter>.yaml`
+  (e.g. `ISA07.yaml`). Index on `usfm_code` plus chapter and verse; the `book` field carries the
+  Septuagint name (`Esaias`, not Isaiah).
+- **Standing caveat.** These are third-party mirrors, not publisher texts. They are reliable for
+  catching a wrong wording, which is what they did four times at this pass, but a claim that turns on
+  a single word should still be confirmed against bible.org or Sefaria when egress allows.
+
+### Corrections and findings recorded at this pass
+
+- **Hayes's *riv* quotation belongs to Hosea, and says Hosea was the first.** RLST 145 lecture 17:
+  "he's now the first to couch his charge in the form of this formal *riv*, or lawsuit." The subject
+  is **Hosea**, so on her account the form excludes Amos. Lesson 4 had used the sentence as
+  corroboration for reading **Amos 5:21 to 24** as a lawsuit, with an "as well" that inverted her
+  claim and a pronoun with no antecedent. No lesson may cite this sentence for Amos. On the
+  substance: Amos 5:21 to 24 has neither summons nor witnesses; the full *riv* form (summons,
+  witnesses, charge, verdict) is at Micah 6:1 to 8, Hosea 4:1 to 3 and Isaiah 1:2 to 20.
+- **Fee and Stuart chapter 10 is titled two different ways in this file.** Line 11 gives "The
+  Prophets: Enforcing the Covenant in Israel" (which lesson 4 uses) and the lesson 5 block gives
+  "The Prophets as Poets". One of the two is a section heading rather than a chapter title. Whoever
+  next has the book open should settle it; both lessons currently assert theirs.
+- **Deuteronomy 28's closest treaty parallels are argued, and the argument bears on dating.**
+  Mendenhall's parallels are second-millennium Hittite. Weinfeld traced a shared Mesopotamian curse
+  tradition, and Steymans, *Deuteronomium 28 und die adê zur Thronfolgeregelung Asarhaddons* (1995),
+  argued that Deuteronomy 28:20 to 44 parallels the seventh-century succession treaty of Esarhaddon;
+  others point to the Aramaic Sefire treaties. **A lesson presenting the Hittite parallel as settled
+  is taking the side that favours an early date**, which is the recurring neutrality defect. None of
+  these works was opened; name them as positions, do not quote them.
+- **Any lesson arguing that a prophet reads Deuteronomy 28 back to Israel must disclose what that
+  assumes.** On the majority critical view Deuteronomy reached its present form in the seventh
+  century, after Amos (c. 760), so the dependence runs the other way or from a shared stock. The
+  *working* form of the argument survives either dating (the covenant carried known sanctions and the
+  prophets enforced them, which is visible on the page); the *strong* form ("Amos held a scroll of
+  Deuteronomy") does not. Lesson 4 now says so and hands the authorship question to lesson 10.
+- **Verified at this pass and safe to reuse:** Aquinas *ST* I-II q. 99 a. 4 verbatim; Westminster
+  19.3 to 19.5 (see above); Justin *Dialogue* 67 verbatim, and **Trypho's own candidate for the
+  child is Hezekiah**, which is also Radak's; Rashi on Isaiah 7:14 verbatim, including his note that
+  the Hebrew participle is "actually the future"; Ibn Ezra on 7:14 verbatim; Targum Jonathan on
+  52:13 verbatim; the NET text of every verse lesson 4 quotes.
+- **NET Matthew 2:15** reads "I called my Son out of Egypt"; **NET Hosea 11:1** reads "and I summoned
+  my son out of Egypt". "Out of Egypt I called my son" is ESV/NIV and matches neither. It had
+  survived into a lesson 4 quiz stem whose whole subject was what Matthew's quotation says.
+- **Catholic, Anglican and Lutheran statements on the Old Law, for the range that lessons 2, 3 and 4
+  were each faulted for narrowing.** *Catechism of the Catholic Church* 1961 to 1974, "The Old Law":
+  the Old Law is "the first stage of revealed Law" and "its moral prescriptions are summed up in the
+  Ten Commandments" (1962), at
+  `https://www.vatican.va/content/catechism/en/part_three/section_one/chapter_three/article_1/ii_the_old_law.html`.
+  Thirty-Nine Articles, **Article VII**: the law "as touching Ceremonies and Rites" does not bind
+  Christians, nor need its "Civil precepts" be received in any commonwealth, "yet notwithstanding, no
+  Christian man whatsoever is free from the obedience of the Commandments which are called Moral" (so
+  **the threefold division is a confessional Anglican position, not only a Presbyterian one**).
+  Formula of Concord (1577) **Article VI**, the three uses of the law: it restrains the unruly, shows
+  people their sin, and gives the reborn a rule for living. None of the three volumes was opened;
+  the Catechism paragraph and Article VII wording were confirmed by search against the official texts.
+- **Jewish practice is not one thing, and the 613 are not an inventory.** Orthodox Judaism holds the
+  ritual commandments binding as halakhah, Conservative Judaism holds them binding within a
+  developing halakhic process, and Reform Judaism holds the ethical commandments binding and treats
+  the ritual ones as a matter of choice. The count itself is disputed inside the tradition
+  (Nachmanides' critical notes on Maimonides, the *Halakhot Gedolot*'s different enumeration, Ibn
+  Ezra's doubt that the figure is more than homiletical), and a large share of the 613 concern the
+  Temple and cannot be performed since it fell. **A lesson that treats "613" as a devotional flourish
+  or as a synonym for an impossible burden fails the Jewish Turing test**; lesson 4 did the first and
+  was corrected.
+- **Beale's common-ground observation**, that the Old Testament writers did not exhaustively grasp
+  what they wrote, is recorded in contested question 5 as accepted across all four
+  Old-Testament-to-New frameworks. It went unused in lessons 2 and 4 until this pass. It is the
+  strongest available support for a *sensus plenior* reading precisely because it is not partisan,
+  and any lesson arguing a far horizon should reach for it. His *Handbook on the New Testament Use
+  of the Old Testament* (Baker, 2012) is where it is worked out; not opened, no page reference.
+
+## Added at lesson 5's Stage 4, 2026-09-06 (verified there, for later lessons to use)
+
+- **The build destroys poetry line breaks, course-wide.** `scripts/build.mjs` sets `marked` with
+  `breaks: false` and `site/assets/styles.css` sets no `white-space` on `blockquote`, so two quoted
+  poetic lines render as one paragraph with the newline collapsed to a space. Verified by running
+  marked with the project's own options. **Every psalm, proverb and oracle quoted anywhere in this
+  course currently reaches the learner as run-on prose.** The lesson-local fix, tested and applied in
+  lesson 5, is **two trailing spaces at the end of each poetic line**, which makes marked emit
+  `<br>`; leave the attribution line at the end of a blockquote without them. **Count poetic lines,
+  not blockquote lines.** A first pass at this counted every `> ` line and produced a wrong figure
+  for lesson 6, which was corrected at its Stage 4: **lesson 6 quotes no poetry at all**, since all
+  of its blockquotes are Gospel narrative, Acts, Papias and Irenaeus, which render correctly as
+  prose. Lesson 4 is fixed where it quotes verse. Lessons 2, 9 and 10 have a few lines each and want
+  checking individually before anything is changed. A proper `:::verse` block belongs in the shared
+  files and is requested in `REVIEWS.md`.
+- **NET renderings that a lesson's prose must not contradict.** Deuteronomy 32:35 reads "**I will get
+  revenge and pay them back** at the time their foot slips"; the familiar "Vengeance is mine, I will
+  repay" is **Paul's wording at Romans 12:19**, and lesson 5 had attributed it to Deuteronomy and
+  called it "a command given to Israel". Proverbs 10:1 reads "**child**", not "son"; 10:4 "The one
+  who is lazy becomes poor"; 15:1 "A **gentle response** turns away anger"; 16:3 "your plans will be
+  **established**" (Fee and Stuart quote this verse in the NIV, "your plans will succeed", and a
+  lesson citing them must say so). Psalm 30:6 "I will never be shaken"; 30:11 "Then you turned my
+  **lament** into dancing", and the psalm ends at **30:12**, not 30:11. Psalm 88:1 "O Lord God who
+  delivers me", not "the God of my salvation". Ecclesiastes 9:5 "the dead do not know anything; they
+  have no further reward" (the NET continues with an em dash, so **stop the quotation there**).
+  Isaiah 55:12 "will give a joyful shout before you". Matthew 2:15 "I called my Son out of Egypt".
+  The sword-and-tongue image is at Psalm 57:4 and 55:21, **not** at 59:7.
+- **NET verses containing em dashes, which may only be quoted in fragments**: Psalm 6:3, Ecclesiastes
+  9:5, Colossians 2:16, Micah 5:2. Check any verse before block-quoting it; the linter will catch an
+  em dash but only after it is in the file.
+- **JPS 1917 verified and quotable**: Psalm 19:8, "The law of the LORD is perfect, restoring the
+  soul; the testimony of the LORD is sure, making wise the simple"; Ecclesiastes 1:2, "Vanity of
+  vanities, saith Koheleth; vanity of vanities, all is vanity"; Isaiah 7:14 (recorded at lesson 4).
+  **Hebrew versification**: JPS counts a psalm's superscription as verse 1, so JPS Psalm 19:8 is
+  English 19:7 and JPS Psalm 13:2 to 3 is English 13:1 to 2. Any lesson telling a reader to look up
+  a psalm verse should say so once.
+- **Psalm numbering differs by tradition.** Greek and Latin psalters (so Orthodox Bibles and older
+  Catholic ones) run one lower than the Hebrew from about Psalm 10 to 147: Hebrew 51 is Greek 50,
+  Hebrew 137 is 136. The Greek Psalter also has **Psalm 151**, which 11Q5 carries in Hebrew. Lesson 1
+  already teaches the Psalm 9/10 case. **A lesson that sends a reader to a psalm number owes them
+  this sentence.**
+- **Psalm 42 and 43 are one psalm**, on the majority view: the refrain stands identically at 42:5,
+  42:11 **and 43:5**, and Psalm 43 has no superscription. Verified in the NET. Lesson 5 originally
+  sent the reader to Psalm 42 alone and called the turn "twice".
+- **The Psalter's living liturgical use**, for the range that lessons 2 to 5 were each faulted for
+  narrowing. Jewish: Ashrei (Psalm 145) three times daily, Hallel (113 to 118) at festivals, a psalm
+  for each weekday, Psalm 30 at the morning service, psalms in a house of mourning. Catholic: the
+  Rule of St Benedict prays the whole Psalter weekly; the Liturgy of the Hours spreads it over four
+  weeks. Orthodox: twenty kathismata, the whole Psalter weekly and twice weekly in Lent.
+- **The Liturgy of the Hours (1971) omits Psalms 58, 83 and 109 and the imprecatory verses of others,
+  including Psalm 137:7 to 9**, on pastoral grounds about public vernacular prayer. **C. S. Lewis,
+  *Reflections on the Psalms*, calls the spirit of the cursing psalms "devilish" while holding them
+  to be Scripture.** Any lesson listing "skip the violent psalms" as a beginner's misconception is
+  grading the Psalter's largest living Christian use as an error, and must say what that practice is
+  and why. This is the same class as the figural-reading note above, which has now had to be made
+  three times.
+- **Deuterocanonical wisdom.** Catholic and Orthodox Bibles carry **Sirach** and the **Wisdom of
+  Solomon** as wisdom books. Sirach is the closest ancient relative Proverbs has, and **Wisdom of
+  Solomon 3:1** ("the souls of the righteous are in the hand of God") is the answer another canon
+  gives to the problem Ecclesiastes 9:5 poses. A lesson saying "three wisdom books" without saying
+  "in a Protestant Bible" repeats L1-N5 and L3-N6.
+- **The Ecclesiastes frame is argued, not settled.** That the book has a prologue and epilogue in the
+  third person is not disputed. Whether the frame *governs* the Teacher (Longman) or *presents him
+  approvingly* (Provan, Michael Fox) is the live question, and Fee and Stuart are themselves split
+  one each way. A lesson may say which it holds; it may not put "the epilogue has the last word" in a
+  quiz key as the graded-correct reading. Also: Ecclesiastes 1:1 and 1:12 give a Solomonic voice,
+  which most scholars read as a persona, partly on the Persian loanwords in its Hebrew.
+- ***b. Bava Batra* 15a** records the rabbis debating whether Job existed or is a *mashal*, a parable.
+  ***m. Yadayim* 3:5** records the dispute over whether Ecclesiastes "defiles the hands" and the
+  ruling that it does. Both are the honest correction to any sentence saying a book "is there on
+  purpose" as though that were never argued, and this course already cites Bava Batra 14b and
+  m. Yadayim 3:5 in lesson 1.
+- **Elihu (Job 32 to 37) is the failure case for the who-is-speaking rule.** God's verdict at 42:7
+  names "Eliphaz the Temanite and your two friends" and says nothing about Elihu, so the rule returns
+  no verdict on a sixth of the book. Free, inside the text, and it answers L1-D2's standing complaint
+  that rules taught without a failure case are memorised rather than usable.
+- **Alphabetic acrostics are the counter-example to any claim that Hebrew poetry survives
+  translation intact**: Psalms 25, 34, 37, 111, 112, 119, 145 and Lamentations, plus the broken
+  acrostic across Psalms 9 and 10 that lesson 1 already works and that `SOURCES.md` line 170 records
+  as verified. Psalm 119 is twenty-two eight-verse stanzas, one per letter.
+- **Fee and Stuart's five thanksgiving elements** (introduction, distress recalled, appeal
+  reiterated, deliverance described, testimony), worked by them on **Psalm 138**, are the tool that
+  makes psalm classification teachable; recorded at Stage 1 and unused until lesson 5's fix pass.
+  Their three parallelism examples, **Isaiah 44:22 (synonymous), Hosea 7:14 (antithetic) and
+  Obadiah 21 (synthetic)**, are likewise recorded and were unused; all three are now quoted in
+  lesson 5 and verified in the NET.
+- **Psalm 6 is a clean fresh case for classification practice**: an individual lament with address,
+  complaint, petition and an assurance turn at verse 8, and it is in none of the psalm-number lists
+  Fee and Stuart print, so a quiz item built on it cannot be answered by looking up a list.
+- **Corrected at source**: the corporate-lament list above omitted **Psalm 94**; Fee and Stuart's
+  chapter 10 is "The Prophets: Enforcing the Covenant in Israel" with "The Prophets as Poets" as a
+  section inside it; Psalm 88 has **18 verses in total**; Psalm 137 has nine, of which **verse 7 is
+  already an imprecation**, so "six verses of grief and then the last two" miscounts it.
+
+## Added at lesson 6's Stage 4, 2026-09-06 (verified there, for later lessons to use)
+
+- **The Chicago Statement's limits, which SOURCES.md line 148 already required and lesson 6 still
+  dropped.** The 1978 *Chicago Statement on Biblical Inerrancy* **Article XII** denies that "biblical
+  infallibility and inerrancy are limited to spiritual, religious, or redemptive themes, exclusive of
+  assertions in the fields of history and science", so the genre latitude of Article XIII is not a
+  licence to treat a historical claim as a literary device. The 1982 *Chicago Statement on Biblical
+  Hermeneutics* **Article XXII** affirms that Genesis 1 to 11 is factual and denies that its teaching
+  may be dismissed as myth. The Article XIII phrase is "variant selections of **materials** in
+  parallel accounts", plural, and it covers each evangelist **selecting different material**; it does
+  not cover **compression**, which is Michael Licona's category and was the subject of a public
+  inerrancy quarrel with Norman Geisler in 2011. **A lesson may not enlist the signatories, least of
+  all in a quiz key, for compression.** The ETS archive copy is 404; use
+  `https://www.etsjets.org/files/documents/Chicago_Statement.pdf` only if it resolves, otherwise
+  link the Dallas Theological Seminary or Alliance of Confessing Evangelicals copy and say which.
+- **The four senses, which the standing figural-reading instruction requires and which four lessons
+  have now dropped.** *Catechism of the Catholic Church* **115 to 118**: the senses are the literal
+  and the spiritual, the spiritual subdividing into allegorical, moral and anagogical; 116 says the
+  literal is the foundation and 118 gives the medieval couplet (*Littera gesta docet…*). The
+  grammatical-historical rule is therefore **one hermeneutic among the living ones**, not the rule,
+  and a lesson stating it flatly asserts a contested claim in its own direction. This has now had to
+  be said **four** times (L2-N9, L3-N5, lesson 4, lesson 6).
+- **The lot is a living practice, not a hypothetical over-application.** The **Coptic Orthodox
+  Church** elects its Pope by the **altar lot**, drawn by a blindfolded child after the liturgy, most
+  recently for **Tawadros II in November 2012**; the **Moravians** used the lot for calls and
+  decisions from 1727 into the nineteenth century, and the Church of England's own
+  *Acts 1* precedent is cited on both sides. **No lesson may use "draws its leaders from a hat" or any
+  equivalent as a reductio** (3.3, 3.7). Give the reasoned account (the lot hands the choice to God
+  rather than to a majority) before disagreeing with it.
+- **Irenaeus does not predate the non-canonical gospels.** *Against Heresies* is c. 180 and
+  **1.31.1 names a Gospel of Judas in that same work** ("a fictitious history of this kind, which
+  they style the Gospel of Judas"), verified. Thomas is normally dated c. 140, Peter c. 150, and a
+  real minority (Koester, Patterson, DeConick's earliest layer) dates a core of Thomas to the 50s to
+  70s. **So the fourfold-Gospel argument postdates most of the texts it is used against**, and any
+  lesson linking Martin's RLST 152 lecture 8 must not also call the late dating unanimous, since that
+  lecture argues the other way.
+- **Datings, corrected.** **Paul's death is conventionally c. 64 to 67**, after the Great Fire of
+  Rome; **62 is the end of the two-year house arrest of Acts 28:30**, not the death. The mainstream
+  range for **John runs to about 110**, so "the latest date anyone serious gives is the mid-90s" is
+  false and the hedge in contested question 3 ("within *about* seventy years") must not be tightened
+  into an absolute. **Carson and Moo are not the whole conservative side**: **John A. T. Robinson**,
+  *Redating the New Testament* (1976), dates the whole New Testament before 70, and Wallace, Leon
+  Morris and N. T. Wright argue for a pre-70 John. Robinson was **Bishop of Woolwich**, a suffragan
+  see, and later Dean of Trinity College, Cambridge. **Papias's own date is argued, c. 95 to c. 130**,
+  so his testimony is "scholars argue about", not "history establishes".
+- **Harold Lindsell's harmonisation, stated correctly.** *The Battle for the Bible* (1976) proposed
+  that **Peter denied Jesus six times**, three before each cock crowing. "The cock crowed six times"
+  is a misstatement and makes the position sillier than it is.
+- **Markan priority does not explain double tradition.** A parable in Matthew and Luke but not Mark
+  is double-tradition material, which needs **Q** or the **Farrer hypothesis** (Luke used Matthew).
+  A lesson that scopes the synoptic problem out must still not offer Markan priority as the mechanism
+  for a Matthew-and-Luke difference.
+- **Eyewitness testimony, the conservative case's strongest current advocate**, which this course had
+  not recorded: **Richard Bauckham, *Jesus and the Eyewitnesses* (Eerdmans, 2006; 2nd ed. 2017)**,
+  argues the Gospels transmit named eyewitness testimony rather than anonymous community tradition.
+  Not opened; cite as a position held, with its critics (Judith Redman, Ehrman) named.
+- **Luke 21:20 is the detail the critical dating turns on.** Luke has "Jerusalem surrounded by
+  armies" where Mark 13:14 has "the abomination of desolation", which the critical case reads as
+  knowledge of the 70 siege and the conservative case reads as ordinary siege language from the
+  Septuagint. Quote both and let the learner see why the same verse serves both sides.
+- **Mark 4:10 to 12 is the hard verse about the form**, and no lesson teaching parables may assign it
+  without teaching it. NET: Jesus speaks in parables "so that although they look they may look but
+  not see, and although they hear they may hear but not understand, so they may not repent and be
+  forgiven", quoting Isaiah 6:9 to 10. The four standard readings (purpose, result, irony, and the
+  Isaianic-commission reading) are all live; **the lesson must not resolve it**.
+- ***Mashal*** is the Hebrew category behind "parable": it covers proverb, riddle, taunt and extended
+  comparison (Ezekiel 17:2, Psalm 78:2, Numbers 23:7), which is why a parable is not simply an
+  illustration with a moral. Free, inside the text, and it is the honest answer to "why does Jesus
+  talk like this".
+- **Luke 1:1 to 4 carries objective 1's mechanism in the evangelist's own words** and was gathered at
+  Stage 1 and paraphrased rather than quoted. NET: "Many have undertaken to compile an account of the
+  things that have been fulfilled among us… it seemed good to me as well… to write an orderly account
+  for you, most excellent Theophilus". **Acts 4:32** ("everything was held in common") and **Acts
+  5:4** ("Before it was sold, did it not belong to you? And when it was sold, was the money not at
+  your disposal?") were likewise gathered and unquoted, though the whole description-versus-
+  prescription argument about the Jerusalem community turns on 5:4.
+- **Ehrman's textbook is not "the set text at Yale", present tense.** `SOURCES.md` 28 records it from
+  **Dale Martin's RLST 152, Spring 2009**; Martin is emeritus and the course is archived. The same
+  standing instruction at line 168 covers every "is used at" claim in this course, and lessons 1, 4
+  and 6 have each been faulted for it.
+- **BibleProject running times.** Only **"The Parables of Jesus" (5:42)** is verified, at
+  bibleproject.com. YouTube oEmbed returns title, author and thumbnail but **no duration**, so no
+  other run-time in this course is verified and none may be printed. Lessons 4, 5 and 9 cut theirs.
+- **En dashes (U+2013) are invisible to the validator.** `scripts/build.mjs` checks only U+2014, so
+  a lesson can ship forty of them and pass. Lesson 6 had forty, all in verse and decade ranges;
+  lesson 1 still has eight. **Grep for both characters before committing**, and use the course's
+  " to " convention. Requested as a shared-file fix in `REVIEWS.md`.
+- **The SVG validator can be defeated a third way: an inline `<style>` block.**
+  `scripts/build.mjs` matches `fill=` and `font-size=` **as attributes on `<text>`**, so
+  `.lbl { font: 11px …; fill: #333 }` inside `<style>` is invisible to it, exactly as a `<g>` wrapper
+  is. Lesson 6's chart reported one hardcoded fill when the true count was twenty-one, and zero
+  undersized labels when all twenty-one were undersized. **Three distinct evasion routes are now
+  recorded** (lesson 3 `fill="#ffffff"`, lessons 4 and 5 `<g>` wrappers, lesson 6 CSS), so **read
+  every SVG by eye and do not trust `npm run validate` on this check.**
+
+## Added at lesson 7's Stage 4, 2026-09-06 (verified there, for later lessons to use)
+
+- **A FOURTH route past the SVG validator, and the first that defeats the size check rather than the
+  fill check.** `scripts/build.mjs` matches `font-size=` **as an attribute on `<text>`**. Lesson 7's
+  chart declared `font-size:11px` once, in the **`style` attribute on the `<svg>` root**, and carried
+  no `font-size` attribute anywhere, so `npm run validate` reported **0 undersized labels when all
+  eleven were undersized**, rendering at 10.0px against the 14px floor. The four routes now recorded
+  in this course are: `fill="#ffffff"` on a themed rect (lesson 3), a fill on a `<g>` wrapper
+  (lessons 4 and 5), an inline `<style>` block (lesson 6), and a `style` attribute on `<svg>`
+  (lesson 7). **Read every SVG by eye. The validator is not evidence on this check.**
+  The working pattern is now lesson 7's chart: viewBox `0 0 344 330`, every size as an attribute on
+  the element (15, or 16 for headings), `var(--token, #literal)` fills only, a `<desc>`, `xmlns`,
+  `font-family:inherit`, and every row named in text so nothing depends on colour.
+- **A schematic axis must say it is schematic.** Lesson 7's chart ran "AD 95" to "Christ returns"
+  with "today" in the middle, so nineteen centuries and an unknown span were drawn at the same width,
+  and the preterist bar, labelled "first century", drew about seven hundred years. It also began at
+  AD 95, which put the pre-70 date that preterism requires off the left edge of the one graphic whose
+  job was even-handedness. **Label the left end "John's day", say in the caption and the `<desc>`
+  that the line is not to scale, and read every bar back against its own label.**
+- **Encode a distinction, or stop claiming the picture shows it.** The draft drew the historicist and
+  idealist bars identically and distinguished them by colour and 50% opacity, then told the reader to
+  "look at the bars" for the difference between a sequence and a pattern. The fix is to draw it: the
+  historicist bar is now five separate blocks (eras in order) and the idealist bar one unbroken span
+  (one pattern present throughout). Also: **an element drawn at half opacity reads as "less real"**,
+  and it was the school the course's own preferred reading is closest to.
+- **Gematria, so no later lesson has to re-derive it.** Neron Kaisar in Hebrew letters: nun 50, resh
+  200, vav 6, final nun 50, qof 100, samekh 60, resh 200, summing to **666**. Drop the final nun (50),
+  which is what the Latin spelling Nero Kaisar gives, and the total is **616**. Checked by hand.
+  A lesson that tells the reader John expected them to calculate must print the table and let them
+  calculate; giving both totals and one letter value teaches nothing.
+- **P47 (Chester Beatty III) contains Revelation 13:18 and reads 666**, and is dated to the early to
+  mid third century, so **P115 is the oldest witness to the 616 reading and not the oldest copy of
+  the verse.** The lesson 7 draft's figure caption said the latter, which was false on the lesson's
+  own dating of P115. Note also the tension already recorded above: Chapa dates P115 late third or
+  early fourth century and the standard manuscript lists date it c. 225 to 275. **Print both.**
+- **Irenaeus refused to name the beast as a futurist, not as a preterist.** He held the antichrist
+  still future, which is why he says it is "more certain, and less hazardous, to await the fulfilment
+  of the prophecy". A lesson that uses his refusal to tie the number to the first century has him
+  backwards, and lesson 7's draft did that in a quiz key. He also rates **Teitan** "very probable"
+  among the three candidates, so "slightly more likely" undersells him. The ANF spelling is
+  **Euanthas**, not "Evanthas".
+- **Calvin never wrote on Revelation.** He commented on every New Testament book except Revelation
+  and 2 and 3 John, and reached the papacy-as-antichrist identification from Daniel and
+  2 Thessalonians. **Luther's** historicist outline is in the revised **1530** preface; his 1522
+  preface rejected the book. Three reviewers reached this independently. Web search only.
+- **The year-day principle is what makes historicism a method rather than a habit**: a prophetic day
+  stands for a year, on the pattern of Numbers 14:34 and Ezekiel 4:6, so the 1,260 days and forty-two
+  months of Revelation 11 to 13 map onto twelve and a half centuries. It is also the standing reading
+  of the **Seventh-day Adventist** tradition, whose scholars still work it out in print. **No lesson
+  may present historicism without it**, and lesson 7's draft gave that school no method, no living
+  defender, one criticism in the author's voice, and an appearance in the quiz only inside wrong
+  answers.
+- **The idealist reading is the oldest of the four, and this is the fifth time the figural-reading
+  instruction has had to be applied.** **Tyconius** (*Book of Rules*, c. 380s) and **Augustine**
+  (*City of God* 20) read the thousand years as the present age of the church; that was the standard
+  Western reading for a millennium, and **Andrew of Caesarea's** commentary of about 600 is still the
+  Orthodox Church's standard guide to Revelation. With the *Catechism* 115 to 118 (recorded at lesson
+  6's Stage 4), this is what any lesson owes the spiritual sense before calling it a beginner's
+  error. Web search and reference works; no primary text fetched.
+- **Gordon Fee's own commitments must be disclosed wherever he is the method-giver.** Fee was a board
+  of reference member of **Christians for Biblical Equality** and a contributing editor of
+  *Discovering Biblical Equality*, where his essay is "Hermeneutics and the Gender Debate". Lesson 7
+  used him as the neutral procedure in every section, said "We hold, with Fee" on head coverings, and
+  printed his jab at complementarians unanswered, without ever saying he was a party to the dispute.
+  This course's own rule at the Fee-and-Hayes note above already required the disclosure.
+  **For the other sides, named as positions and not opened:** Piper and Grudem (eds), *Recovering
+  Biblical Manhood and Womanhood* (1991), for the complementarian lexical case on *kephalē*; Pierce
+  and Groothuis (eds), *Discovering Biblical Equality* (2005), for the egalitarian one. **Covering-
+  keeping Christians must be allowed to name themselves too**: conservative Anabaptists, the Plymouth
+  Brethren, most Orthodox and traditional Catholic women, much of the church in Africa, India, the
+  Middle East and Latin America, and the self-described head covering movement in the West. It is the
+  largest of the three positions worldwide and was the only one of the three the draft left unnamed.
+- **Two contested renderings this course must never print as fact.** NET **Romans 16:1** calls Phoebe
+  "a **servant** of the church in Cenchrea", not a deacon; NET **Romans 16:7** reads Andronicus and
+  Junia are "well known **to** the apostles", the exclusive reading, defended in one of the longest
+  translator notes in the NET. Lesson 7 printed both the other way round, unflagged, in the paragraph
+  founding the section it then adjudicated. **Give both renderings and say the question is argued**,
+  which sharpens Fee's point about a non-uniform witness rather than blunting it.
+- **The strongest scriptural objection to the basic rule, which apocalyptic lessons must engage.**
+  **Daniel 12:4 and 12:8 to 9**: Daniel is told to "close up these words and seal the book until the
+  time of the end", says "I heard, but I did not understand", and is told the matters are "closed and
+  sealed". **1 Peter 1:10 to 12**: the prophets "searched and investigated carefully" and "were shown
+  that they were serving not themselves but you" (stop before the em dash). Apocalyptic may be the
+  one genre Scripture itself says was not fully intelligible to its first hearers, and that is what
+  futurists and historicists actually press. A lesson may still hold the rule; it may not pretend the
+  objection is not there.
+- **Apocalypses to name, so no lesson says "dozens survive" and names none.** *1 Enoch* (third to
+  first century BC, the Book of the Watchers), *4 Ezra* (in many Catholic Bibles as 2 Esdras) and
+  *2 Baruch*, both written after AD 70 and wrestling with the same fall of Jerusalem. And the
+  reader's own Bible contains one: **Daniel 7 to 12**, which is why Daniel supplies more of
+  Revelation's furniture than any other book.
+- **Brent Shaw, "The Myth of the Neronian Persecution", *Journal of Roman Studies* 105 (2015)**,
+  argues the Neronian persecution is a later construction; answered by Jones, Barrett and others, and
+  most historians still accept Tacitus. So **"History establishes" may not be used of it**, and
+  Tacitus should be dated in the sentence: he wrote about fifty years after the event. Web search.
+- **Images in Revelation 4 and 5 and where they actually come from**, because the lesson 7 draft sent
+  the reader to Isaiah 6, Ezekiel 1 and Daniel 7 and then listed two images that are in none of them.
+  The **sealed scroll written front and back** is **Ezekiel 2:9 to 10**, not Ezekiel 1. The **Lion of
+  the tribe of Judah** is **Genesis 49:9** and the **root of David** is **Isaiah 11:1 and 10**, not
+  any of the three. Placeable cleanly: the throne and elders (Daniel 7:9, Ezekiel 1:26 to 28), the
+  four living creatures (Ezekiel 1:5 to 10 with Isaiah 6:2 for the six wings), the "holy, holy, holy"
+  (Isaiah 6:3, word for word). **The sea of glass (4:6) has no clean address** (Exodus 24:10 and
+  1 Kings 7:23 are both partial), which makes it the right answer to "name one you cannot place".
+- **NET verses carrying em dashes, added to the list at lesson 5's Stage 4**: **Galatians 3:28**
+  (before "for all of you are one in Christ Jesus"), **1 Peter 1:12** (before "things angels long to
+  catch a glimpse of"), **Genesis 49:9**, **Revelation 12:9**, **Philemon 9 and 12**, **Revelation
+  1:5 and 17:16**. Quote these in fragments that stop before the dash.
+
+## Added at lesson 8's Stage 4, 2026-09-06 (verified there, for later lessons to use)
+
+- **A FIFTH route past the validator, and the first that reaches the learner as visible nonsense.**
+  A quiz option beginning with an unquoted word and a colon (`Orthodoxy: ...`) parses as a **YAML
+  mapping, not a string**, and `site/assets/app.js` renders it through `String()`, so the learner sees
+  **`[object Object]`**. `npm run validate` passes it, because its guard checks only that `options` is
+  an array of length two or more. Lesson 8 shipped a whole item that way, four options out of four.
+  **A sweep of all 50 lessons with quizzes in this repo found one other instance, in a course with
+  `status: published`.** It is filed as shared-file request 12 in `REVIEWS.md` and as a separate task,
+  and was not edited from this course. **Before committing any lesson, parse the frontmatter and
+  assert every option is a string, not just that the array exists.** Note the near miss that makes
+  this findable: when the colon breaks the *whole* frontmatter, validate does report it; the dangerous
+  case is the one where the file still parses and one value silently becomes a map.
+- **Block bodies need blank lines between paragraphs, and a body that starts with a number and a full
+  stop becomes an ordered list.** `scripts/build.mjs` renders `:::predict`, `:::checkpoint`,
+  `:::callout` and `:::exercise` bodies through `marked.parse`, with `breaks: false`, so **single
+  newlines inside a block collapse into one run-on paragraph**. Three checkpoint bodies in lesson 8,
+  one in lesson 4 and two in lesson 7 were shipping as walls of 160 to 290 words for this reason, and
+  all six are now fixed. Separately, a body opening `367. It's a letter from Athanasius` renders as
+  `<ol start="367">` with the sentence as a list item. **`:::figure` and `:::video` are different**:
+  they use `marked.parseInline`, so their captions must stay a single paragraph.
+  This is the same family as the poetry bug recorded at lesson 5's Stage 4, and the check is the same:
+  run the body through marked with the project's own options and count the paragraphs.
+- **Brenton is the public-domain Septuagint and it covers the deuterocanon this course needs.**
+  Fetched and verified at this pass from the mirror recorded at lesson 4's Stage 4. **Prologue to
+  Sirach**, all three tripartite references: "delivered unto us by the law and the prophets, and by
+  others that have followed their steps"; "the law, and the prophets, and other books of our fathers";
+  "the law itself, and the prophets, and the rest of the books". It also carries "in the eight and
+  thirtieth year coming into Egypt, when Euergetes was king", which is the basis for the conventional
+  132 BC and which dates **his arrival, not the preface**. **2 Maccabees 7:9**: "the King of the world
+  shall raise us up, who have died for his laws, unto everlasting life." **2 Maccabees 12:44**: "for
+  if he had not hoped that they that were slain should have risen again, it had been **superfluous and
+  vain** to pray for the dead." Note that last wording: the NRSVue reads "superfluous and foolish", and
+  lesson 8's draft quoted the NRSVue, which 4.7 does not permit.
+- **The Council of Florence, 1442, is the fact the Catholic case turns on and the course had missed
+  it.** Bull *Cantate Domino*, 4 February 1442, listed the whole canon with the deuterocanonical books
+  in it. **It was a general council and it sat seventy-five years before Luther's theses**, and Trent's
+  1546 list repeats it. Innocent I sent Exsuperius of Toulouse a similar list in 405. Without Florence,
+  "Trent defined rather than added" is an assertion; with it, it is a demonstration, and any timeline
+  that draws a blank thousand-year gap between Jerome and Trent is asserting a magisterial vacuum that
+  did not exist. Not fetched here; the fact-check should confirm the decree's text when egress allows.
+- **Luther's New Testament, which a Catholic reader raises first and this course had never mentioned.**
+  In the September Testament of 1522 he moved **Hebrews, James, Jude and Revelation** to the end and
+  left them out of the numbered contents while the other twenty-three were numbered; the general
+  preface said those four "have from ancient times had a different reputation". **The "epistle of
+  straw" phrase was in that general preface, not in the preface to James**, and he **dropped it from
+  every edition after 1537**. He removed nothing and no Lutheran Bible since has. The point cuts both
+  ways and a lesson should say so: he was applying Eusebius's own category of disputed books, and he
+  also made himself the kind of authority he said the church should not be.
+- **"The edges settled by 400" is true of the Latin and Alexandrian churches and false elsewhere.**
+  The **Peshitta**, the standard Syriac New Testament from the early fifth century, has **twenty-two
+  books** and omits 2 Peter, 2 and 3 John, Jude and Revelation; those five reached Syriac only in the
+  Philoxenian (508) and Harklean (616) versions, and **the Church of the East has never received
+  Revelation**. Any lesson that says the canon closed in the fourth century owes the reader that
+  qualifier, especially one that already tells them Old Testament canons still vary.
+- **Eusebius has FOUR categories, not three**, and the fourth is the one the "lost gospels were
+  suppressed" argument actually needs: recognised, disputed "which are nevertheless recognized by
+  many", spurious (the Shepherd, Barnabas, the Didache), and **the forgeries circulated by heretics,
+  where the Gospels of Peter, Thomas and Matthias sit**. He also names **Revelation in both the
+  recognised and the rejected lists**, which is stronger evidence for indecision than quoting either
+  alone. And **the *History* was substantially written before Nicaea**, in editions of about 313, 316
+  and 324 to 325, with Book 3 most likely in the earliest. That correction **strengthens** the
+  anti-Nicaea argument rather than weakening it: he revised after the council and left 3.25 standing.
+- **Marcion**, corrected: he was **himself the shipowner** (*nauclerus*, per Rhodon and Tertullian) and
+  by tradition **the son of the bishop of Sinope**, who expelled him. Lesson 8's draft inverted both.
+  The dropped detail is the better one, because it makes Marcion an insider dispute. **And what his
+  edit proves is argued**: Harnack's case that you cannot abridge a collection that does not exist,
+  against von Campenhausen's that no normative collection is attested before Marcion and the lists are
+  a response to him, with Harnack himself granting part of the second. A minority (BeDuhn, Klinghardt,
+  Vinzent) argues Marcion's gospel is prior to canonical Luke.
+- **The ecclesial account of what a canon is, which this course had left out of a section headed "two
+  live positions".** Catholic and Orthodox theology holds that a canon presupposes an authority
+  competent to recognise one, because the question "which books" cannot be answered by the books
+  themselves. Its sharp form is the question put to Protestants: with no inspired list anywhere in
+  Scripture, you have a fallible collection of infallible books, received from the Church whose
+  judgement you otherwise decline. **Kruger's self-authenticating model is in large part the answer to
+  that question**, so a lesson that gives the answer without the question has not presented either.
+- **The Muratorian Fragment's traditional range is c. 170 to 200**, not 180 to 200: Metzger's own
+  headnote to the translation this course cites dates the list to about 170. And the Sundberg and
+  Hahneman case deserves stating at strength (the Fragment's shape resembles the fourth-century
+  Eastern lists, no comparable Western list survives that early, and "in our times" may be inherited),
+  because 3.1 forbids resolving a contested empirical question by editorial preference. **Rothschild's
+  2022 critical edition keeps the late case in play** and had been cited in this course's sources
+  while never appearing in a lesson body.
+- **Sundberg's argument cuts both ways and this course was using half of it.** The case that dissolved
+  the "Alexandrian canon" is Sundberg's (*The Old Testament of the Early Church*, 1964), and his
+  conclusion was that in the first century **neither** community had a closed list: no Alexandrian
+  canon, and no closed Palestinian one either. Reporting only the half that costs the Catholic side an
+  argument, while asserting a closed first-century Hebrew canon elsewhere in the same lesson, is the
+  motivated-framing failure 3.3 names.
+- **Books that may not be quoted or made authorities, added to the list from lesson 7.** `SOURCES.md`
+  records **Bruce, Kruger, McDonald and Ware** as not opened for this course. Lesson 8's note 5 made
+  Bruce the authority for five specific facts the research file does not record him supporting,
+  including the absence of canon business at Nicaea and the Alexandrian-canon doubt, across five call
+  sites. **Bruce is also an evangelical Protestant whose stated thesis is the recognition model this
+  course holds**, so he is a party to the dispute he is used to adjudicate and must be disclosed where
+  he is cited approvingly, exactly as lesson 7's Stage 4 required for Fee.
+  **McDonald's publisher is Hendrickson, not Baker**, in the 2007 third edition; the error was in this
+  file and in three places in the lesson.
+- **The transmarina clause is single-manuscript.** The Hippo and Carthage request that "the church
+  across the sea" confirm the list survives in one manuscript strand rather than in every copy. The
+  argument built on it is good, and the hedge belongs in the body rather than only in a source note.

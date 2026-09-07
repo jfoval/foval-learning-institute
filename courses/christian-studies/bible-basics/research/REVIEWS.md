@@ -1398,3 +1398,3420 @@ choice being made and regretted in the same paragraph.
   undersized SVG labels or hardcoded dark fills. Lesson 3 is now clean and its chart is the working
   pattern (narrow viewBox, labels outside the bars with swatches, `var()` fills, a `<desc>`), but
   fixing the rest is a separate pass and would have buried this one.
+
+---
+
+## Lesson 4, "Covenant made, covenant enforced" — Stage 4 round 1, 2026-09-06
+
+Five reviewers in fresh context: depth (Part 1), fact-check, neutrality (Part 3 and 3.7), voice
+(style guide, 4.5, 4.6), pedagogy (Part 4).
+
+**Verdict: not clean for publish.** Fifty findings, eleven blocking. This is the best-*researched*
+draft in the course, and it is the worst for regression: **six blocking findings are items already
+resolved earlier in this same course**, and one is a wording error that `SOURCES.md` records as
+found and fixed two lessons ago. Lesson 3's review concluded that "the drafter is not reading the
+resolved findings from previous lessons before drafting the next one." Lesson 4 is the proof.
+
+The Isaiah 7:14 section is the strongest standpoint writing in the course so far and must survive
+the revision almost untouched. The Deuteronomy 28 against Amos 4 mechanism is the best teaching in
+the course, and it rests on a contested dating the lesson states as settled.
+
+### Environment note, which constrains this round and the next eight
+
+The session's network policy blocks `labs.bible.org`, `sefaria.org`, `biblegateway.com`,
+`oyc.yale.edu`, `commons.wikimedia.org`, `newadvent.org`, `youtube.com` and `en.wikipedia.org` at
+the proxy, from curl and from the fetch tool alike. So the `curl` recipe in 4.7 and in `SOURCES.md`
+line 163 **does not work in this environment**. What does work: `raw.githubusercontent.com`, and web
+search. NET, JPS 1917, Brenton, the Sefaria commentary exports and the public-domain confessional
+texts were verified against mirrors on raw GitHub and cross-checked against the wordings this course
+already verified from the bible.org API in lessons 2, 4 and 11. Items reachable by neither route are
+marked **unverified in this environment** below rather than passed, and are the fact-check debt this
+round leaves behind.
+
+### BLOCKING
+
+**L4-B1. The self-check prints its own answer in plain body text, for the fourth lesson running.**
+Line 159: "Now do verse 19 yourself before reading on." Line 161, the next visible line: "Here's my
+answer. It isn't renewed..." On a phone the answer is the next thing on screen. This is L1-V3,
+lesson 2's line 254 and L3-B1 in the same shape, caught independently by four of the five reviewers.
+It sits on the only gap in the only worked example that has one, and on objective 1's single
+unaided performance. Compounded: the prompt is effectively a yes/no, and "And if it isn't"
+pre-announces the answer, so even a reader who stops is not predicting anything (the L3-P5 class).
+
+**L4-B2. The lesson's central mechanism rests on a contested dating asserted as settled, and the
+lesson then denies in writing that it depends on it.** Line 185 hedges once, correctly: "Every
+prophet had it, **or the tradition behind it**, in his bones." Every other statement drops the hedge:
+"the prophets never stopped reading it" (101), "He is reading the treaty's penalty clause aloud"
+(185), "pointing at the last line of a contract his hearers had signed" (254), the SVG's "Amos is
+reading the covenant's own terms back to Israel" (251), and Q5's "Deuteronomy 28:41 **had already
+named** captivity" (54). Then line 359: "a question this lesson deliberately left alone... **nothing
+above depends on how you answer it**." That is false, and it is L3-N4's flagged phrasing verbatim
+one lesson later.
+
+On the majority critical view the Deuteronomic corpus is seventh-century, Amos preached around 760,
+and the dependence runs the other way: Deuteronomy 28 and Amos draw on a shared stock of covenant
+sanctions, with Deuteronomy 28's curse sequence closer to first-millennium neo-Assyrian treaty
+curses than to the second-millennium Hittite ones the lesson cites. `SOURCES.md` contested question
+2 classes Pentateuch dating as **argued**. This is the hunted defect in its most consequential form
+yet: the three-way sort is applied with real care where the anticipated objection is Jewish
+(295, 319, 322) and dropped entirely where the anticipated objection is a critical scholar's.
+
+**L4-B3. "Every item in Amos's list is in Deuteronomy's" is false against the lesson's own block
+quote, and the chart is built to conceal it.** Line 254 makes the universal claim. Line 213 quotes
+Amos 4:11, "I overthrew some of you the way God overthrew Sodom and Gomorrah"; Deuteronomy 28 has no
+Sodom sanction (29:23 does, a different chapter). The SVG's right column has five rows for six
+quoted items, silently dropping 4:11. Separately the chart **uses 28:38 twice** (row 1 "little
+harvest", row 4 "locusts") and **28:22 twice** (row 3 "blight, mildew", row 5 "disease, sword") to
+manufacture a six-to-six match, so six rows are drawn from four distinct verses. Deuteronomy 28:38 is
+one clause about locusts eating the seed and cannot also be the source for Amos 4:6's famine; the
+`<desc>` compounds it by naming that item "famine", and Q2's explanation treats 28:38 as a locust
+verse, so the chart contradicts the quiz.
+
+**L4-B4. Every data label and every connector in the chart disappears on the dark theme, and the
+validator cannot see it.** Lines 226 and 234, `<g font-size="11" fill="#0f2a4a">`, wrap eleven
+labels; line 241, `<g stroke="#8b1e2d">`, wraps five connector lines. `scripts/build.mjs` matches
+fills on `<text>`, not on a `<g>` wrapper, so all sixteen are invisible to `npm run validate`.
+`styles.css` sets `--bg: #0c1220` in dark mode, giving roughly 1.3:1 for the labels and 1.9:1 for
+the lines. What survives in dark mode is the frame and the punchline with the entire content gone.
+Third SVG contrast failure in this course the linter could not see (L1-V2, L3-B5).
+Separately every label is font-size 10, 11 or 12 against the 15 floor, and in a `0 0 360 330`
+viewBox at 360px phone width (content box 328px, scale 0.911) they render at **9.1 to 10.9px**. The
+two-column layout cannot survive legible type; the fix is a redraw, not a font bump.
+
+**L4-B5. The chart completes exercise part 1 and prints its own conclusion before the reader is
+asked the question.** The chart prints every pairing the exercise asks the learner to make, and its
+footer prints the finding ("Five sanctions have already fallen. One remains") which line 254 then
+delivers a second time as prose. Exercise part 1 concedes it: "the chart above will help, but do it
+from the text". `OUTLINE.md` convention 6 requires practice on a passage the lesson did not cover;
+both passages are quoted in full in the body. Objective 3's only practice is transcription. Same
+class as L2-B1 (a diagram supplying the answer to its own assessment) and L3-V7.
+
+**L4-B6. Two objectives are stated, modelled and tested cold, and a third block of teaching has no
+objective at all. Fourth lesson running.** Objective 2 (near and far horizons) is taught at 277,
+modelled once, and practised by no predict, no checkpoint and no exercise part, then tested cold in
+Q2 and Q3. Objective 3 never puts a wrong reading in front of the learner outside the quiz.
+Objective 4's Isaiah 53 half has a callout, no practice and no quiz item. This is L1-D4, L2-B4 and
+L3-B4 a fourth time.
+Worse: `OUTLINE.md`'s own fourth objective, "state the range of views on how the Old Testament
+relates to the New in each view's own terms", was **dropped from the frontmatter while its 370 words
+of teaching shipped** (133 to 145). It carries contested question 5, which lesson 2's fix record
+explicitly handed to lesson 4, and it has no objective, no predict, no checkpoint, no exercise part
+and no quiz item. Its one concrete application is deferred to lesson 7. It is the largest block of
+teaching in the lesson with zero assessment, and at 400 words with no payoff it is the only stretch
+that reads as padding under 1.3.
+
+**L4-B7. Six sources are presented as authorities that `SOURCES.md` records as unopened or read only
+in summary.** Ryrie (line 139, source 13; SOURCES 262 "the book not opened"), Gentry and Wellum
+(141, source 14; SOURCES 263 "Book not opened"), Blaising and Bock (141, source 15; SOURCES 264
+"Book not opened"), Mendenhall (92, source 5; SOURCES 255 "the article itself not opened"),
+Westminster (123, source 11; SOURCES 261 "fetched as summaries", fact-check to confirm against a
+printed edition), Radak (307, source 24; SOURCES 269 "read via summary", and the lesson's footnote
+says "read at Sefaria (Hebrew)"). Go Deeper compounds it with an unsourced superlative about an
+unopened book: Gentry and Wellum's opening chapters "are the clearest map of the frameworks section
+above". The *content* checks out in every case, so this is a sourcing-integrity problem rather than
+an error, which is the class `BACKLOG.md` names as the worst.
+
+**L4-B8. The Tanakh is quoted from the copyrighted JPS, against 4.7.** Line 297 and source 20 quote
+*Tanakh: The Holy Scriptures* (JPS 1985, gender-sensitive edition 2023) for Isaiah 7:14. 4.7 requires
+**JPS 1917**, which is public domain, and `SOURCES.md` line 163 records the exact trap and the v3
+API recipe that avoids it. This is the passage in the course where the Jewish reading is most
+load-bearing, so it is the worst place to be quoting a text the institute's CC-BY-SA licence cannot
+carry. Same class as L1-B1, which forced the whole course off the ESV.
+
+**L4-B9. The quiz fails 4.3 as measured: two of six items use a case not in the text.** Q4 restates
+line 131 (the parapet, same verse, same fix). Q5 restates line 254 and its key verse is printed in
+the chart. Q6 is line 319 chopped into four options, and checkpoint 321 has already run the same
+sort on the same verse. Q1 is misconception 3 (line 335) with Leviticus 11 substituted for shellfish.
+Only Q2 (Joel) and Q3 (Hosea 11:1) are fresh. L1-P1, L2-B3 and L3-B6 a fourth time.
+Shape tells: Q3, Q4 and Q5 each stack three, with the key the only option that hedges, the only one
+without an absolute, and the only one that performs the method. Q2's option C carries the item's only
+absolute ("the prophets never spoke about literal plagues in their own day") and hands a free
+elimination. Option *lengths* are levelled much better than lesson 3's, which is real progress; the
+drafter has learned to level length and not yet to level shape.
+
+**L4-B10. Zero in-body links, against four direct "open this passage" commands and about twenty
+passage citations.** The file's only three Markdown links are in Go deeper and Sources. Line 348 says
+"in your own Bible", which concedes the defect and blocks the whole exercise for anyone without one.
+Eleven of the 27 source entries name a free website (Sefaria, oyc.yale.edu, newadvent, opc.org,
+ellopos) and give no address, so the lesson's own method, which depends on the reader checking Rashi
+and Ibn Ezra, gives them one link to one verse. L1-V5 and L3-V6 a fourth time. Note the validator
+does **not** warn here, because the Go Deeper links satisfy its check, so this passes
+`npm run validate` and still fails 4.5.
+
+**L4-B11. `minutes: 65` against a measured 115 to 155.** Four reviewers measured independently and
+landed at 100 to 120, 115 to 125, 134 to 159 and 135 to 155. The arithmetic is self-evidently wrong
+as shipped: the exercise's own headnote claims 35 of the 65, leaving 30 minutes for 7,100 words plus
+13 minutes of video, five passages of external reading, six hidden blocks, free recall and a
+six-item quiz with 630 words of explanations. The worst single estimate is inside the exercise:
+"the others ten each" for a task that means scanning three chapters of Exodus for a law the New
+Testament never mentions and then writing three comparative paragraphs.
+
+### Facts wrong
+
+**L4-F1. Brenton is misquoted, in the direction that favours the course's own reading.** Line 297
+gives the Septuagint as "behold, **the** virgin shall conceive in the womb". Brenton reads "behold,
+**a** virgin shall conceive in the womb". The definite article is the whole force of Matthew 1:23's
+"The virgin", quoted fourteen lines later, so the alteration strengthens the Christian case with a
+word Brenton does not carry. **`SOURCES.md` line 266 carries the same altered wording** and must be
+fixed at source or lesson 11 inherits it. If the lesson wants the article it must argue it from the
+Greek (ἡ παρθένος) and say so.
+
+**L4-F2. "Note the present tense in both: she is already pregnant" is false against the course's own
+Bible.** Line 297. NET reads "this young woman **is about to conceive**", an imminent future; JPS
+1917 reads "shall conceive", also future. Only the 1985/2023 JPS the lesson should not be quoting
+says "is with child". Once L4-B8 is fixed the sentence is wrong about both texts, and it collapses
+the contrast the paragraph is built on, since the Septuagint is then offered as the *future*-tense
+reading against a present tense that no longer exists. Rashi says the opposite in the same breath,
+on הרה at 7:14: "This is actually the future, as we find concerning Manoah's wife."
+
+**L4-F3. The Rashi quotation at Isaiah 53:3 is not what Rashi says.** Line 326 and source 26 give
+"characterizes all Israel as a single entity". The Judaica Press text Sefaria carries reads "he
+**mentions all Israel as one man**", and cites 44:1 as well as 44:2. The substance the lesson draws
+is right; the quoted string is in no edition found. **`SOURCES.md` line 271 carries the same invented
+wording.**
+
+**L4-F4. The Hayes *riv* quotation is used for the reverse of what it says.** Line 263, after
+arguing that **Amos 5:21 to 24** is a lawsuit: "Hayes flags the form in Hosea and Isaiah **as well**:
+'he's now the first to couch his charge in the form of this formal *riv*, or lawsuit.'" In lecture 17
+that sentence is about **Hosea**, and its point is that Hosea is *the first* to use the form, which
+on her account excludes Amos, the prophet the lesson has just applied it to. "As well" inverts her
+claim into corroboration. The pronoun "he's" has no antecedent anywhere in the lesson. Hayes locates
+the *riv* at Hosea 4:1 to 3, which is the passage the lesson's own checkpoint uses without crediting
+her. The quotation is also **not recorded in `SOURCES.md`**, which logs from lecture 17 only "the
+*riv* (lawsuit) form".
+On the substance: Amos 5:21 to 24 has neither summons nor witnesses, and the classic *riv* passages
+(Micah 6:1 to 8, Hosea 4:1 to 3, Isaiah 1:2 to 20) have both. The lesson's own checkpoint and
+exercise use the genuine cases; the body's example is the odd one out.
+
+**L4-F5. Isaiah 8:8 is made to say the opposite of what it says.** Lines 295 and 317: Immanuel comes
+back at 8:8 "as the reason Judah will survive" and is "invoked at 8:8 over the whole land". NET 8:8
+is the Assyrian flood reaching Judah's neck; whether the outspread wings are the invader's or God's
+is argued, that the verse sits inside the judgment oracle is not. 8:10 does carry the reassurance,
+and line 311 rests on 8:10 alone, correctly.
+
+**L4-F6. "Three words" is five.** Line 177: Fee and Stuart's chapter title "says it in three words:
+'Enforcing the Covenant in Israel'". The parallel claim about "THINK ORACLES" being two words is
+correct.
+
+**L4-F7. Exercise task 1 cannot be done as set.** Line 348 assigns Deuteronomy 28:15 to 24 and asks
+the learner to match every Amos sanction to its Deuteronomy verse. The locusts of Amos 4:9 are at
+28:38 and 28:42, outside the assigned reading. A learner who does exactly what they are told fails
+the task and blames themselves.
+
+**L4-F8. The predict answer claims 28:15 to 24 contains locusts.** Line 196, "almost nobody thinks
+of... locusts. The list below has all of them." 28:15 to 24 has blight and mildew, drought and
+disease, and no locusts; only the bullet list, which silently jumps to 28:38 to 42, has them.
+
+**L4-F9. Amos 4:7 is bulleted as carrying the refrain.** Lines 208 to 215 say the list is one "each
+closed with the same refrain" and bullet 4:7. In the NET the drought refrain closes **4:8**. The SVG
+gets this right ("4:7-8 rain withheld"), so the prose contradicts the chart.
+
+**L4-F10. Two video running times are asserted without support.** "Six animated minutes" (168) and
+"Seven minutes" (272). `SOURCES.md` line 276 records both videos verified "by YouTube oEmbed", which
+returns title and channel and **no duration**. Lesson 9 hit this exact wall and its recorded
+resolution was to say "long" rather than print a figure. Both IDs do resolve to BibleProject videos
+with the titles given. **Unverified in this environment.**
+
+**L4-F11. Q6's explanation settles what the lesson's own checkpoint calls argued.** Line 63 says
+options A and B are "matters of record" and that "Jews and Christians agree on what each says",
+where option B glosses *parthenos* as "meaning virgin". Checkpoint 321 says the opposite, and says
+it well: what the translators meant by it is argued, and Hayes calls it a mistranslation. The quiz
+asserts agreement where the body has just documented disagreement, in the direction that favours the
+course's position.
+
+**L4-F12. Two non-NET wordings in prose describing NET passages.** Line 112, checkpoint answer, "the
+nations left as **thorns**": NET Judges 2:3 reads "They will **ensnare** you and their gods will
+**lure you away**"; "thorns in your sides" is ESV/KJV, and the stem two lines above correctly says
+"snare". Line 82, "his **treasured people among the nations**": NET Exodus 19:5 reads "my **special
+possession out of all the nations**"; "treasured possession" is ESV, and the preposition shifts the
+sense from *chosen out of* to *treasured while among*.
+
+**L4-F13. Deuteronomy 28:21 is truncated mid-clause without an ellipsis.** Line 201 ends "until he
+has completely removed you from the land"; NET continues "you are about to possess". The cut turns a
+promise about a land not yet entered into a bare removal.
+
+**L4-F14. Untagged and unfootnoted scripture.** Line 265 quotes Hosea 6:6 as "I want mercy and not
+sacrifice" with neither a marker nor a `(NET)` tag. The wording is correct NET and the references
+(Matthew 9:13 and 12:7) are right. Mark 7:19 at line 119 shares marker [9] with Matthew 5:17 and only
+Matthew carries the tag.
+
+**L4-F15. Isaiah 7:14 and 7:16 are block-quoted with verse 15 dropped and no ellipsis or note**
+(289 to 291).
+
+**L4-F16. Mendenhall's citation lacks the issue number** (vol. 17, no. 3, September 1954), and the
+page range is given as 49 to 76 by the University of Chicago Press record against the lesson's 50
+to 76.
+
+**L4-F17. Matthew 2:15 in quiz Q3's stem is ESV/NIV wording, in an item whose whole subject is what
+Matthew's quotation says.** Line 28 prints "Out of Egypt I called my son". NET Matthew 2:15 reads:
+"In this way what was spoken by the Lord through the prophet was fulfilled: **'I called my Son out
+of Egypt.'**" Word order and capitalisation both differ. NET Hosea 11:1 reads "and **I summoned my
+son out of Egypt**", so the stem's wording matches *neither* verse, which blunts the item's own point
+that Matthew and Hosea are the same sentence read two ways. Conversion debris of the L2-F1 class, in
+a quiz stem. Fix: quote Matthew as the NET has him and give Hosea's own wording alongside, which
+makes the colleague's objection sharper rather than weaker.
+
+**L4-F18 (raised, then withdrawn; recorded so it is not "fixed" by mistake later).** Isaiah 7:14's
+opening clause was challenged during this round: the lesson prints "For this reason **the Lord**
+himself will give you a confirming sign", and a web search of Biblia's NET returns "For this reason
+**the sovereign master** himself". **The lesson is correct.** "The sovereign master" is **NET1**
+(1996/2005), which rendered *Adonai* that way and *tseva'ot* as "the LORD who commands armies";
+**NET2 (2019)**, the edition this course cites, changed both to "the Lord" and "the Lord of Heaven's
+Armies". Two independent mirrors agree with the lesson verbatim, and the whole-book diagnostic
+confirms the edition: in Isaiah, "Heaven's Armies" 62 hits, "sovereign master" 0, "who commands
+armies" 0. Biblia's online NET is the older text. **Do not "correct" this verse.**
+One cheap fix it does argue for: Isaiah 7:14 hangs off footnote **1**, which cites the NET
+generically, while footnote **17** is the one that names the 2nd edition. Since NET1 and NET2 differ
+at exactly this verse, footnote 1 should name the 2nd edition too, or the next reader repeats the
+search and reaches the wrong conclusion.
+
+### Neutrality (3.1, 3.2, 3.3, 3.7)
+
+Perspectives checked: Jewish (Tanakh as Tanakh, JPS 1917 against the 1985/2023 NJPS, Rashi, Ibn Ezra,
+Radak, Rashi on 53 and Targum Jonathan, Justin's Trypho as a Christian-authored construction, the
+halakhic reality of the 613 including Nachmanides' *hassagot* and the Behag's rival enumeration,
+mitzvot inoperable without the Temple, Oral Torah, and the Orthodox/Conservative/Reform difference
+over binding ritual mitzvot); dispensationalist and covenant theologian; Catholic and Orthodox;
+other Protestants the "range" omits (Lutheran law and gospel and the three uses, Anglican Article
+VII, Anabaptist, theonomy, New Covenant Theology); critical scholar (Mendenhall against McCarthy and
+the first-millennium Assyrian parallels, Wellhausen on the legal corpora, Deuteronomy 28 against
+Amos, redaction in Amos); conservative evangelical inerrantist (what has been conceded on *almah*,
+Kaiser's single-meaning position, Motyer and Young on the sign to the house of David); lay devotional
+reader (the 3.3 irony check lesson 3 failed).
+
+**L4-N1** is L4-B2.
+
+**L4-N2. The range of Christian proposals is Reformed evangelicalism plus one medieval Catholic used
+as a historical exhibit. Third recurrence.** Line 119 promises "the real range". Grepped: "Catholic",
+"Orthodox", "Catechism", "Lutheran", "Anabaptist", "patristic" and "church fathers" appear **zero
+times**. What is given is Aquinas handed straight to Westminster, Westminster, Fee and Stuart,
+covenant theology (Westminster again), Ryrie, Gentry and Wellum, Blaising and Bock. One confessional
+family. A Catholic reader will notice that the threefold division the lesson calls "the oldest and
+most widespread Christian tool" is **current magisterial teaching** (*Catechism* 1961 to 1974 on the
+Old Law) presented as a Presbyterian instrument with a medieval provenance; an Anglican that Article
+VII states the same division in a confession never named; a Lutheran that law and gospel and the
+three uses, one of the two great Protestant answers to this exact question, is absent entirely.
+L2-N6 and L3-N7/N10 for the third time, and lesson 2's fix pass already established the precedent
+and fetched the sources (`SOURCES.md` 160, 188, 344).
+
+**L4-N3. The Christian reading of Isaiah 7:14 is made without a single named Christian exegete,
+while the Jewish reading gets four. 3.7's other half fails.** The Jewish section quotes Rashi, Ibn
+Ezra and Radak with dates and places, plus Trypho, plus Hayes. The Christian section (315 to 317)
+names nobody and quotes nobody, then closes "we should stop saying it is", which is a rebuke to
+fellow Christians delivered in the teacher's voice while the tradition being rebuked is never allowed
+to state its case. Missing: the lexical argument (no instance of *almah* in the Hebrew Bible
+demonstrably denotes a married woman; Rebekah is *almah* at Genesis 24:43 and *betulah* at 24:16);
+the plural address of 7:13 to "the house of David" against the singular of 7:11, which is the
+standard conservative argument that the sign exceeds Ahaz; and 7:11's "deep as Sheol or high as
+heaven" as a sign meant to be extraordinary. Named primary sources run 5 to 0.
+3.7: "a lesson that softens the faith's case fails as surely as one that asserts a contested claim
+as settled."
+
+**L4-N4. Hayes is the closing authority inside "The Jewish reading", fusing critical method with
+Judaism for the fourth time.** Line 309. "Teaching from the critical side" is an improvement on
+lessons 1 and 2, but the placement still makes a historical-critical verdict the capstone of a
+section headed "The Jewish reading". Hayes is not a spokesperson for Rashi, Ibn Ezra and Radak, and
+her "mistranslation" verdict is a philological judgement of a kind the medieval commentators did not
+make in those terms. L1-N4, L2-N8, L3-N9. Separately line 92 has her "teaching the Hebrew Bible at
+Yale"; she retired in 2023 and `SOURCES.md` 168 instructs "who taught". Lessons 1 and 3 comply; third
+recurrence. Go Deeper's "a critical scholar who never asks you to believe or disbelieve" is the same
+conflation again.
+
+**L4-N5. The 613 are handled as devotion and never as halakhah, and the Jewish reader is spoken for
+rather than heard.** Line 87 "the arithmetic itself is a small sermon"; line 149 "not a burden tallied
+but a treasure inventoried... they hear the wrong question being asked about the right book". Three
+problems. (a) The halakhic reality is absent: that the count is disputed inside the tradition
+(Nachmanides' *hassagot*, the Behag's enumeration, Ibn Ezra's own doubt that the number is more than
+homiletical), that a large proportion of the 613 are inoperable without the Temple, and that the
+operative category is halakhah worked out through the Oral Torah rather than a list. (b) The reader
+is spoken for, in the drafter's voice, with no Jewish source behind the sentence, and Psalms 19 and
+119 are invoked as "Israel's own voice" and neither is quoted. This is L3-N9, resolved one lesson
+earlier by quoting JPS 1917 with a Sefaria link. (c) "A Jewish reader" is a monolith: line 163's flat
+"Both verses are commandments; both are kept" is Orthodox practice, and a Reform reader would not
+recognise it as a description of what they believe, which is 3.2 failing.
+
+**L4-N6. Q1's explanation attaches a heresy label to a position serious Christians hold.** Line 18:
+"Option A is Marcion's move in modern dress." Option A is "The whole Old Testament law was abolished
+at the cross". Classical dispensationalism does teach that the Mosaic law as a code terminated and
+that the believer stands under the law of Christ; New Covenant Theology holds something close. The
+lesson has just said at 145 that all four frameworks are reasonable. Marcion's actual claim was that
+the Old Testament's God is a different God, which is a different thing. The misconception section at
+333 handles this well and the quiz contradicts it.
+
+**L4-N7. Q3 grades one side of contested question 5 correct and marks a mainstream evangelical
+position wrong without naming it.** Option B ("Scripture cannot read a verse in a way its author
+never intended") is a compressed but recognisable statement of the single-meaning position, which is
+Kaiser's published view and is what a dispensationalist's second *sine qua non* is meant to produce.
+The lesson grades it incorrect without ever naming it as a position. A dispensationalist reader is
+told at 145 that his framework is reasonable and at 36 that its hermeneutic gets the answer wrong.
+L2-B5 recurring, in the covenant direction, in a quiz key.
+
+**L4-N8. The Hittite treaty parallel is given as settled, in the direction that favours an early
+date.** Lines 92 to 103 hedge on completeness ("The form is not exact. It is recognisable") and not
+on identification. The competing position, that the closest parallels for the curse section are the
+first-millennium neo-Assyrian vassal treaties (Esarhaddon's succession treaty against Deuteronomy 28
+is the standard comparison), is not mentioned, in a lesson whose method is to label what is argued
+and whose treaty argument does load-bearing work for L4-B2's mechanism.
+
+**L4-N9. Mild irony aimed one way only (3.3), the lesson 3 tic returning without its counterweight.**
+"Verse 8 is quoted on posters" (350) is L3-N13's "a different story from the one on the bookmark",
+which lesson 3 answered with an explicit counterweight ("None of that is a sneer at the bookmark").
+Also line 263, "the reader who wants to may hear Christianity or modern secular justice in it", which
+dismisses by construction rather than by argument and quietly writes off Amos 5:24's long use in the
+civil rights tradition without engaging whether that is a legitimate far-horizon application. Line
+256 "Now the oracle everyone quotes" and line 74's "quoting Leviticus at their neighbours while
+eating shrimp" are the same register. Line 165's "rummaging in it" talks down to the reader the
+lesson has just described.
+
+**L4-N10. Trypho is a Christian author's Jewish interlocutor**, and line 309 rests "The Jewish reading
+has been stated, in those terms, for as long as there have been Christians to state it to" on Justin's
+literary construction. One clause fixes it. (Worth using: Trypho's own candidate is Hezekiah, which
+is Radak's, so the loop closes.)
+
+### Depth (Part 1)
+
+**L4-D1. Ten researched items gathered and unused.** In order of cost:
+1. **Köstenberger and Patterson's hermeneutical triad.** `SOURCES.md` 14 names it as the
+   graduate-level check on the genre lessons; lesson 3's fix record deferred it with the words
+   "Recorded for the lesson 4 draft". **It did not land**, in body, sources or Go Deeper. It is also
+   the natural spine here: history (the treaty world, 734 BC), literature (oracle and lawsuit form),
+   theology (what the covenant is for) is the triad, and the lesson performs all three unnamed.
+2. **Beale's observation** that the Old Testament authors did not exhaustively grasp what they wrote,
+   recorded in contested question 5 as **the point all four frameworks agree on**. Unused, which
+   makes the Isaiah 7:14 case weaker than the research supports: the fuller sense is argued as the
+   course's own faith reading when the research records it as common ground.
+3. **Jeremiah 31:31 to 33**, listed in source 9 and never quoted, though proposal 2's entire test
+   turns on what the new covenant renews. `SOURCES.md` 193 records the NET wording as already
+   verified for lesson 2.
+4. **Longman and Dillard**, assigned by `OUTLINE.md` 79. Entirely absent, not even in Go Deeper, in a
+   lesson that sends the learner into Deuteronomy 28, Amos 4 and 5, Micah 6 and three chapters of
+   Exodus with no way to get their bearings.
+5. ***The Jewish Study Bible*** note on Isaiah 7:14, assigned by `OUTLINE.md` 79 as "the Jewish
+   reading in its own words". Unused, after being added to Go deeper as the fix for exactly this in
+   lessons 1, 2 and 3. The medieval commentators are a good substitute for the historic reading and
+   not for how Jews read the verse now, which is what objective 4 asks for.
+6. **Duvall and Hays** used more weakly than the research supports: assigned for "crossing the river,
+   the width of the covenant difference", annotated "best for: a teachable procedure", and appearing
+   only in Go Deeper. The covenant difference between Sinai and the reader is the widest river in the
+   Bible and is this lesson's subject; the law half offers two proposals and no steps.
+7. **Hayes's lecture on biblical law** (the three legal corpora) unused, so the law half carries no
+   critical-side voice at all while the prophets half is built on Hayes throughout. A learner sent to
+   Exodus 21 to 23 is never told they are opening a distinct legal collection.
+8. **Deuteronomy 29:1 and the Moab setting**, recorded at `SOURCES.md` 191 as the correction to
+   lesson 2's L2-F6 and fetched at Stage 1 *for lesson 4*. Unused: the lesson presents Exodus 20 and
+   Deuteronomy 28, 30 and 31 as one treaty document and never says Deuteronomy is a renewal delivered
+   forty years later on the plains of Moab, which is both the researched correction and the fact that
+   makes the treaty-form argument stronger, since Deuteronomy is where the form is most complete.
+9. **Maimonides' first positive commandment** and **Rav Hamnuna's gematria** from the same Makkot
+   passage, both recorded, both unused; either would give the 613 predict a specific detail.
+10. **JPS 1917 on Sefaria** with the exact API recipe at `SOURCES.md` 163. Unused; see L4-B8.
+
+**L4-D2** is the second half of L4-B6 (the frameworks section).
+
+**L4-D3** is L4-F4 (Amos 5:21 to 24 called a lawsuit).
+
+**L4-D4. The near and far horizon rule is not usable on a passage the lesson never covered.** Line
+277 states the rule and supplies one decision procedure: "the New Testament is the Christian's guide
+to where it is." That answers nothing for the ninety-five percent of oracles the New Testament never
+quotes, which is the proportion the lesson itself gives. Compare the law half, which hands over two
+named tests. The three steps the lesson performs on Isaiah 7 and never writes down: fix the near
+horizon from the text's own time markers; ask whether a New Testament writer takes it up and what
+pattern he reads; and, if none does, the far horizon is not yours to assert. The third is the
+discipline the lesson teaches everywhere and never states.
+
+**L4-D5** is L4-N8.
+
+**L4-D6. The Jewish reading of the law is stated at full strength and shown with nothing.** See
+L4-N5(b). The Isaiah 7:14 section three pages later shows exactly how to do it.
+
+**L4-D7. The exercise has three written tasks, a five-item free recall, and not one model answer.**
+"Then check" (354) with nothing to check against. Part 3 is the hardest task in the lesson and
+carries objective 1's real transfer. Lesson 2 was faulted for two missing answers and lesson 3 for
+four; both were fixed with `:::checkpoint` blocks after the exercise, because the renderer will not
+nest blocks.
+
+**L4-D8** is L4-B10. **L4-D9** is L4-B11. **L4-D10** is L4-N4.
+
+**L4-D11. Go Deeper has five entries where 1.2 asks for two to four**, and one of them describes an
+unopened book. Cutting that entry fixes both.
+
+### Voice (style guide, 4.5, 4.6)
+
+Em dashes **0**, en dashes **0**, banned AI vocabulary **0** (all 55 grepped, three false positives:
+"testament" only ever in "Old/New Testament", "highlight" never as a verb, "transform" absent),
+banned sentence shapes **0** for the named strings, hedging habits **0**, salesy vocabulary **0**,
+exclamation marks in teacher prose **0**. Four lessons running on the em dash.
+
+**L4-V1. Contractions run 1 in 249, against the course's fixed 1 in 55.** 24 in 5,979 words of
+teacher prose. Lesson 3 runs 81 in 4,450 and was recorded as the repair; lesson 2 was faulted at 1 in
+5,400. This is 4.5 times sparser than the range, so it is a regression, not a repair; reaching the
+range needs about 85 more. **The frontmatter is at zero: 1,596 words of quiz stems, options and
+explanations contain not one contraction**, and six explanations averaging 107 words each with none
+is the most machine-sounding block in the file. Worst stretches, all carrying the hardest content:
+the Jewish-reading paragraph (149), the four frameworks (135 to 141), the whole of "Two horizons",
+and the Christian-reading case (317).
+
+**L4-V2. Seven "Here is / Here's" openers**, six of them section or paragraph openers (66, 92, 161,
+193, 277, 315, 319). Course trajectory L1 six, L2 five, L3 zero after its fix, **L4 seven**. The
+repair reversed.
+
+**L4-V3. Twelve paragraphs end on a compressed one-line moral**, double lessons 2 and 3 (78, 103,
+155, 165, 185, 263, 265, 268, 331, 335, 337, 341). Keep two: 185 (the crystal-ball beat earns it) and
+335 (it is the argument compressed, not a flourish). 268 is the exact class lesson 3 was faulted for
+("once you can see it you'll see it everywhere"). 337's "Think oracles." reuses a Fee and Stuart
+quotation as the lesson's own punchline 156 lines after quoting it properly.
+
+**L4-V4. Six learner-facing headings in pipeline vocabulary**, fourth recurrence: "## Worked example
+1/2/3", "## Practice", ":::exercise Do it now", and "Here is the mechanism" in the body. Lesson 3's
+fix pass established the pattern ("David and Goliath, read three times"; "## Now do it yourself, on
+Jacob and Esau") and lesson 4 did not read it.
+
+**L4-V5. Six unsourced superlatives** (84, 123, 175, 196, 256, 279). 84 and 279 are also sales.
+
+**L4-V6. Three rhetorical-question openers** (109, 143, 265) where the guide allows one. Keep 109; a
+real student asks it.
+
+**L4-V7. The figure is never referred to in the text**, against 4.5, and its caption honestly concedes
+that the Treaty of Kadesh is a **parity** treaty while the section argues from the **suzerain-vassal**
+form, so the one artefact shown is the form the argument is not about. It is not decoration; it is
+adjacent evidence next to a claim it does not support.
+
+**L4-V8. The Hosea checkpoint (267) buries its question behind a 95-word quotation**, about 18 phone
+lines before the reader learns what to do with it, and the hidden answer then refers back to five
+details inside it.
+
+**L4-V9. The lawsuit form is given three incompatible ways in one lesson**: "summons, charge,
+evidence, verdict" (263), "summons, charge, sanction" (268), and "summons, witnesses, charge, verdict"
+(350). **Witnesses are examined in the exercise and never taught** in the prophetic section; they
+appear only in the treaty section. Micah 6:1 to 2 does call the mountains as witnesses, so the
+exercise is right and the teaching is incomplete. The exercise's own glosses collide: "the summons
+(who is called to hear?)" and "the witnesses (who is asked to listen?)" are the same question twice.
+
+**L4-V10. The 613 predict is a cost-free trivia guess** with no reasoning path, the L1 "how many
+books?" class. Replace with a predict the reader can reason toward that also seeds the Amos section:
+which of Deuteronomy 28's two sections is longer, blessings or curses, and by how much (14 verses
+against 54).
+
+**L4-V11. Video 2's caption makes it prerequisite to the Micah exercise** ("worth watching before you
+try"), against 4.5's "videos are supplementary", and it points at the real gap in L4-V9.
+
+**L4-V12. Ten read-aloud failures**, worst first: "Here is the mechanism, and it's the part I most
+want you to see for yourself" (193); "We hold a view, and the course says so once here" (145), which
+is the most important sentence in the section written in the third person about itself; "That is the
+whole lesson" (78); "the most useful thing you can carry into any page of Leviticus" (84); "That is
+the difference between reading the law and rummaging in it" (165); the 62-word sentence at 74; "the
+hardest case in the book" (279); the three-sentence rhythm at 103; "Think oracles" (337); and the
+55-word free-recall sentence at 354, which is five demands in one breath and is unreadable aloud.
+
+**L4-V13. Five wall paragraphs at phone width**: 317 (130 words structured "First... Second...
+Third... Fourth, and this is the heart of it", with the most important sentence buried at word 95);
+263 (190 words, the longest in the lesson, carrying the *riv* form, the Hayes quotations, three Amos
+cross-references and Leviticus 23); 149 (145 words, zero contractions); 354; and 109.
+
+**L4-V14. Predict 195's answer telegraphs** by naming blight, mildew and locusts before the list
+arrives. **L4-V15. Checkpoint 267's answer elaborates past its own prompt**, adding "you can hear the
+Ten Commandments in it", a fourth thing the learner was not asked for.
+
+### Pedagogy (Part 4)
+
+**L4-P1** is L4-B6. **L4-P2** is L4-B1. **L4-P3** is L4-B5. **L4-P4** is L4-B9. **L4-P5** is L4-D7.
+**L4-P6** is the shape-tell half of L4-B9. **L4-P11** is L4-B11. **L4-P14** is L4-B10.
+
+**L4-P7. The outline's spaced review did not ship.** `OUTLINE.md` 81 specifies "the covenants
+(lesson 2); the basic rule (lesson 3), now applied to a prophet's own audience". What shipped is two
+mentions in prose. The five covenants are never retrieved: the lesson works Sinai and the new covenant
+for 8,000 words without once asking the learner to place them among the five they learned. **The basic
+rule is never stated in the body at all**; a learner meets it for the first time in the Connections
+paragraph, after the practice, or in Q3's explanation. 4.2: spacing is retrieval, not mention.
+
+**L4-P8. Objective 1's practice sits 180 lines after its teaching**, behind two prophets tasks. The
+law half ends at 169; exercise part 3, its only real practice, is at 352. A learner who has spent
+forty minutes on Amos and Isaiah since is not practising, they are recovering.
+
+**L4-P9. The exercise never interleaves**, because every part announces which tool to use. The one
+skill the lesson does not practise is the one a reader needs: given a passage, decide *which* question
+this is. Lesson 2's and lesson 3's fixes both added a mixed part; lesson 4 has no equivalent. This is
+the cheapest fix in the review and the course has needed it three times.
+
+**L4-P10. Objective 4 bundles four performances**, two of which are never assessed. Nowhere does the
+learner have to *produce* the Jewish reading of anything, which is the objective's leading verb, and
+**Isaiah 53 is in the objective, taught in a callout, and neither practised nor tested**.
+
+**L4-P12. Split candidate: yes, and the lesson marks its own seam.** After the Biblical Law video
+(169), before `## What a prophet was` (171), whose first line is "Now the other half." Part A (law)
+is about 2,805 words and holds objective 1; Part B (prophets) is about 3,300 to 3,700 and holds
+objectives 2, 3 and 4. Nearly even, which is unusual. Part A would need its objective actually
+practised (which L4-B6's fix supplies), the frameworks used rather than stated, and a closing that
+hands off; Part B would need the treaty form and Deuteronomy 28 re-established in two or three
+sentences and its own opening hook. Note the seam costs more here than in lesson 3, because the
+lesson's thesis *is* the join. Third lesson in a row to hit it.
+
+**L4-P13. Two named misconceptions are the author's, and four a beginner actually holds are
+missing.** "The near horizon is the only horizon" (341) is framed by the lesson itself as "a critical
+scholar's reading"; no beginner arrives holding it. It is misconception 1 pointed the other way, and
+it is the L3-P6 finding recurring. Keep the paragraph, which is good and is 3.7 running in the
+direction a drafter never polices, but move it into "Two horizons" as the mirror of the rule and stop
+calling it a thing people get wrong.
+Missing, in order of how often a beginner holds it: **"the law was an unbearable burden the Jews
+groaned under, and Jesus freed them from it"** (the lesson argues against it beautifully at 149 and
+never names it, so a reader who holds it does not know they have been contradicted); **"the Old
+Testament God is wrath, the New Testament God is love"** (the likeliest reaction to 2,000 words of
+covenant curses; Marcion appears in one clause under a different heading); **"the Ten Commandments
+are obviously a different kind of law from the rest"** (taught against at 125, never named); and
+**"prophecy is a code to be decoded against the newspaper"** (distinct from "prophecy means
+prediction", and it is what Q2 tests, so a quiz item tests a misconception the list does not name).
+
+### For the assessments folder, which is still empty (4.4)
+
+Recorded here so lesson 4's contribution is not lost when the assessments are built. Three item
+types this lesson uniquely supplies: the sabbath discrimination item below, which is the only case
+where the two Christian proposals give opposite verdicts and so cannot be answered by reciting
+either; an unlabelled-passage item interleaving lessons 3, 4 and 5, asking for each of four passages
+whether the first question is *what kind of writing is this*, *what did its first hearers hear*, or
+*is this stipulation renewed*; and a three-way sort applied to a claim from a different lesson.
+Project: take one prophetic oracle the course has not worked (Micah 6, Habakkuk 1, Malachi 3) and
+produce a reading that states the near horizon first with the situation sourced, traces every
+sanction or charge to the covenant text it comes from, says whether a far horizon is claimed and on
+whose authority, and labels every claim established, argued, or held by faith. Applied exercise: two
+200-word replies, one to the shellfish objection and one to a post arguing Joel's locusts are
+helicopters, both graded on whether a principle is shown rather than a verdict given.
+**Gap worth naming for the course:** nothing yet assesses the ideological Turing test as a skill the
+learner can *perform*, which is what 3.7 leans on hardest. Lesson 4 is where it is taught.
+
+### What is working, and must survive the revision
+
+- **Worked example 3, Isaiah 7:14, entire.** The best-built worked example in the course. It grants
+  the near horizon before making the Christian case, lets Rashi, Ibn Ezra and Radak speak in their
+  own words with dates and places, quotes Trypho so the Jewish reading is not made to look modern,
+  quotes Hayes calling the Greek a mistranslation without flinching, and then says in the teacher's
+  own voice: "That is a faith reading. It is not what the Hebrew obviously means, and we should stop
+  saying it is." The three-way sort at 319 and "If either can't, tell us." Do not soften a word of
+  it; the fix for L4-B2 should be built to this template.
+- **The Isaiah 53 callout**: Rashi's textual reason given, Isaiah 41 to 49 cited as its root ("a
+  reading with roots in the text, not a dodge"), Targum Jonathan quoted to show the tradition is not
+  one voice, and "We do not hold that only a hostile reader could miss it."
+- **The Septuagint checkpoint (321)**, the best-designed self-check in the lesson: it asks the learner
+  to sort a sentence rather than recall a fact, and names "proves" as the word doing too much work.
+- **The Deuteronomy 28 against Amos 4 mechanism**, once L4-B2, B3, B5, F7 and F8 are fixed. It is a
+  real mechanism drawn from texts actually fetched in the NET at Stage 1, and it makes "prophecy
+  means prediction" collapse on its own rather than by assertion.
+- **The Fee and Stuart percentages handled honestly**: "They give no source for the figures and
+  neither will I; treat them as an experienced reader's rough count rather than a measurement. But
+  even if the real numbers were double, the picture would stand." That is 2.4 in the teacher's voice
+  and it is why the new Q5's option D can be a distractor at all.
+- **Hayes's hedge at 103**, "no one passage contains all of the elements... enough of them scattered
+  around to suggest it as a model", followed by "That is the honest strength of the claim." L4-B2's
+  fix should extend this sentence rather than replace it.
+- **Both proposals given with their weaknesses admitted**: "the text of Leviticus doesn't come with
+  those labels", "The reasoning is good. It is still reasoning, not reading", and the note that the
+  covenant test needs a whole New Testament in hand.
+- **Line 145's labelled standpoint paragraph**, "We hold a view... A Christian may reasonably hold any
+  of the four." This is the fix for L2-B5 landing correctly.
+- **The Jewish-reading section's refusal of the lesson's own framing** on its own behalf: "they hear
+  the wrong question being asked about the right book", followed by "We do not share that reading."
+- **Quiz Q2 (Joel) and Q3 (Hosea 11:1) as cases.** Both fresh, both conversations a learner will
+  actually have. Q3 is the hardest and best item in the course so far; only its option set changes.
+- **The key spread B, D, A, C, B, D**: all four indices used, no run, no repeat of the previous item,
+  and the first lesson in this course to put keys on D at all, which closes the free-elimination leak
+  found at L2-B3. Option lengths are levelled far better than lesson 3's (Q2's spread is 15
+  characters across four options). Whatever the drafter did differently, keep doing it.
+- **The misconception section**, especially "The near horizon is the only horizon", which runs the
+  correction in the direction a Christian drafter is least likely to police, and the shellfish
+  answer's concession that "the sorting is done to keep the laws people already wanted to keep... is
+  a fair challenge to any particular reader".
+- **Q4's two-halves structure** and its explanation crediting Westminster's general-equity clause
+  against a distractor built on Westminster's own category.
+- **The figure's caption**, which carries credit, licence, institution and date and honestly declares
+  the Kadesh treaty a parity treaty. The caption is right; only the text reference is missing.
+- **Video 1's caption**: "Watch it after this section, not instead of it; the video does not cover the
+  range of Christian proposals." That is how a 4.5 video caption should read.
+- **The SVG's dashed-line convention**, which encodes fallen against not-yet by dash pattern and
+  restates it in words rather than resting on colour. The one thing the chart gets right; carry it
+  into the redraw.
+- **All 27 footnotes are cited from the body.** No orphans, no dangling sources, better than lesson 1
+  managed.
+
+### Verified correct, so it does not get "fixed" later by mistake
+
+Every NET quotation except the truncations at F12 and F13 and the open question at F17: Leviticus
+19:18 to 19; Amos 5:21 to 24; Deuteronomy 28:15, 21, 22, 23 to 24, 38, 41, 42; Deuteronomy 30:19;
+Amos 4:6, 7, 9, 10, 11, 12 and the refrain; Isaiah 7:9, 7:16; Isaiah 8:3 to 4, 8:18; Matthew 1:23;
+Matthew 5:17; Mark 7:19; Galatians 5:14; Hosea 4:1 to 3; Matthew 9:13. Every verse reference in the
+body. Aquinas ST I-II q. 99 a. 4 verbatim with honest ellipses. **Westminster 19.3 to 19.5 confirmed
+against the text, so `SOURCES.md` line 261's open item can be closed**: "All which ceremonial laws
+are now abrogated, under the New Testament"; "as a body politic... which expired together with the
+State of that people; not obliging... further than the general equity thereof may require"; "The
+moral law does forever bind all." Justin Martyr *Dialogue* 67 verbatim. Rashi on Isaiah 7:14 verbatim,
+and his gloss ("she is a young girl, and she never prophesied, yet in this instance, Divine
+inspiration shall rest upon her"). Ibn Ezra on 7:14 verbatim. Targum Jonathan on 52:13 verbatim.
+Fee and Stuart's chapter titles, "THINK ORACLES", and the percentages including the tail most quoters
+drop ("in our time"). Hayes lecture 8's six elements and both hedge clauses; lecture 16's "anthologies
+of oracles", "an attack on empty piety" and "in accompaniment to social injustice"; lecture 17's 734,
+Tiglath-Pileser, and Judah refusing the alliance. Makkot 23b's 613, 365 and 248. Amos dated by 1:1 to
+Uzziah and Jeroboam. Hittite treaties c. 1500 to 1200 BC. Kadesh c. 1259 BC from Hattusa, and the
+Commons file, uploader (Iocanus) and CC BY 3.0 licence. The 734 crisis. "A few decades later" for the
+Assyrian exile (Amos c. 760 to 750, Samaria 722). Leviticus 11:1 to 2 addressing "the Israelites", so
+Q1 option D's rebuttal is right. Deuteronomy 22:8's parapet. Galatians 5:14, Romans 13:9, Matthew
+22:39 and James 2:8 all renewing Leviticus 19:18. 1 Peter 2:9. Deuteronomy 31:9 to 13. Leviticus 23.
+Amos 2:6 to 8, 5:10 to 12, 8:4 to 6. Isaiah 41 to 49 calling Israel "my servant". Zero em dashes,
+zero en dashes.
+
+### Unverified in this environment, and left as fact-check debt
+
+The two BibleProject running times (oEmbed returns no duration, and youtube.com is blocked). Hayes's
+prophet-versus-diviner quotation at 177 and her "mistranslation" quotation at 309, both recorded in
+`SOURCES.md` from the transcripts but not re-fetched (oyc.yale.edu blocked). Radak's Hebrew
+(corroborated by secondary sources for substance; no direct quotation is made in the lesson). The
+alt text of the Kadesh photograph against the photograph itself (Commons blocked).
+
+### Pattern for the pipeline
+
+Six blocking findings here are recurrences of items already resolved **in this same course**: L4-B1
+repeats L1-V3 and L3-B1; L4-B10 repeats L1-V5 and L3-V6; L4-V4 repeats L1-V8 and L3-V4; L4-D7 repeats
+L3-V9; L4-B5 repeats L2-B1 and L3-V7; L4-B4 repeats L3-B5. L4-F12 reintroduces ESV debris of the
+class `SOURCES.md` records as found and fixed at lesson 2's Stage 4. L4-D1.1 is an item lesson 3's fix
+record explicitly assigned to this draft. Lesson 3's review already concluded the drafter is not
+reading the previous lesson's resolutions before drafting; **this is the confirmation, and the Stage 3
+command should load the previous lesson's "Resolutions applied" block into context before drafting.**
+Two build-script items: `scripts/build.mjs` should warn on `fill="#` and `stroke="#` appearing on a
+`<g>` wrapper as well as on `<text>`, which would have caught L4-B4 and lesson 3's bug both; and the
+no-links-in-body check is satisfied by links in Go Deeper and Sources, so a lesson with zero links in
+its teaching prose passes validation, which is L4-B10 going unseen.
+
+### Resolutions applied, 2026-09-06
+
+Applied in a single fix pass on `lessons/04-law-and-prophets.md`, with corrections made in
+`research/SOURCES.md` so later lessons do not inherit them. `npm run validate` exits 0 and **this
+lesson's warning is gone** (the seven undersized SVG labels); no new warning appears for this lesson
+or any other. Zero em dashes and zero en dashes. Frontmatter parses; six quiz items, each still a
+mapping with q, four options, answer and explain; 22 block openers and 22 closers. Body grew from
+about 7,100 words to about 11,400, all of it required by findings above.
+
+**Blocking.**
+
+- **L4-B1.** The unhidden answer is gone. The verse-19 task and its model answer are now a single
+  `:::predict`, so the prompt and the answer arrive one at a time. The prompt no longer telegraphs
+  ("Is the law of mixed kinds renewed anywhere in the New Testament, and what does Fee and Stuart's
+  second half say about a stipulation that isn't?"), and the hidden body now ends by naming what the
+  test did **not** do, which is the judgement the learner still has to make.
+- **L4-B2.** The dating assumption is disclosed at full strength in its own subsection, "What this
+  argument assumes, and what it doesn't", built to the template of the Isaiah 7:14 sort as the
+  reviewers recommended. It gives the critical position (Deuteronomy seventh-century, so Amos cannot
+  have been reading it, and the shared-stock explanation the Assyrian and Aramaic parallels support),
+  the conservative reply ("essentially Mosaic" with later updating), and then separates the strong
+  form of the lesson's own argument from the working form, saying plainly that the strong form needs
+  the conservative dating and the working form does not. It closes with the three-way sort. The
+  payoff sentence at the old line 185 now reads "He is reading the covenant's penalty clause aloud",
+  the SVG's subtitle no longer asserts what Amos was reading, and **"nothing above depends on how you
+  answer it" is deleted**, replaced by a paragraph saying what does depend on it. Q5's explanation
+  now says "the covenant" rather than "Deuteronomy 28:41 had already named".
+- **L4-B3.** "Every item" is gone. The prose now says nearly every item, and the exception is turned
+  into the better teaching point: Amos 4:11's Sodom has no counterpart in Deuteronomy 28 and does
+  have one at **29:23**, which shows Amos working inside a whole sanctions tradition rather than
+  quoting one chapter. The chart carries a sixth row and a two-line footnote saying so. **The
+  double-used verses are gone**: Amos 4:6's hunger is now paired with 28:17 and 28:48, which are
+  hunger curses, and 28:38 and 28:42 carry the locusts alone. 28:17 and 28:48 are quoted in the
+  bullet list so the pairing is checkable.
+- **L4-B4.** The chart is redrawn. viewBox 360 to **344**, one column instead of two, every label at
+  font-size 15 or 16, which renders at **14.3 to 15.3px on a 360px phone** against 9.1 to 10.9px
+  before. **No fill or stroke is hardcoded anywhere and no `<g>` wrapper carries one**: everything is
+  `var(--navy)`, `var(--oxblood)` or `var(--text-2)`. `font-family` is now `inherit`. The fallen and
+  not-yet distinction is still carried by a dash pattern *and* by the words "fallen" and "not yet" in
+  every row, so nothing rests on colour. The `<desc>` was rewritten to match what is drawn, including
+  the Amos 4:11 exception. Widest label is about 292 units in a 344 viewBox, so nothing overflows.
+- **L4-B5.** The chart no longer does the learner's work. Its footer no longer prints the finding;
+  that line is now the answer to a **new `:::predict` placed before the chart**, which asks which
+  sanction has nothing opposite it and what the reader expects Amos to say next. **Exercise task 1
+  was re-pointed at fresh passages**: Deuteronomy 28:25 to 37 against Amos 5:11, 7:1 to 6 and 8:9 to
+  10, none of which is in the chart or the body, and it now asks the learner to find the one item
+  that has no counterpart, which is the same skill the body just modelled. "The chart above will
+  help" is gone.
+- **L4-B6.** Every objective now has teaching, practice before the quiz, and a quiz item.
+  **`OUTLINE.md`'s dropped fourth objective is restored** as objective 2, and the frameworks section
+  now has a `:::checkpoint` on Ezekiel 40 to 48 that makes the learner state both readings and
+  identify which part of the disagreement is argued, so the section that carries contested question 5
+  is no longer 400 words with nothing behind it. Objective 5 (formerly 4) was split so that stating a
+  reading in its holder's terms and sorting a dispute are separately assessable, and **new Q6 tests
+  the Turing test as a performance**, which nothing in the course did before. Objective 3 gets a new
+  exercise task on Micah 5:1 to 6, an oracle the lesson never works, with a model answer.
+- **L4-B7.** Every unopened source now says so in its own entry: Ryrie, Gentry and Wellum, Blaising
+  and Bock, Mendenhall, Steymans and Weinfeld, the Formula of Concord, and Radak, whose footnote now
+  reads "read via an English summary of the Hebrew, not from the Hebrew itself" and from whom no
+  wording is quoted. **The unsourced superlative about an unopened book is gone**: Gentry and Wellum
+  no longer appear in Go deeper, replaced by Longman and Dillard (which the outline assigned and the
+  lesson lacked) and Köstenberger and Patterson. Ryrie's essentials are also reordered to his own
+  order, deriving the Israel-church distinction from the literal hermeneutic. Westminster's footnote
+  now records that the wording was confirmed at this pass.
+- **L4-B8.** The Tanakh is quoted from **JPS 1917** with a Sefaria link, and source 20 says why the
+  1985 and 2023 editions are not used. Psalm 19:8 is also quoted in JPS 1917 in the Jewish-reading
+  section, which fixes L4-D6 at the same time.
+- **L4-B9.** Four of six quiz items replaced with fresh cases. **Q1** is the sabbath, which is the
+  only case where the two Christian proposals give opposite verdicts, so it cannot be answered by
+  reciting either. **Q4** is Deuteronomy 25:4 and Paul's ox, the wrinkle case the law half never had,
+  where "renewed" turns out not to mean "repeated". **Q5** is Elijah's drought at 1 Kings 17:1, which
+  puts a prophetic function inside a narrative and so interleaves with lesson 3. **Q6** is the Isaiah
+  53 Turing test. Q2 keeps its stem and options with its one absolute removed from option C. Q3 keeps
+  its stem, fixed for the NET (see L4-F17), and its options rebuilt so that two of them concede the
+  near horizon in the key's own words, with the new option B misfiling the far horizon as "history
+  establishes", which is the error this course watches for in its own direction and which no previous
+  distractor tested. Every option was levelled for length and shape; the key is longest in one item
+  by a single character. **Keys now spread 2, 3, 0, 1, 2, 1**: all four indices used, no run, no
+  repeat of the previous item.
+- **L4-B10.** Eighteen in-body links added, so every "open this passage" instruction is reachable and
+  the exercise works without a Bible to hand: Leviticus 19, Exodus 19, Deuteronomy 31, Deuteronomy 28,
+  Judges 2, Exodus 21 to 23, the two Deuteronomy 28 curse ranges, Amos 4, Hosea 4, Isaiah 7, Micah 6,
+  Micah 5, Deuteronomy 28:25 to 37 and the three fresh Amos passages, plus Sefaria for JPS 1917 and
+  for the three commentators, the *Catechism* on the Old Law, the Thirty-Nine Articles, the
+  Westminster Confession, Aquinas, Justin Martyr, and the Hayes lectures by number.
+- **L4-B11.** `minutes` 65 to **145**, at the top of the reviewers' measured range and matching
+  lesson 3's calibration for a lesson of this weight. The exercise's own headnote no longer claims
+  ten minutes for the Exodus 21 to 23 task; it says twenty-five and notes that finding a law is part
+  of the work.
+
+**Facts.** F1 Brenton now reads "a virgin", with a sentence saying the definite article in Matthew
+1:23 comes from the Greek article and not from Brenton's English, and **`SOURCES.md` corrected at
+source**. F2 the false "present tense in both" claim is gone; the lesson now says both the NET and
+JPS 1917 read the conception as still ahead, which is true and is also Rashi's reading, now cited.
+F3 Rashi on 53:3 now reads "mentions all Israel as one man" with 44:1 and 44:2, corrected in the
+lesson and in `SOURCES.md`. F4 the Hayes *riv* quotation is attributed to **Hosea** and to her claim
+that Hosea was the first to use the form; Amos 5:21 to 24 is now described as the charge and verdict
+of a covenant suit whose full form appears elsewhere, and the four parts of the *riv* are stated once
+and used consistently, which also fixes V9. F5 Isaiah 8:8 is dropped from both sentences; the
+Immanuel point now rests on 8:10 alone, as line 311 already did correctly. F6 "three words" is now
+"four words". F7 exercise task 1 was replaced entirely, so the impossible assignment is gone.
+F8 the curse-list predict now points at both ranges and its answer no longer claims 28:15 to 24
+contains locusts. F9 the Amos bullet is now "4:7 to 8" and the prose says the refrain closes each of
+five units, matching the chart. F10 both video running times are cut, following lesson 9's recorded
+resolution, since oEmbed returns no duration. F11 Q6 was replaced, so the explanation that settled an
+argued question is gone. F12 both ESV survivals fixed: "ensnare you and their gods will lure you
+away" (Judges 2:3) and "my special possession out of all the nations" (Exodus 19:5), the latter now
+quoted at length rather than paraphrased. F13 Deuteronomy 28:21 is quoted whole, including "you are
+about to possess". F14 the Hosea 6:6 quotation now carries footnote 9 with Matthew 9:13 and 12:7.
+F15 the Isaiah 7:14 and 7:16 quotation now says verse 15 is left out and why. F16 Mendenhall's
+citation carries the issue number and the 49 to 76 range. **F17 Matthew 2:15 fixed in Q3's stem to
+the NET's "I called my Son out of Egypt", with Hosea's own "I summoned my son out of Egypt" given
+alongside so the colleague's objection is sharper.** F18 was withdrawn (see above); Isaiah 7:14 was
+correct, and source 1 now names the second edition and records why the edition matters at that verse.
+
+**Neutrality.** N2 the range now reaches outside Reformed evangelicalism: the *Catechism* on the Old
+Law is quoted and linked with the point that the threefold division is current magisterial teaching
+and not a medieval curiosity; Article VII of the Thirty-Nine Articles is named as the same division
+in a confession; and the Lutheran three uses of the law are given as a third way of putting the
+question, one that asks what a law does rather than what it is. N3 the Christian reading of Isaiah
+7:14 now has four numbered parts with real arguments, including **the shift of address at 7:13 from
+Ahaz to "family of David"**, which is textual and checkable in the NET as printed, and Beale's
+common-ground observation about what the Old Testament writers did not exhaustively grasp. "We should
+stop saying it is" now reads "Christians should stop claiming it is", so the sentence states the
+course's position without disciplining the reader in the second person. N4 Hayes is out of "The
+Jewish reading" and into her own short subsection, "How a critical scholar reads it", which says
+explicitly that the critical reading and the Jewish reading agree about Ahaz and reach that
+agreement by different routes and that neither is a spokesperson for the other; "teaching the Hebrew
+Bible at Yale" is now "who taught", and Go deeper no longer says she never asks you to believe or
+disbelieve. N5 the 613 section is rewritten: the enumeration is named as disputed inside the
+tradition (Nachmanides, the *Halakhot Gedolot*, Ibn Ezra), a large share of the commandments are
+noted as inoperable without the Temple, halakhah and the Oral Torah are named as the working
+category, Orthodox, Conservative and Reform practice are distinguished, and **Psalm 19:8 is quoted in
+JPS 1917** so the tradition speaks rather than being spoken for. "They hear the wrong question" is
+now "many will tell you it's the wrong question". N6 the Marcion label is gone from Q1, which was
+replaced; the misconception section now handles Marcion under "The Old Testament God is wrath", where
+it belongs, and names his actual claim. N7 the single-meaning position is named in Q3's explanation
+as one serious evangelicals hold, with the lesson saying why it doesn't follow it rather than marking
+it simply wrong. N8 the treaty-parallel argument now has its own paragraph giving Weinfeld, Steymans
+and the Sefire treaties, saying the question is argued, saying it bears on dating, and saying what
+both sides agree on. N9 the one-way irony is gone: "quoted on posters" survives only inside the
+exercise where it earns its place, "the reader who wants to may hear modern secular justice in it" is
+cut, and "rummaging in it" is replaced. N10 Trypho is now identified as Justin's own construction,
+with the observation that nobody invents an objection nobody is making and that Trypho's candidate is
+Hezekiah, which is Radak's.
+
+**Depth.** All ten unused research items are now used or deliberately declined: **Köstenberger and
+Patterson's triad** is in Go deeper with the point that the lesson performs all three parts;
+**Beale** is cited in the Christian reading; **Jeremiah 31:31 to 33 is quoted** in the new covenants
+predict, so proposal 2's test rests on a text rather than a reference; **Longman and Dillard** are in
+Go deeper with the reason (the lesson sends the reader into six books they may not know);
+***The Jewish Study Bible*** is in Go deeper alongside the medieval commentators, with the point that
+it shows how Jews read the passage now rather than in the twelfth century; **Hayes's lecture on
+biblical law** is named in Go deeper as the critical account of the law the lesson only gestures at;
+**Deuteronomy 29:1 and the Moab setting** are quoted, which makes the treaty-form argument stronger
+because a renewal is when the whole agreement is read out again, and 29:23 now does real work in the
+Sodom correction; **Maimonides' first positive commandment** is in the 613 callout. Duvall and Hays
+remain in Go deeper only, and the frameworks section now earns its length through the Ezekiel
+checkpoint rather than by adding a procedure the lesson does not use. D4 the near-and-far rule now
+has **three numbered steps**, including the one the lesson performed everywhere and never wrote down:
+if no New Testament writer takes the passage up, the far horizon is not yours to assert. D7 the
+exercise now has **four model answers in two `:::checkpoint` blocks** after it, and the free-recall
+list is a bulleted list of six items rather than a 55-word sentence, ending "Then check against the
+lesson". D11 Go deeper is five entries; one was cut and two added, which is over 1.2's range of two
+to four, and the judgement made was that a lesson sending readers into six unfamiliar biblical books
+plus a contested treaty argument needs the orientation more than it needs the ceiling.
+
+**Voice and pedagogy.** All seven "Here is / Here's" openers are gone; the one remaining instance is
+inside the NET text of Isaiah 7:16. Twelve one-line morals reduced to the two the reviewer said to
+keep. All six pipeline-vocabulary headings renamed after their content ("Leviticus 19:18 and 19:19,
+sorted three ways"; "Amos, with the penalty clause open"; "Isaiah 7:14, near and far"; "Now do it
+yourself, on Amos, Micah, and four passages out of order"; ":::exercise Four tasks"). The six
+unsourced superlatives are rewritten. Two of the three rhetorical-question openers are gone and the
+one a real student asks is kept. The **figure is now referred to in the text** ("Look at the tablet
+above before you read on"), and its caption turns the parity-treaty mismatch into the teaching rather
+than conceding it in a subordinate clause. The Hosea checkpoint now **puts its question first** and
+the quotation second. The 613 predict is replaced by one with a reasoning path (which section of
+Deuteronomy 28 is longer, and by how much, which also seeds the Amos section), and the 613 material
+moves to a `:::callout`. Predict 195 no longer telegraphs its own list. Checkpoint 267 no longer
+elaborates past its prompt. The wall paragraphs are broken up, and the Christian-reading case is now
+four short paragraphs rather than one block with its best sentence at word 95. **P7 the outline's
+spaced review now ships**: the five covenants are retrieved in a predict before the treaty form, and
+lesson 3's basic rule is stated in full at the head of "Two horizons" and then used, rather than
+appearing for the first time in Connections. **P8** objective 1's practice moved to the law half,
+where it belongs, as its own exercise with a model answer, 180 lines earlier than before. **P9** the
+exercise now interleaves: a new fourth task gives four passages out of order and asks only which
+question to ask first, deliberately mixing lesson 3's genre question with this lesson's two. **P13**
+"The near horizon is the only horizon" moved out of the misconceptions into "Two horizons" as the
+mirror of the rule, and four misconceptions a beginner actually holds were added: the law as an
+unbearable burden, the wrath-and-love contrast, the Ten Commandments as obviously a different kind of
+law, and prophecy as a code to be decoded against the newspaper.
+
+**Split.** The seam is marked with an HTML comment after the Biblical Law video, per BACKLOG 7b,
+recording what each half carries and what each would need to stand alone. Not renumbered. Not held.
+
+### Deliberately not fixed, with reasons
+
+- **The split itself.** Third lesson in a row to hit it. 7b is settled and says mark the seam and do
+  the renumbering once, before publish, when every seam is known. Note for whoever does it that this
+  seam costs more than lesson 2's or lesson 3's, because the lesson's thesis *is* the join between
+  law and prophets, so Part B needs a real opening rather than a cross-reference. The suggested hook
+  is in the seam comment.
+- **The two BibleProject running times.** Cut rather than corrected, because youtube.com is blocked
+  in this environment and oEmbed does not return duration. Restore them when a session can reach
+  YouTube; lesson 9 made the same call.
+- **Hayes's prophet-versus-diviner and "mistranslation" quotations.** Both are recorded in
+  `SOURCES.md` from the transcripts and neither could be re-fetched here (oyc.yale.edu blocked). Kept
+  as recorded, and flagged as fact-check debt above.
+- **Radak's Hebrew.** Still read via summary. The lesson quotes nothing from him and the footnote now
+  says so, which is as far as this pass can honestly go.
+- **The alt text of the Kadesh photograph.** Commons is blocked, so the description could not be
+  checked against the image. Unchanged and flagged.
+- **Fee and Stuart's chapter 10 title.** `SOURCES.md` gives it two ways in two places and both
+  lessons assert theirs. Recorded at source for whoever next opens the book; not resolvable here.
+- **Köstenberger and Patterson beyond one Go deeper entry.** The triad's real payoff is across
+  lessons 3 to 7 rather than inside one, and lesson 4 is already at 145 minutes.
+- **`scripts/build.mjs` blind spots.** Two are now confirmed by this lesson: a fill or stroke on a
+  `<g>` wrapper is invisible to the SVG check, and the no-links-in-body check is satisfied by links
+  in Go deeper and Sources, so a lesson with zero links in its teaching prose passes validation. Both
+  belong in the build script rather than a lesson fix pass. **Recorded under "Requests for the shared
+  files" below.**
+
+### Requests for the shared files
+
+This session owns `courses/christian-studies/bible-basics/**` only. These belong to whoever holds
+`scripts/`, `docs/` and `curriculum/`.
+
+1. **`scripts/build.mjs`: warn on `fill="#` and `stroke="#` on a `<g>` element**, not only on
+   `<text>`. Lesson 4 had sixteen hardcoded values on three `<g>` wrappers, all invisible to the
+   linter, and the whole content of its chart disappeared on the dark theme. This is the third such
+   bug in this course that the validator could not see.
+2. **`scripts/build.mjs`: the no-links check should ignore links inside `## Sources` and
+   `## Go deeper`.** 4.5 asks for links in the teaching prose. Lesson 4 had zero links in its body
+   and passed validation because its Go deeper entries carried three.
+3. **`scripts/build.mjs`: consider warning when a lesson's `minutes` is implausible against its own
+   word count and media.** Every lesson reviewed so far has understated it by a third to a half, and
+   the value feeds the learner's cumulative hours on the site.
+4. **`docs/CONTENT_PIPELINE.md` and `.claude/commands/draft-lesson.md`: Stage 3 should load the
+   previous lesson's "Resolutions applied" block before drafting.** Six of lesson 4's eleven blocking
+   findings are items already resolved earlier in this same course. Lesson 3's review predicted this
+   and lesson 4 confirmed it.
+5. **`docs/EDITORIAL_STANDARDS.md` 4.7: the `curl labs.bible.org` recipe does not work in every
+   environment.** Some sessions block every scripture host at the proxy. The mirrors that do work are
+   now recorded in this course's `SOURCES.md`; if the policy is meant to be followable everywhere,
+   4.7 should say what to do when the API is unreachable rather than leaving each session to
+   rediscover it.
+
+---
+
+## Lesson 5, "Reading poetry, the Psalms, and wisdom" — Stage 4 round 1, 2026-09-06
+
+Five reviewers in fresh context. **Verdict: not clean for publish.** About sixty findings, nineteen
+blocking.
+
+Two things are true at once and both matter. The **Proverbs half is the best teaching in the course
+so far**, and the **quiz is the best-built in the course** on every axis previous reviews measured:
+all six items use cases the body never works, option lengths are levelled to within 5 to 15
+characters, and keys spread A, B, C, B, C, D with all four indices used and no run. Against that,
+**eight of the blocking findings are items already resolved earlier in this same course**, and one
+whole class of defect (ESV debris) is concentrated in the quiz that is otherwise the best in the
+course. Lesson 5 was drafted after lesson 4's fix pass had already written the fix for four of them.
+
+The two findings that no previous review would have caught are both arithmetic: a sentence that is
+false on the lesson's own numbers, and a chart that omits exactly the data that would refute it.
+
+### BLOCKING
+
+**L5-B1. The self-check prints its own answer in plain body text, for the fifth lesson running, in
+the exact wording lesson 4 was faulted for.** Line 191 "Write your answer before reading on"; line
+193, the next visible line, "Here is mine." Caught independently by all five reviewers. Worse than
+any previous instance: **line 186 defines the fourth element as "deliverance (the actual petition)"
+and line 191's own prompt calls verses 3 and 4 "the petition"**, so the question hands over the
+answer word before asking for it. L1-V3, lesson 2's line 254, L3-B1, L4-B1.
+
+**L5-B2. Every poem in a lesson about paired lines renders on the site as prose.** `scripts/build.mjs`
+line 17 sets `marked` with `breaks: false`, and `site/assets/styles.css` line 67 sets no
+`white-space` on `blockquote`. Verified by running marked with the project's own options: two
+quoted poetic lines come out as one `<p>` with a soft newline, which HTML collapses to a space.
+So Psalm 13 entire, Psalm 19:1 to 2, Proverbs 26:4 to 5, Psalm 137, Proverbs 22:6 and Ecclesiastes
+1:2 all reach the learner as run-on prose, in the lesson that teaches "ask what the second line
+adds". **This is course-wide** (lesson 6 has 23 quoted poetic lines, lesson 4 has 11, lesson 2 has
+5), and lesson 5 has 43, the most in the course. Two fixes: a lesson-local one, two trailing spaces
+per poetic line, which was tested and does emit `<br>`; and a proper one in the shared files, a
+`:::verse` block plus `white-space: pre-line`, filed below.
+
+**L5-B3. Six ESV wordings in the quiz, none tagged, in the lesson whose research file predicted
+exactly this.** `SOURCES.md` line 246: "**ESV text** of every verse quoted in lesson 5 was fetched
+from BibleGateway at draft time", with the standing instruction to re-fetch in the NET. **The body
+was converted and the quiz was not.** Verified against NET2:
+
+| Item | Lesson (ESV) | NET |
+|---|---|---|
+| Q1 option B | "the God of my salvation" (Ps 88:1) | "O Lord God who delivers me" |
+| Q2 stem | "A slack hand causes poverty, but the hand of the diligent makes rich" | "The one who is lazy becomes poor, but the one who works diligently becomes wealthy" |
+| Q3 stem | "break forth into singing... trees of the field shall clap their hands" | "will give a joyful shout before you... all the trees in the field will clap their hands" |
+| Q4 stem | "the dead know nothing, and they have no more reward" | "the dead do not know anything; they have no further reward" |
+| Q6 stem | "I will extol you, O LORD, for you have drawn me up" / "turned for me my mourning into dancing" | "I will praise you, O Lord, for you lifted me up" / "Then you turned my lament into dancing" |
+| Q6 option C | "he will not be moved" (Ps 30:6) | "I will never be shaken" |
+
+Q3 is worst: its whole point is a botanical objection to a rendering ("trees of the field", "break
+forth into singing") the learner's own Bible does not carry. Q6 asks the learner to classify a psalm
+**from wording they will not find when they open it**. Also in the body: **Proverbs 16:3 quoted in
+the NIV** ("your plans will succeed"; NET "your plans will be established") with no version named;
+Proverbs 10:1 and 15:1 given in ESV/KJV wording hedged as "in most translations", which is a dodge
+in a course with one Bible; and Psalm 59:7 "swords in their lips", which is ESV and is not in the
+NET at all (the image is at 55:21 and 57:4). **Footnote 1 claims the quotations were "read via the
+bible.org API"**, which `SOURCES.md` contradicts and the six survivals disprove.
+
+**L5-B4. "More of Israel's prayer book is complaint than praise" is false on the lesson's own
+numbers, and the chart is drawn so the reader cannot check it.** Line 157. Fee and Stuart's point,
+correctly quoted, is that laments are the largest *type*. Add the lesson's own lists: thanksgiving
+16, hymns of praise 16, salvation-history 5, celebration and affirmation 28, wisdom 8, trust 10.
+That is 83 non-lament psalms against "more than sixty" laments, and 65 of them are praise of one
+kind or another. **The chart's own footer concedes the problem**: "hymns and celebration psalms are
+not counted there", so the two largest praise categories are precisely the two the bar chart omits.
+A chart that omits the data that would refute the sentence it illustrates is the L2-B1 class with a
+truth problem on top, and the overstatement runs in the direction of the paragraph's pastoral point.
+
+**L5-B5. The psalm-type scheme is a list of numbers with no diagnostic criteria, and the one tool
+that makes classification possible appears for the first time in a quiz answer.** Lines 122 to 130
+give seven types as names plus psalm numbers. Nothing says what makes a psalm a lament rather than a
+thanksgiving, or what "enthronement" means. Q6 then asks the learner to classify Psalm 30 cold, and
+its `explain` supplies Fee and Stuart's five thanksgiving elements for the first time in the lesson.
+That five-element pattern, worked on Psalm 138, is in `SOURCES.md` line 240 and never reaches the
+body. Objective 2 says "classify a psalm by type"; the transfer test fails on the lesson's largest
+section. **Compounding it, both classification items are lookups**: line 124 lists Psalm 88 among
+the individual laments and line 197 states its whole content, which is Q1's key; line 125 lists
+Psalm 30 among the individual thanksgivings, which is Q6's key. Quizzes are open book
+(`app.js` sets "Closed book" only for `isTest`).
+
+**L5-B6. Four of the lesson's own objective-halves are taught, modelled and tested cold. Fifth
+lesson running** (L1-D4, L2-B4, L3-B4, L4-B6). Imagery (objective 1b) has teaching and Q3 and no
+practice. Classification (2b) has a bare list and no practice. **Job (4a) has teaching and neither
+practice nor a quiz item**, and the learner never reads a line of Job except 42:7 quoted in the
+body. The imprecatory psalms (4c) have a quiz item and no practice, on the hardest material in the
+lesson. Objective 4 also bundles three separate performances and promises "read one of each as what
+it is", which is unperformable as shipped, since two of the three books are never opened. That is
+L4-P10 one lesson later. Objective 3 is the only complete chain in the lesson and is the model the
+others should be rebuilt to.
+
+**L5-B7. "Vengeance is mine, I will repay, says the Lord" is attributed to Deuteronomy 32:35, and
+the course's own Bible does not read that way there.** Line 281 calls it "a command... which
+Deuteronomy 32:35 gives to Israel". NET Deuteronomy 32:35: "**I will get revenge and pay them back**
+at the time their foot slips." The quoted words are Paul's at Romans 12:19, which the lesson then
+correctly block-quotes four lines later. Two errors compound: a wording the course's Bible does not
+carry, and "a command given to Israel" for what is God speaking about the nations inside the Song of
+Moses. Q5's explanation repeats it. **This is the sentence the whole answer to the lesson's hardest
+objection rests on.**
+
+**L5-B8. Twelve of the chart's thirteen labels vanish on the dark theme, and the validator sees
+two.** Line 134, `<g font-size="11" fill="#333">`, wraps six type names, five numbers and the in-bar
+label. `scripts/build.mjs` matches `fill` and `font-size` on `<text>`, not on a `<g>` wrapper, so
+eleven labels defeat **both** checks; `npm run validate` reports one `#fff` fill and two undersized
+labels when the real counts are twelve and thirteen. `styles.css` sets `--bg: #0c1220` in dark mode,
+so `#333` on that is about 1.45:1 and the chart's entire content disappears while the bars remain.
+Line 137's `fill="#fff"` sits on the oxblood bar, which flips to `#d9737f` in dark mode, about
+3.2:1, so the headline number goes too. Sizes: title 12, labels 11, footnote 9 in a `0 0 360 230`
+viewBox render at **10.9, 10.0 and 8.2px** on a 360px phone against the 14px floor. No `<desc>`.
+**Fourth SVG contrast failure in this course the linter could not see** (L1-V2, L3-B5, L4-B4).
+Also the laments bar is drawn at exactly 60 while its label says "more than 60", which is L3-F4,
+whose recorded fix was to draw at the floor **and say so in the caption**.
+
+**L5-B9. Zero in-body links, and the lesson's first line is an unlinked instruction to open a
+Bible.** Line 60, "Open a Bible to Proverbs 26". The file's only two Markdown links are in Go deeper
+and Sources, which is exactly the condition that satisfies the validator's no-links check. Seven
+further "open this passage" commands are unlinked (94, 159, 199, 211, 314, 316, 318), so every
+practice task in the lesson is blocked for a reader without a Bible to hand, which line 159 concedes
+("in your own Bible"). L1-V5, L3-V6, L4-B10, fifth time, and the build-script blind spot was already
+filed as a shared-file request at lesson 4.
+
+**L5-B10. Contractions: effectively zero in the body and zero in the frontmatter.** Eight matches in
+6,822 body words, and **six of the eight are "what's more" inside Kugel's quoted formula** and one
+is inside a quoted objection, so teacher prose contains **one real contraction**. The frontmatter has
+**zero in 1,685 words**. Course band is lesson 3's 1 in 55 to lesson 4's post-fix 1 in 63. Lesson 4
+was called a regression at 1 in 249; this is several times sparser again and is the worst in the
+course. Six quiz explanations averaging 108 words with no contraction is the most machine-sounding
+block in the file, and it is the exact block lesson 4 was faulted for.
+
+**L5-B11. `minutes: 45` against a measured 105 to 140.** Four reviewers measured independently:
+105 to 119, 117 to 140, 122, and 134. The lesson asks for about 75 to 90 verses of external reading
+(Psalm 22 entire, Psalm 42 entire, Psalm 1, Ecclesiastes 1:1 to 11, Proverbs 3:1 to 10, Amos 5) plus
+13 minutes of video plus three written exercise tasks. Against the course's calibration this is the
+largest proportional gap yet, larger than lesson 4's before it was reset.
+
+**L5-B12. The Psalter's Catholic and Orthodox life is absent, and every psalm number in the lesson
+is wrong in their Bibles.** Grepped: "Catholic" 0, "Orthodox" 0, "Divine Office" 0, "Liturgy" 0,
+"monastic" 0. Line 112 says the Psalter "is the prayer book of the synagogue as much as of the
+church" and then shows no church praying it: not the Rule of St Benedict's weekly Psalter, not the
+four-week Liturgy of the Hours, not the Orthodox twenty kathismata (the whole Psalter weekly, twice
+weekly in Lent). These are not rival theories; they are the lesson's own thesis, practised for
+fifteen hundred years. Fourth recurrence of L2-N6 / L3-N7 / L4-N2.
+**And in the Greek and Vulgate numbering, Hebrew 11 to 113 = LXX 10 to 112, so every psalm this
+lesson sends a reader to is off by one**: 13 → 12, 22 → 21, 30 → 29, 42 → 41, 51 → 50, 88 → 87,
+109 → 108, 137 → 136. Lesson 1 already taught the LXX numbering at Psalm 9/10 and this lesson drops
+it, in the lesson that tells the reader to go and look verses up.
+
+**L5-B13. Protestant-canon figures stated as settled, and the deuterocanonical wisdom books are
+absent from a lesson about biblical wisdom.** Line 112, "a collection of 150 prayers and songs":
+the Greek and Slavonic Psalter carries **Psalm 151**, and **11Q5, the manuscript in the lesson's own
+photograph two lines later, contains Psalm 151 in Hebrew**. Line 205, "Three Old Testament books are
+usually classed as wisdom": in a Catholic or Orthodox Bible the Wisdom books are a named section of
+five to seven including **Sirach** and the **Wisdom of Solomon**, both grepped and absent. Third
+recurrence of L1-N5 and L3-N6, whose fix instruction was "wherever a number is attached". It also
+costs real teaching: Sirach is the closest ancient analogue to Proverbs, and **Wisdom 3:1 is the
+answer another canon supplies to exactly the problem quiz Q4 poses from Ecclesiastes 9:5**.
+
+**L5-B14. The Jewish reader: one subordinate clause of living practice, the Tanakh quoted from a
+Christian translation, and the tradition enlisted rather than heard.** The sharpest test in this
+lesson and the lesson does not take it.
+(a) Line 112 is the only mention of Jewish use, and everything downstream is Christian, including
+Fee and Stuart's "precisely in the ways they functioned for Israel **in the first place**", past
+tense. Nothing on how Jews pray these psalms **now**: Ashrei three times daily, Hallel at the
+festivals, Kabbalat Shabbat, the Psalm of the Day, Psalm 30 at shacharit, psalms in a house of
+mourning.
+(b) **4.7 breach at line 255**, which characterises what a Jewish community reads at Sukkot by
+quoting the NET's "everything is futile". That is a Christian translation's rendering of *hevel*
+used to describe a Jewish liturgical act. JPS 1917 reads "all is vanity". This is where L3-N12 said
+the rule bites and where L4-B8 was fixed.
+(c) The tradition is spoken for: line 255 tells the tradition what its practice means, with
+**Wikipedia** as the only source behind a claim about living practice, which is what L2-N8 was
+faulted for. The book is called "Ecclesiastes" inside the Jewish paragraph where the tradition's word
+is **Kohelet** (outline convention 5).
+(d) **No Jewish reading of Job or the wisdom books anywhere.** *b. Bava Batra* 15a, where the rabbis
+debate whether Job existed at all or is a *mashal*, bears directly on line 244's flat "Job is a
+dialogue with a frame", and this course already cites Bava Batra 14b in lesson 1. *m. Yadayim* 3:5,
+already in `SOURCES.md` line 41 and already used in lesson 1, records the real dispute over whether
+Kohelet "defiles the hands", which is the honest correction to line 303's "that he is there on
+purpose is not argued".
+(e) **Psalm 22 is handed to the learner christologically with no label**: exercise part 1 says "If
+you know where Jesus quoted the first line, note that too." Psalm 22 is, after Isaiah 53, the most
+disputed passage between Jews and Christians, and the lesson gives the prompt and no three-way sort,
+one lesson after lesson 4's Isaiah 7:14 section was praised for doing the opposite.
+(f) Hebrew versification: the superscription is verse 1 in a Hebrew Bible, so "Read Psalm 13:1 to 2"
+sends a JPS reader to the wrong lines, and Psalm 51:5 is 51:7 there.
+
+**L5-B15. The imprecatory section grades the largest church's own liturgical practice as a
+misconception, and states the objection only in a form nobody holds.** Line 305 lists "the violent
+psalms should be skipped" as a misconception; Q5 option A defines that position as holding the
+psalms "record an older and lower stage of religion". **The 1971 Liturgy of the Hours omits Psalms
+58, 83 and 109 entirely and excises the imprecatory verses of others, including 137:7 to 9.** That is
+the settled official practice of the Psalter's largest living Christian use, and its stated reason is
+pastoral, not developmental, so no Catholic would recognise option A as their view. Separately,
+**C. S. Lewis's *Reflections on the Psalms*** calls the spirit of the cursing psalms "devilish" while
+insisting they are still Scripture; that is the best-known Christian treatment of the problem and it
+is absent, so the lesson offers only endorsement and tearing the page out, both marked wrong. 3.7
+asks for objections at full strength, and the strong objection survives the lesson's answer: granting
+that the psalm is prayer, hyperbole, covenantal and handed to God, it still asks God to bless the man
+who kills babies, and the lesson then invites the reader to pray it.
+
+**L5-B16. The exercise has three written tasks and no model answers, and two of the three give away
+what they ask for.** Fifth lesson (L2 two missing, L3-V9 four, L4-D7 all). Line 314 says "Then find
+the turn. **It is sharp, and it comes with a change of audience:**" and quotes 22:22, so the task is
+to find a turn the instruction has already located and quoted. Exercise part 2 sends the learner to
+Proverbs 3:1 to 10, and the callout at 236 has already quoted 3:9 to 10 and delivered the reading.
+`OUTLINE.md` convention 6 requires practice on a passage the lesson did not cover.
+
+**L5-B17. Contested claims asserted as settled, five of them, each in the direction that favours the
+course's position.** The hunted defect.
+(a) **"The epilogue has the last word"** (253, 303) and, in **Q4's key**, "a framed book whose
+epilogue has the last word". That the book has a frame is well attested. That the frame *governs*
+rather than endorses is the contested question, and Michael Fox's reading (the frame narrator
+presents Qohelet approvingly) is the standing counter-position. Resolved by editorial preference, in
+a quiz key, in the direction that neutralises Ecclesiastes 9:5.
+(b) **Manufactured consensus**: "Both readings agree on the thing that matters for you... a single
+line of the Teacher is not where you settle a doctrine" (253). On Provan's reading, which the same
+paragraph reports, Qohelet's voice *is* the book's teaching. Attributing to a named scholar an
+agreement that dissolves his position is a 3.2 failure.
+(c) **"Counter-voices"** as a section heading (240) and "the canon's own defence against turning
+wisdom into a slot machine" (242) state the Longman side of the disagreement the lesson reports
+eleven lines later, in the lesson's own voice, as the reason the book is canonical. "That he is
+there on purpose is not argued" (303) is contradicted by m. Yadayim 3:5.
+(d) **"Paul's instruction and the psalm are the same instruction"** (287), and "That is the whole
+logic of the imprecatory psalms" (281). A theological synthesis asserted as an observation, and it
+is the sentence carrying the answer to the lesson's hardest objection. `SOURCES.md` records only the
+weaker claim that these psalms "do not contradict Jesus' teaching"; the *because* clause at 287 is
+the drafter's and is attributed to Fee and Stuart by placement.
+(e) **"It is the verdict of the book of Job"** (234). Job 42:7 says the friends have "not spoken
+about me what is right"; reading that as a verdict about *genre misuse* is an interpretation, and
+substantial readings locate the fault in their theology of God instead.
+(f) **"survives translation better than almost any other poetry in the world"** (301), an unsourced
+superlative contradicted by the course's own research: the Psalm 9/10 acrostic, verified at
+`SOURCES.md` 170 and taught in lesson 1, is invisible in English.
+
+**L5-B18. The critical scholar: Mowinckel dropped, the superscriptions silently deleted, Ecclesiastes
+undated.** Mowinckel appears once, in footnote 7, never in the body, though the same footnote records
+that Hayes lecture 21 covers "form criticism from Gunkel and Mowinckel". The lesson takes Gunkel's
+**labels** and drops his **thesis**, that each *Gattung* has a *Sitz im Leben* in Israel's cult, and
+with it Mowinckel's claim that most psalms are temple liturgy rather than private devotion, which is
+the direct counter-position to the lesson's own reading rule at 114. It even prints Mowinckel's
+category name, "the enthronement psalms", without him.
+**The superscriptions are deleted from every psalm quotation and the deletion is disclosed only in
+the Sources block** (337), while line 165 says "Here is the whole psalm" of a Psalm 13 that has had
+its heading removed, which in Hebrew is verse 1. Whether "of David" means authorship, dedication or
+a later liturgical note is the standing question, and the lesson decides it by excision, in the
+direction that makes a psalm a private prayer. Psalm 88's superscription names Heman the Ezrahite
+and sits inside the psalm Q1 is about.
+Ecclesiastes gets no date, no 1:1 "son of David, king in Jerusalem", no Solomonic persona and no
+mention of the near-consensus post-exilic dating.
+
+**L5-B19. The lesson 1 forward reference is dangling.** `01-finding-your-way-around.md` line 239:
+"Who the servant is has been argued between Jews and Christians for two thousand years, and **lesson
+5 takes it up**." Grepped lesson 5: "Isaiah 53" appears **zero** times. The material landed in lesson
+4's callout, which is where L1-N8's resolution should now point.
+
+### Facts wrong
+
+**L5-F1. Psalm 42's refrain occurs three times, not twice, and the checkpoint stops one verse
+short.** Line 199 sends the reader to "all eleven verses" and line 200 answers "the turn happens
+twice". Verified in NET2: the refrain stands identically at **42:5, 42:11 and 43:5**, and **Psalm 43
+has no superscription**, which is the main evidence that 42 and 43 were one psalm. Reading both
+makes the checkpoint's own point ("the turn is not a switch that stays flipped") far stronger.
+
+**L5-F2. Psalm 88's verse count is double-covered.** Q1's stem says it "opens with a cry, complains
+for eighteen verses"; the psalm is **18 verses in total**. Also Q1's key understates what it drops:
+against Fee and Stuart's six elements, Psalm 88 lacks trust and assurance as well as praise.
+
+**L5-F3. Psalm 30 does not end where Q6 says.** The stem says it "ends with" 30:11; the psalm ends
+at **30:12**, "I will always give thanks to you", which is the testimony element and strengthens the
+key.
+
+**L5-F4. Psalm 137 verse 7 is itself an imprecation**, so "after six verses of grief, the last two"
+(267) miscounts a nine-verse psalm the lesson relies on three lines later.
+
+**L5-F5. The corporate-lament list drops Psalm 94** (124) and is given without the hedge the
+individual list carries.
+
+**L5-F6. Elihu is missing, and he is the failure case for the lesson's own rule.** Line 244: "you
+cannot read any speech in Job as 'what the Bible teaches' without asking who is speaking and what God
+says about them at the end." Job 32 to 37 is Elihu, and 42:7 names only Eliphaz "and your two
+friends", so the rule returns no verdict on a sixth of the book. L1-D2 established that a rule taught
+with no failure case is memorised rather than usable; this one is free and inside the lesson's text.
+
+**L5-F7. The acrostics are missing**, and they are the counter-example to L5-B17(f). Psalms 9-10, 25,
+34, 37, 111, 112, 119, 145 and Lamentations are alphabetic acrostics, the one formal feature that does
+not survive translation at all. **Lesson 1 already worked Psalms 9 and 10 as a broken acrostic** and
+`SOURCES.md` 170 records it as verified.
+
+**L5-F8. "Lesson 9 returns to it"** (117) is false as the course stands: no lesson mentions 11Q5 or
+the Psalms Scroll outside lesson 5, and `OUTLINE.md` sends lesson 9 to the Great Isaiah Scroll.
+
+**L5-F9. The Ecclesiastes liturgy sentence over-generalises its source and misplaces the festival.**
+The lesson says "by other communities on Shemini Atzeret"; `SOURCES.md` 245 names only "Yemenites,
+Italians, some Sephardim, and the mediaeval French Jewish rite". Shemini Atzeret is a distinct
+festival following Sukkot, so "at Sukkot... on Shemini Atzeret" is self-contradictory. Ashkenazim
+themselves read it on Shemini Atzeret in years when no Shabbat falls in Chol HaMoed.
+
+**L5-F10. Three Fee and Stuart quotations run longer than the research record supports** (209, 224,
+234), and **the Kugel paraphrase goes beyond the formula `SOURCES.md` authorised** ("quote only the
+formula"), giving a four-verb mechanism attributed to a book the research records as not opened.
+The substance of the Kugel expansion is independently supported; the attribution is the problem.
+
+**L5-F11. Small claims beyond the record**: "thirty-nine chapters of poetry" in Job; *hebel*'s
+"literal sense is vapour or breath"; "In the Hebrew Bible it is called Tehillim"; "*hesed*" as the
+word behind the NET's "faithfulness" at Psalm 13:5; 11Q5 "roughly nine centuries" before the
+Masoretic codices, which is closer to a thousand years; both video running times; and the *hebel*
+count of 37, which several commentaries give as 38.
+
+**L5-F12. A statistic sourced to a YouTube animation.** Line 73 attributes "about a third of the
+whole Bible" is poetry to the BibleProject video, in parentheses, unfootnoted, and the sentence
+around it is about the Old Testament, so the denominator switches mid-sentence. 2.2 does not accept
+an animation as the source for a proportion, and Fee and Stuart's own figures are in `SOURCES.md`
+line 11 and unused.
+
+### Depth: researched and unused
+
+Fee and Stuart's **thanksgiving elements worked on Psalm 138** (the exact material L5-B5 needs);
+their **three worked parallelism examples**, Isaiah 44:22, Hosea 7:14 and Obadiah 21, which would
+supply ready-made practice for objective 1 and would give **synthetic parallelism** the example it
+completely lacks (it is defined once in a parenthesis and never shown, practised or tested); the
+**fuller hymn lists** (66, 100, 111, 114, 149; 33, 103, 113, 117, 145 to 147), which the chart footer
+claims do not exist; the **full lament lists**; Fee and Stuart's **other three Proverbs guidelines**,
+where Go deeper advertises "the four guidelines" and the lesson gives one; their **Psalm 3 worked
+lament**; **Longman and Dillard**, assigned by `OUTLINE.md` and absent from body, Sources and Go
+deeper, which is L4-D1.4 verbatim one lesson later; **Hayes lecture 20** on wisdom, so the Psalms
+half carries a critical voice and the wisdom half carries none, which is L4-D1.7 with the halves
+swapped; and the **BibleProject "Metaphor" video**, verified at draft time and parked in Go deeper
+rather than embedded at the imagery section it was researched for.
+Correct behaviour to record: Athanasius's *Letter to Marcellinus* and the NET note on Proverbs 22:6
+are recorded as "Not obtained" and neither is cited. And **the lesson does not attribute Proverbs
+22:6 to Fee and Stuart**, which `SOURCES.md` warns against; it gives its own reasoning and then says
+they make the same point from 16:3. Clean separation, and it must survive the L5-B3 fix.
+
+### Voice and pedagogy
+
+Four "Here is" openers (92, 104, 165, 193), including "Here is the mechanism under all of this",
+which is the 1.2 element name in learner-facing prose. Five pipeline-vocabulary headings. Ten to
+eighteen paragraphs ending on a compressed one-line moral, depending on how strictly counted, where
+lesson 4 was told to keep two. Six unsourced superlatives. Three rhetorical-question openers where
+one is allowed; keep line 242's, which a real student asks. Eleven wall paragraphs over 100 words,
+worst at 253 (174 words), 224 (174) and 244 (150). Four sentences over 90 words. Psalm 13 is analysed
+by verse number and quoted **without verse numbers**, giving eleven back-references into an
+unnumbered block on a phone. Exercise part 1 says "mark in the margin", which assumes a printed
+Bible. **No free-recall step before the quiz**, and this is the only lesson in the course without
+one. The figure is never referred to in the text and its caption teaches lesson 9's subject, so it is
+close to decorative in a lesson that shows parallelism visually nowhere. Q6 option C rests on Psalm
+30:6, a line the stem does not quote, so an inline reader cannot evaluate it. The same fake-
+parallelism distractor template appears in Q2, Q3 and Q4, which hands a free elimination once
+spotted. **Five of six keys are the moderate option**, with every distractor closing on an absolute,
+so a learner who has read nothing scores 5/6 against a 70 percent pass mark: the drafter has learned
+to level length and position and not yet to level stance.
+
+### Split seam
+
+Yes, and the lesson names it in words: line 205 opens "Now to the other half of the lesson." Part A
+(poetry and the Psalms) and Part B (wisdom, Job, Ecclesiastes) are about 3,400 words each. One
+complication all three reviewers who looked at it noted: **the Psalm 137 section sits in Part B and
+belongs to Part A's material**, so a clean split needs it moved up. Fourth lesson in a row to hit
+this.
+
+### What is working, and must survive the revision
+
+- **The opening**, Proverbs 26:4 and 5 side by side with a predict that makes the reader choose
+  before any teaching, and an answer that turns the contradiction into the lesson's whole thesis.
+  The best opening in the course since lesson 3's.
+- **The Kugel correction of Lowth** (88 to 92): the classic taxonomy taught, then the standing
+  objection to it, labelled as an argument, with a usable habit as the outcome. **Footnote 5 discloses
+  that the book was not opened**, which is the L4-B7 defect handled correctly and unprompted.
+- **The Proverbs teaching entire** (203 to 234), especially the wrinkle at 226: the reader's own best
+  objection ("a convenient way to explain away the verses that do not come true") answered from
+  inside the canon with Job's friends and Job 42:7. Objective 3 is the only complete
+  teach-practise-test chain in the lesson and is the template for rebuilding the others.
+- **The Longman and Provan paragraph** (253), minus its last sentence. Two friends reading the same
+  book in opposite ways, with the course's own textbook's authors split one each way.
+- **The Psalm 42 checkpoint**, "the turn in a lament is not a switch that stays flipped".
+- **The Psalm 137 section's refusal to make itself comfortable**: "I will not pretend this makes the
+  verse comfortable. It does not, and it is not meant to." The anti-presentism at 277 to 279, placing
+  the psalm on lesson 2's timeline and naming the siege practice behind verse 9, is 3.3 done properly.
+- **The Sukkot paragraph's generosity**, once its translation and sourcing are fixed.
+- **The whole quiz is application**: six items, six cases the body does not work. First lesson in the
+  course to manage 6/6 against 4.3's "at least half".
+- **The option sets are the best-levelled in the course** (spreads of 5 to 15 characters, key longest
+  in one item of six) and **keys spread A, B, C, B, C, D**, all four indices, no run. Whatever
+  produced that discipline must be kept and extended to stance.
+- **The explanations teach the wrong answers**, crediting distractors for the half they get right.
+- **Nobody is told who wrote a psalm.** Given how easily this lesson could have said "David wrote
+  Psalm 13", the restraint is deliberate and should be kept when the superscription paragraph is
+  added.
+- **Every body quotation is verbatim NET2**, verified word for word by two reviewers independently:
+  Proverbs 26:4 to 5, 22:6, 3:9 to 10; Psalm 19:1 to 2, Psalm 13 entire, 42:11, 22:1, 22:22, 51:5,
+  137:1 and 8 to 9; Ecclesiastes 1:2 and 12:13; Job 42:7 and 15:20; Romans 12:19; Psalm 114:4. **The
+  ESV survivals are in the quiz and in three incidental paraphrases, not in the body.** Do not
+  "correct" the body.
+- **All five outline misconceptions shipped, plus a sixth.** First complete misconception list in
+  this course.
+- **No sneering at any tradition and no strawman of a critical position anywhere.** The failures
+  toward Jewish, Catholic, Orthodox and critical readers here are failures of **omission**, which is
+  a different and more tractable problem than lessons 3 and 4 had.
+- **Zero em dashes, zero en dashes, zero banned vocabulary.** Fifth lesson running.
+
+### Unverified in this environment
+
+Both BibleProject running times and video IDs (youtube.com blocked). The Psalms Scroll photograph,
+its alt text and the "nine centuries" caption claim (Commons blocked). Hayes's lecture 21 quotations
+(oyc.yale.edu blocked; recorded in `SOURCES.md` from the transcript). Fee and Stuart's page-level
+wordings, including the three over-long quotations at L5-F10. Lowth 1753, Kugel 1981 and Gunkel 1933
+beyond what search confirms. The *hebel* count of 37 against 38.
+
+### Resolutions applied, 2026-09-06
+
+Applied in a single fix pass on `lessons/05-poetry-psalms-wisdom.md`, with corrections in
+`research/SOURCES.md` so later lessons do not inherit them, and one one-word fix in
+`lessons/01-finding-your-way-around.md`. `npm run validate` exits 0 and **this lesson's two warnings
+are gone**. Zero em dashes and zero en dashes. Frontmatter parses; six quiz items, each a mapping
+with q, four options, answer and explain; 15 block openers and 15 closers. Body grew from about
+6,800 words to about 10,300.
+
+**Blocking.**
+
+- **L5-B1.** The unhidden answer is gone. The Psalm 13 gap is now a single `:::predict`, and **the
+  giveaway is out of the stem**: it no longer calls verses 3 and 4 "the petition" before asking which
+  elements they are, and it asks for three things (the elements, the request, the stakes) rather than
+  one. "Here is mine" is gone.
+- **L5-B2.** Every poetic line in every block quotation now ends with two trailing spaces, so marked
+  emits `<br>` and the poems render as lines. Verified by running marked with the project's own
+  options. 44 lines fixed; the nine without trailing spaces are attribution lines, which should not
+  carry a break. **The general fix belongs in the shared files and is filed below**, because lesson 6
+  has 23 affected lines and every lesson that quotes poetry has some.
+- **L5-B3.** All six ESV wordings in the quiz replaced with NET 2nd edition and tagged, plus the NIV
+  Proverbs 16:3 in the body, which now gives the NET wording **and says that Fee and Stuart quote it
+  in the NIV**, and the two "in most translations" paraphrases at Proverbs 10:1 and 15:1, which are
+  now quoted directly from the NET. Psalm 59:7's "swords in their lips", which is ESV and is not in
+  the NET at all, is replaced by Psalm 57:4's "tongues are sharp swords", which is. Footnote 1 no
+  longer claims a bible.org API fetch and now lists every passage quoted including the quiz.
+  **`SOURCES.md` corrected at source**, with the original entry kept so the error is traceable, and
+  its stale verse count deleted.
+- **L5-B4.** The false sentence is gone. The lesson now says lament is the largest *single* type,
+  larger than any one kind of praise, and then says explicitly that the praise categories added
+  together outnumber it, so the Psalter is not mostly complaint. **The chart now draws the two
+  categories it previously omitted**, hymns of praise (16) and celebration and affirmation (28), so
+  the reader can check the claim on the picture, and the caption says the laments bar is drawn at the
+  floor of 60 because the source gives no exact number.
+- **L5-B5.** Each of the seven types now carries a **test the reader can apply** rather than a bare
+  list of numbers: is the trouble present, is it past, is there an occasion at all, and so on. **Fee
+  and Stuart's five thanksgiving elements are now taught in the body**, worked on Psalm 138 as they
+  work them, so Q6 no longer grades against a pattern introduced in its own answer. The lesson names
+  the tense test as the one the reader will use most. **Both lookup items are gone**: Q1 and Q6 were
+  replaced with psalms the body does not classify.
+- **L5-B6.** Every objective now has teaching, practice and a quiz item. Imagery gets a new
+  `:::checkpoint` on Psalm 18:2's seven images. Classification gets the tests above plus the fresh
+  Psalm 6 item. **Job gets a `:::checkpoint`** on Job 15:20 in Eliphaz's mouth, which also carries the
+  Elihu failure case. The imprecatory psalms get the new Psalm 137 predict and a rewritten Q5.
+  Objective 4 was split into two so that Job and Ecclesiastes are one objective and the imprecatory
+  psalms another, and objective 5 now asks the learner to state the **strongest objection** and how
+  Christians have answered it differently, which is what the lesson now teaches.
+- **L5-B7.** Deuteronomy 32:35 is quoted in the NET ("I will get revenge and pay them back"), the
+  familiar wording is attributed to **Paul at Romans 12:19** where it belongs, and "which Deuteronomy
+  32:35 gives to Israel" as a command is gone. **"Paul's instruction and the psalm are the same
+  instruction" is gone**, replaced by "our reading of the connection is... That's a reading, not
+  something the psalm says about itself." Q5's explanation no longer says "what Deuteronomy 32:35 and
+  Romans 12:19 require".
+- **L5-B8.** The chart is redrawn: viewBox 360 to **344**, one column, every label font-size 15 or 16
+  rendering at **14.3 to 15.3px** on a 360px phone against 8.2 to 10.9px before. **No `<g>` carries a
+  fill or a font-size and no fill or stroke is hardcoded anywhere**; the `#fff` in-bar label is gone
+  because every count now sits in the label outside its bar. A `<desc>` was added and
+  `aria-labelledby` names both title and desc. `font-family` is `inherit`.
+- **L5-B9.** Ten in-body links added, so every "open this passage" instruction is reachable,
+  beginning with the lesson's own first line. Sefaria links for both JPS 1917 quotations; the Hayes
+  lectures are linked by number in Go deeper.
+- **L5-B10.** Contractions raised from one real instance to **126** in the body, and the quiz
+  frontmatter, which had zero in 1,685 words, now carries them throughout its explanations.
+- **L5-B11.** `minutes` 45 to **125**, inside the reviewers' measured range of 105 to 140 and matching
+  the course's calibration. The exercise's per-task times are stated.
+- **L5-B12.** A new paragraph gives the Psalter's living liturgical use in three traditions: the
+  synagogue (Ashrei three times daily, Hallel at the festivals, the psalm of the day, Psalm 30 at
+  shacharit), the Rule of St Benedict and the four-week Liturgy of the Hours, and the Orthodox twenty
+  kathismata. **And the numbering warning is now given before the reader is sent to look anything
+  up**: the Greek and Latin psalters run one lower from about Psalm 10 to 147, so this lesson's
+  Psalm 51 is their Psalm 50.
+- **L5-B13.** "150 in the Hebrew numbering, which Protestant and most modern Catholic Bibles follow",
+  with **Psalm 151** named and the observation that 11Q5, the manuscript in the lesson's own
+  photograph, carries it in Hebrew. "Three books in a **Protestant** Old Testament", with **Sirach and
+  the Wisdom of Solomon** named as the two more that Catholic and Orthodox Bibles carry, and Sirach
+  identified as the closest ancient relative Proverbs has. **Wisdom of Solomon 3:1 is now named in
+  Q4's explanation** as the answer another canon gives to the problem Ecclesiastes 9:5 poses. The
+  YouTube-sourced "about a third" proportion is replaced by Fee and Stuart's figure from
+  `SOURCES.md`, with a footnote saying no exact poetry figure is asserted.
+- **L5-B14.** The Jewish reader is heard rather than described. **Psalm 19:8 is quoted in JPS 1917**
+  with a Sefaria link, as what praying the psalms sounds like from inside the tradition whose book it
+  first was. **Ecclesiastes 1:2 is quoted in JPS 1917** in the Sukkot paragraph, which fixes the 4.7
+  breach of characterising a Jewish liturgical act by quoting a Christian translation. The book is
+  called **Kohelet** there. ***m. Yadayim* 3:5** is cited for the rabbis' own dispute over whether it
+  belonged, which replaces "that he is there on purpose is not argued" with something true and more
+  interesting. **The Psalm 22 exercise item now carries the three-way sort**: what history
+  establishes, that a Jewish reader reads it as complete without a second fulfilment, and what we
+  hold by faith, on the model of lesson 4's Isaiah 7:14. Hebrew versification is explained in the new
+  superscription callout.
+- **L5-B15.** The imprecatory section now states the objection at full strength in its own
+  subsection: grant every mitigation, and the psalm still asks God to bless the man who kills babies.
+  **C. S. Lewis's "devilish"** is given, and **the Liturgy of the Hours' omission of Psalms 58, 83 and
+  109 and of 137:7 to 9** is named with its actual pastoral reason. The lesson says which side it
+  takes and that Christians who pray the Psalter daily have landed differently. **Q5 option A was
+  rewritten** so it states the omission position as its holders state it rather than as "an older and
+  lower stage of religion", and its explanation says outright that a reader who omits these psalms is
+  not being unfaithful. The misconception entry was rewritten to match.
+- **L5-B16.** Two `:::checkpoint` blocks of model answers now follow the exercise, covering all four
+  tasks. **Exercise task 1 no longer locates and quotes the turn it asks the reader to find**, and
+  task 2 was moved from Proverbs 3:1 to 10 to **3:1 to 8**, so it no longer sends the learner to
+  verses the Proverbs 3 checkpoint has already worked and concluded.
+- **L5-B17.** All six contested claims are now labelled. The Ecclesiastes frame: the lesson states
+  that what the frame *does* with the voice is the live question, names **Michael Fox** with Provan on
+  the other side, and says "we read the frame as governing, and you should know we hold that rather
+  than found it". **Q4's key no longer turns on the contested half**; it reads "who is speaking comes
+  first". The manufactured consensus is gone, replaced by a narrower statement of what both readings
+  actually share. The heading "the counter-voices" is now "and what they do to Proverbs", and the
+  claim is attributed to Longman as the reading this course takes. "It is the verdict of the book of
+  Job" is now "that's how we read Job 42:7", with a parenthesis conceding that readers differ over
+  whether the friends' fault was their theology or their misuse of a form. The translation superlative
+  is replaced by a whole short section on the acrostics, which is the honest counter-example.
+- **L5-B18.** A new paragraph gives **Gunkel's second half and Mowinckel**: that each *Gattung* had a
+  *Sitz im Leben* in the cult, that Mowinckel read most psalms as liturgy before private devotion,
+  that this is where "enthronement psalms" comes from, that it is argued, and that it **cuts against
+  the lesson's own reading rule**, which is said out loud. **A new `:::callout` on the
+  superscriptions** explains what they are, that this lesson omits them, that they are verse 1 in
+  Hebrew, and that "of David" may mean author, collection or dedication, so the lesson no longer
+  decides that question by silence. Ecclesiastes now gets 1:1 and 1:12's Solomonic voice, the Persian
+  loanwords, the majority Persian or Hellenistic date and the traditional attribution, handed to
+  lesson 10.
+- **L5-B19.** Lesson 1's dangling forward reference is repointed from lesson 5 to **lesson 4**, where
+  the Isaiah 53 material actually landed. One word.
+
+**Facts.** F1 the checkpoint now sends the reader to **Psalm 42 and 43 together**, names the third
+refrain at 43:5 and Psalm 43's missing superscription as the evidence they are one psalm, and points
+out that stopping at 42:11 misses the resolution. F2 Psalm 88's count corrected and Q1 replaced. F3
+Q6 replaced. F4 "after seven verses, six of grief and one already asking God to remember what Edom
+did". F5 Psalm 94 restored to the corporate laments, in the lesson and at source. F6 **Elihu is now
+in the Job checkpoint**, as the case where the rule returns nothing. F7 **the acrostics have their own
+section**, using Psalm 119 and lesson 1's Psalm 9/10 case. F8 the false "lesson 9 returns to it" is
+gone with the figure. F9 the Sukkot sentence now names the rites the source names and no longer
+implies Shemini Atzeret falls within Sukkot. F10 the three over-long Fee and Stuart quotations are
+trimmed to the fragments the research records, and **the Kugel paraphrase is attributed to standard
+summaries** rather than to a book footnote 6 now states was not opened. F11 the claims beyond the
+record are cut or hedged: the *hebel* count now says some commentaries give thirty-eight; "thirty-nine
+chapters" is now "chapters 3 to 41"; the 11Q5 caption went with the figure. F12 the video-sourced
+statistic is replaced.
+
+**Media.** The Psalms Scroll figure is **removed**, because it taught nothing about reading poetry,
+was never referred to in the text, and its caption's substance belonged to lesson 9 and was unsourced
+here. Both video running times are cut, following lesson 4's and lesson 9's recorded resolution,
+since YouTube is unreachable in this environment. The poetry video's title is corrected to
+BibleProject's own, "How to Read Biblical Poetry".
+
+**Voice and pedagogy.** All four "Here is" openers gone; the one remaining instance is mid-sentence.
+All five pipeline-vocabulary headings renamed after their content ("Psalm 13, read badly and then
+well"; "Proverbs 22:6, the verse that has hurt the most parents"; "Now do it yourself, on Psalm 22,
+Ecclesiastes, Psalm 1, and four passages out of order"; ":::exercise Four tasks"). The one-line
+morals are cut to two. The six unsourced superlatives are gone. Two of the three rhetorical-question
+openers are gone. The wall paragraphs are broken up and the four sentences over 90 words are split.
+**Psalm 13 is now quoted with verse numbers**, so the eleven back-references have something to point
+at. **A targeted free-recall step was added** before the exercise, which this lesson was the only one
+in the course to lack. **The exercise now interleaves**: a new fourth task gives four passages out of
+order and asks only which question to ask first, mixing lesson 3's genre question with this lesson's
+two. Exercise task 1 no longer says "mark in the margin". Q6's option C no longer rests on a verse the
+stem does not quote. **The fake-parallelism distractor template**, which appeared in three items, now
+appears once. **Five of six keys were the moderate option**; the replacements give at least two
+options in each item the key's own hedging shape, and the absolutes are stripped from the distractors.
+Keys now spread **2, 3, 1, 0, 2, 3**: all four indices, no run, no adjacent repeat. Two misconceptions
+were added, "Job's friends are quoting Scripture, so their speeches are what the Bible teaches" and
+"David wrote the Psalms and they're his diary", and the "violent psalms" entry was rewritten.
+
+### Deliberately not fixed, with reasons
+
+- **The split.** Marked with an HTML comment per BACKLOG 7b, and **the Psalm 137 section was moved up
+  above the seam**, where its material belongs, which was the one thing three reviewers said a clean
+  split would need. Not renumbered, not held. Fourth lesson in a row.
+- **Both BibleProject running times, and the Psalms Scroll image.** Cut rather than corrected, because
+  YouTube and Commons are blocked in this environment. Restore the run-times when a session can reach
+  YouTube; the image belongs in lesson 9 if anywhere.
+- **Fee and Stuart's page-level wordings and Hayes's lecture 21 quotations.** Recorded in
+  `SOURCES.md` from the draft-time reading, not re-openable here. Kept as recorded and listed as
+  fact-check debt.
+- **The *hebel* count.** The lesson now says thirty-seven by Fee and Stuart's count and notes that
+  some commentaries give thirty-eight, which is as far as this pass can honestly go without the book.
+- **A visual diagram of parallelism.** Two reviewers asked for one, and it is the right idea for this
+  lesson. Not done, because the chart slot was spent on repairing the psalm-type chart's truth
+  problem, and because the trailing-space fix now makes the poems render as lines, which delivers most
+  of the benefit. Recorded for a later pass.
+- **Longman and Dillard beyond one Go deeper entry**, and Alter beyond one. Both were added; a fuller
+  use belongs where the books are actually the subject.
+
+### Requests for the shared files (added to the list from lesson 4, which is still open)
+
+6. **`site/assets/styles.css` and `scripts/build.mjs`: poetry does not render as poetry.** `marked` is
+   configured with `breaks: false` and `blockquote` has no `white-space`, so every quoted psalm,
+   proverb and oracle in this course renders as a prose run-on. Lesson 5 works around it with trailing
+   double spaces on 44 lines, which is fragile and invisible in the source. The real fix is a
+   `:::verse` block in `renderBlocks` plus `white-space: pre-line`, and it would serve lessons 2, 4, 5,
+   6, 9 and 10 at once. **This is the highest-value shared-file item of the six**, because it is the
+   only one that changes what a learner actually sees.
+7. **A lint rule for scripture quoted without a translation tag.** Two lessons running have carried
+   ESV and NIV wordings inside quotation marks with no `(NET)` and no version named. A check for a
+   `>` block or a quoted phrase followed by a verse reference without a translation tag would catch
+   the class mechanically, which is worth more than catching each instance in review.
+
+---
+
+## Lesson 6, "Reading the Gospels, the parables, and Acts" — Stage 4 round 1, 2026-09-06
+
+Five reviewers in fresh context. **Verdict: not clean for publish.** About fifty findings, fourteen
+blocking. **Eight of the blocking findings are defects already resolved earlier in this same course**,
+and three of those were fixed in lesson 5's pass, which this lesson was drafted after.
+
+The lesson has real strengths that must survive: the Augustine section is the fairest treatment of a
+position the course disagrees with anywhere in these six lessons, the parable-as-trap mechanism is
+genuinely taught rather than asserted, and the drafter flags a secondary-source dependency **in the
+learner-facing text** at line 250, which no previous lesson did. Every one of its thirteen body
+scripture quotations verifies clean against NET2.
+
+### BLOCKING
+
+**L6-B1. The self-check prints its own answer in plain body text, hitting both flagged signal
+phrases at once. Sixth lesson running.** Line 166 "Now do the next step yourself before reading on";
+line 168, the next visible line, "**Here's my answer.**" Caught by all five reviewers. L1-V3, lesson
+2's line 254, L3-B1, L4-B1, L5-B1, whose fix was written one lesson earlier.
+**A second, smaller instance at line 142**: the Luke 18 checkpoint's stem says "Luke tells you the
+point in verse 1 (pray and don't lose heart)" and then asks what the one point is, which is the
+compounding fault recorded at L5-B1.
+
+**L6-B2. The Chicago Statement is cited three times for genre latitude, never for its limits, with
+the wording error corrected at lesson 3's Stage 4 reintroduced inside quotation marks.**
+`SOURCES.md` line 148 is explicit and was written for later lessons: "**Any lesson citing Chicago for
+genre latitude must cite those limits alongside it, or it over-reads the statement in the direction
+its own signatories reject.**" The limits are Article XII and the 1982 Chicago Statement on Biblical
+Hermeneutics, Article XXII. Grepped: "XXII" 0, "1982" 0, "Hermeneutics" 0.
+Three further defects on the same source. **(a)** Lines 98 and 359 quote "the topical arrangement of
+**material**"; the same `SOURCES.md` entry records the correction to "**materials**", plural, made at
+lesson 3. **(b)** Q3's explanation grades as correct that compressing a message delivered through
+agents into a face-to-face exchange is "the kind of variation the Chicago Statement itself allows
+under 'variant selections of material in parallel accounts'". That clause is about each evangelist
+*selecting different material*. Compression is Licona's category and was itself the subject of a
+public inerrancy quarrel; the lesson enlists the signatories, in a quiz key, for a move a substantial
+part of that constituency rejects. **(c)** Source 3 sends the reader to the ETS archive, which
+`SOURCES.md` 148 records as returning 404, and gives no link at all.
+
+**L6-B3. Objective 1 is taught, never modelled, never practised, and tested cold. Sixth lesson
+running, and the worst instance yet.** "Read one event across four portraits without forcing them
+into one." The four portraits get four one-line characterisations (88 to 92). The Temple cleansing
+(96 to 100) is five sentences with **not one word of John 2 or Mark 11 quoted**. The exercise is one
+parable task and one Acts task. The only place a learner compares Gospels is Q3, on two passages they
+have never opened, which also quietly narrows "four portraits" to two. The previous five instances of
+this defect at least modelled the skill before testing it.
+
+**L6-B4. Allegorising is taught entirely in the past tense, and no living tradition is named. Fourth
+recurrence of an explicit standing instruction.** Grepped: "Catholic" 1 and "Orthodox" 1 (both in the
+Acts 8/10/19 paragraph, on a different subject), "Catechism" 0, "four senses" 0, "figural" 0. Line
+120 "For most of church history the parables were read as allegories"; line 138 "be fair to the **old
+readers**". `SOURCES.md` line 160: "**No lesson may list them as beginners' errors without saying
+that they are the fathers' method and are normal Catholic and Orthodox practice today**", and it
+notes this is the second time the point has had to be made. It is now the fourth (L2-N9, L3-N5,
+lesson 4, here), in the one lesson where allegory is the actual subject and where misconception 2 is
+"the parables are allegories with a key".
+Compounding: line 138 states the grammatical-historical rule flatly as *the* rule, which is precisely
+what the four-senses tradition denies as the only rule, asserted as settled in the direction of the
+course's own hermeneutic and unlabelled.
+
+**L6-B5. "Draws its leaders from a hat" mocks a living church's current practice, in the author's
+voice.** Line 208. **The Coptic Orthodox Church elects its Pope by the altar lot**, drawn by a
+blindfolded child after the liturgy, most recently for Tawadros II in 2012; the Moravians used the
+lot for calls for two centuries. These are not hypothetical over-appliers of a rule; they have a
+reasoned account of the lot as handing a choice to God rather than to a majority, and quiz Q2 grades
+them wrong without letting them speak. 3.3 and 3.7. The lesson is otherwise scrupulous about naming
+who disagrees (line 210 does it well), which makes this the one place it does the opposite.
+
+**L6-B6. "Irenaeus's fourfold Gospel predates most of them" is false, and the sentence containing it
+contradicts itself twice.** Line 326. Irenaeus wrote *Against Heresies* c. 180 and **names a Gospel
+of Judas in Book 1 of that same work** (1.31.1, the Cainites "produce a fictitious history of this
+kind, which they style the Gospel of Judas"), verified. Thomas is normally dated c. 140, Peter
+c. 150. So the fourfold argument postdates most of the texts listed and demonstrably postdates one.
+The same sentence says the non-canonical gospels are "**on every scholarly dating**, later than the
+four" and then concedes in its own parenthesis "most scholars put it in the second century", and
+three sentences later links Martin's Yale lecture 8 as "the strongest case for taking Thomas
+seriously" — a lecture arguing some of its sayings look more primitive than the canonical ones. A
+real minority (Koester, Patterson, DeConick's earliest layer) dates a core of Thomas to the 50s to
+70s. Contested claim asserted as settled, in the direction that favours the course, refuted by the
+lesson's own footnote.
+
+**L6-B7. Two quiz keys assert contested claims as settled, and one marks a real conservative position
+wrong.** **(a)** Q4's key says every Gospel was written within about seventy years of the crucifixion
+"**on any scholarly dating**", and line 318 says "the latest date **anyone serious** gives for any
+Gospel is the mid-90s". The mainstream range for John runs to about 110. `SOURCES.md` contested
+question 3 says only "within *about* seventy years"; the lesson tightened a hedge into an absolute
+and made the absolute a quiz key. The body itself scopes it correctly at line 260 ("on either
+dating"). **(b)** Q4 marks option D wrong because "Carson and Moo date John after 70", but Carson and
+Moo are not the conservative camp: **Robinson, cited approvingly at line 254, dates the whole New
+Testament before 70**, and Wallace, Morris and Wright argue for a pre-70 John. The lesson treats one
+textbook as the whole side. L4-N7 one lesson later, in the other direction.
+
+**L6-B8. Paul's death is dated "around 62", which is wrong and destroys the argument it appears in.**
+Line 252. 62 is the end of the two-year house arrest of Acts 28:30; Paul's death is conventionally
+c. 64 to 67, after the Great Fire. And the error is self-defeating: line 250 prints Carson and Moo's
+**"mid-60s" for Acts**, so on the lesson's own figure Acts postdates a death it is faulted for not
+mentioning. The lesson prints an argument that undercuts its own date and says nothing.
+
+**L6-B9. The chart is invisible to the validator through a third distinct route, and loses its axis,
+its year scale and all 21 labels on the dark theme.** Lines 266 to 312. The fills and sizes are
+declared in an inline `<style>` block (`.lbl { font: 11px …; fill: #333 }`, `.sm { … fill: #666 }`),
+and `scripts/build.mjs` matches `fill=` and `font-size=` **as attributes on `<text>`**. So
+`npm run validate` reports **one** hardcoded fill (the `#777` rect at line 293) when the true count is
+21, and **zero** undersized labels when all 21 are undersized. Line 275 is also the `<g>` wrapper case
+(`<g class="sm">` inheriting `fill:#666` to eight axis labels).
+Sizes: 10px and 11px in a `0 0 360 250` viewBox at 360px phone width (content 328px, scale 0.911)
+render at **9.11 and 10.02px** against the 14px floor. No `<desc>`. The caption keys the series **by
+colour alone** ("Red bars… Navy bars… Grey"), and both those tokens flip in dark mode, so both names
+are false for half the readers.
+This is the **fifth** SVG failure in this course the linter could not see, and the third distinct
+mechanism: lesson 3 used `fill="#ffffff"`, lessons 4 and 5 used `<g>` wrappers, lesson 6 uses CSS.
+**The chart's data is sound.** Every bar was checked against its 4px-per-year mapping and all seven
+match their cited ranges. Redraw the drawing, keep the numbers. One substantive quibble: critical
+Mark is drawn as an 8px band (69 to 71) against conservative Mark's 52px, which makes Ehrman's hedge
+look like a point estimate; widen to 68 to 72.
+
+**L6-B10. Three of six quiz items are lookups, and quizzes are open book.** Q2 (Acts 1:26) is worked
+in full at 200 to 208 with the conclusion stated in the item's own words. Q6 (Acts 8, 10, 19) is
+worked in full at 210, including the framing option B turns on. Q4's key is printed twice, at 260 to
+262 and again at 318. That leaves Q3 and Q5 as genuine application, with Q1 a notch below fresh since
+all three of its distractors are refuted almost verbatim at 138 and 140. 4.3 requires at least half.
+
+**L6-B11. The exercise has four written tasks and no model answers, gives away its own hardest
+question, and assigns material the lesson never teaches. Sixth lesson.** No `:::checkpoint` follows
+the exercise; everything after 338 is Connections. L2 (two missing), L3-V9 (four), L4-D7 (all),
+L5-B16 (all), each fixed the same way.
+**It gives away its hardest question:** task 1 asks the learner to decide whether Jesus explaining
+the sower licenses allegorising the mustard seed, and line 140 has already answered it.
+**It assigns untaught material:** task 1 sends the learner to **Mark 4:10 to 12**, where Jesus says he
+speaks in parables "so that although they look they may look but not see… so they may not repent and
+be forgiven". That is the hardest verse in the New Testament about the form this lesson teaches, it
+sits in tension with the trap mechanism, and the body never mentions it. The Go deeper entry even
+advertises that the video covers "why parables reveal and conceal", so the tension was known and
+outsourced to an animation.
+
+**L6-B12. Zero in-body links in the teaching prose, against nine "open this passage" instructions.**
+The file's only two Markdown links sit inside the `:::video` caption at line 103, **which is exactly
+what satisfies the validator's no-links check**, so lesson 6 produces no warning while lesson 7 does.
+Unlinked: Luke 15:11 to 32 ("Read it now, all of it", the most explicit reading command in the
+lesson), Luke 18:1 to 8, Acts 2:42, Acts 5:4, Mark 4:1 to 34, Acts 6:1 to 7, John 2 and Mark 11, both
+Q3 passages, and "you can read them" of Thomas, Peter, Judas and Mary with no pointer to any of them.
+Every practice task in the lesson is blocked for a reader without a Bible to hand. L1-V5, L3-V6,
+L4-B10, L5-B9, sixth time.
+
+**L6-B13. `minutes: 50` against a measured 95 to 125.** Four reviewers measured independently: 95 to
+120, 91 to 96, 106.5, and 124. The lesson commands about 71 verses of external reading, embeds a
+video whose caption effectively assigns a second, and sets four written tasks. Sixth lesson running
+to understate by more than half.
+
+**L6-B14. Burridge is the authority for the lesson's central genre claim and appears nowhere in
+`SOURCES.md`.** Line 78, "The best current answer is that they are ancient biographies with a
+theological aim", with source 1 attributing it to "Richard Burridge, *What Are the Gospels?* (1992),
+**now the standard view**". Grepped `SOURCES.md`: Burridge, zero hits. The book was never researched,
+is not recorded as read or unread, and "now the standard view" has no support in the research file.
+This is the cited-but-never-read defect in its purest form, and it is load-bearing, since it founds
+objective 1. Source 2 does the same smaller thing, citing Carson and Moo for Markan priority when
+`SOURCES.md` 17 and 198 both record the book as never opened.
+
+### Facts wrong
+
+**L6-F1. ESV survival in a quiz explanation, in quotation marks, untagged.** Line 49: the leaders
+"perceived that he had told the parable against them". **NET Mark 12:12: "because they realized that
+he told this parable against them."** "Perceived" is ESV and KJV. `SOURCES.md` 206 names Mark 12:12
+among the passages read in the ESV at draft time with the standing re-fetch instruction. This is
+L5-B3's exact shape one lesson later: **body converted, quiz not.** Mark 12:12 is also absent from
+source 15's passage list.
+
+**L6-F2. Source 15 claims a fetch that did not happen.** "read via the bible.org API". `SOURCES.md`
+206 records ESV from BibleGateway, and `SOURCES.md` 248 and 291 record that host as returning 403.
+Identical to L5-B3's footnote finding. **Important for the fix pass: every body quotation is
+nonetheless correct NET2** (Luke 15:1 to 2, 15:28 to 32; John 21:25; Mark 1:15, 13:2; 2 Samuel 12:7;
+Luke 10:29, 36 to 37; Acts 1:26, 2:44 to 45, 4:34 to 35), verified independently by two reviewers.
+The text is right and the bookkeeping is wrong. Do not "re-fix" the body.
+
+**L6-F3. Two further ESV-shaped wordings in prose.** Line 143, "a judge who fears neither God nor
+man" (NET Luke 18:2: "who neither feared God nor respected people"); line 335, "seven men of good
+repute, full of the Spirit and wisdom" and "give up preaching to serve tables" (NET Acts 6:3: "seven
+men who are **well-attested**"; 6:2: "**wait on tables**"). Neither is in quotation marks, so neither
+breaches 4.7, but both are debris of the class `SOURCES.md` 194 warns later drafts to expect.
+
+**L6-F4. Acts 4:34 drops a comma** inside a block quotation (line 196): NET has "among them, because".
+
+**L6-F5. Dodd is not where one-point parable reading begins.** Go deeper, line 353. **Adolf Jülicher,
+*Die Gleichnisreden Jesu* (1888 to 1899)** is; Dodd built on him and added realised eschatology.
+Aggravating: `SOURCES.md` 202 records only the SCJR reproduction of Augustine as read, not Dodd, so
+this is a characterisation of an unopened book and it is wrong.
+
+**L6-F6. "The cock crowed six times" misstates the harmonisation.** Line 324. Lindsell's proposal in
+*The Battle for the Bible* (1976) was that **Peter denied Jesus six times**, three before each cock
+crowing.
+
+**L6-F7. Ehrman's textbook "is the set text at Yale", present tense, and "and many other
+universities" is unsourced.** `SOURCES.md` 28 records it from **Martin's RLST 152, Spring 2009**;
+Martin is emeritus and the course is archived. `SOURCES.md` 168's standing instruction covers this
+class, and lessons 1 and 4 were both faulted for it.
+
+**L6-F8. Carson and Moo's printed ranges contradict the summary drawn from them.** Lines 250 and 252:
+Acts "mid-60s" and Luke "mid or late 60s", then "so Acts is early, **Luke is earlier than Acts**".
+On the printed ranges Luke can postdate Acts.
+
+**L6-F9. Markan priority is offered as the mechanism for something it cannot explain.** Line 92: it
+is "the reason the same parable can carry a slightly different emphasis in Matthew and Luke". A
+parable in Matthew and Luke but not Mark is double-tradition material, which needs Q or Farrer.
+"Q" appears zero times in the file. The lesson's "you don't need the details" scoping is honest, so
+this is a mechanism error rather than a neutrality failure.
+
+**L6-F10. Forty en dashes (U+2013).** `scripts/build.mjs` line 139 checks only U+2014, so the
+validator cannot see them. Lessons 2, 3, 4 and 5 all ship at zero of both after review; lesson 1 has
+8. All 40 are verse ranges, decade ranges or "2 Corinthians 8–9"; none is punctuation, so a straight
+swap to the course's " to " convention is safe. Nine are in the quiz frontmatter and eleven in
+`## Sources`.
+
+**L6-F11. "Five minutes of animation"** (line 103) is an unsupported running time. `SOURCES.md` 204
+verified the ID, title and channel by oEmbed, which returns no duration. The parables video's "(5:42)"
+**is** verified at bibleproject.com and should stay. Lessons 4, 5 and 9 all cut unverified run-times.
+
+**L6-F12. "History establishes… when it was written"** (line 230) is flatter than the body's own
+hedge twelve lines earlier ("around 110–130"). Papias's date is itself argued, c. 95 to c. 130.
+
+### Depth: researched and unused
+
+**Köstenberger and Patterson's hermeneutical triad**, which `SOURCES.md` 14 names as the check on
+the *genre* lessons, deferred at lesson 3 "for the lesson 4 draft", missed at lesson 4, and now
+missed at the third genre lesson. **Martin RLST 152 lectures 9 and 10** (Luke and Acts), recorded in
+this lesson's own draft-time block; Go deeper cites 5, 6 and 8 only, so the critical-side lecture on
+Acts was researched for this lesson and dropped, in a lesson half of which is Acts. **Brown's Catholic
+critical introduction**, so the critical mainstream is given entirely through Ehrman in a lesson with
+a Catholic-facing obligation. **Luke 1:1 to 4**, paraphrased at line 76 where quoting it would carry
+objective 1's mechanism in the evangelist's own words. **Acts 5:4**, researched and never quoted
+though the predict at 186 and the verdict at 206 both turn on it. **Acts 4:32**, the verse that
+actually says "everything was held in common", dropped from a quotation of 4:34 to 35 in the section
+about it. **Fee and Stuart's nine narrative errors**, corrected at lesson 3's Stage 4 with the note
+that misappropriation and false appropriation "are the two that matter most to a narrative lesson":
+this lesson uses both concepts and names neither. **The BibleProject parables video**, verified with
+its run-time, buried in a caption about a different video three sections before the parables material.
+Good news for the fix pass: **the lesson does not carry lesson 3's eight-item error**, because it
+does not list the errors at all.
+
+### Voice and pedagogy
+
+Zero em dashes, zero banned vocabulary, zero banned sentence shapes, sixth lesson running. Body
+contractions at 1 in 65 are inside the course band and are **not** a finding. **The quiz frontmatter
+has 6 or 7 in 1,462 words**, six explanations averaging 100 words with almost none between them,
+which is the third consecutive lesson faulted for exactly that block.
+Four pipeline-vocabulary headings, fifth recurrence, and "the mechanism" in the body at 108. Three
+"Here is" openers. Two rhetorical-question openers where one is allowed. Six unsourced superlatives,
+worst being "the most read part of the Bible" (unsourced anywhere) and "anyone serious". One
+over-promising closing: line 66 promises "At the end we'll settle who wrote the Gospels and when",
+and line 264 explicitly does not settle it. Four one-line morals, which is a real improvement on
+lesson 2's six and lesson 4's twelve and should be credited; two of the four earn it.
+**Wall paragraphs:** line 210 at **208 words** carries the lesson's most contested content (three Acts
+passages, the Pentecostal and charismatic reading, the Reformed, Lutheran, Catholic and Orthodox
+reading) in one block; line 252 at 140 words gives the conservative case's three arguments as a
+run-on while the critical case gets a subheading, a block quotation and a chart, which
+under-presents the course's own side. Line 162 is a 123-word single-line blockquote with two speakers
+that the following prose reads back into.
+**Neither the figure nor the chart is referred to in the running text**, which is L4-V7.
+**The exercise never interleaves**, fifth lesson running; every part announces its tool.
+**The outline's spaced review did not ship as retrieval**: lesson 3's rule is restated *to* the
+learner at 178 rather than asked of them, and the covenants get one sentence at 86, with "Abraham",
+"Sinai" and lesson 2's five covenants appearing zero times in the body.
+**Objective 4 bundles dating and authorship**, and the authorship half is taught at length, never
+practised and never tested.
+**Quiz mechanics:** distractor quality is high throughout, every wrong option is a real
+half-understanding, and every explanation credits the distractor for the half it gets right. Option
+lengths are levelled to within 3 to 17 characters. Against that, the key is longest in three of six
+(lesson 5 managed one of six), indices 0/2/3/1/1/2 carry an adjacent repeat at Q4 and Q5, and two
+stance leaks remain: Q6's key is the only option that says a question is argued, and Q3's key is the
+only one that both concedes a difference and denies error.
+
+### Split seam
+
+Two reviewers proposed different seams and the disagreement is worth recording. **Before
+`## Reading Acts: history first` (line 176)**, after the Rembrandt, is the better one: A and B are one
+continuous argument (a Gospel selects and arranges; a parable selects a target; both are "hear it as
+the first hearers did"), and the reader stops at a real resting point with the older brother outside
+the party. The pedagogy reviewer would additionally move the dating section (216 to 314) **up** into
+the first half, leaving Acts as a thin second half needing new practice; the voice reviewer would
+leave dating with Acts, on the ground that the strongest conservative dating argument is that Acts
+ends with Paul alive, which lands harder immediately after a section inside Acts. **Recorded
+unresolved.** Mark the seam at 176 and let the renumbering pass decide, since it will have all twelve
+lessons in view.
+
+### What is working, and must survive the revision
+
+- **The opening (60 to 64).** Luke 15:1 to 2 quoted, then "Most people who know the story of the
+  prodigal son have never read those two verses, and it shows." Best hook in the course.
+- **The parable mechanism (108 to 116).** Nathan and David is a mechanism *demonstrated*: the reader
+  watches David judge freely and get caught, and only then is the rule stated. Source 4 also
+  discloses that the trap comparison is "this lesson's framing" rather than Fee and Stuart's.
+- **The Augustine section (120 to 138) entire.** The allegorical reading given at full strength and
+  admiringly before it is refused, the cost named as blunting rather than heresy, and the honest
+  caution the other way at 140 ("Seed, soil, a landowner, a father with two sons: yes. Two testaments
+  on a shepherd's shoulders: no"). The fairest treatment of a disagreed-with position in these six
+  lessons; it needs one sentence added, not rewriting.
+- **The prodigal son reading (146 to 170)**, especially "Notice he can't even say the word
+  'Samaritan'" at 136 and the story stopping on an unanswered question.
+- **"Reading a Gospel by its genre is not a concession to critics. It's what the inerrantists say
+  they do"** (98), arguing the genre point from the inerrantists' own document.
+- **The Acts 8/10/19 paragraph (210) as content.** Both readings named, both called serious,
+  Pentecostal and charismatic readers named in their own words and Reformed, Lutheran, Catholic and
+  Orthodox in theirs, and the test explicitly refused as a way of settling it. **This is the model
+  the allegory section should be rebuilt to.** It needs breaking into paragraphs, not rewriting.
+- **The Acts 2:42 checkpoint (212).** "All of them, but not because Acts 2:42 reports them." The best
+  single teaching move on the page.
+- **Three sources not read, three disclosed correctly and unprompted**, one of them in the
+  learner-facing text: line 250's "I've taken those ranges from a published transcription of their
+  table, not from the book itself", source 5's "The Latin original was not consulted", source 7's
+  note that Fee and Stuart's Acts principle is paraphrased. **First time in this course a drafter has
+  flagged a secondary-source dependency in the body.** Which is why L6-B14's Burridge lapse stands out.
+- **The Acts "before c. 62" trap was avoided**: line 250 prints the Naselli transcription's "mid-60s"
+  rather than the earlier recalled range, exactly as `SOURCES.md` 198 asked.
+- **Robinson used honestly (254)**, including "because it matters that he's not a conservative" and
+  "Most scholars didn't follow him".
+- **Line 264**: "its case for the Gospels' reliability doesn't depend on winning the dating argument.
+  A Gospel written in 80 by a second-generation Christian drawing on eyewitness tradition is still a
+  first-century source about a first-century man." Keep verbatim.
+- **The three-kind sort is present and consistent** at 230, 264 and 324.
+- **All five outline misconceptions shipped, with three mirrors**, including "Acts is only history"
+  and "every difference is easily harmonised", which are the halves a Christian drafter usually
+  skips. Second complete list in a row.
+- **Go deeper cites Martin RLST 152 by lecture number**, satisfying outline convention 8 for the
+  first time in this course.
+- **The Rembrandt figure.** Alt text describes the picture without smuggling in the reading; the
+  caption carries artist, title, date, collection, the public-domain reason and the source, and
+  hedges Rembrandt's intent. The media standard for the course.
+- **Every body scripture quotation is verbatim NET2**, verified independently by two reviewers.
+- **No poetry is quoted anywhere in this lesson**, so the trailing-space workaround does **not** apply.
+  All 23 content blockquote lines are prose and 11 of them are attribution lines. `SOURCES.md`'s
+  earlier "lesson 6 has 23" was a blockquote-line count and has been corrected at source.
+
+### Unverified in this environment
+
+Carson and Moo's ranges for Acts and Matthew (Naselli 403, book never opened) — the course's largest
+single item of fact-check debt. The Rembrandt Commons file and licence template (Commons 403). Both
+BibleProject running times (YouTube 403). Dodd 1935 chapter 1 (book never opened, SCJR PDF 403).
+Fee and Stuart ch. 6's exact wording on historical precedent, which source 7 correctly says is
+paraphrased. Jülicher's priority over Dodd, and Blomberg's and Snodgrass's positions on one-point
+reading, rest on web search rather than a fetched source.
+
+### Resolutions applied, 2026-09-06
+
+The lesson was rewritten in full rather than patched, because six of the fourteen blocking findings
+were structural (an objective taught but never modelled, an exercise with no model answers, a chart
+that had to be redrawn, a dating section whose two halves were unbalanced). `minutes` went from 50 to
+**105**, four of six quiz items were replaced and the other two repaired, and the file went from two
+links to **thirty**. `npm run validate` exits 0 with no warning of any kind on this lesson, which is
+the first lesson in this course to reach that.
+
+**L6-B1, self-check printing its own answer.** "Now do the next step yourself" and "Here's my answer"
+are gone. The prodigal-son step is a `:::predict Question` block whose body is the hidden answer, and
+the Luke 18 checkpoint's stem no longer states the point it asks for: it now gives the learner only
+Luke 18:1 to 8 with a link, and asks what Luke's verse 1 framing rules out. Sixth lesson, sixth time
+this fix has been written; filed again as a pipeline request.
+
+**L6-B2, the Chicago Statement.** Article XII is now quoted alongside Article XIII, and the 1982
+*Chicago Statement on Biblical Hermeneutics* Article XXII with it, so the genre point is made from
+the document's own limits rather than from half of it. "Material" is "**materials**" in both places.
+Q3 was rewritten: its key no longer claims compression is what Article XIII licenses, and the
+explanation now says plainly that compression is disputed among people who all hold to inerrancy,
+naming **Licona and Geisler's 2011 exchange** as the live quarrel. Source 3 links a copy that
+resolves and says which, with the ETS 404 noted.
+
+**L6-B3, objective 1 taught but never modelled.** The lesson now works the four openings before it
+asks for anything: Mark 1:1, Matthew 1:1, Luke 1:1 to 4 (quoted in full, which also resolves the
+"researched and unused" finding) and John 1:1, each linked, each with one sentence on what the
+opening commits its author to. A `:::checkpoint` then asks the learner to do the Temple cleansing
+comparison themselves with John 2 and Mark 11 both linked, and hides a model answer that keeps the
+four accounts four rather than resolving them. Q3 is no longer the first place the skill is used.
+
+**L6-B4, allegorising in the past tense.** A paragraph on *Catechism* 115 to 118 now sits inside the
+Augustine section: the four senses named, the literal called the foundation on the *Catechism*'s own
+terms, and the plain statement that figural reading is normal Catholic and Orthodox practice today,
+not a discarded method. Line 138's flat statement of the grammatical-historical rule is now labelled
+as the rule this course teaches and as one live hermeneutic among others. Fourth time this
+instruction has had to be applied; it is now a standing entry in `SOURCES.md`.
+
+**L6-B5, "draws its leaders from a hat".** Replaced. The passage now says the **Coptic Orthodox
+Church** still chooses its Pope by the altar lot, drawn by a blindfolded child after the liturgy,
+most recently in 2012, and that the **Moravians** used the lot for two hundred years; it gives their
+reason (the lot
+hands the choice to God rather than to a majority) before disagreeing, and Q2's explanation no longer
+grades them wrong without letting them speak.
+
+**L6-B6, Irenaeus.** The false claim is gone. The lesson now says *Against Heresies* is c. 180 and
+that Irenaeus **names a Gospel of Judas in that same work** (1.31.1, cited and linked in source 9),
+so the fourfold argument postdates most of the texts it is used against and the "they weren't hidden"
+point is made from that fact rather than from a false priority. "On every scholarly dating" is gone;
+the second-century dating is stated as what most scholars hold, with the early-core minority stated
+as a real position and source 15 recording that Martin's own summary supports it. The minority's
+names (Koester, Patterson, DeConick) are **not** in the body: at this level they would be four
+unfamiliar surnames doing no work, and lesson 8 is where the non-canonical gospels are actually
+taught. They are recorded in `SOURCES.md` for that lesson.
+
+**L6-B7, quiz keys asserting contested claims.** Q4 was replaced. "On any scholarly dating" and "the
+latest date anyone serious gives" are both gone; the two datings are each scoped to themselves ("on
+either of the two datings above"), and the misconceptions section now says explicitly that **some
+scholars outside both put John's final form nearer 110**. The conservative side is no longer Carson
+and Moo alone: **Robinson's pre-70 whole New Testament** is given its own paragraph and **Bauckham**
+is named as the strongest recent statement of the eyewitness case, so no option is marked wrong for
+holding a real conservative position. Wallace, Morris and Wright on a pre-70 John are recorded in
+`SOURCES.md` but not added to the body, which already carries two named conservative positions and
+did not need a list.
+
+**L6-B8, Paul's death.** Corrected to **c. 64 to 67**, with 62 identified as the end of the Acts
+28:30 house arrest. The argument it appears in is now stated as the conservative case makes it (Acts
+ends with Paul alive and says nothing of his death, which is hard to explain if Luke wrote after it)
+together with the objection the lesson's own Carson and Moo figure raises against it, since a mid-60s
+Acts sits inside the death window rather than before it. The lesson now says so instead of printing
+both numbers and staying silent.
+
+**L6-B9, the chart.** Redrawn. viewBox `0 0 344 420`, thirteen labels at font-size 15 and two at 16,
+which at 360px phone width render at **14.3 and 15.3px**, above the floor. No inline `<style>`, no
+hardcoded fills: every fill is `var(--navy)`, `var(--oxblood)`, `var(--text-2)`, `var(--gold)` or
+`var(--line-strong)`. A `<desc>` was added, each series is labelled in text as well as by colour, and
+the running prose now refers to the chart, which was also L4-V7. The data was kept, as the reviewer
+asked, with the single change requested: **critical Mark widened to 68 to 72**.
+
+**L6-B10, lookups.** Q2 and Q6 were replaced with items on cases the body does not work, and Q4 with
+one that requires holding two datings against a piece of evidence rather than recalling either. Four
+of six are now fresh application. Key indices are **0, 2, 3, 0, 1, 3**, no adjacent repeat, and the
+key is longest in none of the six.
+
+**L6-B11, the exercise.** Two `:::checkpoint` model answers now follow it. Task 1 no longer asks a
+question line 140 has answered; it asks the learner to run the sower's own explanation against the
+mustard seed and say where the licence stops. **Mark 4:10 to 12 is now taught** in a short section of
+its own that gives the four standard readings and refuses to resolve it, so the exercise no longer
+assigns the hardest verse in the New Testament about parables as unseen homework.
+
+**L6-B12, in-body links.** Thirty in the teaching prose. Every "open this passage" instruction now
+carries one, including Luke 15:11 to 32, Luke 18:1 to 8, Acts 2:42, Acts 4:32, Acts 5:4, Acts 6:1 to
+7, Mark 4:1 to 34, John 2 and Mark 11, both Q3 passages, and the four non-canonical gospels the
+lesson says "you can read them" of.
+
+**L6-B13, minutes.** 50 to **105**, at the low end of the four measurements, on the ground that the
+split seam is marked and the two halves will be timed separately when the renumbering pass runs.
+
+**L6-B14, Burridge.** The claim is no longer sourced to a book nobody opened. The body now says the
+ancient-biography reading is **Burridge's, that it has largely carried the field, and that it is
+argued rather than settled**, and the source note says the book was not consulted here and that the
+reception claim rests on second-hand evidence. `SOURCES.md` now carries a NOT RESEARCHED entry for
+Burridge so no later lesson repeats it. Source 2's Carson and Moo citation for Markan priority now
+carries the same disclosure the file already required.
+
+**Facts.** L6-F1: "perceived" is now NET's "**realized**" and Mark 12:12 is added to the source
+passage list. L6-F2: the false "read via the bible.org API" note is replaced with what actually
+happened, and the body was **not** touched, since every quotation in it verified clean. L6-F3: Luke
+18:2 is now "who neither feared God nor respected people"; the Acts 6 paraphrase was cut rather than
+re-rendered, since the exercise now sends the learner to the passage instead of characterising it, so
+"good repute" and "serve tables" are simply gone. L6-F4: the Acts 4:34 comma is restored. L6-F5:
+**Jülicher** is named in the body as where strict one-point reading begins, with Dodd removed from
+that role and both recorded in source 4 as unopened, and **Blomberg** is named as the standard modern
+qualification (one point per main character), so the rule is taught as argued. Snodgrass is in
+`SOURCES.md` and not the body; one named qualifier carries the point. L6-F6: **six denials, three
+before each cock crowing**. L6-F7: the textbook is now "the set text for Dale Martin's New Testament
+survey at Yale", past tense, with source 10 giving RLST 152, 2009, and both "and many other
+universities" and "is widely used" cut. L6-F8: the Luke-earlier-than-Acts inference is dropped, since
+the printed ranges do not support it. L6-F9: the false mechanism is gone, and the Synoptics paragraph
+now names **Q and the Farrer hypothesis** as the two explanations of Matthew-and-Luke material absent
+from Mark. L6-F10: **all forty en dashes** replaced with " to ";
+the file is now at zero of both characters. L6-F11: "five minutes of animation" is cut; the parables
+video keeps its verified (5:42). L6-F12: Papias is now "scholars argue about", c. 95 to c. 130.
+
+**Depth items now used.** Luke 1:1 to 4 quoted; Acts 4:32 and Acts 5:4 quoted; **Martin RLST 152
+lectures 9 and 10** added to Go deeper, so the critical side on Acts is present in a lesson half of
+which is Acts; Fee and Stuart's **misappropriation and false appropriation** named as such where the
+lesson uses them; the BibleProject parables video linked with its verified (5:42) in the video block
+that now sits immediately before the parables section, with a line saying which section it pairs
+with, rather than three sections away.
+The covenants now come back as retrieval rather than restatement: a `:::predict` asks the learner to
+recall lesson 2's five covenants before the Gospels' claim about them is stated, and an Acts predict
+retrieves lesson 3's narrative rule instead of restating it.
+
+**Voice and pedagogy.** Four pipeline headings and "the mechanism" gone; three "Here is" openers and
+one of the two rhetorical-question openers gone; six unsourced superlatives cut, including "the most
+read part of the Bible" and "anyone serious"; the over-promising close at 66 now promises what the
+lesson delivers. The 208-word paragraph is four paragraphs, the 140-word conservative-case paragraph
+now has the subheading, quotation and equal weight its critical counterpart had, and the 123-word
+two-speaker blockquote is broken by speaker. The exercise now **interleaves**: one task withholds
+which tool it wants.
+On the quiz block specifically, the fault was contraction density, not length: it was 6 or 7 in 1,462
+words against a body running about 1 in 50. It is now **38 in 1,978 words, 1 in 52, against the body's
+1 in 51**, so the block reads in the same voice as the lesson around it. The explanations got
+**longer**, not shorter, averaging 159 words, because each now says what the three distractors get
+right before saying where they fail, which 4.3 asks for and which the reviewers credited as this
+lesson's strongest quiz feature. Length was never the finding.
+
+**Split seam.** Marked before `## Reading Acts: history first` with an HTML comment recording that
+two reviewers proposed different treatments of the dating section and that the disagreement is
+unresolved, exactly as the finding asked. Not renumbered, and John was not asked.
+
+### Deliberately not fixed, with reasons
+
+- **The dating section was left with Acts**, not moved into the first half. The voice reviewer's
+  argument is the better one: the conservative case's strongest move is that Acts ends with Paul
+  alive, and it lands immediately after a section inside Acts. Moving it would also leave the second
+  half thin, which the pedagogy reviewer conceded. The disagreement is recorded at the seam so the
+  renumbering pass can overrule this with all twelve lessons in view.
+- **Köstenberger and Patterson's hermeneutical triad** is still not used, now at the third genre
+  lesson running. It is a whole framework, and dropping it into a lesson already carrying four new
+  sections would be worse than leaving it. It belongs in lesson 12's method material or in a
+  first-half lesson, and it is now carried forward as an explicit debt rather than quietly missed
+  again.
+- **Brown's Catholic critical introduction** is added to Go deeper but not worked into the body. The
+  Catholic-facing obligation this lesson carries is discharged by the *Catechism* paragraph, which is
+  on the point actually at issue; adding Brown as a second critical voice would lengthen a section
+  that is already the longest in the lesson without changing what the learner does.
+- **Carson and Moo's ranges remain fact-check debt.** The book is not open here and Naselli's page is
+  403 at the proxy. The lesson discloses the dependency in its own body text, which is the honest
+  available move; it stays on the debt list.
+- **The Rembrandt Commons file and licence template, and both BibleProject running times**, remain
+  unverified for the same reason (Commons and YouTube both 403). The one run-time that is verified is
+  the only one printed.
+
+### Requests for the shared files (items 1 to 7 stand from lessons 4 and 5; these are new)
+
+8. **`scripts/build.mjs` should check U+2013 as well as U+2014.** Lesson 6 shipped forty en dashes
+   past a clean validate. Rule 7 is about learner-facing punctuation, and the en dash fails it for
+   the same reason. One character added to one regex.
+9. **The SVG checks in `scripts/build.mjs` need to look past `<text>` attributes.** Three separate
+   evasion routes are now recorded in this course: `fill="#ffffff"` on a themed rect, a fill on a
+   `<g>` wrapper, and an inline `<style>` block. The style-block case is the worst, because it made
+   the validator report 1 of 21 hardcoded fills and 0 of 21 undersized labels. Parsing `<style>`
+   declarations and resolving inherited `<g>` fills would close all three.
+10. **`minutes` is never sanity-checked.** Six lessons in a row have understated it by a third to a
+    half, and each was caught only by four reviewers measuring by hand. A rough estimator over body
+    word count, assigned reading and block counts, warning when the declared figure is under half the
+    estimate, would catch this before Stage 4.
+
+## Lesson 7, "Reading the letters and Revelation" — Stage 4 round 1, 2026-09-06
+
+Five reviewers in fresh context. **Verdict: not clean for publish.** About seventy findings, nineteen
+blocking. **Thirteen of the blocking findings are defects already resolved earlier in this same
+course**, six of them fixed in lesson 6's pass, which this lesson was drafted after.
+
+The shape of this lesson is the opposite of lessons 4 to 6, and the record should say so. It is the
+**first lesson in the course to ship with zero em dashes and zero en dashes** without a fix pass;
+lesson 6 shipped forty en dashes past a clean validate. Its four-schools section and its three
+head-covering positions are the best neutrality writing in the course to date, and the misconception
+list is the **first in this course to be complete against the outline**. What it fails on is
+mechanics, register, and retrieval: zero in-body links, contraction density five to fifteen times
+stiffer than any other lesson, no learner-facing block in the last third, and a quiz in which not one
+of the six items requires the learner to produce anything the body has not already produced.
+
+**A note on two reviewers disagreeing about scripture, because both were right.** The depth reviewer
+reported 29 of 30 quotations verbatim against NET2; the fact-checker reported nine version survivals.
+The depth reviewer checked the quotations **tagged `(NET)`** and was correct about them. The
+fact-checker checked **every quoted fragment including the untagged ones**, which is where the debris
+is. The lesson tags `(NET)` on six quotations and omits it on roughly twenty, including every
+quotation in the quiz. That omission is itself the finding (L7-F9) and it is what hid the rest.
+
+### BLOCKING
+
+**L7-B1. The self-check prints its own answer in plain body text, hitting both flagged signal phrases
+at once. Seventh lesson running, and this time it is the same two sentences.** Line 133, "This is
+your step. Read verses 3 to 16 and list every kind of reason he offers before reading on"; line 135,
+the next visible line, "**Here is my list.**" Caught by four of five reviewers. L1-V3, lesson 2's line
+254, L3-B1, L4-B1, L5-B1, L6-B1, whose fix was written one lesson earlier and is quoted at
+REVIEWS.md 3284. It destroys the **only** place in the lesson where the learner runs the
+comparable-particulars analysis with their own hands, so objective 2's single piece of practice is
+cancelled by the paragraph beneath it.
+
+**L7-B2. Five books are made authorities that `SOURCES.md` records as never opened, one quoted
+verbatim inside quotation marks, and the course's own declared position rests on two of them. The
+Burridge defect at five times the scale.** `SOURCES.md` 234, in this lesson's own draft block:
+Beale, Osborne and Ladd "all three confirmed **from publisher and review descriptions, not from the
+books' pages**". The lesson prints at 256: *G. K. Beale (1999) calls his approach "eclecticism, or a
+redemptive-historical form of modified idealism"*, a verbatim quotation, unhedged. Then 258: "**We
+prefer a mixed reading in the Beale and Osborne family.**" Source 13 goes further and asserts what is
+inside four unopened volumes ("documented in its historical survey"), where `SOURCES.md` 236 says the
+lesson gives that claim "without a primary quotation". Sources 9, 10, 11, 12 and 13 all read as if
+the books were consulted. Lesson 6 was credited for disclosing a secondary-source dependency **in the
+learner-facing text**; the habit did not survive one lesson.
+
+**L7-B3. Nine version survivals, five of them inside quotation marks, and four sit in the exact
+sentence whose argument turns on the wording.** Sixth lesson running for ESV debris.
+**(a)** Line 248, the preterist paragraph: Revelation 1:1 as "that must soon take place", tagged
+`[5]` (NET), then a sentence built on the word "soon". NET reads "**what must happen very soon**".
+The ESV wording is *weaker* for the school being presented, so the error also under-presents a
+position the course does not hold, which 3.7 forbids independently.
+**(b)** Q2's stem, 1 Timothy 5:23 as "use a little wine for the sake of your stomach" (ESV) in the
+item built entirely on that verse. NET: "**use a little wine for your digestion and your frequent
+illnesses**." L5-B3 and L6-F1 exactly: body converted, quiz not.
+**(c)** Line 86, 1 Corinthians 13:10 as "when the perfect comes, the partial will be done away"
+(NASB/ESV hybrid), in the sentence where Fee's argument rests on the wording. NET: "but when **what
+is perfect** comes, the partial will be **set aside**."
+**(d)** Line 145, 1 Corinthians 11:12 as "woman was made from man" and "man is now born of woman"
+(ESV), **inside the egalitarian block, carrying that side's textual argument**. NET: "For just as
+woman came from man, so man comes **through** woman. **But all things come from God.**" The lesson
+drops the third clause, which is the strongest part of the balance it is citing.
+**(e)** Line 108, Colossians 3:12 as "Clothe yourselves with compassion" (NIV). NET: "clothe
+yourselves with **a heart of mercy**".
+**(f)** Line 178, Daniel 7:9 as hair "white like wool". NET puts "white like snow" on the attire and
+"like lamb's wool" on the hair; the quoted phrase is in neither clause. It is Revelation 1:14's
+wording, which is probably where the slip started.
+**(g)** Line 114, "a little wine for thy stomach's sake", exact KJV, untagged, three lines before the
+quiz quotes the same verse in a third wording. 4.7 permits the KJV where the familiar wording is the
+subject, which is arguable here, but it must say so.
+Not survivals but the same class: **(h)** line 120's "Phoebe the deacon" and "Junia among the
+apostles" (see L7-B4), and **(i)** line 175's "seven hills" where NET Revelation 17:9 reads "seven
+**mountains**", the wording that makes the Rome identification look self-evident.
+
+**L7-B4. Two contested translation decisions are printed as fact, in their egalitarian-favourable
+form, against the course's own Bible, in the paragraph that founds the section the lesson is about to
+adjudicate.** Line 120, Fee's third guideline: "citing **Phoebe the deacon, Junia among the
+apostles**". NET Romans 16:1 reads Phoebe is "a **servant** of the church in Cenchrea". NET Romans
+16:7 reads "They are well known **to** the apostles", the exclusive reading, defended in one of the
+longest translator notes in the NET. So the lesson renders both the opposite way from its own Bible,
+unflagged, in a lesson whose whole method section is about making disagreement visible. Caught
+independently by neutrality and fact-check. This is the hunted defect in its purest form.
+
+**L7-B5. Fee is the lesson's neutral method-giver in every section, the lesson says "We hold, with
+Fee" on the contested case, and his own position in that dispute is never disclosed.** Gordon Fee was
+a board-of-reference member of Christians for Biblical Equality and a contributing editor of
+*Discovering Biblical Equality*, where his own essay is "Hermeneutics and the Gender Debate". Line
+131 additionally prints his jab at complementarians ("many who argue from this chapter for male
+headship deny the thing it takes for granted") **inside the framing step, before any of the three
+positions is stated, with no reply**, though complementarians have a standard one. `SOURCES.md` 157
+already sets the precedent: a scholar's commitments must be disclosed where he is cited approvingly.
+
+**L7-B6. Allegorical reading is graded an error in a quiz key and no living tradition that practises
+it is named anywhere. Fifth recurrence of an explicit standing instruction, in the one lesson where
+the spiritual sense is a named school.** Grepped: "Catechism" 0, "four senses" 0, "figural" 0,
+"Augustine" 0, "Tyconius" 0, "amillennial" 0. "Catholic" 1, a forward reference to lesson 8;
+"Orthodox" 3, of which two are Gentry's "orthodox preterism" and one is a citation.
+The cost is specific and large: **the idealist reading gets two sentences and one 1998 chapter**, so
+the reading with the longest continuous history in the church appears as the newest and thinnest of
+the four, and the reader finishes believing nobody read Revelation between Irenaeus in 180 and
+Elliott in 1844. Tyconius in the 380s and Augustine after him (*City of God* 20.7 to 20.9) read the
+thousand years as the present age of the church; that became the standard Western reading for a
+millennium and Andrew of Caesarea's commentary of about 600 is still the Orthodox Church's standard
+guide. `SOURCES.md` 160 and 577 to 583 both say this in as many words. Fifth time (L2-N9, L3-N5,
+lesson 4, L6-B4, here).
+
+**L7-B7. Objective 4 is taught at 1,450 words, never modelled, never practised, and tested cold.
+Seventh lesson running.** "Compare the preterist, historicist, futurist, and idealist readings **in
+terms their holders would recognise**." The operative clause is 3.2's ideological Turing test as a
+*performance*, and the learner is never once asked to produce any school's case in anyone's terms.
+Modelled: nowhere; the lesson states four positions and never shows a reader comparing them on a
+passage. Practised: zero; the exercise contains no task on Revelation's schools. Tested: Q4 alone,
+cold, and Q4 asks the learner to recognise a "preterist-idealist mix" the body names in one
+subordinate clause and never defines. REVIEWS.md 1978 already recorded that nothing in this course
+assesses the ideological Turing test as a performable skill; this was the obvious place and it was
+not taken.
+
+**L7-B8. Historicism is the only school given no method, no living defender, and a weakness in the
+author's voice, and in the quiz it exists only inside wrong answers.** Line 250. Preterism gets its
+method, two books, a named current defender and an internal boundary; futurism gets three named
+sub-positions; idealism gets its method and a name. Historicism gets Elliott (1844) and "Its
+difficulty, which its holders acknowledge, is that each generation's map has had to be redrawn",
+the only criticism stated in the author's voice against any of the four, in a lesson that prefers a
+rival reading. **The year-day principle is absent**, and it is the thing that makes historicism a
+method rather than a habit: a prophetic day stands for a year on the pattern of Numbers 14:34 and
+Ezekiel 4:6, so the 1,260 days and forty-two months map onto twelve and a half centuries. The
+Seventh-day Adventist tradition is named and never allowed to state anything. And historicism appears
+in the quiz only as Q4's options A and B, both wrong.
+
+**L7-B9. Line 258 contradicts line 246 twelve lines later and withholds equal seriousness from two of
+the four schools.** 246: "**The four are not four levels of seriousness.**" 258: "we prefer a mixed
+reading ... **because it is the one that takes all three of Revelation's genres seriously**", then
+grants equal seriousness to "a futurist or a preterist", dropping historicist and idealist from the
+sentence whose whole job is to grant it.
+
+**L7-B10. Five of six quiz items are lookups, and by the strictest reading none of the six requires
+the learner to produce anything the body has not produced. Worse than lesson 6's three of six.**
+Lesson quizzes are open book (`app.js` 349 marks "Closed book" only when `isTest`). Q2 is answered at
+114 and again at 270; Q3's exact passage and rule are worked at 167; Q4's answer is stated at 248,
+254 and 256; Q5's every fact including P115's date is printed at 190, 199, 201 and 203; Q6 is line
+147 paraphrased. Only Q1 uses a fresh case. 4.3 requires at least half.
+
+**L7-B11. The key is the only option without an absolute in four of six items. A reader who never
+opened the lesson scores four to five of six on shape alone, against a 70% pass mark.** Q2, Q3, Q5
+and Q6 each have three distractors carrying "every", "never", "any", "no ... at all", or "cannot",
+and a key carrying none. Q6's key is additionally the only option that says the question is argued,
+which is L6's recorded stance leak verbatim. Q1 is a weaker version (two distractors tell, two
+survive). Q4 leaks differently: the stem describes a mixed position and D is the only option naming a
+mix.
+
+**L7-B12. The exercise has no model answers, is answered twice over by the body, supplies its own
+answer list, names two images that cannot be traced to the chapters it assigns, and assigns a chapter
+the lesson never opens.** Seventh lesson with no model answers; sixth time this exact fix has been
+written into this course (L2, L3-V9, L4-D7, L5-B16, L6-B11).
+**(a)** Part 1 items 1 and 2 repeat the checkpoint at line 100, whose hidden body already gives the
+model answer 190 lines above; item 3 pre-empts its own discrimination ("Most readers pick verses 8-16
+or 15-17"); and the comparable-particulars line gives away its answer in a parenthesis ("there is an
+obvious one").
+**(b)** Part 2 names six images and asks for "at least six", so the stem is the answer.
+**(c)** **Two of the six are not in the three chapters named.** "The Lion who is a Lamb" is
+Revelation 5:5 to 6 drawing on Genesis 49:9 and Isaiah 11:1 and 10; "the sealed scroll" is Ezekiel
+**2**:9 to 10 and Daniel 12:4. Neither is in Isaiah 6, Ezekiel 1 or Daniel 7. A learner following the
+instruction exactly will hunt for two things that are not there and conclude they failed.
+**(d)** Isaiah 6 appears in the whole file only in that instruction, and Revelation 4 and 5 are never
+opened in the body at all.
+
+**L7-B13. Zero in-body links against eight read-this instructions covering fifteen passages, and zero
+links in Go deeper.** Lesson 6 shipped thirty after its fix pass, lesson 5 twelve. Unlinked: 1 Cor
+13:10; 1 Cor 12:31 and 14:1; **Philemon, "Read it now"**; 1 Cor 8-10 and 1 Cor 8; 1 Cor 11:2-16 and
+11:3-16; Daniel, Ezekiel, Isaiah and Exodus "open beside it"; Rev 1:12-16; the netbible note on Rev
+13:18 that the predict block sends the reader to; the six Old Testament addresses at 213; Ezek 40-48
+and Rev 20:1-6; Philemon again; Rev 4 and 5 with Isaiah 6, Ezekiel 1 and Daniel 7. Named in the body
+and unlinked: Irenaeus, Williams, Papyrus 115, Gentry, Elliott, Beale, Osborne, Ladd, Bauckham,
+Martin. 4.5 calls links-in-the-Sources-block-only a violation on its face.
+
+**L7-B14. Every label in the chart renders at 10.0px, and the validator reports zero, through a
+FOURTH distinct route past it.** Line 223: `style="max-width:100%;height:auto;font-family:sans-serif;
+font-size:11px"` **on the `<svg>` root**. `scripts/build.mjs` matches `font-size=` as an attribute on
+`<text>`; not one `<text>` here carries one, so all eleven inherit 11 user units and the linter sees
+nothing. In a `0 0 360 250` viewBox at 360px phone width (content 328px, scale 0.911) that is
+**10.02px** against the 14px floor. Confirmed independently by three reviewers.
+Routes now recorded in this course: `fill="#ffffff"` on a themed rect (lesson 3), a fill on a `<g>`
+wrapper (lessons 4 and 5), an inline `<style>` block (lesson 6), **a `style` attribute on `<svg>`
+(lesson 7)**. This is the first to defeat the *size* check rather than the *fill* check.
+
+**L7-B15. The chart contradicts the lesson's own preterist section, is drawn on an undefined scale,
+and fades one school out.** **(a)** The axis begins at "AD 95", so the pre-70 date that Gentry's
+preterism requires, and that line 264 reports, falls off the left edge; the `<title>` silently adopts
+the Domitianic date in the one graphic whose job is even-handedness, against the school whose case
+turns on it. **(b)** The scale is not a scale: AD 95 to today is 1,930 years in 156px and today to
+the return is an unknown span in the same 156px, so on the left-hand rate the preterist bar draws
+**about 740 years** beside a label reading "first century". Line 246 tells the reader to "look at the
+bars". **(c)** Idealism alone is drawn in `var(--line-strong)` at `opacity="0.5"` with its heading in
+`--text-2` rather than its own bar colour, while the other three are full-opacity with matching
+headings. The visual grammar says "less real", and the lesson's own preferred reading is the modified
+idealism family. **(d)** Four `stroke="#555"` on the axis and all three date ticks: 2.51:1 against
+the dark background, under the 3:1 floor, and `#555` does not flip, so dark-mode readers get four
+bars floating with no axis and no dates. **(e)** No `<desc>`, no `xmlns`, `font-family:sans-serif`
+against the site's serif, and the gold futurist label at 3.08:1 on the light theme.
+
+**L7-B16. The last third of the lesson has no learner-facing block of any kind.** The final
+`:::predict` closes at 191. From 192 to 285 there are 2,968 words, 35% of the body, carrying the four
+schools, the mixed readings, the standpoint paragraph, the Ezekiel 40-48 and millennium paragraph,
+the dating question and all six misconceptions, with nothing to do. The Definition of Done requires
+predicts, checkpoints, an exercise and free recall; this half of the lesson has one of the four, and
+**there is no free recall anywhere** (lessons 4, 5 and 6 all carry one).
+
+**L7-B17. Every piece of spaced review ships as restatement rather than retrieval, eight times, and
+one of them announces the technique to the learner.** Line 217 opens "**Notice the spaced review.**
+In lesson 4 you learned ... In lesson 6 you learned ...", the lesson naming its own pedagogical
+device in learner-facing text and then performing the opposite of it. Line 86 restates lesson 3's
+basic rule **in quotation marks**, the single most important rule in the course, in the lesson whose
+own Connections section calls this the place where it "reaches full strength". Third consecutive
+lesson (L4-P7, L6). Lesson 6's fix, a predict asking the learner to state the rule from memory, is at
+its line 285 and is the model.
+
+**L7-B18. `minutes: 60` against a measured 110 to 140.** Three reviewers measured independently: 129,
+110 to 140, and "52 minutes of prose before any of it". The lesson commands Philemon **twice**,
+1 Corinthians 11:3-16, 1 Cor 12:31 and 14:1, Revelation 1:12-16, Revelation 4 and 5, and **Isaiah 6,
+Ezekiel 1 and Daniel 7 held open alongside** (about 145 verses in total), plus a video, five written
+tasks, five blocks and six quiz items. Seventh lesson running to understate by more than half.
+
+**L7-B19. Six pipeline-vocabulary headings, the sixth recurrence, including two the course has
+already fixed twice.** `## Worked example:` ×3 (88, 181, 205), `## Worked example, with a wrinkle:`
+(125), `## Practice` (284), `:::exercise Do it now` (286). Lessons 5 and 6 both settled on
+`## Now do it yourself, on X, Y and Z` plus `:::exercise Three tasks`; lesson 7 reintroduces the
+banned forms. Plus "Here is the mechanism, and it is the mirror of the letter mechanism" at 167, two
+banned items in eleven words, one lesson after "the mechanism" was cut from lesson 6.
+
+### Facts wrong
+
+**L7-F1. Source note 5 claims a fetch that did not happen. Third occurrence, fixed at lesson 5 and
+again at lesson 6.** Line 322, "read via the bible.org API". `SOURCES.md` 246 records the draft text
+as **ESV from esv.org and BibleGateway**, and 248 and 291 record bible.org as 403. `SOURCES.md` 209,
+written the day before this draft, says in bold: "Draft-time source notes must say where a text
+actually came from." The passage list also omits nine passages the lesson quotes in quotation marks.
+
+**L7-F2. The figure caption is false on the lesson's own numbers.** Line 194 calls Papyrus 115 "**the
+oldest surviving copy of Revelation 13:18**". Papyrus 47 (Chester Beatty III) contains Revelation
+9:10 to 17:2, is dated to the early-to-mid third century, and **reads 666**. The body is careful and
+correct ("the oldest surviving witness to the **616 reading**"); the caption throws that care away,
+in the direction that makes the 616 evidence look decisive. Second-hand, from web search; the
+manuscript images are unreachable here.
+
+**L7-F3. Calvin is named as a historicist reader of Revelation. He never wrote on the book.** Line
+250. Calvin commented on every New Testament book except Revelation and 2 and 3 John, and reached the
+papacy identification from Daniel and 2 Thessalonians. Luther's case is real but needs care: his 1522
+preface rejected the book and the historicist outline is in the revised **1530** preface. Reached
+independently by three reviewers.
+
+**L7-F4. A quiz key states something false about Irenaeus, and it is the key.** Line 45, option B:
+"Irenaeus refused to name anyone, **tying the number to John's own world**." Irenaeus did the
+opposite: he held the antichrist still future, and that was his stated reason for declining ("more
+certain, and less hazardous, to await the fulfilment of the prophecy"). What ties the number to the
+first century is the Nero gematria. The body gets this right at 203.
+
+**L7-F5. The lesson contradicts its own quiz inside eleven verses.** Line 167 presses Revelation 9's
+locusts into a specific referent ("the barbarian hordes on the empire's edge"), and **Q3 uses
+Revelation 9:7-11 as the item where "not press every detail allegorically" is the graded-correct
+answer**. Separately, the barbarian-invasion reading is standardly attached to the Euphrates cavalry
+of 9:13-19, not the locusts of 9:1-11; unverified here, since Fee ch. 13 is unreachable.
+
+**L7-F6. A quiz explanation contradicts the body about which mixed reading commentators hold.** Line
+41 calls the preterist-plus-idealist combination "the mixed reading most current commentaries hold".
+The body at 256 says Beale's idealism is modified *precisely because* the return and the last
+judgment are in the book, and that Osborne is eclectic **with the futurist element primary**. The
+explanation drops the third leg and then calls the two-legged version the majority.
+
+**L7-F7. Four unsourced majority claims, every one carrying the course's own preference**, and one of
+them is a section heading: "Mixed readings, **which most commentators now hold**" (256); "The two
+**most-used** scholarly commentaries in English" (256); "the mixed reading **most current
+commentaries hold**" (Q4 key); "it remains the **majority view**" (264, this one is defensible).
+`SOURCES.md` records no headcount for any of them, and 234 records Beale and Osborne as known only
+from publisher and reviewer descriptions.
+
+**L7-F8. "History also establishes" is applied to a live dispute among Roman historians.** Line 199,
+on Tacitus *Annals* 15.44 and the Neronian persecution. Tacitus is a single source written about
+fifty years after the event, and **Brent Shaw, "The Myth of the Neronian Persecution", *JRS* 105
+(2015)**, argues the episode is a later construction, with replies from Jones and Barrett. The
+course's "History establishes" formula is reserved for the settled.
+
+**L7-F9. `(NET)` tags are missing from roughly twenty quotations, including every quotation in the
+quiz.** Tagged: 60, 67, 90, 95, 183, 209. Untagged: 86, 95 (13:1), 101 (five Philemon quotations),
+108 (two), 114, 135 (five), 145, 161, 163, 178 (two), 213, 248, and quiz lines 10 and 18. 4.7.
+Untagged quiz quotations were L5-B3 and L6-F1.
+
+**L7-F10. Line 171 asserts as settled, with a dismissive verb, what one of the lesson's own four
+schools denies.** "A reader who takes 144,000 as a headcount **has missed** twelve times twelve times
+a thousand." Robert Thomas, named at 252 as the lesson's classical dispensationalist who reads "as
+literally as the language allows", holds it to be 12,000 from each of twelve tribes. The lesson calls
+that a miss eighty lines before promising the school "in its own terms".
+
+**L7-F11. The strongest scriptural objection to the basic rule is absent from a lesson that applies
+it to apocalyptic as unanswerable.** Line 274, "The first readers had to be able to understand it
+(the basic rule again)", and line 167, "An apocalypse's meaning sits **entirely** in the picture".
+**Daniel 12:4 and 12:8 to 9** (Daniel is told he will not understand and the words are sealed until
+the time of the end) and **1 Peter 1:10 to 12** (the prophets searched their own oracles and were
+told they served a later generation) are what futurists and historicists actually press here.
+Apocalyptic is the one genre the Bible itself says was not fully intelligible to its first hearers.
+3.7's second half: the objection is not engaged weakly, it is not engaged. "Entirely" at 167 is also
+refuted by the lesson's own Q3 explanation and by line 175.
+
+**L7-F12. "The most widely held reading" is upgraded to "the strongest modern reading" in a quiz
+key.** Body 201 labels the Nero identification correctly and says "the lesson gives it as argued, not
+settled"; Q5's explanation at 49 calls it "the strongest modern reading". L6-B7's shape one lesson
+later. Williams, the lesson's own source, cautions against exactly that inference.
+
+**L7-F13. The 616 predict over-reaches and the body then contradicts it.** Line 190 calls the variant
+"a **fatal** [constraint] for readings that depend on the exact digits". Line 201 then reports
+Irenaeus judging 616 a copyist's error and 666 "found in all the most approved and ancient copies",
+and NA28 and UBS5 print 666 with 616 in the apparatus.
+
+**L7-F14. Pauline authorship of the Pastorals is asserted in the course's own voice in a quiz stem,
+and the critical position is absent from the whole lesson.** Q2's stem and key treat 1 Timothy 5:23
+as "a personal letter to one man" and 2 Timothy 4:13 as Paul's. Line 143's "the same Paul who wrote
+this chapter wrote 1 Timothy 2:12" is safely inside a "their reasoning" paragraph and is fine; the
+quiz is the course speaking. Grepped the course: "pseudonym" appears once, about Revelation. Lesson
+3 line 359 is the template for how to hand this forward honestly.
+
+**L7-F15. A video run-time is printed that `SOURCES.md` forbade one lesson ago.** Line 281,
+"BibleProject's **six-minute** animated overview". `SOURCES.md` 642 to 644: oEmbed returns no
+duration, only "The Parables of Jesus" (5:42) is verified, "none may be printed". Fourth recurrence.
+
+**L7-F16. Irenaeus is undersold.** Line 203, "thought one of them slightly more likely than the
+others". He rates Teitan "rather worthy of credit" and "very probable". Web search only.
+
+**L7-F17. Two small ones.** Line 250's "which is why the *Four Views* volume gave its fourth chair to
+a second futurist" states the editor's motive as fact; the line-up itself is verified correct. Source
+6 spells the candidate "Evanthas" where the ANF translation it cites has "Euanthas".
+
+### Depth: researched and unused
+
+**Köstenberger and Patterson's hermeneutical triad**, which `SOURCES.md` 14 names as the check on the
+genre lessons, deferred at lesson 3 "for the lesson 4 draft", missed at lessons 4 and 6, and now
+missed at the **fifth and last** genre lesson. The cost here is concrete: the triad is history,
+literature, theology, and this lesson runs exactly those three (reconstruct the occasion, read the
+conventions, ask what the book is for) without ever naming the shape.
+**Duvall and Hays's river crossing**, gathered as "a teachable procedure" and named in the outline's
+source list for this lesson, reduced to one picture at 112 and applied to nothing; lesson 3 shows how
+it should be done, applying "Duvall and Hays's fourth step" by number to Gideon's fleece.
+**Osborne 2006, *The Hermeneutical Spiral***, named in the outline's source list, uncited.
+**Beale's common-ground observation** (that the Old Testament writers did not exhaustively grasp what
+they wrote), which `SOURCES.md` 461 to 466 says "any lesson arguing a far horizon should reach for",
+unused at 217 and at 260 where it is worth most.
+**Fee's guidelines 1, 2 and 3**, of which the lesson says outright at 123 that only the fourth is
+used; guideline 3 carries the most contested material in the lesson in one bullet.
+**Daniel as an apocalypse.** The outline asked for "Daniel and Revelation as a known genre"; lesson 4
+never touches apocalyptic, so this is the only place it can happen, and Daniel appears only as a
+quarry for Revelation's images. Compounding: line 165 says "**Dozens** of Jewish and Christian
+apocalypses survive" and names **not one**, so the reader is told a genre exists in quantity and
+cannot name a single member besides Revelation.
+**Gematria taught and never made runnable.** Line 187 says John expected his readers to calculate;
+line 199 then hands over both totals and one of the seven letter values, so the learner cannot check
+the sum, see why the two spellings differ, or run it on any other name, which is the whole point.
+
+### Voice and pedagogy
+
+Zero em dashes, zero en dashes, first in the course without a fix pass. Against that:
+**Contraction density is the stiffest of all twelve lessons in both halves.** Counting only real
+contractions, **9 in 7,319 body words, 1 in 813**; every other lesson sits between 1 in 58 and 1 in
+224. On the looser all-apostrophe metric that produced lesson 6's target, body 1 in 83 and **quiz
+1 in 95**, so the quiz is stiffer than the body again, fifth consecutive lesson. The quiz
+explanations run "That is B.", "That is C.", "That is A." There are 102 uncontracted-eligible forms
+in the lesson's own voice, excluding the 13 inside NET quotations, which must not be touched.
+**Seventeen paragraphs over 120 words**, and the four-schools section is 676 words in four unbroken
+blocks: preterist 202 (ten distinct moves), historicist 179, futurist 182, idealist 113, mixed 128.
+On a 328px column that is roughly 15, 13, 13, 8 and 9 lines of solid text, four times consecutively.
+It is L6's 208-word paragraph one lesson later and worse. The idealist getting 113 against the
+preterist's 202 is also the imbalance L7-B6 describes, in column inches.
+**Seventeen of 73 paragraphs end on a compressed one-line moral, 23%.** Lesson 6 had four and that
+was credited as an improvement. Four or five earn it and should stay, "If your sentence contains a
+date, start again" foremost. **Six unsourced superlatives**, matching lesson 6's count.
+**Four "Here is" openers** (64, 135, 167, 201) plus **four "Now the / Now turn" openers** (114, 157,
+199, 221), so eight of 73 paragraph openings are a stage direction. **Three self-answered rhetorical
+questions** where one is allowed.
+**The exercise never interleaves**, sixth lesson running, and this is the lesson where the omission
+costs most: its whole thesis is that letters and apocalyptic need **opposite reflexes** (157, "the
+opposite"; 167, "the mirror"), it teaches the discrimination, and it never once makes the learner
+perform it.
+**Two blocks do part of their own work.** The predict at 94 tells the learner to read the two framing
+verses and then asks what they expect them to be about. The checkpoint at 177 lists the five allusive
+details and then asks for three Old Testament passages, when noticing *which* details are allusive is
+the hard half, and two of the five are near-verbatim search strings.
+**Explanations no longer credit the distractors**, which was lesson 6's single best-credited quiz
+feature (REVIEWS.md 3418). Of eighteen distractors about four get any credit. Worst line in the quiz,
+Q5: "Option A is wrong on both counts."
+**Q5 tests no stated objective** (manuscripts and variants are lesson 9's subject), and the **dating
+section, the gematria, the Ezekiel 40-48 paragraph and Duvall and Hays are all taught against no
+objective at all**, never practised and never tested. Objective 1 bundles three performances and
+objective 3 bundles two.
+**Objective 2's first half, the basic rule, is stated once at 86 as restatement, never modelled on a
+case of its own, never practised, and never tested by any of the six items.**
+**The video sits three sections from what it teaches**, and its own caption concedes it ("Watch it
+after this lesson's Revelation section"). Lesson 6's fix moved its video next to its material.
+**The letters half, roughly 3,000 words and half the teaching, has no media of any kind**: no figure,
+no video, no chart, no link.
+
+### Misconceptions: complete for the first time in this course
+
+All six outline items shipped, and the uncomfortable ones survived: 270 is aimed squarely at a
+conservative reader ("almost nobody who says this does them") and 276 defends preterists against a
+caricature the course's own audience is likeliest to hold. **This is the first lesson in the course
+to drop none, and the record should say so.**
+Missing are three the lesson argues against and the quiz tests but the list never names:
+**"666 identifies a living public figure"** (the longest worked example exists to refute it and Q5's
+whole stem is built on it); **"the letters are a doctrine manual, so a phrase means the average of
+its uses"** (Q1's option C); and **"the four schools are four levels of seriousness"**, which the body
+names at 246 and which is the one that cuts at the course's own reader.
+
+### Neutrality, remaining
+
+**"We hold by faith" appears zero times, in the lesson on Revelation.** "History establishes" twice
+and "Scholars argue" twice, both on manuscript and dating claims. Outline convention 4 requires all
+three, and labelling only the historical claims is the asymmetry a non-Christian reader notices
+first. The lesson makes several faith claims in its own voice at 215 and 258.
+**The head-covering position that keeps the covering is the only one of three not allowed to name
+itself** (141), while 143 gives "complementarians" and 145 "egalitarians". It is also the largest of
+the three worldwide.
+**The complementarian block gets no lexical argument** while the egalitarian block's ("head" often
+means "source") goes unmet.
+**"Rapture" and "amillennial" appear zero times**, both described without their names, in a lesson
+that names four other positions.
+**Register aimed one way**: "People do something **stranger**", "the same mistake wearing two
+costumes", "what the **modern pamphlets** do", and 252's "the reading behind most popular prophecy
+books, **but** it is also held with great care by **serious** scholars", which says in the author's
+voice that the popular books are not serious, in the paragraph promising the school "in its own
+terms". The lesson does not use this register on preterism or idealism.
+**Q2's option A is a defensible application of the very test the question asks about** and is marked
+wrong: "applies as written to anyone today whose health is in a similar state" is what Fee's rule
+says when the particulars *do* match.
+**The same-sex clause is raised twice** (114, 272) and the objection is never stated, on the most
+sensitive topic in the lesson. The outline defers the substance to *Hard Questions*; one sentence
+naming the argument on the other side discharges 3.7 without opening it here.
+**The date section gives the majority view a primary quotation and the minority a parenthesis** (264).
+
+### Split seam
+
+**Before `## Apocalyptic works the other way round` (line 155).** Both reviewers who proposed a seam
+put it there and the lesson says it itself at 157: "A letter hides half its meaning in the situation
+... Revelation does the opposite." First half 59 to 153, 2,707 words, ending at the callout, a real
+resting point; it carries objectives 1 and 2, quiz items 1, 2 and 6, both letters worked examples and
+exercise Part 1. Second half 155 to 282, 4,171 words; it carries objectives 3 and 4, quiz items 3, 4
+and 5, both Revelation worked examples, the chart and exercise Part 2, and would need a new opening
+passage and two sentences re-establishing the basic rule. Per BACKLOG 7b: mark, do not renumber.
+
+### What is working, and must survive the revision
+
+- **Zero em dashes and zero en dashes at draft time.** First in the course. Note that several NET
+  verses this lesson could quote at greater length carry em dashes (Philemon 9 and 12, Revelation
+  1:5, 12:9, 17:16, Galatians 3:28), so any expanded quotation must be fragmented around them.
+- **Revelation 12:9 is already quoted in fragments that avoid the NET's own em dashes**, unprompted.
+- **The Philippians 4:13 opening and its predict.** The stem gives away nothing, the body pays off
+  completely, and "Take the sentence out and it will still sound like English, and it will say
+  something Paul never said" earns its place. Best-shaped predict in the course.
+- **"They turn out to be the same mistake wearing two costumes"** (72) and **the mirror mechanism**
+  (157, 167). A mechanism taught rather than asserted, and what makes an interleaved exercise
+  possible. Fee's locusts-versus-figs distinction is the part beginners never get told.
+- **The three head-covering positions (141 to 147)** each in their own terms with their own best
+  argument, then "All three groups accept the comparable-particulars test. They land differently
+  because they disagree about what the principle is and which verses carry it. That is not a failure
+  of the method", and 147's symmetry: one side "has to explain the covering", the other "has to
+  explain why 'all have sinned' survives". The cleanest statement of the test in the course.
+- **Line 131's concession**, that the passage assumes women pray and prophesy aloud, pointed at the
+  course's own likeliest reader. Keep it; it needs the reply added, not removal.
+- **The callout at 151 to 153** entire, especially "If the test only ever tells you what you already
+  wanted to hear, you are not running it."
+- **Line 114's honesty** that nearly all Christians already sort, with Fee's "wince" observation
+  reported without softening.
+- **The Revelation 12 reading (205 to 217).** Every image given its Old Testament address before the
+  picture's job is stated, and the child's leap from birth to throne explained as compression rather
+  than a gap. The lesson's best worked example.
+- **Line 201, the best three-kind sort in the course so far.** Keep the paragraph's structure exactly.
+- **Irenaeus allowed to disagree with the lesson and to win** (203), quoted doing it.
+- **Gentry given his own vocabulary** (248), orthodox versus hyper-preterism, defending the school
+  the course holds least against a misreading it did not make. The model L7-B8 should be rebuilt to.
+- **The futurist paragraph does not flatten the label** (252): classical dispensational, progressive
+  dispensational and historic premillennial, each named.
+- **Misconception 5 (276)** refuses to caricature preterism, and Q3's explanation calls option C "a
+  caricature of preterism".
+- **The standpoint paragraph at 258** says which reading the course prefers, says it once, and grants
+  the others seriousness. It needs two words fixed, not rewriting.
+- **Line 260's Ezekiel 40 to 48 loop**, closing lesson 4 with both readers granted good faith.
+- **The P115 figure** is the media standard for this course: real manuscript, alt text describing the
+  image down to the three Greek letters, caption with credit and licence, and **referred to in the
+  running text** ("Look at the fragment"), which lessons 4 and 6 both failed. Only the caption's
+  "oldest surviving copy" claim is wrong.
+- **The chart is referred to in the running text too** ("Look at the bars", 246). Keep that sentence
+  when the chart is redrawn; make it true.
+- **Key indices 1, 2, 0, 3, 1, 2**, all four used, no adjacent repeat, and option lengths levelled to
+  within 3 to 10 characters with the key longest in only two of six. Better than lesson 6 managed.
+  **Keep the levelling and the spread through the replacements; fix the absolutes.**
+- **Go deeper sends the learner to Martin's Yale lecture 23** as "the critical-scholarly reading ...
+  taught without asking you to believe or disbelieve it", satisfying outline convention 8 without the
+  Hayes-conflation that L1-N4, L2-N8, L3-N9 and L4-N4 all caught. Lecture number verified correct.
+- **"If your sentence contains a date, start again"** (297), the only deliberately engineered
+  desirable difficulty in the exercise.
+- **The forward promise at 306 is honoured**: lesson 12 does come back to Philemon and says so.
+
+### Unverified in this environment
+
+Every attribution to Fee and Stuart (chs. 3, 4 and 13), which is most of the lesson's method, since
+every hosted copy is 403. Every attribution to Williams's *Tyndale Bulletin* article, including the
+Chapa dating and the *thērion* counter-argument, since the PDF host is 403; note the tension
+`SOURCES.md` itself records, that standard manuscript lists date P115 to c. 225 to 275 rather than
+the later date the lesson prints alone. The P115 Commons file and licence. The BibleProject video's
+existence, title and run-time. Whether Fee attaches the barbarian-hordes reading to the locusts of
+9:1-11 or the cavalry of 9:13-19. Gentry 2016's publisher. Calvin's and Luther's positions, and the
+Fee-CBE connection, rest on web search rather than a fetched source.
+
+### Resolutions applied, 2026-09-06
+
+Rewritten in full rather than patched, because seven of the nineteen blocking findings were
+structural: an objective taught but never modelled, an exercise answered twice over by the body, a
+chart that had to be redrawn, a whole third of the lesson with nothing for the learner to do, four
+schools presented in four walls of text, and a quiz in which nothing was fresh. `minutes` went from
+60 to **130**, objectives from four to **six**, in-body links from **0 to 54**, and five of six quiz
+items were replaced. `npm run validate` exits 0 with no warning on this lesson, and the file still
+carries **zero em dashes and zero en dashes**, which is what it came in with and the one thing this
+draft did better than any before it.
+
+**L7-B1, the self-check printing its own answer.** "This is your step" and "Here is my list" are
+gone. The step is now a `:::checkpoint` whose stem asks for the **kinds** of reason rather than the
+reasons, so it can't be the compounding form caught at L5-B1 and L6-B1, and the hidden body ends by
+saying that which kind a reader thinks carries the weight is what the next step turns on. Seventh
+lesson, seventh time this fix has been written.
+
+**L7-B2, five unopened books made authorities.** Beale's phrase is no longer in quotation marks; the
+body reports what the commentary is described as saying. The course's position now reads "a mixed
+reading in the family Beale and Osborne are usually placed in", which is a claim about the field
+rather than about two books. Sources 9, 10, 11, 12, 13 and 23 each now say in bold that the volume
+was not opened, and source 13 no longer asserts what is inside Elliott's four volumes.
+`SOURCES.md` has been escalated at source: those books **may not be quoted at all** by any later
+lesson.
+
+**L7-B3, nine version survivals.** All corrected against NET2 and each recorded in `SOURCES.md` so no
+later lesson reintroduces them. Revelation 1:1 is now "what must happen very soon", and the
+preterist paragraph's argument now turns on the NET's own stronger wording. 1 Corinthians 13:10 is
+"but when what is perfect comes, the partial will be set aside". 1 Corinthians 11:12 is quoted in
+full, including "But all things come from God", which is the clause the egalitarian argument
+actually needs and which the draft had dropped. Colossians 3:12 is "a heart of mercy". Daniel 7:9 is
+"the hair of his head was like lamb's wool". Revelation 17:9 is "seven mountains" and 17:18 stops
+where John stops, with "which Fee and most commentators take to be Rome" outside the quotation.
+1 Timothy 5:23 no longer appears in ESV at all, because the quiz item built on it was replaced; the
+KJV phrase in the body stays and is now attributed as Fee's, which 4.7 permits. **The `(NET)` tag is
+now on every quotation, including every quotation in the quiz**, which is the change that would have
+made the other eight visible in the first place.
+
+**L7-B4, Phoebe and Junia.** Both are now given with both renderings and the NET's named: Phoebe
+"called *diakonos* of the church at Cenchrea, which the NET renders 'servant' and other translations
+'deacon'"; Junia "whom the NET reads as 'well known to the apostles' and others as outstanding
+*among* the apostles". The paragraph then says that every one of those readings is argued, which
+sharpens Fee's point about a non-uniform witness rather than blunting it.
+
+**L7-B5, Fee's own position.** Disclosed where his guidelines are introduced, in the body: board
+member of Christians for Biblical Equality, contributing editor of *Discovering Biblical Equality*,
+"a method offered by someone with a position in the argument the method is about to be used on".
+Line 131's jab now carries the complementarian reply in the same breath (prophesying is not the
+teaching or governing 1 Timothy 2:12 restricts; 1 Corinthians 14:34 to 35 is where Paul draws that
+line). And the section now says plainly that **this course does not take a side between
+complementarians and egalitarians**, because the test just run does not settle it.
+
+**L7-B6, the figural instruction, fifth recurrence.** The idealist paragraph now carries Tyconius in
+the 380s, Augustine in *City of God* 20, the thousand years as the present age of the church as the
+standard Western reading for a millennium, Andrew of Caesarea's commentary as the Orthodox Church's
+standard guide, and the *Catechism* 115 to 118 on the four senses with the literal as the
+foundation. It closes by saying that when Fee says not to press every detail allegorically he is
+stating a rule inside the grammatical-historical method **this course uses**, not a rule the whole
+church has kept. The reader can no longer finish believing nobody read Revelation between Irenaeus
+and 1844.
+
+**L7-B7, objective 4 taught but never modelled or practised.** Three additions. A `:::checkpoint`
+after the four schools asks the learner to state a futurist reading of Revelation 12 at full
+strength, then an idealist reply, then **which of the two they found harder to state fairly**; the
+model answer says which one the writer finds harder and why, which is the ideological Turing test
+performed rather than described. Q4 now tests the performance (which answer would an idealist
+actually give) rather than a matching exercise. And exercise Part 3 makes the learner sort six
+passages by reflex.
+
+**L7-B8, historicism.** It now has its method: the year-day principle, on the pattern of Numbers
+14:34 and Ezekiel 4:6, mapping 1,260 days onto twelve and a half centuries, with the note that this
+is why historicists say theirs is the only reading that takes the book's numbers as measurements of
+anything. Luther's 1530 preface is dated, Calvin is removed as a reader of Revelation and explained,
+Seventh-day Adventist scholars are said to still work it out in print, and the criticism is now
+attributed ("the objection its holders answer most often") rather than delivered in the author's
+voice. It also has a quiz presence that is not a wrong answer, since Q4 and Q5 no longer use it as a
+distractor at all.
+
+**L7-B9, line 258 against line 246.** The preference sentence now gives a reason that doesn't rank
+the others ("each of Revelation's three genres does work the others leave undone") and grants equal
+seriousness to **all four** schools by name.
+
+**L7-B10 and L7-B11, the quiz.** Q2 to Q6 replaced. New cases: Galatians 3:28 read as a social
+programme (which tests objective 2's first half, the basic rule, which the old quiz never tested at
+all), Revelation 8:6 to 12, the idealist's own answer to a standard objection, Revelation 17:9 to 10
+where two of the lesson's conventions pull against each other, and James 5:14. **Not one is worked
+in the body.** Keys are **1, 3, 0, 2, 1, 2**: all four indices used, no adjacent repeat. Option
+lengths are levelled to spreads of **4 to 11 characters** (the draft's own best feature, which the
+neutrality reviewer asked us not to break), the key is nowhere the longest except a tie at Q4, and
+**every item now has at least two options carrying no absolute**, so the shape leak that scored four
+of six is closed. Every explanation credits each distractor for what it gets right before saying
+where it fails, which is lesson 6's feature restored.
+
+**L7-B12, the exercise.** Rewritten in three parts with **three model-answer checkpoints**. Part 1 no
+longer repeats the Philemon checkpoint: it says so explicitly and sets the argument-paragraph
+question and a full four-step run instead, with the "there is an obvious one" giveaway deleted. Part
+2 no longer lists the six images it asks for; it asks for **one image the learner can place and one
+they cannot**, which is a better task and an honest one, and the chapter list is corrected to include
+Ezekiel 2, Genesis 49 and Isaiah 11 so the scroll and the Lion are reachable. The model answer names
+the sea of glass as the one with no clean address. Part 3 is new and interleaves. Free recall was
+added before the quiz.
+
+**L7-B13, links.** 0 to **54** in the teaching prose, including every read-this instruction, the
+non-canonical apocalypses, the *Catechism*, Martin's lecture, and every passage in exercise Part 3.
+
+**L7-B14 and L7-B15, the chart.** Redrawn. viewBox `0 0 344 330`, every size an **attribute** on its
+own element (15, and 16 for the two heading lines), rendering at 14.3px at 360px width. No `style`
+font-size, no hardcoded fills or strokes, `xmlns` restored, `font-family:inherit`, and a `<desc>`
+that narrates all four positions. The axis now starts at **"John's day"** rather than AD 95, so the
+pre-70 date preterism needs is no longer off the edge, and both the caption and the `<desc>` say the
+line is schematic and not to scale. The sequence-versus-pattern distinction is now **drawn**: the
+historicist bar is five separate blocks, the idealist bar one unbroken span. Idealism is at full
+opacity in its own token like the other three. "Look at where the bars sit" is now true.
+
+**L7-B16, the empty last third.** Two blocks added there: the four-schools checkpoint and a
+`:::predict` before the dating section asking what a preterist needs the date to be and why the date
+matters more to that school than to the other three. Free recall added at the end of the exercise.
+
+**L7-B17, spaced review as restatement.** "Notice the spaced review" is deleted. Lesson 3's basic
+rule is now a `:::predict` asking the learner to state it from memory and then apply it to Fee's
+1 Corinthians 13:10 example, and the hidden answer ends by saying what the rule does and doesn't do.
+Lessons 4 and 6 are now retrieved by a second `:::predict` ("what did lesson 4 say a prophet's oracle
+has two of, and what did lesson 6 say a parable does to its hearer?") whose body is the paragraph
+that used to tell them.
+
+**L7-B18, minutes.** 60 to **130**, at the middle of the three measurements, with the exercise trimmed
+so Ezekiel 1 is no longer held open alongside four other chapters.
+
+**L7-B19, pipeline vocabulary.** All six gone. The headings are now "1 Corinthians 13, read at a
+wedding and read in Corinth", "Head coverings, where three readings part company", "666, and the copy
+that says 616", "The woman, the child, and the dragon", and "Now do it yourself, on Philemon,
+Revelation 4 and 5, and six passages you have to sort", with `:::exercise Three tasks`, which is the
+convention lessons 5 and 6 settled on. "Here is the mechanism" is now "That runs the letter's problem
+backwards", and "the mechanism" appears nowhere in learner-facing prose.
+
+**Facts.** L7-F1: source 5 now says what actually happened and lists every passage quoted. L7-F2: the
+caption now says P115 is the oldest copy **that reads 616**, and names P47 as an earlier witness
+reading 666. L7-F3: Calvin removed and explained, Luther's 1530 preface dated. L7-F4: Q5 replaced,
+and the body now says explicitly that Irenaeus refused **as a futurist**, which cuts against a use
+this lesson could have been tempted to make of him. L7-F5: the frontier-invasion reading is moved to
+the Euphrates cavalry of 9:13 to 19 where it standardly sits, so the body no longer presses details
+in the same eleven verses a quiz item forbids pressing; the remaining uncertainty about which passage
+Fee attaches it to is disclosed in source 3. L7-F6 and L7-F7: all four unsourced majority claims
+downgraded; the heading is now "Mixed readings" and the body says "two of the most widely cited
+recent commentaries". L7-F8: Tacitus is now dated in the sentence and Shaw's 2015 article is named
+with the note that most historians still accept the report. L7-F9: `(NET)` on every quotation.
+L7-F10: 144,000 now reads "most commentators therefore read", with futurists who take it as a count
+described as "being consistent with their own rule rather than careless with ours". L7-F11: Daniel
+12:4 and 12:8 to 9 and 1 Peter 1:10 to 12 are now a paragraph of their own, and "entirely" at 167 is
+"in the picture first". L7-F12: Q5 replaced. L7-F13: the 616 predict now ends by saying modern
+editions still print 666 and that this isn't a knockdown. L7-F14: one sentence in the body says the
+course writes "Paul" for all thirteen letters, that most critical scholars hold the Pastorals are
+later, and that nothing in the method turns on it. L7-F15: the run-time is cut and the caption points
+at the video's own page. L7-F16: Teitan named and "very probable"; source 6 corrected to Euanthas.
+L7-F17: the *Four Views* motive is no longer asserted.
+
+**Depth items now used.** Köstenberger and Patterson's **hermeneutical triad** is named in
+Connections as the frame the five genre lessons have been running, which is its fifth and last
+chance in this course. **Duvall and Hays** are no longer a picture used for nothing: their five steps
+and Fee's two are compressed into a numbered **four-step box** that the head-coverings section then
+walks step by step and the exercise cites, which is what `SOURCES.md` called "a teachable procedure".
+**Osborne 2006** is added to Go deeper. **Beale's common-ground observation** is now the sentence
+that closes the Ezekiel 40 to 48 paragraph, which is where lesson 4's Stage 4 said it was worth most.
+**Daniel as an apocalypse** is now stated, and "dozens survive" is replaced by *1 Enoch*, *4 Ezra*
+and *2 Baruch*, each linked and each with a line. **Gematria is runnable**: the seven Hebrew letters
+and their values are a table, and the reader is told to add them and then drop the final nun.
+
+**Neutrality, remaining items.** "We hold by faith" now appears, on the return and the judgment, so
+all three labels are in the lesson. Covering-keeping Christians name themselves and are located
+(conservative Anabaptists, Plymouth Brethren, most Orthodox and traditional Catholic women, much of
+the church outside the West, the head covering movement). The complementarian block has its lexical
+argument (Grudem on *kephalē*). "Pretribulation rapture" and "amillennialism" are both named. The
+one-way register is gone: "stranger", "costumes", "modern pamphlets" and "but it is also held with
+great care by serious scholars" are all rewritten. The same-sex clause now carries one sentence
+stating the argument on the other side and pointing at *Hard Questions*. The dating section gives
+each side its own paragraph, with Laodicea, the state of the churches and the emperor cult on the
+late side and the temple, the count of kings and the ambiguity of Irenaeus's Greek on the early side.
+
+**Voice.** Contraction density went from 1 in 813 (real contractions) to **1 in 42 in the body and
+1 in 58 in the quiz**, which sits inside the house band (lessons 4 and 5 run 1 in 45, lesson 6 1 in
+52). Paragraphs over 120 words went from 17 to **9**, and the four-schools section is now eleven
+paragraphs instead of four, with the idealist school given the most space rather than the least.
+"Here is" openers went from four to zero and "Now the" openers from four to one. The video moved to
+sit directly after the apocalyptic conventions it illustrates, and its caption no longer has to tell
+the reader to come back to it later. Three misconceptions were added: "the letters are a doctrine
+manual", "666 identifies a living public figure", and "the four schools are four levels of
+seriousness", each of which the lesson argues against and two of which the quiz used to test without
+naming.
+
+### Deliberately not fixed, with reasons
+
+- **The lesson was not split**, only seamed, per BACKLOG 7b. `minutes: 130` therefore describes the
+  whole lesson as it stands. The seam comment records what each half would carry, including which
+  quiz items and which objectives, and notes that exercise Part 3 interleaves both halves and belongs
+  to whichever half comes second.
+- **Objective 1 still bundles two performances** (reconstruct the occasion, read by paragraph). They
+  are one habit in practice and the lesson teaches them as one; splitting them would give six
+  objectives where the second adds nothing a learner could be tested on separately. Objective 3 was
+  split from objective 4 as the reviewer asked, which is where the bundling actually cost something.
+- **The head-covering positions still have no page-cited authority on any side.** Grudem and the two
+  edited volumes are named as positions and disclosed as unopened, which is the honest available
+  move; citing pages from books nobody read is the defect this pass exists to remove. `SOURCES.md`
+  records the gap as the largest unresearched hole in this lesson's spec.
+- **Brown's Catholic critical introduction and a full treatment of Revelation's hymnody** were both
+  considered and left. The lesson quotes no poetry, so the trailing-space workaround does not apply,
+  and adding a hymn from Revelation 4 or 5 would give away exercise Part 2. The reviewer's point
+  stands as an argument for the split, after which the second half would have room.
+- **The Fee attributions remain fact-check debt.** Every hosted copy of the textbook is 403 here, so
+  the whole method of this lesson rests on the drafter's Stage 1 record. Source 3 now discloses the
+  one place that matters, the frontier-invasion reading, because the body had to choose a passage.
+- **The P115 image, the Williams article and the BibleProject video** stay unverified for the same
+  proxy reasons and are listed as debt above.
+
+### Requests for the shared files (items 1 to 10 stand from lessons 4, 5 and 6; this is new)
+
+11. **The SVG checks in `scripts/build.mjs` must also read `style` attributes on the `<svg>` root and
+    on `<g>`, not only attributes on `<text>`.** Request 9 asked for `<style>` blocks and `<g>` fills;
+    lesson 7 adds a fourth route and the first one to defeat the **font-size** check rather than the
+    fill check, reporting 0 of 11 undersized labels. Four separate evasion routes across four lessons
+    is enough evidence that the check should resolve inherited and inline CSS or be replaced with a
+    render-time measurement.
+
+## Lesson 8, "How the canon formed" — Stage 4 round 1, 2026-09-06
+
+Five reviewers in fresh context. **Verdict: not clean for publish.** About eighty findings, twenty-one
+blocking. **Fourteen of the blocking findings are defects already resolved earlier in this same
+course**, and one of them was fixed in **lesson 1** and returns here in the one lesson where it does
+the most damage.
+
+Two things about this lesson are better than anything the course has produced so far and must not be
+lost in the rewrite. **Its scripture handling is the cleanest in the course**: four NET quotations,
+four verified verbatim against both mirrors, four carrying the tag, zero ESV survivals, and no
+scripture in the quiz at all, so lesson 7's untagged-quiz-quotation defect does not recur. And **it
+avoids the Jamnia trap entirely**, telling the Jewish-canon story from the Sirach prologue, Josephus,
+Luke 24:44 and *Bava Batra* without once reaching for the discredited "council of Jamnia". The
+misconception list is also complete against the outline for the second lesson running, and for the
+first time the drafter's recorded bias did not show in it.
+
+Against that, the two worst structural numbers in the course to date: **six of six quiz items are
+lookups**, and **one quiz item does not render at all**.
+
+### BLOCKING
+
+**L8-B1. Quiz item 5 renders as four options reading `[object Object]`, and `npm run validate` passes
+it. A FIFTH route past the validator, and the first to defeat the quiz check.** Lines 42 to 49. Each
+option begins `Orthodoxy: `, `Apostolic origin: `, `Use in worship: `, `Catholicity: ` unquoted, so
+YAML parses every entry as a **mapping rather than a string**. `site/assets/app.js` renders options
+through `esc()`, which is `String(s ?? "")`, so the learner sees four identical lines of
+`[object Object]`. **Confirmed independently by running the file through `js-yaml` and the site's own
+`esc`.** `scripts/build.mjs` has a guard written for this class of bug but it tests only that
+`options` is an array of length 2 or more, which this passes.
+**A sweep of all 50 lessons in the repo with quizzes found one other instance, and it is live:**
+`courses/learning-and-mind/how-to-learn-anything/lessons/03-retrieval-practice.md`, Q3 option C, in a
+course with `status: published`. That file is outside this course's ownership and has been left
+untouched; it is filed as shared-file request 12 below.
+
+**L8-B2. "Membership was assumed." The exact claim `SOURCES.md` forbids in bold, in the one lesson
+where it is load-bearing.** Line 88: "not which books belonged, but which order to copy them in.
+**Membership was assumed.**" Line 90: "the list was Jewish and **settled** before Christians did
+anything with it."
+`SOURCES.md` 41: "**Do not write that this proves membership was already fixed:** whether the Jewish
+canon's boundaries were closed by this period is genuinely argued (Barton, *Oracles of God*; Lim;
+McDonald), and the rabbinic sources themselves record disputes over whether Ecclesiastes, Song of
+Songs and Esther 'defile the hands' (m. Yadayim 3:5)." `REVIEWS.md` 68 is L1-N1, the same words, and
+336 records it fixed **in lesson 1**. None of Barton, Lim, McDonald or m. Yadayim 3:5 appears in this
+lesson. Caught by four of five reviewers.
+Why it is worse here than it was in lesson 1: **a closed first-century Hebrew canon is the premise
+the Protestant case at line 287 rests on**, so asserting it as settled 200 lines earlier means the
+reader arrives at the argument with it already won, in a section where they will not connect the two.
+
+**L8-B3. The two-model map excludes both traditions the lesson exists to be fair to, and omits the
+Catholic argument that actually bites.** Line 245, "Two live positions, each in its own terms": Kruger
+(recognition) and McDonald (community determination). Both Western, both post-Reformation. The
+Catholic and Orthodox answer, that a canon presupposes an authority competent to recognise one and
+that no canon is reachable without it, is nowhere in the lesson. That is the argument a Catholic
+leads with, and **Kruger's self-authenticating model exists in large part as the Protestant answer to
+it**, so the lesson gives the answer while never stating the question. Q6's key then frames the whole
+dispute as "recognised or made canonical", which leaves the third position no place to stand. 3.2 and
+3.7, in the lesson whose second half is titled "Why Catholic and Orthodox Bibles have more books".
+
+**L8-B4. The Orthodox case is never made, against the lesson's own objective 2.** Objective 2 promises
+"each tradition's case in terms its own members would accept". Worked example 2 gives "A Catholic
+reader makes this case, in their own terms" and "A Protestant reader makes this case, in their own
+terms". **There is no Orthodox equivalent anywhere.** Orthodoxy gets one descriptive paragraph, a book
+list, a synod, a jurisdictional caveat, and its difference is framed as an absence ("there is no
+Orthodox equivalent of Trent's single defining decree") rather than a different ecclesiology. On the
+timeline it appears **once**, at the bottom, dated 1672.
+Compounding: line 277 introduces Orthodoxy's own word inside the phrase "The Greek term for **the
+extra books**", using the Protestant baseline label in the very sentence that hands Orthodoxy its own
+term, fourteen lines after the callout that calls that move "the quickest way to fail the test".
+
+**L8-B5. The Council of Florence is missing, and the timeline draws its absence as a dashed
+1,100-year gap.** The lesson goes Jerome (c. 405) to Trent (1546) with "That is why the question was
+still open a thousand years later". **Florence, *Cantate Domino*, 4 February 1442, listed the full
+canon with the deuterocanonical books in it: a general council, seventy-five years before Luther,
+whose list Trent repeats.** Innocent I sent Exsuperius a similar list in 405. Without Florence, the
+lesson's own rebuttal at 305 ("Trent defined; Luther set apart") is an assertion; with it, it is a
+demonstration. 3.3: include the facts a well-informed opponent would insist on.
+
+**L8-B6. "The edges settle: 200 to 400" is false for half the church, in the direction that favours
+the course.** Line 114 heading and line 116. The **Peshitta**, the standard Syriac New Testament from
+the early fifth century, has **22 books** and omits 2 Peter, 2 and 3 John, Jude and Revelation; those
+five arrived only in the Philoxenian (508) and Harklean (616), and **the Church of the East has never
+received Revelation**. The lesson knows canons still vary, and says so at 277 about the **Old**
+Testament, where the variation suits the section's argument. It does not say it about the New
+Testament, where it would complicate the course's position. Second-hand, from reference works.
+
+**L8-B7. The lesson's opening move is refuted by its own later evidence, sixty lines on, and nobody
+noticed.** Line 60 opens with 2 Peter 3:15 to 16; line 62: "Inside the New Testament itself, one set
+of Christian writings is already being treated as Scripture by another." Line 119 then lists **2
+Peter** among Eusebius's disputed books, line 116 lists it among "the edges", and Q1's own explanation
+names it as one of the live disputes. 2 Peter is the New Testament book whose date is most widely
+doubted, and the critical mainstream puts it in the second century, **which is McDonald's position
+exactly**: that "Scripture" language about Christian writings is a second-century development. So the
+lesson's framing move depends on the one thing it later concedes is contested, in its first
+paragraph. The fix costs the argument almost nothing and turns the weakest opening into the most
+honest one.
+
+**L8-B8. Marcion as negative proof is a live dispute stated as settled.** Line 100: "You can't cut
+down a collection that doesn't exist. Marcion is negative evidence that by the 140s the churches were
+already reading a wider set." **Von Campenhausen** argued there was no normative collection of new
+writings before Marcion and that the lists are a response to him. **Harnack**, who argued the lesson's
+side, granted in part that the church "did not react to Marcion by creating the first canon" but may
+have reflected for the first time on what it already had. A live minority (BeDuhn, Klinghardt,
+Vinzent) argues Marcion's gospel is prior to canonical Luke. Bruce, the lesson's own authority here,
+structures his book as Marcion then "The Catholic Response". Web search only.
+
+**L8-B9. Bruce is the lesson's neutral referee in a dispute he is a party to, and is made the
+authority for five facts `SOURCES.md` does not record him supporting.** Note 5 credits Bruce with
+Marcion's dating, the three tests, **the absence of canon business from Nicaea's records**, the
+recognition thesis, and **the doubt that an "Alexandrian canon" existed**; note 11 adds "Augustine
+present at Hippo per Bruce". `SOURCES.md` 19 records only his thesis, two chapter titles and the three
+tests, and the lesson 8 draft block does not list him as consulted. Note 5 is the most-used citation
+in the lesson, at five call sites.
+Separately, **Bruce is an evangelical Protestant whose stated thesis is the recognition model this
+course holds**, and he is used unattributed at line 295 to report a consensus that "takes one old
+argument away from the Catholic side". That is L7-B5's shape, whose resolution established that a
+scholar's commitments must be disclosed where he is cited approvingly.
+And the Alexandrian-canon claim is reported one-sidedly: **the argument that dissolved it is
+Sundberg's**, the same Sundberg the lesson cites at note 8, and Sundberg's conclusion was that in the
+first century **neither** community had a closed list. The lesson reports the half that costs the
+Catholic side an argument and suppresses the half that costs the Protestant side the premise it
+asserted at line 90.
+
+**L8-B10. The self-check prints its own answer in plain body text, hitting both flagged phrases.
+Eighth lesson running.** Line 289 "**Now do the next step before I do**"; line 291, the next visible
+line, "**Here's mine.**" L1-V3, lesson 2's line 254, L3-B1, L4-B1, L5-B1, L6-B1, L7-B1. The fix has
+been written into this course seven times. This instance destroys **the only place in the body where
+the learner runs objective 2's reasoning on a case the lesson has not already resolved**, and the
+Jude/1 Enoch move is the intellectual high point of the lesson.
+
+**L8-B11. Six of six quiz items are lookups.** Q1 is answered by worked example 1 entire and by the
+SVG's own labels; Q2 by 271 to 275 and five rows of the SVG; Q3 by 293 verbatim and twice more at 93
+and 132; Q4 by the sort printed at 239 and 295; Q5 by 108, 220 and 243, **and by the checkpoint at
+219, which asks the same question in nearly the same words**; Q6 by 251 paraphrased. Three of the six
+are additionally answered inside a `:::predict` or `:::checkpoint` hidden body, so the learner is
+handed the answer twice before the quiz. Lesson quizzes are open book. 4.3 requires at least half to
+be fresh application. Lesson 7's record was five of six.
+**The date-recall risk lands too**: Q1 is discriminated by pairing "180" with Irenaeus and "about 325"
+with Eusebius, and Q2 by pairing 1534 with Luther and 1546 with Trent. A learner who memorised the
+timeline and read nothing else answers both, and neither item requires explaining how anything formed.
+
+**L8-B12. The key is the longest option in five of six items.** Measured: Q1 +15, Q2 +25, Q3 +19,
+Q5 +2, Q6 +38; spreads 13 to 45 characters. "Pick the longest" scores 83% against a 70% pass mark.
+Lesson 7's fix pass reached spreads of 4 to 11 with the key longest in one item, and the neutrality
+reviewer explicitly asked that the levelling not be broken. It was broken one lesson later, and worse
+than lesson 7 started.
+**The absolutes half is genuinely improved and must be preserved**: the key is the only option
+carrying no absolute in **one** of six, against four of six at lesson 7. **Key indices 1, 3, 0, 2, 1,
+3, all four used, no adjacent repeat. Keep them exactly.**
+
+**L8-B13. Two distractors invent facts about named historical figures, in a history lesson.** Q5
+option A, "Irenaeus condemned its teaching on repentance as heretical"; option D, "Athanasius says it
+was known only in Rome and rejected everywhere in the East". The explain field admits the first
+("Option A invents a condemnation"). 4.3 wants the mistakes a half-understanding learner would make,
+not fabricated attributions a learner may half-remember as true. **Tertullian really did reject the
+Shepherd**, in *De Pudicitia* 10, calling it "the shepherd of the adulterers", which is a true fact
+and a better distractor. Also: **"catholicity" appears in this lesson only inside a wrong quiz
+option**, a technical term the body never uses or defines.
+
+**L8-B14. The learner never applies the three criteria to any book whose answer is not printed.** The
+criteria appear once, at line 243, in a single 90-word sentence with each criterion's answer attached
+in the same clause. Then the checkpoint at 219 asks which criterion excluded the Shepherd (already
+answered at 108 and 243), and Q5 asks it a third time. **One book, three times, answer pre-printed.**
+No borderline book is worked: Hebrews is named five times and the lesson never says why it was
+disputed, 1 Clement never appears, the Didache appears only inside two lists. 1.1.3.
+
+**L8-B15. Objective 3 is taught at 700 words, never modelled, never practised, tested cold by a
+lookup. Eighth lesson running.** "Compare the two scholarly models and say what they agree on." The
+lesson *states* both and never shows a reader comparing them on a case, which is what "compare" means
+as a performance. No exercise part touches them. Q6's key is line 251 rewritten. `REVIEWS.md` 1978
+already recorded for the course that nothing assesses a comparison as a performable skill, and lesson
+7's fix for the same defect is 200 lines up in this file and was not reused.
+**Objective 1 bundles three separately testable performances** (Jewish canon, New Testament canon,
+Nicaea) and the first is untaught as a skill, unpractised and untested: no quiz item touches Sirach,
+Josephus, *Bava Batra*, Luke 24:44 or the Tanakh's three parts. **Objective 2 bundles two**, and its
+second half, the Turing-test performance, is tested nowhere.
+**Taught against no objective at all, six items**: the mechanism at 70 to 72 (which sets a falsifiable
+prediction and never cashes it out), the three tests, Marcion as negative evidence, the Muratorian
+dating dispute, the Apocrypha-versus-deuterocanonical word rule (framed explicitly as a skill), and
+the 2 Maccabees 12 purgatory point.
+
+**L8-B16. Half the lesson has no learner-facing block, and objectives 2 and 3 live entirely inside
+that half.** The last block closes at 221; the exercise opens at 319. Between them, **2,975 words,
+49% of the teaching prose**, carrying worked example 1, the three tests, both scholarly models, the
+standpoint paragraph, both videos, the whole Catholic and Orthodox section, worked example 2, and all
+six misconceptions. Five of the six blocks sit in the first 22% of the body. L7-B16 was 2,968 words
+and 35%; this is worse.
+
+**L8-B17. The exercise has no model answers, two of its three parts are answered by the body, and
+part 1 names evidence that is not where it says it is.** Eighth lesson with no model answers; the fix
+has been written into this course seven times.
+**(a)** Part 2 asks for a Catholic paragraph and a Protestant paragraph; the body prints both in full
+at 285 and 287. **(b)** Part 1's table is printed twice already, at 122 and 128 to 130 and again in
+sources 9 and 10. **(c)** Two of its ten books cannot be resolved from the assigned text: the lesson's
+own Eusebius paragraph never says what he does with **Hebrews**, and the **Wisdom of Solomon** is in
+the Muratorian Fragment, not in Eusebius. **(d)** The three labels offered cannot express the answer,
+because the lesson's own line 122 puts the Shepherd and the Apocalypse of Peter in a **fourth**
+category. This is L7-B12 repeating in all four of its parts.
+
+**L8-B18. Eusebius has four categories, not three, and the misconception section leans on the one the
+lesson dropped.** Lines 118 and 122 give recognised, disputed, rejected. The fourth is the heretical
+forgeries, **and that is where the Gospels of Peter, Thomas and Matthias sit**. Line 303 then argues
+against "the lost gospels were suppressed" with "Eusebius names the rejected books in the open" and
+cites [9], but the books the lesson listed as rejected are the Shepherd, Barnabas and the Didache,
+not the lost gospels. The argument needs the category the lesson omitted. Calling the *nothoi*
+"rejected" also flattens Eusebius's own "recognized by many".
+
+**L8-B19. Three deuterocanonical quotations from the NRSVue, a copyrighted translation 4.7 does not
+permit, carrying the substance of two sections.** Lines 78 (Sirach prologue), 283 (2 Maccabees 7:9)
+and 297 (2 Maccabees 12:44, **with no version tag at all**). 4.7 permits four departures from the NET
+and this is none of them. Brenton 1851 is the specified public-domain Septuagint and covers all three;
+`SOURCES.md` source 1 already records that the KJV Apocrypha was to hand on Wikisource. **Brenton was
+fetched at this pass and all three verify**, and the switch strengthens the Sirach paragraph because
+Brenton also carries "in the eight and thirtieth year coming into Egypt, when Euergetes was king",
+which is the lesson's own basis for 132 BC. **Note the wording changes: Brenton reads "superfluous and
+vain", not the NRSVue's "superfluous and foolish".**
+
+**L8-B20. All 43 SVG labels render below the 14px floor, and the validator sees 15 of them.** Line
+144, `<g font-size="13" fill="var(--text)">`, covers **28 `<text>` elements that carry no size of
+their own**; the other 15 carry 12 or 11. At viewBox width 420 and a 328px content column the scale
+is 0.781, so the three sizes render at **10.15, 9.37 and 8.59px**. Nothing in the chart reaches the
+floor and nothing can at that viewBox width.
+**On the reviewers' disagreement, for the record:** two called this a fifth evasion route and one
+called it the second route recurring. Both are right about the facts and the honest description is
+that it is **one mechanism, attribute inheritance from a `<g>` wrapper, defeating a second check**:
+lessons 4 and 5 used it for `fill`, lesson 8 uses it for `font-size`. That matters because shared-file
+request 11, filed at lesson 7, asked only for `style` attributes to be parsed; it needs widening.
+Also missing against the working pattern: **no `xmlns`**, and the timeline spine and its dashed break
+use `stroke="var(--line)"` with no literal fallback, which is **1.39:1 in light mode and 1.44:1 in
+dark** against a 3:1 floor. The axis of the chart is effectively invisible in both themes.
+
+**L8-B21. `minutes: 50` against a measured 105 to 150 without the videos and about 230 with them.**
+Four reviewers measured independently and converged: 105 to 118, 120 to 150, 131 to 150, and "41
+minutes of prose before any of it". The lesson assigns Athanasius's Festal Letter 39 plus Eusebius
+3.25 (about 1,700 words of NPNF English) and a twenty-cell table, 2 Maccabees 7 (42 verses) plus
+Hebrews 11:32 to 38 and two paragraphs each of which must pass a sneer test, a timeline from memory,
+and **two videos the lesson instructs the learner to watch**, one of them a full Yale lecture. Eighth
+lesson running.
+
+### Facts wrong
+
+**L8-F1. Source note 25 claims a fetch that cannot have happened. FOURTH lesson running.** Line 365,
+"read via the bible.org API". Both `labs.bible.org` and `netbible.org` are 403 at this proxy,
+confirmed by curl at this pass. `SOURCES.md` records the identical line at L5-B3, L6-F2 and L7-F1, and
+the lesson 7 entry says in bold that draft-time source notes must say where a text actually came from.
+Compounding: **the lesson 8 draft block in `SOURCES.md` records no scripture fetch at all.**
+
+**L8-F2. Eusebius's *History* was substantially written before Nicaea, and the lesson's Nicaea
+argument leans on the later date.** Line 229: "Around 325, Eusebius, who sat at Nicaea, writes his own
+history... A man who had just watched an emperor settle the canon would not list the open questions."
+Burgess's three-edition analysis, now the stable consensus, finds editions of about 313, 316 and 324,
+with Book 3 most likely in the first. **The argument survives and is arguably strengthened by the
+correction**: Eusebius revised as late as 324 or 325 and left 3.25 standing, having had every chance
+to add "as the great council decreed". Web search only.
+
+**L8-F3. Marcion was himself the shipowner, and his father was a bishop.** Line 100, "a shipowner's
+son named Marcion". Rhodon and Tertullian call **Marcion** *nauclerus*; the tradition makes him the
+son of the bishop of Sinope, who expelled him. Both halves are inverted, and the dropped detail is
+worth more than the one kept, because it makes Marcion an insider dispute rather than an outside
+attack.
+
+**L8-F4. Ware is downgraded, and a pipeline instruction is left in a learner-facing Sources block.**
+Ware's sentence is "**most** Orthodox scholars at the present day, following the opinion of Athanasius
+and Jerome, consider that the Deutero-Canonical Books, although part of the Bible, stand on a lower
+footing". The lesson writes "many" and adds "though not all agree", which no source supports and which
+weakens the authority it is citing. `SOURCES.md` 223 records Ware as **not re-read at draft time,
+"from the drafter's recollection"**, so an unopened book is the authority for **the only substantive
+Orthodox theological claim in the lesson**. Note 21 ends "the fact-check should confirm the page",
+which is a to-do shipped to learners.
+
+**L8-F5. Neither Muratorian date the lesson gives matches its own source.** Line 112 and the SVG both
+give "about 180 to 200". Metzger's headnote to the translation the lesson cites at note 7 says "the
+list itself is dated to about 170", and the standard range runs **c. 170 to 200**. The lesson silently
+drops the early end, in the section headed "The New Testament core by about 180" where the Fragment is
+the third witness for that date.
+
+**L8-F6. The Muratorian dating dispute is resolved by editorial preference, in the course-favourable
+direction.** Line 112 gives Sundberg and Hahneman one clause each with no argument stated, then two
+assessors who both land on the date that favours the course, then "I'd teach it as 'probably about 180
+to 200, disputed'". 3.1(2) forbids resolving a contested empirical question by editorial preference.
+**Rothschild's 2022 critical edition is in the sources and never in the body**, and it is on the side
+the lesson argues against.
+
+**L8-F7. The chart dates a c. 391 quotation to c. 405.** SVG lines 190 to 193 attach Jerome's "not to
+give authority" to the Vulgate at c. 405; the phrase is from the preface to the books of Solomon,
+which the body dates to c. 391.
+
+**L8-F8. The chart gives Orthodoxy a Trent-shaped decree that the prose then takes away.** SVG lines
+210 to 213 and the `<desc>` state as flat fact that the Synod of Jerusalem declared the books "genuine
+parts of Scripture". Line 277 immediately qualifies it as a regional synod binding where received,
+with no Orthodox equivalent of Trent. In a lesson about giving each tradition its own terms, the
+graphic misrepresents the only non-Western tradition it depicts.
+
+**L8-F9. The timeline is not a timeline, and its one proportional device asserts that it is.** Every
+event is spaced 50 units apart regardless of interval: 132 BC to AD 95 is 227 years, 1534 to 1546 is
+12, and both get 50. Then a dashed axis break labelled "about 1,100 years" is drawn, and **an axis
+break is a claim that the rest of the axis is to scale**. Line 217 then tells the reader to read a
+five-century spread off it.
+
+**L8-F10. The body identifies chart marks by colour alone.** Line 217, "The gold dot is... The red dot
+is Nicaea". 4.6. And `--oxblood` renders pink (`#d9737f`) in dark mode, so "the red dot" is wrong for
+half of all readers, while the ordinary marks are navy circles with **gold strokes**, so "the gold
+dot" is not unambiguous in light mode either.
+
+**L8-F11. The transmarina clause is single-manuscript and the body makes it load-bearing without
+saying so.** Line 134. Source note 11 discloses it; the body does not, and the section's conclusion
+rests on it.
+
+**L8-F12. Luther's New Testament is missing entirely.** The lesson's business is who moved which
+books, and it runs an explicit Catholic Turing test, and never mentions that Luther moved **Hebrews,
+James, Jude and Revelation** to the end of his New Testament and left them out of the numbering. It
+gets nothing wrong; it omits the thing a Catholic reader raises first. The facts: September Testament
+1522, all four kept, moved, unnumbered; the general preface said they "have from ancient times had a
+different reputation"; the "epistle of straw" phrase was in **that general preface, not the preface to
+James**, and was **dropped from every edition after 1537**. The point cuts both ways, which is why it
+belongs in: he did not remove them, no Lutheran Bible since has, and he was applying Eusebius's own
+category of disputed books.
+
+**L8-F13. McDonald's publisher is wrong in three places** (lines 249, 335, 354, and `SOURCES.md` 19):
+the 2007 third edition of *The Biblical Canon* is **Hendrickson**, not Baker.
+
+**L8-F14. Jerome did not translate four of the books the lesson credits to his Vulgate.** Line 271,
+"His Vulgate, finished around 405, kept the books anyway." He translated Tobit and Judith hastily and
+did **not** translate Wisdom, Sirach, Baruch or 1 and 2 Maccabees at all; those travelled with his
+text in their Old Latin form.
+
+**L8-F15. Smaller ones.** Eusebius names Revelation in **both** the accepted and the rejected lists
+(3.25.9), and quoting both is stronger evidence for the indecision the lesson argues than quoting one.
+Line 108 calls the Wisdom of Solomon "an Old Testament book" where line 267 lists it among the
+Apocrypha. Line 134's "matching the later Catholic canon" should be "close to", since the African
+list's "two books of Esdras" is read by some as including 1 Esdras, which Trent excluded. Line 78's
+"Around 132 BC ... wrote a preface" gives an arrival date as a writing date, against outline
+convention 3. The Da Vinci Code line is quoted verbatim from a book `SOURCES.md` records as confirmed
+only through secondary summaries, and the novel has lowercase "emperor".
+
+### Voice and media
+
+Zero em dashes, zero banned vocabulary, mean sentence length 19.4 and median 17, both inside the
+style guide's band. Against that:
+**Contraction density is the stiffest in the course.** Body **1 in 104** (1 in 85 excluding Sources)
+against a house band of 1 in 42 to 52. **Quiz frontmatter: 0 real contractions in 1,541 words**, every
+apostrophe a possessive. Sixth consecutive lesson where the quiz block is stiffer than the body.
+**Nine en dashes**, invisible to the validator, and the file **contradicts itself**: line 365 already
+writes "2 Peter 3:15 to 16" and "Jude 14 to 15" correctly while lines 60, 289 and 364 write the same
+references with en dashes. One en dash is inside an SVG label.
+**Four pipeline headings** ("Worked example 1", "Worked example 2", "Practice", `:::exercise Do it
+now`), sixth and seventh recurrence, all four in forms lessons 5, 6 and 7 already settled replacements
+for. **"The mechanism" three times** in body text, removed from lesson 7 one lesson ago. **Three
+"Here's" openers** and **five "Now the" openers**, eight of 62 paragraph openings.
+**Seventeen of 62 paragraphs (27%) end on a compressed one-line moral**, against lesson 7's 23% and
+lesson 6's four. The densest run is five consecutive paragraphs in the misconceptions section, which
+turns a list into a drumbeat. Four earn their place and should survive, "Suppressed texts don't get
+catalogued by the suppressors" foremost. Add four structural signpost enders on top of that.
+**Eight unsourced superlatives**, worst being line 267's "The early church's Bible was overwhelmingly
+the Greek one", which is a substantive historical claim carrying a superlative **with no footnote at
+all**, in the paragraph that sets up the entire Catholic case.
+**Two in-body links** in a 6,100-word lesson, both inside the exercise, **none in the teaching body**,
+against fourteen open-this instructions and ten named-and-unlinked scholars. Every URL the fix needs
+is already in `SOURCES.md` or named in prose in the Sources block. Line 321 names BibleGateway in
+words and does not link it. Lesson 7 shipped 54.
+**The figure's alt text asserts what the body denies**: it says the Fragment lists "the books of the
+New Testament", and line 110 says what it omits is as telling as what it includes, and line 108 says
+it lists an Old Testament book. **Two `:::video` blocks stacked with no prose between them**, one
+printing an unverified running time (fourth lesson to do so; oEmbed returns no duration) and the other
+printing none, and **the second video is never referred to in the running text**.
+**Eight paragraphs over 120 words**, worst being 277 at 180 words, which is the entire Orthodox
+section in one block and the only place Orthodoxy gets its own voice.
+
+### Misconceptions: complete for the second lesson running, and this time the bias did not show
+
+All five outline items shipped, and the drafter **added a sixth of his own that cuts at the course's
+own evidence**: "The Muratorian Fragment proves the canon was closed by 200", closing "Don't overstate
+your best evidence; the other side will notice." The two a Protestant reader least enjoys, "Rome added
+books at Trent" and "The Protestant canon is the original one", are both present, and the second gives
+both sides' claim in their own words and refuses to adjudicate. **This is the first lesson in the
+course where the drafter's recorded bias did not show in this section.**
+Missing are four the lesson argues against and the quiz tests but the list never names: **"Luther cut
+seven books out"** (Q2's entire stem), **"the criteria were arbitrary"** (Q5's entire stem), **"a New
+Testament allusion proves a book is Scripture"** (worked example 2 exists to refute it), and
+**"Protestants never had the Apocrypha"** (refuted twice, and the one a Protestant reader is likeliest
+to hold).
+
+### Split seam
+
+**Before `## Why Catholic and Orthodox Bibles have more books` (line 263).** Objectives 1, 3 and 4
+belong to half A and objective 2 entirely to half B; the mechanism at 70 to 72 is half A's spine and
+half B never uses it; half A's argument is complete at 261 and half B opens cold and restarts the
+chronology at 391; the quiz already sorts almost cleanly (Q1, Q4, Q5, Q6 to A; Q2, Q3 to B). **The
+timeline has a literal 1,100-year dashed gap drawn through its middle, so the seam is already on the
+page as a picture.** Half A about 4,300 words, half B about 3,100. Half B needs its own opening
+passage, and Hebrews 11:35 with 2 Maccabees 7 would be a stronger opening than it is a mid-lesson
+example. Per BACKLOG 7b: mark, do not renumber.
+
+### What is working, and must survive the revision
+
+- **The cleanest scripture handling in the course.** Four NET quotations, four verified verbatim
+  against both mirrors, four tagged, zero untagged, zero ESV survivals, and no scripture in the quiz,
+  so L7-F9 does not recur. **Do not let a fix pass touch these four.**
+- **Jamnia and Laodicea are both absent.** The lesson tells the Jewish-canon story from the Sirach
+  prologue, Josephus, Luke 24:44 and *Bava Batra*, and never reaches for the discredited council.
+- **Worked example 1 (Nicaea) is the best piece of historical argument in the course**: four dated
+  witnesses in order, each with its inference stated, then the move at 237 from "this is false" to
+  "this is the wrong *kind* of story". Keep the structure intact.
+- **The Trent vote tally is correctly omitted with a disclosure** (source 18). First time in this
+  course a disputed secondary figure has been dropped at draft time rather than at Stage 4.
+- **Free recall is present** (exercise part 3): closed-page, quantity-specified, self-checkable.
+  Lesson 7 shipped with none. Keep it verbatim and keep it last.
+- **The three-way sort is performed twice in full**, at 239 and 295, with all three labels including
+  **"we hold by faith"**, which lesson 7 lacked entirely. And 295's admission that the collapse of the
+  Alexandrian-canon argument leaves the Catholic side its **stronger** argument is genuinely
+  even-handed writing.
+- **Line 253's faith declaration**, "we believe the church received these books because they were
+  God's word, not that they became God's word by being received. That's a faith commitment stated as
+  one", immediately followed by granting that a critical scholar can accept every date on the
+  timeline. Only "and once" goes, because the view is asserted eleven times before it.
+- **The callout at 313 to 315** on Apocrypha and deuterocanonical, entire. It is the only place in the
+  course that states the ideological Turing test as a rule of writing.
+- **Exercise part 2's closing line**: "If you can't write the paragraph for the side you don't belong
+  to without a sneer in it, you haven't understood that side yet." Keep verbatim.
+- **The predicts at 80 and 118** are the best-shaped blocks in the lesson: neither stem states any
+  part of its own answer, and 118's "If you guessed any of the Gospels, notice that" converts a wrong
+  guess into teaching.
+- **The Hippo detail at 134**, that the council asked Rome to confirm its own list, with the inference
+  drawn. Evidence and inference in two sentences. It needs the manuscript hedge, not removal.
+- **Line 132's honesty**, that the first document with our exact New Testament does not have our exact
+  Old Testament, planted and paid off 160 lines later at 293, and the payoff cuts against the course.
+- **The Muratorian dating dispute is given with four scholars named and the course's own best evidence
+  argued against**, and misconception 6 says so out loud.
+- **Athanasius is refused as a referee** (293): "He's a witness that the question was still being
+  settled, not a referee who settled it."
+- **The Ethiopian Orthodox turn at 291**, using 1 Enoch to show that "what the church has always read"
+  has a different answer in different places. It cuts against the lesson's own side.
+- **No hardcoded hex fills or strokes outside `var()` fallbacks**, and `font-family:inherit` on the
+  root. **Do not strip the literal fallbacks**; they match lesson 6's sanctioned pattern.
+- **No poetry anywhere**, so the trailing-space workaround does not apply and must not be added.
+- **Bruce's chapter numbers are correct.** Two reviewers doubted them and one checked: ch. 12 is "The
+  Muratorian Fragment" and ch. 17 is "Athanasius and After". Leave them.
+- **Sinaiticus and Vaticanus are absent, correctly**, since `OUTLINE.md` assigns them to lesson 9.
+
+### Unverified in this environment
+
+Every scripture, patristic and reference host is 403 at the proxy, so the patristic texts were routed
+through third-party GitHub mirrors: reliable for catching a wrong wording, which is what they did, but
+a claim turning on a single word should be reconfirmed when egress allows. Not verified at all: the
+Muratorian figure's file path and licence; both video links and both running times; Luther's 1534
+heading in either language; Schnabel's JETS article and Verheyden's essay; **Bruce, Kruger, McDonald
+and Ware as books, none of which was opened for this lesson or for the course**; the Da Vinci Code
+quotation; the 1826 Bible Society decision; the Hippo and Carthage canon text and the transmarina
+clause; Ware's page number; Eusebius's edition history; and the Marcion scholarship.
+
+### Requests for the shared files (items 1 to 11 stand; these are new)
+
+12. **DONE, 2026-09-06.** `scripts/build.mjs` now asserts that every quiz option is a string, and the
+    published lesson has been fixed and the site data rebuilt. The check lives in `checkQuizTypes`,
+    called from the lint pass for every lesson (drafts warn, published courses fail the build) and
+    from the assessments path, which the lint pass does not walk. Verified by reintroducing the defect
+    in a draft and in a published lesson and confirming one message each and the right exit code.
+    Original request follows.
+    **`scripts/build.mjs` must assert that every quiz option is a string.** Its guard currently tests
+    only that `options` is an array of length 2 or more, so an unquoted option containing a colon
+    parses as a mapping and reaches the learner as `[object Object]`. One line: `typeof o === "string"`
+    for each option, plus the same check on `q` and `explain`.
+    **This is not hypothetical and it is not confined to this course.** A sweep of all 50 lessons with
+    quizzes found a second instance in a **published** course:
+    `courses/learning-and-mind/how-to-learn-anything/lessons/03-retrieval-practice.md`, Q3 option C,
+    which is rendering `[object Object]` to learners now. That file is outside this course's
+    ownership and has not been touched; it needs a one-line quoting fix by whoever owns it.
+13. **Widen request 11.** It asked for `style` attributes on `<svg>` and `<g>` to be parsed. Lesson 8
+    shows the same mechanism defeating the **size** check through a plain `font-size` **attribute** on
+    a `<g>`, so 28 of 43 undersized labels were invisible. Five instances across six lessons, now
+    defeating two different checks by four different syntaxes, is the case for replacing the regex
+    checks with a render-time measurement rather than patching them a fifth time.
+
+### Resolutions applied, 2026-09-06
+
+Rewritten in full. `minutes` 50 to **130**, objectives four to **six**, in-body links 2 to **22**,
+four of six quiz items replaced and the other two levelled, and the quiz block's contraction density
+brought from 1 in 116 to **1 in 53 against a body at 1 in 51**, which is the first time in this course
+the quiz has not read stiffer than the lesson around it. `npm run validate` exits 0 with no warning on
+this lesson. Zero em dashes and zero en dashes.
+
+**L8-B1, the unrenderable quiz item.** Fixed by replacement, and the finding turned out to be bigger
+than the lesson. The item is gone; every option in the new quiz is a plain string, checked by parsing
+the frontmatter and asserting the type rather than by eye. **The repo-wide sweep found one other
+instance in a published course**, which was left untouched (it is outside this course's ownership) and
+filed as shared-file request 12 and as a standalone task for whoever owns that course.
+
+**L8-B2, "membership was assumed".** Gone, and replaced with what `SOURCES.md` 41 actually asked for:
+*m. Yadayim* 3:5 on whether Ecclesiastes and the Song of Songs "defile the hands", and Barton, Lim and
+McDonald named as holding the Writings were still open. The section now says out loud that **a closed
+first-century Hebrew canon is the premise the Protestant case later in the lesson rests on**, so the
+reader meets the weakness of the course's own strongest argument before the argument arrives rather
+than never.
+
+**L8-B3 and L8-B4, the missing traditions.** The two-model section is now three, with the **ecclesial
+account** given in its own terms and the question it answers put before Kruger's answer to it,
+including the sharp form ("a fallible collection of infallible books"). The Orthodox case now has its
+own paragraph beginning "An Orthodox reader makes the case in their own terms", with the liturgical
+argument, the Quinisext ratification, the reason there is no Orthodox Trent, and the observation that
+both Western sides are arguing inside a frame Orthodoxy does not use. *Anagignoskomena* is introduced
+as **the Orthodox term** rather than as "the Greek term for the extra books", and the callout now
+carries all three words.
+
+**L8-B5, Florence.** Added, with Innocent I's 405 list alongside it, and the timeline's dashed
+thousand-year gap is now bridged by a Florence entry and a Quinisext entry. Trent's paragraph no
+longer opens "The Catholic Church answered Luther", which was the Protestant framing in the author's
+voice, and the misconception at 305 now names Florence as the evidence.
+
+**L8-B6, the Peshitta.** The heading is now "The edges settle **in the West and in Alexandria**", and a
+flagged paragraph gives the twenty-two-book Syriac New Testament, the Philoxenian and Harklean
+supplements, and the Church of the East's never receiving Revelation, closing "they settled where this
+course's ancestors were standing".
+
+**L8-B7, the opening.** The 2 Peter caveat is now the second paragraph of the lesson: 2 Peter is one
+of the disputed books, its date is argued, and if it is late the passage shows a second-century church
+doing this, **which is what one of the models in the lesson predicts**. It cost the argument almost
+nothing and it is now the most honest paragraph on the page.
+
+**L8-B8 and the Marcion facts.** He is now the shipowner and the bishop's son, the church at Rome
+excommunicated him rather than "threw him out", and what his edit proves is given as an argument with
+Harnack, von Campenhausen and Harnack's own concession, rather than as a settled inference.
+
+**L8-B9, Bruce.** Note 5 now says in bold that the research file records only his thesis, two chapter
+titles and the three tests, and marks the other four claims "as standardly reported" rather than as
+his. The body discloses that he is an evangelical Protestant and that the recognition thesis is his,
+before his tests are used. The Alexandrian-canon paragraph now gives **both halves of Sundberg's
+conclusion**, and says plainly that taken whole it costs the Catholic side an argument and the
+Protestant side its premise.
+
+**L8-B10, the self-check.** "Now do the next step before I do" and "Here's mine" are gone; the Jude
+step is a `:::checkpoint` whose stem does not state its own answer. Eighth lesson, eighth time.
+
+**L8-B11 to L8-B13, the quiz.** Q3, Q4, Q5 and Q6 replaced with cases the body does not work: the
+Orthodox and Catholic answers about Psalm 151 and 3 Maccabees, a hypothetical second-century papyrus
+read through two models, the Apocalypse of Peter run through the three tests, and the "Trent added
+nothing" sentence sorted three ways. Q1 and Q2 kept as the two the lesson exists to arm the reader
+for, with their distractors rebuilt: **Q2's stem is now the strong Catholic claim** (Florence, before
+Luther, your list is the innovation) rather than the strawman "Luther cut them out", and its key
+concedes the history and locates the real disagreement. **Both invented attributions are gone.**
+Keys stay **1, 3, 0, 2, 1, 3**; option spreads are now **5 to 16 characters** against 13 to 45; the
+key is longest in **none** of the six against five of six; and no item has the key as its only
+unhedged option.
+
+**L8-B14, the criteria.** Each test now has its own paragraph with the mechanism, and a `:::checkpoint`
+runs all three on **1 Clement and Hebrews**, neither of which the lesson settles. The model answer's
+point is the one the lesson had been missing: the criteria are not a checklist where three passes
+admit, they are three considerations weighed against each other, and Hebrews is the case where two
+outvoted one over two centuries.
+
+**L8-B15 and L8-B16, objectives and the dead half.** Six objectives, with the old objective 1 split in
+two and the criteria and the sorting each given their own. Four new blocks sit in what was the empty
+half: the three-models predict is now inside the section, the Thomas predict replaces the flat
+misconception, the Jude checkpoint, and the exercise's own model-answer checkpoint. The longest run
+without a learner-facing block is now under 900 words.
+
+**L8-B17, the exercise.** Four tasks, three model answers behind a checkpoint. Task 1's label set is
+now **four labels, because three would not cover it**, and the two books that could not be resolved
+from the assigned texts (Hebrews and the Wisdom of Solomon) are cut. Task 2 says "without looking back
+at this lesson" and then asks the learner to compare and mark where theirs is weaker, which turns
+transcription into the Turing test performed. Task 3 is the interleaved sort, six claims unlabelled,
+**two of which carry claims of more than one kind**. Task 4 is free recall, extended from the timeline
+alone to the tests and the three models.
+
+**L8-B18, Eusebius's fourth category.** Restored, with the Gospels of Peter, Thomas and Matthias named
+in it, and Revelation now noted as appearing in **both** the recognised and rejected lists. The "lost
+gospels were suppressed" misconception now works, because it points at the category that actually
+holds those texts.
+
+**L8-B19, the NRSVue.** All three quotations replaced with **Brenton**, fetched and verified at this
+pass. The Sirach paragraph gained from it, because Brenton also carries the Euergetes line that is the
+basis for the 132 BC date, and the date is now given as **his arrival** rather than the writing.
+2 Maccabees 12:44 changes wording: "superfluous and **vain**", not "foolish".
+
+**L8-B20, the chart.** Redrawn at viewBox `0 0 344 1060`. **No `<g>` wrapper**, so every size is an
+attribute the validator can see: 35 labels at 15 and 17 at 16, rendering at 14.3 and 15.3px on a
+328px column. `xmlns` added, the spine and ticks moved to `var(--line-strong)` with a literal fallback,
+Nicaea marked with a **square** and Athanasius with a **ring** so the running text no longer identifies
+them by colour, Jerome redated to c. 391 to 405, the Synod of Jerusalem relabelled "a regional synod,
+binds where received", the Muratorian entry carrying both dates, and Florence, Quinisext and 1826
+added. The dashed axis break is gone and the caption says the spacing is not proportional, which
+removes the one place the graphic claimed a scale it did not keep.
+
+**L8-B21, minutes.** 50 to **130**, with both videos explicitly placed outside the lesson clock in
+their captions, which also removes the unverified "about fifty minutes".
+
+**Facts.** L8-F1: note 25 now says what actually happened, and the false bible.org line is gone for
+the fourth time in this course. L8-F2: Eusebius's editions are given, and the Nicaea argument now
+turns on the stronger point that he **revised after the council and left 3.25 standing**. L8-F3:
+Marcion corrected. L8-F4: Ware quoted as he wrote it, "most" restored, and the to-do deleted from the
+Sources block. L8-F5: the Muratorian range is now 170 to 200, per Metzger's own headnote. L8-F6: the
+Sundberg and Hahneman case is stated at strength, Rothschild is in the body, "I'd teach it as" is gone,
+and the section ends by saying what would settle it. L8-F7 and L8-F8: chart dates and the Jerusalem
+label corrected. L8-F9 and L8-F10: scale claim removed, colour-only identification removed. L8-F11:
+the single-manuscript hedge is in the body. L8-F12: Luther's New Testament is now a paragraph, with the
+1537 detail and the point that it cuts both ways. L8-F13: Hendrickson. L8-F14: Jerome's actual
+translation work stated. L8-F15: the small ones all applied.
+
+**Two rendering bugs found during the fix pass, neither of which any reviewer could see.** Block
+bodies are parsed with `breaks: false`, so **single newlines inside a `:::checkpoint` collapse into one
+run-on paragraph**; three of lesson 8's model answers were 160 to 290-word walls for that reason.
+Checking the rest of the course found the same defect in **lesson 4 (one block) and lesson 7 (two)**,
+all now fixed. And a checkpoint body opening `367. It's a letter from Athanasius` renders as
+`<ol start="367">` with the sentence as a list item; that opening is reworded. Both are recorded in
+`SOURCES.md`, with the note that `:::figure` and `:::video` are the opposite case, since they use
+`parseInline` and must stay one paragraph.
+
+**Misconceptions.** All six kept, including the one the drafter added against the course's own
+evidence, and **four added**: "Luther cut seven books out", "Protestants never had the Apocrypha",
+"the criteria were arbitrary", and "a New Testament allusion proves a book is Scripture". A fifth
+covers the models, since the reader arrives holding one and assuming it is the plain reading.
+
+### Deliberately not fixed, with reasons
+
+- **The lesson was not split**, only seamed at the point both the depth and neutrality reviewers
+  identified, per BACKLOG 7b. `minutes: 130` therefore describes the whole lesson.
+- **The Ware claim stays second-hand**, quoted accurately and disclosed as unopened. Opening the book
+  is not possible in this environment, and the Orthodox case no longer depends on it, since the new
+  Orthodox paragraph rests on liturgical practice and conciliar reception instead.
+- **Sinaiticus and Vaticanus are still absent**, correctly: the outline assigns them to lesson 9, and
+  the fact-checker confirmed their absence here is not an omission.
+- **The two videos were kept**, both outside the clock. Cutting one would have removed the critical
+  side's own advocate, which outline convention 8 requires.
+- **Florence, the Peshitta, Luther's 1522 numbering, Eusebius's edition history and the Marcion
+  scholarship all rest on standard reference accounts**, not on fetched primary texts, because every
+  relevant host is blocked here. Each is marked as such in its source note rather than passed silently.
