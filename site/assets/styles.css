@@ -464,7 +464,10 @@ a.path-item:hover { background: var(--surface-2); color: var(--text); }
 @media (max-width: 860px) {
   /* Phone captures are tall. Show the top of each one rather than a screen and a half of it. */
   .shot img { max-height: 380px; object-fit: cover; object-position: left top; }
-  .why-row, .why-row:nth-child(even), .why-row.why-ask { grid-template-columns: 1fr; gap: 1.1rem; padding: 1.75rem 0; }
+  .why-row, .why-row:nth-child(even) { grid-template-columns: 1fr; gap: 1.1rem; padding: 1.75rem 0; }
+  /* .why-ask is a bordered panel, not a plain row, so it keeps its side padding here.
+     Zeroing it put the text hard against the oxblood rule at phone width. */
+  .why-row.why-ask { grid-template-columns: 1fr; gap: 1.1rem; padding: 1.5rem 1.15rem; }
   .why-row > .shot, .why-row:nth-child(even) > .shot, .why-row.why-ask > .shot { order: 1; }
   .why-row > .why-copy, .why-row:nth-child(even) > .why-copy, .why-row.why-ask > .why-copy { order: 2; }
 }

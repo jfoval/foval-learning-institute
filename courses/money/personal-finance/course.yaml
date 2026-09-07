@@ -16,5 +16,6 @@ outcomes:
   - Calculate what debt costs, and choose a payoff order using both the arithmetic and the evidence
   - Explain compounding, estimate doubling times, and separate real returns from nominal ones
   - Compare funds by cost and diversification, and say why the record favours low-cost indexing
+  - Work out what a salary actually keeps after tax, and tell a marginal rate from an effective one
 prerequisites: []
-estimated_hours: 4.2
+estimated_hours: 5.0

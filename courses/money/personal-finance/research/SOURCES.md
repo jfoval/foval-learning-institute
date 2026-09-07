@@ -92,3 +92,113 @@ In the order the ideas build, drawing on Kapoor's structure, Khan Academy's unit
 - Course has no assessments folder content and no final test; standards 4.4 requires one for courses of six or more lessons, so if lessons are added, the test comes with them.
 - The US-specificity of credit scores and account types should be labelled in-text ("in the US...") since the site's audience is not exclusively American.
 - estimated_hours: 2.1 is far below what the standard's depth requirements will produce across even five real lessons; expect to revise after Stage 4.
+
+## Taxes: research added 2026-09-06 for lesson 6
+
+*This section was written after the Stage 4 neutrality audit of lesson 6 pointed out, correctly,
+that the lesson was drafted for a 3.4-sensitive domain with no researched source base covering it.
+Everything below was verified live on 2026-09-06.*
+
+### Primary sources for the mechanics
+
+- **IRS, "Federal income tax rates and brackets"** (irs.gov/filing/federal-income-tax-rates-and-brackets).
+  The bracket table, and the IRS's own statement of the slice model: "when your income jumps to a
+  higher tax bracket, you don't pay the higher rate on your entire income." Tax year 2025, single:
+  10% to $11,925, 12% to $48,475, 22% to $103,350, 24% to $197,300, 32% to $250,525, 35% to
+  $626,350, 37% above. Check this page every year rather than trusting any printed figure.
+- **IRS Publication 501** (irs.gov/publications/p501). Standard deduction by filing status. Tax
+  year 2025 single under 65 is **$15,750**, which is not the $15,000 originally announced in the
+  autumn 2024 inflation adjustment: the One Big Beautiful Bill Act, signed 4 July 2025, raised it
+  mid-year. A lesson quoting the older figure would be wrong, which is the concrete case for the
+  rule about never trusting a remembered tax number.
+- **SSA, "Contribution and benefit base"** (ssa.gov/oact/cola/cbb.html). The single best citation
+  for payroll tax: it gives the OASDI rate (6.2% employee and employer each, 12.4% for the
+  self-employed), the Medicare rate (1.45% each, 2.9% self-employed, no cap since 1993), and the
+  full table of wage bases from 1937. **2025: $176,100. 2026: $184,500.** Prefer this to IRS Topic
+  751, which now shows only the current year and so silently stops supporting a citation for an
+  earlier one.
+- **IRS Topic 751** for the rates and the Additional Medicare Tax of 0.9% on wages above $200,000
+  (single) or $250,000 (married filing jointly), which makes the Medicare component progressive at
+  the top and is the standard omission in "payroll tax is regressive" summaries.
+- **IRS Topic 306, "Penalty for underpayment of estimated tax"** (irs.gov/taxtopics/tc306), and the
+  safe harbours: broadly, pay 90% of the current year's tax or 100% of the prior year's (110% at
+  higher incomes) and no penalty applies. Any lesson that tells a reader to cut their withholding
+  owes them this.
+- **IRS, "Self-employment tax"** (irs.gov/businesses/small-businesses-self-employed/self-employment-tax-social-security-and-medicare-taxes)
+  for the 15.3% combined rate and the absence of withholding, which the employee-shaped account of
+  payroll tax leaves out.
+- **IRS, "Credits and deductions for individuals"**, plus the EITC and Child Tax Credit pages, for
+  what refundable actually means. This is the distinction that decides whether a credit is worth
+  anything to a household with little or no income tax liability.
+- **HHS ASPE, poverty guidelines** (aspe.hhs.gov/topics/poverty-economic-mobility/poverty-guidelines).
+  Needed for any statement about the 400% threshold. 2025 guideline for a household of one in the
+  48 contiguous states is $15,650, so 400% is exactly $62,600, and marketplace eligibility for a
+  coverage year uses the previous year's guidelines. Attribute the arithmetic here, not to KFF.
+
+### Benefit cliffs and effective marginal rates, which is where the myth is true
+
+- **CBO, "Effective Marginal Tax Rates for Low- and Moderate-Income Workers in 2016"**
+  (cbo.gov/publication/50923, November 2015, free). Headline: **31% on average**, with federal
+  income and payroll taxes the main contributors and benefit phase-outs (SNAP, ACA cost-sharing)
+  adding the rest. Individual cases run far higher. This is the neutral, quantified statement of
+  the thing people are describing when they say a raise cost them money, and it concerns low and
+  moderate earners rather than the households near the ACA subsidy cliff. **A lesson that teaches
+  cliffs using only the ACA example has picked the politically live case over the common one**;
+  lead with this.
+- **KFF, "What we know so far about 2026 ACA marketplace enrollment, premiums, and deductibles"**
+  (kff.org). Supports: the ARPA 2021 enhancement (benchmark premium capped at 8.5% of income, no
+  upper income limit), its extension through 2025, its expiry on 1 January 2026, the return of the
+  pre-2021 400% FPL cutoff, and the size of the premium increases. It does **not** state the
+  $62,600 figure; cite ASPE for that.
+
+### The contested questions, and the positions on each
+
+- **What do the highest earners actually pay?** Position A (Saez and Zucman, *JEP* 34(4) 2020 and
+  *The Triumph of Injustice*): once unrealised gains and corporate tax are assigned to their
+  owners, the US system is close to a flat tax and regressive at the very top, with top-end
+  effective rates in the single digits. Position B (Auten and Splinter, *JPE* 2024,
+  davidsplinter.com): the same tax data, distributed differently, gives average rates rising from
+  about 12% for the bottom half to about 50% for the top 0.01%. Position C, the one both sides
+  agree on because it measures something narrower: **IRS Statistics of Income**, summarised each
+  year by the Tax Foundation, where the top 1% paid an average effective *federal income tax* rate
+  of 26.3% in 2023, on 20.6% of the income, supplying 38.4% of all federal income tax. What would
+  settle it: agreement on whether unrealised gains are income and how to allocate corporate tax and
+  unreported income, which is a definitional question as much as an empirical one. Classification:
+  **contested empirical, with a definitional core**. Never state any of the three answers in the
+  author's voice.
+- **Who bears the employer's half of payroll tax?** Mainstream economics and CBO's distributional
+  methodology assume it falls on workers' wages in the long run. Attribute it; do not assert it
+  flatly and do not hedge it into meaninglessness either.
+- **Is a deduction that is worth more to a higher earner a subsidy?** Critics call it an
+  upside-down subsidy: the higher your rate, the more the government pays toward the deducted
+  expense. Defenders reply that a deduction defines what counts as income in the first place, so
+  the larger saving simply mirrors the higher rate that dollar would otherwise have faced, and the
+  progressivity lives in the rate schedule rather than in the deduction. Both describe the same
+  arithmetic. Classification: **value question about a shared fact.** Also relevant to the fairness
+  of the argument: since the 2017 act roughly 90% of filers take the standard deduction (about 91%
+  in tax year 2022, against about 70% in 2017), so the distributional point applies mostly to
+  itemised deductions, and many deductions and credits phase out at higher incomes, which cuts the
+  other way.
+- **Should the ACA subsidy cliff exist?** Live political argument in 2026. The course takes no
+  position. What the lesson owes the reader is the mechanism and the date.
+
+### For "Go deeper" rather than for claims
+
+- **Kapoor, Dlabay & Hughes, part 1**, is the field's own treatment of taxes in a personal finance
+  course and should be named as the textbook chapter under standard 1.2.
+- **Tax Policy Center Briefing Book** (taxpolicycenter.org/briefing-book), "How do federal income
+  tax rates work?" and "What is the standard deduction?". The best free analytical treatment, and
+  it states its own assumptions, which is why it is usable in a neutral course.
+- **Khan Academy Financial Literacy**, taxes and tax forms unit, for filing mechanics, W-2s and
+  1099s, which lesson 6 deliberately does not cover.
+- **Khan Academy, "Basics of US income tax rate schedule"** (youtube.com/watch?v=OGVJfcSckUs),
+  4 minutes 8 seconds, Sal Khan computing the slices by hand.
+
+### Notes for whoever writes lesson 7
+
+The Roth versus traditional decision needs the marginal rate, so lesson 6 has to hand it over
+cleanly. Two things lesson 6 establishes that lesson 7 should reuse rather than re-teach: that a
+deduction is worth your marginal rate (which is exactly what a traditional contribution is, and it
+is an above-the-line deduction, so it works whether or not you itemise), and that the employee
+payroll tax is charged on wages before that deduction, so a traditional 401(k) contribution saves
+income tax and not payroll tax.
