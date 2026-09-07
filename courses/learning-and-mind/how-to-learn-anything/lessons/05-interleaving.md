@@ -1,6 +1,7 @@
 ---
 title: "Interleaving and variation: mix it up, within limits"
 minutes: 40
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/learning-and-mind/how-to-learn-anything/05-interleaving.mp3
 objectives:
   - Explain what interleaved practice forces you to do on every problem that blocked practice lets you skip
   - Decide, for a given subject and material, whether interleaving is likely to help, do nothing, or hurt, using confusability as the first test
