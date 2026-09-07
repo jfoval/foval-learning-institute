@@ -548,3 +548,117 @@ every `explain` field; the honest "I don't know of a decisive one"; the empty-cl
 correctly declassified as convention rather than controversy; and the practice answers correctly
 hidden behind a checkpoint, which is the defect lesson 2 still has.
 
+## Lesson 5, "Inductive strength". Stage 4 round 1, 2026-09-06. NOT YET APPLIED
+
+One reviewer, all five passes, fresh context. **Verdict: the strongest expository writing in the
+course. Every Mill quotation verbatim from Bennett's text, six of six quiz items genuine transfer,
+3.06 contractions per 100 words, zero em dashes, zero banned vocabulary.** The failures cluster in
+three places, and two of the three are course-wide rather than this lesson's fault.
+
+### Depth
+
+- **The problem of induction is never named.** A lesson called "Inductive strength" that says
+  induction "is the only kind that reaches new facts" without Hume or Popper fails the expert test
+  at the exact point standard 1.1 describes. SOURCES.md's contested question 4 already records the
+  Popperian position. Three sentences fix it, and the lesson's practical tests survive either way.
+- **Hurley's third clause for cogency is dropped, and the lesson then rediscovers it.** Cogency is
+  given as strong plus true premises; the total evidence requirement is the missing third clause,
+  and it is exactly the fair-coin case the lesson teaches two paragraphs later.
+- **The one quantitative claim about sample size is false.** "Ten-out-of-twelve could easily happen
+  by chance among people whose real rate is nearer half": at a true rate of 0.5 that is 1.9%. The
+  correct and stronger version is that at a true rate of two thirds you would see it about one time
+  in six, so the sample cannot tell "most" from "a bit over half". The mechanism is also missing:
+  error shrinks with the square root of the sample, and a poll's margin depends on sample size and
+  not on population size.
+- Copi grades analogies on six criteria; the lesson says relevance is "the whole test" and cites
+  Copi for it. Nothing on the plurality of causes, which Mill takes up in the next chapter of the
+  PDF the drafter read. Wellman coined "conductive", not Govier. Van Fraassen's bad-lot objection
+  is gestured at and never named.
+
+### Facts
+
+Verified: all five Mill quotations word for word against Bennett; the gunshot example really is
+under the Method of Difference (the two-column layout trap in SOURCES.md was avoided); heat and
+expansion; the SEP revision date; Harman 1965's bibliographic details; all six answer indices.
+
+Wrong: **Harman's thesis is stated as the weak half.** He argued the converse of what the lesson
+says, that enumerative induction is a disguised special case of inference to the best explanation.
+Also, a SEP quotation is silently altered inside its quotation marks ("supports" to "support"),
+Mill's chapter title is attributed to Bennett, and the page range and length are both slightly off.
+
+### Neutrality
+
+- **Quiz item 4 breaks the course's own example rule and settles a live empirical question by
+  editorial preference.** It uses a town council, street trees and burglary rates, where OUTLINE.md
+  says "never a social-policy correlation", crime is a 3.4 domain, and the keyed answer tells the
+  learner wealth is the likely common cause. Branas et al., *PNAS* 2018, is a citywide
+  cluster-randomised trial of greening vacant lots reporting roughly a 29% fall in crime, which is
+  the very experiment the keyed option proposes. A ready-to-paste replacement using a garden centre
+  and plant food, same skill and same four-reading structure, is in the review output.
+- The problem of induction is resolved by assertion rather than presented as the live dispute
+  SOURCES.md records. The four-kind taxonomy is attributed to "the informal-logic literature" when
+  it is Groarke's survey and is itself contested. Mild sneering at people who say "correlation
+  isn't causation", whose strongest version is a statistically trained reader demanding the
+  confounders be named, which is what the lesson goes on to teach.
+
+### Voice and pedagogy
+
+Zero links and zero figures in 6,701 words. The four readings of a correlation are the most reused
+object in the lesson, referenced by a predict block, a checkpoint, a quiz item and an exercise
+step, and exist only as a numbered list; a four-panel SVG is the obvious fix. Two answer leaks in
+worked examples with a gap (fourth lesson running), and two hidden answers given away by the prose
+above them, one of them by the section heading itself. Doubled citation apparatus 14 times, removed
+in lessons 1 and 3 already. The practice section miscounts its own items ("three of the eight are
+deductive look-alikes"; there are two). `minutes: 55` should be 70, the fourth lesson running to
+understate its own length.
+
+### Coordination note from the reviewer, worth acting on
+
+Lesson 2's work order recommends moving its "myth worth clearing away" section into lesson 5, but
+lesson 5 currently says "Lesson 2 warned you off the 'general to particular' myth; here's the
+spaced repeat." Sequence those two edits or the sentence becomes false.
+
+---
+
+## COURSE-WIDE: the unread-source defect, measured and now enforced, 2026-09-06
+
+Three separate Stage 4 reviews (lessons 2, 4 and 5) independently found the same defect: lessons
+citing textbooks that this course's own SOURCES.md records as never opened. Rather than fix it a
+fourth time by hand, it is now measured and linted.
+
+`scripts/build.mjs` reads a machine-readable line from each course's `research/SOURCES.md`:
+
+    <!-- unread: Hurley, Copi, Govier, Weston -->
+
+and flags any lesson citing one of those names. Drafting courses warn; published courses fail the
+build, so this cannot reach a learner. The list lives beside the research because the person who
+decides a book is unread is the person writing the research file.
+
+**Measured scope on this course: 20 findings across 8 of 10 lessons.**
+
+| Lesson | Hurley | Copi | Govier | Weston |
+|---|---|---|---|---|
+| 01 what an argument is | 1 | 1 | 4 | |
+| 02 valid and sound | fixed | fixed | | |
+| 03 conditionals | 4 | 2 | | |
+| 04 syllogisms | 6 | 4 | 3 | |
+| 05 inductive strength | 7 | 2 | 5 | 8 |
+| 07 reconstruction and charity | 1 | 1 | 6 | |
+| 08 fallacies | 2 | | 1 | |
+| 09 reasoning in the news | | | | 9 |
+| 10 building an argument | | | 5 | 21 |
+
+Lesson 10 cites Weston 21 times, so a substantial part of that lesson rests on a book nobody in
+this repo has read. Lesson 2 is done and is the worked example of the fix: re-source to works that
+are free, openly licensed and actually read. Knachel's *Fundamental Methods of Logic* and Van
+Cleave's *Introduction to Logic and Critical Thinking*, both CC BY 4.0 on LibreTexts, between them
+cover validity, soundness, the deductive/inductive distinction, the categorical forms, the Venn
+method and the 256/15/24 count. The SEP and IEP entries cover the history and the disputes. Weston
+is the hard case, because chapter IV was genuinely read and the rest was not, so every Weston
+citation needs checking against which chapter it draws on rather than a blanket swap.
+
+**Also measured, same sweep: 6 of 10 lessons have no links in the body at all** (04, 05, 06, 07, 09,
+10), against 13 in lesson 1 and 23 in lesson 8. And every lesson reviewed so far has understated
+its own `minutes` (35 to 60, 40 to 70, 50 to 65, 40 to 60, 55 to 70), which is a drafting-template
+problem rather than a per-lesson one.
+

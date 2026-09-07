@@ -1,5 +1,16 @@
 # Sources: Logic and Argument
 
+<!-- unread: Hurley, Copi, Govier, Weston -->
+
+*The line above is read by `scripts/build.mjs`. It names works this course has **not** actually
+opened, and the linter flags any lesson that cites one. Hurley is recorded below as "confirmed
+against several course summaries of the book rather than the 14th edition itself" and Hurley ch. 5
+as "still not read directly"; Copi ch. 4 as "from memory of the 14th ed."; Weston's chapters II,
+III, V and VI to VIII as never read (only chapter IV, and contents-page rule titles from a Google
+Books snippet); Govier has no draft-time reading entry at all. OUTLINE.md's rule is
+read-it-or-omit-it. Remove a name from this line only when someone has actually read the work and
+recorded what they read, in the "added at draft time" section below.*
+
 *Stage 1 research. Written before any lesson is drafted. This is a working document: for each source, say what it is good for and what it establishes.*
 
 Research date: September 2026. Where a figure below is quoted, it was read from the paper or book itself (full text, extracted from the PDF) unless marked "via secondary source". Those marked items must be checked against the primary source in the fact-check pass before a lesson quotes them. The How to Learn Anything research file shows how many Stage 1 figures drifted from the papers; this file tries to say, for every number, exactly where it was read.

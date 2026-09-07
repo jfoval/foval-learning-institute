@@ -136,6 +136,15 @@ function lintLessons() {
       let published = false;
       try { published = yaml.load(fs.readFileSync(path.join(COURSES_DIR, school.name, cdir.name, "course.yaml"), "utf8")).status === "published"; } catch {}
       const fail = m => (published ? errors : warn).push(published ? m : m + " [draft: fix before publishing]");
+      // `<!-- unread: Hurley, Copi -->` in research/SOURCES.md names works the course has
+      // NOT read. Keeping the list beside the research is the point: whoever decides a book
+      // is unread is the person writing the research file.
+      let unreadWorks = [];
+      try {
+        const sm = fs.readFileSync(path.join(COURSES_DIR, school.name, cdir.name, "research", "SOURCES.md"), "utf8");
+        const m = sm.match(/<!--\s*unread:\s*([^>]*?)\s*-->/i);
+        if (m) unreadWorks = m[1].split(",").map(x => x.trim()).filter(Boolean);
+      } catch {}
       for (const f of fs.readdirSync(lessonsDir).filter(f => f.endsWith(".md"))) {
         const file = path.relative(ROOT, path.join(lessonsDir, f));
         const src = fs.readFileSync(path.join(lessonsDir, f), "utf8");
@@ -304,6 +313,20 @@ function lintLessons() {
           const outside = src.split("```").filter((_, i) => i % 2 === 0).join("\n");
           const swallowed = (outside.match(/^\d+\.[^\n]*\n(?:C|Conclusion):/gm) || []).length;
           if (swallowed) fail(`${file}: ${swallowed} argument display(s) put a conclusion line directly after a numbered premise outside a code fence; the markdown parser folds it into the premise. Fence the display and separate the conclusion with a rule.`);
+        }
+
+        // Integrity, standard 2.1 and OUTLINE's "read-it-or-omit-it". Three Stage 4 reviews
+        // in this repo caught lessons citing textbooks that the course's own SOURCES.md
+        // records as never opened (confirmed "against several course summaries rather than
+        // the edition itself", "from memory of the 14th ed."). A hand review should not have
+        // to find that a fourth time. SOURCES.md declares the unread works in one machine
+        // readable line, `<!-- unread: Hurley, Copi -->`, and citing one here is a defect.
+        if (unreadWorks.length) {
+          const hits = unreadWorks.filter(w => new RegExp(`\\b${w.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\b`).test(src));
+          for (const w of hits) {
+            const n = (src.match(new RegExp(`\\b${w.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\b`, "g")) || []).length;
+            fail(`${file}: cites ${w} ${n} time(s), but this course's research/SOURCES.md lists ${w} as not actually read. Read it and record it, or re-source the claim. See the "unread:" line in SOURCES.md.`);
+          }
         }
 
         // 4.5: a lesson that links nothing hides its sources.

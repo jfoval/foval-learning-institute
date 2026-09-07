@@ -104,9 +104,22 @@ the main reason this course is not live.
    to the PDFs has to confirm or correct each one. Also deferred there: the biconditional is
    promised by objective 3 and never taught, and two of the four named valid forms appear in no
    quiz item.
-3. **Review lessons 4 to 10** (seven lessons, none reviewed). Lessons 4 and 5 were in flight when
-   this was written.
-4. **Clear the 20 validation warnings on this course.** `npm run validate` lists them. They are
+3. **Fix the course-wide unread-source defect: 20 findings across 8 of 10 lessons.** Three
+   separate reviews found lessons citing Hurley, Copi, Govier and Weston for content SOURCES.md
+   records as never opened. It is now linted rather than found by hand: `research/SOURCES.md`
+   carries `<!-- unread: ... -->` and `scripts/build.mjs` flags any lesson citing a name on it
+   (warn while drafting, build failure once published). `npm run validate` prints the list. Lesson
+   2 is the worked example of the fix. Lesson 10 is the worst, citing Weston 21 times. Weston is
+   the hard case, because chapter IV really was read and the rest was not, so each citation needs
+   checking against its chapter rather than a blanket swap.
+4. **Add links to the six lessons that have none** (04, 05, 06, 07, 09, 10), against 13 in lesson 1
+   and 23 in lesson 8. Standard 4.5. Lesson 4's body even promises a link that is not there.
+5. **Reset `minutes` across the course.** Every lesson reviewed so far understated it: 35 to 60,
+   40 to 70, 50 to 65, 40 to 60, 55 to 70. This is a drafting-template problem, so fix
+   `templates/lesson.md` too rather than only the lessons.
+6. **Review lessons 6 to 10** (five lessons, none reviewed). Lessons 4 and 5 are done and logged in
+   `research/REVIEWS.md`, not yet applied.
+7. **Clear the other validation warnings on this course.** `npm run validate` lists them. They are
    not cosmetic. The worst is **lesson 9's processed-meat chart, which is broken on the live
    site**: it uses `--line-strong` and `--navy` to distinguish two things, and those tokens resolve
    to the same colour in both themes, so it renders as one solid block under a caption describing
@@ -114,10 +127,10 @@ the main reason this course is not live.
    asking the reader to answer first, marked in-file `[draft: fix before publishing]`. Lessons 8,
    9 and 10 have SVG labels under font-size 15, hardcoded light and dark fills that vanish in one
    theme, and several lessons have no links in the body at all, which 4.5 asks for.
-5. **Build the assessments.** `research/OUTLINE.md` lines 140 to 143 specify them. The folder does
+8. **Build the assessments.** `research/OUTLINE.md` lines 140 to 143 specify them. The folder does
    not exist yet. The site already supports assessments of type `test` and `project`; How to
    Learn Anything has two and is the working example to copy.
-6. **Publish**: `status: published` in both `course.yaml` and the course's row in
+9. **Publish**: `status: published` in both `course.yaml` and the course's row in
    `curriculum/TAXONOMY.md`, then build and commit `site/data/courses.js`.
 
 ### What shipped earlier today, for context
