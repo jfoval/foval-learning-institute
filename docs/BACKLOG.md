@@ -56,7 +56,7 @@ anywhere, and that is why the old queue survived as long as it did.
 | Algebra Essentials | live | 5 | **0** | 0 | none |
 | Clear Writing | live | 4 | **0** | 0 | none |
 | Bible Basics | **drafting** | 12 | 3 | 0 | 1 (regenerates after renumber) |
-| Logic and Argument | **drafting** | 10 | 6 | 0 | none |
+| Logic and Argument | **drafting** | 10 | 7 | 0 | none |
 
 ### A process rule, because this session broke it
 

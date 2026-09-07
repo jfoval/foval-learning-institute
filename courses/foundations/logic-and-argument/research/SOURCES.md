@@ -232,3 +232,51 @@ Read or re-read while running the Stage 4 review of lesson 6. Each item says whe
 - **Gigerenzer & Hoffrage 1995, re-read from the free PDF at library.mpib-berlin.mpg.de/ft/gg/GG_How_1995.pdf (text-extracted this session).** Confirmed: mammography problem wording (1% base rate, 80% sensitivity, 9.6% false positives), posterior 7.8%; the Eddy sentence verbatim ("95 out of 100 physicians estimated the posterior probability p(cancer | positive) to be between 70% and 80%, rather than 7.8%"); Study 1 rates 16% and 28% (probability formats) against 46% and 50% (frequency formats). This Max Planck Institute copy is now the body link.
 - **Links verified live this session and added to lesson 6:** the judgment (caselaw.nationalarchives.gov.uk/ewca/crim/2003/1020), the RSS PDF, the CCRC case page (ccrc.gov.uk/decision/clark-sally/), Dyer 2007 on PMC (pmc.ncbi.nlm.nih.gov/articles/PMC1832002/), SEP "Inductive Logic" (rev. 24 Feb 2025 confirmed on the page), and the two paper PDFs above. Hahn & Oaksford 2007 and Oaksford & Hahn 2004 have no free full text from the publisher (Birkbeck and Cardiff repositories hold records, not open PDFs) and stay unlinked, with the lesson's source notes saying so.
 - **Every probability in lesson 6 recomputed independently this session; all correct.** Mammogram 8/103 = 7.8% and the formula line 0.008/0.103; negatives 2 of 897; spam filter 45/64 = 70%; doubled base rate 16/110 = 15%; likelihood ratio 80/9.6 = 8.3 and the posterior odds 8 to 95; quiz items 19/68 = 28%, LR 10 vs 90/85 = 1.06, DNA 5-in-5-million; practice answers 18/517 = 3.5% and 99/10,098 = 1%.
+
+## Added at review time (lesson 7, Stage 4, 2026-09-06)
+
+Read or re-read while running the Stage 4 review of lesson 7. Each item says where it was read.
+
+- **Hitchcock, "Toulmin's Warrants", read in full this session** from the free PDF at
+  https://humanities.mcmaster.ca/~hitchckd/Toulminswarrants.pdf (text-extracted). Key findings:
+  (1) "A warrant is an inference-licensing rule, not a premiss" is Hitchcock's own sentence
+  (sec. 2.1 to 2.2). (2) The phrase "Such a general, step-authorizing statement is called a
+  warrant" is quoted by Hitchcock from **Toulmin, Rieke & Janik, *An Introduction to Reasoning*
+  (1984, pp. 46 to 47)**, NOT from Toulmin 1958; Toulmin 1958's own wording is "Propositions of
+  this kind I shall call warrants" (p. 98). The lesson 1 review already flagged this
+  (fact-check 11); this file's Toulmin entry above still carries the misattribution and should
+  not be quoted from. (3) Hitchcock QUALIFIES the field-dependency thesis rather than endorsing
+  it: "Toulmin's field-dependency thesis needs qualification. Many warrants belong to definite
+  fields ... But many do not. Some are common-sense generalizations." (4) "Grounds" is the
+  1984 textbook's term (p. 38); "data" is 1958's (p. 97). (5) Hitchcock's own Harry warrant
+  wording is "A man born in Bermuda is generally a British subject"; the lesson keeps the 2003
+  book's "will generally be", as read for lesson 1.
+- **SEP "Informal Logic" (Groarke), re-verified live this session.** All fragments lesson 7
+  quotes confirmed verbatim, including "acceptable when they are true or acceptable in some
+  other way" and the full relevance wording "for the conclusion of the argument" (the lesson's
+  earlier quotation stopped at "conclusion" inside the quotation marks; fixed).
+- **Van Cleave 2e, sec. 1.10, re-verified live on LibreTexts this session.** All seven quoted
+  items (three definitions, the "somewhat suspect" remark, the worker example, the pediatricians
+  exercise sentence, the presidents ladder) confirmed verbatim. Section URL now linked in the
+  lesson body.
+- **Dennett, Rapoport's rules, re-verified this session** against The Marginalian's verbatim
+  excerpt (themarginalian.org/2014/03/28/daniel-dennett-rapoport-rules-criticism/): the heading,
+  all four rules word for word, Rapoport described as "the legendary social psychologist and game
+  theorist", and the "more receptive audience" effect. The printed book remains unseen; p. 33 is
+  from publisher/library records.
+- **Principle of charity, history verified for the new paragraph in lesson 7.** SEP "Donald
+  Davidson" (Malpas), sec. 3.3, read this session: charity "counsels us to interpret speakers as
+  holding true beliefs (true by our lights at least) wherever it is plausible to do", "a version
+  of which is also to be found in Quine". The coining by N. L. Wilson, "Substances without
+  Substrata", *Review of Metaphysics* 1959, is the standard attribution (acknowledged in Quine's
+  *Word and Object* footnotes), confirmed across several independent secondary sources this
+  session (Springer *Topoi* 2025 special-issue introduction; PhilPapers bibliography). Wilson's
+  paper not read; the lesson claims only the name and date from it.
+- **Sinnott-Armstrong & Fogelin, "close analysis": corroborated this session** via publisher and
+  syllabus listings for *Understanding Arguments* 9th ed. (assuring/guarding/discounting in
+  ch. 3; a chapter titled "The Art of Close Analysis") and the Coursera course *Think Again I:
+  How to Understand Arguments* (coursera.org/learn/understanding-arguments, live). The book
+  itself is still unread; the lesson's source note says so.
+- **Quotation hygiene note:** lesson 7 no longer cites Govier, Copi or Hurley anywhere; the ARG
+  section is re-sourced to Johnson & Blair's ARS criteria via the SEP entry, with the ARG
+  lettering presented as this course's choice of letters for the same three conditions.

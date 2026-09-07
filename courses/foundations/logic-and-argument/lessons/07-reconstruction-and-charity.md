@@ -1,8 +1,8 @@
 ---
 title: "Reconstruction and charity: the strongest version first"
-minutes: 45
+minutes: 70
 objectives:
-  - Reconstruct an argument from a passage into standard form, supplying the missing premises in the form the arguer would accept and marking which premises are linked and which are convergent
+  - Mark the assuring, guarding, and discounting terms in a passage, and reconstruct its argument into standard form, supplying the missing premises in the form the arguer would accept and marking which premises are linked and which are convergent
   - Apply Toulmin's layout to an argument to find its warrant, qualifier, and rebuttal
   - Apply the principle of charity and Rapoport's rules to an argument you disagree with, and tell a steelman from a version nobody holds
   - Evaluate a reconstructed argument with the acceptability, relevance, and grounds conditions and say which condition an argument fails
@@ -15,14 +15,14 @@ quiz:
       - >-
         On the second premise, because "clearly" is a guarding term and guarded claims are where writers hide their doubts
       - >-
-        On the first premise, because "common knowledge" is an assuring term, and those sit where the writer had no evidence
+        On the first premise, because "common knowledge" is an assuring term, and those often sit where the writer has no evidence to hand
       - >-
         On the word "So", because it signals an inductive rather than a deductive link and the strength has not been stated
     answer: 2
     explain: >-
-      The phrase "it's common knowledge that" gives you no reason; it tells you a reason exists somewhere and asks you to move on. Van Cleave's advice is to treat assurances as somewhat suspect, and the practical version is to check that premise first, because the writer leaned on an assurance instead of evidence exactly where the evidence was thin. Option A skips the premises and goes straight to your opinion of the conclusion, which is step 6 of the check and not step 5. Option B has the terms backwards: "clearly" is assuring, not guarding, and guarded claims are usually the honest ones. Option D reads "so" as telling you the kind of link, which it doesn't.
+      The phrase "it's common knowledge that" gives you no reason; it tells you a reason exists somewhere and asks you to move on. Van Cleave's advice is to treat assurances as somewhat suspect, and the practical version is to check that premise first: an assurance isn't always dishonest, but it marks the one premise the writer chose not to argue for. Option A skips the premises and goes straight to your opinion of the conclusion, which is step 6 of the check and not step 5. Option B has the terms backwards: "clearly" is assuring, not guarding, and guarded claims are usually the honest ones. Option D reads "so" as telling you the kind of link, which it doesn't.
   - q: >-
-      Two arguments. First, "The flat is ten minutes from her office, it's under her budget, and it has a garden, so she should take it." Second, "The last train leaves at 22:10, and the trip takes fifty minutes, so she'll be home by 23:00." In each case the second premise turns out to be false. Which argument survives?
+      Two arguments. First, "The candidate has five years' experience, she interviewed well, and her references are glowing, so we should hire her." Second, "The ferry leaves at 9:00 and the crossing takes two hours, so we'll land by 11:00." In each case the second premise turns out to be false. Which argument survives?
     options:
       - >-
         The first survives, weakened, because its premises are convergent; the second collapses, because its premises are linked
@@ -34,35 +34,35 @@ quiz:
         Neither survives, because a false premise fails the acceptability condition and that failure applies to the whole argument
     answer: 0
     explain: >-
-      In the first argument each premise is a separate reason to take the flat; lose the budget point and the other two still stand, so the argument is weaker but alive. That is convergent support. In the second, the departure time and the trip time only give you an arrival time together; take either away and nothing follows, which is what linked support means. Option B makes the mistake of treating every argument as convergent. Option C confuses validity with survival; a valid argument with a false premise proves nothing. Option D applies the acceptability condition to the whole argument at once, when it has to be applied premise by premise and then read off the diagram.
+      In the first argument each premise is a separate reason to hire; lose the interview and the experience and references still stand, so the argument is weaker but alive. That is convergent support. In the second, the departure time and the crossing time only give you an arrival time together; take either away and nothing follows, which is what linked support means. Option B makes the mistake of treating every argument as convergent. Option C confuses validity with survival; a valid argument with a false premise proves nothing. Option D applies the acceptability condition to the whole argument at once, when it has to be applied premise by premise and then read off the diagram.
   - q: >-
-      "The bread has been on the counter since Tuesday, so it's probably stale by now." In Toulmin's layout, which of the following is the warrant?
+      "The car's been pulling to the left all week, so the tracking probably needs adjusting." In Toulmin's layout, which of the following is the warrant?
     options:
       - >-
-        The bread has been on the counter since Tuesday, since that is the fact the speaker starts from
+        The car has been pulling to the left all week, since that is the fact the speaker starts from
       - >-
-        Bread left out for several days generally goes stale, the rule that lets you move from the fact to the claim
+        A car that pulls to one side generally has its tracking out of alignment, the rule that lets you move from the fact to the claim
       - >-
         The word "probably", because it states how strongly the speaker is committed to the conclusion
       - >-
-        Unless it was in a sealed bag, the exception that would block the move if it turned out to be true
+        Unless a front tyre is soft, the exception that would block the move if it turned out to be true
     answer: 1
     explain: >-
       The warrant is the general step-licensing statement, the rule that takes you from the data to the claim. Nobody said it, which is why it's the thing to find. Option A is the data. Option C is the qualifier. Option D is a rebuttal, one of the exceptions that the warrant tolerates. The warrant here is the same thing lesson 1 called the missing premise, seen as a rule the speaker is relying on.
   - q: >-
-      Your colleague says, "The café's closed on Mondays, so let's go on Tuesday." You want to reconstruct the argument before you answer it. Which bracketed premise does the principle of charity tell you to add?
+      Your flatmate says, "The pharmacy shuts at six, so I'll go on my lunch break." You want to reconstruct the argument before you answer it. Which bracketed premise does the principle of charity tell you to add?
     options:
       - >-
-        "[Tuesday is the only day the café is open]", since that is the premise that makes the argument valid
+        "[Lunchtime is the only time the pharmacy is open]", since that is the premise that makes the argument valid
       - >-
-        "[Any day but Monday is the same to me]", since it gets to the conclusion in one step without extra assumptions
+        "[Errands are best done as early in the day as possible]", since it gets to the conclusion in one step
       - >-
-        "[The café is the only place worth going]", since without it the conclusion doesn't follow from the closure
+        "[The pharmacy is the only errand that matters today]", since without it the conclusion doesn't follow from the closing time
       - >-
-        "[Tuesday is the next day that suits us both]", since that's the premise your colleague would actually sign
+        "[I won't be able to get there after work before six]", since that's the premise your flatmate would actually sign
     answer: 3
     explain: >-
-      Charity means reconstructing the version the arguer would accept, and your colleague is plainly assuming that Tuesday is the next convenient day, not that Tuesday is the only day the café opens. Option A picks the premise that makes the argument valid, but nobody believes it, so refuting it refutes no one. Option B is not something your colleague said or needs. Option C adds a premise that makes the conclusion follow while making the arguer sound absurd, which is what a straw man looks like when it's built in brackets.
+      Charity means reconstructing the version the arguer would accept, and your flatmate is plainly assuming they can't make it after work, not that lunchtime is the only hour the pharmacy opens. Option A picks the premise that makes the argument valid, but nobody believes it, so refuting it refutes no one. Option B is a rule your flatmate never stated and doesn't need. Option C adds a premise that makes the conclusion follow while making the arguer sound absurd, which is what a straw man looks like when it's built in brackets.
   - q: >-
       You've reconstructed an argument and satisfied yourself that it's valid. Its first premise is one the arguer stated as if everyone knew it, and you find that a reasonable person in the arguer's audience would want evidence before accepting it. Which of the ARG conditions does the argument fail, and which does it pass?
     options:
@@ -97,13 +97,13 @@ Someone you know posts an argument you think is wrong. You read it once, fast, a
 
 This happens to careful people all the time, and it happens for a reason. An argument in the wild is a compressed thing. The premises are half-stated, the general rule that carries the step is left out, and the words around the reasons ("obviously", "probably", "although") are doing work that is easy to miss. Before you can test an argument you have to rebuild it, and the rebuilding is where most evaluations go wrong.
 
-This lesson is about rebuilding well. It fills in step 5 of the six-step check you've been carrying since lesson 1, and by the end you'll have the whole method: find the conclusion, find the premises, supply what's missing, test the link, test the premises, and only then consult your opinion of the conclusion. Everything in the lesson serves one rule: evaluate the strongest version of what the other person actually holds, because that's the only version worth refuting.
+This lesson is about rebuilding well. It fills in step 5 of the six-step check you've been carrying since lesson 1, and with it the method is complete: find the conclusion, find the premises, supply what's missing, test the link, test the premises, and only then consult your opinion of the conclusion. Everything in the lesson serves one rule: evaluate the strongest version of what the other person actually holds, because that's the only version worth refuting.
 
 ## Read the small words first
 
-Before you rewrite an argument, read it once for the words around the reasons. Walter Sinnott-Armstrong and Robert Fogelin call this close analysis, and it comes before the deep analysis of putting things in standard form.[5] Matthew Van Cleave, whose open textbook follows the same method, sorts the words into three kinds.[4]
+Before you rewrite an argument, read it once for the words around the reasons. Walter Sinnott-Armstrong and Robert Fogelin call this close analysis, and it comes before the deep analysis of putting things in standard form.[5] Matthew Van Cleave, whose open textbook follows the same method, sorts the words into three kinds in [section 1.10](https://human.libretexts.org/Bookshelves/Philosophy/Introduction_to_Logic_and_Critical_Thinking_2e_%28van_Cleave%29/01%3A_Reconstructing_and_Analyzing_Arguments/1.10%3A_Assuring_guarding_and_Discounting).[4]
 
-Assuring terms tell you that reasons exist without giving them. "Clearly", "obviously", "everyone agrees", "studies show", "I can assure you". Van Cleave's definition: assuring is "informing someone that there are further reasons although one is not giving them now."[4] One of his exercise sentences shows the shape: "Most pediatricians agree that the single most important factor in childhood obesity is eating sugary, processed foods."[4] Whether or not that's true, notice what the sentence gives you: not a study, not a number, but a report that agreement exists. Van Cleave's advice is that assurances aren't necessarily illegitimate, "but a critical thinker will always regard them as somewhat suspect."[4] The practical version is sharper. Writers reach for an assurance where they have no evidence to hand. So the premise under "obviously" is the one to check first.
+Assuring terms tell you that reasons exist without giving them. "Clearly", "obviously", "everyone agrees", "studies show", "I can assure you". Van Cleave's definition: assuring is "informing someone that there are further reasons although one is not giving them now."[4] One of his exercise sentences shows the shape: "Most pediatricians agree that the single most important factor in childhood obesity is eating sugary, processed foods."[4] Whether or not that's true, notice what the sentence gives you: not a study, not a number, but a report that agreement exists. Van Cleave's advice is that assurances aren't necessarily illegitimate, "but a critical thinker will always regard them as somewhat suspect."[4] The practical version is sharper. Writers often reach for an assurance exactly where they have no evidence to hand. So the premise under "obviously" is the one to check first.
 
 Guarding terms weaken a claim so it's harder to refute. "Probably", "in most cases", "some", "it may be that". Van Cleave: guarding is "weakening one's claims so that it is harder to show that the claims are false."[4] He gives a ladder: "All U.S. Presidents were monogamous" is a strong claim and easy to test; "Some U.S. Presidents were monogamous" is weak and nearly impossible to deny.[4] The thing to notice is that a guarded claim is usually the honest one. A writer who says "probably" is telling you exactly how far they'll go. Your job is to hold them to the guarded claim, not to the bold one you might have preferred to attack, and also not to let the conclusion quietly outrun the guard. "Probably stale" does not license "throw it away without looking."
 
@@ -129,14 +129,46 @@ Now suppose in each case that the second premise is false. The flat is over budg
 The flat argument survives, weaker. Two reasons remain: it's near work and it has a garden. The train argument is gone. A departure time on its own tells you nothing about an arrival time; it needed the trip time to say anything at all. The difference isn't in the number of premises. It's in how they support the conclusion.
 :::
 
-The flat argument has convergent premises: each one is a separate reason for the conclusion, and each would count for something on its own. The train argument has linked premises: they support the conclusion only together, and neither does anything alone. Trudy Govier makes the distinction in the second chapter of her *Practical Study of Argument*, and the Stanford Encyclopedia's entry on informal logic uses it as the basic move in argument diagramming: convergent premises are drawn as separate arrows into the conclusion, and linked premises are joined with a plus sign to show "that they support the argument's conclusion (only) when combined."[2][3]
+The flat argument has convergent premises: each one is a separate reason for the conclusion, and each would count for something on its own. The train argument has linked premises: they support the conclusion only together, and neither does anything alone. The [Stanford Encyclopedia's entry on informal logic](https://plato.stanford.edu/entries/logic-informal/) makes the distinction the basic move in argument diagramming: convergent premises are drawn as separate arrows into the conclusion, and linked premises are joined with a plus sign to show "that they support the argument's conclusion (only) when combined."[2] The drawing below does exactly that for the two arguments you just read. You've met the pure convergent case before, too: the conductive arguments of lesson 5, where independent reasons are weighed against counter-considerations, are convergent support with the other side of the ledger written in.
+
+<svg viewBox="0 0 584 268" role="img" aria-labelledby="linkconv-title" style="max-width:584px;height:auto;font-family:inherit">
+  <title id="linkconv-title">Two argument diagrams. Left, convergent: three premise boxes (near her office; under budget; has a garden) each send their own arrow into the conclusion "take the flat". Right, linked: two premise boxes (leaves at 22:10; trip takes 50 minutes) are joined with a plus sign and send one shared arrow into the conclusion "home by 23:00".</title>
+  <text x="8" y="22" font-size="15" font-weight="bold" fill="var(--oxblood, #8b1e2d)">Convergent: separate reasons</text>
+  <rect x="8" y="34" width="132" height="30" fill="var(--navy-soft, #e8eef6)" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
+  <text x="16" y="54" font-size="15" fill="var(--navy, #0f2a4a)">Near her office</text>
+  <rect x="8" y="74" width="132" height="30" fill="var(--navy-soft, #e8eef6)" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
+  <text x="16" y="94" font-size="15" fill="var(--navy, #0f2a4a)">Under budget</text>
+  <rect x="8" y="114" width="132" height="30" fill="var(--navy-soft, #e8eef6)" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
+  <text x="16" y="134" font-size="15" fill="var(--navy, #0f2a4a)">Has a garden</text>
+  <line x1="140" y1="49" x2="176" y2="82" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
+  <line x1="140" y1="89" x2="176" y2="89" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
+  <line x1="140" y1="129" x2="176" y2="96" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
+  <polygon points="176,84 184,89 176,94" fill="var(--navy, #0f2a4a)"/>
+  <rect x="184" y="74" width="112" height="30" fill="none" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
+  <text x="192" y="94" font-size="15" fill="var(--navy, #0f2a4a)">Take the flat</text>
+  <text x="8" y="188" font-size="15" font-weight="bold" fill="var(--oxblood, #8b1e2d)">Linked: reasons only together</text>
+  <rect x="8" y="200" width="132" height="30" fill="var(--navy-soft, #e8eef6)" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
+  <text x="16" y="220" font-size="15" fill="var(--navy, #0f2a4a)">Leaves at 22:10</text>
+  <text x="152" y="220" font-size="17" font-weight="bold" fill="var(--oxblood, #8b1e2d)">+</text>
+  <rect x="170" y="200" width="150" height="30" fill="var(--navy-soft, #e8eef6)" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
+  <text x="178" y="220" font-size="15" fill="var(--navy, #0f2a4a)">Trip takes 50 min</text>
+  <line x1="320" y1="215" x2="366" y2="215" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
+  <polygon points="366,210 374,215 366,220" fill="var(--navy, #0f2a4a)"/>
+  <rect x="374" y="200" width="140" height="30" fill="none" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
+  <text x="382" y="220" font-size="15" fill="var(--navy, #0f2a4a)">Home by 23:00</text>
+  <text x="326" y="54" font-size="15" fill="var(--text-2, #4a5260)">Lose one convergent premise:</text>
+  <text x="326" y="74" font-size="15" fill="var(--text-2, #4a5260)">two arrows still arrive. Lose one</text>
+  <text x="326" y="94" font-size="15" fill="var(--text-2, #4a5260)">linked premise: the shared</text>
+  <text x="326" y="114" font-size="15" fill="var(--text-2, #4a5260)">arrow never fires.</text>
+  <text x="8" y="258" font-size="15" fill="var(--text-2, #4a5260)">The flat and train arguments, drawn as the Stanford entry draws them.</text>
+</svg>
 
 The reason to tell them apart is that the whole point of evaluating premises one at a time (which is what step 5 does) is to know what happens to the argument when one of them fails. If the premises are linked, a single false premise sinks the conclusion. If they're convergent, a single false premise costs the argument one reason and leaves the rest. So a diagram is a prediction about damage. It tells you, before you've tested anything, which premises are load-bearing and which are extra weight.
 
 Most real arguments mix the two. The flat argument, written out fully, would probably have a linked pair hiding inside it: "it's under budget" only counts because "[she can't afford anything over budget]", and those two go together. You'll see a mixed case in the worked example below.
 
-:::checkpoint An argument has three premises and you've found that one of them is false. When does the argument survive?
-When the false premise is a convergent one, giving its own separate support that the other two don't depend on. Then the argument loses a reason and keeps the rest. If the false premise is linked to another, the pair fails together, and if it's linked to all the others, the argument is finished. So the question "does one false premise sink it?" has no answer until you've drawn the structure.
+:::checkpoint "The 8:05 gets in at 8:50, and the meeting's at 9:15 in the building opposite the station, so the 8:05 will do. Anyway, that meeting never starts on time." Draw the structure: which premises are linked, which convergent? And what's left if the 8:50 arrival turns out to be wrong?
+The arrival time and the meeting's time and place are linked: only together do they give you the twenty-five-minute margin, so join them with a plus. "That meeting never starts on time" is convergent: it's a separate reason the 8:05 will do, with its own arrow. If the train actually gets in at 9:10, the linked pair fails together, and the argument is left standing on the late-start premise alone, which is weaker support and guarded support at that. One false premise didn't sink it, but only because the structure had a second arrow.
 :::
 
 ## Toulmin's layout: the argument seen from the arguer's side
@@ -146,24 +178,59 @@ In lesson 1 you met Harry. "Harry was born in Bermuda, so Harry is a British sub
 Stephen Toulmin, in *The Uses of Argument* (1958), thought the premise-and-conclusion layout hid too much, and proposed six slots instead.[1] Laid out on Harry:
 
 - **Claim:** Harry is a British subject.
-- **Data** (later writers say grounds): Harry was born in Bermuda.
-- **Warrant:** a person born in Bermuda is generally a British subject. This is the rule that licenses the step from the data to the claim. Toulmin calls it "a general, step-authorizing statement."[1]
+- **Data** (Toulmin's later textbook with Rieke and Janik says grounds): Harry was born in Bermuda.
+- **Warrant:** "A man born in Bermuda will generally be a British subject." This is the rule that licenses the step from the data to the claim. "Propositions of this kind I shall call warrants", Toulmin writes; the later textbook's gloss is "a general, step-authorizing statement."[1][3]
 - **Backing:** the statutes and legal provisions on British nationality, which are why the warrant holds.
 - **Qualifier:** "presumably". The warrant says "generally", so the claim can only be made with that strength.
-- **Rebuttal:** "unless both his parents were aliens", or unless he has since changed nationality. The circumstances under which the warrant doesn't apply.[1]
+- **Rebuttal:** unless both his parents were aliens, or unless he has since become a naturalised American. The circumstances under which the warrant doesn't apply.[1]
+
+Here are the six slots drawn out. Lesson 1's drawing showed four of them; this is the whole machine.
+
+<svg viewBox="0 0 584 396" role="img" aria-labelledby="toulmin-full-title" style="max-width:584px;height:auto;font-family:inherit">
+  <title id="toulmin-full-title">Toulmin's full six-slot layout of the Harry argument. The data "Harry was born in Bermuda" leads by an arrow labelled with the qualifier "so, presumably" to the claim "Harry is a British subject". Under the arrow sits the warrant "A man born in Bermuda will generally be a British subject", and under the warrant its backing, the statutes on British nationality. Hanging from the claim is the rebuttal: unless both his parents were aliens, or he has since become a naturalised American.</title>
+  <text x="8" y="20" font-size="15" font-weight="bold" fill="var(--oxblood, #8b1e2d)">Data</text>
+  <rect x="8" y="28" width="182" height="56" fill="var(--navy-soft, #e8eef6)" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
+  <text x="16" y="52" font-size="15" fill="var(--navy, #0f2a4a)">Harry was born</text>
+  <text x="16" y="72" font-size="15" fill="var(--navy, #0f2a4a)">in Bermuda.</text>
+  <line x1="190" y1="56" x2="368" y2="56" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
+  <polygon points="368,51 376,56 368,61" fill="var(--navy, #0f2a4a)"/>
+  <text x="279" y="46" font-size="15" font-style="italic" fill="var(--oxblood, #8b1e2d)" text-anchor="middle">so, presumably</text>
+  <text x="272" y="20" font-size="15" font-weight="bold" fill="var(--oxblood, #8b1e2d)" text-anchor="middle">Qualifier</text>
+  <text x="376" y="20" font-size="15" font-weight="bold" fill="var(--oxblood, #8b1e2d)">Claim</text>
+  <rect x="376" y="28" width="182" height="56" fill="var(--navy-soft, #e8eef6)" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
+  <text x="384" y="52" font-size="15" fill="var(--navy, #0f2a4a)">Harry is a</text>
+  <text x="384" y="72" font-size="15" fill="var(--navy, #0f2a4a)">British subject.</text>
+  <line x1="279" y1="56" x2="279" y2="120" stroke="var(--navy, #0f2a4a)" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <text x="60" y="140" font-size="15" font-weight="bold" fill="var(--oxblood, #8b1e2d)">Warrant (the rule nobody said)</text>
+  <rect x="60" y="148" width="300" height="56" fill="none" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
+  <text x="68" y="172" font-size="15" fill="var(--navy, #0f2a4a)">A man born in Bermuda will</text>
+  <text x="68" y="192" font-size="15" fill="var(--navy, #0f2a4a)">generally be a British subject.</text>
+  <line x1="210" y1="204" x2="210" y2="240" stroke="var(--navy, #0f2a4a)" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <text x="60" y="260" font-size="15" font-weight="bold" fill="var(--oxblood, #8b1e2d)">Backing (why the rule holds)</text>
+  <rect x="60" y="268" width="300" height="56" fill="none" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
+  <text x="68" y="292" font-size="15" fill="var(--navy, #0f2a4a)">The statutes and legal provisions</text>
+  <text x="68" y="312" font-size="15" fill="var(--navy, #0f2a4a)">governing British nationality.</text>
+  <line x1="467" y1="84" x2="467" y2="240" stroke="var(--oxblood, #8b1e2d)" stroke-width="1.5" stroke-dasharray="4 3"/>
+  <text x="390" y="260" font-size="15" font-weight="bold" fill="var(--oxblood, #8b1e2d)">Rebuttal (unless...)</text>
+  <rect x="390" y="268" width="188" height="76" fill="none" stroke="var(--oxblood, #8b1e2d)" stroke-width="1.5"/>
+  <text x="398" y="290" font-size="15" fill="var(--navy, #0f2a4a)">both his parents were</text>
+  <text x="398" y="310" font-size="15" fill="var(--navy, #0f2a4a)">aliens, or he is now a</text>
+  <text x="398" y="330" font-size="15" fill="var(--navy, #0f2a4a)">naturalised American.</text>
+  <text x="8" y="384" font-size="15" fill="var(--text-2, #4a5260)">Toulmin's layout in full (1958, pp. 97 to 102). Wording from the 2003 edition.</text>
+</svg>
 
 Now write the same argument in the standard form you've been using since lesson 1:
 
 ```
 1. Harry was born in Bermuda.
-2. [A person born in Bermuda is generally a British subject.]
--------------------------------------------------------------
+2. [A man born in Bermuda will generally be a British subject.]
+---------------------------------------------------------------
 C: Harry is (presumably) a British subject.
 ```
 
 Look at what happened. The warrant is the bracketed premise. The two layouts are one argument viewed twice, so the second view has to earn its place.
 
-David Hitchcock, in a careful paper on Toulmin's warrants, gives the answer. A warrant is not a premise; it's an inference-licence, a rule the arguer is relying on rather than a fact they're asserting.[1] Seeing it as a rule does two things a premise list doesn't. First, a rule has a scope, so it invites the question "does this rule apply here?", which is the rebuttal slot. Second, rules belong to fields. Hitchcock stresses that warrants are field-dependent: the rule that licenses a step in law ("born in Bermuda, so a British subject") is nothing like the rule that licenses a step in medicine ("this test is positive, so probably this disease"), and a step that's fine in one field can be worthless in another.[1] When someone argues from a courtroom rule to a medical conclusion, the layout shows the mismatch at once.
+David Hitchcock, in [a careful paper on Toulmin's warrants](https://humanities.mcmaster.ca/~hitchckd/Toulminswarrants.pdf), gives the answer. "A warrant is an inference-licensing rule, not a premiss": a rule the arguer is relying on, not a fact they're asserting.[3] Seeing it as a rule does two things a premise list doesn't. First, a rule has a scope, so it invites the question "does this rule apply here?", which is the rebuttal slot. Second, rules can belong to fields. Toulmin held that warrants are field-dependent: the rule that licenses a step in law ("born in Bermuda, so a British subject") is nothing like the rule that licenses a step in medicine ("this test is positive, so probably this disease"), and a step that's fine in one field can be worthless in another.[3] When someone argues from a courtroom rule to a medical conclusion, the layout shows the mismatch at once. Hitchcock adds a caution that Toulmin's picture needs: plenty of everyday warrants belong to no organised field at all. They're rough generalisations from common experience, like the fifteen-year rule you're about to meet, and for those there's no professional body to check the rule against; there's only the work of writing it down and asking how far it reaches.[3]
 
 This is the reason the layout finds weaknesses a premise list hides. The rebuttal slot has to be filled. Writing "unless" and then stopping to think is how you find that Harry's parents might have been diplomats, that the bread might have been in a sealed bag, that the doctor might be a dermatologist being asked about a heart.
 
@@ -202,7 +269,34 @@ So the full reconstruction adds:
 
 5. [Replacing a boiler before it fails is cheaper, or less disruptive, than replacing it after.]
 
-with 1, 2 and 5 linked, and 3 and 4 convergent alongside them.
+with 1, 2 and 5 linked, and 3 and 4 convergent alongside them. Here's the diagram, and notice what it predicts before any premise has been tested: the chain on the left fails as one piece, while each arrow on the right stands or falls alone.
+
+<svg viewBox="0 0 584 288" role="img" aria-labelledby="boiler-diag-title" style="max-width:584px;height:auto;font-family:inherit">
+  <title id="boiler-diag-title">Diagram of the boiler argument. On the left, premises 1 (fourteen years old), 2 (the fifteen-year rule) and 5 (replace before it fails) are joined with plus signs and send one shared arrow to the conclusion "replace it this autumn". On the right, premises 3 (serviced twice this year) and 4 (pays for itself in gas) each send their own arrow to the same conclusion.</title>
+  <text x="8" y="20" font-size="15" font-weight="bold" fill="var(--oxblood, #8b1e2d)">Linked chain</text>
+  <rect x="8" y="28" width="200" height="30" fill="var(--navy-soft, #e8eef6)" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
+  <text x="16" y="48" font-size="15" fill="var(--navy, #0f2a4a)">1. Fourteen years old</text>
+  <text x="102" y="76" font-size="17" font-weight="bold" fill="var(--oxblood, #8b1e2d)" text-anchor="middle">+</text>
+  <rect x="8" y="84" width="200" height="30" fill="var(--navy-soft, #e8eef6)" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
+  <text x="16" y="104" font-size="15" fill="var(--navy, #0f2a4a)">2. The fifteen-year rule</text>
+  <text x="102" y="132" font-size="17" font-weight="bold" fill="var(--oxblood, #8b1e2d)" text-anchor="middle">+</text>
+  <rect x="8" y="140" width="200" height="30" fill="var(--navy-soft, #e8eef6)" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
+  <text x="16" y="160" font-size="15" fill="var(--navy, #0f2a4a)">5. [Replace before it fails]</text>
+  <line x1="108" y1="170" x2="108" y2="200" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
+  <line x1="108" y1="200" x2="216" y2="222" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
+  <polygon points="214,215 224,224 212,226" fill="var(--navy, #0f2a4a)"/>
+  <text x="330" y="20" font-size="15" font-weight="bold" fill="var(--oxblood, #8b1e2d)">Convergent reasons</text>
+  <rect x="330" y="28" width="230" height="30" fill="var(--navy-soft, #e8eef6)" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
+  <text x="338" y="48" font-size="15" fill="var(--navy, #0f2a4a)">3. Serviced twice this year</text>
+  <rect x="330" y="84" width="230" height="30" fill="var(--navy-soft, #e8eef6)" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
+  <text x="338" y="104" font-size="15" fill="var(--navy, #0f2a4a)">4. Pays for itself in gas</text>
+  <line x1="430" y1="58" x2="366" y2="212" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
+  <polygon points="372,208 362,220 362,206" fill="var(--navy, #0f2a4a)"/>
+  <line x1="420" y1="114" x2="376" y2="208" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
+  <rect x="200" y="216" width="230" height="30" fill="none" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
+  <text x="208" y="236" font-size="15" fill="var(--navy, #0f2a4a)">C. Replace it this autumn</text>
+  <text x="8" y="276" font-size="15" fill="var(--text-2, #4a5260)">The boiler argument's structure: one linked chain, two separate reasons.</text>
+</svg>
 
 **Now the evaluation**, which is the next section's subject, done here in preview. The link: this is an inductive argument (you can tell from the guards), and given the premises it's reasonably strong. The premises: 1 is a matter of record. 3 and 4 are guarded and plausible; a reasonable person would accept them provisionally and might ask to see the gas bills. Premise 2 is the problem. It's the one under "every engineer will tell you", and as stated it is almost certainly false: boilers don't have a fixed lifespan, and "don't last past fifteen" is the kind of round number people quote rather than measure. Weaken it to what an engineer might actually say ("older boilers fail more often and cost more to repair") and it still supports the intermediate conclusion, but only weakly, and premise 5 now carries more weight than the writer noticed.
 
@@ -216,11 +310,13 @@ That last case is the one people get wrong most. Take the café: "It's closed on
 
 So charity isn't politeness. It's accuracy about the object you're evaluating. A reconstruction that the arguer wouldn't sign is a wrong answer to the question "what is this person's argument?", in the same way that a wrong sum is a wrong answer, and the fact that it was uncharitable is just the way it went wrong.
 
+The name has a history worth a paragraph, because it says how deep the idea goes. "Principle of charity" was coined in 1959 by the philosopher Neil Wilson, and it entered philosophy not as advice about arguing but as a claim about understanding language at all. W. V. O. Quine picked it up for his theory of translation, and [Donald Davidson](https://plato.stanford.edu/entries/davidson/) made it central: on his account you cannot interpret another speaker in the first place except by reading them as mostly rational and mostly right, because a translation that makes someone spout nonsense is better evidence of a bad translation than of a nonsensical speaker.[7] The informal-logic tradition borrowed the name for the humbler job in this lesson, and the borrowing is apt. The uncharitable reconstruction fails the same way the uncharitable translation does: it tells you about the interpreter, not the speaker.
+
 Internet usage has a word for the charitable version: the steelman, by contrast with the straw man. It's a useful word with no canonical source; it appeared in the early 2010s and the older academic name is the principle of charity. Use either. But hold on to what it means. A steelman is the version the best defender of the view holds. It is not a version nobody holds. If you build a magnificent argument for a position and no one who holds the position would recognise it, you haven't steelmanned them; you've built your own argument and put their name on it, which is a straw man with better manners.
 
 ## Rapoport's rules
 
-The best-known statement of how to do this comes from the philosopher Daniel Dennett, in *Intuition Pumps and Other Tools for Thinking* (2013). He credits the game theorist Anatol Rapoport, and he presents the rules as the antidote to the habit of caricaturing an opponent. Under the heading "How to compose a successful critical commentary," Dennett writes:[6]
+The best-known statement of how to do this comes from the philosopher Daniel Dennett, in *Intuition Pumps and Other Tools for Thinking* (2013). He credits the social psychologist and game theorist Anatol Rapoport, and he presents the rules as the antidote to the habit of caricaturing an opponent. Under the heading "How to compose a successful critical commentary," Dennett writes:[6]
 
 1. "You should attempt to re-express your target's position so clearly, vividly, and fairly that your target says, 'Thanks, I wish I'd thought of putting it that way.'"
 2. "You should list any points of agreement (especially if they are not matters of general or widespread agreement)."
@@ -243,17 +339,17 @@ Rapoport's rules end with rebuttal. Restating a position fairly commits you to n
 
 ## Step 5: the acceptability, relevance, and grounds conditions
 
-You now have an argument reconstructed in the version its author would sign, diagrammed, with its warrant found. Time to test it. Lessons 2 through 6 gave you the tests for the link. Govier's ARG conditions add the tests for the premises and put the whole thing in one frame.[2] An argument is cogent, in her sense, if its premises are:
+You now have an argument reconstructed in the version its author would sign, diagrammed, with its warrant found. Time to test it. Lessons 2 through 6 gave you the tests for the link. The informal-logic tradition, following Ralph Johnson and Anthony Blair, adds the tests for the premises and puts the whole thing in one frame.[2] This course spells the three conditions ARG, for acceptable, relevant, grounds, and calls an argument cogent when its premises are:
 
-**(A) Acceptable.** A reasonable person in the arguer's audience could accept them without further argument. Govier spends a chapter on when that's so: when a premise is common knowledge, when it rests on testimony you have no reason to doubt, when it comes from an authority who is actually an authority on the point.[2] Note what acceptability is not. It isn't "I accept it", and it isn't "it's true". A premise can be true and unacceptable (it needs support the arguer hasn't given), and a premise can be acceptable and turn out false. The condition is about whether the arguer has earned the premise for this audience.
+**(A) Acceptable.** A reasonable person in the arguer's audience could accept them without further argument; the Stanford entry's compressed version is that premises are "acceptable when they are true or acceptable in some other way."[2] In practice, ask where the premise comes from. It can stand without more argument when it's common knowledge, when it rests on testimony you have no reason to doubt, or when it comes from an authority who is actually an authority on the point, and lesson 8 gives you six questions for that last case.[8] Note what acceptability is not. It isn't "I accept it", and it isn't "it's true". A premise can be true and unacceptable (it needs support the arguer hasn't given), and a premise can be acceptable and turn out false. The condition is about whether the arguer has earned the premise for this audience.
 
-**(R) Relevant.** Each premise gives some support to the conclusion. The Stanford entry's wording, following Ralph Johnson and Anthony Blair, is that premises are "relevant when they provide some (i.e. any) support for the conclusion."[3] That sounds like a low bar, and it is one, but it's the condition that real arguments fail most often and the hardest to show. When a premise is irrelevant, it usually feels relevant, because it's true and it's about the same subject. "He's been late three times this month" is relevant to whether he should keep his job and irrelevant to whether his budget figures are right, and the sentence carries no marker telling you which question is on the table.
+**(R) Relevant.** Each premise gives some support to the conclusion. The Stanford entry's wording is that premises are "relevant when they provide some (i.e. any) support for the conclusion of the argument."[2] That sounds like a low bar, and it is one, but it's the condition that real arguments fail most often and the hardest to show. When a premise is irrelevant, it usually feels relevant, because it's true and it's about the same subject. "He's been late three times this month" is relevant to whether he should keep his job and irrelevant to whether his budget figures are right, and the sentence carries no marker telling you which question is on the table.
 
 **(G) Adequate grounds.** The premises, taken together, give the conclusion enough support: the link is valid, if a deductive link was claimed, or strong enough, if an inductive one was. This is the test you already own. Lessons 2 to 4 are the grounds condition for deduction; lessons 5 and 6 are the grounds condition for induction, with the likelihood ratio as one way to say how much a premise supports a conclusion.
 
-Johnson and Blair's original version calls the third condition sufficiency, and the Stanford entry uses their letters, ARS.[3] Govier's "grounds" is the same idea, and the letters don't matter. What matters is that the three conditions are separate, so that an argument can fail exactly one and you can say which.
+Johnson and Blair's own name for the third condition is sufficiency, so you'll also see the letters ARS; a family of textbooks says "adequate grounds" instead, and this course keeps the G because it points back at the link tests you already own.[2] The letters don't matter. What matters is that the three conditions are separate, so that an argument can fail exactly one and you can say which.
 
-:::predict The boiler argument, or any argument, is valid. Can it still be a bad argument, and if so on which condition?
+:::predict Suppose you've shown an argument is valid. Can it still be a bad argument, and if so on which condition?
 Yes, and on either of the first two. A valid argument with a premise nobody has earned fails acceptability: the conclusion follows, but from something you have no reason to grant. And validity doesn't guarantee relevance in the sense that matters, because a valid argument can be built from premises that are true and about the wrong question. "All boilers eventually fail; this is a boiler; so it will eventually fail" is valid, has acceptable premises, and is irrelevant to whether we replace it this autumn. Grounds is the only condition validity settles.
 :::
 
@@ -297,24 +393,23 @@ This lesson completes the six-step check. Steps 1 to 3 came from lesson 1, and t
 
 Lesson 8 gives you the fallacy names. It comes after this one on purpose. A fallacy name is a hypothesis that an argument fails one of the ARG conditions, and you now have the tests that decide the hypothesis. Lesson 9 turns the method on the news, where the assuring terms come from sources and the missing premises come from editors. Lesson 10 turns Rapoport's rules round: you'll steelman your own opposition before you write, so that your argument has already met its best objection by the time a reader does.
 
-One thing this lesson didn't settle. The whole course evaluates arguments as products: a set of premises, a conclusion, a link, judged on their merits. That's the logical approach, and it isn't the only one. The Stanford entry on informal logic describes two others. Rhetoric "understands arguing as an attempt to persuade an audience", and dialectics "understands an argument as an attempt to make a move in an exchange between interlocutors with opposing points of view."[3] Each approach sees things the others miss: rhetoric explains why a valid argument can fail to move anyone, and dialectics explains why the same argument can be fair in one exchange and a foul in another. People who study argument for a living disagree about which approach is basic, and some try to combine them. This course picks the logical one because it's the one a single reader can run alone on a page. If you go further, you'll meet the other two, and the "Go deeper" list points at the map.
+One thing this lesson didn't settle. The whole course evaluates arguments as products: a set of premises, a conclusion, a link, judged on their merits. That's the logical approach, and it isn't the only one. The Stanford entry on informal logic describes two others. Rhetoric "understands arguing as an attempt to persuade an audience", and dialectics "understands an argument as an attempt to make a move in an exchange between interlocutors with opposing points of view."[2] Each approach sees things the others miss: rhetoric explains why a valid argument can fail to move anyone, and dialectics explains why the same argument can be fair in one exchange and a foul in another. People who study argument for a living disagree about which approach is basic, and some try to combine them. This course picks the logical one because it's the one a single reader can run alone on a page. If you go further, you'll meet the other two, and the "Go deeper" list points at the map.
 
 ## Go deeper
 
-- Trudy Govier, *A Practical Study of Argument*, 7th ed. (Cengage, 2013), chapters 2 and 4 to 6. Chapter 2 is the fullest treatment of linked and convergent support and diagramming; chapters 4 to 6 are the ARG conditions, with chapter 5 on when to accept a premise and chapter 6 on relevance, which is the condition this lesson could only sketch.
+- [*Think Again I: How to Understand Arguments*](https://www.coursera.org/learn/understanding-arguments) (Duke, Coursera, free to audit), Walter Sinnott-Armstrong and Ram Neta. The video companion to this lesson: close analysis and deep analysis, taught by the people who named them, with graded practice passages.
 - Daniel Dennett, *Intuition Pumps and Other Tools for Thinking* (Norton, 2013), chapter 3, "Rapoport's Rules". Three pages, and the surrounding chapters are short essays on other thinking tools, several of which belong in this course.
-- Matthew Van Cleave, *Introduction to Logic and Critical Thinking*, 2nd ed. (open textbook, CC BY 4.0), chapter 1, sections 1.9 to 1.12, free on LibreTexts and the Open Textbook Library. Missing premises, the assuring/guarding/discounting toolkit, and a full reconstruction of a real speech, longer than anything here.
-- David Hitchcock, "Toulmin's Warrants", in *Anyone Who Has a View* (Kluwer, 2003; from the ISSA 2002 proceedings). The paper this lesson's account of the warrant comes from; it's the clearest statement of why a warrant is a licence and not a premise.
-- The Stanford Encyclopedia of Philosophy, "Informal Logic" (Leo Groarke), sections 3 to 5. Diagramming, the ARS criteria, and the map of the logical, dialectical, and rhetorical approaches, for readers who want to know what this course chose not to do.
+- Matthew Van Cleave, *Introduction to Logic and Critical Thinking*, 2nd ed. (open textbook, CC BY 4.0), chapter 1, [sections 1.9 to 1.12 on LibreTexts](https://human.libretexts.org/Bookshelves/Philosophy/Introduction_to_Logic_and_Critical_Thinking_2e_%28van_Cleave%29/01%3A_Reconstructing_and_Analyzing_Arguments). Missing premises, the assuring/guarding/discounting toolkit, and a full reconstruction of a real speech, longer than anything here.
+- David Hitchcock, ["Toulmin's Warrants"](https://humanities.mcmaster.ca/~hitchckd/Toulminswarrants.pdf), in *Anyone Who Has a View* (Kluwer, 2003; from the ISSA 2002 proceedings). The paper this lesson's account of the warrant comes from; it's the clearest statement of why a warrant is a licence and not a premise, and it says where Toulmin's field idea holds and where it doesn't.
+- The Stanford Encyclopedia of Philosophy, ["Informal Logic"](https://plato.stanford.edu/entries/logic-informal/) (Leo Groarke), sections 3 to 5. Diagramming, the ARS criteria, and the map of the logical, dialectical, and rhetorical approaches, for readers who want to know what this course chose not to do.
 
 ## Sources
 
-1. Toulmin, S., *The Uses of Argument* (Cambridge University Press, 1958; updated ed. 2003), pp. 97 to 102, as reported in Hitchcock, D., "Toulmin's Warrants", ISSA 2002 / in *Anyone Who Has a View* (2003). The six-slot layout on the Harry example (claim, data, warrant, backing, qualifier, rebuttal); Toulmin's phrase "a general, step-authorizing statement" for the warrant (1958, pp. 98 to 100, via Hitchcock); Hitchcock's points that a warrant is an inference-licence rather than a premise and that warrants are field-dependent.
-2. Govier, T., *A Practical Study of Argument*, 7th ed. (Cengage, 2013), ch. 2 (linked versus convergent support, diagramming, missing premises), ch. 4 (the ARG conditions: acceptable premises, relevant to the conclusion, providing adequate grounds), ch. 5 (when to accept a premise: common knowledge, testimony, authority), ch. 6 (relevance).
-3. Groarke, L., "Informal Logic", *Stanford Encyclopedia of Philosophy*, sec. 3.2 (convergent premises as separate reasons; linked premises joined with a plus sign to show "that they support the argument's conclusion (only) when combined"), sec. 4.1 (following Johnson and Blair 1977, 1994, the ARS criteria: premises are "relevant when they provide some (i.e. any) support for the conclusion" and sufficient when they provide enough to warrant acceptance), and sec. 5 (logic treats an argument as an attempt to justify a conclusion; rhetoric "understands arguing as an attempt to persuade an audience"; dialectics "understands an argument as an attempt to make a move in an exchange between interlocutors with opposing points of view"). Read at draft time.
-4. Van Cleave, M. J., *Introduction to Logic and Critical Thinking*, 2nd ed., CC BY 4.0, ch. 1 sec. 1.10 "Assuring, guarding, and discounting" (LibreTexts). Definitions: assuring is "informing someone that there are further reasons although one is not giving them now"; guarding is "weakening one's claims so that it is harder to show that the claims are false"; discounting is "anticipating objections that might be raised to one's claim or argument as a way of dismissing those objections". The presidents ladder of strong to weak claims; the example "The worker was inefficient, but honest"; the list of discounting terms; the remark that assurances "are not necessarily illegitimate ... but a critical thinker will always regard them as somewhat suspect"; exercise sentence 4 (pediatricians and childhood obesity). Read at draft time.
-5. Sinnott-Armstrong, W. & Fogelin, R., *Understanding Arguments: An Introduction to Informal Logic*, 9th ed. (Cengage, 2015). The origin of "close analysis" (assuring, guarding, discounting terms) before "deep analysis" (reconstruction in standard form); used here through Van Cleave, who follows the same method, and the Duke *Think Again* course.
-6. Dennett, D. C., *Intuition Pumps and Other Tools for Thinking* (W. W. Norton, 2013), ch. 3 "Rapoport's Rules", p. 33. The heading "How to compose a successful critical commentary" and the four rules quoted verbatim; Dennett's attribution to the game theorist Anatol Rapoport; the rules as an antidote to caricaturing one's opponent; and the stated reason that they make the opponent a more receptive audience. Wording verified at draft time against a published verbatim excerpt of the passage (The Marginalian, 28 March 2014), not against the printed book.
-7. Copi, I. M., Cohen, C. & McMahon, K., *Introduction to Logic*, 14th ed. (Pearson, 2011), ch. 2 "Analyzing Arguments". Enthymemes and the practice of supplying the premise the arguer would accept.
+1. Toulmin, S., *The Uses of Argument* (Cambridge University Press, 1958; updated ed. 2003), pp. 97 to 102 in the 1958 edition. The six-slot layout on the Harry example (claim, data, warrant, backing, qualifier, rebuttal); "Propositions of this kind I shall call warrants" (1958, p. 98, quoted by Hitchcock, source 3). The warrant and rebuttal wording here is the 2003 edition's, as read and recorded for lesson 1 (warrant p. 94 and p. 97; rebuttal p. 97). "Data" is the 1958 term; "grounds" is the term of Toulmin, Rieke & Janik, *An Introduction to Reasoning* (1984, p. 38, via Hitchcock), whose gloss "Such a general, step-authorizing statement is called a warrant" (1984, pp. 46 to 47, via Hitchcock) is quoted in the warrant bullet. That gloss is often misattributed to the 1958 book; Hitchcock's own quotation marks the difference, and this lesson follows him.
+2. Groarke, L., ["Informal Logic"](https://plato.stanford.edu/entries/logic-informal/), *Stanford Encyclopedia of Philosophy*, sec. 3.2 (convergent premises as separate reasons; linked premises joined with a plus sign to show "that they support the argument's conclusion (only) when combined"), sec. 4.1 (following Johnson and Blair 1977, 1994, the ARS criteria: premises are "acceptable when they are true or acceptable in some other way", "relevant when they provide some (i.e. any) support for the conclusion of the argument", and sufficient when they provide enough to warrant acceptance), and sec. 5 (logic treats an argument as an attempt to justify a conclusion; rhetoric "understands arguing as an attempt to persuade an audience"; dialectics "understands an argument as an attempt to make a move in an exchange between interlocutors with opposing points of view"). Every quotation re-verified against the live entry at review time. The ARG lettering (grounds for the third condition) is a textbook variant of Johnson and Blair's ARS; the course uses it for the reason given in the text.
+3. Hitchcock, D., ["Toulmin's Warrants"](https://humanities.mcmaster.ca/~hitchckd/Toulminswarrants.pdf), in van Eemeren, Blair, Willard & Snoeck Henkemans (eds.), *Anyone Who Has a View* (Kluwer, 2003), pp. 69 to 82; read in full at review time. "A warrant is an inference-licensing rule, not a premiss"; the 1958 and 1984 page references for the Harry example; Toulmin's field-dependency thesis and Hitchcock's qualification of it ("Some warrants belong to specialized fields, but some are just generalizations, more or less rough-and-ready, based on common experience").
+4. Van Cleave, M. J., *Introduction to Logic and Critical Thinking*, 2nd ed., CC BY 4.0, ch. 1 [sec. 1.10 "Assuring, guarding, and discounting"](https://human.libretexts.org/Bookshelves/Philosophy/Introduction_to_Logic_and_Critical_Thinking_2e_%28van_Cleave%29/01%3A_Reconstructing_and_Analyzing_Arguments/1.10%3A_Assuring_guarding_and_Discounting) (LibreTexts). Definitions: assuring is "informing someone that there are further reasons although one is not giving them now"; guarding is "weakening one's claims so that it is harder to show that the claims are false"; discounting is "anticipating objections that might be raised to one's claim or argument as a way of dismissing those objections". The presidents ladder of strong to weak claims; the example "The worker was inefficient, but honest"; the list of discounting terms; the remark that assurances "are not necessarily illegitimate ... but a critical thinker will always regard them as somewhat suspect"; exercise sentence 4 (pediatricians and childhood obesity). All quotations re-verified against the live page at review time.
+5. Sinnott-Armstrong, W. & Fogelin, R., *Understanding Arguments: An Introduction to Informal Logic*, 9th ed. (Cengage, 2015), ch. 3 (assuring, guarding, discounting) and the chapter "The Art of Close Analysis". The origin of "close analysis" before "deep analysis" (reconstruction in standard form); used here through Van Cleave, who follows the same method, and the Duke *Think Again* course, not read directly.
+6. Dennett, D. C., *Intuition Pumps and Other Tools for Thinking* (W. W. Norton, 2013), ch. 3 "Rapoport's Rules", p. 33. The heading "How to compose a successful critical commentary" and the four rules quoted verbatim; Dennett's description of Rapoport as a social psychologist and game theorist; the rules as an antidote to caricaturing one's opponent; and the stated reason that they make the opponent a more receptive audience. Wording verified against [a published verbatim excerpt of the passage](https://www.themarginalian.org/2014/03/28/daniel-dennett-rapoport-rules-criticism/) (The Marginalian, 28 March 2014), re-checked at review time; the printed page itself has not been seen, so the page number is from publisher and library records.
+7. Malpas, J., ["Donald Davidson"](https://plato.stanford.edu/entries/davidson/), *Stanford Encyclopedia of Philosophy*, sec. 3.3, read at review time: in Davidson's work the principle of charity "counsels us to interpret speakers as holding true beliefs (true by our lights at least) wherever it is plausible to do", and "a version of which is also to be found in Quine". The coining of the phrase by N. L. Wilson ("Substances without Substrata", *Review of Metaphysics*, 1959) is the standard attribution, acknowledged in Quine's own footnotes in *Word and Object*; Wilson's paper itself was not read, and the lesson claims nothing from it beyond the name and date.
 8. CSUN, PHIL 200 Critical Reasoning syllabus (Weimin Sun, Fall 2011). Lists evaluating sources of belief (media, experts, personal experience) as a core objective; the background for treating acceptability as a question about where a premise comes from.
-9. Hurley, P. J., *A Concise Introduction to Logic*, 13th ed. (Cengage, 2018), ch. 1. Valid/invalid and strong/weak as the two kinds of link, which is what the grounds condition tests.
