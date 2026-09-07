@@ -54,10 +54,15 @@ parallel sessions is the ceiling. A platform session must not touch `courses/` o
    media pass (2b) is COMPLETE on all eight lessons 2026-09-06** (Dewald correlations drawn
    at actual size on the full −1..1 scale, Oakley's TEDx talk, ten verified links incl. the
    Why We Sleep critique). Next for this course: (c), podcasts, one episode per session via
-   /make-podcast, **next up lesson 2**. **Lesson 1's episode is LIVE 2026-09-06** (commit
-   `80a219a`): script fact-checked fresh-context (PASS WITH NITS, both fixed), rendered for
-   $0.29, 5m40s, on R2, stamped into the lesson, player verified in both themes at both
-   widths. Lessons 2 to 8 remain.
+   /make-podcast. **Episodes 1 and 2 are LIVE 2026-09-06** (commits `80a219a`, `112a5e9`):
+   scripts fact-checked fresh-context, rendered ~$0.30 each, on R2, stamped, episode 1's
+   player verified in both themes at both widths. **Episodes 3 to 8: scripts are WRITTEN,
+   fact-checked (each in a fresh-context subagent, all findings fixed), and stamped
+   `checked:`, sitting in `podcast/`. BLOCKED on money only: fal returned "User is locked.
+   Reason: Exhausted balance" mid-render on episode 3. John tops up at
+   fal.ai/dashboard/billing (the six renders cost $1.74 total), then per episode:
+   `node scripts/podcast.mjs render <lesson> --go`, `upload`, `stamp`, validate, build,
+   commit. No script work remains.**
    (c) Podcast each lesson as it settles.
 3. **The four placeholder courses** (Python, Algebra, Personal Finance, Writing Clearly), which
    are live and have never been through the pipeline. For each, in this order: run Stage 1
