@@ -1,6 +1,7 @@
 ---
 title: How memory actually works
 minutes: 40
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/learning-and-mind/how-to-learn-anything/02-how-memory-works.mp3
 objectives:
   - Explain why the limits of working memory make a novice and an expert see different things in the same material
   - Apply the idea of chunking to a subject you are learning, by listing the chunks on a page and marking which ones you already own
