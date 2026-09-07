@@ -1,6 +1,9 @@
 # Sources: Logic and Argument
 
-<!-- unread: Hurley, Copi, Govier, Weston -->
+<!-- unread: Hurley, Copi, Govier, Weston (except 09) -->
+<!-- Weston is exempt in lesson 09 only: chapter IV, rules 13 to 17, was read from the
+     5th-edition PDF and is recorded in full below, and lesson 09 cites nothing else from him.
+     Chapters I and VI to VIII are still unread, which is why lesson 10 is still flagged. -->
 
 *The line above is read by `scripts/build.mjs`. It names works this course has **not** actually
 opened, and the linter flags any lesson that cites one. Hurley is recorded below as "confirmed

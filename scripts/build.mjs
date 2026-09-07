@@ -164,11 +164,21 @@ function lintLessons() {
       // `<!-- unread: Hurley, Copi -->` in research/SOURCES.md names works the course has
       // NOT read. Keeping the list beside the research is the point: whoever decides a book
       // is unread is the person writing the research file.
+      //
+      // A work can be partly read, which is the common case once someone starts closing the
+      // debt: Weston's chapter IV was read and recorded here while chapters I and VI to VIII
+      // were not, so lesson 9 cites it honestly and lesson 10 does not. An entry may name the
+      // lessons it does not apply to, `Weston (except 09)`, so the flag keeps firing where the
+      // citation is still unsupported. The exemption belongs in SOURCES.md beside the entry
+      // that records which chapter was read; anywhere else and the two drift apart.
       let unreadWorks = [];
       try {
         const sm = fs.readFileSync(path.join(COURSES_DIR, school.name, cdir.name, "research", "SOURCES.md"), "utf8");
         const m = sm.match(/<!--\s*unread:\s*([^>]*?)\s*-->/i);
-        if (m) unreadWorks = m[1].split(",").map(x => x.trim()).filter(Boolean);
+        if (m) unreadWorks = m[1].split(",").map(x => x.trim()).filter(Boolean).map(entry => {
+          const e = entry.match(/^(.*?)\s*\(\s*except\s+([^)]*)\)$/i);
+          return e ? { name: e[1].trim(), except: e[2].split(/[,\s]+/).filter(Boolean) } : { name: entry, except: [] };
+        });
       } catch {}
       for (const f of fs.readdirSync(lessonsDir).filter(f => f.endsWith(".md"))) {
         const file = path.relative(ROOT, path.join(lessonsDir, f));
@@ -348,10 +358,12 @@ function lintLessons() {
         // to find that a fourth time. SOURCES.md declares the unread works in one machine
         // readable line, `<!-- unread: Hurley, Copi -->`, and citing one here is a defect.
         if (unreadWorks.length) {
-          const hits = unreadWorks.filter(w => new RegExp(`\\b${w.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\b`).test(src));
-          for (const w of hits) {
-            const n = (src.match(new RegExp(`\\b${w.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\b`, "g")) || []).length;
-            fail(`${file}: cites ${w} ${n} time(s), but this course's research/SOURCES.md lists ${w} as not actually read. Read it and record it, or re-source the claim. See the "unread:" line in SOURCES.md.`);
+          const lessonId = f.replace(/\.md$/, "");
+          for (const w of unreadWorks) {
+            if (w.except.some(x => lessonId === x || lessonId.startsWith(x + "-"))) continue;
+            const re = new RegExp(`\\b${w.name.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}\\b`, "g");
+            const n = (src.match(re) || []).length;
+            if (n) fail(`${file}: cites ${w.name} ${n} time(s), but this course's research/SOURCES.md lists ${w.name} as not actually read. Read it and record it, or re-source the claim. See the "unread:" line in SOURCES.md.`);
           }
         }
 
