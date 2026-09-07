@@ -1,13 +1,13 @@
 ---
 title: Valid, sound, and why your opinion of the conclusion gets in the way
-minutes: 40
+minutes: 70
 objectives:
   - Explain validity as the absence of any possible case in which the premises are true and the conclusion false
-  - Construct a counterexample that shows an argument is invalid by keeping its shape and swapping its content
+  - Show an argument is invalid by giving a counterexample, a possible case with true premises and a false conclusion, found directly or by swapping in parallel content
   - Compare valid and invalid arguments with true and false premises, and identify the one combination that cannot occur
   - Predict how belief bias will affect a judgement of validity, and apply the fix of testing the link before consulting your opinion
 quiz:
-  - q: A friend argues, "Every time the café's card machine has gone down, the wifi was down too. The wifi is down right now. So the card machine is down." The wifi really is down. Which verdict is right?
+  - q: A friend argues, "Every time the café's card machine has gone down, the wifi was down too. The wifi is down right now. So the card machine is down." The wifi really is down. Which option gets both the verdict and the reason right?
     options:
       - Valid, because the first premise links the two failures and the second premise reports the wifi failure
       - Invalid, because the wifi can be down for reasons that leave the card machine working fine
@@ -25,36 +25,36 @@ quiz:
     explain: Validity means there is no possible case with all premises true and the conclusion false. If the conclusion is false and the form is valid, the actual case must have at least one false premise, otherwise it would be exactly the case validity rules out. That is option C. Option A describes the one cell of the table that cannot occur. Option B goes too far; one false premise is enough, and the others may be true. Option D confuses validity with irrelevance; a valid argument's premises are precisely the ones that bear on the conclusion.
   - q: Which of these arguments is sound?
     options:
-      - All planets orbit a star. The Moon orbits a star. So the Moon is a planet.
-      - All reptiles are warm-blooded. All snakes are reptiles. So all snakes are warm-blooded.
-      - Some birds can fly. All penguins are birds. So some penguins can fly.
-      - All whales are mammals. All mammals breathe air. So all whales breathe air.
+      - All prime numbers bigger than two are odd. Twenty-seven is odd. So twenty-seven is prime.
+      - All metals conduct electricity. Copper conducts electricity. So copper is a metal.
+      - All spiders are insects. All insects have six legs. So all spiders have six legs.
+      - All triangles have three sides. All shapes with exactly three sides have three angles. So all triangles have three angles.
     answer: 3
-    explain: Sound means valid with all premises true. Option D has a valid shape (all A are B, all B are C, so all A are C) and two true premises, so it is sound and its conclusion is guaranteed. Option A has true premises and a true-sounding conclusion, but the shape is invalid; the Moon orbits a star by orbiting Earth, and the argument's form would also make every comet a planet. Option B is valid but has a false first premise, so it is unsound, and its conclusion happens to be false too. Option C is invalid; "some birds" leaves room for penguins to be among the birds that cannot fly, which is in fact where they are.
-  - q: Two arguments have exactly the same shape and are both invalid. One concludes "some expensive restaurants are not good", the other concludes "some good restaurants are not expensive". From what Evans, Barston and Pollard found, what should you expect if you showed both to a room of students and asked whether the conclusion follows?
+    explain: Sound means valid with all premises true, so check both things. Option D has a valid shape (all A are B, all B are C, so all A are C) and two true premises, so it is sound and its conclusion is guaranteed. Option B has true premises and a true conclusion, but the shape is invalid; conducting electricity doesn't make something a metal, and the same form would prove that salt water is a metal. Option C has the valid shape, but its first premise is false, spiders aren't insects, so it is unsound, and here the conclusion comes out false too. Option A is invalid; being odd is something all those primes share, not something only primes have, and twenty-seven is three times nine. True premises alone or a true conclusion alone settle nothing; soundness needs the link and the premises together.
+  - q: A psychology class replicates the 1983 design with two invalid arguments that share one shape. One concludes "some fast food is high in salt", which the students already believe. The other concludes "some fresh fruit is high in salt", which they don't. Neither conclusion follows from its premises. What does the belief-bias result predict?
     options:
-      - Roughly equal acceptance of both, because students told to judge logic will mostly ignore what the conclusion says
-      - Far higher acceptance of the second, whose conclusion most people already believe, though the reasoning is no better
-      - Far higher acceptance of the first, because a conclusion that sounds critical of something prompts closer checking
-      - Low acceptance of both, because an invalid shape is easy to spot once two versions are placed side by side
-    answer: 1
-    explain: This is the belief-bias pattern applied to new content. Same shape, same flaw, different conclusion; the version whose conclusion people already agree with gets accepted far more often, which is option B. In Evans's own materials the gap on invalid arguments was 71% against 10%. Option A is what the instructions ask for and what people fail to do. Option C has the direction backwards; a believable conclusion gets less scrutiny, not more. Option D assumes side-by-side presentation fixes it; in the studies each argument was judged on its own, and even where people see the shape they tend to accept the version they like.
+      - Far more students accept the fast-food argument, though the reasoning in both is equally broken
+      - Roughly equal, low acceptance of both, because the instructions tell students to judge only whether the conclusion follows
+      - Far more students accept the fruit argument, because a surprising conclusion pulls attention onto the argument, and attention leads to acceptance
+      - Roughly equal, high acceptance of both, because the two arguments share one shape and the shape is what people actually judge
+    answer: 0
+    explain: Same shape, same flaw, different conclusion; the version whose conclusion people already believe gets accepted far more often, which is option A. In the 1983 data, invalid arguments with believable conclusions were accepted 71% of the time, and invalid arguments with unbelievable conclusions 10% of the time. Option B is what the instructions ask for, and it is exactly what people fail to do; the 1983 subjects had those instructions in writing. Option C gets one thing right, an unbelievable conclusion does trigger closer checking, but closer checking of an invalid argument finds the flaw, so acceptance falls rather than rises. Option D assumes people judge the skeleton; the whole result is that belief in the conclusion, not the shared shape, drives the verdict.
   - q: Which of these is a deductive argument, in the sense this lesson uses?
     options:
-      - The last forty winters here have brought snow, so this winter will almost certainly bring snow too
-      - Every car I have owned from that maker broke down within a year, so their cars are probably unreliable
-      - Ana and Ben are the only two people in the choir, Ana is forty and Ben is forty, so every member of the choir is forty
-      - Most of the shops on this street close at five, so the bakery on the corner is probably shut by now
+      - The kettle has boiled every time I've flicked this switch for a year, so flicking the switch is what boils the kettle
+      - Nine of the ten reviews of that restaurant are five stars, so the food is probably good
+      - My street has four houses, and each of the four sold this year for more than the asking price, so every house on my street sold this year for more than the asking price
+      - It has rained on this town's carnival for ten years straight, so it will almost certainly rain on this year's too
     answer: 2
-    explain: Deductive and inductive differ in what the premises are claimed to do, not in the direction of travel. Option C moves from two particular facts to a general claim, and yet it is deductive; if Ana and Ben are the whole choir and each is forty, the conclusion cannot be false. Options A, B and D each move from evidence to a conclusion that is only made probable, and each says so with "almost certainly" or "probably"; new evidence could weaken any of them. The general-to-particular rule would have labelled option C inductive and got it wrong.
+    explain: The test is what the premises are claimed to do, not the direction of travel. Option C moves from four particular sales to a general claim about the whole street, and yet it is deductive; if those four houses are all the houses and each sold over asking, the conclusion cannot be false. Options B and D offer their conclusions as merely probable, and say so, which is induction's signature; new evidence could weaken either. Option A carries no "probably", but it is inductive all the same; a year of pairings makes the causal claim likely, not guaranteed, since something else could be boiling the kettle. The general-to-particular rule would have called option C inductive and got it exactly wrong.
   - q: You want to show that "All A are B; all C are B; so all A are C" is invalid. Which substitution does the job?
     options:
-      - A = dogs, B = mammals, C = cats, so "all dogs are mammals, all cats are mammals, so all dogs are cats"
-      - A = squares, B = rectangles, C = rectangles, so "all squares are rectangles, all rectangles are rectangles, so all squares are rectangles"
-      - A = dogs, B = animals, C = dogs, so "all dogs are animals, all dogs are animals, so all dogs are dogs"
-      - A = kittens, B = mammals, C = cats, so "all kittens are mammals, all cats are mammals, so all kittens are cats"
-    answer: 0
-    explain: A counterexample keeps the shape and makes both premises plainly true and the conclusion plainly false. Option A does exactly that; both premises are true and no dog is a cat, so the shape is shown to fail. Option B makes the conclusion true, so it shows nothing about the shape. Option C also ends in a true conclusion, and makes two of the letters the same thing, which is allowed but useless here. Option D has true premises and a true conclusion, since kittens are cats; a substitution that leaves the conclusion true is a failed attempt, not evidence of validity and not a counterexample.
+      - A = tulips, B = flowers, C = tulips, giving "all tulips are flowers, all tulips are flowers, so all tulips are tulips"
+      - A = roses, B = plants, C = oaks, giving "all roses are plants, all oaks are plants, so all roses are oaks"
+      - A = carrots, B = vegetables, C = root vegetables, giving "all carrots are vegetables, all root vegetables are vegetables, so all carrots are root vegetables"
+      - A = daisies, B = flowers, C = plants, giving "all daisies are flowers, all plants are flowers, so all daisies are plants"
+    answer: 1
+    explain: A counterexample needs both premises plainly true and the conclusion plainly false, because that parallel argument is the possible case the shape was supposed to rule out. Option B delivers it; roses and oaks are both plants, and no rose is an oak, so the shape is shown to fail. Option A makes the conclusion trivially true, so it shows nothing. Option C is a failed attempt, not evidence of validity; both premises are true, but the conclusion is also true, since carrots are root vegetables, so the gap stays hidden. Option D has a false second premise, most plants are not flowers, and a substitution with a false premise cannot build the true-premises, false-conclusion case you need.
 ---
 
 Here's an argument you could have heard from a neighbour this week. Every flat in this building that's had damp has had its windows painted shut. Your windows are painted shut. So you're going to get damp.
@@ -102,6 +102,8 @@ C: All whales breathe air.
 Two true premises, a true conclusion, and the same valid argument. The letters underneath are identical: all A are B, all C are A, so all C are B. What made the first argument valid wasn't anything about fish. It was the shape, and the shape is shared.
 
 This is the mechanism behind the counterexample method. A valid form is a shape that can't take you from truth to falsehood, whatever you pour into it. So to test a shape, you keep it and pour in content that makes the premises obviously true and the conclusion obviously false. If you can, the shape doesn't guarantee anything, and neither did the argument you started with. If every attempt fails because the conclusion keeps coming out true, you're starting to see why the shape holds.
+
+One piece of housekeeping before you use this, because the words matter. A counterexample, as defined above, is a possible case: a way things could be in which every premise is true and the conclusion is false. The swap is a technique for finding one. When you pour cats and dogs into a shape, you build a parallel argument whose premises are actually true and whose conclusion is actually false, and the real world is then exactly the case the shape was supposed to rule out. Logicians call this move refutation by logical analogy. Two routes, one target: sometimes you can describe the case directly (the flat next door has painted-shut windows and a bone-dry wall), and sometimes belief gets in the way and swapping the content is how you see past it. Either way, what you produce is a counterexample in the one sense this course uses: a possible case with true premises and a false conclusion.
 
 Try it on the damp argument from the opening. Its shape is: all A are B (every damp flat has painted-shut windows); this C is B (your flat has painted-shut windows); so this C is A (your flat is damp). The cat-and-dog version made the premises true and the conclusion false. So the shape is invalid, and the damp argument is invalid, however plausible the conclusion. Your neighbour might still be right about the damp. Their argument didn't show it.
 
@@ -206,15 +208,17 @@ What's established is the pattern itself. It has been replicated many times, inc
 
 The verbal protocols from the 1983 study fit that picture. The abstract describes them as, in some cases, "rationalizations for prejudiced decisions" and, in others, "a genuine process of premise to conclusion reasoning".[4] Some subjects had decided and were explaining afterwards; some were reasoning. And in Evans's later account of the protocols, subjects who focused first on the conclusion were more open to belief, while those who started from the premises reasoned better.[6] Where you look first matters.
 
-What's unsettled is the deeper story. Evans's own team offered a second account alongside selective scrutiny, on which people reason first and fall back on belief when the logic feels inconclusive.[6] Later researchers have argued the standard experiments can't tell the accounts apart: a 2000 analysis of twenty-two studies concluded the data were too sparse to discriminate between them, and a 2010 paper argued the whole effect is better described as a shift in how willing people are to say "yes" rather than as a failure of reasoning.[7][8] I'm not going to pretend that's resolved. What you need is the practical fact, which no one disputes: a conclusion you agree with gets less checking from you than one you don't.
+What's unsettled is the deeper story, and the disagreement is sharper than a footnote. Evans's own team offered a second account alongside selective scrutiny, on which people reason first and fall back on belief when the logic feels inconclusive.[6] Karl Christoph Klauer and his colleagues reanalysed twenty-two studies in 2000, concluded the standard accept-or-reject data are too sparse to tell those accounts apart, and proposed their own.[7] And in 2010 Chad Dube, Caren Rotello and Evan Heit mounted the strongest challenge of all. Using methods built to separate accuracy from willingness to say yes, borrowed from the study of memory, they argue that belief doesn't degrade reasoning at all: you scrutinise a believable argument just as hard as an unbelievable one, and what belief shifts is your threshold for saying "follows", so you accept the same quality of evidence more readily.[8] That isn't a quibble about wording. If they're right, the fast-check story above is wrong, and the classic experiments were measuring a response habit rather than a reasoning failure. What would settle it is more data of the kind their method demands: designs that trace accuracy and willingness separately, such as confidence-rating curves or forced choices between matched arguments, rather than lone accept-or-reject counts. So far each camp claims those results for its own side, and I'm not going to pretend it's resolved.
+
+Here's the ground every account shares, and it's all the practical advice needs: a conclusion you already believe is more likely to get your yes, whether or not the argument earned it. Maybe you check less, as Evans's group read it. Maybe you check just as hard and say yes more easily, as Dube, Rotello and Heit read it. Either way, an invalid argument for something you believe will get past you more often than an invalid argument for something you doubt, and the defence in the next section works under both stories, because it doesn't ask you to check harder. It asks you to check in a fixed order, before your opinion of the conclusion gets a vote.
 
 :::callout Symmetry
-It's tempting to read belief bias as something other people have. It isn't. The subjects in these studies were university students who had been told in writing to judge the logic, and it showed up anyway. Assume it shows up in you: on the arguments whose conclusions you like, you check less. The only defence is procedural, and it's the next section.
+It's tempting to read belief bias as something other people have. It isn't. The subjects in these studies were university students who had been told in writing to judge the logic, and it showed up anyway. Assume it shows up in you: an argument whose conclusion you like has a better chance of getting your yes without earning it. The only defence is procedural, and it's the next section.
 :::
 
 ## The fix is an order of operations
 
-You can't switch belief bias off. What you can do is refuse to let the fast check be the last one. That's what step 6 of the check is for, and why it's step 6 and not step 1.
+You can't switch belief bias off. What you can do is stop your first reaction to the conclusion from being the last word. That's what step 6 of the check is for, and why it's step 6 and not step 1.
 
 When you meet an argument, especially one whose conclusion you have feelings about:
 
@@ -245,7 +249,7 @@ One habit that helps: when the conclusion is one you like, swap the content for 
 
 ## Practice
 
-Sort each of the six arguments below into one of the four cells: valid or invalid, premises all true or at least one false. For every invalid one, write a counterexample: keep the shape, swap the content, make the premises plainly true and the conclusion plainly false. Do the work on paper before you read the answers.
+Sort each of the six arguments below into one of the four cells: valid or invalid, premises all true or at least one false. For every invalid one, give a counterexample: describe a possible case in which every premise is true and the conclusion is false. Describe the case directly where you can see it; where you can't, keep the shape, swap the content, and let the parallel argument show you the case. Do the work on paper before you open the answers.
 
 1. All squares are rectangles. All rectangles have four sides. So all squares have four sides.
 2. All squares are rectangles. Some rectangles are not squares. So some squares are not rectangles.
@@ -254,9 +258,11 @@ Sort each of the six arguments below into one of the four cells: valid or invali
 5. Every apple in this bowl is green. The fruit in my hand came from this bowl and is green. So the fruit in my hand is an apple.
 6. Anyone who can vote here is over eighteen. Maya is over eighteen. So Maya can vote here.
 
-Answers. (1) Valid, true premises, so sound. (2) Invalid; the shape "all A are B, some B are not A, so some A are not B" fails, and this very example is a counterexample to itself: both premises are true and the conclusion is false. (3) Valid, true premises, sound; the counterexample method can't break "no A are B, all C are B, so no C are A", and lesson 4 will show you why with circles. (4) Valid, but the first premise is false, so unsound, and the conclusion is false too; a valid form carried a false premise to a false conclusion, which is allowed. (5) Invalid; the bowl might hold green pears as well, so the premises can be true and the fruit a pear. (6) Invalid; being over eighteen is what the first premise requires of voters, not what it grants to everyone over eighteen. A counterexample: anyone who can vote here is over eighteen, and Maya is a thirty-year-old visitor from abroad. Lesson 3 gives this mistake its name.
+:::checkpoint Open this when your six answers are written.
+(1) Valid, true premises, so sound. (2) Invalid; the shape "all A are B, some B are not A, so some A are not B" fails, and the actual world is already the case you need: both premises are true and the conclusion is false. (3) Valid, true premises, sound; the counterexample method can't break "no A are B, all C are B, so no C are A", and lesson 4 will show you why with circles. (4) Valid, but the first premise is false, so unsound, and the conclusion is false too; a valid form carried a false premise to a false conclusion, which is allowed. (5) Invalid; the bowl might hold green pears as well, so the premises can be true and the fruit a pear. (6) Invalid; being over eighteen is what the first premise requires of voters, not what it grants to everyone over eighteen. A counterexample: anyone who can vote here is over eighteen, and Maya is a thirty-year-old visitor from abroad. Lesson 3 gives this mistake its name.
 
 If you sorted (4) as invalid because the conclusion is false, go back to the four-cell table. That one is the misconception this lesson exists to remove.
+:::
 
 :::exercise Do it now
 Open the folder you started in lesson 1 and take out the argument you wrote in standard form. Ask it the one question from this lesson: could every premise be true and the conclusion still be false?
@@ -294,4 +300,4 @@ Lesson 5 opens the other kind of link, where the premises only claim to make the
 5. Evans, J. St. B. T., "In two minds: dual-process accounts of reasoning", *Trends in Cognitive Sciences* 7(10), 2003, 454 to 459, Box 1. The four example syllogisms (police dogs; vitamin tablets; cigarettes; millionaires) as the four cells of the 1983 design; participants instructed to endorse only conclusions that necessarily follow; "intelligent adult populations (undergraduate students) are consistently influenced by the prior believability of the conclusion"; "more belief-bias on invalid arguments".
 6. Lambell, N. J., Evans, J. St. B. T. & Handley, S. J., "Belief bias, logical reasoning and presentation order on the syllogistic evaluation task", *Proceedings of the Cognitive Science Society* (read from the eScholarship PDF). Restates the 1983 results with the same materials: "71% of participants across three experiments erroneously endorsed" the invalid believable conclusion, and "only 10% of participants across three experiments erroneously endorse" the invalid unbelievable one. Describes the selective scrutiny model (believability of the conclusion scanned first) and the misinterpreted necessity model, and reports from the 1983 protocols that subjects who focused first on the conclusion were more susceptible to belief while those who focused on the premises reasoned better. Their own replication used materials "identical to those employed by Evans et al. (1983)".
 7. Klauer, K. C., Musch, J. & Naumer, B., "On belief bias in syllogistic reasoning", *Psychological Review* 107(4), 2000, 852 to 884 (abstract). A model-based meta-analysis of 22 studies found the standard acceptance data "structurally too sparse" to discriminate between accounts of belief bias.
-8. Dube, C., Rotello, C. M. & Heit, E., "Assessing the belief bias effect with ROCs: It's a response bias effect", *Psychological Review* 117(3), 2010, 831 to 863 (abstract and title). Argues the effect is better described as a shift in response bias than as a change in reasoning accuracy. Cited as the strongest form of the dissenting view; not resolved.
+8. Dube, C., Rotello, C. M. & Heit, E., "Assessing the belief bias effect with ROCs: It's a response bias effect", *Psychological Review* 117(3), 2010, 831 to 863 (abstract and title). Argues, from ROC analyses that separate accuracy from response criterion, that belief bias in these tasks is a shift in willingness to accept, not a change in reasoning accuracy: people do not reason worse on believable conclusions, they are readier to say yes. The strongest form of the dissenting view; presented in the lesson as a live, unresolved challenge.

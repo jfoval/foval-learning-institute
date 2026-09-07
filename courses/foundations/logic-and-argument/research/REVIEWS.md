@@ -662,3 +662,68 @@ citation needs checking against which chapter it draws on rather than a blanket 
 its own `minutes` (35 to 60, 40 to 70, 50 to 65, 40 to 60, 55 to 70), which is a drafting-template
 problem rather than a per-lesson one.
 
+---
+
+## Lesson 2, "Valid and sound". Remaining work-order items APPLIED, work order CLOSED, 2026-09-06
+
+The five items left open by the PARTLY APPLIED entry above are now applied. With L2-B1 and L2-B5
+already done, all five blocking items and both assigned neutrality items are closed.
+
+**L2-B2 DONE. One definition of counterexample, used everywhere.** The semantic definition (a
+possible case in which every premise is true and the conclusion false, from *forall x*) is now the
+only definition. A new paragraph in the worked-example-with-a-gap section says explicitly that the
+swap is a technique for finding one, that the parallel argument's actual world is the possible case
+the shape was supposed to rule out, and names the move refutation by logical analogy (named without
+a citation, since the textbook that supplies the term is on the unread list). Objective 2 rewritten
+to match. The practice instruction now asks for "a possible case in which every premise is true and
+the conclusion is false", with the swap offered as the route when belief is in the way, which is
+what its own model answers were already doing.
+
+**L2-B3 DONE. Quiz rewritten to six application items.** Q3 (sound identification) replaced: fresh
+cases (primes, copper, spiders, triangles), with the true-premises-true-conclusion-invalid
+distractor and the valid-but-false-premise distractor as the half-understanding errors. Q5
+(deductive identification) replaced: fresh cases (kettle switch, restaurant reviews, four houses
+sold over asking, carnival rain); the particular-to-general deductive key is no longer the body's
+choir example, one distractor (the kettle) carries no probability hedge so the missing-hedge leak
+is closed, and the key is no longer the longest option. Q6 (counterexample construction) replaced:
+same target shape, botany content instead of the body's cats and dogs, with a trivially-true
+conclusion, a failed attempt (true conclusion), and a false-premise substitution as the three
+distractors. Q4's self-refuting distractor ("prompts closer checking" predicting higher acceptance)
+replaced and the believability pair now splits (fast food high in salt vs fresh fruit high in salt);
+its explanation now attributes 71%/10% to the invalid-believable and invalid-unbelievable types
+rather than to the cigarettes and millionaires items, which also discharges L2-F1's correction in
+the quiz (the predict block in the body already ties the figures to the type). Q1's stem now asks
+for the verdict and the reason, since two options shared the right verdict. Answer keys are now
+1,2,3,0,2,1: varied, index 0 and 3 both used, no position repeated three times.
+
+**L2-B4 DONE.** The 174-word practice answer key is behind `:::checkpoint Open this when your six
+answers are written.`, together with the follow-up note about item (4), matching lesson 1's pattern.
+
+**L2-N1 and L2-N2 DONE.** Dube, Rotello and Heit are now named in the body, with their actual claim
+at full strength: belief does not degrade reasoning, it shifts the threshold for saying "follows",
+so the classic experiments may have measured a response habit, not a reasoning failure. The lesson
+says what would settle it (designs that trace accuracy and willingness separately: confidence-rating
+curves, forced choices between matched arguments) and that each camp currently claims those results.
+Klauer's team is named too, closing the by-decade citation for [7] (L2-D9 partially discharged; [8]
+was already author-named in Sources, now the body names both). The load-bearing takeaway is
+restated as the ground every account shares: a believed conclusion is more likely to get your yes
+whether or not the argument earned it, with both readings stated and the fix framed as working
+under either, since it asks for a fixed order, not harder checking. Two consistency edits so the
+lesson stops reasserting the account it now marks contested: the Symmetry callout's "you check
+less" is now account-neutral, and "refuse to let the fast check be the last one" is now "stop your
+first reaction to the conclusion from being the last word". Source note [8] updated to state their
+position rather than file it as dissent.
+
+**Also: `minutes: 40` set to 70**, the figure the pedagogy pass measured, since this session's
+edits add roughly 400 words on top of that measurement.
+
+**Still open on this lesson** (not part of the closed work order): the N3 to N6 neutrality minors,
+the depth and media items L2-D1 to L2-D8 (figure, links, Massey, pre-labelled Evans demonstration,
+replication 2x2, presentation order, free recall, "misinterpreted necessity" unnamed), the
+fact-check items L2-F2 to L2-F13, the voice and pedagogy sweep, and the split-verdict edits (the
+stop-and-come-back sentence; moving the myth section to lesson 5, which must be sequenced with
+lesson 5's cross-reference per the coordination note above).
+
+`npm run validate` run after the edits: result recorded in the session log; grep for em dashes in
+the lesson: zero.
+
