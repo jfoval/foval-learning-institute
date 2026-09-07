@@ -25,9 +25,11 @@ courses at items 4 and 5. That ordering was wrong, and here is the reason in one
 
 So the queue is now:
 
-1. **Logic and Argument to `status: published`.** Ten lessons written, three reviewed. Nearest to
-   the finish and the least complicated (no standpoint rules, no renumber pass pending). Detailed
-   work order in section 1 below.
+1. ~~**Logic and Argument to `status: published`.**~~ **DONE 2026-09-07.** Ten lessons, a
+   twenty-item final test and the project, published and live. The work order that was in this
+   section is closed; what remains on this course is its ten podcast episodes, which sit at item 5
+   as the standing background task. The lesson-by-lesson history is in `research/REVIEWS.md` and
+   `research/HANDOFF.md`.
 2. **Bible Basics to `status: published`.** Twelve lessons written, three reviewed, plus the
    neutrality audit, the assessments, and the one-time split/renumber pass (7b).
 3. **The three untouched placeholder courses** (Python Basics, Algebra Essentials, Clear Writing).
@@ -56,7 +58,7 @@ anywhere, and that is why the old queue survived as long as it did.
 | Algebra Essentials | live | 5 | **0** | 0 | none |
 | Clear Writing | live | 4 | **0** | 0 | none |
 | Bible Basics | **drafting** | 12 | **8** (1 to 8) | 0 | 1 (regenerates after renumber) |
-| Logic and Argument | **drafting** | 10 | **9** (1 to 9) | 0 | none |
+| Logic and Argument | **live** | 10 | **10** | **2** | none |
 
 *Updated 2026-09-07.* Bible Basics moved 3 to 8 by merging the takeover branch;
 Logic moved 8 to 9 by taking that course's branch lesson 9. Both branches had sat
