@@ -1,6 +1,6 @@
 ---
 title: "Conditionals: the four forms and the two that fool almost everyone"
-minutes: 50
+minutes: 65
 objectives:
   - Identify modus ponens, modus tollens, hypothetical syllogism, and disjunctive syllogism in everyday arguments
   - Identify affirming the consequent and denying the antecedent and show why each is invalid with a counterexample
