@@ -55,6 +55,26 @@ function parseFrontmatter(src, file) {
 function req(obj, keys, where) {
   for (const k of keys) if (obj[k] === undefined || obj[k] === "" || (Array.isArray(obj[k]) && !obj[k].length)) errors.push(`${where}: missing "${k}"`);
 }
+// A YAML plain scalar cannot contain ": ", so an unquoted option like
+//   - Orthodoxy: the church received it
+// parses as a mapping rather than a string. The frontmatter still parses, so the
+// shape check passes, and the site renders options through String(), which turns
+// an object into the literal text "[object Object]". One published lesson shipped
+// that way. Check the types, not just the shape.
+function checkQuizTypes(quiz, file, label, report) {
+  const kind = v => (Array.isArray(v) ? "a list" : v === null ? "empty" : typeof v);
+  const hint = "check for an unquoted value containing a colon";
+  quiz.forEach((q, i) => {
+    if (!q || !Array.isArray(q.options)) return;
+    const at = `${file}: ${label} #${i + 1}`;
+    if (q.q !== undefined && typeof q.q !== "string") report(`${at} question is not text (it parsed as ${kind(q.q)}); ${hint}`);
+    q.options.forEach((o, j) => {
+      if (typeof o !== "string") report(`${at} option ${"ABCDEFGH"[j] || j + 1} is not text (it parsed as ${kind(o)}) and would reach the learner as "[object Object]"; ${hint}`);
+    });
+    // explain is optional: the courses that predate the standards omit it.
+    if (q.explain !== undefined && typeof q.explain !== "string") report(`${at} explain is not text (it parsed as ${kind(q.explain)}); ${hint}`);
+  });
+}
 
 const courses = [];
 for (const school of fs.readdirSync(COURSES_DIR, { withFileTypes: true }).filter(d => d.isDirectory())) {
@@ -100,6 +120,7 @@ for (const school of fs.readdirSync(COURSES_DIR, { withFileTypes: true }).filter
         if (!q.q || !Array.isArray(q.options) || q.options.length < 2) errors.push(`${file}: item #${i + 1} needs a question and 2+ options`);
         else if (!Number.isInteger(q.answer) || q.answer < 0 || q.answer >= q.options.length) errors.push(`${file}: item #${i + 1} answer index out of range`);
       });
+      checkQuizTypes(quiz, file, "item", m => errors.push(m));
       const type = am.type || (quiz.length ? "test" : "project");
       return { id: f.replace(/\.md$/, ""), title: am.title, type, minutes: am.minutes || 0, pass_mark: am.pass_mark || 0.8, quiz, content: marked.parse(renderBlocks(body)) };
     });
@@ -161,6 +182,7 @@ function lintLessons() {
               if (!q || !q.q || !Array.isArray(q.options) || q.options.length < 2)
                 fail(`${file}: quiz #${i + 1} lost its question or options when the frontmatter parsed; check for an unquoted value containing a colon`);
             });
+            checkQuizTypes(fm.quiz, file, "quiz", fail);
           }
         } catch (e) {
           fail(`${file}: frontmatter does not parse as YAML (${e.reason || e.message}); a colon inside an unquoted value is the usual cause`);
