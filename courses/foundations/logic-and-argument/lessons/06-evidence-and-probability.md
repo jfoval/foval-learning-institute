@@ -1,6 +1,6 @@
 ---
 title: "How much should the evidence move you: base rates, conjunctions, and the prosecutor's fallacy"
-minutes: 50
+minutes: 70
 objectives:
   - Calculate the share of positive results that are true positives from a base rate, a sensitivity, and a false-positive rate, by counting in natural frequencies
   - Explain why a conjunction can never be more probable than either of its parts, and why the Linda problem fools people anyway
@@ -59,7 +59,7 @@ quiz:
 
 Here's an argument you might have met this week, from a friend, a forum, or your own head. "The test is 80% accurate. It came back positive. So I've almost certainly got it." Or its cousin from the news: "The chance of that happening by accident is one in a million. So it wasn't an accident."
 
-Both arguments have true premises and a link that feels tight. Both are usually wrong, and not by a little. In the first, the honest answer can be "you probably don't have it." In the second, a version of that argument put a woman in prison for three years for murders that the Court of Appeal later said could not safely be called murders at all.
+Both arguments have true premises and a link that feels tight. Both are usually wrong, and not by a little. In the first, the honest answer can be "you probably don't have it." In the second, a version of that argument helped put a woman in prison for three years for murders that the Court of Appeal later said could not safely be called murders at all.
 
 Lesson 5 told you that an inductive argument is strong when its premises make the conclusion probable. This lesson is where "probable" gets a number, and where you learn to check the number by counting rather than by feel. The tool is simple enough to do in your head. What's hard is noticing when you need it, because the arguments that need it most are the ones that feel like they don't.
 
@@ -71,7 +71,7 @@ Hold on to that, and three famous errors turn out to be one error seen from thre
 
 ## Adding a detail can only lower the probability
 
-Read this description, and answer the question before you scroll. It comes from a 1983 paper by Amos Tversky and Daniel Kahneman, who gave it to university students in Vancouver (Tversky & Kahneman, 1983).[1]
+Read this description, and answer the question before you scroll. It comes from a [1983 paper by Amos Tversky and Daniel Kahneman](https://pages.ucsd.edu/~cmckenzie/TverskyKahneman1983PsychRev.pdf), who gave it to university students in Vancouver.[1]
 
 Linda is "31 years old, single, outspoken and very bright. She majored in philosophy. As a student, she was deeply concerned with issues of discrimination and social justice, and also participated in anti-nuclear demonstrations."[1]
 
@@ -81,7 +81,7 @@ Most people pick (b). It fits. But every Linda who is a bank teller and a femini
 
 In the most direct version of the test, 142 students were given just those two options. "Overall, 85% of respondents indicated that T&F was more probable than T."[1] Across the main study the rate of violations in direct tests was 88%, and the authors found "no effect of statistical sophistication in either indirect or direct tests."[1] Graduate students who had taken statistics courses did it too.
 
-This is the conjunction rule, and it's the least negotiable rule in this lesson. "A and B" can never be more probable than "A" on its own, because the cases where both hold are a subset of the cases where A holds. Adding a condition removes cases; it never adds them. Here's the mechanism in counting terms. Imagine 100 women who fit Linda's description. Suppose (I'm inventing this number to show the shape) 5 of them are bank tellers. Some of those 5 are feminists, say 4. Then "bank teller and feminist" is 4 in 100, and "bank teller" is 5 in 100. However many you make the feminists, the second pile is drawn from inside the first.
+This is the conjunction rule, and it's the least negotiable rule in this lesson. "A and B" can never be more probable than "A" on its own, because the cases where both hold are a subset of the cases where A holds. Adding a condition removes cases; it never adds them. The mechanism, in counting terms. Imagine 100 women who fit Linda's description. Suppose (I'm inventing this number to show the shape) 5 of them are bank tellers. Some of those 5 are feminists, say 4. Then "bank teller and feminist" is 4 in 100, and "bank teller" is 5 in 100. However many you make the feminists, the second pile is drawn from inside the first.
 
 So why does (b) win by a landslide? Because the description was built to match a stereotype, and the mind judges the match. Linda sounds like a feminist and doesn't sound like a bank teller; adding "feminist" makes the sentence resemble her more. Resemblance is a fine guide to lots of things. It's a terrible guide to size of pile, because a more specific description matches fewer people, not more, however well it fits the one you have in mind. Matching is not counting.
 
@@ -93,11 +93,11 @@ Tversky and Kahneman tried to shake the effect loose. When they turned the quest
 Rain alone. Every tomorrow on which it rains and the match is cancelled is a tomorrow on which it rains, so the second pile sits inside the first. If the cancellation feels like it makes the story more likely, that's the Linda effect: the added detail makes a better story and a smaller pile.
 :::
 
-Now the honest complication. Ralph Hertwig and Gerd Gigerenzer argued in 1999 that a good part of the Linda result is about language, not logic (Hertwig & Gigerenzer, 1999).[2] In ordinary speech "probable" often means "plausible" or "fitting", and by that reading (b) is the better answer. When the question is put as a frequency ("of 100 women like Linda, how many are bank tellers? how many are bank tellers and feminists?") far fewer people make the error. Tversky and Kahneman's own paper has the bet version pointing the same way. The disagreement is real and I'll come back to it at the end. For now, take the practical lesson both camps accept: when a claim comes wrapped in detail, count. Ask "of every 100 cases like this, how many?" and the detail stops helping.
+Now the honest complication. Ralph Hertwig and Gerd Gigerenzer argued in 1999 that a good part of the Linda result is about language, not logic.[2] In ordinary speech "probable" often means "plausible" or "fitting", and by that reading (b) is the better answer. When the question is put as a frequency ("of 100 women like Linda, how many are bank tellers? how many are bank tellers and feminists?") far fewer people make the error. Tversky and Kahneman's own paper has the bet version pointing the same way. The disagreement is real and I'll come back to it at the end. For now, take the practical lesson both camps accept: when a claim comes wrapped in detail, count. Ask "of every 100 cases like this, how many?" and the detail stops helping.
 
 ## Base rates: why "80% accurate" is not what you think
 
-Here is the argument from the opening again, in its original medical form. It was posed to physicians by David Eddy in 1982 and is reported by Gigerenzer and Ulrich Hoffrage in their 1995 paper (Gigerenzer & Hoffrage, 1995).[3]
+Here is the argument from the opening again, in its original medical form. It was posed to physicians by David Eddy in 1982 and is reported by Gigerenzer and Ulrich Hoffrage in [their 1995 paper](https://library.mpib-berlin.mpg.de/ft/gg/GG_How_1995.pdf).[3]
 
 A woman has a routine mammogram. In the population being screened, 1% of women have breast cancer. If a woman has cancer, the test is positive 80% of the time. If she does not, the test is still positive 9.6% of the time. Her result is positive. What is the probability she has cancer?
 
@@ -114,6 +114,45 @@ Of the 10 with cancer, the test is positive for 80%: 8 women. (The other 2 get a
 Of the 990 without cancer, the test is positive for 9.6%: about 95 women.
 
 Now look at the pile of positive results. It contains 8 women with cancer and 95 without: 103 positives in all. The share of positives that are true is 8 out of 103, which is 7.8%.[3]
+
+The whole count, drawn as a tree. The two outlined boxes are the two ways to test positive, and the answer is one of them divided by both together.
+
+<svg viewBox="0 0 584 368" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="nf-t nf-d" style="width:100%;max-width:584px;height:auto;font-family:inherit">
+  <title id="nf-t">Natural-frequency tree for the mammogram problem</title>
+  <desc id="nf-d">A tree starting from 1,000 women screened. It splits into 10 who have cancer and 990 who do not. The 10 with cancer split into 8 who test positive and 2 who test negative. The 990 without cancer split into 95 who test positive and 895 who test negative. The two positive boxes are outlined. A footer reads: positives in all, 8 plus 95 equals 103; with cancer, 8 of 103, about 8 in 100.</desc>
+  <rect x="192" y="8" width="200" height="34" rx="6" fill="var(--navy-soft, #e8eef6)" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
+  <text x="292" y="31" font-size="16" font-weight="600" text-anchor="middle" fill="var(--navy, #0f2a4a)">1,000 women screened</text>
+  <line x1="292" y1="42" x2="125" y2="92" stroke="var(--line, #d9d9d9)" stroke-width="2"/>
+  <line x1="292" y1="42" x2="459" y2="92" stroke="var(--line, #d9d9d9)" stroke-width="2"/>
+  <text x="176" y="66" font-size="15" text-anchor="end" fill="var(--text-2, #4a5260)">1 in 100</text>
+  <text x="408" y="66" font-size="15" text-anchor="start" fill="var(--text-2, #4a5260)">99 in 100</text>
+  <rect x="45" y="92" width="160" height="34" rx="6" fill="none" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
+  <text x="125" y="115" font-size="16" text-anchor="middle" fill="var(--text, #1a1a1a)">10 have cancer</text>
+  <rect x="379" y="92" width="160" height="34" rx="6" fill="none" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
+  <text x="459" y="115" font-size="16" text-anchor="middle" fill="var(--text, #1a1a1a)">990 do not</text>
+  <line x1="125" y1="126" x2="70" y2="182" stroke="var(--line, #d9d9d9)" stroke-width="2"/>
+  <line x1="125" y1="126" x2="200" y2="182" stroke="var(--line, #d9d9d9)" stroke-width="2"/>
+  <line x1="459" y1="126" x2="384" y2="182" stroke="var(--line, #d9d9d9)" stroke-width="2"/>
+  <line x1="459" y1="126" x2="514" y2="182" stroke="var(--line, #d9d9d9)" stroke-width="2"/>
+  <text x="88" y="158" font-size="15" text-anchor="end" fill="var(--text-2, #4a5260)">80%</text>
+  <text x="418" y="158" font-size="15" text-anchor="end" fill="var(--text-2, #4a5260)">9.6%</text>
+  <rect x="12" y="182" width="116" height="52" rx="6" fill="none" stroke="var(--oxblood, #8b1e2d)" stroke-width="2"/>
+  <text x="70" y="204" font-size="16" font-weight="600" text-anchor="middle" fill="var(--oxblood, #8b1e2d)">8 test</text>
+  <text x="70" y="225" font-size="16" font-weight="600" text-anchor="middle" fill="var(--oxblood, #8b1e2d)">positive</text>
+  <rect x="142" y="182" width="116" height="52" rx="6" fill="none" stroke="var(--line, #d9d9d9)" stroke-width="1.5"/>
+  <text x="200" y="204" font-size="16" text-anchor="middle" fill="var(--text-2, #4a5260)">2 test</text>
+  <text x="200" y="225" font-size="16" text-anchor="middle" fill="var(--text-2, #4a5260)">negative</text>
+  <rect x="326" y="182" width="116" height="52" rx="6" fill="none" stroke="var(--oxblood, #8b1e2d)" stroke-width="2"/>
+  <text x="384" y="204" font-size="16" font-weight="600" text-anchor="middle" fill="var(--oxblood, #8b1e2d)">95 test</text>
+  <text x="384" y="225" font-size="16" font-weight="600" text-anchor="middle" fill="var(--oxblood, #8b1e2d)">positive</text>
+  <rect x="456" y="182" width="116" height="52" rx="6" fill="none" stroke="var(--line, #d9d9d9)" stroke-width="1.5"/>
+  <text x="514" y="204" font-size="16" text-anchor="middle" fill="var(--text-2, #4a5260)">895 test</text>
+  <text x="514" y="225" font-size="16" text-anchor="middle" fill="var(--text-2, #4a5260)">negative</text>
+  <text x="292" y="282" font-size="16" text-anchor="middle" fill="var(--text, #1a1a1a)">Positives in all: 8 + 95 = 103</text>
+  <text x="292" y="308" font-size="16" font-weight="600" text-anchor="middle" fill="var(--oxblood, #8b1e2d)">With cancer: 8 of 103, about 8 in 100</text>
+  <text x="292" y="334" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">Gigerenzer and Hoffrage 1995: base rate 1%,</text>
+  <text x="292" y="356" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">sensitivity 80%, false positives 9.6%</text>
+</svg>
 
 That's the whole calculation. Notice what did the work. The test's 80% was real and it's in there (it's the 8). But the base rate, the 1%, decided the size of both piles: it made the cancer group tiny, so even a very accurate test produced only 8 true positives, and it made the healthy group huge, so even a modest false-positive rate produced 95 false ones. The doctors' 70 to 80% is what you get if you look only at the test and forget the piles.
 
@@ -159,9 +198,9 @@ This lesson uses a screening test and a criminal case because they are the best-
 
 Now the courtroom, where the swap costs the most.
 
-In November 1999 Sally Clark, a solicitor, was convicted at Chester Crown Court of murdering her two baby sons, Christopher, who died in December 1996 at eleven weeks, and Harry, who died in January 1998 at eight weeks (R v Clark, 2003, paras 1, 8 to 9).[4] Both had been found dead at home. There was medical evidence on both sides about what the post-mortem findings showed, and the doctors disagreed.
+In November 1999 Sally Clark, a solicitor, was convicted at Chester Crown Court of murdering her two baby sons, Christopher, who died in December 1996 at eleven weeks, and Harry, who died in January 1998 at eight weeks.[4] Both had been found dead at home. There was medical evidence on both sides about what the post-mortem findings showed, and the doctors disagreed.
 
-Into that disagreement came a number. The prosecution's expert, Professor Roy Meadow, a paediatrician, was asked about the chance of a sudden infant death (SIDS, or cot death) in a family like the Clarks, one with none of the three risk factors the study used (a young mother, a smoker in the household, no wage earner). He agreed that a figure of 1 in 8,543 reflected the risk of a single SIDS death in such a family. He was then asked about two. His answer, quoted in the Court of Appeal's judgment: "Yes, you have to multiply 1 in 8,543 times 1 in 8,543 and I think it gives that in the penultimate paragraph. It points out that it's approximately a chance of 1 in 73 million."[4] He compared it to backing an 80 to 1 outsider in the Grand National four years running.[4]
+Into that disagreement came a number. The prosecution's expert, Professor Roy Meadow, a paediatrician, was asked about the chance of a sudden infant death (SIDS, or cot death) in a family like the Clarks, one with none of the three risk factors the study used (a young mother, a smoker in the household, no wage earner). He agreed that a figure of 1 in 8,543 reflected the risk of a single SIDS death in such a family. He was then asked about two. His answer, quoted in [the Court of Appeal's judgment](https://caselaw.nationalarchives.gov.uk/ewca/crim/2003/1020): "Yes, you have to multiply 1 in 8,543 times 1 in 8,543 and I think it gives that in the penultimate paragraph. It points out that it's approximately a chance of 1 in 73 million."[4] He compared it to backing an 80 to 1 outsider in the Grand National four years running.[4]
 
 :::predict Is "1 in 73 million" the chance that Sally Clark was innocent?
 No, and it isn't even a valid figure for what it claims to be. There are two separate errors in it, and the second is the one that matters for every argument of this shape, not just this case. Both are set out below.
@@ -169,7 +208,7 @@ No, and it isn't even a valid figure for what it claims to be. There are two sep
 
 ### The first error: squaring
 
-The Royal Statistical Society issued a public statement about the case in October 2001. On the multiplication: "This approach is, in general, statistically invalid. It would only be valid if SIDS cases arose independently within families, an assumption that would need to be justified empirically" (Royal Statistical Society, 2001).[5] Multiplying two probabilities gives the probability of both events only when the events are independent, when one happening tells you nothing about the other. Two deaths in one family share genes, a house, a set of habits, everything. If there are unknown factors that raise a family's risk, and the RSS said there are "very strong a priori reasons" to think so, then the second death is much more likely than the first, and the true figure, in the RSS's words, "may be very much less incriminating than the figure presented to the jury at trial."[5]
+The Royal Statistical Society issued [a public statement](https://rss.org.uk/RSS/media/File-library/Membership/Sections/2020/Sally-Clark-RSS-statement-2001.pdf) about the case in October 2001. On the multiplication: "This approach is, in general, statistically invalid. It would only be valid if SIDS cases arose independently within families, an assumption that would need to be justified empirically."[5] Multiplying two probabilities gives the probability of both events only when the events are independent, when one happening tells you nothing about the other. Two deaths in one family share genes, a house, a set of habits, everything. If there are unknown factors that raise a family's risk, and the RSS said there are "very strong a priori reasons" to think so, then the second death is much more likely than the first, and the true figure, in the RSS's words, "may be very much less incriminating than the figure presented to the jury at trial."[5]
 
 The Court of Appeal later agreed: the figure "grossly overstates the chance of two sudden deaths within the same family from unexplained but natural causes."[4]
 
@@ -193,11 +232,11 @@ Think back to lesson 3. "If she's innocent, two cot deaths are extremely unlikel
 
 ### What happened to Sally Clark
 
-Her first appeal was dismissed on 2 October 2000.[4] Her husband and others kept working on the case. They found that microbiological tests done on Harry's blood, tissue and cerebrospinal fluid at post mortem, showing Staphylococcus aureus in several sites including the cerebrospinal fluid, had been known to the pathologist and not disclosed to the lawyers on either side (R v Clark, 2003, paras 2, 112 to 113).[4] The Criminal Cases Review Commission referred the case back to the Court of Appeal in 2002.[4][6] On 28 and 29 January 2003 the court heard the appeal, found the convictions unsafe, and quashed them; the Crown did not seek a retrial and she was released, having served three years (R v Clark, 2003, paras 5, 134 to 136).[4][7]
+Her first appeal was dismissed on 2 October 2000.[4] Her husband and others kept working on the case. They found that microbiological tests done on Harry's blood, tissue and cerebrospinal fluid at post mortem, showing Staphylococcus aureus in several sites including the cerebrospinal fluid, had been known to the pathologist and not disclosed to the lawyers on either side.[4] The [Criminal Cases Review Commission](https://ccrc.gov.uk/decision/clark-sally/) referred the case back to the Court of Appeal in 2002.[4][6] On 28 and 29 January 2003 the court heard the appeal, found the convictions unsafe, and quashed them; the Crown did not seek a retrial and she was released, having served three years.[4][7]
 
 The statistics were not the ground on which the case was won; the undisclosed infection was. But in its written judgment the court went out of its way to say what it thought of the number. The evidence "should never have been before the jury in the way that it was", and had the point been fully argued, "we would, in all probability, have considered that the statistical evidence provided a quite distinct basis upon which the appeal had to be allowed" (paras 177, 180).[4] The court also said it suspected the Grand National comparison "may have had a major effect on their thinking notwithstanding the efforts of the trial judge to down play it."[4]
 
-Sally Clark died in March 2007, at 42 (Dyer, 2007).[7]
+Sally Clark [died in March 2007](https://pmc.ncbi.nlm.nih.gov/articles/PMC1832002/), at 42.[7]
 
 I've told you this case in detail because it is the best-documented instance in the English-speaking world of a probabilistic argument doing harm, and because both the error and the correction are on the public record in the words of a court and a learned society, not in a textbook's tidy example. The pattern, though, is everywhere: "the odds of that being a coincidence are a million to one, so it wasn't." Every time you hear it, ask the RSS's question. Unlikely compared with what?
 
@@ -207,9 +246,9 @@ The juror took "1 in 1,000 coats match, if he's innocent" (the probability of th
 
 ## How much should the evidence move you? The likelihood ratio
 
-You've now seen the comparison the jury needed twice: "how likely is this evidence if the claim is true?" against "how likely is this evidence if it's false?" That comparison has a name, the likelihood ratio, and it's the honest measure of how much a piece of evidence should move you (Hahn & Oaksford, 2007; SEP, "Inductive Logic").[8][9]
+You've now seen the comparison the jury needed twice: "how likely is this evidence if the claim is true?" against "how likely is this evidence if it's false?" That comparison has a name, the likelihood ratio, and it's the honest measure of how much a piece of evidence should move you.[8][9]
 
-Go back to the mammogram. A positive result happens 80 times in 100 when there's cancer and 9.6 times in 100 when there isn't. The ratio is 80 to 9.6, about 8. A positive test is eight times more likely with cancer than without, so it should move you about eightfold: from 1 in 100 before the test to about 8 in 100 after it, which is exactly the 8 in 103 you counted. The likelihood ratio is what the evidence does; the base rate is where you start; the answer is the two combined. Keep the three apart in your head and none of the errors in this lesson can get you.
+Go back to the mammogram. A positive result happens 80 times in 100 when there's cancer and 9.6 times in 100 when there isn't. The ratio is 80 to 9.6, about 8. A positive test is eight times more likely with cancer than without, so it should move you about eightfold: from 1 in 100 before the test to about 8 in 100 after it, which is exactly the 8 in 103 you counted. (Strictly, the ratio multiplies the odds, not the share: 10 with cancer against 990 without becomes, after each side is filtered by its own positive rate, 8 against 95, and that is the 8 in 103 again. When the base rate is small, shares and odds barely differ, so "eightfold" is safe here. At a high base rate it wouldn't be, and the count is the route that never misleads.) The likelihood ratio is what the evidence does; the base rate is where you start; the answer is the two combined. Keep the three apart in your head and none of the errors in this lesson can get you.
 
 Now you can say precisely what was missing in the Clark trial. The jury heard one side of the ratio (how unlikely the deaths were under innocence) and none of the other (how unlikely they were under guilt). A ratio with one term isn't a ratio. It's a number chosen for its smallness.
 
@@ -227,7 +266,7 @@ The slogan says "absence of evidence isn't evidence of absence" and dismisses bo
 
 In version one, nobody has looked. "No evidence of harm" is nearly certain whether the drug is harmful or not, so the ratio is about 1, and the argument is weak. The slogan happens to be right here, for a reason it doesn't give.
 
-In version two, the trials would very probably have found harm if it existed. "No evidence of harm" is now very likely if the drug is safe and quite unlikely if it's harmful. The ratio is large, and the argument is strong. Absence of evidence is evidence of absence exactly when the evidence would have been expected. Mike Oaksford and Ulrike Hahn made this case in 2004, arguing that the textbook "argument from ignorance" is often a legitimate inductive argument that's merely weak, and that its strength turns on how thorough the search was (Oaksford & Hahn, 2004).[10] Hahn and Oaksford extended the same treatment to circular arguments and slippery slopes in 2007: the "fallacy" names pick out forms that can be strong or weak by content, and the likelihood ratio says which (Hahn & Oaksford, 2007).[8] Lesson 8 will give those forms their names; you already own the test.
+In version two, the trials would very probably have found harm if it existed. "No evidence of harm" is now very likely if the drug is safe and quite unlikely if it's harmful. The ratio is large, and the argument is strong. Absence of evidence is evidence of absence exactly when the evidence would have been expected. Mike Oaksford and Ulrike Hahn made this case in 2004, arguing that the textbook "argument from ignorance" is often a legitimate inductive argument that's merely weak, and that its strength turns on how thorough the search was.[10] Hahn and Oaksford extended the same treatment to circular arguments and slippery slopes in 2007: the "fallacy" names pick out forms that can be strong or weak by content, and the likelihood ratio says which.[8] Lesson 8 will give those forms their names; you already own the test.
 
 :::checkpoint A friend says "I've never seen a ghost, so they don't exist." Is that strong or weak, by the likelihood ratio, and what one question decides it?
 The question is: how likely is "I've never seen one" if ghosts do exist, compared with if they don't? If ghosts are supposed to be rare and shy, not seeing one is about equally likely either way, and the argument is weak. If the claim is that ghosts appear nightly to everyone, not seeing one is strong evidence against that claim. The strength depends on what the claim predicts you'd have seen, which is the same test as the drug trials. (Whether ghosts exist is not a question this course takes a side on; the argument's strength is.)
@@ -239,7 +278,7 @@ Two things in this lesson are argued over by serious people, and you should know
 
 The first is about people. Kahneman and Tversky read Linda and the physicians as evidence that human judgement is systematically irrational: we use shortcuts (resemblance, vividness) that work often enough and fail predictably. Gigerenzer reads the same data the other way: people are well adapted to information in the form they evolved to meet, which is counts of events, and they fail on percentages because percentages are a recent and unnatural format. His evidence is that frequency formats raise the Bayesian answers from 16% and 28% to 46% and 50%,[3] and Hertwig and Gigerenzer's is that "probable" in the Linda problem is read as "plausible."[2] Both camps agree on the numbers. They disagree about what the numbers say about us. Something that would help settle it: whether the frequency advantage holds when the frequency version is made just as hard to parse as the probability version, and whether training in one format transfers to the other. For this course, the practical upshot is the same either way: count.
 
-The second is about the foundations of the method. The Bayesian view, which this lesson has used, says the strength of an argument is how much its evidence should shift your probability, with the likelihood ratio doing the work. The main objection is the priors problem: the base rate was given to you in the mammogram, but in most real arguments nobody hands you a starting probability, and different people start in different places. Whether there's an objective right place to start, or whether the starting point is always a matter of judgement, is a live question in philosophy and the Stanford Encyclopedia's "Inductive Logic" entry maps it (SEP, "Inductive Logic").[9] The older programme of building an inductive logic that fixes degrees of support from the language alone, associated with Carnap, is now widely regarded as unsuccessful, the same entry reports.[9] The course's line is this: Bayes by counting is a tool that works whenever you can get a base rate; the likelihood ratio is a good measure of how much evidence should move you even when you can't; and the question of where priors come from is left open, because it is open.
+The second is about the foundations of the method. The Bayesian view, which this lesson has used, says the strength of an argument is how much its evidence should shift your probability, with the likelihood ratio doing the work. The main objection is the priors problem: the base rate was given to you in the mammogram, but in most real arguments nobody hands you a starting probability, and different people start in different places. Whether there's an objective right place to start, or whether the starting point is always a matter of judgement, is a live question in philosophy and the Stanford Encyclopedia's ["Inductive Logic" entry](https://plato.stanford.edu/entries/logic-inductive/) maps it.[9] The older programme of building an inductive logic that fixes degrees of support from the language alone, associated with Carnap, is now widely regarded as unsuccessful, the same entry reports.[9] The course's line is this: Bayes by counting is a tool that works whenever you can get a base rate; the likelihood ratio is a good measure of how much evidence should move you even when you can't; and the question of where priors come from is left open, because it is open.
 
 ## What people get wrong
 
@@ -269,7 +308,9 @@ Work these on paper, in natural frequencies, before the quiz. Every number below
 
 5. **Courtroom.** A witness says a getaway car was a red hatchback, and the defendant owns one. Suppose 1 in 50 cars in the town is a red hatchback. The prosecutor says: "there's only a 1 in 50 chance an innocent man would own that car." Write, in two sentences, the comparison the jury should make instead, and what else they'd need to know to make it.
 
-Answers, briefly: (1) 20 have it, 18 positive; 9,980 don't, 499 positive; 18 of 517, about 3.5%. (2) 100 bags contain an item, 99 flagged; 999,900 don't, 9,999 flagged; 99 of 10,098, about 1%; the scanner is worth running because it cuts the pile to search from a million to ten thousand, and a 1% hit rate beats a 0.01% one. (3) The base rate: how many of the people who take this test are lying? Without it, "90% accurate" can't be turned into "probably lying"; if 1 in 100 people tested are lying, most failures are honest people. (4) "Storm" is at least as probable as "storm and flood"; the saturated ground raises the probability of a flood given a storm, not the probability of the pair above the probability of a storm. (5) How likely is it that the defendant owns a red hatchback if he's guilty, versus if he's innocent (1 in 50), and how many red hatchbacks are in the town, since he's one of that many on this evidence alone; the rest of the case has to do the rest.
+:::checkpoint Open this when your five answers are written.
+(1) 20 have it, 18 positive; 9,980 don't, 499 positive; 18 of 517, about 3.5%. (2) 100 bags contain an item, 99 flagged; 999,900 don't, 9,999 flagged; 99 of 10,098, about 1%; the scanner is worth running because it cuts the pile to search from a million to ten thousand, and a 1% hit rate beats a 0.01% one. (3) The base rate: how many of the people who take this test are lying? Without it, "90% accurate" can't be turned into "probably lying"; if 1 in 100 people tested are lying, most failures are honest people. (4) "Storm" is at least as probable as "storm and flood"; the saturated ground raises the probability of a flood given a storm, not the probability of the pair above the probability of a storm. (5) How likely is it that the defendant owns a red hatchback if he's guilty, versus if he's innocent (1 in 50), and how many red hatchbacks are in the town, since he's one of that many on this evidence alone; the rest of the case has to do the rest.
+:::
 
 :::exercise Do it now
 Find one number in this week's news that is a probability, a rate, or an "X% accurate" claim. Write down three things: (1) what count it's a share of (a share of what pile?); (2) what base rate it's silent about, if any; (3) if it's being used as evidence for a claim, what the likelihood ratio would need, that is, how likely the number would be if the claim were false. Add the page to your argument folder. If you can't find the base rate anywhere in the article, note that too; it's the commonest way a true number is used to support a false conclusion.
@@ -288,10 +329,10 @@ Two other Foval courses own this material more fully: Statistics for Citizens (s
 ## Go deeper
 
 - Gigerenzer, *Reckoning with Risk* (Penguin, 2002; US title *Calculated Risks*): the natural-frequency method for the general reader, with screening, DNA, and courtroom cases worked in the same style as this lesson.
-- Gigerenzer & Hoffrage, "How to improve Bayesian reasoning without instruction" (*Psychological Review*, 1995): the paper behind the 16% to 50% result; read the introduction and Study 1 to see the frequency wording they used.
-- Tversky & Kahneman, "Extensional versus intuitive reasoning" (*Psychological Review*, 1983): Linda and her many variants, with the authors' own attempts to make the error go away; pair it with Hertwig & Gigerenzer (1999) for the reply.
-- Royal Statistical Society, statement on R v Sally Clark (23 October 2001), two pages, and R v Clark [2003] EWCA Crim 1020, paras 94 to 110 and 173 to 180: read the primary documents; the court's own account of the number is clearer than most textbook summaries.
-- Stanford Encyclopedia of Philosophy, "Inductive Logic": section 1 to 3 for the likelihood-ratio framework with a worked disease-test example, and later sections for the priors debate if you want to see what's unsettled.
+- Gigerenzer & Hoffrage, ["How to improve Bayesian reasoning without instruction"](https://library.mpib-berlin.mpg.de/ft/gg/GG_How_1995.pdf) (*Psychological Review*, 1995, free PDF): the paper behind the 16% to 50% result; read the introduction and Study 1 to see the frequency wording they used.
+- Tversky & Kahneman, ["Extensional versus intuitive reasoning"](https://pages.ucsd.edu/~cmckenzie/TverskyKahneman1983PsychRev.pdf) (*Psychological Review*, 1983, free PDF): Linda and her many variants, with the authors' own attempts to make the error go away; pair it with Hertwig & Gigerenzer (1999) for the reply.
+- Royal Statistical Society, [statement on R v Sally Clark](https://rss.org.uk/RSS/media/File-library/Membership/Sections/2020/Sally-Clark-RSS-statement-2001.pdf) (23 October 2001), two pages, and [R v Clark [2003] EWCA Crim 1020](https://caselaw.nationalarchives.gov.uk/ewca/crim/2003/1020), paras 94 to 110 and 173 to 180: read the primary documents; the court's own account of the number is clearer than most textbook summaries.
+- Stanford Encyclopedia of Philosophy, ["Inductive Logic"](https://plato.stanford.edu/entries/logic-inductive/): sections 1 to 3 for the likelihood-ratio framework with a worked disease-test example, and later sections for the priors debate if you want to see what's unsettled.
 
 ## Sources
 
@@ -302,6 +343,6 @@ Two other Foval courses own this material more fully: Statistics for Citizens (s
 5. Royal Statistical Society, "Royal Statistical Society concerned by issues raised in Sally Clark case", news release, 23 October 2001. The squaring "statistically invalid ... only valid if SIDS cases arose independently within families"; the figure "has no statistical basis" and "may be very much less incriminating"; the press misreading named as the Prosecutor's Fallacy; "What matters is the relative likelihood of the deaths under each explanation, not just how unlikely they are under one explanation."
 6. Criminal Cases Review Commission, case summary "Clark, Sally" (ccrc.gov.uk). Conviction November 1999; application November 2001; fresh evidence of an overwhelming staphylococcal infection in Harry; referral 2002; conviction quashed January 2003.
 7. Dyer, C., "Falsely convicted Sally Clark dies suddenly", *BMJ* 334(7594), 24 March 2007. Three years in prison including the lost first appeal; cleared after the undisclosed Staphylococcus aureus results came to light; died at 42.
-8. Hahn, U. & Oaksford, M., "The rationality of informal argumentation: A Bayesian approach to reasoning fallacies", *Psychological Review* 114(3), 2007, 704 to 732. The likelihood ratio as the measure of argument strength; argument from ignorance, circularity, and slippery slope as forms that can be strong or weak by content.
+8. Hahn, U. & Oaksford, M., "The rationality of informal argumentation: A Bayesian approach to reasoning fallacies", *Psychological Review* 114(3), 2007, 704 to 732. The likelihood ratio as the measure of argument strength; argument from ignorance, circularity, and slippery slope as forms that can be strong or weak by content. No free full text from the publisher, so this one is not linked in the body.
 9. Stanford Encyclopedia of Philosophy, "Inductive Logic" (rev. February 2025). Inductive support as degree; the Bayesian framework with priors, likelihoods, and likelihood ratios, with a disease-test example; the report that Carnap's programme is now generally regarded as unsuccessful; the priors problem.
-10. Oaksford, M. & Hahn, U., "A Bayesian approach to the argument from ignorance", *Canadian Journal of Experimental Psychology* 58(2), 2004, 75 to 85. Some arguments from ignorance parallel accepted inductive reasoning; textbook cases are weak rather than fallacious; strength depends on the premises, including how thorough the search was.
+10. Oaksford, M. & Hahn, U., "A Bayesian approach to the argument from ignorance", *Canadian Journal of Experimental Psychology* 58(2), 2004, 75 to 85. Some arguments from ignorance parallel accepted inductive reasoning; textbook cases are weak rather than fallacious; strength depends on the premises, including how thorough the search was. No free full text from the publisher, so this one is not linked in the body.
