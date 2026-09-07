@@ -1,6 +1,6 @@
 ---
 title: "All, no, some: checking a syllogism in two minutes"
-minutes: 40
+minutes: 60
 objectives:
   - Translate everyday sentences into the four categorical forms (all, no, some, some not) and state the exact sentence that contradicts each one
   - Test a two-premise syllogism for validity with a three-circle Venn diagram and name the counterexample when it fails
@@ -58,15 +58,15 @@ quiz:
     explain: >-
       Shade "all goalkeepers are players" by emptying the goalkeeper crescent outside players. Then "some players are injured" wants an X in the players and injured overlap, and that overlap is cut by the goalkeeper circle with neither half shaded. So the X goes on the line, and the conclusion, which needs an X definitely inside goalkeepers, is not forced. That is option C, and the counterexample is a squad where the injured players are all outfielders. Option A is the implicature at work; "some players" does not reach every kind of player. Option B is about existential import, which is not the gap here; the gap is which players. Option D judges the conclusion instead of the link, which is belief bias, and gets the reason wrong even though the verdict happens to be right.
   - q: >-
-      A sign on a door says, "Only staff may use this door." Which standard-form sentence says the same thing?
+      Two arguments reach you in the same email. First: "If the shipment cleared customs, the tracking page says 'cleared'. The tracking page doesn't say 'cleared'. So the shipment hasn't cleared customs." Second: "Some parcels in this depot cleared customs. All parcels in this depot get scanned. So some scanned parcels cleared customs." Which tool fits each argument, and what are the verdicts?
     options:
-      - All staff are people who may use this door
-      - All people who may use this door are staff
-      - Some staff are people who may use this door
-      - Some people who may use this door are staff
-    answer: 1
+      - The first is denying the antecedent, so it is invalid; only the second survives the check
+      - Both need the Venn check, since the second mentions categories and the first can be rewritten as one; both come out valid
+      - The first is modus tollens and valid, but the second is invalid, because the X lands on the line between "cleared" and "not cleared"
+      - The first runs on "if", so use lesson 3's shapes; it is modus tollens, valid. The second runs on "some" and "all"; draw the circles, and the shading forces the X inside "scanned and cleared", so it is valid too
+    answer: 3
     explain: >-
-      The word "only" reverses the direction, exactly as "only if" did in lesson 3. The sign restricts who may use the door: if you may use it, you are staff. That is option B. Option A is what most people first write, and it says something the sign does not: that every member of staff may use it, when the sign is silent on whether some staff are barred. Options C and D are far too weak; the sign is a rule about everyone who uses the door, not a report that at least one person does.
+      The first skill in step 4 is picking the tool. The shipment argument is built from "if, then" and denies the consequent, which is modus tollens, so it is valid; no circles needed. The depot argument is built from "all" and "some", so draw. Shade "all depot parcels are scanned" first, emptying the depot circle outside "scanned"; then the X for "some depot parcels cleared customs" wants the overlap of depot and cleared, one half of which (the half outside "scanned") is now shaded, so the X is forced into "depot, scanned, cleared", which sits inside what the conclusion needs. Both valid, option D. Option A misnames the first shape: it denies the consequent, not the antecedent, and that matters because one is valid and the other isn't. Option B gets the verdicts right but wastes the two minutes this lesson promised to save you; a conditional can be rewritten with categories, but lesson 3's shapes settle it in one line. Option C applies the X-on-the-line verdict to a diagram where the shading has already decided where the X goes.
 ---
 
 Someone at work says this to you in the lift: "Everyone who gets promoted here has done the leadership course. Everyone on my team has done the course. So everyone on my team is going to get promoted."
@@ -93,7 +93,7 @@ Everything here is built from four sentence shapes. A and B stand for any two ca
 - Some A are B.
 - Some A are not B.
 
-Aristotle worked out the logic of these four in the *Prior Analytics*, in the fourth century BC, and the method you're about to learn is a much later picture of his system, drawn with circles (Smith, 2022).[1] It's old because it works.
+Aristotle worked out the logic of these four in the [*Prior Analytics*](https://classics.mit.edu/Aristotle/prior.1.i.html), in the fourth century BC, and the method you're about to learn is a much later picture of his system, drawn with circles (Smith, 2022).[1] It's old because it works.
 
 Everyday sentences don't arrive in these shapes, so the first skill is translation. Here's what people get wrong.
 
@@ -121,8 +121,8 @@ Why does it feel wrong? Because in conversation, if you knew that everyone passe
 
 For checking arguments, you use the logical reading. If an argument only works when "some" is read as "some but not all", it's leaning on something the premise never said.
 
-:::checkpoint "Some of the students passed." Does that sentence tell you that any student failed?
-No. "Some passed" is true even if all passed. The feeling that it hints at failures is an implicature, a guess about why the speaker didn't say "all". It may be a good guess, but an argument that needs the failures has to state them as a separate premise, where you can check them.
+:::checkpoint The minutes of a meeting record: "Some members of the committee voted for the proposal." A year later, one member insists the vote was not unanimous, and points to that line as proof. Do the minutes back them up?
+No. "Some members voted for" is true if three did, and just as true if every member did, so the line is consistent with a unanimous vote. The non-unanimity the member remembers may well be real, but it needs its own evidence: a recorded vote against, an abstention in the minutes. The sentence they're pointing at doesn't carry it.
 :::
 
 ## How to deny each one
@@ -140,8 +140,8 @@ Notice what is not on the list. "All A are B" and "No A are B" are not contradic
 
 The practical rule: to knock down an "all", find one exception. To knock down a "no", find one case. To knock down a "some", you have to show there are none at all, which is why "some" claims are so hard to refute and so easy to make.
 
-:::checkpoint Someone says, "All the trains were late this morning." What is the one thing you need to show to prove them wrong?
-One train that was on time. Not "most were on time", not "none were late". One train, and "all" is false. This is modus tollens from lesson 3 wearing different clothes: the "all" claim says that if it's a train this morning then it was late; one on-time train is the not-Q that breaks it.
+:::checkpoint A colleague says, "Not all the invoices went out late." You have reason to think they're wrong. What exactly would you have to show?
+That every invoice went out late. Work it through: "not all went out late" is "some invoices did not go out late", and the contradictory of a "some not" is the "all". One counterexample won't do here; a single late invoice is exactly what their claim allows. This is the hard direction of the table: knocking down a "some" claim means showing there are no cases at all, which is why "some" claims are easy to make and hard to refute. Notice too that refuting an "all" is modus tollens from lesson 3 wearing different clothes: "all invoices were late" says if it's an invoice then it was late, and one on-time invoice is the not-Q that breaks it.
 :::
 
 ## The Venn check
@@ -150,12 +150,50 @@ Now the method. The idea is that a Venn diagram is a picture of every possible c
 
 Start with two circles that overlap, one labelled A and one labelled B. Together they mark out three regions: A outside B, the overlap, and B outside A. Every possible thing sits in one of those regions or outside both.
 
-Each of the four sentences is a mark on that picture (Hurley, 2018; Knachel).[2][3]
+Each of the four sentences is a mark on that picture, and [Knachel's chapter](https://human.libretexts.org/Bookshelves/Philosophy/Logic_and_Reasoning/Fundamental_Methods_of_Logic_(Knachel)/03%3A_Deductive_Logic_I_-_Aristotelian_Logic/3.06%3A_Categorical_Syllogisms) is the place to see many more of them drawn (Knachel).[2]
 
 - "All A are B" says the region "A outside B" is empty. Shade it. Shading means empty.
 - "No A are B" says the overlap is empty. Shade the overlap.
 - "Some A are B" says at least one thing is in the overlap. Put an X there. An X means at least one thing is here.
 - "Some A are not B" says at least one thing is in "A outside B". Put an X there.
+
+Here are all four, drawn:
+
+<svg viewBox="0 0 344 344" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="cf-t cf-d" style="max-width:100%;height:auto;font-family:inherit">
+  <title id="cf-t">The four categorical sentences as marks on a two-circle diagram</title>
+  <desc id="cf-d">Four small panels. All A are B: the part of circle A outside circle B is shaded, meaning empty. No A are B: the overlap of the two circles is shaded. Some A are B: an X sits in the overlap. Some A are not B: an X sits in the part of A outside B.</desc>
+  <defs>
+    <clipPath id="cf-lens"><circle cx="230" cy="78" r="36"/></clipPath>
+  </defs>
+  <text x="0" y="15" font-size="17" font-weight="600" fill="var(--text-2, #4a5260)">The four sentences, as marks</text>
+  <circle cx="58" cy="78" r="36" fill="var(--navy-soft, #e8eef6)"/>
+  <circle cx="114" cy="78" r="36" fill="var(--surface, #ffffff)"/>
+  <circle cx="58" cy="78" r="36" fill="none" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
+  <circle cx="114" cy="78" r="36" fill="none" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
+  <text x="24" y="36" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">A</text>
+  <text x="148" y="36" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">B</text>
+  <text x="86" y="140" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">All A are B</text>
+  <g clip-path="url(#cf-lens)"><circle cx="286" cy="78" r="36" fill="var(--navy-soft, #e8eef6)"/></g>
+  <circle cx="230" cy="78" r="36" fill="none" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
+  <circle cx="286" cy="78" r="36" fill="none" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
+  <text x="196" y="36" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">A</text>
+  <text x="320" y="36" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">B</text>
+  <text x="258" y="140" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">No A are B</text>
+  <circle cx="58" cy="228" r="36" fill="none" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
+  <circle cx="114" cy="228" r="36" fill="none" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
+  <text x="24" y="186" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">A</text>
+  <text x="148" y="186" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">B</text>
+  <text x="86" y="234" font-size="20" font-weight="600" text-anchor="middle" fill="var(--oxblood, #8b1e2d)">X</text>
+  <text x="86" y="290" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">Some A are B</text>
+  <circle cx="230" cy="228" r="36" fill="none" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
+  <circle cx="286" cy="228" r="36" fill="none" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
+  <text x="196" y="186" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">A</text>
+  <text x="320" y="186" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">B</text>
+  <text x="214" y="234" font-size="20" font-weight="600" text-anchor="middle" fill="var(--oxblood, #8b1e2d)">X</text>
+  <text x="258" y="290" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">Some A are not B</text>
+  <text x="0" y="322" font-size="15" fill="var(--text-2, #4a5260)">Shading: this region is empty.</text>
+  <text x="0" y="340" font-size="15" fill="var(--text-2, #4a5260)">X: at least one thing lives here.</text>
+</svg>
 
 Two conventions to fix in your head: shading means nothing lives here; an X means something does. Shading is a strong claim about a whole region. An X is a weak claim about a single occupant.
 
@@ -195,9 +233,29 @@ Premise 2, "All cats are mammals", says the part of the Cats circle outside Mamm
 
 Now stop drawing and look at the conclusion. "All dogs are cats" would need the part of the Dogs circle outside the Cats circle to be shaded. Is it? Half of it is: you shaded "dogs, not cats, not mammals" under premise 1. But the other half, "dogs, not cats, but mammals", is untouched. It's sitting there, open.
 
-That open region is the counterexample. It's a dog that's a mammal and isn't a cat. Which is to say, a dog. The premises allow it, the conclusion forbids it, and so the argument is invalid.
+That open region is the counterexample. It's a dog that's a mammal and isn't a cat. Which is to say, a dog. The premises allow it, the conclusion forbids it, and so the argument is invalid. Here is the finished page; the region the leader line points at is the one the conclusion needed shaded and the premises left open.
 
-Textbooks call this the fallacy of the undistributed middle: the middle term, "mammals", is never used to say something about all mammals, so it can't connect the other two terms (Hurley, 2018; Copi, Cohen & McMahon, 2011).[2][4] You don't need the name. You need the picture, because the picture also works when the content isn't absurd.
+<svg viewBox="0 0 344 306" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="dg-t dg-d" style="max-width:100%;height:auto;font-family:inherit">
+  <title id="dg-t">The dog argument drawn on three circles</title>
+  <desc id="dg-d">Three overlapping circles labelled Dogs, Cats and Mammals. The parts of Dogs and Cats outside Mammals are shaded, showing the two premises. The region for dogs that are mammals but not cats is unshaded, marked with a dot and a leader line to the label: open, a dog that is a mammal and not a cat.</desc>
+  <text x="0" y="15" font-size="17" font-weight="600" fill="var(--text-2, #4a5260)">The dog argument, drawn</text>
+  <circle cx="120" cy="110" r="70" fill="var(--navy-soft, #e8eef6)"/>
+  <circle cx="224" cy="110" r="70" fill="var(--navy-soft, #e8eef6)"/>
+  <circle cx="172" cy="190" r="70" fill="var(--surface, #ffffff)"/>
+  <circle cx="120" cy="110" r="70" fill="none" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
+  <circle cx="224" cy="110" r="70" fill="none" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
+  <circle cx="172" cy="190" r="70" fill="none" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
+  <text x="66" y="34" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">Dogs</text>
+  <text x="278" y="34" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">Cats</text>
+  <text x="172" y="248" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">Mammals</text>
+  <circle cx="130" cy="162" r="4" fill="var(--oxblood, #8b1e2d)"/>
+  <line x1="130" y1="162" x2="70" y2="240" stroke="var(--oxblood, #8b1e2d)" stroke-width="1.5"/>
+  <text x="4" y="260" font-size="15" fill="var(--oxblood, #8b1e2d)">open: a dog that's a</text>
+  <text x="4" y="278" font-size="15" fill="var(--oxblood, #8b1e2d)">mammal and not a cat</text>
+  <text x="4" y="298" font-size="15" fill="var(--text-2, #4a5260)">Shading: emptied by the premises.</text>
+</svg>
+
+Textbooks call this the fallacy of the undistributed middle: the middle term, "mammals", is never used to say something about all mammals, so it can't connect the other two terms. The [IEP's list of fallacies](https://iep.utm.edu/fallacy/) uses this very argument, in dogs, cats and animals, as its example of the mistake (Dowden).[3] You don't need the name. You need the picture, because the picture also works when the content isn't absurd.
 
 Go back to the lift. Everyone promoted did the course; everyone on my team did the course; so everyone on my team gets promoted. Same three circles, same two shadings, same open region: a person who did the course and isn't promoted. The argument is invalid in exactly the way the dog argument is, and it took you thirty seconds. Your colleague may still get promoted. That's step 6, and it's a different question.
 
@@ -241,6 +299,39 @@ The conclusion wants an X definitely inside Applicants and Qualified. Yours is o
 
 The counterexample is the other side of the line: an applicant with a degree who isn't qualified, because the degree is in the wrong subject, say. Both premises are true of that person, and the conclusion is false. Notice it's the dog-and-cat pattern again, with a "some" instead of an "all": both premises attach things to "degrees", and nothing says that "degrees" reaches only the qualified.
 
+The two finished diagrams are below, and the difference between them is the whole method: in the first, the shading leaves the X only one place to go; in the second, the shading never touches the X's home, so it sits on the line.
+
+<svg viewBox="0 0 344 632" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="ap-t ap-d" style="max-width:100%;height:auto;font-family:inherit">
+  <title id="ap-t">The two applicant arguments drawn, one X forced and one X on the line</title>
+  <desc id="ap-d">Two three-circle diagrams, labelled Applicants, Qualified and Degrees, each with the part of Qualified outside Degrees shaded. In the first, the X for "some applicants are qualified" is forced into the region inside all three circles, so the argument is valid. In the second, the X for "some applicants have degrees" sits on the boundary of the Qualified circle inside the Applicants and Degrees overlap, so the conclusion is not forced and the argument is invalid.</desc>
+  <text x="0" y="15" font-size="17" font-weight="600" fill="var(--text-2, #4a5260)">The valid version: the X is forced</text>
+  <circle cx="214" cy="140" r="62" fill="var(--navy-soft, #e8eef6)"/>
+  <circle cx="166" cy="212" r="62" fill="var(--surface, #ffffff)"/>
+  <circle cx="118" cy="140" r="62" fill="none" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
+  <circle cx="214" cy="140" r="62" fill="none" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
+  <circle cx="166" cy="212" r="62" fill="none" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
+  <text x="70" y="66" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">Applicants</text>
+  <text x="264" y="66" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">Qualified</text>
+  <text x="166" y="262" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">Degrees</text>
+  <text x="166" y="166" font-size="20" font-weight="600" text-anchor="middle" fill="var(--oxblood, #8b1e2d)">X</text>
+  <text x="0" y="300" font-size="15" fill="var(--text-2, #4a5260)">"Qualified, no degree" is shaded. The X for</text>
+  <text x="0" y="318" font-size="15" fill="var(--text-2, #4a5260)">"some applicants are qualified" is forced</text>
+  <text x="0" y="336" font-size="15" fill="var(--text-2, #4a5260)">inside all three circles. Valid.</text>
+  <text x="0" y="356" font-size="17" font-weight="600" fill="var(--text-2, #4a5260)">The swapped version: X on the line</text>
+  <circle cx="214" cy="432" r="62" fill="var(--navy-soft, #e8eef6)"/>
+  <circle cx="166" cy="504" r="62" fill="var(--surface, #ffffff)"/>
+  <circle cx="118" cy="432" r="62" fill="none" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
+  <circle cx="214" cy="432" r="62" fill="none" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
+  <circle cx="166" cy="504" r="62" fill="none" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
+  <text x="70" y="380" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">Applicants</text>
+  <text x="264" y="380" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">Qualified</text>
+  <text x="166" y="554" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">Degrees</text>
+  <text x="158" y="467" font-size="20" font-weight="600" text-anchor="middle" fill="var(--oxblood, #8b1e2d)">X</text>
+  <text x="0" y="590" font-size="15" fill="var(--text-2, #4a5260)">The X for "some applicants have degrees"</text>
+  <text x="0" y="608" font-size="15" fill="var(--text-2, #4a5260)">straddles the Qualified line: it may be either</text>
+  <text x="0" y="626" font-size="15" fill="var(--text-2, #4a5260)">side of it. Not forced. Invalid.</text>
+</svg>
+
 One more thing about that first, valid version. "Some of the applicants are qualified" told you nothing about any applicant being unqualified. If someone hears that argument and says "so some of them aren't qualified, then", they've added a premise. Maybe it's true. It wasn't stated, and it isn't something the diagram will ever show, because an X in one region says nothing about the others.
 
 :::checkpoint You place an X and it lands on a line. What does that tell you about the conclusion, and what should you do?
@@ -248,22 +339,22 @@ The premises say something is in one of two regions but not which. If the conclu
 :::
 
 :::callout A footnote on empty classes
-"All trespassers will be prosecuted" is a true sign on a field nobody has ever entered. On the modern reading, which is the one the Venn method uses, "All A are B" says only that nothing is an A without being a B; it doesn't say there are any As. Aristotle, in effect, assumed every term named something (Smith, 2022).[1] The difference shows up in a handful of forms. "All A are B, so some A are B" is valid for Aristotle and invalid on the modern reading, because an empty A makes the premise true and the conclusion false. Of the 256 possible two-premise forms, 15 are valid on the modern reading and 24 on the traditional one (Knachel; Lagerlund, 2022).[3][5] This is a convention, not a controversy: say which reading you're using and the disagreement vanishes. When it matters, it's usually because someone has argued from a rule to an instance without checking that any instance exists.
+"All trespassers will be prosecuted" is a true sign on a field nobody has ever entered. On the modern reading, which is the one the Venn method uses, "All A are B" says only that nothing is an A without being a B; it doesn't say there are any As. Aristotle, in effect, assumed every term named something (Smith, 2022).[1] The difference shows up in a handful of forms. "All A are B, so some A are B" is valid for Aristotle and invalid on the modern reading, because an empty A makes the premise true and the conclusion false. Of the 256 possible two-premise forms, 15 are valid on the modern reading and 24 on the traditional one (Knachel; Lagerlund).[2][4] This is a convention, not a controversy: say which reading you're using and the disagreement vanishes. When it matters, it's usually because someone has argued from a rule to an instance without checking that any instance exists.
 :::
 
 ## Why the course stops here
 
-You could spend a semester on this. Textbooks like Hurley's give categorical logic two chapters, then three more on propositional logic, natural deduction, and predicate logic (Hurley, 2018).[2] This course gives it one lesson and then moves on, and you deserve to know why, because it's a real argument among people who teach reasoning.
+You could spend a semester on this. A full logic course goes on from here to propositional logic, truth tables, and formal proof; [*forall x*](https://forallx.openlogicproject.org/) is a free, openly licensed textbook that takes that route properly (Magnus et al.).[5] This course gives categorical logic one lesson and then moves on, and you deserve to know why, because it's a real argument among people who teach reasoning.
 
-One side, call it the formal-first view, holds that symbolic logic is the only precise account of what "follows from" means, and that learning it trains a rigour that carries over to everything else. That's the view behind the standard logic sequence and behind open textbooks like *forall x* (Magnus et al., 2025).[6]
+One side, call it the formal-first view, holds that formal logic gives a precise and general account of what "follows from" means, that working through it trains habits of rigour, and that it is worth knowing on its own terms, the way mathematics is. On this view a card puzzle is a poor measure of what a logic course teaches: nobody tests a mathematics degree with one brainteaser, and a logic course is not a training programme for puzzles but a body of knowledge with its own questions. That's the tradition behind the standard logic sequence and behind *forall x*.[5]
 
-The other side is the informal-logic movement, which began in the 1970s with teachers like Ralph Johnson and Anthony Blair at Windsor and Trudy Govier, and defined its subject as reasoning "as it occurs in public discussion and debate" (Groarke).[7] Their claim, from years of teaching, was that formal logic transfers poorly to real arguments, whose faults are usually a premise that shouldn't be accepted or a reason that isn't relevant, not an invalid form (Govier, 2013).[8]
+The other side is the informal-logic movement, which grew up in the 1970s around Ralph Johnson and Anthony Blair at Windsor, with Howard Kahane's 1971 *Logic and Contemporary Rhetoric* as an early landmark, and a family of textbooks has carried the programme on since. The field studies reasoning and inference "as they occur in public discussion and debate, educational and intellectual pursuits, interpersonal exchanges, and law, medicine and other 'real-life' contexts" ([Groarke](https://plato.stanford.edu/entries/logic-informal/)).[6] Its founding complaint, in Johnson's words, was "dissatisfaction with formal logic as the vehicle for teaching skill in argument evaluation and argument formation": real arguments, on this view, usually fail on a premise that shouldn't be accepted or a reason that isn't relevant, not on an invalid form.[6]
 
-There is some evidence on the transfer question, and it's worth reading with care. Cheng, Holyoak, Nisbett and Oliver tested 53 students at the start and end of two introductory logic courses at the University of Michigan, about 40 hours of lectures each, one of them using Copi's textbook, covering the conditional forms of lesson 3 (Cheng et al., 1986).[9] The test was Wason's selection task. Before the course, 75% of students made at least one error on the conditional problems; after it, 72%. The authors' summary was that "the only apparent influence of a one-semester logic course was a small decrease in the tendency to make the error corresponding to affirming the consequent".[9] After the semester, the same students solved only 11% of the abstract problems correctly, when before any training they'd solved 62% of the problems that were phrased as permissions.[9]
+There is some evidence on the transfer question, and it's worth reading with care. Cheng, Holyoak, Nisbett and Oliver tested 53 students at the start and end of two introductory logic courses at the University of Michigan, about 40 hours of lectures each, taught from the standard logic textbooks of the day and covering the conditional forms of lesson 3 ([Cheng et al., 1986](https://hdl.handle.net/2027.42/26121)).[7] The test was Wason's selection task. Before the course, 75% of students made at least one error on the conditional problems; after it, 72%. The authors' summary was that "the only apparent influence of a one-semester logic course was a small decrease in the tendency to make the error corresponding to affirming the consequent".[7] After the semester, the same students solved only 11% of the arbitrary problems correctly, when before any training they'd solved 62% of the problems that were phrased as permissions.[7]
 
-Two cautions. It's one study with wide confidence intervals, on one task, and Wason's task is unusually hard. And the same paper found that abstract training did work in the lab when the rules were taught together with examples of the problems they applied to: errors fell from 75% to 39% (Cheng et al., 1986).[9] That second finding is the one this course is built on. The rules are here; so are the examples, and the practice on your own material. A meta-analysis of critical-thinking instruction more broadly found it does help, with a weighted mean effect of g+ = 0.30, and the strategies that helped most were dialogue, authentic problems, and mentoring (Abrami et al., 2015).[10]
+Two cautions. It's one classroom study, on one unusually hard task. And a separate laboratory experiment in the same paper found that abstract training did work when the rules were taught together with examples of the problems they applied to: 39% of the group trained with rules and examples made at least one error, against 75% of an untrained control group, though the authors say the confidence intervals on those lab groups were wide.[7] That second finding is the one this course is built on. The rules are here; so are the examples, and the practice on your own material. A meta-analysis of critical-thinking instruction more broadly found it does help, with a weighted mean effect of g+ = 0.30, and the strategies associated with the larger effects were dialogue, authentic problems, and mentoring (Abrami et al., 2015).[8]
 
-What would settle the question is a study that trained one group formally and one informally and tested both on real arguments after a delay. I don't know of a decisive one. So here is the course's line, stated openly: the four conditional shapes, the Venn check, and the counterexample method are the formal logic a general reader uses; the rest of this course is about premises, relevance, strength, and the ways people go wrong in practice. If you find you like the formal side, *forall x* is free and good, and the link is in Go deeper.
+What would settle the question is a study that trained one group formally and one informally and tested both on real arguments after a delay. I don't know of a decisive one. So here is the course's line, stated openly: the four conditional shapes, the Venn check, and the counterexample method are the formal logic a general reader uses; the rest of this course is about premises, relevance, strength, and the ways people go wrong in practice. If you find you like the formal side, [*forall x*](https://forallx.openlogicproject.org/) is free and good.
 
 ## What people get wrong
 
@@ -271,7 +362,7 @@ What would settle the question is a study that trained one group formally and on
 
 **"No A are B" is the opposite of "All A are B".** They're contraries, not contradictories, and both can be false. To deny "all", produce one exception. Taking on "none" is taking on a claim you don't need and often can't defend.
 
-**A believable conclusion means a valid argument.** Lesson 2's belief bias, again. Evans, Barston and Pollard found that people accept invalid syllogisms with believable conclusions and reject valid ones with unbelievable conclusions, and that the effect was larger on the invalid ones (Evans, Barston & Pollard, 1983).[11] The dog argument is easy because the conclusion is absurd. The promotion argument has the same form and a conclusion someone wants. Draw both.
+**A believable conclusion means a valid argument.** Lesson 2's belief bias, again. Evans, Barston and Pollard found that people accept invalid syllogisms with believable conclusions and reject valid ones with unbelievable conclusions, and that the effect was larger on the invalid ones (Evans, Barston & Pollard, 1983).[9] The dog argument is easy because the conclusion is absurd. The promotion argument has the same form and a conclusion someone wants. Draw both.
 
 **Placing the X before shading.** Then it lands in a region a later premise empties, and you either move it or, worse, leave it and read off a wrong verdict. Shade first, always.
 
@@ -287,7 +378,7 @@ Six arguments. Two are conditionals from lesson 3, so your first job on each is 
 2. All the flats that flooded last winter were ground-floor flats. All the flats in Block B are ground-floor flats. So all the flats in Block B flooded last winter.
 3. All tomatoes are vegetables. Some tomatoes are fruits. So some vegetables are fruits.
 4. If the boiler's pilot light is out, there's no hot water. There's no hot water. So the pilot light is out.
-5. Some road users ignore red lights. All cyclists are road users. So some cyclists ignore red lights.
+5. Some of the hotel's guests ordered a newspaper. All the conference delegates are the hotel's guests. So some of the conference delegates ordered a newspaper.
 6. If the meeting had run over, the room would still have been booked at three. The room wasn't booked at three. So the meeting didn't run over.
 
 :::checkpoint Check your six answers.
@@ -295,9 +386,11 @@ Six arguments. Two are conditionals from lesson 3, so your first job on each is 
 2. Venn. Both premises shade parts outside Ground-floor. The conclusion needs "Block B, not flooded" shaded, and the half of it inside Ground-floor is open. Invalid: a ground-floor flat in Block B that stayed dry. Undistributed middle, and a conclusion some buyer would believe.
 3. Venn. Shade Tomatoes outside Vegetables. The X for "some tomatoes are fruits" goes in Tomatoes and Fruits; the half outside Vegetables is shaded, so it goes in "tomato, fruit, vegetable", which is inside Vegetables and Fruits. Valid, and the conclusion is true whatever your kitchen says; botanically a tomato is a fruit.
 4. Conditional. "If P then Q; Q; so P." Affirming the consequent, invalid. Counterexample: the pilot light is fine and the water's off at the mains.
-5. Venn. Shade Cyclists outside Road users. The X for "some road users ignore red lights" goes in Road users and Ignore; that's cut by Cyclists and neither half is shaded, so it's on the line. Conclusion needs it inside Cyclists. Invalid: the red-light runners could all be drivers. A believable conclusion, and an invalid link.
+5. Venn. Shade Delegates outside Guests. The X for "some guests ordered a newspaper" goes in Guests and Ordered; that's cut by Delegates and neither half is shaded, so it's on the line. Conclusion needs it inside Delegates. Invalid: the newspaper orders could all be from tourists. A believable conclusion, and an invalid link.
 6. Conditional. "If P then Q; not Q; so not P." Modus tollens, valid.
 :::
+
+**From memory.** Close the page and write down: the four sentence forms and the exact sentence that contradicts each; what shading means and what an X means; why you shade before you place the X; what it means when the X lands on a line; and the one region the dog argument left open. Then check what you missed, and reread only those parts. Do this before the quiz; it's the part of the practice that does the most for you.
 
 :::exercise Do it now
 Find one "all", "every", "no", "none", or "only" claim in something you read or heard this week. A headline, a manager's email, a sign, a line from a podcast.
@@ -319,21 +412,19 @@ This closes the deductive unit. You now have two fast tools for step 4 of the ch
 
 ## Go deeper
 
-- Knachel, *Fundamental Methods of Logic*, chapter 3 (free, CC BY 4.0, on LibreTexts): the clearest short treatment of categorical logic with drawn Venn diagrams, which this lesson could only describe in words; do the exercises there if the X-on-the-line cases still feel slippery.
-- Hurley, *A Concise Introduction to Logic*, chapters 4 and 5: the full treatment, including the square of opposition drawn out, the rules-based test that gives the same verdicts as the Venn check, and the sixty-four moods and four figures if you want to see where 256 comes from.
-- *forall x: Calgary*, Parts I to III (free, forallx.openlogicproject.org): the symbolic route, with truth tables, for readers who found this lesson too easy and want the formal-first version done properly.
-- Smith, "Aristotle's Logic", *Stanford Encyclopedia of Philosophy*: where the four sentences, the three figures, and the assumption about non-empty terms come from, in Aristotle's own order.
+- [Knachel, *Fundamental Methods of Logic*, chapter 3](https://human.libretexts.org/Bookshelves/Philosophy/Logic_and_Reasoning/Fundamental_Methods_of_Logic_(Knachel)/03%3A_Deductive_Logic_I_-_Aristotelian_Logic) (free, CC BY 4.0, on LibreTexts): the clearest short treatment of categorical logic, with many more Venn diagrams drawn out than this lesson has room for; do the exercises in 3.6 if the X-on-the-line cases still feel slippery.
+- [*forall x: Calgary*](https://forallx.openlogicproject.org/), Parts I to III (free, CC BY 4.0): the symbolic route, with truth tables, for readers who found this lesson too easy and want the formal-first version done properly.
+- [Smith, "Aristotle's Logic", *Stanford Encyclopedia of Philosophy*](https://plato.stanford.edu/entries/aristotle-logic/): where the four sentences, the three figures, and the assumption about non-empty terms come from, in Aristotle's own order.
+- [Lagerlund, "Medieval Theories of the Syllogism", *Stanford Encyclopedia of Philosophy*](https://plato.stanford.edu/entries/medieval-syllogism/): where the 24 traditional forms and their singsong medieval names (Barbara, Celarent) come from, if you want to see the counting done.
 
 ## Sources
 
 1. Smith, R., "Aristotle's Logic", *Stanford Encyclopedia of Philosophy* (rev. 2022). Aristotle's definition of a deduction; the three figures and the table of valid deductions; contradictories as pairs of which exactly one is true; Aristotle "in effect supposes that all terms in syllogisms are non-empty".
-2. Hurley, P. J., *A Concise Introduction to Logic*, 13th ed. (Cengage, 2018), chapters 4 and 5. The four categorical forms, the square of opposition, the Venn diagram test for syllogisms, the undistributed middle, and the wider formal-logic sequence (chapters 6 to 8) this course does not teach.
-3. Knachel, M., *Fundamental Methods of Logic* (University of Wisconsin-Milwaukee; CC BY 4.0, read on LibreTexts), section 3.6, Categorical Syllogisms. Read at draft time: "There are 4 figures and 64 moods. That gives us 256 possible logical forms. It turns out that only 15 of these are valid" (the modern reading); particular propositions drawn with an X, and "in cases of indeterminacy, draw Xs straddling boundary lines".
-4. Copi, I. M., Cohen, C. & McMahon, K., *Introduction to Logic*, 14th ed. (Pearson, 2011), chapters 5 and 6. Categorical propositions and syllogisms; the undistributed middle.
-5. Lagerlund, H., "Medieval Theories of the Syllogism", *Stanford Encyclopedia of Philosophy*. Read at draft time, section 1: "there are 256 possible combinations of sentences. Of these, 24 have traditionally been thought to yield valid deductions", the 24 being the 19 direct moods plus five subalternate moods.
-6. Magnus, P. D., Button, T., Trueman, R., Zach, R. et al., *forall x: Calgary* (Fall 2025, CC BY 4.0), Part I. Validity as the absence of a counterexample; "logic doesn't care about feelings. Actually, it doesn't care about facts, either"; logic shows an argument invalid but not that a premise is false.
-7. Groarke, L., "Informal Logic", *Stanford Encyclopedia of Philosophy*. Informal logic as the study of reasoning "as it occurs in public discussion and debate"; the movement's origins with Johnson and Blair at Windsor in the 1970s.
-8. Govier, T., *A Practical Study of Argument*, 7th ed. (Cengage, 2013), chapters 4 and 7. Categorical logic inside an informal-logic text; the ARG view that most real arguments fail on acceptability or relevance rather than form.
-9. Cheng, P. W., Holyoak, K. J., Nisbett, R. E. & Oliver, L. M., "Pragmatic versus syntactic approaches to training deductive reasoning", *Cognitive Psychology* 18(3), 293 to 328 (1986). Read from the full text (University of Michigan Deep Blue repository). Experiment 2: 53 students across two introductory logic classes (Ann Arbor and Dearborn), about 40 hours of lectures each, one using Copi's *Introduction to Logic*; pretest to post-test on Wason selection problems, percentage making at least one error on conditional problems 75% before and 72% after, mean improvement "a bare 3 ± 7%"; "the only apparent influence of a one-semester logic course was a small decrease in the tendency to make the error corresponding to affirming the consequent"; after the semester students "solved only 11% of the arbitrary problems correctly, whereas the same students, prior to receiving any formal training, solved 62% of the permission problems correctly". Experiment 1: rules-and-examples training cut the percentage making at least one error from 75 ± 12% to 39 ± 12%; rules alone and examples alone did not significantly help, with wide confidence intervals noted by the authors.
-10. Abrami, P. C., Bernard, R. M., Borokhovski, E., Waddington, D. I., Wade, C. A. & Persson, T., "Strategies for teaching students to think critically: A meta-analysis", *Review of Educational Research* 85(2), 275 to 314 (2015). 341 effect sizes; weighted mean g+ = 0.30; dialogue, authentic problems and mentoring associated with larger effects (from the abstract).
-11. Evans, J. St. B. T., Barston, J. L. & Pollard, P., "On the conflict between logic and belief in syllogistic reasoning", *Memory & Cognition* 11(3), 295 to 306 (1983). From the abstract: belief bias "was more marked on invalid than on valid syllogisms"; some verbal protocols were rationalisations of prejudged decisions.
+2. Knachel, M., *Fundamental Methods of Logic* (University of Wisconsin-Milwaukee; CC BY 4.0, read on LibreTexts), section 3.6, Categorical Syllogisms. Read at draft time: "There are 4 figures and 64 moods. That gives us 256 possible logical forms. It turns out that only 15 of these are valid" (the modern reading); the Venn diagram test, drawing the premises and then asking whether the picture entails the conclusion; universal premises depicted before particular ones; "in cases of indeterminacy, draw Xs straddling boundary lines".
+3. Dowden, B., "Fallacies", *Internet Encyclopedia of Philosophy*. The entry's list defines the fallacy of undistributed middle as occurring "when the middle term of a syllogism is not distributed in at least one of the premises", with the example "All dogs are animals. All cats are animals. So, all dogs are cats."
+4. Lagerlund, H., "Medieval Theories of the Syllogism", *Stanford Encyclopedia of Philosophy* (first published 2004; rev. 26 January 2026). Read at draft time, section 1: "there are 256 possible combinations of sentences. Of these, 24 have traditionally been thought to yield valid deductions", the 24 being the 19 direct moods plus five subalternate moods; the medieval mnemonic names (Barbara, Celarent) for the valid moods.
+5. Magnus, P. D., Button, T., Trueman, R., Zach, R. et al., *forall x: Calgary* (CC BY 4.0), Part I. Validity as the absence of a counterexample; "logic doesn't care about feelings. Actually, it doesn't care about facts, either"; logic shows an argument invalid but not that a premise is false.
+6. Groarke, L., "Informal Logic", *Stanford Encyclopedia of Philosophy*. Informal logic as the study of reasoning and inference "as they occur in public discussion and debate, educational and intellectual pursuits, interpersonal exchanges, and law, medicine and other 'real-life' contexts"; the movement's origins with Johnson and Blair at Windsor in the 1970s and Kahane's *Logic and Contemporary Rhetoric* (1971); Johnson's "dissatisfaction with formal logic as the vehicle for teaching skill in argument evaluation and argument formation".
+7. Cheng, P. W., Holyoak, K. J., Nisbett, R. E. & Oliver, L. M., "Pragmatic versus syntactic approaches to training deductive reasoning", *Cognitive Psychology* 18(3), 293 to 328 (1986). Read from the full text (University of Michigan Deep Blue repository). Experiment 2: 53 students across two introductory logic classes (Ann Arbor and Dearborn), about 40 hours of lectures each, taught from two standard logic textbooks named in the paper; pretest to post-test on Wason selection problems, percentage making at least one error on conditional problems 75% before and 72% after, mean improvement "a bare 3 ± 7%"; "the only apparent influence of a one-semester logic course was a small decrease in the tendency to make the error corresponding to affirming the consequent"; after the semester students "solved only 11% of the arbitrary problems correctly, whereas the same students, prior to receiving any formal training, solved 62% of the permission problems correctly". Experiment 1, a separate laboratory study with four groups measured once: 39 ± 12% of the rules-and-examples group made at least one error, against 75 ± 12% of the control group; rules alone and examples alone did not significantly help, with the wide confidence intervals noted by the authors.
+8. Abrami, P. C., Bernard, R. M., Borokhovski, E., Waddington, D. I., Wade, C. A. & Persson, T., "Strategies for teaching students to think critically: A meta-analysis", *Review of Educational Research* 85(2), 275 to 314 (2015). 341 effect sizes; weighted mean g+ = 0.30; dialogue, authentic problems and mentoring associated with larger effects (from the abstract).
+9. Evans, J. St. B. T., Barston, J. L. & Pollard, P., "On the conflict between logic and belief in syllogistic reasoning", *Memory & Cognition* 11(3), 295 to 306 (1983). From the abstract: belief bias "was more marked on invalid than on valid syllogisms"; some verbal protocols were rationalisations of prejudged decisions.
