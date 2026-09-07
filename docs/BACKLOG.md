@@ -50,7 +50,7 @@ anywhere, and that is why the old queue survived as long as it did.
 
 | Course | Status | Lessons | Through Stage 4 | Assessments | Podcasts |
 |---|---|---|---|---|---|
-| How to Learn Anything | live | 8 | 8 | 2 | 4 of 8 live |
+| How to Learn Anything | live | 8 | 8 | 2 | **8 of 8 live** |
 | Personal Finance | live | 6 | 6 | 0 | none |
 | Python Basics | live | 6 | **0** | 0 | none |
 | Algebra Essentials | live | 5 | **0** | 0 | none |
@@ -135,10 +135,12 @@ the main reason this course is not live.
 
 ### What shipped earlier today, for context
 
-Two other sessions were working the old queue in parallel. **How to Learn Anything podcast episodes
-3 and 4 went live** (commits `732df94`, `15d3830`), which means the fal balance was topped up and
-the six blocked renders are unblocking one by one; episodes 5 to 8 have scripts written,
-fact-checked and stamped, so each is `render --go`, `upload`, `stamp`, validate, build, commit.
+Two other sessions were working the old queue in parallel. **How to Learn Anything is now fully
+podcasted: all eight episodes live** (episodes 3 to 8 in commits `732df94` through `c336470`).
+The fal balance was never topped up and never needed to be: the "Exhausted balance" lock was
+transient, John's dashboard showed $8.88 of credits with $1.12 of cycle usage, and the retry went
+straight through. About $1.74 spent on the six renders; roughly $7 of credits remain, enough for
+Bible Basics' episodes when it publishes.
 **Personal Finance got its Stage 2 re-outline and lesson 6** (see the changelog). That course is
 now paused at item 4 of the new queue with lessons 7 to 10 outlined and undrafted.
 
