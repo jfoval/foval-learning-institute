@@ -1,6 +1,7 @@
 ---
 title: Understanding hard material
 minutes: 50
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/learning-and-mind/how-to-learn-anything/06-understanding-hard-material.mp3
 objectives:
   - Use worked examples correctly on a new type of problem (study, then attempt, then fade the guidance)
   - Apply self-explanation and elaborative interrogation to a dense passage and identify the gaps they expose
