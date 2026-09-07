@@ -54,7 +54,10 @@ parallel sessions is the ceiling. A platform session must not touch `courses/` o
    media pass (2b) is COMPLETE on all eight lessons 2026-09-06** (Dewald correlations drawn
    at actual size on the full −1..1 scale, Oakley's TEDx talk, ten verified links incl. the
    Why We Sleep critique). Next for this course: (c), podcasts, one episode per session via
-   /make-podcast, starting with lesson 1.
+   /make-podcast, **next up lesson 2**. **Lesson 1's episode is LIVE 2026-09-06** (commit
+   `80a219a`): script fact-checked fresh-context (PASS WITH NITS, both fixed), rendered for
+   $0.29, 5m40s, on R2, stamped into the lesson, player verified in both themes at both
+   widths. Lessons 2 to 8 remain.
    (c) Podcast each lesson as it settles.
 3. **The four placeholder courses** (Python, Algebra, Personal Finance, Writing Clearly), which
    are live and have never been through the pipeline. For each, in this order: run Stage 1
@@ -87,9 +90,9 @@ lesson 2 episode) and **How to Learn Anything is at the new standard**: the six 
 fixed (lint now fails published builds), and the media pass done on all eight lessons (five
 data charts, two diagrams, six videos, verified links throughout; every visual checked in both
 themes at phone and desktop width). So the topmost unfinished work is now, in order:
-**(1) podcast How to Learn Anything, one episode per session** — the lessons are settled, so
-`/make-podcast courses/learning-and-mind/how-to-learn-anything/lessons/01-...md` is the next
-command, ~$0.30 an episode from the fal credits; **(2) Personal Finance into the pipeline**
+**(1) podcast How to Learn Anything, one episode per session** — lesson 1's episode shipped
+2026-09-06, so `/make-podcast courses/learning-and-mind/how-to-learn-anything/lessons/02-how-memory-works.md`
+is the next command, ~$0.30 an episode from the fal credits; **(2) Personal Finance into the pipeline**
 (0b item 3); and, runnable in parallel by a second content session, **the reviews that were
 already queued**: Bible Basics lesson 3 (check `research/REVIEWS.md` for how far its cycle
 got) and Logic and Argument lesson 2, whose recorded fixes are still unapplied. Everything
