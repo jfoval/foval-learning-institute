@@ -1530,17 +1530,16 @@ window.FOVAL_COURSES = [
   "level": "Beginner",
   "status": "published",
   "summary": "Budgeting, saving, debt, and investing explained plainly, so money stops being a source of stress.",
-  "description": "Most people are never taught how money works. This course covers the handful of ideas that make the biggest difference: where your money goes, how to build a cushion, how debt really costs you, how compounding works for you, and how to think about big financial decisions. It is general education, not personalised advice.",
+  "description": "Most people are never taught how money works. This course covers the handful of ideas that make the biggest difference: where your money goes, how to build a cushion, how debt really costs you, how compounding works for you, and what the evidence says about investing. It is general education, not personalised advice.",
   "outcomes": [
-   "Track and categorise your spending in under an hour a month",
-   "Build a budget that survives real life",
-   "Understand interest, APR, and why some debt is an emergency",
-   "Explain compounding and use it to plan savings",
-   "Know what an index fund is and why long-term investors favour them",
-   "Make big decisions, such as renting versus buying, with a clear framework"
+   "Audit a month of your own spending and judge a money statistic by what it measures",
+   "Build a budget that survives real life, including irregular income and irregular bills",
+   "Calculate what debt costs, and choose a payoff order using both the arithmetic and the evidence",
+   "Explain compounding, estimate doubling times, and separate real returns from nominal ones",
+   "Compare funds by cost and diversification, and say why the record favours low-cost indexing"
   ],
   "prerequisites": [],
-  "estimated_hours": 2.1,
+  "estimated_hours": 4.2,
   "lessons": [
    {
     "id": "01-where-money-goes",
