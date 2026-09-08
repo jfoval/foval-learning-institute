@@ -136,6 +136,28 @@ get that sound, including services the earlier passes had not named. Findings:
 challenger in the listen test.** The decision between them is exactly what the $0.79 three-way
 comparison exists to settle, by ear.
 
+## Settled 2026-09-08: Gemini, not VibeVoice
+
+The recommendation below lost to the listen test, which is the right way for it to lose. John
+listened to Gemini-generated podcasts rendered on fal and called them leaps and bounds better
+than the VibeVoice episodes we had shipped. Same scripts, so the comparison was clean.
+
+The pipeline now renders on `fal-ai/gemini-3.1-flash-tts`, multi-speaker, at $0.05 per 1,000
+characters in, which is about $0.30 to $0.50 an episode: near enough to VibeVoice's per-minute
+price that cost did not enter into it. All nine episodes that existed were re-rendered from
+their fact-checked scripts and re-uploaded over the same R2 keys, so no lesson page changed.
+
+What the argument below got wrong is worth keeping, because it is the general lesson: it
+reasoned from what a model was *built for* (VibeVoice is a long-form multi-speaker dialogue
+model, Gemini TTS is a TTS that can do two voices) and from reviews of an older Gemini
+generation. Neither survived one listen to the current model. Reviews and architecture pick
+which candidates to render; ears decide.
+
+The lock-in argument still stands and is now a real cost: Gemini TTS is Google's, closed, and
+there is no self-host escape hatch. What protects us is that the scripts are ours and
+committed, so switching engines is re-rendering, not rewriting. That is exactly what this
+switch was, and it took an afternoon.
+
 ## What it costs, per twelve-minute episode
 
 | Route | Per lesson | The 28 lessons live now | All ~1,400 planned | Lock-in |

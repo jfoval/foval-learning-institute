@@ -6,6 +6,25 @@ the institute works. Items move here out of `BACKLOG.md` when they are done.
 Everything from the founding onwards is here. Entries before 2026-09-06 came from the old root
 `CHANGELOG.md`, which was merged into this file on 2026-09-06 so there is only one changelog.
 
+## 2026-09-08
+
+**The podcast engine changed: Gemini 3.1 Flash TTS on fal, replacing VibeVoice 7B.** John listened
+to Gemini-rendered episodes on fal and called them leaps and bounds better. Same scripts on both
+sides, so it was a fair comparison, and the decision took one listen.
+
+- `scripts/podcast.mjs` now posts to `fal-ai/gemini-3.1-flash-tts` in multi-speaker mode. Billing
+  changed shape with it, from $0.04 a generated minute to $0.05 per 1,000 characters in, which is
+  about $0.30 to $0.50 an episode. Near enough that cost played no part in the choice.
+- The hosts are unchanged, their voices are new, because the VibeVoice presets do not exist on this
+  model: **John is Charon** (calm, professional male), **Haley is Aoede** (warm female).
+- The request gained `style_instructions`, which VibeVoice had no equivalent for: two hosts in
+  conversation, unhurried and warm, thinking aloud rather than reading, never announcer-bright.
+- **All nine live episodes were re-rendered** from their existing fact-checked scripts and uploaded
+  over the same R2 keys, so no lesson frontmatter changed and no page needed rebuilding. Cost $2.96.
+- `docs/PODCAST_OPTIONS.md` records that its own recommendation lost, and why the reasoning was
+  wrong: it argued from what each model was built for and from reviews of an older Gemini
+  generation, and neither survived one listen. Architecture picks the candidates; ears decide.
+
 ## 2026-09-06 (priority reset session)
 
 **Priority reset by John.** He asked why a session was improving Personal Finance when Logic and

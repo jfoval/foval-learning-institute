@@ -381,7 +381,14 @@ A third way in, alongside the Foval Core and free choice. Spec:
 **Where this stands now, after the setup session on 2026-09-06 (read this, skip the history below
 unless you need it):**
 
-- **The engine is chosen: VibeVoice 7B on fal.ai.** John asked "are you sure?" and a fourth
+- **The engine changed on 2026-09-08: Gemini 3.1 Flash TTS on fal.ai** (`fal-ai/gemini-3.1-flash-tts`),
+  multi-speaker, $0.05 per 1,000 characters in, about $0.30 to $0.50 an episode. John listened to
+  Gemini-rendered podcasts and called it leaps and bounds better than VibeVoice, so every existing
+  episode was re-rendered from the same fact-checked scripts and re-uploaded over the same R2 keys.
+  The hosts are still John and Haley; their voices are now **John = Charon** (calm, professional
+  male) and **Haley = Aoede** (warm female), set in `scripts/podcast.mjs`. Changing a host voice
+  means re-rendering every episode, because the hosts have to sound the same across the institute.
+- *(History, superseded)* **The engine was VibeVoice 7B on fal.ai.** John asked "are you sure?" and a fourth
   research pass (recorded in `docs/PODCAST_OPTIONS.md`) confirmed it; he then called it himself.
   His fal.ai account exists, has $10 of credits, and its API key lives in **`.env.local`**
   (git-ignored) as `FAL_KEY`. `source .env.local` before rendering.

@@ -22,10 +22,15 @@
 //   - render --go refuses an estimate over $2 without --force. A normal episode is ~$0.30.
 //   - FAL_KEY is read from the environment, falling back to .env.local, which is git-ignored.
 //
-// The fal request shape below is the one that rendered the first real episode on
-// 2026-09-06 (bible-basics 02, $0.32). The voices are the institute's hosts, chosen by
-// John by ear: S1 is John (the Carter preset), S2 is Haley (Alice). Change them only if
-// John changes the hosts.
+// The engine is Gemini 3.1 Flash TTS on fal, multi-speaker. It replaced VibeVoice 7B on
+// 2026-09-08: John listened to both and the Gemini episodes are plainly better, so every
+// episode was re-rendered from the same scripts. Billing is per character in rather than
+// per minute out, $0.05 per 1,000 characters, which comes to about $0.50 an episode.
+//
+// The voices are the institute's hosts: S1 is John, the teaching voice (Charon, calm and
+// professional), S2 is Haley, the curious one (Aoede, warm). Change them only if John
+// changes the hosts, and re-render every episode when you do, because the hosts have to
+// sound the same across the institute.
 
 import fs from "node:fs";
 import path from "node:path";
@@ -35,8 +40,13 @@ import { fileURLToPath } from "node:url";
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const BUCKET = "foval-audio";
 const PUBLIC_BASE = "https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev";
-const SPEAKERS = [{ preset: "Carter [EN]" }, { preset: "Alice [EN]" }];
-const COST_PER_MINUTE = 0.04;
+const ENDPOINT = "https://queue.fal.run/fal-ai/gemini-3.1-flash-tts";
+const SPEAKERS = [
+  { speaker_id: "John", voice: "Charon" },
+  { speaker_id: "Haley", voice: "Aoede" },
+];
+const STYLE = "Two hosts in conversation for a podcast: unhurried, warm and natural, thinking aloud rather than reading. John teaches, Haley asks. Never announcer-bright.";
+const COST_PER_1K_CHARS = 0.05;
 const COST_CAP = 2;
 
 const args = process.argv.slice(2);
@@ -95,20 +105,26 @@ function readScript() {
   return { turns, words, minutes, checked };
 }
 
-/* ---------- render on fal VibeVoice ---------- */
+/* ---------- render on fal, Gemini 3.1 Flash TTS ---------- */
 async function render() {
   const { turns, words, minutes, checked } = readScript();
-  const cost = minutes * COST_PER_MINUTE;
+  // The prompt is the script with each turn prefixed by its speaker alias, which is how
+  // the model is told who is talking; the aliases have to match SPEAKERS exactly.
+  const prompt = turns.map(t => `${SPEAKERS[t.speaker - 1].speaker_id}: ${t.text}`).join("\n");
+  const cost = (prompt.length / 1000) * COST_PER_1K_CHARS;
   const body = {
-    script: turns.map(t => `Speaker ${t.speaker}: ${t.text}`).join("\n"),
+    prompt,
     speakers: SPEAKERS,
+    style_instructions: STYLE,
+    language_code: "English (US)",
+    output_format: "mp3",
   };
   console.log(`${show(scriptPath)}: ${turns.length} turns, ${words} words, about ${minutes.toFixed(1)} minutes`);
-  console.log(`estimated cost on VibeVoice 7B: $${cost.toFixed(2)}   fact-checked: ${checked ? "yes" : "NO"}`);
+  console.log(`estimated cost on Gemini 3.1 Flash TTS: $${cost.toFixed(2)} (${prompt.length} characters)   fact-checked: ${checked ? "yes" : "NO"}`);
 
   if (!GO) {
     console.log("\nDry run. Nothing sent, nothing spent. Add --go to render. Request that would be POSTed:");
-    console.log(`  POST https://queue.fal.run/fal-ai/vibevoice/7b`);
+    console.log(`  POST ${ENDPOINT}`);
     console.log(`  ${JSON.stringify(body).slice(0, 300)}...`);
     return;
   }
@@ -118,13 +134,13 @@ async function render() {
     process.exit(1);
   }
   if (cost > COST_CAP && !FORCE) {
-    console.error(`\nEstimate $${cost.toFixed(2)} is over the $${COST_CAP} guard. A normal episode is ~$0.30. Add --force if this is intended.`);
+    console.error(`\nEstimate $${cost.toFixed(2)} is over the $${COST_CAP} guard. A normal episode is ~$0.50. Add --force if this is intended.`);
     process.exit(1);
   }
   if (!process.env.FAL_KEY) { console.error("\nNo FAL_KEY in the environment or .env.local."); process.exit(1); }
 
   const headers = { Authorization: `Key ${process.env.FAL_KEY}`, "Content-Type": "application/json" };
-  let res = await fetch("https://queue.fal.run/fal-ai/vibevoice/7b", { method: "POST", headers, body: JSON.stringify(body) });
+  let res = await fetch(ENDPOINT, { method: "POST", headers, body: JSON.stringify(body) });
   if (!res.ok) throw new Error(`fal answered ${res.status}: ${(await res.text()).slice(0, 300)}`);
   let data = await res.json();
   const statusUrl = data.status_url || data.status;
