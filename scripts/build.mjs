@@ -331,8 +331,17 @@ function lintLessons() {
             if (/^:::\w/.test(line)) depth++;
             else if (/^:::\s*$/.test(line)) depth = Math.max(0, depth - 1);
             if (depth > 0) return;                       // already inside a hidden block
-            if (!/\b(before you read on|before reading on|do this one yourself|do it yourself|write this one|try to build the counterexample|cover the answer)\b/i.test(line)) return;
-            const ahead = lines.slice(i + 1, i + 9);
+            if (!/\b(before you read on|before reading on|before you read my answer|before you read mine|before I do|do this one yourself|do it yourself|do the next one yourself|write this one|write it down before|try to build the counterexample|cover the answer)\b/i.test(line)) return;
+            // Look ahead for the hidden block that holds the answer. An eight-line window was
+            // too small: a "Now do it yourself" heading is regularly followed by a long
+            // :::exercise and only then by the :::checkpoint carrying the answers, which made
+            // this fire on six lessons that were doing it correctly. Scan to the next heading
+            // instead, so the window is the section rather than a fixed count.
+            const ahead = [];
+            for (let k = i + 1; k < lines.length; k++) {
+              if (/^#{1,6}\s/.test(lines[k])) break;
+              ahead.push(lines[k]);
+            }
             if (ahead.some(l => /^:::(predict|checkpoint)/.test(l))) return;
             fail(`${file}:${i + 1}: asks the reader to answer before reading on, then prints the answer in plain prose. Only :::predict and :::checkpoint hide their body. Quoted: "${line.trim().slice(0, 70)}"`);
           });
