@@ -1990,6 +1990,7 @@ window.FOVAL_COURSES = [
     "id": "02-valid-and-sound",
     "title": "Valid, sound, and why your opinion of the conclusion gets in the way",
     "minutes": 70,
+    "audio": "https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/foundations/logic-and-argument/02-valid-and-sound.mp3",
     "objectives": [
      "Explain validity as the absence of any possible case in which the premises are true and the conclusion false",
      "Show an argument is invalid by giving a counterexample, a possible case with true premises and a false conclusion, found directly or by swapping in parallel content",
