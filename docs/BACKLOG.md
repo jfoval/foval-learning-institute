@@ -264,7 +264,7 @@ is John's definition.
 | Bible Basics | T8 | 12 | 13,163 | 12 | 2 | 1 of 12 | eleven episodes |
 | **Writing Clearly** | T1 | **9** | **3,676** | **0** | **2** | 0 of 9 | **Stage 4 on all nine, voice pass, nine episodes** |
 | Personal Finance | T2 | 8 of 10 | 5,932 | 8 | **0 of 2** | 0 of 8 | two lessons, both assessments, eight episodes |
-| Algebra Essentials | T5 | 5 | **444** | 0 | 0 | 0 | **everything. Still a stub course.** |
+| Algebra Essentials | T5 | 4 of 6 rebuilt | 1,760 | 4 | 0 of 2 | 0 of 6 | two lessons, renumbering, both assessments, six episodes |
 | Python Basics | T6 | 6 | **463** | 0 | 0 | 0 | **everything. Still a stub course.** |
 
 *Updated 2026-09-09.* Fifty-eight lessons live, twelve with audio. **All eleven remaining validator
@@ -373,106 +373,91 @@ audio URL before the render failed; that stamp has been reverted, because a stam
   routes by name. John pushed back twice that the research was not deep enough and was right both
   times.
 
-## 4. HANDOFF. Where things stand, 2026-09-09. Read this before anything else.
+## 4. HANDOFF. Where things stand, end of 2026-09-09. Read this before anything else.
 
-**Nothing is in flight. Working tree clean, `main` pushed, `npm run validate` green: 174 courses on
-the path, 7 built, 56 lessons.** Start at "What to do next" at the foot of this section.
+**Working tree clean, `main` pushed, `npm run validate` green: 174 courses on the path, 7 built, 60
+lessons.** Start at "What to do next" at the foot of this section.
 
-### What happened over 2026-09-08 and 09, in one list
+### THE ONE THING THAT WENT WRONG TODAY, AND THE RULE THAT CAME OUT OF IT
 
-1. **The honesty pass** (queue item 1, closed). `minutes:` measured rather than guessed and rewritten
-   in 31 of 51 lessons; Bible Basics' images cut from 294 MB to 2.8 MB; every SVG defect on the site
-   cleared. New script `scripts/reading-time.mjs`, run as **`npm run minutes`**, reports claimed
-   against modelled time and `--write` fixes what is materially out. **Run it after drafting any
-   lesson.**
-2. **Stage 4 cut from five reviewers to one** (Tier A default, Tier B only for sensitive domains,
-   standpoint courses, and lessons sent back for heavy rewriting). Neutrality pass skipped on lessons
-   with no contested claims. On procedural courses the fact-check is executed rather than fetched. See
-   §2 and `.claude/commands/review-lesson.md`. Roughly 25M subagent tokens down to about 5M across the
-   remaining work.
-3. **Every course is now on the Foval Core.** The elective tier is gone: `curriculum/core-path.yaml`
-   is 174 courses across 25 terms of seven. John's call, made knowing it stops the Core being a
-   two-year spine. **Do not reintroduce an elective tier.**
-4. **`#/map` is a real page**, generated from TAXONOMY.md by `scripts/build.mjs` into
-   `window.FOVAL_MAP`. The homepage no longer links to GitHub for the curriculum.
-5. **Writing Clearly rebuilt** (queue item 2, content-complete). Nine lessons, a twenty-item test and
-   a four-hour project, all five placeholders deleted.
-6. **Logic podcasts 1 to 3 rendered, uploaded and stamped.** $1.22 spent.
-7. **`docs/BACKLOG.md` cut from 1,063 lines to live work only.**
+This session finished Personal Finance's content, declared the course done, and started the next
+course **with zero of its ten podcast episodes made.** John caught it. His definition, stated many
+times and now written into the rules, is:
 
-### Three rules added this session, all recorded in the commands themselves
+> **A course is finished when every lesson is at standard AND every lesson has a podcast episode.**
 
-- **A live course being rebuilt keeps `status: published`.** The build ships only published courses, so
-  setting one to `drafting` deletes it from the site. In `.claude/commands/research-course.md`.
-- **A live course's `course.yaml` describes the lessons that exist today**, not the ones the outline
-  plans. Updating outcomes to match an outline put eight promises on a page serving four placeholders,
-  hours after the honesty pass removed exactly that kind of claim. In `.claude/commands/outline-course.md`.
-- **A pre-pipeline stub is replaced, not reviewed.** In `CLAUDE.md` rule 3.
+It is now `CLAUDE.md` rule 5b, the first section of `docs/CONTENT_PIPELINE.md`, and the head of §2
+here. **The order inside a course is: research, outline, draft, Stage 4, voice pass, assessments,
+an episode for every lesson, and only then the next course.** Do not batch audio to the end of the
+queue. Do not move on with episodes owed.
 
-### The finding from this session that generalises, and it is the important one
+### PODCASTS ARE BLOCKED, AND ONLY JOHN CAN UNBLOCK THEM
 
-`research/OUTLINE.md` flagged Writing Clearly's lesson 8, on the dispute over *The Elements of Style*,
-as the one that could become a hit piece, and set the test: would a reader who loves the book finish
-it feeling fairly treated? A fresh-context fairness check found the draft **passed that test
-comfortably and failed the opposite one.** It presented as its own discovery a qualification Pullum
-quotes and credits in his essay; it conceded the half of his case he explicitly disclaims; and it
-omitted the evidence he actually builds on.
+The fal balance ran out mid-session. The exact response:
 
-**Every sentence in that draft was accurate. Fairness failed at the level of selection**: which of an
-opponent's arguments get quoted, which half of their case gets answered, and whose discovery a finding
-is presented as. A checker that only verified quotations would have passed it. Twelve findings and
-resolutions are in `courses/communication-and-people/clear-writing/research/REVIEWS.md`.
+> `403 {"detail":"User is locked. Reason: Exhausted balance. Top up your balance at fal.ai/dashboard/billing."}`
 
-**Apply this to every contested lesson still to be written.** Bible Basics is full of them, and so is
-anything in the Christian Studies school.
+**Two episodes got out before it hit: Personal Finance lessons 1 and 2, both live, stamped and
+voice-checked.** Personal Finance lesson 3's script is written, fact-checked (PASS WITH NITS, all
+five fixed) and waiting at `courses/money/personal-finance/podcast/03-debt.script.md`. Its lesson was
+briefly stamped with an audio URL before the render failed; **that stamp was reverted**, because a
+stamped URL answering 404 is worse than no audio.
 
-### Two corrections to things in circulation, both from opening primary sources
+**The moment the balance is topped up, work this list:** Personal Finance 3 to 10 (8), Logic and
+Argument 4 to 10 (7), Bible Basics 2 to 12 (11). That is 26 ready to render at about $0.40 each,
+roughly $11. Writing Clearly's 9 and Algebra's 6 wait on their Stage 4 cycles.
 
-- **Strunk 1918 cuts both ways.** Two of Pullum's sharpest charges (the *none* rule, the anti-*which*
-  rule) are absent from the original and so belong to White. And Pullum writes that "Strunk's original
-  version never even mentioned split infinitives", where the 1918 glossary carries an entry.
-- **Sommers' sample is not twenty and twenty.** Her 1980 article is an unreadable scan, but her 1982
-  NIE report (ERIC ED220839) decodes, and its abstract says **eight** freshman students and **seven**
-  experienced adult writers. Every secondary summary consulted says twenty and twenty. Both lessons
-  report what was read and say why it differs.
+### What was done today, in order
+
+1. **Personal Finance is content-complete**, ten lessons and two assessments, and owes ten episodes.
+   - Lesson 7 (accounts and the match) and lesson 8 (insurance, Tier B) and lesson 9 (housing,
+     Tier B) and lesson 10 (scams, Tier A), each with Stage 1 research written first.
+   - The 24-item course-end test and the one-page-plan project, which the course had been published
+     for months without.
+2. **Logic and Argument's final test had seventeen items whose explanations named the wrong option
+   letter.** Found by John, fixed, and the scan is now a script: `node scripts/check-quiz-letters.cjs`.
+3. **The podcast voice drift was diagnosed.** Gemini's presets are real fixed voices but the
+   rendering is generative, and we were never setting `temperature`, whose default is 1. It is now
+   0.25. John was asked and chose to stay on Gemini and accept the drift; the hosts were briefly
+   changed to Iapetus and Erinome and he reversed it within the hour, so they are Charon and Aoede.
+   **Settled. Do not re-open.**
+4. **Algebra Essentials is four lessons into a six-lesson rebuild**, with research and outline
+   written and all four through Stage 4.
+
+### The three review rules this session established, all worth carrying
+
+1. **Count the whole lesson, not just the two-position section.** Lesson 8's rule was to count
+   citations and last words inside a disagreement. Lesson 9's audit passed that count and still
+   failed, because one side's case was the architecture of the lesson and the other's was an annexe.
+   Also count whose errors are in the misconception list.
+2. **`npm run minutes` can be blind, and the fix belongs in the lesson.** Its stated-duration
+   detector needs a cue word (`about`, `around`, `roughly`, `take`, `spend`, `allow`, `give`) opening
+   the sentence. An exercise that begins "Ninety minutes, and..." is invisible to it. **Open exercise
+   timings with a cue word.**
+3. **Every "if you got X, you probably did Y" must be traced backwards before it ships.** Three
+   times in the Algebra rebuild the lesson blamed a slip that cannot produce the number it was
+   attached to, and once the blamed route produces the right answer. A wrong diagnosis is worse than
+   none, because the reader who made the slip is told they made a different one.
+
+And one more, from the same reviews: **a wide viewBox shrinks every label on a phone**, and the
+linter cannot see it because it does not model the scale factor. Keep chart viewBoxes near 420 unless
+the drawing genuinely needs the width.
 
 ### What to do next
 
-**Queue item 3: Personal Finance lessons 7 to 10, plus its two assessments.** It is the cheapest
-completion on the board because Stages 1 and 2 are already done: `research/OUTLINE.md` specifies all
-four lessons (7 accounts and tax timing, 8 insurance, 9 renting versus buying, 10 scams and fraud), a
-course-end test blueprint and a project, and `assessments/` does not exist yet. Lesson 6 is the last
-one drafted. Note lesson 6 is tax, which is a 3.4-sensitive domain, so its neighbours may be too.
-
-**In tandem, the podcasts.** Seven Logic episodes and eleven Bible Basics episodes are owed, at about
-$0.40 each. They need no drafting and block nothing. `/make-podcast <lesson>` runs the whole flow and
-`node scripts/podcast.mjs plan <lesson>` says where any episode stands. **The fact-check gate is not
-optional and has earned its keep twice**: episode 2 came back FAIL, episode 3 came back with the
-script asserting as settled a reading the lesson calls disputed.
-
-**Then queue items 4 and 5**, Algebra Essentials and Python Basics, both still stubs. Both are
-procedural, so two lessons a session is allowed, the fact-check is executed rather than fetched, and
-the neutrality pass is skipped with a line in REVIEWS.md saying why.
-
-**After item 5 the queue is strict Core Path order**, starting with Reading Well. Settled with John;
-see the note in §2.
-
-### Small jobs, each under an hour
-
-- ~~**Logic's final test has explanations that name the wrong option letter.**~~ **FIXED 2026-09-09,
-  all seventeen of them**, after John found it. Every explanation ended on a verdict sentence ("So B.",
-  "That is C.") naming an option letter, and in 17 of the 20 items that letter was not the key: item 1's
-  answer is A and it said "So B", item 2's answer is C and it said "so B". **The cause is legible in the
-  wreckage and worth knowing: the per-option discussion inside each explanation was correct in every
-  case, and only the verdict sentence was wrong**, which is what happens when a fix pass reorders options
-  to spread the answer indices and updates the `answer:` field without re-reading the prose. The scan is
-  now a script, `node scripts/check-quiz-letters.cjs`, which flags an explanation whose verdict names a
-  letter other than the key and (separately) one that discusses the key as though it were a distractor.
-  It has false positives on explanations that open "Option C is ...", so read each hit. Run over all 58
-  lessons and 4 assessments after the fix: the Logic final test was the only file affected. **Bible
-  Basics lesson 3 item 2, flagged in the old note, was checked by eye and is correct.**
-- **Writing Clearly's nine lessons have had no Stage 4 cycle and no voice pass.** They validate clean
-  and were drafted carefully, but drafted is not reviewed.
+1. **If John has topped up fal: render the 26 owed episodes**, in the order above, one at a time,
+   each with its script written from the lesson and fact-checked in a fresh-context subagent before
+   any money is spent. `/make-podcast <lesson>` runs the flow; `node scripts/podcast.mjs plan
+   <lesson>` says where any episode stands.
+2. **If not, or in parallel: finish Algebra Essentials.** Lessons 5 (turning a sentence into an
+   equation, where the reversal error lives) and 6 (two unknowns at once) are specified in
+   `research/OUTLINE.md`. Then the renumbering to six lessons, the two assessments, `estimated_hours`,
+   and the six episodes.
+3. **Then Python Basics**, still six stubs, same procedural treatment.
+4. **Then Writing Clearly's Stage 4 on nine lessons and its voice pass**, which is what stands
+   between it and its nine episodes.
+5. **Then back to the top of the Foval Core**, starting with Reading Well, and down it in order.
+   Every one of those courses gets the same five steps, including the audio.
 
 ## 5. Two validator bugs fixed 2026-09-08, both hiding real defects
 
