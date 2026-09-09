@@ -1,6 +1,7 @@
 ---
 title: A budget that survives real life
 minutes: 50
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/money/personal-finance/02-budget.mp3
 objectives:
   - Build a monthly budget from your own audit numbers, with every dollar assigned and a line for irregular costs
   - Choose among 50/30/20, zero-based, pay-yourself-first, and envelope budgeting by matching each method to the person it suits

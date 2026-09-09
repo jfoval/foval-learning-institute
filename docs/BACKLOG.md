@@ -276,7 +276,35 @@ was a deliberate call, on the grounds that a practical writing course carries it
 rather than exposition, and **John has not read one yet and has not confirmed it.** If he says they
 are thin, the fix is more worked examples rather than more prose.
 
-## 3. Podcasts: the standing parallel track
+## 3. Podcasts: BLOCKED ON A FAL TOP-UP, 2026-09-09
+
+**The fal balance is exhausted and rendering is stopped.** The exact response, on the third render of
+the day: `403 {"detail":"User is locked. Reason: Exhausted balance. Top up your balance at
+fal.ai/dashboard/billing."}` Two Personal Finance episodes went out before it hit, lessons 1 and 2,
+both live and stamped and both voice-checked. **John needs to top up at fal.ai/dashboard/billing
+before any more audio can be made.** Nothing else in the project is blocked by this.
+
+**What is owed the moment it is topped up, in order:**
+
+| Course | Episodes owed | Ready to render? |
+|---|---|---|
+| Personal Finance | 8 (lessons 3 to 10) | Yes, lessons are settled |
+| Logic and Argument | 7 (lessons 4 to 10) | Yes |
+| Bible Basics | 11 (lessons 2 to 12) | Yes |
+| Writing Clearly | 9 | No: needs Stage 4 and the voice pass first |
+| Algebra Essentials | 6 | No: rebuild in progress |
+| Python Basics | 6 | No: still stubs |
+
+At about $0.40 an episode the 26 that are ready come to roughly $11, and all 47 owed across the
+institute come to about $19.
+
+**A script that was written and fact-checked but not rendered:** lesson 3 of Personal Finance, at
+`courses/money/personal-finance/podcast/03-debt.script.md`, verdict PASS WITH NITS with all five
+fixed. It is ready to render the moment the balance is up. Its lesson was briefly stamped with an
+audio URL before the render failed; that stamp has been reverted, because a stamped URL that answers
+404 is worse than no audio.
+
+## 3b. Podcasts: the standing parallel track
 
 - **Engine: Gemini 3.1 Flash TTS on fal** (`fal-ai/gemini-3.1-flash-tts`), multi-speaker, $0.05 per
   1,000 characters in, about $0.30 to $0.50 an episode. It replaced VibeVoice 7B on 2026-09-08 after

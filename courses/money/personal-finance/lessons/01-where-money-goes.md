@@ -1,6 +1,7 @@
 ---
 title: Where your money actually goes
 minutes: 45
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/money/personal-finance/01-where-money-goes.mp3
 objectives:
   - Categorise a month of your own transactions into buckets and compare each bucket to your take-home pay
   - Distinguish fixed from variable costs and identify which kind of fix a tight budget needs
