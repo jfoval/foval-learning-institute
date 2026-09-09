@@ -2269,6 +2269,7 @@ window.FOVAL_COURSES = [
     "id": "03-conditionals",
     "title": "Conditionals: the four forms and the two that fool almost everyone",
     "minutes": 95,
+    "audio": "https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/foundations/logic-and-argument/03-conditionals.mp3",
     "objectives": [
      "Identify modus ponens, modus tollens, hypothetical syllogism, and disjunctive syllogism in everyday arguments",
      "Identify affirming the consequent and denying the antecedent and show why each is invalid with a counterexample",
