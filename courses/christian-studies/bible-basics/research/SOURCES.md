@@ -865,3 +865,43 @@ each caught at least one real error.
 - **The transmarina clause is single-manuscript.** The Hippo and Carthage request that "the church
   across the sea" confirm the list survives in one manuscript strand rather than in every copy. The
   argument built on it is good, and the hedge belongs in the body rather than only in a source note.
+
+## Added at Stage 4, lesson 9 (2026-09-08)
+
+- **Daniel B. Wallace, "The Number of Textual Variants: An Evangelical Miscalculation"**,
+  danielbwallace.com, 9 September 2013, fetched 2026-09-08:
+  https://danielbwallace.com/2013/09/09/the-number-of-textual-variants-an-evangelical-miscalculation/
+  "with the work done on Luke's Gospel by the International Greek New Testament Project, Tommy
+  Wasserman's work on Jude, and Münster's work on James and 1-2 Peter, the estimates today are
+  closer to 400,000." **The 400,000 figure is Wallace's, not Ehrman's**, and neither the TGC
+  interview nor the danielbwallace.com reply post carries a total. Ehrman's own estimate is a
+  range, 200,000 to 400,000 (*Misquoting Jesus*). Earlier lessons that use the figure should
+  attribute it this way.
+- **Luke 22:43–44**, read 2026-09-08. ESV footnote at 22:43, "Some manuscripts omit verses 43 and
+  44"; the NET prints the verses in single brackets. Used in lesson 9's quiz and exercise as the
+  unseen passage a learner works with the method.
+- **Codex Vaticanus, end of Mark**, public domain image, verified 200:
+  https://upload.wikimedia.org/wikipedia/commons/d/dc/Mark16-B.JPG
+- **Codex Montfortianus (minuscule 61), the Johannine Comma**, public domain, verified 200:
+  https://upload.wikimedia.org/wikipedia/commons/3/3c/Codex_Montfortianus_%28Comma%29.jpg
+- **Ketef Hinnom scholarly edition**: Barkay, Lundberg, Vaughn and Zuckerman, "The Amulets from
+  Ketef Hinnom: A New Edition and Evaluation", *BASOR* 334 (2004), 41–71. Replaces the vague
+  "standard excavation reports" citation.
+- **Working URLs confirmed 2026-09-08** for use in lesson bodies: the TGC Wallace interview lives
+  under `/blogs/justin-taylor/`, not `/article/`; Metzger's *Textual Commentary* entries on Mark 16,
+  John 7:53–8:11 and 1 John 5:7–8 are online in full at bible-researcher.com (endmark.html,
+  adult.html, comma.html); the Münster register at ntvmr.uni-muenster.de/liste; the IAA archive at
+  deadseascrolls.org.il/explore-the-archive; Vaticanus at digi.vatlib.it/view/MSS_Vat.gr.1209; Dale
+  Martin RLST 152 lecture 5 at oyc.yale.edu/religious-studies/rlst-152/lecture-5.
+- **Did not resolve** from this machine, on either scheme: `dss.collections.imj.org.il` (the Israel
+  Museum's Digital Dead Sea Scrolls viewer). Use the IAA library instead until someone confirms it.
+- **Corrections to facts recorded earlier in this file**, found by the lesson 9 fact-check:
+  Vaticanus is not a complete Bible (lacks the Pastorals, Philemon, Revelation; breaks off at
+  Hebrews 9:14); the Aleppo Codex lost roughly 40 percent of its leaves at some point after the 1947
+  riot, with no evidence of fire, and the date is argued; nearly rather than every modern Old
+  Testament translation rests on Leningrad, since HUBP and the Jerusalem Crown use Aleppo; the
+  Münster total is best given as a range of about 5,600 to 5,800; Mark 1:41 is from *Misquoting
+  Jesus* chapter 5, not from the 2014 blog post.
+- **Scripture provenance**: every NET quotation in lesson 9 was re-fetched from labs.bible.org on
+  2026-09-08 and matched word for word. The API was reachable in this session, unlike the sessions
+  that recorded 403s.
