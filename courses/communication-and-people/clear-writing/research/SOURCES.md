@@ -10,8 +10,9 @@ file says so, because the pipeline's worst recurring defect is citing books nobo
 
 Recorded first because it governs how everything below may be used, under Editorial Standards 2.2.
 
-**Read in full, primary text:** Gopen and Swan (1990); Pullum (2009); the GOV.UK clear-language
-guidance; the digital.gov plain-language guide's top-level structure; Nielsen's 2008 reading study.
+**Read in full, primary text:** Gopen and Swan (1990); Pullum (2009); **Strunk (1918), the public-domain
+original of *The Elements of Style***; the GOV.UK clear-language guidance; the digital.gov plain-language
+guide's top-level structure; Nielsen's 2008 reading study.
 
 **Read only at abstract or table-of-contents level:** Williams, *Style* (contents and reception, not the
 text); Gooding et al. (2021) (abstract only).
@@ -24,13 +25,12 @@ text); Gooding et al. (2021) (abstract only).
   article**, because it is the single most load-bearing source for that lesson and its most quotable
   finding (students treat revision as rewording) is exactly the kind of claim that gets garbled in
   summary.
-- **Strunk and White, *The Elements of Style*.** This is the serious gap. The course's contested question
-  is what to do with this book, and **the only source in this file that quotes it is Pullum, who is
-  attacking it.** That is defect 10 in `docs/BACKLOG.md` §8: describing a position in the words of the
-  people who oppose it. The book is short and widely available; open it before drafting, and quote its
-  own qualifications, not only the sentences Pullum selected. Note that Pullum himself records one of
-  them: the authors explicitly say they do not mean "that the writer should entirely discard the passive
-  voice," which is "frequently convenient and sometimes necessary."
+- **White's 1959 revision of *The Elements of Style*.** Still not read, and still in copyright. Every
+  statement in this file about *White's* edition comes from Pullum, who is attacking it. Before the
+  lesson on the contested question is drafted, open a copy: the difference between the two editions
+  turns out to matter (see below).
+  **Strunk's 1918 original has now been read in full** and is public domain; it is treated as a primary
+  source in its own section below.
 - **Zinsser, *On Writing Well*; Pinker, *The Sense of Style*.** Both belong in a complete treatment and
   neither has been opened. Do not characterise either from its blurb.
 
@@ -94,6 +94,57 @@ text); Gooding et al. (2021) (abstract only).
   well-meant maxims before novice writers." His charge is against the *grammar* claims: "Its enormous
   influence has not improved American students' grasp of English grammar; it has significantly degraded
   it." A lesson that quotes the second sentence without the first misrepresents him.
+
+- **William Strunk Jr., *The Elements of Style* (privately printed, 1918).** Public domain, read in
+  full at [Project Gutenberg](https://www.gutenberg.org/cache/epub/37134/pg37134.txt). Reading it
+  changed this file's contested question, which is the argument for the rule that produced it.
+
+  Strunk's stated aim is modest: the book "aims to give in brief space the principal requirements of
+  plain English style," concentrating on "essentials, the rules of usage and principles of composition
+  most commonly violated." It does not claim to be a grammar.
+
+  **Rule 10, "Use the active voice," does not say what its critics report it saying.** Strunk states the
+  qualification himself, in 1918, in the rule's own third paragraph: "This rule does not, of course, mean
+  that the writer should entirely discard the passive voice, which is frequently convenient and sometimes
+  necessary." He then gives the pair "The dramatists of the Restoration are little esteemed to-day" and
+  "Modern readers have little esteem for the dramatists of the Restoration," and says which is right
+  depends on what the paragraph is about: "The need of making a particular word the subject of the
+  sentence will often, as in these examples, determine which voice is to be used." **That is the topic
+  position, seventy-two years before Gopen and Swan named it.** Strunk gets the reader-expectation point
+  right and files it under a rule that reads like a prohibition, which may be the most useful single
+  fact in this whole file.
+
+  **On Pullum's central charge, the primary source substantially exonerates Strunk.** Pullum says three
+  of the four example pairs under "Use the active voice" are "mistaken diagnoses" of the passive. Three
+  of those four sentences do appear in the 1918 rule 10. But they appear in a final paragraph that Strunk
+  introduces this way: "Many a tame sentence of description or exposition can be made lively and emphatic
+  by substituting a verb in the active voice for **some such perfunctory expression as *there is*, or
+  *could be heard*.**" He is not calling them passives. He names the fault himself, and it is the
+  existential *there were* and the limp *could be heard*, which is a real and teachable fault.
+
+  So the honest account is that **both men are partly right, and about different things**. The examples
+  do sit inside a rule headed "Use the active voice," so a reader can easily take them as passives, and
+  by Pullum's account generations of writing tutors did. That is a failure of organisation, and its
+  consequences are exactly what Pullum documents. But it is not evidence that Strunk could not tell a
+  passive from an adjective, because Strunk did not say those sentences were passive.
+
+  **Two of Pullum's specific charges land on White, not Strunk, and the 1918 text is the proof.**
+  The rule that *none* takes a singular verb, which Pullum demolishes with Wilde, Stoker and Montgomery,
+  **is not in the 1918 edition at all**. Neither is the prohibition on *which* in restrictive relative
+  clauses; Strunk's rule 3 simply distinguishes restrictive from non-restrictive clauses and punctuates
+  them, using "The candidate who best meets these requirements will obtain the place" against "The
+  audience, which had at first been indifferent, became more interested." Pullum says White added the
+  anti-*which* rule and revised away his old professor's counterexamples. The 1918 text is consistent
+  with that.
+
+  One example pair Pullum does not mention is worth teaching on its own, because it is the nominalisation
+  problem stated plainly in 1918: "A common fault is to use as the subject of a passive construction a
+  noun which expresses the entire action, leaving to the verb no function beyond that of completing the
+  sentence." His examples: "A survey of this region was made in 1900" against "This region was surveyed
+  in 1900"; "Mobilization of the army was rapidly effected" against "The army was rapidly mobilized."
+  **Note that both of Strunk's preferred versions are themselves passive.** He is not attacking the
+  passive there at all; he is attacking actions buried in nouns, which is Williams' and Gopen and Swan's
+  central point.
 
 ## Canonical textbooks
 
@@ -234,20 +285,31 @@ and the GOV.UK rules:
 ## Contested questions and the positions on each
 
 **1. What should a writer do with *The Elements of Style*?** *(Contested, Part 3.1: a live disagreement
-among informed people.)*
+among informed people. Reading the 1918 primary source moved this question and the lesson should show
+that, because the move is the method.)*
 
 - *The book's defenders* hold that it is a compact set of maxims that has demonstrably helped generations
   of novices, that its style advice is sound, and that its brevity is its virtue.
 - *Pullum's position*, in his own terms: the style advice is "mostly harmless" and some of it is
-  worthless but not damaging; the grammar is "atrocious," is often flatly contradicted by the authors'
-  own prose on the same page, and has "significantly degraded" a nation's grasp of its own grammar.
-- *What would settle it:* on the grammar claims, corpus evidence, which Pullum supplies and which anyone
-  can reproduce. On whether the maxims help novices, an actual trial, which as far as this research found
-  nobody has run.
-- **The course's honest position, and the reason:** teach the reader-expectation tradition (Gopen and
-  Swan, Williams), which describes what readers do, over the rule tradition, which asserts what writers
-  must not do. Say plainly that this is a choice between schools, and note that Pullum, the fiercest
-  critic of the rule tradition, recommends Williams. **Do not write this section from Pullum alone.**
+  worthless but not damaging; the grammar is "atrocious," is often contradicted by the authors' own prose
+  on the same page, and has "significantly degraded" a nation's grasp of its own grammar. His sharpest
+  charge is that three of the four example pairs under "Use the active voice" are not passives at all.
+- *What the 1918 text shows.* Strunk states the "don't discard the passive" qualification himself. He
+  chooses between active and passive on what the paragraph is about, which is the topic-position
+  principle. And the three sentences Pullum calls misdiagnosed passives are introduced by Strunk as
+  examples of "some such perfunctory expression as *there is*, or *could be heard*", which is a
+  different and defensible complaint. Meanwhile the *none* rule and the anti-*which* rule, two of
+  Pullum's strongest hits, are **absent from 1918** and so belong to White.
+- *Where that leaves it.* The organisational failure is real and its consequences are real: putting
+  those examples under a heading that says "Use the active voice" taught a lot of people to red-circle
+  anything containing *be*. Pullum's account of the damage stands. His account of Strunk's competence
+  does not, on this evidence, for the 1918 book. **White's edition has not been read and the question of
+  what he changed is open**; that is the gap to close.
+- **The course's position, and the reason:** teach the reader-expectation tradition, which describes
+  what readers do, rather than the rule tradition, which asserts what writers must not do. Say plainly
+  that this is a choice between schools, and note that Pullum, the fiercest critic of the rule tradition,
+  recommends Williams. Then show the reader this whole episode as a worked example of the course's own
+  method: a famous book, a famous attack on it, and what happens when you open the book yourself.
 
 **2. Do readability formulas measure anything useful?** *(Contested, with the expert view running against
 popular practice.)* The criticism found repeatedly in the literature is that formulas rest on surface

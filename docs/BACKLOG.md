@@ -91,12 +91,23 @@ quality and not much of anything honestly."* He is right, and the numbers say ho
      where "1 in 6 adults in England have very poor literacy skills", and the US federal plain-language
      guide, which also supplies the thing no popular writing course teaches: **how to test your writing
      on a real reader**, with paraphrase testing needing only six to nine people.
-   - **Three gaps SOURCES.md records and the drafter must close first.** (a) **Strunk and White has not
-     been opened**, and the only source in the file that quotes it is Pullum, who is attacking it. That
-     is defect 10 exactly, on the course's own contested question. (b) **Sommers (1980) has not been
-     read**; the free copy is a scanned JSTOR image with no extractable text, and it is the load-bearing
-     source for the editing lesson. (c) **No primary peer-reviewed critique of readability formulas was
-     reachable**; do not cite that critique to a source nobody opened.
+   - **The Strunk gap was found and closed in the same session, and what it turned up is the best thing
+     in the file.** The first draft of SOURCES.md quoted *The Elements of Style* only through Pullum, who
+     is attacking it: defect 10 exactly, sitting on the course's own contested question. **Strunk's 1918
+     original is public domain**, so there was no excuse, and reading it moved the question. Strunk
+     states the "do not discard the passive" qualification himself. He chooses between active and passive
+     on what the paragraph is about, which is the topic-position principle seventy-two years before Gopen
+     and Swan named it. And the three sentences Pullum calls misdiagnosed passives are introduced by
+     Strunk as examples of "some such perfunctory expression as *there is*, or *could be heard*", not as
+     passives at all. Meanwhile the *none* rule and the anti-*which* rule, two of Pullum's strongest
+     hits, are **absent from 1918** and so belong to White. The organisational failure Pullum documents
+     is real; the charge that Strunk could not tell a passive from an adjective is not, on this evidence.
+     **The lesson should show the whole episode as a worked example of the course's own method.**
+   - **Two gaps still open, and each blocks one lesson.** (a) **Sommers (1980) has not been read**; the
+     free copy is a scanned JSTOR image with no extractable text, and it is the load-bearing source for
+     the editing lesson. (b) **No primary peer-reviewed critique of readability formulas was reachable**;
+     do not cite that critique to a source nobody opened. White's 1959 revision is also still unread and
+     in copyright, which leaves open the question of what he changed.
    - **Status stays `published` while it is rebuilt**, because the build ships only published courses and
      setting it to `drafting` would delete a live course from the site. `.claude/commands/research-course.md`
      now carries this exception so the next rebuild does not trip on it.
