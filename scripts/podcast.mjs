@@ -42,10 +42,20 @@
 // hosts as characters belongs out of style_instructions too, because a casting note is an
 // invitation to recast; the style string now covers delivery only.
 //
-// VOICE CHECK. `render` measures the pitch distribution of what came back and `upload` refuses
-// a file that does not contain both a male-range and a female-range voice, which is what a
-// two-host episode has to contain. It needs ffmpeg on the path. Override with --force if you
-// have listened and disagree.
+// VOICE CHECK, and what it is and is not for. `render` prints the pitch distribution of what
+// came back. It is a report, not a gate: John asked on 2026-09-09 for no extra review step, and
+// he is right that pitch is a weak proxy. It catches a host recast outright (episode 4 of How to
+// Learn Anything has 16% of its voiced frames in the male range, episode 5 only 18% in the female
+// range) and it will not catch the subtler drift, which is real: Logic's three episodes are
+// consistent with each other and audibly different from How to Learn Anything's.
+//
+// THE DRIFT IS ACCEPTED, and this is settled. Asked directly on 2026-09-09, with the alternatives
+// costed, John chose to stay on Gemini and live with it. The alternatives, if it is ever
+// re-opened: fal-ai/elevenlabs/text-to-dialogue/eleven-v3 has fixed library voices, a seed, and
+// multi-speaker in one call at about $0.10 per 1,000 characters, and MiniMax voice-clone returns
+// a permanent custom_voice_id from a reference clip but is single-speaker per call, so every turn
+// would be rendered separately and stitched. Either one means re-rendering the whole institute so
+// the hosts match, which is the real cost. Do not switch engines without asking him.
 
 import fs from "node:fs";
 import path from "node:path";
@@ -222,7 +232,7 @@ function voiceCheck(file, quiet = false) {
   const ok = low > 0.2 && high > 0.2;
   if (!quiet) {
     console.log(`voice check: ${(low * 100).toFixed(0)}% of voiced frames below 140 Hz, ${(high * 100).toFixed(0)}% above 165 Hz` +
-      (ok ? "  both hosts present" : "  ONE HOST IS MISSING OR RECAST, listen before uploading"));
+      (ok ? "  both hosts present" : "  one host looks recast, worth a listen before uploading"));
   }
   return ok;
 }
@@ -230,11 +240,7 @@ function voiceCheck(file, quiet = false) {
 /* ---------- upload to R2 ---------- */
 async function upload() {
   if (!fs.existsSync(mp3Path)) { console.error(`No MP3 at ${show(mp3Path)}. Render first.`); process.exit(1); }
-  if (voiceCheck(mp3Path) === false && !FORCE) {
-    console.error("\nRefusing to upload: the pitch distribution says this file does not contain both hosts.");
-    console.error("The two presets are a steer to the model rather than a guarantee, so re-render it. Add --force if you have listened and it is fine.");
-    process.exit(1);
-  }
+
   console.log(`uploading ${show(mp3Path)} to ${BUCKET}/${r2Key} ...`);
   execFileSync("npx", ["wrangler", "r2", "object", "put", `${BUCKET}/${r2Key}`, "--file", mp3Path, "--content-type", "audio/mpeg", "--remote"], { stdio: "inherit", cwd: ROOT });
   const head = await fetch(publicUrl, { method: "HEAD" });

@@ -275,9 +275,23 @@ are thin, the fix is more worked examples rather than more prose.
   file that does not contain both a male-range and a female-range voice**, overridable with
   `--force`. It needs ffmpeg. Validated against the existing eight, where it passes six and flags
   exactly the two John would have flagged.
-  **Not re-rendered. John's call, asked and answered on 2026-09-09: he does not want them redone
-  now.** Episodes 4 and 5 of How to Learn Anything are the two to redo first if he changes his mind,
-  at about $0.40 each, and the check will confirm the new ones before they go up.
+  **The drift is accepted, and the check is a report rather than a gate. Both SETTLED with John on
+  2026-09-09, asked directly with the alternatives costed.** He does not want the episodes redone,
+  and he does not want a review step on every render, and he is right that pitch is a weak proxy:
+  it catches a host recast outright and misses the drift he actually hears. Measured: **Logic's
+  three episodes are consistent with each other and clearly different from How to Learn Anything's**
+  (46 to 50% of voiced frames below 140 Hz against 72%), so each rendering session gets its own pair
+  of hosts. **Gemini cannot be forced.** Its fal endpoint takes prompt, speakers, style, language,
+  temperature and output format; there is no seed and no reference audio, so a voice name is a
+  description the model re-imagines per call rather than an identity it loads.
+  **If it is ever re-opened, these are the two routes, both priced:**
+  `fal-ai/elevenlabs/text-to-dialogue/eleven-v3` has fixed library voices, a `seed`, a stability
+  control and multi-speaker in one call at $0.10 per 1,000 characters, about $0.70 an episode; and
+  `fal-ai/minimax/voice-clone` returns a permanent `custom_voice_id` from a reference clip we would
+  keep in the repo, which is the most locked-down option but is single-speaker per call, so every
+  turn is a separate render stitched with ffmpeg. Either one means re-rendering all twelve live
+  episodes so the institute matches, which is the real cost, around $8. **Do not switch engines
+  without asking John.**
 - **The hosts are John (Charon) and Haley (Aoede), and this is SETTLED.** John was asked directly on
   2026-09-08 and said keep them and render the backlog. Changing a host voice means re-rendering
   every episode in the institute, because the hosts have to sound the same everywhere. Do not
