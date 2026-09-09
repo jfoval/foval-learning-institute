@@ -25,7 +25,7 @@ quiz:
       The test is direction. An argument moves from what is offered to what is claimed; an
       explanation starts from something already granted and says why it happened. Nobody is
       being persuaded that attendance fell, because the report states it as a fact both it and
-      its reader accept. So B. Option B treats "because" as decisive, and the lesson 1 warning
+      its reader accept. So A. Option B treats "because" as decisive, and the lesson 1 warning
       is that indicator words are not failsafe: "because" appears in explanations as often as in
       arguments. Option C evaluates an argument that was never made. Option D is wrong because
       something is being offered, just not as support.
@@ -50,7 +50,7 @@ quiz:
     explain: >-
       Supply the premise the arguer would sign, and among those take the strongest. The
       neighbour's two sentences only connect if the warranty makes a difference to what the
-      service costs or covers, so B. Option A is a premise the neighbour might well accept, but
+      service costs or covers, so C. Option A is a premise the neighbour might well accept, but
       it makes the warranty date irrelevant, and the date is half the argument. Option B
       smuggles in a claim about this boiler that the neighbour never made and might reject.
       Option D is true and too weak to carry the step; it explains why warranties matter in
@@ -76,7 +76,7 @@ quiz:
       Validity is a property of the link, not of the sentences. There is no possible case where
       "all mammals lay eggs" and "all whales are mammals" are both true and "all whales lay
       eggs" is false, so the argument is valid; the first premise is false, so it is unsound.
-      That is A. Options A and C are belief bias, the effect Evans, Barston and Pollard measured
+      That is B. Options A and C are belief bias, the effect Evans, Barston and Pollard measured
       in 1983, where a conclusion you know to be false pulls the validity judgement with it.
       Option D reverses the definition; soundness is validity plus true premises.
   - q: An argument has all true premises and a true conclusion. What follows about its validity?
@@ -97,7 +97,7 @@ quiz:
     explain: >-
       Validity is about whether the conclusion could be false while the premises are true, which
       is a question about possible cases, not about the actual ones. "Paris is in France; grass
-      is green; so 2 + 2 = 4" has true premises and a true conclusion and no link at all. So C.
+      is green; so 2 + 2 = 4" has true premises and a true conclusion and no link at all. So D.
       Option A confuses "has not occurred" with "could not occur". Option B assumes what is
       being asked, since soundness is defined as validity plus true premises. Option C treats a
       link as something evidence about the premises could support, which it is not.
@@ -121,7 +121,7 @@ quiz:
     explain: >-
       A counterexample is a possible case, not an actual one, and it targets the form. "Some
       cats are black things; some black things are cars; so some cats are cars" has true
-      premises and a false conclusion in the same shape, which settles it. So B. Option B would
+      premises and a false conclusion in the same shape, which settles it. So A. Option B would
       show the conclusion false in one case without showing the form defective, and the
       conclusion might be true in your council while the argument is still invalid. Option C
       misreads the premises, which are perfectly consistent. Option D confuses invalidity with
@@ -193,7 +193,7 @@ quiz:
     answer: 1
     explain: >-
       The safe reading of "P unless Q" is "if not Q then P", which is the part nobody would
-      deny, and that is precisely the inference the supporter draws. So A. Option D has the
+      deny, and that is precisely the inference the supporter draws. So B. Option D has the
       direction backwards; the reverse reading is the one the sentence does not strictly
       license. Option C gets the verdict right by appealing to the direction that is not needed
       here. Option A overstates the difficulty: "unless" carries a defensible reading, and the
@@ -219,7 +219,7 @@ quiz:
     explain: >-
       Draw it. The report's diagrams sit inside "hand drawn". The "some" premise puts an X in
       the overlap of hand drawn and inaccurate, but nothing forces that X into the report's
-      region, so the premises can be true with the conclusion false. So B. Option B assumes the
+      region, so the premises can be true with the conclusion false. So A. Option B assumes the
       X lands where it is needed, which is the undistributed middle. Option C invokes
       existential import, which does not rescue this form. Option D states a rule that is not
       general; some valid forms do draw particular conclusions where a particular premise is
@@ -243,7 +243,7 @@ quiz:
     answer: 3
     explain: >-
       Representativeness beats size, and a self-selected sample of one magazine's readers is
-      drawn from exactly the people most likely to read a lot. So B. Option A gets the diagnosis
+      drawn from exactly the people most likely to read a lot. So D. Option A gets the diagnosis
       backwards by blaming size; 40,000 is ample and does not fix the bias. Option B makes the
       same mistake and dresses it in a margin of error, which measures sampling noise and not
       sampling bias. Option C names a real limitation of self-report, but it is not what turns
@@ -267,8 +267,7 @@ quiz:
     answer: 1
     explain: >-
       An analogy is only as good as the relevance of the feature that carries the inference.
-      Here the mechanism is traffic on residential roads, and a bypass changes exactly that, so
-      A. Option A names a difference that is real but not obviously relevant to a percentage
+      Here the mechanism is traffic on residential roads, and a bypass changes exactly that, so B. Option A names a difference that is real but not obviously relevant to a percentage
       change. Option C is too strong; a single well documented case is evidence, just not
       conclusive. Option D lists differences that every analogy has and that no analogy needs to
       survive, which would rule out all analogical reasoning.
@@ -317,7 +316,7 @@ quiz:
     explain: >-
       A conjunction can never be more probable than either of its conjuncts, because every case
       of "farmer and birdwatcher" is already a case of "farmer". Representativeness pulls hard
-      the other way, which is what Tversky and Kahneman found. So B. Option B is the conjunction
+      the other way, which is what Tversky and Kahneman found. So A. Option B is the conjunction
       fallacy stated in full. Option C overcorrects; the description does carry information, it
       just cannot make a conjunction beat its own conjunct. Option D asserts a base rate that
       happens to run the wrong way and is not needed for the answer.
@@ -342,7 +341,7 @@ quiz:
     explain: >-
       Take 10,000 people. About 50 have the condition and the test flags about 45 of them. Of
       the 9,950 who do not, 8% is about 796 flagged. So about 45 out of 841 positives are real,
-      which is close to 5%. That is C. Option A is the base rate neglect the format is designed
+      which is close to 5%. That is D. Option A is the base rate neglect the format is designed
       to expose; 90% is the chance of a positive given the condition, not the reverse. Option C
       confuses the false positive rate with the chance the result is wrong. Option B splits the
       difference without doing the count.
@@ -368,7 +367,7 @@ quiz:
       These are different quantities, and swapping them is the prosecutor's fallacy. How likely
       is the evidence if the defendant is innocent, against how likely is innocence given the
       evidence: the second depends on how many other people could have left that fibre, which
-      the statistic alone does not say. So C. Option A asserts the very identity that fails.
+      the statistic alone does not say. So B. Option A asserts the very identity that fails.
       Option C raises a real evidential concern that is not the logical error here. Option D
       asks for a figure that is usually close to 1 and would not repair the reversal.
   - q: >-
@@ -390,7 +389,7 @@ quiz:
     answer: 2
     explain: >-
       Charity means supplying the premise the arguer would sign, and among those the strongest.
-      Option C is defensible and does the work. So D. Options A and B are easy to refute and the
+      Option C is defensible and does the work. Options A and B are easy to refute and the
       colleague would reject both, which makes supplying them a straw man rather than a
       reconstruction. Option D replaces the stated reason with a motive, which is not a
       reconstruction of the argument at all.
@@ -414,7 +413,7 @@ quiz:
     answer: 0
     explain: >-
       Acceptability asks whether the audience can reasonably grant the premise. A premise that
-      needs evidence and has none fails there, whatever the link is doing. So B. Option B
+      needs evidence and has none fails there, whatever the link is doing. So A. Option B
       misdescribes relevance, which asks whether the premise bears on the conclusion, and this
       one does. Option C describes what happens after you drop the premise, not the condition it
       fails while it stands. Option D is wrong because ARG applies to the premises of any
@@ -440,7 +439,7 @@ quiz:
     explain: >-
       An appeal to authority is a legitimate argument form with critical questions attached, and
       here the field question does the work: expertise in cooking does not carry across to
-      metabolic medicine. So B. Option A convicts by form, which Massey's asymmetry says you
+      metabolic medicine. So D. Option A convicts by form, which Massey's asymmetry says you
       cannot do. Option B mistakes vividness for reliability; one recovery is a sample of one.
       Option C declines to ask any of the questions.
   - q: >-
@@ -465,7 +464,7 @@ quiz:
     explain: >-
       A slippery slope is an inductive argument about a chain, and its strength depends on
       whether each link has a mechanism and evidence. The safety officer supplies both; the
-      columnist supplies neither. So C. Option C convicts by form. Option A confuses the stakes
+      columnist supplies neither. So B. Option C convicts by form. Option A confuses the stakes
       with the support. Option D treats unfalsifiability as parity, when the absence of a stated
       mechanism is itself the weakness.
   - q: >-
@@ -488,7 +487,7 @@ quiz:
     explain: >-
       Three fewer strokes out of eight is a relative reduction of about 40%, so the headline is
       not arithmetically wrong; it is incomplete. The absolute reduction is 3 per 1,000, which
-      is what a reader needs to weigh the drug against its costs and harms. So A. Option A
+      is what a reader needs to weigh the drug against its costs and harms. So C. Option A
       disputes a rounding that is fine. Option B treats the relative figure as sufficient, which
       is the habit the lesson exists to break. Option D describes a relationship between the two
       figures that is not what "overstating by the base rate" would mean.

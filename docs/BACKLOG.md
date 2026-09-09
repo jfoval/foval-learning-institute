@@ -366,13 +366,18 @@ see the note in §2.
 
 ### Small jobs, each under an hour
 
-- **Logic's final test has explanations that name the wrong option letter.** Verified, not guessed:
-  item 1's answer is A and its explanation says "So B"; item 2's answer is C and its explanation says
-  "so B" and then discusses options A and B as though the order were different. Items 3, 11 and 14
-  also flag. This is live on a published course and a learner who answers correctly is told they were
-  wrong. Bible Basics lesson 3 item 2 flags too. Find them with:
-  `node -e` over every quiz, comparing `answer` against the letter the `explain` names; the scan has
-  false positives where the explanation opens with the correct letter, so check each by eye.
+- ~~**Logic's final test has explanations that name the wrong option letter.**~~ **FIXED 2026-09-09,
+  all seventeen of them**, after John found it. Every explanation ended on a verdict sentence ("So B.",
+  "That is C.") naming an option letter, and in 17 of the 20 items that letter was not the key: item 1's
+  answer is A and it said "So B", item 2's answer is C and it said "so B". **The cause is legible in the
+  wreckage and worth knowing: the per-option discussion inside each explanation was correct in every
+  case, and only the verdict sentence was wrong**, which is what happens when a fix pass reorders options
+  to spread the answer indices and updates the `answer:` field without re-reading the prose. The scan is
+  now a script, `node scripts/check-quiz-letters.cjs`, which flags an explanation whose verdict names a
+  letter other than the key and (separately) one that discusses the key as though it were a distractor.
+  It has false positives on explanations that open "Option C is ...", so read each hit. Run over all 58
+  lessons and 4 assessments after the fix: the Logic final test was the only file affected. **Bible
+  Basics lesson 3 item 2, flagged in the old note, was checked by eye and is correct.**
 - **Writing Clearly's nine lessons have had no Stage 4 cycle and no voice pass.** They validate clean
   and were drafted carefully, but drafted is not reviewed.
 
