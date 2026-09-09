@@ -19,12 +19,18 @@ text); Gooding et al. (2021) (abstract only).
 
 **NOT read, and therefore not yet citable as read:**
 
-- **Sommers (1980), "Revision Strategies of Student Writers and Experienced Adult Writers."** The freely
-  posted copy is a scanned JSTOR image with no extractable text. Everything this file records about it
-  comes from secondary summaries. **Before the editing lesson is drafted, someone must open the actual
-  article**, because it is the single most load-bearing source for that lesson and its most quotable
-  finding (students treat revision as rewording) is exactly the kind of claim that gets garbled in
-  summary.
+- ~~**Sommers (1980)**~~ **PARTLY CLOSED 2026-09-09, and the closing produced a correction.** The 1980
+  *College Composition and Communication* article is still unread; its free copy is a scanned JSTOR
+  image with no extractable text. But **Sommers' 1982 report to the National Institute of Education
+  (ERIC ED220839, 198 pages) has now been read**, and its text extracted from the scan. It carries the
+  same title and covers the same work at much greater length.
+  **The correction: every secondary summary consulted for this course says the study used twenty
+  first-year students and twenty experienced adult writers. The 1982 report's own abstract says
+  "eight freshman students and seven experienced adult writers".** Whatever the 1980 article says,
+  this course must not repeat the twenty-and-twenty figure, which it cannot source to anything it has
+  read. See the entry under *Key research* for what can now be cited.
+  Note the source is an OCR scan of poor quality, so quotations have been taken only from passages
+  where the scan is unambiguous.
 - **White's 1959 revision of *The Elements of Style*.** Still not read, and still in copyright. Every
   statement in this file about *White's* edition comes from Pullum, who is attacking it. Before the
   lesson on the contested question is drafted, open a copy: the difference between the two editions
@@ -233,14 +239,41 @@ text); Gooding et al. (2021) (abstract only).
   second is the honest correction to any "this text scores grade 8" claim: difficulty is a relation
   between a text and a reader, not a property of the text.
 
-- **Nancy Sommers, "Revision Strategies of Student Writers and Experienced Adult Writers," *College
-  Composition and Communication* 31 (December 1980).** **Not read; see the gap note.** As reported: 20
-  first-year students and a group of experienced writers (academics, editors, journalists) each wrote
-  three essays through successive drafts. The reported finding that matters for the editing lesson is
-  that students treat revision as "a rewording activity" because they take the word as the unit of
-  discourse, using a thesaurus as "a harvest of lexical substitutions," while experienced writers work
-  with a codified sense of shape and argument. If that holds up on reading, it is the misconception the
-  editing lesson exists to break.
+- **Nancy Sommers, *Revision Strategies of Student Writers and Experienced Adult Writers*, report to
+  the National Institute of Education, 12 June 1982 (ERIC [ED220839](https://files.eric.ed.gov/fulltext/ED220839.pdf),
+  198 pp., contract NIE-P-80-0229).** Read. This is what lesson 9 cites, in place of the 1980 article,
+  which remains unread.
+  - **Method, from the abstract:** "eight freshman students and seven experienced adult writers were
+    asked to write three compositions, rewrite each composition two times, suggest revisions for a
+    composition written by an anonymous author, and be interviewed three times." Students wrote in
+    class; the adults wrote at home or in their offices. The tasks were expressive, explanatory and
+    persuasive.
+  - **The central finding, in her words:** "the student writers have operational procedures for
+    revising and reasons to explain their procedures, but ... they have not codified or synthesized the
+    procedures into a theory of the revision process. The experienced writers, on the other hand, have
+    a codified set of principles about how their revision process works. For the experienced writers
+    revision was not a stage but rather a process that occurred throughout their writing. Their first
+    drafts were already the results of an elaborate revision process."
+  - **The theoretical claim:** the evidence "calls for a rejection of the linear stage theory", and her
+    alternative is dissonance, in which writers "sense dissonance, tolerate dissonance, and resolve
+    dissonance."
+  - **Her coding scheme**, which is a teachable object in itself: four revision operations, "deletion,
+    substitution, addition, and reordering", against four levels of change, "word, phrase, sentence,
+    and thema", where a thema is "an extended statement of one idea."
+  - **Her critique of the textbooks**, which is the sharpest material for the lesson: an examination of
+    fifteen composition texts "yields 23 terms used synonymously with revision"; the texts equate
+    revision with cleanliness, "to groom, to polish, to order, and to tidy-up one's writing"; and their
+    structure teaches that revision is "that interlude after you finish writing the first draft and
+    before you type the paper."
+  - **The two contrasting voices** the lesson uses. Michael, a student, rewords when a word is "too
+    childish" or repeated, and his "strategy is to use a thesaurus to improve the 'sophistication' and
+    thus the appropriateness of his writing". Debra, an experienced writer: "Rewriting means the deep
+    structural changes, the content. Revising means the surface changes, word and phrases. Rewriting is
+    the global process, revising the local process. In rewriting, I am more audience oriented."
+  - **Not found in this report**, and therefore not citable: the phrases "rewording activity",
+    "thesaurus philosophy of writing" and "a harvest of lexical substitutions", all of which the
+    secondary summaries attribute to the 1980 article. Michael's thesaurus material above says
+    something close, in the report's own words, and is what the lesson uses instead.
 
 ## What the field considers essential
 
