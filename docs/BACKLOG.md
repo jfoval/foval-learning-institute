@@ -82,9 +82,31 @@ quality and not much of anything honestly."* He is right, and the numbers say ho
    - **All ten SVG token collisions** are fixed, not just lessons 7 and 8. See §14.
 
 2. **Clear Writing, rebuilt.** T1, four stubs, and the course about writing well is the worst-written
-   thing on the site. That is the one that costs credibility. **It is a rebuild, not an
-   improvement**: Stage 1 research, Stage 2 outline, then draft fresh to about nine lessons. Do not
-   run Stage 4 on the existing stubs; replacing them is cheaper than reviewing them.
+   thing on the site. **A rebuild, not an improvement.** Do not run Stage 4 on the existing stubs;
+   replacing them is cheaper than reviewing them.
+   - ~~**Stage 1 research.**~~ **DONE 2026-09-08**, in `research/SOURCES.md`. The spine is the
+     reader-expectation tradition: Gopen and Swan's seven structural principles (read in full, quoted
+     verbatim, including their own caveat that none of them is a rule) and Williams' characters-as-
+     subjects and actions-as-verbs. The concrete rules come from GOV.UK, which is written for a country
+     where "1 in 6 adults in England have very poor literacy skills", and the US federal plain-language
+     guide, which also supplies the thing no popular writing course teaches: **how to test your writing
+     on a real reader**, with paraphrase testing needing only six to nine people.
+   - **Three gaps SOURCES.md records and the drafter must close first.** (a) **Strunk and White has not
+     been opened**, and the only source in the file that quotes it is Pullum, who is attacking it. That
+     is defect 10 exactly, on the course's own contested question. (b) **Sommers (1980) has not been
+     read**; the free copy is a scanned JSTOR image with no extractable text, and it is the load-bearing
+     source for the editing lesson. (c) **No primary peer-reviewed critique of readability formulas was
+     reachable**; do not cite that critique to a source nobody opened.
+   - **Status stays `published` while it is rebuilt**, because the build ships only published courses and
+     setting it to `drafting` would delete a live course from the site. `.claude/commands/research-course.md`
+     now carries this exception so the next rebuild does not trip on it.
+   - **Next: Stage 2, the outline**, to about nine lessons. SOURCES.md ends with the essential sequence
+     the outline should follow and says what the current four lessons do not cover: characters and
+     actions, topic and stress position, document shape, and testing.
+
+   *Also fixed in passing:* four `course.yaml` files showed learners a level vocabulary the map does not
+   use ("Beginner", "All levels" against the map's Foundation/Core/Advanced). All seven courses now
+   agree with their row in TAXONOMY.md.
 
 3. **Personal Finance lessons 7 to 10, plus its two assessments.** The cheapest completion on the
    board, because Stages 1 and 2 are done: `research/OUTLINE.md` specifies all four lessons, the

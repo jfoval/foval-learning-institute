@@ -6,6 +6,40 @@ the institute works. Items move here out of `BACKLOG.md` when they are done.
 Everything from the founding onwards is here. Entries before 2026-09-06 came from the old root
 `CHANGELOG.md`, which was merged into this file on 2026-09-06 so there is only one changelog.
 
+## 2026-09-08 (night) — Stage 1 research for Writing Clearly
+
+Queue item 2 begins. The course about writing well has been live since launch as four placeholder
+lessons averaging 452 words with no citations, no links and no research behind them, so it is being
+replaced rather than improved. `courses/communication-and-people/clear-writing/research/SOURCES.md`
+is the first research it has ever had.
+
+**The spine is the reader-expectation tradition rather than the rule tradition.** Gopen and Swan's
+"The Science of Scientific Writing" (1990) was read in full and its seven structural principles are
+quoted verbatim, along with the caveat that matters as much as they do: "None of these
+reader-expectation principles should be considered 'rules.'" Williams' *Style* supplies the same core
+from another direction, characters as subjects and actions as verbs. The concrete, testable rules come
+from GOV.UK, which writes for a country where "1 in 6 adults in England have very poor literacy
+skills" and which answers the clever writer's objection directly: "people with higher levels of
+literacy prefer plain English because it allows them to understand the information as quickly as
+possible." The US federal plain-language guide adds the thing no popular writing course teaches, how
+to test a draft on real readers, with paraphrase testing needing six to nine people.
+
+**The file records what was not read, and why that governs the drafting.** Strunk and White has not
+been opened, and the only source in the file that quotes it is Pullum, who is attacking it: that is
+defect 10 in the backlog's own list, sitting on the course's central contested question. Sommers
+(1980) has not been read because the free copy is a scanned image with no extractable text, and it is
+the load-bearing source for the editing lesson. No primary peer-reviewed critique of readability
+formulas was reachable. All three are marked as gaps to close before the lessons that depend on them.
+Pullum's own qualifier is recorded too, because it is the kind that gets trimmed: his objection is
+"not the style advice in *Elements*, which might best be described the way The Hitchhiker's Guide to
+the Galaxy describes Earth: mostly harmless." His charge is against the grammar.
+
+**Two process notes.** The course stays `status: published` while it is rebuilt, because the build
+ships only published courses and setting it to `drafting` would delete a live course from the site;
+`.claude/commands/research-course.md` now carries that exception. And four `course.yaml` files were
+showing learners a level vocabulary the map does not use, "Beginner" and "All levels" against
+Foundation/Core/Advanced; all seven courses now agree with their row in TAXONOMY.md.
+
 ## 2026-09-08 (evening) — the honesty pass: reading times, images, and every chart defect
 
 Queue item 1. Nothing here needed research and all of it was a small lie to a learner.

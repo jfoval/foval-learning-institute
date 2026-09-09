@@ -23,3 +23,5 @@ Then research. Use WebSearch and WebFetch extensively. You are looking for what 
 Write `$ARGUMENTS/research/SOURCES.md` following the template. For each source say what it is good for and what it establishes. Include a section "What the field considers essential" and a section "Contested questions and the positions on each". Aim for 1,000–3,000 words. Be specific: chapter numbers, page references, section names.
 
 When done, set `status: drafting` in course.yaml, update the course's row in `curriculum/TAXONOMY.md`, and summarise what you found and any concerns about the course's scope.
+
+**Exception, for a live course being rebuilt in place.** The build ships only `status: published`, so setting a live course to `drafting` deletes it from the site. When you are researching a course that learners can already read, **leave `status: published`** and say in SOURCES.md that you did and why. The rebuild happens lesson by lesson underneath a course that stays up. This applies to Writing Clearly, Algebra Essentials and Python Basics; see `docs/BACKLOG.md` §2.
