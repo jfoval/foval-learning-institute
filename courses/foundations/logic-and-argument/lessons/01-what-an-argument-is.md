@@ -1,6 +1,7 @@
 ---
 title: What an argument is, and how to find the missing step
 minutes: 85
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/foundations/logic-and-argument/01-what-an-argument-is.mp3
 objectives:
   - Identify the conclusion and premises of a passage and rewrite it in standard form
   - Distinguish an argument from an explanation, a report, a bare assertion, and a lone conditional
