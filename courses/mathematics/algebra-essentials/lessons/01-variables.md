@@ -5,7 +5,133 @@ objectives:
   - Say what a letter in algebra stands for, and what it does not stand for
   - Evaluate an expression by substituting a number and doing the arithmetic in the right order
   - Write an expression for a quantity described in words, and check it by putting a number in
-quiz: []
+quiz:
+  - q: >-
+      Evaluate `x squared minus 4x` when `x = -3`. Write the substitution line before you
+      compute anything.
+    options:
+      - >-
+          Minus three, from nine minus twelve, both terms handled correctly
+      - >-
+          Minus twenty one, from minus nine and then minus twelve as well
+      - >-
+          Twenty one, from nine plus twelve, since both terms are positive
+      - >-
+          Three, from minus nine plus twelve, with the power taken first
+    answer: 2
+    explain: >-
+      Substitute with brackets first: `(-3)^2 - 4(-3)`. The power comes before the
+      multiplication, and `(-3)^2` is `(-3) x (-3)`, which is +9, because a negative times a
+      negative is positive. Then `4(-3)` is -12, and subtracting -12 is adding 12. So 9 + 12 =
+      21. Option A is what you get if you handle the power correctly and then forget that
+      subtracting a negative adds. Option B is the commonest slip in the lesson: writing -3^2
+      without brackets, which reads as the negative of 3 squared. Option D makes both errors at
+      once.
+  - q: >-
+      A gym charges $30 to join and $22 a month. Which expression gives the total cost after `m`
+      months, and what does it give for eight months?
+    options:
+      - >-
+          `30m + 22`, which gives two hundred and sixty two dollars
+      - >-
+          `30 + 22m`, which is two hundred and six dollars
+      - >-
+          `52m`, which is four hundred and sixteen dollars
+      - >-
+          `30 + 22 + m`, which gives sixty dollars at eight months
+    answer: 1
+    explain: >-
+      The joining fee is paid once, so it is not multiplied by anything; the monthly charge is
+      paid `m` times, so it is. That gives `30 + 22m`, and at eight months, 30 + 176 = 206.
+      Option A has the two numbers swapped, which is the most common way to get this wrong and
+      is worth catching with a check: at `m = 1` it gives 52, and one month should cost 30 + 22
+      = 52 as well, so one value does not separate them. Try `m = 2`: the right expression gives
+      74 and option A gives 82. Option C adds the two rates as though the joining fee repeated.
+      Option D treats a rate as a single dollar.
+  - q: >-
+      Someone writes `4a + 2a = 6a squared`. Without knowing any rule about like terms, how
+      would you show them it is wrong in ten seconds?
+    options:
+      - >-
+          Put a number in: at `a = 3` the left is eighteen and the right fifty four
+      - >-
+          Point out that only the numbers add and the letter itself never changes
+      - >-
+          Point out that squaring appears nowhere at all on the left hand side here
+      - >-
+          Put a number in: at `a = 1` both sides give six, so the claim holds
+    answer: 0
+    explain: >-
+      The habit this lesson is building is testing a claim with a number, because it needs no
+      rule and it settles the matter. At `a = 3`, the left side is 12 + 6 = 18, and the right
+      side is 6 x 9 = 54. Eighteen is not fifty four, so the claim is false. Option D shows why
+      one test value is not always enough: `a = 1` is the value where squaring changes nothing,
+      so it hides the error. Pick a value other than 0 or 1. Options B and C are both true and
+      both are rules, which is the thing you may not remember under pressure; the numerical
+      check is the thing you can always do.
+  - q: >-
+      Which of these means the same as `2 + 3 x 4`?
+    options:
+      - >-
+          Twenty, because the operations are read from left to right
+      - >-
+          Either, depending on which convention a country uses
+      - >-
+          Fourteen, because addition is done before multiplication
+      - >-
+          Fourteen, because multiplication is done before addition
+    answer: 3
+    explain: >-
+      The order of operations puts multiplication before addition, so 3 x 4 is done first and
+      the answer is 14. Option A is the left-to-right reading, which is the intuitive one and is
+      wrong. Option C reaches the right number by stating the rule backwards, which is worth
+      noticing: a correct answer with a wrong reason will fail on the next question. Option B is
+      the interesting one, because the order of operations really is a convention rather than a
+      law of nature. What makes it useful is that everybody has agreed on it, so the same string
+      of symbols means the same thing to everyone.
+  - q: >-
+      A phone plan is twelve dollars a month plus five cents a minute, written `12 + 0.05m`.
+      Your bill is forty four dollars. Before any algebra, how do you find the minutes, and how
+      many were there?
+    options:
+      - >-
+          Divide forty four by 0.05, which gives eight hundred and eighty minutes
+      - >-
+          Take off the twelve, then divide by 0.05, giving six hundred and forty
+      - >-
+          Divide forty four by 12.05, which gives about three and a half minutes
+      - >-
+          Take off the twelve, then multiply by 0.05, which gives one dollar sixty
+    answer: 1
+    explain: >-
+      Undo the expression in the reverse order it was built. The twelve was added last, so take
+      it off first: 44 - 12 = 32 dollars of call charges. Those were built by multiplying the
+      minutes by 0.05, so divide: 32 / 0.05 = 640 minutes. That undoing is exactly what solving
+      an equation is, and lesson 3 writes it down as a method. Option A forgets that twelve
+      dollars of the bill was never call charges. Option C invents an operation from the two
+      numbers in the expression. Option D undoes the multiplication in the wrong direction, and
+      the units give it away: a number of minutes should not come out in dollars.
+  - q: >-
+      Write an expression for 'four less than three times a number', then check it with the
+      number ten.
+    options:
+      - >-
+          `3n - 4`, and at ten it gives twenty six, which is right
+      - >-
+          `4 - 3n`, and at ten it gives minus twenty six, which is right
+      - >-
+          `3(n - 4)`, and at ten it gives eighteen, which is right
+      - >-
+          `4 - 3n`, and at ten it gives twenty six, which is right
+    answer: 0
+    explain: >-
+      Three times ten is thirty, and four less than that is twenty six, so the check tells you
+      which expression is correct without you having to trust the word order. `3n - 4` at `n =
+      10` gives 26. Option B writes the symbols in the order the words arrive, which is the
+      reversal error this course meets properly in lesson 5, and it gives -26 rather than 26.
+      Option C subtracts four before multiplying, which is a different quantity: 3 x 6 = 18.
+      Option D pairs the wrong expression with the right value, which is what happens when you
+      check carelessly, and it is why the check has to be done rather than assumed.
 ---
 
 Here is a sentence you can already do something with. **Your phone plan costs $12 a month, plus 5 cents for every minute you talk.**
