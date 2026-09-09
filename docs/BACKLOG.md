@@ -304,16 +304,14 @@ are thin, the fix is more worked examples rather than more prose.
   turn is a separate render stitched with ffmpeg. Either one means re-rendering all twelve live
   episodes so the institute matches, which is the real cost, around $8. **Do not switch engines
   without asking John.**
-- **The hosts are John and Haley, and they are now Iapetus and Erinome** (they were Charon and
-  Aoede until 2026-09-09). John's call, after learning that the 30 Gemini voices are fixed presets
-  published by Google with one characteristic each. Charon is "Informative" and Aoede is "Breezy";
-  **Iapetus and Erinome are the only pair whose published characteristic is simply "Clear"**, which
-  is the plainest thing on the list, and the reasoning is that a characterful descriptor gives a
-  generative model something to act while a plain one leaves it less room. That is reasoning, not a
-  measurement. **Nothing has been re-rendered:** the twelve live episodes are still Charon and
-  Aoede, so the next episode rendered will not match them, which John accepted when he accepted the
-  drift. If he ever wants the institute to match, it is twelve episodes at about $0.40.
-- **The host pairing itself is SETTLED.** John was asked directly on
+- **The hosts are John (Charon) and Haley (Aoede). SETTLED, and re-settled on 2026-09-09.** They
+  were switched that day to Iapetus and Erinome, the only pair of Google's 30 prebuilt voices whose
+  published characteristic is simply "Clear", on the reasoning that a characterful descriptor
+  (Charon is "Informative", Aoede is "Breezy") gives a generative model something to act. **John
+  reversed it within the hour and declined a sample render.** The reason is the better one: the
+  twelve live episodes are Charon and Aoede, and matching what exists beats a theory about
+  descriptors. Do not re-open.
+- **The pairing was confirmed once before, on 2026-09-08:** John was asked directly on
   2026-09-08 and said keep them and render the backlog. Changing a host voice means re-rendering
   every episode in the institute, because the hosts have to sound the same everywhere. Do not
   re-open.

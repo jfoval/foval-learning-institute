@@ -27,14 +27,12 @@
 // episode was re-rendered from the same scripts. Billing is per character in rather than
 // per minute out, $0.05 per 1,000 characters, which comes to about $0.50 an episode.
 //
-// The voices are the institute's hosts: S1 is John, the teaching voice, and S2 is Haley, the
-// curious one. They were Charon and Aoede until 2026-09-09 and are now Iapetus and Erinome.
-// Google publishes all 30 prebuilt voices with one characteristic each, and these two are the
-// only pair whose published characteristic is simply "Clear". Charon is "Informative" and Aoede
-// is "Breezy", and the reasoning for the change, which is John's, is that a characterful
-// descriptor is something for a generative model to act, while a plain one leaves it less room.
-// That is reasoning rather than a measured result; the presets are real and fixed, and what
-// varies between renders is how they are realised.
+// The voices are the institute's hosts: S1 is John (Charon) and S2 is Haley (Aoede), and this is
+// SETTLED. They were briefly changed to Iapetus and Erinome on 2026-09-09, the only pair of
+// Google's 30 prebuilt voices whose published characteristic is simply "Clear", on the reasoning
+// that a characterful descriptor gives a generative model something to act. John reversed it the
+// same day: the twelve live episodes are Charon and Aoede, and matching them matters more than a
+// theory about descriptors. Do not change the hosts without asking him.
 //
 // TEMPERATURE, and why it is set. John noticed on 2026-09-09 that the hosts do not sound the
 // same from one How to Learn Anything episode to the next. They were all rendered in one batch
@@ -71,8 +69,8 @@ const BUCKET = "foval-audio";
 const PUBLIC_BASE = "https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev";
 const ENDPOINT = "https://queue.fal.run/fal-ai/gemini-3.1-flash-tts";
 const SPEAKERS = [
-  { speaker_id: "John", voice: "Iapetus" },
-  { speaker_id: "Haley", voice: "Erinome" },
+  { speaker_id: "John", voice: "Charon" },
+  { speaker_id: "Haley", voice: "Aoede" },
 ];
 const STYLE = "Unhurried and conversational, thinking aloud rather than reading aloud. Keep each speaker's voice exactly as configured and consistent from start to finish. Never announcer-bright.";
 const TEMPERATURE = 0.25;
