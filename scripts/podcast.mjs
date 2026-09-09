@@ -31,6 +31,21 @@
 // professional), S2 is Haley, the curious one (Aoede, warm). Change them only if John
 // changes the hosts, and re-render every episode when you do, because the hosts have to
 // sound the same across the institute.
+//
+// TEMPERATURE, and why it is set. John noticed on 2026-09-09 that the hosts do not sound the
+// same from one How to Learn Anything episode to the next. They were all rendered in one batch
+// on 2026-09-08 with these same two presets pinned, so it is not a stale-file problem, and
+// measuring the audio confirms the drift: the median pitch of the first minute runs from 140 Hz
+// to 173 Hz across the eight, and episode 4 has no male-range speech in its first 45 seconds at
+// all. The presets are a strong steer to this model, not a hard constraint, and fal's default
+// temperature is 1, which we were never setting. It is now 0.25. Anything that describes the
+// hosts as characters belongs out of style_instructions too, because a casting note is an
+// invitation to recast; the style string now covers delivery only.
+//
+// VOICE CHECK. `render` measures the pitch distribution of what came back and `upload` refuses
+// a file that does not contain both a male-range and a female-range voice, which is what a
+// two-host episode has to contain. It needs ffmpeg on the path. Override with --force if you
+// have listened and disagree.
 
 import fs from "node:fs";
 import path from "node:path";
@@ -45,7 +60,8 @@ const SPEAKERS = [
   { speaker_id: "John", voice: "Charon" },
   { speaker_id: "Haley", voice: "Aoede" },
 ];
-const STYLE = "Two hosts in conversation for a podcast: unhurried, warm and natural, thinking aloud rather than reading. John teaches, Haley asks. Never announcer-bright.";
+const STYLE = "Unhurried and conversational, thinking aloud rather than reading aloud. Keep each speaker's voice exactly as configured and consistent from start to finish. Never announcer-bright.";
+const TEMPERATURE = 0.25;
 const COST_PER_1K_CHARS = 0.05;
 const COST_CAP = 2;
 
@@ -116,6 +132,7 @@ async function render() {
     prompt,
     speakers: SPEAKERS,
     style_instructions: STYLE,
+    temperature: TEMPERATURE,
     language_code: "English (US)",
     output_format: "mp3",
   };
@@ -160,11 +177,64 @@ async function render() {
   fs.mkdirSync(path.dirname(mp3Path), { recursive: true });
   fs.writeFileSync(mp3Path, buf);
   console.log(`\nwrote ${show(mp3Path)} (${(buf.length / 1024 / 1024).toFixed(1)} MB). Listen before uploading.`);
+  voiceCheck(mp3Path);
+}
+
+/* ---------- voice check: does this file actually contain both hosts? ---------- */
+// Decodes three sampled windows to mono 16 kHz and estimates the pitch of each voiced frame by
+// autocorrelation. A correct episode is bimodal: Charon sits low and Aoede sits high, so both
+// bands should be well populated. A file where one band is nearly empty is one where the model
+// has recast a host, which is the defect this exists to catch. Returns null if ffmpeg is absent.
+function voiceCheck(file, quiet = false) {
+  let raw;
+  const windows = [[20, 40], [180, 40], [420, 40]];
+  const f0 = [];
+  for (const [start, dur] of windows) {
+    try {
+      raw = execFileSync("ffmpeg", ["-v", "quiet", "-ss", String(start), "-t", String(dur), "-i", file,
+        "-f", "f32le", "-ac", "1", "-ar", "16000", "-"], { maxBuffer: 1 << 28 });
+    } catch { if (!quiet) console.log("voice check skipped: ffmpeg is not on the path"); return null; }
+    const x = new Float32Array(raw.buffer, raw.byteOffset, Math.floor(raw.length / 4));
+    const sr = 16000, w = 0.04 * sr, hop = 0.02 * sr;
+    for (let i = 0; i + w < x.length; i += hop) {
+      let energy = 0;
+      for (let k = 0; k < w; k++) energy += x[i + k] * x[i + k];
+      if (Math.sqrt(energy / w) < 0.02) continue;
+      let mean = 0;
+      for (let k = 0; k < w; k++) mean += x[i + k];
+      mean /= w;
+      let r0 = 0;
+      for (let k = 0; k < w; k++) { const v = x[i + k] - mean; r0 += v * v; }
+      if (r0 <= 0) continue;
+      let best = 0, bestLag = 0;
+      for (let lag = Math.floor(sr / 300); lag < Math.floor(sr / 70); lag++) {
+        let s = 0;
+        for (let k = 0; k + lag < w; k++) s += (x[i + k] - mean) * (x[i + k + lag] - mean);
+        const r = s / r0;
+        if (r > best) { best = r; bestLag = lag; }
+      }
+      if (best > 0.35 && bestLag) f0.push(sr / bestLag);
+    }
+  }
+  if (f0.length < 200) { if (!quiet) console.log("voice check inconclusive: too little voiced audio sampled"); return null; }
+  const low = f0.filter(v => v < 140).length / f0.length;
+  const high = f0.filter(v => v > 165).length / f0.length;
+  const ok = low > 0.2 && high > 0.2;
+  if (!quiet) {
+    console.log(`voice check: ${(low * 100).toFixed(0)}% of voiced frames below 140 Hz, ${(high * 100).toFixed(0)}% above 165 Hz` +
+      (ok ? "  both hosts present" : "  ONE HOST IS MISSING OR RECAST, listen before uploading"));
+  }
+  return ok;
 }
 
 /* ---------- upload to R2 ---------- */
 async function upload() {
   if (!fs.existsSync(mp3Path)) { console.error(`No MP3 at ${show(mp3Path)}. Render first.`); process.exit(1); }
+  if (voiceCheck(mp3Path) === false && !FORCE) {
+    console.error("\nRefusing to upload: the pitch distribution says this file does not contain both hosts.");
+    console.error("The two presets are a steer to the model rather than a guarantee, so re-render it. Add --force if you have listened and it is fine.");
+    process.exit(1);
+  }
   console.log(`uploading ${show(mp3Path)} to ${BUCKET}/${r2Key} ...`);
   execFileSync("npx", ["wrangler", "r2", "object", "put", `${BUCKET}/${r2Key}`, "--file", mp3Path, "--content-type", "audio/mpeg", "--remote"], { stdio: "inherit", cwd: ROOT });
   const head = await fetch(publicUrl, { method: "HEAD" });

@@ -259,6 +259,25 @@ are thin, the fix is more worked examples rather than more prose.
   fact-checked script and re-uploaded over the same R2 key, so no lesson frontmatter changed. Cost:
   $2.96 for the nine, plus $0.32 for the first test render. `FAL_KEY` lives in `.env.local`
   (git-ignored) and `scripts/podcast.mjs` reads it automatically.
+- **The hosts drift between episodes, and the cause is found. John heard it on 2026-09-09**, in How
+  to Learn Anything: different men and different women from one lesson to the next. It is not stale
+  files and it is not a wrong host setting. All eight episodes were uploaded to R2 inside twenty-one
+  seconds of each other on 2026-09-08, so they are one batch from one configuration, and the request
+  pins `speakers: [{John, Charon}, {Haley, Aoede}]`, which is exactly the shape fal's own schema
+  documents. **The presets are a strong steer to this model, not a hard constraint, and we were
+  never setting `temperature`, whose default on fal is 1.** Measuring the audio confirms the drift:
+  the median pitch of the opening minute runs from 140 Hz to 173 Hz across the eight, and on a
+  pitch-band count **episode 4 has only 16% of its voiced frames in the male range (John recast
+  high) and episode 5 only 18% in the female range (Haley recast low)**. The other six are fine.
+  Fixed forward in `scripts/podcast.mjs`: `temperature: 0.25`, the host descriptions taken out of
+  `style_instructions` (a casting note invites recasting; the string now covers delivery only), and
+  a **voice check that measures the pitch distribution after every render and refuses to upload a
+  file that does not contain both a male-range and a female-range voice**, overridable with
+  `--force`. It needs ffmpeg. Validated against the existing eight, where it passes six and flags
+  exactly the two John would have flagged.
+  **Not re-rendered. John's call, asked and answered on 2026-09-09: he does not want them redone
+  now.** Episodes 4 and 5 of How to Learn Anything are the two to redo first if he changes his mind,
+  at about $0.40 each, and the check will confirm the new ones before they go up.
 - **The hosts are John (Charon) and Haley (Aoede), and this is SETTLED.** John was asked directly on
   2026-09-08 and said keep them and render the backlog. Changing a host voice means re-rendering
   every episode in the institute, because the hosts have to sound the same everywhere. Do not
