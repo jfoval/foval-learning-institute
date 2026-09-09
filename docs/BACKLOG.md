@@ -111,9 +111,28 @@ quality and not much of anything honestly."* He is right, and the numbers say ho
    - **Status stays `published` while it is rebuilt**, because the build ships only published courses and
      setting it to `drafting` would delete a live course from the site. `.claude/commands/research-course.md`
      now carries this exception so the next rebuild does not trip on it.
-   - **Next: Stage 2, the outline**, to about nine lessons. SOURCES.md ends with the essential sequence
-     the outline should follow and says what the current four lessons do not cover: characters and
-     actions, topic and stress position, document shape, and testing.
+   - ~~**Stage 2, the outline.**~~ **DONE 2026-09-08**, in `research/OUTLINE.md`. **Nine lessons**, a
+     twenty-item test blueprint and a project. The sequence: what actually happens when someone reads
+     you (the evidence, before any advice) → put the point where the reader is looking → characters and
+     actions → keep the subject next to the verb → topic and stress position → concision that is
+     actually teachable → shape at the document level → rules and where they come from → revising, and
+     testing it on a real reader. The current four lessons survive only as parts of lessons 2, 6, 3
+     and 8.
+   - **Two things in the outline that will be hard, flagged there and repeated here.** Lesson 5 (topic
+     and stress position) is the deepest idea in the course and the one most likely to come out as
+     abstract hand-waving; **build its self-repairing paragraph example before writing the lesson**, and
+     if the example is not convincing the lesson fails. Lesson 8 (the Strunk and Pullum episode) could
+     easily become a hit piece; the test is whether a reader who loves *The Elements of Style* finishes
+     it feeling fairly treated.
+   - **A second live-course exception, found by making the mistake.** Stage 2 says to update
+     `course.yaml` outcomes to match the outline. Doing that here put eight promises on a course page
+     serving four placeholder lessons, which is exactly the kind of lie the honesty pass had just
+     finished removing. `course.yaml` now still describes what the course actually delivers; the
+     outline's copy waits in OUTLINE.md and lands lesson by lesson. `.claude/commands/outline-course.md`
+     carries the rule.
+   - **Next: Stage 3, one lesson at a time**, starting with lesson 1. Rule 2 allows two a session on
+     procedural courses; this is a prose course, so one.
+   - **Before lesson 9, close the two research gaps** or drop the claims that rest on them.
 
    *Also fixed in passing:* four `course.yaml` files showed learners a level vocabulary the map does not
    use ("Beginner", "All levels" against the map's Foundation/Core/Advanced). All seven courses now

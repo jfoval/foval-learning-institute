@@ -1295,12 +1295,10 @@ window.FOVAL_COURSES = [
    "Put the main point first, in any document",
    "Cut words that do no work",
    "Prefer concrete, specific language over abstraction",
-   "Control sentence length and rhythm",
-   "Structure paragraphs and documents so readers can skim",
    "Edit your own drafts with a repeatable checklist"
   ],
   "prerequisites": [],
-  "estimated_hours": 1.6,
+  "estimated_hours": 0.6,
   "lessons": [
    {
     "id": "01-point-first",

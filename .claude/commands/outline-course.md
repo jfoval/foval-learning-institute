@@ -11,3 +11,5 @@ Produce `$ARGUMENTS/research/OUTLINE.md`. For each lesson: title, 2–4 testable
 Also plan assessments: a course-end test blueprint and at least one project with deliverable and rubric for courses of 6+ lessons.
 
 Then update `course.yaml`: outcomes to match the outline, `estimated_hours`, and `prerequisites`. Summarise the plan and flag anything in the outline that would be hard to do well.
+
+**Exception, for a live course being rebuilt in place.** `course.yaml`'s summary, description and outcomes are shown to learners on the course page. Updating them to match an outline whose lessons do not exist yet puts promises on a page that cannot keep them, which is the same defect as an overstated `minutes:`. **Leave them describing what the course currently delivers**, keep `estimated_hours` in step with the live lessons, and move the outline's copy in lesson by lesson as the lessons land. The new wording lives in OUTLINE.md until then. See `docs/BACKLOG.md` §2.

@@ -6,6 +6,30 @@ the institute works. Items move here out of `BACKLOG.md` when they are done.
 Everything from the founding onwards is here. Entries before 2026-09-06 came from the old root
 `CHANGELOG.md`, which was merged into this file on 2026-09-06 so there is only one changelog.
 
+## 2026-09-08 (night, later) — Stage 2 outline for Writing Clearly, and a mistake worth recording
+
+**Nine lessons**, in `research/OUTLINE.md`, with a twenty-item test blueprint and a project. The
+sequence puts the evidence first and the advice second: what actually happens when someone reads you,
+then put the point where the reader is looking, characters and actions, keep the subject next to the
+verb, topic and stress position, concision that is actually teachable, shape at the document level,
+rules and where they come from, and revising and testing it on a real reader. The four placeholder
+lessons survive only as parts of four of those.
+
+Two lessons are flagged as hard. Lesson 5 carries the deepest idea in the course and will come out as
+hand-waving unless its central example, a paragraph that repairs itself with nothing added or deleted,
+is genuinely convincing; build the example first. Lesson 8 tells the Strunk and Pullum story and could
+easily become a hit piece; the test is whether a reader who loves *The Elements of Style* finishes it
+feeling fairly treated.
+
+**The mistake.** Stage 2's command says to update `course.yaml` outcomes to match the outline, and
+doing that put eight promises describing nine unwritten lessons onto a live course page serving four
+placeholders. That is the same defect as an overstated `minutes:`, committed within hours of fixing
+every overstated `minutes:` on the site. It was caught before pushing and reverted: `course.yaml` again
+describes what the course actually delivers, and the outline's copy waits in OUTLINE.md to land lesson
+by lesson. `.claude/commands/outline-course.md` now carries the exception, alongside the one added to
+`research-course.md` earlier for `status: drafting`. **The general rule for the two rebuilds still to
+come: on a live course, every field a learner can see describes the lessons that exist today.**
+
 ## 2026-09-08 (night) — Stage 1 research for Writing Clearly
 
 Queue item 2 begins. The course about writing well has been live since launch as four placeholder
