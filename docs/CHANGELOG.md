@@ -6,6 +6,51 @@ the institute works. Items move here out of `BACKLOG.md` when they are done.
 Everything from the founding onwards is here. Entries before 2026-09-06 came from the old root
 `CHANGELOG.md`, which was merged into this file on 2026-09-06 so there is only one changelog.
 
+## 2026-09-08 (later still) — the whole map goes on the Core, and a real map page
+
+**John's model, and it is now the frame every doc uses.** There are three ways into the institute:
+the **Foval Core** is the way through all of the knowledge, in order; the **courses** are there for
+anyone to take whatever they want; and a **questionnaire** will build a path shaped to the person.
+
+**Every course is on the Core. The elective tier is gone.** John's call, made after asking why Data
+Analysis and Project Management were nowhere on the path. They were marked `elective`, which the map
+defined as deliberately off the spine and forbidden from `core-path.yaml`, and 122 of the 174
+courses were in that state, which meant 122 courses with no ordering at all. The tradeoff was put to
+him plainly, that the Core stops being a two-year general-education spine and becomes the whole
+curriculum, and he chose to place everything.
+
+- `curriculum/core-path.yaml` rewritten: **174 courses across 25 terms of seven**, sequenced so
+  nothing arrives before what it needs. Tools, then the habits of running yourself, then the body and
+  the household, people, quantitative foundations, computing, and from there the world in
+  chronological order with the sciences, business, mathematics and computer science slotted after the
+  courses they continue. Every term mixes at least two schools.
+- `curriculum/TAXONOMY.md`: every Path cell is now a term. The intro, the design principles, the
+  status key and "Placing a course on the Core" are rewritten; the term-choosing rule now leads with
+  prerequisites and "how soon is it useful" rather than "does the Core need it".
+- `scripts/core-path.mjs` no longer accepts `elective` and says so in the failure message. It still
+  fails on a blank cell, on the two files disagreeing, and on a course that is on one and not the
+  other, so all 174 stay placed.
+- `CLAUDE.md` rule 4b and `docs/CONTENT_PIPELINE.md` Stage 0 updated to match.
+
+**`#/map` is a real page.** The homepage's "the full map" link and the Courses page's "curriculum"
+link both went to `curriculum/TAXONOMY.md` on GitHub, which asked a learner to read a Markdown table
+in someone else's product to find out what was coming. `scripts/build.mjs` now parses TAXONOMY.md
+into `window.FOVAL_MAP` and the site renders all 174 courses grouped by school, each with its term,
+level, standpoint and one-line note, live ones linked and the rest marked as being written, with a
+school filter. No GitHub links remain on the homepage. This also closes two of the six repo links
+that were blocking the repo going private (backlog §13); `#/standards` is the last one.
+
+**The Path page holds 25 terms without becoming a wall.** A term with nothing written yet folds into
+a `<details>`, so the full route stays visible and in order while the page opens on the five terms a
+learner can start today. Checked at phone and desktop width in both themes.
+
+**`docs/BACKLOG.md` cut from 1,063 lines to 680.** Its own rule says shipped work moves to this file
+and gets deleted there, and that had been ignored for weeks. The custom domain, the About page, the
+homepage redesign, the core-path enforcement work and the renaissance-man gap review were all
+already recorded here and are gone from the backlog. The lesson-splits rule and the scripture
+licensing policy stayed, trimmed to the operative rule with the reasoning left here. What remains is
+live work only.
+
 ## 2026-09-08 (later) — Stage 4 cut from five reviewers to one, and the marching order reset
 
 **Why.** John asked whether any review steps were overkill for moving forward. They were. This file

@@ -30,7 +30,7 @@ Templates for each file are in `templates/`.
 ## The stages
 
 ### Stage 0: Choose and brief — `/new-course <school> <id> "<Title>"`
-Pick a course from `curriculum/TAXONOMY.md`. If it is not on the map yet, add the row first, including its **Path** cell: a term (`T1` to `T8`) if it belongs on the Foval Core, or `elective` if it does not. That decision is required, not deferred, and `npm run validate` fails without it. The rule for choosing is "Placing a course on the Core" in TAXONOMY.md. A course placed on the Core also goes into `curriculum/core-path.yaml`, in the position it should be taken.
+Pick a course from `curriculum/TAXONOMY.md`. If it is not on the map yet, add the row first, including its **Path** cell: the term it sits in. Every course on the map is on the Foval Core, so this is a question of *when* a learner should take it, not *whether* it belongs. That decision is required, not deferred, and `npm run validate` fails without it. The rule for choosing is "Placing a course on the Core" in TAXONOMY.md. The course also goes into `curriculum/core-path.yaml`, in the position it should be taken inside its term.
 
 Then create the folder from `templates/`. Fill in `course.yaml`: audience, prerequisites, what the learner will be able to do. Set `status: research`.
 

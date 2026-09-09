@@ -5,6 +5,7 @@
 
   const COURSES = window.FOVAL_COURSES || [];
   const PATH = window.FOVAL_PATH || { terms: [] };
+  const MAP = window.FOVAL_MAP || [];
   const SUBJECTS = [...new Set(COURSES.map(c => c.subject))];
   const PASS_MARK = 0.7;
   const REPO = "https://github.com/jfoval/foval-learning-institute";
@@ -417,7 +418,7 @@
         </div>
       </section>
       <section class="section">
-        <div class="section-head"><h2>Fifteen schools</h2><p><a href="${REPO}/blob/main/curriculum/TAXONOMY.md" target="_blank" rel="noopener">The full map</a></p></div>
+        <div class="section-head"><h2>Fifteen schools</h2><p><a href="#/map">The full map</a></p></div>
         <div class="schools">${SCHOOLS.map(s => `<div class="school"><b>${esc(s.name)}</b><span>${esc(s.line)}</span>${liveSchools.has(s.name) ? "" : "<br><span class='soon'>courses in progress</span>"}</div>`).join("")}</div>
       </section>
       <section class="band band-center">
@@ -432,6 +433,40 @@
     countUp();
   }
 
+  // Every course the institute intends to teach, written or not, grouped by school. This is the
+  // page the homepage's "full map" link used to send people to GitHub for.
+  function viewMap(slug) {
+    const total = MAP.reduce((n, sc) => n + sc.courses.length, 0);
+    const live = MAP.reduce((n, sc) => n + sc.courses.filter(c => byId(c.id)).length, 0);
+    const shown = slug ? MAP.filter(sc => sc.slug === slug) : MAP;
+    const row = c => {
+      const course = byId(c.id);
+      const tags = [`Term ${c.term}`, c.level];
+      if (c.standpoint) tags.push(spName(c.standpoint));
+      const meta = `<span class="map-meta">${tags.map(esc).join(" · ")}</span>`;
+      const title = course
+        ? `<a href="#/course/${course.id}">${esc(c.title)}</a> <span class="map-live">live</span>`
+        : `${esc(c.title)} <span class="map-soon">being written</span>`;
+      return `<li class="map-row"><div class="map-title">${title}</div>${meta}<p class="map-note">${esc(c.note || "")}</p></li>`;
+    };
+    render(`
+      <span class="eyebrow">The full map</span>
+      <h1>Everything the institute is building.</h1>
+      <p class="lede" style="max-width:42rem;color:var(--text-2)">${total} courses across ${MAP.length} schools. ${live} are written and open now; the rest are planned and being built one at a time. Every course has a place on <a href="#/path">the Foval Core</a>, so the term number tells you roughly when to take it.</p>
+      <div class="filters" style="margin:1.25rem 0 1.75rem">
+        <button class="chip ${!slug ? "active" : ""}" data-school="">All schools</button>
+        ${MAP.map(sc => `<button class="chip ${sc.slug === slug ? "active" : ""}" data-school="${esc(sc.slug)}">${esc(sc.name)}</button>`).join("")}
+      </div>
+      ${shown.map(sc => `<section class="map-school">
+        <h2>${esc(sc.name)}</h2>
+        <ol class="map-list">${sc.courses.map(row).join("")}</ol>
+      </section>`).join("")}
+    `, "The full map");
+    main.querySelectorAll("[data-school]").forEach(b => b.addEventListener("click", () => {
+      const v = b.dataset.school; location.hash = v ? `#/map?school=${encodeURIComponent(v)}` : "#/map";
+    }));
+  }
+
   function viewCourses(subject) {
     const list = subject ? COURSES.filter(c => c.subject === subject) : COURSES;
     render(`
@@ -443,7 +478,7 @@
         ${SUBJECTS.map(s => `<button class="chip ${s === subject ? "active" : ""}" data-subject="${esc(s)}">${esc(s)}</button>`).join("")}
       </div>
       <div class="grid">${list.map(courseCard).join("")}</div>
-      <p class="muted" style="margin-top:2rem">The full map of planned courses, 14 schools and about 140 courses, is in the <a href="${REPO}/blob/main/curriculum/TAXONOMY.md" target="_blank" rel="noopener">curriculum</a>.</p>
+      <p class="muted" style="margin-top:2rem">These are the courses you can take today. <a href="#/map">The full map</a> shows all ${MAP.reduce((n, sc) => n + sc.courses.length, 0)} courses across ${MAP.length} schools, including the ones still being written.</p>
     `, "Courses");
     main.querySelectorAll(".chip").forEach(b => b.addEventListener("click", () => {
       const s = b.dataset.subject; location.hash = s ? `#/courses?subject=${encodeURIComponent(s)}` : "#/courses";
@@ -463,16 +498,24 @@
       }).join("");
       const live = t.courses.filter(e => byId(e.id)).length;
       const weeks = remainingMin ? Math.max(1, Math.round(remainingMin / 60 / pr.hoursPerWeek)) : 0;
-      return `<section class="term">
-        <div class="term-head"><span class="term-num">${ti + 1}</span><div><h2 style="margin:0">${esc(t.title)}</h2><p>${esc(t.theme)}</p></div></div>
+      const head = `<span class="term-num">${ti + 1}</span><div><h2 style="margin:0">${esc(t.title)}</h2><p>${esc(t.theme)}</p></div>`;
+      const foot = `<p class="path-meta" style="margin:.5rem 0 0">${live} of ${t.courses.length} courses live${weeks ? ` · about ${weeks} week${weeks === 1 ? "" : "s"} of live content left at ${pr.hoursPerWeek} h/week` : ""}</p>`;
+      // A term with nothing written yet folds away. The whole route stays visible and in order,
+      // but the page opens on the parts a learner can actually start.
+      if (!live) return `<details class="term term-soon">
+        <summary class="term-head">${head}<span class="term-toggle path-meta">${t.courses.length} courses, being written</span></summary>
         <ol class="path-list">${items}</ol>
-        <p class="path-meta" style="margin:.5rem 0 0">${live} of ${t.courses.length} courses live${weeks ? ` · about ${weeks} week${weeks === 1 ? "" : "s"} of live content left at ${pr.hoursPerWeek} h/week` : ""}</p>
+      </details>`;
+      return `<section class="term">
+        <div class="term-head">${head}</div>
+        <ol class="path-list">${items}</ol>
+        ${foot}
       </section>`;
     }).join("");
     render(`
       <span class="eyebrow">The Foval Core</span>
-      <h1>A path that builds in the right order.</h1>
-      <p class="lede" style="max-width:40rem;color:var(--text-2)">Thinking tools first, then numbers, then the world, the physical world, and practical competence, alternating so you're never stuck in one mode. Follow it straight through, or jump anywhere: every course stands alone.</p>
+      <h1>The whole route, in the order it builds.</h1>
+      <p class="lede" style="max-width:40rem;color:var(--text-2)">Every course the institute teaches, placed so that nothing arrives before what it needs. Tools first, then the habits of running yourself, then numbers, the world, the physical world, and the skills of making a living. Follow it straight through, start at any term, or ignore it entirely and <a href="#/courses">browse the courses</a>: every one of them stands alone.</p>
       <div class="budget"><label for="hpw">I can give about</label><select id="hpw">${[1, 2, 3, 5, 8, 12, 20].map(h => `<option value="${h}" ${h === pr.hoursPerWeek ? "selected" : ""}>${h} hour${h === 1 ? "" : "s"}</option>`).join("")}</select><span>a week.</span></div>
       ${next ? `<div class="path-next"><div><h3>Next up: ${esc(next.title)}</h3><p>${esc(next.summary)}</p></div><a class="btn btn-primary" href="#/course/${next.id}">${courseStarted(next) ? "Continue" : "Start"}</a></div>` : `<div class="path-next"><div><h3>You've finished every live course on the path.</h3><p>More are being written. Keep your knowledge fresh in <a href="#/review">Review</a>.</p></div></div>`}
       ${terms}
@@ -981,6 +1024,7 @@
     if (path === "/") return viewHome();
     if (path === "/courses") return viewCourses(params.get("subject"));
     if (path === "/path") return viewPath();
+    if (path === "/map") return viewMap(params.get("school"));
     if (path === "/review") return viewReview(params.get("mode"));
     if ((m = path.match(/^\/course\/([^/]+)\/lesson\/([^/]+)$/))) return viewLesson(m[1], m[2]);
     if ((m = path.match(/^\/course\/([^/]+)\/assessment\/([^/]+)$/))) return viewAssessment(m[1], m[2]);

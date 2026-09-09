@@ -477,3 +477,27 @@ a.path-item:hover { background: var(--surface-2); color: var(--text); }
 .signin .fb-field input { display: block; width: 100%; max-width: 22rem; margin-top: .35rem; font: inherit; font-size: 1rem; padding: .6rem; border: 1px solid var(--line); background: var(--bg); color: var(--text); }
 .signin-note { font-size: .92rem; color: var(--text-2); min-height: 1.4em; margin: .5rem 0 0; }
 .signin-note.bad { color: var(--danger); }
+
+/* A path term with nothing written yet folds away, so the full route stays visible
+   in order without burying the courses a learner can actually start today. */
+.term-soon > summary { cursor: pointer; list-style: none; }
+.term-soon > summary::-webkit-details-marker { display: none; }
+.term-soon > summary { align-items: center; }
+.term-soon .term-num, .term-soon h2 { color: var(--text-2); }
+.term-soon .term-toggle { margin-left: auto; white-space: nowrap; }
+.term-soon .term-toggle::after { content: " +"; }
+.term-soon[open] .term-toggle::after { content: " \2212"; }
+.term-soon > summary:hover .term-toggle { color: var(--text); }
+.term-soon > summary:focus-visible { outline: 2px solid var(--gold); outline-offset: 3px; border-radius: 4px; }
+.term-soon[open] > .path-list { margin-bottom: 1.25rem; }
+
+/* The full map: every course the institute intends to teach, written or not. */
+.map-school { margin: 2.25rem 0; }
+.map-school h2 { margin: 0 0 .6rem; }
+.map-list { list-style: none; padding: 0; margin: 0; border-top: 2px solid var(--line-strong); }
+.map-row { border-bottom: 1px solid var(--line); padding: .75rem 0; }
+.map-title { font-weight: 600; }
+.map-live { font-size: .72rem; font-weight: 600; letter-spacing: .04em; text-transform: uppercase; color: var(--oxblood); margin-left: .35rem; }
+.map-soon { font-size: .72rem; font-weight: 500; letter-spacing: .04em; text-transform: uppercase; color: var(--text-2); margin-left: .35rem; }
+.map-meta { display: block; font-size: .82rem; color: var(--text-2); margin-top: .15rem; }
+.map-note { margin: .35rem 0 0; font-size: .9rem; color: var(--text-2); }

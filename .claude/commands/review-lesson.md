@@ -20,7 +20,7 @@ Stage 4 used to run five reviewers in parallel on every lesson, at 600k to 900k 
 
 ## The brief
 
-Give the reviewer (or each reviewer, in Tier B) the full path to the lesson, to `docs/EDITORIAL_STANDARDS.md`, to `docs/STYLE_GUIDE.md`, to `<course>/research/SOURCES.md`, and to `<course>/research/REVIEWS.md`, with the instruction to read all of them before starting. Also give it the "Defects this drafter repeats" list in `docs/BACKLOG.md` section 1, which is the accumulated list of what actually goes wrong; it is the highest-yield thing a reviewer can read.
+Give the reviewer (or each reviewer, in Tier B) the full path to the lesson, to `docs/EDITORIAL_STANDARDS.md`, to `docs/STYLE_GUIDE.md`, to `<course>/research/SOURCES.md`, and to `<course>/research/REVIEWS.md`, with the instruction to read all of them before starting. Also give it the "Defects this drafter repeats" list in `docs/BACKLOG.md` §8, which is the accumulated list of what actually goes wrong; it is the highest-yield thing a reviewer can read.
 
 In Tier B, launch the reviewers **in a single message with `run_in_background: false`** so the orchestrator blocks until they return. Backgrounding them makes the orchestrator end its turn and lose the work.
 

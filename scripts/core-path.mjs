@@ -1,9 +1,13 @@
 // Keeps curriculum/TAXONOMY.md and curriculum/core-path.yaml agreeing with each other.
 //
-// Every course row in TAXONOMY.md carries a Path cell that is either a term (T1..T8) or the
-// word "elective". That cell is the placement decision, and this script is what makes it
-// impossible to skip: a new row with a blank or invalid Path fails the check, so a course
-// cannot be added to the map without someone deciding where it sits on the Foval Core.
+// Every course row in TAXONOMY.md carries a Path cell naming the term it sits in. That cell is
+// the placement decision, and this script is what makes it impossible to skip: a new row with a
+// blank or invalid Path fails the check, so a course cannot be added to the map without someone
+// deciding when a learner should take it.
+//
+// There is no elective tier. John's call, 2026-09-08: the map had 122 courses with no ordering at
+// all, so a learner who wanted Data Analysis or Project Management had no idea what it came after.
+// Every course on the map is now on the path.
 //
 //   node scripts/core-path.mjs          check only (what npm run validate calls)
 //   node scripts/core-path.mjs --write  rewrite the generated Core section in TAXONOMY.md
@@ -12,9 +16,8 @@
 //   1. every course row has a valid Path cell
 //   2. every row marked Tn appears in term n of core-path.yaml
 //   3. every core-path.yaml entry has a row in TAXONOMY.md marked with its term
-//   4. every row marked elective is absent from core-path.yaml
-//   5. no duplicate course titles inside a school
-//   6. the generated Core section in TAXONOMY.md matches core-path.yaml
+//   4. no duplicate course titles inside a school
+//   5. the generated Core section in TAXONOMY.md matches core-path.yaml
 
 import fs from "node:fs";
 import path from "node:path";
@@ -59,8 +62,8 @@ taxLines.forEach((line, i) => {
   const [title, level, status, place] = cells;
   if (!/^(Foundation|Core|Advanced)$/.test(level)) fail(`${where}: level "${level}" is not Foundation, Core or Advanced`);
   if (!/^(planned|research|drafting|published)$/.test(status)) fail(`${where}: status "${status}" is not planned, research, drafting or published`);
-  if (!/^(T\d+|elective)$/.test(place)) {
-    fail(`${where}: Path cell is "${place}". Every course needs a placement decision: a term (T1, T2, ...) if it belongs on the Foval Core, or "elective" if it does not. See "Placing a course on the Core" in TAXONOMY.md.`);
+  if (!/^T\d+$/.test(place)) {
+    fail(`${where}: Path cell is "${place}". Every course on the map sits in a term of the Foval Core: T1, T2, and so on. There is no elective tier. See "Placing a course on the Core" in TAXONOMY.md.`);
     return;
   }
   rows.push({ school, title, level, status, place, where });
@@ -104,10 +107,6 @@ terms.forEach((term, i) => {
 });
 
 for (const r of rows) {
-  if (r.place === "elective") {
-    if (onPath.has(key(r.school, r.title))) fail(`${r.where}: marked elective but core-path.yaml lists it in ${onPath.get(key(r.school, r.title))}`);
-    continue;
-  }
   const n = Number(r.place.slice(1));
   if (!terms[n - 1]) fail(`${r.where}: ${r.place} is not a term in core-path.yaml, which has ${terms.length}`);
   else if (!onPath.has(key(r.school, r.title))) fail(`${r.where}: marked ${r.place} but core-path.yaml does not list it. Add it to that term, in the position where it should be taken.`);
@@ -117,9 +116,9 @@ for (const r of rows) {
 
 function renderCore() {
   const out = [START, ""];
-  out.push("The Core is the general-education spine: the sequence a student takes to become broadly educated, in the order that builds best. Roughly two years at a few hours a week. Any course can be taken standalone; the Core is the recommended path.");
+  out.push("The Core is the whole curriculum in the order it should be taken. Every course the institute teaches is on it, placed where nothing arrives before what it needs. Any course can be taken standalone, and any term can be entered on its own; the order is the recommendation, not a gate.");
   out.push("");
-  out.push(`It runs to ${terms.reduce((a, t) => a + (t.courses ?? []).length, 0)} courses across ${terms.length} terms. Everything not listed here is an elective, taken whenever it is wanted.`);
+  out.push(`It runs to ${terms.reduce((a, t) => a + (t.courses ?? []).length, 0)} courses across ${terms.length} terms of seven. A term is a unit of order, not a deadline: take it at whatever pace you have.`);
   let n = 0;
   terms.forEach((term, i) => {
     out.push("", `**Term ${i + 1}: ${term.title}**`, "");
@@ -162,5 +161,4 @@ if (errors.length) {
   process.exit(1);
 }
 
-const placed = rows.filter((r) => r.place !== "elective").length;
-console.log(`ok: ${rows.length} courses across ${schools.length} schools, ${placed} on the Core over ${terms.length} terms, ${rows.length - placed} electives`);
+console.log(`ok: ${rows.length} courses across ${schools.length} schools, all placed on the Core over ${terms.length} terms`);

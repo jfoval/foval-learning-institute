@@ -1,6 +1,29 @@
 {
   "version": "0.0.1",
   "configurations": [
-    { "name": "foval", "runtimeExecutable": "npx", "runtimeArgs": ["--yes", "serve", "site", "-l", "4173"], "port": 4173 }
+    {
+      "name": "foval",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": [
+        "--yes",
+        "serve",
+        "site",
+        "-l",
+        "4173"
+      ],
+      "port": 4173
+    },
+    {
+      "name": "foval-alt",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": [
+        "--yes",
+        "serve",
+        "site",
+        "-l",
+        "4174"
+      ],
+      "port": 4174
+    }
   ]
 }

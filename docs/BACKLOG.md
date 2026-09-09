@@ -1,6 +1,10 @@
 # Backlog and Handoff
 
-*Last updated 2026-09-06. Read this first in a new session, after `CLAUDE.md`. It is the single list of what is in flight, what is next, and what John has asked for that isn't built yet. Keep it current: when something ships, move it to `docs/CHANGELOG.md` and delete it here.*
+*Last updated 2026-09-08. Read this first in a new session, after `CLAUDE.md`. It is the single list
+of what is in flight, what is next, and what John has asked for that isn't built yet. Keep it
+current: when something ships, move it to `docs/CHANGELOG.md` and delete it here. That rule was
+ignored for weeks and this file reached 1,063 lines, most of it history; it was cut back to the live
+work on 2026-09-08 and the settled parts are in the changelog.*
 
 ## 0. Work that is not on `main` is not done
 
@@ -12,106 +16,108 @@ Merge when `npm run validate` exits 0 and anything visual has been checked in bo
 and desktop width. `git pull --rebase origin main` first: content sessions push there too, and on
 2026-09-06 two of them did while a third was mid-merge.
 
-## 0b. THE MARCHING ORDER (reset by John, 2026-09-08, third revision). Work this queue top to bottom.
+**Two process rules that came out of real failures, both still binding:**
 
-**This replaces the second revision.** John looked at the site and said the quiet part: Bible Basics
-and Logic and Argument are solid and were worth what they cost, and *"outside of that the other live
+- **Content sessions commit to `main` and pull first. Do not open a branch for lesson work.** On
+  2026-09-06 two sessions gave Logic lessons 2 to 8 a full Stage 4 cycle each, on `main` and on a
+  branch, and diverged for nine hours without either noticing. Main's versions were kept, not
+  because they were longer (the branch's were) but because **main's session could reach primary
+  sources and the branch's container could not**. Its lesson 8 built a teaching point on Robinson's
+  ecological correlation as +0.619 when the true figure is negative, because the 2009 IJE reprint
+  typesets minus signs faintly enough that text extraction drops them. *Length is not quality, and a
+  review that cannot reach the sources is not a fact-check.* The alternative text survives as the
+  tag `superseded/logic-stage4-alt-2026-09-06`.
+- **Update this file in the same commit as the work, not at the end of the session.** A session that
+  dies mid-task should leave the next one a true picture. If you launch subagents, write down what
+  they are reviewing before you launch them.
+
+## 1. What the institute is building, and the three ways into it
+
+John's model, stated 2026-09-08. Everything in this file serves it, and no doc should contradict it.
+
+1. **The Foval Core** (`#/path`) is **the way through all of the knowledge**: every course the
+   institute teaches, in the order it should be taken. 174 courses, 25 terms of seven. There is no
+   elective tier any more; a course worth putting on the map is worth telling a learner when to
+   take it. `curriculum/core-path.yaml` is the source of truth and `npm run validate` fails if a
+   course is on the map and not on the path, or the other way round.
+2. **The courses** (`#/courses`, and `#/map` for the full 174) are there for anyone to take whatever
+   they want, in any order. Every course stands alone.
+3. **A questionnaire** builds a path shaped to the person: their age, goals, time, and what they
+   already know. Not started; the spec is §9.
+
+**The tradeoff on point 1 was made deliberately.** Until 2026-09-08 the Core was a curated 52-course
+general-education spine of about two years, and the other 122 courses were marked `elective` with no
+ordering at all, so a learner who wanted Data Analysis or Project Management had no idea what came
+before it. John chose to place everything. The cost is that the Core is no longer a two-year
+programme, and the docs now say so. Do not quietly reintroduce an elective tier.
+
+## 2. THE MARCHING ORDER. Work this queue top to bottom.
+
+Reset by John, 2026-09-08, after he looked at the site and said the quiet part: Bible Basics and
+Logic and Argument are solid and were worth what they cost, and *"outside of that the other live
 courses I think they need significant improvement. Like writing clearly is kinda a joke. super low
-quality and not much of anything honestly."* He is right, and the numbers say exactly how right:
+quality and not much of anything honestly."* He is right, and the numbers say how right:
 
 > Bible Basics averages **13,160 words a lesson**. Logic and Argument averages **9,380**. Clear
-> Writing averages **452**, Algebra **444**, Python **464**. Those three courses are not weak
-> lessons. They are placeholders that have been live for months with a `minutes: 20` label on
-> 400 words of blog post.
+> Writing averages **452**, Algebra **444**, Python **464**. Those three are not weak lessons. They
+> are placeholders that have been live for months with a `minutes: 20` label on 400 words.
 
-Three things John assumed still needed doing are already done, and the queue is shorter for it:
+1. **The honesty pass. One session, cheap, do it first.** Nothing here needs research and all of it
+   is currently a small lie to a learner. Fix `minutes:` across all 51 lessons. Swap Bible Basics'
+   hotlinked full-size Wikimedia originals for the `/thumb/.../960px-` form, one of which is 6.7 MB
+   and is a rule 9 problem. Fix lesson 1's four sub-legible SVG labels and the two
+   `--line-strong`/`--navy` collisions in lessons 7 and 8. Detail in §14 and §4.
 
-- **Re-rendering the old podcasts on Gemini is done.** All nine episodes that existed were
-  re-rendered on `fal-ai/gemini-3.1-flash-tts` and re-uploaded over the same R2 keys on 2026-09-08.
-  Nothing is owed there. The hosts are John (Charon) and Haley (Aoede) and they are the same voices
-  everywhere. **The one open question is whether those two voices are the right ones** (see 0d).
-- **The Foval Core is already laid out.** 52 courses across 8 terms, in `curriculum/core-path.yaml`,
-  generated into TAXONOMY.md, rendered on the site, and enforced by `npm run validate`, which fails
-  if a course has no term placement or if the two files disagree. Every one of the ~174 courses on
-  the map carries a `T1`-`T8` or `elective` decision. This is not a future job.
-- **How to Learn Anything is finished.** Eight lessons through Stage 4, two assessments, eight
-  podcast episodes. It is not one of the weak courses.
-
-So the queue is:
-
-1. **The honesty pass. One session, cheap, do it first.** Nothing here needs research, and all of it
-   is currently a small lie to a learner. Fix `minutes:` across all 51 lessons (understated in every
-   lesson measured so far, one by a factor of three, and wildly overstated on the three stub
-   courses). Swap Bible Basics' hotlinked full-size Wikimedia originals for the `/thumb/.../960px-`
-   form, one of which is 6.7 MB and is a rule 9 problem. Fix lesson 1's four sub-legible SVG labels
-   and the two `--line-strong`/`--navy` token collisions the validator warns about in lessons 7 and
-   8. See "Open items Bible Basics left behind" below for the detail.
-
-2. **Clear Writing, rebuilt.** T1 on the Core, four stub lessons, and the course about writing well
-   is the worst-written thing on the site. That is the one that costs credibility. **It is a rebuild,
-   not an improvement**: Stage 1 research, Stage 2 outline, then draft fresh to about nine lessons.
-   Do not run Stage 4 on the existing stubs; replacing them is cheaper than reviewing them.
+2. **Clear Writing, rebuilt.** T1, four stubs, and the course about writing well is the worst-written
+   thing on the site. That is the one that costs credibility. **It is a rebuild, not an
+   improvement**: Stage 1 research, Stage 2 outline, then draft fresh to about nine lessons. Do not
+   run Stage 4 on the existing stubs; replacing them is cheaper than reviewing them.
 
 3. **Personal Finance lessons 7 to 10, plus its two assessments.** The cheapest completion on the
-   board, because Stage 1 and Stage 2 are already done: `research/OUTLINE.md` specifies all four
-   lessons, the test blueprint and the project in detail, and `assessments/` does not exist yet.
-   Lesson 6 is the last one drafted. Finishing this puts four of Term 1's six courses at standard.
+   board, because Stages 1 and 2 are done: `research/OUTLINE.md` specifies all four lessons, the
+   test blueprint and the project, and `assessments/` does not exist yet. Lesson 6 is the last one
+   drafted.
 
-4. **Algebra Essentials, rebuilt.** T2, five stubs. Procedural course: two lessons a session is
+4. **Algebra Essentials, rebuilt.** T5, five stubs. Procedural course: two lessons a session is
    allowed, the fact-check is executed rather than fetched, and the neutrality pass is skipped with
    a line in REVIEWS.md saying why.
 
-5. **Python Basics, rebuilt.** T2, six stubs. Same treatment as Algebra.
+5. **Python Basics, rebuilt.** T6, six stubs. Same treatment as Algebra.
 
-6. **Then down the Core path in order.** Term 1's remaining two courses are Reading Well
-   (`foundations`) and Using AI Effectively (`computer-science-and-ai`), both `planned` with no
-   folder. Term 2's remaining three are Number Sense, Statistics for Citizens and The Scientific
-   Method. Start each with `/new-course`.
+6. **Then down the Core in order.** Term 1's remaining three are Reading Well, Digital Literacy and
+   Using AI Effectively; Term 2 is the whole "running yourself" block. Start each with `/new-course`.
 
-**The three stub courses stay live while they are rebuilt.** John's call, 2026-09-08, asked
-directly. They are rebuilt in place, lesson by lesson, rather than unpublished: taking them down
-would drop the site from seven courses to four and put holes in Terms 1 and 2 of the Core for weeks.
-The honesty pass at item 1 is what makes that defensible, because the thing that is currently untrue
-about them is the `minutes:` label, not the prose. Do not re-open this either.
+**Podcasts run alongside, not after.** See §3.
 
-**Podcasts run alongside, not after.** They are a separate track because they are cheap, independent
-and settled: see item 5 below and section 6. The rule that governs them is that **a lesson gets its
-episode only once its content has settled**, so the twenty-one owed episodes are Logic's ten and
-Bible Basics' eleven, and the stub courses get theirs after they are rebuilt, never before. Paying
-$0.40 to narrate a 400-word placeholder that is about to be deleted is paying twice.
+**The three stub courses stay live while they are rebuilt.** John's call, 2026-09-08, asked directly.
+Taking them down would drop the site from seven courses to four and hole the first terms of the
+Core for weeks. The honesty pass at item 1 is what makes leaving them up defensible, because the
+thing that is untrue about them today is the `minutes:` label, not the prose. Do not re-open this.
 
 ### Stage 4 was overkill and has been cut. Read this before you review anything.
 
-John asked directly whether there were review steps that were overkill for moving forward. There
-were, and this is what changed on 2026-09-08 (in `.claude/commands/review-lesson.md`,
-`docs/CONTENT_PIPELINE.md`, and `CLAUDE.md` rules 2 and 3):
+John asked directly whether there were review steps that were overkill. There were. Changed
+2026-09-08 in `.claude/commands/review-lesson.md`, `docs/CONTENT_PIPELINE.md`, and `CLAUDE.md` rules
+2 and 3:
 
-- **Stage 4 is now one reviewer by default, not five.** This was already known and never acted on:
-  section 1 of this file has recorded since lesson 6 that one subagent doing all five passes in its
-  own fresh context ran about **100k tokens** and found everything the five-agent version found on
-  the same lesson. The five-agent shape costs **600k to 900k**. It is now Tier B, reserved for
-  sensitive domains under standards 3.4, standpoint courses, and any lesson a Tier A review sent
-  back for heavy rewriting. Bible Basics is Tier B. Python is not.
+- **Stage 4 is one reviewer by default, not five.** This was already known and never acted on: §8
+  has recorded since Bible Basics lesson 6 that one subagent doing all five passes in its own fresh
+  context ran about **100k tokens** and found everything the five-agent version found on the same
+  lesson. Five agents cost **600k to 900k**. That is now Tier B, for sensitive domains under
+  standards 3.4, standpoint courses, and lessons a Tier A review sent back for heavy rewriting.
 - **The neutrality pass is skipped on lessons with no contested claims**, with one line in REVIEWS.md
   recording the call. Auditing "solve for x" for ideological balance is money spent on nothing.
 - **On procedural courses the fact-check is executed, not fetched.** Run the code, work the
-  arithmetic. Do not send an agent to the web to confirm that a `for` loop iterates.
-- **The second full review pass is no longer the default.** It runs only when the first found wrong
-  facts, a failed neutrality check, or a third of the lesson generic. Not out of caution.
-- **A stub is replaced, not reviewed.** Reviewing 400 words costs what reviewing 8,000 costs.
-- **Two lessons a session is allowed on procedural courses.** Rule 2's one-lesson limit exists
-  because sustained argument degrades after the second lesson in a context. A lesson on Python lists
-  carries its depth in worked examples and exercises, not in sustained argument.
+  arithmetic.
+- **The second full review pass is no longer the default.** It runs on a trigger, not out of caution.
+- **A stub is replaced, not reviewed.**
+- **Two lessons a session is allowed on procedural courses.**
 
-What is **not** cut, because each of these caught something real that nothing else would have: the
-fresh context (a model reviewing its own draft in its own context is far too kind to it); the
-adversarial framing of the fact-check; the en-dash and em-dash sweep; reading every SVG by eye,
-since five separate routes past the validator's SVG checks have been found; measuring quiz option
-shapes rather than eyeballing them; and the full five-agent Tier B on anything contested.
+Not cut, because each caught something nothing else would have: the fresh context, the adversarial
+fact-check, the en-dash and em-dash sweep, reading every SVG by eye, measuring quiz option shapes,
+and full Tier B on anything contested.
 
-Rough effect on the remaining content: about 33 lessons to draft and review across the three
-rebuilds and Personal Finance. At the old shape that is roughly 25M subagent tokens. At the new one,
-with Tier B only where it is earned, it is closer to 5M.
+Across the ~33 lessons left in items 2 to 5 that is roughly 25M subagent tokens down to about 5M.
 
 ### The status table, which is the answer to "is everything up to par"
 
@@ -121,128 +127,142 @@ Keep this current.
 |---|---|---|---|---|---|---|---|
 | How to Learn Anything | T1 | live, **at standard** | 8 | 7,220 | 8 | 2 | **8 of 8** |
 | Logic and Argument | T1 | live, **at standard** | 10 | 9,380 | 10 | 2 | **0 of 10 (owed)** |
-| Bible Basics | T3 | live, **at standard** | 12 | 13,160 | 12 | 2 | 1 of 12 (**11 owed**) |
-| Personal Finance | T1 | live, **half built** | 6 of 10 | 5,430 | 6 | **0 of 2** | none |
+| Bible Basics | T8 | live, **at standard** | 12 | 13,160 | 12 | 2 | 1 of 12 (**11 owed**) |
+| Personal Finance | T2 | live, **half built** | 6 of 10 | 5,430 | 6 | **0 of 2** | none |
 | Clear Writing | T1 | live, **stub** | 4 | **452** | 0 | 0 | none |
-| Algebra Essentials | T2 | live, **stub** | 5 | **444** | 0 | 0 | none |
-| Python Basics | T2 | live, **stub** | 6 | **464** | 0 | 0 | none |
+| Algebra Essentials | T5 | live, **stub** | 5 | **444** | 0 | 0 | none |
+| Python Basics | T6 | live, **stub** | 6 | **464** | 0 | 0 | none |
 
-*Updated 2026-09-08.* Fifty-one lessons live, nine with audio. The three stub courses are 15 of
-those 51 lessons and 2 percent of the site's words. Every one of them is a Core course, which is why
-they are queue items 2, 4 and 5 rather than something to get to eventually.
+*Updated 2026-09-08.* Fifty-one lessons live, nine with audio. The three stubs are 15 of those 51
+lessons and about 2 percent of the site's words.
 
-### A process rule, because a session broke it
+## 3. Podcasts: the standing parallel track
 
-`CLAUDE.md` says to keep `docs/BACKLOG.md` current. On 2026-09-06 a session shipped four commits
-without touching it, and John had to point that out. **Update the backlog in the same commit as
-the work, not at the end of the session.** A session that dies mid-task should leave the next one a
-true picture, and the reviews running in the background are part of that picture: if you launch
-subagents, write down what they are reviewing before you launch them.
+- **Engine: Gemini 3.1 Flash TTS on fal** (`fal-ai/gemini-3.1-flash-tts`), multi-speaker, $0.05 per
+  1,000 characters in, about $0.30 to $0.50 an episode. It replaced VibeVoice 7B on 2026-09-08 after
+  John listened to both, and every episode that existed was re-rendered from its existing
+  fact-checked script and re-uploaded over the same R2 key, so no lesson frontmatter changed. Cost:
+  $2.96 for the nine, plus $0.32 for the first test render. `FAL_KEY` lives in `.env.local`
+  (git-ignored) and `scripts/podcast.mjs` reads it automatically.
+- **The hosts are John (Charon) and Haley (Aoede), and this is SETTLED.** John was asked directly on
+  2026-09-08 and said keep them and render the backlog. Changing a host voice means re-rendering
+  every episode in the institute, because the hosts have to sound the same everywhere. Do not
+  re-open.
+- **What is owed: Logic's ten episodes and Bible Basics' eleven.** Nine of the fifty-one live lessons
+  have audio. Those twenty-one are the whole backlog right now, because they are the only settled
+  lessons without audio. **A lesson gets its episode only once its content has settled**, so the
+  three stub courses get theirs after they are rebuilt and Personal Finance after 7 to 10 are
+  drafted. Rendering audio for a lesson that is about to be replaced pays for it twice.
+- **How to run one:** `/make-podcast <lesson>` does the whole flow; `node scripts/podcast.mjs plan
+  <lesson>` says where any episode stands. Guards are deliberate: dry-run by default, no render
+  without a `checked:` fact-check entry in the script frontmatter, a $2 cost cap without `--force`,
+  and upload verifies the public URL answers before anything is stamped.
+- **R2:** bucket `foval-audio`, public at `https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev`,
+  objects at `<school>/<course>/<lesson>.mp3`. Scripts are content and live in git at
+  `courses/<school>/<course>/podcast/<id>.script.md`; MP3s go to git-ignored `audio-out/` and R2.
+- **Reasoning behind the engine choice** is in `docs/PODCAST_OPTIONS.md`, which evaluates all four
+  routes by name. John pushed back twice that the research was not deep enough and was right both
+  times.
 
-## 0c. The parallel-work failure of 2026-09-06, and the rule that comes out of it (2026-09-07)
+## 4. Where the 2026-09-08 sessions left things
 
-Two sessions worked the same two courses on the same day from the same commit and
-never saw each other. **Logic lessons 2 to 8 were given a full Stage 4 cycle twice**,
-once on `main` in the evening and once on `claude/logic-argument-course-3mbwv1` at
-midday, and the two diverged by thousands of words per lesson. That is the whole of
-why the courses felt like they were in an eternal review loop: the reviews finished,
-and then half of them were thrown away.
+**Nothing is in flight. Working tree clean, `npm run validate` green: 174 courses on the path, 7
+courses, 51 lessons built.** Three things shipped on 2026-09-08 and all are live.
 
-**How it was resolved, and the rule that generalises.** Main's versions were kept.
-Not because they were longer (the branch's were longer, and had roughly twice the
-`:::predict` and `:::checkpoint` blocks) but because **main's session could reach
-primary sources and the branch's could not**. The branch's own `research/HANDOFF.md`
-says its container "denies general CONNECT" and lists 31 items owed to a session with
-network access. The cost is concrete: its lesson 8 reports Robinson's foreign-birth
-and illiteracy ecological correlation as +0.619 and builds the teaching point on it,
-when the true figure is negative. The 2009 IJE reprint typesets minus signs so faintly
-that text extraction drops them. Main caught it; the branch could not have.
+1. **The podcast engine moved to Gemini** and all nine existing episodes were re-rendered. §3.
+2. **Bible Basics published.** Twelve lessons through Stage 4, both assessments.
+3. **Stage 4 cut to one reviewer, the marching order reset, the whole map placed on the Core, and
+   `#/map` built.** §1, §2, and the changelog.
 
-> **The rule: length is not quality, and a review that cannot reach the sources is not
-> a fact-check.** When two versions of a lesson compete, ask which session could open
-> the primary source, not which produced more words.
-
-The branch's lesson 9 was taken, because `main` never reviewed lesson 9 at all. The
-rest of that branch is preserved as the tag `superseded/logic-stage4-alt-2026-09-06`
-rather than deleted, so the alternative text and its 3,136-line REVIEWS.md stay
-reachable by name.
-
-**To stop it happening again: content sessions commit to `main` and pull first.** Do
-not open a branch for lesson work. The branch is what let two sessions diverge for
-nine hours without either noticing, and `CLAUDE.md` rule 11 already says work that is
-not on `main` is not done.
-
-## 0d. Where the 2026-09-08 planning session left things. READ THIS FIRST.
-
-**Nothing is in flight. Working tree clean, `npm run validate` green: 7 courses, 51 lessons.** This
-session did no content work. It audited the site against John's read of it, found he was right about
-the three stub courses and already served on three things he thought were outstanding, cut Stage 4
-from five reviewers to one, and rewrote the marching order in 0b. Read 0b, then start at its item 1.
-
-**Earlier the same day, two things shipped and both are live.** The podcast engine changed to
-**Gemini 3.1 Flash TTS on fal** (`fal-ai/gemini-3.1-flash-tts`), $0.05 per 1,000 characters in,
-about $0.30 to $0.50 an episode, and all nine existing episodes were re-rendered from their existing
-fact-checked scripts and re-uploaded over the same R2 keys, so no lesson frontmatter changed. And
-**Bible Basics published**: twelve lessons through Stage 4, both assessments, live.
-
-**SETTLED 2026-09-08: Charon and Aoede are the hosts.** John was asked directly and said keep them
-and render the twenty-one owed episodes. They are John (Charon, the teaching voice) and Haley
-(Aoede, the curious one) across the whole institute, and changing them now would mean re-rendering
-everything. Nothing on the podcast track is waiting on him. Do not re-open this.
-
-**One correction shipped and was fixed the same evening.** Lesson 11 described the Orthodox Study
-Bible's Old Testament as a revised New King James Version, following the producing academy's
-website. The book's own printed introduction says close to the opposite, that Rahlfs's Greek was the
-basis with Brenton and the NKJV as further sources. Both are official statements and the lesson now
-prints both without resolving them. The general lesson is worth keeping: a publisher-side web page
-is not the same source as the book's own front matter, and this course had been treating them as
-interchangeable.
+**Start at §2 item 1.**
 
 ### Open items Bible Basics left behind, none of them blocking
 
-*Items 3, 4 and 5 are now queue item 1 in 0b, the honesty pass. Items 1 and 2 stand on their own.*
+*Items 3 to 5 are queue item 1, the honesty pass. Items 1 and 2 stand on their own.*
 
-1. ~~**The strongest King James Only position.**~~ **CLOSED 2026-09-08.** The research landed after
-   the course was published and the section is now written from primary sources: Riplinger's
-   *Hazardous Materials* chapter 31, free on her own publisher's site, for the argument that the
-   originals are gone and every printed Greek and Hebrew edition is corrupt so preservation must be
-   in the English, and her reading of Psalm 12:6-7 in which the "furnace of earth" is translation
-   itself. Her own chapter list attacks the Trinitarian Bible Society's Greek text and the Majority
-   Text, which is the documentary proof that this is a third position hostile to the other two
-   rather than a stronger form of them. Three cautions are recorded in `research/SOURCES.md`: no
-   primary Ruckman text is freely available and the lesson rests nothing on him; "double inspiration"
-   could not be traced to an originator and is not attributed; and the Jack Hyles sermon usually
-   cited for this position does not actually make the argument.
+1. ~~**The strongest King James Only position.**~~ **CLOSED 2026-09-08.** Written from primary
+   sources: Riplinger's *Hazardous Materials* chapter 31, free on her own publisher's site, for the
+   argument that the originals are gone and every printed Greek and Hebrew edition is corrupt so
+   preservation must be in the English, and her reading of Psalm 12:6-7 in which the "furnace of
+   earth" is translation itself. Her own chapter list attacks the Trinitarian Bible Society's Greek
+   text and the Majority Text, which is the documentary proof that this is a third position hostile
+   to the other two rather than a stronger form of them. Three cautions are in `research/SOURCES.md`:
+   no primary Ruckman text is freely available and the lesson rests nothing on him; "double
+   inspiration" could not be traced to an originator and is not attributed; and the Jack Hyles sermon
+   usually cited for this position does not actually make the argument.
 2. **Fee and Stuart's *How to Read the Bible Book by Book*** is characterised in lesson 12 from the
    publisher's description. It is the pattern the course project asks learners to use, so someone
    should open it and confirm the four headings.
-3. **Lesson 1 has four sub-legible SVG labels**, surfaced when the validator was taught to resolve
-   inherited font sizes. Small fix. Lessons 7 and 8 also warn on `--line-strong` and `--navy`
-   rendering identically in one theme.
-4. **Every `:::figure` in this course except lessons 10, 11 and 12 hotlinks a full-size Wikimedia
-   original**, one of them 6.7 MB. Use the `/thumb/.../960px-` form. This is a rule 9 problem, not a
-   cosmetic one.
+3. **Lesson 1 has four sub-legible SVG labels.** Lessons 7 and 8 also warn on `--line-strong` and
+   `--navy` rendering identically in one theme.
+4. **Every `:::figure` except lessons 10, 11 and 12 hotlinks a full-size Wikimedia original**, one of
+   them 6.7 MB. Use the `/thumb/.../960px-` form. A rule 9 problem, not a cosmetic one.
 5. **Reading times have not been audited anywhere.** Four of Bible Basics' twelve `minutes:` values
-   were out by more than an hour and one by a factor of three. The same is likely across all 51
-   lessons, and it is certainly wrong in the other direction on the three stub courses.
+   were out by more than an hour and one by a factor of three.
 
-### Two validator bugs were fixed on 2026-09-08, and both had been hiding real defects
+### One correction worth keeping for its general lesson
+
+Lesson 11 described the Orthodox Study Bible's Old Testament as a revised New King James Version,
+following the producing academy's website. The book's own printed introduction says close to the
+opposite: Rahlfs's Greek was the basis, with Brenton and the NKJV as further sources. Both are
+official statements and the lesson now prints both without resolving them. **A publisher-side web
+page is not the same source as the book's own front matter**, and this course had been treating them
+as interchangeable.
+
+## 5. Two validator bugs fixed 2026-09-08, both hiding real defects
 
 Worth knowing because it changes what you can trust `npm run validate` to catch.
 
 - **The SVG checks matched only on the `<text>` tag.** `font-size` and `fill` inherit, so a chart
   could put every size on a `<g>` wrapper and pass clean with 24 labels between 8.5 and 11 units,
-  while other lessons were flagged for exactly the same defect. Bible Basics lesson 10 was doing
-  this. The check now walks the tag tree and resolves what each `<text>` actually inherits.
+  while other lessons were flagged for the same defect. Bible Basics lesson 10 was doing this. The
+  check now walks the tag tree and resolves what each `<text>` actually inherits.
 - **The answers-in-plain-prose check looked only eight lines ahead** and did not know the phrasing
-  "before you read my answer". So it fired on six lessons that were doing it correctly (a
-  "Now do it yourself" heading, a long `:::exercise`, then the `:::checkpoint` holding the answers,
-  which sat outside the eight-line window) and missed two lessons that really were printing the
-  answer in plain prose. It now scans to the next heading, and knows more phrasings.
+  "before you read my answer". It fired on six lessons doing it correctly and missed two that really
+  were printing the answer in plain prose. It now scans to the next heading and knows more phrasings.
 
-## 1. How the pipeline behaves in practice
+## 6. Lesson splits: SETTLED. Do not re-open with John.
 
-*The live handoff is section 0d, above. This section is the accumulated craft knowledge: what a
+**John's instruction, 2026-09-06:** "I want lessons and courses to be as long as they need to be to
+do what they should do. Splitting doesn't concern me that much but makes sense you don't want an
+individual lesson to go on forever. Do what you think is best."
+
+The standing rule, which needs no further approval:
+
+1. Split a lesson when it holds two ideas that each stand alone with a natural stopping point
+   between them, which is the test standard 1.3 already sets. Do not split on length alone; 1.3 has
+   no ceiling and tells reviewers never to flag length by itself.
+2. Do not renumber as you go. Mark each seam with an HTML comment saying where it falls and what
+   each half would need, and record it here.
+3. Do the renumbering **once**, as a required step before the course goes to `status: published`.
+   Rename the files, rewrite every "lesson N" reference in the lessons, OUTLINE.md and SOURCES.md,
+   then grep for pointers to lessons that no longer exist.
+4. While doing that pass, switch prose references from numbers to titles where it reads naturally.
+   "The genre lesson" survives any reordering; "lesson 3" does not.
+
+The reasoning is in `docs/CHANGELOG.md` under 2026-09-06.
+
+## 7. Scripture licensing: SETTLED. Do not re-open.
+
+The ESV **may not be quoted in any work published under a Creative Commons licence**, which this
+repo is, and its free allowance **excludes Bible reference works**, which a course on how to read
+the Bible arguably is. Bible Basics had been quoting it under a permission that does not exist.
+
+Policy is Editorial Standards **4.7**: **NET Bible by default** (no verse cap for non-commercial use,
+no exclusion for openly licensed works or reference works, and its translators' notes are worth
+teaching from), JPS 1917 for the Tanakh or when describing how Jews read a passage, Brenton for the
+Septuagint, KJV where the familiar wording is the subject, short comparative snippets from
+copyrighted versions where comparing renderings is the teaching, and a note that our own open licence
+does not extend to quoted scripture. **The 500-verse running count is gone. If a plan ever requires
+counting again, the plan is wrong.**
+
+One consequence: the NET renders Isaiah 7:14 as "this young woman", not "virgin". Lesson 4 keeps the
+NET as its voice, says plainly that many English Bibles read "virgin", and rests the Christian
+reading on the Septuagint's *parthenos* and Matthew's use of it, which is where it already rested.
+
+## 8. How the pipeline behaves in practice
+
+*The live handoff is §4, above. This section is the accumulated craft knowledge: what a
 Stage 4 cycle costs, how to run one, what this drafter gets wrong repeatedly, and what the linter
 can and cannot catch. It is worth reading before you review a lesson. The course-by-course work
 orders that used to live here have been deleted: Logic and Argument and Bible Basics are both
@@ -376,27 +396,7 @@ and `site/data/courses.js` rebuilt. A sweep of all 50 lessons with quizzes found
 Bible Basics draft. `checkQuizTypes` now catches the class, and `explain` is checked only when
 present, because the four pre-standards courses omit it.
 
-## 2. Custom domain (DONE 2026-09-06)
-
-John bought `fovallearninginstitute.org` at Namecheap. `site/CNAME` contains `www.fovallearninginstitute.org` and GitHub Pages is set to that custom domain.
-
-**Done 2026-09-05:** the two Namecheap parking records (CNAME `www` to `parkingpage.namecheap.com` and the URL Redirect on `@`) were deleted and these five records added and saved in Advanced DNS:
-
-| Type | Host | Value | TTL |
-|---|---|---|---|
-| A | @ | 185.199.108.153 | Automatic |
-| A | @ | 185.199.109.153 | Automatic |
-| A | @ | 185.199.110.153 | Automatic |
-| A | @ | 185.199.111.153 | Automatic |
-| CNAME | www | jfoval.github.io | Automatic |
-
-**Done.** DNS propagated, GitHub issued a Let's Encrypt certificate (valid to 5 December, auto-renewing), and HTTPS is enforced. `http://` returns 301 to `https://`, and the apex 301s to `www`. Getting the certificate issued needed the custom domain removed and immediately re-added in the Pages settings after two hours of GitHub not issuing one; that is the documented fix and it worked within a minute. Live at https://www.fovallearninginstitute.org.
-
-## 3. About page with John's bio (shipped 2026-09-05)
-
-Done. `#/about-john` in `site/assets/app.js` (`viewAboutJohn`), linked from the About page and the footer, headshot at `site/assets/media/john-foval.jpg` (his own photo, no credit line needed), `.portrait` style in `styles.css`. If John wants changes, edit `viewAboutJohn`.
-
-## 4. Personalised learning path from a questionnaire (not started)
+## 9. Personalised learning path from a questionnaire (not started)
 
 A third way in, alongside the Foval Core and free choice. Spec:
 
@@ -405,356 +405,14 @@ A third way in, alongside the Foval Core and free choice. Spec:
 - **Attach to profile:** the plan is saved (localStorage now; Supabase profile in Phase 2) as the learner's active path; the Path page then shows *their* path with the same progress dots, "next up", and time estimates; "switch to the Core" and "rebuild my plan" buttons.
 - Data file: `curriculum/planner.yaml` with the question list and weights, so it's editable without touching code.
 
-## 5. Accomplishments page, sharing, and credentials (not started)
+## 10. Accomplishments page, sharing, and credentials (not started)
 
 - **Achievements page** at `#/achievements`: a clean, screenshot-friendly layout (fixed max width about 600px, the Keystone Arch mark, the learner's name, courses completed with dates, lessons, hours, retention score, streak, certificates). Designed so a plain screenshot looks like a credential: generous margins, no UI chrome, the institute name and URL in a footer line.
 - **Share buttons:** copy link, share to X/LinkedIn/Facebook via their share URLs, "copy as image" using a canvas render of the card (html-to-image via cdnjs, or an SVG template rendered to PNG). Native share on phones via `navigator.share`.
 - **Verifiable certificates** need Phase 2 (accounts) so a certificate ID can be looked up at `/verify/<id>`; until then the share page is self-attested and says so.
 - **Accreditation:** documented in `docs/PLATFORM_ROADMAP.md` Phase 3. Realistic path: Open Badges 3.0 issuance, LinkedIn "Add to profile" fields, employer or institution partnerships, and rigorous public assessments. Formal accreditation as a degree-granting institution is a multi-year regulatory process; revisit when there are learners and a track record. Research options for a certificate mark that is honest ("Foval Learning Institute Certificate of Completion, not accredited credit").
 
-## 6. Podcast for every lesson (PIPELINE BUILT 2026-09-06; RE-ENGINED ON GEMINI 2026-09-08). Standing track.
-
-**Where this stands now, after the setup session on 2026-09-06 (read this, skip the history below
-unless you need it):**
-
-- **The engine changed on 2026-09-08: Gemini 3.1 Flash TTS on fal.ai** (`fal-ai/gemini-3.1-flash-tts`),
-  multi-speaker, $0.05 per 1,000 characters in, about $0.30 to $0.50 an episode. John listened to
-  Gemini-rendered podcasts and called it leaps and bounds better than VibeVoice, so every existing
-  episode was re-rendered from the same fact-checked scripts and re-uploaded over the same R2 keys.
-  The hosts are still John and Haley; their voices are now **John = Charon** (calm, professional
-  male) and **Haley = Aoede** (warm female), set in `scripts/podcast.mjs`. Changing a host voice
-  means re-rendering every episode, because the hosts have to sound the same across the institute.
-  **The `FAL_KEY` in `.env.local` still works and is what the script reads.** Cost so far on the new
-  engine: $2.96 to re-render the nine existing episodes, plus $0.32 for the first test render.
-- **SETTLED: Charon and Aoede are the voices.** John was asked directly on 2026-09-08 and said keep
-  them and render the twenty-one owed episodes. Nothing on this track waits on him. Changing a host
-  voice from here means re-rendering every episode in the institute, so do not.
-- **What is owed: Logic and Argument's ten episodes**, and Bible Basics' remaining eleven. Nine of
-  the fifty-one live lessons have audio. **Those twenty-one are the whole backlog right now**,
-  because they are the only settled lessons without audio: the three stub courses get theirs after
-  they are rebuilt, and Personal Finance after 7 to 10 are drafted. Rendering audio for a lesson
-  that is about to be replaced pays for it twice. `node scripts/podcast.mjs plan <lesson>` reports where any
-  one stands; `/make-podcast <lesson>` runs the whole flow, one episode per session.
-- *(History, superseded)* **The engine was VibeVoice 7B on fal.ai.** John asked "are you sure?" and a fourth
-  research pass (recorded in `docs/PODCAST_OPTIONS.md`) confirmed it; he then called it himself.
-  His fal.ai account exists, has $10 of credits, and its API key lives in **`.env.local`**
-  (git-ignored) as `FAL_KEY`. `source .env.local` before rendering.
-- **The first real episode exists.** Bible Basics lesson 2, a 6-minute two-host script written by
-  hand from the lesson (now at `courses/christian-studies/bible-basics/podcast/02-one-story.script.md`,
-  the canonical location the pipeline derives), fact-checked in a
-  fresh-context subagent (PASS WITH NITS; all five nits fixed before rendering), rendered for
-  $0.32. **The hosts are named: John and Haley** (John's call, 2026-09-06; male voice is John,
-  female is Haley). The voice presets are being chosen by ear from the four clean English
-  presets (Carter/Frank male, Alice/Maya female; "Mary" carries background music, ruled out);
-  `scripts/podcast/samples/voice-test.script.md` is the 40-second snippet used to compare them.
-  Custom voices via a reference clip (`audio_url`, presets ignored) are the fallback if no
-  preset satisfies, but need a rights-cleared sample.
-- **R2 is live.** John activated R2 on the Cloudflare account; bucket `foval-audio`, public at
-  `https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev`. Objects go at
-  `<school>/<course>/<lesson>.mp3`. Upload:
-  `npx wrangler r2 object put foval-audio/<path> --file <mp3> --content-type audio/mpeg --remote`.
-  The r2.dev URL is rate-limited and fine for now; move to a custom domain
-  (audio.fovallearninginstitute.org) if it ever matters.
-- **The site plays it.** Lessons take an `audio:` frontmatter URL; `scripts/build.mjs` passes it
-  through and the lesson page renders a gold-topped "Listen: this lesson as a conversation" block
-  (`.podcast` in styles.css) with the synthetic-voices disclosure the standards require. Lesson 2
-  carries the URL now; it goes live when Bible Basics publishes.
-- **Homepage card 08 is now a real screenshot** (`tile-podcast-{light,dark}-phone.png`, target in
-  `scripts/screenshots.mjs`), replacing the typographic teaser; the `feature-soon` CSS was removed
-  with it. Like the chart panel, it photographs a drafting course, which John already approved.
-- **`scripts/podcast-compare.mjs` request shapes are now verified against the live docs** and two
-  bugs are fixed (ElevenLabs returns raw MP3 and caps requests at 2,000 characters, so it batches
-  and concatenates; Gemini default model is now `gemini-3.1-flash-tts-preview`). fal cold starts
-  ran 13 minutes on the first render, so the poll budget is 20 minutes.
-- **Built 2026-09-06: `scripts/podcast.mjs` and `/make-podcast <lesson>`.** One argument (the
-  lesson path) drives everything; script, MP3, R2 key and public URL are all derived from it.
-  Guards: dry-run by default, no render without a `checked:` fact-check entry in the script's
-  frontmatter, $2 cost cap without `--force`, upload verifies the public URL answers before
-  anyone stamps. `FAL_KEY` is read from `.env.local` automatically. Episode scripts are content
-  and live in git at `courses/<school>/<course>/podcast/<id>.script.md`; MP3s go to git-ignored
-  `audio-out/` and R2. Nothing is owed by John: **the voices are chosen (John is the Carter
-  preset, Haley is Alice, picked by ear 2026-09-06)** and the lesson 2 episode was regenerated
-  with the named intro and sign-off and re-uploaded to the same R2 URL. `podcast-compare.mjs`
-  carries Carter/Alice as the defaults now.
-- **Regenerate lesson 2's audio after the split/renumber pass** (7b): the episode covers the
-  whole current lesson, so when it becomes two lessons the audio must be redone (~$0.32).
-
----
-
-### History: how the decision was made (kept for the reasoning)
-
-**John approved starting this at the end of the homepage session on 2026-09-06.** The homepage
-already advertises it as feature card 08 ("in the works now"). Pick up at "After that" below:
-build `scripts/podcast.mjs` and the player, using the route the memo recommends.
-
-Full memo: **`docs/PODCAST_OPTIONS.md`**, which now evaluates all four routes by name. John pushed
-back twice that the research was not deep enough and he was right both times: the second pass named
-Podcastfy without evaluating it and missed Play.ai PlayNote entirely. Two findings from the third
-pass change the shape of the decision.
-
-**Play.ai PlayNote is dead.** It was exactly the thing everyone wants: a commercial API with
-`synthesisStyle: "podcast"` and two voices, around 40,000 customers, marketed as "NotebookLM but
-with any voice, custom prompts and API access". Meta acquired PlayAI in July 2025 and the platform
-shut down permanently on **31 December 2025**, deleting accounts, saved audio, voice clones and every
-API endpoint with no migration path. Any guide still recommending it is stale. It is also the
-strongest argument on the page for preferring a model whose weights we can download.
-
-**Browser automation risks the whole Google Account, not just the tool.**
-`israelbls/notebooklm-podcast-automator` (113 stars, 34 forks, FastAPI wrapping Playwright) works.
-But it authenticates by keeping a Chrome profile permanently signed in to a real Google account, and
-NotebookLM has no suspension of its own: a flag disables the entire Google Account. `workers/api/`
-uses a Google OAuth client for sign-in, so putting audio generation on that account means one
-automated abuse flag takes out John's email, his Drive, and every learner's ability to sign in to the
-institute, together. The standards objection stands underneath that anyway: the script would be
-Google's, and Editorial Standards 2 wants it checked.
-
-**Podcastfy is alive and good, and solves the half we should own.** 6,500 stars, actively
-maintained, your own OpenAI/Google/ElevenLabs keys. What it automates is source in, script out,
-audio out. The script generation is the part we specifically do not want to outsource, and stripping
-it out leaves one function. Worth reading for its prompt design; not worth adding Python to a Node
-repo with two npm packages in it.
-
-**The framing that matters.** "NotebookLM quality" is two things: the two-host script, and voices
-that stay themselves for twelve minutes and hand over cleanly. We are better placed than Google on
-the first, because we wrote the lesson and we have a fact-check stage. The second is a model you
-can rent or download.
-
-**Ruled out.** The official audio-overview API is Gemini Notebook Enterprise only: fifteen-licence
-minimum, about $135 a month. The unofficial library that drives the consumer product is free and
-genuinely works, but it hands the script back to Google, so the audio would carry our name with
-nothing here having written or checked it. That objection is about standards 2, not about terms of
-service, and it applies equally to generating them by hand in the app.
-
-**Recommended: VibeVoice on fal.ai at $0.04 a generated minute, with a script we write and check.**
-About **$0.48** a twelve-minute lesson, **$13** for all 28 lessons live today, about $670 for all
-1,400 planned. VibeVoice is Microsoft's open-weights model built for multi-speaker long-form (up to
-90 minutes, four speakers, stable voice identity, clean turn-taking), which is the specific thing
-people mean by "it sounds like NotebookLM". Being open weights, it is also the only option with no
-lock-in: if fal changes its pricing we run the same model ourselves and get the same voices.
-
-This **replaces the earlier recommendation of Gemini Flash TTS** ($0.13 a lesson), which was chosen
-on price before the multi-speaker models had been looked at properly. The $0.35 a lesson difference
-is a rounding error against what it buys.
-
-Podcastfy and Open Notebook are the open orchestration layers and are worth reading, but neither
-has a step that checks the script against the source, which is the whole difference between our
-audio and everyone else's. Read their prompt design, write our own thin Node script.
-
-**The pilot is written and the comparison tool is built. It needs one account and one command.**
-
-- `scripts/podcast/samples/how-to-learn-anything-03.script.md` is a real four minute two-host
-  script, written **by hand** from lesson 3 of How to Learn Anything. Every figure in it appears in
-  the lesson and traces to the lesson's own sources. Writing it by hand is the point, twice over: it
-  means the comparison needs no LLM key, and it is the concrete form of the argument that the script
-  is the half we own. The hosts are unnamed so the comparison survives John picking names.
-- `node scripts/podcast-compare.mjs <script.md>` renders it on VibeVoice via fal, Gemini Flash TTS
-  and ElevenLabs, skipping any engine with no key. **Dry run by default; nothing is spent without
-  `--go`.** For this sample: $0.16, $0.04 and $0.59, so **$0.79 for all three**.
-- **Caveat written into the file, do not skip it:** the fal and ElevenLabs request shapes were
-  written from docs the authoring session could not reach, because Claude Code web blocks
-  `fal.run` and `api.elevenlabs.io`. The parsing, cost guard, polling and file handling are tested;
-  a field name may need one correction. The dry run prints exactly what it would POST. **This tool
-  cannot run from a web session at all**, for the same egress reason.
-
-**Waiting on John:** a fal.ai account (nobody here can create it; it needs his email and a card),
-then `FAL_KEY=... node scripts/podcast-compare.mjs scripts/podcast/samples/how-to-learn-anything-03.script.md --go`,
-then his ears. Also two host names, which become the sound of the institute.
-
-**After that:** build `scripts/podcast.mjs` and a `/make-podcast` command, about a day. MP3s go to
-**Cloudflare R2** (free tier 10 GB, no egress charge), not git: 6 MB a lesson is 8 GB at full scale
-against a 1 GB soft limit on Pages.
-
-Needs from John: a fal.ai account (and optionally Google AI Studio and ElevenLabs for the
-comparison), an R2 bucket on the existing Cloudflare account, approval to spend, and two host names.
-Nothing has been spent and no accounts created.
-
-## 7. Homepage: what makes the institute unique (shipped 2026-09-06; redesigned and John-approved later that day)
-
-**Redesign addendum (2026-09-06, commits `54f069a` and `5453101`, approved by John):** the section
-below still exists but reshaped. The strip is now eight numbered feature cards (`showcase()` in
-`app.js`): screenshots rest dimmed and come forward on hover with a sliding description; a
-two-column grid on phones (John rejected the swipe carousel twice, do not bring it back); card 08
-is a typographic podcast teaser, so the "named in the ask block, not a panel" sentence below is
-outdated. Panel shots sit on gold-topped mats (offset outline frames failed, do not bring those
-back either). Three credited Pexels photo bands (`study-*.jpg` + `-CREDIT.txt` in
-`site/assets/media/`), scroll-reveal motion in `app.js` `reveal()`, hero kept Oxford navy per John,
-copy cut hard (his standing rule: one or two short sentences per panel). Link previews now use
-`site/assets/media/social-card.png` via og:/twitter: meta in `index.html`; regenerate with
-`npm run card` after brand changes. The transcript/My-learning capture predates the gold
-section-rule tabs; consider `npm run shots` next time captures are touched.
-
-Live below the hero as `whySection()` in `site/assets/app.js`, styled under "Home: what makes this
-different" in `styles.css`. Three panels, then John's one ask, laid out as alternating rows so each
-screenshot gets enough width to be legible instead of shrinking to an unreadable thumbnail.
-
-The screenshots are real captures of the live site at `site/assets/media/screens/`. Four files per
-panel: `<name>-{light,dark}-{phone,desktop}.png`, chosen by a `<picture>` element on
-`prefers-color-scheme` and viewport width, so a dark reader never gets a photograph of a light page
-and a phone gets the phone capture. Verified rendering in all four combinations.
-
-Below the four panels sits a strip of six tiles, "A lesson page is more than words": a marked quiz
-question with its explanation, the six-act map from Bible Basics, an exercise, the free-recall box
-part filled, a Python code block, and the transcript stat cards. They are phone captures at every
-width, because each is a narrow object that a phone frames best, and on a phone the strip becomes one
-swipeable row rather than two thousand pixels of scrolling.
-
-The section is now about 3,700px tall on a desktop and 4,100px on a phone, which is long for a
-homepage. If it needs trimming, the tiles are the part to cut, not the panels.
-
-**The chart panel is live and it photographs an unpublished course. John's call, 2026-09-06:**
-"Go ahead and screenshot it now and don't put coming soon. I'll have it up before anyone really
-comes here anyways." So the "Drawn, photographed, and linked" panel and the "Maps of the material"
-tile are captures of **bible-basics lesson 2**, which is `status: drafting` and therefore not on the
-site. **Publishing Bible Basics is now a dependency of the homepage being honest**, not just a
-content milestone. Until it publishes, the homepage shows a lesson a visitor cannot open.
-
-Lesson 2 was chosen because it is reviewed and settled; lessons 3 and up are still in review and
-their screenshots would go stale. If lesson 2 is edited, retake the two images.
-
-**The video tile is done.** `tile-video-{light,dark}-phone.png` were captured on John's Mac and the
-seventh entry is in `WHY_TILES`. It still cannot be captured from a Claude Code web session, where
-the network policy blocks YouTube and the capture script refuses to write a blank player, so retake
-it on a machine with ordinary internet.
-
-Getting it took three fixes to `scripts/screenshots.mjs`, all of which matter to anyone retaking it:
-
-- The embed is `loading="lazy"` and sits a long way down the lesson, so nothing requested YouTube at
-  all while the page sat at the top. The target now scrolls it into view first.
-- The check for "did YouTube load" watched `youtube.com`, which answers fine even when the poster
-  never arrives. It now watches `i.ytimg.com`, the poster itself, which is what actually decides
-  whether the tile is a picture or a black box, and waits on it rather than on a fixed timeout.
-- A cross-origin player paints **black** in a `fullPage` capture wherever the page is scrolled, so
-  the video target photographs the viewport with the embed sitting in it, dropped below the sticky
-  header. `html { scroll-behavior: smooth }` means the scroll position has to be read back after it
-  settles, not worked out in advance.
-
-Check the two PNGs by eye after retaking. A green run is not proof: the guard passing only means
-YouTube answered, and the first two runs here wrote files that were entirely black.
-
-**Every screenshot in the section is now regenerated by `scripts/screenshots.mjs`**, so this is one
-command on any machine with ordinary internet:
-
-```
-npm install
-npm run build:drafts                 # the chart, map and video live in a drafting course
-npm run shots -- tile-video          # or `npm run shots` for all twelve targets
-npm run build                        # put site/data/courses.js back
-git diff --stat site/data/courses.js # must be empty before committing
-```
-
-It drives the Chrome already installed on the machine, so there is no browser download; set
-`CHROME_CHANNEL=msedge` or `CHROME_PATH=...` if it cannot find one. `npm run shots -- --list` prints
-the targets. The strip is seven tiles now: four across at desktop width wrapping to three, and one
-swipeable row on a phone.
-
-**All 34 files were regenerated together on 6 September 2026**, not just the video, because the
-committed ones predated `c84af0e` (the hero going full width and the content column widening) and so
-were photographs of a narrower column than the site has now. Heights moved with it: the predict
-block grew 58px on a phone, the review card 112px. Every one was checked by eye in both themes,
-including the SVG targets, where nothing came out white on white. If you change the site's layout or
-type, retake the lot rather than one target, or the panels stop matching each other.
-
-The chart photograph used to stop above its own source caption, because that caption was wider than
-its viewBox and the browser clipped it. Both are fixed now: the viewBox is wide enough, the linter
-guards it, and `svgBox` no longer crops. The homepage chart names where its numbers came from, and
-`Act 6, Revelation: 22` keeps its descenders. If a caption ever looks cut again, fix the chart, not
-the capture script.
-
-The one new dependency this adds is `playwright-core` in `devDependencies`. It is dev-only, never
-served to a learner, and it deliberately does not bundle a browser. Rule 9 is about what the site
-ships, not what the toolchain uses, but it is a dependency and worth knowing about.
-
-The podcast is named in the ask block as not built yet, in one line, rather than given a panel. It
-gets a panel when it exists (see section 6).
-
-**Content note for whoever owns `courses/`:** How to Learn Anything is the institute's shop window.
-It used to have no images, charts, video or links in any lesson body; the media pass under
-standards 4.5 was **done on all eight lessons on 2026-09-06** (see 0b item 2), so the shop window
-now shows what a Foval lesson is. If a homepage capture ever photographs one of these lessons,
-the new charts and video blocks are what it should show.
-
-## 7b. Lesson splits: SETTLED. Do not re-open with John.
-
-**John's instruction, 2026-09-06:** "I want lessons and courses to be as long as they need to be to
-do what they should do. Splitting doesn't concern me that much but makes sense you don't want an
-individual lesson to go on forever. Do what you think is best."
-
-**The standing rule, which needs no further approval:**
-
-1. Split a lesson when it holds two ideas that each stand alone with a natural stopping point
-   between them, which is the test standard 1.3 already sets. Do not split on length alone; 1.3 has
-   no ceiling and tells reviewers never to flag length by itself.
-2. Do not renumber as you go. Mark each seam with an HTML comment saying where it falls and what
-   each half would need, and record it here.
-3. Do the renumbering **once**, as a required step before the course goes to `status: published`.
-   Rename the files, rewrite every "lesson N" reference in the lessons, OUTLINE.md and SOURCES.md,
-   then verify by grepping for pointers to lessons that no longer exist.
-4. While doing that pass, switch prose references from numbers to titles where it reads naturally.
-   "The genre lesson" survives any reordering; "lesson 3" does not. That removes this problem
-   permanently for this course and the 140 planned ones.
-
-Nothing is published while this is pending, so no learner meets an over-long lesson in the meantime.
-
-**Confirmed seams so far:** lesson 2 (after the Act 3 map, before "Three levels at once"); lesson 3
-(after the proportions chart, before "What a biblical story is doing"); lesson 4 is a candidate
-flagged by its drafter at the heading "What a prophet was", unconfirmed until it is reviewed.
-
----
-
-### Why this needs no decision from John (background)
-
-
-Stage 4 reviews grow lessons. Lesson 2 went from 5,400 to 8,700 words in its fix pass, and its real
-runtime is about 110 minutes. Under Editorial Standards 1.3 that is **not** a defect: there is no
-ceiling, and reviewers are told never to flag length on its own. The test 1.3 actually sets is
-whether a lesson holds two ideas that each stand alone and a reader would benefit from a quiz and a
-rest between them.
-
-**Lesson 2 passes that test.** The seam is between the map (six acts, five covenants, the Act 3
-timeline) and reading with the map (the three levels, Ruth, Jeremiah 29). The first half stands
-alone and leaves a learner with something real. Lesson 4 is a second candidate, flagged by its
-drafter, with the seam at the heading "What a prophet was"; that one is unconfirmed until lesson 4
-is reviewed.
-
-**The splits are deliberately deferred.** Lessons are referenced by ordinal number in prose, and
-there are **274 such references** in this course (188 across the lessons, 47 in OUTLINE.md, 39 in
-SOURCES.md). Inserting one lesson invalidates about 200 of them, and the migration must be repeated
-for every later split. Doing it once, after all twelve lessons are reviewed and every seam is known,
-costs one careful scripted pass. Doing it per lesson costs three or four, each with a fresh chance
-of leaving a pointer aimed at the wrong lesson.
-
-**So: finish the reviews at twelve lessons, collect the seams, then do one renumbering pass** that
-renames the files, rewrites every "lesson N" reference in lessons, OUTLINE.md and SOURCES.md, and is
-verified by grepping for references to lessons that no longer exist. Each confirmed seam is marked
-in the lesson with an HTML comment (`<!-- SPLIT SEAM: ... -->`) so the eventual split is mechanical.
-
-**Updated 2026-09-06 after lesson 3.** The pattern is now measured, not suspected. Reviews grow
-lessons by roughly two to three times, because almost every finding asks for *more* teaching, not
-less: a missing worked example, an objection engaged at full strength, a practice item for an
-objective that had none.
-
-| Lesson | minutes before | after | words after |
-|---|---|---|---|
-| 1 | 40 | 70 | ~7,000 |
-| 2 | 45 | 90 | 8,700 |
-| 3 | 45 | **150** | ~8,900 |
-
-Three lessons reviewed, **two are split candidates** (2 and 3), and lesson 4 is a third flagged by
-its own drafter. So the finished course is realistically **16 to 18 lessons, not 12**. The outline
-was written for lessons that were undertaught.
-
-**The deferral still holds, for one reason: nothing is published.** No learner can reach a
-150-minute lesson, because the course is `status: drafting` and the build excludes it. The bad
-experience is hypothetical until publish, so the renumbering can still happen once, at the end,
-after every seam is known. Splitting now would mean renumbering three or four times.
-
-**But the renumber is no longer optional and must happen before `status: published`.** Treat it as
-a required step in the Definition of Done for this course, not a nice-to-have.
-
-**Worth considering at that point:** referencing lessons by title rather than number would remove
-this problem permanently, for this course and for the other 140 planned. A pointer reading "the
-genre lesson" survives any reordering; "lesson 3" does not.
-## 8. Swag store and donations (not started)
+## 11. Swag store and donations (not started)
 
 - **Store:** print-on-demand with no inventory. Recommended: Fourthwall (free, creator-focused, handles fulfilment and taxes, custom domain support) or Printful connected to a simple Shopify/Big Cartel storefront. Start with three to five items using the Keystone Arch mark and the tagline: a heavyweight tee (navy, gold mark), a crewneck, a dad cap, a mug, and a bookmark or print of the crest. Design files: export the mark and lockup as high-resolution PNG/SVG from `design/crest-keystone-arch-v2.html`. Link from the footer ("Store") and a small line on the About page. John must create the store account; the agent can prepare the artwork and product copy.
 - **Donate:** a `#/support` page and a footer link. Copy from John: "We're constantly using tons of tokens to expand our offerings and make updates. We'd appreciate anything you can do to pitch in if it becomes something you find valuable over time. Cheers!" Options: GitHub Sponsors (fits the open repo), Ko-fi or Buy Me a Coffee (simplest), Stripe Payment Link (lowest fees). John must create the account; then it's one link.
@@ -795,7 +453,7 @@ page, the footer and the README, so no two places contradict each other. **Nothi
 built and no decision has been made to run any.** This settles only what the institute is allowed to
 do if John chooses to.
 
-## 8b. Accounts backend: NOT blocked. Corrected 2026-09-06.
+## 12. Accounts backend: NOT blocked. Corrected 2026-09-06.
 
 **The old entry here was wrong and has been replaced.** It said accounts were blocked on a Supabase
 free-tier project slot, waiting on John to delete an empty project. That stopped being true when the
@@ -842,48 +500,24 @@ browser stays the source of truth and the site keeps working with no network.
 web, and the network policy there blocks `workers.dev` and the live site. The Worker can be written
 and tested locally in such a session, but the deploy needs credentials.
 
-## 8c. Going private: what has to move first (opened 2026-09-05)
+## 13. Going private: what has to move first (opened 2026-09-05)
 
 John confirmed the codebase does not need to be public; it is only public because free GitHub Pages requires it. Value 9 has been rewritten in `docs/VALUES.md` and on the About page so "open" now promises openness about the *teaching* (sources named, disagreement shown, revisions recorded) rather than open source code. The "Content and code on GitHub" footer link is removed.
 
 **Do not make the repo private yet.** GitHub Pages will not serve a private repo on a free account, so flipping it today takes the live site down. Order of operations: move static hosting to Cloudflare Pages (free, serves private repos, custom domain, fast HTTPS), repoint DNS, *then* flip the repo to private.
 
-**Six site links still point into the public repo** and will 404 for visitors the moment it is private. All are in `site/assets/app.js` via the `REPO` constant:
+**Two site links still point into the public repo** and will 404 for visitors the moment it is private. Both are in `site/assets/app.js` via the `REPO` constant:
 
-| Line | What | Replace with |
-|---|---|---|
-| 185 | "The full map" on the home page, to `curriculum/TAXONOMY.md` | an on-site `#/map` page generated from TAXONOMY.md at build time |
-| 202 | "curriculum" link on the Courses page, same target | same `#/map` page |
-| 286 | "Report a problem" on every lesson, opens a GitHub issue | the feedback endpoint (see §9) |
-| 555 | "editorial standards" on the About page | an on-site `#/standards` page generated from `docs/EDITORIAL_STANDARDS.md` |
-| 565 | About page "Contribute" paragraph | done, rewritten, no longer links to GitHub |
-| `site/index.html` footer | "Content and code on GitHub" | done, removed |
+| What | Replace with |
+|---|---|
+| "Report a problem" on every lesson, opens a GitHub issue | the feedback endpoint, which already exists (see §15) |
+| "editorial standards" on the About page | an on-site `#/standards` page generated from `docs/EDITORIAL_STANDARDS.md` at build time |
 
-The build script would need to render TAXONOMY.md and EDITORIAL_STANDARDS.md into `site/data/` as HTML so those pages work without the repo. That is the real prerequisite, and it is worth doing anyway since both read better on the site than on GitHub.
+~~The two "full map" links~~ **done 2026-09-08**: `#/map` is a real page now, generated from
+TAXONOMY.md by `scripts/build.mjs` into `window.FOVAL_MAP`, listing all 174 courses by school with
+level, term and status. `#/standards` is the same job on a different file and is the last one left.
 
-## 8d. Scripture licensing: settled, and why (2026-09-06)
-
-The course quoted the ESV under a permission the lesson described as "up to 500 verses in
-non-commercial use". That is not what Crossway's terms say, and two of the real conditions ruled it
-out: the ESV **may not be quoted in any work published under a Creative Commons licence**, which
-this repo is, and the free allowance **excludes Bible reference works**, which a course on how to
-read the Bible arguably is. The required Crossway notice was also absent from the whole site.
-
-The course now quotes the **NET Bible**: no verse cap for non-commercial use, no exclusion for
-openly licensed works, no exclusion for reference works, and its translators' notes are themselves
-worth teaching from. Policy is Editorial Standards **4.7**: NET by default, JPS 1917 for the Tanakh
-or when describing how Jews read a passage, Brenton for the Septuagint, KJV where the familiar
-wording is the subject, short comparative snippets from copyrighted versions where comparing
-renderings is the teaching, and a note that our own open licence does not extend to quoted
-scripture. **The 500-verse running count is gone.** If a plan ever requires counting again, the plan
-is wrong.
-
-One consequence worth John's eye: the NET renders Isaiah 7:14 as "this young woman", not "virgin".
-Lesson 4 keeps the NET as its voice, says plainly that many English Bibles read "virgin", and rests
-the Christian reading on the Septuagint's *parthenos* and Matthew's use of it, which is where the
-lesson already rested it. The argument is unaffected; the texture of the passage changed.
-
-## 8e. Known defects not yet fixed, course-wide
+## 14. Known defects not yet fixed, course-wide
 
 - **28 lessons have no links in the body** (was 38 before the How to Learn Anything media pass),
   against 4.5. Warned by the linter. Needs per-lesson
@@ -925,11 +559,14 @@ lesson already rested it. The argument is unaffected; the texture of the passage
   and 12), and lesson 12 additionally has `## Worked example 1` and a "Here's mine." that prints its
   own answer, spotted while reviewing lesson 7. Those will be handled in their own Stage 4 cycles;
   they are listed here so nobody treats them as new.
-- **The four placeholder courses** (Python, Algebra, Personal Finance, Writing Clearly) are live and
-  have never been through the pipeline. They are the largest untouched quality risk on the site,
-  because they are the ones learners can actually read today.
+- **The three placeholder courses** (Python Basics, Algebra Essentials, Writing Clearly) are live and
+  have never been through the pipeline. At about 450 words a lesson they are the largest quality risk
+  on the site, and they are queue items 2, 4 and 5 in §2. Personal Finance came off this list on
+  2026-09-06 and is now half built rather than a placeholder.
+- **`minutes:` is wrong nearly everywhere**, understated on the real courses and wildly overstated on
+  the three placeholders. Queue item 1 fixes it sitewide.
 
-## 9. Smaller items
+## 15. Smaller items
 
 - ~~Feedback endpoint~~ **done 2026-09-05**: Cloudflare Worker + D1, live at `https://foval-feedback.johnfoval.workers.dev`, wired into `site/index.html`. Read it with `npm run feedback`. See `docs/FEEDBACK_LOOP.md` and `workers/feedback/`.
 - Four placeholder courses through the pipeline (research, outline, redraft, review) or off the site before promotion.
@@ -938,7 +575,7 @@ lesson already rested it. The argument is unaffected; the texture of the passage
 - The taxonomy's `Christian standpoint` labels are now capitalised as "Christian Standpoint" everywhere the site shows them; keep that form.
 - Swag store (asked by John 2026-09-06): when it exists, make shirts playing on the FLI initials, in the vein of "I'm so FLI" and "Learning to FLI". Funny but cool; keep the mark and the Caslon/Plex system so they still look like the institute.
 
-## 10. Course requests from people (opened 2026-09-06)
+## 16. Course requests from people (opened 2026-09-06)
 
 Requests that came in by text message, not through the feedback form. All are now rows in
 `curriculum/TAXONOMY.md` with status `planned`; none has a folder yet. A folder gets created when
@@ -958,96 +595,15 @@ Fundamentals after it. If those four are built in that order they are the data s
 raising with John only if he wants them bundled and labelled as one track on the Path page, which is
 a packaging decision, not a new course.
 
-**Where each sits on the Core.** Every course on the map now carries a placement decision (see
-below). Graphic Design Fundamentals, Computer Science Foundations and Technology Leadership are all
-`elective`: they are specialities, and the Core is what a broadly educated adult needs rather than
-everything worth teaching. Statistics for Citizens was already on the Core in term 2 and stays there.
+**Where each sits on the Core.** Every course on the map carries a term, since the elective tier was
+removed on 2026-09-08. Graphic Design Fundamentals is T23, Computer Science Foundations and
+Technology Leadership are T20, and Statistics for Citizens is T5.
 
-**Ordering.** These four are all `planned` behind a queue that is already long: two courses are
-mid-review (Bible Basics, Logic and Argument) and four live placeholder courses have never been
-through the pipeline (§8e). Nothing here jumps that queue without John saying so. Graphic Design
-Fundamentals is the one with a named person waiting on it, which is the strongest reason on the list
-to move a course up.
+**Ordering.** All four are `planned` behind the queue in §2. Nothing here jumps that queue without
+John saying so. Graphic Design Fundamentals is the one with a named person waiting on it, which is
+the strongest reason on this list to move a course up.
 
-## 11. Core-path placement is now enforced (built 2026-09-06)
-
-The map and the Core had no link between them, so a new course could be added and simply never
-considered for the Foval Core. Nothing was checking, and two files were describing the Core by hand.
-
-**What is in place now.**
-
-- `curriculum/TAXONOMY.md` has a **Path** column on every course row. Its value is a term (`T1` to
-  `T8`) or the word `elective`. That cell is the placement decision, recorded on the map itself.
-- `scripts/core-path.mjs` checks that TAXONOMY.md and `curriculum/core-path.yaml` agree: every row
-  has a valid Path cell, every row marked `Tn` is in that term of the path file, every path entry
-  has a row on the map, every `elective` is absent from the path, and no school lists a course
-  twice. It runs inside `npm run validate` and `npm run build`, and exits non-zero on any of those.
-  A new row with a blank Path cell fails the build, which is the whole point: a course cannot reach
-  the map without someone deciding where it belongs.
-- TAXONOMY.md's numbered term list is generated from `core-path.yaml` between HTML comment markers
-  by `npm run path -- --write`. It used to be maintained by hand and had drifted: two courses
-  numbered 18, term 5 numbering out by one, and "History of Western Philosophy I and II" collapsed
-  into one line.
-- "Placing a course on the Core" in TAXONOMY.md is the decision rule: does the Core need it, what
-  does it need first, which term's theme, does the term still balance, where in the term.
-  `/new-course` now makes the placement its first step, and CLAUDE.md carries it as rule 4b.
-
-**Four real bugs it caught immediately.** Four entries in `core-path.yaml` had unquoted titles
-containing commas inside a YAML flow mapping, so the comma started a new key. The live Path page was
-showing "Early Modern World", "The Age of Revolutions", "The Modern World" and "Meaning" with their
-titles cut off at the comma. Fixed and rebuilt. The checker now rejects any entry with keys other
-than id, school, title, optional and standpoint, so that class of error cannot come back.
-
-**Also.** The Capstone was on the Core but had no row on the map. It now has one, in Foundations.
-Current shape: 165 courses, 51 on the Core across 8 terms, 114 electives.
-
-## 12. Renaissance-man gaps: what John suggested, what was already there, what got added (2026-09-06)
-
-John brainstormed a list of what makes someone broadly capable: design, art, music appreciation,
-business operations, accounting, geography, how politics works and how to be politically valuable,
-economics, investing and how the stock market really works, famous books, project management, Lean
-Six Sigma, forecasting, and the Guns Germs and Steel question.
-
-**Nine of those were already on the map** and need building, not adding: Art History, How to Listen
-to Music, Operations and Systems, Small Business Operations, Accounting and Financial Statements,
-World Geography, American Government and the Constitution (plus Comparative Government, Political
-Philosophy, Political Economy), the four economics courses, Investing and Real Estate, and Great
-Books I to III with Shakespeare and Mythology. Design was added earlier the same day.
-
-**Nine courses added, all `elective`:**
-
-| Course | School | What it covers that nothing else did |
-|---|---|---|
-| Forecasting: Thinking About What Happens Next | Foundations | John's "predicting the future". Base rates, calibration, scenario thinking, the Tetlock findings. Probability and Decisions teaches the maths; this teaches the practice. |
-| Why Nations Diverged | History | John's "Guns Germs and Steel". Diamond, Acemoglu and Robinson, McCloskey and Mokyr, and the objections to each. A live debate, which is the only honest way to teach it under standards 3.4. Economic History tells the story; this argues about the cause. |
-| How Things Work: Engineering for Everyone | Natural Sciences | Structures, engines, electricity, materials, how things fail. A gap nobody named but the most renaissance-man subject on the list. |
-| Drawing and Visual Thinking | Literature and the Arts | Making, not only looking. Pairs with Graphic Design Fundamentals; Art History is appreciation. |
-| Practical Civics: Being Useful in Public Life | Economics, Government, and Law | John's "how to be politically valuable", which is the one thing the government courses miss. They teach how the system is designed; this teaches how to move it. |
-| Project Management | Business and Enterprise | Scope, schedule, risk, dependencies; agile and waterfall compared on merits. |
-| Process Improvement: Lean and Six Sigma | Business and Enterprise | The real content under the belt certifications: variation, flow, SPC, Toyota, theory of constraints, and where it does not fit. |
-| How Markets Work | Money | John's "day trading, how the stock market works". Mechanics first, then the evidence, which is that most day traders lose money. Investing covers portfolios; this covers plumbing and speculation. |
-| How to Learn a Language | Learning and Mind | Not on John's list and a clear gap for a broadly educated person. |
-
-**Why all electives.** The Core is already 51 courses and roughly two years. Every addition raises
-what the institute claims an educated adult must know, so the bar is high. See "Placing a course on
-the Core" in TAXONOMY.md.
-
-**Practical Civics is on the Core.** John's call, 2026-09-06. It sits in term 6, after Political
-Philosophy and before Great Books III, which puts it after American Government and the Constitution
-in term 5 and next to Political Economy. The reasoning: knowing how the system is designed without
-knowing how to act in it is half an education. Term 6 is now seven courses, the same size as term 5,
-so the balance rule in "Placing a course on the Core" still holds. The Core is 52 courses.
-
-**Considered and not added.** Systems Thinking (Mental Models covers the same ground; revisit if
-that course's outline turns out not to). Photography (Drawing and Graphic Design cover seeing and
-composition). Playing an instrument (hard to teach honestly at a distance without a teacher).
-Chess and strategy games (fun, not general education). Latin or Greek (real value for reading the
-sources, but a large investment for a narrow return; revisit if Great Books demand grows).
-
-**Nothing here jumps the queue.** All 174 courses on the map, minus the six with folders, are
-`planned`. The build order is still governed by §1 and §8e.
-
-## 13. Alex Hormozi as a source and as a teaching model (opened 2026-09-06)
+## 17. Alex Hormozi as a source and as a teaching model (opened 2026-09-06)
 
 John reads Hormozi and likes how he distils business concepts. This is a note for whoever runs
 `/research-course` on Sales, Marketing, Entrepreneurship, Copywriting or Small Business Operations.
