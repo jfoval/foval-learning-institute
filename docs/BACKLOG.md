@@ -106,6 +106,23 @@ not open a branch for lesson work. The branch is what let two sessions diverge f
 nine hours without either noticing, and `CLAUDE.md` rule 11 already says work that is
 not on `main` is not done.
 
+## 0d. In flight right now (2026-09-08 session)
+
+John asked for throughput: more courses finished, more podcasts made. This session works the
+queue in 0b top down, and this section says exactly where it is so a session that dies mid-task
+leaves a true picture.
+
+- **Bible Basics lesson 9 (`09-text-and-reliability.md`): Stage 4 round 1 running**, five
+  fresh-context subagents (depth, fact-check, neutrality, voice and media, pedagogy). If this
+  section still says "running" and no round-1 entry for lesson 9 exists in `research/REVIEWS.md`,
+  the findings were lost with the session and the review has to be relaunched. Nothing is
+  half-edited on disk.
+- **Then lessons 10, 11 and 12**, the same way, one at a time. Then the course's assessments,
+  which do not exist yet, then `status: published`.
+- **Then the ten Logic and Argument podcast episodes**, which are the standing background task.
+- Podcast engine note: episodes now render on Gemini 3.1 Flash TTS, not VibeVoice. See the
+  2026-09-08 entry in `docs/CHANGELOG.md`.
+
 ## 1. Pipeline state right now
 
 *Rewritten 2026-09-06, third session of the day, at the point John reset the priority. This is the
