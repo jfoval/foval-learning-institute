@@ -21,7 +21,7 @@ Foval Learning Institute is a free, open, general-education online university. C
 - `scripts/build.mjs` — compiles courses/ into site/data/. `npm run build`, `npm run validate`.
 - `scripts/core-path.mjs` — keeps TAXONOMY.md and core-path.yaml agreeing and generates the Core list. Runs inside `npm run validate` and `npm run build`; `npm run path -- --write` to regenerate.
 - `templates/` — starting points for course.yaml, lessons, SOURCES, OUTLINE, REVIEWS.
-- `.claude/commands/` — pipeline stages: /new-course, /research-course, /outline-course, /draft-lesson, /review-lesson, /fact-check, /neutrality-audit, /status.
+- `.claude/commands/` — pipeline stages: /new-course, /research-course, /outline-course, /draft-lesson, /review-lesson, /fact-check, /neutrality-audit, /make-podcast, /status. **/make-podcast is a stage, not an extra**: see rule 5b.
 - `docs/PLATFORM_ROADMAP.md` — where the platform is going (accounts, review system, credentials, social).
 
 ## Rules
@@ -31,6 +31,8 @@ Foval Learning Institute is a free, open, general-education online university. C
 4. Every lesson change: run `npm run validate` before committing. Run `npm run build` and commit `site/data/courses.js` when publishing.
 4b. Every course on the map carries a term in the `Path` column of `curriculum/TAXONOMY.md`: `T1`, `T2`, and so on. There is no elective tier, because the Foval Core is the whole curriculum in order, not a subset of it. Adding a course to the map means choosing its term in the same edit, following "Placing a course on the Core" in TAXONOMY.md, and adding it to `curriculum/core-path.yaml` in the position it should be taken. `npm run validate` fails on a blank cell, on the two files disagreeing, or on a course that is on one and not the other. The numbered term list in TAXONOMY.md is generated: `npm run path -- --write`, never by hand.
 5. When a course's status changes, update both `course.yaml` and its row in `curriculum/TAXONOMY.md`. Statuses are planned → research → drafting → published. There is no "review" state and no owner sign-off gate: a course goes live when its lessons have passed Stage 4 and the voice pass, and improves afterwards through the feedback loop. The build includes only `status: published` courses. Never hold a course for the owner to review.
+
+5b. **A COURSE IS NOT FINISHED UNTIL EVERY LESSON HAS A PODCAST EPISODE.** This is John's definition and it is not negotiable. "Content-complete", "lessons done", "at standard" and "ready" all mean nothing on their own; a course is finished when every lesson has been through Stage 4 and the voice pass **and** has an episode rendered, uploaded and stamped into its frontmatter. **Do not start the next course while the current one is short of episodes.** The order for any course, live or new, is: research, outline, draft, Stage 4, voice pass, assessments, **then the podcast episode for every lesson**, and only then the next course. Told to this session on 2026-09-09 after it declared Personal Finance done with zero of ten episodes made.
 6. Sensitive domains (standards Part 3.4) require the neutrality audit before publish. No exceptions.
 6b. School of Christian Studies courses carry `standpoint: christian` and follow standards 3.7: taught from within the faith, labelled as such, objections engaged at full strength. Neutral schools never assert or mock religious claims either way.
 7. Never use an em dash in any prose that learners will read. Search for "—" before committing content.

@@ -53,14 +53,27 @@ programme, and the docs now say so. Do not quietly reintroduce an elective tier.
 
 ## 2. THE MARCHING ORDER. Work this queue top to bottom.
 
-Reset by John, 2026-09-08, after he looked at the site and said the quiet part: Bible Basics and
-Logic and Argument are solid and were worth what they cost, and *"outside of that the other live
-courses I think they need significant improvement. Like writing clearly is kinda a joke. super low
-quality and not much of anything honestly."* He is right, and the numbers say how right:
+### The definition of done, first, because ignoring it cost a wrong turn on 2026-09-09
 
-> Bible Basics averages **13,160 words a lesson**. Logic and Argument averages **9,380**. Clear
-> Writing averages **452**, Algebra **444**, Python **464**. Those three are not weak lessons. They
-> are placeholders that have been live for months with a `minutes: 20` label on 400 words.
+**A course is finished when every lesson is at standard AND every lesson has a podcast episode live
+and stamped.** John's definition, stated repeatedly, restated on 2026-09-09 after this session
+declared Personal Finance complete with zero of ten episodes made and started the next course.
+
+**The order inside every course, live or new, is fixed:**
+
+1. Research, outline, draft.
+2. Stage 4 review, and the voice pass.
+3. Assessments, if six or more lessons.
+4. **An episode for every lesson**, written, fact-checked in a fresh context, rendered, uploaded,
+   stamped.
+5. Only then the next course.
+
+**The order across courses is also fixed:** finish the live courses first, each one completely,
+then go back to the top of the Foval Core and work down it in order, and each of those courses gets
+the same five steps including the audio. It is now in `CLAUDE.md` as rule 5b and in
+`docs/CONTENT_PIPELINE.md` at the top, so it cannot be lost again.
+
+### The queue
 
 1. ~~**The honesty pass.**~~ **DONE 2026-09-08.** All four parts, in one session.
    - **`minutes:` is now measured, not guessed, and the measurement is a script.**

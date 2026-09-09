@@ -1,5 +1,27 @@
 # Content Pipeline: How Courses Get Built with Claude Code
 
+## The definition of done, which is the thing this pipeline is for
+
+**A course is finished when every lesson has been through Stage 4 and the voice pass, the assessments
+exist, and every lesson has a podcast episode live and stamped.** Nothing less counts, whatever it is
+called. A course with ten reviewed lessons and no audio is not done, it is two thirds done, and
+saying otherwise has already cost this project one wrong turn: on 2026-09-09 a session declared
+Personal Finance Fundamentals complete with zero of its ten episodes made and moved on to the next
+course.
+
+So the order for every course is:
+
+1. Stage 0 to 3: scaffold, research, outline, draft.
+2. Stage 4: review, and the voice pass.
+3. Assessments, if the course has six or more lessons (standard 4.4).
+4. **Stage 6: an episode for every lesson**, via `/make-podcast`, each one rendered, uploaded and
+   stamped.
+5. Only then, the next course.
+
+**Do not batch the audio to the end of the queue and do not leave it for a later session.** A course
+you have moved on from is a course nobody comes back to.
+
+
 This is the operating manual for producing Foval courses at quality and at scale. It exists because the default way of using an AI to write courses (ask for a course, get a course) produces shallow content. The pipeline below is designed so that depth is structural, not a matter of hoping the model tries hard.
 
 ## The core idea
