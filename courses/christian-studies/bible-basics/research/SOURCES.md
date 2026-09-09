@@ -905,3 +905,47 @@ each caught at least one real error.
 - **Scripture provenance**: every NET quotation in lesson 9 was re-fetched from labs.bible.org on
   2026-09-08 and matched word for word. The API was reachable in this session, unlike the sessions
   that recorded 403s.
+
+## Added and corrected at Stage 4, lesson 10 (2026-09-08)
+
+- **CORRECTION, and it matters because a standing instruction points at it.** The clause "generic
+  categories which negate historicity may rightly be imposed on biblical narratives which present
+  themselves as factual" is **Article XIII of the Chicago Statement on Biblical Hermeneutics
+  (1982)**, not Article XXII as this file recorded. Article XIV is its companion ("the biblical
+  record of events, discourses and sayings... corresponds to historical fact"). Full text fetched
+  2026-09-08 at defendinginerrancy.com/chicago-statements/. The standing instruction stands: any
+  lesson citing Chicago for genre latitude must cite these limits and Article XII's second denial
+  alongside it.
+- **Chicago Statement on Biblical Inerrancy, Article XIX, in full**: "WE DENY that such confession
+  is necessary for salvation. However, we further deny that inerrancy can be rejected without grave
+  consequences, both to the individual and to the Church." Any lesson quoting the first sentence
+  must quote the second.
+- **Chicago Article XIII reads "material", singular**, in the bible-researcher text this course
+  cites ("the topical arrangement of material", "variant selections of material in parallel
+  accounts"). A reviewer proposed "materials"; the source does not support it.
+- **bible-researcher.com returns 406 to a bare curl** and 200 with an ordinary browser user agent.
+  It is not dead, and previous sessions recording it as unreachable were hitting the bot filter.
+- **CORRECTION**: Robert P. Miller, "For the Sake of Our Salvation", is a single-author article in a
+  special issue of the *Journal of Scriptural Reasoning*, **not a symposium**, and Miller argues for
+  the broader reading rather than leaving the question open, concluding that Scripture is inerrant
+  "in all those matters that are asserted by the human authors". This file and lesson 10's quiz both
+  had it as a symposium.
+- **CORRECTION**: the Pilate stone is the only inscription naming him **with his office**; a copper
+  ring from Herodium, published 2018, also carries his name.
+- **CORRECTION**: Bea is described by the cited source as a scholar at the council. His role on the
+  drafting commission is well attested elsewhere but not by that source.
+- **Confession of 1967**: the PCUSA's current Inclusive Language Text reads "words of human beings"
+  where the original *Book of Confessions* 9.29 reads "the words of men". Quote the original and say
+  which you are quoting.
+- **Babylonian Talmud, Bava Batra 14b to 15a**, read at sefaria.org 2026-09-08: Joshua wrote "eight
+  verses in the Torah, which describe the death of Moses"; Rabbi Yehuda holds Moses wrote to that
+  point and Joshua after it, Rabbi Shimon that Moses wrote them at God's dictation. This is the
+  oldest form of the editorial answer to Deuteronomy 34 and belongs wherever that passage is worked.
+- **Working URLs confirmed 2026-09-08** for the confessional documents this course quotes: Fuller at
+  fuller.edu/about/mission-and-values/what-we-believe-and-teach/, Lausanne at
+  lausanne.org/statement/lausanne-covenant, Hopko at oca.org/orthodoxy/the-orthodox-faith/
+  doctrine-scripture/the-bible, Confession of 1967 at creeds.net/reformed/conf67.htm, Hayes lecture
+  1 at oyc.yale.edu/religious-studies/rlst-145/lecture-1.
+- **Media note for every lesson in this course**: the `:::figure` blocks hotlink full-size Wikimedia
+  originals, some of them several megabytes. Use the `/thumb/.../960px-` form. Lesson 10's Pilate
+  image went from 6.7 MB to 118 KB with no visible difference.

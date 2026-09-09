@@ -260,7 +260,27 @@ function lintLessons() {
         }
 
         // 4.6: labels below about 15 viewBox units are unreadable once an SVG is scaled to phone width.
-        const small = [...src.matchAll(/<text[^>]*font-size="(\d+)"/g)].map(m => +m[1]).filter(n => n < 15);
+        // font-size and fill inherit, so a label can carry neither attribute itself and still be
+        // 9px white text. Reading only the <text> tag missed every such label: bible-basics
+        // lesson 10 put all 24 of its labels on <g> wrappers and passed both checks with nothing
+        // above 11 units. Walk the tags and resolve what each <text> actually inherits.
+        const effectiveLabels = () => {
+          const out = [];
+          const stack = [{}];
+          const attrs = tag => Object.fromEntries([...tag.matchAll(/([\w-]+)="([^"]*)"/g)].map(m => [m[1], m[2]]));
+          for (const m of src.matchAll(/<(\/?)(g|text|svg)\b([^>]*)>/g)) {
+            const [, closing, name, rest] = m;
+            const selfClosing = rest.trimEnd().endsWith("/");
+            if (closing) { if (name !== "text") stack.pop(); continue; }
+            const own = attrs(m[0]);
+            const inherited = { ...stack[stack.length - 1], ...own };
+            if (name === "text") out.push(inherited);
+            else if (!selfClosing) stack.push(inherited);
+          }
+          return out;
+        };
+        const labels = effectiveLabels();
+        const small = labels.map(l => parseFloat(l["font-size"])).filter(n => n && n < 15);
         if (small.length) warn.push(`${file}: ${small.length} SVG label(s) under font-size 15; they render below ~10px on a phone (4.6)`);
 
         // 4.6: a label wider than its own viewBox is clipped by the browser, silently, on
