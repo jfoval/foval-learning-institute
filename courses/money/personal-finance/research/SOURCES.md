@@ -582,3 +582,85 @@ neutrality audit mandatory, so lesson 9 is Tier B. Everything below was verified
   three move, and the arithmetic should be built so the reader substitutes their own.
 - **No free primary source was found for post-settlement commission levels.** Do not assert that
   commissions have fallen or risen.
+
+## Scams and fraud: research added 2026-09-09 for lesson 10
+
+*Stage 1 on the last gap in the course. The outline calls this low sensitivity but notes crime is a
+3.4 domain, so the lesson is Tier A with one instruction that is not optional: report who is targeted
+from the FTC's own data rather than characterising groups, and avoid any framing that reads as
+blaming victims, which is also the empirically accurate stance. Verified live 2026-09-09.*
+
+### The scale, from the only national count
+
+- **FTC, Consumer Sentinel Network Data Book 2024** (published March 2025) and the accompanying press
+  release (ftc.gov). Consumers reported losing **more than $12.5 billion** to fraud in 2024, **up 25%**
+  on 2023, on **2.6 million reports**, which was roughly unchanged. The number that moved was the
+  share of reports involving a loss: **38% in 2024 against 27% in 2023**. Median loss across all fraud
+  reports: **$497**.
+  - **By losses:** investment scams **$5.7bn** (up 24%), imposter scams **$2.95bn**, business and job
+    opportunities **$750.6m**. Job and employment agency scams tripled in reports between 2020 and
+    2024 and their losses went from $90m to **$501m**.
+  - **By number of reports:** imposter scams first, then online shopping, then business and job
+    opportunities, then investment, then internet services.
+  - **Payment methods:** consumers lost more to **bank transfers and cryptocurrency combined than to
+    all other payment methods put together**.
+  - **First contact:** email first, then phone, then text.
+  - The PDF at ftc.gov/system/files/ftc_gov/pdf/csn-annual-data-book-2024.pdf did not download as a
+    valid PDF on 2026-09-09; the figures above come from the FTC's own press release and data pages.
+
+### Who actually gets scammed, which is the myth this lesson has to kill
+
+- **FTC Data Spotlight, "Who experiences scams? A story for all ages"** (ftc.gov, December 2022).
+  The FTC's own framing: *"Many people think scams mostly affect older adults. But reports to the
+  FTC's Consumer Sentinel tell a different story: anyone can be scammed."* In 2021, **adults aged 18
+  to 59 were 34% more likely than adults 60 and over to report losing money to fraud.** Median
+  individual losses run the other way and rise steeply with age: **$500 for 18 to 59, $520 for 60 to
+  69, $800 for 70 to 79, and $1,500 for 80 and over.** Older adults were also much more likely to
+  report a fraud they had spotted and avoided.
+- **FTC, August 2025 spotlight and the 2025 report to Congress on protecting older adults.** Losses
+  of $10,000 or more to business and government imposter scams were **more than twice as likely** to
+  be reported by older adults, and losses over $100,000 **three times as likely**. Among people 80 and
+  over the median reported loss exceeded **$1,600**.
+- **How to teach this pair without either error.** Younger adults report losing money more often;
+  older adults lose far more when they do. Saying only the first makes the lesson sound as though age
+  is irrelevant, and saying only the second reproduces the myth. Both figures are from the same
+  source and belong in the same paragraph.
+
+### Reversibility, which is the lesson's central practical idea
+
+- **FTC, "What to do if you were scammed"** (consumer.ftc.gov). The ladder, in the FTC's own words:
+  credit card and debit card carry federal protection against unauthorised use; wire transfers are
+  "report immediately and ask for a refund" with no protection named; gift cards are worth reporting
+  fast and keeping the card and the receipt; **cryptocurrency "payments don't have the same legal
+  protections as credit and debit cards do, so it can be hard to get your money back"**; payment apps
+  depend on the app's own policy; cash sent by post can sometimes be intercepted by the US Postal
+  Inspection Service for a fee, at 1-877-876-2455.
+- **The distinction the lesson must draw, and it is the one most consumer material blurs.** Federal
+  protection is strongest for an **unauthorised** transaction, one you did not make. A payment you
+  were tricked into making yourself is authorised, and most of the protections do not reach it. That
+  is exactly why criminals steer people toward rails that settle instantly and finally, and it is why
+  "what are they asking me to pay with" is a better filter than "does this story sound plausible".
+
+### The defences that are free and that almost nobody has used
+
+- **FTC, "What to know about credit freezes and fraud alerts"** (consumer.ftc.gov). *"There's no cost
+  to place or lift a credit freeze."* You must place one **at each of the three bureaus separately**,
+  Equifax, Experian and TransUnion. A freeze means *"nobody can open a new credit account in your
+  name"*, *"it doesn't affect your credit score"*, and it *"lasts until you lift it"*. A fraud alert
+  is the weaker cousin: it tells businesses to check with you before opening an account, lasts a year,
+  or seven years with a confirmed identity theft report.
+- **IdentityTheft.gov** is the FTC's recovery site and generates a personal recovery plan; it is the
+  single link to give a reader who has already been hit.
+- **AnnualCreditReport.com** is the one federally mandated free source for credit reports, and the
+  lesson should name it as such and warn that imitators exist, as lesson 3 already does.
+
+### Open concerns for lesson 10
+
+- **Do not print a checklist of current scam types as though it were the syllabus.** The variants
+  change monthly and a list dates the lesson. Teach the structure (contact, pressure, payment) and
+  use current examples only as illustrations, labelled with their year.
+- **Do not use the word "victim" carelessly, and never imply that being scammed reflects on
+  intelligence.** The FTC's own data is the argument: the scams that take the most money are run by
+  organised operations against people who were doing something ordinary.
+- **US-specific:** the credit bureaus, the freeze rules, IdentityTheft.gov and the payment protections
+  are all US. The structure of a con is not.
