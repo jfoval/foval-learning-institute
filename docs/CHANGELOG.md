@@ -6,6 +6,27 @@ the institute works. Items move here out of `BACKLOG.md` when they are done.
 Everything from the founding onwards is here. Entries before 2026-09-06 came from the old root
 `CHANGELOG.md`, which was merged into this file on 2026-09-06 so there is only one changelog.
 
+## 2026-09-09 (later) — handoff rewritten, and a defect class found in published quizzes
+
+`docs/BACKLOG.md` section 4 is now a real handoff rather than a session diary: what happened over two
+days, the three rules added to the pipeline commands, the finding that generalises, the two
+corrections to secondary literature, what to do next, and the small jobs. The status table now carries
+a "what it still owes" column against John's definition of done, which is lessons at standard plus a
+podcast episode for every lesson. Only How to Learn Anything meets it.
+
+**A defect class was found while writing that handoff.** Scanning every quiz on the site for a
+mismatch between the `answer` index and the option letter the `explain` field names as correct turns
+up several, and Logic and Argument's final test is the worst: item 1's answer is A and its explanation
+says "So B", and item 2's answer is C while its explanation says "so B" and then discusses options A
+and B as though the order were different. That last detail is the tell, since it means options were
+reordered after the explanation was written, which is exactly what happens during a fix pass that
+rebalances answer indices. Bible Basics lesson 3 and Logic lesson 4 also flag.
+
+A learner who answers one of these correctly is told they were wrong, so it is worse than cosmetic. It
+is recorded in backlog section 14 with the detection method and the caution that the scan has false
+positives. Not fixed in this session, because the ask was a handoff and fixing five items across two
+published courses is its own job.
+
 ## 2026-09-09 — Writing Clearly is rebuilt: nine lessons, a test and a project
 
 Queue item 2 is content-complete. The course that was four pre-pipeline placeholders averaging 452

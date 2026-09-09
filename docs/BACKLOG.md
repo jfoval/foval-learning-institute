@@ -1,6 +1,6 @@
 # Backlog and Handoff
 
-*Last updated 2026-09-08. Read this first in a new session, after `CLAUDE.md`. It is the single list
+*Last updated 2026-09-09. Read this first in a new session, after `CLAUDE.md`. It is the single list
 of what is in flight, what is next, and what John has asked for that isn't built yet. Keep it
 current: when something ships, move it to `docs/CHANGELOG.md` and delete it here. That rule was
 ignored for weeks and this file reached 1,063 lines, most of it history; it was cut back to the live
@@ -149,10 +149,12 @@ quality and not much of anything honestly."* He is right, and the numbers say ho
         seven experienced writers, where every secondary summary consulted says twenty and twenty.
         Both findings are in the lessons, and the second is flagged in the lesson's own sources note.
 
-3. **Personal Finance lessons 7 to 10, plus its two assessments.** The cheapest completion on the
-   board, because Stages 1 and 2 are done: `research/OUTLINE.md` specifies all four lessons, the
-   test blueprint and the project, and `assessments/` does not exist yet. Lesson 6 is the last one
-   drafted.
+3. **Personal Finance lessons 7 to 10, plus its two assessments. THIS IS NEXT.** The cheapest
+   completion on the board, because Stages 1 and 2 are done: `research/OUTLINE.md` specifies all four
+   lessons (7 accounts and the tax-timing choice, 8 insurance, 9 renting versus buying, 10 scams and
+   fraud), a course-end test blueprint and a project, and `assessments/` does not exist yet. Lesson 6
+   is the last one drafted. Lesson 6 is tax, a 3.4-sensitive domain, so check whether its neighbours
+   are too before choosing a review tier.
 
 4. **Algebra Essentials, rebuilt.** T5, five stubs. Procedural course: two lessons a session is
    allowed, the fact-check is executed rather than fetched, and the neutrality pass is skipped with
@@ -211,20 +213,27 @@ Across the ~33 lessons left in items 2 to 5 that is roughly 25M subagent tokens 
 
 ### The status table, which is the answer to "is everything up to par"
 
-Keep this current.
+Keep this current. **"Done" means lessons at standard and a podcast episode for every lesson**, which
+is John's definition.
 
-| Course | Term | Status | Lessons | Avg words | Through Stage 4 | Assessments | Podcasts |
+| Course | Term | Lessons | Avg words | Stage 4 | Assessments | Podcasts | What it still owes |
 |---|---|---|---|---|---|---|---|
-| How to Learn Anything | T1 | live, **at standard** | 8 | 7,220 | 8 | 2 | **8 of 8** |
-| Logic and Argument | T1 | live, **at standard** | 10 | 9,380 | 10 | 2 | **0 of 10 (owed)** |
-| Bible Basics | T8 | live, **at standard** | 12 | 13,160 | 12 | 2 | 1 of 12 (**11 owed**) |
-| Personal Finance | T2 | live, **half built** | 6 of 10 | 5,430 | 6 | **0 of 2** | none |
-| Clear Writing | T1 | live, **stub** | 4 | **452** | 0 | 0 | none |
-| Algebra Essentials | T5 | live, **stub** | 5 | **444** | 0 | 0 | none |
-| Python Basics | T6 | live, **stub** | 6 | **464** | 0 | 0 | none |
+| How to Learn Anything | T1 | 8 | 7,216 | 8 | 2 | **8 of 8** | **nothing. The only finished course.** |
+| Logic and Argument | T1 | 10 | 9,380 | 10 | 2 | 3 of 10 | seven episodes |
+| Bible Basics | T8 | 12 | 13,163 | 12 | 2 | 1 of 12 | eleven episodes |
+| **Writing Clearly** | T1 | **9** | **3,676** | **0** | **2** | 0 of 9 | **Stage 4 on all nine, voice pass, nine episodes** |
+| Personal Finance | T2 | 6 of 10 | 5,433 | 6 | **0 of 2** | 0 of 6 | four lessons, both assessments, six episodes |
+| Algebra Essentials | T5 | 5 | **444** | 0 | 0 | 0 | **everything. Still a stub course.** |
+| Python Basics | T6 | 6 | **463** | 0 | 0 | 0 | **everything. Still a stub course.** |
 
-*Updated 2026-09-08.* Fifty-one lessons live, nine with audio. The three stubs are 15 of those 51
-lessons and about 2 percent of the site's words.
+*Updated 2026-09-09.* Fifty-six lessons live, twelve with audio. **All eleven remaining validator
+warnings are in Algebra and Python**, and they are all "no links in the body". Every other course is
+warning-free.
+
+Writing Clearly's average of 3,676 words is well below Logic's 9,380 and Bible Basics' 13,163. That
+was a deliberate call, on the grounds that a practical writing course carries its depth in exercises
+rather than exposition, and **John has not read one yet and has not confirmed it.** If he says they
+are thin, the fix is more worked examples rather than more prose.
 
 ## 3. Podcasts: the standing parallel track
 
@@ -238,8 +247,9 @@ lessons and about 2 percent of the site's words.
   2026-09-08 and said keep them and render the backlog. Changing a host voice means re-rendering
   every episode in the institute, because the hosts have to sound the same everywhere. Do not
   re-open.
-- **What is owed: Logic's ten episodes and Bible Basics' eleven.** Nine of the fifty-one live lessons
-  have audio. Those twenty-one are the whole backlog right now, because they are the only settled
+- **What is owed: Logic's remaining seven episodes and Bible Basics' eleven.** Twelve of the
+  fifty-six live lessons have audio. Logic 1 to 3 were made on 2026-09-09 for $1.22. Writing Clearly's
+  nine are owed too but wait on its Stage 4 cycles, since a lesson gets audio only once it is settled. Those twenty-one are the whole backlog right now, because they are the only settled
   lessons without audio. **A lesson gets its episode only once its content has settled**, so the
   three stub courses get theirs after they are rebuilt and Personal Finance after 7 to 10 are
   drafted. Rendering audio for a lesson that is about to be replaced pays for it twice.
@@ -254,55 +264,101 @@ lessons and about 2 percent of the site's words.
   routes by name. John pushed back twice that the research was not deep enough and was right both
   times.
 
-## 4. Where the 2026-09-08 sessions left things
+## 4. HANDOFF. Where things stand, 2026-09-09. Read this before anything else.
 
-**Nothing is in flight. Working tree clean, `npm run validate` green: 174 courses on the path, 7
-courses, 51 lessons built.** Three things shipped on 2026-09-08 and all are live.
+**Nothing is in flight. Working tree clean, `main` pushed, `npm run validate` green: 174 courses on
+the path, 7 built, 56 lessons.** Start at "What to do next" at the foot of this section.
 
-1. **The podcast engine moved to Gemini** and all nine existing episodes were re-rendered. §3.
-2. **Bible Basics published.** Twelve lessons through Stage 4, both assessments.
-3. **Stage 4 cut to one reviewer, the marching order reset, the whole map placed on the Core, and
-   `#/map` built.** §1, §2, and the changelog.
-4. **The honesty pass, queue item 1.** Reading times measured and rewritten in 31 lessons, 294 MB of
-   hotlinked images down to 2.8 MB, and every SVG defect on the site cleared. §2 item 1.
+### What happened over 2026-09-08 and 09, in one list
 
-**Start at §2 item 2: Clear Writing, rebuilt.** Item 1, the honesty pass, closed on 2026-09-08.
+1. **The honesty pass** (queue item 1, closed). `minutes:` measured rather than guessed and rewritten
+   in 31 of 51 lessons; Bible Basics' images cut from 294 MB to 2.8 MB; every SVG defect on the site
+   cleared. New script `scripts/reading-time.mjs`, run as **`npm run minutes`**, reports claimed
+   against modelled time and `--write` fixes what is materially out. **Run it after drafting any
+   lesson.**
+2. **Stage 4 cut from five reviewers to one** (Tier A default, Tier B only for sensitive domains,
+   standpoint courses, and lessons sent back for heavy rewriting). Neutrality pass skipped on lessons
+   with no contested claims. On procedural courses the fact-check is executed rather than fetched. See
+   §2 and `.claude/commands/review-lesson.md`. Roughly 25M subagent tokens down to about 5M across the
+   remaining work.
+3. **Every course is now on the Foval Core.** The elective tier is gone: `curriculum/core-path.yaml`
+   is 174 courses across 25 terms of seven. John's call, made knowing it stops the Core being a
+   two-year spine. **Do not reintroduce an elective tier.**
+4. **`#/map` is a real page**, generated from TAXONOMY.md by `scripts/build.mjs` into
+   `window.FOVAL_MAP`. The homepage no longer links to GitHub for the curriculum.
+5. **Writing Clearly rebuilt** (queue item 2, content-complete). Nine lessons, a twenty-item test and
+   a four-hour project, all five placeholders deleted.
+6. **Logic podcasts 1 to 3 rendered, uploaded and stamped.** $1.22 spent.
+7. **`docs/BACKLOG.md` cut from 1,063 lines to live work only.**
 
-The site's only remaining validator warnings, sixteen of them, are all in the three stub courses:
-fifteen lessons with no links in the body and one lesson flagged as too short at 243 words. Bible
-Basics, Logic and Argument, How to Learn Anything and Personal Finance are warning-free.
+### Three rules added this session, all recorded in the commands themselves
 
-### Open items Bible Basics left behind, none of them blocking
+- **A live course being rebuilt keeps `status: published`.** The build ships only published courses, so
+  setting one to `drafting` deletes it from the site. In `.claude/commands/research-course.md`.
+- **A live course's `course.yaml` describes the lessons that exist today**, not the ones the outline
+  plans. Updating outcomes to match an outline put eight promises on a page serving four placeholders,
+  hours after the honesty pass removed exactly that kind of claim. In `.claude/commands/outline-course.md`.
+- **A pre-pipeline stub is replaced, not reviewed.** In `CLAUDE.md` rule 3.
 
-*Items 3 to 5 were queue item 1 and are closed. Item 2 is the only one still open.*
+### The finding from this session that generalises, and it is the important one
 
-1. ~~**The strongest King James Only position.**~~ **CLOSED 2026-09-08.** Written from primary
-   sources: Riplinger's *Hazardous Materials* chapter 31, free on her own publisher's site, for the
-   argument that the originals are gone and every printed Greek and Hebrew edition is corrupt so
-   preservation must be in the English, and her reading of Psalm 12:6-7 in which the "furnace of
-   earth" is translation itself. Her own chapter list attacks the Trinitarian Bible Society's Greek
-   text and the Majority Text, which is the documentary proof that this is a third position hostile
-   to the other two rather than a stronger form of them. Three cautions are in `research/SOURCES.md`:
-   no primary Ruckman text is freely available and the lesson rests nothing on him; "double
-   inspiration" could not be traced to an originator and is not attributed; and the Jack Hyles sermon
-   usually cited for this position does not actually make the argument.
-2. **Fee and Stuart's *How to Read the Bible Book by Book*** is characterised in lesson 12 from the
-   publisher's description. It is the pattern the course project asks learners to use, so someone
-   should open it and confirm the four headings.
-3. ~~**Lesson 1's four sub-legible SVG labels**, and the `--line-strong`/`--navy` collisions.~~
-   **CLOSED 2026-09-08**, along with the same collision in lessons 2 and 6.
-4. ~~**Full-size Wikimedia originals hotlinked.**~~ **CLOSED 2026-09-08.** 294 MB to 2.8 MB.
-5. ~~**Reading times never audited.**~~ **CLOSED 2026-09-08.** Measured by `npm run minutes` and
-   rewritten in 31 of 51 lessons.
+`research/OUTLINE.md` flagged Writing Clearly's lesson 8, on the dispute over *The Elements of Style*,
+as the one that could become a hit piece, and set the test: would a reader who loves the book finish
+it feeling fairly treated? A fresh-context fairness check found the draft **passed that test
+comfortably and failed the opposite one.** It presented as its own discovery a qualification Pullum
+quotes and credits in his essay; it conceded the half of his case he explicitly disclaims; and it
+omitted the evidence he actually builds on.
 
-### One correction worth keeping for its general lesson
+**Every sentence in that draft was accurate. Fairness failed at the level of selection**: which of an
+opponent's arguments get quoted, which half of their case gets answered, and whose discovery a finding
+is presented as. A checker that only verified quotations would have passed it. Twelve findings and
+resolutions are in `courses/communication-and-people/clear-writing/research/REVIEWS.md`.
 
-Lesson 11 described the Orthodox Study Bible's Old Testament as a revised New King James Version,
-following the producing academy's website. The book's own printed introduction says close to the
-opposite: Rahlfs's Greek was the basis, with Brenton and the NKJV as further sources. Both are
-official statements and the lesson now prints both without resolving them. **A publisher-side web
-page is not the same source as the book's own front matter**, and this course had been treating them
-as interchangeable.
+**Apply this to every contested lesson still to be written.** Bible Basics is full of them, and so is
+anything in the Christian Studies school.
+
+### Two corrections to things in circulation, both from opening primary sources
+
+- **Strunk 1918 cuts both ways.** Two of Pullum's sharpest charges (the *none* rule, the anti-*which*
+  rule) are absent from the original and so belong to White. And Pullum writes that "Strunk's original
+  version never even mentioned split infinitives", where the 1918 glossary carries an entry.
+- **Sommers' sample is not twenty and twenty.** Her 1980 article is an unreadable scan, but her 1982
+  NIE report (ERIC ED220839) decodes, and its abstract says **eight** freshman students and **seven**
+  experienced adult writers. Every secondary summary consulted says twenty and twenty. Both lessons
+  report what was read and say why it differs.
+
+### What to do next
+
+**Queue item 3: Personal Finance lessons 7 to 10, plus its two assessments.** It is the cheapest
+completion on the board because Stages 1 and 2 are already done: `research/OUTLINE.md` specifies all
+four lessons (7 accounts and tax timing, 8 insurance, 9 renting versus buying, 10 scams and fraud), a
+course-end test blueprint and a project, and `assessments/` does not exist yet. Lesson 6 is the last
+one drafted. Note lesson 6 is tax, which is a 3.4-sensitive domain, so its neighbours may be too.
+
+**In tandem, the podcasts.** Seven Logic episodes and eleven Bible Basics episodes are owed, at about
+$0.40 each. They need no drafting and block nothing. `/make-podcast <lesson>` runs the whole flow and
+`node scripts/podcast.mjs plan <lesson>` says where any episode stands. **The fact-check gate is not
+optional and has earned its keep twice**: episode 2 came back FAIL, episode 3 came back with the
+script asserting as settled a reading the lesson calls disputed.
+
+**Then queue items 4 and 5**, Algebra Essentials and Python Basics, both still stubs. Both are
+procedural, so two lessons a session is allowed, the fact-check is executed rather than fetched, and
+the neutrality pass is skipped with a line in REVIEWS.md saying why.
+
+**After item 5 the queue is strict Core Path order**, starting with Reading Well. Settled with John;
+see the note in §2.
+
+### Small jobs, each under an hour
+
+- **Logic's final test has explanations that name the wrong option letter.** Verified, not guessed:
+  item 1's answer is A and its explanation says "So B"; item 2's answer is C and its explanation says
+  "so B" and then discusses options A and B as though the order were different. Items 3, 11 and 14
+  also flag. This is live on a published course and a learner who answers correctly is told they were
+  wrong. Bible Basics lesson 3 item 2 flags too. Find them with:
+  `node -e` over every quiz, comparing `answer` against the letter the `explain` names; the scan has
+  false positives where the explanation opens with the correct letter, so check each by eye.
+- **Writing Clearly's nine lessons have had no Stage 4 cycle and no voice pass.** They validate clean
+  and were drafted carefully, but drafted is not reviewed.
 
 ## 5. Two validator bugs fixed 2026-09-08, both hiding real defects
 
@@ -614,6 +670,15 @@ level, term and status. `#/standards` is the same job on a different file and is
 
 ## 14. Known defects not yet fixed, course-wide
 
+- **Quiz explanations that name the wrong option letter, on published courses.** Found 2026-09-09 by
+  scanning every quiz for a mismatch between `answer` and the letter the `explain` field identifies as
+  correct. **Logic and Argument's final test is the worst**: item 1's answer is A and its explanation
+  says "So B"; item 2's answer is C and its explanation says "so B" and then discusses options A and B
+  as though the option order were different, which is the tell that the options were reordered after
+  the explanation was written. Items 3, 11 and 14 also flag, as does Bible Basics lesson 3 item 2 and
+  Logic lesson 4 item 1. **A learner who answers correctly is told they were wrong**, so this is worse
+  than a cosmetic error. The scan produces false positives where an explanation opens with the correct
+  letter and then discusses the others, so check each by eye. Under an hour to fix all of them.
 - **15 lessons have no links in the body**, against 4.5 (was 28 before the honesty pass, and 38
   before that). Every one of the fifteen is in the three stub courses, so this defect is now
   entirely inside queue items 2, 4 and 5 and gets fixed when those courses are rebuilt. Warned by
