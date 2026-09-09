@@ -149,8 +149,22 @@ quality and not much of anything honestly."* He is right, and the numbers say ho
 
 5. **Python Basics, rebuilt.** T6, six stubs. Same treatment as Algebra.
 
-6. **Then down the Core in order.** Term 1's remaining three are Reading Well, Digital Literacy and
-   Using AI Effectively; Term 2 is the whole "running yourself" block. Start each with `/new-course`.
+6. **Then down the Core in order, one course at a time, each finished before the next starts.** Reading
+   Well is next (Term 1, position 2), then Digital Literacy, then Using AI Effectively, then Term 2.
+   Start each with `/new-course`.
+
+**Why items 2 to 5 come before the Core order, settled with John 2026-09-08.** He asked directly why
+the queue was not simply following the Foval Core, since Reading Well sits at position 2 in Term 1 and
+Writing Clearly at position 3. The answer is that he had earlier told this session to fix the live
+courses first, and he confirmed the call: *"nah keep going the way you were going, once those are
+caught up we'll go back to Reading Well and then proceed in order one at a time."* The reasoning worth
+keeping: **a live bad course does more damage than a missing one**, and Writing Clearly already has its
+research and outline done, so switching away would throw that away. Do not re-open this; after item 5
+the queue is strict Core Path order.
+
+**"Done" means lessons at standard *and* a podcast episode for every lesson.** John's definition, same
+conversation. How to Learn Anything is the only course that meets it: 8 lessons through Stage 4, two
+assessments, and all 8 episodes live on R2 and verified playing. Every other course owes something.
 
 **Podcasts run alongside, not after.** See §3.
 
