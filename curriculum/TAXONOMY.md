@@ -237,7 +237,7 @@ The map is deliberately ambitious. Most courses are `planned`. The point of writ
 
 | Course | Level | Status | Path | Notes |
 |---|---|---|---|---|
-| Writing Clearly | Foundation | published | T1 | Live as four pre-pipeline placeholder lessons. Stage 1 research done 2026-09-08 (research/SOURCES.md); being rebuilt to about nine lessons, staying live meanwhile. |
+| Writing Clearly | Foundation | published | T1 | Rebuilt 2026-09-09 from four pre-pipeline placeholder lessons to nine written from research, with a twenty-item test and a project. Stage 4 reviews and podcasts still owed. |
 | Public Speaking | Foundation | planned | T4 | |
 | Persuasion and Influence | Core | planned | T14 | The research and the ethics. |
 | Conversation and Listening | Foundation | planned | T4 | |

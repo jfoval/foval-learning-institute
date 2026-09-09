@@ -130,13 +130,24 @@ quality and not much of anything honestly."* He is right, and the numbers say ho
      finished removing. `course.yaml` now still describes what the course actually delivers; the
      outline's copy waits in OUTLINE.md and lands lesson by lesson. `.claude/commands/outline-course.md`
      carries the rule.
-   - **Next: Stage 3, one lesson at a time**, starting with lesson 1. Rule 2 allows two a session on
-     procedural courses; this is a prose course, so one.
-   - **Before lesson 9, close the two research gaps** or drop the claims that rest on them.
-
-   *Also fixed in passing:* four `course.yaml` files showed learners a level vocabulary the map does not
-   use ("Beginner", "All levels" against the map's Foundation/Core/Advanced). All seven courses now
-   agree with their row in TAXONOMY.md.
+   - ~~**Stage 3, all nine lessons.**~~ **DONE 2026-09-09.** Writing Clearly is nine lessons written
+     from the research, plus a twenty-item final test and a four-hour project, and all five
+     placeholder lessons are deleted. Lessons run 2,200 to 2,900 words each, 405 minutes in total,
+     measured rather than guessed. **What is still owed on this course: Stage 4 cycles on all nine,
+     the voice pass, and nine podcast episodes.**
+   - **Two things this rebuild turned up that generalise.**
+     1. **The fairness check on lesson 8 failed in the direction nobody predicted.** The outline
+        warned it could become a hit piece against *The Elements of Style*. It became a quiet
+        apologia, and every sentence in the draft was accurate. It presented as a discovery a
+        qualification that Pullum quotes in his own essay, conceded the half of his case he
+        explicitly disclaims, and omitted his strongest evidence. **Fairness failed at the level of
+        selection, not accuracy, and a checker that only verified quotations would have passed it.**
+        Full findings in `research/REVIEWS.md`.
+     2. **Opening a primary source corrected the secondary literature twice.** Strunk's 1918 text
+        shows that two of Pullum's sharpest charges belong to White, and also contradicts Pullum on
+        split infinitives. And Sommers' 1982 report to the NIE says her sample was eight students and
+        seven experienced writers, where every secondary summary consulted says twenty and twenty.
+        Both findings are in the lessons, and the second is flagged in the lesson's own sources note.
 
 3. **Personal Finance lessons 7 to 10, plus its two assessments.** The cheapest completion on the
    board, because Stages 1 and 2 are done: `research/OUTLINE.md` specifies all four lessons, the

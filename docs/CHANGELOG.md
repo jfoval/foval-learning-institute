@@ -6,6 +6,48 @@ the institute works. Items move here out of `BACKLOG.md` when they are done.
 Everything from the founding onwards is here. Entries before 2026-09-06 came from the old root
 `CHANGELOG.md`, which was merged into this file on 2026-09-06 so there is only one changelog.
 
+## 2026-09-09 — Writing Clearly is rebuilt: nine lessons, a test and a project
+
+Queue item 2 is content-complete. The course that was four pre-pipeline placeholders averaging 452
+words is now nine lessons written from research, 405 minutes of teaching, with a twenty-item final
+test and a four-hour project. Every placeholder is deleted.
+
+The sequence puts the evidence first and the advice second: what actually happens when someone reads
+you, put the point where the reader is looking, characters and actions, keep the subject next to the
+verb, topic position and stress position, concision that is actually teachable, shape at the document
+level, rules and where they come from, and revising and finding out whether it worked.
+
+**Three courses' worth of primary-source work sits underneath it**, and two findings are worth
+recording because they correct things in circulation.
+
+*Strunk 1918 corrects both sides.* Two of Pullum's sharpest charges, the rule that *none* takes a
+singular verb and the ban on *which* in restrictive clauses, are absent from Strunk's original and so
+belong to White's revision. And Pullum writes that "Strunk's original version never even mentioned
+split infinitives", where the 1918 glossary carries an entry. Lesson 8 reports both.
+
+*Sommers' sample is not what the summaries say.* Her 1980 article is a scan with no extractable text,
+but her 1982 report to the National Institute of Education is 198 pages of the same work and can be
+decoded. Every secondary summary consulted says the study used twenty students and twenty experienced
+writers; the report's own abstract says eight and seven. Lesson 9 reports the figures the course has
+read and says why they differ from the ones in circulation.
+
+**The lesson 8 fairness check is the thing to carry forward.** `research/OUTLINE.md` had flagged that
+lesson as the one that could become a hit piece, and set the test: would a reader who loves *The
+Elements of Style* finish it feeling fairly treated? A fresh-context reviewer found the draft passed
+that test comfortably and failed the opposite one. It presented as its own discovery a qualification
+Pullum quotes and credits in his essay; it conceded the half of his case he says is "not what I am
+most concerned about"; and it left out the evidence he actually builds on, which is the book breaking
+its own rules on the same page. Nothing in the draft was inaccurate. **Fairness failed at the level of
+selection.** Twelve findings and their resolutions are in the course's `research/REVIEWS.md`, along
+with that general lesson, which applies to every contested lesson still to be written.
+
+Also fixed along the way: quiz answer indices and option lengths were audited on every new lesson and
+on the final test, after the reviewer found lesson 8 using only three of the four indices with two
+keys that were the longest option, one by sixteen characters.
+
+Still owed on this course: Stage 4 cycles on all nine lessons, the voice pass, and nine podcast
+episodes.
+
 ## 2026-09-08 (night, later) — Stage 2 outline for Writing Clearly, and a mistake worth recording
 
 **Nine lessons**, in `research/OUTLINE.md`, with a twenty-item test blueprint and a project. The
