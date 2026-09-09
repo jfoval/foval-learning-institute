@@ -1,6 +1,6 @@
 ---
 title: What we believe about this book, and what others make of it
-minutes: 45
+minutes: 120
 objectives:
   - Explain inspiration, inerrancy, infallibility, and authority as the Christian tradition uses the words, and compare the main positions within Christianity in terms their holders would accept
   - Describe the critical-scholarly view of the Bible so that a student of Hayes or Martin would recognise it

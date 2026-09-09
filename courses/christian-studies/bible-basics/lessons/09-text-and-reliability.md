@@ -1,6 +1,6 @@
 ---
 title: How the text reached us, and how reliable it is
-minutes: 50
+minutes: 110
 objectives:
   - Describe how a hand-copied text is reconstructed from many copies, and why age, geographical spread, and the harder reading each count as evidence
   - State what the Great Isaiah Scroll and the fourth-century Greek codices each showed, and what each did not show
