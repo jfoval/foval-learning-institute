@@ -149,12 +149,28 @@ quality and not much of anything honestly."* He is right, and the numbers say ho
         seven experienced writers, where every secondary summary consulted says twenty and twenty.
         Both findings are in the lessons, and the second is flagged in the lesson's own sources note.
 
-3. **Personal Finance lessons 7 to 10, plus its two assessments. THIS IS NEXT.** The cheapest
-   completion on the board, because Stages 1 and 2 are done: `research/OUTLINE.md` specifies all four
-   lessons (7 accounts and the tax-timing choice, 8 insurance, 9 renting versus buying, 10 scams and
-   fraud), a course-end test blueprint and a project, and `assessments/` does not exist yet. Lesson 6
-   is the last one drafted. Lesson 6 is tax, a 3.4-sensitive domain, so check whether its neighbours
-   are too before choosing a review tier.
+3. **Personal Finance lessons 8 to 10, plus its two assessments. THIS IS NEXT.** The cheapest
+   completion on the board, because Stages 1 and 2 are done: `research/OUTLINE.md` specifies the
+   remaining lessons (8 insurance, 9 renting versus buying, 10 scams and fraud), a course-end test
+   blueprint and a project, and `assessments/` does not exist yet.
+   - ~~**Lesson 7, accounts and the tax-timing choice.**~~ **DONE 2026-09-09**, drafted from research
+     added to `SOURCES.md` the same day, then a Tier A Stage 4 cycle with seventeen findings applied.
+     Full entry in `research/REVIEWS.md`. Two things from it worth carrying forward. **The reviewer's
+     quiz measurement is the check to run every time**: on the first draft the key was the longest
+     option in six items out of six, so "pick the longest" scored 100%, and four of six items reused
+     the body's own people and numbers, one of them the same named person from a checkpoint forty
+     lines above. Both are invisible without measuring. And **the neutrality failure was structural,
+     not verbal**: the fair-sounding paragraph on the pension-to-401(k) argument gave one side a named
+     institution and a footnote and the other side neither, then gave the cited side a rebuttal and
+     the uncited side no reply. This is the Writing Clearly lesson 8 finding in a second domain, so
+     treat it as general: **when two positions are described, count the citations and count who gets
+     the last word before reading the prose for tone.**
+   - **Lesson 8 is insurance**, which touches health policy and carries a mandatory neutrality audit
+     under the outline's own note. Lesson 6 is tax and lesson 7 was 3.4-adjacent; lesson 8 is squarely
+     in, so it is Tier B.
+   - **Check SOURCES.md covers insurance before drafting it.** The file's insurance material is thin,
+     which is the same gap that cost lesson 6 a rewrite and that lesson 7 avoided by spending an hour
+     on Stage 1 first.
 
 4. **Algebra Essentials, rebuilt.** T5, five stubs. Procedural course: two lessons a session is
    allowed, the fact-check is executed rather than fetched, and the neutrality pass is skipped with
@@ -222,11 +238,11 @@ is John's definition.
 | Logic and Argument | T1 | 10 | 9,380 | 10 | 2 | 3 of 10 | seven episodes |
 | Bible Basics | T8 | 12 | 13,163 | 12 | 2 | 1 of 12 | eleven episodes |
 | **Writing Clearly** | T1 | **9** | **3,676** | **0** | **2** | 0 of 9 | **Stage 4 on all nine, voice pass, nine episodes** |
-| Personal Finance | T2 | 6 of 10 | 5,433 | 6 | **0 of 2** | 0 of 6 | four lessons, both assessments, six episodes |
+| Personal Finance | T2 | 7 of 10 | 5,668 | 7 | **0 of 2** | 0 of 7 | three lessons, both assessments, seven episodes |
 | Algebra Essentials | T5 | 5 | **444** | 0 | 0 | 0 | **everything. Still a stub course.** |
 | Python Basics | T6 | 6 | **463** | 0 | 0 | 0 | **everything. Still a stub course.** |
 
-*Updated 2026-09-09.* Fifty-six lessons live, twelve with audio. **All eleven remaining validator
+*Updated 2026-09-09.* Fifty-seven lessons live, twelve with audio. **All eleven remaining validator
 warnings are in Algebra and Python**, and they are all "no links in the body". Every other course is
 warning-free.
 

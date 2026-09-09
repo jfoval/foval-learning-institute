@@ -202,3 +202,135 @@ deduction is worth your marginal rate (which is exactly what a traditional contr
 is an above-the-line deduction, so it works whether or not you itemise), and that the employee
 payroll tax is charged on wages before that deduction, so a traditional 401(k) contribution saves
 income tax and not payroll tax.
+
+## Retirement accounts: research added 2026-09-09 for lesson 7
+
+*Written before drafting lesson 7, following the rule lesson 6 established the hard way: check that
+SOURCES.md covers a lesson's domain before drafting it. Everything below was verified live on
+2026-09-09.*
+
+### Primary sources for the mechanics
+
+- **IRS, "401(k) and profit-sharing plan contribution limits"**
+  (irs.gov/retirement-plans/plan-participant-employee/retirement-topics-401k-and-profit-sharing-plan-contribution-limits).
+  Tax year 2026: elective deferral **$24,500**, catch-up **$8,000** at 50 and over, **$11,250** for
+  ages 60 to 63, overall annual additions limit **$72,000** ($80,000 with catch-up), compensation
+  limit **$360,000**. Every one of these moves annually. The lesson teaches the mechanism with round
+  invented numbers and links this page.
+- **IRS, "IRA contribution limits"**
+  (irs.gov/retirement-plans/plan-participant-employee/retirement-topics-ira-contribution-limits).
+  Tax year 2026: **$7,500**, or **$8,600** at 50 and over. The load-bearing fact is not the number:
+  it is that **the limit is shared across traditional and Roth IRAs**, so they are one bucket with
+  two taps, which is what makes the choice a choice.
+- **IRS, "Retirement topics: vesting"**
+  (irs.gov/retirement-plans/plan-participant-employee/retirement-topics-vesting). The employee's own
+  contributions are "always 100% vested"; employer contributions may sit behind a cliff schedule
+  (typically 100% at three years) or a graded one (typically full at six). SEP and SIMPLE IRA
+  contributions vest immediately. This is the source for the claim that a match is not yet the
+  reader's money.
+- **IRS, Topic 558, "Additional tax on early distributions"** (irs.gov/taxtopics/tc558). "The
+  additional tax is equal to 10% of the portion of the distribution that's includible in gross
+  income", applying before age 59 and a half, with a listed set of exceptions: substantially equal
+  periodic payments, total and permanent disability, separation from service after attaining age 55,
+  deductible medical expenses above 7.5% of AGI, IRS levy, qualified birth or adoption up to $5,000,
+  and (after 31 December 2023) disaster, domestic abuse, and personal or family emergency
+  distributions. **Name that exceptions exist; do not teach them as strategy**, per the safety note
+  above, and never as a route to paying unsecured debt.
+- **IRS, "Saver's Credit"**
+  (irs.gov/retirement-plans/plan-participant-employee/retirement-savings-contributions-savers-credit).
+  A credit of 10% to 50% of up to $2,000 of contributions ($4,000 filing jointly), phasing out by
+  AGI, for filers 18 or over who are not students and not claimed as dependents. Worth naming
+  because it is the one part of this machinery aimed at low earners and it is widely unclaimed.
+  Link the page rather than quoting a year's thresholds.
+
+### How employer matches actually look, from the largest recordkeeper dataset
+
+- **Vanguard, *How America Saves 2025*** (corporate.vanguard.com, free PDF, 2024 plan-year data
+  across roughly five million participants). This is the single most useful file for the lesson,
+  because it replaces plausible generalities with distributions.
+  - **Match formulas.** Among plans with a match, **68%** (60% of participants) use a single-tier
+    formula such as $0.50 per dollar on the first 6% of pay; **25%** use a multitier formula such as
+    $1.00 on the first 3% and $0.50 on the next 2%; 6% impose a dollar cap. The single most common
+    formula is **50% on the first 6% of pay, at 13% of plans**, followed by 100% on the first 3% and
+    50% on the next 2% (10%), 100% on 6% (9%), 100% on 5% (7%), 100% on 4% (6%). **The teaching
+    point is that "the most common formula" covers one plan in eight**, so a reader who assumes
+    theirs and does not look it up is guessing.
+  - **Value.** Average promised match **4.6% of pay**, median **4.0%**. The deferral needed to
+    capture the maximum averaged **6.5% of pay**, median **6.0%**, with 8 in 10 plans requiring
+    between 4.0% and 6.99%.
+  - **Vesting.** Nearly half of plans vest matching contributions immediately; 1 in 4 plans with a
+    match uses a 5- or 6-year graded schedule.
+  - **Employer contributions overall.** 50% of plans match only, 36% match and also make a
+    nonmatching contribution, 10% nonmatching only, **4% make no employer contribution at all**.
+  - **Balances.** Average **$148,153**, median **$38,176** in 2024, with nearly 3 in 10 participants
+    under $10,000 and 16% at $250,000 or more. A ready-made second visit to lesson 1's habit of
+    asking what a statistic measures: the mean here is nearly four times the median.
+  - **Participation and savings rates** (2025 data, from the June 2026 release of the 25th edition):
+    participation **86%** of eligible employees, average total savings rate **12.1%**, average
+    promised match **4.7%**, plan auto-enrolment adoption up from 10% in 2006 to 61% in 2024.
+  - Honest scope: this is Vanguard's book of business, which skews to larger employers with better
+    plans. It describes plans that exist, not the workforce. Pair it with the BLS access data below.
+
+### Who is even offered one, which is the fact both sides of the policy argument accept
+
+- **BLS, *Employee Benefits in the United States, March 2025*, Table 1**
+  (bls.gov/news.release/ebs2.t01.htm). Private industry workers: retirement benefits **access 72%,
+  participation 53%, take-up 73%**. Lowest 25% wage category: **access 49%, participation 23%**.
+  Highest 10%: **access 93%, participation 83%**. Access by employer size runs 59% under 100
+  workers to 90% at 500 or more. 70% have access to a defined contribution plan, 14% to a defined
+  benefit plan.
+
+### The evidence that people leave the match on the table, and that telling them does not fix it
+
+- **Choi, Laibson & Madrian, "$100 Bills on the Sidewalk: Suboptimal Investment in 401(k) Plans"**
+  (NBER w11554, 2005; *Review of Economics and Statistics* 93(3), 2011, free PDF at nber.org). The
+  clean identification: employees over 59 and a half, already vested, who can withdraw without
+  penalty for any reason, so contributing below the match threshold is **dominated whatever they
+  think about retirement, liquidity or taxes**. Across seven companies, **between 20% and 60%
+  contributed below the threshold**, and at the average firm **36% of match-eligible employees over
+  59 and a half forwent about 1.6% of pay, averaging $507 a year**. And the finding that keeps the
+  lesson honest: a survey that explained the free lunch raised contributions by a statistically
+  insignificant 0.67% of income. **Information is not the whole problem, which is an argument for
+  changing the default rather than for lecturing.** Pairs with Thaler and Benartzi, already in this
+  file.
+
+### The contested question, and the positions on it
+
+**Was the shift from defined benefit pensions to 401(k)s good for workers, and does the current
+system serve low earners?** Retirement policy is 3.4-adjacent and the lesson takes no side.
+
+- **Position A: the shift was the problem.** Defined contribution plans move investment risk,
+  longevity risk and the decision burden onto individuals who did not ask for them, and the results
+  are unequal: the Economic Policy Institute's "The State of American Retirement" is the standard
+  statement (epi.org; the page returned 403 to automated fetching on 2026-09-09, so cite it as a
+  named position rather than quoting figures nobody opened).
+- **Position B: coverage, not plan type, is the problem.** Center for Retirement Research at Boston
+  College (crr.bc.edu, Munnell and colleagues): about half of private sector workers are not
+  participating in any workplace plan at a given moment, the top third who are continuously covered
+  do well and the bottom third who are never covered rely on Social Security, and traditional DB
+  plans were themselves back-loaded, so they paid off only for long-tenure workers. Among workers
+  aged 45 to 49, only about a third had been with an employer more than ten years, and frozen
+  benefits at job change plus unindexed benefits in retirement (purchasing power down more than 20%
+  since 2021) cut against the nostalgia.
+- **The fact both accept, and the one the lesson should lead with:** CRR's "401(k) saving is harder
+  at lower incomes" (crr.bc.edu) reports high earners contributing about **6.11% of pay against 2.8%
+  for the bottom half**, with earnings volatility and job loss hitting the bottom half repeatedly
+  and barely touching the top 10%, and lower earners' balances depending more on the employer's
+  contribution and so on the employer's choices. **What would settle it** is not more data on plan
+  design but agreement on what the system is for, which makes this a value question resting on
+  shared facts.
+
+### Notes for whoever writes lesson 8
+
+Nothing in lesson 7 covers health insurance or the ACA. The one handover is the liquidity point: a
+retirement wrapper is not a cushion, which is why lesson 8's deductible question has a personal
+answer that depends on lesson 2's cushion rather than on the policy.
+
+### Added after the lesson 7 review, 2026-09-09
+
+- **IRS Publication 590-B** (irs.gov/publications/p590b). Two claims in lesson 7 rest on it and it was
+  not in this file when they were drafted, which is the shape of defect 2 even though both checked
+  out. Verified: a Roth IRA has no required minimum distributions for the original owner, while a
+  traditional IRA's begin at 73; and Roth distributions follow ordering rules that take regular
+  contributions out first, so those come back tax free. Note that the RMD age moves to 75 for people
+  born in 1960 or later under SECURE 2.0, so any lesson stating 73 should say "today".
