@@ -76,7 +76,7 @@ quiz:
       - >-
           `n + 5 = 12`, since the left side can always be made to equal the right
       - >-
-          `n x 0 = n`, since multiplying leaves the original number untouched
+          `n × 0 = n`, since multiplying leaves the original number untouched
       - >-
           `n + 5 = 5 + n`, since the two sides are the same amount whatever n is
     answer: 3
@@ -84,7 +84,7 @@ quiz:
       Adding five to a number and adding a number to five give the same amount, whatever the
       number is, so that equation is true for every value of n. Option A is false for every
       value, because a number plus five is never the same size as that number plus six. Option B
-      is the ordinary case, true for exactly one value, thirteen, and false for all the others,
+      is the ordinary case, true for exactly one value, seven, and false for all the others,
       and most of the equations in this course are like that. Option C is false except when n is
       zero, and testing it with a single number, say n equals four, settles it in three seconds:
       zero is not four.
@@ -142,11 +142,11 @@ Take your time. Then read on.
 
 ## Why that question is in every algebra course
 
-When researchers put that exact question to school students from first grade to sixth, **fewer than ten percent in any grade gave the right answer**, and the older children did no better than the younger ones. Being older did not help, which tells you something important: this is not a hard sum, and getting it wrong is not about ability. It is about what people think the equals sign means.
+When researchers put that exact question to school students from first grade to sixth, **fewer than ten percent in any grade gave the right answer**, and the older children did no better than the younger ones.[1] Being older did not help, which tells you something important: this is not a hard sum, and getting it wrong is not about ability. It is about what people think the equals sign means.
 
-The most common wrong answer is 12. The second most common is 17.
+Two wrong answers dominate: 12 and 17.
 
-Both come from the same place. If you have spent years doing arithmetic, you have seen the equals sign thousands of times in one particular shape: `8 + 4 = ?`, `6 x 7 = ?`, `20 - 3 = ?`. In every one of those, the sign sits just before the answer. So it starts to feel like an instruction, meaning **and the answer is**. Read `8 + 4 = box + 5` that way and the box is obviously where the answer goes, so it's 12. Read the whole line as one long sum and you get 17.
+Both come from the same place. If you have spent years doing arithmetic, you have seen the equals sign thousands of times in one particular shape: `8 + 4 = ?`, `6 × 7 = ?`, `20 - 3 = ?`. In every one of those, the sign sits just before the answer. So it starts to feel like an instruction, meaning **and the answer is**. Read `8 + 4 = box + 5` that way and the box is obviously where the answer goes, so it's 12. Read the whole line as one long sum and you get 17.
 
 The right answer is **7**, and here is the idea that makes it obvious.
 
@@ -172,24 +172,23 @@ The picture that carries the rest of this course is a pair of scales.
 
 An equation is a balance that is level. Whatever is on the left pan weighs the same as whatever is on the right pan; that is what the sign is claiming.
 
-<svg viewBox="0 0 584 240" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:584px;display:block;margin:1.5em auto;font-family:system-ui,sans-serif" role="img" aria-labelledby="bal-title bal-desc">
+<svg viewBox="0 0 420 170" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:420px;display:block;margin:1.5em auto;font-family:system-ui,sans-serif" role="img" aria-labelledby="bal-title bal-desc">
   <title id="bal-title">An equation drawn as a level balance</title>
-  <desc id="bal-desc">A pair of scales, level. The left pan holds eight plus four. The right pan holds a box plus five. Underneath, a note says that adding or removing the same amount from both pans keeps the beam level, and that this is the only reason the moves in the next lesson are allowed.</desc>
-  <text x="20" y="26" font-size="17" font-weight="700" fill="var(--text, #1a1a1a)">An equation is a balance that is level</text>
-  <line x1="90" y1="80" x2="494" y2="80" stroke="var(--text-2, #4a5260)" stroke-width="3"/>
-  <line x1="292" y1="80" x2="292" y2="150" stroke="var(--text-2, #4a5260)" stroke-width="3"/>
-  <line x1="252" y1="150" x2="332" y2="150" stroke="var(--text-2, #4a5260)" stroke-width="3"/>
-  <line x1="150" y1="80" x2="150" y2="110" stroke="var(--text-2, #4a5260)" stroke-width="1.5"/>
-  <line x1="434" y1="80" x2="434" y2="110" stroke="var(--text-2, #4a5260)" stroke-width="1.5"/>
-  <rect x="90" y="110" width="120" height="34" fill="none" stroke="var(--navy, #0f2a4a)" stroke-width="2"/>
-  <text x="150" y="133" font-size="17" font-weight="700" text-anchor="middle" fill="var(--navy, #0f2a4a)">8 + 4</text>
-  <rect x="374" y="110" width="120" height="34" fill="none" stroke="var(--oxblood, #8b1e2d)" stroke-width="2"/>
-  <text x="434" y="133" font-size="17" font-weight="700" text-anchor="middle" fill="var(--oxblood, #8b1e2d)">box + 5</text>
-  <text x="292" y="70" font-size="17" font-weight="700" text-anchor="middle" fill="var(--text, #1a1a1a)">=</text>
-  <text x="20" y="192" font-size="15" fill="var(--text-2, #4a5260)">Take the same off both pans and it stays level. Add the same to both</text>
-  <text x="20" y="212" font-size="15" fill="var(--text-2, #4a5260)">and it stays level. That is the whole reason the moves in lesson three are</text>
-  <text x="20" y="232" font-size="15" fill="var(--text-2, #4a5260)">allowed, and why doing something to one side only is not a move at all.</text>
+  <desc id="bal-desc">A pair of scales, level. The left pan holds eight plus four. The right pan holds a box plus five. The equals sign sits between them at the pivot. Because the beam is level, the two pans hold the same amount.</desc>
+  <line x1="40" y1="46" x2="380" y2="46" stroke="var(--text-2, #4a5260)" stroke-width="3"/>
+  <line x1="210" y1="46" x2="210" y2="116" stroke="var(--text-2, #4a5260)" stroke-width="3"/>
+  <line x1="175" y1="116" x2="245" y2="116" stroke="var(--text-2, #4a5260)" stroke-width="3"/>
+  <line x1="105" y1="46" x2="105" y2="74" stroke="var(--text-2, #4a5260)" stroke-width="1.5"/>
+  <line x1="315" y1="46" x2="315" y2="74" stroke="var(--text-2, #4a5260)" stroke-width="1.5"/>
+  <rect x="45" y="74" width="120" height="34" fill="none" stroke="var(--navy, #0f2a4a)" stroke-width="2"/>
+  <text x="105" y="97" font-size="17" font-weight="700" text-anchor="middle" fill="var(--navy, #0f2a4a)">8 + 4</text>
+  <rect x="255" y="74" width="120" height="34" fill="none" stroke="var(--oxblood, #8b1e2d)" stroke-width="2"/>
+  <text x="315" y="97" font-size="17" font-weight="700" text-anchor="middle" fill="var(--oxblood, #8b1e2d)">box + 5</text>
+  <text x="210" y="36" font-size="19" font-weight="700" text-anchor="middle" fill="var(--text, #1a1a1a)">=</text>
+  <text x="210" y="150" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">the beam is level, so the pans hold the same</text>
 </svg>
+
+Take the same amount off both pans and it stays level. Add the same to both and it stays level. That is the whole reason the moves in lesson 3 are allowed, and it is why doing something to one side only is not a move at all.
 
 Now the rule that the picture makes obvious, and that most people are taught as a ritual instead.
 
@@ -209,17 +208,17 @@ Is it true when `n = 3`? Substitute: `3(3) + 1` is `10`, and 10 is 10. So yes.
 
 That is what "solving" will mean in lesson 3: finding the values that make the claim true. And notice you already have a way to check any answer you ever produce, which is to put it back in. **Checking is not an optional extra step in algebra; it is the thing that makes the rest of it safe.**
 
-:::checkpoint Find the number that goes in the box: `13 + 6 = box + 9`. Then check your answer by substituting it back.
-Nineteen is the same size as something plus nine, so the box is 10. Check: `13 + 6` is 19 and `10 + 9` is 19, so the two sides are the same size and the equation is true. If you answered 19, you read the sign as "and the answer is", which is the whole thing this lesson is about, and noticing that you did it is the useful part.
+:::checkpoint Here is `13 + 6 = box + 9`, worked to the second to last line. The left pan holds 19. Take nine off both pans and the right pan holds just the box, so `19 - 9 = box`. Finish it, then check your answer by substituting it back.
+Nineteen minus nine is 10, so the box is 10. Check: `13 + 6` is 19 and `10 + 9` is 19, so the two sides are the same size and the equation is true. If you answered 19, you read the sign as "and the answer is", which is the whole thing this lesson is about, and noticing that you did it is the useful part.
 :::
 
 ## Two more shapes, so the sign stops meaning one thing
 
-The research finding behind this lesson is that people read the equals sign correctly when they meet it in varied shapes, and read it as an instruction when they only ever meet it in the shape `sum = answer`. So here are the other shapes, deliberately.
+The research finding behind this lesson is that people are much more likely to read the sign as a claim when they meet it with operations on both sides, and much more likely to read it as an instruction when they only ever meet it in the shape `sum = answer`[1]. So here are the other shapes, deliberately.
 
 **Operations on both sides.** `15 - 6 = box + 2`. The left is 9, so something plus two is nine, and the box is 7.
 
-**The answer first.** `20 = box x 4`. Twenty is the same size as something times four, so the box is 5.
+**The answer first.** `20 = box × 4`. Twenty is the same size as something times four, so the box is 5.
 
 **Nothing to compute at all.** `box = 8`. This is a perfectly good equation, and it is telling you the answer directly. Solving an equation, in lesson 3, is the business of turning a complicated equation into this shape without ever breaking the balance.
 
@@ -230,14 +229,18 @@ Work these on paper. Check each answer by substituting it back into the original
 
 1. `7 + 5 = box + 8`
 2. `box + 6 = 4 + 9`
-3. `2 x 8 = box + 9`
-4. `24 = box x 3`
+3. `2 × 8 = box + 9`
+4. `24 = box × 3`
 5. True or false: `6 + 7 = 13 + 0`
 6. True or false: `10 - 4 = 3 + 2`
 7. Is `4n - 1 = 11` true when `n = 3`?
 8. Someone writes `5 + 2 = 7 + 3 = 10`. What is wrong with it, and how would you write what they meant?
 
-Answers: 1. 4, since 12 is the same size as 4 plus 8. 2. 7, since 13 is the same size as 7 plus 6. 3. 7, since 16 is the same size as 7 plus 9. 4. 8. 5. True. 6. False, because 6 is not 5. 7. Yes: `4(3) - 1` is 11. 8. It claims 7 equals 10, because if `5 + 2 = 7` and `7 + 3 = 10` are chained with equals signs the line says seven is ten. They meant two separate statements: `5 + 2 = 7`, and then `7 + 3 = 10`. Write them on separate lines.
+9. Write an equation with operations on both sides that is true, and one that is false.
+:::
+
+:::checkpoint Answers to the practice set, once you have done all nine
+1. 4, since 12 is the same size as 4 plus 8. 2. 7, since 13 is the same size as 7 plus 6. 3. 7, since 16 is the same size as 7 plus 9. 4. 8. 5. True. 6. False, because 6 is not 5. 7. Yes: `4(3) - 1` is 11. 8. It claims 7 equals 10, because chaining the two statements with equals signs says seven is ten. They meant `5 + 2 = 7`, and then `7 + 3 = 10`, on separate lines. 9. Anything of the shape `6 + 3 = 4 + 5` is true, and `6 + 3 = 4 + 6` is false; the point is that both are equations.
 :::
 
 ## What people get wrong
@@ -258,7 +261,7 @@ Lesson 3 solves equations, and every move it makes is the balance from this less
 
 Lesson 4 writes relationships as equations with two letters, and the balance still holds.
 
-Lesson 5 is about writing equations from sentences, where the commonest mistake in all of algebra lives, and the check you learned here, substituting a number to see whether the claim is true, is what catches it.
+The lesson on turning a sentence into an equation is where the commonest mistake in all of algebra lives, and the check you learned here, substituting a number to see whether the claim is true, is what catches it.
 
 ## Go deeper
 

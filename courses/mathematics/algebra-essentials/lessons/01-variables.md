@@ -7,7 +7,7 @@ objectives:
   - Write an expression for a quantity described in words, and check it by putting a number in
 quiz:
   - q: >-
-      Evaluate `x squared minus 4x` when `x = -3`. Write the substitution line before you
+      Evaluate `x² - 4x` when `x = -3`. Write the substitution line before you
       compute anything.
     options:
       - >-
@@ -20,11 +20,11 @@ quiz:
           Three, from minus nine plus twelve, with the power taken first
     answer: 2
     explain: >-
-      Substitute with brackets first: `(-3)^2 - 4(-3)`. The power comes before the
-      multiplication, and `(-3)^2` is `(-3) x (-3)`, which is +9, because a negative times a
+      Substitute with brackets first: `(-3)² - 4(-3)`. The power comes before the
+      multiplication, and `(-3)²` is `(-3) × (-3)`, which is +9, because a negative times a
       negative is positive. Then `4(-3)` is -12, and subtracting -12 is adding 12. So 9 + 12 =
       21. Option A is what you get if you handle the power correctly and then forget that
-      subtracting a negative adds. Option B is the commonest slip in the lesson: writing -3^2
+      subtracting a negative adds. Option B is the commonest slip in the lesson: writing -3²
       without brackets, which reads as the negative of 3 squared. Option D makes both errors at
       once.
   - q: >-
@@ -64,13 +64,13 @@ quiz:
     explain: >-
       The habit this lesson is building is testing a claim with a number, because it needs no
       rule and it settles the matter. At `a = 3`, the left side is 12 + 6 = 18, and the right
-      side is 6 x 9 = 54. Eighteen is not fifty four, so the claim is false. Option D shows why
+      side is 6 × 9 = 54. Eighteen is not fifty four, so the claim is false. Option D shows why
       one test value is not always enough: `a = 1` is the value where squaring changes nothing,
       so it hides the error. Pick a value other than 0 or 1. Options B and C are both true and
       both are rules, which is the thing you may not remember under pressure; the numerical
       check is the thing you can always do.
   - q: >-
-      Which of these means the same as `2 + 3 x 4`?
+      What is `2 + 3 × 4`, and why?
     options:
       - >-
           Twenty, because the operations are read from left to right
@@ -82,7 +82,7 @@ quiz:
           Fourteen, because multiplication is done before addition
     answer: 3
     explain: >-
-      The order of operations puts multiplication before addition, so 3 x 4 is done first and
+      The order of operations puts multiplication before addition, so 3 × 4 is done first and
       the answer is 14. Option A is the left-to-right reading, which is the intuitive one and is
       wrong. Option C reaches the right number by stating the rule backwards, which is worth
       noticing: a correct answer with a wrong reason will fail on the next question. Option B is
@@ -99,7 +99,7 @@ quiz:
       - >-
           Take off the twelve, then divide by 0.05, giving six hundred and forty
       - >-
-          Divide forty four by 12.05, which gives about three and a half minutes
+          Divide forty four by 12.05, which gives about three and seven tenths
       - >-
           Take off the twelve, then multiply by 0.05, which gives one dollar sixty
     answer: 1
@@ -128,13 +128,13 @@ quiz:
       Three times ten is thirty, and four less than that is twenty six, so the check tells you
       which expression is correct without you having to trust the word order. `3n - 4` at `n =
       10` gives 26. Option B writes the symbols in the order the words arrive, which is the
-      reversal error this course meets properly in lesson 5, and it gives -26 rather than 26.
-      Option C subtracts four before multiplying, which is a different quantity: 3 x 6 = 18.
+      word-order habit the translation lesson is about, and it gives -26 rather than 26.
+      Option C subtracts four before multiplying, which is a different quantity: 3 × 6 = 18.
       Option D pairs the wrong expression with the right value, which is what happens when you
       check carelessly, and it is why the check has to be done rather than assumed.
 ---
 
-Here is a sentence you can already do something with. **Your phone plan costs $12 a month, plus 5 cents for every minute you talk.**
+Start with a sentence you can already do something with. **Your phone plan costs $12 a month, plus 5 cents for every minute you talk.**
 
 You can work out this month's bill. If you talked for 100 minutes, it's $12 plus 100 lots of 5 cents, which is $12 plus $5, so $17. If you talked for 300 minutes it's $12 plus $15, so $27.
 
@@ -146,7 +146,7 @@ Write the number of minutes as `m`. Then the bill, in dollars, is:
 
 `12 + 0.05m`
 
-That's it. That's the whole plan, written down. `0.05m` means 0.05 times `m`, because in algebra we drop the multiplication sign between a number and a letter. And `m` is not the minutes; it's **how many** minutes, which is a number.
+That's the whole plan, written down. `0.05m` means 0.05 times `m`, because in algebra we drop the multiplication sign between a number and a letter. And `m` is not the minutes; it's **how many** minutes, which is a number.
 
 Put numbers in and it does what you already did by hand:
 
@@ -158,7 +158,11 @@ Put numbers in and it does what you already did by hand:
 
 Three rows, one expression. The word **variable** means exactly that: the letter varies, and the expression holds anyway.
 
-:::predict Same plan, and this month the bill was $44. How many minutes did you talk? You can work this out without any algebra at all, and it is worth doing that way once.
+:::checkpoint A different plan: nine dollars a month plus eight cents a minute, so the expression is `9 + 0.08m`. Here is the working for 250 minutes, finished except for the last line. `9 + 0.08 × 250` = `9 + 20` = ? Finish it.
+Twenty nine dollars. The point of doing the last step yourself rather than reading it is that it is the step you will have to do unaided, and reading someone else's completed working feels like understanding without producing any.
+:::
+
+:::predict Same plan as Maya's twelve dollars and five cents, and this month the bill was $44. How many minutes did you talk? You can work this out without any algebra at all, and it is worth doing that way once.
 The $12 is there whatever happens, so $44 minus $12 is $32 of call charges. At 5 cents a minute, $32 buys 32 divided by 0.05, which is 640 minutes. You have just solved an equation by undoing it in your head, which is exactly what lesson 3 is about. The reason algebra is worth learning is not that this problem is hard; it is that the same undoing works when the numbers are horrible.
 :::
 
@@ -228,12 +232,12 @@ To evaluate an expression, substitute and compute. Two worked examples, and the 
 The brackets in that second line are not decoration. Without them, `-1²` reads as "the negative of 1 squared", which is `-1`, and you get the wrong answer while doing everything else correctly.
 
 :::checkpoint Evaluate `3x - x²` when `x = 4`, before reading on. Write out the substitution line before you compute anything.
-Substitute first: `3(4) - (4)²`. Then powers: `(4)²` is 16. Then multiplication: `3(4)` is 12. So it's `12 - 16`, which is **-4**. If you got 4, you probably did `3 × 4 - 4` and then squared, or subtracted before evaluating the power. If you got 128, you multiplied 3 by 4 and then by 4 again. Writing the substitution line first is what prevents both, which is why it is a step rather than a formality.
+Substitute first: `3(4) - (4)²`. Then powers: `(4)²` is 16. Then multiplication: `3(4)` is 12. So it's `12 - 16`, which is **-4**. If you got 4, you read `x²` as `2x`, so you computed 12 minus 8. If you got 64, you subtracted before squaring, so you did `(12 - 4)²`. Writing the substitution line first is what prevents both, which is why it is a step rather than a formality.
 :::
 
 ## Going the other way: words into symbols
 
-Most of the value in algebra is in this direction, and it's harder than evaluating. Lesson 5 is entirely about the hard cases. Here are the building blocks.
+Most of the value in algebra is in this direction, and it's harder than evaluating. The lesson on turning sentences into equations is entirely about the hard cases. The building blocks:
 
 | Words | Expression |
 | --- | --- |
@@ -247,7 +251,7 @@ Most of the value in algebra is in this direction, and it's harder than evaluati
 
 Two of those are worth staring at.
 
-**"Three less than twice a number" is `2n - 3`, not `3 - 2n`.** The words arrive in the order "three... less than... twice a number", and if you write the symbols in the order the words came, you get it backwards. This is the first appearance of a mistake that has a name and a research literature, and lesson 5 is about it.
+**"Three less than twice a number" is `2n - 3`, not `3 - 2n`.** The words arrive in the order "three... less than... twice a number", and if you write the symbols in the order the words came, you get it backwards. That is the word-order habit at work, writing the symbols in the order the words arrived. It is the same habit behind the best-documented mistake in all of algebra, which Clement measured in 1982 and which the lesson on turning sentences into equations is entirely about.[1]
 
 **And the check is the same check as before.** If the number is 10, "three less than twice a number" should be 17. Test `2n - 3`: 2(10) - 3 = 17. ✓. Test `3 - 2n`: 3 - 20 = -17. ✗. Ten seconds, no rules.
 
@@ -262,7 +266,10 @@ Work these on paper, and write the substitution line before you compute.
 6. Write "seven more than three times a number" as an expression, then check it with the number 4.
 7. Someone claims `3x + 2x = 6x`. Test it with `x = 2` and say whether they're right.
 
-Answers: 1. 17. 2. -3. 3. `(-2)² - 5(-2)` = 4 + 10 = 14. 4. `3.50 + 1.20d`. 5. 3.50 + 8.40 = $11.90. 6. `3n + 7`; at n = 4 that's 19, and "seven more than twelve" is 19. ✓ 7. Left side: 6 + 4 = 10. Right side: 12. Not equal, so no. (The right answer is `5x`, and at x = 2 that gives 10. ✓)
+:::
+
+:::checkpoint Answers to the practice set, once you have done all seven
+1. 17. 2. -3. 3. `(-2)² - 5(-2)` = 4 + 10 = 14. 4. `3.50 + 1.20d`. 5. 3.50 + 8.40 = $11.90. 6. `3n + 7`; at n = 4 that gives 19, and "seven more than twelve" is 19. 7. Left side: 6 + 4 = 10. Right side: 12. Not equal, so no. The right answer is `5x`, and at x = 2 that gives 10.
 :::
 
 ## What people get wrong
@@ -283,7 +290,11 @@ Lesson 3 solves equations, and the "undoing" you did in the first predict block,
 
 Lesson 4 draws `12 + 0.05m` as a line, and the $12 and the 5 cents both turn out to be visible in the picture.
 
-Lesson 5 is the words-into-symbols direction taken seriously, including the mistake in the table above.
+The lesson on turning a sentence into an equation is the words-into-symbols direction taken seriously, including the mistake in the table above.
+
+## Sources
+
+[1] John Clement, "Algebra word problem solutions: thought processes underlying a common misconception", *Journal for Research in Mathematics Education*, 1982, and Clement, Lochhead and Monk (1981). In the student-professor problem, 37% of engineering freshmen wrote the relationship backwards, and 68% of the incorrect responses took the same form. The lesson on turning sentences into equations treats this properly.
 
 ## Go deeper
 
