@@ -40,6 +40,11 @@ outstanding: every existing podcast episode was re-rendered on Gemini earlier th
 Foval Core is laid out and validator-enforced across 52 courses in 8 terms, and How to Learn
 Anything is complete with all eight episodes. `docs/BACKLOG.md` section 0b is rewritten around that.
 
+**Two decisions from John, both closed.** Charon and Aoede stay as the host voices, so the twenty-one
+owed episodes render on them and the question does not come back. And the three stub courses stay
+live while they are rebuilt in place, rather than being unpublished, because taking them down would
+drop the site to four courses and hole Terms 1 and 2 of the Core for weeks.
+
 ## 2026-09-08 (later the same day)
 
 **The Bible: What It Is and How to Read It is published.** Twelve lessons, a twenty-two item final

@@ -68,6 +68,12 @@ So the queue is:
    folder. Term 2's remaining three are Number Sense, Statistics for Citizens and The Scientific
    Method. Start each with `/new-course`.
 
+**The three stub courses stay live while they are rebuilt.** John's call, 2026-09-08, asked
+directly. They are rebuilt in place, lesson by lesson, rather than unpublished: taking them down
+would drop the site from seven courses to four and put holes in Terms 1 and 2 of the Core for weeks.
+The honesty pass at item 1 is what makes that defensible, because the thing that is currently untrue
+about them is the `minutes:` label, not the prose. Do not re-open this either.
+
 **Podcasts run alongside, not after.** They are a separate track because they are cheap, independent
 and settled: see item 5 below and section 6. The rule that governs them is that **a lesson gets its
 episode only once its content has settled**, so the twenty-one owed episodes are Logic's ten and
@@ -179,11 +185,10 @@ about $0.30 to $0.50 an episode, and all nine existing episodes were re-rendered
 fact-checked scripts and re-uploaded over the same R2 keys, so no lesson frontmatter changed. And
 **Bible Basics published**: twelve lessons through Stage 4, both assessments, live.
 
-**AWAITING JOHN, and it gets more expensive with every episode: are Charon and Aoede the right
-voices?** He was sent episode 1 of How to Learn Anything on 2026-09-08 and has not said. The two
-were picked to match the old male/female pairing, not chosen by him by ear the way the VibeVoice
-presets were. Re-rendering the nine that exist is about $3 and half an hour. Re-rendering after the
-twenty-one owed episodes are made is about $12. **Ask before rendering the Logic batch.**
+**SETTLED 2026-09-08: Charon and Aoede are the hosts.** John was asked directly and said keep them
+and render the twenty-one owed episodes. They are John (Charon, the teaching voice) and Haley
+(Aoede, the curious one) across the whole institute, and changing them now would mean re-rendering
+everything. Nothing on the podcast track is waiting on him. Do not re-open this.
 
 **One correction shipped and was fixed the same evening.** Lesson 11 described the Orthodox Study
 Bible's Old Testament as a revised New King James Version, following the producing academy's
@@ -421,10 +426,9 @@ unless you need it):**
   means re-rendering every episode, because the hosts have to sound the same across the institute.
   **The `FAL_KEY` in `.env.local` still works and is what the script reads.** Cost so far on the new
   engine: $2.96 to re-render the nine existing episodes, plus $0.32 for the first test render.
-- **AWAITING JOHN: are Charon and Aoede the right voices?** He was sent episode 1 of How to Learn
-  Anything to listen to on 2026-09-08 and has not said. The two voices were picked to match the old
-  male/female pairing, not chosen by him by ear the way the VibeVoice presets were. If he wants
-  different ones, it is about $3 and half an hour to re-render everything.
+- **SETTLED: Charon and Aoede are the voices.** John was asked directly on 2026-09-08 and said keep
+  them and render the twenty-one owed episodes. Nothing on this track waits on him. Changing a host
+  voice from here means re-rendering every episode in the institute, so do not.
 - **What is owed: Logic and Argument's ten episodes**, and Bible Basics' remaining eleven. Nine of
   the fifty-one live lessons have audio. **Those twenty-one are the whole backlog right now**,
   because they are the only settled lessons without audio: the three stub courses get theirs after
