@@ -165,12 +165,24 @@ quality and not much of anything honestly."* He is right, and the numbers say ho
      the uncited side no reply. This is the Writing Clearly lesson 8 finding in a second domain, so
      treat it as general: **when two positions are described, count the citations and count who gets
      the last word before reading the prose for tone.**
-   - **Lesson 8 is insurance**, which touches health policy and carries a mandatory neutrality audit
-     under the outline's own note. Lesson 6 is tax and lesson 7 was 3.4-adjacent; lesson 8 is squarely
-     in, so it is Tier B.
-   - **Check SOURCES.md covers insurance before drafting it.** The file's insurance material is thin,
-     which is the same gap that cost lesson 6 a rewrite and that lesson 7 avoided by spending an hour
-     on Stage 1 first.
+   - ~~**Lesson 8, insurance.**~~ **DONE 2026-09-09**, with Stage 1 research on insurance written
+     first and a full Tier B Stage 4, five reviewers, one per pass. It earned the tier twice over.
+     **The fact-check found a fabricated quotation attributed to the NAIC**: a sentence about cash
+     value that appears neither in their buyer's guide, which the reviewer downloaded from the
+     lesson's own footnote link, nor anywhere on the web. It also found an invented car-insurance
+     claim frequency, off by about four times, doing the arithmetic in a worked example. **The
+     neutrality audit returned a plain fail** on three blocking findings, the sharpest being that the
+     lesson's organising claim, that insurance is negative expected value by construction, is false
+     for employer coverage, where the employer pays roughly six sevenths of the premium untaxed, and
+     that is most of what the lesson teaches. All applied; findings in `research/REVIEWS.md`.
+   - **The rule that came out of it, and it should go in every review brief from here.** The
+     bankruptcy section failed the same way Writing Clearly lesson 8 and Personal Finance lesson 7
+     did, and in all three cases it was **found by counting rather than by reading for tone**. So:
+     **when a lesson describes two positions, count the citations each side gets, count who gets the
+     last word, and check who is explained against who is merely quoted, before reading a single
+     sentence for fairness.** Three domains, one defect, three different drafters' worth of prose
+     that read fine.
+   - **Two things still owed on this course**: lessons 9 and 10, and both assessments.
 
 4. **Algebra Essentials, rebuilt.** T5, five stubs. Procedural course: two lessons a session is
    allowed, the fact-check is executed rather than fetched, and the neutrality pass is skipped with
@@ -238,11 +250,11 @@ is John's definition.
 | Logic and Argument | T1 | 10 | 9,380 | 10 | 2 | 3 of 10 | seven episodes |
 | Bible Basics | T8 | 12 | 13,163 | 12 | 2 | 1 of 12 | eleven episodes |
 | **Writing Clearly** | T1 | **9** | **3,676** | **0** | **2** | 0 of 9 | **Stage 4 on all nine, voice pass, nine episodes** |
-| Personal Finance | T2 | 7 of 10 | 5,668 | 7 | **0 of 2** | 0 of 7 | three lessons, both assessments, seven episodes |
+| Personal Finance | T2 | 8 of 10 | 5,932 | 8 | **0 of 2** | 0 of 8 | two lessons, both assessments, eight episodes |
 | Algebra Essentials | T5 | 5 | **444** | 0 | 0 | 0 | **everything. Still a stub course.** |
 | Python Basics | T6 | 6 | **463** | 0 | 0 | 0 | **everything. Still a stub course.** |
 
-*Updated 2026-09-09.* Fifty-seven lessons live, twelve with audio. **All eleven remaining validator
+*Updated 2026-09-09.* Fifty-eight lessons live, twelve with audio. **All eleven remaining validator
 warnings are in Algebra and Python**, and they are all "no links in the body". Every other course is
 warning-free.
 
