@@ -39,6 +39,9 @@ So the queue is now:
 4. **Personal Finance lessons 7 to 10** and its assessments, per `research/OUTLINE.md`. Paused
    mid-course on purpose; lesson 6 shipped, 7 to 10 are outlined and not drafted.
 5. **Podcasts** for whatever is published, one episode per session, as a standing background task.
+   **This is where John's attention is right now** (2026-09-08: "i'm anxious to get more courses done
+   and more podcasts made"), and Logic and Argument's ten episodes are the concrete backlog. Note the
+   engine changed on 2026-09-08; see 0d.
 6. **Queue empty: stop.** John starts the next Foval Core course in its own session.
 
 Constraints that shape the pace: a Stage 4 cycle on one lesson runs 100k to 250k subagent tokens,
@@ -53,17 +56,19 @@ anywhere, and that is why the old queue survived as long as it did.
 | Course | Status | Lessons | Through Stage 4 | Assessments | Podcasts |
 |---|---|---|---|---|---|
 | How to Learn Anything | live | 8 | 8 | 2 | **8 of 8 live** |
+| Logic and Argument | live | 10 | **10** | **2** | **none: this is the next job** |
+| Bible Basics | **live** | 12 | **12** | **2** | 1 of 12 (lesson 2) |
 | Personal Finance | live | 6 | 6 | 0 | none |
 | Python Basics | live | 6 | **0** | 0 | none |
 | Algebra Essentials | live | 5 | **0** | 0 | none |
 | Clear Writing | live | 4 | **0** | 0 | none |
-| Bible Basics | **drafting** | 12 | **8** (1 to 8) | 0 | 1 (regenerates after renumber) |
-| Logic and Argument | **live** | 10 | **10** | **2** | none |
 
-*Updated 2026-09-07.* Bible Basics moved 3 to 8 by merging the takeover branch;
-Logic moved 8 to 9 by taking that course's branch lesson 9. Both branches had sat
-unmerged since 2026-09-06. **Logic's only unreviewed lesson is 10**, and it holds
-every remaining warning on the course.
+*Updated 2026-09-08.* Bible Basics went 8 to 12 and published in one session; its assessments were
+written from the spec in `research/OUTLINE.md`, which had been sitting there unbuilt while lesson 12
+referred to the project in four places as though it existed. **Every course on the site is now live,
+and the three placeholder courses are the only ones that have never been through the pipeline.**
+Twenty-one of the fifty-one lessons on the site now have a podcast episode; all nine that existed
+were re-rendered on the new engine on 2026-09-08.
 
 ### A process rule, because this session broke it
 
@@ -106,182 +111,75 @@ not open a branch for lesson work. The branch is what let two sessions diverge f
 nine hours without either noticing, and `CLAUDE.md` rule 11 already says work that is
 not on `main` is not done.
 
-## 0d. In flight right now (2026-09-08 session)
+## 0d. Where the 2026-09-08 session left things. READ THIS FIRST.
 
-John asked for throughput: more courses finished, more podcasts made. This session works the
-queue in 0b top down, and this section says exactly where it is so a session that dies mid-task
-leaves a true picture.
+**Nothing is in flight. Working tree clean, `main` pushed, `npm run validate` and `npm run build`
+both green.** Two things shipped this session and both are live.
 
-- **Lesson 9 (`09-text-and-reliability.md`): Stage 4 round 1 DONE 2026-09-08**, all five findings
-  sets applied, entry in `research/REVIEWS.md`. No second pass needed; nothing was left for a human
-  decision.
-- **BIBLE BASICS IS PUBLISHED, 2026-09-08.** All twelve lessons through Stage 4, the final test and
-  the project written from the outline spec, `status: published`, TAXONOMY row updated, built and
-  pushed. Queue item 2 is closed. Reviews for lessons 9 to 12 are in `research/REVIEWS.md`.
-- **Open items it left behind, none of them blocking:**
-  1. **The strongest King James Only position** (preservation located in the English text) is named in
-     lesson 11, distinguished from the Trinitarian Bible Society and Dean Burgon Society positions, and
-     explicitly *not* summarised, because the research to state it in its own advocates' words did not
-     land. The lesson says so in the text. One Stage 1 pass closes it.
-  2. **Fee and Stuart's *How to Read the Bible Book by Book*** is characterised in lesson 12 from the
-     publisher's description. It is the pattern the project asks learners to use, so someone should open
-     it and check the four headings.
-  3. **Lesson 1 still has four sub-legible SVG labels**, surfaced when the validator was taught to
-     resolve inherited font sizes.
-  4. **Every `:::figure` in this course except lessons 10, 11 and 12 hotlinks a full-size Wikimedia
-     original**, one of them 6.7 MB. Use the `/thumb/.../960px-` form.
-  5. **Reading times across the other courses have not been audited.** Four of Bible Basics' twelve were
-     out by more than an hour, one by a factor of three. The same is likely elsewhere.
-- **Then lessons 11 and 12**, the same way, one at a time.
-- **Two sweeps that came out of lesson 10 and are not done yet.** First, `npm run validate` now
-  resolves inherited SVG font sizes, which it did not before, so a chart could hide 24 sub-legible
-  labels on `<g>` wrappers and pass. With the fix in place it flags **bible-basics lessons 1, 11 and
-  12**. Lessons 11 and 12 are the next two reviews and will be fixed there; **lesson 1's four labels
-  are still owed**. Second, every `:::figure` in this course hotlinks a full-size Wikimedia original,
-  one of them 6.7 MB; use the `/thumb/.../960px-` form. Lesson 10 is converted, the rest are not. Then the course's assessments,
-  which do not exist yet, then `status: published`.
-- **Then the ten Logic and Argument podcast episodes**, which are the standing background task.
-- Podcast engine note: episodes now render on Gemini 3.1 Flash TTS, not VibeVoice. See the
-  2026-09-08 entry in `docs/CHANGELOG.md`.
+**1. The podcast engine changed.** Episodes now render on **Gemini 3.1 Flash TTS on fal**
+(`fal-ai/gemini-3.1-flash-tts`), not VibeVoice. John listened to both and called Gemini leaps and
+bounds better. Billing changed shape with it, from $0.04 a generated minute to $0.05 per 1,000
+characters in, about $0.30 to $0.50 an episode. The hosts are unchanged and their voices are new,
+because the VibeVoice presets do not exist on this model: **John is Charon, Haley is Aoede.** All
+nine episodes that existed were re-rendered from their existing fact-checked scripts and uploaded
+over the same R2 keys, so no lesson frontmatter changed. Details in `docs/CHANGELOG.md` and in the
+header comment of `scripts/podcast.mjs`. **John has not yet said whether the two voices are right;
+he was sent episode 1 to listen to and has not commented.** If he wants different voices, changing
+them means re-rendering every episode, which is about $3 and half an hour.
 
-## 1. Pipeline state right now
+**2. Bible Basics is published.** Twelve lessons through Stage 4, both assessments written, live on
+the site. Queue item 2 is closed.
 
-*Rewritten 2026-09-06, third session of the day, at the point John reset the priority. This is the
-handoff. If you are starting fresh, read section 0b first, then this.*
+### What to pick up next
 
-### In flight at the moment this was written
+The 0b queue says **the ten Logic and Argument podcast episodes**, which is the standing background
+task and the thing John asked for most recently. Logic has been live since 2026-09-07 with no audio.
+Run `/make-podcast courses/foundations/logic-and-argument/lessons/<NN>-<slug>.md`, one episode per
+session. `node scripts/podcast.mjs plan <lesson>` tells you where any episode stands.
 
-**Logic and Argument is the active course.** Two Stage 4 reviews were running in background
-subagents when this was written, on **lesson 4 (`04-syllogisms.md`)** and **lesson 5
-(`05-inductive-strength.md`)**, each doing all five passes in one context and returning findings
-without editing. If this session ended before they landed, their findings are lost and those two
-lessons simply have not been reviewed; relaunch them. Nothing is half-edited on disk. Working tree
-clean, `main` pushed.
+After that, queue item 3, the three untouched placeholder courses (Python Basics, Algebra
+Essentials, Clear Writing), which are now the honest weak point of the site.
 
-### Logic and Argument: the work order to published
+### Open items Bible Basics left behind, none of them blocking
 
-Do these in order. Items 1 and 2 are already written down in full and were never applied, which is
-the main reason this course is not live.
+1. **The strongest King James Only position** (preservation located in the English text) is named in
+   lesson 11, distinguished from the Trinitarian Bible Society and Dean Burgon Society positions, and
+   deliberately **not** summarised, because the research to state it in its advocates' own words did
+   not land in time. The lesson says so in its own text rather than summarising the view from the
+   books written against it. One Stage 1 pass closes this: find one or two primary statements, in
+   their own words, of the view that preservation extends to the English translation.
+2. **Fee and Stuart's *How to Read the Bible Book by Book*** is characterised in lesson 12 from the
+   publisher's description. It is the pattern the course project asks learners to use, so someone
+   should open it and confirm the four headings.
+3. **Lesson 1 has four sub-legible SVG labels**, surfaced when the validator was taught to resolve
+   inherited font sizes. Small fix.
+4. **Every `:::figure` in this course except lessons 10, 11 and 12 hotlinks a full-size Wikimedia
+   original**, one of them 6.7 MB. Use the `/thumb/.../960px-` form. This is a rule 9 problem, not a
+   cosmetic one.
+5. **Reading times elsewhere have not been audited.** Four of Bible Basics' twelve `minutes:` values
+   were out by more than an hour and one by a factor of three. The same is likely across other courses.
 
-1. **Apply lesson 2's recorded work order.** `research/REVIEWS.md` under "Lesson 2, Valid and
-   sound" is an explicit work order that says at the top "Fixes below are NOT yet applied". Five
-   blocking items: L2-B1 the lesson cites Hurley and Copi as authorities when SOURCES.md records
-   neither as actually read (the fix is to re-source to Van Cleave, which is free, CC BY, already
-   in SOURCES.md, and covers the same syllabus in sections 1.6 to 1.8, or to read the chapters and
-   record them); L2-B2 "counterexample" is defined one way, taught a second and practised a third;
-   L2-B3 three of six quiz items key on material lifted from the body; L2-B4 a 174-word answer key
-   printed in plain body text under the instruction to answer before reading; L2-B5 three
-   standard-form displays render with the conclusion inside a premise. Plus two neutrality items,
-   L2-N1 and L2-N2, both about Dube, Rotello and Heit being described as a contrarian aside when
-   they are a live challenge to the lesson's load-bearing takeaway.
-2. **Close lesson 3's five open verification items.** The fact-checker's egress was blocked, so
-   five figures from Wason 1968 and two quotations were left "unverifiable from here, not wrong":
-   the 36/39/5/19 breakdown that sums to 99%, the n=36 UCL sample, the 104/44/80 breakdown, the
-   64% deontic figure, and the wording of Wason's "Nearly all subjects select P" quotation plus the
-   *forall x: Calgary* validity sentence and its chapter attribution. Someone with working access
-   to the PDFs has to confirm or correct each one. Also deferred there: the biconditional is
-   promised by objective 3 and never taught, and two of the four named valid forms appear in no
-   quiz item.
-3. **Fix the course-wide unread-source defect: 20 findings across 8 of 10 lessons.** Three
-   separate reviews found lessons citing Hurley, Copi, Govier and Weston for content SOURCES.md
-   records as never opened. It is now linted rather than found by hand: `research/SOURCES.md`
-   carries `<!-- unread: ... -->` and `scripts/build.mjs` flags any lesson citing a name on it
-   (warn while drafting, build failure once published). `npm run validate` prints the list. Lesson
-   2 is the worked example of the fix. Lesson 10 is the worst, citing Weston 21 times. Weston is
-   the hard case, because chapter IV really was read and the rest was not, so each citation needs
-   checking against its chapter rather than a blanket swap.
-4. **Add links to the six lessons that have none** (04, 05, 06, 07, 09, 10), against 13 in lesson 1
-   and 23 in lesson 8. Standard 4.5. Lesson 4's body even promises a link that is not there.
-5. **Reset `minutes` across the course.** Every lesson reviewed so far understated it: 35 to 60,
-   40 to 70, 50 to 65, 40 to 60, 55 to 70. This is a drafting-template problem, so fix
-   `templates/lesson.md` too rather than only the lessons.
-6. **Review lessons 6 to 10** (five lessons, none reviewed). Lessons 4 and 5 are done and logged in
-   `research/REVIEWS.md`, not yet applied.
-7. **Clear the other validation warnings on this course.** `npm run validate` lists them. They are
-   not cosmetic. The worst is **lesson 9's processed-meat chart, which is broken on the live
-   site**: it uses `--line-strong` and `--navy` to distinguish two things, and those tokens resolve
-   to the same colour in both themes, so it renders as one solid block under a caption describing
-   a grey bar that is not grey. Lesson 9 also has an answer printed in plain prose right after
-   asking the reader to answer first, marked in-file `[draft: fix before publishing]`. Lessons 8,
-   9 and 10 have SVG labels under font-size 15, hardcoded light and dark fills that vanish in one
-   theme, and several lessons have no links in the body at all, which 4.5 asks for.
-8. **Build the assessments.** `research/OUTLINE.md` lines 140 to 143 specify them. The folder does
-   not exist yet. The site already supports assessments of type `test` and `project`; How to
-   Learn Anything has two and is the working example to copy.
-9. **Publish**: `status: published` in both `course.yaml` and the course's row in
-   `curriculum/TAXONOMY.md`, then build and commit `site/data/courses.js`.
+### Two validator bugs were fixed this session, and both had been hiding real defects
 
-### What shipped earlier today, for context
+Worth knowing because it changes what you can trust `npm run validate` to catch.
 
-### Bible Basics: the work order to published
+- **The SVG checks matched only on the `<text>` tag.** `font-size` and `fill` inherit, so a chart
+  could put every size on a `<g>` wrapper and pass clean with 24 labels between 8.5 and 11 units,
+  while other lessons were flagged for exactly the same defect. Bible Basics lesson 10 was doing
+  this. The check now walks the tag tree and resolves what each `<text>` actually inherits.
+- **The answers-in-plain-prose check looked only eight lines ahead** and did not know the phrasing
+  "before you read my answer". So it fired on six lessons that were doing it correctly (a
+  "Now do it yourself" heading, a long `:::exercise`, then the `:::checkpoint` holding the answers,
+  which sat outside the eight-line window) and missed two lessons that really were printing the
+  answer in plain prose. It now scans to the next heading, and knows more phrasings.
 
-*Section rewritten 2026-09-06 at the end of the takeover session, on branch
-`claude/bible-basics-takeover-brdgvj`. Everything below is pushed.*
+## 1. How the pipeline behaves in practice
 
-12 lessons drafted. **Lessons 1 to 8 are reviewed and fixed.** Lessons 1, 2 and 3 were done in an
-earlier session; **4, 5, 6, 7 and 8 were done in the takeover session, one full five-reviewer cycle
-each.** Lessons 9 to 12 are not reviewed. Assessments folder is still empty.
-
-**Start a new session at lesson 9.** Then 10, 11, 12, then the lesson 1 second pass, then the
-assessments. Read `research/REVIEWS.md` from the bottom up: each lesson has a findings entry, a
-"Resolutions applied" block, a "Deliberately not fixed" block, and the running "Requests for the
-shared files" list.
-
-**Course-wide work already done, so do not redo it:** every lesson quotes the **NET Bible** with the
-required notice (the ESV was unusable, see 8d); `SOURCES.md` corrected at source in roughly twenty
-places across five Stage 4 blocks so the errors stop propagating; all SVG fills tokenised; all
-frontmatter parses.
-
-**Still open on lesson 1** (recorded in REVIEWS.md, eight findings): Fee & Stuart and Longman &
-Dillard uncited though SOURCES.md names the first as the origin of the lesson's central idea; no
-failure case for the shelf rule (Jonah researched and unused); Hayes's own words on "Old Testament";
-the Psalm 9/10 attribution; the two-block arrangement of the Letters; two missing misconceptions.
-Plus **eight en dashes**, which the linter cannot see.
-
-#### What the five cycles established, which a new session should not rediscover
-
-- **The reviewer brief matters more than the prompts.** A shared brief covering the standards, the
-  scripture rules, the blocked hosts and the eight repeating defects is what makes five parallel
-  reviewers useful. The last version is in the session scratchpad; **rebuild it from this section and
-  from the most recent "Resolutions applied" block if it is gone.**
-- **Roughly two thirds of every lesson's blocking findings are defects already fixed in an earlier
-  lesson of the same course.** Lesson 7 had thirteen of nineteen; lesson 8 had fourteen of twenty-one,
-  one of them fixed originally in lesson 1. Reviewers should be told this explicitly and pointed at
-  the previous "Resolutions applied" blocks, because those repeats are the highest-value catches.
-- **`minutes` has been understated by half to two thirds in every single lesson.** 50 to 130, 60 to
-  130, 50 to 105. Measure it component by component, including assigned Bible reading and video.
-- **The quiz block reads stiffer than the body** in six consecutive lessons. Measure contraction
-  density in both halves separately; the house band is about 1 in 42 to 1 in 52.
-- **Reviewers disagree, and the disagreements are informative.** Record both readings and say which
-  you took. At lesson 8, one reviewer reported the scripture clean and another reported nine version
-  survivals; both were right, because one checked the tagged quotations and the other checked every
-  quoted fragment. Missing `(NET)` tags are what hides that class of error.
-
-#### Environment constraint that shapes every cycle
-
-**Every scripture, patristic and reference host is 403 at the proxy**: labs.bible.org, netbible.org,
-biblegateway, sefaria, newadvent, ccel, tertullian, bible-researcher, papalencyclicals, wikisource,
-commons.wikimedia, youtube, oyc.yale.edu, archive.org, en.wikipedia. **So the `curl` recipe in
-standards 4.7 does not work, and four lessons in a row shipped a source note claiming a fetch that
-could not have happened.** What does work: `raw.githubusercontent.com` mirrors for the NET, JPS 1917
-and Brenton (URLs and the NET1/NET2 diagnostic are in `SOURCES.md`), plus web search for everything
-else, flagged as second-hand. Everything unreachable is listed per lesson under "Unverified in this
-environment" and is real fact-check debt.
-
-**If a session has browser or local-machine access, that debt is the highest-value thing to clear.**
-The largest items: F. F. Bruce, Kruger, McDonald and Ware are cited across the canon lessons and
-**none has ever been opened**; Fee & Stuart underpins the method in lessons 3 to 7 and is unverified;
-the Muratorian and Trent primary texts; and the Council of Florence decree, which lesson 8's Catholic
-case now turns on.
-
-Two other sessions were working the old queue in parallel. **How to Learn Anything is now fully
-podcasted: all eight episodes live** (episodes 3 to 8 in commits `732df94` through `c336470`).
-The fal balance was never topped up and never needed to be: the "Exhausted balance" lock was
-transient, John's dashboard showed $8.88 of credits with $1.12 of cycle usage, and the retry went
-straight through. About $1.74 spent on the six renders; roughly $7 of credits remain, enough for
-Bible Basics' episodes when it publishes.
-**Personal Finance got its Stage 2 re-outline and lesson 6** (see the changelog). That course is
-now paused at item 4 of the new queue with lessons 7 to 10 outlined and undrafted.
+*The live handoff is section 0d, above. This section is the accumulated craft knowledge: what a
+Stage 4 cycle costs, how to run one, what this drafter gets wrong repeatedly, and what the linter
+can and cannot catch. It is worth reading before you review a lesson. The course-by-course work
+orders that used to live here have been deleted: Logic and Argument and Bible Basics are both
+published, and their lesson-by-lesson history is in each course's `research/REVIEWS.md`.*
 
 ### Two things worth reusing, learned on lesson 6
 
@@ -313,7 +211,7 @@ so it blocks until they return (backgrounding them makes the orchestrator end it
 work); consolidates into REVIEWS.md with finding IDs; applies the fixes; appends "Resolutions
 applied" including what it chose not to fix and why.
 
-### Defects this drafter repeats, confirmed across nine lessons in two courses
+### Defects this drafter repeats, confirmed across seventeen lessons in two courses
 
 1. **Research gathered at Stage 1 and never used.** The largest category every time. Named textbooks
    uncited, verified passages unquoted, explicit SOURCES.md instructions dropped. Lesson 2 of Bible
@@ -339,7 +237,33 @@ applied" including what it chose not to fix and why.
 6. **Contested claims asserted as settled** in the direction that favours the course's position.
 7. **Voice tics**: "Here is" section openers, paragraphs ending on a compressed one-line moral,
    pipeline vocabulary in learner-facing headings ("worked example", "the mechanism", "Do it now").
-8. **`minutes` understating real load** by a third to two thirds. Measured every time so far.
+8. **`minutes` understating real load** by a third to two thirds. Measured every time so far, and
+   the 2026-09-08 pass found one out by a factor of three (lesson 12 claimed 45 minutes for a lesson
+   that asks the reader to read three whole books and write a fortnight's plan).
+9. **Quotations trimmed of the qualifier that carries the other side's case.** Added 2026-09-08 after
+   three instances in one session: Ehrman's "none of your cherished doctrines appears to be in real
+   danger" with "(at least the variations that we know about)" removed; Chicago's Article XIX quoted
+   for its first denial with the second, "nor can inerrancy be rejected without grave consequences",
+   dropped; the Society for Old Testament Study quoted for "too long to be a parable" while the
+   premise that opens its paragraph, "granted that the book is not a historical narrative", was left
+   out. **Each of these cut in the direction that helped the lesson's argument.** When you quote a
+   source that disagrees with the course, read the whole paragraph and quote its shape, not its
+   convenient half.
+10. **Positions described in the words of the people who oppose them**, usually because the only
+   sources in the file are the critiques. Bible Basics lesson 11 had three at once, one of them
+   attributed to a scholar who has published against the view it was attached to. The tell is a
+   footnote pointing at a book written *against* the position it is being used to describe. If the
+   research file has no primary statement of a view, either get one or say in the lesson that the
+   course has not read one; do not summarise from the opposition.
+11. **Charts that pass the validator by putting their attributes where it does not look.** Every
+   `font-size` on a `<g>` wrapper rather than on the `<text>` elements. Not deliberate, but the
+   effect was 24 illegible labels shipping clean. The checker now resolves inheritance, so this
+   specific route is closed; the general lesson is that a green `npm run validate` on a chart means
+   less than opening the page.
+12. **Assessments specified in `research/OUTLINE.md` and never written**, while a lesson refers to
+   them as though they exist. Bible Basics lesson 12 pointed at the course project in four places,
+   naming a book list and a format, and the file did not exist. Before publishing a course, open its
+   `assessments/` directory and its outline side by side.
 
 ### What the linter now catches, so reviewers need not
 
@@ -426,6 +350,15 @@ unless you need it):**
   The hosts are still John and Haley; their voices are now **John = Charon** (calm, professional
   male) and **Haley = Aoede** (warm female), set in `scripts/podcast.mjs`. Changing a host voice
   means re-rendering every episode, because the hosts have to sound the same across the institute.
+  **The `FAL_KEY` in `.env.local` still works and is what the script reads.** Cost so far on the new
+  engine: $2.96 to re-render the nine existing episodes, plus $0.32 for the first test render.
+- **AWAITING JOHN: are Charon and Aoede the right voices?** He was sent episode 1 of How to Learn
+  Anything to listen to on 2026-09-08 and has not said. The two voices were picked to match the old
+  male/female pairing, not chosen by him by ear the way the VibeVoice presets were. If he wants
+  different ones, it is about $3 and half an hour to re-render everything.
+- **What is owed: Logic and Argument's ten episodes**, and Bible Basics' remaining eleven. Twenty-one
+  of the fifty-one live lessons have audio. `node scripts/podcast.mjs plan <lesson>` reports where any
+  one stands; `/make-podcast <lesson>` runs the whole flow, one episode per session.
 - *(History, superseded)* **The engine was VibeVoice 7B on fal.ai.** John asked "are you sure?" and a fourth
   research pass (recorded in `docs/PODCAST_OPTIONS.md`) confirmed it; he then called it himself.
   His fal.ai account exists, has $10 of credits, and its API key lives in **`.env.local`**
