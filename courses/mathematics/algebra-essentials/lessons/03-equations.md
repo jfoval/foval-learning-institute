@@ -24,8 +24,7 @@ quiz:
       12` is twenty, so the two sides are the same size and the claim is true. Option A gives a
       value that fails its own check, which the option even shows, since eight and sixteen are
       not the same size; if your check comes out unequal, the answer is wrong and no amount of
-      confidence in the method changes that. Option B does the same thing with different
-      numbers. Option C solves a different equation.
+      confidence in the method changes that. Option B has the right value of x and an invented check, and it is the trap for anyone who solved correctly and then skimmed: both sides really are twenty. Option C solves a different equation.
   - q: >-
       A student expands `5(x - 3)` as `5x - 3` and gets an answer. How would you show them the
       expansion is wrong without quoting a rule at them?
@@ -42,10 +41,7 @@ quiz:
     explain: >-
       At `x = 4`, `5(x - 3)` is `5 × 1`, which is five, and `5x - 3` is `20 - 3`, which is
       seventeen. Five is not seventeen, so the two expressions are not the same thing, and no
-      rule had to be quoted. Option D is a warning about how to choose the test value: at `x =
-      3` the bracket gives zero and their version gives twelve, so they do not agree there
-      either, but the option asserts they do, and picking a value carelessly is how a check gets
-      wasted. Options B and C are both true statements of the rule, and the point of this
+      rule had to be quoted. Option D does the arithmetic and then reports the wrong result: at `x = 3` the bracket gives zero and their version gives twelve, so the check refutes them at that value too. The two expressions differ by twelve at every value of x, so no test value makes them agree. Options B and C are both true statements of the rule, and the point of this
       course's method is that you can settle it without needing to remember one.
   - q: >-
       Solve `8 - 5x = 23`. Watch the sign.
@@ -57,14 +53,13 @@ quiz:
       - >-
           `x = -3`, since taking eight off both sides gives minus five x equals fifteen
       - >-
-          `x = -3`, since eight minus twenty three is minus fifteen, then divide by five
+          `x = -3`, since minus five x is minus fifteen, then divide by positive five
     answer: 2
     explain: >-
       Take eight off both sides and the left becomes `-5x` while the right becomes fifteen. Then
       divide both sides by minus five: fifteen divided by minus five is minus three. Check by
       substituting: `8 - 5(-3)` is `8 + 15`, which is twenty three, because subtracting a
-      negative adds. Option D reaches the same answer by a route that mislabels the arithmetic,
-      and a right answer from a wrong route fails on the next question. Options A and B both
+      negative adds. Option D lands on the right value by dividing minus fifteen by positive five, which does not give minus three, so its route contradicts its own answer. Options A and B both
       drop the minus sign somewhere and land on positive three, which fails its own check: `8 -
       5(3)` is minus seven, not twenty three.
   - q: >-
@@ -141,9 +136,9 @@ Solving an equation means finding the value that makes the claim true. `3x + 5 =
 
 You want to end up with the letter alone on one side: `x = something`. That shape is an equation you can read the answer off.
 
-Every move you make is chosen to get closer to that shape, and every move is legal for exactly one reason: it does the same thing to both pans, so the claim survives. There is no second reason and there are no exceptions.
+Every move you make is chosen to get closer to that shape, and every move is legal for exactly one reason: it does the same thing to both pans, so the claim survives. There is no second reason.
 
-## Worked example one, every step annotated
+## Solving one, every step annotated
 
 Solve `3x + 5 = 20`.
 
@@ -161,9 +156,9 @@ Notice what the check does. It doesn't tell you that your method was good; it te
 Four. Route one: divide both sides by 2, giving `x + 3 = 7`, then take 3 off both sides, giving `x = 4`. Route two: expand the bracket first, giving `2x + 6 = 14`, then take 6 off both, then divide by 2. Both are legal because both do the same thing to both sides, and both arrive at the same place, which is a useful thing to notice: there is rarely one correct order. Check: `2(4 + 3)` is `2 × 7`, which is 14, and the right side is 14.
 :::
 
-## Worked example two: the hard shape
+## The harder shape: a bracket, both sides, and a negative
 
-Most real equations are messier than the first one in three ways at once: a bracket, the unknown on both sides, and a negative term. Here is all three.
+Most real equations are messier than the first one in three ways at once: a bracket, the unknown on both sides, and a negative term. All three at once:
 
 Solve `4(x - 2) = 2x + 6`.
 
@@ -183,13 +178,13 @@ Two things in that working are worth slowing down for.
 
 **Taking `2x` off both sides.** You can subtract an expression, not just a number. The balance does not care what the weight is made of, only that you removed the same weight from both pans.
 
-:::checkpoint Here is `5x - 3 = 2x + 9`, worked to the second to last line. Take `2x` off both sides to get `3x - 3 = 9`. Add 3 to both sides to get `3x = 12`. Finish it, and check your answer.
-Divide both sides by 3, so `x = 4`. Check: `5(4) - 3` is `20 - 3`, which is 17, and `2(4) + 9` is `8 + 9`, which is 17. Both sides are 17, so 4 is the solution. If you finished it without needing the check, do the check anyway; it takes ten seconds and it is the only part of this that cannot lie to you.
+:::checkpoint Below is `5x - 3 = 2x + 9`, worked to the second to last line. Take `2x` off both sides to get `3x - 3 = 9`. Add 3 to both sides to get `3x = 12`. Finish it, and check your answer.
+Divide both sides by 3, so `x = 4`. Check: `5(4) - 3` is `20 - 3`, which is 17, and `2(4) + 9` is `8 + 9`, which is 17. Both sides are 17, so 4 is the solution. If you finished it without needing the check, do the check anyway; it takes ten seconds and it is the step that cannot lie to you.
 :::
 
 ## The minus sign belongs to the term
 
-Here is the single most common source of wrong answers in this whole subject, and it is worth meeting directly rather than being warned about.
+The most common source of arithmetic slips in solving is a sign, and it is worth meeting directly rather than being warned about.[1]
 
 Look at `7 - 3x = 1`. It is tempting to see a 7 and a 3 and produce a 4. That is wrong, and the reason is that the minus sign is not an instruction sitting between two numbers; it belongs to the `3x`. The left side is "seven, plus negative three lots of x".
 
@@ -208,7 +203,7 @@ And notice the last division. Dividing both sides by a negative is legal like ev
 If you ever lose track of a sign, the check catches it immediately, which is the argument for checking every single time rather than only when you are unsure.
 
 :::predict Solve `9 - 2x = x - 3` before reading on, and check it.
-Four. Add `2x` to both sides: `9 = 3x - 3`. Add 3 to both sides: `12 = 3x`. Divide by 3: `4 = x`, which is the same claim as `x = 4`, since the sign means the two sides are the same size and does not care which way round they are written. Check: `9 - 2(4)` is `9 - 8`, which is 1, and `4 - 3` is 1. Both sides are 1. If you got minus four, you probably moved the `2x` without changing its sign, which is the commonest slip in this shape.
+Four. Add `2x` to both sides: `9 = 3x - 3`. Add 3 to both sides: `12 = 3x`. Divide by 3: `4 = x`, which is the same claim as `x = 4`, since the sign means the two sides are the same size and does not care which way round they are written. Check: `9 - 2(4)` is `9 - 8`, which is 1, and `4 - 3` is 1. Both sides are 1. If you got minus four, you probably combined the two x terms as `-3x` instead of `-x`, which is the commonest slip in this shape.
 :::
 
 ## Collecting like terms, which is why simplifying exists
@@ -234,16 +229,26 @@ The test, as always, is a number. Does `3x + 5x = 8x`? At `x = 2`: the left is `
 :::exercise Practice
 Solve each, then check by substituting your answer into the original equation. Do not skip the checks; they are the point.
 
-1. `4x - 7 = 13`
+1. A delivery costs a $7 fee taken off a $13 credit, giving `4x - 7 = 13`. Solve for the number of items `x`
 2. `5x - 8 = 3x + 2`
 3. `x/4 + 2 = 6`
 4. `3(2x - 1) = 15`
-5. `6 - x = 2x`
+5. A pizza is cut so that one share is twice another and the whole is six slices, giving `6 - x = 2x`. Solve it
 6. `2(x + 4) = 3x + 1`
 :::
 
 :::checkpoint Answers to the practice set, once you have done all six
-1. `x = 5`, since `4(5) - 7` is 13. 2. `x = 5`, since `5(5) - 8` is 17 and `3(5) + 2` is 17. 3. `x = 16`, since `16/4 + 2` is 6. 4. `x = 3`, since `3(2 × 3 - 1)` is `3 × 5`, which is 15. 5. `x = 2`, since `6 - 2` is 4 and `2 × 2` is 4. 6. `x = 7`, since `2(7 + 4)` is 22 and `3(7) + 1` is 22.
+1. `x = 5`, since `4(5) - 7` is 13.
+
+2. `x = 5`, since `5(5) - 8` is 17 and `3(5) + 2` is 17.
+
+3. `x = 16`, since `16/4 + 2` is 6.
+
+4. `x = 3`, since `3(2 × 3 - 1)` is `3 × 5`, which is 15.
+
+5. `x = 2`, since `6 - 2` is 4 and `2 × 2` is 4.
+
+6. `x = 7`, since `2(7 + 4)` is 22 and `3(7) + 1` is 22.
 :::
 
 ## Connections
@@ -255,6 +260,10 @@ Lesson 1's habit of substituting a number is what the check is, and it is also h
 Lesson 4 draws relationships as lines, and solving turns up there as finding where a line reaches a particular height.
 
 The lesson after that writes equations from sentences, which is the hard half of this subject: solving an equation you were handed is mechanical, and producing the right equation is where the thinking is.
+
+## Sources
+
+[1] The lesson's shape comes from John Sweller and Graham Cooper, "The use of worked examples as a substitute for problem solving in learning algebra", *Cognition and Instruction* 2(1), 1985. Across five experiments with study time held equal, learners who studied worked examples went on to solve similar problems in about half the time and with roughly a fifth of the errors. That is why every idea here arrives as a worked example first, then as one with the last step removed for you to supply, and only then as a problem.
 
 ## Go deeper
 

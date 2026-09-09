@@ -12,7 +12,7 @@ quiz:
       is the call-out fee?
     options:
       - >-
-          Five dollars a window and a six dollar fee, since forty six divided by eight
+          Five dollars a window and a six dollar fee, since five eights and six is forty six
       - >-
           Four dollars a window and a six dollar fee, since sixteen over four is four
       - >-
@@ -26,7 +26,7 @@ quiz:
       four dollars is thirty two, and the bill was forty six, so the fee is fourteen. Check the
       other point: twelve windows at four is forty eight, plus fourteen is sixty two. Both fit.
       Option B gets the rate right and then forgets to work the fee back from a real point.
-      Option A divides a total by a count, which mixes the fee into the rate. Option C reports
+      Option A fits the first bill exactly, since five eights plus six is forty six, and fails the second, since five twelves plus six is sixty six rather than sixty two. One point never settles a line. Option C reports
       the change in the bill as though it were the rate per window.
   - q: >-
       Two lines are drawn on the same axes. One has a slope of 3 and the other a slope of 30.
@@ -79,11 +79,11 @@ quiz:
       - >-
           Divide forty by 25.06, which gives about one and a half minutes of calls
       - >-
-          Multiply forty by 0.06 and add twenty five, giving twenty seven and a half
+          Multiply forty by 0.06 and add twenty five, giving twenty seven point four
       - >-
           Take twenty five off, then divide by 0.06, giving two hundred and fifty
       - >-
-          Take twenty five off, then multiply by 0.06, giving ninety pence of calls
+          Take twenty five off, then multiply by 0.06, giving ninety cents of calls
     answer: 2
     explain: >-
       Solving `25 + 0.06m = 40` is lesson three's method: take twenty five off both sides to get
@@ -141,7 +141,7 @@ Lesson 1 wrote the phone plan as `12 + 0.05m`. Lesson 3 solved equations like it
 
 ## Three ways of saying the same thing
 
-Take the taxi from lesson 1's practice: $3.50 to get in, $1.20 a mile. Here is that relationship written three ways.
+Take the taxi from lesson 1's practice: $3.50 to get in, $1.20 a mile. That relationship can be written three ways.
 
 **As a sentence.** The fare starts at three dollars fifty and grows by a dollar twenty for every mile.
 
@@ -158,25 +158,33 @@ Take the taxi from lesson 1's practice: $3.50 to get in, $1.20 a mile. Here is t
 
 These are not three topics. They are one relationship in three costumes, and being able to move between them is most of what this lesson is for. The table came from the equation by substituting, which is lesson 1. The graph below comes from the table by plotting.
 
-<svg viewBox="0 0 480 300" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:480px;display:block;margin:1.5em auto;font-family:system-ui,sans-serif" role="img" aria-labelledby="line-title line-desc">
+<svg viewBox="0 0 420 262" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:420px;display:block;margin:1.5em auto;font-family:system-ui,sans-serif" role="img" aria-labelledby="line-title line-desc">
   <title id="line-title">The taxi fare drawn as a straight line</title>
-  <desc id="line-desc">A straight line on axes of miles against fare. It starts at three dollars fifty when the distance is zero, and rises steadily to fifteen dollars fifty at ten miles. Two points are marked, at two miles and five dollars ninety, and at five miles and nine dollars fifty. The rise between them is three dollars sixty over three miles, which is a dollar twenty a mile.</desc>
-  <line x1="60" y1="40" x2="60" y2="230" stroke="var(--text-2, #4a5260)" stroke-width="1"/>
-  <line x1="60" y1="230" x2="440" y2="230" stroke="var(--text-2, #4a5260)" stroke-width="1"/>
-  <text x="52" y="235" font-size="15" text-anchor="end" fill="var(--text-2, #4a5260)">$0</text>
-  <text x="52" y="163" font-size="15" text-anchor="end" fill="var(--text-2, #4a5260)">$5</text>
-  <text x="52" y="96" font-size="15" text-anchor="end" fill="var(--text-2, #4a5260)">$10</text>
-  <text x="52" y="45" font-size="15" text-anchor="end" fill="var(--text-2, #4a5260)">$15</text>
-  <text x="60" y="252" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">0</text>
-  <text x="212" y="252" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">4</text>
-  <text x="364" y="252" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">8</text>
-  <text x="250" y="276" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">miles travelled</text>
-  <line x1="60" y1="183" x2="440" y2="21" stroke="var(--navy, #0f2a4a)" stroke-width="2.5"/>
-  <circle cx="60" cy="183" r="4" fill="var(--oxblood, #8b1e2d)"/>
-  <text x="72" y="200" font-size="15" font-weight="700" fill="var(--oxblood, #8b1e2d)">starts at $3.50</text>
-  <circle cx="136" cy="151" r="4" fill="var(--gold, #b08d2a)"/>
-  <circle cx="250" cy="102" r="4" fill="var(--gold, #b08d2a)"/>
-  <text x="264" y="96" font-size="15" font-weight="700" fill="var(--gold, #b08d2a)">$1.20 more per mile</text>
+  <desc id="line-desc">A straight line on axes of miles across and fare up. It starts at three dollars fifty when the distance is zero and rises steadily to fifteen dollars fifty at ten miles. Two points are marked, at two miles and five dollars ninety, and at five miles and nine dollars fifty. Between them the fare rises three dollars sixty over three miles, which is a dollar twenty a mile.</desc>
+  <line x1="55" y1="30" x2="55" y2="210" stroke="var(--text-2, #4a5260)" stroke-width="1"/>
+  <line x1="55" y1="210" x2="405" y2="210" stroke="var(--text-2, #4a5260)" stroke-width="1"/>
+  <line x1="50" y1="210" x2="55" y2="210" stroke="var(--text-2, #4a5260)" stroke-width="1"/>
+  <line x1="50" y1="154" x2="55" y2="154" stroke="var(--text-2, #4a5260)" stroke-width="1"/>
+  <line x1="50" y1="98" x2="55" y2="98" stroke="var(--text-2, #4a5260)" stroke-width="1"/>
+  <line x1="50" y1="41" x2="55" y2="41" stroke="var(--text-2, #4a5260)" stroke-width="1"/>
+  <text x="46" y="215" font-size="15" text-anchor="end" fill="var(--text-2, #4a5260)">$0</text>
+  <text x="46" y="159" font-size="15" text-anchor="end" fill="var(--text-2, #4a5260)">$5</text>
+  <text x="46" y="103" font-size="15" text-anchor="end" fill="var(--text-2, #4a5260)">$10</text>
+  <text x="46" y="46" font-size="15" text-anchor="end" fill="var(--text-2, #4a5260)">$15</text>
+  <line x1="124" y1="210" x2="124" y2="215" stroke="var(--text-2, #4a5260)" stroke-width="1"/>
+  <line x1="228" y1="210" x2="228" y2="215" stroke="var(--text-2, #4a5260)" stroke-width="1"/>
+  <line x1="400" y1="210" x2="400" y2="215" stroke="var(--text-2, #4a5260)" stroke-width="1"/>
+  <text x="55" y="232" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">0</text>
+  <text x="124" y="232" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">2</text>
+  <text x="228" y="232" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">5</text>
+  <text x="400" y="232" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">10</text>
+  <text x="228" y="256" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">miles travelled</text>
+  <line x1="55" y1="171" x2="400" y2="36" stroke="var(--navy, #0f2a4a)" stroke-width="2.5"/>
+  <circle cx="55" cy="171" r="4" fill="var(--oxblood, #8b1e2d)"/>
+  <text x="66" y="192" font-size="15" font-weight="700" fill="var(--oxblood, #8b1e2d)">starts at $3.50</text>
+  <circle cx="124" cy="144" r="4" fill="var(--gold, #b08d2a)"/>
+  <circle cx="228" cy="103" r="4" fill="var(--gold, #b08d2a)"/>
+  <text x="150" y="62" font-size="15" font-weight="700" fill="var(--oxblood, #8b1e2d)">$1.20 more per mile</text>
 </svg>
 
 ## What the two numbers are
@@ -213,7 +221,7 @@ Which is the number that was in the equation all along. Any two points on the li
 `total = 20 + 5w`, where `w` is the number of weeks. At week zero the line is at a height of 20, since that is the money already there. It climbs by 5 dollars per week, so it is five times steeper than a line rising a dollar a week. Notice how little of this is about algebra: the equation is a way of writing down something you could have said in a sentence, and the graph is a way of seeing it.
 :::
 
-## Building a line from a situation, worked
+## Building a line from a situation
 
 **The situation.** A printer costs $180 to buy, and each page costs 4 cents to print.
 
@@ -240,6 +248,17 @@ So at three and a half thousand pages the two printers cost the same, and below 
 The first is `180 + 0.04 × 3500`, which is `180 + 140`, so $320. The second is `40 + 0.08 × 3500`, which is `40 + 280`, so $320 as well. The two agree, so 3,500 is right. This is the same substitution check from lesson 3, and it is worth noticing that it works identically here even though the question arrived as a shopping decision rather than as an equation.
 :::
 
+:::checkpoint A second taxi firm charges $2.80 to get in and $1.40 a mile. Here is its table, and the equation worked to the last line. The fixed part is 2.80. The rate is 1.40 per mile. So the fare is `2.80 + ` something. Finish the equation, then use it to find the fare for five miles.
+
+| Miles | Fare |
+| --- | --- |
+| 0 | $2.80 |
+| 2 | $5.60 |
+| 10 | $16.80 |
+
+`fare = 2.80 + 1.40d`, and at five miles that is `2.80 + 7.00`, which is $9.80. Notice that this firm is cheaper than the first one for short trips, because its flag charge is lower, and dearer for long ones, because its rate is higher. The two lines cross somewhere, and finding where is exactly the printer question below.
+:::
+
 ## What people get wrong
 
 **Reading a slope without its units.** A slope of 1.20 means nothing until you say dollars per mile. Steeper does not mean bigger unless the two lines measure the same things.
@@ -257,10 +276,23 @@ The first is `180 + 0.04 × 3500`, which is `180 + 140`, so $320. The second is 
 4. A phone plan is `y = 15 + 0.02m`. How many minutes make the bill $25?
 5. Two plans: plan A is `20 + 0.10m`, plan B is `35 + 0.04m`. At how many minutes do they cost the same?
 6. A slope is 4. Say what it means if the axes are hours and dollars, and what it means if they are miles and litres.
+7. Sketch `y = 6 + 2x` for `x` from 0 to 5. Mark the starting value on your sketch, and mark one step of the slope.
 :::
 
 :::checkpoint Answers to the practice set, once you have done all six
-1. `30 + 22m`, and at six months `30 + 132`, which is $162. 2. Starting value 8, rate 3. 3. Slope is `(45 - 20) / 5`, which is 5, and the equation is `y = 20 + 5x`. 4. Take 15 off both sides to get `10 = 0.02m`, then divide, so 500 minutes. Check: `15 + 0.02 × 500` is 25. 5. Set them equal: `20 + 0.10m = 35 + 0.04m`, so `0.06m = 15`, so `m = 250`. Check: A gives `20 + 25`, which is 45, and B gives `35 + 10`, which is 45. 6. Four dollars per hour in the first case, and four litres per mile in the second, which would be an extraordinarily thirsty vehicle. The number is the same and the meaning comes entirely from the units.
+1. `30 + 22m`, and at six months `30 + 132`, which is $162.
+
+2. Starting value 8, rate 3.
+
+3. Slope is `(45 - 20) / 5`, which is 5, and the equation is `y = 20 + 5x`.
+
+4. Take 15 off both sides to get `10 = 0.02m`, then divide, so 500 minutes. Check: `15 + 0.02 × 500` is 25.
+
+5. Set them equal: `20 + 0.10m = 35 + 0.04m`, so `0.06m = 15`, so `m = 250`. Check: A gives `20 + 25`, which is 45, and B gives `35 + 10`, which is 45.
+
+6. Four dollars per hour in the first case, and four litres per mile in the second, which would be an extraordinarily thirsty vehicle. The number is the same and the meaning comes entirely from the units.
+
+7. It starts at a height of 6 and climbs 2 for every 1 across, so it passes through (0, 6), (1, 8) and (5, 16).
 :::
 
 ## Connections
