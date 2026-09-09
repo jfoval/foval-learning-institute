@@ -462,3 +462,123 @@ example of statistical reading in the whole course.
 - **Nothing here supports advice on whether a specific person should carry a given policy.** The
   lesson teaches the can-I-absorb-this test and the vocabulary, and points at the state insurance
   regulator for anything binding.
+
+## Housing: research added 2026-09-09 for lesson 9
+
+*Stage 1 on the gap, written before drafting. Housing is a 3.4 domain and the outline makes the
+neutrality audit mandatory, so lesson 9 is Tier B. Everything below was verified live on 2026-09-09.*
+
+### What owning actually returns, which is the fact the whole argument turns on
+
+- **Lyons, Shertzer, Gray & Agorastos, "The Price of Housing in the United States, 1890 to 2006"**,
+  Federal Reserve Bank of Philadelphia Working Paper 24-12, June 2024, revised October 2025 (free
+  PDF, philadelphiafed.org). **The best single source in this file, because it settles a question
+  both sides of the popular argument get wrong.** From its own summary: across 1890 to 2006 the
+  average annual **real** housing return was **8.6%**, of which **gross rental returns were 7.3% and
+  capital gains just 1.3%**; capital gains were "close to zero until the 1940s, after which they
+  averaged close to 2%"; and adjusting for inflation, "stock prices in 2006 were over ten times their
+  1890 level, while housing prices had increased by a factor of just under four". On total real
+  return the paper finds **9% for housing against 11.5% for equities, with equity volatility three
+  times larger (17.6% against 5.4%)**.
+  - **Three things this kills at once.** "Houses always go up" (real capital gains are small and were
+    near zero for fifty years). "Housing is a terrible investment compared with stocks" (total
+    returns are close, and the volatility is far lower). And the naive version of the Shiller line,
+    since this paper finds roughly twice the real growth Shiller's index shows for 1890 to 2006, with
+    the difference concentrated in 1950 to 1980.
+  - **The trap to avoid.** Most of that 8.6% is **rental return**, the value of the housing services
+    the property throws off. An owner-occupier consumes that return rather than banking it, so a
+    lesson that quotes 8.6% as what a homeowner earns has made exactly the mistake the lesson exists
+    to correct. Quote the decomposition, never the headline alone.
+  - The paper confirms Jordà et al. (2019), "The Rate of Return on Everything", which is the standard
+    citation for housing and equities having comparable long-run returns.
+
+### Price-to-rent, and why it is a signal rather than an answer
+
+- **Loewenstein & Willen, "House Prices and Rents in the 21st Century"**, NBER Working Paper 31013,
+  March 2023 (free PDF; authors at the Cleveland and Boston Feds). Findings the lesson can use:
+  real house prices rose 60% from 2000 to 2005, fell almost 60%, then rebounded to more than 100%
+  above the 2000 level, against a previous quarter-century in which they never moved more than 20%
+  from their 1975 base. On the ratio itself, the honest caution is the FOMC's own in June 2005,
+  quoted in the paper: prices "might be somewhat above the levels consistent with the underlying
+  factors, but measuring the extent of any overvaluation either nationally or in regional markets
+  posed considerable conceptual and statistical difficulties". The paper adds that **the relationship
+  between interest rates and the price-rent ratio is unstable** in their data, and that a rise in the
+  ratio is a **necessary condition for an expectations-driven boom**, which is why they read 2005 as
+  expectations and 2021 as a preference shock (in 2021 almost all the growth came from rents rather
+  than from the ratio).
+  - **Classification: the framework is established, the interpretation is contested.** Teach the
+    ratio as a comparison you can compute for your own city and a reason to look harder, not as a
+    verdict. Never say a ratio above some number means a market is overvalued.
+
+### Transaction costs, which is what creates a break-even at all
+
+- **National Association of Realtors, "What the NAR settlement means for home buyers and sellers"**
+  (nar.realtor). The rule changes effective **17 August 2024**: offers of compensation "are no longer
+  allowed on Multiple Listing Service (MLS) platforms"; a buyer must sign a written agreement with
+  their agent before touring an MLS-listed home, carrying "a specific and conspicuous disclosure of
+  the amount or rate of compensation", an objective figure rather than an open-ended one, and "a
+  conspicuous statement that broker fees and commissions are fully negotiable and not set by law".
+  **NAR is a party to the settlement, so cite it for the mechanics and not for the effects.**
+- **On what commissions actually are now**, no free primary source was found. Clever Real Estate's
+  agent survey (February 2026) puts the national average total at **5.70%**, about 2.88% to the
+  listing agent and 2.82% to the buyer's agent, and reports buyer-agent commissions **rising** since
+  the settlement rather than falling. It is a commercial survey by a company that sells discount
+  brokerage, so **name it as such and use it as an order of magnitude**, not as a fact. The
+  defensible teaching claim is the one NAR's own page states: commissions are negotiable and are not
+  set by law, and the lesson's arithmetic should let the reader put in their own figure.
+
+### The costs that do not appear on a mortgage statement
+
+- **CFPB on private mortgage insurance** (consumerfinance.gov/ask-cfpb): PMI "is a type of mortgage
+  insurance you might be required to buy if you take out a conventional loan with a down payment of
+  less than 20 percent of the purchase price", it "protects the lender, not the borrower", and the
+  removal rules are exact and worth teaching because most people do not know them: **you may request
+  cancellation at 80% of original value, the servicer must terminate automatically at 78%, and it
+  must end at the midpoint of the amortisation schedule regardless.** This is the honest answer to
+  "you need 20% down": less than 20% means insurance and usually a worse rate, not refusal, and the
+  insurance has a defined end.
+- **Harvard Joint Center for Housing Studies**, *Improving America's Housing* and the LIRA
+  (jchs.harvard.edu). Homeowners spent an average of **$7,100 on improvements and repairs in 2023**,
+  ranging from **$3,100** in the bottom income fifth to **$10,900** in the top. **Note what this is
+  and is not:** it mixes discretionary improvement with necessary repair, and it is what owners spend
+  rather than what a house requires. The popular "1% of value a year" maintenance rule has no
+  evidence behind it that this file could find; use the JCHS figure, say what it includes, and let
+  the reader put their own number in.
+- **Freddie Mac's Primary Mortgage Market Survey** (freddiemac.com/pmms) for the current 30-year
+  rate, and the **Census Bureau's American Community Survey** or the Tax Foundation's property-tax
+  tables for local property tax rates. Both change constantly; link them and quote nothing.
+
+### How long people actually stay, which decides whether the break-even matters
+
+- **Redfin's analysis of county records** puts **median homeowner tenure at 12 years in 2025**, up
+  from 11.8 in 2024, against about **6.5 years in 2005**, with wide variation by metro (about 20
+  years in Los Angeles, shortest in cheaper metros). Commercial source, transparent method, name it.
+  **This cuts against the lesson's own instincts and must be in it:** the typical owner holds long
+  enough to clear a typical break-even, so a lesson that leaves the reader thinking renting usually
+  wins has mis-taught the arithmetic it just presented.
+
+### Contested questions, and the positions on each
+
+- **Does buying build wealth?** Position A: yes, and the mechanism is forced saving plus leverage;
+  a mortgage payment is a savings plan a person will actually keep, and the leverage means a modest
+  real appreciation on the whole house accrues on a small down payment. Position B: mostly no, once
+  you subtract the unrecoverable costs (interest, tax, insurance, maintenance, transaction costs) and
+  the forgone return on the down payment, and what looks like wealth is largely the forced saving,
+  which a renter could replicate with a standing order. **What both accept:** the Philadelphia Fed
+  decomposition above, and that homeowners have far higher median net worth than renters, which is
+  a comparison confounded by who becomes an owner. **Classification: contested empirical with a
+  selection problem at its heart.**
+- **Is the price-to-rent ratio informative?** Covered above.
+- **Housing affordability policy** (zoning, supply, subsidy, the mortgage interest deduction) is a
+  live political argument and **the lesson takes no position**, per the outline's neutrality note. It
+  may name that the argument exists and stop there.
+
+### Open concerns for lesson 9
+
+- **US-specific**: 30-year fixed mortgages, PMI, property tax structures and the deductibility of
+  mortgage interest are all US arrangements, and the 30-year fixed rate barely exists elsewhere. Say
+  so in the first hundred words, as lessons 6 to 8 do.
+- **Do not quote a mortgage rate, a house price or a commission percentage as a current fact.** All
+  three move, and the arithmetic should be built so the reader substitutes their own.
+- **No free primary source was found for post-settlement commission levels.** Do not assert that
+  commissions have fallen or risen.
