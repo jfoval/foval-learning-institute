@@ -33,6 +33,15 @@ text); Gooding et al. (2021) (abstract only).
   source in its own section below.
 - **Zinsser, *On Writing Well*; Pinker, *The Sense of Style*.** Both belong in a complete treatment and
   neither has been opened. Do not characterise either from its blurb.
+- **Bransford and Johnson (1972), "Contextual prerequisites for understanding," the washing-clothes
+  passage.** The canonical experiment for Gopen and Swan's principle 6, that context must come before
+  the thing it contextualises: a paragraph is near-incomprehensible without its title and easy with it.
+  **Both freely posted copies are scanned images with no extractable text**, so the design and the
+  direction of the result are known here only from secondary summaries and the numbers are not.
+  **Lesson 2 therefore demonstrates the effect rather than citing the study**, using a passage written
+  for this course that the reader meets unlabelled and then labelled. That is better teaching anyway,
+  since the reader feels it happen. If someone later opens the paper, the citation can be added; until
+  then no figure from it appears anywhere in the course.
 
 ## Primary sources
 

@@ -1,6 +1,6 @@
 ---
 title: What actually happens when someone reads you
-minutes: 55
+minutes: 40
 objectives:
   - State roughly how much of a page a reader has time for, and say where that number comes from and where it does not apply
   - Identify who a particular document is really for, and what they came to it needing
@@ -92,7 +92,7 @@ One line is the time a reader would **need** in order to read every word, at 250
 <line x1="60" y1="290" x2="540" y2="50" stroke="var(--oxblood, #8b1e2d)" stroke-width="2.5"/>
 <line x1="60" y1="269" x2="540" y2="225" stroke="var(--navy, #0f2a4a)" stroke-width="2.5"/>
 <circle cx="111" cy="264" r="5" fill="var(--gold, #b08d2a)" stroke="var(--text, #1a1a1a)" stroke-width="1.5"/>
-<text x="122" y="258" font-size="15" fill="var(--text, #1a1a1a)">they cross at about 130 words</text>
+<text x="122" y="248" font-size="15" fill="var(--text, #1a1a1a)">they cross at about 130 words</text>
 <text x="300" y="100" font-size="15" font-weight="600" fill="var(--oxblood, #8b1e2d)">seconds needed to read it all</text>
 <text x="300" y="215" font-size="15" font-weight="600" fill="var(--navy, #0f2a4a)">seconds the reader gives</text>
 <text x="60" y="310" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">0</text>
