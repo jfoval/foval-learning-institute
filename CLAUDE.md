@@ -26,8 +26,8 @@ Foval Learning Institute is a free, open, general-education online university. C
 
 ## Rules
 1. Never draft a lesson without the course's `research/SOURCES.md` in context. If it doesn't exist, run Stage 1 first.
-2. One lesson per drafting session. Do not batch-generate lessons.
-3. Reviews run in fresh-context subagents, never in the same context as the draft.
+2. One lesson per drafting session on a prose course. Do not batch-generate lessons. On a procedural course whose lessons are short and mechanical (programming, arithmetic, algebra), two per session is allowed.
+3. Reviews run in fresh-context subagents, never in the same context as the draft. Stage 4 is tiered: one reviewer by default, five in parallel only for sensitive domains, standpoint courses, and lessons sent back for heavy rewriting. See `docs/CONTENT_PIPELINE.md`. A pre-pipeline stub is replaced, never reviewed.
 4. Every lesson change: run `npm run validate` before committing. Run `npm run build` and commit `site/data/courses.js` when publishing.
 4b. Every course on the map carries a placement decision in the `Path` column of `curriculum/TAXONOMY.md`: a term (`T1` to `T8`) if it belongs on the Foval Core, or `elective` if it does not. Adding a course to the map means making that call in the same edit, following "Placing a course on the Core" in TAXONOMY.md, and adding it to `curriculum/core-path.yaml` when it is on the Core. `npm run validate` fails on a blank cell or on the two files disagreeing. The numbered term list in TAXONOMY.md is generated: `npm run path -- --write`, never by hand.
 5. When a course's status changes, update both `course.yaml` and its row in `curriculum/TAXONOMY.md`. Statuses are planned → research → drafting → published. There is no "review" state and no owner sign-off gate: a course goes live when its lessons have passed Stage 4 and the voice pass, and improves afterwards through the feedback loop. The build includes only `status: published` courses. Never hold a course for the owner to review.

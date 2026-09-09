@@ -52,13 +52,16 @@ From SOURCES.md, produce `research/OUTLINE.md`: the lesson sequence, each with o
 Draft **one lesson**, with SOURCES.md, OUTLINE.md, EDITORIAL_STANDARDS.md, and the previous lesson in context. One lesson per session keeps the model's attention on depth. Output: `lessons/NN-slug.md`. Run `npm run validate` after each.
 
 ### Stage 4: Review — `/review-lesson <path> <n>`
-Four independent review passes, each run as a subagent with fresh context so it is not anchored on the draft's own framing:
-1. **Depth review** against Part 1 of the standards. Names every generic passage.
-2. **Fact-check** against Part 2. Verifies every checkable claim against a source, using web fetch. Lists errors.
-3. **Neutrality audit** against Part 3. Mandatory for sensitive domains. Lists misclassified claims, failed Turing tests, loaded language, omitted perspectives.
-4. **Pedagogy review** against Part 4. Checks objectives, examples, exercises, quiz quality.
+Review in a **fresh context**, so the reviewer is not anchored on the draft's own framing. The review is tiered, because reviewing every lesson as though it were a contested one is how this pipeline got expensive:
 
-Findings are appended to `research/REVIEWS.md`. Then the fixes are applied. Then review again until clean. A lesson that needed heavy rewriting gets a second full review.
+- **Tier A, one reviewer, the default.** One subagent runs all the applicable passes in its own fresh context. Measured at roughly 100k tokens a lesson, and on the lesson where both were run it found everything the five-agent version found, because the passes share the reading.
+- **Tier B, one reviewer per pass in parallel.** Reserved for sensitive domains (standards 3.4), standpoint courses, and any lesson a Tier A pass sent back for heavy rewriting. Roughly 600k to 900k tokens a lesson. Worth it there and nowhere else.
+
+The passes are depth (Part 1), fact-check (Part 2), neutrality (Part 3), pedagogy (Part 4), and voice and media (the style guide and 4.5). **The neutrality pass is skipped, with a line in REVIEWS.md saying so, on a lesson with no contested or value claims in it.** On a procedural course the fact-check is executed rather than fetched: run the code, work the arithmetic.
+
+**A stub is replaced, not reviewed.** A pre-pipeline placeholder of a few hundred words costs as much to review as a real lesson and returns nothing. Run Stage 1 and Stage 2 on the course and draft it fresh.
+
+Findings go to `research/REVIEWS.md` with IDs, the fixes are applied, and a "Resolutions applied" note records what was deliberately not fixed. A second full pass runs only when the first found wrong facts, a failed neutrality check, or a third of the lesson generic. Not out of caution.
 
 ### Stage 5: Publish
 When every lesson has passed Stage 4 and the voice pass, set `status: published`, run `npm run build`, commit, push. GitHub Pages deploys. There is no separate sign-off gate: the owner reads courses as a learner, and that reading, together with everyone else's feedback, is Stage 7.
@@ -80,7 +83,7 @@ This is how lessons get better after they're live, and it never ends. Learner fe
 
 ## Working practices that protect quality
 
-- **One lesson per drafting session.** Never "write all 8 lessons". Quality collapses after the second.
+- **One lesson per drafting session on a prose course.** Never "write all 8 lessons". Quality collapses after the second. On a procedural course whose lessons are short and mechanical (programming, arithmetic, algebra), two per session is fine and has been measured as no worse; the depth in those lessons lives in the worked examples and the exercises, not in sustained argument.
 - **Research file in context, always.** If SOURCES.md is not loaded, the draft is being written from vibes.
 - **Fresh eyes for review.** Reviews run in subagents or new sessions. A model reviewing its own draft in the same context is far too kind to it.
 - **Adversarial fact-check.** The fact-checker's prompt says "assume there are errors; find them."

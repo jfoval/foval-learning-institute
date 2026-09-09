@@ -12,65 +12,120 @@ Merge when `npm run validate` exits 0 and anything visual has been checked in bo
 and desktop width. `git pull --rebase origin main` first: content sessions push there too, and on
 2026-09-06 two of them did while a third was mid-merge.
 
-## 0b. THE MARCHING ORDER (reset by John, 2026-09-06, second revision). Work this queue top to bottom.
+## 0b. THE MARCHING ORDER (reset by John, 2026-09-08, third revision). Work this queue top to bottom.
 
-**This replaces the earlier marching order.** John reset the priority mid-session after asking a
-question the old queue could not answer: *"why are you working on personal finance? Are all the
-live courses up to par and done? Weren't the logic and Christian studies courses close to being
-done already?"* The old queue had the four placeholder courses at item 3, ahead of the two drafted
-courses at items 4 and 5. That ordering was wrong, and here is the reason in one line:
+**This replaces the second revision.** John looked at the site and said the quiet part: Bible Basics
+and Logic and Argument are solid and were worth what they cost, and *"outside of that the other live
+courses I think they need significant improvement. Like writing clearly is kinda a joke. super low
+quality and not much of anything honestly."* He is right, and the numbers say exactly how right:
 
-> **Bible Basics and Logic and Argument are 22 written lessons that no learner can see.** Personal
-> Finance was already live. Improving a live course ranks below publishing a finished one.
+> Bible Basics averages **13,160 words a lesson**. Logic and Argument averages **9,380**. Clear
+> Writing averages **452**, Algebra **444**, Python **464**. Those three courses are not weak
+> lessons. They are placeholders that have been live for months with a `minutes: 20` label on
+> 400 words of blog post.
 
-So the queue is now:
+Three things John assumed still needed doing are already done, and the queue is shorter for it:
 
-1. ~~**Logic and Argument to `status: published`.**~~ **DONE 2026-09-07.** Ten lessons, a
-   twenty-item final test and the project, published and live. The work order that was in this
-   section is closed; what remains on this course is its ten podcast episodes, which sit at item 5
-   as the standing background task. The lesson-by-lesson history is in `research/REVIEWS.md` and
-   `research/HANDOFF.md`.
-2. ~~**Bible Basics to `status: published`.**~~ **DONE 2026-09-08.** Twelve lessons through Stage 4,
-   both assessments written, published and live.
-3. **The three untouched placeholder courses** (Python Basics, Algebra Essentials, Clear Writing).
-   Live, never through the pipeline, and the honest weak point of the site. Same treatment
-   Personal Finance got: Stage 1 research, then Stage 4 lesson by lesson, then voice, media,
-   podcasts. Personal Finance came off this list on 2026-09-06.
-4. **Personal Finance lessons 7 to 10** and its assessments, per `research/OUTLINE.md`. Paused
-   mid-course on purpose; lesson 6 shipped, 7 to 10 are outlined and not drafted.
-5. **Podcasts** for whatever is published, one episode per session, as a standing background task.
-   **This is where John's attention is right now** (2026-09-08: "i'm anxious to get more courses done
-   and more podcasts made"), and Logic and Argument's ten episodes are the concrete backlog. Note the
-   engine changed on 2026-09-08; see 0d.
-6. **Queue empty: stop.** John starts the next Foval Core course in its own session.
+- **Re-rendering the old podcasts on Gemini is done.** All nine episodes that existed were
+  re-rendered on `fal-ai/gemini-3.1-flash-tts` and re-uploaded over the same R2 keys on 2026-09-08.
+  Nothing is owed there. The hosts are John (Charon) and Haley (Aoede) and they are the same voices
+  everywhere. **The one open question is whether those two voices are the right ones** (see 0d).
+- **The Foval Core is already laid out.** 52 courses across 8 terms, in `curriculum/core-path.yaml`,
+  generated into TAXONOMY.md, rendered on the site, and enforced by `npm run validate`, which fails
+  if a course has no term placement or if the two files disagree. Every one of the ~174 courses on
+  the map carries a `T1`-`T8` or `elective` decision. This is not a future job.
+- **How to Learn Anything is finished.** Eight lessons through Stage 4, two assessments, eight
+  podcast episodes. It is not one of the weak courses.
 
-Constraints that shape the pace: a Stage 4 cycle on one lesson runs 100k to 250k subagent tokens,
-two parallel sessions is the ceiling, and a platform session must not touch `courses/` or
-`curriculum/`.
+So the queue is:
+
+1. **The honesty pass. One session, cheap, do it first.** Nothing here needs research, and all of it
+   is currently a small lie to a learner. Fix `minutes:` across all 51 lessons (understated in every
+   lesson measured so far, one by a factor of three, and wildly overstated on the three stub
+   courses). Swap Bible Basics' hotlinked full-size Wikimedia originals for the `/thumb/.../960px-`
+   form, one of which is 6.7 MB and is a rule 9 problem. Fix lesson 1's four sub-legible SVG labels
+   and the two `--line-strong`/`--navy` token collisions the validator warns about in lessons 7 and
+   8. See "Open items Bible Basics left behind" below for the detail.
+
+2. **Clear Writing, rebuilt.** T1 on the Core, four stub lessons, and the course about writing well
+   is the worst-written thing on the site. That is the one that costs credibility. **It is a rebuild,
+   not an improvement**: Stage 1 research, Stage 2 outline, then draft fresh to about nine lessons.
+   Do not run Stage 4 on the existing stubs; replacing them is cheaper than reviewing them.
+
+3. **Personal Finance lessons 7 to 10, plus its two assessments.** The cheapest completion on the
+   board, because Stage 1 and Stage 2 are already done: `research/OUTLINE.md` specifies all four
+   lessons, the test blueprint and the project in detail, and `assessments/` does not exist yet.
+   Lesson 6 is the last one drafted. Finishing this puts four of Term 1's six courses at standard.
+
+4. **Algebra Essentials, rebuilt.** T2, five stubs. Procedural course: two lessons a session is
+   allowed, the fact-check is executed rather than fetched, and the neutrality pass is skipped with
+   a line in REVIEWS.md saying why.
+
+5. **Python Basics, rebuilt.** T2, six stubs. Same treatment as Algebra.
+
+6. **Then down the Core path in order.** Term 1's remaining two courses are Reading Well
+   (`foundations`) and Using AI Effectively (`computer-science-and-ai`), both `planned` with no
+   folder. Term 2's remaining three are Number Sense, Statistics for Citizens and The Scientific
+   Method. Start each with `/new-course`.
+
+**Podcasts run alongside, not after.** They are a separate track because they are cheap, independent
+and settled: see item 5 below and section 6. The rule that governs them is that **a lesson gets its
+episode only once its content has settled**, so the twenty-one owed episodes are Logic's ten and
+Bible Basics' eleven, and the stub courses get theirs after they are rebuilt, never before. Paying
+$0.40 to narrate a 400-word placeholder that is about to be deleted is paying twice.
+
+### Stage 4 was overkill and has been cut. Read this before you review anything.
+
+John asked directly whether there were review steps that were overkill for moving forward. There
+were, and this is what changed on 2026-09-08 (in `.claude/commands/review-lesson.md`,
+`docs/CONTENT_PIPELINE.md`, and `CLAUDE.md` rules 2 and 3):
+
+- **Stage 4 is now one reviewer by default, not five.** This was already known and never acted on:
+  section 1 of this file has recorded since lesson 6 that one subagent doing all five passes in its
+  own fresh context ran about **100k tokens** and found everything the five-agent version found on
+  the same lesson. The five-agent shape costs **600k to 900k**. It is now Tier B, reserved for
+  sensitive domains under standards 3.4, standpoint courses, and any lesson a Tier A review sent
+  back for heavy rewriting. Bible Basics is Tier B. Python is not.
+- **The neutrality pass is skipped on lessons with no contested claims**, with one line in REVIEWS.md
+  recording the call. Auditing "solve for x" for ideological balance is money spent on nothing.
+- **On procedural courses the fact-check is executed, not fetched.** Run the code, work the
+  arithmetic. Do not send an agent to the web to confirm that a `for` loop iterates.
+- **The second full review pass is no longer the default.** It runs only when the first found wrong
+  facts, a failed neutrality check, or a third of the lesson generic. Not out of caution.
+- **A stub is replaced, not reviewed.** Reviewing 400 words costs what reviewing 8,000 costs.
+- **Two lessons a session is allowed on procedural courses.** Rule 2's one-lesson limit exists
+  because sustained argument degrades after the second lesson in a context. A lesson on Python lists
+  carries its depth in worked examples and exercises, not in sustained argument.
+
+What is **not** cut, because each of these caught something real that nothing else would have: the
+fresh context (a model reviewing its own draft in its own context is far too kind to it); the
+adversarial framing of the fact-check; the en-dash and em-dash sweep; reading every SVG by eye,
+since five separate routes past the validator's SVG checks have been found; measuring quiz option
+shapes rather than eyeballing them; and the full five-agent Tier B on anything contested.
+
+Rough effect on the remaining content: about 33 lessons to draft and review across the three
+rebuilds and Personal Finance. At the old shape that is roughly 25M subagent tokens. At the new one,
+with Tier B only where it is earned, it is closer to 5M.
 
 ### The status table, which is the answer to "is everything up to par"
 
-Keep this current. It took a direct question from John to notice that no such table existed
-anywhere, and that is why the old queue survived as long as it did.
+Keep this current.
 
-| Course | Status | Lessons | Through Stage 4 | Assessments | Podcasts |
-|---|---|---|---|---|---|
-| How to Learn Anything | live | 8 | 8 | 2 | **8 of 8 live** |
-| Logic and Argument | live | 10 | **10** | **2** | **none: this is the next job** |
-| Bible Basics | **live** | 12 | **12** | **2** | 1 of 12 (lesson 2) |
-| Personal Finance | live | 6 | 6 | 0 | none |
-| Python Basics | live | 6 | **0** | 0 | none |
-| Algebra Essentials | live | 5 | **0** | 0 | none |
-| Clear Writing | live | 4 | **0** | 0 | none |
+| Course | Term | Status | Lessons | Avg words | Through Stage 4 | Assessments | Podcasts |
+|---|---|---|---|---|---|---|---|
+| How to Learn Anything | T1 | live, **at standard** | 8 | 7,220 | 8 | 2 | **8 of 8** |
+| Logic and Argument | T1 | live, **at standard** | 10 | 9,380 | 10 | 2 | **0 of 10 (owed)** |
+| Bible Basics | T3 | live, **at standard** | 12 | 13,160 | 12 | 2 | 1 of 12 (**11 owed**) |
+| Personal Finance | T1 | live, **half built** | 6 of 10 | 5,430 | 6 | **0 of 2** | none |
+| Clear Writing | T1 | live, **stub** | 4 | **452** | 0 | 0 | none |
+| Algebra Essentials | T2 | live, **stub** | 5 | **444** | 0 | 0 | none |
+| Python Basics | T2 | live, **stub** | 6 | **464** | 0 | 0 | none |
 
-*Updated 2026-09-08.* Bible Basics went 8 to 12 and published in one session; its assessments were
-written from the spec in `research/OUTLINE.md`, which had been sitting there unbuilt while lesson 12
-referred to the project in four places as though it existed. **Every course on the site is now live,
-and the three placeholder courses are the only ones that have never been through the pipeline.**
-Twenty-one of the fifty-one lessons on the site now have a podcast episode; all nine that existed
-were re-rendered on the new engine on 2026-09-08.
+*Updated 2026-09-08.* Fifty-one lessons live, nine with audio. The three stub courses are 15 of
+those 51 lessons and 2 percent of the site's words. Every one of them is a Core course, which is why
+they are queue items 2, 4 and 5 rather than something to get to eventually.
 
-### A process rule, because this session broke it
+### A process rule, because a session broke it
 
 `CLAUDE.md` says to keep `docs/BACKLOG.md` current. On 2026-09-06 a session shipped four commits
 without touching it, and John had to point that out. **Update the backlog in the same commit as
@@ -111,70 +166,62 @@ not open a branch for lesson work. The branch is what let two sessions diverge f
 nine hours without either noticing, and `CLAUDE.md` rule 11 already says work that is
 not on `main` is not done.
 
-## 0d. Where the 2026-09-08 session left things. READ THIS FIRST.
+## 0d. Where the 2026-09-08 planning session left things. READ THIS FIRST.
 
-**Nothing is in flight. Working tree clean, `main` pushed, `npm run validate` and `npm run build`
-both green.** Two things shipped this session and both are live.
+**Nothing is in flight. Working tree clean, `npm run validate` green: 7 courses, 51 lessons.** This
+session did no content work. It audited the site against John's read of it, found he was right about
+the three stub courses and already served on three things he thought were outstanding, cut Stage 4
+from five reviewers to one, and rewrote the marching order in 0b. Read 0b, then start at its item 1.
 
-**1. The podcast engine changed.** Episodes now render on **Gemini 3.1 Flash TTS on fal**
-(`fal-ai/gemini-3.1-flash-tts`), not VibeVoice. John listened to both and called Gemini leaps and
-bounds better. Billing changed shape with it, from $0.04 a generated minute to $0.05 per 1,000
-characters in, about $0.30 to $0.50 an episode. The hosts are unchanged and their voices are new,
-because the VibeVoice presets do not exist on this model: **John is Charon, Haley is Aoede.** All
-nine episodes that existed were re-rendered from their existing fact-checked scripts and uploaded
-over the same R2 keys, so no lesson frontmatter changed. Details in `docs/CHANGELOG.md` and in the
-header comment of `scripts/podcast.mjs`. **John has not yet said whether the two voices are right;
-he was sent episode 1 to listen to and has not commented.** If he wants different voices, changing
-them means re-rendering every episode, which is about $3 and half an hour.
+**Earlier the same day, two things shipped and both are live.** The podcast engine changed to
+**Gemini 3.1 Flash TTS on fal** (`fal-ai/gemini-3.1-flash-tts`), $0.05 per 1,000 characters in,
+about $0.30 to $0.50 an episode, and all nine existing episodes were re-rendered from their existing
+fact-checked scripts and re-uploaded over the same R2 keys, so no lesson frontmatter changed. And
+**Bible Basics published**: twelve lessons through Stage 4, both assessments, live.
 
-**1b. One correction shipped and was fixed the same evening.** Lesson 11 described the Orthodox
-Study Bible's Old Testament as a revised New King James Version, following the producing academy's
-website. The book's own printed introduction says something close to the opposite, that Rahlfs's
-Greek was the basis with Brenton and the NKJV as further sources. Both are official statements and
-the lesson now prints both without resolving them. Recorded because the general lesson is worth
-keeping: a publisher-side web page is not the same source as the book's own front matter, and this
-course had been treating them as interchangeable.
+**AWAITING JOHN, and it gets more expensive with every episode: are Charon and Aoede the right
+voices?** He was sent episode 1 of How to Learn Anything on 2026-09-08 and has not said. The two
+were picked to match the old male/female pairing, not chosen by him by ear the way the VibeVoice
+presets were. Re-rendering the nine that exist is about $3 and half an hour. Re-rendering after the
+twenty-one owed episodes are made is about $12. **Ask before rendering the Logic batch.**
 
-**2. Bible Basics is published.** Twelve lessons through Stage 4, both assessments written, live on
-the site. Queue item 2 is closed.
-
-### What to pick up next
-
-The 0b queue says **the ten Logic and Argument podcast episodes**, which is the standing background
-task and the thing John asked for most recently. Logic has been live since 2026-09-07 with no audio.
-Run `/make-podcast courses/foundations/logic-and-argument/lessons/<NN>-<slug>.md`, one episode per
-session. `node scripts/podcast.mjs plan <lesson>` tells you where any episode stands.
-
-After that, queue item 3, the three untouched placeholder courses (Python Basics, Algebra
-Essentials, Clear Writing), which are now the honest weak point of the site.
+**One correction shipped and was fixed the same evening.** Lesson 11 described the Orthodox Study
+Bible's Old Testament as a revised New King James Version, following the producing academy's
+website. The book's own printed introduction says close to the opposite, that Rahlfs's Greek was the
+basis with Brenton and the NKJV as further sources. Both are official statements and the lesson now
+prints both without resolving them. The general lesson is worth keeping: a publisher-side web page
+is not the same source as the book's own front matter, and this course had been treating them as
+interchangeable.
 
 ### Open items Bible Basics left behind, none of them blocking
 
-*Item 1 was closed a few hours after publication; items 2 to 5 stand.*
+*Items 3, 4 and 5 are now queue item 1 in 0b, the honesty pass. Items 1 and 2 stand on their own.*
 
-1. ~~**The strongest King James Only position.**~~ **CLOSED 2026-09-08, later the same evening.** The
-   research landed after the course was published and the section is now written from primary sources:
-   Riplinger's *Hazardous Materials* chapter 31, free on her own publisher's site, for the argument
-   that the originals are gone and every printed Greek and Hebrew edition is corrupt so preservation
-   must be in the English, and her reading of Psalm 12:6-7 in which the "furnace of earth" is
-   translation itself. Her own chapter list attacks the Trinitarian Bible Society's Greek text and the
-   Majority Text, which is the documentary proof that this is a third position hostile to the other
-   two rather than a stronger form of them. Three cautions are recorded in `research/SOURCES.md`: no
+1. ~~**The strongest King James Only position.**~~ **CLOSED 2026-09-08.** The research landed after
+   the course was published and the section is now written from primary sources: Riplinger's
+   *Hazardous Materials* chapter 31, free on her own publisher's site, for the argument that the
+   originals are gone and every printed Greek and Hebrew edition is corrupt so preservation must be
+   in the English, and her reading of Psalm 12:6-7 in which the "furnace of earth" is translation
+   itself. Her own chapter list attacks the Trinitarian Bible Society's Greek text and the Majority
+   Text, which is the documentary proof that this is a third position hostile to the other two
+   rather than a stronger form of them. Three cautions are recorded in `research/SOURCES.md`: no
    primary Ruckman text is freely available and the lesson rests nothing on him; "double inspiration"
-   could not be traced to an originator and is not attributed; and the Jack Hyles sermon usually cited
-   for this position does not actually make the argument.
+   could not be traced to an originator and is not attributed; and the Jack Hyles sermon usually
+   cited for this position does not actually make the argument.
 2. **Fee and Stuart's *How to Read the Bible Book by Book*** is characterised in lesson 12 from the
    publisher's description. It is the pattern the course project asks learners to use, so someone
    should open it and confirm the four headings.
 3. **Lesson 1 has four sub-legible SVG labels**, surfaced when the validator was taught to resolve
-   inherited font sizes. Small fix.
+   inherited font sizes. Small fix. Lessons 7 and 8 also warn on `--line-strong` and `--navy`
+   rendering identically in one theme.
 4. **Every `:::figure` in this course except lessons 10, 11 and 12 hotlinks a full-size Wikimedia
    original**, one of them 6.7 MB. Use the `/thumb/.../960px-` form. This is a rule 9 problem, not a
    cosmetic one.
-5. **Reading times elsewhere have not been audited.** Four of Bible Basics' twelve `minutes:` values
-   were out by more than an hour and one by a factor of three. The same is likely across other courses.
+5. **Reading times have not been audited anywhere.** Four of Bible Basics' twelve `minutes:` values
+   were out by more than an hour and one by a factor of three. The same is likely across all 51
+   lessons, and it is certainly wrong in the other direction on the three stub courses.
 
-### Two validator bugs were fixed this session, and both had been hiding real defects
+### Two validator bugs were fixed on 2026-09-08, and both had been hiding real defects
 
 Worth knowing because it changes what you can trust `npm run validate` to catch.
 
@@ -205,7 +252,9 @@ published, and their lesson-by-lesson history is in each course's `research/REVI
 - **The one-agent-per-lesson pattern works and is cheaper than five separate agents.** One
   subagent doing all five passes in its own fresh context ran about 100k tokens for a lesson and
   found everything the five-agent version found on the same lesson, because the passes share the
-  reading. Use it for the remaining Logic and Bible Basics lessons.
+  reading. **This is now the default**, and it sat in this file unacted-on for two courses' worth of
+  reviews before anyone changed the command. If you measure something like this again, change the
+  command in the same commit.
 
 Already fixed course-wide: nine argument displays in lessons 4, 5 and 7 that rendered with the
 conclusion swallowed into the last premise (lesson 2's three remain, in its fix pass); SVG fills
@@ -213,18 +262,23 @@ tokenised.
 
 ### What a Stage 4 cycle costs
 
-Roughly 600k to 900k tokens per lesson across seven agents (five reviewers, an orchestrator, a fix
-pass), and it produces 30 to 45 findings. Budget one lesson per sitting. Rate limits are the real
-constraint and are shared across sessions; two parallel sessions is the ceiling before they starve
-each other.
+**Tier A, the default since 2026-09-08: about 100k tokens** for one reviewer in a fresh context
+doing every applicable pass, plus the fix pass. **Tier B, five reviewers in parallel: 600k to 900k**,
+producing 30 to 45 findings. Tier B is for sensitive domains, standpoint courses, and lessons a Tier
+A pass sent back for heavy rewriting; see `.claude/commands/review-lesson.md`. Rate limits are the
+real constraint and are shared across sessions; two parallel sessions is the ceiling before they
+starve each other.
 
 ### How to run one (this works; earlier attempts stalled)
 
-One orchestrator agent per lesson that: reads the standards, the style guide, SOURCES.md and BOTH
-courses' REVIEWS.md; launches five reviewers **in a single message with `run_in_background: false`**
-so it blocks until they return (backgrounding them makes the orchestrator end its turn and lose the
-work); consolidates into REVIEWS.md with finding IDs; applies the fixes; appends "Resolutions
-applied" including what it chose not to fix and why.
+Tier A: one subagent that reads the standards, the style guide, SOURCES.md, the course's REVIEWS.md
+and the "Defects this drafter repeats" list below, runs every applicable pass, and returns findings.
+Then consolidate into REVIEWS.md with finding IDs, apply the fixes, and append "Resolutions applied"
+including what you chose not to fix and why.
+
+Tier B: the same, but launch the five reviewers **in a single message with
+`run_in_background: false`** so the orchestrator blocks until they return. Backgrounding them makes
+the orchestrator end its turn and lose the work.
 
 ### Defects this drafter repeats, confirmed across seventeen lessons in two courses
 
@@ -353,7 +407,7 @@ A third way in, alongside the Foval Core and free choice. Spec:
 - **Verifiable certificates** need Phase 2 (accounts) so a certificate ID can be looked up at `/verify/<id>`; until then the share page is self-attested and says so.
 - **Accreditation:** documented in `docs/PLATFORM_ROADMAP.md` Phase 3. Realistic path: Open Badges 3.0 issuance, LinkedIn "Add to profile" fields, employer or institution partnerships, and rigorous public assessments. Formal accreditation as a degree-granting institution is a multi-year regulatory process; revisit when there are learners and a track record. Research options for a certificate mark that is honest ("Foval Learning Institute Certificate of Completion, not accredited credit").
 
-## 6. Podcast for every lesson (FIRST EPISODE LIVE 2026-09-06; PIPELINE BUILT later that day)
+## 6. Podcast for every lesson (PIPELINE BUILT 2026-09-06; RE-ENGINED ON GEMINI 2026-09-08). Standing track.
 
 **Where this stands now, after the setup session on 2026-09-06 (read this, skip the history below
 unless you need it):**
@@ -371,8 +425,11 @@ unless you need it):**
   Anything to listen to on 2026-09-08 and has not said. The two voices were picked to match the old
   male/female pairing, not chosen by him by ear the way the VibeVoice presets were. If he wants
   different ones, it is about $3 and half an hour to re-render everything.
-- **What is owed: Logic and Argument's ten episodes**, and Bible Basics' remaining eleven. Twenty-one
-  of the fifty-one live lessons have audio. `node scripts/podcast.mjs plan <lesson>` reports where any
+- **What is owed: Logic and Argument's ten episodes**, and Bible Basics' remaining eleven. Nine of
+  the fifty-one live lessons have audio. **Those twenty-one are the whole backlog right now**,
+  because they are the only settled lessons without audio: the three stub courses get theirs after
+  they are rebuilt, and Personal Finance after 7 to 10 are drafted. Rendering audio for a lesson
+  that is about to be replaced pays for it twice. `node scripts/podcast.mjs plan <lesson>` reports where any
   one stands; `/make-podcast <lesson>` runs the whole flow, one episode per session.
 - *(History, superseded)* **The engine was VibeVoice 7B on fal.ai.** John asked "are you sure?" and a fourth
   research pass (recorded in `docs/PODCAST_OPTIONS.md`) confirmed it; he then called it himself.

@@ -6,6 +6,40 @@ the institute works. Items move here out of `BACKLOG.md` when they are done.
 Everything from the founding onwards is here. Entries before 2026-09-06 came from the old root
 `CHANGELOG.md`, which was merged into this file on 2026-09-06 so there is only one changelog.
 
+## 2026-09-08 (later) — Stage 4 cut from five reviewers to one, and the marching order reset
+
+**Why.** John asked whether any review steps were overkill for moving forward. They were. This file
+had recorded since Bible Basics lesson 6 that one subagent doing all five review passes in its own
+fresh context ran about 100k tokens and found everything the five-agent version found on the same
+lesson, and the command still launched five every time, at 600k to 900k a lesson. That measurement
+sat unacted-on through two courses' worth of reviews.
+
+**What changed.**
+- `.claude/commands/review-lesson.md` rewritten around two tiers. Tier A, one reviewer in a fresh
+  context running every applicable pass, is now the default. Tier B, five reviewers in parallel, is
+  reserved for sensitive domains under standards 3.4, standpoint courses, and lessons a Tier A pass
+  sent back for heavy rewriting.
+- The neutrality pass is skipped, with a line in REVIEWS.md recording the call, on lessons with no
+  contested or value claims.
+- On procedural courses the fact-check is executed rather than fetched: run the code, work the
+  arithmetic.
+- The second full review pass is no longer the default; it runs on a trigger.
+- A pre-pipeline stub is replaced, not reviewed.
+- `CLAUDE.md` rules 2 and 3 and `docs/CONTENT_PIPELINE.md` Stage 4 updated to match. Rule 2 now
+  allows two lessons a session on procedural courses.
+
+Nothing was cut that had caught something real: the fresh context, the adversarial fact-check, the
+en-dash and em-dash sweep, reading every SVG by eye, measuring quiz option shapes, and full Tier B
+on anything contested all stand.
+
+**Also this session.** An audit of all seven live courses against John's read of the site. He was
+right that the three pre-pipeline courses are the weak point: Clear Writing, Algebra Essentials and
+Python Basics average 452, 444 and 464 words a lesson against Bible Basics' 13,160 and Logic's
+9,380, and all three are Core courses. He was already served on three things he thought were
+outstanding: every existing podcast episode was re-rendered on Gemini earlier the same day, the
+Foval Core is laid out and validator-enforced across 52 courses in 8 terms, and How to Learn
+Anything is complete with all eight episodes. `docs/BACKLOG.md` section 0b is rewritten around that.
+
 ## 2026-09-08 (later the same day)
 
 **The Bible: What It Is and How to Read It is published.** Twelve lessons, a twenty-two item final
