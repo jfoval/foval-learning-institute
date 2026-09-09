@@ -127,6 +127,14 @@ header comment of `scripts/podcast.mjs`. **John has not yet said whether the two
 he was sent episode 1 to listen to and has not commented.** If he wants different voices, changing
 them means re-rendering every episode, which is about $3 and half an hour.
 
+**1b. One correction shipped and was fixed the same evening.** Lesson 11 described the Orthodox
+Study Bible's Old Testament as a revised New King James Version, following the producing academy's
+website. The book's own printed introduction says something close to the opposite, that Rahlfs's
+Greek was the basis with Brenton and the NKJV as further sources. Both are official statements and
+the lesson now prints both without resolving them. Recorded because the general lesson is worth
+keeping: a publisher-side web page is not the same source as the book's own front matter, and this
+course had been treating them as interchangeable.
+
 **2. Bible Basics is published.** Twelve lessons through Stage 4, both assessments written, live on
 the site. Queue item 2 is closed.
 
@@ -142,12 +150,19 @@ Essentials, Clear Writing), which are now the honest weak point of the site.
 
 ### Open items Bible Basics left behind, none of them blocking
 
-1. **The strongest King James Only position** (preservation located in the English text) is named in
-   lesson 11, distinguished from the Trinitarian Bible Society and Dean Burgon Society positions, and
-   deliberately **not** summarised, because the research to state it in its advocates' own words did
-   not land in time. The lesson says so in its own text rather than summarising the view from the
-   books written against it. One Stage 1 pass closes this: find one or two primary statements, in
-   their own words, of the view that preservation extends to the English translation.
+*Item 1 was closed a few hours after publication; items 2 to 5 stand.*
+
+1. ~~**The strongest King James Only position.**~~ **CLOSED 2026-09-08, later the same evening.** The
+   research landed after the course was published and the section is now written from primary sources:
+   Riplinger's *Hazardous Materials* chapter 31, free on her own publisher's site, for the argument
+   that the originals are gone and every printed Greek and Hebrew edition is corrupt so preservation
+   must be in the English, and her reading of Psalm 12:6-7 in which the "furnace of earth" is
+   translation itself. Her own chapter list attacks the Trinitarian Bible Society's Greek text and the
+   Majority Text, which is the documentary proof that this is a third position hostile to the other
+   two rather than a stronger form of them. Three cautions are recorded in `research/SOURCES.md`: no
+   primary Ruckman text is freely available and the lesson rests nothing on him; "double inspiration"
+   could not be traced to an originator and is not attributed; and the Jack Hyles sermon usually cited
+   for this position does not actually make the argument.
 2. **Fee and Stuart's *How to Read the Bible Book by Book*** is characterised in lesson 12 from the
    publisher's description. It is the pattern the course project asks learners to use, so someone
    should open it and confirm the four headings.

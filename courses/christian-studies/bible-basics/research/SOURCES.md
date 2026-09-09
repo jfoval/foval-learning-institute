@@ -949,3 +949,38 @@ each caught at least one real error.
 - **Media note for every lesson in this course**: the `:::figure` blocks hotlink full-size Wikimedia
   originals, some of them several megabytes. Use the `/thumb/.../960px-` form. Lesson 10's Pilate
   image went from 6.7 MB to 118 KB with no visible difference.
+
+## Correction and additions, lesson 11, second pass (2026-09-08)
+
+- **CORRECTION to what this file recorded earlier today about the Orthodox Study Bible.** The note
+  taken from St Athanasius College ("uses the New King James Version as the basis for a fresh
+  translation of the Septuagint text") is one of two official descriptions, and the other is the
+  book's own printed Introduction, which says the contributors "used the Alfred Rahlfs edition of the
+  Greek text as the basis for the English translation", with Brenton's 1851 English Septuagint and the
+  NKJV as two further sources. Lesson 11 shipped the college's version alone for a few hours and now
+  prints both without resolving them. Do not describe the OSB Old Testament flatly as a revised NKJV.
+  Its New Testament is the NKJV, and therefore the Received Text, inside an Orthodox study Bible.
+- **King James Only, the English-preservation form, now researched** and no longer owed. Primary,
+  quotable, free: G. A. Riplinger, *Hazardous Materials* ch. 31, PDF on her own publisher's site
+  (avpublications.com), for the argument that the originals are gone and every printed Greek and
+  Hebrew edition is corrupt, so preservation must be in the English; and her Psalm 12:6-7 reading, in
+  which the "furnace of earth" is translation itself. Alan O'Reilly (Time for Truth!) for the sharpest
+  sentence on where authority sits: Scrivener's Greek "cannot be used in authority over the 1611 Holy
+  Bible English New Testament". Riplinger's own chapter list attacks the Trinitarian Bible Society's
+  Greek text (ch. 18) and the Majority Text of Hodges-Farstad and Robinson-Pierpont (ch. 20), which is
+  the documentary proof that this is a third position hostile to the other two.
+- **"KJV Only" and "Bible believer" are self-descriptions**, used without embarrassment by advocates.
+  Use them as labels, not as accusations.
+- **"Double inspiration" could not be traced to an originator.** It functions mostly as a critics'
+  label; some advocates accept and argue it from Jeremiah 36; Ruckman used it of his own view at least
+  once and elsewhere denied claiming "direct inspiration" for the KJV. Do not attribute the coinage.
+- **No primary Peter Ruckman text is freely available.** Everything in circulation reaches us through
+  ruckmanism.org, which opposes Ruckman while defending the KJV and whose page citations could not be
+  verified. Lesson 11 says so and rests nothing on him.
+- **CAUTION on Jack Hyles.** The sermon usually cited for this position, "Logic Must Prove the King
+  James Bible" (1984), does not cite Psalm 12:6-7 and does not argue English-language preservation;
+  its case is pragmatic and providential. The English-locating formula is attributed to him only by a
+  retrospective from his own site's webmaster. Do not cite the sermon for the claim.
+- **Internal dissent worth keeping**: Laurence Vance defends the Authorised Version and calls the
+  seven-purifications arguments "schemes" that have been "contrived", noting the KJV is the tenth
+  English Bible rather than the seventh.
