@@ -30,8 +30,8 @@ So the queue is now:
    section is closed; what remains on this course is its ten podcast episodes, which sit at item 5
    as the standing background task. The lesson-by-lesson history is in `research/REVIEWS.md` and
    `research/HANDOFF.md`.
-2. **Bible Basics to `status: published`.** Twelve lessons written, three reviewed, plus the
-   neutrality audit, the assessments, and the one-time split/renumber pass (7b).
+2. ~~**Bible Basics to `status: published`.**~~ **DONE 2026-09-08.** Twelve lessons through Stage 4,
+   both assessments written, published and live.
 3. **The three untouched placeholder courses** (Python Basics, Algebra Essentials, Clear Writing).
    Live, never through the pipeline, and the honest weak point of the site. Same treatment
    Personal Finance got: Stage 1 research, then Stage 4 lesson by lesson, then voice, media,
@@ -115,8 +115,23 @@ leaves a true picture.
 - **Lesson 9 (`09-text-and-reliability.md`): Stage 4 round 1 DONE 2026-09-08**, all five findings
   sets applied, entry in `research/REVIEWS.md`. No second pass needed; nothing was left for a human
   decision.
-- **Lesson 10 (`10-what-we-believe.md`): Stage 4 round 1 DONE 2026-09-08.** Entry in
-  `research/REVIEWS.md`. Nothing left for a human decision.
+- **BIBLE BASICS IS PUBLISHED, 2026-09-08.** All twelve lessons through Stage 4, the final test and
+  the project written from the outline spec, `status: published`, TAXONOMY row updated, built and
+  pushed. Queue item 2 is closed. Reviews for lessons 9 to 12 are in `research/REVIEWS.md`.
+- **Open items it left behind, none of them blocking:**
+  1. **The strongest King James Only position** (preservation located in the English text) is named in
+     lesson 11, distinguished from the Trinitarian Bible Society and Dean Burgon Society positions, and
+     explicitly *not* summarised, because the research to state it in its own advocates' words did not
+     land. The lesson says so in the text. One Stage 1 pass closes it.
+  2. **Fee and Stuart's *How to Read the Bible Book by Book*** is characterised in lesson 12 from the
+     publisher's description. It is the pattern the project asks learners to use, so someone should open
+     it and check the four headings.
+  3. **Lesson 1 still has four sub-legible SVG labels**, surfaced when the validator was taught to
+     resolve inherited font sizes.
+  4. **Every `:::figure` in this course except lessons 10, 11 and 12 hotlinks a full-size Wikimedia
+     original**, one of them 6.7 MB. Use the `/thumb/.../960px-` form.
+  5. **Reading times across the other courses have not been audited.** Four of Bible Basics' twelve were
+     out by more than an hour, one by a factor of three. The same is likely elsewhere.
 - **Then lessons 11 and 12**, the same way, one at a time.
 - **Two sweeps that came out of lesson 10 and are not done yet.** First, `npm run validate` now
   resolves inherited SVG font sizes, which it did not before, so a chart could hide 24 sub-legible

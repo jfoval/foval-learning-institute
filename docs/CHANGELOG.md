@@ -6,6 +6,42 @@ the institute works. Items move here out of `BACKLOG.md` when they are done.
 Everything from the founding onwards is here. Entries before 2026-09-06 came from the old root
 `CHANGELOG.md`, which was merged into this file on 2026-09-06 so there is only one changelog.
 
+## 2026-09-08 (later the same day)
+
+**The Bible: What It Is and How to Read It is published.** Twelve lessons, a twenty-two item final
+test and a two-week reading project. It is the second course to go live this week and the first with a
+`standpoint: christian` label, which means every lesson had to state the positions it disagrees with in
+their own holders' terms, and that is where most of the review effort went.
+
+- **Lessons 9 to 12 went through Stage 4**, five fresh-context reviewers each for 9 and 10, seven across
+  11 and 12, plus four targeted Stage 1 research tasks to close gaps the reviews found.
+- **What the reviews caught, in order of seriousness.** Lesson 11 ran Byzantine Text priority together
+  with Received Text priority and attributed the merged position to a scholar who has published against
+  one of them, sourcing both to two books written *against* the position that nobody here had opened; it
+  now has a section in Robinson's and Hodges's own words, with the roughly 1,800 places the two texts
+  differ verified from three independent counts. Lesson 10's argument from Jesus' view of Scripture, the
+  course's own load-bearing claim, faced no objection while every other position in the lesson had a
+  reply printed against it. Lesson 11 gave the complementarian side of the gender-language dispute a
+  preface and gave the other side its corpus research. Lesson 10 promised "what others make of it" and
+  delivered the academy, with no Jewish or Islamic doctrine of these books at all. Lesson 12 justified
+  daily reading with the spacing literature, which measures re-study of the same material and does not
+  support a linear reading plan. Lesson 12 also quoted Augustine saying what his correspondent said.
+- **The Chicago Statement was quoted in its permissive half for the third time in this course**, against
+  a standing instruction the research file had recorded twice. Both limiting clauses are now cited, and
+  the research file's own article number for the 1982 statement turned out to be wrong, which is part of
+  why the instruction kept being hard to follow.
+- **Two validator bugs, both of which had been hiding real defects.** The SVG legibility checks matched
+  only on the `<text>` tag, so a chart could put every font size on a `<g>` wrapper and pass with 24
+  sub-legible labels while other lessons were flagged for the same fault; the check now resolves
+  inheritance. And the answers-in-plain-prose check looked only eight lines ahead and missed one common
+  phrasing, so it fired on six lessons doing it correctly and missed two that were not. Both fixed in
+  `scripts/build.mjs`.
+- **Four of the twelve lessons understated their own reading time**, one by a factor of three. A learner
+  plans an evening around that number.
+- **One item was left open rather than papered over**: the strongest King James Only position is named
+  and distinguished but not stated in its advocates' own words, because that research did not land in
+  time. The lesson says so in the text instead of summarising the view from its critics.
+
 ## 2026-09-08
 
 **The podcast engine changed: Gemini 3.1 Flash TTS on fal, replacing VibeVoice 7B.** John listened
