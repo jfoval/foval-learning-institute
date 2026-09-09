@@ -5,6 +5,7 @@ objectives:
   - Explain risk pooling, and say why an insurer expecting to profit does not make buying insurance a mistake for the insured
   - Sort your own risks into ones to insure and ones to carry, using the question of what you could absorb without the plan collapsing
   - Compare two policies by premium, deductible and out-of-pocket maximum, and total the cost of each in a quiet year and a bad one
+  - Given two findings that disagree, state what each one counts, and say why both can be right
 quiz:
   - q: Theo works out that across his whole life he will almost certainly pay more in insurance premiums than he ever receives in claims. He concludes that insurance is a losing bet and he should carry every risk himself. Where does the reasoning go wrong?
     options:
@@ -19,7 +20,7 @@ quiz:
       - At $960 of care, which is the difference between the two annual premiums
       - At $1,700 of care, where each plan costs him $3,140 including premiums
       - At $2,500 of care, which is the point where Plan D's deductible is met
-      - At $2,000 of care, which falls halfway between the two deductibles
+      - At $1,500 of care, which falls halfway between the two deductibles
     answer: 1
     explain: Plan C costs $960 more in premiums for the year, and the question is how much care it takes to earn that back. Between the two deductibles, every extra dollar of care costs Marcus a full dollar under D and only 20 cents under C, so the gap closes at 80 cents per dollar of care. It closes at $1,700, where C costs $2,400 of premium plus $740 out of pocket and D costs $1,440 plus $1,700, both $3,140. Below that, D; above it, C. Option A confuses the premium gap with the care that closes it and ignores that the first $500 under C is not covered either. Option C names a real feature of the plans that is not the crossing point. Option D splits the difference between two numbers, which is the shape of answer that feels right and is almost never the arithmetic.
   - q: Rosa has $30,000 in savings, no dependants, and a car worth $6,000 that is paid off. In one week she is offered collision cover with a $250 deductible, a phone protection plan at $9 a month, an extended warranty on a new laptop, and long-term disability cover that would replace 60% of her income. Which is the clearest buy, on this lesson's test?
@@ -68,11 +69,11 @@ And the standing note, which matters more here than anywhere else in the course,
 
 ## What insurance is for, stated plainly
 
-Insurance is not an investment and it is not supposed to pay off on average. If it paid off on average, nobody could sell it.
+Insurance isn't an investment, and it isn't supposed to pay off on average. If it did, nobody could sell it.
 
 What you are buying is a change in the **shape** of your risk. Without insurance, most years cost you nothing and a rare year costs you everything. With insurance, every year costs you a known premium and no year costs you everything. You have traded a small certain loss for the removal of a large uncertain one.
 
-That trade is worth making when the large uncertain loss would break something. It is not worth making when it would only annoy you. Everything else in this lesson follows from that one sentence.
+That trade is worth making when the large uncertain loss would break something. It isn't worth making when it would only annoy you.
 
 **One large exception, stated here so it does not quietly break the arithmetic later.** All of this assumes you are paying the full price of the policy. Often you are not. In the US in 2025 the average employer health plan cost $9,325 a year for single cover and the worker paid $1,440 of it, so the employer paid roughly six sevenths, and that share is not taxed as your income.[1] A policy somebody else largely pays for is not a negative-expected-value trade at all; it is a transfer, and turning it down to save your share is usually a mistake on any reading. The reasoning in this lesson is about **which policies to buy at their full price**, not about whether to accept coverage that is being funded for you.
 
@@ -80,17 +81,15 @@ That trade is worth making when the large uncertain loss would break something. 
 It treats the payout as the product. The product was the twelve years in which a crash would not have ended them, and they consumed all of it. Compare it with a fire alarm that never went off: nobody says the alarm was wasted. The sentence would be right only if the loss it protected against was one they could comfortably have absorbed, in which case they were insuring the wrong thing, which is a real mistake and a different one.
 :::
 
-## Pooling, and why the insurer's profit is not your loss
-
-Here is the mechanism, and it takes one paragraph.
+## Pooling, and what the insurer's profit is buying you
 
 Ten thousand people each face a 1% chance of a $50,000 loss in a year. For any one of them, the year is wild: almost certainly nothing, occasionally ruin. Across ten thousand of them, though, the total is dull and predictable: about a hundred losses, about $5 million, year after year, within a narrow range. That is the whole trick. **Risk that is unbearable one at a time becomes forecastable in bulk**, and an insurer is a machine for standing in the bulk position.
 
 So the company can charge each person the $500 that the average loss costs, plus something for running the business and something for profit. Say $650. Every customer now pays $650 with certainty instead of facing a 1% chance of losing $50,000.
 
-Do the expected value from the customer's side and it looks like a bad deal, because $650 is more than $500. It is a bad deal, in expected-value terms, and it is meant to be. **The reason to buy it anyway is that you are not an insurance company.** You cannot run the same year ten thousand times and collect the average. You run it once, and the version of you who has the $50,000 loss and no policy has lost the house.
+Do the expected value from the customer's side and it looks like a bad deal, because $650 is more than $500. It is a bad deal, in expected-value terms, and it is meant to be. **The reason to buy it anyway is that you aren't an insurance company.** You can't run the same year ten thousand times and collect the average. You run it once, and the version of you who has the $50,000 loss and no policy has lost the house.
 
-This is why "they make a profit, so it is a rip-off" does not follow. The insurer's profit is the price of moving a risk from someone who cannot carry it to something built to carry it. What does follow, and it is the sharp end of the same reasoning, is that **you should not pay that margin on losses you could carry yourself.**
+That's why "they make a profit, so it's a rip-off" doesn't follow. The insurer's profit is the price of moving a risk from someone who cannot carry it to something built to carry it. What does follow, and it is the sharp end of the same reasoning, is that **you should not pay that margin on losses you could carry yourself.**
 
 <svg viewBox="0 0 584 352" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:584px;display:block;margin:1.5em auto;font-family:system-ui,sans-serif" role="img" aria-labelledby="pool-title pool-desc">
   <title id="pool-title">The same risk before and after insuring it</title>
@@ -140,7 +139,7 @@ Five words decide what a policy actually does. Learn them once and every policy 
 - **Out-of-pocket maximum.** The ceiling on what the year can cost you. HealthCare.gov defines it in two sentences: "The most you have to pay for covered services in a plan year. After you spend this amount on deductibles, copayments, and coinsurance for in-network care and services, your health plan pays 100% of the costs of covered benefits." Federal law caps it, at $10,600 for an individual and $21,200 for a family for the 2026 plan year.
 - **Coverage limit and exclusions.** The most the insurer will pay, and the list of things it will not pay for at all.
 
-Read that definition again, because two phrases in it carry the risk that surprises people. It applies to **covered services** and to **in-network** care, and the glossary spells out what it therefore excludes: your premiums, anything the plan does not cover, out-of-network care, and charges above the amount your plan says a service is worth. A policy is not a promise to make you whole. It is a promise about a defined list, and the exclusions are not fine print in the sense of being unimportant. They are the product.
+Read that definition again, because two phrases in it carry the risk that surprises people. It applies to **covered services** and to **in-network** care, and the glossary spells out what it therefore excludes: your premiums, anything the plan does not cover, out-of-network care, and charges above the amount your plan says a service is worth. A policy isn't a promise to make you whole. It's a promise about a defined list, and the exclusions aren't fine print in the sense of being unimportant. They are the product.
 
 For scale, here is what US employer coverage looked like in 2025.[1] The average plan cost **$9,325 a year for single coverage** and **$26,993 for a family**, of which the worker paid $1,440 and $6,850. Of workers with single coverage, 88% had a general annual deductible, averaging **$1,886**; of all covered workers, 34% were in a plan with a deductible of $2,000 or more. The average copay was $27 for a primary care visit and $45 for a specialist, and average coinsurance was 19% for office visits and 20% for a hospital admission. Among workers with an out-of-pocket maximum for single coverage, 12% had a limit of $2,000 or less and 21% had one above $6,000.
 
@@ -148,7 +147,7 @@ Two of those numbers say something the averages hide. The average deductible is 
 
 ## Two plans, a quiet year and a bad one
 
-Priya is choosing between two plans through work. Invented round numbers, so the arithmetic stays visible.
+Priya is choosing between two plans through work. The numbers are made up and round, so you can watch the arithmetic move.
 
 |  | Plan A | Plan B |
 | --- | --- | --- |
@@ -169,21 +168,20 @@ Plan B saves her $1,200 a year in premiums and asks her to carry $2,500 more bef
 Be careful where you start. For the first $1,000 of care both plans charge a full dollar, so nothing closes. Between A's $1,000 deductible and B's $3,500, each extra dollar of care costs Priya a full dollar under B and only 20 cents under A, so the $1,200 premium gap closes at 80 cents per dollar. That takes $1,200 divided by 0.80, which is $1,500 of care, on top of the first $1,000: a crossover at $2,500 of covered care, and above that A is cheaper. A year with one hospital visit or a course of expensive treatment clears $2,500 easily; a year of check-ups and one prescription does not come close. Which is why the answer depends on the person and not on the plans.
 :::
 
-The crossover is **$2,500 of covered care in the year**. Below it, B; above it, A. Here is the whole comparison in one picture.
+The crossover is **$2,500 of covered care in the year**. Below it, B; above it, A. The picture below has the whole comparison in it, and it shows two things the three cases do not.
 
 <svg viewBox="0 0 584 350" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:584px;display:block;margin:1.5em auto;font-family:system-ui,sans-serif" role="img" aria-labelledby="plan-title plan-desc">
   <title id="plan-title">Total yearly cost of two health plans against how much care is used</title>
   <desc id="plan-desc">A line chart. The horizontal axis is covered care used in the year, from zero to 25,000 dollars. The vertical axis is Priya's total cost, premium plus out of pocket, from zero to 9,000 dollars. Plan A starts at 3,000 dollars, rises steeply to 4,000 at the deductible, then rises slowly and flattens at 7,000. Plan B starts at 1,800 dollars, rises steeply to 5,300 at its higher deductible, then flattens at 8,800. The lines cross at 2,500 dollars of care, where both cost 4,300 dollars. Plan B is cheaper to the left of the crossing and Plan A is cheaper to the right.</desc>
   <text x="20" y="24" font-size="17" font-weight="700" fill="var(--text, #1a1a1a)">What each plan costs Priya for the year</text>
-  <line x1="70" y1="60" x2="70" y2="290" stroke="var(--text-2, #4a5260)" stroke-width="1"/>
-  <line x1="70" y1="290" x2="564" y2="290" stroke="var(--text-2, #4a5260)" stroke-width="1"/>
+  <line x1="70" y1="60" x2="70" y2="290" stroke="var(--line, #d9d9d9)" stroke-width="1"/>
+  <line x1="70" y1="290" x2="564" y2="290" stroke="var(--line, #d9d9d9)" stroke-width="1"/>
   <line x1="70" y1="213" x2="564" y2="213" stroke="var(--line, #d9d9d9)" stroke-width="1" stroke-dasharray="3 4"/>
   <line x1="70" y1="137" x2="564" y2="137" stroke="var(--line, #d9d9d9)" stroke-width="1" stroke-dasharray="3 4"/>
   <line x1="70" y1="60" x2="564" y2="60" stroke="var(--line, #d9d9d9)" stroke-width="1" stroke-dasharray="3 4"/>
   <text x="64" y="218" font-size="15" text-anchor="end" fill="var(--text-2, #4a5260)">$3k</text>
   <text x="64" y="142" font-size="15" text-anchor="end" fill="var(--text-2, #4a5260)">$6k</text>
   <text x="64" y="65" font-size="15" text-anchor="end" fill="var(--text-2, #4a5260)">$9k</text>
-  <text x="64" y="295" font-size="15" text-anchor="end" fill="var(--text-2, #4a5260)">$0</text>
   <text x="70" y="312" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">$0</text>
   <text x="266" y="312" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">$10k</text>
   <text x="462" y="312" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">$20k</text>
@@ -191,7 +189,8 @@ The crossover is **$2,500 of covered care in the year**. Below it, B; above it, 
   <polyline fill="none" stroke="var(--navy, #0f2a4a)" stroke-width="2.5" points="70,213 90,188 384,111 560,111"/>
   <polyline fill="none" stroke="var(--oxblood, #8b1e2d)" stroke-width="2.5" points="70,244 139,155 482,65 560,65"/>
   <circle cx="119" cy="180" r="5" fill="var(--gold, #b08d2a)"/>
-  <text x="132" y="176" font-size="15" font-weight="700" fill="var(--gold, #b08d2a)">they cross at $2,500 of care</text>
+  <line x1="121" y1="186" x2="128" y2="205" stroke="var(--gold, #b08d2a)" stroke-width="1.5"/>
+  <text x="126" y="222" font-size="15" font-weight="700" fill="var(--gold, #b08d2a)">they cross at $2,500 of care</text>
   <text x="400" y="103" font-size="15" font-weight="700" fill="var(--navy, #0f2a4a)">Plan A caps at $7,000</text>
   <text x="400" y="57" font-size="15" font-weight="700" fill="var(--oxblood, #8b1e2d)">Plan B caps at $8,800</text>
   <text x="82" y="262" font-size="15" fill="var(--oxblood, #8b1e2d)">B starts lower</text>
@@ -201,15 +200,15 @@ Two things this picture teaches that the three numbers alone do not.
 
 **The gap between the plans is never enormous.** The worst case under either is a bad year, and the difference between them at their worst is $1,800. What the out-of-pocket maximum does is put a floor under how bad the decision can be, which is why it is the number to look at first and the one people never quote.
 
-**Below the deductible, a high-deductible plan buys her nothing she uses.** For the first $3,500 of care, Priya under Plan B pays full price while also paying $1,800 a year in premium. The insurance is still there, and its value is the part of the picture past the crossing, but in an ordinary year she is paying for protection she does not touch. Two qualifications, and the first is a fact worth knowing before you read your own plan: under the ACA, in-network preventive care is covered before the deductible, so a high-deductible plan is not full price for literally everything.
+**Below the deductible, a high-deductible plan buys her nothing she uses.** For the first $3,500 of care, Priya under Plan B pays full price while also paying $1,800 a year in premium. The insurance is still there, and its value is the part of the picture past the crossing, but in an ordinary year she is paying for protection she does not touch. Two qualifications, and the first is a fact worth knowing before you read your own plan: under the ACA, in-network preventive care is covered before the deductible, so a high-deductible plan isn't full price for literally everything.
 
-**And the case for the high deductible, which deserves stating in its own terms rather than as a trap.** The deductible is not only a way of making a policy cheaper. It is there to put a price back in front of the patient, and the evidence that this changes behaviour is strong: the RAND Health Insurance Experiment ran from 1974 to 1981, randomly assigning about 5,800 people in 2,000 households across six sites to plans with different coinsurance rates, and people in the highest cost-sharing plan spent about **39% less** on medical care over a year than people who got care free.[2] Most of that came from starting less care rather than from paying lower prices, and the effect on hospital spending, the serious end, was small. Supporters of high deductibles read that as waste being squeezed out, and pair the plan with a health savings account, which is lesson 7's tax wrapper attached to the money you are now expected to spend on the deductible. Critics read the same number as care being skipped, some of it needed. What that reduced use did to people's health is the genuinely disputed part, and this course has not opened the original RAND health-outcome papers, so it reports the spending result, which was verified, and names the health question as unsettled rather than answering it.
+**And the case for the high deductible, which deserves stating in its own terms rather than as a trap.** The deductible is not only a way of making a policy cheaper. It is there to put a price back in front of the patient, and the evidence that this changes behaviour is strong: the RAND Health Insurance Experiment ran from 1974 to 1981, randomly assigning about 5,800 people in 2,000 households across six sites to plans with different coinsurance rates, and people in the highest cost-sharing plan spent about **39% less** on medical care over a year than people who got care free.[2] Most of that came from starting less care rather than from paying lower prices, and the effect on hospital spending, the serious end, was small. Supporters of high deductibles read that as waste being squeezed out, and pair the plan with a health savings account, which is lesson 7's tax wrapper attached to the money you are now expected to spend on the deductible. Critics read the same number as care being skipped, some of it needed. What that reduced use did to people's health is the genuinely disputed part, and I haven't opened the original RAND health-outcome papers, so this lesson reports the spending result, which was checked, and leaves the health question open rather than answering it from a source nobody read.
 
 Which leads to the thing the arithmetic cannot tell her, and it is the point of the lesson. **A $3,500 deductible is only a cheaper policy if you can produce $3,500.**
 
 Work it for someone who cannot. Suppose the same choice, and $300 in savings. A bad year arrives in March. Under Plan A she owes $4,000 at her maximum and can pay perhaps $300 of it. Under Plan B she owes $7,000. Whatever she cannot pay goes on a card at 24%, so Plan B leaves roughly $3,000 more on that card, and a year of carrying it costs about **$720** in interest on the extra alone. The $1,200 she saved in premiums is gone before the second year starts, and lesson 3 begins again on a larger balance. For someone with lesson 2's cushion in place, Plan B is a reasonable bet with a known worst case. For her it is not a cheaper plan; it is a larger uncovered gap with a monthly bill attached. **The right deductible depends on your cushion, not on the plan.**
 
-## The evidence on how people actually choose, which is not well
+## What people actually choose, when you can watch fifty thousand of them
 
 If you had to guess whether people over-insure or under-insure small risks, the evidence is unusually clean, and it comes from a study that got hold of the right data.
 
@@ -230,7 +229,7 @@ To justify that choice with ordinary risk aversion, a customer would need to bel
 You are paying $180 a year to be covered for $750 of loss that arises only if you claim, so the whole question is how often you claim. Do it as a range rather than pretending to know: at one claim every ten years the extra cover is worth $75 a year and you are paying $180; at one every five years it is worth $150 and you are still paying $180; you would have to claim about every four years for it to break even. Your own insurer can tell you your claim history, and most people's is thinner than they think. The arithmetic points to the higher deductible, and the assumption underneath it is that the $750 stays available, which for someone with $8,000 it does: the loss is an irritation rather than a catastrophe, which puts it on the wrong side of the test. At $300 of savings the same arithmetic gives the opposite answer.
 :::
 
-## Insuring the inconvenience: extended warranties
+## Extended warranties, and what the numbers on them say
 
 The purest case of getting this backwards is sold at every till.
 
@@ -238,11 +237,11 @@ An extended warranty on a $400 phone, or a $1,200 service contract on a car, is 
 
 Notice that the first comparison puts a mean against a median, and lesson 1 told you what to do about that: the median discards the tail, and the tail is the whole point of insurance, so the gap between $1,214 and $837 overstates the case a little. The argument survives anyway, and the reason is the one this lesson keeps returning to. On a car, the tail is a transmission; on a $400 phone the tail is $400, and a policy cannot protect you from more than the thing is worth. Where a service contract does pass this lesson's test is the case worth naming: a used vehicle with a plausible five-figure failure, owned by somebody who could not absorb one.
 
-The point is not that the sellers are dishonest. The point is the one the St. Louis Fed's own teaching note makes: a warranty provider "must charge their buyers more than what they will likely need in coverage so that the provider makes a profit", which is true of every insurer and is fine when the risk is one you could not carry. **What makes a warranty a poor deal is not the margin but the size of the loss it covers**, because a $400 phone is on the wrong side of the absorbability test before any pricing question arises. Insurance is most valuable exactly where it is least fun to think about.
+The point is not that the sellers are dishonest. The point is the one the St. Louis Fed's own teaching note makes: a warranty provider "must charge their buyers more than what they will likely need in coverage so that the provider makes a profit", which is true of every insurer and is fine when the risk is one you could not carry. **What makes a warranty a poor deal isn't the margin but the size of the loss it covers**, because a $400 phone is on the wrong side of the absorbability test before any pricing question arises.
 
 The alternative is not "go without". It is to notice that you already have the mechanism. Lesson 2's cushion is a fund that pays for broken phones, and it charges you no margin.
 
-## Life insurance, in two paragraphs
+## Life insurance, and who actually needs it
 
 Life insurance is for people whose income, or whose unpaid work, somebody else depends on. That is most of the needs test, and it explains the cases people get wrong in both directions: a single person with no dependants and no shared debts usually does not need it, and a stay-at-home parent whose work would have to be replaced at cost usually does, despite having no salary.
 
@@ -266,7 +265,7 @@ Two things the simple needs test misses, and a well-informed reader would raise 
 
 **"I'll deal with it if it happens."** The whole point of the failure mode is that it arrives with no notice and no cash. That is not a plan, it is the absence of one, and it is the state insurance is designed to prevent.
 
-## What insurance is actually for, and what is disputed
+## What we know about what insurance does, and what is argued over
 
 Two things here are worth separating, because the first is unusually well established and the second is not.
 
@@ -278,13 +277,13 @@ What the trial did measure cleanly, and found large, is financial protection, wh
 
 **What is disputed.** How often medical costs actually cause bankruptcy is genuinely contested, and the dispute is a first-rate exercise in reading a statistic, which is why it is here rather than left out.
 
-Himmelstein, Warren, Thorne and Woolhandler surveyed people who had gone bankrupt and asked whether they had substantial medical bills or illness-related income loss, counting those who did. They found medical events involved in **about 60%** of personal bankruptcies.[6] The strength of that design is its reach: it picks up every route by which illness arrives at a household's finances, including the ones no hospital record contains, and it asks the people it happened to.
+Himmelstein, Warren, Thorne and Woolhandler surveyed people who had gone bankrupt and asked whether they had substantial medical bills or illness-related income loss, counting those who did. They found medical events involved in **about 60%** of personal bankruptcies.[7] The strength of that design is its reach: it picks up every route by which illness arrives at a household's finances, including the ones no hospital record contains, and it asks the people it happened to.
 
-Dobkin, Finkelstein, Kluender and Notowidigdo re-asked the question with a different design. They took hospital admissions in California and compared people's bankruptcy rates before and after their own admission, which separates the effect of the medical event from everything else in their lives.[7] The strength of that design is that it can show causation. Their arithmetic is worth following, because you can check it. An admission raises the annual chance of bankruptcy over the next four years by **0.004**. About **7.8%** of that population is admitted in a year, so 0.004 multiplied by 0.078 gives **0.031%** of the population going bankrupt each year because of an admission. The annual household bankruptcy rate among the non-elderly is **0.8%**, and 0.031 divided by 0.8 is about **4%**.
+Dobkin, Finkelstein, Kluender and Notowidigdo re-asked the question with a different design. They took hospital admissions in California and compared people's bankruptcy rates before and after their own admission, which separates the effect of the medical event from everything else in their lives.[8] The strength of that design is that it can show causation. Their arithmetic is worth following, because you can check it. An admission raises the annual chance of bankruptcy over the next four years by **0.004**. About **7.8%** of that population is admitted in a year, so 0.004 multiplied by 0.078 gives **0.031%** of the population going bankrupt each year because of an admission. The annual household bankruptcy rate among the non-elderly is **0.8%**, and 0.031 divided by 0.8 is about **4%**.
 
 Their criticism of the survey method is worth learning as a general habit. About 20% of Americans have substantial medical debt, and under 1% file for bankruptcy in a year. So finding medical debt among people who went bankrupt does not by itself show that the debt caused it, any more than finding that most bankrupt people own a phone shows that phones cause bankruptcy. Something has to separate the two.
 
-Himmelstein and Woolhandler's reply is as pointed, and it is the stronger half of it that matters. An admissions record is a narrow instrument: a household can be ruined by outpatient costs, by a chronic condition needing drugs that cost tens of thousands a year, or by months out of work, none of which involve an admission, and the design "is not designed to measure bankruptcy associated with a child's or spouse's illness". So the 4% is not an estimate of medical bankruptcy; it is an estimate of **hospitalisation-caused** bankruptcy, and everything outside that channel is unmeasured rather than shown to be zero. They add that "almost everyone we labeled 'medically bankrupt' explicitly told us that medical problems caused their bankruptcy", which is evidence of a kind, though of a kind that cannot settle a causal question on its own.[8]
+Himmelstein and Woolhandler's reply is as pointed, and it is the stronger half of it that matters. An admissions record is a narrow instrument: a household can be ruined by outpatient costs, by a chronic condition needing drugs that cost tens of thousands a year, or by months out of work, none of which involve an admission, and the design "is not designed to measure bankruptcy associated with a child's or spouse's illness". So the 4% is not an estimate of medical bankruptcy; it is an estimate of **hospitalisation-caused** bankruptcy, and everything outside that channel is unmeasured rather than shown to be zero. They add that "almost everyone we labeled 'medically bankrupt' explicitly told us that medical problems caused their bankruptcy", which is evidence of a kind, though of a kind that cannot settle a causal question on its own.[9]
 
 **Both are right about what they measured, and they measured different things.** One counts every route by which illness can wreck a household's finances and cannot show causation. The other shows causation cleanly for one route and misses the others: outpatient costs, chronic conditions, a family member's illness, and lost income without an admission. The number you should carry out of this is neither 60% nor 4%; it is that **the question "how many bankruptcies are medical?" is not answerable without saying what counts as caused by**, which is the same discipline lesson 1 applied to the $400 factoid.
 
@@ -298,7 +297,7 @@ Twenty minutes, and a piece of paper divided into two columns.
 1. **List every risk you are currently carrying uninsured.** Not categories, specific things: the phone, the laptop, the car's own value, the roof, your income if you could not work for six months, a dental bill, a family member's care.
 2. **Against each, write what you would actually do if it happened tomorrow and nobody paid.** Be concrete. "Savings" is an answer only if you name the amount.
 3. **Mark the ones where the honest answer is "borrow", "I don't know", or "it would end me".** Those are the ones to insure. The rest you are already carrying, correctly, and you can stop feeling uneasy about them.
-4. Almost everyone finds the same thing in step 3, and it is not the phone. It is **losing the ability to work**, which is the largest financial asset most people have and the one least often insured. Find out whether you have disability cover through work, what fraction of your income it replaces, and how long it takes to start paying.
+4. Now compare your marked list against the policies you actually hold, and see which of the marked risks are uncovered. Then check one thing in particular, because it's the one I'd check first: whether you have disability cover through work, what fraction of your income it replaces, and how long it takes to start paying. For most people under fifty the value of the work they have not done yet is larger than everything else they own put together.
 :::
 
 :::exercise Read your own policy, without calling anyone
@@ -322,7 +321,7 @@ Close the page and answer these from memory, then come back and check.
 
 ## Connections
 
-Lesson 2 built a cushion and called it an emergency fund. This lesson gives the more exact name: it is self-insurance, it is what lets you carry small risks without paying anyone a margin, and it is also the thing that decides what deductible you can afford. The two lessons are the same idea from both ends.
+Lesson 2 built a cushion and called it an emergency fund. This lesson gives the more exact name: it is self-insurance, it is what lets you carry small risks without paying anyone a margin, and it is also the thing that decides what deductible you can afford. 
 
 Lesson 1's habit of asking what a statistic measures gets its hardest workout here. Two research groups produced 60% and 4% for what sounds like the same question, and both are defensible, because they counted different things.
 
@@ -332,7 +331,7 @@ Lesson 1's split between fixed and variable costs turns up here as something you
 
 Lesson 5's cost lens is what you point at a cash-value life policy, and lesson 7's distinction between a wrapper and what is inside it is the same distinction in a different costume.
 
-Lesson 9 takes the largest financial decision most people make, which is housing, and one of its inputs is now on the table: homeowner's insurance is a line item in the cost of owning, and it is not a small one.
+Lesson 9 takes the largest financial decision most people make, which is housing, and one of its inputs is now on the table: homeowner's insurance is a line item in the cost of owning.
 
 ## Go deeper
 
