@@ -121,7 +121,7 @@ Around 180, Irenaeus, bishop of Lyon, wrote [*Against Heresies*](https://www.new
 
 You may find the argument odd, and two readings of it are available. On one, the argument from the four winds is the kind of reason people give for something already fixed rather than something still open. On the other, Irenaeus argues at all because the number *was* being pressed: Marcion had one gospel, Tatian had woven four into one, and other groups were reading others. Either way, the four he names are the four we have, a century and a half before Nicaea, and he names them as the church's rather than as his proposal.
 
-:::figure https://upload.wikimedia.org/wikipedia/commons/1/1b/Muratorian_Fragment.jpg | A page of the Muratorian Fragment, a Latin manuscript with faded brown ink on parchment, carrying a list of Christian writings that breaks off mid-sentence at the top
+:::figure https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Muratorian_Fragment.jpg/960px-Muratorian_Fragment.jpg | A page of the Muratorian Fragment, a Latin manuscript with faded brown ink on parchment, carrying a list of Christian writings that breaks off mid-sentence at the top
 The Muratorian Fragment, Biblioteca Ambrosiana, Milan (Cod. J 101 sup.). The Latin copy is seventh or eighth century; the list it copies is much older, and how much older is argued below. Photograph: public domain, via Wikimedia Commons.
 :::
 
@@ -166,7 +166,7 @@ Then the councils. In 393 a regional council at [Hippo](https://www.bible-resear
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 344 1060" role="img" aria-labelledby="canon-timeline-title canon-timeline-desc" style="width:100%;height:auto;font-family:inherit">
   <title id="canon-timeline-title">The canon in order, 132 BC to 1826</title>
   <desc id="canon-timeline-desc">Seventeen events in order down a vertical line, evenly spaced rather than drawn to scale. From the top: the Prologue to Sirach about 132 BC; Josephus about AD 95; Marcion about 144; Irenaeus about 180; the Muratorian Fragment, dated either about 170 to 200 or to the fourth century; Eusebius, written about 313 to 325; the Council of Nicaea in 325, marked with a square, whose surviving records do not mention the canon; Athanasius in 367, marked with a ring, the first surviving list of exactly our twenty-seven; Hippo and Carthage in 393 and 397; Jerome about 391 to 405; the Quinisext Council of 692, which ratified the earlier canon lists for the East; the Council of Florence in 1442, which listed the full canon with the deuterocanonical books in it; Luther in 1534; Trent in 1546; the King James Bible in 1611; the Synod of Jerusalem in 1672; and the Bible Society decision of 1826.</desc>
-  <line x1="16" y1="23" x2="16" y2="983" stroke="var(--line-strong, #0f2a4a)" stroke-width="2"/>
+  <line x1="16" y1="23" x2="16" y2="983" stroke="var(--text-2, #4a5260)" stroke-width="2"/>
   <circle cx="16" cy="23" r="6" fill="var(--navy, #0f2a4a)" stroke="var(--gold, #b08d2a)" stroke-width="2"/>
   <text x="34" y="28" font-size="16" font-weight="700" fill="var(--text)">c. 132 BC</text>
   <text x="34" y="48" font-size="15" fill="var(--text)">Prologue to Sirach names three parts:</text>
@@ -207,7 +207,7 @@ Then the councils. In 393 a regional council at [Hippo](https://www.bible-resear
   <circle cx="16" cy="563" r="6" fill="var(--navy, #0f2a4a)" stroke="var(--gold, #b08d2a)" stroke-width="2"/>
   <text x="34" y="568" font-size="16" font-weight="700" fill="var(--text)">c. 391 to 405</text>
   <text x="34" y="588" font-size="15" fill="var(--text)">Jerome: these books are "not in the</text>
-  <text x="34" y="606" font-size="15" fill="var(--text-2)">canon". The Vulgate keeps them anyway.</text>
+  <text x="30" y="606" font-size="15" fill="var(--text-2)">canon". The Vulgate keeps them anyway.</text>
   <circle cx="16" cy="623" r="6" fill="var(--navy, #0f2a4a)" stroke="var(--gold, #b08d2a)" stroke-width="2"/>
   <text x="34" y="628" font-size="16" font-weight="700" fill="var(--text)">692</text>
   <text x="34" y="648" font-size="15" fill="var(--text)">Quinisext Council ratifies the earlier</text>

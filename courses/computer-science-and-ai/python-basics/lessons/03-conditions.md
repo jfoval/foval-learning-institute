@@ -1,6 +1,6 @@
 ---
 title: Making decisions
-minutes: 25
+minutes: 10
 quiz:
   - q: Which operator tests whether two values are equal?
     options:

@@ -1,6 +1,6 @@
 ---
 title: Two unknowns at once
-minutes: 30
+minutes: 10
 quiz:
   - q: Solve y = x + 4 and 2x + y = 13.
     options:

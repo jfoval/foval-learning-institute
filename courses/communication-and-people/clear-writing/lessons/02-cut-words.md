@@ -1,6 +1,6 @@
 ---
 title: Cut the words that do nothing
-minutes: 25
+minutes: 10
 quiz:
   - q: Plain replacement for 'due to the fact that'?
     options:

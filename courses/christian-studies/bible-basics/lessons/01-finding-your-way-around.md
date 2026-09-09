@@ -136,22 +136,22 @@ The picture below puts all three arrangements side by side, drawn to one scale s
   <rect x="67" y="30" width="88" height="26" fill="var(--oxblood, #8b1e2d)"/>
   <rect x="159" y="30" width="121" height="26" fill="var(--gold, #b08d2a)"/>
   <text x="8" y="76" font-size="16" fill="var(--text, #1a1a1a)">Torah 5 · Nevi'im 8 · Ketuvim 11</text>
-  <text x="8" y="96" font-size="14" fill="var(--text-2, #4a5260)">Ends with Chronicles: "let him go up."</text>
+  <text x="8" y="96" font-size="15" fill="var(--text-2, #4a5260)">Ends with Chronicles: "let him go up."</text>
   <text x="8" y="134" font-size="18" font-weight="700" fill="var(--text, #0f2a4a)">Protestant Old Testament, 39 books</text>
   <rect x="8" y="144" width="55" height="26" fill="var(--navy, #0f2a4a)"/>
   <rect x="67" y="144" width="132" height="26" fill="var(--oxblood, #8b1e2d)"/>
   <rect x="203" y="144" width="55" height="26" fill="var(--gold, #b08d2a)"/>
   <rect x="262" y="144" width="187" height="26" fill="var(--text-2, #4a5260)"/>
   <text x="8" y="190" font-size="16" fill="var(--text, #1a1a1a)">Law 5 · History 12 · Poetry 5 · Prophets 17</text>
-  <text x="8" y="210" font-size="14" fill="var(--text-2, #4a5260)">Ends with Malachi: "I will send you Elijah."</text>
+  <text x="8" y="210" font-size="15" fill="var(--text-2, #4a5260)">Ends with Malachi: "I will send you Elijah."</text>
   <text x="8" y="248" font-size="18" font-weight="700" fill="var(--text, #0f2a4a)">New Testament, 27 books</text>
   <rect x="8" y="258" width="44" height="26" fill="var(--navy, #0f2a4a)"/>
   <rect x="56" y="258" width="11" height="26" fill="var(--oxblood, #8b1e2d)"/>
   <rect x="71" y="258" width="231" height="26" fill="var(--gold, #b08d2a)"/>
   <rect x="306" y="258" width="11" height="26" fill="var(--text-2, #4a5260)"/>
   <text x="8" y="304" font-size="16" fill="var(--text, #1a1a1a)">Gospels 4 · Acts 1 · Letters 21 · Revelation 1</text>
-  <text x="8" y="324" font-size="14" fill="var(--text-2, #4a5260)">Ends with Revelation: the new creation.</text>
-  <text x="8" y="356" font-size="13" fill="var(--text-2, #4a5260)">One scale throughout: eleven units per book.</text>
+  <text x="8" y="324" font-size="15" fill="var(--text-2, #4a5260)">Ends with Revelation: the new creation.</text>
+  <text x="8" y="356" font-size="15" fill="var(--text-2, #4a5260)">One scale throughout: eleven units per book.</text>
 </svg>
 
 Every row is drawn to the same ruler, eleven units per book, so you can compare them by eye. Notice
@@ -234,7 +234,7 @@ Here's mine. The first stanza is God speaking ("my servant"); the second is a gr
 
 Who the servant is has been argued between Jews and Christians for two thousand years, and lesson 4 takes it up: Jewish tradition has long read the servant as Israel, and Christians have read the passage of Jesus since the New Testament. Neither reading is the point here. The point here is that a number in the margin cut a poem in half.
 
-:::figure https://upload.wikimedia.org/wikipedia/commons/b/b2/Great_Isaiah_Scroll_Ch53.jpg | A column of the Great Isaiah Scroll from Qumran, showing the Hebrew text of Isaiah 53 with no chapter or verse numbers, written in continuous lines.
+:::figure https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Great_Isaiah_Scroll_Ch53.jpg/960px-Great_Isaiah_Scroll_Ch53.jpg | A column of the Great Isaiah Scroll from Qumran, showing the Hebrew text of Isaiah 53 with no chapter or verse numbers, written in continuous lines.
 The passage you just read, as it looked about two thousand years ago: a column of the Great Isaiah Scroll, found near the Dead Sea and now in the Israel Museum, containing Isaiah 53. No chapter number, no verse numbers, no heading, though the scribe did leave spaces between sections. Photograph by Ardon Bar Hama, from the Israel Museum, Jerusalem; public domain via Wikimedia Commons.[9]
 :::
 

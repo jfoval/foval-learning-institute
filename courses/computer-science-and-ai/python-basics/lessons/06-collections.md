@@ -1,6 +1,6 @@
 ---
 title: Lists and dictionaries
-minutes: 35
+minutes: 15
 quiz:
   - q: What is scores[0] if scores = [10, 20, 30]?
     options:

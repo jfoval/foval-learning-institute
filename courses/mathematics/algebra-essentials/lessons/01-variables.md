@@ -1,6 +1,6 @@
 ---
 title: What a variable is
-minutes: 20
+minutes: 5
 quiz:
   - q: Evaluate 4x − 3 when x = 5.
     options:

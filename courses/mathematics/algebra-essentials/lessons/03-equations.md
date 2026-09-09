@@ -1,6 +1,6 @@
 ---
 title: Solving linear equations
-minutes: 30
+minutes: 5
 quiz:
   - q: Solve 3x + 4 = 19.
     options:

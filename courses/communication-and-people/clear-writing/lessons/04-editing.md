@@ -1,6 +1,6 @@
 ---
 title: Structure, rhythm, and the edit
-minutes: 30
+minutes: 10
 quiz:
   - q: What should the first sentence of a paragraph do?
     options:

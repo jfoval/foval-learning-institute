@@ -1,6 +1,6 @@
 ---
 title: Be concrete
-minutes: 20
+minutes: 5
 quiz:
   - q: Which sentence is concrete?
     options:

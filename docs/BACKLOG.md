@@ -62,11 +62,24 @@ quality and not much of anything honestly."* He is right, and the numbers say ho
 > Writing averages **452**, Algebra **444**, Python **464**. Those three are not weak lessons. They
 > are placeholders that have been live for months with a `minutes: 20` label on 400 words.
 
-1. **The honesty pass. One session, cheap, do it first.** Nothing here needs research and all of it
-   is currently a small lie to a learner. Fix `minutes:` across all 51 lessons. Swap Bible Basics'
-   hotlinked full-size Wikimedia originals for the `/thumb/.../960px-` form, one of which is 6.7 MB
-   and is a rule 9 problem. Fix lesson 1's four sub-legible SVG labels and the two
-   `--line-strong`/`--navy` collisions in lessons 7 and 8. Detail in §14 and §4.
+1. ~~**The honesty pass.**~~ **DONE 2026-09-08.** All four parts, in one session.
+   - **`minutes:` is now measured, not guessed, and the measurement is a script.**
+     `npm run minutes` (`scripts/reading-time.mjs`) reports every lesson and `--write` fixes the ones
+     that are materially out. **31 of 51 were rewritten.** How to Learn Anything was understated by
+     20 to 30 minutes a lesson, Bible Basics lesson 11 by 80 (75 claimed for 14,908 words), and the
+     three stub courses were overstated by up to five times: 30 minutes claimed for 274 words. The
+     model and its calibration are documented in the script's header; the short version is that the
+     reading rate was solved for from the values a human had already measured by hand during Stage 4
+     (110 wpm for a course read with a Bible open, 140 for everything else), and an exercise costs
+     per numbered step rather than a flat figure, because "rewrite this sentence" and "open your bank
+     statements and categorise a month" are not the same three minutes.
+   - **Images: 294 MB down to 2.8 MB.** Ten Bible Basics figures hotlinked full-size Wikimedia
+     originals, including a **256 MB** Google Art Project scan of Rembrandt's *Prodigal Son* and the
+     6.7 MB Treaty of Kadesh. They now use the `/thumb/.../960px-` form. Three figures were left
+     alone because their originals are already smaller than the thumbnail would be; the rule is to
+     measure rather than convert blindly.
+   - **Bible Basics lesson 1's four sub-legible SVG labels** are at font-size 15.
+   - **All ten SVG token collisions** are fixed, not just lessons 7 and 8. See §14.
 
 2. **Clear Writing, rebuilt.** T1, four stubs, and the course about writing well is the worst-written
    thing on the site. That is the one that costs credibility. **It is a rebuild, not an
@@ -173,12 +186,18 @@ courses, 51 lessons built.** Three things shipped on 2026-09-08 and all are live
 2. **Bible Basics published.** Twelve lessons through Stage 4, both assessments.
 3. **Stage 4 cut to one reviewer, the marching order reset, the whole map placed on the Core, and
    `#/map` built.** §1, §2, and the changelog.
+4. **The honesty pass, queue item 1.** Reading times measured and rewritten in 31 lessons, 294 MB of
+   hotlinked images down to 2.8 MB, and every SVG defect on the site cleared. §2 item 1.
 
-**Start at §2 item 1.**
+**Start at §2 item 2: Clear Writing, rebuilt.** Item 1, the honesty pass, closed on 2026-09-08.
+
+The site's only remaining validator warnings, sixteen of them, are all in the three stub courses:
+fifteen lessons with no links in the body and one lesson flagged as too short at 243 words. Bible
+Basics, Logic and Argument, How to Learn Anything and Personal Finance are warning-free.
 
 ### Open items Bible Basics left behind, none of them blocking
 
-*Items 3 to 5 are queue item 1, the honesty pass. Items 1 and 2 stand on their own.*
+*Items 3 to 5 were queue item 1 and are closed. Item 2 is the only one still open.*
 
 1. ~~**The strongest King James Only position.**~~ **CLOSED 2026-09-08.** Written from primary
    sources: Riplinger's *Hazardous Materials* chapter 31, free on her own publisher's site, for the
@@ -193,12 +212,11 @@ courses, 51 lessons built.** Three things shipped on 2026-09-08 and all are live
 2. **Fee and Stuart's *How to Read the Bible Book by Book*** is characterised in lesson 12 from the
    publisher's description. It is the pattern the course project asks learners to use, so someone
    should open it and confirm the four headings.
-3. **Lesson 1 has four sub-legible SVG labels.** Lessons 7 and 8 also warn on `--line-strong` and
-   `--navy` rendering identically in one theme.
-4. **Every `:::figure` except lessons 10, 11 and 12 hotlinks a full-size Wikimedia original**, one of
-   them 6.7 MB. Use the `/thumb/.../960px-` form. A rule 9 problem, not a cosmetic one.
-5. **Reading times have not been audited anywhere.** Four of Bible Basics' twelve `minutes:` values
-   were out by more than an hour and one by a factor of three.
+3. ~~**Lesson 1's four sub-legible SVG labels**, and the `--line-strong`/`--navy` collisions.~~
+   **CLOSED 2026-09-08**, along with the same collision in lessons 2 and 6.
+4. ~~**Full-size Wikimedia originals hotlinked.**~~ **CLOSED 2026-09-08.** 294 MB to 2.8 MB.
+5. ~~**Reading times never audited.**~~ **CLOSED 2026-09-08.** Measured by `npm run minutes` and
+   rewritten in 31 of 51 lessons.
 
 ### One correction worth keeping for its general lesson
 
@@ -519,23 +537,29 @@ level, term and status. `#/standards` is the same job on a different file and is
 
 ## 14. Known defects not yet fixed, course-wide
 
-- **28 lessons have no links in the body** (was 38 before the How to Learn Anything media pass),
-  against 4.5. Warned by the linter. Needs per-lesson
-  judgement about which sources to link, so it belongs in each lesson's review pass.
-- **SVG labels under font-size 15** in several lessons. Warned by the linter. Raising a font size in
-  a fixed viewBox can overflow, so each needs the viewBox widened rather than a blind bump. Logic
-  lesson 10's SVG is the worst and is the anti-pattern, not the template: it hardcodes colours and
-  uses font-size 9 and 10.
+- **15 lessons have no links in the body**, against 4.5 (was 28 before the honesty pass, and 38
+  before that). Every one of the fifteen is in the three stub courses, so this defect is now
+  entirely inside queue items 2, 4 and 5 and gets fixed when those courses are rebuilt. Warned by
+  the linter.
+- ~~**SVG labels under font-size 15.**~~ **FIXED 2026-09-08.** The last four were in Bible Basics
+  lesson 1 and are now 15. Nothing on the site trips this check. The standing rule when it recurs:
+  raising a font size in a fixed viewBox can overflow, so widen the viewBox rather than bump
+  blindly.
 - **Answer leaks: the six published ones are FIXED (2026-09-06) and the lint is promoted.** All
   six in How to Learn Anything (lessons 1, 2, 3, 5 twice, 7) are `:::checkpoint` blocks now,
   and the lint fails the build on a published course. Eight remain in drafts (seven in Bible
   Basics, one in Logic 9); they warn with the draft tag and will block those courses'
   publishing, which is the point. Find them: `npm run validate | grep "prints the answer"`.
-- **Ten SVG token collisions**, where a chart uses two tokens that resolve to the same colour to
-  tell two things apart. `--line-strong` and `--navy` are byte-identical in both themes (`#0f2a4a`
-  light, `#c9d3e2` dark), so those charts render as one solid block. Logic lesson 9's is the worst:
-  its caption describes a "grey bar" that is not grey and never was. Also in bible-basics 2, 6 and
-  7. The build now warns on each (`npm run validate | grep "render identically"`).
+- ~~**Ten SVG token collisions.**~~ **FIXED 2026-09-08, all of them.** `--line-strong` and `--navy`
+  are byte-identical in both themes (`#0f2a4a` light, `#c9d3e2` dark), and five charts across Bible
+  Basics 2, 6, 7 and 8 used the pair to tell two things apart. In every case the thing on
+  `--line-strong` was an axis, a spine or a legend swatch that the author had already given a grey
+  literal fallback, so the fix was `--text-2` and the intent was already written down. Two charts
+  needed more than a token swap, because moving them to `--text-2` would have collided with a
+  category already using it: lesson 7's idealist bar and lesson 2's Acts 1 and 2 sliver are now
+  outlines rather than solid blocks, which is also the better picture in both cases. Both were
+  checked by eye in both themes. **The general lesson: when a chart needs a fifth treatment and the
+  palette has four strong colours, an outline is the fifth, not a second grey.**
 - **Five lessons still carry greys outside the palette** in SVG fills.
 - ~~**Nine SVG labels run past their own viewBox and are silently clipped by the browser.**~~ Fixed
   on 6 September 2026, and the linter now holds the line. Eight were real and each took the fix its

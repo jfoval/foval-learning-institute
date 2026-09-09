@@ -1,6 +1,6 @@
 ---
 title: "Spacing: when to come back"
-minutes: 45
+minutes: 65
 audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/learning-and-mind/how-to-learn-anything/04-spacing.mp3
 objectives:
   - Calculate a sensible review gap from how long you need to remember something

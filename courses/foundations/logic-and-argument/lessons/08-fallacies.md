@@ -1,6 +1,6 @@
 ---
 title: "Fallacies: the names, the patterns, and why the experts warn you about the names"
-minutes: 80
+minutes: 125
 objectives:
   - Identify the standard informal fallacies by name and group in documented real cases, and write the two-line schema for each
   - Explain, for a given fallacy, the cogent argument that shares its surface form and the critical questions that tell the two apart

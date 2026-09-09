@@ -1,6 +1,6 @@
 ---
 title: What an argument is, and how to find the missing step
-minutes: 60
+minutes: 85
 objectives:
   - Identify the conclusion and premises of a passage and rewrite it in standard form
   - Distinguish an argument from an explanation, a report, a bare assertion, and a lone conditional

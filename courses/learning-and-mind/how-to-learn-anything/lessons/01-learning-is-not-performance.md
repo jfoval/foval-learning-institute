@@ -1,6 +1,6 @@
 ---
 title: Learning is not performance
-minutes: 40
+minutes: 70
 audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/learning-and-mind/how-to-learn-anything/01-learning-is-not-performance.mp3
 objectives:
   - Explain the difference between storage strength and retrieval strength, and why the two can come apart

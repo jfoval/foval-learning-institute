@@ -1,6 +1,6 @@
 ---
 title: Choosing a translation
-minutes: 75
+minutes: 155
 objectives:
   - Explain what source texts modern translations are made from and why the King James Version differs from them at passages like 1 John 5:7
   - Compare formal, functional, and free translation and place the major English versions on the spectrum with reasons

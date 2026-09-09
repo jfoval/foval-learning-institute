@@ -1,6 +1,6 @@
 ---
 title: How the text reached us, and how reliable it is
-minutes: 110
+minutes: 140
 objectives:
   - Describe how a hand-copied text is reconstructed from many copies, and why age, geographical spread, and the harder reading each count as evidence
   - State what the Great Isaiah Scroll and the fourth-century Greek codices each showed, and what each did not show
@@ -120,7 +120,7 @@ Start with the oldest thing we have. In 1979, in a burial cave at Ketef Hinnom o
 
 They date to the late seventh or early sixth century BC, before the Babylonian exile.[3] They are amulets, not Bibles, and they are the oldest surviving biblical text of any kind: a few lines, from the First Temple, that a Jew in Jerusalem could read in a synagogue this week.
 
-:::figure https://upload.wikimedia.org/wikipedia/commons/f/ff/Ketef_Hinnom_KH2_Scroll.jpg | The second Ketef Hinnom silver scroll, unrolled and flattened, a narrow strip of dark silver with faint scratched Hebrew letters, showing the priestly blessing of Numbers 6
+:::figure https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Ketef_Hinnom_KH2_Scroll.jpg/960px-Ketef_Hinnom_KH2_Scroll.jpg | The second Ketef Hinnom silver scroll, unrolled and flattened, a narrow strip of dark silver with faint scratched Hebrew letters, showing the priestly blessing of Numbers 6
 The second Ketef Hinnom silver scroll (KH2), late seventh or early sixth century BC, the oldest surviving text from the Hebrew Bible. Israel Museum, Jerusalem. Image: public domain, via Wikimedia Commons.
 :::
 
@@ -128,7 +128,7 @@ That's a fragment. For the text as a whole, the story before 1947 was this. The 
 
 That is the Protestant and Catholic practice, and it rests on a decision worth naming. The Orthodox churches take a different view, and a considered one: for them the Septuagint is the church's Old Testament, because it is what the apostles quoted and what the Greek-speaking church has read for nineteen centuries. So "which text" is not only a technical question. It is partly a question about which community's reception counts, which is the same question lesson 8 met over which books.
 
-:::figure https://upload.wikimedia.org/wikipedia/commons/5/57/Leningrad_Codex_Folio_008a.jpg | A page of the Leningrad Codex, three columns of Hebrew text with vowel points, surrounded by small marginal notes, on parchment
+:::figure https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Leningrad_Codex_Folio_008a.jpg/960px-Leningrad_Codex_Folio_008a.jpg | A page of the Leningrad Codex, three columns of Hebrew text with vowel points, surrounded by small marginal notes, on parchment
 The Leningrad Codex, folio 8a, showing Genesis 14–15, copied in 1008 or 1009. The three columns are the biblical text with the Masoretes' vowel points; the small writing in the margins is their apparatus of notes and counts. Nearly every modern Old Testament translation is made from a printed edition based on this manuscript. Image: public domain, via Wikimedia Commons.
 :::
 
@@ -136,7 +136,7 @@ So before 1947, the oldest complete Hebrew text of Isaiah was about 1,700 years 
 
 Between 1947 and 1956, eleven caves near Qumran yielded the Dead Sea Scrolls. On the [Israel Antiquities Authority's](https://www.deadseascrolls.org.il/explore-the-archive) count, about 230 of the manuscripts are biblical, and every book of the Hebrew Bible is represented except Esther.[6] Most are fragments. One is not. The Great Isaiah Scroll, catalogued as 1QIsa^a, is a complete copy of Isaiah, all sixty-six chapters, on seventeen sheets of prepared skin sewn end to end into a roll about seven metres long. By the shape of its letters it is dated to about 125 BC; radiocarbon tests give a range of roughly 350 to 100 BC.[7]
 
-:::figure https://upload.wikimedia.org/wikipedia/commons/3/31/Great_Isaiah_Scroll.jpg | The Great Isaiah Scroll unrolled, a long strip of tan leather with columns of dense Hebrew writing, some sheets darker than others where they were sewn together
+:::figure https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Great_Isaiah_Scroll.jpg/960px-Great_Isaiah_Scroll.jpg | The Great Isaiah Scroll unrolled, a long strip of tan leather with columns of dense Hebrew writing, some sheets darker than others where they were sewn together
 The Great Isaiah Scroll (1QIsa^a) from Qumran Cave 1, about 125 BC, the only complete biblical book among the Dead Sea Scrolls. Photograph by Ardon Bar Hama, courtesy of the Israel Museum, Jerusalem; public domain, via Wikimedia Commons.
 :::
 
@@ -318,7 +318,7 @@ A King James reader has just found the clearest statement of the Trinity in the 
 
 Here's the evidence, [from Metzger again](http://www.bible-researcher.com/comma.html). The words are "absent from every known Greek manuscript except eight", and he lists them: the earliest that has the words in its actual text is a manuscript from the fourteenth or fifteenth century; the rest are sixteenth century or later, or are older manuscripts where a later hand added the words in the margin.[25] The passage "is quoted by none of the Greek Fathers", who would have loved it in the fourth-century Trinitarian controversies if they had known it.[25] Its earliest appearance is in a Latin treatise of the fourth century, attributed to the Spaniard Priscillian or a follower, and from there it made its way into copies of the Latin Vulgate.[25]
 
-:::figure https://upload.wikimedia.org/wikipedia/commons/3/3c/Codex_Montfortianus_%28Comma%29.jpg | A page of Codex Montfortianus in a small sixteenth-century Greek hand, with the disputed Trinitarian clause of 1 John 5 visible in the text
+:::figure https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Codex_Montfortianus_%28Comma%29.jpg/960px-Codex_Montfortianus_%28Comma%29.jpg | A page of Codex Montfortianus in a small sixteenth-century Greek hand, with the disputed Trinitarian clause of 1 John 5 visible in the text
 Codex Montfortianus (minuscule 61), early sixteenth century, Trinity College Dublin. One of the eight Greek manuscripts on Metzger's list, and the one produced when Erasmus was challenged over leaving the words out. Image: public domain, via Wikimedia Commons.
 :::
 

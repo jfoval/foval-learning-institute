@@ -1,6 +1,6 @@
 ---
 title: Repeating with loops
-minutes: 30
+minutes: 15
 quiz:
   - q: What does range(3) produce?
     options:

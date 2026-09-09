@@ -1,6 +1,6 @@
 ---
 title: Variables and types
-minutes: 25
+minutes: 10
 quiz:
   - q: After running x = 5 then x += 3, what is x?
     options:

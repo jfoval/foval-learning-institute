@@ -1,6 +1,6 @@
 ---
 title: Straight lines and slope
-minutes: 30
+minutes: 10
 quiz:
   - q: In y = −4x + 7, what is the slope?
     options:

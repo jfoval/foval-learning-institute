@@ -1,6 +1,6 @@
 ---
 title: Where your money actually goes
-minutes: 60
+minutes: 45
 objectives:
   - Categorise a month of your own transactions into buckets and compare each bucket to your take-home pay
   - Distinguish fixed from variable costs and identify which kind of fix a tight budget needs

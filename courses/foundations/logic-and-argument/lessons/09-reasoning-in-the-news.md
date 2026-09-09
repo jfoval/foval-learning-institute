@@ -1,6 +1,6 @@
 ---
 title: Bad reasoning in the news and everyday life
-minutes: 90
+minutes: 120
 objectives:
   - Evaluate a source with the four rules for sources (cite, informed, impartial, cross-check) and explain what to look for when qualified experts disagree
   - Convert a relative-risk headline into absolute terms and natural frequencies, and find the missing base rate, denominator or axis baseline in a claim or a chart

@@ -1,6 +1,6 @@
 ---
 title: 'Functions: reusable pieces'
-minutes: 30
+minutes: 10
 quiz:
   - q: What does 'def' do?
     options:

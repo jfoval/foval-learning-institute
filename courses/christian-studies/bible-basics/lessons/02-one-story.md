@@ -1,6 +1,6 @@
 ---
 title: "One story: Genesis to Revelation in a single sitting"
-minutes: 90
+minutes: 135
 audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/christian-studies/bible-basics/02-one-story.mp3
 objectives:
   - Place any book of the Bible on the timeline of the one story, in the right act and on the right side of the four-hundred-year gap
@@ -101,15 +101,15 @@ Second, notice how lopsided the acts are. Count the chapters. A Protestant Bible
 
 <svg viewBox="0 0 584 225" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:584px;display:block;margin:1.5em auto;font-family:system-ui,sans-serif" role="img" aria-labelledby="bulk-title bulk-desc">
   <title id="bulk-title">Chapters per act: Act 3 is 918 of the Bible's 1,189 chapters</title>
-  <desc id="bulk-desc">A single horizontal bar divided into five segments in proportion to the number of chapters in each act. Acts 1 and 2 together (Genesis 1 to 11) are 11 chapters. Act 3 (Genesis 12 to Malachi) is 918. Act 4, the four Gospels, is 89. Act 5, Acts through Jude, is 149. Act 6, Revelation, is 22. Act 3 fills about three quarters of the bar.</desc>
+  <desc id="bulk-desc">A single horizontal bar divided into five segments in proportion to the number of chapters in each act. Acts 1 and 2 are drawn as a pale outlined sliver because eleven chapters is barely a mark at this scale. Acts 1 and 2 together (Genesis 1 to 11) are 11 chapters. Act 3 (Genesis 12 to Malachi) is 918. Act 4, the four Gospels, is 89. Act 5, Acts through Jude, is 149. Act 6, Revelation, is 22. Act 3 fills about three quarters of the bar.</desc>
   <text x="20" y="22" font-size="17" font-weight="700" fill="var(--text, #1a1a1a)">Where the bulk sits: chapters per act</text>
-  <rect x="20" y="36" width="5" height="34" fill="var(--line-strong, #9a9a9a)"/>
+  <rect x="20" y="36" width="5" height="34" fill="var(--navy-soft, #e8eef6)" stroke="var(--text-2, #4a5260)" stroke-width="1"/>
   <rect x="25" y="36" width="420" height="34" fill="var(--oxblood, #8b1e2d)"/>
   <rect x="445" y="36" width="41" height="34" fill="var(--navy, #0f2a4a)"/>
   <rect x="486" y="36" width="68" height="34" fill="var(--gold, #b08d2a)"/>
   <rect x="554" y="36" width="10" height="34" fill="var(--text-2, #4a5260)"/>
   <text x="34" y="59" font-size="15" font-weight="700" fill="var(--bg, #ffffff)">Act 3, Israel</text>
-  <rect x="20" y="90" width="15" height="15" fill="var(--line-strong, #9a9a9a)"/>
+  <rect x="20" y="90" width="15" height="15" fill="var(--navy-soft, #e8eef6)" stroke="var(--text-2, #4a5260)" stroke-width="1"/>
   <text x="44" y="103" font-size="15" fill="var(--text, #1a1a1a)">Acts 1 and 2, Genesis 1 to 11: 11 chapters</text>
   <rect x="20" y="114" width="15" height="15" fill="var(--oxblood, #8b1e2d)"/>
   <text x="44" y="127" font-size="15" fill="var(--text, #1a1a1a)">Act 3, Genesis 12 to Malachi: 918</text>
@@ -171,7 +171,7 @@ This is the act most readers get lost in, laid out so you can find your place. R
 <svg viewBox="0 0 584 880" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:584px;display:block;margin:1.5em auto;font-family:system-ui,sans-serif" role="img" aria-labelledby="tl-title tl-desc">
   <title id="tl-title">The six acts of the Bible's story, with the books of Act 3 in order</title>
   <desc id="tl-desc">A vertical timeline. Act 1 Creation and Act 2 Fall at the top (Genesis 1 to 11). Act 3 Israel runs from Genesis 12 through the patriarchs, Egypt and Sinai, conquest and judges, the united kingdom, the divided kingdom, the fall of Samaria in 722 BC, the fall of Jerusalem and the exile in 586 BC, and the return under Persia, ending with Malachi. Two fixed archaeological points are marked in the pre-exilic stretch: the Tel Dan stele of the ninth century BC and the Ketef Hinnom amulets of the late seventh century BC. A four-hundred-year gap follows, empty of books in a Protestant Bible. Act 4 Jesus (the four Gospels, around AD 30). Act 5 Church (Acts and the letters). Act 6 New creation (Revelation, ending at chapters 21 and 22).</desc>
-  <line x1="44" y1="20" x2="44" y2="800" stroke="var(--line-strong, #9a9a9a)" stroke-width="2"/>
+  <line x1="44" y1="20" x2="44" y2="800" stroke="var(--text-2, #4a5260)" stroke-width="2"/>
   <circle cx="44" cy="32" r="6" fill="var(--navy, #0f2a4a)"/>
   <text x="60" y="37" font-size="17" font-weight="700" fill="var(--navy, #0f2a4a)">Act 1  Creation</text>
   <text x="60" y="59" font-size="15" fill="var(--text-2, #4a5260)">Genesis 1 to 2</text>
@@ -229,7 +229,7 @@ A few things to notice on the map.
 
 For the rest, the map gives periods rather than years, and that's deliberate. The dates of Abraham, the exodus, and the conquest are argued. So, for some of them, is more than the date: the scale of the exodus, the extent of the conquest, and the historicity of the patriarchal narratives are all live scholarly disputes, and this course will say so in lesson 10 and hand the detail to *Hard Questions*. You don't need those dates to read. You need the order.
 
-:::figure https://upload.wikimedia.org/wikipedia/commons/4/40/JRSLM_300116_Tel_Dan_Stele_01.jpg | The Tel Dan stele, a dark basalt fragment with lines of Aramaic script cut into it, displayed in a museum case
+:::figure https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/JRSLM_300116_Tel_Dan_Stele_01.jpg/960px-JRSLM_300116_Tel_Dan_Stele_01.jpg | The Tel Dan stele, a dark basalt fragment with lines of Aramaic script cut into it, displayed in a museum case
 The Tel Dan stele in the Israel Museum, Jerusalem. Found in 1993, ninth century BC, it records an Aramean king's victory over "the House of David". Photo: Oren Rozen, Wikimedia Commons, CC BY-SA 4.0.
 :::
 

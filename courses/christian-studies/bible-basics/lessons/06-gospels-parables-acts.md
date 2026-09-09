@@ -1,6 +1,6 @@
 ---
 title: Reading the Gospels, the parables, and Acts
-minutes: 105
+minutes: 140
 objectives:
   - Explain why there are four Gospels, and read one event across the parallel accounts without forcing them into one
   - Apply the one-point-with-a-punch rule to a parable and identify allegorising when you see it
@@ -272,7 +272,7 @@ Notice what the allegorised version lost. The robe and the ring and the calf all
 
 There's a painting of this below, and the thing to look at in it is not the father and son at all.
 
-:::figure https://upload.wikimedia.org/wikipedia/commons/9/93/Rembrandt_Harmensz_van_Rijn_-_Return_of_the_Prodigal_Son_-_Google_Art_Project.jpg | Rembrandt's painting of the return of the prodigal son: the father in a red cloak bends over the kneeling son, whose back is to the viewer, while a tall figure stands to the right, watching, outside the embrace.
+:::figure https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Rembrandt_Harmensz_van_Rijn_-_Return_of_the_Prodigal_Son_-_Google_Art_Project.jpg/960px-Rembrandt_Harmensz_van_Rijn_-_Return_of_the_Prodigal_Son_-_Google_Art_Project.jpg | Rembrandt's painting of the return of the prodigal son: the father in a red cloak bends over the kneeling son, whose back is to the viewer, while a tall figure stands to the right, watching, outside the embrace.
 Rembrandt, *The Return of the Prodigal Son*, c. 1668, Hermitage Museum, St Petersburg. Public domain (the artist died in 1669); image via Wikimedia Commons / Google Art Project. Look at the figure standing on the right, lit but apart. Whether or not Rembrandt meant him as the older brother, he is where the parable leaves its first hearers: at the edge of the party, not yet in.
 :::
 
@@ -427,7 +427,7 @@ The chart below puts both datings on one axis. The distance between the two camp
   <rect x="177" y="328" width="19" height="14" fill="var(--navy, #0f2a4a)"/>
   <text x="0" y="364" font-size="15" fill="var(--text-2, #4a5260)">Conservative: John, 80 to 85</text>
   <rect x="242" y="370" width="23" height="14" fill="var(--navy, #0f2a4a)"/>
-  <line x1="8" y1="394" x2="336" y2="394" stroke="var(--line-strong, #0f2a4a)" stroke-width="1"/>
+  <line x1="8" y1="394" x2="336" y2="394" stroke="var(--text-2, #4a5260)" stroke-width="1"/>
   <text x="8" y="412" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">30</text>
   <text x="102" y="412" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">50</text>
   <text x="195" y="412" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">70</text>

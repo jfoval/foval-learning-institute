@@ -1,6 +1,6 @@
 ---
 title: Simplifying expressions
-minutes: 25
+minutes: 5
 quiz:
   - q: Simplify 7x − 2x + 3.
     options:

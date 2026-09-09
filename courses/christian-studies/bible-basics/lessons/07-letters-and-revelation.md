@@ -237,7 +237,7 @@ Add them. Now drop the final nun, worth 50, which is what happens when you spell
 You will have got 666 and then 616 from the table above, which is the point: one name produces both numbers, depending on which spelling of it you start from. The oldest surviving witness to the 616 reading is Papyrus 115, a set of Oxyrhynchus fragments now in Oxford, dated by its editor to the late third or early fourth century, though the standard manuscript lists date it earlier, to about 225 to 275.[7] Codex Ephraemi, from the fifth century, also reads 616.[7] Modern editions still print 666 and treat 616 as the secondary reading, so this isn't a knockdown. What it does show is that the number was already being wrestled with by readers who couldn't agree on its digits, which is a hard place from which to build a reading that depends on them.
 :::
 
-:::figure https://upload.wikimedia.org/wikipedia/commons/5/58/Oxford%2C_Sackler_Library_Ms_LXIV_4499_%28Papyrus_115%29_Plate_3_verso_crop_Number_of_the_Beast_%CF%87%CE%B9%CF%9B_616.jpg | Fragment of Papyrus 115 showing Revelation 13:18 with the number of the beast written as the Greek letters chi, iota, digamma, which is 616
+:::figure https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Oxford%2C_Sackler_Library_Ms_LXIV_4499_%28Papyrus_115%29_Plate_3_verso_crop_Number_of_the_Beast_%CF%87%CE%B9%CF%9B_616.jpg/960px-Oxford%2C_Sackler_Library_Ms_LXIV_4499_%28Papyrus_115%29_Plate_3_verso_crop_Number_of_the_Beast_%CF%87%CE%B9%CF%9B_616.jpg | Fragment of Papyrus 115 showing Revelation 13:18 with the number of the beast written as the Greek letters chi, iota, digamma, which is 616
 Papyrus 115 (P.Oxy. LXIV 4499), Sackler Library, Oxford: the oldest surviving copy that reads 616 at Revelation 13:18. The number is written as three Greek letters with a line above them, the way numerals were written. The third-century Chester Beatty papyrus P47 also carries this verse and reads 666, so this is the oldest witness to the variant rather than the oldest copy of the verse. Image via Wikimedia Commons, public domain.[16]
 :::
 
@@ -271,16 +271,16 @@ So far the rules have been the ones nearly every serious commentator accepts. No
 
 <svg viewBox="0 0 344 330" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="schools-title schools-desc" style="max-width:100%;height:auto;font-family:inherit">
   <title id="schools-title">Where each school locates the events of Revelation 4 to 19</title>
-  <desc id="schools-desc">A schematic line, not drawn to scale, running from John's own day through today to the return of Christ. The preterist bar sits at the left, in the first century. The historicist bar runs the whole length in five separate blocks, because that school reads the events as eras following one another in order. The futurist bar sits at the right, just before the return. The idealist bar runs the whole length unbroken, because that school reads the events as one pattern present in every age rather than as a sequence. Each row is named in text, so nothing here depends on telling the colours apart.</desc>
+  <desc id="schools-desc">A schematic line, not drawn to scale, running from John's own day through today to the return of Christ. The preterist bar sits at the left, in the first century. The historicist bar runs the whole length in five separate blocks, because that school reads the events as eras following one another in order. The futurist bar sits at the right, just before the return. The idealist bar runs the whole length as an outline rather than a solid block, because that school reads the events as one pattern present in every age rather than as a period you could shade in. Each row is named in text, so nothing here depends on telling the colours apart.</desc>
   <text x="0" y="18" font-size="16" font-weight="600" fill="var(--text-2, #4a5260)">Where each school puts</text>
   <text x="0" y="38" font-size="16" font-weight="600" fill="var(--text-2, #4a5260)">Revelation 4 to 19</text>
   <text x="0" y="62" font-size="15" fill="var(--text-2, #4a5260)">John's day</text>
   <text x="172" y="62" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">today</text>
-  <text x="344" y="62" font-size="15" text-anchor="end" fill="var(--text-2, #4a5260)">Christ returns</text>
-  <line x1="10" y1="72" x2="334" y2="72" stroke="var(--line-strong, #4a5260)" stroke-width="1.5"/>
-  <line x1="14" y1="66" x2="14" y2="78" stroke="var(--line-strong, #4a5260)" stroke-width="1.5"/>
-  <line x1="172" y1="66" x2="172" y2="78" stroke="var(--line-strong, #4a5260)" stroke-width="1.5"/>
-  <line x1="330" y1="66" x2="330" y2="78" stroke="var(--line-strong, #4a5260)" stroke-width="1.5"/>
+  <text x="332" y="62" font-size="15" text-anchor="end" fill="var(--text-2, #4a5260)">Christ returns</text>
+  <line x1="10" y1="72" x2="334" y2="72" stroke="var(--text-2, #4a5260)" stroke-width="1.5"/>
+  <line x1="14" y1="66" x2="14" y2="78" stroke="var(--text-2, #4a5260)" stroke-width="1.5"/>
+  <line x1="172" y1="66" x2="172" y2="78" stroke="var(--text-2, #4a5260)" stroke-width="1.5"/>
+  <line x1="330" y1="66" x2="330" y2="78" stroke="var(--text-2, #4a5260)" stroke-width="1.5"/>
   <text x="0" y="98" font-size="15" font-weight="600" fill="var(--navy, #0f2a4a)">Preterist</text>
   <rect x="14" y="106" width="26" height="14" fill="var(--navy, #0f2a4a)"/>
   <text x="0" y="136" font-size="15" fill="var(--text-2, #4a5260)">the first century: Rome, or Jerusalem in 70</text>
@@ -295,7 +295,7 @@ So far the rules have been the ones nearly every serious commentator accepts. No
   <rect x="280" y="238" width="40" height="14" fill="var(--gold, #b08d2a)"/>
   <text x="0" y="268" font-size="15" fill="var(--text-2, #4a5260)">a short period just before the end</text>
   <text x="0" y="296" font-size="15" font-weight="600" fill="var(--text-2, #4a5260)">Idealist</text>
-  <rect x="14" y="304" width="306" height="14" fill="var(--text-2, #4a5260)"/>
+  <rect x="14" y="304" width="306" height="14" fill="none" stroke="var(--text-2, #4a5260)" stroke-width="1.5"/>
   <text x="0" y="330" font-size="15" fill="var(--text-2, #4a5260)">every age at once: a pattern, not a sequence</text>
 </svg>
 

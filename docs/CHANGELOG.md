@@ -6,6 +6,51 @@ the institute works. Items move here out of `BACKLOG.md` when they are done.
 Everything from the founding onwards is here. Entries before 2026-09-06 came from the old root
 `CHANGELOG.md`, which was merged into this file on 2026-09-06 so there is only one changelog.
 
+## 2026-09-08 (evening) — the honesty pass: reading times, images, and every chart defect
+
+Queue item 1. Nothing here needed research and all of it was a small lie to a learner.
+
+**`minutes:` is now measured, and the measurement is a script.** `npm run minutes`
+(`scripts/reading-time.mjs`) reports claimed against modelled time for every lesson; `--write` fixes
+the ones that are materially out. **31 of 51 lessons were rewritten.** How to Learn Anything was
+understated by 20 to 30 minutes a lesson, Logic lesson 8 by 45, Bible Basics lesson 11 by 80 (it
+claimed 75 minutes for 14,908 words), and the three pre-pipeline stub courses were overstated by up
+to five times, one claiming 30 minutes for 274 words.
+
+The model is documented in the script's header. Two things about it are worth keeping. Its reading
+rate was not picked, it was **solved for from the values a human had already measured by hand**
+during Stage 4: 988 reading minutes over 111,027 words in Bible Basics gives 110 wpm for a course
+read with a Bible open, and 540 over 74,961 in Logic gives 140 for everything else. And an exercise
+is costed **per numbered step plus any duration it states about itself**, not at a flat rate: a first
+version priced every exercise at three minutes and wanted to cut forty minutes off lessons that were
+already right, which is how the flat rate was caught. A second version read "twenty minutes" out of
+How to Learn Anything's *subject matter* and added ninety minutes to a lesson about study
+scheduling, so the duration parser now requires a cue word at the start of a sentence and caps its
+contribution. Where the model and a hand-set number disagree by less than ten minutes, or by less
+than fifteen percent, the hand-set number stands.
+
+**Images: 294 MB down to 2.8 MB.** Ten Bible Basics `:::figure` blocks hotlinked full-size Wikimedia
+originals, including a **256 MB** Google Art Project scan of Rembrandt's *Return of the Prodigal Son*
+and the 6.7 MB Treaty of Kadesh, on a site whose rule 9 says it must run fast on cheap phones. They
+now use the `/thumb/.../960px-` form. Three were left alone: their originals are already smaller than
+the thumbnail would be, which is why they were measured rather than converted blindly.
+
+**Every SVG defect on the site is cleared.** Bible Basics lesson 1's four sub-legible labels are at
+font-size 15. All ten `--line-strong`/`--navy` token collisions are gone, across lessons 2, 6, 7 and
+8, not just the two the backlog named. The pair is byte-identical in both themes, so an axis, a
+spine or a legend swatch was rendering in the same colour as a category. In every case the author
+had already written a grey literal fallback beside the token, so the intent was on record and the
+fix was `--text-2`. Two charts needed more: lesson 7's idealist bar and lesson 2's eleven-chapter
+Acts 1 and 2 sliver would then have collided with a category already on `--text-2`, so both are now
+outlines rather than solid blocks. That reads better in both cases, and gives a general rule: **when
+a chart needs a fifth treatment and the palette has four strong colours, the fifth is an outline,
+not a second grey.** Two clipped labels were also brought inside their viewBoxes. Every changed
+chart was checked by eye in both themes.
+
+The site's remaining sixteen validator warnings are all in the three stub courses and go away when
+those are rebuilt. Bible Basics, Logic and Argument, How to Learn Anything and Personal Finance are
+warning-free.
+
 ## 2026-09-08 (later still) — the whole map goes on the Core, and a real map page
 
 **John's model, and it is now the frame every doc uses.** There are three ways into the institute:

@@ -14,7 +14,8 @@
     "net": "node scripts/net-quotes.mjs",
     "build:drafts": "node scripts/build.mjs --drafts",
     "shots": "node scripts/screenshots.mjs",
-    "card": "node scripts/social-card.mjs"
+    "card": "node scripts/social-card.mjs",
+    "minutes": "node scripts/reading-time.mjs"
   },
   "license": "CC-BY-SA-4.0",
   "dependencies": {
