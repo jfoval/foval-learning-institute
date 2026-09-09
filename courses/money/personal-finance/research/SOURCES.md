@@ -334,3 +334,131 @@ answer that depends on lesson 2's cushion rather than on the policy.
   traditional IRA's begin at 73; and Roth distributions follow ordering rules that take regular
   contributions out first, so those come back tax free. Note that the RMD age moves to 75 for people
   born in 1960 or later under SECURE 2.0, so any lesson stating 73 should say "today".
+
+## Insurance: research added 2026-09-09 for lesson 8
+
+*Stage 1 on the gap, written before drafting, for the same reason as the tax and accounts sections
+above. Insurance is a 3.4 domain by way of health policy, so the outline mandates a neutrality audit
+and lesson 8 is Tier B. Everything below was verified live on 2026-09-09.*
+
+### The mechanism, and the best single piece of evidence on how people actually choose
+
+- **Justin Sydnor, "(Over)insuring Modest Risks", *American Economic Journal: Applied Economics*
+  2(4), October 2010, 177 to 199** (free PDF from the author's Wisconsin page). **The load-bearing
+  source for the deductible lesson, and it is a beautiful one.** A random sample of **50,000**
+  home insurance policies from one large insurer, where the only thing that varies between basic
+  contracts is the deductible, chosen from $1,000, $500, $250 and $100. Findings, in the author's
+  own numbers: **83% of homeowners paid for a lower deductible than the $1,000 maximum**; the most
+  common choice was $500, and that group paid on average **$100 a year** to move the deductible down
+  by $500; their **claim rate was under 5%**, so the extra coverage was worth **less than $25** in
+  expectation; on average these customers **paid five times more in premium than the insurance was
+  worth to them**. Fitting the choices to a standard risk-aversion model gives "implausibly large"
+  parameters, and a customer would need a subjective claim rate of about **18%**, five times the
+  true rate, to justify the choice.
+- **The honest counterweight, which is in the same paper and must not be dropped.** Sydnor writes
+  that the firm does not appear to earn excess profits on low-deductible customers, because those
+  customers have higher claim rates; the marginal cost of the extra coverage is low but the average
+  cost is justified. So the finding is about **the individual's decision being a poor one for them**,
+  not about the insurer running a swindle, and a lesson that quotes the "five times" figure and skips
+  this sentence has trimmed the source in its own favour, which is defect 9.
+
+### Health insurance, where the money and the vocabulary are
+
+- **KFF, *Employer Health Benefits 2025 Annual Survey*** (files.kff.org, free PDF; 1,862 employer
+  interviews; the 27th edition). The reference dataset for what US employer coverage costs and looks
+  like. 2025 figures: average annual premium **$9,325 single** and **$26,993 family**, up 5% and 6%
+  on the year against 4% wage growth and 2.7% inflation; average worker contribution **$1,440
+  single** and **$6,850 family**; **88%** of workers with single coverage have a general annual
+  deductible, averaging **$1,886**, and **$2,631 at firms with 10 to 199 workers against $1,670 at
+  larger ones**, which is the fact that makes "shop your deductible" advice land differently
+  depending on where you work; **34%** of covered workers face a deductible of **$2,000 or more**;
+  average copayments **$27** primary care and **$45** specialist, average coinsurance **19%** for
+  office visits and **20%** for a hospital admission; among workers with an out-of-pocket maximum for
+  single coverage, **12% have a limit of $2,000 or less and 21% above $6,000**; **61% of firms with
+  10 or more workers offer health benefits**, 97% at 200-plus workers against 59% below that.
+- **HealthCare.gov glossary, "out-of-pocket maximum"** (healthcare.gov/glossary/out-of-pocket-maximum-limit).
+  The definition to quote: "The most you have to pay for covered services in a plan year. After you
+  spend this amount on deductibles, copayments, and coinsurance for in-network care and services,
+  your health plan pays 100% of the costs of covered benefits." It excludes premiums, non-covered
+  services, out-of-network care, and charges above the allowed amount, and **those four exclusions
+  are where the real risk lives**. Federal limit for 2026: **$10,600 individual, $21,200 family.**
+- **The Oregon Health Insurance Experiment**, the only randomised trial of health insurance coverage
+  in a modern US setting (nber.org/programs-projects/.../oregon-health-insurance-experiment;
+  Finkelstein et al., *QJE* 2012; Baicker et al., *NEJM* 2013). Two-year results: coverage produced
+  **no statistically significant improvement in blood pressure, cholesterol or glycated haemoglobin**,
+  **reduced the probability of screening positive for depression by 9.15 percentage points**, and
+  **cut catastrophic out-of-pocket spending (above 30% of income) from 5.5% to 1.0%, a fall of more
+  than 80%**. **This is the best available answer to "what is health insurance for", and it is not
+  the answer either side of the political argument leads with**: the trial found the financial
+  protection insurance is designed to provide and did not find measurable physical-health gains in
+  two years. Teach it as the mechanism lesson, and state the limits honestly (two years, one state,
+  a Medicaid population, and null results are not proof of no effect).
+
+### The contested question, and the positions on it
+
+**How often do medical costs cause bankruptcy?** This is 3.4 material and also the best worked
+example of statistical reading in the whole course.
+
+- **Position A: about 60%.** Himmelstein, Warren, Thorne and Woolhandler (2005 and 2009 studies of
+  bankruptcy filers) surveyed people who had gone bankrupt about medical bills and illness-related
+  income loss and classed those reporting them as medical bankruptcies.
+- **Position B: about 4%.** Dobkin, Finkelstein, Kluender and Notowidigdo, "Myth and Measurement:
+  the case of medical bankruptcies", *NEJM* 378, March 2018 (free PDF via HBS). They use hospital
+  admissions in California as a natural experiment and compare filers with themselves before and
+  after. A hospitalisation raises the annual probability of bankruptcy over the following four years
+  by **0.004**; at a **7.8%** annual hospitalisation rate that is 0.031% of the population a year;
+  against a nonelderly household bankruptcy rate of **0.8%**, hospitalisations cause about **4%** of
+  bankruptcies. Their argument against the survey method is a clean statement of a general fallacy:
+  about **20% of Americans have substantial medical debt** (CFPB 2014) while **under 1% file for
+  bankruptcy in a year**, so the presence of medical debt among filers cannot by itself establish
+  that it caused the filing.
+- **Position A's reply, in their own words** (Himmelstein and Woolhandler, pnhp.org): "families can
+  drown in medical debts without a hospitalization", the design "is not designed to measure
+  bankruptcy associated with a child's or spouse's illness", and "almost everyone we labeled
+  'medically bankrupt' explicitly told us that medical problems caused their bankruptcy". The point
+  that survives is real: the causal design measures the effect of **being admitted to hospital**, so
+  outpatient costs, chronic conditions, a family member's illness and illness-driven income loss
+  without admission all fall outside it.
+- **Classification: contested empirical, where the two sides measure different things.** What would
+  settle it is a causal design with the coverage of a survey. Teach the fallacy (the base-rate point)
+  because it transfers, give both figures with what each one counts, and do not present either as
+  the number.
+
+### Extended warranties and service contracts, the clearest case of insuring the wrong thing
+
+- **Federal Reserve Bank of St. Louis, *Page One Economics*, "Do you want an extended warranty with
+  that?" (October 2021)** (stlouisfed.org). Free, neutral, and written to teach the mechanism:
+  premiums are pooled, "extended warranty companies must charge their buyers more than what they
+  will likely need in coverage so that the provider makes a profit", and the alternative named is
+  self-insuring by putting the money in an emergency fund. Cites Consumer Reports 2014: average
+  service contract **$1,214** against median repairs used of **$837**, so the typical buyer overpaid
+  by **$377**, and **55% of extended car warranty buyers never used the contract for repairs**.
+- **Consumer Reports** surveys on laptop coverage: **15%** of PC owners with an extended warranty
+  used it for a repair, **7%** of Apple owners with extra coverage, and the median cost of the
+  warranty is about the same as the median cost of a single repair (median out-of-pocket PC laptop
+  repair **$118**). Use CR as a named secondary source, not as a primary; the St. Louis Fed piece is
+  the citable version of the same numbers.
+
+### Life insurance
+
+- **NAIC, *Life Insurance Buyer's Guide*** (content.naic.org, free PDF) and its consumer pages. The
+  neutral regulator statement, and the right source for a course that will not name products. Term
+  has lower premiums early and builds no cash value; cash-value policies pay a death benefit and
+  accumulate value, where "the cash value is the accumulation of premiums collected minus expenses
+  and charges", and cost more. The guide's practical instruction is the one to teach: **ask for a
+  year-by-year display of values and benefits**, and check you can afford the premium if it rises.
+- The course's line, consistent with 2.5: **life insurance is for people whose income someone else
+  depends on**, term insures a defined obligation for a defined period, and a policy that bundles
+  insurance with a savings product should be evaluated with lesson 5's cost lens before it is
+  compared with a cheaper policy plus a separate investment. Never name a product or a provider.
+
+### Open concerns for lesson 8
+
+- **Every figure above is US-specific except the mechanism.** Deductibles, out-of-pocket maximums and
+  employer coverage all work differently elsewhere, and the lesson must say so in its first hundred
+  words as lessons 6 and 7 do.
+- **No primary source was found for the claim that insurers price small deductibles at a high
+  margin.** Sydnor's paper explicitly declines to say that. Do not assert it.
+- **Nothing here supports advice on whether a specific person should carry a given policy.** The
+  lesson teaches the can-I-absorb-this test and the vocabulary, and points at the state insurance
+  regulator for anything binding.
