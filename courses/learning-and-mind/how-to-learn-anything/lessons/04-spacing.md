@@ -18,16 +18,16 @@ quiz:
   - q: "You learned 40 Spanish words on Monday. On Thursday you test yourself and can only produce 22 of them. What is the right conclusion?"
     options:
       - "The forgetting is expected and useful; retest the 18 misses with feedback and come back after a longer gap"
-      - "Monday's session was mostly wasted; next time review on Tuesday, before anything has faded"
-      - "Spacing isn't working for you, so switch to studying the whole list in one long block"
-      - "Reread the whole list until it feels fluent again, then stop for the week"
+      - "Monday's session was mostly wasted; next time review on Tuesday, before any of it has had a chance to fade away"
+      - "Spacing isn't working for you, so switch to studying the whole list in one long block instead"
+      - "Reread the whole list from the top until it feels fluent again, then stop for the rest of the week"
     answer: 0
     explain: "A partly forgotten word has to be rebuilt on review, and rebuilding is retrieval practice (lesson 3). That effortful reconstruction is the best-supported account of why spacing works, so the 18 misses are where the learning is about to happen. Reviewing on Tuesday would have felt better and taught less. Nothing in one self-test tells you spacing has failed; the payoff shows up at the delayed test, not the interim one. Rereading until fluent recreates the fluency illusion from lesson 1: it raises how accessible the words feel today without doing much for how well they're stored."
   - q: "A friend is preparing for an exam a year away and has read that review gaps must expand (1 day, then 3, then 7, then 14 and so on) or the spacing effect won't work. Their study app uses fixed 3-week gaps instead and they're anxious. What does the evidence say?"
     options:
-      - "Expanding gaps are essential; fixed gaps of any size produce little benefit at a one-year horizon"
-      - "Uniform gaps are better than expanding ones, so the app has made the right choice"
-      - "Neither schedule helps at a one-year horizon; only the total number of hours matters"
+      - "Expanding gaps are essential, and fixed gaps of any size produce very little benefit at a horizon as long as a year away"
+      - "Uniform gaps are reliably better than expanding ones, so the app has made exactly the right choice here"
+      - "Neither schedule helps much at a one-year horizon, since only the total number of hours really matters"
       - "The two schedules come out about equal in the meta-analysis; the 3-week gap is close to the observed optimum for a year"
     answer: 3
     explain: "Latimier, Peyre and Ramus (2021) compared expanding with uniform schedules across the studies they reviewed and found a difference so small it wasn't statistically distinguishable from zero (g = 0.034). The large effect (g = 0.74) is spaced retrieval against massed retrieval. Cepeda's observed optimum for a 350-day test was 21 days, so the app's 3-week gap is on the ridgeline, not off it. The second option overstates it the other way: uniform gaps aren't better, just not worse. The third ignores Cepeda et al. (2006), where spacing beat massing at matched total time."
@@ -35,22 +35,22 @@ quiz:
     options:
       - "Nurse A, because one unbroken block lets her build the 30 interactions into a single coherent structure"
       - "Nurse B, most likely because her second session forces her to rebuild a partly faded memory, which is a retrieval act"
-      - "About the same, because total study time is what matters and both nurses spent two hours"
-      - "Nurse B, but only if she rereads in the second session, since testing a faded memory produces errors that stick"
+      - "About the same, because total study time is what matters here and both nurses spent two full hours"
+      - "Nurse B, but only if she rereads in the second session, since testing a faded memory produces errors that tend to stick"
     answer: 1
     explain: "Cepeda et al. (2006) settled the prediction: at matched total time, the spaced learner remembers more at a delayed test. Why is less settled. The account that fits the most data is study-phase retrieval: a week later, Nurse B's memory has faded enough that she has to reconstruct it, and that reconstruction is retrieval practice. Other accounts are still live, and this question doesn't ask you to reject them: encoding variability (two different contexts give the memory more cues), deficient processing (you attend less to something that feels already known), and consolidation between sessions each explain part of the pattern, and Cepeda's review concluded no single theory fits everything. What the evidence does rule out is the first option, which is the massed condition, and the third, which is the claim that only total time matters. The fourth gets the prediction right for the wrong reason: retrieval in the second session is what you want, and lesson 3 covered why errors followed by feedback don't stick."
   - q: "You studied French for three years at school, stopped six years ago, and feel you have lost most of it. Based on Bahrick's findings, what should you expect over the next twenty years if you do nothing?"
     options:
-      - "Steady decline at about the same rate until almost nothing is left"
-      - "A gradual recovery, since unused memories reorganise over long periods"
-      - "Complete loss within about ten years, because an unused language is overwritten"
+      - "A steady decline at about the same rate from here on, until almost nothing at all is left"
+      - "A gradual recovery, since unused memories reorganise themselves over very long periods"
+      - "Complete loss within ten years, because an unused language gets overwritten"
       - "What you still have now will mostly hold; the steep loss happened in the first few years"
     answer: 3
     explain: "Bahrick (1984) tested 733 people on Spanish learned at school, some of them fifty years earlier, and found retention fell over the first 3–6 years and then stayed roughly unchanged for up to 30 years before a final decline in old age. Six years out, you're at the start of the plateau: what survived the steep phase tends to stay. There's no evidence for spontaneous recovery without practice, and the total-loss option contradicts the plateau. One caution: the study was cross-sectional (different people at different distances from school), so it describes the shape across a population rather than any one person's curve."
   - q: "You've just finished a beginner Portuguese course. You're moving to Lisbon in about five years and want the language for the rest of your life. Which plan best fits the years-scale evidence in this lesson?"
     options:
       - "Review every day for the first year, then stop; by then it will be in long-term memory"
-      - "Nothing until the year before the move, then an intensive course, so it's freshest on arrival"
+      - "Nothing at all until the year before the move, then an intensive course, so that it is freshest on arrival"
       - "Relearning sessions from memory at gaps of one to two months over the first few years, then ordinary use"
       - "Weekly sessions for as long as you can keep them up, since more frequent is always safer"
     answer: 2

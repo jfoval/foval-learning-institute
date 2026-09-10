@@ -9,7 +9,7 @@ quiz:
   - q: "\"It should be noted that, due to the fact that the deadline has passed, we are not able to accept the form.\" Which cut removes metadiscourse specifically?"
     options:
       - Changing due to the fact that into because, since that is a phrase doing the work of one word
-      - Changing are not able to into cannot, because a negative has been used where a positive exists
+      - Changing are not able to into cannot, because a negative has been used where a positive one exists
       - Removing it should be noted that, because it comments on the writing rather than saying anything
       - Removing the deadline has passed, since a reader who is being refused can infer the reason
     answer: 2
@@ -18,7 +18,7 @@ quiz:
     options:
       - Because a writer who can identify the needless words does not need to be told to remove them
       - Because the advice is false, since some needless words make writing more pleasant to read
-      - Because it comes from a book whose grammar advice has been shown to be unreliable throughout
+      - Because it comes from a book whose grammar advice has been shown to be unreliable more or less throughout
       - Because concision matters far less than arrangement, which the earlier lessons have covered
     answer: 0
     explain: Pullum's objection is precisely that the students who know which words are needless do not need the instruction, which is A. B disputes the maxim's truth, and this lesson accepts that it is true. C attacks the source rather than the advice, and the lesson quotes the maxim approvingly. D ranks the topics, which is not the objection.
@@ -26,13 +26,13 @@ quiz:
     options:
       - Nothing has been lost, since the cut removed five words and preserved both of the figures
       - A fact has been lost, because the comparison between the two figures is no longer stated
-      - The tone has been lost, because the shorter version reads as abrupt rather than explanatory
+      - The tone has been lost, because the shorter version now reads as abrupt rather than as explanatory
       - The link has been lost, because the second sentence no longer opens with something already given
     answer: 3
     explain: That cost was old information in the topic position, holding the two sentences together, and cutting it leaves the second sentence opening on a fresh figure. That is D, and it is why this lesson comes after lesson 5. A counts words and misses the join. B is close but wrong, since far more survives as only. C names a real difference that is not the important one.
   - q: Which of these is a doubled word rather than another kind of redundancy?
     options:
-      - At this point in time, where a four word phrase is standing in for the word now
+      - At this point in time, where a four word phrase is standing in for the single word now
       - Full and complete, where two words are used and either one would carry the meaning
       - Period of time, where the word period already tells the reader that time is meant
       - Advance planning, where planning is something that can only be done in advance
@@ -41,7 +41,7 @@ quiz:
   - q: You cut a document by a third and a reader who tests both versions finds the shorter one harder to follow. What is the most likely explanation?
     options:
       - The reader is unrepresentative, since most readers prefer shorter documents in nearly every case
-      - The cut went too far and should be reversed, because a third is more than any document can lose
+      - The cut went too far and should be reversed, because a third is more than any document can safely lose
       - Some of what was cut was doing cohesive work rather than padding, most likely in the topic positions
       - The document was already concise, so any cut at all would have made it harder to follow
     answer: 2
