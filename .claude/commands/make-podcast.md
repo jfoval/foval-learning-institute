@@ -9,7 +9,7 @@ fal, John is the Charon voice and Haley is Aoede. One episode per session.
 
 **Gate first: the lesson must be settled.** Podcast only after the Stage 4 review, the
 voice pass, and the media pass are done, never before, so audio is not paid for twice.
-Check the course's `research/REVIEWS.md` and status. If the lesson is not settled, stop
+Check the lesson's `research/reviews/<lesson-id>.md` and the course status. If the lesson is not settled, stop
 and say what is still owed. Also run `node scripts/podcast.mjs plan $ARGUMENTS` — if an
 episode is already live and stamped, stop.
 
@@ -57,6 +57,10 @@ node scripts/podcast.mjs stamp $ARGUMENTS           # writes audio: into the les
 Rendering usually takes a couple of minutes; the poll budget is 20. If the render fails, check the fal
 dashboard before re-sending, so the same job is not paid for twice.
 
-**4. Finish.** `npm run validate`; `npm run build` and commit `site/data/courses.js` too
+**4. Lower the debt.** Subtract one from this course's entry in `curriculum/audio-debt.yaml`, in the
+same commit as the stamp, and delete the entry when it reaches zero. `npm run validate` fails if the
+ledger and the lessons disagree in either direction, which is what stops the count drifting.
+
+**5. Finish.** `npm run validate`; `npm run build` and commit `site/data/courses.js` too
 if the course is published. Commit the script and the stamped lesson together, naming the
 course and lesson. The MP3 itself lives in R2 and git-ignored `audio-out/`, never in git.

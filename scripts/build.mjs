@@ -407,6 +407,99 @@ function lintLessons() {
 }
 lintLessons();
 
+/* ---------- rule 5b: a published course owes an episode for every lesson ----------
+   "A course is finished when every lesson is at standard AND every lesson has a podcast
+   episode." That was a shouting paragraph in CLAUDE.md because it had been ignored once. A
+   paragraph cannot stop it happening again; this can.
+
+   The debt that already existed when the rule landed is written down in
+   curriculum/audio-debt.yaml and is a ceiling, so it can only shrink. Everything else fails.
+   See the header of that file. */
+function checkAudio() {
+  let owed = {};
+  const debtFile = path.join(ROOT, "curriculum", "audio-debt.yaml");
+  try {
+    const d = yaml.load(fs.readFileSync(debtFile, "utf8")) || {};
+    owed = d.owed || {};
+  } catch (e) { errors.push(`curriculum/audio-debt.yaml: ${e.message}`); return; }
+
+  const seen = new Set();
+  for (const school of fs.readdirSync(COURSES_DIR, { withFileTypes: true }).filter(d => d.isDirectory())) {
+    for (const cdir of fs.readdirSync(path.join(COURSES_DIR, school.name), { withFileTypes: true }).filter(d => d.isDirectory())) {
+      const dir = path.join(COURSES_DIR, school.name, cdir.name);
+      let meta;
+      try { meta = yaml.load(fs.readFileSync(path.join(dir, "course.yaml"), "utf8")); } catch { continue; }
+      if (meta.status !== "published") continue;
+
+      const lessonsDir = path.join(dir, "lessons");
+      if (!fs.existsSync(lessonsDir)) continue;
+      const files = fs.readdirSync(lessonsDir).filter(f => f.endsWith(".md")).sort();
+      if (!files.length) continue;
+
+      const missing = files.filter(f => {
+        const fm = fs.readFileSync(path.join(lessonsDir, f), "utf8").split(/^---$/m)[1] || "";
+        return !/^audio:\s*\S/m.test(fm);
+      });
+
+      const allowed = owed[meta.id];
+      seen.add(meta.id);
+      const where = path.relative(ROOT, dir);
+
+      if (allowed === undefined) {
+        if (missing.length) errors.push(
+          `${where}: status is published and ${missing.length} of ${files.length} lesson(s) have no "audio:" in their frontmatter (${missing.map(f => f.replace(/\.md$/, "")).join(", ")}). ` +
+          `CLAUDE.md rule 5b: a course is not finished until every lesson has an episode. Render them with /make-podcast, or, only for debt that predates the rule, record it in curriculum/audio-debt.yaml.`);
+      } else if (missing.length > allowed) {
+        errors.push(
+          `${where}: curriculum/audio-debt.yaml allows ${allowed} episode(s) owed, but ${missing.length} lesson(s) have no "audio:" (${missing.map(f => f.replace(/\.md$/, "")).join(", ")}). ` +
+          `The debt is a ceiling and it may not grow: a new lesson gets its episode before the next lesson is drafted.`);
+      } else if (missing.length < allowed) {
+        errors.push(
+          `${where}: curriculum/audio-debt.yaml still says ${allowed} episode(s) owed but only ${missing.length} lesson(s) lack "audio:". ` +
+          `Lower it to ${missing.length}${missing.length ? "" : " (or delete the entry, since the course is now finished)"} in the same commit as the episode.`);
+      }
+    }
+  }
+  for (const id of Object.keys(owed)) {
+    if (!seen.has(id)) errors.push(`curriculum/audio-debt.yaml: "${id}" is not a published course folder; delete the entry.`);
+  }
+}
+checkAudio();
+
+/* ---------- rule 5: course.yaml status and the TAXONOMY.md row must agree ----------
+   Two places record the same fact and a session updates one of them. core-path.mjs already
+   checks the Path cell against core-path.yaml; this is the same job for the Status cell. */
+function checkStatusAgreement() {
+  const taxFile = path.join(ROOT, "curriculum", "TAXONOMY.md");
+  let lines;
+  try { lines = fs.readFileSync(taxFile, "utf8").split("\n"); } catch { return; }
+  const norm = s => String(s).toLowerCase().replace(/\s+/g, " ").trim();
+  const rows = new Map();
+  let school = null;
+  lines.forEach((line, i) => {
+    const h = line.match(/^## \d+\. School of .*? — `([a-z0-9-]+)`/);
+    if (h) { school = h[1]; return; }
+    if (line.startsWith("## ")) { school = null; return; }
+    if (!school || !line.startsWith("|")) return;
+    const c = line.split("|").slice(1, -1).map(x => x.trim());
+    if (c.length !== 5 || c[0] === "Course" || /^-+$/.test(c[0])) return;
+    rows.set(`${school}::${norm(c[0])}`, { status: c[2], line: i + 1 });
+  });
+
+  for (const school of fs.readdirSync(COURSES_DIR, { withFileTypes: true }).filter(d => d.isDirectory())) {
+    for (const cdir of fs.readdirSync(path.join(COURSES_DIR, school.name), { withFileTypes: true }).filter(d => d.isDirectory())) {
+      const rel = path.relative(ROOT, path.join(COURSES_DIR, school.name, cdir.name, "course.yaml"));
+      let meta;
+      try { meta = yaml.load(fs.readFileSync(path.join(ROOT, rel), "utf8")); } catch { continue; }
+      const row = rows.get(`${school.name}::${norm(meta.title)}`);
+      if (!row) { warn.push(`${rel}: no row in curriculum/TAXONOMY.md for "${meta.title}" under ${school.name}; the map is meant to list every course.`); continue; }
+      if (row.status !== meta.status) errors.push(
+        `${rel}: status "${meta.status}" but TAXONOMY.md:${row.line} says "${row.status}". CLAUDE.md rule 5: a status change edits both, in the same commit.`);
+    }
+  }
+}
+checkStatusAgreement();
+
 if (warn.length) console.warn(warn.map(w => "warn: " + w).join("\n"));
 if (errors.length) { console.error(errors.map(e => "ERROR: " + e).join("\n")); process.exit(1); }
 if (CHECK) { console.log(`ok: ${courses.length} courses, ${courses.reduce((n, c) => n + c.lessons.length, 0)} lessons`); process.exit(0); }

@@ -26,7 +26,7 @@ it is what is committed.
 
 The session token is returned in the body and sent back as `Authorization: Bearer`, not as
 a cookie, because the site and the Worker are on different origins and third-party cookies
-are going away. **When the site moves to Cloudflare Pages** (BACKLOG 8c) and the two share
+are going away. **When the site moves to Cloudflare Pages** (`docs/PLATFORM_ROADMAP.md`, "Going private") and the two share
 an origin, switch to an HttpOnly, Secure, SameSite=Lax cookie and delete the bearer path.
 That is a real improvement, not a tidy-up: a bearer token in `localStorage` is readable by
 any script that gets onto the page.

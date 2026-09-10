@@ -12,7 +12,7 @@ The map is deliberately ambitious. Most courses are `planned`. The point of writ
 4. **Depth over breadth per course.** A course should leave you genuinely competent in its subject, not "exposed" to it.
 
 **Levels:** `Foundation` (no prerequisites), `Core` (assumes Foundation courses), `Advanced` (assumes Core).
-**Status:** `planned` → `research` → `drafting` → `published`. A course is published when its lessons have been through the review pipeline; it keeps improving through the feedback loop after that. Three of the original starter courses (Writing Clearly, Algebra Essentials, Introduction to Programming with Python) are marked `published` but are pre-pipeline placeholders of about 450 words a lesson, and are queued to be rebuilt rather than improved. See `docs/BACKLOG.md`.
+**Status:** `planned` → `research` → `drafting` → `published`. A course is published when its lessons have been through the review pipeline; it keeps improving through the feedback loop after that. Three of the original starter courses (Writing Clearly, Algebra Essentials, Introduction to Programming with Python) are marked `published` but are pre-pipeline placeholders of about 450 words a lesson, and are queued to be rebuilt rather than improved. See `docs/QUEUE.md`.
 
 **Path:** every course sits in a term of the Foval Core. There is no elective tier; see "Placing a course on the Core" at the foot of this file.
 

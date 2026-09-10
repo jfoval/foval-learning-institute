@@ -1,8 +1,6 @@
-# Reviews: Writing Clearly
+# Reviews: Writing Clearly — 08-rules-and-where-they-come-from
 
-*Findings and resolutions, appended over time. See `docs/CONTENT_PIPELINE.md` Stage 4. This course is
-being rebuilt from four pre-pipeline placeholder lessons; the new lessons are drafted at Stage 3 and
-have not yet had their Stage 4 cycles, except where recorded below.*
+Append-only. Newest at the bottom.
 
 ## 2026-09-09, lesson 8, targeted fairness check (Part 3.2)
 

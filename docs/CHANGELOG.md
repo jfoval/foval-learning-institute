@@ -6,6 +6,117 @@ the institute works. Items move here out of `BACKLOG.md` when they are done.
 Everything from the founding onwards is here. Entries before 2026-09-06 came from the old root
 `CHANGELOG.md`, which was merged into this file on 2026-09-06 so there is only one changelog.
 
+Older entries refer to `docs/BACKLOG.md`, which was split on 2026-09-09 into `docs/QUEUE.md`
+(the marching order), `docs/DECISIONS.md` (what is settled), `docs/PLATFORM_ROADMAP.md` (specs for
+unstarted work) and this file. Its section numbers survive only in those entries and in a few
+split-seam comments inside Bible Basics lessons, which point at `docs/DECISIONS.md` §5.
+
+## 2026-09-09 (third session) — the docs were costing every session more than they were worth
+
+A documentation and tooling refactor. No lesson content, `course.yaml`, `TAXONOMY.md` or
+`core-path.yaml` was touched.
+
+**The problem.** Every session read `CLAUDE.md` then `docs/BACKLOG.md` before it could start, and
+BACKLOG.md had reached 967 lines. Most of it was not backlog. It was organised by when something
+was learned rather than by when it is needed, so every session paid for every past session's
+lessons, and the file only grew. The mandatory session-start read is now 129 lines: 48 of
+`CLAUDE.md` and 81 of `docs/QUEUE.md`.
+
+**BACKLOG.md is gone, split four ways by when each part is needed.** `docs/QUEUE.md` is the
+marching order and nothing else, opening with a five-line mechanical handoff block (current course,
+current lesson, current stage, blocked on what, next action) in place of the narrative "where things
+stand". `docs/DECISIONS.md` holds what is settled and must not be re-opened, and is referenced from
+`CLAUDE.md` rather than read by default. The specs for unstarted work folded into
+`docs/PLATFORM_ROADMAP.md`, which existed for exactly that. The session diary came here.
+
+**The craft knowledge moved into the commands that need it.** BACKLOG.md section 8 was about 140
+lines on the defects the drafter repeats, what a Stage 4 cycle costs and how to run one, all of it
+loading at session start where it was noise. The defect list is now in `/draft-lesson`, which was 22
+lines and is the place where it is the point; the cycle mechanics and what the linter can and cannot
+catch are in `/review-lesson`. Both gained the rules the last two sessions established: count the
+whole lesson rather than the disagreement, execute a stem against its own model answer, trace every
+"if you got X" backwards, and open exercise timings with a cue word followed immediately by a digit.
+
+**Nested `CLAUDE.md` files.** There were none, so every rule loaded always. `courses/CLAUDE.md`
+carries the lesson format, the block grammar, the em dash rule, one lesson per session and the
+SOURCES requirement; `site/CLAUDE.md` the no-framework rule, the generated `courses.js` and checking
+both themes at both widths; `scripts/CLAUDE.md` what validate and build enforce and the contract
+between TAXONOMY.md and core-path.yaml. The root file points at each and no longer restates them.
+
+**Two prose rules became checks.** Rule 5b was a shouting paragraph because it had been ignored
+once, and shouting does not prevent a repeat. `npm run validate` now fails when a published course
+has a lesson with no `audio:` stamp; the 47 episodes already owed are written down in
+`curriculum/audio-debt.yaml` as a per-course ceiling that can only shrink. Rule 5 got the same
+treatment: `course.yaml`'s status and the Status cell in TAXONOMY.md must agree. Rule 5b is now one
+line naming the check.
+
+**Every `research/REVIEWS.md` was split into `research/reviews/<lesson-id>.md`.** Bible Basics' was
+5,314 lines of append-only history in a directory sessions read from, so a session working on one
+lesson paid for the whole course. A line-by-line diff of the six old files against the split output
+shows zero missing lines.
+
+**One thing found while doing it.** The old file contradicted itself about Personal Finance in two
+places, the queue saying lessons 9 and 10 and both assessments were still owed while the handoff
+three sections later recorded all four as done that same day. That is what a file organised by when
+something was learned does: the same fact gets stated twice at different times and nothing makes the
+older statement wrong. The status table in `docs/QUEUE.md` is now the single place a course's state
+is recorded.
+
+
+## 2026-09-09 (second session) — Personal Finance finished, Algebra rebuilt, the voice drift diagnosed
+
+Recorded here from the old handoff, which had been carrying it as a session diary.
+
+**The one thing that went wrong.** The session finished Personal Finance's content, declared the
+course done, and started the next course **with zero of its ten podcast episodes made.** John caught
+it. His definition, stated many times: a course is finished when every lesson is at standard AND
+every lesson has a podcast episode. It became `CLAUDE.md` rule 5b, the first section of
+`docs/CONTENT_PIPELINE.md`, and, later that day, a check in `npm run validate`, because two prose
+statements of it had not been enough.
+
+**Personal Finance is content-complete**, ten lessons and two assessments. Lesson 7 (accounts and
+the tax-timing choice, Tier A), lesson 8 (insurance, Tier B), lesson 9 (renting against buying, Tier
+B) and lesson 10 (scams, Tier A), each with its own Stage 1 research written first. Lesson 8 earned
+its tier twice over: the fact-check found **a fabricated quotation attributed to the NAIC**, a
+sentence about cash value that appears neither in the buyer's guide the lesson's own footnote links
+to nor anywhere on the web, and an invented car-insurance claim frequency off by about four times,
+doing the arithmetic in a worked example. Its neutrality audit returned **a plain fail** on three
+blocking findings, the sharpest being that the lesson's organising claim, that insurance is negative
+expected value by construction, is false for employer coverage, where the employer pays roughly six
+sevenths of the premium untaxed, and employer coverage is most of what the lesson teaches.
+
+**Algebra Essentials was rebuilt to six lessons**, all through Stage 4, with an eighteen-item final
+test, the rate-in-your-own-life project, `estimated_hours` measured at 4.3 against the stub era's
+2.3, and outcomes rewritten to what the six lessons deliver. Lesson 5's review caught a defect that
+would have taught the reversal error as the cure for it: the final practice item asked the reader to
+show that a correct equation was wrong, and its model answer reached the "correct version" by
+swapping the letters. The stem was a typo for a different equation and the answer text was
+internally consistent, which is why the drafter's own arithmetic check missed it.
+
+**Logic and Argument's final test had seventeen items whose explanations named the wrong option
+letter.** Found by John. The scan is now a script, `node scripts/check-quiz-letters.cjs`.
+
+**The podcast voice drift was diagnosed and settled.** Gemini's presets are a strong steer rather
+than a hard constraint, and `temperature` was never being set, whose default on fal is 1. It is now
+0.25, the host descriptions are out of `style_instructions`, and a pitch-band voice check runs after
+every render. John was asked with the alternatives costed and chose to stay on Gemini and accept the
+drift; the hosts were briefly changed to Iapetus and Erinome and he reversed it within the hour, so
+they remain Charon and Aoede. Settled: `docs/DECISIONS.md` §7.
+
+**Three review rules came out of these cycles**, and all three are now in `/draft-lesson` and
+`/review-lesson`: count the whole lesson rather than only the two-position section, because lesson 9
+passed the citation count inside its disagreement and still failed on one side's case being the
+architecture and the other's an annexe; trace every "if you got X, you probably did Y" backwards
+before it ships; and open an exercise timing with a cue word **immediately** followed by a digit, or
+`npm run minutes` cannot see it, which shipped two Algebra lessons 25 minutes light. And one more: a
+wide viewBox shrinks every label on a phone, and the linter cannot see it because it does not model
+the scale factor.
+
+**The fal balance ran out mid-session**, after Personal Finance episodes 1 and 2 got out. Lesson 3's
+script is written and fact-checked and waiting. Its lesson had been briefly stamped with an audio URL
+before the render failed and **that stamp was reverted**, because a stamped URL answering 404 is
+worse than no audio.
+
 ## 2026-09-09 (later) — handoff rewritten, and a defect class found in published quizzes
 
 `docs/BACKLOG.md` section 4 is now a real handoff rather than a session diary: what happened over two
