@@ -1,13 +1,15 @@
 # Sources: Introduction to Programming with Python
 
-<!-- unread: Guttag, Matthes, Sorva, Lister, Patitsas, Kaczmarczyk, Fisler, Seppälä -->
+<!-- unread: Guttag, Matthes, Sorva, Lister, Kaczmarczyk, Fisler, Seppälä -->
 
 *The line above is read by `scripts/build.mjs`, and the linter fails any lesson that cites a work
 named on it. Every name there is a work whose **table of contents, abstract or press summary** was
 read this session but whose **text was not**. Guttag and Matthes were seen only as contents
-listings from booksellers and publisher pages. Sorva 2013, Lister et al. 2004, Patitsas et al.
-2016, Kaczmarczyk et al. 2010, Fisler 2014 and Seppälä et al. 2015 were read as abstracts and
-database records; the Kaczmarczyk PDF 404ed. Their findings are recorded below because they shaped
+listings from booksellers and publisher pages. Sorva 2013, Lister et al. 2004, Kaczmarczyk et al.
+2010, Fisler 2014 and Seppälä et al. 2015 were read as abstracts and database records; the
+Kaczmarczyk PDF 404ed. **Patitsas et al. 2016 came off this line on 2026-09-10**, when the paper
+itself was read while drafting lesson 1; what was read is recorded under "Contested questions"
+below. Their findings are recorded below because they shaped
 the outline, but **a lesson may not cite them until someone opens them and moves the name off this
 line.** The rule is read-it-or-omit-it.*
 
@@ -232,16 +234,42 @@ type-2 questions where a lesson must present positions rather than a verdict.
    formally published. **Bornat retracted it in 2014** ("Camels and humps: a retraction",
    eis.mdx.ac.uk), writing that he does not believe Dehnadi discovered an aptitude test for
    programming, that he does not believe in "programming sheep and non-programming goats", and
-   attributing the paper to a period of illness. Separately, **Patitsas, Berlin, Craig and
-   Easterbrook**, "Evidence That Computer Science Grades Are Not Bimodal", ICER 2016 (people's
-   choice award; later in *CACM*), analysed **778 grade distributions** at a large research
-   university and found **only 5.8% passed tests of multimodality**. Their second study showed 53
-   CS professors ambiguous histograms; those primed with the belief that CS grades are bimodal, and
-   those who believed some students are innately predisposed to CS, were more likely to label
-   ambiguous distributions bimodal. **How to teach it:** the first lesson should say plainly that
-   the "some people just can't program" belief is not supported, cite the retraction and the grade
-   study, and not overclaim in the other direction either. Difficulty is real; a gene for it is not
-   evidenced.
+   attributing the paper to a period of illness.
+
+   **Patitsas, Berlin, Craig and Easterbrook, "Evidence That Computer Science Grades Are Not
+   Bimodal", ICER 2016 (Melbourne; DOI 10.1145/2960310.2960312; later in *CACM*). PDF read in full
+   on 2026-09-10.** Specifics, which are better than the abstract's summary of them and should be
+   used instead of it:
+
+   - **Study 1.** Final grade distributions for *every* undergraduate CS class at the **University
+     of British Columbia, 1996 to 2013**: **778 lecture sections, 30,214 final grades, average
+     class size 75**. Method: kurtosis first, since kurtosis below 3 is a necessary but not
+     sufficient condition for bimodality, then Hartigan's Dip Test on those that passed, at
+     alpha 0.05. **455 sections (58%) were definitely not bimodal on kurtosis alone.** Of the 323
+     tested, **45 came out multimodal: 13.9% of those tested and 5.8% of all 778.** The authors
+     note they expect about 5% false positives from the number of tests run, which is worth
+     stating because it makes the finding stronger, not weaker.
+   - **Study 2.** **53 CS professors.** The crucial detail the abstract omits: **all six histograms
+     were generated with R's `rnorm`**, 100 points each, mean 60, standard deviation 5, with a
+     ceiling at 100%. They were normal by construction, not merely "ambiguous". The priming was a
+     single question, *"It is a commonly-held belief that CS grades distributions are bimodal. Do
+     you find this to be the case in your teaching?"*, placed before the histograms for a random
+     half and after them for the other half. Primed participants labelled more of the normal
+     distributions bimodal, as did those agreeing that "Some students are innately predisposed to
+     do better at CS than others".
+   - The paper credits **Guzdial** with the term "Geek Gene Hypothesis" and **Lister** with the
+     prior theoretical argument that CS grades are not bimodal and that instructors see bimodality
+     because they expect it. Patitsas et al. describe their paper as testing Lister's argument
+     against real data.
+   - **One figure to handle with care.** The paper reports, citing Lewis, that in a survey of CS
+     faculty "77% of them strongly disagree with the statement 'Nearly everyone is capable of
+     succeeding in the computer science curriculum if they work at it.'" That is a striking number,
+     it is second-hand here, and **Lewis has not been read**. Do not use it in a lesson without
+     going to the original.
+
+   **How to teach it:** lesson 1 says plainly that the "some people just can't program" belief is
+   not supported, cites the retraction and the grade study, and does not overclaim in reply.
+   Difficulty is real; a gene for it is not evidenced.
 2. **Which language first, and does the choice matter?** *Contested empirical.* Python's case is
    readability and low syntactic overhead; the case against is that dynamic typing hides errors
    until runtime and that beginners learn less about what the machine is doing. Scheme and Racket

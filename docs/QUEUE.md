@@ -67,6 +67,16 @@ has not read one yet.** If he says they are thin, the fix is more worked example
   been broken since `courses/CLAUDE.md` landed, and cried wolf on twenty items when it ran. It is
   rewritten: it now looks for a verdict that contradicts the key, or the key rejected as a
   distractor, and reports clean across all sixty-one lessons. `node scripts/check-quiz-letters.cjs`
+- **Fourteen live lessons have a quiz a reader can pass without reading them.** Found 2026-09-10
+  by the new `node scripts/check-quiz-shape.cjs`, which scores four cheat strategies against the
+  70% pass mark. "Always pick the longest option" alone passes eleven of them and scores **100% on
+  six**: How to Learn Anything 2, 5 and 7, Personal Finance 1, 4 and 5. "Always pick B" scores 100%
+  on How to Learn Anything 2 and 80% on 5 and 7. Bible Basics' 22-item final test falls to
+  "longest" at 95%. Personal Finance is the worst on shape: every item in five lessons has an
+  option-length spread over 25 characters, one of them 230. This is Stage 3 defect 5, which the
+  drafter's own notes said to measure rather than eyeball, and nothing had been measuring it. The
+  fix is per lesson: pad the distractors to the key's length or trim the key, and spread the answer
+  positions. Run the script for the current list.
 - **11 lessons with no links in the body**, all in Algebra and Python; closes when those are
   rebuilt. Every other course is warning-free.
 - **Eight answer leaks in drafts** (seven Bible Basics, one Logic 9). They block those courses'
