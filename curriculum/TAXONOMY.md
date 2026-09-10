@@ -155,7 +155,7 @@ The map is deliberately ambitious. Most courses are `planned`. The point of writ
 | Course | Level | Status | Path | Notes |
 |---|---|---|---|---|
 | Digital Literacy | Foundation | planned | T1 | Files, networks, security hygiene, how the internet works. |
-| Introduction to Programming with Python | Foundation | published | T6 | Built. |
+| Introduction to Programming with Python | Foundation | published | T6 | Live as pre-pipeline stubs; Stage 1 research done 2026-09-10, rebuild in progress. Stays `published` while it is rebuilt (DECISIONS §8). |
 | How Computers Work | Foundation | planned | T6 | From transistors to operating systems. |
 | Data Structures and Algorithms | Core | planned | T20 | |
 | Web Development | Core | planned | T6 | HTML, CSS, JS, a real site. |
