@@ -8,42 +8,42 @@ objectives:
 quiz:
   - q: Keiko is 24 and could put away $150 a month, but money feels tight, so she plans to wait ten years and save $300 a month from 34 instead. Judged by this lesson's arithmetic, what's the problem?
     options:
-      - Nothing. Doubling the monthly amount more than makes up for the missing decade
-      - Interest rates will probably be higher in ten years, so waiting could actually pay
-      - The early years are the expensive ones to skip. Money saved in her twenties compounds the longest, and in this lesson's worked case ten early years of saving ended up beating thirty later ones
-      - Waiting is fine as long as she keeps the $150 in her checking account in the meantime
+      - Nothing at all. Doubling the monthly amount later more than makes up for that missing decade
+      - Interest rates will probably be higher in ten years' time, so waiting a while longer could actually pay off
+      - The early years are the expensive ones to skip, since money saved in her twenties compounds for longest
+      - Waiting is fine, as long as she keeps the $150 a month sitting in her checking account meanwhile
     answer: 2
     explain: Each dollar's final value depends on how long it compounds, and Keiko's cheapest dollars are the ones with forty years of runway ahead of them. In the worked example, Ava's $24,000 saved from 25 to 35 grew past Ben's $72,000 saved from 35 to 65, because her money had the decades and his didn't. Option A is the linear intuition this lesson exists to correct; doubling the contribution doesn't double the runway. Option B confuses the rate environment with the mechanism; whatever rates do, the lost decade is lost. Option D is worse than waiting inside an investment account, since checking-account money compounds at roughly zero while inflation works on it.
   - q: Your friend has a loan at 36% and uses the rule of 72 to announce that the debt doubles in exactly two years. What's the accurate response?
     options:
-      - Right direction, wrong precision. At high rates the rule runs fast; the true doubling time is about 2.3 years. Either way, a debt doubling in about two years is an emergency
-      - Exactly right. The rule of 72 is precise at every rate
-      - Wrong tool. The rule of 72 only works for savings, not for debt
-      - He misplaced a decimal; the rule gives 7.2 years
+      - Right direction, wrong precision. At 20% the rule runs fast, and the true doubling time is nearer 2.3 years
+      - Exactly right. The rule of 72 gives you a precise answer at every single interest rate you are ever likely to meet
+      - Wrong tool entirely. The rule of 72 only works for savings balances, and never for debts like this
+      - He has misplaced a decimal point somewhere along the way; the rule actually gives him 7.2 years
     answer: 0
     explain: 72 divided by 36 is 2, so the rule says two years, and the exact answer is about 2.3 years. The rule is an approximation that is nearly perfect around 8% and drifts as you move away, understating doubling times at high rates. So the friend's number is slightly off and his alarm is entirely correct. Option B overtrusts the shortcut. Option C is false; the arithmetic doesn't care which direction the money flows, which is exactly why lesson 3's card balances double on the same schedule. Option D invents a calculation error that isn't there.
   - q: A retirement seminar projects your savings forward at "12% a year, the stock market's historical average." Based on this lesson, what's the best assessment?
     options:
-      - Fair enough. US stocks averaged about 10%, and rounding up is a reasonable planning cushion
-      - Too low, if anything. Markets average closer to 15% a year
-      - It can't be right because the market has never returned 12% in a single year
-      - Overstated twice over. It uses the simple average of yearly returns instead of the compounded one (closer to 10% before inflation), and it ignores inflation (about 7% after it). Over 30 years, a plan built on 12% promises roughly four times the buying power the historical record supports
+      - Fair enough. US stocks have averaged about 10% over the long run, and rounding up is a reasonable planning cushion
+      - Too low, if anything. Markets have averaged a good deal closer to 15% a year over the whole of the long run
+      - It can't be right, because the market has never once returned anything like 12% in any single year
+      - Overstated twice over. It uses the simple average rather than the compounded one, and it ignores inflation
     answer: 3
     explain: This is a real and widely criticised projection, not a made-up example. The 12% figure comes from averaging yearly US stock returns arithmetically; what an investor actually compounds at is the geometric average, about 10% a year in dollar terms over the past century, and about 7% a year after inflation. Compound $1 for 30 years at 12% and you get about $30; at 7% real, about $7.60. That's the factor-of-four gap in promised buying power. Option A treats rounding up as harmless when compounding magnifies it enormously. Option B is fiction. Option C misunderstands averages; plenty of single years beat 12%, which is irrelevant to what the long run compounds to.
   - q: Dev is choosing between two funds that track the same market index. One charges 0.05% a year, the other 1.05%. He says "one percent is pocket change." What does this lesson's arithmetic say?
     options:
-      - He's basically right. One percent of any single year's balance is a small number
-      - The fee compounds like a return running in reverse. On $200 a month over 40 years, that one percent eats about a quarter of the final balance, roughly $127,000 in this lesson's worked numbers
-      - Fees only matter in years when the market falls
-      - The cheaper fund must be riskier; in investing, price signals quality
+      - He's basically right, because one percent of any single year's balance is a very small number indeed
+      - The fee compounds like a return in reverse, and over 40 years it eats about a quarter of the balance
+      - Fees only really start to matter during the years when the market falls rather than rises
+      - The cheaper fund has to be the riskier one, since in investing the price always signals the quality
     answer: 1
     explain: Dev is right about one year and wrong about forty. A 1% fee doesn't subtract 1% once; it subtracts 1% of a growing balance every year, and every dollar it takes also stops compounding for you. Run the lesson's saver at 7% and at 6% and the final balances are about $525,000 versus $398,000. Same market, same contributions; the difference is the fee, compounded. Option C is false; the fee is charged on the balance in every year, up or down. Option D has index funds exactly backwards, since funds tracking the same index deliver the same market return minus their fee, which is why the fee is the number to compare. Lesson 5 takes this up properly.
   - q: Milo has $12,000 saved for a house deposit he plans to use in about 18 months. Having learned that cash loses to inflation, he moves all of it into a stock index fund. What did he get wrong?
     options:
-      - Nothing. 18 months is plenty of time for stocks to beat a savings account reliably
-      - Nothing, provided he checks the balance every day and sells if it drops
-      - The timescales. Stocks have fallen 20 to 30% in single years, and 18 months gives no time to recover; inflation's nibble over 18 months is the far smaller risk. Money with a near date on it belongs somewhere its value on that date is dependable
-      - It depends entirely on which fund he picked
+      - Nothing at all. Eighteen months is plenty of time for stocks to reliably beat out an ordinary savings account
+      - Nothing much, provided that he checks the balance every day and sells the moment it starts dropping
+      - The timescales. Stocks have fallen 20 to 30% in a single year, and eighteen months gives no time to recover
+      - It depends entirely on which particular fund he happened to pick for himself right at the outset
     answer: 2
     explain: Inflation and market swings are both real risks; the question is which one operates on Milo's timescale. Over 18 months, 3% inflation costs him about 4 to 5% of buying power, annoying but survivable. A bad stretch for stocks can take 30% and has, within living memory, taken a decade to recover in real terms. The standard guidance to keep near-term money in safe accounts isn't timidity; it's matching the risk you accept to the time you have to ride it out. Option B is a plan for selling at the bottom. Option D misses that the problem is the asset class and the horizon, not the fund choice.
 ---
