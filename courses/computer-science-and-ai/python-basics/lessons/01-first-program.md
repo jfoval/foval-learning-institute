@@ -27,30 +27,34 @@ quiz:
       A file of forty lines has a missing colon on line 12. You run it. What appears
       on screen?
     options:
-      - A traceback and nothing else, because no line of the file ever ran
-      - The output of lines 1 to 11, and then a traceback naming line 12
-      - Only a warning, since a missing colon is recoverable at runtime
+      - An error message and nothing else, because no line of the file ever ran
+      - The output of lines 1 to 11, and then an error message naming line 12
+      - Only a warning, since a missing colon is recoverable while running
       - The whole program's output, with line 12 quietly skipped over
     answer: 0
     explain: >-
-      Parsing happens first and it covers the entire file, so a fault anywhere stops
-      everything. Nothing runs and nothing prints, which is A. Option B is the reasonable
-      guess and it is what a language that ran line by line would do; Python does not.
+      Parsing happens first and covers the entire file, so a fault anywhere stops
+      everything. None of your program's own output appears; you get Python's complaint
+      and nothing else, which is A. Notice it also has no "Traceback (most recent call
+      last)" header, because nothing was running to trace. Option B is the reasonable
+      guess, and it is what a language that ran line by line would do; Python does not.
       Options C and D both assume Python carries on past a fault it cannot even read.
   - q: >-
-      Which line of a traceback should you read first?
+      At the prompt you type name = "Ada", then name.upper(), and see 'ADA' appear. You put
+      those same two lines in a file and run it. What do you see?
     options:
-      - The first line, since a program is read from the top down
-      - The longest line, which usually carries the detail
-      - The last line, which names the error and says what went wrong
-      - Any of them, since they all say the same thing differently
+      - "'ADA' again, since the two lines do the same work either way"
+      - An error, because a file cannot call a method on its own
+      - Nothing at all, because a file shows you only what you ask it to
+      - "'Ada', because a file reports the value before it was changed"
     answer: 2
     explain: >-
-      Read bottom up, so C. The last line names the error type and gives the message; the
-      lines above it are the path Python took to get there, which matters more later when
-      your programs call each other's code. Option A is the habit worth breaking. Option B
-      is not a rule about anything. Option D is wrong: each line carries different
-      information.
+      Both lines run in the file exactly as they did at the prompt, and the second one
+      really does produce 'ADA'. The difference is that a file throws away a value nobody
+      asked for, so you see nothing until you wrap the second line in print(). That is C,
+      and it is behind almost every "but it worked when I typed it". Option A is the
+      assumption being corrected. Option B invents a restriction that does not exist.
+      Option D imagines the file running an older version of the value.
   - q: >-
       You write savings = 100, then print(savngs) on the next line. What happens?
     options:
@@ -84,22 +88,22 @@ quiz:
       exists to break.
 ---
 
-The first thing you will do in Python is not write a program. It is break one, read what the
-machine says about it, and fix it. That happens within about ninety seconds of starting, and how
-you take it decides more about whether you learn to program than anything else in this course.
+The first thing you'll do in Python isn't write a program. It's break one, read what the machine
+says about it, and fix it. That happens within about ninety seconds of starting.
 
 So this lesson teaches two things at once: how to run Python, and how to read the thing it prints
-when it refuses. Most beginners' courses put the second one in week three. By then the habit of
-scrolling past red text has already set.
+when it refuses. Most beginners' courses leave the second one until week three, by which time the
+habit of scrolling past red text has set.
 
-## Programming is not a talent you have or lack
+## Where the "you either have it or you don't" story came from
 
 You will have heard that some people just get programming and some never will. It is worth knowing
 where that belief came from, because it came from somewhere specific.
 
-In 2006 a paper called "The camel has two humps" claimed to have found a test that sorted people
-into programmers and non-programmers before they had written a line of code. It was never formally
-published, and it travelled anyway. In 2014 its author, Richard Bornat, retracted it.[^1] He wrote
+In 2006 a paper by Saeed Dehnadi and Richard Bornat called "The camel has two humps" claimed to
+have found a test that sorted people into programmers and non-programmers before they had written a
+line of code. It was never formally published, and it travelled anyway. In 2014 Bornat, one of its
+two authors, retracted it.[^1] He wrote
 that he does not believe an aptitude test for programming was discovered, and that he does not
 believe in "programming sheep and non-programming goats". He attributed the paper to a period when
 he was seriously unwell.
@@ -107,8 +111,12 @@ he was seriously unwell.
 The other half of the folklore is that computer science grades come out in two humps, a group who
 get it and a group who do not. In 2016 Patitsas and colleagues went and looked.[^2] They took the
 final grades of every undergraduate computer science class at the University of British Columbia
-from 1996 to 2013: 778 lecture sections, 30,214 grades. Then they tested each distribution rather
-than eyeballing it. **Forty-five came out with more than one peak. That is 5.8%.**
+from 1996 to 2013: 778 lecture sections, 30,214 grades. Then they measured instead of eyeballing.
+A first screen ruled out 455 of the sections outright, on a property that has to hold before a
+distribution can have two peaks at all. The remaining 323 went through a statistical test for more
+than one peak, and 45 came back positive. **That is 5.8% of all 778.** The authors add a point
+that makes the result stronger rather than weaker: run that many tests at the usual threshold and
+about 5% should come back positive by chance alone, so most of the 45 may well be noise.
 
 The second half of their study is the part I find harder to forget. They showed 53 computer science
 professors six histograms and asked what sort of distribution each one was. Every histogram had
@@ -119,22 +127,31 @@ own teaching. The other half were asked afterwards. The ones asked first saw mor
 same normal data, and so did the ones who agreed that some students are innately predisposed to do
 better at computing.
 
-Do not read this as reassurance that programming is easy. It is genuinely hard, the difficulty is
-real, and you will be confused for stretches of this course. The claim being retired is narrower
-and worth being precise about: there is no good evidence for a line dividing people who can from
-people who cannot.
+Someone who holds the opposite view has a fair reply to this, and it is worth putting properly.
+Their strongest claim isn't that some people cannot program. It's that aptitude varies a great deal
+and teaching doesn't close the gap. Against that, final grades are a rough instrument: students who
+struggle drop the course and vanish from the distribution, marks get curved, and everything is
+capped at 100%. So what Patitsas rules out is a two-humped *outcome* in the grades, which is what
+the folklore claims and is all they say they have ruled out.
+
+Don't read any of it as reassurance that programming is easy. It's genuinely hard, the difficulty
+is real, and you'll be confused for stretches of this course. The narrower claim being retired is
+that there's a line dividing people who can from people who cannot.
 
 :::callout About the model in your other tab
-You almost certainly have an AI assistant available, and pretending otherwise would be silly. Here
-is the line I would draw, and it comes from evidence rather than taste.
+You almost certainly have an AI assistant available, and pretending otherwise would be silly.
 
-The strongest finding in the research on beginner programmers is that people who cannot read code
-cannot write it either. A language model will happily hand you thirty lines you cannot read, and
-you will have learned nothing while feeling productive.
+The researchers who study this are genuinely split, and the honest summary is that the evidence is
+early and still moving. A review by Denny, Prather, Becker and colleagues treats code-generating
+models as both an opportunity, because they make new kinds of learning material possible, and a
+problem for how introductory courses are taught and assessed.[^6] Studies watching beginners work
+with these tools describe people accepting suggestions they haven't understood.
 
-So use it to explain a traceback or a line that baffles you. Do not use it to produce the exercise
-you were about to learn from. Our course [Using AI Effectively](/courses/using-ai-effectively/) goes
-into this properly.
+Here's the line this course takes, and it's a teaching judgement rather than a finding. A model
+will happily hand you thirty lines you can't read, and you'll have learned nothing while feeling
+productive. So use it to explain a traceback or a line that baffles you, and don't use it to
+produce the exercise you were about to learn from. There's a whole course in that question, and
+this isn't it.
 :::
 
 ## Two ways to run Python
@@ -148,7 +165,7 @@ runs each line as you press Enter. It is for trying things.
 **A file** is a document ending in `.py` that you run with `python3 myfile.py`. It is for programs
 you want to keep.
 
-Here is the difference that matters. Type this at the `>>>` prompt:
+The difference shows up the moment you type something that has a value. Try this at the `>>>` prompt:
 
 ```
 >>> 2 + 2
@@ -162,8 +179,10 @@ $ python3 sums.py
 $
 ```
 
-Nothing. The interpreter echoes the value of anything you type, as a convenience for someone poking
-about. A file does not. If you want a file to show you something, you have to ask:
+Nothing. The interpreter shows you the value of any expression you type, as a convenience for
+someone poking about. It stays quiet for things that produce no value, so `x = 5` at the prompt
+shows nothing either. A file never shows you anything on its own. If you want a file to show you
+something, you have to ask:
 
 ```
 print(2 + 2)
@@ -211,8 +230,8 @@ SyntaxError: '(' was never closed
 Look at what did **not** happen. Line 1 is a perfectly good instruction and it did not print
 "Hello." Nothing ran at all.
 
-That is the mechanism worth carrying out of this lesson. **Python reads and checks the whole file
-before it runs a single line of it.** That first pass is called parsing, and it is only asking one
+This is the part worth carrying out of the lesson. **Python reads and checks the whole file before
+it runs a single line of it.** That first pass is called parsing, and it is only asking one
 question: is this Python at all? A missing bracket on line 2 of a four-hundred-line file stops line
 1 from running, because line 1 never got its turn.
 
@@ -239,8 +258,8 @@ name refers to anything. So the program started, line 1 ran, and line 2 failed a
 went looking for something called `pint` and found nothing.
 
 **Output before a traceback is evidence.** It tells you the program got as far as producing it, so
-whatever is wrong was found during the run and not before it. That one observation will save you
-more time in your first month than any other thing in this lesson.
+whatever is wrong was found during the run and not before it. That gives you somewhere to start
+looking without touching a single line.
 
 :::checkpoint Quick check
 A forty-line program prints eleven lines of output and then shows a traceback. Roughly where is the
@@ -260,33 +279,60 @@ Take the `NameError` above, bottom to top:
 1. `NameError: name 'pint' is not defined.` The error type, then the message. **This is the line
    that tells you what is wrong.** Start here.
 2. `pint("My name is Ada.")` with `^^^^` under it. The exact code, with the exact part that failed
-   marked. Those caret marks are a recent convenience; they arrived in Python 3.11.[^3]
+   marked. Those caret marks are a recent convenience: they arrived in Python 3.11, so on an older
+   Python you'll see the same error without them.[^3]
 3. `File ".../greeting.py", line 2, in <module>` The file and the line number. `<module>` means the
    fault was in the body of your file rather than inside a function.
 4. `Traceback (most recent call last):` A header. It carries no information about your bug. This is
    the line beginners stare at hardest.
 
 The suggestion at the end, `Did you mean: 'print'?`, is a real feature and not a coincidence:
-Python compares the name you used against the names it does know and offers the nearest.[^4] It is
-a guess, and it does not act on it. Python will not run `print` for you because you meant `print`.
+Python compares the name you used against the names it does know and offers the nearest.[^4] But it
+is only a guess, and Python doesn't act on it. You typed `pint`, so `pint` is what it went looking
+for, and not finding it is still an error.
+
+:::checkpoint Read one you have never seen
+Here is a traceback from a program you know nothing about, using an idea this course has not
+reached yet.
+
+```
+Traceback (most recent call last):
+  File "/home/you/scores.py", line 3, in <module>
+    print("Third score:", scores[3])
+                          ~~~~~~^^^
+IndexError: list index out of range
+```
+
+Which line do you read first, what does it tell you, and did the program print anything before it
+stopped?
+
+Read `IndexError: list index out of range` first. It says something was asked for an item at a
+position it doesn't have, and the marks on the line above point at `scores[3]` as the culprit
+rather than at the `print`. You don't need to know what a list is to get that far.
+
+And yes, it printed something: this is a traceback, with the header, which means the file parsed and
+the program was running. Whatever line 1 and line 2 produced is on screen above it. Lists arrive in
+lesson 6, and `IndexError` with them.
+:::
 
 ## What people get wrong
 
-**"The traceback is noise."** It is the most specific information you will ever get about your own
-program, and it is written in an unfriendly font. Read the last line. That is the whole habit.
+**"The traceback is noise."** It's the most specific information you'll ever get about your own
+program, and it's written in an unfriendly font. Reading the last line first is the entire habit,
+and it takes about a week to become automatic.
 
-**"An error means I did something stupid."** Every programmer alive generates these constantly. The
-difference between a beginner and an expert is not the number of errors, it is the time between
-seeing one and knowing what it means. That gap is what you are training here.
+**"An error means I did something stupid."** Every programmer alive generates these constantly, and
+an expert makes just as many. What they have is a shorter gap between seeing one and knowing what
+it means, and that gap is what you're training here.
 
-**"The interpreter and a file are the same thing."** They differ in exactly one visible way, which
-you saw above: the interpreter echoes values and a file does not. Almost every "but it worked when
-I typed it" confusion is this.
+**"The interpreter and a file are the same thing."** They differ in one visible way, which you saw
+above: the interpreter shows you the value of an expression and a file doesn't. Almost every "but
+it worked when I typed it" confusion comes back to this.
 
-**"No error means it works."** No. Errors catch programs Python cannot run. They say nothing at all
+**"No error means it works."** No. Errors catch programs Python can't run. They say nothing at all
 about whether your program does what you wanted. A program that runs cleanly and prints the wrong
-number is a worse problem than one that crashes, because nothing announces it. That is why the
-third exercise below has no error in it.
+number is a worse problem than one that crashes, because nothing announces it. That's why the third
+exercise below has no error in it.
 
 :::callout Which Python to install
 Install **Python 3.13 or 3.14** from [python.org](https://www.python.org/downloads/). Everything in
@@ -350,13 +396,14 @@ that turns out to be text.
 
 ## Go deeper
 
-- **[The official Python Tutorial, chapters 1 and 2](https://docs.python.org/3/tutorial/interpreter.html)** on
+- **[The official Python Tutorial, chapter 2](https://docs.python.org/3/tutorial/interpreter.html)** on
   running the interpreter and using it well. One caution, which the tutorial states about itself: it
   is written for programmers who are new to *Python*, not for people new to programming. Read it as
   a reference to grow into.
 - **[CS50P, Harvard's Introduction to Programming with Python](https://cs50.harvard.edu/python/)**,
-  free, with graded problem sets. Its week 0 covers the same ground as this lesson at three times
-  the length, and its week 3 is entirely about errors.
+  free, with graded problem sets. Its week 0 gets you running Python and goes straight into
+  functions and variables; its week 3 is entirely about exceptions, which is a good deal later than
+  we start on errors.
 - **[Python Tutor](https://pythontutor.com/)**. Not reading, but the single most useful free tool
   for a beginner: it shows you the machine's state at every step.
 
@@ -379,9 +426,15 @@ that turns out to be text.
    and to `ImportError`. [^4]
 5. Python Developer's Guide, *Status of Python versions*. Python 3.14 was released on 7 October 2025
    and is the current stable release; 3.10 reaches end of life in October 2026. [^5]
+6. Paul Denny, James Prather, Brett A. Becker, James Finnie-Ansley, Arto Hellas, Juho Leinonen,
+   Andrew Luxton-Reilly, Brent N. Reeves, Eddie Antonio Santos and Sami Sarsa, "Computing Education
+   in the Era of Generative AI", *Communications of the ACM*, 2023 (arXiv:2306.02608). Cited for its
+   framing of code-generating models as both an opportunity and a challenge for introductory
+   courses. Only the abstract has been read. [^6]
 
 [^1]: Bornat 2014, as above.
 [^2]: Patitsas et al., ICER 2016, as above.
 [^3]: PEP 657, as above.
 [^4]: *What's New In Python 3.10*, as above.
 [^5]: Python Developer's Guide, versions page, read 10 September 2026.
+[^6]: Denny, Prather, Becker et al., *CACM* 2023, as above.
