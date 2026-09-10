@@ -200,6 +200,15 @@ the same five steps including the audio. It is now in `CLAUDE.md` as rule 5b and
 4. **Algebra Essentials, rebuilt.** T5, five stubs. Procedural course: two lessons a session is
    allowed, the fact-check is executed rather than fetched, and the neutrality pass is skipped with
    a line in REVIEWS.md saying why.
+   - ~~**Lesson 5, turning a sentence into an equation.**~~ **DONE 2026-09-09**, drafted and given a
+     Tier A Stage 4 with seven findings applied. **The review caught a defect that would have taught
+     the reversal error as the cure for it**: the final practice item asked the reader to show that a
+     correct equation was wrong, and its model answer reached the "correct version" by swapping the
+     letters. The stem was a typo for a different equation and the answer text was internally
+     consistent, which is why the drafter's own arithmetic check missed it. **New rule, in REVIEWS.md:
+     execute a stem against its own model answer, not only the answer against the source.**
+   - **Lesson 6, two unknowns at once**, drafted; its Stage 4 is in flight.
+   - Then the renumbering, both assessments, `estimated_hours`, and six episodes.
 
 5. **Python Basics, rebuilt.** T6, six stubs. Same treatment as Algebra.
 
