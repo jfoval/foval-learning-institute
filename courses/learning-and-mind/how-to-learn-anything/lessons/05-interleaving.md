@@ -9,43 +9,43 @@ objectives:
 quiz:
   - q: A nursing student is learning to read ECG traces for three rhythms that can look alike on a strip. She spends Monday on atrial fibrillation examples only, Tuesday on atrial flutter only, Wednesday on sinus tachycardia only, and scores over 90% each day. On the exam three weeks later she is shown unlabelled traces and must name the rhythm. What does the interleaving research predict, and why?
     options:
-      - She will do well, because 90% accuracy in practice shows the rhythms are stored
-      - She will do worse than she expects, because her practice never required her to tell one rhythm from another, and telling them apart is what the exam tests
-      - She will do well, because ECG rhythms are visual categories and visual categories are where interleaving is weakest
-      - She will do worse than she expects, because three days of practice is too little total time regardless of how it was arranged
-    answer: 1
-    explain: "Each day she already knew which rhythm the trace showed, so her practice trained the reading of a known category, not the discrimination between confusable ones. The exam demands discrimination. This has been tested on ECGs directly: Hatala, Brooks and Norman (2003) found medical students who practised mixed rhythms diagnosed 46% of new traces against 30% for blocked practice. One caveat from lesson 6 applies: Monteiro and colleagues (2017) found first-year students with almost no ECG background did worse with mixed practice at a delay (24% against 34%), probably because they had not yet learned any rhythm well enough to compare. Option A is the fluency illusion from lesson 1: high in-session accuracy measures retrieval strength, not storage. Option C has the boundary backwards: confusable visual categories are where interleaving is strongest (paintings g = 0.67 and naturalistic photographs g = 0.35 in Brunmair and Richter 2019). Option D is wrong because the studies hold total practice time equal; the arrangement, not the amount, drives the difference."
+      - She will do worse than she expects, because her practice never made her tell one rhythm from another, which is what the exam tests
+      - She will do well, because 90% accuracy across three whole days of practice shows the rhythms are properly stored
+      - She will do well, because ECG rhythms are visual categories, and visual categories are where interleaving is weakest
+      - She will do worse than she expects, because three days of practice is simply too little total time, regardless of how it was arranged
+    answer: 0
+    explain: "Each day she already knew which rhythm the trace showed, so her practice trained the reading of a known category, not the discrimination between confusable ones. The exam demands discrimination. This has been tested on ECGs directly: Hatala, Brooks and Norman (2003) found medical students who practised mixed rhythms diagnosed 46% of new traces against 30% for blocked practice. One caveat from lesson 6 applies: Monteiro and colleagues (2017) found first-year students with almost no ECG background did worse with mixed practice at a delay (24% against 34%), probably because they had not yet learned any rhythm well enough to compare. Option B is the fluency illusion from lesson 1: high in-session accuracy measures retrieval strength, not storage. Option C has the boundary backwards: confusable visual categories are where interleaving is strongest (paintings g = 0.67 and naturalistic photographs g = 0.35 in Brunmair and Richter 2019). Option D is wrong because the studies hold total practice time equal; the arrangement, not the amount, drives the difference."
   - q: You are memorising 60 Spanish nouns with their English meanings from a vocabulary list. A friend says you should interleave them with your chemistry flashcards because "interleaving always beats blocking". Based on the evidence, what should you expect?
     options:
-      - Interleaving will help, because it works for every kind of material at a delay
-      - Interleaving will help slightly, because chemistry and Spanish are confusable categories
-      - Interleaving is unlikely to help, and the mixing may cost you attention; the closest study found no reliable effect, and the meta-analysis's word-learning category favoured blocking
-      - Interleaving will help only if you also space the sessions, since interleaving and spacing are the same thing
-    answer: 2
-    explain: "The mechanism explains why: interleaving works by forcing you to tell similar things apart and choose a method, and a vocabulary pair asks for neither. Hausman and Kornell (2014) mixed anatomy terms with Indonesian vocabulary and found no reliable effect either way; in Brunmair and Richter's meta-analysis the word-learning category (names in conceptual categories, pronunciation rules, translations) came out favouring blocking. So the honest expectation is nothing gained, with some cost from switching. Spanish nouns and chemistry terms are not confusable with each other, so option B misreads the boundary condition. Option D confuses two techniques: spacing (lesson 4) is about gaps in time, and it does help vocabulary; interleaving is about mixing types within a session. Spaced retrieval is the right tool for this list."
+      - Interleaving will help, because it works for every kind of material as long as you are tested after a delay
+      - Interleaving will help slightly, because chemistry terms and Spanish vocabulary are confusable categories of a similar kind
+      - Interleaving will help only if you also space the sessions out, since interleaving and spacing are two names for one idea
+      - Interleaving is unlikely to help, and the mixing may cost attention; the closest study found no reliable effect on word learning
+    answer: 3
+    explain: "The mechanism explains why: interleaving works by forcing you to tell similar things apart and choose a method, and a vocabulary pair asks for neither. Hausman and Kornell (2014) mixed anatomy terms with Indonesian vocabulary and found no reliable effect either way; in Brunmair and Richter's meta-analysis the word-learning category (names in conceptual categories, pronunciation rules, translations) came out favouring blocking. So the honest expectation is nothing gained, with some cost from switching. Spanish nouns and chemistry terms are not confusable with each other, so option B misreads the boundary condition. Option C confuses two techniques: spacing (lesson 4) is about gaps in time, and it does help vocabulary; interleaving is about mixing types within a session. Spaced retrieval is the right tool for this list."
   - q: A statistics student can run a t-test, a chi-square test, and a correlation without error when the chapter heading tells her which one to use. On a mixed exam she scores 50%. She goes through her errors and finds that in nearly every case she carried out the wrong test correctly. Which change to her practice addresses the error she is actually making?
     options:
-      - More practice sets on each test separately, until execution is flawless under time pressure
-      - Mixed sets where the problem describes the data and the question but never names the test, and she writes down her choice of test before computing anything
-      - Flashcards on the formulas for each test, spaced over the week before the exam
-      - Rereading the worked examples in each chapter and checking that she can follow every step
-    answer: 1
-    explain: "Her errors are choosing errors, not executing errors. Taylor and Rohrer (2010) found the same pattern in children's maths: the blocked group's test errors were mostly discrimination errors, the right procedure for the wrong problem, rather than failures to carry out a procedure. Option A trains execution, which is already fine, and makes her feel even more ready. Option C also trains execution and recall of formulas, not the decision. Option D is the rereading trap from lesson 1. Only option B puts the decision step into practice, and writing the choice down first lets her count choosing errors separately from executing errors, which is the number that tells her whether it is working."
+      - More practice sets on each of the tests separately, until her execution is flawless even under real time pressure
+      - Flashcards covering the formulas for each test, spaced out over the whole week before the exam
+      - Mixed sets where the problem never names the test, so she has to write down her choice before computing
+      - Rereading the worked examples in each chapter and checking carefully that she can follow every step
+    answer: 2
+    explain: "Her errors are choosing errors, not executing errors. Taylor and Rohrer (2010) found the same pattern in children's maths: the blocked group's test errors were mostly discrimination errors, the right procedure for the wrong problem, rather than failures to carry out a procedure. Option A trains execution, which is already fine, and makes her feel even more ready. Option B also trains execution and recall of formulas, not the decision. Option D is the rereading trap from lesson 1. Only option C puts the decision step into practice, and writing the choice down first lets her count choosing errors separately from executing errors, which is the number that tells her whether it is working."
   - q: Three students ask whether to interleave. Anna is memorising the names of 40 bones from a labelled diagram, each bone paired with its name. Ben is learning to spot twelve logical fallacies in short passages, and several of them (slippery slope, hasty generalisation, false cause) are easy to mistake for one another. Cara is reading three textbook chapters on unrelated topics, the Reformation, the Meiji Restoration and the Cold War, for a survey course. Which sorting follows the evidence?
     options:
-      - Interleave all three; interleaving is the stronger arrangement for any material at a delay
-      - Interleave Ben's fallacies; block Anna's bones and Cara's chapters and use spacing and retrieval on them instead
-      - Interleave Ben's fallacies and Cara's chapters; block Anna's bones
-      - Block all three; interleaving has only been shown to work for mathematics
+      - Interleave all three of them, since interleaving is the stronger arrangement for any material at a delay
+      - Interleave Ben's fallacies; block Anna's bones and Cara's chapters, using spacing and retrieval there
+      - Interleave Ben's fallacies and Cara's chapters together, and block Anna's bones instead
+      - Block all three of them; interleaving has only ever been shown to work for mathematics
     answer: 1
     explain: "Ben's case is the painters case: many categories that look alike and must be told apart from an unlabelled example, which is where interleaving is strongest. Anna's bones are paired associates, one label to one item, with nothing to discriminate and no method to choose; the closest evidence (Hausman and Kornell 2014, and the word-learning category in Brunmair and Richter 2019) shows no benefit and sometimes a cost. Cara's chapters are expository text on unrelated topics, where the meta-analysis found mixed and nonsignificant results, so option C over-reaches. Option D is wrong because category learning outside maths, including paintings, birds and ECGs, is well supported. Anna and Cara should space and retrieve; those work regardless."
   - q: "A student learning three French past tenses builds a practice set and shuffles it. Each item reads like this, 'Passé composé: translate Yesterday I went to the market', 'Imparfait: translate I was reading when he came in', and so on, in random order. Why does this set not deliver what interleaving delivers?"
     options:
-      - It does; shuffling the order is the whole technique, and the labels are harmless
-      - The label does the choosing step for her, so every item trains execution of a named tense and never trains deciding which tense the sentence needs
-      - French tenses are not confusable with one another, so no arrangement of practice would help here
-      - Three tenses are too few to interleave; the technique needs at least five categories
-    answer: 1
+      - The label does the choosing for her, so every item trains execution and never trains deciding which tense fits
+      - It does work; shuffling the order is the whole of the technique, and the labels themselves do no harm
+      - French tenses are not confusable with one another, so no arrangement of her practice sessions would help here at all
+      - Three tenses are too few to interleave, since the technique needs at least five categories to work
+    answer: 0
     explain: "Interleaving works because each problem makes you decide what kind of thing it is before you act. A label on the item makes that decision for you, so this set is blocked practice in a shuffled order: three named tasks, each executed on cue. The fix is to remove the labels and have her write the tense she chose before translating, which is the set-building example in the lesson. Option C is wrong: three past tenses that all translate English 'was' or 'had' forms are exactly the confusable case. Option D invents a threshold; Rohrer and Taylor's original study used four kinds of problem, and two confusable kinds are enough."
 ---
 

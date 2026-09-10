@@ -69,12 +69,21 @@ lines.splice(optStart, opts.length, ...perm.map(i => opts[i]));
 lines[ansLine] = lines[ansLine].replace(/\d+/, String(newIndexOf[oldAnswer]));
 
 // Remap letter references in this item's explain block.
+//
+// The bound matters. An earlier version walked from the item start using the
+// pre-splice `starts` offsets, so it read into the following item and skipped
+// lines in this one, and an explain that named a distractor by letter came out
+// still pointing at the option that used to be there. Find the explain block
+// explicitly instead, and stop at the next item.
 const remap = c => L[newIndexOf[L.indexOf(c)]];
 const VERBS = "is|are|was|were|says|said|treats|describes|names|reads|gets|misses|confuses|reverses|assumes|imagines|invents|makes|does|has|would|adds|drops|splits|fails|blames";
 let unsure = [];
-for (let i = from; i < lines.length && i < (n < starts.length ? starts[n] + (perm.length) : lines.length); i++) {
-  if (!/^      /.test(lines[i]) && !/^    explain:/.test(lines[i])) continue;
-  if (i < optEnd && i >= optStart) continue;
+let itemEnd = lines.length;
+for (let i = ansLine + 1; i < lines.length; i++) if (/^  - q:/.test(lines[i])) { itemEnd = i; break; }
+let expStart = -1;
+for (let i = ansLine + 1; i < itemEnd; i++) if (/^    explain:/.test(lines[i])) { expStart = i; break; }
+if (expStart < 0) { console.error("warning: no explain: block found for this item"); }
+for (let i = expStart < 0 ? itemEnd : expStart; i < itemEnd; i++) {
   let s = lines[i];
   s = s.replace(/\(([A-D])\)/g, (_, c) => `(${remap(c)})`);
   s = s.replace(/\bOptions\s+([A-D])\s+and\s+([A-D])\b/g, (_, a, b) => `Options ${remap(a)} and ${remap(b)}`);

@@ -36,8 +36,8 @@ quiz:
       input() always hands back a string, whatever it looks like, so reply is "12" and not
       12. Multiplying a string by a whole number is legal in Python and repeats it, giving
       "121212". That is the trap: this line does not crash, so nothing tells you anything
-      is wrong. Option C is the belief being corrected. Option A is right that something is
-      odd and wrong about what Python allows. Option D describes no Python operation.
+      is wrong. Option B is the belief being corrected. Option C is right that something is
+      odd here and wrong about what Python allows. Option D describes no Python operation.
   - q: >-
       A program works out 0.7 + 0.1 and checks whether the result equals 0.8. The check comes
       back False and the figures are right. What should the programmer change?
