@@ -45,27 +45,42 @@ if (!(n >= 1 && n <= starts.length)) {
 const from = starts[n - 1];
 const to = n < starts.length ? starts[n] : lines.length;
 
-// Locate the option lines and the answer line inside this item.
+// Locate the options and the answer line inside this item.
+//
+// An option is either one line ("      - text") or a folded block scalar
+// ("      - >-" followed by indented continuation lines). Both shapes are in
+// this repo, and an earlier version handled only the first, so it refused to
+// touch the assessments, which is where the worst-shaped quizzes were.
 let optStart = -1, optEnd = -1, ansLine = -1;
 for (let i = from; i < to; i++) {
   if (/^    options:\s*$/.test(lines[i])) { optStart = i + 1; continue; }
-  if (optStart >= 0 && optEnd < 0 && !/^      - /.test(lines[i])) optEnd = i;
+  if (optStart >= 0 && optEnd < 0 && !/^      - /.test(lines[i]) && !/^        \S/.test(lines[i])) optEnd = i;
   if (/^    answer:\s*\d+\s*$/.test(lines[i])) ansLine = i;
 }
-if (optStart < 0 || ansLine < 0) { console.error("could not find options: (must be one line each) and answer:"); process.exit(1); }
+if (optStart < 0 || ansLine < 0) { console.error("could not find options: and answer:"); process.exit(1); }
 if (optEnd < 0) optEnd = to;
-const opts = lines.slice(optStart, optEnd);
+
+// Group the option region into one array entry per option, each an array of lines.
+const opts = [];
+for (let i = optStart; i < optEnd; i++) {
+  if (/^      - /.test(lines[i])) opts.push([lines[i]]);
+  else if (opts.length) opts[opts.length - 1].push(lines[i]);
+}
 if (opts.length !== perm.length) {
   console.error(`item ${n} has ${opts.length} options but the order names ${perm.length}`);
   process.exit(1);
 }
+const optLineCount = optEnd - optStart;
 
 const oldAnswer = Number(lines[ansLine].match(/\d+/)[0]);
 // newIndexOf[oldIndex] = where that option now sits
 const newIndexOf = [];
 perm.forEach((oldIdx, newIdx) => { newIndexOf[oldIdx] = newIdx; });
 
-lines.splice(optStart, opts.length, ...perm.map(i => opts[i]));
+lines.splice(optStart, optLineCount, ...perm.flatMap(i => opts[i]));
+// Reordering blocks of different heights moves everything after them.
+const shift = perm.flatMap(i => opts[i]).length - optLineCount;
+ansLine += shift; optEnd += shift;
 lines[ansLine] = lines[ansLine].replace(/\d+/, String(newIndexOf[oldAnswer]));
 
 // Remap letter references in this item's explain block.
@@ -90,16 +105,17 @@ if (expStart < 0) { console.error("warning: no explain: block found for this ite
 // letter must be rewritten exactly once.
 const REFS = new RegExp(
   "\\(([A-D])\\)"                                   // (A)
-  + "|\\bOptions\\s+([A-D])\\s+and\\s+([A-D])\\b"    // Options A and B
-  + "|\\bOption\\s+([A-D])\\b"                        // Option A
+  + "|\\b[Oo]ptions\\s+([A-D])\\s+and\\s+([A-D])\\b"    // Options A and B
+  + "|\\b[Oo]ption\\s+([A-D])\\b"                        // Option A
   + `|\\b([A-D])(?=\\s+(?:${VERBS})\\b)`                // A is / A confuses
   + "|(?<=\\b(?:So|so|That is|that is|Hence|Therefore)\\s)([A-D])(?=[.;,])", // So A.
   "g");
 for (let i = expStart < 0 ? itemEnd : expStart; i < itemEnd; i++) {
   let s = lines[i].replace(REFS, (m, paren, pairA, pairB, opt, bare, verdict) => {
     if (paren) return `(${remap(paren)})`;
-    if (pairA) return `Options ${remap(pairA)} and ${remap(pairB)}`;
-    if (opt) return `Option ${remap(opt)}`;
+    // Keep the writer's own capitalisation; "option d" is as common as "Option D".
+    if (pairA) return m.replace(/([A-D])(\s+and\s+)([A-D])/, (_, a, mid, b) => remap(a) + mid + remap(b));
+    if (opt) return m.slice(0, -1) + remap(opt);
     if (bare) return remap(bare);
     return remap(verdict);
   });

@@ -9,11 +9,11 @@ quiz:
       writing to expect before reading a word of it. What does the book's position alone tell them?
     options:
       - >-
-        It sits among the prophets, so expect oracles addressed to a particular people at a
-        particular moment, with a near horizon and sometimes a far one behind it
+        It sits among the prophets, so expect oracles addressed to a particular people at a particular
+        moment, with a near horizon first
       - >-
-        It sits in the wisdom books, so expect general observations about how life usually goes,
-        true as tendencies rather than as promises
+        It sits in the wisdom books, so expect general observations about how life usually goes, true as
+        tendencies rather than as firm promises
       - >-
         Its position tells them nothing, because the order of the books was fixed by printers in
         the sixteenth century and carries no information about genre
@@ -35,24 +35,24 @@ quiz:
       do to a reader?
     options:
       - >-
-        Nothing, since the same books are present in both and the order of a collection cannot
-        change how any book in it is read
-      - >-
-        It changes what the collection leaves you with: Malachi ends on a messenger still to come,
-        and Chronicles ends on a call to go up and build, so each order points somewhere different
+        Nothing much at all, since exactly the same books are present in both and the order of a
+        collection cannot change how any book in it is read
       - >-
         It reflects a dispute about which books belong, since the Jewish canon holds several books
         that Protestant Bibles print in a separate section
       - >-
         It shows that one of the two orders was imposed later, and the Christian order is the
         original because it follows the sequence in which the books were written
-    answer: 1
+      - >-
+        It changes what the collection leaves you with: Malachi ends on a messenger still to come, and
+        Chronicles on a call to go up and build
+    answer: 3
     explain: >-
       This is lesson 1's point about the last word. The same library, differently arranged, hands
       the reader out through a different door, which is why the arrangement is worth noticing
       rather than skipping. Option A denies that arrangement carries meaning, which is the habit
-      the lesson is written against. Option C describes the Catholic and Orthodox question from
-      lesson 8, which is about extent, not order. Option D invents a chronology; neither order
+      the lesson is written against. Option B describes the Catholic and Orthodox question from
+      lesson 8, which is about extent, not order. Option C invents a chronology; neither order
       follows the order of composition, and the Tanakh's arrangement is the older of the two.
   - q: >-
       A Protestant asks why Catholic Bibles have books his does not. Which answer states the
@@ -62,15 +62,14 @@ quiz:
         Rome added the books at the Council of Trent in 1546 in order to support doctrines the
         Reformers had questioned, which is why they appear in no earlier list
       - >-
-        The books were used in the church from the beginning, appear in the Greek Old Testament the
-        apostles quoted, and were listed at Hippo and Carthage; Trent defined what was already
-        practised rather than adding anything
+        The books were used in the church from the beginning and were listed at Hippo and Carthage;
+        Trent defined what was already practised
       - >-
-        Catholics hold that the church has authority to add books to Scripture in any age, so the
+        Catholics hold that the church has authority to add books to Scripture in any age at all, so the
         list is open and may be extended again
       - >-
-        The difference is only about arrangement, since the same books are in both Bibles and
-        Protestant editions print them in an appendix
+        The difference is only about arrangement, since the same books are in both Bibles and Protestant
+        editions simply print them in an appendix
     answer: 1
     explain: >-
       Lesson 8 asked you to give each case in its own terms, and this is the Catholic one: continuous
@@ -85,41 +84,41 @@ quiz:
       what follows for reading it?
     options:
       - >-
-        In the four-hundred-year gap between the Old and New Testaments, which is why no prophet
-        speaks in it and God is never named
-      - >-
-        After the exile, in the Persian empire, among Jews who did not return; so the story is
-        about survival as a minority under a foreign king, not about life in the land
+        In the four-hundred-year gap between the Old and New Testaments, which is why no prophet speaks
+        in it and God is never once named
       - >-
         Before the exile, in the last years of the kingdom of Judah, which is why the threat in it
         comes from inside Israel rather than from a foreign court
       - >-
-        In the period of the judges, since the book has no king of Israel in it and no functioning
-        temple worship
-    answer: 1
+        In the period of the judges, since the book has no king of Israel anywhere in it and no
+        functioning temple worship going on
+      - >-
+        After the exile, in the Persian empire, among Jews who did not return, so the story is about
+        survival as a minority under a foreign king
+    answer: 3
     explain: >-
       Esther is set in the Persian court after the exile, among Jews who stayed. Getting that
       right changes what the book is about: a diaspora community's danger and deliverance, which
       is the level of the story lesson 3 would call the middle one. Option A is a common guess and
-      the wrong side of the gap, though it correctly notices that God is not named. Option C and
-      option D put it centuries too early, and option D also misreads the absence of a king, which
+      the wrong side of the gap, though it correctly notices that God is not named. Option B and
+      option C put it centuries too early, and option C also misreads the absence of a king, which
       in Esther means a foreign one is on the throne.
   - q: >-
       A study group is reading Genesis 15 and asks what God actually commits to. Which answer
       states the Abrahamic covenant as the passage gives it?
     options:
       - >-
-        Land, descendants, and blessing that reaches other nations, promised to Abraham and sworn
-        by God alone, with Abraham asleep while the oath is made
+        Land, descendants, and blessing that reaches other nations, sworn by God alone with Abraham
+        asleep while the oath is made
       - >-
         Obedience to a written law, with blessing for keeping it and exile for breaking it, which
         is the pattern the prophets later hold Israel to
       - >-
-        A throne that will not end, promised to one family line, which is the promise the Gospels
-        open by tracing
+        A throne that will never end, promised to one particular family line, which is the promise the
+        Gospels open by tracing
       - >-
-        That the earth will never again be destroyed by flood, given to all humanity and marked by
-        a sign in the sky
+        That the earth will never again be destroyed by flood, given to the whole of humanity and marked
+        by a sign in the sky
     answer: 0
     explain: >-
       Lesson 2 taught the covenants as the spine of the story, and each one promises something
@@ -139,10 +138,10 @@ quiz:
         What the narrator says, what the characters say, and what the reader is left to infer,
         since a narrative teaches through the gap between the three
       - >-
-        This episode; Israel's story, in which David is not yet king and is being kept from blood
-        guilt; and the whole story of what God is doing, which the other two sit inside
+        This episode; Israel's story, in which David is not yet king and is being kept from blood guilt;
+        and the whole story God is telling
       - >-
-        The historical level, the theological level, and the devotional level, which is what the
+        The historical level, the theological level, and the devotional level, which is whatever the
         reader takes from it for their own life today
     answer: 2
     explain: >-
@@ -157,11 +156,11 @@ quiz:
       rather than merely finish it. Which order of work follows the method this course teaches?
     options:
       - >-
-        Read a commentary on Obadiah first so the book is not confusing, then read the book itself
-        with the commentary's outline in hand
+        Read a full commentary on Obadiah first so that the book is not confusing, then read the book
+        itself with the commentary's outline in hand
       - >-
-        Read it through once cold; then ask what kind of writing it is, where it sits in the story,
-        what it meant to its first hearers, and only then what it asks of a reader now
+        Read it through once cold, then ask what kind of writing it is, where it sits in the story, what
+        it first meant, and only then what it asks now
       - >-
         Look up every proper name and unfamiliar word first, then read the book, since vocabulary is
         the barrier to understanding a prophet
@@ -182,14 +181,14 @@ quiz:
       statement describes the disagreement in terms both sides would accept?
     options:
       - >-
-        One side reads the law as still binding in every part, the other as abolished in every
-        part, and there is no position between them
+        One side reads the law as still binding in every part, the other as abolished in every part, and
+        there is no position at all between them
       - >-
         The disagreement is about whether the Old Testament is inspired, since a Christian who sets
         aside any of its commands has decided that part is not God's word
       - >-
-        Both take the law as the terms of the Sinai covenant and both hold it is God's word; they
-        differ on how a covenant made with Israel applies to those not party to it
+        Both take the law as the terms of the Sinai covenant and both hold it is God's word; they differ
+        on how it applies to those outside Israel
       - >-
         The disagreement is only about diet and is settled by the New Testament, which repeals the
         food laws and leaves the rest of the law untouched
@@ -210,12 +209,11 @@ quiz:
         Nothing has gone wrong; prophecy is prediction, and an oracle that has not obviously come
         true yet is still waiting for its fulfilment
       - >-
-        The oracle was addressed to a named people in a datable crisis, and the reader has skipped
-        the near horizon; whether a far horizon stands behind it is a second question, asked after
-        the first
+        The oracle was addressed to a named people in a datable crisis and the reader has skipped the
+        near horizon; a far horizon is a second question
       - >-
-        Prophecy never refers to the future at all, so any reading that looks forward has
-        misunderstood the genre
+        Prophecy never refers to the future at all, so any reading that looks forward has simply
+        misunderstood the genre it is dealing with
       - >-
         The reader has confused a prophet with an apocalyptic writer, and only apocalyptic makes
         claims about events beyond its own generation
@@ -232,18 +230,17 @@ quiz:
       pieces of that disagreement correctly?
     options:
       - >-
-        That Matthew reads the verse of Jesus is established; that the Hebrew word means a young
-        woman of marriageable age rather than specifically a virgin is a matter of lexicography
-        and is argued; that the verse finds its fullest meaning in Jesus is held by faith
+        That Matthew reads the verse of Jesus is established; what the Hebrew word means is argued; that
+        it finds its fullest meaning in Jesus is held by faith
       - >-
-        The whole dispute is established, since the Hebrew and Greek words are known and the
-        meaning of the verse follows from them
+        The whole dispute is established, since the Hebrew and the Greek words are both known and the
+        meaning of the verse follows directly from them
       - >-
-        The whole dispute is a faith question, since neither side has any evidence and each simply
-        believes what its tradition tells it
+        The whole dispute is a faith question, since neither side has any evidence at all and each
+        simply believes what its own tradition tells it
       - >-
-        That the verse predicts Jesus is established by the Greek translation, which was made
-        before Christ and so cannot be a Christian reading back into the text
+        That the verse predicts Jesus is established by the Greek translation, which was made before
+        Christ and so cannot be a later Christian reading back
     answer: 0
     explain: >-
       The three-kind sort is the course's method and this is it applied to the hardest case in
@@ -262,7 +259,7 @@ quiz:
         Repeating the first in different words, since Hebrew poetry says everything twice for
         emphasis and the two lines carry the same content
       - >-
-        Adding a rhyme, since the parallel structure of Hebrew verse works by sound in the way
+        Adding a rhyme, since the parallel structure of Hebrew verse works by sound in much the way that
         English verse does
       - >-
         Sharpening the first by making it concrete, so the general claim about care becomes a
@@ -283,12 +280,11 @@ quiz:
       Testament?
     options:
       - >-
-        Whether its teaching agrees with what the churches already held, whether it can be traced to
-        an apostle or an apostle's circle, and whether the churches had in fact received and read it
-        widely
+        Whether its teaching agreed with what the churches already held, whether it traced to an apostle
+        or an apostle's circle, and whether it was widely read
       - >-
-        Whether it claims apostolic authorship in its own opening line, since a book that names an
-        apostle as its author has met the only test that matters
+        Whether it claims apostolic authorship in its own opening line, since a book naming an apostle
+        as its author has already met the only test that matters
       - >-
         Whether a council votes to receive it, since the canon is whatever the church's assembled
         bishops decide at any point in history
@@ -308,14 +304,14 @@ quiz:
       the oil, the sellers, the door, and the delay. What is the problem?
     options:
       - >-
-        There is no problem; parables are allegories, and a reading that leaves any detail without
-        a meaning has not finished the job
+        There is no problem at all; parables are allegories, and a reading that leaves any detail
+        without a meaning has not finished the job
       - >-
         The problem is that the details have no meaning at all, since a parable is a story told for
         pleasure and its details are only scenery
       - >-
-        The reading is allegorising, and a parable usually makes one point with a punch, so a
-        meaning found for every detail is a meaning the reader has supplied
+        The reading is allegorising, and a parable usually makes one point with a punch, so a meaning
+        for every detail is one the reader supplied
       - >-
         The problem is that the parable is not in Mark, and only the Markan parables were told by
         Jesus in the form the Gospels record
@@ -332,41 +328,40 @@ quiz:
       course's reading of Acts say?
     options:
       - >-
-        Acts is history, so nothing in it is normative for a later church, and no practice in the
-        book can guide anyone now
+        Acts is history, so nothing in it is normative for a later church, and no practice in the book
+        can guide anyone at all now
       - >-
-        Acts prescribes whatever it narrates twice, so the church should first check whether lots
-        are cast again later in the book
-      - >-
-        The narrative describes the choice; whether it prescribes a method is a separate question,
-        and a practice narrated once, before Pentecost, is thin ground for a rule
+        Acts prescribes whatever it narrates twice over, so the church should first check whether lots
+        are cast again later on in the book
       - >-
         The proposal is sound, since the apostles were guided by the Spirit and a method the Spirit
         blessed once can be trusted again
-    answer: 2
+      - >-
+        The narrative describes the choice; whether it prescribes a method is a separate question, and
+        one narrated instance is thin ground for a rule
+    answer: 3
     explain: >-
       This is the descriptive and prescriptive question from lesson 6, and the lesson gives a test
       you can state along with an honest note about what the test cannot settle. The detail that
       does the work here is where the episode sits: before Pentecost, and never repeated. Option A
       is too strong and would empty the book of any use. Option B invents a counting rule the
-      lesson does not give. Option D reasons from a blessing to a method, which is the step in
+      lesson does not give. Option C reasons from a blessing to a method, which is the step in
       question.
   - q: >-
       A church is deciding what to do with Paul's instruction about head coverings in 1
       Corinthians 11. Which approach follows lesson 7's method?
     options:
       - >-
-        Reconstruct the situation the letter answers, ask what the instruction was doing there,
-        then ask whether a comparable particular exists now; the answer may be a different practice
-        serving the same purpose
+        Reconstruct the situation the letter answers, ask what the instruction was doing there, then ask
+        whether a comparable particular exists now
       - >-
         Apply the instruction as written, since a command in a letter is addressed to the church in
         every age and the reader's job is obedience, not interpretation
       - >-
         Set the instruction aside, since it belongs to a first-century culture and nothing culturally
-        conditioned can make a claim on a reader now
+        conditioned can make any claim on a reader now
       - >-
-        Take a vote, since the letter is occasional writing and occasional writing carries no
+        Take a vote on it, since the letter is occasional writing and occasional writing carries no
         authority beyond the occasion that produced it
     answer: 0
     explain: >-
@@ -384,10 +379,10 @@ quiz:
         were given to identify the powers of the last generation
       - >-
         Trace the images to the Old Testament passages they come from, since apocalyptic works by
-        allusion and the beasts of Daniel 7 are where these came from
+        allusion and Daniel 7 is where these begin
       - >-
-        Treat the passage as a coded account of the first century only, since apocalyptic never
-        looks beyond its author's lifetime
+        Treat the passage as a coded account of the first century only, since apocalyptic never looks
+        beyond its own author's lifetime
       - >-
         Read it as a vision of the reader's inner life, since the images are psychological and the
         beasts are the parts of the self that resist God
@@ -404,11 +399,10 @@ quiz:
       canon is a political product." What does the historical record show?
     options:
       - >-
-        Nicaea did not address the canon at all, and the record of its business does not mention
-        it; the lists that matter are earlier and later, and the process was slower and less
-        centralised than the claim assumes
+        Nicaea did not address the canon at all and the record of its business does not mention it; the
+        lists that matter are earlier and later
       - >-
-        Nicaea settled the New Testament by vote, but the vote was close and the losing books were
+        Nicaea settled the New Testament by vote, but the vote was a close one and the losing books were
         destroyed, which is why they no longer survive
       - >-
         Nicaea settled the Old Testament and left the New Testament open, which is why Catholic
@@ -432,15 +426,14 @@ quiz:
         Conclude the verses are not original, since a modern translation marks a passage only when
         its editors have decided the author did not write it
       - >-
-        Find out which manuscripts lack the passage, how old they are, how many regions they cover,
-        and whether the style fits Luke; a study Bible's notes or the NET's translators' notes give
-        all four
+        Find out which manuscripts lack the passage, how old they are, how many regions they cover, and
+        whether the style fits Luke
       - >-
         Compare ten English translations and follow the majority, since a reading kept by most
         committees is the one best supported by the evidence
       - >-
-        Set the question aside as unanswerable without Greek and the manuscripts themselves, which
-        are not available to an ordinary reader
+        Set the question aside as unanswerable without Greek and the manuscripts themselves, neither of
+        which is available to an ordinary reader
     answer: 1
     explain: >-
       Lesson 9 gave a procedure and a free tool, and between them an ordinary reader can get at
@@ -475,39 +468,38 @@ quiz:
       two thousand years until nobody can know what it first said. What is the most accurate reply?
     options:
       - >-
-        Telephone is one chain and you only hear the last whisper; manuscript copying is a tree with
-        branches that can be compared, and the comparing is how the wording is recovered
-      - >-
         The comparison holds, but the church corrected the text at each stage, so the errors were
         removed as they arose and the result is reliable
       - >-
         The comparison holds for the Old Testament, which passed through Greek and Latin, but not for
         the New Testament, which was always copied in Greek
       - >-
-        The comparison fails because the manuscripts agree perfectly, so there is nothing for anyone
-        to compare in the first place
-    answer: 0
+        The comparison fails because the manuscripts all agree perfectly, so there is nothing at all for
+        anyone to compare in the first place
+      - >-
+        Telephone is one chain and you hear only the last whisper; manuscript copying is a tree of
+        branches that can be compared against each other
+    answer: 3
     explain: >-
       Lesson 9's mechanism is the answer here: many independent copies are better than one perfect
-      one, because divergence between branches is what shows where an error entered. Option B invents
-      a correcting authority that did not exist and would not have helped. Option C misdescribes the
+      one, because divergence between branches is what shows where an error entered. Option A invents
+      a correcting authority that did not exist and would not have helped. Option B misdescribes the
       Hebrew text, which was copied in Hebrew, with the Greek and Latin as witnesses alongside it.
-      Option D overclaims in the opposite direction and gives away the whole case, since the roughly
+      Option C overclaims in the opposite direction and gives away the whole case, since the roughly
       400,000 variants are real and are the record of the comparisons.
   - q: >-
       A visitor notices that his King James has words at 1 John 5:7 that your Bible does not, and
       asks whether modern translations removed them. What happened?
     options:
       - >-
-        Modern committees removed the verse because it teaches the Trinity and they wished to avoid
-        the doctrine, which is why every modern version omits it
+        Modern committees removed the verse because it plainly teaches the Trinity and they wished to
+        avoid that doctrine, which is why every modern version now omits it
       - >-
-        Nothing was removed from any manuscript; the words entered the printed Greek text in
-        Erasmus's third edition of 1522, reached English through the King James, and appear in no
-        Greek manuscript before the fourteenth century
+        Nothing was removed from any manuscript; the words entered the printed Greek text in Erasmus's
+        third edition of 1522 and appear in no Greek manuscript before the fourteenth century
       - >-
-        The King James translators added the words themselves, without Greek support, because the
-        doctrine of the Trinity needed a clearer proof text
+        The King James translators added the words in themselves, without any Greek support at all,
+        because the doctrine of the Trinity needed a clearer proof text
       - >-
         The two Bibles are translated from different languages, the King James from Latin and modern
         versions from Greek, which accounts for this and most other differences between them
@@ -530,10 +522,10 @@ quiz:
         Whichever your church uses, since the point of a translation is to be able to follow along
         in a service, and accuracy differences are too small to matter
       - >-
-        One nearer the functional end for reading whole books at a time, and one nearer the formal
-        end for study where the wording matters, because the two jobs pull in opposite directions
+        One nearer the functional end for reading whole books at a time, and one nearer the formal end
+        for study, because the two jobs pull apart
       - >-
-        Any of them, since all mainstream English translations are made from the same Hebrew and
+        Any one of them, since all mainstream English translations are made from the same Hebrew and
         Greek and therefore say the same thing in different words
     answer: 2
     explain: >-
