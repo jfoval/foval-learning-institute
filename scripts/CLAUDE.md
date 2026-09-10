@@ -11,6 +11,7 @@ compile step anywhere in this repo.
 | `podcast.mjs` | — | `/make-podcast`'s engine: plan, script, render, voice-check, upload, stamp |
 | `check-quiz-letters.cjs` | `quiz` | Finds explanations that contradict their own `answer` |
 | `check-quiz-shape.cjs` | `quiz` | Finds quizzes a reader could pass without reading the lesson |
+| `quiz-permute.cjs` | — | Reorders one item's options, fixing `answer` and the letters in `explain` |
 | `screenshots.mjs` | `shots` | Renders the site in both themes at both widths |
 | `feedback.mjs` | `feedback` | Reads the learner feedback table out of D1 |
 
@@ -21,6 +22,13 @@ compile step anywhere in this repo.
 `validate`, deliberately: both are heuristics that need a human to read each hit, and a heuristic
 wired into a gate either gets weakened until it passes or gets routed around. Run it when you touch
 a quiz. Either script also takes explicit paths, which is how to use it at Stage 4 on one lesson.
+
+`quiz-permute.cjs <file> <item> <order>` does the reordering, because doing it by hand means
+re-lettering every "Option C" in the explanation and that is how a lesson ends up telling a correct
+learner they were wrong. It handles single-line options and folded block scalars, and it prints any
+letter it could not confidently remap. **Always read the explanation against its new options
+afterwards**: three separate bugs in this tool each produced plausible, wrong text, and only
+reading caught them.
 
 ## What `npm run validate` enforces
 
