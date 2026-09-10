@@ -9,12 +9,18 @@ compile step anywhere in this repo.
 | `build.mjs` | `build`, `validate`, `build:drafts` | Compiles `courses/` to `site/data/courses.js`, and lints everything |
 | `reading-time.mjs` | `minutes` | Measures every lesson's real `minutes:`; `--write` fixes them |
 | `podcast.mjs` | — | `/make-podcast`'s engine: plan, script, render, voice-check, upload, stamp |
-| `check-quiz-letters.cjs` | — | Finds explanations that name a different option letter than `answer` |
+| `check-quiz-letters.cjs` | `quiz` | Finds explanations that contradict their own `answer` |
+| `check-quiz-shape.cjs` | `quiz` | Finds quizzes a reader could pass without reading the lesson |
 | `screenshots.mjs` | `shots` | Renders the site in both themes at both widths |
 | `feedback.mjs` | `feedback` | Reads the learner feedback table out of D1 |
 
 `npm run validate` is `core-path.mjs` then `build.mjs --check`. Run it before every commit.
 `npm run build` is the same two without `--check`, and it writes `site/data/courses.js`.
+
+`npm run quiz` runs both quiz checks over every lesson and assessment. It is **not** part of
+`validate`, deliberately: both are heuristics that need a human to read each hit, and a heuristic
+wired into a gate either gets weakened until it passes or gets routed around. Run it when you touch
+a quiz. Either script also takes explicit paths, which is how to use it at Stage 4 on one lesson.
 
 ## What `npm run validate` enforces
 
@@ -56,6 +62,12 @@ every `font-size` on a `<g>` wrapper and ship 24 illegible labels clean; and the
 check looked only eight lines ahead, so it fired on six lessons doing it right and missed two doing
 it wrong. **A check that is easy to route around is worse than no check**, because a green build
 gets trusted.
+
+A third case, 2026-09-10: `check-quiz-letters.cjs` had thrown `ENOTDIR` since `courses/CLAUDE.md`
+landed, because it walked `courses/*/*` assuming every entry was a directory. Nobody noticed,
+because nothing runs it. Fixed, and it cried wolf on twenty items when it finally ran, which is the
+same as silence; its heuristics were rewritten until a clean run means something. **A check nobody
+runs is not a check**, which is why both quiz scripts now have an `npm` name.
 
 ## Conventions
 

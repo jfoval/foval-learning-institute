@@ -15,7 +15,8 @@
     "build:drafts": "node scripts/build.mjs --drafts",
     "shots": "node scripts/screenshots.mjs",
     "card": "node scripts/social-card.mjs",
-    "minutes": "node scripts/reading-time.mjs"
+    "minutes": "node scripts/reading-time.mjs",
+    "quiz": "node scripts/check-quiz-shape.cjs && node scripts/check-quiz-letters.cjs"
   },
   "license": "CC-BY-SA-4.0",
   "dependencies": {
