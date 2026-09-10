@@ -79,8 +79,10 @@ Draft **one lesson**, with SOURCES.md, OUTLINE.md, EDITORIAL_STANDARDS.md, and t
 ### Stage 4: Review — `/review-lesson <path> <n>`
 Review in a **fresh context**, so the reviewer is not anchored on the draft's own framing. The review is tiered, because reviewing every lesson as though it were a contested one is how this pipeline got expensive:
 
-- **Tier A, one reviewer, the default.** One subagent runs all the applicable passes in its own fresh context. Measured at roughly 100k tokens a lesson, and on the lesson where both were run it found everything the five-agent version found, because the passes share the reading.
-- **Tier B, one reviewer per pass in parallel.** Reserved for sensitive domains (standards 3.4), standpoint courses, and any lesson a Tier A pass sent back for heavy rewriting. Roughly 600k to 900k tokens a lesson. Worth it there and nowhere else.
+- **Tier A, one reviewer, the default**, at roughly 100k tokens a lesson.
+- **Tier B, one reviewer per pass in parallel**, at 600k to 900k. Reserved for sensitive domains (standards 3.4), standpoint courses, and any lesson a Tier A pass sent back for heavy rewriting.
+
+**`.claude/commands/review-lesson.md` is the single source for how a review runs**: how to pick the tier, how to brief the reviewer, the five passes, what the linter catches and what it cannot. Do not restate it here; a rule stated in two places is a rule that will be updated in one.
 
 The passes are depth (Part 1), fact-check (Part 2), neutrality (Part 3), pedagogy (Part 4), and voice and media (the style guide and 4.5). **The neutrality pass is skipped, with a line in that lesson's review file saying so, on a lesson with no contested or value claims in it.** On a procedural course the fact-check is executed rather than fetched: run the code, work the arithmetic.
 
