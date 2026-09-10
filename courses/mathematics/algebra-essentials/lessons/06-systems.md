@@ -1,6 +1,6 @@
 ---
 title: Two unknowns at once
-minutes: 45
+minutes: 70
 objectives:
   - Solve a pair of linear equations by substitution and by elimination, and check the answer in both
   - Say what the solution of a pair means on a graph, and what parallel or identical lines look like in the algebra
@@ -24,28 +24,31 @@ quiz:
       which is 7. Check in both, since checking in one is the classic slip: the first gives
       `7 = 3 + 4`, and the second gives `6 + 7 = 13`. Options B and C both satisfy the first
       equation, because any pair four apart does, and both fail the second: `8 + 8` is 16 and
-      `10 + 9` is 19. That is why one equation is never enough for two unknowns.
+      `10 + 9` is 19. Option D is the same trap from the other side: it satisfies the second
+      equation, since `9 + 4` is 13, and fails the first, since 4 is not `4.5 + 4`. Checking
+      either equation on its own would have passed one of these three wrong pairs, which is why
+      one equation is never enough for two unknowns.
   - q: >-
-      You have `4x + y = 14` and `2x - y = 4`. What happens if you add the two equations
+      You have `5x + y = 23` and `3x - y = 9`. What happens if you add the two equations
       together, side by side?
     options:
       - >-
-          `6x + 2y = 18`, which still has both letters in it
+          `8x + 2y = 32`, which still has both letters left in it
       - >-
-          `2x = 10`, since the difference of the two left sides is what counts
+          `2x = 14`, since the two left sides differ by two `x` alone
       - >-
-          `6x = 18`, because the `+y` and the `-y` cancel each other
+          `8x = 32`, because the `+y` and the `-y` cancel each other
       - >-
-          `6x = 56`, since the two right sides multiply together
+          `8x = 207`, since the two right sides are multiplied together
     answer: 2
     explain: >-
-      Adding the left sides gives `4x + y + 2x - y`, and the `+y` and the `-y` cancel, leaving
-      `6x`. Adding the right sides gives 18. So `6x = 18` and `x = 3`, and putting that back
-      into either equation gives `y = 2`. Check in both: `12 + 2 = 14`, and `6 - 2 = 4`. Option
-      A adds the `x` terms and then forgets that the `y` terms were opposite in sign. Option D
-      multiplies the right sides, which is not what adding two equations does. Option B
-      subtracts when the whole point of adding here is that the `y` terms are already set up to
-      vanish.
+      Adding the left sides gives `5x + y + 3x - y`, and the `+y` and the `-y` cancel, leaving
+      `8x`. Adding the right sides gives 32. So `8x = 32` and `x = 4`, and putting that back into
+      either equation gives `y = 3`. Check in both: `20 + 3 = 23`, and `12 - 3 = 9`. Option A
+      adds the `x` terms and then forgets that the `y` terms were opposite in sign. Option D
+      multiplies the right sides, which is not what adding two equations does. Option B takes two
+      slips rather than one: subtracting is legal here and gives `2x + 2y = 14`, and reaching
+      `2x = 14` also takes `y` minus `-y` to be nothing, when it is `2y`.
   - q: >-
       Working on a pair of equations, you eliminate a letter and end up with `0 = 7`. What does
       that tell you?
@@ -99,16 +102,38 @@ quiz:
       - >-
           Multiply the first equation by 5 and the second by 2, then add them
       - >-
-          Divide the first equation by 3 so that both start with a single `x`
+          Divide the second equation by 3, so that its `y` term comes out smaller
     answer: 1
     explain: >-
       Multiplying the whole of the second equation by 3 gives `3x + 15y = 51`, which now has the
       same `x` term as the first. Subtracting leaves `-13y = -39`, so `y = 3`, and substituting
       back gives `x = 2`. Check in both: `6 + 6 = 12`, and `2 + 15 = 17`. Option A would give
-      `4x + 7y = 29`, which eliminates nothing. Option C is a legal pair of moves that targets
-      `y` rather than `x`, and it does work, so it is wrong only because the question asked for
-      `x`. Option D leaves the first equation with fractions and the second unchanged, so the
-      terms still do not match.
+      `4x + 7y = 29`, which eliminates nothing. Option C scales sensibly and then does the wrong
+      thing with the result: both equations end up with `+10y`, so adding them gives
+      `17x + 20y = 94` and cancels nothing, while subtracting would have removed the `y`. Option
+      D turns the second equation into thirds and leaves the first alone, so no term in either
+      one matches a term in the other.
+  - q: >-
+      Six pens and two notebooks cost $19. Three pens and four notebooks cost $20. Which pair of
+      equations says that, with `p` and `n` for the two prices?
+    options:
+      - >-
+          `p + n = 19` and `p + n = 20`, one equation for each purchase made
+      - >-
+          `6p + 2n = 20` and `3p + 4n = 19`, taking the totals in order given
+      - >-
+          `6p = 19` and `2n = 20`, since each item needs an equation of its own
+      - >-
+          `6p + 2n = 19` and `3p + 4n = 20`, each purchase being one equation
+    answer: 3
+    explain: >-
+      Each purchase is one fact about the two prices, so it is one equation: six pens at `p` plus
+      two notebooks at `n` came to 19, and three pens plus four notebooks came to 20. Solving them
+      confirms it: double the second to get `6p + 8n = 40`, subtract the first, and `6n = 21`, so
+      a notebook is $3.50 and a pen is $2. Check in both, `12 + 7 = 19` and `6 + 14 = 20`. Option
+      B attaches each total to the wrong purchase, and the check kills it. Option A drops the
+      quantities, which are the only reason the two purchases differ. Option C splits a purchase
+      into two equations, which claims the pens alone cost 19.
   - q: >-
       A pair of numbers satisfies the first of two equations. What can you conclude?
     options:
@@ -119,7 +144,7 @@ quiz:
       - >-
           Nothing yet, since infinitely many pairs satisfy any single linear equation
       - >-
-          That the second equation must have no solution of its own
+          That the second equation must therefore have no solutions of its own
     answer: 2
     explain: >-
       Every point on a line satisfies that line's equation, and a line has infinitely many
@@ -143,7 +168,7 @@ Take these two.
 
 `12x + 7y = 880`
 
-Each one on its own has an enormous number of solutions. The first is satisfied by `x = 1, y = 89` and by `x = 50, y = 40` and by `x = 90, y = 0`, and by infinitely many other pairs. The second is satisfied by a different infinite collection.
+Each one on its own has an enormous number of solutions. The first is satisfied by `x = 1, y = 89` and by `x = 20, y = 70` and by `x = 90, y = 0`, and by infinitely many other pairs. The second is satisfied by a different infinite collection.
 
 Asking for a **solution of the pair**, which is what people mean by a **system**, is asking for the one pair of numbers that satisfies **both**. That is the whole idea, and everything else in this lesson is machinery for finding it.
 
@@ -159,9 +184,10 @@ The picture makes it obvious. Each equation is a straight line, in the sense of 
   <text x="30" y="30" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">y</text>
   <line x1="60" y1="60" x2="390" y2="180" stroke="var(--navy, #0f2a4a)" stroke-width="2.5"/>
   <line x1="60" y1="190" x2="390" y2="45" stroke="var(--gold, #b08d2a)" stroke-width="2.5"/>
-  <circle cx="212" cy="115" r="5.5" fill="var(--oxblood, #8b1e2d)"/>
-  <text x="228" y="108" font-size="15" font-weight="700" fill="var(--oxblood, #8b1e2d)">the one pair</text>
-  <text x="228" y="130" font-size="15" fill="var(--text-2, #4a5260)">on both lines at once</text>
+  <circle cx="222" cy="119" r="5.5" fill="var(--oxblood, #8b1e2d)"/>
+  <line x1="155" y1="124" x2="215" y2="120" stroke="var(--oxblood, #8b1e2d)" stroke-width="1"/>
+  <text x="150" y="116" font-size="15" font-weight="700" text-anchor="end" fill="var(--oxblood, #8b1e2d)">the one pair</text>
+  <text x="150" y="134" font-size="15" text-anchor="end" fill="var(--text-2, #4a5260)">on both lines</text>
   <text x="62" y="252" font-size="15" fill="var(--text-2, #4a5260)">each line holds every pair that fits it</text>
 </svg>
 
@@ -192,7 +218,7 @@ Substitution is the method from lesson 5 made general. Get one letter alone in o
 
 **Check in both equations, not one.** First: `50 + 40 = 90`. Second: `12 × 50` is 600, `7 × 40` is 280, and `600 + 280 = 880`. Both hold, so the answer is fifty adult tickets and forty child tickets.
 
-The step people skip is the last one, and it is skipped because after all that work the answer feels earned. It is not earned until it survives both equations, and an arithmetic slip in the middle will usually produce a pair that satisfies one of them.
+The step people skip is the last one, and it is skipped because after all that work the answer feels earned. It is not earned until it survives both equations.
 
 :::checkpoint Solve `y = 2x - 1` together with `3x + y = 14`, then check. The first equation has `y` alone already, so the substitution is done for you: `3x + (2x - 1) = 14`. Finish it.
 Collect the `x` terms: `5x - 1 = 14`. Add one to both sides: `5x = 15`. Divide by five: `x = 3`. Then `y = 2 × 3 - 1`, which is 5. Check in both. The first: `5 = 2 × 3 - 1`, which is `5 = 5`. The second: `3 × 3 + 5` is `9 + 5`, which is 14. Notice that the pair `x = 3, y = 5` is one point, and it is the crossing point of those two lines.
@@ -248,8 +274,8 @@ Substitute back into the second original equation: `4c + 1.90 = 13.50`, so `4c =
 
 The step that feels arbitrary is multiplying an equation by 2 for no reason visible in the problem. The reason is entirely tactical: you are choosing a form of the same true statement that happens to cancel neatly against the other one. Nothing about the situation changed. Two coffees and three teas still cost $11.50; four coffees and six teas costing $23 is the same fact said louder.
 
-:::predict Solve `3x + 2y = 16` and `5x - 2y = 8` by elimination, then check in both.
-The `y` terms are already opposite, so add: `8x = 24`, and `x = 3`. Substituting into the first gives `9 + 2y = 16`, so `2y = 7` and `y = 3.5`. Check in both. First: `9 + 7 = 16`. Second: `15 - 7 = 8`. Both hold. A fractional answer is not a sign of an error; there is no rule that the crossing point of two lines lands on whole numbers, and in real problems it usually does not.
+:::predict Here is another pair where nothing cancels as it stands: `2x + 5y = 24` and `3x + 2y = 14`. The scaling is done for you. Multiply the first by 3 and the second by 2, so that both have the same `x` term, and you get `6x + 15y = 72` and `6x + 4y = 28`. Finish it, and check in both of the original equations.
+Subtract the second of the scaled equations from the first: the `x` terms give zero, the `y` terms give `11y`, and the right sides give 44. So `11y = 44` and `y = 4`. Substitute back into either original: `2x + 20 = 24`, so `x = 2`. Check in both originals, since one is never enough. The first: `4 + 20 = 24`. The second: `6 + 8 = 14`. Notice that scaling both equations rather than one is sometimes the tidier route, and the choice of 3 and 2 came from wanting the two `x` terms to meet at 6, which is the smallest number both 2 and 3 divide into.
 :::
 
 ## Which method to use
@@ -285,7 +311,7 @@ So when the letters vanish, read what is left. A false statement like `0 = 7` me
 **Treating `0 = 0` as an error.** It means the two facts you were given were the same fact, which is a real thing that happens when a problem is written carelessly or when two measurements say the same thing.
 
 :::exercise Practice
-Allow about thirty minutes. Solve each system, by whichever method looks easier, and check every answer in **both** equations before moving on.
+Take thirty minutes over these. Solve each system, by whichever method looks easier, and check every answer in **both** equations before moving on.
 
 1. `y = x + 2` and `3x + y = 18`
 2. `2x + y = 11` and `x - y = 1`
@@ -321,11 +347,11 @@ Lesson 5's naming and numerical checking is what turns a situation with two unkn
 
 ## Where this course stops, and what comes next
 
-That is the course. You can say what a letter means, keep an equation true while you change it, solve one for its unknown, read and write a straight line, turn a sentence into an equation, and handle two unknowns at once. That is the working core of elementary algebra, and it is enough to read the quantitative parts of most things you will meet.
+That is the course. You can say what a letter means, keep an equation true while you change it, solve one for its unknown, read and write a straight line, turn a sentence into an equation, and handle two unknowns at once. That is the working core of elementary algebra.
 
-What this course deliberately leaves out is quadratics, factoring, and exponents. Those are the next block, and they need more space than a foundation course has. Two free places to get them, both good:
+What this course deliberately leaves out is quadratics, factoring, exponents, and inequalities. Those need more space than a foundation course has. Two free places to get them, both good:
 
-- [**OpenStax, *Elementary Algebra 2e***](https://openstax.org/books/elementary-algebra-2e/pages/1-introduction), which continues exactly where this leaves off, in chapters 6 through 10, with full worked solutions.
+- [**OpenStax, *Elementary Algebra 2e*, chapters 6 to 10**](https://openstax.org/books/elementary-algebra-2e/pages/6-introduction), which continues where this leaves off, with full worked solutions. Inequalities are the exception: they sit back in chapter 2, section 2.7, rather than in that later block.
 - [**Khan Academy's Algebra 1**](https://www.khanacademy.org/math/algebra), for practice with immediate feedback, which is the thing a written course cannot give you.
 
 ## Go deeper

@@ -1,6 +1,6 @@
 ---
 title: Turning a sentence into an equation
-minutes: 50
+minutes: 75
 objectives:
   - Turn a described relationship into an equation, naming each letter as a number rather than as a thing
   - Test a translation by putting numbers into it, and repair it when it fails
@@ -288,7 +288,7 @@ So this is a trap that particular teaching builds, and other teaching seems not 
 **Forgetting to answer the question.** The theatre problem asks for both ticket counts. Solving gives `c = 120` and stopping there answers half of it.
 
 :::exercise Practice
-Allow about twenty five minutes for these. For every one of the first six, name your letters as numbers first, write the equation, and then test it with a number of your own choosing before you look at the answer.
+Take 25 minutes over these. For every one of the first six, name your letters as numbers first, write the equation, and then test it with a number of your own choosing before you look at the answer.
 
 1. A bakery sells nine times as many rolls as loaves. Write the equation with `R` and `L`.
 2. Sam earns four hundred dollars less per month than Priya. Write it with `s` and `p`.

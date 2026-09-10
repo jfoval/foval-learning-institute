@@ -207,8 +207,16 @@ the same five steps including the audio. It is now in `CLAUDE.md` as rule 5b and
      letters. The stem was a typo for a different equation and the answer text was internally
      consistent, which is why the drafter's own arithmetic check missed it. **New rule, in REVIEWS.md:
      execute a stem against its own model answer, not only the answer against the source.**
-   - **Lesson 6, two unknowns at once**, drafted; its Stage 4 is in flight.
-   - Then the renumbering, both assessments, `estimated_hours`, and six episodes.
+   - ~~**Lesson 6, two unknowns at once.**~~ **DONE 2026-09-09**, drafted and given a Tier A Stage 4
+     with seven findings applied. Two quiz items were wrong in the same way lessons 3 and 4 were:
+     one had a second correct answer whose stated reason for being wrong was false, and one told a
+     learner that a move which cancels nothing "does work". **The diagram's marked crossing point was
+     ten pixels off the actual crossing and both its labels were struck through by the lines**, which
+     is the third chart in this course to ship a label with a line running through it.
+   - ~~**Both assessments, `course.yaml`, and `estimated_hours`.**~~ **DONE 2026-09-09.** An
+     eighteen-item final test and the rate-in-your-own-life project, `estimated_hours` measured at
+     4.3 in place of the stub era's 2.3, and outcomes rewritten to what the six lessons deliver.
+   - **What is left: six podcast episodes, and they are blocked on fal.** Nothing else is owed.
 
 5. **Python Basics, rebuilt.** T6, six stubs. Same treatment as Algebra.
 
@@ -273,10 +281,10 @@ is John's definition.
 | Bible Basics | T8 | 12 | 13,163 | 12 | 2 | 1 of 12 | eleven episodes |
 | **Writing Clearly** | T1 | **9** | **3,676** | **0** | **2** | 0 of 9 | **Stage 4 on all nine, voice pass, nine episodes** |
 | Personal Finance | T2 | 8 of 10 | 5,932 | 8 | **0 of 2** | 0 of 8 | two lessons, both assessments, eight episodes |
-| Algebra Essentials | T5 | 4 of 6 rebuilt | 1,760 | 4 | 0 of 2 | 0 of 6 | two lessons, renumbering, both assessments, six episodes |
+| Algebra Essentials | T5 | **6** | **2,400** | **6** | **2** | 0 of 6 | **six episodes, and nothing else** |
 | Python Basics | T6 | 6 | **463** | 0 | 0 | 0 | **everything. Still a stub course.** |
 
-*Updated 2026-09-09.* Fifty-eight lessons live, twelve with audio. **All eleven remaining validator
+*Updated 2026-09-09, second session.* Sixty-one lessons live, twelve with audio. **All eleven remaining validator
 warnings are in Algebra and Python**, and they are all "no links in the body". Every other course is
 warning-free.
 
@@ -287,9 +295,10 @@ are thin, the fix is more worked examples rather than more prose.
 
 ## 3. Podcasts: BLOCKED ON A FAL TOP-UP, 2026-09-09
 
-**The fal balance is exhausted and rendering is stopped.** The exact response, on the third render of
-the day: `403 {"detail":"User is locked. Reason: Exhausted balance. Top up your balance at
-fal.ai/dashboard/billing."}` Two Personal Finance episodes went out before it hit, lessons 1 and 2,
+**The fal balance is exhausted and rendering is stopped. Re-checked 2026-09-09 in a later session
+and it is still locked**, tested by attempting the Personal Finance lesson 3 render, which failed
+before spending anything. The exact response, both times: `403 {"detail":"User is locked. Reason:
+Exhausted balance. Top up your balance at fal.ai/dashboard/billing."}` Two Personal Finance episodes went out before it hit, lessons 1 and 2,
 both live and stamped and both voice-checked. **John needs to top up at fal.ai/dashboard/billing
 before any more audio can be made.** Nothing else in the project is blocked by this.
 
@@ -301,7 +310,7 @@ before any more audio can be made.** Nothing else in the project is blocked by t
 | Logic and Argument | 7 (lessons 4 to 10) | Yes |
 | Bible Basics | 11 (lessons 2 to 12) | Yes |
 | Writing Clearly | 9 | No: needs Stage 4 and the voice pass first |
-| Algebra Essentials | 6 | No: rebuild in progress |
+| Algebra Essentials | 6 | **Yes, as of 2026-09-09: the rebuild is finished** |
 | Python Basics | 6 | No: still stubs |
 
 At about $0.40 an episode the 26 that are ready come to roughly $11, and all 47 owed across the
@@ -442,7 +451,11 @@ roughly $11. Writing Clearly's 9 and Algebra's 6 wait on their Stage 4 cycles.
 2. **`npm run minutes` can be blind, and the fix belongs in the lesson.** Its stated-duration
    detector needs a cue word (`about`, `around`, `roughly`, `take`, `spend`, `allow`, `give`) opening
    the sentence. An exercise that begins "Ninety minutes, and..." is invisible to it. **Open exercise
-   timings with a cue word.**
+   timings with a cue word.** **Corrected the next day, after this rule was followed and still
+   failed:** the cue word must be **immediately followed by the number**, so "Allow about thirty
+   minutes" does not match, and the number must be a digit or a **single** word, so "twenty five"
+   does not match either. Write it as **"Take 30 minutes over these."** Both Algebra lessons 5 and 6
+   shipped 25 minutes light because of this, which is the whole length of their exercises.
 3. **Every "if you got X, you probably did Y" must be traced backwards before it ships.** Three
    times in the Algebra rebuild the lesson blamed a slip that cannot produce the number it was
    attached to, and once the blamed route produces the right answer. A wrong diagnosis is worse than
