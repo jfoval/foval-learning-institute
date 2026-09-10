@@ -58,10 +58,11 @@ has not read one yet.** If he says they are thin, the fix is more worked example
 
 ## Open defects
 
-- **Quiz explanations naming the wrong option letter**, on published courses: Logic's final test
-  items 1, 2, 3, 11 and 14, Logic lesson 4 item 1, Bible Basics lesson 3 item 2. **A learner who
-  answers correctly is told they were wrong.** `node scripts/check-quiz-letters.cjs` finds them and
-  false-positives, so check each by eye. Under an hour for all of them.
+- ~~Quiz explanations naming the wrong option letter.~~ **Closed 2026-09-10.** All seven named
+  items read correctly; they had been fixed and the entry here was stale. The checker had also
+  been broken since `courses/CLAUDE.md` landed, and cried wolf on twenty items when it ran. It is
+  rewritten: it now looks for a verdict that contradicts the key, or the key rejected as a
+  distractor, and reports clean across all sixty-one lessons. `node scripts/check-quiz-letters.cjs`
 - **11 lessons with no links in the body**, all in Algebra and Python; closes when those are
   rebuilt. Every other course is warning-free.
 - **Eight answer leaks in drafts** (seven Bible Basics, one Logic 9). They block those courses'
