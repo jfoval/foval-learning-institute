@@ -9,44 +9,44 @@ objectives:
 quiz:
   - q: A swimmer has swum 2 km every morning at a comfortable pace for three years. Her times have not improved since the first six months. Which change turns her routine into something closer to deliberate practice?
     options:
-      - Swim 3 km instead of 2 km, on the theory that more volume at the same pace will eventually force an adaptation
       - Pick one flaw, such as her left-side breathing, drill it in short sets, and have a coach or a video check each set
+      - Swim 3 km instead of 2 km, on the theory that more volume at the same pace will eventually force an adaptation
       - Swim every session as hard as she can rather than at a comfortable pace, so that the sessions become effortful
-      - Join a masters club so the sessions are social and enjoyable and she is more likely to keep showing up for years
-    answer: 1
+      - Join a masters club so the sessions are social and enjoyable and she is more likely to keep showing up for years to come
+    answer: 0
     explain: Deliberate practice needs a specific goal at the edge of current ability plus feedback that closes the loop. Only the second option has both. More distance is more of the same repetition, which entrenches what she already does. Effort is part of Ericsson's definition, but effort without a target is just tiring; "as hard as she can" does not tell her what to change. Enjoyment helps her keep going, but on its own it is what Ericsson called play, not practice.
   - q: A newspaper reports a study of 500 club chess players. The hours they say they have spent on chess since childhood explained about 30% of the differences in their ratings. The headline reads "Talent, not practice, makes a chess master." How would each side of the deliberate-practice debate respond?
     options:
       - Both sides would accept the headline. Thirty percent is close to the meta-analysis figure for games, and neither side has ever claimed practice explains more than a minority of the variance
-      - Ericsson's side would say "hours on chess" lumps casual games in with designed study, so the wrong thing was measured. Macnamara's side would say 30% is a large effect for one factor, so the headline overstates their view too
       - Ericsson's side would accept the 30% but say it applies only to music, where the violin data came from. Macnamara's side would reject the study because 500 players is too small a sample to show anything
+      - Ericsson's side would say "hours on chess" lumps casual games in with designed study, so the wrong thing was measured. Macnamara's side would say 30% is a large effect for one factor
       - Both sides would reject the study outright. Self-reported childhood hours are the kind of evidence the 2019 replication discredited, so no conclusion about practice can be drawn from them
-    answer: 1
-    explain: The headline is wrong by both sides' lights. Ericsson's objection to the meta-analyses was exactly the first one; adding up any hours in a domain measures play and work alongside deliberate practice, then finds the mixture explains little. Macnamara and Hambrick call a fifth to a third of variance important; their claim is that practice is not the whole story, not that talent is. Option A misreads a partial effect as a verdict for talent. Option C invents a domain limit; the dispute is about how practice was counted, not where. Option D confuses "remembered hours are weaker than prospective measurement" with "unusable"; both sides' own studies rely on remembered hours, which is why a prospective study is what would settle it.
+    answer: 2
+    explain: The headline is wrong by both sides' lights. Ericsson's objection to the meta-analyses was exactly the first one; adding up any hours in a domain measures play and work alongside deliberate practice, then finds the mixture explains little. Macnamara and Hambrick call a fifth to a third of variance important; their claim is that practice is not the whole story, not that talent is. Option A misreads a partial effect as a verdict for talent. Option B invents a domain limit; the dispute is about how practice was counted, not where. Option D confuses "remembered hours are weaker than prospective measurement" with "unusable"; both sides' own studies rely on remembered hours, which is why a prospective study is what would settle it.
   - q: Two radiologists each have fifteen years' experience and read about the same number of scans a week. Every month Dr A also pulls the cases where her report was later contradicted by biopsy or surgery, re-reads the original images, and asks a colleague where she should have looked. Dr B does not. Which is the best prediction from the deliberate-practice literature?
     options:
       - Neither will improve much. Macnamara, Hambrick and Oswald found practice explains under 1% of performance in professions, so what either does at work makes little difference
-      - Dr A is likelier to be improving, because reviewing contradicted reports gives her feedback tied to specific cases at the edge of her ability, which is the ingredient ordinary caseload lacks
-      - Dr B is likelier to be improving, because her hours go into reading live scans rather than looking back at old ones, and volume of real cases is what builds expert pattern recognition
+      - Dr B is likelier to be improving, because her hours go into reading live scans rather than looking back at old ones, and sheer volume of real cases is what builds up expert pattern recognition
       - Both will improve equally, because fifteen years at the same caseload accumulates the same experience, and the review habit changes only how confident Dr A feels about her reports
-    answer: 1
-    explain: The under-1% figure rests on a handful of studies in four occupations, and what it measured is disputed; but both sides agree that routine work is not designed practice. Ordinary caseload sits at the level Dr A already handles, with feedback that arrives late or never. Her monthly review recovers the two missing ingredients, a specific gap and feedback attached to it, so the loop can close. Option A turns a finding about differences between professionals into a claim that no professional can improve. Option C is the "experience equals expertise" mistake; more of the same repetition entrenches the same misses. Option D ignores that the review changes what she attends to next time, not just how she feels.
+      - Dr A is likelier to be improving, because reviewing contradicted reports gives her feedback tied to specific cases at the edge of her ability, which is the ingredient ordinary caseload lacks
+    answer: 3
+    explain: The under-1% figure rests on a handful of studies in four occupations, and what it measured is disputed; but both sides agree that routine work is not designed practice. Ordinary caseload sits at the level Dr A already handles, with feedback that arrives late or never. Her monthly review recovers the two missing ingredients, a specific gap and feedback attached to it, so the loop can close. Option A turns a finding about differences between professionals into a claim that no professional can improve. Option B is the "experience equals expertise" mistake; more of the same repetition entrenches the same misses. Option C ignores that the review changes what she attends to next time, not just how she feels.
   - q: A running coach tells a 32-year-old client, "Every elite has logged 10,000 hours, so you need 10,000 hours before you can expect to race well." What is the most accurate response?
     options:
       - Broadly right. The Berlin study found 10,000 hours was the amount required to reach expert level, and running is unlikely to differ much from violin in this respect
+      - Wrong in kind. The figure was an average for one group at 20, not a threshold, and it says nothing about what the hours contained, which is what predicts improvement
       - Wrong on the number only. 10,000 hours was a violin figure, and the equivalent for endurance sport would need to be measured before setting the client a target
-      - Wrong in kind. The figure was an average for one group of students at 20, not a threshold, and it says nothing about what the hours contained, which is what predicts improvement
       - Wrong because hours are irrelevant. The 2019 replication showed the best violinists had practised less, so total practice does not predict performance at all
-    answer: 2
-    explain: "The 10,000 was an average for the best group at 20, with some above and some below, and those violinists were still students with a long way to go. Ericsson rejected the rule for that reason and because the paper's point was the structure of the hours, not the count. Option A repeats Gladwell's reading. Option B accepts the threshold idea and just moves it to a new domain. Option D over-corrects: in the replication the good had still practised more than the less accomplished, the best-versus-good difference was not statistically significant, and practice explained 26% of variance. Hours predict; they do not predict everything."
+    answer: 1
+    explain: "The 10,000 was an average for the best group at 20, with some above and some below, and those violinists were still students with a long way to go. Ericsson rejected the rule for that reason and because the paper's point was the structure of the hours, not the count. Option A repeats Gladwell's reading. Option C accepts the threshold idea and just moves it to a new domain. Option D over-corrects: in the replication the good had still practised more than the less accomplished, the best-versus-good difference was not statistically significant, and practice explained 26% of variance. Hours predict; they do not predict everything."
   - q: A learner decides to practise piano by attempting a piece far above his level, gets almost every bar wrong, and does not check what went wrong. He says this is deliberate practice because it is very hard. Is he right?
     options:
       - Yes. The harder the attempt, the more deliberate the practice, since effort is part of Ericsson's definition
-      - No. The target should be just past current ability, and errors that are never checked get entrenched rather than corrected
       - No, but only because he has no teacher. With a teacher in the room the same attempt at the same piece would qualify
-      - Yes, provided he keeps it up for enough hours. Difficulty plus volume is what the violinists' 10,000 hours consisted of
-    answer: 1
-    explain: "Bjork and Bjork's condition applies; a difficulty is desirable only if the learner can meet it. The edge is slightly beyond current ability, not far beyond, and without feedback there is no loop to close, so repetition strengthens whatever he is doing, wrong notes included. Option A confuses effort with targeting. Option C is half right: strictly, Ericsson would call corrected solo work purposeful rather than deliberate practice, but a teacher would fix this session by changing the target and adding feedback, not by being present, and a recording or a marked score supplies feedback without one. Option D repeats the hours mistake; the violinists' hours counted because of their structure."
+      - No. The target should be just past current ability, and errors that are never checked get entrenched rather than corrected
+      - Yes, provided he keeps it up for enough hours. Difficulty plus sheer volume is what the violinists' 10,000 hours consisted of
+    answer: 2
+    explain: "Bjork and Bjork's condition applies; a difficulty is desirable only if the learner can meet it. The edge is slightly beyond current ability, not far beyond, and without feedback there is no loop to close, so repetition strengthens whatever he is doing, wrong notes included. Option A confuses effort with targeting. Option B is half right: strictly, Ericsson would call corrected solo work purposeful rather than deliberate practice, but a teacher would fix this session by changing the target and adding feedback, not by being present, and a recording or a marked score supplies feedback without one. Option D repeats the hours mistake; the violinists' hours counted because of their structure."
 ---
 
 

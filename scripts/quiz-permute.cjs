@@ -83,13 +83,26 @@ for (let i = ansLine + 1; i < lines.length; i++) if (/^  - q:/.test(lines[i])) {
 let expStart = -1;
 for (let i = ansLine + 1; i < itemEnd; i++) if (/^    explain:/.test(lines[i])) { expStart = i; break; }
 if (expStart < 0) { console.error("warning: no explain: block found for this item"); }
+// ONE pass, one combined pattern. Running the rules in sequence was a bug:
+// "Option C invents" became "Option B invents" under the Option rule, and then
+// the bare "<letter> <verb>" rule matched the B that had just been written and
+// remapped it a second time. Two of the rules below overlap by design, so any
+// letter must be rewritten exactly once.
+const REFS = new RegExp(
+  "\\(([A-D])\\)"                                   // (A)
+  + "|\\bOptions\\s+([A-D])\\s+and\\s+([A-D])\\b"    // Options A and B
+  + "|\\bOption\\s+([A-D])\\b"                        // Option A
+  + `|\\b([A-D])(?=\\s+(?:${VERBS})\\b)`                // A is / A confuses
+  + "|(?<=\\b(?:So|so|That is|that is|Hence|Therefore)\\s)([A-D])(?=[.;,])", // So A.
+  "g");
 for (let i = expStart < 0 ? itemEnd : expStart; i < itemEnd; i++) {
-  let s = lines[i];
-  s = s.replace(/\(([A-D])\)/g, (_, c) => `(${remap(c)})`);
-  s = s.replace(/\bOptions\s+([A-D])\s+and\s+([A-D])\b/g, (_, a, b) => `Options ${remap(a)} and ${remap(b)}`);
-  s = s.replace(/\bOption\s+([A-D])\b/g, (_, c) => `Option ${remap(c)}`);
-  s = s.replace(new RegExp(`\\b([A-D])\\s+(?=(?:${VERBS})\\b)`, "g"), (_, c) => `${remap(c)} `);
-  s = s.replace(/\b(?:So|so|That is|that is|Hence|Therefore)\s+([A-D])(?=[.;,])/g, (m, c) => m.replace(c, remap(c)));
+  let s = lines[i].replace(REFS, (m, paren, pairA, pairB, opt, bare, verdict) => {
+    if (paren) return `(${remap(paren)})`;
+    if (pairA) return `Options ${remap(pairA)} and ${remap(pairB)}`;
+    if (opt) return `Option ${remap(opt)}`;
+    if (bare) return remap(bare);
+    return remap(verdict);
+  });
   lines[i] = s;
   for (const mm of s.matchAll(/\b([A-D])\b/g)) {
     const before = s.slice(Math.max(0, mm.index - 12), mm.index);
