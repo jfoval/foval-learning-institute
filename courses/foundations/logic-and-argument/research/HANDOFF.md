@@ -1,10 +1,10 @@
 # Logic and Argument — state of play
 
 Written 2026-09-06 at the end of the lesson 9 fix pass, so a new session can pick the course up without
-reading the whole of `REVIEWS.md` first. Branch: `claude/logic-argument-course-3mbwv1`.
+reading the whole of the review history first. Branch: `claude/logic-argument-course-3mbwv1`.
 
 Read `docs/BACKLOG.md` first, as CLAUDE.md says. Then this file. Then whichever of `OUTLINE.md`,
-`SOURCES.md` and `REVIEWS.md` your task touches.
+`SOURCES.md` and the `research/reviews/` files your task touches.
 
 ## Where the ten lessons are
 
@@ -52,7 +52,7 @@ lessons unless lesson 10 adds a fifth seam.
 
 ## Two lists that outlive any one session
 
-Both live at the end of `REVIEWS.md`, after the lesson 3 block.
+Both live in `research/reviews/03-conditionals.md`.
 
 - **"Owed to a session with network access"**, now 31 items. This container's egress proxy denies
   general CONNECT, so `WebFetch` fails on almost every domain; `WebSearch` works, because it routes

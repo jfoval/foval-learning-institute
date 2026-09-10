@@ -251,4 +251,4 @@ A lesson is done when:
 - [ ] It reads well at phone width
 - [ ] It is live, and the feedback loop is open on it
 
-Reviewers record their findings in the course's `research/REVIEWS.md`. There is no separate human sign-off gate before publishing: the owner reads every course as a learner once it's live, and that reading plus everyone else's feedback, filtered through `docs/VALUES.md`, is how lessons keep improving.
+Reviewers record their findings in the lesson's `research/reviews/<lesson-id>.md`. There is no separate human sign-off gate before publishing: the owner reads every course as a learner once it's live, and that reading plus everyone else's feedback, filtered through `docs/VALUES.md`, is how lessons keep improving.

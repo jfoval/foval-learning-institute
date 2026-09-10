@@ -9,7 +9,7 @@ fal, John is the Charon voice and Haley is Aoede. One episode per session.
 
 **Gate first: the lesson must be settled.** Podcast only after the Stage 4 review, the
 voice pass, and the media pass are done, never before, so audio is not paid for twice.
-Check the course's `research/REVIEWS.md` and status. If the lesson is not settled, stop
+Check the lesson's `research/reviews/<lesson-id>.md` and the course status. If the lesson is not settled, stop
 and say what is still owed. Also run `node scripts/podcast.mjs plan $ARGUMENTS` — if an
 episode is already live and stamped, stop.
 

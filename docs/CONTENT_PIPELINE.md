@@ -38,7 +38,10 @@ courses/<school>/<course-id>/
   research/
     SOURCES.md           the canonical references the course is built from  (stage 1)
     OUTLINE.md           lesson-by-lesson plan with objectives              (stage 2)
-    REVIEWS.md           review findings and resolutions, appended over time (stage 4)
+    reviews/             one file per lesson: review findings and resolutions (stage 4)
+      <lesson-id>.md     that lesson's whole review history
+      course-wide.md     findings belonging to no single lesson
+      README.md          the layout
   lessons/
     01-slug.md           one lesson per file, frontmatter + Markdown         (stage 3)
     02-slug.md
@@ -79,11 +82,11 @@ Review in a **fresh context**, so the reviewer is not anchored on the draft's ow
 - **Tier A, one reviewer, the default.** One subagent runs all the applicable passes in its own fresh context. Measured at roughly 100k tokens a lesson, and on the lesson where both were run it found everything the five-agent version found, because the passes share the reading.
 - **Tier B, one reviewer per pass in parallel.** Reserved for sensitive domains (standards 3.4), standpoint courses, and any lesson a Tier A pass sent back for heavy rewriting. Roughly 600k to 900k tokens a lesson. Worth it there and nowhere else.
 
-The passes are depth (Part 1), fact-check (Part 2), neutrality (Part 3), pedagogy (Part 4), and voice and media (the style guide and 4.5). **The neutrality pass is skipped, with a line in REVIEWS.md saying so, on a lesson with no contested or value claims in it.** On a procedural course the fact-check is executed rather than fetched: run the code, work the arithmetic.
+The passes are depth (Part 1), fact-check (Part 2), neutrality (Part 3), pedagogy (Part 4), and voice and media (the style guide and 4.5). **The neutrality pass is skipped, with a line in that lesson's review file saying so, on a lesson with no contested or value claims in it.** On a procedural course the fact-check is executed rather than fetched: run the code, work the arithmetic.
 
 **A stub is replaced, not reviewed.** A pre-pipeline placeholder of a few hundred words costs as much to review as a real lesson and returns nothing. Run Stage 1 and Stage 2 on the course and draft it fresh.
 
-Findings go to `research/REVIEWS.md` with IDs, the fixes are applied, and a "Resolutions applied" note records what was deliberately not fixed. A second full pass runs only when the first found wrong facts, a failed neutrality check, or a third of the lesson generic. Not out of caution.
+Findings go to `research/reviews/<lesson-id>.md` with IDs, the fixes are applied, and a "Resolutions applied" note records what was deliberately not fixed. A second full pass runs only when the first found wrong facts, a failed neutrality check, or a third of the lesson generic. Not out of caution.
 
 ### Stage 5: Publish
 When every lesson has passed Stage 4 and the voice pass, set `status: published`, run `npm run build`, commit, push. GitHub Pages deploys. There is no separate sign-off gate: the owner reads courses as a learner, and that reading, together with everyone else's feedback, is Stage 7.
@@ -101,7 +104,7 @@ committed; the MP3 lives in R2, never in git. Publishing does not wait for podca
 settled lesson can go live and get its episode after.
 
 ### Stage 7: Feedback loop
-This is how lessons get better after they're live, and it never ends. Learner feedback (from the form on every lesson, GitHub Issues, or later the platform's feedback table) runs through `/triage-feedback`, which sorts it against `docs/VALUES.md` and the standards: what makes a lesson clearer, deeper, or more honest is built in; what would make it shallower, slanted, or softer on the truth is declined with a reason. Everything is logged in REVIEWS.md. Content is versioned in git, so every change is traceable. See `docs/FEEDBACK_LOOP.md`.
+This is how lessons get better after they're live, and it never ends. Learner feedback (from the form on every lesson, GitHub Issues, or later the platform's feedback table) runs through `/triage-feedback`, which sorts it against `docs/VALUES.md` and the standards: what makes a lesson clearer, deeper, or more honest is built in; what would make it shallower, slanted, or softer on the truth is declined with a reason. Everything is logged in the lesson's review file. Content is versioned in git, so every change is traceable. See `docs/FEEDBACK_LOOP.md`.
 
 ## Working practices that protect quality
 
@@ -110,7 +113,7 @@ This is how lessons get better after they're live, and it never ends. Learner fe
 - **Fresh eyes for review.** Reviews run in subagents or new sessions. A model reviewing its own draft in the same context is far too kind to it.
 - **Adversarial fact-check.** The fact-checker's prompt says "assume there are errors; find them."
 - **Read on a phone.** Most learners will be on one; the owner reads every course that way, as a learner, after it's live.
-- **Log everything in REVIEWS.md.** Future sessions and future contributors need the history.
+- **Log everything in the lesson's `research/reviews/<lesson-id>.md`.** Future sessions and future contributors need the history.
 - **Prefer linking to duplicating.** If MIT OCW has the perfect lecture, link it in "Go deeper" and write the lesson around it rather than re-explaining it worse.
 - **Update the map.** When a course changes status, update its row in `curriculum/TAXONOMY.md`.
 

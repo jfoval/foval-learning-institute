@@ -1,0 +1,22 @@
+# Reviews: How to Learn Anything — 01-learning-is-not-performance
+
+Append-only. Newest at the bottom.
+
+## 2026-09-04 — Lesson 01 — depth, fact-check, neutrality, pedagogy (findings; fixes NOT yet applied)
+**Reviewers:** four fresh-context subagents. The orchestrator died before applying fixes; apply everything below.
+**Fact-check (primary sources read):**
+1. [critical] "They had just seen their own scores say otherwise" (painters wrinkle, line ~116) and quiz Q5 "even after seeing their own results": WRONG. Exp 2 (source of 64/72) had no feedback during the test; Exp 1a gave item feedback but no scores by condition; a follow-up showed participants could not tell which artists had been massed. Rewrite per the Kornell & Bjork correction in SOURCES.md: Exp 1a 78%/78% with item feedback; Exp 2 64 of 72 with no feedback; "even after their own test performance had demonstrated the opposite". Fix Sources entry 6 accordingly; state which experiment each figure is from.
+2. [major] "On their account it does not decay" attributed to Bjork & Bjork 2011: the no-decrease postulate is Bjork & Bjork 1992 (new theory of disuse). Cite 1992 and add it to Sources.
+3. [major] "90% ... 72% still said massed": figures are from Kornell 2009 (*Applied Cognitive Psychology* 23, 1297–1317), flashcards, judged at the end of session 1 *before* the final test. Drop "still", attribute to Kornell 2009 via [4], or replace with Karpicke & Blunt 2011 so the two worked examples use different paradigms (depth reviewer prefers the replacement).
+4. [major] Dunlosky & Rawson 2012 mechanism overstated ("because they believed they were done"); the retention link held after accounting for trials. Reword to "dropped items sooner and recalled less two days later" and give it its own Sources entry (*Learning and Instruction* 22, 271–280).
+5. [major] Roediger & Karpicke Exp 1 was within-subjects (each student did both passages). Fix "one of two things" and quiz Q2 explain.
+6. [minor] "systematically overstate" → "can overstate" (Koriat & Bjork stress the bias is selective); "dozens of studies" → "many"; "a century" → "nearly a century"; highlighting-hurts-inference rests on one study (Peterson 1992), say so; add Cohen 1988 for "0.8 is large"; "Bjork and Bjork put it directly" → "put it this way".
+**Depth:**
+7. [critical] The mechanism section states the rule without the mechanism. Add Bjork & Bjork's actual rule: the gain in storage strength from a study or retrieval event is larger the lower the current retrieval strength. That one rule explains testing, spacing, and interleaving; say so and point forward to lessons 3–5. "Recognising ... does not [build storage strength]" is too absolute; the rereaders held 42% at a week.
+8. [major] Foresight bias is abstract; use Koriat & Bjork's concrete demonstration (a pair whose second word is obvious only when you see it; at test you see only the cue). Fact-check the specific pair before naming one.
+9. [major] Painters example needs numbers: .61 vs .35 (d = 0.99) in Exp 1a; Brunmair & Richter g = 0.67 for paintings.
+10. [major] Add the fourth misconception: "self-testing tells you what you know; it doesn't teach" (Kornell & Bjork 2007: of 472 students, 18% self-test to learn, 68% to check).
+11. [minor] Remove rubric words ("This is the wrinkle", "Keep that sentence in mind"); "strongest tool in the literature" → "one of the two best-supported techniques (spacing is the other)".
+**Neutrality:** present the two-strengths model as the Bjorks' model ("one model among several; the results are real whichever you prefer"); don't say recognition builds "almost nothing"; Q1 option D (transfer-appropriate processing) is defensible under an established framework, replace it; Q3 must not say multiple-choice "mostly measures" (Adesope: MC g = 0.70); Q5 option B is half-true, reword so it is clearly wrong; soften "popular study advice" sneer; add a sentence for the cognitive-load view in the desirable-difficulties callout; add Carpenter, Pan & Butler 2022 to Go deeper.
+**Pedagogy:** Q4 is phrase recognition (childhood phone number), replace with the Lena/Tom case; Q2 is the worked example restated, replace with a novel case (Marco's bones of the hand); Q3 rewrite so app A is a familiarity judgement, not MC retrieval; balance option lengths (key was longest in 4 of 5); split the two long paragraphs; give self-test item 5 a criterion.
+**Status:** needs fixes, then voice pass, then a second fact-check of new text.
