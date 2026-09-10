@@ -8,7 +8,8 @@
 // The session token is returned in the JSON body and sent back as `Authorization:
 // Bearer`. It is not an HttpOnly cookie, because the site is served from a different
 // origin than this Worker and third-party cookies are on their way out. When the site
-// moves to Cloudflare Pages (BACKLOG 8c) and shares an origin with this Worker, switch
+// moves to Cloudflare Pages (docs/PLATFORM_ROADMAP.md, "Going private") and shares an
+// origin with this Worker, switch
 // to an HttpOnly, Secure, SameSite=Lax cookie and delete the bearer path.
 //
 // Secrets, set with `wrangler secret put`:

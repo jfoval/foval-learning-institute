@@ -3,7 +3,7 @@
 Written 2026-09-06 at the end of the lesson 9 fix pass, so a new session can pick the course up without
 reading the whole of the review history first. Branch: `claude/logic-argument-course-3mbwv1`.
 
-Read `docs/BACKLOG.md` first, as CLAUDE.md says. Then this file. Then whichever of `OUTLINE.md`,
+Read `docs/QUEUE.md` first, as CLAUDE.md says. Then this file. Then whichever of `OUTLINE.md`,
 `SOURCES.md` and the `research/reviews/` files your task touches.
 
 ## Where the ten lessons are
@@ -29,7 +29,7 @@ lessons unless lesson 10 adds a fifth seam.
 ## What to do next, in order
 
 1. **Lesson 10, full Stage 4 cycle.** Five reviewers in ONE message with `run_in_background: false`, per
-   "How to run one" in `docs/BACKLOG.md` section 1. If you background them the orchestrator ends its
+   "How to run one" in `.claude/commands/review-lesson.md`. If you background them the orchestrator ends its
    turn and the work is lost; this has happened once. Read all five reports before changing anything:
    on every lesson so far, at least one reviewer has proposed a fix that another reviewer independently
    disproved. `npm run validate` must exit 0, and any SVG must be rendered headless at 340px in **both**

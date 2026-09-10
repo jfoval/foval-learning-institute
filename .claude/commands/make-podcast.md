@@ -57,6 +57,10 @@ node scripts/podcast.mjs stamp $ARGUMENTS           # writes audio: into the les
 Rendering usually takes a couple of minutes; the poll budget is 20. If the render fails, check the fal
 dashboard before re-sending, so the same job is not paid for twice.
 
-**4. Finish.** `npm run validate`; `npm run build` and commit `site/data/courses.js` too
+**4. Lower the debt.** Subtract one from this course's entry in `curriculum/audio-debt.yaml`, in the
+same commit as the stamp, and delete the entry when it reaches zero. `npm run validate` fails if the
+ledger and the lessons disagree in either direction, which is what stops the count drifting.
+
+**5. Finish.** `npm run validate`; `npm run build` and commit `site/data/courses.js` too
 if the course is published. Commit the script and the stamped lesson together, naming the
 course and lesson. The MP3 itself lives in R2 and git-ignored `audio-out/`, never in git.

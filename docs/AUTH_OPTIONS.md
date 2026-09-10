@@ -15,9 +15,9 @@ is enough for profiles, lesson progress, review items and study sessions.
 What Cloudflare does not give us is authentication. Nothing in the platform turns an email address
 into a session cookie. That is the gap, and there are four ways to fill it.
 
-**Correction to the old plan:** `BACKLOG.md` section 8b said accounts were blocked on a Supabase
+**Correction to the old plan:** the backlog once said accounts were blocked on a Supabase
 free-tier project slot. That stopped being true when the project moved to Cloudflare. Nothing is
-blocked. It just has not been built. Section 8b has been rewritten.
+blocked. It just has not been built. See `docs/DECISIONS.md` §11.
 
 ## The constraints that decide it
 
