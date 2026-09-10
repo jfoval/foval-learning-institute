@@ -16,34 +16,34 @@ quiz:
     explain: APR is a yearly rate, so divide by 12 for the monthly cost. 20% divided by 12 is about 1.7%, and 1.7% of $3,000 is about $50. Option A charges the whole year's interest in one month. Option C has it backwards; interest applies to the carried balance, and carrying a balance actually removes the interest-free grace period on new purchases too. Option D confuses avoiding late fees with avoiding interest; the minimum payment keeps the account in good standing while the interest keeps accruing on everything she still owes.
   - q: Jae has three debts and $350 a month to put at them. He has started ambitious payoff plans twice before and abandoned both within a few months. His smallest debt is also his lowest-rate one. Given the research in this lesson, what is the strongest advice?
     options:
-      - Avalanche, always. Paying anything but the highest rate first wastes money, and wasted money is the only thing that matters
-      - Snowball, always. The research proves that paying small debts first is mathematically superior
-      - The order doesn't matter at all, so he should just split the $350 evenly across all three
-      - Snowball is worth the extra interest for him specifically. The evidence says people who close accounts early are more likely to finish, and his history says finishing is his real risk
+      - Avalanche, always. Paying anything but the highest rate first simply wastes money, and wasted money is the only thing that counts here
+      - Snowball, always. The research proves that paying the small debts off first is mathematically superior to the alternative
+      - The order doesn't matter at all in the end, so he should simply split the $350 evenly across all three of them
+      - Snowball is worth the extra interest for him. People who close accounts early are likelier to finish, and finishing is his real risk
     answer: 3
     explain: The arithmetic and the behavioural evidence point at different orders, and the choice turns on which failure you're more prone to. Avalanche minimises interest if you finish. But studies of real debtors (Gal and McShane 2012; Kettle and colleagues 2016) found that people who concentrate payments and close individual accounts are more likely to eliminate their whole debt, and Jae's track record says his risk is quitting, not overpaying. Option A prices the interest and ignores the quitting risk the data measure. Option B overclaims; snowball is never mathematically superior, it costs more when both plans are completed. Option C throws away both advantages, closing no account quickly and not favouring the expensive debt either.
   - q: A lender offers to consolidate Priya's $12,000 of credit card debt into a home equity loan at 9% instead of 24%. What is the most important thing this lesson says she should weigh?
     options:
-      - The cards are unsecured, but the new loan is secured by her house. If she can't pay, missed cards damage credit and bring collectors; a missed home equity loan can cost her the house
-      - Nothing. A lower rate is a lower rate, so the consolidation is automatically the right move
-      - The main risk is that consolidating will look bad on her credit report
-      - Home equity loans are a scam, and no legitimate lender offers one
+      - The cards are unsecured; the new loan is secured by her house. Missed cards damage credit, but a missed home equity loan can cost the house
+      - Nothing at all. A lower rate is a lower rate, so the consolidation has to be the right move whichever way you happen to look at it
+      - The main risk is that consolidating all of the balances will look bad on her credit report for a good while afterwards
+      - Home equity loans are a scam of a kind, and no legitimate lender anywhere in the country would ever offer her one of them
     answer: 0
     explain: The rate cut is real, and so is the trade she'd be making underneath it. Credit card debt is unsecured; the worst outcomes are severe but don't directly take her home. A home equity loan pins the same debt to the house, so the downside if her income fails changes category, from damaged credit to possible foreclosure. That doesn't make consolidation always wrong; it means the decision needs her honest odds of repaying, not just the two rates. Option B is exactly the incomplete comparison the offer is designed to invite. Option C is a minor and mostly temporary effect, not the main event. Option D is false; home equity loans are legitimate products, which is why the real risk is easy to miss.
   - q: Your friend pays off most of his card each month but deliberately leaves $80 unpaid, because "carrying a small balance builds your credit score." What is the accurate response?
     options:
-      - He's right, and the trick is keeping the carried balance under $100
-      - He's half right. Carrying a balance helps, but only if the card is more than a year old
-      - He's paying interest for nothing. Using the card and paying the statement in full shows the same activity to the bureaus; the carried balance just adds interest charges
-      - He's wrong, but only because he should carry the balance on two cards instead of one
+      - He's right, and the trick is simply keeping the carried balance under $100 in any given month
+      - He's half right. Carrying a balance does help her score, but only if the card is more than a year old already
+      - He's paying interest for nothing. Using the card and paying the statement in full shows the bureaus the same activity
+      - He's wrong, but only because he ought to be carrying the balance on two cards rather than on one
     answer: 2
     explain: This is the most-repeated credit myth in America, and it costs real money. Scores use what the card company reports, mainly your statement balance and whether you paid on time. Paying in full after the statement closes reports the same usage and the same on-time record as carrying $80 into the next cycle. The only difference is that the carried $80 accrues interest and forfeits the grace period on new purchases. All three wrong options are variants of the same myth with invented rules attached; no version of "pay interest to help your score" is true.
   - q: Rosa has $400 a month freed up by her lesson 2 budget. She has no cash cushion, a card balance at 24% APR, and an employer who matches 401(k) contributions dollar for dollar up to 3% of her pay, which she isn't claiming. Where does the strongest case say the first dollars go?
     options:
-      - The card, because 24% is the highest number anywhere in her finances
-      - Enough into the 401(k) to collect the full match, because a dollar-for-dollar match is an instant 100% return, and even a 24% card can't compete with that. After the match, cushion versus card is a genuine judgement call
-      - The cushion, because every expert agrees $1,000 of savings must come before any debt payment
-      - Split all $400 evenly three ways, since diversifying is always safest
+      - The card, because 24% is comfortably the highest single interest number anywhere in her finances right now, by some way
+      - Enough into the 401(k) to collect the full match, since a dollar-for-dollar match is an instant 100% return that a 24% card cannot beat
+      - The cushion, because every expert agrees that a full $1,000 of savings has to come before any debt payment at all
+      - Split the whole $400 evenly across all three of them, since diversifying like that is always going to be the safest option
     answer: 1
     explain: The match is the one clean answer in an otherwise contested question. Each matched dollar doubles immediately, which beats even a 24% card by a wide margin, and it disappears if unclaimed. Past the match, the ordering is genuinely argued. Ramsey's plan says a small cushion then all-out debt attack, the arithmetic says the 24% card first, and the behavioural evidence says a cushion prevents the next emergency from landing on the card. Option A skips a 100% return to chase a 24% cost. Option C presents one author's plan as settled consensus, which it isn't. Option D spreads money for the feeling of safety; diversification is an investing idea (lesson 5), not a rule for choosing between a match, a cushion, and a card.
 ---

@@ -10,41 +10,41 @@ quiz:
   - q: Leah pays renter's insurance of $240 once a year and spends about $540 a year on holiday gifts. She wants her new budget to stop these from wrecking the months they land in. What should she do?
     options:
       - Nothing. Annual costs belong to the months they arrive in, and those months will just run over
-      - Budget $780 extra in the two months the bills actually land
+      - Budget the full $780 extra across the two months when the bills actually land
       - Put $65 a month into a set-aside line, so the money is waiting when the bills arrive
       - Put $130 a month into a set-aside line, splitting each bill across six months
     answer: 2
     explain: $240 plus $540 is $780 a year, and $780 divided by 12 is $65 a month. That $65 is spoken for every month whether or not a bill lands, which is the whole idea of a sinking fund. Option A is how budgets die, one "unusual" month at a time. Option B makes those two months impossible and every other month a lie. Option D divides by the wrong number; the point of annualising is to spread a year's irregular costs over all twelve months, not to react to each bill six months out.
   - q: Omar has a steady paycheck and his fixed costs are fine. His one problem is takeout and games, where he blows past any limit he sets. He refuses to track every transaction. Which approach fits him best?
     options:
-      - Automate his savings on payday, give the problem category a fixed weekly amount envelope-style, and leave the rest untracked
-      - Zero-based budgeting with a full set of categories, since detail is what discipline needs
-      - Adopt 50/30/20 and check his percentages at the end of each month
-      - Track every transaction for three months before choosing any method
+      - Automate his savings on payday, put the problem category on a weekly envelope, and leave the rest alone
+      - Zero-based budgeting with a full set of categories, since close detail is what real discipline needs here
+      - Adopt 50/30/20 and check his percentages carefully at the end of every single month
+      - Track every single transaction for three whole months before choosing any method at all
     answer: 0
     explain: Match the method to the person and the problem. Omar has one leaky category and no appetite for bookkeeping, so the winning move is a hard cap on that one category (the envelope idea) plus automation for savings, which needs no willpower at all. Zero-based budgeting (option B) is powerful but demands exactly the upkeep he has told you he won't do, and a method you won't keep is worth nothing. Option C is a diagnostic, not a control; percentages checked after the month ends can't stop a Tuesday-night spree. Option D delays the fix he already has enough information to make; lesson 1's audit takes an hour, not a quarter.
   - q: Tanya builds her first budget with a 30% savings rate, zero eating out, and every dollar assigned to the cent. She abandons it in week three. What is the most accurate diagnosis?
     options:
-      - She lacks discipline, and the same budget would work if she tried harder
-      - Her savings rate broke the rules, because saving more than 20% violates 50/30/20
-      - Budgets simply don't work, and the research shows financial education has no effect
-      - The plan removed all enjoyment and left no slack, so it was built to fail regardless of her discipline
+      - She simply lacks discipline, and the very same budget would work if she tried harder
+      - Her savings rate broke the rules, because saving more than 20% of income violates 50/30/20
+      - Budgets simply do not work at all, and the research shows that financial education has no real effect either
+      - The plan removed all enjoyment and left no slack, so it was built to fail whatever her discipline
     answer: 3
     explain: The CFPB's definition of financial well-being includes the freedom to enjoy your life as one of its four elements, and a budget that deletes enjoyment is failing at the goal, not overachieving it. Add zero slack, so the first surprise breaks the plan arithmetically, and week three was predictable. The fix is a less heroic budget, with a real eating-out line, a miscellaneous line, and a savings rate she can hold. Option A is the self-blame this lesson exists to prevent. Option B misreads 50/30/20, which is a sketch of balance, not a cap. Option C gets the evidence backwards; the trial evidence shows education works, with budgeting among its strongest effects.
   - q: Rosa freelances. Her last three months of take-home were $1,800, $4,200, and $2,400. How should she run her budget?
     options:
-      - Budget on $4,200, since that shows what she can earn when things go well
-      - Pay herself a steady baseline amount each month from the account her clients pay into, and let good months build up a buffer there
-      - Rebuild the budget from scratch each month using that month's actual income
-      - Wait to budget until her income becomes stable
+      - Budget on $4,200, since that figure shows what she can actually earn in a month when things go well
+      - Pay herself a steady baseline each month from the account her clients pay into, letting good months build a buffer
+      - Rebuild the budget from scratch at the start of each month, using that month's actual income figure instead
+      - Wait to budget at all until her income has settled down and become properly stable month to month
     answer: 1
     explain: The move for irregular income is to separate earning from spending. Client money lands in one account; a fixed, modest "salary" moves to her spending account each month; strong months leave a surplus behind that carries the weak ones. Option A budgets on hope and guarantees crisis months. Option C means her rent commitment changes monthly, which it can't, and every month is a fresh negotiation with herself. Option D postpones the plan precisely because she is the kind of earner who needs it most; bank-account data show big month-to-month swings are normal, not a phase that passes.
   - q: A friend tells you, "The rule is settled, save $1,000 first, then build three to six months of expenses. Every expert agrees." What is the most accurate response?
     options:
-      - They're right, and that ordering is established science
-      - They're wrong, because research shows emergency savings make no measurable difference
-      - That's a real and widely followed plan, but it's a plan with an author and critics, not settled science; the strong evidence is that having even a small cushion matters, while the exact numbers are convention
-      - The settled figure is actually twelve months of expenses
+      - They're right, and that ordering is well established science by now, not one person's opinion
+      - They're wrong, because the research shows emergency savings make no measurable difference to outcomes at all
+      - That's a real and widely followed plan, but it has an author and critics rather than being settled science
+      - The settled figure is actually twelve months of ordinary household expenses, not three
     answer: 2
     explain: The $1,000-then-3-to-6-months sequence is Dave Ramsey's, followed by millions with real results, and criticised by others who note $1,000 covers less than it used to. What the research supports firmly is the low threshold effect, with even about $2,000 set aside associated with markedly higher financial well-being in Vanguard's data, while the 3-to-6-month range is expert convention with thin direct evidence for those specific numbers. So option A overclaims, option B contradicts the evidence in the other direction, and option D invents a different false precision. Knowing which parts of standard advice are evidence and which are convention is exactly the skill this course is building.
 ---

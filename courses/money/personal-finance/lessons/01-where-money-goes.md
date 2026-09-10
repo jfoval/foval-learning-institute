@@ -9,42 +9,42 @@ objectives:
 quiz:
   - q: Priya pays her car insurance of $720 once a year, in March. She does her first monthly spending audit in April, and the insurance appears nowhere. What should she do with it?
     options:
-      - Ignore it. The audit covers April, and March's bills belong to March
-      - Count the full $720 in her March numbers and accept that March looks unusually bad
+      - Ignore it for now, because the audit covers April and March's bills belong in March
+      - Count the full $720 inside her March numbers and accept that March simply looks unusually bad
       - Add $60 a month to her fixed costs, because an annual bill is a fixed cost paid in a lump
-      - Treat it as a variable cost, since it only shows up once a year
+      - Treat it as a variable cost, since the charge only shows up once in the whole year
     answer: 2
     explain: Annual and quarterly bills are the classic hole in a one-month snapshot. $720 divided by 12 is $60 of every month's money, already spoken for, whether or not the bill lands that month. It is fixed because it is committed and predictable, not because it arrives monthly. Ignoring it (option A) leaves a $720 hole that will surface as a "bad month" later. Counting it all in March (option B) makes months impossible to compare. Calling it variable (option D) confuses "infrequent" with "optional"; she cannot skip it by deciding to.
   - q: Marcus takes home $2,800 a month. Rent is $1,300, minimum debt payments $250, insurance $130, and basic groceries and transport about $500. He has cut coffee and cancelled two streaming services, and after three months his budget still feels impossible. What does this lesson say about his situation?
     options:
-      - His must-haves are about 78% of take-home pay, far past Warren and Tyagi's 50% warning line, so the fix is structural, in housing, transport, debt, or income, not in small cuts
-      - He should track more carefully, because small leaks like coffee and subscriptions are usually the real problem
-      - The 50/30/20 guideline says he should move 20% into savings first and adjust the rest around it
-      - Three months is too short to judge a budget; most people need six months for new habits to show results
+      - His must-haves are about 78% of take-home pay, far past Warren and Tyagi's 50% line, so the fix is structural, not small cuts
+      - He should track more carefully, because small leaks like daily coffee and forgotten subscriptions are usually the real problem here
+      - The 50/30/20 guideline says he should move 20% into savings first and then adjust everything else around that
+      - Three months is too short a window to judge a budget, since most people need six months before new habits show
     answer: 0
     explain: Add it up, $1,300 plus $250 plus $130 plus $500 is $2,180, which is about 78% of $2,800. When must-haves take that much, no amount of discipline on the remaining 22% makes the budget feel roomy, which is exactly what the Warren and Tyagi 50% line is for, telling you which kind of problem you have. Option B is the mistake the line exists to prevent, treating a structural problem as a willpower problem. Option C misreads 50/30/20, which is a diagnostic sketch, not an ordering of moves, and saving 20% is arithmetically impossible for Marcus right now. Option D just postpones the same arithmetic.
   - q: A headline says "40% of Americans can't cover a $400 emergency." Based on how this lesson treated that number, what is the most accurate reading?
     options:
-      - It is roughly right, and bank transaction data confirm that about 40% run out of money in emergencies
-      - It is an underestimate, because people flatter themselves about money in surveys
-      - It is invented, since no federal survey asks about a $400 emergency
-      - It comes from a survey question about how people would pay, not whether they could, and transaction data suggest far more households could cover it
+      - It is roughly right, and bank transaction data confirm that about 40% of households really do run out in an emergency
+      - It is an underestimate, because people generally flatter themselves about money when they are surveyed
+      - It is essentially invented, since no federal survey has ever asked anyone about a $400 emergency
+      - It asks how people would pay, not whether they could, and transaction data suggest far more households could cover it
     answer: 3
     explain: The number is real but it measures something different from what the headline claims. The Federal Reserve's survey asks how you would handle a $400 expense, and answering "credit card, paid off over time" or "borrow from family" counts against "cash or its equivalent", even for people who could pay cash. When JPMorgan Chase Institute looked at actual account balances rather than survey answers, 92% of households could cover a $400 shock, including 77% of the lowest income quartile. Option A trusts the headline the data contradict. Option B guesses at bias in the wrong direction. Option C throws out a real survey along with the bad reading of it.
   - q: Dana is sure she spends "maybe $100 a month" on subscriptions and food delivery combined, so she builds her new budget around that guess. What is the risk this lesson would point to?
     options:
-      - Guesses are usually close enough, and the real risk is wasting an hour on tracking she doesn't need
-      - Self-estimates of recurring spending run far below reality, so a budget built on a guess can fail in its first month through no lack of discipline
-      - $100 a month is below the national average, so her budget will have too much slack, not too little
-      - Subscriptions are fixed costs, and fixed costs don't belong inside a budget
+      - Guesses are usually close enough here, and the real risk is wasting a whole hour on tracking that she does not really need
+      - Self-estimates of recurring spending run far below reality, so a budget built on a guess can fail in its first month
+      - $100 a month is below the national average, so her budget will end up with too much slack, not too little
+      - Subscriptions are fixed costs, and fixed costs do not really belong inside a monthly budget at all
     answer: 1
     explain: When researchers asked a thousand Americans to estimate their monthly subscription spending, the average guess was $86 and the average reality was $219, two and a half times higher. Dana's budget would spring a leak she would probably blame on her own discipline, when the real fault was in the estimate the budget was built on. That is why the audit comes before the budget. Option A has the cost and benefit backwards; one hour of counting is cheap insurance on twelve months of planning. Option C invents a comfort from an average that says nothing about her. Option D misuses the fixed cost idea; fixed costs are the first thing a budget must account for.
   - q: Jordan builds a budget that reaches a 25% savings rate by removing every restaurant meal, hobby, and gift from his spending. Judged against the CFPB's definition of financial well-being, what is the problem?
     options:
-      - Nothing. A higher savings rate is the whole point of budgeting
-      - The savings rate is too high, because the 50/30/20 guideline caps saving at 20%
-      - The money should go into investments first, and a budget line for saving is the wrong tool
-      - It ignores the fourth element of well-being, the freedom to enjoy your life, which is also why budgets like this tend not to survive
+      - Nothing at all is wrong with it, since a higher savings rate is the whole point of making a budget
+      - The savings rate is far too high, because the 50/30/20 guideline caps saving at 20% of income
+      - The money should go into investments first, and a budget line for saving is simply the wrong tool for that job
+      - It ignores the fourth element of well-being, the freedom to enjoy your life, and that is why such budgets rarely last
     answer: 3
     explain: The CFPB's definition of financial well-being has four parts, and "having the financial freedom to make the choices that allow you to enjoy life" is one of them, with equal standing to control, resilience, and progress on goals. A budget that deletes all enjoyment is failing at the goal, not overachieving it, and in practice it usually collapses and takes the person's confidence with it. Option B misreads 50/30/20, which is a sketch of a balanced split, not a legal cap; saving more is fine when it doesn't hollow out the rest. Option C changes the subject; where savings go matters later in this course, but it is not what is wrong here.
 ---
