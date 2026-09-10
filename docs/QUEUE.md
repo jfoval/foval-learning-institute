@@ -12,13 +12,13 @@ not be re-opened is in `docs/DECISIONS.md`. Specs for work not started are in
 Rewrite these five lines each session. Nothing else goes in this block.
 
 - **Current course:** Python Basics (rebuild)
-- **Current lesson:** 1 and 2 drafted and through Stage 4. Lessons 3 and 4 are next.
-- **Current stage:** Stage 3 and 4 interleaved. Two of six lessons done bar the voice pass.
+- **Current lesson:** 1 and 2 done bar the voice pass; 3 and 4 drafted, Stage 4 in flight.
+- **Current stage:** Stage 3 and 4 interleaved. Four of six lessons drafted.
 - **Blocked on:** fal balance exhausted. Only John can top up, at fal.ai/dashboard/billing.
-- **Next action:** draft Python Basics lessons 3 and 4 from `research/OUTLINE.md`, then Stage 4 on
-  each. Two a session, and Stage 4 in the same session while the code is fresh, which worked well
-  on 1 and 2. If fal has been topped up, that outranks it: render the 26 ready episodes, Personal
-  Finance 3 to 10 first.
+- **Next action:** draft Python Basics lessons 5 and 6, then Stage 4 on each, then the two
+  assessments. Two lessons a session, with Stage 4 in the same session while the code is fresh:
+  that has caught something real in all four lessons so far. If fal has been topped up, that
+  outranks it: render the 26 ready episodes, Personal Finance 3 to 10 first.
 
 ## The queue, top to bottom
 
@@ -35,7 +35,8 @@ validate` enforces the second half against `curriculum/audio-debt.yaml`.
    their file names, so the live URLs hold. Remaining: draft all six (two a session, procedural),
    Stage 4 on each, the two assessments, `estimated_hours` to about 6 as they land (see
    `research/reviews/course-wide.md`, CW-01), six episodes.
-   **Lessons 1 and 2 are drafted and through Stage 4** (2,830 and 2,280 words, from 479 and 462).
+   **Lessons 1 to 4 are drafted** (2,830, 2,280, 2,020 and 1,520 words, from 479, 462, 479 and
+   484), 1 and 2 through Stage 4.
    Reviews are Tier A, one reviewer, and the fact-check is executed: every code block gets run and
    byte-compared. That is worth keeping, because it caught seven claims across the two lessons that
    were simply false, including one a reader would have disproved in the first minute of lesson 2.
@@ -82,8 +83,8 @@ has not read one yet.** If he says they are thin, the fix is more worked example
   one-line brush-offs, so the answer was visible in the typography. On Bible Basics' final test the
   key was the longest option in 21 of 22 items. The fix was to put the reasoning in `explain`,
   where it belongs, and give the distractors the weight standard 4.3 asks of them.
-- **9 lessons with no links in the body**, all in Algebra and Python; closes when those are
-  rebuilt. Every other course is warning-free.
+- **6 lessons with no links in the body**, four in Algebra and two in Python; closes when those
+  are rebuilt. Every other course is warning-free.
 - ~~Eight answer leaks in drafts.~~ **Closed 2026-09-10.** One was real, in Bible Basics lesson 9,
   and is now a `:::predict`. The rest were false: a `## Now do it yourself` heading followed by an
   `:::exercise` and then a `:::checkpoint` carrying the answers is correct, and that is what the
