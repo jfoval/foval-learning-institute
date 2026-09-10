@@ -11,13 +11,15 @@ description: >-
   Algebra is the language for describing relationships between quantities. If arithmetic is about
   specific numbers, algebra is about patterns that hold for any number. This course builds it up
   carefully: what a variable is, how to solve equations by keeping them balanced, how straight lines
-  encode rates of change, and how to handle two unknowns at once.
+  encode rates of change, how to turn a sentence into an equation, and how to handle two unknowns
+  at once. It deliberately stops short of quadratics, factoring and exponents, and points you at
+  OpenStax for those.
 outcomes:
-  - Read and write expressions with variables
-  - Simplify expressions by collecting like terms and expanding brackets
-  - Solve linear equations step by step
-  - Understand slope and intercept and graph straight lines
-  - Solve systems of two equations
-  - Translate word problems into algebra
+  - Say what a letter in an equation stands for, and evaluate an expression for a given value
+  - Read the equals sign as a claim about two sides being the same size, and keep an equation true
+  - Solve a linear equation step by step, justify each move, and check the answer by substitution
+  - Read a straight line for its starting value and its rate, in the situation's own units
+  - Turn a described relationship into an equation, and test the translation with numbers
+  - Solve two equations at once by substitution and by elimination
 prerequisites: []
-estimated_hours: 2.3
+estimated_hours: 4.3
