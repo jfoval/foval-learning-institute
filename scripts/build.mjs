@@ -319,6 +319,25 @@ function lintLessons() {
           }
         }
 
+        // A `:::` block that never closes swallows the rest of the lesson. Bible Basics
+        // lesson 9 shipped with `::: The committee's conclusion: "..."`, a closing fence with
+        // the next paragraph run onto the same line, so the fence matched neither the opener
+        // pattern nor the closer. The figure's caption ate 5,236 characters, about 800 words
+        // and a second figure, and `:::figure` captions render with parseInline, so all of it
+        // came out as one run of text inside a photo caption. A green build for months.
+        {
+          const lines = src.split("\n");
+          let depth = 0, openedAt = 0;
+          lines.forEach((line, i) => {
+            if (/^:::\w/.test(line)) { if (depth === 0) openedAt = i + 1; depth++; }
+            else if (/^:::[ \t]*$/.test(line)) depth = Math.max(0, depth - 1);
+            else if (/^:::/.test(line))
+              fail(`${file}:${i + 1}: a ::: fence with text after it on the same line. A closing fence must be ::: alone; an opening one must be :::kind. Quoted: "${line.trim().slice(0, 70)}"`);
+          });
+          if (depth > 0)
+            fail(`${file}: a ::: block opened at line ${openedAt} is never closed, so it swallows the rest of the lesson.`);
+        }
+
         // 4.2: a prompt that tells the reader to answer before reading on, followed by the
         // answer in plain prose, is recognition wearing retrieval's clothes. Only :::predict
         // and :::checkpoint bodies render behind a button. Three lessons in a row shipped this
@@ -344,6 +363,22 @@ function lintLessons() {
             }
             if (ahead.some(l => /^:::(predict|checkpoint)/.test(l))) return;
             fail(`${file}:${i + 1}: asks the reader to answer before reading on, then prints the answer in plain prose. Only :::predict and :::checkpoint hide their body. Quoted: "${line.trim().slice(0, 70)}"`);
+          });
+
+          // The rule above asks whether a hidden block appears anywhere before the next
+          // heading, which a lesson can satisfy while still printing the answer first.
+          // Bible Basics lesson 9 did exactly that: "Now do the next step before I do",
+          // then the answer in plain prose, then a :::checkpoint on a different question
+          // twelve lines later, and the build passed. So also fail the reveal itself,
+          // wherever it stands outside a hidden block. This one cannot be routed around
+          // by adding an unrelated block further down.
+          depth = 0;
+          lines.forEach((line, i) => {
+            if (/^:::\w/.test(line)) depth++;
+            else if (/^:::\s*$/.test(line)) depth = Math.max(0, depth - 1);
+            if (depth > 0) return;
+            if (/^\s*(?:Here(?:'s| is) mine|Mine is|My answer|Here(?:'s| is) my answer|Here(?:'s| is) what I)\b/i.test(line))
+              fail(`${file}:${i + 1}: reveals the answer in plain prose, outside :::predict or :::checkpoint. Quoted: "${line.trim().slice(0, 70)}"`);
           });
         }
 
