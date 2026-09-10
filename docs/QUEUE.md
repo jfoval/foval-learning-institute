@@ -83,8 +83,8 @@ has not read one yet.** If he says they are thin, the fix is more worked example
   one-line brush-offs, so the answer was visible in the typography. On Bible Basics' final test the
   key was the longest option in 21 of 22 items. The fix was to put the reasoning in `explain`,
   where it belongs, and give the distractors the weight standard 4.3 asks of them.
-- **6 lessons with no links in the body**, four in Algebra and two in Python; closes when those
-  are rebuilt. Every other course is warning-free.
+- **4 lessons with no links in the body**: Algebra 1 and 3, Python 5 and 6. All four are stubs
+  awaiting their rebuild, so this closes with them. Every other course is warning-free.
 - ~~Eight answer leaks in drafts.~~ **Closed 2026-09-10.** One was real, in Bible Basics lesson 9,
   and is now a `:::predict`. The rest were false: a `## Now do it yourself` heading followed by an
   `:::exercise` and then a `:::checkpoint` carrying the answers is correct, and that is what the
