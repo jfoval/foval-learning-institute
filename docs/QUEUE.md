@@ -11,12 +11,13 @@ not be re-opened is in `docs/DECISIONS.md`. Specs for work not started are in
 
 Rewrite these five lines each session. Nothing else goes in this block.
 
-- **Current course:** Algebra Essentials (finished but for audio)
-- **Current lesson:** none in flight
-- **Current stage:** Stage 6, podcast episodes
+- **Current course:** Python Basics (rebuild)
+- **Current lesson:** none in flight; lessons 1 and 2 are next
+- **Current stage:** Stage 3, drafting. Stages 1 and 2 are done and committed.
 - **Blocked on:** fal balance exhausted. Only John can top up, at fal.ai/dashboard/billing.
-- **Next action:** if fal is topped up, render the 26 ready episodes, Personal Finance 3 to 10
-  first. If not, rebuild Python Basics (queue item 2), which needs no money.
+- **Next action:** draft Python Basics lessons 1 and 2 from `research/OUTLINE.md`. It is a
+  procedural course, so two a session. If fal has been topped up, that outranks it: render the 26
+  ready episodes, Personal Finance 3 to 10 first.
 
 ## The queue, top to bottom
 
@@ -28,9 +29,12 @@ validate` enforces the second half against `curriculum/audio-debt.yaml`.
    Writing Clearly's 9 and Algebra's 6 wait on their Stage 4 cycles and voice pass.
    Personal Finance lesson 3's script is written and fact-checked (PASS WITH NITS, all five fixed)
    at `courses/money/personal-finance/podcast/03-debt.script.md`, ready to render.
-2. **Python Basics, rebuilt.** T6, six stubs, 463 words a lesson. Procedural course: two lessons a
-   session, the fact-check is executed rather than fetched, the neutrality pass is skipped with a
-   line in the review file saying why. Then assessments, `estimated_hours`, six episodes.
+2. **Python Basics, rebuilt.** T6, six stubs, 463 words a lesson. **Stage 1 and Stage 2 done
+   2026-09-10**: `research/SOURCES.md` and `research/OUTLINE.md` are written. Six lessons keep
+   their file names, so the live URLs hold. Remaining: draft all six (two a session, procedural),
+   Stage 4 on each, the two assessments, `estimated_hours` to about 5.5 as they land, six episodes.
+   The fact-check is executed rather than fetched: every code sample is run before it ships. The
+   neutrality pass is skipped with a line in the review file saying why.
 3. **Writing Clearly: Stage 4 on all nine lessons, then the voice pass.** The lessons are drafted
    and the assessments exist. This is what stands between the course and its nine episodes.
 4. **Personal Finance and Bible Basics and Logic:** episodes only. Nothing else owed.
