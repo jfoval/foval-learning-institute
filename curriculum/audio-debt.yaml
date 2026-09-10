@@ -1,0 +1,29 @@
+# Podcast episodes still owed, per published course.
+#
+# CLAUDE.md rule 5b: a course is finished when every lesson is at standard AND every lesson has a
+# podcast episode. `npm run validate` enforces it. A published course whose lessons are not all
+# stamped with an `audio:` URL fails the build unless it is listed here with the number of
+# episodes it owes.
+#
+# This file is a RATCHET, not a permission slip. The number is a ceiling:
+#   - owe MORE than the number here  -> the build fails. Render the episode.
+#   - owe FEWER                      -> the build fails. Lower the number in the same commit.
+#   - owe none                       -> delete the entry.
+# So the debt can only shrink, and it is visible in one place instead of being argued about in a
+# handoff paragraph. When this file is empty, every live course is finished by John's definition.
+#
+# It exists because the rule arrived after 47 episodes were already owed. Failing the build on all
+# of them would have meant nobody could commit anything, so the debt was written down instead.
+# Do not add a course here to get past the check on work you are doing now. If you are drafting a
+# course today, it gets its episodes before you move on, and it never appears in this file.
+#
+# Opened 2026-09-09 with the debt as it stood that day: 47 episodes across six courses.
+
+owed:
+  # course id (the folder name)   : episodes still to render
+  bible-basics: 11
+  clear-writing: 9
+  logic-and-argument: 7
+  personal-finance: 8
+  algebra-essentials: 6
+  python-basics: 6
