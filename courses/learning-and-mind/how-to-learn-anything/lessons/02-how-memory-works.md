@@ -10,63 +10,63 @@ quiz:
   - q: >-
       A nursing student reads a paragraph on how a drug is cleared by the kidneys and finds it impossible to hold in her head. Her instructor reads the same paragraph and says "it's really only three ideas". What best explains the difference?
     options:
-      - The instructor has a larger working memory, which is mostly what years of study build
+      - The instructor simply has a larger working memory than the student, which is mostly what years of study in a subject go on building
+      - The student is not concentrating hard enough, and sustained effort is what expands the number of slots available
       - The instructor already owns chunks that bundle the paragraph into three items; the student is holding fifteen separate ones
-      - The student is not concentrating hard enough, and effort is what expands working memory
-      - The paragraph is badly written, and a well-written version would be easy for both of them
-    answer: 1
+      - The paragraph is badly written, and a clearer version of the same content would be easy for both of them to hold
+    answer: 2
     explain: >-
-      Working memory holds about four chunks, give or take one, for almost everyone (Cowan 2001). What differs is the size of the chunks. The instructor's long-term memory already contains "renal clearance", "half-life" and "dose adjustment" as single units, so the paragraph takes three slots. For the student, every clause is new and separate, so the same text needs fifteen slots and overflows. Effort cannot add slots (C), and years of study grow chunks rather than raw capacity (A). Better writing would help by cutting extraneous load (D), but it would not make the paragraph three ideas for someone who lacks the chunks.
+      Working memory holds about four chunks, give or take one, for almost everyone (Cowan 2001). What differs is the size of the chunks. The instructor's long-term memory already contains "renal clearance", "half-life" and "dose adjustment" as single units, so the paragraph takes three slots. For the student, every clause is new and separate, so the same text needs fifteen slots and overflows. Effort cannot add slots (B), and years of study grow chunks rather than raw capacity (A). Better writing would help by cutting extraneous load (D), but it would not make the paragraph three ideas for someone who lacks the chunks.
   - q: >-
       During a lecture on supply and demand, everything makes sense and Marcus's notes are a tidy copy of the slides. The next evening, working on problems alone, he cannot get started and is surprised. What is the most accurate account?
     options:
       - He needs to reread the slides until they feel as familiar as they did in the room; once that fluency is back, the problems will come
-      - In the lecture the lecturer was holding the chunks together for him; his notes copied the slides, not the links, so alone he has nothing to assemble them with
-      - The lecture ran too fast for anyone to build memory from it, so the fault is the lecturer's pacing and a slower version would have stuck
+      - The lecture ran too fast for anyone to build memory from it, so the fault is the lecturer's pacing, and a slower version of it would have stuck
       - He did not sleep enough after the lecture, so what he understood in the room was never consolidated and has to be relearned from scratch
-    answer: 1
+      - The lecturer was holding the chunks together for him, and his notes copied the slides rather than the links, so alone he has nothing to assemble
+    answer: 3
     explain: >-
-      In the room, the lecturer's sequencing and explanation supplied the links between ideas, so Marcus's working memory only had to follow. Copying slides preserved the surface, not the links, and did not make him think about the material (memory is the residue of thought, Willingham 2009). Rereading (A) raises fluency without building the chunks, which is the illusion from the previous lesson. Pace (C) and sleep (D) can matter, but neither explains why the material felt clear at the time and vanished after; the chunk account does.
+      In the room, the lecturer's sequencing and explanation supplied the links between ideas, so Marcus's working memory only had to follow. Copying slides preserved the surface, not the links, and did not make him think about the material (memory is the residue of thought, Willingham 2009). Rereading (A) raises fluency without building the chunks, which is the illusion from the previous lesson. Pace (B) and sleep (C) can matter, but neither explains why the material felt clear at the time and vanished after; the chunk account does.
   - q: >-
       A video tutorial shows a labelled circuit diagram on one screen, then cuts to a separate screen of text explaining what each label means, while background music plays. Which change reduces extraneous load without changing what is being taught?
     options:
-      - Remove two of the components from the circuit so there is less to learn
       - Put each explanation next to the component it describes on the diagram, and drop the music
-      - Split the tutorial into two shorter videos covering half the circuit each
-      - Add a summary slide at the end listing all the labels again
-    answer: 1
+      - Remove two of the components from the circuit so there is less for the viewer to learn at once
+      - Split the tutorial into two shorter videos, each covering half of the circuit diagram
+      - Add a summary slide at the end that lists all of the labels and their meanings again
+    answer: 0
     explain: >-
       Extraneous load is load caused by presentation, not content. Making the viewer hold labels in working memory while searching for their meaning on another screen is the split-attention effect Sweller and colleagues demonstrated; integrating the text with the diagram removes it. The music is Mayer's coherence finding: material that is merely interesting or pleasant takes processing away from the lesson (Moreno & Mayer 2000). A and C reduce or spread intrinsic load by changing or dividing the content, which is a legitimate move but a different one. D adds material without removing the source of the load.
   - q: >-
       Two students spend twenty minutes on the same chapter. Dana only highlights, but at every sentence she marks she stops to ask why the author needed it and what would go wrong if it were false. Leo writes a full page of notes in his own words, but does it with a podcast playing, and afterwards cannot say what he wrote. Going by "memory is the residue of thought", who will remember more of the chapter a week later?
     options:
-      - Leo, because rewriting in your own words always processes meaning more deeply than highlighting does
-      - Dana, because what she spent her thinking on was the meaning, while Leo's slots were holding the podcast and his writing became copying
-      - Neither, because highlighting and summarising are both rated low utility and the method decides the outcome
-      - Leo, because producing a page of output lays down more memory than any amount of questioning a text
+      - Leo, because rewriting a chapter in your own words always processes meaning more deeply than marking sentences
+      - Dana, because her thinking went on the meaning, while Leo's slots were holding the podcast and his writing became copying
+      - Neither of them, because highlighting and summarising are both rated low utility, and the method is what decides the outcome
+      - Leo, because producing a full page of written output lays down more memory than any amount of questioning a text
     answer: 1
     explain: >-
       The activity is not what leaves the trace; the thought is. Dana's highlighter was the trigger for a why-question at every sentence, so meaning is what she processed. Leo's notes look like elaboration, but the working memory that should have held the chapter was holding the podcast, so the writing ran on the surface, which is why he cannot recall it. A turns a good rule of thumb into a law: rewriting usually forces thought, but not when attention is elsewhere. C misreads Dunlosky and colleagues (2013), whose ratings describe the techniques as students typically use them, not a learner who has turned highlighting into a why-question. D confuses output with processing.
   - q: >-
       A friend says "I can hold seven things in mind at once, Miller proved it in the fifties." What is the most accurate reply?
     options:
-      - Miller was right and later research confirmed seven as the limit for everyone
-      - The better estimate is about four chunks when you cannot rehearse or regroup, and a chunk can be as large as your knowledge makes it
-      - The number depends mostly on intelligence, so it is different for everyone
-      - The number does not matter, because long-term memory is unlimited and that is where learning happens
-    answer: 1
+      - Miller was right, and the research since has confirmed seven as the working memory limit for almost everyone
+      - The number depends mostly on intelligence, so the real limit is a different one for every person you ask
+      - The number does not matter, because long-term memory is unlimited, and that is where the learning actually happens
+      - About four chunks, when you cannot rehearse or regroup, and a chunk can be as large as your knowledge makes it
+    answer: 3
     explain: >-
-      Miller (1956) proposed seven plus or minus two; Cowan (2001) reviewed the evidence and argued for three to five, about four, when rehearsal and grouping are prevented. The important part is the second clause: the limit is in chunks, not in words or facts, so what you already know sets how much each slot carries. C has a grain of truth (capacity does differ between people and tracks reasoning ability) but the spread is a slot or two, which is small next to the difference chunk size makes, and it is not the part you can change. D is half right about long-term memory but wrong about the consequence: for the kind of learning this course is about, what reaches long-term memory has to pass through working memory first, so the limit matters at exactly the moment you are learning.
+      Miller (1956) proposed seven plus or minus two; Cowan (2001) reviewed the evidence and argued for three to five, about four, when rehearsal and grouping are prevented. The important part is the second clause: the limit is in chunks, not in words or facts, so what you already know sets how much each slot carries. B has a grain of truth (capacity does differ between people and tracks reasoning ability) but the spread is a slot or two, which is small next to the difference chunk size makes, and it is not the part you can change. C is half right about long-term memory but wrong about the consequence: for the kind of learning this course is about, what reaches long-term memory has to pass through working memory first, so the limit matters at exactly the moment you are learning.
   - q: >-
       Priya lists the elements in the hardest paragraph of her organic chemistry chapter: nucleophile, electrophile, leaving group, SN2 mechanism, transition state, steric hindrance, inversion of configuration. She marks nucleophile and electrophile as "own", leaving group as "half", and the other four as "new". What does the count tell her to do before rereading the paragraph?
     options:
-      - Reread the paragraph slowly several times, since five unfamiliar elements need more exposure than usual
-      - Build "leaving group", "transition state" and "steric hindrance" as separate chunks first, so the paragraph has few enough new elements to fit in working memory
-      - Skip the paragraph for now, since a passage where five of seven elements are new is beyond her current level
-      - Memorise the seven terms as a list, since the terms are what the paragraph is made of
-    answer: 1
+      - Build "leaving group", "transition state" and "steric hindrance" as chunks first, so the paragraph fits in working memory
+      - Reread the paragraph slowly several times over, since five unfamiliar elements need a good deal more exposure than usual
+      - Skip the paragraph for now, since a passage where five of its seven elements are new is beyond her level
+      - Memorise all seven terms as a list first, since those terms are what the whole paragraph is made of
+    answer: 0
     explain: >-
-      Five half-or-new elements that only make sense together is more than four slots, so the paragraph cannot be held together long enough to be chunked, and rereading (A) replays the overflow while feeling more familiar each time. The fix is to shrink the count: learn the sub-parts separately until each is a single unit, after which the paragraph is two new ideas (the SN2 mechanism and inversion) attached to five she owns, which fits. C mistakes a chunk shortage for a ceiling; the shortage is the fixable part. D stores labels without the relations between them, and the relations (why hindrance slows SN2, why inversion follows from the transition state) are what the paragraph is about. A list of names is not a chunk.
+      Five half-or-new elements that only make sense together is more than four slots, so the paragraph cannot be held together long enough to be chunked, and rereading (B) replays the overflow while feeling more familiar each time. The fix is to shrink the count: learn the sub-parts separately until each is a single unit, after which the paragraph is two new ideas (the SN2 mechanism and inversion) attached to five she owns, which fits. C mistakes a chunk shortage for a ceiling; the shortage is the fixable part. D stores labels without the relations between them, and the relations (why hindrance slows SN2, why inversion follows from the transition state) are what the paragraph is about. A list of names is not a chunk.
 ---
 
 
