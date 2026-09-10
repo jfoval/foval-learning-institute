@@ -44,16 +44,21 @@ Target 1,800 to 2,600 words a lesson, against the stubs' 463. `minutes:` is meas
   line names the error and the line above it points at your code.
 - **Mechanism to explain:** what actually happens when you press Enter. Python reads the whole file
   and checks it can be parsed *before* running a single line, which is why a missing colon on line
-  40 stops line 1 from running, and why a `SyntaxError` reports a line number that is sometimes one
-  past the real mistake. This one paragraph explains a beginner's most confusing early experience
-  and no stub lesson in this course contains anything like it.
+  40 stops line 1 from running. This one paragraph explains a beginner's most confusing early
+  experience and no stub lesson in this course contains anything like it.
 - **Worked examples:** (a) simple: three lines that print a greeting, run in the interpreter, then
   saved as a file and run again, with the difference in behaviour shown (the interpreter echoes the
-  value of an expression; the file does not). (b) with a wrinkle: a five-line program with a missing
-  closing parenthesis, where **the reported line number is the line after the mistake**. Show the
-  traceback verbatim, read it aloud, find the real fault. Then the same program with `pint` for
-  `print`, giving a `NameError`, to show that the two errors are found at different times: one
-  before anything runs, one during.
+  value of an expression; the file does not). (b) with a wrinkle: the same program twice, once with
+  a missing closing bracket and once with `pint` for `print`. **The first prints nothing at all;
+  the second prints "Hello." and then the traceback.** That contrast is the lesson: output before a
+  traceback proves the program started, so the fault was found during the run rather than before
+  it, and a learner can use that on their own code immediately.
+
+  ~~The wrinkle was originally planned as "the reported line number is the line after the
+  mistake".~~ **Struck 2026-09-10, on running it.** That was true of older Pythons. On 3.14 a
+  missing bracket gives `SyntaxError: '(' was never closed` pointing at the correct line, and the
+  caret markers under the failing expression arrived in 3.11 (PEP 657). Nothing in this course may
+  claim the line number is misleading.
 - **Misconceptions to address:** that errors mean you are bad at this (the geek gene, below); that
   the traceback is noise to scroll past; that the line number in a `SyntaxError` is always the line
   with the mistake; that the interpreter and a file are the same thing.
