@@ -283,6 +283,28 @@ function lintLessons() {
         const small = labels.map(l => parseFloat(l["font-size"])).filter(n => n && n < 15);
         if (small.length) warn.push(`${file}: ${small.length} SVG label(s) under font-size 15; they render below ~10px on a phone (4.6)`);
 
+        // The rule above uses a bare 15 as the floor, which silently assumes a viewBox about
+        // 520 units wide. A chart scales to its container, so what a reader actually sees is
+        // font-size x (container / viewBox width), and a wide viewBox shrinks every label.
+        // `scripts/CLAUDE.md` had this written down as something the linter could not see.
+        // It can now: measured in the real page at a 375px viewport, a chart's container is
+        // 343px, so that is the number modelled here. Bible Basics lesson 9 renders its
+        // 15-unit labels at 8.0px on a phone, and 34 other charts sit at 8.8px.
+        {
+          const PHONE_PX = 343, FLOOR_PX = 10;
+          for (const m of src.matchAll(/<svg[^>]*viewBox="([-\d.\s]+)"/g)) {
+            const vbW = parseFloat(m[1].trim().split(/\s+/)[2]);
+            if (!vbW) continue;
+            const end = src.indexOf("</svg>", m.index);
+            const seg = src.slice(m.index, end < 0 ? src.length : end);
+            const sizes = [...seg.matchAll(/font-size="([\d.]+)"/g)].map(x => parseFloat(x[1])).filter(Boolean);
+            if (!sizes.length) continue;
+            const eff = Math.min(...sizes) * PHONE_PX / vbW;
+            if (eff < FLOOR_PX)
+              warn.push(`${file}: chart with viewBox width ${vbW} renders its smallest label at ${eff.toFixed(1)}px on a phone, under the ${FLOOR_PX}px floor (4.6). Narrow the viewBox or raise the font-size.`);
+          }
+        }
+
         // 4.6: a label wider than its own viewBox is clipped by the browser, silently, on
         // every device. It cost bible-basics lesson 2 the last word of both its chart
         // captions, including the one naming the source. Node cannot measure text, so this

@@ -84,12 +84,37 @@ has not read one yet.** If he says they are thin, the fix is more worked example
   where it belongs, and give the distractors the weight standard 4.3 asks of them.
 - **9 lessons with no links in the body**, all in Algebra and Python; closes when those are
   rebuilt. Every other course is warning-free.
-- **Eight answer leaks in drafts** (seven Bible Basics, one Logic 9). They block those courses'
-  publishing, which is the point. `npm run validate | grep "prints the answer"`.
-- **Five lessons carry greys outside the palette** in SVG fills.
-- **Bible Basics 9 to 12** carry the SVG size problems the linter reports, and lesson 12 has a
-  `## Worked example 1` heading and a "Here's mine." that prints its own answer. Known, not new;
-  each gets handled in its own Stage 4 cycle.
+- ~~Eight answer leaks in drafts.~~ **Closed 2026-09-10.** One was real, in Bible Basics lesson 9,
+  and is now a `:::predict`. The rest were false: a `## Now do it yourself` heading followed by an
+  `:::exercise` and then a `:::checkpoint` carrying the answers is correct, and that is what the
+  other seven are doing.
+- ~~Five lessons carry greys outside the palette in SVG fills.~~ **Closed 2026-09-10, not a
+  defect.** Checked properly: every colour literal in every chart in the repo sits inside
+  `var(--token, #fallback)`, every one of those tokens is defined in `site/assets/styles.css`
+  **with a dark-theme variant**, and the fallbacks are those tokens' own light values. The greys
+  that looked off-palette, `#4a5260` and `#f3f5f8`, are `--text-2` and `--surface-2`, which are
+  real tokens; the earlier survey missed them because their names contain a digit. Two fallbacks
+  are stale (`var(--text, #1a1a1a)` against a `--text` of `#111418`, and `var(--line, #d9d9d9)`
+  against `#d6dbe3`) and neither can ever render, since the tokens exist.
+
+- **34 charts render their labels at 8.8px on a phone**, and Bible Basics 9 at 8.0px, against a
+  10px floor. **New, and it is real.** `scripts/CLAUDE.md` had already written down that a wide
+  viewBox shrinks every label and the linter could not see it. It can now: `npm run validate`
+  warns with the effective pixel size. The cause is that the old check used a bare font-size floor
+  of 15, which silently assumes a viewBox about 520 wide, and almost every chart here is 584.
+  The arithmetic for a fix: a chart scales to a 343px container on a 375px phone, so a 584-wide
+  viewBox needs font-size 17 to clear 10px, and Bible Basics 9's 640 needs 19. **Do not bulk-edit
+  the font sizes without looking at the result.** Raising them can make labels collide, and the
+  overflow check cannot see a collision, only a label past the viewBox edge. Narrowing the
+  viewBox is the better fix and means re-laying-out coordinates. One chart at a time, with the
+  page open.
+- **Bible Basics 9 to 12.** The SVG sizes are the item above. The answer leak was real and is
+  **fixed**: it was in lesson 9, not 12, and the build had been passing it because an unclosed
+  `:::figure` earlier in the same file made the depth tracker think every later line was already
+  inside a hidden block. That figure was also eating 800 words of the lesson into its own caption.
+  Both fixed 2026-09-10, with three new checks behind them. The `## Worked example 1` headings
+  are still there in lessons 9 and 10; that is Stage 3 defect 7, pipeline vocabulary in a
+  learner-facing heading, and it belongs to those lessons' next Stage 4 cycle.
 
 ## Waiting on John
 
