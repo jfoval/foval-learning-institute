@@ -12,11 +12,12 @@ not be re-opened is in `docs/DECISIONS.md`. Specs for work not started are in
 Rewrite these five lines each session. Nothing else goes in this block.
 
 - **Current course:** Python Basics (rebuild)
-- **Current lesson:** 1 and 2 drafted 2026-09-10; 3 and 4 are next
-- **Current stage:** Stage 3, drafting. Two of six lessons drafted, none reviewed yet.
+- **Current lesson:** 1 drafted and reviewed; 2 drafted, review in flight. 3 and 4 next.
+- **Current stage:** Stage 3 and 4 interleaved. Two of six drafted, one through Stage 4.
 - **Blocked on:** fal balance exhausted. Only John can top up, at fal.ai/dashboard/billing.
-- **Next action:** draft Python Basics lessons 3 and 4 from `research/OUTLINE.md`. Then Stage 4 on
-  1 to 4. If fal has been topped up, that outranks it: render the 26 ready episodes, Personal
+- **Next action:** draft Python Basics lessons 3 and 4 from `research/OUTLINE.md`, then Stage 4 on
+  each. Two a session, and Stage 4 in the same session while the code is fresh, which worked well
+  on 1 and 2. If fal has been topped up, that outranks it: render the 26 ready episodes, Personal
   Finance 3 to 10 first.
 
 ## The queue, top to bottom
@@ -33,7 +34,10 @@ validate` enforces the second half against `curriculum/audio-debt.yaml`.
    2026-09-10**: `research/SOURCES.md` and `research/OUTLINE.md` are written. Six lessons keep
    their file names, so the live URLs hold. Remaining: draft all six (two a session, procedural),
    Stage 4 on each, the two assessments, `estimated_hours` to about 5.5 as they land, six episodes.
-   **Lessons 1 and 2 are drafted** (2,330 and 2,000 words, from 479 and 462).
+   **Lessons 1 and 2 are drafted** (2,830 and 2,000 words, from 479 and 462) and lesson 1 has
+   passed Stage 4. Reviews are Tier A, one reviewer, and the fact-check is executed: every code
+   block gets run and byte-compared. That caught three claims in lesson 1 that were simply false,
+   including one a reader would have disproved in the first minute of lesson 2.
    The fact-check is executed rather than fetched: every code sample is run before it ships. The
    neutrality pass is skipped with a line in the review file saying why.
 3. **Writing Clearly: Stage 4 on all nine lessons, then the voice pass.** The lessons are drafted
@@ -77,7 +81,7 @@ has not read one yet.** If he says they are thin, the fix is more worked example
   option-length spread over 25 characters, one of them 230. This is Stage 3 defect 5, which the
   drafter's own notes said to measure rather than eyeball, and nothing had been measuring it. The
   fix is per lesson: pad the distractors to the key's length or trim the key, and spread the answer
-  positions. Run the script for the current list.
+  positions. Run `npm run quiz` for the current list.
 - **9 lessons with no links in the body**, all in Algebra and Python; closes when those are
   rebuilt. Every other course is warning-free.
 - **Eight answer leaks in drafts** (seven Bible Basics, one Logic 9). They block those courses'
