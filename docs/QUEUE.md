@@ -12,8 +12,8 @@ not be re-opened is in `docs/DECISIONS.md`. Specs for work not started are in
 Rewrite these five lines each session. Nothing else goes in this block.
 
 - **Current course:** Python Basics (rebuild)
-- **Current lesson:** 1 drafted and reviewed; 2 drafted, review in flight. 3 and 4 next.
-- **Current stage:** Stage 3 and 4 interleaved. Two of six drafted, one through Stage 4.
+- **Current lesson:** 1 and 2 drafted and through Stage 4. Lessons 3 and 4 are next.
+- **Current stage:** Stage 3 and 4 interleaved. Two of six lessons done bar the voice pass.
 - **Blocked on:** fal balance exhausted. Only John can top up, at fal.ai/dashboard/billing.
 - **Next action:** draft Python Basics lessons 3 and 4 from `research/OUTLINE.md`, then Stage 4 on
   each. Two a session, and Stage 4 in the same session while the code is fresh, which worked well
@@ -33,11 +33,12 @@ validate` enforces the second half against `curriculum/audio-debt.yaml`.
 2. **Python Basics, rebuilt.** T6, six stubs, 463 words a lesson. **Stage 1 and Stage 2 done
    2026-09-10**: `research/SOURCES.md` and `research/OUTLINE.md` are written. Six lessons keep
    their file names, so the live URLs hold. Remaining: draft all six (two a session, procedural),
-   Stage 4 on each, the two assessments, `estimated_hours` to about 5.5 as they land, six episodes.
-   **Lessons 1 and 2 are drafted** (2,830 and 2,000 words, from 479 and 462) and lesson 1 has
-   passed Stage 4. Reviews are Tier A, one reviewer, and the fact-check is executed: every code
-   block gets run and byte-compared. That caught three claims in lesson 1 that were simply false,
-   including one a reader would have disproved in the first minute of lesson 2.
+   Stage 4 on each, the two assessments, `estimated_hours` to about 6 as they land (see
+   `research/reviews/course-wide.md`, CW-01), six episodes.
+   **Lessons 1 and 2 are drafted and through Stage 4** (2,830 and 2,280 words, from 479 and 462).
+   Reviews are Tier A, one reviewer, and the fact-check is executed: every code block gets run and
+   byte-compared. That is worth keeping, because it caught seven claims across the two lessons that
+   were simply false, including one a reader would have disproved in the first minute of lesson 2.
    The fact-check is executed rather than fetched: every code sample is run before it ships. The
    neutrality pass is skipped with a line in the review file saying why.
 3. **Writing Clearly: Stage 4 on all nine lessons, then the voice pass.** The lessons are drafted
