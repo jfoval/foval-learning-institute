@@ -66,20 +66,28 @@ a second time). The sixth appeared inverted: the key was the *shortest* option i
 items, and "always pick the shortest" scored 67 percent. So the rule is not "watch for long keys",
 it is **measure the quiz both ways after every rewrite**.
 
-**Lesson 4 made it four for four, lesson 5 five for five.** The Gopen and Swan caveat was missing
-from lessons 2, 3, 4 **and** 5, in a course whose own research file says in bold that it "must
+**Lessons 4, 5 and 6 made it six for six.** The Gopen and Swan caveat was missing
+from lessons 2, 3, 4 **and** 5 (lesson 6 does not cite them), in a course whose own research file says in bold that it "must
 survive into the lessons". If you review a lesson here and it quotes them, check for the caveat
 before you check anything else.
 
 **The trimming is not random.** Every instance cuts in the direction that helps the lesson's
 argument: Nielsen's "if they devote all of their time to reading", Gopen and Swan's "In general"
 and their whole caveat, Gopen and Swan's "and therefore as something of lesser importance" in
-lesson 4, and in lesson 5 Strunk's own "This rule does not, of course, mean that the writer should
-entirely discard the passive voice." That last one had the lesson calling Strunk's rule a
-prohibition he explicitly disclaims one paragraph earlier. **Open the source and read the
+lesson 4, in lesson 5 Strunk's own "This rule does not, of course, mean that the writer should
+entirely discard the passive voice", and in lesson 6 the sentence of rule 13 that reads "not that
+the writer make all his sentences short... but that he make every word tell", plus Pullum's
+"mostly harmless" for the second time.
+
+**Lesson 6 is the one to learn from.** Stopping rule 13 one sentence early did not just soften
+Strunk; it made the lesson's whole thesis false. The lesson asserted that "Omit needless words"
+"says nothing about how to get there" and that the lesson would "supply what the maxim leaves
+out, which is the list". Rule 13 *is* a list, of about fifteen substitutions, two of which are
+kinds this course thought it had invented. A trim that flatters the argument this much is usually
+a sign the argument was built on the trim. **Open the source and read the
 paragraph around every quotation**, not just the sentence quoted.
 
-**Expect all six in lessons 5 to 9.** Check them first; they are cheap to find and cheap to fix,
+**Expect all six in lessons 7 to 9.** Check them first; they are cheap to find and cheap to fix,
 and finding them early leaves the review's attention for the lesson's own problems.
 
 **The quiz rule is now firm: measure both ways AFTER the rewrite, and again after fixing it.**
@@ -96,9 +104,12 @@ Two practical notes learned in lesson 3:
 - **`npm run minutes` only sees a timing cue in words it knows**: about, around, roughly, take,
   spend, allow, "give it / this / yourself", followed by a number and "minutes". "Set aside 50
   minutes" matches nothing. The per-lesson total from cues is also capped at 30.
-- **A colon inside an unquoted quiz value breaks the frontmatter.** Two of the rewritten
-  explanations in lesson 3 did it and the build caught both. Write the sentence without the colon
-  rather than quoting the value.
+- **Two ways a rewritten quiz value breaks the frontmatter**, both caught by the build, both hit
+  more than once: a colon inside an unquoted value, and a value that *starts* with a double quote,
+  which YAML reads as a quoted scalar and then chokes on the text after the closing quote. Write
+  the sentence without the colon, and never open an `explain` with a quotation mark.
+- **A `:::` block inserted during a fix is easy to leave unclosed.** The nesting check added on
+  2026-09-10 names the line at once instead of letting the block swallow the rest of the lesson.
 
 ## CW-05 — Counts stated in the prose have to be counted
 
