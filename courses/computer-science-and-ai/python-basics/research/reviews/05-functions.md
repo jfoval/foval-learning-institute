@@ -90,6 +90,6 @@ it, and a four-option quiz item cannot test a refactor.
 
 `npm run validate` clean. Quiz answers 0,1,2,3,1: all four indices used, no adjacent repeat.
 `npm run minutes`: 85 measured, 85 written. Body 3,203 words, up from 2,573 at draft and from the
-479-word stub. Zero em dashes, zero en dashes. Three think-blocks, up from two.
+479-word stub. Zero em dashes, zero en dashes. Four think-blocks, up from two.
 
 **Still owed on this lesson:** the voice pass, and its podcast episode.
