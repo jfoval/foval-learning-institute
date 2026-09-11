@@ -13,7 +13,13 @@ compile step anywhere in this repo.
 | `check-quiz-shape.cjs` | `quiz` | Finds quizzes a reader could pass without reading the lesson |
 | `quiz-permute.cjs` | — | Reorders one item's options, fixing `answer` and the letters in `explain` |
 | `screenshots.mjs` | `shots` | Renders the site in both themes at both widths |
-| `feedback.mjs` | `feedback` | Reads the learner feedback table out of D1 |
+| `feedback.mjs` | `feedback` | Reads the learner feedback table out of D1; `feedback:deploy` ships the Worker |
+| `social-card.mjs` | `card` | Renders `site/assets/media/social-card.png` |
+| `net-quotes.mjs` | `net` | Fetches NET Bible verses for quotation (standards 4.7) |
+| `text-width.mjs` | — | Arial advance widths for the SVG overflow check; imported by `build.mjs` |
+| `mailstub.mjs` | — | Local stand-in for the accounts Worker's email sender, for `workers/api/test.mjs` |
+| `podcast-compare.mjs` | — | Historical: the TTS engine bake-off that settled on Gemini via fal. Not run |
+| `tests/` | `test` | `node --test`: fixtures that must fail each lint, and a renderer snapshot |
 
 `npm run validate` is `core-path.mjs` then `build.mjs --check`. Run it before every commit.
 `npm run build` is the same two without `--check`, and it writes `site/data/courses.js`.
@@ -44,18 +50,29 @@ These two files record the same decision and neither is allowed to drift:
 5. The generated numbered term list in TAXONOMY.md matches `core-path.yaml`. **That section is
    generated**: `npm run path -- --write`, never edited by hand.
 
-**From `build.mjs`, the course and lesson checks.** Course records carry every required field; the
-`id` matches the folder and the `school` matches its parent; `course.yaml`'s `status` matches the
-Status cell of its TAXONOMY.md row; a published course owes an `audio:` stamp on every lesson,
-beyond the debt recorded in `curriculum/audio-debt.yaml` (see that file's header).
+**From `build.mjs`, the course and lesson checks.** Course records carry every required field,
+including `sensitive_domain`, with `standpoint: christian` required under `christian-studies` and
+refused elsewhere, and no `estimated_hours` (the site sums the measured minutes); the `id` matches
+the folder and the `school` matches its parent; `course.yaml`'s `status` matches the Status cell of
+its TAXONOMY.md row, and the row exists; a published course of six or more lessons has a final
+test; a published course owes an `audio:` stamp on every lesson, beyond the debt recorded in
+`curriculum/audio-debt.yaml`, and that debt may not rise against the committed version of the file
+(see its header); and every `audio:` stamp has a `podcast/<id>.script.md` beside it with a
+`checked:` entry.
 
-**And the lesson lint**, which runs over drafts too, because a draft is where a defect is cheap to
-fix. Findings fail the build on a published course and warn with "[draft: fix before publishing]"
-on a draft: em dashes; ESV quotations; frontmatter and quiz items that did not parse as text; SVG
-fills hardcoded dark; SVG labels under font-size 15, with inheritance resolved; SVG labels running
-past their own viewBox, with rotation projected; blank lines inside an `<svg>`; bodies with no
-links; argument displays whose conclusion folds into the last premise; self-checks that print their
-own answer; and citations to works the course's SOURCES.md marks unread.
+**And the lesson lint**, which runs over assessments and over drafts too, because a draft is where
+a defect is cheap to fix. Findings fail the build on a published course and warn with "[draft: fix
+before publishing]" on a draft: em dashes and spaced en dashes; CR line endings; ESV quotations;
+frontmatter and quiz items that did not parse as text; SVG fills hardcoded dark; SVG labels under
+font-size 15, with inheritance resolved, and the effective phone size of the smallest label; SVG
+labels running past their own viewBox, with rotation projected; blank lines inside an `<svg>`;
+`:::` blocks unclosed, nested, or with text on the fence line; bodies with no links; argument
+displays whose conclusion folds into the last premise; self-checks that print their own answer;
+and citations to works the course's SOURCES.md marks unread.
+
+**`npm test` covers the lints.** `scripts/tests/build.test.mjs` builds a throwaway course tree and
+runs the build over one bad lesson per check, asserting each fails and names its defect. Add a case
+whenever you add a check; a check that stops firing is exactly the bug a green build hides.
 
 ## The rule this directory exists to serve
 

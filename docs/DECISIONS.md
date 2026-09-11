@@ -45,7 +45,7 @@ pass, assessments, **an episode for every lesson**, and only then the next cours
 across courses is also fixed: finish the live courses first, each one completely, then go back to
 the top of the Foval Core and work down it in order.
 
-It is root `CLAUDE.md` rule 5b, the head of `docs/CONTENT_PIPELINE.md`, and, since it kept being
+It is root `CLAUDE.md` rule 6, the head of `docs/CONTENT_PIPELINE.md`, and, since it kept being
 lost as prose, a check: `npm run validate` fails on a published course whose lessons lack an
 `audio:` stamp beyond the debt written down in `curriculum/audio-debt.yaml`.
 
@@ -55,7 +55,7 @@ lost as prose, a check: `npm run validate` fails on a published course whose les
 
 The live site serves `main`. A platform session on 2026-09-06 left thirteen commits on a branch
 while John refreshed his browser wondering why a layout fix had not appeared. That is the whole
-lesson, and it is root `CLAUDE.md` rule 11.
+lesson, and it is root `CLAUDE.md` rule 8.
 
 **Two process rules came out of real failures and both still bind:**
 

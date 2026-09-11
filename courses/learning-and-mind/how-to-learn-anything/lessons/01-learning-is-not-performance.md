@@ -91,7 +91,7 @@ Reconstructing a memory from nothing, with no page in front of you, is what buil
 
 This is not a personal failing; the bias is built into the situation. Asher Koriat and Robert Bjork showed the mechanism with word pairs (Koriat & Bjork, 2005).[4] Try it yourself.
 
-:::predict You study the pair "cats – kittens". At test you will see "cats" and have to produce "kittens". Right now, with both words in front of you, how confident are you that you'll manage it?
+:::predict You study the pair cats–kittens. At test you will see "cats" and have to produce "kittens". Right now, with both words in front of you, how confident are you that you'll manage it?
 Most people say very confident. The two words go together obviously. But look at what happens at test. You see "cats" on its own, and "cats" on its own doesn't lead anywhere in particular: dogs, mice, milk, whiskers. In word-association norms, "kittens" brings "cats" to mind 72% of the time, but "cats" brings "kittens" to mind only 2% of the time. The link that made you confident was only visible because the answer was sitting next to the cue. At test, the answer is the thing you don't have.
 :::
 

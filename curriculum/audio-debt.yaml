@@ -1,6 +1,6 @@
 # Podcast episodes still owed, per published course.
 #
-# CLAUDE.md rule 5b: a course is finished when every lesson is at standard AND every lesson has a
+# Root CLAUDE.md rule 6: a course is finished when every lesson is at standard AND every lesson has a
 # podcast episode. `npm run validate` enforces it. A published course whose lessons are not all
 # stamped with an `audio:` URL fails the build unless it is listed here with the number of
 # episodes it owes.

@@ -16,7 +16,7 @@ How Foval Learning Institute gets from a static prototype to a full learning pla
 
 - Static site: catalog, course pages, lessons, quizzes, browser-local progress, certificates.
 - Content pipeline: Markdown sources, build script, editorial standards, slash commands.
-- Four starter courses at `review` status.
+- Four starter courses, since rebuilt or queued for rebuilding (there is no `review` status any more; see `docs/DECISIONS.md`).
 
 ## Phase 1: Content engine and public launch
 
@@ -28,7 +28,7 @@ How Foval Learning Institute gets from a static prototype to a full learning pla
 - **Review page (continual testing)**: spaced-repetition review across every quiz question from every lesson you've completed. Questions come back on a schedule that lengthens each time you get them right and resets when you miss. This is the "keep it fresh" feature and it works entirely in the browser from day one.
 - **Transcript**: a running tally of every lesson and course completed, hours studied, questions answered, current retention rate.
 - **Public changelog**: `docs/CHANGELOG.md` lists every course published and every platform change. No indefinite "beta".
-- **Feedback**: a "Was this lesson clear?" thumbs up/down plus a comment link on every lesson. In Phase 1 this opens a prefilled GitHub Issue; in Phase 2 it writes to the feedback table.
+- **Feedback**: a clarity rating and two free-text questions on every lesson, posted to a Cloudflare Worker and read with `npm run feedback`. Live since 2026-09-05; see `docs/FEEDBACK_LOOP.md`. "Report an error" opens a prefilled GitHub Issue.
 - Run the content pipeline on the first Core courses. Target: the whole of Term 1 and Term 2 of the Core published.
 
 **Stack:** plain HTML/CSS/JS, no framework, no build beyond `scripts/build.mjs`. This is deliberate: fastest on cheap phones, trivially hostable, and anyone can contribute.

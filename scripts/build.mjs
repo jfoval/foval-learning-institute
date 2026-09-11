@@ -10,11 +10,16 @@ import yaml from "js-yaml";
 import { marked } from "marked";
 import { fileURLToPath } from "node:url";
 import crypto from "node:crypto";
+import { execFileSync } from "node:child_process";
 import { estimateTextWidth, FONT_SPREAD } from "./text-width.mjs";
 
 const CHECK = process.argv.includes("--check");
 const DRAFTS = process.argv.includes("--drafts");
-const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
+// FOVAL_ROOT points the build at another tree. scripts/tests/ uses it to run the checks over
+// fixture lessons that must fail; nothing else should set it.
+const ROOT = process.env.FOVAL_ROOT ? path.resolve(process.env.FOVAL_ROOT) : path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
+// Run only when invoked as a script, so the tests can import renderBody without a build.
+const isMain = Boolean(process.argv[1]) && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url);
 const COURSES_DIR = path.join(ROOT, "courses");
 const OUT = path.join(ROOT, "site", "data", "courses.js");
 const PATH_FILE = path.join(ROOT, "curriculum", "core-path.yaml");
@@ -74,6 +79,15 @@ function parseFrontmatter(src, file) {
   try { return { meta: yaml.load(m[1]) || {}, body: m[2] }; }
   catch (e) { errors.push(`${file}: bad YAML frontmatter: ${e.message}`); return { meta: {}, body: m[2] }; }
 }
+// yaml.load("") is null, and an empty or comment-only course.yaml used to crash the build with a
+// TypeError that named no file. Every reader of course.yaml goes through here.
+function readCourseYaml(file) {
+  const rel = path.relative(ROOT, file);
+  let meta;
+  try { meta = yaml.load(fs.readFileSync(file, "utf8")); } catch (e) { errors.push(`${rel}: ${e.message}`); return null; }
+  if (!meta || typeof meta !== "object") { errors.push(`${rel}: is empty; copy templates/course.yaml and fill it in`); return null; }
+  return meta;
+}
 function req(obj, keys, where) {
   for (const k of keys) if (obj[k] === undefined || obj[k] === "" || (Array.isArray(obj[k]) && !obj[k].length)) errors.push(`${where}: missing "${k}"`);
 }
@@ -121,6 +135,8 @@ function checkQuizTypes(quiz, file, label, report) {
   });
 }
 
+if (isMain) main();
+function main() {
 const courses = [];
 for (const school of fs.readdirSync(COURSES_DIR, { withFileTypes: true }).filter(d => d.isDirectory())) {
   const schoolDir = path.join(COURSES_DIR, school.name);
@@ -129,11 +145,18 @@ for (const school of fs.readdirSync(COURSES_DIR, { withFileTypes: true }).filter
     const yamlPath = path.join(dir, "course.yaml");
     if (!fs.existsSync(yamlPath)) { warn.push(`${dir}: no course.yaml, skipped`); continue; }
     const rel = path.relative(ROOT, yamlPath);
-    let meta;
-    try { meta = yaml.load(fs.readFileSync(yamlPath, "utf8")); } catch (e) { errors.push(`${rel}: ${e.message}`); continue; }
+    const meta = readCourseYaml(yamlPath);
+    if (!meta) continue;
     req(meta, ["id", "title", "school", "subject", "level", "status", "summary", "description", "outcomes"], rel);
     if (meta.id !== cdir.name) errors.push(`${rel}: id "${meta.id}" must match folder name "${cdir.name}"`);
     if (meta.school !== school.name) errors.push(`${rel}: school "${meta.school}" must match folder "${school.name}"`);
+    // Standards 3.4 and 3.7. The field decides whether the neutrality audit is mandatory, so
+    // an absent field is a decision nobody made: four of seven courses had none, including
+    // Personal Finance, whose tax lesson is exactly the 3.4 case.
+    if (typeof meta.sensitive_domain !== "boolean") errors.push(`${rel}: "sensitive_domain" must be true or false (standards 3.4); it decides whether the neutrality audit is mandatory`);
+    if (school.name === "christian-studies" && meta.standpoint !== "christian") errors.push(`${rel}: courses under christian-studies carry "standpoint: christian" (standards 3.7)`);
+    if (school.name !== "christian-studies" && meta.standpoint) errors.push(`${rel}: "standpoint" belongs only to christian-studies courses; every other school teaches on neutral ground`);
+    if (meta.estimated_hours !== undefined) errors.push(`${rel}: "estimated_hours" is no longer read; delete it. The site sums the measured minutes of every lesson and assessment.`);
     if (meta.status !== "published" && !DRAFTS) { warn.push(`${rel}: status ${meta.status}, not built (only published courses go to the site)`); continue; }
 
     const lessonsDir = path.join(dir, "lessons");
@@ -163,7 +186,15 @@ for (const school of fs.readdirSync(COURSES_DIR, { withFileTypes: true }).filter
       const type = am.type || (quiz.length ? "test" : "project");
       return { id: f.replace(/\.md$/, ""), title: am.title, type, minutes: am.minutes || 0, pass_mark: am.pass_mark || 0.8, quiz, content: checkRenderedHtml(renderBody(body), file) };
     });
-    courses.push({ ...meta, lessons, assessments });
+    // Standard 4.4: six or more lessons means a course-end test. Every live course complies;
+    // this keeps it so.
+    if (lessons.length >= 6 && !assessments.some(a => a.type === "test"))
+      errors.push(`${rel}: ${lessons.length} lessons and no final test; standard 4.4 asks for assessments/final-test.md on a course of six or more lessons`);
+    // One number for a course's length, from the measured minutes of everything in it. There
+    // used to be an estimated_hours field as well, which nothing displayed and which drifted:
+    // Bible Basics said 12 while its lessons alone summed to 27.
+    const minutes = [...lessons, ...assessments].reduce((n, x) => n + (Number(x.minutes) || 0), 0);
+    courses.push({ ...meta, hours: Math.round(minutes / 6) / 10, lessons, assessments });
   }
 }
 
@@ -176,8 +207,13 @@ const TOKENS = (() => {
   const out = { light: {}, dark: {} };
   let css = "";
   try { css = fs.readFileSync(path.join(ROOT, "site", "assets", "styles.css"), "utf8"); } catch { return out; }
-  const light = css.slice(0, css.indexOf("@media (prefers-color-scheme: dark)"));
-  const dark = css.slice(css.indexOf("@media (prefers-color-scheme: dark)"));
+  const DARK = "@media (prefers-color-scheme: dark)";
+  const at = css.indexOf(DARK);
+  // If the dark block is renamed or moved, slicing at -1 would silently read the whole file as
+  // "light" and one byte as "dark". Say so instead.
+  if (at < 0) { errors.push(`site/assets/styles.css: no "${DARK}" block; the palette reader in scripts/build.mjs expects the light tokens before it and the dark ones inside it`); return out; }
+  const light = css.slice(0, at);
+  const dark = css.slice(at);
   for (const [scope, text] of [["light", light], ["dark", dark]]) {
     for (const m of text.matchAll(/(--[a-z0-9-]+):\s*(#[0-9a-fA-F]{3,8})\s*;/g)) out[scope][m[1]] = m[2].toLowerCase();
   }
@@ -189,8 +225,15 @@ const TOKENS = (() => {
 function lintLessons() {
   for (const school of fs.readdirSync(COURSES_DIR, { withFileTypes: true }).filter(d => d.isDirectory())) {
     for (const cdir of fs.readdirSync(path.join(COURSES_DIR, school.name), { withFileTypes: true }).filter(d => d.isDirectory())) {
-      const lessonsDir = path.join(COURSES_DIR, school.name, cdir.name, "lessons");
-      if (!fs.existsSync(lessonsDir)) continue;
+      // Assessments get the same lint as lessons. They used not to, so a final test could
+      // carry an em dash, an unclosed ::: or an answer in prose and validate clean.
+      const courseDir = path.join(COURSES_DIR, school.name, cdir.name);
+      const lintFiles = [];
+      for (const sub of ["lessons", "assessments"]) {
+        const d = path.join(courseDir, sub);
+        if (fs.existsSync(d)) for (const f of fs.readdirSync(d).filter(f => f.endsWith(".md"))) lintFiles.push([d, f]);
+      }
+      if (!lintFiles.length) continue;
       // A draft quoting the wrong translation must not block the deploy of courses that
       // are already live. Drafts warn; published courses fail the build.
       let published = false;
@@ -215,7 +258,7 @@ function lintLessons() {
           return e ? { name: e[1].trim(), except: e[2].split(/[,\s]+/).filter(Boolean) } : { name: entry, except: [] };
         });
       } catch {}
-      for (const f of fs.readdirSync(lessonsDir).filter(f => f.endsWith(".md"))) {
+      for (const [lessonsDir, f] of lintFiles) {
         const file = path.relative(ROOT, path.join(lessonsDir, f));
         const src = fs.readFileSync(path.join(lessonsDir, f), "utf8");
 
@@ -237,8 +280,21 @@ function lintLessons() {
           fail(`${file}: frontmatter does not parse as YAML (${e.reason || e.message}); a colon inside an unquoted value is the usual cause`);
         }
 
-        // Rule 7: never an em dash in learner-facing prose.
-        if (src.includes("\u2014")) fail(`${file}: contains an em dash (CLAUDE.md rule 7)`);
+        // courses/CLAUDE.md rule 4: never an em dash in learner-facing prose, and the en dash
+        // is the same rule (the convention is " to "). The en dash half was prose only, and
+        // fifteen files carried one when the check landed.
+        if (src.includes("\u2014")) fail(`${file}: contains an em dash (courses/CLAUDE.md rule 4)`);
+        // Every tool in scripts/ splits frontmatter on "\n---\n". This build accepted CRLF, so
+        // a Windows-saved lesson built fine and was invisible to the quiz checks and the
+        // reading-time measure. One rule, one place: lessons are LF.
+        if (src.includes("\r")) fail(`${file}: has Windows line endings (CR); save it with LF, or the quiz and minutes tools will not see its frontmatter`);
+        // An unspaced en dash is a range or a pair (Mark 16:9\u201320, Macnamara\u2013Hambrick) and stays.
+        // A spaced one is punctuation, which is the em dash by another name. Quoted text keeps
+        // whatever its author wrote, so quotations and blockquotes are stripped first.
+        {
+          const unquoted = src.split("\n").filter(l => !l.startsWith(">")).join("\n").replace(/"[^"\n]*"/g, "");
+          if (/ \u2013 /.test(unquoted)) fail(`${file}: uses a spaced en dash as punctuation; write " to ", a comma, or a full stop instead (courses/CLAUDE.md rule 4)`);
+        }
 
         // 4.6: SVG text drawn in a fixed dark colour disappears on the dark theme.
         // Text sitting on a coloured bar is fine, so only flag fills outside a bar's own colours.
@@ -346,12 +402,16 @@ function lintLessons() {
         // uses real Arial advance widths (scripts/text-width.mjs). Checked against Chromium
         // over all 252 labels in the repo, the estimate never ran more than 3% over the
         // truth and usually a little under, so it under-reports rather than crying wolf.
-        for (const [, attrs, body] of src.matchAll(/<text([^>]*)>([^<]*)<\/text>/g)) {
+        for (const m of src.matchAll(/<text([^>]*)>([^<]*)<\/text>/g)) {
+          const [, attrs, body] = m;
           const size = Number((attrs.match(/font-size="(\d+(?:\.\d+)?)"/) || [])[1]);
           const x = Number((attrs.match(/\bx="(-?\d+(?:\.\d+)?)"/) || [])[1]);
           if (!size || !Number.isFinite(x) || !body.trim()) continue;
           // The viewBox this label sits in is the last one opened before it.
-          const boxes = [...src.slice(0, src.indexOf(body)).matchAll(/viewBox="\s*[-\d.]+\s+[-\d.]+\s+([\d.]+)\s+[\d.]+"/g)];
+          // Slice at the tag's own position, not the first occurrence of the label text: a
+          // label like "Year" also appears in prose, which sent 263 of 873 labels to the
+          // wrong chart or to none, and a label with no chart is skipped below.
+          const boxes = [...src.slice(0, m.index).matchAll(/viewBox="\s*[-\d.]+\s+[-\d.]+\s+([\d.]+)\s+[\d.]+"/g)];
           const vbWidth = boxes.length ? Number(boxes[boxes.length - 1][1]) : 0;
           if (!vbWidth) continue;
           const advance = estimateTextWidth(body, size, /font-weight="(bold|[6-9]00)"/.test(attrs));
@@ -410,7 +470,13 @@ function lintLessons() {
           const lines = src.split("\n");
           let depth = 0, openedAt = 0;
           lines.forEach((line, i) => {
-            if (/^:::\w/.test(line)) { if (depth === 0) openedAt = i + 1; depth++; }
+            if (/^:::\w/.test(line)) {
+              if (depth === 0) openedAt = i + 1;
+              depth++;
+              // The renderer does not nest: it matches an opener to the first bare ::: after
+              // it. A nested block would pass this tracker and render broken, so it is refused.
+              if (depth > 1) fail(`${file}:${i + 1}: a ::: block opens inside the one from line ${openedAt}. Blocks do not nest; close the outer one first.`);
+            }
             else if (/^:::[ \t]*$/.test(line)) depth = Math.max(0, depth - 1);
             else if (/^:::/.test(line))
               fail(`${file}:${i + 1}: a ::: fence with text after it on the same line. A closing fence must be ::: alone; an opening one must be :::kind. Quoted: "${line.trim().slice(0, 70)}"`);
@@ -512,18 +578,21 @@ function lintLessons() {
           }
         }
 
-        // 4.5: a lesson that links nothing hides its sources.
-        const body = src.split(/^---$/m).slice(2).join("---");
-        const sourcesAt = body.search(/^## Sources/m);
-        const prose = sourcesAt === -1 ? body : body.slice(0, sourcesAt);
-        if (!/\]\(https?:\/\//.test(prose)) warn.push(`${file}: no links in the body; 4.5 asks for plain Markdown links in the text, not only in the Sources list`);
+        // 4.5: a lesson that links nothing hides its sources. Assessments are exempt: a test
+        // is questions and a project is a brief.
+        if (path.basename(lessonsDir) === "lessons") {
+          const body = src.split(/^---$/m).slice(2).join("---");
+          const sourcesAt = body.search(/^## Sources/m);
+          const prose = sourcesAt === -1 ? body : body.slice(0, sourcesAt);
+          if (!/\]\(https?:\/\//.test(prose)) warn.push(`${file}: no links in the body; 4.5 asks for plain Markdown links in the text, not only in the Sources list`);
+        }
       }
     }
   }
 }
 lintLessons();
 
-/* ---------- rule 5b: a published course owes an episode for every lesson ----------
+/* ---------- root CLAUDE.md rule 6: a published course owes an episode for every lesson ----------
    "A course is finished when every lesson is at standard AND every lesson has a podcast
    episode." That was a shouting paragraph in CLAUDE.md because it had been ignored once. A
    paragraph cannot stop it happening again; this can.
@@ -539,13 +608,24 @@ function checkAudio() {
     owed = d.owed || {};
   } catch (e) { errors.push(`curriculum/audio-debt.yaml: ${e.message}`); return; }
 
+  // "The debt may only shrink" was checked only as equality with the current count, so raising
+  // a number in the same commit as a new lesson passed. The committed version is the ratchet.
+  try {
+    const prev = yaml.load(execFileSync("git", ["show", "HEAD:curriculum/audio-debt.yaml"], { cwd: ROOT, encoding: "utf8", stdio: ["ignore", "pipe", "ignore"] })) || {};
+    for (const [id, n] of Object.entries(owed)) {
+      const was = (prev.owed || {})[id];
+      if (was === undefined) errors.push(`curriculum/audio-debt.yaml: "${id}" was not in the committed file. The debt ledger only shrinks; a course drafted today gets its episodes before the next lesson, and never appears here.`);
+      else if (n > was) errors.push(`curriculum/audio-debt.yaml: "${id}" went from ${was} to ${n}. The debt ledger only shrinks; render the episode instead.`);
+    }
+  } catch { /* not a git checkout, or no HEAD yet: nothing to ratchet against */ }
+
   const seen = new Set();
   for (const school of fs.readdirSync(COURSES_DIR, { withFileTypes: true }).filter(d => d.isDirectory())) {
     for (const cdir of fs.readdirSync(path.join(COURSES_DIR, school.name), { withFileTypes: true }).filter(d => d.isDirectory())) {
       const dir = path.join(COURSES_DIR, school.name, cdir.name);
       let meta;
       try { meta = yaml.load(fs.readFileSync(path.join(dir, "course.yaml"), "utf8")); } catch { continue; }
-      if (meta.status !== "published") continue;
+      if (!meta || meta.status !== "published") continue;
 
       const lessonsDir = path.join(dir, "lessons");
       if (!fs.existsSync(lessonsDir)) continue;
@@ -554,7 +634,17 @@ function checkAudio() {
 
       const missing = files.filter(f => {
         const fm = fs.readFileSync(path.join(lessonsDir, f), "utf8").split(/^---$/m)[1] || "";
-        return !/^audio:\s*\S/m.test(fm);
+        const stamped = /^audio:\s*\S/m.test(fm);
+        // A stamp means an episode was rendered from a fact-checked script (/make-podcast). The
+        // script is committed beside the lesson with a `checked:` entry; a stamp without one is
+        // an episode nobody checked, or a hand-typed URL.
+        if (stamped) {
+          const script = path.join(dir, "podcast", f.replace(/\.md$/, ".script.md"));
+          let checked = false;
+          try { checked = /^checked:/m.test(fs.readFileSync(script, "utf8").split(/^---$/m)[1] || ""); } catch {}
+          if (!checked) errors.push(`${path.relative(ROOT, path.join(lessonsDir, f))}: has an "audio:" stamp but ${path.relative(ROOT, script)} is missing or has no "checked:" entry. Every episode comes from a fact-checked script; see /make-podcast.`);
+        }
+        return !stamped;
       });
 
       const allowed = owed[meta.id];
@@ -564,7 +654,7 @@ function checkAudio() {
       if (allowed === undefined) {
         if (missing.length) errors.push(
           `${where}: status is published and ${missing.length} of ${files.length} lesson(s) have no "audio:" in their frontmatter (${missing.map(f => f.replace(/\.md$/, "")).join(", ")}). ` +
-          `CLAUDE.md rule 5b: a course is not finished until every lesson has an episode. Render them with /make-podcast, or, only for debt that predates the rule, record it in curriculum/audio-debt.yaml.`);
+          `Root CLAUDE.md rule 6: a course is not finished until every lesson has an episode. Render them with /make-podcast, or, only for debt that predates the rule, record it in curriculum/audio-debt.yaml.`);
       } else if (missing.length > allowed) {
         errors.push(
           `${where}: curriculum/audio-debt.yaml allows ${allowed} episode(s) owed, but ${missing.length} lesson(s) have no "audio:" (${missing.map(f => f.replace(/\.md$/, "")).join(", ")}). ` +
@@ -607,8 +697,11 @@ function checkStatusAgreement() {
       const rel = path.relative(ROOT, path.join(COURSES_DIR, school.name, cdir.name, "course.yaml"));
       let meta;
       try { meta = yaml.load(fs.readFileSync(path.join(ROOT, rel), "utf8")); } catch { continue; }
+      if (!meta) continue;   // already reported by readCourseYaml
       const row = rows.get(`${school.name}::${norm(meta.title)}`);
-      if (!row) { warn.push(`${rel}: no row in curriculum/TAXONOMY.md for "${meta.title}" under ${school.name}; the map is meant to list every course.`); continue; }
+      // An error, not a warning: as a warning, rule 5's agreement check could be skipped by
+      // omitting the row.
+      if (!row) { errors.push(`${rel}: no row in curriculum/TAXONOMY.md for "${meta.title}" under ${school.name}; the map lists every course (root CLAUDE.md rule 5).`); continue; }
       if (row.status !== meta.status) errors.push(
         `${rel}: status "${meta.status}" but TAXONOMY.md:${row.line} says "${row.status}". CLAUDE.md rule 5: a status change edits both, in the same commit.`);
     }
@@ -684,3 +777,4 @@ sw = sw.replace(/const CORE = \[[^\]]*\];/, `const CORE = ["./", "./index.html",
 fs.writeFileSync(swPath, sw);
 console.log(`stamped assets: ${Object.entries(stamped).map(([a, h]) => `${path.basename(a)}=${h}`).join(" ")}, sw cache foval-${swVersion}`);
 if (DRAFTS) console.warn("\nPREVIEW BUILD: drafting courses are in this output. Do NOT commit site/data/courses.js.\nRun `npm run build` to put it back.");
+}

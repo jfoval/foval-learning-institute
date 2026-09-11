@@ -28,7 +28,13 @@ The Worker lives in `workers/feedback/` and writes to a D1 database called `fova
 
     npm run feedback                     new feedback, oldest first
     npm run feedback -- --all            everything, including handled
+    npm run feedback -- --json > f.json  the same rows as JSON, which is what /triage-feedback reads
     npm run feedback -- --triage 12 15   mark those rows dealt with
+
+Reading needs a `wrangler` login on this machine, which an agent session does not have. **So
+reading the feedback is John's job**, and it is a standing item in `docs/QUEUE.md`: export it,
+hand the file to `/triage-feedback`, and the rest is automated. Until that happens nobody knows
+whether a single response has arrived, and the loop is a form with nothing at the other end.
 
 **Changing the Worker:** edit `workers/feedback/src/index.js`, then `npm run feedback:deploy`. Schema changes go in `workers/feedback/schema.sql` and are applied with `wrangler d1 execute foval-feedback --remote --file=schema.sql` from that directory.
 
@@ -38,8 +44,8 @@ The Worker lives in `workers/feedback/` and writes to a D1 database called `fova
 
 Weekly, or whenever a lesson has ten or more responses:
 
-1. **Export** the feedback for a course to a JSON or CSV file.
-2. **Run `/triage-feedback <file> <course-id>`.** Claude groups it by lesson, finds the recurring struggles and suggestions, and sorts each against `docs/VALUES.md` into: unclear passage, missing content, factual error (routed to `/fact-check`), a request the values or standards say no to (declined with a reason), or a site bug (logged as an issue). This is the filter: valuable feedback makes the lesson better; unhelpful feedback is set aside, and the reason is logged so the decision can be checked.
+1. **Export** with `npm run feedback -- --json > feedback.json` (John, from a logged-in shell).
+2. **Run `/triage-feedback feedback.json <course-id>`.** Claude groups it by lesson, finds the recurring struggles and suggestions, and sorts each against `docs/VALUES.md` into: unclear passage, missing content, factual error (routed to `/fact-check`), a request the values or standards say no to (declined with a reason), or a site bug (logged as an issue). This is the filter: valuable feedback makes the lesson better; unhelpful feedback is set aside, and the reason is logged so the decision can be checked.
 3. **Edits are made** to the lesson, in the style guide's voice, with each edit traced to the feedback it answers. Everything is logged in the lesson's `research/reviews/<lesson-id>.md` under "Feedback triage".
 4. **Review as normal.** Substantive changes go through `/review-lesson` again. Small clarifications don't.
 5. **Publish** with a line in `docs/CHANGELOG.md`: "Lesson X clarified based on learner feedback."

@@ -9,7 +9,8 @@ knowledge for each stage, including the list of defects this drafter repeats.
 
     courses/<school>/<course-id>/
       course.yaml        the course record: id, title, school, subject, level, status,
-                         summary, description, outcomes, estimated_hours
+                         summary, description, outcomes, sensitive_domain (no hours field:
+                         the site sums the measured minutes)
       research/
         SOURCES.md       stage 1. What was actually read, with an <!-- unread: ... --> line
                          naming what was not. The build fails on a citation to anything there.
@@ -31,10 +32,12 @@ knowledge for each stage, including the list of defects this drafter repeats.
    tiered: one reviewer by default, five in parallel only for sensitive domains, standpoint courses,
    and lessons sent back for heavy rewriting. A pre-pipeline stub is replaced, never reviewed.
    `/review-lesson` has the whole of it.
-4. **Never use an em dash in anything a learner reads.** Search for `—` before you commit, and for
-   the en dash `–` as well; the convention is " to ". The build fails on an em dash in a lesson.
+4. **Never use an em dash in anything a learner reads**, and never a spaced en dash ` – ` as
+   punctuation; the convention is " to ", a comma, or a full stop. An unspaced en dash in a range
+   or a pair (Mark 16:9–20, Macnamara–Hambrick) is fine, and quoted text keeps what its author
+   wrote. The build fails on both.
 5. **A course is not finished until every lesson has a podcast episode.** `npm run validate`
-   enforces it against `curriculum/audio-debt.yaml`. See root `CLAUDE.md` rule 5b.
+   enforces it against `curriculum/audio-debt.yaml`. See root `CLAUDE.md` rule 6.
 6. **Sensitive domains** (standards Part 3.4) get the neutrality audit before publish. No
    exceptions. School of Christian Studies courses carry `standpoint: christian` and follow
    standards 3.7: taught from within the faith, labelled as such, objections engaged at full

@@ -12,7 +12,7 @@ The map is deliberately ambitious. Most courses are `planned`. The point of writ
 4. **Depth over breadth per course.** A course should leave you genuinely competent in its subject, not "exposed" to it.
 
 **Levels:** `Foundation` (no prerequisites), `Core` (assumes Foundation courses), `Advanced` (assumes Core).
-**Status:** `planned` → `research` → `drafting` → `published`. A course is published when its lessons have been through the review pipeline; it keeps improving through the feedback loop after that. Three of the original starter courses (Writing Clearly, Algebra Essentials, Introduction to Programming with Python) are marked `published` but are pre-pipeline placeholders of about 450 words a lesson, and are queued to be rebuilt rather than improved. See `docs/QUEUE.md`.
+**Status:** `planned` → `research` → `drafting` → `published`. A course is published when its lessons have been through the review pipeline; it keeps improving through the feedback loop after that. Two of the original starter courses, Writing Clearly and Algebra Essentials, are marked `published` but still owe their Stage 4 (Writing Clearly) or are pre-pipeline placeholders queued for a rebuild (Algebra Essentials). See `docs/QUEUE.md`.
 
 **Path:** every course sits in a term of the Foval Core. There is no elective tier; see "Placing a course on the Core" at the foot of this file.
 
@@ -155,7 +155,7 @@ The map is deliberately ambitious. Most courses are `planned`. The point of writ
 | Course | Level | Status | Path | Notes |
 |---|---|---|---|---|
 | Digital Literacy | Foundation | planned | T1 | Files, networks, security hygiene, how the internet works. |
-| Introduction to Programming with Python | Foundation | published | T6 | Rebuilt 2026-09-10: all six lessons drafted and through Stage 4, stubs gone. Owes two assessments and six episodes. |
+| Introduction to Programming with Python | Foundation | published | T6 | Rebuilt 2026-09-10: six lessons through Stage 4 and the voice pass, final test and project live. Owes six episodes. |
 | How Computers Work | Foundation | planned | T6 | From transistors to operating systems. |
 | Data Structures and Algorithms | Core | planned | T20 | |
 | Web Development | Core | planned | T6 | HTML, CSS, JS, a real site. |

@@ -16,7 +16,11 @@
     "shots": "node scripts/screenshots.mjs",
     "card": "node scripts/social-card.mjs",
     "minutes": "node scripts/reading-time.mjs",
-    "quiz": "node scripts/check-quiz-shape.cjs && node scripts/check-quiz-letters.cjs"
+    "quiz": "node scripts/check-quiz-shape.cjs && node scripts/check-quiz-letters.cjs",
+    "test": "node --test \"scripts/tests/*.test.mjs\""
+  },
+  "engines": {
+    "node": ">=20"
   },
   "license": "CC-BY-SA-4.0",
   "dependencies": {

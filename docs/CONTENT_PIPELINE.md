@@ -12,7 +12,7 @@ course.
 So the order for every course is:
 
 1. Stage 0 to 3: scaffold, research, outline, draft.
-2. Stage 4: review, and the voice pass.
+2. Stage 4: review, then `/voice-pass` on every lesson.
 3. Assessments, if the course has six or more lessons (standard 4.4).
 4. **Stage 6: an episode for every lesson**, via `/make-podcast`, each one rendered, uploaded and
    stamped.
@@ -57,7 +57,7 @@ Templates for each file are in `templates/`.
 ### Stage 0: Choose and brief — `/new-course <school> <id> "<Title>"`
 Pick a course from `curriculum/TAXONOMY.md`. If it is not on the map yet, add the row first, including its **Path** cell: the term it sits in. Every course on the map is on the Foval Core, so this is a question of *when* a learner should take it, not *whether* it belongs. That decision is required, not deferred, and `npm run validate` fails without it. The rule for choosing is "Placing a course on the Core" in TAXONOMY.md. The course also goes into `curriculum/core-path.yaml`, in the position it should be taken inside its term.
 
-Then create the folder from `templates/`. Fill in `course.yaml`: audience, prerequisites, what the learner will be able to do. Set `status: research`.
+Then create the folder from `templates/`. Fill in `course.yaml`: audience, prerequisites, what the learner will be able to do. Set `status: research`. There is no hours field: the site sums the measured `minutes:` of every lesson and assessment.
 
 ### Stage 1: Research — `/research-course <path>`
 The most important stage. Claude uses web search and fetch to find and read:
@@ -71,7 +71,7 @@ The most important stage. Claude uses web search and fetch to find and read:
 Output: `research/SOURCES.md`. It is not a bibliography; it is a working document that says *what each source is good for* and *what the field considers essential*. A good SOURCES.md is 1,000 to 3,000 words. Set `status: drafting` when done.
 
 ### Stage 2: Outline — `/outline-course <path>`
-From SOURCES.md, produce `research/OUTLINE.md`: the lesson sequence, each with objectives, key ideas, worked examples to include, misconceptions to address, exercises, and which sources it draws on. Also decide the assessments (final test, projects). Update `course.yaml` outcomes to match.
+From SOURCES.md, produce `research/OUTLINE.md`: the lesson sequence, each with objectives, key ideas, worked examples to include, misconceptions to address, exercises, and which sources it draws on. Also decide the assessments (final test, projects). Update `course.yaml` outcomes to match, except on a live course being rebuilt in place, where the course page keeps describing what it currently delivers (`docs/DECISIONS.md` §8; the command has the detail).
 
 ### Stage 3: Draft — `/draft-lesson <path> <n>`
 Draft **one lesson**, with SOURCES.md, OUTLINE.md, EDITORIAL_STANDARDS.md, and the previous lesson in context. One lesson per session keeps the model's attention on depth. Output: `lessons/NN-slug.md`. Run `npm run validate` after each.
@@ -90,12 +90,17 @@ The passes are depth (Part 1), fact-check (Part 2), neutrality (Part 3), pedagog
 
 Findings go to `research/reviews/<lesson-id>.md` with IDs, the fixes are applied, and a "Resolutions applied" note records what was deliberately not fixed. A second full pass runs only when the first found wrong facts, a failed neutrality check, or a third of the lesson generic. Not out of caution.
 
+Two of the passes can also run alone: `/fact-check <lesson>` and `/neutrality-audit <lesson>`. Use them when feedback or a later edit puts one pass in doubt without re-running the whole review.
+
+### Stage 4b: Voice pass — `/voice-pass <path> <n>`
+After the review, every lesson gets one fresh-context rewrite into the Foval voice per `docs/STYLE_GUIDE.md`, adding the think-while-reading blocks. It is part of the definition of done, and a course is not published without it.
+
 ### Stage 5: Publish
 When every lesson has passed Stage 4 and the voice pass, set `status: published`, run `npm run build`, commit, push. GitHub Pages deploys. There is no separate sign-off gate: the owner reads courses as a learner, and that reading, together with everyone else's feedback, is Stage 7.
 
 ### Stage 6: Podcast — `/make-podcast <path/to/lesson.md>`
-**Every lesson gets its podcast when its content settles** (after the Stage 4 review, the
-voice pass, and the media pass), never before, so audio is not paid for twice. The episode
+**Every lesson gets its podcast when its content settles** (after the Stage 4 review and the
+voice pass), never before, so audio is not paid for twice. The episode
 is a six-minute two-host conversation: John (S1, the teaching voice) and Haley (S2, the
 curious one). The command writes the script from the lesson (every claim must appear in
 the lesson; the script adds nothing), fact-checks it in a fresh-context subagent before
@@ -106,7 +111,7 @@ committed; the MP3 lives in R2, never in git. Publishing does not wait for podca
 settled lesson can go live and get its episode after.
 
 ### Stage 7: Feedback loop
-This is how lessons get better after they're live, and it never ends. Learner feedback (from the form on every lesson, GitHub Issues, or later the platform's feedback table) runs through `/triage-feedback`, which sorts it against `docs/VALUES.md` and the standards: what makes a lesson clearer, deeper, or more honest is built in; what would make it shallower, slanted, or softer on the truth is declined with a reason. Everything is logged in the lesson's review file. Content is versioned in git, so every change is traceable. See `docs/FEEDBACK_LOOP.md`.
+This is how lessons get better after they're live, and it never ends. Learner feedback from the form on every lesson lands in a D1 table; `npm run feedback -- --json > feedback.json` exports it and `/triage-feedback feedback.json` sorts it against `docs/VALUES.md` and the standards: what makes a lesson clearer, deeper, or more honest is built in; what would make it shallower, slanted, or softer on the truth is declined with a reason. Everything is logged in the lesson's review file. Content is versioned in git, so every change is traceable. See `docs/FEEDBACK_LOOP.md`.
 
 ## Working practices that protect quality
 

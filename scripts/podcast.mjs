@@ -110,7 +110,7 @@ if (!process.env.FAL_KEY) {
   const envFile = path.join(ROOT, ".env.local");
   if (fs.existsSync(envFile)) {
     const m = fs.readFileSync(envFile, "utf8").match(/^FAL_KEY=(.+)$/m);
-    if (m) process.env.FAL_KEY = m[1].trim();
+    if (m) process.env.FAL_KEY = m[1].trim().replace(/^(["'])(.*)\1$/, "$2");   // a quoted value keeps its quotes otherwise
   }
 }
 
@@ -244,7 +244,7 @@ async function upload() {
   if (!fs.existsSync(mp3Path)) { console.error(`No MP3 at ${show(mp3Path)}. Render first.`); process.exit(1); }
 
   console.log(`uploading ${show(mp3Path)} to ${BUCKET}/${r2Key} ...`);
-  execFileSync("npx", ["wrangler", "r2", "object", "put", `${BUCKET}/${r2Key}`, "--file", mp3Path, "--content-type", "audio/mpeg", "--remote"], { stdio: "inherit", cwd: ROOT });
+  execFileSync("npx", ["--yes", "wrangler@4", "r2", "object", "put", `${BUCKET}/${r2Key}`, "--file", mp3Path, "--content-type", "audio/mpeg", "--remote"], { stdio: "inherit", cwd: ROOT });
   const head = await fetch(publicUrl, { method: "HEAD" });
   if (!head.ok) { console.error(`Upload ran but ${publicUrl} answers ${head.status}. Check the bucket before stamping.`); process.exit(1); }
   console.log(`live: ${publicUrl}`);

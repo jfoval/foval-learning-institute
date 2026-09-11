@@ -25,4 +25,4 @@ outcomes:
   - Test a writing rule against evidence instead of accepting it
   - Run a paraphrase test on your own writing and act on what it shows
 prerequisites: []
-estimated_hours: 11.3
+sensitive_domain: false

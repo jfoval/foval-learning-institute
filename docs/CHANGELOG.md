@@ -1,7 +1,7 @@
 # Changelog
 
 What has shipped, newest first. Courses published, platform changes, and decisions that changed how
-the institute works. Items move here out of `BACKLOG.md` when they are done.
+the institute works. Items move here out of `docs/QUEUE.md` when they are done.
 
 Everything from the founding onwards is here. Entries before 2026-09-06 came from the old root
 `CHANGELOG.md`, which was merged into this file on 2026-09-06 so there is only one changelog.

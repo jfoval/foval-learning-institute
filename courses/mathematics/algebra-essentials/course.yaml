@@ -22,4 +22,4 @@ outcomes:
   - Turn a described relationship into an equation, and test the translation with numbers
   - Solve two equations at once by substitution and by elimination
 prerequisites: []
-estimated_hours: 4.3
+sensitive_domain: false

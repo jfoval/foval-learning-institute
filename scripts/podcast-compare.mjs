@@ -81,8 +81,9 @@ const REQUESTS = {
     queued: true,
   }),
   gemini: () => ({
-    url: `https://generativelanguage.googleapis.com/v1beta/models/${process.env.GEMINI_TTS_MODEL || "gemini-3.1-flash-tts-preview"}:generateContent?key=${process.env.GEMINI_API_KEY}`,
-    headers: { "Content-Type": "application/json" },
+    url: `https://generativelanguage.googleapis.com/v1beta/models/${process.env.GEMINI_TTS_MODEL || "gemini-3.1-flash-tts-preview"}:generateContent`,
+    // The key goes in a header, never the query string, where it would land in every proxy log.
+    headers: { "Content-Type": "application/json", "x-goog-api-key": process.env.GEMINI_API_KEY },
     body: {
       contents: [{ parts: [{ text: turns.map(t => `Speaker${t.speaker}: ${t.text}`).join("\n") }] }],
       generationConfig: {

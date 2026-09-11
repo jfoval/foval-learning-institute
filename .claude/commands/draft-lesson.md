@@ -12,10 +12,10 @@ If SOURCES.md or OUTLINE.md is missing, stop and say which stage must run first.
 
 Draft exactly one lesson to `<course>/lessons/NN-slug.md` (NN zero-padded). Requirements, from the standards:
 - Every required element from Part 1.2: reason to care, precise core idea, mechanism, 2+ worked examples, misconceptions, practice, connections, go-deeper, quiz
-- 1,200–3,000 words of body. Written from the sources, with specifics: numbers, names, cases, mechanisms
+- As long as the material needs and no longer (standards 1.3 sets no ceiling; live lessons run from about 2,200 words on a procedural course to over 10,000 on a prose one). Written from the sources, with specifics: numbers, names, cases, mechanisms
 - Footnote markers on checkable claims and a `## Sources` section at the end
 - Claims sorted correctly as established / contested / value (Part 3.1). Contested and value questions handled per Part 3
-- Quiz of 3–6 questions in frontmatter, at least half application questions, plausible distractors, `explain` on every question
+- Quiz of 3 to 6 questions in frontmatter, at least half application questions, plausible distractors, `explain` on every question
 - Frontmatter `objectives` list
 - Reads well on a phone: short paragraphs, headings every few hundred words
 

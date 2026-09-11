@@ -1,6 +1,6 @@
 id: course-id                 # must match folder name; lowercase, hyphens
 title: Course Title
-school: school-slug           # one of the 14 in curriculum/TAXONOMY.md; must match parent folder
+school: school-slug           # one of the 15 in curriculum/TAXONOMY.md; must match parent folder
 subject: School Display Name  # e.g. "History", "Money", "Natural Sciences"
 level: Foundation             # Foundation | Core | Advanced
 status: research              # planned | research | drafting | published
@@ -13,6 +13,7 @@ outcomes:
   - Another
   - Another
 prerequisites: []             # course ids, e.g. [algebra-essentials]
-estimated_hours: 0
-sensitive_domain: false
-# standpoint: christian        # only for School of Christian Studies courses; shows the standpoint label (standards 3.7)       # true if Part 3.4 of the standards applies; makes neutrality audit mandatory
+# There is no hours field. The site sums every lesson's and assessment's measured `minutes:`;
+# `npm run minutes` measures them.
+sensitive_domain: false       # required. true if Part 3.4 of the standards applies; makes the neutrality audit mandatory
+# standpoint: christian       # required under courses/christian-studies/, forbidden elsewhere; shows the standpoint label (standards 3.7)

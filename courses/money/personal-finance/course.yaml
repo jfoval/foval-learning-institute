@@ -22,4 +22,4 @@ outcomes:
   - Cost owning a specific home against renting one, and find the holding period at which buying wins
   - Recognise the three things every scam has to do, rank payment methods by reversibility, and freeze your credit
 prerequisites: []
-estimated_hours: 11.8
+sensitive_domain: true   # tax (lesson 6) and investing are Part 3.4 domains; the neutrality audit ran on them

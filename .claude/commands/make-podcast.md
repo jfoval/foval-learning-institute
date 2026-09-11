@@ -30,7 +30,7 @@ episode:
   however true. The script is a reading of the lesson, and the lesson has been through
   review; the script has not.
 - Write for the ear: numbers spelled out ("nine hundred and eighteen"), no citations read
-  aloud, no markdown, no stage directions, no em dashes (rule 7 applies to scripts too).
+  aloud, no markdown, no stage directions, no em dashes (`courses/CLAUDE.md` rule 4 applies to scripts too).
   Haley pushes with real questions and restates the hard parts; she is not a yes-machine.
 - For a `standpoint: christian` course, keep the lesson's own labelling of the faith
   commitment in the script.

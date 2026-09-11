@@ -12,16 +12,19 @@
 // Affirming the key by name is normal and correct prose, so "Option C is this
 // course's reading" is not a finding. Only a negative verb next to the key is.
 // The script still guesses; read each hit before changing anything.
-const fs = require("fs"), yaml = require("js-yaml");
-const L = "ABCD";
+const fs = require("fs"), path = require("path"), yaml = require("js-yaml");
+const L = "ABCDEF";
+// Paths are relative to the repo, not the shell's cwd, so this runs from anywhere.
+const ROOT = path.resolve(__dirname, "..");
 const dirs = p => fs.readdirSync(p, { withFileTypes: true }).filter(e => e.isDirectory()).map(e => e.name);
 
 const files = [];
-for (const s of dirs("courses"))
-  for (const c of dirs(`courses/${s}`))
+if (process.argv.length > 2) files.push(...process.argv.slice(2));
+else for (const s of dirs(path.join(ROOT, "courses")))
+  for (const c of dirs(path.join(ROOT, "courses", s)))
     for (const d of ["lessons", "assessments"]) {
-      const p = `courses/${s}/${c}/${d}`;
-      if (fs.existsSync(p)) for (const f of fs.readdirSync(p)) if (f.endsWith(".md")) files.push(`${p}/${f}`);
+      const p = path.join(ROOT, "courses", s, c, d);
+      if (fs.existsSync(p)) for (const f of fs.readdirSync(p)) if (f.endsWith(".md")) files.push(path.relative(process.cwd(), path.join(p, f)));
     }
 
 // Verbs that mark an option as one of the wrong ones.
@@ -31,8 +34,9 @@ let hits = 0;
 for (const f of files) {
   const m = fs.readFileSync(f, "utf8").match(/^---\n([\s\S]*?)\n---/);
   if (!m) continue;
-  let d; try { d = yaml.load(m[1]); } catch { continue; }
-  const q = d.quiz || d.questions;
+  // A quiz whose frontmatter does not parse must not be reported as clean.
+  let d; try { d = yaml.load(m[1]); } catch (e) { hits++; console.log(`\n${f}  frontmatter does not parse: ${e.reason || e.message}`); continue; }
+  const q = (d || {}).quiz || (d || {}).questions;
   if (!Array.isArray(q)) continue;
 
   q.forEach((it, i) => {
