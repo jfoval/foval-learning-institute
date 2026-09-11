@@ -13,10 +13,10 @@ through.
 Rewrite these five lines each session. Nothing else goes in this block.
 
 - **Current course:** Writing Clearly (Stage 4 cycle on a published course).
-- **Current lesson:** none started. Lesson 1 is next.
+- **Current lesson:** 1 is through Stage 4 and was largely rewritten. 2 is next.
 - **Current stage:** Stage 4, then the voice pass, lesson by lesson through all nine.
 - **Blocked on:** nothing for content. Episodes across six courses wait on the fal balance.
-- **Next action:** `/review-lesson courses/communication-and-people/clear-writing 1`. If fal has
+- **Next action:** `/review-lesson courses/communication-and-people/clear-writing 2`. If fal has
   been topped up, that outranks it: render the 26 ready episodes, Personal Finance 3 to 10 first,
   then write Python Basics' six scripts.
 
@@ -26,9 +26,14 @@ A course is done when every lesson is at standard **and** every lesson has an ep
 validate` enforces the second half against `curriculum/audio-debt.yaml`, which only shrinks.
 
 1. **Writing Clearly: Stage 4 on all nine lessons, then the voice pass.** Drafted, assessments
-   exist, no lesson reviewed. `docs/DECISIONS.md` §9 puts this before the Core. Its low word count
-   was a deliberate call: a practical writing course carries its depth in exercises. If John says
-   they are thin, the fix is more worked examples, not more prose.
+   exist. **Lesson 1 done 2026-09-10** and mostly rewritten: its organising model was a misreading
+   of its own source, so the chart and three sections were rebuilt on Nielsen's actual figures.
+   Eight to go. `docs/DECISIONS.md` §9 puts this before the Core. Its low word count was a
+   deliberate call: a practical writing course carries its depth in exercises. If John says they
+   are thin, the fix is more worked examples, not more prose.
+   **Read lesson 1's review before reviewing lesson 2**: the same source and the same three
+   sources run through the course, and the quiz-shape trap it hit (writing the key as the full
+   reasoning and the distractors as one-liners) will recur on every lesson unless it is measured.
 2. **The 47 owed episodes.** Blocked on fal. 26 are ready to render: Personal Finance 3 to 10,
    Logic and Argument 4 to 10, Bible Basics 2 to 12, about $11 in total. Personal Finance 3's
    script is written and fact-checked at `courses/money/personal-finance/podcast/03-debt.script.md`.
@@ -69,7 +74,7 @@ These have no session that owns them, which is how they were being skipped.
 | Bible Basics | T8 | 12 | 13,163 | 12 | 2 | 1 of 12 | 11 episodes |
 | Personal Finance | T2 | 10 | 5,932 | 10 | 2 | 2 of 10 | 8 episodes |
 | Algebra Essentials | T5 | 6 | 3,689 | 6 | 2 | 0 of 6 | voice pass, 6 episodes |
-| Writing Clearly | T1 | 9 | 3,676 | 0 | 2 | 0 of 9 | Stage 4, voice pass, 9 episodes |
+| Writing Clearly | T1 | 9 | 3,712 | 1 | 2 | 0 of 9 | Stage 4 on 8, voice pass, 9 episodes |
 | Python Basics | T6 | 6 | 3,095 | 6 | 2 | 0 of 6 | 6 episodes |
 
 Sixty-one lessons live, fourteen with audio. `/status` recomputes this table and rewrites it here
