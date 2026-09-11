@@ -8,82 +8,81 @@ objectives:
   - Identify which values Python treats as false without a comparison
 quiz:
   - q: >-
-      A program checks a delivery. It runs "if weight > 20: print('heavy')" then
-      "elif weight > 5: print('medium')" then "else: print('light')". The weight is 30.
-      What prints?
+      A library fine chain runs "if days > 0: 2 pounds", then "elif days > 7: 5 pounds", then
+      "elif days > 30: 10 pounds", then an else. Which fines can a borrower ever actually be
+      charged?
     options:
-      - heavy and medium, since both of those conditions are true of 30
-      - heavy only, because the chain stops at the first condition that holds
-      - medium only, since elif is checked before the if above it
-      - Nothing at all, because two branches match and Python cannot choose
-    answer: 1
-    explain: >-
-      A chain runs at most one block: the first whose test is true. Both tests really are true
-      of 30, which is why this catches people, but Python never reaches the second one. So
-      B. Option A describes a chain of separate ifs, which would print both, and rewriting
-      elif as if is how you get that bug. Option C reverses the order of evaluation. Option D
-      imagines an ambiguity the rule exists to remove.
-  - q: >-
-      You want to divide total by n, but only when n is not zero. Which line is safe?
-    options:
-      - "if total / n > 5 and n != 0:"
-      - "if n != 0 or total / n > 5:"
-      - "if n != 0 and total / n > 5:"
-      - "if not n == 0 or total / n > 5:"
-    answer: 2
-    explain: >-
-      and stops as soon as it meets something false, so with n at zero Python never evaluates
-      the division in C and the line is safe. Order is doing the work, which is the whole
-      point. Option A tests the same two things in the wrong order and raises
-      ZeroDivisionError before it ever checks n. Options B and D use or, which stops early
-      only on something true, so a zero n makes the left side false and Python goes on to
-      divide anyway.
-  - q: >-
-      A program reads a reply with input() and does "if reply:" to check that the user typed
-      something. The user types the single character 0. What happens?
-    options:
-      - The block runs, because the string "0" is not empty and only empty strings are false
-      - The block is skipped, because 0 is one of the values Python treats as false
-      - An error, because a string cannot be tested for truth without a comparison
-      - The block runs, but only because input() strips the character before returning
+      - Only 2 pounds, or nothing at all if the book came back on time
+      - 2, 5 or 10 pounds, since each test catches the band of days above the last one
+      - 5 and 10 pounds only, because the wider tests below override the first one
+      - Nothing ever, since the three tests overlap and cancel each other out
     answer: 0
     explain: >-
-      input() hands back the one-character string "0", and a string is false only when it is
-      empty. "0" has a character in it, so it is true and the block runs, which is A. The
-      number 0 is false; the text "0" is not, and that gap is where this bug lives. Option B
-      confuses the two. Option C describes a language that will not let you do this, and
-      Python will. Option D invents a behaviour input() does not have.
+      Any overdue book is at least one day late, so the first test is true and the chain stops
+      there. The 5 and 10 pound branches cannot be reached by any number of days at all, which
+      makes A the answer. The fix is to test the narrowest band first, 30 then 7 then 0.
+      Option B is what the author of this chain intended and not what they wrote. Option C
+      inverts how a chain is read. Option D expects an error where the rule is well defined.
   - q: >-
-      Someone writes "if age = 18:" and runs the file. What do they see?
+      A list called items holds one value, and i is 3. Which line checks the item safely
+      instead of raising IndexError?
     options:
-      - The block runs, since a single equals sign both assigns and compares
-      - Nothing at all, since the assignment succeeds and the test quietly passes
-      - A NameError, raised at the moment Python reaches that line in the program
-      - A SyntaxError, before a single line of the program has run
-    answer: 3
-    explain: >-
-      An assignment is not an expression Python will accept inside an if, so the file fails
-      to parse and nothing runs at all. That makes it D, and it is lesson 1's first kind of
-      failure: no output appears beforehand. Python is unusually helpful here and suggests
-      "Maybe you meant '==' or ':=' instead of '='?". Options A and B assume Python does
-      something with the line; it never gets that far. Option C names the wrong error and the
-      wrong moment.
-  - q: >-
-      A grading chain tests "score >= 70" first, then "score >= 80", then "score >= 90". A
-      student scores 95. What grade comes out, and why?
-    options:
-      - A, because Python looks through the whole chain and picks the best match it finds
-      - An error, because the tests overlap and Python cannot resolve which one applies
-      - C, because 95 passes the first test and the chain stops there without looking on
-      - F, because a score matching several tests falls through to the else at the bottom
+      - "if items[i] > 0 and i < len(items):"
+      - "if i < len(items) or items[i] > 0:"
+      - "if i < len(items) and items[i] > 0:"
+      - "if not i > len(items) or items[i] > 0:"
     answer: 2
     explain: >-
-      The chain stops at the first true test, and 95 is comfortably over 70, so it never sees
-      the other two: the answer is C. This is why ordering a chain is part of the logic
-      rather than a matter of taste, and the fix is to test the narrowest condition first.
-      Option A describes a search for the best match, which is not what a chain does. Option
-      B expects an error where the rule is well defined. Option D would need every test to
-      fail.
+      and abandons the line as soon as it meets something false, so with i past the end the
+      test on the left fails and Python never reaches into the list: C is safe. Option A tests
+      exactly the same two things in the other order and raises before it ever checks the
+      length. Options B and D use or, which only stops early on something true, so a
+      failing left side sends Python straight into the lookup.
+  - q: >-
+      Which of these four values does Python treat as false?
+    options:
+      - The string "False", since it spells the word out
+      - The string " ", a single space, since it looks empty on screen
+      - The string "0.0", since the number it spells is zero
+      - The float 0.0, since zero is zero whichever type carries it
+    answer: 3
+    explain: >-
+      Only the float is false. The rule is that empty things and zero are false, and the
+      first three are all strings with characters in them, so all three are true: D. A space
+      is a character even though you cannot see it, which is the one that catches people
+      writing a "did they type anything" check. The way to test for a number being zero is to
+      compare it, not to lean on truthiness.
+  - q: >-
+      A program prints two lines of setup and then stops with an error. Could a stray single
+      equals sign inside an if be the cause?
+    options:
+      - "Yes, and it is the likeliest one, since = inside an if is the commonest slip there is"
+      - "No, because that fault stops the file parsing, so nothing would have printed first"
+      - "Yes, but only if the if came after the two prints rather than before them"
+      - "No, because Python silently repairs a single equals sign into a double one"
+    answer: 1
+    explain: >-
+      An assignment inside an if is a parse failure, and parsing covers the whole file before
+      any of it runs, so a program with that fault prints nothing at all. Two lines of output
+      prove the program started, which rules the cause out entirely: B. That is lesson 1's
+      idea that output before an error is evidence about when the fault was found. Options A
+      and C accept the diagnosis without weighing the evidence in front of them. Option D
+      invents a repair Python never makes.
+  - q: >-
+      A program must accept whole numbers only and convert them with int(). Which check makes
+      that conversion safe?
+    options:
+      - Testing the string with .isdigit(), which is what digit means
+      - Testing the string with .isdecimal(), whose answer matches what int() takes
+      - Testing whether the string is longer than zero characters before converting
+      - No check is needed, because int() returns zero when it cannot read the text
+    answer: 1
+    explain: >-
+      .isdecimal() accepts exactly the characters int() accepts, so it is the honest guard: B.
+      .isdigit() is close and not close enough, because it says yes to a few characters int()
+      refuses, superscripts among them, and a guard that lets the error through is worse than
+      no guard because you stop looking. Option C checks length, which says nothing about
+      content. Option D invents a fallback; int() raises.
 ---
 
 A program that runs the same lines every time can only do one job. The moment it can look at what it has and choose, it can do many. That's what this lesson adds, and it rests on a type you met in lesson 2 and haven't used yet: `bool`, which has exactly two values.
@@ -107,7 +106,7 @@ False
 <class 'bool'>
 ```
 
-Here are the six comparisons. The one that causes trouble is the first.
+Six comparison operators, and the one that causes trouble is the first.
 
 | Operator | Means |
 | --- | --- |
@@ -127,7 +126,7 @@ if age = 18:
 ```
   File "/home/you/vote.py", line 2
     if age = 18:
-       ^^^^^
+       ^^^^^^^^
 SyntaxError: invalid syntax. Maybe you meant '==' or ':=' instead of '='?
 ```
 
@@ -163,7 +162,7 @@ Python works down the chain, testing each condition in turn, and **the first one
 <text x="120" y="166" font-size="15" fill="var(--text-2, #4a5260)">false</text>
 <line x1="210" y1="36" x2="286" y2="36" stroke="var(--oxblood, #8b1e2d)" stroke-width="2"/>
 <line x1="210" y1="120" x2="286" y2="120" stroke="var(--oxblood, #8b1e2d)" stroke-width="2"/>
-<line x1="210" y1="204" x2="286" y2="204" stroke="var(--oxblood, #8b1e2d)" stroke-width="2"/>
+<line x1="210" y1="204" x2="286" y2="204" stroke="var(--text-2, #4a5260)" stroke-width="2"/>
 <text x="228" y="28" font-size="15" fill="var(--oxblood, #8b1e2d)">true</text>
 <text x="228" y="112" font-size="15" fill="var(--oxblood, #8b1e2d)">true</text>
 <text x="294" y="42" font-size="16" fill="var(--text, #111418)">print("A")</text>
@@ -171,12 +170,29 @@ Python works down the chain, testing each condition in turn, and **the first one
 <text x="294" y="210" font-size="16" fill="var(--text, #111418)">print("F")</text>
 </svg>
 
-Only one of the three arrows on the right is ever taken. Follow a score of 85: the first test is false, so control drops down the left; the second is true, so it goes right and stops. `print("F")` is never reached, and neither is any test below the one that matched.
+Only one of the three exits on the right is ever taken. Follow a score of 85: the first test is false, so control drops down the left; the second is true, so it goes right and stops. `print("F")` is never reached, and neither is any test below the one that matched.
 
 :::predict Before you read on
 Someone writes the same grader but tests in this order: `score >= 70` first, then `score >= 80`, then `score >= 90`, with `else` at the bottom. A student scores 95. What grade do they get?
 
-`C`. 95 is over 70, so the very first test is true, its block runs, and the chain stops. Python never looks at the tests for 80 and 90.
+`C`. Here it is, run:
+
+```
+score = 95
+
+if score >= 70:
+    print("C")
+elif score >= 80:
+    print("B")
+elif score >= 90:
+    print("A")
+```
+
+```
+C
+```
+
+95 is over 70, so the very first test is true, its block runs, and the chain stops. Python never looks at the tests for 80 and 90, and an `A` is unreachable for any score at all.
 
 Nothing is broken here and no error appears. The chain did exactly what the rules say. **The order of a chain is part of its logic, not a matter of tidiness**, and when the tests overlap you put the narrowest one first.
 :::
@@ -185,7 +201,21 @@ Nothing is broken here and no error appears. The chain did exactly what the rule
 
 In most languages the indented lines under an `if` are a courtesy to the reader. In Python they're how the language knows which lines the `if` controls. Four spaces is the convention, and it's in [PEP 8](https://peps.python.org/pep-0008/) along with the naming rules from lesson 2.
 
-Get it wrong and you get an `IndentationError`, which is the friendly outcome. The unfriendly one is a program that runs and quietly does the wrong thing, because a line you meant to be inside the `if` ended up outside it and now runs every time.
+Get it wrong and you may get an `IndentationError`, which is the friendly outcome. The unfriendly one is a program that runs and quietly does the wrong thing. These two differ by four spaces:
+
+```
+temperature = 15
+
+if temperature > 30:
+    print("It's hot.")
+print("Remember your coat.")
+```
+
+```
+Remember your coat.
+```
+
+Indent that second `print` by four spaces and the same program, on the same input, prints nothing at all, because the line is now inside the `if` and the condition is false. No error either way. The whitespace **is** the logic.
 
 ## Combining conditions
 
@@ -206,7 +236,7 @@ if n != 0 and total / n > 5:
     print("big")
 ```
 
-If `n` is zero, the left side is false, Python stops, and the division on the right is never carried out. Swap the two around and the same line raises `ZeroDivisionError` on the first zero it meets. The order isn't stylistic. It's the guard.
+If `n` is zero, the left side is false, Python stops, and the division on the right is never carried out. Swap the two around and the same line raises `ZeroDivisionError`, which lesson 4 will meet properly, on the first zero it meets. The order here isn't a matter of style; it's what makes the line safe.
 
 :::checkpoint Quick check
 `or` short-circuits too. On what does it stop early, and what does that mean for `if n == 0 or total / n > 5:`?
@@ -231,14 +261,24 @@ if not name:
     print("You didn't type anything.")
 ```
 
-And it sets one trap that catches nearly everyone:
+And it sets one trap that catches nearly everyone.
+
+:::predict Before you read on
+A program does `reply = input("How many? ")` and then `if reply:` to check the user typed something. The user types a single `0` and presses Enter. Does the block run?
+
+Yes, it runs.
+
+`input()` hands back the one-character string `"0"`, and a string is false only when it's **empty**. `"0"` has a character in it, so it's true. The number `0` is false; the text `"0"` is not.
 
 ```
+>>> bool(0)
+False
 >>> bool("0")
 True
 ```
 
-The number `0` is false. The **text** `"0"` is a string with a character in it, so it's true. Since `input()` always hands back a string, a user who types `0` gives you something truthy. That's the two-types idea from lesson 2 arriving in a place you wouldn't look for it.
+That's the two-types idea from lesson 2 arriving somewhere you'd never look for it, and it's why a check meant to catch "they typed nothing" quietly accepts a zero.
+:::
 
 ## A program that has to check its input
 
@@ -253,6 +293,8 @@ Traceback (most recent call last):
 ValueError: invalid literal for int() with base 10: 'seven'
 ```
 
+At your own prompt that filename may read `<python-input-0>` rather than `<stdin>`, depending on which interactive shell your Python starts. It means the same thing: the line came from you, not from a file.
+
 `ValueError` is the fourth error in this course, and it means the type was right but the value wasn't: `int()` takes strings, and this one wasn't a number. So check before you convert:
 
 ```
@@ -265,7 +307,7 @@ else:
     print("Please type a whole number.")
 ```
 
-`.isdigit()` asks a string whether every character in it is a digit, and hands back a `bool`. Now the wrinkle, and it's a good one:
+`.isdigit()` asks a string whether every character in it is a digit, and hands back a `bool`. Now the part that catches people:
 
 ```
 >>> "7".isdigit()
@@ -276,7 +318,18 @@ False
 False
 ```
 
-A minus sign isn't a digit, and neither is a full stop. So `.isdigit()` is exactly right for counting tickets, where negatives are meaningless anyway, and exactly wrong for a temperature or a bank balance. It's a narrow tool, and knowing what it refuses is knowing when to reach for it.
+A minus sign isn't a digit, and neither is a full stop. So `.isdigit()` is right for counting tickets, where negatives are meaningless anyway, and wrong for a temperature or a bank balance.
+
+There's one more thing it does that you'd never guess, and it matters if you're using it as a guard:
+
+```
+>>> "²".isdigit()
+True
+>>> int("²")
+ValueError: invalid literal for int() with base 10: '²'
+```
+
+`.isdigit()` says yes to a handful of characters `int()` won't take, superscripts among them, so a guard built on it can still let a `ValueError` through. The strict version is **`.isdecimal()`**, whose answer is exactly what `int()` will accept, and it's the one to reach for when the conversion has to succeed. `"7".isdecimal()` is `True`; `"-3"`, `"4.5"` and `"²"` are all `False`.
 
 ## What people get wrong
 
@@ -284,7 +337,7 @@ A minus sign isn't a digit, and neither is a full stop. So `.isdigit()` is exact
 
 **Expecting every true branch to run.** In an `if` / `elif` chain, one runs at most. If you actually want two independent checks, write two separate `if` statements, and notice that you're choosing that.
 
-**Writing `if x == True:`.** It works, and it's noise. `if x:` says the same thing. Worse, `==` compares values, so a non-empty string is truthy but is not equal to `True`, and `if name == True:` is false for every name anyone ever types.
+**Writing `if x == True:`.** These two ask different questions. `if x == True:` asks whether `x` *equals* `True`; `if x:` asks whether `x` is *truthy*. They agree only when `x` is already a `bool`, which is why `if name == True:` is false for every name anyone ever types, even though `if name:` is true for all of them. Write `if x:`.
 
 **Thinking `else` is required.** It isn't. A chain with no `else` simply does nothing when nothing matches, which is often what you want.
 
@@ -295,9 +348,11 @@ A minus sign isn't a digit, and neither is a full stop. So `.isdigit()` is exact
 :::exercise Two programs
 Take 25 minutes over these. Run each one and read any traceback from the bottom line up.
 
-**One. Sorting a number.** Ask for a number, then print whether it's positive, negative or zero, and separately whether it's even or odd. `n % 2` gives the remainder after dividing by 2, so it's `0` for even numbers. Two separate decisions here, so think about which parts want a chain and which want their own `if`.
+**A note before you start.** Both of these need numbers that `.isdigit()` would refuse: a negative in the first, a decimal in the second. That's the section above proving its own point, and this course hasn't given you a guard that handles either yet. So assume for now that whoever runs your program types something sensible, and use `int()` or `float()` directly. Handling bad input properly needs `try` and `except`, which are past where this course goes; the last lesson says where to find them.
 
-**Two. A chain that has to be ordered.** A delivery costs 3 pounds under 1 kg, 5 pounds under 5 kg, 9 pounds under 20 kg, and 15 pounds at 20 kg or over. Write the chain, then deliberately put the tests in the wrong order, run it on 0.5 kg, and see which price comes out. Then fix it. You'll remember the ordering rule much better for having watched it fail once.
+**One. Sorting a number.** Ask for a number, then print whether it's positive, negative or zero, and separately whether it's even or odd. `n % 2` gives the remainder after dividing by 2, so it's `0` for even numbers, and it stays `0` for negative even numbers too. Two separate decisions here, so think about which parts want a chain and which want their own `if`.
+
+**Two. A chain that has to be ordered.** A delivery costs 3 pounds under 1 kg, 5 pounds under 5 kg, 9 pounds under 20 kg, and 15 pounds at 20 kg or over. Write the chain and check it gives 3 for 0.5 kg. Then reverse the tests, largest threshold first, run it on 0.5 kg again, and see what comes out. Then put it back. You'll remember the ordering rule much better for having watched it fail once.
 :::
 
 If you can't see why a chain picked the branch it did, put the program into [Python Tutor](https://pythontutor.com/) and step through it. It shows you each test as it's evaluated.
@@ -306,7 +361,7 @@ If you can't see why a chain picked the branch it did, put the program into [Pyt
 
 Lesson 2 gave your programs a memory. This lesson lets them choose, and it added `ValueError` to the errors you can read, along with the guard that stops one happening.
 
-Next is repetition, and it needs everything here. A `while` loop is an `if` that keeps asking, so its condition is a `bool` exactly like these, and truthiness matters there too. The lesson after that will lean on short-circuiting again.
+Next is repetition, and it needs everything here. A `while` loop is an `if` that keeps asking, so its condition is a `bool` exactly like these, truthiness matters there too, and the guard you just learned is what stops a loop dividing by a count that's still zero.
 
 ## Go deeper
 
