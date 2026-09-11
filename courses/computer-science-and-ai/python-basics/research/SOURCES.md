@@ -76,7 +76,10 @@ range, so the stubs' use of them is fine.
   school. The third edition is written for Jupyter notebooks and every chapter runs in Colab,
   which matters for our "how do I run this" lesson.
 - **Sweigart, *Automate the Boring Stuff with Python* (3rd ed.; full text free at
-  automatetheboringstuff.com under CC BY-NC-SA 3.0).** **TOC read.** Part 1: 1 Python Basics; 2
+  automatetheboringstuff.com under CC BY-NC-SA 3.0).** **TOC read, plus chapter 2 opened on
+  2026-09-10** while reviewing lesson 3: it uses the word "flowchart" 26 times across 18 images, so
+  the claim that it spends longer than most books on flow-control diagrams is checked rather than
+  assumed. Chapters 3 and 5 are still TOC only. Part 1: 1 Python Basics; 2
   if-else and Flow Control; 3 Loops; 4 Functions; **5 Debugging**; 6 Lists; 7 Dictionaries and
   Structuring Data; 8 Strings and Text Editing; 9 Regular Expressions; 10 Reading and Writing
   Files; 11 Organizing Files; 12 Command Line Programs. Part 2 is 13 to 24, the practical

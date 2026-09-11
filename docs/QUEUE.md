@@ -12,8 +12,8 @@ not be re-opened is in `docs/DECISIONS.md`. Specs for work not started are in
 Rewrite these five lines each session. Nothing else goes in this block.
 
 - **Current course:** Python Basics (rebuild)
-- **Current lesson:** 1 and 2 done bar the voice pass; 3 and 4 drafted, Stage 4 in flight.
-- **Current stage:** Stage 3 and 4 interleaved. Four of six lessons drafted.
+- **Current lesson:** 1 to 4 done bar the voice pass. Lessons 5 and 6 are next.
+- **Current stage:** Stage 3 and 4 interleaved. Four of six lessons through Stage 4.
 - **Blocked on:** fal balance exhausted. Only John can top up, at fal.ai/dashboard/billing.
 - **Next action:** draft Python Basics lessons 5 and 6, then Stage 4 on each, then the two
   assessments. Two lessons a session, with Stage 4 in the same session while the code is fresh:
@@ -35,8 +35,10 @@ validate` enforces the second half against `curriculum/audio-debt.yaml`.
    their file names, so the live URLs hold. Remaining: draft all six (two a session, procedural),
    Stage 4 on each, the two assessments, `estimated_hours` to about 6 as they land (see
    `research/reviews/course-wide.md`, CW-01), six episodes.
-   **Lessons 1 to 4 are drafted** (2,830, 2,280, 2,020 and 1,520 words, from 479, 462, 479 and
-   484), 1 and 2 through Stage 4.
+   **Lessons 1 to 4 are drafted and through Stage 4** (2,830, 2,280, 2,410 and 2,210 words, from
+   479, 462, 479 and 484). Stage 4 has found something real in every one of the four, and the
+   executed fact-check is why: wrong caret counts, a fabricated traceback line number, and a guard
+   (`.isdigit()`) that does not actually prevent the error it was taught to prevent.
    Reviews are Tier A, one reviewer, and the fact-check is executed: every code block gets run and
    byte-compared. That is worth keeping, because it caught seven claims across the two lessons that
    were simply false, including one a reader would have disproved in the first minute of lesson 2.
