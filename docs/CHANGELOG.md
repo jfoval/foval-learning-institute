@@ -11,6 +11,30 @@ Older entries refer to `docs/BACKLOG.md`, which was split on 2026-09-09 into `do
 unstarted work) and this file. Its section numbers survive only in those entries and in a few
 split-seam comments inside Bible Basics lessons, which point at `docs/DECISIONS.md` §5.
 
+## 2026-09-10 — Python Basics has its assessments, and is no longer a stub course
+
+**The rebuild finished its content.** All six lessons of Introduction to Programming with Python
+are drafted from the Stage 1 research and through Stage 4, replacing the 463-word stubs at the
+same URLs. The six now measure 420 minutes against the stubs' 60. Each Stage 4 fact-check was
+executed rather than fetched: every code block written to a file, run on CPython 3.14.7 and
+byte-compared, and it found something real in every lesson. It also found a build defect that had
+shipped, the Markdown pass re-parsing the HTML the `:::` blocks emit, which is fixed with a check
+behind it.
+
+**The two assessments landed.** `assessments/final-test.md` is fifteen items to the outline's
+blueprint, two to three per lesson, ten of them application, interleaved rather than in lesson
+order, with every code claim and every distractor's claim executed before the item was written.
+Both quiz heuristics report clean. `assessments/project-readings-summary.md` is Soloway's
+rainfall problem reworded: sentinel, rejected negatives, count, total, average to one decimal
+place, highest and lowest, and the empty case, built in five steps, with a five-criterion rubric
+that names composition as the check most first attempts miss. A 35-line reference solution was
+run on four transcripts and the two transcripts printed in the brief are its output. Lesson 4's
+reference to "the course project" is no longer dangling. `estimated_hours` is 9.7, from 580
+measured minutes. Details in the course's `research/reviews/course-wide.md`, CW-06.
+
+**Still owed on the course:** the voice pass on all six lessons, which has measured targets in
+CW-05, and six podcast episodes, which wait on fal like the other 47.
+
 ## 2026-09-09 (third session) — the docs were costing every session more than they were worth
 
 A documentation and tooling refactor. No lesson content, `course.yaml`, `TAXONOMY.md` or

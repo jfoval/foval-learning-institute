@@ -12,17 +12,15 @@ not be re-opened is in `docs/DECISIONS.md`. Specs for work not started are in
 Rewrite these five lines each session. Nothing else goes in this block.
 
 - **Current course:** Python Basics (rebuild)
-- **Current lesson:** all six drafted and through Stage 4. **No stubs left in this course.**
-- **Current stage:** Stage 4 done on six of six. Owed: the two assessments, the voice pass, six
-  episodes.
+- **Current lesson:** all six through Stage 4, and both assessments are written and live.
+- **Current stage:** Owed: the voice pass across all six lessons, then six episodes.
 - **Blocked on:** fal balance exhausted. Only John can top up, at fal.ai/dashboard/billing.
-- **Next action:** write Python Basics' two assessments, `assessments/final-test.md` and
-  `assessments/project-readings-summary.md`, both fully specified in `research/OUTLINE.md`
-  including the fifteen-item blueprint and the five-criterion rubric. **Lesson 4 already points at
-  "the course project" in its exercise, so that reference is dangling until this lands** (defect
-  12). Then the voice pass across all six lessons in one go, which has numbers to work against in
-  `research/reviews/course-wide.md` CW-05. If fal has been topped up, that outranks both: render
-  the 26 ready episodes, Personal Finance 3 to 10 first.
+- **Next action:** the voice pass across all six Python Basics lessons in one go, with
+  `/voice-pass`, one lesson per invocation. It has numbers to work against in
+  `research/reviews/course-wide.md` CW-05: contractions 38, 28, 49, 43, 10, 8 by lesson, so
+  lessons 5 and 6 need the most and lessons 3 and 4 are the target register. CW-04 (footnote
+  markers missing from the bodies of lessons 3 to 6) is the same pass. If fal has been topped up,
+  that outranks it: render the 26 ready episodes, Personal Finance 3 to 10 first.
 
 ## The queue, top to bottom
 
@@ -40,7 +38,12 @@ validate` enforces the second half against `curriculum/audio-debt.yaml`.
    479, 462, 479, 484, 479 and 484. Lesson 6's figure includes the markup of its one diagram; its
    prose is about 3,750. `estimated_hours` is now **7.2**, set from the measured 430
    minutes, which closes CW-01.
-   **Remaining: the two assessments, the voice pass on all six, and six episodes.**
+   **The two assessments landed 2026-09-10**: a fifteen-item test to the outline's blueprint,
+   every code claim executed on 3.14.7, both quiz heuristics clean; and the readings summariser
+   project, Soloway's rainfall problem reworded, with a 35-line reference solution run on four
+   transcripts. `estimated_hours` is **9.7** from 580 measured minutes. Record in
+   `research/reviews/course-wide.md` CW-06.
+   **Remaining: the voice pass on all six, and six episodes.**
    Stage 4 found something real in every one of the six, and the executed fact-check is why: wrong
    caret counts, a fabricated traceback line number, a guard (`.isdigit()`) that does not prevent
    the error it was taught to prevent, two wrong Python tutorial section numbers, a quiz explain
@@ -70,7 +73,7 @@ Why items 2 and 3 come before Core order is settled: `docs/DECISIONS.md` §9.
 | Personal Finance | T2 | 10 | 5,932 | 10 | 2 | 2 of 10 | 8 episodes |
 | Algebra Essentials | T5 | 6 | 2,400 | 6 | 2 | 0 of 6 | 6 episodes |
 | Writing Clearly | T1 | 9 | 3,676 | 0 | 2 | 0 of 9 | Stage 4, voice pass, 9 episodes |
-| Python Basics | T6 | 6 | 2,891 | 6 | 0 | 0 of 6 | 2 assessments, voice pass, 6 episodes |
+| Python Basics | T6 | 6 | 2,891 | 6 | 2 | 0 of 6 | voice pass, 6 episodes |
 
 Sixty-one lessons live, twelve with audio. **Python Basics is no longer a stub course**, which leaves Writing Clearly as the last of the three placeholders from DECISIONS §8 still owing its Stage 4. Writing Clearly's low average was a deliberate call,
 that a practical writing course carries its depth in exercises rather than exposition, and **John
@@ -88,8 +91,8 @@ has not read one yet.** If he says they are thin, the fix is more worked example
   placeholder and `renderBody` substitutes after the outer parse. Per rule 9 there is a check
   rather than a paragraph: `checkRenderedHtml` fails the build on a `<p>` inside a `<pre>`, and it
   was verified to fire on the old output. One corrupted block in the repo, now zero.
-- **Lesson 4 of Python Basics points at "the course project" and the project does not exist yet.**
-  Defect 12, and it closes when the two assessments land, which is the next action.
+- ~~Lesson 4 of Python Basics points at "the course project" and the project does not exist
+  yet.~~ **Closed 2026-09-10.** `assessments/project-readings-summary.md` is live.
 - **`npm run quiz` reports 19 gameable quizzes, and the closed defect below says there are none.**
   Both are true and they measure different things, which is why this needs writing down rather than
   arguing about. The closed defect was found by scoring four cheat strategies against the 70% pass
@@ -97,8 +100,7 @@ has not read one yet.** If he says they are thin, the fix is more worked example
   length spread over 25 characters, adjacent repeats of the same key position, and answer positions
   never used. 19 quizzes trip one of those without being winnable by a reader who read nothing.
   **Not urgent and not nothing.** The worst is Personal Finance lesson 6, whose widest item has a
-  174-character spread. **No Python Basics quiz is on the list**, including the two written this
-  session. Decide on one of two things next time it comes up: tighten the spread across the 19, or
+  174-character spread. **No Python Basics quiz is on the list**, including the final test. Decide on one of two things next time it comes up: tighten the spread across the 19, or
   raise the checker's threshold and say why. Do not do both.
 
 - ~~Quiz explanations naming the wrong option letter.~~ **Closed 2026-09-10.** All seven named

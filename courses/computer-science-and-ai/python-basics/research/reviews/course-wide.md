@@ -56,3 +56,42 @@ paragraphs ending on a compressed one-line moral: seven in lesson 5, nine in les
 
 **The voice pass is owed on all six lessons of this course** and these are the numbers to bring it
 down to. Lessons 3 and 4 are the target, not lessons 5 and 6.
+
+## CW-06, 2026-09-10. The two assessments landed, and what was checked
+
+`assessments/final-test.md` and `assessments/project-readings-summary.md`, both to the
+specification in `research/OUTLINE.md`. This closes lesson 4's dangling reference to "the course
+project" (Stage 4 defect 12 on that lesson).
+
+**The test.** Fifteen items, four options each, pass mark 70%, which is eleven of fifteen. The
+blueprint's per-lesson counts are met exactly (2, 3, 2, 3, 3, 2) and ten of the fifteen are
+application items against the eight the blueprint requires. The items are interleaved, not in
+lesson order: 4, 5, 2, 6, 3, 1, 2, 4, 5, 3, 4, 6, 1, 5, 2. Every code claim in every item and
+every distractor was executed on CPython 3.14.7 before the item was written, the same discipline
+the six Stage 4 reviews used, including the three wrong fixes in the tax-chain item (plain `if`s
+send anyone at or below 150000 to the `else`; closing the first band still gives 200000 the 0.4
+rate). Both quiz heuristics report clean: no cheat strategy reaches the pass mark, keys are
+BCADBADABABCDAC, no option-length spread over 25, and no explanation contradicts its key. Code in
+stems and options is in double quotes rather than backticks, because the site renders quiz text
+as escaped plain text and a backtick would print as a backtick; the lesson quizzes do the same.
+
+**The project.** Soloway's rainfall problem reworded, as SOURCES.md proposed and OUTLINE.md
+specified: sentinel, rejection of negatives with a message, count, total, average to one decimal
+place, highest and lowest, and the empty case. Five build steps, one checkpoint on the empty list,
+a "read your own program" half that maps each part back to its lesson, and the five-criterion
+rubric with composition named as the one most first attempts miss. A reference solution of 35
+lines was written and run on four transcripts, including `done` first, and the two transcripts
+printed in the brief are its real output. `max()` and `min()` are allowed explicitly, since the
+course never taught them and a learner should not have to guess whether they are permitted; the
+loop alternative is described as lesson 4's accumulator with a comparison.
+
+**Two decisions worth recording.** The brief tells the learner to assume input is a number or
+`done`, because `try`/`except` is out of scope and lesson 3's `.isdecimal()` guard refuses the
+minus sign and decimal point that readings need; the project says so rather than leaving the
+learner to discover it. And no source on the unread line is cited: the rainfall paragraph names
+Soloway and the under-twenty-per-cent finding in the same terms lesson 6 already uses, and does
+not name Fisler or Seppälä.
+
+`estimated_hours` moves from 7.2 to **9.7**: the six lessons measure 420 minutes and the two
+assessments carry 40 and 120, which is 580. CW-01 said this number would move when the assessments
+landed, and it has.
