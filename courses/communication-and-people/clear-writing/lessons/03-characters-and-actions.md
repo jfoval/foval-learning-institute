@@ -198,14 +198,23 @@ Do the diagnosis in writing. The temptation is to fix these in your head, and if
 1. Make two columns, character and action, and diagnose all ten of these. Ordinary words only.
 
    (a) There was considerable disagreement among the trustees regarding the proposal.
+
    (b) Notification of the change was not received by residents until March.
+
    (c) An investigation into the cause of the outage is currently ongoing.
+
    (d) The provision of support to new members is the responsibility of the secretary.
+
    (e) Improvement in the results was observed after the intervention.
+
    (f) Inflation reached its highest level since 1982.
+
    (g) A decision on the appeal will be made in due course.
+
    (h) Cancellation of the service occurred due to a shortage of drivers.
+
    (i) The risk assessment was completed prior to commencement of the works.
+
    (j) Our recommendation is that consideration be given to a review of the policy.
 
 2. Two of the ten should be left broadly as they are. Decide which two and write one line each saying why.

@@ -120,7 +120,9 @@ But before you list premises, check that you have an argument at all. Several ki
 
 :::predict Here are three passages that each contain the word "because". Sort them: which are arguments and which are explanations?
 (a) "The train was late because a tree came down on the line near Crewe."
+
 (b) "You should go to bed early because the exam is at nine."
+
 (c) "Our sales fell in March because the new website is harder to use."
 
 Most people sort (a) as an explanation and (b) as an argument, and get stuck on (c). Here is the answer. (a) is an explanation: nobody is trying to convince you the train was late; you were on it. (b) is an argument: it's trying to establish that you should go to bed early, and you might well disagree. (c) can be either, and that's the lesson. If everyone agrees sales fell and the speaker is telling you why, it's an explanation. If the speaker is trying to convince you that the website is at fault, then "sales fell" is a premise and the website claim is the conclusion, and the sentence is an argument with the conclusion tucked into the "because" clause. Same words; the job depends on what's taken as given.
@@ -140,8 +142,11 @@ Three more look-alikes, quicker:
 
 :::checkpoint Four passages. Which one is not an argument, and what is it instead?
 (1) "The lights won't come on and the starter's silent, so the battery's dead."
+
 (2) "Take the 7:40 tomorrow. Every 8:10 this month has been cancelled."
+
 (3) "The pipe burst because the water in it froze overnight."
+
 (4) "Anyone who's lived here ten years knows the river floods. Don't build on the flat."
 
 (3) is not an argument. It's an explanation: the pipe bursting is taken as known and the freezing is offered as the cause. (1) is an argument with "so" marking the conclusion. (2) is an argument with no indicator words and the conclusion first; the cancellations are the reason offered for taking the earlier train. (4) is an argument whose conclusion comes last and whose premise is dressed up as what everyone knows. Its missing step is something like "[land the river floods isn't safe to build on]", and once that's written you can ask whether it's true of this flat.

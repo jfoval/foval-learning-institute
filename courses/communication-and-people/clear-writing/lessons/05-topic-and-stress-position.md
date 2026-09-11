@@ -165,6 +165,7 @@ So the honest rule about the passive is not "avoid it". It is this: **the passiv
 
 :::predict A paragraph is about a patient's recovery. Which of these two sentences belongs in it, and why?
 (a) "The consultant discharged her on the fourth day."
+
 (b) "She was discharged on the fourth day."
 
 **(b)**, the passive one. The paragraph is about her, so she belongs in the topic position, and the passive is what puts her there. Version (a) shifts the story to the consultant, and a reader will take the next sentence to be about him.

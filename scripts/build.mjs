@@ -644,6 +644,30 @@ function lintLessons() {
             fail(`${file}: a ::: block opened at line ${openedAt} is never closed, so it swallows the rest of the lesson.`);
         }
 
+        // A ::: block's body parses with breaks:false, so consecutive lines join into one
+        // paragraph. That is right for prose and wrong for a list, and Markdown only rescues
+        // the markers it knows: "- x" and "1. x" become real lists, while "(a) x" does not.
+        // So a hand-lettered list inside a block renders as a wall of run-on text. Writing
+        // Clearly lesson 3 shipped a ten-item diagnosis exercise that way, unusable on a phone,
+        // and three other blocks in two courses did the same. Blank lines between the items fix
+        // it; courses/CLAUDE.md says so in prose, and this is the check behind it.
+        {
+          const lines = src.split("\n");
+          let depth = 0, run = 0, startLine = 0;
+          const marker = ln => /^\s*(\([a-z0-9]{1,3}\)|[a-z0-9]{1,3}\))\s/i.test(ln);
+          const flush = () => {
+            if (run >= 2) fail(`${file}:${startLine}: ${run} hand-lettered list items in a row inside a ::: block, with no blank line between them. The body parses with breaks:false, so they render as one run-on paragraph. Put a blank line between each item.`);
+            run = 0;
+          };
+          lines.forEach((line, i) => {
+            if (/^:::\w/.test(line)) { depth++; flush(); return; }
+            if (/^:::[ \t]*$/.test(line)) { depth = Math.max(0, depth - 1); flush(); return; }
+            if (depth === 0) { flush(); return; }
+            if (marker(line)) { if (!run) startLine = i + 1; run++; } else flush();
+          });
+          flush();
+        }
+
         // 4.2: a prompt that tells the reader to answer before reading on, followed by the
         // answer in plain prose, is recognition wearing retrieval's clothes. Only :::predict
         // and :::checkpoint bodies render behind a button. Three lessons in a row shipped this
