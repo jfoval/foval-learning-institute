@@ -13,10 +13,10 @@ through.
 Rewrite these five lines each session. Nothing else goes in this block.
 
 - **Current course:** Writing Clearly (Stage 4 cycle on a published course).
-- **Current lesson:** 1 and 2 are through Stage 4, both largely rewritten. 3 is next.
+- **Current lesson:** 1, 2 and 3 are through Stage 4, all three largely rewritten. 4 is next.
 - **Current stage:** Stage 4, then the voice pass, lesson by lesson through all nine.
 - **Blocked on:** nothing for content. Episodes across six courses wait on the fal balance.
-- **Next action:** `/review-lesson courses/communication-and-people/clear-writing 3`. If fal has
+- **Next action:** `/review-lesson courses/communication-and-people/clear-writing 4`. If fal has
   been topped up, that outranks it: render the 26 ready episodes, Personal Finance 3 to 10 first,
   then write Python Basics' six scripts.
 
@@ -26,17 +26,18 @@ A course is done when every lesson is at standard **and** every lesson has an ep
 validate` enforces the second half against `curriculum/audio-debt.yaml`, which only shrinks.
 
 1. **Writing Clearly: Stage 4 on all nine lessons, then the voice pass.** Drafted, assessments
-   exist. **Lessons 1 and 2 done 2026-09-10**, both mostly rewritten. Seven to go.
+   exist. **Lessons 1, 2 and 3 done 2026-09-10**, all mostly rewritten. Six to go.
    `docs/DECISIONS.md` §9 puts this before the Core. Its low word count was a deliberate call: a
    practical writing course carries its depth in exercises. If John says they are thin, the fix is
    more worked examples, not more prose.
-   **Read `research/reviews/course-wide.md` before reviewing lesson 3.** Two rounds have already
-   shown what this drafter repeats: no Go deeper section, understated `minutes:` with no timing
-   cue on the exercise, no contractions, "Here is" openers, and a quotation trimmed of the
-   qualifier that limits it. All five recurred verbatim between lessons 1 and 2. It also records
-   CW-01, a figure four lessons carried that no source contained.
-   **And measure every quiz after rewriting it, not just before.** Rewriting lesson 1's quiz
-   introduced the longest-option tell that was not in the draft.
+   **Read `research/reviews/course-wide.md` before reviewing lesson 4.** Three rounds have shown
+   what this drafter repeats: no Go deeper section, understated `minutes:` with no timing cue on
+   the exercise, no contractions, "Here is" openers, and a quotation trimmed of the qualifier that
+   limits it. Four or five of those recurred in each of lessons 1 to 3. It also records CW-01, a
+   figure four lessons carried that no source contained, and CW-04, the run-on list.
+   **And measure every quiz both ways after rewriting it.** Rewriting lesson 1's quiz made the key
+   the longest option in four of six items; lesson 3's draft had it the shortest in four of six,
+   scoring 67 percent for a reader who always picks the short one.
 2. **The 47 owed episodes.** Blocked on fal. 26 are ready to render: Personal Finance 3 to 10,
    Logic and Argument 4 to 10, Bible Basics 2 to 12, about $11 in total. Personal Finance 3's
    script is written and fact-checked at `courses/money/personal-finance/podcast/03-debt.script.md`.
@@ -77,7 +78,7 @@ These have no session that owns them, which is how they were being skipped.
 | Bible Basics | T8 | 12 | 13,163 | 12 | 2 | 1 of 12 | 11 episodes |
 | Personal Finance | T2 | 10 | 5,932 | 10 | 2 | 2 of 10 | 8 episodes |
 | Algebra Essentials | T5 | 6 | 3,689 | 6 | 2 | 0 of 6 | voice pass, 6 episodes |
-| Writing Clearly | T1 | 9 | 3,795 | 2 | 2 | 0 of 9 | Stage 4 on 7, voice pass, 9 episodes |
+| Writing Clearly | T1 | 9 | 3,853 | 3 | 2 | 0 of 9 | Stage 4 on 6, voice pass, 9 episodes |
 | Python Basics | T6 | 6 | 3,095 | 6 | 2 | 0 of 6 | 6 episodes |
 
 Sixty-one lessons live, fourteen with audio. `/status` recomputes this table and rewrites it here

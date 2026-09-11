@@ -60,8 +60,41 @@ key the longest option in four of six items. That is the habit behind the fourte
 quizzes closed on 2026-09-10. It is invisible to the eye and obvious to a measurement, so measure
 every quiz after rewriting it, not just before.
 
-**Expect all six in lessons 3 to 9.** Check them first; they are cheap to find and cheap to fix,
+**Lesson 3 confirmed it.** Four of the five recurred there (no Go deeper, understated `minutes:`
+with no cue, zero contractions, three "Here is" openers, and the Gopen and Swan caveat omitted for
+a second time). The sixth appeared inverted: the key was the *shortest* option in four of six
+items, and "always pick the shortest" scored 67 percent. So the rule is not "watch for long keys",
+it is **measure the quiz both ways after every rewrite**.
+
+**Expect all six in lessons 4 to 9.** Check them first; they are cheap to find and cheap to fix,
 and finding them early leaves the review's attention for the lesson's own problems.
+
+Two practical notes learned in lesson 3:
+
+- **`npm run minutes` only sees a timing cue in words it knows**: about, around, roughly, take,
+  spend, allow, "give it / this / yourself", followed by a number and "minutes". "Set aside 50
+  minutes" matches nothing. The per-lesson total from cues is also capped at 30.
+- **A colon inside an unquoted quiz value breaks the frontmatter.** Two of the rewritten
+  explanations in lesson 3 did it and the build caught both. Write the sentence without the colon
+  rather than quoting the value.
+
+## CW-04 — Hand-lettered lists collapsed inside ::: blocks
+
+**Raised and closed 2026-09-10, during lesson 3's Stage 4.**
+
+Lesson 3's practice exercise listed ten sentences as `(a)` to `(j)`, one per line, with no blank
+lines between them, inside a `:::exercise`. Block bodies parse with `breaks: false`, and Markdown
+only rescues the list markers it recognises: a dash or a numeral becomes a real list, a
+hand-lettered `(a)` does not. So all ten rendered as **one run-on paragraph**, which is the whole
+of that lesson's practice and unusable on a phone.
+
+A scan found three more: Clear Writing lesson 5 and two blocks in Logic and Argument lesson 1,
+all on quoted sentences a reader is asked to compare.
+
+`courses/CLAUDE.md` already said blank lines were required inside a block body. Per root rule 9
+that prose now has a check behind it, which fails the build and names the line, with three tests:
+hand-lettered items with no blank line fail, the same items spaced pass, and a real Markdown list
+passes. Four sites in 61 lessons, all fixed.
 
 ## CW-03 — Two sources to add to SOURCES.md
 
