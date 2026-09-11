@@ -66,8 +66,18 @@ a second time). The sixth appeared inverted: the key was the *shortest* option i
 items, and "always pick the shortest" scored 67 percent. So the rule is not "watch for long keys",
 it is **measure the quiz both ways after every rewrite**.
 
-**Expect all six in lessons 4 to 9.** Check them first; they are cheap to find and cheap to fix,
+**Lesson 4 made it four for four.** Five of the six were present there, including the Gopen and
+Swan caveat for the third lesson running.
+
+**Expect all six in lessons 5 to 9.** Check them first; they are cheap to find and cheap to fix,
 and finding them early leaves the review's attention for the lesson's own problems.
+
+**The quiz rule is now firm: measure both ways AFTER the rewrite.** Three rounds have shown the
+rewrite introducing a tell the draft did not have. Lesson 1's rewritten keys were the longest
+option in four of six; lesson 3's draft had them shortest in four of six at 67 percent; lesson 4's
+*rewrite* pushed "always shortest" to 67 percent from a draft that was clean. The cause is always
+the same: a key written as the full reasoning, or written tighter than its distractors. Neither is
+visible to the eye.
 
 Two practical notes learned in lesson 3:
 
@@ -77,6 +87,24 @@ Two practical notes learned in lesson 3:
 - **A colon inside an unquoted quiz value breaks the frontmatter.** Two of the rewritten
   explanations in lesson 3 did it and the build caught both. Write the sentence without the colon
   rather than quoting the value.
+
+## CW-05 — Counts stated in the prose have to be counted
+
+**Raised 2026-09-10, during lesson 4's Stage 4.**
+
+Lesson 4 teaches a method whose whole point is "replace the judgement with a count", and it got
+four of its own counts wrong: a 22-word gap that is 18, a 38-word sentence that is 36, a 19-word
+sentence that is 18, and a 14-word gap that is 15. A fifth figure, "the verb four words in instead
+of twenty-six", matched no counting convention; the verb lands at word 28.
+
+None of this is visible to a reader who trusts the lesson, and all of it is visible to a reader who
+does what the lesson asks and counts. That is the worst place to be wrong.
+
+**The rule.** Every number a lesson states about a sentence printed beside it gets recomputed from
+that sentence during the review, not read back from the draft. Lesson 4's Sources section now
+records that this was done, which is the form other lessons should follow when they quote a count.
+
+This is CW-01's family: a specific figure that reads as sourced because it sits next to real ones.
 
 ## CW-04 — Hand-lettered lists collapsed inside ::: blocks
 
