@@ -66,18 +66,30 @@ a second time). The sixth appeared inverted: the key was the *shortest* option i
 items, and "always pick the shortest" scored 67 percent. So the rule is not "watch for long keys",
 it is **measure the quiz both ways after every rewrite**.
 
-**Lesson 4 made it four for four.** Five of the six were present there, including the Gopen and
-Swan caveat for the third lesson running.
+**Lesson 4 made it four for four, lesson 5 five for five.** The Gopen and Swan caveat was missing
+from lessons 2, 3, 4 **and** 5, in a course whose own research file says in bold that it "must
+survive into the lessons". If you review a lesson here and it quotes them, check for the caveat
+before you check anything else.
+
+**The trimming is not random.** Every instance cuts in the direction that helps the lesson's
+argument: Nielsen's "if they devote all of their time to reading", Gopen and Swan's "In general"
+and their whole caveat, Gopen and Swan's "and therefore as something of lesser importance" in
+lesson 4, and in lesson 5 Strunk's own "This rule does not, of course, mean that the writer should
+entirely discard the passive voice." That last one had the lesson calling Strunk's rule a
+prohibition he explicitly disclaims one paragraph earlier. **Open the source and read the
+paragraph around every quotation**, not just the sentence quoted.
 
 **Expect all six in lessons 5 to 9.** Check them first; they are cheap to find and cheap to fix,
 and finding them early leaves the review's attention for the lesson's own problems.
 
-**The quiz rule is now firm: measure both ways AFTER the rewrite.** Three rounds have shown the
-rewrite introducing a tell the draft did not have. Lesson 1's rewritten keys were the longest
-option in four of six; lesson 3's draft had them shortest in four of six at 67 percent; lesson 4's
-*rewrite* pushed "always shortest" to 67 percent from a draft that was clean. The cause is always
-the same: a key written as the full reasoning, or written tighter than its distractors. Neither is
-visible to the eye.
+**The quiz rule is now firm: measure both ways AFTER the rewrite, and again after fixing it.**
+Four rounds have shown the rewrite introducing a tell the draft did not have. Lesson 1's rewritten
+keys were the longest option in four of six; lesson 3's draft had them shortest in four of six at
+67 percent; lesson 4's *rewrite* pushed "always shortest" to 67 percent from a draft that was
+clean; lesson 5's rewrite put two keys on adjacent positions and hit 50 percent, and **the repair
+for that pushed the other strategy to 67 percent**, so it took three measurements to land. The
+cause is always the same: a key written as the full reasoning, or written tighter than its
+distractors. Neither is visible to the eye, and fixing one length pushes another.
 
 Two practical notes learned in lesson 3:
 
