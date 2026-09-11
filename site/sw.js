@@ -1,6 +1,6 @@
 /* Foval Learning Institute service worker: network-first, cache fallback, so lessons read offline. */
-const CACHE = "foval-e475b3be";
-const CORE = ["./", "./index.html", "./assets/styles.css?v=225e8f60", "./assets/app.js?v=dcc5cec0", "./data/courses.js?v=4941a613", "./manifest.webmanifest"];
+const CACHE = "foval-ba9c8814";
+const CORE = ["./", "./index.html", "./assets/styles.css?v=225e8f60", "./assets/app.js?v=dcc5cec0", "./data/courses.js?v=194313e5", "./manifest.webmanifest"];
 self.addEventListener("install", e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(CORE)).then(() => self.skipWaiting()));
 });

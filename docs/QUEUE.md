@@ -12,11 +12,11 @@ through.
 
 Rewrite these five lines each session. Nothing else goes in this block.
 
-- **Current course:** Writing Clearly (Stage 4 cycle on a published course).
-- **Current lesson:** 1 to 8 are through Stage 4, all eight largely rewritten. 9 is the last.
-- **Current stage:** Stage 4, then the voice pass, lesson by lesson through all nine.
+- **Current course:** Writing Clearly (Stage 4 complete; voice pass next).
+- **Current lesson:** all nine are through Stage 4, every one of them largely rewritten.
+- **Current stage:** the voice pass, lesson by lesson, then nine episodes.
 - **Blocked on:** nothing for content. Episodes across six courses wait on the fal balance.
-- **Next action:** `/review-lesson courses/communication-and-people/clear-writing 9`. If fal has
+- **Next action:** `/voice-pass courses/communication-and-people/clear-writing 1`. If fal has
   been topped up, that outranks it: render the 26 ready episodes, Personal Finance 3 to 10 first,
   then write Python Basics' six scripts.
 
@@ -25,21 +25,19 @@ Rewrite these five lines each session. Nothing else goes in this block.
 A course is done when every lesson is at standard **and** every lesson has an episode. `npm run
 validate` enforces the second half against `curriculum/audio-debt.yaml`, which only shrinks.
 
-1. **Writing Clearly: Stage 4 on all nine lessons, then the voice pass.** Drafted, assessments
-   exist. **Lessons 1 to 5 done 2026-09-10, 6 to 8 on 2026-09-11**, all mostly rewritten. One to go.
-   `docs/DECISIONS.md` §9 puts this before the Core. Its low word count was a deliberate call: a
-   practical writing course carries its depth in exercises. If John says they are thin, the fix is
-   more worked examples, not more prose.
-   **Read `research/reviews/course-wide.md` before reviewing lesson 9.** Eight rounds have shown
-   what this drafter repeats: no Go deeper section, understated `minutes:` with no timing cue on
-   the exercise, no contractions, "Here is" openers, and a quotation trimmed of the qualifier that
-   limits it. Four or five recurred in every one of lessons 1 to 8, and every quotation trimmed so far was trimmed in the direction that helped the lesson's argument. It also records
-   CW-01 (a figure four lessons carried that no source contained), CW-04 (the run-on list) and
-   CW-05 (**recount every number the lesson states about a sentence printed beside it**: lesson 4
-   got four of its own counts wrong in a lesson about counting).
-   **And measure every quiz both ways after rewriting it, then again after fixing it.** Four
-   rounds running, the rewrite introduced a tell the draft did not have, and on lesson 5 the fix
-   introduced a different one.
+1. **Writing Clearly: the voice pass on all nine lessons, then its nine episodes.**
+   **Stage 4 finished 2026-09-11.** All nine lessons went through it on 10 and 11 September and all
+   nine were largely rewritten. What it found, across the nine, is in
+   `research/reviews/course-wide.md` and is worth reading before the voice pass touches anything:
+   a figure four lessons carried that no source contained; six defects the drafter repeated in
+   every lesson; four lessons that trimmed a quotation in the direction that helped the argument,
+   one of them quoting a paraphrase from the course's own research file as if it were the source;
+   three lessons that got their own counts wrong; and two lessons that failed the neutrality pass
+   on selection rather than on any false sentence.
+   The lessons now average 4,700 words against 3,676 before, and every `minutes:` is measured.
+   **The voice pass should be light.** Six of the nine had a contraction pass during Stage 4 and
+   read in the Foval voice already; check the think-blocks and the openings rather than rewriting.
+
 2. **The 47 owed episodes.** Blocked on fal. 26 are ready to render: Personal Finance 3 to 10,
    Logic and Argument 4 to 10, Bible Basics 2 to 12, about $11 in total. Personal Finance 3's
    script is written and fact-checked at `courses/money/personal-finance/podcast/03-debt.script.md`.
@@ -80,7 +78,7 @@ These have no session that owns them, which is how they were being skipped.
 | Bible Basics | T8 | 12 | 13,163 | 12 | 2 | 1 of 12 | 11 episodes |
 | Personal Finance | T2 | 10 | 5,932 | 10 | 2 | 2 of 10 | 8 episodes |
 | Algebra Essentials | T5 | 6 | 3,689 | 6 | 2 | 0 of 6 | voice pass, 6 episodes |
-| Writing Clearly | T1 | 9 | 4,503 | 8 | 2 | 0 of 9 | Stage 4 on 1, voice pass, 9 episodes |
+| Writing Clearly | T1 | 9 | 4,646 | 9 | 2 | 0 of 9 | voice pass, 9 episodes |
 | Python Basics | T6 | 6 | 3,095 | 6 | 2 | 0 of 6 | 6 episodes |
 
 Sixty-one lessons live, fourteen with audio. `/status` recomputes this table and rewrites it here
