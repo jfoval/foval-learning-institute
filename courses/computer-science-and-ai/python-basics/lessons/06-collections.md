@@ -94,9 +94,9 @@ quiz:
       confuses the value of the call with the value of nums.
 ---
 
-You have been using lists for two lessons without being told what one is. Lesson 4's collector called `.append()`, and lesson 5 handed `[12, 7, 19, 4]` to a function. Both worked. Neither was explained, because a list is easier to meet than to define.
+You've been using lists for two lessons without being told what one is. Lesson 4's collector called `.append()`, and lesson 5 handed `[12, 7, 19, 4]` to a function. Both worked. Neither was explained, because a list is easier to meet than to define.
 
-Now it gets explained, along with the other shape you need, and along with one idea that experienced programmers still trip over.
+Now you get the explanation, along with the other shape you'll need, and along with one idea that experienced programmers still trip over.
 
 ## A list, and the counting
 
@@ -117,13 +117,11 @@ print(len(readings))
 4
 ```
 
-Square brackets make a list and square brackets take things out of it. `readings[0]` is the first item, because **positions are counted from 0**, not from 1.
+Square brackets make a list, and square brackets take things out of it. `readings[0]` is the first item, because **positions are counted from 0**, not from 1.[^1]
 
-That looks like a needless cruelty until you see what it buys. An index is an offset from the start, so the first item is nought steps in. It also makes `readings[1:3]` behave: a slice runs from the first number up to but not including the second, exactly as `range(1, 3)` did in lesson 4, so `[1:3]` gives you two items and `[0:2]` followed by `[2:4]` covers the whole list with nothing missed and nothing repeated. One rule, applied everywhere, rather than four special cases.
+That looks like a needless cruelty until you see what it buys you. An index is an offset from the start, so the first item is nought steps in. It also makes `readings[1:3]` behave: a slice runs from the first number up to but not including the second, exactly as `range(1, 3)` did in lesson 4, so `[1:3]` gives you two items, and `[0:2]` followed by `[2:4]` covers the whole list with nothing missed and nothing repeated. That's one rule doing the work of four special cases.
 
-`readings[-1]` counts backwards, and is how you ask for the last item without knowing how long the list is. That matters, because the obvious way of asking is wrong:
-
-Add one more line to the program above:
+`readings[-1]` counts backwards, and it's how you ask for the last item without knowing how long the list is. That matters, because the obvious way of asking is wrong. Add one more line to the program above:
 
 ```
 print(readings[len(readings)])
@@ -137,11 +135,11 @@ Traceback (most recent call last):
 IndexError: list index out of range
 ```
 
-`len(readings)` is 4, and the positions are 0, 1, 2 and 3. The last is `len(readings) - 1`, or simply `-1`. `IndexError` is the sixth error in this course, and lesson 1 promised you would meet it properly once lists arrived. Here it is, and it means one thing only: you asked for a position that is not there.
+`len(readings)` is 4, and the positions are 0, 1, 2 and 3. So the last one is `len(readings) - 1`, or simply `-1`. `IndexError` is the sixth error in this course, and lesson 1 promised you'd meet it properly once lists arrived. Here it is, and it means one thing only: you asked for a position that isn't there. (This traceback, like every output in this lesson, was pasted from a run on CPython 3.14.7.[^7])
 
-Read it from the bottom as usual. The last line names the fault. Above it, line 7 and the source line, and under that the markers `~~~~~~~~^^^^^^^^^^^^^^^`, with the carets sitting under `len(readings)`, which is the part that produced the position Python could not find.
+Read it from the bottom as usual. The last line names the fault. Above it, line 7 and the source line, and under that the markers `~~~~~~~~^^^^^^^^^^^^^^^`, with the carets sitting under `len(readings)`, which is the part that produced the position Python couldn't find.
 
-A list is **mutable**, which means it can be changed after it is made. `.append(x)` puts one item on the end, `.clear()` empties it, and assigning to a position replaces what was there. That property is convenient, and it is also the source of the next section.
+A list is **mutable**, which means you can change it after it's made. `.append(x)` puts one item on the end, `.clear()` empties it, and assigning to a position replaces what was there.[^1] That's convenient, and it's also where the next section comes from.
 
 ## Two names, one list
 
@@ -153,12 +151,10 @@ a is [1, 2, 3, 4]
 b is [1, 2, 3, 4]
 ```
 
-If you expected `a` to still be `[1, 2, 3]`, you have the belief that `b = a` copies. It does not, and almost everyone holds that belief until a program built on it goes wrong.
+If you expected `a` to still be `[1, 2, 3]`, you hold the belief that `b = a` copies. It doesn't, and almost everyone holds that belief until a program built on it goes wrong.
 :::
 
-Here is the rule from lesson 2 again, because it has not changed and does not need to: **`=` makes the name on the left refer to the value on the right.** `b = a` does not copy anything. It works out what `a` is worth, which is a particular list sitting in memory, and points `b` at that same list. Two names, one list. Change it through either name and the change is simply there, because there is only one thing to change.
-
-This is called **aliasing**.
+Here's the rule from lesson 2 again, because it hasn't changed and doesn't need to: **`=` makes the name on the left refer to the value on the right.** `b = a` doesn't copy anything. It works out what `a` is worth, which is a particular list sitting in memory, and points `b` at that same list. Two names, one list. Change it through either name and the change is simply there, because there's only one thing to change. This is called **aliasing**.
 
 Now compare it with the numbers from lesson 2:
 
@@ -173,9 +169,9 @@ print("x is", x, "and y is", y)
 x is 10 and y is 3
 ```
 
-Nothing shared there. The difference is not that numbers behave by one rule and lists by another. The rule is identical. The difference is what was done on the third line.
+Nothing shared there. You might think numbers follow one rule and lists another. They don't; the rule is identical, and what differs is the third line.
 
-`x = 10` is an **assignment**: it points `x` at a different value and leaves `y` pointing where it always did. `b.append(4)` is a **mutation**: it changes the thing itself, and every name pointing at that thing sees the change. Integers and strings are immutable, so a mutation is not even possible on them, and assignment is all you ever do. Lists are mutable, so both are available and you have to know which one you just wrote.
+`x = 10` is an **assignment**: it points `x` at a different value and leaves `y` pointing where it always did. `b.append(4)` is a **mutation**: it changes the thing itself, and every name pointing at that thing sees the change. Integers and strings are immutable, so a mutation isn't even possible on them, and assignment is all you ever do. Lists are mutable, so both are available, and you have to know which one you just wrote.
 
 When you want an actual copy, ask for one:
 
@@ -198,11 +194,11 @@ False False
 
 `a[:]` is a slice with both ends left off, meaning the whole thing, and slicing a list makes a new one. `list(a)` does the same and reads better.
 
-The two comparison lines are the point. Straight after the copy, `a == b` is `True` and `a is b` is `False`: equal contents, different boxes. That gap is exactly what `b = a` did not give you, and it is what `is` is actually asking. `==` compares what is in the lists; `is` asks whether there is one list or two. After the append, even `==` goes false, because now the contents differ too.
+The two comparison lines are the point. Straight after the copy, `a == b` is `True` and `a is b` is `False`: equal contents, different boxes. That gap is exactly what `b = a` didn't give you, and it's what `is` is actually asking. `==` compares what's in the lists; `is` asks whether there's one list or two. After the append, even `==` goes false, because now the contents differ too.
 
-Lesson 2 told you to use `==` and to keep `is` for `None`, and that rule stands: `is None` is the test you will write. This is the other thing `is` is for, and it is a thing you will read far more often than you write.
+Lesson 2 told you to use `==` and to keep `is` for `None`, and that rule stands: `is None` is the test you'll write. This is the other thing `is` is for, and you'll read it far more often than you write it.
 
-The difference is easier to see drawn than described. A name is not a box; it is an arrow pointing at one.
+The difference is easier to see drawn than described. A name isn't a box; it's an arrow pointing at one.
 
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 344 286" role="img" aria-labelledby="alias-title alias-desc" style="width:100%;height:auto;font-family:inherit">
   <title id="alias-title">Two names sharing one list, against two names with a list each</title>
@@ -235,13 +231,13 @@ The difference is easier to see drawn than described. A name is not a box; it is
   <text x="251" y="257" font-size="17" text-anchor="middle" fill="var(--text, #111418)">[1, 2, 3, 4]</text>
 </svg>
 
-Two names with one arrow each. In the top drawing both arrows land on the same box, so appending through `b` changes what `a` sees, because there is nothing else for `a` to see. In the bottom one the slice made a second box before anything was appended, so the two names have nothing in common but their contents at the moment of copying.
+Two names with one arrow each. In the top drawing both arrows land on the same box, so appending through `b` changes what `a` sees, because there's nothing else for `a` to see. In the bottom one the slice made a second box before anything was appended, so the two names have nothing in common but their contents at the moment of copying.
 
 [The same thing, animated, in Python Tutor](https://pythontutor.com/visualize.html#code=a%20%3D%20%5B1%2C%202%2C%203%5D%0Ab%20%3D%20a%0Ab.append%284%29%0A%0Ac%20%3D%20%5B1%2C%202%2C%203%5D%0Ad%20%3D%20c%5B%3A%5D%0Ad.append%284%29%0A&cumulative=false&py=3&rawInputLstJSON=%5B%5D), where you can watch the arrows appear as each line runs.
 
 ### What this does to functions
 
-Lesson 5 told you a function cannot change a name outside itself. That is still true, and it is now only half the story:
+Lesson 5 told you a function can't change a name outside itself. That's still true, and it's now only half the story:
 
 ```
 def wipe(items):
@@ -266,11 +262,17 @@ after wipe: []
 `replace` did nothing that survived the call. `wipe` emptied the caller's list. If you expected both to empty it, or neither, the paragraph below is the one to read twice.
 :::
 
-`replace` rebinds its own parameter and the caller's list is untouched, exactly as lesson 5 said. `wipe` reaches the same list through the same aliasing and empties it. The function still cannot change what the caller's *name* refers to. It can change the *thing* the name refers to, when that thing is one that can be changed at all.
+`replace` rebinds its own parameter, and the caller's list is untouched, exactly as lesson 5 said. `wipe` reaches the same list through the same aliasing and empties it. The function still can't change what the caller's *name* refers to. It can change the *thing* the name refers to, when that thing is one that can be changed at all.
 
-So when you pass a list to a function you did not write, it is worth knowing whether that function mutates. For the built-in list methods there is a rule you can lean on: **the ones that change the list return `None`.** `items.sort()` returns `None` and rearranges the list you gave it, while the separate built-in function `sorted(items)` leaves it alone and hands you a new sorted list. So does `items.reverse()` against `reversed(items)`.
+So when you pass a list to a function you didn't write, you want to know whether that function mutates. For the built-in list methods there's a rule you can lean on: **the ones that change the list return `None`.** `items.sort()` returns `None` and rearranges the list you gave it, while the separate built-in function `sorted(items)` leaves it alone and hands you a new sorted list. `items.reverse()` against `reversed(items)` works the same way.
 
-The rule has one everyday exception, `.pop()`, which removes the last item and returns it, doing both at once. And it is a rule about the built-in types, not a promise about code someone else wrote. For that, read the function or read its documentation.
+The rule has one everyday exception, `.pop()`, which removes the last item and returns it, doing both at once. And it's a rule about the built-in types, not a promise about code someone else wrote. For that, read the function or read its documentation.
+
+:::checkpoint You write `result = items.sort()` and then print `result`. What appears, and where did the sorted list go?
+`None` appears. The sorted list is in `items`.
+
+`.sort()` is one of the methods that changes the list, so it returns `None`, and that `None` is what `result` was given. The list itself was rearranged in place. If you wanted a name for a sorted copy and the original left alone, `result = sorted(items)` is the line.
+:::
 
 ## Looking something up by name
 
@@ -290,9 +292,9 @@ print(scores)
 {'ada': 88, 'grace': 91, 'alan': 74, 'katherine': 96}
 ```
 
-Curly brackets, and pairs written `key: value`. You look up by key instead of by position, and assigning to a key that is not there adds it rather than raising anything.
+Curly brackets, and pairs written `key: value`. You look up by key instead of by position, and assigning to a key that isn't there adds it rather than raising anything.
 
-Reading a key that is not there is a different matter:
+Reading a key that isn't there is a different matter:
 
 ```
 print(scores["linus"])
@@ -306,7 +308,7 @@ Traceback (most recent call last):
 KeyError: 'linus'
 ```
 
-`KeyError` is the seventh and last error of this course, and like `IndexError` it says one thing: you asked for something that is not in there. Note that it quotes the key back at you, which is more help than it sounds: seeing `'linus'` in the message is how you find out the key you passed was not the key you thought you passed, and a difference of one capital letter is the usual reason.
+`KeyError` is the seventh and last error of this course, and like `IndexError` it says one thing: you asked for something that isn't in there. It quotes the key back at you, which is more help than it sounds. Seeing `'linus'` in the message is how you find out that the key you passed wasn't the key you thought you passed, and a difference of one capital letter is the usual reason.
 
 Three ways to handle a key that might be missing:
 
@@ -322,7 +324,7 @@ None
 False
 ```
 
-`.get(key)` hands back `None` instead of raising. `.get(key, default)` hands back whatever default you name. `in` asks the question directly and gives a `bool` you can put in an `if`.
+`.get(key)` hands back `None` instead of raising. `.get(key, default)` hands back whatever default you name. `in` asks the question directly and gives you a `bool` you can put in an `if`.[^1]
 
 Looping a dictionary gives you its pairs, if you ask with `.items()`:
 
@@ -339,7 +341,7 @@ alan 74
 
 Two names on the `for` line, because each pair comes out as two things.
 
-The order is worth being precise about. A dictionary preserves **insertion order**, guaranteed by the language since version 3.7, which is when the behaviour stopped being a detail of how CPython happened to be built and was, in the release notes' own words, ["declared to be an official part of the Python language spec"](https://docs.python.org/3/whatsnew/3.7.html). It is not sorted by key, and it never was:
+Be precise about the order, because people guess wrong here. A dictionary preserves **insertion order**, and the language has guaranteed that since version 3.7, which is when the behaviour stopped being a detail of how CPython happened to be built and was, in the release notes' own words, ["declared to be an official part of the Python language spec"](https://docs.python.org/3/whatsnew/3.7.html).[^1b] It isn't sorted by key, and it never was:
 
 ```
 d = {}
@@ -352,13 +354,13 @@ print(list(d))
 ['zebra', 'apple']
 ```
 
-If you want it sorted, sort it when you print it. Do not expect the dictionary to have done it for you.
+If you want it sorted, sort it when you print it, rather than expecting the dictionary to have done it for you.
 
 ## Counting words
 
 This is the first program in the course that puts four things together at once, and putting easy things together is a different skill from having them.
 
-That is not a figure of speech. Computing education has a standard task for testing it, set by Elliot Soloway in the 1980s: read a run of daily rainfall figures, stop at a sentinel, ignore the negative ones, print the average. Every piece is something a beginner can do. Studies have been reporting success rates under twenty per cent on the whole thing ever since, and researchers have spent forty years arguing about why. So if the next program feels harder than the sum of its parts, that is the documented experience of a great many people and not a verdict on you.
+That isn't a figure of speech. Computing education has a standard task for testing it, set by Elliot Soloway in the 1980s: read a run of daily rainfall figures, stop at a sentinel, ignore the negative ones, print the average. Every piece is something a beginner can do. Studies have been reporting success rates under twenty per cent on the whole thing ever since, and researchers have spent forty years arguing about why. So if the next program feels harder than the sum of its parts, that's the documented experience of a great many people and not a verdict on you.
 
 ```
 sentence = "the cat sat on the mat the end"
@@ -388,25 +390,25 @@ Traceback (most recent call last):
 KeyError: 'the'
 ```
 
-`counts` starts empty, so the first time a word appears there is nothing to add 1 to. `.get(word, 0)` says: whatever it is worth now, or nought if it is not in there yet. Then add one and put it back.
+`counts` starts empty, so the first time a word appears there's nothing to add 1 to. `.get(word, 0)` says: whatever it's worth now, or nought if it isn't in there yet. Then add one and put it back.
 
 Notice where the markers point. `~~~~~~^^^^^^` sits under `counts[word]` on the right of the `=`, not under the whole line, which tells you the reading failed rather than the writing. Assigning to a missing key is fine; reading one is not.
 
 :::checkpoint Suppose you wanted the same counts but case-insensitive, so that "The" and "the" are one word. Where in those five lines does the change go, and what is it?
 On the loop line: `for word in sentence.lower().split():`.
 
-Lowercase the sentence once, before splitting it, and every word arriving in the loop is already lowercase. The alternative, `counts[word.lower()] = counts.get(word.lower(), 0) + 1`, works but says `.lower()` twice, and two copies of one idea is two places to fix it later. That is lesson 5's argument arriving in a small way.
+Lowercase the sentence once, before splitting it, and every word arriving in the loop is already lowercase. The alternative, `counts[word.lower()] = counts.get(word.lower(), 0) + 1`, works but says `.lower()` twice, and two copies of one idea is two places to fix it later, which is lesson 5's argument arriving in a small way.
 :::
 
 ## What people get wrong
 
-**Expecting `b = a` to copy.** The big one, and worth re-reading the arrows for.
+**Expecting `b = a` to copy.** The big one. If it still feels wrong, go back to the arrows.
 
-**Off by one at the end.** `items[len(items)]` is always an `IndexError`. Use `-1`, or better, do not index at all: `for item in items:` cannot go out of range.
+**Off by one at the end.** `items[len(items)]` is always an `IndexError`. Use `-1`, or better, don't index at all: `for item in items:` can't go out of range.
 
 **Expecting a dictionary to be sorted.** It keeps insertion order, which is a different promise.
 
-**Two lists kept side by side** where one dictionary belongs, so that `names[3]` and `scores[3]` have to stay in step. They will not stay in step. If the natural question is "what is the score for this name", the answer is one dictionary.
+**Two lists kept side by side** where one dictionary belongs, so that `names[3]` and `scores[3]` have to stay in step. They won't stay in step. If the natural question is "what is the score for this name", the answer is one dictionary.
 
 ### The trap with a default of `[]`
 
@@ -429,12 +431,12 @@ print(add_reading(3))
 [1, 2, 3]
 ```
 
-Almost nobody predicts this the first time. The expected answer is `[1]`, `[2]`, `[3]`, which is what you would get if each call started from a fresh empty list.
+Almost nobody predicts this the first time. The expected answer is `[1]`, `[2]`, `[3]`, which is what you'd get if each call started from a fresh empty list.
 :::
 
-It does not, because there is only one list. It was made once, while Python was reading the `def`, and every call that takes the default is handed that same one. This is aliasing again, wearing its least obvious disguise: the default value and the parameter are two names for one list that outlives every call.
+It doesn't, because there's only one list. It was made once, while Python was reading the `def`, and every call that takes the default is handed that same one. This is aliasing again, wearing its least obvious disguise: the default value and the parameter are two names for one list that outlives every call.
 
-:::callout The fix, which you will see constantly
+:::callout The fix, which you'll see constantly
 ```
 def add_reading(value, log=None):
     log = [] if log is None else log
@@ -442,7 +444,7 @@ def add_reading(value, log=None):
     return log
 ```
 
-Now each call that supplies no log gets a fresh one, because `[]` is worked out at the call rather than at the `def`. `None` as the default, with a line at the top that replaces it, is the idiom for any default that could be changed after it is made: a list, a dictionary, or a set.
+Now each call that supplies no log gets a fresh one, because `[]` is worked out at the call rather than at the `def`. `None` as the default, with a line at the top that replaces it, is the idiom for any default that could be changed after it's made: a list, a dictionary, or a set.
 :::
 
 ## Practice
@@ -450,44 +452,44 @@ Now each call that supplies no log gets a fresh one, because `[]` is worked out 
 :::exercise Everything at once
 Take 30 minutes over these.
 
-**One. Predict, then run.** `nums = [4, 5, 6]`, then `twin = nums`, then `twin[1] = 0`, then `nums[2] = 77`. Write down what both names hold before you run it, and note that the second change is made through the *other* name. This is the same idea as the predict above, arriving by assignment to a position rather than by `.append()`, and if you are confident about one and not the other, that is worth knowing.
+**One. Predict, then run.** `nums = [4, 5, 6]`, then `twin = nums`, then `twin[1] = 0`, then `nums[2] = 77`. Write down what both names hold before you run it, and notice that the second change is made through the *other* name. This is the same idea as the predict above, arriving by assignment to a position rather than by `.append()`, and if you're confident about one and not the other, that's something you want to know about yourself.
 
-**Two. Invert a dictionary.** Given `{"ada": 88, "grace": 91}`, build `{88: "ada", 91: "grace"}` with a loop. Then answer this before moving on: what happens if two people have the same score, and what would you want to happen? There is no single right answer, and choosing deliberately is the exercise.
+**Two. Invert a dictionary.** Given `{"ada": 88, "grace": 91}`, build `{88: "ada", 91: "grace"}` with a loop. Then answer this before moving on: what happens if two people have the same score, and what would you want to happen? There's no single right answer, and choosing deliberately is the exercise.
 
 **Three. All six lessons in one program.** You have a list of names and a dictionary of scores keyed by name. Print the names of everyone scoring above the average.
 
-That needs a function that takes a collection and returns a number, a loop, a condition, a dictionary lookup and a list. It is the whole course. Build it in stages rather than in one go: get the average out first and print it, check it by hand on four numbers, then add the loop that compares. Guard the empty case, because by now you should expect it to be waiting for you.
+That needs a function that takes a collection and returns a number, a loop, a condition, a dictionary lookup and a list, which is to say the whole course. Build it in stages rather than in one go: get the average out first and print it, check it by hand on four numbers, then add the loop that compares. Guard the empty case, because by now you should expect it to be waiting for you.
 :::
 
 ## Where this leads
 
-Six lessons is not a lot, and it is worth being straight about what is missing rather than letting you find out later.
+Six lessons isn't a lot, and I'd rather be straight with you about what's missing than let you find out later.
 
-You have not met **files**, so nothing you write yet survives being closed. You have not met **modules**, so you cannot use the enormous standard library that is the actual reason people reach for Python. You have not met **classes**, **testing**, **regular expressions** or **exception handling with `try`**, which is the tool for dealing with the errors this course has only taught you to read.
+You haven't met **files**, so nothing you write yet survives being closed. You haven't met **modules**, so you can't use the enormous standard library that is the actual reason people reach for Python. You haven't met **classes**, **testing**, **regular expressions** or **exception handling with `try`**, which is the tool for dealing with the errors this course has only taught you to read.
 
-Classes in particular are a deliberate omission and not an oversight. Almost every course and book in this course's research file defers them to the end, and the usual reasoning is that objects solve a problem of program organisation that a beginner has not had yet, so meeting the solution first is how the idea becomes mysterious. That reasoning is not unanimous, and it is more settled for a course like this one, aimed at everybody, than for a first course aimed at computing majors, where the argument is live. You have twice now met the problem first, in lesson 5 and in this exercise. Do it that way with classes too.
+Classes in particular are a deliberate omission and not an oversight. Almost every course and book in this course's research file defers them to the end, and the usual reasoning is that objects solve a problem of program organisation that a beginner hasn't had yet, so meeting the solution first is how the idea becomes mysterious. That reasoning isn't unanimous, and it's more settled for a course like this one, aimed at everybody, than for a first course aimed at computing majors, where the argument is live. You've twice now met the problem first, in lesson 5 and in this exercise, and I'd do it that way with classes too.
 
-Two honest next steps, and they suit different people. **[CS50P](https://cs50.harvard.edu/python/)** is Harvard's ten-week version, free, with graded problem sets, and it reaches exceptions in week 3 and unit tests in week 5. **[Automate the Boring Stuff](https://automatetheboringstuff.com/)** is free online and aims straight at doing something useful with files, spreadsheets and the web. The first is the academic route and the second is the practical one.
+Two honest next steps, and they suit different people. **[CS50P](https://cs50.harvard.edu/python/)** is Harvard's ten-week version, free, with graded problem sets, and it reaches exceptions in week 3 and unit tests in week 5.[^5] **[Automate the Boring Stuff](https://automatetheboringstuff.com/)** is free online and aims straight at doing something useful with files, spreadsheets and the web. The first is the academic route and the second is the practical one.
 
 :::callout Before you install anything
 Two things that a course of this length can only warn you about, and both are real.
 
-**`pip install` runs code from the internet on your machine, at the moment of installing.** A package can execute arbitrary code during its own installation, so a mistyped package name is not a typo, it is an execution. Typosquatting on the Python Package Index is an active campaign rather than a theoretical risk. To take one case from August 2025, [security researchers at Zscaler found](https://www.zscaler.com/blogs/security-research/malicious-pypi-packages-deliver-silentsync-rat) a package called **`sisaws`**, one letter away from the real **`sisa`**, which is a library for talking to Argentina's national health information system. Installing the wrong one delivered a remote access trojan that read saved browser passwords and cookies. One letter. PyPI now flags likely typosquats when a project is created, which helps and is not a guarantee. Read the name twice before you press Enter, and take it from the project's own documentation rather than from memory.
+**`pip install` runs code from the internet on your machine, at the moment of installing.** A package can execute arbitrary code during its own installation, so the moment you mistype a package name, whatever lives under the wrong name is already running. Typosquatting on the Python Package Index is an active campaign rather than a theoretical risk. To take one case from August 2025, [security researchers at Zscaler found](https://www.zscaler.com/blogs/security-research/malicious-pypi-packages-deliver-silentsync-rat) a package called **`sisaws`**, one letter away from the real **`sisa`**, which is a library for talking to Argentina's national health information system.[^6] Installing the wrong one delivered a remote access trojan that read saved browser passwords and cookies. One letter. PyPI now flags likely typosquats when a project is created, which helps and isn't a guarantee. Read the name twice before you press Enter, and take it from the project's own documentation rather than from memory.
 
-**Use a virtual environment.** Your operating system may depend on its own Python, and installing packages into it can break things that have nothing to do with you. `venv` is built in and exists for exactly this. [The tutorial's chapter 12](https://docs.python.org/3/tutorial/venv.html) is three pages and is the thing to read before your first `pip install`, not after it.
+**Use a virtual environment.** Your operating system may depend on its own Python, and installing packages into it can break things that have nothing to do with you. `venv` is built in and exists for exactly this. [The tutorial's chapter 12](https://docs.python.org/3/tutorial/venv.html) is three pages, and it's the thing to read before your first `pip install`, not after it.[^2]
 :::
 
-One last thing, because you may be deciding whether to carry on in Python at all. Python is a good first language and it is not objectively the best one, and people who have thought about this seriously disagree. What it gives you is little syntactic ceremony, so you spend your attention on the ideas. What it costs you is that its types are checked as the program runs rather than before, so a mistake sits quietly in a branch you have not tested until the day that branch runs. That is not a small cost. It is also why this course put a traceback in lesson 1 and gave you six more across the five lessons since: in Python, reading them is not an advanced skill, it is the basic one.
+One last thing, because you may be deciding whether to carry on in Python at all. Python is a good first language and it isn't objectively the best one, and people who have thought about this seriously disagree. What it gives you is little syntactic ceremony, so you spend your attention on the ideas. What it costs you is that its types are checked as the program runs rather than before, so a mistake sits quietly in a branch you haven't tested until the day that branch runs. That isn't a small cost. It's also why this course put a traceback in lesson 1 and gave you six more across the five lessons since: in Python, reading a traceback is the basic skill rather than an advanced one.
 
-The people who disagree are worth hearing rather than waving at. The case for starting in a language that checks types before it runs, Java being the usual example, is that the compiler catches a whole class of mistake before the program exists, and that writing the types down documents what a function expects to anyone reading it later. On that view Python does not remove the difficulty, it moves it to a worse place, into a branch nobody has run yet. There is also a case, with research behind it, for starting in a language like Racket, on the grounds that beginners there choose better structures for exactly the kind of multi-plan problem you met in the word counter. Both are serious positions held by people who teach beginners for a living.
+The people who disagree deserve a hearing rather than a wave. The case for starting in a language that checks types before it runs, Java being the usual example, is that the compiler catches a whole class of mistake before the program exists, and that writing the types down documents what a function expects to anyone reading it later. On that view Python doesn't remove the difficulty at all; it moves it to a worse place, into a branch nobody has run yet. There's also a case, with research behind it, for starting in a language like Racket, on the grounds that beginners there choose better structures for exactly the kind of multi-plan problem you met in the word counter. Both are serious positions held by people who teach beginners for a living.
 
-You have met seven: `SyntaxError`, `NameError`, `TypeError`, `ValueError`, `ZeroDivisionError`, `IndexError` and `KeyError`. Plus `KeyboardInterrupt` from lesson 4, which is not a mistake at all but the trace left when you stop a runaway program yourself. Those seven are most of what a beginner's traceback ever says. Reading them is the skill this course was really teaching.
+You've met seven: `SyntaxError`, `NameError`, `TypeError`, `ValueError`, `ZeroDivisionError`, `IndexError` and `KeyError`. Plus `KeyboardInterrupt` from lesson 4, which isn't a mistake at all but the trace left when you stop a runaway program yourself. Those seven are most of what a beginner's traceback ever says. Reading them is the skill this course was really teaching.
 
 ## Go deeper
 
-- **[The Python tutorial, chapter 5, "Data Structures"](https://docs.python.org/3/tutorial/datastructures.html)** for lists, list methods, slicing and dictionaries, and the list comprehension, which is the compact loop you will see everywhere and which this course deliberately skipped.
-- **[Think Python, chapter 9, "Lists"](https://allendowney.github.io/ThinkPython/chap09.html)** and **[chapter 10, "Dictionaries"](https://allendowney.github.io/ThinkPython/chap10.html)**, free online. Downey gives aliasing its own named section, 9.10, rather than a passing mention.
-- **[Automate the Boring Stuff, chapters 6 and 7](https://automatetheboringstuff.com/3e/chapter6.html)**, free online, on lists and on structuring data with dictionaries.
+- **[The Python tutorial, chapter 5, "Data Structures"](https://docs.python.org/3/tutorial/datastructures.html)** for lists, list methods, slicing and dictionaries, and the list comprehension, which is the compact loop you'll see everywhere and which this course deliberately skipped.[^1]
+- **[Think Python, chapter 9, "Lists"](https://allendowney.github.io/ThinkPython/chap09.html)** and **[chapter 10, "Dictionaries"](https://allendowney.github.io/ThinkPython/chap10.html)**, free online. Downey gives aliasing its own named section, 9.10, rather than a passing mention.[^3]
+- **[Automate the Boring Stuff, chapters 6 and 7](https://automatetheboringstuff.com/3e/chapter6.html)**, free online, on lists and on structuring data with dictionaries.[^4]
 - **[Python Tutor](https://pythontutor.com/)** once more. Paste anything from this lesson that surprised you and watch the arrows.
 
 ## Sources

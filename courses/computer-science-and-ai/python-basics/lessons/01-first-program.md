@@ -88,8 +88,8 @@ quiz:
       exists to break.
 ---
 
-The first thing you'll do in Python isn't write a program. It's break one, read what the machine
-says about it, and fix it. That happens within about ninety seconds of starting.
+Within about ninety seconds of starting Python, you'll break a program, read what the machine says
+about it, and fix it. That comes before you've written anything you'd call a program of your own.
 
 So this lesson teaches two things at once: how to run Python, and how to read the thing it prints
 when it refuses. Most beginners' courses leave the second one until week three, by which time the
@@ -97,24 +97,24 @@ habit of scrolling past red text has set.
 
 ## Where the "you either have it or you don't" story came from
 
-You will have heard that some people just get programming and some never will. It is worth knowing
-where that belief came from, because it came from somewhere specific.
+You'll have heard that some people just get programming and some never will. That belief came from
+somewhere specific, so let me show you where.
 
 In 2006 a paper by Saeed Dehnadi and Richard Bornat called "The camel has two humps" claimed to
 have found a test that sorted people into programmers and non-programmers before they had written a
 line of code. It was never formally published, and it travelled anyway. In 2014 Bornat, one of its
 two authors, retracted it.[^1] He wrote
-that he does not believe an aptitude test for programming was discovered, and that he does not
+that he doesn't believe an aptitude test for programming was discovered, and that he doesn't
 believe in "programming sheep and non-programming goats". He attributed the paper to a period when
 he was seriously unwell.
 
 The other half of the folklore is that computer science grades come out in two humps, a group who
-get it and a group who do not. In 2016 Patitsas and colleagues went and looked.[^2] They took the
+get it and a group who don't. In 2016 Patitsas and colleagues went and looked.[^2] They took the
 final grades of every undergraduate computer science class at the University of British Columbia
 from 1996 to 2013: 778 lecture sections, 30,214 grades. Then they measured instead of eyeballing.
 A first screen ruled out 455 of the sections outright, on a property that has to hold before a
 distribution can have two peaks at all. The remaining 323 went through a statistical test for more
-than one peak, and 45 came back positive. **That is 5.8% of all 778.** The authors add a point
+than one peak, and 45 came back positive. That's 5.8% of all 778. The authors add a point
 that makes the result stronger rather than weaker: run that many tests at the usual threshold and
 about 5% should come back positive by chance alone, so most of the 45 may well be noise.
 
@@ -127,15 +127,15 @@ own teaching. The other half were asked afterwards. The ones asked first saw mor
 same normal data, and so did the ones who agreed that some students are innately predisposed to do
 better at computing.
 
-Someone who holds the opposite view has a fair reply to this, and it is worth putting properly.
-Their strongest claim isn't that some people cannot program. It's that aptitude varies a great deal
-and teaching doesn't close the gap. Against that, final grades are a rough instrument: students who
+Someone who holds the opposite view has a fair reply to this, and it deserves to be put properly.
+Their strongest claim is that aptitude varies a great deal and teaching doesn't close the gap, which
+is a different claim from saying that some people cannot program. Against that, final grades are a rough instrument: students who
 struggle drop the course and vanish from the distribution, marks get curved, and everything is
 capped at 100%. So what Patitsas rules out is a two-humped *outcome* in the grades, which is what
 the folklore claims and is all they say they have ruled out.
 
-Don't read any of it as reassurance that programming is easy. It's genuinely hard, the difficulty
-is real, and you'll be confused for stretches of this course. The narrower claim being retired is
+Don't read any of it as reassurance that programming is easy. It's genuinely hard, and you'll be
+confused for stretches of this course. The narrower claim being retired is
 that there's a line dividing people who can from people who cannot.
 
 :::callout About the model in your other tab
@@ -147,7 +147,7 @@ models as both an opportunity, because they make new kinds of learning material 
 problem for how introductory courses are taught and assessed.[^6] Studies watching beginners work
 with these tools describe people accepting suggestions they haven't understood.
 
-Here's the line this course takes, and it's a teaching judgement rather than a finding. A model
+The line this course takes is a teaching judgement rather than a finding. A model
 will happily hand you thirty lines you can't read, and you'll have learned nothing while feeling
 productive. So use it to explain a traceback or a line that baffles you, and don't use it to
 produce the exercise you were about to learn from. There's a whole course in that question, and
@@ -160,9 +160,9 @@ Python gives you two front doors, and they behave differently in one way that co
 weeks.
 
 **The interpreter** is what you get by typing `python3` at a terminal. It shows a `>>>` prompt and
-runs each line as you press Enter. It is for trying things.
+runs each line as you press Enter. It's for trying things.
 
-**A file** is a document ending in `.py` that you run with `python3 myfile.py`. It is for programs
+**A file** is a document ending in `.py` that you run with `python3 myfile.py`. It's for programs
 you want to keep.
 
 The difference shows up the moment you type something that has a value. Try this at the `>>>` prompt:
@@ -188,11 +188,11 @@ something, you have to ask:
 print(2 + 2)
 ```
 
-That is what `print()` is for. It does not compute anything or store anything. It shows a value to
+That's what `print()` is for. It doesn't compute anything or store anything. It shows a value to
 a person.
 
 :::predict A file contains exactly two lines, `5 * 3` and then `print("done")`. What appears on screen when you run it?
-Only `done`. The first line is computed, the answer 15 is produced, and then it is thrown away
+Only `done`. The first line is computed, the answer 15 is produced, and then it's thrown away
 because nothing asked for it. In the interpreter the same two lines would show you `15` and then
 `done`, which is exactly the mismatch that catches people out when they move their experiments into
 a file.
@@ -217,11 +217,11 @@ The second line is missing its closing bracket. Run it:
 SyntaxError: '(' was never closed
 ```
 
-Look at what did **not** happen. Line 1 is a perfectly good instruction and it did not print
+Look at what did *not* happen. Line 1 is a perfectly good instruction and it didn't print
 "Hello." Nothing ran at all.
 
-This is the part worth carrying out of the lesson. **Python reads and checks the whole file before
-it runs a single line of it.** That first pass is called parsing, and it is only asking one
+If you carry one thing out of this lesson, carry this: Python reads and checks the whole file
+before it runs a single line of it. That first pass is called **parsing**, and it's only asking one
 question: is this Python at all? A missing bracket on line 2 of a four-hundred-line file stops line
 1 from running, because line 1 never got its turn.
 
@@ -233,6 +233,11 @@ pint("My name is Ada.")
 print("I am learning Python.")
 ```
 
+:::predict Before you run it: does `Hello.` print this time?
+Yes. `pint` is a legal name followed by brackets, so the parser has nothing to complain about and
+the file passes the check. Run it and see where it stops instead.
+:::
+
 ```
 Hello.
 Traceback (most recent call last):
@@ -243,29 +248,29 @@ NameError: name 'pint' is not defined. Did you mean: 'print'?
 ```
 
 This time `Hello.` printed. The file parsed cleanly, because `pint(...)` is perfectly good Python
-grammar; it is a legal name followed by brackets, and the parser has no opinion about whether that
+grammar; it's a legal name followed by brackets, and the parser has no opinion about whether that
 name refers to anything. So the program started, line 1 ran, and line 2 failed at the moment Python
 went looking for something called `pint` and found nothing.
 
-**Output before a traceback is evidence.** It tells you the program got as far as producing it, so
-whatever is wrong was found during the run and not before it. That gives you somewhere to start
+Output before a traceback is evidence. It tells you the program got as far as producing it, so
+whatever is wrong was found during the run and not before it, which gives you somewhere to start
 looking without touching a single line.
 
 :::checkpoint A forty-line program prints eleven lines of output and then shows a traceback. Roughly where is the fault, and which of the two errors above is it definitely not?
 
-It is somewhere at or after whatever produced the eleventh line, and it is definitely not a
+It's somewhere at or after whatever produced the eleventh line, and it's definitely not a
 SyntaxError, because a SyntaxError would have prevented all eleven from appearing.
 :::
 
 ## How to read a traceback
 
-Read it from the bottom up. Beginners read from the top, because that is how you read everything
+Read it from the bottom up. Beginners read from the top, because that's how you read everything
 else, and the top is the least useful part.
 
 Take the `NameError` above, bottom to top:
 
-1. `NameError: name 'pint' is not defined.` The error type, then the message. **This is the line
-   that tells you what is wrong.** Start here.
+1. `NameError: name 'pint' is not defined.` The error type, then the message. This is the line
+   that tells you what is wrong. Start here.
 2. `pint("My name is Ada.")` with `^^^^` under it. The exact code, with the exact part that failed
    marked. Those caret marks are a recent convenience: they arrived in Python 3.11, so on an older
    Python you'll see the same error without them.[^3]
@@ -275,11 +280,11 @@ Take the `NameError` above, bottom to top:
    the line beginners stare at hardest.
 
 The suggestion at the end, `Did you mean: 'print'?`, is a real feature and not a coincidence:
-Python compares the name you used against the names it does know and offers the nearest.[^4] But it
-is only a guess, and Python doesn't act on it. You typed `pint`, so `pint` is what it went looking
+Python compares the name you used against the names it does know and offers the nearest.[^4] But it's
+only a guess, and Python doesn't act on it. You typed `pint`, so `pint` is what it went looking
 for, and not finding it is still an error.
 
-Here is a traceback from a program you know nothing about, using an idea this course has not
+Here's a traceback from a program you know nothing about, using an idea this course has not
 reached yet.
 
 ```
@@ -320,12 +325,12 @@ number is a worse problem than one that crashes, because nothing announces it. T
 exercise below has no error in it.
 
 :::callout Which Python to install
-Install **Python 3.13 or 3.14** from [python.org](https://www.python.org/downloads/). Everything in
-this course runs on 3.10 and up, but **3.10 reaches end of life in October 2026**, so it is not a
+Install Python 3.13 or 3.14 from [python.org](https://www.python.org/downloads/). Everything in
+this course runs on 3.10 and up, but 3.10 reaches end of life in October 2026, so it isn't a
 sensible thing to start on now.[^5] Check what you have with `python3 --version`.
 
-On a Mac and on most Linux systems the command is `python3`. On Windows it is usually `python` or
-`py`. If `python3 --version` says 2 point something, you are looking at a different, long-dead
+On a Mac and on most Linux systems the command is `python3`. On Windows it's usually `python` or
+`py`. If `python3 --version` says 2 point something, you're looking at a different, long-dead
 Python and you want the one you just installed.
 :::
 
@@ -367,7 +372,7 @@ useful question is why Python was perfectly happy.
 :::
 
 If you want to watch a program run one line at a time, with every value visible as it changes, put
-it into [Python Tutor](https://pythontutor.com/). It draws what the machine is doing. We will come
+it into [Python Tutor](https://pythontutor.com/). It draws what the machine is doing. We'll come
 back to it in most of the remaining lessons, because "what is each name worth right now" turns out
 to be the question underneath almost every bug in this course.
 
@@ -382,8 +387,8 @@ that turns out to be text.
 ## Go deeper
 
 - **[The official Python Tutorial, chapter 2](https://docs.python.org/3/tutorial/interpreter.html)** on
-  running the interpreter and using it well. One caution, which the tutorial states about itself: it
-  is written for programmers who are new to *Python*, not for people new to programming. Read it as
+  running the interpreter and using it well. One caution, which the tutorial states about itself: it's
+  written for programmers who are new to *Python*, not for people new to programming. Read it as
   a reference to grow into.
 - **[CS50P, Harvard's Introduction to Programming with Python](https://cs50.harvard.edu/python/)**,
   free, with graded problem sets. Its week 0 gets you running Python and goes straight into

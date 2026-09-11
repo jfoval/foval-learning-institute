@@ -89,7 +89,7 @@ A program that runs the same lines every time can only do one job. The moment it
 
 ## A comparison produces a value
 
-Type a comparison at the prompt and look at what comes back:
+Type a comparison at the prompt and look at what comes back.[^4]
 
 ```
 >>> 7 > 3
@@ -145,7 +145,7 @@ else:
     print("F")
 ```
 
-Python works down the chain, testing each condition in turn, and **the first one that's true wins**. Its block runs and the whole chain is finished: nothing below it is even looked at. If none of them is true, the `else` runs. If there's no `else`, nothing runs, which is allowed.
+Python works down the chain, testing each condition in turn, and the first one that's true wins. Its block runs and the whole chain is finished: nothing below it is even looked at.[^1] If none of them is true, the `else` runs. If there's no `else`, nothing runs, which is allowed.
 
 <svg viewBox="0 0 420 250" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="chain-t">
 <title id="chain-t">How an if, elif, else chain runs</title>
@@ -193,12 +193,12 @@ C
 
 95 is over 70, so the very first test is true, its block runs, and the chain stops. Python never looks at the tests for 80 and 90, and an `A` is unreachable for any score at all.
 
-Nothing is broken here and no error appears. The chain did exactly what the rules say. **The order of a chain is part of its logic, not a matter of tidiness**, and when the tests overlap you put the narrowest one first.
+Nothing is broken here and no error appears. The chain did exactly what the rules say. The order of a chain is part of its logic, so when the tests overlap you put the narrowest one first.
 :::
 
 ## Indentation is the syntax
 
-In most languages the indented lines under an `if` are a courtesy to the reader. In Python they're how the language knows which lines the `if` controls. Four spaces is the convention, and it's in [PEP 8](https://peps.python.org/pep-0008/) along with the naming rules from lesson 2.
+In most languages the indented lines under an `if` are a courtesy to the reader. In Python they're how the language knows which lines the `if` controls. Four spaces is the convention, and it's in [PEP 8](https://peps.python.org/pep-0008/) along with the naming rules from lesson 2.[^2]
 
 Get it wrong and you may get an `IndentationError`, which is the friendly outcome. The unfriendly one is a program that runs and quietly does the wrong thing. These two differ by four spaces:
 
@@ -214,7 +214,7 @@ print("Remember your coat.")
 Remember your coat.
 ```
 
-Indent that second `print` by four spaces and the same program, on the same input, prints nothing at all, because the line is now inside the `if` and the condition is false. No error either way. The whitespace **is** the logic.
+Indent that second `print` by four spaces and the same program, on the same input, prints nothing at all, because the line is now inside the `if` and the condition is false. No error either way. The whitespace is the logic.
 
 ## Combining conditions
 
@@ -228,14 +228,14 @@ if age >= 18 and has_ticket:
     print("Come in.")
 ```
 
-Now the part worth knowing, because it's a mechanism rather than a rule. **Python stops evaluating as soon as the answer is settled.** With `and`, the moment it meets something false the whole thing must be false, so it doesn't bother looking at the right-hand side. That's called short-circuiting, and you can build on it:
+Underneath these three words there's a mechanism, and it's more useful than the rule itself. Python stops evaluating as soon as the answer is settled. With `and`, the moment it meets something false the whole thing must be false, so it doesn't bother looking at the right-hand side. That's called short-circuiting, and you can build on it:
 
 ```
 if n != 0 and total / n > 5:
     print("big")
 ```
 
-If `n` is zero, the left side is false, Python stops, and the division on the right is never carried out. Swap the two around and the same line raises `ZeroDivisionError`, which lesson 4 will meet properly, on the first zero it meets. The order here isn't a matter of style; it's what makes the line safe.
+If `n` is zero, the left side is false, Python stops, and the division on the right is never carried out. Swap the two around and the same line raises `ZeroDivisionError`, which lesson 4 will meet properly, on the first zero it meets. So the order of the two sides is doing real work.
 
 :::checkpoint `or` short-circuits too. On what does it stop early, and what does that mean for `if n == 0 or total / n > 5:`?
 
@@ -244,7 +244,7 @@ If `n` is zero, the left side is false, Python stops, and the division on the ri
 
 ## Things that are false without a comparison
 
-You don't have to write a comparison. Python will take any value and decide whether it counts as true, and the rule is short: **empty things are false, and so is zero.**
+You don't have to write a comparison. Python will take any value and decide whether it counts as true, and the rule is short: empty things are false, and so is zero.[^3]
 
 ```
 >>> bool(0), bool(0.0), bool(""), bool([]), bool({}), bool(None)
@@ -316,6 +316,11 @@ False
 ```
 
 A minus sign isn't a digit, and neither is a full stop. So `.isdigit()` is right for counting tickets, where negatives are meaningless anyway, and wrong for a temperature or a bank balance.
+
+:::checkpoint Someone runs the ticket program above and types `-3`. Which branch runs, and does anything raise?
+
+The `else` branch, and nothing raises. `"-3".isdigit()` is `False` because the minus sign isn't a digit, so Python never reaches `int(reply)` and prints "Please type a whole number." instead. The guard did its job here. The case it can't cover is the one coming next.
+:::
 
 There's one more thing it does that you'd never guess, and it matters if you're using it as a guard:
 

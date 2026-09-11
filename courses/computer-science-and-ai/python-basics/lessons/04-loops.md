@@ -95,7 +95,7 @@ for r in readings:
 
 `for` takes each item in turn, puts it in the name `r`, and runs the indented block. Four items, four passes, then it stops on its own. You don't count anything and you can't run off the end.
 
-You'll also meet `range()`, which produces a run of numbers without you writing them out:
+You'll also meet `range()`, which produces a run of numbers without you writing them out. Everything printed in this lesson was run on CPython 3.14.7 and pasted in as it came out, with only the file paths changed.[^5]
 
 ```
 >>> list(range(5))
@@ -104,7 +104,7 @@ You'll also meet `range()`, which produces a run of numbers without you writing 
 [1, 2, 3, 4, 5, 6, 7, 8, 9]
 ```
 
-Look at the second one. You asked for 1 to 10 and got 1 to 9. **The stop value is never included**, and that catches everyone once.
+Look at the second one. You asked for 1 to 10 and got 1 to 9. The stop value is never included, and that catches everyone once.[^1]
 
 It isn't an arbitrary cruelty. Because the stop is excluded, `range(n)` has exactly `n` items in it, and `range(0, 5)` followed by `range(5, 10)` covers 0 to 9 with nothing missed and nothing repeated, which is a good share of the off-by-ones you would otherwise write.
 
@@ -116,7 +116,7 @@ It starts at 2 and adds 3 each time. The next would be 11, but the stop is 11 an
 
 ## The accumulator
 
-Almost every loop that produces an answer looks like this. Set something up before the loop, change it inside, use it after.
+Almost every loop that produces an answer looks like this. Set something up before the loop, change it inside, use it after.[^3]
 
 ```
 readings = [12, 7, 19, 4]
@@ -143,7 +143,7 @@ Then `42 / 4`, which is `10.5`.
 
 `total = total + r` is the line from lesson 2 that looked like nonsense as arithmetic and reads fine as an instruction: work out the right side using what `total` is worth now, then make `total` refer to the answer. It's doing that four times, each time starting from where the last pass left it.
 
-Which is exactly why `total = 0` has to sit **outside** the loop. Move it inside and it runs on every pass:
+Which is exactly why `total = 0` has to sit outside the loop. Move it inside and it runs on every pass:
 
 ```
 for r in readings:
@@ -173,7 +173,7 @@ print(readings)
 
 `while` takes a condition and repeats as long as it's true. `while True:` is a loop that would never stop by itself, so something inside has to end it, and `break` does: it leaves the loop immediately. `.append()` puts a value on the end of a list, which is lesson 6's subject arriving early because we need somewhere to put things.
 
-The rule of thumb: **`for` when you know what you're going through, `while` when you're waiting for something to become true.** If you can't say what you'd be iterating over, you want `while`.
+The rule of thumb: `for` when you know what you're going through, `while` when you're waiting for something to become true. If you can't say what you'd be iterating over, you want `while`.
 
 :::checkpoint The condition of a `while` is tested for truth, exactly like an `if`. Given what lesson 3 said about empty things, what does `while readings:` do, and when does it stop?
 
@@ -198,7 +198,7 @@ while n > 0:
 ... and so on for ever
 ```
 
-Nothing inside the loop changes `n`, so `n > 0` is true now and will be true for ever. Press `Ctrl-C` to stop it:
+Nothing inside the loop changes `n`, so `n > 0` is true now and will be true for ever. Press `Ctrl-C` to stop it.[^2] Python reports the interruption like this:
 
 ```
   File "/home/you/spin.py", line 3, in <module>
@@ -240,7 +240,7 @@ Traceback (most recent call last):
 ZeroDivisionError: division by zero
 ```
 
-Read it the way lesson 1 taught, from the bottom. `ZeroDivisionError: division by zero` names the fault. Above it, line 15 and the source line that failed, and under that the marker `~~~~~~^~~~~~~`, which points not at the whole line but at `total / count`, the exact part that blew up. Those markers arrived in Python 3.11 and they are the most useful thing in a traceback once a line has more than one operation in it.
+Read it the way lesson 1 taught, from the bottom. `ZeroDivisionError: division by zero` names the fault. Above it, line 15 and the source line that failed, and under that the marker `~~~~~~^~~~~~~`, which points not at the whole line but at `total / count`, the exact part that blew up. Those markers arrived in Python 3.11 and they are the most useful thing in a traceback once a line has more than one operation in it.[^4]
 
 So: the loop body never ran, `total` and `count` both still hold the `0` they were given, and the last line divides zero by zero. That's the fifth error in this course, and the empty case is the one people forget, because they test by typing three readings in like a reasonable person. A real user opens it, doesn't understand it, and presses Enter.
 
@@ -253,7 +253,7 @@ else:
     print("No readings.")
 ```
 
-This loop is meant to print every item in the list. It prints three of the four.
+One more, smaller than the other two but far more common. This loop is meant to print every item in the list. It prints three of the four.
 
 ```
 items = ["a", "b", "c", "d"]
@@ -270,11 +270,11 @@ A list's first item is at position 0, not 1, so starting the range at 1 skips it
 
 ## What people get wrong
 
-**Expecting `range(1, 10)` to include 10.** It stops before the stop. Say it out loud once and it sticks.
+**Expecting `range(1, 10)` to include 10.** It stops before the stop, and saying that sentence out loud once is what makes it stick.
 
 **Resetting the accumulator inside the loop.** Covered above, and the tell is a total equal to the last item.
 
-**Thinking `for` and `while` are interchangeable.** Anything a `for` does you can force a `while` to do by counting by hand, and you'll introduce an off-by-one doing it. Pick by the shape of the problem.
+**Thinking `for` and `while` are interchangeable.** Anything a `for` does you can force a `while` to do by counting by hand, and you'll introduce an off-by-one doing it, so pick by the shape of the problem instead.
 
 **Changing a list while looping over it.** Adding to or removing from a list inside a `for` that's walking it produces skipped items and other confusion. Lesson 6 has lists properly and shows this; for now, just don't.
 
@@ -300,7 +300,7 @@ If a loop does something you can't explain, step through it in Python Tutor, whi
 
 You've now written `total = total + r` and `count = count + 1` several times, and you'd write them again for the next set of readings, and again after that. Copying three lines around a program is how a small mistake gets into four places at once and is fixed in three of them.
 
-That's the problem the next lesson solves. A function lets you write the averaging once, give it a name, and call it wherever you need it. **The order here is deliberate: you've felt the repetition before being handed the tool that removes it**, because a tool you've wanted is much easier to learn than a tool you've been given.
+That's the problem the next lesson solves. A function lets you write the averaging once, give it a name, and call it wherever you need it. The order here is deliberate: you've felt the repetition before being handed the tool that removes it, because a tool you've wanted is much easier to learn than a tool you've been given.
 
 ## Go deeper
 

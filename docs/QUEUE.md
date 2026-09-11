@@ -12,15 +12,15 @@ not be re-opened is in `docs/DECISIONS.md`. Specs for work not started are in
 Rewrite these five lines each session. Nothing else goes in this block.
 
 - **Current course:** Python Basics (rebuild)
-- **Current lesson:** all six through Stage 4, and both assessments are written and live.
-- **Current stage:** Owed: the voice pass across all six lessons, then six episodes.
+- **Current lesson:** all six through Stage 4 and the voice pass; both assessments live.
+- **Current stage:** content complete. Owed: six episodes, blocked on fal.
 - **Blocked on:** fal balance exhausted. Only John can top up, at fal.ai/dashboard/billing.
-- **Next action:** the voice pass across all six Python Basics lessons in one go, with
-  `/voice-pass`, one lesson per invocation. It has numbers to work against in
-  `research/reviews/course-wide.md` CW-05: contractions 38, 28, 49, 43, 10, 8 by lesson, so
-  lessons 5 and 6 need the most and lessons 3 and 4 are the target register. CW-04 (footnote
-  markers missing from the bodies of lessons 3 to 6) is the same pass. If fal has been topped up,
-  that outranks it: render the 26 ready episodes, Personal Finance 3 to 10 first.
+- **Next action:** Writing Clearly, Stage 4 on lesson 1 with `/review-lesson`, then lesson by
+  lesson through all nine, then its voice pass (queue item 3). Python Basics owes nothing but
+  episodes, and rule 6's "do not start the next course" is about the Core order, which Writing
+  Clearly is not: it is a published course still owing its Stage 4, and `docs/DECISIONS.md` §9
+  puts it before the Core. If fal has been topped up, that outranks it: render the 26 ready
+  episodes, Personal Finance 3 to 10 first, then Python Basics' six scripts can be written.
 
 ## The queue, top to bottom
 
@@ -29,7 +29,9 @@ validate` enforces the second half against `curriculum/audio-debt.yaml`.
 
 1. **The 47 owed podcast episodes.** Blocked on fal. 26 are ready to render now: Personal Finance
    3 to 10, Logic and Argument 4 to 10, Bible Basics 2 to 12. About $0.40 each, roughly $11.
-   Writing Clearly's 9 and Algebra's 6 wait on their Stage 4 cycles and voice pass.
+   Python Basics' 6 need scripts written, which is the first step of `/make-podcast` and can be
+   done before fal is topped up. Writing Clearly's 9 and Algebra's 6 wait on their Stage 4 cycles
+   and voice pass.
    Personal Finance lesson 3's script is written and fact-checked (PASS WITH NITS, all five fixed)
    at `courses/money/personal-finance/podcast/03-debt.script.md`, ready to render.
 2. **Python Basics, rebuilt. All six lessons are done.** T6. Stage 1, Stage 2 and Stage 3 complete,
@@ -43,7 +45,10 @@ validate` enforces the second half against `curriculum/audio-debt.yaml`.
    project, Soloway's rainfall problem reworded, with a 35-line reference solution run on four
    transcripts. `estimated_hours` is **9.7** from 580 measured minutes. Record in
    `research/reviews/course-wide.md` CW-06.
-   **Remaining: the voice pass on all six, and six episodes.**
+   **The voice pass ran on all six lessons 2026-09-10**, one fresh-context pass per lesson, with
+   every code block, output, SVG, quiz and frontmatter byte-compared against the committed version
+   afterwards. CW-04 and CW-05 are closed by it, with the numbers in `course-wide.md`.
+   **Remaining: six episodes.**
    Stage 4 found something real in every one of the six, and the executed fact-check is why: wrong
    caret counts, a fabricated traceback line number, a guard (`.isdigit()`) that does not prevent
    the error it was taught to prevent, two wrong Python tutorial section numbers, a quiz explain
@@ -73,7 +78,7 @@ Why items 2 and 3 come before Core order is settled: `docs/DECISIONS.md` §9.
 | Personal Finance | T2 | 10 | 5,932 | 10 | 2 | 2 of 10 | 8 episodes |
 | Algebra Essentials | T5 | 6 | 2,400 | 6 | 2 | 0 of 6 | 6 episodes |
 | Writing Clearly | T1 | 9 | 3,676 | 0 | 2 | 0 of 9 | Stage 4, voice pass, 9 episodes |
-| Python Basics | T6 | 6 | 2,891 | 6 | 2 | 0 of 6 | voice pass, 6 episodes |
+| Python Basics | T6 | 6 | 3,095 | 6 | 2 | 0 of 6 | 6 episodes |
 
 Sixty-one lessons live, twelve with audio. **Python Basics is no longer a stub course**, which leaves Writing Clearly as the last of the three placeholders from DECISIONS §8 still owing its Stage 4. Writing Clearly's low average was a deliberate call,
 that a practical writing course carries its depth in exercises rather than exposition, and **John

@@ -46,6 +46,10 @@ lesson 6 alone, because fixing one of the four would be inconsistency rather tha
 four in one pass**, and the claims that most want a marker are the checkable ones: version numbers,
 syllabus weeks, and anything a security vendor reported.
 
+**Closed 2026-09-10, in the voice pass.** Every `[^n]` in lessons 3 to 6 now sits in the body next
+to the claim its source supports, and stays in the Sources list as lessons 1 and 2 have it. Body
+marker counts, Sources list included: 4 to 8, 5 to 10, 6 to 12, 8 to 19.
+
 ## CW-05, 2026-09-10. The voice pass has a number to work against
 
 Both Stage 4 reviewers this session measured the register drift rather than asserting it.
@@ -56,6 +60,23 @@ paragraphs ending on a compressed one-line moral: seven in lesson 5, nine in les
 
 **The voice pass is owed on all six lessons of this course** and these are the numbers to bring it
 down to. Lessons 3 and 4 are the target, not lessons 5 and 6.
+
+**Closed 2026-09-10.** One fresh-context pass per lesson, six in parallel, each told the targets
+above and forbidden to touch code, output, SVG, quiz, frontmatter or footnote definitions; a
+script then byte-compared all of those against the committed version and found them identical.
+Contractions in body prose by one regex, before and after: 36 to 55, 28 to 48, 48 to 49, 44 to
+44, 12 to 80, 15 to 93. Per thousand words of prose that is 21, 23, 26, 24, 30 and 26, so the six
+lessons now sit in one register and lessons 5 and 6 are no longer the formal pair. Lessons 3 and
+4 were deliberately left almost alone. Paragraph-ending morals: seven of nine folded in lesson 5,
+six in lesson 6. Four blocks added from existing content: a predict in lesson 1 before the `pint`
+traceback, two predicts in lesson 2 (the float comparison and the file-versus-prompt `is` test),
+a checkpoint in lesson 3 on `"-3".isdigit()`, and a checkpoint in lesson 6 on
+`result = items.sort()`. The pass also caught one factual slip: lesson 2's checkpoint called
+`"41"` three characters. Two sentences the passes added were then corrected by the reviewer of the
+diffs, in lessons 4 and 5, because they claimed the pasted output matches a reader's terminal
+exactly, and the lessons themselves substitute file paths and note that a memory address differs.
+One added flourish in lesson 2 was cut. `npm run minutes` reports every lesson inside precision
+after the rewrite, so `minutes:` is unchanged.
 
 ## CW-06, 2026-09-10. The two assessments landed, and what was checked
 

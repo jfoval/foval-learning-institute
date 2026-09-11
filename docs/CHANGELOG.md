@@ -32,8 +32,14 @@ run on four transcripts and the two transcripts printed in the brief are its out
 reference to "the course project" is no longer dangling. `estimated_hours` is 9.7, from 580
 measured minutes. Details in the course's `research/reviews/course-wide.md`, CW-06.
 
-**Still owed on the course:** the voice pass on all six lessons, which has measured targets in
-CW-05, and six podcast episodes, which wait on fal like the other 47.
+**The voice pass ran on all six lessons the same day.** One fresh-context pass per lesson, six in
+parallel, against CW-05's measured contraction counts, with code, output, SVGs, quizzes,
+frontmatter and footnote definitions byte-compared against the committed version afterwards and
+found identical. Lessons 5 and 6, which had drifted a full step more formal than the four before
+them, now sit in the same register. The pass also put the footnote markers of lessons 3 to 6 into
+their bodies (CW-04) and caught one factual slip in a lesson 2 checkpoint. Numbers in CW-05.
+
+**Still owed on the course:** six podcast episodes, which wait on fal like the other 47.
 
 ## 2026-09-09 (third session) — the docs were costing every session more than they were worth
 

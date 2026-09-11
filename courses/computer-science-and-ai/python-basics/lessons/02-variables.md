@@ -90,9 +90,9 @@ quiz:
       rules Python does not have.
 ---
 
-Your programs so far run from top to bottom and forget everything, which is the whole limit on what
-they can do. This lesson gives them a memory, and it rests on one small idea that almost everyone
-misreads first time: what the equals sign actually does.
+Your programs so far run from top to bottom and forget everything, which is the whole limit on
+what they can do. This lesson gives them a memory. It rests on one small idea that almost everyone
+misreads the first time, which is what the equals sign actually does.
 
 ## The equals sign is an instruction
 
@@ -100,7 +100,7 @@ misreads first time: what the equals sign actually does.
 savings = 250
 ```
 
-Read that out loud as "savings **gets** 250", not "savings equals 250". It is a command, not a
+Read that out loud as "savings gets 250", not "savings equals 250". It's a command, not a
 statement of fact. It tells Python to do two things, in a fixed order:
 
 1. Work out what is on the right, completely.
@@ -115,22 +115,22 @@ total = total + 5
 
 As a claim about arithmetic it's nonsense, and people say so. As an instruction it's
 straightforward. Work out the right side, which needs the value `total` has right now, say 20, and
-gives 25. Then make `total` refer to 25, replacing the old value rather than amending it.
+comes to 25. Then make `total` refer to 25. The old value is replaced, not amended.
 
 :::predict Three lines run in order: `a = 3`, then `b = a`, then `a = 10`. What is `a` worth at the end, and what is `b` worth?
 
 `a` is 10 and `b` is 3.
 
 Line 2 does the two steps: work out the right side, which is the value 3, and bind `b` to it. It
-does not connect `b` to the name `a`. There is no thread running between them for line 3 to tug on.
+doesn't connect `b` to the name `a`. There's no thread running between them for line 3 to tug on.
 So when `a` is rebound to 10, `b` is unaffected, and still 3.
 
-This will matter enormously in lesson 6, where lists behave differently and the difference has a
-precise cause.
+Hold on to this one, because it will matter a great deal in lesson 6, where lists behave differently
+and the difference has a precise cause.
 :::
 
-That question, "what is each name worth right now", is the one you will ask about your own code
-more than any other. When you cannot answer it, put the program into
+That question, "what is each name worth right now", is the one you'll ask about your own code
+more than any other. When you can't answer it, put the program into
 [Python Tutor](https://pythontutor.com/), which runs it a line at a time and draws every name and
 value on screen.
 
@@ -156,7 +156,7 @@ You can ask about any value with `type()`:
 ```
 
 Those two aren't the same thing, and the difference isn't cosmetic. `250` is a quantity you can
-do arithmetic with. `"250"` is three characters that happen to look like a quantity.
+do arithmetic with. `"250"` is three characters that happen to look like one.
 
 Watch what `+` does to each:
 
@@ -168,23 +168,24 @@ Watch what `+` does to each:
 ```
 
 `+` isn't being inconsistent. It means "add" for numbers and "join end to end" for text, and it
-picks by looking at what it's been given. There's no arithmetic in the second line at all.
+picks by looking at what it's been given. So there is no arithmetic in the second line at all; it glues two
+characters together and hands you the result.
 
-`*` does the same trick. Between two numbers it multiplies; between text and a whole number it
-repeats:
+`*` makes the same kind of choice. Between two numbers it multiplies; between text and a whole
+number it repeats:
 
 ```
 >>> "ab" * 3
 'ababab'
 ```
 
-That one is worth remembering, because it means a program can do something entirely reasonable
+That one's worth remembering, because it means a program can do something entirely reasonable
 with text you thought was a number, and never complain.
 
 ## Getting something in from outside
 
-`input()` shows a prompt, waits for the person to type a line, and hands back what they typed. This
-is the part that catches everyone:
+`input()` shows a prompt, waits for the person to type a line, and hands back what they typed.
+Here's the part that catches everyone:
 
 ```
 >>> reply = input("How many? ")
@@ -193,14 +194,15 @@ How many? 7
 <class 'str'>
 ```
 
-**`input()` always gives you a string.** Always. It doesn't look at what was typed and decide.
-Even when the user types 7 and means seven, you get the one-character text `"7"`.
+`input()` always gives you a string. Always. It doesn't look at what was typed and decide. Even
+when the user types 7 and means seven, you get the one-character text `"7"`.
 
 :::checkpoint A program asks `age = input("How old are you? ")` and the user types `41`. What is `age` worth, and what type is it?
 
-`age` is the string `"41"`, not the number 41. It looks like a number and it is three characters
+`age` is the string `"41"`, not the number 41. It looks like a number and it's two characters
 of text. Anything you try to do with it arithmetically will fail or, worse, quietly do the wrong
-thing: `age * 2` gives `"4141"` rather than 82.
+thing: `age * 2` gives `"4141"` rather than 82. That's the repeating `*` from a moment ago, doing
+exactly what it was asked.
 :::
 
 So this program is broken:
@@ -219,8 +221,8 @@ Traceback (most recent call last):
 TypeError: unsupported operand type(s) for -: 'int' and 'str'
 ```
 
-Read that the way lesson 1 taught: bottom line first. `TypeError` means the types were wrong for
-the operation. The message names both of them and even names the operator, `-`. Python is telling
+Read that the way lesson 1 taught you: bottom line first. `TypeError` means the types were wrong
+for the operation. The message names both of them and even names the operator, `-`. Python's telling
 you it has an `int` on one side and a `str` on the other and won't guess which one you meant to
 convert. (The squiggles marking the failing part of the line arrived in Python 3.11, so on an older
 one you'll see the same error without them.)
@@ -229,8 +231,9 @@ That refusal to guess is deliberate, and Python states it as a principle:
 [*explicit is better than implicit*](https://peps.python.org/pep-0020/), the second line of the
 Zen of Python.[^5] You can read the whole thing by running `import this`.
 
-Notice, too, that the prompt appeared on screen before the traceback. The program ran. This is the
-second kind of error from lesson 1, found during the run, not before it.
+Notice, too, that the prompt appeared on screen before the traceback. The program ran, and then
+it failed. That makes this the second kind of error from lesson 1, the sort found during the run
+rather than before it.
 
 The fix is to convert, with `int()` for whole numbers or `float()` for numbers with a decimal
 point:
@@ -250,18 +253,24 @@ takes that and produces the number `1999`.
 
 The `f` before the opening quote makes it an **f-string**. Anything in curly brackets inside it is
 worked out and dropped into the text. Without the `f` you'd get the literal characters
-`{2026 - year}` printed, which is a mistake worth making once so you recognise it.
+`{2026 - year}` printed, which is a mistake worth making once so you recognise it next time.
 
 :::checkpoint A user is asked for a price and types `4.50`. Which conversion do you want, and what goes wrong if you pick the other one?
 
-You want `float("4.50")`, which gives `4.5`. `int("4.50")` does not round it down; it raises
-`ValueError: invalid literal for int() with base 10: '4.50'`, because `int()` will not accept text
-containing a decimal point at all. We will meet `ValueError` properly in the next lesson.
+You want `float("4.50")`, which gives `4.5`. `int("4.50")` doesn't round it down; it raises
+`ValueError: invalid literal for int() with base 10: '4.50'`, because `int()` won't accept text
+containing a decimal point at all. We'll meet `ValueError` properly in the next lesson.
 :::
 
 ## A number that is not quite the number
 
-Try this:
+:::predict Before you type it, what do you expect `0.1 + 0.2 == 0.3` to give?
+
+`False`. The sum comes out as `0.30000000000000004`, so the two sides really are different, and
+Python is reporting that honestly. The reason is below.
+:::
+
+Now try it:
 
 ```
 >>> 0.1 + 0.2
@@ -286,21 +295,21 @@ Or, when the values are money, work in whole units of the smallest denomination.
 than pounds, cents rather than dollars, and use `int` throughout, which sidesteps the problem
 instead of managing it. Python also ships a
 [`decimal` module](https://docs.python.org/3/library/decimal.html) that does base-ten arithmetic
-exactly, at the cost of being slower and wordier. Either is a real answer; `float` for money is
+exactly, at the cost of being slower and wordier. Either is a real answer. `float` for money is
 not.
 
-This isn't Python's problem. It's the behaviour of IEEE 754 binary64, the number format nearly
-every language reaches for when it needs decimals, so C, Java and JavaScript all print the same
-thing. The official documentation has
+This isn't Python's problem, either. It's the behaviour of IEEE 754 binary64, the number format
+nearly every language reaches for when it needs decimals, so C, Java and JavaScript all print the
+same thing. If you want the full story, the official documentation has
 [a whole chapter on it](https://docs.python.org/3/tutorial/floatingpoint.html).
 
 ## What people get wrong
 
-**Reading `=` as a claim of equality.** The source of nearly every confusion in this lesson. It's
-an instruction, and the order is right side first.
+**Reading `=` as a claim of equality.** This is where nearly every confusion in this lesson starts.
+It's an instruction, and the order is right side first.
 
 **Expecting `b = a` to keep tracking `a`.** It doesn't, as you predicted above. It copies the
-value across once and the two go their own ways.
+value across once, and after that nothing you do to `a` reaches `b`.
 
 **Expecting `input()` to notice a number.** It never does. If you want a number, say so with
 `int()` or `float()`.
@@ -309,7 +318,7 @@ value across once and the two go their own ways.
 
 **Using `is` when you mean `==`.** This one deserves its own demonstration, because the usual
 advice ("`is` sometimes works by accident on small numbers") understates it. Put these three lines
-in a file:
+in a file, and then, separately, type the same three lines at the `>>>` prompt:
 
 ```
 c = 257
@@ -317,28 +326,32 @@ d = 257
 print(c is d)
 ```
 
-Run the file and you get `True`. Now type exactly the same three lines at the `>>>` prompt, one at
-a time, and you get `False`.
+:::predict Do the file and the prompt print the same answer?
+
+No. Run the file and you get `True`. Type exactly the same three lines at the prompt, one at a
+time, and you get `False`.
+:::
 
 Nothing about the numbers changed. `is` doesn't ask whether two values are equal. It asks whether
-they are **the same object**, and whether Python bothered to reuse one object here depends on how
-your code was compiled, which depends on whether you ran a file or typed at the prompt.
+they are the same object, and whether Python bothered to reuse one object here depends on how your
+code was compiled, which in turn depends on whether you ran a file or typed at the prompt.
 
 Now try it with 5 instead of 257 and you get `True` both ways, because CPython keeps a single
 shared object for every small integer and hands the same one out each time. So the answer moves
 with the size of the number *and* with how you ran the code. Those are implementation details you
-should never have to think about, which is exactly the argument for not using `is` here.
+should never have to think about, and a comparison whose answer depends on them isn't a
+comparison you can build on.
 
-So: **use `==` to compare values.** Use `is` only with `None`, where "the same object" is genuinely
-what you mean, and where the answer never depends on how you ran the code.
+So use `==` to compare values. Use `is` only with `None`, where "the same object" is what you
+actually mean, and where the answer never depends on how you ran the code.
 
 :::callout Naming things
 Names can hold letters, digits and underscores, and can't start with a digit. Python's convention
 is `snake_case`: lower case, words joined by underscores, so `total_price` rather than `totalPrice`
 or `TotalPrice`. It's in [PEP 8](https://peps.python.org/pep-0008/), the style guide the whole Python world
-follows, and it costs nothing to start with.
+follows, and since you're choosing names anyway, you may as well choose them this way from the start.
 
-One trap worth knowing now: do not name your own file `random.py`, `string.py` or `email.py`.
+One trap worth knowing now: don't name your own file `random.py`, `string.py` or `email.py`.
 Python looks for your file first and finds it instead of the real library, and the error you get
 won't make any sense at all.
 :::
@@ -351,7 +364,7 @@ before you change anything.
 
 **One. A unit converter.** Ask for a distance in miles, then print it in kilometres and in metres.
 One mile is 1.609344 kilometres. Use an f-string so the output reads as a sentence rather than a
-bare number. You will need `float()` rather than `int()`, and it is worth typing `1.5` at the
+bare number. You'll need `float()` rather than `int()`, and it's worth typing `1.5` at the
 prompt to see why.
 
 **Two. A predict-then-check.** Before running this, write down what you think each `print` shows.
@@ -367,15 +380,15 @@ print("x" + "y")
 print(str(x) + str(y))
 ```
 
-If the last two lines surprised you, that is the "two kinds of plus" idea from the middle of this
+If the last two lines surprised you, that's the "two kinds of plus" idea from the middle of this
 lesson, and `str()` is the conversion going the other way from `int()`.
 :::
 
 ## Connections
 
 Lesson 1 gave you the loop of run it and read the error. This lesson added `TypeError` to the two
-you already knew, and it arrived exactly as lesson 1 said it would: with output on screen before
-it, because the file parsed fine and failed during the run.
+you already knew, and it arrived exactly as lesson 1 said it would, with output on screen before
+it, because the file parsed fine and then failed during the run.
 
 Next comes making choices. That needs `bool`, which you met in the type table above and haven't
 used yet, and it brings the fourth error, `ValueError`, which is what `int()` raises when the text
@@ -387,7 +400,7 @@ it's handed isn't a number at all. The checkpoint above has already shown you on
   free online. Allen Downey is unusually careful about the difference between a statement and an
   expression, which is the formal version of the idea this lesson opened with.
 - **[The Python tutorial, chapter 15, on floating point](https://docs.python.org/3/tutorial/floatingpoint.html)**.
-  Short, and it will settle the `0.1 + 0.2` question for good.
+  Short, and it'll settle the `0.1 + 0.2` question for good.
 - **[Python Tutor](https://pythontutor.com/)**. Paste the three-line `a`, `b` example in and step
   through it. Seeing the arrows move is worth more than another paragraph from me.
 
