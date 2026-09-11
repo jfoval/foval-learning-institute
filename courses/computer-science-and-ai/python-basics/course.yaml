@@ -11,13 +11,15 @@ description: >-
   Programming is the skill of giving precise instructions to a machine. This course teaches you the
   core ideas every programmer relies on, using Python, one of the most readable and widely used
   languages in the world. By the end you will be able to write small programs that store data, make
-  decisions, repeat work, and organise themselves into reusable pieces.
+  decisions, repeat work, and organise themselves into reusable pieces. Every lesson also teaches
+  you to read one more kind of error message, because a beginner meets their first one about ninety
+  seconds in, and reading them is a skill rather than a talent.
 outcomes:
-  - Run Python and write your first programs
-  - Store and transform data with variables and basic types
-  - Make decisions with if, elif, and else
-  - Repeat work with for and while loops
-  - Organise code into functions
-  - Work with lists and dictionaries to handle collections of data
+  - Run Python two ways, and read a traceback from the bottom up to find what stopped and why
+  - Explain what = does in terms of names and values, and convert what input() gives you
+  - Choose between branches with if, elif and else, and predict which one runs
+  - Repeat work with for and while, and build an accumulator that totals and counts
+  - Write functions with parameters and return values, and say what return gives that print does not
+  - Use lists and dictionaries, and predict what happens when two names share one list
 prerequisites: []
-estimated_hours: 2.8
+estimated_hours: 7.2

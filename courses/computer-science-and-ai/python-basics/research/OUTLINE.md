@@ -32,7 +32,12 @@ of body text are replaced.
 Target 1,800 to 2,600 words a lesson, against the stubs' 463. `minutes:` is measured with
 `npm run minutes`, never guessed.
 
-### 1. Your first program, and your first error (`01-first-program.md`, ~14 min)
+**The per-lesson time estimates that stood in these headings are struck, 2026-09-10**, now that all
+six lessons exist. They said 14 to 20 minutes and the measured figures are 60, 60, 65, 65, 85 and
+95, because they were guessed at Stage 2 from the stubs' own `minutes: 10` on 463-word lessons.
+`estimated_hours` is set from the measured total, 430 minutes, and is 7.2. That closes CW-01.
+
+### 1. Your first program, and your first error (`01-first-program.md`)
 
 - **Objectives:** run a Python program two ways, in the interpreter and from a file; explain what
   each line of a traceback tells you; identify a `SyntaxError` and a `NameError` from the message
@@ -86,7 +91,7 @@ Target 1,800 to 2,600 words a lesson, against the stubs' 463. `minutes:` is meas
   Kaczmarczyk may not be cited in a lesson until someone opens them.*
 - **Connects:** leads to lesson 2, which needs a way to keep a value around between lines.
 
-### 2. Names and values (`02-variables.md`, ~16 min)
+### 2. Names and values (`02-variables.md`)
 
 - **Objectives:** explain what `=` does, in terms of names and values rather than equality;
   predict the value of a name after a sequence of assignments; identify the type of a value and
@@ -122,7 +127,7 @@ Target 1,800 to 2,600 words a lesson, against the stubs' 463. `minutes:` is meas
 - **Spaced review of:** tracebacks. The `TypeError` in worked example (a) is read using lesson 1's
   bottom-up method, out loud, in one sentence.
 
-### 3. Making decisions (`03-conditions.md`, ~16 min)
+### 3. Making decisions (`03-conditions.md`)
 
 - **Objectives:** explain the difference between `=` and `==`; predict which branch of an
   `if`/`elif`/`else` chain runs; apply `and`, `or` and `not` to combine conditions; identify which
@@ -157,7 +162,7 @@ Target 1,800 to 2,600 words a lesson, against the stubs' 463. `minutes:` is meas
 - **Spaced review of:** `int(input())` from lesson 2, now with the failure that lesson 2 did not
   handle.
 
-### 4. Repeating work (`04-loops.md`, ~18 min)
+### 4. Repeating work (`04-loops.md`)
 
 - **Objectives:** compare `for` and `while` and explain when each is the right choice; build an
   accumulator loop that totals and counts; predict the output of a loop over `range()`; identify an
@@ -190,7 +195,7 @@ Target 1,800 to 2,600 words a lesson, against the stubs' 463. `minutes:` is meas
 - **Spaced review of:** truthiness (a `while` condition on a non-empty string), and traceback
   reading on `ZeroDivisionError`.
 
-### 5. Functions (`05-functions.md`, ~18 min)
+### 5. Functions (`05-functions.md`)
 
 - **Objectives:** explain the difference between returning a value and printing one; build a
   function with parameters and a return value; predict what a name is worth inside and outside a
@@ -228,7 +233,7 @@ Target 1,800 to 2,600 words a lesson, against the stubs' 463. `minutes:` is meas
 - **Spaced review of:** the accumulator from lesson 4, now inside a function; the `=` mechanism from
   lesson 2, now used to explain scope.
 
-### 6. Lists and dictionaries (`06-collections.md`, ~20 min)
+### 6. Lists and dictionaries (`06-collections.md`)
 
 - **Objectives:** build and index a list, and explain why the first item is at 0; apply a dictionary
   to look something up by name rather than by position; explain what aliasing is and predict the

@@ -1,6 +1,6 @@
 ---
 title: Lists and dictionaries
-minutes: 85
+minutes: 95
 objectives:
   - Build and index a list, and explain why the first item sits at position 0
   - Apply a dictionary to look something up by name rather than by position
@@ -35,6 +35,21 @@ quiz:
       C. A and B are the same off-by-one twice over, and both raise IndexError on a list of
       three, whose positions are 0, 1 and 2. D invents a name that does not exist.
   - q: >-
+      A program stops with "KeyError: 'plum'", and the line above the message is
+      "total = total + prices[item]", with the markers pointing at "prices[item]". What went
+      wrong, and where should you look first?
+    options:
+      - A word in the thing being looped over is absent from the dictionary
+      - The dictionary is empty, since a lookup on it found nothing at all
+      - A key was added twice, and the duplicate is what the message reports
+      - The total was never set to zero before the loop that adds to it began
+    answer: 0
+    explain: >-
+      KeyError names the key it could not find, so look for 'plum' in whatever is being
+      looped over and ask why the dictionary has no entry for it: A. B would fail on the
+      first item, not on one in particular. C is not an error at all, since assigning to an
+      existing key replaces it. D gives a NameError, and a different line.
+  - q: >-
       You are storing how much each of forty vehicles weighs, and the question you will ask
       is always "what does this registration weigh?". Which shape fits, and why?
     options:
@@ -64,7 +79,8 @@ quiz:
       exists precisely to not raise.
   - q: >-
       A function's body is "data = data + [0]" and then "return data". A program sets "nums =
-      [1, 2]", calls the function on nums without assigning the result, then prints nums.
+      [1, 2]", calls the function on nums without assigning the result, then prints nums. What
+      appears?
     options:
       - "[1, 2, 0], because the function reached the caller's list and extended it"
       - "[0], since the addition replaced the contents with the new single item"
@@ -80,7 +96,7 @@ quiz:
 
 You have been using lists for two lessons without being told what one is. Lesson 4's collector called `.append()`, and lesson 5 handed `[12, 7, 19, 4]` to a function. Both worked. Neither was explained, because a list is easier to meet than to define.
 
-Now it gets explained, along with the other shape you need, and along with the one idea in this course that a careful programmer can still get wrong after ten years.
+Now it gets explained, along with the other shape you need, and along with one idea that experienced programmers still trip over.
 
 ## A list, and the counting
 
@@ -107,8 +123,10 @@ That looks like a needless cruelty until you see what it buys. An index is an of
 
 `readings[-1]` counts backwards, and is how you ask for the last item without knowing how long the list is. That matters, because the obvious way of asking is wrong:
 
+Add one more line to the program above:
+
 ```
->>> readings[len(readings)]
+print(readings[len(readings)])
 ```
 
 ```
@@ -119,9 +137,11 @@ Traceback (most recent call last):
 IndexError: list index out of range
 ```
 
-`len(readings)` is 4, and the positions are 0, 1, 2 and 3. The last is `len(readings) - 1`, or simply `-1`. `IndexError` is the sixth error in this course and it means one thing only: you asked for a position that is not there.
+`len(readings)` is 4, and the positions are 0, 1, 2 and 3. The last is `len(readings) - 1`, or simply `-1`. `IndexError` is the sixth error in this course, and lesson 1 promised you would meet it properly once lists arrived. Here it is, and it means one thing only: you asked for a position that is not there.
 
-A list is **mutable**, which means it can be changed after it is made. `.append(x)` puts one item on the end, `.clear()` empties it, and assigning to a position replaces what was there. That property is convenient, and it is also the source of the next section, which is the whole reason this lesson exists.
+Read it from the bottom as usual. The last line names the fault. Above it, line 7 and the source line, and under that the markers `~~~~~~~~^^^^^^^^^^^^^^^`, with the carets sitting under `len(readings)`, which is the part that produced the position Python could not find.
+
+A list is **mutable**, which means it can be changed after it is made. `.append(x)` puts one item on the end, `.clear()` empties it, and assigning to a position replaces what was there. That property is convenient, and it is also the source of the next section.
 
 ## Two names, one list
 
@@ -138,7 +158,7 @@ If you expected `a` to still be `[1, 2, 3]`, you have the belief that `b = a` co
 
 Here is the rule from lesson 2 again, because it has not changed and does not need to: **`=` makes the name on the left refer to the value on the right.** `b = a` does not copy anything. It works out what `a` is worth, which is a particular list sitting in memory, and points `b` at that same list. Two names, one list. Change it through either name and the change is simply there, because there is only one thing to change.
 
-This is called **aliasing**, and it is the single most consequential idea in the lesson.
+This is called **aliasing**.
 
 Now compare it with the numbers from lesson 2:
 
@@ -162,6 +182,7 @@ When you want an actual copy, ask for one:
 ```
 a = [1, 2, 3]
 b = a[:]
+print(a == b, a is b)
 b.append(4)
 print("a is", a)
 print("b is", b)
@@ -169,14 +190,54 @@ print(a == b, a is b)
 ```
 
 ```
+True False
 a is [1, 2, 3]
 b is [1, 2, 3, 4]
 False False
 ```
 
-`a[:]` is a slice with both ends left off, meaning the whole thing, and slicing a list makes a new one. `list(a)` does the same and reads better. And that last line is the only honest use of `is` you will meet: `==` asks whether two lists hold equal items, `is` asks whether they are the same object. On identical lists in different boxes, `==` is `True` and `is` is `False`.
+`a[:]` is a slice with both ends left off, meaning the whole thing, and slicing a list makes a new one. `list(a)` does the same and reads better.
 
-[Open this in Python Tutor](https://pythontutor.com/visualize.html#code=a%20%3D%20%5B1%2C%202%2C%203%5D%0Ab%20%3D%20a%0Ab.append%284%29%0A%0Ac%20%3D%20%5B1%2C%202%2C%203%5D%0Ad%20%3D%20c%5B%3A%5D%0Ad.append%284%29%0A&cumulative=false&py=3&rawInputLstJSON=%5B%5D) and look at the arrows rather than the values. The first pair has two arrows into one box. The second has two boxes. That picture is worth more than this section.
+The two comparison lines are the point. Straight after the copy, `a == b` is `True` and `a is b` is `False`: equal contents, different boxes. That gap is exactly what `b = a` did not give you, and it is what `is` is actually asking. `==` compares what is in the lists; `is` asks whether there is one list or two. After the append, even `==` goes false, because now the contents differ too.
+
+Lesson 2 told you to use `==` and to keep `is` for `None`, and that rule stands: `is None` is the test you will write. This is the other thing `is` is for, and it is a thing you will read far more often than you write.
+
+The difference is easier to see drawn than described. A name is not a box; it is an arrow pointing at one.
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 344 286" role="img" aria-labelledby="alias-title alias-desc" style="width:100%;height:auto;font-family:inherit">
+  <title id="alias-title">Two names sharing one list, against two names with a list each</title>
+  <desc id="alias-desc">Two diagrams. In the upper one, after b = a and then b.append(4), the names a and b both have arrows pointing at a single box holding the list 1, 2, 3, 4. In the lower one, after b = a slice of a and then b.append(4), the name a points at a box holding 1, 2, 3 and the name b points at a separate box holding 1, 2, 3, 4.</desc>
+  <text x="2" y="16" font-size="16" font-weight="700" fill="var(--text, #111418)">After b = a, then b.append(4)</text>
+  <rect x="3" y="30" width="46" height="30" rx="4" fill="var(--surface-2, #f3f5f8)" stroke="var(--line-strong, #b9c1cd)" stroke-width="2"/>
+  <text x="26" y="51" font-size="16" text-anchor="middle" fill="var(--text, #111418)">a</text>
+  <rect x="3" y="76" width="46" height="30" rx="4" fill="var(--surface-2, #f3f5f8)" stroke="var(--line-strong, #b9c1cd)" stroke-width="2"/>
+  <text x="26" y="97" font-size="16" text-anchor="middle" fill="var(--text, #111418)">b</text>
+  <line x1="51" y1="45" x2="152" y2="58" stroke="var(--text-2, #4a5260)" stroke-width="2"/>
+  <polygon points="160,60 148,53 149,63" fill="var(--text-2, #4a5260)"/>
+  <line x1="51" y1="91" x2="152" y2="78" stroke="var(--text-2, #4a5260)" stroke-width="2"/>
+  <polygon points="160,76 149,73 148,83" fill="var(--text-2, #4a5260)"/>
+  <rect x="162" y="50" width="178" height="36" rx="4" fill="var(--surface, #ffffff)" stroke="var(--text-2, #4a5260)" stroke-width="2"/>
+  <text x="251" y="74" font-size="17" text-anchor="middle" fill="var(--text, #111418)">[1, 2, 3, 4]</text>
+  <text x="2" y="132" font-size="15" fill="var(--text-2, #4a5260)">One list. Both names see the change.</text>
+  <line x1="2" y1="148" x2="342" y2="148" stroke="var(--line, #d6dbe3)" stroke-width="1"/>
+  <text x="2" y="176" font-size="16" font-weight="700" fill="var(--text, #111418)">After b = a[:], then b.append(4)</text>
+  <rect x="3" y="190" width="46" height="30" rx="4" fill="var(--surface-2, #f3f5f8)" stroke="var(--line-strong, #b9c1cd)" stroke-width="2"/>
+  <text x="26" y="211" font-size="16" text-anchor="middle" fill="var(--text, #111418)">a</text>
+  <rect x="3" y="236" width="46" height="30" rx="4" fill="var(--surface-2, #f3f5f8)" stroke="var(--line-strong, #b9c1cd)" stroke-width="2"/>
+  <text x="26" y="257" font-size="16" text-anchor="middle" fill="var(--text, #111418)">b</text>
+  <line x1="51" y1="205" x2="152" y2="205" stroke="var(--text-2, #4a5260)" stroke-width="2"/>
+  <polygon points="160,205 148,200 148,210" fill="var(--text-2, #4a5260)"/>
+  <line x1="51" y1="251" x2="152" y2="251" stroke="var(--text-2, #4a5260)" stroke-width="2"/>
+  <polygon points="160,251 148,246 148,256" fill="var(--text-2, #4a5260)"/>
+  <rect x="162" y="189" width="178" height="32" rx="4" fill="var(--surface, #ffffff)" stroke="var(--text-2, #4a5260)" stroke-width="2"/>
+  <text x="251" y="211" font-size="17" text-anchor="middle" fill="var(--text, #111418)">[1, 2, 3]</text>
+  <rect x="162" y="235" width="178" height="32" rx="4" fill="var(--surface, #ffffff)" stroke="var(--text-2, #4a5260)" stroke-width="2"/>
+  <text x="251" y="257" font-size="17" text-anchor="middle" fill="var(--text, #111418)">[1, 2, 3, 4]</text>
+</svg>
+
+Two names with one arrow each. In the top drawing both arrows land on the same box, so appending through `b` changes what `a` sees, because there is nothing else for `a` to see. In the bottom one the slice made a second box before anything was appended, so the two names have nothing in common but their contents at the moment of copying.
+
+[The same thing, animated, in Python Tutor](https://pythontutor.com/visualize.html#code=a%20%3D%20%5B1%2C%202%2C%203%5D%0Ab%20%3D%20a%0Ab.append%284%29%0A%0Ac%20%3D%20%5B1%2C%202%2C%203%5D%0Ad%20%3D%20c%5B%3A%5D%0Ad.append%284%29%0A&cumulative=false&py=3&rawInputLstJSON=%5B%5D), where you can watch the arrows appear as each line runs.
 
 ### What this does to functions
 
@@ -196,14 +257,20 @@ wipe(a)
 print("after wipe:", a)
 ```
 
+:::predict Both functions take the list and do something to it. `replace` sets `items` to a new empty list; `wipe` calls `.clear()` on it. After `replace(a)` and then `wipe(a)`, what does each line print?
 ```
 after replace: [1, 2, 3]
 after wipe: []
 ```
 
-`replace` rebinds its own parameter and the caller's list is untouched, exactly as lesson 5 said. `wipe` reaches the same list through the same aliasing and empties it. The function still cannot change what the caller's *name* refers to. It can change the *thing* the name refers to, if that thing is mutable and it was handed the thing itself.
+`replace` did nothing that survived the call. `wipe` emptied the caller's list. If you expected both to empty it, or neither, the paragraph below is the one to read twice.
+:::
 
-So when you pass a list to a function you did not write, it is worth knowing whether that function mutates. The convention helps: a method that returns a new value usually leaves the original alone, and one that returns `None` usually changed something. `sorted(items)` gives you a new sorted list; `items.sort()` gives you `None` and rearranges the list you gave it.
+`replace` rebinds its own parameter and the caller's list is untouched, exactly as lesson 5 said. `wipe` reaches the same list through the same aliasing and empties it. The function still cannot change what the caller's *name* refers to. It can change the *thing* the name refers to, when that thing is one that can be changed at all.
+
+So when you pass a list to a function you did not write, it is worth knowing whether that function mutates. For the built-in list methods there is a rule you can lean on: **the ones that change the list return `None`.** `items.sort()` returns `None` and rearranges the list you gave it, while the separate built-in function `sorted(items)` leaves it alone and hands you a new sorted list. So does `items.reverse()` against `reversed(items)`.
+
+The rule has one everyday exception, `.pop()`, which removes the last item and returns it, doing both at once. And it is a rule about the built-in types, not a promise about code someone else wrote. For that, read the function or read its documentation.
 
 ## Looking something up by name
 
@@ -228,7 +295,7 @@ Curly brackets, and pairs written `key: value`. You look up by key instead of by
 Reading a key that is not there is a different matter:
 
 ```
->>> scores["linus"]
+print(scores["linus"])
 ```
 
 ```
@@ -239,7 +306,7 @@ Traceback (most recent call last):
 KeyError: 'linus'
 ```
 
-`KeyError` is the seventh and last error of this course, and like `IndexError` it says one thing: you asked for something that is not in there. Note that it quotes the key back at you, which is more help than it sounds, because half the time the key is `"Ada"` and the dictionary has `"ada"`.
+`KeyError` is the seventh and last error of this course, and like `IndexError` it says one thing: you asked for something that is not in there. Note that it quotes the key back at you, which is more help than it sounds: seeing `'linus'` in the message is how you find out the key you passed was not the key you thought you passed, and a difference of one capital letter is the usual reason.
 
 Three ways to handle a key that might be missing:
 
@@ -272,7 +339,7 @@ alan 74
 
 Two names on the `for` line, because each pair comes out as two things.
 
-The order is worth being precise about. A dictionary preserves **insertion order**, guaranteed by the language since version 3.7. It is not sorted by key, and it never was:
+The order is worth being precise about. A dictionary preserves **insertion order**, guaranteed by the language since version 3.7, which is when the behaviour stopped being a detail of how CPython happened to be built and was, in the release notes' own words, ["declared to be an official part of the Python language spec"](https://docs.python.org/3/whatsnew/3.7.html). It is not sorted by key, and it never was:
 
 ```
 d = {}
@@ -290,6 +357,8 @@ If you want it sorted, sort it when you print it. Do not expect the dictionary t
 ## Counting words
 
 This is the first program in the course that puts four things together at once, and putting easy things together is a different skill from having them.
+
+That is not a figure of speech. Computing education has a standard task for testing it, set by Elliot Soloway in the 1980s: read a run of daily rainfall figures, stop at a sentinel, ignore the negative ones, print the average. Every piece is something a beginner can do. Studies have been reporting success rates under twenty per cent on the whole thing ever since, and researchers have spent forty years arguing about why. So if the next program feels harder than the sum of its parts, that is the documented experience of a great many people and not a verdict on you.
 
 ```
 sentence = "the cat sat on the mat the end"
@@ -339,7 +408,8 @@ Lowercase the sentence once, before splitting it, and every word arriving in the
 
 **Two lists kept side by side** where one dictionary belongs, so that `names[3]` and `scores[3]` have to stay in step. They will not stay in step. If the natural question is "what is the score for this name", the answer is one dictionary.
 
-:::callout The trap with a default of `[]`
+### The trap with a default of `[]`
+
 Lesson 5 said a default value is worked out once, when the `def` runs, and promised this would matter when lists arrived. It has arrived.
 
 ```
@@ -352,25 +422,27 @@ print(add_reading(2))
 print(add_reading(3))
 ```
 
+:::predict Three calls, each supplying only a value and letting `log` take its default. What do the three lines print?
 ```
 [1]
 [1, 2]
 [1, 2, 3]
 ```
 
-There is one list, made when the function was defined, and every call that takes the default gets that same one. This is aliasing again, and it surprises people for years.
+Almost nobody predicts this the first time. The expected answer is `[1]`, `[2]`, `[3]`, which is what you would get if each call started from a fresh empty list.
+:::
 
-The fix is the standard one, and you will see it in real code constantly:
+It does not, because there is only one list. It was made once, while Python was reading the `def`, and every call that takes the default is handed that same one. This is aliasing again, wearing its least obvious disguise: the default value and the parameter are two names for one list that outlives every call.
 
+:::callout The fix, which you will see constantly
 ```
 def add_reading(value, log=None):
-    if log is None:
-        log = []
+    log = [] if log is None else log
     log.append(value)
     return log
 ```
 
-Now each call that supplies no log gets a fresh one. `None` as a default, with an `if` at the top, is the idiom for any default that could be mutated.
+Now each call that supplies no log gets a fresh one, because `[]` is worked out at the call rather than at the `def`. `None` as the default, with a line at the top that replaces it, is the idiom for any default that could be changed after it is made: a list, a dictionary, or a set.
 :::
 
 ## Practice
@@ -378,7 +450,7 @@ Now each call that supplies no log gets a fresh one. `None` as a default, with a
 :::exercise Everything at once
 Take 30 minutes over these.
 
-**One. Predict, then run.** `nums = [1, 2, 3]`, then `copy = nums`, then `copy[0] = 99`, then `nums[2] = 77`. Write down what both names hold before you run it. This is the same idea as the predict above, arriving by assignment to a position rather than by `.append()`, and if you are confident about one and not the other, that is worth knowing.
+**One. Predict, then run.** `nums = [4, 5, 6]`, then `twin = nums`, then `twin[1] = 0`, then `nums[2] = 77`. Write down what both names hold before you run it, and note that the second change is made through the *other* name. This is the same idea as the predict above, arriving by assignment to a position rather than by `.append()`, and if you are confident about one and not the other, that is worth knowing.
 
 **Two. Invert a dictionary.** Given `{"ada": 88, "grace": 91}`, build `{88: "ada", 91: "grace"}` with a loop. Then answer this before moving on: what happens if two people have the same score, and what would you want to happen? There is no single right answer, and choosing deliberately is the exercise.
 
@@ -393,43 +465,47 @@ Six lessons is not a lot, and it is worth being straight about what is missing r
 
 You have not met **files**, so nothing you write yet survives being closed. You have not met **modules**, so you cannot use the enormous standard library that is the actual reason people reach for Python. You have not met **classes**, **testing**, **regular expressions** or **exception handling with `try`**, which is the tool for dealing with the errors this course has only taught you to read.
 
-Classes in particular are a deliberate omission and not an oversight. Most introductory courses defer them, on the reasoning that objects solve a problem of program organisation that you have not had yet, and that meeting the solution before the problem is how the idea becomes mysterious. You have twice now met the problem first, in lesson 5 and in this exercise. Do it that way with classes too.
+Classes in particular are a deliberate omission and not an oversight. Almost every course and book in this course's research file defers them to the end, and the usual reasoning is that objects solve a problem of program organisation that a beginner has not had yet, so meeting the solution first is how the idea becomes mysterious. That reasoning is not unanimous, and it is more settled for a course like this one, aimed at everybody, than for a first course aimed at computing majors, where the argument is live. You have twice now met the problem first, in lesson 5 and in this exercise. Do it that way with classes too.
 
 Two honest next steps, and they suit different people. **[CS50P](https://cs50.harvard.edu/python/)** is Harvard's ten-week version, free, with graded problem sets, and it reaches exceptions in week 3 and unit tests in week 5. **[Automate the Boring Stuff](https://automatetheboringstuff.com/)** is free online and aims straight at doing something useful with files, spreadsheets and the web. The first is the academic route and the second is the practical one.
 
 :::callout Before you install anything
 Two things that a course of this length can only warn you about, and both are real.
 
-**`pip install` runs code from the internet on your machine, at the moment of installing.** A package can execute arbitrary code during its own installation, so a mistyped package name is not a typo, it is an execution. Typosquatting on the Python Package Index is an active and ongoing campaign rather than a theoretical risk, and PyPI now flags likely typosquats when a project is created. Read the name twice before you press Enter, and get it from the project's own documentation rather than from memory.
+**`pip install` runs code from the internet on your machine, at the moment of installing.** A package can execute arbitrary code during its own installation, so a mistyped package name is not a typo, it is an execution. Typosquatting on the Python Package Index is an active campaign rather than a theoretical risk. To take one case from August 2025, [security researchers at Zscaler found](https://www.zscaler.com/blogs/security-research/malicious-pypi-packages-deliver-silentsync-rat) a package called **`sisaws`**, one letter away from the real **`sisa`**, which is a library for talking to Argentina's national health information system. Installing the wrong one delivered a remote access trojan that read saved browser passwords and cookies. One letter. PyPI now flags likely typosquats when a project is created, which helps and is not a guarantee. Read the name twice before you press Enter, and take it from the project's own documentation rather than from memory.
 
 **Use a virtual environment.** Your operating system may depend on its own Python, and installing packages into it can break things that have nothing to do with you. `venv` is built in and exists for exactly this. [The tutorial's chapter 12](https://docs.python.org/3/tutorial/venv.html) is three pages and is the thing to read before your first `pip install`, not after it.
 :::
 
-One last thing, because you may be deciding whether to carry on in Python at all. Python is a good first language and it is not objectively the best one, and people who have thought about this seriously disagree. What it gives you is little syntactic ceremony, so you spend your attention on the ideas. What it costs you is that its types are checked as the program runs rather than before, so a mistake sits quietly in a branch you have not tested until the day that branch runs. That is not a small cost, and it is precisely why this course put a traceback in lesson 1 and gave you a new error in every lesson since. In a language that checks more before running, you would have met fewer of those, and later.
+One last thing, because you may be deciding whether to carry on in Python at all. Python is a good first language and it is not objectively the best one, and people who have thought about this seriously disagree. What it gives you is little syntactic ceremony, so you spend your attention on the ideas. What it costs you is that its types are checked as the program runs rather than before, so a mistake sits quietly in a branch you have not tested until the day that branch runs. That is not a small cost. It is also why this course put a traceback in lesson 1 and gave you six more across the five lessons since: in Python, reading them is not an advanced skill, it is the basic one.
+
+The people who disagree are worth hearing rather than waving at. The case for starting in a language that checks types before it runs, Java being the usual example, is that the compiler catches a whole class of mistake before the program exists, and that writing the types down documents what a function expects to anyone reading it later. On that view Python does not remove the difficulty, it moves it to a worse place, into a branch nobody has run yet. There is also a case, with research behind it, for starting in a language like Racket, on the grounds that beginners there choose better structures for exactly the kind of multi-plan problem you met in the word counter. Both are serious positions held by people who teach beginners for a living.
 
 You have met seven: `SyntaxError`, `NameError`, `TypeError`, `ValueError`, `ZeroDivisionError`, `IndexError` and `KeyError`. Plus `KeyboardInterrupt` from lesson 4, which is not a mistake at all but the trace left when you stop a runaway program yourself. Those seven are most of what a beginner's traceback ever says. Reading them is the skill this course was really teaching.
 
 ## Go deeper
 
 - **[The Python tutorial, chapter 5, "Data Structures"](https://docs.python.org/3/tutorial/datastructures.html)** for lists, list methods, slicing and dictionaries, and the list comprehension, which is the compact loop you will see everywhere and which this course deliberately skipped.
-- **[Think Python, chapter 9, "Lists"](https://allendowney.github.io/ThinkPython/chap09.html)** and **[chapter 10, "Dictionaries"](https://allendowney.github.io/ThinkPython/chap10.html)**, free online. Downey's treatment of aliasing is the clearest short one there is.
+- **[Think Python, chapter 9, "Lists"](https://allendowney.github.io/ThinkPython/chap09.html)** and **[chapter 10, "Dictionaries"](https://allendowney.github.io/ThinkPython/chap10.html)**, free online. Downey gives aliasing its own named section, 9.10, rather than a passing mention.
 - **[Automate the Boring Stuff, chapters 6 and 7](https://automatetheboringstuff.com/3e/chapter6.html)**, free online, on lists and on structuring data with dictionaries.
 - **[Python Tutor](https://pythontutor.com/)** once more. Paste anything from this lesson that surprised you and watch the arrows.
 
 ## Sources
 
 1. *The Python Tutorial*, chapter 5, "Data Structures", Python 3.14 documentation. Lists and their methods, slicing, dictionaries, `.get()`, `.items()`, and the statement that a dictionary preserves insertion order. [^1]
+1b. *What's New In Python 3.7*, release highlights, for the version at which that ordering became a guarantee: the insertion-order behaviour of `dict` "has been declared to be an official part of the Python language spec". Before 3.7 it was true of CPython and not promised. [^1b]
 2. *The Python Tutorial*, chapter 12, "Virtual Environments and Packages". The source for the `venv` recommendation in the callout above. [^2]
-3. Allen B. Downey, *Think Python*, 3rd edition 2023, chapters 9 and 10. Free online under CC BY-NC-SA 4.0, linked rather than adapted. Downey treats aliasing and copying as a named topic rather than a footnote. [^3]
+3. Allen B. Downey, *Think Python*, 3rd edition 2023, chapters 9 and 10. Free online under CC BY-NC-SA 4.0, linked rather than adapted. Chapter 9 was opened on 10 September 2026 to check this: section 9.10 is titled "Aliasing" and section 9.3 covers copying with both the full slice and `list()`. [^3]
 4. Al Sweigart, *Automate the Boring Stuff with Python*, 3rd edition, chapters 6 and 7. Free online under CC BY-NC-SA 3.0, linked rather than adapted. [^4]
 5. CS50P, Harvard University, course syllabus. Exceptions in week 3 and unit tests in week 5, cited in "where this leads" as evidence that both are beginner topics rather than advanced ones. [^5]
-6. On typosquatting: the Python Package Index publishes guidance and now flags likely typosquats at project creation, and 2025 saw repeated malicious-package incidents reported by security vendors. The callout states only what is not in dispute, that installation can execute code and that the campaign is ongoing. No download or incident figure is quoted, because the figures available to this session came from summaries rather than from the primary reports. [^6]
+6. Zscaler ThreatLabz, "Malicious PyPI Packages Deliver SilentSync RAT", 4 August 2025, for the `sisaws` against `sisa` case named in the callout, the legitimate package's purpose, and the browser credential theft the malicious one performed. The Python Package Index publishes its own guidance and now flags likely typosquats at project creation. **No download count or incident total is quoted anywhere in this lesson**, because the figures available when this course was researched came from summaries rather than from primary reports, and SOURCES.md records which. [^6]
 7. All code and output in this lesson was run on CPython 3.14.7 and pasted from the terminal, including all three tracebacks, the word counts, the aliasing results and the mutable-default sequence. Paths in the tracebacks are shown as `/home/you/` in place of the machine's own. [^7]
 
 [^1]: *The Python Tutorial*, 3.14, ch. 5.
+[^1b]: *What's New In Python 3.7*, docs.python.org/3/whatsnew/3.7.html.
 [^2]: *The Python Tutorial*, 3.14, ch. 12.
 [^3]: Downey, *Think Python* 3e, chs. 9 and 10.
 [^4]: Sweigart, *Automate the Boring Stuff* 3e, chs. 6 and 7.
 [^5]: CS50P syllabus, cs50.harvard.edu/python.
-[^6]: See SOURCES.md, "Safety-critical guidance", for what was and was not verified.
+[^6]: Zscaler ThreatLabz, 4 August 2025. See also SOURCES.md, "Safety-critical guidance", for what was and was not verified.
 [^7]: Run 10 September 2026.

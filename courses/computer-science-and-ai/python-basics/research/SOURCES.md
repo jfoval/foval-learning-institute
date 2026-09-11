@@ -66,7 +66,7 @@ range, so the stubs' use of them is fine.
   conditionals, which is not what the academic texts do. Worth noting as a live disagreement rather
   than copying.
 - **Downey, *Think Python* (3rd ed., 2023, O'Reilly; free online at
-  allendowney.github.io/ThinkPython, CC BY-NC-SA 4.0).** **TOC read.** Chapters: 1 Programming as a
+  allendowney.github.io/ThinkPython, CC BY-NC-SA 4.0).** **TOC read, plus chapter 9 opened on 2026-09-10** while reviewing lesson 6: section 9.10 is titled "Aliasing" and opens "If `a` refers to an object and you assign `b = a`, then both variables refer to the same object", and section 9.3 covers copying with both the full slice and `list()`. Chapters: 1 Programming as a
   way of thinking; 2 Variables and Statements; 3 Functions; 4 Functions and Interfaces; 5
   Conditionals and Recursion; 6 Return Values; 7 Iteration and Search; 8 Strings and Regular
   Expressions; 9 Lists; 10 Dictionaries; 11 Tuples; 12 Text Analysis and Generation; 13 Files and

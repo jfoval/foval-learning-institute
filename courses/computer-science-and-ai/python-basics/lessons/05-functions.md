@@ -1,6 +1,6 @@
 ---
 title: Functions
-minutes: 75
+minutes: 85
 objectives:
   - Explain the difference between returning a value and printing one, and say what each is for
   - Build a function with parameters, a default and a return value, and call it by keyword
@@ -73,16 +73,32 @@ quiz:
     answer: 1
     explain: >-
       Naming the parameter lets you skip the one in between and leave times at 2. B. A is
-      the slip this item is about: the second position is times, so "+" would be the repeat
-      count and the join would fail. C passes a number where the joiner goes. D omits word,
+      the slip this item is about: the second position is times, so "+" becomes the repeat
+      count, and ["go"] * "+" raises a TypeError about multiplying a sequence by a string
+      before the join is ever reached. C passes a number where the joiner goes. D omits word,
       which has no default, so the call is short an argument.
 ---
 
-By the end of lesson 4 you had written `total = total + n` and `count = count + 1` more times than you wanted to. The averaging block is five lines, it works, and you would have to paste it again for the next set of readings. That is the problem this lesson solves, and you met the problem first on purpose.
+By the end of lesson 4 you had written `total = total + n` and `count = count + 1` more times than you wanted to. The averaging block is six lines with its print, it works, and you would have to paste it again for the next set of readings. That is the problem this lesson solves, and you met the problem first on purpose.
 
 ## Giving a block of work a name
 
-Here is the averaging from lesson 4, lifted out whole:
+Take the averaging from lesson 4. Here it is beside the version this lesson is about to build, so that what changed is on the page rather than in your memory:
+
+**Lesson 4, pasted wherever you needed it:**
+
+```
+total = 0
+count = 0
+
+for r in readings:
+    total = total + r
+    count = count + 1
+
+print("Average:", total / count)
+```
+
+**The same work, given a name:**
 
 ```
 def average(numbers):
@@ -104,15 +120,15 @@ print(average([5, 5, 5, 40]))
 
 Four pieces, and each has a name worth knowing.
 
-`def` creates the function. It does not run it. Python reads those seven lines, notes that a thing called `average` exists, and carries on. Nothing is averaged until something calls it.
+`def` creates the function. It does not run the body. Python reads those seven lines, notes that a thing called `average` exists, and carries on. Nothing is averaged until something calls it.
 
 `numbers` is a **parameter**: a name that will exist inside the function, and that gets its value from whoever calls. `[12, 7, 19, 4]` at the call is an **argument**. Parameter in the definition, argument at the call, and the two words are worth keeping straight because error messages use them.
 
-The indented block is the body, and it is the lesson 4 code unchanged.
+The indented block is the body, and it is the lesson 4 loop with two names changed, `r` to `n` and `readings` to `numbers`, and one real change at the bottom: `print` has become `return`. Hold on to that one. It is the next section, and it is the difference between a function that works and a function that only appears to.
 
 `return` hands a value back to whoever called, and ends the function on the spot.
 
-The five lines are now written once. Change how an average is worked out and you change it in one place, which is the whole argument for functions and is not really about saving typing.
+The accumulator is now written once. Change how an average is worked out and you change it in one place, which is the whole argument for functions and is not really about saving typing.
 
 :::predict Two functions take `a` and `b`. `add`'s whole body is `return a + b`; `show`'s whole body is `print(a + b)`. A program runs `total = add(2, 3) * 2` and, on another line, `total = show(2, 3) * 2`. One of those lines works. Which, and what does the other one do?
 `add` works and gives `10`. `show` fails.
@@ -223,7 +239,7 @@ zero
 
 Call it with `-4` and the first `return` fires. `checked the sign` is never printed, because the function was over before that line was reached. Call it with `0` and the first `if` is false, so the print does run, and then the second `return` ends it.
 
-This is the reason a function like `describe` needs no `else`. Once a branch has returned, the ones below cannot be reached by that call, so an `elif` chain and a run of plain `if`s behave the same here. That is a real pattern in other people's code and it reads oddly until you know why it is safe.
+This is also why you will see functions written as a run of plain `if`s with no `else` anywhere. Once a branch has returned, nothing below it can be reached by that call, so the `elif` chain you would have written in lesson 3 buys nothing. `band`, further down this lesson, is exactly that shape: three tests, no `else`, and identical in behaviour to the `elif` version. It reads oddly until you know why it is safe.
 
 ## Names made inside stay inside
 
@@ -268,9 +284,9 @@ outside: ada
 
 `word` inside the function is its own name. Rebinding it does nothing to `name` outside. This is lesson 2's rule doing exactly what it always did: `=` makes the name on the left refer to the value on the right, and a name is not a tether to another name.
 
-The only way a function changes anything out here is by returning something you then use. `name = shout(name)` would, if `shout` returned instead of printed.
+For everything you have met so far, the only way a function changes anything out here is by returning something you then use. `name = shout(name)` would, if `shout` returned instead of printed. Lesson 6 adds the one exception, and it needs a kind of value you have not met yet.
 
-Step through it at [Python Tutor with the averaging function already loaded](https://pythontutor.com/visualize.html#code=def%20average%28numbers%29%3A%0A%20%20%20%20total%20%3D%200%0A%20%20%20%20count%20%3D%200%0A%20%20%20%20for%20n%20in%20numbers%3A%0A%20%20%20%20%20%20%20%20total%20%3D%20total%20%2B%20n%0A%20%20%20%20%20%20%20%20count%20%3D%20count%20%2B%201%0A%20%20%20%20return%20total%20%2F%20count%0A%0Areadings%20%3D%20%5B12%2C%207%2C%2019%2C%204%5D%0Aresult%20%3D%20average%28readings%29%0Aprint%28result%29%0A&cumulative=false&py=3&rawInputLstJSON=%5B%5D). Press Next and watch a second box appear when the call starts, holding `numbers`, `total` and `count`, and watch the whole box vanish when `return` runs. The disappearing box is the thing to see.
+Step through it at [Python Tutor with the averaging function already loaded](https://pythontutor.com/visualize.html#code=def%20average%28numbers%29%3A%0A%20%20%20%20total%20%3D%200%0A%20%20%20%20count%20%3D%200%0A%20%20%20%20for%20n%20in%20numbers%3A%0A%20%20%20%20%20%20%20%20total%20%3D%20total%20%2B%20n%0A%20%20%20%20%20%20%20%20count%20%3D%20count%20%2B%201%0A%20%20%20%20return%20total%20%2F%20count%0A%0Areadings%20%3D%20%5B12%2C%207%2C%2019%2C%204%5D%0Aresult%20%3D%20average%28readings%29%0Aprint%28result%29%0A&cumulative=false&py=3&rawInputLstJSON=%5B%5D). Press Next and watch a second box appear when the call starts, holding `numbers`, `total`, `count` and, once the loop starts, `n`, and watch the whole box vanish when `return` runs. The disappearing box is the thing to see.
 
 ## More than one parameter, and calling by name
 
@@ -297,9 +313,60 @@ fail
 distinction
 ```
 
-`band(61)` uses the default of 50 and passes. `band(61, 70)` supplies a stricter mark and the same score now fails. The last call names both, which lets you give them in any order and, more usefully, lets you skip past a parameter you are happy with. You will read keyword arguments in other people's code within the hour, and this is all they are.
+`band(61)` uses the default of 50 and passes. `band(61, 70)` supplies a stricter mark and the same score now fails.
 
-Two rules that come with defaults. A parameter with a default must come after the ones without, or the definition itself is a `SyntaxError`. And a default is worked out once, when the `def` runs, not at each call, which is harmless for a number like 50 and is a genuine trap for a list. Lesson 6 has the trap, once lists exist.
+:::checkpoint What does `band(90, 95)` give back? The pass mark is being set to 95 and the score is only 90.
+
+`"distinction"`.
+
+The first test is `score >= 90`, and 90 clears it, so the function returns before `pass_mark` is ever looked at. This is lesson 3's rule about ordering a chain, turning up inside a function: the first test that matches decides the answer, so where you put a test is part of what the code means. Whether that is the behaviour you wanted is a separate question, and it is the kind of thing that sits in a program for months.
+:::
+
+The last call names both, which lets you give them in any order and, more usefully, lets you skip past a parameter you are happy with. Keyword arguments are everywhere in other people's code, and this is all they are.
+
+Two rules come with defaults, and both are worth seeing rather than being told.
+
+**A parameter with a default comes after the ones without.** Among the ordinary parameters, at least. Put them the other way round and the definition itself fails, before anything runs:
+
+```
+def f(a=1, b):
+    pass
+```
+
+```
+  File "/home/you/f.py", line 1
+    def f(a=1, b):
+               ^
+SyntaxError: parameter without a default follows parameter with a default
+```
+
+That is as clear as error messages get, and it is a `SyntaxError`, which by lesson 1's rule means nothing in the file runs at all. There is a way to put a required parameter last anyway, using a `*` in the parameter list, and section 4.9.3 of the tutorial has it if you meet one in the wild.
+
+**A default is worked out once, when the `def` runs**, not afresh at each call. That sounds like a detail about nothing.
+
+Here is a way to watch it happen. This function's default is an expression rather than a plain value, so it announces itself whenever it is worked out:
+
+```
+def stamp(t=print("the default ran")):
+    return t
+
+print("about to call")
+stamp()
+stamp()
+```
+
+:::predict The function above is called twice. How many times does `the default ran` appear, and does it come before or after `about to call`?
+Once, and it comes first:
+
+```
+the default ran
+about to call
+```
+
+The default was worked out while Python was still reading the `def`, which happened before the line that prints `about to call` and before either call. Two calls, one evaluation, and the evaluation was over before the program reached its second line.
+:::
+
+For a number like 50 that is harmless, because 50 is 50 whenever you work it out. For a value that can be changed after it is made it is a genuine trap, and lesson 6 has it, once lists exist.
 
 ## What people get wrong
 
@@ -307,7 +374,7 @@ Two rules that come with defaults. A parameter with a default must come after th
 
 **Expecting a function to change a name outside itself.** `shout` above. What a function gives you is its return value.
 
-**Leaving the brackets off.** `print(average)` instead of `print(average(readings))` gives you this:
+**Leaving the brackets off.** `print(average)` instead of `print(average([12, 7, 19, 4]))` gives you this:
 
 ```
 <function average at 0x10096a770>
@@ -326,39 +393,69 @@ Another `TypeError`, and unusually helpful: it names the function, the number it
 ## Practice
 
 :::exercise Three on functions
-Take 30 minutes over these.
+Take 40 minutes over these.
 
 **One. Predict, then run.** A function's body is `if n % 2 == 0:` then `return "even"`, and nothing else at all. What does a call with 7 give back? Write your answer down before you run it, then run it and check. If it surprises you, the section on what comes back when you do not say is the one to re-read.
 
 **Two. Guard the empty case.** Take the `average(numbers)` above and make it safe for an empty list, which in lesson 4 crashed with `ZeroDivisionError`. Decide first what it should hand back when there is nothing to average: `0.0` and `None` are both defensible, and they push the decision to different places. Say to yourself which one you chose and why, then write it.
 
-**Three. Three copies into one function.** This is the transfer test. Write a program that prints a summary for three sets of readings, `[12, 7, 19, 4]`, `[5, 5, 5, 40]` and `[]`, where a summary is the count, the total and the average. Write it first the way you would have at the end of lesson 4, with the block pasted three times, and look at it. Then write it with one function called three times.
+**Three. Twenty lines into one function and three calls.** This is the transfer test, and the program is supplied so that you spend the time on the collapsing rather than on the typing.
 
-Time the two versions on a change: make the average print to one decimal place. Count the edits each version needs. That count is the argument for functions, and it is more convincing when you have done it yourself than when I assert it.
+```
+north = [22, 19, 31, 25]
+total = 0
+count = 0
+for r in north:
+    total = total + r
+    count = count + 1
+print("north:", count, "readings, total", total, "average", total / count)
+
+south = [40, 38, 44]
+total = 0
+count = 0
+for r in south:
+    total = total + r
+    count = count + 1
+print("south:", count, "readings, total", total, "average", total / count)
+
+east = [7, 9, 8, 11, 6]
+total = 0
+count = 0
+for r in east:
+    total = total + r
+    count = count + 1
+print("east:", count, "readings, total", total, "average", total / count)
+```
+
+Rewrite it as one function and three calls, so that it prints the same three lines. Decide as you go what the function should hand back, given that the caller needs three figures and `return` gives one value. There is more than one reasonable answer and you have met all the pieces of each.
+
+Then make one change to both versions: print the average to one decimal place, using `f"{value:.1f}"`. Count the edits each version needs. That count is the argument for functions, and it is more convincing when you have done it yourself than when I assert it.
+
+If you did Two, you have the empty-list guard as well. Add `west = []` as a fourth call and check it does something sensible rather than crashing.
 :::
 
 ## Connections
 
-You now have the four things a program is made of: values with names, choices, repetition, and pieces you can name and reuse. What you do not have is anywhere good to put more than one value at a time.
+You now have the four things this course has given you so far: values with names, choices, repetition, and pieces you can name and reuse. What you do not have is anywhere good to put more than one value at a time.
 
 You have been working around that gap all lesson. `average([12, 7, 19, 4])` passes a list, and lesson 4's collector called `.append()`, and neither was ever explained. That is next, along with the other shape: looking something up by name rather than by position. It is also where a function first gets handed something it can change, which is the one case where everything this lesson said about a function keeping to itself needs a careful qualification.
 
 ## Go deeper
 
-- **[The Python tutorial, chapter 4.7](https://docs.python.org/3/tutorial/controlflow.html#defining-functions)** on defining functions, and 4.8 on default and keyword arguments, which is the reference for the second half of this lesson.
-- **[Think Python, chapter 3, "Functions"](https://allendowney.github.io/ThinkPython/chap03.html)** and **[chapter 6, "Return Values"](https://allendowney.github.io/ThinkPython/chap06.html)**, free online. Downey separates the two across three chapters, which is a sign of how much trouble the distinction causes.
+- **[The Python tutorial, chapter 4.8](https://docs.python.org/3/tutorial/controlflow.html#defining-functions)** on defining functions, and 4.9 on default and keyword arguments, which is the reference for the second half of this lesson. Section 4.9.3, "Special parameters", is where the `*` in a parameter list is explained.
+- **[Think Python, chapter 3, "Functions"](https://allendowney.github.io/ThinkPython/chap03.html)** and **[chapter 6, "Return Values"](https://allendowney.github.io/ThinkPython/chap06.html)**, free online. Downey introduces functions in chapter 3 and does not give you `return` until chapter 6, and the gap between them is a fair measure of how much trouble the distinction causes.
 - **[Automate the Boring Stuff, chapter 4](https://automatetheboringstuff.com/3e/chapter4.html)**, free online, for the practical treatment and a longer look at `None`.
 
 ## Sources
 
-1. *The Python Tutorial*, chapter 4, "More Control Flow Tools", sections 4.7 to 4.9, Python 3.14 documentation. `def`, parameters and arguments, `return`, default argument values, keyword arguments, and the statement that a function with no `return` returns `None`. [^1]
-2. Allen B. Downey, *Think Python*, 3rd edition 2023, chapters 3 and 6. Free online under CC BY-NC-SA 4.0, linked rather than adapted. The source for treating return-versus-print as a topic large enough to split across chapters. [^2]
+1. *The Python Tutorial*, chapter 4, "More Control Flow Tools", sections 4.8 and 4.9, Python 3.14 documentation. `def`, parameters and arguments, `return`, default argument values, keyword arguments, and the statement that a function with no `return` returns `None`. [^1]
+2. Allen B. Downey, *Think Python*, 3rd edition 2023, chapters 3 and 6. Free online under CC BY-NC-SA 4.0, linked rather than adapted. Cited for where the two topics sit in his contents, which is what was read. [^2]
 3. Al Sweigart, *Automate the Boring Stuff with Python*, 3rd edition, chapter 4, "Functions". Free online under CC BY-NC-SA 3.0, linked rather than adapted. [^3]
 4. MIT 6.0001, *Introduction to Computer Science and Programming in Python* (Fall 2016, OpenCourseWare), session list. Branching and iteration come in the first sessions and functions after them, which is why this lesson follows loops rather than preceding them: the repetition is felt in lesson 4 and removed here. Note that the strongest courses disagree about this. Harvard's CS50P and Downey both take functions first. [^4]
 5. PEP 657, "Include Fine Grained Error Locations in Tracebacks", Python 3.11. The `~~~~~~~~~~^~~` markers under the failing part of a line. On Python 3.10 the same traceback arrives without them. [^5]
 6. All code and output in this lesson was run on CPython 3.14.7 and pasted from the terminal, including both tracebacks, the `<function average at 0x...>` line, and every printed figure. Paths in the tracebacks are shown as `/home/you/` in place of the machine's own. [^6]
 
-[^1]: *The Python Tutorial*, 3.14, ch. 4.7 to 4.9.
+[^1]: *The Python Tutorial*, 3.14, ch. 4.8 and 4.9.
 [^2]: Downey, *Think Python* 3e, chs. 3 and 6.
 [^3]: Sweigart, *Automate the Boring Stuff* 3e, ch. 4.
 [^4]: MIT 6.0001 (Fall 2016), OCW session list; CS50P week 0; Downey, *Think Python* 3e, ch. 3.
