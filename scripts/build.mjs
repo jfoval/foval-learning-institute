@@ -23,27 +23,49 @@ const warn = [];
 
 marked.setOptions({ gfm: true, breaks: false });
 
-function renderBlocks(md) {
+// Render a lesson body: the ::: blocks first, held back behind placeholders so that the
+// outer Markdown pass cannot re-parse the HTML they produce. It used to run straight into
+// marked.parse(renderBlocks(body)), and Markdown ends a raw-HTML block at the first blank
+// line, so a blank line inside a fenced code block inside a ::: block split the <pre> and
+// re-parsed the rest as Markdown. That shipped: Python Basics lesson 3 served a <p> inside
+// its <pre> on the live site. checkRenderedHtml below fails the build if it happens again.
+export function renderBody(md) {
+  const held = [];
+  const withPlaceholders = renderBlocks(md, held);
+  let html = marked.parse(withPlaceholders);
+  // The placeholder is an HTML comment on its own line; marked may wrap it in a <p>.
+  held.forEach((rendered, i) => {
+    html = html.replace(new RegExp(`(?:<p>\\s*)?<!--FOVAL-BLOCK-${i}-->(?:\\s*</p>)?`), () => rendered);
+  });
+  return html;
+}
+
+function renderBlocks(md, held) {
   // :::callout Title / :::exercise Title ... ::: → styled div
   // :::predict Question / :::checkpoint Question ... ::: → question with the body hidden behind a button
   return md.replace(/^:::(callout|exercise|predict|checkpoint|figure|video)[ \t]*(.*)\r?\n([\s\S]*?)^:::[ \t]*$/gm, (_, kind, title, body) => {
+    const hold = (htmlOut) => {
+      if (!held) return htmlOut;
+      held.push(htmlOut);
+      return `<!--FOVAL-BLOCK-${held.length - 1}-->`;
+    };
     if (kind === "figure") {
       // :::figure <src> | <alt text>   body = caption (markdown), should include the credit and licence
       const [src, alt = ""] = title.split("|").map(s => s.trim());
-      return `<figure class="fig"><img src="${src}" alt="${alt.replace(/"/g, "&quot;")}" loading="lazy"><figcaption>${marked.parseInline(body.trim())}</figcaption></figure>`;
+      return hold(`<figure class="fig"><img src="${src}" alt="${alt.replace(/"/g, "&quot;")}" loading="lazy"><figcaption>${marked.parseInline(body.trim())}</figcaption></figure>`);
     }
     if (kind === "video") {
       // :::video <youtube or youtube-nocookie URL> | <title>   body = why to watch it (markdown)
       const [url, vtitle = "Video"] = title.split("|").map(s => s.trim());
       const m = url.match(/(?:youtu\.be\/|v=|embed\/)([\w-]{11})/);
       const embed = m ? `https://www.youtube-nocookie.com/embed/${m[1]}` : url;
-      return `<figure class="fig video-fig"><iframe class="video" src="${embed}" title="${vtitle.replace(/"/g, "&quot;")}" allowfullscreen loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe><figcaption>${marked.parseInline(body.trim())}</figcaption></figure>`;
+      return hold(`<figure class="fig video-fig"><iframe class="video" src="${embed}" title="${vtitle.replace(/"/g, "&quot;")}" allowfullscreen loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe><figcaption>${marked.parseInline(body.trim())}</figcaption></figure>`);
     }
     if (kind === "predict" || kind === "checkpoint") {
       const label = kind === "predict" ? "Predict first" : "Check yourself";
-      return `<div class="think ${kind}"><b>${label}</b><p class="think-q">${marked.parseInline(title.trim())}</p><details><summary>Show the answer</summary>${marked.parse(body.trim())}</details></div>`;
+      return hold(`<div class="think ${kind}"><b>${label}</b><p class="think-q">${marked.parseInline(title.trim())}</p><details><summary>Show the answer</summary>${marked.parse(body.trim())}</details></div>`);
     }
-    return `<div class="${kind}"><b>${title.trim()}</b>${marked.parse(body.trim())}</div>`;
+    return hold(`<div class="${kind}"><b>${title.trim()}</b>${marked.parse(body.trim())}</div>`);
   });
 }
 function parseFrontmatter(src, file) {
@@ -58,6 +80,19 @@ function req(obj, keys, where) {
 // Quiz shape: a question, at least two options, and an in-range answer index.
 // Types are checked separately by checkQuizTypes, which the lint pass runs over
 // every lesson, draft or published.
+// A code block that has been split by the outer Markdown pass shows up as a <p> (or a
+// stray </code></pre>) inside the <pre>. CLAUDE.md rule 9: this is a check, not a warning
+// in prose. It caught a corrupted block already shipped in Python Basics lesson 3.
+function checkRenderedHtml(html, file) {
+  for (const m of html.matchAll(/<pre><code[\s\S]*?<\/code><\/pre>/g)) {
+    if (/<p>|<\/p>/.test(m[0])) {
+      errors.push(`${file}: a fenced code block was split by the Markdown pass and re-parsed (a <p> is inside its <pre>). A blank line inside a code fence that sits inside a ::: block used to do this.`);
+      break;
+    }
+  }
+  return html;
+}
+
 function checkQuizShape(quiz, file, label) {
   quiz.forEach((q, i) => {
     const at = `${file}: ${label} #${i + 1}`;
@@ -113,7 +148,7 @@ for (const school of fs.readdirSync(COURSES_DIR, { withFileTypes: true }).filter
       checkQuizShape(quiz, file, "quiz");
       const words = body.split(/\s+/).filter(Boolean).length;
       if (words < 250) warn.push(`${file}: only ${words} words; depth standard expects substantially more`);
-      return { id: f.replace(/\.md$/, ""), title: lm.title, minutes: lm.minutes, video: lm.video, audio: lm.audio, objectives: Array.isArray(lm.objectives) ? lm.objectives : [], quiz, content: marked.parse(renderBlocks(body)) };
+      return { id: f.replace(/\.md$/, ""), title: lm.title, minutes: lm.minutes, video: lm.video, audio: lm.audio, objectives: Array.isArray(lm.objectives) ? lm.objectives : [], quiz, content: checkRenderedHtml(renderBody(body), file) };
     });
     // assessments: final test (has quiz) and projects
     const aDir = path.join(dir, "assessments");
@@ -126,7 +161,7 @@ for (const school of fs.readdirSync(COURSES_DIR, { withFileTypes: true }).filter
       checkQuizShape(quiz, file, "item");
       checkQuizTypes(quiz, file, "item", m => errors.push(m));
       const type = am.type || (quiz.length ? "test" : "project");
-      return { id: f.replace(/\.md$/, ""), title: am.title, type, minutes: am.minutes || 0, pass_mark: am.pass_mark || 0.8, quiz, content: marked.parse(renderBlocks(body)) };
+      return { id: f.replace(/\.md$/, ""), title: am.title, type, minutes: am.minutes || 0, pass_mark: am.pass_mark || 0.8, quiz, content: checkRenderedHtml(renderBody(body), file) };
     });
     courses.push({ ...meta, lessons, assessments });
   }
