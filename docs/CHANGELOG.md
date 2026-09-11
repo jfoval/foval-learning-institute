@@ -11,6 +11,59 @@ Older entries refer to `docs/BACKLOG.md`, which was split on 2026-09-09 into `do
 unstarted work) and this file. Its section numbers survive only in those entries and in a few
 split-seam comments inside Bible Basics lessons, which point at `docs/DECISIONS.md` §5.
 
+## 2026-09-11 — Writing Clearly through Stage 4, all nine lessons
+
+**The last of the three pre-pipeline placeholder courses is now at standard.** All nine lessons
+went through Stage 4 on 10 and 11 September, one fresh-context reviewer each, and **all nine were
+largely rewritten.** The course averaged 3,676 words a lesson before and averages 4,646 now, every
+`minutes:` is measured rather than guessed, and every chart is redrawn at a viewBox a phone can
+read. Findings and resolutions are in `research/reviews/`, one file per lesson plus
+`course-wide.md`.
+
+What nine rounds found, because the pattern matters more than any single fix:
+
+**A figure that no source contained, carried by four lessons.** Lesson 1 told readers "a reader
+will finish about 130 words" and drew a chart saying so. The number came from crossing Nielsen's
+25-second cost of *arriving* at a page with the time it takes to *read* one, which are not
+comparable quantities. Lessons 2, 7 and 8 had all picked it up, one of them citing it to lesson 1
+and linking Nielsen for it. Twelve occurrences. Replaced with Nielsen's real pair: about a fifth of
+an average page, and half the information read only on pages of about 111 words or fewer.
+
+**Four lessons trimmed a quotation in the direction that helped the argument**, and one went
+further. Nielsen's "if they devote all of their time to reading" was cut from his 28 percent. Gopen
+and Swan's "In general" was cut from principle 6, their "and therefore as something of lesser
+importance" from principle 1, and their "None of these reader-expectation principles should be
+considered 'rules.'" from four lessons in a row, in a course whose research file says in bold that
+the caveat must survive into the lessons. Lesson 5 cut Strunk's own "This rule does not, of course,
+mean that the writer should entirely discard the passive voice" and then called his rule a
+prohibition he disclaims one paragraph earlier. Lesson 6 stopped rule 13 one sentence early and
+built its whole thesis on the gap, asserting that "Omit needless words" "says nothing about how to
+get there" when the rule itself supplies about fifteen substitutions. And lesson 9 block-quoted a
+sentence Sommers never wrote: the wrapper was the course's own research file paraphrasing her.
+
+**Three lessons got their own counts wrong**, including the two lessons whose method is counting.
+Lesson 4 teaches "replace the judgement with a count" and miscounted four of its own figures.
+Lesson 6 got six of eight wrong. Lesson 7 broke 412 responses into 260, 140 and 38.
+
+**Two lessons failed the neutrality pass without containing a false sentence.** Lesson 8's 22
+Pullum quotations and 5 Strunk quotations were all verbatim; it failed on selection, with Pullum
+explained and Strunk adjudicated, and Strunk's best card asserted twice and never shown. Lesson 3
+leaned on GOV.UK for a detector while passing over that the same page disagrees with it about the
+active voice.
+
+**And a rendering defect that had shipped.** A hand-lettered list inside a `:::` block collapses
+into one run-on paragraph, because block bodies parse with `breaks: false` and Markdown only
+rescues the markers it knows. Writing Clearly lesson 3's ten-item diagnosis exercise, the whole of
+that lesson's practice, was a wall of text on a phone. Three more blocks in two courses did the
+same. Now a build check with three tests behind it.
+
+**What the pipeline should take from it.** Two things are now in `/review-lesson`'s working
+knowledge and in the course's `course-wide.md`. First, **measure a quiz both ways after rewriting
+it, and again after fixing it**: in four of nine rounds the rewrite introduced a gameable shape the
+draft did not have, and once the repair introduced a different one. Second, **counting the
+citations each side gets, before reading a word for tone, is what catches a neutrality failure in
+a lesson where every sentence is true.** A reviewer who only verifies quotations passes lesson 8.
+
 ## 2026-09-10 — A review of the whole project, and the fixes it called for
 
 A full review of the repo, the site and the docs, with three fresh-context reviewers, followed by
