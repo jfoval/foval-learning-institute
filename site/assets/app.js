@@ -353,7 +353,7 @@
       "A Python lesson showing three runnable for-loops with their output in comments, and the paragraph explaining range."],
     ["tile-transcript", "A record that adds up", "Lessons, hours, retention, streak. What you can still do, not what you saw.",
       "The transcript page showing courses completed, lessons completed, hours of study, questions in the review bank, retention and day streak."],
-    ["tile-podcast", "A podcast for every lesson", "Two voices talk the lesson through, from a script checked against it line by line.",
+    ["tile-podcast", "Lessons you can listen to", "Two voices talk the lesson through, from a script checked against it line by line. Every lesson gets one as its content settles.",
       "The listen block at the top of a lesson, with an audio player and a note saying the voices are synthetic and the script was checked against the lesson."],
   ];
 
@@ -924,7 +924,7 @@
           <li><strong>Open about the teaching.</strong> Every lesson names its sources, so you can check us. Where a question is contested, the disagreement is shown rather than quietly settled.</li>
         </ol>
         <h2>What we teach</h2>
-        <p>Fourteen schools: thinking tools, mathematics, the natural sciences, history, philosophy and religion, literature and the arts, economics and government, computer science and AI, business, money, health, practical self-reliance, communication, and learning itself. The Foval Core is a recommended path through them, in the order that builds best.</p>
+        <p>Fifteen schools: thinking tools, mathematics, the natural sciences, history, philosophy and religion, literature and the arts, economics and government, computer science and AI, business, money, health, practical self-reliance, communication, learning itself, and Christian Studies. The Foval Core is a recommended path through them, in the order that builds best.</p>
         <h2>How we keep it honest</h2>
         <p>Every lesson is written from the standard references in its field, fact-checked in a separate pass, and audited for neutrality: settled questions are taught as settled, contested ones are taught as contested with every major position given its strongest case, and value questions are described rather than decided. The full standard is public in the <a href="${REPO}/blob/main/docs/EDITORIAL_STANDARDS.md" target="_blank" rel="noopener">editorial standards</a>.</p>
         <h2>How it works</h2>
