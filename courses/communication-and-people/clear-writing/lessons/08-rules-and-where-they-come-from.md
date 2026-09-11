@@ -1,6 +1,6 @@
 ---
 title: Rules, and where they come from
-minutes: 55
+minutes: 80
 objectives:
   - Tell a rule that describes how readers process prose from one that asserts a prohibition
   - Identify a passive clause, and say when it is the right choice rather than a fault
@@ -30,22 +30,22 @@ quiz:
       - The instruction to write with nouns and verbs, and the advice not to inject opinion
     answer: 0
     explain: Neither the none rule nor the anti-which rule is in the 1918 edition, so both belong to White's revision. That is A. B names material Strunk wrote. C is the trap, since 1918 does carry a split infinitive entry and does carry the however rule, which is the finding that cuts against Pullum. D names two items that are indeed White's, so a learner who picks it has the right idea and the wrong pair.
-  - q: A rule says never begin a sentence with however meaning nevertheless. How would this lesson have you test it?
+  - q: Someone tells you it is wrong to end a sentence with a preposition. Applying this lesson's method, what is your first move, and what would settle it?
     options:
       - Ask several professional editors whether they follow the rule in their own writing
-      - Check whether the rule appears in more than one respected style guide of its period
-      - Count how writers of that period actually placed however, in texts you can search
-      - Consider whether sentences that begin with however sound awkward when read aloud
-    answer: 2
-    explain: The method the lesson teaches is Pullum's own, which is to take the rule to a corpus and count, and the lesson names Project Gutenberg as the corpus. That is C. A and B both substitute authority for evidence, which is the habit the lesson exists to break. D substitutes the writer's own ear, which cannot settle a claim about how a language is used.
-  - q: When is the passive the right choice, on the account this course gives?
-    options:
-      - When the writer would rather not say who was responsible for the action described
-      - When the thing acted on is what the paragraph is about, so it holds the topic position
-      - When a document is formal, because the passive is the register that formality calls for
-      - When the sentence would otherwise be too short to carry the weight of what it reports
+      - State the rule precisely, then count how writers of the period actually ended sentences
+      - Check whether the rule appears in more than one respected style guide of its own period
+      - Decide by ear, since a sentence ending on a preposition usually sounds weak when read aloud
     answer: 1
-    explain: Lesson 5 established that the passive is how you put something other than the actor in the topic position, and Strunk says the same thing in 1918. That is B. A is the misuse lesson 3 examined, where the vagueness was doing work. C and D treat the passive as a matter of register or of padding rather than of what the paragraph is about.
+    explain: The method is state it precisely, then take it to a corpus and count both ways, which is B. A and C both substitute authority for evidence, which is the habit the lesson exists to break, and a rule appearing in two guides is evidence about guides rather than about English. D substitutes the writer's ear, which cannot settle a claim about how a language is used.
+  - q: "A museum leaflet has a paragraph about a Saxon brooch. The next sentence must say that a farmer found it in 1938. Which version belongs there, and on what grounds?"
+    options:
+      - "\"A farmer found the brooch in 1938\", because the active voice is always the stronger choice"
+      - "\"A farmer found the brooch in 1938\", because a sentence should name whoever acted"
+      - "Either, since the two carry the same information and the choice is the writer's taste"
+      - "\"The brooch was found by a farmer in 1938\", since this paragraph is about the brooch"
+    answer: 3
+    explain: The paragraph is about the brooch, so the brooch belongs in the topic position and the passive is what puts it there, which is D. That is lesson 5's principle, and it is Strunk's own, stated in 1918 with the Restoration pair quoted in this lesson. A and B state real merits of the active voice and apply them without asking what the paragraph is about. C treats the choice as taste, when the paragraph decides it.
   - q: What does this lesson conclude about the dispute over The Elements of Style?
     options:
       - That the book should be ignored, since its authors could not identify a passive clause
@@ -58,23 +58,27 @@ quiz:
 
 Everything in this course so far has asked you to trust it. Readers take in about a fifth of a page. Readers expect a subject to be followed by its verb. Readers emphasise what arrives last. Those are claims about people, and you have taken them from research this course read on your behalf.
 
-Meanwhile you have spent your life being handed a different kind of writing advice. Never split an infinitive. Never start a sentence with *but*. Never use the passive. Those usually arrive with no evidence attached, and sometimes with the suggestion that a person who breaks them is careless.
+Meanwhile you have spent your life being handed a different kind of writing advice. Never split an infinitive. Never start a sentence with *but*. Never use the passive. Those usually arrive with no evidence attached, and often with real conviction behind them.
 
 This lesson is about the difference, and about how you check for yourself. It uses the most famous writing book in English and the most famous attack on it. The outcome is messier than either side would like, which is the point.
 
+The difference is worth naming before we start, because it's the whole of objective one. A rule like "readers emphasise what arrives last" is a **description**: somebody looked at what readers do and reported it, and you can go and check. A rule like "never split an infinitive" is a **prohibition**: it tells you what not to do and offers nothing to check. The first kind can be wrong, and that's a virtue, because a claim that could be wrong is a claim you can test.
+
+Gopen and Swan, whose principles this course has been teaching since lesson 2, are careful about exactly this. Their own summary says: **"None of these reader-expectation principles should be considered 'rules.'"** They are describing what readers expect, and they say plainly that any expectation can be violated to good effect. That's what a description looks like when its authors are honest about what they've got. Hold it next to "never use the passive" and you can see the difference without any further argument.
+
 ## The passive, since it is the one everyone thinks they know
 
-Start here, because the passive is the rule most often repeated by people who cannot apply it.
+Start here, because the passive is the rule most often repeated by people who can't apply it.
 
 **A passive clause takes the thing acted upon and makes it the subject.** In English it is built from a form of *be* (occasionally *get*) plus a past participle, and it can optionally name the actor in a *by* phrase. "The bill was paid" is passive. "The bill was paid by an anonymous benefactor" is the same clause with the actor restored.
 
-The test: could you add *by someone* without breaking the sentence? If yes, it is passive.
+The test: could you add *by someone* without breaking the sentence? If yes, it's passive.
 
 Geoffrey Pullum, in ["50 Years of Stupid Grammar Advice"](https://pullum.ppls.ed.ac.uk/50years.pdf), reports what has happened to that distinction:
 
 > "It is typical for college graduates today to be unable to distinguish active from passive clauses. They often equate the grammatical notion of being passive with the semantic one of not specifying the agent of an action. (They think 'a bus exploded' is passive because it doesn't say whether terrorists did it.)"
 
-"A bus exploded" is as active as a sentence can be. The bus is the subject and it is doing the exploding. What people react to is that nobody is blamed, which is a different complaint, often a fair one, and not about voice.
+"A bus exploded" is as active as a sentence can be. The bus is the subject and it's doing the exploding. What people react to is that nobody is blamed, which is a different complaint, often a fair one, and not about voice.
 
 :::predict Which of these four are passive? "The window was broken." "The window was old." "The report was written by the committee." "The committee got criticised."
 The first, third and fourth. *Was broken* is *be* plus a past participle, and you could add *by someone*. *Was written by the committee* is the textbook case with its actor named. *Got criticised* is the *get* passive, which is informal and perfectly real.
@@ -86,7 +90,17 @@ The first, third and fourth. *Was broken* is *be* plus a past participle, and yo
 
 Lesson 5 gave you this already. **The passive exists so that you can put something other than the actor in the topic position.** If the paragraph is about the patient, "she was discharged on the fourth day" is correct, and the active version quietly changes the subject to the consultant.
 
-Pullum's illustration shows the complaint is about information order rather than voice:
+Here is the part worth knowing before the argument starts. That observation is Strunk's, from 1918, inside the rule headed "Use the active voice":
+
+> "The dramatists of the Restoration are little esteemed to-day.
+>
+> Modern readers have little esteem for the dramatists of the Restoration.
+>
+> The first would be the right form in a paragraph on the dramatists of the Restoration; the second, in a paragraph on the tastes of modern readers. **The need of making a particular word the subject of the sentence will often, as in these examples, determine which voice is to be used.**"
+
+Both of those sentences are passive, so the choice he is describing isn't between active and passive at all; it's about which word gets to be the subject. That's the topic position, named by a composition teacher seventy-two years before Gopen and Swan wrote it up, printed under a heading that reads like a prohibition. Keep it in mind for the next section, because it's the strongest card the book has and it is easy to miss when the argument gets loud.
+
+Pullum's illustration makes the same point from the other end, that the complaint is usually about information order rather than voice:
 
 > "For me to report that I paid my bill by saying 'The bill was paid by me,' with no stress on 'me,' would sound inane. (I'm the utterer, and the utterer always counts as familiar and well established in the discourse.) But that is no argument against passives generally. 'The bill was paid by an anonymous benefactor' sounds perfectly natural."
 
@@ -118,11 +132,15 @@ So his charge is about competence, and the damage done by tutors is the part he 
 
 **Part two, and this is the stronger half.** He argues the book cannot keep its own rules, on the same page as it states them:
 
+> "There is of course nothing wrong with writing passives and negatives and adjectives and adverbs. I'm not nitpicking the authors' writing style. **White, in particular, often wrote beautifully, and his old professor would have been proud of him.** What's wrong is that the grammatical advice proffered in *Elements* is so misplaced and inaccurate that counterexamples often show up in the authors' own prose on the very same page."
+
+That is the third thing usually cut, and it belongs with the other two: the one sentence in the essay where Pullum praises White, sitting immediately before the charge. Then the charge:
+
 > "'Write with nouns and verbs, not with adjectives and adverbs,' they insist. (The motivation of this mysterious decree remains unclear to me.) And then, in the very next sentence, comes a negative passive clause containing three adjectives: 'The adjective hasn't been built that can pull a weak or inaccurate noun out of a tight place.'"
 
-He does the same to "Keep related words together", whose own statement of the rule separates a subject from its verb, and concludes: "the grammatical advice proffered in *Elements* is so misplaced and inaccurate that counterexamples often show up in the authors' own prose on the very same page."
+He does the same to "Keep related words together", whose own statement of the rule separates a subject from its verb.
 
-That is the argument to answer, and this course cannot check it, because those sentences are White's 1959 text and this course has not read it.
+That's the argument to answer, and this course can't check it, because those sentences are White's 1959 text and this course hasn't read it.
 
 ## Opening the primary text, and what it actually shows
 
@@ -138,12 +156,14 @@ What the 1918 text does add is the sentence that introduces the disputed example
 
 > "Many a tame sentence of description or exposition can be made lively and emphatic by substituting a verb in the active voice for **some such perfunctory expression as *there is*, or *could be heard*.**"
 
-Strunk names the fault himself, and it is the limp existential *there is* and the perfunctory *could be heard*, not the passive. That is consistent with Pullum's own "presumably": he is inferring what the examples are offered as, from their position under an active-voice heading, rather than reporting a label the book applies. Both readings are available from the page. His is the natural one for a reader who trusts headings, which is most readers, and that is the whole mechanism of the damage he describes.
+Strunk names the fault himself, and it is the limp existential *there is* and the perfunctory *could be heard*, not the passive. That's consistent with Pullum's own "presumably": he is inferring what the examples are offered as, from their position under an active-voice heading, rather than reporting a label the book applies. Both readings are available from the page. His is the natural one for a reader who trusts headings, which is most readers, and that is the whole mechanism of the damage he describes.
 
 :::predict Two of Pullum's specific charges are about rules that are not in the 1918 book at all. Which, and what follows?
 The rule that *none* takes a singular verb, and the ban on *which* in restrictive relative clauses. Neither appears in Strunk's original. Rule 3 simply distinguishes restrictive from non-restrictive clauses and punctuates them.
 
 What follows is that those two charges land on White rather than on Strunk. Pullum says as much about the second, that White "not only added the anti-'which' rule to the book but also revised away the counterexamples that were present in his old professor's original text", and the 1918 text is consistent with that.
+
+It's more than consistent. Open rule 3 and Strunk writes: "The sentence is virtually a combination of two statements **which** might have been made independently." No comma, restricting *statements*, which is exactly the construction the later rule forbids. The founding text breaks the rule its revision added, in the course of explaining relative clauses. Pullum makes the same kind of find, via Jan Freeman, and it cuts against the book rather than for it, so it belongs here next to the findings that cut the other way.
 
 It also means the book people argue about is a collaboration between a teacher and his student, forty years apart, and "Strunk and White" is doing a lot of work as a single name.
 :::
@@ -158,11 +178,35 @@ Pullum writes that "Strunk's original version never even mentioned split infinit
 
 And the *however* rule, which this lesson is about to use as its specimen of an untested prohibition, is Strunk's too: "**However.** In the meaning *nevertheless*, not to come first in its sentence or clause."
 
-So the primary text corrects the critic as well as complicating the charge. Neither of these is fatal to Pullum's case, which does not rest on them. Both are the kind of thing you only ever find by opening the book, which is the actual lesson here.
+So the primary text corrects the critic as well as complicating the charge. Neither of these is fatal to Pullum's case, which doesn't rest on them. Both are the kind of thing you only ever find by opening the book, which is the actual lesson here.
 
-**Where that leaves the dispute.** Pullum's central charge rests mainly on the same-page self-contradictions, which are quoted from a text this course has not read and which look serious as quoted. On the examples, the 1918 wording complicates the charge without refuting it, and he hedged it himself. Two of his sharpest specific hits belong to White. One of his incidental claims is wrong. The damage he documents, which he does not claim as his main point, is real and is not in dispute.
+Lesson 7 said a table is for content with two dimensions, where every row is described on the same axes. This is that: five charges, each with a source and a verdict.
 
-If that is unsatisfying, good. It is what the evidence supports.
+| The charge | Whose text it lands on | Verdict from the primary text |
+|---|---|---|
+| The passive examples are misdiagnosed | Strunk, 1918 | Complicated. Strunk names *there is* and *could be heard* as the fault, and Pullum hedges with "presumably" |
+| The book contradicts its own rules on the same page | White, 1959 | Unchecked here. This course has not read that text; as quoted it looks serious |
+| *None* must take a singular verb | White, 1959 | Not in Strunk. Pullum's counts stand |
+| No *which* in a restrictive clause | White, 1959 | Not in Strunk, who uses one himself in rule 3 |
+| "Strunk never mentioned split infinitives" | Pullum, 2009 | **Wrong.** The 1918 glossary has an entry |
+
+Read down the middle column and you can see why "Strunk and White" is a misleading way to name a defendant.
+
+**Where that leaves the dispute.** Pullum's central charge rests mainly on the same-page self-contradictions, which are quoted from a text this course has not read and which look serious as quoted. On the examples, the 1918 wording complicates the charge without refuting it, and he hedged it himself. Two of his sharpest specific hits belong to White. One of his incidental claims is wrong. The damage he documents, which he doesn't claim as his main point, is real and isn't in dispute.
+
+If that's unsatisfying, good. It's what the evidence supports.
+
+:::checkpoint A colleague says "Strunk and White were so incompetent they couldn't even identify a passive." Using the table above, what is wrong with the sentence, and what is right about it?
+Three things are wrong with it and one thing is right, and separating them is the whole skill this lesson is teaching.
+
+**"Strunk and White" is doing too much work.** The self-contradiction charge, which is the strongest one, is about the 1959 text. The passive examples, which is the charge your colleague is actually gesturing at, are Strunk's 1918. Those are two authors forty years apart and the sentence merges them into one defendant.
+
+**"Couldn't identify a passive" overstates the one charge it rests on.** Pullum wrote "presumably fingered as passive", which is an inference from where the examples sit, and the 1918 sentence introducing them names a different fault, the perfunctory *there is*. The charge is live, not settled.
+
+**It ignores that the primary text also corrects the critic.** Pullum said Strunk never mentioned split infinitives, and the glossary entry is right there.
+
+**What's right:** the damage is real. Pullum documents tutors red-circling anything that looks passive, and he's correct that most college graduates can't tell an active clause from a passive one. He also says that damage isn't his main concern. Your colleague has the true half of the case and the wrong defendant for it.
+:::
 
 ## The method, which is the actual lesson
 
@@ -172,31 +216,44 @@ Pullum uses the same move on the *none* rule. He searches three books by writers
 
 The method in four steps:
 
-1. **State the rule precisely.** Not "however is wrong at the start of a sentence" but "however, meaning nevertheless, should not begin a sentence or clause". Vague rules cannot be tested, and vagueness is how bad rules survive.
-2. **Find a corpus.** Pullum names Project Gutenberg, which is free, searchable, and full of writers nobody accuses of illiteracy.
+1. **State the rule precisely.** Not "however is wrong at the start of a sentence" but "however, meaning nevertheless, should not begin a sentence or clause". Vague rules can't be tested, which is why a rule stated loosely can outlive the evidence against it.
+2. **Find a corpus.** Pullum points to Project Gutenberg, which is free, searchable, and full of writers nobody accuses of illiteracy.
 3. **Count, both ways.** Mark Liberman checked half a dozen of Mark Twain's books and found roughly seven sentence-initial *howevers* for each three placed after the subject; in five books by Henry James the ratio was one to fifteen.
-4. **Say what the numbers can and cannot show.** A rule contradicted by the usage of good writers of its own period is not a rule of English. It may still be a house style, which is a different and legitimate thing.
+4. **Say what the numbers can and cannot show.** Here you need to know which question you're answering, because the two schools answer different ones.
+
+   On the **descriptive** view, which is the one this course works from, a rule contradicted by the usage of good writers of its own period is not a rule of English. English is what its competent users do, and a prohibition they ignore is a report about somebody's preference.
+
+   There is a **prescriptive** reply, and it isn't silly. A standard written variety isn't the same thing as the sum of what fluent people write. It's maintained deliberately, by editors and style guides and teaching, and it exists so that strangers can read each other without friction. On that view Twain's usage is evidence about Twain, not a repeal, and a convention can be worth keeping because it is a convention. Most working copy editors hold some version of this, and they aren't fools.
+
+   What a count settles is the narrow question, and it settles it either way: **is this rule a description of how careful writers of the period wrote?** If the answer is no, then anyone presenting it as a fact about English is wrong, whatever else they may be right about. Whether you should follow it anyway, in a house that has chosen it, is a separate question the numbers don't touch. Keep the two apart and you can be evidence-led without being rude to your copy editor.
 
 ## What people get wrong
 
-**"Never split an infinitive."** The split infinitive has always been grammatical. The reason usually given is also backwards: the claim is that splitting places unusual stress on the adverb, and Pullum shows that tucking the adverb in before the verb de-emphasises it. That is lesson 5's stress position doing the work.
+**"Never split an infinitive."** The split infinitive has always been grammatical. The reason usually given is also backwards: the claim that splitting places "unusual stress on the adverb" is White's, from a chapter this course hasn't read and quotes only as Pullum reports it, and Pullum shows that tucking the adverb in before the verb de-emphasises it. That's lesson 5's stress position doing the work.
 
-**"Never start a sentence with however, or but, or and."** Contradicted by counting, which is why counting is in this lesson.
+**"Never start a sentence with however meaning nevertheless."** Contradicted by counting, which is why counting is in this lesson. The rules about initial *but* and *and* are usually repeated in the same breath, and this course has **not** counted those, so it isn't going to tell you they are dead. Count them yourself; they're the easiest search in the exercise below.
 
-**"Never use which for a restrictive clause."** Pullum: "There was never a period in the history of English when 'which' at the beginning of a restrictive relative clause was an error." Some publishers enforce it as house style, which is their right.
+**"Never use which for a restrictive clause."** Pullum: "There was never a period in the history of English when 'which' at the beginning of a restrictive relative clause was an error." Plenty of publishers enforce it as house style, which is a choice about consistency rather than a claim about English.
 
-**"A style book contains the rules of English."** *Elements* contains one teacher's list of what his students most often got wrong in 1918, plus a later writer's additions. Strunk said as much himself.
+**"A style book contains the rules of English."** *Elements* contains one teacher's list of what his students most often got wrong in 1918, plus a later writer's additions. Strunk said as much himself, in the aim quoted above.
 
-**"So the book is worthless."** The evidence does not support that. Its style advice survives the attack, its most famous maxim is quoted approvingly in lesson 6 of this course, and its own author states the topic-position principle in 1918.
+**"So the book is worthless."** The evidence doesn't support that. Its style advice survives the attack; its rule 13, read in full rather than as a four-word slogan, is the source lesson 6 is built on; and its own author states the topic-position principle in 1918, quoted near the top of this lesson in his own words.
 
 **"So the attack is unfair."** Nor that. Pullum's central evidence is quoted from the text and has not been answered here, and the damage he describes is real.
 
-**"Following the rules makes you a fool."** Nothing in this lesson supports that either. Most people who repeat these rules were taught them by someone they trusted, which is how nearly everybody learns nearly everything.
+**"Following the rules makes you a fool."** Nothing in this lesson supports that either. Most people who repeat these rules were taught them by someone they trusted, which is how nearly everybody learns nearly everything, including you and including the person who wrote this.
+
+## Go deeper
+
+- [Pullum's essay in full](https://pullum.ppls.ed.ac.uk/50years.pdf). It's short, funnier than its title, and more careful than its reputation, and reading it whole is the best possible demonstration of this lesson's point about quoting people.
+- [Strunk's 1918 text at Project Gutenberg](https://www.gutenberg.org/cache/epub/37134/pg37134.txt), free and searchable. Every claim this lesson makes about the original was checked there, and you can check them too in about twenty minutes.
+- Rodney Huddleston and Geoffrey Pullum, *A Student's Introduction to English Grammar*, if you want the grammar Pullum says *Elements* gets wrong, set out properly.
+- Joseph M. Williams, *Style: Lessons in Clarity and Grace*, which Pullum himself recommends in place of *Elements*. This course has not read it, and says so wherever it comes up.
 
 ## Practice
 
 :::exercise Test a rule you were taught
-Pick a writing rule somebody gave you that you have never checked. Everyone has three or four. Not one from this course.
+Allow thirty minutes for this. Pick a writing rule somebody gave you that you've never checked. Everyone has three or four. Not one from this course.
 
 1. **Write it out precisely**, in a form that could be true or false.
 
