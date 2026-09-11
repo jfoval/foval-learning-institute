@@ -13,10 +13,10 @@ through.
 Rewrite these five lines each session. Nothing else goes in this block.
 
 - **Current course:** Writing Clearly (Stage 4 cycle on a published course).
-- **Current lesson:** 1 to 6 are through Stage 4, all six largely rewritten. 7 is next.
+- **Current lesson:** 1 to 7 are through Stage 4, all seven largely rewritten. 8 is next.
 - **Current stage:** Stage 4, then the voice pass, lesson by lesson through all nine.
 - **Blocked on:** nothing for content. Episodes across six courses wait on the fal balance.
-- **Next action:** `/review-lesson courses/communication-and-people/clear-writing 7`. If fal has
+- **Next action:** `/review-lesson courses/communication-and-people/clear-writing 8`. If fal has
   been topped up, that outranks it: render the 26 ready episodes, Personal Finance 3 to 10 first,
   then write Python Basics' six scripts.
 
@@ -26,14 +26,14 @@ A course is done when every lesson is at standard **and** every lesson has an ep
 validate` enforces the second half against `curriculum/audio-debt.yaml`, which only shrinks.
 
 1. **Writing Clearly: Stage 4 on all nine lessons, then the voice pass.** Drafted, assessments
-   exist. **Lessons 1 to 5 done 2026-09-10 and lesson 6 on 2026-09-11**, all mostly rewritten. Three to go.
+   exist. **Lessons 1 to 5 done 2026-09-10, 6 and 7 on 2026-09-11**, all mostly rewritten. Two to go.
    `docs/DECISIONS.md` §9 puts this before the Core. Its low word count was a deliberate call: a
    practical writing course carries its depth in exercises. If John says they are thin, the fix is
    more worked examples, not more prose.
-   **Read `research/reviews/course-wide.md` before reviewing lesson 7.** Six rounds have shown
+   **Read `research/reviews/course-wide.md` before reviewing lesson 8.** Seven rounds have shown
    what this drafter repeats: no Go deeper section, understated `minutes:` with no timing cue on
    the exercise, no contractions, "Here is" openers, and a quotation trimmed of the qualifier that
-   limits it. Four or five recurred in every one of lessons 1 to 6, and every quotation trimmed so far was trimmed in the direction that helped the lesson's argument. It also records
+   limits it. Four or five recurred in every one of lessons 1 to 7, and every quotation trimmed so far was trimmed in the direction that helped the lesson's argument. It also records
    CW-01 (a figure four lessons carried that no source contained), CW-04 (the run-on list) and
    CW-05 (**recount every number the lesson states about a sentence printed beside it**: lesson 4
    got four of its own counts wrong in a lesson about counting).
@@ -80,7 +80,7 @@ These have no session that owns them, which is how they were being skipped.
 | Bible Basics | T8 | 12 | 13,163 | 12 | 2 | 1 of 12 | 11 episodes |
 | Personal Finance | T2 | 10 | 5,932 | 10 | 2 | 2 of 10 | 8 episodes |
 | Algebra Essentials | T5 | 6 | 3,689 | 6 | 2 | 0 of 6 | voice pass, 6 episodes |
-| Writing Clearly | T1 | 9 | 4,180 | 6 | 2 | 0 of 9 | Stage 4 on 3, voice pass, 9 episodes |
+| Writing Clearly | T1 | 9 | 4,348 | 7 | 2 | 0 of 9 | Stage 4 on 2, voice pass, 9 episodes |
 | Python Basics | T6 | 6 | 3,095 | 6 | 2 | 0 of 6 | 6 episodes |
 
 Sixty-one lessons live, fourteen with audio. `/status` recomputes this table and rewrites it here

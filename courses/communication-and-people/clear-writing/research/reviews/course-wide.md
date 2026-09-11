@@ -87,7 +87,7 @@ kinds this course thought it had invented. A trim that flatters the argument thi
 a sign the argument was built on the trim. **Open the source and read the
 paragraph around every quotation**, not just the sentence quoted.
 
-**Expect all six in lessons 7 to 9.** Check them first; they are cheap to find and cheap to fix,
+**Expect all six in lessons 8 and 9.** Check them first; they are cheap to find and cheap to fix,
 and finding them early leaves the review's attention for the lesson's own problems.
 
 **The quiz rule is now firm: measure both ways AFTER the rewrite, and again after fixing it.**
@@ -111,6 +111,21 @@ Two practical notes learned in lesson 3:
 - **A `:::` block inserted during a fix is easy to leave unclosed.** The nesting check added on
   2026-09-10 names the line at once instead of letting the block swallow the rest of the lesson.
 
+## CW-06 — SOURCES.md has no `unread:` line, so the build cannot help
+
+**Raised 2026-09-11, during lesson 7's Stage 4.**
+
+`scripts/build.mjs` fails a lesson that cites a work the course's `research/SOURCES.md` records as
+unread, but only if that file carries a machine-readable `<!-- unread: ... -->` line. **This course
+has none**, so the check has nothing to match on, and three lessons cited sources at a read-status
+the file does not support: Williams in lessons 3, 4 and 5 (contents only), White's 1959 revision in
+lesson 6 (not read at all), and digital.gov's Design page in lesson 7 (summaries only).
+
+Every one was caught by a human reviewer reading `SOURCES.md`. Every one could have been caught by
+the build. **Add the line before the voice pass**, naming at least Williams and White's revision,
+with the `(except NN)` syntax where a lesson legitimately discusses a work it has not read, as
+lessons 5 and 6 now do openly.
+
 ## CW-05 — Counts stated in the prose have to be counted
 
 **Raised 2026-09-10, during lesson 4's Stage 4.**
@@ -123,8 +138,14 @@ of twenty-six", matched no counting convention; the verb lands at word 28.
 None of this is visible to a reader who trusts the lesson, and all of it is visible to a reader who
 does what the lesson asks and counts. That is the worst place to be wrong.
 
+**Lesson 7 repeated it** with three objection counts, 260 plus 140 plus 38, breaking down a total
+of 412. And lesson 6 got six of eight wrong. Three lessons in a row.
+
 **The rule.** Every number a lesson states about a sentence printed beside it gets recomputed from
-that sentence during the review, not read back from the draft. Lesson 4's Sources section now
+that sentence during the review, not read back from the draft. The same goes for a claim that two
+passages contain the same words: lesson 7 asserted "Nothing is rewritten" of a restructure that
+changed six things, and the way to check is to normalise both and diff them, which takes a minute
+and produced a better paragraph than the false claim did. Lesson 4's Sources section now
 records that this was done, which is the form other lessons should follow when they quote a count.
 
 This is CW-01's family: a specific figure that reads as sourced because it sits next to real ones.
