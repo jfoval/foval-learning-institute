@@ -341,6 +341,30 @@ function lintLessons() {
           }
         }
 
+        // A :::predict or :::checkpoint renders its header line as the visible question and
+        // hides its body behind a "Show the answer" button. A header that is a label rather
+        // than a question ("Before you read on", "Quick check") therefore hides the question
+        // along with the answer, and the reader sees a button and nothing to predict. Four
+        // Python Basics lessons shipped twelve blocks like that. The header has to carry the
+        // question, which in practice means it ends in a question mark.
+        {
+          // Only the generic labels. A header like "Model answers for tasks 3 and 4" is the
+          // other legitimate use, where an :::exercise above states the questions and the
+          // block reveals the answers, and eleven Bible Basics blocks do that correctly.
+          // An earlier version also flagged any short header without a question mark, which
+          // caught all eleven of those and nothing else.
+          const LABELS = /^(before you (read on|start|look)|quick check|check yourself|your turn|predict first|find the fault|try it|pause here|think first|read this one|one more)\W*$/i;
+          src.split("\n").forEach((line, i) => {
+            const m = line.match(/^:::(predict|checkpoint)[ \t]*(.*)$/);
+            if (!m) return;
+            const header = m[2].trim();
+            if (!header)
+              warn.push(`${file}:${i + 1}: :::${m[1]} with no header, so the reader sees no question at all. The header line is the visible half; the body is hidden.`);
+            else if (LABELS.test(header))
+              warn.push(`${file}:${i + 1}: :::${m[1]} header reads as a label, not a question: "${header}". The header is what the reader sees; a question in the body is hidden with the answer.`);
+          });
+        }
+
         // A `:::` block that never closes swallows the rest of the lesson. Bible Basics
         // lesson 9 shipped with `::: The committee's conclusion: "..."`, a closing fence with
         // the next paragraph run onto the same line, so the fence matched neither the opener

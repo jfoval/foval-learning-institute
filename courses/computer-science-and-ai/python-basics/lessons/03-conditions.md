@@ -172,8 +172,7 @@ Python works down the chain, testing each condition in turn, and **the first one
 
 Only one of the three exits on the right is ever taken. Follow a score of 85: the first test is false, so control drops down the left; the second is true, so it goes right and stops. `print("F")` is never reached, and neither is any test below the one that matched.
 
-:::predict Before you read on
-Someone writes the same grader but tests in this order: `score >= 70` first, then `score >= 80`, then `score >= 90`, with `else` at the bottom. A student scores 95. What grade do they get?
+:::predict Someone writes the same grader but tests in this order: `score >= 70` first, then `score >= 80`, then `score >= 90`, with `else` at the bottom. A student scores 95. What grade do they get?
 
 `C`. Here it is, run:
 
@@ -238,8 +237,7 @@ if n != 0 and total / n > 5:
 
 If `n` is zero, the left side is false, Python stops, and the division on the right is never carried out. Swap the two around and the same line raises `ZeroDivisionError`, which lesson 4 will meet properly, on the first zero it meets. The order here isn't a matter of style; it's what makes the line safe.
 
-:::checkpoint Quick check
-`or` short-circuits too. On what does it stop early, and what does that mean for `if n == 0 or total / n > 5:`?
+:::checkpoint `or` short-circuits too. On what does it stop early, and what does that mean for `if n == 0 or total / n > 5:`?
 
 `or` stops as soon as it meets something **true**, since one true side settles it. So that line is also safe: when `n` is zero the left side is true, Python stops, and the division never happens. It's the mirror image of the `and` guard, and which one you want depends on whether the dangerous case is the one you're excluding or the one you're catching.
 :::
@@ -263,8 +261,7 @@ if not name:
 
 And it sets one trap that catches nearly everyone.
 
-:::predict Before you read on
-A program does `reply = input("How many? ")` and then `if reply:` to check the user typed something. The user types a single `0` and presses Enter. Does the block run?
+:::predict A program does `reply = input("How many? ")` and then `if reply:` to check the user typed something. The user types a single `0` and presses Enter. Does the block run?
 
 Yes, it runs.
 

@@ -191,17 +191,7 @@ print(2 + 2)
 That is what `print()` is for. It does not compute anything or store anything. It shows a value to
 a person.
 
-:::predict Before you read on
-A file contains exactly these two lines:
-
-```
-5 * 3
-
-print("done")
-```
-
-What appears on screen when you run it?
-
+:::predict A file contains exactly two lines, `5 * 3` and then `print("done")`. What appears on screen when you run it?
 Only `done`. The first line is computed, the answer 15 is produced, and then it is thrown away
 because nothing asked for it. In the interpreter the same two lines would show you `15` and then
 `done`, which is exactly the mismatch that catches people out when they move their experiments into
@@ -261,9 +251,7 @@ went looking for something called `pint` and found nothing.
 whatever is wrong was found during the run and not before it. That gives you somewhere to start
 looking without touching a single line.
 
-:::checkpoint Quick check
-A forty-line program prints eleven lines of output and then shows a traceback. Roughly where is the
-fault, and which of the two errors above is it definitely not?
+:::checkpoint A forty-line program prints eleven lines of output and then shows a traceback. Roughly where is the fault, and which of the two errors above is it definitely not?
 
 It is somewhere at or after whatever produced the eleventh line, and it is definitely not a
 SyntaxError, because a SyntaxError would have prevented all eleven from appearing.
@@ -291,7 +279,6 @@ Python compares the name you used against the names it does know and offers the 
 is only a guess, and Python doesn't act on it. You typed `pint`, so `pint` is what it went looking
 for, and not finding it is still an error.
 
-:::checkpoint Read one you have never seen
 Here is a traceback from a program you know nothing about, using an idea this course has not
 reached yet.
 
@@ -303,9 +290,7 @@ Traceback (most recent call last):
 IndexError: list index out of range
 ```
 
-Which line do you read first, what does it tell you, and did the program print anything before it
-stopped?
-
+:::checkpoint Which line of that traceback do you read first, what does it tell you, and did the program print anything before it stopped?
 Read `IndexError: list index out of range` first. It says something was asked for an item at a
 position it doesn't have, and the marks on the line above point at `scores[3]` as the culprit
 rather than at the `print`. You don't need to know what a list is to get that far.

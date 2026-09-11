@@ -108,14 +108,7 @@ Look at the second one. You asked for 1 to 10 and got 1 to 9. **The stop value i
 
 It isn't an arbitrary cruelty. Because the stop is excluded, `range(n)` has exactly `n` items in it, and `range(0, 5)` followed by `range(5, 10)` covers 0 to 9 with nothing missed and nothing repeated, which is a good share of the off-by-ones you would otherwise write.
 
-:::predict Before you read on
-`range()` takes a third number, the step. What does this print?
-
-```
-for i in range(2, 11, 3):
-    print(i, end=" ")
-```
-
+:::predict `range()` takes a third number, the step. What does `for i in range(2, 11, 3):` print, if the body is `print(i, end=" ")`?
 `2 5 8`.
 
 It starts at 2 and adds 3 each time. The next would be 11, but the stop is 11 and the stop is never reached, so it finishes. Ask for `range(2, 12, 3)` and you'd get `2 5 8 11`.
@@ -182,8 +175,7 @@ print(readings)
 
 The rule of thumb: **`for` when you know what you're going through, `while` when you're waiting for something to become true.** If you can't say what you'd be iterating over, you want `while`.
 
-:::checkpoint Quick check
-The condition of a `while` is tested for truth, exactly like an `if`. Given what lesson 3 said about empty things, what does `while readings:` do, and when does it stop?
+:::checkpoint The condition of a `while` is tested for truth, exactly like an `if`. Given what lesson 3 said about empty things, what does `while readings:` do, and when does it stop?
 
 It repeats as long as `readings` has anything in it, and stops when the list is empty, because an empty list is false. You'd use it for a loop that consumes the list as it goes. Note it's `while readings:` and not `while len(readings) > 0:`, which says the same thing in more words.
 :::
@@ -261,8 +253,7 @@ else:
     print("No readings.")
 ```
 
-:::checkpoint Find the fault
-This loop is meant to print every item in the list. It prints three of the four. Which one goes missing, and why?
+This loop is meant to print every item in the list. It prints three of the four.
 
 ```
 items = ["a", "b", "c", "d"]
@@ -271,6 +262,7 @@ for i in range(1, len(items)):
     print(items[i])
 ```
 
+:::checkpoint Which of the four items goes missing, and why?
 `"a"` is missed, and the output is `b c d`.
 
 A list's first item is at position 0, not 1, so starting the range at 1 skips it. `len(items)` is 4, so `range(1, 4)` gives 1, 2, 3. The fix is `range(len(items))`, which gives 0, 1, 2, 3, and the better fix is `for item in items:`, which needs no numbers at all and cannot be off by one. Positions come up properly in lesson 6.

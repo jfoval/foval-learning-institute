@@ -117,16 +117,7 @@ As a claim about arithmetic it's nonsense, and people say so. As an instruction 
 straightforward. Work out the right side, which needs the value `total` has right now, say 20, and
 gives 25. Then make `total` refer to 25, replacing the old value rather than amending it.
 
-:::predict What is each name worth?
-Three lines run in order:
-
-```
-a = 3
-b = a
-a = 10
-```
-
-What is `a` worth at the end, and what is `b` worth?
+:::predict Three lines run in order: `a = 3`, then `b = a`, then `a = 10`. What is `a` worth at the end, and what is `b` worth?
 
 `a` is 10 and `b` is 3.
 
@@ -205,9 +196,7 @@ How many? 7
 **`input()` always gives you a string.** Always. It doesn't look at what was typed and decide.
 Even when the user types 7 and means seven, you get the one-character text `"7"`.
 
-:::checkpoint Before the fix
-A program asks `age = input("How old are you? ")` and the user types `41`. What is `age` worth,
-and what type is it?
+:::checkpoint A program asks `age = input("How old are you? ")` and the user types `41`. What is `age` worth, and what type is it?
 
 `age` is the string `"41"`, not the number 41. It looks like a number and it is three characters
 of text. Anything you try to do with it arithmetically will fail or, worse, quietly do the wrong
@@ -263,9 +252,7 @@ The `f` before the opening quote makes it an **f-string**. Anything in curly bra
 worked out and dropped into the text. Without the `f` you'd get the literal characters
 `{2026 - year}` printed, which is a mistake worth making once so you recognise it.
 
-:::checkpoint Quick check
-A user is asked for a price and types `4.50`. Which conversion do you want, and what goes wrong if
-you pick the other one?
+:::checkpoint A user is asked for a price and types `4.50`. Which conversion do you want, and what goes wrong if you pick the other one?
 
 You want `float("4.50")`, which gives `4.5`. `int("4.50")` does not round it down; it raises
 `ValueError: invalid literal for int() with base 10: '4.50'`, because `int()` will not accept text
