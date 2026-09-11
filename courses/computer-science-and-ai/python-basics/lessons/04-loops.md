@@ -1,6 +1,6 @@
 ---
 title: Repeating work
-minutes: 50
+minutes: 65
 objectives:
   - Compare for and while, and explain which one a given job needs
   - Build an accumulator loop that totals and counts, and explain why it starts outside the loop
@@ -8,33 +8,34 @@ objectives:
   - Identify an off-by-one error and an unguarded empty case in someone else's loop
 quiz:
   - q: >-
-      What does "for i in range(2, 11, 3):" print if the body is "print(i)"?
+      What does "for i in range(10, 0, -2):" print if the body is "print(i)"?
     options:
-      - 2, 5, 8, 11, since the third number is the step and the second is the last value
-      - 2, 5, 8, because counting stops before 11 rather than at it
-      - 3, 6, 9, since the first number sets the step and the second the starting point
-      - 2, 4, 6, 8, 10, because the third number says how many values to produce
+      - 10, 8, 6, 4, 2, 0, since counting down must finish on the stop value itself
+      - 10, 8, 6, 4, 2, because the stop is never reached, whichever way you count
+      - Nothing at all, because a range cannot run backwards without a reversed call
+      - 0, 2, 4, 6, 8, since a negative step reverses the order the values come out in
     answer: 1
     explain: >-
-      range takes a start, a stop and a step, and the stop is never included, so it goes 2, 5,
-      8 and would need 11 to be under the stop to appear. That makes it B. Option A is the
-      off-by-one everyone makes once. Option C reads the three numbers in the wrong roles.
-      Option D reads the step as a count of items.
+      A negative step counts down, and the stop is excluded going down exactly as it is going
+      up, so the run finishes at 2 and never produces 0. That is B. Option A is the
+      off-by-one, and the temptation is stronger downwards because 0 feels like a natural
+      place to stop. Option C invents a restriction. Option D produces the right values in
+      the wrong order, which is what you would get from range(0, 11, 2) instead.
   - q: >-
-      A loop totals a list, but total = 0 has been written inside the loop instead of above
-      it. The list is [12, 7, 19, 4]. What does total hold afterwards?
+      A loop totals [3, 8, 100, 6]. Its body is two lines, "total = 0" first and then
+      "total = total + n". What does total hold when the loop finishes?
     options:
-      - 42, since the loop still visits every item and adds each one in turn
-      - 0, because the assignment overwrites the total after the addition runs
-      - 12, since the first pass is the only one that finds the total still empty
-      - 4, because each pass wipes the total and adds only the item it is holding
-    answer: 3
+      - 117, since the loop still visits every item and adds each one in turn
+      - 6, because each pass wipes the total and then adds only the item it is holding
+      - 3, since the first pass is the only one that finds the total still empty
+      - 0, because the reset is the last thing to run before the loop ends
+    answer: 1
     explain: >-
-      Every pass resets total to zero and then adds that pass's item, so what survives is the
-      last item alone: 4. The answer is D, and the wrong number is worth recognising, because
-      "my total came out as the last item" is the fingerprint of this exact bug. Option A
-      describes the correct version. Option B has the two lines in the wrong order. Option C
-      would need the reset to happen only once.
+      Every pass sets total to zero and then adds that pass's item, so what survives is the
+      last item alone: 6, which is B. Note that the order of the two lines inside the body
+      decides this. Put the reset second and the answer really would be 0. Option A describes
+      the correct version, with the reset above the loop. Option C would need the reset to
+      happen only once. Option D reads the two body lines in the other order.
   - q: >-
       You need to read numbers from someone until they type "done", and you have no idea how
       many they will type. Which loop fits, and why?
@@ -51,8 +52,9 @@ quiz:
       third construct. Option D is the belief this question exists to break: the two loops
       suit different shapes of problem.
   - q: >-
-      A program totals the readings a user typed and divides by how many there were. The user
-      types "done" immediately. What happens?
+      A program reads lines from a user, stops when the line is "done" without converting
+      that line, totals the numbers it did get and divides by how many there were. The user
+      types "done" straight away. What happens?
     options:
       - ZeroDivisionError, because the count is still zero when the division runs
       - It prints 0, since dividing zero by zero is defined as zero in Python
@@ -104,7 +106,7 @@ You'll also meet `range()`, which produces a run of numbers without you writing 
 
 Look at the second one. You asked for 1 to 10 and got 1 to 9. **The stop value is never included**, and that catches everyone once.
 
-It isn't an arbitrary cruelty. Because the stop is excluded, `range(n)` has exactly `n` items in it, and `range(0, 5)` followed by `range(5, 10)` covers 0 to 9 with nothing missed and nothing repeated. Every off-by-one you avoid later comes from that.
+It isn't an arbitrary cruelty. Because the stop is excluded, `range(n)` has exactly `n` items in it, and `range(0, 5)` followed by `range(5, 10)` covers 0 to 9 with nothing missed and nothing repeated, which is a good share of the off-by-ones you would otherwise write.
 
 :::predict Before you read on
 `range()` takes a third number, the step. What does this print?
@@ -135,7 +137,7 @@ for r in readings:
 print("Average:", total / count)
 ```
 
-Here's what the two names are worth at the end of each pass:
+At the end of each pass the three names stand like this:
 
 | Pass | `r` | `total` | `count` |
 | --- | --- | --- | --- |
@@ -156,7 +158,9 @@ for r in readings:
     total = total + r
 ```
 
-Now every pass wipes the total and adds one number to zero, so what survives at the end is `4`, the last reading. No error, no warning, just a wrong answer that happens to look plausible. If a total ever comes out equal to the last item in your data, this is why.
+Now every pass wipes the total and adds one number to zero, so what survives at the end is `4`, the last reading. No error, no warning, just a wrong answer that happens to look plausible.
+
+If a total ever comes out equal to the last item in your data, one of two slips produced it: the reset is inside the loop, or you wrote `total = r` where you meant `total = total + r`. Both throw away everything before the final pass, and both give exactly the same symptom, so check for both.
 
 ## Waiting for something instead
 
@@ -186,19 +190,67 @@ It repeats as long as `readings` has anything in it, and stops when the list is 
 
 ## The two ways this goes wrong
 
-**The loop that never ends.** A `while` whose condition never becomes false runs until you stop it. Press `Ctrl-C` and Python raises `KeyboardInterrupt` and quits. The cause is nearly always a missing update: something inside the loop was supposed to change the thing the condition tests, and doesn't.
-
-**The empty case.** Take the sentinel program above and have it average the readings. Now run it and type `done` straight away:
+**The loop that never ends.** Run this one on purpose:
 
 ```
+n = 5
+while n > 0:
+    print(n)
+```
+
+```
+5
+5
+5
+5
+... and so on for ever
+```
+
+Nothing inside the loop changes `n`, so `n > 0` is true now and will be true for ever. Press `Ctrl-C` to stop it:
+
+```
+  File "/home/you/spin.py", line 3, in <module>
+    print(n)
+    ~~~~~^^^
+KeyboardInterrupt
+```
+
+The fix is one line, `n = n - 1` at the bottom of the body. That's the cause almost every time: something inside was supposed to change what the condition tests, and doesn't.
+
+**The empty case.** Put the two halves together, the `while` that collects and the `for` that averages, and save the whole thing as `readings.py`:
+
+```
+readings = []
+
+while True:
+    line = input("Reading, or 'done': ")
+    if line == "done":
+        break
+    readings.append(float(line))
+
+total = 0
+count = 0
+for r in readings:
+    total = total + r
+    count = count + 1
+
+print("Average:", total / count)
+```
+
+Type 12, 7, 19 and then `done` and it says `Average: 12.666666666666666`. Now run it again and type `done` straight away:
+
+```
+Reading, or 'done': done
 Traceback (most recent call last):
-  File "/home/you/readings.py", line 9, in <module>
+  File "/home/you/readings.py", line 15, in <module>
     print("Average:", total / count)
                       ~~~~~~^~~~~~~
 ZeroDivisionError: division by zero
 ```
 
-The loop body never ran, so `total` and `count` are both still `0`, and the last line divides zero by zero. That's the fifth error in this course, and the empty case is the one people forget, because they test their program by typing three readings in like a reasonable person. A real user opens it, doesn't understand it, and presses Enter.
+Read it the way lesson 1 taught, from the bottom. `ZeroDivisionError: division by zero` names the fault. Above it, line 15 and the source line that failed, and under that the marker `~~~~~~^~~~~~~`, which points not at the whole line but at `total / count`, the exact part that blew up. Those markers arrived in Python 3.11 and they are the most useful thing in a traceback once a line has more than one operation in it.
+
+So: the loop body never ran, `total` and `count` both still hold the `0` they were given, and the last line divides zero by zero. That's the fifth error in this course, and the empty case is the one people forget, because they test by typing three readings in like a reasonable person. A real user opens it, doesn't understand it, and presses Enter.
 
 The fix is an `if` before you divide, which is why lesson 3 came first:
 
@@ -208,6 +260,21 @@ if count > 0:
 else:
     print("No readings.")
 ```
+
+:::checkpoint Find the fault
+This loop is meant to print every item in the list. It prints three of the four. Which one goes missing, and why?
+
+```
+items = ["a", "b", "c", "d"]
+
+for i in range(1, len(items)):
+    print(items[i])
+```
+
+`"a"` is missed, and the output is `b c d`.
+
+A list's first item is at position 0, not 1, so starting the range at 1 skips it. `len(items)` is 4, so `range(1, 4)` gives 1, 2, 3. The fix is `range(len(items))`, which gives 0, 1, 2, 3, and the better fix is `for item in items:`, which needs no numbers at all and cannot be off by one. Positions come up properly in lesson 6.
+:::
 
 ## What people get wrong
 
@@ -224,12 +291,18 @@ else:
 :::exercise Two loops
 Take 25 minutes over these.
 
-**One. Two passes over the same data.** Given a list of numbers, print how many of them are above the list's own average. This needs two passes: one to work out the average, and one to count. You can't do it in a single pass, and working out why not is most of the exercise. Check yours against `[12, 7, 19, 4]`, where the average is `10.5` and the answer is `2`.
+**One. Two loops over the same data.** Given a list of numbers, print how many of them are above the list's own average. This needs two loops rather than one, and working out why is most of the exercise: nothing can be compared with the average until the last number has been seen. Check yours against `[5, 5, 5, 40]`, where the answer is `1`, and be sure you can say why it isn't 3.
 
 **Two. Build up a string.** An accumulator doesn't have to hold a number. Start with `word = ""` and loop over the letters of `"loop"`, and on each pass set `word` to the letter followed by whatever `word` already held. Predict what comes out before you run it. Then work out what changes if you write it the other way round.
+
+**Three. Four plans in one program.** This is the one that matters, and it's harder than it looks. Write a program that reads numbers one per line until the user types `done`, ignores any number below zero and says so when it does, and then reports how many valid readings there were and their average, without crashing if there weren't any.
+
+Every piece is something you've already done: terminate on a sentinel, guard with an `if`, accumulate a total, count. Putting four easy pieces into one program is a separate skill from having the pieces, and it's the thing beginners reliably find hard, so build it in stages rather than all at once. Get it reading and echoing one number first. Then the sentinel. Then the rejection. Then the totals. Then the empty case.
+
+This is the course project in miniature, and you'll meet it again at full size.
 :::
 
-If a loop does something you can't explain, step through it in [Python Tutor](https://pythontutor.com/), which shows every name changing on every pass. This is the lesson where that pays for itself.
+If a loop does something you can't explain, step through it in Python Tutor, which shows every name changing on every pass. [Here is the averaging loop above, already loaded](https://pythontutor.com/visualize.html#code=readings%20%3D%20%5B12%2C%207%2C%2019%2C%204%5D%0Atotal%20%3D%200%0Acount%20%3D%200%0A%0Afor%20r%20in%20readings%3A%0A%20%20%20%20total%20%3D%20total%20%2B%20r%0A%20%20%20%20count%20%3D%20count%20%2B%201%0A%0Aprint%28total%20%2F%20count%29&cumulative=false&py=3&rawInputLstJSON=%5B%5D): press Next repeatedly and watch `total` and `count` climb while `r` takes each reading in turn.
 
 ## Connections
 
@@ -245,8 +318,14 @@ That's the problem the next lesson solves. A function lets you write the averagi
 
 ## Sources
 
-1. *The Python Tutorial*, chapter 4, "More Control Flow Tools", Python 3.14 documentation. `for`, `range`, `break`, and `while`. [^1]
-2. All code output in this lesson was run on CPython 3.14.7 and pasted from the terminal, including the `range()` results, the pass-by-pass table, the `ZeroDivisionError` traceback, and the reset-inside-the-loop total of 4. [^2]
+1. *The Python Tutorial*, chapter 4, "More Control Flow Tools", Python 3.14 documentation. `for`, `range`, `break`, and `while`, and the rule that a range's stop value is excluded. [^1]
+2. Al Sweigart, *Automate the Boring Stuff with Python*, 3rd edition, chapter 3, "Loops". Free online under CC BY-NC-SA 3.0, and linked rather than adapted. The source for treating the runaway loop and `Ctrl-C` as a topic a beginner meets early rather than late. [^2]
+3. Allen B. Downey, *Think Python*, 3rd edition 2023, chapter 7, "Iteration and Search". Free online under CC BY-NC-SA 4.0, linked rather than adapted. Downey builds the accumulator pattern the same way, setting up before the loop and using after it. [^3]
+4. PEP 657, "Include Fine Grained Error Locations in Tracebacks", Python 3.11. The `~~~~~~^~~~~~~` markers under the failing part of a line. [^4]
+5. All code output in this lesson was run on CPython 3.14.7 and pasted from the terminal, including the `range()` results, the pass-by-pass table, both tracebacks with their real line numbers, and the reset-inside-the-loop total of 4. Paths in the tracebacks are shown as `/home/you/` in place of the machine's own. [^5]
 
 [^1]: *The Python Tutorial*, 3.14, ch. 4.
-[^2]: Run 10 September 2026.
+[^2]: Sweigart, *Automate the Boring Stuff* 3e, ch. 3.
+[^3]: Downey, *Think Python* 3e, ch. 7.
+[^4]: PEP 657, as above.
+[^5]: Run 10 September 2026.
