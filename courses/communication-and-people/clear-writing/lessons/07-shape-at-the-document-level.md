@@ -43,9 +43,9 @@ quiz:
       - Read the headings on their own, in order, and see whether they tell the story
       - Count the words before and after, and check that the restructure did not lengthen it
       - Read it aloud from start to finish, listening for places where the rhythm breaks
-      - Check that no section runs longer than the roughly 130 words a reader will finish
+      - Check that no section runs longer than the roughly 111 words a reader half-finishes
     answer: 0
-    explain: The lesson's test is the headings read alone, because that is close to what a skimming reader actually receives, which is A. B measures the wrong thing for a restructure that moves rather than cuts. C is a useful habit for prose and does not test structure. D misapplies lesson 1's finish line, which is about a whole page rather than a section.
+    explain: The lesson's test is the headings read alone, because that is close to what a skimming reader actually receives, which is A. B measures the wrong thing for a restructure that moves rather than cuts. C is a useful habit for prose and does not test structure. D misapplies lesson 1's figure, which is about a whole page rather than a section.
   - q: A colleague says formatting is the designer's job and the writer should hand over plain paragraphs. What does this lesson say?
     options:
       - Agreed, since a writer who formats their own work usually produces something inconsistent
@@ -56,7 +56,7 @@ quiz:
     explain: Choosing between prose, a list and a table is a claim about what relationship the content has, so it cannot be delegated to someone applying formatting afterwards. That is C. A and B concede the premise. D disagrees for a practical reason rather than the one the lesson gives, which is that the decision is about meaning.
 ---
 
-Lesson 1 established that a reader gets through roughly 130 words before deciding whether your document is worth more. That finding has been driving everything since, but it has been driving it at the level of sentences and paragraphs, which quietly assumes the reader is reading.
+Lesson 1 established that a reader takes in about a fifth of an average page, and gets through half the information only on pages of about 111 words or fewer. That finding has been driving everything since, but it has been driving it at the level of sentences and paragraphs, which quietly assumes the reader is reading.
 
 Often they are not. They are looking. They have opened a document to find one thing, and they are moving down it at speed, and prose is not what they are using to navigate.
 

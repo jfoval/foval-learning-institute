@@ -56,7 +56,7 @@ quiz:
     explain: The lesson finds two of Pullum's charges belong to White rather than Strunk, and also finds Strunk's 1918 text contradicting Pullum on split infinitives, so the evidence cuts both ways. That is C. A takes only the attack and B only the defence. D declines to weigh evidence the lesson has just weighed, which is the move the whole lesson argues against.
 ---
 
-Everything in this course so far has asked you to trust it. Readers finish about 130 words. Readers expect a subject to be followed by its verb. Readers emphasise what arrives last. Those are claims about people, and you have taken them from research this course read on your behalf.
+Everything in this course so far has asked you to trust it. Readers take in about a fifth of a page. Readers expect a subject to be followed by its verb. Readers emphasise what arrives last. Those are claims about people, and you have taken them from research this course read on your behalf.
 
 Meanwhile you have spent your life being handed a different kind of writing advice. Never split an infinitive. Never start a sentence with *but*. Never use the passive. Those usually arrive with no evidence attached, and sometimes with the suggestion that a person who breaks them is careless.
 

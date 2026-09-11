@@ -1,8 +1,10 @@
 # Reviews: Writing Clearly
 
-*Findings and resolutions, appended over time. See `docs/CONTENT_PIPELINE.md` Stage 4. This course is
-being rebuilt from four pre-pipeline placeholder lessons; the new lessons are drafted at Stage 3 and
-have not yet had their Stage 4 cycles, except where recorded below.*
+*Findings and resolutions, appended over time. See `docs/CONTENT_PIPELINE.md` Stage 4. This course
+was rebuilt from pre-pipeline placeholder lessons; the nine lessons are drafted at Stage 3 and their
+Stage 4 cycles began on 2026-09-10. Lessons 1 and 2 are done. **Read `course-wide.md` before
+reviewing any lesson here**: it records the five defects that recurred verbatim between lessons 1
+and 2, and the figure that four lessons carried and no source contained.*
 
 ## How this directory is laid out
 

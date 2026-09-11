@@ -186,6 +186,20 @@ text); Gooding et al. (2021) (abstract only).
 
 ## Expert bodies and official guidance
 
+- **GOV.UK, "Create a clear structure for your content"**
+  ([guidance.publishing.service.gov.uk](https://guidance.publishing.service.gov.uk/writing-to-gov-uk-standards/writing-guidelines/clear-structure/)).
+  Read 2026-09-10, during lesson 2's Stage 4, when the review found lesson 2 attributing heading and
+  front-loading guidance to the clear-language page below, which contains neither. This is the page
+  that does. **"Put the most important information first. The quicker you get to the point, the
+  greater the chance your users will see the information you want them to."** It recommends the
+  inverted pyramid by name, and asks that headings be "descriptive", "frontloaded", "active" and
+  "removable", avoiding "generic headings like 'Introduction'".
+
+  It also carries its own reading figures, which matter because of the course's history with this
+  number: users "only read 20 to 28% of text on a webpage", and they read "in an 'F' shape pattern".
+  The first corroborates Nielsen from a second institution, independently. Lessons 2 and 7 use this
+  page; lesson 7's heading material should be built on it rather than on Nielsen.
+
 - **GOV.UK, "Use clear language"**
   ([guidance.publishing.service.gov.uk](https://guidance.publishing.service.gov.uk/writing-to-gov-uk-standards/writing-guidelines/clear-language/)).
   The best source of *concrete, testable* rules, from an organisation that writes for an entire country
