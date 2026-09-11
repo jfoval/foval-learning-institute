@@ -117,7 +117,7 @@ print(len(readings))
 4
 ```
 
-Square brackets make a list, and square brackets take things out of it. `readings[0]` is the first item, because **positions are counted from 0**, not from 1.[^1]
+Square brackets make a list, and square brackets take things out of it. `readings[0]` is the first item, because **positions are counted from 0**, not from 1.[1]
 
 That looks like a needless cruelty until you see what it buys you. An index is an offset from the start, so the first item is nought steps in. It also makes `readings[1:3]` behave: a slice runs from the first number up to but not including the second, exactly as `range(1, 3)` did in lesson 4, so `[1:3]` gives you two items, and `[0:2]` followed by `[2:4]` covers the whole list with nothing missed and nothing repeated. That's one rule doing the work of four special cases.
 
@@ -135,11 +135,11 @@ Traceback (most recent call last):
 IndexError: list index out of range
 ```
 
-`len(readings)` is 4, and the positions are 0, 1, 2 and 3. So the last one is `len(readings) - 1`, or simply `-1`. `IndexError` is the sixth error in this course, and lesson 1 promised you'd meet it properly once lists arrived. Here it is, and it means one thing only: you asked for a position that isn't there. (This traceback, like every output in this lesson, was pasted from a run on CPython 3.14.7.[^7])
+`len(readings)` is 4, and the positions are 0, 1, 2 and 3. So the last one is `len(readings) - 1`, or simply `-1`. `IndexError` is the sixth error in this course, and lesson 1 promised you'd meet it properly once lists arrived. Here it is, and it means one thing only: you asked for a position that isn't there. (This traceback, like every output in this lesson, was pasted from a run on CPython 3.14.7.[7])
 
 Read it from the bottom as usual. The last line names the fault. Above it, line 7 and the source line, and under that the markers `~~~~~~~~^^^^^^^^^^^^^^^`, with the carets sitting under `len(readings)`, which is the part that produced the position Python couldn't find.
 
-A list is **mutable**, which means you can change it after it's made. `.append(x)` puts one item on the end, `.clear()` empties it, and assigning to a position replaces what was there.[^1] That's convenient, and it's also where the next section comes from.
+A list is **mutable**, which means you can change it after it's made. `.append(x)` puts one item on the end, `.clear()` empties it, and assigning to a position replaces what was there.[1] That's convenient, and it's also where the next section comes from.
 
 ## Two names, one list
 
@@ -324,7 +324,7 @@ None
 False
 ```
 
-`.get(key)` hands back `None` instead of raising. `.get(key, default)` hands back whatever default you name. `in` asks the question directly and gives you a `bool` you can put in an `if`.[^1]
+`.get(key)` hands back `None` instead of raising. `.get(key, default)` hands back whatever default you name. `in` asks the question directly and gives you a `bool` you can put in an `if`.[1]
 
 Looping a dictionary gives you its pairs, if you ask with `.items()`:
 
@@ -341,7 +341,7 @@ alan 74
 
 Two names on the `for` line, because each pair comes out as two things.
 
-Be precise about the order, because people guess wrong here. A dictionary preserves **insertion order**, and the language has guaranteed that since version 3.7, which is when the behaviour stopped being a detail of how CPython happened to be built and was, in the release notes' own words, ["declared to be an official part of the Python language spec"](https://docs.python.org/3/whatsnew/3.7.html).[^1b] It isn't sorted by key, and it never was:
+Be precise about the order, because people guess wrong here. A dictionary preserves **insertion order**, and the language has guaranteed that since version 3.7, which is when the behaviour stopped being a detail of how CPython happened to be built and was, in the release notes' own words, ["declared to be an official part of the Python language spec"](https://docs.python.org/3/whatsnew/3.7.html).[1] It isn't sorted by key, and it never was:
 
 ```
 d = {}
@@ -469,14 +469,14 @@ You haven't met **files**, so nothing you write yet survives being closed. You h
 
 Classes in particular are a deliberate omission and not an oversight. Almost every course and book in this course's research file defers them to the end, and the usual reasoning is that objects solve a problem of program organisation that a beginner hasn't had yet, so meeting the solution first is how the idea becomes mysterious. That reasoning isn't unanimous, and it's more settled for a course like this one, aimed at everybody, than for a first course aimed at computing majors, where the argument is live. You've twice now met the problem first, in lesson 5 and in this exercise, and I'd do it that way with classes too.
 
-Two honest next steps, and they suit different people. **[CS50P](https://cs50.harvard.edu/python/)** is Harvard's ten-week version, free, with graded problem sets, and it reaches exceptions in week 3 and unit tests in week 5.[^5] **[Automate the Boring Stuff](https://automatetheboringstuff.com/)** is free online and aims straight at doing something useful with files, spreadsheets and the web. The first is the academic route and the second is the practical one.
+Two honest next steps, and they suit different people. **[CS50P](https://cs50.harvard.edu/python/)** is Harvard's ten-week version, free, with graded problem sets, and it reaches exceptions in week 3 and unit tests in week 5.[5] **[Automate the Boring Stuff](https://automatetheboringstuff.com/)** is free online and aims straight at doing something useful with files, spreadsheets and the web. The first is the academic route and the second is the practical one.
 
 :::callout Before you install anything
 Two things that a course of this length can only warn you about, and both are real.
 
-**`pip install` runs code from the internet on your machine, at the moment of installing.** A package can execute arbitrary code during its own installation, so the moment you mistype a package name, whatever lives under the wrong name is already running. Typosquatting on the Python Package Index is an active campaign rather than a theoretical risk. To take one case from August 2025, [security researchers at Zscaler found](https://www.zscaler.com/blogs/security-research/malicious-pypi-packages-deliver-silentsync-rat) a package called **`sisaws`**, one letter away from the real **`sisa`**, which is a library for talking to Argentina's national health information system.[^6] Installing the wrong one delivered a remote access trojan that read saved browser passwords and cookies. One letter. PyPI now flags likely typosquats when a project is created, which helps and isn't a guarantee. Read the name twice before you press Enter, and take it from the project's own documentation rather than from memory.
+**`pip install` runs code from the internet on your machine, at the moment of installing.** A package can execute arbitrary code during its own installation, so the moment you mistype a package name, whatever lives under the wrong name is already running. Typosquatting on the Python Package Index is an active campaign rather than a theoretical risk. To take one case from August 2025, [security researchers at Zscaler found](https://www.zscaler.com/blogs/security-research/malicious-pypi-packages-deliver-silentsync-rat) a package called **`sisaws`**, one letter away from the real **`sisa`**, which is a library for talking to Argentina's national health information system.[6] Installing the wrong one delivered a remote access trojan that read saved browser passwords and cookies. One letter. PyPI now flags likely typosquats when a project is created, which helps and isn't a guarantee. Read the name twice before you press Enter, and take it from the project's own documentation rather than from memory.
 
-**Use a virtual environment.** Your operating system may depend on its own Python, and installing packages into it can break things that have nothing to do with you. `venv` is built in and exists for exactly this. [The tutorial's chapter 12](https://docs.python.org/3/tutorial/venv.html) is three pages, and it's the thing to read before your first `pip install`, not after it.[^2]
+**Use a virtual environment.** Your operating system may depend on its own Python, and installing packages into it can break things that have nothing to do with you. `venv` is built in and exists for exactly this. [The tutorial's chapter 12](https://docs.python.org/3/tutorial/venv.html) is three pages, and it's the thing to read before your first `pip install`, not after it.[2]
 :::
 
 One last thing, because you may be deciding whether to carry on in Python at all. Python is a good first language and it isn't objectively the best one, and people who have thought about this seriously disagree. What it gives you is little syntactic ceremony, so you spend your attention on the ideas. What it costs you is that its types are checked as the program runs rather than before, so a mistake sits quietly in a branch you haven't tested until the day that branch runs. That isn't a small cost. It's also why this course put a traceback in lesson 1 and gave you six more across the five lessons since: in Python, reading a traceback is the basic skill rather than an advanced one.
@@ -487,27 +487,17 @@ You've met seven: `SyntaxError`, `NameError`, `TypeError`, `ValueError`, `ZeroDi
 
 ## Go deeper
 
-- **[The Python tutorial, chapter 5, "Data Structures"](https://docs.python.org/3/tutorial/datastructures.html)** for lists, list methods, slicing and dictionaries, and the list comprehension, which is the compact loop you'll see everywhere and which this course deliberately skipped.[^1]
-- **[Think Python, chapter 9, "Lists"](https://allendowney.github.io/ThinkPython/chap09.html)** and **[chapter 10, "Dictionaries"](https://allendowney.github.io/ThinkPython/chap10.html)**, free online. Downey gives aliasing its own named section, 9.10, rather than a passing mention.[^3]
-- **[Automate the Boring Stuff, chapters 6 and 7](https://automatetheboringstuff.com/3e/chapter6.html)**, free online, on lists and on structuring data with dictionaries.[^4]
+- **[The Python tutorial, chapter 5, "Data Structures"](https://docs.python.org/3/tutorial/datastructures.html)** for lists, list methods, slicing and dictionaries, and the list comprehension, which is the compact loop you'll see everywhere and which this course deliberately skipped.[1]
+- **[Think Python, chapter 9, "Lists"](https://allendowney.github.io/ThinkPython/chap09.html)** and **[chapter 10, "Dictionaries"](https://allendowney.github.io/ThinkPython/chap10.html)**, free online. Downey gives aliasing its own named section, 9.10, rather than a passing mention.[3]
+- **[Automate the Boring Stuff, chapters 6 and 7](https://automatetheboringstuff.com/3e/chapter6.html)**, free online, on lists and on structuring data with dictionaries.[4]
 - **[Python Tutor](https://pythontutor.com/)** once more. Paste anything from this lesson that surprised you and watch the arrows.
 
 ## Sources
 
-1. *The Python Tutorial*, chapter 5, "Data Structures", Python 3.14 documentation. Lists and their methods, slicing, dictionaries, `.get()`, `.items()`, and the statement that a dictionary preserves insertion order. [^1]
-1b. *What's New In Python 3.7*, release highlights, for the version at which that ordering became a guarantee: the insertion-order behaviour of `dict` "has been declared to be an official part of the Python language spec". Before 3.7 it was true of CPython and not promised. [^1b]
-2. *The Python Tutorial*, chapter 12, "Virtual Environments and Packages". The source for the `venv` recommendation in the callout above. [^2]
-3. Allen B. Downey, *Think Python*, 3rd edition 2023, chapters 9 and 10. Free online under CC BY-NC-SA 4.0, linked rather than adapted. Chapter 9 was opened on 10 September 2026 to check this: section 9.10 is titled "Aliasing" and section 9.3 covers copying with both the full slice and `list()`. [^3]
-4. Al Sweigart, *Automate the Boring Stuff with Python*, 3rd edition, chapters 6 and 7. Free online under CC BY-NC-SA 3.0, linked rather than adapted. [^4]
-5. CS50P, Harvard University, course syllabus. Exceptions in week 3 and unit tests in week 5, cited in "where this leads" as evidence that both are beginner topics rather than advanced ones. [^5]
-6. Zscaler ThreatLabz, "Malicious PyPI Packages Deliver SilentSync RAT", 4 August 2025, for the `sisaws` against `sisa` case named in the callout, the legitimate package's purpose, and the browser credential theft the malicious one performed. The Python Package Index publishes its own guidance and now flags likely typosquats at project creation. **No download count or incident total is quoted anywhere in this lesson**, because the figures available when this course was researched came from summaries rather than from primary reports, and SOURCES.md records which. [^6]
-7. All code and output in this lesson was run on CPython 3.14.7 and pasted from the terminal, including all three tracebacks, the word counts, the aliasing results and the mutable-default sequence. Paths in the tracebacks are shown as `/home/you/` in place of the machine's own. [^7]
-
-[^1]: *The Python Tutorial*, 3.14, ch. 5.
-[^1b]: *What's New In Python 3.7*, docs.python.org/3/whatsnew/3.7.html.
-[^2]: *The Python Tutorial*, 3.14, ch. 12.
-[^3]: Downey, *Think Python* 3e, chs. 9 and 10.
-[^4]: Sweigart, *Automate the Boring Stuff* 3e, chs. 6 and 7.
-[^5]: CS50P syllabus, cs50.harvard.edu/python.
-[^6]: Zscaler ThreatLabz, 4 August 2025. See also SOURCES.md, "Safety-critical guidance", for what was and was not verified.
-[^7]: Run 10 September 2026.
+1. *The Python Tutorial*, chapter 5, "Data Structures", Python 3.14 documentation. Lists and their methods, slicing, dictionaries, `.get()`, `.items()`, and the statement that a dictionary preserves insertion order. Also *What's New In Python 3.7*, release highlights, for the version at which that ordering became a guarantee: the insertion-order behaviour of `dict` "has been declared to be an official part of the Python language spec". Before 3.7 it was true of CPython and not promised.
+2. *The Python Tutorial*, chapter 12, "Virtual Environments and Packages". The source for the `venv` recommendation in the callout above.
+3. Allen B. Downey, *Think Python*, 3rd edition 2023, chapters 9 and 10. Free online under CC BY-NC-SA 4.0, linked rather than adapted. Chapter 9 was opened on 10 September 2026 to check this: section 9.10 is titled "Aliasing" and section 9.3 covers copying with both the full slice and `list()`.
+4. Al Sweigart, *Automate the Boring Stuff with Python*, 3rd edition, chapters 6 and 7. Free online under CC BY-NC-SA 3.0, linked rather than adapted.
+5. CS50P, Harvard University, course syllabus. Exceptions in week 3 and unit tests in week 5, cited in "where this leads" as evidence that both are beginner topics rather than advanced ones.
+6. Zscaler ThreatLabz, "Malicious PyPI Packages Deliver SilentSync RAT", 4 August 2025, for the `sisaws` against `sisa` case named in the callout, the legitimate package's purpose, and the browser credential theft the malicious one performed. The Python Package Index publishes its own guidance and now flags likely typosquats at project creation. **No download count or incident total is quoted anywhere in this lesson**, because the figures available when this course was researched came from summaries rather than from primary reports, and SOURCES.md records which.
+7. All code and output in this lesson was run on CPython 3.14.7 and pasted from the terminal, including all three tracebacks, the word counts, the aliasing results and the mutable-default sequence. Paths in the tracebacks are shown as `/home/you/` in place of the machine's own.

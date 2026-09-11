@@ -26,8 +26,8 @@ jobs:
         # stale the deploy is invisible to anyone who has visited before, which is exactly
         # the bug this stamping was added to fix, so a stale stamp fails the build.
         run: |
-          if ! git diff --quiet -- site/data/courses.js site/index.html site/sw.js; then
+          if ! git diff --quiet -- site/data site/index.html site/sw.js || [ -n "$(git status --porcelain -- site/data)" ]; then
             echo "Generated output is out of date. Run 'npm run build' and commit the result."
-            git diff --stat -- site/data/courses.js site/index.html site/sw.js
+            git status --short -- site/data site/index.html site/sw.js
             exit 1
           fi

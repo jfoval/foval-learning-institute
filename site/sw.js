@@ -1,6 +1,6 @@
 /* Foval Learning Institute service worker: network-first, cache fallback, so lessons read offline. */
-const CACHE = "foval-ab8b9f52";
-const CORE = ["./", "./index.html", "./assets/styles.css?v=2e146cfd", "./assets/app.js?v=d688d87a", "./data/courses.js?v=2f20dd4c", "./manifest.webmanifest"];
+const CACHE = "foval-1d4219c5";
+const CORE = ["./", "./index.html", "./assets/styles.css?v=225e8f60", "./assets/app.js?v=99446b69", "./data/courses.js?v=3e03a45d", "./manifest.webmanifest"];
 self.addEventListener("install", e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(CORE)).then(() => self.skipWaiting()));
 });
@@ -11,9 +11,15 @@ self.addEventListener("fetch", e => {
   if (e.request.method !== "GET" || !e.request.url.startsWith(self.location.origin)) return;
   e.respondWith(
     fetch(e.request).then(res => {
-      const copy = res.clone();
-      caches.open(CACHE).then(c => c.put(e.request, copy));
+      // Only a good response is worth keeping: a cached 404 would outlive the fix.
+      if (res.ok) { const copy = res.clone(); caches.open(CACHE).then(c => c.put(e.request, copy)); }
       return res;
-    }).catch(() => caches.match(e.request).then(r => r || caches.match("./index.html")))
+    }).catch(() => caches.match(e.request).then(r => {
+      if (r) return r;
+      // Offline and not cached: a page gets the app shell, which can show what it has.
+      // Anything else (an image, a course's content file) gets a real failure, not HTML.
+      if (e.request.mode === "navigate") return caches.match("./index.html");
+      return Response.error();
+    }))
   );
 });

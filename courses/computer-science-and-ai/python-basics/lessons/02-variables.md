@@ -229,7 +229,7 @@ one you'll see the same error without them.)
 
 That refusal to guess is deliberate, and Python states it as a principle:
 [*explicit is better than implicit*](https://peps.python.org/pep-0020/), the second line of the
-Zen of Python.[^5] You can read the whole thing by running `import this`.
+Zen of Python.[5] You can read the whole thing by running `import this`.
 
 Notice, too, that the prompt appeared on screen before the traceback. The program ran, and then
 it failed. That makes this the second kind of error from lesson 1, the sort found during the run
@@ -408,18 +408,13 @@ it's handed isn't a number at all. The checkpoint above has already shown you on
 
 1. *The Python Tutorial*, chapter 3, "An Informal Introduction to Python", and chapter 15,
    "Floating-Point Arithmetic: Issues and Limitations", Python 3.14 documentation. Types, operators,
-   and the binary-fraction explanation of `0.1 + 0.2`. [^1]
-2. PEP 8, *Style Guide for Python Code*. The `snake_case` naming convention. [^2]
+   and the binary-fraction explanation of `0.1 + 0.2`.
+2. PEP 8, *Style Guide for Python Code*. The `snake_case` naming convention.
 3. Allen B. Downey, *Think Python*, 3rd edition, 2023, chapter 2, "Variables and Statements". Free
-   online under CC BY-NC-SA 4.0. Linked, not adapted. [^3]
+   online under CC BY-NC-SA 4.0. Linked, not adapted.
 4. All code output in this lesson was run on CPython 3.14.7 and pasted from the terminal, including
    the `TypeError` traceback and the `is` comparison giving different answers in a file and at the
-   prompt. [^4]
+   prompt.
 5. PEP 20, *The Zen of Python*, Tim Peters, 19 August 2004. "Explicit is better than implicit",
-   the second of its nineteen lines. [^5]
+   the second of its nineteen lines.
 
-[^1]: *The Python Tutorial*, 3.14, chapters 3 and 15.
-[^2]: PEP 8, as above.
-[^3]: Downey, *Think Python* 3e, ch. 2.
-[^4]: Run 10 September 2026.
-[^5]: PEP 20, *The Zen of Python*, Tim Peters, 2004.

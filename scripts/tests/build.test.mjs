@@ -35,6 +35,15 @@ test("predict and checkpoint hide their body behind a details element", () => {
   assert.ok(html.includes("<p>The number 3.</p>"));
 });
 
+test("citation markers link to their Sources entry, outside code, and tables get a wrapper", () => {
+  const html = renderBody("A claim.[1] Not `x[1]` and not [2].\n\n| a | b |\n|---|---|\n| 1 | 2 |\n\n## Sources\n\n1. [One](https://example.org).\n");
+  assert.ok(html.includes('<sup class="cite"><a href="#src-1">1</a></sup>'));
+  assert.ok(html.includes('<li id="src-1">'));
+  assert.ok(html.includes("<code>x[1]</code>"), "code is untouched");
+  assert.ok(html.includes("not [2]."), "a marker with no entry stays text");
+  assert.ok(html.includes('<div class="table-wrap"><table>'));
+});
+
 test("figure and video render from the header line", () => {
   const fig = renderBody(":::figure img/x.jpg | A thing\n\nCredit: someone, CC BY.\n\n:::");
   assert.ok(fig.includes('<img src="img/x.jpg" alt="A thing"'));
@@ -131,6 +140,7 @@ const CASES = [
   ["an unspaced en dash in a range is allowed", s => s.replace("A paragraph", "Read Mark 16:9–20 first. A paragraph"), null],
   ["a spaced en dash inside a quotation is allowed", s => s.replace("A paragraph", 'The title "Meat – what to know" is quoted. A paragraph'), null],
   ["Windows line endings", s => s.replace(/\n/g, "\r\n"), "Windows line endings"],
+  ["a Markdown footnote", s => s.replace("A paragraph", "A claim.[^1] A paragraph").replace("## Sources", "[^1]: A note.\n\n## Sources"), "footnote"],
   ["an unclosed ::: block", s => s.replace("\n:::\n\n## Sources", "\n\n## Sources"), "never closed"],
   ["a nested ::: block", s => s.replace("Nothing much.", ":::callout Inner\n\nNested.\n\n:::\n\nNothing much."), "do not nest"],
   ["a ::: fence with text after it", s => s.replace("\n:::\n\n## Sources", "\n::: and more\n\n## Sources"), "fence with text after it"],

@@ -11,6 +11,57 @@ Older entries refer to `docs/BACKLOG.md`, which was split on 2026-09-09 into `do
 unstarted work) and this file. Its section numbers survive only in those entries and in a few
 split-seam comments inside Bible Basics lessons, which point at `docs/DECISIONS.md` §5.
 
+## 2026-09-10 — A review of the whole project, and the fixes it called for
+
+A full review of the repo, the site and the docs, with three fresh-context reviewers, followed by
+the fixes in one branch. What changed, by the reader it serves:
+
+**For a learner.** Every course and lesson now has a plain HTML page under `/courses/<id>/`, with
+its own title, description and canonical URL, plus `sitemap.xml` and `robots.txt`. The app was one
+hash-routed page, so a search engine or a shared link saw one title for all sixty-one lessons;
+nothing here could be found by searching for it. The app now loads a 102 KB index instead of a
+3.4 MB file before the home page could paint; each course's content is fetched when opened. The
+Foval Core page shows all 25 terms and 174 courses open, in order, nothing folded away (John's
+call). Every citation marker links to its entry in the Sources list, 1,321 of them, and six Python
+lessons' ninety-eight `[^n]` footnotes, which the renderer never supported and which reached the
+reader as literal text, are `[n]` links. The course tile's hours now include the assessments and
+no longer disagree with the syllabus below it. Quiz and review answers are marked with a word as
+well as a colour. Small text and gold-as-words clear 4.5:1 in the light theme. Page changes move
+focus to the content; the lesson list follows the article in reading order; tables keep their
+semantics inside a scrolling wrapper; nav links on a phone are 35px tall; the service worker no
+longer caches error responses or serves HTML for a missing image; storage failures are reported
+once instead of swallowed; a retake never lowers a recorded score; practice mode reschedules only
+what was missed, as its copy says; iOS gets a PNG touch icon; the theme colour is the navy, not a
+green from the rejected palette.
+
+**For the build.** The SVG overflow check located a label's chart by the first occurrence of its
+text anywhere in the file, which sent 263 of 873 labels to the wrong chart or none; it now uses the
+tag's position. The lint runs over assessments. New checks, each with a test: spaced en dashes,
+CR line endings, Markdown footnotes, nested `:::` blocks, a required `sensitive_domain`,
+`standpoint` only under `christian-studies`, a final test on any published course of six or more
+lessons, an `audio:` stamp needing a fact-checked script beside it, the audio-debt ledger
+ratcheting against the committed file, a missing TAXONOMY row as an error, an empty `course.yaml`
+reported instead of crashing. `estimated_hours` is gone; the build sums measured minutes.
+`npm test` runs 28 cases and CI runs it first. The quiz checkers run from any directory and report
+a frontmatter that does not parse.
+
+**For the next session.** Rule numbers cited outside the root `CLAUDE.md` were from an older
+numbering and now match. `/new-course` no longer offers eight terms, an elective tier or an
+ask-the-owner step. `/status` no longer offers a sign-off. The pipeline names `/voice-pass`,
+`/fact-check` and `/neutrality-audit`. The feedback loop says who exports the feedback and how.
+`docs/QUEUE.md` is back to its marching-order shape, with the closed-defect history moved here:
+
+- *Code blocks corrupted on the live site by the Markdown pass running twice.* Closed 2026-09-10;
+  `renderBlocks` holds rendered blocks behind placeholders and `checkRenderedHtml` fails the build
+  on a `<p>` inside a `<pre>`.
+- *Quiz explanations naming the wrong option letter.* Closed 2026-09-10; the checker was rewritten
+  and reports clean.
+- *Fourteen live lessons with a quiz passable without reading them.* Closed 2026-09-10; all
+  rebalanced, found by `npm run quiz`.
+- *Eight answer leaks in drafts.* One real, in Bible Basics 9, now a `:::predict`; seven false.
+- *Greys outside the palette in SVG fills.* Not a defect: `--text-2` and `--surface-2` are tokens.
+- *A figure eating 800 words of Bible Basics 9.* Closed 2026-09-10 with three checks behind it.
+
 ## 2026-09-10 — Python Basics has its assessments, and is no longer a stub course
 
 **The rebuild finished its content.** All six lessons of Introduction to Programming with Python

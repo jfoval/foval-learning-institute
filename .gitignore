@@ -15,3 +15,7 @@ audio-samples/
 
 # rendered episodes on their way to R2, not source
 audio-out/
+
+# static reading copies of every course and lesson, written by `npm run build` at deploy
+site/courses/
+site/sitemap.xml

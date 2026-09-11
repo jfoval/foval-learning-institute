@@ -95,7 +95,7 @@ for r in readings:
 
 `for` takes each item in turn, puts it in the name `r`, and runs the indented block. Four items, four passes, then it stops on its own. You don't count anything and you can't run off the end.
 
-You'll also meet `range()`, which produces a run of numbers without you writing them out. Everything printed in this lesson was run on CPython 3.14.7 and pasted in as it came out, with only the file paths changed.[^5]
+You'll also meet `range()`, which produces a run of numbers without you writing them out. Everything printed in this lesson was run on CPython 3.14.7 and pasted in as it came out, with only the file paths changed.[5]
 
 ```
 >>> list(range(5))
@@ -104,7 +104,7 @@ You'll also meet `range()`, which produces a run of numbers without you writing 
 [1, 2, 3, 4, 5, 6, 7, 8, 9]
 ```
 
-Look at the second one. You asked for 1 to 10 and got 1 to 9. The stop value is never included, and that catches everyone once.[^1]
+Look at the second one. You asked for 1 to 10 and got 1 to 9. The stop value is never included, and that catches everyone once.[1]
 
 It isn't an arbitrary cruelty. Because the stop is excluded, `range(n)` has exactly `n` items in it, and `range(0, 5)` followed by `range(5, 10)` covers 0 to 9 with nothing missed and nothing repeated, which is a good share of the off-by-ones you would otherwise write.
 
@@ -116,7 +116,7 @@ It starts at 2 and adds 3 each time. The next would be 11, but the stop is 11 an
 
 ## The accumulator
 
-Almost every loop that produces an answer looks like this. Set something up before the loop, change it inside, use it after.[^3]
+Almost every loop that produces an answer looks like this. Set something up before the loop, change it inside, use it after.[3]
 
 ```
 readings = [12, 7, 19, 4]
@@ -198,7 +198,7 @@ while n > 0:
 ... and so on for ever
 ```
 
-Nothing inside the loop changes `n`, so `n > 0` is true now and will be true for ever. Press `Ctrl-C` to stop it.[^2] Python reports the interruption like this:
+Nothing inside the loop changes `n`, so `n > 0` is true now and will be true for ever. Press `Ctrl-C` to stop it.[2] Python reports the interruption like this:
 
 ```
   File "/home/you/spin.py", line 3, in <module>
@@ -240,7 +240,7 @@ Traceback (most recent call last):
 ZeroDivisionError: division by zero
 ```
 
-Read it the way lesson 1 taught, from the bottom. `ZeroDivisionError: division by zero` names the fault. Above it, line 15 and the source line that failed, and under that the marker `~~~~~~^~~~~~~`, which points not at the whole line but at `total / count`, the exact part that blew up. Those markers arrived in Python 3.11 and they are the most useful thing in a traceback once a line has more than one operation in it.[^4]
+Read it the way lesson 1 taught, from the bottom. `ZeroDivisionError: division by zero` names the fault. Above it, line 15 and the source line that failed, and under that the marker `~~~~~~^~~~~~~`, which points not at the whole line but at `total / count`, the exact part that blew up. Those markers arrived in Python 3.11 and they are the most useful thing in a traceback once a line has more than one operation in it.[4]
 
 So: the loop body never ran, `total` and `count` both still hold the `0` they were given, and the last line divides zero by zero. That's the fifth error in this course, and the empty case is the one people forget, because they test by typing three readings in like a reasonable person. A real user opens it, doesn't understand it, and presses Enter.
 
@@ -310,14 +310,9 @@ That's the problem the next lesson solves. A function lets you write the averagi
 
 ## Sources
 
-1. *The Python Tutorial*, chapter 4, "More Control Flow Tools", Python 3.14 documentation. `for`, `range`, `break`, and `while`, and the rule that a range's stop value is excluded. [^1]
-2. Al Sweigart, *Automate the Boring Stuff with Python*, 3rd edition, chapter 3, "Loops". Free online under CC BY-NC-SA 3.0, and linked rather than adapted. The source for treating the runaway loop and `Ctrl-C` as a topic a beginner meets early rather than late. [^2]
-3. Allen B. Downey, *Think Python*, 3rd edition 2023, chapter 7, "Iteration and Search". Free online under CC BY-NC-SA 4.0, linked rather than adapted. Downey builds the accumulator pattern the same way, setting up before the loop and using after it. [^3]
-4. PEP 657, "Include Fine Grained Error Locations in Tracebacks", Python 3.11. The `~~~~~~^~~~~~~` markers under the failing part of a line. [^4]
-5. All code output in this lesson was run on CPython 3.14.7 and pasted from the terminal, including the `range()` results, the pass-by-pass table, both tracebacks with their real line numbers, and the reset-inside-the-loop total of 4. Paths in the tracebacks are shown as `/home/you/` in place of the machine's own. [^5]
+1. *The Python Tutorial*, chapter 4, "More Control Flow Tools", Python 3.14 documentation. `for`, `range`, `break`, and `while`, and the rule that a range's stop value is excluded.
+2. Al Sweigart, *Automate the Boring Stuff with Python*, 3rd edition, chapter 3, "Loops". Free online under CC BY-NC-SA 3.0, and linked rather than adapted. The source for treating the runaway loop and `Ctrl-C` as a topic a beginner meets early rather than late.
+3. Allen B. Downey, *Think Python*, 3rd edition 2023, chapter 7, "Iteration and Search". Free online under CC BY-NC-SA 4.0, linked rather than adapted. Downey builds the accumulator pattern the same way, setting up before the loop and using after it.
+4. PEP 657, "Include Fine Grained Error Locations in Tracebacks", Python 3.11. The `~~~~~~^~~~~~~` markers under the failing part of a line.
+5. All code output in this lesson was run on CPython 3.14.7 and pasted from the terminal, including the `range()` results, the pass-by-pass table, both tracebacks with their real line numbers, and the reset-inside-the-loop total of 4. Paths in the tracebacks are shown as `/home/you/` in place of the machine's own.
 
-[^1]: *The Python Tutorial*, 3.14, ch. 4.
-[^2]: Sweigart, *Automate the Boring Stuff* 3e, ch. 3.
-[^3]: Downey, *Think Python* 3e, ch. 7.
-[^4]: PEP 657, as above.
-[^5]: Run 10 September 2026.

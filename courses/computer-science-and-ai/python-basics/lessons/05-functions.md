@@ -79,7 +79,7 @@ quiz:
       which has no default, so the call is short an argument.
 ---
 
-By the end of lesson 4 you'd written `total = total + n` and `count = count + 1` more times than you wanted to. The averaging block is six lines with its print, it works, and you'd have to paste it again for the next set of readings. That's the problem this lesson solves. You met the problem before the solution on purpose: this course puts loops before functions so that the repetition is something you've felt rather than something you've been warned about.[^4]
+By the end of lesson 4 you'd written `total = total + n` and `count = count + 1` more times than you wanted to. The averaging block is six lines with its print, it works, and you'd have to paste it again for the next set of readings. That's the problem this lesson solves. You met the problem before the solution on purpose: this course puts loops before functions so that the repetition is something you've felt rather than something you've been warned about.[4]
 
 ## Giving a block of work a name
 
@@ -118,7 +118,7 @@ print(average([5, 5, 5, 40]))
 13.75
 ```
 
-Every output block in this lesson, that one included, was pasted from a run on CPython 3.14.7, with only the file paths changed.[^6]
+Every output block in this lesson, that one included, was pasted from a run on CPython 3.14.7, with only the file paths changed.[6]
 
 Four pieces here, and each has a name you'll want to know.
 
@@ -165,7 +165,7 @@ Traceback (most recent call last):
 TypeError: unsupported operand type(s) for *: 'NoneType' and 'int'
 ```
 
-Read it the way lesson 1 taught you, from the bottom. `TypeError` names the fault: something tried to multiply a `NoneType` by an `int`. The markers `~~~~~~~~~~^~~` sit under `add(2, 3) * 2`, and the `^` points at the multiplication.[^5]
+Read it the way lesson 1 taught you, from the bottom. `TypeError` names the fault: something tried to multiply a `NoneType` by an `int`. The markers `~~~~~~~~~~^~~` sit under `add(2, 3) * 2`, and the `^` points at the multiplication.[5]
 
 Now look at the `5` above the traceback. The function ran. It printed. And the program still has nothing to multiply, because showing a number to you isn't the same as handing it back.
 
@@ -189,7 +189,7 @@ Here's the rule of thumb: if another part of your program needs the answer, retu
 
 ## What comes back when you don't say
 
-`NoneType` in that traceback wasn't an accident of the example. Every call hands something back, and a function with no `return` hands back `None`:[^1]
+`NoneType` in that traceback wasn't an accident of the example. Every call hands something back, and a function with no `return` hands back `None`:[1]
 
 ```
 def greet(name):
@@ -443,21 +443,15 @@ You've been working around that gap all lesson. `average([12, 7, 19, 4])` passes
 ## Go deeper
 
 - **[The Python tutorial, chapter 4.8](https://docs.python.org/3/tutorial/controlflow.html#defining-functions)** on defining functions, and 4.9 on default and keyword arguments, which is the reference for the second half of this lesson. Section 4.9.3, "Special parameters", is where the `*` in a parameter list is explained.
-- **[Think Python, chapter 3, "Functions"](https://allendowney.github.io/ThinkPython/chap03.html)** and **[chapter 6, "Return Values"](https://allendowney.github.io/ThinkPython/chap06.html)**, free online. Downey introduces functions in chapter 3 and doesn't give you `return` until chapter 6, and the gap between them is a fair measure of how much trouble the distinction causes.[^2]
-- **[Automate the Boring Stuff, chapter 4](https://automatetheboringstuff.com/3e/chapter4.html)**, free online, for the practical treatment and a longer look at `None`.[^3]
+- **[Think Python, chapter 3, "Functions"](https://allendowney.github.io/ThinkPython/chap03.html)** and **[chapter 6, "Return Values"](https://allendowney.github.io/ThinkPython/chap06.html)**, free online. Downey introduces functions in chapter 3 and doesn't give you `return` until chapter 6, and the gap between them is a fair measure of how much trouble the distinction causes.[2]
+- **[Automate the Boring Stuff, chapter 4](https://automatetheboringstuff.com/3e/chapter4.html)**, free online, for the practical treatment and a longer look at `None`.[3]
 
 ## Sources
 
-1. *The Python Tutorial*, chapter 4, "More Control Flow Tools", sections 4.8 and 4.9, Python 3.14 documentation. `def`, parameters and arguments, `return`, default argument values, keyword arguments, and the statement that a function with no `return` returns `None`. [^1]
-2. Allen B. Downey, *Think Python*, 3rd edition 2023, chapters 3 and 6. Free online under CC BY-NC-SA 4.0, linked rather than adapted. Cited for where the two topics sit in his contents, which is what was read. [^2]
-3. Al Sweigart, *Automate the Boring Stuff with Python*, 3rd edition, chapter 4, "Functions". Free online under CC BY-NC-SA 3.0, linked rather than adapted. [^3]
-4. MIT 6.0001, *Introduction to Computer Science and Programming in Python* (Fall 2016, OpenCourseWare), session list. Branching and iteration come in the first sessions and functions after them, which is why this lesson follows loops rather than preceding them: the repetition is felt in lesson 4 and removed here. Note that the strongest courses disagree about this. Harvard's CS50P and Downey both take functions first. [^4]
-5. PEP 657, "Include Fine Grained Error Locations in Tracebacks", Python 3.11. The `~~~~~~~~~~^~~` markers under the failing part of a line. On Python 3.10 the same traceback arrives without them. [^5]
-6. All code and output in this lesson was run on CPython 3.14.7 and pasted from the terminal, including both tracebacks, the `<function average at 0x...>` line, and every printed figure. Paths in the tracebacks are shown as `/home/you/` in place of the machine's own. [^6]
+1. *The Python Tutorial*, chapter 4, "More Control Flow Tools", sections 4.8 and 4.9, Python 3.14 documentation. `def`, parameters and arguments, `return`, default argument values, keyword arguments, and the statement that a function with no `return` returns `None`.
+2. Allen B. Downey, *Think Python*, 3rd edition 2023, chapters 3 and 6. Free online under CC BY-NC-SA 4.0, linked rather than adapted. Cited for where the two topics sit in his contents, which is what was read.
+3. Al Sweigart, *Automate the Boring Stuff with Python*, 3rd edition, chapter 4, "Functions". Free online under CC BY-NC-SA 3.0, linked rather than adapted.
+4. MIT 6.0001, *Introduction to Computer Science and Programming in Python* (Fall 2016, OpenCourseWare), session list. Branching and iteration come in the first sessions and functions after them, which is why this lesson follows loops rather than preceding them: the repetition is felt in lesson 4 and removed here. Note that the strongest courses disagree about this. Harvard's CS50P and Downey both take functions first.
+5. PEP 657, "Include Fine Grained Error Locations in Tracebacks", Python 3.11. The `~~~~~~~~~~^~~` markers under the failing part of a line. On Python 3.10 the same traceback arrives without them.
+6. All code and output in this lesson was run on CPython 3.14.7 and pasted from the terminal, including both tracebacks, the `<function average at 0x...>` line, and every printed figure. Paths in the tracebacks are shown as `/home/you/` in place of the machine's own.
 
-[^1]: *The Python Tutorial*, 3.14, ch. 4.8 and 4.9.
-[^2]: Downey, *Think Python* 3e, chs. 3 and 6.
-[^3]: Sweigart, *Automate the Boring Stuff* 3e, ch. 4.
-[^4]: MIT 6.0001 (Fall 2016), OCW session list; CS50P week 0; Downey, *Think Python* 3e, ch. 3.
-[^5]: PEP 657, as above.
-[^6]: Run 10 September 2026.

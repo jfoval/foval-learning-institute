@@ -89,7 +89,7 @@ A program that runs the same lines every time can only do one job. The moment it
 
 ## A comparison produces a value
 
-Type a comparison at the prompt and look at what comes back.[^4]
+Type a comparison at the prompt and look at what comes back.[4]
 
 ```
 >>> 7 > 3
@@ -145,7 +145,7 @@ else:
     print("F")
 ```
 
-Python works down the chain, testing each condition in turn, and the first one that's true wins. Its block runs and the whole chain is finished: nothing below it is even looked at.[^1] If none of them is true, the `else` runs. If there's no `else`, nothing runs, which is allowed.
+Python works down the chain, testing each condition in turn, and the first one that's true wins. Its block runs and the whole chain is finished: nothing below it is even looked at.[1] If none of them is true, the `else` runs. If there's no `else`, nothing runs, which is allowed.
 
 <svg viewBox="0 0 420 250" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="chain-t">
 <title id="chain-t">How an if, elif, else chain runs</title>
@@ -198,7 +198,7 @@ Nothing is broken here and no error appears. The chain did exactly what the rule
 
 ## Indentation is the syntax
 
-In most languages the indented lines under an `if` are a courtesy to the reader. In Python they're how the language knows which lines the `if` controls. Four spaces is the convention, and it's in [PEP 8](https://peps.python.org/pep-0008/) along with the naming rules from lesson 2.[^2]
+In most languages the indented lines under an `if` are a courtesy to the reader. In Python they're how the language knows which lines the `if` controls. Four spaces is the convention, and it's in [PEP 8](https://peps.python.org/pep-0008/) along with the naming rules from lesson 2.[2]
 
 Get it wrong and you may get an `IndentationError`, which is the friendly outcome. The unfriendly one is a program that runs and quietly does the wrong thing. These two differ by four spaces:
 
@@ -244,7 +244,7 @@ If `n` is zero, the left side is false, Python stops, and the division on the ri
 
 ## Things that are false without a comparison
 
-You don't have to write a comparison. Python will take any value and decide whether it counts as true, and the rule is short: empty things are false, and so is zero.[^3]
+You don't have to write a comparison. Python will take any value and decide whether it counts as true, and the rule is short: empty things are false, and so is zero.[3]
 
 ```
 >>> bool(0), bool(0.0), bool(""), bool([]), bool({}), bool(None)
@@ -373,12 +373,8 @@ Next is repetition, and it needs everything here. A `while` loop is an `if` that
 
 ## Sources
 
-1. *The Python Tutorial*, chapter 4, "More Control Flow Tools", Python 3.14 documentation. `if`, `elif`, `else`, and the boolean operators. [^1]
-2. PEP 8, *Style Guide for Python Code*. Four spaces per indentation level. [^2]
-3. Python documentation, *Built-in Types*, "Truth Value Testing". The list of values that count as false. [^3]
-4. All code output in this lesson was run on CPython 3.14.7 and pasted from the terminal, including the `SyntaxError` suggesting `==`, the `ValueError` from `int("seven")`, and the three `.isdigit()` results. [^4]
+1. *The Python Tutorial*, chapter 4, "More Control Flow Tools", Python 3.14 documentation. `if`, `elif`, `else`, and the boolean operators.
+2. PEP 8, *Style Guide for Python Code*. Four spaces per indentation level.
+3. Python documentation, *Built-in Types*, "Truth Value Testing". The list of values that count as false.
+4. All code output in this lesson was run on CPython 3.14.7 and pasted from the terminal, including the `SyntaxError` suggesting `==`, the `ValueError` from `int("seven")`, and the three `.isdigit()` results.
 
-[^1]: *The Python Tutorial*, 3.14, ch. 4.
-[^2]: PEP 8, as above.
-[^3]: Python 3.14 docs, "Truth Value Testing".
-[^4]: Run 10 September 2026.

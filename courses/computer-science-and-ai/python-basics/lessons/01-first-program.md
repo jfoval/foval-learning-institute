@@ -103,13 +103,13 @@ somewhere specific, so let me show you where.
 In 2006 a paper by Saeed Dehnadi and Richard Bornat called "The camel has two humps" claimed to
 have found a test that sorted people into programmers and non-programmers before they had written a
 line of code. It was never formally published, and it travelled anyway. In 2014 Bornat, one of its
-two authors, retracted it.[^1] He wrote
+two authors, retracted it.[1] He wrote
 that he doesn't believe an aptitude test for programming was discovered, and that he doesn't
 believe in "programming sheep and non-programming goats". He attributed the paper to a period when
 he was seriously unwell.
 
 The other half of the folklore is that computer science grades come out in two humps, a group who
-get it and a group who don't. In 2016 Patitsas and colleagues went and looked.[^2] They took the
+get it and a group who don't. In 2016 Patitsas and colleagues went and looked.[2] They took the
 final grades of every undergraduate computer science class at the University of British Columbia
 from 1996 to 2013: 778 lecture sections, 30,214 grades. Then they measured instead of eyeballing.
 A first screen ruled out 455 of the sections outright, on a property that has to hold before a
@@ -144,7 +144,7 @@ You almost certainly have an AI assistant available, and pretending otherwise wo
 The researchers who study this are genuinely split, and the honest summary is that the evidence is
 early and still moving. A review by Denny, Prather, Becker and colleagues treats code-generating
 models as both an opportunity, because they make new kinds of learning material possible, and a
-problem for how introductory courses are taught and assessed.[^6] Studies watching beginners work
+problem for how introductory courses are taught and assessed.[6] Studies watching beginners work
 with these tools describe people accepting suggestions they haven't understood.
 
 The line this course takes is a teaching judgement rather than a finding. A model
@@ -273,14 +273,14 @@ Take the `NameError` above, bottom to top:
    that tells you what is wrong. Start here.
 2. `pint("My name is Ada.")` with `^^^^` under it. The exact code, with the exact part that failed
    marked. Those caret marks are a recent convenience: they arrived in Python 3.11, so on an older
-   Python you'll see the same error without them.[^3]
+   Python you'll see the same error without them.[3]
 3. `File ".../greeting.py", line 2, in <module>` The file and the line number. `<module>` means the
    fault was in the body of your file rather than inside a function.
 4. `Traceback (most recent call last):` A header. It carries no information about your bug. This is
    the line beginners stare at hardest.
 
 The suggestion at the end, `Did you mean: 'print'?`, is a real feature and not a coincidence:
-Python compares the name you used against the names it does know and offers the nearest.[^4] But it's
+Python compares the name you used against the names it does know and offers the nearest.[4] But it's
 only a guess, and Python doesn't act on it. You typed `pint`, so `pint` is what it went looking
 for, and not finding it is still an error.
 
@@ -327,7 +327,7 @@ exercise below has no error in it.
 :::callout Which Python to install
 Install Python 3.13 or 3.14 from [python.org](https://www.python.org/downloads/). Everything in
 this course runs on 3.10 and up, but 3.10 reaches end of life in October 2026, so it isn't a
-sensible thing to start on now.[^5] Check what you have with `python3 --version`.
+sensible thing to start on now.[5] Check what you have with `python3 --version`.
 
 On a Mac and on most Linux systems the command is `python3`. On Windows it's usually `python` or
 `py`. If `python3 --version` says 2 point something, you're looking at a different, long-dead
@@ -401,30 +401,24 @@ that turns out to be text.
 
 1. Richard Bornat, *Camels and humps: a retraction*, Middlesex University, 2014. The author's own
    withdrawal of the 2006 "The camel has two humps" claim, and the source of the "programming sheep
-   and non-programming goats" wording. [^1]
+   and non-programming goats" wording.
 2. Elizabeth Patitsas, Jesse Berlin, Michelle Craig and Steve Easterbrook, "Evidence That Computer
    Science Grades Are Not Bimodal", *Proceedings of the 2016 ACM Conference on International
    Computing Education Research* (ICER 2016, Melbourne); later in *Communications of the ACM*.
    Study 1 covers 778 lecture sections and 30,214 final grades at the University of British
    Columbia, 1996 to 2013, of which 45 (5.8%) were multimodal under Hartigan's Dip Test. Study 2 is
    the experiment on 53 professors, whose six histograms were all generated from a normal
-   distribution. [^2]
+   distribution.
 3. PEP 657, "Include Fine Grained Error Locations in Tracebacks", released in Python 3.11. The
-   caret markers under the failing part of a line. [^3]
+   caret markers under the failing part of a line.
 4. *What's New In Python 3.10*, "Better error messages": `NameError` and `AttributeError` gained
    suggestions of similar names (bpo-38530). Python 3.12 extended them to standard library modules
-   and to `ImportError`. [^4]
+   and to `ImportError`.
 5. Python Developer's Guide, *Status of Python versions*. Python 3.14 was released on 7 October 2025
-   and is the current stable release; 3.10 reaches end of life in October 2026. [^5]
+   and is the current stable release; 3.10 reaches end of life in October 2026.
 6. Paul Denny, James Prather, Brett A. Becker, James Finnie-Ansley, Arto Hellas, Juho Leinonen,
    Andrew Luxton-Reilly, Brent N. Reeves, Eddie Antonio Santos and Sami Sarsa, "Computing Education
    in the Era of Generative AI", *Communications of the ACM*, 2023 (arXiv:2306.02608). Cited for its
    framing of code-generating models as both an opportunity and a challenge for introductory
-   courses. Only the abstract has been read. [^6]
+   courses. Only the abstract has been read.
 
-[^1]: Bornat 2014, as above.
-[^2]: Patitsas et al., ICER 2016, as above.
-[^3]: PEP 657, as above.
-[^4]: *What's New In Python 3.10*, as above.
-[^5]: Python Developer's Guide, versions page, read 10 September 2026.
-[^6]: Denny, Prather, Becker et al., *CACM* 2023, as above.

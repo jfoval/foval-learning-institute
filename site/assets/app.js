@@ -21,9 +21,20 @@
   const main = document.getElementById("main");
   const DAY = 86400000;
 
-  /* ---------- storage ---------- */
-  const load = (k, d) => { try { return JSON.parse(localStorage.getItem(k)) ?? d; } catch { return d; } };
-  const save = (k, v) => { try { localStorage.setItem(k, JSON.stringify(v)); } catch { /* private mode */ } };
+  /* ---------- storage ----------
+     Every localStorage call goes through these. Storage can be full, blocked, or absent
+     (private mode, some embedded browsers), and a bare call there throws and kills the page. */
+  const lsGet = k => { try { return localStorage.getItem(k); } catch { return null; } };
+  const lsSet = (k, v) => { try { localStorage.setItem(k, v); return true; } catch { return false; } };
+  const lsRemove = k => { try { localStorage.removeItem(k); } catch { /* nothing to remove */ } };
+  const load = (k, d) => { try { return JSON.parse(lsGet(k)) ?? d; } catch { return d; } };
+  let saveWarned = false;
+  const save = (k, v) => {
+    if (lsSet(k, JSON.stringify(v)) || saveWarned) return;
+    // Once per page load, not silently: a learner who just passed a quiz should know it did not stick.
+    saveWarned = true;
+    alert("Your progress could not be saved in this browser: its storage is full or blocked. The page still works, but nothing you do here will be remembered.");
+  };
   const today = () => new Date().toISOString().slice(0, 10);
   function logActivity() { const a = load(K.activity, {}); a[today()] = (a[today()] || 0) + 1; save(K.activity, a); }
   function streak() {
@@ -42,7 +53,7 @@
   const account = () => load(K.auth, null);
   function setAccount(a) {
     if (a) save(K.auth, a);
-    else { try { localStorage.removeItem(K.auth); } catch { /* private mode */ } }
+    else lsRemove(K.auth);
     const link = document.getElementById("accountLink");
     if (link) link.textContent = a && a.token ? "Account" : "Sign in";
   }
@@ -62,7 +73,7 @@
 
   const localState = () => ({
     progress: load(K.progress, {}), review: load(K.review, {}), activity: load(K.activity, {}),
-    prefs: prefs(), name: (() => { try { return localStorage.getItem("foval.name") || ""; } catch { return ""; } })(),
+    prefs: prefs(), name: lsGet("foval.name") || "",
   });
 
   // Merged progress carries done, score and at. Anything else the browser keeps on a
@@ -80,7 +91,7 @@
     save(K.review, state.review || {});
     save(K.activity, state.activity || {});
     if (state.prefs) save(K.prefs, state.prefs);
-    if (state.name) { try { localStorage.setItem("foval.name", state.name); } catch { /* private mode */ } }
+    if (state.name) lsSet("foval.name", state.name);
   }
 
   let syncTimer = null, syncing = false;
@@ -108,6 +119,34 @@
     save(K.progress, p); logActivity(); scheduleSync();
   }
   const courseItems = c => [...c.lessons, ...(c.assessments || [])];
+
+  /* ---------- lesson content ----------
+     data/courses.js is the index: every course and lesson without the lesson HTML or quiz.
+     A course's rendered lessons live in data/content/<id>.js, fetched the first time a reader
+     opens that course and merged onto the lesson records here, so the rest of the app can keep
+     reading l.content and l.quiz as it always did. It used to be one 3.4 MB file loaded
+     before the home page could paint. */
+  const contentLoads = new Map();
+  function loadContent(c) {
+    if (!c) return Promise.resolve();
+    if (c._loaded) return Promise.resolve();
+    if (contentLoads.has(c.id)) return contentLoads.get(c.id);
+    const p = new Promise((resolve, reject) => {
+      const s = document.createElement("script");
+      s.src = c.content;
+      s.onload = () => {
+        const data = (window.FOVAL_CONTENT || {})[c.id];
+        if (!data) return reject(new Error("no content"));
+        for (const l of c.lessons) { const d = data.lessons[l.id] || {}; l.content = d.content || ""; l.quiz = d.quiz || []; }
+        for (const a of c.assessments || []) { const d = data.assessments[a.id] || {}; a.content = d.content || ""; a.quiz = d.quiz || []; }
+        c._loaded = true; resolve();
+      };
+      s.onerror = () => { contentLoads.delete(c.id); reject(new Error("failed to load " + c.content)); };
+      document.head.appendChild(s);
+    });
+    contentLoads.set(c.id, p);
+    return p;
+  }
   function courseProgress(c) {
     const items = courseItems(c);
     const done = items.filter(l => (lessonState(c.id, l.id) || {}).done).length;
@@ -137,10 +176,13 @@
     it.last = correct; it.due = Date.now() + it.interval * DAY;
     save(K.review, bank); logActivity(); scheduleSync();
   }
+  // A bank key resolves against the index even before the course's quiz is loaded, so the
+  // home page can count what is due; q is only present once loadContent has run.
   function resolveKey(key) {
     const [cid, lid, qi] = key.split("/");
-    const c = byId(cid); const l = c && c.lessons.find(x => x.id === lid); const q = l && l.quiz[Number(qi)];
-    return q ? { c, l, q, key } : null;
+    const c = byId(cid); const l = c && c.lessons.find(x => x.id === lid);
+    if (!l || !(Number(qi) < (l.quiz ? l.quiz.length : l.quizCount))) return null;
+    return { c, l, q: l.quiz ? l.quiz[Number(qi)] : null, key };
   }
   function reviewStats() {
     const bank = load(K.review, {}); const keys = Object.keys(bank).filter(k => resolveKey(k));
@@ -154,7 +196,9 @@
   /* ---------- helpers ---------- */
   const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
   const byId = id => COURSES.find(c => c.id === id);
-  const totalMinutes = c => c.lessons.reduce((n, l) => n + (l.minutes || 0), 0);
+  // A course's length is the measured minutes of everything in it, assessments included. The
+  // cards used to sum lessons only, so the number on the tile disagreed with the syllabus below it.
+  const totalMinutes = c => courseItems(c).reduce((n, l) => n + (l.minutes || 0), 0);
   const fmtHours = mins => mins < 60 ? `${mins} min` : `${Math.round(mins / 60 * 10) / 10} h`;
   const SCHOOLS = [
     { name: "Foundations", line: "Logic, evidence, and how to think." },
@@ -215,9 +259,24 @@
   }
   function render(html, title) {
     main.innerHTML = html;
+    main.removeAttribute("aria-busy");
     document.title = title ? `${title} · Foval Learning Institute` : "Foval Learning Institute";
-    window.scrollTo({ top: 0 });
+    // A new page, not a scroll: jump, never animate up from the foot of a long lesson.
+    window.scrollTo({ top: 0, behavior: "instant" });
+    // Put keyboard and screen-reader focus on the new content rather than leaving it on
+    // whatever link was just clicked, which is gone.
+    main.focus({ preventScroll: true });
     reveal();
+  }
+  // Routes that fetch a course's content first. The token stops a slow load from painting
+  // over a page the reader has already moved on from.
+  let routeSeq = 0;
+  async function withContent(c, view) {
+    const token = ++routeSeq;
+    main.setAttribute("aria-busy", "true");
+    try { await loadContent(c); }
+    catch { if (token === routeSeq) render(`<div class="empty"><h2>Could not load this course</h2><p>Check your connection and try again.</p><a class="btn btn-primary" href="#/">Go home</a></div>`, "Not loaded"); return; }
+    if (token === routeSeq) view();
   }
 
   /* ---------- shared pieces ---------- */
@@ -367,7 +426,7 @@
     const liveSchools = new Set(COURSES.map(c => c.subject));
     render(`
       <section class="hero-wrap">
-        <div class="hero-media"><video autoplay muted loop playsinline poster="assets/media/hero-poster.jpg" onerror="this.style.display='none'"><source src="assets/media/hero.mp4" type="video/mp4"></video></div>
+        <div class="hero-media">${noMotion ? `<img src="assets/media/hero-poster.jpg" alt="" decoding="async">` : `<video autoplay muted loop playsinline poster="assets/media/hero-poster.jpg" onerror="this.style.display='none'"><source src="assets/media/hero.mp4" type="video/mp4"></video>`}</div>
         <div class="hero-inner">
           <div>
             <span class="eyebrow">Faith. Knowledge. Life. Free for everyone.</span>
@@ -491,7 +550,7 @@
       let remainingMin = 0;
       const items = t.courses.map(e => {
         const c = byId(e.id);
-        if (!c) return `<li><span class="path-item soon"><span class="path-dot"></span><span>${esc(e.title)}${e.optional ? " <span class='path-meta'>(optional)</span>" : ""}${e.standpoint ? " <span class='path-meta'>· " + esc(spName(e.standpoint)) + "</span>" : ""}</span><span class="path-meta">coming soon</span></span></li>`;
+        if (!c) return `<li><span class="path-item soon"><span class="path-dot"></span><span>${esc(e.title)}${e.optional ? " <span class='path-meta'>(optional)</span>" : ""}${e.standpoint ? " <span class='path-meta'>· " + esc(spName(e.standpoint)) + "</span>" : ""}</span><span class="path-meta">being written</span></span></li>`;
         const p = courseProgress(c); const done = p.done === p.total;
         if (!done) remainingMin += totalMinutes(c) * (1 - p.done / p.total);
         return `<li><a class="path-item" href="#/course/${c.id}"><span class="path-dot ${done ? "done" : courseStarted(c) ? "active" : ""}"></span><span>${esc(c.title)}${e.optional ? " <span class='path-meta'>(optional)</span>" : ""}${c.standpoint ? " <span class='path-meta'>· " + esc(spName(c.standpoint)) + "</span>" : ""}</span><span class="path-meta">${done ? "complete" : courseStarted(c) ? `${p.pct}%` : fmtHours(totalMinutes(c))}</span></a></li>`;
@@ -499,14 +558,11 @@
       const live = t.courses.filter(e => byId(e.id)).length;
       const weeks = remainingMin ? Math.max(1, Math.round(remainingMin / 60 / pr.hoursPerWeek)) : 0;
       const head = `<span class="term-num">${ti + 1}</span><div><h2 style="margin:0">${esc(t.title)}</h2><p>${esc(t.theme)}</p></div>`;
-      const foot = `<p class="path-meta" style="margin:.5rem 0 0">${live} of ${t.courses.length} courses live${weeks ? ` · about ${weeks} week${weeks === 1 ? "" : "s"} of live content left at ${pr.hoursPerWeek} h/week` : ""}</p>`;
-      // A term with nothing written yet folds away. The whole route stays visible and in order,
-      // but the page opens on the parts a learner can actually start.
-      if (!live) return `<details class="term term-soon">
-        <summary class="term-head">${head}<span class="term-toggle path-meta">${t.courses.length} courses, being written</span></summary>
-        <ol class="path-list">${items}</ol>
-      </details>`;
-      return `<section class="term">
+      const foot = `<p class="path-meta" style="margin:.5rem 0 0">${live ? `${live} of ${t.courses.length} courses live` : `${t.courses.length} courses, being written`}${weeks ? ` · about ${weeks} week${weeks === 1 ? "" : "s"} of live content left at ${pr.hoursPerWeek} h/week` : ""}</p>`;
+      // Every term is open, written or not. The whole route is the point of the page: a learner
+      // sees what is coming and where it sits, not only what can be started today. (It used to
+      // fold the unwritten terms away; John's call, 2026-09-10, is that they all show.)
+      return `<section class="term${live ? "" : " term-soon"}">
         <div class="term-head">${head}</div>
         <ol class="path-list">${items}</ol>
         ${foot}
@@ -537,7 +593,7 @@
           <h1>${esc(c.title)}</h1>
           ${c.standpoint ? `<div class="standpoint">${esc(STANDPOINT[c.standpoint] || c.standpoint)}</div>` : ""}
           <p class="lede">${esc(c.description)}</p>
-          <h3>What you'll learn</h3>
+          <h2 class="h3">What you'll learn</h2>
           <ul class="outcomes">${(c.outcomes || []).map(o => `<li>${esc(o)}</li>`).join("")}</ul>
         </div>
         <aside class="course-aside">
@@ -567,16 +623,17 @@
   function viewLesson(courseId, lessonId) {
     const c = byId(courseId); if (!c) return viewNotFound();
     const idx = c.lessons.findIndex(l => l.id === lessonId); if (idx < 0) return viewNotFound();
+    return withContent(c, () => viewLessonLoaded(c, idx));
+  }
+  function viewLessonLoaded(c, idx) {
     const l = c.lessons[idx]; const prev = c.lessons[idx - 1], next = c.lessons[idx + 1];
     const st = lessonState(c.id, l.id) || {};
     const hasQuiz = Array.isArray(l.quiz) && l.quiz.length > 0;
     const issueUrl = `${REPO}/issues/new?title=${encodeURIComponent(`Lesson feedback: ${c.title} / ${l.title}`)}&body=${encodeURIComponent(`Course: ${c.id}\nLesson: ${l.id}\n\nWhat was unclear, wrong, or missing:\n\n`)}`;
+    // The lesson list comes after the article in the DOM, so a keyboard or screen-reader user
+    // reaches the lesson first; the stylesheet puts it on the left at desktop width.
     render(`
       <div class="lesson-layout">
-        <aside class="lesson-side">
-          <h4><a href="#/course/${c.id}">${esc(c.title)}</a></h4>
-          <ol>${c.lessons.map(x => { const s = lessonState(c.id, x.id) || {}; return `<li><a class="${x.id === l.id ? "current" : ""}" href="#/course/${c.id}/lesson/${x.id}"><span class="tick">${s.done ? "✓" : ""}</span><span>${esc(x.title)}</span></a></li>`; }).join("")}</ol>
-        </aside>
         <article class="lesson-body">
           <div class="breadcrumb"><a href="#/courses">Courses</a> / <a href="#/course/${c.id}">${esc(c.title)}</a> / Lesson ${idx + 1}</div>
           <h1>${esc(l.title)}</h1>
@@ -593,6 +650,10 @@
             ${next ? `<a class="btn btn-secondary" href="#/course/${c.id}/lesson/${next.id}">${esc(next.title)} →</a>` : `<a class="btn btn-primary" href="#/course/${c.id}">Finish course →</a>`}
           </nav>
         </article>
+        <aside class="lesson-side" aria-label="Lessons in this course">
+          <p class="side-title"><a href="#/course/${c.id}">${esc(c.title)}</a></p>
+          <ol>${c.lessons.map(x => { const s = lessonState(c.id, x.id) || {}; return `<li><a class="${x.id === l.id ? "current" : ""}" href="#/course/${c.id}/lesson/${x.id}"${x.id === l.id ? ' aria-current="page"' : ""}><span class="tick">${s.done ? "✓" : ""}</span><span>${esc(x.title)}</span></a></li>`; }).join("")}</ol>
+        </aside>
       </div>
     `, l.title);
     const fbForm = main.querySelector("#feedbackForm");
@@ -648,14 +709,22 @@
       l.quiz.forEach((q, qi) => {
         const box = form.querySelector(`[data-q="${qi}"]`);
         const chosen = Number(form.querySelector(`input[name="q${qi}"]:checked`).value);
-        box.querySelectorAll("label").forEach((lab, oi) => { lab.classList.remove("correct", "wrong"); if (oi === q.answer) lab.classList.add("correct"); else if (oi === chosen) lab.classList.add("wrong"); });
+        // Colour alone is not a mark; each option also says in words what it is.
+        box.querySelectorAll("label").forEach((lab, oi) => {
+          lab.classList.remove("correct", "wrong"); lab.querySelectorAll(".mark").forEach(m => m.remove());
+          const tag = oi === q.answer ? (oi === chosen ? "Correct" : "Right answer") : oi === chosen ? "Your answer" : "";
+          if (oi === q.answer) lab.classList.add("correct"); else if (oi === chosen) lab.classList.add("wrong");
+          if (tag) lab.insertAdjacentHTML("beforeend", `<span class="mark">${tag}</span>`);
+        });
         if (chosen === q.answer) correct++;
-        if (q.explain) { let ex = box.querySelector(".explain"); if (!ex) { ex = document.createElement("p"); ex.className = "explain muted"; box.appendChild(ex); } ex.textContent = q.explain; }
+        if (q.explain) { let ex = box.querySelector(".explain"); if (!ex) { ex = document.createElement("p"); ex.className = "explain"; box.appendChild(ex); } ex.textContent = q.explain; }
       });
       const score = correct / l.quiz.length; const passed = score >= passMark;
       result.className = "quiz-result " + (passed ? "pass" : "fail");
       result.textContent = passed ? `${correct} of ${l.quiz.length} correct. ${isTest ? "Passed." : "Lesson complete. These questions will come back in Review."}` : `${correct} of ${l.quiz.length} correct. ${isTest ? "Not yet. Review the lessons and retake after a day." : "Review the lesson and try again."}`;
-      markLesson(c.id, l.id, { done: passed || Boolean((lessonState(c.id, l.id) || {}).done), score });
+      // A retake never lowers the recorded score; the transcript keeps the best.
+      const was = lessonState(c.id, l.id) || {};
+      markLesson(c.id, l.id, { done: passed || Boolean(was.done), score: Math.max(score, was.score || 0) });
       if (passed) { if (!isTest) addToReviewBank(c, l); afterComplete(c); const ask = main.querySelector("#feedbackAsk"); if (ask) { ask.classList.add("nudge"); setTimeout(() => ask.scrollIntoView({ behavior: "smooth", block: "start" }), 900); } }
     });
   }
@@ -670,6 +739,9 @@
   function viewAssessment(courseId, aid) {
     const c = byId(courseId); if (!c) return viewNotFound();
     const a = (c.assessments || []).find(x => x.id === aid); if (!a) return viewNotFound();
+    return withContent(c, () => viewAssessmentLoaded(c, a));
+  }
+  function viewAssessmentLoaded(c, a) {
     const st = lessonState(c.id, a.id) || {};
     const lessonsDone = c.lessons.every(l => (lessonState(c.id, l.id) || {}).done);
     const isTest = a.type === "test" && a.quiz.length;
@@ -695,7 +767,15 @@
     if (!rs.total) {
       return render(`<div class="empty"><h2>Your review bank is empty</h2><p>Pass any lesson quiz and its questions start coming back here on a schedule that keeps them fresh.</p><a class="btn btn-primary" href="#/path">Start learning</a></div>`, "Review");
     }
+    // The questions live with each course's content; fetch every course the bank draws on.
     const bank = load(K.review, {});
+    const ids = [...new Set(Object.keys(bank).map(k => k.split("/")[0]))].map(byId).filter(Boolean);
+    const token = ++routeSeq;
+    main.setAttribute("aria-busy", "true");
+    Promise.all(ids.map(loadContent)).then(() => { if (token === routeSeq) viewReviewLoaded(mode, rs, bank); })
+      .catch(() => { if (token === routeSeq) render(`<div class="empty"><h2>Could not load your questions</h2><p>Check your connection and try again.</p><a class="btn btn-primary" href="#/">Go home</a></div>`, "Review"); });
+  }
+  function viewReviewLoaded(mode, rs, bank) {
     let queue = mode === "practice" ? shuffle(Object.keys(bank).filter(k => resolveKey(k))).slice(0, 10) : shuffle([...rs.due]);
     if (!queue.length) {
       const days = Math.max(0, Math.ceil((rs.nextDue - Date.now()) / DAY));
@@ -719,7 +799,7 @@
     `, "Review");
     const showCard = () => {
       if (i >= queue.length) {
-        main.querySelector("#card").innerHTML = `<div class="review-card"><div class="stem">Done. ${right} of ${queue.length} right.</div><p class="muted">Right answers come back later; wrong ones come back tomorrow.</p><div class="btn-row"><a class="btn btn-primary" href="#/review">Back to Review</a><a class="btn btn-secondary" href="#/my-learning">See your transcript</a></div></div>`;
+        main.querySelector("#card").innerHTML = `<div class="review-card"><div class="stem">Done. ${right} of ${queue.length} right.</div><p class="muted">${mode === "practice" ? "Practice: wrong answers come back tomorrow; right ones keep the schedule they had." : "Right answers come back later; wrong ones come back tomorrow."}</p><div class="btn-row"><a class="btn btn-primary" href="#/review">Back to Review</a><a class="btn btn-secondary" href="#/my-learning">See your transcript</a></div></div>`;
         return;
       }
       const it = resolveKey(queue[i]); if (!it) { i++; return showCard(); }
@@ -734,9 +814,15 @@
         </div>`;
       main.querySelectorAll(".review-opts button").forEach(b => b.addEventListener("click", () => {
         const oi = Number(b.dataset.oi); const correct = oi === q.answer;
-        main.querySelectorAll(".review-opts button").forEach((x, xi) => { x.disabled = true; if (xi === q.answer) x.classList.add("correct"); else if (xi === oi) x.classList.add("wrong"); });
+        main.querySelectorAll(".review-opts button").forEach((x, xi) => {
+          x.disabled = true;
+          const tag = xi === q.answer ? (xi === oi ? "Correct" : "Right answer") : xi === oi ? "Your answer" : "";
+          if (xi === q.answer) x.classList.add("correct"); else if (xi === oi) x.classList.add("wrong");
+          if (tag) x.insertAdjacentHTML("beforeend", `<span class="mark">${tag}</span>`);
+        });
         if (correct) right++;
-        gradeReview(key, correct);
+        // Practice reschedules only what was missed, as the page says; a due review grades both ways.
+        if (mode !== "practice" || !correct) gradeReview(key, correct);
         main.querySelector("#explain").innerHTML = `<div class="review-explain">${correct ? "Right." : "Not quite."} ${esc(q.explain || "")}</div>`;
         const nb = main.querySelector("#nextBtn"); nb.hidden = false; nb.focus();
         nb.addEventListener("click", () => { i++; showCard(); });
@@ -780,16 +866,16 @@
       </section>
     `, "My learning");
     main.querySelector("#exportBtn").addEventListener("click", async () => {
-      const json = JSON.stringify({ progress: load(K.progress, {}), review: load(K.review, {}), activity: load(K.activity, {}), prefs: prefs(), name: localStorage.getItem("foval.name") || "" });
+      const json = JSON.stringify({ progress: load(K.progress, {}), review: load(K.review, {}), activity: load(K.activity, {}), prefs: prefs(), name: lsGet("foval.name") || "" });
       try { await navigator.clipboard.writeText(json); alert("Copied. Paste it on your other device under 'Paste my data'."); } catch { prompt("Copy this text:", json); }
     });
     main.querySelector("#importBtn").addEventListener("click", () => {
       const txt = prompt("Paste your data:"); if (!txt) return;
-      try { const d = JSON.parse(txt); if (d.progress) save(K.progress, d.progress); if (d.review) save(K.review, d.review); if (d.activity) save(K.activity, d.activity); if (d.prefs) save(K.prefs, d.prefs); if (d.name) localStorage.setItem("foval.name", d.name); route(); }
+      try { const d = JSON.parse(txt); if (d.progress) save(K.progress, d.progress); if (d.review) save(K.review, d.review); if (d.activity) save(K.activity, d.activity); if (d.prefs) save(K.prefs, d.prefs); if (d.name) lsSet("foval.name", d.name); route(); }
       catch { alert("That didn't look like Foval data."); }
     });
     main.querySelector("#resetBtn").addEventListener("click", () => {
-      if (confirm("Clear all progress, review history, and streaks in this browser? This cannot be undone.")) { Object.values(K).forEach(k => localStorage.removeItem(k)); localStorage.removeItem("foval.name"); route(); }
+      if (confirm("Clear all progress, review history, and streaks in this browser? This cannot be undone.")) { Object.values(K).forEach(lsRemove); lsRemove("foval.name"); route(); }
     });
   }
 
@@ -797,7 +883,7 @@
     const c = byId(id); if (!c) return viewNotFound();
     const p = courseProgress(c);
     if (p.done < p.total) return render(`<div class="empty"><h2>Not quite yet</h2><p>Finish all ${p.total} lessons to earn this certificate.</p><a class="btn btn-primary" href="#/course/${c.id}">Back to course</a></div>`, "Certificate");
-    const name = (() => { try { return localStorage.getItem("foval.name") || ""; } catch { return ""; } })();
+    const name = lsGet("foval.name") || "";
     const date = new Date().toLocaleDateString(undefined, { year: "numeric", month: "long", day: "numeric" });
     render(`
       <div class="cert">
@@ -815,7 +901,7 @@
         <button class="btn btn-primary" id="printBtn">Print / save as PDF</button>
       </div>
     `, "Certificate");
-    main.querySelector("#nameBtn").addEventListener("click", () => { const n = prompt("Name to show on the certificate:", name); if (n !== null) { try { localStorage.setItem("foval.name", n.trim()); } catch {} route(); } });
+    main.querySelector("#nameBtn").addEventListener("click", () => { const n = prompt("Name to show on the certificate:", name); if (n !== null) { lsSet("foval.name", n.trim()); route(); } });
     main.querySelector("#printBtn").addEventListener("click", () => window.print());
   }
 
@@ -1037,6 +1123,18 @@
     viewNotFound();
   }
   window.addEventListener("hashchange", route);
+
+  // Citation markers link to their entry in the lesson's Sources list. In a hash-routed app a
+  // plain #src-7 link would change the route, so the jump is done here without touching the hash.
+  main.addEventListener("click", e => {
+    const a = e.target.closest('a[href^="#src-"]');
+    if (!a) return;
+    const target = main.querySelector(a.getAttribute("href"));
+    if (!target) return;
+    e.preventDefault();
+    target.scrollIntoView({ block: "start", behavior: noMotion ? "instant" : "smooth" });
+    target.setAttribute("tabindex", "-1"); target.focus({ preventScroll: true });
+  });
 
   if (API) {
     const nav = document.querySelector(".site-nav");

@@ -12,7 +12,7 @@ The map is deliberately ambitious. Most courses are `planned`. The point of writ
 4. **Depth over breadth per course.** A course should leave you genuinely competent in its subject, not "exposed" to it.
 
 **Levels:** `Foundation` (no prerequisites), `Core` (assumes Foundation courses), `Advanced` (assumes Core).
-**Status:** `planned` → `research` → `drafting` → `published`. A course is published when its lessons have been through the review pipeline; it keeps improving through the feedback loop after that. Two of the original starter courses, Writing Clearly and Algebra Essentials, are marked `published` but still owe their Stage 4 (Writing Clearly) or are pre-pipeline placeholders queued for a rebuild (Algebra Essentials). See `docs/QUEUE.md`.
+**Status:** `planned` → `research` → `drafting` → `published`. A course is published when its lessons have been through the review pipeline; it keeps improving through the feedback loop after that. One of the original starter courses, Writing Clearly, is marked `published` but still owes its Stage 4 and voice pass; Algebra Essentials was rebuilt on 2026-09-09 and owes its voice pass. See `docs/QUEUE.md`.
 
 **Path:** every course sits in a term of the Foval Core. There is no elective tier; see "Placing a course on the Core" at the foot of this file.
 

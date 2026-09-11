@@ -17,15 +17,17 @@
   <meta name="twitter:title" content="Foval Learning Institute">
   <meta name="twitter:description" content="Faith. Knowledge. Life. Free for everyone. Real courses, real sources, no accounts, no cost.">
   <meta name="twitter:image" content="https://www.fovallearninginstitute.org/assets/media/social-card.png">
-  <meta name="theme-color" content="#1f4d3a">
+  <meta name="theme-color" content="#0f2a4a">
+  <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-title" content="Foval">
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
-  <link rel="apple-touch-icon" href="assets/icon.svg">
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/styles.css?v=2e146cfd">
+  <link rel="stylesheet" href="assets/styles.css?v=225e8f60">
 </head>
 <body>
   <a class="skip" href="#main">Skip to content</a>
@@ -43,7 +45,7 @@
     </nav>
   </header>
 
-  <main id="main" class="page"></main>
+  <main id="main" class="page" tabindex="-1"></main>
 
   <footer class="site-footer">
     <nav class="footer-nav" aria-label="Footer">
@@ -81,8 +83,8 @@
     // deployed Worker's URL to switch sign-in on. See docs/AUTH_OPTIONS.md.
     window.FOVAL_API = "";
   </script>
-  <script src="data/courses.js?v=2f20dd4c"></script>
-  <script src="assets/app.js?v=d688d87a"></script>
+  <script src="data/courses.js?v=3e03a45d"></script>
+  <script src="assets/app.js?v=99446b69"></script>
   <script>
     if ("serviceWorker" in navigator && location.protocol.startsWith("http")) {
       navigator.serviceWorker.register("sw.js").catch(() => {});

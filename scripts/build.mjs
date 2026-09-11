@@ -42,7 +42,49 @@ export function renderBody(md) {
   held.forEach((rendered, i) => {
     html = html.replace(new RegExp(`(?:<p>\\s*)?<!--FOVAL-BLOCK-${i}-->(?:\\s*</p>)?`), () => rendered);
   });
-  return html;
+  return linkCitations(wrapTables(html));
+}
+
+// A wide table has to scroll inside its own box on a phone. The stylesheet used to do that with
+// `table { display: block }`, which strips the table's semantics for a screen reader; a wrapper
+// keeps them.
+function wrapTables(html) {
+  return html.replace(/<table>/g, '<div class="table-wrap"><table>').replace(/<\/table>/g, "</table></div>");
+}
+
+// Lessons cite with [n] and list the sources under "## Sources". The markers rendered as plain
+// text, 1,449 of them, so on a phone a reader could not get from a claim to its source. Each
+// marker becomes a link to its entry, and each entry gets an id. Markers are matched only in
+// text, outside tags and outside code, and only when the numbered entry exists, so "readings[0]"
+// in a Python lesson is left alone.
+function linkCitations(html) {
+  const head = html.match(/<h2[^>]*>Sources<\/h2>\s*/);
+  if (!head) return html;
+  const listStart = head.index + head[0].length;
+  let list, listEnd;
+  const known = new Set();
+  if (html.startsWith("<ol", listStart)) {
+    // The usual shape: a numbered list, one entry each.
+    listEnd = html.indexOf("</ol>", listStart);
+    if (listEnd < 0) return html;
+    const startAttr = html.slice(listStart, html.indexOf(">", listStart)).match(/start="(\d+)"/);
+    let n = startAttr ? Number(startAttr[1]) : 1;
+    list = html.slice(listStart, listEnd).replace(/<li>/g, () => { known.add(n); return `<li id="src-${n++}">`; });
+  } else {
+    // The other shape a few courses use: paragraphs opening with the marker, "[1] Author, ...".
+    listEnd = listStart;
+    list = "";
+    for (const m of html.slice(listStart).matchAll(/<p>\[(\d+)\]/g)) { known.add(Number(m[1])); }
+    if (!known.size) return html;
+    list = html.slice(listStart).replace(/<p>\[(\d+)\]/g, (m, k) => `<p id="src-${k}">[${k}]`);
+    listEnd = html.length;
+  }
+  const cite = seg => seg.replace(/(?<!\w)\[(\d+)\]/g, (m, k) => known.has(Number(k)) ? `<sup class="cite"><a href="#src-${k}">${k}</a></sup>` : m);
+  // Walk the body before the list: skip code, and inside the rest touch only text nodes.
+  const body = html.slice(0, listStart).split(/(<pre>[\s\S]*?<\/pre>|<code>[\s\S]*?<\/code>)/g)
+    .map((part, i) => i % 2 ? part : part.split(/(<[^>]+>)/g).map((p, j) => j % 2 ? p : cite(p)).join(""))
+    .join("");
+  return body + list + html.slice(listEnd);
 }
 
 function renderBlocks(md, held) {
@@ -133,6 +175,119 @@ function checkQuizTypes(quiz, file, label, report) {
     // explain is optional: the courses that predate the standards omit it.
     if (q.explain !== undefined && typeof q.explain !== "string") report(`${at} explain is not text (it parsed as ${kind(q.explain)}); ${hint}`);
   });
+}
+
+const ORIGIN = "https://www.fovallearninginstitute.org";
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const textOf = html => html.replace(/<[^>]+>/g, " ").replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/&amp;/g, "&").replace(/\s+/g, " ").trim();
+const fmtHours = mins => mins < 60 ? `${mins} min` : `${Math.round(mins / 6) / 10} h`;
+
+function writeStaticPages(shell, courses) {
+  const SITE = path.join(ROOT, "site");
+  // The shell is index.html after stamping, with the app's scripts removed, the empty <main>
+  // replaced, and every relative URL made absolute so the page works from /courses/x/y/.
+  const base = shell
+    .replace(/<script src="data\/courses\.js[^"]*"><\/script>\s*/g, "")
+    .replace(/<script src="assets\/app\.js[^"]*"><\/script>\s*/g, "")
+    .replace(/href="#\//g, 'href="/#/').replace(/href="assets\//g, 'href="/assets/').replace(/src="assets\//g, 'src="/assets/')
+    .replace(/href="manifest\.webmanifest"/g, 'href="/manifest.webmanifest"').replace(/register\("sw\.js"\)/g, 'register("/sw.js")');
+  const page = ({ url, title, description, body, type = "article" }) => {
+    const head = `<title>${esc(title)} · Foval Learning Institute</title>
+  <meta name="description" content="${esc(description)}">
+  <link rel="canonical" href="${ORIGIN}${url}">
+  <meta property="og:type" content="${type}">
+  <meta property="og:site_name" content="Foval Learning Institute">
+  <meta property="og:title" content="${esc(title)}">
+  <meta property="og:description" content="${esc(description)}">
+  <meta property="og:url" content="${ORIGIN}${url}">
+  <meta property="og:image" content="${ORIGIN}/assets/media/social-card.png">
+  <meta property="og:image:width" content="2400">
+  <meta property="og:image:height" content="1260">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="${esc(title)}">
+  <meta name="twitter:description" content="${esc(description)}">
+  <meta name="twitter:image" content="${ORIGIN}/assets/media/social-card.png">`;
+    return base
+      .replace(/<title>[\s\S]*?<\/title>[\s\S]*?<meta name="twitter:image"[^>]*>/, head)
+      .replace(/<main id="main" class="page"[^>]*><\/main>/, `<main id="main" class="page">${body}</main>`);
+  };
+  const write = (url, html) => {
+    const file = path.join(SITE, url.replace(/^\//, ""), "index.html");
+    fs.mkdirSync(path.dirname(file), { recursive: true });
+    fs.writeFileSync(file, html);
+  };
+  const urls = [{ loc: "/", priority: "1.0" }];
+  const blurb = s => { const t = textOf(s); return t.length > 155 ? t.slice(0, 152).replace(/\s+\S*$/, "") + "…" : t; };
+
+  fs.rmSync(path.join(SITE, "courses"), { recursive: true, force: true });
+  for (const c of courses) {
+    const cUrl = `/courses/${c.id}/`;
+    const minutes = [...c.lessons, ...(c.assessments || [])].reduce((n, x) => n + (Number(x.minutes) || 0), 0);
+    const app = `/#/course/${c.id}`;
+    write(cUrl, page({
+      url: cUrl, title: c.title, description: c.summary, type: "website",
+      body: `
+      <div class="course-hero">
+        <div>
+          <span class="eyebrow">${esc(c.subject)} · ${esc(c.level)}</span>
+          <h1>${esc(c.title)}</h1>
+          ${c.standpoint === "christian" ? `<div class="standpoint">Taught from within the Christian tradition. This course makes the case; it does not pretend to be neutral.</div>` : ""}
+          <p class="lede">${esc(c.description)}</p>
+          <h2 class="h3">What you'll learn</h2>
+          <ul class="outcomes">${(c.outcomes || []).map(o => `<li>${esc(o)}</li>`).join("")}</ul>
+        </div>
+        <aside class="course-aside">
+          <dl>
+            <dt>Lessons</dt><dd>${c.lessons.length}${c.assessments.length ? ` + ${c.assessments.length} assessment${c.assessments.length === 1 ? "" : "s"}` : ""}</dd>
+            <dt>Time</dt><dd>${fmtHours(minutes)}</dd>
+            <dt>Level</dt><dd>${esc(c.level)}</dd>
+            <dt>Cost</dt><dd>Free</dd>
+          </dl>
+          <div class="btn-row"><a class="btn btn-primary" href="${app}">Start the course</a></div>
+          <p class="muted small">Quizzes, progress and review run in the app. No account needed.</p>
+        </aside>
+      </div>
+      <h2>Syllabus</h2>
+      <ol class="lesson-list">
+        ${c.lessons.map((l, i) => `<li><a href="${cUrl}${l.id}/"><span class="lesson-num">${i + 1}</span><span>${esc(l.title)}</span><span class="lesson-time">${l.minutes} min</span></a></li>`).join("")}
+      </ol>
+      ${c.assessments.length ? `<h2 style="margin-top:2rem">Assessments</h2>
+      <ol class="lesson-list">
+        ${c.assessments.map(a => `<li><a href="/#/course/${c.id}/assessment/${a.id}"><span class="lesson-num">${a.type === "test" ? "T" : "P"}</span><span>${esc(a.title)}<span class="path-meta" style="margin-left:.5rem">${a.type === "test" ? "final test" : "project"}</span></span><span class="lesson-time">${a.minutes >= 60 ? fmtHours(a.minutes) : a.minutes + " min"}</span></a></li>`).join("")}
+      </ol>` : ""}`,
+    }));
+    urls.push({ loc: cUrl, priority: "0.8" });
+
+    c.lessons.forEach((l, i) => {
+      const lUrl = `${cUrl}${l.id}/`;
+      const prev = c.lessons[i - 1], next = c.lessons[i + 1];
+      const firstPara = (l.content.match(/<p>([\s\S]*?)<\/p>/) || [])[1] || "";
+      const description = blurb(l.objectives.length ? `${c.title}: ${l.objectives[0]}.` : firstPara);
+      const appLesson = `/#/course/${c.id}/lesson/${l.id}`;
+      write(lUrl, page({
+        url: lUrl, title: `${l.title} (${c.title}, lesson ${i + 1})`, description,
+        body: `
+      <article class="lesson-body" style="margin:0 auto">
+        <div class="breadcrumb"><a href="/#/courses">Courses</a> / <a href="${cUrl}">${esc(c.title)}</a> / Lesson ${i + 1}</div>
+        <h1>${esc(l.title)}</h1>
+        <p class="muted">${l.minutes} min</p>
+        ${l.audio ? `<div class="podcast"><b>Listen: this lesson as a conversation</b><audio controls preload="none" src="${esc(l.audio)}"></audio><p class="muted small">Two hosts talk the lesson through. The voices are synthetic; the script was written from this lesson and checked against it, and asserts nothing the lesson does not.</p></div>` : ""}
+        ${l.objectives.length ? `<div class="objectives"><b>In this lesson you will learn to</b><ul>${l.objectives.map(o => `<li>${esc(o)}</li>`).join("")}</ul></div>` : ""}
+        ${l.video ? `<iframe class="video" src="${esc(l.video)}" title="${esc(l.title)}" allowfullscreen loading="lazy"></iframe>` : ""}
+        <div class="lesson-content">${l.content}</div>
+        <div class="quiz"><h2>Check your understanding</h2><p>${l.quiz.length ? `This lesson has a ${l.quiz.length}-question quiz. Pass it and the questions come back on a schedule in Review, so what you learned stays learned.` : "Mark the lesson complete in the app to keep your place."} Your progress is saved in your browser; no account needed.</p><div class="btn-row"><a class="btn btn-primary" href="${appLesson}">Open this lesson in the app</a></div></div>
+        <nav class="lesson-nav">
+          ${prev ? `<a class="btn btn-secondary" href="${cUrl}${prev.id}/">← ${esc(prev.title)}</a>` : `<a class="btn btn-secondary" href="${cUrl}">← Course home</a>`}
+          ${next ? `<a class="btn btn-secondary" href="${cUrl}${next.id}/">${esc(next.title)} →</a>` : `<a class="btn btn-primary" href="${app}">Finish course →</a>`}
+        </nav>
+      </article>`,
+      }));
+      urls.push({ loc: lUrl, priority: "0.6" });
+    });
+  }
+  const today = new Date().toISOString().slice(0, 10);
+  fs.writeFileSync(path.join(SITE, "sitemap.xml"), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.map(u => `  <url><loc>${ORIGIN}${u.loc}</loc><lastmod>${today}</lastmod><priority>${u.priority}</priority></url>`).join("\n")}\n</urlset>\n`);
+  console.log(`wrote ${urls.length - 1} static pages under site/courses/ and sitemap.xml`);
 }
 
 if (isMain) main();
@@ -287,6 +442,10 @@ function lintLessons() {
         // Every tool in scripts/ splits frontmatter on "\n---\n". This build accepted CRLF, so
         // a Windows-saved lesson built fine and was invisible to the quiz checks and the
         // reading-time measure. One rule, one place: lessons are LF.
+        // Citations are [n] with a numbered Sources list; the build links them. Markdown footnotes
+        // ([^n] and [^n]: lines) are not rendered by marked, so every one reached the reader as
+        // literal text. Six Python lessons shipped ninety-eight of them.
+        if (/\[\^\w+\]/.test(src)) fail(`${file}: uses a Markdown footnote ([^n]), which the renderer does not support; cite with [n] and a numbered entry under "## Sources"`);
         if (src.includes("\r")) fail(`${file}: has Windows line endings (CR); save it with LF, or the quiz and minutes tools will not see its frontmatter`);
         // An unspaced en dash is a range or a pair (Mark 16:9\u201320, Macnamara\u2013Hambrick) and stays.
         // A spaced one is punctuation, which is the em dash by another name. Quoted text keeps
@@ -743,9 +902,31 @@ function readMap() {
 let map = [];
 try { map = readMap(); } catch (e) { console.warn("warn: could not read TAXONOMY.md for the map: " + e.message); }
 
+/* ---------- output ----------
+   Two kinds of file. `data/courses.js` is the index: every course and lesson record without
+   the lesson HTML, which is what the home, catalog, path, review and transcript pages need.
+   `data/content/<course>.js` holds one course's rendered lessons and assessments, fetched by
+   the app when a reader opens that course. It used to be one 3.4 MB file, loaded before the
+   home page could paint. */
+const SITE = path.join(ROOT, "site");
+const hash = file => crypto.createHash("sha256").update(fs.readFileSync(path.join(SITE, file))).digest("hex").slice(0, 8);
+const GEN = "/* GENERATED by scripts/build.mjs from courses/, curriculum/core-path.yaml and curriculum/TAXONOMY.md — do not edit by hand. */\n";
+const contentDir = path.join(SITE, "data", "content");
+fs.mkdirSync(contentDir, { recursive: true });
+for (const stale of fs.readdirSync(contentDir)) if (!courses.some(c => `${c.id}.js` === stale)) fs.unlinkSync(path.join(contentDir, stale));
+const index = courses.map(c => {
+  // The quiz goes with the content: it is read only on the lesson page and in Review, and it was
+  // 460 KB of the index.
+  const strip = x => { const { content, quiz, ...rest } = x; return { ...rest, quizCount: quiz.length }; };
+  const pack = x => ({ content: x.content, quiz: x.quiz });
+  const content = { lessons: Object.fromEntries(c.lessons.map(l => [l.id, pack(l)])), assessments: Object.fromEntries((c.assessments || []).map(a => [a.id, pack(a)])) };
+  const file = path.join("data", "content", `${c.id}.js`);
+  fs.writeFileSync(path.join(SITE, file), `${GEN}window.FOVAL_CONTENT = window.FOVAL_CONTENT || {};\nwindow.FOVAL_CONTENT[${JSON.stringify(c.id)}] = ${JSON.stringify(content)};\n`);
+  return { ...c, lessons: c.lessons.map(strip), assessments: (c.assessments || []).map(strip), content: `${file}?v=${hash(file)}` };
+});
 fs.mkdirSync(path.dirname(OUT), { recursive: true });
-fs.writeFileSync(OUT, `/* GENERATED by scripts/build.mjs from courses/, curriculum/core-path.yaml and curriculum/TAXONOMY.md — do not edit by hand. */\nwindow.FOVAL_COURSES = ${JSON.stringify(courses, null, 1)};\nwindow.FOVAL_PATH = ${JSON.stringify(corePath)};\nwindow.FOVAL_MAP = ${JSON.stringify(map)};\n`);
-console.log(`built ${courses.length} courses, ${courses.reduce((n, c) => n + c.lessons.length, 0)} lessons -> ${path.relative(ROOT, OUT)}`);
+fs.writeFileSync(OUT, `${GEN}window.FOVAL_COURSES = ${JSON.stringify(index)};\nwindow.FOVAL_PATH = ${JSON.stringify(corePath)};\nwindow.FOVAL_MAP = ${JSON.stringify(map)};\n`);
+console.log(`built ${courses.length} courses, ${courses.reduce((n, c) => n + c.lessons.length, 0)} lessons -> ${path.relative(ROOT, OUT)} (${Math.round(fs.statSync(OUT).size / 1024)} KB) + data/content/`);
 
 /* ---------- cache busting ----------
    The site had none, and it cost a whole afternoon: a deploy went out, the live server
@@ -756,9 +937,6 @@ console.log(`built ${courses.length} courses, ${courses.reduce((n, c) => n + c.l
    So: stamp a short content hash onto each asset reference in index.html, and onto the
    service worker's cache name. An asset's URL now changes when, and only when, its bytes
    change, which is the one thing a browser will always respect. */
-const SITE = path.join(ROOT, "site");
-const hash = file => crypto.createHash("sha256").update(fs.readFileSync(path.join(SITE, file))).digest("hex").slice(0, 8);
-
 const stamped = { "assets/styles.css": hash("assets/styles.css"), "assets/app.js": hash("assets/app.js"), "data/courses.js": hash("data/courses.js") };
 const indexPath = path.join(SITE, "index.html");
 let html = fs.readFileSync(indexPath, "utf8");
@@ -776,5 +954,14 @@ let sw = fs.readFileSync(swPath, "utf8").replace(/const CACHE = "foval-[0-9a-zA-
 sw = sw.replace(/const CORE = \[[^\]]*\];/, `const CORE = ["./", "./index.html", ${Object.entries(stamped).map(([a, h]) => `"./${a}?v=${h}"`).join(", ")}, "./manifest.webmanifest"];`);
 fs.writeFileSync(swPath, sw);
 console.log(`stamped assets: ${Object.entries(stamped).map(([a, h]) => `${path.basename(a)}=${h}`).join(" ")}, sw cache foval-${swVersion}`);
+
+/* ---------- static pages, sitemap ----------
+   The app is one hash-routed page, so a crawler or a link preview saw one page with one title
+   for all sixty-one lessons, and nothing here could be found by searching for it. Every course
+   and lesson now also exists as a plain HTML page under /courses/, built from the same shell as
+   index.html with the lesson's own title, description and canonical URL. It is a reading copy:
+   the quiz, progress and review live in the app, and the page links there. These pages and the
+   sitemap are generated at deploy and not committed (see .gitignore). */
+if (!DRAFTS) writeStaticPages(html, courses);
 if (DRAFTS) console.warn("\nPREVIEW BUILD: drafting courses are in this output. Do NOT commit site/data/courses.js.\nRun `npm run build` to put it back.");
 }
