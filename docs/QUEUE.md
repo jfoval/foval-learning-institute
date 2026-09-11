@@ -83,6 +83,3 @@ when it has drifted.
   `workers/api/README.md`.
 - **A store account and a donations account**, if he wants either. Artwork and copy can be prepared
   without him; see `docs/PLATFORM_ROADMAP.md`.
-- **Remove the orphaned worktree** at `.claude/worktrees/stoic-germain-27cf0a` (detached at
-  `7a641dc`, git-ignored, harmless): `git worktree remove --force .claude/worktrees/stoic-germain-27cf0a`.
-  A session cannot run that command under the current permissions.
