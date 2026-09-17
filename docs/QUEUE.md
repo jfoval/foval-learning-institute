@@ -15,10 +15,13 @@ Rewrite these five lines each session. Nothing else goes in this block.
 - **Current course:** Writing Clearly (Stage 4 complete; voice pass next).
 - **Current lesson:** all nine are through Stage 4, every one of them largely rewritten.
 - **Current stage:** the voice pass, lesson by lesson, then nine episodes.
-- **Blocked on:** nothing for content. Episodes across six courses wait on the fal balance.
-- **Next action:** `/voice-pass courses/communication-and-people/clear-writing 1`. If fal has
-  been topped up, that outranks it: render the 26 ready episodes, Personal Finance 3 to 10 first,
-  then write Python Basics' six scripts.
+- **Blocked on:** John listening to the chunked test render of Personal Finance 2 (sent to him
+  2026-09-17) and saying whether the seams are audible. fal is topped up.
+- **Next action:** once John approves the test by ear, re-render the fourteen existing episodes
+  chunked (about $5) and upload over the same keys, then render the 26 ready episodes, Personal
+  Finance 3 to 10 first. If he hears seams, the chunk size and the gap are the two knobs in
+  `scripts/podcast.mjs`; try before switching anything else. The Writing Clearly voice pass
+  (`/voice-pass courses/communication-and-people/clear-writing 1`) runs alongside.
 
 ## The queue, top to bottom
 
@@ -38,7 +41,11 @@ validate` enforces the second half against `curriculum/audio-debt.yaml`, which o
    **The voice pass should be light.** Six of the nine had a contraction pass during Stage 4 and
    read in the Foval voice already; check the think-blocks and the openings rather than rewriting.
 
-2. **The 47 owed episodes.** Blocked on fal. 26 are ready to render: Personal Finance 3 to 10,
+2. **Re-render the fourteen live episodes chunked, then the 47 owed.** Every episode rendered before
+   2026-09-17 fades and loses John's voice by the end; the cause and the fix are in
+   `docs/DECISIONS.md` §7. Personal Finance 2 is re-rendered locally and waits on John's ear before
+   upload. The other thirteen follow at about $0.37 each, uploaded over the same R2 keys so no
+   lesson changes. Then the owed 47. 26 are ready to render: Personal Finance 3 to 10,
    Logic and Argument 4 to 10, Bible Basics 2 to 12, about $11 in total. Personal Finance 3's
    script is written and fact-checked at `courses/money/personal-finance/podcast/03-debt.script.md`.
    Python Basics' 6 need scripts, which is the first step of `/make-podcast` and needs no fal.
@@ -86,8 +93,9 @@ when it has drifted.
 
 ## Waiting on John
 
-- **Top up fal** at fal.ai/dashboard/billing. `403 {"detail":"User is locked. Reason: Exhausted
-  balance."}` Nothing else in the project is blocked by this.
+- **Listen to the chunked test render of Personal Finance 2** and say whether the seams between
+  chunks are audible. That listen releases about $16 of rendering: the fourteen re-renders and the
+  26 ready episodes.
 - **Deploy the accounts Worker.** It needs credentials and two free accounts; steps in
   `workers/api/README.md`.
 - **A store account and a donations account**, if he wants either. Artwork and copy can be prepared

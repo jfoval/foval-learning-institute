@@ -11,6 +11,34 @@ Older entries refer to `docs/BACKLOG.md`, which was split on 2026-09-09 into `do
 unstarted work) and this file. Its section numbers survive only in those entries and in a few
 split-seam comments inside Bible Basics lessons, which point at `docs/DECISIONS.md` §5.
 
+## 2026-09-17 — The podcast fade found and fixed: episodes render in gated chunks
+
+**Every episode the institute had shipped fades.** John said the episodes start right and then a
+host drops to a whisper, and that he would rather start the catalogue over than keep shipping it.
+Profiling the fourteen local episodes per 30 seconds showed the same curve in every one: the level
+decays from about -20 dBFS at the top to -40 or worse by the end (Personal Finance 2 fell 24 dB),
+John's pitch band empties with it, and several finish in two minutes of near silence. The cause is
+not randomness, which is what the 2026-09-09 diagnosis assumed when it set the temperature and
+accepted the drift. It is that each episode was one call of 6,000 to 8,300 characters, and Google's
+own TTS docs say consistency drifts on outputs longer than a few minutes; production reports put the
+two-speaker ceiling near 3,000 characters.
+
+- `scripts/podcast.mjs` now cuts the script at turn boundaries into chunks of about 1,100
+  characters, renders each as its own fal call with the same hosts and settings, and gates every
+  chunk before stitching: mean level no quieter than -30 dBFS and within 6 dB of the median chunk,
+  both hosts' pitch bands populated, and speech length within 0.6 to 1.7 of what the word count
+  predicts. A failing chunk is re-rendered alone, up to three times, for about six cents. Chunks are
+  gain-matched to -20 dBFS, tail silence trimmed, and joined with a 0.35 s gap.
+- **Nothing is paid for twice.** Every attempt is kept under `audio-out/work/<school>/<course>/<id>/`
+  with a manifest keyed on a hash of the chunk text; a rerun or a crash reuses what passed.
+  `--fresh` discards it. `profile` prints the per-30-second report on any finished MP3.
+- **Personal Finance 2 re-rendered chunked as the test, $0.37, all seven chunks passing first
+  time.** Level held at -20 dBFS within 1.5 dB from the first line to the last; John's median pitch
+  sat between 103 and 113 Hz in every chunk and Haley's between 190 and 216 Hz. Cost is unchanged
+  because billing is per character. The file waits on John's ear for the seams before it is uploaded.
+- `docs/DECISIONS.md` §7 rewritten: the drift is no longer accepted, the fourteen pre-2026-09-17
+  episodes are to be re-rendered (about $5), and the engine and hosts stay as they were.
+
 ## 2026-09-11 — Writing Clearly through Stage 4, all nine lessons
 
 **The last of the three pre-pipeline placeholder courses is now at standard.** All nine lessons

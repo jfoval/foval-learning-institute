@@ -154,19 +154,26 @@ choice is in `docs/PODCAST_OPTIONS.md`. What is settled:
   render.** His reason is the better one: the live episodes are Charon and Aoede, and matching what
   exists beats a theory about descriptors. Changing a host voice means re-rendering every episode
   in the institute, because the hosts have to sound the same everywhere.
-- **The voice drift is accepted, and the pitch check is a report rather than a gate.** Both settled
-  with John on 2026-09-09, asked directly with the alternatives costed. He does not want the
-  episodes redone and does not want a review step on every render, and he is right that pitch is a
-  weak proxy: it catches a host recast outright and misses the drift he actually hears.
-  **The cause was found.** Gemini's presets are a strong steer, not a hard constraint, and
-  `temperature` was never set, whose default on fal is 1. Measured across How to Learn Anything's
-  eight episodes, median opening-minute pitch ran 140 Hz to 173 Hz, and on a pitch-band count
-  episode 4 had 16% of voiced frames in the male range and episode 5 18% in the female range.
-  Fixed forward: `temperature: 0.25`, host descriptions taken out of `style_instructions` (a
-  casting note invites recasting), and a post-render pitch check that refuses to upload a file
-  missing a male-range or a female-range voice, overridable with `--force`. Each rendering session
-  gets its own pair of hosts and **Gemini cannot be forced**: its fal endpoint takes prompt,
-  speakers, style, language, temperature and output format, with no seed and no reference audio.
+- **The voice drift had a cause, and the cause was the length of the call. Episodes are rendered in
+  chunks now, each one gated, and nothing is paid for twice.** Settled 2026-09-17 after John said the
+  episodes start right and then a host fades to a whisper, and that he would rather start the
+  catalogue over than keep shipping that. Profiling all fourteen episodes that existed showed the
+  same shape in every one: the level decays steadily from the first minute to the last (Personal
+  Finance 2 fell 24 dB) and John's pitch band empties with it, several ending in two minutes of
+  near silence. Each episode was one call of 6,000 to 8,300 characters. Google's own docs say
+  consistency drifts past a few minutes and tell you to split the transcript, and production users
+  put the two-speaker ceiling near 3,000 characters. `scripts/podcast.mjs` now cuts the script at
+  turn boundaries into chunks of about 1,100 characters, renders each as its own call with the same
+  hosts and settings, gates every chunk on level, both voices present, and speech length against
+  word count, re-renders only a failing chunk, gain-matches the chunks and joins them with ffmpeg.
+  Every attempt is kept under `audio-out/work/` with a manifest, so a rerun reuses what passed.
+  The first chunked render of Personal Finance 2 held -20 dBFS within 1.5 dB from start to finish,
+  with John's median pitch between 103 and 113 Hz in every chunk. Cost is unchanged, since billing
+  is per character. The earlier setting, temperature 0.25 with the casting notes out of the style
+  string, stays. This supersedes the 2026-09-09 line that the drift was accepted: it was accepted
+  because the cause was thought to be the model's randomness, and it was the call length.
+  **Every episode rendered before 2026-09-17 is to be re-rendered chunked**, about $5 for the
+  fourteen, once John has listened to the test render and approved the seams by ear.
 - **If it is ever re-opened, the two routes are priced.**
   `fal-ai/elevenlabs/text-to-dialogue/eleven-v3` has fixed library voices, a `seed`, a stability
   control and multi-speaker in one call at $0.10 per 1,000 characters, about $0.70 an episode; and

@@ -54,8 +54,14 @@ node scripts/podcast.mjs upload $ARGUMENTS          # to R2; verifies the public
 node scripts/podcast.mjs stamp $ARGUMENTS           # writes audio: into the lesson frontmatter
 ```
 
-Rendering usually takes a couple of minutes; the poll budget is 20. If the render fails, check the fal
-dashboard before re-sending, so the same job is not paid for twice.
+The render cuts the script into chunks of about a minute, renders each as its own call, gates each
+chunk on level, both voices present, and speech length, re-renders only a failing chunk, and joins
+them. It prints a per-30-second profile of the result: the level should hold near -20 dBFS and both
+hosts' bands should stay populated to the end. Every chunk attempt is kept under `audio-out/work/`
+with a manifest, so if the render fails or is interrupted, run it again and it reuses the chunks
+that passed. `--fresh` throws that away and pays for everything again; there is no reason to use it
+unless the script text changed and you want a clean slate. If a chunk fails all three attempts,
+listen to the attempts before deciding anything.
 
 **4. Lower the debt.** Subtract one from this course's entry in `curriculum/audio-debt.yaml`, in the
 same commit as the stamp, and delete the entry when it reaches zero. `npm run validate` fails if the
