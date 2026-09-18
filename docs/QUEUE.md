@@ -26,7 +26,7 @@ Rewrite these five lines each session. Nothing else goes in this block.
   re-check is out**. Lessons 3, 5, 6 and 7 have all been through a review and
   had every finding applied; lesson 3 has also passed a neutrality audit. **Two narrow second passes
   are owed**: lesson 6's Ruskin section and lesson 7's three-objections section, both of which are
-  substantially new prose. Next is `/draft-lesson courses/foundations/reading-well 8`. Next is `/draft-lesson courses/foundations/reading-well 6`, as many lessons as the
+  substantially new prose. Lesson 8 is drafted and its review is out. Next is `/draft-lesson courses/foundations/reading-well 9`, which is in a 3.4 domain and whose neutrality audit is mandatory. Next is `/draft-lesson courses/foundations/reading-well 6`, as many lessons as the
   budget allows, after reading that course's `research/reviews/course-wide.md`.
 - **Where to look for a real example when the obvious domains all fail.** Lesson 3 needed a short
   real text in which every word is ordinary and a newcomer still cannot say what happened. Cricket,
