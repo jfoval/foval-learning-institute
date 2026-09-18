@@ -1,6 +1,7 @@
 ---
 title: What actually happens when someone reads you
 minutes: 65
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/communication-and-people/clear-writing/01-what-happens-when-someone-reads-you.mp3
 objectives:
   - State roughly how much of a page a reader has time for, and say where that number comes from and where it does not apply
   - Identify who a particular document is really for, and what they came to it needing
