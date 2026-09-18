@@ -465,7 +465,16 @@ function lintLessons() {
         // courses/CLAUDE.md rule 4: never an em dash in learner-facing prose, and the en dash
         // is the same rule (the convention is " to "). The en dash half was prose only, and
         // fifteen files carried one when the check landed.
-        if (src.includes("\u2014")) fail(`${file}: contains an em dash (courses/CLAUDE.md rule 4)`);
+        // Rule 4 also says "quoted text keeps what its author wrote", and the en dash check below
+        // has always honoured that by stripping blockquotes and quoted strings first. This one did
+        // not, so the two halves of one rule disagreed, and a verbatim quotation of a real document
+        // that happened to contain an em dash could not be used at all. Found 2026-09-18 while
+        // quoting Hansard, whose 1875 transcription marks an interrupted speech with one. Both
+        // halves now strip the same thing.
+        {
+          const unquoted = src.split("\n").filter(l => !l.startsWith(">")).join("\n").replace(/"[^"\n]*"/g, "");
+          if (unquoted.includes("\u2014")) fail(`${file}: contains an em dash outside a quotation (courses/CLAUDE.md rule 4)`);
+        }
         // Every tool in scripts/ splits frontmatter on "\n---\n". This build accepted CRLF, so
         // a Windows-saved lesson built fine and was invisible to the quiz checks and the
         // reading-time measure. One rule, one place: lessons are LF.

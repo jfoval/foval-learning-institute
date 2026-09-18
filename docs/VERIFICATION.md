@@ -22,7 +22,7 @@ These fail or warn automatically. Nobody has to remember them.
 |---|---|---|
 | Course record fields, `status` vs its TAXONOMY row, `sensitive_domain`, `standpoint` | `npm run validate` | Fails the build |
 | TAXONOMY ↔ core-path agreement, every course placed in a term | `npm run validate` | No elective tier by design |
-| Em dashes, spaced en dashes, CR line endings, ESV quotations | `npm run validate` | Fails on published, warns on drafts |
+| Em dashes, spaced en dashes, CR line endings, ESV quotations | `npm run validate` | Fails on published, warns on drafts. Both dash checks skip blockquotes and quoted strings, because rule 4 lets quoted text keep what its author wrote; only the en dash half did until 2026-09-18 |
 | `:::` blocks unclosed, nested, or with text on the fence | `npm run validate` | |
 | SVG: dark/light hardcoded fills, labels under 15px, labels past the viewBox, blank lines inside `<svg>`, two tokens that are the same colour in one theme | `npm run validate` | Five distinct routes have got past earlier versions; `/review-lesson` lists them |
 | Self-checks that print their own answer in prose | `npm run validate` | |
