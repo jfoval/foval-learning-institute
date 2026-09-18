@@ -15,13 +15,16 @@ Rewrite these five lines each session. Nothing else goes in this block.
 - **Current course:** Writing Clearly (Stage 4 complete; voice pass next).
 - **Current lesson:** all nine are through Stage 4, every one of them largely rewritten.
 - **Current stage:** the voice pass, lesson by lesson, then nine episodes.
-- **Blocked on:** John listening to the chunked test render of Personal Finance 2 (sent to him
-  2026-09-17) and saying whether the seams are audible. fal is topped up.
-- **Next action:** once John approves the test by ear, re-render the fourteen existing episodes
-  chunked (about $5) and upload over the same keys, then render the 26 ready episodes, Personal
-  Finance 3 to 10 first. If he hears seams, the chunk size and the gap are the two knobs in
-  `scripts/podcast.mjs`; try before switching anything else. The Writing Clearly voice pass
-  (`/voice-pass courses/communication-and-people/clear-writing 1`) runs alongside.
+- **Blocked on:** a Google AI Studio API key from John (`GEMINI_API_KEY` in `.env.local`, billing
+  enabled), so Gemini 2.5 Pro TTS and the direct API's `seed` can be tested. John heard the chunked
+  Gemini 3.1 Flash render on 2026-09-17: the fade is gone, but John's voice still changes between
+  chunks, and rerolling to match a reference costs a dollar an episode and still fails, because the
+  call-to-call spread is about twelve percent. Every knob fal exposes has now been measured.
+- **Next action:** with the key, render Personal Finance 2 three ways for about $1: 3.1 Flash
+  direct with a fixed seed, 2.5 Pro TTS as one call (Google positions Pro for podcasts and its cap
+  is about eleven minutes, so a whole episode fits), and 2.5 Pro chunked with a seed. Profile each
+  and send John the ones that hold. Nothing is uploaded until he approves one by ear. The Writing
+  Clearly voice pass (`/voice-pass courses/communication-and-people/clear-writing 1`) runs alongside.
 
 ## The queue, top to bottom
 
@@ -93,9 +96,9 @@ when it has drifted.
 
 ## Waiting on John
 
-- **Listen to the chunked test render of Personal Finance 2** and say whether the seams between
-  chunks are audible. That listen releases about $16 of rendering: the fourteen re-renders and the
-  26 ready episodes.
+- **A Google AI Studio API key** at aistudio.google.com, with billing enabled (Pro TTS has no free
+  tier; a test is about $1), saved as `GEMINI_API_KEY=` in `.env.local`. It releases the three-way
+  Gemini test above, and after that about $16 of rendering.
 - **Deploy the accounts Worker.** It needs credentials and two free accounts; steps in
   `workers/api/README.md`.
 - **A store account and a donations account**, if he wants either. Artwork and copy can be prepared

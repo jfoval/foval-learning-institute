@@ -9,6 +9,7 @@
 //   node scripts/podcast.mjs stamp  <lesson.md>          write audio: into the lesson frontmatter
 //   node scripts/podcast.mjs all    <lesson.md> --go     render, upload, stamp
 //   node scripts/podcast.mjs profile <lesson.md>         per-30-second level and voice report on the MP3
+//   node scripts/podcast.mjs reference <lesson.md>       set the host reference fingerprints from its first chunk
 //
 // Flags: --go spends money; --force overrides the cost cap and stitches an episode whose chunk
 // failed every attempt; --fresh throws away the chunk work directory and pays for every chunk again.
@@ -62,8 +63,26 @@
 //            (Aoede) must be populated; a one-host chunk must sit mostly in that host's band;
 //   length   the spoken duration must sit between LENGTH_MIN and LENGTH_MAX of what the word count
 //            predicts, which catches truncation and invented lines.
+//   match    each host's median pitch (and, loosely, spectral shape) must sit within MATCH_PITCH of
+//            the reference fingerprint in scripts/podcast/hosts.json, which is what makes John at
+//            minute four the same John as minute one, and the same John in every episode. Without
+//            a seed or reference audio this is the only lock available on Gemini: the roll is
+//            random, so keep rolling until it lands. A reroll is about five cents.
 // A chunk that fails RETRIES times is reported and the render stops, so a bad chunk is never
 // uploaded and never silently accepted. --force renders the episode with the best attempt.
+//
+// WHAT THE MATCH GATE CAN AND CANNOT DO, measured 2026-09-17 on Personal Finance 2. Across 27
+// attempts John's median ran from 92 to 119 Hz and Haley's from 186 to 232: the call-to-call spread
+// on Gemini 3.1 Flash TTS is about plus or minus twelve percent, not the five the first seven
+// chunks happened to show. At a 4% tolerance three chunks failed four attempts each and the run
+// cost $1.09 with no episode to show for it. So the tolerance is 6%: it rejects the gross recasts
+// (the 8 to 20% ones John hears as a different man) and accepts the rest, and it does not make two
+// chunks the same rendition. The route to that is a different model or a seed; see QUEUE.md.
+//
+// THE REFERENCE. `node scripts/podcast.mjs reference <lesson> [--file=<mp3>]` writes hosts.json
+// from that lesson's first passed chunk (or the given file). It was set on 2026-09-17 from the
+// opening of Personal Finance 2, the rendition John listened to and called right. Resetting it
+// means every episode rendered since no longer matches, so do not reset it without asking him.
 //
 // NOTHING IS PAID FOR TWICE. Every attempt is kept under audio-out/work/<school>/<course>/<id>/
 // with a manifest recording the prompt hash, the check results and which attempt passed. A rerun,
@@ -97,10 +116,14 @@ const STYLE = "Unhurried and conversational, thinking aloud rather than reading 
 const TEMPERATURE = 0.25;
 const COST_PER_1K_CHARS = 0.05;
 const COST_CAP = 2;
-const CHUNK_TARGET = 1100;     // characters; about a minute of two-host audio
-const CHUNK_MAX = 1700;        // a single long turn may push a chunk past the target, never past this
+const CHUNK_TARGET = 800;      // characters; about fifty seconds of two-host audio
+const CHUNK_MAX = 1300;        // a single long turn may push a chunk past the target, never past this
 const CONCURRENCY = 4;         // chunk renders in flight at once
-const RETRIES = 3;             // attempts per chunk before giving up
+const RETRIES = 4;             // attempts per chunk before giving up
+const HOSTS_FILE = path.join(ROOT, "scripts", "podcast", "hosts.json");  // the reference fingerprints
+const MATCH_PITCH = 0.06;      // a host's median pitch may sit this far (log ratio) from the reference; an outlier guard, not a lock (see below)
+const MATCH_SPEC = 0.9;        // and its spectral shape this far; a gross-error check, pitch is the real test
+const MATCH_MIN_FRAMES = 80;   // fewer voiced frames than this and the host is not judged in that chunk
 const WPM = 150;               // words a minute, for the length check
 const LENGTH_MIN = 0.6, LENGTH_MAX = 1.7;
 const LEVEL_FLOOR = -30;       // dBFS mean volume; whispering lands around -40
@@ -119,8 +142,8 @@ const FRESH = args.includes("--fresh");
 const tempArg = args.find(a => a.startsWith("--temperature="));
 const TEMP = tempArg ? Number(tempArg.split("=")[1]) : TEMPERATURE;
 
-if (!["plan", "render", "upload", "stamp", "all", "profile"].includes(cmd) || !lessonArg) {
-  console.error("Usage: node scripts/podcast.mjs <plan|render|upload|stamp|all|profile> <courses/.../lessons/NN-slug.md> [--go] [--force] [--fresh]");
+if (!["plan", "render", "upload", "stamp", "all", "profile", "reference"].includes(cmd) || !lessonArg) {
+  console.error("Usage: node scripts/podcast.mjs <plan|render|upload|stamp|all|profile|reference> <courses/.../lessons/NN-slug.md> [--go] [--force] [--fresh] [--file=<mp3>]");
   process.exit(1);
 }
 
@@ -334,8 +357,10 @@ function analyse(file, start = 0, dur = 0) {
   const argsIn = ["-v", "quiet", ...(dur ? ["-ss", String(start), "-t", String(dur)] : []), "-i", file, "-f", "f32le", "-ac", "1", "-ar", String(sr), "-"];
   const raw = execFileSync("ffmpeg", argsIn, { maxBuffer: 1 << 28 });
   const x = new Float32Array(raw.buffer, raw.byteOffset, Math.floor(raw.length / 4));
-  const w = 0.04 * sr, hop = 0.02 * sr;
+  const w = 0.04 * sr, hop = 0.02 * sr, N = 512;
   const f0 = []; let sumSq = 0, loudFrames = 0, frames = 0, lastLoud = 0;
+  const hosts = { john: { f0: [], spec: new Float64Array(16), n: 0 }, haley: { f0: [], spec: new Float64Array(16), n: 0 } };
+  const re = new Float64Array(N), im = new Float64Array(N);
   for (let i = 0; i + w < x.length; i += hop) {
     frames++;
     let e = 0; for (let k = 0; k < w; k++) e += x[i + k] * x[i + k];
@@ -351,14 +376,58 @@ function analyse(file, start = 0, dur = 0) {
       let s = 0; for (let k = 0; k + lag < w; k++) s += (x[i + k] - mean) * (x[i + k + lag] - mean);
       const r = s / r0; if (r > best) { best = r; bestLag = lag; }
     }
-    if (best > 0.35 && bestLag) f0.push(sr / bestLag);
+    if (!(best > 0.35 && bestLag)) continue;
+    const p = sr / bestLag; f0.push(p);
+    const host = p < 140 ? hosts.john : p > 165 ? hosts.haley : null;
+    if (!host) continue;
+    host.f0.push(p); host.n++;
+    for (let k = 0; k < N; k++) { re[k] = (x[i + k] - mean) * (0.5 - 0.5 * Math.cos(2 * Math.PI * k / N)); im[k] = 0; }
+    fft(re, im);
+    for (let b = 0; b < 16; b++) {
+      let sum = 0; const k0 = SPEC_EDGES[b], k1 = SPEC_EDGES[b + 1];
+      for (let k = k0; k < k1; k++) sum += re[k] * re[k] + im[k] * im[k];
+      host.spec[b] += Math.log(sum / (k1 - k0) + 1e-9);
+    }
   }
   const level = frames ? 20 * Math.log10(Math.sqrt(sumSq / (frames * w)) + 1e-9) : -99;
   const low = f0.length ? f0.filter(v => v < 140).length / f0.length : 0;
   const high = f0.length ? f0.filter(v => v > 165).length / f0.length : 0;
   const seconds = x.length / sr, spoken = (lastLoud + w) / sr, speaking = loudFrames * hop / sr;
-  return { level, low, high, seconds, spoken, speaking, voiced: f0.length };
+  const fp = h => {
+    if (!h.n) return { med: 0, vec: null, frames: 0 };
+    const v = Array.from(h.spec, s => s / h.n); const m = v.reduce((a, b) => a + b) / 16;
+    h.f0.sort((a, b) => a - b);
+    return { med: h.f0[h.f0.length >> 1], vec: v.map(s => +(s - m).toFixed(3)), frames: h.n };
+  };
+  return { level, low, high, seconds, spoken, speaking, voiced: f0.length, john: fp(hosts.john), haley: fp(hosts.haley) };
 }
+// 16 log-spaced bands from 100 Hz to 6 kHz, as FFT bin edges at 16 kHz / 512 points.
+const SPEC_EDGES = (() => { const e = Array.from({ length: 17 }, (_, i) => Math.round(Math.pow(60, i / 16) * 100 * 512 / 16000)); for (let i = 1; i < 17; i++) if (e[i] <= e[i - 1]) e[i] = e[i - 1] + 1; return e; })();
+function fft(re, im) {
+  const n = re.length;
+  for (let i = 1, j = 0; i < n; i++) { let bit = n >> 1; for (; j & bit; bit >>= 1) j ^= bit; j ^= bit; if (i < j) { [re[i], re[j]] = [re[j], re[i]]; [im[i], im[j]] = [im[j], im[i]]; } }
+  for (let len = 2; len <= n; len <<= 1) {
+    const ang = -2 * Math.PI / len, wr = Math.cos(ang), wi = Math.sin(ang);
+    for (let i = 0; i < n; i += len) {
+      let cr = 1, ci = 0;
+      for (let j = 0; j < len / 2; j++) {
+        const a = i + j, b = a + len / 2;
+        const vr = re[b] * cr - im[b] * ci, vi = re[b] * ci + im[b] * cr;
+        re[b] = re[a] - vr; im[b] = im[a] - vi; re[a] += vr; im[a] += vi;
+        const t = cr * wr - ci * wi; ci = cr * wi + ci * wr; cr = t;
+      }
+    }
+  }
+}
+// How far a host in this chunk sits from the reference: log pitch ratio, and RMS distance of the
+// level-normalised band spectrum. Pitch is the test that tracks what John hears; spec is coarse.
+function hostDistance(fp, ref) {
+  if (!fp.vec || !ref?.vec) return null;
+  let d = 0; for (let i = 0; i < 16; i++) d += (fp.vec[i] - ref.vec[i]) ** 2;
+  return { pitch: Math.abs(Math.log(fp.med / ref.med)), spec: Math.sqrt(d / 16) };
+}
+function loadHosts() { try { return JSON.parse(fs.readFileSync(HOSTS_FILE, "utf8")); } catch { return null; } }
+
 function checkChunk(file, c) {
   const a = analyse(file);
   const expected = c.words / WPM * 60;
@@ -375,11 +444,21 @@ function checkChunk(file, c) {
     const share = c.speakers[0] === 1 ? a.low : a.high;
     if (share < 0.4) why.push(`${SPEAKERS[c.speakers[0] - 1].speaker_id} alone but only ${(share * 100).toFixed(0)}% in that band`);
   }
+  const ref = loadHosts();
+  const match = {};
+  if (ref) for (const [host, name] of [["john", "John"], ["haley", "Haley"]]) {
+    if (a[host].frames < MATCH_MIN_FRAMES) continue;
+    const d = hostDistance(a[host], ref[host]); match[host] = d;
+    if (d.pitch > MATCH_PITCH) why.push(`${name} is ${(d.pitch * 100).toFixed(1)}% off the reference pitch (${a[host].med.toFixed(0)} vs ${ref[host].med.toFixed(0)} Hz)`);
+    else if (d.spec > MATCH_SPEC) why.push(`${name}'s spectrum is ${d.spec.toFixed(2)} from the reference`);
+  }
   if (ratio < LENGTH_MIN) why.push(`speech ${a.speaking.toFixed(0)}s is short for ${c.words} words (expected about ${expected.toFixed(0)}s)`);
   if (ratio > LENGTH_MAX) why.push(`speech ${a.speaking.toFixed(0)}s is long for ${c.words} words (expected about ${expected.toFixed(0)}s)`);
-  const score = -why.length * 10 + a.level / 10 + Math.min(a.low, a.high);
-  const summary = `${a.level.toFixed(1)} dBFS, low ${(a.low * 100).toFixed(0)}% high ${(a.high * 100).toFixed(0)}%, ${a.speaking.toFixed(0)}s of speech in ${a.seconds.toFixed(0)}s`;
-  return { ok: !why.length, why, level: a.level, low: a.low, high: a.high, seconds: a.seconds, spoken: a.spoken, speaking: a.speaking, score, summary };
+  const off = Object.values(match).reduce((n, d) => n + d.pitch, 0);
+  const score = -why.length * 10 + a.level / 10 + Math.min(a.low, a.high) - off * 20;
+  const m = h => match[h] ? `${(match[h].pitch * 100).toFixed(1)}%` : "n/a";
+  const summary = `${a.level.toFixed(1)} dBFS, low ${(a.low * 100).toFixed(0)}% high ${(a.high * 100).toFixed(0)}%, ${a.speaking.toFixed(0)}s of speech in ${a.seconds.toFixed(0)}s` + (ref ? `, off reference John ${m("john")} Haley ${m("haley")}` : "");
+  return { ok: !why.length, why, level: a.level, low: a.low, high: a.high, seconds: a.seconds, spoken: a.spoken, speaking: a.speaking, john: a.john, haley: a.haley, score, summary };
 }
 function medianOf(v) { const s = v.slice().sort((a, b) => a - b); return s.length ? s[Math.floor(s.length / 2)] : 0; }
 
@@ -405,10 +484,12 @@ function profile(file) {
   let dur;
   try { dur = parseFloat(execFileSync("ffprobe", ["-v", "quiet", "-show_entries", "format=duration", "-of", "csv=p=0", file]).toString()); }
   catch { console.log("profile skipped: ffprobe is not on the path"); return; }
-  console.log("profile (per 30 s): level dBFS, share of voiced frames in John's band and Haley's band");
+  const ref = loadHosts();
+  console.log("profile (per 30 s): level dBFS, share of voiced frames in each host's band, each host's median pitch" + (ref ? " and distance from the reference" : ""));
   for (let s = 0; s < dur; s += 30) {
     const a = analyse(file, s, Math.min(30, dur - s));
-    console.log(`  ${String(s).padStart(3)}s  ${a.level.toFixed(1).padStart(6)}  John ${String(Math.round(a.low * 100)).padStart(3)}%  Haley ${String(Math.round(a.high * 100)).padStart(3)}%${a.voiced < 50 ? "  (little speech)" : ""}`);
+    const h = (fp, r) => fp.frames < MATCH_MIN_FRAMES ? "   n/a      " : `${String(fp.med.toFixed(0)).padStart(4)} Hz` + (ref ? ` ${(hostDistance(fp, r).pitch * 100).toFixed(1).padStart(4)}%` : "");
+    console.log(`  ${String(s).padStart(3)}s  ${a.level.toFixed(1).padStart(6)}  John ${String(Math.round(a.low * 100)).padStart(3)}% ${h(a.john, ref?.john)}  Haley ${String(Math.round(a.high * 100)).padStart(3)}% ${h(a.haley, ref?.haley)}${a.voiced < 50 ? "  (little speech)" : ""}`);
   }
 }
 
@@ -467,12 +548,30 @@ async function plan() {
   console.log(`  next    ${next}`);
 }
 
+/* ---------- reference: write hosts.json from a chunk both hosts speak in ---------- */
+function reference() {
+  const fileArg = args.find(a => a.startsWith("--file="))?.split("=")[1];
+  let file = fileArg && path.resolve(fileArg);
+  if (!file) {
+    const m = fs.existsSync(manifestPath()) ? JSON.parse(fs.readFileSync(manifestPath(), "utf8")) : null;
+    if (!m?.chunks?.[0]?.passed) { console.error(`No passed first chunk in ${show(workDir)}. Render first, or pass --file=<mp3>.`); process.exit(1); }
+    file = path.join(workDir, m.chunks[0].passed);
+  }
+  const a = analyse(file);
+  if (a.john.frames < MATCH_MIN_FRAMES || a.haley.frames < MATCH_MIN_FRAMES) { console.error(`Both hosts need to speak in the reference; John ${a.john.frames} frames, Haley ${a.haley.frames}.`); process.exit(1); }
+  if (fs.existsSync(HOSTS_FILE) && !FORCE) { console.error(`${show(HOSTS_FILE)} exists. Resetting it means nothing rendered so far matches; ask John, then add --force.`); process.exit(1); }
+  const out = { set: new Date().toISOString().slice(0, 10), from: show(file), john: a.john, haley: a.haley };
+  fs.writeFileSync(HOSTS_FILE, JSON.stringify(out, null, 2) + "\n");
+  console.log(`wrote ${show(HOSTS_FILE)}: John ${a.john.med.toFixed(0)} Hz over ${a.john.frames} frames, Haley ${a.haley.med.toFixed(0)} Hz over ${a.haley.frames} frames, from ${show(file)}`);
+}
+
 /* ---------- go ---------- */
 try {
   if (cmd === "plan") await plan();
   if (cmd === "render") await render();
   if (cmd === "upload") await upload();
   if (cmd === "stamp") stamp();
+  if (cmd === "reference") reference();
   if (cmd === "profile") { if (!fs.existsSync(mp3Path)) throw new Error(`No MP3 at ${show(mp3Path)}`); profile(mp3Path); }
   if (cmd === "all") { await render(); if (GO) { await upload(); stamp(); } }
 } catch (e) {
