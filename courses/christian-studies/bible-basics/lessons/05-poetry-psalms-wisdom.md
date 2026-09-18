@@ -1,6 +1,7 @@
 ---
 title: Reading poetry, the Psalms, and wisdom
 minutes: 145
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/christian-studies/bible-basics/05-poetry-psalms-wisdom.mp3
 objectives:
   - Identify parallelism and imagery in a Hebrew poem and explain what the second line adds to the first
   - Classify a psalm by type using the shape of its parts, find the turn in a lament, and read the psalm by its movement rather than verse by verse
