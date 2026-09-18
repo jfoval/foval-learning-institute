@@ -29,6 +29,7 @@ These fail or warn automatically. Nobody has to remember them.
 | Citations to works SOURCES.md marks unread | `npm run validate` | |
 | A `[n]` marker with no Sources entry; a majority of sources never cited | `npm run validate` | Added 2026-09-18 |
 | Bodies with no links | `npm run validate` | |
+| A sentence of twelve words or more repeated across two lessons of one course | `npm run validate` | Warns. Two deliberate repetitions are exempt by name in `REPETITION_EXEMPT`, with the reason: Clear Writing 6 quoting lesson 5's paragraph on purpose, and Bible Basics repeating its standpoint disclosure. Added 2026-09-18, because a warning a session learns to ignore is worse than no warning |
 | A published course owing more episodes than the debt ledger allows, and the ledger's ratchet | `npm run validate` | Tested, because it broke twice on the day it was written |
 | An `audio:` stamp with no fact-checked script beside it | `npm run validate` | |
 | Script coverage per published course | `npm run validate` | One summary line, never a failure |

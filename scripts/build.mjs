@@ -845,6 +845,18 @@ lintLessons();
    a repeated citation is correct, and two lessons printing the same three lines of Python is the
    point. Warns rather than fails, because a course may legitimately restate one sentence and only
    a person can say which. */
+// Two kinds of repetition are deliberate and must not be warned on, because a warning a session
+// learns to ignore is worse than no warning. A sentence is exempt only if it is listed here with
+// the reason, which keeps the judgement in one place a person can read.
+//   - Clear Writing 6 quotes two sentences of lesson 5's worked paragraph on purpose, and says it
+//     is doing so, because the whole section is about what a concision pass does to that paragraph.
+//   - Bible Basics repeats its standpoint disclosure in every lesson that makes a standpoint claim,
+//     which is what standards 3.7 and courses/CLAUDE.md rule 6 ask for.
+const REPETITION_EXEMPT = [
+  "that cost is far more than the four hundred thousand pounds left in this year s capital budget",
+  "this course holds the christian reading and says so on its first line",
+];
+
 function checkRepetition() {
   for (const school of fs.readdirSync(COURSES_DIR, { withFileTypes: true }).filter(d => d.isDirectory())) {
     for (const cdir of fs.readdirSync(path.join(COURSES_DIR, school.name), { withFileTypes: true }).filter(d => d.isDirectory())) {
@@ -869,6 +881,7 @@ function checkRepetition() {
       }
       for (const [norm, files] of seen) {
         if (files.size < 2) continue;
+        if (REPETITION_EXEMPT.some(x => norm.includes(x))) continue;
         warn.push(`${path.relative(ROOT, lessonsDir)}: the same sentence appears in ${[...files].map(f => f.replace(/\.md$/, "")).join(" and ")}: "${norm.slice(0, 90)}...". Lessons drafted in one session reuse each other; give the second one its own example rather than rewording this.`);
       }
     }
