@@ -16,10 +16,11 @@ Rewrite these five lines each session. Nothing else goes in this block.
 
 - **Current course:** **Writing Clearly is finished** as of 2026-09-18: nine lessons, nine
   episodes, all live in R2 and off the debt ledger. It is the second course finished, after How to
-  Learn Anything. Logic and Argument, Personal Finance and Algebra Essentials are **written**:
-  every lesson in each has a fact-checked script, so all three need only money now. Python Basics
-  is being written now. Reading Well is still the drafting job, at lesson 2 of ten.
-- **Current lesson:** Python Basics' scripts, then Bible Basics. Then Reading Well lesson 2 of ten. `/draft-lesson courses/foundations/reading-well 2`,
+  Learn Anything. Logic and Argument owes one episode. Personal Finance, Algebra Essentials and
+  Python Basics are **written**: every lesson in each has a fact-checked script, so all three need
+  only money now. Bible Basics is being written. Reading Well is still the drafting job, at lesson
+  2 of ten.
+- **Current lesson:** Bible Basics' scripts. Then Reading Well lesson 2 of ten. `/draft-lesson courses/foundations/reading-well 2`,
   as many lessons as the budget allows, after reading that course's `research/reviews/course-wide.md`.
 - **Before drafting anything:** `npm run taught <course>`. It prints every objective a learner has
   already met earlier on the Core, and names the earlier courses that do not exist yet so nothing
@@ -33,10 +34,11 @@ Rewrite these five lines each session. Nothing else goes in this block.
   a course is taken all the way to *written* before the next starts, and what is left behind is a
   pure spending step that needs only budget. Keep writing courses whenever there are tokens;
   render whenever there is money. Never call a course finished while it owes episodes.
-- **Blocked on:** money, for the first time. September's cap has about $1.77 left of $30, or seven
-  more episodes, and thirty three are owed. The cap resets on the 1st and John raises it when he
-  can; he asked to be told, not asked. **Writing scripts is free and is not blocked by any of
-  this.**
+- **Blocked on:** money. **September's cap is spent**, with about 22 cents left of $30 as of the
+  night of the 18th, which is not enough for one more episode. Twenty eight episodes are owed
+  across four courses. The cap resets on the 1st, and John raises it when he can; he asked to be
+  told, not asked. **Writing scripts is free and is not blocked by any of this**, and it is what the
+  rest of the month is for.
 - **Next action, content:** scripts, in Core term order: Python Basics, then Bible Basics. They are
   free at the API and they are what stands between a published course and *written*.
   **Next action, audio:** whatever `npm run state` names, which is Logic and Argument 4 onward.
@@ -57,9 +59,10 @@ its first attempt, all eight live in R2. It is the first course finished by the 
 definition.
 
 Render order: **Logic and Argument**, then Personal Finance, Algebra Essentials, Python Basics,
-Bible Basics. **Logic 1, 2 and 3 are live as of 2026-09-18**, rendered on the settled pipeline,
-billed $0.23, $0.25 and $0.28, level flat and both hosts present to the last line in each. Writing
-Clearly's nine went the same night and the course came off the ledger.
+Bible Basics. **Logic 1 to 9 are live as of 2026-09-18**, rendered on the settled pipeline, every
+one passing its gate on the first attempt, at an average of 24 cents. Writing Clearly's nine went
+the same night and the course came off the ledger. **Logic 10 is the only episode that course still
+owes**, and it is the first thing to render when the cap resets.
 
 **A script over about 1,417 spoken words is refused before any money is sent**, because the render
 engine's sixteen thousand token output ceiling would cut it off. Logic 2 hit it on 2026-09-18 and
