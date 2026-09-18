@@ -157,7 +157,48 @@ this isn't it.
 ## Two ways to run Python
 
 Python gives you two front doors, and they behave differently in one way that confuses people for
-weeks.
+weeks. Both of them start at a terminal, so if you have never opened one, start here.
+
+:::callout Opening a terminal, and where your file lives
+A terminal is a window where you type commands instead of clicking. Every computer has one.
+
+On a **Mac**, press Command and Space, type Terminal, press Enter. On **Windows**, press the Start
+key, type PowerShell, press Enter. On **Linux**, it is usually Ctrl, Alt and T, or Terminal in your
+applications menu. What opens is a window with a line of text and a cursor, waiting.
+
+Type `python3 --version` and press Enter. If it answers with a version number you are ready. If it
+says the command is not found, install Python first: the callout near the end of this lesson says
+which version and where to get it.
+
+The second half matters more, because it is where the first hour usually goes wrong. **A terminal
+is always sitting in one folder, and it only sees files in that folder.** So when you save a
+program, you have to tell the terminal where it went.
+
+Make a folder for this course and keep everything in it. Somewhere you can find again, like
+`Documents/python`. Write your programs in any plain text editor (TextEdit on a Mac set to plain
+text, Notepad on Windows, or something like VS Code), and save each one with a name ending in
+`.py`, into that folder. The `.py` is not decoration; it is how the file is recognised.
+
+Then, in the terminal, move into that folder before you run anything. The command is `cd`, for
+change directory, followed by the path:
+
+```
+cd Documents/python
+```
+
+Now `python3 sums.py` will find `sums.py`, because you are standing in the folder it is in. Run it
+from anywhere else and you get `can't open file 'sums.py'`, which is not a mistake in your program.
+It is the terminal telling you it cannot see the file from where it is standing.
+:::
+
+:::predict You save `hello.py` into `Documents/python`, then open a fresh terminal and type `python3 hello.py` straight away. What happens, and why?
+
+You get an error saying it cannot open the file. A fresh terminal starts in your home folder, not
+in `Documents/python`, so from where it is standing there is no `hello.py` to run. Nothing is wrong
+with the program. Run `cd Documents/python` first, then try again. This is worth meeting now,
+because it will happen to you, and it looks exactly like a broken program until you know it is not.
+
+:::
 
 **The interpreter** is what you get by typing `python3` at a terminal. It shows a `>>>` prompt and
 runs each line as you press Enter. It's for trying things.

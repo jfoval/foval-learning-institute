@@ -246,9 +246,21 @@ async function render() {
   Object.assign(entry, check);
   manifest.attempts.push(entry); saveManifest(manifest);
   console.log(`gate: ${check.summary}`);
+  /* A gate failure AFTER the render is advisory, and deliberately not an error.
+     The money is already spent and the file is already on disk. Exiting 1 here made a good
+     episode look like a failed job, and the old message said "to spend again, run render --go
+     once more", which is an invitation to pay twice for a file that may be perfectly fine. John
+     raised it on 2026-09-18: the cost comes from re-rendering on a flag that did not matter.
+     The evidence is that the gate has never rejected anything on the settled pipeline: all eight
+     How to Learn Anything episodes passed on the first attempt.
+     The real block stays where it belongs, on `upload`, which still refuses without --force. So
+     nothing that fails the gate reaches R2 without somebody saying so, and nothing gets rendered
+     twice because a number was slightly off. */
   if (!check.ok) {
-    console.error(`\nFAILED the gate: ${check.why.join("; ")}.\nThe attempt is kept at ${show(path.join(workDir, file))}. Listen to it. To spend again, run render --go once more; the manifest keeps the count.`);
-    process.exit(1);
+    console.warn(`\nGATE FLAGGED, which is not the same as bad: ${check.why.join("; ")}.`);
+    console.warn(`The episode is kept at ${show(path.join(workDir, file))} and has been paid for.`);
+    console.warn(`LISTEN TO IT FIRST. If it sounds right, it is right: upload it with\n  node scripts/podcast.mjs upload ${lessonArg} --force`);
+    console.warn(`Only render again if your own ears say it is actually wrong. That is the step that costs money.`);
   }
   fs.mkdirSync(path.dirname(mp3Path), { recursive: true });
   fs.copyFileSync(path.join(workDir, file), mp3Path);
