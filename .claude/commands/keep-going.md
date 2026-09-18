@@ -36,16 +36,22 @@ holds what is already settled; check it before you think you have found a questi
 spend money he has not already approved, or when two readings of something he has said would
 produce genuinely different work.** Write anything else into `docs/QUEUE.md` and carry on.
 
-## The audio budget
+## The two budgets
+
+**John's Claude usage** is the one a session is racing: it resets weekly, he wants it spent, and
+both lesson drafting and script writing come out of it. There is no cap on how much you do.
+
+**The Gemini API spend** is his own money against a monthly ceiling he raises as he can afford it.
+**Unspent headroom is not lost.** Never render in order to use up a cap.
 
 `npm run state` prints what is left. Three cases, and none of them is a reason to stop:
 
 - **Budget left and a script ready:** it will tell you to render. One call, listen to the profile it
   prints, upload, stamp, lower `curriculum/audio-debt.yaml` by one in the same commit.
-- **Budget left and nothing ready:** it will tell you to write a script, not to draft. That is
-  deliberate. A script is free and is the only thing that turns this month's budget into episodes,
-  and the cap expires on the 1st. Expect to alternate: write one, render it, write the next. Keep
-  alternating until the budget is gone, and only then go back to lessons.
+- **Headroom left and nothing ready to render:** it moves on to content. That is correct. The
+  Gemini ceiling is not an allowance that expires, it is a limit on John's own money, so there is
+  never a reason to manufacture a render. Scripts get written as part of taking a course to
+  *written*, in term order, and they are rendered whenever the next pass comes round.
 - **Budget spent:** say so once, in one line, and carry on with content. Do not ask John to raise
   the cap and do not wait for him. He raises it when he has the budget and expects to be told, not
   asked. Writing scripts costs nothing and is still worth doing.

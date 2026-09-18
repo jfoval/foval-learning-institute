@@ -102,11 +102,11 @@ node scripts/podcast.mjs upload $ARGUMENTS          # to R2; verifies the public
 node scripts/podcast.mjs stamp $ARGUMENTS           # writes audio: into the lesson frontmatter
 ```
 
-The render takes five to six minutes for one episode; that is normal, not a hang. It measures the
-audio it gets back and refuses to continue if the opening is in the wrong voice, the level is low or
-fades, a host is missing, the length is wrong for the word count, or either host is more than 6% off
-the reference in `scripts/podcast/hosts.json`. It then prints a per-30-second profile: the level
-should hold flat and both hosts should be present to the last line. Listen before uploading.
+The render takes five to six minutes for one episode; that is normal, not a hang. **It refuses to
+continue only if Google returned something broken: silence, or a length wildly out of step with the
+script.** Everything else it measures prints under "measured, not a problem" and decides nothing.
+Do not treat those notes as defects and do not re-render on them: that is how $0.22 gets spent
+twice on an episode that was fine. Listen to it, and trust your ears over the numbers.
 
 **If the render fails, do not run it in a loop.** Read what it says, fix the cause, and run it again
 once, deliberately. Every attempt is kept with what it was billed in

@@ -49,8 +49,10 @@
 //
 // THE GATE, on the returned audio, before it can be uploaded:
 //   opening  the first six seconds are in Haley's band (if not, the voices are swapped);
-//   level    mean volume no quieter than LEVEL_FLOOR dBFS, and the last minute no more than
-//            LEVEL_SPREAD dB under the first, which is what the old fade looked like;
+//   Only two things FAIL: silence where audio should be, and a length wildly out of step with the
+//   script (truncation or a runaway). Everything else below is measured and printed and decides
+//   nothing, since 2026-09-18. The thresholds that used to fail an episode were flagging variances
+//   John could not hear and inviting paid re-renders.
 //   voices   both hosts' pitch bands populated;
 //   length   spoken duration within LENGTH_MIN..LENGTH_MAX of what the word count predicts;
 //   match    when scripts/podcast/hosts.json exists, each host's median pitch within MATCH_PITCH of
@@ -79,7 +81,9 @@ const WPM = 150;
 const OUTPUT_TOKEN_CEILING = 16384; // the model's own limit, about ten minutes
 const COST_CAP = 0.6;
 const LENGTH_MIN = 0.6, LENGTH_MAX = 1.7;
-const LEVEL_FLOOR = -30, LEVEL_SPREAD = 6;
+const LEVEL_FLOOR = -30, LEVEL_SPREAD = 6;   // measured and printed; these no longer fail anything
+const SILENCE_FLOOR = -45;                   // fails: effectively no audio at all
+const SANE_MIN = 0.35, SANE_MAX = 2.5;       // fails: truncation or a runaway, not a variation
 // Two different questions, and they need two different tolerances. Both numbers below are set from
 // eight rendered episodes and John's ear on all of them, not from theory.
 //
@@ -256,8 +260,9 @@ async function render() {
      The real block stays where it belongs, on `upload`, which still refuses without --force. So
      nothing that fails the gate reaches R2 without somebody saying so, and nothing gets rendered
      twice because a number was slightly off. */
+  if (check.notes.length) console.log(`measured, not a problem: ${check.notes.join("; ")}.`);
   if (!check.ok) {
-    console.warn(`\nGATE FLAGGED, which is not the same as bad: ${check.why.join("; ")}.`);
+    console.warn(`\nBROKEN AUDIO, not a variation: ${check.why.join("; ")}.`);
     console.warn(`The episode is kept at ${show(path.join(workDir, file))} and has been paid for.`);
     console.warn(`LISTEN TO IT FIRST. If it sounds right, it is right: upload it with\n  node scripts/podcast.mjs upload ${lessonArg} --force`);
     console.warn(`Only render again if your own ears say it is actually wrong. That is the step that costs money.`);
@@ -282,18 +287,28 @@ function gate(file, s) {
   const a = analyse(file);
   const open = analyse(file, 0, 6);
   const ref = loadHosts();
-  const why = [];
-  if (open.voiced >= 20 && open.high < open.low) why.push(`the opening is in John's band, so the voices are swapped (${(open.high * 100).toFixed(0)}% Haley in the first six seconds)`);
-  if (a.level < LEVEL_FLOOR) why.push(`level ${a.level.toFixed(1)} dBFS under the ${LEVEL_FLOOR} floor`);
+  /* Only audio Google got wrong fails: silence, or a length wildly out of step with the script.
+     Everything below that is measured, printed, and decides nothing. Cut back from seven failing
+     checks on 2026-09-18 on John's instruction. He had listened to every episode the settled
+     pipeline produced and they were fine; the fine-grained thresholds were flagging variances that
+     did not matter and inviting a session to spend $0.22 rendering the same thing again. The one
+     guard that stayed is on the script side, where it costs nothing: an S1 opening is refused
+     before any money is sent. */
+  const why = [], notes = [];
+  const ratio0 = a.speaking / s.seconds;
+  if (a.speaking < 30) why.push(`only ${a.speaking.toFixed(0)}s of audible speech in a ${a.seconds.toFixed(0)}s file: silence, not an episode`);
+  else if (a.level < SILENCE_FLOOR) why.push(`level ${a.level.toFixed(1)} dBFS is effectively silent`);
+  else if (ratio0 < SANE_MIN || ratio0 > SANE_MAX) why.push(`speech ${a.speaking.toFixed(0)}s against about ${s.seconds.toFixed(0)}s expected for ${s.words} words: truncated or runaway`);
+
+  if (open.voiced >= 20 && open.high < open.low) notes.push(`the first six seconds read as John's band rather than Haley's`);
+  if (a.level < LEVEL_FLOOR) notes.push(`level ${a.level.toFixed(1)} dBFS is on the quiet side`);
   if (a.seconds > 120) {
     const first = analyse(file, 0, 60).level, last = analyse(file, Math.max(0, a.spoken - 60), 60).level;
-    if (first - last > LEVEL_SPREAD) why.push(`the last minute is ${(first - last).toFixed(1)} dB under the first: the fade`);
+    if (first - last > LEVEL_SPREAD) notes.push(`the last minute is ${(first - last).toFixed(1)} dB under the first`);
   }
-  if (a.low < 0.15) why.push(`John's band nearly empty (${(a.low * 100).toFixed(0)}%)`);
-  if (a.high < 0.15) why.push(`Haley's band nearly empty (${(a.high * 100).toFixed(0)}%)`);
-  const ratio = a.speaking / s.seconds;
-  if (ratio < LENGTH_MIN) why.push(`speech ${a.speaking.toFixed(0)}s is short for ${s.words} words (expected about ${s.seconds.toFixed(0)}s)`);
-  if (ratio > LENGTH_MAX) why.push(`speech ${a.speaking.toFixed(0)}s is long for ${s.words} words (expected about ${s.seconds.toFixed(0)}s)`);
+  if (a.low < 0.15) notes.push(`John's band is thin (${(a.low * 100).toFixed(0)}%)`);
+  if (a.high < 0.15) notes.push(`Haley's band is thin (${(a.high * 100).toFixed(0)}%)`);
+
   // Within-episode drift: each host's median in the last third of the SPEECH against the first
   // third. It measures a.spoken, the span up to the last audible frame, not the file duration, so
   // trailing silence cannot drag the window. The figure goes in the summary line: a threshold whose
@@ -306,21 +321,21 @@ function gate(file, s) {
     for (const [host, name] of [["john", "John"], ["haley", "Haley"]]) {
       if (first[host].frames < MATCH_MIN_FRAMES || last[host].frames < MATCH_MIN_FRAMES) continue;
       drift[host] = { d: Math.abs(Math.log(last[host].med / first[host].med)), from: first[host].med, to: last[host].med };
-      if (drift[host].d > DRIFT_MAX) why.push(`${name} drifts ${(drift[host].d * 100).toFixed(1)}% across the episode (${first[host].med.toFixed(0)} Hz in the first third, ${last[host].med.toFixed(0)} in the last)`);
+      if (drift[host].d > DRIFT_MAX) notes.push(`${name} drifts ${(drift[host].d * 100).toFixed(1)}% across the episode (${first[host].med.toFixed(0)} Hz in the first third, ${last[host].med.toFixed(0)} in the last)`);
     }
   }
   const match = {};
   if (ref) for (const [host, name] of [["john", "John"], ["haley", "Haley"]]) {
     if (a[host].frames < MATCH_MIN_FRAMES) continue;
     match[host] = Math.abs(Math.log(a[host].med / ref[host].med));
-    if (match[host] > MATCH_PITCH) why.push(`${name} is ${(match[host] * 100).toFixed(1)}% off the reference pitch (${a[host].med.toFixed(0)} vs ${ref[host].med.toFixed(0)} Hz), which is a different voice, not a variation`);
+    if (match[host] > MATCH_PITCH) notes.push(`${name} is ${(match[host] * 100).toFixed(1)}% off the reference pitch (${a[host].med.toFixed(0)} vs ${ref[host].med.toFixed(0)} Hz), which is a different voice, not a variation`);
   }
   const m = h => match[h] !== undefined ? `${(match[h] * 100).toFixed(1)}%` : "n/a";
   const dr = h => drift[h] ? `${(drift[h].d * 100).toFixed(1)}% (${drift[h].from.toFixed(0)}->${drift[h].to.toFixed(0)} Hz)` : "n/a";
   const summary = `${a.level.toFixed(1)} dBFS, John ${(a.low * 100).toFixed(0)}% at ${a.john.med.toFixed(0)} Hz, Haley ${(a.high * 100).toFixed(0)}% at ${a.haley.med.toFixed(0)} Hz, ${a.speaking.toFixed(0)}s of speech in ${a.seconds.toFixed(0)}s, opening ${open.high >= open.low ? "Haley" : "JOHN"}`
     + `; drift across the episode John ${dr("john")} Haley ${dr("haley")}`
     + (ref ? `; off reference John ${m("john")} Haley ${m("haley")}` : "");
-  return { ok: !why.length, why, passed: !why.length, level: a.level, low: a.low, high: a.high, seconds: a.seconds, speaking: a.speaking, john: a.john, haley: a.haley, summary };
+  return { ok: !why.length, why, notes, passed: !why.length, level: a.level, low: a.low, high: a.high, seconds: a.seconds, speaking: a.speaking, john: a.john, haley: a.haley, summary };
 }
 
 // Decodes to mono 16 kHz and measures: mean level, the share of voiced frames in each host's pitch
@@ -385,7 +400,8 @@ function gateOnly() {
   if (!fs.existsSync(file)) { console.error(`No MP3 at ${show(file)}.`); process.exit(1); }
   const check = gate(file, readScript());
   console.log(`${show(file)}\n  ${check.summary}`);
-  console.log(check.ok ? "  PASS" : `  FAIL: ${check.why.join("; ")}`);
+  console.log(check.ok ? "  OK" : `  BROKEN: ${check.why.join("; ")}`);
+  if (check.notes.length) console.log(`  measured, not a problem: ${check.notes.join("; ")}`);
   if (!check.ok) process.exit(1);
 }
 

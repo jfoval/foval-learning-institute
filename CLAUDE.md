@@ -4,6 +4,19 @@ Foval Learning Institute is a free, open, general-education online university. C
 repo as Markdown; a build script compiles it into a static site. Read this file, then
 `docs/QUEUE.md`, then the document relevant to your task and nothing else.
 
+## Two budgets, and they are not the same thing
+
+Confusing these produced a rule that hurried John's money out the door, so it is written here.
+
+- **John's Claude usage** resets weekly and he wants it spent. Writing lessons and writing podcast
+  scripts both come out of it. An unused week is gone. **This is the budget a session is racing**,
+  which is why there is no cap on how much a session does.
+- **The Gemini API spend** is his own money, paid in as he can afford it, with a monthly ceiling at
+  aistudio.google.com/spend that he raises when he has the budget. **Unspent headroom is not lost;
+  it is money he still has.** Render because episodes are owed, never to use up a cap. When the
+  ceiling is reached, say so in one line and carry on with content: he raises it when he can and
+  expects to be told, not asked.
+
 ## "Keep going"
 
 When John says **keep going**, or opens a session without naming a task, do not ask what to work on.

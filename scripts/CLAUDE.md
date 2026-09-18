@@ -130,6 +130,10 @@ runs is not a check**, which is why both quiz scripts now have an `npm` name.
   `docs/PODCAST_PIPELINE.md` section 4: never send `temperature` or `seed` (either returns billed
   silence), always cap `maxOutputTokens`, curl rather than `fetch` (which abandons a response after
   five minutes while Google keeps billing), never re-send automatically, one request at a time.
+- **The audio gate is a sanity check, not a quality judgement, and is not to be tightened without
+  John.** It fails only on silence or a length wildly out of step with the script. Everything else
+  is printed and decides nothing. Cut back from seven failing checks on 2026-09-18 because they
+  flagged variances he could not hear and invited paid re-renders.
 - The rest of the guards: dry-run by default, no render without a `checked:`
   fact-check entry in the script frontmatter, a $0.60 worst-case cost cap without `--force`, a pitch-band voice
   check after every render, and an upload that verifies the public URL answers before anything is

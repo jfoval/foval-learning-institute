@@ -77,19 +77,24 @@ test("with budget and a ready script, the one action is to render", () => {
   assert.ok(/podcast\.mjs render \S*01-lesson\.md --go/.test(out), out);
 });
 
-test("with budget but no script ready, write a script rather than drafting", () => {
-  // The budget expires on the 1st and a script is free, so the script comes first. Without this
-  // the loop drafts all night and the unspent cap is lost.
+test("with headroom but no script ready, rendering is not proposed", () => {
   const out = run(tree({ scriptsFor: [] }));
   assert.ok(!/DO THIS NOW {2}\(render\)/.test(out), out);
-  assert.ok(/DO THIS NOW {2}\(script\)/.test(out), out);
-  assert.ok(/turns budget into episodes/.test(out), out);
 });
 
-test("with the cap spent and no scripts, the reason is not the budget", () => {
-  const out = run(tree({ scriptsFor: [], budget: SPENT }));
-  assert.ok(/DO THIS NOW {2}\(script\)/.test(out), out);
-  assert.ok(!/turns budget into episodes/.test(out), out);
+test("headroom never becomes a reason to hurry: no expiry language anywhere", () => {
+  // The Gemini ceiling limits John's own money; it is not an allowance that expires. A rule built
+  // on the opposite was written and removed on 2026-09-18, and it urged spending for no reason.
+  for (const t of [tree({ scriptsFor: [1, 2, 3] }), tree({ scriptsFor: [] }), tree({ scriptsFor: [], budget: SPENT })]) {
+    const out = run(t);
+    assert.ok(!/expires|use it up|before it is lost|perishable/i.test(out), out);
+  }
+});
+
+test("the same action is chosen whether or not there is headroom, when nothing can be rendered", () => {
+  const a = run(tree({ scriptsFor: [] })), b = run(tree({ scriptsFor: [], budget: SPENT }));
+  const line = t => (t.match(/DO THIS NOW {2}\((\w+)\)/) || [])[1];
+  assert.equal(line(a), line(b), a + "\n---\n" + b);
 });
 
 test("with the cap spent, rendering is not proposed even with scripts ready", () => {

@@ -61,6 +61,10 @@ the Google AI Studio monthly cap at [aistudio.google.com/spend](https://aistudio
 which resets on the first. Raise it there first, then in that file. Google's page is the authority;
 the repo's figure is the best estimate it can make on its own.
 
+**The ceiling is not an allowance.** It limits what can be spent in a month; it is not a balance
+that expires, and unspent headroom is money John still has. Render because episodes are owed, never
+to use the cap up. A rule that urged the second was written on 2026-09-18 and removed the same day.
+
 **Accidents are counted against the cap and kept out of the cost of an episode**, and the
 difference matters. September carries about $23.39 from the runaway retry loop of 2026-09-17, which
 Google charged and which produced almost no audio anyone kept. Against the cap it is real money
@@ -146,9 +150,25 @@ existing scripts were swapped on 2026-09-18.
 
 ---
 
-## 6. The gate: what is checked before an episode can be uploaded
+## 6. The gate: a sanity check, not a quality judgement
 
-The render measures the audio it got back and refuses to go further if any of this fails.
+**Two things fail, and both mean Google returned something broken rather than an episode that could
+be better:** silence where audio should be, and a length wildly out of step with the script, which
+is truncation or a runaway. That is all.
+
+Everything else in the table below is still measured and still printed under "measured, not a
+problem". None of it decides anything.
+
+**This was cut back on 2026-09-18, on John's instruction, and it is not to be tightened again
+without him.** It used to fail an episode on seven measurements. He had listened to every episode
+the settled pipeline produced and they were fine; what the fine-grained thresholds actually did was
+flag small variances that did not matter and invite a session to spend $0.22 rendering the same
+thing again. An episode that sounds wrong is caught by an ear, and the answer is one deliberate
+re-render, not a threshold.
+
+The one guard that stayed is on the script side, where it costs nothing: a script opening with
+`S1:` is refused before any money is sent, which is what stops a whole episode coming out in one
+voice.
 
 | Check | What it catches |
 |---|---|

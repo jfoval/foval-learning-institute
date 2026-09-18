@@ -152,7 +152,8 @@ function budget() {
 AUDIO BUDGET  ${key}: $${left.toFixed(2)} left of a $${cap.toFixed(2)} cap, about ${Math.floor(left / (each || 0.22))} more episode(s).`);
   console.log(`              production: $${month.toFixed(2)} over ${monthAttempts} episode(s), $${each.toFixed(2)} each.`);
   if (lost) for (const x of incidents) console.log(`              not production: $${x.amountUSD.toFixed(2)} lost to an accident (${String(x.what).split(".")[0]}). Counts against the cap, never against the cost of an episode.`);
-  console.log(`              aistudio.google.com/spend is the authority.`);
+  console.log(`              Headroom, not an allowance: unspent is money John still has. Render only what is owed.`);
+  console.log(`              aistudio.google.com/spend is the authority; he raises the cap as he can afford it.`);
   out = { left, each: each || 0.22 };
   console.log(`              all time, production only: $${all.toFixed(2)} over ${attempts} render(s).`);
   return out;
@@ -168,20 +169,23 @@ if (doneCourses.length) console.log(`  finished: ${doneCourses.join(", ")}`);
 console.log("");
 
 /* THE next action, not a list of them.
-   John's ask, 2026-09-18: start a session, say "keep going", and have it know. A list of seven
-   per-course actions still leaves the choosing to the reader, and the choosing is where a session
-   burns time or picks wrong.
+   John's ask, 2026-09-18: start a session, say "keep going", and have it know.
 
-   Two rules decide it.
+   TWO BUDGETS, AND THEY ARE NOT THE SAME THING. Confusing them produced a wrong rule here once,
+   so it is written down.
 
-   1. RENDER FIRST WHEN THERE IS BUDGET, because the budget is perishable and the tokens are not.
-      The Google cap resets on the 1st and whatever is unspent is gone. Rendering also needs no
-      context beyond a ready script, so it is the cheapest possible use of a session's attention.
-      Only episodes whose script already exists count: a script is free and can be written any time.
-   2. OTHERWISE WORK THE EARLIEST TERM. Not the earliest course with lessons owed, or the earliest
-      with scripts owed, but the earliest course on the Core with any outstanding work at all, and
-      inside it lessons before scripts. That is what makes Terms 1 and 2 finish first, which is
-      what matters when the whole Core is a multi-year build. */
+   - **John's Claude usage** is the perishable one. It resets weekly and he wants it spent: writing
+     lessons and writing podcast scripts both come out of it. An unused week is gone. This is the
+     budget a session is actually racing.
+   - **The Gemini API spend** is his own money, paid in as he can afford it, with a monthly ceiling
+     at aistudio.google.com/spend that he raises when he has the budget. **Unspent headroom is not
+     lost; it is money he still has.** There is never a reason to hurry a render in order to "use
+     up" the cap, and a rule that did so was spending his money for no reason.
+
+   So: render when there is headroom and a script is ready, because episodes are genuinely owed and
+   a render costs almost nothing in Claude usage. Never render to burn a cap. Otherwise work the
+   earliest term on the Core with any outstanding work, lessons before scripts, which is what makes
+   Terms 1 and 2 finish first when the whole Core is a multi-year build. */
 function nextAction(courses, money) {
   const lessonFiles = c => { try { return fs.readdirSync(path.join(COURSES_DIR, c.school, c.id, "lessons")).filter(f => f.endsWith(".md")).sort(); } catch { return []; } };
   if (money && money.left >= money.each) {
@@ -192,16 +196,7 @@ function nextAction(courses, money) {
       const n = Math.min(Math.floor(money.left / money.each), ready.length);
       return { what: "render",
         line: `node scripts/podcast.mjs render courses/${c.school}/${c.id}/lessons/${ready[0]} --go`,
-        why: `$${money.left.toFixed(2)} of budget is live and expires on the 1st. ${c.id} has ${ready.length} script(s) ready and no episode; the budget covers ${n} of them. Render, listen, upload, stamp, lower the debt, commit. Then run this again.` };
-    }
-    /* Budget is live but nothing is ready to render. Writing a script costs nothing and is the
-       only thing that turns this month's budget into episodes, so it comes before drafting.
-       Without this the loop falls through to the next course's lessons, drafts all night, and the
-       unspent cap expires on the 1st: traced on 2026-09-18 with $3.46 left and no ready script. */
-    for (const c of courses) {
-      if (c.status !== "published" || !c.noEpisode.length || !c.noScript.length) continue;
-      return { what: "script", line: `/make-podcast courses/${c.school}/${c.id}/lessons/${c.noScript[0]}`,
-        why: `$${money.left.toFixed(2)} of budget is live and expires on the 1st, and nothing has a script ready to render. A script costs nothing at the API and is the only thing that turns budget into episodes, so it comes before drafting. ${c.id} is the earliest term owing episodes and needs ${c.noScript.length}. Write one, fact-check it, then run this again and it will tell you to render it.` };
+        why: `${c.id} owes episodes and has ${ready.length} script(s) ready. $${money.left.toFixed(2)} of headroom is left this month, enough for ${n} of them, and a render costs almost no Claude usage. Render, listen, upload, stamp, lower the debt, commit. Then run this again.` };
     }
   }
   for (const c of courses) {
