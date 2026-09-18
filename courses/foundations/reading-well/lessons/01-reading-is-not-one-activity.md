@@ -1,6 +1,7 @@
 ---
 title: Reading is not one activity
 minutes: 80
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/foundations/reading-well/01-reading-is-not-one-activity.mp3
 objectives:
   - Explain what sets the effort a text demands, and why one reading speed applied to everything is a mistake
   - Identify which of the four levels of reading a given text and purpose call for

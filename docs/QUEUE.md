@@ -29,34 +29,41 @@ Rewrite these five lines each session. Nothing else goes in this block.
   `npm run taught` and lessons 1 to 8 before assuming a word is available.
 
 - **Where the audio stands, 2026-09-18.** Six courses are FINISHED: Clear Writing, How to Learn
-  Anything, Logic and Argument, Personal Finance, Algebra Essentials and Python Basics. **49 of 71
-  episodes are live.** What is left is **Bible Basics (12)** and then **Reading Well (10)**, in that
-  order, which is where the render order in this file now points. `npm run state` has the costs.
+  Anything, Logic and Argument, Personal Finance, Algebra Essentials and Python Basics. What is
+  left is **Reading Well** and **Bible Basics**. `npm run state` has the counts, the costs and the
+  next lesson; it is the authority on which one, and this file no longer duplicates the answer.
 
-  **One render was killed in flight**, on Bible Basics lesson 1, and the reason is worth knowing
-  because it was a misreading rather than a mishap. John said to wrap up before starting a fresh
-  session; the session read that as "stop everything" and stopped the chain. **Wrap up means the
-  four things at the foot of `.claude/commands/keep-going.md`: the queue true, the tree clean,
-  everything pushed, a short report.** It does not mean killing work in flight, and that file now
-  says so.
+  **The render order below and `npm run state` disagreed, and the disagreement is now resolved in
+  the script's favour.** This file said legacy courses first, then the Core in term order, which
+  puts Bible Basics ahead of Reading Well. `npm run state` and `docs/PODCAST_PIPELINE.md` section 3
+  both say plain Core term order, which puts Reading Well first. Three documents against one, and
+  `.claude/commands/keep-going.md` says the command wins when they differ, so Reading Well is being
+  rendered first. **Nothing turns on it either way**: this month's remaining headroom covers every
+  one of the twenty two episodes still owed, so both courses finish regardless of which goes first.
+  **John, if you want the legacy-first order back, say so and it goes into the script rather than
+  into prose**, which is the only way it will survive the next session.
 
-  **The chain never needed stopping at all.** Renders write their mp3s to `audio-out/`, which is on
-  disk and survives a session, and `podcast.mjs` copies a kept attempt rather than paying twice. A
-  later session would have found the work done and uploaded it for free.
-
-  No audio was written and no manifest was kept, so **Google may have billed for a render that
-  produced nothing**. It is not in `scripts/podcast/budget.json` as production because no episode
-  came of it. Re-rendering lesson 1 is a fresh, deliberate spend and that is correct; nothing is
-  being paid for twice, because nothing was kept.
+  **One render was killed in flight** on Bible Basics lesson 1, on 2026-09-18, and the reason is
+  worth keeping because it was a misreading rather than a mishap. John said to wrap up before
+  starting a fresh session; the session read that as "stop everything" and stopped the chain.
+  **Wrap up means the four things at the foot of `.claude/commands/keep-going.md`: the queue true,
+  the tree clean, everything pushed, a short report.** It does not mean killing work in flight, and
+  that file now says so. Nothing was paid for twice, because nothing was kept: renders write their
+  mp3s to `audio-out/`, which survives a session, and `podcast.mjs` copies a kept attempt rather
+  than paying again.
 
   **Bible Basics scripts are the long ones** (1,259 to 1,539 words against the measured band of
   1,000 to 1,200), so its twelve renders take noticeably longer than Python's six did. Budget the
-  wall-clock accordingly.
+  wall-clock accordingly. Reading Well's are long too: lesson 1 took 335 seconds to render.
 
-- **Digital Literacy is written as far as it can be.** Scripts for lessons 1 and 7 to 12 are drafted;
-  **lessons 2 to 6 still need scripts**, and everything needs the fact-check recorded in `checked:`
-  before `podcast.mjs` will render any of it. The six drafted on 2026-09-18 came in between 947 and
-  1,032 words, which is the measured band, so the shape is right; they just need checking.
+- **Digital Literacy is written as far as it can be, and nearly is.** Every drafted script now
+  carries a `checked:` entry. **Lessons 4, 5 and 6 still need scripts written**; 1, 2, 3 and 7 to 12
+  are done. Lesson 1's check came back FAIL on a real finding worth remembering: the script had
+  offered the single-box drawing from Kang as the result arguing against the course's own premise,
+  when the lesson presents it as the encouraging half and puts the weight on the null result that
+  technical background had no relationship with protective action. **A compression that keeps every
+  figure can still invert the argument**, which is the failure mode the fact-check prompt should
+  name explicitly.
 
 - **BLOCKED ON JOHN, and it is the only thing standing between Digital Literacy and publication.**
   Lesson 13, the last one, has a Stage 1 gate the outline states as a **must**: "Stage 1 must run a
@@ -144,18 +151,10 @@ Rewrite these five lines each session. Nothing else goes in this block.
 **Nothing on a course already through Stage 4 is to be re-opened** unless the feedback loop or a
 check brings it back.
 
-Render order, when there is money: **Logic and Argument**, then Personal Finance, Algebra
-Essentials, Python Basics, Bible Basics, then Reading Well. `npm run state` has the counts and the
-costs.
-
-**That order is deliberate and it is not Core term order, so do not "fix" it.** A session did on
-2026-09-18, on the grounds that `npm run state` lists courses in Core term order and puts Reading
-Well second. The script is right about what it computes and it cannot know this: the first five
-courses were built before the Foval Core path existed, were brought up to standard, and the Core
-path was then started and is being worked in order. The podcast queue follows that history. This is
-exactly the kind of fact this file exists to hold, which is the answer to why it is written here and
-not derived. **Within a course, lesson number order, and `npm run state` names the first lesson
-actually missing an episode.**
+**Render order: `npm run state`, and nothing here.** It names the course and the first lesson
+actually missing an episode, in Core term order, which is also what `docs/PODCAST_PIPELINE.md`
+section 3 says. The hand-written order that used to sit here is gone; see the audio bullet above
+for what it said, why it disagreed with the script, and the one line John can say to put it back.
 
 **The script length ceiling lives in `docs/PODCAST_PIPELINE.md` section 4a**, which is the
 authority. It was duplicated here until 2026-09-19 and the two copies had drifted to different
