@@ -31,8 +31,9 @@ Rewrite these five lines each session. Nothing else goes in this block.
   a course is taken all the way to *written* before the next starts, and what is left behind is a
   pure spending step that needs only budget. Keep writing courses whenever there are tokens;
   render whenever there is money. Never call a course finished while it owes episodes.
-- **Blocked on:** nothing. September's Gemini cap is down to about $4.55 of $30 after Logic 1 and
-  Logic 2, resetting on the 1st. Logic 3's script is ready and the headroom covers it.
+- **Blocked on:** nothing. September's Gemini cap is down to about $4.25 of $30 after Logic 1, 2
+  and 3, resetting on the 1st. **Logic 4 to 10 have no scripts yet**, so the next renders wait on
+  writing, not on money.
 - **Next action, content:** scripts, in Core term order, starting with Writing Clearly. They are
   free at the API and they are what stands between six published courses and *written*.
   **Next action, audio:** `node scripts/podcast.mjs render courses/foundations/logic-and-argument/lessons/02-*.md`
@@ -54,8 +55,8 @@ its first attempt, all eight live in R2. It is the first course finished by the 
 definition.
 
 Render order: **Logic and Argument**, then Writing Clearly, Personal Finance, Algebra Essentials,
-Python Basics, Bible Basics. **Logic 1 and 2 are live as of 2026-09-18**, rendered on the settled
-pipeline, billed $0.23 and $0.25, level flat and both hosts present to the last line in each.
+Python Basics, Bible Basics. **Logic 1, 2 and 3 are live as of 2026-09-18**, rendered on the settled
+pipeline, billed $0.23, $0.25 and $0.28, level flat and both hosts present to the last line in each.
 
 **A script over about 1,417 spoken words is refused before any money is sent**, because the render
 engine's sixteen thousand token output ceiling would cut it off. Logic 2 hit it on 2026-09-18 and
@@ -64,9 +65,7 @@ dry run instead of only on `--go`, which is where the limit used to be invisible
 1,300 and check the dry run before the fact-check**, because shortening is new text and the
 fact-check has to run again after it.
 
-**Scripts are the outstanding writing job, and they are free.** `npm run validate` prints the count
-every run; today it is **46 of 61 lessons with no script**: bible-basics 11, clear-writing 9,
-logic-and-argument 7, personal-finance 7, python-basics 6, algebra-essentials 6. Write them with
+**Scripts are the outstanding writing job, and they are free.** `npm run validate` prints the count every run. Write them with
 `/make-podcast <lesson>`, stopping after the fact-check. Several a session is fine. Take one course
 all the way to *written* before starting the next.
 

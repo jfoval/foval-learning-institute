@@ -10,6 +10,11 @@ checked: >-
   after the check to fit the render engine's output ceiling, by compressing turns only; no claim,
   figure or quotation was dropped. Every figure, name and quotation traces to the lesson. The
   course is in a neutral school with no standpoint to preserve.
+  Re-checked in a fresh-context subagent on 2026-09-18 after the shortening, against the diff:
+  verdict PASS WITH NITS, all fixed here. The cut had dropped "not the sentence's own vocabulary"
+  from step one, which is the clause that makes it a method rather than a suggestion; it had broken
+  the character and action parallel in the planning sentence; and "technically clearer" had lost
+  its qualifier, which is the word that makes the concession a concession.
 about: >-
   About six minutes. Haley opens, because the engine gives the first turn to the second voice.
   Hosts are John (S1, the Charon voice) and Haley (S2, the Aoede voice). Third episode for
@@ -23,7 +28,7 @@ S2: Welcome in. This is the Foval Learning Institute podcast, where the two of u
 
 S1: And I'm John. Today we're in Writing Clearly, lesson three. Characters and actions.
 
-S1: Here's the sentence it opens with, from a letter about a planning application. Grammatical, correctly spelled, twenty words. Determination of the application was undertaken following consideration of representations received during the consultation period by officers with delegated authority.
+S1: The sentence it opens with came from a letter about a planning application. Twenty words. Determination of the application was undertaken following consideration of representations received during the consultation period by officers with delegated authority.
 
 S2: Give me a second. Somebody decided something, after reading what people sent in.
 
@@ -43,15 +48,15 @@ S1: Take their own warning with it. The same paper says none of these reader exp
 
 S2: Two different sources landing in the same place is decent evidence, though.
 
-S1: Be careful how much you make of it. Gopen and Swan wrote nine years after Williams, and this course hasn't read Williams's own text to see whether he's behind them. What you can say is that the principle turns up independently of any one author's taste, which is more than most writing advice can claim.
+S1: Be careful how much you make of it. Gopen and Swan wrote nine years after Williams, and this course hasn't read Williams's own text to see whether he's behind them. What you can say is that the principle turns up independently of any one author's taste, which is more than most writing advice manages.
 
 S2: So what's the mechanism? Why does it cost the reader?
 
-S1: A reader meets a sentence expecting a story, and a story needs somebody doing something. If your subject is a thing that acts and your verb is the acting, the reader gets the story for free. If not, they assemble it from the nouns, and it costs them. Which is what happened to you. Determination was undertaken gave you a subject that isn't a character and a verb that isn't the action. The real action, deciding, was inside the noun determination, and the real character, the officers, was parked at the end behind the word by.
+S1: A reader meets a sentence expecting a story, and a story needs somebody doing something. If your subject acts and your verb is the acting, the reader gets the story for free. If not, they assemble it from the nouns, and it costs them. Which is what happened to you. Determination was undertaken gave you a subject that isn't a character and a verb that isn't the action. The real action, deciding, was inside the noun determination, and the real character, the officers, was parked at the end behind the word by.
 
-S2: Alright, so how do I actually do this? Because my instinct is to start shuffling words until it sounds better.
+S2: So how do I do this? My instinct is to shuffle words until it sounds better.
 
-S1: Which produces an improvement you can't repeat. Two steps, and write the first down. Step one, name the character and the action in ordinary words, not the sentence's own vocabulary. Step two, put them in the slots.
+S1: Which produces an improvement you can't repeat. Two steps, and write the first down. Step one, name the character and the action in ordinary words, not the sentence's own. Step two, put them in the slots.
 
 S2: Work one.
 
@@ -65,13 +70,13 @@ S2: There's a harder one in the lesson about waiting times.
 
 S1: A reduction in waiting times was achieved through the introduction of a new booking system. The character is whoever runs the service, which the sentence never names, and both actions are buried in nouns. Reduction is really cut, or brought down. Introduction is really brought in.
 
-S2: And the rewrite?
+S2: Rewrite it.
 
 S1: If it's the hospital, the hospital cut waiting times by bringing in a new booking system. If nobody knows who, waiting times fell after the new booking system started. And the second drops the claim that the system caused the fall, which the original asserted with the word achieved. Undoing a buried action often exposes a causal claim that was resting on nothing.
 
-S2: These nouns have a name, I think.
+S2: And these nouns have a name.
 
-S1: A nominalisation. A verb or an adjective turned into a noun. Decide becomes decision, fail becomes failure, reduce becomes reduction.
+S1: A nominalisation. A verb or adjective turned into a noun. Decide becomes decision, fail becomes failure, reduce becomes reduction.
 
 S2: And I've heard the advice about words ending in ion.
 
@@ -81,11 +86,11 @@ S2: Because government ends in ment.
 
 S1: And equipment, and condition, and region, and not one is a buried verb. Meanwhile plenty of nominalisations end some other way. Failure, analysis, growth, belief, refusal. The ending finds candidates faster than reading can. Then you check each one for a verb hiding in it and a person who should be doing it.
 
-S1: And one tip for a whole document. The nominalisations that matter usually sit next to a limp verb, because a buried action leaves the verb slot with nothing to do. Was made, was undertaken, took place, occurred, was carried out, there was, and plain is. Those are the fingerprints.
+S1: And one tip for a document. The nominalisations that matter usually sit next to a limp verb, because a buried action leaves the verb slot with nothing to do. Was made, was undertaken, took place, occurred, was carried out, there was, and plain is. Those are the fingerprints.
 
 S2: Now, there's a section here that corrects something almost everyone was taught.
 
-S1: In nineteen eighteen William Strunk wrote that a common fault is to use as the subject of a passive construction a noun which expresses the entire action, leaving to the verb no function beyond that of completing the sentence. His pair is, a survey of this region was made in nineteen hundred, against, this region was surveyed in nineteen hundred. He prefers the second.
+S1: In nineteen eighteen William Strunk wrote that a common fault is to use as the subject of a passive construction a noun which expresses the entire action, leaving to the verb no function beyond that of completing the sentence. His pair is, a survey of this region was made in nineteen hundred, against, this region was surveyed. He prefers the second.
 
 S2: Hold on. They're both passive.
 
@@ -113,11 +118,11 @@ S1: Every one checkable, and one of them may be wrong, which is exactly what the
 
 S2: And if you're asked to put it back?
 
-S1: Conclude the vagueness was probably doing work, and not necessarily dishonest work. Sometimes an organisation genuinely hasn't established who acted. Sometimes a document is written so no individual is exposed, and that's a decision above your pay grade. The lesson says to ask which, in those words. Do we not know who, or do we know and not want to say?
+S1: Conclude the vagueness was probably doing work, and not necessarily dishonest work. Sometimes an organisation genuinely hasn't established who acted. Sometimes a document is written so no individual is exposed, and that's above your pay grade. The lesson says to ask which, in those words. Do we not know who, or do we know and not want to say?
 
-S2: Last thing, because I can feel the overcorrection coming. When do I leave a nominalisation alone?
+S2: Last thing. When do I leave a nominalisation alone?
 
-S1: Four cases. When the abstraction genuinely is the subject: inflation fell to three percent is about inflation, and prices rose more slowly changes the topic. When the noun is a fixed term, like planning permission or risk assessment, because unpacking those gives a sentence that's clearer and unrecognisable to the people who act on it. When it links two sentences, which is lesson five. And when naming the character would be false precision, because if nobody knows who assessed the risks, saying somebody did invents a certainty you don't have.
+S1: Four cases. When the abstraction genuinely is the subject: inflation fell to three percent is about inflation, and prices rose more slowly changes the topic. When the noun is a fixed term, like planning permission or risk assessment, because unpacking those gives a sentence that's technically clearer and unrecognisable to the people who act on it. When it links two sentences, which is lesson five. And when naming the character would be false precision, because if nobody knows who assessed the risks, saying somebody did invents a certainty you don't have.
 
 S2: The full lesson has the ten sentence exercise, the two you're meant to leave alone, and the one that's only half a case. It's free at Foval Learning Institute dot org.
 
