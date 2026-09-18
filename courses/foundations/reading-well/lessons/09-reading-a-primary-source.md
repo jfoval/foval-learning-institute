@@ -35,7 +35,7 @@ quiz:
       - Nothing, since later scholarship really does have access the participants lacked
       - It is wrong because textbooks are written for children and simplify everything
       - It is wrong because an eyewitness is always the better source about what they saw
-      - A textbook hides its author and its purpose, so the first move cannot be run on it at all
+      - A textbook hides its author and its purpose, so the first move has nothing to work on
     answer: 3
     explain: A textbook's absence of a named author and a stated purpose reads as objectivity and is the opposite of it, so D. A states something true that does not answer the objection. B substitutes a complaint about the genre for an argument about evidence. C replaces one automatic ranking with another, and eyewitnesses have purposes too.
   - q: Two accounts of a confrontation each say the other side fired first. A reader concludes that the truth is unknowable and stops. What has gone wrong?
@@ -54,13 +54,13 @@ What they have in common is that none of them was written for you.
 
 ## The finding this lesson is built on
 
-In 1991 Sam Wineburg gave eight university historians and eight very strong high-school seniors the same eight documents about one small event, the confrontation on Lexington Green on 19 April 1775. Eyewitness accounts, diary entries, a deposition, a textbook excerpt, and a passage from a novel. He asked them to think aloud.[1]
+In a study published in 1991, Sam Wineburg gave eight university historians and eight very strong high-school seniors the same eight documents about one small event, the confrontation on Lexington Green on 19 April 1775. Eyewitness accounts, diary entries, a deposition, a textbook excerpt, and a passage from a novel. He asked them to think aloud.[1]
 
 Two results, and the second is the one to build a method on.
 
 **The historians ranked the textbook dead last for trustworthiness, below the novel.** Three of the eight students put it at or near the top. One called it "the facts". Another called it "straight information" and "objective". The textbook contradicted primary accounts from both sides.[1]
 
-And the behavioural finding, in Wineburg's own words: "historians, when first given a document, looked immediately to its attribution, whereas students usually began with the first word in the upper left and never stopped until they reached the last word on the bottom right."[1]
+And the behavioural finding, in Wineburg's own words: "... historians, when first given a document, looked immediately to its attribution, whereas students usually began with the first word in the upper left and never stopped until they reached the last word on the bottom right."[1] The ellipsis is there because this course quotes the sentence from the middle; `research/SOURCES.md` records why.
 
 That sentence is the lesson. Everything below is machinery for doing what the historians did.
 
@@ -73,6 +73,8 @@ Read from the attribution outward and every sentence changes meaning, because yo
 This is also why the textbook came last. A textbook hides its author, states no purpose, and cites nothing. That absence reads as objectivity, and it is the opposite: it means you cannot perform the first move on it at all.
 
 Notice that this puts something before understanding, which is not what lesson 7 told you. Adler's rule 9 says you may not judge until you can say "I understand". Here you judge the source before you have read a line. **The two are not in conflict, and the reason is worth having.** What you judge first is not the claim. It is what kind of act the document is, and that is part of understanding it rather than a verdict on it. You still may not say the author is wrong until you have read him.
+
+Adler puts the same order in his own book, and it is easy to miss because it comes so early. His rule 1 is to classify the book by kind and subject matter, and you do that from the cover, before the first page. Rule 9 governs the third stage, criticism, six rules later. Sourcing is rule 1's work done on a document instead of a book, and it belongs in the same place.
 
 ## Four moves
 
@@ -88,9 +90,9 @@ The four are Wineburg's three plus one the Stanford curriculum adds.[1]
 
 ## Two accounts, one morning
 
-Here are two real documents about the same quarter of an hour, written one day apart. Both are free and both are linked, and you should open them.
+Here are two real documents about the same quarter of an hour, written one day apart. Both are free: [Parker's deposition](https://catalog.archives.gov/id/595246) at the National Archives, and [Pitcairn's report](https://teachingamericanhistory.org/document/report-on-the-battles-of-lexington-and-concord/). Open them.
 
-The uncontested part first, because corroboration needs somewhere to stand. On 19 April 1775 a British detachment marched from Boston to destroy colonial military stores at Concord. It reached Lexington around sunrise. A body of Lexington militia was drawn up on the Common. Firing occurred. Eight Lexington men were killed. One soldier of the 10th Regiment was wounded and the British commander's horse was hit twice. The column went on to Concord.
+The uncontested part first, because corroboration needs somewhere to stand. On 19 April 1775 a British detachment marched from Boston to destroy colonial military stores at Concord. It reached Lexington around sunrise. A body of Lexington militia was drawn up on the Common. Firing occurred. Eight of the militia party were killed. One soldier of the 10th Regiment was wounded and the horse of the major commanding the advance companies was hit in two places. The column went on to Concord.
 
 **Who fired first is not settled, and this lesson is not going to settle it.** That is not a hedge. It is the condition that makes the two documents teachable.
 
@@ -100,28 +102,34 @@ The uncontested part first, because corroboration needs somewhere to stand. On 1
 
 **Source it.** John Parker, captain commanding the Lexington militia company, swearing at Lexington on 25 April 1775, six days after the morning. Sworn before three Justices of the Peace for Middlesex, and then certified by a notary public of Charlestown attesting that those men really were His Majesty's Justices.
 
-That notarial certificate is the tell, and it is the kind of thing a reader skips. It exists because the paper was going overseas, to readers who did not know a Middlesex justice from anyone. And indeed the depositions were taken by order of the Massachusetts Provincial Congress, whose covering address says the purpose in its own words: "it being of the greatest importance that an early, true, and authentick account of this inhuman proceeding should be known to you, the Congress of this Colony have transmitted the same". They were printed at Worcester and a set was rushed to England ahead of the British commander's own account.[2]
+That notarial certificate is the thing to notice, and it is the kind of thing a reader skips. It exists because the paper was going overseas, to readers who did not know a Middlesex justice from anyone. The depositions were taken by order of the Massachusetts Provincial Congress, whose covering address says the purpose in its own words: "it being of the greatest importance that an early, true, and authentick account of this inhuman proceeding should be known to you, the Congress of this Colony have transmitted the same". They were printed at Worcester and a set was sent to England ahead of General Gage's own account.[2]
 
 So this is not a witness statement. It is one exhibit in a brief, assembled at speed by a body that was a party to the quarrel, for a jury three thousand miles away.
 
-**Close-read it.** Four words a modern reader will misread. *Regulars* means the British standing professional army, as against part-time militia; it is a category before it is an insult. *Insult* in 1775 covers physical assault. *Molest* means to interfere with, with no sexual sense. *Meddle or make with* is an idiom meaning to have anything to do with. And *of lawful age* is a formula establishing competence to swear, not a fact about Parker.
+Notice also what Parker swears that does not help him. He says he ordered the militia to meet on the Common, and that on the troops' approach he ordered them to disperse "and not to fire". That concedes that his company was armed and drawn up in the path of the King's troops, which is the fact a Crown lawyer would have wanted, and he puts it in himself.
+
+**Close-read it.** Four words a modern reader will misread. *Regulars* means the British standing professional army, as against part-time militia; it is a category before it is an insult. *Insult* in 1775 is wider than today's word and reaches assault as well as affront, so in Parker's conditional it covers being set upon rather than being spoken to rudely. *Molest* means to interfere with, with no sexual sense. *Meddle or make with* is an idiom meaning to have anything to do with. And *of lawful age* is a formula establishing competence to swear, not a fact about Parker.
 
 Notice what the document does not say. Parker does not say he saw the first shot.
 
 ### The second document
 
-> I instantly called to the soldiers not to fire, but surround and disarm them, and after several repetitions of those positive orders to the men, not to fire, etc. some of the rebels who had jumped over the wall fired four or five shots at the soldiers, which wounded a man of the Tenth and my horse was wounded in two places, from some quarter or other, and at the same time several shots were fired from a meeting house on our left. Upon this, without any order or regularity, the Light Infantry began a scattered fire, and continued in that situation for some little time, contrary to the repeated orders both of me and the officers that were present.[3]
+> When I arrived at the head of the advance Company, two officers came and informed me, that a man of the rebels advanced from those that were assembled, had presented his musket and attempted to shoot them, but the piece flashed in the pan. On this I gave directions to the troops to move forward, but on no account to fire, or even attempt it without orders; when I arrived at the end of the Village, I observed drawn up upon a Green near 200 rebels; when I came within about 100 yards of them, they began to file off towards some stone walls on our right flank. The Light Infantry, observing this, ran after them. I instantly called to the soldiers not to fire, but surround and disarm them, and after several repetitions of those positive orders to the men, not to fire, etc. some of the rebels who had jumped over the wall fired four or five shots at the soldiers, which wounded a man of the Tenth and my horse was wounded in two places, from some quarter or other, and at the same time several shots were fired from a meeting house on our left. Upon this, without any order or regularity, the Light Infantry began a scattered fire, and continued in that situation for some little time, contrary to the repeated orders both of me and the officers that were present.[3]
 
 **Source it.** Major John Pitcairn of the Royal Marines, commanding the light infantry companies at the head of the column, writing from Boston on 26 April 1775 to General Thomas Gage, his commander-in-chief and the governor of Massachusetts. His first line says why: "As you are anxious to know the particulars ... agreeable to your desire". So: a subordinate's report, written at his superior's request, by the officer whose own conduct is in question, at the moment his superior needed a version to send to London.[3]
 
 That is the mirror of Parker's position, one day later, and it is why these two are worth putting side by side. Neither is the disinterested one.
 
-**Close-read it.** *Rebels* is the Crown's legal description of subjects in armed resistance; like *Regulars* it classifies before it abuses. *The Tenth* is the 10th Regiment of Foot. *Light Infantry* were the flank companies sent ahead. *File off* is a drill term for moving away in column, not running. *The meeting house* is the town's church, which stood on the Common and served as its hall.
+**Close-read it.** *Rebels* is the Crown's legal description of subjects in armed resistance; like *Regulars* it classifies before it abuses. *The Tenth* is the 10th Regiment of Foot. *Light Infantry* were the flank companies sent ahead. *File off*, in the paragraph above, is a drill term for moving away in column rather than fleeing. *The meeting house* is the town's church, which stood on the Common and served as its hall.
 
-And the clause a reader skims: "from some quarter or other". Pitcairn is conceding he does not know where the shots came from.
+And now the two clauses a reader skims.
+
+The first is where his own case is weakest, and it is in the part most summaries leave out. The claim that a militiaman tried to fire first does not come from Pitcairn. Two officers "came and informed" him of it, and he was not there. That is exactly the sourcing question this lesson is about, asked of the British document, and Pitcairn has handed it to you himself.
+
+The second is "from some quarter or other". Read it carefully and see what it attaches to. Not the four or five shots, which he assigns without hesitation to men who had jumped the wall, but his own horse's two wounds, which he cannot place. He is certain about the accusation and uncertain about the injury to himself, and that is the reverse of what an invented account would do.
 
 :::predict Before the corroboration. Each man names the other side by a word the other side would reject: Parker writes "Regular Troops", Pitcairn writes "rebels". What is each word doing, and what should the reader do about it?
-Each word settles the legal question in its author's favour before any facts arrive. "Regulars" makes the British a foreign standing army in somebody else's country. "Rebels" makes the militia criminals in arms against their lawful sovereign. Neither is a neutral description and neither is a slur; both are the technical term from one side's position.
+Each word settles the legal question in its author's favour before any facts arrive. "Regulars" makes the British a foreign standing army on ground that is not theirs. "Rebels" makes the militia criminals in arms against their lawful sovereign. Neither is a neutral description and neither is a slur; both are the technical term from one side's position.
 
 What you do about it is not pick one. You note that the vocabulary is itself evidence, of what each writer took the situation to be, and you use your own words for the thing when you write it up. That is lesson 10's second step arriving three lessons early.
 :::
@@ -132,14 +140,18 @@ Now the move, and the discipline is to say where exactly they diverge rather tha
 
 **They agree** that the British came to take the stores at Concord, that the militia formed on the Common, that a British officer ordered his men not to fire, that firing then happened, that eight Lexington men were killed, and that a man of the Tenth and the major's horse were hit. Two interested accounts written a day apart, from opposite sides, agreeing on all of that: the agreed material is the strongest thing either document gives you, and a reader who goes straight to the disagreement throws it away.
 
-**They diverge on one clause.** Parker says the troops fired "without receiving any Provocation therefor from us". Pitcairn says some of the rebels "who had jumped over the wall fired four or five shots at the soldiers".
+**They diverge on one clause, and it is a square contradiction.** Parker says the troops fired "without receiving any Provocation therefor from us". Pitcairn says some of the rebels "who had jumped over the wall fired four or five shots at the soldiers". Both cannot be right.
 
-Look at what each man is in a position to know. Parker had ordered his company to disperse and not to fire; his claim is about his own company, and men who had jumped over a wall are not necessarily his company. Pitcairn says the shots came from behind a wall and from a meeting house, which is to say from away from the line, and adds "from some quarter or other". **Neither man claims to have seen the first shot.** Their two statements are not even squarely contradictory, and noticing that is worth more than adjudicating them.
+What the sourcing move buys you is not a way to dissolve that. It is a precise statement of what each man was in a position to know. Parker had ordered his company to disperse and not to fire, and his sentence is a claim about his company's conduct, sworn six days later into a legal brief. Pitcairn was mounted at the head of the advance, writing seven days later to the man who needed a version for London, and his account of the very first provocation is second hand from two officers he does not name.
+
+Neither says, in those words, that he saw the first shot. No third account settles it. The disagreement is one clause wide, precisely located, and unresolved.
+
+**That is a result.** A reader who arrives at a precisely located disagreement has done something a reader who arrives at a verdict has not.
 
 :::checkpoint What is each of these two documents good evidence of, and what is each one poor evidence of? Answer in four sentences, two for each.
 Parker is strong evidence of what the Lexington command wanted on the record within a week, and of how fast the Provincial Congress moved to build a legal-looking case for London. He is weak evidence of the first shot, because he does not claim to have seen it and because he was, in effect, a defendant clearing his town.
 
-Pitcairn is strong evidence of what the British command needed to be true, and, in the phrase "without any order or regularity ... contrary to the repeated orders", of a real loss of fire discipline that he had no interest whatever in inventing. He is weak evidence of the first shot for the same reason: he places it away from the line and says he does not know where it came from.
+Pitcairn is strong evidence of what the British command needed to be true, and, in the phrase "without any order or regularity ... contrary to the repeated orders", of a real loss of fire discipline that he had no interest whatever in inventing. He is weak evidence of the first provocation, because he was not there for it and says so: two officers told him.
 
 Notice the shape of that. The thing each document is weakest about is the thing it was written to settle, and the thing each is strongest about is something neither author was trying to tell you.
 :::
@@ -150,7 +162,7 @@ Here is a third document, and it is the one worth the lesson.
 
 In 1826 Sylvanus Wood of Woburn, aged seventy-four, swore an affidavit about that morning. He had walked three miles on hearing the bell. Among other things he said:
 
-> There was not a gun fired by any of Captain Parker's company, within my knowledge. I was so situated that I must have known it, had any thing of the kind taken place before a total dispersion of our company. I have been intimately acquainted with the inhabitants of Lexington, and particularly with those of Captain Parker's company, and, with one exception, I have never heard any of them say or pretend that there was any firing at the British from Parker's company, or any individual in it, until within a year or two.[4]
+> There was not a gun fired by any of Capt. Parker's company within my knowledge. I was so situated that I must have known it, had any thing of the kind taken place, before a total dispersion of our company. I have been intimately acquainted with the inhabitants of Lexington, and particularly with those of Capt. Parker's company, and with one exception, I have never heard any of them say or pretend that there was any firing at the British from Parker's company, or any individual in it, until within a year or two. One member of the company told me, many years since, that after Parker's company had dispersed, and he was at some distance, he gave them "the guts of his gun."[4]
 
 Source it before you weigh it.
 
@@ -158,11 +170,15 @@ Source it before you weigh it.
 
 **The moment.** Lafayette's American tour of 1824 to 1825 had set off a wave of Revolutionary reminiscence and monument-building, and with it a public dispute between Lexington and Concord over which town had begun the war.
 
-**Who collected it, and this is the sting.** Wood's affidavit was printed in a book by the minister of Concord, whose subtitle states his thesis: that it was at Concord that "the first regular and forcible resistance was made to the British soldiery". He was answering a Lexington history of 1825 which had argued that Lexington men returned the British fire, and so fired the first American shots of the war. He printed a run of affidavits sworn in 1826 and 1827, mostly before the same justice of the peace, and every one of them makes the same negative point.[4]
+**Who collected it, and this is the part that changes the document.** Wood's affidavit was printed in a book by Ezra Ripley, minister of Concord, "with other citizens of Concord", whose subtitle states the thesis on the title page: that it was at Concord that "the first regular and forcible resistance was made to the British soldiery". He was answering a Lexington history of 1825 which had argued that Lexington men returned the British fire, and so fired the first American shots of the war. He printed a run of affidavits sworn in 1826 and 1827, mostly before the same justice of the peace, and every one of them makes the same negative point, three of the four adding, against Ripley's own interest, the single instance they had heard of.[4]
 
-So an affidavit that reads on its face as loyal Lexington testimony was gathered by the Concord party, to take the priority away from Lexington.
+So an affidavit that reads on its face as loyal Lexington testimony was gathered by the Concord party, to take the priority away from Lexington. Two things keep that from being a discreditable story. Ripley put his thesis on his own title page rather than hiding it, and he printed the exceptions. And a rivalry between two towns over which of them began the Revolution was an ordinary and public thing in the eighteen twenties, argued in print by respectable men, rather than a scandal.
 
-**What follows is not that the document is worthless.** It is that it is evidence of something other than what it is about. As testimony about 1775 it is late, it was solicited by an interested party into a live dispute, and it quotes speech across half a century. As evidence about 1826 it is first-rate: it shows what the Concord party was trying to establish, how the memory of that morning had been organised by then, and, in its own last clause, that the claim of American firing had surfaced only "within a year or two", which is to say in 1825.
+**What follows is not that the document is worthless.** It is that it is evidence of something other than what it is about. As testimony about 1775 it is late, it was solicited by an interested party into a live dispute, and it quotes speech across half a century.
+
+As evidence about 1826 it is first-rate: it shows what the Concord party was trying to establish and how the memory of that morning had been organised by then.
+
+And read the last two sentences together, because they show something Ripley did not need. Wood states the general denial, and then, unprompted, gives away the one instance that cuts against it, and dates it "many years since" rather than to the recent dispute. A collected affidavit that volunteers the exception to its own point is a more interesting document than a clean one, and a reader who stops at the denial misses it.
 
 That is the move. A fact-checker asks whether the document is reliable. A reader asks **what it is reliable about**, and those are different questions with different answers.
 
@@ -174,7 +190,9 @@ Two things you are entitled to know, because lesson 8 asked you to check a cours
 
 **And the British document above is the weaker half of the pair, on provenance.** Parker's deposition is held by the National Archives and its transcript is published by them. Pitcairn's letter is in a manuscript collection this course could not reach, and was printed in a 1932 edition nobody here has opened. The transcription used above is a web one that names no source, and two others like it do not agree with each other about spacing and headings.
 
-What we could do is check that the text was not invented: the British commander's own published account of the affair tracks Pitcairn's report clause by clause, which shows the letter is real. **It does not corroborate the events**, because the published account is derived from the report rather than independent of it, and a lesson on corroboration would be teaching it wrongly if it pretended otherwise.
+What we could do is check that the text was not invented. General Gage's printed account of the affair repeats Pitcairn's phrasing almost clause for clause, down to the militia beginning "to file off towards some stone walls" on the flank, which is strong evidence that the letter is real and the transcription faithful.
+
+**It does not corroborate the events.** The two are not independent: they come out of the same headquarters within days of each other, and Pitcairn's own closing line points at a third report, Colonel Smith's, that both may descend from. Which of them fed which we have not established. A lesson on corroboration would be teaching it wrongly if it presented two documents from one command as two witnesses.
 
 So: the Parker passage is verified to the archive. The Pitcairn passage is verified only to a transcription whose provenance is attested at second hand. That is a real difference in what you should let each one carry, and it is exactly the kind of thing the sourcing move exists to surface.
 
@@ -182,7 +200,7 @@ So: the Parker passage is verified to the archive. The Pitcairn passage is verif
 
 A fair question, since sourcing a 1775 deposition is not obviously a general reading skill.
 
-Abby Reisman's 2012 study is the evidence that it is. Two hundred and thirty-six eleventh-graders across five San Francisco high schools, six months, eighty-three lessons built on documents. Gains on four measures: historical thinking, factual knowledge, general reasoning, **and general reading comprehension**.[5]
+Avishag Reisman's 2012 study is the evidence that it is. Two hundred and thirty-six eleventh-graders across five San Francisco high schools, six months, eighty-three lessons built on documents. Gains on four measures: historical thinking, factual knowledge, general reasoning, **and general reading comprehension**.[5]
 
 That last one is why a primary-source lesson sits in a general reading course rather than in a history one. This course read that study at abstract level and not further, which is a limit on how much weight to put on it.
 
@@ -242,4 +260,4 @@ Lesson 10 needs this, because a question worth asking will usually have a docume
 2. Deposition of Captain John Parker, Lexington, 25 April 1775, [National Archives, identifier 595246](https://catalog.archives.gov/id/595246), Papers of the Continental Congress, Record Group 360. The passage above is verbatim from the [Archives' own transcript](https://www.archives.gov/files/education/lessons/images/parker-deposition.pdf). The 1775 document is public domain and the transcription is a work of the United States Government; the record is marked unrestricted for both access and use. The Provincial Congress's covering address, "To the Inhabitants of Great Britain", 26 April 1775, is quoted from the printing of the depositions in Peter Force's *American Archives*, fourth series, volume 2. Note that Force and the Archives transcript differ in small ways: Force modernises spelling and capitals, prints the jurat and the notarial certificate, and omits the word "molest".
 3. Major John Pitcairn to General Thomas Gage, Boston, 26 April 1775. The passage above is verbatim from the transcription at [Teaching American History](https://teachingamericanhistory.org/document/report-on-the-battles-of-lexington-and-concord/). **The provenance is attested only at second hand**, as the body of this lesson says: the manuscript is in the Gage Papers at the Clements Library and was printed by Allen French in 1932, and neither was reachable here. A faithful transcription of a public-domain manuscript carries no independent copyright, so the 1775 words are safe to quote; the site's editorial matter is theirs.
 4. Affidavit of Sylvanus Wood, 17 June 1826, printed in Ezra Ripley, *A History of the Fight at Concord* (Concord, 1827), 53 to 54, [Internet Archive](https://archive.org/details/historyoffightat00ripl), a library-sponsored scan marked not in copyright. Both the 1826 affidavit and Ripley's 1827 volume are public domain. Ripley's subtitle carries his thesis, and his book answers Elias Phinney's *History of the Battle at Lexington* of 1825. Transcriptions differ in small ways: a modernised text drops Wood's own footnote qualifying his count of the militia, which is worth knowing before quoting that count.
-5. Abby Reisman, "Reading Like a Historian: A Document-Based History Curriculum Intervention in Urban High Schools", *Cognition and Instruction* 30(1), 2012, 86 to 112. **Read at abstract level.** 236 eleventh-graders across five San Francisco high schools, six months, 83 lessons, with main effects on historical thinking, factual knowledge, general reasoning and general reading comprehension.
+5. Avishag Reisman, "Reading Like a Historian: A Document-Based History Curriculum Intervention in Urban High Schools", *Cognition and Instruction* 30(1), 2012, 86 to 112. **Read at abstract level.** 236 eleventh-graders across five San Francisco high schools, six months, 83 lessons, with main effects on historical thinking, factual knowledge, general reasoning and general reading comprehension.

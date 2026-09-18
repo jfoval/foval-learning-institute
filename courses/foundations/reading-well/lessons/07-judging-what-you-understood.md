@@ -82,7 +82,7 @@ The test is simple and it is worth applying to your own verdicts. **Can somebody
 
 Here is the part of the method that does the work. When you find an author **wrong**, you are making one of exactly four claims.[1] Three of them are grounds for saying so. The fourth is not a basis for disagreement at all, and "The wrinkle" below says what it is instead.
 
-Plenty of what a reader wants to say about a book is none of the four, and three of the four objections worked below are none of them. That is not the method failing. It is the method telling you what kind of thing you are holding.
+Plenty of what a reader wants to say about a book is none of the four. Of the four objections worked below, two are on no ground at all, one lands on a ground, and one is two claims of which only the first can be sorted. That is not the method failing. It is the method telling you what kind of thing you are holding.
 
 **The author is uninformed.** In Adler's words, "he lacks some piece of knowledge that is relevant to the problem he is trying to solve", and to make the objection stick "you must be able yourself to state the knowledge that the author lacks and show how it is relevant, how it makes a difference to his conclusions".[1] So you owe two things, not one. Notice also that this is not a criticism of anyone's character, and it is usually nobody's fault.
 
@@ -94,7 +94,7 @@ Adler's own example here is the book you worked in lesson 5. Darwin "lacked the 
 
 **The author's account is incomplete.** He has not solved all the problems he set out to solve, or has not seen all the ones his subject raises. This ground is different from the other three, and "The wrinkle" below says why.
 
-An objection that cannot be placed on one of those four is one of three things, and the worked examples below give you all three. It may be a point about the author's *support* rather than about his conclusion, which is rule 11's territory rather than the four grounds'. It may be a judgement of value, which no ground reaches and which the fourth objection below is. Or it is a report of taste, or of a prior belief you brought with you. Naming the ground, or failing to and saying which of those three you have instead, is what makes the difference visible.
+An objection that cannot be placed on one of those four is one of three things, and the worked examples below give you all three. It may be a point about the author's *support* rather than about his conclusion, which is rule 11's territory rather than the four grounds'. It may be a judgement of value, which no ground reaches, and the fourth objection below is half of one. Or it is a report of taste, or of a prior belief you brought with you. Naming the ground, or failing to and saying which of those three you have instead, is what makes the difference visible.
 
 Why does naming it help? Because each ground tells you what you would have to produce to be right. If you say the author is misinformed, you have to name the fact. If you say he is illogical, you have to point at the step. The demand for evidence is built into the category, which is why the sorting does more work than it looks like it should.
 
@@ -140,7 +140,7 @@ Sort that, and notice first that it is two claims and not one, which is why it h
 
 **The first is a claim about the world**: that in the parliament of any civilized nation a mistaken syllable does in fact fix a man's standing for ever. A ground can get hold of that. Show that it is not so, or not so for ever, or not so in any parliament, and you have found Ruskin **misinformed**, and what you owe is the fact. This course does not have that fact and will not pretend to. What it can tell you is that the ground is available and the sentence is checkable.
 
-**The second claim is "And this is right"**, and no ground reaches it. It is not uninformed, because no missing fact would change it. It is not misinformed, because it asserts nothing about the world at all. It is not incomplete, because it is not a problem left unsolved. And it is not illogical on its face, though a reader who thinks Ruskin has moved from what educated persons feel to what is right has found a step, and should say so, because that would be the third ground.
+**The second claim is "And this is right"**, and no ground reaches the judgement itself. It is not uninformed, because no missing fact would change it. It is not misinformed, because it asserts nothing about the world at all. It is not incomplete, because it is not a problem left unsolved. And it is not illogical on its face, though a reader who thinks Ruskin has moved from what educated persons feel to what is right has found a step, and should say so, because that would be the third ground.
 
 What is left, once those are used, is a judgement about whether a practice is right, and **Adler's four grounds are not built to reach judgements of that kind.**
 

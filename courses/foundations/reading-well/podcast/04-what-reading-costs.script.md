@@ -41,7 +41,7 @@ S1: In the paper's own words. For silent reading of English non-fiction most adu
 
 S2: So where does three hundred come from? Because that's the number everybody repeats.
 
-S1: The paper traces it, through Huey in nineteen oh one, Tinker's studies, a sample of twelve thousand one hundred and forty three readers, Carver, and Rayner's later reviews. And the answer is that three hundred is at the top of the measured range rather than in the middle of it. It's the figure this meta-analysis exists to correct.
+S1: The paper traces it, through Huey in nineteen oh one, Tinker's studies, Taylor's sample of twelve thousand one hundred and forty three readers, Carver, and Rayner's later reviews. And the answer is that three hundred is at the top of the measured range rather than in the middle of it. It's the figure this meta-analysis exists to correct.
 
 S2: And Tinker's own view of fast?
 
@@ -69,7 +69,7 @@ S1: The backward movements that speed-reading courses describe as wasted motion 
 
 S2: Let me test that. There are apps that show you one word at a time, in a fixed place, so your eyes never move. Eight hundred words a minute. What does the evidence predict?
 
-S1: Less than you'd get from reading the same text normally, and the gap grows as the speed rises. The technique is called RSVP, and because it removes eye movements entirely it removes the backward ones too. The summary's finding is that eliminating them generally impairs the recall accuracy of material presented at faster speeds.
+S1: Less than you'd get from reading the same text normally, and the gap grows as the speed rises. The technique is called RSVP, and because it removes eye movements entirely it removes the backward ones too. The summary's finding is that eliminating eye movements generally impairs the recall accuracy of material presented at faster speeds.
 
 S2: And notice what the problem isn't.
 
@@ -93,7 +93,7 @@ S1: Says the same thing. Comprehension falls as speed rises, and above roughly a
 
 S2: Is there any version of the claim that survives? Because that's the fair question.
 
-S1: There is, and it's worth having. These programmes do appear to train skimming, meaning getting the gist of running text quickly, and that's a real skill. It's a cousin of the survey in lesson two rather than the same thing: the survey reads a book's compressed copies, its contents page and index, while skimming in this sense reads the text itself fast.
+S1: There is, and it's worth having. These programmes do appear to train skimming, meaning getting the gist of running text quickly, and that's a real skill. It's a cousin of the survey in lesson two rather than the same thing. The survey reads a book's compressed copies, its contents page and index and blurb, while skimming in this sense reads the text itself fast. Systematic skimming, to give the survey its proper name, is one of the two sublevels of inspectional reading rather than a level of its own.
 
 S2: And what they don't deliver?
 
@@ -103,6 +103,6 @@ S2: Anything that does raise my rate?
 
 S1: One thing nobody can sell you in a weekend. Vocabulary and practice. A word you know well is processed faster than a word you half know.
 
-S2: We've left out the five reading gears and why this course won't hand them to you, the finding about screens against paper and the three conditions it comes with, and the five things people get wrong. The full lesson has all of it, with the rates drawn to one scale against the marketed claim. It's free at Foval Learning Institute dot org.
+S2: We've left out the five reading gears and why this course won't hand them to you, the finding about screens against paper and the three conditions it comes with, and the list of what people get wrong, including the inner voice and the reader who says six hundred words a minute. The full lesson has all of it, with the rates drawn to one scale against the marketed claim. It's free at Foval Learning Institute dot org.
 
-S1: Thanks for listening. Measure yourself once, and you'll never be sold a reading speed again.
+S1: Thanks for listening. Measure yourself once, before you take anyone's word for a reading speed.

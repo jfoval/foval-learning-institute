@@ -95,7 +95,7 @@ Step 4 comes a close second, because people read blurbs and do not count them as
 
 ## A survey, done in front of you
 
-The book is Charles Darwin's *On the Origin of Species*, first edition, 1859, free and legal in full at [Project Gutenberg](https://www.gutenberg.org/cache/epub/1228/pg1228.txt).[2] It is here because five of the six steps land on something, because the two that do not are instructive, and because it carries one target that Adler says has nearly disappeared.
+The book is Charles Darwin's *On the Origin of Species*, first edition, 1859, free and legal in full at [Project Gutenberg](https://www.gutenberg.org/cache/epub/1228/pg1228.txt).[2] It is here because five of the six steps land on something, because the one that returns nothing is instructive, and because it carries one target that Adler says has nearly disappeared.
 
 A note on what we are doing, so the lesson does not drift. We are surveying the book, not arguing the biology. What Darwin argues is reported here as the survey finds it.
 
@@ -149,7 +149,7 @@ You have not touched the third and fourth. Those need analytical reading, which 
 
 ## When the apparatus returns nothing
 
-Darwin's book is a generous case: five of the six steps land on something, and the two that do not are informative. Plenty of books are less generous, and the method has to survive that.
+Darwin's book is a generous case: five of the six steps land on something, and the one that returns nothing, the blurb, is informative. Plenty of books are less generous, and the method has to survive that.
 
 Open Bacon's *Essays*, which you met in lesson 1 and which is free at [Project Gutenberg](https://www.gutenberg.org/cache/epub/575/pg575.txt).[3] Run the steps.
 

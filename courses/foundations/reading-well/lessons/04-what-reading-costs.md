@@ -129,7 +129,7 @@ And the movements are not random. Rayner and colleagues describe saccades as mov
 What the summary and Brysbaert's account establish is enough for the argument. Skilled readers already run at roughly 200 to 400 words a minute. Rates above about 1,000 aren't possible without severe loss of comprehension. And, stated flatly: "an increase in reading speed is accompanied by a reduction in comprehension of the material being read".[2]
 
 :::predict A reading app shows you one word at a time, in a fixed place on the screen, so your eyes never move. It can run at 800 words a minute. What does the evidence predict about what you will remember?
-Less than you would from reading the same text normally, and the gap grows as the speed rises. The technique is called RSVP, and because it removes eye movements entirely, it removes the backward movements too. The summary's finding is that eliminating them "generally impairs the recall accuracy of material presented at faster speeds".[2]
+Less than you would from reading the same text normally, and the gap grows as the speed rises. The technique is called RSVP, and because it removes eye movements entirely, it removes the backward movements too. The summary's finding is that eliminating eye movements "generally impairs the recall accuracy of material presented at faster speeds".[2]
 
 Notice what the problem is not. It isn't that the words go by too fast to see. It's that you've lost the ability to go back, and going back is how you fix a sentence you half-understood, which is most sentences in anything hard.
 :::

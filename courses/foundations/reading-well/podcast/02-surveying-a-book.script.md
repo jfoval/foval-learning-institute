@@ -14,9 +14,7 @@ approx_minutes: 7
 
 S2: Welcome in. This is the Foval Learning Institute podcast, where the two of us talk a lesson through. I'm Haley.
 
-S1: And I'm John. Today we're in Reading Well, lesson two. Surveying a book, which is how you decide whether to read it.
-
-S1: And the claim is that there's a procedure, it takes under an hour, and almost nobody does it. Six steps, from Adler.
+S1: And I'm John. Today we're in Reading Well, lesson two. Surveying a book, which is how you decide whether to read it. And the claim is that there's a procedure, it takes under an hour, and almost nobody does it. Six steps, from Adler.
 
 S2: Before the steps. What is a survey for?
 
@@ -32,7 +30,7 @@ S1: Title page and preface. And the title page gives you the whole thesis. On th
 
 S2: That's a title and then the mechanism.
 
-S1: And then the mechanism again in other words. Underneath it sit two epigraphs, one from Whewell and one from Bacon, both saying that God works by general laws rather than by particular interventions.
+S1: And then the mechanism again in other words. Underneath the title sit two epigraphs, one from Whewell and one from Bacon, both to the effect that God works by general laws rather than by particular interventions.
 
 S2: Which tells you what?
 
@@ -52,7 +50,7 @@ S1: Fourteen chapters. Variation, first under domestication and then in nature. 
 
 S2: So I can already say where the argument is made and where it's defended.
 
-S1: Having read nothing but a list. And then the wrinkle, which is why this book was chosen. Straight after that contents page comes a second one, headed Detailed Contents, breaking every chapter into its topics in order. Chapter six alone lists transitions, the absence of transitional varieties, organs of extreme perfection, and eleven more.
+S1: Having read nothing but a list. And then the wrinkle, which is why this book was chosen. Straight after that contents page comes a second one, headed Detailed Contents, breaking every chapter into its topics in order. Chapter six alone lists transitions, the absence or rarity of transitional varieties, organs of extreme perfection, and eleven more.
 
 S2: Two contents pages.
 
@@ -64,7 +62,7 @@ S1: The index, and you read it as a list rather than looking anything up. Scan D
 
 S2: What does that tell you?
 
-S1: Before you've read a paragraph, that this is a book arguing with named contemporaries about particular cases, rather than a treatise reasoning from first principles.
+S1: Before you've read a paragraph, that this is a book engaging with named contemporaries about particular cases, rather than a treatise reasoning from first principles.
 
 S2: Step four is the blurb, and eighteen fifty nine won't have one.
 
@@ -80,7 +78,7 @@ S1: Writers say where the centre of a book is, in the introduction, and readers 
 
 S2: And step six.
 
-S1: Dip in, and never skip the last pages. Open chapter nine anywhere and you find him stating an objection against himself. Geology assuredly does not reveal any such finely graduated organic chain; and this, perhaps, is the most obvious and gravest objection which can be urged against my theory.
+S1: Dip in, and never skip the last pages. Open chapter nine anywhere and you find him stating an objection against himself, and he writes this. Geology assuredly does not reveal any such finely graduated organic chain; and this, perhaps, is the most obvious and gravest objection which can be urged against my theory.
 
 S2: He says that about his own book.
 

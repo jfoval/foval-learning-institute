@@ -184,23 +184,23 @@ the debt is.
   **Two paragraphs above that one, Ruskin states Adler's fifth rule and Adler's ninth**, and any
   lesson contrasting the two men has to reckon with it: "be sure that you go to the author to get at
   *his* meaning, not to find yours. Judge it afterwards if you think yourself qualified to do so; but
-  ascertain it first." The same passage carries the miner figure, in which "the metal you are in
-  search of being the author's mind or meaning, his words are as the rock which you have to crush and
-  smelt in order to get at it", so for Ruskin a word is the material rather than the destination.
+  ascertain it first." The paragraph immediately before the extract carries the miner figure, in which "the metal you
+  are in search of being the author's mind or meaning, his words are as the rock which you have to
+  crush and smelt in order to get at it", so for Ruskin a word is the material rather than the destination.
   After the cut he tells the reader to get good dictionaries and hunt a word through its languages,
   wanting the meaning "which in a good writer's work it must still bear". **The difference between
   Ruskin and Adler is one of route rather than of destination**, and a draft of lesson 6 got this
   backwards twice, in opposite directions, before a third pass caught it.
 
-  **The class passage, for any lesson that reaches it.** After the cut, Ruskin writes that a false
+  **The class passage, for any lesson that reaches it.** In the last sentence of the cut, Ruskin writes that a false
   accent or a mistaken syllable is enough, **"in the parliament of any civilized nation"**, "to assign
   to a man a certain degree of inferior standing for ever", follows it with "And this is right", and
   then says it is right that a false Latin quantity should raise a smile in the House of Commons and
   wrong that a false English meaning should not raise a frown. **Do not drop the parliament phrase**:
   without it the sentence reads as a free-standing decree about ranking men, and three files in this
-  course had dropped it before a third pass caught it. Lesson 7 sorts that sentence and finds it
-  falls on none of Adler's four grounds, because it is a judgement of value rather than a claim about
-  what is the case. **That is the fair handling, and this course does not adjudicate the view
+  course had dropped it before a third pass caught it. Lesson 7 sorts that sentence and finds it is two claims
+  in one: a claim about what parliaments do, which the misinformed ground reaches, and "And this is
+  right", which no ground reaches because it is a judgement of value. **That is the fair handling, and this course does not adjudicate the view
   itself.**
 
 - **Three documents on the Lexington confrontation of 19 April 1775**, used in lesson 9 as the
