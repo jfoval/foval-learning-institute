@@ -17,13 +17,15 @@ Rewrite these five lines each session. Nothing else goes in this block.
   finished by the institute's own definition.
 - **Current lesson:** Reading Well lesson 2 of ten. `/draft-lesson courses/foundations/reading-well 2`,
   one lesson a session, after reading that course's `research/reviews/course-wide.md`.
-- **Current stage:** Stage 3 on content. Audio runs as a **separate track that trails it**, in Core
-  term order, at whatever the month's Gemini cap allows. `docs/PODCAST_PIPELINE.md` is the manual.
-- **Two tracks now, decided 2026-09-17** (`docs/DECISIONS.md` §2). Drafting spends tokens and
-  rendering spends money, and the two refill on different clocks, so **a course publishes when its
-  lessons pass Stage 4 and owes its episodes on the ledger.** Keep writing courses whenever there
-  are tokens; render episodes whenever there is budget. Do not hold a finished course off the site
-  waiting for audio, and do not call a course "finished" while it owes episodes.
+- **Current stage:** Stage 3 on content. Rendering trails, in Core term order, at whatever the
+  month's Gemini cap allows. `docs/PODCAST_PIPELINE.md` is the manual.
+- **The shape of the work, decided 2026-09-17** (`docs/DECISIONS.md` §2). Three states, and only
+  the last costs money. **Published:** every lesson through Stage 4, live on the site.
+  **Written:** every lesson also has a fact-checked script. **Finished:** every lesson also has an
+  episode. **The script is part of writing the course, not part of rendering it** — it is free, so
+  a course is taken all the way to *written* before the next starts, and what is left behind is a
+  pure spending step that needs only budget. Keep writing courses whenever there are tokens;
+  render whenever there is money. Never call a course finished while it owes episodes.
 - **Blocked on:** nothing. September's Gemini cap has about $4.40 left of $30, resetting on the 1st.
 - **Next action, content:** `/draft-lesson courses/foundations/reading-well 2`.
   **Next action, audio (when there is budget):**
@@ -46,14 +48,19 @@ while the manual said $2.24, and a session has to stop and reconcile them before
 its first attempt, all eight live in R2. It is the first course finished by the institute's own
 definition.
 
-Audio, in order: **Logic and Argument** (3 of 10 scripts written), then Writing Clearly, Personal
-Finance (3 scripts), Algebra Essentials, Python Basics, Bible Basics (1 script).
+Render order: **Logic and Argument**, then Writing Clearly, Personal Finance, Algebra Essentials,
+Python Basics, Bible Basics.
 
-**The seven scripts written before the settled pipeline run long**: 1,259 to 1,539 words against a
-measured band of 1,036 to 1,178. Trim each to about 1,150 when its render comes up, or accept about
-seven cents an episode and a longer run. Two of them (`bible-basics/02`, `personal-finance/01`) also
-still name the retired engine's voices in `about:`. None of this blocks a render; the gate passes
-them.
+**Scripts are the outstanding writing job, and they are free.** `npm run validate` prints the count
+every run; today it is **46 of 61 lessons with no script**: bible-basics 11, clear-writing 9,
+logic-and-argument 7, personal-finance 7, python-basics 6, algebra-essentials 6. Write them with
+`/make-podcast <lesson>`, stopping after the fact-check. Several a session is fine. Take one course
+all the way to *written* before starting the next.
+
+**The seven existing pre-settlement scripts need bringing up**, which is the same free Part A work:
+they run 1,259 to 1,539 words against a band of 1,000 to 1,200, and they ping-pong (68 turns where
+the settled shape has about 33). `/make-podcast` has the checklist. **That is the only thing to go
+back for. Lesson content on a course already through Stage 4 is done; do not re-open it.**
 
 1. **`npm run quiz` lists 18 quizzes tripping the shape heuristic** (option-length spread over 25
    characters, adjacent repeats, unused positions) without being winnable by a reader who read

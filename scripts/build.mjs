@@ -965,6 +965,34 @@ checkStatusAgreement();
 
 if (warn.length) console.warn(warn.map(w => "warn: " + w).join("\n"));
 if (errors.length) { console.error(errors.map(e => "ERROR: " + e).join("\n")); process.exit(1); }
+/* Script coverage, reported as one line rather than a warning per course.
+   A podcast script costs nothing at the API; only the render spends. So a course is written when
+   every lesson is at standard AND every lesson has a fact-checked script, and rendering trails
+   behind at whatever the month's budget allows (DECISIONS.md section 2). This line is how the
+   gap stays visible without a warning nobody can clear today. It never fails the build: the
+   thing that fails is an audio stamp with no script beside it, which checkAudio already does. */
+function scriptCoverage() {
+  let lessons = 0, scripts = 0;
+  const short = [];
+  for (const school of fs.readdirSync(COURSES_DIR, { withFileTypes: true }).filter(d => d.isDirectory())) {
+    for (const cdir of fs.readdirSync(path.join(COURSES_DIR, school.name), { withFileTypes: true }).filter(d => d.isDirectory())) {
+      const dir = path.join(COURSES_DIR, school.name, cdir.name);
+      let meta;
+      try { meta = yaml.load(fs.readFileSync(path.join(dir, "course.yaml"), "utf8")); } catch { continue; }
+      if (!meta || meta.status !== "published") continue;
+      let files = [];
+      try { files = fs.readdirSync(path.join(dir, "lessons")).filter(f => f.endsWith(".md")); } catch { continue; }
+      const have = files.filter(f => fs.existsSync(path.join(dir, "podcast", f.replace(/\.md$/, ".script.md")))).length;
+      lessons += files.length; scripts += have;
+      if (have < files.length) short.push(`${meta.id} ${files.length - have}`);
+    }
+  }
+  if (lessons) console.log(scripts === lessons
+    ? `ok: ${scripts} of ${lessons} lessons have a podcast script`
+    : `scripts: ${scripts} of ${lessons} lessons have one; ${lessons - scripts} to write (free at the API) -> ${short.join(", ")}`);
+}
+scriptCoverage();
+
 if (CHECK) { console.log(`ok: ${courses.length} courses, ${courses.reduce((n, c) => n + c.lessons.length, 0)} lessons`); process.exit(0); }
 
 /* ---------- mirror the source site into dist/ ----------

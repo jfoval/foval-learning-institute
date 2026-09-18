@@ -11,6 +11,35 @@ Older entries refer to `docs/BACKLOG.md`, which was split on 2026-09-09 into `do
 unstarted work) and this file. Its section numbers survive only in those entries and in a few
 split-seam comments inside Bible Basics lessons, which point at `docs/DECISIONS.md` §5.
 
+## 2026-09-18 — A course has three states, and only the last one costs money
+
+Written the same day as the entry below and refining it. John's correction: the podcast **script**
+belongs to writing the course, not to rendering it. Writing one costs nothing at the API; only the
+render spends. Sorting it under "podcast" left every course half-made, with a free piece of work
+deferred behind a budget it does not need.
+
+So the definition is three states, not two. **Published:** every lesson through Stage 4, live on
+the site. **Written:** every lesson also has a fact-checked script. **Finished:** every lesson also
+has an episode. A course is taken all the way to *written* before the next one starts, and what is
+left behind is a pure spending step that needs only budget and no context.
+
+- Root `CLAUDE.md` rule 6, `docs/DECISIONS.md` §2 and `docs/QUEUE.md` all say it.
+- **`npm run validate` prints the gap**: one line, the outstanding script count per published
+  course, never a failure. One line rather than a warning per course, because a warning nobody can
+  clear today trains everyone to ignore the output. Today it reads 46 of 61 lessons with no script.
+- **`/make-podcast` is split into two halves.** Part A, write and fact-check, is free, and several
+  in a session is fine. Part B, render, spends and stays one at a time. The command used to read as
+  one flow ending in a render, which is why script-writing kept being treated as spending.
+
+**The seven pre-settlement scripts get brought up as Part A work**, with a checklist in the command:
+length (they run 1,259 to 1,539 against a 1,000 to 1,200 band), turn shape (`logic-and-argument/02`
+has 68 turns where the settled shape has about 33, and short turns make the hosts sound like a
+quiz), and two `about:` fields still naming the retired engine's voices. **That is the only thing to
+go back for.** The course process settled before the podcast prompt did, so lesson content on a
+course already through Stage 4 is done and is not re-opened.
+
+---
+
 ## 2026-09-18 — Audio gates "finished", not "published", and a docs pass over the dist/ move
 
 **The decision.** John set the plan out directly: writing a course spends tokens and rendering its

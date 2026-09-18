@@ -57,14 +57,19 @@ and rendering its episodes costs money, and the two budgets refill on different 
 finished lessons off the site until their audio is paid for spends the scarce budget to withhold
 the plentiful one.
 
-So:
+So a course has three states, and the line between the second and third is the line between
+tokens and money:
 
-- **A course goes live when every lesson has passed Stage 4.** `status: published`, TAXONOMY row
-  updated in the same commit, no audio required and no sign-off gate. Drafting runs as far ahead
-  as there are tokens for it.
-- **A course is not *finished* until every lesson has an episode.** That word keeps its meaning,
-  and `curriculum/audio-debt.yaml` keeps measuring the gap. Do not call a course finished, in the
-  queue or anywhere else, while it owes episodes.
+- **Published: every lesson through Stage 4.** `status: published`, TAXONOMY row updated in the
+  same commit, no audio required and no sign-off gate. Drafting runs as far ahead as tokens allow.
+- **Written: every lesson also has a fact-checked script.** **The script belongs to writing the
+  course, not to rendering it.** Writing one costs nothing at the API; only the render spends. So
+  a course is taken all the way to written before the next one starts, and what is left behind is
+  a pure spending step that needs no thought and no context, just budget. `npm run validate`
+  prints the outstanding script count per published course so the gap is visible.
+- **Finished: every lesson also has an episode**, rendered, uploaded and stamped. That word keeps
+  its meaning, and `curriculum/audio-debt.yaml` keeps measuring the gap. Do not call a course
+  finished, in the queue or anywhere else, while it owes episodes.
 - **The debt file may now grow**, which the ratchet in its header previously forbade outside a
   reset. A newly published course adds its lesson count in the same commit that publishes it. The
   ratchet still holds per course: an existing entry may only shrink. Adding a new course is not

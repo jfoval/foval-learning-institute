@@ -61,13 +61,16 @@ repo as Markdown; a build script compiles it into a static site. Read this file,
    sign-off gate: a course goes live once its lessons have passed Stage 4 and the voice pass, and
    improves afterwards through the feedback loop. The build ships only `status: published` courses.
    Never hold a course for John to review. `npm run validate` fails if the two disagree.
-6. **Audio gates "finished", not "published".** A course goes live when every lesson has passed
-   Stage 4: set `status: published`, no audio required. A course is not **finished** until every
-   lesson has an episode rendered, uploaded and stamped, and that word is not used loosely.
-   `npm run validate` fails on a published course that owes more episodes than
-   `curriculum/audio-debt.yaml` records, so **a course being published adds its lesson count to
-   that file in the same commit**. An existing entry may still only shrink. Drafting runs ahead as
-   far as tokens allow; episodes trail it in Core term order as budget allows.
+6. **A course has three states, and only the last one costs money.**
+   **Published:** every lesson through Stage 4. It goes live; no audio required.
+   **Written:** every lesson also has a fact-checked podcast script. **The script is part of
+   writing the course, not part of rendering it** — it costs nothing at the API, so a course is
+   not left half-made waiting on a budget. A course you are working on is not put down until it is
+   written, and `npm run validate` prints how many scripts each published course still owes.
+   **Finished:** every lesson also has an episode rendered, uploaded and stamped. That word is not
+   used loosely. Rendering trails the writing in Core term order at whatever the month's budget
+   allows, and `curriculum/audio-debt.yaml` counts the gap: publishing a course adds its lesson
+   count there in the same commit, and an existing entry only shrinks.
    `docs/DECISIONS.md` §2 has the reasoning.
 7. **Commit messages:** short imperative subject; body says what changed and why. Content commits
    name the course and lesson.

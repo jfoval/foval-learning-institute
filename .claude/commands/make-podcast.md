@@ -1,11 +1,23 @@
 ---
-description: Stage 6. Write, fact-check, render, and publish one lesson's podcast episode
+description: Stage 6. Write and fact-check a lesson's podcast script (free), and render it when there is budget
 argument-hint: <path/to/lesson.md>
 ---
 Produce the podcast episode for the lesson at `$ARGUMENTS`. The episode is a two-host
 conversation: S1 is **John**, the teaching voice; S2 is **Haley**, the curious one. The
 engine is Gemini 2.5 Pro TTS on Google's own API, the whole episode in one call, about
-$0.22. John is the Charon voice and Haley is Aoede. One episode per session.
+$0.22. John is the Charon voice and Haley is Aoede.
+
+**This command has two halves and they are not done at the same time.**
+
+**Part A, the script: free, and part of writing the course.** Steps 1 and 2 below cost nothing at
+the API. A course is not *written* until every lesson has a fact-checked script, so take a course
+all the way there before starting the next one. **Several scripts in a session is fine**, because
+nothing is being spent and each one is a short piece of work against a settled lesson. Stop after
+step 2 unless there is budget and John has said to render.
+
+**Part B, the render: money, and it trails.** Steps 3 to 5 spend about $0.22 an episode against a
+monthly cap. **One render at a time, and never in a loop.** This half needs no thought and no
+context beyond a ready script, which is the point of getting Part A done first.
 
 **Read `docs/PODCAST_PIPELINE.md` before spending anything.** It carries the measured cost,
 the order courses are to be rendered in, and the five rules that exist because about $25 went
@@ -13,8 +25,8 @@ out in one afternoon on 2026-09-17. The short version of those rules: never send
 or `seed`, always cap `maxOutputTokens`, use curl not fetch, **never re-send automatically**,
 and one request at a time. They are enforced in `scripts/podcast.mjs`; do not work around them.
 
-**Gate first: the lesson must be settled.** Podcast only after the Stage 4 review, the
-voice pass, and the media pass are done, never before, so audio is not paid for twice.
+**Gate first: the lesson must be settled.** Write the script only after the Stage 4 review and
+its voice checks, never before, so a script is not written twice against a lesson that moves.
 Check the lesson's `research/reviews/<lesson-id>.md` and the course status. If the lesson is not settled, stop
 and say what is still owed. Also run `node scripts/podcast.mjs plan $ARGUMENTS` — if an
 episode is already live and stamped, stop.
@@ -61,6 +73,25 @@ is preserved if the lesson's course teaches from one. Verdict: PASS, PASS WITH N
 them), or FAIL (list findings)." Fix every finding in the script file. Then, and only
 then, add the `checked:` frontmatter entry recording the date, the verdict, and that all
 findings were fixed. `scripts/podcast.mjs` refuses to render a script without it.
+
+### Checking a script that already exists
+
+Seven scripts were written before the podcast setup settled, under `logic-and-argument/`,
+`personal-finance/` and `bible-basics/`. They are not wrong, but they are not at the current
+standard, and bringing one up is Part A work: free, and part of writing that course. **This is
+script work and it is the only thing to go back for. Do not re-open lesson content on a course
+that is already through Stage 4.** What to look for:
+
+- **Length.** They run 1,259 to 1,539 words against the measured band of 1,000 to 1,200. Trim to
+  about 1,150.
+- **Turn shape.** They ping-pong: `logic-and-argument/02` has 68 turns where the settled shape has
+  about 33, with teaching turns up to 100 words. Short turns make the hosts sound like a quiz.
+  Merge John's fragments into whole explanations and let Haley interrupt where she has a real
+  question.
+- **Stale `about:`.** `bible-basics/02` and `personal-finance/01` still name the retired engine's
+  voices ("the Carter voice", "the Alice voice"). They are Charon and Aoede.
+
+A trimmed script needs its fact-check run again, because the cuts are new text.
 
 **3. Render, upload, stamp.**
 
