@@ -1,0 +1,95 @@
+# What is checked, what is not, and who checks it
+
+Written 2026-09-18, after John asked four times in one session whether the system was sound and got
+four answers that were each followed by another finding. The findings were real. The problem was
+that nobody had written down **what had been checked**, so every answer meant "sound as far as I
+happened to look", and each new look found a new dimension nobody had looked at before.
+
+This file is the map of the territory. When you want to know whether something is verified, read
+this rather than asking. When you add a check, add its row. When you find a defect in a dimension
+marked "checked", the check is wrong and fixing the check comes before fixing the defect.
+
+**The rule that follows from it:** a claim that the repo is in good shape means *every row below is
+green and the human rows have been done recently*. Nothing else counts as an answer.
+
+---
+
+## Checked by a script, every run
+
+These fail or warn automatically. Nobody has to remember them.
+
+| What | Enforced by | Notes |
+|---|---|---|
+| Course record fields, `status` vs its TAXONOMY row, `sensitive_domain`, `standpoint` | `npm run validate` | Fails the build |
+| TAXONOMY ↔ core-path agreement, every course placed in a term | `npm run validate` | No elective tier by design |
+| Em dashes, spaced en dashes, CR line endings, ESV quotations | `npm run validate` | Fails on published, warns on drafts |
+| `:::` blocks unclosed, nested, or with text on the fence | `npm run validate` | |
+| SVG: dark/light hardcoded fills, labels under 15px, labels past the viewBox, blank lines inside `<svg>`, two tokens that are the same colour in one theme | `npm run validate` | Five distinct routes have got past earlier versions; `/review-lesson` lists them |
+| Self-checks that print their own answer in prose | `npm run validate` | |
+| Citations to works SOURCES.md marks unread | `npm run validate` | |
+| A `[n]` marker with no Sources entry; a majority of sources never cited | `npm run validate` | Added 2026-09-18 |
+| Bodies with no links | `npm run validate` | |
+| A published course owing more episodes than the debt ledger allows, and the ledger's ratchet | `npm run validate` | Tested, because it broke twice on the day it was written |
+| An `audio:` stamp with no fact-checked script beside it | `npm run validate` | |
+| Script coverage per published course | `npm run validate` | One summary line, never a failure |
+| The lints themselves still fire | `npm test` | One fixture per check |
+| The spend guards in `podcast.mjs` | `npm test` | Added 2026-09-18; see below |
+| Build runs and the site compiles | CI, `.github/workflows/validate.yml` | |
+
+## Checked by a script, run deliberately
+
+Network, slow, or heuristic. A gate would get them weakened or routed around.
+
+| What | Command | Last run |
+|---|---|---|
+| State of every course, and the next action for each | `npm run state` | Every session start |
+| Every external link in every lesson | `npm run links` | 2026-09-18: 482 links, 7 dead |
+| Quizzes winnable by shape alone; explanations contradicting their own key | `npm run quiz` | 2026-09-18: 18 flagged, undecided |
+| Measured reading time vs the `minutes:` field | `npm run minutes` | 2026-09-18: 62 lessons, 0 materially out |
+| The site in both themes at both widths | `npm run shots` | **Never run in a review. See below.** |
+
+## Checked once, by hand, and recorded
+
+Not automated, because automating them is worth less than the check cost. Re-run when the thing
+they cover changes.
+
+- **Internal links in the built site** — 441 checked, 0 dead, 2026-09-18.
+- **Every reference in the instruction surface** (paths, `npm run` targets, slash commands, `§`
+  cross-references) — clean 2026-09-18. The one-off script is not kept: it produced 29 hits and all
+  29 were false positives, and a check nobody trusts is worse than none.
+- **Assessments present on every published course** — 7 of 7, two each, 2026-09-18.
+- **The render path end to end** — dry run, 2026-09-18.
+
+## Not checked by anything, and cannot be
+
+This is the real boundary. Everything here depends on a person or a reviewing agent, and no green
+build says anything about it.
+
+- **Whether a lesson teaches well.** Depth, worked examples, whether a reader can do something
+  afterwards they could not before. `/review-lesson` pass 1.
+- **Whether a lesson is true.** `/review-lesson` pass 2 and `/fact-check`. The linter checks that a
+  citation resolves, never that it supports the claim.
+- **Whether a lesson is fair.** `/neutrality-audit` and `/review-lesson` pass 3.
+- **Whether a course covers enough.** Nothing checks scope. This is how Python Basics ended up
+  assuming a terminal it never teaches: its outline froze the course at the six lesson files the
+  live URLs already used, and every later review looked at the lessons rather than the shape.
+  **When an outline inherits its shape, make it justify the shape, not just the contents.**
+- **Whether an episode sounds right.** The gate measures level, fade, both voices, length and
+  pitch. It cannot hear a bad reading. John listens.
+- **Whether the site is usable on a phone.** `npm run shots` renders it; somebody has to look.
+- **Whether a learner gets anything out of it.** The feedback form, and John reading a lesson as a
+  learner. **This is the only human check in the pipeline and it has never been done.**
+
+## Known gaps in this file's own coverage
+
+Honest list, so the next person does not have to rediscover them.
+
+- **`podcast.mjs`'s audio gate is untested.** The spend guards now have tests; the gate that
+  measures a returned MP3 (level, fade, both voices, length, pitch match) does not, because testing
+  it needs fixture audio. It has caught real defects in use, and it was wrong once in a way John's
+  ear caught and the code did not (an octave error letting a one-voice episode pass a two-voice
+  check). Worth fixture audio if it ever fails silently again.
+- **`npm run shots` has never been run as part of a review.** The site is checked by building it,
+  not by looking at it.
+- **No check reads a quiz answer for correctness**, only its shape. `check-quiz-letters.cjs`
+  catches an explanation that contradicts its own key, which is not the same thing.

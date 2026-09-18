@@ -17,6 +17,9 @@ repo as Markdown; a build script compiles it into a static site. Read this file,
   Do not restate their rules here.
 
 ## Read when the task calls for it, not before
+- `docs/VERIFICATION.md` — **what is checked, what is not, and who checks it.** Read it before
+  telling John anything is sound: "sound" means every row there is green, not that the last thing
+  you looked at was fine. Add a row when you add a check.
 - `docs/DECISIONS.md` — what is settled and must not be re-opened, with the reasoning. Check it
   before asking John anything.
 - `docs/CHANGELOG.md` — what has shipped. Check here before rebuilding something that is done.

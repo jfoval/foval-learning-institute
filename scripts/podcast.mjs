@@ -63,7 +63,10 @@ import path from "node:path";
 import { execFileSync, spawnSync } from "node:child_process";
 import { fileURLToPath } from "node:url";
 
-const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
+// FOVAL_ROOT points this at another tree, the same as build.mjs and state.mjs. scripts/tests/
+// uses it to run the spend guards over a fixture: this is the only code here that costs money,
+// and until 2026-09-18 none of its guards had a test.
+const ROOT = process.env.FOVAL_ROOT ? path.resolve(process.env.FOVAL_ROOT) : path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const BUCKET = "foval-audio";
 const PUBLIC_BASE = "https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev";
 const MODEL = "gemini-2.5-pro-preview-tts";

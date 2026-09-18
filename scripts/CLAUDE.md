@@ -130,6 +130,6 @@ runs is not a check**, which is why both quiz scripts now have an `npm` name.
   silence), always cap `maxOutputTokens`, curl rather than `fetch` (which abandons a response after
   five minutes while Google keeps billing), never re-send automatically, one request at a time.
 - The rest of the guards: dry-run by default, no render without a `checked:`
-  fact-check entry in the script frontmatter, a $2 cost cap without `--force`, a pitch-band voice
+  fact-check entry in the script frontmatter, a $0.60 worst-case cost cap without `--force`, a pitch-band voice
   check after every render, and an upload that verifies the public URL answers before anything is
   stamped into a lesson. A stamped URL that 404s is worse than no audio.
