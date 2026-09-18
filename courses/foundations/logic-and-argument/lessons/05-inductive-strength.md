@@ -1,6 +1,7 @@
 ---
 title: "Inductive strength: samples, analogies, causes, and best explanations"
 minutes: 75
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/foundations/logic-and-argument/05-inductive-strength.mp3
 objectives:
   - Compare deductive validity with inductive strength, and explain why new evidence can weaken a strong argument but never a valid one
   - Evaluate a generalisation from a sample by its size and representativeness, and an argument from analogy by the relevance of its similarities
