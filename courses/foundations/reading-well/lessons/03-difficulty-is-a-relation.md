@@ -1,6 +1,6 @@
 ---
 title: Why the same page is easy for one reader and impossible for another
-minutes: 45
+minutes: 50
 objectives:
   - Explain why difficulty is a relation between a text and a reader rather than a property of the text
   - Identify, in a passage that defeated you, whether the obstacle was vocabulary, missing background or syntax
@@ -48,21 +48,42 @@ quiz:
     explain: The hard text is hard because of what it assumes, and an easier text on the same subject is how you come to have it, which is D. A prescribes more of the thing that already failed. B is the rereading habit How to Learn Anything shows is a poor way to build knowledge, and rereading cannot supply what the text never says. C pretends the two have the same expected outcome, which is the question the lesson answers.
 ---
 
-Here is a paragraph of ordinary English. Every word in it is a word you know.
+Here is a real document in ordinary English, and you can [open the page it comes from](https://api.parliament.uk/historic-hansard/commons/1875/jun/08/resolution) in about a minute.
 
-> He came round the wicket and got one to leave her off a length, and she followed it and edged to second slip, who put it down. Two overs later the captain brought on the off-spinner, set a leg slip, and she was caught off the glove for eleven.
+On the evening of 8 June 1875, Sir John Hay rose in the House of Commons to ask the Government to open talks with other countries about the international rules for preventing collisions at sea, so as to reduce, in the words of his motion, "the lamentable loss of life now arising from collisions at sea". Then this happened. What follows is the entire remaining record of that evening.
 
-If you follow cricket, you have just read a small story with a beginning and an end, and you can say who did what and why the captain made the change he made.
+> The hon. Baronet was proceeding to address the House, when—
+>
+> Notice taken, that 40 Members were not present; House counted, and 40 Members not being present,
+>
+> House adjourned at ten minutes after Nine o'clock.[1]
 
-If you do not, you read every word and got nothing. Not a vague impression: nothing. You cannot say who was out, or how, or whether eleven is a lot.
+So what happened?
 
-Now notice what did not cause that. No word in the paragraph is technical in the sense of being unfamiliar. Round, wicket, length, followed, edged, slip, overs, captain, glove. You know all of them.
+If you know how the Commons works, you have just read a small story with a beginning and an end, and a rather shocking one.
+
+If you do not, you have read something that looks like routine housekeeping. A man started speaking, there were not many people in, everybody went home early. That is a perfectly sensible reading of those words. It is also wrong in every part that matters.
+
+Now notice what did not cause the difficulty. There is no unfamiliar word in that passage. Notice, taken, present, counted, adjourned, Members, House. Two items need a gloss and neither is hard: *hon.* is short for *honourable*, and a *Baronet* is a title. Nor is any of it a technical word wearing ordinary clothes, the way *slip* and *over* are in cricket writing. Counted means counted. Adjourned means the meeting ended.
+
+What you were missing is not a word. It is what each of those plain facts implies, and none of it is on the page.
+
+- Forty is the quorum. Below forty the House cannot transact business at all. So the sentence is not a remark about attendance. It is the meeting ceasing to exist.
+- "Notice taken" is somebody's deliberate act. Any member present may stand and point out that the House is inquorate, and a member who does that is usually a member who wants this particular debate stopped.
+- A count-out ends the whole sitting rather than the item. Everything else on the paper that night died with it.
+- Ten past nine is early. This House regularly sat past midnight.
+- "Was proceeding to address the House" means Hay had not finished his opening speech. The motion was never debated and never voted on.
+- A private member's motion killed this way rarely gets another night.
+
+Put those six together and the story is this. A proposal to reduce deaths at sea was stopped dead by a member pointing out that the room was empty, before anyone had to speak against it or vote against it. Whether stopping it was the point, on that particular night, the record does not say, and the record not saying is the whole of what this lesson is about.
+
+The record does not report a defeat, because to the readers it was written for, nothing had gone wrong that needed reporting. It reports a room emptying. They knew what that meant.
 
 ## Difficulty is a relation, not a property
 
 This lesson is about one idea, and it changes what you do when a book defeats you.
 
-Difficulty is not a property of a text, the way length is. It is a relation between a text and a particular reader. The cricket paragraph is trivial for one reader and impenetrable for another, and the paragraph did not change.
+Difficulty is not a property of a text, the way length is. It is a relation between a text and a particular reader. Those few lines of Hansard are trivial for one reader and opaque to another, and the lines did not change.
 
 That sounds obvious when it is put that way, and almost nobody acts as though it were true. The usual response to a page that will not open is to conclude something about yourself, and the sentence people reach for is "I am a bad reader". Sometimes the honest version of that sentence is "I lack the background this text assumes", and those two diagnoses point at completely different actions.
 
@@ -72,7 +93,7 @@ Here is why background matters as much as it does.
 
 No writer writes everything down. It would be impossible, and the result would be unreadable. So every text states some things and leaves the rest to be supplied by the reader: the relations between the things named, the reason one sentence follows another, the significance of a number.
 
-My cricket paragraph never says that second slip is a fielding position, that dropping a catch gives the batter another life, that an off-spinner is a different kind of bowler from the one who came before, that a leg slip is set for a particular kind of edge, or that eleven is a low score. It assumes all of it. A reader who has it fills those gaps without noticing they were gaps.
+The Hansard page never says that forty is the quorum, that taking notice is a choice rather than an observation, that a count-out kills the whole sitting, that nine o'clock is early, or that the motion will not come back. It assumes all of it. A reader who has it fills those gaps without noticing they were gaps, which is why that reader would tell you the passage was perfectly clear.
 
 So understanding is not the passive reception of what is on the page. It is the page plus what you bring, and when what you bring is missing, you are doing a different and much harder job than the fluent reader beside you, on the same words.
 
@@ -84,7 +105,7 @@ Looking up terms helps when terms are the problem. The rest of the time it hands
 
 ## The study everybody quotes, and the reason to hold it loosely
 
-The famous demonstration is Recht and Leslie, 1988.[1] Sixty-four junior-high students were sorted two ways at once: by measured reading ability, and by how much they knew about baseball. That crossing is the whole design, because it produces a group who read well and know nothing about baseball, and a group who read poorly and know the game.
+The famous demonstration is Recht and Leslie, 1988.[2] Sixty-four junior-high students were sorted two ways at once: by measured reading ability, and by how much they knew about baseball. That crossing is the whole design, because it produces a group who read well and know nothing about baseball, and a group who read poorly and know the game.
 
 All of them read a passage describing half an inning, and then reconstructed what had happened using wooden pieces on a model field, which is one of several ways the study measured what they had taken in.
 
@@ -92,9 +113,9 @@ The result is the one the study is famous for: the poor readers who knew basebal
 
 That is a striking finding and it gets quoted constantly, usually at second hand. Mine is second hand too: I have read its abstract and the published accounts of it rather than the paper itself, and that is worth your knowing before I tell you what is wrong with it. Here is the part that usually gets left off.
 
-In 2025, Reynolds, Hattan and Markham [reviewed nineteen baseball studies](https://doi.org/10.1002/rrq.575) published between 1978 and 2018, and found that thirteen of them used the same two measures of baseball knowledge.[2]
+In 2025, Reynolds, Hattan and Markham [reviewed nineteen baseball studies](https://doi.org/10.1002/rrq.575) published between 1978 and 2018, and found that thirteen of them used the same two measures of baseball knowledge.[3]
 
-Their argument has two halves, and they are about different things. The first is about the knowledge tests: those tests "focused heavily on vocabulary and baseball trivia" rather than on understanding how the game works.[2] The second is about the reading passage, and it is the one that gets left out when this critique is summarised: "the most common baseball comprehension text was deceptively complex".[2]
+Their argument has two halves, and they are about different things. The first is about the knowledge tests: those tests "focused heavily on vocabulary and baseball trivia" rather than on understanding how the game works.[3] The second is about the reading passage, and it is the one that gets left out when this critique is summarised: "the most common baseball comprehension text was deceptively complex".[3]
 
 That second half matters here more than the first, and it cuts against me as well as against them. My whole opening move is that the words are easy and the knowledge is what is missing. If the passage at the centre of these studies was not in fact easy, then the design was not cleanly separating what a reader knew from how hard the text was, and a difference the studies read as knowledge could have been partly a difference in handling a difficult text.
 
@@ -102,11 +123,11 @@ Read that carefully, because it is easy to over-read in either direction. The re
 
 So where does that leave the claim?
 
-The reviewers answer that themselves, and it is the best evidence available for the wider claim. Their first sentence grants that links between knowledge and reading comprehension "have been widely documented for decades", and their conclusion calls for "reliance on non-baseball studies" to build the field on.[2] That is not a case against the claim. It is a case for resting the claim on something other than its famous example, made by the people best placed to know what the famous example is worth.
+The reviewers answer that themselves, and it is the best evidence available for the wider claim. Their first sentence grants that links between knowledge and reading comprehension "have been widely documented for decades", and their conclusion calls for "reliance on non-baseball studies" to build the field on.[3] That is not a case against the claim. It is a case for resting the claim on something other than its famous example, made by the people best placed to know what the famous example is worth.
 
 So the claim stands and the flagship demonstration of it is weaker than its fame. Both of those are true at once, and holding them together is a skill this course wants you to have, because you will meet the pattern constantly: a famous study, a real finding, and a gap between the two that nobody mentions when they cite it.
 
-Notice also that my cricket paragraph is open to exactly the same objection. It leans on jargon: slip, over, off-spinner. A fairer test would use plain words and hide the difficulty in the relations between them, which is what the next section does.
+This is also why the opening example of this lesson is four lines of parliamentary record rather than four lines about cricket, which was the first thing I wrote. A cricket paragraph leans on jargon, and a lesson that teaches the review's objection and then rests on an example that commits it is not teaching the objection. The Hansard lines make the harder case: not one technical word, and a newcomer still gets the evening wrong. If you want to see the same shape in a domain with no history in it at all, the checkpoint at the end of the next section is the cleanest version.
 
 :::checkpoint A friend says "the baseball study was debunked, so prior knowledge doesn't really matter". Answer in two sentences, and say what each sentence is doing.
 The first sentence concedes the narrow point: a 2025 review argues that the baseball texts test familiarity with the game's vocabulary rather than conceptual knowledge, so the study is weaker evidence than its reputation. The second sentence refuses the wide one: the claim that prior knowledge drives comprehension does not rest on that study, and a critique of one demonstration is not a refutation of the thing demonstrated.
@@ -120,7 +141,7 @@ When a passage defeats you, one of three things is usually happening. They feel 
 
 **Vocabulary.** There are words you do not know, and they are load-bearing. The signature is that you can point at them, and the test is whether a definition fixes it. If you look the word up and find yourself exactly where you were, then what you were missing was not the word. The fix, when it really is vocabulary, is a dictionary or a glossary, and it is quick.
 
-**Missing background.** You know every word and cannot say what the passage claims. The signature is the cricket paragraph: fluent reading, no meaning. The fix is not in this text. It is another text, easier, on the same subject.
+**Missing background.** You know every word and cannot say what the passage claims, or worse, you can say something confident and wrong. The signature is the Hansard page: fluent reading, and a plausible reading that misses the event. The fix is not in this text. It is another text, easier, on the same subject.
 
 **Syntax.** One particular sentence will not resolve, and you can feel yourself rereading it and losing your place. The signature is that you can restate the paragraph around it but not that sentence. The fix is structural: find the main verb, find its subject, and put the qualifications to one side.
 
@@ -177,7 +198,7 @@ So the fix is not to reread it, and it is not the dictionary either. It is to re
 :::callout One limit, stated rather than hidden
 Everything in this lesson is about reading in a language you already speak. If you are reading in a second language, all three obstacles are in play at once, and the vocabulary one is far larger and far less quick to fix than it is for a native speaker.
 
-The research this course is built on has almost nothing to say about that case. Reading rates for second-language readers are lower, and that is close to the whole of what the sources record.[4] I would rather name the gap than write as though it were not there.
+The research this course is built on has almost nothing to say about that case. Reading rates for second-language readers are lower, and that is close to the whole of what the sources record.[5] I would rather name the gap than write as though it were not there.
 :::
 
 ## What to do when the diagnosis is "missing background"
@@ -188,15 +209,15 @@ The response is to find an easier text on the same subject, survey it with the s
 
 Three things make that less painful than it sounds.
 
-It is often much less reading than it looks like from here. What you are missing is usually a small number of relations rather than a subject. The cricket paragraph needs about a page of explanation, not a season.
+It is often much less reading than it looks like from here. What you are missing is usually a small number of relations rather than a subject. The Hansard page needed six lines of explanation, not a course in constitutional history.
 
 Surveying tells you whether the easier book has what you need, in twenty minutes, before you commit to it. That is what lesson 2's procedure is for, and this is its most common use.
 
-And you have already met the rule that covers the other half of this, in lesson 2: on a first pass through a hard book, read it through without stopping to look up or ponder what you do not understand.[3] Now you know why that rule works. The first pass tells you which gaps are load-bearing, so the trip to the easier book is aimed.
+And you have already met the rule that covers the other half of this, in lesson 2: on a first pass through a hard book, read it through without stopping to look up or ponder what you do not understand.[4] Now you know why that rule works. The first pass tells you which gaps are load-bearing, so the trip to the easier book is aimed.
 
 ## What people get wrong
 
-**"I am a bad reader."** Sometimes true, and much more often a misdiagnosis of missing background. The test is the cricket paragraph: if you can read fluently and understand nothing, the problem is not the reading.
+**"I am a bad reader."** Sometimes true, and much more often a misdiagnosis of missing background. The test is the page you started this lesson with: if you can read every word fluently and still come away with the wrong event, the problem is not the reading.
 
 **"Difficulty is a property of the book."** It is a relation. This is also the mistake behind reading-ease scores, which count syllables and sentence lengths and cannot see the thing that actually made a passage hard for you. [Writing Clearly](/courses/clear-writing/01-what-happens-when-someone-reads-you/) lesson 1 carries the evidence for that, from a study of 518 readers in which reader background shaped what made a text difficult.
 
@@ -235,7 +256,8 @@ Lesson 5 is about coming to terms with an author, which is the other route to a 
 
 ## Sources
 
-1. Donna R. Recht and Lauren Leslie, "Effect of Prior Knowledge on Good and Poor Readers' Memory of Text", *Journal of Educational Psychology* 80(1), 1988, [doi:10.1037/0022-0663.80.1.16](https://doi.org/10.1037/0022-0663.80.1.16). Sixty-four junior-high students crossed on reading ability and baseball knowledge; a half-inning narrative; reconstruction with wooden pieces on a model field; poor readers with baseball knowledge matching good readers without it. **Read at abstract and secondary level**, and the study used more than one measure of what the readers had taken in, so this lesson describes the reconstruction as one of them rather than as the measure. See `research/SOURCES.md`.
-2. Dan Reynolds, Courtney Hattan and Marissa Markham, "Fair or Foul? Interrogating the Role of Baseball Knowledge in Studies of Knowledge and Comprehension", *Reading Research Quarterly* 60 (2025), e575, [doi:10.1002/rrq.575](https://doi.org/10.1002/rrq.575). **Read at abstract level**, and every phrase quoted above is from that abstract. A systematic review of nineteen baseball studies from 1978 to 2018, thirteen of which share two knowledge measures; the finding that those measures "focused heavily on vocabulary and baseball trivia"; the separate finding that "the most common baseball comprehension text was deceptively complex"; the opening concession that links between knowledge and comprehension "have been widely documented for decades"; and the closing call for "reliance on non-baseball studies".
-3. Mortimer J. Adler and Charles Van Doren, *How to Read a Book*, revised edition, 1972, on superficial reading. See lesson 2 and `research/SOURCES.md`.
-4. Marc Brysbaert, "How many words do we read per minute? A review and meta-analysis of reading rate", *Journal of Memory and Language* 109 (2019), 104047, [full text](https://gwern.net/doc/psychology/linguistics/2019-brysbaert.pdf). Cited here only for the note that reading rates in a second language are lower. That is the extent of what this course's sources say about second-language reading, and `research/SOURCES.md` records the gap as a standing weakness rather than an oversight.
+1. *Hansard*, "NAVY, RULE OF THE ROAD AT SEA. RESOLUTION", House of Commons, 8 June 1875, vol 224 cc1561-2, [historic-hansard](https://api.parliament.uk/historic-hansard/commons/1875/jun/08/resolution). Quoted verbatim from that page, including the em dash marking the interrupted speech. Sir John Hay's motion is quoted from the same page; the transcription there carries a column number inside the sentence and breaks "lamentable" across a line, which is why the motion is given in summary above with only its closing phrase quoted. Contains Parliamentary information licensed under the Open Parliament Licence v3.0, and parliamentary copyright on an 1875 record expired long ago in any case. Those two transcription artefacts are worth noticing for their own sake: a digitised record is a transcription, not the thing itself.
+2. Donna R. Recht and Lauren Leslie, "Effect of Prior Knowledge on Good and Poor Readers' Memory of Text", *Journal of Educational Psychology* 80(1), 1988, [doi:10.1037/0022-0663.80.1.16](https://doi.org/10.1037/0022-0663.80.1.16). Sixty-four junior-high students crossed on reading ability and baseball knowledge; a half-inning narrative; reconstruction with wooden pieces on a model field; poor readers with baseball knowledge matching good readers without it. **Read at abstract and secondary level**, and the study used more than one measure of what the readers had taken in, so this lesson describes the reconstruction as one of them rather than as the measure. See `research/SOURCES.md`.
+3. Dan Reynolds, Courtney Hattan and Marissa Markham, "Fair or Foul? Interrogating the Role of Baseball Knowledge in Studies of Knowledge and Comprehension", *Reading Research Quarterly* 60 (2025), e575, [doi:10.1002/rrq.575](https://doi.org/10.1002/rrq.575). **Read at abstract level**, and every phrase quoted above is from that abstract. A systematic review of nineteen baseball studies from 1978 to 2018, thirteen of which share two knowledge measures; the finding that those measures "focused heavily on vocabulary and baseball trivia"; the separate finding that "the most common baseball comprehension text was deceptively complex"; the opening concession that links between knowledge and comprehension "have been widely documented for decades"; and the closing call for "reliance on non-baseball studies".
+4. Mortimer J. Adler and Charles Van Doren, *How to Read a Book*, revised edition, 1972, on superficial reading. See lesson 2 and `research/SOURCES.md`.
+5. Marc Brysbaert, "How many words do we read per minute? A review and meta-analysis of reading rate", *Journal of Memory and Language* 109 (2019), 104047, [full text](https://gwern.net/doc/psychology/linguistics/2019-brysbaert.pdf). Cited here only for the note that reading rates in a second language are lower. That is the extent of what this course's sources say about second-language reading, and `research/SOURCES.md` records the gap as a standing weakness rather than an oversight.
