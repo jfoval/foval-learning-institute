@@ -1,6 +1,6 @@
 ---
 title: What you actually keep
-minutes: 55
+minutes: 75
 objectives:
   - Calculate the federal income tax on a given salary using marginal brackets, and explain why a raise into a higher bracket never lowers take-home pay
   - Distinguish a marginal rate from an effective rate and say which practical question each one answers
