@@ -1,6 +1,7 @@
 ---
 title: How debt really works
 minutes: 55
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/money/personal-finance/03-debt.mp3
 objectives:
   - Calculate what a month of carrying a card balance costs and explain why minimum payments barely move the balance
   - Distinguish secured from unsecured debt and apply that distinction to consolidation offers and payoff priority
