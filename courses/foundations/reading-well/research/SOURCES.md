@@ -263,6 +263,18 @@ the debt is.
     names him among the authors who promoted the 300 wpm figure, and tests his theory. Any lesson
     using the gears attributes them as a proposal, not a finding.
 
+  **What lesson 8 reads, added 2026-09-18.** It first-passes this paper live, so it also uses the full
+  heading structure, the Recommendations section and the section headed Remaining issues. **The paper
+  has nineteen substantive top-level headings**, and the three sub-headings of the General discussion
+  are written as whole declarative sentences, which is why a first pass on it gets its conclusions for
+  nothing: "Normal silent reading rate in English is 238 wpm for non-fiction and 260 wpm for fiction";
+  "There is no evidence for reading gears except for the distinction between reading and scanning";
+  "There is no need for different language processes in reading and listening". Two of the
+  sub-sections under "The origins of 300 words per minute" are bare surnames, Tinker and Carver.
+  **Read the outline off the PDF's own embedded font structure**, not off a text dump: a first
+  extraction from the two-column text gave seven headings where there are nineteen and mixed two
+  heading levels, and a draft of lesson 8 shipped that list to readers it had invited to check it.
+
 - **Keith Rayner, Elizabeth Schotter, Michael Masson, Mary Potter and Rebecca Treiman, "So Much to
   Read, So Little Time: How Do We Read, and Can Speed Reading Help?", *Psychological Science in the
   Public Interest* 17(1), 2016, 4 to 34.** **Read at summary level only**, via the
@@ -367,7 +379,13 @@ the debt is.
   three-pass method, with his own time budgets. **First pass, five to ten minutes**: read title,
   abstract and introduction carefully; read the section headings and ignore everything else; read
   the conclusions; glance over the references. Afterwards you should be able to answer the **five
-  Cs**: Category, Context, Correctness, Contributions, Clarity, and you may then choose to stop.
+  Cs**, and Keshav defines each: **Category**, what type of paper this is, a measurement paper, an
+  analysis of an existing system, a description of a research prototype; **Context**, which other
+  papers it is related to and which theoretical bases were used to analyse the problem;
+  **Correctness**, whether the assumptions appear to be valid; **Contributions**, the paper's main
+  contributions; **Clarity**, whether the paper is well written. He gives three reasons you may then
+  choose to stop: the paper does not interest you, you do not know enough about the area to
+  understand it, or the authors make invalid assumptions.
   **Second pass, up to an hour**: read with care but ignore proofs; look hard at figures, asking
   whether axes are labelled and whether error bars are shown; mark unread references. Afterwards
   "you should be able to summarize the main thrust of the paper, with supporting evidence, to
