@@ -8,44 +8,44 @@ objectives:
 quiz:
   - q: A reader understands every word of a paragraph about bond yields and cannot say what the paragraph claims. What is the most likely obstacle, and what follows for what they should do next?
     options:
-      - Vocabulary, so they should look up the technical terms before rereading
-      - Missing background, so they need the relations between the terms, which another text can give them
-      - Syntax, so they should break the sentences into their parts
-      - Reading speed, so they should slow down and read it twice
-    answer: 1
-    explain: Knowing every word and still missing the claim is the signature of missing background, because the text is leaving the relations between those words implicit, which is B. A is ruled out by the stem, since the words are known. C is a real obstacle with a different signature, which is a sentence you can paraphrase only after rearranging it. D names an adjustment that does not supply anything the reader lacks.
+      - Vocabulary, so they should look up the technical terms and then reread it
+      - Syntax, so they should take the sentences apart into their separate clauses
+      - Reading speed, so they should slow down and go through the paragraph twice
+      - Missing background, so they need the relations, which another text can supply
+    answer: 3
+    explain: Knowing every word and still missing the claim is the signature of missing background, because the text is leaving the relations between those words implicit, which is D. A is ruled out by the stem, since the words are known. B is a real obstacle with a different signature, which is a sentence you can paraphrase only after rearranging it. C names an adjustment that does not supply anything the reader lacks.
   - q: In Recht and Leslie's 1988 study, which comparison produced the result the study is famous for?
     options:
-      - Good readers beat poor readers, as reading tests predicted
-      - Poor readers who knew baseball performed as well as good readers who did not
-      - Readers who knew baseball beat readers who did not, regardless of reading ability
-      - Rereading the passage removed the difference between the groups
-    answer: 1
-    explain: The finding that made the study famous is the crossover, where knowledge compensated for measured reading ability, which is B. A is the result the study did not get, and the reason anyone cites it. C overstates it by dropping the reading-ability half of the design, which was crossed deliberately. D describes an intervention the study did not run.
+      - Poor readers who knew baseball did as well as good readers who did not
+      - Good readers beat poor readers, which is what the reading tests predicted
+      - Readers who knew baseball beat those who did not, whatever their reading ability
+      - Rereading the passage removed the difference between the two groups entirely
+    answer: 0
+    explain: The finding that made the study famous is the crossover, where knowledge compensated for measured reading ability, which is A. B is the result the study did not get, and the reason anyone cites it. C overstates it by dropping the reading-ability half of the design, which was crossed deliberately. D describes an intervention the study did not run.
   - q: The 2025 review of baseball studies argues that the texts used demand trivia and specialised vocabulary rather than conceptual knowledge. If that is right, what does it do to the claim that prior knowledge matters for comprehension?
     options:
-      - It refutes the claim, since the flagship evidence does not survive
-      - It weakens the flagship demonstration while leaving the claim standing on other evidence
-      - It leaves both untouched, because a review is not an experiment
-      - It strengthens the claim, since vocabulary is a kind of prior knowledge
-    answer: 1
-    explain: The review is about how one family of studies measured knowledge, not about whether knowledge matters, and the wider claim rests on many other lines of evidence, so B. A treats one demonstration as the whole case. C ignores that a systematic review is evidence about the studies it reviews. D is the move the review is warning against, since collapsing conceptual knowledge into vocabulary is the thing in dispute.
-  - q: Two passages defeat the same reader. In the first, she can restate each sentence but not say what the paragraph is claiming. In the second, she cannot restate one particular sentence at all until she works out which clause governs which. What are the two obstacles, in that order?
+      - It refutes the claim, since the flagship evidence does not survive the critique
+      - It leaves both untouched, because a review is not itself an experiment
+      - It weakens the flagship demonstration and leaves the claim on other evidence
+      - It strengthens the claim, since vocabulary is itself a kind of prior knowledge
+    answer: 2
+    explain: The review is about how one family of studies measured knowledge, not about whether knowledge matters, and the wider claim rests on many other lines of evidence, so C. A treats one demonstration as the whole case. B ignores that a systematic review is evidence about the studies it reviews. D is the move the review warns against, since collapsing conceptual knowledge into vocabulary is the thing in dispute.
+  - q: Two passages defeat the same reader. In the first she can restate each sentence but not say what the paragraph claims. In the second she cannot restate one sentence at all until she works out which clause governs which. What are the two obstacles, in that order?
     options:
-      - Syntax, then missing background
-      - Missing background, then syntax
-      - Vocabulary, then syntax
-      - Missing background, then vocabulary
+      - Syntax, and then missing background
+      - Missing background, and then syntax
+      - Vocabulary, and then syntax
+      - Missing background, and then vocabulary
     answer: 1
-    explain: Restating sentences and still missing the claim is the gap-filling failure, and being unable to restate one sentence until its structure is untangled is a syntax failure, so B. A reverses them. C and D both name vocabulary, which the stem rules out by having her restate the sentences.
+    explain: Restating sentences and still missing the claim is the gap-filling failure, and being unable to restate one sentence until its structure is untangled is a syntax failure, so B. A reverses the two. C and D both name vocabulary, which the stem rules out by having her restate the sentences.
   - q: A reader diagnoses missing background and decides to read an easier book on the subject first. A colleague calls this giving up. What is the answer?
     options:
-      - The colleague is right, and the reader should persist with the hard book instead
-      - The easier book supplies the gaps the hard book leaves implicit, so it is a route rather than a retreat
-      - The reader should read the hard book twice, since rereading builds the background
-      - Either approach works equally well, so it is a matter of preference
-    answer: 1
-    explain: The hard text is hard because of what it assumes, and an easier text on the same subject is how you come to have it, which is B. A prescribes more of the thing that already failed. C is the rereading habit that How to Learn Anything shows is a poor way to build knowledge, and rereading cannot supply what the text never says. D pretends the two have the same expected outcome, which is the question the lesson answers.
+      - The colleague is right, and she should persist with the hard book instead
+      - She should read the hard book twice, since rereading builds the background
+      - Either approach works about as well, so it is really a matter of preference
+      - The easier book supplies what the hard one leaves implicit, so it is a route
+    answer: 3
+    explain: The hard text is hard because of what it assumes, and an easier text on the same subject is how you come to have it, which is D. A prescribes more of the thing that already failed. B is the rereading habit How to Learn Anything shows is a poor way to build knowledge, and rereading cannot supply what the text never says. C pretends the two have the same expected outcome, which is the question the lesson answers.
 ---
 
 Here is a paragraph of ordinary English. Every word in it is a word you know.
