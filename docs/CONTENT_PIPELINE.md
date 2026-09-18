@@ -70,7 +70,13 @@ The most important stage. Claude uses web search and fetch to find and read:
 - The common misconceptions experts complain about
 - The best free resources already online, so we link rather than duplicate
 
-Output: `research/SOURCES.md`. It is not a bibliography; it is a working document that says *what each source is good for* and *what the field considers essential*. A good SOURCES.md is 1,000 to 3,000 words. Set `status: drafting` when done.
+Output: `research/SOURCES.md`. It is not a bibliography; it is a working document that says *what each source is good for* and *what the field considers essential*. A good SOURCES.md runs from about 3,000 words upward. The old figure here was 1,000 to 3,000, and
+on 2026-09-17 the eight existing files were counted against it: only Algebra Essentials (1,494) sits
+inside it, and the two deepest courses are at 17,939 (Logic and Argument) and 29,846 (Bible Basics).
+The range was describing an ambition nobody had met rather than the practice, so it now describes
+the practice. Length is not the target either way; a file that names what was read, what was not,
+and what each source establishes will land where it lands. Set `status: drafting` when done,
+**unless the course is live**, in which case see the exception below.
 
 ### Stage 2: Outline — `/outline-course <path>`
 From SOURCES.md, produce `research/OUTLINE.md`: the lesson sequence, each with objectives, key ideas, worked examples to include, misconceptions to address, exercises, and which sources it draws on. Also decide the assessments (final test, projects). Update `course.yaml` outcomes to match, except on a live course being rebuilt in place, where the course page keeps describing what it currently delivers (`docs/DECISIONS.md` §8; the command has the detail).

@@ -1,0 +1,339 @@
+# Sources: Reading Well
+
+*Stage 1 research, 2026-09-17. Written before any lesson is drafted. For each source: what it is good for, what it establishes, and how much of it was actually read.*
+
+<!-- unread: Seidenberg, Willingham, Richards -->
+
+**How to read the "read" labels below.** Every entry says whether it was read in full, in part, or at
+abstract level. That label is not decoration: a lesson may not lean on a source further than the
+label allows, and `npm run validate` fails on a lesson citing anything named in the `unread:` line
+above. Three canonical works were identified and not opened: Seidenberg's *Language at the Speed of
+Sight* (2017), Willingham's *The Reading Mind* (2017), and I. A. Richards's *Practical Criticism*
+(1929). Each is named in the scope notes at the foot of this file so the next researcher knows what
+the debt is.
+
+---
+
+## Primary texts
+
+- **Mortimer J. Adler and Charles Van Doren, *How to Read a Book: The Classic Guide to Intelligent
+  Reading* (revised edition, 1972).** **Read in full**, from the [Internet Archive scan's OCR
+  text](https://archive.org/download/howtoreadabook1972edition/How%20to%20Read%20a%20Book%20-%201972%20Edition_djvu.txt).
+  Adler published the first edition alone in 1940 and revised it with Van Doren in 1972; the book is
+  the single most-assigned text on this subject and the backbone of the course. What it gives us,
+  verbatim:
+  - **Four levels of reading**, each containing the one below: elementary, inspectional, analytical,
+    syntopical.
+  - **Inspectional reading has two sublevels.** *Systematic skimming or pre-reading* is a six-step
+    procedure: (1) title page and preface, (2) table of contents "as you would a road map before
+    taking a trip", (3) the index, estimating the range of topics and looking up crucial terms,
+    (4) the publisher's blurb, (5) the chapters that seem pivotal, reading their opening and closing
+    summary statements, (6) thumbing through, "dipping in here and there, reading a paragraph or
+    two, sometimes several pages in sequence, never more than that", and never failing to read the
+    last two or three pages. Adler's own budget for the whole procedure: "no more than a few
+    minutes, at most an hour". *Superficial reading* is the second sublevel and is one rule: "In
+    tackling a difficult book for the first time, read it through without ever stopping to look up
+    or ponder the things you do not understand right away."
+  - **Four questions a reader asks of any book**: What is the book about as a whole? What is being
+    said in detail, and how? Is the book true, in whole or part? What of it?
+  - **Fifteen numbered rules of analytical reading in three stages.** Stage I, what a book is about:
+    (1) classify by kind and subject matter, (2) state what the whole book is about with the utmost
+    brevity, (3) enumerate its major parts in order and relation and outline them, (4) define the
+    problems the author has tried to solve. Stage II, interpreting the contents: (5) come to terms
+    with the author by interpreting his key words, (6) grasp his leading propositions through his
+    most important sentences, (7) know his arguments by finding them in or constructing them out of
+    sequences of sentences, (8) determine which problems he solved and which he did not, and of the
+    latter which he knew he had failed to solve. Stage III, criticism: (9) do not begin criticism
+    until you have completed your outline and interpretation, glossed by Adler as "Do not say you
+    agree, disagree, or suspend judgment, until you can say 'I understand.'" (10) do not disagree
+    disputatiously, (11) present good reasons for any critical judgment, then the four grounds on
+    which you may disagree: (12) uninformed, (13) misinformed, (14) illogical, (15) incomplete. His
+    note on the last four is the part that gets dropped: failing in all of the first three, "you
+    must agree, at least in part".
+  - **Five steps of syntopical reading** (reading many books on one question): finding the relevant
+    passages, bringing the authors to terms, getting the questions clear, defining the issues,
+    analysing the discussion. His framing is the teachable part: "In syntopical reading, it is you
+    and your concerns that are primarily to be served, not the books that you read."
+
+  **Caution.** Adler is a philosopher writing in 1940 and 1972, not an empirical researcher. Nothing
+  in the book is measured. It is a primary source on a method, and the course should present it as
+  the best-articulated version of a craft tradition, checking it against the psychology where the
+  two touch. His reading list and his confidence about a canon are of their period and are not part
+  of what this course teaches.
+
+- **Francis Bacon, "Of Studies" (1625), in *Essays or Counsels, Civil and Moral*.** **Read in full**
+  via [Project Gutenberg](https://www.gutenberg.org/cache/epub/575/pg575.txt), public domain. One
+  page, four hundred years old, and it states this course's first lesson: "Some books are to be
+  tasted, others to be swallowed, and some few to be chewed and digested; that is, some books are to
+  be read only in parts; others to be read, but not curiously; and some few to be read wholly, and
+  with diligence and attention." Bacon glosses his own metaphor, which is what makes it usable
+  rather than merely quotable. Two other lines earn their place: "Read not to contradict and
+  confute; nor to believe and take for granted; nor to find talk and discourse; but to weigh and
+  consider", and his warning against reading "by deputy", with extracts made
+  by others, since "distilled books are like common distilled waters, flashy things". That last is a
+  1625 sentence about the book-summary industry and about asking a machine what a book says.
+
+- **Mortimer J. Adler, "How to Mark a Book", *Saturday Review of Literature*, 1940.** **Read at
+  quotation level only** (the full essay was not fetched; the wording below is widely reproduced and
+  should be verified against a scan before a lesson quotes it). The claim the lesson wants: "marking
+  up a book is not an act of mutilation but of love", and his practical caveat that you should not
+  mark a book you do not own. Useful as the primary statement of marginalia as thinking rather than
+  decoration.
+
+---
+
+## Peer-reviewed research
+
+- **Marc Brysbaert, "How many words do we read per minute? A review and meta-analysis of reading
+  rate", *Journal of Memory and Language* 109 (2019), 104047.** **Read in substantial part** (the
+  abstract, introduction and the historical sections on where the 300 wpm figure came from) from the
+  [full text](https://gwern.net/doc/psychology/linguistics/2019-brysbaert.pdf). The central numbers,
+  quoted from the abstract: 190 studies and 18,573 participants give an average silent reading rate
+  for adults in English of **238 wpm for non-fiction and 260 wpm for fiction**; oral reading, from
+  77 studies and 5,965 participants, is **183 wpm**. Individual spread: "For silent reading of
+  English non-fiction most adults fall in the range of 175 to 300 wpm; for fiction the range is 200
+  to 320 wpm." The paper's own point is that these are **lower than the 300 wpm figure everyone
+  cites**, and it traces how that number came about (Huey 1901, Tinker's Chapman-Cook studies, S. E.
+  Taylor's 12,143 readers, Carver, then Rayner's reviews). Tinker's own judgement, quoted there:
+  "even with easy material, 500 wpm is very fast reading."
+  - **Carver's five reading gears**, reported in the same paper, are the most useful teaching device
+    found in this research: memorizing 138 wpm, learning 200, normal silent reading ("rauding") 300,
+    skimming 450, scanning 650. It is a psychologist's independent arrival at Bacon's and Adler's
+    point, that reading speed is chosen from purpose. **Use it with the caveat** that Carver's
+    absolute numbers were calibrated on the inflated 300 wpm norm Brysbaert is correcting, so the
+    *ordering and ratios* are the teachable part, not the figures.
+
+- **Keith Rayner, Elizabeth Schotter, Michael Masson, Mary Potter and Rebecca Treiman, "So Much to
+  Read, So Little Time: How Do We Read, and Can Speed Reading Help?", *Psychological Science in the
+  Public Interest* 17(1), 2016, 4 to 34.** **Read at summary level only**, via the
+  [APS public summary](https://www.psychologicalscience.org/publications/speed_reading.html) and via
+  Brysbaert's account of it. The monograph itself was not opened and a lesson must not claim more
+  than these two sources support. What they establish: skilled readers already run at about 200 to
+  400 wpm; rates above 1000 wpm are not possible without severe loss of comprehension; "an increase
+  in reading speed is accompanied by a reduction in comprehension of the material being read";
+  RSVP (one word at a time in a fixed place, the mechanism behind a generation of reading apps)
+  removes eye movements, and since saccades "naturally move to the parts of text in most need of
+  processing and to move back to material that has not been adequately understood", eliminating them
+  "generally impairs the recall accuracy of material presented at faster speeds"; claims about
+  training peripheral vision founder on the fact that peripheral information "appears fuzzy and
+  unfocused". Their constructive finding is the one to teach: gains come from vocabulary and
+  practice, because word familiarity is what speeds processing. And the honest concession they make,
+  which the course must not omit: speed-reading programmes do seem to train **skimming**, which is a
+  real and useful skill, just not the one being sold.
+
+- **Sam Wineburg, "Historical Problem Solving: A Study of the Cognitive Processes Used in the
+  Evaluation of Documentary and Pictorial Evidence", *Journal of Educational Psychology* 83(1),
+  1991.** **Read through Wineburg's own account of it** in ["Probing the Depths of Students'
+  Historical Knowledge", *Perspectives on History* (AHA),
+  1992](https://www.historians.org/perspectives-article/probing-the-depths-of-students-historical-knowledge/);
+  the JEP article itself was not fetched. Eight university historians and eight strong high school
+  seniors (average GPA 3.5, average SAT 1268, four years of history) thought aloud over eight
+  documents on the Lexington confrontation of 19 April 1775: eyewitness accounts, diary entries, a
+  deposition, a textbook excerpt, and a passage from Howard Fast's novel *April Morning*. **The
+  historians ranked the textbook dead last for trustworthiness, below the novel.** Three of the
+  eight students put it at or near the top, one calling it "the facts", another "straight
+  information", an "objective" account, though it contradicted primary accounts from both sides.
+  The behavioural finding is the sentence to build a lesson around: "historians, when first given a
+  document, looked immediately to its attribution, whereas students usually began with the first
+  word in the upper left and never stopped until they reached the last word on the bottom right."
+  This study is the origin of the three heuristics now taught everywhere as **sourcing,
+  contextualization and corroboration**, to which the Stanford curriculum adds **close reading**.
+
+- **Avishag Reisman, "Reading Like a Historian: A Document-Based History Curriculum Intervention in
+  Urban High Schools", *Cognition and Instruction* 30(1), 2012, 86 to 112.** **Read at abstract
+  level.** 236 eleventh-graders across five San Francisco high schools, six months, 83 lessons. Main
+  effects on four measures: historical thinking, factual knowledge, general reasoning, **and general
+  reading comprehension**. This is the evidence that sourcing and corroboration are not a history
+  parlour trick but transfer to reading generally, which is the justification for putting a
+  primary-source lesson in a general reading course.
+
+- **Donna Recht and Lauren Leslie, "Effect of Prior Knowledge on Good and Poor Readers' Memory of
+  Text", *Journal of Educational Psychology* 80(1), 1988.** **Read at abstract and secondary level.**
+  The famous "baseball study": 64 junior-high students crossed on reading ability and baseball
+  knowledge, reading a half-inning narrative and then reconstructing it with wooden pieces on a
+  model field. Poor readers who knew baseball matched good readers who did not. **Do not teach this
+  study uncritically.** Reynolds, Hattan and Markham, "Fair or Foul? Interrogating the Role of
+  Baseball Knowledge in Studies of Knowledge and Comprehension", *Reading Research Quarterly* 60
+  (2025), e575 (**read at abstract level**), systematically reviewed 19 baseball studies from 1978
+  to 2018, found 13 using the same two knowledge measures, and argues the texts demand "trivia" and
+  specialised vocabulary rather than conceptual knowledge, being "uniquely designed to make
+  non-baseball fans appear to be poor comprehenders of that text". The underlying claim, that prior
+  knowledge is a large determinant of comprehension, is well supported from many directions; the
+  flagship demonstration is weaker than its fame. That gap is itself worth teaching.
+
+- **Pablo Delgado, Cristina Vargas, Rakefet Ackerman and Ladislao Salmerón, "Don't throw away your
+  printed books: A meta-analysis on the effects of reading media on reading comprehension",
+  *Educational Research Review* 25 (2018), 23 to 38.** **Read at abstract level.** 54 studies,
+  171,055 participants. Overall screen inferiority of Hedges' *g* = -0.21. The effect is carried
+  entirely by expository text (*g* = -0.27) and is absent for narrative (*g* = 0.01), and it is
+  significant only where participants read **under time pressure** (*g* = -0.26). The authors
+  attribute it to a "shallowing hypothesis". A 2022 meta-analysis in *Media Psychology* reaching "no
+  negative effects of reading on screen" for narrative texts is consistent with this rather than
+  contrary to it. Teach the shape, not a slogan: the medium matters most exactly where this course
+  operates, which is hard expository text read against the clock.
+
+- **Michaela Carey, Kevin Steiner and William Petri, "Ten simple rules for reading a scientific
+  paper", *PLoS Computational Biology* 16(7), 2020, e1008032.** **Read in full**, [open
+  access](https://pmc.ncbi.nlm.nih.gov/articles/PMC7392212/). Peer-reviewed, free, and written for
+  people who are not yet fluent. The ten: pick your reading goal; understand the author's goal; ask
+  six questions; unpack each figure and table; understand the formatting intentions; be critical; be
+  kind; be ready to go the extra mile; talk about it; build on it. Two honest notes we should keep:
+  there is "no correct or incorrect approach" to the order you take the sections in, and "early on,
+  it can take a long time to read one article front to back", with three readings suggested (once
+  without pressure to understand, once for comprehension, once for notes).
+
+- **S. Keshav, "How to Read a Paper" (University of Waterloo, 2007; widely circulated in *ACM
+  SIGCOMM Computer Communication Review*).** **Read in full** from the
+  [Stanford course copy](https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf). The
+  three-pass method, with his own time budgets. **First pass, five to ten minutes**: read title,
+  abstract and introduction carefully; read the section headings and ignore everything else; read
+  the conclusions; glance over the references. Afterwards you should be able to answer the **five
+  Cs**: Category, Context, Correctness, Contributions, Clarity, and you may then choose to stop.
+  **Second pass, up to an hour**: read with care but ignore proofs; look hard at figures, asking
+  whether axes are labelled and whether error bars are shown; mark unread references. Afterwards
+  "you should be able to summarize the main thrust of the paper, with supporting evidence, to
+  someone else". **Third pass**: "attempt to virtually re-implement the paper", making the same
+  assumptions and re-creating the work. Keshav is a computer scientist writing in 2007 with no
+  knowledge of Adler, and he has independently rebuilt inspectional and analytical reading. That
+  convergence is the strongest argument the course has that the levels are real rather than one
+  man's taste.
+
+---
+
+## Teaching programmes and university guidance consulted
+
+There is no widely assigned undergraduate textbook called something like "Reading Well", and that is
+a finding rather than a gap in the search. Reading is taught inside writing programmes, first-year
+seminars, library instruction, and the methods courses of history and the sciences. The three
+strongest free programmes:
+
+- **[Harvard Library, "Interrogating Texts: Six Reading Habits to Develop in Your First
+  Year"](https://guides.library.harvard.edu/sixreadinghabits).** **Read in full.** Preview,
+  annotate, outline/summarize/analyze, look for repetitions and patterns, contextualize, compare and
+  contrast. Two details worth taking: the annotation habit explicitly says to abandon highlighters in
+  favour of marginal notes and a personal symbol system, and the summarizing habit is stated as a
+  test rather than a chore, since the way to "determine that you've really gotten the point is to be
+  able to state it in your own words". Habits 1, 2, 3 and 5 map onto Adler; habit 4 is close reading
+  and habit 6 is a first step toward syntopical reading.
+
+- **[Stanford History Education Group, "Reading Like a Historian"](https://www.inquirygroup.org/history-lessons)**
+  (now the Digital Inquiry Group). **Read at description level**, not lesson by lesson. Free,
+  openly licensed, built directly on Wineburg's findings, and structured around sourcing,
+  contextualization, corroboration and close reading. The introductory lessons teach the four
+  skills on everyday material before any history content, and their "Lunchroom Fight" lesson, in
+  which students reconcile conflicting accounts of a schoolyard incident, is the clearest existing
+  demonstration that this is a general reading skill. This is the course's model for its
+  primary-source lesson and the obvious thing to link rather than rebuild.
+
+- **[Trinity College First-Year Seminar programme](https://www.trincoll.edu/fys/learning-goals/critical-reading/)
+  and [Brown's Sheridan Center on critical reading](https://sheridan.brown.edu/resources/classroom-practices/critical-reading).**
+  **Read at page level.** Useful mainly as evidence of where this subject actually lives in a
+  university, and for the recurring claim that students need to be held accountable for reading
+  through probing questions and written responses rather than assigned it and trusted.
+
+---
+
+## What the field considers essential
+
+The backbone for the outline, in build order:
+
+1. **Reading is several activities, and the first decision is which one you are doing.** Bacon's
+   tasted / swallowed / chewed, Adler's four levels, Carver's five gears. Nobody in four hundred
+   years has taught otherwise, and it is the idea most readers have never been told.
+2. **A book can be assessed before it is read.** Inspectional reading is a procedure with steps and
+   a time budget, and it is the highest-value hour in the whole course.
+3. **Understanding precedes judgement.** Adler's rule 9 and his "come to terms with the author"
+   (rule 5). Reconstructing the argument in the author's own vocabulary before agreeing or
+   disagreeing is the analytic core.
+4. **Comprehension depends on what the reader already knows.** This is why the same page is easy for
+   one person and impenetrable for another, and it is why the fix for a hard book is often another
+   book rather than more effort.
+5. **Speed is bounded, and the bound is physiological.** Fixations and saccades cap what can be
+   taken in. What is marketed as speed reading is either skimming or comprehension loss.
+6. **Different genres are read in different orders.** A research paper is not read front to back;
+   nor is a primary source, which is read from its attribution outward.
+7. **A document has an author with a purpose, and reading starts there.** Sourcing, contextualizing,
+   corroborating.
+8. **Reading with a pen is different from reading.** Marginalia, and the summary-in-your-own-words
+   test.
+9. **One question, several books.** Syntopical reading is where reading turns into thinking, and it
+   is what an essay, a decision or a purchase actually requires.
+
+## Common misconceptions
+
+- **"Reading faster is a skill I can buy."** The physiology caps it. What improves is vocabulary,
+  background knowledge and judgement about what to skip.
+- **"I read every word, so I read it properly."** Wineburg's students did exactly that and were the
+  worse readers for it. Starting at the top left and running to the bottom right is a strategy, and
+  for many documents it is the wrong one.
+- **"A textbook is more reliable than a document from the period."** The historians ranked it last.
+  Absence of an author is not objectivity.
+- **"If I did not understand it, I should read it again more slowly."** Sometimes. Adler's
+  superficial-reading rule says that for a first pass at a hard book the opposite is right: go on
+  past what defeats you.
+- **"Highlighting is studying."** Rated low utility, and it can impair inference. This course defers
+  the evidence to How to Learn Anything and teaches what to do with a pen instead.
+- **"Difficulty is a property of the book."** It is a relation between a book and a reader, mostly
+  mediated by prior knowledge.
+- **"Skimming is cheating."** It is a named level of reading with a procedure, and refusing to skim
+  is why people abandon books they could have used.
+- **"A summary is as good as the book."** Bacon in 1625: distilled books "are like common distilled
+  waters, flashy things".
+
+## Contested questions and the positions on each
+
+- **Does the medium matter? (Contested empirical, 3.1.)** Delgado and colleagues find a small screen
+  inferiority for expository text under time pressure and none for narrative. Others find no
+  difference once time is free. Nobody serious claims a large effect either way. Teach the
+  conditions, not a verdict, and note that the reader's own control over pace and re-reading may be
+  doing the work.
+- **How much does prior knowledge explain? (Contested empirical.)** Everyone agrees it matters
+  enormously; the argument is over how much of measured "reading comprehension" is really knowledge,
+  and whether the canonical demonstrations support the weight put on them (Reynolds and colleagues,
+  2025). Present the effect as well-established and the flagship study as disputed.
+- **Is Adler's canon-centred picture of reading right? (Value question.)** Adler thought there was a
+  set of great books every educated person should read and that reading them in a particular way was
+  the point of education. That is a view about what is worth reading, not a finding. The method
+  survives detached from the canon, and this course teaches the method and leaves the reading list
+  to the reader.
+- **Is speed reading wholly worthless? (Contested, leaning settled.)** The strong claims are
+  refuted. The weaker claim, that such training teaches useful skimming and reduces regressions in
+  poor readers, is not, and Rayner and colleagues concede the skimming point themselves. Say so
+  rather than overclaiming, since a learner who has taken a course will otherwise stop trusting us.
+
+## Best existing free resources (to link, not duplicate)
+
+- [Adler and Van Doren's full text at the Internet Archive](https://archive.org/details/howtoreadabook1972edition).
+- [Bacon's *Essays* at Project Gutenberg](https://www.gutenberg.org/cache/epub/575/pg575.txt), public domain.
+- [Keshav, "How to Read a Paper"](https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf), three pages.
+- [Carey, Steiner and Petri, "Ten simple rules for reading a scientific paper"](https://pmc.ncbi.nlm.nih.gov/articles/PMC7392212/), open access.
+- [Harvard Library's six reading habits](https://guides.library.harvard.edu/sixreadinghabits).
+- [Digital Inquiry Group's history lessons](https://www.inquirygroup.org/history-lessons), free and openly licensed.
+- [Brysbaert's reading-rate meta-analysis](https://gwern.net/doc/psychology/linguistics/2019-brysbaert.pdf), for anyone who wants to know where 300 wpm came from.
+- [APS summary of the speed-reading monograph](https://www.psychologicalscience.org/publications/speed_reading.html).
+
+## Open concerns about scope
+
+- **Note-taking belongs to another course.** `Note-Taking and Personal Knowledge` sits at Term 2.
+  Reading Well should teach marginalia and the notes that serve a single reading, and stop at the
+  boundary of systems for keeping notes across years. Say so in the lesson so the reader knows the
+  other course exists.
+- **How to Learn Anything owns rereading and highlighting.** Its lessons 1 and 3 teach Dunlosky's
+  utility ratings and the Roediger and Karpicke crossover in full. Reading Well cites the conclusion
+  and points at that course; it must not re-teach the evidence.
+- **Literature and poetry are barely covered here.** Adler's chapters 14 and 15 handle imaginative
+  writing and this research did not pursue them, nor Richards's *Practical Criticism* (1929), the
+  canonical work on close reading of poems. Either scope the course to expository reading and say so
+  in the course description, or accept a debt to be paid before a literature lesson is drafted. The
+  current `course.yaml` outcomes are all expository, so the honest move is to name the limit.
+- **The speed-reading monograph is unread.** Rayner and colleagues 2016 is the load-bearing source
+  for a whole lesson and only its public summary was read. Before that lesson is drafted, fetch the
+  monograph, or keep every claim inside what the APS summary and Brysbaert support.
+- **Two canonical modern books were not opened**: Willingham's *The Reading Mind* (2017) and
+  Seidenberg's *Language at the Speed of Sight* (2017). Both are about how reading works rather than
+  how to read well, so the course can stand without them, but a claim about the psychology of
+  reading beyond what is recorded above needs one of them read first.
+- **Everything about difficulty here is monolingual.** Reading rates and comprehension findings are
+  for adult native English speakers. Readers in a second language are a large part of any open
+  university's audience and this research says almost nothing about them beyond Brysbaert's note
+  that their rates are lower.
