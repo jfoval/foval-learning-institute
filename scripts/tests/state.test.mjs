@@ -111,3 +111,33 @@ test("exactly one action is proposed, never a list", () => {
   const out = run(tree());
   assert.equal((out.match(/DO THIS NOW/g) || []).length, 1, out);
 });
+
+/* The next action must not name a stage the course is not ready for. On 2026-09-19 state told a
+   session to draft lesson 1 of a course whose only research file was SOURCES.md: it tracked
+   OUTLINE.md and never looked at it. A session acts on this line without re-deriving it, so
+   naming the wrong stage sends the whole session into the wrong work. */
+test("a drafting course with no SOURCES.md is sent to Stage 1, not to drafting", () => {
+  const root = tree({ status: "drafting", lessons: 0 });
+  fs.rmSync(path.join(root, "courses", "foundations", "sample", "research", "SOURCES.md"), { force: true });
+  fs.rmSync(path.join(root, "courses", "foundations", "sample", "research", "OUTLINE.md"), { force: true });
+  const out = run(root);
+  assert.match(out, /research-course/);
+  assert.doesNotMatch(out, /draft-lesson/);
+});
+
+test("a drafting course with research but no outline is sent to Stage 2, not to drafting", () => {
+  const root = tree({ status: "drafting", lessons: 0 });
+  fs.writeFileSync(path.join(root, "courses", "foundations", "sample", "research", "SOURCES.md"), "# Sources\n");
+  fs.rmSync(path.join(root, "courses", "foundations", "sample", "research", "OUTLINE.md"), { force: true });
+  const out = run(root);
+  assert.match(out, /outline-course/);
+  assert.doesNotMatch(out, /draft-lesson/);
+});
+
+test("a drafting course with both research files is sent to drafting", () => {
+  const root = tree({ status: "drafting", lessons: 2 });
+  fs.writeFileSync(path.join(root, "courses", "foundations", "sample", "research", "SOURCES.md"), "# Sources\n");
+  fs.writeFileSync(path.join(root, "courses", "foundations", "sample", "research", "OUTLINE.md"), "# Outline\n");
+  const out = run(root);
+  assert.match(out, /draft-lesson/);
+});

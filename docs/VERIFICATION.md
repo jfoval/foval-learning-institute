@@ -33,6 +33,7 @@ These fail or warn automatically. Nobody has to remember them.
 | A published course owing more episodes than the debt ledger allows, and the ledger's ratchet | `npm run validate` | Tested, because it broke twice on the day it was written |
 | An `audio:` stamp with no fact-checked script beside it | `npm run validate` | |
 | Whether a course is *written*: a script counts only with a `checked:` entry | `npm run validate`, `npm run state` | Both counted script files until 2026-09-18, so a course with an unchecked draft beside every lesson reported as written and `npm run state` moved the session on to the next course |
+| The next action names a stage the course is actually ready for | `npm run state` | Stage 1 then Stage 2 then drafting. It tracked `OUTLINE.md` and never looked at it, so on 2026-09-19 it told a session to draft lesson 1 of a course that had only been researched |
 | Script coverage per published course | `npm run validate` | One summary line, never a failure |
 | The lints themselves still fire | `npm test` | One fixture per check |
 | The spend guards in `podcast.mjs` | `npm test` | Added 2026-09-18 |

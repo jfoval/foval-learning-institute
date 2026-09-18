@@ -210,6 +210,16 @@ function nextAction(courses, money) {
   }
   for (const c of courses) {
     if (c.next === "finished") continue;
+    // The pipeline has stages and this is the one action a session will act on without
+    // checking, so it must not name a stage the course is not ready for. On 2026-09-19 it told a
+    // session to draft lesson 1 of a course whose only research file was SOURCES.md, because it
+    // tracked OUTLINE.md and then never looked at it. Stage 1 and Stage 2 come first, in order.
+    if (c.status !== "published" && !c.sources) return { what: "research",
+      line: `/research-course courses/${c.school}/${c.id}`,
+      why: `${c.id} is the earliest term with work outstanding and has no research/SOURCES.md. Nothing can be drafted without it: courses/CLAUDE.md rule 1. Run Stage 1, then this will move you on.` };
+    if (c.status !== "published" && !c.outline) return { what: "outline",
+      line: `/outline-course courses/${c.school}/${c.id}`,
+      why: `${c.id} is the earliest term with work outstanding. Its research is done and it has no research/OUTLINE.md, so there is no plan saying how many lessons it has or what each one teaches. Run Stage 2, then this will move you on.` };
     if (c.status !== "published") return { what: "draft",
       line: `/draft-lesson courses/${c.school}/${c.id} ${c.lessons + 1}`,
       why: `${c.id} is the earliest term with work outstanding and is still drafting. Draft lesson ${c.lessons + 1}, review it in a fresh context, then keep going to the next one for as long as the budget lasts. research/OUTLINE.md says how many it has. At the last one, publish it and add its lesson count to curriculum/audio-debt.yaml.` };
