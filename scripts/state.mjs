@@ -194,6 +194,15 @@ function nextAction(courses, money) {
         line: `node scripts/podcast.mjs render courses/${c.school}/${c.id}/lessons/${ready[0]} --go`,
         why: `$${money.left.toFixed(2)} of budget is live and expires on the 1st. ${c.id} has ${ready.length} script(s) ready and no episode; the budget covers ${n} of them. Render, listen, upload, stamp, lower the debt, commit. Then run this again.` };
     }
+    /* Budget is live but nothing is ready to render. Writing a script costs nothing and is the
+       only thing that turns this month's budget into episodes, so it comes before drafting.
+       Without this the loop falls through to the next course's lessons, drafts all night, and the
+       unspent cap expires on the 1st: traced on 2026-09-18 with $3.46 left and no ready script. */
+    for (const c of courses) {
+      if (c.status !== "published" || !c.noEpisode.length || !c.noScript.length) continue;
+      return { what: "script", line: `/make-podcast courses/${c.school}/${c.id}/lessons/${c.noScript[0]}`,
+        why: `$${money.left.toFixed(2)} of budget is live and expires on the 1st, and nothing has a script ready to render. A script costs nothing at the API and is the only thing that turns budget into episodes, so it comes before drafting. ${c.id} is the earliest term owing episodes and needs ${c.noScript.length}. Write one, fact-check it, then run this again and it will tell you to render it.` };
+    }
   }
   for (const c of courses) {
     if (c.next === "finished") continue;

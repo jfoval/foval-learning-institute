@@ -77,10 +77,19 @@ test("with budget and a ready script, the one action is to render", () => {
   assert.ok(/podcast\.mjs render \S*01-lesson\.md --go/.test(out), out);
 });
 
-test("with budget but no script ready, rendering is not proposed", () => {
+test("with budget but no script ready, write a script rather than drafting", () => {
+  // The budget expires on the 1st and a script is free, so the script comes first. Without this
+  // the loop drafts all night and the unspent cap is lost.
   const out = run(tree({ scriptsFor: [] }));
   assert.ok(!/DO THIS NOW {2}\(render\)/.test(out), out);
   assert.ok(/DO THIS NOW {2}\(script\)/.test(out), out);
+  assert.ok(/turns budget into episodes/.test(out), out);
+});
+
+test("with the cap spent and no scripts, the reason is not the budget", () => {
+  const out = run(tree({ scriptsFor: [], budget: SPENT }));
+  assert.ok(/DO THIS NOW {2}\(script\)/.test(out), out);
+  assert.ok(!/turns budget into episodes/.test(out), out);
 });
 
 test("with the cap spent, rendering is not proposed even with scripts ready", () => {

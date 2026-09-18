@@ -42,6 +42,10 @@ produce genuinely different work.** Write anything else into `docs/QUEUE.md` and
 
 - **Budget left and a script ready:** it will tell you to render. One call, listen to the profile it
   prints, upload, stamp, lower `curriculum/audio-debt.yaml` by one in the same commit.
+- **Budget left and nothing ready:** it will tell you to write a script, not to draft. That is
+  deliberate. A script is free and is the only thing that turns this month's budget into episodes,
+  and the cap expires on the 1st. Expect to alternate: write one, render it, write the next. Keep
+  alternating until the budget is gone, and only then go back to lessons.
 - **Budget spent:** say so once, in one line, and carry on with content. Do not ask John to raise
   the cap and do not wait for him. He raises it when he has the budget and expects to be told, not
   asked. Writing scripts costs nothing and is still worth doing.
