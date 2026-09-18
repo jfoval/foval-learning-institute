@@ -177,11 +177,21 @@ from primary guidance and the research literature, not from a text.
   - *Rotation:* **SHALL NOT** require subscribers to change passwords periodically. Verifiers
     **SHALL** force a change on evidence that the authenticator has been compromised.
   - *Hints:* **SHALL NOT** permit a hint accessible to an unauthenticated claimant.
-  - *Security questions:* **SHALL NOT** prompt for knowledge-based authentication, "What was the
-    name of your first pet?" being NIST's own example.
-  - *Blocklists:* chosen passwords are compared against known compromised or commonly used values,
-    and on a hit the CSP **SHALL** require a different secret **and SHALL provide the reason for
-    rejection**.
+  - *Security questions:* verifiers and CSPs **SHALL NOT** prompt subscribers to use
+    knowledge-based authentication (KBA) or security questions **when choosing passwords**, "What
+    was the name of your first pet?" being NIST's own example. **That scoping clause was dropped
+    from this entry until 2026-09-18 and lesson 10 inherited the trim**, applying the rule to
+    account-recovery flows, which is a different moment and not what §3.1.1.2 covers. The lesson now
+    states the extension to recovery as this course's own reasoning. Re-checked against the fetched
+    document on 2026-09-18.
+  - *Blocklists:* when processing a request to establish or change a password, verifiers **SHALL**
+    compare it against a blocklist containing known **commonly used, expected, or compromised**
+    passwords, and on a hit **SHALL** require a different secret **and SHALL provide the reason for
+    rejection**. The document says that list may hold passwords from previous breach corpuses,
+    **dictionary words**, and context-specific words such as the name of the service and the
+    username. **The dictionary-word part matters for teaching**: it is what stops "no composition
+    rules" collapsing into "fifteen characters of anything", and an earlier version of this entry
+    omitted it. Re-checked against the fetched document on 2026-09-18.
   - *Password managers:* verifiers **SHALL** allow password managers and autofill, and **SHOULD**
     permit paste.
   - *Phishing:* section 3.1.1 states flatly that passwords are not phishing-resistant.
