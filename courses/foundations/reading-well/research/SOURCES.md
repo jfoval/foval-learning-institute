@@ -87,6 +87,29 @@ the debt is.
     passages, bringing the authors to terms, getting the questions clear, defining the issues,
     analysing the discussion. His framing is the teachable part: "In syntopical reading, it is you
     and your concerns that are primarily to be served, not the books that you read."
+  - **The fourth level in Adler's own words, re-read from the scan on 2026-09-18**, because lesson 10
+    rests on it and the entry above was too thin to carry a worked example.
+    - **Why the order is reversed.** Reading each relevant book thoroughly "would be to place the
+      individual books first in the order of your priorities, and your problem second. In fact, the
+      order is reversed."
+    - **Step 2, which is the hard one.** "Now you are faced with a number of different authors, and it
+      is unlikely that they will have all used the same words, or even the same terms. Thus it is you
+      who must establish the terms, and bring your authors to them rather than the other way around.
+      This is probably the most difficult step in syntopical reading. What it really comes down to is
+      forcing an author to use your language, rather than using his. All of our normal reading habits
+      are opposed to this."
+    - **Step 3.** "Since we ourselves are establishing the terminology in this case, we are faced with
+      the task of establishing a set of neutral propositions as well. The best way to do this is to
+      frame a set of questions that shed light on our problem, and to which each of our authors gives
+      answers. This, too, is difficult."
+    - **Step 4.** "If a question is clear, and if we can be reasonably certain that authors answer it
+      in different ways, perhaps pro and con, then an issue has been defined." Where more than two
+      answers are given, "the opposing answers must be ordered in relation to one another, and the
+      authors who adopt them classified according to their views."
+    - **Step 5.** Adler's own summary of what the first four produced: "we have found the relevant
+      passages in the works examined, created a neutral terminology that applies to all or most of the
+      authors examined, framed and ordered a set of questions that most of them can be interpreted as
+      answering, and defined and arranged the issues produced by differing answers to the questions."
 
   **Caution.** Adler is a philosopher writing in 1940 and 1972, not an empirical researcher. Nothing
   in the book is measured. It is a primary source on a method, and the course should present it as

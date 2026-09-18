@@ -26,7 +26,13 @@ Rewrite these five lines each session. Nothing else goes in this block.
   re-check is out**. Lessons 3, 5, 6 and 7 have all been through a review and
   had every finding applied; lesson 3 has also passed a neutrality audit. **Two narrow second passes
   are owed**: lesson 6's Ruskin section and lesson 7's three-objections section, both of which are
-  substantially new prose. Lesson 8 is drafted and its review is out. Next is `/draft-lesson courses/foundations/reading-well 9`, which is in a 3.4 domain and whose neutrality audit is mandatory. Next is `/draft-lesson courses/foundations/reading-well 6`, as many lessons as the
+  substantially new prose. Lessons 8 and 10 are drafted and their reviews are out. **Lesson 9 is the
+  only one left to draft**, it is in a 3.4 domain, its neutrality audit is mandatory, and its two
+  primary documents are being sourced and verified now. **Then the assessments**, which
+  `research/OUTLINE.md` blueprints in full and which do not exist yet: a twenty-item course-end test
+  with at least twelve application items and two cross-lesson items, and the project brief with its
+  rubric. The course publishes when those are done, adding `reading-well: 10` to
+  `curriculum/audio-debt.yaml` in the same commit. Next is `/draft-lesson courses/foundations/reading-well 6`, as many lessons as the
   budget allows, after reading that course's `research/reviews/course-wide.md`.
 - **Where to look for a real example when the obvious domains all fail.** Lesson 3 needed a short
   real text in which every word is ordinary and a newcomer still cannot say what happened. Cricket,
