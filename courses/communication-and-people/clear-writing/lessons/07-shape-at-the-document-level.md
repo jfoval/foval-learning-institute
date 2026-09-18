@@ -60,19 +60,19 @@ Lesson 1 established that a reader takes in about a fifth of an average page, an
 
 Often they aren't. They're looking. They've opened a document to find one thing, they're moving down it at speed, and prose isn't what they're using to find their way.
 
-What they are using is the part of writing that most writing courses do not teach, on the grounds that it belongs to somebody else. The US federal plain-language guide does not treat it that way: one of its four parts is [Design for understanding](https://digital.gov/guides/plain-language/design), a quarter of the whole subject, and its opening claim is blunt. **"Dense, cluttered writing deters people from taking the time to read."**
+What they are using is the part of writing that most writing courses do not teach, on the grounds that it belongs to somebody else. The US federal plain-language guide does not treat it that way: one of its four parts is [Design for understanding](https://digital.gov/guides/plain-language/design), a quarter of the whole subject, and its opening claim is blunt. "Dense, cluttered writing deters people from taking the time to read."
 
 ## Headings are the document a skimmer actually reads
 
 The test for a heading is short, and it disqualifies most of the headings you've written.
 
-**A heading has to give a reader enough to decide whether to stop.**
+A heading has to give a reader enough to decide whether to stop.
 
 Now look at the ones everybody uses. *Background. Context. Introduction. Next steps. Considerations. About this document.* Every one of them is a category label. Every one would fit almost any document in the world, which means none of them tells a particular reader anything about this one.
 
 The federal guidance asks for two things: "use heading levels consistently and appropriately to create hierarchy", and "write heading terms that are clear and descriptive". The second is the one people fail. Descriptive means it describes *this content*, not the kind of content.
 
-[GOV.UK's guidance on structure](https://guidance.publishing.service.gov.uk/writing-to-gov-uk-standards/writing-guidelines/clear-structure/) is more specific, and it's written by people who have to get this right across a whole government. It asks for headings that are **"descriptive"**, **"frontloaded"**, **"active"** and **"removable"**, and tells writers to "avoid generic headings like 'Introduction'". Three of those four are this section so far. The fourth is the one worth stopping on.
+[GOV.UK's guidance on structure](https://guidance.publishing.service.gov.uk/writing-to-gov-uk-standards/writing-guidelines/clear-structure/) is more specific, and it's written by people who have to get this right across a whole government. It asks for headings that are "descriptive", "frontloaded", "active" and "removable", and tells writers to "avoid generic headings like 'Introduction'". Three of those four are this section so far. The fourth is the one worth stopping on.
 
 **"Removable – the content should still make sense with the headings removed."** That sounds like the opposite of everything above, and it isn't. Both things have to be true at once. Strip the headings and the prose still has to work, because plenty of readers, including anyone listening rather than looking, will meet it that way. Keep the headings and they still have to tell the story on their own, because that's what a skimmer gets. A document that fails the first test has put content in its headings; a document that fails the second has put labels there. You're aiming at the narrow target where both hold, and the consultation note below hits it: pull the four bold lines out and the paragraphs still say everything.
 
@@ -106,7 +106,7 @@ These three are not stylistic choices. Each one makes a different claim about th
 
 **A table** says: this has two dimensions. Every item is described by the same set of properties, and the reader will want to compare across them. The guidance is to "where appropriate, use tables to make complex relationships clear", and the operative word is relationships, in the plural.
 
-The choice follows from asking one question: **what relationship does this content actually have?** Not what would look tidier.
+The choice follows from asking one question: what relationship does this content actually have? Not what would look tidier.
 
 :::callout One extra distinction inside lists
 A bulleted list claims the items are parallel and unordered. A numbered list claims they are in a sequence that matters.
@@ -120,7 +120,13 @@ This note arrived last week. Every word of it is fine.
 
 > The consultation on the parking scheme closed on 30 April. We received 412 responses, which is roughly four times what we normally see, and about a third of them came in during the final week after the local paper covered it. The main objection, raised in 260 responses, was the cost of a residents' permit. The second most common, in 114 responses, was the proposed boundary, particularly on the east side. A smaller number, 38, objected to the enforcement hours. We are proposing to reduce the permit charge from £90 to £60, to move the eastern boundary to exclude Mill Lane, and to leave the enforcement hours as consulted. The revised scheme will go to committee on 12 June. If members want a different option on the permit charge, we would need to know before 28 May in order to model it.
 
-Now the same note given shape. **The four headings are the only new words.** The two prose sections are the note's own sentences, unchanged. The table cells and the bullets are its own phrases, lifted out of the sentences that held them.
+Before you look at the shaped version, decide for yourself. The note has four parts: the response figures, the objections, the proposals, and the committee timing. Which of them becomes a table, which a list, and which stays as prose?
+
+:::predict Table, list, or prose, for each of the four parts?
+The objections become a table: three things of one kind, each with a count, and the reader's question is which is biggest. The proposals become a bulleted list: three parallel, independent changes that could be reordered without loss. The response figures stay as prose, because "four times what we normally see" and "a third of them came in during the final week" are related to each other and to the newspaper coverage. And the committee timing stays as prose, because it contains a condition and a consequence: if members want a different option, they must say so by a date. A list would have cut that join.
+:::
+
+Now the same note given shape. The four headings are the only new words. The two prose sections are the note's own sentences, unchanged. The table cells and the bullets are its own phrases, lifted out of the sentences that held them.
 
 > **The consultation closed on 30 April, four times the usual response**
 >
@@ -146,7 +152,7 @@ Now the same note given shape. **The four headings are the only new words.** The
 
 Something did get deleted, and it's worth seeing what. The note said "The main objection, raised in 260 responses, was the cost of a residents' permit", and the table row says "the cost of a residents' permit, 260". *The main objection, raised in, was* has gone. So has *the second most common* and *a smaller number*. Those words were doing a job in the prose: they told the reader which count was biggest and that the three were being ranked. In the table, the structure does that job, because the rows are in order and the numbers are in a column the eye can run down.
 
-That's the trade in one example. **A table doesn't just rearrange prose, it deletes the words the prose needed to carry the comparison, and takes over the carrying itself.** When the structure can't carry it, those words have to stay, which is why the last section is still prose.
+That's the trade in one example. A table deletes the words the prose needed to carry the comparison, and takes over the carrying itself. When the structure can't carry it, those words have to stay, which is why the last section is still prose.
 
 Check the counts while you're here, because this course keeps telling you to. 260 and 114 and 38 come to 412, the number of responses, so the table accounts for every one and nobody is counted twice. Had those three summed past 412, the table would be making a claim the note never made, and any reader who added them up would have caught it.
 
@@ -198,7 +204,7 @@ Check the counts while you're here, because this course keeps telling you to. 26
 
 Three things happened, and each was a decision about content rather than about looks.
 
-The three objections became a **table** because they are one kind of thing measured on one axis, and the reader's question is which is biggest. The three proposals became a **bulleted list** because they are parallel and independent, and reordering them would lose nothing. The last section stayed as **prose** because it contains a condition and a consequence, which is a relation, and a list would have severed it.
+The three objections became a table because they are one kind of thing measured on one axis, and the reader's question is which is biggest. The three proposals became a bulleted list because they are parallel and independent, and reordering them would lose nothing. The last section stayed as prose because it contains a condition and a consequence, which is a relation, and a list would have severed it.
 
 And the headings tell the story on their own. Read only the four of them and you know what the note says.
 
@@ -222,9 +228,13 @@ Bulleted:
 
 Every fact survives. The argument does not.
 
+:::checkpoint Three words from the original are missing from the bullets. Which are they, and what was each one doing?
+*Although*, *exactly* and *therefore*. *Although* told you the strong Q2 figures cut against the case and were about to be answered. *Exactly* told you the third fact was the answer. *Therefore* told you the fourth was the conclusion. None of the three is a fact, which is why a bullet-by-bullet check finds nothing missing. They were the argument.
+:::
+
 In the original, *although* tells you the second fact cuts against the case and is being answered. *Exactly* tells you the third fact is the answer. *Therefore* tells you the fourth is the conclusion. In the bulleted version those three words are gone, and four claims sit side by side as if they were four separate observations of equal weight. A reader now has to work out which one is the objection and which is the reply.
 
-**A list is a claim that the items are parallel and independent.** When they are not, the list is a false statement about the content, and the falsehood is invisible because it lives in the formatting rather than in any sentence.
+A list is a claim that the items are parallel and independent. When they are not, the list is a false statement about the content, and the falsehood is invisible because it lives in the formatting rather than in any sentence.
 
 :::checkpoint What form does each of these need, and what relationship in the content decides it?
 **The five documents someone must attach to an application.** A bulleted list. Parallel, independent, order does not matter, and the reader is going to use it as a checklist.
@@ -259,13 +269,13 @@ Use the document you've carried since lesson 1, or a longer one if that's become
 
 Take 35 minutes over this.
 
-1. **Change no sentences in this exercise.** You may move text, split it, and add headings. If you catch yourself rewriting, you're avoiding the exercise, because the point is to show how much can be gained without touching the prose. The worked example above obeys the same rule: its four headings are new, and nothing else is.
+1. Change no sentences in this exercise. You may move text, split it, and add headings. If you catch yourself rewriting, you're avoiding the exercise, because the point is to show how much can be gained without touching the prose. The worked example above obeys the same rule: its four headings are new, and nothing else is.
 
 2. Go through and mark every stretch where the content is a set of parallel independent items, and every stretch where it has two dimensions. Convert the first kind to lists and the second to tables. Leave everything with a *because* or an *although* in it as prose.
 
 3. Give every section a heading that would let a reader decide whether to stop. Then check each one against the test: could this heading sit unchanged on somebody else's document about something else? If yes, it is a category label, and rewrite it.
 
-4. **Now the test, and its mirror.** Write out your headings, in order, on their own, with nothing else. Do they tell the story? A reader who saw only those, which is close to what a skimming reader gets, would come away with what? Then do it the other way: cover the headings and read the document without them. It should still make sense, because that's GOV.UK's "removable", and a document that collapses without its headings has put content in them.
+4. Now the test, and its mirror. Write out your headings, in order, on their own, with nothing else. Do they tell the story? A reader who saw only those, which is close to what a skimming reader gets, would come away with what? Then do it the other way: cover the headings and read the document without them. It should still make sense, because that's GOV.UK's "removable", and a document that collapses without its headings has put content in them.
 
 5. If the heading list doesn't tell the story, the problem is usually one of two things. Either a heading is a label, or the document's sections aren't the shape of its argument. The second is more common and more useful to find.
 
@@ -287,7 +297,7 @@ It is not a detour. The reason this course teaches what it teaches, and ignores 
 
 ## Sources
 
-- Digital.gov, ["Design for understanding"](https://digital.gov/guides/plain-language/design), part of the US federal plain-language guide series, **opened and read on 2026-09-11** for this review. The quoted guidance on headings, lists and tables, and the claim that dense, cluttered writing deters people from reading.
-- GOV.UK, ["Create a clear structure for your content"](https://guidance.publishing.service.gov.uk/writing-to-gov-uk-standards/writing-guidelines/clear-structure/). The four heading criteria quoted above, "descriptive", "frontloaded", "active" and "removable", the instruction to avoid generic headings, "put the most important information first", and the inverted pyramid. **All four criteria are quoted, including "removable", which pulls against this lesson's own test and is taught as a tension rather than dropped.**
+- Digital.gov, ["Design for understanding"](https://digital.gov/guides/plain-language/design), part of the US federal plain-language guide series, opened and read on 2026-09-11 for this review. The quoted guidance on headings, lists and tables, and the claim that dense, cluttered writing deters people from reading.
+- GOV.UK, ["Create a clear structure for your content"](https://guidance.publishing.service.gov.uk/writing-to-gov-uk-standards/writing-guidelines/clear-structure/). The four heading criteria quoted above, "descriptive", "frontloaded", "active" and "removable", the instruction to avoid generic headings, "put the most important information first", and the inverted pyramid. All four criteria are quoted, including "removable", which pulls against this lesson's own test and is taught as a tension rather than dropped.
 - The reading figures behind this lesson's premise come from lesson 1, which derives them from Jakob Nielsen's ["How Little Do Users Read?"](https://www.nngroup.com/articles/how-little-do-users-read/) together with the caveats stated there.
 - The consultation note is written for this lesson. Its response counts were checked to sum to its stated total: 260 plus 114 plus 38 is 412. The restructured version was compared with the original word by word rather than asserted: the four headings are new, the two prose sections are verbatim, and the table and list cells are verbatim phrases with the ranking language ("the main objection, raised in", "the second most common", "a smaller number") deleted, which the lesson names and explains rather than hiding.
