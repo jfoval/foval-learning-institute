@@ -142,17 +142,21 @@ Take your time. Then read on.
 
 ## Why that question is in every algebra course
 
-When researchers put that exact question to school students from first grade to sixth, **fewer than ten percent in any grade gave the right answer**, and the older children did no better than the younger ones.[1] Being older did not help, which tells you something important: this is not a hard sum, and getting it wrong is not about ability. It is about what people think the equals sign means.
+:::predict Researchers put that exact question to school students from first grade to sixth. Roughly what share got it right, and did the older children do better?
+Fewer than ten percent in any grade, and the older children did no better than the younger ones.[1] If you guessed that sixth graders would beat first graders, that's the natural guess, and it's the one the study overturned.
+:::
+
+Being older did not help, which tells you something important: this is not a hard sum, and getting it wrong is not about ability. It is about what people think the equals sign means.
 
 Two wrong answers dominate: 12 and 17.
 
-Both come from the same place. If you have spent years doing arithmetic, you have seen the equals sign thousands of times in one particular shape: `8 + 4 = ?`, `6 × 7 = ?`, `20 - 3 = ?`. In every one of those, the sign sits just before the answer. So it starts to feel like an instruction, meaning **and the answer is**. Read `8 + 4 = box + 5` that way and the box is obviously where the answer goes, so it's 12. Read the whole line as one long sum and you get 17.
+Both come from the same place. If you have spent years doing arithmetic, you have seen the equals sign thousands of times in one particular shape: `8 + 4 = ?`, `6 × 7 = ?`, `20 - 3 = ?`. In every one of those, the sign sits just before the answer. So it starts to feel like an instruction, meaning *and the answer is*. Read `8 + 4 = box + 5` that way and the box is obviously where the answer goes, so it's 12. Read the whole line as one long sum and you get 17.
 
-The right answer is **7**, and here is the idea that makes it obvious.
+The right answer is 7, and here is the idea that makes it obvious.
 
 ## The sign is a claim, not an instruction
 
-`=` means **the two sides are the same size**. That's all it has ever meant. It is not a button that says compute; it is a statement that what is on the left and what is on the right are the same amount.
+`=` means the two sides are the same size. That's all it has ever meant. It is not a button that says compute; it is a statement that what is on the left and what is on the right are the same amount.
 
 So `8 + 4 = box + 5` says: twelve is the same size as something plus five. Something plus five is twelve. The something is 7.
 
@@ -170,7 +174,7 @@ The first is true: fifteen is the same size as fifteen. The second is not sensib
 
 The picture that carries the rest of this course is a pair of scales.
 
-An equation is a balance that is level. Whatever is on the left pan weighs the same as whatever is on the right pan; that is what the sign is claiming.
+An equation is a balance that is level. Whatever is on the left pan weighs the same as whatever is on the right pan; that is what the sign is claiming. [OpenStax's *Elementary Algebra*](https://openstax.org/books/elementary-algebra-2e/pages/2-1-solve-equations-using-the-subtraction-and-addition-properties-of-equality) turns the same picture into the formal properties of equality, if you want the textbook version.
 
 <svg viewBox="0 0 420 170" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:420px;display:block;margin:1.5em auto;font-family:system-ui,sans-serif" role="img" aria-labelledby="bal-title bal-desc">
   <title id="bal-title">An equation drawn as a level balance</title>
@@ -192,7 +196,7 @@ Take the same amount off both pans and it stays level. Add the same to both and 
 
 Now the rule that the picture makes obvious, and that most people are taught as a ritual instead.
 
-**Whatever you do to one side, you must do to the other.** Not because a teacher said so. Because the equation is a claim that the two sides are the same size, and if you change one side and not the other, the claim you started with is no longer the claim you have. The balance tips.
+Whatever you do to one side, you must do to the other. Not because a teacher said so. Because the equation is a claim that the two sides are the same size, and if you change one side and not the other, the claim you started with is no longer the claim you have. The balance tips.
 
 Take five off both pans of `8 + 4 = box + 5` and you get `7 = box`, which is the answer. That is the whole method of lesson 3, arrived at by looking at a picture.
 
@@ -206,7 +210,11 @@ Is it true when `n = 2`? Substitute: `3(2) + 1` is `7`, and 7 is not 10. So no.
 
 Is it true when `n = 3`? Substitute: `3(3) + 1` is `10`, and 10 is 10. So yes.
 
-That is what "solving" will mean in lesson 3: finding the values that make the claim true. And notice you already have a way to check any answer you ever produce, which is to put it back in. **Checking is not an optional extra step in algebra; it is the thing that makes the rest of it safe.**
+That is what "solving" will mean in lesson 3: finding the values that make the claim true. And notice you already have a way to check any answer you ever produce, which is to put it back in. Checking is not an optional extra step in algebra; it is the thing that makes the rest of it safe.
+
+:::checkpoint Is `3n + 1 = 10` true when `n = 4`? And is there any other number besides 3 that makes it true?
+No: `3(4) + 1` is 13, not 10. And no other number works, because if three times something plus one is ten, three times that something is nine, and only one number times three is nine. Most equations you'll meet in this course are like that, true for exactly one number, though lesson 6 meets some that aren't.
+:::
 
 :::checkpoint Here is `13 + 6 = box + 9`, worked to the second to last line. The left pan holds 19. Take nine off both pans and the right pan holds just the box, so `19 - 9 = box`. Finish it, then check your answer by substituting it back.
 Nineteen minus nine is 10, so the box is 10. Check: `13 + 6` is 19 and `10 + 9` is 19, so the two sides are the same size and the equation is true. If you answered 19, you read the sign as "and the answer is", which is the whole thing this lesson is about, and noticing that you did it is the useful part.
@@ -214,7 +222,7 @@ Nineteen minus nine is 10, so the box is 10. Check: `13 + 6` is 19 and `10 + 9` 
 
 ## Two more shapes, so the sign stops meaning one thing
 
-The research finding behind this lesson is that people are much more likely to read the sign as a claim when they meet it with operations on both sides, and much more likely to read it as an instruction when they only ever meet it in the shape `sum = answer`[1]. So here are the other shapes, deliberately.
+The research finding behind this lesson is that people are much more likely to read the sign as a claim when they meet it with operations on both sides, and much more likely to read it as an instruction when they only ever meet it in the shape `sum = answer`.[1] So here are the other shapes, deliberately.
 
 **Operations on both sides.** `15 - 6 = box + 2`. The left is 9, so something plus two is nine, and the box is 7.
 
@@ -263,7 +271,11 @@ Lesson 4 writes relationships as equations with two letters, and the balance sti
 
 The lesson on turning a sentence into an equation is where the commonest mistake in all of algebra lives, and the check you learned here, substituting a number to see whether the claim is true, is what catches it.
 
+## Sources
+
+[1] Nicole McNeil, Laura Grandau, Eric Knuth, Martha Alibali, Ana Stephens, Shanta Hattikudur and Daniel Krill, "Middle-school students' understanding of the equal sign: the books they read can't help", *Cognition and Instruction* 24(3), 2006, 367 to 385. The box question and the finding that "fewer than 10% in any grade gave the correct answer and performance did not improve with age" are Carpenter and colleagues' result as that paper reports it. The finding that operations on both sides of the sign elicit the relational reading, and that textbooks almost never present the sign that way, is the paper's own.
+
 ## Go deeper
 
-- [**OpenStax, *Elementary Algebra 2e*, section 2.1**](https://openstax.org/books/elementary-algebra-2e/pages/2-1-solve-equations-using-the-subtraction-and-addition-properties-of-equality), free online, which develops the balance idea into formal properties of equality.
-- [**Khan Academy, Algebra basics**](https://www.khanacademy.org/math/algebra-basics), for practice with immediate feedback, which is the one thing a written lesson cannot provide.
+- [OpenStax, *Elementary Algebra 2e*, section 2.1](https://openstax.org/books/elementary-algebra-2e/pages/2-1-solve-equations-using-the-subtraction-and-addition-properties-of-equality), free online, which develops the balance idea into formal properties of equality.
+- [Khan Academy, Algebra basics](https://www.khanacademy.org/math/algebra-basics), for practice with immediate feedback, which is the one thing a written lesson cannot provide.
