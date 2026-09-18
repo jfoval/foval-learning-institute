@@ -1,6 +1,19 @@
 ---
 source: courses/mathematics/algebra-essentials/lessons/03-equations.md
 written_by: Claude, by hand, from the lesson text
+checked: >-
+  Fact-checked in a fresh-context subagent against the lesson on 2026-09-18: first verdict FAIL,
+  and every finding and nit is fixed here. Every solving step and every check was redone
+  independently and all of them hold. Three findings. The script repeated a false arithmetic claim,
+  that x and x squared at three are nine and twenty seven, copied faithfully from the lesson's
+  body; the lesson's own quiz says three and nine, which is right, so the lesson contradicts itself
+  and the script had picked the wrong half. That matters more here than anywhere, in a lesson whose
+  thesis is that the check cannot lie to you. The outro said the misconception list has three items
+  and it has five. And the bracket explanation, which exists to separate four times bracket x minus
+  two from four x minus two, spoke both of them as the same sound, because "four lots of x minus
+  two" drops the bracket the eye supplies on the page. Brackets are now closed aloud throughout,
+  and two products that parsed by ear as the wrong grouping are spoken in pieces. The lesson's own
+  error is item 2 in docs/QUEUE.md.
 about: >-
   About six minutes. Haley opens, because the engine gives the first turn to the second voice.
   Hosts are John (S1, the Charon voice) and Haley (S2, the Aoede voice). Third episode for
@@ -47,7 +60,7 @@ S1: Or expand the bracket first, giving two x plus six equals fourteen, then tak
 
 S2: Which is worth noticing.
 
-S1: There is rarely one correct order. And check it: two times bracket four plus three is two times seven, which is fourteen, and the right side is fourteen.
+S1: There is rarely one correct order. And check it: two times bracket four plus three close bracket is two times seven, which is fourteen, and the right side is fourteen.
 
 S2: Now the harder shape.
 
@@ -63,15 +76,15 @@ S1: Take two x off both sides, giving two x minus eight equals six. Add eight to
 
 S2: Check it.
 
-S1: Four times bracket seven minus two is four times five, which is twenty. And two times seven plus six is fourteen plus six, which is twenty. The sides match, so seven is right.
+S1: Four times bracket seven minus two close bracket is four times five, which is twenty. And two times seven, plus six, is fourteen plus six, which is twenty. The sides match, so seven is right.
 
 S2: Two things in there I want to slow down on. The bracket first.
 
-S1: Four times bracket x minus two means four lots of x minus two, so it's four x minus eight. Not four x minus two. The multiplier reaches everything inside the bracket, including the second term and its sign.
+S1: Four times bracket x minus two close bracket means four lots of the whole bracket, x minus two. So it's four x minus eight, not four x minus two. The multiplier reaches everything inside the bracket, including the second term and its sign.
 
 S2: And if I doubt that?
 
-S1: Test it with a number, which is the habit from lesson one. At x equals three, four times bracket three minus two is four times one, which is four. And four x minus eight is twelve minus eight, which is four. While four x minus two would be ten.
+S1: Test it with a number, which is the habit from lesson one. At x equals three, four times bracket three minus two close bracket is four times one, which is four. And four x minus eight is twelve minus eight, which is four. While four x minus two would be ten.
 
 S2: And the second thing. Taking two x off both sides.
 
@@ -111,7 +124,7 @@ S1: Nine minus two x equals x minus three.
 
 S2: Add two x to both sides. Nine equals three x minus three. Add three to both. Twelve equals three x. Divide by three. Four equals x.
 
-S1: Which is the same claim as x equals four, since the sign means the two sides are the same size and doesn't care which way round they're written. Check: nine minus two times four is nine minus eight, which is one, and four minus three is one.
+S1: Which is the same claim as x equals four, since the sign means the two sides are the same size and doesn't care which way round they're written. Check: nine minus, two times four, is nine minus eight, which is one, and four minus three is one.
 
 S2: And if I'd got minus four?
 
@@ -123,12 +136,12 @@ S1: Which exists in service of solving rather than as a topic of its own. Like t
 
 S2: What about three x and five x squared?
 
-S1: Not like terms either, because x and x squared are different things. At x equals three, one is nine and the other is twenty seven.
+S1: Not like terms either, because x and x squared are different things. At x equals three, one is three and the other is nine.
 
 S2: And the test is a number, I assume.
 
 S1: Always. Does three x plus five x equal eight x? At x equals two, the left is six plus ten, which is sixteen, and the right is sixteen. Yes. Does three x plus five y equal eight x y? At x equals two and y equals one, the left is six plus five, which is eleven, and the right is eight times two times one, which is sixteen. No.
 
-S2: The full lesson has every step in a table with the reason beside it, the practice, and the three things people get wrong. It's free at Foval Learning Institute dot org.
+S2: The full lesson has the steps in tables, with the reason beside each one in the first, the practice, and the five things people get wrong. It's free at Foval Learning Institute dot org.
 
 S1: Thanks for listening. Every move is the same move on both pans.

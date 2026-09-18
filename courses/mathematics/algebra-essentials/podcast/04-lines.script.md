@@ -1,6 +1,17 @@
 ---
 source: courses/mathematics/algebra-essentials/lessons/04-lines.md
 written_by: Claude, by hand, from the lesson text
+checked: >-
+  Fact-checked in a fresh-context subagent against the lesson on 2026-09-18: verdict PASS WITH
+  NITS, and all of them are fixed here. Every figure was recomputed, including the slope from the
+  two marked points, and the reviewer read the lesson's own drawing coordinate by coordinate to
+  confirm that what the script says about the picture is true of it: the marked points really are
+  at two miles and five ninety and at five miles and nine fifty, and both lie on the line. That
+  check exists because a listener cannot see the graph and so cannot catch a wrong description.
+  The nits were that the outro promised graphs where the lesson draws one, that the printer
+  exchange described a picture the lesson does not contain, that an inference about printers was
+  the script's own rather than the lesson's, that "y equals m x plus c" parses by ear as m times
+  bracket x plus c, and that Haley's "three topics" asserted what the lesson denies.
 about: >-
   About six minutes. Haley opens, because the engine gives the first turn to the second voice.
   Hosts are John (S1, the Charon voice) and Haley (S2, the Aoede voice). Fourth episode for
@@ -29,7 +40,7 @@ S2: And as an equation.
 
 S1: Fare equals three point five nought plus one point two nought d, where d is the number of miles.
 
-S2: Three topics.
+S2: Three separate topics, then?
 
 S1: One relationship in three costumes, and being able to move between them is most of what this lesson is for. The table came from the equation by substituting, which is lesson one. The graph comes from the table by plotting.
 
@@ -43,7 +54,7 @@ S1: The rate. How much the fare goes up for each extra mile, and on the graph it
 
 S2: And that's the whole of it?
 
-S1: Any relationship of the form, y equals starting value plus rate times x, is a straight line. And any straight line can be written that way. The general form you'll meet everywhere is y equals m x plus c, where m is the rate and c is the starting value.
+S1: Any relationship of the form, y equals starting value plus rate times x, is a straight line. And any straight line can be written that way. The general form you'll meet everywhere is y equals m x, plus c, where m is the rate and c is the starting value.
 
 S2: Are those letters fixed?
 
@@ -109,10 +120,10 @@ S2: And the table?
 
 S1: By substituting, which is lesson one's skill doing a job here. At zero pages the cost is a hundred and eighty dollars, which is the printer and nothing else.
 
-S2: And on the graph?
+S2: And if you drew it?
 
-S1: The line starts at a height of a hundred and eighty, and climbs very gently, four cents for every page. Which tells you something about printers without any arithmetic: for a long time, what you paid for the machine dominates what you've spent on pages.
+S1: The line would start at a height of a hundred and eighty and climb very gently, four cents for every page. The lesson doesn't draw that one, so take it as the shape rather than a picture to go and find.
 
-S2: The full lesson has the graphs drawn, the full tables, the two marked points to read a slope from, and the practice. It's free at Foval Learning Institute dot org.
+S2: The full lesson has the taxi graph drawn, the full tables, the two marked points to read a slope from, and the practice. It's free at Foval Learning Institute dot org.
 
 S1: Thanks for listening. The starting value is where the line begins, and the rate is how steeply it climbs.
