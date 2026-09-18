@@ -92,7 +92,22 @@ numbers, which is item 1 below.
    the terminal half of its project. That is a real gap in what the institute offers and it is
    John's call whether it becomes a course, not a drafter's. The outline did not touch the taxonomy.
 
-4. **Then the Foval Core in order, one course at a time.** After Digital Literacy: Using AI
+4. **The repetition warning does not run on the course that needs it most.**
+   `npm run validate` warns on passages repeated across a course's lessons, and that warning is the
+   only automated defence against the specific failure of drafting several lessons in one context.
+   It is skipped on any course whose status is not yet `published`, which is exactly the period when
+   the drafting happens. Digital Literacy lessons 2 and 3 duplicated a whole argument, down to the
+   same contract-and-amendment example, and a Stage 4 reviewer found it by eye. **One line of
+   `scripts/build.mjs`, probably**; written here rather than fixed mid-draft, per root `CLAUDE.md`
+   rule 9.
+
+5. **The build tells you the frontmatter does not parse and not where.** Every lesson drafted on
+   2026-09-18 tripped this at least once, and the cause each time was a colon followed by a space
+   inside an unquoted quiz `explain`, or a value beginning with a backtick. `js-yaml` already
+   returns the line and column in its error; the build swallows them and prints a guess at the cause
+   instead. Passing the line number through would turn a two-minute hunt into a two-second fix.
+
+6. **Then the Foval Core in order, one course at a time.** After Digital Literacy: Using AI
    Effectively, then Term 2. Start each with `/new-course`. `npm run state` names the next action
    for every course, in term order, and is the authority over anything written here.
 
