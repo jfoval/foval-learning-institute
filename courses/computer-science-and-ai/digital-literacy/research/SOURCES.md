@@ -254,7 +254,7 @@ This section is the gold the brief asked for. These four studies are what make t
 misconception sections possible, and each deserves to shape a lesson rather than be cited in
 passing.
 
-- **Rick Wash, "Folk Models of Home Computer Security", SOUPS 2010** (cups.cs.cmu.edu). **Read in
+- **Rick Wash, "Folk Models of Home Computer Security", SOUPS 2010** (rickwash.com/papers/rwash-homesec-soups10-final.pdf; the cups.cs.cmu.edu copy this entry used to name returns 404, checked 2026-09-18). **Read in
   full**, pages 1 to 11 of the proceedings PDF. Thirty-three semi-structured interviews (23 in
   summer 2007, 10 in summer 2008), averaging 45 minutes, snowball-sampled from three midwestern US
   cities, explicitly screening *out* anyone with computer training. Wash identifies eight folk

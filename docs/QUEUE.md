@@ -28,6 +28,29 @@ Rewrite these five lines each session. Nothing else goes in this block.
   had. Lesson 9 is about signatures, stores and package managers and will want several more. Check
   `npm run taught` and lessons 1 to 8 before assuming a word is available.
 
+- **A Stage 1 gap, found by lesson 9's review and not filled.** The course teaches a three-route
+  comparison for installing software (app store, package manager, browser download) and
+  `research/SOURCES.md` **has no app-store entry at all**. Lesson 9's whole app-store column, and its
+  "if it is in the app store it is safe" misconception, currently rest on general knowledge, against
+  `courses/CLAUDE.md` rule 1. The lesson is written so that nothing false is claimed, and the gap is
+  real. **Stage 1 on app-store review policies and code signing** would close it, and it would also
+  serve lesson 12 and the project.
+
+- **The outline disagrees with itself about lesson 11.** The lesson 9 entry promises that lesson 11
+  asks the same four-party question about a message that lesson 9 asks about a program. The lesson 11
+  entry has no four-party frame in it at all; it is contact, pressure, irreversible action, plus the
+  training evidence, plus recovery. Lesson 11 as drafted honours the promise in one Connections
+  sentence without building on it, which is the cheap reconciliation, but the two entries still
+  disagree and somebody should pick one.
+
+- **The same two defects have now recurred one lesson after being closed.** Lesson 8's review closed
+  a cold-start finding (terms used that the course had never defined) and a contractions finding.
+  **Both came back in lesson 9**, which makes it a pattern rather than an incident: a drafter working
+  from an outline writes in the outline's register and assumes the outline's vocabulary, and neither
+  the outline nor the drafter can see which words the course has actually taught. `npm run taught`
+  reports objectives, not vocabulary. **If it happens a third time, write the check**: grep a draft's
+  technical terms against lessons 1 to N-1 before it goes to review. Root `CLAUDE.md` rule 10.
+
 - **Two things for John to decide, neither urgent, both written down rather than acted on.**
   **(a) The outline's minute estimates are in the wrong units and two lessons running have had to
   reason past them.** It plans each lesson at about half what `npm run minutes` measures (mean ratio
