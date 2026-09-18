@@ -33,11 +33,21 @@ Rewrite these five lines each session. Nothing else goes in this block.
   episodes are live.** What is left is **Bible Basics (12)** and then **Reading Well (10)**, in that
   order, which is where the render order in this file now points. `npm run state` has the costs.
 
-  **One render was killed in flight** when a Bible Basics chain was stopped at the end of that
-  session, on lesson 1. No audio was written and no manifest was kept, so **Google may have billed
-  for a render that produced nothing**. It is not in `scripts/podcast/budget.json` as production
-  because no episode came of it. Re-rendering lesson 1 is a fresh, deliberate spend and that is
-  correct; nothing is being paid for twice, because nothing was kept.
+  **One render was killed in flight**, on Bible Basics lesson 1, and the reason is worth knowing
+  because it was a misreading rather than a mishap. John said to wrap up before starting a fresh
+  session; the session read that as "stop everything" and stopped the chain. **Wrap up means the
+  four things at the foot of `.claude/commands/keep-going.md`: the queue true, the tree clean,
+  everything pushed, a short report.** It does not mean killing work in flight, and that file now
+  says so.
+
+  **The chain never needed stopping at all.** Renders write their mp3s to `audio-out/`, which is on
+  disk and survives a session, and `podcast.mjs` copies a kept attempt rather than paying twice. A
+  later session would have found the work done and uploaded it for free.
+
+  No audio was written and no manifest was kept, so **Google may have billed for a render that
+  produced nothing**. It is not in `scripts/podcast/budget.json` as production because no episode
+  came of it. Re-rendering lesson 1 is a fresh, deliberate spend and that is correct; nothing is
+  being paid for twice, because nothing was kept.
 
   **Bible Basics scripts are the long ones** (1,259 to 1,539 words against the measured band of
   1,000 to 1,200), so its twelve renders take noticeably longer than Python's six did. Budget the

@@ -73,3 +73,30 @@ Stop and report when, and only when:
 
 Otherwise keep going. At the end, leave `docs/QUEUE.md` true, the tree clean, and everything pushed,
 and report in a few lines: what you finished, what the budget did, and what the next action is.
+
+**"Wrap up" is that list, and it is not "stop everything".** When John says wrap up, or says he is
+starting a fresh session, he is asking for the four things in the paragraph above: the queue true,
+the tree clean, everything pushed, and a short report. **He is not asking you to kill work that is
+already running.**
+
+This is written here because a session got it wrong on 2026-09-18 and it cost money. Told to wrap
+up, it stopped a twelve-episode render chain with one render in flight, about seven minutes into a
+long one. Google bills for audio it has generated whether or not the caller receives it, so the
+spend happened and the episode did not.
+
+**And the chain never needed stopping.** A render writes its mp3 to `audio-out/`, which is on disk
+and survives the session. `podcast.mjs` copies a kept attempt rather than paying again, so a later
+session finds the work done and uploads it for nothing. Leaving it running was strictly better than
+stopping it, and the session had to reason its way to a worse answer.
+
+So, before you stop anything in flight, ask what actually breaks if you leave it:
+
+- **A render chain: nothing breaks.** The audio lands on disk and the next session picks it up.
+  Leave it. If it genuinely must stop, rule 3a in `docs/PODCAST_PIPELINE.md` applies: let the
+  current render finish, then stop before the next one starts.
+- **A review or fact-check subagent:** its findings are lost, and that is cheap to redo. Stopping
+  is fine, but there is rarely a reason to.
+- **Your own uncommitted edits:** those are the thing that actually needs your attention, because
+  they are the only thing a fresh session cannot recover.
+
+The stop list above has three entries. A request to wrap up is not a fourth one.
