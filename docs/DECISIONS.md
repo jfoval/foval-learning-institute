@@ -49,12 +49,32 @@ It is root `CLAUDE.md` rule 6, the head of `docs/CONTENT_PIPELINE.md`, and, sinc
 lost as prose, a check: `npm run validate` fails on a published course whose lessons lack an
 `audio:` stamp beyond the debt written down in `curriculum/audio-debt.yaml`.
 
-**One exception, decided 2026-09-17.** When the episodes are blocked on something outside the repo
-(that day it was a Google AI Studio key John had not yet made), the next course may be drafted
-through Stage 4 rather than sit idle. It is not published, and the debt file does not grow, until
-the courses ahead of it have their episodes. The rule exists to stop audio being skipped, not to
-stop drafting while a credential is awaited; John was asked and said "you decide", and this is the
-decision. The published order of the Core is unchanged.
+### Audio gates "finished", not "published". Decided 2026-09-17.
+
+This supersedes the narrower exception written earlier the same day, which let only the *next*
+course be drafted ahead of its audio. John's plan is now explicit: **writing a course costs tokens
+and rendering its episodes costs money, and the two budgets refill on different clocks.** Holding
+finished lessons off the site until their audio is paid for spends the scarce budget to withhold
+the plentiful one.
+
+So:
+
+- **A course goes live when every lesson has passed Stage 4.** `status: published`, TAXONOMY row
+  updated in the same commit, no audio required and no sign-off gate. Drafting runs as far ahead
+  as there are tokens for it.
+- **A course is not *finished* until every lesson has an episode.** That word keeps its meaning,
+  and `curriculum/audio-debt.yaml` keeps measuring the gap. Do not call a course finished, in the
+  queue or anywhere else, while it owes episodes.
+- **The debt file may now grow**, which the ratchet in its header previously forbade outside a
+  reset. A newly published course adds its lesson count in the same commit that publishes it. The
+  ratchet still holds per course: an existing entry may only shrink. Adding a new course is not
+  the failure the ratchet was built to catch; that failure was a course quietly shipping without
+  audio and nobody counting it, and a new entry counts it.
+- **Episodes are rendered in Core term order**, trailing the drafting, at whatever rate the
+  monthly Gemini cap allows. `docs/PODCAST_PIPELINE.md` section 3 holds the order.
+
+What has not changed: the order inside a course, the order courses are written in, and the rule
+that a lesson's audio is never paid for before its content is settled.
 
 ---
 

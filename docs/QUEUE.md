@@ -12,47 +12,57 @@ through.
 
 Rewrite these five lines each session. Nothing else goes in this block.
 
-- **Current course:** How to Learn Anything is **finished**: eight lessons, eight episodes, off the
-  debt ledger. Next is Logic and Argument. Reading Well's drafting runs alongside.
-- **Current lesson:** none in flight. On audio, Logic and Argument lessons 1 to 3 have scripts
-  written and fact-checked; lessons 4 to 10 need scripts, which cost nothing. On content, Reading
-  Well lesson 2 is next: `/draft-lesson courses/foundations/reading-well 2`, one lesson a session,
-  after reading that course's `research/reviews/course-wide.md`.
-- **Current stage:** Stage 6, one episode at a time. `docs/PODCAST_PIPELINE.md` is the manual.
-- **Blocked on:** nothing. September's Gemini cap has about $4.40 left of $30, resetting on the 1st;
-  Logic and Argument's ten episodes need about $2.
-- **Next action:** `node scripts/podcast.mjs render courses/foundations/logic-and-argument/lessons/01-what-an-argument-is.md`
-  then `--go`. Its script is ready. After lessons 1 to 3, write the remaining seven with
-  `/make-podcast`, one per session.
+- **Current course:** Reading Well, on content. How to Learn Anything is **finished**: eight
+  lessons, eight episodes, all eight live in R2, off the debt ledger. It is the only course
+  finished by the institute's own definition.
+- **Current lesson:** Reading Well lesson 2 of ten. `/draft-lesson courses/foundations/reading-well 2`,
+  one lesson a session, after reading that course's `research/reviews/course-wide.md`.
+- **Current stage:** Stage 3 on content. Audio runs as a **separate track that trails it**, in Core
+  term order, at whatever the month's Gemini cap allows. `docs/PODCAST_PIPELINE.md` is the manual.
+- **Two tracks now, decided 2026-09-17** (`docs/DECISIONS.md` §2). Drafting spends tokens and
+  rendering spends money, and the two refill on different clocks, so **a course publishes when its
+  lessons pass Stage 4 and owes its episodes on the ledger.** Keep writing courses whenever there
+  are tokens; render episodes whenever there is budget. Do not hold a finished course off the site
+  waiting for audio, and do not call a course "finished" while it owes episodes.
+- **Blocked on:** nothing. September's Gemini cap has about $4.40 left of $30, resetting on the 1st.
+- **Next action, content:** `/draft-lesson courses/foundations/reading-well 2`.
+  **Next action, audio (when there is budget):**
+  `node scripts/podcast.mjs render courses/foundations/logic-and-argument/lessons/01-what-an-argument-is.md`
+  then `--go`. Its script is ready. Writing the remaining seven Logic scripts with `/make-podcast`
+  costs nothing at the API and can happen any time.
 
 ## The queue, top to bottom
 
 A course is done when every lesson is at standard **and** every lesson has an episode. `npm run
 validate` enforces the second half against `curriculum/audio-debt.yaml`, which only shrinks.
 
-**All seven live courses are through Stage 4 and the voice pass, so every one is ready for
-episodes.** Fifty-three are owed, about $11 in total, at a measured $0.20 each. The order is Core
-term order, costed per course in `docs/PODCAST_PIPELINE.md` section 3. Finish a course before
-starting the next.
+**All seven live courses are through Stage 4, so every one is ready for episodes.** Fifty-three
+are owed. **The order and the per-course costs live in `docs/PODCAST_PIPELINE.md` section 3 and
+are not restated here**, because two copies drifted: this file said $2.00 for Logic and Argument
+while the manual said $2.24, and a session has to stop and reconcile them before it can work.
+`curriculum/audio-debt.yaml` is the ledger. Finish a course before starting the next.
 
 **How to Learn Anything is done**, finished 2026-09-18: eight episodes, $1.61, every one passing on
-its first attempt. It is the first course finished by the institute's own definition.
+its first attempt, all eight live in R2. It is the first course finished by the institute's own
+definition.
 
-1. **Logic and Argument, all ten.** Term 1, about $2.00. Lessons 1 to 3 have scripts; seven need
-   writing, which costs nothing at the API.
-2. **Writing Clearly, all nine.** Term 1, about $1.80. Voice pass finished 2026-09-17 and was light.
-   No scripts yet. Finishing this one **completes Term 1 of the Core**.
-3. **Personal Finance, all ten.** Term 2, about $2.00. Lessons 1 to 3 have scripts.
-4. **Algebra Essentials, all six.** Term 5, about $1.20.
-5. **Python Basics, all six.** Term 6, about $1.20.
-6. **Bible Basics, all twelve.** Term 8, about $2.40. Lesson 2 has a script.
-7. **`npm run quiz` lists 19 quizzes tripping the shape heuristic** (option-length spread over 25
+Audio, in order: **Logic and Argument** (3 of 10 scripts written), then Writing Clearly, Personal
+Finance (3 scripts), Algebra Essentials, Python Basics, Bible Basics (1 script).
+
+**The seven scripts written before the settled pipeline run long**: 1,259 to 1,539 words against a
+measured band of 1,036 to 1,178. Trim each to about 1,150 when its render comes up, or accept about
+seven cents an episode and a longer run. Two of them (`bible-basics/02`, `personal-finance/01`) also
+still name the retired engine's voices in `about:`. None of this blocks a render; the gate passes
+them.
+
+1. **`npm run quiz` lists 18 quizzes tripping the shape heuristic** (option-length spread over 25
    characters, adjacent repeats, unused positions) without being winnable by a reader who read
    nothing. Worst is Personal Finance 6 at a 174-character spread. Decide one thing when it comes
-   up: tighten the 19, or raise the threshold and say why. Not both.
-8. **Then the Foval Core in order, one course at a time, each finished before the next starts.**
-   **Reading Well: lesson 1 of ten is written and through two Stage 4 rounds as of 2026-09-17**,
-   drafting ahead of its audio under the §2 exception. Ten lessons are planned in
+   up: tighten the 18, or raise the threshold and say why. Not both.
+2. **Then the Foval Core in order, one course at a time.**
+   **Reading Well: lesson 1 of ten is written and through two Stage 4 rounds as of 2026-09-17.**
+   It publishes when its ten lessons pass Stage 4, adding `reading-well: 10` to
+   `curriculum/audio-debt.yaml` in the same commit. Ten lessons are planned in
    `research/OUTLINE.md`, with a course-end test and a project.
    **Next: `/draft-lesson courses/foundations/reading-well 2`, one lesson a session.**
    **Read `research/reviews/course-wide.md` before drafting anything here.** It carries two standing
@@ -95,8 +105,8 @@ These have no session that owns them, which is how they were being skipped.
 
 Sixty-one lessons live, eight with audio, all eight rendered on 2026-09-18 on the settled pipeline.
 Reading Well is the eighth course and is `status: drafting`, so its one finished lesson is not on the
-site and is not counted above; it publishes when its ten lessons are done and the courses ahead of it
-have their episodes (`docs/DECISIONS.md` §2).
+site and is not counted above; it publishes when its ten lessons are through Stage 4, owing ten
+episodes on the ledger (`docs/DECISIONS.md` §2).
 The count had fallen to one that day: every episode shipped before it faded out by its end and was
 deleted at John's instruction. They come back course by course. See `docs/DECISIONS.md` section 7. `/status` recomputes this table and rewrites it here
 when it has drifted.

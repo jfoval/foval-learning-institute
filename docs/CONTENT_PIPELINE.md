@@ -104,7 +104,7 @@ Two of the passes can also run alone: `/fact-check <lesson>` and `/neutrality-au
 The voice checks (no em dashes, nothing from the banned list, bold only on key terms, two or three predicts, a checkpoint after each hard idea, a gap in one worked example, read aloud) run inside Stage 4's fix step; `review-lesson.md` lists them. `/voice-pass` still exists for a lesson that Stage 4 flags as generically written or that feedback sends back, and is not a stage of its own: fifteen lessons through it on 2026-09-17 found nothing the fix step had not already done (`docs/DECISIONS.md` §13).
 
 ### Stage 5: Publish
-When every lesson has passed Stage 4, set `status: published`, run `npm run build`, commit, push. GitHub Pages deploys. There is no separate sign-off gate: the owner reads courses as a learner, and that reading, together with everyone else's feedback, is Stage 7.
+When every lesson has passed Stage 4, set `status: published`, update its TAXONOMY.md row in the same commit, run `npm run validate`, commit, push. The Pages workflow runs `npm run build` in CI and publishes `dist/`; nothing generated is committed. There is no separate sign-off gate: the owner reads courses as a learner, and that reading, together with everyone else's feedback, is Stage 7.
 
 ### Stage 6: Podcast — `/make-podcast <path/to/lesson.md>`
 **Every lesson gets its podcast when its content settles** (after the Stage 4 review and the
@@ -112,7 +112,7 @@ voice pass), never before, so audio is not paid for twice. The episode
 is a six-minute two-host conversation: John (S1, the teaching voice) and Haley (S2, the
 curious one). The command writes the script from the lesson (every claim must appear in
 the lesson; the script adds nothing), fact-checks it in a fresh-context subagent before
-any money is spent, then hands off to `scripts/podcast.mjs` to render on Gemini 3.1 Flash
+any money is spent, then hands off to `scripts/podcast.mjs` to render on Gemini 2.5 Pro
 TTS, the whole episode in one call (~$0.22), upload to R2, and stamp `audio:` into the lesson
 frontmatter. **`docs/PODCAST_PIPELINE.md` is the operating manual**: the method, the measured cost,
 the order to render courses in, and the five rules that keep the spending sane.

@@ -1,9 +1,12 @@
-// Build: compile courses/**/course.yaml + lessons/*.md into site/data/courses.js
+// Build: compile courses/**/course.yaml + lessons/*.md, plus site/, into git-ignored dist/.
 // Usage: node scripts/build.mjs [--check] [--drafts]
 //
+// site/ is source and this never writes to it. The Pages workflow runs the build in CI and
+// publishes dist/, so nothing generated belongs in git.
+//
 // --drafts also compiles courses that are still `drafting`, so a draft can be read in the
-// real site before it is published. The output is a PREVIEW: never commit site/data/courses.js
-// after a --drafts build. Run a plain `npm run build` to put it back.
+// real site before it is published. That output is a PREVIEW; run a plain `npm run build`
+// to put dist/ back to what CI would publish.
 import fs from "node:fs";
 import path from "node:path";
 import yaml from "js-yaml";
@@ -828,6 +831,21 @@ function checkAudio() {
     prev = yaml.load(execFileSync("git", ["show", "HEAD:curriculum/audio-debt.yaml"], { cwd: ROOT, encoding: "utf8", stdio: ["ignore", "pipe", "ignore"] })) || {};
   } catch { /* not a git checkout, or no HEAD yet: nothing to ratchet against */ }
 
+  // Lesson count for a published course id, or null. Used by the ratchet: a course may open a
+  // ledger line at its full lesson count on the commit that publishes it, and never otherwise.
+  const lessonCount = id => {
+    for (const school of fs.readdirSync(COURSES_DIR, { withFileTypes: true }).filter(d => d.isDirectory())) {
+      for (const cdir of fs.readdirSync(path.join(COURSES_DIR, school.name), { withFileTypes: true }).filter(d => d.isDirectory())) {
+        const dir = path.join(COURSES_DIR, school.name, cdir.name);
+        let meta;
+        try { meta = yaml.load(fs.readFileSync(path.join(dir, "course.yaml"), "utf8")); } catch { continue; }
+        if (!meta || meta.id !== id || meta.status !== "published") continue;
+        try { return fs.readdirSync(path.join(dir, "lessons")).filter(f => f.endsWith(".md")).length; } catch { return null; }
+      }
+    }
+    return null;
+  };
+
   if (prev) {
     // A reset is the one way the debt may grow: episodes that shipped are being deliberately
     // withdrawn and re-rendered, which is John's call and nobody else's. It authorises exactly the
@@ -844,7 +862,13 @@ function checkAudio() {
     for (const [id, n] of Object.entries(owed)) {
       const was = (prev.owed || {})[id];
       if (allowedRaise(id, n)) continue;
-      if (was === undefined) errors.push(`curriculum/audio-debt.yaml: "${id}" was not in the committed file. The debt ledger only shrinks; a course drafted today gets its episodes before the next lesson, and never appears here. To withdraw episodes that shipped, record a reset (see the header of that file).`);
+      // A newly published course may open its own line, and only at its full lesson count.
+      // DECISIONS.md section 2: audio gates "finished", not "published", so a course goes live
+      // owing every episode and the ledger is where that is counted. At the full count and no
+      // lower: a course that already has some episodes cannot get a fresh line hiding partial
+      // debt, because the exact-match check further down would then refuse the number anyway.
+      if (was === undefined && n === lessonCount(id)) continue;
+      if (was === undefined) errors.push(`curriculum/audio-debt.yaml: "${id}" was not in the committed file, and ${n} is not its lesson count (${lessonCount(id) ?? "no such published course"}). A course may open a line here only when it publishes, owing an episode for every lesson; after that the number only shrinks. To withdraw episodes that shipped, record a reset (see the header of that file).`);
       else if (n > was) errors.push(`curriculum/audio-debt.yaml: "${id}" went from ${was} to ${n}. The debt ledger only shrinks; render the episode instead, or record a reset (see the header of that file).`);
     }
   }
@@ -1041,5 +1065,5 @@ console.log(`stamped assets: ${Object.entries(stamped).map(([a, h]) => `${path.b
    the quiz, progress and review live in the app, and the page links there. These pages and the
    sitemap are generated at deploy and not committed (see .gitignore). */
 if (!DRAFTS) writeStaticPages(html, courses);
-if (DRAFTS) console.warn("\nPREVIEW BUILD: drafting courses are in this output. Do NOT commit site/data/courses.js.\nRun `npm run build` to put it back.");
+if (DRAFTS) console.warn("\nPREVIEW BUILD: drafting courses are in dist/. Run `npm run build` before you trust\nwhat you see; nothing here is committed either way.");
 }

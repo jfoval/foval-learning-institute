@@ -195,7 +195,8 @@ node scripts/podcast.mjs plan   courses/<school>/<course>/lessons/<id>.md
 7. **Upload and stamp**: `node scripts/podcast.mjs upload <lesson>` then `stamp`.
 8. **Lower the debt** by one in `curriculum/audio-debt.yaml`, in the same commit, and delete the
    entry at zero.
-9. **`npm run validate`**, then `npm run build` and commit whatever it changed under `site/`.
+9. **`npm run validate`**, and commit the script and the stamped lesson. Nothing generated is
+   committed: the build writes to git-ignored `dist/` and the Pages workflow publishes it from CI.
 
 If step 5 fails, read what it says, fix the cause, and run it again deliberately. Do not wrap it in a
 loop. That is rule 4, and it cost $25 to learn.
@@ -225,7 +226,7 @@ holds `GEMINI_API_KEY`), and run `npm ci`. One was set up this way on 2026-09-18
 **Whatever copy you are in, stage what you touched, by name:**
 
 ```bash
-git add courses/<school>/<course>/lessons/<id>.md curriculum/audio-debt.yaml site/
+git add courses/<school>/<course>/lessons/<id>.md courses/<school>/<course>/podcast/<id>.script.md curriculum/audio-debt.yaml
 ```
 
 Run `git status` first and read it. A file you did not touch is somebody else's work in progress;

@@ -9,13 +9,18 @@
 #   - owe MORE than the number here  -> the build fails. Render the episode.
 #   - owe FEWER                      -> the build fails. Lower the number in the same commit.
 #   - owe none                       -> delete the entry.
-# So the debt can only shrink, and it is visible in one place instead of being argued about in a
-# handoff paragraph. When this file is empty, every live course is finished by John's definition.
+# So an existing number can only shrink, and the debt is visible in one place instead of being
+# argued about in a handoff paragraph. When this file is empty, every live course is finished.
 #
-# It exists because the rule arrived after 47 episodes were already owed. Failing the build on all
-# of them would have meant nobody could commit anything, so the debt was written down instead.
-# Do not add a course here to get past the check on work you are doing now. If you are drafting a
-# course today, it gets its episodes before you move on, and it never appears in this file.
+# A COURSE OPENS ITS OWN LINE WHEN IT PUBLISHES, at its full lesson count, in the same commit that
+# sets `status: published`. That is DECISIONS.md section 2, decided 2026-09-17: audio gates the
+# word "finished", not publishing, because drafting spends tokens and rendering spends money and
+# the two budgets refill on different clocks. The build accepts a new entry ONLY at the course's
+# exact lesson count, so a course cannot slip in here already missing some episodes with nobody
+# counting them. Once the line exists it only shrinks. Pinned by tests in scripts/tests/build.test.mjs.
+#
+# The file exists because the rule arrived after 47 episodes were already owed. Failing the build
+# on all of them would have meant nobody could commit anything, so the debt was written down.
 #
 # Opened 2026-09-09 with the debt as it stood that day: 47 episodes across six courses.
 #

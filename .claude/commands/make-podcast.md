@@ -21,8 +21,12 @@ episode is already live and stamped, stop.
 
 **1. Write the script**, at `courses/<school>/<course>/podcast/<lesson-id>.script.md`
 (create the folder if needed). Model it on
-`courses/christian-studies/bible-basics/podcast/02-one-story.script.md`, the first real
-episode:
+`courses/learning-and-mind/how-to-learn-anything/podcast/01-learning-is-not-performance.script.md`,
+the episode John approved by ear and the one `scripts/podcast/hosts.json` is fingerprinted from.
+The other seven in that folder are the rest of the only course rendered end to end on the settled
+pipeline, so they are the shape that is known to work. Do not model on the older scripts under
+`bible-basics/`, `logic-and-argument/` or `personal-finance/`: they were written for a retired
+engine, some still name its voices in `about:`, and all seven run long (1,259 to 1,539 words):
 
 - Frontmatter: `source:` (the lesson path), `written_by:`, `about:`, `speakers: 2`,
   `approx_minutes:`. Leave `checked:` out until step 2 has actually run.
@@ -32,8 +36,10 @@ episode:
   episode comes out in one voice. `podcast.mjs` refuses an S1 opening before any money is spent.
   The opening is: `S2: Welcome in. This is the Foval Learning Institute podcast, where the two
   of us talk a lesson through. I'm Haley.` then `S1: And I'm John. Today we're in <course>...`
-- Length: 900–1,100 words, about six minutes. A long lesson still gets a six-minute
-  episode; the episode sells the lesson, it does not replace it.
+- Length: 1,000 to 1,200 words, about six to seven minutes. That is the measured band: the
+  eight episodes of How to Learn Anything ran 1,036 to 1,178 words and billed $0.20 each. A long
+  lesson still gets a six-minute episode; the episode sells the lesson, it does not replace it.
+  Over about 1,300 words the cost climbs with nothing gained.
 - Intro names the podcast, both hosts, the course, and the lesson title. Sign-off sends
   the listener to the full lesson at Foval Learning Institute dot org and asserts nothing
   factual beyond that.

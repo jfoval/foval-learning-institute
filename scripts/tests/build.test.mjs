@@ -187,6 +187,39 @@ test("a reset naming a different number does not authorise the raise", () => {
   assert.ok(r.out.includes("went from 1 to 2"), r.out);
 });
 
+/* A course may open its own ledger line on the commit that publishes it, and only at its full
+   lesson count. DECISIONS.md section 2: audio gates "finished", not "published", so a course goes
+   live owing every episode. Opening a line at anything less would be a course shipping with some
+   episodes missing and nobody counting them, which is the failure the ratchet exists to catch. */
+
+function publishedWithAudioFixture() {
+  const { root, course } = fixture();
+  fs.writeFileSync(path.join(course, "lessons", "01-good.md"), GOOD_LESSON.replace("minutes: 20", "minutes: 20\naudio: https://example.org/ep.mp3"));
+  fs.writeFileSync(path.join(course, "podcast", "01-good.script.md"), "---\nchecked: 2026-09-10 PASS\n---\nS1: Hello.\n");
+  fs.writeFileSync(path.join(root, "curriculum", "audio-debt.yaml"), "owed: {}\n");
+  const git = (...a) => spawnSync("git", ["-c", "user.email=t@t", "-c", "user.name=t", ...a], { cwd: root, encoding: "utf8" });
+  git("init", "-q"); git("add", "-A"); git("commit", "-q", "-m", "fixture");
+  return { root, course };
+}
+
+test("a newly published course may open a debt line at its full lesson count", () => {
+  const { root, course } = publishedWithAudioFixture();
+  fs.writeFileSync(path.join(course, "lessons", "01-good.md"), GOOD_LESSON);
+  fs.writeFileSync(path.join(root, "curriculum", "audio-debt.yaml"), "owed:\n  sample: 1\n");
+  const r = check(root);
+  assert.equal(r.status, 0, r.out);
+});
+
+test("a new debt line below the course's lesson count is refused", () => {
+  const { root, course } = publishedWithAudioFixture();
+  fs.writeFileSync(path.join(course, "lessons", "01-good.md"), GOOD_LESSON);
+  fs.writeFileSync(path.join(course, "lessons", "02-more.md"), GOOD_LESSON.replace("01-good", "02-more"));
+  fs.writeFileSync(path.join(root, "curriculum", "audio-debt.yaml"), "owed:\n  sample: 1\n");
+  const r = check(root);
+  assert.equal(r.status, 1, r.out);
+  assert.ok(r.out.includes("is not its lesson count"), r.out);
+});
+
 test("the fixture course validates clean", () => {
   const { root } = fixture();
   const r = check(root);

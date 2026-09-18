@@ -61,13 +61,14 @@ repo as Markdown; a build script compiles it into a static site. Read this file,
    sign-off gate: a course goes live once its lessons have passed Stage 4 and the voice pass, and
    improves afterwards through the feedback loop. The build ships only `status: published` courses.
    Never hold a course for John to review. `npm run validate` fails if the two disagree.
-6. **A course is finished when every lesson is at standard and every lesson has a podcast episode,
-   rendered, uploaded and stamped.** `npm run validate` fails on a published course that owes more
-   episodes than `curriculum/audio-debt.yaml` records, and the debt there may only shrink. Do not
-   start the next course while the current one is short of episodes, with one exception: when the
-   episodes are blocked on something outside the repo (a key, a credential, John's ear), the next
-   course may be drafted through Stage 4, but it is not published until the courses ahead of it
-   have their episodes. `docs/DECISIONS.md` §2 has the reasoning.
+6. **Audio gates "finished", not "published".** A course goes live when every lesson has passed
+   Stage 4: set `status: published`, no audio required. A course is not **finished** until every
+   lesson has an episode rendered, uploaded and stamped, and that word is not used loosely.
+   `npm run validate` fails on a published course that owes more episodes than
+   `curriculum/audio-debt.yaml` records, so **a course being published adds its lesson count to
+   that file in the same commit**. An existing entry may still only shrink. Drafting runs ahead as
+   far as tokens allow; episodes trail it in Core term order as budget allows.
+   `docs/DECISIONS.md` §2 has the reasoning.
 7. **Commit messages:** short imperative subject; body says what changed and why. Content commits
    name the course and lesson.
 8. **Finish the job without asking permission for the routine parts of it.** When work is done and

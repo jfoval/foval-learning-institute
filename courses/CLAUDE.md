@@ -48,9 +48,10 @@ knowledge for each stage, including the list of defects this drafter repeats.
    standards 3.7: taught from within the faith, labelled as such, objections engaged at full
    strength. Neutral schools never assert or mock religious claims either way.
 7. **Run `npm run validate` before committing any lesson change**, and check its exit code, not its
-   output. Then run `npm run build` and commit whatever changes under `site/`, in the same commit,
-   whenever the site reads what you touched. Root `CLAUDE.md` rule 4 has the detail: it is not only
-   publishing, because the Path page lists every course whatever its status.
+   output. **Nothing generated is committed**: `npm run build` writes the whole site into
+   git-ignored `dist/`, and the Pages workflow builds and publishes it in CI. `site/` is source and
+   the build never writes to it, so a build leaves the tree clean and there is nothing to stage.
+   Root `CLAUDE.md` rule 4 has the reasoning.
 
 ## Lesson file format
 

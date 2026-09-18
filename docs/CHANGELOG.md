@@ -11,6 +11,47 @@ Older entries refer to `docs/BACKLOG.md`, which was split on 2026-09-09 into `do
 unstarted work) and this file. Its section numbers survive only in those entries and in a few
 split-seam comments inside Bible Basics lessons, which point at `docs/DECISIONS.md` §5.
 
+## 2026-09-18 — Audio gates "finished", not "published", and a docs pass over the dist/ move
+
+**The decision.** John set the plan out directly: writing a course spends tokens and rendering its
+episodes spends money, and the two budgets refill on different clocks. Holding finished lessons off
+the site until their audio is paid for spends the scarce budget to withhold the plentiful one. So a
+course now goes live when every lesson has passed Stage 4, and the word **finished** keeps its
+meaning: a course is not finished until every lesson has an episode. `docs/DECISIONS.md` §2 was
+rewritten, replacing the narrower exception decided the day before (which let only the *next*
+course draft ahead of its audio), and root `CLAUDE.md` rule 6 with it.
+
+**The ledger follows the decision.** `curriculum/audio-debt.yaml` previously refused any entry that
+was not already in the committed file, which would have made publishing a course impossible under
+the new rule. It now accepts a **new** entry at the course's **exact lesson count** and nothing
+else, so a course may open a line on the commit that publishes it, owing every episode, and cannot
+slip in already missing some with nobody counting them. An existing number still only shrinks.
+Two tests pin both halves, per the rule in `scripts/CLAUDE.md` that a check without a test is a
+check that can stop firing quietly.
+
+**The docs pass.** Yesterday's move of the build into git-ignored `dist/` left five places still
+telling a session to commit the generated site. The worst was `courses/CLAUDE.md` rule 7, which
+loads automatically in every content session: it said to run `npm run build` and commit whatever
+changed under `site/`, so a session would build, find a clean tree, and go looking for what it had
+missed. Also fixed: `docs/PODCAST_PIPELINE.md` §7 step 9 and its `git add` example, the Stage 5
+instructions in `docs/CONTENT_PIPELINE.md`, and two comments in `scripts/build.mjs` including the
+`--drafts` warning printed to the console, which named a file that is no longer in git.
+
+**Two other drifts closed.** `docs/CONTENT_PIPELINE.md` still named **Gemini 3.1 Flash TTS** as the
+engine, which is the one that was replaced on 2026-09-18 for fading; it is Gemini 2.5 Pro.
+And `/make-podcast` pointed the drafter at `bible-basics/02-one-story.script.md` as the model
+episode. That script was written for the retired engine, still names its voices, and at 1,303 words
+breaks the length rule stated three bullets below it. The exemplar is now How to Learn Anything
+lesson 1, the episode John approved by ear and the one `scripts/podcast/hosts.json` is fingerprinted
+from, and the length band is the measured one: 1,000 to 1,200 words, which is what the eight
+episodes that billed $0.20 each actually ran.
+
+**Recorded, not fixed.** The seven scripts written before the settled pipeline run 1,259 to 1,539
+words against that band. They pass the gate; they just cost about seven cents more each and run
+long. `docs/QUEUE.md` says to trim each to about 1,150 when its render comes up.
+
+---
+
 ## 2026-09-18 — Reading Well is started: researched, outlined, and its first lesson at standard
 
 **The first course the institute has built from nothing.** Everything before it was either a
