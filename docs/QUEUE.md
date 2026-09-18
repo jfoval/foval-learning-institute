@@ -21,12 +21,19 @@ and it never feels that way while you are writing it.
 
 Rewrite these five lines each session. Nothing else goes in this block.
 
-- **Lessons 7 and 8 are both through Stage 4 and applied.** Lesson 9, "Installing software, and
-  what you are trusting", is next; `npm run state` names it. **Read lesson 8's review file before
-  drafting 9**, in particular its cold-start finding: six terms this course had never defined
-  (encryption, HTTPS, cookie, certificate, padlock, and "IP address") were being used as though it
-  had. Lesson 9 is about signatures, stores and package managers and will want several more. Check
-  `npm run taught` and lessons 1 to 8 before assuming a word is available.
+- **Digital Literacy lessons 1 to 12 are drafted, reviewed, applied and scripted.** The only
+  content work left on the course is lesson 13, which is blocked on John below. **Read lesson 8's
+  review file before drafting anything else here**, in particular its cold-start finding: six terms
+  this course had never defined (encryption, HTTPS, cookie, certificate, padlock, and "IP address")
+  were being used as though it had, and the same defect came back in lesson 9. Check
+  `npm run taught` and the earlier lessons before assuming a word is available.
+
+- **The app-store Stage 1 gap is closed, on 2026-09-18.** Seven sources are now under lesson 9's
+  app-store column, and three new misconceptions came out of them. `docs/CHANGELOG.md` has it. The
+  one figure worth carrying forward into any lesson that touches install routes: Kotzias et al.
+  (IEEE S&P 2021) measured that Play has the best defences of any route **and** is the source of 67%
+  of unwanted installs, because it is the source of 87% of installs. Safest per install, largest in
+  absolute terms.
 
 - **The binding limit on audio is requests per day, not money, and that is new.** John opened
   [aistudio.google.com/rate-limit](https://aistudio.google.com/rate-limit) on 2026-09-18: the
@@ -115,14 +122,6 @@ Rewrite these five lines each session. Nothing else goes in this block.
   looking, and only 25% change anything.
 
   Everything else on the course is ready. Lessons 1 to 12 are drafted, reviewed and applied.
-
-- **A Stage 1 gap, found by lesson 9's review and not filled.** The course teaches a three-route
-  comparison for installing software (app store, package manager, browser download) and
-  `research/SOURCES.md` **has no app-store entry at all**. Lesson 9's whole app-store column, and its
-  "if it is in the app store it is safe" misconception, currently rest on general knowledge, against
-  `courses/CLAUDE.md` rule 1. The lesson is written so that nothing false is claimed, and the gap is
-  real. **Stage 1 on app-store review policies and code signing** would close it, and it would also
-  serve lesson 12 and the project.
 
 - **The outline disagrees with itself about lesson 11.** The lesson 9 entry promises that lesson 11
   asks the same four-party question about a message that lesson 9 asks about a program. The lesson 11

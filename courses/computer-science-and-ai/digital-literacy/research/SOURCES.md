@@ -256,6 +256,134 @@ from primary guidance and the research literature, not from a text.
   attach any figure to 2023. The conclusion is unaffected: the padlock has no remaining value as a
   safety signal, and any lesson repeating "look for the padlock" is teaching folklore.
 
+### App stores, code signing and the three install routes
+
+*Added 2026-09-18 to close a gap this course's own lesson 9 review found: the course teaches a
+three-route comparison for installing software, and the app-store column had no source under it at
+all. This block is the app-store column. It also serves lesson 12 and the project.*
+
+- **Apple, *App Review Guidelines* (developer.apple.com/app-store/review/guidelines/).** **Read**:
+  the introduction and the Safety section, fetched directly. The document is arranged into five
+  sections its own introduction names: **Safety, Performance, Business, Design, Legal**. Two
+  sentences carry everything this course needs from it. On what review is: "every app is reviewed by
+  experts and an editorial team helps users discover new apps every day. We also scan each app for
+  malware and other software that may impact user safety, security, and privacy." So it is **human
+  review plus automated scanning**, and Apple claims both. On who is accountable for what is inside
+  an app: "You are responsible for making sure everything in your app complies with these
+  guidelines, including ad networks, analytics services, and third-party SDKs, so review and choose
+  them carefully." **That second sentence is the teaching sentence.** It is Apple saying, in its own
+  rulebook, that the reviewer is not auditing the third-party code inside a submission; the
+  developer is warranting it. A learner who understands that understands why "it was in the App
+  Store" is a claim about a submission passing a policy check, not about every line in it having
+  been read. Guideline 2.5.3 is the anti-malware rule and is worth a clause, no more: apps that
+  transmit "viruses, files, computer code, or programs that may harm or disrupt the normal operation
+  of the operating system" are rejected, and "egregious violations and repeat behavior" cost the
+  developer their Apple Developer Program membership. Note what the guidelines do **not** give: no
+  timelines, no split between what a human reads and what a scanner catches, no rejection rates. A
+  lesson may not invent them.
+
+- **Apple, "The App Store stopped over $2.2 billion in fraudulent transactions in 2025" (Apple
+  Newsroom, May 2026).** **Read at press-release level**; this is Apple's own annual fraud-prevention
+  analysis and it is the only place Apple publishes review volumes. For 2025 it reports **over 2
+  million problematic app submissions rejected**, **193,000 developer accounts terminated** over
+  fraud concerns, **over 138,000 developer enrolments rejected**, and more than 1.1 billion
+  fraudulent account creations blocked. Best for: establishing that review is a real filter
+  operating at scale rather than a rubber stamp. Worst for: anything about what gets *through*, which
+  the release does not discuss and has no reason to. **It is a company reporting on itself**, with no
+  external audit and no denominator published alongside the numerator, so a lesson should attribute
+  it to Apple by name rather than stating it as a fact about the world. Paired with the Google post
+  below it also makes a quieter point worth having: the two stores publish different metrics on
+  different schedules, so **the two cannot be compared**, and a learner should be suspicious of any
+  article that compares them.
+
+- **Google, "Keeping Google Play and the Android app ecosystem safe in 2025" (blog.google, 19
+  February 2026).** **Read in full.** Google's counterpart, and it publishes more mechanism than
+  Apple does. For 2025: **over 1.75 million policy-violating apps prevented from being published**,
+  **more than 80,000 bad developer accounts banned**, **over 255,000 apps** stopped from reaching
+  sensitive user data, **over 10,000 safety checks run on every published app**, and Google Play
+  Protect scanning **over 350 billion Android apps daily**. Two figures in it matter more than the
+  headline. First, Play Protect's real-time scanning "identified more than 27 million" new malicious
+  apps **from sources outside the Play Store**, which is the number that says what the store is
+  actually holding back. Second, the trend runs *down*: 2.28 million blocked in 2023, 2.36 million
+  in 2024, 1.75 million in 2025, which Google reads as deterrence working. **A lesson should treat
+  that reading with care**: fewer blocked submissions is equally consistent with better evasion, and
+  Google is not a neutral party on the question. Use the figure, state Google's interpretation as
+  Google's, and say the alternative reading exists. Same self-reporting caveat as Apple.
+
+- **Apple, "Gatekeeper and runtime protection in macOS" (Apple Platform Security guide,
+  support.apple.com).** **Read.** The load-bearing description of what happens on a Mac when you
+  open something you downloaded outside the store: "Gatekeeper verifies that the software is from an
+  identified developer, is notarized by Apple to be free of known malicious content, and hasn't been
+  altered." The guide adds that **all software in macOS is checked for known malicious content the
+  first time it's opened**, and that Gatekeeper requests user approval before opening downloaded
+  software. **Three separate claims live in that one sentence and the course should split them**:
+  *who* signed it (identity), *whether it has been tampered with since* (integrity), and *whether a
+  scanner has seen known malware in it* (the weakest of the three, and the one that says "known").
+
+- **Apple's notary service.** **Read at documentation-summary level** via Apple's developer
+  documentation on notarizing macOS software; the page itself resisted direct fetching and the
+  description below is Apple's own wording as carried in its documentation index and developer news.
+  Apple's definition: the notary service is **an automated system that scans software for malicious
+  content, checks for code-signing issues, and returns the results quickly**. Apple also states that
+  software distributed through the Mac App Store does not need notarizing, because the App Store
+  submission process already includes equivalent security checks. **Notarization is therefore not
+  App Review**, and the course must not let the two blur: one is an automated malware scan attached
+  to a signing identity, the other is a policy review with people in it. This is the cleanest
+  available illustration of the distinction the whole lesson turns on, which is that **a signature
+  answers "who" and not "is this good"**.
+
+- **Microsoft, "Microsoft Defender SmartScreen overview" (Microsoft Learn, updated 23 April 2026).**
+  **Read in full.** The Windows equivalent, and it is built on a different idea from Apple's, which
+  is exactly why it is worth teaching alongside. SmartScreen decides whether to warn about a
+  download by "checking downloaded files against a list of files that are well known and downloaded
+  frequently. If the file isn't on that list, Microsoft Defender SmartScreen shows a warning,
+  advising caution." And, on the reputation model explicitly: "If a URL, a file, an app, or a
+  certificate has an established reputation, users don't see any warnings. If there's no reputation,
+  the item is marked as a higher risk and presents a warning to the user." **That is a reputation
+  check, not a safety check, and Microsoft says so plainly.** Two consequences a learner can be
+  walked to and should be: a brand-new, entirely honest program from a small developer **will** be
+  warned about, and a widely downloaded malicious one may not be. It also checks "the digital
+  signature used to sign a file", so reputation attaches to the certificate as well as the file,
+  which is why stolen and resold signing certificates are worth something. The page also carries a
+  limit worth a sentence: SmartScreen "protects against malicious files from the internet. It
+  doesn't protect against malicious files on internal locations or network shares."
+
+- **Platon Kotzias, Juan Caballero and Leyla Bilge, "How Did That Get In My Phone? Unwanted App
+  Distribution on Android Devices", IEEE Symposium on Security and Privacy 2021** (arXiv
+  2010.10088). **Abstract read in full and the headline results read directly; the body was not
+  opened.** This is the single most important source in this block, because it is the only one here
+  not written by a party with an interest in the answer, and because it settles the course's
+  app-store misconception with a measurement rather than an argument. Reputation logs from a large
+  security vendor, **7.9 million apps across 12 million devices, June to September 2019**. What it
+  found:
+  - Between **10% and 24% of devices** encounter at least one unwanted app. Not a rare event.
+  - **The Play market is responsible for 87% of all installs and 67% of unwanted app installs**, and
+    at the same time "has the best defenses against unwanted apps". **Both halves of that sentence
+    are true and the course needs both.** The official store is simultaneously the safest route per
+    install and the largest single source of unwanted apps by volume, for the ordinary reason that
+    it is where nearly everything is installed from. This is the exact shape of reasoning the
+    course wants to teach, and it is rare to find it in one measured sentence.
+  - Alternative markets distribute **5.7% of all apps but over 10% of unwanted apps**, so the rate
+    is roughly three times worse than Play's while the absolute count is far lower.
+  - **Bloatware accounts for 6% of unwanted installs**, which is to say preinstalled software the
+    user never chose is a real vector. Worth a sentence in lesson 9 and nowhere else.
+  - **Web downloads are rare but riskier even than alternative markets.** This is the direct
+    evidence for the course's third install route being the one that needs the most care.
+  - Backup restoration can carry an unwanted app across a phone replacement, which is a genuinely
+    surprising finding and connects lesson 9 to lesson 12.
+
+  **What this source cannot support**: it is 2019 data, Android only, from one vendor's telemetry, on
+  devices running that vendor's product, and "unwanted" bundles malware with potentially unwanted
+  programs. Every figure from it must carry its year. Nothing in it says anything about iOS, and a
+  lesson must not generalise the ratios to Apple's store.
+
+**What this block still does not cover, for the next session.** Nothing here is a source on the
+*mechanics* of code signing (what a certificate authority attests, how revocation works, what a
+signature actually is cryptographically). The course gets away with that at its level, because
+lesson 9 teaches signing as "who", not as mathematics, and lesson 8 already teaches certificates
+for the web. If a later lesson or the project needs the mechanics, that is a Stage 1 gap and this
+paragraph is the note saying so.
+
 ---
 
 ## The research literature on what people actually believe
@@ -439,12 +567,28 @@ Beyond the four studies above, which supply most of this list:
   teaching experience, not as evidence: no study is cited for the prevalence claim, and a lesson
   should not state that "a generation" cannot use folders. It is, however, a live enough phenomenon
   to justify teaching the file system explicitly rather than assuming it.
-- **"The padlock means the site is safe."** Over 90% of phishing sites served HTTPS by 2023. The
-  padlock certifies that the connection to *whatever domain is in the bar* is encrypted, and nothing
-  about who owns that domain.
+- **"The padlock means the site is safe."** 82% of phishing sites were served over HTTPS in Q2
+  2021, per PhishLabs in the APWG quarterly series, and 90% of the certificates they used were free
+  domain-validated ones. (**Use those figures and not the "over 90% by 2023" that this entry carried
+  until 2026-09-18**; the correction is in the APWG entry above, and no 2023 figure exists anywhere
+  in the series.) The padlock certifies that the connection to *whatever domain is in the bar* is
+  encrypted, and nothing about who owns that domain.
 - **"Incognito hides me."** The Habib numbers above, in detail.
 - **"Sync is backup."** Addressed at length below.
 - **"Complex beats long."** Addressed at length below.
+- **"If it is in the app store it is safe."** Kotzias et al. 2021 measured both halves of the
+  truth on Android in 2019: the Play market has the best defences of any route **and** is the source
+  of 67% of unwanted app installs, because it is the source of 87% of installs full stop. Safest per
+  install, largest in absolute terms. The store is a filter, not a guarantee, and Apple's own review
+  guidelines say the developer, not the reviewer, is responsible for the third-party code inside a
+  submission.
+- **"A warning means the program is dangerous, and no warning means it is fine."** Microsoft says
+  outright that SmartScreen warns when a file, app or certificate has **no established reputation**.
+  A new honest program is warned about; a popular bad one need not be. The warning is a statement
+  about how many people have seen the file before, not about what it does.
+- **"A signature means somebody checked it."** A signature answers *who* and *unaltered since*, not
+  *is this good*. Apple's notary service, the nearest thing to a check that rides along with a
+  signature, is by Apple's own description an automated scan for **known** malicious content.
 - **"Deleting removes it."** Kang found participants split between "once something is online it's
   there forever" and a vague belief that deletion works; neither group could say who held copies.
 

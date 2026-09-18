@@ -11,6 +11,43 @@ Older entries refer to `docs/BACKLOG.md`, which was split on 2026-09-09 into `do
 unstarted work) and this file. Its section numbers survive only in those entries and in a few
 split-seam comments inside Bible Basics lessons, which point at `docs/DECISIONS.md` §5.
 
+## 2026-09-18 — The app-store column of Digital Literacy now has research under it
+
+Lesson 9 teaches a three-route comparison for installing software, app store against package
+manager against browser download, and its Stage 4 review found that `research/SOURCES.md` had **no
+app-store entry at all**. The whole column, and the course's "if it is in the app store it is safe"
+misconception, rested on general knowledge, against `courses/CLAUDE.md` rule 1. Nothing false was
+printed; the gap was that nothing stopped something false being printed next.
+
+Stage 1 ran on it. Seven sources, about 1,700 words, in a new block under "Primary sources and
+official guidance": Apple's App Review Guidelines, Apple's 2025 fraud-prevention analysis, Google's
+2025 Play ecosystem post, the Gatekeeper section of the Apple Platform Security guide, Apple's
+notary service description, Microsoft's SmartScreen overview, and Kotzias, Caballero and Bilge at
+IEEE S&P 2021 on unwanted app distribution.
+
+**The measurement is the find.** Kotzias et al., on 7.9 million apps across 12 million devices in
+2019, report that the Play market has the best defences of any install route **and** is the source
+of 67% of unwanted app installs, because it is the source of 87% of installs full stop. Safest per
+install, largest in absolute terms, both true at once. That is the exact shape of reasoning lesson 9
+wants and it is now sourced rather than argued.
+
+**Two more misconceptions came out of it**, both about warnings rather than stores. Microsoft states
+plainly that SmartScreen warns when a file, app or certificate has *no established reputation*, so a
+new honest program is warned about and a popular bad one need not be. And Apple's own definition of
+the notary service, an automated scan for *known* malicious content, is the clean illustration that
+a signature answers "who" and not "is this good". Both are now in the misconceptions list.
+
+Six of the seven were read directly; every entry carries what it can and cannot support, and the
+two vendor self-reports are labelled as such, with the note that Apple and Google publish different
+metrics on different schedules and cannot be compared. The block ends with the gap it does not
+close, which is the cryptographic mechanics of signing, for whoever needs it.
+
+Fixed in the same pass: the misconceptions list still printed "over 90% of phishing sites served
+HTTPS by 2023", which the APWG entry forty lines above it had already corrected to 82% in Q2 2021
+with no 2023 figure existing anywhere in the series. One file, two numbers, disagreeing.
+
+Closes the Stage 1 gap in `docs/QUEUE.md`.
+
 ## 2026-09-18 — The frontmatter parse error now says where
 
 `npm run validate` reported "frontmatter does not parse as YAML" with a guess at the cause and no
