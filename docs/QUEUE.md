@@ -19,8 +19,10 @@ Rewrite these five lines each session. Nothing else goes in this block.
   Writing Clearly, both off the debt ledger. Logic and Argument owes one episode and nothing else.
   Personal Finance, Algebra Essentials, Python Basics and Bible Basics owe only money. **So the
   writing job is now drafting, not scripts**, and Reading Well is it.
-- **Current lesson:** Reading Well, at lesson 3 of ten. Then Reading Well lesson 2 of ten. `/draft-lesson courses/foundations/reading-well 2`,
-  as many lessons as the budget allows, after reading that course's `research/reviews/course-wide.md`.
+- **Current lesson:** Reading Well, lessons 1 to 4 drafted. **1, 2 and 4 are through Stage 4 and
+  clean**; lesson 3's review is in hand and its findings are being applied. Next is
+  `/draft-lesson courses/foundations/reading-well 5`, as many lessons as the budget allows, after
+  reading that course's `research/reviews/course-wide.md`.
 - **Before drafting anything:** `npm run taught <course>`. It prints every objective a learner has
   already met earlier on the Core, and names the earlier courses that do not exist yet so nothing
   is assumed from them. Stage 2 and Stage 3 both call for it.
@@ -75,6 +77,17 @@ fact-checked in a fresh context, most of them twice and several three times. `np
 prints nothing about scripts now because there is nothing left to print. What the night taught about
 writing them is in the two craft notes above and in the ceiling note; what it taught about checking
 them is the next paragraph.
+
+**What a lesson's Stage 4 review actually catches, measured over four Reading Well lessons.** Not
+invented facts. Arithmetic the drafter did not redo (a marketed 1,500 wpm called "four to six times"
+a band that makes it five to eight); a publisher's name half-remembered (the "American Psychological
+Science"); a claim carried in from the outline rather than from a source, which then falsified the
+lesson's own promise to claim nothing beyond its sources; a source's finding quietly rewritten to
+match the course's theme ("vocabulary and practice" becoming "vocabulary and background knowledge");
+two different things given one name across two lessons; two invented author first names; and a quiz
+that could be passed without reading the lesson because every answer was B and every correct option
+the longest. **Prompt a lesson review for those**, and give it the course's SOURCES.md, because
+three of the eight were the drafter drifting off a source that was sitting right there.
 
 **A script fact-check earns its keep, and the failures are not the ones you would guess.** Of the
 twenty-odd scripts written on 2026-09-18, about half came back FAIL. Almost none of the failures
@@ -192,10 +205,13 @@ older ones still say 6 over 1,400 words.
    steps and recorded in the outline with its neutrality note. And Brysbaert rejects Carver's five
    reading gears rather than confirming them, so lesson 4 states the rejection rather than
    inheriting a settled picture.
-   Two more the outline flags: lesson 4 leans on the Rayner speed-reading monograph, read only
-   through its public summary, so either fetch it or stay inside what the summary supports; and
-   lesson 6 on marginalia is thin and should be folded into lesson 5 rather than padded. Lesson 9 is
-   in a 3.4 domain and its neutrality audit is mandatory.
+   One more the outline flags: lesson 6 on marginalia is thin and should be folded into lesson 5
+   rather than padded. Lesson 9 is in a 3.4 domain and its neutrality audit is mandatory. The Rayner
+   speed-reading monograph was read only through its public summary; **lesson 4 settled that by
+   disclosing it in the body, above the first thing attributed to it**, and by staying inside what
+   the summary carries. Its review caught the lesson claiming a fixation's perceptual span, which
+   the summary does not support and the outline does, so **treat OUTLINE.md as a plan and never as a
+   source.**
    After Reading Well: Digital Literacy, then Using AI Effectively, then Term 2. Start each with
    `/new-course`.
 
