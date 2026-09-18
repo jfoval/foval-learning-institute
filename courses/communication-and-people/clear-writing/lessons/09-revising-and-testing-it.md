@@ -1,6 +1,7 @@
 ---
 title: Revising, and finding out whether it worked
 minutes: 85
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/communication-and-people/clear-writing/09-revising-and-testing-it.mp3
 objectives:
   - Separate revising from editing, and say what each one is for and when it happens
   - Run a paraphrase test on a page of your own writing with a real reader

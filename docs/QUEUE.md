@@ -14,12 +14,12 @@ defect moves to the changelog; it does not stay here struck through.
 
 Rewrite these five lines each session. Nothing else goes in this block.
 
-- **Current course:** Writing Clearly, Logic and Argument and Personal Finance are all
-  **written** as of 2026-09-18: every lesson in each has a fact-checked script, so all three need
-  only money now. Algebra Essentials has one script of six. How to Learn Anything is **finished**: eight
-  lessons, eight episodes, all live in R2 and off the debt ledger. Reading Well is still the
-  drafting job, at lesson 2 of ten.
-- **Current lesson:** Algebra Essentials' scripts, then Python Basics, then Bible Basics. Then Reading Well lesson 2 of ten. `/draft-lesson courses/foundations/reading-well 2`,
+- **Current course:** **Writing Clearly is finished** as of 2026-09-18: nine lessons, nine
+  episodes, all live in R2 and off the debt ledger. It is the second course finished, after How to
+  Learn Anything. Logic and Argument, Personal Finance and Algebra Essentials are **written**:
+  every lesson in each has a fact-checked script, so all three need only money now. Python Basics
+  has one script of six. Reading Well is still the drafting job, at lesson 2 of ten.
+- **Current lesson:** Python Basics' scripts, then Bible Basics. Then Reading Well lesson 2 of ten. `/draft-lesson courses/foundations/reading-well 2`,
   as many lessons as the budget allows, after reading that course's `research/reviews/course-wide.md`.
 - **Before drafting anything:** `npm run taught <course>`. It prints every objective a learner has
   already met earlier on the Core, and names the earlier courses that do not exist yet so nothing
@@ -33,13 +33,13 @@ Rewrite these five lines each session. Nothing else goes in this block.
   a course is taken all the way to *written* before the next starts, and what is left behind is a
   pure spending step that needs only budget. Keep writing courses whenever there are tokens;
   render whenever there is money. Never call a course finished while it owes episodes.
-- **Blocked on:** nothing. September's Gemini cap is down to about $4.25 of $30 after Logic 1, 2
-  and 3, resetting on the 1st. **Logic 4 to 10 have no scripts yet**, so the next renders wait on
-  writing, not on money.
-- **Next action, content:** scripts, in Core term order, starting with Writing Clearly. They are
-  free at the API and they are what stands between six published courses and *written*.
-  **Next action, audio:** `node scripts/podcast.mjs render courses/foundations/logic-and-argument/lessons/02-*.md`
-  then `--go`.
+- **Blocked on:** money, for the first time. September's cap has about $1.77 left of $30, or seven
+  more episodes, and thirty three are owed. The cap resets on the 1st and John raises it when he
+  can; he asked to be told, not asked. **Writing scripts is free and is not blocked by any of
+  this.**
+- **Next action, content:** scripts, in Core term order: Python Basics, then Bible Basics. They are
+  free at the API and they are what stands between a published course and *written*.
+  **Next action, audio:** whatever `npm run state` names, which is Logic and Argument 4 onward.
 
 ## The queue, top to bottom
 
@@ -56,9 +56,10 @@ what you read. Finish a course before starting the next.
 its first attempt, all eight live in R2. It is the first course finished by the institute's own
 definition.
 
-Render order: **Logic and Argument**, then Writing Clearly, Personal Finance, Algebra Essentials,
-Python Basics, Bible Basics. **Logic 1, 2 and 3 are live as of 2026-09-18**, rendered on the settled
-pipeline, billed $0.23, $0.25 and $0.28, level flat and both hosts present to the last line in each.
+Render order: **Logic and Argument**, then Personal Finance, Algebra Essentials, Python Basics,
+Bible Basics. **Logic 1, 2 and 3 are live as of 2026-09-18**, rendered on the settled pipeline,
+billed $0.23, $0.25 and $0.28, level flat and both hosts present to the last line in each. Writing
+Clearly's nine went the same night and the course came off the ledger.
 
 **A script over about 1,417 spoken words is refused before any money is sent**, because the render
 engine's sixteen thousand token output ceiling would cut it off. Logic 2 hit it on 2026-09-18 and
@@ -68,8 +69,8 @@ dry run instead of only on `--go`, which is where the limit used to be invisible
 fact-check has to run again after it.
 
 **Scripts are the outstanding writing job, and they are free.** `npm run validate` prints the count
-every run. Writing Clearly, Logic and Argument and Personal Finance are done;
-**Algebra Essentials is next in term order**, then Python Basics and Bible Basics.
+every run. Writing Clearly, Logic and Argument, Personal Finance and Algebra Essentials are done;
+**Python Basics is next in term order**, then Bible Basics.
 
 **A maths script needs a different check from a prose one, learned on 2026-09-18.** A listener
 cannot see a bracket, so every bracket is opened and closed aloud ("bracket, minus one, close
