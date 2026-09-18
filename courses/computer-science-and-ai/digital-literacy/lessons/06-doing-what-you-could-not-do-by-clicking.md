@@ -385,7 +385,7 @@ This closes the terminal half of the course. Lesson 4 gave you a standing point,
 
 Lesson 7 turns to the network and starts where you already are: you type an address and a page appears. You will run two commands and read what they say back, which is the habit you have just built on your own files.
 
-The course project, at the end, uses a pipeline like the one you just wrote on a set of files it gives you. If your `answer.sh` works, you're ready for it.
+The course project, at the end, asks for a pipeline like the one you just wrote, on your own files and answering a question of your own. If your `answer.sh` works, you're ready for it.
 
 If you go on to Python Basics in Term 6, the shape of this lesson is the shape of that course: write a line, run it, look at what came back, add the next line.
 
