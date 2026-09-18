@@ -1,0 +1,49 @@
+id: reading-well
+title: Reading Well
+school: foundations
+subject: Foundations
+level: Foundation
+status: research
+summary: >-
+  Read a hard book, a research paper, or a four-hundred-year-old document and come away with what
+  it actually said.
+description: >-
+  Most people read one way, the way they learned to read stories, and then use it on everything.
+  That works for a novel and fails on a textbook, a scientific paper, or a document written by
+  someone who did not share a single assumption with you. This course teaches reading as several
+  different skills, chosen to fit what is in front of you: how to tell in fifteen minutes whether
+  a book deserves your week, how to hold an argument in your head long enough to judge it, how to
+  read a paper without simply believing it, and how to read something old without quietly putting
+  your own century into the author's mouth. It is honest about the evidence, including the parts
+  that are inconvenient: speed reading has been tested and does not do what it claims, and some of
+  the most confident advice about reading is not supported at all.
+outcomes:
+  - >-
+    Choose how to read a given text from what it is and what you need from it, instead of reading
+    everything at one speed
+  - >-
+    Survey a book in fifteen minutes and say what it argues, how it is built, and whether to read
+    the rest of it
+  - >-
+    Reconstruct an author's argument in the author's own terms before judging it, and then say
+    where you agree, where you do not, and on what grounds
+  - >-
+    Read a research paper in the order a researcher reads one, and say what its evidence can and
+    cannot support
+  - >-
+    Read a primary source with its author's purpose and its context in view, and catch yourself
+    reading the present back into it
+  - >-
+    Take reading notes that are still useful a month later, and say why most highlighting is not
+  - >-
+    State what the evidence shows about speed reading, rereading, and comprehension, and change
+    your own habits to match
+  - >-
+    Build a reading practice: what to read next, in what order, and how to keep going when the book
+    is hard
+# How to Learn Anything comes first on the Foval Core and its findings on retrieval and rereading
+# are used here, but nothing in this course depends on having taken it.
+prerequisites: []
+# false for the course. Individual lessons that draw their examples from history, religion or
+# politics still get the neutrality audit, per the per-lesson rule in docs/CONTENT_PIPELINE.md.
+sensitive_domain: false

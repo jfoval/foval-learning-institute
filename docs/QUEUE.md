@@ -12,9 +12,9 @@ through.
 
 Rewrite these five lines each session. Nothing else goes in this block.
 
-- **Current course:** Writing Clearly (Stage 4 and voice pass complete; owes nine episodes).
-- **Current lesson:** none in flight. The Algebra Essentials voice pass finished on all six on 2026-09-17.
-- **Current stage:** episodes, blocked on the Gemini key below. Every live course is now through Stage 4 and the voice pass; the only lesson work left on the seven is audio. Reading Well (queue item 6) is the next lesson work, and rule 6 holds it until the episodes are unblocked unless John relaxes it.
+- **Current course:** Reading Well (Term 1, position 2). Scaffolded 2026-09-17, at Stage 1.
+- **Current lesson:** none yet. Stage 1 research comes before any drafting.
+- **Current stage:** Stage 1, `/research-course courses/foundations/reading-well`. The seven live courses are all through Stage 4 and owe only episodes, which are blocked on the key below. John delegated the call on 2026-09-17 and the exception is now written down (`docs/DECISIONS.md` §2): Reading Well is drafted through Stage 4 while audio waits, and is not published until the courses ahead of it have their episodes.
 - **Blocked on:** a Google AI Studio API key from John (`GEMINI_API_KEY` in `.env.local`, billing
   enabled), so Gemini 2.5 Pro TTS and the direct API's `seed` can be tested. John heard the chunked
   Gemini 3.1 Flash render on 2026-09-17: the fade is gone, but John's voice still changes between
@@ -23,8 +23,8 @@ Rewrite these five lines each session. Nothing else goes in this block.
 - **Next action:** with the key, render Personal Finance 2 three ways for about $1: 3.1 Flash
   direct with a fixed seed, 2.5 Pro TTS as one call (Google positions Pro for podcasts and its cap
   is about eleven minutes, so a whole episode fits), and 2.5 Pro chunked with a seed. Profile each
-  and send John the ones that hold. Nothing is uploaded until he approves one by ear. No lesson
-  work runs alongside until John says whether Reading Well may start ahead of the audio.
+  and send John the ones that hold. Nothing is uploaded until he approves one by ear. Reading Well's
+  research and drafting run alongside.
 
 ## The queue, top to bottom
 
@@ -64,8 +64,9 @@ validate` enforces the second half against `curriculum/audio-debt.yaml`, which o
    nothing. Worst is Personal Finance 6 at a 174-character spread. Decide one thing when it comes
    up: tighten the 19, or raise the threshold and say why. Not both.
 6. **Then the Foval Core in order, one course at a time, each finished before the next starts.**
-   Reading Well (Term 1, position 2), then Digital Literacy, then Using AI Effectively, then Term
-   2. Start each with `/new-course`.
+   **Reading Well is scaffolded and at Stage 1 as of 2026-09-17**, drafted ahead of its audio under
+   the §2 exception. After it: Digital Literacy, then Using AI Effectively, then Term 2. Start each
+   with `/new-course`.
 
 ## Standing items, every week
 
