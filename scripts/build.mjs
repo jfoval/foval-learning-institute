@@ -797,7 +797,15 @@ function lintLessons() {
             const POSSESSIVE_OK = new Set(["it's", "that's", "here's", "there's", "what's", "let's", "he's", "she's", "who's"]);
             const contractions = hits.filter(h => !h.endsWith("'s") || POSSESSIVE_OK.has(h.toLowerCase()));
             const per1000 = (contractions.length / words) * 1000;
-            if (per1000 < 2.5) STIFF.push({ file, n: contractions.length, words, per1000 });
+            if (per1000 < 2.5) {
+              // A draft is a lesson somebody is working on now, so the warning is
+              // actionable and goes next to the file. A published lesson is pre-existing
+              // debt and goes into the one-line summary, which is the split that keeps
+              // this useful: on 2026-09-18 the summary correctly caught a draft and
+              // buried it behind three assessment files that have been stiff for weeks.
+              if (published) STIFF.push({ file, n: contractions.length, words, per1000 });
+              else warn.push(`${file}: ${contractions.length} contractions in ${words} body words (${per1000.toFixed(1)} per 1,000; this repo's lessons run 5 to 8). The style guide calls their absence "the fastest way to sound like a manual". [draft: fix before publishing]`);
+            }
           }
         }
 
