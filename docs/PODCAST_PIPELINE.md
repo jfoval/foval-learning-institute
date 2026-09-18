@@ -203,18 +203,31 @@ loop. That is rule 4, and it cost $25 to learn.
 `node scripts/podcast.mjs gate <lesson> [--file=<mp3>]` runs the gate on any file without uploading,
 which is how to check a kept attempt or re-check something already live. It spends nothing.
 
-### Stage explicit paths, because you are probably not the only session
+### Working alongside another session
 
-More than one session works in this repo at once: on 2026-09-18 the podcast run and the phone-chart
-run were both live in the same working tree, and a `git add -A` in one of them would have swept the
-other's half-finished lesson into a podcast commit. It did not happen, but only because their files
-happened not to overlap that hour.
+More than one session works on this institute at once: on 2026-09-18 the podcast run and the
+phone-chart run were both live, and in a single working copy a `git add -A` from either would have
+swept the other's half-finished lesson into the wrong commit. Measured over twelve hours of that
+day, fifty commits touched `docs/QUEUE.md` twenty-seven times and the generated files under `site/`
+fourteen times each, so the overlap is not hypothetical.
 
-So stage what you touched, by name:
+**Give each session its own working copy.** A second clone costs about 27 MB plus its own
+`npm ci`, and both sit on `main` and push to it exactly as two people would:
+
+```bash
+git clone "Foval Learning Institute" "Foval Institute (podcasts)"
+```
+
+Then point the clone's `origin` at the real remote, copy `.env.local` across (it is git-ignored and
+holds `GEMINI_API_KEY`), and run `npm ci`. One was set up this way on 2026-09-18 at
+`~/Desktop/Foval Institute (podcasts)`.
+
+**Whatever copy you are in, stage what you touched, by name:**
 
 ```bash
 git add courses/<school>/<course>/lessons/<id>.md curriculum/audio-debt.yaml site/
 ```
 
-Run `git status` first and look at it. A file you did not touch is somebody else's work in progress;
-leave it alone rather than committing it for them.
+Run `git status` first and read it. A file you did not touch is somebody else's work in progress;
+leave it rather than committing it for them. Pull before you push, and expect `docs/QUEUE.md` to be
+the one file two sessions genuinely contend for, because it is the shared marching order.
