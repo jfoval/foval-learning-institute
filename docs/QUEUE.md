@@ -13,8 +13,8 @@ through.
 Rewrite these five lines each session. Nothing else goes in this block.
 
 - **Current course:** Writing Clearly (Stage 4 and voice pass complete; owes nine episodes).
-- **Current lesson:** Algebra Essentials voice pass, lessons 1 to 5 done (2026-09-17); lesson 6 is next.
-- **Current stage:** episodes, blocked on the Gemini key below. Content work moves to the Algebra Essentials voice pass (queue item 3) meanwhile.
+- **Current lesson:** none in flight. The Algebra Essentials voice pass finished on all six on 2026-09-17.
+- **Current stage:** episodes, blocked on the Gemini key below. Every live course is now through Stage 4 and the voice pass; the only lesson work left on the seven is audio. Reading Well (queue item 6) is the next lesson work, and rule 6 holds it until the episodes are unblocked unless John relaxes it.
 - **Blocked on:** a Google AI Studio API key from John (`GEMINI_API_KEY` in `.env.local`, billing
   enabled), so Gemini 2.5 Pro TTS and the direct API's `seed` can be tested. John heard the chunked
   Gemini 3.1 Flash render on 2026-09-17: the fade is gone, but John's voice still changes between
@@ -23,8 +23,8 @@ Rewrite these five lines each session. Nothing else goes in this block.
 - **Next action:** with the key, render Personal Finance 2 three ways for about $1: 3.1 Flash
   direct with a fixed seed, 2.5 Pro TTS as one call (Google positions Pro for podcasts and its cap
   is about eleven minutes, so a whole episode fits), and 2.5 Pro chunked with a seed. Profile each
-  and send John the ones that hold. Nothing is uploaded until he approves one by ear. The Algebra
-  Essentials voice pass (`/voice-pass courses/mathematics/algebra-essentials 1`) runs alongside.
+  and send John the ones that hold. Nothing is uploaded until he approves one by ear. No lesson
+  work runs alongside until John says whether Reading Well may start ahead of the audio.
 
 ## The queue, top to bottom
 
@@ -53,9 +53,8 @@ validate` enforces the second half against `curriculum/audio-debt.yaml`, which o
    script is written and fact-checked at `courses/money/personal-finance/podcast/03-debt.script.md`.
    Python Basics' 6 need scripts, which is the first step of `/make-podcast` and needs no fal.
    Writing Clearly's 9 and Algebra's 6 wait on their Stage 4 cycles and voice pass.
-3. **Algebra Essentials: the voice pass on six lessons, then episodes.** Rebuilt 2026-09-09 and
-   through Stage 4 with both assessments; the voice pass has not run. The no-links warnings on
-   lessons 1 and 3 are cleared. Lessons 1 to 3 done 2026-09-17.
+3. **Algebra Essentials: six episodes.** Rebuilt 2026-09-09, through Stage 4 with both assessments,
+   and through the voice pass on 2026-09-17. `npm run validate` prints no warnings for it now.
 4. **Charts on a phone.** 34 charts render their smallest label at 8.8px and Bible Basics 9 at
    8.0px, against a 10px floor. The validator names each one. The fix is one chart at a time with
    the page open: narrow the viewBox and re-lay-out, or raise the font size and check nothing
@@ -87,8 +86,8 @@ These have no session that owns them, which is how they were being skipped.
 | Logic and Argument | T1 | 10 | 9,380 | 10 | 2 | 3 of 10 | 7 episodes |
 | Bible Basics | T8 | 12 | 13,163 | 12 | 2 | 1 of 12 | 11 episodes |
 | Personal Finance | T2 | 10 | 5,932 | 10 | 2 | 2 of 10 | 8 episodes |
-| Algebra Essentials | T5 | 6 | 3,689 | 6 | 2 | 0 of 6 | voice pass, 6 episodes |
-| Writing Clearly | T1 | 9 | 4,646 | 9 | 2 | 0 of 9 | voice pass, 9 episodes |
+| Algebra Essentials | T5 | 6 | 3,689 | 6 | 2 | 0 of 6 | 6 episodes |
+| Writing Clearly | T1 | 9 | 4,646 | 9 | 2 | 0 of 9 | 9 episodes |
 | Python Basics | T6 | 6 | 3,095 | 6 | 2 | 0 of 6 | 6 episodes |
 
 Sixty-one lessons live, fourteen with audio. `/status` recomputes this table and rewrites it here

@@ -170,7 +170,7 @@ Take these two.
 
 Each one on its own has an enormous number of solutions. The first is satisfied by `x = 1, y = 89` and by `x = 20, y = 70` and by `x = 90, y = 0`, and by infinitely many other pairs. The second is satisfied by a different infinite collection.
 
-Asking for a **solution of the pair**, which is what people mean by a **system**, is asking for the one pair of numbers that satisfies **both**. That is the whole idea, and everything else in this lesson is machinery for finding it.
+Asking for a **solution of the pair**, which is what people mean by a **system**, is asking for the one pair of numbers that satisfies *both*. That is the whole idea, and everything else in this lesson is machinery for finding it.
 
 The picture makes it obvious. Each equation is a straight line, in the sense of lesson 4: the line is made of all the pairs that satisfy it. Two lines that are not parallel cross at exactly one point, and that point is on both lines, so its two coordinates satisfy both equations.
 
@@ -234,9 +234,11 @@ Start with a pair where it works with no preparation at all.
 
 `2x - y = 4`
 
-Add the two equations, left sides together and right sides together. The left gives `4x + y + 2x - y`, and the `+y` and the `-y` cancel, leaving `6x`. The right gives 18. So:
+Look at the `+y` in the first and the `-y` in the second, and ask what would happen if you added the two equations, left sides together and right sides together.
 
-`6x = 18`, and `x = 3`.
+:::predict What do you get when you add them?
+The left gives `4x + y + 2x - y`, and the `+y` and the `-y` cancel, leaving `6x`. The right gives 18. So `6x = 18`, and `x = 3`. One letter has gone, which is the whole trick.
+:::
 
 Then substitute back into either equation: `4 × 3 + y = 14` gives `12 + y = 14`, so `y = 2`. Check in both: `12 + 2 = 14`, and `6 - 2 = 4`. Both hold.
 
@@ -282,9 +284,9 @@ Subtract the second of the scaled equations from the first: the `x` terms give z
 
 Neither is better in general, and both give the same answer, since both are just ways of getting down to one unknown.
 
-**Substitution is easier when a letter is already alone**, or has a coefficient of 1 so that getting it alone costs nothing. `y = 2x - 1` is begging to be substituted.
+Substitution is easier when a letter is already alone, or has a coefficient of 1 so that getting it alone costs nothing. `y = 2x - 1` is begging to be substituted.
 
-**Elimination is easier when neither letter is alone** and the coefficients are close to matching. The coffee problem done by substitution means writing `t = 13.50 - 4c` and pushing that through, which works and is messier.
+Elimination is easier when neither letter is alone and the coefficients are close to matching. The coffee problem done by substitution means writing `t = 13.50 - 4c` and pushing that through, which works and is messier.
 
 If you cannot decide, pick one. The wasted effort of choosing the clumsier method is smaller than the wasted effort of deliberating.
 
@@ -292,7 +294,11 @@ If you cannot decide, pick one. The wasted effort of choosing the clumsier metho
 
 Two lines that are not parallel cross exactly once. Two that are parallel never cross, and one line drawn twice crosses everywhere. Both of those show up in the algebra as something odd.
 
-**No solution.** Take `y = 2x + 1` and `y = 2x + 5`. Substituting the first into the second gives `2x + 1 = 2x + 5`. Take `2x` off both sides and you get `1 = 5`, which is false no matter what `x` is. So no pair of numbers satisfies both. Look at the two equations again: both lines climb at a rate of 2 and they start at different heights, so they run alongside each other for ever.
+**No solution.** Take `y = 2x + 1` and `y = 2x + 5`. Try substituting the first into the second before you open the answer, and see what you're left with.
+
+:::predict What happens to the `x`?
+Substituting gives `2x + 1 = 2x + 5`. Take `2x` off both sides and you get `1 = 5`, which is false no matter what `x` is. So no pair of numbers satisfies both. Look at the two equations again: both lines climb at a rate of 2 and they start at different heights, so they run alongside each other for ever.
+:::
 
 **Infinitely many solutions.** Take `2x + y = 6` and `4x + 2y = 12`. Multiply the first by 2 and you get the second exactly. Eliminating gives `0 = 0`, which is true and tells you nothing about `x`. It is one line written in two ways, and every point on it is a solution.
 
@@ -311,7 +317,7 @@ So when the letters vanish, read what is left. A false statement like `0 = 7` me
 **Treating `0 = 0` as an error.** It means the two facts you were given were the same fact, which is a real thing that happens when a problem is written carelessly or when two measurements say the same thing.
 
 :::exercise Practice
-Take thirty minutes over these. Solve each system, by whichever method looks easier, and check every answer in **both** equations before moving on.
+Take thirty minutes over these. Solve each system, by whichever method looks easier, and check every answer in *both* equations before moving on.
 
 1. `y = x + 2` and `3x + y = 18`
 2. `2x + y = 11` and `x - y = 1`
@@ -351,10 +357,10 @@ That is the course. You can say what a letter means, keep an equation true while
 
 What this course deliberately leaves out is quadratics, factoring, exponents, and inequalities. Those need more space than a foundation course has. Two free places to get them, both good:
 
-- [**OpenStax, *Elementary Algebra 2e*, chapters 6 to 10**](https://openstax.org/books/elementary-algebra-2e/pages/6-introduction), which continues where this leaves off, with full worked solutions. Inequalities are the exception: they sit back in chapter 2, section 2.7, rather than in that later block.
-- [**Khan Academy's Algebra 1**](https://www.khanacademy.org/math/algebra), for practice with immediate feedback, which is the thing a written course cannot give you.
+- [OpenStax, *Elementary Algebra 2e*, chapters 6 to 10](https://openstax.org/books/elementary-algebra-2e/pages/6-introduction), which continues where this leaves off, with full worked solutions. Inequalities are the exception: they sit back in chapter 2, section 2.7, rather than in that later block.
+- [Khan Academy's Algebra 1](https://www.khanacademy.org/math/algebra), for practice with immediate feedback, which is the thing a written course cannot give you.
 
 ## Go deeper
 
-- [**OpenStax, *Elementary Algebra 2e*, chapter 5**](https://openstax.org/books/elementary-algebra-2e/pages/5-introduction), free online, on systems of linear equations, with a longer treatment of graphing them.
-- [**Khan Academy, systems of equations**](https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:systems-of-equations), for practice with both methods.
+- [OpenStax, *Elementary Algebra 2e*, chapter 5](https://openstax.org/books/elementary-algebra-2e/pages/5-introduction), free online, on systems of linear equations, with a longer treatment of graphing them.
+- [Khan Academy, systems of equations](https://www.khanacademy.org/math/algebra/x2f8bb11595b61c86:systems-of-equations), for practice with both methods.

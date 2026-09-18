@@ -11,6 +11,30 @@ Older entries refer to `docs/BACKLOG.md`, which was split on 2026-09-09 into `do
 unstarted work) and this file. Its section numbers survive only in those entries and in a few
 split-seam comments inside Bible Basics lessons, which point at `docs/DECISIONS.md` §5.
 
+## 2026-09-17 — Algebra Essentials: the voice pass on all six lessons
+
+The same pass as Writing Clearly's, the same day, and lighter still: no em dashes, two banned
+phrases in six lessons, and the prose already in voice. What it did find was not voice:
+
+- **Lesson 2 cited a footnote that did not exist.** Two `[1]` markers and no Sources section. The
+  source is in `research/SOURCES.md` (McNeil and colleagues 2006, reporting Carpenter's box
+  question) and is restored. Stage 4 missed it, and `npm run validate` does not check that a
+  `[n]` marker has a matching footnote. That is the next check to write.
+- **Lesson 1 referred to "Maya's plan"** with no Maya anywhere in the lesson. Lesson 4's second-taxi
+  checkpoint pointed "below" at a worked example above it, and its answers block said six for seven
+  questions. All fixed.
+- **Body links added to lessons 1, 2 and 3**, so the validator's last two content warnings are gone.
+- Eight think-blocks added from existing content, and bold trimmed to key terms throughout.
+- **One thing went wrong.** Lesson 4's new predict was committed with its closing `:::` run into the
+  next sentence, so the block swallowed the rest of the lesson. The validator caught it, but the
+  session's check grepped the output for "ok" and "error" and passed on a match. Fixed in the next
+  commit; validation is now checked by exit code. Rule 9 applies: the validator was right, the
+  wrapper around it was wrong.
+
+**Every live course is now through Stage 4 and the voice pass.** What the seven still owe is 47
+episodes, all blocked on the Gemini key. The next lesson work is Reading Well, and rule 6 holds it
+until Writing Clearly and Algebra have their episodes.
+
 ## 2026-09-17 — Writing Clearly: the voice pass on all nine lessons
 
 All nine lessons went through `/voice-pass` in one session, one commit each. It was as light as
