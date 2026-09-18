@@ -4,6 +4,13 @@ Foval Learning Institute is a free, open, general-education online university. C
 repo as Markdown; a build script compiles it into a static site. Read this file, then
 `docs/QUEUE.md`, then the document relevant to your task and nothing else.
 
+## "Keep going"
+
+When John says **keep going**, or opens a session without naming a task, do not ask what to work on.
+Run `npm run state`, do the one action in its `DO THIS NOW` block, commit, run it again, and repeat
+until the budget runs out. `.claude/commands/keep-going.md` is the whole loop and `/keep-going` runs
+it. Report at the end, not along the way.
+
 ## Start here in a new session
 - **`npm run state`, first, before reading anything.** It computes the state of every course from
   the filesystem: lessons, review files, scripts, episodes, average body words, and the next action

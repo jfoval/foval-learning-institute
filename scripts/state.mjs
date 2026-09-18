@@ -113,16 +113,19 @@ console.log(`              FINISHED  = + every lesson has an episode (costs mone
    only to be told when it runs out; this is what tells him. The previous version of this number
    lived in a sentence in docs/PODCAST_PIPELINE.md and was stale the day after it was written. */
 function budget() {
-  let cap = null, prior = {};
+  let cap = null, prior = {}, out = null;
   try {
     const b = JSON.parse(fs.readFileSync(path.join(ROOT, "scripts", "podcast", "budget.json"), "utf8"));
     cap = b.monthlyCapUSD; prior = b.incidents || [];
-  } catch { return; }
+  } catch { return null; }
+  // audio-out/ is git-ignored, so a fresh clone has none until its first render. That is zero spend
+  // recorded locally, not "no budget": bailing here meant a second working copy would never be told
+  // it could render. Incidents in budget.json still count, because they are committed.
   const work = path.join(ROOT, "audio-out", "work");
-  if (!fs.existsSync(work)) return;
+  const haveWork = fs.existsSync(work);
   const now = new Date(), key = now.toISOString().slice(0, 7);
   let month = 0, all = 0, attempts = 0, monthAttempts = 0;
-  (function walk(d) {
+  if (haveWork) (function walk(d) {
     for (const e of fs.readdirSync(d, { withFileTypes: true })) {
       const p = path.join(d, e.name);
       if (e.isDirectory()) { walk(p); continue; }
@@ -150,14 +153,65 @@ AUDIO BUDGET  ${key}: $${left.toFixed(2)} left of a $${cap.toFixed(2)} cap, abou
   console.log(`              production: $${month.toFixed(2)} over ${monthAttempts} episode(s), $${each.toFixed(2)} each.`);
   if (lost) for (const x of incidents) console.log(`              not production: $${x.amountUSD.toFixed(2)} lost to an accident (${String(x.what).split(".")[0]}). Counts against the cap, never against the cost of an episode.`);
   console.log(`              aistudio.google.com/spend is the authority.`);
+  out = { left, each: each || 0.22 };
   console.log(`              all time, production only: $${all.toFixed(2)} over ${attempts} render(s).`);
+  return out;
   if (left < each) console.log(`              *** THE CAP IS SPENT. Tell John: raise it at aistudio.google.com/spend, then edit scripts/podcast/budget.json. Rendering will fail until then. ***`);
   else if (left < each * 5) console.log(`              *** Running low: fewer than five episodes left this month. Worth telling John. ***`);
 }
-budget();
+const money = budget();
 
 console.log(`\nNEXT ACTION, PER COURSE, IN CORE TERM ORDER`);
 for (const c of courses) if (c.next !== "finished") console.log(`  ${pad(c.id, 24)} ${c.next}`);
 const doneCourses = courses.filter(c => c.next === "finished").map(c => c.id);
 if (doneCourses.length) console.log(`  finished: ${doneCourses.join(", ")}`);
 console.log("");
+
+/* THE next action, not a list of them.
+   John's ask, 2026-09-18: start a session, say "keep going", and have it know. A list of seven
+   per-course actions still leaves the choosing to the reader, and the choosing is where a session
+   burns time or picks wrong.
+
+   Two rules decide it.
+
+   1. RENDER FIRST WHEN THERE IS BUDGET, because the budget is perishable and the tokens are not.
+      The Google cap resets on the 1st and whatever is unspent is gone. Rendering also needs no
+      context beyond a ready script, so it is the cheapest possible use of a session's attention.
+      Only episodes whose script already exists count: a script is free and can be written any time.
+   2. OTHERWISE WORK THE EARLIEST TERM. Not the earliest course with lessons owed, or the earliest
+      with scripts owed, but the earliest course on the Core with any outstanding work at all, and
+      inside it lessons before scripts. That is what makes Terms 1 and 2 finish first, which is
+      what matters when the whole Core is a multi-year build. */
+function nextAction(courses, money) {
+  const lessonFiles = c => { try { return fs.readdirSync(path.join(COURSES_DIR, c.school, c.id, "lessons")).filter(f => f.endsWith(".md")).sort(); } catch { return []; } };
+  if (money && money.left >= money.each) {
+    for (const c of courses) {
+      if (c.status !== "published") continue;
+      const ready = c.noEpisode.filter(f => !c.noScript.includes(f));
+      if (!ready.length) continue;
+      const n = Math.min(Math.floor(money.left / money.each), ready.length);
+      return { what: "render",
+        line: `node scripts/podcast.mjs render courses/${c.school}/${c.id}/lessons/${ready[0]} --go`,
+        why: `$${money.left.toFixed(2)} of budget is live and expires on the 1st. ${c.id} has ${ready.length} script(s) ready and no episode; the budget covers ${n} of them. Render, listen, upload, stamp, lower the debt, commit. Then run this again.` };
+    }
+  }
+  for (const c of courses) {
+    if (c.next === "finished") continue;
+    if (c.status !== "published") return { what: "draft",
+      line: `/draft-lesson courses/${c.school}/${c.id} ${c.lessons + 1}`,
+      why: `${c.id} is the earliest term with work outstanding and is still drafting. Draft lesson ${c.lessons + 1}, review it in a fresh context, then keep going to the next one for as long as the budget lasts. research/OUTLINE.md says how many it has. At the last one, publish it and add its lesson count to curriculum/audio-debt.yaml.` };
+    if (c.noReview.length) return { what: "review",
+      line: `/review-lesson courses/${c.school}/${c.id} ${Number(c.noReview[0].slice(0, 2))}`,
+      why: `${c.id} has ${c.noReview.length} lesson(s) with no review file.` };
+    if (c.noScript.length) return { what: "script",
+      line: `/make-podcast courses/${c.school}/${c.id}/lessons/${c.noScript[0]}`,
+      why: `${c.id} is the earliest term not yet WRITTEN. It owes ${c.noScript.length} script(s), which cost nothing at the API. Write them, stopping after the fact-check, until the course is written. Then this will move you on.` };
+  }
+  return { what: "new course", line: "/new-course", why: "Every live course is written. Start the next course on the Core path." };
+}
+
+const act = nextAction(courses, money);
+console.log(`\n${"=".repeat(78)}\nDO THIS NOW  (${act.what})\n\n  ${act.line}\n`);
+for (const l of act.why.match(/.{1,74}(\s|$)/g) || []) console.log(`  ${l.trim()}`);
+console.log(`\n  Commit what you touched, by name, with docs/QUEUE.md in the same commit.`);
+console.log(`  Then run npm run state again and do whatever it says next.\n${"=".repeat(78)}`);

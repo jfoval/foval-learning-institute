@@ -1,12 +1,14 @@
 # Queue
 
-The marching order, and nothing else. Read this at session start, after `CLAUDE.md`. Keep it
+**Say "keep going" and a session works this on its own.** `npm run state` computes the one next
+action; `.claude/commands/keep-going.md` is the loop. This file holds what a script cannot know:
+what is in flight, what is blocked, and what is waiting on John. **No counts live here.** Keep it
 current **in the same commit as the work**, not at the end of the session.
 
 What happened and why belongs in `docs/CHANGELOG.md` and in git history. What is settled and must
-not be re-opened is in `docs/DECISIONS.md`. Specs for work not started are in
-`docs/PLATFORM_ROADMAP.md`. A closed defect moves to the changelog; it does not stay here struck
-through.
+not be re-opened is in `docs/DECISIONS.md`. What is checked and what is not is in
+`docs/VERIFICATION.md`. Specs for work not started are in `docs/PLATFORM_ROADMAP.md`. A closed
+defect moves to the changelog; it does not stay here struck through.
 
 ## Where things stand
 

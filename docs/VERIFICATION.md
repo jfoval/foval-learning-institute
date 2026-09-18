@@ -47,6 +47,7 @@ Network, slow, or heuristic. A gate would get them weakened or routed around.
 | Quizzes winnable by shape alone; explanations contradicting their own key | `npm run quiz` | 2026-09-18: 18 flagged, undecided |
 | Measured reading time vs the `minutes:` field | `npm run minutes` | 2026-09-18: 62 lessons, 0 materially out |
 | What a learner already knows at a given point on the Core, and which earlier courses are unwritten | `npm run taught <course>` | Run at Stage 2 and Stage 3 |
+| The one next action, and the audio budget | `npm run state` | Session start; `/keep-going` loops on it |
 | The site in both themes at both widths | `npm run shots` | 2026-09-18: ran, 14 of 15 targets; `chart` finds nothing and is a selector fault, not a site one |
 
 ## Checked once, by hand, and recorded
