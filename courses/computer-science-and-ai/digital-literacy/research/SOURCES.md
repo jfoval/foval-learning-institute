@@ -3,7 +3,7 @@
 *Stage 1 research, 2026-09-18. Written before any lesson is drafted. For each source: what it is good
 for, what it establishes, and how much of it was actually read.*
 
-<!-- unread: Dale, Lewis, Kurose, Ross, Shotts, Krogh, Lain, Pearman, Ray, Mayer, Lee, Doerfler -->
+<!-- unread: Dale, Lewis, Kurose, Ross, Shotts, Krogh, Lain, Pearman (except 08), Ray, Mayer, Lee, Doerfler -->
 
 **How to read the "read" labels below.** Every entry says whether it was read in full, in part, at
 abstract or summary level, or not opened. That label is not decoration: a lesson may not lean on a
@@ -331,7 +331,9 @@ passing.
 
 - **Hana Habib, Jessica Colnago, Vidya Gopalakrishnan, Sarah Pearman, Jeremy Thomas, Alessandro
   Acquisti, Nicolas Christin and Lorrie Faith Cranor, "Away From Prying Eyes: Analyzing Usage and
-  Understanding of Private Browsing", SOUPS 2018** (usenix.org). **Read**: pages 159 to 169,
+  Understanding of Private Browsing", SOUPS 2018** (usenix.org). **This paper was read in full and
+  is not the work the `unread:` line means by Pearman**; the password-manager entry further down is,
+  and carries the `(except 08)` exemption so the flag keeps firing on lesson 10. **Read**: pages 159 to 169,
   including Tables 3, 5 and 6 in full. Two data sources: three years of instrumented browsing from
   451 Security Behavior Observatory participants (167,128 sessions), plus a survey of 305 Mechanical
   Turk and 227 SBO participants scored against 14 true/false statements.
@@ -461,7 +463,11 @@ answer their employer will accept.
 **2. Password managers.** *Classification: contested empirical, leaning strongly one way.* The real
 risk is the one users name themselves: a single point of failure, and having to trust the vendor.
 Pearman et al., "Why people (don't) use password managers effectively" (SOUPS 2019, 30 interviews),
-**read at search-summary level; PDF not opened**, found usability and convenience drive adoption
+**read at search-summary level; PDF not opened**. **This is the work the `unread:` line means by
+that surname, and the exemption there is written `Pearman (except 08)`**, because the same surname is
+a co-author of the private-browsing paper above, which was read in full and is lesson 8's principal
+source. The flag still fires on every other lesson, which is where it matters: lesson 10 is the one
+that wants this paper. It found usability and convenience drive adoption
 while security concerns block it, and that browser-built-in users optimise for convenience while
 separate-app users optimise for security. The counter-position has empirical weight: the realistic
 alternative to a manager is not memorised unique passwords, it is reuse, and reuse converts any one

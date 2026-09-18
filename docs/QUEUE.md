@@ -21,11 +21,28 @@ and it never feels that way while you are writing it.
 
 Rewrite these five lines each session. Nothing else goes in this block.
 
-- **Lesson 7's Stage 4 review is applied**, on 2026-09-19, all twenty-five findings, with what was
-  done to each recorded at the foot of the review file. **Lesson 8 should read that record before it
-  reuses the figure**, because the figure changed: the name resolver is now a side branch off "Your
-  device" with a return arrow, not a rung on the connection path, and the last segment to the service
-  is dashed. The overlay lesson 8 was planning has a different shape to overlay.
+- **Lessons 7 and 8 are both through Stage 4 and applied.** Lesson 9, "Installing software, and
+  what you are trusting", is next; `npm run state` names it. **Read lesson 8's review file before
+  drafting 9**, in particular its cold-start finding: six terms this course had never defined
+  (encryption, HTTPS, cookie, certificate, padlock, and "IP address") were being used as though it
+  had. Lesson 9 is about signatures, stores and package managers and will want several more. Check
+  `npm run taught` and lessons 1 to 8 before assuming a word is available.
+
+- **Two things for John to decide, neither urgent, both written down rather than acted on.**
+  **(a) The outline's minute estimates are in the wrong units and two lessons running have had to
+  reason past them.** It plans each lesson at about half what `npm run minutes` measures (mean ratio
+  2.05 across lessons 2 to 7), and it sets a "split past 90 measured minutes" trigger for lesson 8
+  in that same wrong scale. Lesson 8 measures 145 and was **not** split, for the outline's own
+  pedagogical reason, which holds: the three tools only stop looking like three pieces of magic when
+  they are on one diagram. But 145 is now the longest lesson in the course, past lesson 5 at 135, and
+  if John wants a fourteenth lesson that is the one to split. Restating the trigger in measured
+  minutes would stop the next drafter making the same call.
+  **(b) `Pearman (except 08)` in this course's SOURCES.md `unread:` line.** One author of the
+  private-browsing paper, which was read in full and is lesson 8's principal source, shares a surname
+  with a password-manager paper that was not opened and that lesson 10 wants. The exemption uses the
+  build's existing `(except NN)` mechanism, which keys to a **lesson number rather than to a work**,
+  so if lesson 8 ever cited the unread paper the check would pass silently. First case in the repo
+  where that gap is real rather than theoretical.
 
 - **Current course:** **Digital Literacy.** Stages 1 and 2 are done and drafting is under way.
   `npm run state` names the next lesson. Read the outline's **"Six decisions this outline settles"**
@@ -117,10 +134,14 @@ numbers, which is item 1 below.
    rule 9.
 
 5. **The build tells you the frontmatter does not parse and not where.** Every lesson drafted on
-   2026-09-18 tripped this at least once, and the cause each time was a colon followed by a space
-   inside an unquoted quiz `explain`, or a value beginning with a backtick. `js-yaml` already
-   returns the line and column in its error; the build swallows them and prints a guess at the cause
-   instead. Passing the line number through would turn a two-minute hunt into a two-second fix.
+   2026-09-18 tripped this at least once, and lesson 8 tripped it **twice**. Three causes are now
+   known: a colon followed by a space inside an unquoted quiz `explain`; a value beginning with a
+   backtick; and, new on 2026-09-18, **a value beginning with a quotation mark**, which YAML reads as
+   a quoted scalar so that everything after the closing quote is a syntax error. The message is "bad
+   indentation of a mapping entry" in all three cases and points at none of them. `js-yaml` already
+   returns the line and column; the build swallows them and prints a guess at the cause instead.
+   Passing the line number through would turn a two-minute hunt into a two-second fix, and it is now
+   the most frequently hit defect in this repo.
 
 6. **Python Basics lesson 1 will need the same Windows callout Digital Literacy lesson 5 now has.**
    Lesson 4 puts the Windows reader inside Git Bash and lesson 5 opens with `python3 --version`.
