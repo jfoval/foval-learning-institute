@@ -14,10 +14,16 @@ defect moves to the changelog; it does not stay here struck through.
 
 Rewrite these five lines each session. Nothing else goes in this block.
 
-- **Current course:** **Digital Literacy**. Stage 1 is done: `research/SOURCES.md` is 8,800 words
-  and `course.yaml` is at `drafting`. **Stage 2 has not run**, so the next action is
-  `/outline-course courses/computer-science-and-ai/digital-literacy`, which is what `npm run state`
-  now says.
+- **Current course:** **Digital Literacy**. Stages 1 and 2 are done: `research/SOURCES.md` is
+  8,800 words, `research/OUTLINE.md` is 15,900 and plans thirteen lessons, a course-end test and a
+  machine-audit project. **Next is `/draft-lesson courses/computer-science-and-ai/digital-literacy 1`.**
+  **Read the outline's "Six decisions this outline settles" before drafting anything**: the course
+  teaches POSIX shell and names what PowerShell does differently, lesson 1 states the course's own
+  premise honestly rather than claiming understanding makes you safer, the backup lesson is
+  narrowed until Stage 1 goes back for two named documents, every figure carries its year, and the
+  course teaches the desktop model and says so because none of the research is about phones.
+  **One thing outstanding: `course.yaml`'s outcomes still describe the seven I wrote at Stage 0,
+  not the thirteen lessons the outline plans.** Reconcile them in the same commit as lesson 1.
 - **Every published course is written**, Reading Well included as of 2026-09-19: ten lessons, a
   twenty-item course-end test, the project, and ten fact-checked scripts. It is the eighth live
   course and the second on the Foval Core, and its ten episodes are on the debt ledger. Nothing on
