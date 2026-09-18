@@ -33,7 +33,8 @@ These fail or warn automatically. Nobody has to remember them.
 | An `audio:` stamp with no fact-checked script beside it | `npm run validate` | |
 | Script coverage per published course | `npm run validate` | One summary line, never a failure |
 | The lints themselves still fire | `npm test` | One fixture per check |
-| The spend guards in `podcast.mjs` | `npm test` | Added 2026-09-18; see below |
+| The spend guards in `podcast.mjs` | `npm test` | Added 2026-09-18 |
+| The audio gate, against generated fixture audio | `npm test` | Added 2026-09-18; needs ffmpeg, skips without it |
 | Build runs and the site compiles | CI, `.github/workflows/validate.yml` | |
 
 ## Checked by a script, run deliberately
@@ -94,11 +95,11 @@ build says anything about it.
 
 Honest list, so the next person does not have to rediscover them.
 
-- **`podcast.mjs`'s audio gate is untested.** The spend guards now have tests; the gate that
-  measures a returned MP3 (level, fade, both voices, length, pitch match) does not, because testing
-  it needs fixture audio. It has caught real defects in use, and it was wrong once in a way John's
-  ear caught and the code did not (an octave error letting a one-voice episode pass a two-voice
-  check). Worth fixture audio if it ever fails silently again.
+- ~~`podcast.mjs`'s audio gate is untested.~~ **Closed 2026-09-18.** ffmpeg generates the fixture
+  audio, so the excuse did not survive contact. Three tests: silence is called broken, a truncated
+  file is called truncated rather than silence (saying silence sends the reader after the wrong
+  cause), and audio that is nothing like two hosts talking still passes, because wrong pitch and one
+  voice and a flat level are not Google returning broken audio and used to fail it on four counts.
 - **The `chart` screenshot target finds nothing.** `npm run shots` produces 14 of its 15 targets;
   `svgBox(p, 0)` on Bible Basics lesson 2 matches no element while `svgBox(p, 1)` on the same page
   works. It is a marketing screenshot for the homepage, not learner-facing content, and the lesson

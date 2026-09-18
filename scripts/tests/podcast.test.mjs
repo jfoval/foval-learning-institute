@@ -90,3 +90,56 @@ test("the source carries no temperature or seed at all", () => {
   assert.ok(!/temperature/.test(body), body);
   assert.ok(!/\bseed\b/.test(body), body);
 });
+
+/* The gate, against real audio.
+ *
+ * VERIFICATION.md listed this as a known gap on the grounds that testing it needs fixture audio.
+ * ffmpeg can generate the fixtures, so it does not. This matters more since 2026-09-18, when the
+ * gate was cut back from seven failing checks to two on John's instruction: the fine-grained ones
+ * flagged variances he could not hear and invited paid re-renders. What is left has to still catch
+ * the two things that mean Google returned something broken, and has to stay quiet otherwise.
+ */
+const haveFfmpeg = spawnSync("ffmpeg", ["-version"], { encoding: "utf8" }).status === 0;
+
+function audioFixture(root, make) {
+  const dir = path.join(root, "courses", "foundations", "sample");
+  const mp3 = path.join(dir, "fixture.mp3");
+  make(mp3);
+  return mp3;
+}
+
+const gateOn = (root, mp3) => {
+  const env = { ...process.env, FOVAL_ROOT: root };
+  delete env.GEMINI_API_KEY;
+  const r = spawnSync(process.execPath, [POD, "gate", path.join(root, "courses/foundations/sample/lessons/01-lesson.md"), `--file=${mp3}`], { env, encoding: "utf8" });
+  return { status: r.status, out: r.stdout + r.stderr };
+};
+
+test("the gate calls silence broken", { skip: !haveFfmpeg }, () => {
+  const root = fixture();
+  const mp3 = audioFixture(root, f => spawnSync("ffmpeg", ["-v", "quiet", "-f", "lavfi", "-i", "anullsrc=r=24000:cl=mono", "-t", "120", "-q:a", "9", f, "-y"]));
+  const r = gateOn(root, mp3);
+  assert.equal(r.status, 1, r.out);
+  assert.ok(/silence, not an episode/.test(r.out), r.out);
+});
+
+test("the gate calls a truncated file truncated, not silence", { skip: !haveFfmpeg }, () => {
+  // 19s of real speech is not silence, and saying so sends the reader after the wrong cause.
+  const root = fixture();
+  const mp3 = audioFixture(root, f => spawnSync("ffmpeg", ["-v", "quiet", "-f", "lavfi", "-i", "sine=frequency=120:r=24000", "-t", "8", "-q:a", "9", f, "-y"]));
+  const r = gateOn(root, mp3);
+  assert.equal(r.status, 1, r.out);
+  assert.ok(/truncated, not a variation/.test(r.out), r.out);
+  assert.ok(!/silence, not an episode/.test(r.out), r.out);
+});
+
+test("the gate does not fail an episode for anything but silence or length", { skip: !haveFfmpeg }, () => {
+  // A tone at roughly the right duration is nothing like two hosts talking: wrong pitch, one
+  // "voice", flat level. Before 2026-09-18 that failed on four counts. It must now pass, because
+  // none of those are Google returning broken audio.
+  const root = fixture({ repeats: 1 });
+  const mp3 = audioFixture(root, f => spawnSync("ffmpeg", ["-v", "quiet", "-f", "lavfi", "-i", "sine=frequency=120:r=24000", "-t", "16", "-q:a", "9", f, "-y"]));
+  const r = gateOn(root, mp3);
+  assert.equal(r.status, 0, r.out);
+  assert.ok(/measured, not a problem/.test(r.out), r.out);
+});

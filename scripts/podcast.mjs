@@ -296,9 +296,9 @@ function gate(file, s) {
      before any money is sent. */
   const why = [], notes = [];
   const ratio0 = a.speaking / s.seconds;
-  if (a.speaking < 30) why.push(`only ${a.speaking.toFixed(0)}s of audible speech in a ${a.seconds.toFixed(0)}s file: silence, not an episode`);
-  else if (a.level < SILENCE_FLOOR) why.push(`level ${a.level.toFixed(1)} dBFS is effectively silent`);
-  else if (ratio0 < SANE_MIN || ratio0 > SANE_MAX) why.push(`speech ${a.speaking.toFixed(0)}s against about ${s.seconds.toFixed(0)}s expected for ${s.words} words: truncated or runaway`);
+  if (a.level < SILENCE_FLOOR || a.speaking < 5) why.push(`${a.speaking.toFixed(0)}s of audible speech at ${a.level.toFixed(1)} dBFS in a ${a.seconds.toFixed(0)}s file: silence, not an episode`);
+  else if (ratio0 < SANE_MIN) why.push(`${a.speaking.toFixed(0)}s of speech against about ${s.seconds.toFixed(0)}s expected for ${s.words} words: truncated, not a variation`);
+  else if (ratio0 > SANE_MAX) why.push(`${a.speaking.toFixed(0)}s of speech against about ${s.seconds.toFixed(0)}s expected for ${s.words} words: a runaway, not a variation`);
 
   if (open.voiced >= 20 && open.high < open.low) notes.push(`the first six seconds read as John's band rather than Haley's`);
   if (a.level < LEVEL_FLOOR) notes.push(`level ${a.level.toFixed(1)} dBFS is on the quiet side`);
