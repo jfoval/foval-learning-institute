@@ -1,6 +1,7 @@
 ---
 title: Rules, and where they come from
 minutes: 80
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/communication-and-people/clear-writing/08-rules-and-where-they-come-from.mp3
 objectives:
   - Tell a rule that describes how readers process prose from one that asserts a prohibition
   - Identify a passive clause, and say when it is the right choice rather than a fault

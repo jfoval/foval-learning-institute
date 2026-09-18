@@ -71,6 +71,14 @@ fact-check has to run again after it.
 every run. Writing Clearly, Logic and Argument and Personal Finance are done;
 **Algebra Essentials is next in term order**, then Python Basics and Bible Basics.
 
+**A maths script needs a different check from a prose one, learned on 2026-09-18.** A listener
+cannot see a bracket, so every bracket is opened and closed aloud ("bracket, minus one, close
+bracket, squared"), every product is spoken with its "times", and any expression that could parse
+two ways by ear is said in pieces. The fact-check prompt for a maths lesson asks the reviewer to
+redo every calculation **and** to read the script as a listener hears it: the first algebra script
+said the same spoken phrase equalled plus one in one turn and minus one four turns later, which is
+invisible on the page and fatal in audio.
+
 **What a script for a long lesson looks like, learned over seventeen of them on 2026-09-18.** The
 ceiling is about 1,417 spoken words and the dense lessons do not fit. Choose two or three of the
 lesson's sections and take them properly, rather than touring all of them; then **say in the
@@ -96,7 +104,14 @@ cents. `/make-podcast` says what could be improved and that neither thing blocks
    cost of about $0.24. **The rule that follows: never start a render until the fact-check of the
    text you are about to send has come back.** A `checked:` entry from before a cut is not a check
    of what the cut left.
-2. **Three small numbers in published lessons do not survive counting**, all found by script
+2. **Two defects in Algebra Essentials lessons, found by script fact-checks on 2026-09-18.**
+   **Lesson 3 says that of `3x` and `5x²`, "at x = 3, one is 9 and the other is 27".** Five x
+   squared at three is 45; 27 would be three x squared. The point the sentence is making survives
+   either way, so it is a number to correct rather than an argument to redo. **Lesson 2's heading
+   says "Two more shapes" over a section that gives four.** Both are one-line fixes and neither is
+   load-bearing; they are here rather than fixed inline because they are content changes on a
+   published course.
+3. **Three small numbers in published lessons do not survive counting**, all found by script
    fact-checks on 2026-09-18 and none of them load-bearing. **Writing Clearly 6** calls its
    shortened paragraph 46 words and it is 47, which makes the reduction 58 percent rather than 59,
    and the lesson's own Sources note claims every count was recounted. **Writing Clearly 9** calls
@@ -104,13 +119,13 @@ cents. `/make-podcast` says what could be improved and that neither thing blocks
    nineteen even counted through "within one month". The scripts for both were written around the
    figures rather than repeating them. One visit fixes all of these and re-reads the Sources notes
    that promise the counts were checked.
-3. **Two lessons do not cite their own sources.** `npm run validate` warns on both, added
+4. **Two lessons do not cite their own sources.** `npm run validate` warns on both, added
    2026-09-18. **Personal Finance 6 (taxes) has nine sources and not one `[n]` marker in its
    prose**, so every bracket figure in a tax lesson is uncited to the reader; Python 2 cites one
    of five. Both are content fixes on published courses and both are standards Part 2. Nine other
    lessons have one to three uncited entries, which is ordinary and stays under the threshold.
    Personal Finance 6 is also the worst quiz below, so it earns one visit for both.
-4. **Seven dead links in published lessons.** `npm run links` finds them; standards 4.5 asks for
+5. **Seven dead links in published lessons.** `npm run links` finds them; standards 4.5 asks for
    primary sources linked in the body, and these do not answer. Four are
    `earlychristianwritings.com` pages in Bible Basics 6 and 7 (the site reorganised; the texts are
    still there under other paths), `corporate.vanguard.com/.../vemo.html` in Personal Finance 2,
@@ -118,11 +133,11 @@ cents. `/make-podcast` says what could be improved and that neither thing blocks
    `tenancydepositscheme.com/resources/tds-guides/` in Reading Well 1, which is still drafting.
    Replace each with a URL that answers, or drop the link and keep the citation in Sources. The
    32 links reporting 403 are publishers blocking scripts, not breakage; leave them.
-5. **`npm run quiz` lists 18 quizzes tripping the shape heuristic** (option-length spread over 25
+6. **`npm run quiz` lists 18 quizzes tripping the shape heuristic** (option-length spread over 25
    characters, adjacent repeats, unused positions) without being winnable by a reader who read
    nothing. Worst is Personal Finance 6 at a 174-character spread. Decide one thing when it comes
    up: tighten the 18, or raise the threshold and say why. Not both.
-6. **Then the Foval Core in order, one course at a time.**
+7. **Then the Foval Core in order, one course at a time.**
    **Reading Well: lesson 1 of ten is written and through two Stage 4 rounds as of 2026-09-17.**
    It publishes when its ten lessons pass Stage 4, adding `reading-well: 10` to
    `curriculum/audio-debt.yaml` in the same commit. Ten lessons are planned in

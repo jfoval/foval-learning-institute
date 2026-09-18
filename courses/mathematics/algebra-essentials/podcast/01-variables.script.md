@@ -1,6 +1,20 @@
 ---
 source: courses/mathematics/algebra-essentials/lessons/01-variables.md
 written_by: Claude, by hand, from the lesson text
+checked: >-
+  Fact-checked in a fresh-context subagent against the lesson on 2026-09-18: verdict PASS WITH
+  NITS, and every nit is fixed here. All the arithmetic was redone independently and holds,
+  including both wrong answers the checkpoint names. What the check was really for is the thing
+  that only bites in audio: a listener cannot see a bracket. The passage whose whole point is
+  brackets never closed one aloud, so "bracket minus one squared" could not be told from "minus one
+  squared", and the script then said the same spoken phrase equalled plus one in one turn and minus
+  one four turns later. Brackets are now opened and closed aloud, which is the convention the
+  sibling script for lesson 3 uses. "Three x minus x squared" parsed by ear as the whole thing
+  squared, which is one of the wrong answers the lesson names, so it is now phrased in pieces; the
+  letter a was indistinguishable from the indefinite article; the convention that two letters side
+  by side means multiply arrived long after it was first needed; and the word-order example now
+  carries the lesson's own numeric check, which both disambiguates it by ear and reinforces the
+  habit the episode is built on. The course teaches from no declared standpoint.
 about: >-
   About six minutes. Haley opens, because the engine gives the first turn to the second voice.
   Hosts are John (S1, the Charon voice) and Haley (S2, the Aoede voice). First episode for
@@ -49,13 +63,13 @@ S2: And I've just solved an equation.
 
 S1: By undoing it in your head, which is exactly what lesson three is about. And the reason algebra is worth learning isn't that this problem is hard. It's that the same undoing works when the numbers are horrible.
 
-S2: Now, you said there's one sentence that matters most in this lesson.
+S2: The lesson says there's one sentence in it that matters most.
 
-S1: And it costs people years when they get it wrong. A letter stands for a number, not for a thing. If a bag holds a apples, then a is not apples. A is a number. How many.
+S1: And it costs people years when they get it wrong. A letter stands for a number, not for a thing. If a bag holds the letter a apples, then the letter a is not apples. It's a number. How many.
 
 S2: That sounds fussy.
 
-S1: It does until it isn't. Suppose someone writes, two a plus three b equals five a b.
+S1: It does until it isn't. Suppose someone writes this, remembering that two letters side by side means multiply. Two a, plus three b, equals five a b.
 
 S2: And if I read a as apples and b as bananas, that looks almost reasonable. Two apples and three bananas make five pieces of fruit.
 
@@ -99,17 +113,17 @@ S1: Five x minus two, when x is three. Substitute: five times three, minus two. 
 
 S2: And the one worth slowing down for.
 
-S1: X squared plus two x, when x is minus one. Substitute, and put brackets around the negative number, which is the step people skip. Bracket minus one, squared, plus two times bracket minus one.
+S1: X squared plus two x, when x is minus one. Substitute, and put brackets around the negative number, which is the step people skip. So: bracket, minus one, close bracket, squared. Plus two times bracket, minus one, close bracket.
 
 S2: Powers first.
 
-S1: Minus one squared is minus one times minus one, which is plus one, because a negative times a negative is positive. Then the multiplication: two times minus one is minus two. So it's one plus minus two, which is minus one.
+S1: Bracket minus one close bracket, squared, is minus one times minus one, which is plus one, because a negative times a negative is positive. Then the multiplication: two times minus one is minus two. So it's one plus minus two, which is minus one.
 
 S2: And the brackets aren't decoration.
 
-S1: Without them, minus one squared reads as the negative of one squared, which is minus one, and you get the wrong answer while doing everything else correctly.
+S1: Without them, you read it as the negative of one squared, which is minus one, and you get the wrong answer while doing everything else correctly.
 
-S2: Try me. Three x minus x squared, when x is four.
+S2: Try me. Three x, minus, x squared. When x is four.
 
 S1: And write the substitution line first.
 
@@ -123,7 +137,7 @@ S1: And the lesson says most of the value in algebra is in this direction, and i
 
 S2: And the hard one?
 
-S1: Three less than twice a number is two n minus three. Not three minus two n.
+S1: Three less than twice a number is two n, minus three. Not three minus two n. And check it with a number, as always. At n equals ten, twice the number is twenty, and three less than that is seventeen. Two n minus three at ten is seventeen. Three minus two n at ten is minus seventeen.
 
 S2: Because the words arrive in the other order.
 
