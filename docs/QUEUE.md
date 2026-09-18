@@ -144,9 +144,12 @@ older ones still say 6 over 1,400 words.
    different word than "most" or the reasoning wants spelling out; the paper is the place to settle
    it, and the script was written so as not to repeat the inference. Neither is load-bearing and
    both are content changes on a published course.
-5. **Bible Basics lesson 4 counts a five-word title as four**, found by a script fact-check on
-   2026-09-18. It says Fee and Stuart's chapter title "says it in four words" over "Enforcing the
-   Covenant in Israel". One word fixes it, and it is a content change on a published course.
+5. **Two small slips in Bible Basics lessons, found by script fact-checks on 2026-09-18.**
+   **Lesson 4** says Fee and Stuart's chapter title "says it in four words" over "Enforcing the
+   Covenant in Israel", which is five. **Lesson 6's exercise heading** says "on Mark 4, three
+   storms, and Acts 6", but the exercise's third task cites Luke 16, Acts 16 and 18, Amos 5, 1
+   Samuel 14 and Acts 21; Acts 6 appears in the lot discussion rather than the exercise. Both are
+   one-line fixes and both are content changes on a published course.
 6. **Two lessons do not cite their own sources.** `npm run validate` warns on both, added
    2026-09-18. **Personal Finance 6 (taxes) has nine sources and not one `[n]` marker in its
    prose**, so every bracket figure in a tax lesson is uncited to the reader; Python 2 cites one
