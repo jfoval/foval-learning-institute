@@ -141,13 +141,16 @@ older ones still say 6 over 1,400 words.
    different word than "most" or the reasoning wants spelling out; the paper is the place to settle
    it, and the script was written so as not to repeat the inference. Neither is load-bearing and
    both are content changes on a published course.
-5. **Two lessons do not cite their own sources.** `npm run validate` warns on both, added
+5. **Bible Basics lesson 4 counts a five-word title as four**, found by a script fact-check on
+   2026-09-18. It says Fee and Stuart's chapter title "says it in four words" over "Enforcing the
+   Covenant in Israel". One word fixes it, and it is a content change on a published course.
+6. **Two lessons do not cite their own sources.** `npm run validate` warns on both, added
    2026-09-18. **Personal Finance 6 (taxes) has nine sources and not one `[n]` marker in its
    prose**, so every bracket figure in a tax lesson is uncited to the reader; Python 2 cites one
    of five. Both are content fixes on published courses and both are standards Part 2. Nine other
    lessons have one to three uncited entries, which is ordinary and stays under the threshold.
    Personal Finance 6 is also the worst quiz below, so it earns one visit for both.
-6. **Seven dead links in published lessons.** `npm run links` finds them; standards 4.5 asks for
+7. **Seven dead links in published lessons.** `npm run links` finds them; standards 4.5 asks for
    primary sources linked in the body, and these do not answer. Four are
    `earlychristianwritings.com` pages in Bible Basics 6 and 7 (the site reorganised; the texts are
    still there under other paths), `corporate.vanguard.com/.../vemo.html` in Personal Finance 2,
@@ -155,11 +158,11 @@ older ones still say 6 over 1,400 words.
    `tenancydepositscheme.com/resources/tds-guides/` in Reading Well 1, which is still drafting.
    Replace each with a URL that answers, or drop the link and keep the citation in Sources. The
    32 links reporting 403 are publishers blocking scripts, not breakage; leave them.
-7. **`npm run quiz` lists 18 quizzes tripping the shape heuristic** (option-length spread over 25
+8. **`npm run quiz` lists 18 quizzes tripping the shape heuristic** (option-length spread over 25
    characters, adjacent repeats, unused positions) without being winnable by a reader who read
    nothing. Worst is Personal Finance 6 at a 174-character spread. Decide one thing when it comes
    up: tighten the 18, or raise the threshold and say why. Not both.
-8. **Then the Foval Core in order, one course at a time.**
+9. **Then the Foval Core in order, one course at a time.**
    **Reading Well: lesson 1 of ten is written and through two Stage 4 rounds as of 2026-09-17.**
    It publishes when its ten lessons pass Stage 4, adding `reading-well: 10` to
    `curriculum/audio-debt.yaml` in the same commit. Ten lessons are planned in
