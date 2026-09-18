@@ -76,7 +76,16 @@ script, so every script gets it. They only run long and ping-pong, which is tast
 cents. `/make-podcast` says what could be improved and that neither thing blocks a render.
 **Nothing on a course already through Stage 4 is to be re-opened.**
 
-1. **Three small numbers in published lessons do not survive counting**, all found by script
+1. **A render was paid for twice on 2026-09-18, and the reason is worth keeping.** Writing Clearly
+   lesson 4's script was shortened to fit the render ceiling and sent to render before its
+   re-check came back. The re-check returned FAIL: the cut had dropped the closing clause of a
+   thirty-six-word example while keeping the number, so the episode said "thirty six words" over a
+   thirty-word sentence and then called eighteen "half the length". The episode was rendered,
+   listened to on the profile, and **not uploaded**; the script was fixed and rendered again, at a
+   cost of about $0.24. **The rule that follows: never start a render until the fact-check of the
+   text you are about to send has come back.** A `checked:` entry from before a cut is not a check
+   of what the cut left.
+2. **Three small numbers in published lessons do not survive counting**, all found by script
    fact-checks on 2026-09-18 and none of them load-bearing. **Writing Clearly 6** calls its
    shortened paragraph 46 words and it is 47, which makes the reduction 58 percent rather than 59,
    and the lesson's own Sources note claims every count was recounted. **Writing Clearly 9** calls
@@ -84,13 +93,13 @@ cents. `/make-podcast` says what could be improved and that neither thing blocks
    nineteen even counted through "within one month". The scripts for both were written around the
    figures rather than repeating them. One visit fixes all of these and re-reads the Sources notes
    that promise the counts were checked.
-2. **Two lessons do not cite their own sources.** `npm run validate` warns on both, added
+3. **Two lessons do not cite their own sources.** `npm run validate` warns on both, added
    2026-09-18. **Personal Finance 6 (taxes) has nine sources and not one `[n]` marker in its
    prose**, so every bracket figure in a tax lesson is uncited to the reader; Python 2 cites one
    of five. Both are content fixes on published courses and both are standards Part 2. Nine other
    lessons have one to three uncited entries, which is ordinary and stays under the threshold.
    Personal Finance 6 is also the worst quiz below, so it earns one visit for both.
-3. **Seven dead links in published lessons.** `npm run links` finds them; standards 4.5 asks for
+4. **Seven dead links in published lessons.** `npm run links` finds them; standards 4.5 asks for
    primary sources linked in the body, and these do not answer. Four are
    `earlychristianwritings.com` pages in Bible Basics 6 and 7 (the site reorganised; the texts are
    still there under other paths), `corporate.vanguard.com/.../vemo.html` in Personal Finance 2,
@@ -98,11 +107,11 @@ cents. `/make-podcast` says what could be improved and that neither thing blocks
    `tenancydepositscheme.com/resources/tds-guides/` in Reading Well 1, which is still drafting.
    Replace each with a URL that answers, or drop the link and keep the citation in Sources. The
    32 links reporting 403 are publishers blocking scripts, not breakage; leave them.
-4. **`npm run quiz` lists 18 quizzes tripping the shape heuristic** (option-length spread over 25
+5. **`npm run quiz` lists 18 quizzes tripping the shape heuristic** (option-length spread over 25
    characters, adjacent repeats, unused positions) without being winnable by a reader who read
    nothing. Worst is Personal Finance 6 at a 174-character spread. Decide one thing when it comes
    up: tighten the 18, or raise the threshold and say why. Not both.
-5. **Then the Foval Core in order, one course at a time.**
+6. **Then the Foval Core in order, one course at a time.**
    **Reading Well: lesson 1 of ten is written and through two Stage 4 rounds as of 2026-09-17.**
    It publishes when its ten lessons pass Stage 4, adding `reading-well: 10` to
    `curriculum/audio-debt.yaml` in the same commit. Ten lessons are planned in
