@@ -14,10 +14,11 @@ defect moves to the changelog; it does not stay here struck through.
 
 Rewrite these five lines each session. Nothing else goes in this block.
 
-- **Current course:** Reading Well, on content. How to Learn Anything is **finished**: eight
-  lessons, eight episodes, all eight live in R2, off the debt ledger. It is the only course
-  finished by the institute's own definition.
-- **Current lesson:** Reading Well lesson 2 of ten. `/draft-lesson courses/foundations/reading-well 2`,
+- **Current course:** Writing Clearly is **written** as of 2026-09-18: all nine lessons have a
+  fact-checked script, so it needs only money now. How to Learn Anything is **finished**: eight
+  lessons, eight episodes, all live in R2 and off the debt ledger. Reading Well is still the
+  drafting job, at lesson 2 of ten.
+- **Current lesson:** Logic and Argument's scripts, then Reading Well lesson 2 of ten. `/draft-lesson courses/foundations/reading-well 2`,
   as many lessons as the budget allows, after reading that course's `research/reviews/course-wide.md`.
 - **Before drafting anything:** `npm run taught <course>`. It prints every objective a learner has
   already met earlier on the Core, and names the earlier courses that do not exist yet so nothing
@@ -75,13 +76,21 @@ script, so every script gets it. They only run long and ping-pong, which is tast
 cents. `/make-podcast` says what could be improved and that neither thing blocks a render.
 **Nothing on a course already through Stage 4 is to be re-opened.**
 
-1. **Two lessons do not cite their own sources.** `npm run validate` warns on both, added
+1. **Three small numbers in published lessons do not survive counting**, all found by script
+   fact-checks on 2026-09-18 and none of them load-bearing. **Writing Clearly 6** calls its
+   shortened paragraph 46 words and it is 47, which makes the reduction 58 percent rather than 59,
+   and the lesson's own Sources note claims every count was recounted. **Writing Clearly 9** calls
+   the council tax letter's subordinate clause twenty words long; the clause is eleven, and
+   nineteen even counted through "within one month". The scripts for both were written around the
+   figures rather than repeating them. One visit fixes all of these and re-reads the Sources notes
+   that promise the counts were checked.
+2. **Two lessons do not cite their own sources.** `npm run validate` warns on both, added
    2026-09-18. **Personal Finance 6 (taxes) has nine sources and not one `[n]` marker in its
    prose**, so every bracket figure in a tax lesson is uncited to the reader; Python 2 cites one
    of five. Both are content fixes on published courses and both are standards Part 2. Nine other
    lessons have one to three uncited entries, which is ordinary and stays under the threshold.
    Personal Finance 6 is also the worst quiz below, so it earns one visit for both.
-2. **Seven dead links in published lessons.** `npm run links` finds them; standards 4.5 asks for
+3. **Seven dead links in published lessons.** `npm run links` finds them; standards 4.5 asks for
    primary sources linked in the body, and these do not answer. Four are
    `earlychristianwritings.com` pages in Bible Basics 6 and 7 (the site reorganised; the texts are
    still there under other paths), `corporate.vanguard.com/.../vemo.html` in Personal Finance 2,
@@ -89,11 +98,11 @@ cents. `/make-podcast` says what could be improved and that neither thing blocks
    `tenancydepositscheme.com/resources/tds-guides/` in Reading Well 1, which is still drafting.
    Replace each with a URL that answers, or drop the link and keep the citation in Sources. The
    32 links reporting 403 are publishers blocking scripts, not breakage; leave them.
-3. **`npm run quiz` lists 18 quizzes tripping the shape heuristic** (option-length spread over 25
+4. **`npm run quiz` lists 18 quizzes tripping the shape heuristic** (option-length spread over 25
    characters, adjacent repeats, unused positions) without being winnable by a reader who read
    nothing. Worst is Personal Finance 6 at a 174-character spread. Decide one thing when it comes
    up: tighten the 18, or raise the threshold and say why. Not both.
-4. **Then the Foval Core in order, one course at a time.**
+5. **Then the Foval Core in order, one course at a time.**
    **Reading Well: lesson 1 of ten is written and through two Stage 4 rounds as of 2026-09-17.**
    It publishes when its ten lessons pass Stage 4, adding `reading-well: 10` to
    `curriculum/audio-debt.yaml` in the same commit. Ten lessons are planned in
