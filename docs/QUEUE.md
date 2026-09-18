@@ -133,15 +133,11 @@ numbers, which is item 1 below.
    `scripts/build.mjs`, probably**; written here rather than fixed mid-draft, per root `CLAUDE.md`
    rule 9.
 
-5. **The build tells you the frontmatter does not parse and not where.** Every lesson drafted on
-   2026-09-18 tripped this at least once, and lesson 8 tripped it **twice**. Three causes are now
-   known: a colon followed by a space inside an unquoted quiz `explain`; a value beginning with a
-   backtick; and, new on 2026-09-18, **a value beginning with a quotation mark**, which YAML reads as
-   a quoted scalar so that everything after the closing quote is a syntax error. The message is "bad
-   indentation of a mapping entry" in all three cases and points at none of them. `js-yaml` already
-   returns the line and column; the build swallows them and prints a guess at the cause instead.
-   Passing the line number through would turn a two-minute hunt into a two-second fix, and it is now
-   the most frequently hit defect in this repo.
+5. **The repetition warning still does not run on the course that needs it most.** See item 4.
+   Renumbered when the old item 5 was closed on 2026-09-18: `npm run validate` now reports the
+   line number and the offending text for a frontmatter parse failure, plus the line before it,
+   which is where the mistake actually is. `docs/CHANGELOG.md` has it and `docs/VERIFICATION.md`
+   carries the row.
 
 6. **Python Basics lesson 1 will need the same Windows callout Digital Literacy lesson 5 now has.**
    Lesson 4 puts the Windows reader inside Git Bash and lesson 5 opens with `python3 --version`.

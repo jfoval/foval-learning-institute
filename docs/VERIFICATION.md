@@ -26,6 +26,7 @@ These fail or warn automatically. Nobody has to remember them.
 | `:::` blocks unclosed, nested, or with text on the fence | `npm run validate` | |
 | SVG: dark/light hardcoded fills, labels under 15px, labels past the viewBox, blank lines inside `<svg>`, two tokens that are the same colour in one theme | `npm run validate` | Five distinct routes have got past earlier versions; `/review-lesson` lists them |
 | Self-checks that print their own answer in prose | `npm run validate` | |
+| Frontmatter that does not parse as YAML, **with the line number and the offending text** | `npm run validate` | Fails on published, warns on drafts. The message names the line YAML choked on *and* the line before it, because a malformed value is only noticed at the next mapping entry, so the one to edit is the earlier one. It also lists the three known causes: a colon followed by a space in an unquoted value, a value beginning with a quotation mark, a value beginning with a backtick. The location was added 2026-09-18 after this defect was hit five times in three lessons in one session and every hunt began by re-parsing the file by hand |
 | Citations to works SOURCES.md marks unread | `npm run validate` | |
 | A `[n]` marker with no Sources entry; a majority of sources never cited | `npm run validate` | Added 2026-09-18 |
 | Bodies with no links | `npm run validate` | |

@@ -445,8 +445,16 @@ function lintLessons() {
 
         // Frontmatter must parse even in a draft. The main build only reads published
         // courses, so a YAML error in a draft stays invisible until the day it is
-        // published, which is the worst possible moment to find it. A colon inside an
-        // unquoted value is the usual cause; wrap the value in a >- block.
+        // published, which is the worst possible moment to find it.
+        //
+        // js-yaml knows the line and column and this check used to throw them away,
+        // printing a guess at the cause instead. docs/QUEUE.md carried that as a defect
+        // for weeks and it was the most frequently hit one in the repo: three lessons
+        // drafted on 2026-09-18 tripped it five times between them, and every hunt began
+        // by re-parsing the file by hand in node to find out where. The line number and
+        // the offending text are now reported, and the three known causes are listed
+        // rather than the one. The message also gives the line within the whole file,
+        // not within the frontmatter, so it is clickable.
         try {
           const fmText = src.split(/^---$/m)[1];
           const fm = yaml.load(fmText);
@@ -459,7 +467,21 @@ function lintLessons() {
             checkObjectiveTypes(fm.objectives, file, fail);
           }
         } catch (e) {
-          fail(`${file}: frontmatter does not parse as YAML (${e.reason || e.message}); a colon inside an unquoted value is the usual cause`);
+          // e.mark.line is 0-based and relative to the frontmatter text, which itself
+          // starts on the file's second line (after the opening `---`), so +2 puts it
+          // back into file coordinates.
+          const at = e.mark && typeof e.mark.line === "number" ? e.mark.line + 2 : null;
+          const srcLines = src.split("\n");
+          // YAML notices a malformed scalar at the NEXT mapping entry, not at the value
+          // itself, so the reported line is reliably one past the mistake. Print both and
+          // say which is which, because the line above is the one to edit.
+          const at2 = at ? (srcLines[at - 1] || "").trim() : "";
+          const at1 = at && at > 1 ? (srcLines[at - 2] || "").trim() : "";
+          const where = at ? `:${at}` : "";
+          const shown = at
+            ? ` The mistake is almost always the line BEFORE the one YAML names, because a malformed value is only noticed at the next entry. Line ${at - 1}: "${at1.slice(0, 80)}" <- start here. Line ${at}: "${at2.slice(0, 80)}".`
+            : "";
+          fail(`${file}${where}: frontmatter does not parse as YAML (${e.reason || e.message}).${shown} Three known causes, in order of how often they bite: a colon followed by a space inside an unquoted value; a value beginning with a quotation mark, which YAML reads as a quoted scalar so anything after the closing quote is a syntax error; and a value beginning with a backtick. Wrap the value in a >- block, or reword it.`);
         }
 
         // courses/CLAUDE.md rule 4: never an em dash in learner-facing prose, and the en dash

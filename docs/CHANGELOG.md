@@ -11,6 +11,24 @@ Older entries refer to `docs/BACKLOG.md`, which was split on 2026-09-09 into `do
 unstarted work) and this file. Its section numbers survive only in those entries and in a few
 split-seam comments inside Bible Basics lessons, which point at `docs/DECISIONS.md` §5.
 
+## 2026-09-18 — The frontmatter parse error now says where
+
+`npm run validate` reported "frontmatter does not parse as YAML" with a guess at the cause and no
+location, and `js-yaml` had the line and column the whole time. It was the most frequently hit
+defect in the repo: three Digital Literacy lessons tripped it five times in one session, and every
+hunt started the same way, by re-parsing the file by hand in node to find out where.
+
+The message now carries the file and line, the text of the offending line, **and the line before
+it**, which is the one to edit. That last part is the non-obvious half: YAML only notices a
+malformed value when it reaches the next mapping entry, so the line it names is reliably one past
+the mistake. It also lists the three causes seen so far rather than one, in order of frequency: a
+colon followed by a space inside an unquoted value; a value beginning with a quotation mark, which
+YAML reads as a quoted scalar so anything after the closing quote is a syntax error; and a value
+beginning with a backtick. The second of those was new that day and is what prompted the fix.
+
+Verified against two of the three causes by breaking a real lesson's frontmatter each way and
+reading the output. `docs/VERIFICATION.md` carries the row. Closes `docs/QUEUE.md` item 5.
+
 ## 2026-09-19 — Reading Well written, Digital Literacy started, and the queue pruned
 
 **Reading Well is written.** Ten lessons, a twenty-item course-end test, a project, and ten
