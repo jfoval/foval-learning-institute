@@ -28,10 +28,10 @@ Rewrite these five lines each session. Nothing else goes in this block.
   **owe a third** on the passages those passes rewrote, which is where this course's defects now
   live: a repair fails in the opposite direction about half the time. Lessons 8 and 10 are drafted and their reviews are out. **Lesson 9 is the
   only one left to draft**, it is in a 3.4 domain, its neutrality audit is mandatory, and its two
-  primary documents are being sourced and verified now. **Then the assessments**, which
-  `research/OUTLINE.md` blueprints in full and which do not exist yet: a twenty-item course-end test
-  with at least twelve application items and two cross-lesson items, and the project brief with its
-  rubric. The course publishes when those are done, adding `reading-well: 10` to
+  primary documents are being sourced and verified now. **The project brief is written.** What is left of the
+  assessments is the twenty-item course-end test, which `research/OUTLINE.md` blueprints by objective
+  and which needs at least twelve application items and two cross-lesson ones; two of its items are
+  on a supplied pair of documents and so wait on lesson 9. The course publishes when those are done, adding `reading-well: 10` to
   `curriculum/audio-debt.yaml` in the same commit. Next is `/draft-lesson courses/foundations/reading-well 6`, as many lessons as the
   budget allows, after reading that course's `research/reviews/course-wide.md`.
 - **Where to look for a real example when the obvious domains all fail.** Lesson 3 needed a short
