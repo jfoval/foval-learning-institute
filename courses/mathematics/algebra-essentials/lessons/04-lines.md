@@ -215,7 +215,9 @@ To find a slope from any two points on a line, take the change in the up-and-dow
 
 :::predict What slope do the two marked points give?
 Change in fare divided by change in miles: `(9.50 - 5.90) / (5 - 2)` = `3.60 / 3` = 1.20 dollars per mile. Which is the number that was in the equation all along.
-::: Any two points on the line give the same answer, and that is what makes the line straight: the rate is the same everywhere on it. A relationship where the rate changes as you go is not a straight line, and this course does not cover those.
+:::
+
+Any two points on the line give the same answer, and that is what makes the line straight: the rate is the same everywhere on it. A relationship where the rate changes as you go is not a straight line, and this course does not cover those.
 
 :::checkpoint A savings account starts with $20 in it and $5 is added every week, with no interest. Write the equation, and say what the graph of it looks like at week zero and how steeply it climbs.
 `total = 20 + 5w`, where `w` is the number of weeks. At week zero the line is at a height of 20, since that is the money already there. It climbs by 5 dollars per week, so it is five times steeper than a line rising a dollar a week. Notice how little of this is about algebra: the equation is a way of writing down something you could have said in a sentence, and the graph is a way of seeing it.
