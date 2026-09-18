@@ -17,8 +17,11 @@ the debt is.
 ## Primary texts
 
 - **Mortimer J. Adler and Charles Van Doren, *How to Read a Book: The Classic Guide to Intelligent
-  Reading* (revised edition, 1972).** **Read in full**, from the [Internet Archive scan's OCR
-  text](https://archive.org/download/howtoreadabook1972edition/How%20to%20Read%20a%20Book%20-%201972%20Edition_djvu.txt).
+  Reading* (revised edition, 1972).** **Read in full**, from a scanned copy's OCR text at the
+  Internet Archive (item `howtoreadabook1972edition`). **That item is a community upload with no
+  licence and no rights statement, and the book is in copyright, so it is research material and not
+  a reading route: never link it to learners.** See `research/reviews/course-wide.md`. Point readers
+  at [Open Library](https://openlibrary.org/works/OL1892819W/How_to_Read_a_Book) or a library.
   Adler published the first edition alone in 1940 and revised it with Van Doren in 1972; the book is
   the single most-assigned text on this subject and the backbone of the course. What it gives us,
   verbatim:
@@ -100,8 +103,13 @@ the debt is.
     found in this research: memorizing 138 wpm, learning 200, normal silent reading ("rauding") 300,
     skimming 450, scanning 650. It is a psychologist's independent arrival at Bacon's and Adler's
     point, that reading speed is chosen from purpose. **Use it with the caveat** that Carver's
-    absolute numbers were calibrated on the inflated 300 wpm norm Brysbaert is correcting, so the
-    *ordering and ratios* are the teachable part, not the figures.
+    absolute numbers sit on the inflated 300 wpm norm Brysbaert is correcting, so the *ordering* is
+    the teachable part and the figures are not. **Corrected 2026-09-17:** this entry used to say the
+    figures were "calibrated on" that norm, which drops what Brysbaert actually reports, that the
+    norm "was also established independently" from Carver's compressed-speech work. And Brysbaert is
+    not confirming Carver. He writes that Carver "ventured" the gears and "estimated" their speeds,
+    names him among the authors who promoted the 300 wpm figure, and tests his theory. Any lesson
+    using the gears attributes them as a proposal, not a finding.
 
 - **Keith Rayner, Elizabeth Schotter, Michael Masson, Mary Potter and Rebecca Treiman, "So Much to
   Read, So Little Time: How Do We Read, and Can Speed Reading Help?", *Psychological Science in the

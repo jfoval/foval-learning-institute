@@ -21,9 +21,11 @@ not taught. Lessons 3 and 6 hand off explicitly to How to Learn Anything rather 
 rereading, highlighting and retrieval, and lesson 6 hands off to Note-Taking and Personal Knowledge
 at Term 2.
 
-**Two standing cautions for the drafter.** Carver's five gears (138 / 200 / 300 / 450 / 650 wpm) were
-calibrated on the 300 wpm norm Brysbaert corrects to 238; use the ordering, not the absolute figures,
-and say why. And Rayner and colleagues 2016 was read only through the APS public summary and
+**Two standing cautions for the drafter.** Carver's five gears (138 / 200 / 300 / 450 / 650 wpm) sit
+on the 300 wpm norm Brysbaert corrects to 238. Use the ordering, not the figures, and say why.
+Brysbaert is arguing with Carver rather than confirming him: he writes that Carver "ventured" the
+model and "estimated" its speeds, and names him among the authors who promoted the figure the paper
+corrects. Attribute the gears as a proposal. And Rayner and colleagues 2016 was read only through the APS public summary and
 Brysbaert's account of it, so lesson 4 may not claim more than those support.
 
 ---
@@ -37,9 +39,9 @@ Brysbaert's account of it, so lesson 4 may not claim more than those support.
 - **Core ideas:** Bacon, 1625: "Some books are to be tasted, others to be swallowed, and some few to
   be chewed and digested", with his own gloss, some read only in parts, some read but not curiously,
   some read wholly with diligence and attention. Adler's four levels, each containing the one below:
-  elementary, inspectional, analytical, syntopical. Carver's five gears as the same idea arrived at
-  independently by a psychologist measuring people: memorizing, learning, normal reading, skimming,
-  scanning, each with its own speed. The decision that precedes reading is which of these you are
+  elementary, inspectional, analytical, syntopical. Carver's five gears as a psychologist proposing
+  something similar from the other direction: memorizing, learning, normal reading, skimming,
+  scanning, each with its own speed. A proposal, not a measurement, and read through Brysbaert. The decision that precedes reading is which of these you are
   doing, and most readers have never been told there is a decision.
 - **Mechanism:** a level is defined by what you are trying to get out, and what you are trying to get
   out determines how much of the text has to be reconstructed in your head. Scanning needs one match.
@@ -54,8 +56,9 @@ Brysbaert's account of it, so lesson 4 may not claim more than those support.
   "distilled books... flashy things", which lesson 10 returns to); "faster is better" (deferred to 4).
 - **Practice:** list the last ten things you read of any length. Mark each with the level it got and
   the level it deserved. The gap is the course.
-- **Sources:** Bacon 1625 (read in full, Gutenberg); Adler and Van Doren 1972 (read in full); Carver
-  via Brysbaert 2019, with the calibration caveat.
+- **Sources:** Bacon 1625 (read in full, Gutenberg); Adler and Van Doren 1972 (read in full, and not
+  linked to learners; see `research/reviews/course-wide.md`); Carver via Brysbaert 2019, attributed
+  as a proposal.
 - **Connects:** everything. Leads to 2, which is the first level taught as a procedure.
 
 ### 2. Surveying a book before you read it (~45 min)
@@ -73,9 +76,11 @@ Brysbaert's account of it, so lesson 4 may not claim more than those support.
   pages are where authors cannot resist summarising. Surveying reads the encodings instead of the
   text, which is why it is an order of magnitude faster and not an order of magnitude worse.
 - **Worked examples:** (a) simple: a survey of a real book, done in front of the reader, step by step,
-  ending in a written verdict. Use an openly licensed book so the reader can follow along; Adler's own
-  text at the Internet Archive is the obvious choice and lets the course survey the book it is
-  teaching from. (b) With a wrinkle: a book whose apparatus lies. A trade book with a contents page of
+  ending in a written verdict. It must be a book the reader can legally open, so it has to be public
+  domain or openly licensed. **Not Adler's own text**, which was this outline's first choice and is
+  ruled out: the only free copy is an unlicensed scan of an in-copyright book. See
+  `research/reviews/course-wide.md`. A Gutenberg book with a real apparatus, a contents page, an
+  index and a preface, is the replacement to find. (b) With a wrinkle: a book whose apparatus lies. A trade book with a contents page of
   teasing chapter titles and a blurb that is pure puffery, where the survey has to fall back on step 6
   and the last pages. Adler anticipates this and says a bad blurb "in itself can tell you something".
 - **Misconceptions:** "I should not judge a book before reading it" (you are judging whether to read
