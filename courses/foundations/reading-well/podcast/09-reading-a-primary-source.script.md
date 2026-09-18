@@ -1,6 +1,37 @@
 ---
 source: courses/foundations/reading-well/lessons/09-reading-a-primary-source.md
 written_by: Claude, by hand, from the lesson text
+checked: >-
+  Fact-checked twice in fresh-context subagents against the lesson and against the primary sources
+  on 2026-09-19. **Round one was a FAIL** on three things. Pitcairn's opening line was spoken as one
+  continuous sentence when it is two non-contiguous fragments: the lesson marks the gap with an
+  ellipsis and the script had replaced it with a comma, which by ear is not an elision at all.
+  Both of the sentences the lesson uses to keep the first shot open had been deleted, and both
+  deletions ran the same way, so Parker's account survived intact while the British claim was left
+  sounding like hearsay; one turn had also moved a second-hand incident from the road onto the
+  Common and called it firing first, which is the script's word and not the lesson's. And the
+  credit given to Pitcairn for admitting a loss of fire discipline stopped immediately before the
+  clause that takes it back, which is course-wide finding 12 exactly. Nine more, including a
+  sign-off that dropped a whole quarter of the method the episode had announced, and Pitcairn's
+  "from some quarter or other", which attaches to his horse and by ear attaches to the shots.
+  The repairs ran the script 49 words past the render ceiling, so two exchanges came out whole
+  rather than words off every turn: the textbook aside and the study's first result. Both are named
+  in the sign-off as left out.
+  **Round two: PASS WITH NITS, and two of the repairs had over-corrected in the opposite
+  direction.** The gloss on "from some quarter or other" kept the lesson's observation and dropped
+  both of the sentences that defuse it, so it landed as an unneutralised insinuation about
+  Pitcairn's honesty; the lesson's "do not turn it into a verdict" is now carried. And the
+  restored Wineburg clause said three of eight students put the textbook "at the top" where
+  Wineburg and the lesson both say "at or near the top". Three more: the study is now announced as
+  having two results so that cutting one does not misrepresent it, Pitcairn's provenance gained the
+  sentence that closes the gap against Parker's four, and a quoted first-person clause no longer
+  sits behind a full stop that puts the script's "He" inside it. Every quotation was verified
+  character for character against the National Archives transcript of Parker's deposition, the
+  Teaching American History transcription of Pitcairn's letter, and the 1837 Lincoln edition of the
+  Provincial Congress journals. The uncontested frame carried only the eight American dead where
+  the lesson's carries both sides, which on a lesson about not settling who fired first is a lean;
+  the British casualties are restored, paid for by trimming the contextualization gloss the episode
+  never works. 1,412 words against the 1,417 wall.
 about: >-
   About eight minutes. Haley opens, because the engine gives the first turn to the second voice.
   Hosts are John (S1, the Charon voice) and Haley (S2, the Aoede voice). Ninth episode for Reading
@@ -24,7 +55,7 @@ S1: None of them was written for you. And the lesson is built on one study. Sam 
 
 S2: And?
 
-S1: Here is the result to build a method on, in his words. In almost every opportunity to do so, historians, when first given a document, looked immediately to its attribution, whereas students usually began with the first word in the upper left and never stopped until they reached the last word on the bottom right.
+S1: Two results, and here's the one to build a method on, in his words. In almost every opportunity to do so, historians, when first given a document, looked immediately to its attribution, whereas students usually began with the first word in the upper left and never stopped until they reached the last word on the bottom right.
 
 S2: So the historians read the label first.
 
@@ -32,11 +63,11 @@ S1: Which is the lesson. A document isn't a window onto an event. It's an act, p
 
 S2: So give me the moves.
 
-S1: Four. Three are Wineburg's, and the Stanford curriculum added the fourth. Sourcing. Who made this, when, for whom, and why, and what did they stand to gain by how it came out. Contextualization, and the sharp version of that question is, what could this author have known. Not what do we know now. Corroboration. What do other accounts say, and where exactly do they diverge. And close reading. What is the language itself doing.
+S1: Four. Three are Wineburg's, and the Stanford curriculum added the fourth. Sourcing. Who made this, when, for whom, and why, and what did they stand to gain by how it came out. Contextualization. What could this author have known, not what do we know now. Corroboration. What do other accounts say, and where exactly do they diverge. And close reading. What is the language itself doing.
 
 S2: Work them.
 
-S1: Two real documents about the same quarter of an hour, written a day apart. The uncontested part first, because corroboration needs somewhere to stand. On the nineteenth of April seventeen seventy five a British detachment marched from Boston to destroy colonial military stores at Concord. It reached Lexington around sunrise. Militia were drawn up on the Common. Firing happened. Eight Americans were killed.
+S1: Two real documents about the same quarter of an hour, written a day apart. The uncontested part first, because corroboration needs somewhere to stand. On the nineteenth of April seventeen seventy five a British detachment marched from Boston to destroy colonial military stores at Concord. It reached Lexington around sunrise. Militia were drawn up on the Common. Firing happened. Eight Americans were killed. One British soldier was wounded and the major's horse was hit twice.
 
 S2: And who fired first?
 
@@ -52,7 +83,7 @@ S1: Sworn at Lexington on the twenty fifth of April, six days after the morning,
 
 S2: Why would you need a notary?
 
-S1: That's the thing to notice. It exists because the paper was going overseas, to readers who didn't know a Middlesex justice from anyone. The depositions were taken by order of the Massachusetts Provincial Congress, whose covering address says the purpose in its own words: it being of the greatest importance that an early, true, and authentick account of this inhuman proceeding should be known to you.
+S1: It exists because the paper was going overseas, to readers who didn't know a Middlesex justice from anyone. The depositions were taken by order of the Massachusetts Provincial Congress, whose covering address says the purpose in its own words: it being of the greatest importance that an early, true, and authentick account of this inhuman proceeding should be known to you.
 
 S2: So it isn't a witness statement.
 
@@ -60,15 +91,15 @@ S1: It's one exhibit in a brief, assembled at speed by a body that was a party t
 
 S2: Anything in it that doesn't help him?
 
-S1: One thing, in his own first clause, and in his own words. He ordered our militia to meet on the Common in said Lexington. In April seventeen seventy five that assembly is itself the fact a Crown lawyer would have wanted, and it's in the document because Parker put it there. Be careful with the rest of that sentence, though. That he ordered them to disperse and not to fire is not a concession. It's the exculpation the deposition exists to deliver. And notice what he doesn't say. Parker never says he saw the first shot.
+S1: One thing, in his own first clause, and in his own words, he ordered our militia to meet on the Common in said Lexington. In April seventeen seventy five that assembly is itself the fact a Crown lawyer would have wanted, and it's in the document because Parker put it there. Be careful with the rest of that sentence, though. That he ordered them to disperse and not to fire is not a concession. It's the exculpation the deposition exists to deliver. And notice what he doesn't say. Parker never says he saw the first shot.
 
 S2: Second document.
 
-S1: Major John Pitcairn of the Royal Marines, commanding the light infantry at the head of the column, writing to General Gage a day later. I instantly called to the soldiers not to fire, but surround and disarm them, and after several repetitions of those positive orders to the men, not to fire, and so on, some of the rebels who had jumped over the wall fired four or five shots at the soldiers, which wounded a man of the tenth and my horse was wounded in two places, from some quarter or other. That last phrase is about the horse, not the shots. He's certain about the accusation and uncertain about the injury to himself.
+S1: Major John Pitcairn of the Royal Marines, commanding the light infantry at the head of the column, writing to General Gage a day later. I instantly called to the soldiers not to fire, but surround and disarm them, and after several repetitions of those positive orders to the men, not to fire, and so on, some of the rebels who had jumped over the wall fired four or five shots at the soldiers, which wounded a man of the tenth and my horse was wounded in two places, from some quarter or other. That last phrase is about the horse, not the shots. He's certain about the accusation and uncertain about the injury to himself, and that unevenness isn't a verdict.
 
 S2: Source that one.
 
-S1: His first line says why he's writing. As you are anxious to know the particulars that happened near and at Lexington in the nineteenth instant, agreeable to your desire. So: a subordinate's report, written at his superior's request, by the officer whose own conduct is in question.
+S1: His first line says why he's writing. As you are anxious to know the particulars that happened near and at Lexington in the nineteenth instant, agreeable to your desire. So: a subordinate's report, written at his superior's request, by the officer whose own conduct is in question, and writing after his superior's version was already in print.
 
 S2: Which is the mirror of Parker.
 
@@ -88,8 +119,8 @@ S1: One clause wide, and it's a square contradiction. Parker says the troops fir
 
 S2: So what have I got?
 
-S1: A precisely located disagreement, which is a result. And the better question, which is what each document is good evidence of. Parker is strong evidence of what the Lexington command wanted on the record within a week. Pitcairn is strong evidence of what the British command needed to be true, and of a loss of fire discipline: he writes that his own light infantry began firing, in his words, without any order or regularity. Weigh that credit carefully, though. Unordered firing is the version that clears him of having begun a war, so it costs him less than it looks. Both are weak on the first shot, and that's the shape: what each document is weakest about is the thing it was written to settle.
+S1: A precisely located disagreement, which is a result. And the better question, which is what each document is good evidence of. Parker is strong evidence of what the Lexington command wanted on the record within a week. Pitcairn is strong evidence of what the British command needed to be true, and of a loss of fire discipline: he writes that his own light infantry began firing, in his words, without any order or regularity. Weigh that credit carefully, though. Unordered firing is the version that clears him and his superiors of having begun a war, so it costs him less than it looks. Both are weak on the first shot, and that's the shape: what each document is weakest about is the thing it was written to settle.
 
-S2: We've left out the study's other result, where the historians ranked a textbook below a novel for trustworthiness and three of the eight students put it at the top. And the whole close reading move, which the lesson works word by word on both documents. And a third document, an affidavit sworn fifty one years later that turns out to be poor evidence about seventeen seventy five and excellent evidence about eighteen twenty six. And Reisman's study showing this transfers to general reading, and the section where the lesson sets out the limits of its own sourcing. The full lesson has all of it, and both documents are free and linked. The lesson's free at Foval Learning Institute dot org.
+S2: We've left out the study's other result, where the historians ranked a textbook below a novel for trustworthiness and three of the eight students put it at or near the top. And most of the close reading move, which the lesson works word by word on both documents. And a third document, an affidavit sworn fifty one years later, poor evidence about seventeen seventy five and excellent evidence about eighteen twenty six. And Reisman's study showing this transfers to general reading, and where the lesson sets out the limits of its own sourcing. The full lesson has all of it, and both documents are free and linked. The lesson's free at Foval Learning Institute dot org.
 
 S1: Thanks for listening. Read the attribution before you read the text.

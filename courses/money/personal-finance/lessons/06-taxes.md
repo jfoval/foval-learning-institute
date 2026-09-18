@@ -9,10 +9,10 @@ objectives:
 quiz:
   - q: Ines is single and earns $58,000. She is offered a promotion that would take her to $70,000. Using the 2025 single-filer brackets and the standard deduction, how much does her federal income tax rise?
     options:
-      - It rises by $7,103.50, because at $70,000 her whole taxable income is now taxed at 22%
-      - It rises by $1,440, because 12% is the rate that applies to the extra pay
+      - It rises by $7,103.50, because at $70,000 her whole taxable income is now taxed at 22% instead of 12%
+      - It rises by $1,440, because 12% is the rate that applies to the whole of the extra pay
       - It rises by $2,017.50, because $6,225 of the extra pay is taxed at 12% and the last $5,775 at 22%
-      - It rises by $2,640, because 22% is her marginal rate now and the raise is the part that moved into it
+      - It rises by $2,640, because 22% is her marginal rate now and the whole raise sits in it
     answer: 2
     explain: Do it in slices. Her taxable income goes from $42,250 to $54,250. The 12% bracket runs to $48,475, so $6,225 of the extra pay finishes filling that container at 12%, giving $747, and the remaining $5,775 spills into the 22% container, giving $1,270.50. Total $2,017.50, so she keeps $9,982.50 of the $12,000 before payroll tax and about $9,064.50 after it. Option A is the myth this lesson exists to kill, since a bracket taxes a slice and never the whole. Notice that even the myth would leave her better off by nearly $4,900, which is worth sitting with. Option B forgets that some of the raise really does cross the line. Option D is the more sophisticated mistake and the one to watch for, because it correctly identifies her new marginal rate and then wrongly applies it to all $12,000, when only $5,775 of it reached that container.
   - q: Dev is single and earns $45,000. Renata is single and earns $250,000. Both take the standard deduction, and both qualify for the same $3,000 deduction. What is each one's saving, and how would it change if the same $3,000 were a credit instead?
@@ -20,38 +20,38 @@ quiz:
       - Dev saves $360 and Renata saves $960; as a credit, both would save the full $3,000
       - Both save $3,000 either way, because a deduction and a credit are two names for the same relief
       - As a deduction both save $3,000; as a credit Dev would save only $360 and Renata only $960
-      - Dev saves $360 and Renata saves $960 either way, because a deduction and a credit are both worth the taxpayer's marginal rate
+      - Dev saves $360 and Renata saves $960 either way, because both are worth the taxpayer's marginal rate
     answer: 0
     explain: A deduction comes off income before the tax is worked out, so it's worth whatever rate the removed slice was facing. Dev's last slice sits in the 12% bracket, so $3,000 saves him $360. Renata's taxable income is $234,250, which sits in the 32% bracket, so the identical deduction saves her $960, nearly three times as much for the same headline number. A credit comes off the tax owed rather than the income, so it's worth its face value to both of them, $3,000 each, provided they both owe at least that much. Option B is the synonym error the news relies on. Option C has the two mechanisms exactly swapped. Option D is the interesting mistake, because it takes a true sentence about deductions and over-applies it to credits, and the whole point is that only one of the two is scaled by your rate.
   - q: Owen tells you his tax rate is 22%. He is single, earns $80,000, and takes the standard deduction. What is the most accurate correction?
     options:
-      - He is right; 22% is the rate on his income
-      - 22% is his marginal rate, the rate on his next dollar. His effective rate is about 11%, because everything below the 22% bracket was taxed at 0%, 10%, and 12% on the way up
-      - He is wrong; his rate is 24%, because he has to add the payroll tax rate to the bracket rate
-      - His effective rate is 22% but his marginal rate is 12%
+      - He is right, because the bracket you land in sets the rate that applies to the whole of your income
+      - 22% is his marginal rate, the rate on his next dollar. His effective rate is about 11%
+      - He is wrong; his rate is 24%, because he has to add payroll tax to the bracket rate
+      - His effective rate is 22% and his marginal rate is 12%, the other way round
     answer: 1
     explain: Both numbers are real and they answer different questions. The marginal rate answers "what happens to my next dollar", which is what you need for a raise, an overtime shift, or a retirement contribution. The effective rate answers "what share of what I earned went to this tax", which at $80,000 is $9,049 out of $80,000, or 11.3%. Option A is the sentence almost everyone says, and it's not so much wrong as unfinished, since it names a real rate without saying which of the two it is, and here the two differ by a factor of two. Option C mixes two different taxes into one rate, and the marginal and effective versions of that mix are different again. Option D has the pair backwards; under a bracket system the effective rate is the lower of the two for anyone who has crossed at least one bracket line.
   - q: Tomas filed a new W-4 in January. His salary, his deductions and his tax liability for the year are all unchanged, but instead of his usual $1,500 refund he now owes $1,900 in April. What actually happened, and what should he check?
     options:
       - His tax bill went up by $3,400, so the new W-4 cost him money and he should undo it
-      - His tax owed is unchanged. He simply paid $3,400 less of it through the year and kept that money in his own hands instead, so he settles the balance now; the one thing to check is whether he underpaid far enough to owe an underpayment penalty
-      - He should go back to the old form, because a refund is always a better outcome than a bill
-      - Nothing has changed except paperwork; a W-4 only affects the size of the refund, and a refund is a separate payment the government makes for filing correctly
-    answer: 1
-    explain: A W-4 changes the estimate your employer sends in during the year. It doesn't touch what you owe, which is set by your income and the brackets. Tomas swung $3,400 from the withheld column into his own pocket month by month, so the April number swung by the same $3,400 the other way. That's usually the better deal, since the money was his to use for up to a year rather than sitting with the government at no interest, and it's the exact mirror of Priya's arrangement in the lesson. The catch is the thing worth checking. Withhold far enough below your actual liability and the IRS charges an underpayment penalty, with safe harbours at 90% of this year's tax or 100% of last year's, so the aim is to land near zero rather than as far under as possible. Option A confuses withholding with liability, which is the central mistake here. Option C states a preference as if it were arithmetic. Option D treats a refund as money the government adds, when it's money you already sent.
+      - Nothing changed but paperwork; a W-4 only sets the size of the refund, which the government pays for filing correctly
+      - He should go back to the old form, because a refund every April is always a better outcome than a bill
+      - His tax owed is unchanged; he paid $3,400 less of it through the year, so he settles the balance now
+    answer: 3
+    explain: A W-4 changes the estimate your employer sends in during the year. It doesn't touch what you owe, which is set by your income and the brackets. Tomas swung $3,400 from the withheld column into his own pocket month by month, so the April number swung by the same $3,400 the other way. That's usually the better deal, since the money was his to use for up to a year rather than sitting with the government at no interest, and it's the exact mirror of Priya's arrangement in the lesson. The catch is the thing worth checking. Withhold far enough below your actual liability and the IRS charges an underpayment penalty, with safe harbours at 90% of this year's tax or 100% of last year's, so the aim is to land near zero rather than as far under as possible. Option A confuses withholding with liability, which is the central mistake here. Option C states a preference as if it were arithmetic. Option B treats a refund as money the government adds, when it's money you already sent.
   - q: Marcus is single, self-employed, and buys health insurance through the marketplace. For the 2026 tax year his income sits just under 400% of the federal poverty level, and he is offered work that would push him just over it. Which statement fits this lesson?
     options:
-      - He should refuse, because crossing a tax bracket always costs more than the extra income
-      - Bracket arithmetic never punishes extra income, but a benefit cliff can. For 2026 the marketplace premium tax credit goes to zero above 400% of the poverty level, so this specific extra income really can leave him worse off and the arithmetic has to be done
+      - He should refuse, because crossing into a higher bracket always costs more than the extra income
       - His marginal tax rate rises to 22%, so he keeps 78% of the extra income and comes out ahead
+      - Bracket arithmetic never punishes extra income, but a benefit cliff can, and this is one
       - Health insurance is unrelated to tax, so the extra income is straightforwardly good
-    answer: 1
-    explain: This is the real version of the myth. Brackets slice, so they can never take more than part of the dollar that crossed the line. Cliffs are different. A benefit that switches off at a threshold can withdraw thousands from one extra dollar of income, and on KFF's estimate for 2026 a 60-year-old at $64,000 pays about $8,750 more for the same benchmark plan than one at $62,000. The honest advice isn't "refuse raises", it's "know where your own cliffs are and check". Option A generalises a true fact about one programme into a false claim about brackets. Option C does correct arithmetic on the wrong tax and misses the cliff entirely, and it also forgets that a self-employed person pays both halves of payroll tax. Option D treats premium tax credits as if they weren't part of the tax code, which is exactly what they are.
+    answer: 2
+    explain: This is the real version of the myth. Brackets slice, so they can never take more than part of the dollar that crossed the line. Cliffs are different. A benefit that switches off at a threshold can withdraw thousands from one extra dollar of income, and on KFF's estimate for 2026 a 60-year-old at $64,000 pays about $8,750 more for the same benchmark plan than one at $62,000. The honest advice isn't "refuse raises", it's "know where your own cliffs are and check". Option A generalises a true fact about one programme into a false claim about brackets. Option B does correct arithmetic on the wrong tax and misses the cliff entirely, and it also forgets that a self-employed person pays both halves of payroll tax. Option D treats premium tax credits as if they weren't part of the tax code, which is exactly what they are.
   - q: Between one year and the next, Ana's salary rises 3% and consumer prices also rise 3%. The IRS raises every bracket threshold and the standard deduction by the same 3%. What happens to her federal income tax and to what her after-tax pay will buy?
     options:
       - Her tax rises by 3% and what her after-tax pay buys is unchanged
-      - Her tax rises by more than 3%, because the raise pushes part of her income into a higher bracket, so what her pay buys falls
-      - Her tax is unchanged, because indexing cancels the raise, so what her pay buys rises by 3%
+      - Her tax rises by more than 3%, because part of the raise moves into a higher bracket
+      - Her tax is unchanged, because indexing cancels the raise, so her pay buys 3% more
       - Her tax rises by 3% and what her pay buys rises by 3%, because a raise is a raise
     answer: 0
     explain: This is lesson 4's real-versus-nominal distinction wearing a tax costume. If her income, the thresholds and the deduction all scale by the same 3%, every dollar lands in exactly the same slice it landed in last year, so the tax scales by 3% too and her effective rate doesn't move at all. Her after-tax pay is 3% larger in nominal terms and prices are 3% higher, so in real terms she's exactly where she started. Option B describes bracket creep, which is real and is precisely what the indexing exists to prevent, and it is what would happen if the thresholds were frozen. Option C forgets that the tax is charged on the income, not on the raise. Option D is the nominal illusion in its purest form, counting the 3% on the pay slip and not the 3% at the shops.
