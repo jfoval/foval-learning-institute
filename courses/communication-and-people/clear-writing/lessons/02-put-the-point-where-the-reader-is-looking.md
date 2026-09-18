@@ -1,6 +1,7 @@
 ---
 title: Put the point where the reader is looking
 minutes: 75
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/communication-and-people/clear-writing/02-put-the-point-where-the-reader-is-looking.mp3
 objectives:
   - Front-load a document, a section and a paragraph, and say what each level of front-loading is doing
   - Rewrite an email whose decision is buried so the decision arrives first, without losing the reasons
