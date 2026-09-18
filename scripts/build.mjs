@@ -403,6 +403,13 @@ const TOKENS = (() => {
   return out;
 })();
 
+// Lessons whose prose has gone stiff, collected across the whole run and reported as one
+// line rather than one warning each. The check is right and the debt is real (twenty
+// lessons on 2026-09-18), but twenty separate warnings is a wall a session learns to
+// scroll past, and docs/VERIFICATION.md records that a warning nobody reads is worse than
+// no warning at all. One line names the worst and gives the count.
+const STIFF = [];
+
 function lintLessons() {
   for (const school of fs.readdirSync(COURSES_DIR, { withFileTypes: true }).filter(d => d.isDirectory())) {
     for (const cdir of fs.readdirSync(path.join(COURSES_DIR, school.name), { withFileTypes: true }).filter(d => d.isDirectory())) {
@@ -770,6 +777,62 @@ function lintLessons() {
           });
         }
 
+        // STYLE_GUIDE: contractions. "Their absence is the fastest way to sound like a
+        // manual." Four consecutive Digital Literacy lessons were sent back by Stage 4 for
+        // this and nothing else would have caught it: 1 in 4,739 body words on lesson 8,
+        // 2 in 4,659 on lesson 9, 3 in 4,822 on lesson 10, 5 in 3,401 on lesson 12, against
+        // 36 in lesson 1 and 27 in lesson 7 of the same course. Reviews closed it three
+        // times and it came back each time, which is root CLAUDE.md rule 10's trigger:
+        // if a rule needs shouting, write a check instead.
+        //
+        // The rate is deliberately generous. This is a floor to catch prose that has gone
+        // stiff, not a target to write towards, and a lesson quoting a lot of standards
+        // language will sit nearer it honestly. Possessives are excluded, because "the
+        // site's address" is not a contraction and counting it hides the defect.
+        {
+          const body = src.split(/^---$/m).slice(2).join("---");
+          const words = body.split(/\s+/).filter(Boolean).length;
+          if (words >= 1200) {
+            const hits = body.match(/[A-Za-z]+'(t|re|ve|ll|m|d|s)\b/g) || [];
+            const POSSESSIVE_OK = new Set(["it's", "that's", "here's", "there's", "what's", "let's", "he's", "she's", "who's"]);
+            const contractions = hits.filter(h => !h.endsWith("'s") || POSSESSIVE_OK.has(h.toLowerCase()));
+            const per1000 = (contractions.length / words) * 1000;
+            if (per1000 < 2.5) STIFF.push({ file, n: contractions.length, words, per1000 });
+          }
+        }
+
+        // /draft-lesson defect 5: "pick the longest option" must not pass the quiz. Bible
+        // Basics lesson 8 shipped with the key longest in five of six items, scoring 83%
+        // against a 70% pass mark for a reader who read nothing. Measured, not eyeballed,
+        // because eyeballing is exactly what missed it. Ties do not count: the failure is
+        // the key being the sole longest often enough to be a strategy.
+        {
+          try {
+            const fm = yaml.load(src.split(/^---$/m)[1]);
+            if (fm && Array.isArray(fm.quiz) && fm.quiz.length >= 3) {
+              let soleLongest = 0, counted = 0;
+              const indices = [];
+              for (const q of fm.quiz) {
+                if (!q || !Array.isArray(q.options) || typeof q.answer !== "number") continue;
+                counted++;
+                indices.push(q.answer);
+                const lens = q.options.map(o => String(o).length);
+                const max = Math.max(...lens);
+                if (lens[q.answer] === max && lens.filter(l => l === max).length === 1) soleLongest++;
+              }
+              if (counted >= 3 && soleLongest / counted > 0.5)
+                warn.push(`${file}: the correct option is the sole longest in ${soleLongest} of ${counted} quiz items, so "pick the longest" beats reading the lesson. Lengthen the distractors rather than trimming the key, which is usually longest because it is the one carrying the reasoning.`);
+              const distinct = new Set(indices).size;
+              if (counted >= 4 && distinct <= 2)
+                warn.push(`${file}: the quiz uses only ${distinct} of the four answer positions across ${counted} items, which is guessable. Spread the key across all four.`);
+              let runs = 0;
+              for (let i = 1; i < indices.length; i++) if (indices[i] === indices[i - 1]) runs++;
+              if (counted >= 4 && runs >= Math.ceil(counted / 2))
+                warn.push(`${file}: ${runs} of the quiz's answer positions repeat the one before them, which is a pattern a reader can ride.`);
+            }
+          } catch { /* frontmatter parse failures are reported by their own check above */ }
+        }
+
         // 4.6: two different tokens that resolve to the same colour cannot distinguish two
         // things. Logic lesson 9 drew a background track in var(--line-strong) and its value
         // bar in var(--navy), and those are byte-identical in both themes, so the chart
@@ -1071,6 +1134,13 @@ function checkStatusAgreement() {
   }
 }
 checkStatusAgreement();
+
+// One line for the whole run, not one per lesson. See the note beside STIFF.
+if (STIFF.length) {
+  STIFF.sort((x, y) => x.per1000 - y.per1000);
+  const worst = STIFF.slice(0, 3).map(x => `${path.basename(x.file)} (${x.n} in ${x.words})`).join(", ");
+  warn.push(`voice: ${STIFF.length} lesson(s) run under 2.5 contractions per 1,000 body words, where this repo's lessons run 5 to 8. The style guide calls their absence "the fastest way to sound like a manual". Stiffest: ${worst}. This is mostly pre-existing debt on published courses; fix a lesson when you are already editing it rather than making a pass of it.`);
+}
 
 if (warn.length) console.warn(warn.map(w => "warn: " + w).join("\n"));
 if (errors.length) { console.error(errors.map(e => "ERROR: " + e).join("\n")); process.exit(1); }

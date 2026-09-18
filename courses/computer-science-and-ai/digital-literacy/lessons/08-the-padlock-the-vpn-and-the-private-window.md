@@ -96,7 +96,7 @@ So there is one question to ask of each tool, and you already have the diagram t
 
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 360" role="img" aria-labelledby="tools-title tools-desc" style="width:100%;height:auto;font-family:inherit">
   <title id="tools-title">Which parties each of the three tools changes something for</title>
-  <desc id="tools-desc">Lesson 7's path down the left, with three vertical bars to the right. Each bar covers exactly the parties that tool changes something for. Your device, with the name lookup branching off it and finishing first, then your router, your internet provider, the networks in between, a delivery network, and on a dashed last segment the service itself, which is usually never contacted at all. The private window bar covers your device and nothing else. The HTTPS bar covers your router, your internet provider and the networks in between, and stops at both ends, because the name lookup happened before the connection opened and because the two ends of an encrypted connection are the two parties who can read it. The VPN bar covers the name lookup, your router, your internet provider and the networks in between, and at its foot sits the VPN company, a party the path did not have before, which now sees what the internet provider did.</desc>
+  <desc id="tools-desc">Lesson 7's path down the left, with three vertical bars to the right. Each bar covers exactly the parties that tool changes something for. Your device, with the name lookup branching off it and finishing first, then your router, your internet provider, the networks in between, a delivery network, and on a dashed last segment the service itself, which is usually never contacted at all. The private window bar covers your device and nothing else. The HTTPS bar covers your router, your internet provider and the networks in between, and stops at both ends, because the name lookup happened before the connection opened and because the two ends of an encrypted connection are the two parties who can read it. The VPN bar covers the name lookup, your router, your internet provider and the networks in between, and at its foot sits the VPN company, a party the path did not have before, which now sees what the internet provider used to see.</desc>
   <text x="263" y="28" font-size="15" font-weight="700" fill="var(--navy, #0f2a4a)">HTTPS</text>
   <text x="328" y="28" font-size="15" font-weight="700" fill="var(--gold, #b08d2a)">private</text>
   <text x="407" y="28" font-size="15" font-weight="700" fill="var(--oxblood, #8b1e2d)">VPN</text>
@@ -105,7 +105,7 @@ So there is one question to ask of each tool, and you already have the diagram t
   <rect x="416" y="86" width="16" height="160" rx="8" fill="var(--oxblood, #8b1e2d)" opacity="0.85"/>
   <circle cx="424" cy="266" r="6" fill="var(--oxblood, #8b1e2d)"/>
   <text x="440" y="298" font-size="15" font-weight="700" text-anchor="end" fill="var(--oxblood, #8b1e2d)">The VPN company</text>
-  <text x="440" y="316" font-size="15" text-anchor="end" fill="var(--text-2, #4a5260)">sees what the provider did</text>
+  <text x="440" y="316" font-size="15" text-anchor="end" fill="var(--text-2, #4a5260)">replaces your provider</text>
   <line x1="26" y1="58" x2="26" y2="272" stroke="var(--text-2, #4a5260)" stroke-width="2"/>
   <line x1="26" y1="272" x2="26" y2="318" stroke="var(--text-2, #4a5260)" stroke-width="2" stroke-dasharray="5 5"/>
   <path d="M 28 68 C 32 90, 56 98, 80 98" fill="none" stroke="var(--text-2, #4a5260)" stroke-width="2"/>
