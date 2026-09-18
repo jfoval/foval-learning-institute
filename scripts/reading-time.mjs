@@ -88,6 +88,8 @@ function exerciseCost(block) {
 const EXCEPTIONS = {
   "courses/christian-studies/bible-basics/lessons/12-method-tools-plan.md":
     "asks the reader to read three whole books of the Bible and write a fortnight's study plan",
+  "courses/foundations/reading-well/lessons/10-one-question-many-books.md":
+    "states 140 minutes across four exercises that the stated-minutes cap prices at 30 apiece, and its first exercise is the course project's opening two sittings",
   "courses/foundations/reading-well/lessons/08-reading-a-research-paper.md":
     "states 70 minutes across two exercises that the stated-minutes cap prices at 40, one of them a full second pass on a paper in its own sitting",
   "courses/foundations/reading-well/lessons/06-reading-with-a-pen.md":

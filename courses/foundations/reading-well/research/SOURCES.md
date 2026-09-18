@@ -110,6 +110,15 @@ the debt is.
       passages in the works examined, created a neutral terminology that applies to all or most of the
       authors examined, framed and ordered a set of questions that most of them can be interpreted as
       answering, and defined and arranged the issues produced by differing answers to the questions."
+    - **What step 5 is aiming at, and the name for it.** "The special quality that a syntopical
+      analysis tries to achieve can, indeed, be summarized in the two words 'dialectical objectivity.'
+      The syntopical reader, in short, tries to look at all sides and to take no sides." He is honest
+      that it is an ideal nobody meets: "Absolute objectivity is not humanly possible", and the half
+      you will fail at is looking at all sides rather than taking none, since "all possible sides of an
+      issue cannot be exhaustively enumerated. Nevertheless, he must try." **Added 2026-09-18 because a
+      draft of lesson 10 asserted this position in Adler's voice with nothing in this file behind it**,
+      which is course-wide finding 3 for the fifth time. He has the position, and his version is better
+      than the drafter's.
 
   **Caution.** Adler is a philosopher writing in 1940 and 1972, not an empirical researcher. Nothing
   in the book is measured. It is a primary source on a method, and the course should present it as

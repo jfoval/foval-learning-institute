@@ -24,7 +24,7 @@ Two tests before you commit.
 
 ## Step 1: six candidates, six verdicts
 
-Find six texts that touch the question. **At least one must be a research paper and at least one a primary document**, because two of this course's lessons are about those genres and the project is where you find out whether you can use them.
+Find six texts that touch the question. **If you did lesson 10's first exercise you have already done the question and four of these, so start from where that left off rather than beginning again.** **At least one must be a research paper and at least one a primary document**, because two of this course's lessons are about those genres and the project is where you find out whether you can use them.
 
 Survey each one with lesson 2's six steps. Give each survey **under half an hour**, which is lesson 2's budget and is a ceiling rather than a target.
 

@@ -31,7 +31,27 @@ Rewrite these five lines each session. Nothing else goes in this block.
   primary documents are being sourced and verified now. **The project brief is written.** What is left of the
   assessments is the twenty-item course-end test, which `research/OUTLINE.md` blueprints by objective
   and which needs at least twelve application items and two cross-lesson ones; two of its items are
-  on a supplied pair of documents and so wait on lesson 9. The course publishes when those are done, adding `reading-well: 10` to
+  on a supplied pair of documents and so wait on lesson 9.
+- **Lesson 9's two documents are sourced and verified**, and the research is worth keeping.
+  **Worked example (a): Captain John Parker's deposition of 25 April 1775 paired with Major John
+  Pitcairn's report to Gage of 26 April 1775.** One day apart, each by the officer commanding at the
+  point of contact, each addressed upward to his own side's authority, each written while his own
+  conduct was in question, agreeing on nearly everything except the clause that matters. Parker is
+  clean at both layers: the 1775 text is public domain and the National Archives transcription is a
+  US government work marked unrestricted. **The British half is the problem and the lesson must say
+  so**: nobody has seen the manuscript or Allen French's 1932 printing of it, the Clements Library
+  and HathiTrust both refused access, every online transcription is unsourced and one says it has
+  been edited for readability, and the archival citation comes from a footnote in a web magazine.
+  Gage's own published account corroborates the wording clause by clause but is derived from
+  Pitcairn's report, so it proves the text is real and proves nothing about the events. **Worked
+  example (b): Sylvanus Wood's affidavit of 17 June 1826**, which is weak evidence about 1775 and
+  excellent evidence about 1826, and whose sting is that it was gathered not by Lexington's friends
+  but by Concord's, to take the priority away from Lexington.
+- **Another licence trap, of the kind `course-wide.md` already records.** The Internet Archive copy
+  of Peter Force's *American Archives* vol. 2 is a community upload carrying a CC BY badge applied by
+  the uploader, who has no standing to license an 1839 public-domain text. The Ripley and Dawson
+  scans of the same period are library-sponsored and marked not in copyright, which is the clean
+  case. **A badge on an Archive item licenses the uploader's work, not the book.** The course publishes when those are done, adding `reading-well: 10` to
   `curriculum/audio-debt.yaml` in the same commit. Next is `/draft-lesson courses/foundations/reading-well 6`, as many lessons as the
   budget allows, after reading that course's `research/reviews/course-wide.md`.
 - **Where to look for a real example when the obvious domains all fail.** Lesson 3 needed a short
