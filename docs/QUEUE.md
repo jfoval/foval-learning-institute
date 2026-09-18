@@ -28,6 +28,26 @@ Rewrite these five lines each session. Nothing else goes in this block.
   had. Lesson 9 is about signatures, stores and package managers and will want several more. Check
   `npm run taught` and lessons 1 to 8 before assuming a word is available.
 
+- **BLOCKED ON JOHN, and it is the only thing standing between Digital Literacy and publication.**
+  Lesson 13, the last one, has a Stage 1 gate the outline states as a **must**: "Stage 1 must run a
+  real data export end to end and record what arrived". Its first worked example is that export,
+  described concretely, how long it took, how big it was, what format it was in, which parts were
+  readable. **A session cannot do this.** It needs a real account at a real service, John's
+  credentials, and a wait of hours or days for the archive to be built.
+
+  **What John does, and it is about ten minutes of his time plus a wait.** Go to one service he
+  actually uses, Google Takeout being the easiest, request an export of one or two products rather
+  than everything, and when the mail arrives, write down five things: how long it took, how large it
+  was, what format it came in, what was inside that he expected, and what was inside that he did not.
+  That last one is the lesson. Then hand the note to a session.
+
+  **The paper half of that gate is done**, on 2026-09-18: Farke et al., USENIX Security 2021, on
+  Google's My Activity, is now in `research/SOURCES.md` with a finding that changes how the lesson
+  must be written rather than just what it cites. Dashboards make people *less* concerned after
+  looking, and only 25% change anything.
+
+  Everything else on the course is ready. Lessons 1 to 12 are drafted, reviewed and applied.
+
 - **A Stage 1 gap, found by lesson 9's review and not filled.** The course teaches a three-route
   comparison for installing software (app store, package manager, browser download) and
   `research/SOURCES.md` **has no app-store entry at all**. Lesson 9's whole app-store column, and its

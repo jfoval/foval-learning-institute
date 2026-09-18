@@ -776,6 +776,31 @@ This is a practical course, and some of what it teaches can hurt someone if taug
   changed in 2025. Antivirus lab scores change quarterly. APWG counts change quarterly. Okta's
   adoption figures are annual. Every figure in a lesson must carry its year in the sentence, and the
   feedback loop should expect to revisit this course's numbers more often than any other.
+- **Stage 1 pass on lesson 13, 2026-09-18: the paper half is done, the export half cannot be.**
+  **Farke, Balash, Golla, Durmuth and Aviv, "Are Privacy Dashboards Good for End Users? Evaluating
+  User Perceptions and Reactions to Google's My Activity", USENIX Security 2021.** Abstract page
+  fetched and read; the full paper was not opened. An online survey of **153 participants** on
+  Google's My Activity dashboard. Participants found the volume and detail of collected data
+  surprising, and then, counterintuitively, exposure to the dashboard made them **significantly more
+  likely to be both less concerned about data collection and to view it more beneficially**. **Only
+  25% said they would change any setting or behaviour** afterwards. The authors' own conclusion is
+  that "it remains unclear if such transparency tools actually improve end user privacy by
+  sufficiently assisting or motivating users to change or review data collection settings", which is
+  verbatim from the abstract.
+
+  **This matters for how lesson 13 is written, not just for what it cites.** The lesson's method is
+  to send the reader to look at their own dashboard and export. This paper says that looking, on its
+  own, tends to *reduce* concern and rarely produces a change. So the lesson must not stop at "go and
+  look": the looking has to be tied to a decision the reader writes down, which is what the outline's
+  worked example (b) already asks for, and the lesson should say the finding out loud rather than
+  quietly design around it. A course that tells people to look at a dashboard while knowing the
+  evidence on what looking does would be doing the thing this repo keeps criticising.
+
+  **The other half of the gate is not discharged and cannot be by a session.** The outline requires
+  Stage 1 to "run a real data export end to end and record what arrived". That needs John's own
+  account at a real service, his credentials, and a wait of hours or days for the archive. It is in
+  `docs/QUEUE.md` as the one thing blocking the last lesson of this course.
+
 - **"What services keep about you" is the thinnest-researched outcome in course.yaml.** The research
   here found the mental-model side (Kang's participants could not say who held copies of their data)
   but not good evidence on the practical side: how usable the data exports actually are, and what a
