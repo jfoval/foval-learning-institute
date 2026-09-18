@@ -64,13 +64,13 @@ This lesson is about the difference, and about how you check for yourself. It us
 
 The difference is worth naming before we start, because it's the whole of objective one. A rule like "readers emphasise what arrives last" is a **description**: somebody looked at what readers do and reported it, and you can go and check. A rule like "never split an infinitive" is a **prohibition**: it tells you what not to do and offers nothing to check. The first kind can be wrong, and that's a virtue, because a claim that could be wrong is a claim you can test.
 
-Gopen and Swan, whose principles this course has been teaching since lesson 2, are careful about exactly this. Their own summary says: **"None of these reader-expectation principles should be considered 'rules.'"** They are describing what readers expect, and they say plainly that any expectation can be violated to good effect. That's what a description looks like when its authors are honest about what they've got. Hold it next to "never use the passive" and you can see the difference without any further argument.
+Gopen and Swan, whose principles this course has been teaching since lesson 2, are careful about exactly this. Their own summary says: "None of these reader-expectation principles should be considered 'rules.'" They are describing what readers expect, and they say plainly that any expectation can be violated to good effect. That's what a description looks like when its authors are honest about what they've got. Hold it next to "never use the passive" and you can see the difference without any further argument.
 
 ## The passive, since it is the one everyone thinks they know
 
 Start here, because the passive is the rule most often repeated by people who can't apply it.
 
-**A passive clause takes the thing acted upon and makes it the subject.** In English it is built from a form of *be* (occasionally *get*) plus a past participle, and it can optionally name the actor in a *by* phrase. "The bill was paid" is passive. "The bill was paid by an anonymous benefactor" is the same clause with the actor restored.
+A passive clause takes the thing acted upon and makes it the subject. In English it is built from a form of *be* (occasionally *get*) plus a past participle, and it can optionally name the actor in a *by* phrase. "The bill was paid" is passive. "The bill was paid by an anonymous benefactor" is the same clause with the actor restored.
 
 The test: could you add *by someone* without breaking the sentence? If yes, it's passive.
 
@@ -88,7 +88,7 @@ The first, third and fourth. *Was broken* is *be* plus a past participle, and yo
 
 ### And when the passive is right
 
-Lesson 5 gave you this already. **The passive exists so that you can put something other than the actor in the topic position.** If the paragraph is about the patient, "she was discharged on the fourth day" is correct, and the active version quietly changes the subject to the consultant.
+Lesson 5 gave you this already. The passive exists so that you can put something other than the actor in the topic position. If the paragraph is about the patient, "she was discharged on the fourth day" is correct, and the active version quietly changes the subject to the consultant.
 
 Here is the part worth knowing before the argument starts. That observation is Strunk's, from 1918, inside the rule headed "Use the active voice":
 
@@ -96,7 +96,7 @@ Here is the part worth knowing before the argument starts. That observation is S
 >
 > Modern readers have little esteem for the dramatists of the Restoration.
 >
-> The first would be the right form in a paragraph on the dramatists of the Restoration; the second, in a paragraph on the tastes of modern readers. **The need of making a particular word the subject of the sentence will often, as in these examples, determine which voice is to be used.**"
+> The first would be the right form in a paragraph on the dramatists of the Restoration; the second, in a paragraph on the tastes of modern readers. The need of making a particular word the subject of the sentence will often, as in these examples, determine which voice is to be used."
 
 Both of those sentences are passive, so the choice he is describing isn't between active and passive at all; it's about which word gets to be the subject. That's the topic position, named by a composition teacher seventy-two years before Gopen and Swan wrote it up, printed under a heading that reads like a prohibition. Keep it in mind for the next section, because it's the strongest card the book has and it is easy to miss when the argument gets loud.
 
@@ -121,18 +121,18 @@ Quote the paragraph above alone and you get a cruder argument than the one he ma
 
 **First, he is not attacking the style advice.** What he objects to "is not the style advice in *Elements*, which might best be described the way The Hitchhiker's Guide to the Galaxy describes Earth: mostly harmless." He calls some of it vapid, some tautologous, some useless, then says "it doesn't hurt to lay such well-meant maxims before novice writers."
 
-**Second, he says which half of the case is his.** After noting that writing tutors "simply red-circle everything that looks like a passive", he writes: "That overinterpretation is part of the damage that Strunk and White have unintentionally done. **But it is not what I am most concerned about here.** What concerns me is that the bias against the passive is being retailed by a pair of authors so grammatically clueless that they don't know what is a passive construction and what isn't."
+**Second, he says which half of the case is his.** After noting that writing tutors "simply red-circle everything that looks like a passive", he writes: "That overinterpretation is part of the damage that Strunk and White have unintentionally done. But it is not what I am most concerned about here. What concerns me is that the bias against the passive is being retailed by a pair of authors so grammatically clueless that they don't know what is a passive construction and what isn't."
 
 So his charge is about competence, and the damage done by tutors is the part he sets aside. A response that concedes the tutors and disputes the competence has answered the half he disclaimed.
 :::
 
 ## His evidence, in two parts
 
-**Part one, the misdiagnosed examples.** Of the four pairs under the heading "Use the active voice", he says "a staggering three out of the four are mistaken diagnoses", and works through them. On one, note his hedge: "'The reason that he left college was that his health became impaired' is **presumably** fingered as passive because of 'impaired,' but that's a mistake."
+**Part one, the misdiagnosed examples.** Of the four pairs under the heading "Use the active voice", he says "a staggering three out of the four are mistaken diagnoses", and works through them. On one, note his hedge: "'The reason that he left college was that his health became impaired' is *presumably* fingered as passive because of 'impaired,' but that's a mistake."
 
 **Part two, and this is the stronger half.** He argues the book cannot keep its own rules, on the same page as it states them:
 
-> "There is of course nothing wrong with writing passives and negatives and adjectives and adverbs. I'm not nitpicking the authors' writing style. **White, in particular, often wrote beautifully, and his old professor would have been proud of him.** What's wrong is that the grammatical advice proffered in *Elements* is so misplaced and inaccurate that counterexamples often show up in the authors' own prose on the very same page."
+> "There is of course nothing wrong with writing passives and negatives and adjectives and adverbs. I'm not nitpicking the authors' writing style. White, in particular, often wrote beautifully, and his old professor would have been proud of him. What's wrong is that the grammatical advice proffered in *Elements* is so misplaced and inaccurate that counterexamples often show up in the authors' own prose on the very same page."
 
 That is the third thing usually cut, and it belongs with the other two: the one sentence in the essay where Pullum praises White, sitting immediately before the charge. Then the charge:
 
@@ -150,11 +150,11 @@ Read it and the first thing you find is that Pullum has read it too, and says so
 
 > "After this unpromising start, there is some fairly sensible style advice: The authors explicitly say they do not mean 'that the writer should entirely discard the passive voice,' which is 'frequently convenient and sometimes necessary.' They give good examples to show that the choice between active and passive may depend on the topic under discussion."
 
-He quotes the qualification and credits it. He also grants the topic-dependence point, which is the same observation lesson 5 built on. **Anyone who tells you Pullum overlooked the moderation in the passive rule has not read his essay.**
+He quotes the qualification and credits it. He also grants the topic-dependence point, which is the same observation lesson 5 built on. Anyone who tells you Pullum overlooked the moderation in the passive rule has not read his essay.
 
 What the 1918 text does add is the sentence that introduces the disputed examples:
 
-> "Many a tame sentence of description or exposition can be made lively and emphatic by substituting a verb in the active voice for **some such perfunctory expression as *there is*, or *could be heard*.**"
+> "Many a tame sentence of description or exposition can be made lively and emphatic by substituting a verb in the active voice for some such perfunctory expression as *there is*, or *could be heard*."
 
 Strunk names the fault himself, and it is the limp existential *there is* and the perfunctory *could be heard*, not the passive. That's consistent with Pullum's own "presumably": he is inferring what the examples are offered as, from their position under an active-voice heading, rather than reporting a label the book applies. Both readings are available from the page. His is the natural one for a reader who trusts headings, which is most readers, and that is the whole mechanism of the damage he describes.
 
@@ -163,7 +163,7 @@ The rule that *none* takes a singular verb, and the ban on *which* in restrictiv
 
 What follows is that those two charges land on White rather than on Strunk. Pullum says as much about the second, that White "not only added the anti-'which' rule to the book but also revised away the counterexamples that were present in his old professor's original text", and the 1918 text is consistent with that.
 
-It's more than consistent. Open rule 3 and Strunk writes: "The sentence is virtually a combination of two statements **which** might have been made independently." No comma, restricting *statements*, which is exactly the construction the later rule forbids. The founding text breaks the rule its revision added, in the course of explaining relative clauses. Pullum makes the same kind of find, via Jan Freeman, and it cuts against the book rather than for it, so it belongs here next to the findings that cut the other way.
+It's more than consistent. Open rule 3 and Strunk writes: "The sentence is virtually a combination of two statements *which* might have been made independently." No comma, restricting *statements*, which is exactly the construction the later rule forbids. The founding text breaks the rule its revision added, in the course of explaining relative clauses. Pullum makes the same kind of find, via Jan Freeman, and it cuts against the book rather than for it, so it belongs here next to the findings that cut the other way.
 
 It also means the book people argue about is a collaboration between a teacher and his student, forty years apart, and "Strunk and White" is doing a lot of work as a single name.
 :::
@@ -172,7 +172,7 @@ It also means the book people argue about is a collaboration between a teacher a
 
 Opening the text is only worth doing if you report what you find, including the parts that go against the side you started on.
 
-Pullum writes that "Strunk's original version never even mentioned split infinitives." **It does.** The 1918 glossary carries an entry:
+Pullum writes that "Strunk's original version never even mentioned split infinitives." It does. The 1918 glossary carries an entry:
 
 > "**Split Infinitive.** There is precedent from the fourteenth century downward for interposing an adverb between *to* and the infinitive which it governs, but the construction is in disfavor and is avoided by nearly all careful writers."
 
@@ -188,7 +188,7 @@ Lesson 7 said a table is for content with two dimensions, where every row is des
 | The book contradicts its own rules on the same page | White, 1959 | Unchecked here. This course has not read that text; as quoted it looks serious |
 | *None* must take a singular verb | White, 1959 | Not in Strunk. Pullum's counts stand |
 | No *which* in a restrictive clause | White, 1959 | Not in Strunk, who uses one himself in rule 3 |
-| "Strunk never mentioned split infinitives" | Pullum, 2009 | **Wrong.** The 1918 glossary has an entry |
+| "Strunk never mentioned split infinitives" | Pullum, 2009 | Wrong. The 1918 glossary has an entry |
 
 Read down the middle column and you can see why "Strunk and White" is a misleading way to name a defendant.
 
@@ -225,13 +225,17 @@ The method in four steps:
 
    There is a **prescriptive** reply, and it isn't silly. A standard written variety isn't the same thing as the sum of what fluent people write. It's maintained deliberately, by editors and style guides and teaching, and it exists so that strangers can read each other without friction. On that view Twain's usage is evidence about Twain, not a repeal, and a convention can be worth keeping because it is a convention. Most working copy editors hold some version of this, and they aren't fools.
 
-   What a count settles is the narrow question, and it settles it either way: **is this rule a description of how careful writers of the period wrote?** If the answer is no, then anyone presenting it as a fact about English is wrong, whatever else they may be right about. Whether you should follow it anyway, in a house that has chosen it, is a separate question the numbers don't touch. Keep the two apart and you can be evidence-led without being rude to your copy editor.
+   What a count settles is the narrow question, and it settles it either way: is this rule a description of how careful writers of the period wrote? If the answer is no, then anyone presenting it as a fact about English is wrong, whatever else they may be right about. Whether you should follow it anyway, in a house that has chosen it, is a separate question the numbers don't touch. Keep the two apart and you can be evidence-led without being rude to your copy editor.
+
+:::checkpoint Liberman found about seven sentence-initial *howevers* for every three placed later in Twain, and one for every fifteen in James. What does that settle, and what doesn't it?
+It settles that the rule isn't a description of how careful writers of the period wrote. Twain broke it more often than he kept it, and James kept it most of the time but not always, so a claim that "careful writers don't do this" is false as a report about English. What it doesn't settle is whether you should follow the rule anyway in a house that has chosen it. That's a question about convention, and Twain's counts are evidence about Twain, not a repeal. Anyone who reads the numbers as answering the second question has mixed up the two schools.
+:::
 
 ## What people get wrong
 
 **"Never split an infinitive."** The split infinitive has always been grammatical. The reason usually given is also backwards: the claim that splitting places "unusual stress on the adverb" is White's, from a chapter this course hasn't read and quotes only as Pullum reports it, and Pullum shows that tucking the adverb in before the verb de-emphasises it. That's lesson 5's stress position doing the work.
 
-**"Never start a sentence with however meaning nevertheless."** Contradicted by counting, which is why counting is in this lesson. The rules about initial *but* and *and* are usually repeated in the same breath, and this course has **not** counted those, so it isn't going to tell you they are dead. Count them yourself; they're the easiest search in the exercise below.
+**"Never start a sentence with however meaning nevertheless."** Contradicted by counting, which is why counting is in this lesson. The rules about initial *but* and *and* are usually repeated in the same breath, and this course has *not* counted those, so it isn't going to tell you they are dead. Count them yourself; they're the easiest search in the exercise below.
 
 **"Never use which for a restrictive clause."** Pullum: "There was never a period in the history of English when 'which' at the beginning of a restrictive relative clause was an error." Plenty of publishers enforce it as house style, which is a choice about consistency rather than a claim about English.
 
@@ -278,5 +282,5 @@ One thing remains, and almost no writing course includes it. Everything so far h
 
 - William Strunk Jr., [*The Elements of Style*](https://www.gutenberg.org/cache/epub/37134/pg37134.txt) (privately printed, 1918), public domain and read in full for this course. Rule 10 for the active voice material, its qualification about the passive, the "perfunctory expression" sentence and the Restoration dramatists pair; rule 3 for restrictive and non-restrictive clauses; the glossary for the split infinitive and *however* entries.
 - Geoffrey K. Pullum, ["50 Years of Stupid Grammar Advice"](https://pullum.ppls.ed.ac.uk/50years.pdf), *The Chronicle of Higher Education*, 17 April 2009. Every Pullum quotation in this lesson is from that essay, including his concession that the style advice is mostly harmless, his statement of which half of the case is his, the same-page self-contradiction evidence, the *none* and *which* material, and Mark Liberman's counts of *however* in Twain and James.
-- **E. B. White's 1959 revision has not been read by this course**, and is in copyright. Every statement above about what White added or wrote rests on Pullum's account or on the absence of the material from the 1918 text. That also means White's defenders are unheard here, not only his book unread.
+- E. B. White's 1959 revision has not been read by this course, and is in copyright. Every statement above about what White added or wrote rests on Pullum's account or on the absence of the material from the 1918 text. That also means White's defenders are unheard here, as well as his book unread.
 - George D. Gopen and Judith A. Swan, ["The Science of Scientific Writing"](https://wstomv.win.tue.nl/quotes/science-of-scientific-writing.html) (1990), the model of the other kind of rule, the kind that describes what readers do. Their own caveat, that "none of these reader-expectation principles should be considered 'rules'", is the sentence this lesson is built around.
