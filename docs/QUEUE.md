@@ -14,13 +14,12 @@ defect moves to the changelog; it does not stay here struck through.
 
 Rewrite these five lines each session. Nothing else goes in this block.
 
-- **Current course:** **Writing Clearly is finished** as of 2026-09-18: nine lessons, nine
-  episodes, all live in R2 and off the debt ledger. It is the second course finished, after How to
-  Learn Anything. Logic and Argument owes one episode. Personal Finance, Algebra Essentials and
-  Python Basics are **written**: every lesson in each has a fact-checked script, so all three need
-  only money now. Bible Basics is being written. Reading Well is still the drafting job, at lesson
-  2 of ten.
-- **Current lesson:** Bible Basics' scripts. Then Reading Well lesson 2 of ten. `/draft-lesson courses/foundations/reading-well 2`,
+- **Current course:** **Every published course is now written**, as of the night of 2026-09-18:
+  sixty-one lessons, sixty-one fact-checked scripts. Two are **finished**, How to Learn Anything and
+  Writing Clearly, both off the debt ledger. Logic and Argument owes one episode and nothing else.
+  Personal Finance, Algebra Essentials, Python Basics and Bible Basics owe only money. **So the
+  writing job is now drafting, not scripts**, and Reading Well is it.
+- **Current lesson:** Reading Well, at lesson 3 of ten. Then Reading Well lesson 2 of ten. `/draft-lesson courses/foundations/reading-well 2`,
   as many lessons as the budget allows, after reading that course's `research/reviews/course-wide.md`.
 - **Before drafting anything:** `npm run taught <course>`. It prints every objective a learner has
   already met earlier on the Core, and names the earlier courses that do not exist yet so nothing
@@ -71,9 +70,21 @@ dry run instead of only on `--go`, which is where the limit used to be invisible
 1,300 and check the dry run before the fact-check**, because shortening is new text and the
 fact-check has to run again after it.
 
-**Scripts are the outstanding writing job, and they are free.** `npm run validate` prints the count
-every run. Writing Clearly, Logic and Argument, Personal Finance and Algebra Essentials are done;
-**Python Basics is next in term order**, then Bible Basics.
+**Scripts are done.** All sixty-one lessons on the seven published courses have one, every one
+fact-checked in a fresh context, most of them twice and several three times. `npm run validate`
+prints nothing about scripts now because there is nothing left to print. What the night taught about
+writing them is in the two craft notes above and in the ceiling note; what it taught about checking
+them is the next paragraph.
+
+**A script fact-check earns its keep, and the failures are not the ones you would guess.** Of the
+twenty-odd scripts written on 2026-09-18, about half came back FAIL. Almost none of the failures
+were invented facts. They were: a quotation spoken in words the cited translation does not have,
+three separate times; a cross-reference to the wrong lesson in a course built on cross-references;
+a count in a sign-off that the repair itself had falsified; a hedge dropped so that an argued claim
+arrived settled; and, once, a whole direction, where every compression in an episode narrowed the
+range of positions and weakened the side the course disagrees with. **Prompt the check for those**,
+not for whether the numbers are right, and on a standpoint course ask explicitly whether anything
+the episode keeps quietly takes a side.
 
 **A maths script needs a different check from a prose one, learned on 2026-09-18.** A listener
 cannot see a bracket, so every bracket is opened and closed aloud ("bracket, minus one, close
