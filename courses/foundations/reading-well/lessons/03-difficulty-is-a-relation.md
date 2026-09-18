@@ -1,6 +1,7 @@
 ---
 title: Why the same page is easy for one reader and impossible for another
 minutes: 50
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/foundations/reading-well/03-difficulty-is-a-relation.mp3
 objectives:
   - Explain why difficulty is a relation between a text and a reader rather than a property of the text
   - Identify, in a passage that defeated you, whether the obstacle was vocabulary, missing background or syntax
