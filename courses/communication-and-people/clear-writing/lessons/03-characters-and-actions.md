@@ -74,7 +74,7 @@ Joseph Williams built his book *Style* around two principles, as everyone who ha
 
 **Make the main character of your sentence its grammatical subject, and put that character's action in the verb.**
 
-Before you take that as a rule, take their own warning with it. The same paper says **"None of these reader-expectation principles should be considered 'rules.'"** They're describing what readers expect, not issuing prohibitions, and a description of an expectation can be worth violating on purpose. Lesson 8 is about the difference, and this lesson's last section is about the cases where you should.
+Before you take that as a rule, take their own warning with it. The same paper says "None of these reader-expectation principles should be considered 'rules.'" They're describing what readers expect, not issuing prohibitions, and a description of an expectation can be worth violating on purpose. Lesson 8 is about the difference, and this lesson's last section is about the cases where you should.
 
 A teacher of writers and two describers of readers landing in the same place is better evidence than either alone. Be careful how much you make of it, though: Gopen and Swan wrote nine years after Williams, and this course hasn't read Williams's own text to see whether he's behind them. What you can say is that the principle turns up independently of any one author's taste, which is more than most writing advice can claim.
 
@@ -92,17 +92,23 @@ Do it in two steps instead, and write the first step down.
 
 **Step two, put them in the slots.** Character becomes the subject. Action becomes the verb.
 
-Diagnose these five before rewriting any of them.
+Here are the first three done for you.
 
 | Sentence | Character | Action |
 |---|---|---|
 | Determination of the application was undertaken by officers. | the officers | deciding |
 | There was a failure of communication between the two departments. | the two departments | not telling each other |
 | The implementation of the new policy will take place in April. | somebody unnamed | starting the policy |
-| An assessment of the risks has been carried out. | somebody unnamed | assessing the risks |
-| Our expectation is that completion of the works will occur by June. | we, and the builders | expecting, and finishing |
 
-Look at the third and fourth rows. The character came out as "somebody unnamed", and that isn't a failure of the diagnosis. It *is* the diagnosis. Those sentences don't say who is implementing or who assessed, and you can't put a character in the subject slot until you decide who it is. That's the whole point of the harder example below.
+Now do the next two yourself, in writing, before you open the answer.
+
+:::checkpoint "An assessment of the risks has been carried out." And: "Our expectation is that completion of the works will occur by June." Character and action for each?
+The risk sentence: character, somebody unnamed; action, assessing the risks. The sentence never says who did the assessing, and "has been carried out" is a verb with nothing to do.
+
+The works sentence has two of each. We are the character of the first half, and the action is expecting. The builders (or whoever is doing the works) are the character of the second half, and the action is finishing. Both actions were sitting in nouns, *expectation* and *completion*, while the verbs were left with *is* and *occur*.
+:::
+
+Look at the third row and at the risk sentence. The character came out as "somebody unnamed", and that isn't a failure of the diagnosis. It *is* the diagnosis. Those sentences don't say who is implementing or who assessed, and you can't put a character in the subject slot until you decide who it is. That's the whole point of the harder example below.
 
 :::predict Diagnose this one before you rewrite it. "A reduction in waiting times was achieved through the introduction of a new booking system." Character? Action?
 The character is whoever runs the service, which the sentence never names. There are two actions, and both are buried in nouns. *Reduction* is really "cut" or "brought down", and *introduction* is really "brought in" or "started using".
@@ -117,6 +123,10 @@ The noun that swallowed the verb has a name. A **nominalisation** is a verb or a
 [GOV.UK's guidance](https://guidance.publishing.service.gov.uk/writing-to-gov-uk-standards/writing-guidelines/clear-language/) gives working writers a cheap detector for these. It says to watch words ending in *-ion* and *-ment*, because they "tend to make sentences longer and more complicated".
 
 Take that for exactly what it is. It's a place to look, not a verdict. *Government*, *equipment*, *condition* and *region* all end that way and none of them is a buried verb. And plenty of nominalisations end some other way: *failure*, *analysis*, *growth*, *belief*, *refusal*. The ending finds you candidates faster than reading can, which is why it's worth knowing. Then you check each one by asking whether there's a verb hiding in it and a person who should be doing it.
+
+:::checkpoint *Government*, *failure*, *equipment*, *analysis*. Which of these four are nominalisations?
+*Failure* and *analysis*. Each has a verb inside it (fail, analyse) and each can displace a character: "there was a failure of communication" is somebody not telling somebody. *Government* and *equipment* end in the detector's suffixes and are plain names of things. Two of the four pass the suffix test and aren't buried verbs; two fail it and are. That's why the ending only tells you where to look.
+:::
 
 :::callout The quick sweep
 Search a document for "tion" and for "ment", and read each hit. Most will be innocent. The ones that aren't will usually be sitting next to a limp verb, because a buried action leaves the verb slot with nothing to do, and something has to fill it. Watch for *was made*, *was undertaken*, *took place*, *occurred*, *was carried out*, *there was*, and plain *is*. Those verbs are the fingerprints.
@@ -135,7 +145,7 @@ In 1918, William Strunk wrote in [*The Elements of Style*](https://www.gutenberg
 He prefers the second. Now look carefully at both.
 
 :::predict What is the difference between those two sentences? Be precise before you open this.
-**Both of them are passive.** "Was made" is passive; "was surveyed" is passive. Neither names who did the surveying.
+Both of them are passive. "Was made" is passive; "was surveyed" is passive. Neither names who did the surveying.
 
 So whatever Strunk was objecting to, it was not the passive voice, even though this passage sits inside the rule headed "Use the active voice". What changed between the two versions is that *survey* stopped being a noun and became the verb. The action moved into the verb slot, and the limp *was made* disappeared because it was only ever there to hold the sentence together.
 
@@ -154,7 +164,7 @@ Reports about things that went wrong are full of sentences like this.
 
 Three nominalisations, no character anywhere. Diagnose it and every row of the table comes out "somebody unnamed".
 
-Try to rewrite it and you hit a wall at once, because you can't write "X delayed escalating" without knowing who X is. The sentence isn't merely badly arranged. **It's arranged so that the question doesn't come up.**
+Try to rewrite it and you hit a wall at once, because you can't write "X delayed escalating" without knowing who X is. The sentence isn't merely badly arranged. It's arranged so that the question doesn't come up.
 
 Sometimes that's carelessness and sometimes it isn't. A sentence with no character can't be checked against anyone, and the version that names one can. Compare:
 
@@ -227,7 +237,7 @@ Allow 50 minutes for this. Do the diagnosis in writing: the temptation is to fix
 
 4. Now take the document you've been carrying since lesson 1. Search it for "tion", for "ment", and for the limp verbs listed in the callout above. Find three sentences with a buried action. Diagnose each in writing, then rewrite it.
 
-5. Read your three rewrites next to the originals, and check one thing. Did you change what the sentence claims? If a rewrite says something the original didn't, either the original was hiding something, which is worth noting, or you've gone too far.
+5. Read your three rewrites next to the originals, and check one thing. Did you change what the sentence claims? If a rewrite says something the original didn't, either the original was hiding something, and you've found it, or you've gone too far.
 :::
 
 :::checkpoint Which two did you mark to leave, and did you spot the one that is only half a case?
@@ -255,7 +265,7 @@ Then lesson 5 goes underneath both of them, and answers the question this lesson
 
 ## Sources
 
-- Joseph M. Williams, *Style: Lessons in Clarity and Grace*, Part Two, Clarity, on making central characters the subjects of verbs and using verbs to name their actions. **This course has read the book's structure and its two central principles as consistently reported by others, not the text itself**, which is why no wording is quoted from it and no lesson number is cited.
+- Joseph M. Williams, *Style: Lessons in Clarity and Grace*, Part Two, Clarity, on making central characters the subjects of verbs and using verbs to name their actions. This course has read the book's structure and its two central principles as consistently reported by others, not the text itself, which is why no wording is quoted from it and no lesson number is cited.
 - George D. Gopen and Judith A. Swan, ["The Science of Scientific Writing"](https://wstomv.win.tue.nl/quotes/science-of-scientific-writing.html), *American Scientist* 78 (1990). Principle three, place the person or thing whose story a sentence is telling at the beginning, and principle five, articulate the action of every clause or sentence in its verb.
 - William Strunk Jr., [*The Elements of Style*](https://www.gutenberg.org/cache/epub/37134/pg37134.txt) (1918), rule 10, for the survey and mobilization pairs and for the sentence naming the fault, "a common fault is to use as the subject of a passive construction a noun which expresses the entire action".
 - GOV.UK, ["Use clear language"](https://guidance.publishing.service.gov.uk/writing-to-gov-uk-standards/writing-guidelines/clear-language/), for the practical detector, that words ending in *-ion* and *-ment* "tend to make sentences longer and more complicated". The same page tells writers to "use the active voice" because it "is more direct and puts the focus on the user", which this lesson quotes rather than omits, since the passive section argues a narrower point than that guidance does.
