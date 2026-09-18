@@ -280,6 +280,17 @@ allows 10 ms of CPU.
 
 ---
 
+## 12. Data science is not a new course
+
+Deliberately not a row on the map. The path already exists and adding a "Data Science" course would
+duplicate three others: Statistics for Citizens, then Statistics and Probability (Mathematics),
+then Data Analysis (Computer Science and AI), with Machine Learning Fundamentals after it. If those
+four are built in that order they are the data science basics. Worth raising with John only if he
+wants them bundled and labelled as one track on the Path page, which is a packaging decision rather
+than a new course.
+
+---
+
 ## 13. The voice pass runs inside Stage 4, not after it
 
 Decided 2026-09-17, after Writing Clearly (nine lessons) and Algebra Essentials (six) went through
@@ -294,14 +305,3 @@ lesson that Stage 4 flags as generically written or that feedback sends back, an
 This is the second time a stage has been folded because measuring it showed it was not earning its
 keep (§4 was the first); the general rule is that a stage exists because it finds things, and one
 that stops finding things is removed in the same commit as the measurement.
-
----
-
-## 12. Data science is not a new course
-
-Deliberately not a row on the map. The path already exists and adding a "Data Science" course would
-duplicate three others: Statistics for Citizens, then Statistics and Probability (Mathematics),
-then Data Analysis (Computer Science and AI), with Machine Learning Fundamentals after it. If those
-four are built in that order they are the data science basics. Worth raising with John only if he
-wants them bundled and labelled as one track on the Path page, which is a packaging decision rather
-than a new course.

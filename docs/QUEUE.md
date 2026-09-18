@@ -14,8 +14,10 @@ Rewrite these five lines each session. Nothing else goes in this block.
 
 - **Current course:** How to Learn Anything is **finished**: eight lessons, eight episodes, off the
   debt ledger. Next is Logic and Argument. Reading Well's drafting runs alongside.
-- **Current lesson:** none in flight. Logic and Argument lessons 1 to 3 have scripts written and
-  fact-checked; lessons 4 to 10 need scripts, which cost nothing.
+- **Current lesson:** none in flight. On audio, Logic and Argument lessons 1 to 3 have scripts
+  written and fact-checked; lessons 4 to 10 need scripts, which cost nothing. On content, Reading
+  Well lesson 2 is next: `/draft-lesson courses/foundations/reading-well 2`, one lesson a session,
+  after reading that course's `research/reviews/course-wide.md`.
 - **Current stage:** Stage 6, one episode at a time. `docs/PODCAST_PIPELINE.md` is the manual.
 - **Blocked on:** nothing. September's Gemini cap has about $4.40 left of $30, resetting on the 1st;
   Logic and Argument's ten episodes need about $2.
@@ -44,23 +46,22 @@ its first attempt. It is the first course finished by the institute's own defini
 4. **Algebra Essentials, all six.** Term 5, about $1.20.
 5. **Python Basics, all six.** Term 6, about $1.20.
 6. **Bible Basics, all twelve.** Term 8, about $2.40. Lesson 2 has a script.
-
-
-8. **`npm run quiz` lists 19 quizzes tripping the shape heuristic** (option-length spread over 25
+7. **`npm run quiz` lists 19 quizzes tripping the shape heuristic** (option-length spread over 25
    characters, adjacent repeats, unused positions) without being winnable by a reader who read
    nothing. Worst is Personal Finance 6 at a 174-character spread. Decide one thing when it comes
    up: tighten the 19, or raise the threshold and say why. Not both.
-9. **Then the Foval Core in order, one course at a time, each finished before the next starts.**
+8. **Then the Foval Core in order, one course at a time, each finished before the next starts.**
    **Reading Well: lesson 1 of ten is written and through two Stage 4 rounds as of 2026-09-17**,
    drafting ahead of its audio under the §2 exception. Ten lessons are planned in
    `research/OUTLINE.md`, with a course-end test and a project.
    **Next: `/draft-lesson courses/foundations/reading-well 2`, one lesson a session.**
-   **Read `research/reviews/course-wide.md` before drafting anything here.** It carries two blocks
-   that will bite. The Adler text this course researched from is an unlicensed scan of an
-   in-copyright book, so it is never linked to learners, and that kills the outline's plan to survey
-   Adler's own book as lesson 2's worked example: find a public-domain book with a real apparatus
-   instead. And Brysbaert rejects Carver's five reading gears rather than confirming them, so lesson
-   4 states the rejection rather than inheriting a settled picture.
+   **Read `research/reviews/course-wide.md` before drafting anything here.** It carries two standing
+   rules. The Adler text this course researched from is an unlicensed scan of an in-copyright book,
+   so it is cited in Sources and never linked to learners; lesson 2's worked survey is Darwin's *On
+   the Origin of Species* at Project Gutenberg instead, checked against all six of Adler's skimming
+   steps and recorded in the outline with its neutrality note. And Brysbaert rejects Carver's five
+   reading gears rather than confirming them, so lesson 4 states the rejection rather than
+   inheriting a settled picture.
    Two more the outline flags: lesson 4 leans on the Rayner speed-reading monograph, read only
    through its public summary, so either fetch it or stay inside what the summary supports; and
    lesson 6 on marginalia is thin and should be folded into lesson 5 rather than padded. Lesson 9 is
@@ -90,8 +91,12 @@ These have no session that owns them, which is how they were being skipped.
 | Algebra Essentials | T5 | 6 | 3,689 | 6 | 2 | 0 of 6 | 6 episodes |
 | Writing Clearly | T1 | 9 | 4,646 | 9 | 2 | 0 of 9 | 9 episodes |
 | Python Basics | T6 | 6 | 3,095 | 6 | 2 | 0 of 6 | 6 episodes |
+| Reading Well | T1 | 1 of 10 | 4,340 | 1 | 0 | 0 | **not live yet** |
 
 Sixty-one lessons live, eight with audio, all eight rendered on 2026-09-18 on the settled pipeline.
+Reading Well is the eighth course and is `status: drafting`, so its one finished lesson is not on the
+site and is not counted above; it publishes when its ten lessons are done and the courses ahead of it
+have their episodes (`docs/DECISIONS.md` §2).
 The count had fallen to one that day: every episode shipped before it faded out by its end and was
 deleted at John's instruction. They come back course by course. See `docs/DECISIONS.md` section 7. `/status` recomputes this table and rewrites it here
 when it has drifted.

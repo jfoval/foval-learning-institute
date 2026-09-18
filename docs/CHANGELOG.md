@@ -11,6 +11,66 @@ Older entries refer to `docs/BACKLOG.md`, which was split on 2026-09-09 into `do
 unstarted work) and this file. Its section numbers survive only in those entries and in a few
 split-seam comments inside Bible Basics lessons, which point at `docs/DECISIONS.md` §5.
 
+## 2026-09-18 — Reading Well is started: researched, outlined, and its first lesson at standard
+
+**The first course the institute has built from nothing.** Everything before it was either a
+pre-pipeline placeholder being rebuilt or a course that already existed. Reading Well went from an
+empty folder to a researched, outlined course with one finished lesson in a day, which is the first
+real measurement of what the pipeline costs on a clean start.
+
+**Stage 1.** `research/SOURCES.md`, 4,000 words. Read in full: Adler and Van Doren's 1972 text (the
+four levels, the six steps of systematic skimming, the four questions and all fifteen analytical
+rules are recorded verbatim), Bacon's "Of Studies" from Gutenberg, Keshav's three-pass method,
+Carey and colleagues' ten rules for reading a paper, and Harvard Library's six reading habits. Read
+in part or at abstract level, and labelled as such: Brysbaert's reading-rate meta-analysis, the
+Rayner speed-reading monograph, Wineburg 1991 through his own 1992 account, Reisman 2012, Recht and
+Leslie 1988 with the 2025 critique of it, and Delgado 2018.
+
+Two findings shaped the course. **There is no assigned undergraduate textbook for this subject**,
+because reading is taught inside writing programmes, first-year seminars and the methods courses of
+history and the sciences, so the course is built from primary texts plus the reading psychology. And
+**Keshav rebuilt Adler's inspectional and analytical levels from scratch in 2007** without knowing
+the book, which is the best evidence available that the levels are real rather than one man's taste.
+
+**Stage 2.** Ten lessons, a twenty-item test blueprint and a project, sequenced by how the skills
+depend on each other rather than by Adler's chapter order.
+
+**Stage 3 and 4.** Lesson 1 written, then two review rounds. The first found 23 problems. The second
+was asked to check the fix pass rather than the lesson, and found that three of its four substantive
+findings had been introduced by that fix pass, which is exactly what a second pass is for.
+
+**The finding worth keeping.** The lesson handed readers Carver's five reading gears as the thing to
+remember, citing Brysbaert for them. Brysbaert's general discussion, which `SOURCES.md` had recorded
+as unread, is headed "There is no evidence for reading gears except for the distinction between
+reading and scanning". So the course was citing a paper for a model that paper rejects. Reading it
+improved the lesson: what Brysbaert does find is that reading for recall is slower through
+"an increased structuring and organization of text information" seen as "many regressions and
+rereadings", which is the lesson's own claim arriving from the measurement side.
+
+**A licensing block that outlives this lesson.** The lesson linked the Internet Archive copy of
+Adler twice and called it free. That item is a community upload with no licence for a book still in
+copyright, so both links are gone and readers are sent to Open Library or a library; the scan stays
+in Sources as the text consulted. That also killed the outline's plan to survey Adler's own book as
+lesson 2's worked example, so lesson 2 surveys Darwin's *On the Origin of Species* at Project
+Gutenberg instead, checked against all six of Adler's skimming steps. Both rules are recorded in
+`research/reviews/course-wide.md`, which every session drafting this course is told to read first.
+
+**Two pipeline decisions John delegated the same day**, both in `docs/DECISIONS.md`:
+
+- **§13, the voice pass runs inside Stage 4.** Fifteen lessons went through `/voice-pass` as a
+  separate stage that day and it found no em dashes and six banned phrases, because the Stage 4 fix
+  step had already rewritten the prose. The checks now sit in `review-lesson.md`'s fix step and the
+  stage is gone; `/voice-pass` stays as a tool for a lesson sent back.
+- **§2 gains an exception.** When episodes are blocked on something outside the repo, the next
+  course may be drafted through Stage 4 but is not published until the courses ahead of it have
+  their episodes. That is what let Reading Well start while audio was waiting on a key.
+
+**And a rule that was wrong.** Both `CLAUDE.md` files said to run `npm run build` and commit its
+output "when publishing". That is not when the build output changes: the Path page lists every
+course whatever its status, so scaffolding Reading Well and then moving it from research to drafting
+each changed the generated site. Two commits failed CI on a stale build before the rule was
+corrected to say what the check actually enforces.
+
 ## 2026-09-18 — Every chart now readable on a phone
 
 **All thirty undersized charts are fixed.** They were viewBox 584 (one at 640) with 15px labels,
@@ -46,87 +106,6 @@ validator's "fits in a narrow system font but not a wide one" warning is the one
 "object Object" as one of the five things the learner would learn. An objective contained a colon,
 so YAML parsed it as a mapping. The build already checked quiz fields for exactly that trap and did
 not check objectives; it does now, with a test. One instance repo-wide.
-
-## 2026-09-17 — Algebra Essentials: the voice pass on all six lessons
-
-The same pass as Writing Clearly's, the same day, and lighter still: no em dashes, two banned
-phrases in six lessons, and the prose already in voice. What it did find was not voice:
-
-- **Lesson 2 cited a footnote that did not exist.** Two `[1]` markers and no Sources section. The
-  source is in `research/SOURCES.md` (McNeil and colleagues 2006, reporting Carpenter's box
-  question) and is restored. Stage 4 missed it, and `npm run validate` does not check that a
-  `[n]` marker has a matching footnote. That is the next check to write.
-- **Lesson 1 referred to "Maya's plan"** with no Maya anywhere in the lesson. Lesson 4's second-taxi
-  checkpoint pointed "below" at a worked example above it, and its answers block said six for seven
-  questions. All fixed.
-- **Body links added to lessons 1, 2 and 3**, so the validator's last two content warnings are gone.
-- Eight think-blocks added from existing content, and bold trimmed to key terms throughout.
-- **One thing went wrong.** Lesson 4's new predict was committed with its closing `:::` run into the
-  next sentence, so the block swallowed the rest of the lesson. The validator caught it, but the
-  session's check grepped the output for "ok" and "error" and passed on a match. Fixed in the next
-  commit; validation is now checked by exit code. Rule 9 applies: the validator was right, the
-  wrapper around it was wrong.
-
-**Every live course is now through Stage 4 and the voice pass.** What the seven still owe is 47
-episodes, all blocked on the Gemini key. The next lesson work is Reading Well, and rule 6 holds it
-until Writing Clearly and Algebra have their episodes.
-
-## 2026-09-17 — Writing Clearly: the voice pass on all nine lessons
-
-All nine lessons went through `/voice-pass` in one session, one commit each. It was as light as
-the queue predicted, and lighter. Not one em dash, and across nine lessons the banned-word search
-found four hits outside quotations (one "worth noting", one "not just", two "not only"), which is
-what Stage 4's contraction and voice rewrites had already bought. No fact, figure, citation or quiz
-item changed. What the pass did do:
-
-- **Unbolded every emphasis that was not a key term.** Quotations carried added bold in seven
-  lessons, and single "moral" sentences were bolded in most; both are what the style guide calls
-  formatting as a substitute for writing. Key terms (topic position, nominalisation, description
-  and prohibition) and structural labels (the six kinds, the misconception headings) keep theirs.
-- **Added sixteen think-while-reading blocks**, always from content already in the lesson: nine
-  checkpoints, five predicts, and in six lessons a gap opened in a worked example so the reader does
-  the next step before it is shown (the landlord's email arithmetic, the rewritten launch email's
-  first sentence, the last two rows of the diagnosis table, the supplier sentence's gap count, the
-  fire-door sentence turned round, the cut-by-cut table's first sentence, the shaped consultation
-  note, the council tax diagnosis).
-- **Lesson 9's `minutes:` was 50 against a measured 85** and is now 85. The other eight were within
-  precision.
-
-**What this says about the pipeline.** The third pass over each lesson earned about a tenth of what
-the second did, because Stage 4's fix pass now rewrites in the Foval voice as it goes. For Algebra
-Essentials and every course after it, the voice checks (em dashes, the banned list, bold, the block
-count) should run inside the Stage 4 fix pass and the separate stage should go. That is a change to
-`docs/CONTENT_PIPELINE.md` and is proposed here rather than made, since John asked today whether
-the same lessons were being worked over repeatedly. The answer was no (three touches per lesson,
-each a different stage, all in git), but the third touch is no longer worth a stage of its own.
-
-## 2026-09-17 — The podcast fade found and fixed: episodes render in gated chunks
-
-**Every episode the institute had shipped fades.** John said the episodes start right and then a
-host drops to a whisper, and that he would rather start the catalogue over than keep shipping it.
-Profiling the fourteen local episodes per 30 seconds showed the same curve in every one: the level
-decays from about -20 dBFS at the top to -40 or worse by the end (Personal Finance 2 fell 24 dB),
-John's pitch band empties with it, and several finish in two minutes of near silence. The cause is
-not randomness, which is what the 2026-09-09 diagnosis assumed when it set the temperature and
-accepted the drift. It is that each episode was one call of 6,000 to 8,300 characters, and Google's
-own TTS docs say consistency drifts on outputs longer than a few minutes; production reports put the
-two-speaker ceiling near 3,000 characters.
-
-- `scripts/podcast.mjs` now cuts the script at turn boundaries into chunks of about 1,100
-  characters, renders each as its own fal call with the same hosts and settings, and gates every
-  chunk before stitching: mean level no quieter than -30 dBFS and within 6 dB of the median chunk,
-  both hosts' pitch bands populated, and speech length within 0.6 to 1.7 of what the word count
-  predicts. A failing chunk is re-rendered alone, up to three times, for about six cents. Chunks are
-  gain-matched to -20 dBFS, tail silence trimmed, and joined with a 0.35 s gap.
-- **Nothing is paid for twice.** Every attempt is kept under `audio-out/work/<school>/<course>/<id>/`
-  with a manifest keyed on a hash of the chunk text; a rerun or a crash reuses what passed.
-  `--fresh` discards it. `profile` prints the per-30-second report on any finished MP3.
-- **Personal Finance 2 re-rendered chunked as the test, $0.37, all seven chunks passing first
-  time.** Level held at -20 dBFS within 1.5 dB from the first line to the last; John's median pitch
-  sat between 103 and 113 Hz in every chunk and Haley's between 190 and 216 Hz. Cost is unchanged
-  because billing is per character. The file waits on John's ear for the seams before it is uploaded.
-- `docs/DECISIONS.md` §7 rewritten: the drift is no longer accepted, the fourteen pre-2026-09-17
-  episodes are to be re-rendered (about $5), and the engine and hosts stay as they were.
 
 ## 2026-09-18 (second session) — How to Learn Anything is finished, and the gate is calibrated by ear
 
@@ -225,6 +204,87 @@ costs about $13.
 **`scripts/podcast/hosts.json`** holds the reference fingerprint of the two voices, taken from the
 episode John approved, and every future render is matched against it within 6%. It is what will keep
 episode 40 sounding like episode 1.
+
+## 2026-09-17 — Algebra Essentials: the voice pass on all six lessons
+
+The same pass as Writing Clearly's, the same day, and lighter still: no em dashes, two banned
+phrases in six lessons, and the prose already in voice. What it did find was not voice:
+
+- **Lesson 2 cited a footnote that did not exist.** Two `[1]` markers and no Sources section. The
+  source is in `research/SOURCES.md` (McNeil and colleagues 2006, reporting Carpenter's box
+  question) and is restored. Stage 4 missed it, and `npm run validate` does not check that a
+  `[n]` marker has a matching footnote. That is the next check to write.
+- **Lesson 1 referred to "Maya's plan"** with no Maya anywhere in the lesson. Lesson 4's second-taxi
+  checkpoint pointed "below" at a worked example above it, and its answers block said six for seven
+  questions. All fixed.
+- **Body links added to lessons 1, 2 and 3**, so the validator's last two content warnings are gone.
+- Eight think-blocks added from existing content, and bold trimmed to key terms throughout.
+- **One thing went wrong.** Lesson 4's new predict was committed with its closing `:::` run into the
+  next sentence, so the block swallowed the rest of the lesson. The validator caught it, but the
+  session's check grepped the output for "ok" and "error" and passed on a match. Fixed in the next
+  commit; validation is now checked by exit code. Rule 9 applies: the validator was right, the
+  wrapper around it was wrong.
+
+**Every live course is now through Stage 4 and the voice pass.** What the seven still owe is 47
+episodes, all blocked on the Gemini key. The next lesson work is Reading Well, and rule 6 holds it
+until Writing Clearly and Algebra have their episodes.
+
+## 2026-09-17 — Writing Clearly: the voice pass on all nine lessons
+
+All nine lessons went through `/voice-pass` in one session, one commit each. It was as light as
+the queue predicted, and lighter. Not one em dash, and across nine lessons the banned-word search
+found four hits outside quotations (one "worth noting", one "not just", two "not only"), which is
+what Stage 4's contraction and voice rewrites had already bought. No fact, figure, citation or quiz
+item changed. What the pass did do:
+
+- **Unbolded every emphasis that was not a key term.** Quotations carried added bold in seven
+  lessons, and single "moral" sentences were bolded in most; both are what the style guide calls
+  formatting as a substitute for writing. Key terms (topic position, nominalisation, description
+  and prohibition) and structural labels (the six kinds, the misconception headings) keep theirs.
+- **Added sixteen think-while-reading blocks**, always from content already in the lesson: nine
+  checkpoints, five predicts, and in six lessons a gap opened in a worked example so the reader does
+  the next step before it is shown (the landlord's email arithmetic, the rewritten launch email's
+  first sentence, the last two rows of the diagnosis table, the supplier sentence's gap count, the
+  fire-door sentence turned round, the cut-by-cut table's first sentence, the shaped consultation
+  note, the council tax diagnosis).
+- **Lesson 9's `minutes:` was 50 against a measured 85** and is now 85. The other eight were within
+  precision.
+
+**What this says about the pipeline.** The third pass over each lesson earned about a tenth of what
+the second did, because Stage 4's fix pass now rewrites in the Foval voice as it goes. For Algebra
+Essentials and every course after it, the voice checks (em dashes, the banned list, bold, the block
+count) should run inside the Stage 4 fix pass and the separate stage should go. That is a change to
+`docs/CONTENT_PIPELINE.md` and is proposed here rather than made, since John asked today whether
+the same lessons were being worked over repeatedly. The answer was no (three touches per lesson,
+each a different stage, all in git), but the third touch is no longer worth a stage of its own.
+
+## 2026-09-17 — The podcast fade found and fixed: episodes render in gated chunks
+
+**Every episode the institute had shipped fades.** John said the episodes start right and then a
+host drops to a whisper, and that he would rather start the catalogue over than keep shipping it.
+Profiling the fourteen local episodes per 30 seconds showed the same curve in every one: the level
+decays from about -20 dBFS at the top to -40 or worse by the end (Personal Finance 2 fell 24 dB),
+John's pitch band empties with it, and several finish in two minutes of near silence. The cause is
+not randomness, which is what the 2026-09-09 diagnosis assumed when it set the temperature and
+accepted the drift. It is that each episode was one call of 6,000 to 8,300 characters, and Google's
+own TTS docs say consistency drifts on outputs longer than a few minutes; production reports put the
+two-speaker ceiling near 3,000 characters.
+
+- `scripts/podcast.mjs` now cuts the script at turn boundaries into chunks of about 1,100
+  characters, renders each as its own fal call with the same hosts and settings, and gates every
+  chunk before stitching: mean level no quieter than -30 dBFS and within 6 dB of the median chunk,
+  both hosts' pitch bands populated, and speech length within 0.6 to 1.7 of what the word count
+  predicts. A failing chunk is re-rendered alone, up to three times, for about six cents. Chunks are
+  gain-matched to -20 dBFS, tail silence trimmed, and joined with a 0.35 s gap.
+- **Nothing is paid for twice.** Every attempt is kept under `audio-out/work/<school>/<course>/<id>/`
+  with a manifest keyed on a hash of the chunk text; a rerun or a crash reuses what passed.
+  `--fresh` discards it. `profile` prints the per-30-second report on any finished MP3.
+- **Personal Finance 2 re-rendered chunked as the test, $0.37, all seven chunks passing first
+  time.** Level held at -20 dBFS within 1.5 dB from the first line to the last; John's median pitch
+  sat between 103 and 113 Hz in every chunk and Haley's between 190 and 216 Hz. Cost is unchanged
+  because billing is per character. The file waits on John's ear for the seams before it is uploaded.
+- `docs/DECISIONS.md` §7 rewritten: the drift is no longer accepted, the fourteen pre-2026-09-17
+  episodes are to be re-rendered (about $5), and the engine and hosts stay as they were.
 
 ## 2026-09-11 — Writing Clearly through Stage 4, all nine lessons
 
