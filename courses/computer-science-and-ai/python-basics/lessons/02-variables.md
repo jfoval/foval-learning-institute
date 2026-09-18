@@ -1,6 +1,7 @@
 ---
 title: Names and values
 minutes: 60
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/computer-science-and-ai/python-basics/02-variables.mp3
 objectives:
   - Explain what the equals sign does, in terms of names and values rather than equality
   - Predict what each name is worth after a sequence of assignments

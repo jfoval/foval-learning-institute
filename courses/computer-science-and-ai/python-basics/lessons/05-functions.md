@@ -1,6 +1,7 @@
 ---
 title: Functions
 minutes: 85
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/computer-science-and-ai/python-basics/05-functions.mp3
 objectives:
   - Explain the difference between returning a value and printing one, and say what each is for
   - Build a function with parameters, a default and a return value, and call it by keyword

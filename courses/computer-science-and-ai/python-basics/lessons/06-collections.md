@@ -1,6 +1,7 @@
 ---
 title: Lists and dictionaries
 minutes: 95
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/computer-science-and-ai/python-basics/06-collections.mp3
 objectives:
   - Build and index a list, and explain why the first item sits at position 0
   - Apply a dictionary to look something up by name rather than by position

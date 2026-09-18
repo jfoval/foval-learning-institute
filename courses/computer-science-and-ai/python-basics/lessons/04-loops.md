@@ -1,6 +1,7 @@
 ---
 title: Repeating work
 minutes: 65
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/computer-science-and-ai/python-basics/04-loops.mp3
 objectives:
   - Compare for and while, and explain which one a given job needs
   - Build an accumulator loop that totals and counts, and explain why it starts outside the loop

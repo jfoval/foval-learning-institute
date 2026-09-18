@@ -1,6 +1,7 @@
 ---
 title: Your first program, and your first error
 minutes: 55
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/computer-science-and-ai/python-basics/01-first-program.mp3
 objectives:
   - Run a Python program two ways, in the interpreter and from a saved file
   - Explain what each line of a traceback tells you, reading from the bottom up
