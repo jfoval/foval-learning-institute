@@ -11,6 +11,35 @@ Older entries refer to `docs/BACKLOG.md`, which was split on 2026-09-09 into `do
 unstarted work) and this file. Its section numbers survive only in those entries and in a few
 split-seam comments inside Bible Basics lessons, which point at `docs/DECISIONS.md` §5.
 
+## 2026-09-18 — Three queue items closed by checking rather than by building
+
+None of the three needed code. Two of them described a defect that was not there.
+
+**Items 4 and 5, "the repetition warning does not run on the course that needs it most", are
+wrong.** The claim was that `npm run validate`'s repeated-sentence warning is skipped on any
+course whose status is not yet `published`, which is exactly the drafting window when lessons
+written in one context reuse each other. Tested rather than read: a single 15-word sentence was
+planted in Digital Literacy lessons 1 and 2, a course with status `drafting`, and validate warned
+on it by name. `checkRepetition` walks the courses directory off disk and never looks at
+`status`. The warning has been covering drafts the whole time.
+
+**How the wrong belief survived nine days is the part worth keeping.** The check was added the same
+day Digital Literacy lessons 2 and 3 were found to have duplicated a whole argument by eye, and the
+two facts were written down together as cause and effect: the reviewer found it *because* the
+machine could not. The plausible story was never tested against the code. The first attempt to test
+it here also failed, and instructively: the planted sentence was appended to the end of the lesson
+files, where it sits below `## Sources` and is stripped before the comparison by design. A check
+that appears not to fire is two hypotheses, not one.
+
+**Item 1, the script-length target, has no disagreement left to settle.**
+`docs/PODCAST_PIPELINE.md` section 4a says write to about 1,200 words, `/make-podcast` says a
+band of 1,000 to 1,200, and the 1,300 that disagreed with them was the duplicate in
+`docs/QUEUE.md` that was deleted on 2026-09-19. One target, stated twice, consistently. The
+separate observation that scripts land against the 1,417-word wall rather than near 1,200 is a
+drafting habit, not a documentation conflict, and section 4a already says what it costs.
+
+`docs/VERIFICATION.md`'s repetition row now records the draft-course test.
+
 ## 2026-09-18 — The app-store column of Digital Literacy now has research under it
 
 Lesson 9 teaches a three-route comparison for installing software, app store against package

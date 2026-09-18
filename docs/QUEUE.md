@@ -188,24 +188,15 @@ for what it said, why it disagreed with the script, and the one line John can sa
 
 **The script length ceiling lives in `docs/PODCAST_PIPELINE.md` section 4a**, which is the
 authority. It was duplicated here until 2026-09-19 and the two copies had drifted to different
-numbers, which is item 1 below.
+numbers. Resolved on 2026-09-18: 4a and `/make-podcast` both say 1,000 to 1,200 and nothing
+states a different target, so there is no longer a disagreement to settle.
 
-1. **Two docs disagree about how long to write a script, and somebody has to pick.**
-   `docs/PODCAST_PIPELINE.md` section 4a says write to about **1,200** words; this file said
-   **1,300** until the duplicate was removed on 2026-09-19. The hard ceiling of 1,417 is not in
-   dispute and is enforced in code. What is in dispute is the target, and it matters: every script
-   written on 2026-09-19 landed between 1,396 and 1,415, right against the wall, which is exactly
-   what section 4a warns costs two fact-checks instead of one. Section 4a also notes the wall is
-   about 150 words tighter than the evidence requires, since the real rate is nearer 167 words a
-   minute than the 150 the guard assumes. **Do not change the guard on that note.** Pick a target,
-   put it in section 4a only, and delete the other.
-
-2. **The only human check in the pipeline, and it has never run.** Both items under "Standing
+1. **The only human check in the pipeline, and it has never run.** Both items under "Standing
    items" below have been open since 2026-09-05. The drafter and the reviewer are the same model,
    so until John reads a lesson as a learner nothing in this institute has been read by a person.
    This is the highest-value unstarted item in the file and no session can do it for him.
 
-3. **Four things Digital Literacy's outline hands to this file rather than settling itself.**
+2. **Four things Digital Literacy's outline hands to this file rather than settling itself.**
    **(a) Python Basics lesson 1 will disagree with Digital Literacy about the shell.** Digital
    Literacy teaches POSIX and has Windows learners install Git Bash in lesson 4; Python Basics
    currently sends them to PowerShell. Digital Literacy is five terms earlier on the Core, so
@@ -226,22 +217,7 @@ numbers, which is item 1 below.
    the terminal half of its project. That is a real gap in what the institute offers and it is
    John's call whether it becomes a course, not a drafter's. The outline did not touch the taxonomy.
 
-4. **The repetition warning does not run on the course that needs it most.**
-   `npm run validate` warns on passages repeated across a course's lessons, and that warning is the
-   only automated defence against the specific failure of drafting several lessons in one context.
-   It is skipped on any course whose status is not yet `published`, which is exactly the period when
-   the drafting happens. Digital Literacy lessons 2 and 3 duplicated a whole argument, down to the
-   same contract-and-amendment example, and a Stage 4 reviewer found it by eye. **One line of
-   `scripts/build.mjs`, probably**; written here rather than fixed mid-draft, per root `CLAUDE.md`
-   rule 9.
-
-5. **The repetition warning still does not run on the course that needs it most.** See item 4.
-   Renumbered when the old item 5 was closed on 2026-09-18: `npm run validate` now reports the
-   line number and the offending text for a frontmatter parse failure, plus the line before it,
-   which is where the mistake actually is. `docs/CHANGELOG.md` has it and `docs/VERIFICATION.md`
-   carries the row.
-
-6. **Python Basics lesson 1 will need the same Windows callout Digital Literacy lesson 5 now has.**
+3. **Python Basics lesson 1 will need the same Windows callout Digital Literacy lesson 5 now has.**
    Lesson 4 puts the Windows reader inside Git Bash and lesson 5 opens with `python3 --version`.
    Lesson 4's cold-start pass flagged that as a gap, on the understanding that a Windows install
    registers only `python` and `py`. **Checked, and that is out of date**: Python's own Windows
@@ -250,10 +226,10 @@ numbers, which is item 1 below.
    a not-found on Windows are the optional `PATH` step being declined, an app execution alias
    opening the Microsoft Store, and the interactive prompt needing `winpty` under Git Bash. All
    three are now in a callout in Digital Literacy lesson 5. **Python Basics lesson 1 says none of
-   it**, and it is five terms later, so it inherits the problem. Do it in the same pass as item 3(a),
+   it**, and it is five terms later, so it inherits the problem. Do it in the same pass as item 2(a),
    the PowerShell-to-Git-Bash change, and not before Digital Literacy's terminal lessons are live.
 
-7. **Then the Foval Core in order, one course at a time.** After Digital Literacy: Using AI
+4. **Then the Foval Core in order, one course at a time.** After Digital Literacy: Using AI
    Effectively, then Term 2. Start each with `/new-course`. `npm run state` names the next action
    for every course, in term order, and is the authority over anything written here.
 
