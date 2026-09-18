@@ -114,6 +114,10 @@ const lessonArg = args.find((a, i) => i > 0 && !a.startsWith("--"));
 const GO = args.includes("--go");
 const FORCE = args.includes("--force");
 const FRESH = args.includes("--fresh");
+// --temperature=<n> overrides TEMPERATURE for an experiment; the chunk hash includes it, so chunks
+// rendered at another temperature are never reused by mistake.
+const tempArg = args.find(a => a.startsWith("--temperature="));
+const TEMP = tempArg ? Number(tempArg.split("=")[1]) : TEMPERATURE;
 
 if (!["plan", "render", "upload", "stamp", "all", "profile"].includes(cmd) || !lessonArg) {
   console.error("Usage: node scripts/podcast.mjs <plan|render|upload|stamp|all|profile> <courses/.../lessons/NN-slug.md> [--go] [--force] [--fresh]");
@@ -180,8 +184,10 @@ function chunkTurns(turns) {
     const prompt = ts.map(t => `${SPEAKERS[t.speaker - 1].speaker_id}: ${t.text}`).join("\n");
     const words = ts.reduce((n, t) => n + t.text.split(/\s+/).length, 0);
     const speakers = [...new Set(ts.map(t => t.speaker))];
-    const hash = createHash("sha1").update(prompt).digest("hex").slice(0, 12);
-    return { i, prompt, words, speakers, hash, chars: prompt.length };
+    const byHost = [1, 2].map(n => ts.filter(t => t.speaker === n).reduce((k, t) => k + t.text.length, 0));
+    const share = byHost.map(k => k / (byHost[0] + byHost[1]));
+    const hash = createHash("sha1").update(`${TEMP}|${STYLE}|${prompt}`).digest("hex").slice(0, 12);
+    return { i, prompt, words, speakers, share, hash, chars: prompt.length };
   });
 }
 
@@ -202,7 +208,7 @@ async function render() {
   if (!GO) {
     console.log("\nDry run. Nothing sent, nothing spent. Add --go to render. Chunks:");
     for (const c of chunks) console.log(`  ${String(c.i + 1).padStart(2)}  ${String(c.chars).padStart(5)} chars  ${String(c.words).padStart(4)} words  hosts ${c.speakers.map(n => SPEAKERS[n - 1].speaker_id).join("+")}  ${manifest.chunks[c.i]?.passed ? "passed, will reuse" : "to render"}`);
-    console.log(`  POST ${ENDPOINT} per chunk with speakers ${JSON.stringify(SPEAKERS)}, temperature ${TEMPERATURE}`);
+    console.log(`  POST ${ENDPOINT} per chunk with speakers ${JSON.stringify(SPEAKERS)}, temperature ${TEMP}`);
     return;
   }
   if (!checked) {
@@ -280,7 +286,7 @@ async function renderChunk(c, file) {
     prompt: c.prompt,
     speakers: SPEAKERS,
     style_instructions: STYLE,
-    temperature: TEMPERATURE,
+    temperature: TEMP,
     language_code: "English (US)",
     output_format: "mp3",
   };
@@ -360,8 +366,11 @@ function checkChunk(file, c) {
   const why = [];
   if (a.level < LEVEL_FLOOR) why.push(`level ${a.level.toFixed(1)} dBFS under the ${LEVEL_FLOOR} floor`);
   if (c.speakers.length === 2) {
-    if (a.low < 0.15) why.push(`John's band nearly empty (${(a.low * 100).toFixed(0)}%)`);
-    if (a.high < 0.15) why.push(`Haley's band nearly empty (${(a.high * 100).toFixed(0)}%)`);
+    // Each host's band should hold a share of the voiced frames in proportion to how much of the
+    // chunk that host speaks; a chunk that is 85% John is allowed a small Haley band.
+    const need = share => Math.max(0.05, 0.4 * share);
+    if (a.low < need(c.share[0])) why.push(`John's band nearly empty (${(a.low * 100).toFixed(0)}% against ${(c.share[0] * 100).toFixed(0)}% of the words)`);
+    if (a.high < need(c.share[1])) why.push(`Haley's band nearly empty (${(a.high * 100).toFixed(0)}% against ${(c.share[1] * 100).toFixed(0)}% of the words)`);
   } else {
     const share = c.speakers[0] === 1 ? a.low : a.high;
     if (share < 0.4) why.push(`${SPEAKERS[c.speakers[0] - 1].speaker_id} alone but only ${(share * 100).toFixed(0)}% in that band`);
