@@ -107,8 +107,8 @@ moral obligation, the speed-reading industry, and second-language readers.
 7. F07 fixed in the lesson and in `research/SOURCES.md`, which carried the same overstatement.
 8. F08 fixed. The checkpoint's article is now a thirty-page report, so forty minutes is a defensible
    inspection budget and the four-ways timings stand.
-9. F09 fixed. Quiz 4 re-cased onto a technical manual and a new pair of readers; quiz 2 moved from
-   the tenancy agreement to an insurance policy.
+9. F09 fixed. Quiz 4 re-cased onto an equipment manual and a new pair of readers; quiz 2 moved from
+   the tenancy agreement to a grant application.
 10. F10 fixed. Analytical reading is now described as asking what is being said in detail and how,
     and only then whether it is true, with Adler's ordering named.
 11. F11 fixed. The first of the four ways is now labelled as Carver's scanning rather than Adler's
@@ -134,3 +134,85 @@ moral obligation, the speed-reading industry, and second-language readers.
 findings sat in a single failure mode, the lesson claiming more evidential backing than it had, and
 that is the mode this course can least afford. The second pass should check the rewritten sections
 rather than the whole lesson.
+
+
+## 2026-09-17 — Lesson 01 — second pass on the rewrites, Tier A
+
+**Reviewer:** one subagent, fresh context, asked to check the 23 resolutions rather than re-review
+the lesson, and to assume the fix pass introduced new defects. It did: three of its four substantive
+findings were created by the first fix pass, which is the failure mode a second pass exists to catch.
+
+**Findings:**
+
+1. [major] **L01-F24.** F02 was only half done. "Perhaps a quarter of the time" survived byte for byte
+   in the misconceptions list, while the review file and the commit message both said both invented
+   fractions were cut. A false record is worse than the defect.
+2. [major] **L01-F25.** The Carver fix stopped short of what Brysbaert concludes. His general
+   discussion is headed "There is no evidence for reading gears except for the distinction between
+   reading and scanning", and he reports failing to find a difference between reading for
+   recognition and reading out of interest, no bimodal curve, and no difference in kind for reading
+   for recall. The lesson had moved from "the gears are real" to "a proposal, not a result" and
+   still told the reader to keep the five-way ordering, which is the one thing the source rejects.
+   The refutation sits in a part of the paper `SOURCES.md` recorded as unread.
+3. [moderate] **L01-F26.** Quiz 5's new explanation said Adler "would reject" the view that tasting
+   is usually enough, and then asserted the same view two clauses later as "most books stop early by
+   design". Adler in fact writes that analytical reading "is hardly ever necessary" for information
+   or entertainment.
+4. [moderate] **L01-F27.** Quiz 4's re-casing confounded purpose with prior knowledge: a technician
+   and a buyer differ in background as much as in goal, the stem never said they were asked for
+   different things, and the distractor naming prior knowledge was as good as the key.
+5. [moderate] **L01-F28.** The F08 fix made the timing worse, not better. The checkpoint gave forty
+   minutes for thirty pages against the lesson's own hour for twelve, a factor of four.
+6. [moderate] **L01-F29.** The tenancy answer stated a legal fact with no source, in a course whose
+   research file has nothing on tenancy law, and told the reader to look the phrase up without
+   saying where.
+7. [moderate] **L01-F30.** "Also arrived at independently from Carver's own work on compressed
+   speech" reads as "independently of", inverting Brysbaert, who says the estimate came partly from
+   that work. Footnote 3 repeated the error and attributed to "the norm" what Brysbaert says of
+   Carver's own estimate.
+8. [minor] **L01-F31 to F37.** Reviewer's word "predicates" lifted into learner prose; "estimated"
+   in quotation marks though Brysbaert uses it once and of scanning only; an Adler quotation
+   silently repunctuated to avoid his em dash; three new "worth" hedges and a reinstated "here is"
+   opener; the opening quoting Adler before the reader has felt the problem; two more unmeasured
+   frequency claims; and the four-ways section still crossing Adler's levels with Carver's scanning.
+9. [minor] **L01-F38.** Bookkeeping: the review file said quiz 2 moved to an insurance policy when
+   it moved to a grant application; `docs/QUEUE.md` was not updated in the same commit as the work,
+   against root rule 4; `minutes` read 75 against a declared 70.
+
+**Resolutions applied, 2026-09-17:**
+
+1. F24 fixed, and the record corrected: resolution 2 above overstated what the first pass did.
+2. F25 fixed properly, which meant reading Brysbaert's general discussion rather than hedging around
+   it. The section is now "A psychologist tried to measure this, and half of it did not survive". It
+   states the gears, states that the review rejects the middle distinctions, and keeps the two
+   things that survive: reading against scanning is real, and reading for recall is slower because
+   of rereading and restructuring rather than because it is another mode. **That second finding is
+   the lesson's own claim arriving from the measurement side**, so the section is stronger than the
+   version that misreported the source. A new `:::predict` carries it. `SOURCES.md` and
+   `course-wide.md` corrected to match, and the Brysbaert read-depth label now says the general
+   discussion was read.
+3. F26 fixed. The explanation no longer claims Adler rejects it, and rules B out on the ground the
+   stem actually tests.
+4. F27 fixed. Both readers are now engineers on the same team, asked for different things in the
+   stem, which licenses the key and rules out the prior-knowledge distractor.
+5. F28 fixed. The checkpoint now says plainly that neither reader read thirty pages closely, and
+   that the second surveyed first and chewed the two or three pages carrying the argument, which
+   also foreshadows the tenancy section.
+6. F29 fixed. The answer now names the tenancy deposit schemes as the body that would adjudicate,
+   links their guidance, says the sense is fixed by the law where you rent, and says this is reading
+   practice rather than legal advice.
+7. F30 fixed in the body, in footnote 3 and in `SOURCES.md`.
+8. F31 to F37 all fixed: "attaches" for "predicates"; the "estimated" quotation gone with the
+   rewritten section; the Adler quotation split so his sentence is carried whole without
+   repunctuating it; the "worth" hedges and the "here is" opener removed; the opening restored to
+   scene first and Adler second, as confirmation; the remaining frequency claims reworded; and the
+   four-ways section now explains scanning's presence by the one distinction that survived
+   measurement, which turns the crossing from an inconsistency into the point.
+9. F38 fixed. The insurance-policy line corrected above, the queue updated in this commit, and
+   `minutes` set to the measured 80.
+
+**Declined:** nothing.
+
+**Status after review:** clean. Two rounds is where this stops unless a later reader finds
+something; the second pass's own findings were concentrated in what the first fix pass changed, and
+those sections have now been rewritten from the source rather than patched.

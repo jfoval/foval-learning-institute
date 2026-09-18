@@ -55,14 +55,22 @@ course in `docs/PODCAST_PIPELINE.md` section 3. Finish a course before starting 
    nothing. Worst is Personal Finance 6 at a 174-character spread. Decide one thing when it comes
    up: tighten the 19, or raise the threshold and say why. Not both.
 10. **Then the Foval Core in order, one course at a time, each finished before the next starts.**
-   **Reading Well is drafting as of 2026-09-17, lesson 1 of ten written**, ahead of its audio
-   under the §2 exception. Ten lessons planned in `research/OUTLINE.md`, with a course-end test and a
-   project; `/draft-lesson courses/foundations/reading-well 1` is the next step, one lesson a
-   session. Three things the outline flags for whoever drafts: lesson 4 leans on the Rayner
-   speed-reading monograph, which was read only through its public summary; lesson 6 on marginalia is
-   thin and should be folded into lesson 5 rather than padded; lesson 9 is in a 3.4 domain and its
-   neutrality audit is mandatory. After Reading Well: Digital Literacy, then Using AI Effectively,
-   then Term 2. Start each with `/new-course`.
+   **Reading Well: lesson 1 of ten is written and through two Stage 4 rounds as of 2026-09-17**,
+   drafting ahead of its audio under the §2 exception. Ten lessons are planned in
+   `research/OUTLINE.md`, with a course-end test and a project.
+   **Next: `/draft-lesson courses/foundations/reading-well 2`, one lesson a session.**
+   **Read `research/reviews/course-wide.md` before drafting anything here.** It carries two blocks
+   that will bite. The Adler text this course researched from is an unlicensed scan of an
+   in-copyright book, so it is never linked to learners, and that kills the outline's plan to survey
+   Adler's own book as lesson 2's worked example: find a public-domain book with a real apparatus
+   instead. And Brysbaert rejects Carver's five reading gears rather than confirming them, so lesson
+   4 states the rejection rather than inheriting a settled picture.
+   Two more the outline flags: lesson 4 leans on the Rayner speed-reading monograph, read only
+   through its public summary, so either fetch it or stay inside what the summary supports; and
+   lesson 6 on marginalia is thin and should be folded into lesson 5 rather than padded. Lesson 9 is
+   in a 3.4 domain and its neutrality audit is mandatory.
+   After Reading Well: Digital Literacy, then Using AI Effectively, then Term 2. Start each with
+   `/new-course`.
 
 ## Standing items, every week
 

@@ -36,7 +36,17 @@ theory. `SOURCES.md` also overstated the calibration point, saying Carver's figu
 on the 300 wpm norm while Brysbaert says the norm "was also established independently" from Carver's
 compressed-speech work. Both were corrected on 2026-09-17.
 
-**Standing rule:** any lesson using Carver takes the ordering of the gears, attributes them as a
-proposal rather than a finding, and says the course read him through Brysbaert. Lesson 4, which owns
-the reading-rate material, should expect to state the disagreement rather than inherit a settled
-picture from lesson 1.
+**Corrected again on the second pass, and this is the version that stands.** Reading Brysbaert's
+general discussion, rather than only his abstract and history sections, shows he does not merely
+doubt Carver: his section heading is "There is no evidence for reading gears except for the
+distinction between reading and scanning". He found no difference between reading for recognition
+and reading out of interest, no bimodal curve, and no difference in kind for reading for recall,
+which is slower because of "an increased structuring and organization of text information" seen as
+"many regressions and rereadings".
+
+**Standing rule:** no lesson may hand a reader the five-gear ladder. Two things survive and both are
+usable. Reading against scanning is a real distinction with eye-movement evidence behind it. And the
+recall finding says the extra time goes into what the reader is building rather than into a
+different mode, which is this course's central claim arriving from the measurement side, so it is
+worth more to us than the ladder was. Lesson 4 owns the rates and should state the rejection
+directly.

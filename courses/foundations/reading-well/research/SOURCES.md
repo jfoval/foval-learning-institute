@@ -89,7 +89,9 @@ the debt is.
 
 - **Marc Brysbaert, "How many words do we read per minute? A review and meta-analysis of reading
   rate", *Journal of Memory and Language* 109 (2019), 104047.** **Read in substantial part** (the
-  abstract, introduction and the historical sections on where the 300 wpm figure came from) from the
+  abstract, introduction, the historical sections on where the 300 wpm figure came from, and the
+  general discussion, which was added on 2026-09-17 after a review found the course was citing this
+  paper for a model the paper rejects) from the
   [full text](https://gwern.net/doc/psychology/linguistics/2019-brysbaert.pdf). The central numbers,
   quoted from the abstract: 190 studies and 18,573 participants give an average silent reading rate
   for adults in English of **238 wpm for non-fiction and 260 wpm for fiction**; oral reading, from
@@ -99,10 +101,17 @@ the debt is.
   cites**, and it traces how that number came about (Huey 1901, Tinker's Chapman-Cook studies, S. E.
   Taylor's 12,143 readers, Carver, then Rayner's reviews). Tinker's own judgement, quoted there:
   "even with easy material, 500 wpm is very fast reading."
-  - **Carver's five reading gears**, reported in the same paper, are the most useful teaching device
-    found in this research: memorizing 138 wpm, learning 200, normal silent reading ("rauding") 300,
-    skimming 450, scanning 650. It is a psychologist's independent arrival at Bacon's and Adler's
-    point, that reading speed is chosen from purpose. **Use it with the caveat** that Carver's
+  - **Carver's five reading gears**, reported in the same paper: reading for recall about 140 wpm,
+    reading for recognition 200, reading out of interest 300, skimming 450, scanning 650.
+    **Brysbaert tests this model and largely rejects it**, and any lesson using it must say so. His
+    general discussion is headed "There is no evidence for reading gears except for the distinction
+    between reading and scanning". He found no difference between reading for recognition and
+    reading out of interest, no bimodal curve that would have saved the theory, and no difference in
+    kind for reading for recall, which is slower because of "an increased structuring and
+    organization of text information" seen as "many regressions and rereadings" rather than because
+    it is another mode. **What survives is worth more than the ladder**, because the recall finding
+    says the extra time goes into what the reader is building, which is this course's own claim
+    arriving from the measurement side. **Use it with the caveat** that Carver's
     absolute numbers sit on the inflated 300 wpm norm Brysbaert is correcting, so the *ordering* is
     the teachable part and the figures are not. **Corrected 2026-09-17:** this entry used to say the
     figures were "calibrated on" that norm, which drops what Brysbaert actually reports, that the
