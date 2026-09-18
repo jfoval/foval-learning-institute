@@ -1,6 +1,7 @@
 ---
 title: "Genre first: what kind of writing is this, and how to read a story"
 minutes: 150
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/christian-studies/bible-basics/03-genre-first-and-narrative.mp3
 objectives:
   - Explain why identifying the kind of writing is the first interpretive decision, and use Fee and Stuart's basic rule as a boundary test on a passage
   - Apply the ten principles for Old Testament narrative to a story, reading it on all three levels
