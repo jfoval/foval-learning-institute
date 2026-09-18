@@ -76,7 +76,7 @@ Gopen and Swan state this as the first of their [seven structural principles](ht
 
 Take the second half of that sentence with the first. They aren't only saying the interruption costs the reader something. They're saying the reader discounts it, files it as a footnote to the main event. That's worth knowing before you put twenty words of your best material in there, and it's why the three fixes below aren't interchangeable.
 
-And take their caveat with the principle, as this course does every time it quotes them: **"None of these reader-expectation principles should be considered 'rules.'"** What follows is a description of what readers do, not a prohibition.
+And take their caveat with the principle, as this course does every time it quotes them: "None of these reader-expectation principles should be considered 'rules.'" What follows is a description of what readers do, not a prohibition.
 
 The mechanism is the same one from lesson 2, at a smaller scale. A subject on its own is an unfinished thought. The reader can't do anything with "the application" until they know what happened to it, so they hold it, and everything arriving before the verb has to be held alongside it, because it might turn out to matter to whatever the verb says.
 
@@ -136,7 +136,11 @@ Three, and you can derive them from the shape of the problem rather than remembe
 That's the whole set. What the next three sections add isn't a fourth option. It's that the three are not interchangeable, because each one leaves something different sitting at the end of the sentence.
 :::
 
-Subject: the new supplier. Verb: has missed. Gap: eighteen words. Count them, because that's the method and it's worth doing once on a sentence somebody else wrote.
+Do the count yourself first, because that's the method and it's worth doing once on a sentence somebody else wrote. Find the main subject, find its verb, and count what's between them.
+
+:::checkpoint Subject, verb, and the size of the gap?
+Subject: the new supplier. Verb: has missed. Gap: eighteen words, from "who" to "bidders". If you counted the whole relative clause and got a number near that, you've got the method. If you picked "was selected" as the verb, look again: that's the verb of the interruption, and the sentence's own verb is the one that tells you what the supplier did.
+:::
 
 There are three ways to close it, and they aren't interchangeable. Each one puts something different at the end of the sentence, and the end of a sentence is where a reader puts their weight. That's Gopen and Swan's second clause arriving in practice: whatever sits in the interruption gets read as the lesser thing, so which material you move is a decision about what the sentence is for.
 
@@ -168,15 +172,17 @@ Notice that the question "which fix?" cannot be answered by looking at the sente
 
 ## The wrinkle: length is a proxy, not the fault
 
-Two sentences. One is thirty-six words and easy. One is eighteen words and hard.
+Two sentences, one twice the length of the other. Read both at normal speed and decide which is harder before you open the answer.
 
 > **Thirty-six words.** The council agreed to fund the repairs, which had been costed at ninety thousand pounds by an independent surveyor, and asked the housing team to begin work in the spring, before the next round of inspections.
 
 > **Eighteen words.** The decision, given the circumstances and the timescale involved and the other matters raised at the meeting, stands.
 
-The long one has its subject and verb together at the front, twice ("the council agreed", "asked"). Everything after that arrives in order, and the reader can take it a clause at a time without holding anything.
+:::predict Which one is harder, and why?
+The short one. The long one has its subject and verb together at the front, twice ("the council agreed", "asked"). Everything after that arrives in order, and the reader can take it a clause at a time without holding anything.
 
 The short one makes you carry "the decision" through fifteen words of vagueness to reach "stands". It's half the length and considerably harder.
+:::
 
 This matters because sentence length is the thing people measure, and it is a proxy. [GOV.UK's guidance](https://guidance.publishing.service.gov.uk/writing-to-gov-uk-standards/writing-guidelines/clear-language/) says to "try to split up sentences that are over 25 words long", which is sensible advice precisely because it is a rule of thumb about where to look. Long sentences are where big gaps tend to live. But splitting a long sentence with no gap gains nothing, and a short sentence with a gap will pass the length check untouched.
 
@@ -191,7 +197,7 @@ This is the same lesson as the readability formulas in lesson 1, arriving at a s
 
 **"Mrs Okafor, who has lived at the property since 2011 and has never previously been in arrears, has now missed two payments."** A judgement call. The clause is long enough to cost something, and it is also the whole reason the sentence is worth writing, since the point is that this is out of character. Splitting it would work: "Mrs Okafor has missed two payments. She has lived at the property since 2011 and has never previously been in arrears." Whether that is better depends on whether you want the reader to meet her history before the bad news or after it, which is lesson 2's question about bad news, showing up inside a single sentence.
 
-The pattern across all four: **a short interruption that tells the reader which thing the subject is usually earns its place. A long one that gives history usually does not.**
+The pattern across all four: a short interruption that tells the reader which thing the subject is usually earns its place. A long one that gives history usually does not.
 :::
 
 ## What people get wrong
@@ -211,11 +217,11 @@ The pattern across all four: **a short interruption that tells the reader which 
 :::exercise Count the gaps in a page of your own writing
 Allow 45 minutes for this. Use the document you've been carrying since lesson 1, or a fresh page of anything you wrote for someone else.
 
-1. Take one page, about 300 to 400 words. For every sentence, find the main subject and its verb and count the words between them. Write the number in the margin. Do all of them, including the ones that are obviously fine, because you need the distribution and not just the outliers.
+1. Take one page, about 300 to 400 words. For every sentence, find the main subject and its verb and count the words between them. Write the number in the margin. Do all of them, including the ones that are obviously fine, because you need the whole distribution, and the outliers on their own won't give it to you.
 
 2. Rank them. You'll usually find that two or three sentences carry most of the trouble and the rest are already fine. That's normal, and it's why this is worth measuring rather than rewriting everything.
 
-3. Take your worst sentence and fix it **all three ways**: interruption to the front, interruption to the end, and split into two. Write out all three versions in full. Don't choose yet.
+3. Take your worst sentence and fix it all three ways: interruption to the front, interruption to the end, and split into two. Write out all three versions in full. Don't choose yet.
 
 4. Now choose, and write one line saying why. The question isn't which sounds best. It's what you want the reader to be thinking about when the sentence ends.
 
@@ -241,6 +247,6 @@ The next lesson is about the other end, and it is the deepest idea in the course
 
 - George D. Gopen and Judith A. Swan, ["The Science of Scientific Writing"](https://wstomv.win.tue.nl/quotes/science-of-scientific-writing.html), *American Scientist* 78 (1990). Structural principle one, and the sentence quoted in full above, including its second clause, "and therefore as something of lesser importance", which is what makes the choice among the three fixes a choice about emphasis. Their caveat that none of the principles are rules is quoted in the same section.
 - GOV.UK, ["Use clear language"](https://guidance.publishing.service.gov.uk/writing-to-gov-uk-standards/writing-guidelines/clear-language/), for the twenty-five word rule of thumb, treated here as a place to look rather than a definition of clarity.
-- Joseph M. Williams, *Style: Lessons in Clarity and Grace*, **reported** to treat subjects and verbs more fully than this lesson does. This course has read the book's structure and central principles as others report them, not the text itself, so nothing here is quoted from it and no claim about its contents goes beyond that report.
+- Joseph M. Williams, *Style: Lessons in Clarity and Grace*, reported to treat subjects and verbs more fully than this lesson does. This course has read the book's structure and central principles as others report them, not the text itself, so nothing here is quoted from it and no claim about its contents goes beyond that report.
 - Every word count in this lesson was counted from the sentence printed beside it: the twenty-four-word gap in the opening, the eighteen-word gap in the worked example, and the thirty-six and eighteen-word pair in the wrinkle.
 - The banding in the callout ("under about five words is invisible...") is the drafter's working rule of thumb reasoned from the principle, not a measured threshold, and the callout says so.
