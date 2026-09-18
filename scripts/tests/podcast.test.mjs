@@ -143,3 +143,22 @@ test("the gate does not fail an episode for anything but silence or length", { s
   assert.equal(r.status, 0, r.out);
   assert.ok(/measured, not a problem/.test(r.out), r.out);
 });
+
+test("a manifest from the old chunked pipeline does not crash the renderer", () => {
+  // Before the one-call rewrite, a manifest was a `chunks` map and had no top-level `attempts`
+  // array. `manifest.attempts.find(...)` then threw "Cannot read properties of undefined" and the
+  // render died before anything was sent. No money at risk, and it stopped Personal Finance dead
+  // on 2026-09-18 with a message that named nothing useful. A legacy manifest should read as
+  // "nothing has been rendered on this pipeline yet", which is true.
+  const root = fixture();
+  const work = path.join(root, "audio-out", "work", "foundations", "sample", "01-lesson");
+  fs.mkdirSync(work, { recursive: true });
+  fs.writeFileSync(path.join(work, "manifest.json"), JSON.stringify({
+    chunks: { 0: { hash: "deadbeef", attempts: [{ file: "chunk-01.attempt-1.mp3", ok: false }] } },
+  }));
+  const r = run(root);
+  assert.equal(r.status, 0, r.out);
+  assert.ok(/Dry run\. Nothing sent, nothing spent/.test(r.out), r.out);
+  assert.ok(!/Cannot read properties of undefined/.test(r.out), r.out);
+  assert.ok(/attempts so far on this script: 0/.test(r.out), r.out);
+});

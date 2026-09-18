@@ -172,7 +172,16 @@ function readScript() {
 }
 
 /* ---------- manifest of attempts ---------- */
-function loadManifest() { try { return JSON.parse(fs.readFileSync(manifestPath, "utf8")); } catch { return { attempts: [] }; } }
+// A manifest from before the one-call rewrite has a `chunks` map and no `attempts` array, so
+// `manifest.attempts.find(...)` threw "Cannot read properties of undefined" and the render died
+// before anything was sent. Harmless in money terms and it stopped a course dead. Spreading the
+// parsed object over a default keeps any real `attempts` and supplies an empty one otherwise, so a
+// legacy manifest is simply treated as "nothing has been rendered on this pipeline yet", which is
+// true. Found on Personal Finance lesson 2, 2026-09-18; it was the only one left in the tree.
+function loadManifest() {
+  try { return { attempts: [], ...JSON.parse(fs.readFileSync(manifestPath, "utf8")) }; }
+  catch { return { attempts: [] }; }
+}
 function saveManifest(m) { fs.mkdirSync(workDir, { recursive: true }); fs.writeFileSync(manifestPath, JSON.stringify(m, null, 2)); }
 function scriptHash(prompt) { let h = 0; for (const c of prompt) h = (h * 31 + c.charCodeAt(0)) >>> 0; return h.toString(16); }
 
