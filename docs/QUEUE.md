@@ -234,20 +234,22 @@ older ones still say 6 over 1,400 words.
    noise". But the 5% is a rate over the 323 sections actually tested, which is about 16, not most of
    45. Either the sentence wants a different word than "most" or the reasoning wants spelling out,
    and the paper is the place to settle it. The script was written so as not to repeat the inference.
-4. **Two lessons do not cite their own sources.** `npm run validate` warns on both, added
-   2026-09-18. **Personal Finance 6 (taxes) has nine sources and not one `[n]` marker in its
-   prose**, so every bracket figure in a tax lesson is uncited to the reader; Python 2 cites one
-   of five. Both are content fixes on published courses and both are standards Part 2. Nine other
-   lessons have one to three uncited entries, which is ordinary and stays under the threshold.
-   Personal Finance 6 is also the worst quiz below, so it earns one visit for both.
-5. **Seven dead links in published lessons.** `npm run links` finds them; standards 4.5 asks for
-   primary sources linked in the body, and these do not answer. Four are
-   `earlychristianwritings.com` pages in Bible Basics 6 and 7 (the site reorganised; the texts are
-   still there under other paths), `corporate.vanguard.com/.../vemo.html` in Personal Finance 2,
-   `en.wikipedia.org/wiki/All_Your_Worth` in Personal Finance 1 (the article was merged away), and
-   `tenancydepositscheme.com/resources/tds-guides/` in Reading Well 1, which is still drafting.
-   Replace each with a URL that answers, or drop the link and keep the citation in Sources. The
-   32 links reporting 403 are publishers blocking scripts, not breakage; leave them.
+4. **One lesson still does not cite its own sources.** **Personal Finance 6 (taxes) has nine
+   sources and not one `[n]` marker in its prose**, so every bracket figure in a tax lesson is
+   uncited to the reader. `npm run validate` warns on it and standards Part 2 forbids it: cite what
+   the lesson was written from, or drop the entry. It is also the worst quiz below, so it earns one
+   visit for both. Python 2 was the other and is fixed: three markers added where its prose leans on
+   the floating-point chapter, PEP 8 and its own terminal output, with Think Python left uncited
+   because the lesson links it as further reading and its entry says so. Nine other lessons have one
+   to three uncited entries, which is ordinary and stays under the threshold.
+5. **Six of the seven dead links are fixed, and the seventh cannot be.** The
+   `earlychristianwritings.com` pages had moved: the Thomas page is back at `/thomas.html`, and 1
+   Enoch, 2 Baruch and 4 Ezra were never Christian writings and live on the sister site
+   `earlyjewishwritings.com`, where 4 Ezra is filed as 2 Esdras and the lesson now says so. Personal
+   Finance 1's Wikipedia link for *All Your Worth* is now Open Library. Reading Well 1's tenancy
+   guides page is now the scheme's help centre. **The Vanguard emergency-savings report is gone with
+   no replacement**, so its citation stands in both places without a link, which is what standards
+   4.5 allows. The 32 links reporting 403 are publishers blocking scripts, not breakage; leave them.
 6. **`npm run quiz` lists 18 quizzes tripping the shape heuristic** (option-length spread over 25
    characters, adjacent repeats, unused positions) without being winnable by a reader who read
    nothing. Worst is Personal Finance 6 at a 174-character spread. Decide one thing when it comes
