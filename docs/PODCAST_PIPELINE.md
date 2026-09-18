@@ -130,6 +130,30 @@ episode that has passed copies the kept attempt and exits.
 
 ---
 
+## 4a. The length ceiling, which is not the same as the cost band
+
+**A script over about 1,417 spoken words is refused before anything is sent.** The model returns at
+most 16,384 output tokens, `podcast.mjs` allows itself 90% of that, and at 150 words a minute and
+26 audio tokens a second that works out to about 1,417 words. Past it the episode would be cut off
+mid-sentence, and Google would bill for what it did render.
+
+This is a different thing from the 1,000 to 1,200 word band in `/make-podcast`, which is about
+cost. The band is advice; the ceiling is a wall.
+
+**Write to about 1,200 and check the dry run before the fact-check.** `node scripts/podcast.mjs
+render <lesson>` now prints the refusals on a dry run, not only under `--go`, which is the change
+made on 2026-09-18 after a session trimmed a script twice against a limit it could not see.
+Checking first matters because **shortening a script is new text and the fact-check has to run
+again**, so a script that is written long costs two fact-checks instead of one. Those second passes
+are not a formality: on 2026-09-18 they caught a truncated quotation that dropped one of the two
+faults Strunk names, a hedge narrowed from "government writers" to "writers", and three of Haley's
+questions left pointing at lines the cut had removed.
+
+Dense lessons do not fit whole. Cut whole exchanges rather than shaving words, say in the sign-off
+what the episode left out, and remember the episode sells the lesson rather than replacing it.
+
+---
+
 ## 5. Why Haley speaks first
 
 Gemini 2.5 Pro gives the **first turn of the transcript to the second speaker's voice**, whatever the

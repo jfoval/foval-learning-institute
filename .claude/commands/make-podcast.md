@@ -52,6 +52,12 @@ engine, some still name its voices in `about:`, and all seven run long (1,259 to
   eight episodes of How to Learn Anything ran 1,036 to 1,178 words and billed $0.20 each. A long
   lesson still gets a six-minute episode; the episode sells the lesson, it does not replace it.
   Over about 1,300 words the cost climbs with nothing gained.
+  **And over about 1,417 words the render is refused outright**, because the model's 16,384 output
+  tokens would cut the episode off mid-sentence. That is a wall, not advice.
+  **Run `node scripts/podcast.mjs render <lesson>` before step 2**: the dry run prints every reason
+  `--go` would refuse, including this one. Checking first is worth a minute, because shortening a
+  script is new text and step 2 then has to run a second time. Dense lessons do not fit whole: cut
+  whole exchanges rather than shaving words, and say in the sign-off what the episode left out.
 - Intro names the podcast, both hosts, the course, and the lesson title. Sign-off sends
   the listener to the full lesson at Foval Learning Institute dot org and asserts nothing
   factual beyond that.
