@@ -1,6 +1,7 @@
 ---
 title: Reading a primary source
 minutes: 110
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/foundations/reading-well/09-reading-a-primary-source.mp3
 objectives:
   - Apply sourcing, contextualization, corroboration and close reading to a document
   - Explain why a document's attribution is read before its text, and what changes when you do
