@@ -274,7 +274,7 @@ async function render() {
   let data;
   try { data = JSON.parse(res.stdout); } catch { data = null; }
   if (res.status !== 0 || !data || data.error) {
-    entry.error = data?.error ? JSON.stringify(data.error).slice(0, 300) : `curl exit ${res.status}: ${(res.stderr || res.stdout || "").slice(0, 200)}`;
+    entry.error = data?.error ? JSON.stringify(data.error).slice(0, 1200) : `curl exit ${res.status}: ${(res.stderr || res.stdout || "").slice(0, 200)}`;
     manifest.attempts.push(entry); saveManifest(manifest);
     console.error(`\nFAILED: ${entry.error}`);
     console.error("Not re-sending. Check https://aistudio.google.com/usage before rendering again: a request that timed out here may still have completed, and been billed, on Google's side.");
