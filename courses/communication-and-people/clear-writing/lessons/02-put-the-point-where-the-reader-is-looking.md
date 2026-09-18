@@ -72,9 +72,9 @@ Every word in that paragraph was ordinary English. Every sentence was short. It 
 
 ## Context first, then the thing it contextualises
 
-Gopen and Swan state this as the sixth of their seven structural principles in ["The Science of Scientific Writing"](https://wstomv.win.tue.nl/quotes/science-of-scientific-writing.html): **"In general, provide context for your reader before asking that reader to consider anything new."**
+Gopen and Swan state this as the sixth of their seven structural principles in ["The Science of Scientific Writing"](https://wstomv.win.tue.nl/quotes/science-of-scientific-writing.html): "In general, provide context for your reader before asking that reader to consider anything new."
 
-Keep the "In general". It's theirs, and they meant it: the same paper says **"None of these reader-expectation principles should be considered 'rules.'"** We come back to that at the end of this lesson, and lesson 8 is about it.
+Keep the "In general". It's theirs, and they meant it: the same paper says "None of these reader-expectation principles should be considered 'rules.'" We come back to that at the end of this lesson, and lesson 8 is about it.
 
 That sentence is doing more work than it looks. It isn't advice about being organised. It's a claim about what a reader is physically doing while they read you.
 
@@ -98,6 +98,10 @@ Front-loading is the practical form of principle 6, and it applies at three scal
 
 The pattern to notice is that the reason never changes. At every level, the question is whether the reader can file what comes next.
 
+:::checkpoint A report opens with a paragraph describing how the survey was run: sample size, dates, method. Is that front-loaded?
+No. It's front-loaded in the writer's order, which is what was done, and the reader came for what was found. The method matters, and it belongs in the report, but a reader who stops after the first hundred words has learned how the work was done and nothing about what it showed. Open with the finding. The method is the context for trusting it, and it can arrive as soon as the reader knows what they're being asked to trust.
+:::
+
 ## The email with five clauses of throat-clearing
 
 This is the kind of thing that arrives every day.
@@ -111,6 +115,12 @@ This is the kind of thing that arrives every day.
 > So on balance, and taking everything above together, I think the sensible course of action is probably for us to move the launch from May to July, unless there is something I have missed. Let me know what you think when you get a chance.
 
 Two hundred and thirty-five words, and the decision arrives at word 211. A reader who gives this email the attention they give an average page has stopped somewhere in the second paragraph, and everything they read was preamble. They now know there was a discussion last week, that finance sent something, and that the regional teams have concerns. They don't know that anyone is proposing to move anything.
+
+Before you read the rewrite, do the first step yourself.
+
+:::predict Write the first sentence of the front-loaded version. What has to be in it, and what can wait?
+The only thing that has to be in it is the decision: move the launch from May to July. Everything the original opened with (last week's discussion, the Q2 figures, finance's projections, the regional teams) is the reason for the decision, and reasons can wait one sentence, because once the reader has the decision they know what the reasons are for. If your sentence had a "following" or a "having reviewed" in it, that's the throat-clearing, and it goes.
+:::
 
 Now the same email, front-loaded:
 
@@ -206,7 +216,7 @@ Take 30 minutes over this. Use the document you kept from lesson 1, plus two mor
 
 3. Rewrite the opening so it arrives within the first hundred words, and preferably within the first 25. Move things; don't delete yet. Deleting is lesson 6, and doing both at once makes it impossible to tell which change helped.
 
-4. Now the part that matters most. **One of your three should be a case where you conclude front-loading is wrong.** Find it, or find a fourth document where it is. Write down which of the three exceptions applies, and what you'd put first instead.
+4. Now the part that matters most. One of your three should be a case where you conclude front-loading is wrong. Find it, or find a fourth document where it is. Write down which of the three exceptions applies, and what you'd put first instead.
 
 5. Take the front-loaded version of one document and read only its first hundred words aloud, then stop. A reader who stopped there: would they do the right thing? That's what you're testing.
 
