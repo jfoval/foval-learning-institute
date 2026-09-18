@@ -1,6 +1,6 @@
 ---
 title: Reading is not one activity
-minutes: 40
+minutes: 70
 objectives:
   - Explain what sets the effort a text demands, and why one reading speed applied to everything is a mistake
   - Identify which of the four levels of reading a given text and purpose call for
@@ -27,7 +27,7 @@ quiz:
       - The levels are cumulative, so a higher level contains the ones below it
       - Nothing is wrong; the four are independent and often develop separately
       - The levels are ranked by speed, so being good at one implies being slow at another
-      - The levels apply to different genres, so a reader uses whichever their reading requires
+      - The levels apply to different genres, so a reader uses whichever the text requires
     answer: 0
     explain: Adler calls them levels rather than kinds precisely because higher ones include lower ones, so A is right. B is the description being corrected. C confuses the levels with reading rates; speed follows from the level rather than defining it. D is a real point about genre, which later lessons take up, but it is not what the word "level" is doing here.
   - q: Two readers spend forty minutes on the same twelve-page article. One can afterwards state its claim and its structure; the other can also say where its argument is weakest and what would settle the question. According to this lesson, what best explains the difference?

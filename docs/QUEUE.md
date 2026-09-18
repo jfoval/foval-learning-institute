@@ -55,7 +55,7 @@ course in `docs/PODCAST_PIPELINE.md` section 3. Finish a course before starting 
    nothing. Worst is Personal Finance 6 at a 174-character spread. Decide one thing when it comes
    up: tighten the 19, or raise the threshold and say why. Not both.
 10. **Then the Foval Core in order, one course at a time, each finished before the next starts.**
-   **Reading Well is researched and outlined as of 2026-09-17** and is drafting, ahead of its audio
+   **Reading Well is drafting as of 2026-09-17, lesson 1 of ten written**, ahead of its audio
    under the §2 exception. Ten lessons planned in `research/OUTLINE.md`, with a course-end test and a
    project; `/draft-lesson courses/foundations/reading-well 1` is the next step, one lesson a
    session. Three things the outline flags for whoever drafts: lesson 4 leans on the Rayner
