@@ -71,7 +71,7 @@ Not one fact has been added or removed. The two versions are 49 and 53 words, an
 :::predict What changed between the two versions?
 Every sentence after the first begins with something you already had.
 
-Sentence two opens with **the survey**, which sentence one just gave you. Sentence three opens with **replacing those beams**, which sentence two just gave you. Sentence four opens with **that cost**, from sentence three. Sentence five opens with **so**, which points at everything before it.
+Sentence two opens with *the survey*, which sentence one just gave you. Sentence three opens with *replacing those beams*, which sentence two just gave you. Sentence four opens with *that cost*, from sentence three. Sentence five opens with *so*, which points at everything before it.
 
 In the first version, every sentence after the first opens with something new: corrosion, two million pounds, four hundred thousand pounds, closure. The reader is handed a fresh object four times in a row and has to work out what each one has to do with the last.
 
@@ -102,7 +102,11 @@ And then the principle that joins them, which they call the given and new contra
 
 Old at the front. New at the end. Every sentence a bridge from something the reader has to something they don't.
 
-Their own caveat sits directly under the numbered list those principles come from, and it applies here as much as anywhere: **"None of these reader-expectation principles should be considered 'rules.'"** What follows is a description of what readers do with order, not an instruction you owe obedience to. The section on conflicts below is where that matters most.
+Their own caveat sits directly under the numbered list those principles come from, and it applies here as much as anywhere: "None of these reader-expectation principles should be considered 'rules.'" What follows is a description of what readers do with order, not an instruction you owe obedience to. The section on conflicts below is where that matters most.
+
+:::checkpoint "The survey found corrosion in the main support beams." Which words are in the topic position, which are in the stress position, and what is each doing?
+Topic position: "the survey". It's old, because the sentence before ended on it, and it tells you this sentence is a story about the survey. Stress position: "corrosion in the main support beams". It's new, and it's what you carry out of the sentence, which is why the next sentence can open on "those beams" and be understood at once. If you had the important word at the front and the old one at the end, you had the two positions backwards, and that's the misreading the rest of this lesson keeps correcting.
+:::
 
 The diagram below draws the contract across three sentences.
 
@@ -142,7 +146,7 @@ Sentence two ended on "by the survey". The survey was old information, and it wa
 
 Every sentence after the first had its information exactly backwards. Not one of them was ungrammatical, unclear, or too long. They were each pointing the reader's attention at the wrong end.
 
-That's why "make your sentences clearer" is useless advice for a choppy paragraph. Each sentence was already clear. **Cohesion isn't a property of sentences. It's a property of the joins between them,** and the joins live at the two ends.
+That's why "make your sentences clearer" is useless advice for a choppy paragraph. Each sentence was already clear. Cohesion isn't a property of sentences. It's a property of the joins between them, and the joins live at the two ends.
 
 :::callout Why transitions do not fix this
 The standard repair for a choppy paragraph is to bolt on however, therefore, in addition, furthermore. Try it on the first version and you will see what it buys you.
@@ -166,7 +170,7 @@ The first is passive. The second is active. And Strunk doesn't tell you to use t
 
 > "The first would be the right form in a paragraph on the dramatists of the Restoration; the second, in a paragraph on the tastes of modern readers. The need of making a particular word the subject of the sentence will often, as in these examples, determine which voice is to be used."
 
-Read that last sentence again. **The need to make a particular word the subject determines the voice.** That's the topic position, described in 1918, seventy-two years before Gopen and Swan named it.
+Read that last sentence again. The need to make a particular word the subject determines the voice. That's the topic position, described in 1918, seventy-two years before Gopen and Swan named it.
 
 Give Strunk the credit here, because this course has been hard on rule 10 and it's easy to leave the wrong impression. He isn't caught out by this example. One paragraph earlier, in the same rule, he writes:
 
@@ -174,7 +178,7 @@ Give Strunk the credit here, because this course has been hard on rule 10 and it
 
 So the man whose rule is headed "Use the active voice" says in the rule itself that the passive is frequently convenient and sometimes necessary, and then shows you a case where it's the right choice. What's misleading isn't Strunk. It's the heading, read on its own by people who never got to the paragraph underneath, and a century of advice that repeated the heading and dropped the rest.
 
-So the honest position on the passive isn't "avoid it", and it isn't a replacement rule either. It's this: **the passive is what lets you put something other than the actor in the topic position.** If your paragraph is about the dramatists, the dramatists go at the front, and the passive is how you get them there.
+So the honest position on the passive isn't "avoid it", and it isn't a replacement rule either. It's this: the passive is what lets you put something other than the actor in the topic position. If your paragraph is about the dramatists, the dramatists go at the front, and the passive is how you get them there.
 
 Be fair to the other side, which has a real case. Strunk's own reason for the rule stands: "The active voice is usually more direct and vigorous than the passive." GOV.UK tells government writers to use the active voice because it "is more direct and puts the focus on the user", and for most sentences most of the time that's right, which is why it survives as a default. The claim in this section is narrower than "prefer the passive". It's that the choice is decided by what the paragraph is about, and that a writer who can't reach for the passive has lost the ability to write a paragraph about the thing something was done to.
 
@@ -183,7 +187,7 @@ Be fair to the other side, which has a real case. Strunk's own reason for the ru
 
 (b) "She was discharged on the fourth day."
 
-**(b)**, the passive one. The paragraph is about her, so she belongs in the topic position, and the passive is what puts her there. Version (a) shifts the story to the consultant, and a reader will take the next sentence to be about him.
+(b), the passive one. The paragraph is about her, so she belongs in the topic position, and the passive is what puts her there. Version (a) shifts the story to the consultant, and a reader will take the next sentence to be about him.
 
 If the paragraph were about the consultant's decisions, (a) would be right and (b) would be the mistake. Neither sentence is better in the abstract, which is the whole point: a rule that bans one of them takes away the version you need whenever the paragraph is about the patient.
 :::
@@ -194,7 +198,7 @@ There's a second consequence, and it settles something people argue about endles
 
 He's applying the stress position, and he says so: the book's own earlier section, "Place the emphatic words of a sentence at the end", already implies it.
 
-Two things to keep straight about whose claim this is. Pullum notes that the split-infinitive remark is **White's**, added in the 1959 revision: "Strunk's original version never even mentioned split infinitives." This course has read Strunk's 1918 text, where the only mention of the construction says it "is in disfavor" and makes no claim about stress at all. So this is not a case of Strunk contradicting himself, and the 1918 book this lesson has otherwise been quoting is not the book making the error.
+Two things to keep straight about whose claim this is. Pullum notes that the split-infinitive remark is White's, added in the 1959 revision: "Strunk's original version never even mentioned split infinitives." This course has read Strunk's 1918 text, where the only mention of the construction says it "is in disfavor" and makes no claim about stress at all. So this is not a case of Strunk contradicting himself, and the 1918 book this lesson has otherwise been quoting is not the book making the error.
 
 And Pullum isn't the wholesale opponent he is sometimes made into. In the same essay he calls the style advice "mostly harmless" and says White "often wrote beautifully". His quarrel is with the grammatical claims, not with the enterprise, which is worth knowing before lesson 8 takes up his argument at length.
 
@@ -206,13 +210,15 @@ Take a case. A paragraph has just told the reader that the fire door was propped
 
 > The propped door was what the inspector wrote up.
 
-Old information is in the topic position, so the link holds, but the sentence ends on "wrote up", which is not what you wanted emphasised. Turn it round:
+Old information is in the topic position, so the link holds, but the sentence ends on "wrote up", which is not what you wanted emphasised. Before you read on, turn it round yourself so the door lands at the end, and then ask what the turned version costs.
 
+:::predict Turn it round, then name what the new version gets wrong.
 > What the inspector wrote up was the propped door.
 
 Now the door lands, and the sentence opens on the inspector, who has not been mentioned and is not what the paragraph is about. The reader gets a fresh object where they were looking for orientation. Both versions cost something.
+:::
 
-When you have to choose, my own rule, and it's a judgement rather than something Gopen and Swan say, is that the **topic position usually wins**. A reader who has lost the thread can't be made to emphasise anything, so orientation comes first.
+When you have to choose, my own rule, and it's a judgement rather than something Gopen and Swan say, is that the topic position usually wins. A reader who has lost the thread can't be made to emphasise anything, so orientation comes first.
 
 But there's usually a better move than choosing, and it's the one to reach for: split the sentence.
 
@@ -255,7 +261,7 @@ Allow 40 minutes for this, and do it slowly. It's the exercise in this course th
 
 2. For every sentence, underline the first few words and the last few words. Just those. You are marking the topic and stress positions.
 
-3. Read only the underlined openings, in order, ignoring everything else. **If that list of openings tells a coherent story, the paragraph coheres.** If it reads as a set of unrelated objects, you have found your problem, and you have found it without judging any sentence.
+3. Read only the underlined openings, in order, ignoring everything else. If that list of openings tells a coherent story, the paragraph coheres. If it reads as a set of unrelated objects, you have found your problem, and you have found it without judging any sentence.
 
 4. Now read only the underlined endings, in order. Ask whether those are the words you would choose to have a reader remember. Very often two or three of them will be dates, references, or someone's job title that drifted to the end because that was where it fitted.
 
@@ -281,6 +287,6 @@ Cutting is next, and this lesson has just made it possible. Lesson 6 is about co
 
 - George D. Gopen and Judith A. Swan, ["The Science of Scientific Writing"](https://wstomv.win.tue.nl/quotes/science-of-scientific-writing.html), *American Scientist* 78 (1990). Structural principles two, four and seven, and the given and new contract. The three quotations attributed to them in this lesson are from that article, as is their caveat that none of the principles are rules.
 - William Strunk Jr., [*The Elements of Style*](https://www.gutenberg.org/cache/epub/37134/pg37134.txt) (1918), rule 10, for the Restoration dramatists pair, for the sentence about the need to make a particular word the subject determining the voice, and for his own qualification that the rule "does not, of course, mean that the writer should entirely discard the passive voice, which is frequently convenient and sometimes necessary." The 1918 text was read for this lesson, and its only mention of the split infinitive says the construction "is in disfavor", with no claim about stress.
-- Geoffrey K. Pullum, ["50 Years of Stupid Grammar Advice"](https://pullum.ppls.ed.ac.uk/50years.pdf), *The Chronicle of Higher Education* (2009), quoted verbatim, for the split infinitive and the stress position, for the fact that the stress claim is White's 1959 addition rather than Strunk's, and for "mostly harmless" and "often wrote beautifully". **E. B. White's 1959 revision is not read by this course and nothing is cited to it**; the split-infinitive wording is quoted as Pullum reports it. Lesson 8 takes up his wider argument.
-- Joseph M. Williams, *Style: Lessons in Clarity and Grace*, whose lesson on cohesion and coherence is **reported** to cover the same ground at greater length. This course has read the book's structure and central principles as others report them, not the text itself.
+- Geoffrey K. Pullum, ["50 Years of Stupid Grammar Advice"](https://pullum.ppls.ed.ac.uk/50years.pdf), *The Chronicle of Higher Education* (2009), quoted verbatim, for the split infinitive and the stress position, for the fact that the stress claim is White's 1959 addition rather than Strunk's, and for "mostly harmless" and "often wrote beautifully". E. B. White's 1959 revision is not read by this course and nothing is cited to it; the split-infinitive wording is quoted as Pullum reports it. Lesson 8 takes up his wider argument.
+- Joseph M. Williams, *Style: Lessons in Clarity and Grace*, whose lesson on cohesion and coherence is reported to cover the same ground at greater length. This course has read the book's structure and central principles as others report them, not the text itself.
 - The two versions of the bridge paragraph were recounted for this review: 49 and 53 words, with two sentences two words shorter and one seven words longer, ten words added and six dropped.

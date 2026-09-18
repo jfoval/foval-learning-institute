@@ -13,8 +13,8 @@ through.
 Rewrite these five lines each session. Nothing else goes in this block.
 
 - **Current course:** Writing Clearly (Stage 4 complete; voice pass next).
-- **Current lesson:** voice pass done on lessons 1 to 4 (2026-09-17); lesson 5 is next.
-- **Current stage:** the voice pass, lesson by lesson (4 of 9 done), then nine episodes.
+- **Current lesson:** voice pass done on lessons 1 to 5 (2026-09-17); lesson 6 is next.
+- **Current stage:** the voice pass, lesson by lesson (5 of 9 done), then nine episodes.
 - **Blocked on:** a Google AI Studio API key from John (`GEMINI_API_KEY` in `.env.local`, billing
   enabled), so Gemini 2.5 Pro TTS and the direct API's `seed` can be tested. John heard the chunked
   Gemini 3.1 Flash render on 2026-09-17: the fade is gone, but John's voice still changes between
