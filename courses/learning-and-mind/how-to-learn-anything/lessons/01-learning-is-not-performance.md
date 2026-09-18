@@ -125,41 +125,42 @@ At two days, the order had flipped: the recalled passage came back at 68%, the r
 
 At one week, the recalled passage scored 56% and the restudied one 42%.[8] Restudy had lost nearly half of what it had at five minutes; recall had lost a quarter. The one-week effect size was d = 0.83. The chart below draws all six numbers; the crossover between the two lines is the whole lesson in one picture.
 
-<svg viewBox="0 0 584 352" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:584px;display:block;margin:1.5em auto;font-family:system-ui,sans-serif" role="img" aria-labelledby="rk-title rk-desc">
+<svg viewBox="0 0 420 374" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:420px;display:block;margin:1.5em auto;font-family:system-ui,sans-serif" role="img" aria-labelledby="rk-title rk-desc">
   <title id="rk-title">The Roediger and Karpicke crossover: restudy wins at five minutes, recall wins later</title>
   <desc id="rk-desc">A line chart with two lines. The restudy line starts at 81 percent at five minutes, falls to 54 percent at two days and 42 percent at one week. The recall line starts lower, at 75 percent at five minutes, but falls more slowly, to 68 percent at two days and 56 percent at one week. The lines cross between five minutes and two days, and the recall line ends 14 points higher.</desc>
-  <text x="20" y="22" font-size="17" font-weight="700" fill="var(--text, #1a1a1a)">Percent recalled on the final test</text>
-  <line x1="70" y1="83" x2="520" y2="83" stroke="var(--line, #d9d9d9)" stroke-width="1"/>
-  <line x1="70" y1="150" x2="520" y2="150" stroke="var(--line, #d9d9d9)" stroke-width="1"/>
-  <line x1="70" y1="217" x2="520" y2="217" stroke="var(--line, #d9d9d9)" stroke-width="1"/>
-  <text x="26" y="88" font-size="15" fill="var(--text-2, #4a5260)">80%</text>
-  <text x="26" y="155" font-size="15" fill="var(--text-2, #4a5260)">60%</text>
-  <text x="26" y="222" font-size="15" fill="var(--text-2, #4a5260)">40%</text>
-  <rect x="340" y="44" width="15" height="6" fill="var(--oxblood, #8b1e2d)"/>
-  <text x="364" y="53" font-size="15" fill="var(--text, #1a1a1a)">Read the passage again</text>
-  <rect x="340" y="66" width="15" height="6" fill="var(--navy, #0f2a4a)"/>
-  <text x="364" y="75" font-size="15" fill="var(--text, #1a1a1a)">Wrote it from memory once</text>
-  <polyline points="130,80 320,170 500,210" fill="none" stroke="var(--oxblood, #8b1e2d)" stroke-width="3"/>
-  <polyline points="130,100 320,123 500,163" fill="none" stroke="var(--navy, #0f2a4a)" stroke-width="3"/>
-  <circle cx="130" cy="80" r="4" fill="var(--oxblood, #8b1e2d)"/>
-  <circle cx="320" cy="170" r="4" fill="var(--oxblood, #8b1e2d)"/>
-  <circle cx="500" cy="210" r="4" fill="var(--oxblood, #8b1e2d)"/>
-  <circle cx="130" cy="100" r="4" fill="var(--navy, #0f2a4a)"/>
-  <circle cx="320" cy="123" r="4" fill="var(--navy, #0f2a4a)"/>
-  <circle cx="500" cy="163" r="4" fill="var(--navy, #0f2a4a)"/>
-  <text x="130" y="66" font-size="15" font-weight="700" text-anchor="middle" fill="var(--oxblood, #8b1e2d)">81%</text>
-  <text x="320" y="192" font-size="15" font-weight="700" text-anchor="middle" fill="var(--oxblood, #8b1e2d)">54%</text>
-  <text x="500" y="232" font-size="15" font-weight="700" text-anchor="middle" fill="var(--oxblood, #8b1e2d)">42%</text>
-  <text x="106" y="122" font-size="15" font-weight="700" text-anchor="middle" fill="var(--navy, #0f2a4a)">75%</text>
-  <text x="320" y="113" font-size="15" font-weight="700" text-anchor="middle" fill="var(--navy, #0f2a4a)">68%</text>
-  <text x="500" y="153" font-size="15" font-weight="700" text-anchor="middle" fill="var(--navy, #0f2a4a)">56%</text>
-  <line x1="70" y1="250" x2="520" y2="250" stroke="var(--line, #d9d9d9)" stroke-width="2"/>
-  <text x="130" y="272" font-size="15" text-anchor="middle" fill="var(--text, #1a1a1a)">5 minutes</text>
-  <text x="320" y="272" font-size="15" text-anchor="middle" fill="var(--text, #1a1a1a)">2 days</text>
-  <text x="500" y="272" font-size="15" text-anchor="middle" fill="var(--text, #1a1a1a)">1 week</text>
-  <text x="295" y="294" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">Delay before the final test (spacing not to scale)</text>
-  <text x="20" y="324" font-size="15" fill="var(--text-2, #4a5260)">Data: Roediger and Karpicke (2006), experiment 1. Each student</text>
-  <text x="20" y="344" font-size="15" fill="var(--text-2, #4a5260)">restudied one prose passage and free-recalled the other.</text>
+  <text x="14.4" y="22" font-size="17" font-weight="700" fill="var(--text, #1a1a1a)">Percent recalled on the final test</text>
+  <line x1="50.3" y1="83" x2="374.0" y2="83" stroke="var(--line, #d9d9d9)" stroke-width="1"/>
+  <line x1="50.3" y1="150" x2="374.0" y2="150" stroke="var(--line, #d9d9d9)" stroke-width="1"/>
+  <line x1="50.3" y1="217" x2="374.0" y2="217" stroke="var(--line, #d9d9d9)" stroke-width="1"/>
+  <text x="18.7" y="88" font-size="15" fill="var(--text-2, #4a5260)">80%</text>
+  <text x="18.7" y="155" font-size="15" fill="var(--text-2, #4a5260)">60%</text>
+  <text x="18.7" y="222" font-size="15" fill="var(--text-2, #4a5260)">40%</text>
+  <rect x="244.5" y="44" width="10.8" height="6" fill="var(--oxblood, #8b1e2d)"/>
+  <text x="261.8" y="53" font-size="15" fill="var(--text, #1a1a1a)">Reread it</text>
+  <rect x="244.5" y="66" width="10.8" height="6" fill="var(--navy, #0f2a4a)"/>
+  <text x="261.8" y="75" font-size="15" fill="var(--text, #1a1a1a)">Recalled it</text>
+  <polyline points="93.5,80 230.1,170 359.6,210" fill="none" stroke="var(--oxblood, #8b1e2d)" stroke-width="3"/>
+  <polyline points="93.5,100 230.1,123 359.6,163" fill="none" stroke="var(--navy, #0f2a4a)" stroke-width="3"/>
+  <circle cx="93.5" cy="80" r="4" fill="var(--oxblood, #8b1e2d)"/>
+  <circle cx="230.1" cy="170" r="4" fill="var(--oxblood, #8b1e2d)"/>
+  <circle cx="359.6" cy="210" r="4" fill="var(--oxblood, #8b1e2d)"/>
+  <circle cx="93.5" cy="100" r="4" fill="var(--navy, #0f2a4a)"/>
+  <circle cx="230.1" cy="123" r="4" fill="var(--navy, #0f2a4a)"/>
+  <circle cx="359.6" cy="163" r="4" fill="var(--navy, #0f2a4a)"/>
+  <text x="93.5" y="66" font-size="15" font-weight="700" text-anchor="middle" fill="var(--oxblood, #8b1e2d)">81%</text>
+  <text x="230.1" y="192" font-size="15" font-weight="700" text-anchor="middle" fill="var(--oxblood, #8b1e2d)">54%</text>
+  <text x="359.6" y="232" font-size="15" font-weight="700" text-anchor="middle" fill="var(--oxblood, #8b1e2d)">42%</text>
+  <text x="76.2" y="122" font-size="15" font-weight="700" text-anchor="middle" fill="var(--navy, #0f2a4a)">75%</text>
+  <text x="230.1" y="113" font-size="15" font-weight="700" text-anchor="middle" fill="var(--navy, #0f2a4a)">68%</text>
+  <text x="359.6" y="153" font-size="15" font-weight="700" text-anchor="middle" fill="var(--navy, #0f2a4a)">56%</text>
+  <line x1="50.3" y1="250" x2="374.0" y2="250" stroke="var(--line, #d9d9d9)" stroke-width="2"/>
+  <text x="93.5" y="272" font-size="15" text-anchor="middle" fill="var(--text, #1a1a1a)">5 minutes</text>
+  <text x="230.1" y="272" font-size="15" text-anchor="middle" fill="var(--text, #1a1a1a)">2 days</text>
+  <text x="359.6" y="272" font-size="15" text-anchor="middle" fill="var(--text, #1a1a1a)">1 week</text>
+  <text x="212.2" y="294" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">Delay before the final test (spacing not to scale)</text>
+  <text x="14.4" y="324" font-size="15" fill="var(--text-2, #4a5260)">Roediger and Karpicke (2006), experiment 1.</text>
+  <text x="14.4" y="342" font-size="15" fill="var(--text-2, #4a5260)">Each student restudied one prose passage</text>
+  <text x="14.4" y="360" font-size="15" fill="var(--text-2, #4a5260)">and free-recalled the other.</text>
 </svg>
 
 :::checkpoint Take the two-strengths model and explain the five-minute result and the one-week result with it. Which strength did rereading raise, and which did recalling raise? Say it in two sentences before you look.

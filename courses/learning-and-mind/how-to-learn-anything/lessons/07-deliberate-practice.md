@@ -137,27 +137,28 @@ Close to zero, and nothing at all. Variance explained measures how far the diffe
 
 **The Macnamara–Hambrick position.** In 2014, Brooke Macnamara, David Hambrick and Frederick Oswald [pooled 88 studies](https://doi.org/10.1177/0956797614535810) (157 effect sizes, 11,135 participants) that had measured both accumulated practice and performance. [5] Practice explained 26% of the variance in performance in games, 21% in music, 18% in sports, 4% in education, and under 1% in professions.
 
-<svg viewBox="0 0 584 302" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:584px;display:block;margin:1.5em auto;font-family:system-ui,sans-serif" role="img" aria-labelledby="mac-title mac-desc">
+<svg viewBox="0 0 420 322" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:420px;display:block;margin:1.5em auto;font-family:system-ui,sans-serif" role="img" aria-labelledby="mac-title mac-desc">
   <title id="mac-title">Share of performance differences explained by accumulated practice, by domain</title>
   <desc id="mac-desc">Horizontal bars. Games 26 percent, music 21 percent, sports 18 percent, education 4 percent, professions under 1 percent. The professions bar is barely visible.</desc>
-  <text x="20" y="22" font-size="17" font-weight="700" fill="var(--text, #1a1a1a)">How much of performance practice hours explain</text>
-  <text x="118" y="74" font-size="15" text-anchor="end" fill="var(--text, #1a1a1a)">Games</text>
-  <rect x="126" y="56" width="364" height="26" fill="var(--navy, #0f2a4a)"/>
-  <text x="498" y="74" font-size="15" font-weight="700" fill="var(--navy, #0f2a4a)">26%</text>
-  <text x="118" y="114" font-size="15" text-anchor="end" fill="var(--text, #1a1a1a)">Music</text>
-  <rect x="126" y="96" width="294" height="26" fill="var(--navy, #0f2a4a)"/>
-  <text x="428" y="114" font-size="15" font-weight="700" fill="var(--navy, #0f2a4a)">21%</text>
-  <text x="118" y="154" font-size="15" text-anchor="end" fill="var(--text, #1a1a1a)">Sports</text>
-  <rect x="126" y="136" width="252" height="26" fill="var(--navy, #0f2a4a)"/>
-  <text x="386" y="154" font-size="15" font-weight="700" fill="var(--navy, #0f2a4a)">18%</text>
-  <text x="118" y="194" font-size="15" text-anchor="end" fill="var(--text, #1a1a1a)">Education</text>
-  <rect x="126" y="176" width="56" height="26" fill="var(--navy, #0f2a4a)"/>
-  <text x="190" y="194" font-size="15" font-weight="700" fill="var(--navy, #0f2a4a)">4%</text>
-  <text x="118" y="234" font-size="15" text-anchor="end" fill="var(--text, #1a1a1a)">Professions</text>
-  <rect x="126" y="216" width="7" height="26" fill="var(--oxblood, #8b1e2d)"/>
-  <text x="141" y="234" font-size="15" font-weight="700" fill="var(--oxblood, #8b1e2d)">under 1%, not distinguishable from zero</text>
-  <text x="20" y="272" font-size="15" fill="var(--text-2, #4a5260)">Data: Macnamara, Hambrick and Oswald (2014), 88 studies. What was</text>
-  <text x="20" y="292" font-size="15" fill="var(--text-2, #4a5260)">counted as practice is exactly the disputed part; read on.</text>
+  <text x="14.4" y="22" font-size="17" font-weight="700" fill="var(--text, #1a1a1a)">What practice hours explain</text>
+  <text x="84.9" y="74" font-size="15" text-anchor="end" fill="var(--text, #1a1a1a)">Games</text>
+  <rect x="90.6" y="56" width="261.8" height="26" fill="var(--navy, #0f2a4a)"/>
+  <text x="358.2" y="74" font-size="15" font-weight="700" fill="var(--navy, #0f2a4a)">26%</text>
+  <text x="84.9" y="114" font-size="15" text-anchor="end" fill="var(--text, #1a1a1a)">Music</text>
+  <rect x="90.6" y="96" width="211.4" height="26" fill="var(--navy, #0f2a4a)"/>
+  <text x="307.8" y="114" font-size="15" font-weight="700" fill="var(--navy, #0f2a4a)">21%</text>
+  <text x="84.9" y="154" font-size="15" text-anchor="end" fill="var(--text, #1a1a1a)">Sports</text>
+  <rect x="90.6" y="136" width="181.2" height="26" fill="var(--navy, #0f2a4a)"/>
+  <text x="277.6" y="154" font-size="15" font-weight="700" fill="var(--navy, #0f2a4a)">18%</text>
+  <text x="84.9" y="194" font-size="15" text-anchor="end" fill="var(--text, #1a1a1a)">Education</text>
+  <rect x="90.6" y="176" width="40.3" height="26" fill="var(--navy, #0f2a4a)"/>
+  <text x="136.6" y="194" font-size="15" font-weight="700" fill="var(--navy, #0f2a4a)">4%</text>
+  <text x="84.9" y="234" font-size="15" text-anchor="end" fill="var(--text, #1a1a1a)">Professions</text>
+  <rect x="90.6" y="216" width="5.0" height="26" fill="var(--oxblood, #8b1e2d)"/>
+  <text x="101.4" y="234" font-size="15" font-weight="700" fill="var(--oxblood, #8b1e2d)">under 1%, not distinguishable from zero</text>
+  <text x="14.4" y="272" font-size="15" fill="var(--text-2, #4a5260)">Macnamara, Hambrick and Oswald (2014),</text>
+  <text x="14.4" y="290" font-size="15" fill="var(--text-2, #4a5260)">88 studies. What was</text>
+  <text x="14.4" y="308" font-size="15" fill="var(--text-2, #4a5260)">counted as practice is the disputed part.</text>
 </svg> Hambrick and colleagues, in a separate 2014 paper correcting for measurement error, put the figures at 34% of the reliable variance in chess and about 30% in music. [6] Two further findings anchor their view. In one chess data set, the 16 masters had accumulated anywhere from 832 to 24,284 hours of solitary study, and five of them had less than the average of the expert group one level below. [6] And a study of 10,500 Swedish twins found that how much people practise music is itself substantially heritable (40–70%), and that within identical-twin pairs, the twin who practised more scored no better on tests of pitch, melody and rhythm discrimination. [11] (Note what it measured: discrimination tests in a general population, not expert performance. Whether it bears on the violinists is itself disputed.) Their conclusion: practice is important, "but not as important as has been argued". It leaves most of the difference between people unexplained, and the rest is likely to include starting age, working-memory capacity, and genetic differences. A fifth to a third of the variance is a large effect for a single modifiable factor; their claim is that the 1993 framing went further than its data allowed.
 
 **The Ericsson position.** The 1993 paper had argued that "many characteristics once believed to reflect innate talent are actually the result of intense practice extended for a minimum of 10 years", and that the search for heritable characteristics predicting expert performance had been "surprisingly unsuccessful", with height in some sports the clearest exception. [1] Ericsson's reply to the meta-analyses, in 2016 and again with Kyle Harwell in 2019, was that they had counted the wrong thing. [7] [10] The pooled studies had summed up virtually any activity in the domain: team practice, group activities, hours in lectures and seminars, play and competition, even watching the sport on television. By the 1993 definition most of those hours aren't deliberate practice, so the meta-analysis measured a mixture and reported that the mixture explains little. On this view, 20–30% is a floor produced by counting activities that don't meet the definition, not an estimate of what deliberate practice can do; and the studies that could show more are rare because practice of that kind is rare.

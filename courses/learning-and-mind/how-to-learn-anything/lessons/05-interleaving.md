@@ -123,27 +123,28 @@ Spherical cone. The circular base rules out the wedge and the spheroid; the roun
 
 Compare the blocked student. For the first quarter of the sheet every problem was a wedge, so step one never happened; the heading did it. Read the numbers with lesson 1's vocabulary. The 89% was retrieval strength: the formula was sitting at the front of the mind because the last nine problems had used it. The test a week later measured the two things blocked practice had never trained, identifying the solid and pulling the matching formula out of a full set. The interleaved student had done that on every single problem, which is why their practice score was lower and their test score three times higher. Here are the four numbers side by side; the reversal between the two panels is the whole finding:
 
-<svg viewBox="0 0 584 330" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:584px;display:block;margin:1.5em auto;font-family:system-ui,sans-serif" role="img" aria-labelledby="rt-title rt-desc">
+<svg viewBox="0 0 420 352" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:420px;display:block;margin:1.5em auto;font-family:system-ui,sans-serif" role="img" aria-labelledby="rt-title rt-desc">
   <title id="rt-title">Rohrer and Taylor: blocked practice wins the session, interleaved practice wins the week</title>
   <desc id="rt-desc">A grouped bar chart with two clusters. During practice, the blocked group scored 89 percent and the interleaved group 60 percent. On the test a week later, the blocked group scored 20 percent and the interleaved group 63 percent. The blocked bars collapse between the clusters while the interleaved bars barely move.</desc>
-  <text x="20" y="22" font-size="17" font-weight="700" fill="var(--text, #1a1a1a)">Accuracy on the volume problems</text>
-  <rect x="20" y="38" width="15" height="15" fill="var(--oxblood, #8b1e2d)"/>
-  <text x="42" y="51" font-size="15" fill="var(--text, #1a1a1a)">Blocked</text>
-  <rect x="140" y="38" width="15" height="15" fill="var(--navy, #0f2a4a)"/>
-  <text x="162" y="51" font-size="15" fill="var(--text, #1a1a1a)">Interleaved</text>
-  <rect x="90" y="72" width="70" height="178" fill="var(--oxblood, #8b1e2d)"/>
-  <rect x="170" y="130" width="70" height="120" fill="var(--navy, #0f2a4a)"/>
-  <rect x="340" y="210" width="70" height="40" fill="var(--oxblood, #8b1e2d)"/>
-  <rect x="420" y="124" width="70" height="126" fill="var(--navy, #0f2a4a)"/>
-  <text x="125" y="64" font-size="15" font-weight="700" text-anchor="middle" fill="var(--oxblood, #8b1e2d)">89%</text>
-  <text x="205" y="122" font-size="15" font-weight="700" text-anchor="middle" fill="var(--navy, #0f2a4a)">60%</text>
-  <text x="375" y="202" font-size="15" font-weight="700" text-anchor="middle" fill="var(--oxblood, #8b1e2d)">20%</text>
-  <text x="455" y="116" font-size="15" font-weight="700" text-anchor="middle" fill="var(--navy, #0f2a4a)">63%</text>
-  <line x1="40" y1="250" x2="564" y2="250" stroke="var(--line, #d9d9d9)" stroke-width="2"/>
-  <text x="165" y="274" font-size="15" text-anchor="middle" fill="var(--text, #1a1a1a)">During practice</text>
-  <text x="415" y="274" font-size="15" text-anchor="middle" fill="var(--text, #1a1a1a)">Test one week later</text>
-  <text x="20" y="302" font-size="15" fill="var(--text-2, #4a5260)">Data: Rohrer and Taylor (2007), experiment 2. Eighteen students,</text>
-  <text x="20" y="322" font-size="15" fill="var(--text-2, #4a5260)">identical problems in a different order.</text>
+  <text x="14.4" y="22" font-size="17" font-weight="700" fill="var(--text, #1a1a1a)">Accuracy on the volume problems</text>
+  <rect x="14.4" y="31" width="10.8" height="15" fill="var(--oxblood, #8b1e2d)"/>
+  <text x="30.2" y="44" font-size="15" fill="var(--text, #1a1a1a)">Blocked</text>
+  <rect x="100.7" y="31" width="10.8" height="15" fill="var(--navy, #0f2a4a)"/>
+  <text x="116.5" y="44" font-size="15" fill="var(--text, #1a1a1a)">Interleaved</text>
+  <rect x="64.7" y="72" width="50.3" height="178" fill="var(--oxblood, #8b1e2d)"/>
+  <rect x="122.3" y="130" width="50.3" height="120" fill="var(--navy, #0f2a4a)"/>
+  <rect x="244.5" y="210" width="50.3" height="40" fill="var(--oxblood, #8b1e2d)"/>
+  <rect x="302.1" y="124" width="50.3" height="126" fill="var(--navy, #0f2a4a)"/>
+  <text x="89.9" y="64" font-size="15" font-weight="700" text-anchor="middle" fill="var(--oxblood, #8b1e2d)">89%</text>
+  <text x="147.4" y="122" font-size="15" font-weight="700" text-anchor="middle" fill="var(--navy, #0f2a4a)">60%</text>
+  <text x="269.7" y="202" font-size="15" font-weight="700" text-anchor="middle" fill="var(--oxblood, #8b1e2d)">20%</text>
+  <text x="327.2" y="116" font-size="15" font-weight="700" text-anchor="middle" fill="var(--navy, #0f2a4a)">63%</text>
+  <line x1="28.8" y1="250" x2="405.6" y2="250" stroke="var(--line, #d9d9d9)" stroke-width="2"/>
+  <text x="118.7" y="274" font-size="15" text-anchor="middle" fill="var(--text, #1a1a1a)">During practice</text>
+  <text x="298.5" y="274" font-size="15" text-anchor="middle" fill="var(--text, #1a1a1a)">Test one week later</text>
+  <text x="14.4" y="302" font-size="15" fill="var(--text-2, #4a5260)">Rohrer and Taylor (2007), experiment 2.</text>
+  <text x="14.4" y="320" font-size="15" fill="var(--text-2, #4a5260)">Eighteen students, identical problems</text>
+  <text x="14.4" y="338" font-size="15" fill="var(--text-2, #4a5260)">in a different order.</text>
 </svg>
 
 ## A harder example: the painters

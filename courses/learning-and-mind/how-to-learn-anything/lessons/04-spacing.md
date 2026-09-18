@@ -88,29 +88,30 @@ Here are the four horizons they tested and the gap that produced the best recall
 
 The fitted curve put the one-year optimum at 23 days, or 7% of the horizon.[3] The same four rows as a picture:
 
-<svg viewBox="0 0 584 322" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:584px;display:block;margin:1.5em auto;font-family:system-ui,sans-serif" role="img" aria-labelledby="cep-title cep-desc">
+<svg viewBox="0 0 420 350" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:420px;display:block;margin:1.5em auto;font-family:system-ui,sans-serif" role="img" aria-labelledby="cep-title cep-desc">
   <title id="cep-title">The best first gap grows with the horizon, but not in proportion</title>
   <desc id="cep-desc">A bar chart with four bars. For a test 7 days away the best gap was 1 day, about 14 percent of the horizon. For 35 days, 11 days, about 31 percent. For 70 days, 21 days, about 30 percent. For 350 days, 21 days, about 6 percent. The bars rise steeply and then level off.</desc>
-  <text x="20" y="22" font-size="17" font-weight="700" fill="var(--text, #1a1a1a)">Best gap between the two study sessions</text>
-  <rect x="65" y="223" width="90" height="7" fill="var(--navy, #0f2a4a)"/>
-  <rect x="195" y="153" width="90" height="77" fill="var(--navy, #0f2a4a)"/>
-  <rect x="325" y="83" width="90" height="147" fill="var(--navy, #0f2a4a)"/>
-  <rect x="455" y="83" width="90" height="147" fill="var(--navy, #0f2a4a)"/>
-  <text x="110" y="213" font-size="15" font-weight="700" text-anchor="middle" fill="var(--navy, #0f2a4a)">1 day</text>
-  <text x="240" y="143" font-size="15" font-weight="700" text-anchor="middle" fill="var(--navy, #0f2a4a)">11 days</text>
-  <text x="370" y="73" font-size="15" font-weight="700" text-anchor="middle" fill="var(--navy, #0f2a4a)">21 days</text>
-  <text x="500" y="73" font-size="15" font-weight="700" text-anchor="middle" fill="var(--navy, #0f2a4a)">21 days</text>
-  <line x1="40" y1="230" x2="564" y2="230" stroke="var(--line, #d9d9d9)" stroke-width="2"/>
-  <text x="110" y="252" font-size="15" text-anchor="middle" fill="var(--text, #1a1a1a)">7 days</text>
-  <text x="240" y="252" font-size="15" text-anchor="middle" fill="var(--text, #1a1a1a)">35 days</text>
-  <text x="370" y="252" font-size="15" text-anchor="middle" fill="var(--text, #1a1a1a)">70 days</text>
-  <text x="500" y="252" font-size="15" text-anchor="middle" fill="var(--text, #1a1a1a)">350 days</text>
-  <text x="110" y="272" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">(14%)</text>
-  <text x="240" y="272" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">(31%)</text>
-  <text x="370" y="272" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">(30%)</text>
-  <text x="500" y="272" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">(6%)</text>
-  <text x="302" y="296" font-size="15" text-anchor="middle" fill="var(--text, #1a1a1a)">Time until the test, with the gap as a share of it</text>
-  <text x="20" y="318" font-size="15" fill="var(--text-2, #4a5260)">Data: Cepeda and colleagues (2008), best gap tested per horizon.</text>
+  <text x="14.4" y="22" font-size="17" font-weight="700" fill="var(--text, #1a1a1a)">Best gap between the two study sessions</text>
+  <rect x="46.7" y="223" width="64.7" height="7" fill="var(--navy, #0f2a4a)"/>
+  <rect x="140.2" y="153" width="64.7" height="77" fill="var(--navy, #0f2a4a)"/>
+  <rect x="233.7" y="83" width="64.7" height="147" fill="var(--navy, #0f2a4a)"/>
+  <rect x="327.2" y="83" width="64.7" height="147" fill="var(--navy, #0f2a4a)"/>
+  <text x="79.1" y="213" font-size="15" font-weight="700" text-anchor="middle" fill="var(--navy, #0f2a4a)">1 day</text>
+  <text x="172.6" y="143" font-size="15" font-weight="700" text-anchor="middle" fill="var(--navy, #0f2a4a)">11 days</text>
+  <text x="266.1" y="73" font-size="15" font-weight="700" text-anchor="middle" fill="var(--navy, #0f2a4a)">21 days</text>
+  <text x="359.6" y="73" font-size="15" font-weight="700" text-anchor="middle" fill="var(--navy, #0f2a4a)">21 days</text>
+  <line x1="28.8" y1="230" x2="405.6" y2="230" stroke="var(--line, #d9d9d9)" stroke-width="2"/>
+  <text x="79.1" y="252" font-size="15" text-anchor="middle" fill="var(--text, #1a1a1a)">7 days</text>
+  <text x="172.6" y="252" font-size="15" text-anchor="middle" fill="var(--text, #1a1a1a)">35 days</text>
+  <text x="266.1" y="252" font-size="15" text-anchor="middle" fill="var(--text, #1a1a1a)">70 days</text>
+  <text x="359.6" y="252" font-size="15" text-anchor="middle" fill="var(--text, #1a1a1a)">350 days</text>
+  <text x="79.1" y="272" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">(14%)</text>
+  <text x="172.6" y="272" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">(31%)</text>
+  <text x="266.1" y="272" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">(30%)</text>
+  <text x="359.6" y="272" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">(6%)</text>
+  <text x="217.2" y="296" font-size="15" text-anchor="middle" fill="var(--text, #1a1a1a)">Time until the test, with the gap as a share of it</text>
+  <text x="14.4" y="318" font-size="15" fill="var(--text-2, #4a5260)">Cepeda and colleagues (2008),</text>
+  <text x="14.4" y="336" font-size="15" fill="var(--text-2, #4a5260)">best gap tested per horizon.</text>
 </svg>
 
 Two things to take from the table. The best gap gets longer as the horizon lengthens, from a day to three weeks. And the share isn't constant: it's about a seventh for a week, closer to a third for a month or two, and back down to a sixteenth for a year. There is no single percentage that fits every row.

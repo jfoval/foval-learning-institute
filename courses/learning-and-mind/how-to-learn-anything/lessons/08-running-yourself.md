@@ -126,29 +126,30 @@ About r = 0.07.[12] Sleep quality did slightly better (r of about 0.10) and dayt
 
 Read that number for what it is. It's a between-person correlation across children who mostly sleep roughly enough, so it says the differences in their hours don't track grades much. It's the wrong number for "does a lost night hurt" and the right number for "is sleep the lever". Numbers this small are hard to feel, so here they are drawn on the full scale a correlation can take:
 
-<svg viewBox="0 0 584 306" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:584px;display:block;margin:1.5em auto;font-family:system-ui,sans-serif" role="img" aria-labelledby="dew-title dew-desc">
+<svg viewBox="0 0 420 328" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:420px;display:block;margin:1.5em auto;font-family:system-ui,sans-serif" role="img" aria-labelledby="dew-title dew-desc">
   <title id="dew-title">Sleep and school performance at actual size: three small correlations on the full minus-one-to-one scale</title>
   <desc id="dew-desc">A chart whose horizontal axis runs from minus one to plus one, a correlation's full range. Three bars sit near the zero line: sleep duration at 0.07, sleep quality at 0.10, and daytime sleepiness at minus 0.13. All three are slivers against the width of the axis.</desc>
-  <text x="20" y="22" font-size="17" font-weight="700" fill="var(--text, #1a1a1a)">Sleep and school grades, at actual size</text>
-  <line x1="42" y1="50" x2="42" y2="222" stroke="var(--line, #d9d9d9)" stroke-width="1"/>
-  <line x1="172" y1="50" x2="172" y2="222" stroke="var(--line, #d9d9d9)" stroke-width="1"/>
-  <line x1="302" y1="50" x2="302" y2="222" stroke="var(--text-2, #4a5260)" stroke-width="1"/>
-  <line x1="432" y1="50" x2="432" y2="222" stroke="var(--line, #d9d9d9)" stroke-width="1"/>
-  <line x1="562" y1="50" x2="562" y2="222" stroke="var(--line, #d9d9d9)" stroke-width="1"/>
-  <text x="48" y="66" font-size="15" fill="var(--text, #1a1a1a)">Sleep duration, r = 0.07</text>
-  <rect x="302" y="74" width="18" height="20" fill="var(--navy, #0f2a4a)"/>
-  <text x="48" y="126" font-size="15" fill="var(--text, #1a1a1a)">Sleep quality, r = 0.10</text>
-  <rect x="302" y="134" width="26" height="20" fill="var(--navy, #0f2a4a)"/>
-  <text x="48" y="186" font-size="15" fill="var(--text, #1a1a1a)">Daytime sleepiness, r = −0.13</text>
-  <rect x="268" y="194" width="34" height="20" fill="var(--oxblood, #8b1e2d)"/>
-  <line x1="42" y1="222" x2="562" y2="222" stroke="var(--line, #d9d9d9)" stroke-width="2"/>
-  <text x="42" y="244" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">−1</text>
-  <text x="172" y="244" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">−0.5</text>
-  <text x="302" y="244" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">0</text>
-  <text x="432" y="244" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">0.5</text>
-  <text x="562" y="244" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">1</text>
-  <text x="302" y="268" font-size="15" text-anchor="middle" fill="var(--text, #1a1a1a)">The full range a correlation can take</text>
-  <text x="20" y="296" font-size="15" fill="var(--text-2, #4a5260)">Data: Dewald and colleagues (2010), 15,199 children and adolescents.</text>
+  <text x="14.4" y="22" font-size="17" font-weight="700" fill="var(--text, #1a1a1a)">Sleep and school grades, at actual size</text>
+  <line x1="30.2" y1="50" x2="30.2" y2="222" stroke="var(--line, #d9d9d9)" stroke-width="1"/>
+  <line x1="123.7" y1="50" x2="123.7" y2="222" stroke="var(--line, #d9d9d9)" stroke-width="1"/>
+  <line x1="217.2" y1="50" x2="217.2" y2="222" stroke="var(--text-2, #4a5260)" stroke-width="1"/>
+  <line x1="310.7" y1="50" x2="310.7" y2="222" stroke="var(--line, #d9d9d9)" stroke-width="1"/>
+  <line x1="404.2" y1="50" x2="404.2" y2="222" stroke="var(--line, #d9d9d9)" stroke-width="1"/>
+  <text x="34.5" y="66" font-size="15" fill="var(--text, #1a1a1a)">Sleep duration, r = 0.07</text>
+  <rect x="217.2" y="74" width="12.9" height="20" fill="var(--navy, #0f2a4a)"/>
+  <text x="34.5" y="126" font-size="15" fill="var(--text, #1a1a1a)">Sleep quality, r = 0.10</text>
+  <rect x="217.2" y="134" width="18.7" height="20" fill="var(--navy, #0f2a4a)"/>
+  <text x="34.5" y="186" font-size="15" fill="var(--text, #1a1a1a)">Daytime sleepiness, r = −0.13</text>
+  <rect x="192.7" y="194" width="24.5" height="20" fill="var(--oxblood, #8b1e2d)"/>
+  <line x1="30.2" y1="222" x2="404.2" y2="222" stroke="var(--line, #d9d9d9)" stroke-width="2"/>
+  <text x="30.2" y="244" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">−1</text>
+  <text x="123.7" y="244" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">−0.5</text>
+  <text x="217.2" y="244" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">0</text>
+  <text x="310.7" y="244" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">0.5</text>
+  <text x="404.2" y="244" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">1</text>
+  <text x="217.2" y="268" font-size="15" text-anchor="middle" fill="var(--text, #1a1a1a)">The full range a correlation can take</text>
+  <text x="14.4" y="296" font-size="15" fill="var(--text-2, #4a5260)">Dewald and colleagues (2010),</text>
+  <text x="14.4" y="314" font-size="15" fill="var(--text-2, #4a5260)">15,199 children and adolescents.</text>
 </svg>
 
 A lost night does hurt, and it hurts attention first. [Lim and Dinges' meta-analysis](https://doi.org/10.1037/a0018883) of 70 studies of short-term sleep deprivation found lapses in simple attention among the largest effects (g of about −0.78), with reasoning accuracy barely moved.[13] So a tired study session is a worse one, mostly because the single-tasking you just read about gets harder.

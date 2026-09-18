@@ -84,33 +84,36 @@ Long-term memory is where everything you know lives, and for practical purposes 
 
 For the kind of learning this course is about, everything has to pass through the small store to reach the large one. That's the bottleneck, and most of what goes wrong in studying goes wrong there. The diagram below is the whole architecture this lesson runs on; keep it in view as you read.
 
-<svg viewBox="0 0 584 302" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:584px;display:block;margin:1.5em auto;font-family:system-ui,sans-serif" role="img" aria-labelledby="wm-title wm-desc">
-  <title id="wm-title">The bottleneck: new material passes through a small working memory to reach an unlimited long-term memory</title>
-  <desc id="wm-desc">Three boxes in a row. New material flows into working memory, a small box labelled about four chunks of new material, held for seconds. An arrow labelled thinking about meaning carries material from working memory into long-term memory, a large box labelled everything you know, no practical limit. A return arrow underneath shows stored chunks coming back to working memory as single units.</desc>
-  <text x="20" y="22" font-size="17" font-weight="700" fill="var(--text, #1a1a1a)">Two memories, one bottleneck</text>
-  <rect x="20" y="60" width="120" height="90" rx="6" fill="none" stroke="var(--text-2, #4a5260)" stroke-width="2"/>
-  <text x="80" y="95" font-size="15" text-anchor="middle" fill="var(--text, #1a1a1a)">New</text>
-  <text x="80" y="115" font-size="15" text-anchor="middle" fill="var(--text, #1a1a1a)">material</text>
-  <line x1="140" y1="105" x2="182" y2="105" stroke="var(--text-2, #4a5260)" stroke-width="2"/>
-  <path d="M182 105 l-9 -5 v10 z" fill="var(--text-2, #4a5260)"/>
-  <rect x="184" y="60" width="150" height="90" rx="6" fill="none" stroke="var(--oxblood, #8b1e2d)" stroke-width="3"/>
-  <text x="259" y="85" font-size="15" font-weight="700" text-anchor="middle" fill="var(--oxblood, #8b1e2d)">Working memory</text>
-  <text x="259" y="107" font-size="15" text-anchor="middle" fill="var(--text, #1a1a1a)">~4 chunks of new</text>
-  <text x="259" y="127" font-size="15" text-anchor="middle" fill="var(--text, #1a1a1a)">material, for seconds</text>
-  <line x1="334" y1="105" x2="376" y2="105" stroke="var(--text-2, #4a5260)" stroke-width="2"/>
-  <path d="M376 105 l-9 -5 v10 z" fill="var(--text-2, #4a5260)"/>
-  <text x="374" y="34" font-size="15" text-anchor="end" fill="var(--text-2, #4a5260)">thinking about</text>
-  <text x="374" y="52" font-size="15" text-anchor="end" fill="var(--text-2, #4a5260)">meaning</text>
-  <rect x="378" y="40" width="186" height="130" rx="6" fill="none" stroke="var(--navy, #0f2a4a)" stroke-width="3"/>
-  <text x="471" y="85" font-size="15" font-weight="700" text-anchor="middle" fill="var(--navy, #0f2a4a)">Long-term memory</text>
-  <text x="471" y="107" font-size="15" text-anchor="middle" fill="var(--text, #1a1a1a)">everything you know,</text>
-  <text x="471" y="127" font-size="15" text-anchor="middle" fill="var(--text, #1a1a1a)">no practical limit</text>
-  <path d="M440 170 v34 h-200 v-34" fill="none" stroke="var(--gold, #b08d2a)" stroke-width="2"/>
-  <path d="M240 174 l-5 9 h10 z" fill="var(--gold, #b08d2a)"/>
-  <text x="340" y="224" font-size="15" text-anchor="middle" fill="var(--text, #1a1a1a)">stored chunks come back as single units,</text>
-  <text x="340" y="244" font-size="15" text-anchor="middle" fill="var(--text, #1a1a1a)">without spending a slot on each part</text>
-  <text x="20" y="280" font-size="15" fill="var(--text-2, #4a5260)">The two-store picture cognitive load theory is built on (Sweller;</text>
-  <text x="20" y="298" font-size="15" fill="var(--text-2, #4a5260)">capacity estimate from Cowan 2001). Sizes not to scale.</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 436" width="100%" style="max-width:420px;display:block;margin:1.5em auto;font-family:system-ui,sans-serif" role="img" aria-labelledby="wm-title wm-desc">
+<title id="wm-title">The bottleneck: new material passes through a small working memory to reach an unlimited long-term memory</title>
+<desc id="wm-desc">Three boxes stacked top to bottom. New material flows down into working memory, a small box labelled about four chunks of new material, held for seconds. An arrow labelled thinking about meaning carries material down from working memory into long-term memory, a large box labelled everything you know, no practical limit. A return arrow up the right-hand side shows stored chunks coming back to working memory as single units, without spending a slot on each part.</desc>
+<text x="14" y="24" font-size="16" font-weight="700" fill="var(--text, #111418)">Two memories, one bottleneck</text>
+<rect x="14" y="44" width="250" height="44" rx="6" fill="none" stroke="var(--text-2, #4a5260)" stroke-width="2"/>
+<text x="139" y="72" font-size="15" text-anchor="middle" fill="var(--text, #111418)">New material</text>
+<line x1="139" y1="88" x2="139" y2="112" stroke="var(--text-2, #4a5260)" stroke-width="2"/>
+<path d="M 139 118 l -5 -8 h 10 z" fill="var(--text-2, #4a5260)"/>
+<rect x="14" y="120" width="250" height="76" rx="6" fill="none" stroke="var(--oxblood, #8b1e2d)" stroke-width="3"/>
+<text x="139" y="146" font-size="15" font-weight="700" text-anchor="middle" fill="var(--oxblood, #8b1e2d)">Working memory</text>
+<text x="139" y="167" font-size="15" text-anchor="middle" fill="var(--text, #111418)">about 4 chunks of new</text>
+<text x="139" y="186" font-size="15" text-anchor="middle" fill="var(--text, #111418)">material, for seconds</text>
+<line x1="139" y1="196" x2="139" y2="228" stroke="var(--text-2, #4a5260)" stroke-width="2"/>
+<path d="M 139 234 l -5 -8 h 10 z" fill="var(--text-2, #4a5260)"/>
+<text x="128" y="212" font-size="15" text-anchor="end" fill="var(--text-2, #4a5260)">thinking</text>
+<text x="128" y="231" font-size="15" text-anchor="end" fill="var(--text-2, #4a5260)">about meaning</text>
+<rect x="14" y="236" width="250" height="76" rx="6" fill="none" stroke="var(--navy, #0f2a4a)" stroke-width="3"/>
+<text x="139" y="262" font-size="15" font-weight="700" text-anchor="middle" fill="var(--navy, #0f2a4a)">Long-term memory</text>
+<text x="139" y="283" font-size="15" text-anchor="middle" fill="var(--text, #111418)">everything you know,</text>
+<text x="139" y="302" font-size="15" text-anchor="middle" fill="var(--text, #111418)">no practical limit</text>
+<path d="M 264 274 h 40 v -116 h -34" fill="none" stroke="var(--gold, #b08d2a)" stroke-width="2"/>
+<path d="M 264 158 l 8 -5 v 10 z" fill="var(--gold, #b08d2a)"/>
+<text x="312" y="212" font-size="15" fill="var(--text, #111418)">stored</text>
+<text x="312" y="231" font-size="15" fill="var(--text, #111418)">chunks</text>
+<text x="312" y="250" font-size="15" fill="var(--text, #111418)">return</text>
+<text x="14" y="340" font-size="15" fill="var(--text, #111418)">A stored chunk comes back as a single unit,</text>
+<text x="14" y="359" font-size="15" fill="var(--text, #111418)">without spending a slot on each of its parts.</text>
+<text x="14" y="392" font-size="15" fill="var(--text-2, #4a5260)">The two-store picture cognitive load theory</text>
+<text x="14" y="410" font-size="15" fill="var(--text-2, #4a5260)">is built on (Sweller; capacity estimate from</text>
+<text x="14" y="428" font-size="15" fill="var(--text-2, #4a5260)">Cowan 2001). Sizes not to scale.</text>
 </svg>
 
 How small is small? You've probably heard the number seven. [George Miller's 1956 paper](https://psychclassics.yorku.ca/Miller/), one of the most cited in psychology and free to read, put the limit at "seven, plus or minus two".[2]

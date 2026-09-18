@@ -139,34 +139,29 @@ In 1985 the advantage ran out on problems that used the same moves in a differen
 
 **Stage 4: fade.** After a few rounds, complete worked examples stop helping, and Kalyuga's effect says they start to cost. Move to completion problems: a solution with one or two steps blanked out for you to fill in. Then problems alone. Then mixed problems of several types, which is lesson 5's interleaving arriving on schedule. Guidance goes from full, to partial, to none.
 
-<svg viewBox="0 0 584 240" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:584px;display:block;margin:1.5em auto;font-family:system-ui,sans-serif" role="img" aria-labelledby="fade-title fade-desc">
-  <title id="fade-title">Fading the guidance: worked example, completion problem, problems alone, mixed problems</title>
-  <desc id="fade-desc">Four boxes in a row joined by arrows. Worked example, then completion problem with steps blanked, then problems alone, then mixed problem types. Under the arrows a rule reads: move right after three correct in a row; a stall means step back left.</desc>
-  <text x="20" y="22" font-size="17" font-weight="700" fill="var(--text, #1a1a1a)">Fading the guidance</text>
-  <rect x="20" y="48" width="122" height="76" rx="6" fill="none" stroke="var(--oxblood, #8b1e2d)" stroke-width="3"/>
-  <text x="81" y="80" font-size="15" font-weight="700" text-anchor="middle" fill="var(--text, #1a1a1a)">Worked</text>
-  <text x="81" y="100" font-size="15" font-weight="700" text-anchor="middle" fill="var(--text, #1a1a1a)">example</text>
-  <line x1="142" y1="86" x2="160" y2="86" stroke="var(--text-2, #4a5260)" stroke-width="2"/>
-  <path d="M160 86 l-8 -5 v10 z" fill="var(--text-2, #4a5260)"/>
-  <rect x="162" y="48" width="122" height="76" rx="6" fill="none" stroke="var(--gold, #b08d2a)" stroke-width="3"/>
-  <text x="223" y="72" font-size="15" font-weight="700" text-anchor="middle" fill="var(--text, #1a1a1a)">Completion</text>
-  <text x="223" y="92" font-size="15" text-anchor="middle" fill="var(--text, #1a1a1a)">problem, steps</text>
-  <text x="223" y="112" font-size="15" text-anchor="middle" fill="var(--text, #1a1a1a)">blanked out</text>
-  <line x1="284" y1="86" x2="302" y2="86" stroke="var(--text-2, #4a5260)" stroke-width="2"/>
-  <path d="M302 86 l-8 -5 v10 z" fill="var(--text-2, #4a5260)"/>
-  <rect x="304" y="48" width="122" height="76" rx="6" fill="none" stroke="var(--navy, #0f2a4a)" stroke-width="3"/>
-  <text x="365" y="80" font-size="15" font-weight="700" text-anchor="middle" fill="var(--text, #1a1a1a)">Problems</text>
-  <text x="365" y="100" font-size="15" font-weight="700" text-anchor="middle" fill="var(--text, #1a1a1a)">alone</text>
-  <line x1="426" y1="86" x2="444" y2="86" stroke="var(--text-2, #4a5260)" stroke-width="2"/>
-  <path d="M444 86 l-8 -5 v10 z" fill="var(--text-2, #4a5260)"/>
-  <rect x="446" y="48" width="122" height="76" rx="6" fill="none" stroke="var(--navy, #0f2a4a)" stroke-width="3"/>
-  <text x="507" y="72" font-size="15" font-weight="700" text-anchor="middle" fill="var(--text, #1a1a1a)">Mixed types</text>
-  <text x="507" y="92" font-size="15" text-anchor="middle" fill="var(--text, #1a1a1a)">(lesson 5's</text>
-  <text x="507" y="112" font-size="15" text-anchor="middle" fill="var(--text, #1a1a1a)">interleaving)</text>
-  <text x="294" y="156" font-size="15" text-anchor="middle" fill="var(--text, #1a1a1a)">Move one box right after three correct in a row.</text>
-  <text x="294" y="176" font-size="15" text-anchor="middle" fill="var(--text, #1a1a1a)">A problem you cannot start means step back left.</text>
-  <text x="20" y="210" font-size="15" fill="var(--text-2, #4a5260)">The progression the worked-example research supports</text>
-  <text x="20" y="230" font-size="15" fill="var(--text-2, #4a5260)">(Sweller and Cooper 1985; Kalyuga et al. 2003).</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 386" width="100%" style="max-width:420px;display:block;margin:1.5em auto;font-family:system-ui,sans-serif" role="img" aria-labelledby="fade-title fade-desc">
+<title id="fade-title">Fading the guidance: worked example, completion problem, problems alone, mixed problems</title>
+<desc id="fade-desc">Four stages stacked top to bottom, joined by downward arrows. Stage one, a worked example. Stage two, a completion problem with some steps blanked out. Stage three, problems alone. Stage four, mixed problem types, which is lesson 5's interleaving. Below them a rule reads: move down one stage after three correct in a row, and a problem you cannot start means step back up.</desc>
+<text x="14" y="24" font-size="16" font-weight="700" fill="var(--text, #111418)">Fading the guidance</text>
+<rect x="14" y="42" width="290" height="40" rx="6" fill="none" stroke="var(--oxblood, #8b1e2d)" stroke-width="3"/>
+<text x="28" y="67" font-size="15" font-weight="700" fill="var(--text, #111418)">Worked example</text>
+<line x1="60" y1="82" x2="60" y2="98" stroke="var(--text-2, #4a5260)" stroke-width="2"/>
+<path d="M 60 104 l -5 -8 h 10 z" fill="var(--text-2, #4a5260)"/>
+<rect x="14" y="106" width="290" height="40" rx="6" fill="none" stroke="var(--gold, #b08d2a)" stroke-width="3"/>
+<text x="28" y="131" font-size="15" font-weight="700" fill="var(--text, #111418)">Completion problem, steps blanked</text>
+<line x1="60" y1="146" x2="60" y2="162" stroke="var(--text-2, #4a5260)" stroke-width="2"/>
+<path d="M 60 168 l -5 -8 h 10 z" fill="var(--text-2, #4a5260)"/>
+<rect x="14" y="170" width="290" height="40" rx="6" fill="none" stroke="var(--navy, #0f2a4a)" stroke-width="3"/>
+<text x="28" y="195" font-size="15" font-weight="700" fill="var(--text, #111418)">Problems alone</text>
+<line x1="60" y1="210" x2="60" y2="226" stroke="var(--text-2, #4a5260)" stroke-width="2"/>
+<path d="M 60 232 l -5 -8 h 10 z" fill="var(--text-2, #4a5260)"/>
+<rect x="14" y="234" width="290" height="58" rx="6" fill="none" stroke="var(--navy, #0f2a4a)" stroke-width="3"/>
+<text x="28" y="259" font-size="15" font-weight="700" fill="var(--text, #111418)">Mixed problem types</text>
+<text x="28" y="279" font-size="15" fill="var(--text, #111418)">(lesson 5's interleaving)</text>
+<text x="14" y="322" font-size="15" fill="var(--text, #111418)">Move down a stage after three correct in a</text>
+<text x="14" y="341" font-size="15" fill="var(--text, #111418)">row. A problem you cannot start means step</text>
+<text x="14" y="360" font-size="15" fill="var(--text, #111418)">back up.</text>
+<text x="14" y="382" font-size="15" fill="var(--text-2, #4a5260)">Sweller and Cooper 1985; Kalyuga et al. 2003.</text>
 </svg>
 
 When to fade is a decision, and lesson 1 warned you not to make decisions like this by feel. So use a count. Fade one step when you have solved three near-transfer problems in a row without looking at the example; fade the next when the completion problems go three for three; move to varied and mixed problems only after that. This is the same three-correct-recalls criterion that Rawson and Dunlosky set for retrieval practice (lesson 3), applied to guidance. If reading the full solution has started to feel like a chore, that's a prompt to run the test, not the test itself.
