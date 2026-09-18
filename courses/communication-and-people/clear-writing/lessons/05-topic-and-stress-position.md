@@ -1,6 +1,7 @@
 ---
 title: Topic position and stress position
 minutes: 80
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/communication-and-people/clear-writing/05-topic-and-stress-position.mp3
 objectives:
   - Identify the topic position and the stress position of any sentence, and say what a reader does with each
   - Repair a paragraph that reads as a list of unrelated facts, by moving old information to the front of each sentence
