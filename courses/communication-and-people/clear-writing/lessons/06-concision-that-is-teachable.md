@@ -1,6 +1,7 @@
 ---
 title: Concision that is actually teachable
 minutes: 75
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/communication-and-people/clear-writing/06-concision-that-is-teachable.mp3
 objectives:
   - Name the kind of every cut you make, using a fixed list rather than an impression
   - Cut a passage by a third without losing a fact, and say what each cut was
