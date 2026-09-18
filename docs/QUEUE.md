@@ -63,11 +63,17 @@ script, so every script gets it. They only run long and ping-pong, which is tast
 cents. `/make-podcast` says what could be improved and that neither thing blocks a render.
 **Nothing on a course already through Stage 4 is to be re-opened.**
 
-1. **`npm run quiz` lists 18 quizzes tripping the shape heuristic** (option-length spread over 25
+1. **Two lessons do not cite their own sources.** `npm run validate` warns on both, added
+   2026-09-18. **Personal Finance 6 (taxes) has nine sources and not one `[n]` marker in its
+   prose**, so every bracket figure in a tax lesson is uncited to the reader; Python 2 cites one
+   of five. Both are content fixes on published courses and both are standards Part 2. Nine other
+   lessons have one to three uncited entries, which is ordinary and stays under the threshold.
+   Personal Finance 6 is also the worst quiz below, so it earns one visit for both.
+2. **`npm run quiz` lists 18 quizzes tripping the shape heuristic** (option-length spread over 25
    characters, adjacent repeats, unused positions) without being winnable by a reader who read
    nothing. Worst is Personal Finance 6 at a 174-character spread. Decide one thing when it comes
    up: tighten the 18, or raise the threshold and say why. Not both.
-2. **Then the Foval Core in order, one course at a time.**
+3. **Then the Foval Core in order, one course at a time.**
    **Reading Well: lesson 1 of ten is written and through two Stage 4 rounds as of 2026-09-17.**
    It publishes when its ten lessons pass Stage 4, adding `reading-well: 10` to
    `curriculum/audio-debt.yaml` in the same commit. Ten lessons are planned in

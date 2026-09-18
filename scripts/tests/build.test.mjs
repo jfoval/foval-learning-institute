@@ -67,7 +67,7 @@ quiz:
     answer: 1
     explain: The second is right.
 ---
-A paragraph with a [link](https://example.org/one).
+A paragraph with a [link](https://example.org/one).[1]
 
 :::predict What happens next?
 
@@ -218,6 +218,36 @@ test("a new debt line below the course's lesson count is refused", () => {
   const r = check(root);
   assert.equal(r.status, 1, r.out);
   assert.ok(r.out.includes("is not its lesson count"), r.out);
+});
+
+test("a citation marker with no Sources entry fails a published course", () => {
+  const { root, course } = fixture();
+  fs.writeFileSync(path.join(course, "lessons", "01-good.md"), GOOD_LESSON.replace("one).[1]", "one).[7]"));
+  const r = check(root);
+  assert.equal(r.status, 1, r.out);
+  assert.ok(r.out.includes("no such entry"), r.out);
+});
+
+test("a majority of sources never cited warns, and does not fail", () => {
+  const { root, course } = fixture();
+  // Four entries, one marker: three uncited out of four is over half.
+  fs.writeFileSync(path.join(course, "lessons", "01-good.md"),
+    GOOD_LESSON.replace("1. [Example](https://example.org/one).",
+      "1. [Example](https://example.org/one).\n2. Second.\n3. Third.\n4. Fourth."));
+  const r = check(root);
+  assert.equal(r.status, 0, r.out);
+  assert.ok(/3 of 4 sources are never cited/.test(r.out), r.out);
+});
+
+test("one uncited source out of several stays quiet", () => {
+  const { root, course } = fixture();
+  fs.writeFileSync(path.join(course, "lessons", "01-good.md"),
+    GOOD_LESSON.replace("one).[1]", "one).[1][2]")
+               .replace("1. [Example](https://example.org/one).",
+      "1. [Example](https://example.org/one).\n2. Second.\n3. Third."));
+  const r = check(root);
+  assert.equal(r.status, 0, r.out);
+  assert.ok(!/never cited/.test(r.out), r.out);
 });
 
 test("the fixture course validates clean", () => {

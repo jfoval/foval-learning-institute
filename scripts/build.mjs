@@ -795,6 +795,27 @@ function lintLessons() {
           const sourcesAt = body.search(/^## Sources/m);
           const prose = sourcesAt === -1 ? body : body.slice(0, sourcesAt);
           if (!/\]\(https?:\/\//.test(prose)) warn.push(`${file}: no links in the body; 4.5 asks for plain Markdown links in the text, not only in the Sources list`);
+
+          /* Part 2: a marker a reader can click has to resolve, and the Sources list should be
+             what the lesson was written from rather than a reading list bolted on.
+             Two failures, weighted differently. A marker with no entry is broken for a learner,
+             so it fails a published course. A majority of entries never cited means the lesson is
+             not citing what it was written from; that warns, because one or two uncited is
+             ordinary (a source read, listed, and the sentence it supported cut in review) and a
+             warning on every such lesson would be noise nobody reads.
+             Personal Finance 6 had nine sources and not one marker in its prose when this was
+             written, and Python 2 four of five; everything else sat at one to three.
+             Code is stripped first: items[0] and a bracketed year are not citations. Both source
+             conventions in the repo, "1. Author" and "[1] Author", are accepted. */
+          const clean = prose.replace(/```[\s\S]*?```/g, "").replace(/`[^`\n]*`/g, "");
+          const cited = new Set([...clean.matchAll(/\[(\d{1,2})\]/g)].map(m => +m[1]).filter(n => n > 0));
+          const listed = [...new Set([...(sourcesAt === -1 ? "" : body.slice(sourcesAt)).matchAll(/^(?:\[(\d{1,2})\]|(\d{1,2})\.)\s/gm)].map(m => +(m[1] ?? m[2])))];
+          if (listed.length) {
+            const dangling = [...cited].filter(n => !listed.includes(n)).sort((a, b) => a - b);
+            if (dangling.length) fail(`${file}: the prose cites [${dangling.join("], [")}] but the Sources list has no such entry. A marker a reader can click has to resolve.`);
+            const uncited = listed.filter(n => !cited.has(n));
+            if (uncited.length > listed.length / 2) warn.push(`${file}: ${uncited.length} of ${listed.length} sources are never cited in the prose (${uncited.join(", ")}). Standards Part 2: cite what the lesson was written from, or drop the entry.`);
+          }
         }
       }
     }
