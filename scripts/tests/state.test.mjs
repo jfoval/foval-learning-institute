@@ -141,3 +141,38 @@ test("a drafting course with both research files is sent to drafting", () => {
   const out = run(root);
   assert.match(out, /draft-lesson/);
 });
+
+/* The budget block is the only thing that tells John his own money has run out, and two of its
+   lines were silent. The "CAP IS SPENT" banner sat after an early `return` from 2026-09-09 to
+   2026-09-19 and never ran once, including through the month a runaway retry loop ate $23.39 of a
+   $30 cap. And what it costs to clear the debt was derivable from two numbers printed elsewhere,
+   so nobody derived it and he had to ask. Both are cheap to lose again and neither would show up
+   as a failure anywhere else: the script exits 0 either way. */
+test("when the cap is spent, the banner telling John to raise it actually prints", () => {
+  const out = run(tree({ budget: { monthlyCapUSD: 0.1, incidents: [] } }));
+  assert.match(out, /THE CAP IS SPENT/);
+  assert.match(out, /aistudio\.google\.com\/spend/);
+});
+
+test("with headroom, the banner does not print", () => {
+  const out = run(tree({ budget: { monthlyCapUSD: 500, incidents: [] } }));
+  assert.doesNotMatch(out, /THE CAP IS SPENT/);
+  assert.doesNotMatch(out, /Running low/);
+});
+
+test("an incident in budget.json is counted against the cap, so it can spend it on its own", () => {
+  const out = run(tree({ budget: { monthlyCapUSD: 30, incidents: [{ month: new Date().toISOString().slice(0, 7), amountUSD: 29.95, what: "A test incident." }] } }));
+  assert.match(out, /THE CAP IS SPENT/);
+  assert.match(out, /not production: \$29\.95/);
+});
+
+test("the budget block says what it costs to clear the whole audio debt", () => {
+  const out = run(tree({ lessons: 3, audioFor: [] }));
+  assert.match(out, /TO BE DONE: 3 episode\(s\) owed across 1 course\(s\)/);
+  assert.match(out, /clears every one of them/);
+});
+
+test("with nothing owed, the to-be-done line is absent rather than printing zero", () => {
+  const out = run(tree({ lessons: 3, scriptsFor: [1, 2, 3], audioFor: [1, 2, 3] }));
+  assert.doesNotMatch(out, /TO BE DONE/);
+});

@@ -34,6 +34,8 @@ These fail or warn automatically. Nobody has to remember them.
 | An `audio:` stamp with no fact-checked script beside it | `npm run validate` | |
 | Whether a course is *written*: a script counts only with a `checked:` entry | `npm run validate`, `npm run state` | Both counted script files until 2026-09-18, so a course with an unchecked draft beside every lesson reported as written and `npm run state` moved the session on to the next course |
 | The next action names a stage the course is actually ready for | `npm run state` | Stage 1 then Stage 2 then drafting. It tracked `OUTLINE.md` and never looked at it, so on 2026-09-19 it told a session to draft lesson 1 of a course that had only been researched |
+| John is told when his Gemini cap is spent | `npm run state` | The banner sat after an early `return` from 2026-09-09 to 2026-09-19 and never ran, through the month an accident ate $23.39 of a $30 cap. Tested |
+| What it costs to clear the whole audio debt | `npm run state` | One rate measured from the render manifests, used by the per-course column, the outstanding total and the budget block. It was hardcoded at $0.22 in three places against a measured $0.24 |
 | Script coverage per published course | `npm run validate` | One summary line, never a failure |
 | The lints themselves still fire | `npm test` | One fixture per check |
 | The spend guards in `podcast.mjs` | `npm test` | Added 2026-09-18 |

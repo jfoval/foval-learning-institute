@@ -21,6 +21,34 @@ const read = p => fs.readFileSync(p, "utf8");
 const dirs = p => { try { return fs.readdirSync(p, { withFileTypes: true }).filter(d => d.isDirectory()).map(d => d.name); } catch { return []; } };
 const files = (p, ext) => { try { return fs.readdirSync(p).filter(f => f.endsWith(ext)).sort(); } catch { return []; } };
 
+/* What a render actually costs, measured from the manifests rather than remembered. The figure
+   0.22 was written into four places in this file against a measured 0.237, so the per-course
+   column, the "outstanding" total and the budget block each quoted a slightly different price for
+   the same thing. One walk, one rate, used everywhere. audio-out/ is git-ignored, so a fresh clone
+   has no manifests and falls back to the old constant. */
+const MONTH_KEY = new Date().toISOString().slice(0, 7);
+const SPEND = (function renders() {
+  const work = path.join(ROOT, "audio-out", "work");
+  const r = { month: 0, monthAttempts: 0, all: 0, attempts: 0 };
+  if (!fs.existsSync(work)) return r;
+  (function walk(d) {
+    for (const e of fs.readdirSync(d, { withFileTypes: true })) {
+      const f = path.join(d, e.name);
+      if (e.isDirectory()) { walk(f); continue; }
+      if (e.name !== "manifest.json") continue;
+      let m; try { m = JSON.parse(fs.readFileSync(f, "utf8")); } catch { continue; }
+      for (const a of m.attempts || []) {
+        const b = Number(a.billed) || 0;
+        r.all += b; r.attempts++;
+        if (String(a.sent || "").slice(0, 7) === MONTH_KEY) { r.month += b; r.monthAttempts++; }
+      }
+    }
+  })(work);
+  return r;
+})();
+const EACH = SPEND.attempts ? SPEND.all / SPEND.attempts : 0.22;
+
+
 const TERMS = (() => {
   try {
     const cp = yaml.load(read(path.join(ROOT, "curriculum", "core-path.yaml"))) || {};
@@ -83,7 +111,7 @@ for (const c of courses) {
       ? `/draft-lesson courses/${c.school}/${c.id} ${c.lessons + 1}   (of however many research/OUTLINE.md plans; publish at the last one)` :
     c.noReview.length ? `/review-lesson courses/${c.school}/${c.id} ${n(c.noReview[0])}   (no review file; ${c.noReview.length} unfiled)` :
     c.noScript.length ? `/make-podcast ${lesson(c.noScript[0])}   (script only, free, ${c.noScript.length} to go)` :
-    c.noEpisode.length ? `node scripts/podcast.mjs render ${lesson(c.noEpisode[0])} --go   ($0.22, ${c.noEpisode.length} to go)` :
+    c.noEpisode.length ? `node scripts/podcast.mjs render ${lesson(c.noEpisode[0])} --go   ($${EACH.toFixed(2)}, ${c.noEpisode.length} to go)` :
     "finished";
 }
 
@@ -100,14 +128,14 @@ console.log(`\nSTATE OF THE INSTITUTE   ${new Date().toISOString().slice(0, 10)}
 console.log(pad("COURSE", 24) + pad("T", 3) + pad("STATE", 11) + pad("LESSON", 7) + pad("REVFILE", 8) + pad("SCRIPT", 7) + pad("EPISODE", 8) + pad("AVG WORDS", 10) + "TO RENDER");
 for (const c of courses) {
   console.log(pad(c.id, 24) + pad(c.term ?? "-", 3) + pad(state(c), 11) + pad(c.lessons, 7) +
-    pad(`${c.reviewed}`, 8) + pad(`${c.scripts}`, 7) + pad(`${c.episodes}`, 8) + pad(c.words, 10) + (c.status === "published" && c.noEpisode.length ? `$${(c.noEpisode.length * 0.22).toFixed(2)}` : "-"));
+    pad(`${c.reviewed}`, 8) + pad(`${c.scripts}`, 7) + pad(`${c.episodes}`, 8) + pad(c.words, 10) + (c.status === "published" && c.noEpisode.length ? `$${(c.noEpisode.length * EACH).toFixed(2)}` : "-"));
 }
 
 const live = courses.filter(c => c.status === "published");
 const sum = (a, k) => a.reduce((n, c) => n + c[k], 0);
 console.log(`\n${live.length} published, ${courses.length - live.length} in progress. ` +
   `${sum(live, "lessons")} live lessons. Scripts ${sum(live, "scripts")}/${sum(live, "lessons")} (free). ` +
-  `Episodes ${sum(live, "episodes")}/${sum(live, "lessons")} (about $${((sum(live, "lessons") - sum(live, "episodes")) * 0.22).toFixed(2)} outstanding).`);
+  `Episodes ${sum(live, "episodes")}/${sum(live, "lessons")} (about $${((sum(live, "lessons") - sum(live, "episodes")) * EACH).toFixed(2)} outstanding).`);
 
 console.log(`\nREVFILE counts review files at research/reviews/<lesson>.md. A lesson can have been reviewed`);
 console.log(`without one: Logic 9 and 10 were (commits 0258956, e0832bb) but their findings went into`);
@@ -122,7 +150,7 @@ console.log(`              FINISHED  = + every lesson has an episode (costs mone
    only to be told when it runs out; this is what tells him. The previous version of this number
    lived in a sentence in docs/PODCAST_PIPELINE.md and was stale the day after it was written. */
 function budget() {
-  let cap = null, prior = {}, out = null;
+  let cap = null, prior = {};
   try {
     const b = JSON.parse(fs.readFileSync(path.join(ROOT, "scripts", "podcast", "budget.json"), "utf8"));
     cap = b.monthlyCapUSD; prior = b.incidents || [];
@@ -130,23 +158,8 @@ function budget() {
   // audio-out/ is git-ignored, so a fresh clone has none until its first render. That is zero spend
   // recorded locally, not "no budget": bailing here meant a second working copy would never be told
   // it could render. Incidents in budget.json still count, because they are committed.
-  const work = path.join(ROOT, "audio-out", "work");
-  const haveWork = fs.existsSync(work);
-  const now = new Date(), key = now.toISOString().slice(0, 7);
-  let month = 0, all = 0, attempts = 0, monthAttempts = 0;
-  if (haveWork) (function walk(d) {
-    for (const e of fs.readdirSync(d, { withFileTypes: true })) {
-      const p = path.join(d, e.name);
-      if (e.isDirectory()) { walk(p); continue; }
-      if (e.name !== "manifest.json") continue;
-      let m; try { m = JSON.parse(fs.readFileSync(p, "utf8")); } catch { continue; }
-      for (const a of m.attempts || []) {
-        const b = Number(a.billed) || 0;
-        all += b; attempts++;
-        if (String(a.sent || "").slice(0, 7) === key) { month += b; monthAttempts++; }
-      }
-    }
-  })(work);
+  const key = MONTH_KEY;
+  const { month, all, attempts, monthAttempts } = SPEND;
   /* Accidents are counted against the cap and kept out of the cost of an episode. September
      carries about $23.39 from a runaway retry loop on 2026-09-17: a session wrapped a render in a
      retry, each attempt timed out locally while Google kept rendering and billing. Google charged
@@ -156,18 +169,26 @@ function budget() {
   const lost = incidents.reduce((n, x) => n + (Number(x.amountUSD) || 0), 0);
   const spent = month + lost;
   const left = cap - spent;
-  const each = monthAttempts ? month / monthAttempts : 0.22;
+  const each = EACH;
   console.log(`
 AUDIO BUDGET  ${key}: $${left.toFixed(2)} left of a $${cap.toFixed(2)} cap, about ${Math.floor(left / (each || 0.22))} more episode(s).`);
   console.log(`              production: $${month.toFixed(2)} over ${monthAttempts} episode(s), $${each.toFixed(2)} each.`);
   if (lost) for (const x of incidents) console.log(`              not production: $${x.amountUSD.toFixed(2)} lost to an accident (${String(x.what).split(".")[0]}). Counts against the cap, never against the cost of an episode.`);
   console.log(`              Headroom, not an allowance: unspent is money John still has. Render only what is owed.`);
   console.log(`              aistudio.google.com/spend is the authority; he raises the cap as he can afford it.`);
-  out = { left, each: each || 0.22 };
   console.log(`              all time, production only: $${all.toFixed(2)} over ${attempts} render(s).`);
-  return out;
+  /* What it costs to be done. Every other figure here is about what has been spent; this is the
+     only one that answers the question John actually has to decide, which is whether to raise the
+     cap. It was derivable from two numbers elsewhere in this output and so nobody ever derived it:
+     on 2026-09-19 a session told him only that the cap was spent, and he had to ask. */
+  const owed = courses.filter(c => c.status === "published").reduce((n, c) => n + c.noEpisode.length, 0);
+  if (owed) console.log(`              TO BE DONE: ${owed} episode(s) owed across ${courses.filter(c => c.status === "published" && c.noEpisode.length).length} course(s). $${(owed * each).toFixed(2)} clears every one of them.`);
+  /* These two lines sat after an early `return` from 2026-09-09 to 2026-09-19 and never once ran.
+     They are the whole mechanism for telling John the cap is spent, and in the month a runaway
+     retry loop ate $23.39 of his $30 they stayed silent. Keep them last and keep them reachable. */
   if (left < each) console.log(`              *** THE CAP IS SPENT. Tell John: raise it at aistudio.google.com/spend, then edit scripts/podcast/budget.json. Rendering will fail until then. ***`);
   else if (left < each * 5) console.log(`              *** Running low: fewer than five episodes left this month. Worth telling John. ***`);
+  return { left, each };
 }
 const money = budget();
 
