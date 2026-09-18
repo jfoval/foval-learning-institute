@@ -1,6 +1,7 @@
 ---
 title: What a letter is
 minutes: 35
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/mathematics/algebra-essentials/01-variables.mp3
 objectives:
   - Say what a letter in algebra stands for, and what it does not stand for
   - Evaluate an expression by substituting a number and doing the arithmetic in the right order
