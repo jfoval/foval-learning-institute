@@ -46,9 +46,14 @@ course in `docs/PODCAST_PIPELINE.md` section 3. Finish a course before starting 
 6. **Python Basics, all six.** Term 6, about $1.31.
 7. **Bible Basics, all twelve.** Term 8, about $2.61. Lesson 2 has a script.
 
-8. **Charts on a phone. 29 left**, all of them viewBox 584 with 15px labels, which render at 8.8px
-   against a 10px floor. The validator names each one, by course: Personal Finance 14, How to Learn
+8. **Charts on a phone. 28 left**, all of them viewBox 584 with 15px labels, which render at 8.8px
+   against a 10px floor. The validator names each one, by course: Personal Finance 13, How to Learn
    Anything 8, Logic and Argument 5, Bible Basics 2.
+   **Two are done and between them cover most of what you will meet.** Bible Basics 9 was a
+   timeline; Personal Finance 1 was a horizontal bar chart, and the move there is the standard phone
+   one: put each category label on its own line above its bar so the bars get the full width, keep
+   the value inside the bar where it fits (`var(--bg)` on the fill colour, which inverts correctly
+   in dark theme), and wrap the source note across lines.
    **Bible Basics 9 is done and is the worked example to copy.** It was the worst at 8.0px. The fix
    was not a font bump: the timeline was rebuilt at viewBox 420 in the house pattern (no `<g>`,
    every size an attribute on its own `<text>`, `var(--token, #literal)` everywhere, a real

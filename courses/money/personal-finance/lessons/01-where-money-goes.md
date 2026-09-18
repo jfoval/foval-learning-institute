@@ -122,31 +122,32 @@ Your buckets need something to stand next to. Here is where the average American
 A third. Housing took 33.4% of the average household's spending in 2024, more than food and transport combined. Most people guess low, because rent or mortgage is one payment and the smaller costs feel more numerous.
 :::
 
-<svg viewBox="0 0 584 350" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:584px;display:block;margin:1.5em auto;font-family:system-ui,sans-serif" role="img" aria-labelledby="ces-title ces-desc">
-  <title id="ces-title">Where the average US household's spending went in 2024</title>
-  <desc id="ces-desc">A horizontal bar chart of US household spending shares in 2024. Housing 33.4 percent, transportation 17.0 percent, everything else 16.3 percent, food 12.9 percent, insurance and pensions 12.5 percent, healthcare 7.9 percent.</desc>
-  <text x="20" y="24" font-size="17" font-weight="700" fill="var(--text, #1a1a1a)">Share of average US household spending, 2024</text>
-  <text x="150" y="66" font-size="15" text-anchor="end" fill="var(--text, #1a1a1a)">Housing</text>
-  <rect x="162" y="52" width="367" height="20" fill="var(--navy, #0f2a4a)"/>
-  <text x="524" y="66" font-size="15" font-weight="700" fill="var(--bg, #ffffff)" text-anchor="end">33.4%</text>
-  <text x="150" y="102" font-size="15" text-anchor="end" fill="var(--text, #1a1a1a)">Transportation</text>
-  <rect x="162" y="88" width="187" height="20" fill="var(--navy, #0f2a4a)"/>
-  <text x="356" y="102" font-size="15" font-weight="700" fill="var(--text, #1a1a1a)">17.0%</text>
-  <text x="150" y="138" font-size="15" text-anchor="end" fill="var(--text, #1a1a1a)">Everything else</text>
-  <rect x="162" y="124" width="179" height="20" fill="var(--text-2, #4a5260)"/>
-  <text x="348" y="138" font-size="15" font-weight="700" fill="var(--text, #1a1a1a)">16.3%</text>
-  <text x="150" y="174" font-size="15" text-anchor="end" fill="var(--text, #1a1a1a)">Food</text>
-  <rect x="162" y="160" width="142" height="20" fill="var(--navy, #0f2a4a)"/>
-  <text x="311" y="174" font-size="15" font-weight="700" fill="var(--text, #1a1a1a)">12.9%</text>
-  <text x="150" y="210" font-size="15" text-anchor="end" fill="var(--text, #1a1a1a)">Insurance, pensions</text>
-  <rect x="162" y="196" width="138" height="20" fill="var(--navy, #0f2a4a)"/>
-  <text x="307" y="210" font-size="15" font-weight="700" fill="var(--text, #1a1a1a)">12.5%</text>
-  <text x="150" y="246" font-size="15" text-anchor="end" fill="var(--text, #1a1a1a)">Healthcare</text>
-  <rect x="162" y="232" width="87" height="20" fill="var(--navy, #0f2a4a)"/>
-  <text x="256" y="246" font-size="15" font-weight="700" fill="var(--text, #1a1a1a)">7.9%</text>
-  <text x="20" y="288" font-size="15" fill="var(--text-2, #4a5260)">Data: US Bureau of Labor Statistics, Consumer Expenditure Survey 2024.</text>
-  <text x="20" y="308" font-size="15" fill="var(--text-2, #4a5260)">Average annual spending per household: $78,535.</text>
-  <text x="20" y="328" font-size="15" fill="var(--text-2, #4a5260)">US data; shares differ elsewhere.</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 444" width="100%" style="max-width:420px;display:block;margin:1.5em auto;font-family:system-ui,sans-serif" role="img" aria-labelledby="ces-title ces-desc">
+<title id="ces-title">Where the average US household's spending went in 2024</title>
+<desc id="ces-desc">A horizontal bar chart of US household spending shares in 2024, one bar per category with its name above it. Housing 33.4 percent, transportation 17.0 percent, everything else 16.3 percent, food 12.9 percent, insurance and pensions 12.5 percent, healthcare 7.9 percent. Housing is about twice transportation and more than four times healthcare.</desc>
+<text x="20" y="24" font-size="16" font-weight="700" fill="var(--text, #111418)">Share of US household spending, 2024</text>
+<text x="20" y="52" font-size="15" fill="var(--text, #111418)">Housing</text>
+<rect x="20" y="59" width="380.0" height="20" fill="var(--navy, #0f2a4a)"/>
+<text x="392.0" y="74" font-size="15" font-weight="700" text-anchor="end" fill="var(--bg, #ffffff)">33.4%</text>
+<text x="20" y="104" font-size="15" fill="var(--text, #111418)">Transportation</text>
+<rect x="20" y="111" width="193.4" height="20" fill="var(--navy, #0f2a4a)"/>
+<text x="205.4" y="126" font-size="15" font-weight="700" text-anchor="end" fill="var(--bg, #ffffff)">17.0%</text>
+<text x="20" y="156" font-size="15" fill="var(--text, #111418)">Everything else</text>
+<rect x="20" y="163" width="185.4" height="20" fill="var(--navy, #0f2a4a)"/>
+<text x="197.4" y="178" font-size="15" font-weight="700" text-anchor="end" fill="var(--bg, #ffffff)">16.3%</text>
+<text x="20" y="208" font-size="15" fill="var(--text, #111418)">Food</text>
+<rect x="20" y="215" width="146.8" height="20" fill="var(--navy, #0f2a4a)"/>
+<text x="158.8" y="230" font-size="15" font-weight="700" text-anchor="end" fill="var(--bg, #ffffff)">12.9%</text>
+<text x="20" y="260" font-size="15" fill="var(--text, #111418)">Insurance, pensions</text>
+<rect x="20" y="267" width="142.2" height="20" fill="var(--navy, #0f2a4a)"/>
+<text x="154.2" y="282" font-size="15" font-weight="700" text-anchor="end" fill="var(--bg, #ffffff)">12.5%</text>
+<text x="20" y="312" font-size="15" fill="var(--text, #111418)">Healthcare</text>
+<rect x="20" y="319" width="89.9" height="20" fill="var(--navy, #0f2a4a)"/>
+<text x="101.9" y="334" font-size="15" font-weight="700" text-anchor="end" fill="var(--bg, #ffffff)">7.9%</text>
+<text x="20" y="370" font-size="15" fill="var(--text-2, #4a5260)">Data: US Bureau of Labor Statistics,</text>
+<text x="20" y="390" font-size="15" fill="var(--text-2, #4a5260)">Consumer Expenditure Survey 2024. Average</text>
+<text x="20" y="410" font-size="15" fill="var(--text-2, #4a5260)">spending per household: $78,535. US data;</text>
+<text x="20" y="430" font-size="15" fill="var(--text-2, #4a5260)">shares differ elsewhere.</text>
 </svg>
 
 Don't treat the chart as a target. It's an average across every household type, and yours may be far from it for good reasons. Its job is to give your own numbers scale: if your housing bucket is 45% of take-home, you now know that's well above typical, and you know which conversation to have with yourself.
