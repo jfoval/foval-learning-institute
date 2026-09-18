@@ -13,7 +13,7 @@ through.
 Rewrite these five lines each session. Nothing else goes in this block.
 
 - **Current course:** Writing Clearly (Stage 4 and voice pass complete; owes nine episodes).
-- **Current lesson:** Algebra Essentials voice pass, lessons 1 to 3 done (2026-09-17); lesson 4 is next.
+- **Current lesson:** Algebra Essentials voice pass, lessons 1 to 4 done (2026-09-17); lesson 5 is next.
 - **Current stage:** episodes, blocked on the Gemini key below. Content work moves to the Algebra Essentials voice pass (queue item 3) meanwhile.
 - **Blocked on:** a Google AI Studio API key from John (`GEMINI_API_KEY` in `.env.local`, billing
   enabled), so Gemini 2.5 Pro TTS and the direct API's `seed` can be tested. John heard the chunked

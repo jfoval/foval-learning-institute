@@ -209,13 +209,13 @@ The starting value is 12 and it is the monthly charge you pay before making a si
 
 The slope of a line is a number, and on its own it means very little. What makes it useful is that it always has units, and the units come from the situation.
 
-For the taxi, the slope is 1.20 **dollars per mile**. For the phone plan it is 0.05 **dollars per minute**. If you plotted the distance a car travels against time, the slope would be **miles per hour**, which is a thing you already know how to think about: speed is a slope.
+For the taxi, the slope is 1.20 *dollars per mile*. For the phone plan it is 0.05 *dollars per minute*. If you plotted the distance a car travels against time, the slope would be *miles per hour*, which is a thing you already know how to think about: speed is a slope.
 
-To find a slope from any two points on a line, take the change in the up-and-down direction and divide by the change in the across direction. From the two marked points on the graph, at two miles the fare is $5.90 and at five miles it is $9.50:
+To find a slope from any two points on a line, take the change in the up-and-down direction and divide by the change in the across direction. The two marked points on the graph are at two miles, where the fare is $5.90, and at five miles, where it is $9.50. Work the slope out from those two points before you open the answer.
 
-change in fare divided by change in miles = `(9.50 - 5.90) / (5 - 2)` = `3.60 / 3` = **1.20 dollars per mile**
-
-Which is the number that was in the equation all along. Any two points on the line give the same answer, and that is what makes the line straight: **the rate is the same everywhere on it.** A relationship where the rate changes as you go is not a straight line, and this course does not cover those.
+:::predict What slope do the two marked points give?
+Change in fare divided by change in miles: `(9.50 - 5.90) / (5 - 2)` = `3.60 / 3` = 1.20 dollars per mile. Which is the number that was in the equation all along.
+::: Any two points on the line give the same answer, and that is what makes the line straight: the rate is the same everywhere on it. A relationship where the rate changes as you go is not a straight line, and this course does not cover those.
 
 :::checkpoint A savings account starts with $20 in it and $5 is added every week, with no interest. Write the equation, and say what the graph of it looks like at week zero and how steeply it climbs.
 `total = 20 + 5w`, where `w` is the number of weeks. At week zero the line is at a height of 20, since that is the money already there. It climbs by 5 dollars per week, so it is five times steeper than a line rising a dollar a week. Notice how little of this is about algebra: the equation is a way of writing down something you could have said in a sentence, and the graph is a way of seeing it.
@@ -242,7 +242,7 @@ Which is the number that was in the equation all along. Any two points on the li
 
 Take `0.04p` off both sides: `180 = 40 + 0.04p`. Take 40 off both: `140 = 0.04p`. Divide by 0.04: `p = 3,500`.
 
-So at three and a half thousand pages the two printers cost the same, and below that the cheap printer wins while above it the expensive one does. That is what solving an equation means when you have a picture: **finding where two lines cross.**
+So at three and a half thousand pages the two printers cost the same, and below that the cheap printer wins while above it the expensive one does. That is what solving an equation means when you have a picture: finding where two lines cross.
 
 :::predict Check that answer before trusting it. What does each printer cost at exactly 3,500 pages?
 The first is `180 + 0.04 × 3500`, which is `180 + 140`, so $320. The second is `40 + 0.08 × 3500`, which is `40 + 280`, so $320 as well. The two agree, so 3,500 is right. This is the same substitution check from lesson 3, and it is worth noticing that it works identically here even though the question arrived as a shopping decision rather than as an equation.
@@ -256,7 +256,7 @@ The first is `180 + 0.04 × 3500`, which is `180 + 140`, so $320. The second is 
 | 2 | $5.60 |
 | 10 | $16.80 |
 
-`fare = 2.80 + 1.40d`, and at five miles that is `2.80 + 7.00`, which is $9.80. Notice that this firm is cheaper than the first one for short trips, because its flag charge is lower, and dearer for long ones, because its rate is higher. The two lines cross somewhere, and finding where is exactly the printer question below.
+`fare = 2.80 + 1.40d`, and at five miles that is `2.80 + 7.00`, which is $9.80. Notice that this firm is cheaper than the first one for short trips, because its flag charge is lower, and dearer for long ones, because its rate is higher. The two lines cross somewhere, and finding where is exactly the printer question above.
 :::
 
 ## What people get wrong
@@ -279,7 +279,7 @@ The first is `180 + 0.04 × 3500`, which is `180 + 140`, so $320. The second is 
 7. Sketch `y = 6 + 2x` for `x` from 0 to 5. Mark the starting value on your sketch, and mark one step of the slope.
 :::
 
-:::checkpoint Answers to the practice set, once you have done all six
+:::checkpoint Answers to the practice set, once you have done all seven
 1. `30 + 22m`, and at six months `30 + 132`, which is $162.
 
 2. Starting value 8, rate 3.
@@ -307,5 +307,5 @@ The last lesson handles two equations at once, and the picture of that is two li
 
 ## Go deeper
 
-- [**OpenStax, *Elementary Algebra 2e*, chapter 4**](https://openstax.org/books/elementary-algebra-2e/pages/4-introduction), free online, on graphing lines, slope and intercepts, with more worked examples.
-- [**Khan Academy, linear equations and graphs**](https://www.khanacademy.org/math/algebra-basics/alg-basics-graphing-lines-and-slope), for practice reading and drawing lines.
+- [OpenStax, *Elementary Algebra 2e*, chapter 4](https://openstax.org/books/elementary-algebra-2e/pages/4-introduction), free online, on graphing lines, slope and intercepts, with more worked examples.
+- [Khan Academy, linear equations and graphs](https://www.khanacademy.org/math/algebra-basics/alg-basics-graphing-lines-and-slope), for practice reading and drawing lines.
