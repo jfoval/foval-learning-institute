@@ -1,0 +1,45 @@
+id: digital-literacy
+title: Digital Literacy
+school: computer-science-and-ai
+subject: Computer Science & AI
+level: Foundation
+status: research
+summary: >-
+  Understand what the machine in front of you is actually doing, run a command without fear, and
+  install, connect and protect things without guessing.
+description: >-
+  Most people use a computer the way you might drive a car you could not open the bonnet of: it
+  works until it does not, and then there is nothing to do but ask someone. This course takes the
+  lid off. It covers where a file really is and why it goes missing, what happens between typing
+  an address and a page appearing, how to run a command at a terminal and read what it says back,
+  how to install software without inviting something in with it, and the handful of security
+  habits that account for most of the difference between people who get compromised and people
+  who do not. It assumes nothing, it is the same on Windows, macOS and Linux where that matters,
+  and it says which of the advice you have heard is evidence-based and which is folklore that
+  survived because it sounds careful.
+outcomes:
+  - >-
+    Say where a file is, move and find things by path rather than by hunting, and explain why a
+    file that "disappeared" usually did not
+  - >-
+    Open a terminal on your own machine, run a command, read its output and its errors, and combine
+    a few commands to do something you could not do by clicking
+  - >-
+    Describe what happens between typing a web address and seeing a page, in enough detail to work
+    out where a connection has failed
+  - >-
+    Install software from a source you have reason to trust, and say what you are trusting and what
+    could go wrong
+  - >-
+    Judge a password, a prompt, a link, or a request for access, and name the attack each habit is
+    defending against
+  - >-
+    Keep your own data alive: back it up, know which copy is the real one, and recover from a failure
+    you have practised
+  - >-
+    Read what a service knows about you, change what it keeps, and weigh convenience against exposure
+    on evidence rather than slogans
+# Term 1 on the Foval Core. Term 6's Python course assumes the terminal half of this one and never
+# teaches it; the scope was widened on 2026-09-18 so the terminal is taught once, five terms earlier.
+prerequisites: []
+sensitive_domain: false

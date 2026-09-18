@@ -154,7 +154,7 @@ The map is deliberately ambitious. Most courses are `planned`. The point of writ
 
 | Course | Level | Status | Path | Notes |
 |---|---|---|---|---|
-| Digital Literacy | Foundation | planned | T1 | Files and folders, **the terminal and how to run a command**, installing software safely, networks, security hygiene, how the internet works. Term 6's Python course assumes the terminal half and never teaches it; scope widened 2026-09-18 so it is taught once, five terms earlier, rather than bolted onto a programming course. |
+| Digital Literacy | Foundation | research | T1 | Files and folders, **the terminal and how to run a command**, installing software safely, networks, security hygiene, how the internet works. Term 6's Python course assumes the terminal half and never teaches it; scope widened 2026-09-18 so it is taught once, five terms earlier, rather than bolted onto a programming course. |
 | Introduction to Programming with Python | Foundation | published | T6 | Rebuilt 2026-09-10: six lessons through Stage 4, final test and project live. **Known gap, CW-04:** assumes a terminal it never teaches, because the rebuild froze the course at the six lesson files the live URLs already used. Gains a setup lesson at its Term 6 turn; not re-opened before then. |
 | How Computers Work | Foundation | planned | T6 | From transistors to operating systems. |
 | Data Structures and Algorithms | Core | planned | T20 | |
