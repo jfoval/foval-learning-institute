@@ -12,8 +12,19 @@
 //   shortest  pick the shortest
 //   index A/B/C/D  always pick the same position
 //
-// It also reports the length spread per item (target: about 15 characters) and
-// adjacent repeats of the same answer index.
+// Those four are the verdict: a quiz one of them beats is gameable and this
+// script exits non-zero on it.
+//
+// Three more things are reported as ADVICE and do not make a quiz gameable:
+// the option-length spread per item (target: about 15 characters), adjacent
+// repeats of the same answer index, and answer positions never used. These were
+// counted in the verdict until 2026-09-19, when eighteen quizzes were reported
+// under the headline "a reader could game" while not one of them was beaten by
+// any strategy. A check that cries wolf on everything gets read as noise, and
+// this one was: item 6 of docs/QUEUE.md had been carrying the eighteen for days.
+// A wide spread only matters when the long option is the key, so the advisory
+// line now says how many of the wide items have their key as the longest, which
+// is the number worth acting on.
 //
 // Usage: node scripts/check-quiz-shape.cjs [path ...]   (default: every lesson
 // and assessment in courses/)
@@ -36,7 +47,8 @@ function allFiles() {
 }
 
 const files = process.argv.length > 2 ? process.argv.slice(2) : allFiles();
-let bad = 0;
+let bad = 0, lumpy = 0;
+const lumpyLines = [];
 
 for (const f of files) {
   const m = fs.readFileSync(f, "utf8").match(/^---\n([\s\S]*?)\n---/);
@@ -59,22 +71,38 @@ for (const f of files) {
   const beats = Object.entries(strategies).filter(([, v]) => v >= PASS);
   const spreads = lens.map(l => Math.max(...l) - Math.min(...l));
   const wide = spreads.filter(s => s > 25).length;
+  // Of the wide items, how many hand the reader the answer by being longest.
+  const wideAndLongest = q.filter((it, i) => spreads[i] > 25 && lens[i].indexOf(Math.max(...lens[i])) === it.answer).length;
   const indices = q.map(it => L[it.answer]).join("");
   let repeats = 0;
   for (let i = 1; i < q.length; i++) if (q[i].answer === q[i - 1].answer) repeats++;
   const unused = [...L].slice(0, width).filter(c => !indices.includes(c));
 
-  const notes = [];
-  if (beats.length) notes.push(...beats.map(([k, v]) => `${k} scores ${Math.round(v * 100)}%, at or above the ${PASS * 100}% pass mark`));
-  if (wide) notes.push(`${wide} item(s) with an option-length spread over 25 characters (widest ${Math.max(...spreads)})`);
-  if (repeats >= 2) notes.push(`${repeats} adjacent repeats of the same answer position (${indices})`);
-  if (unused.length) notes.push(`answer position(s) never used: ${unused.join(", ")}`);
+  const notes = beats.map(([k, v]) => `${k} scores ${Math.round(v * 100)}%, at or above the ${PASS * 100}% pass mark`);
+  const advice = [];
+  if (wide) advice.push(`${wide} item(s) with an option-length spread over 25 characters (widest ${Math.max(...spreads)})`
+    + (wideAndLongest ? `, and in ${wideAndLongest} of them the key is the longest option` : `, none of them with the key as the longest option`));
+  if (repeats >= 2) advice.push(`${repeats} adjacent repeats of the same answer position (${indices})`);
+  if (unused.length) advice.push(`answer position(s) never used: ${unused.join(", ")}`);
 
   if (notes.length) {
     bad++;
-    console.log(`\n${f}  ${q.length} items, keys ${indices}`);
+    console.log(`\nGAMEABLE  ${f}  ${q.length} items, keys ${indices}`);
     for (const n of notes) console.log("   " + n);
+    for (const a of advice) console.log("   also: " + a);
+  } else if (advice.length) {
+    lumpy++;
+    lumpyLines.push(`\n${f}  ${q.length} items, keys ${indices}`);
+    for (const a of advice) lumpyLines.push("   " + a);
   }
 }
-console.log(bad ? `\n${bad} quiz(zes) a reader could game. Rebalance before shipping.`
-                : "No quiz is passable by option shape alone.");
+
+if (bad) console.log(`\n${bad} quiz(zes) a reader could game by option shape. Rebalance before shipping.`);
+else console.log("No quiz is passable by option shape alone.");
+
+if (lumpy) {
+  console.log(lumpyLines.join("\n"));
+  console.log(`\nAdvice only: ${lumpy} quiz(zes) are lumpy in shape without being winnable by it. ` +
+    `Worth a rebalance when the lesson is next open; not a reason to hold anything.`);
+}
+process.exit(bad ? 1 : 0);

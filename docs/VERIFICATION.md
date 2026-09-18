@@ -47,7 +47,7 @@ Network, slow, or heuristic. A gate would get them weakened or routed around.
 |---|---|---|
 | State of every course, and the next action for each | `npm run state` | Every session start |
 | Every external link in every lesson | `npm run links` | 2026-09-18: 482 links, 7 dead |
-| Quizzes winnable by shape alone; explanations contradicting their own key | `npm run quiz` | 2026-09-18: 18 flagged, undecided |
+| Quizzes winnable by shape alone; explanations contradicting their own key | `npm run quiz` | Exits non-zero only on a quiz a strategy actually beats. **None in the repo is, as of 2026-09-19.** The 18 flagged on 2026-09-18 were all advisory and are now reported under "Advice only", with the number that matters: how many wide items have the key as the longest option |
 | Measured reading time vs the `minutes:` field | `npm run minutes` | 2026-09-18: 62 lessons, 0 materially out |
 | What a learner already knows at a given point on the Core, and which earlier courses are unwritten | `npm run taught <course>` | Run at Stage 2 and Stage 3 |
 | The one next action, and the audio budget | `npm run state` | Session start; `/keep-going` loops on it |
