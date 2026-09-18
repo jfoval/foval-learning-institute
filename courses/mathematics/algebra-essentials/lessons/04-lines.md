@@ -1,6 +1,7 @@
 ---
 title: A picture of a relationship
 minutes: 45
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/mathematics/algebra-essentials/04-lines.mp3
 objectives:
   - Read a straight line for its starting value and its rate, and say what each one means in the situation
   - Write the equation of a line from a described situation, and build its table
