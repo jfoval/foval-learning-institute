@@ -1,6 +1,7 @@
 ---
 title: 'Compounding: interest working for you'
 minutes: 40
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/money/personal-finance/04-compounding.mp3
 objectives:
   - Explain why compound growth accelerates, using the fact that each year's gain is proportional to the current balance
   - Estimate doubling times with the rule of 72 and state where the rule's accuracy drifts
