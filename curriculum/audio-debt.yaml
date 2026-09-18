@@ -45,7 +45,7 @@ reset:
 
 owed:
   # course id (the folder name)   : episodes still to render
-  how-to-learn-anything: 2
+  how-to-learn-anything: 1
   bible-basics: 12
   clear-writing: 9
   logic-and-argument: 10

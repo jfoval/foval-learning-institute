@@ -5,7 +5,9 @@ objectives:
   - Describe how a hand-copied text is reconstructed from many copies, and why age, geographical spread, and the harder reading each count as evidence
   - State what the Great Isaiah Scroll and the fourth-century Greek codices each showed, and what each did not show
   - Explain what a textual variant is, roughly how many there are, what kinds most of them are, and why the count on its own tells you almost nothing
-  - Work an unfamiliar disputed passage: read the note in a modern Bible, find the evidence behind it, and say what it rests on
+  - >-
+    Work an unfamiliar disputed passage: read the note in a modern Bible, find the evidence behind
+    it, and say what it rests on
   - Sort a claim about the reliability of the text as established by history, argued among scholars, or held by faith
 quiz:
   - q: A footnote in your Old Testament reads, "Dead Sea Scrolls and Septuagint; Masoretic Text does not have this phrase." Which reading of that note fits what the scrolls actually showed?
@@ -190,51 +192,51 @@ That matters more because P52 is too small to tell you anything about the shape 
 
 Here's the whole shape drawn out, on one scale, so you can see the two gaps side by side.
 
-<svg viewBox="0 0 640 340" role="img" aria-labelledby="gap-title gap-desc" style="width:100%;height:auto;font-family:inherit">
-  <title id="gap-title">From writing to oldest surviving copy</title>
-  <desc id="gap-desc">A timeline from 750 BC to AD 1050 on one scale. Isaiah: written in the eighth to sixth century BC; the Ketef Hinnom amulets about 600 BC carry a few lines of Numbers; the Great Isaiah Scroll about 125 BC; the Leningrad Codex in 1008, so more than a thousand years separated the oldest complete Hebrew Bible from the prophet until the scroll was found. John: written about AD 90, with P52 in the second century and Codex Sinaiticus in the fourth. Paul's letters: written in the AD 50s, with P46 about AD 200. The New Testament gaps are a small fraction of the Old Testament one.</desc>
-  <g font-size="16" fill="var(--text)">
-    <text x="20" y="34" font-weight="700">Isaiah</text>
-    <rect x="60" y="44" width="76" height="12" fill="var(--navy, #0f2a4a)"/>
-    <text x="20" y="80" font-size="15" fill="var(--text-2)">written 8th to 6th c. BC (dating argued)</text>
-    <circle cx="106" cy="50" r="6" fill="var(--gold, #b08d2a)"/>
-    <text x="20" y="102" font-size="15" fill="var(--text-2)">Ketef Hinnom c. 600 BC, a few lines of Numbers 6</text>
-    <circle cx="251" cy="50" r="8" fill="var(--oxblood, #8b1e2d)"/>
-    <text x="264" y="34" font-size="15" fill="var(--oxblood, #8b1e2d)" font-weight="700">Isaiah Scroll c. 125 BC</text>
-    <line x1="261" y1="50" x2="588" y2="50" stroke="var(--line)" stroke-width="2" stroke-dasharray="5 5"/>
-    <text x="300" y="72" font-size="15" fill="var(--text-2)">over 1,000 years, unseen until 1947</text>
-    <circle cx="597" cy="50" r="8" fill="var(--navy, #0f2a4a)"/>
-    <text x="620" y="34" font-size="15" fill="var(--text-2)" text-anchor="end">Leningrad 1008</text>
-  </g>
-  <g font-size="16" fill="var(--text)">
-    <text x="20" y="152" font-weight="700">John</text>
-    <rect x="317" y="162" width="6" height="12" fill="var(--navy, #0f2a4a)"/>
-    <text x="305" y="152" font-size="15" fill="var(--text-2)" text-anchor="end">written c. 90</text>
-    <circle cx="337" cy="168" r="8" fill="var(--oxblood, #8b1e2d)"/>
-    <text x="350" y="162" font-size="15" fill="var(--oxblood, #8b1e2d)" font-weight="700">P52, 2nd century</text>
-    <circle cx="396" cy="168" r="8" fill="var(--navy, #0f2a4a)"/>
-    <text x="350" y="190" font-size="15" fill="var(--text-2)">Sinaiticus, 4th century</text>
-  </g>
-  <g font-size="16" fill="var(--text)">
-    <text x="20" y="240" font-weight="700">Paul</text>
-    <rect x="304" y="250" width="6" height="12" fill="var(--navy, #0f2a4a)"/>
-    <text x="292" y="240" font-size="15" fill="var(--text-2)" text-anchor="end">letters, AD 50s</text>
-    <circle cx="350" cy="256" r="8" fill="var(--oxblood, #8b1e2d)"/>
-    <text x="363" y="261" font-size="15" fill="var(--oxblood, #8b1e2d)" font-weight="700">P46, c. 200</text>
-  </g>
-  <line x1="60" y1="295" x2="610" y2="295" stroke="var(--line)" stroke-width="1.5"/>
-  <g font-size="15" fill="var(--text-2)" text-anchor="middle">
-    <text x="60" y="316">750 BC</text>
-    <line x1="60" y1="291" x2="60" y2="299" stroke="var(--line)"/>
-    <text x="213" y="316">250 BC</text>
-    <line x1="213" y1="291" x2="213" y2="299" stroke="var(--line)"/>
-    <text x="290" y="316">AD 1</text>
-    <line x1="290" y1="291" x2="290" y2="299" stroke="var(--line)"/>
-    <text x="442" y="316">500</text>
-    <line x1="442" y1="291" x2="442" y2="299" stroke="var(--line)"/>
-    <text x="595" y="316">1000</text>
-    <line x1="595" y1="291" x2="595" y2="299" stroke="var(--line)"/>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 420" width="100%" style="max-width:420px;display:block;margin:1.5em auto;font-family:system-ui,sans-serif" role="img" aria-labelledby="gap-title gap-desc">
+<title id="gap-title">From writing to oldest surviving copy</title>
+<desc id="gap-desc">A timeline from 750 BC to AD 1050 on one scale, with three rows. Isaiah was written in the eighth to sixth century BC; the Ketef Hinnom amulets of about 600 BC carry a few lines of Numbers; the Great Isaiah Scroll dates to about 125 BC; the Leningrad Codex to 1008, so more than a thousand years separated the oldest complete Hebrew Bible from the prophet until the scroll was found in 1947. John was written about AD 90, with P52 in the second century and Codex Sinaiticus in the fourth. Paul's letters were written in the AD 50s, with P46 about AD 200. Read across the rows and the New Testament gaps are a small fraction of the Old Testament one.</desc>
+<text x="20" y="36" font-size="16" font-weight="700" fill="var(--text, #111418)">Isaiah</text>
+<rect x="50" y="46" width="48" height="12" fill="var(--navy, #0f2a4a)"/>
+<circle cx="79" cy="52" r="5" fill="var(--gold, #b08d2a)"/>
+<line x1="178" y1="52" x2="385" y2="52" stroke="var(--line, #d6dbe3)" stroke-width="2" stroke-dasharray="5 5"/>
+<circle cx="172" cy="52" r="6.5" fill="var(--oxblood, #8b1e2d)"/>
+<circle cx="392" cy="52" r="6.5" fill="var(--navy, #0f2a4a)"/>
+<rect x="22" y="74" width="10" height="10" fill="var(--navy, #0f2a4a)"/>
+<text x="40" y="83" font-size="15" fill="var(--text-2, #4a5260)">written 8th to 6th c. BC (dating argued)</text>
+<circle cx="27" cy="101" r="5" fill="var(--gold, #b08d2a)"/>
+<text x="40" y="105" font-size="15" fill="var(--text-2, #4a5260)">Ketef Hinnom c. 600 BC, a few lines</text>
+<circle cx="27" cy="123" r="5" fill="var(--oxblood, #8b1e2d)"/>
+<text x="40" y="127" font-size="15" fill="var(--text-2, #4a5260)">Great Isaiah Scroll c. 125 BC</text>
+<circle cx="27" cy="145" r="5" fill="var(--navy, #0f2a4a)"/>
+<text x="40" y="149" font-size="15" fill="var(--text-2, #4a5260)">Leningrad Codex 1008, unseen gap</text>
+<text x="20" y="176" font-size="16" font-weight="700" fill="var(--text, #111418)">John</text>
+<rect x="211" y="186" width="5" height="12" fill="var(--navy, #0f2a4a)"/>
+<circle cx="226" cy="192" r="6.5" fill="var(--oxblood, #8b1e2d)"/>
+<circle cx="264" cy="192" r="6.5" fill="var(--navy, #0f2a4a)"/>
+<rect x="22" y="214" width="10" height="10" fill="var(--navy, #0f2a4a)"/>
+<text x="40" y="223" font-size="15" fill="var(--text-2, #4a5260)">written c. AD 90</text>
+<circle cx="27" cy="241" r="5" fill="var(--oxblood, #8b1e2d)"/>
+<text x="40" y="245" font-size="15" fill="var(--text-2, #4a5260)">P52, 2nd century</text>
+<circle cx="27" cy="263" r="5" fill="var(--navy, #0f2a4a)"/>
+<text x="40" y="267" font-size="15" fill="var(--text-2, #4a5260)">Codex Sinaiticus, 4th century</text>
+<text x="20" y="294" font-size="16" font-weight="700" fill="var(--text, #111418)">Paul</text>
+<rect x="204" y="304" width="5" height="12" fill="var(--navy, #0f2a4a)"/>
+<circle cx="235" cy="310" r="6.5" fill="var(--oxblood, #8b1e2d)"/>
+<rect x="22" y="332" width="10" height="10" fill="var(--navy, #0f2a4a)"/>
+<text x="40" y="341" font-size="15" fill="var(--text-2, #4a5260)">letters written in the AD 50s</text>
+<circle cx="27" cy="359" r="5" fill="var(--oxblood, #8b1e2d)"/>
+<text x="40" y="363" font-size="15" fill="var(--text-2, #4a5260)">P46, c. AD 200</text>
+<line x1="50" y1="386" x2="400" y2="386" stroke="var(--line, #d6dbe3)" stroke-width="1.5"/>
+<line x1="50" y1="382" x2="50" y2="390" stroke="var(--line, #d6dbe3)"/>
+<line x1="147" y1="382" x2="147" y2="390" stroke="var(--line, #d6dbe3)"/>
+<line x1="196" y1="382" x2="196" y2="390" stroke="var(--line, #d6dbe3)"/>
+<line x1="293" y1="382" x2="293" y2="390" stroke="var(--line, #d6dbe3)"/>
+<line x1="390" y1="382" x2="390" y2="390" stroke="var(--line, #d6dbe3)"/>
+<text x="50" y="406" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">750 BC</text>
+<text x="147" y="406" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">250 BC</text>
+<text x="196" y="406" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">AD 1</text>
+<text x="293" y="406" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">500</text>
+<text x="390" y="406" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">1000</text>
 </svg>
 
 Look at the dashed line on the Isaiah row. That's the thousand-year gap that the Isaiah Scroll closed, and the red dot is the scroll landing near the older end of it. Now look at the John and Paul rows. The red dots are a finger's width from the writing. The New Testament's gap from author to oldest copy is a small fraction of the Old Testament's, and that's the fact that makes it the best-attested ancient text there is. It's also why lesson 6's argument about the Gospels' dates matters here: the earlier you date the Gospels, the earlier the papyri sit relative to them, but even on the critical dates the gap is short.

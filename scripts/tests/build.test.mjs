@@ -212,6 +212,10 @@ const CASES = [
   ["an ESV quotation", s => s.replace("A paragraph", '"In the beginning" (Genesis 1:1, ESV). A paragraph'), "ESV"],
   ["an answer revealed in prose", s => s.replace("A paragraph", "Do this one yourself before you read on.\n\nHere's mine: the answer.\n\nA paragraph"), "answer"],
   ["a quiz option holding an unquoted colon", s => s.replace("- The third, wrong for another reason", "- Third: wrong for a reason"), "not text"],
+  // Bible Basics lesson 9 shipped an objective with a colon in it, which YAML turned into a
+  // mapping, and the live page listed "[object Object]" among the things the learner would learn.
+  // The quiz fields were already checked; objectives were not.
+  ["an objective holding an unquoted colon", s => s.replace("  - Do a thing", "  - Do a thing: and then another"), "objective 1 is not text"],
   ["a blank line inside an svg", s => s.replace("A paragraph", '<svg viewBox="0 0 100 100" role="img" aria-label="x">\n<rect x="0" y="0" width="10" height="10" fill="var(--navy, #0f2a4a)"/>\n\n</svg>\n\nA paragraph'), "inside an <svg>"],
   ["an svg label wider than its viewBox", s => s.replace("A paragraph", '<svg viewBox="0 0 100 40" role="img" aria-label="x">\n<text x="10" y="20" font-size="16" fill="var(--text, #111418)">This label is far wider than one hundred units</text>\n</svg>\n\nA paragraph'), "past its viewBox"],
   ["a conclusion folded into a numbered premise", s => s.replace("A paragraph", "1. All men are mortal.\n2. Socrates is a man.\nC: Socrates is mortal.\n\nA paragraph"), "conclusion"],

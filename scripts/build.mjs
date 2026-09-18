@@ -162,6 +162,20 @@ function checkQuizShape(quiz, file, label) {
 // shape check above passes, and the site renders options through String(), which
 // turns an object into the literal text "[object Object]". One published lesson
 // shipped that way. Check the types, not just the shape.
+// The same trap catches `objectives:`, which the lesson page renders through esc() into a
+// <li>. Bible Basics lesson 9 shipped "Work an unfamiliar disputed passage: read the note in a
+// modern Bible..." and the colon turned the objective into a mapping, so the live page listed
+// "[object Object]" as one of the five things the learner would learn. It sat there through a
+// full Stage 4 cycle because the reviewer read the Markdown, where it looks fine, rather than
+// the page. Found on 2026-09-18 by opening the lesson at phone width for an unrelated reason.
+function checkObjectiveTypes(objectives, file, report) {
+  if (!Array.isArray(objectives)) return;
+  const kind = v => (Array.isArray(v) ? "a list" : v === null ? "empty" : typeof v);
+  objectives.forEach((o, i) => {
+    if (typeof o !== "string") report(`${file}: objective ${i + 1} is not text (it parsed as ${kind(o)}) and would reach the learner as "[object Object]"; check for an unquoted value containing a colon, and wrap it in a >- block`);
+  });
+}
+
 function checkQuizTypes(quiz, file, label, report) {
   const kind = v => (Array.isArray(v) ? "a list" : v === null ? "empty" : typeof v);
   const hint = "check for an unquoted value containing a colon";
@@ -430,6 +444,7 @@ function lintLessons() {
                 fail(`${file}: quiz #${i + 1} lost its question or options when the frontmatter parsed; check for an unquoted value containing a colon`);
             });
             checkQuizTypes(fm.quiz, file, "quiz", fail);
+            checkObjectiveTypes(fm.objectives, file, fail);
           }
         } catch (e) {
           fail(`${file}: frontmatter does not parse as YAML (${e.reason || e.message}); a colon inside an unquoted value is the usual cause`);

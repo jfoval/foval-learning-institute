@@ -273,14 +273,19 @@ function gate(file, s) {
   const ratio = a.speaking / s.seconds;
   if (ratio < LENGTH_MIN) why.push(`speech ${a.speaking.toFixed(0)}s is short for ${s.words} words (expected about ${s.seconds.toFixed(0)}s)`);
   if (ratio > LENGTH_MAX) why.push(`speech ${a.speaking.toFixed(0)}s is long for ${s.words} words (expected about ${s.seconds.toFixed(0)}s)`);
-  // Within-episode drift: each host's median in the last third against the first third.
+  // Within-episode drift: each host's median in the last third of the SPEECH against the first
+  // third. It measures a.spoken, the span up to the last audible frame, not the file duration, so
+  // trailing silence cannot drag the window. The figure goes in the summary line: a threshold whose
+  // number nobody can see is a threshold nobody can calibrate, and the first version of this check
+  // was set from an ad-hoc script that measured a different window than the gate did.
+  const drift = {};
   if (a.spoken > 180) {
     const t = a.spoken / 3;
     const first = analyse(file, 0, t), last = analyse(file, 2 * t, t);
     for (const [host, name] of [["john", "John"], ["haley", "Haley"]]) {
       if (first[host].frames < MATCH_MIN_FRAMES || last[host].frames < MATCH_MIN_FRAMES) continue;
-      const d = Math.abs(Math.log(last[host].med / first[host].med));
-      if (d > DRIFT_MAX) why.push(`${name} drifts ${(d * 100).toFixed(1)}% across the episode (${first[host].med.toFixed(0)} Hz in the first third, ${last[host].med.toFixed(0)} in the last)`);
+      drift[host] = { d: Math.abs(Math.log(last[host].med / first[host].med)), from: first[host].med, to: last[host].med };
+      if (drift[host].d > DRIFT_MAX) why.push(`${name} drifts ${(drift[host].d * 100).toFixed(1)}% across the episode (${first[host].med.toFixed(0)} Hz in the first third, ${last[host].med.toFixed(0)} in the last)`);
     }
   }
   const match = {};
@@ -290,7 +295,10 @@ function gate(file, s) {
     if (match[host] > MATCH_PITCH) why.push(`${name} is ${(match[host] * 100).toFixed(1)}% off the reference pitch (${a[host].med.toFixed(0)} vs ${ref[host].med.toFixed(0)} Hz)`);
   }
   const m = h => match[h] !== undefined ? `${(match[h] * 100).toFixed(1)}%` : "n/a";
-  const summary = `${a.level.toFixed(1)} dBFS, John ${(a.low * 100).toFixed(0)}% at ${a.john.med.toFixed(0)} Hz, Haley ${(a.high * 100).toFixed(0)}% at ${a.haley.med.toFixed(0)} Hz, ${a.speaking.toFixed(0)}s of speech in ${a.seconds.toFixed(0)}s, opening ${open.high >= open.low ? "Haley" : "JOHN"}` + (ref ? `, off reference John ${m("john")} Haley ${m("haley")}` : "");
+  const dr = h => drift[h] ? `${(drift[h].d * 100).toFixed(1)}% (${drift[h].from.toFixed(0)}->${drift[h].to.toFixed(0)} Hz)` : "n/a";
+  const summary = `${a.level.toFixed(1)} dBFS, John ${(a.low * 100).toFixed(0)}% at ${a.john.med.toFixed(0)} Hz, Haley ${(a.high * 100).toFixed(0)}% at ${a.haley.med.toFixed(0)} Hz, ${a.speaking.toFixed(0)}s of speech in ${a.seconds.toFixed(0)}s, opening ${open.high >= open.low ? "Haley" : "JOHN"}`
+    + `; drift across the episode John ${dr("john")} Haley ${dr("haley")}`
+    + (ref ? `; off reference John ${m("john")} Haley ${m("haley")}` : "");
   return { ok: !why.length, why, passed: !why.length, level: a.level, low: a.low, high: a.high, seconds: a.seconds, speaking: a.speaking, john: a.john, haley: a.haley, summary };
 }
 
