@@ -102,7 +102,24 @@ nought seconds and there is no incident for `scripts/podcast/budget.json`. Do no
 **So when a render is refused, read the error before concluding anything.** `podcast.mjs` logs the
 first 1,200 characters of Google's reply into the attempt manifest, which is enough to carry the
 name of the quota that was exceeded. It logged only 300 until 2026-09-18, which truncated the
-message one word into the metric name.
+message one word into the metric name, and widening it answered the question on the next refusal.
+
+**The message names the quota and says when to come back.** Read in full on 2026-09-18:
+
+```
+Quota exceeded for metric:
+generativelanguage.googleapis.com/generate_requests_per_model_per_day,
+limit: 50, model: gemini-2.5-pro-tts
+Please retry in 1h57m38s
+```
+
+So the limit is **fifty renders per project per model per day**, it is counted per model (an
+episode rendered on a different TTS model does not spend it), and Google returns a precise
+`retryDelay` saying when the next one will be accepted. **That retry time is the answer to "is it
+worth waiting".** Just under two hours means a couple more episodes tonight; a figure near
+twenty-four hours means come back tomorrow. Either way the work is not lost and nothing needs
+redoing: scripts are on disk, kept renders are in `audio-out/`, and `npm run state` names the next
+lesson.
 
 ---
 

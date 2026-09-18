@@ -41,11 +41,18 @@ Rewrite these five lines each session. Nothing else goes in this block.
   do not write an incident into `budget.json`, because a 429 is refused before any audio is
   generated and bills nothing.
 
-  **It behaves as a rolling window, not a midnight reset.** Two refusals seven minutes apart, then
-  a success about fifteen minutes later. So a render chain does not stop dead when it reaches the
-  limit; it slows to the rate at which older requests age out. **Ten Bible Basics episodes are
-  owed and $2.51 clears them**, so they will finish, over today and tomorrow rather than in one
-  sitting. Raising the tier would remove the constraint and is John's call, not a session's.
+  **It behaves as a rolling window, not a midnight reset, and Google says exactly when to come
+  back.** With the error logging widened, the next refusal read in full:
+  `generate_requests_per_model_per_day, limit: 50, model: gemini-2.5-pro-tts`, and
+  `Please retry in 1h57m38s`. So it is fifty renders per project per model per day, counted per
+  model, and the message carries a precise retry time. **Read that time and let it decide whether
+  to wait**: two hours means a couple more episodes tonight, twenty-four means tomorrow.
+
+  **Nine Bible Basics episodes are owed and $2.29 clears them.** A session that opens tomorrow
+  clears all nine inside one day's allowance with forty to spare. Nothing needs redoing: the
+  scripts are written and fact-checked, kept renders survive in `audio-out/`, and `npm run state`
+  names the next lesson. Raising the tier would remove the constraint and is John's call, not a
+  session's.
 
   **Reading Well is FINISHED**, all ten episodes rendered, uploaded and stamped in one session,
   one call each, every one passing the gate first time: 271 to 484 seconds, $0.18 to $0.24, about
