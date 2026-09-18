@@ -301,7 +301,7 @@ not.
 This isn't Python's problem, either. It's the behaviour of IEEE 754 binary64, the number format
 nearly every language reaches for when it needs decimals, so C, Java and JavaScript all print the
 same thing. If you want the full story, the official documentation has
-[a whole chapter on it](https://docs.python.org/3/tutorial/floatingpoint.html).
+[a whole chapter on it](https://docs.python.org/3/tutorial/floatingpoint.html).[1]
 
 ## What people get wrong
 
@@ -337,7 +337,7 @@ they are the same object, and whether Python bothered to reuse one object here d
 code was compiled, which in turn depends on whether you ran a file or typed at the prompt.
 
 Now try it with 5 instead of 257 and you get `True` both ways, because CPython keeps a single
-shared object for every small integer and hands the same one out each time. So the answer moves
+shared object for every small integer and hands the same one out each time.[4] So the answer moves
 with the size of the number *and* with how you ran the code. Those are implementation details you
 should never have to think about, and a comparison whose answer depends on them isn't a
 comparison you can build on.
@@ -349,7 +349,7 @@ actually mean, and where the answer never depends on how you ran the code.
 Names can hold letters, digits and underscores, and can't start with a digit. Python's convention
 is `snake_case`: lower case, words joined by underscores, so `total_price` rather than `totalPrice`
 or `TotalPrice`. It's in [PEP 8](https://peps.python.org/pep-0008/), the style guide the whole Python world
-follows, and since you're choosing names anyway, you may as well choose them this way from the start.
+follows,[2] and since you're choosing names anyway, you may as well choose them this way from the start.
 
 One trap worth knowing now: don't name your own file `random.py`, `string.py` or `email.py`.
 Python looks for your file first and finds it instead of the real library, and the error you get
