@@ -208,3 +208,28 @@ quotation stops, and the complement this pass suggests is that **this drafter's 
 truncation is caught is to quote correctly and then describe the quotation wrongly in the surrounding
 prose.** Every quotation here but one was verbatim, and all three criticals were in unquoted sentences
 within two paragraphs of a blockquote.
+
+## 2026-09-18 — Lesson 09 — final narrow pass, three passages
+**Reviewer:** fresh-context subagent, scoped to the corroboration section, the Wineburg paragraph and
+the Gage paragraph, and told that ranging outside that scope would cost more than it buys.
+
+**All three clean, and it said so in one line each**, which is the result this pass existed to
+establish. It reached the *Perspectives* article, which two earlier attempts could not, and confirmed
+the full Wineburg sentence word for word: "And so, another curious finding: in almost every
+opportunity to do so, historians, when first given a document, looked immediately to its
+attribution..." It confirmed the Clements catalogue's 21 April 1775 date for Gage's broadside and the
+phrases quoted from it against the American Antiquarian Society's transcription. And it checked the
+corroboration list item by item against the two blockquotes on the page.
+
+**One finding, and it is a citation gap rather than a passage failure.** The Gage paragraph quoted a
+document and asserted an archival date with no footnote and no entry in the lesson's Sources list;
+`SOURCES.md` carried both inside the Pitcairn entry. Footnote 3 now names the *Circumstantial
+Account*, its printer, the Clements date and where the quoted phrases were read.
+
+**Two wording notes taken with it.** The reviewer observed that "the opening clause" is strictly a
+prepositional phrase and is not the opening of Wineburg's sentence, and that the Gage paragraph's
+enumeration of explanations omitted the likeliest branch, which is that the broadside's Lexington
+paragraph descends from an earlier report of Pitcairn's to headquarters. Both are in.
+
+**Status: publishable.** Four passes and two neutrality audits. `npm run validate` exits 0, `npm run
+quiz` does not list this lesson, `npm run minutes` measures 110 against a declared 110.
