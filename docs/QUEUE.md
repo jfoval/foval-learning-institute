@@ -19,10 +19,21 @@ Rewrite these five lines each session. Nothing else goes in this block.
   Writing Clearly, both off the debt ledger. Logic and Argument owes one episode and nothing else.
   Personal Finance, Algebra Essentials, Python Basics and Bible Basics owe only money. **So the
   writing job is now drafting, not scripts**, and Reading Well is it.
-- **Current lesson:** Reading Well, lessons 1 to 4 drafted. **1, 2 and 4 are through Stage 4 and
-  clean**; lesson 3's review is in hand and its findings are being applied. Next is
-  `/draft-lesson courses/foundations/reading-well 5`, as many lessons as the budget allows, after
-  reading that course's `research/reviews/course-wide.md`.
+- **Current lesson:** Reading Well, lessons 1 to 5 drafted. **1, 2 and 4 are through Stage 4 and
+  clean.** Lesson 3 has had all but one of its review findings applied; **what is left is its
+  opening example**, which the review rejected (see below). Lesson 5 is drafted and its Stage 4
+  review is out. Next is `/draft-lesson courses/foundations/reading-well 6`, as many lessons as the
+  budget allows, after reading that course's `research/reviews/course-wide.md`.
+- **One open finding, Reading Well lesson 3.** Its opening example is an invented cricket paragraph.
+  The review rejected it on two grounds and both stand: it leans on real jargon ("off-spinner",
+  "leg slip") in a lesson whose subject is a critique of studies that measured jargon familiarity,
+  and it is invented, against this course's convention of opening with a real text the reader can
+  open. A replacement is being looked for: 40 to 90 words, public domain or openly licensed, as
+  close to zero technical vocabulary as possible, with the difficulty entirely in the relations
+  between ordinary words, and not finance (the lesson already has a bond example). When it lands,
+  the opener changes and with it the false sentence claiming no word in the paragraph is technical,
+  the overstated "not a vague impression: nothing", and the forward reference that points at the
+  wrong section.
 - **Before drafting anything:** `npm run taught <course>`. It prints every objective a learner has
   already met earlier on the Core, and names the earlier courses that do not exist yet so nothing
   is assumed from them. Stage 2 and Stage 3 both call for it.

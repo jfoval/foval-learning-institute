@@ -54,3 +54,47 @@ recall finding says the extra time goes into what the reader is building rather 
 different mode, which is this course's central claim arriving from the measurement side, so it is
 worth more to us than the ladder was. Lesson 4 owns the rates and should state the rejection
 directly.
+
+## 2026-09-18 — What the Stage 4 reviews of lessons 2, 3 and 4 have in common
+
+Three findings recur across lessons and are worth naming once rather than three times.
+
+### 3. SOURCES.md is the thing to check, and twice it was the thing that was wrong
+
+Lesson 4's review found three separate drifts off a source that was sitting in the repo the whole
+time: Rayner's constructive finding recorded as "vocabulary and practice" but written into the
+lesson as "vocabulary and background knowledge", which is this course's own theme read back into a
+citation that does not carry it; a claim about the perceptual span of a fixation that came from
+`OUTLINE.md`, which is a plan and not a source; and a band of "175 to 320" that merges the
+non-fiction and fiction ranges into a figure Brysbaert never reports.
+
+Lesson 3's review found the error one level further back. `SOURCES.md` itself compressed the 2025
+baseball review's two charges into one, saying it "argues the texts demand trivia and specialised
+vocabulary". The abstract says the **measures of knowledge** focused on vocabulary and trivia, and
+separately that **the most common comprehension text was deceptively complex**. Different charges,
+different targets, and the second is the more damaging one for a lesson built on "the words were
+easy". The entry has been corrected.
+
+Worse, that entry carried a quotation, "uniquely designed to make non-baseball fans appear to be
+poor comprehenders of that text", attributed to a paper recorded as read at abstract level. It is
+**not in the abstract**, re-read from the Semantic Scholar API on 2026-09-18, and nobody here has
+opened the paper. It was in the lesson too. Both are removed.
+
+**Standing rules that follow.** Give every Stage 4 review this course's `SOURCES.md`, because a
+reviewer who only checks the lesson against itself cannot catch any of the above. `OUTLINE.md` is a
+plan and never a citation. And a source read at abstract level may be quoted only from its abstract,
+which means the abstract has to be in front of you when you write the quotation marks.
+
+### 4. Author names were invented
+
+Lesson 3 shipped "Julianne Reynolds, Courtney Hattan and Paul Markham" in a footnote. The authors
+are **Dan Reynolds, Courtney Hattan and Marissa Markham**, confirmed through Crossref and Semantic
+Scholar. `SOURCES.md` recorded no first names at all, so two of the three were supplied by the
+drafter. **If SOURCES has no first name, the footnote uses surnames**, or somebody looks it up.
+
+### 5. The quizzes were gameable in the same way twice
+
+Lessons 3 and 4 both shipped with every answer at index 1 and the correct option the longest in
+every item, which is a quiz a reader can pass without opening the lesson. Both are fixed and
+`npm run quiz` now reports nothing for this course. **Run `npm run quiz` before the review, not
+after it**: it takes a second and it takes a whole class of finding off the reviewer's plate.

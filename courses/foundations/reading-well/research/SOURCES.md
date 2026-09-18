@@ -168,15 +168,34 @@ the debt is.
   Text", *Journal of Educational Psychology* 80(1), 1988.** **Read at abstract and secondary level.**
   The famous "baseball study": 64 junior-high students crossed on reading ability and baseball
   knowledge, reading a half-inning narrative and then reconstructing it with wooden pieces on a
-  model field. Poor readers who knew baseball matched good readers who did not. **Do not teach this
-  study uncritically.** Reynolds, Hattan and Markham, "Fair or Foul? Interrogating the Role of
-  Baseball Knowledge in Studies of Knowledge and Comprehension", *Reading Research Quarterly* 60
-  (2025), e575 (**read at abstract level**), systematically reviewed 19 baseball studies from 1978
-  to 2018, found 13 using the same two knowledge measures, and argues the texts demand "trivia" and
-  specialised vocabulary rather than conceptual knowledge, being "uniquely designed to make
-  non-baseball fans appear to be poor comprehenders of that text". The underlying claim, that prior
-  knowledge is a large determinant of comprehension, is well supported from many directions; the
-  flagship demonstration is weaker than its fame. That gap is itself worth teaching.
+  model field. Poor readers who knew baseball matched good readers who did not. **The study used
+  more than one dependent measure**; the reconstruction is the one everyone repeats, and this entry
+  records only that one, so no lesson may say the reconstruction *was* the measure. **Do not teach
+  this study uncritically.** **Dan** Reynolds, **Courtney** Hattan and **Marissa** Markham, "Fair or
+  Foul? Interrogating the Role of Baseball Knowledge in Studies of Knowledge and Comprehension",
+  *Reading Research Quarterly* 60 (2025), e575, doi:10.1002/rrq.575 (**read at abstract level**),
+  systematically reviewed 19 baseball studies from 1978 to 2018 and found 13 using the same two
+  knowledge measures.
+
+  **Their argument has two halves and an earlier version of this entry merged them, which put the
+  error into a lesson.** The first half is about the *measures*: "their measures of knowledge
+  focused heavily on vocabulary and baseball trivia". The second is about the *text*: "the most
+  common baseball comprehension text was deceptively complex". Those are different charges against
+  different things, and the second is the one usually dropped, though it is the more damaging: if
+  the flagship passage was not easy, the design was not cleanly separating knowledge from text
+  difficulty.
+
+  **An earlier version of this entry also carried a quotation, "uniquely designed to make
+  non-baseball fans appear to be poor comprehenders of that text", attributed to a paper read at
+  abstract level. It is not in the abstract**, which was re-read from the Semantic Scholar API on
+  2026-09-18, and nobody here has opened the paper. It has been removed from this entry and from
+  lesson 3. Do not reintroduce it without the paper in hand.
+
+  The underlying claim, that prior knowledge is a large determinant of comprehension, is well
+  supported from many directions, and **the reviewers concede it in their own words**: their first
+  sentence grants that the links "have been widely documented for decades", and they close by
+  calling for "reliance on non-baseball studies" to build the field on. The flagship demonstration
+  is weaker than its fame. That gap is itself worth teaching.
 
 - **Pablo Delgado, Cristina Vargas, Rakefet Ackerman and Ladislao Salmerón, "Don't throw away your
   printed books: A meta-analysis on the effects of reading media on reading comprehension",

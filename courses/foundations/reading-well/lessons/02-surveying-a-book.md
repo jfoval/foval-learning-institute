@@ -190,7 +190,7 @@ This is not a claim that you will understand it. It is a claim about the order o
 ## Practice
 
 :::exercise Survey a book you own and have not read
-Take a book off your own shelf that you have not read, set a timer for one hour, and run the six steps in order. Write four things down, in four sentences, before the timer goes:
+Take a book off your own shelf that you have not read. Allow 60 minutes for this, set a timer, and run the six steps in order. Write four things down, in four sentences, before the timer goes:
 
 1. What kind of book is this?
 2. What does it argue, in one sentence, in your own words?
@@ -203,7 +203,7 @@ If you finished in twenty minutes, that is normal and it is not a sign you did i
 :::
 
 :::exercise The one that will annoy you
-Do the same survey on a book you have already read and liked, and see what the survey would have told you in an hour. Most readers find it would have got the argument right and missed the thing they actually valued, which is usually a chapter in the middle. That is worth knowing about the method's limits, and it is the reason the survey decides whether to read rather than standing in for reading.
+This one is a separate sitting, not five minutes at the end of the first. Do the same survey on a book you have already read and liked, and see what the survey would have told you in an hour. Most readers find it would have got the argument right and missed the thing they actually valued, which is usually a chapter in the middle. That is worth knowing about the method's limits, and it is the reason the survey decides whether to read rather than standing in for reading.
 :::
 
 ## Connections
