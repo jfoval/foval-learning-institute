@@ -76,11 +76,24 @@ Brysbaert's account of it, so lesson 4 may not claim more than those support.
   pages are where authors cannot resist summarising. Surveying reads the encodings instead of the
   text, which is why it is an order of magnitude faster and not an order of magnitude worse.
 - **Worked examples:** (a) simple: a survey of a real book, done in front of the reader, step by step,
-  ending in a written verdict. It must be a book the reader can legally open, so it has to be public
-  domain or openly licensed. **Not Adler's own text**, which was this outline's first choice and is
-  ruled out: the only free copy is an unlicensed scan of an in-copyright book. See
-  `research/reviews/course-wide.md`. A Gutenberg book with a real apparatus, a contents page, an
-  index and a preface, is the replacement to find. (b) With a wrinkle: a book whose apparatus lies. A trade book with a contents page of
+  ending in a written verdict. It must be a book the reader can legally open. **Not Adler's own
+  text**, which was this outline's first choice and is ruled out because the only free copy is an
+  unlicensed scan of an in-copyright book; see `research/reviews/course-wide.md`.
+  **Settled 2026-09-17: use Darwin, *On the Origin of Species*, [Project Gutenberg
+  #1228](https://www.gutenberg.org/cache/epub/1228/pg1228.txt).** It was checked against all six of
+  Adler's steps and hits every one: an Introduction that states the aim, a short contents page, a
+  second **"Detailed Contents"** that breaks each chapter into its topics (which is exactly the
+  analytical table of contents Adler praises and says has died out, so the reader sees the thing he
+  is describing), an index, a pivotal chapter in 4 "Natural Selection", a recapitulation chapter in
+  14, and a closing paragraph famous enough to make Adler's step 6 point for itself. Gibbon, Adler's
+  own named example, was checked and rejected: the Gutenberg edition splits into volumes and parts
+  and does not preserve his marginal summaries.
+  **Neutrality note for the drafter:** the lesson surveys the book, it does not argue the biology.
+  Common descent is an established fact under standards 3.1 and is treated as one across the
+  institute, including in the School of Christian Studies' Faith and Science course, so reporting
+  what Darwin argues is neutral reporting and needs no defence and no hedging. Keep the teaching on
+  the method; if the survey's verdict starts making claims about evolution rather than about the
+  book's structure, it has drifted. (b) With a wrinkle: a book whose apparatus lies. A trade book with a contents page of
   teasing chapter titles and a blurb that is pure puffery, where the survey has to fall back on step 6
   and the last pages. Adler anticipates this and says a bad blurb "in itself can tell you something".
 - **Misconceptions:** "I should not judge a book before reading it" (you are judging whether to read

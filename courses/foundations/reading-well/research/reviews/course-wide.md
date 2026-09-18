@@ -22,9 +22,13 @@ twice, and the links were removed at review.
 as the text that was consulted, and never link it in the body or in Go deeper as a reading route.
 Point learners at Open Library, a library, or the publisher instead.
 
-**This blocks the outline's plan for lesson 2**, which was to survey Adler's own book in front of the
-reader "so the reader can follow along". A worked survey needs a book the reader can legally open.
-Replace it with a public-domain or openly licensed book before drafting lesson 2.
+**This blocked the outline's plan for lesson 2**, which was to survey Adler's own book in front of
+the reader "so the reader can follow along". **Resolved 2026-09-17:** lesson 2 surveys Darwin's *On
+the Origin of Species* ([Gutenberg #1228](https://www.gutenberg.org/cache/epub/1228/pg1228.txt))
+instead. It was checked against all six of Adler's steps and carries every target, including the
+"Detailed Contents" that is the analytical table of contents Adler praises and thinks has died out.
+Gibbon, Adler's own example, was checked and rejected: the Gutenberg edition loses his marginal
+summaries. The outline records the choice and the neutrality note that goes with it.
 
 ### 2. Brysbaert is a source under tension with Carver, not a source that confirms him
 
