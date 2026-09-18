@@ -77,7 +77,17 @@ const OUTPUT_TOKEN_CEILING = 16384; // the model's own limit, about ten minutes
 const COST_CAP = 0.6;
 const LENGTH_MIN = 0.6, LENGTH_MAX = 1.7;
 const LEVEL_FLOOR = -30, LEVEL_SPREAD = 6;
-const MATCH_PITCH = 0.06, MATCH_MIN_FRAMES = 80;
+// Two different questions, and they need two different tolerances. Measured 2026-09-18 over the
+// first two Pro episodes and the retired renders:
+//   within an episode  lesson 1 drifted 5.3% from its first third to its last, lesson 2 6.8%, and
+//                      a retired faded render 13.8%. This is what a listener hears, because nobody
+//                      A/Bs minute six of one episode against minute two of another. Threshold 10%.
+//   between episodes   lesson 1's John sat at 94 Hz and lesson 2's at 88, 6.2% apart, and both
+//                      sound like the same man to John, who listened. A single episode was a bad
+//                      thing to calibrate a tolerance from: 6% rejected a good episode and would
+//                      have burned about $0.20 a time doing it. 12% still catches a real recast
+//                      (Pro's Charon and Flash's are 20% apart) or an outright wrong voice.
+const MATCH_PITCH = 0.12, DRIFT_MAX = 0.10, MATCH_MIN_FRAMES = 80;
 const CURL_MAX_SECONDS = 1500;
 
 const args = process.argv.slice(2);
@@ -86,8 +96,8 @@ const lessonArg = args.find((a, i) => i > 0 && !a.startsWith("--"));
 const GO = args.includes("--go");
 const FORCE = args.includes("--force");
 
-if (!["plan", "render", "upload", "stamp", "all", "profile", "reference"].includes(cmd) || !lessonArg) {
-  console.error("Usage: node scripts/podcast.mjs <plan|render|upload|stamp|all|profile|reference> <courses/.../lessons/NN-slug.md> [--go] [--force] [--file=<mp3>]");
+if (!["plan", "render", "upload", "stamp", "all", "profile", "reference", "gate"].includes(cmd) || !lessonArg) {
+  console.error("Usage: node scripts/podcast.mjs <plan|render|upload|stamp|all|profile|reference|gate> <courses/.../lessons/NN-slug.md> [--go] [--force] [--file=<mp3>]");
   process.exit(1);
 }
 
@@ -263,6 +273,16 @@ function gate(file, s) {
   const ratio = a.speaking / s.seconds;
   if (ratio < LENGTH_MIN) why.push(`speech ${a.speaking.toFixed(0)}s is short for ${s.words} words (expected about ${s.seconds.toFixed(0)}s)`);
   if (ratio > LENGTH_MAX) why.push(`speech ${a.speaking.toFixed(0)}s is long for ${s.words} words (expected about ${s.seconds.toFixed(0)}s)`);
+  // Within-episode drift: each host's median in the last third against the first third.
+  if (a.spoken > 180) {
+    const t = a.spoken / 3;
+    const first = analyse(file, 0, t), last = analyse(file, 2 * t, t);
+    for (const [host, name] of [["john", "John"], ["haley", "Haley"]]) {
+      if (first[host].frames < MATCH_MIN_FRAMES || last[host].frames < MATCH_MIN_FRAMES) continue;
+      const d = Math.abs(Math.log(last[host].med / first[host].med));
+      if (d > DRIFT_MAX) why.push(`${name} drifts ${(d * 100).toFixed(1)}% across the episode (${first[host].med.toFixed(0)} Hz in the first third, ${last[host].med.toFixed(0)} in the last)`);
+    }
+  }
   const match = {};
   if (ref) for (const [host, name] of [["john", "John"], ["haley", "Haley"]]) {
     if (a[host].frames < MATCH_MIN_FRAMES) continue;
@@ -325,6 +345,19 @@ function profile(file) {
     const h = (fp, r) => fp.frames < MATCH_MIN_FRAMES ? "   n/a      " : `${String(fp.med.toFixed(0)).padStart(4)} Hz` + (ref ? ` ${(Math.abs(Math.log(fp.med / r.med)) * 100).toFixed(1).padStart(4)}%` : "");
     console.log(`  ${String(s).padStart(3)}s  ${a.level.toFixed(1).padStart(6)}  John ${String(Math.round(a.low * 100)).padStart(3)}% ${h(a.john, ref?.john)}  Haley ${String(Math.round(a.high * 100)).padStart(3)}% ${h(a.haley, ref?.haley)}${a.voiced < 50 ? "  (little speech)" : ""}`);
   }
+}
+
+/* ---------- gate a file without uploading it ---------- */
+// Exists so the gate itself can be tested against known-good and known-bad audio. A gate nobody
+// can run on demand is a gate nobody checks.
+function gateOnly() {
+  const fileArg = args.find(a => a.startsWith("--file="))?.split("=")[1];
+  const file = fileArg ? path.resolve(fileArg) : mp3Path;
+  if (!fs.existsSync(file)) { console.error(`No MP3 at ${show(file)}.`); process.exit(1); }
+  const check = gate(file, readScript());
+  console.log(`${show(file)}\n  ${check.summary}`);
+  console.log(check.ok ? "  PASS" : `  FAIL: ${check.why.join("; ")}`);
+  if (!check.ok) process.exit(1);
 }
 
 /* ---------- reference ---------- */
@@ -423,6 +456,7 @@ try {
   if (cmd === "upload") await upload();
   if (cmd === "stamp") stamp();
   if (cmd === "reference") reference();
+  if (cmd === "gate") gateOnly();
   if (cmd === "profile") { if (!fs.existsSync(mp3Path)) throw new Error(`No MP3 at ${show(mp3Path)}`); profile(mp3Path); }
   if (cmd === "all") { await render(); if (GO) { await upload(); stamp(); } }
 } catch (e) {
