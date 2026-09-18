@@ -71,16 +71,16 @@ Two phrases are doing more work than they look. "Notice taken" and "House counte
 What you were missing, then, is not a word you could look up. It is what each of those plain facts implies, and none of it is on the page.
 
 - Forty is the quorum. Below forty the House cannot transact business at all. So the sentence is not a remark about attendance. It is the meeting ceasing to exist.
-- "Notice taken" is somebody's deliberate act. Any member present may stand and point out that the House is inquorate. Sometimes that is a member protecting the House from a vote taken on a thin attendance. Sometimes it is a member who wants this particular debate stopped, and the Victorian Commons is full of complaints that independent motions were killed this way.
+- "Notice taken" is somebody's act rather than a state of affairs. Any member present may stand and point out that the House is inquorate. Most often that is simply a member who can see the benches are empty and says so. Sometimes it is a member protecting the House from a vote taken on a thin attendance. And sometimes it is a member who wants this particular debate stopped, which the Victorian Commons complained about often enough that the complaint is part of the record too.
 - A count-out ends the whole sitting rather than the item. Whatever else stood on the order paper went with it, and because the record reports only what was reached, you cannot see from this page what that was.
 - Ten past nine is early. This House regularly sat past midnight. In June 1875 thirteen of its sittings did, one of them until a quarter past three in the morning.[1]
 - The House had suspended at seven for dinner and resumed at nine. Ten minutes later it was counted out, which is the ordinary setting for a count: a thin House that has not come back. The page you are reading does not say this. The page before it does.[1]
 - "Was proceeding to address the House" means Hay had not finished his opening speech. The motion was never debated and never voted on.
 - A private member had to win a night for a motion in the first place. Hay never brought this one back in the 1875 session.[1]
 
-Put those together and the story is this. A proposal to reduce deaths at sea was stopped dead by a member pointing out that fewer than forty men were in the room, before anyone had to speak against it or vote against it. Whether stopping it was the point, on that particular night, the record does not say, and the record not saying is the whole of what this lesson is about.
+Put those together and the story is this. A proposal to reduce deaths at sea was stopped dead by a member pointing out that fewer than forty men were in the room, before it was debated or voted on. Whether stopping it was the point, on that particular night, the record does not say, and the record not saying is the whole of what this lesson is about.
 
-The record does not report a defeat, because to the readers it was written for, nothing had gone wrong that needed reporting. It reports a room too thin to do business. They knew what that meant.
+The record does not report a defeat, and the reason is simpler than indifference: there was no defeat to report. Nothing was voted down. The motion lapsed with the sitting, and what the record reports is the thing that actually happened, which is a room too thin to do business. A reader who followed the House knew what that meant, so nothing more had to be written.
 
 ## Difficulty is a relation, not a property
 
@@ -118,6 +118,8 @@ That is a striking finding and it gets quoted constantly, usually at second hand
 
 Reynolds, Hattan and Markham [reviewed nineteen baseball studies](https://doi.org/10.1002/rrq.575) published between 1978 and 2018, and found that thirteen of them used the same two measures of baseball knowledge.[3]
 
+Worth knowing why the review was written, because the lesson would be quoting a referee when it is quoting a player. Its abstract says these studies keep turning up in teacher journals, books and podcasts, "especially within science of reading conversations", and it closes by asking the field to build on non-baseball work instead.[3] That is a live argument about how reading is taught, and the reviewers are in it. It does not make the audit wrong. It does mean their opening concession counts for more rather than less, because they grant the knowledge link to an audience that had reason to want it qualified.
+
 Their argument has two halves, and they are about different things. The first is about the knowledge tests: those tests "focused heavily on vocabulary and baseball trivia".[3] Whether that is the same thing as knowing how the game works is the question the whole review turns on, and the reviewers take it that it is not. The second is about the reading passage, and it is the one that gets left out when this critique is summarised: "the most common baseball comprehension text was deceptively complex".[3]
 
 That second half matters here more than the first, and it cuts against me as well as against them. My whole opening move is that the words are easy and the knowledge is what is missing. If the passage at the centre of these studies was not in fact easy, then the design was not cleanly separating what a reader knew from how hard the text was, and a difference the studies read as knowledge could have been partly a difference in handling a difficult text.
@@ -130,7 +132,7 @@ The reviewers answer that themselves, in passing. Their opening clause takes it 
 
 I should say plainly what that is worth as evidence, because this lesson is about not taking a citation on trust. It is a background clause in an abstract, not a finding, and it points at a literature this course has not read. What it tells you is that the people closest to the critique do not think the critique touches the wider claim. What it does not tell you is how strong the wider claim is, and a course that has read one review and one abstract is not in a position to tell you that either.
 
-So the claim stands and the flagship demonstration of it is weaker than its fame. Both of those are true at once, and holding them together is a skill this course wants you to have, because you will meet the pattern constantly: a famous study, a real finding, and a gap between the two that nobody mentions when they cite it.
+So the claim is untouched by this critique, and the flagship demonstration of it is weaker than its fame. Both of those are true at once, and holding them together is a skill this course wants you to have, because you will meet the pattern constantly: a famous study, a real finding, and a gap between the two that nobody mentions when they cite it.
 
 This is also why the opening example of this lesson is four lines of parliamentary record rather than the four lines about cricket that were the first thing I wrote. A cricket paragraph leans on jargon in the obvious way, on words like *off-spinner* that a newcomer plainly does not know, and a lesson that teaches this review's objection and then rests on an example committing it is not teaching the objection.
 
@@ -224,7 +226,7 @@ And you have already met the rule that covers the other half of this, in lesson 
 
 ## What people get wrong
 
-**"I am a bad reader."** Sometimes true, and much more often a misdiagnosis of missing background. The test is the page you started this lesson with: if you can read every word fluently and still come away with the wrong event, the problem is not the reading.
+**"I am a bad reader."** Sometimes true, and in my experience much more often a misdiagnosis of missing background. The test is the page you started this lesson with: if you can read every word fluently and still come away with the wrong event, the problem is not the reading.
 
 **"Difficulty is a property of the book."** It is a relation. This is also the mistake behind reading-ease scores, which count syllables and sentence lengths and cannot see the thing that actually made a passage hard for you. [Writing Clearly](/courses/clear-writing/01-what-happens-when-someone-reads-you/) lesson 1 carries the evidence for that, from a study of 518 readers in which reader background shaped what made a text difficult.
 

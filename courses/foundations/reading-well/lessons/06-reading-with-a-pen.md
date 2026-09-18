@@ -1,6 +1,6 @@
 ---
 title: Reading with a pen, and why a highlighter is not one
-minutes: 60
+minutes: 90
 objectives:
   - Apply a marking system that records structure, doubt and confusion as distinct kinds of thought
   - Explain why marking preserves something a highlight does not, and what each one actually records
@@ -14,14 +14,14 @@ quiz:
       - Neither can say anything useful, since a month is long enough that only rereading would help
     answer: 2
     explain: A mark that says what kind of thought you had is a thing you can retrieve, and a line under a sentence records only that your eye stopped there, so C. A ignores that the underliner has to reread to recover anything, which is the cost the marking was supposed to avoid. B treats preserving words as the goal, when the goal is preserving the thinking. D overstates, since the note-taker's questions alone would rebuild most of the chapter.
-  - q: You are reading a library book and cannot write in it. What follows for the method in this lesson?
+  - q: A reader keeps a one-page record for every book, and finds a year later that the records tell them what each book convinced them of and almost nothing else. Which lines were they leaving out, and why do those matter most?
     options:
-      - Keep a sheet of paper as the margin, with the page number beside every mark
-      - Use sticky notes on the pages, which are removable and so do not count as marking
-      - Skip the marking for this book and rely on rereading the chapters that matter
-      - Photograph the pages you would have marked and annotate the photographs later
+      - What they doubted and what they did not follow, which is where the next reading starts
+      - The book and the date, without which a record cannot be found again at all
+      - The author's key terms, since a term is what a record is for and the rest is decoration
+      - The argument in three or four lines, which is the only part that survives a year
     answer: 0
-    explain: What the margin does is put a judgement next to the thing it is about, and a page number restores that link on a separate sheet, so A. B solves the wrong problem, since a sticky note still has to carry the judgement and most people write nothing on them. C abandons the method for the books most likely to be borrowed rather than owned. D adds a step between the thought and the record, and the record is meant to be made at the moment of reading.
+    explain: A record of what convinced you is a record of your own agreement, and the two lines that map where to go next are the doubts and the gaps, so A. B names a real line that is evidently not the missing one, since the reader can tell the books apart. C promotes one line over the others and calls the rest decoration, which this lesson does not. D is the line the reader plainly did keep, since they can say what each book convinced them of.
   - q: A sentence in a chapter will not resolve for you, however often you read it. Your marking system has a symbol for the main claim, one for doubt, one for confusion and one for a connection. Which do you use, and what do you do next?
     options:
       - Doubt, and put the sentence to one side as probably not worth the effort it is asking for
@@ -43,9 +43,9 @@ quiz:
       - Nothing has gone wrong, since a reader's system should settle on whatever they use most
       - The books were too easy for the system, and harder books would produce more varied marks
       - The system has collapsed into one mark, so it records locations again and needs rebuilding
-      - Five symbols is too many to hold in mind, and two or three would be used more consistently
+      - Five symbols is too many to hold in mind, so keep only the one that has been getting used
     answer: 2
-    explain: A system with one live symbol is a highlighter with extra steps, because a mark that is always the same carries no information about what kind of thought it was, so C. A mistakes a failure for a preference. B blames the books for a habit the reader brought to them. D moves in the wrong direction, since the whole value is in the distinctions between marks.
+    explain: A system with one live symbol is a highlighter with extra steps, because a mark that is always the same carries no information about what kind of thought it was, so C. A mistakes a failure for a preference. B blames the books for a habit the reader brought to them. D would make the collapse permanent, when the whole value is in the distinctions between marks.
 ---
 
 Lesson 5 asked you to do a great deal inside one chapter. Classify the book, state its claim in a sentence, outline its parts, find the terms and settle them, gather the argument from the sentences that carry it.
@@ -58,17 +58,17 @@ Start with the one distinction the rest of the lesson hangs on.
 
 **A mark must record what kind of thought you had.** This is the structure. This I doubt. This I did not understand. This connects to something else. This is a word the author is using in his own way.
 
-A highlight records one thing only: something here. It does not say what, and it does not say why, and a month later you will not know either, because what made the sentence worth colouring was in your head at the time and the colour did not capture it.
+A highlight records one thing only: something here. It doesn't say what, and it doesn't say why, and a month later you won't know either, because what made the sentence worth colouring was in your head at the time and the colour did not capture it.
 
 That is the whole argument for marking and against highlighting, and it is not a claim about effort or neatness. It is a claim about what each record contains. A judgement is a thing you can retrieve. A location is a thing you have to reconstruct, which means doing the reading again.
 
 Harvard Library's reading habits put the same point as an instruction: abandon the highlighter, write in the margins, develop a personal symbol system, and write down the questions you could not resolve so that they stay visible.[1]
 
-There is a second reason, and it is the one people miss. **The mark does most of its work at the moment you make it, not later.** To write "this does not follow" you have to decide that it does not follow. To write "he means something narrower by *accuracy* here" you have to notice the shift and name it. The note is a by-product of a judgement you were forced to make. Highlighting requires no judgement at all, which is exactly why it feels so restful.
+There is a second reason, and it is the one people miss. **The mark does most of its work at the moment you make it, not later.** To write "this does not follow" you have to decide that it does not follow. To write "he means something narrower by *accuracy* here" you have to notice the shift and name it. The note is a by-product of a judgement you were forced to make. Highlighting asks no judgement at all, which is exactly why it feels so restful.
 
 ## A system, and a page to use it on
 
-Here is a five-symbol system. It is not the only possible one and the symbols do not matter, but the five *kinds* do, because they are the five kinds of thought that turn out to be worth telling apart.
+Here is a five-symbol system. It isn't the only possible one and the symbols don't matter, but the five *kinds* do, because they are the five kinds of thought that turn out to be worth telling apart.
 
 | Mark | Means | Why it is its own mark |
 |---|---|---|
@@ -78,11 +78,19 @@ Here is a five-symbol system. It is not the only possible one and the symbols do
 | `O` around a word | a term, in the author's own sense | lesson 5's rule 5, and the reason you will want it on page 300 |
 | an arrow | connects to something else | the connection is the part you will never reconstruct |
 
-Now a real page. This is John Ruskin in 1865, from the lecture "Of Kings' Treasuries", which is about how to read, and which you can [open free at Project Gutenberg](https://www.gutenberg.org/cache/epub/1293/pg1293.txt).[2]
+Now a real page. This is John Ruskin, from a lecture called "Of Kings' Treasuries" that he gave in Manchester in December 1864 in aid of a library fund, and published the next year in *Sesame and Lilies*. It is about how to read, and you can [open it free at Project Gutenberg](https://www.gutenberg.org/cache/epub/1293/pg1293.txt).[2]
 
 > And, therefore, first of all, I tell you earnestly and authoritatively (I _know_ I am right in this), you must get into the habit of looking intensely at words, and assuring yourself of their meaning, syllable by syllable—nay, letter by letter. For though it is only by reason of the opposition of letters in the function of signs, to sounds in the function of signs, that the study of books is called "literature," and that a man versed in it is called, by the consent of nations, a man of letters instead of a man of books, or of words, you may yet connect with that accidental nomenclature this real fact:—that you might read all the books in the British Museum (if you could live long enough), and remain an utterly "illiterate," uneducated person; but that if you read ten pages of a good book, letter by letter,—that is to say, with real accuracy,—you are for evermore in some measure an educated person. The entire difference between education and non-education (as regards the merely intellectual part of it), consists in this accuracy.[2]
 
-Read it once before you look at what follows. It is one paragraph and it is harder than it looks.
+Read it once before you look at what follows. It is the opening of one paragraph, and it is harder than it looks.
+
+Ruskin does not stop where I have stopped him. The same paragraph runs on for another two hundred words, into the "peerage" of words, words of "ancient blood" against words of "modern canaille", and a well-educated gentleman who can tell one from the other. There his subject becomes class rather than reading. That part is at the link, and it is worth seeing what I have cut before you take him as an authority on anything except accuracy.
+
+:::predict Before you look at mine. You have read it once. Which single clause could you not restate in your own words, and which sentence would you want to argue with?
+If you picked the clause about the opposition of letters to sounds, we agree, and mark 3 below is what I did with it. If you picked the sentence about ten pages making you educated for evermore, we agree there too, and that is mark 5.
+
+If you picked neither, read it once more before going on. The marks below will look obvious in a way they were not.
+:::
 
 ## The same page, marked
 
@@ -90,22 +98,22 @@ Six marks. Every one of them is a judgement I had to make in order to write it.
 
 1. **Vertical line** beside *you must get into the habit of looking intensely at words, and assuring yourself of their meaning*. That is the claim. Everything else in the paragraph either supports it, decorates it, or overstates it, and I want to be able to find it without rereading the rest.
 
-2. **X** beside *(I know I am right in this)*. Ruskin is offering his own certainty as a reason. It is not one. Marking it is not a complaint about Ruskin, who is entitled to be sure of things. It is a note that this particular sentence gave me nothing to weigh, so the claim is still waiting for its support.
+2. **X** beside *(I know I am right in this)*. Ruskin is offering his own certainty as a reason. It is not one. Marking it is not a complaint about Ruskin, who is entitled to be sure of things. It is a note that this particular sentence gave me nothing to weigh, so at this point in the paragraph the claim is still unsupported, and what I want to know is whether the next two sentences repair that.
 
-3. **?** beside *For though it is only by reason of the opposition of letters in the function of signs, to sounds in the function of signs*. I have read that four times and I can restate the paragraph around it and not that clause. By lesson 3's diagnosis this is syntax rather than missing background, and by lesson 2's rule about a first pass, the right move is to mark it and keep going rather than stall here.
+3. **?** beside *For though it is only by reason of the opposition of letters in the function of signs, to sounds in the function of signs*. I have read that four times and I can restate the paragraph around it and not that clause. Lesson 3 would have me decide whether that is syntax or missing background, and I could not decide, which is itself worth knowing. The structure comes apart easily enough, and I am still holding nothing, so it is background rather than syntax and the fix is not on this page. By lesson 2's rule about a first pass, I mark it and keep going, and the mark is what sends me back.
 
-4. **O** around *literature* and around *illiterate*. Ruskin is using both in a sense of his own, and the whole sentence turns on it: for him an "illiterate" person is not one who cannot read but one who reads without accuracy. If I take the ordinary sense, the sentence about the British Museum reads as nonsense. That is lesson 5's fifth rule arriving in the margin.
+4. **O** around *literature* and around *illiterate*. Ruskin is using both in a sense of his own, and he tells you so himself by putting them in quotation marks, which is the textual signal worth learning to spot. The whole sentence turns on it: for him an "illiterate" person is not one who cannot read but one who reads without accuracy. If I take the ordinary sense, the sentence about the British Museum reads as nonsense. That is lesson 5's fifth rule arriving in the margin.
 
 5. **X** beside *you are for evermore in some measure an educated person*. Ten pages read accurately, and you are permanently educated in some measure. That is a much larger claim than anything he has given a reason for, and the hedge "in some measure" is doing a great deal of quiet work.
 
-6. **Arrow** beside *The entire difference between education and non-education ... consists in this accuracy*, pointing to my note on lesson 5. This is the same thesis as coming to terms with an author, arrived at from a different direction and a century earlier, and it is the connection I would certainly have lost.
+6. **Arrow** beside *The entire difference between education and non-education ... consists in this accuracy*, pointing to my note on lesson 5. It points there and it does not agree with it, which is why the arrow is worth more than a tick. Ruskin's accuracy is accuracy about what a word means in itself, letter by letter, which is the dictionary's kind. Lesson 5's rule 5 wants the sense *this author* gives a word, which is often not the dictionary's at all. Two men seventy-five years apart, both saying the reader's real work happens at the level of the single word, and disagreeing about where the answer comes from. That disagreement is the connection, and it is exactly the thing I would have lost.
 
 :::predict Now the other version. Suppose you had highlighted that paragraph instead, the way most people do. Which phrases would a highlighter have taken, and what would you be able to say about the paragraph in a month?
-Almost certainly three: *looking intensely at words*, *letter by letter*, and *an educated person*. They are the memorable phrases and they are what the eye stops on.
+My guess is three: *looking intensely at words*, *letter by letter*, and *an educated person*. They are the memorable phrases and they are what the eye stops on.
 
 What that record tells you in a month is that Ruskin said something about reading words carefully. It does not tell you that his support for it was an assertion of his own confidence, that one clause defeated you, that two of his words are not being used in their ordinary senses, that you disagreed with his conclusion, or what it connected to.
 
-Four of those six were the useful ones, and none of them is a phrase. That is the argument in one comparison.
+Five of those six were the useful ones, and not one of them is a phrase. That is the argument in one comparison.
 :::
 
 Notice what the marks did *not* need to be. They are not neat, they are not sentences, and four of them are single characters. Marking is not note-taking and it is not a summary. It is a running record of the kinds of thought a page provoked, made fast enough that it does not stop the reading.
@@ -144,15 +152,15 @@ Two things make this work rather than being a chore. Write the page number *firs
 
 ## What people get wrong
 
-**"Highlighting is studying."** It is the most popular study technique there is and it is among the least effective. This course does not re-teach that evidence, because [How to Learn Anything](/courses/how-to-learn-anything/) already has it in its first two lessons. What this lesson adds is the reason: a highlight cannot record a judgement, and a judgement is the only part worth keeping.
+**"Highlighting is studying."** It is among the most common study techniques and among the least effective ones. This course does not re-teach that evidence, because [How to Learn Anything](/courses/how-to-learn-anything/) already has it in its lessons 1 and 3. What this lesson adds is the reason: a highlight cannot record a judgement, and a judgement is the only part worth keeping.
 
-**"My notes should be neat."** Neatness is a cost with no return here. A mark that takes four seconds gets made; a mark that takes thirty does not, and the one that does not get made is worth nothing however tidy it would have been.
+**"My notes should be neat."** Neatness is a cost with no return here. A mark that takes four seconds gets made; a mark that takes thirty doesn't, and the one that doesn't get made is worth nothing however tidy it would have been.
 
-**"I will remember why I marked it."** You will not, and the interval is shorter than you think. This is the same illusion the study research calls fluency: the sense of understanding at the moment of reading is strong and it fades, and it is at its strongest exactly when you have understood least.
+**"I will remember why I marked it."** You won't, and the interval is shorter than you think. How to Learn Anything calls this the fluency illusion: while the page is in front of you the sense of understanding is strong, because the page is doing the remembering, and it goes when the page does. I have no evidence for the stronger version you sometimes hear, that the feeling is strongest exactly where the understanding is weakest. What I can tell you is that it is strong enough, often enough, that you should not spend it on remembering why you marked something.
 
-**"Marking a library book is fine."** It is not yours, the next reader inherits your judgements whether or not they want them, and a margin full of somebody else's certainties is a worse place to read than a clean page. Use the sheet.
+**"Marking a library book is fine."** It isn't yours, the next reader inherits your judgements whether or not they want them, and a margin full of somebody else's certainties is a worse place to read than a clean page. Use the sheet.
 
-**"The marks are for later."** Half their value is spent at the moment of reading, in the judgement you had to make to write one. A reader who marks and never reopens the book has still read it better than one who did not.
+**"The marks are for later."** Most of their value is spent at the moment of reading, in the judgement you had to make to write one. A reader who marks and never reopens the book has still read it better than one who did not, which is worth knowing on the days you will not get back to it.
 
 ## Practice
 
@@ -163,7 +171,7 @@ Then mark one chapter of whatever you are reading. Allow 45 minutes, and give th
 
 Then close the book and write the chapter's argument from your marks alone, without reopening it.
 
-The gap between what you can write and what the chapter said is the measurement, and it tells you about your system rather than about your memory. If you could not do it, look at which of the five symbols you actually used. Most first attempts use two.
+The gap between what you can write and what the chapter said is the measurement, and it tells you about your system rather than about your memory. If you could not do it, look at which of the five symbols you actually used. In my experience most first attempts use two, and it is worth knowing that before you decide the system has failed.
 :::
 
 :::exercise The month test
@@ -171,7 +179,7 @@ Put the marked chapter away and put a note in your calendar for four weeks' time
 
 When it comes up, write down everything you can say about the chapter, first from memory alone, then with your one-page record in front of you, then with the marked chapter itself.
 
-Three lists of different lengths. The gap between the first and the second is what the record bought you. The gap between the second and the third is what the record failed to capture, and that is the most useful thing this exercise produces, because it tells you what to add to line 2 or line 5 next time.
+Three lists of different lengths. The gap between the first and the second is what the record bought you. The gap between the second and the third is what the record failed to capture, and that is the most useful thing this exercise produces, because it tells you which line to write more fully next time, usually line 6.
 :::
 
 ## Connections
@@ -184,14 +192,16 @@ Lesson 5 is what the marks are in service of. The terms you circle become the te
 
 Lesson 7 comes next, and the rule there is that you may not say you agree or disagree until you can say you understand. Your `X` marks are not yet disagreements. They are places where you owe yourself a reason.
 
+What this lesson does not do is keep notes across years. The one-page record serves one book. A system that makes a hundred of those records findable five years later is a different subject with its own course, Note-Taking and Personal Knowledge, in Term 2. This lesson stops at the edge of one book on purpose.
+
 ## Go deeper
 
 - **[Harvard Library, "Interrogating Texts: Six Reading Habits"](https://guides.library.harvard.edu/sixreadinghabits).** Free, and its second habit is this lesson in three paragraphs, including the instruction to abandon highlighters and the reason for writing the unresolved questions down.
-- **[How to Learn Anything](/courses/how-to-learn-anything/), lessons 1 and 2.** The evidence on highlighting and rereading, which this course leans on and does not repeat.
-- **Mortimer J. Adler, "How to Mark a Book", *Saturday Review of Literature*, 6 July 1940.** The original statement of marginalia as thinking rather than decoration. It is short, it is still in copyright, and every reproduction a search engine will find is unauthorised, including one that carries an open-licence badge belonging to the site rather than to the essay. So this course cites it and does not link it, and if you find a copy, notice that the famous sentence is usually quoted with its first six words removed.
+- **[How to Learn Anything](/courses/how-to-learn-anything/), lessons 1 and 3.** The evidence on highlighting and rereading, which this course leans on and does not repeat.
+- **Mortimer J. Adler, "How to Mark a Book", *Saturday Review of Literature*, 6 July 1940.** The original statement of marginalia as thinking rather than decoration. It is short, it is still in copyright on the evidence of the renewal register, and every reproduction we could find is unauthorised, including one that carries an open-licence badge belonging to the site rather than to the essay. So this course cites it and does not link it, and if you find a copy, notice that the famous sentence is usually quoted with its opening clause removed.
 
 ## Sources
 
 1. [Harvard Library, "Interrogating Texts: Six Reading Habits to Develop in Your First Year"](https://guides.library.harvard.edu/sixreadinghabits). Read in full. The annotation habit, which says to abandon highlighters in favour of marginal notes and a personal symbol system, and to write down the questions you could not resolve so they stay visible.
-2. John Ruskin, "Of Kings' Treasuries", in *Sesame and Lilies*, 1865, [Project Gutenberg #1293](https://www.gutenberg.org/cache/epub/1293/pg1293.txt), public domain. The paragraph quoted above is verbatim from that text, including its dashes and its italics on *know*, which are the transcription's rendering of Ruskin's emphasis. Curly quotation marks and apostrophes have been set as straight ones and the double spaces between sentences closed up, which changes no word.
+2. John Ruskin, "Of Kings' Treasuries", in *Sesame and Lilies*, 1865, [Project Gutenberg #1293](https://www.gutenberg.org/cache/epub/1293/pg1293.txt), public domain, transcribed from the 1894 George Allen edition, where the lecture is headed "Of King's Treasuries". **The lesson quotes the opening of the paragraph and stops**, and says in the body that it has stopped and what it left out. The paragraph quoted above is verbatim from that text, including its dashes and its italics on *know*, which are the transcription's rendering of Ruskin's emphasis. Curly quotation marks and apostrophes have been set as straight ones and the double spaces between sentences closed up, which changes no word.
 3. Mortimer J. Adler, "How to Mark a Book", *Saturday Review of Literature*, 6 July 1940. Used here only for the caveat that one should not mark a book one does not own, given in this lesson's own words. `research/SOURCES.md` records this essay as read at quotation level only and not confirmed against a scan, so **no sentence of it is quoted here**, and it is cited rather than linked for the reason given in Go deeper. That entry also records two things worth knowing about this essay: the sentence about mutilation and love that circulates everywhere is a clipped version of what Adler wrote, and almost every copy online misdates the essay to 1941.

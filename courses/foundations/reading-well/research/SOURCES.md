@@ -50,9 +50,39 @@ the debt is.
     until you have completed your outline and interpretation, glossed by Adler as "Do not say you
     agree, disagree, or suspend judgment, until you can say 'I understand.'" (10) do not disagree
     disputatiously, (11) present good reasons for any critical judgment, then the four grounds on
-    which you may disagree: (12) uninformed, (13) misinformed, (14) illogical, (15) incomplete. His
-    note on the last four is the part that gets dropped: failing in all of the first three, "you
-    must agree, at least in part".
+    which you may disagree: (12) uninformed, (13) misinformed, (14) illogical, (15) incomplete.
+  - **The third stage in Adler's own words, re-read from the scan on 2026-09-18** because lessons 7
+    and 10 lean on it and an earlier version of this entry was too thin to support them. Two things
+    a lesson had taken from `OUTLINE.md` rather than from here are confirmed, and one was wrong.
+    - **Rule 11 and the opinion distinction.** "His propositions are nothing but expressions of
+      personal opinion unless they are supported by reasons", and the reader is required "to
+      distinguish between genuine knowledge and mere opinion".
+    - **Uninformed.** "To say that an author is uninformed is to say that he lacks some piece of
+      knowledge that is relevant to the problem he is trying to solve." To support it, "you must be
+      able yourself to state the knowledge that the author lacks and show how it is relevant, how it
+      makes a difference to his conclusions." **Adler's own illustration is Darwin**, who "lacked the
+      knowledge of genetics that the work of Mendel and later experimentalists now provides", which
+      Adler calls "one of the major defects in *The Origin of Species*"; his second is Gibbon.
+    - **Misinformed.** "To say that an author is misinformed is to say that he asserts what is not
+      the case. His error here may be owing to lack of knowledge, but the error is more than that.
+      Whatever its cause, it consists in making assertions contrary to fact." **"Whatever its cause"
+      rules out the availability test** a draft of lesson 7 invented, in which the difference between
+      the two grounds was whether the fact could have been checked. It is not. The difference is
+      silence against a positive false claim.
+    - **Illogical.** "To say that an author is illogical is to say that he has committed a fallacy in
+      reasoning", of which he names two sorts, the non sequitur and inconsistency, and the reader
+      "must be able to show the precise respect in which" the author went wrong.
+    - **Incomplete, and the suspension clause.** "This fourth point is strictly not a basis for
+      disagreement. It is critically adverse only to the extent that it marks the limitations of the
+      author's achievement. A reader who agrees with a book in part, because he finds no reason to
+      make any of the other points of adverse criticism, may, nevertheless, suspend judgment on the
+      whole, in the light of this fourth point about the book's incompleteness."
+    - **The demanding rule, which is stronger than this entry used to record.** "You have no freedom
+      of will about this. It is not your sacred privilege to decide whether you are going to agree or
+      disagree. If you have not been able to show that the author is uninformed, misinformed, or
+      illogical on relevant matters, you simply cannot disagree. You must agree." He then names the
+      sentence he is forbidding: "I find nothing wrong with your premises, and no errors in
+      reasoning, but I don't agree with your conclusions."
   - **Five steps of syntopical reading** (reading many books on one question): finding the relevant
     passages, bringing the authors to terms, getting the questions clear, defining the issues,
     analysing the discussion. His framing is the teachable part: "In syntopical reading, it is you
@@ -102,6 +132,57 @@ the debt is.
 
   Useful as the primary statement of marginalia as thinking rather than decoration, which a lesson
   may say in its own words. Lesson 6 does exactly that.
+
+- **John Ruskin, "Of Kings' Treasuries", lecture I of *Sesame and Lilies* (1865).** **Read in full**
+  via [Project Gutenberg #1293](https://www.gutenberg.org/cache/epub/1293/pg1293.txt), transcribed
+  from the 1894 George Allen edition, where the lecture is headed "Of King's Treasuries". Public
+  domain. Delivered at Rusholme, Manchester, in December 1864 in aid of a library fund, and published
+  the following year. Used in lesson 6 as something to mark and in lesson 7 as something to judge: one
+  paragraph on looking intensely at words, in which Ruskin uses "literature" and "illiterate" in
+  senses of his own and signals it by putting them in quotation marks himself. **The paragraph
+  continues past the point where lesson 6 stops quoting it**, into the "peerage" of words, words of
+  "ancient blood" against words of "modern canaille", and a mistaken syllable rightly marking a man
+  inferior "for ever"; there his subject is class rather than reading. **Any lesson quoting this
+  passage says in the body that it cut, and where.** The quoted wording was collated against three
+  independent Internet Archive scans of earlier printings on 2026-09-18 and is stable across
+  editions. Note the qualifier a lesson must not drop: his claim is that "the entire difference
+  between education and non-education (as regards the merely intellectual part of it), consists in
+  this accuracy."
+
+- **UK Parliament, *Hansard*, "NAVY—RULE OF THE ROAD AT SEA. RESOLUTION", House of Commons, 8 June
+  1875, vol 224 cc1561-2.** **Read in full** at
+  [historic-hansard](https://api.parliament.uk/historic-hansard/commons/1875/jun/08/resolution),
+  along with the preceding item and the sitting index. Used as lesson 3's opening example: a private
+  member's motion on the international rules for preventing collisions at sea, stopped by a count-out
+  before it was debated. Chosen because **institutional procedure is close to the only domain where
+  the words stay in their plain senses and only the significance is assumed**; cricket, beekeeping,
+  gardening, bell-ringing and sailing were all tried and all failed, because their plain-looking words
+  are technical terms in disguise.
+
+  **What was verified, and how, on 2026-09-18.** The three quoted lines are verbatim including the em
+  dash. The dinner suspension is on the page before: "And it being now Seven of the clock, the House
+  suspended its sitting. The House resumed its sitting at Nine of the clock." The adjournment time of
+  every Commons sitting in June 1875 was read off the site one at a time: thirteen ran past midnight,
+  the latest on 17 June at "a quarter after Three o'clock", and the Wednesday sittings ended at or
+  just before six in the evening by convention. Hay's Hansard index for 1875 shows no return of this
+  motion. 8 June 1875 was a Tuesday.
+
+  **What is not sourced here and what a lesson may therefore say.** The procedural facts, that forty
+  is the quorum, that taking notice is a member's act, that a count-out ends the whole sitting, and
+  that contemporaries complained of independent motions being killed this way, come from the History
+  of Parliament Trust's *Victorian Commons* and were confirmed there rather than from Hansard itself.
+  **Two phrases in the passage are terms of art built from ordinary words**, "Notice taken" and "House
+  counted", and a lesson that claims the passage has no technical vocabulary is wrong in exactly the
+  way the Reynolds critique describes. Say so instead.
+
+  **On rights.** The 1875 text is long out of copyright. The digitisation is published by UK
+  Parliament, whose Historic Hansard index states that material on the site remains under
+  Parliamentary Copyright; statutory parliamentary copyright covers material made from August 1989,
+  and pre-1909 Hansard was produced by a private publisher, so neither claim is simple. Quote short
+  passages for criticism and review, with attribution, and link Parliament's own
+  [Open Parliament Licence v3.0](https://www.parliament.uk/site-information/copyright-parliament/open-parliament-licence/)
+  where it applies. **Do not assert that parliamentary copyright has expired**; the site says the
+  opposite and a draft of lesson 3 shipped that error.
 
 ---
 

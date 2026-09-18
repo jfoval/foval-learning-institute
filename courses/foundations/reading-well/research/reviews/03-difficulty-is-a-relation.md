@@ -224,3 +224,74 @@ seven-o'clock suspension and nine-o'clock resumption were read from the page its
 reviewer said so; if the opener is rewritten again rather than patched, the wrong-facts trigger fires
 and a third pass is owed. `npm run validate` exits 0, `npm run quiz` reports nothing for this course,
 `npm run minutes` measures 55 against a declared 50, inside precision.
+
+## 2026-09-18 — Lesson 03 — neutrality audit
+**Auditor:** fresh-context subagent, against standards Part 3, `docs/VALUES.md` and the outline's own
+neutrality note, checking the lesson against four perspectives: a parliamentary historian of the
+reformed Commons, a knowledge-effects researcher in the Hirsch and Willingham line, a critic of the
+Science of Reading movement, and a second-language reader. **Run because `course.yaml` says that
+individual lessons drawing their examples from history, religion or politics still get the audit, and
+this lesson's opener is now a Victorian parliamentary proceeding.**
+
+It re-verified the whole opener independently and everything checkable held: the three lines verbatim
+including the em dash, the motion quoted correctly, the "lament-able" line break, the dinner
+suspension on the preceding page, thirteen of June 1875's twenty-two Commons sittings adjourning past
+midnight with the latest on the 17th at a quarter past three, Hay never returning the motion, and all
+four Reynolds quotations verbatim and correctly targeted.
+
+**Must-fix findings, all four applied:**
+
+1. [3.1] "The record does not report a defeat, because to the readers it was written for, nothing had
+   gone wrong that needed reporting." The "because" asserts an editorial attitude the record cannot
+   establish, and attributes an indifference to loss of life that nothing supports. It was the one
+   sentence in a scrupulously hedged lesson that read a mind without a hedge. The real reason is
+   duller and better: there was no defeat because there was no division. The motion lapsed.
+2. [3.3] The "notice taken" bullet offered two motives and both were purposive, so the reader met a
+   two-option menu in which both options were somebody acting with intent. The commonest cause, a
+   member who can see the benches are empty and says so, arrived two bullets later. It now leads.
+3. [3.3, 3.4] **The 2025 review was presented as a disinterested audit and its own abstract says
+   otherwise.** It says these studies keep appearing in teacher journals, books and podcasts
+   "especially within science of reading conversations", and closes by asking the field to build on
+   non-baseball work. That is a live argument about how reading is taught and the reviewers are in
+   it. The omission was not neutral in effect. The fix also cuts the lesson's way, and says so: their
+   opening concession counts for more rather than less, because they grant the knowledge link to an
+   audience with reason to want it qualified.
+4. [3.1] "much more often a misdiagnosis of missing background" survived the earlier sweep that
+   hedged four claims of exactly that kind, and it is the claim that most flatters the reader.
+
+**What the audit found passing, recorded because a clean section is a result:** presentism, where the
+dinner bullet and the adjournment times establish what "early" meant in that House's own terms and
+supply the institution's routine as the default explanation before any tactical reading; the motive
+refusal, which states what the record shows and then declines motive explicitly; even-handedness on
+the baseball material, including the half of the critique that damages the lesson's own framing,
+which the lesson says out loud; the disclosure that replaced the sneer, which is real rather than
+performative because it goes on to decline a claim the lesson would like to make; no characterisation
+of any named person that an adherent would reject; the second-language callout, which the audit
+called the model the lesson's other hedges should copy; and nobody as the butt of anything.
+
+**Two findings recorded and not fixed here.**
+
+**The Hansard material had no `SOURCES.md` entry**, which `courses/CLAUDE.md` rule 1 says is how a
+lesson fails an audit on exactly the gap it was drafted into. Every procedural claim in the opener
+rested on no Stage 1 record. **Fixed in the same commit**: `SOURCES.md` now carries a full entry with
+the read depth, what was verified and how, what the procedural claims rest on, the two phrases that
+are terms of art, and the rights position with the error a draft shipped.
+
+**Every worked example in this lesson comes from one world.** Parliament, landlord and tenant, bond
+duration: three domains, all British professional-institutional, in a lesson whose thesis is that
+difficulty is relative to the reader. The outline offered a liturgy as a third option and declining it
+was right for a neutral school, since a scriptural or liturgical text used as the paradigm of opaque
+language invites a reading the standards do not want. The exercise repairs the balance by sending the
+reader to their own text. **An example from a non-professional world is owed eventually and is not a
+blocker**, and the next drafter should know that the liturgy option was declined deliberately and
+that taking it would be the point to revisit the course-level `sensitive_domain` setting.
+
+**Third finding, answered:** the audit named a 3.4 domain nobody had noticed, which is **education**.
+The knowledge-versus-general-skill dispute is live policy, and this lesson sits inside it. Its verdict
+was that the lesson is on the right side of the line, because the claim it actually makes is the
+narrow one about comprehension of a given text rather than the policy claim about curriculum, but
+that must-fix 3 was the necessary remedy and is sufficient.
+
+**Verdict: passes, with the four fixes applied.** No course-level change: `sensitive_domain: false`
+is right for a course on how to read, and the qualifier already in `course.yaml` is what caught this
+lesson, so the mechanism works as designed.

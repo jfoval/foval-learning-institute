@@ -23,10 +23,10 @@ Rewrite these five lines each session. Nothing else goes in this block.
   clean.** Lesson 3 has had all of its review findings applied, including the new
   opener, and its **second pass is out**, owed because the first found wrong facts. Lesson 5 has
   had its first review applied, six critical findings and all of them factual, and a **targeted
-  re-check is out**. Lesson 6 is drafted and its Stage 4 review is out, and so is lesson 7's.
-  Lesson 3 has been through its second pass and a **neutrality audit is out on it**, which
-  `courses/CLAUDE.md` rule 6 requires before publish now that its opener is a parliamentary
-  proceeding. Lesson 5 has been through its targeted re-check and is clean. Next is `/draft-lesson courses/foundations/reading-well 6`, as many lessons as the
+  re-check is out**. Lessons 3, 5, 6 and 7 have all been through a review and
+  had every finding applied; lesson 3 has also passed a neutrality audit. **Two narrow second passes
+  are owed**: lesson 6's Ruskin section and lesson 7's three-objections section, both of which are
+  substantially new prose. Next is `/draft-lesson courses/foundations/reading-well 8`. Next is `/draft-lesson courses/foundations/reading-well 6`, as many lessons as the
   budget allows, after reading that course's `research/reviews/course-wide.md`.
 - **Where to look for a real example when the obvious domains all fail.** Lesson 3 needed a short
   real text in which every word is ordinary and a newcomer still cannot say what happened. Cricket,
@@ -91,6 +91,14 @@ fact-checked in a fresh context, most of them twice and several three times. `np
 prints nothing about scripts now because there is nothing left to print. What the night taught about
 writing them is in the two craft notes above and in the ceiling note; what it taught about checking
 them is the next paragraph.
+
+**Adler's third stage is now recorded verbatim in Reading Well's SOURCES.md, re-read from the scan
+on 2026-09-18.** Four lessons had been leaning on `OUTLINE.md` for it, which is a plan and not a
+citation, and one of them invented a distinction Adler explicitly rules out. Two things came back
+stronger than the course had been recording. The demanding rule is blunter: "You have no freedom of
+will about this ... you simply cannot disagree. You must agree." And **Adler's own illustration of an
+uninformed author is Darwin lacking genetics**, which he calls "one of the major defects in *The
+Origin of Species*", so lesson 7's example now comes from the book lesson 5 worked.
 
 **This drafter quotes accurately and describes carelessly, measured over five Reading Well
 lessons.** Every quotation in lesson 5 was verbatim, checked character by character against the
