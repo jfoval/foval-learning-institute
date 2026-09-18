@@ -16,30 +16,51 @@ description: >-
   habits that account for most of the difference between people who get compromised and people
   who do not. It assumes nothing, it is the same on Windows, macOS and Linux where that matters,
   and it says which of the advice you have heard is evidence-based and which is folklore that
-  survived because it sounds careful.
+  survived because it sounds careful. It teaches the desktop and laptop model of a computer, and
+  says in its first lesson why that model is worth having even if most of your screen time is a
+  phone.
 outcomes:
   - >-
-    Say where a file is, move and find things by path rather than by hunting, and explain why a
-    file that "disappeared" usually did not
+    Say where a file is, write its address as an absolute or a relative path, and diagnose a file
+    that "disappeared" against the handful of causes that actually explain it
   - >-
-    Open a terminal on your own machine, run a command, read its output and its errors, and combine
-    a few commands to do something you could not do by clicking
+    Say what a file extension does and does not determine, and produce plain text when a program
+    needs plain text
   - >-
-    Describe what happens between typing a web address and seeing a page, in enough detail to work
-    out where a connection has failed
+    Open a terminal on your own machine, installing one first if you are on Windows, and say where
+    it is standing and what that changes about every command you type
   - >-
-    Install software from a source you have reason to trust, and say what you are trusting and what
-    could go wrong
+    Read a command as a grammar rather than a spell, and say from an error message alone whether the
+    fault is the location, the program name, or the program
   - >-
-    Judge a password, a prompt, a link, or a request for access, and name the attack each habit is
-    defending against
+    Combine commands with pipes and redirection to answer a question about your own files that you
+    could not answer by clicking
   - >-
-    Keep your own data alive: back it up, know which copy is the real one, and recover from a failure
-    you have practised
+    Describe what happens between typing a web address and seeing a page, and work out from a symptom
+    which step failed
   - >-
-    Read what a service knows about you, change what it keeps, and weigh convenience against exposure
-    on evidence rather than slogans
+    Say what HTTPS, a virtual private network and a private browsing window each hide, from whom and
+    where, and which of your own worries none of them touches
+  - >-
+    Install software from a source you have reason to trust, naming every party in the chain and
+    saying what an administrator password actually grants
+  - >-
+    Judge a password against the current guidance, place an account on the ladder from nothing to a
+    passkey, and check the recovery path that most advice forgets
+  - >-
+    Recognise a con by its structure rather than by a list of current scams, and work through the
+    first ten minutes after clicking something you should not have
+  - >-
+    Keep your own data alive: say what makes a copy a backup, tell sync from backup, and restore a
+    file you have actually practised restoring
+  - >-
+    Read what a service keeps about you from its own export and activity record, and weigh
+    convenience against exposure against your own threat model rather than a slogan
 # Term 1 on the Foval Core. Term 6's Python course assumes the terminal half of this one and never
 # teaches it; the scope was widened on 2026-09-18 so the terminal is taught once, five terms earlier.
+# Nothing here depends on having taken the four Term 1 courses before it. How to Learn Anything,
+# Reading Well, Writing Clearly and Logic and Argument are used and linked (retrieval and spacing,
+# reading a source from its attribution, the four rules for sources) and never re-taught, which is a
+# reason to take them first and not a requirement. See research/OUTLINE.md.
 prerequisites: []
 sensitive_domain: false

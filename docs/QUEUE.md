@@ -22,8 +22,6 @@ Rewrite these five lines each session. Nothing else goes in this block.
   premise honestly rather than claiming understanding makes you safer, the backup lesson is
   narrowed until Stage 1 goes back for two named documents, every figure carries its year, and the
   course teaches the desktop model and says so because none of the research is about phones.
-  **One thing outstanding: `course.yaml`'s outcomes still describe the seven I wrote at Stage 0,
-  not the thirteen lessons the outline plans.** Reconcile them in the same commit as lesson 1.
 - **Every published course is written**, Reading Well included as of 2026-09-19: ten lessons, a
   twenty-item course-end test, the project, and ten fact-checked scripts. It is the eighth live
   course and the second on the Foval Core, and its ten episodes are on the debt ledger. Nothing on
