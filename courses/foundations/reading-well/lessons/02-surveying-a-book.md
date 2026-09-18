@@ -139,7 +139,7 @@ That took about thirty minutes of work, and it is knowledge about the whole book
 
 ## The four questions, and which ones a survey answers
 
-Adler also asks four questions of any book, and they are the spine of the rest of this course: what is the book about as a whole; what is being said in detail, and how; is the book true, in whole or part; and what of it.[1] Lesson 5 works all four properly. They are worth having now, because they tell you exactly what a survey is and is not for.
+Adler also asks four questions of any book, and they are the spine of the rest of this course: what is the book about as a whole; what is being said in detail, and how; is the book true, in whole or part; and what of it.[1] Lessons 5 and 7 work all four properly. They are worth having now, because they tell you exactly what a survey is and is not for.
 
 :::checkpoint You have surveyed Darwin and written the verdict above. Which of those four questions have you answered, and which have you not touched?
 You have answered the first, what the book is about as a whole, and you have made a start on the second, what is being said in detail and how, at the level of which chapter does what.

@@ -1,6 +1,6 @@
 ---
 title: "Finding the argument: coming to terms with an author"
-minutes: 75
+minutes: 105
 objectives:
   - Apply the four structural rules to a chapter and produce an outline of its parts
   - Identify an author's key terms and state what each one means in that author's usage rather than in general usage
@@ -14,19 +14,19 @@ quiz:
       - Look for a technical definition of the word in a reference work on architecture
     answer: 1
     explain: Coming to terms means finding the one settled sense a word carries in this author's usage, and that is a job a dictionary cannot do because a dictionary records general usage, so B. A hands the job to a book the author did not consult. C discards the word most likely to be a term, since a word that resists the dictionary is usually the author's own. D is better than A and still wrong here, because the question is what this author means rather than what the field means.
-  - q: An author writes that populations grow geometrically, and concludes two sentences later that many more individuals are born than can live. A reader reconstructing the argument finds the conclusion does not follow from that premise alone. What is missing, and where should they look for it?
+  - q: A writer argues that car ownership in a city is rising steadily and concludes, two sentences later, that congestion will get worse every year. A reader setting the argument out finds the conclusion does not follow from that premise alone. What is missing, and where should they look for it?
     options:
-      - A statistical claim about birth rates, which the author has probably left to a later chapter
-      - Nothing is missing, since geometrical growth by itself entails that most offspring die young
-      - A definition of the word population, without which the two sentences cannot be compared at all
-      - The premise that food and room do not grow at the same rate, usually buried in a passing clause
+      - A figure for how many of those cars are actually driven, which belongs in a later chapter
+      - Nothing is missing, because more cars owned is what the word congestion already means
+      - A definition of congestion, without which the two sentences cannot be compared at all
+      - The premise that road capacity is not rising too, usually somewhere in a passing clause
     answer: 3
-    explain: Growth on its own entails nothing about survival until you add that what the growing population lives on is not growing with it, and that premise is normally present but demoted into a subordinate clause, so D. A invents a missing chapter. B asserts an entailment that does not hold, which is exactly the gap the reconstruction exposes. C names a real habit, coming to terms, and applies it to a word that is not doing the work here.
+    explain: Rising ownership entails nothing about congestion until you add that the roads are not growing with it, and a writer who thinks that obvious will put it in an aside rather than state it, so D. A asks for a detail the argument does not turn on. B collapses the conclusion into the premise, which is exactly the gap the reconstruction exposes. C names a real habit, coming to terms, and applies it to a word that is not carrying the weight here.
   - q: The rules are staged, with outlining before interpretation and both before criticism. A reader says the order is a matter of taste. What is the strongest reason it is not?
     options:
       - The stages were validated in trials that showed readers do better in this order
       - Publishers expect reviews to follow the order, so the convention is worth keeping
-      - Each stage produces the material the next one needs, so skipping one leaves the next guessing
+      - Each stage produces what the next one needs, so skipping one leaves the next guessing
       - The order matters only for books you intend to write about afterwards
     answer: 2
     explain: You cannot say what an argument is worth until you have the argument, and you cannot have the argument until you have the terms it is built from, so C. A invents evidence, and this course would have to cite it if it existed. B is not a reason about reading at all. D confines the rules to a purpose they were never given, and a reader who never writes a word still needs the argument before the verdict.
@@ -50,7 +50,7 @@ quiz:
 
 Lesson 2 decided whether to read the book. Lesson 3 explained why it was hard and what to do about it. This lesson is about what you do once you are inside a chapter and have decided to take it seriously.
 
-There is a procedure, it is old, and it is more demanding than it looks. Most of the work turns out to be one step that readers skip because it sounds like a formality.
+There's a procedure, it's old, and it's more demanding than it looks. Most of the work turns out to be one step that readers skip because it sounds like a formality.
 
 ## Four questions, and the stage this lesson sits in
 
@@ -60,6 +60,8 @@ Those four questions are answered by fifteen numbered rules in three stages. The
 
 This lesson is the first two stages, rules 1 to 8. Lesson 7 is the third. The order is not decoration, and the reason will matter to you before the end of this lesson: **each stage produces the material the next one needs.** You cannot say whether an argument holds until you have the argument, and you cannot have the argument until you know what the words in it mean in this author's hands.
 
+Two things to hold alongside that. **There is a real objection to this ordering, and lesson 9 is where it lands**: expert readers of historical documents start by judging the source, before they have understood a line of it, and read better for doing so. Keep the question until then rather than settling it now. And **none of this is measured.** Adler is a philosopher writing about a craft, not a researcher reporting a result, and where this course has evidence it says so. Here it has a well-articulated tradition, which is a different thing and still worth having.
+
 Here are the eight rules, in Adler's stages.[1]
 
 **Stage I, what the book is about.** (1) Classify the book by kind and subject matter. (2) State what the whole book is about with the utmost brevity. (3) Enumerate its major parts in order and relation, and outline them. (4) Define the problems the author has tried to solve.
@@ -68,15 +70,19 @@ Here are the eight rules, in Adler's stages.[1]
 
 ## A chapter to work on
 
-You surveyed Darwin's *On the Origin of Species* in lesson 2. We are going to read one chapter of it properly, and you can [open it free at Project Gutenberg](https://www.gutenberg.org/cache/epub/1228/pg1228.txt) and follow along. It is chapter 3, "Struggle for Existence", and it is about ten pages.
+You surveyed Darwin's *On the Origin of Species* in lesson 2. We are going to read one chapter of it properly, and you can [open it free at Project Gutenberg](https://www.gutenberg.org/cache/epub/1228/pg1228.txt) and follow along. It is chapter 3, "Struggle for Existence", and it runs to about six thousand words, which is half an hour at the rate lesson 4 measured.
 
 I have chosen it for a reason that will become clear: it is a chapter whose whole argument turns on a phrase Darwin knows you will misread, and he says so in the fourth paragraph.
+
+The same note lesson 2 carried applies here. We are reading Darwin's chapter, not arguing the biology. Whether his conclusion is true is a question for his field. What we are doing is finding out what he claimed and how the claim is built, which is the only thing that would let anyone judge it in either direction.
+
+Adler states these four for a whole book. They work on a chapter as well, and a chapter is the right size to learn them on, so that is what we are doing here.
 
 **Rule 1, classify it.** A work of theoretical natural science, arguing a general claim from assembled observation. Not a manual, not a history, not a polemic. That matters because it tells you what kind of support to expect: not proof, but accumulation.
 
 **Rule 2, the whole in one sentence.** Chapter 3 says: because every kind of living thing tends to multiply faster than the world can hold, far more are born than can live, and the resulting competition, understood broadly, is what the rest of the argument will act on.
 
-That sentence took me four attempts. Yours will not match mine, and it does not need to. What it needs is to be in your own words, which is the point of the exercise: the way to find out whether you have the point is to try to state it without the book open.[2]
+That sentence took me four attempts. Yours won't match mine, and it doesn't need to. What it needs is to be in your own words, which is the point of the exercise: the way to find out whether you have the point is to try to state it without the book open.[2]
 
 ## Rule 3, and a book that outlines itself
 
@@ -86,9 +92,9 @@ Open the chapter and the first thing you meet, before any prose, is this.
 
 That is Darwin telling you the parts of his chapter, in order, before he writes any of it. Lesson 2 met the same habit at the front of the book, in the analytical table of contents that gives each chapter a paragraph rather than a line.
 
-A reader in a hurry copies that into their notes and calls it the outline. That is the wrong move, and it is worth being clear about why. The rule asks you to enumerate the parts *in order and relation*, and a list is not a relation. The headnote gives you eleven items and no indication of which are the argument and which are the supporting cases.
+A reader in a hurry copies that into their notes and calls it the outline. That's the wrong move, and it's worth being clear about why. The rule asks you to enumerate the parts *in order and relation*, and a list is not a relation. The headnote gives you eleven items and no indication of which are the argument and which are the supporting cases.
 
-So use it as a claim to test. Read the chapter with the headnote beside you and ask which of those eleven are load-bearing. My answer, after reading it, is that three are: the term in a wide sense, geometrical powers of increase, and the nature of the checks. The other eight are illustration. If your answer differs and you can say why, you have done the rule properly and I have not.
+So use it as a claim to test. Read the chapter with the headnote beside you and ask which of those eleven are load-bearing. My answer, after reading it, is that four are: bears on natural selection, the term in a wide sense, geometrical powers of increase, and the nature of the checks. The first is the chapter's reason for existing, the middle two are the argument, and the fourth is what the argument runs into. The other seven are illustration. If your answer differs and you can say why, you have done the rule properly and I have not.
 
 :::predict Before you read on. The chapter is called "Struggle for Existence". Without looking, write down what you expect Darwin to mean by "struggle", in one sentence.
 Most readers write something like "animals fighting each other for food", or a version with competition in it. That is the ordinary sense of the word and it is the sense the chapter title invites.
@@ -100,7 +106,7 @@ It is not Darwin's sense, and the gap between the two is the subject of the next
 
 Rule 5 says: come to terms with the author by interpreting his key words.
 
-The word *term* is doing precise work there. A term is not a word. A term is a word used in one settled sense. The same word can carry several senses, and a writer making an argument has to pin one of them down, whether or not they tell you they are doing it. **Finding the sense the author pinned down is the reader's job, and it is not the dictionary's**, because a dictionary records how a word is used in general and an argument runs on how it is used here.
+The word *term* is doing precise work there. A term isn't a word. A term is a word used in one settled sense. The same word can carry several senses, and a writer making an argument has to pin one of them down, whether or not they tell you they are doing it. **Finding the sense the author pinned down is the reader's job, and it is not the dictionary's**, because a dictionary records how a word is used in general and an argument runs on how it is used here.
 
 Darwin, unusually, does the work in front of you. Four paragraphs into chapter 3:
 
@@ -114,35 +120,49 @@ The sense has moved from survival to reproduction. The parenthesis, "which is mo
 
 And the sense is admitted to be loose. Darwin closes the passage with "In these several senses, which pass into each other, I use for convenience sake the general term of struggle for existence".[3] He is telling you he has bundled several things under one word because he needs a word.
 
-Now here is why this is not a preliminary courtesy. **The chapter's argument is valid only under Darwin's sense and not under yours.** If "struggle" meant animals fighting, the conclusion that there must be a struggle everywhere would be plainly false, since most organisms never fight anything. Under the wide sense, the conclusion follows. A reader who never came to terms would have read the chapter, understood every sentence, and concluded that the author was overreaching.
+That last one is worth stopping on, because it is a counterexample to the rule we are using. Rule 5 assumes an author has one settled sense waiting to be found. Sometimes there is not one, and Darwin has just said so out loud. **When coming to terms returns the answer "he has three senses here and slides between them", that is not the rule failing.** It is the rule's most valuable output, because a place where an author is sliding between senses is a place where the argument is at its weakest, and you have found it by doing exactly what the rule told you to do.
 
-That is lesson 3's diagnosis arriving in a new place. If you cannot come to a term, the obstacle is almost never the word. It is the relations the author has packed into it.
+Now here is why this is not a preliminary courtesy. **The chapter's argument is valid only under Darwin's sense and not under yours.** If "struggle" meant animals fighting, the conclusion that there must be a struggle everywhere would be plainly false, since most organisms don't fight anything. Under the wide sense, the conclusion follows. A reader who never came to terms would have read the chapter, understood every sentence, and concluded that the author was overreaching.
 
-## The wrinkle: a term that changes under you
+That is lesson 3's diagnosis arriving in a new place. If you cannot come to a term, the obstacle is usually not the word itself. It is the relations the author has packed into it.
+
+## The wrinkle: a term you settled too early
 
 The clean case is an author who defines his term where you can see it. The common case is worse, and almost nobody demonstrates it, so here it is.
 
-In chapter 1, Darwin spends forty pages on pigeon fanciers and cabbage growers. Selection there means exactly what you think: a person looks at a litter, picks the ones they want, and breeds from those. There is a chooser, the chooser has a purpose, and the purpose explains the result.
+Chapter 1 is about breeders: dogs, horses, gooseberries, and a long run on pigeons. Read it quickly and *selection* means what you expect. A man looks at a litter, picks the ones he wants, and breeds from those. There's a chooser, the chooser has a purpose, and the purpose explains the result.
 
-By the end of chapter 3 the same word is doing a different job:
+That is the sense most readers carry out of chapter 1, and it's already wrong, because Darwin spends the second half of that chapter taking the purpose away. He calls it Unconscious Selection and says it matters more to his argument than the deliberate kind. A man "who intends keeping pointers naturally tries to get as good dogs as he can, and afterwards breeds from his own best dogs, but he has no wish or expectation of permanently altering the breed".[3] The gardeners who gave us our pears "never thought what splendid fruit we should eat".[3]
+
+:::predict Darwin keeps the word *selection* for what happens in nature, where there is nobody to select. Before you read his sentence, what do you think he has to do to the word to make it fit, and what does he have to keep?
+He has to take the chooser out and keep the analogy. What survives is the shape of the process, which is that some variations are preserved and others are not, and the result accumulates. What goes is the one thing the ordinary word most strongly implies, which is somebody doing the choosing on purpose.
+
+Notice that this is not much of a stretch by the time he does it, because chapter 1 has already shown you a chooser without a purpose. That is the part most readers go past.
+:::
+
+Two paragraphs into chapter 3, before he has defined anything else, Darwin names it:
 
 > I have called this principle, by which each slight variation, if useful, is preserved, by the term of Natural Selection, in order to mark its relation to man's power of selection.[3]
 
 And chapter 4 opens by asking it outright: "Can the principle of selection, which we have seen is so potent in the hands of man, apply in nature?"[3]
 
-A reader who comes to terms in chapter 1 and never revisits has a sense of "selection" that includes a chooser. Carry that into chapter 4 and the theory becomes unreadable, or rather it becomes readable as something it is not, since a selection with a purpose behind it is a different claim from a selection without one. Darwin has kept the word deliberately, "in order to mark its relation" to the human case, and has removed the chooser from it.
+Now here is the thing worth being exact about, because it is easy to tell this story the flattering way. **The word did not change under you.** Darwin is consistent. He announces the extension at the moment he coins it, "in order to mark its relation" to the human case, and chapter 4's question only makes sense if there is one principle being tested in a second place. He had already removed the purpose in chapter 1.
 
-So the fifth rule is not a step you complete. It is a reading you hold and revise. **When an argument stops making sense three chapters in, the first thing to suspect is a term you settled too early.**
+So what went wrong, if you carried a chooser into chapter 4, is that you settled the term from the first half of one chapter and never went back. The author had corrected it on a page you read past. That is the ordinary case, and it is worse than an author shifting his usage, because there is nothing to catch. The text is consistent. The mistake is entirely yours, and the only thing that surfaces it is having written the sense down where you can hold it against the next chapter.
 
-What do you do about it? Not start again. Go back to your notes, apply the corrected sense, and see which of your earlier statements survive it. Usually most of them do, and the two or three that do not are the ones that were confusing you.
+So the fifth rule isn't a step you complete. It's a reading you hold and revise. **When an argument stops making sense three chapters in, the first thing to suspect is a term you settled too early.**
+
+What do you do about it? Not start again. Go back to your notes, apply the corrected sense, and see which of your earlier statements survive it. Usually most of them do, and the two or three that don't are the ones that were confusing you.
+
+This is not a Darwin problem. It is what authors do. A political theorist whose *power* means capacity in chapter 2 and coercion by chapter 6, an economist whose *efficiency* narrows from the ordinary sense to a technical one somewhere in the first hundred pages: same shape, same repair.
 
 ## Rule 7: an argument is not in a paragraph
 
 Rule 7 asks you to know the author's arguments by finding them in, or constructing them out of, sequences of sentences.[1]
 
-The second half of that is the part that matters. Arguments are rarely laid out anywhere. They are distributed: a premise in one paragraph, a second premise four pages later inside an example, the conclusion in a sentence that reads like a summary. Your job is to gather them and set them out in order, and the reason it is worth doing is that **the gaps only become visible once the argument is written down.**
+The second half of that is the part that matters. Arguments aren't laid out anywhere, as a rule. They are distributed: a premise in one paragraph, a second premise four pages later inside an example, the conclusion in a sentence that reads like a summary. Your job is to gather them and set them out in order, and the reason it is worth doing is that **the gaps only become visible once the argument is written down.**
 
-Here is the central argument of the chapter, gathered. Darwin states it across one paragraph and the two around it.
+The central argument of the chapter is three sentences, and Darwin puts them one after another, which is unusually tidy of him. Take the tidy case first, because what you are about to do to it is what you will have to do from scratch when an author scatters his premises over four pages, and you won't manage that if you have never done it where the sentences were already in a row.
 
 > A struggle for existence inevitably follows from the high rate at which all organic beings tend to increase.[3]
 
@@ -159,18 +179,24 @@ Set out as a piece of reasoning, that is:
 :::checkpoint Step 2 does not follow from step 1 on its own. Something has to be added. What is it, and can you find it in what Darwin actually wrote?
 What is missing is that the supply of food and room does not increase geometrically along with the population. Without that, a geometrically increasing population could be fed by a geometrically increasing world and nothing would have to die.
 
-You can find it in Darwin's text, but not as a premise. It is inside a subordinate clause: "its numbers would quickly become so inordinately great that no country could support the product", and again as an aside a few lines later, "for the world would not hold them". He thought it too obvious to promote.
+You can find it in Darwin's text, but not where the argument needs it. In the paragraph that carries the argument it appears only inside a subordinate clause, "its numbers would quickly become so inordinately great that no country could support the product", and then as an aside, "for the world would not hold them".[3]
 
-That is the normal case, and it is the reason rule 7 is worth the effort. A premise doing load-bearing work from inside a subordinate clause is invisible while you are reading and unmissable once you have set the argument out in three lines.
+He does state it plainly, but pages later, under the checks to increase: "The amount of food for each species of course gives the extreme limit to which each can increase."[3] That is the premise, in a main clause, a long way from the three sentences that need it.
+
+Which is the point. It isn't missing. It is misplaced, and a reader who never sets the argument out in three lines never notices that the paragraph is leaning on something it doesn't say. That is the normal case, and it is the reason rule 7 is worth the effort.
 :::
 
 One more thing to notice about that argument, because it closes the loop on rule 5. Step 3 says there must be a struggle "in every case". That is only true under the wide sense Darwin defined earlier, which includes a plant depending on moisture. The argument and the definition are load-bearing for each other, which is why the stages run in the order they do.
 
 ## Rules 6 and 8, briefly
 
-Rule 6 asks you to grasp the author's leading propositions through his most important sentences.[1] The rule does not tell you how to find those sentences, so here is my own test, offered as mine rather than as Adler's: **the important sentences are usually the ones you had to read twice.** A sentence you glide over is doing work you already accept. A sentence that makes you stop is either badly written or carrying something new, and you can tell which by trying to say it in your own words.
+Rule 6 asks you to grasp the author's leading propositions through his most important sentences.[1] The practical question is which sentences those are, and the test that works for me is this: **the important sentences are usually the ones you had to read twice.** A sentence you glide over is doing work you already accept. A sentence that makes you stop is either badly written or carrying something new, and you can tell which by trying to say it in your own words.
 
-Rule 8 asks you to work out which problems the author solved and which he did not, and of the latter, which he knew he had failed to solve.[1] The last clause is the interesting one, and authors will often tell you outright. Darwin, in the middle of this chapter, writes: "In my future work this subject shall be treated, as it well deserves, at much greater length."[3] That is an author marking his own chapter as a sketch. A reader who takes chapter 3 for Darwin's full treatment of competition is disagreeing with Darwin about it.
+Rule 8 asks you to work out which problems the author solved and which he did not, and of the latter, which he knew he had failed to solve.[1] The last clause is the interesting one, and authors will often tell you outright.
+
+Darwin does it twice in this chapter. Three paragraphs in: "In my future work this subject shall be treated, as it well deserves, at much greater length."[3] That marks the chapter as a sketch, and a reader who takes chapter 3 for Darwin's full treatment of competition is disagreeing with Darwin about it.
+
+The stronger case comes later, on the checks to increase, which is one of the four items you decided was load-bearing: "What checks the natural tendency of each species to increase in number is most obscure", and "We know not exactly what the checks are in even one single instance."[3] That is rule 8's real target. An author naming, in the middle of the section where he is supposed to be solving it, a thing he has not solved.
 
 Collecting those admissions as you read gives you something worth more than a summary: a map of where the book is strong, where it is thin, and where the author already knows it is thin.
 
@@ -180,11 +206,11 @@ Collecting those admissions as you read gives you something worth more than a su
 
 **"The thesis will be in the introduction."** Often it is not. Lesson 2 already found this on this same book: Darwin's clearest statements of what he is claiming sit at the end of the introduction and again in the last chapter, not at the top. Survey first, and look at the closing pages, which is what lesson 2's sixth step is for.
 
-**"Outlining is busywork."** It is the test of whether you found the structure. If you can outline a chapter without the book open, you have it. If you cannot, you have an impression of it, and an impression is what you had before you started.
+**"Outlining is busywork."** It is the test of whether you found the structure. If you can outline a chapter without the book open, you have it. If you can't, you have an impression of it, and an impression is what you had before you started.
 
 **"If I can quote it, I understood it."** Quotation is a record that your eye passed over a sentence. Restating in your own words is the check, and it is deliberately harder, because the only way to do it is to have the thought rather than the string.[2]
 
-**"Coming to terms is for philosophy books."** Every field does it. An economist's "efficiency", a lawyer's "reasonable", a historian's "revolution", an architect's "honest" are all ordinary words carrying settled senses that are not the dictionary's. The sense is almost never announced as plainly as Darwin announces his.
+**"Coming to terms is for philosophy books."** Every field does it. An economist's "efficiency", a lawyer's "reasonable", a historian's "revolution", an architect's "honest" are all ordinary words carrying settled senses that are not the dictionary's. The sense isn't usually announced as plainly as Darwin announces his.
 
 ## Practice
 
@@ -202,7 +228,7 @@ The fourth item is the one that will take longest and it is the one to do proper
 :::
 
 :::exercise The one that catches people out
-Take your three terms back to the first chapter of the same book and check that the author is using them there in the sense you wrote down.
+Take your three terms back to the first chapter of the same book and check that the author is using them there in the sense you wrote down. Allow 20 minutes, in a separate sitting.
 
 If one of them has moved, you have found the wrinkle. Write one line on what the earlier sense was, one line on what changed it, and one line on which of your notes on the earlier chapters no longer hold.
 
@@ -227,6 +253,6 @@ Lesson 7 is the third stage, criticism, and it begins where this one stops. The 
 
 ## Sources
 
-1. Mortimer J. Adler and Charles Van Doren, *How to Read a Book*, revised edition, 1972. The four questions a reader asks of any book, and the fifteen numbered rules of analytical reading in three stages, of which rules 1 to 8 are used here. The characterisation of a term as a word used in one settled sense, and of coming to terms as the reader's work rather than the dictionary's, is Adler's. See `research/SOURCES.md`, which records how this text was consulted and why it is not linked here.
+1. Mortimer J. Adler and Charles Van Doren, *How to Read a Book*, revised edition, 1972. The four questions a reader asks of any book, and the fifteen numbered rules of analytical reading in three stages, of which rules 1 to 8 are used here. The gloss on *term* above, that a term is a word used in one settled sense and that finding the author's sense is the reader's work rather than the dictionary's, is this course's reading of rule 5 and not a quotation from Adler. See `research/SOURCES.md`, which records how this text was consulted, at what depth, and why it is not linked here.
 2. [Harvard Library, "Interrogating Texts: Six Reading Habits to Develop in Your First Year"](https://guides.library.harvard.edu/sixreadinghabits). Read in full. The outline, summarise and analyse habit, and its statement that the way to determine you have really got the point is to be able to state it in your own words.
-3. Charles Darwin, *On the Origin of Species*, first edition, 1859, chapters 3 and 4, [Project Gutenberg #1228](https://www.gutenberg.org/cache/epub/1228/pg1228.txt). Every passage quoted above was taken from that text. The chapter 3 headnote; the definition of "Struggle for Existence" in a large and metaphorical sense; the desert plant and the several senses which pass into each other; the naming of Natural Selection to mark its relation to man's power of selection; the opening question of chapter 4; the three sentences of the geometrical-increase argument and the two subordinate clauses carrying its unstated premise; and the note that the subject would be treated at greater length in a future work.
+3. Charles Darwin, *On the Origin of Species*, first edition, 1859, chapters 3 and 4, [Project Gutenberg #1228](https://www.gutenberg.org/cache/epub/1228/pg1228.txt). Every passage quoted above was taken from that text. The chapter 3 headnote; the definition of "Struggle for Existence" in a large and metaphorical sense; the desert plant and the several senses which pass into each other; the naming of Natural Selection to mark its relation to man's power of selection; the opening question of chapter 4; the three sentences of the geometrical-increase argument and the two subordinate clauses carrying its unstated premise; the note that the subject would be treated at greater length in a future work; and, from the section on the checks to increase, "The amount of food for each species of course gives the extreme limit to which each can increase", "What checks the natural tendency of each species to increase in number is most obscure" and "We know not exactly what the checks are in even one single instance". From chapter 1, Unconscious Selection, the pointer breeder who "has no wish or expectation of permanently altering the breed", and the gardeners who "never thought what splendid fruit we should eat".

@@ -21,8 +21,9 @@ Rewrite these five lines each session. Nothing else goes in this block.
   writing job is now drafting, not scripts**, and Reading Well is it.
 - **Current lesson:** Reading Well, lessons 1 to 5 drafted. **1, 2 and 4 are through Stage 4 and
   clean.** Lesson 3 has had all of its review findings applied, including the new
-  opener, and its **second pass is out**, owed because the first found wrong facts. Lesson 5 is
-  drafted and its first Stage 4 review is out. Next is `/draft-lesson courses/foundations/reading-well 6`, as many lessons as the
+  opener, and its **second pass is out**, owed because the first found wrong facts. Lesson 5 has
+  had its first review applied, six critical findings and all of them factual, and a **targeted
+  re-check is out**. Lesson 6 is drafted and unreviewed. Next is `/draft-lesson courses/foundations/reading-well 6`, as many lessons as the
   budget allows, after reading that course's `research/reviews/course-wide.md`.
 - **Where to look for a real example when the obvious domains all fail.** Lesson 3 needed a short
   real text in which every word is ordinary and a newcomer still cannot say what happened. Cricket,
@@ -88,7 +89,17 @@ prints nothing about scripts now because there is nothing left to print. What th
 writing them is in the two craft notes above and in the ceiling note; what it taught about checking
 them is the next paragraph.
 
-**What a lesson's Stage 4 review actually catches, measured over four Reading Well lessons.** Not
+**This drafter quotes accurately and describes carelessly, measured over five Reading Well
+lessons.** Every quotation in lesson 5 was verbatim, checked character by character against the
+source. Six of its findings were critical and every one was a claim *about* the book rather than a
+quotation from it: a sentence placed at the end of a chapter when it is in the second paragraph, a
+chapter said to be about cabbage growers when cabbage appears twice in passing, three consecutive
+sentences called distributed across three paragraphs in the very passage arguing that arguments are
+distributed, and a premise called too obvious to state when the author states it flatly four pages
+on. **Point a review at the sentences with no quotation marks in them**, and give it the source text
+so it can check them.
+
+**A lesson's Stage 4 review also catches this, measured over four Reading Well lessons.** Not
 invented facts. Arithmetic the drafter did not redo (a marketed 1,500 wpm called "four to six times"
 a band that makes it five to eight); a publisher's name half-remembered (the "American Psychological
 Science"); a claim carried in from the outline rather than from a source, which then falsified the

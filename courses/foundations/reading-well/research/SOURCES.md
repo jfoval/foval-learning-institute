@@ -76,12 +76,32 @@ the debt is.
   by others, since "distilled books are like common distilled waters, flashy things". That last is a
   1625 sentence about the book-summary industry and about asking a machine what a book says.
 
-- **Mortimer J. Adler, "How to Mark a Book", *Saturday Review of Literature*, 1940.** **Read at
-  quotation level only** (the full essay was not fetched; the wording below is widely reproduced and
-  should be verified against a scan before a lesson quotes it). The claim the lesson wants: "marking
-  up a book is not an act of mutilation but of love", and his practical caveat that you should not
-  mark a book you do not own. Useful as the primary statement of marginalia as thinking rather than
-  decoration.
+- **Mortimer J. Adler, "How to Mark a Book", *Saturday Review of Literature*, 6 July 1940 (vol 22
+  no 11).** **Read at quotation level only. Chased on 2026-09-18 and still not facsimile-confirmed**,
+  so the standing instruction holds: **no lesson quotes a sentence of this essay.** What the chase
+  established, which is worth more than the quotation would have been:
+
+  - **The sentence everybody quotes is a corruption.** The form in circulation, and the form this
+    entry used to carry, is "marking up a book is not an act of mutilation but of love". Adler's
+    sentence is "I contend, quite bluntly, that marking up a book is not an act of mutilation but of
+    love." The clipped version comes from an adaptation and from one site's own headnote, where it
+    is presented as a quotation. Four independent reproductions agree on the full sentence.
+  - The ownership caveat is the next sentence and reads "You shouldn't mark up a book which isn't
+    yours", justified by the observation that a librarian or a friend expects the book back clean.
+  - **There is no URL a learner may be sent to.** Every reproduction found is a wholesale copy with
+    no rights behind it, including one carrying a CC BY badge that licenses the site's own material
+    and cannot license Adler's. The 1940 issue itself is behind a bot check on one site and
+    access-restricted on the Internet Archive. Same treatment as the 1972 book: cited in Sources,
+    never linked.
+  - **Almost every online copy dates it 6 July 1941, which is wrong.** 6 July 1941 was a Sunday and
+    the magazine was a Saturday weekly. The renewal register, the Internet Archive's holding and the
+    anthology credit line all give 1940.
+  - **The essay is in copyright in the US**, on the evidence of the renewal register and an anthology
+    credit line naming a renewal, through the end of 2035. Not a legal opinion, and what is
+    unresolved is who holds it rather than whether it is held.
+
+  Useful as the primary statement of marginalia as thinking rather than decoration, which a lesson
+  may say in its own words. Lesson 6 does exactly that.
 
 ---
 
