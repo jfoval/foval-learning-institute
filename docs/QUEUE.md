@@ -69,11 +69,19 @@ cents. `/make-podcast` says what could be improved and that neither thing blocks
    of five. Both are content fixes on published courses and both are standards Part 2. Nine other
    lessons have one to three uncited entries, which is ordinary and stays under the threshold.
    Personal Finance 6 is also the worst quiz below, so it earns one visit for both.
-2. **`npm run quiz` lists 18 quizzes tripping the shape heuristic** (option-length spread over 25
+2. **Seven dead links in published lessons.** `npm run links` finds them; standards 4.5 asks for
+   primary sources linked in the body, and these do not answer. Four are
+   `earlychristianwritings.com` pages in Bible Basics 6 and 7 (the site reorganised; the texts are
+   still there under other paths), `corporate.vanguard.com/.../vemo.html` in Personal Finance 2,
+   `en.wikipedia.org/wiki/All_Your_Worth` in Personal Finance 1 (the article was merged away), and
+   `tenancydepositscheme.com/resources/tds-guides/` in Reading Well 1, which is still drafting.
+   Replace each with a URL that answers, or drop the link and keep the citation in Sources. The
+   32 links reporting 403 are publishers blocking scripts, not breakage; leave them.
+3. **`npm run quiz` lists 18 quizzes tripping the shape heuristic** (option-length spread over 25
    characters, adjacent repeats, unused positions) without being winnable by a reader who read
    nothing. Worst is Personal Finance 6 at a 174-character spread. Decide one thing when it comes
    up: tighten the 18, or raise the threshold and say why. Not both.
-3. **Then the Foval Core in order, one course at a time.**
+4. **Then the Foval Core in order, one course at a time.**
    **Reading Well: lesson 1 of ten is written and through two Stage 4 rounds as of 2026-09-17.**
    It publishes when its ten lessons pass Stage 4, adding `reading-well: 10` to
    `curriculum/audio-debt.yaml` in the same commit. Ten lessons are planned in

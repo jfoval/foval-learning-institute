@@ -19,7 +19,8 @@
     "minutes": "node scripts/reading-time.mjs",
     "quiz": "node scripts/check-quiz-shape.cjs && node scripts/check-quiz-letters.cjs",
     "test": "node --test \"scripts/tests/*.test.mjs\"",
-    "state": "node scripts/state.mjs"
+    "state": "node scripts/state.mjs",
+    "links": "node scripts/links.mjs"
   },
   "engines": {
     "node": ">=20"

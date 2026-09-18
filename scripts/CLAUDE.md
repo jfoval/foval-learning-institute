@@ -10,6 +10,7 @@ compile step anywhere in this repo.
 | `build.mjs` | `build`, `validate`, `build:drafts` | Compiles `courses/` + `site/` into git-ignored `dist/`, and lints everything |
 | `reading-time.mjs` | `minutes` | Measures every lesson's real `minutes:`; `--write` fixes them |
 | `podcast.mjs` | — | `/make-podcast`'s engine: plan, render (one call), gate, upload, stamp, profile, reference |
+| `links.mjs` | `links` | Checks every external link in every lesson. Network, slow, run deliberately |
 | `check-quiz-letters.cjs` | `quiz` | Finds explanations that contradict their own `answer` |
 | `check-quiz-shape.cjs` | `quiz` | Finds quizzes a reader could pass without reading the lesson |
 | `quiz-permute.cjs` | — | Reorders one item's options, fixing `answer` and the letters in `explain` |
@@ -24,6 +25,15 @@ compile step anywhere in this repo.
 `npm run validate` is `core-path.mjs` then `build.mjs --check`. Run it before every commit.
 `npm run build` is the same two without `--check`, and it writes the whole site into `dist/`.
 `site/` is source and the build never touches it, so a build leaves the working tree clean.
+
+`npm run links` checks every external link in every lesson and is **not** part of `validate`, for
+the same reasons as the quiz checks below plus one more: it needs the network, so wiring it into a
+gate would make the build fail on someone else's outage. 403 and 429 are counted as blocked rather
+than dead, because publishers refuse scripted requests as a matter of course and every `doi.org`
+entry in the repo answers 403 to a script and opens fine in a browser. It balances parentheses when
+extracting a URL rather than cutting at the first `)`, because a DOI and a Wikisource title both
+carry their own brackets: the first version of this cut early and reported nine 404s that were its
+own fault. Takes an explicit lesson path to check one file.
 
 `npm run quiz` runs both quiz checks over every lesson and assessment. It is **not** part of
 `validate`, deliberately: both are heuristics that need a human to read each hit, and a heuristic
