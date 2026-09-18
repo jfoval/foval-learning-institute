@@ -14,11 +14,11 @@ defect moves to the changelog; it does not stay here struck through.
 
 Rewrite these five lines each session. Nothing else goes in this block.
 
-- **Current course:** Writing Clearly is **written** as of 2026-09-18: all nine lessons have a
-  fact-checked script, so it needs only money now. How to Learn Anything is **finished**: eight
+- **Current course:** Writing Clearly and Logic and Argument are both **written** as of
+  2026-09-18: every lesson in each has a fact-checked script, so both need only money now. How to Learn Anything is **finished**: eight
   lessons, eight episodes, all live in R2 and off the debt ledger. Reading Well is still the
   drafting job, at lesson 2 of ten.
-- **Current lesson:** Logic and Argument's scripts, then Reading Well lesson 2 of ten. `/draft-lesson courses/foundations/reading-well 2`,
+- **Current lesson:** Personal Finance's scripts next, in term order, then Reading Well lesson 2 of ten. `/draft-lesson courses/foundations/reading-well 2`,
   as many lessons as the budget allows, after reading that course's `research/reviews/course-wide.md`.
 - **Before drafting anything:** `npm run taught <course>`. It prints every objective a learner has
   already met earlier on the Core, and names the earlier courses that do not exist yet so nothing
@@ -66,7 +66,17 @@ dry run instead of only on `--go`, which is where the limit used to be invisible
 1,300 and check the dry run before the fact-check**, because shortening is new text and the
 fact-check has to run again after it.
 
-**Scripts are the outstanding writing job, and they are free.** `npm run validate` prints the count every run. Write them with
+**Scripts are the outstanding writing job, and they are free.** `npm run validate` prints the count
+every run. Writing Clearly and Logic and Argument are done; **Personal Finance is next in term
+order**, then Algebra Essentials, Python Basics and Bible Basics.
+
+**What a script for a long lesson looks like, learned over seventeen of them on 2026-09-18.** The
+ceiling is about 1,417 spoken words and the dense lessons do not fit. Choose two or three of the
+lesson's sections and take them properly, rather than touring all of them; then **say in the
+sign-off what the episode left out**, by name. Logic 5 takes one of its four families of inductive
+argument, Logic 6 takes two of its three errors, and both are better episodes for it. Cut whole
+exchanges, never shave words: shaving costs a dozen edits and loses the hedges, and every
+fact-check tonight found the same thing, that what a cut removes first is a qualifier. Write them with
 `/make-podcast <lesson>`, stopping after the fact-check. Several a session is fine. Take one course
 all the way to *written* before starting the next.
 
