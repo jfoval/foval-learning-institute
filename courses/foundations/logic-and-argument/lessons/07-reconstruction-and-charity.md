@@ -1,6 +1,7 @@
 ---
 title: "Reconstruction and charity: the strongest version first"
 minutes: 70
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/foundations/logic-and-argument/07-reconstruction-and-charity.mp3
 objectives:
   - Mark the assuring, guarding, and discounting terms in a passage, and reconstruct its argument into standard form, supplying the missing premises in the form the arguer would accept and marking which premises are linked and which are convergent
   - Apply Toulmin's layout to an argument to find its warrant, qualifier, and rebuttal
