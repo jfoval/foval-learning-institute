@@ -1,6 +1,7 @@
 ---
 title: Building an argument that holds up
 minutes: 70
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/foundations/logic-and-argument/10-building-an-argument.mp3
 objectives:
   - Build a short argument in standard form with acceptable premises and a link you can name as valid or strong
   - Build an extended one-page argument that states its strongest objection and either answers it or concedes it with a qualifier
