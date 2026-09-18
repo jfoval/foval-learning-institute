@@ -1,6 +1,21 @@
 ---
 source: courses/foundations/reading-well/lessons/01-reading-is-not-one-activity.md
 written_by: Claude, by hand, from the lesson text
+checked: >-
+  Fact-checked twice in fresh-context subagents against the lesson on 2026-09-18, and every finding
+  and nit from both rounds is fixed here. Round one, PASS WITH NITS: a "that is" dropped from the
+  second half of Adler's deliberately parallel pair of definitions, so the two halves no longer
+  matched; an "His words" attached to a sentence that had been contracted and shortened, and placed
+  after the quotation so a listener heard it as John's own; a date attached to Adler's observation
+  rather than to his book; a pronoun whose nearest antecedent by ear was the default treatment rather
+  than the lesson; a claim of three sources where the episode names two, the third living in a
+  section the sign-off says was cut; and a one-word turn resuming a list eight turns back. Bacon's
+  sentence, both halves, was clean, as were the three hedges and all five of the sign-off's claims
+  about what the episode left out. Round two: the merges that fixed the turn count had removed the
+  clause that disambiguated the next pronoun, so "lesson two is entirely about it" pointed at
+  analytical reading, and three of Haley's questions had been deleted rather than merged, leaving
+  three consecutive John turns mid-episode. Both fixed; the only consecutive pair left is the opening
+  one, which the reference episode also has.
 about: >-
   About eight minutes. Haley opens, because the engine gives the first turn to the second voice.
   Hosts are John (S1, the Charon voice) and Haley (S2, the Aoede voice). First episode for Reading
@@ -58,6 +73,8 @@ S2: So they nest.
 
 S1: Like boxes inside boxes, and that matters more than it looks. Take the four in turn, and the thing to keep is each one's question rather than its name.
 
+S2: Start at the bottom.
+
 S1: Elementary reading asks, what does this sentence say. You finished that one in primary school and you're doing it right now without noticing. Inspectional reading asks, what is this about, and Adler ties it to time. It's characterized by its special emphasis on time, and the aim is to get the most out of a book within a given time.
 
 S2: Which is a nice way of saying skimming.
@@ -76,15 +93,19 @@ S2: Here's the one I want to put to you. Somebody says, I'm good at close readin
 
 S1: It isn't impossible, but they aren't two independent skills, because analytical reading contains inspectional reading. Adler's rules for the analytical level start with classifying the book and outlining its parts, and that's what an inspection hands you. So usually that reader isn't bad at inspection. They're skipping it, and then doing the analytical work without the map.
 
-S1: And the practical version is worth having. If hard books are exhausting you, the fix is often not more effort at the level you're on. It's doing the level below first.
+S2: So what do they do about it?
+
+S1: If hard books are exhausting you, the fix is often not more effort at the level you're on. It's doing the level below first.
 
 S2: So four names. What decides which one I pick?
 
 S1: This is the lesson's own answer, and it says so, because it's a synthesis of the course's sources rather than any one of them. The effort a text demands is set by what you need to be able to do when you put it down.
 
-S2: Not by the book. Test it for me.
+S2: Not by the book.
 
 S1: Bacon attaches it to the book, and ranks books by worth. Adler brings in purpose. Put them together and the decision moves off the shelf and onto the reader.
+
+S2: Test it for me.
 
 S1: Take what each level leaves you holding. To say what a sentence says, you need that sentence. To say what a book is about, you need its shape. To say whether its argument holds, you need the argument itself, rebuilt well enough that you could run it forwards and find the step you doubt. And to answer your own question across four books, you need all four arguments and a vocabulary you built yourself to compare them in.
 

@@ -1,6 +1,20 @@
 ---
 source: courses/foundations/reading-well/lessons/04-what-reading-costs.md
 written_by: Claude, by hand, from the lesson text
+checked: >-
+  Fact-checked twice in fresh-context subagents against the lesson on 2026-09-18, and every finding
+  from both rounds is fixed here. Round one, PASS WITH NITS: a sample of 12,143 readers left
+  attributed to nobody, so that by ear it read as Tinker's when it is Taylor's; a sign-off claiming
+  the episode had left out the list of what people get wrong when two of its five items are in the
+  episode; a skimming cross-reference compressed past the repair a lesson review had made to it,
+  dropping the blurb from what the survey reads and the sublevel point with it; and a sign-off
+  asserting a factual claim rather than pointing at the lesson. Every figure was checked digit by
+  digit and all of them held, as did all five quotations and the disclosure that the Rayner monograph
+  was never opened, which is read in full and placed before the first thing attributed to it. Round
+  two confirmed all four repairs, called this the cleanest of the five scripts checked that round,
+  and found one residue: the sign-off still named a list rather than the two items genuinely absent.
+  The lesson's own ambiguous pronoun, where "eliminating them" narrowed a finding about eye movements
+  to the backward ones, was reported and fixed in the lesson.
 about: >-
   About seven minutes. Haley opens, because the engine gives the first turn to the second voice.
   Hosts are John (S1, the Charon voice) and Haley (S2, the Aoede voice). Fourth episode for Reading

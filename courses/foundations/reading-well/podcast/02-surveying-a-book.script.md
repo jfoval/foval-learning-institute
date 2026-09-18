@@ -1,6 +1,19 @@
 ---
 source: courses/foundations/reading-well/lessons/02-surveying-a-book.md
 written_by: Claude, by hand, from the lesson text
+checked: >-
+  Fact-checked twice in fresh-context subagents against the lesson on 2026-09-18, and every finding
+  from both rounds is fixed here. Round one, PASS WITH NITS: "arguing with named contemporaries",
+  which a lesson review had already rejected because Hooker, Lyell and Wallace are Darwin's allies
+  and the lesson says "engaging with"; two consecutive John turns at the opening; "the absence of
+  transitional varieties" for the contents page's "the absence or rarity of"; the two epigraphs
+  hardened from "to the effect that" into "saying that"; and a pronoun putting the epigraphs under
+  the restated mechanism rather than under the title. All four Darwin quotations were verbatim and
+  every count matched the lesson. Round two confirmed all five repairs and found one more, of the
+  same class as the epigraph one: the sign-off had hardened "the one most readers find
+  counterintuitive" into "the one readers find hardest to accept". The lesson's own arithmetic slip,
+  five of six steps landing plus two that do not, was reported and fixed in the lesson rather than
+  the script, which had been right by omission.
 about: >-
   About seven minutes. Haley opens, because the engine gives the first turn to the second voice.
   Hosts are John (S1, the Charon voice) and Haley (S2, the Aoede voice). Second episode for Reading
