@@ -195,7 +195,26 @@ node scripts/podcast.mjs plan   courses/<school>/<course>/lessons/<id>.md
 7. **Upload and stamp**: `node scripts/podcast.mjs upload <lesson>` then `stamp`.
 8. **Lower the debt** by one in `curriculum/audio-debt.yaml`, in the same commit, and delete the
    entry at zero.
-9. **`npm run validate`**, then `npm run build` and commit `site/data/courses.js` too.
+9. **`npm run validate`**, then `npm run build` and commit whatever it changed under `site/`.
 
 If step 5 fails, read what it says, fix the cause, and run it again deliberately. Do not wrap it in a
 loop. That is rule 4, and it cost $25 to learn.
+
+`node scripts/podcast.mjs gate <lesson> [--file=<mp3>]` runs the gate on any file without uploading,
+which is how to check a kept attempt or re-check something already live. It spends nothing.
+
+### Stage explicit paths, because you are probably not the only session
+
+More than one session works in this repo at once: on 2026-09-18 the podcast run and the phone-chart
+run were both live in the same working tree, and a `git add -A` in one of them would have swept the
+other's half-finished lesson into a podcast commit. It did not happen, but only because their files
+happened not to overlap that hour.
+
+So stage what you touched, by name:
+
+```bash
+git add courses/<school>/<course>/lessons/<id>.md curriculum/audio-debt.yaml site/
+```
+
+Run `git status` first and look at it. A file you did not touch is somebody else's work in progress;
+leave it alone rather than committing it for them.
