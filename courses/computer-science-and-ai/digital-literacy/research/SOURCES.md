@@ -593,8 +593,38 @@ forever.
 contested in the details.* Sync is not backup, and the mechanism is specific: a sync client cannot
 distinguish a person saving a file from a program encrypting a folder, so it faithfully uploads the
 damaged version, and deletion propagates the same way. Version history in OneDrive, Dropbox and
-Google Drive mitigates this and is a real defence, but it is bounded by a retention window and can
-be defeated by ransomware that renames files, which breaks the version chain. The 3-2-1 rule (three
+Google Drive mitigates this and is a real defence, but it is bounded by a retention window.
+
+**Stage 1 pass, 2026-09-18, closing the two gates decision 4 set on this outcome.** Both were
+fetched and read; what follows replaces the secondary material that used to sit here.
+
+**Gate one, the ransomware mechanism. CISA, `#StopRansomware` Guide, cisa.gov/stopransomware,
+fetched and read 2026-09-18.** It does not say what this entry used to say. **The claim that
+"ransomware defeats versioning by renaming files" is not in CISA's guidance and is not supported
+here; it came from vendor material and is withdrawn.** What CISA does say, verbatim, is the more
+useful thing and the thing a lesson should teach:
+
+> "It is important that backups are maintained offline, as many ransomware variants attempt to find
+> and subsequently delete or encrypt accessible backups."
+
+That is the mechanism, and it is about **reachability rather than renaming**: a copy the machine can
+write to is a copy the thing on the machine can destroy, which is exactly the property decision 4
+wants taught. CISA's own answer to the gap is not to abandon versioning. It says "consider enabling
+version control to keep multiple variants of objects in storage. This allows for easier recovery
+from unintended or malicious actions", and separately to "enable delete protection or object lock on
+storage resources often targeted in ransomware attacks". It also recommends maintaining "offline,
+encrypted backups of critical data, and regularly test the availability and integrity of backups in
+a disaster recovery scenario", and to "test backup procedures on a regular basis", which is primary
+support for the restore-is-the-only-test claim the lesson is built on.
+
+**Gate two, the retention window. Dropbox, "Version history overview", help.dropbox.com, fetched and
+read 2026-09-18.** Primary for a claim about that provider's own product. Documented windows, with
+the plan names as Dropbox writes them: **Basic, Plus and Family, 30 days. Professional, Essentials,
+Business and Standard, 180 days. Business Plus, Advanced and Enterprise, 365 days.** The page also
+says "You can't view or restore previous versions of files and folders that have been permanently
+deleted", and notes that add-ons can extend the windows. **These carry Dropbox's name and the date
+they were checked, per decision 5**, and the lesson still sends the reader to their own provider's
+page, because these numbers will move. The 3-2-1 rule (three
 copies, on two kinds of media, one off-site) was popularised by the photographer **Peter Krogh** in
 *The DAM Book: Digital Asset Management for Photographers* (2005); he distilled it rather than
 invented it. **Read at search-summary level; the book was not opened and the attribution should be
@@ -749,12 +779,12 @@ This is a practical course, and some of what it teaches can hurt someone if taug
   Before that lesson is drafted, read at least one of those papers and actually run a Google Takeout
   and an Apple or Meta data download so the lesson describes what arrives rather than what is
   promised.
-- **Backups is the outcome with the weakest sourcing in this file.** The 3-2-1 attribution to Krogh,
-  the ransomware-defeats-versioning mechanism, and the retention-window limits all rest on secondary
-  and vendor material. Vendor sources on backup are marketing for a product category and standards
-  2.2 excludes them. Before drafting, get the mechanism from a primary or official source (CISA's
-  ransomware guidance, or the provider's own documented version-retention limits) rather than from a
-  backup company's blog.
+- **Backups was the outcome with the weakest sourcing in this file, and two of its three gaps are
+  now closed.** A Stage 1 pass on 2026-09-18 fetched CISA's `#StopRansomware` Guide and Dropbox's
+  own version-history page, and both are recorded in outcome 8 above. **The ransomware-renaming
+  mechanism did not survive the check and is withdrawn**; CISA's actual claim is about reachability,
+  which is a better fit for what the lesson teaches. **Still open:** the 3-2-1 attribution to Krogh,
+  which decision 4 drops on the merits anyway, so nothing depends on it.
 - **We omit two things DigComp treats as core**, content creation and digital wellbeing, and one
   thing UNESCO treats as core, career-related competencies. That is a defensible choice for a
   Term 1 foundation course, but it should be a stated choice in the course description rather than
