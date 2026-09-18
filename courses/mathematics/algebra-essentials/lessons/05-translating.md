@@ -152,7 +152,7 @@ The correct equation is `S = 6P`. The common wrong answer is `6S = P`, and if th
 
 Read the sentence and watch the order in which the pieces arrive.
 
-> six times as many **students** as professors
+> six times as many *students* as professors
 
 Six, then students, then professors. Write those down in that order and you get `6S = P`. The equation is a transcription of the English word order, and that is the whole mechanism. It is called **word-order matching**, and it is not stupidity; it is a reasonable strategy that happens to be wrong, because the order of words in a sentence and the structure of an equation are different things that look alike.
 
@@ -162,11 +162,11 @@ There is a second mechanism behind the same wrong answer, and it is worth knowin
 
 If you forget everything else in this lesson, keep this habit.
 
-**Put numbers in.**
+Put numbers in.
 
 Pick a small, easy number for one quantity, work out the other from the sentence in plain English, and then see whether your equation holds.
 
-Suppose there are **6 professors**. The sentence says six times as many students, so there are **36 students**.
+Suppose there are 6 professors. The sentence says six times as many students, so there are 36 students.
 
 Now test both candidate equations against those two numbers.
 
@@ -192,18 +192,18 @@ That settles it, and it settles it without any argument about what the words fee
   <text x="110" y="158" font-size="15" fill="var(--text-2, #4a5260)">216 = 6, so this one does not</text>
 </svg>
 
-The picture is the point. The bar for the bigger group is the longer one, and the `6` has to sit on the side of the **smaller** number to lift it up to the size of the larger. The multiplier goes with the group there are fewer of, which feels backwards until you've said it out loud a few times.
+The picture is the point. The bar for the bigger group is the longer one, and the `6` has to sit on the side of the *smaller* number to lift it up to the size of the larger. The multiplier goes with the group there are fewer of, which feels backwards until you've said it out loud a few times.
 
 ## Say what the letter is, in full
 
 There is a habit that prevents most of this trouble before it starts, and it costs one line of writing.
 
-**Write down what each letter stands for, as a number, in words.**
+Write down what each letter stands for, as a number, in words.
 
 Not "`S` is students". That is a label on a thing, which is lesson 1's misconception coming back for a second try. Write:
 
-- `S` is **the number of students**.
-- `P` is **the number of professors**.
+- `S` is the number of students.
+- `P` is the number of professors.
 
 Once the letters are numbers, the question "is 216 equal to 6" is obviously answerable, and the question "does the six go with the students" stops being askable, because six times a number of students is a number of students and not a number of professors.
 
@@ -213,7 +213,7 @@ Once the letters are numbers, the question "is 216 equal to 6" is obviously answ
 
 **Step 1. Name the letters as numbers.** Let `s` be the price of the shirt in dollars, and `j` the price of the jacket in dollars.
 
-**Step 2. Find the relationship in plain English.** The jacket's price is worked out **from** the shirt's price: take the shirt price, triple it, add twelve.
+**Step 2. Find the relationship in plain English.** The jacket's price is worked out *from* the shirt's price: take the shirt price, triple it, add twelve.
 
 **Step 3. Write it.** `j = 3s + 12`
 
@@ -237,7 +237,7 @@ The word order offers `M - 7 = B`. Test it. If Ben is 30, Maya is 23, and `23 - 
 
 The correct equation is `M = B - 7`, and testing gives `23 = 30 - 7`, which holds.
 
-The English is doing something sly here. "Maya is seven years younger" mentions Maya and seven close together, so the hand wants to put them close together in the equation. But the seven is the size of the **gap**, and the gap has to be taken off the larger number, not off Maya's.
+The English is doing something sly here. "Maya is seven years younger" mentions Maya and seven close together, so the hand wants to put them close together in the equation. But the seven is the size of the *gap*, and the gap has to be taken off the larger number, not off Maya's.
 
 :::predict A shelf holds fourteen more paperbacks than hardbacks. Write the equation with `p` and `h`, then test it with ten hardbacks.
 `p = h + 14`. Ten hardbacks means twenty four paperbacks, and `24 = 10 + 14` holds. The tempting wrong answers are `p + 14 = h`, which the same numbers reject since 38 is not 10, and `14 - p = h`. If you wrote `h = p - 14` you are also right, because that is the same claim rearranged: with the same numbers it reads `10 = 24 - 14`. Two equations that survive the same numerical test are usually the same equation in different clothes, and you can check that by solving one for the other letter.
@@ -335,5 +335,5 @@ The next lesson takes on two unknowns at once, and translation becomes harder th
 
 ## Go deeper
 
-- [**OpenStax, *Elementary Algebra 2e*, chapter 3**](https://openstax.org/books/elementary-algebra-2e/pages/3-introduction), free online, which is a long set of word problems worked in full.
-- [**Clement, Lochhead and Monk, "Translation difficulties in learning mathematics"**](https://people.umass.edu/~clement/pdf/Translation%20Difficulties%20in%20Learning%20Math.pdf), the 1981 paper that first measured the reversal error. It is a scan, so the type is old, but it is short.
+- [OpenStax, *Elementary Algebra 2e*, chapter 3](https://openstax.org/books/elementary-algebra-2e/pages/3-introduction), free online, which is a long set of word problems worked in full.
+- [Clement, Lochhead and Monk, "Translation difficulties in learning mathematics"](https://people.umass.edu/~clement/pdf/Translation%20Difficulties%20in%20Learning%20Math.pdf), the 1981 paper that first measured the reversal error. It is a scan, so the type is old, but it is short.
