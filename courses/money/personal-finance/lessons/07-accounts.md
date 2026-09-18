@@ -1,6 +1,7 @@
 ---
 title: Where the money lives
 minutes: 90
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/money/personal-finance/07-accounts.mp3
 objectives:
   - Explain what a tax wrapper is, and compare a taxable account, a traditional account and a Roth account by what each one taxes and when
   - Calculate the return on an employer match, and read a plan's match formula and vesting schedule to work out what an unvested match is worth in expectation
