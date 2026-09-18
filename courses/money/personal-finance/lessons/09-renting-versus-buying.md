@@ -151,30 +151,31 @@ Most people guess two or three. Work the rough version and it's longer: she is b
 
 Doing it properly means totalling both paths year by year: for owning, all the unrecoverable costs plus buying and selling, minus whatever the house gained; for renting, the rent, rising 3% a year like everything else. The two curves cross.
 
-<svg viewBox="0 0 584 382" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:584px;display:block;margin:1.5em auto;font-family:system-ui,sans-serif" role="img" aria-labelledby="be-title be-desc">
+<svg viewBox="0 0 420 404" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:420px;display:block;margin:1.5em auto;font-family:system-ui,sans-serif" role="img" aria-labelledby="be-title be-desc">
   <title id="be-title">Cumulative cost of owning against renting, over fifteen years</title>
   <desc id="be-desc">A line chart. The horizontal axis is years held, from zero to fifteen. The vertical axis is total cost paid so far, running to about 500,000 dollars, with labels at 200,000 and 400,000. The owning line starts at about 36,000 dollars even at year zero, because buying and selling are both paid whenever you leave, reaches about 60,000 after one year, and then rises slowly. The renting line starts near zero and rises steadily and more steeply. They cross at about seven years and 203,000 dollars. Before the crossing renting has cost less; after it owning has.</desc>
-  <text x="20" y="24" font-size="17" font-weight="700" fill="var(--text, #1a1a1a)">What each path has cost by the time you leave</text>
-  <line x1="70" y1="60" x2="70" y2="290" stroke="var(--line, #d9d9d9)" stroke-width="1"/>
-  <line x1="70" y1="290" x2="564" y2="290" stroke="var(--line, #d9d9d9)" stroke-width="1"/>
-  <line x1="70" y1="198" x2="564" y2="198" stroke="var(--line, #d9d9d9)" stroke-width="1" stroke-dasharray="3 4"/>
-  <line x1="70" y1="106" x2="564" y2="106" stroke="var(--line, #d9d9d9)" stroke-width="1" stroke-dasharray="3 4"/>
-  <text x="64" y="203" font-size="15" text-anchor="end" fill="var(--text-2, #4a5260)">$200k</text>
-  <text x="64" y="111" font-size="15" text-anchor="end" fill="var(--text-2, #4a5260)">$400k</text>
-  <text x="70" y="312" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">0</text>
-  <text x="235" y="312" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">5</text>
-  <text x="399" y="312" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">10</text>
-  <text x="564" y="312" font-size="15" text-anchor="end" fill="var(--text-2, #4a5260)">15</text>
-  <text x="292" y="334" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">Years before you sell and move</text>
-  <polyline fill="none" stroke="var(--navy, #0f2a4a)" stroke-width="2.5" points="70,273 103,262 169,240 235,218 300,196 399,164 465,144 564,113"/>
-  <polyline fill="none" stroke="var(--oxblood, #8b1e2d)" stroke-width="2.5" points="70,290 103,278 169,252 235,226 300,197 399,151 465,118 564,64"/>
-  <circle cx="302" cy="196" r="5" fill="var(--gold, #b08d2a)"/>
-  <text x="200" y="272" font-size="15" font-weight="700" fill="var(--navy, #0f2a4a)">Owning, everything in</text>
-  <text x="480" y="100" font-size="15" font-weight="700" text-anchor="end" fill="var(--oxblood, #8b1e2d)">Renting</text>
-  <line x1="304" y1="202" x2="313" y2="222" stroke="var(--gold, #b08d2a)" stroke-width="1.5"/>
-  <text x="312" y="240" font-size="15" font-weight="700" fill="var(--gold, #b08d2a)">they cross at about 7 years</text>
-  <text x="20" y="352" font-size="15" fill="var(--text-2, #4a5260)">Owning includes buying and selling costs at every point,</text>
-  <text x="20" y="372" font-size="15" fill="var(--text-2, #4a5260)">because leaving in year 2 still pays both of them.</text>
+  <text x="14.4" y="24" font-size="17" font-weight="700" fill="var(--text, #1a1a1a)">What each path costs by the time you leave</text>
+  <line x1="50.3" y1="60" x2="50.3" y2="290" stroke="var(--line, #d9d9d9)" stroke-width="1"/>
+  <line x1="50.3" y1="290" x2="405.6" y2="290" stroke="var(--line, #d9d9d9)" stroke-width="1"/>
+  <line x1="50.3" y1="198" x2="405.6" y2="198" stroke="var(--line, #d9d9d9)" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="50.3" y1="106" x2="405.6" y2="106" stroke="var(--line, #d9d9d9)" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="46.0" y="203" font-size="15" text-anchor="end" fill="var(--text-2, #4a5260)">$200k</text>
+  <text x="46.0" y="111" font-size="15" text-anchor="end" fill="var(--text-2, #4a5260)">$400k</text>
+  <text x="50.3" y="312" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">0</text>
+  <text x="169.0" y="312" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">5</text>
+  <text x="287.0" y="312" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">10</text>
+  <text x="405.6" y="312" font-size="15" text-anchor="end" fill="var(--text-2, #4a5260)">15</text>
+  <text x="210.0" y="334" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">Years before you sell and move</text>
+  <polyline fill="none" stroke="var(--navy, #0f2a4a)" stroke-width="2.5" points="50.3,273 74.1,262 121.5,240 169.0,218 215.8,196 287.0,164 334.4,144 405.6,113"/>
+  <polyline fill="none" stroke="var(--oxblood, #8b1e2d)" stroke-width="2.5" points="50.3,290 74.1,278 121.5,252 169.0,226 215.8,197 287.0,151 334.4,118 405.6,64"/>
+  <circle cx="217.2" cy="196" r="5" fill="var(--gold, #b08d2a)"/>
+  <text x="143.8" y="272" font-size="15" font-weight="700" fill="var(--navy, #0f2a4a)">Owning, everything in</text>
+  <text x="345.2" y="100" font-size="15" font-weight="700" text-anchor="end" fill="var(--oxblood, #8b1e2d)">Renting</text>
+  <line x1="218.6" y1="202" x2="225.1" y2="222" stroke="var(--gold, #b08d2a)" stroke-width="1.5"/>
+  <text x="196" y="240" font-size="15" font-weight="700" fill="var(--gold, #b08d2a)">they cross at about 7 years</text>
+  <text x="14.4" y="352.0" font-size="15" fill="var(--text-2, #4a5260)">Owning includes buying and selling costs at every</text>
+  <text x="14.4" y="371.0" font-size="15" fill="var(--text-2, #4a5260)">point, because leaving in year 2 still pays both</text>
+  <text x="14.4" y="390.0" font-size="15" fill="var(--text-2, #4a5260)">of them.</text>
 </svg>
 
 The crossing is at **about seven years**. Stay less than that and Priya would have done better renting; stay longer and buying wins, and keeps winning by more every year.
@@ -203,29 +204,30 @@ Two things. First, the ten-year result depends on the house gaining $137,567, wh
 
 The part that matters more than the seven comes next.
 
-<svg viewBox="0 0 584 356" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:584px;display:block;margin:1.5em auto;font-family:system-ui,sans-serif" role="img" aria-labelledby="tor-title tor-desc">
+<svg viewBox="0 0 420 374" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:420px;display:block;margin:1.5em auto;font-family:system-ui,sans-serif" role="img" aria-labelledby="tor-title tor-desc">
   <title id="tor-title">How far each assumption moves the break-even</title>
   <desc id="tor-desc">Five horizontal bars, one per assumption, on an axis of years from zero to twenty, with a dashed vertical line at the 7.1 year baseline. Appreciation is by far the longest bar, running from 3.2 years to 19.0. Rent is next, from 4.1 to 13.8. The forgone return runs 5.7 to 10.5, selling costs 4.5 to 7.1, and maintenance 5.0 to 7.1. The appreciation bar is longer than the next two put together.</desc>
-  <text x="20" y="24" font-size="17" font-weight="700" fill="var(--text, #1a1a1a)">How far each assumption moves the seven years</text>
-  <line x1="244" y1="44" x2="244" y2="278" stroke="var(--text-2, #4a5260)" stroke-width="1" stroke-dasharray="3 4"/>
-  <text x="20" y="60" font-size="15" fill="var(--text-2, #4a5260)">Appreciation, 1% against 5%</text>
-  <rect x="148" y="66" width="387" height="18" fill="var(--gold, #b08d2a)"/>
-  <text x="20" y="106" font-size="15" fill="var(--text-2, #4a5260)">Rent, $1,800 against $2,600</text>
-  <rect x="170" y="112" width="238" height="18" fill="var(--navy, #0f2a4a)"/>
-  <text x="20" y="152" font-size="15" fill="var(--text-2, #4a5260)">Forgone return, 2% against 7%</text>
-  <rect x="210" y="158" width="117" height="18" fill="var(--navy, #0f2a4a)"/>
-  <text x="20" y="198" font-size="15" fill="var(--text-2, #4a5260)">Selling costs, 3% against 7%</text>
-  <rect x="180" y="204" width="64" height="18" fill="var(--navy, #0f2a4a)"/>
-  <text x="20" y="244" font-size="15" fill="var(--text-2, #4a5260)">Maintenance, $3,100 against $6,000</text>
-  <rect x="192" y="250" width="52" height="18" fill="var(--navy, #0f2a4a)"/>
-  <line x1="70" y1="278" x2="560" y2="278" stroke="var(--line, #d9d9d9)" stroke-width="1"/>
-  <text x="70" y="298" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">0</text>
-  <text x="193" y="298" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">5</text>
-  <text x="315" y="298" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">10</text>
-  <text x="438" y="298" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">15</text>
-  <text x="560" y="298" font-size="15" text-anchor="end" fill="var(--text-2, #4a5260)">20 years</text>
-  <text x="20" y="322" font-size="15" fill="var(--text-2, #4a5260)">The dashed line is the 7.1 year baseline. Each bar is one</text>
-  <text x="20" y="342" font-size="15" fill="var(--text-2, #4a5260)">assumption moved between two defensible values.</text>
+  <text x="14.4" y="24" font-size="17" font-weight="700" fill="var(--text, #1a1a1a)">How far each assumption moves it</text>
+  <line x1="175.5" y1="44" x2="175.5" y2="278" stroke="var(--text-2, #4a5260)" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="14.4" y="60" font-size="15" fill="var(--text-2, #4a5260)">Appreciation, 1% against 5%</text>
+  <rect x="106.4" y="66" width="278.3" height="18" fill="var(--gold, #b08d2a)"/>
+  <text x="14.4" y="106" font-size="15" fill="var(--text-2, #4a5260)">Rent, $1,800 against $2,600</text>
+  <rect x="122.3" y="112" width="171.2" height="18" fill="var(--navy, #0f2a4a)"/>
+  <text x="14.4" y="152" font-size="15" fill="var(--text-2, #4a5260)">Forgone return, 2% against 7%</text>
+  <rect x="151.0" y="158" width="84.1" height="18" fill="var(--navy, #0f2a4a)"/>
+  <text x="14.4" y="198" font-size="15" fill="var(--text-2, #4a5260)">Selling costs, 3% against 7%</text>
+  <rect x="129.5" y="204" width="46.0" height="18" fill="var(--navy, #0f2a4a)"/>
+  <text x="14.4" y="244" font-size="15" fill="var(--text-2, #4a5260)">Maintenance, $3,100 against $6,000</text>
+  <rect x="138.1" y="250" width="37.4" height="18" fill="var(--navy, #0f2a4a)"/>
+  <line x1="50.3" y1="278" x2="402.7" y2="278" stroke="var(--line, #d9d9d9)" stroke-width="1"/>
+  <text x="50.3" y="298" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">0</text>
+  <text x="138.8" y="298" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">5</text>
+  <text x="226.5" y="298" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">10</text>
+  <text x="315.0" y="298" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">15</text>
+  <text x="402.7" y="298" font-size="15" text-anchor="end" fill="var(--text-2, #4a5260)">20 years</text>
+  <text x="14.4" y="322.0" font-size="15" fill="var(--text-2, #4a5260)">The dashed line is the 7.1 year baseline. Each</text>
+  <text x="14.4" y="341.0" font-size="15" fill="var(--text-2, #4a5260)">bar is one assumption moved between two</text>
+  <text x="14.4" y="360.0" font-size="15" fill="var(--text-2, #4a5260)">defensible values.</text>
 </svg>
 
 

@@ -90,38 +90,40 @@ Nadia earns $60,000. Before any bracket applies, the standard deduction comes of
 
 Total federal income tax: $5,071.50. That's 8.45% of her salary.
 
-<svg viewBox="0 0 584 430" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:584px;display:block;margin:1.5em auto;font-family:system-ui,sans-serif" role="img" aria-labelledby="slices-title slices-desc">
+<svg viewBox="0 0 420 441" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:420px;display:block;margin:1.5em auto;font-family:system-ui,sans-serif" role="img" aria-labelledby="slices-title slices-desc">
   <title id="slices-title">A $60,000 and a $65,000 salary broken into tax slices, 2025 single filer</title>
   <desc id="slices-desc">Two horizontal bars drawn to the same scale. The $60,000 bar has three sections: the first $15,750 untaxed, the next $11,925 taxed at 10 percent giving $1,193, and the remaining $32,325 taxed at 12 percent giving $3,879. A short bar underneath shows the whole tax bill, $5,072, drawn to the same scale, and it is a small fraction of the salary bar. The $65,000 bar is identical except that the 12 percent section is longer and a very narrow section of $775 at the far right is taxed at 22 percent, adding $170.50 and giving $5,749 of tax. The 22 percent slice is visibly a sliver, not the whole bar.</desc>
-  <text x="20" y="24" font-size="17" font-weight="700" fill="var(--text, #1a1a1a)">A raise across a bracket line moves the top slice only</text>
-  <text x="20" y="45" font-size="15" fill="var(--text-2, #4a5260)">US federal income tax, single filer, tax year 2025, standard deduction only</text>
-  <text x="20" y="78" font-size="15" font-weight="700" fill="var(--text, #1a1a1a)">Nadia, $60,000 salary</text>
-  <text x="121" y="100" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">untaxed</text>
-  <text x="228" y="100" font-size="15" text-anchor="middle" fill="var(--gold, #b08d2a)">10%</text>
-  <text x="400" y="100" font-size="15" text-anchor="middle" fill="var(--navy, #0f2a4a)">12%</text>
-  <rect x="60" y="106" width="122" height="40" fill="var(--line, #d6dbe3)" stroke="var(--text-2, #4a5260)" stroke-width="0.75"/>
-  <rect x="182" y="106" width="93" height="40" fill="var(--gold, #b08d2a)"/>
-  <rect x="275" y="106" width="250" height="40" fill="var(--navy, #0f2a4a)"/>
-  <text x="121" y="166" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">$15,750 income</text>
-  <text x="228" y="166" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">$1,193 tax</text>
-  <text x="400" y="166" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">$3,879 tax</text>
-  <rect x="60" y="180" width="39" height="14" fill="var(--oxblood, #8b1e2d)"/>
-  <text x="107" y="192" font-size="15" fill="var(--oxblood, #8b1e2d)">the whole tax bill on the same scale: $5,072, or 8.5%</text>
-  <text x="20" y="238" font-size="15" font-weight="700" fill="var(--text, #1a1a1a)">The same person on $65,000, after a $5,000 raise</text>
-  <text x="121" y="260" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">untaxed</text>
-  <text x="228" y="260" font-size="15" text-anchor="middle" fill="var(--gold, #b08d2a)">10%</text>
-  <text x="416" y="260" font-size="15" text-anchor="middle" fill="var(--navy, #0f2a4a)">12%</text>
-  <rect x="60" y="266" width="122" height="40" fill="var(--line, #d6dbe3)" stroke="var(--text-2, #4a5260)" stroke-width="0.75"/>
-  <rect x="182" y="266" width="93" height="40" fill="var(--gold, #b08d2a)"/>
-  <rect x="275" y="266" width="283" height="40" fill="var(--navy, #0f2a4a)"/>
-  <rect x="558" y="266" width="6" height="40" fill="var(--oxblood, #8b1e2d)"/>
-  <text x="121" y="326" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">$15,750 income</text>
-  <text x="228" y="326" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">$1,193 tax</text>
-  <text x="416" y="326" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">$4,386 tax</text>
-  <polyline fill="none" stroke="var(--oxblood, #8b1e2d)" stroke-width="1.5" points="561,308 561,344 520,344"/>
-  <text x="514" y="349" font-size="15" text-anchor="end" fill="var(--oxblood, #8b1e2d)">this sliver is the 22% bracket: $775 taxed, $170.50 due</text>
-  <text x="20" y="388" font-size="15" fill="var(--text-2, #4a5260)">Bars to scale. Slices computed from the IRS 2025 single-filer brackets</text>
-  <text x="20" y="408" font-size="15" fill="var(--text-2, #4a5260)">(10% to $11,925, 12% to $48,475, 22% to $103,350 of taxable income).</text>
+  <text x="14.4" y="24" font-size="17" font-weight="700" fill="var(--text, #1a1a1a)">A raise moves only the top slice</text>
+  <text x="14.4" y="45" font-size="15" fill="var(--text-2, #4a5260)">US federal income tax, single filer, 2025</text>
+  <text x="14.4" y="78" font-size="15" font-weight="700" fill="var(--text, #1a1a1a)">Nadia, $60,000 salary</text>
+  <text x="87.0" y="100" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">untaxed</text>
+  <text x="164.0" y="100" font-size="15" text-anchor="middle" fill="var(--gold, #b08d2a)">10%</text>
+  <text x="287.7" y="100" font-size="15" text-anchor="middle" fill="var(--navy, #0f2a4a)">12%</text>
+  <rect x="43.2" y="106" width="87.7" height="40" fill="var(--line, #d6dbe3)" stroke="var(--text-2, #4a5260)" stroke-width="0.75"/>
+  <rect x="130.9" y="106" width="66.9" height="40" fill="var(--gold, #b08d2a)"/>
+  <rect x="197.8" y="106" width="179.8" height="40" fill="var(--navy, #0f2a4a)"/>
+  <text x="87.0" y="166" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">$15,750</text>
+  <text x="164.0" y="166" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">$1,193</text>
+  <text x="287.7" y="166" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">$3,879</text>
+  <rect x="43.2" y="180" width="28.0" height="14" fill="var(--oxblood, #8b1e2d)"/>
+  <text x="78" y="192" font-size="15" fill="var(--oxblood, #8b1e2d)">the whole tax bill, same scale: $5,072 (8.5%)</text>
+  <text x="14.4" y="238" font-size="15" font-weight="700" fill="var(--text, #1a1a1a)">The same person on $65,000, after a $5,000 raise</text>
+  <text x="87.0" y="260" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">untaxed</text>
+  <text x="164.0" y="260" font-size="15" text-anchor="middle" fill="var(--gold, #b08d2a)">10%</text>
+  <text x="299.2" y="260" font-size="15" text-anchor="middle" fill="var(--navy, #0f2a4a)">12%</text>
+  <rect x="43.2" y="266" width="87.7" height="40" fill="var(--line, #d6dbe3)" stroke="var(--text-2, #4a5260)" stroke-width="0.75"/>
+  <rect x="130.9" y="266" width="66.9" height="40" fill="var(--gold, #b08d2a)"/>
+  <rect x="197.8" y="266" width="203.5" height="40" fill="var(--navy, #0f2a4a)"/>
+  <rect x="401.3" y="266" width="4.3" height="40" fill="var(--oxblood, #8b1e2d)"/>
+  <text x="87.0" y="326" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">$15,750</text>
+  <text x="164.0" y="326" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">$1,193</text>
+  <text x="299.2" y="326" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">$4,386</text>
+  <polyline fill="none" stroke="var(--oxblood, #8b1e2d)" stroke-width="1.5" points="403.5,308 403.5,344 374.0,344"/>
+  <text x="369.7" y="340" font-size="15" text-anchor="end" fill="var(--oxblood, #8b1e2d)">this sliver is the 22% bracket:</text>
+  <text x="369.7" y="358" font-size="15" text-anchor="end" fill="var(--oxblood, #8b1e2d)">$775 taxed, $170.50 due</text>
+  <text x="14.4" y="388.0" font-size="15" fill="var(--text-2, #4a5260)">Bars to scale. Slices computed from the IRS 2025</text>
+  <text x="14.4" y="407.0" font-size="15" fill="var(--text-2, #4a5260)">single-filer brackets (10% to $11,925, 12% to</text>
+  <text x="14.4" y="426.0" font-size="15" fill="var(--text-2, #4a5260)">$48,475, 22% to $103,350 of taxable income).</text>
 </svg>
 
 Look at the second bar. Her salary went up by $5,000, she's now, in the usual phrase, "in the 22% bracket", and the 22% bracket is that thin strip at the right-hand end. Everything to its left is taxed exactly as before. The raise cost $677.50 in extra federal income tax: $4,225 of it at 12% and $775 of it at 22%.
@@ -142,37 +144,39 @@ Her **marginal rate** is 12%. That's the rate on the next dollar she earns. It's
 
 Her **effective rate** is 8.45%. That's the share of everything she earned that went to this tax. It's the number for any decision about *totals*: what share of a household's income the tax system takes, or how your burden compares with someone else's. Neither one is the "real" rate; they're two measurements of the same bill.
 
-<svg viewBox="0 0 584 420" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:584px;display:block;margin:1.5em auto;font-family:system-ui,sans-serif" role="img" aria-labelledby="rates-title rates-desc">
+<svg viewBox="0 0 420 461" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:420px;display:block;margin:1.5em auto;font-family:system-ui,sans-serif" role="img" aria-labelledby="rates-title rates-desc">
   <title id="rates-title">Marginal rate versus effective rate across income, 2025 single filer</title>
   <desc id="rates-desc">A chart with income from zero to $300,000 on the horizontal axis and tax rate from zero to 40 percent on the vertical axis. The marginal rate is a staircase rising in steps from 0 to 10, 12, 22, 24, 32 and 35 percent. The effective rate is a smooth curve that stays far below the staircase at every income, reaching about 8.5 percent at $60,000, about 15 percent at $119,000, and about 23 percent at $300,000, where the marginal rate is 35 percent.</desc>
-  <text x="20" y="24" font-size="17" font-weight="700" fill="var(--text, #1a1a1a)">The rate you quote and the rate you pay</text>
-  <text x="20" y="45" font-size="15" fill="var(--text-2, #4a5260)">US federal income tax, single filer, tax year 2025, standard deduction only</text>
-  <line x1="60" y1="60" x2="60" y2="280" stroke="var(--line, #d6dbe3)" stroke-width="1"/>
-  <line x1="60" y1="280" x2="564" y2="280" stroke="var(--line, #d6dbe3)" stroke-width="1"/>
-  <line x1="60" y1="225" x2="564" y2="225" stroke="var(--line, #d6dbe3)" stroke-width="1" stroke-dasharray="3 4"/>
-  <line x1="60" y1="170" x2="564" y2="170" stroke="var(--line, #d6dbe3)" stroke-width="1" stroke-dasharray="3 4"/>
-  <line x1="60" y1="115" x2="564" y2="115" stroke="var(--line, #d6dbe3)" stroke-width="1" stroke-dasharray="3 4"/>
-  <line x1="60" y1="60" x2="564" y2="60" stroke="var(--line, #d6dbe3)" stroke-width="1" stroke-dasharray="3 4"/>
-  <text x="54" y="285" font-size="15" text-anchor="end" fill="var(--text-2, #4a5260)">0%</text>
-  <text x="54" y="230" font-size="15" text-anchor="end" fill="var(--text-2, #4a5260)">10%</text>
-  <text x="54" y="175" font-size="15" text-anchor="end" fill="var(--text-2, #4a5260)">20%</text>
-  <text x="54" y="120" font-size="15" text-anchor="end" fill="var(--text-2, #4a5260)">30%</text>
-  <text x="54" y="65" font-size="15" text-anchor="end" fill="var(--text-2, #4a5260)">40%</text>
-  <text x="60" y="302" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">$0</text>
-  <text x="228" y="302" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">$100k</text>
-  <text x="396" y="302" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">$200k</text>
-  <text x="564" y="302" font-size="15" text-anchor="end" fill="var(--text-2, #4a5260)">$300k</text>
-  <polyline fill="none" stroke="var(--oxblood, #8b1e2d)" stroke-width="2.5" points="60,280 86,280 86,225 107,225 107,214 168,214 168,159 260,159 260,148 418,148 418,104 507,104 507,88 564,88"/>
-  <polyline fill="none" stroke="var(--navy, #0f2a4a)" stroke-width="2.5" points="60,280 86,280 94,268 110,253 127,243 144,237 161,234 168,232 194,218 228,206 260,199 312,188 396,178 418,176 480,166 507,162 564,153"/>
-  <circle cx="161" cy="234" r="4" fill="var(--navy, #0f2a4a)"/>
-  <text x="176" y="252" font-size="15" fill="var(--navy, #0f2a4a)">Nadia at $60,000: 12% marginal,</text>
-  <text x="176" y="270" font-size="15" fill="var(--navy, #0f2a4a)">8.5% effective</text>
-  <text x="330" y="140" font-size="15" font-weight="700" fill="var(--oxblood, #8b1e2d)">marginal rate</text>
-  <text x="330" y="212" font-size="15" font-weight="700" fill="var(--navy, #0f2a4a)">effective rate</text>
-  <text x="20" y="338" font-size="15" fill="var(--text-2, #4a5260)">Effective rate is total federal income tax divided by salary. At $300,000 the</text>
-  <text x="20" y="358" font-size="15" fill="var(--text-2, #4a5260)">marginal rate is 35% and the effective rate is 23.0%. The gap never closes,</text>
-  <text x="20" y="378" font-size="15" fill="var(--text-2, #4a5260)">because the lower slices keep their lower rates however much you earn.</text>
-  <text x="20" y="398" font-size="15" fill="var(--text-2, #4a5260)">Computed from IRS 2025 brackets and the $15,750 deduction.</text>
+  <text x="14.4" y="24" font-size="17" font-weight="700" fill="var(--text, #1a1a1a)">The rate you quote and the rate you pay</text>
+  <text x="14.4" y="45" font-size="15" fill="var(--text-2, #4a5260)">US federal income tax, single filer, 2025</text>
+  <line x1="43.2" y1="60" x2="43.2" y2="280" stroke="var(--line, #d6dbe3)" stroke-width="1"/>
+  <line x1="43.2" y1="280" x2="405.6" y2="280" stroke="var(--line, #d6dbe3)" stroke-width="1"/>
+  <line x1="43.2" y1="225" x2="405.6" y2="225" stroke="var(--line, #d6dbe3)" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="43.2" y1="170" x2="405.6" y2="170" stroke="var(--line, #d6dbe3)" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="43.2" y1="115" x2="405.6" y2="115" stroke="var(--line, #d6dbe3)" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="43.2" y1="60" x2="405.6" y2="60" stroke="var(--line, #d6dbe3)" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="38.8" y="285" font-size="15" text-anchor="end" fill="var(--text-2, #4a5260)">0%</text>
+  <text x="38.8" y="230" font-size="15" text-anchor="end" fill="var(--text-2, #4a5260)">10%</text>
+  <text x="38.8" y="175" font-size="15" text-anchor="end" fill="var(--text-2, #4a5260)">20%</text>
+  <text x="38.8" y="120" font-size="15" text-anchor="end" fill="var(--text-2, #4a5260)">30%</text>
+  <text x="38.8" y="65" font-size="15" text-anchor="end" fill="var(--text-2, #4a5260)">40%</text>
+  <text x="43.2" y="302" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">$0</text>
+  <text x="164.0" y="302" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">$100k</text>
+  <text x="284.8" y="302" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">$200k</text>
+  <text x="405.6" y="302" font-size="15" text-anchor="end" fill="var(--text-2, #4a5260)">$300k</text>
+  <polyline fill="none" stroke="var(--oxblood, #8b1e2d)" stroke-width="2.5" points="43.2,280 61.8,280 61.8,225 77.0,225 77.0,214 120.8,214 120.8,159 187.0,159 187.0,148 300.6,148 300.6,104 364.6,104 364.6,88 405.6,88"/>
+  <polyline fill="none" stroke="var(--navy, #0f2a4a)" stroke-width="2.5" points="43.2,280 61.8,280 67.6,268 79.1,253 91.3,243 103.6,237 115.8,234 120.8,232 139.5,218 164.0,206 187.0,199 224.4,188 284.8,178 300.6,176 345.2,166 364.6,162 405.6,153"/>
+  <circle cx="115.8" cy="234" r="4" fill="var(--navy, #0f2a4a)"/>
+  <text x="126.6" y="252" font-size="15" fill="var(--navy, #0f2a4a)">Nadia at $60,000: 12% marginal,</text>
+  <text x="126.6" y="270" font-size="15" fill="var(--navy, #0f2a4a)">8.5% effective</text>
+  <text x="237.3" y="140" font-size="15" font-weight="700" fill="var(--oxblood, #8b1e2d)">marginal rate</text>
+  <text x="237.3" y="212" font-size="15" font-weight="700" fill="var(--navy, #0f2a4a)">effective rate</text>
+  <text x="14.4" y="338.0" font-size="15" fill="var(--text-2, #4a5260)">Effective rate is total federal income tax</text>
+  <text x="14.4" y="357.0" font-size="15" fill="var(--text-2, #4a5260)">divided by salary. At $300,000 the marginal rate</text>
+  <text x="14.4" y="376.0" font-size="15" fill="var(--text-2, #4a5260)">is 35% and the effective rate is 23.0%. The gap</text>
+  <text x="14.4" y="395.0" font-size="15" fill="var(--text-2, #4a5260)">never closes, because the lower slices keep their</text>
+  <text x="14.4" y="414.0" font-size="15" fill="var(--text-2, #4a5260)">lower rates however much you earn. Computed from</text>
+  <text x="14.4" y="433.0" font-size="15" fill="var(--text-2, #4a5260)">IRS 2025 brackets and the $15,750 deduction.</text>
 </svg>
 
 The red staircase is what people mean when they say "the 22% bracket". The navy curve is what they actually paid. The curve never catches the staircase, at any income on this chart or beyond it. And look at how it behaves in the range most people live in: doubling a salary from $40,000 to $80,000 moves the effective rate from 6.7% to 11.3%.

@@ -76,31 +76,32 @@ Nineteen years and two months, and about $8,100 in interest, more than the origi
 
 Now the good news, which is just the same arithmetic pointed the other way. Every dollar above the minimum goes entirely to the balance, and a smaller balance means less interest next month, which frees more of the next payment for the balance, and so on. Fifty extra dollars a month turns 19 years into five and a half, and cuts the interest from $8,100 to $2,830. Look at the gap between the two lines below; that gap is what $50 a month buys.
 
-<svg viewBox="0 0 584 400" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:584px;display:block;margin:1.5em auto;font-family:system-ui,sans-serif" role="img" aria-labelledby="minpay-title minpay-desc">
+<svg viewBox="0 0 420 419" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:420px;display:block;margin:1.5em auto;font-family:system-ui,sans-serif" role="img" aria-labelledby="minpay-title minpay-desc">
   <title id="minpay-title">Paying down $5,000 at 22% APR: minimum only versus $50 extra</title>
   <desc id="minpay-desc">A line chart of the remaining balance over time. Paying the minimum only, the balance falls slowly and reaches zero after about 19 years, costing $8,100 in interest. Paying $50 above the minimum, the balance reaches zero in about five and a half years, costing $2,830 in interest.</desc>
-  <text x="20" y="24" font-size="17" font-weight="700" fill="var(--text, #1a1a1a)">$5,000 card balance at 22% APR</text>
-  <line x1="60" y1="50" x2="60" y2="290" stroke="var(--line, #d9d9d9)" stroke-width="1"/>
-  <line x1="60" y1="290" x2="564" y2="290" stroke="var(--line, #d9d9d9)" stroke-width="1"/>
-  <line x1="60" y1="170" x2="564" y2="170" stroke="var(--line, #d9d9d9)" stroke-width="1" stroke-dasharray="3 4"/>
-  <line x1="60" y1="50" x2="564" y2="50" stroke="var(--line, #d9d9d9)" stroke-width="1" stroke-dasharray="3 4"/>
-  <text x="54" y="55" font-size="15" text-anchor="end" fill="var(--text-2, #4a5260)">$5,000</text>
-  <text x="54" y="175" font-size="15" text-anchor="end" fill="var(--text-2, #4a5260)">$2,500</text>
-  <text x="54" y="295" font-size="15" text-anchor="end" fill="var(--text-2, #4a5260)">$0</text>
-  <text x="60" y="312" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">0</text>
-  <text x="186" y="312" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">5 yrs</text>
-  <text x="312" y="312" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">10 yrs</text>
-  <text x="438" y="312" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">15 yrs</text>
-  <text x="570" y="312" font-size="15" text-anchor="end" fill="var(--text-2, #4a5260)">20 yrs</text>
-  <polyline fill="none" stroke="var(--navy, #0f2a4a)" stroke-width="2.5" points="60,50 85,77 110,102 136,123 161,142 186,159 211,174 236,187 262,199 287,209 312,218 337,226 362,234 388,240 413,246 438,251 463,257 488,265 514,275 539,288 543,290"/>
-  <polyline fill="none" stroke="var(--oxblood, #8b1e2d)" stroke-width="2.5" points="60,50 85,105 110,153 136,196 161,234 186,269 201,290"/>
-  <text x="300" y="130" font-size="15" font-weight="700" fill="var(--navy, #0f2a4a)">Minimum only:</text>
-  <text x="300" y="150" font-size="15" fill="var(--navy, #0f2a4a)">19 years, $8,100 interest</text>
-  <text x="150" y="255" font-size="15" font-weight="700" fill="var(--oxblood, #8b1e2d)">$50 extra:</text>
-  <text x="150" y="275" font-size="15" fill="var(--oxblood, #8b1e2d)">5.5 years, $2,830 interest</text>
-  <text x="20" y="348" font-size="15" fill="var(--text-2, #4a5260)">Computed month by month: minimum payment set at that month's</text>
-  <text x="20" y="368" font-size="15" fill="var(--text-2, #4a5260)">interest plus 1% of balance ($25 floor), interest at 22% APR ÷ 12.</text>
-  <text x="20" y="388" font-size="15" fill="var(--text-2, #4a5260)">No new purchases, no missed payments assumed.</text>
+  <text x="14.4" y="24" font-size="17" font-weight="700" fill="var(--text, #1a1a1a)">$5,000 card balance at 22% APR</text>
+  <line x1="43.2" y1="50" x2="43.2" y2="290" stroke="var(--line, #d9d9d9)" stroke-width="1"/>
+  <line x1="43.2" y1="290" x2="405.6" y2="290" stroke="var(--line, #d9d9d9)" stroke-width="1"/>
+  <line x1="43.2" y1="170" x2="405.6" y2="170" stroke="var(--line, #d9d9d9)" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="43.2" y1="50" x2="405.6" y2="50" stroke="var(--line, #d9d9d9)" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="38.8" y="55" font-size="15" text-anchor="end" fill="var(--text-2, #4a5260)">5,000</text>
+  <text x="38.8" y="175" font-size="15" text-anchor="end" fill="var(--text-2, #4a5260)">2,500</text>
+  <text x="38.8" y="295" font-size="15" text-anchor="end" fill="var(--text-2, #4a5260)">$0</text>
+  <text x="43.2" y="312" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">0</text>
+  <text x="133.8" y="312" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">5 yrs</text>
+  <text x="224.4" y="312" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">10 yrs</text>
+  <text x="315.0" y="312" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">15 yrs</text>
+  <text x="409.9" y="312" font-size="15" text-anchor="end" fill="var(--text-2, #4a5260)">20 yrs</text>
+  <polyline fill="none" stroke="var(--navy, #0f2a4a)" stroke-width="2.5" points="43.2,50 61.1,77 79.1,102 97.8,123 115.8,142 133.8,159 151.7,174 169.7,187 188.4,199 206.4,209 224.4,218 242.4,226 260.3,234 279.0,240 297.0,246 315.0,251 333.0,257 351.0,265 369.7,275 387.6,288 390.5,290"/>
+  <polyline fill="none" stroke="var(--oxblood, #8b1e2d)" stroke-width="2.5" points="43.2,50 61.1,105 79.1,153 97.8,196 115.8,234 133.8,269 144.6,290"/>
+  <text x="215.8" y="130" font-size="15" font-weight="700" fill="var(--navy, #0f2a4a)">Minimum only:</text>
+  <text x="215.8" y="150" font-size="15" fill="var(--navy, #0f2a4a)">19 years, $8,100 interest</text>
+  <text x="107.9" y="255" font-size="15" font-weight="700" fill="var(--oxblood, #8b1e2d)">$50 extra:</text>
+  <text x="107.9" y="275" font-size="15" fill="var(--oxblood, #8b1e2d)">5.5 years, $2,830 interest</text>
+  <text x="14.4" y="348.0" font-size="15" fill="var(--text-2, #4a5260)">Computed month by month: minimum payment set at</text>
+  <text x="14.4" y="367.0" font-size="15" fill="var(--text-2, #4a5260)">that month's interest plus 1% of balance ($25</text>
+  <text x="14.4" y="386.0" font-size="15" fill="var(--text-2, #4a5260)">floor), interest at 22% APR ÷ 12. No new</text>
+  <text x="14.4" y="405.0" font-size="15" fill="var(--text-2, #4a5260)">purchases, no missed payments assumed.</text>
 </svg>
 
 This is why revolving credit card debt is an emergency in a way other debts aren't. It's not moral failure; it's arithmetic. At 22%, the debt grows faster than almost anything you could plausibly earn on savings or investments, so while it exists it silently outruns everything else you do with money. Consumer advocates argue the minimum payment structure is designed to maximise interest collected; whatever the intent, the schedule above is what it produces, and your own statement's disclosure box will confirm it ([the CARD Act requires this disclosure](https://www.consumerfinance.gov/ask-cfpb/what-is-a-minimum-payment-on-a-credit-card-en-49/)).[3]

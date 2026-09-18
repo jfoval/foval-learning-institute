@@ -91,28 +91,30 @@ Do the expected value from the customer's side and it looks like a bad deal, bec
 
 That's why "they make a profit, so it's a rip-off" doesn't follow. The insurer's profit is the price of moving a risk from someone who cannot carry it to something built to carry it. What does follow, and it is the sharp end of the same reasoning, is that **you should not pay that margin on losses you could carry yourself.**
 
-<svg viewBox="0 0 584 352" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:584px;display:block;margin:1.5em auto;font-family:system-ui,sans-serif" role="img" aria-labelledby="pool-title pool-desc">
+<svg viewBox="0 0 420 379" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:420px;display:block;margin:1.5em auto;font-family:system-ui,sans-serif" role="img" aria-labelledby="pool-title pool-desc">
   <title id="pool-title">The same risk before and after insuring it</title>
   <desc id="pool-desc">Two pictures of one person's possible year on the same horizontal scale of cost, from zero to 50,000 dollars. Bar height shows how often a year of that kind happens, and the rare year is drawn at the same exaggerated height in both panels so the two can be compared. Uninsured, a tall bar sits at a cost of zero for the 99 years in 100 that cost nothing, and a small bar sits far to the right at 50,000 dollars. Insured, a tall bar sits at 650 dollars for most years, and a small bar sits just to the right of it, at the premium plus the most the policy lets a bad year cost. The bad year has not gone; it has moved from the far right to close to the left.</desc>
-  <text x="20" y="24" font-size="17" font-weight="700" fill="var(--text, #1a1a1a)">One year, two shapes, on the same scale</text>
-  <text x="20" y="52" font-size="15" font-weight="700" fill="var(--oxblood, #8b1e2d)">Uninsured</text>
-  <line x1="70" y1="140" x2="564" y2="140" stroke="var(--line, #d9d9d9)" stroke-width="1"/>
-  <rect x="72" y="66" width="26" height="74" fill="var(--oxblood, #8b1e2d)"/>
-  <text x="104" y="88" font-size="15" fill="var(--oxblood, #8b1e2d)">99 years in 100 cost nothing</text>
-  <rect x="520" y="120" width="26" height="20" fill="var(--oxblood, #8b1e2d)"/>
-  <text x="516" y="112" font-size="15" text-anchor="end" fill="var(--oxblood, #8b1e2d)">1 year in 100 costs $50,000</text>
-  <text x="72" y="158" font-size="15" fill="var(--text-2, #4a5260)">$0</text>
-  <text x="564" y="158" font-size="15" text-anchor="end" fill="var(--text-2, #4a5260)">$50,000</text>
-  <text x="20" y="196" font-size="15" font-weight="700" fill="var(--navy, #0f2a4a)">Insured</text>
-  <line x1="70" y1="284" x2="564" y2="284" stroke="var(--line, #d9d9d9)" stroke-width="1"/>
-  <rect x="78" y="210" width="26" height="74" fill="var(--navy, #0f2a4a)"/>
-  <text x="110" y="232" font-size="15" fill="var(--navy, #0f2a4a)">most years cost the premium</text>
-  <rect x="140" y="264" width="26" height="20" fill="var(--navy, #0f2a4a)"/>
-  <text x="174" y="279" font-size="15" fill="var(--navy, #0f2a4a)">a bad year still costs you your deductible</text>
-  <text x="72" y="302" font-size="15" fill="var(--text-2, #4a5260)">$650</text>
-  <text x="564" y="302" font-size="15" text-anchor="end" fill="var(--text-2, #4a5260)">$50,000</text>
-  <text x="20" y="326" font-size="15" fill="var(--text-2, #4a5260)">Heights are not to scale: the rare year is drawn large enough to see,</text>
-  <text x="20" y="346" font-size="15" fill="var(--text-2, #4a5260)">and at the same height in both, so only its position changes.</text>
+  <text x="14.4" y="24" font-size="17" font-weight="700" fill="var(--text, #1a1a1a)">One year, two shapes, on the same scale</text>
+  <text x="14.4" y="52" font-size="15" font-weight="700" fill="var(--oxblood, #8b1e2d)">Uninsured</text>
+  <line x1="50.3" y1="140" x2="405.6" y2="140" stroke="var(--line, #d9d9d9)" stroke-width="1"/>
+  <rect x="51.8" y="66" width="18.7" height="74" fill="var(--oxblood, #8b1e2d)"/>
+  <text x="74.8" y="88" font-size="15" fill="var(--oxblood, #8b1e2d)">99 years in 100 cost nothing</text>
+  <rect x="374.0" y="120" width="18.7" height="20" fill="var(--oxblood, #8b1e2d)"/>
+  <text x="371.1" y="112" font-size="15" text-anchor="end" fill="var(--oxblood, #8b1e2d)">1 year in 100 costs $50,000</text>
+  <text x="51.8" y="158" font-size="15" fill="var(--text-2, #4a5260)">$0</text>
+  <text x="405.6" y="158" font-size="15" text-anchor="end" fill="var(--text-2, #4a5260)">$50,000</text>
+  <text x="14.4" y="196" font-size="15" font-weight="700" fill="var(--navy, #0f2a4a)">Insured</text>
+  <line x1="50.3" y1="284" x2="405.6" y2="284" stroke="var(--line, #d9d9d9)" stroke-width="1"/>
+  <rect x="56.1" y="210" width="18.7" height="74" fill="var(--navy, #0f2a4a)"/>
+  <text x="79.1" y="232" font-size="15" fill="var(--navy, #0f2a4a)">most years cost the premium</text>
+  <rect x="100.7" y="264" width="18.7" height="20" fill="var(--navy, #0f2a4a)"/>
+  <text x="125.1" y="279.0" font-size="15" fill="var(--navy, #0f2a4a)">a bad year still costs you your</text>
+  <text x="125.1" y="298.0" font-size="15" fill="var(--navy, #0f2a4a)">deductible</text>
+  <text x="51.8" y="302" font-size="15" fill="var(--text-2, #4a5260)">$650</text>
+  <text x="405.6" y="302" font-size="15" text-anchor="end" fill="var(--text-2, #4a5260)">$50,000</text>
+  <text x="14.4" y="326.0" font-size="15" fill="var(--text-2, #4a5260)">Heights are not to scale: the rare year is drawn</text>
+  <text x="14.4" y="345.0" font-size="15" fill="var(--text-2, #4a5260)">large enough to see, and at the same height in</text>
+  <text x="14.4" y="364.0" font-size="15" fill="var(--text-2, #4a5260)">both, so only its position changes.</text>
 </svg>
 
 ## The rule, and the test that applies it
@@ -171,30 +173,30 @@ Be careful where you start. For the first $1,000 of care both plans charge a ful
 
 The crossover is **$2,500 of covered care in the year**. Below it, B; above it, A. The picture below has the whole comparison in it, and it shows two things the three cases do not.
 
-<svg viewBox="0 0 584 350" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:584px;display:block;margin:1.5em auto;font-family:system-ui,sans-serif" role="img" aria-labelledby="plan-title plan-desc">
+<svg viewBox="0 0 420 350" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:420px;display:block;margin:1.5em auto;font-family:system-ui,sans-serif" role="img" aria-labelledby="plan-title plan-desc">
   <title id="plan-title">Total yearly cost of two health plans against how much care is used</title>
   <desc id="plan-desc">A line chart. The horizontal axis is covered care used in the year, from zero to 25,000 dollars. The vertical axis is Priya's total cost, premium plus out of pocket, from zero to 9,000 dollars. Plan A starts at 3,000 dollars, rises steeply to 4,000 at the deductible, then rises slowly and flattens at 7,000. Plan B starts at 1,800 dollars, rises steeply to 5,300 at its higher deductible, then flattens at 8,800. The lines cross at 2,500 dollars of care, where both cost 4,300 dollars. Plan B is cheaper to the left of the crossing and Plan A is cheaper to the right.</desc>
-  <text x="20" y="24" font-size="17" font-weight="700" fill="var(--text, #1a1a1a)">What each plan costs Priya for the year</text>
-  <line x1="70" y1="60" x2="70" y2="290" stroke="var(--line, #d9d9d9)" stroke-width="1"/>
-  <line x1="70" y1="290" x2="564" y2="290" stroke="var(--line, #d9d9d9)" stroke-width="1"/>
-  <line x1="70" y1="213" x2="564" y2="213" stroke="var(--line, #d9d9d9)" stroke-width="1" stroke-dasharray="3 4"/>
-  <line x1="70" y1="137" x2="564" y2="137" stroke="var(--line, #d9d9d9)" stroke-width="1" stroke-dasharray="3 4"/>
-  <line x1="70" y1="60" x2="564" y2="60" stroke="var(--line, #d9d9d9)" stroke-width="1" stroke-dasharray="3 4"/>
-  <text x="64" y="218" font-size="15" text-anchor="end" fill="var(--text-2, #4a5260)">$3k</text>
-  <text x="64" y="142" font-size="15" text-anchor="end" fill="var(--text-2, #4a5260)">$6k</text>
-  <text x="64" y="65" font-size="15" text-anchor="end" fill="var(--text-2, #4a5260)">$9k</text>
-  <text x="70" y="312" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">$0</text>
-  <text x="266" y="312" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">$10k</text>
-  <text x="462" y="312" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">$20k</text>
-  <text x="292" y="334" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">Covered care used during the year</text>
-  <polyline fill="none" stroke="var(--navy, #0f2a4a)" stroke-width="2.5" points="70,213 90,188 384,111 560,111"/>
-  <polyline fill="none" stroke="var(--oxblood, #8b1e2d)" stroke-width="2.5" points="70,244 139,155 482,65 560,65"/>
-  <circle cx="119" cy="180" r="5" fill="var(--gold, #b08d2a)"/>
-  <line x1="121" y1="186" x2="128" y2="205" stroke="var(--gold, #b08d2a)" stroke-width="1.5"/>
-  <text x="126" y="222" font-size="15" font-weight="700" fill="var(--gold, #b08d2a)">they cross at $2,500 of care</text>
-  <text x="400" y="103" font-size="15" font-weight="700" fill="var(--navy, #0f2a4a)">Plan A caps at $7,000</text>
-  <text x="400" y="57" font-size="15" font-weight="700" fill="var(--oxblood, #8b1e2d)">Plan B caps at $8,800</text>
-  <text x="82" y="262" font-size="15" fill="var(--oxblood, #8b1e2d)">B starts lower</text>
+  <text x="14.4" y="24" font-size="17" font-weight="700" fill="var(--text, #1a1a1a)">What each plan costs Priya for the year</text>
+  <line x1="50.3" y1="60" x2="50.3" y2="290" stroke="var(--line, #d9d9d9)" stroke-width="1"/>
+  <line x1="50.3" y1="290" x2="405.6" y2="290" stroke="var(--line, #d9d9d9)" stroke-width="1"/>
+  <line x1="50.3" y1="213" x2="405.6" y2="213" stroke="var(--line, #d9d9d9)" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="50.3" y1="137" x2="405.6" y2="137" stroke="var(--line, #d9d9d9)" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="50.3" y1="60" x2="405.6" y2="60" stroke="var(--line, #d9d9d9)" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="46.0" y="218" font-size="15" text-anchor="end" fill="var(--text-2, #4a5260)">$3k</text>
+  <text x="46.0" y="142" font-size="15" text-anchor="end" fill="var(--text-2, #4a5260)">$6k</text>
+  <text x="46.0" y="65" font-size="15" text-anchor="end" fill="var(--text-2, #4a5260)">$9k</text>
+  <text x="50.3" y="312" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">$0</text>
+  <text x="191.3" y="312" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">$10k</text>
+  <text x="332.3" y="312" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">$20k</text>
+  <text x="210.0" y="334" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">Covered care used during the year</text>
+  <polyline fill="none" stroke="var(--navy, #0f2a4a)" stroke-width="2.5" points="50.3,213 64.7,188 276.2,111 402.7,111"/>
+  <polyline fill="none" stroke="var(--oxblood, #8b1e2d)" stroke-width="2.5" points="50.3,244 100.0,155 346.6,65 402.7,65"/>
+  <circle cx="85.6" cy="180" r="5" fill="var(--gold, #b08d2a)"/>
+  <line x1="87.0" y1="186" x2="92.1" y2="205" stroke="var(--gold, #b08d2a)" stroke-width="1.5"/>
+  <text x="90.6" y="222" font-size="15" font-weight="700" fill="var(--gold, #b08d2a)">they cross at $2,500 of care</text>
+  <text x="400" y="103" font-size="15" text-anchor="end" font-weight="700" fill="var(--navy, #0f2a4a)">Plan A caps at $7,000</text>
+  <text x="400" y="57" font-size="15" text-anchor="end" font-weight="700" fill="var(--oxblood, #8b1e2d)">Plan B caps at $8,800</text>
+  <text x="59.0" y="262" font-size="15" fill="var(--oxblood, #8b1e2d)">B starts lower</text>
 </svg>
 
 Two things this picture teaches that the three numbers alone do not.

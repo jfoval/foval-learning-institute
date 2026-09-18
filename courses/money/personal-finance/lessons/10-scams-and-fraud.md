@@ -76,28 +76,29 @@ Two figures, and you need both of them or you'll believe something false.
 **Older adults lose much more when it happens.** Median individual losses in the same data run $500 for ages 18 to 59, $520 for 60 to 69, **$800 for 70 to 79, and $1,500 for 80 and over**, and by the FTC's 2025 figures the median for people 80 and over had passed **$1,600**. At the top end the pattern is sharper still: losses of $10,000 or more to business and government imposter scams were more than twice as likely to be reported by older adults, and losses over $100,000 three times as likely.[3]
 
 
-<svg viewBox="0 0 584 300" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:584px;display:block;margin:1.5em auto;font-family:system-ui,sans-serif" role="img" aria-labelledby="age-title age-desc">
+<svg viewBox="0 0 420 317" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:420px;display:block;margin:1.5em auto;font-family:system-ui,sans-serif" role="img" aria-labelledby="age-title age-desc">
   <title id="age-title">Median reported loss to fraud, by age of the person reporting</title>
   <desc id="age-desc">Four bars showing the median individual loss reported to the FTC by age band. Ages 18 to 59, 500 dollars. Ages 60 to 69, 520 dollars. Ages 70 to 79, 800 dollars. Ages 80 and over, 1,500 dollars. The bars are roughly level for the first two bands and then rise steeply. A note records that the youngest band nonetheless reports losing money more often than the oldest.</desc>
-  <text x="20" y="24" font-size="17" font-weight="700" fill="var(--text, #1a1a1a)">Median loss when money was lost, by age</text>
-  <line x1="140" y1="44" x2="140" y2="212" stroke="var(--line, #d9d9d9)" stroke-width="1"/>
-  <text x="130" y="66" font-size="15" text-anchor="end" fill="var(--text-2, #4a5260)">18 to 59</text>
-  <rect x="140" y="52" width="120" height="20" fill="var(--navy, #0f2a4a)"/>
-  <text x="270" y="68" font-size="15" font-weight="700" fill="var(--navy, #0f2a4a)">$500</text>
-  <text x="130" y="110" font-size="15" text-anchor="end" fill="var(--text-2, #4a5260)">60 to 69</text>
-  <rect x="140" y="96" width="125" height="20" fill="var(--navy, #0f2a4a)"/>
-  <text x="275" y="112" font-size="15" font-weight="700" fill="var(--navy, #0f2a4a)">$520</text>
-  <text x="130" y="154" font-size="15" text-anchor="end" fill="var(--text-2, #4a5260)">70 to 79</text>
-  <rect x="140" y="140" width="192" height="20" fill="var(--navy, #0f2a4a)"/>
-  <text x="342" y="156" font-size="15" font-weight="700" fill="var(--navy, #0f2a4a)">$800</text>
-  <text x="130" y="198" font-size="15" text-anchor="end" fill="var(--text-2, #4a5260)">80 and over</text>
-  <rect x="140" y="184" width="360" height="20" fill="var(--oxblood, #8b1e2d)"/>
-  <text x="510" y="200" font-size="15" font-weight="700" fill="var(--oxblood, #8b1e2d)">$1,500</text>
-  <line x1="140" y1="212" x2="560" y2="212" stroke="var(--line, #d9d9d9)" stroke-width="1"/>
-  <text x="140" y="232" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">$0</text>
-  <text x="380" y="232" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">$1,000</text>
-  <text x="20" y="264" font-size="15" fill="var(--text-2, #4a5260)">And the half of the picture a bar chart cannot show: the youngest band</text>
-  <text x="20" y="284" font-size="15" fill="var(--text-2, #4a5260)">reports losing money more often than the oldest one does.</text>
+  <text x="14.4" y="24" font-size="17" font-weight="700" fill="var(--text, #1a1a1a)">Median loss when money was lost, by age</text>
+  <line x1="100.7" y1="44" x2="100.7" y2="212" stroke="var(--line, #d9d9d9)" stroke-width="1"/>
+  <text x="93.5" y="66" font-size="15" text-anchor="end" fill="var(--text-2, #4a5260)">18 to 59</text>
+  <rect x="100.7" y="52" width="86.3" height="20" fill="var(--navy, #0f2a4a)"/>
+  <text x="194.2" y="68" font-size="15" font-weight="700" fill="var(--navy, #0f2a4a)">$500</text>
+  <text x="93.5" y="110" font-size="15" text-anchor="end" fill="var(--text-2, #4a5260)">60 to 69</text>
+  <rect x="100.7" y="96" width="89.9" height="20" fill="var(--navy, #0f2a4a)"/>
+  <text x="197.8" y="112" font-size="15" font-weight="700" fill="var(--navy, #0f2a4a)">$520</text>
+  <text x="93.5" y="154" font-size="15" text-anchor="end" fill="var(--text-2, #4a5260)">70 to 79</text>
+  <rect x="100.7" y="140" width="138.1" height="20" fill="var(--navy, #0f2a4a)"/>
+  <text x="246.0" y="156" font-size="15" font-weight="700" fill="var(--navy, #0f2a4a)">$800</text>
+  <text x="93.5" y="198" font-size="15" text-anchor="end" fill="var(--text-2, #4a5260)">80 and over</text>
+  <rect x="100.7" y="184" width="258.9" height="20" fill="var(--oxblood, #8b1e2d)"/>
+  <text x="360" y="200" font-size="15" font-weight="700" fill="var(--oxblood, #8b1e2d)">$1,500</text>
+  <line x1="100.7" y1="212" x2="402.7" y2="212" stroke="var(--line, #d9d9d9)" stroke-width="1"/>
+  <text x="100.7" y="232" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">$0</text>
+  <text x="273.3" y="232" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">$1,000</text>
+  <text x="14.4" y="264.0" font-size="15" fill="var(--text-2, #4a5260)">And the half of the picture a bar chart cannot</text>
+  <text x="14.4" y="283.0" font-size="15" fill="var(--text-2, #4a5260)">show: the youngest band reports losing money more</text>
+  <text x="14.4" y="302.0" font-size="15" fill="var(--text-2, #4a5260)">often than the oldest one does.</text>
 </svg>
 
 **And a third figure that belongs with the other two.** Older adults were also much more likely than people aged 18 to 59 to report a scam they had spotted and avoided losing anything to. Whatever is going on in the loss figures, it isn't that older people are worse at recognising a con.
@@ -112,26 +113,27 @@ The most common first contact is email, then phone calls, then text messages. By
 
 The variants change every month, which is why memorising a list of current scams is a losing game. The structure doesn't change, because it can't: to take your money, a stranger has to get through three gates, and if any one of them fails, they get nothing.
 
-<svg viewBox="0 0 584 300" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:584px;display:block;margin:1.5em auto;font-family:system-ui,sans-serif" role="img" aria-labelledby="gates-title gates-desc">
+<svg viewBox="0 0 420 319" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:420px;display:block;margin:1.5em auto;font-family:system-ui,sans-serif" role="img" aria-labelledby="gates-title gates-desc">
   <title id="gates-title">The three gates a scam has to pass, and the counter-move at each</title>
   <desc id="gates-desc">Three stacked rows. The first gate is contact: the scammer reaches you and gives you a reason to engage, and the counter-move is to leave and come back by a route you chose yourself. The second gate is pressure: they manufacture urgency and isolate you from anyone who would tell you to wait, and the counter-move is to tell one person before doing anything. The third gate is payment: they route the money down a rail that cannot be reversed, and the counter-move is to refuse the rail. Any one gate closed stops the whole thing.</desc>
-  <text x="20" y="24" font-size="17" font-weight="700" fill="var(--text, #1a1a1a)">Three gates. Close any one and nothing is lost.</text>
-  <rect x="20" y="44" width="250" height="62" fill="none" stroke="var(--oxblood, #8b1e2d)" stroke-width="1.5"/>
-  <text x="34" y="68" font-size="15" font-weight="700" fill="var(--oxblood, #8b1e2d)">1. Contact</text>
-  <text x="34" y="90" font-size="15" fill="var(--oxblood, #8b1e2d)">They reach you, with a reason</text>
-  <text x="290" y="68" font-size="15" font-weight="700" fill="var(--navy, #0f2a4a)">Your move</text>
-  <text x="290" y="90" font-size="15" fill="var(--navy, #0f2a4a)">Hang up. Call back your own way.</text>
-  <rect x="20" y="120" width="250" height="62" fill="none" stroke="var(--oxblood, #8b1e2d)" stroke-width="1.5"/>
-  <text x="34" y="144" font-size="15" font-weight="700" fill="var(--oxblood, #8b1e2d)">2. Pressure</text>
-  <text x="34" y="166" font-size="15" fill="var(--oxblood, #8b1e2d)">Now, and tell nobody</text>
-  <text x="290" y="144" font-size="15" font-weight="700" fill="var(--navy, #0f2a4a)">Your move</text>
-  <text x="290" y="166" font-size="15" fill="var(--navy, #0f2a4a)">Tell one person before you act.</text>
-  <rect x="20" y="196" width="250" height="62" fill="none" stroke="var(--oxblood, #8b1e2d)" stroke-width="1.5"/>
-  <text x="34" y="220" font-size="15" font-weight="700" fill="var(--oxblood, #8b1e2d)">3. Payment</text>
-  <text x="34" y="242" font-size="15" fill="var(--oxblood, #8b1e2d)">Down a rail with no way back</text>
-  <text x="290" y="220" font-size="15" font-weight="700" fill="var(--navy, #0f2a4a)">Your move</text>
-  <text x="290" y="242" font-size="15" fill="var(--navy, #0f2a4a)">Refuse the rail.</text>
-  <text x="20" y="286" font-size="15" fill="var(--text-2, #4a5260)">The story can be perfect and the scam still fails at gate two or three.</text>
+  <text x="14.4" y="24" font-size="17" font-weight="700" fill="var(--text, #1a1a1a)">Three gates. Close one and nothing is lost.</text>
+  <rect x="14.4" y="44" width="179.8" height="62" fill="none" stroke="var(--oxblood, #8b1e2d)" stroke-width="1.5"/>
+  <text x="24.5" y="68" font-size="15" font-weight="700" fill="var(--oxblood, #8b1e2d)">1. Contact</text>
+  <text x="24.5" y="90" font-size="15" fill="var(--oxblood, #8b1e2d)">They reach you, with a reason</text>
+  <text x="208.6" y="68" font-size="15" font-weight="700" fill="var(--navy, #0f2a4a)">Your move</text>
+  <text x="160" y="90" font-size="15" fill="var(--navy, #0f2a4a)">Hang up. Call back your own way.</text>
+  <rect x="14.4" y="120" width="179.8" height="62" fill="none" stroke="var(--oxblood, #8b1e2d)" stroke-width="1.5"/>
+  <text x="24.5" y="144" font-size="15" font-weight="700" fill="var(--oxblood, #8b1e2d)">2. Pressure</text>
+  <text x="24.5" y="166" font-size="15" fill="var(--oxblood, #8b1e2d)">Now, and tell nobody</text>
+  <text x="208.6" y="144" font-size="15" font-weight="700" fill="var(--navy, #0f2a4a)">Your move</text>
+  <text x="176" y="166" font-size="15" fill="var(--navy, #0f2a4a)">Tell one person before you act.</text>
+  <rect x="14.4" y="196" width="179.8" height="62" fill="none" stroke="var(--oxblood, #8b1e2d)" stroke-width="1.5"/>
+  <text x="24.5" y="220" font-size="15" font-weight="700" fill="var(--oxblood, #8b1e2d)">3. Payment</text>
+  <text x="24.5" y="242" font-size="15" fill="var(--oxblood, #8b1e2d)">Down a rail with no way back</text>
+  <text x="208.6" y="220" font-size="15" font-weight="700" fill="var(--navy, #0f2a4a)">Your move</text>
+  <text x="208.6" y="242" font-size="15" fill="var(--navy, #0f2a4a)">Refuse the rail.</text>
+  <text x="14.4" y="286.0" font-size="15" fill="var(--text-2, #4a5260)">The story can be perfect and the scam still fails</text>
+  <text x="14.4" y="305.0" font-size="15" fill="var(--text-2, #4a5260)">at gate two or three.</text>
 </svg>
 
 **Gate one is contact.** They have to reach you and give you a reason to stay on the line: a suspicious charge, a package, a warrant, a job, a match, a tip about a coin. The reason is chosen to make you feel something, usually alarm or hope.

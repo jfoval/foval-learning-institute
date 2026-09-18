@@ -120,31 +120,33 @@ Ava, and it isn't close to a tie: about $281,000 against Ben's $244,000. Her ten
 
 Look at the two full careers side by side. The gap between the curves is not a difference in effort or income; it's ten years of runway.
 
-<svg viewBox="0 0 584 400" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:584px;display:block;margin:1.5em auto;font-family:system-ui,sans-serif" role="img" aria-labelledby="comp-title comp-desc">
+<svg viewBox="0 0 420 438" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:420px;display:block;margin:1.5em auto;font-family:system-ui,sans-serif" role="img" aria-labelledby="comp-title comp-desc">
   <title id="comp-title">Saving $200 a month from age 25 versus age 35</title>
   <desc id="comp-desc">A line chart of account balance against age. Starting at 25 and saving to 65 reaches about 525,000 dollars. Starting at 35 and saving the same amount to 65 reaches about 244,000 dollars. Both curves bend upward, and the gap between them widens every year.</desc>
-  <text x="20" y="24" font-size="17" font-weight="700" fill="var(--text, #1a1a1a)">$200 a month at 7%: start at 25 versus 35</text>
-  <line x1="60" y1="50" x2="60" y2="290" stroke="var(--line, #d9d9d9)" stroke-width="1"/>
-  <line x1="60" y1="290" x2="564" y2="290" stroke="var(--line, #d9d9d9)" stroke-width="1"/>
-  <line x1="60" y1="181" x2="564" y2="181" stroke="var(--line, #d9d9d9)" stroke-width="1" stroke-dasharray="3 4"/>
-  <line x1="60" y1="72" x2="564" y2="72" stroke="var(--line, #d9d9d9)" stroke-width="1" stroke-dasharray="3 4"/>
-  <text x="54" y="77" font-size="15" text-anchor="end" fill="var(--text-2, #4a5260)">$500k</text>
-  <text x="54" y="186" font-size="15" text-anchor="end" fill="var(--text-2, #4a5260)">$250k</text>
-  <text x="54" y="295" font-size="15" text-anchor="end" fill="var(--text-2, #4a5260)">$0</text>
-  <text x="60" y="312" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">25</text>
-  <text x="186" y="312" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">35</text>
-  <text x="312" y="312" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">45</text>
-  <text x="438" y="312" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">55</text>
-  <text x="560" y="312" font-size="15" text-anchor="end" fill="var(--text-2, #4a5260)">65</text>
-  <polyline fill="none" stroke="var(--navy, #0f2a4a)" stroke-width="2.5" points="60,290 73,289 85,288 98,287 110,285 123,284 136,282 148,281 161,279 173,277 186,275 199,273 211,270 224,268 236,265 249,262 262,259 274,256 287,252 299,249 312,245 325,240 337,235 350,230 362,225 375,219 388,213 400,206 413,199 425,192 438,184 451,175 463,165 476,155 488,144 501,133 514,120 526,107 539,93 551,77 564,61"/>
-  <polyline fill="none" stroke="var(--oxblood, #8b1e2d)" stroke-width="2.5" points="186,290 199,289 211,288 224,287 236,285 249,284 262,282 274,281 287,279 299,277 312,275 325,273 337,270 350,268 362,265 375,262 388,259 400,256 413,252 425,249 438,245 451,240 463,235 476,230 488,225 501,219 514,213 526,206 539,199 551,192 564,184"/>
-  <text x="330" y="105" font-size="15" font-weight="700" fill="var(--navy, #0f2a4a)">Starts at 25:</text>
-  <text x="330" y="125" font-size="15" fill="var(--navy, #0f2a4a)">$525,000 on $96,000 saved</text>
-  <text x="300" y="230" font-size="15" font-weight="700" fill="var(--oxblood, #8b1e2d)">Starts at 35:</text>
-  <text x="300" y="250" font-size="15" fill="var(--oxblood, #8b1e2d)">$244,000 on $72,000 saved</text>
-  <text x="20" y="348" font-size="15" fill="var(--text-2, #4a5260)">Computed month by month: $200 deposited monthly, growth at 7% a year</text>
-  <text x="20" y="368" font-size="15" fill="var(--text-2, #4a5260)">(the 1928-2025 US stock average after inflation) compounded monthly,</text>
-  <text x="20" y="388" font-size="15" fill="var(--text-2, #4a5260)">no taxes or fees. An illustration of the mechanism, not a forecast.</text>
+  <text x="14.4" y="24" font-size="17" font-weight="700" fill="var(--text, #1a1a1a)">$200 a month at 7%: start at 25 versus 35</text>
+  <line x1="43.2" y1="50" x2="43.2" y2="290" stroke="var(--line, #d9d9d9)" stroke-width="1"/>
+  <line x1="43.2" y1="290" x2="405.6" y2="290" stroke="var(--line, #d9d9d9)" stroke-width="1"/>
+  <line x1="43.2" y1="181" x2="405.6" y2="181" stroke="var(--line, #d9d9d9)" stroke-width="1" stroke-dasharray="3 4"/>
+  <line x1="43.2" y1="72" x2="405.6" y2="72" stroke="var(--line, #d9d9d9)" stroke-width="1" stroke-dasharray="3 4"/>
+  <text x="38.8" y="77" font-size="15" text-anchor="end" fill="var(--text-2, #4a5260)">$500k</text>
+  <text x="38.8" y="186" font-size="15" text-anchor="end" fill="var(--text-2, #4a5260)">$250k</text>
+  <text x="38.8" y="295" font-size="15" text-anchor="end" fill="var(--text-2, #4a5260)">$0</text>
+  <text x="43.2" y="312" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">25</text>
+  <text x="133.8" y="312" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">35</text>
+  <text x="224.4" y="312" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">45</text>
+  <text x="315.0" y="312" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">55</text>
+  <text x="402.7" y="312" font-size="15" text-anchor="end" fill="var(--text-2, #4a5260)">65</text>
+  <polyline fill="none" stroke="var(--navy, #0f2a4a)" stroke-width="2.5" points="43.2,290 52.5,289 61.1,288 70.5,287 79.1,285 88.5,284 97.8,282 106.4,281 115.8,279 124.4,277 133.8,275 143.1,273 151.7,270 161.1,268 169.7,265 179.1,262 188.4,259 197.1,256 206.4,252 215.0,249 224.4,245 233.7,240 242.4,235 251.7,230 260.3,225 269.7,219 279.0,213 287.7,206 297.0,199 305.7,192 315.0,184 324.3,175 333.0,165 342.3,155 351.0,144 360.3,133 369.7,120 378.3,107 387.6,93 396.3,77 405.6,61"/>
+  <polyline fill="none" stroke="var(--oxblood, #8b1e2d)" stroke-width="2.5" points="133.8,290 143.1,289 151.7,288 161.1,287 169.7,285 179.1,284 188.4,282 197.1,281 206.4,279 215.0,277 224.4,275 233.7,273 242.4,270 251.7,268 260.3,265 269.7,262 279.0,259 287.7,256 297.0,252 305.7,249 315.0,245 324.3,240 333.0,235 342.3,230 351.0,225 360.3,219 369.7,213 378.3,206 387.6,199 396.3,192 405.6,184"/>
+  <text x="237.3" y="105" font-size="15" font-weight="700" fill="var(--navy, #0f2a4a)">Starts at 25:</text>
+  <text x="206" y="125" font-size="15" fill="var(--navy, #0f2a4a)">$525,000 on $96,000 saved</text>
+  <text x="215.8" y="230" font-size="15" font-weight="700" fill="var(--oxblood, #8b1e2d)">Starts at 35:</text>
+  <text x="200" y="250" font-size="15" fill="var(--oxblood, #8b1e2d)">$244,000 on $72,000 saved</text>
+  <text x="14.4" y="348.0" font-size="15" fill="var(--text-2, #4a5260)">Computed month by month: $200 deposited monthly,</text>
+  <text x="14.4" y="367.0" font-size="15" fill="var(--text-2, #4a5260)">growth at 7% a year (the 1928-2025 US stock</text>
+  <text x="14.4" y="386.0" font-size="15" fill="var(--text-2, #4a5260)">average after inflation) compounded monthly, no</text>
+  <text x="14.4" y="405.0" font-size="15" fill="var(--text-2, #4a5260)">taxes or fees. An illustration of the mechanism,</text>
+  <text x="14.4" y="424.0" font-size="15" fill="var(--text-2, #4a5260)">not a forecast.</text>
 </svg>
 
 Two honest cautions about this picture. The smooth curves are averages; a real account would wobble all over them, sometimes below for years at a stretch. And if you're 45 or 55 reading this, the lesson is not "you missed it". The mechanism has no opinion about your age; it only cares about runway, and the longest runway you will ever have again starts today. A 50-year-old's dollars still get 15 years of doubling-and-a-half by 65, and more after that.

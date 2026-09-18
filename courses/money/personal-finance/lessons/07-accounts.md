@@ -82,51 +82,51 @@ So: the first thing to do with any retirement account, before any of the clever 
 
 The whole mechanism fits in one picture. A dollar you earn can travel three routes. Watch where the tax happens on each.
 
-<svg viewBox="0 0 584 470" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:584px;display:block;margin:1.5em auto;font-family:system-ui,sans-serif" role="img" aria-labelledby="wrap-title wrap-desc">
+<svg viewBox="0 0 420 492" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:420px;display:block;margin:1.5em auto;font-family:system-ui,sans-serif" role="img" aria-labelledby="wrap-title wrap-desc">
   <title id="wrap-title">One dollar of earnings through three account types</title>
   <desc id="wrap-desc">Three columns. In the taxable account, income tax of 200 dollars is paid at the start, tax on dividends is paid along the way, and 360 dollars of tax on the gain is paid at sale, ending at about 2,840 dollars. In the traditional account no tax is paid at the start, growth is untaxed, and 800 dollars of income tax is paid on the whole withdrawal, ending at 3,200 dollars. In the Roth account 200 dollars of income tax is paid at the start, growth is untaxed, and nothing is taxed at withdrawal, ending at 3,200 dollars. The starting amount is 1,000 dollars of earnings, the money quadruples, and the tax rate is 20 percent throughout.</desc>
-  <text x="20" y="24" font-size="17" font-weight="700" fill="var(--text, #1a1a1a)">$1,000 earned, money quadruples, 20% rate throughout</text>
-  <text x="130" y="52" font-size="15" font-weight="700" text-anchor="middle" fill="var(--text, #1a1a1a)">Taxable</text>
-  <text x="305" y="52" font-size="15" font-weight="700" text-anchor="middle" fill="var(--text, #1a1a1a)">Traditional</text>
-  <text x="480" y="52" font-size="15" font-weight="700" text-anchor="middle" fill="var(--text, #1a1a1a)">Roth</text>
-  <line x1="130" y1="64" x2="130" y2="340" stroke="var(--text-2, #4a5260)" stroke-width="1"/>
-  <line x1="305" y1="64" x2="305" y2="340" stroke="var(--text-2, #4a5260)" stroke-width="1"/>
-  <line x1="480" y1="64" x2="480" y2="340" stroke="var(--text-2, #4a5260)" stroke-width="1"/>
-  <text x="20" y="88" font-size="15" fill="var(--text-2, #4a5260)">Earned</text>
-  <text x="20" y="183" font-size="15" fill="var(--text-2, #4a5260)">Growing</text>
-  <text x="20" y="310" font-size="15" fill="var(--text-2, #4a5260)">Taken out</text>
-  <circle cx="130" cy="83" r="7" fill="var(--oxblood, #8b1e2d)"/>
-  <text x="145" y="88" font-size="15" fill="var(--oxblood, #8b1e2d)">tax $200</text>
-  <circle cx="305" cy="83" r="7" fill="none" stroke="var(--text-2, #4a5260)" stroke-width="1.5"/>
-  <text x="320" y="88" font-size="15" fill="var(--text-2, #4a5260)">no tax</text>
-  <circle cx="480" cy="83" r="7" fill="var(--oxblood, #8b1e2d)"/>
-  <text x="495" y="88" font-size="15" fill="var(--oxblood, #8b1e2d)">tax $200</text>
-  <text x="145" y="128" font-size="15" fill="var(--navy, #0f2a4a)">$800 in</text>
-  <text x="320" y="128" font-size="15" fill="var(--navy, #0f2a4a)">$1,000 in</text>
-  <text x="495" y="128" font-size="15" fill="var(--navy, #0f2a4a)">$800 in</text>
-  <circle cx="130" cy="183" r="7" fill="var(--oxblood, #8b1e2d)"/>
-  <text x="145" y="188" font-size="15" fill="var(--oxblood, #8b1e2d)">tax on dividends</text>
-  <text x="145" y="206" font-size="15" fill="var(--oxblood, #8b1e2d)">along the way</text>
-  <circle cx="305" cy="183" r="7" fill="none" stroke="var(--text-2, #4a5260)" stroke-width="1.5"/>
-  <text x="320" y="188" font-size="15" fill="var(--text-2, #4a5260)">no tax on growth</text>
-  <circle cx="480" cy="183" r="7" fill="none" stroke="var(--text-2, #4a5260)" stroke-width="1.5"/>
-  <text x="495" y="188" font-size="15" fill="var(--text-2, #4a5260)">no tax</text>
-  <text x="145" y="255" font-size="15" fill="var(--navy, #0f2a4a)">grows to $3,200</text>
-  <text x="320" y="255" font-size="15" fill="var(--navy, #0f2a4a)">grows to $4,000</text>
-  <text x="495" y="255" font-size="15" fill="var(--navy, #0f2a4a)">$3,200</text>
-  <circle cx="130" cy="310" r="7" fill="var(--oxblood, #8b1e2d)"/>
-  <text x="145" y="315" font-size="15" fill="var(--oxblood, #8b1e2d)">tax on gain $360</text>
-  <circle cx="305" cy="310" r="7" fill="var(--oxblood, #8b1e2d)"/>
-  <text x="320" y="315" font-size="15" fill="var(--oxblood, #8b1e2d)">tax $800</text>
-  <circle cx="480" cy="310" r="7" fill="none" stroke="var(--text-2, #4a5260)" stroke-width="1.5"/>
-  <text x="495" y="315" font-size="15" fill="var(--text-2, #4a5260)">no tax</text>
-  <line x1="20" y1="355" x2="564" y2="355" stroke="var(--line, #d9d9d9)" stroke-width="1"/>
-  <text x="20" y="380" font-size="15" font-weight="700" fill="var(--text, #1a1a1a)">You keep</text>
-  <text x="130" y="406" font-size="15" font-weight="700" text-anchor="middle" fill="var(--gold, #b08d2a)">about $2,840</text>
-  <text x="305" y="406" font-size="15" font-weight="700" text-anchor="middle" fill="var(--gold, #b08d2a)">$3,200</text>
-  <text x="480" y="406" font-size="15" font-weight="700" text-anchor="middle" fill="var(--gold, #b08d2a)">$3,200</text>
-  <text x="20" y="440" font-size="15" fill="var(--text-2, #4a5260)">Round invented numbers, chosen so the arithmetic is visible.</text>
-  <text x="20" y="460" font-size="15" fill="var(--text-2, #4a5260)">The taxable column assumes 15% on $2,400 of gain.</text>
+  <text x="14.4" y="24" font-size="17" font-weight="700" fill="var(--text, #1a1a1a)">$1,000 earned, quadrupled, taxed at 20%</text>
+  <text x="85" y="52" font-size="15" font-weight="700" text-anchor="middle" fill="var(--text, #1a1a1a)">Taxable</text>
+  <text x="205" y="52" font-size="15" font-weight="700" text-anchor="middle" fill="var(--text, #1a1a1a)">Traditional</text>
+  <text x="325" y="52" font-size="15" font-weight="700" text-anchor="middle" fill="var(--text, #1a1a1a)">Roth</text>
+  <line x1="85" y1="64" x2="85" y2="340" stroke="var(--text-2, #4a5260)" stroke-width="1"/>
+  <line x1="205" y1="64" x2="205" y2="340" stroke="var(--text-2, #4a5260)" stroke-width="1"/>
+  <line x1="325" y1="64" x2="325" y2="340" stroke="var(--text-2, #4a5260)" stroke-width="1"/>
+  <text x="14.4" y="88" font-size="15" fill="var(--text-2, #4a5260)">Earned</text>
+  <text x="14.4" y="183" font-size="15" fill="var(--text-2, #4a5260)">Growing</text>
+  <text x="14.4" y="310" font-size="15" fill="var(--text-2, #4a5260)">Taken out</text>
+  <circle cx="85" cy="83" r="7" fill="var(--oxblood, #8b1e2d)"/>
+  <text x="96" y="88" font-size="15" fill="var(--oxblood, #8b1e2d)">tax $200</text>
+  <circle cx="205" cy="83" r="7" fill="none" stroke="var(--text-2, #4a5260)" stroke-width="1.5"/>
+  <text x="216" y="88" font-size="15" fill="var(--text-2, #4a5260)">no tax</text>
+  <circle cx="325" cy="83" r="7" fill="var(--oxblood, #8b1e2d)"/>
+  <text x="336" y="88" font-size="15" fill="var(--oxblood, #8b1e2d)">tax $200</text>
+  <text x="96" y="128" font-size="15" fill="var(--navy, #0f2a4a)">$800 in</text>
+  <text x="216" y="128" font-size="15" fill="var(--navy, #0f2a4a)">$1,000 in</text>
+  <text x="336" y="128" font-size="15" fill="var(--navy, #0f2a4a)">$800 in</text>
+  <circle cx="85" cy="183" r="7" fill="var(--oxblood, #8b1e2d)"/>
+  <text x="96" y="188" font-size="15" fill="var(--oxblood, #8b1e2d)">dividend tax</text>
+  <circle cx="205" cy="183" r="7" fill="none" stroke="var(--text-2, #4a5260)" stroke-width="1.5"/>
+  <text x="216" y="188" font-size="15" fill="var(--text-2, #4a5260)">no tax</text>
+  <circle cx="325" cy="183" r="7" fill="none" stroke="var(--text-2, #4a5260)" stroke-width="1.5"/>
+  <text x="336" y="188" font-size="15" fill="var(--text-2, #4a5260)">no tax</text>
+  <text x="96" y="255" font-size="15" fill="var(--navy, #0f2a4a)">to $3,200</text>
+  <text x="216" y="255" font-size="15" fill="var(--navy, #0f2a4a)">to $4,000</text>
+  <text x="336" y="255" font-size="15" fill="var(--navy, #0f2a4a)">$3,200</text>
+  <circle cx="85" cy="310" r="7" fill="var(--oxblood, #8b1e2d)"/>
+  <text x="96" y="315" font-size="15" fill="var(--oxblood, #8b1e2d)">gain tax $360</text>
+  <circle cx="205" cy="310" r="7" fill="var(--oxblood, #8b1e2d)"/>
+  <text x="216" y="315" font-size="15" fill="var(--oxblood, #8b1e2d)">tax $800</text>
+  <circle cx="325" cy="310" r="7" fill="none" stroke="var(--text-2, #4a5260)" stroke-width="1.5"/>
+  <text x="336" y="315" font-size="15" fill="var(--text-2, #4a5260)">no tax</text>
+  <line x1="14.4" y1="355" x2="405.6" y2="355" stroke="var(--line, #d9d9d9)" stroke-width="1"/>
+  <text x="14.4" y="380" font-size="15" font-weight="700" fill="var(--text, #1a1a1a)">You keep</text>
+  <text x="85" y="406" font-size="15" font-weight="700" text-anchor="middle" fill="var(--gold, #b08d2a)">about $2,840</text>
+  <text x="205" y="406" font-size="15" font-weight="700" text-anchor="middle" fill="var(--gold, #b08d2a)">$3,200</text>
+  <text x="325" y="406" font-size="15" font-weight="700" text-anchor="middle" fill="var(--gold, #b08d2a)">$3,200</text>
+  <text x="14.4" y="440.0" font-size="15" fill="var(--text-2, #4a5260)">Round invented numbers, chosen so the arithmetic</text>
+  <text x="14.4" y="459.0" font-size="15" fill="var(--text-2, #4a5260)">is visible. The taxable column assumes 15% on</text>
+  <text x="14.4" y="478.0" font-size="15" fill="var(--text-2, #4a5260)">$2,400 of gain.</text>
 </svg>
 
 Three things to take from the picture, in order of how surprising they are.
@@ -175,21 +175,22 @@ Work it through. Elias earns $50,000, and his plan matches 50% on the first 6%.
 - So $2,400 out of his pocket becomes $4,500 in his account, the same day. Hold on to that pair of numbers, because the comparison later in the lesson needs them to be measured the same way.
 
 
-<svg viewBox="0 0 584 300" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:584px;display:block;margin:1.5em auto;font-family:system-ui,sans-serif" role="img" aria-labelledby="match-title match-desc">
+<svg viewBox="0 0 420 325" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:420px;display:block;margin:1.5em auto;font-family:system-ui,sans-serif" role="img" aria-labelledby="match-title match-desc">
   <title id="match-title">Elias's contribution, his employer's match, and one year of market return, on the same scale</title>
   <desc id="match-desc">Three horizontal bars drawn to the same scale. Elias contributes 3,000 dollars. His employer adds 1,500 dollars the same day, a bar half as long. One year of market return at 7 percent on the 3,000 dollars is 210 dollars, a bar barely visible next to the other two.</desc>
-  <text x="20" y="24" font-size="17" font-weight="700" fill="var(--text, #1a1a1a)">What arrives in the account, on one scale</text>
-  <text x="20" y="60" font-size="15" fill="var(--text-2, #4a5260)">Elias contributes 6% of $50,000</text>
-  <rect x="20" y="70" width="300" height="26" fill="var(--navy, #0f2a4a)"/>
-  <text x="330" y="89" font-size="15" font-weight="700" fill="var(--navy, #0f2a4a)">$3,000</text>
-  <text x="20" y="132" font-size="15" fill="var(--text-2, #4a5260)">His employer matches 50 cents on the dollar, the same day</text>
-  <rect x="20" y="142" width="150" height="26" fill="var(--gold, #b08d2a)"/>
-  <text x="180" y="161" font-size="15" font-weight="700" fill="var(--gold, #b08d2a)">$1,500</text>
-  <text x="20" y="204" font-size="15" fill="var(--text-2, #4a5260)">One year of market return at 7% on the $3,000</text>
-  <rect x="20" y="214" width="21" height="26" fill="var(--oxblood, #8b1e2d)"/>
-  <text x="51" y="233" font-size="15" font-weight="700" fill="var(--oxblood, #8b1e2d)">$210</text>
-  <text x="20" y="272" font-size="15" fill="var(--text-2, #4a5260)">The match is not a good return. It is a different kind of thing from a return,</text>
-  <text x="20" y="292" font-size="15" fill="var(--text-2, #4a5260)">and it arrives before the market has done anything at all.</text>
+  <text x="14.4" y="24" font-size="17" font-weight="700" fill="var(--text, #1a1a1a)">What arrives in the account, on one scale</text>
+  <text x="14.4" y="60" font-size="15" fill="var(--text-2, #4a5260)">Elias contributes 6% of $50,000</text>
+  <rect x="14.4" y="70" width="215.8" height="26" fill="var(--navy, #0f2a4a)"/>
+  <text x="237.3" y="89" font-size="15" font-weight="700" fill="var(--navy, #0f2a4a)">$3,000</text>
+  <text x="14.4" y="132" font-size="15" fill="var(--text-2, #4a5260)">His employer matches 50 cents on the dollar</text>
+  <rect x="14.4" y="142" width="107.9" height="26" fill="var(--gold, #b08d2a)"/>
+  <text x="120" y="161" font-size="15" font-weight="700" fill="var(--gold, #b08d2a)">$1,500</text>
+  <text x="14.4" y="204" font-size="15" fill="var(--text-2, #4a5260)">One year of market return at 7% on the $3,000</text>
+  <rect x="14.4" y="214" width="15.1" height="26" fill="var(--oxblood, #8b1e2d)"/>
+  <text x="36.7" y="233" font-size="15" font-weight="700" fill="var(--oxblood, #8b1e2d)">$210</text>
+  <text x="14.4" y="272.0" font-size="15" fill="var(--text-2, #4a5260)">The match is not a good return. It is a different</text>
+  <text x="14.4" y="291.0" font-size="15" fill="var(--text-2, #4a5260)">kind of thing from a return, and it arrives</text>
+  <text x="14.4" y="310.0" font-size="15" fill="var(--text-2, #4a5260)">before the market has done anything at all.</text>
 </svg>
 
 Put the match next to the thing people usually compare it with, and the scale of it is hard to argue with. A good year in the market, applied to the same $3,000, adds $210. The match adds $1,500 on the day the money lands.

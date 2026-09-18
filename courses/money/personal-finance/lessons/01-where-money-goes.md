@@ -144,10 +144,10 @@ A third. Housing took 33.4% of the average household's spending in 2024, more th
 <text x="20" y="312" font-size="15" fill="var(--text, #111418)">Healthcare</text>
 <rect x="20" y="319" width="89.9" height="20" fill="var(--navy, #0f2a4a)"/>
 <text x="101.9" y="334" font-size="15" font-weight="700" text-anchor="end" fill="var(--bg, #ffffff)">7.9%</text>
-<text x="20" y="370" font-size="15" fill="var(--text-2, #4a5260)">Data: US Bureau of Labor Statistics,</text>
-<text x="20" y="390" font-size="15" fill="var(--text-2, #4a5260)">Consumer Expenditure Survey 2024. Average</text>
-<text x="20" y="410" font-size="15" fill="var(--text-2, #4a5260)">spending per household: $78,535. US data;</text>
-<text x="20" y="430" font-size="15" fill="var(--text-2, #4a5260)">shares differ elsewhere.</text>
+<text x="20" y="370.0" font-size="15" fill="var(--text-2, #4a5260)">Data: US Bureau of Labor Statistics, Consumer</text>
+  <text x="20" y="389.0" font-size="15" fill="var(--text-2, #4a5260)">Expenditure Survey 2024. Average spending per</text>
+  <text x="20" y="408.0" font-size="15" fill="var(--text-2, #4a5260)">household: $78,535. US data; shares differ</text>
+  <text x="20" y="427.0" font-size="15" fill="var(--text-2, #4a5260)">elsewhere.</text>
 </svg>
 
 Don't treat the chart as a target. It's an average across every household type, and yours may be far from it for good reasons. Its job is to give your own numbers scale: if your housing bucket is 45% of take-home, you now know that's well above typical, and you know which conversation to have with yourself.

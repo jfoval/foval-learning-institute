@@ -92,34 +92,35 @@ About 9%. The scorecard puts it the other way round: 91% of active large-cap fun
 
 Here is the full picture by horizon, from the scorecard's own tables.[3]
 
-<svg viewBox="0 0 584 400" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:584px;display:block;margin:1.5em auto;font-family:system-ui,sans-serif" role="img" aria-labelledby="spiva-title spiva-desc">
+<svg viewBox="0 0 420 423" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:420px;display:block;margin:1.5em auto;font-family:system-ui,sans-serif" role="img" aria-labelledby="spiva-title spiva-desc">
   <title id="spiva-title">Share of active US large-cap funds underperforming the S&amp;P 500, by horizon</title>
   <desc id="spiva-desc">A bar chart. Over one year, 73% of actively managed US large-cap funds underperformed the S&amp;P 500. Over three years, 65%. Over five years, 87%. Over ten years, 86%. Over fifteen years, 88%. Over twenty years, 91%. Every bar is above the 50% halfway line.</desc>
-  <text x="20" y="24" font-size="17" font-weight="700" fill="var(--text, #1a1a1a)">Active large-cap funds underperforming the S&amp;P 500</text>
-  <line x1="60" y1="300" x2="564" y2="300" stroke="var(--line, #d9d9d9)" stroke-width="1"/>
-  <line x1="60" y1="185" x2="564" y2="185" stroke="var(--oxblood, #8b1e2d)" stroke-width="1" stroke-dasharray="4 4"/>
-  <text x="62" y="179" font-size="15" fill="var(--oxblood, #8b1e2d)">50%: a coin flip would do this well</text>
-  <rect x="74" y="133" width="56" height="167" fill="var(--navy, #0f2a4a)"/>
-  <rect x="158" y="151" width="56" height="149" fill="var(--navy, #0f2a4a)"/>
-  <rect x="242" y="100" width="56" height="200" fill="var(--navy, #0f2a4a)"/>
-  <rect x="326" y="102" width="56" height="198" fill="var(--navy, #0f2a4a)"/>
-  <rect x="410" y="97" width="56" height="203" fill="var(--navy, #0f2a4a)"/>
-  <rect x="494" y="91" width="56" height="209" fill="var(--navy, #0f2a4a)"/>
-  <text x="102" y="125" font-size="15" font-weight="700" text-anchor="middle" fill="var(--text, #1a1a1a)">73%</text>
-  <text x="186" y="143" font-size="15" font-weight="700" text-anchor="middle" fill="var(--text, #1a1a1a)">65%</text>
-  <text x="270" y="92" font-size="15" font-weight="700" text-anchor="middle" fill="var(--text, #1a1a1a)">87%</text>
-  <text x="354" y="94" font-size="15" font-weight="700" text-anchor="middle" fill="var(--text, #1a1a1a)">86%</text>
-  <text x="438" y="89" font-size="15" font-weight="700" text-anchor="middle" fill="var(--text, #1a1a1a)">88%</text>
-  <text x="522" y="83" font-size="15" font-weight="700" text-anchor="middle" fill="var(--text, #1a1a1a)">91%</text>
-  <text x="102" y="320" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">1 yr</text>
-  <text x="186" y="320" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">3 yr</text>
-  <text x="270" y="320" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">5 yr</text>
-  <text x="354" y="320" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">10 yr</text>
-  <text x="438" y="320" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">15 yr</text>
-  <text x="522" y="320" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">20 yr</text>
-  <text x="20" y="352" font-size="15" fill="var(--text-2, #4a5260)">Share of actively managed US large-cap stock funds underperforming</text>
-  <text x="20" y="372" font-size="15" fill="var(--text-2, #4a5260)">the S&amp;P 500, by period ending 30 June 2025. Source: SPIVA U.S.</text>
-  <text x="20" y="392" font-size="15" fill="var(--text-2, #4a5260)">Mid-Year 2025 Scorecard, S&amp;P Dow Jones Indices.</text>
+  <text x="14.4" y="24" font-size="17" font-weight="700" fill="var(--text, #1a1a1a)">Active funds that lost to the S&amp;P 500</text>
+  <line x1="43.2" y1="300" x2="405.6" y2="300" stroke="var(--line, #d9d9d9)" stroke-width="1"/>
+  <line x1="43.2" y1="185" x2="405.6" y2="185" stroke="var(--oxblood, #8b1e2d)" stroke-width="1" stroke-dasharray="4 4"/>
+  <text x="44.6" y="179" font-size="15" fill="var(--oxblood, #8b1e2d)">50%: a coin flip would do this well</text>
+  <rect x="53.2" y="133" width="40.3" height="167" fill="var(--navy, #0f2a4a)"/>
+  <rect x="113.6" y="151" width="40.3" height="149" fill="var(--navy, #0f2a4a)"/>
+  <rect x="174.0" y="100" width="40.3" height="200" fill="var(--navy, #0f2a4a)"/>
+  <rect x="234.5" y="102" width="40.3" height="198" fill="var(--navy, #0f2a4a)"/>
+  <rect x="294.9" y="97" width="40.3" height="203" fill="var(--navy, #0f2a4a)"/>
+  <rect x="355.3" y="91" width="40.3" height="209" fill="var(--navy, #0f2a4a)"/>
+  <text x="73.4" y="125" font-size="15" font-weight="700" text-anchor="middle" fill="var(--text, #1a1a1a)">73%</text>
+  <text x="133.8" y="143" font-size="15" font-weight="700" text-anchor="middle" fill="var(--text, #1a1a1a)">65%</text>
+  <text x="194.2" y="92" font-size="15" font-weight="700" text-anchor="middle" fill="var(--text, #1a1a1a)">87%</text>
+  <text x="254.6" y="94" font-size="15" font-weight="700" text-anchor="middle" fill="var(--text, #1a1a1a)">86%</text>
+  <text x="315.0" y="89" font-size="15" font-weight="700" text-anchor="middle" fill="var(--text, #1a1a1a)">88%</text>
+  <text x="375.4" y="83" font-size="15" font-weight="700" text-anchor="middle" fill="var(--text, #1a1a1a)">91%</text>
+  <text x="73.4" y="320" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">1 yr</text>
+  <text x="133.8" y="320" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">3 yr</text>
+  <text x="194.2" y="320" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">5 yr</text>
+  <text x="254.6" y="320" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">10 yr</text>
+  <text x="315.0" y="320" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">15 yr</text>
+  <text x="375.4" y="320" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">20 yr</text>
+  <text x="14.4" y="352.0" font-size="15" fill="var(--text-2, #4a5260)">Share of actively managed US large-cap stock</text>
+  <text x="14.4" y="371.0" font-size="15" fill="var(--text-2, #4a5260)">funds underperforming the S&amp;P 500, by period</text>
+  <text x="14.4" y="390.0" font-size="15" fill="var(--text-2, #4a5260)">ending 30 June 2025. Source: SPIVA U.S. Mid-Year</text>
+  <text x="14.4" y="409.0" font-size="15" fill="var(--text-2, #4a5260)">2025 Scorecard, S&amp;P Dow Jones Indices.</text>
 </svg>
 
 Read the shape, not just the bars. In any single year some managers win; 2025 was a bad one (79% of large-cap funds lost to the index, per the year-end scorecard), a lucky year is better.[4] But stretch the horizon and the winners thin out relentlessly, because a fee is charged every year while outperformance comes and goes. Over fifteen years, not one category of US active stock fund, large, small, growth, value, has a majority of its funds ahead of its index.[3] The longer you invest, and you're investing for decades, the worse the odds of the picking game get.

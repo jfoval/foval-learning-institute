@@ -45,23 +45,24 @@ its first attempt. It is the first course finished by the institute's own defini
 5. **Python Basics, all six.** Term 6, about $1.20.
 6. **Bible Basics, all twelve.** Term 8, about $2.40. Lesson 2 has a script.
 
-8. **Charts on a phone. 28 left**, all of them viewBox 584 with 15px labels, which render at 8.8px
-   against a 10px floor. The validator names each one, by course: Personal Finance 13, How to Learn
-   Anything 8, Logic and Argument 5, Bible Basics 2.
-   **Two are done and between them cover most of what you will meet.** Bible Basics 9 was a
-   timeline; Personal Finance 1 was a horizontal bar chart, and the move there is the standard phone
-   one: put each category label on its own line above its bar so the bars get the full width, keep
-   the value inside the bar where it fits (`var(--bg)` on the fill colour, which inverts correctly
-   in dark theme), and wrap the source note across lines.
-   **Bible Basics 9 is done and is the worked example to copy.** It was the worst at 8.0px. The fix
-   was not a font bump: the timeline was rebuilt at viewBox 420 in the house pattern (no `<g>`,
-   every size an attribute on its own `<text>`, `var(--token, #literal)` everywhere, a real
-   `<desc>`), laid out tall rather than wide, with each label on its own line led by a coloured
-   swatch matching its marker so nothing depends on colour alone. Labels now render at 12.3px.
-   **The arithmetic to aim at:** the validator measures at 340px phone width, so a label renders at
-   `font-size * 340 / viewBox-width`. For 15px labels to clear 10px the viewBox must be 510 or
-   narrower; 420 is the house width and gives 12.1px. **Do not bulk-edit font sizes**, and open the
-   page at phone width before and after: the browser is the only thing that catches a collision.
+8. **Charts on a phone. 7 left**, in Logic and Argument (5) and Bible Basics (2). All are argument
+   or structure diagrams, which are the hard kind: see below. Personal Finance, How to Learn
+   Anything and Bible Basics 9 are done, 23 charts in all, every one checked in the browser at
+   375px as well as by the validator.
+   **The method, which now has a tool behind it.** A label renders at `font-size * 340 / viewBox
+   width`, so 15px labels need a viewBox of 510 or narrower; 420 is the house width and gives
+   12.1px. For a bar or line chart, scale every x-coordinate by 420/584 and leave y alone, then let
+   `npm run validate` name the labels that no longer fit. The scripts used are throwaway, but the
+   sequence is: rescale, reflow the footnote block as one unit (wrapping each line separately makes
+   the new lines land on the next original line), then fix in-chart labels by hand.
+   **Box and argument diagrams cannot be rescaled and must be redrawn**, because shrinking a box
+   while its text stays the same size bursts it. Redraw them stacked top to bottom with downward
+   arrows, which is the shape a phone wants: How to Learn Anything lessons 2 and 6 are the worked
+   examples. That is what the seven remaining charts need.
+   **The validator does not see collisions**, only labels past the viewBox edge. Open the page. A
+   quick way to see a chart on its own is to fetch the built page, pull the SVG out of it and drop
+   it into `document.body` at 375px wide.
+
 9. **`npm run quiz` lists 19 quizzes tripping the shape heuristic** (option-length spread over 25
    characters, adjacent repeats, unused positions) without being winnable by a reader who read
    nothing. Worst is Personal Finance 6 at a 174-character spread. Decide one thing when it comes
