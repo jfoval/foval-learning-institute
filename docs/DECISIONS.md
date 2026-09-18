@@ -49,6 +49,13 @@ It is root `CLAUDE.md` rule 6, the head of `docs/CONTENT_PIPELINE.md`, and, sinc
 lost as prose, a check: `npm run validate` fails on a published course whose lessons lack an
 `audio:` stamp beyond the debt written down in `curriculum/audio-debt.yaml`.
 
+**One exception, decided 2026-09-17.** When the episodes are blocked on something outside the repo
+(that day it was a Google AI Studio key John had not yet made), the next course may be drafted
+through Stage 4 rather than sit idle. It is not published, and the debt file does not grow, until
+the courses ahead of it have their episodes. The rule exists to stop audio being skipped, not to
+stop drafting while a credential is awaited; John was asked and said "you decide", and this is the
+decision. The published order of the Core is unchanged.
+
 ---
 
 ## 3. Work that is not on `main` is not done
@@ -277,6 +284,23 @@ John picked the shape too: write the session layer in the Worker we already have
 sign-in and six-digit email codes first, add email and password later. Passwords are the one method
 that needs the $5 a month Workers Paid plan, because hashing costs 50 to 100 ms and Workers Free
 allows 10 ms of CPU.
+
+---
+
+## 13. The voice pass runs inside Stage 4, not after it
+
+Decided 2026-09-17, after Writing Clearly (nine lessons) and Algebra Essentials (six) went through
+`/voice-pass` as a separate stage the same day. Across fifteen lessons the pass found no em dashes
+and six banned phrases; the prose was already in the Foval voice because the Stage 4 fix step had
+rewritten it there. What the pass did do was trim bold to key terms and add think-blocks, which is a
+checklist, not a rewrite, and a checklist belongs in the fix step that already has the lesson open.
+
+So from Reading Well onwards, `.claude/commands/review-lesson.md` carries the voice checks as part
+of applying the fixes, and a lesson is done when Stage 4 closes. `/voice-pass` stays as a tool for a
+lesson that Stage 4 flags as generically written or that feedback sends back, and is not a stage.
+This is the second time a stage has been folded because measuring it showed it was not earning its
+keep (§4 was the first); the general rule is that a stage exists because it finds things, and one
+that stops finding things is removed in the same commit as the measurement.
 
 ---
 

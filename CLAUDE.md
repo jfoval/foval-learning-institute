@@ -34,7 +34,8 @@ repo as Markdown; a build script compiles it into a static site. Read this file,
 - `templates/` — starting points for course.yaml, lessons, SOURCES, OUTLINE, a review entry
 - `.claude/commands/` — the pipeline stages, each carrying the craft knowledge for its stage:
   /new-course, /research-course, /outline-course, /draft-lesson, /review-lesson, /fact-check,
-  /neutrality-audit, /voice-pass, /make-podcast, /triage-feedback, /status
+  /neutrality-audit, /voice-pass (a tool now, not a stage), /make-podcast, /triage-feedback,
+  /status
 
 ## Rules
 1. **Content rules live in `courses/CLAUDE.md`** and load when you work there: SOURCES before
@@ -54,7 +55,10 @@ repo as Markdown; a build script compiles it into a static site. Read this file,
 6. **A course is finished when every lesson is at standard and every lesson has a podcast episode,
    rendered, uploaded and stamped.** `npm run validate` fails on a published course that owes more
    episodes than `curriculum/audio-debt.yaml` records, and the debt there may only shrink. Do not
-   start the next course while the current one is short of episodes.
+   start the next course while the current one is short of episodes, with one exception: when the
+   episodes are blocked on something outside the repo (a key, a credential, John's ear), the next
+   course may be drafted through Stage 4, but it is not published until the courses ahead of it
+   have their episodes. `docs/DECISIONS.md` §2 has the reasoning.
 7. **Commit messages:** short imperative subject; body says what changed and why. Content commits
    name the course and lesson.
 8. **Finish the job without asking permission for the routine parts of it.** When work is done and

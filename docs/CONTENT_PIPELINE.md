@@ -2,8 +2,8 @@
 
 ## The definition of done, which is the thing this pipeline is for
 
-**A course is finished when every lesson has been through Stage 4 and the voice pass, the assessments
-exist, and every lesson has a podcast episode live and stamped.** Nothing less counts, whatever it is
+**A course is finished when every lesson has been through Stage 4, which includes the voice checks,
+the assessments exist, and every lesson has a podcast episode live and stamped.** Nothing less counts, whatever it is
 called. A course with ten reviewed lessons and no audio is not done, it is two thirds done, and
 saying otherwise has already cost this project one wrong turn: on 2026-09-09 a session declared
 Personal Finance Fundamentals complete with zero of its ten episodes made and moved on to the next
@@ -12,11 +12,13 @@ course.
 So the order for every course is:
 
 1. Stage 0 to 3: scaffold, research, outline, draft.
-2. Stage 4: review, then `/voice-pass` on every lesson.
+2. Stage 4: review, with the voice checks inside the fix step (`docs/DECISIONS.md` §13).
 3. Assessments, if the course has six or more lessons (standard 4.4).
 4. **Stage 6: an episode for every lesson**, via `/make-podcast`, each one rendered, uploaded and
    stamped.
-5. Only then, the next course.
+5. Only then, the next course. The one exception: when the episodes are blocked on something
+   outside the repo, the next course may be drafted through Stage 4 but not published
+   (`docs/DECISIONS.md` §2).
 
 **Do not batch the audio to the end of the queue and do not leave it for a later session.** A course
 you have moved on from is a course nobody comes back to.
@@ -26,7 +28,7 @@ This is the operating manual for producing Foval courses at quality and at scale
 
 ## The core idea
 
-**Separate the stages, and give each stage the right inputs.** Research happens before outlining. Outlining before drafting. Drafting one lesson at a time with the research in context. Review in a fresh session by a reviewer whose only job is to find problems. Nothing is published until it passes review and the voice pass. There is no owner sign-off gate: see rule 5 in `CLAUDE.md`. A course goes live when its lessons have passed Stage 4, and it keeps improving through the feedback loop.
+**Separate the stages, and give each stage the right inputs.** Research happens before outlining. Outlining before drafting. Drafting one lesson at a time with the research in context. Review in a fresh session by a reviewer whose only job is to find problems. Nothing is published until it passes review, voice checks included. There is no owner sign-off gate: see rule 5 in `CLAUDE.md`. A course goes live when its lessons have passed Stage 4, and it keeps improving through the feedback loop.
 
 Each stage is a slash command in `.claude/commands/`. Each produces a file in the course folder. The files are the memory: any future session can pick up where the last one left off by reading them.
 
@@ -92,11 +94,11 @@ Findings go to `research/reviews/<lesson-id>.md` with IDs, the fixes are applied
 
 Two of the passes can also run alone: `/fact-check <lesson>` and `/neutrality-audit <lesson>`. Use them when feedback or a later edit puts one pass in doubt without re-running the whole review.
 
-### Stage 4b: Voice pass — `/voice-pass <path> <n>`
-After the review, every lesson gets one fresh-context rewrite into the Foval voice per `docs/STYLE_GUIDE.md`, adding the think-while-reading blocks. It is part of the definition of done, and a course is not published without it.
+### The voice checks, and `/voice-pass <path> <n>` as a tool
+The voice checks (no em dashes, nothing from the banned list, bold only on key terms, two or three predicts, a checkpoint after each hard idea, a gap in one worked example, read aloud) run inside Stage 4's fix step; `review-lesson.md` lists them. `/voice-pass` still exists for a lesson that Stage 4 flags as generically written or that feedback sends back, and is not a stage of its own: fifteen lessons through it on 2026-09-17 found nothing the fix step had not already done (`docs/DECISIONS.md` §13).
 
 ### Stage 5: Publish
-When every lesson has passed Stage 4 and the voice pass, set `status: published`, run `npm run build`, commit, push. GitHub Pages deploys. There is no separate sign-off gate: the owner reads courses as a learner, and that reading, together with everyone else's feedback, is Stage 7.
+When every lesson has passed Stage 4, set `status: published`, run `npm run build`, commit, push. GitHub Pages deploys. There is no separate sign-off gate: the owner reads courses as a learner, and that reading, together with everyone else's feedback, is Stage 7.
 
 ### Stage 6: Podcast — `/make-podcast <path/to/lesson.md>`
 **Every lesson gets its podcast when its content settles** (after the Stage 4 review and the
