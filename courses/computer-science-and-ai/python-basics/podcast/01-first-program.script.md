@@ -9,9 +9,15 @@ checked: >-
   retraction and his exact phrase, and then the 2016 study's institution, its span of years, its
   seven hundred and seventy eight lecture sections and thirty thousand two hundred and fourteen
   grades, the four hundred and fifty five ruled out, the three hundred and twenty three tested and
-  the forty five positive. The reviewer confirmed the denominator is not swapped: five point eight
-  percent is of all seven hundred and seventy eight, and the misleading thirteen point nine percent
-  never appears. The opposing view is carried at the strength the lesson gives it, with the lesson's
+  the forty five positive. **Both rounds got the denominator wrong and this block enshrined it.**
+  They confirmed that five point eight percent is of all seven hundred and seventy eight and called
+  thirteen point nine percent misleading, when thirteen point nine is the paper's own figure and is
+  the right denominator for the comparison that follows: the authors' five percent false-positive
+  rate is five percent of the three hundred and twenty three tests actually run, about sixteen, so
+  "most of the forty five may well be noise" was wrong by a factor of nearly three. The paper was
+  read directly on 2026-09-19, its own sentences are now in the lesson's Sources entry, and both
+  the lesson and this turn were rewritten. The lesson body carried the same error and was item 3
+  of docs/QUEUE.md. The opposing view is carried at the strength the lesson gives it, with the lesson's
   own limit on what the study rules out and its warning that none of this means programming is easy.
   The repairs named the SyntaxError aloud, which the lesson's objective requires and the episode had
   left as "the broken one"; restored the lesson's "output before a traceback" rather than "before an
@@ -50,13 +56,11 @@ S2: And the other half of the folklore.
 
 S1: That computer science grades come out in two humps. A group who get it, and a group who don't. In twenty sixteen Patitsas and colleagues went and looked. They took the final grades of every undergraduate computer science class at the University of British Columbia from nineteen ninety six to twenty thirteen. Seven hundred and seventy eight lecture sections, thirty thousand two hundred and fourteen grades.
 
-S2: And measured rather than eyeballed.
+S1: And they measured rather than eyeballed. A first screen ruled out four hundred and fifty five of the sections outright, on a property that has to hold before a distribution can have two peaks at all. The remaining three hundred and twenty three went through a statistical test for more than one peak, and forty five came back positive.
 
-S1: Which is the whole point. A first screen ruled out four hundred and fifty five of the sections outright, on a property that has to hold before a distribution can have two peaks at all. The remaining three hundred and twenty three went through a statistical test for more than one peak, and forty five came back positive.
+S2: So what's the rate?
 
-S2: Out of seven hundred and seventy eight.
-
-S1: Five point eight percent. And the authors add something that makes the result stronger rather than weaker. Run that many tests at the usual threshold and about five percent should come back positive by chance alone, so most of the forty five may well be noise.
+S1: Thirteen point nine percent of the three hundred and twenty three tested, and five point eight percent of all seven hundred and seventy eight. The authors say some positives are inevitable by chance, about one in twenty, so roughly sixteen of the forty five. Some are noise and most are real. And that was never the argument. It's the size of the number. If grades were bimodal as a rule, far more than five point eight percent would have tested that way.
 
 S2: Is there a fair reply to that?
 

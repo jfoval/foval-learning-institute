@@ -114,9 +114,13 @@ final grades of every undergraduate computer science class at the University of 
 from 1996 to 2013: 778 lecture sections, 30,214 grades. Then they measured instead of eyeballing.
 A first screen ruled out 455 of the sections outright, on a property that has to hold before a
 distribution can have two peaks at all. The remaining 323 went through a statistical test for more
-than one peak, and 45 came back positive. That's 5.8% of all 778. The authors add a point
-that makes the result stronger rather than weaker: run that many tests at the usual threshold and
-about 5% should come back positive by chance alone, so most of the 45 may well be noise.
+than one peak, and 45 came back positive: 13.9% of the sections actually tested, and 5.8% of all
+778. The authors are careful about what that leaves. They used the standard 0.05 threshold and say
+plainly that across that many tests some false positives are inevitable, about one in twenty by
+chance alone, which over 323 tests is roughly sixteen. So perhaps a third of the 45 are noise and
+the rest are real, and their argument never needed them to be noise. The argument is the size of
+the number: if computer science grades were bimodal as a rule, far more than 5.8% of classes would
+have tested that way.
 
 The second half of their study is the part I find harder to forget. They showed 53 computer science
 professors six histograms and asked what sort of distribution each one was. Every histogram had
@@ -447,7 +451,11 @@ that turns out to be text.
    Science Grades Are Not Bimodal", *Proceedings of the 2016 ACM Conference on International
    Computing Education Research* (ICER 2016, Melbourne); later in *Communications of the ACM*.
    Study 1 covers 778 lecture sections and 30,214 final grades at the University of British
-   Columbia, 1996 to 2013, of which 45 (5.8%) were multimodal under Hartigan's Dip Test. Study 2 is
+   Columbia, 1996 to 2013. A kurtosis screen left 323 testable, of which 45 were multimodal under
+   Hartigan's Dip Test: the paper's own figures are "13.9% of those tested, 5.8% of all the
+   classes". On false positives the paper says only that it chose "the standard alpha value of
+   0.05" and that "we expect 5% of our tests will yield a false positive", which is 5% of the 323
+   tested, not of the 778. Study 2 is
    the experiment on 53 professors, whose six histograms were all generated from a normal
    distribution.
 3. PEP 657, "Include Fine Grained Error Locations in Tracebacks", released in Python 3.11. The
