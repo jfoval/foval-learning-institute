@@ -28,6 +28,26 @@ Rewrite these five lines each session. Nothing else goes in this block.
   had. Lesson 9 is about signatures, stores and package managers and will want several more. Check
   `npm run taught` and lessons 1 to 8 before assuming a word is available.
 
+- **Where the audio stands, 2026-09-18.** Six courses are FINISHED: Clear Writing, How to Learn
+  Anything, Logic and Argument, Personal Finance, Algebra Essentials and Python Basics. **49 of 71
+  episodes are live.** What is left is **Bible Basics (12)** and then **Reading Well (10)**, in that
+  order, which is where the render order in this file now points. `npm run state` has the costs.
+
+  **One render was killed in flight** when a Bible Basics chain was stopped at the end of that
+  session, on lesson 1. No audio was written and no manifest was kept, so **Google may have billed
+  for a render that produced nothing**. It is not in `scripts/podcast/budget.json` as production
+  because no episode came of it. Re-rendering lesson 1 is a fresh, deliberate spend and that is
+  correct; nothing is being paid for twice, because nothing was kept.
+
+  **Bible Basics scripts are the long ones** (1,259 to 1,539 words against the measured band of
+  1,000 to 1,200), so its twelve renders take noticeably longer than Python's six did. Budget the
+  wall-clock accordingly.
+
+- **Digital Literacy is written as far as it can be.** Scripts for lessons 1 and 7 to 12 are drafted;
+  **lessons 2 to 6 still need scripts**, and everything needs the fact-check recorded in `checked:`
+  before `podcast.mjs` will render any of it. The six drafted on 2026-09-18 came in between 947 and
+  1,032 words, which is the measured band, so the shape is right; they just need checking.
+
 - **BLOCKED ON JOHN, and it is the only thing standing between Digital Literacy and publication.**
   Lesson 13, the last one, has a Stage 1 gate the outline states as a **must**: "Stage 1 must run a
   real data export end to end and record what arrived". Its first worked example is that export,
