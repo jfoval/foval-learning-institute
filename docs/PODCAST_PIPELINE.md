@@ -79,6 +79,31 @@ to be asked.
 When the cap is hit, requests fail rather than overcharging, so the failure mode is a wasted minute
 and not a surprise bill.
 
+### The other ceiling, and it is the one you will actually hit
+
+**Money is not the only limit, and on 2026-09-18 it was not the binding one.** The account is on
+Google's **Tier 1**, which caps **Gemini 2.5 Pro TTS at 50 requests a day**. One render is one
+request. After eleven Reading Well episodes and Bible Basics 1, the next render was refused with
+HTTP 429 twice, seven minutes apart, and went through on a third attempt about fifteen minutes
+later. That pattern says the day's allowance is a **rolling window rather than a midnight reset**:
+capacity comes back as older requests age out, so a chain does not stop dead, it slows to the rate
+the window allows.
+
+**How to tell the two apart, which cost a session an hour of guessing.** Go to
+[aistudio.google.com/rate-limit](https://aistudio.google.com/rate-limit) and read the RPD column
+for Gemini 2.5 Pro TTS. That page names the limit outright. The spend page at
+[aistudio.google.com/spend](https://aistudio.google.com/spend) answers a different question, and
+on the day this was written it showed $37.82 of $45.00 with money left over, which is exactly why
+reading the spend page first sends you down the wrong road.
+
+**A 429 is refused before any audio is generated**, so it costs nothing: the manifest records
+nought seconds and there is no incident for `scripts/podcast/budget.json`. Do not write one.
+
+**So when a render is refused, read the error before concluding anything.** `podcast.mjs` logs the
+first 1,200 characters of Google's reply into the attempt manifest, which is enough to carry the
+name of the quota that was exceeded. It logged only 300 until 2026-09-18, which truncated the
+message one word into the metric name.
+
 ---
 
 ## 3. The order to work in

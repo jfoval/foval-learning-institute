@@ -28,36 +28,36 @@ Rewrite these five lines each session. Nothing else goes in this block.
   had. Lesson 9 is about signatures, stores and package managers and will want several more. Check
   `npm run taught` and lessons 1 to 8 before assuming a word is available.
 
-- **STOPPED ON GOOGLE, mid-course. Bible Basics 2 will not render: HTTP 429, quota exceeded.**
-  Two attempts, seven minutes apart, identical answer, and **neither was billed**: a 429 is refused
-  before any audio is generated, the manifest records nought seconds for both, and there is no
-  incident to write into `scripts/podcast/budget.json`. The seven-minute gap rules out a
-  per-minute rate limit. It is either a **per-day request quota on the preview TTS model** (this
-  session made twelve successful renders before it started) or **Google's own monthly spend cap**,
-  and only John can tell which. `npm run state` believes $7.26 of the $45 cap is left, but that is
-  computed from the render manifests and **aistudio.google.com/spend is the authority**.
+- **The binding limit on audio is requests per day, not money, and that is new.** John opened
+  [aistudio.google.com/rate-limit](https://aistudio.google.com/rate-limit) on 2026-09-18: the
+  account is **Tier 1**, and **Gemini 2.5 Pro TTS is capped at 50 requests a day**, sitting at
+  46 of 50. One render is one request. The spend page said **$37.82 of $45.00** at the same
+  moment, so there was money left and the money was never the problem. `npm run state`'s estimate
+  of $7.26 remaining was within nine cents of Google's own figure, so the manifest-derived number
+  is trustworthy and does not need checking by hand.
 
-  **What John does:** open aistudio.google.com/usage, which the failure message itself names, and
-  see which limit was hit. If it is the spend cap, raise it there and then in
-  `scripts/podcast/budget.json`. If it is a daily request quota, the next session simply picks up
-  where this one stopped; nothing is lost and nothing needs redoing.
+  **The reasoning is in `docs/PODCAST_PIPELINE.md` section 2**, under "The other ceiling". The
+  short version for a session that meets a 429: read the rate-limit page, not the spend page, and
+  do not write an incident into `budget.json`, because a 429 is refused before any audio is
+  generated and bills nothing.
 
-  **Eleven episodes are owed, all of them Bible Basics, and $2.55 clears the lot.** The next action
-  is `node scripts/podcast.mjs render courses/christian-studies/bible-basics/lessons/02-one-story.md --go`
-  and `npm run state` will say so.
+  **It behaves as a rolling window, not a midnight reset.** Two refusals seven minutes apart, then
+  a success about fifteen minutes later. So a render chain does not stop dead when it reaches the
+  limit; it slows to the rate at which older requests age out. **Ten Bible Basics episodes are
+  owed and $2.51 clears them**, so they will finish, over today and tomorrow rather than in one
+  sitting. Raising the tier would remove the constraint and is John's call, not a session's.
 
-  **Reading Well is FINISHED**, all ten episodes rendered, uploaded and stamped in this session,
-  one call each, every one passing the gate on its first attempt. Seven courses are now finished.
-  Reading Well's ten ran 271 to 484 seconds and billed $0.18 to $0.24, about $0.21 an episode
-  against the $0.22 the pipeline doc says to budget, so that figure is holding across a second
-  course. Bible Basics 1, the render that was killed in flight on 2026-09-18, is done: zero prior
-  attempts were on the record, so nothing was paid for twice.
+  **Reading Well is FINISHED**, all ten episodes rendered, uploaded and stamped in one session,
+  one call each, every one passing the gate first time: 271 to 484 seconds, $0.18 to $0.24, about
+  $0.21 an episode against the $0.22 the pipeline doc budgets, so that figure is holding across a
+  second course. Bible Basics 1, the render killed in flight on 2026-09-18, is done, with zero
+  prior attempts on the record, so nothing was paid for twice.
 
-  **The render order below and `npm run state` disagreed, and the disagreement is resolved in the
-  script's favour.** This file said legacy courses first, which put Bible Basics ahead of Reading
-  Well; `npm run state`, `docs/PODCAST_PIPELINE.md` section 3 and `docs/DECISIONS.md` section 2
-  ("episodes are rendered in Core term order") all say term order, which puts Reading Well first.
-  Reading Well went first and the hand-written order is gone.
+  **The render order below and `npm run state` disagreed, and it is resolved in the script's
+  favour.** This file said legacy courses first, which put Bible Basics ahead of Reading Well;
+  `npm run state`, `docs/PODCAST_PIPELINE.md` section 3 and `docs/DECISIONS.md` section 2
+  ("episodes are rendered in Core term order") all say term order. Reading Well went first and the
+  hand-written order is gone.
 
   **Bible Basics scripts are the long ones** (1,259 to 1,539 words against the measured band of
   1,000 to 1,200). Lesson 1 sits at exactly 1,417, the guard's ceiling to the word, and took 473
