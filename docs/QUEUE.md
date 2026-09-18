@@ -27,10 +27,16 @@ Rewrite these five lines each session. Nothing else goes in this block.
   had every finding applied; lesson 3 has also passed a neutrality audit. Lessons 6 and 7 have also been through a second pass and
   **owe a third** on the passages those passes rewrote, which is where this course's defects now
   live: a repair fails in the opposite direction about half the time. Lessons 8 and 10 are drafted and their reviews are out. **All ten lessons are drafted**. Lesson 9 is in a 3.4 domain, its neutrality audit is mandatory and is out, and its two primary
-  documents were sourced and verified first. **The project brief is written.** What is left of the
-  assessments is the twenty-item course-end test, which `research/OUTLINE.md` blueprints by objective
-  and which needs at least twelve application items and two cross-lesson ones; two of its items are
-  on a supplied pair of documents and so wait on lesson 9.
+  documents were sourced and verified first. **Both assessments are written.** The twenty-item
+  course-end test is in, with the two cross-lesson items the blueprint asks for and every distractor
+  taken from a misconception a lesson names. **Note an inconsistency in `research/OUTLINE.md`**: its
+  prose says twenty items and its table by objective sums to twenty-two. The test follows the prose
+  and drops one item each from lessons 5 and 7, keeping both of the blueprint's named special items,
+  the lesson 4 arithmetic and the lesson 7 agree-in-part.
+- **What is left before Reading Well publishes:** lesson 9's Stage 4 review and its mandatory
+  neutrality audit, and a narrow verification of the passages lessons 6, 7 and 8 have each had
+  rewritten two or three times. Then the publish commit: `course.yaml` to published, the TAXONOMY row
+  in the same commit, and `reading-well: 10` added to `curriculum/audio-debt.yaml`.
 - **Lesson 9's two documents are sourced and verified**, and the research is worth keeping.
   **Worked example (a): Captain John Parker's deposition of 25 April 1775 paired with Major John
   Pitcairn's report to Gage of 26 April 1775.** One day apart, each by the officer commanding at the

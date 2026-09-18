@@ -203,6 +203,65 @@ the debt is.
   what is the case. **That is the fair handling, and this course does not adjudicate the view
   itself.**
 
+- **Three documents on the Lexington confrontation of 19 April 1775**, used in lesson 9 as the
+  worked examples for sourcing, contextualization, corroboration and close reading. Chosen because
+  the factual core is uncontested and the accounts differ on the one point that matters, which is
+  what the outline asks for, and because **who fired first is genuinely unresolved**: the lesson
+  states it and does not settle it.
+
+  - **Deposition of Captain John Parker, Lexington, 25 April 1775.** **Read in full** from the
+    [National Archives transcript](https://www.archives.gov/files/education/lessons/images/parker-deposition.pdf),
+    catalogue record [NAID 595246](https://catalog.archives.gov/id/595246), Papers of the Continental
+    Congress, Record Group 360. The record is marked **unrestricted for access and for use**; the
+    1775 document is public domain and the transcription is a United States Government work. Sworn
+    six days after the event before three Middlesex justices and certified by a Charlestown notary
+    attesting that those men were His Majesty's justices, **because the paper was going to England**.
+    Taken by order of the Massachusetts Provincial Congress, whose covering address "To the
+    Inhabitants of Great Britain" states the purpose in its own words: "it being of the greatest
+    importance that an early, true, and authentick account of this inhuman proceeding should be known
+    to you". Printed at Worcester and sent to England ahead of Gage's own account. **Note that
+    transcriptions differ**: Peter Force's 1839 printing modernises spelling and capitals, prints the
+    jurat and the notarial certificate that the Archives transcript omits, and drops the word
+    "molest".
+  - **Major John Pitcairn to General Thomas Gage, Boston, 26 April 1775.** **Read from a web
+    transcription only, and the provenance is attested at second hand.** The text used is
+    [Teaching American History's](https://teachingamericanhistory.org/document/report-on-the-battles-of-lexington-and-concord/),
+    which names no source. The manuscript is in the Gage Papers at the Clements Library and was
+    printed by Allen French in 1932; **neither was reachable**, the Clements and HathiTrust both
+    refusing access, and the archival citation comes from a footnote in a web magazine. Two other
+    online transcriptions disagree with it on spacing and headings and one states that it has been
+    edited for readability. **What could be established is that the text is not invented**: Gage's own
+    published account, in Force's *American Archives*, tracks the report clause by clause, which shows
+    the letter is real and **corroborates nothing about the events**, because it is derived from the
+    report rather than independent of it. Lesson 9 says all of this in its body, and no lesson may let
+    this passage carry more than that.
+  - **Affidavit of Sylvanus Wood, 17 June 1826**, printed in Ezra Ripley, *A History of the Fight at
+    Concord* (Concord, 1827), 53 to 54, [Internet Archive](https://archive.org/details/historyoffightat00ripl),
+    a library-sponsored scan marked not in copyright. Sworn fifty-one years after the event, by a
+    seventy-four-year-old, before a Concord justice. **Its value is as the course's worked example of
+    a document that is poor evidence about its subject and excellent evidence about its own moment**:
+    Ripley was Concord's minister, his subtitle claims the first resistance for Concord, and he was
+    answering Elias Phinney's Lexington history of 1825 which had argued that Lexington men returned
+    the fire. He printed a run of such affidavits, mostly before the same justice, all making the same
+    negative point. So an affidavit that reads as loyal Lexington testimony was gathered by the
+    Concord party. Transcriptions differ: a modernised text drops Wood's own footnote qualifying his
+    count of the militia.
+
+  **A licence trap found in this research and worth keeping.** The Internet Archive copy of Force's
+  *American Archives* volume 2 is a **community upload carrying a CC BY badge applied by the
+  uploader**, who has no standing to license an 1839 public-domain text. The Ripley and Dawson scans
+  of the same period are library-sponsored and marked not in copyright, which is the clean case. **A
+  badge on an Archive item licenses the uploader's own work, not the book.**
+
+  **What is uncontested about that morning**, for any lesson using this material: a British
+  detachment marched from Boston overnight to destroy colonial stores at Concord; it reached
+  Lexington around sunrise; militia were drawn up on the Common; firing occurred; eight Lexington men
+  were killed; a soldier of the 10th Regiment was wounded and Pitcairn's horse hit in two places; the
+  column went on to Concord; and both commanders stated in writing within a week that they had
+  ordered their own men not to fire first. **What is not settled**: who fired first and from where,
+  whether any officer's shout included the word "fire" as an order, whether Lexington men returned
+  fire at all, and even the number of militia on the Common. **No lesson settles any of those.**
+
 - **UK Parliament, *Hansard*, "NAVY—RULE OF THE ROAD AT SEA. RESOLUTION", House of Commons, 8 June
   1875, vol 224 cc1561-2.** **Read in full** at
   [historic-hansard](https://api.parliament.uk/historic-hansard/commons/1875/jun/08/resolution),
