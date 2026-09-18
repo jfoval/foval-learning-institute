@@ -14,13 +14,14 @@ defect moves to the changelog; it does not stay here struck through.
 
 Rewrite these five lines each session. Nothing else goes in this block.
 
-- **Current course:** **Reading Well published on 2026-09-19**, ten lessons, a twenty-item course-end
-  test and the project. It is the eighth live course and the second on the Foval Core. Its ten
-  episodes are on the debt ledger. **Every published course is written except this one**, which owes
-  one podcast script, for lesson 9; the other nine are drafted and three are fact-checked.
-- **Current lesson:** none. **Next is `/make-podcast` on Reading Well lesson 9**, then the second
-  fact-check round on the six scripts that have had one, and then the next course on the Core, which
-  is Digital Literacy. Start it with `/new-course`.
+- **Current course:** **Digital Literacy**, started 2026-09-19 and in Stage 1 research. Reading
+  Well published on 2026-09-19 with ten lessons, a twenty-item course-end test and the project; it
+  is the eighth live course and the second on the Foval Core, and its ten episodes are on the debt
+  ledger. **Every published course is written except Reading Well**, which owes one fact-check, on
+  script 9. Its other nine scripts are checked, six of them twice.
+- **Current lesson:** none. **Next is the fact-check on Reading Well script 9**, which is drafted
+  at 1,333 spoken words and is the last thing between that course and *written*, and then Stage 2
+  on Digital Literacy once its SOURCES.md lands.
 - **Before drafting anything:** `npm run taught <course>`. It prints every objective a learner has
   already met earlier on the Core, and names the earlier courses that do not exist yet so nothing
   is assumed from them. Stage 2 and Stage 3 both call for it.
@@ -38,9 +39,14 @@ Rewrite these five lines each session. Nothing else goes in this block.
   across four courses. The cap resets on the 1st, and John raises it when he can; he asked to be
   told, not asked. **Writing scripts is free and is not blocked by any of this**, and it is what the
   rest of the month is for.
-- **Next action, content:** scripts, in Core term order: Python Basics, then Bible Basics. They are
-  free at the API and they are what stands between a published course and *written*.
-  **Next action, audio:** whatever `npm run state` names, which is Logic and Argument 4 onward.
+- **Next action, content:** whatever `npm run state` names. As of the night of the 19th that is the
+  Reading Well script 9 fact-check, then Digital Literacy's outline and lessons.
+  **Next action, audio:** Logic and Argument 10, the moment the cap resets.
+- **"Written" now means checked, as of 2026-09-19.** `npm run state` and `npm run validate` counted
+  script *files*, so ten unread drafts read as a written course, and it had already happened: with
+  script 9 drafted and unchecked, state said every live course was written and sent the session on
+  to the next course. Both now require a `checked:` entry in the script's frontmatter, which is the
+  gate `build.mjs` already puts in front of an audio stamp.
 
 ## The queue, top to bottom
 
@@ -70,11 +76,17 @@ dry run instead of only on `--go`, which is where the limit used to be invisible
 1,300 and check the dry run before the fact-check**, because shortening is new text and the
 fact-check has to run again after it.
 
-**Scripts are done.** All sixty-one lessons on the seven published courses have one, every one
-fact-checked in a fresh context, most of them twice and several three times. `npm run validate`
-prints nothing about scripts now because there is nothing left to print. What the night taught about
-writing them is in the two craft notes above and in the ceiling note; what it taught about checking
-them is the next paragraph.
+**Scripts: seventy of seventy-one.** Every lesson on the eight published courses has one, and every
+one but Reading Well 9 is fact-checked in a fresh context, most of them twice and several three
+times. What the night taught about writing them is in the two craft notes above and in the ceiling
+note; what it taught about checking them is the next paragraph.
+
+**A repair fails again about half the time, measured across two rounds on ten Reading Well scripts.**
+Five of the six scripts sent for a second round had passed their first-round repairs, and the sixth
+failed again on the same sentence in a quieter form: a sign-off telling the listener the lesson
+carried a whole passage it does not. The fix that works is to brief the re-checker with **what the
+repair was for**, not just to ask for another read. Three rounds is the point of diminishing return:
+lesson 6's fourth pass returned a Latin spelling and two paragraph-distance slips and nothing else.
 
 **Adler's third stage is now recorded verbatim in Reading Well's SOURCES.md, re-read from the scan
 on 2026-09-18.** Four lessons had been leaning on `OUTLINE.md` for it, which is a plan and not a
@@ -177,14 +189,19 @@ older ones still say 6 over 1,400 words.
    noise". But the 5% is a rate over the 323 sections actually tested, which is about 16, not most of
    45. Either the sentence wants a different word than "most" or the reasoning wants spelling out,
    and the paper is the place to settle it. The script was written so as not to repeat the inference.
-4. **One lesson still does not cite its own sources.** **Personal Finance 6 (taxes) has nine
-   sources and not one `[n]` marker in its prose**, so every bracket figure in a tax lesson is
-   uncited to the reader. `npm run validate` warns on it and standards Part 2 forbids it: cite what
-   the lesson was written from, or drop the entry. It is also the worst quiz below, so it earns one
-   visit for both. Python 2 was the other and is fixed: three markers added where its prose leans on
-   the floating-point chapter, PEP 8 and its own terminal output, with Think Python left uncited
-   because the lesson links it as further reading and its entry says so. Nine other lessons have one
-   to three uncited entries, which is ordinary and stays under the threshold.
+4. **Personal Finance 6 is cited, and citing it found something worse.** Thirteen markers went in
+   on 2026-09-19 and the last `npm run validate` warning is cleared; every one of the nine entries
+   now carries a claim the prose makes, and none was a candidate for removal. **The problem was the
+   other way round.** Five claims in the lesson have no entry at all, two of them load-bearing: the
+   "nine in ten filers take the standard deduction" figure, asserted four times and carrying the
+   whole not-every-deduction-reaches-you argument, and a contested payroll-tax incidence assumption
+   attributed to the CBO where the CBO entry cited is a different paper on a different subject. The
+   capital-gains schedule, the refundable-credit paragraph and the state-tax range are the other
+   three. Two sentences that reached past their sources were narrowed in the same commit. **The
+   remaining five are out with a research agent**; if that comes back short, they are the next
+   visit. The lesson is also one tax year behind: honest about being 2025, silent that 2026 exists.
+   Nine other lessons have one to three uncited entries, which is ordinary and stays under the
+   threshold.
 5. **Six of the seven dead links are fixed, and the seventh cannot be.** The
    `earlychristianwritings.com` pages had moved: the Thomas page is back at `/thomas.html`, and 1
    Enoch, 2 Baruch and 4 Ezra were never Christian writings and live on the sister site
@@ -217,8 +234,11 @@ older ones still say 6 over 1,400 words.
    the summary carries. Its review caught the lesson claiming a fixation's perceptual span, which
    the summary does not support and the outline does, so **treat OUTLINE.md as a plan and never as a
    source.**
-   After Reading Well: Digital Literacy, then Using AI Effectively, then Term 2. Start each with
-   `/new-course`.
+   **Reading Well is published, and is one fact-check from written.**
+   **Digital Literacy is the current course**, scaffolded 2026-09-19 at T1 with `status: research`.
+   Its scope was widened on 2026-09-18 to carry the terminal, because Term 6's Python course assumes
+   it and never teaches it, so Stage 1 has to reach as far as running a file and reading the error.
+   After it: Using AI Effectively, then Term 2. Start each with `/new-course`.
 
 ## Standing items, every week
 
