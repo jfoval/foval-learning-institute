@@ -7,15 +7,29 @@ about: >-
   Digital Literacy. Covers the folk models, the honest premise about what this course can do,
   and the two things it claims instead. Leaves out the worked security plan and the botnet
   case, and says so in the sign-off.
+checked: >-
+  Fact-checked in a fresh-context subagent against the lesson on 2026-09-18: verdict FAIL,
+  and every finding was fixed in this file before rendering. The substantive one was that
+  the script offered the single-box drawing as the result arguing against the course's own
+  premise, when the lesson presents it as the encouraging half and puts the weight on Kang's
+  null result, that technical background had no direct relationship with protective action;
+  that result is now stated. The sign-off also called the lesson's worked example a real
+  person, where the lesson writes "call her Ruth". Five nits fixed with it: the 2025 date on
+  the phishing experiment, the dropped "statistically significant" on the two-point effect,
+  the Korean field study and the fact that the 2025 authors raise both strands of
+  counter-evidence against themselves, the truncated lesson title, and "spends most of its
+  length" for one section of eight. Every figure and claim now appears in the lesson and
+  nothing has been added that the lesson does not say. The course has no standpoint to
+  preserve: course.yaml carries no `standpoint` and `sensitive_domain: false`.
 speakers: 2
-approx_minutes: 6
+approx_minutes: 7
 ---
 
 S2: Welcome in. This is the Foval Learning Institute podcast, where the two of us talk a lesson through. I'm Haley.
 
-S1: And I'm John. Today we're starting Digital Literacy, with its first lesson. What you are up against.
+S1: And I'm John. Today we're starting Digital Literacy, with its first lesson. What you are up against, and what this course can honestly do.
 
-S1: And it's an unusual first lesson, because it spends most of its length arguing against the thing you'd expect a course like this to promise.
+S1: And it's an unusual first lesson, because it opens by arguing against the thing you'd expect a course like this to promise.
 
 S2: Which is what, that understanding computers makes you safer?
 
@@ -43,19 +57,23 @@ S1: And that's why this course builds the picture of the machine and the network
 
 S2: You said the lesson argues against its own premise. How?
 
-S1: Two results. The first is that when people were asked to draw the internet, in a study published in twenty fifteen with twenty eight participants, fourteen of them drew a single box. You send a request in, an answer comes back, nothing in between.
+S1: Two results, and the first one starts out sounding like an argument for the course. In twenty fifteen, four researchers sat twenty eight people down and asked them to draw the internet. Fourteen drew a single box. You send a request in, an answer comes back, nothing in between. The other fourteen drew something with layers in it, and those people named more parties who could see their data, about four on average against about two and a half.
 
-S2: And the second?
+S2: Which is the case for understanding the thing.
 
-S1: The second is newer and more uncomfortable. An eight month randomised experiment at a university health system, more than nineteen thousand five hundred employees, ten simulated phishing campaigns, real control groups.
+S1: So far. And then the same study cuts the other way. They found no direct relationship between technical background and the protective actions people actually took. Knowing more predicted noticing more. It did not predict doing more.
+
+S2: And the second result?
+
+S1: The second is newer and more uncomfortable. A team published it in twenty twenty five. An eight month randomised experiment at a university health system, more than nineteen thousand five hundred employees, ten simulated phishing campaigns, and real control groups who got no training.
 
 S2: What did it find?
 
-S1: No significant relationship between having recently completed the annual awareness training and the chance of failing a simulation. The embedded training, the page you land on after you click, produced about two percentage points of improvement in absolute terms. And more than fifty six percent of employees clicked a phishing link at least once, trained or not.
+S1: No significant relationship between having recently completed the annual awareness training and the chance of failing a simulation. The embedded training, the page you land on after you click, produced a small but statistically significant improvement of about two percentage points in absolute terms. And more than fifty six percent of employees clicked a phishing link at least once, trained or not.
 
 S2: That's a course arguing against itself.
 
-S1: It's a course being honest about what it can claim. And I should say the lesson is careful here in the other direction too. The authors don't claim people can't learn to spot a fake message. Earlier work found training does improve how accurately people sort real messages from fakes. What they claim is narrower. The training products currently deployed, at the intensity organisations deploy them, don't move the outcome much. Those are two different claims.
+S1: It's a course being honest about what it can claim. And I should say the lesson is careful here in the other direction too. The authors don't claim people can't learn to spot a fake message. Earlier laboratory and small scale studies found training does improve how accurately people sort real messages from fakes, and a study of seven thousand and eighty nine Korean organisations found a correlation between time spent on training and fewer incidents. Both of those are set out by the twenty twenty five authors themselves, in their own paper, against their own result. What they claim is narrower. The training products currently deployed, at the intensity organisations deploy them, don't move the outcome much. Those are two different claims.
 
 S2: So if the course won't promise safety, what does it promise?
 
@@ -89,6 +107,6 @@ S2: Does that plan come back?
 
 S1: It comes back in lessons eight, ten, eleven and thirteen. It's the spine of the course.
 
-S1: We've skipped the plan worked all the way through on a real person, which is the part that shows you how to do it. And there's a case at the end about an attacker not one of Wash's thirty three respondents could even conceive of, which is worth the lesson on its own.
+S1: We've skipped the plan worked all the way through on one ordinary person, which is the part that shows you how to do it. And there's a case at the end about an attacker not one of Wash's thirty three respondents could even conceive of, which is worth the lesson on its own.
 
 S2: Read the whole thing at Foval Learning Institute dot org. We'll see you next time.
