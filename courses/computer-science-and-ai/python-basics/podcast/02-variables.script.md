@@ -28,7 +28,7 @@ approx_minutes: 8
 
 S2: Welcome in. This is the Foval Learning Institute podcast, where the two of us talk a lesson through. I'm Haley.
 
-S1: And I'm John. Today we're in Introduction to Programming with Python, lesson two. Giving a program a memory.
+S1: And I'm John. Today we're in Introduction to Programming with Python, lesson two. Names and values.
 
 S1: And the whole lesson rests on one small idea that almost everyone misreads the first time. What the equals sign actually does.
 

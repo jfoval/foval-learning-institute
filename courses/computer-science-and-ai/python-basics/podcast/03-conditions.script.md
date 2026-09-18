@@ -26,7 +26,7 @@ approx_minutes: 8
 
 S2: Welcome in. This is the Foval Learning Institute podcast, where the two of us talk a lesson through. I'm Haley.
 
-S1: And I'm John. Today we're in Introduction to Programming with Python, lesson three. Making a program choose.
+S1: And I'm John. Today we're in Introduction to Programming with Python, lesson three. Making decisions.
 
 S1: A program that runs the same lines every time can only do one job. The moment it can look at what it has and choose, it can do many. And this lesson rests on a type you met in lesson two and haven't used yet. Bool, which has exactly two values.
 
