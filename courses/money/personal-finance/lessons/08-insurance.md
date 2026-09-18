@@ -1,6 +1,7 @@
 ---
 title: Handing off what you cannot absorb
 minutes: 95
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/money/personal-finance/08-insurance.mp3
 objectives:
   - Explain risk pooling, and say why an insurer expecting to profit does not make buying insurance a mistake for the insured
   - Sort your own risks into ones to insure and ones to carry, using the question of what you could absorb without the plan collapsing
