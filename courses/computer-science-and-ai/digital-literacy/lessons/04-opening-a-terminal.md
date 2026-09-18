@@ -61,7 +61,7 @@ Everything you have done in the last two lessons was done by clicking. You found
 
 Now we are going to do the same things by typing, and the first thing to get straight is that this isn't a second computer. It's the same tree, the same directories, the same files. A file browser and a terminal are two windows onto one thing, and the fastest way to believe that is to put them side by side and watch them agree.
 
-That arrangement isn't attributed to anybody. It is simply what makes the next hour work, so this lesson is built on it and you'll need both windows open. The commands themselves are the first handful of the set [MIT's Missing Semester](https://missing.csail.mit.edu/) opens with; the rest arrives in the next two lessons.[2] Where the lesson tells you what goes wrong, that comes from [Software Carpentry's shell lesson](https://swcarpentry.github.io/shell-novice/) and its instructor notes, which are a long-running record from a curriculum taught in two-day workshops.[1]
+That arrangement isn't attributed to anybody. It is simply what makes the next hour work, so this lesson is built on it and you'll need both windows open. The commands themselves are the first handful of the set [MIT's Missing Semester](https://missing.csail.mit.edu/) opens with; the rest arrives in the next two lessons.[2] Where the lesson tells you what goes wrong, that comes from [Software Carpentry's shell lesson](https://swcarpentry.github.io/shell-novice/) and its instructor notes, which are a long-running record of what actually goes wrong when this material is taught.[1]
 
 ## Getting a shell
 
@@ -69,7 +69,7 @@ A **shell** is a program that reads what you type, works out what you meant, and
 
 This course teaches a POSIX shell, which means bash or zsh. That's a choice, and it has a cost, so here's the reason before the instructions.
 
-**It's about where you can go next, not about which shell is better.** The three free, full-length places a learner can go after this course, Software Carpentry's shell lesson, MIT's Missing Semester, and the online edition of the standard command-line book at linuxcommand.org, all teach these commands. So does every later Computing course on the Foval Core. Learn them and those doors are open.
+**It's about where you can go next, not about which shell is better.** The three free, full-length courses this one points you to next, Software Carpentry's shell lesson, MIT's Missing Semester, and the book at linuxcommand.org, all teach these commands, and so does every later Computing course on the Foval Core. Learn them and those doors are open. PowerShell has free full-length material of its own, published by Microsoft, so this is a choice about which door this course walks you through rather than a claim that only one exists.
 
 **On macOS**, you already have one. Press Command and Space, type `Terminal`, and press return. You can also find it in Applications, then Utilities. The shell you get is zsh, which Apple has made the default for new accounts since 2019. On a Mac whose account is older than that you may get bash instead, and everything in this lesson works the same in either.
 
@@ -104,7 +104,7 @@ Under WSL it goes further. There `pwd` prints `/home/you`, which is a Linux home
 :::callout If you already know PowerShell, read this before you skip the install
 PowerShell is a capable shell and it has two real advantages this course is giving up. **It is already on the machine**, which matters in a lesson that has just made installing software a thing you should stop and think about. And **its pipelines carry structured objects rather than lines of text**, which removes a whole class of bug that POSIX shells still have: no quoting accidents, no guessing where one field ends and the next begins.
 
-What it does differently, and what will bite. `ls`, `cat` and `pwd` exist there as aliases for its own commands, and they mostly do what a POSIX user expects right up until they don't. Because the pipeline carries objects, the text-filtering habits lesson 6 teaches don't transfer. Windows writes paths with backslashes and PowerShell displays them that way, though it will accept forward slashes perfectly well.
+What it does differently, and what will bite. `ls`, `cat` and `pwd` exist there as aliases for its own commands, and they mostly do what a POSIX user expects right up until they don't. Because the pipeline carries objects, the text-filtering habits lesson 6 teaches don't transfer. Windows writes paths with backslashes and PowerShell displays them that way, though it will accept forward slashes in its own commands, which is not the same as every program you call from it accepting them.
 
 The middle case is the one that costs you. Some POSIX-shaped input fails loudly and helpfully: `grep` and `touch` simply aren't there, and PowerShell says so. The trouble is the command that half works. `ls` runs, prints something that looks near enough right, and hands the next command objects rather than lines, so a pipeline copied from a tutorial quietly does something you didn't ask for. A clean failure is easy to diagnose. A half-success isn't, and that is the reason this course asks Windows learners to install a bash rather than adapt.
 :::
@@ -233,7 +233,7 @@ This isn't a beginner's mistake that you'll grow out of. It catches everybody, a
 
 **"The terminal is a different computer."** It's a different window onto the same machine. Make a folder with the mouse, then run `ls`, and there it is. Rename it in the file browser and `ls` reports the new name. If the two windows ever disagree, one of them needs refreshing, and neither of them is lying.
 
-**"The terminal is for experts."** The curriculum this lesson leans on teaches these commands in two-day workshops to working scientists, and its stated prerequisite is that you recognise the word "file" and either "directory" or "folder".[1] That is lesson 2's entry requirement, which you already met.
+**"The terminal is for experts."** The curriculum this lesson leans on teaches these commands to working scientists who are not computer scientists, and its stated prerequisite is that you recognise the word "file" and either "directory" or "folder".[1] That is lesson 2's entry requirement, which you already met.
 
 **"Typing is faster than clicking."** For what you've done so far, it usually isn't, and I'm not going to pretend otherwise. The argument for the terminal isn't speed, and it isn't yet in front of you. Lesson 6 makes it, and it is about doing things the mouse cannot do at all.
 
@@ -289,7 +289,7 @@ If you go on to the Core's Python course in Term 6, this lesson and the next are
 
 - **[Software Carpentry, The Unix Shell](https://swcarpentry.github.io/shell-novice/)**, episodes 1 and 2. Free, CC BY licensed, and the version of this material that has been tested on the most people. If any part of this lesson went too fast, that is where to slow it down.
 - **[MIT, The Missing Semester of Your CS Education](https://missing.csail.mit.edu/)**, lecture 1. Written for computer science undergraduates, so it moves quickly and assumes you can program. Worth it once you are comfortable, and it is where lessons 5 and 6 take their scope from.
-- **[The Linux Command Line](https://linuxcommand.org/)**, free to read online. A full-length book on the shell, far past where this course stops. Named here so you know it exists; this course hasn't worked through it and makes no claim about any particular chapter.
+- **[The Linux Command Line](https://linuxcommand.org/tlcl.php)**, a full-length book on the shell, free to download as a PDF under a Creative Commons licence. It goes far past where this course stops. Named here so you know it exists; this course hasn't worked through it and makes no claim about any particular chapter.
 
 ## Sources
 

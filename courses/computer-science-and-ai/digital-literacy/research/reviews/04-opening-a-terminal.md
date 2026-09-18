@@ -112,3 +112,64 @@ inside Git Bash by this lesson will meet `python3 --version` as lesson 5's first
 will usually not have `python3` on `PATH` there, because a python.org install registers `python` and
 `py`. That is created by this lesson and belongs to lesson 5, and it is a real gap in the criterion
 outline decision 2 sets.
+
+## 2026-09-18 — Lesson 04 — second pass: neutrality and the changed facts only
+**Reviewer:** one fresh-context subagent, briefed with what each repair was for, running two passes
+rather than six. That briefing is `docs/PODCAST_PIPELINE.md` section 8's finding applied outside
+audio: a repair fails again about half the time, and telling the re-checker what the repair was for
+is what makes the second round work.
+
+**Neutrality: FAILED again, narrowly, on one sentence, and passed on everything else.**
+
+The counts, taken before reading for tone, across the whole lesson: POSIX carries four footnote
+markers and PowerShell zero, but PowerShell is no longer singled out, because the macOS zsh claim,
+the Linux shortcut claim and the POSIX rationale are also uncited, so the asymmetry is now a
+property of the lesson rather than of the disagreement. POSIX still takes the last word in both
+passages where both appear. Both sides are now *explained* rather than one explained and one
+characterised. The callout gives PowerShell 77 words against POSIX's 159, opens with PowerShell's
+"already installed", and states the object pipeline as an advantage with its mechanism. One of the
+six misconceptions admits a weakness in the course's own choice. No sneering, no loaded adjectives.
+
+The sentence that failed: **"The three free, full-length places a learner can go after this course
+... all teach these commands."** The definite article re-imported the false claim the first review
+had caught. Microsoft publishes *PowerShell 101* free and in full on Microsoft Learn, so a fourth
+door exists and it is PowerShell's. It was the one sentence carrying the whole justification for
+the choice, it was uncited, and a thoughtful PowerShell user would have rejected it while accepting
+everything in the callout.
+
+**Fact-check of the repaired passages: three minor defects, no wrong facts.**
+
+Everything else verified, executed here or against vendor documentation: PowerShell's missing
+`grep` and `touch` and their exact error; the three aliases handing objects on; Git Bash's `/c/...`
+and WSL's `/home/...` with `/mnt/c`; every WSL setup step verbatim from Microsoft; zsh's default
+since 10.15; the `ls` error text; the git-scm.com download options; gitforwindows.org's own wording;
+XFCE shipping no binding; and all three curricula teaching POSIX. Executed here: plain `ls` printed
+15 names with **zero** dot-prefixed, `ls -a` printed 54 with 39 dot-prefixed, and `ls` on an empty
+directory printed nothing. **Footnote `[1]` was checked claim by claim against the pages it names
+and all four hold**, and the side-by-side device is now attributed to nobody, so L4-01 is properly
+closed.
+
+The three minors: "accepts forward slashes perfectly well" overstates Microsoft's own wording, which
+warns that native applications called from PowerShell may not accept them, and dropping that caveat
+inside a callout whose point is that half-working is the dangerous case was the wrong place to drop
+it; "two-day workshops" carried `[1]` while none of the three pages that footnote names states the
+format, which is the same defect class as L4-01 at low severity; and linuxcommand.org was described
+as "free to read online" when what is free there is the tutorials and a PDF download of the book.
+
+**Resolutions applied, same day:** all four. The exhaustiveness claim is now "the three free,
+full-length courses this one points you to next", and the lesson says in the same breath that
+PowerShell has free full-length material of its own published by Microsoft, so the choice is stated
+as a choice about which door this course walks you through. The forward-slash caveat is restored.
+"Two-day workshops" is gone from both places, replaced by what the cited pages actually support.
+The book is now linked at its PDF page and described as a free download under a Creative Commons
+licence.
+
+**Status after second pass:** clean. Neutrality passes on the lesson as it now stands, and nothing
+outstanding is a fact error.
+
+**Worth carrying forward, and it is the sharpest thing either review found.** The first review
+caught an overclaim; the fix rewrote the sentence and **put the same overclaim back in a different
+grammatical form**, this time carried by a definite article rather than by the word "every". A
+repair is new text and gets no credit for being a repair. This is the same finding
+`docs/PODCAST_PIPELINE.md` section 8 records about script repairs, arriving independently in
+lesson review, which is a reason to believe it.
