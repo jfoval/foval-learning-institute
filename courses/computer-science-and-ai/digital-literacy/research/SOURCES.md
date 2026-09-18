@@ -605,7 +605,13 @@ here; it came from vendor material and is withdrawn.** What CISA does say, verba
 useful thing and the thing a lesson should teach:
 
 > "It is important that backups are maintained offline, as many ransomware variants attempt to find
-> and subsequently delete or encrypt accessible backups."
+> and subsequently delete or encrypt accessible backups to make restoration impossible unless the
+> ransom is paid."
+
+**The last clause was dropped when this entry was first written on 2026-09-18 and the result was
+labelled verbatim.** Lesson 12's Stage 4 reviewer caught it and re-fetched the page; so did I. The
+trimmed clause is not adverse, which is why it was easy to miss, and it is the better teaching
+because it names the motive. Restored the same day.
 
 That is the mechanism, and it is about **reachability rather than renaming**: a copy the machine can
 write to is a copy the thing on the machine can destroy, which is exactly the property decision 4
