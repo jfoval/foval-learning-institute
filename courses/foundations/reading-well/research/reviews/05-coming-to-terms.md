@@ -94,3 +94,60 @@ nothing for this course, `npm run minutes` measures 105 against a declared 105. 
 longest in the course, and the length is in what it asks the reader to do rather than in its prose:
 4,586 words is 33 minutes, and the rest is a chapter read properly and a second pass over its first
 chapter.
+
+## 2026-09-18 — Lesson 05 — targeted re-check after the first pass's repairs, Tier A
+**Reviewer:** fresh-context subagent, re-checking only the passages the first review caused to be
+rewritten. Verdict: **three of the six repairs broke something**, which is the rate this project has
+come to expect, and the pattern was the same one the first review named: description drifting off the
+text, arriving again inside the repair.
+
+**Findings:**
+
+1. [critical] **The wrinkle repair over-corrected.** It said "Darwin is consistent" and "The mistake
+   is entirely yours". Darwin personifies natural selection as an agent in the same first edition and
+   in the chapters the reader is being sent into: it "is a power incessantly ready for action", and
+   in chapter 4 it is "daily and hourly scrutinising, throughout the world, every variation, even the
+   slightest; rejecting that which is bad, preserving and adding up all that is good". A reader who
+   carries a chooser into chapter 4 is not doing it unaided. **Worse, the lesson contradicted itself
+   twenty-six lines apart**: the rule 5 section teaches that Darwin bundles several senses and slides
+   between them, and calls finding that the rule's most valuable output; the wrinkle section then said
+   he is consistent and the fault is entirely the reader's.
+2. [high] Objective 3 still said "name the premise the author left buried" while the checkpoint it
+   describes now says the premise is not missing but misplaced.
+3. [high] "Adler states these four for a whole book" had lost its antecedent across an inserted
+   section, and was wrong anyway, since Adler states all the rules for a whole book.
+4. [high] "four rules" meant three different things in three places, and rule 4 was listed and never
+   taught.
+5. [high] Quiz item 2's distractor A, a figure for how many cars are actually driven, is a defensible
+   second answer, since rising ownership entails nothing about congestion if the cars are not driven.
+6. [high] **The declared 105 minutes was not honest even though the tool agreed with it.** The model
+   caps a block's self-declared duration at 30, so a stated 45 minutes was priced at 30, and the
+   six-thousand-word chapter of Darwin the lesson requires is body prose and costs the model nothing.
+   The honest figure is about 150.
+7. [medium] Footnote 3 was still scoped to "chapters 3 and 4" after chapter 1 material was added to
+   it; "Chapter 1 is about breeders" misdescribes a chapter whose selection material is its last
+   third, and named gooseberries, which occur twice, over pears, which occur thirty-two times; the
+   pears quotation dropped Darwin's own hedge, "in some small degree"; the predict answer said
+   chapter 1 shows "a chooser without a purpose" when the pointer breeder has a stated purpose and
+   lacks only the intention to alter the breed; the food-supply sentence was called "the premise" when
+   it gives a ceiling and turns against itself at the semicolon; a cross-reference attributed a phrase
+   to the lesson's own step 3 rather than to Darwin's third sentence; and the invented illustrations
+   carried chapter numbers and page counts that read as descriptions of real books.
+8. [low] "an economist's efficiency" used twice fifty-six lines apart; the checks admission is at the
+   head of its section rather than in the middle; the lesson 9 forward reference was an unfootnoted
+   empirical claim; one surviving "here is" opener.
+
+**Resolutions:** all applied. Finding 1 in the reviewer's own wording, which keeps the teaching point
+and makes it truer: the announcement was made, it was one sentence long, the author's own prose
+worked against it, and what is still the reader's is settling a term from part of one chapter without
+writing it down. Finding 4 was fixed the expensive way rather than the cheap one, by actually
+teaching rule 4 from Darwin's own statement of his problem in the chapter's first paragraph, so the
+objective's "four structural rules" is now true. Finding 6 was fixed through the mechanism
+`scripts/reading-time.mjs` already provides for exactly this: an `EXCEPTIONS` entry with the reason,
+and `minutes: 150`.
+
+**Status after review:** clean, no third pass. The reviewer's conditions were that finding 1's
+replacement be read in place against the rule 5 section to confirm the two now agree, which it does,
+and that finding 6 be decided rather than reviewed, which it has been. `npm run validate` exits 0,
+`npm run quiz` reports nothing for this course, `npm run minutes` keeps the declared 150 with its
+recorded reason.

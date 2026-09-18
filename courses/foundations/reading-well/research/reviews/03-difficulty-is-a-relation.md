@@ -132,3 +132,95 @@ back in its own proposed fix.
 wrong facts and `/review-lesson` calls for one after wrong facts are repaired. `npm run validate`
 exits 0, `npm run quiz` reports nothing for this course, `npm run minutes` measures 50 against a
 declared 50.
+
+## 2026-09-18 — Lesson 03 — second pass after wrong facts, Tier A
+**Reviewer:** fresh-context subagent, against the live Hansard record, Crossref, Semantic Scholar,
+the History of Parliament Trust, the SPDX text of the Open Parliament Licence, and the four sibling
+lessons. Verdict: every mechanical check clean, the blockquote verbatim, all four RRQ phrases exact,
+the author names right, and **three critical findings, one of which is the first review's finding 6
+arriving again in a subtler form.**
+
+**Findings:**
+
+1. [critical] **The new opener repeated the defect it was written to cure.** The lesson said no word
+   in the Hansard passage is "a technical word wearing ordinary clothes, the way *slip* and *over*
+   are in cricket writing", over a word list of single words: "Notice, taken, present, counted,
+   adjourned". But "Notice taken" and "House counted" are the formal names of a procedure. A count
+   required a member to rise and catch the Speaker's eye, strangers to withdraw, a two-minute glass
+   to be turned, and the Speaker then to count. *Counted* there does not mean counted. **The word
+   list concealed it exactly as the cricket list concealed off-spinner and leg slip, by splitting
+   two-word terms of art into single ordinary words**, and the lesson conceded the point five lines
+   later in its own bullet, as the cricket paragraph had conceded it forty-four lines later. The
+   surviving cricket comparison was itself unglossed jargon in a lesson whose reader has never been
+   shown a cricket example.
+2. [critical] **Both licensing claims in the Sources note were wrong.** The Historic Hansard index
+   states that material on the site remains under Parliamentary Copyright, so the lesson's claim that
+   parliamentary copyright had expired was contradicted by the source it cited, and was a category
+   error besides: statutory parliamentary copyright was created by the 1988 Act and covers material
+   made from August 1989, while pre-1909 Hansard was produced by a private publisher. The Open
+   Parliament Licence claim was asserted with no evidence and with no link to the licence, which the
+   licence itself asks for. The quotation is safe. Only the justification was wrong.
+3. [critical] **The repair of the first review's finding 3 promoted a background clause to "the best
+   evidence available".** The reviewers' "widely documented for decades" is the subordinate clause of
+   a concessive opener, the standard move that sets up a paper's contribution. It cites nothing and
+   names no study. The first review's complaint was that the claim had no source; the repair did not
+   find one. Quiz item 3's explain also asserted "the wider claim rests on many other lines of
+   evidence", which the lesson nowhere supports.
+4. [high] **The fact that most changes how the evening reads was one click away.** The page before
+   this one reads "And it being now Seven of the clock, the House suspended its sitting. The House
+   resumed its sitting at Nine of the clock." A thin House ten minutes after a dinner suspension is
+   the ordinary setting for a count-out, and omitting it while keeping a bullet that said notice is
+   "usually" taken by someone wanting the debate stopped is fairness failing at selection.
+5. [high] "wrong in every part that matters", of the newcomer's reading. Every sentence of that
+   reading is true. What the newcomer lacks is the significance. This is the first review's finding 7
+   in new clothes.
+6. [high] The Go deeper hand-off still named the wrong lessons. Highlighting is in How to Learn
+   Anything's lessons 1, 2 and 6; the repair had written "1, 2 and 3", and lesson 3 of that course
+   does not contain the word.
+7. [high] Three of six bullets stated as fact things the reviewer could not confirm: that a member
+   taking notice is "usually" one who wants the debate stopped, that "everything else on the paper
+   that night died with it" (the record reports only what was reached, so the page cannot show it),
+   and that such a motion "rarely gets another night" as a general claim.
+8. [high] The syntax peel misdescribed its own sentence, saying the missing word was "held back until
+   the end" when it is behind you, in *believed sufficient*, dropped as a repeated complement.
+9. [medium] The second-language callout asserted four things about second-language reading and then
+   said the course has no research on it; the bond checkpoint's definition of duration in fact gets a
+   reader part of the way, so "exactly where you were" was wrong; the invented legal sentence carries
+   *clause* and *schedule* as legal usages in a lesson that had just made "no technical words" its
+   opening move; quiz item 2's explain rejected a true distractor on a false reason; "the room was
+   empty" over a record that says fewer than forty; the figure's top block is a statement while the
+   body calls it a question; the Connections paragraph hung this lesson's claim on lesson 4's
+   between-adults spread rather than on lesson 4's own three-text exercise, which is the right
+   evidence; "In 2025" attached the year to the reviewing rather than to the issue; and a gloss on
+   what the reviewers' quoted phrase means was presented as their argument.
+10. [low] The Hansard section title had its em dash silently swapped for a comma inside quotation
+    marks; the motion summary dropped "to amend the same" and "if possible"; the lesson gave two
+    different budgets for one survey; "the entire remaining record of that evening" is true of the
+    Commons and the Lords also sat; "a domain with no history in it at all" reads as a claim about
+    bond markets.
+11. [medium] **The lesson has never had a neutrality audit and now needs one.** `course.yaml` sets
+    `sensitive_domain: false` and then says individual lessons drawing examples from history,
+    religion or politics still get the audit. This one now opens on a Victorian parliamentary
+    manoeuvre, attributes a motive pattern, and called the outcome "shocking".
+
+**Resolutions:** all applied, in the reviewer's own wording where it gave any.
+
+Three are worth recording beyond "fixed". **Finding 1** was repaired by admitting the thing rather
+than hiding it: the lesson now names "Notice taken" and "House counted" as terms of art in its sixth
+paragraph and says that being unable to tell from the words is the point rather than an exception to
+it, and the later paragraph no longer claims the swap as a clean win. That is a better lesson than
+either the cricket version or the version this review found. **Finding 3** was repaired by saying out
+loud what the warrant is worth: a background clause in an abstract, pointing at a literature this
+course has not read, which tells you the people closest to the critique do not think it touches the
+wider claim and does not tell you how strong that claim is. **Finding 7's** frequency claims were
+either hedged or replaced with what the record shows, and the adjournment evidence was then verified
+here rather than taken from the review: every Commons sitting in June 1875 was read off the site one
+at a time, and thirteen adjourned after midnight, the latest on 17 June at a quarter past three in
+the morning, with the Wednesday sittings ending around six in the evening by convention. The
+seven-o'clock suspension and nine-o'clock resumption were read from the page itself.
+
+**Status after review:** a **neutrality audit is out** and is required before publish under
+`courses/CLAUDE.md` rule 6. No third full pass, because every finding here was local and the
+reviewer said so; if the opener is rewritten again rather than patched, the wrong-facts trigger fires
+and a third pass is owed. `npm run validate` exits 0, `npm run quiz` reports nothing for this course,
+`npm run minutes` measures 55 against a declared 50, inside precision.

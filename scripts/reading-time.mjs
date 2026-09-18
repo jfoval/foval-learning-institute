@@ -88,6 +88,8 @@ function exerciseCost(block) {
 const EXCEPTIONS = {
   "courses/christian-studies/bible-basics/lessons/12-method-tools-plan.md":
     "asks the reader to read three whole books of the Bible and write a fortnight's study plan",
+  "courses/foundations/reading-well/lessons/05-coming-to-terms.md":
+    "asks the reader to read a six-thousand-word chapter of Darwin alongside the lesson, which is body prose and so costs the model nothing, and states 45 minutes for an exercise the stated-minutes cap prices at 30",
 };
 
 const round5 = (n) => Math.max(5, Math.round(n / 5) * 5);

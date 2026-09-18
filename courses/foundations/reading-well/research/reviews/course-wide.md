@@ -98,3 +98,48 @@ Lessons 3 and 4 both shipped with every answer at index 1 and the correct option
 every item, which is a quiz a reader can pass without opening the lesson. Both are fixed and
 `npm run quiz` now reports nothing for this course. **Run `npm run quiz` before the review, not
 after it**: it takes a second and it takes a whole class of finding off the reviewer's plate.
+
+## 2026-09-18 — Three more patterns, from the second passes
+
+### 6. A repair breaks something about half the time, and it breaks it the same way
+
+Lesson 3's second pass and lesson 5's targeted re-check both found that the fixes had introduced new
+defects, and both times the new defect was a **subtler instance of the very thing the fix was for**.
+
+Lesson 3's opener was replaced because the cricket paragraph leaned on jargon while claiming not to.
+The replacement claimed no technical word in a Hansard passage whose two load-bearing phrases,
+"Notice taken" and "House counted", are the formal names of a procedure, and hid it the same way: by
+listing single ordinary words where the term of art is two words long.
+
+Lesson 5's wrinkle was corrected because it blamed Darwin for a change of sense he did not make. The
+correction then said Darwin is consistent and "the mistake is entirely yours", in a first edition
+where natural selection is "a power incessantly ready for action" and is "daily and hourly
+scrutinising ... rejecting that which is bad". It also contradicted, twenty-six lines apart, the
+lesson's own section teaching that Darwin bundles several senses and slides between them.
+
+**So: re-check every repair in a fresh context, and tell the reviewer what the repair was for.** The
+useful instruction is not "check this again" but "this passage was rewritten to fix X; check whether
+it now does X in a subtler way".
+
+### 7. This drafter quotes accurately and describes carelessly
+
+Every quotation in lessons 3 and 5 was verbatim, character for character, across two full passes and
+two re-checks. Every critical finding in both was a sentence with no quotation marks in it: a chapter
+described by the wrong subject, a sentence placed in the wrong paragraph, a page count off by half, a
+premise called absent that the author states four pages on, a frequency claim about Victorian members
+that no source carries, and a licence asserted against the source's own copyright page.
+
+**Point a review at the sentences with no quotation marks in them, and give it the source text.** A
+reviewer who checks only the lesson against itself cannot catch any of these.
+
+### 8. Two mechanical traps found tonight
+
+**A frontmatter break does not fail `npm run validate` on a course that is still drafting.** An
+explain containing "misses: misinformed" broke lesson 7's YAML, validate passed, and the break showed
+only in `npm run quiz`. **Run both on a draft.**
+
+**`npm run minutes` has two documented blind spots and a lesson can sit inside both.** A block's
+self-declared duration is capped at 30, and prose that tells the reader to go and read a
+six-thousand-word chapter costs the model nothing. Lesson 5 was inside both and the tool agreed with
+a figure a third too low. `scripts/reading-time.mjs` has an `EXCEPTIONS` map for exactly this and the
+script's own header says so; use it rather than accepting the tool's number.

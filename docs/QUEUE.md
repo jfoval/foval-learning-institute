@@ -23,7 +23,10 @@ Rewrite these five lines each session. Nothing else goes in this block.
   clean.** Lesson 3 has had all of its review findings applied, including the new
   opener, and its **second pass is out**, owed because the first found wrong facts. Lesson 5 has
   had its first review applied, six critical findings and all of them factual, and a **targeted
-  re-check is out**. Lesson 6 is drafted and its Stage 4 review is out. Lesson 7 is drafted and unreviewed. Next is `/draft-lesson courses/foundations/reading-well 6`, as many lessons as the
+  re-check is out**. Lesson 6 is drafted and its Stage 4 review is out, and so is lesson 7's.
+  Lesson 3 has been through its second pass and a **neutrality audit is out on it**, which
+  `courses/CLAUDE.md` rule 6 requires before publish now that its opener is a parliamentary
+  proceeding. Lesson 5 has been through its targeted re-check and is clean. Next is `/draft-lesson courses/foundations/reading-well 6`, as many lessons as the
   budget allows, after reading that course's `research/reviews/course-wide.md`.
 - **Where to look for a real example when the obvious domains all fail.** Lesson 3 needed a short
   real text in which every word is ordinary and a newcomer still cannot say what happened. Cricket,
