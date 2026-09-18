@@ -1,6 +1,7 @@
 ---
 title: "Finding your way around: what the Bible is and how it is laid out"
 minutes: 70
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/christian-studies/bible-basics/01-finding-your-way-around.mp3
 objectives:
   - Identify the section and the kind of writing of any book of the Bible from its position alone
   - Explain why the Christian Old Testament and the Jewish Tanakh hold the same books in a different order, and what each order's last word does to the reader
