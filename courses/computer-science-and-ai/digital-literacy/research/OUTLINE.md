@@ -2,6 +2,12 @@
 
 *Stage 2, 2026-09-18. Built from SOURCES.md. Thirteen lessons, a course-end test, one project.*
 
+**The per-lesson minute estimates below were guesses and they run low.** Lesson 1 was planned at 45
+and measures 115; lesson 2 at 55 and measures 100; lesson 3 at 50 and measures 125. The cause is not
+over-writing: it is that a stated exercise duration is added on top of the reading, and this course's
+convention is that every lesson has the reader do the thing on their own machine. Take
+`npm run minutes` and ignore the estimate in the heading.
+
 **What a learner already has.** `npm run taught` puts this course fifth in Term 1, after How to Learn
 Anything, Reading Well, Writing Clearly and Logic and Argument, all four written and published, 37
 lessons between them. Nothing earlier on the path is unwritten, so this course is not standing in for
@@ -141,9 +147,13 @@ numbers and the years. Then it makes the claim it can defend, which has two part
    attentiveness, and the Ho result is specifically about attentiveness.
 
 **The shape of the sentence to aim for**, so the drafter is not left to invent it: this course will
-not make you a person who never clicks the wrong thing, because over half the trained employees in
-the best-measured study clicked at least once in eight months. It will make you a person who can tell
-what happened, and who set five things up so that the click costs less.
+not make you a person who never clicks the wrong thing, because in the best-measured study we have,
+over 56% of employees clicked at least once in eight months, trained or not. It will make you a
+person who can tell what happened, and who set five things up so that the click costs less.
+
+**Do not attach that figure to trained employees alone.** The study had untrained control groups and
+the finding is about all of them. This paragraph said "over half the trained employees" until
+2026-09-18, the lesson 1 draft copied it twice, and the Stage 4 review caught it both times.
 
 Standards 2.4 asks for exactly this kind of sentence and this course gets to write it about itself.
 
@@ -266,7 +276,7 @@ of those surnames. Four of them bite this outline directly:
 
 ## Lesson sequence
 
-### 1. What you are up against, and what this course can honestly do (~45 min)
+### 1. What you are up against, and what this course can honestly do (~115 min as written)
 
 - **Objectives:** explain what the evidence says technical understanding does and does not predict
   about protective behaviour; build a threat model for yourself naming what you have, who would want

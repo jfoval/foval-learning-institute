@@ -21,11 +21,12 @@ and it never feels that way while you are writing it.
 
 Rewrite these five lines each session. Nothing else goes in this block.
 
-- **Current course:** **Digital Literacy.** Stages 1 and 2 are done. **Next is
-  `/draft-lesson courses/computer-science-and-ai/digital-literacy 1`.** Read the outline's
-  **"Six decisions this outline settles"** before drafting anything: it settles the shell, lesson
-  1's honesty about the course's own premise, what the backup lesson may claim, dating every
-  figure, and that the course teaches the desktop model.
+- **Current course:** **Digital Literacy.** Stages 1 and 2 are done and drafting is under way.
+  `npm run state` names the next lesson. Read the outline's **"Six decisions this outline settles"**
+  before drafting anything: it settles the shell, lesson 1's honesty about the course's own premise,
+  what the backup lesson may claim, dating every figure, and that the course teaches the desktop
+  model. **The outline's per-lesson minute estimates run low by a factor of two**; take
+  `npm run minutes` and ignore the heading.
 - **Every published course is written.** Nothing on any live course is outstanding except
   episodes. Reading Well was the last, on 2026-09-19.
 - **Before drafting anything:** `npm run taught <course>`. It prints every objective a learner has
