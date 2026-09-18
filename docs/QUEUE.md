@@ -28,6 +28,24 @@ Rewrite these five lines each session. Nothing else goes in this block.
   were being used as though it had, and the same defect came back in lesson 9. Check
   `npm run taught` and the earlier lessons before assuming a word is available.
 
+- **Both assessments are written, so lesson 13 is now the whole of what is left.** The machine
+  audit and a 32-item course-end test are in `assessments/`, and the test carries a note saying
+  lesson 13's two items are still to come. Nothing else on this course is outstanding.
+
+  **The outline's test blueprint disagrees with itself and the disagreement is resolved in the
+  table's favour.** Its heading says twenty-six items; its own per-area table sums to thirty-three.
+  The table is where somebody reasoned area by area, so it won, less lesson 13's two, plus the
+  dating item the outline requires and the table has no row for. **Whoever drafts lesson 13 adds
+  its two items and can then correct the heading.**
+
+  **The project's Stage 4 review is worth reading before the next assessment anybody writes**, and
+  the finding generalises past this file. A drafter working from lesson *objectives* rather than
+  lesson *bodies* produces something that is structurally right and factually wrong in a way that
+  looks fine: it named the wrong five questions from lesson 1, halved eight folk models to five,
+  and instructed the learner to explain lesson 7's one blind party with encryption, which lesson 7
+  spends a whole predict block ruling out. None of that is visible without the lesson open.
+  **Objectives are an index, not a source.**
+
 - **The app-store Stage 1 gap is closed, on 2026-09-18.** Seven sources are now under lesson 9's
   app-store column, and three new misconceptions came out of them. `docs/CHANGELOG.md` has it. The
   one figure worth carrying forward into any lesson that touches install routes: Kotzias et al.
