@@ -1,3 +1,15 @@
+> **Superseded, and kept only as history. Do not act on anything below.**
+> This memo's recommendation lost twice: to Gemini 3.1 Flash TTS on fal on 2026-09-08, and then to
+> **Gemini 2.5 Pro TTS on Google's own API on 2026-09-18**, which is the settled method. The
+> operating manual is `docs/PODCAST_PIPELINE.md`; what is settled is `docs/DECISIONS.md` section 7.
+> The comparison tool this memo describes, `scripts/podcast-compare.mjs`, was deleted on 2026-09-18
+> because it named two retired engines and read a key the project no longer uses; it is in git
+> history if the bake-off is ever worth re-running.
+>
+> It is worth reading for one thing only: the general lesson it got wrong. It reasoned from what
+> each model was *built for* and from reviews, and every one of those conclusions lost to a single
+> listen. Reviews and architecture pick which candidates to render; ears decide.
+
 # A podcast for every lesson: what is actually possible now
 
 *Written 2026-09-06 for John. Rewritten the same day after he asked me to look harder at the

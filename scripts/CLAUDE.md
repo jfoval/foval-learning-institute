@@ -18,7 +18,6 @@ compile step anywhere in this repo.
 | `net-quotes.mjs` | `net` | Fetches NET Bible verses for quotation (standards 4.7) |
 | `text-width.mjs` | — | Arial advance widths for the SVG overflow check; imported by `build.mjs` |
 | `mailstub.mjs` | — | Local stand-in for the accounts Worker's email sender, for `workers/api/test.mjs` |
-| `podcast-compare.mjs` | — | Historical: the 2026-09-06 TTS bake-off, written for fal. Superseded, not run |
 | `tests/` | `test` | `node --test`: fixtures that must fail each lint, and a renderer snapshot |
 
 `npm run validate` is `core-path.mjs` then `build.mjs --check`. Run it before every commit.
@@ -103,7 +102,7 @@ runs is not a check**, which is why both quiz scripts now have an `npm` name.
 - Every message says the file, what is wrong, and what to do about it. Several name the rule they
   come from, which is the point of writing them as checks.
 - Secrets live in `.env.local`, which is git-ignored. `podcast.mjs` reads `GEMINI_API_KEY` from it.
-  `FAL_KEY` is left over from the old engine and is no longer used for audio.
+  Any `FAL_KEY` still in that file is left over from a retired engine and is read by nothing.
 - **`podcast.mjs`'s guards are deliberate and cost about $25 to learn. Do not loosen them, and
   never wrap a render in a retry loop.** The rules and the reasoning are in
   `docs/PODCAST_PIPELINE.md` section 4: never send `temperature` or `seed` (either returns billed
