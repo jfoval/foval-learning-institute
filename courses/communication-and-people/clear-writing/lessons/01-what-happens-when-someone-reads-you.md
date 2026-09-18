@@ -68,7 +68,7 @@ Start with the one measurement of ordinary reading that most writers have heard 
 
 In 2008 Jakob Nielsen published [an analysis of how little people read online](https://www.nngroup.com/articles/how-little-do-users-read/). The underlying data came from a study by Weinreich and colleagues, who "instrumented 25 users' browsers and recorded extended information about everything they did" as those people went about their normal web use. After cleaning, the analysis covered 45,237 page views. That isn't a laboratory task; it's a record of people doing whatever they were already doing.
 
-Two numbers came out of it. A page visit takes about **25 seconds** whatever is on the page, and each additional 100 words adds about **4.4 seconds**. Be careful with the first number: Nielsen's own reading of it is that "people spend some of their time understanding the page layout and navigation features, as well as looking at the images." The 25 seconds isn't reading. It's arriving.
+Two numbers came out of it. A page visit takes about 25 seconds whatever is on the page, and each additional 100 words adds about 4.4 seconds. Be careful with the first number: Nielsen's own reading of it is that "people spend some of their time understanding the page layout and navigation features, as well as looking at the images." The 25 seconds isn't reading. It's arriving.
 
 :::predict A page ten times as long gets how much more attention: ten times, twice, or about the same?
 Nowhere near ten times. Take the 25 seconds off, since it goes on the page rather than the words, and what's left is 4.4 seconds per hundred words. Nielsen assumed his readers managed 250 words a minute, which is 24 seconds per hundred. So each extra hundred words gets under a fifth of the time it would take to read. A page ten times as long gets roughly twice the total attention, most of it still the arrival cost, and the shortfall grows with every paragraph rather than staying put.
@@ -80,7 +80,7 @@ Nielsen worked through what that means for the page his readers actually met, wh
 
 Put the two rates on the same axes and the finding stops being a slogan.
 
-One line is the time a reader would **need** in order to read every word, at 250 words a minute. The other is the time the reader actually **gives**: 25 seconds, plus 4.4 seconds per 100 words. Both come straight out of the numbers above.
+One line is the time a reader would need to read every word, at 250 words a minute. The other is the time the reader actually gives: 25 seconds, plus 4.4 seconds per 100 words. Both come straight out of the numbers above.
 
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 300" width="100%" style="max-width:420px;display:block;margin:1.5em auto;font-family:system-ui,sans-serif" role="img" aria-labelledby="budget-title budget-desc">
 <title id="budget-title">Time a reader needs, against time a reader gives</title>
@@ -105,9 +105,15 @@ One line is the time a reader would **need** in order to read every word, at 250
 <text x="56" y="78" font-size="15" fill="var(--text-2, #4a5260)">seconds</text>
 </svg>
 
-The lines never meet again once they part, and they part almost at once. Run the arithmetic on the landlord's email from the top of this lesson, which is 900 words. Time given: 25 seconds, plus 4.4 for each of nine hundreds, which is 25 + 39.6, call it 65 seconds. Time needed at 250 words a minute: 900 divided by 250 is 3.6 minutes, which is 216 seconds. Sixty-five over 216 is 30 percent, and that's the ceiling, before a single second goes on working out where the paragraphs start. Something like a fifth of that email is what a reader who hasn't yet decided it matters will actually take in. The date was in paragraph six.
+The lines never meet again once they part, and they part almost at once. Let's run the arithmetic on the landlord's email from the top of this lesson, which is 900 words. I'll do the first half. Time given: 25 seconds, plus 4.4 for each of nine hundreds, which is 25 + 39.6, call it 65 seconds.
 
-**Past the first hundred words or so, you aren't deciding whether the reader misses something. You're deciding what.** A landlord who buries a date in paragraph six has made that decision without noticing.
+Now you do the second half before you open the answer. How long would that email take to read in full at 250 words a minute, and what share of it does 65 seconds buy?
+
+:::checkpoint Time needed for 900 words at 250 words a minute, and the share 65 seconds covers?
+Nine hundred divided by 250 is 3.6 minutes, which is 216 seconds. Sixty-five over 216 is 30 percent, and that's the ceiling, before a single second goes on working out where the paragraphs start. Something like a fifth of that email is what a reader who hasn't yet decided it matters will actually take in. The date was in paragraph six.
+:::
+
+Past the first hundred words or so, you aren't deciding whether the reader misses something. You're deciding what. A landlord who buries a date in paragraph six has made that decision without noticing.
 
 :::callout Where these lines come from
 The 25 seconds and the 4.4 seconds are Nielsen's, from the browsing data. The 250 words a minute is also his, and he's explicit that it's generous: "Usually, I assume a reading speed of 200 words per minute (WPM), but because the users in this study are highly literate, I'll go with 250 WPM." At 200 words a minute the red line is steeper and the gap wider. The shape doesn't change, and the shape is the point.
@@ -119,20 +125,20 @@ The quotation usually stops before the caveats, and leaving them out turns a use
 
 Nielsen says two things about his own data that limit it. The participants "had above-average intelligence, with several being university employees." And he treated the very long pages in the data as beside the point: "Pages with a huge word count are probably not 'real' pages anyway," he wrote, more likely academic papers or terms and conditions than pages anyone was reading as a page.
 
-So the finding is about **capable people skimming ordinary web pages.** It isn't a law about reading.
+So the finding is about capable people skimming ordinary web pages. It isn't a law about reading.
 
 Think about how differently the same person reads in a single day. They skim a news page over breakfast and take in a fifth of it. Then a letter arrives from the hospital about their mother, and they read every word of it twice, then read it again to someone on the phone. Same reader, same eyes. What changed is that the second document was about something they needed.
 
-This isn't a hole in the research. It's the research telling you what question it answered. The right use of the 20 percent figure is as a **default assumption for a reader who has not yet decided your document matters to them**, which describes most documents most of the time. The wrong use is cutting a surgical consent form to two sentences.
+This isn't a hole in the research. It's the research telling you what question it answered. The right use of the 20 percent figure is as a default assumption for a reader who hasn't yet decided your document matters to them, which describes most documents most of the time. The wrong use is cutting a surgical consent form to two sentences.
 
 :::checkpoint Which of these should you plan for using the 20 percent assumption, and which should you not?
-An internal announcement about a change to the expenses system: **use it.** Nobody woke up wanting to read this, and it competes with everything else in the inbox.
+An internal announcement about a change to the expenses system: use it. Nobody woke up wanting to read this, and it competes with everything else in the inbox.
 
-A letter telling someone their benefit claim has been refused and how to appeal: **don't use it.** This reader will read every word, several times, possibly while distressed. Length isn't the enemy here; ambiguity is, and so is making them hunt for the deadline.
+A letter telling someone their benefit claim has been refused and how to appeal: don't use it. This reader will read every word, several times, possibly while distressed. Length isn't the enemy here; ambiguity is, and so is making them hunt for the deadline.
 
-A product page for a kettle: **use it.** Classic skimming, and the reader is comparing rather than reading.
+A product page for a kettle: use it. Classic skimming, and the reader is comparing rather than reading.
 
-The instructions on a fire door: **neither.** Nobody is reading this at all until the moment they are, and then they need one instruction they can take in at a glance. That's a design problem before it's a writing problem, which is lesson 7.
+The instructions on a fire door: neither. Nobody is reading this at all until the moment they are, and then they need one instruction they can take in at a glance. That's a design problem before it's a writing problem, which is lesson 7.
 :::
 
 ## Who the document is actually for
@@ -141,7 +147,7 @@ The reading budget tells you that you have less room than you thought. It doesn'
 
 "Residents of the borough" is a category. It can't change a single sentence of your letter. Compare it with: *people who owe the new charge, who need to know by when, and what happens if they can't pay.* That version tells you what the first paragraph is, what the second paragraph is, and what can be cut.
 
-The test for whether you've named your audience properly is simple. **If knowing the answer wouldn't change a sentence, you haven't answered it.**
+The test for whether you've named your audience properly is simple. If knowing the answer wouldn't change a sentence, you haven't answered it.
 
 Two failures come up so often they feel like normal practice.
 
@@ -149,25 +155,33 @@ The first is writing for the approver. A great many documents are shaped by what
 
 The second is writing for yourself six months ago. It's hard to remember not knowing something. You write "submit form CT2 by the deadline" because you know what CT2 is and when the deadline is, and the sentence looks complete to you because your own knowledge quietly fills the gaps as you reread it. This is why rereading your own work is such a poor test of whether it's clear, and it's why this course ends with getting an actual other person to tell you what they think it said.
 
+:::checkpoint "Submit form CT2 by the deadline" looked complete to the person who wrote it. What did their own knowledge fill in that the reader's can't?
+Two things: what CT2 is, and when the deadline is. The writer knows both, so the sentence reads as finished to them. A reader meeting it cold has to go and find out both before they can act, which means most of them won't. The fix isn't a longer sentence for its own sake. It's the sentence the reader needs: what the form is called, where to get it, and the date.
+:::
+
 ## Plain does not mean simple, and it is not optional
 
 There's a suspicion that writing plainly is a kind of condescension, that it means writing down to people. It needs answering, because it stops good writers from doing the thing that would help most.
 
-The UK government publishes its writing standards in the open. [Its guidance on clear language](https://guidance.publishing.service.gov.uk/writing-to-gov-uk-standards/writing-guidelines/clear-language/) gives a reason for the policy that isn't about elegance at all: **"1 in 6 adults in England have very poor literacy skills."** For a government, writing a form that a sixth of the population can't use isn't a stylistic failure. It's a failure to deliver the service.
+The UK government publishes its writing standards in the open. [Its guidance on clear language](https://guidance.publishing.service.gov.uk/writing-to-gov-uk-standards/writing-guidelines/clear-language/) gives a reason for the policy that isn't about elegance at all: "1 in 6 adults in England have very poor literacy skills." For a government, writing a form that a sixth of the population can't use isn't a stylistic failure. It's a failure to deliver the service.
 
-Then the same guidance answers the condescension objection directly, reporting the research behind its policy: **"people with higher levels of literacy prefer plain English because it allows them to understand the information as quickly as possible."**
+:::predict Before you read the next line, guess: do highly literate readers prefer plain English, or do they find it patronising?
+They prefer it. GOV.UK reports the research behind its policy in one sentence: "people with higher levels of literacy prefer plain English because it allows them to understand the information as quickly as possible." If you guessed the other way, you're in good company, and that guess is exactly the belief this section is here to remove.
+:::
+
+So the same guidance answers the condescension objection directly, and the answer is the one in the block above: the most capable readers want plain English because it's quicker.
 
 A specialist doesn't read your plain sentence and feel patronised. They read it, get it, and move on to the part they actually needed their expertise for. Complexity in the writing doesn't signal complexity in the thought; it just spends the reader's attention on the wrong thing.
 
 None of this is one country's taste, either. In the United States the [Plain Writing Act of 2010](https://digital.gov/guides/plain-language) "established the requirement that content for the public is written for its specific audience", and plain English is mandatory across the whole of GOV.UK. Two governments, two drafting traditions, the same conclusion.
 
-## Difficulty is not only a property of your document
+## Difficulty is partly the reader's
 
-Readability scores. You've probably been told to trust them.
+Readability scores next. You've probably been told to trust them.
 
 There's a large industry built on scoring text for reading level. Paste a page in, get a grade. The scores come from formulas that count surface features: syllables per word, words per sentence. They're quick, and they're the reason people believe difficulty is something a document has, like a word count.
 
-In 2021 Gooding, Berzak, Mak and Sharifi ran [a study of 518 readers](https://arxiv.org/abs/2105.06354) that measured how people scrolled through texts of different difficulty. Two findings matter here. Reading behaviour differs measurably with text difficulty, so a text's level is real and shows up in how people move through it. And **reader background influences both how people read and what makes a text difficult for them.**
+In 2021 Gooding, Berzak, Mak and Sharifi ran [a study of 518 readers](https://arxiv.org/abs/2105.06354) that measured how people scrolled through texts of different difficulty. Two findings matter here. Reading behaviour differs measurably with text difficulty, so a text's level is real and shows up in how people move through it. And reader background influences both how people read and what makes a text difficult for them.
 
 Put those together and difficulty is a relation between a text and a reader, not something the text carries on its own. The pension page that's transparent to someone in financial services and impenetrable to everyone else has one text, meeting different readers. Whether formulas measure anything useful is argued about, and this lesson doesn't settle it. What it does say is narrower: a formula that knows nothing about the reader can't tell you whether the reader understood. It can only tell you about syllables. You can improve a score by chopping a sentence in half at the comma and changing nothing whatever about what a reader takes away.
 
@@ -198,11 +212,11 @@ Take 25 minutes over this. Do it on something real: an email you sent, a report,
 
 3. Divide the first by the second. That's the most a distracted reader could have taken in, and the real share is lower, because some of the first 25 seconds went on the page and not the words.
 
-4. Now the part that matters. Read your own document and mark the **one sentence** you'd most want a reader to land on if they read only that share of it. Just one. Then find where it currently sits: how many words in, and how far down the screen on a phone.
+4. Now the part that matters. Read your own document and mark the one sentence you'd most want a reader to land on if they read only that share of it. Just one. Then find where it currently sits: how many words in, and how far down the screen on a phone.
 
 5. Write one line naming the reader. Not a category. Who they are, what they came needing, and what they'll do next if they understand you. Then check your line against the test in this lesson: if knowing this wouldn't change a sentence, you haven't answered it yet.
 
-**Keep this document.** It's the one you'll carry through the whole course, and it's the thing you'll hand to another person in lesson 9.
+Keep this document. It's the one you'll carry through the whole course, and it's the thing you'll hand to another person in lesson 9.
 :::
 
 ## Where this goes next
