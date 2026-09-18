@@ -12,9 +12,9 @@ through.
 
 Rewrite these five lines each session. Nothing else goes in this block.
 
-- **Current course:** Writing Clearly (Stage 4 complete; voice pass next).
-- **Current lesson:** voice pass done on lessons 1 to 8 (2026-09-17); lesson 9 is next.
-- **Current stage:** the voice pass, lesson by lesson (8 of 9 done), then nine episodes.
+- **Current course:** Writing Clearly (Stage 4 and voice pass complete; owes nine episodes).
+- **Current lesson:** none in flight. The voice pass finished on all nine on 2026-09-17.
+- **Current stage:** episodes, blocked on the Gemini key below. Content work moves to the Algebra Essentials voice pass (queue item 3) meanwhile.
 - **Blocked on:** a Google AI Studio API key from John (`GEMINI_API_KEY` in `.env.local`, billing
   enabled), so Gemini 2.5 Pro TTS and the direct API's `seed` can be tested. John heard the chunked
   Gemini 3.1 Flash render on 2026-09-17: the fade is gone, but John's voice still changes between
@@ -23,15 +23,17 @@ Rewrite these five lines each session. Nothing else goes in this block.
 - **Next action:** with the key, render Personal Finance 2 three ways for about $1: 3.1 Flash
   direct with a fixed seed, 2.5 Pro TTS as one call (Google positions Pro for podcasts and its cap
   is about eleven minutes, so a whole episode fits), and 2.5 Pro chunked with a seed. Profile each
-  and send John the ones that hold. Nothing is uploaded until he approves one by ear. The Writing
-  Clearly voice pass (`/voice-pass courses/communication-and-people/clear-writing 1`) runs alongside.
+  and send John the ones that hold. Nothing is uploaded until he approves one by ear. The Algebra
+  Essentials voice pass (`/voice-pass courses/mathematics/algebra-essentials 1`) runs alongside.
 
 ## The queue, top to bottom
 
 A course is done when every lesson is at standard **and** every lesson has an episode. `npm run
 validate` enforces the second half against `curriculum/audio-debt.yaml`, which only shrinks.
 
-1. **Writing Clearly: the voice pass on all nine lessons, then its nine episodes.**
+1. **Writing Clearly: its nine episodes.** The voice pass finished 2026-09-17 on all nine, and was
+   light: see the changelog for what it found and for the proposal to fold the voice checks into
+   Stage 4 from Algebra onwards. Blocked on the key below; scripts can be written without it.
    **Stage 4 finished 2026-09-11.** All nine lessons went through it on 10 and 11 September and all
    nine were largely rewritten. What it found, across the nine, is in
    `research/reviews/course-wide.md` and is worth reading before the voice pass touches anything:
@@ -41,8 +43,6 @@ validate` enforces the second half against `curriculum/audio-debt.yaml`, which o
    three lessons that got their own counts wrong; and two lessons that failed the neutrality pass
    on selection rather than on any false sentence.
    The lessons now average 4,700 words against 3,676 before, and every `minutes:` is measured.
-   **The voice pass should be light.** Six of the nine had a contraction pass during Stage 4 and
-   read in the Foval voice already; check the think-blocks and the openings rather than rewriting.
 
 2. **Re-render the fourteen live episodes chunked, then the 47 owed.** Every episode rendered before
    2026-09-17 fades and loses John's voice by the end; the cause and the fix are in

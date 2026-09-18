@@ -11,6 +11,35 @@ Older entries refer to `docs/BACKLOG.md`, which was split on 2026-09-09 into `do
 unstarted work) and this file. Its section numbers survive only in those entries and in a few
 split-seam comments inside Bible Basics lessons, which point at `docs/DECISIONS.md` §5.
 
+## 2026-09-17 — Writing Clearly: the voice pass on all nine lessons
+
+All nine lessons went through `/voice-pass` in one session, one commit each. It was as light as
+the queue predicted, and lighter. Not one em dash, and across nine lessons the banned-word search
+found four hits outside quotations (one "worth noting", one "not just", two "not only"), which is
+what Stage 4's contraction and voice rewrites had already bought. No fact, figure, citation or quiz
+item changed. What the pass did do:
+
+- **Unbolded every emphasis that was not a key term.** Quotations carried added bold in seven
+  lessons, and single "moral" sentences were bolded in most; both are what the style guide calls
+  formatting as a substitute for writing. Key terms (topic position, nominalisation, description
+  and prohibition) and structural labels (the six kinds, the misconception headings) keep theirs.
+- **Added sixteen think-while-reading blocks**, always from content already in the lesson: nine
+  checkpoints, five predicts, and in six lessons a gap opened in a worked example so the reader does
+  the next step before it is shown (the landlord's email arithmetic, the rewritten launch email's
+  first sentence, the last two rows of the diagnosis table, the supplier sentence's gap count, the
+  fire-door sentence turned round, the cut-by-cut table's first sentence, the shaped consultation
+  note, the council tax diagnosis).
+- **Lesson 9's `minutes:` was 50 against a measured 85** and is now 85. The other eight were within
+  precision.
+
+**What this says about the pipeline.** The third pass over each lesson earned about a tenth of what
+the second did, because Stage 4's fix pass now rewrites in the Foval voice as it goes. For Algebra
+Essentials and every course after it, the voice checks (em dashes, the banned list, bold, the block
+count) should run inside the Stage 4 fix pass and the separate stage should go. That is a change to
+`docs/CONTENT_PIPELINE.md` and is proposed here rather than made, since John asked today whether
+the same lessons were being worked over repeatedly. The answer was no (three touches per lesson,
+each a different stage, all in git), but the third touch is no longer worth a stage of its own.
+
 ## 2026-09-17 — The podcast fade found and fixed: episodes render in gated chunks
 
 **Every episode the institute had shipped fades.** John said the episodes start right and then a

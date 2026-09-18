@@ -1,6 +1,6 @@
 ---
 title: Revising, and finding out whether it worked
-minutes: 50
+minutes: 85
 objectives:
   - Separate revising from editing, and say what each one is for and when it happens
   - Run a paraphrase test on a page of your own writing with a real reader
@@ -74,6 +74,10 @@ These get used interchangeably, and treating them as one thing is the commonest 
 
 **Revising comes first**, and the reason is not taste. If you edit first, you'll spend an hour polishing sentences in a section you're about to cut. That work isn't merely wasted; it makes the cut harder, because nobody likes deleting a paragraph they've just perfected.
 
+:::checkpoint You have an hour with a draft, and a feeling that its third section shouldn't be there. What do you do first, and what do you leave until last?
+First, decide about the section. That's revising: what the document is for, whether the section serves it, whether the argument is in the right order. If it goes, it goes now, before you've spent any of the hour on it. Last, the sentences and the words, which is editing, and which lessons 3 to 6 taught you. Polish the third section first and you'll have made it harder to delete and spent time on prose nobody will read.
+:::
+
 Nancy Sommers made the same complaint about how the subject was taught. In her [1982 report to the National Institute of Education](https://files.eric.ed.gov/fulltext/ED220839.pdf) she examined fifteen composition textbooks and found they "yield 23 terms used synonymously with revision". What those books teach, she found, equates revision with cleanliness, "to groom, to polish, to order, and to tidy-up one's writing", and places it structurally as "that interlude after you finish writing the first draft and before you type the paper."
 
 Both halves are wrong, and between them they describe what most people actually do.
@@ -96,7 +100,7 @@ The second half is sharper still:
 
 So the neat sequence, write then revise then edit, describes neither group well. Sommers says the evidence "calls for a rejection of the linear stage theory", and proposes instead that writers "sense dissonance, tolerate dissonance, and resolve dissonance".
 
-That sits awkwardly next to this lesson's own "revise before you edit", so be clear about what each claim is for. Sommers is describing **how composing actually happens**: skilled writers don't wait for a finished draft to start revising, and their first drafts are already the product of revision. "Revise before you edit" is not a rival theory of composition. It's advice about what to do **with a draft that is already in front of you**, and its whole content is: don't polish sentences in a section you're about to cut. Those two are compatible, and holding both is the point. If you notice you're revising while drafting, you're not doing it wrong; you're doing what the experienced writers in the study did.
+That sits awkwardly next to this lesson's own "revise before you edit", so be clear about what each claim is for. Sommers is describing how composing actually happens: skilled writers don't wait for a finished draft to start revising, and their first drafts are already the product of revision. "Revise before you edit" is not a rival theory of composition. It's advice about what to do with a draft that is already in front of you, and its whole content is: don't polish sentences in a section you're about to cut. Those two are compatible, and holding both is the point. If you notice you're revising while drafting, you're not doing it wrong; you're doing what the experienced writers in the study did.
 
 :::predict Two of her subjects, in their own words. What is the difference between them?
 **Michael**, a student. He rewords when a word is "too childish" or when he has repeated it, and his "strategy is to use a thesaurus to improve the 'sophistication' and thus the appropriateness of his writing".
@@ -118,7 +122,7 @@ Use it as a description rather than a checklist. Go through a revision you have 
 
 Now the part most writing advice skips, and it is the only one that produces evidence rather than judgement.
 
-**Ask a real person what they think it says.**
+Ask a real person what they think it says.
 
 The US federal plain-language guide sets this out as [paraphrase testing](https://digital.gov/guides/plain-language/test/paraphrase-testing), and it's deliberately cheap. The guide's own scoping, which this course has read: "With only 6 to 9 participants, paraphrase testing will not take a lot of time." It's recommended for short pages and survey questions; for a long form or a whole service, the same guide points at usability testing instead, which is a bigger undertaking than this lesson teaches.
 
@@ -135,12 +139,12 @@ Steps 4 and 5 are this course's own wording rather than quotations. The guide sa
 :::callout Six to nine people, and what to do when you have one
 The guidance works with six to nine, and it's right that you learn more from six than from one: three readers making the same mistake points at a sentence, where one reader making it might be one reader.
 
-**This course's advice, and it's a judgement rather than a finding: do it with one rather than not at all.** Nothing in the guidance says one is sufficient, and this lesson isn't going to pretend otherwise. What it says is that the step people actually skip is the first one, and a single real reader will change how you write in a way that no amount of rereading will. Start with one, and get to six when the document is worth it.
+This course's advice, and it's a judgement rather than a finding: do it with one rather than not at all. Nothing in the guidance says one is sufficient, and this lesson isn't going to pretend otherwise. What it says is that the step people actually skip is the first one, and a single real reader will change how you write in a way that no amount of rereading will. Start with one, and get to six when the document is worth it.
 :::
 
 That fourth step is the one people can't do. Someone misreads your sentence, and every instinct says explain it. The moment you explain, the evidence is gone: you now have a reader who understands your document because you told them what it says, which isn't a thing you can ship.
 
-**The misreading is the finding.** It is the entire point of running the test.
+The misreading is the finding. It is the entire point of running the test.
 
 ### One test, written out
 
@@ -154,11 +158,15 @@ The reader was asked what that section meant. Her answer, written down in her wo
 
 Read that and you can see the finding, and it isn't that she failed. Her paraphrase is fluent, confident, and about eighty percent right. What she has lost is the one month, which is the only number in the passage and the thing the whole section exists to communicate. She converted a deadline into a general obligation.
 
-Now the useful question, which is not "why didn't she read it properly". **Which sentence did that?** The deadline is at the end of a twenty-word subordinate clause that opens on "If your circumstances change", so by the time she reached "within one month" she had already been holding an unresolved condition for most of the sentence. That's lesson 4. And the paragraph's stress position, the place lesson 5 says a reader puts their weight, is occupied by "a penalty may be applied", which is why the penalty survived her reading and the deadline didn't.
+Now the useful question, which is not "why didn't she read it properly". Which sentence did that? Before you read the diagnosis, look at the passage again with lessons 4 and 5 in mind and find the mechanism yourself.
+
+:::checkpoint What in the passage's construction lost the month, and what kept the penalty?
+The deadline is at the end of a twenty-word subordinate clause that opens on "If your circumstances change", so by the time she reached "within one month" she had already been holding an unresolved condition for most of the sentence. That's lesson 4. And the paragraph's stress position, the place lesson 5 says a reader puts their weight, is occupied by "a penalty may be applied", which is why the penalty survived her reading and the deadline didn't.
+:::
 
 The rewrite follows from the diagnosis rather than from taste:
 
-> **Tell us within one month if your circumstances change.** If you tell us later than that, you may have to pay back anything you were overpaid, and you may be charged a penalty.
+> Tell us within one month if your circumstances change. If you tell us later than that, you may have to pay back anything you were overpaid, and you may be charged a penalty.
 
 The deadline is now in the first six words, it's the only thing in the opening sentence, and the penalty has moved to where it belongs, which is after the thing the reader has to do.
 
@@ -169,7 +177,7 @@ You've found something real, and it isn't a writing problem. She understood the 
 
 That's worth separating carefully, because it's the commonest way a test result gets misread. If she'd misparaphrased, you'd have a sentence to fix. She didn't. What she's revealed is that the letter gives her no reason to act inside the month, and she's weighing the deadline against the effort of ringing up.
 
-Some of that is out of your hands. Some of it isn't: a sentence saying what happens to people who tell them late, with a number in it, is information the letter currently doesn't carry and she'd have used. **That's a finding about content, not about wording**, and it's the kind you only ever get by asking someone what they'd do next rather than only what the words mean.
+Some of that is out of your hands. Some of it isn't: a sentence saying what happens to people who tell them late, with a number in it, is information the letter currently doesn't carry and she'd have used. That's a finding about content, not about wording, and it's the kind you only ever get by asking someone what they'd do next rather than only what the words mean.
 :::
 
 :::checkpoint A reader paraphrases your section fluently, confidently, and wrong. Which of these is the right response, and why are the others wrong?
@@ -239,14 +247,14 @@ Allow forty minutes for this. It's the last exercise in the course and the only 
 
 6. **Fix those sentences and nothing else**, then write two or three lines recording what you learned about your own writing rather than about this document. That is the part that transfers.
 
-**If nothing needed changing, say so, and say how you know.** A test that always finds a problem is not a test. But before you record that result, check that you asked for a paraphrase and not for a verdict.
+If nothing needed changing, say so, and say how you know. A test that always finds a problem is not a test. But before you record that result, check that you asked for a paraphrase and not for a verdict.
 :::
 
 ## Where this leaves you
 
 The course ends here, and it ends deliberately with the only tool in it that does not depend on trusting the course.
 
-Everything else you have been given is a claim about readers, from research this course read for you and named so that you can check it. Lesson 8 showed you how to check a claim like that, including these ones. But paraphrase testing does something the rest cannot: it tells you about **your** writing and **your** readers, this week, and it will go on telling you long after you have forgotten which principle was number four.
+Everything else you have been given is a claim about readers, from research this course read for you and named so that you can check it. Lesson 8 showed you how to check a claim like that, including these ones. But paraphrase testing does something the rest cannot: it tells you about *your* writing and *your* readers, this week, and it will go on telling you long after you have forgotten which principle was number four.
 
 The project pulls all of it together. One real document, taken through diagnosis, rewriting and a paraphrase test, with a record of what the reader actually said, including the parts that were inconvenient.
 
@@ -259,6 +267,6 @@ The project pulls all of it together. One real document, taken through diagnosis
 
 ## Sources
 
-- Nancy Sommers, *Revision Strategies of Student Writers and Experienced Adult Writers*, report to the National Institute of Education, 12 June 1982, [ERIC ED220839](https://files.eric.ed.gov/fulltext/ED220839.pdf). The method and sample, the central finding about procedures against a codified theory, the rejection of the linear stage theory, the dissonance model, the four operations and four levels, the textbook analysis, and the quotations from Michael and Debra. **A note on this citation:** Sommers' better-known 1980 article of the same title has not been read by this course, because the freely available copy is a scan with no extractable text. Secondary summaries of that article commonly say the study used twenty students and twenty experienced writers. The 1982 report's own abstract says eight and seven, so this course reports the figures it has read and not the ones in circulation.
+- Nancy Sommers, *Revision Strategies of Student Writers and Experienced Adult Writers*, report to the National Institute of Education, 12 June 1982, [ERIC ED220839](https://files.eric.ed.gov/fulltext/ED220839.pdf). The method and sample, the central finding about procedures against a codified theory, the rejection of the linear stage theory, the dissonance model, the four operations and four levels, the textbook analysis, and the quotations from Michael and Debra. A note on this citation: Sommers' better-known 1980 article of the same title has not been read by this course, because the freely available copy is a scan with no extractable text. Secondary summaries of that article commonly say the study used twenty students and twenty experienced writers. The 1982 report's own abstract says eight and seven, so this course reports the figures it has read and not the ones in circulation.
 - Digital.gov, [paraphrase testing](https://digital.gov/guides/plain-language/test/paraphrase-testing), part of the US federal plain-language guide's "Test for understanding" section. All quoted guidance on how to run a test, how many participants, and what not to do.
 - Sian Gooding, Yevgeni Berzak, Tony Mak and Matt Sharifi, ["Predicting Text Readability from Scrolling Interactions"](https://arxiv.org/abs/2105.06354) (2021), 518 participants, on reader background shaping perceived difficulty. Read at abstract level only.
