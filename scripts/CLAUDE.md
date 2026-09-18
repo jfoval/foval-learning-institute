@@ -8,7 +8,7 @@ compile step anywhere in this repo.
 | `core-path.mjs` | `path` | Keeps `TAXONOMY.md` and `core-path.yaml` agreeing; generates the Core list |
 | `build.mjs` | `build`, `validate`, `build:drafts` | Compiles `courses/` to `site/data/courses.js`, and lints everything |
 | `reading-time.mjs` | `minutes` | Measures every lesson's real `minutes:`; `--write` fixes them |
-| `podcast.mjs` | — | `/make-podcast`'s engine: plan, script, render, voice-check, upload, stamp |
+| `podcast.mjs` | — | `/make-podcast`'s engine: plan, render (one call), gate, upload, stamp, profile, reference |
 | `check-quiz-letters.cjs` | `quiz` | Finds explanations that contradict their own `answer` |
 | `check-quiz-shape.cjs` | `quiz` | Finds quizzes a reader could pass without reading the lesson |
 | `quiz-permute.cjs` | — | Reorders one item's options, fixing `answer` and the letters in `explain` |
@@ -18,7 +18,7 @@ compile step anywhere in this repo.
 | `net-quotes.mjs` | `net` | Fetches NET Bible verses for quotation (standards 4.7) |
 | `text-width.mjs` | — | Arial advance widths for the SVG overflow check; imported by `build.mjs` |
 | `mailstub.mjs` | — | Local stand-in for the accounts Worker's email sender, for `workers/api/test.mjs` |
-| `podcast-compare.mjs` | — | Historical: the TTS engine bake-off that settled on Gemini via fal. Not run |
+| `podcast-compare.mjs` | — | Historical: the 2026-09-06 TTS bake-off, written for fal. Superseded, not run |
 | `tests/` | `test` | `node --test`: fixtures that must fail each lint, and a renderer snapshot |
 
 `npm run validate` is `core-path.mjs` then `build.mjs --check`. Run it before every commit.
@@ -102,8 +102,14 @@ runs is not a check**, which is why both quiz scripts now have an `npm` name.
   nobody can act on today trains everyone to ignore the output.
 - Every message says the file, what is wrong, and what to do about it. Several name the rule they
   come from, which is the point of writing them as checks.
-- Secrets live in `.env.local`, which is git-ignored. `podcast.mjs` reads `FAL_KEY` from it.
-- `podcast.mjs`'s guards are deliberate: dry-run by default, no render without a `checked:`
+- Secrets live in `.env.local`, which is git-ignored. `podcast.mjs` reads `GEMINI_API_KEY` from it.
+  `FAL_KEY` is left over from the old engine and is no longer used for audio.
+- **`podcast.mjs`'s guards are deliberate and cost about $25 to learn. Do not loosen them, and
+  never wrap a render in a retry loop.** The rules and the reasoning are in
+  `docs/PODCAST_PIPELINE.md` section 4: never send `temperature` or `seed` (either returns billed
+  silence), always cap `maxOutputTokens`, curl rather than `fetch` (which abandons a response after
+  five minutes while Google keeps billing), never re-send automatically, one request at a time.
+- The rest of the guards: dry-run by default, no render without a `checked:`
   fact-check entry in the script frontmatter, a $2 cost cap without `--force`, a pitch-band voice
   check after every render, and an upload that verifies the public URL answers before anything is
   stamped into a lesson. A stamped URL that 404s is worse than no audio.

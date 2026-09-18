@@ -125,6 +125,68 @@ function check(root) {
   return { status: r.status, out: r.stdout + r.stderr };
 }
 
+/* ---------- the audio-debt ratchet ----------
+   These exist because on 2026-09-18 a ReferenceError inside the ratchet's try/catch disabled the
+   whole check and every run still printed "ok". Nothing caught it, because the fixture is not a git
+   checkout and the ratchet compares against `git show HEAD:...`, so it had never run under test at
+   all. A guard that can silently stop guarding is worse than no guard, so these git-init the
+   fixture and assert the check both fires and can be lifted deliberately. */
+
+function committedFixture(debt = "owed:\n  sample: 1\n") {
+  const { root, course } = fixture();
+  fs.writeFileSync(path.join(root, "curriculum", "audio-debt.yaml"), debt);
+  const git = (...a) => spawnSync("git", ["-c", "user.email=t@t", "-c", "user.name=t", ...a], { cwd: root, encoding: "utf8" });
+  git("init", "-q");
+  git("add", "-A");
+  git("commit", "-q", "-m", "fixture");
+  // A second lesson with no audio, so the debt genuinely owes 2 and raising it is honest.
+  fs.writeFileSync(path.join(course, "lessons", "02-more.md"), GOOD_LESSON.replace("01-good", "02-more"));
+  return { root, course };
+}
+
+test("the ratchet fires: raising the debt without a reset fails", () => {
+  const { root } = committedFixture();
+  fs.writeFileSync(path.join(root, "curriculum", "audio-debt.yaml"), "owed:\n  sample: 2\n");
+  const r = check(root);
+  assert.equal(r.status, 1, r.out);
+  assert.ok(r.out.includes("went from 1 to 2"), r.out);
+});
+
+test("a dated reset naming the raise lifts the ratchet for that commit", () => {
+  const { root } = committedFixture();
+  fs.writeFileSync(path.join(root, "curriculum", "audio-debt.yaml"),
+    "reset:\n  date: 2026-09-19\n  reason: withdrawn and being re-rendered\n  raises:\n    sample: 2\nowed:\n  sample: 2\n");
+  const r = check(root);
+  assert.equal(r.status, 0, r.out);
+});
+
+test("a reset that is already committed authorises nothing", () => {
+  const already = "reset:\n  date: 2026-09-19\n  reason: withdrawn\n  raises:\n    sample: 2\nowed:\n  sample: 1\n";
+  const { root } = committedFixture(already);
+  fs.writeFileSync(path.join(root, "curriculum", "audio-debt.yaml"), already.replace("  sample: 1", "  sample: 2"));
+  const r = check(root);
+  assert.equal(r.status, 1, r.out);
+  assert.ok(r.out.includes("went from 1 to 2"), r.out);
+});
+
+test("a reset without a reason is rejected", () => {
+  const { root } = committedFixture();
+  fs.writeFileSync(path.join(root, "curriculum", "audio-debt.yaml"),
+    "reset:\n  date: 2026-09-19\n  raises:\n    sample: 2\nowed:\n  sample: 2\n");
+  const r = check(root);
+  assert.equal(r.status, 1, r.out);
+  assert.ok(r.out.includes('needs a "reason"'), r.out);
+});
+
+test("a reset naming a different number does not authorise the raise", () => {
+  const { root } = committedFixture();
+  fs.writeFileSync(path.join(root, "curriculum", "audio-debt.yaml"),
+    "reset:\n  date: 2026-09-19\n  reason: withdrawn\n  raises:\n    sample: 5\nowed:\n  sample: 2\n");
+  const r = check(root);
+  assert.equal(r.status, 1, r.out);
+  assert.ok(r.out.includes("went from 1 to 2"), r.out);
+});
+
 test("the fixture course validates clean", () => {
   const { root } = fixture();
   const r = check(root);

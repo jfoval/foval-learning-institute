@@ -27,6 +27,8 @@
 # `npm run validate` accepts a reset only in the commit that introduces it (it compares `date`
 # against the committed file), and only for the exact numbers in `raises`. The commit after it, the
 # ratchet is back on. Do not write one to get past the check on work you are doing now.
+# The behaviour is pinned by tests in `scripts/tests/build.test.mjs`, because this check was broken
+# twice on the day it was written and both times everything still printed "ok".
 
 reset:
   date: 2026-09-18

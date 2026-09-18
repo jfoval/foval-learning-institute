@@ -38,6 +38,11 @@ knowledge for each stage, including the list of defects this drafter repeats.
    wrote. The build fails on both.
 5. **A course is not finished until every lesson has a podcast episode.** `npm run validate`
    enforces it against `curriculum/audio-debt.yaml`. See root `CLAUDE.md` rule 6.
+   **`docs/PODCAST_PIPELINE.md` is the manual; read it before touching a script or spending
+   anything on audio.** Two things bite immediately. **Haley (S2) speaks first in every script**,
+   because the engine hands the first turn to the second voice whatever the label says, so John
+   written first puts the whole episode in Haley's voice. And **a render is one call, never a
+   retry loop**: about $25 went out in an afternoon on 2026-09-17 learning that.
 6. **Sensitive domains** (standards Part 3.4) get the neutrality audit before publish. No
    exceptions. School of Christian Studies courses carry `standpoint: christian` and follow
    standards 3.7: taught from within the faith, labelled as such, objections engaged at full

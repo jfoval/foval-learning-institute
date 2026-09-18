@@ -784,31 +784,46 @@ lintLessons();
    curriculum/audio-debt.yaml and is a ceiling, so it can only shrink. Everything else fails.
    See the header of that file. */
 function checkAudio() {
-  let owed = {};
+  let owed = {}, debt = {};
   const debtFile = path.join(ROOT, "curriculum", "audio-debt.yaml");
   try {
-    const d = yaml.load(fs.readFileSync(debtFile, "utf8")) || {};
-    owed = d.owed || {};
+    debt = yaml.load(fs.readFileSync(debtFile, "utf8")) || {};
+    owed = debt.owed || {};
   } catch (e) { errors.push(`curriculum/audio-debt.yaml: ${e.message}`); return; }
 
   // "The debt may only shrink" was checked only as equality with the current count, so raising
   // a number in the same commit as a new lesson passed. The committed version is the ratchet.
+  //
+  // Only the `git show` is allowed to fail quietly, and only because a fresh checkout with no HEAD
+  // has nothing to ratchet against. The comparison below runs outside that catch on purpose: when
+  // it was inside, a ReferenceError in this function disabled the entire check and every test still
+  // printed "ok". That happened on 2026-09-18 and was caught by testing the check rather than
+  // trusting it. A guard that can silently stop guarding is worse than no guard.
+  let prev = null;
   try {
-    const prev = yaml.load(execFileSync("git", ["show", "HEAD:curriculum/audio-debt.yaml"], { cwd: ROOT, encoding: "utf8", stdio: ["ignore", "pipe", "ignore"] })) || {};
+    prev = yaml.load(execFileSync("git", ["show", "HEAD:curriculum/audio-debt.yaml"], { cwd: ROOT, encoding: "utf8", stdio: ["ignore", "pipe", "ignore"] })) || {};
+  } catch { /* not a git checkout, or no HEAD yet: nothing to ratchet against */ }
+
+  if (prev) {
     // A reset is the one way the debt may grow: episodes that shipped are being deliberately
     // withdrawn and re-rendered, which is John's call and nobody else's. It authorises exactly the
     // raises it names, and only in the commit that introduces it: once `reset.date` matches the
     // committed file, the same block authorises nothing, so the ratchet is back on the next commit.
-    const reset = (d.reset && d.reset.date !== (prev.reset || {}).date) ? d.reset : null;
+    // Compare the dates by value. YAML parses an unquoted 2026-09-18 into a Date, and two Dates
+    // are never `!==`-equal by identity, so an identity comparison made every reset look new and
+    // the single-commit guarantee did not hold. A test caught it; the earlier by-hand check had
+    // not, because it happened to fail on the raises number instead.
+    const day = v => v == null ? "" : (v instanceof Date ? v.toISOString().slice(0, 10) : String(v).trim());
+    const reset = (debt.reset && day(debt.reset.date) !== day((prev.reset || {}).date)) ? debt.reset : null;
     if (reset && (!reset.reason || !reset.raises)) errors.push(`curriculum/audio-debt.yaml: a reset needs a "reason" and a "raises" map saying which course goes to which number.`);
-    const allowedRaise = (id, n) => reset && reset.raises && reset.raises[id] === n;
+    const allowedRaise = (id, n) => !!(reset && reset.raises && reset.raises[id] === n);
     for (const [id, n] of Object.entries(owed)) {
       const was = (prev.owed || {})[id];
       if (allowedRaise(id, n)) continue;
-      if (was === undefined) errors.push(`curriculum/audio-debt.yaml: "${id}" was not in the committed file. The debt ledger only shrinks; a course drafted today gets its episodes before the next lesson, and never appears here.`);
+      if (was === undefined) errors.push(`curriculum/audio-debt.yaml: "${id}" was not in the committed file. The debt ledger only shrinks; a course drafted today gets its episodes before the next lesson, and never appears here. To withdraw episodes that shipped, record a reset (see the header of that file).`);
       else if (n > was) errors.push(`curriculum/audio-debt.yaml: "${id}" went from ${was} to ${n}. The debt ledger only shrinks; render the episode instead, or record a reset (see the header of that file).`);
     }
-  } catch { /* not a git checkout, or no HEAD yet: nothing to ratchet against */ }
+  }
 
   const seen = new Set();
   for (const school of fs.readdirSync(COURSES_DIR, { withFileTypes: true }).filter(d => d.isDirectory())) {
