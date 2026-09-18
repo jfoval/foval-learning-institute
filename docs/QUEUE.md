@@ -16,7 +16,7 @@ Rewrite these five lines each session. Nothing else goes in this block.
   lessons, eight episodes, all eight live in R2, off the debt ledger. It is the only course
   finished by the institute's own definition.
 - **Current lesson:** Reading Well lesson 2 of ten. `/draft-lesson courses/foundations/reading-well 2`,
-  one lesson a session, after reading that course's `research/reviews/course-wide.md`.
+  as many lessons as the budget allows, after reading that course's `research/reviews/course-wide.md`.
 - **Before drafting anything:** `npm run taught <course>`. It prints every objective a learner has
   already met earlier on the Core, and names the earlier courses that do not exist yet so nothing
   is assumed from them. Stage 2 and Stage 3 both call for it.
@@ -89,7 +89,7 @@ cents. `/make-podcast` says what could be improved and that neither thing blocks
    It publishes when its ten lessons pass Stage 4, adding `reading-well: 10` to
    `curriculum/audio-debt.yaml` in the same commit. Ten lessons are planned in
    `research/OUTLINE.md`, with a course-end test and a project.
-   **Next: `/draft-lesson courses/foundations/reading-well 2`, one lesson a session.**
+   **Next: `/draft-lesson courses/foundations/reading-well 2`, then 3, and on for as long as the budget lasts.**
    **Read `research/reviews/course-wide.md` before drafting anything here.** It carries two standing
    rules. The Adler text this course researched from is an unlicensed scan of an in-copyright book,
    so it is cited in Sources and never linked to learners; lesson 2's worked survey is Darwin's *On

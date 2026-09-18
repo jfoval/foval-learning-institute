@@ -14,21 +14,24 @@ So the order for every course is:
 1. Stage 0 to 3: scaffold, research, outline, draft.
 2. Stage 4: review, with the voice checks inside the fix step (`docs/DECISIONS.md` §13).
 3. Assessments, if the course has six or more lessons (standard 4.4).
-4. **Stage 6: an episode for every lesson**, via `/make-podcast`, each one rendered, uploaded and
-   stamped.
-5. Only then, the next course. The one exception: when the episodes are blocked on something
-   outside the repo, the next course may be drafted through Stage 4 but not published
-   (`docs/DECISIONS.md` §2).
+4. **A script for every lesson**, via `/make-podcast`, stopping after the fact-check. This costs
+   nothing at the API and is part of writing the course, not part of rendering it.
+5. Only then, the next course. **Published** at step 2, **written** at step 4, **finished** when
+   every lesson also has an episode (`docs/DECISIONS.md` §2).
+6. **Rendering trails**, in Core term order, at whatever the month's budget allows. It is the only
+   step that spends money, it needs no context beyond a ready script, and a course does not wait
+   for it. `npm run state` says what the budget has left.
 
-**Do not batch the audio to the end of the queue and do not leave it for a later session.** A course
-you have moved on from is a course nobody comes back to.
+**Take a course all the way to written before starting the next**, scripts included. A course you
+have moved on from with scripts still owed is a course nobody comes back to, and the scripts are
+the half that is free.
 
 
 This is the operating manual for producing Foval courses at quality and at scale. It exists because the default way of using an AI to write courses (ask for a course, get a course) produces shallow content. The pipeline below is designed so that depth is structural, not a matter of hoping the model tries hard.
 
 ## The core idea
 
-**Separate the stages, and give each stage the right inputs.** Research happens before outlining. Outlining before drafting. Drafting one lesson at a time with the research in context. Review in a fresh session by a reviewer whose only job is to find problems. Nothing is published until it passes review, voice checks included. There is no owner sign-off gate: see rule 5 in `CLAUDE.md`. A course goes live when its lessons have passed Stage 4, and it keeps improving through the feedback loop.
+**Separate the stages, and give each stage the right inputs.** Research happens before outlining. Outlining before drafting. Drafting with the research in context. Review in a fresh session by a reviewer whose only job is to find problems. Nothing is published until it passes review, voice checks included. There is no owner sign-off gate: see rule 5 in `CLAUDE.md`. A course goes live when its lessons have passed Stage 4, and it keeps improving through the feedback loop.
 
 Each stage is a slash command in `.claude/commands/`. Each produces a file in the course folder. The files are the memory: any future session can pick up where the last one left off by reading them.
 
@@ -82,7 +85,7 @@ and what each source establishes will land where it lands. Set `status: drafting
 From SOURCES.md, produce `research/OUTLINE.md`: the lesson sequence, each with objectives, key ideas, worked examples to include, misconceptions to address, exercises, and which sources it draws on. Also decide the assessments (final test, projects). Update `course.yaml` outcomes to match, except on a live course being rebuilt in place, where the course page keeps describing what it currently delivers (`docs/DECISIONS.md` §8; the command has the detail).
 
 ### Stage 3: Draft — `/draft-lesson <path> <n>`
-Draft **one lesson**, with SOURCES.md, OUTLINE.md, EDITORIAL_STANDARDS.md, and the previous lesson in context. One lesson per session keeps the model's attention on depth. Output: `lessons/NN-slug.md`. Run `npm run validate` after each.
+Draft a lesson with SOURCES.md, OUTLINE.md, EDITORIAL_STANDARDS.md and the previous lesson in context, and `npm run taught <course>` for what the learner already knows. **As many lessons a session as the budget allows**, each one re-reading the outline rather than working from what is still in context. Output: `lessons/NN-slug.md`. Run `npm run validate` after each.
 
 ### Stage 4: Review — `/review-lesson <path> <n>`
 Review in a **fresh context**, so the reviewer is not anchored on the draft's own framing. The review is tiered, because reviewing every lesson as though it were a contested one is how this pipeline got expensive:
@@ -125,7 +128,7 @@ This is how lessons get better after they're live, and it never ends. Learner fe
 
 ## Working practices that protect quality
 
-- **One lesson per drafting session on a prose course.** Never "write all 8 lessons". Quality collapses after the second. On a procedural course whose lessons are short and mechanical (programming, arithmetic, algebra), two per session is fine and has been measured as no worse; the depth in those lessons lives in the worked examples and the exercises, not in sustained argument.
+- **No cap on lessons per session**, changed 2026-09-18 (`docs/DECISIONS.md` §2b): John uses the token budget he has when he has it, and throughput is the point. The rule this replaced said quality collapses after the second lesson. The risk is real but it is repetition and context bleed rather than a word count, so it is defended against directly: a fresh-context Stage 4 review per lesson, the outline and `npm run taught` re-read before each, and `npm run validate` warning on any sentence repeated across two lessons of a course.
 - **Research file in context, always.** If SOURCES.md is not loaded, the draft is being written from vibes.
 - **Fresh eyes for review.** Reviews run in subagents or new sessions. A model reviewing its own draft in the same context is far too kind to it.
 - **Adversarial fact-check.** The fact-checker's prompt says "assume there are errors; find them."

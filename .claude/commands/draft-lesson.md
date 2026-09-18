@@ -1,5 +1,5 @@
 ---
-description: Stage 3. Draft ONE lesson from the research and outline
+description: Stage 3. Draft lessons from the research and outline, as many as the budget allows
 argument-hint: <courses/school/course-id> <lesson-number>
 ---
 **Run `npm run taught <course>` before drafting.** It prints every objective a learner has already
@@ -55,4 +55,4 @@ Confirmed across seventeen lessons in two courses, then again in every course si
 
 Run `npm run validate` and `npm run minutes`, fix what they report, then re-read your draft against the three tests in Part 1.1 and against the defect list above. Report what you wrote, the sources used, and anything you were unsure about; the reviewer will want to know.
 
-**One lesson per session on a prose course** (`courses/CLAUDE.md`). Two are allowed on a procedural course whose lessons are short and mechanical.
+**Draft as many lessons as the budget allows** (`courses/CLAUDE.md` rule 2, changed 2026-09-18). There is no per-session cap. What must not be relaxed to go faster: each lesson gets its own Stage 4 review in a fresh context, never one review for the batch; re-read the outline and run `npm run taught <course>` before each lesson rather than working from what is still in context; and read the repetition warnings from `npm run validate`, because lessons written in one sitting reuse each other's examples and the drafter cannot see it.

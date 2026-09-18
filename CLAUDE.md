@@ -50,7 +50,7 @@ repo as Markdown; a build script compiles it into a static site. Read this file,
 
 ## Rules
 1. **Content rules live in `courses/CLAUDE.md`** and load when you work there: SOURCES before
-   drafting, one lesson per session, reviews in fresh contexts, no em dashes, the lesson format and
+   drafting, how many lessons a session may draft, reviews in fresh contexts, no em dashes, the lesson format and
    the `:::` block grammar, sensitive domains and the Christian standpoint.
 2. **Site rules live in `site/CLAUDE.md`**: plain HTML, CSS and JS with no framework and no build
    step, the built site is generated into git-ignored `dist/`, check both themes at phone and
