@@ -107,13 +107,17 @@ numbers, which is item 1 below.
    returns the line and column in its error; the build swallows them and prints a guess at the cause
    instead. Passing the line number through would turn a two-minute hunt into a two-second fix.
 
-6. **Windows learners inside Git Bash will not have `python3`, and lesson 5 opens with it.**
-   Digital Literacy lesson 4 puts the Windows reader inside Git Bash, which is the right call.
-   Lesson 5's first worked example is `python3 --version`, and a python.org install on Windows
-   registers `python` and `py` rather than `python3`, so inside Git Bash the command is usually not
-   found. Worse, the interactive interpreter hangs under MinTTY without `winpty`. **Found by lesson
-   4's cold-start pass, created by lesson 4, and owed by lesson 5**, which currently works on macOS
-   and Linux and not on Windows. It is a real gap in the criterion outline decision 2 sets.
+6. **Python Basics lesson 1 will need the same Windows callout Digital Literacy lesson 5 now has.**
+   Lesson 4 puts the Windows reader inside Git Bash and lesson 5 opens with `python3 --version`.
+   Lesson 4's cold-start pass flagged that as a gap, on the understanding that a Windows install
+   registers only `python` and `py`. **Checked, and that is out of date**: Python's own Windows
+   documentation, read 2026-09-18, says a `python3` command is installed and is "intended to catch
+   accidental uses of the typical POSIX command on Windows". The three things that really do produce
+   a not-found on Windows are the optional `PATH` step being declined, an app execution alias
+   opening the Microsoft Store, and the interactive prompt needing `winpty` under Git Bash. All
+   three are now in a callout in Digital Literacy lesson 5. **Python Basics lesson 1 says none of
+   it**, and it is five terms later, so it inherits the problem. Do it in the same pass as item 3(a),
+   the PowerShell-to-Git-Bash change, and not before Digital Literacy's terminal lessons are live.
 
 7. **Then the Foval Core in order, one course at a time.** After Digital Literacy: Using AI
    Effectively, then Term 2. Start each with `/new-course`. `npm run state` names the next action
