@@ -1,6 +1,7 @@
 ---
 title: "How much should the evidence move you: base rates, conjunctions, and the prosecutor's fallacy"
 minutes: 70
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/foundations/logic-and-argument/06-evidence-and-probability.mp3
 objectives:
   - Calculate the share of positive results that are true positives from a base rate, a sensitivity, and a false-positive rate, by counting in natural frequencies
   - Explain why a conjunction can never be more probable than either of its parts, and why the Linda problem fools people anyway
