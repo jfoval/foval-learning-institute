@@ -343,6 +343,19 @@ function reference() {
 /* ---------- upload to R2 ---------- */
 async function upload() {
   if (!fs.existsSync(mp3Path)) { console.error(`No MP3 at ${show(mp3Path)}. Render first.`); process.exit(1); }
+  // Re-run the gate on the file about to be published. It costs nothing and it is the only thing
+  // standing between R2 and a stale MP3: audio-out/ holds renders from retired engines, and on
+  // 2026-09-18 `plan` cheerfully offered to upload a fal-era file from 8 September for a lesson
+  // whose new render had just failed. A stamped URL serving the wrong audio is worse than no audio.
+  const s = readScript();
+  const check = gate(mp3Path, s);
+  console.log(`gate on ${show(mp3Path)}: ${check.summary}`);
+  if (!check.ok && !FORCE) {
+    console.error(`\nRefusing to upload: ${check.why.join("; ")}.`);
+    console.error("Render it again, or add --force if you have listened to this exact file and want it live.");
+    process.exit(1);
+  }
+  if (!check.ok) console.log("--force: uploading a file that fails the gate, on the explicit say-so of whoever ran this.");
   console.log(`uploading ${show(mp3Path)} to ${BUCKET}/${r2Key} ...`);
   execFileSync("npx", ["--yes", "wrangler@4", "r2", "object", "put", `${BUCKET}/${r2Key}`, "--file", mp3Path, "--content-type", "audio/mpeg", "--remote"], { stdio: "inherit", cwd: ROOT });
   const head = await fetch(publicUrl, { method: "HEAD" });
@@ -388,12 +401,14 @@ async function plan() {
   console.log(`${school}/${course}/${id}`);
   console.log(`  script  ${show(scriptPath)}  ${y(script)}${script ? ` (fact-checked: ${y(checked)}, Haley opens: ${y(opensRight)})` : ""}`);
   console.log(`  render  attempts ${manifest.attempts.length}, spent about $${manifest.attempts.reduce((n, a) => n + (a.billed || 0), 0).toFixed(2)}, passed: ${y(manifest.attempts.some(a => a.passed))}`);
-  console.log(`  mp3     ${show(mp3Path)}  ${y(mp3)}`);
+  console.log(`  mp3     ${show(mp3Path)}  ${y(mp3)}${mp3 && !manifest.attempts.some(a => a.passed) ? "  (no passing render: this file predates the current pipeline, do not upload it)" : ""}`);
   console.log(`  R2      ${publicUrl}  ${live ? "live" : "not there"}`);
   console.log(`  lesson  audio: stamped  ${y(stamped)}`);
+  const passed = manifest.attempts.some(a => a.passed);
   const next = !script ? `/make-podcast ${show(lessonPath)}`
     : !checked ? "fact-check the script and record the verdict in its `checked:` frontmatter"
     : !opensRight ? "swap the intro so Haley (S2) speaks first"
+    : !passed ? `node scripts/podcast.mjs render ${show(lessonPath)} --go`
     : !mp3 ? `node scripts/podcast.mjs render ${show(lessonPath)} --go`
     : !live ? `node scripts/podcast.mjs upload ${show(lessonPath)}`
     : !stamped ? `node scripts/podcast.mjs stamp ${show(lessonPath)}`
