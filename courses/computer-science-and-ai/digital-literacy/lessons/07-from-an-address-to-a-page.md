@@ -1,11 +1,11 @@
 ---
 title: From an address to a page
-minutes: 105
+minutes: 115
 objectives:
   - Say in order what happens between typing a web address and seeing a page, naming every party that takes part
   - Run a name lookup and a route trace on a domain you chose, and read what comes back
   - Work out from a described symptom which step failed, and say what you would check next
-  - Name three parties who can see which sites you visit, and one who cannot
+  - Name three parties who can tell which site you visited, and say why the networks in between usually cannot
 quiz:
   - q: A reader cannot reach a site on her laptop. It loads on her phone, which is on mobile data rather than the house Wi-Fi. What does that comparison rule out, and what does it point at?
     options:
@@ -14,23 +14,23 @@ quiz:
       - It rules out the site being down, and points at something on the house's path
       - It rules out the whole network, and points at the address being mistyped
     answer: 2
-    explain: The phone reached the site, so the site is up, and the phone took a different network and usually a different name service, so the difference lives somewhere on the house's path, which is C. A jumps to the browser without testing it, and the browser is the one thing both devices do not share. B invents an account block, which would follow her to the phone. D contradicts itself, since something clearly worked.
-  - q: Somebody says a website is "a computer in California that I am talking to". What is the most useful correction?
+    explain: The phone reached the site, so the site is up, and the phone took a different network and usually a different name service, so the difference lives somewhere on the house's path, which is C. A jumps to the browser, which this comparison does not test either way, since the two devices run the same browser from the same company but separate copies of it on different systems. B invents an account block, which would follow her to the phone. D contradicts itself, since something clearly worked.
+  - q: A friend says her request "goes off to the site, and the name service tells it where to go on the way". What is out of order in that, and why does the order matter?
     options:
-      - The company owns many computers, so it is several computers rather than one
-      - The page usually comes from a nearer copy, and it pulls in several companies
-      - The computer is real and the distance is what makes a page slow to arrive
-      - It is a computer somewhere, and where it sits is a detail nobody needs to know
+      - The name server is contacted after the site, to confirm the address that answered
+      - The lookup finishes before the connection opens, so nothing guides it on the way
+      - The router answers the lookup itself, so no name server is involved from a house
+      - Nothing is out of order, and the two steps happen in the order she described
     answer: 1
-    explain: Most pages are served from a copy held much closer than the company's own machines, and most pages also fetch things from several other companies, which is B and is what changes who can see what. A corrects the count and leaves the picture unchanged. C keeps the single distant machine and explains slowness with it. D waves the question away, and the whole lesson is that the detail decides what you can worry about.
-  - q: A name lookup returns an address in a fraction of a millisecond, far faster than any answer could travel. What has happened?
+    explain: The lookup is a round trip of its own and it finishes before any connection to the site is opened, so nothing is steering the request as it travels, which is B. The order is what lets you count the parties, because whoever answered the lookup is not on the path to the site at all and has to be counted separately. A reverses it further, since an address has to exist before anything can be asked for. C describes a router that forwards the question rather than answers it, and the chain still ends somewhere outside the house. D keeps a picture in which the parties cannot be told apart, which is the single box drawing in a different form.
+  - q: You run the same name lookup twice, half a minute apart, and the number beside the address has gone down from 145 to 115. What are you watching?
     options:
-      - The answer was held nearby from a previous lookup, so nothing travelled
-      - The name service is unusually close, which is why the answer came back fast
-      - The lookup failed and the browser used an address it had guessed instead
-      - The address was already inside the request, so no lookup was needed at all
+      - One kept copy of the answer ageing, which is the same copy handed to you twice
+      - The site shortening how long its answer may be kept, between your two lookups
+      - A second name server answering, which keeps a shorter count than the first one
+      - The lookup running more slowly this time, which is what that number reports
     answer: 0
-    explain: Answers are kept for a while after they are fetched, so a repeat lookup is answered locally and no request leaves the machine, which is A and is why a stale answer can outlive a change. B cannot account for a time shorter than light allows. C invents a guess no resolver makes. D describes something the browser never has, since the name is what you typed.
+    explain: The number is a time to live, the seconds an answer may be kept before it has to be fetched again, and a count that carries on downwards rather than starting over means the same kept copy answered both times, which is A and is why a change to a site's address takes a while to reach everybody. B would need the site to have edited its own record inside thirty seconds, and would show a different number rather than a lower one. C would ordinarily hand you a fresh count near its full value. D confuses the time to live with the query time, which is a separate line and is measured in milliseconds.
   - q: A route trace prints four machines and then rows of asterisks all the way to the end, and yet the site loads perfectly in a browser. What should you conclude?
     options:
       - The route is broken after the fourth machine and the browser found another
@@ -38,7 +38,7 @@ quiz:
       - The site is refusing the trace deliberately, which is worth worrying about
       - Some machines along the way decline to answer the trace, which is ordinary
     answer: 3
-    explain: A trace depends on machines choosing to announce themselves, and plenty are configured not to, so silence is about policy rather than about the path, which is D. A is contradicted by the page loading perfectly well. B is worth checking and is not what silence means, since reaching a hop limit ends the trace rather than filling it with asterisks. C singles out the site when the quiet machines are in the middle of the path.
+    explain: A trace depends on machines choosing to announce themselves, and plenty are configured not to, so silence is about policy rather than about the path, which is D. A is contradicted by the page loading perfectly well. B has it backwards, because the limit is where the printing stopped rather than why the rows went quiet, and a trace that is still being answered prints an address on every line until it arrives. C singles out the site when the quiet machines are in the middle of the path.
   - q: A neighbour says his home Wi-Fi is private because it has a password on it. What does the password actually decide?
     options:
       - Who can join the local network, and nothing about the path after that
@@ -47,14 +47,14 @@ quiz:
       - How much of what he sends is scrambled between the house and the site
     answer: 0
     explain: The password governs admission to the network in the house, and every party after the router is untouched by it, which is A. B is wrong in the direction that matters, since the provider is on the far side of the router. C describes something the password does not control either way. D is about encryption, which is lesson 8's subject and is decided by the site rather than by the Wi-Fi.
-  - q: Why does a failure in one step so often produce a symptom that looks like a different problem?
+  - q: Somebody tells you that a transit network in the middle of the country "can see everything you browse". Using this lesson, what is the most accurate correction?
     options:
-      - Because the steps run at the same time, so a failure lands in an arbitrary place
-      - Because each step knows only its own job and reports only what it can see
-      - Because browsers hide the real error to avoid alarming people unnecessarily
-      - Because the steps are ordered differently depending on the site being asked for
-    answer: 1
-    explain: The division of labour is the whole design, because the name lookup knows nothing about the page and the connection knows nothing about the name, so each one reports its own small failure and the reader sees something that seems unrelated, which is B. A misdescribes an ordered sequence as simultaneous. C blames the browser for a structural fact. D invents a reordering that does not happen.
+      - It sees nothing at all, since the traffic is only passing through its cables
+      - It sees the names, because the name travels with the request from end to end
+      - It sees addresses, and one address can serve thousands of different websites
+      - It sees everything, and the only answer is to stop using that network entirely
+    answer: 2
+    explain: A network in the middle handles traffic addressed to a number, and a single delivery network address commonly answers for thousands of sites, so knowing where your traffic went is a long way from knowing what you read, which is C. A overcorrects, since the addresses and the timing are real and so is who you are. B describes the name lookup, which is a separate round trip made before the connection opens and is not repeated inside it. D treats a real limit as total exposure, and you did not choose that network and cannot avoid it.
 ---
 
 Before you read another line, do this. It takes two minutes and it won't work afterwards.
@@ -69,7 +69,7 @@ Take 2 minutes. Paper, or a blank note, whichever is nearer.
 3. Keep it. The last exercise in this lesson asks you to draw it again, and the difference between the two is the only evidence that any of this worked.
 :::
 
-In 2015 four researchers asked twenty-eight people to do exactly that, with paper and a pen, and then talk through what they had drawn.[1] Seventeen were ordinary users and eleven had technical training.
+Four researchers, in work published in 2015, asked twenty-eight people to do exactly that, with paper and a pen, and then talk through what they had drawn.[1] Seventeen were ordinary users and eleven had technical training.
 
 **Fourteen of the twenty-eight drew a single box.** You send a request in, an answer comes back, and there is nothing in between. Thirteen of those fourteen were the ordinary users.
 
@@ -81,11 +81,11 @@ So this lesson is about putting the parties into your picture. Not because worry
 
 ## The ladder, top down
 
-Start where you already are, which is a deliberate choice: the standard way to teach this subject works downwards from what the learner already does rather than upwards from cables, and this lesson borrows that order.[3] So: you type `wikipedia.org` and press return.
+Start where you already are. This lesson works downwards, from the thing you did to the machinery underneath, rather than upwards from cables and signals, because the top of that ladder is the only end you've ever touched. So: you type `wikipedia.org` and press return.
 
-**One. The name has to become an address.** `wikipedia.org` is a name for humans. The machinery underneath works on numeric addresses, so something has to translate, and that something is the **Domain Name System**, DNS. Your machine asks a name server, and the answer comes back as an address.
+**One. The name has to become an address.** `wikipedia.org` is a name for humans. The machinery underneath works on numeric addresses, so something has to translate, and that something is the **Domain Name System**, DNS. Your machine asks a name server, and the answer comes back as an address. **That is a round trip of its own, and it is finished before step two starts.** Nothing below is guided by the name server on the way; it hands over an address and drops out.
 
-**Two. A connection is opened to that address.** Your request leaves your machine, goes to your router, goes to your internet provider, and from there crosses some number of other networks until it reaches a machine that answers to that address. Nobody at either end chose the route in between.
+**Two. A connection is opened to that address.** Your request leaves your machine, goes to your router, goes to your internet provider, and from there crosses some number of other networks until it reaches a machine that answers to that address. You did not choose the route in between, and for most of its length neither did the far end, although a large service does choose which networks it buys from and where it puts its copies.
 
 **Three. A request is sent and a response comes back.** Your browser asks for a particular page. The far end replies with the page, or with an error code saying why not.
 
@@ -95,41 +95,47 @@ Notice how little of that is what you think of as "the website".
 
 ## Who is actually in the path
 
-Here is the same journey drawn as a list of parties, because the parties are the part that matters for the rest of the course.
+The same journey, drawn as a list of parties, because the parties are the part that matters for the rest of the course.
 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 356" role="img" aria-labelledby="path-title path-desc" style="width:100%;height:auto;font-family:inherit">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 376" role="img" aria-labelledby="path-title path-desc" style="width:100%;height:auto;font-family:inherit">
   <title id="path-title">Who is in the path between you and a page</title>
-  <desc id="path-desc">Seven parties in order, top to bottom, connected by a line. Your device, the browser you typed into. Your router, which everything in the house shares. Your internet provider, which carries every request and sees every destination. Whoever answers your name lookups, which is usually your provider unless you changed it. The networks in between, which neither end chose. A content delivery network, which is usually a copy much nearer than the company itself. And the service itself, which is often the last party to hear from you rather than the first.</desc>
-  <line x1="24" y1="36" x2="24" y2="312" stroke="var(--text-2, #4a5260)" stroke-width="2"/>
-  <circle cx="24" cy="36" r="7" fill="var(--gold, #b08d2a)"/>
-  <text x="44" y="32" font-size="16" font-weight="700" fill="var(--text, #111418)">Your device</text>
-  <text x="44" y="50" font-size="15" fill="var(--text-2, #4a5260)">the browser you typed into</text>
-  <circle cx="24" cy="82" r="6" fill="var(--navy, #0f2a4a)"/>
-  <text x="44" y="78" font-size="16" font-weight="700" fill="var(--text, #111418)">Your router</text>
-  <text x="44" y="96" font-size="15" fill="var(--text-2, #4a5260)">everything in the house shares it</text>
-  <circle cx="24" cy="128" r="6" fill="var(--navy, #0f2a4a)"/>
-  <text x="44" y="124" font-size="16" font-weight="700" fill="var(--text, #111418)">Your internet provider</text>
-  <text x="44" y="142" font-size="15" fill="var(--text-2, #4a5260)">carries it all, sees every destination</text>
-  <circle cx="24" cy="174" r="6" fill="var(--navy, #0f2a4a)"/>
-  <text x="44" y="170" font-size="16" font-weight="700" fill="var(--text, #111418)">Whoever answers your names</text>
-  <text x="44" y="188" font-size="15" fill="var(--text-2, #4a5260)">your provider, unless you changed it</text>
-  <circle cx="24" cy="220" r="6" fill="var(--navy, #0f2a4a)"/>
-  <text x="44" y="216" font-size="16" font-weight="700" fill="var(--text, #111418)">The networks in between</text>
-  <text x="44" y="234" font-size="15" fill="var(--text-2, #4a5260)">neither end chose them</text>
-  <circle cx="24" cy="266" r="6" fill="var(--navy, #0f2a4a)"/>
-  <text x="44" y="262" font-size="16" font-weight="700" fill="var(--text, #111418)">A delivery network</text>
-  <text x="44" y="280" font-size="15" fill="var(--text-2, #4a5260)">a copy much nearer than the company</text>
-  <circle cx="24" cy="312" r="7" fill="var(--oxblood, #8b1e2d)"/>
-  <text x="44" y="308" font-size="16" font-weight="700" fill="var(--text, #111418)">The service itself</text>
-  <text x="44" y="326" font-size="15" fill="var(--text-2, #4a5260)">often the last to hear from you</text>
+  <desc id="path-desc">A lookup drawn as a side branch, and then the connection drawn as a line. Off to the side, reached from your device by a round trip that goes out and comes back: whoever answers your names, which is your provider or your browser's own, and this round trip finishes before the line below begins. The line itself runs through five more parties in order. Your device, the browser you typed into. Your router, which everything in the house shares. Your internet provider, which carries it all and sees every destination. The networks in between, which see an address and not which site. A delivery network, which is a copy much nearer than the company. And, on a dashed last segment because it is often never contacted at all, the service itself.</desc>
+  <line x1="28" y1="40" x2="28" y2="298" stroke="var(--text-2, #4a5260)" stroke-width="2"/>
+  <line x1="28" y1="298" x2="28" y2="344" stroke="var(--text-2, #4a5260)" stroke-width="2" stroke-dasharray="5 5"/>
+  <path d="M 30 50 C 34 78, 62 88, 90 88" fill="none" stroke="var(--text-2, #4a5260)" stroke-width="2"/>
+  <polygon points="88,83 100,88 88,93" fill="var(--text-2, #4a5260)"/>
+  <path d="M 92 100 C 58 102, 36 84, 30 64" fill="none" stroke="var(--text-2, #4a5260)" stroke-width="2"/>
+  <polygon points="28,50 22,62 34,61" fill="var(--text-2, #4a5260)"/>
+  <circle cx="104" cy="92" r="6" fill="var(--navy, #0f2a4a)"/>
+  <text x="124" y="88" font-size="16" font-weight="700" fill="var(--text, #111418)">Whoever answers your names</text>
+  <text x="124" y="106" font-size="15" fill="var(--text-2, #4a5260)">your provider, or your browser's own</text>
+  <text x="44" y="130" font-size="15" fill="var(--text-2, #4a5260)">this round trip finishes before the line below begins</text>
+  <circle cx="28" cy="40" r="7" fill="var(--gold, #b08d2a)"/>
+  <text x="48" y="36" font-size="16" font-weight="700" fill="var(--text, #111418)">Your device</text>
+  <text x="48" y="54" font-size="15" fill="var(--text-2, #4a5260)">the browser you typed into</text>
+  <circle cx="28" cy="160" r="6" fill="var(--navy, #0f2a4a)"/>
+  <text x="48" y="156" font-size="16" font-weight="700" fill="var(--text, #111418)">Your router</text>
+  <text x="48" y="174" font-size="15" fill="var(--text-2, #4a5260)">everything in the house shares it</text>
+  <circle cx="28" cy="206" r="6" fill="var(--navy, #0f2a4a)"/>
+  <text x="48" y="202" font-size="16" font-weight="700" fill="var(--text, #111418)">Your internet provider</text>
+  <text x="48" y="220" font-size="15" fill="var(--text-2, #4a5260)">carries it all, sees every destination</text>
+  <circle cx="28" cy="252" r="6" fill="var(--navy, #0f2a4a)"/>
+  <text x="48" y="248" font-size="16" font-weight="700" fill="var(--text, #111418)">The networks in between</text>
+  <text x="48" y="266" font-size="15" fill="var(--text-2, #4a5260)">they see an address, not which site</text>
+  <circle cx="28" cy="298" r="6" fill="var(--navy, #0f2a4a)"/>
+  <text x="48" y="294" font-size="16" font-weight="700" fill="var(--text, #111418)">A delivery network</text>
+  <text x="48" y="312" font-size="15" fill="var(--text-2, #4a5260)">a copy much nearer than the company</text>
+  <circle cx="28" cy="344" r="7" fill="var(--oxblood, #8b1e2d)"/>
+  <text x="48" y="340" font-size="16" font-weight="700" fill="var(--text, #111418)">The service itself</text>
+  <text x="48" y="358" font-size="15" fill="var(--text-2, #4a5260)">often never contacted at all</text>
 </svg>
 
 :::predict Before reading on: of those seven, how many can tell that you visited a particular site? Count them, then check.
 Six of the seven, and the exception is not the one people guess.
 
-Your device knows, obviously. Your router carries the request. Your provider carries it and, unless you changed a setting, also answered the name lookup, so it knows twice over. Whoever answers your names knows which names you asked for. The networks in between see traffic going to an address. The service itself knows, because you arrived.
+Your device knows, obviously. Your router carries both the lookup and the request. Whoever answers your names knows which names you asked for. Your provider carries everything you send, and on most home connections it answered the lookup as well, so it knows twice over. The delivery network knows, because it is the machine that actually handed you the page. And the service knows, because you arrived.
 
-**The delivery network is the one that varies**, and it usually knows too, because it is the machine that actually handed you the page.
+**The networks in between are the exception**, and the reason is in the figure. They see an address, not a name. One address at a delivery network commonly answers for thousands of different sites, so a network in the middle can say your traffic went to that machine and cannot say which of those thousands you were reading. That is the answer to the fourth objective of this lesson, and it's a narrower comfort than it sounds, because the parties at both ends of that stretch know perfectly well.
 
 The exception most people expect to find is encryption, and it is not in this list because it does not remove a party from the path. It changes what they can read. That is lesson 8, and it is a much narrower promise than it sounds.
 :::
@@ -171,29 +177,47 @@ wikipedia.org.		145	IN	A	208.80.153.224
 ;; SERVER: 192.168.4.1#53
 ```
 
-The **answer section** has the address. The number beside it, `145` here, is how many seconds this answer may be kept before it should be asked for again, which is why a change to a site's address takes a while to reach everybody.
+The **answer section** has the address. The number beside it, `145` here, is a **time to live**: how many seconds this answer may be kept before it has to be asked for again.
 
-The **query time** is how long it took. When you run the same lookup twice, the second is often reported as `0 msec`, because the answer was kept nearby and nothing travelled at all.
+That number is the one worth watching, because it's the only place in the output where you can see a cache with your own eyes. Run the same lookup again half a minute later and it will have gone *down* rather than started over. Run it seven times in ten seconds and you can watch it count. On the machine this lesson was written on it read 107, 99, 97, 95, 93, 90.[2] Nothing about the name changed in those ten seconds. What you are watching is one kept copy of the answer ageing somewhere between you and the place that is authoritative for the name, and when the count reaches zero the next asker pays for a fresh lookup. It's also why a change to a site's address takes a while to reach everybody.
 
-The **server** line is the machine that answered, and on most home connections it is your own router, which then asked somebody else. If you've never changed it, the chain ends at your internet provider. That is the fourth party in the figure above, and it's the one most people have never thought about.
+The **query time** is how long this particular answer took to come back, and it is worth being exact about what it does and does not show. `dig` does not read your own system's cache. It sends a real query to the machine on the `SERVER` line every time, so you pay that round trip on every run and the number stays roughly level: those same seven runs took 26, 29, 32, 30, 25, 25 and 29 milliseconds.[2] If you ever do see `0 msec`, it means the machine answering is your own, which is a different arrangement from the one described here. **The cache is real, and the time to live is where you see it. The query time is not.**
 
-:::callout If `dig` is not there
-`dig` comes with macOS and most Linux systems. In Git Bash on Windows it's usually absent, and `nslookup` is there instead and does the same job with different output:
+The **server** line is the machine that answered this query, and on most home connections it is your own router, which then asked somebody else. Unless that was changed, the chain ends at your internet provider. That is the party drawn off to the side in the figure above, and it is the one most people have never thought about.
+
+Be careful how far you carry it, though, because `dig` is only telling you about your operating system's resolver and **your browser may not be using it.** Firefox has sent its own lookups to a resolver it chose, rather than to the one your machine is configured with, by default for users in the United States since February 2020.[4] `dig` cannot see that and cannot tell you about it, because it knows nothing about your browser. So the honest reading of the server line is "this is who answers when my operating system asks", which is not always who answers when you type into the address bar.
+
+:::callout If `dig` is not there, and what Windows gives you instead
+`dig` comes with macOS. On Debian and Ubuntu it is usually not installed and neither is `traceroute`; they live in the `dnsutils` package, called `bind9-dnsutils` on newer systems, and the `traceroute` package, and your system's software installer will fetch both.
+
+In Git Bash on Windows `dig` is usually absent and `nslookup` is there instead. It will give you the two things you most need:
 
 ```
 nslookup wikipedia.org
 ```
 
-Read its answer the same way: a name, an address, and the server that told you.
+Read that answer the same way, a name, an address, and the server that told you. **What it will not give you is the time to live or a query time.** Neither is in the default output at all, so the countdown described above is not there to watch.
+
+To get at it, add `-debug`, which Microsoft's own documentation describes as showing "more information about the packet sent to the server and the resulting answer":[3]
+
+```
+nslookup -debug wikipedia.org
+```
+
+That prints the whole answer packet rather than the summary, and the time to live is in there on a line beginning `ttl =`. That last detail is reported rather than documented, so treat what your own machine prints as the authority on it.
 :::
 
 ### The route
 
-A route trace sends packets with a deliberately short life and collects the complaints, which gives you a list of the machines along the way.
+A route trace sends packets with a deliberately short life and collects the complaints, which gives you a list of the machines along the way. Each machine that takes your packet and passes it on is one **hop**, and a trace prints one line per hop.
 
-On macOS and Linux it is `traceroute`. On Windows it is `tracert`, and in Git Bash `tracert` also works.
+On macOS and Linux it is `traceroute`. On Windows it is `tracert`, which does work in Git Bash, but **its flags are not the same ones** and copying the line below will strand you. `tracert` counts hops with `-h` rather than `-m`. It has no `-q` at all, because it always sends three probes to each hop, so its output has three time columns rather than one. And it takes `-w` in **milliseconds** rather than seconds, so `-w 1` asks every machine on the path to answer inside a thousandth of a second and every one of them fails to.[3] The Windows form of the command below is:
 
-Here is a real one, run from the machine this lesson was written on.[2] The public addresses have been replaced, because they are somebody's home connection:
+```
+tracert -h 12 -w 1000 wikipedia.org
+```
+
+This one was run from the machine this lesson was written on.[2] Every address after hop one has been replaced with a description, because together they identify a particular home connection:
 
 ```
 $ traceroute -m 12 -w 1 -q 1 wikipedia.org
@@ -207,14 +231,18 @@ traceroute to wikipedia.org (208.80.153.224), 12 hops max
  7  *
 ```
 
-Read it from the top. Hop one is the router in the house, at a `192.168.` address, which is the range reserved for private networks, and which is why yours will look similar. Hops two, three and four are inside the internet provider. Then it goes quiet.
+The asterisk rows carried on to the twelfth hop, where the limit stopped it. The sample is cut at seven so that it fits the page.
+
+Read it from the top. Hop one is the router in the house, at a `192.168.` address. Three ranges are set aside for private networks, `10.`, `172.16.` through `172.31.`, and `192.168.`, and home routers usually sit in the last of them, so yours will probably look similar. If yours starts with `10.` instead, nothing is wrong. Hops two, three and four are inside the internet provider. Then it goes quiet.
 
 **The asterisks are the most instructive part of the output, and they do not mean the path is broken.** They mean those machines chose not to announce themselves, which many are configured not to do. The page loads perfectly. What you've learned is real: the first four rungs of the ladder are where you thought they were, and after that the path is somebody else's business.
 
 :::predict You run the same trace twice, five minutes apart, and the middle of it is different the second time. What does that tell you?
-That nobody is steering. The route is decided hop by hop by each machine in turn, according to what it knows about the network at that moment, and it can change between one request and the next.
+That nobody is steering the whole of it. The route is decided hop by hop by each machine in turn, according to what it knows about the network at that moment, and it can change between one request and the next.
 
-Which is the point about the path that matters for the rest of the course: **you did not choose it, the site did not choose it, and it is not the same every time.** That is why the answer to "who can see this" is never a list of named companies. It is "whoever is on the path today", and the only durable defence is not caring, because what you sent was unreadable to them. Lesson 8 is about exactly that.
+A large service does make choices about part of it. It buys transit from particular networks and it decides where to put its copies, which shapes the last stretch of the path. What neither of you has any say over is the middle.
+
+Which is the point about the path that matters for the rest of the course: **you did not choose the middle of it, and it is not the same every time.** That is why the answer to "who can see this" is never a list of named companies. It is "whoever is on the path today", and the only durable defence is not caring, because what you sent was unreadable to them. Lesson 8 is about exactly that.
 :::
 
 ## Working out which rung failed
@@ -251,9 +279,11 @@ The extra rung in an office is worth naming out loud, because it is the answer n
 
 **"The website is a computer somewhere and I am talking to it."** Mostly you are talking to a copy held much nearer than the company itself, and your page is pulling pieces from several other companies at the same time. "Which computer am I talking to" usually has more than one answer.
 
-**"Home Wi-Fi is safe because it has a password."** The participants in the 2015 study said this, and it's worth being exact about what the password does.[1] It decides **who may join the network inside your house**. Everything from your router onwards, which is six of the seven parties in the figure, is entirely untouched by it. A password on your Wi-Fi is a lock on your front door, and the postal system is unaffected.
+**"Home Wi-Fi is safe because it has a password."** What the participants in the study actually said was that their home network was *safer than public Wi-Fi*, because of its password and its settings.[1] That's a comparison rather than a verdict, and as a comparison it's fair. The trouble starts when it's heard as one, so it's worth being exact about what the password actually does. It decides **who may join the network inside your house**. Everything from your router onwards, which is six of the seven parties in the figure, is entirely untouched by it. A password on your Wi-Fi is a lock on your front door, and the postal system is unaffected.
 
-**"My internet provider just carries the data."** It carries the data, and unless you changed a setting it also answers your name lookups, which means it holds a list of every site you asked for by name. Those are two different kinds of knowing and the second is the more revealing.
+**"My internet provider just carries the data."** It carries the data, and on most home connections it also answers your name lookups, which means it sees the *name* of every site you ask for and not only the address. Those are two different kinds of knowing and the second is much the more revealing, because a name is the site and an address often is not.
+
+Be careful about the next step, though, which is the one people take without noticing. Seeing is not the same as keeping. Whether a provider records what it saw, and for how long, varies by company, by contract and by country, and this course has not read the research that would let it tell you what yours does. What's certain is that the name is available to it. What happens to it afterwards is a question you'd have to ask.
 
 **"If the site is slow, my connection is slow."** It might be. It might also be one of a dozen other companies whose script the page is waiting on, or a name lookup that is timing out, or a copy that is further away than usual. "Slow" is a symptom at the top of the ladder and its cause is usually further down.
 
@@ -264,9 +294,9 @@ Take 20 minutes. Use a site you visit most days rather than the one in this less
 
 1. Run the short name lookup on your domain and write down the address it returns.
 
-2. Run the long form. Find the answer section, the number beside the address, and the server line. Write down all three, and say in one sentence what the server line tells you about who answers your name lookups.
+2. Run the long form. Find the answer section, the number beside the address, and the server line. Write down all three, and say in one sentence what the server line tells you about who answers your operating system's name lookups. On Windows use the `-debug` form from the callout above, because the plain output has neither of the numbers you need.
 
-3. Run the same lookup a second time and compare the query time. Write down both numbers.
+3. Run that same lookup twice more, about thirty seconds apart, and write down the number beside the address each time. Say in one sentence what the change in that number tells you, and what it would have meant if it had gone back up to where it started.
 
 4. Run the route trace. Write down how many hops answered before the first asterisk, and what the first hop's address is.
 
@@ -278,13 +308,13 @@ Take 20 minutes. Use a site you visit most days rather than the one in this less
 :::exercise Draw it again, and count who can see you
 Take 15 minutes. Get out the drawing you made before you started reading.
 
-1. Draw the internet again, without looking at the first one.
+1. Draw both of them again, the internet and what happens when you visit a website, without looking at the first pair.
 
-2. Now put the two side by side. Write down every party that is in the second drawing and not the first.
+2. Now put the two pairs side by side. Write down every party that is in the second pair and not the first.
 
-3. List three parties who can tell that you visited your chosen site. Be specific: not "hackers", but a named kind of party from the figure.
+3. With the lesson closed, list three parties who can tell that you visited the site you chose. Be specific: not "hackers", but a named kind of party.
 
-4. Name one party who cannot tell. This is harder than it sounds, and it's the question lesson 8 answers properly, so an incomplete answer here is the right kind of incomplete.
+4. Name the one party that cannot tell which site it was, and say in a sentence why not. Then say what it *can* tell.
 
 5. Go back to the security plan you wrote in lesson 1. Add any party from this lesson that your plan had no room for. That is Kang's finding happening to you rather than to somebody in a study.
 :::
@@ -304,10 +334,12 @@ Lesson 1's security plan gains named parties, which is the whole of what this le
 ## Go deeper
 
 - **[Kang, Dabbish, Fruchter and Kiesler, "My Data Just Goes Everywhere"](https://www.usenix.org/system/files/conference/soups2015/soups15-paper-kang.pdf)** (2015), free from the symposium. Read it for the drawings and the quotations. The participants describe the internet in their own words and it is the best argument I know for why this lesson exists.
+- **[MDN, "How does the Internet work?"](https://developer.mozilla.org/en-US/docs/Learn_web_development/Howto/Web_mechanics/How_does_the_Internet_work)**, free and under a Creative Commons licence. Mozilla's own beginner's account of the same machinery, working upwards from cables and switches to routers and providers, which is the opposite order from this lesson. Read it for the half this lesson deliberately left out, and for the distinction between the internet and the web.
 - **Your own browser's developer tools.** Press F12, or Command, Option and I on a Mac, open the Network tab, and reload a page you use. Every row is one of the trips described in step four above. Counting the companies on a news site is a five-minute exercise that does more than another thousand words here would.
 
 ## Sources
 
-1. Ruogu Kang, Laura Dabbish, Nathaniel Fruchter and Sara Kiesler, "'My Data Just Goes Everywhere': User Mental Models of the Internet and Implications for Privacy and Security", *Symposium on Usable Privacy and Security*, 2015, pages 39 to 46. Read in full. Supplies the drawing method, the 28 participants split 17 lay and 11 technical, the finding that 14 drew a simple single-box internet of whom 13 were lay users, the comparison of how many parties each group named (about 4 against about 2.56), and the belief that home Wi-Fi is safe because it has a password.
-2. Checked on the machine this lesson was written on, macOS, September 2026. `dig +short wikipedia.org` returned `208.80.153.224`; the long form reported a query time of 27 milliseconds, a time-to-live of 145 seconds, and a server on the local network; and `traceroute -m 12 -w 1 -q 1 wikipedia.org` answered for four hops and then returned asterisks to the limit while the site loaded normally in a browser. The public addresses in the sample above are replaced with descriptions, because they belong to a particular home connection.
-3. This lesson takes its top-down order, starting at what the reader already does and working downwards, from the standard undergraduate networking text's first chapter. That is a choice about teaching sequence rather than a claim taken from the book, and the book is in this course's `unread:` line, so nothing here is attributed to it and its authors are not named.
+1. Ruogu Kang, Laura Dabbish, Nathaniel Fruchter and Sara Kiesler, "'My Data Just Goes Everywhere': User Mental Models of the Internet and Implications for Privacy and Security", *Symposium on Usable Privacy and Security*, 2015, pages 39 to 46. Read in full. Supplies the drawing method, the 28 participants split 17 lay and 11 technical, the finding that 14 drew a simple single-box internet of whom 13 were lay users, the comparison of how many parties each group named (about 4 against about 2.56), and the belief about home Wi-Fi. That belief is **comparative in the paper**, that a home network is safer than public Wi-Fi because of its password and its settings, and this lesson states it that way; an earlier draft inherited a trimmed absolute form. The date is the year of publication, which is the only date the citation carries; the paper's fieldwork dates are not repeated here because they were not read.
+2. Checked on the machine this lesson was written on, macOS, September 2026. `dig +short wikipedia.org` returned `208.80.153.224`. The long form reported a time to live of 145 seconds and a server on the local network. **Run seven times over about ten seconds, the time to live counted down 107, 99, 97, 95, 93, 90 and the query times were 26, 29, 32, 30, 25, 25 and 29 milliseconds**, never zero and never falling: `dig` queries the configured server on every run rather than reading the operating system's cache, which is why the countdown and not the query time is where the cache is visible. An earlier draft of this lesson claimed the second query time is "often reported as `0 msec`", which is false on the setup described here and was corrected on 19 September 2026. `traceroute -m 12 -w 1 -q 1 wikipedia.org` answered for four hops and then returned asterisks to the twelfth, where the limit stopped it, while the site loaded normally in a browser. Every address after hop one in the sample above is replaced with a description, because together they identify a particular home connection.
+3. Microsoft, "nslookup", "nslookup set debug" and "tracert", learn.microsoft.com. Read 19 September 2026. Supplies the `nslookup -debug` form and the sentence quoted from it about showing more information about the packet and the answer, which is verbatim; and the whole of the `tracert` flag warning, namely that hops are set with `/h` (which also works as `-h`), that the timeout `/w` is in milliseconds with a default of 4000, that there is no `-q` or `-m`, and that the documented example output carries three time columns per hop. That the default `nslookup` output contains neither a time to live nor a query time is from the same pages, which document no such fields. The `ttl =` line inside debug output is **not** in the documentation and is marked in the lesson as reported rather than documented.
+4. Mozilla, "Firefox continues push to bring DNS over HTTPS by default for US users", blog.mozilla.org, 25 February 2020. Read 19 September 2026. Supplies the single claim it is cited for: that Firefox began sending lookups to a resolver of its own by default for users in the United States from that date, rather than to the one the operating system is configured with. It is cited because it falsifies "unless you changed a setting", which an earlier draft of this lesson said.

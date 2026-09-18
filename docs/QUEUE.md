@@ -21,15 +21,11 @@ and it never feels that way while you are writing it.
 
 Rewrite these five lines each session. Nothing else goes in this block.
 
-- **DO THIS FIRST, before anything else on this course: apply lesson 7's Stage 4 review.** It is
-  written in full at `courses/computer-science-and-ai/digital-literacy/research/reviews/07-from-an-address-to-a-page.md`
-  and **the fixes have not been applied**, because the session of 2026-09-18 ran out of time between
-  the review returning and the work. Three criticals: a query-time claim that is false on the
-  reader's own machine and that an exercise step and a quiz item both rest on; an SVG that puts the
-  name resolver on the connection path when the body teaches it as a separate lookup that finishes
-  first, **which lesson 8 is scheduled to reuse**; and a Windows reader who cannot do three of the
-  four practice steps. Ten more findings below those. `npm run state` will say "draft lesson 8"; do
-  this first, because lesson 8 inherits the figure.
+- **Lesson 7's Stage 4 review is applied**, on 2026-09-19, all twenty-five findings, with what was
+  done to each recorded at the foot of the review file. **Lesson 8 should read that record before it
+  reuses the figure**, because the figure changed: the name resolver is now a side branch off "Your
+  device" with a return arrow, not a rung on the connection path, and the last segment to the service
+  is dashed. The overlay lesson 8 was planning has a different shape to overlay.
 
 - **Current course:** **Digital Literacy.** Stages 1 and 2 are done and drafting is under way.
   `npm run state` names the next lesson. Read the outline's **"Six decisions this outline settles"**
