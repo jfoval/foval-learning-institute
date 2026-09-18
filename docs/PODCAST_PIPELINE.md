@@ -40,20 +40,24 @@ words a minute and comes out about 20% high, which is the direction an estimator
 
 **A normal 900 to 1,300 word episode costs 16 to 23 cents.** Budget **$0.22** as the working figure.
 
+**Confirmed over a whole course.** How to Learn Anything's eight episodes were rendered on
+2026-09-18 and billed **$1.61 in total, $0.20 each**, every one passing on its first attempt. The
+per-episode spread was $0.17 to $0.23.
+
 ### What finishing the institute costs
 
-Sixty episodes are owed as of 2026-09-18. At measured rates:
+Fifty-three episodes are owed as of 2026-09-18, How to Learn Anything having been finished that
+day. At measured rates:
 
 | Course | Term | Episodes owed | Scripts ready | Estimated cost |
 |---|---|---|---|---|
-| How to Learn Anything | 1 | 7 | 7 | $1.33 |
 | Logic and Argument | 1 | 10 | 3 | $2.24 |
 | Writing Clearly | 1 | 9 | 0 | $1.96 |
 | Personal Finance | 2 | 10 | 3 | $2.16 |
 | Algebra Essentials | 5 | 6 | 0 | $1.31 |
 | Python Basics | 6 | 6 | 0 | $1.31 |
 | Bible Basics | 8 | 12 | 1 | $2.61 |
-| **Total** | | **60** | **14** | **about $13** |
+| **Total** | | **53** | **7** | **about $11** |
 
 Writing a script costs nothing at the API. Only the render spends.
 

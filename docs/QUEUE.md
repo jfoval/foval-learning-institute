@@ -12,17 +12,16 @@ through.
 
 Rewrite these five lines each session. Nothing else goes in this block.
 
-- **Current course:** How to Learn Anything, finishing its episodes on the new pipeline. Reading
-  Well runs alongside under the `docs/DECISIONS.md` §2 exception, now at Stage 3.
-- **Current lesson:** How to Learn Anything lesson 1's episode is live and approved by John; lessons
-  2 to 8 are next, and their scripts are already written and fact-checked.
-- **Current stage:** Stage 6, one episode at a time. **`docs/PODCAST_PIPELINE.md` is the manual**:
-  method, measured cost, the order, and the five rules that keep the spending sane.
-- **Blocked on:** nothing. The Gemini spend cap is the only limit: $23.39 of $30 used in September,
-  about $6.61 left, resetting on the 1st. That is roughly thirty episodes of headroom.
-- **Next action:** `node scripts/podcast.mjs render courses/learning-and-mind/how-to-learn-anything/lessons/02-how-memory-works.md`
-  to see the cost, then the same with `--go`. Pure render, about $0.24. Then lessons 3 to 8, which
-  finishes the course.
+- **Current course:** How to Learn Anything is **finished**: eight lessons, eight episodes, off the
+  debt ledger. Next is Logic and Argument. Reading Well's drafting runs alongside.
+- **Current lesson:** none in flight. Logic and Argument lessons 1 to 3 have scripts written and
+  fact-checked; lessons 4 to 10 need scripts, which cost nothing.
+- **Current stage:** Stage 6, one episode at a time. `docs/PODCAST_PIPELINE.md` is the manual.
+- **Blocked on:** nothing. September's Gemini cap has about $4.40 left of $30, resetting on the 1st;
+  Logic and Argument's ten episodes need about $2.
+- **Next action:** `node scripts/podcast.mjs render courses/foundations/logic-and-argument/lessons/01-what-an-argument-is.md`
+  then `--go`. Its script is ready. After lessons 1 to 3, write the remaining seven with
+  `/make-podcast`, one per session.
 
 ## The queue, top to bottom
 
@@ -30,21 +29,21 @@ A course is done when every lesson is at standard **and** every lesson has an ep
 validate` enforces the second half against `curriculum/audio-debt.yaml`, which only shrinks.
 
 **All seven live courses are through Stage 4 and the voice pass, so every one is ready for
-episodes.** Sixty are owed, about $13 in total. The order below is Core term order, costed per
-course in `docs/PODCAST_PIPELINE.md` section 3. Finish a course before starting the next.
+episodes.** Fifty-three are owed, about $11 in total, at a measured $0.20 each. The order is Core
+term order, costed per course in `docs/PODCAST_PIPELINE.md` section 3. Finish a course before
+starting the next.
 
-1. **How to Learn Anything, lessons 2 to 8.** Term 1, about $1.33. All seven scripts are written,
-   fact-checked and open with Haley: pure rendering. First because it returns the institute's first
-   complete course to complete.
-2. **Logic and Argument, all ten.** Term 1, about $2.24. Lessons 1 to 3 have scripts; seven need
+**How to Learn Anything is done**, finished 2026-09-18: eight episodes, $1.61, every one passing on
+its first attempt. It is the first course finished by the institute's own definition.
+
+1. **Logic and Argument, all ten.** Term 1, about $2.00. Lessons 1 to 3 have scripts; seven need
    writing, which costs nothing at the API.
-3. **Writing Clearly, all nine.** Term 1, about $1.96. Voice pass finished 2026-09-17 and was light.
+2. **Writing Clearly, all nine.** Term 1, about $1.80. Voice pass finished 2026-09-17 and was light.
    No scripts yet. Finishing this one **completes Term 1 of the Core**.
-4. **Personal Finance, all ten.** Term 2, about $2.16. Lessons 1 to 3 have scripts.
-5. **Algebra Essentials, all six.** Term 5, about $1.31. Voice pass finished 2026-09-17 and
-   `npm run validate` prints no warnings for it now.
-6. **Python Basics, all six.** Term 6, about $1.31.
-7. **Bible Basics, all twelve.** Term 8, about $2.61. Lesson 2 has a script.
+3. **Personal Finance, all ten.** Term 2, about $2.00. Lessons 1 to 3 have scripts.
+4. **Algebra Essentials, all six.** Term 5, about $1.20.
+5. **Python Basics, all six.** Term 6, about $1.20.
+6. **Bible Basics, all twelve.** Term 8, about $2.40. Lesson 2 has a script.
 
 8. **Charts on a phone. 28 left**, all of them viewBox 584 with 15px labels, which render at 8.8px
    against a 10px floor. The validator names each one, by course: Personal Finance 13, How to Learn
@@ -100,7 +99,7 @@ These have no session that owns them, which is how they were being skipped.
 
 | Course | Term | Lessons | Avg words | Stage 4 | Assessments | Episodes | Owes |
 |---|---|---|---|---|---|---|---|
-| How to Learn Anything | T1 | 8 | 7,216 | 8 | 2 | 1 of 8 | 7 episodes |
+| How to Learn Anything | T1 | 8 | 7,216 | 8 | 2 | 8 of 8 | **nothing** |
 | Logic and Argument | T1 | 10 | 9,380 | 10 | 2 | 0 of 10 | 10 episodes |
 | Bible Basics | T8 | 12 | 13,163 | 12 | 2 | 0 of 12 | 12 episodes |
 | Personal Finance | T2 | 10 | 5,932 | 10 | 2 | 0 of 10 | 10 episodes |
@@ -108,9 +107,9 @@ These have no session that owns them, which is how they were being skipped.
 | Writing Clearly | T1 | 9 | 4,646 | 9 | 2 | 0 of 9 | 9 episodes |
 | Python Basics | T6 | 6 | 3,095 | 6 | 2 | 0 of 6 | 6 episodes |
 
-Sixty-one lessons live, one with audio. The count fell from fourteen on 2026-09-18: every episode
-shipped before that date faded out by its end and was deleted at John's instruction, and they come
-back one at a time on the pipeline that works. See `docs/DECISIONS.md` section 7. `/status` recomputes this table and rewrites it here
+Sixty-one lessons live, eight with audio, all eight rendered on 2026-09-18 on the settled pipeline.
+The count had fallen to one that day: every episode shipped before it faded out by its end and was
+deleted at John's instruction. They come back course by course. See `docs/DECISIONS.md` section 7. `/status` recomputes this table and rewrites it here
 when it has drifted.
 
 ## Waiting on John

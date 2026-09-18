@@ -77,17 +77,23 @@ const OUTPUT_TOKEN_CEILING = 16384; // the model's own limit, about ten minutes
 const COST_CAP = 0.6;
 const LENGTH_MIN = 0.6, LENGTH_MAX = 1.7;
 const LEVEL_FLOOR = -30, LEVEL_SPREAD = 6;
-// Two different questions, and they need two different tolerances. Measured 2026-09-18 over the
-// first two Pro episodes and the retired renders:
-//   within an episode  lesson 1 drifted 5.3% from its first third to its last, lesson 2 6.8%, and
-//                      a retired faded render 13.8%. This is what a listener hears, because nobody
-//                      A/Bs minute six of one episode against minute two of another. Threshold 10%.
-//   between episodes   lesson 1's John sat at 94 Hz and lesson 2's at 88, 6.2% apart, and both
-//                      sound like the same man to John, who listened. A single episode was a bad
-//                      thing to calibrate a tolerance from: 6% rejected a good episode and would
-//                      have burned about $0.20 a time doing it. 12% still catches a real recast
-//                      (Pro's Charon and Flash's are 20% apart) or an outright wrong voice.
-const MATCH_PITCH = 0.12, DRIFT_MAX = 0.10, MATCH_MIN_FRAMES = 80;
+// Two different questions, and they need two different tolerances. Both numbers below are set from
+// eight rendered episodes and John's ear on all of them, not from theory.
+//
+//   within an episode  the only one a listener can actually hear, because nobody A/Bs minute six of
+//                      one episode against minute two of another. Across the eight: 0.0, 1.8, 1.9,
+//                      4.1, 5.2, 5.3, 7.2 and 9.9%. John listened to the lot and called them all
+//                      good, including the 9.9% one, so 10% sits just above what he cannot hear.
+//                      Worth keeping tight: what he DID hear on the retired engine was a 12% jump
+//                      at a chunk seam, and a step is far more audible than the same number spread
+//                      smoothly over seven minutes.
+//   between episodes   this one has never caught a real defect and has cost money being wrong. It
+//                      rejected lesson 2 at 6.2%, which John then approved by ear, and across the
+//                      eight John's overall pitch ranged 85 to 103 Hz with every episode sounding
+//                      like the same man. So it is no longer a similarity test, it is an identity
+//                      test: 20% is where a genuinely different voice lives (Pro's Charon and
+//                      Flash's are 20% apart), and normal variation will never reach it again.
+const MATCH_PITCH = 0.20, DRIFT_MAX = 0.10, MATCH_MIN_FRAMES = 80;
 const CURL_MAX_SECONDS = 1500;
 
 const args = process.argv.slice(2);
@@ -292,7 +298,7 @@ function gate(file, s) {
   if (ref) for (const [host, name] of [["john", "John"], ["haley", "Haley"]]) {
     if (a[host].frames < MATCH_MIN_FRAMES) continue;
     match[host] = Math.abs(Math.log(a[host].med / ref[host].med));
-    if (match[host] > MATCH_PITCH) why.push(`${name} is ${(match[host] * 100).toFixed(1)}% off the reference pitch (${a[host].med.toFixed(0)} vs ${ref[host].med.toFixed(0)} Hz)`);
+    if (match[host] > MATCH_PITCH) why.push(`${name} is ${(match[host] * 100).toFixed(1)}% off the reference pitch (${a[host].med.toFixed(0)} vs ${ref[host].med.toFixed(0)} Hz), which is a different voice, not a variation`);
   }
   const m = h => match[h] !== undefined ? `${(match[h] * 100).toFixed(1)}%` : "n/a";
   const dr = h => drift[h] ? `${(drift[h].d * 100).toFixed(1)}% (${drift[h].from.toFixed(0)}->${drift[h].to.toFixed(0)} Hz)` : "n/a";

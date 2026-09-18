@@ -92,6 +92,49 @@ two-speaker ceiling near 3,000 characters.
 - `docs/DECISIONS.md` §7 rewritten: the drift is no longer accepted, the fourteen pre-2026-09-17
   episodes are to be re-rendered (about $5), and the engine and hosts stay as they were.
 
+## 2026-09-18 (second session) — How to Learn Anything is finished, and the gate is calibrated by ear
+
+**The institute has its first course finished by its own definition:** eight lessons at standard,
+eight episodes live and stamped, and `how-to-learn-anything` deleted from `curriculum/audio-debt.yaml`.
+All eight rendered on the settled pipeline, **$1.61 in total, $0.20 each, every one passing on its
+first attempt.** The predicted figure was $1.52, so the estimator is honest.
+
+**John listened to all eight and approved them.** That listening also settled how the gate should be
+tuned, which matters more than the episodes themselves, because it is what the next fifty-three run
+through. Across the eight, John's voice drifted 0.0, 1.8, 1.9, 4.1, 5.2, 5.3, 7.2 and 9.9% from the
+first third of an episode to the last, and his overall pitch ranged 85 to 103 Hz. Every one sounds
+like the same man to the only ear that counts.
+
+So the two pitch checks were doing different jobs and only one of them was worth money:
+
+- **Drift within an episode stays tight at 10%.** It is the only figure a listener can hear, since
+  nobody compares minute six of one episode with minute two of another. Lesson 5 at 9.9% sounds
+  right, so the threshold sits just above the audible edge. What John *did* hear on the retired
+  engine was a 12% jump at a chunk seam, and a step is far more audible than the same number spread
+  smoothly over seven minutes.
+- **Difference between episodes goes from 12% to 20%, and stops being a similarity test.** It had
+  never caught a real defect and had cost money being wrong: it rejected lesson 2 at 6.2%, which
+  John then approved by ear, wasting $0.20 and a round trip. At 20% it is an identity test, which is
+  where a genuinely different voice lives (Pro's Charon and Flash's are 20% apart), and normal
+  variation will never reach it again.
+
+**The gate now prints its own drift figure.** The first version of that check had its threshold set
+from an ad-hoc script measuring the file duration while the gate measured the span to the last
+audible frame. The two disagreed by about a point, which is enough to matter at a 10% threshold. A
+threshold whose number nobody can see is a threshold nobody can calibrate.
+
+**The checks were re-verified rather than trusted.** All eight live episodes pass the retuned gate;
+the retired faded render of lesson 2 still fails on four counts (voices swapped at the open, 16 dB
+of fade, 164 seconds of speech where 458 were expected, and 13% drift). That is the point of the
+gate: it is worthless on a good render and it is the only thing standing between R2 and another
+catalogue like the one that had to be deleted.
+
+Also this session: `upload` re-runs the gate on the exact file it is about to publish, after `plan`
+offered to upload a retired fal-era MP3 for a lesson whose new render had just failed; the thirteen
+retired renders moved to `audio-out/retired/`; and `scripts/podcast-compare.mjs`, the 2026-09-06
+engine bake-off, was deleted along with its samples, because it named two retired engines and read a
+key nothing uses.
+
 ## 2026-09-18 — The podcast method is settled: one Pro call an episode, and the catalogue reset
 
 **John approved a rendered episode by ear, and the institute has a podcast pipeline that works.**
