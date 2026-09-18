@@ -171,7 +171,7 @@ the debt is.
   domain. Delivered at Rusholme, Manchester, in December 1864 in aid of a library fund, and published
   the following year. Used in lesson 6 as something to mark and in lesson 7 as something to judge: one
   paragraph on looking intensely at words, in which Ruskin uses "literature" and "illiterate" in
-  senses of his own and signals it by putting them in quotation marks himself. **The paragraph
+  senses of his own and signals it, or his compositor does, by putting both in quotation marks. **The paragraph
   continues past the point where lesson 6 stops quoting it**, into the "peerage" of words, words of
   "ancient blood" against words of "modern canaille", and a mistaken syllable rightly marking a man
   inferior "for ever"; there his subject is class rather than reading. **Any lesson quoting this
@@ -193,9 +193,12 @@ the debt is.
   backwards twice, in opposite directions, before a third pass caught it.
 
   **The class passage, for any lesson that reaches it.** After the cut, Ruskin writes that a false
-  accent or mistaken syllable is enough "to assign to a man a certain degree of inferior standing for
-  ever", follows it with "And this is right", and then complains that the accuracy so insisted on is
-  not greater and is not "required to a serious purpose". Lesson 7 sorts that sentence and finds it
+  accent or a mistaken syllable is enough, **"in the parliament of any civilized nation"**, "to assign
+  to a man a certain degree of inferior standing for ever", follows it with "And this is right", and
+  then says it is right that a false Latin quantity should raise a smile in the House of Commons and
+  wrong that a false English meaning should not raise a frown. **Do not drop the parliament phrase**:
+  without it the sentence reads as a free-standing decree about ranking men, and three files in this
+  course had dropped it before a third pass caught it. Lesson 7 sorts that sentence and finds it
   falls on none of Adler's four grounds, because it is a judgement of value rather than a claim about
   what is the case. **That is the fair handling, and this course does not adjudicate the view
   itself.**
@@ -274,7 +277,8 @@ the debt is.
 
   **What lesson 8 reads, added 2026-09-18.** It first-passes this paper live, so it also uses the full
   heading structure, the Recommendations section and the section headed Remaining issues. **The paper
-  has nineteen substantive top-level headings**, and the three sub-headings of the General discussion
+  has nineteen substantive top-level headings**, the introduction and the eighteen that follow it,
+  before Data availability, Acknowledgements, Appendix A and References, and the three sub-headings of the General discussion
   are written as whole declarative sentences, which is why a first pass on it gets its conclusions for
   nothing: "Normal silent reading rate in English is 238 wpm for non-fiction and 260 wpm for fiction";
   "There is no evidence for reading gears except for the distinction between reading and scanning";
@@ -386,7 +390,9 @@ the debt is.
   SIGCOMM Computer Communication Review*).** **Read in full** from the
   [Stanford course copy](https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf). The
   three-pass method, with his own time budgets. **First pass, five to ten minutes**: read title,
-  abstract and introduction carefully; read the section headings and ignore everything else; read
+  abstract and introduction carefully; read the section **and sub-section** headings and ignore
+  everything else (those two words matter: dropping them is what blended two heading levels into one
+  list in lesson 8's first draft); read
   the conclusions; glance over the references. Afterwards you should be able to answer the **five
   Cs**, and Keshav defines each: **Category**, what type of paper this is, a measurement paper, an
   analysis of an existing system, a description of a research prototype; **Context**, which other

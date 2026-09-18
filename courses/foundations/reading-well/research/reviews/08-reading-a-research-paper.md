@@ -79,3 +79,48 @@ do is reach the paper behind it.
 **Status after review:** a second pass is owed on the three rewritten passages, and the reviewer
 scoped it and said what each repair was for, per course-wide finding 9. `npm run validate` exits 0,
 `npm run quiz` reports nothing for this lesson, `minutes` is 95 with an `EXCEPTIONS` entry.
+
+## 2026-09-18 — Lesson 08 — second pass
+**Reviewer:** fresh-context subagent, which read the PDF's bookmark tree with `pypdf` rather than a
+text dump. **All eleven quotations verbatim again**, across five sources.
+
+**Findings:**
+
+1. [critical] **The lesson said nineteen and printed eighteen**, in the one paragraph that dares the
+   reader to check, in the same sentence the first review found off by twelve. Nineteen is right only
+   counting the introduction, which the lesson handles as its own bullet, and only excluding the four
+   back-matter headings the PDF also carries at top level, which the lesson neither listed nor
+   excluded, so a reader counting in the PDF arrives at twenty-three and cannot see how the lesson
+   got nineteen. The error was repeated in footnote 3 and in `SOURCES.md`.
+2. [critical] The Category answer still called the new study "small" eight lines after the lesson had
+   added a sentence saying the first pass cannot tell you how big it is.
+3. [high] **The predict overcorrected.** The repair was for "both findings are in the methods", which
+   was false of the second. It now credited the second pass with the first finding entire, when the
+   reviewers say they found the vocabulary-and-trivia emphasis "**when analyzing** the measures",
+   which meant obtaining them. Which instrument a study used is in a methods section; what the
+   instrument asks is not.
+4. [high] Two new flat universals introduced by the repair, which is the defect class the first
+   review raised: "No paper reports that its own passage was harder than it looks", false of a
+   literature that routinely reports readability scores; and a bolded rule that a surname heading
+   means the paper will argue with that person, contradicted by the lesson's own Context answer
+   eleven lines later.
+5. [high] The Carey quotation used at a wider scope than the source gives it: "no correct or
+   incorrect approach" is about whether you take the figures before the results text, not about the
+   order of sections, and as printed it made Carey contradict the lesson's own central claim.
+6. [high] The Connections paragraph sorted an overclaiming abstract onto lesson 7's fourth ground,
+   where lesson 7 puts exactly that objection onto rule 11 instead.
+7. [medium] "two findings" over a sentence listing three charges; the Delgado sentence vouching for
+   lesson 4's sourcing more than lesson 4 can carry; peer review stated as definitional where it is
+   typical; a sixteen-word clause reused verbatim from lesson 3 below the validator's threshold; and
+   `SOURCES.md` still carrying the Keshav misquote whose two dropped words caused the original
+   heading error, so the next drafter would have inherited it.
+
+**Resolutions:** all applied. The heading paragraph now gives the count with its basis, prints the
+eighteen post-introduction headings in full and in order, and names the four back-matter headings it
+is excluding, so a reader counting in the PDF can reconcile. `SOURCES.md` now records both the count
+with its basis and Keshav's instruction with its two restored words and a note saying why they
+matter.
+
+**Status after review:** a third pass is owed on the heading paragraph and its downstream counts, and
+on the predict's methods claim, which is what the reviewer scoped it to, because both have now been
+wrong twice in the same place.

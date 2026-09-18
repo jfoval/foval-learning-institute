@@ -26,9 +26,8 @@ Rewrite these five lines each session. Nothing else goes in this block.
   re-check is out**. Lessons 3, 5, 6 and 7 have all been through a review and
   had every finding applied; lesson 3 has also passed a neutrality audit. Lessons 6 and 7 have also been through a second pass and
   **owe a third** on the passages those passes rewrote, which is where this course's defects now
-  live: a repair fails in the opposite direction about half the time. Lessons 8 and 10 are drafted and their reviews are out. **Lesson 9 is the
-  only one left to draft**, it is in a 3.4 domain, its neutrality audit is mandatory, and its two
-  primary documents are being sourced and verified now. **The project brief is written.** What is left of the
+  live: a repair fails in the opposite direction about half the time. Lessons 8 and 10 are drafted and their reviews are out. **All ten lessons are drafted**. Lesson 9 is in a 3.4 domain, its neutrality audit is mandatory and is out, and its two primary
+  documents were sourced and verified first. **The project brief is written.** What is left of the
   assessments is the twenty-item course-end test, which `research/OUTLINE.md` blueprints by objective
   and which needs at least twelve application items and two cross-lesson ones; two of its items are
   on a supplied pair of documents and so wait on lesson 9.

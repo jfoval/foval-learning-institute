@@ -159,3 +159,46 @@ corrected with a warning attached, since two lessons shipped a wrong lesson numb
 note, with the Gutenberg text open, because the reviewer's own warning is that this passage has now
 produced a defect on two consecutive repairs. `npm run validate` exits 0, `npm run quiz` reports
 nothing for this course.
+
+## 2026-09-18 — Lesson 06 — third pass, and an apply pass on its findings
+**Reviewer:** fresh-context subagent with the Gutenberg text open at the paragraphs before the
+extract. **Critical: empty, and it said so rather than filling it.** It re-diffed the blockquote
+(1,042 characters, byte-equal) and re-counted the cut (exactly 221 words, so the lesson's figure was
+right).
+
+**Findings:** two of the three twice-rewritten passages had failed a third time, in a third
+direction.
+
+1. [high] **Mark 6, third failure.** Version 1 joined Ruskin and Adler; version 2 split them on the
+   destination; version 3 split them on the route, saying "Ruskin thinks the etymology gets you
+   there". His own text refuses it: the miner figure two paragraphs before the extract makes words
+   "the rock which you have to crush and smelt" to reach "the author's mind or meaning", and one
+   sentence after the dictionaries passage he caps it, wanting the meaning "which in a good writer's
+   work it must still bear". His own worked reading of *Lycidas* is about Milton's intention. **And
+   the `SOURCES.md` entry written the same night to prevent this says "for Ruskin a word is the
+   material rather than the destination"**, while the miner figure appeared nowhere in any lesson.
+2. [high] **Mark 3, third failure, and the largest of the three.** It still never ran lesson 3's
+   discriminator, and it told the reader "this is the case lesson 3's three boxes do not cover",
+   which is false: lesson 3's own bond checkpoint is that exact shape and files it as missing
+   background wearing a vocabulary costume. The mark had assembled every piece of the diagnosis,
+   including the fix verbatim, and then declined to name the box and claimed the framework had a hole.
+3. [high] **"In the parliament of any civilized nation" was silently elided**, in three files, from
+   the one sentence the course uses to characterise Ruskin's politics. Unframed it reads as a
+   free-standing decree about ranking men; Ruskin is reporting a parliamentary convention, and his
+   next paragraph says so. In a lesson about accuracy, under a footnote boasting of character-level
+   fidelity, with the full text linked three lines above.
+4. [medium] Lesson 7's sort reached the right answer by disposing of the strongest competing ground
+   in a subordinate clause; the cut note named the seaman as the material "still about reading" and
+   left unnamed the two sentences in the cut that are purely about words; the predict's absolution
+   covered both halves of its question on a warrant that reaches one.
+
+**Resolutions:** all applied, in the reviewer's own wording, which it supplied for every finding.
+
+Mark 6 now says what the arrow actually catches, which is a question about how much work a word's
+history can be asked to do, with Ruskin's own limits on it quoted. Mark 3 now runs the discriminator,
+names the box, and cites lesson 3's own precedent. The parliament clause is restored in lesson 6, in
+lesson 7 and in `SOURCES.md`, which now carries a standing instruction not to drop it.
+
+**Status after review:** the reviewer asked for an apply pass rather than another review, and for one
+verification afterwards: that mark 6 names the miner figure, that mark 3 names a box, and that the
+parliament clause appears once in each of the three files. All three hold.

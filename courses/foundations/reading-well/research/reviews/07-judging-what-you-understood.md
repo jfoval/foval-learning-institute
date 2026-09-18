@@ -144,3 +144,51 @@ view. That closes a deferral which lesson 6 and lesson 7 had each been pointing 
 ground found anywhere in the lesson is later suspended on, that no appeal to what was available when
 survives in item 2's explain, and that footnote 1's attribution claims are true of five distinct kinds
 of quotation mark. It does not need the Adler quotations re-checked.
+
+## 2026-09-18 — Lesson 07 — third pass
+**Reviewer:** fresh-context subagent. The collision the first two passes were about is gone and did
+not return. **What the repair created instead was an arithmetic problem and one bad truncation.**
+
+**Findings:**
+
+1. [critical] **The fourth objection sorted half a sentence, and the half it dropped was the half
+   with content in it.** Ruskin's full sentence is "And this is so strongly felt, so conclusively
+   admitted, by educated persons, that a false accent or a mistaken syllable is enough, in the
+   parliament of any civilized nation, to assign to a man a certain degree of inferior standing for
+   ever", and his next words are "And this is right; **but it is a pity that the accuracy insisted on
+   is not greater, and required to a serious purpose**". The lesson had the premise, the localisation
+   and the self-qualification all cut, **and lesson 6 two doors away printed the qualifier**. This is
+   the third time this course has been caught stripping a Ruskin qualifier.
+2. [critical] **The sorting was unsound because of the truncation.** Restored, the sentence contains
+   a universal empirical claim about what parliaments do, which the misinformed ground reaches, and
+   an inference from what educated persons feel to what is right, at which the illogical ground can
+   at least be pointed. The lesson got to "none of the four" only by quoting the clause with no
+   factual content in it.
+3. [high] Four counting failures introduced by the repair: "one of exactly four claims" against three
+   off-ground objections; "one of two things" against three; two forward pointers to the same place
+   disagreeing with each other; and "the second is a limit" against "the ground is incompleteness"
+   seven lines later.
+4. [high] An Adler quotation with no footnote marker, falsifying footnote 1's exhaustive claim;
+   footnote 2 boasting about a parenthesis the body no longer contains and saying the lesson does not
+   judge material it now judges; "points you at the places that do" pointing nowhere; objection 2
+   keyed uninformed by a route quiz item 2 calls a trap, with the real reason one sentence away.
+5. [medium] Ruskin restated as writing about what "a society ought to do with a man who mispronounces
+   a word", which no reader of Ruskin would accept; only the reader who finds the sentence repugnant
+   absolved, against standards 3.2's symmetry; "a page of good advice about words" as the course's
+   own verdict on an author it disagrees with forty lines earlier.
+
+**Resolutions:** all applied, in the reviewer's wording.
+
+**The section is better for it, and the reviewer said why.** Quoting the sentence whole means the
+method sorts one half and admits it cannot reach the other, which is a sharper limit than "nothing
+here at all". The lesson now says the first half is checkable and the ground is available, says this
+course does not have the fact and will not pretend to, absolves both readers rather than one, and
+points at Ethics and Political Philosophy rather than at nothing.
+
+And the counting is fixed at the top of the section rather than patched: the lesson now says up front
+that plenty of what a reader wants to say is none of the four, that three of its own four worked
+objections are none of them, and that this is the method telling you what kind of thing you are
+holding rather than the method failing.
+
+**Status after review:** a fourth pass is owed on the rewritten fourth objection and on the four
+counting sentences read in one sitting, which is what the reviewer scoped it to.
