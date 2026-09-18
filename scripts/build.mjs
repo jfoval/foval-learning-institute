@@ -1069,7 +1069,12 @@ function scriptCoverage() {
       if (!meta || meta.status !== "published") continue;
       let files = [];
       try { files = fs.readdirSync(path.join(dir, "lessons")).filter(f => f.endsWith(".md")); } catch { continue; }
-      const have = files.filter(f => fs.existsSync(path.join(dir, "podcast", f.replace(/\.md$/, ".script.md")))).length;
+      // A file is not a script until someone has checked it: `checked:` is the same gate checkAudio
+      // puts in front of an audio stamp, and "written" in DECISIONS.md section 2 says fact-checked.
+      const have = files.filter(f => {
+        const p = path.join(dir, "podcast", f.replace(/\.md$/, ".script.md"));
+        try { return /^checked:/m.test(fs.readFileSync(p, "utf8").split(/^---$/m)[1] || ""); } catch { return false; }
+      }).length;
       lessons += files.length; scripts += have;
       if (have < files.length) short.push(`${meta.id} ${files.length - have}`);
     }

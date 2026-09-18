@@ -30,6 +30,11 @@ const TERMS = (() => {
   } catch { return {}; }
 })();
 
+const checkedScript = (dir, lessonFile) => {
+  const p = path.join(dir, "podcast", lessonFile.replace(/\.md$/, ".script.md"));
+  try { return /^checked:/m.test(fs.readFileSync(p, "utf8").split(/^---$/m)[1] || ""); } catch { return false; }
+};
+
 const courses = [];
 for (const school of dirs(COURSES)) {
   for (const id of dirs(path.join(COURSES, school))) {
@@ -46,7 +51,11 @@ for (const school of dirs(COURSES)) {
       // Held as the LIST of lessons still missing each thing, not a count. Bible Basics has one
       // script and it is lesson 2, so "the Nth lesson" is the wrong lesson to name next.
       noReview: lessons.filter(f => !has("research/reviews", f)),
-      noScript: lessons.filter(f => !has("podcast", f.replace(/\.md$/, ".script.md"))),
+      // A script without a `checked:` entry is a draft, not a script. "Written" means every lesson
+      // has a FACT-CHECKED script, so counting files made this report say a course was written
+      // while one of its scripts had never been read by anyone. Same test as build.mjs uses to
+      // gate an audio stamp.
+      noScript: lessons.filter(f => !checkedScript(dir, f)),
       noEpisode: lessons.filter(f => !/^audio:\s*\S/m.test(read(path.join(dir, "lessons", f)).split(/^---$/m)[1] || "")),
       outline: has("research", "OUTLINE.md"), sources: has("research", "SOURCES.md"),
       tests: files(path.join(dir, "assessments"), ".md").length,

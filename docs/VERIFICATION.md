@@ -32,6 +32,7 @@ These fail or warn automatically. Nobody has to remember them.
 | A sentence of twelve words or more repeated across two lessons of one course | `npm run validate` | Warns. Two deliberate repetitions are exempt by name in `REPETITION_EXEMPT`, with the reason: Clear Writing 6 quoting lesson 5's paragraph on purpose, and Bible Basics repeating its standpoint disclosure. Added 2026-09-18, because a warning a session learns to ignore is worse than no warning |
 | A published course owing more episodes than the debt ledger allows, and the ledger's ratchet | `npm run validate` | Tested, because it broke twice on the day it was written |
 | An `audio:` stamp with no fact-checked script beside it | `npm run validate` | |
+| Whether a course is *written*: a script counts only with a `checked:` entry | `npm run validate`, `npm run state` | Both counted script files until 2026-09-18, so a course with an unchecked draft beside every lesson reported as written and `npm run state` moved the session on to the next course |
 | Script coverage per published course | `npm run validate` | One summary line, never a failure |
 | The lints themselves still fire | `npm test` | One fixture per check |
 | The spend guards in `podcast.mjs` | `npm test` | Added 2026-09-18 |
