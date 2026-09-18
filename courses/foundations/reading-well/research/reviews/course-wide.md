@@ -176,3 +176,35 @@ Three separate lessons shipped a wrong lesson number for How to Learn Anything's
 evidence, and two of them got it from `SOURCES.md` rather than from thin air. The entry said "lessons
 1 and 3" and the evidence is in 1 and 6. `SOURCES.md` now says so and carries a warning. **Grep the
 target course.**
+
+## 2026-09-18 — Finding 10 has an exception, and it changes the standing instruction
+
+### 12. The quotations were right until one wasn't, and the failure was where it stopped
+
+Finding 10 said every quotation checked across this course had been verbatim, and that reviewers
+should be pointed at the sentences with no quotation marks in them. Lesson 9 broke it. Sylvanus
+Wood's affidavit was quoted through the words "with one exception" and **cut immediately before the
+sentence containing the exception**, which contradicted the gloss the lesson then built on it. It was
+also silently modernised in three places, "Capt." expanded and two commas moved, under a lesson that
+teaches close reading.
+
+**So the instruction is now: point a reviewer at the sentences with no quotation marks in them, and
+at where each quotation stops.** A quotation can be verbatim to the character and still be a
+misquotation, and this drafter's version of that is stopping one sentence early in its own favour.
+
+### 13. Two lessons and a research file disagreed because a repair did not carry upstream
+
+Lesson 7's fourth objection was rewritten and its verdict changed. Lesson 6's cut note and
+`SOURCES.md` both still reported the old verdict. Neither a reviewer of lesson 7 nor a reviewer of
+lesson 6 would catch that on its own, because each file is internally consistent.
+
+**Before committing a repair, grep the repo for the claim you just changed.** Three of the four
+defects found in the last verification pass were of this kind, and `grep` finds them in seconds.
+
+### 14. Know when to stop
+
+The third pass on lesson 6 found two substantive defects. The fourth found one stale pointer, a Latin
+spelling, a dropped dash and two paragraph-distance slips, and its reviewer said plainly that a fifth
+pass would cost a session and buy a dash. **That is the signal.** When a pass returns only
+locational and arithmetical slips in unquoted sentences, apply them, commit, and put anything else in
+`docs/QUEUE.md` under rule 9 rather than opening another pass.
