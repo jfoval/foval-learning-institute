@@ -13,7 +13,7 @@ checked: >-
   two from four x minus two, spoke both of them as the same sound, because "four lots of x minus
   two" drops the bracket the eye supplies on the page. Brackets are now closed aloud throughout,
   and two products that parsed by ear as the wrong grouping are spoken in pieces. The lesson's own
-  error is item 2 in docs/QUEUE.md.
+  error was item 2 in docs/QUEUE.md and was corrected on 2026-09-18, so lesson and script now agree.
 about: >-
   About six minutes. Haley opens, because the engine gives the first turn to the second voice.
   Hosts are John (S1, the Charon voice) and Haley (S2, the Aoede voice). Third episode for

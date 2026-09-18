@@ -216,44 +216,31 @@ older ones still say 6 over 1,400 words.
    cost of about $0.24. **The rule that follows: never start a render until the fact-check of the
    text you are about to send has come back.** A `checked:` entry from before a cut is not a check
    of what the cut left.
-2. **Two defects in Algebra Essentials lessons, found by script fact-checks on 2026-09-18.**
-   **Lesson 3 says that of `3x` and `5x²`, "at x = 3, one is 9 and the other is 27".** Five x
-   squared at three is 45; 27 would be three x squared. The point the sentence is making survives
-   either way, so it is a number to correct rather than an argument to redo. **Lesson 2's heading
-   says "Two more shapes" over a section that gives four.** Both are one-line fixes and neither is
-   load-bearing; they are here rather than fixed inline because they are content changes on a
-   published course.
-3. **Three small numbers in published lessons do not survive counting**, all found by script
-   fact-checks on 2026-09-18 and none of them load-bearing. **Writing Clearly 6** calls its
-   shortened paragraph 46 words and it is 47, which makes the reduction 58 percent rather than 59,
-   and the lesson's own Sources note claims every count was recounted. **Writing Clearly 9** calls
-   the council tax letter's subordinate clause twenty words long; the clause is eleven, and
-   nineteen even counted through "within one month". The scripts for both were written around the
-   figures rather than repeating them. One visit fixes all of these and re-reads the Sources notes
-   that promise the counts were checked.
-4. **Three small things in Python Basics lessons, found by script fact-checks on 2026-09-18.**
-   **Lesson 2 says "Two ways to live with it" and closes "Either is a real answer" over a section
-   that gives three**: rounding before comparing, whole units of the smallest denomination, and the
-   `decimal` module. Two words fix it. **Lesson 1's arithmetic about the Patitsas result deserves a
-   second look.** The lesson says 45 of 778 sections came back positive, that about 5% would come
-   back positive by chance, and so "most of the 45 may well be noise". But the 5% is a rate over the
-   323 sections actually tested, which is about 16, not most of 45. Either the sentence wants a
-   different word than "most" or the reasoning wants spelling out; the paper is the place to settle
-   it, and the script was written so as not to repeat the inference. Neither is load-bearing and
-   both are content changes on a published course.
-5. **Two small slips in Bible Basics lessons, found by script fact-checks on 2026-09-18.**
-   **Lesson 4** says Fee and Stuart's chapter title "says it in four words" over "Enforcing the
-   Covenant in Israel", which is five. **Lesson 6's exercise heading** says "on Mark 4, three
-   storms, and Acts 6", but the exercise's third task cites Luke 16, Acts 16 and 18, Amos 5, 1
-   Samuel 14 and Acts 21; Acts 6 appears in the lot discussion rather than the exercise. Both are
-   one-line fixes and both are content changes on a published course.
-6. **Two lessons do not cite their own sources.** `npm run validate` warns on both, added
+2. **Seven small numbers and headings in published lessons, all found by script fact-checks on
+   2026-09-18 and all fixed on the morning of the 19th.** Algebra 3's "at x = 3, one is 9 and the
+   other is 27", which compared `3x` and `5x²` and then gave the values of `x` and `x²`; Algebra 2's
+   heading "Two more shapes" over four; Python 2's "Two ways to live with it" and "Either is a real
+   answer" over three; Bible Basics 4's "says it in four words" over a five-word chapter title;
+   Bible Basics 6's exercise heading naming Acts 6, which appears in the lesson's discussion and not
+   in the exercise; Writing Clearly 6's shortened paragraph called 46 words when it is 47, which
+   makes the reduction 58 per cent rather than 59, in a lesson whose own Sources note promises every
+   count was recounted; and Writing Clearly 9's "twenty-word subordinate clause" over a clause of
+   eleven. **Two Algebra scripts named two of these slips in their sign-offs or their `checked:`
+   blocks and have been updated**, which is the thing to remember: a fix to a published lesson can
+   falsify a script written about it, so grep the podcast folder as well.
+3. **One Python Basics item is not a one-line fix and is still open.** **Lesson 1's arithmetic about
+   the Patitsas result deserves a second look.** The lesson says 45 of 778 sections came back
+   positive, that about 5% would come back positive by chance, and so "most of the 45 may well be
+   noise". But the 5% is a rate over the 323 sections actually tested, which is about 16, not most of
+   45. Either the sentence wants a different word than "most" or the reasoning wants spelling out,
+   and the paper is the place to settle it. The script was written so as not to repeat the inference.
+4. **Two lessons do not cite their own sources.** `npm run validate` warns on both, added
    2026-09-18. **Personal Finance 6 (taxes) has nine sources and not one `[n]` marker in its
    prose**, so every bracket figure in a tax lesson is uncited to the reader; Python 2 cites one
    of five. Both are content fixes on published courses and both are standards Part 2. Nine other
    lessons have one to three uncited entries, which is ordinary and stays under the threshold.
    Personal Finance 6 is also the worst quiz below, so it earns one visit for both.
-7. **Seven dead links in published lessons.** `npm run links` finds them; standards 4.5 asks for
+5. **Seven dead links in published lessons.** `npm run links` finds them; standards 4.5 asks for
    primary sources linked in the body, and these do not answer. Four are
    `earlychristianwritings.com` pages in Bible Basics 6 and 7 (the site reorganised; the texts are
    still there under other paths), `corporate.vanguard.com/.../vemo.html` in Personal Finance 2,
@@ -261,11 +248,11 @@ older ones still say 6 over 1,400 words.
    `tenancydepositscheme.com/resources/tds-guides/` in Reading Well 1, which is still drafting.
    Replace each with a URL that answers, or drop the link and keep the citation in Sources. The
    32 links reporting 403 are publishers blocking scripts, not breakage; leave them.
-8. **`npm run quiz` lists 18 quizzes tripping the shape heuristic** (option-length spread over 25
+6. **`npm run quiz` lists 18 quizzes tripping the shape heuristic** (option-length spread over 25
    characters, adjacent repeats, unused positions) without being winnable by a reader who read
    nothing. Worst is Personal Finance 6 at a 174-character spread. Decide one thing when it comes
    up: tighten the 18, or raise the threshold and say why. Not both.
-9. **Then the Foval Core in order, one course at a time.**
+7. **Then the Foval Core in order, one course at a time.**
    **Reading Well: lesson 1 of ten is written and through two Stage 4 rounds as of 2026-09-17.**
    It publishes when its ten lessons pass Stage 4, adding `reading-well: 10` to
    `curriculum/audio-debt.yaml` in the same commit. Ten lessons are planned in

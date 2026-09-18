@@ -13,9 +13,9 @@ checked: >-
   now says her hand wants to write twelve, and the answer arrives where the lesson puts it. The
   nits were all about the ear: "nought" heard as "not", "three n plus one" heard as three times
   n plus one, a bare letter n heard as "and", and the chained example spoken without the marker
-  that it is one written line, which is the whole objection. The lesson's own heading says "two
-  more shapes" over four shapes; that is in docs/QUEUE.md and the script names it rather than
-  repeating it silently. The course teaches from no declared standpoint.
+  that it is one written line, which is the whole objection. The lesson's own heading said "two
+  more shapes" over four shapes when this script was written; the lesson was corrected on 2026-09-18
+  and the script no longer names the slip. The course teaches from no declared standpoint.
 about: >-
   About six minutes. Haley opens, because the engine gives the first turn to the second voice.
   Hosts are John (S1, the Charon voice) and Haley (S2, the Aoede voice). Second episode for
@@ -134,7 +134,7 @@ S1: That people are much more likely to read the sign as a claim when they meet 
 
 S2: So the lesson gives the other shapes deliberately.
 
-S1: Four of them, under a heading that says two, which is the lesson's own slip. Operations on both sides: fifteen minus six, equals, box, plus two. The left is nine, so something plus two is nine, and the box is seven.
+S1: Four of them. Operations on both sides: fifteen minus six, equals, box, plus two. The left is nine, so something plus two is nine, and the box is seven.
 
 S2: Next.
 

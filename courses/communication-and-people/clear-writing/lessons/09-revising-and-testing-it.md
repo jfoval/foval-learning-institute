@@ -162,7 +162,7 @@ Read that and you can see the finding, and it isn't that she failed. Her paraphr
 Now the useful question, which is not "why didn't she read it properly". Which sentence did that? Before you read the diagnosis, look at the passage again with lessons 4 and 5 in mind and find the mechanism yourself.
 
 :::checkpoint What in the passage's construction lost the month, and what kept the penalty?
-The deadline is at the end of a twenty-word subordinate clause that opens on "If your circumstances change", so by the time she reached "within one month" she had already been holding an unresolved condition for most of the sentence. That's lesson 4. And the paragraph's stress position, the place lesson 5 says a reader puts their weight, is occupied by "a penalty may be applied", which is why the penalty survived her reading and the deadline didn't.
+The deadline arrives only after an eleven-word condition that opens on "If your circumstances change", so by the time she reached "within one month" she had been holding an unresolved condition for half the sentence. That's lesson 4. And the paragraph's stress position, the place lesson 5 says a reader puts their weight, is occupied by "a penalty may be applied", which is why the penalty survived her reading and the deadline didn't.
 :::
 
 The rewrite follows from the diagnosis rather than from taste:

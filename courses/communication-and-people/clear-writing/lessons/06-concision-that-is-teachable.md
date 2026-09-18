@@ -61,7 +61,7 @@ A paragraph of the kind that circulates in every organisation. It's 111 words.
 
 > It should be noted at the outset that, due to the fact that the previous system was not able to handle the volume of applications that we were receiving during the course of the busy summer period, a decision was taken by the management team in order to procure a replacement. In the event that the new system is not fully and completely operational by the end of September, there is a possibility that we may possibly need to revert back to the old one on a temporary basis for a short period of time. It is important to note that this would not be a desirable outcome for anyone concerned.
 
-And here it is at 46 words, with nothing removed but words.
+And here it is at 47 words, with nothing removed but words.
 
 > The old system could not handle the summer volume of applications, so the management team bought a replacement. If the new one is not fully working by the end of September, we may have to go back to the old one for a while. Nobody wants that.
 
@@ -257,4 +257,4 @@ The next lesson goes up a level, to the parts of a document that aren't prose at
 - Geoffrey K. Pullum, ["50 Years of Stupid Grammar Advice"](https://pullum.ppls.ed.ac.uk/50years.pdf), *The Chronicle of Higher Education* (2009), for the objection that the four-word maxim is not usable instruction, and for the qualifications quoted with it: "mostly harmless" and "it doesn't hurt to lay such well-meant maxims before novice writers". His wider argument is lesson 8.
 - Nancy Sommers, *Revision Strategies of Student Writers and Experienced Adult Writers* (report to the National Institute of Education, 1982), for Michael, the student whose "strategy is to use a thesaurus". Eight freshman students and seven experienced adult writers. The lesson claims nothing about novices in general from it, because the study does not support that.
 - Joseph M. Williams, *Style: Lessons in Clarity and Grace*, on concision. This course has read the book's structure and central principles as others report them, not the text itself, so the six kinds are this course's own list, assembled from the sources above and from the pattern of the examples. The lesson says so where the list is introduced.
-- Every word count in this lesson was recounted from the passage printed beside it: 111 words to 46, which is 59 percent; the predict block's 32 words to 8; and the six-word repetition in the bridge pair.
+- Every word count in this lesson was recounted from the passage printed beside it: 111 words to 47, which is 58 percent; the predict block's 32 words to 8; and the six-word repetition in the bridge pair.

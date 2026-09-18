@@ -216,7 +216,7 @@ Four. Add `2x` to both sides: `9 = 3x - 3`. Add 3 to both sides: `12 = 3x`. Divi
 
 `5x - 3 = 2x + 9` had `x` terms on both sides, and the first move gathered them. That gathering has a name, collecting like terms, and it exists in service of solving rather than as a topic of its own.
 
-**Like terms** are terms with the same letter part. `3x` and `5x` are like terms and add to `8x`. `3x` and `5y` are not, and cannot be combined at all. `3x` and `5x²` are not either, because `x` and `x²` are different things: at `x = 3`, one is 9 and the other is 27.
+**Like terms** are terms with the same letter part. `3x` and `5x` are like terms and add to `8x`. `3x` and `5y` are not, and cannot be combined at all. `3x` and `5x²` are not either, because `x` and `x²` are different things: at `x = 3`, `x` is 3 and `x²` is 9.
 
 The test, as always, is a number. Does `3x + 5x = 8x`? At `x = 2`: the left is `6 + 10`, which is 16, and the right is 16. Yes. Does `3x + 5y = 8xy`? At `x = 2` and `y = 1`: the left is `6 + 5`, which is 11, and the right is `8 × 2 × 1`, which is 16. No.
 

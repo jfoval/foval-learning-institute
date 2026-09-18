@@ -452,7 +452,7 @@ The chart below puts both datings on one axis. The distance between the two camp
 
 **"The lost gospels were suppressed."** There are other ancient texts called gospels: Thomas, Peter, Judas, Mary, and more. They're real, and you can read them; the [Gospel of Thomas](http://www.earlychristianwritings.com/thomas/gospelthomas.html) is a few minutes' reading. Most scholars put all of them in the second century or later. Thomas is the one real argument: a minority date a core of its sayings to the 50s or 60s, which is why Dale Martin's Yale lecture on it is worth your time.[15] What's clear is that they weren't hidden. Irenaeus knew some of them, and names a Gospel of Judas in the same work in which he argues for four,[9] so this was an argument conducted in the open, and lesson 8 goes into the reasons of date, content and use.
 
-## Now do it yourself, on Mark 4, three storms, and Acts 6
+## Now do it yourself, on Mark 4, three storms, and five references
 
 :::exercise Three tasks
 **1. Mark 4, the parables.** Read [Mark 4:1 to 34](https://www.biblegateway.com/passage/?search=Mark+4&version=NET) in one sitting. It has the sower, the lamp, the growing seed and the mustard seed. For each, write two lines: the one point, and the punch, meaning who in Mark's crowd is caught and by what. About twenty minutes.

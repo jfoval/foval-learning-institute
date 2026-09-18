@@ -284,7 +284,7 @@ binary fractions, and one tenth cannot be written exactly in binary, in the same
 cannot be written exactly in decimal. You'd need 0.333... forever. So `0.1` is stored as something
 extremely close to a tenth, and the tiny gaps add up.
 
-Two ways to live with it. Compare with a tolerance, using `round()`:
+Three ways to live with it. Compare with a tolerance, using `round()`:
 
 ```
 >>> round(0.1 + 0.2, 2) == 0.3
@@ -295,7 +295,7 @@ Or, when the values are money, work in whole units of the smallest denomination.
 than pounds, cents rather than dollars, and use `int` throughout, which sidesteps the problem
 instead of managing it. Python also ships a
 [`decimal` module](https://docs.python.org/3/library/decimal.html) that does base-ten arithmetic
-exactly, at the cost of being slower and wordier. Either is a real answer. `float` for money is
+exactly, at the cost of being slower and wordier. Any of the three is a real answer. `float` for money is
 not.
 
 This isn't Python's problem, either. It's the behaviour of IEEE 754 binary64, the number format

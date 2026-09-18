@@ -220,7 +220,7 @@ No: `3(4) + 1` is 13, not 10. And no other number works, because if three times 
 Nineteen minus nine is 10, so the box is 10. Check: `13 + 6` is 19 and `10 + 9` is 19, so the two sides are the same size and the equation is true. If you answered 19, you read the sign as "and the answer is", which is the whole thing this lesson is about, and noticing that you did it is the useful part.
 :::
 
-## Two more shapes, so the sign stops meaning one thing
+## Four more shapes, so the sign stops meaning one thing
 
 The research finding behind this lesson is that people are much more likely to read the sign as a claim when they meet it with operations on both sides, and much more likely to read it as an instruction when they only ever meet it in the shape `sum = answer`.[1] So here are the other shapes, deliberately.
 

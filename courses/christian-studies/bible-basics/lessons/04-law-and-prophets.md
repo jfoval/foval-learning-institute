@@ -276,7 +276,7 @@ Now the other half.
 
 The prophetic books take up a large part of the Old Testament, and for most readers they're the hardest part, because they arrive with an expectation attached: a prophet is someone who predicts the future. Hold that expectation and Amos is baffling. Almost none of it looks like prediction, and what does look like prediction seems to be about Assyria.
 
-Drop the expectation and start from the covenant. The prophets are the people God sent to enforce it. Hayes puts the basic distinction well: a prophet is someone "sent by God with a message, not someone who is consulted by a client to find out what God thinks."[16] The message, over and over, is the covenant's own terms read back to the people who agreed to them. Fee and Stuart's chapter title says it in four words: "Enforcing the Covenant in Israel".[2]
+Drop the expectation and start from the covenant. The prophets are the people God sent to enforce it. Hayes puts the basic distinction well: a prophet is someone "sent by God with a message, not someone who is consulted by a client to find out what God thinks."[16] The message, over and over, is the covenant's own terms read back to the people who agreed to them. Fee and Stuart's chapter title says it in five words: "Enforcing the Covenant in Israel".[2]
 
 Three things follow that change how you read.
 
