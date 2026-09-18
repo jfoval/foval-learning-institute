@@ -116,7 +116,7 @@ function budget() {
   let cap = null, prior = {};
   try {
     const b = JSON.parse(fs.readFileSync(path.join(ROOT, "scripts", "podcast", "budget.json"), "utf8"));
-    cap = b.monthlyCapUSD; prior = b.priorSpendUSD || {};
+    cap = b.monthlyCapUSD; prior = b.incidents || [];
   } catch { return; }
   const work = path.join(ROOT, "audio-out", "work");
   if (!fs.existsSync(work)) return;
@@ -135,17 +135,22 @@ function budget() {
       }
     }
   })(work);
-  // Spend the manifests cannot see: September carries the 2026-09-17 debugging afternoon, which
-  // ran through tooling that has since been deleted. Reporting the manifest sum alone would say
-  // $28 free in a month that has about $5, and John renders against this number.
-  const unseen = Number(prior[key]) || 0;
-  const spent = month + unseen;
+  /* Accidents are counted against the cap and kept out of the cost of an episode. September
+     carries about $23.39 from a runaway retry loop on 2026-09-17: a session wrapped a render in a
+     retry, each attempt timed out locally while Google kept rendering and billing. Google charged
+     it, so the cap is really that much smaller; almost none of it became audio, so it says nothing
+     about what an episode costs. Reporting either half alone is wrong in a different direction. */
+  const incidents = (prior || []).filter(x => x.month === key);
+  const lost = incidents.reduce((n, x) => n + (Number(x.amountUSD) || 0), 0);
+  const spent = month + lost;
   const left = cap - spent;
-  const each = 0.22;
+  const each = monthAttempts ? month / monthAttempts : 0.22;
   console.log(`
-AUDIO BUDGET  ${key}: $${spent.toFixed(2)} of a $${cap.toFixed(2)} cap${unseen ? `  ($${month.toFixed(2)} from ${monthAttempts} render(s) logged here, plus $${unseen.toFixed(2)} in budget.json that no manifest saw)` : `, over ${monthAttempts} render(s)`}.`);
-  console.log(`              $${left.toFixed(2)} left, about ${Math.floor(left / each)} more episode(s) at $${each.toFixed(2)}. aistudio.google.com/spend is the authority.`);
-  console.log(`              $${all.toFixed(2)} billed all time over ${attempts} render(s).`);
+AUDIO BUDGET  ${key}: $${left.toFixed(2)} left of a $${cap.toFixed(2)} cap, about ${Math.floor(left / (each || 0.22))} more episode(s).`);
+  console.log(`              production: $${month.toFixed(2)} over ${monthAttempts} episode(s), $${each.toFixed(2)} each.`);
+  if (lost) for (const x of incidents) console.log(`              not production: $${x.amountUSD.toFixed(2)} lost to an accident (${String(x.what).split(".")[0]}). Counts against the cap, never against the cost of an episode.`);
+  console.log(`              aistudio.google.com/spend is the authority.`);
+  console.log(`              all time, production only: $${all.toFixed(2)} over ${attempts} render(s).`);
   if (left < each) console.log(`              *** THE CAP IS SPENT. Tell John: raise it at aistudio.google.com/spend, then edit scripts/podcast/budget.json. Rendering will fail until then. ***`);
   else if (left < each * 5) console.log(`              *** Running low: fewer than five episodes left this month. Worth telling John. ***`);
 }

@@ -55,14 +55,25 @@ Writing a script costs nothing at the API. Only the render spends.
 
 ### The spend cap, and how to read it
 
-Google AI Studio holds a **monthly spend cap**, visible at
-[aistudio.google.com/spend](https://aistudio.google.com/spend), which resets on the first of the
-month. On 2026-09-18 it stood at **$23.39 spent against a $30.00 cap**, so about $6.61, or roughly
-thirty episodes, was left in September. Nearly all of that $23.39 was one afternoon's debugging
-mistake, not episodes: see section 4.
+**`npm run state` prints it.** Cap, what is left, what production has actually cost per episode,
+and any accident recorded separately. The cap itself lives in `scripts/podcast/budget.json` and is
+the Google AI Studio monthly cap at [aistudio.google.com/spend](https://aistudio.google.com/spend),
+which resets on the first. Raise it there first, then in that file. Google's page is the authority;
+the repo's figure is the best estimate it can make on its own.
 
-Check that page before a long run. When the cap is hit, requests fail rather than overcharging, so
-the failure mode is a wasted minute, not a surprise bill.
+**Accidents are counted against the cap and kept out of the cost of an episode**, and the
+difference matters. September carries about $23.39 from the runaway retry loop of 2026-09-17, which
+Google charged and which produced almost no audio anyone kept. Against the cap it is real money
+gone. Against the question "what does an episode cost" it is nothing at all, and folding it in
+would treble the answer. Production has billed **$0.20 an episode across eight episodes**, and that
+is the number to plan with.
+
+John raises the cap as budget allows and asks only to be told when it is running out. `npm run
+state` warns under five episodes and again at zero, so say so at session start rather than waiting
+to be asked.
+
+When the cap is hit, requests fail rather than overcharging, so the failure mode is a wasted minute
+and not a surprise bill.
 
 ---
 

@@ -1,7 +1,11 @@
 {
   "monthlyCapUSD": 30,
-  "priorSpendUSD": {
-    "2026-09": 23.39
-  },
-  "note": "monthlyCapUSD is the Google AI Studio cap at aistudio.google.com/spend, which resets on the 1st. Raise it there first, then here. priorSpendUSD records spend that the manifests cannot see: September carries about $23.39 from the 2026-09-17 debugging afternoon, which ran through tooling that has since been deleted, so no manifest records it. Without that line the month would read $28 free when it has about $5. Google's own spend page is the authority; this is the best estimate the repo can make on its own."
+  "incidents": [
+    {
+      "month": "2026-09",
+      "amountUSD": 23.39,
+      "what": "A runaway retry loop. A session wrapped a render in a retry, each attempt timed out on the caller's side while Google kept rendering and kept billing, and nothing stopped it. Not production: almost none of it became audio anyone kept. It counts against September's cap because Google charged it, and it must never count as what an episode costs. The guards in scripts/podcast.mjs and the five rules in docs/PODCAST_PIPELINE.md section 4 exist because of this afternoon, and scripts/tests/podcast.test.mjs now tests them."
+    }
+  ],
+  "note": "monthlyCapUSD is the Google AI Studio cap at aistudio.google.com/spend, which resets on the 1st. Raise it there first, then here. Real production spend is summed from the render manifests, which log what each call was billed; incidents are accidents recorded separately so they never pollute the per-episode figure. Google's own spend page is the authority."
 }
