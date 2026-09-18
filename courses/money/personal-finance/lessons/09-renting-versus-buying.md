@@ -1,6 +1,7 @@
 ---
 title: Renting against buying, and how to tell
 minutes: 115
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/money/personal-finance/09-renting-versus-buying.mp3
 objectives:
   - Build the full cost of owning a specific home for a year, including the costs that never appear on a mortgage statement
   - Compare that against rent for an equivalent home and calculate the break-even holding period
