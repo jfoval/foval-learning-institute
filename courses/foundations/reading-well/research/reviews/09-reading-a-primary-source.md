@@ -75,3 +75,66 @@ failed neutrality check are both triggered and the repair rewrote four sections.
 for that pass is in the course-wide file's finding 9 form: check whether restoring Wood's exception
 has tipped the section into treating Ripley as more candid than he was, and whether stating the
 contradiction squarely has replaced a false symmetry with a new imbalance.
+
+## 2026-09-18 — Lesson 09 — second neutrality audit
+**Auditor:** fresh-context subagent, briefed with the first audit's exact findings and asked whether
+the repair had leaned the other way. **It did not, and it found something worse in the same family.**
+
+It also corrected its own brief on arrival, which is worth recording: it was told the first audit's
+two cited phrases had been repaired. They had not. The repair added material around the checkpoint
+and never opened the checkpoint, so "in effect, a defendant clearing his town" and "no interest
+whatever in inventing" were both still there verbatim. **A repair that works by addition leaves the
+original sentences in place, and a reviewer told they are fixed will believe it unless it checks.**
+
+**Findings:**
+
+1. [critical] **The "they agree" list presented four single-sourced items as corroborated, and one of
+   them was the British command's core exculpatory claim.** Of its six items, only two are attested by
+   both documents. The march on the stores and the eight dead are in Parker alone; the wounded man of
+   the Tenth and the horse are in Pitcairn alone; and **"a British officer ordered his men not to
+   fire" is in Pitcairn alone.** Parker's deposition contains one "not to fire" and it is his own
+   order to his own militia. So the lesson moved the whole of Pitcairn's defence into the column
+   headed "the strongest thing either document gives you", in the lesson that teaches corroboration,
+   while leaving out Parker's exactly parallel claim. `SOURCES.md` had the correct framing on its own
+   line and the lesson had departed from it.
+2. [high] "a real loss of fire discipline that he had no interest whatever in inventing" contradicts
+   the same sentence's own first clause and the lesson's line about the officer whose conduct is in
+   question. Unordered firing is the version that clears him and his superiors of having begun a war.
+3. [high] Five period glosses on the American document, one of them protective, and none on the
+   British document's load-bearing terms of art. *Flashed in the pan* reads to a modern ear as an
+   idiom for something that fizzled, so the restored British first-shot claim was put back on the page
+   in a form that cannot land.
+4. [medium] The checkpoint's ledger: Parker one sharp debit and no credit, Pitcairn one sharp credit
+   and a softened debit. "Legal-looking case" against "a version to send to London". Parker's claim
+   narrated as fact in the section that refuses to adjudicate, while Pitcairn's parallel claim is
+   flagged as hearsay and his one piece of first-hand testimony is never credited. Ripley named,
+   quoted and defended while Phinney is an unnamed clause. And "the reverse of what an invented
+   account would do", which is a generalisation the observation does not earn.
+
+**The count, which the auditor did before reading for tone**, is the part worth keeping. On volume
+the repair worked: quoted words now favour Pitcairn by 46 per cent, which is correct rather than a
+fault, commentary is within 13 per cent, and once the transcription-provenance section is counted the
+totals are Parker eleven sentences and Pitcairn fifteen, so the first audit's headline complaint is
+closed. **The lean that remained was in the credibility ledger, the section-closing positions and the
+glosses**, and it had not changed sign. Parker's net was minus two and Pitcairn's minus a half;
+Parker ended his section on a debit and Pitcairn on a credit; Pitcairn took the last word in four of
+the five places both men appear.
+
+**Resolutions:** all seven applied, in the auditor's own wording.
+
+The agreed list now names what each document alone supplies and says that each lets the other's
+detail stand, and a new paragraph makes the trap the teaching: **two parallel claims, each made by
+the man it exonerates, are not corroboration.** That is a better passage than the one it replaces and
+it exists because the audit caught the lesson doing the thing it teaches against.
+
+**Sections the audit passed cleanly, recorded because a clean section is a result:** the predict block
+on "Regulars" and "rebels", which it called the best passage in the lesson and which needs nothing;
+"Where this course's own reading stops", whose heavy discount of the British document is about this
+course's access rather than about the document, is labelled as such, and refuses the corroboration
+Gage's account appears to offer against the lesson's own interest; 3.4 and 3.6 throughout, with no
+claim about the Revolution, British rule or either cause beyond method, nobody the butt of anything,
+and an active anti-presentist move about the town rivalry; "What people get wrong"; and the quiz.
+
+**Status after review:** the auditor's own instruction is that a third pass should look only at the
+agreed list and the checkpoint, and that if it returns nothing but wording preferences, course-wide
+finding 14 applies and the lesson ships.
