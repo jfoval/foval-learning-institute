@@ -14,7 +14,8 @@ import path from "node:path";
 import yaml from "js-yaml";
 import { fileURLToPath } from "node:url";
 
-const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
+// FOVAL_ROOT points this at another tree, the same as build.mjs; scripts/tests/ uses it.
+const ROOT = process.env.FOVAL_ROOT ? path.resolve(process.env.FOVAL_ROOT) : path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const COURSES = path.join(ROOT, "courses");
 const read = p => fs.readFileSync(p, "utf8");
 const dirs = p => { try { return fs.readdirSync(p, { withFileTypes: true }).filter(d => d.isDirectory()).map(d => d.name); } catch { return []; } };
@@ -87,10 +88,10 @@ const state = c => c.status !== "published" ? c.status
 
 const pad = (s, n) => String(s).padEnd(n);
 console.log(`\nSTATE OF THE INSTITUTE   ${new Date().toISOString().slice(0, 10)}   (computed; nothing here is written down elsewhere)\n`);
-console.log(pad("COURSE", 24) + pad("T", 3) + pad("STATE", 11) + pad("LESSON", 7) + pad("REVFILE", 8) + pad("SCRIPT", 7) + pad("EPISODE", 8) + "AVG WORDS");
+console.log(pad("COURSE", 24) + pad("T", 3) + pad("STATE", 11) + pad("LESSON", 7) + pad("REVFILE", 8) + pad("SCRIPT", 7) + pad("EPISODE", 8) + pad("AVG WORDS", 10) + "TO RENDER");
 for (const c of courses) {
   console.log(pad(c.id, 24) + pad(c.term ?? "-", 3) + pad(state(c), 11) + pad(c.lessons, 7) +
-    pad(`${c.reviewed}`, 8) + pad(`${c.scripts}`, 7) + pad(`${c.episodes}`, 8) + c.words);
+    pad(`${c.reviewed}`, 8) + pad(`${c.scripts}`, 7) + pad(`${c.episodes}`, 8) + pad(c.words, 10) + (c.status === "published" && c.noEpisode.length ? `$${(c.noEpisode.length * 0.22).toFixed(2)}` : "-"));
 }
 
 const live = courses.filter(c => c.status === "published");

@@ -38,11 +38,11 @@ Rewrite these five lines each session. Nothing else goes in this block.
 A course is done when every lesson is at standard **and** every lesson has an episode. `npm run
 validate` enforces the second half against `curriculum/audio-debt.yaml`, which only shrinks.
 
-**All seven live courses are through Stage 4, so every one is ready for episodes.** Fifty-three
-are owed. **The order and the per-course costs live in `docs/PODCAST_PIPELINE.md` section 3 and
-are not restated here**, because two copies drifted: this file said $2.00 for Logic and Argument
-while the manual said $2.24, and a session has to stop and reconcile them before it can work.
-`curriculum/audio-debt.yaml` is the ledger. Finish a course before starting the next.
+**All seven live courses are through Stage 4, so every one is ready for episodes.** How many are
+owed, by which course, and what each costs: **`npm run state`**. No count is written here, or in
+`docs/PODCAST_PIPELINE.md`, or in `curriculum/TAXONOMY.md`. Two copies of these numbers drifted
+within a day last time. `curriculum/audio-debt.yaml` remains the enforced ledger; the script is
+what you read. Finish a course before starting the next.
 
 **How to Learn Anything is done**, finished 2026-09-18: eight episodes, $1.61, every one passing on
 its first attempt, all eight live in R2. It is the first course finished by the institute's own

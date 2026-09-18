@@ -46,18 +46,10 @@ per-episode spread was $0.17 to $0.23.
 
 ### What finishing the institute costs
 
-Fifty-three episodes are owed as of 2026-09-18, How to Learn Anything having been finished that
-day. At measured rates:
-
-| Course | Term | Episodes owed | Scripts ready | Estimated cost |
-|---|---|---|---|---|
-| Logic and Argument | 1 | 10 | 3 | $2.24 |
-| Writing Clearly | 1 | 9 | 0 | $1.96 |
-| Personal Finance | 2 | 10 | 3 | $2.16 |
-| Algebra Essentials | 5 | 6 | 0 | $1.31 |
-| Python Basics | 6 | 6 | 0 | $1.31 |
-| Bible Basics | 8 | 12 | 1 | $2.61 |
-| **Total** | | **53** | **7** | **about $11** |
+**`npm run state`.** It prints the episodes each course still owes and what they cost at the
+measured $0.22, and the total outstanding, computed from the lessons themselves. The table that
+used to sit here was hand-maintained and went stale within a day of being written, which is the
+whole argument for not writing derived numbers into prose (`scripts/CLAUDE.md` has the rule).
 
 Writing a script costs nothing at the API. Only the render spends.
 
@@ -83,25 +75,17 @@ settled before a cent is spent on its audio, or the audio gets paid for twice.
 **As of 2026-09-18 all seven live courses are through Stage 4 and the voice pass, so every one of
 them is ready for episodes.** Nothing is waiting on content.
 
-The order is **Core term order**, which is the order a learner meets the courses, with How to Learn
-Anything first because it is also the closest to done. Finishing Term 1 first means the entry point
-to the Core has complete audio before anything deeper does. Within a course, go lesson by lesson in
-number order. One episode per session; finish a course before starting the next.
+The order is **Core term order**, which is the order a learner meets the courses. Finishing Term 1
+first means the entry point to the Core has complete audio before anything deeper does. Within a
+course, go lesson by lesson in number order, and finish a course before starting the next.
 
-1. **How to Learn Anything, lessons 2 to 8.** Term 1. Seven episodes, about $1.33. All seven scripts
-   are written, fact-checked and open with Haley, so this is pure rendering. First because it
-   returns the institute's first complete course to complete.
-2. **Logic and Argument, all ten.** Term 1. About $2.24. Lessons 1 to 3 have scripts; seven need
-   writing, which costs nothing.
-3. **Writing Clearly, all nine.** Term 1. About $1.96. The voice pass finished 2026-09-17. No
-   scripts yet. **Finishing this one completes Term 1 of the Core.**
-4. **Personal Finance, all ten.** Term 2. About $2.16. Lessons 1 to 3 have scripts.
-5. **Algebra Essentials, all six.** Term 5. About $1.31. Voice pass finished 2026-09-17.
-6. **Python Basics, all six.** Term 6. About $1.31.
-7. **Bible Basics, all twelve.** Term 8. About $2.61. Lesson 2 has a script.
+**Which course and which lesson is next: `npm run state`.** It names the first lesson actually
+missing an episode, which is not always the lowest-numbered one. The numbered list that used to sit
+here is gone; within a day of being written its first item was already wrong, because How to Learn
+Anything had been finished and the list still asked for its seven episodes.
 
-Courses not yet written, starting with Reading Well, get their episodes as part of their own build
-and never enter this list. `curriculum/audio-debt.yaml` is the ledger and it only shrinks.
+Courses not yet written get their episodes the same way as everything else, trailing their
+own drafting. `curriculum/audio-debt.yaml` is the ledger.
 
 ## 4. The five rules that keep the money in the account
 

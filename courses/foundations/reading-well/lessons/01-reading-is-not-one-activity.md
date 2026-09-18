@@ -93,7 +93,7 @@ That distinction matters more than it looks, so here is the picture.
 <text x="20" y="68" font-size="15" font-weight="600" fill="var(--navy, #0f2a4a)">Syntopical</text>
 <rect x="40" y="80" width="340" height="176" rx="6" fill="none" stroke="var(--oxblood, #8b1e2d)" stroke-width="2"/>
 <text x="52" y="100" font-size="15" font-weight="600" fill="var(--oxblood, #8b1e2d)">Analytical</text>
-<rect x="72" y="112" width="276" height="112" rx="6" fill="none" stroke="var(--gold, #b08d2a)" stroke-width="2"/>
+<rect x="72" y="112" width="276" height="112" rx="6" fill="none" stroke="var(--gold-text, #7d6218)" stroke-width="2"/>
 <text x="84" y="132" font-size="15" font-weight="600" fill="var(--gold-text, #7d6218)">Inspectional</text>
 <rect x="104" y="144" width="212" height="48" rx="6" fill="var(--navy-soft, #e8eef6)" stroke="var(--text-2, #4a5260)" stroke-width="1.5"/>
 <text x="116" y="173" font-size="15" font-weight="600" fill="var(--text-2, #4a5260)">Elementary</text>
