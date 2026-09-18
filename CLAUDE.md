@@ -21,6 +21,8 @@ repo as Markdown; a build script compiles it into a static site. Read this file,
 - `docs/STYLE_GUIDE.md` — how it must sound: a professor talking to one student. No em dashes, no
   AI vocabulary, no salesy talk. Every lesson gets a voice pass.
 - `docs/CONTENT_PIPELINE.md` — the staged process and the slash commands that run it.
+- `docs/PODCAST_PIPELINE.md` — how an episode is made, what it costs, and the order to render in.
+  Read it before spending anything on audio.
 - `docs/FEEDBACK_LOOP.md` — how learner feedback becomes lesson improvements.
 - `docs/SOURCE_NOTES.md` — standing judgements about particular sources. Stage 1 reading.
 - `docs/PLATFORM_ROADMAP.md` — where the platform is going, and the specs for work not started.

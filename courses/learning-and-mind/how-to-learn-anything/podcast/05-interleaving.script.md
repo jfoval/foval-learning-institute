@@ -16,9 +16,9 @@ speakers: 2
 approx_minutes: 6
 ---
 
-S1: Welcome in. This is the Foval Learning Institute podcast, where the two of us talk a lesson through. I'm John.
+S2: Welcome in. This is the Foval Learning Institute podcast, where the two of us talk a lesson through. I'm Haley.
 
-S2: And I'm Haley. We're in How to Learn Anything, lesson five. Interleaving and variation, mix it up, within limits.
+S1: And I'm John. We're in How to Learn Anything, lesson five. Interleaving and variation, mix it up, within limits.
 
 S1: Think about the last time you worked through problem sets. A maths chapter, a grammar unit, a coding tutorial. Almost certainly the practice was arranged the way textbooks arrange it. Ten problems on one method, then ten on the next. By the tenth problem you were fast and accurate, which felt like mastery.
 

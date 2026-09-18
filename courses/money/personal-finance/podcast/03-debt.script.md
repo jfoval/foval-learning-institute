@@ -13,9 +13,9 @@ speakers: 2
 approx_minutes: 6
 ---
 
-S1: Welcome in. This is the Foval Learning Institute podcast. I'm John.
+S2: Welcome in. This is the Foval Learning Institute podcast. I'm Haley.
 
-S2: And I'm Haley. Personal Finance Fundamentals, lesson three. How debt really works.
+S1: And I'm John. Personal Finance Fundamentals, lesson three. How debt really works.
 
 S1: And the lesson opens with a fact I'd never thought about. Since twenty ten, every US credit card statement has been required to carry a small box showing how long the balance would take to clear at the minimum payment, and what it would cost.
 

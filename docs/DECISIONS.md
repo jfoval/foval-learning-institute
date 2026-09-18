@@ -144,52 +144,45 @@ reading on the Septuagint's *parthenos* and Matthew's use of it, which is where 
 
 ---
 
-## 7. Podcasts: engine, hosts, and the voice drift
+## 7. Podcasts: engine, hosts, and the fade
 
-The operating instructions are in `.claude/commands/make-podcast.md` and the research behind the
-choice is in `docs/PODCAST_OPTIONS.md`. What is settled:
+The operating manual is `docs/PODCAST_PIPELINE.md` (method, cost, and the order to render in), the
+command is `.claude/commands/make-podcast.md`, and the research behind the original choice is
+`docs/PODCAST_OPTIONS.md`. What is settled:
 
-- **Engine: Gemini 3.1 Flash TTS on fal** (`fal-ai/gemini-3.1-flash-tts`), multi-speaker, $0.05 per
-  1,000 characters in, about $0.30 to $0.50 an episode. It replaced VibeVoice 7B on 2026-09-08
-  after John listened to both, and every episode that existed was re-rendered from its existing
-  fact-checked script and re-uploaded over the same R2 key, so no lesson frontmatter changed.
-  **Do not switch engines without asking John.**
-- **The hosts are John (Charon) and Haley (Aoede). SETTLED, and re-settled on 2026-09-09.** They
-  were switched that day to Iapetus and Erinome, the only pair of Google's 30 prebuilt voices whose
-  published characteristic is simply "Clear", on the reasoning that a characterful descriptor gives
-  a generative model something to act. **John reversed it within the hour and declined a sample
-  render.** His reason is the better one: the live episodes are Charon and Aoede, and matching what
-  exists beats a theory about descriptors. Changing a host voice means re-rendering every episode
-  in the institute, because the hosts have to sound the same everywhere.
-- **The voice drift had a cause, and the cause was the length of the call. Episodes are rendered in
-  chunks now, each one gated, and nothing is paid for twice.** Settled 2026-09-17 after John said the
-  episodes start right and then a host fades to a whisper, and that he would rather start the
-  catalogue over than keep shipping that. Profiling all fourteen episodes that existed showed the
-  same shape in every one: the level decays steadily from the first minute to the last (Personal
-  Finance 2 fell 24 dB) and John's pitch band empties with it, several ending in two minutes of
-  near silence. Each episode was one call of 6,000 to 8,300 characters. Google's own docs say
-  consistency drifts past a few minutes and tell you to split the transcript, and production users
-  put the two-speaker ceiling near 3,000 characters. `scripts/podcast.mjs` now cuts the script at
-  turn boundaries into chunks of about 1,100 characters, renders each as its own call with the same
-  hosts and settings, gates every chunk on level, both voices present, and speech length against
-  word count, re-renders only a failing chunk, gain-matches the chunks and joins them with ffmpeg.
-  Every attempt is kept under `audio-out/work/` with a manifest, so a rerun reuses what passed.
-  The first chunked render of Personal Finance 2 held -20 dBFS within 1.5 dB from start to finish,
-  with John's median pitch between 103 and 113 Hz in every chunk. Cost is unchanged, since billing
-  is per character. The earlier setting, temperature 0.25 with the casting notes out of the style
-  string, stays. This supersedes the 2026-09-09 line that the drift was accepted: it was accepted
-  because the cause was thought to be the model's randomness, and it was the call length.
-  **Every episode rendered before 2026-09-17 is to be re-rendered chunked**, about $5 for the
-  fourteen, once John has listened to the test render and approved the seams by ear.
-- **If it is ever re-opened, the two routes are priced.**
-  `fal-ai/elevenlabs/text-to-dialogue/eleven-v3` has fixed library voices, a `seed`, a stability
-  control and multi-speaker in one call at $0.10 per 1,000 characters, about $0.70 an episode; and
-  `fal-ai/minimax/voice-clone` returns a permanent `custom_voice_id` from a reference clip kept in
-  the repo, the most locked-down option, but single-speaker per call, so every turn is a separate
-  render stitched with ffmpeg. Either means re-rendering every live episode so the institute
-  matches, which is the real cost, around $8.
-- **A lesson gets its episode only once its content has settled.** Rendering audio for a lesson
-  that is about to be replaced pays for it twice.
+- **Engine: Gemini 2.5 Pro TTS on Google's own API, the whole episode in one call.** Settled with
+  John by ear on 2026-09-18. It replaced Gemini 3.1 Flash TTS on fal, which had replaced VibeVoice.
+  About $0.22 an episode, billed on audio out. **Do not switch engines without asking John.**
+- **The hosts are John (Charon) and Haley (Aoede). SETTLED**, through three engine changes now.
+  Changing a host voice means re-rendering every episode in the institute.
+- **Haley speaks first in every script.** Not a style choice: the model gives the first turn to the
+  second speaker's voice whatever the label says, so John written first means Haley reads his line.
+  Measured over five renders, never once correct. The parser refuses an S1 opening.
+- **The fade was the real defect, and it was the length of the call.** Everything the institute had
+  shipped fell about 20 dB from first line to last, with the male host dropping out as it went, and
+  several episodes ending in two minutes of near silence. Three things were tried and measured
+  before the answer was found, and all three are recorded because each one looked right:
+  **temperature** (0.25, then 0: no effect, and 0 is not even deterministic); **chunking** on Flash
+  (fixed the fade, but every chunk is a fresh casting of Charon, about a 12% pitch spread call to
+  call, which John heard immediately as the voice changing at minute four); and **rerolling chunks
+  against a reference fingerprint** (cost a dollar an episode and still failed, because the spread
+  is wider than the tolerance). What worked was a different model: Pro holds a whole episode in one
+  call, which Flash cannot do at any setting.
+- **The catalogue was reset on 2026-09-18, John's call.** All thirteen remaining defective episodes
+  were deleted from R2 and unstamped, How to Learn Anything lesson 1 was re-rendered and published,
+  and the rest come back one at a time as the budget allows. `curriculum/audio-debt.yaml` records
+  the raise as a one-commit reset, which is the only way its numbers may ever go up.
+- **`scripts/podcast/hosts.json` is the voice reference** and is set from that approved episode. It
+  is what keeps episode 40 sounding like episode 1. Resetting it is John's decision.
+- **Never send `temperature` or `seed`, always cap `maxOutputTokens`, use curl not fetch, and never
+  re-send automatically.** About $25 went out in one afternoon on 2026-09-17 learning this: a retry
+  loop wrapped around Node's five-minute fetch timeout, while Google kept rendering and billing. The
+  rules are enforced in `scripts/podcast.mjs` and explained in `docs/PODCAST_PIPELINE.md` section 4.
+- **A lesson gets its episode only once its content has settled**, after Stage 4 and the voice pass.
+  Rendering audio for a lesson that is about to be replaced pays for it twice.
+- **If it is ever re-opened**, ElevenLabs was listened to twice, on 2026-09-08 and 2026-09-17, and
+  lost both times: John finds Gemini plainly better on energy and podcast feel, and that is the
+  test that decides. Do not propose it again as the answer to voice consistency.
 
 ---
 

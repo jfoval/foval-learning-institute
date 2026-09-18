@@ -24,9 +24,9 @@ speakers: 2
 approx_minutes: 9
 ---
 
-S1: Welcome in. This is the Foval Learning Institute podcast, where the two of us talk a lesson through. I'm John.
+S2: Welcome in. This is the Foval Learning Institute podcast, where the two of us talk a lesson through. I'm Haley.
 
-S2: And I'm Haley. Logic and Argument, lesson three. Conditionals.
+S1: And I'm John. Logic and Argument, lesson three. Conditionals.
 
 S1: Two people look round the same flat, and on the way out they each make an argument. The first one says, if this place had damp, you'd see stains on the ceiling. There aren't any stains. So there's no damp.
 

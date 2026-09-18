@@ -1,48 +1,13 @@
 {
   "set": "2026-09-18",
-  "from": "audio-out/work/money/personal-finance/02-budget/chunk-01.attempt-1.mp3",
+  "engine": "gemini-2.5-pro-preview-tts",
+  "from": "audio-out/learning-and-mind/how-to-learn-anything/01-learning-is-not-performance.mp3",
   "john": {
-    "med": 111.8881118881119,
-    "vec": [
-      6.085,
-      6.388,
-      5.586,
-      5.956,
-      4.478,
-      3.462,
-      2.098,
-      0.147,
-      -1.165,
-      -1.991,
-      -3.653,
-      -4.441,
-      -4.154,
-      -5.414,
-      -6.517,
-      -6.865
-    ],
-    "frames": 1187
+    "med": 93.5672514619883,
+    "frames": 5381
   },
   "haley": {
-    "med": 197.53086419753086,
-    "vec": [
-      -0.139,
-      1.691,
-      5.332,
-      5.428,
-      4.125,
-      3.536,
-      2.654,
-      0.88,
-      -0.091,
-      -1.016,
-      -2.391,
-      -3.093,
-      -3.305,
-      -3.761,
-      -4.467,
-      -5.383
-    ],
-    "frames": 468
+    "med": 200,
+    "frames": 3095
   }
 }

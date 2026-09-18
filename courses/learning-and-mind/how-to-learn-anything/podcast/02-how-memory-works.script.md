@@ -15,9 +15,9 @@ speakers: 2
 approx_minutes: 6
 ---
 
-S1: Welcome in. This is the Foval Learning Institute podcast, where the two of us talk a lesson through. I'm John.
+S2: Welcome in. This is the Foval Learning Institute podcast, where the two of us talk a lesson through. I'm Haley.
 
-S2: And I'm Haley. We're in the course How to Learn Anything, on lesson two. How memory actually works.
+S1: And I'm John. We're in the course How to Learn Anything, on lesson two. How memory actually works.
 
 S1: Start with a feeling from this one too. Pick a paragraph you found impossible recently. A clause in a lease, a page of a statistics textbook, a block of code someone else wrote. You read it, you reached the end, and you had nothing. Then someone who knows the field glanced at it and said, oh, that's just saying X.
 

@@ -92,6 +92,61 @@ two-speaker ceiling near 3,000 characters.
 - `docs/DECISIONS.md` §7 rewritten: the drift is no longer accepted, the fourteen pre-2026-09-17
   episodes are to be re-rendered (about $5), and the engine and hosts stay as they were.
 
+## 2026-09-18 — The podcast method is settled: one Pro call an episode, and the catalogue reset
+
+**John approved a rendered episode by ear, and the institute has a podcast pipeline that works.**
+How to Learn Anything lesson 1 is live, rendered in a single call to Gemini 2.5 Pro TTS on Google's
+own API, billed $0.19. It holds both hosts flat from the first line to the last: no fade, no
+whisper, no seam. `docs/PODCAST_PIPELINE.md` is the new operating manual and carries the method, the
+measured cost, the order to render the remaining sixty episodes in, and the rules below.
+
+**What the two days of measurement actually found.** The defect John reported, episodes that start
+right and end with a host whispering, was not randomness and was not the model's presets. It was the
+length of the call. Every episode the institute had shipped was one request of 6,000 to 8,300
+characters, and the level decayed about 20 dB across it while the male band emptied. Three fixes
+were tried in order and all three are worth recording, because each looked right at the time:
+
+- **Temperature.** 0.25, then 0. No effect on the spread, and 0 is not deterministic on this model.
+- **Chunking on Gemini 3.1 Flash.** Fixed the fade completely, and John confirmed it by ear. But
+  every chunk is a fresh casting of Charon, a spread of about 12% in pitch call to call, which he
+  heard at once as the voice changing around minute four.
+- **Rerolling chunks against a reference fingerprint.** Cost about a dollar an episode and still
+  failed: across 27 attempts John's median ran 92 to 119 Hz, wider than any workable tolerance.
+
+What worked was a different model. **Gemini 2.5 Pro holds a whole episode in one call**, which Flash
+cannot do at any setting. ElevenLabs was listened to again and lost again; John finds Gemini plainly
+better on energy and podcast feel, and that is the test that decides.
+
+**Haley speaks first in every script now.** Pro gives the first turn of a transcript to the second
+speaker's voice whatever the label says, measured over five renders and never once correct. Written
+John-first, Haley's voice reads his intro and then her own, and the episode comes out in one voice.
+John caught this by ear on the first Pro render. The pitch tracker had missed it because a female
+voice at 200 Hz reads as a male voice at 100 Hz on an octave error; the tracker now checks for that.
+All fifteen existing scripts were swapped, and the parser refuses an S1 opening before any money is
+spent.
+
+**About $25 went out in one afternoon, and almost none of it became audio.** The cause was a retry
+loop wrapped around Node's `fetch`, which abandons a response whose headers take more than five
+minutes. A Pro episode takes five to six, so every render "timed out", was re-sent, and Google kept
+rendering and billing the abandoned one. With `temperature` and `seed` in the request, which make
+this model return silence, each of those was up to $1.70 of nothing. Five rules are now enforced in
+`scripts/podcast.mjs`: never send `temperature` or `seed`, always cap `maxOutputTokens` from the
+word count, use curl not fetch, **never re-send automatically**, and one request at a time. A render
+that already passed is copied rather than paid for again, and every attempt is logged with what it
+was billed.
+
+**The catalogue was reset, John's call.** All thirteen remaining pre-2026-09-18 episodes were
+deleted from R2 and unstamped from their lessons; they come back one at a time as budget allows. The
+local MP3s stay in git-ignored `audio-out/` as a backup. This is the first time the audio debt has
+grown, so `curriculum/audio-debt.yaml` gained a **reset** mechanism: a dated, reasoned block naming
+the exact raises, which `npm run validate` accepts only in the commit that introduces it. The commit
+after, the ratchet is back on. Sixty episodes are now owed against one live, and finishing them all
+costs about $13.
+
+**`scripts/podcast/hosts.json`** holds the reference fingerprint of the two voices, taken from the
+episode John approved, and every future render is matched against it within 6%. It is what will keep
+episode 40 sounding like episode 1.
+
 ## 2026-09-11 — Writing Clearly through Stage 4, all nine lessons
 
 **The last of the three pre-pipeline placeholder courses is now at standard.** All nine lessons

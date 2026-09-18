@@ -16,9 +16,9 @@ speakers: 2
 approx_minutes: 6
 ---
 
-S1: Welcome in. This is the Foval Learning Institute podcast, where the two of us talk a lesson through. I'm John.
+S2: Welcome in. This is the Foval Learning Institute podcast, where the two of us talk a lesson through. I'm Haley.
 
-S2: And I'm Haley. We're in How to Learn Anything, lesson three. Retrieval practice, one of the two techniques that hold up.
+S1: And I'm John. We're in How to Learn Anything, lesson three. Retrieval practice, one of the two techniques that hold up.
 
 S1: Lesson one was the diagnosis. What you can do right now is a poor guide to what you'll keep, and the feeling of knowing tracks fluency, not storage. Lesson two gave the machinery underneath. This lesson is the treatment. And it's simple to state. Pulling information out of memory strengthens it more than putting it in again.
 

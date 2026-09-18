@@ -12,58 +12,49 @@ through.
 
 Rewrite these five lines each session. Nothing else goes in this block.
 
-- **Current course:** Reading Well (Term 1, position 2). Scaffolded 2026-09-17, at Stage 1.
-- **Current lesson:** none yet. Stage 1 research comes before any drafting.
-- **Current stage:** Stage 1, `/research-course courses/foundations/reading-well`. The seven live courses are all through Stage 4 and owe only episodes, which are blocked on the key below. John delegated the call on 2026-09-17 and the exception is now written down (`docs/DECISIONS.md` §2): Reading Well is drafted through Stage 4 while audio waits, and is not published until the courses ahead of it have their episodes.
-- **Blocked on:** a Google AI Studio API key from John (`GEMINI_API_KEY` in `.env.local`, billing
-  enabled), so Gemini 2.5 Pro TTS and the direct API's `seed` can be tested. John heard the chunked
-  Gemini 3.1 Flash render on 2026-09-17: the fade is gone, but John's voice still changes between
-  chunks, and rerolling to match a reference costs a dollar an episode and still fails, because the
-  call-to-call spread is about twelve percent. Every knob fal exposes has now been measured.
-- **Next action:** with the key, render Personal Finance 2 three ways for about $1: 3.1 Flash
-  direct with a fixed seed, 2.5 Pro TTS as one call (Google positions Pro for podcasts and its cap
-  is about eleven minutes, so a whole episode fits), and 2.5 Pro chunked with a seed. Profile each
-  and send John the ones that hold. Nothing is uploaded until he approves one by ear. Reading Well's
-  research and drafting run alongside.
+- **Current course:** How to Learn Anything, finishing its episodes on the new pipeline. Reading
+  Well's Stage 1 research runs alongside under the `docs/DECISIONS.md` §2 exception.
+- **Current lesson:** How to Learn Anything lesson 1's episode is live and approved by John; lessons
+  2 to 8 are next, and their scripts are already written and fact-checked.
+- **Current stage:** Stage 6, one episode at a time. **`docs/PODCAST_PIPELINE.md` is the manual**:
+  method, measured cost, the order, and the five rules that keep the spending sane.
+- **Blocked on:** nothing. The Gemini spend cap is the only limit: $23.39 of $30 used in September,
+  about $6.61 left, resetting on the 1st. That is roughly thirty episodes of headroom.
+- **Next action:** `node scripts/podcast.mjs render courses/learning-and-mind/how-to-learn-anything/lessons/02-how-memory-works.md`
+  to see the cost, then the same with `--go`. Pure render, about $0.24. Then lessons 3 to 8, which
+  finishes the course.
 
 ## The queue, top to bottom
 
 A course is done when every lesson is at standard **and** every lesson has an episode. `npm run
 validate` enforces the second half against `curriculum/audio-debt.yaml`, which only shrinks.
 
-1. **Writing Clearly: its nine episodes.** The voice pass finished 2026-09-17 on all nine, and was
-   light: see the changelog for what it found and for the proposal to fold the voice checks into
-   Stage 4 from Algebra onwards. Blocked on the key below; scripts can be written without it.
-   **Stage 4 finished 2026-09-11.** All nine lessons went through it on 10 and 11 September and all
-   nine were largely rewritten. What it found, across the nine, is in
-   `research/reviews/course-wide.md` and is worth reading before the voice pass touches anything:
-   a figure four lessons carried that no source contained; six defects the drafter repeated in
-   every lesson; four lessons that trimmed a quotation in the direction that helped the argument,
-   one of them quoting a paraphrase from the course's own research file as if it were the source;
-   three lessons that got their own counts wrong; and two lessons that failed the neutrality pass
-   on selection rather than on any false sentence.
-   The lessons now average 4,700 words against 3,676 before, and every `minutes:` is measured.
+**All seven live courses are through Stage 4 and the voice pass, so every one is ready for
+episodes.** Sixty are owed, about $13 in total. The order below is Core term order, costed per
+course in `docs/PODCAST_PIPELINE.md` section 3. Finish a course before starting the next.
 
-2. **Re-render the fourteen live episodes chunked, then the 47 owed.** Every episode rendered before
-   2026-09-17 fades and loses John's voice by the end; the cause and the fix are in
-   `docs/DECISIONS.md` §7. Personal Finance 2 is re-rendered locally and waits on John's ear before
-   upload. The other thirteen follow at about $0.37 each, uploaded over the same R2 keys so no
-   lesson changes. Then the owed 47. 26 are ready to render: Personal Finance 3 to 10,
-   Logic and Argument 4 to 10, Bible Basics 2 to 12, about $11 in total. Personal Finance 3's
-   script is written and fact-checked at `courses/money/personal-finance/podcast/03-debt.script.md`.
-   Python Basics' 6 need scripts, which is the first step of `/make-podcast` and needs no fal.
-   Writing Clearly's 9 and Algebra's 6 wait on their Stage 4 cycles and voice pass.
-3. **Algebra Essentials: six episodes.** Rebuilt 2026-09-09, through Stage 4 with both assessments,
-   and through the voice pass on 2026-09-17. `npm run validate` prints no warnings for it now.
-4. **Charts on a phone.** 34 charts render their smallest label at 8.8px and Bible Basics 9 at
+1. **How to Learn Anything, lessons 2 to 8.** Term 1, about $1.33. All seven scripts are written,
+   fact-checked and open with Haley: pure rendering. First because it returns the institute's first
+   complete course to complete.
+2. **Logic and Argument, all ten.** Term 1, about $2.24. Lessons 1 to 3 have scripts; seven need
+   writing, which costs nothing at the API.
+3. **Writing Clearly, all nine.** Term 1, about $1.96. Voice pass finished 2026-09-17 and was light.
+   No scripts yet. Finishing this one **completes Term 1 of the Core**.
+4. **Personal Finance, all ten.** Term 2, about $2.16. Lessons 1 to 3 have scripts.
+5. **Algebra Essentials, all six.** Term 5, about $1.31. Voice pass finished 2026-09-17 and
+   `npm run validate` prints no warnings for it now.
+6. **Python Basics, all six.** Term 6, about $1.31.
+7. **Bible Basics, all twelve.** Term 8, about $2.61. Lesson 2 has a script.
+
+8. **Charts on a phone.** 34 charts render their smallest label at 8.8px and Bible Basics 9 at
    8.0px, against a 10px floor. The validator names each one. The fix is one chart at a time with
    the page open: narrow the viewBox and re-lay-out, or raise the font size and check nothing
    collides. Do not bulk-edit the font sizes.
-5. **`npm run quiz` lists 19 quizzes tripping the shape heuristic** (option-length spread over 25
+9. **`npm run quiz` lists 19 quizzes tripping the shape heuristic** (option-length spread over 25
    characters, adjacent repeats, unused positions) without being winnable by a reader who read
    nothing. Worst is Personal Finance 6 at a 174-character spread. Decide one thing when it comes
    up: tighten the 19, or raise the threshold and say why. Not both.
-6. **Then the Foval Core in order, one course at a time, each finished before the next starts.**
+10. **Then the Foval Core in order, one course at a time, each finished before the next starts.**
    **Reading Well is scaffolded and at Stage 1 as of 2026-09-17**, drafted ahead of its audio under
    the §2 exception. After it: Digital Literacy, then Using AI Effectively, then Term 2. Start each
    with `/new-course`.
@@ -83,22 +74,25 @@ These have no session that owns them, which is how they were being skipped.
 
 | Course | Term | Lessons | Avg words | Stage 4 | Assessments | Episodes | Owes |
 |---|---|---|---|---|---|---|---|
-| How to Learn Anything | T1 | 8 | 7,216 | 8 | 2 | 8 of 8 | **nothing** |
-| Logic and Argument | T1 | 10 | 9,380 | 10 | 2 | 3 of 10 | 7 episodes |
-| Bible Basics | T8 | 12 | 13,163 | 12 | 2 | 1 of 12 | 11 episodes |
-| Personal Finance | T2 | 10 | 5,932 | 10 | 2 | 2 of 10 | 8 episodes |
+| How to Learn Anything | T1 | 8 | 7,216 | 8 | 2 | 1 of 8 | 7 episodes |
+| Logic and Argument | T1 | 10 | 9,380 | 10 | 2 | 0 of 10 | 10 episodes |
+| Bible Basics | T8 | 12 | 13,163 | 12 | 2 | 0 of 12 | 12 episodes |
+| Personal Finance | T2 | 10 | 5,932 | 10 | 2 | 0 of 10 | 10 episodes |
 | Algebra Essentials | T5 | 6 | 3,689 | 6 | 2 | 0 of 6 | 6 episodes |
 | Writing Clearly | T1 | 9 | 4,646 | 9 | 2 | 0 of 9 | 9 episodes |
 | Python Basics | T6 | 6 | 3,095 | 6 | 2 | 0 of 6 | 6 episodes |
 
-Sixty-one lessons live, fourteen with audio. `/status` recomputes this table and rewrites it here
+Sixty-one lessons live, one with audio. The count fell from fourteen on 2026-09-18: every episode
+shipped before that date faded out by its end and was deleted at John's instruction, and they come
+back one at a time on the pipeline that works. See `docs/DECISIONS.md` section 7. `/status` recomputes this table and rewrites it here
 when it has drifted.
 
 ## Waiting on John
 
-- **A Google AI Studio API key** at aistudio.google.com, with billing enabled (Pro TTS has no free
-  tier; a test is about $1), saved as `GEMINI_API_KEY=` in `.env.local`. It releases the three-way
-  Gemini test above, and after that about $16 of rendering.
+- **Regenerate the Gemini API key** at aistudio.google.com/apikey when convenient: the current one
+  was pasted into a chat transcript on 2026-09-17. Put the new one in `.env.local`.
+- **Raise the Gemini monthly spend cap** at aistudio.google.com/spend when you want a run longer
+  than the month's headroom. All sixty owed episodes cost about $13 in total.
 - **Deploy the accounts Worker.** It needs credentials and two free accounts; steps in
   `workers/api/README.md`.
 - **A store account and a donations account**, if he wants either. Artwork and copy can be prepared

@@ -2,155 +2,98 @@
 // script from the lesson and fact-checking it in a fresh-context subagent) is the
 // /make-podcast command; this script takes over once a checked script file exists.
 //
-//   node scripts/podcast.mjs plan   <lesson.md>          where this lesson's episode stands
-//   node scripts/podcast.mjs render <lesson.md>          dry run: parse, cost, request shape
-//   node scripts/podcast.mjs render <lesson.md> --go     spend money, write the MP3
-//   node scripts/podcast.mjs upload <lesson.md>          MP3 to R2 via wrangler
-//   node scripts/podcast.mjs stamp  <lesson.md>          write audio: into the lesson frontmatter
-//   node scripts/podcast.mjs all    <lesson.md> --go     render, upload, stamp
-//   node scripts/podcast.mjs profile <lesson.md>         per-30-second level and voice report on the MP3
-//   node scripts/podcast.mjs reference <lesson.md>       set the host reference fingerprints from its first chunk
-//
-// Flags: --go spends money; --force overrides the cost cap and stitches an episode whose chunk
-// failed every attempt; --fresh throws away the chunk work directory and pays for every chunk again.
+//   node scripts/podcast.mjs plan      <lesson.md>        where this lesson's episode stands
+//   node scripts/podcast.mjs render    <lesson.md>        dry run: parse, cost, request shape; spends nothing
+//   node scripts/podcast.mjs render    <lesson.md> --go   ONE call to Google, about $0.25, then the gate
+//   node scripts/podcast.mjs upload    <lesson.md>        MP3 to R2 via wrangler
+//   node scripts/podcast.mjs stamp     <lesson.md>        write audio: into the lesson frontmatter
+//   node scripts/podcast.mjs all       <lesson.md> --go   render, upload, stamp
+//   node scripts/podcast.mjs profile   <lesson.md>        per-30-second level and voice report on the MP3
+//   node scripts/podcast.mjs reference <lesson.md>        set the host reference fingerprints from its MP3
 //
 // Paths are all derived from the lesson path, so there is one argument everywhere:
 //   lesson   courses/<school>/<course>/lessons/<id>.md
 //   script   courses/<school>/<course>/podcast/<id>.script.md      (in git: it is content)
 //   mp3      audio-out/<school>/<course>/<id>.mp3                  (git-ignored)
-//   chunks   audio-out/work/<school>/<course>/<id>/                 (git-ignored; every attempt kept)
+//   attempts audio-out/work/<school>/<course>/<id>/                 (git-ignored; every attempt kept)
 //   R2       foval-audio/<school>/<course>/<id>.mp3
 //   public   https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/<school>/<course>/<id>.mp3
 //
-// Guards, all deliberate:
-//   - render --go refuses a script whose frontmatter has no `checked:` entry, because the
-//     fact-check happens before money is spent, never after.
-//   - render --go refuses an estimate over $2 without --force. A normal episode is ~$0.30.
-//   - FAL_KEY is read from the environment, falling back to .env.local, which is git-ignored.
+// THE ENGINE: Gemini 2.5 Pro TTS on Google's own API, the whole episode in ONE call. Settled with
+// John by ear on 2026-09-17 after everything else was measured (docs/DECISIONS.md §7): the single
+// Pro call holds both hosts for the whole episode with no fade and no seams, which neither Gemini
+// 3.1 Flash in one call (it fades to a whisper) nor Flash in chunks (each chunk is a fresh casting
+// of Charon) could do. S1 is John (Charon), S2 is Haley (Aoede). Do not change either without him.
 //
-// The engine is Gemini 3.1 Flash TTS on fal, multi-speaker. It replaced VibeVoice 7B on
-// 2026-09-08: John listened to both and the Gemini episodes are plainly better, so every
-// episode was re-rendered from the same scripts. Billing is per character in rather than
-// per minute out, $0.05 per 1,000 characters, which comes to about $0.50 an episode.
+// MONEY, and the rules that keep it in the account. Google bills TTS on audio OUT ($20 a million
+// audio tokens, about 26 a second, so a six-minute episode is about $0.22) plus text in ($1 a
+// million tokens, a cent). fal billed on text in, which quietly protected us; this API does not.
+// Learned on 2026-09-17 at a cost of about $25:
+//   1. `temperature` or `seed` in generationConfig makes this model return silence, sometimes
+//      forty minutes of it, billed. Neither is ever sent. The request carries only what Google's
+//      own example carries, plus maxOutputTokens.
+//   2. maxOutputTokens is set from the word count, so a runaway is capped at about 1.6 times the
+//      expected length, roughly $0.35, never $1.70.
+//   3. The HTTP call is curl, because Node's fetch drops a response whose headers take more than
+//      five minutes, and Google then finishes rendering and bills for it anyway.
+//   4. NOTHING IS RE-SENT AUTOMATICALLY. If the call fails or the result fails the gate, this
+//      script stops and says so. The attempt is kept. Spending again is a fresh `render --go`, and
+//      the manifest counts attempts so the total is always visible. A render that passed is never
+//      paid for twice: `render --go` on a passed episode says so and exits.
+//   5. One call at a time. Google's spend-rate limit on a new billing account rejects parallel
+//      Pro requests, and each rejection is a wasted minute, not a wasted dollar, but still.
 //
-// The voices are the institute's hosts: S1 is John (Charon) and S2 is Haley (Aoede), and this is
-// SETTLED. They were briefly changed to Iapetus and Erinome on 2026-09-09, the only pair of
-// Google's 30 prebuilt voices whose published characteristic is simply "Clear", on the reasoning
-// that a characterful descriptor gives a generative model something to act. John reversed it the
-// same day: the twelve live episodes are Charon and Aoede, and matching them matters more than a
-// theory about descriptors. Do not change the hosts without asking him.
+// THE OPENING. Pro gives the first turn of a transcript to the second speaker's voice, every time,
+// whatever the label says (measured on five renders). So Haley opens every episode: the first turn
+// of every script is S2. The script parser refuses anything else, before any money is spent.
 //
-// TEMPERATURE is 0.25 (fal's default is 1). Set on 2026-09-09 when John first noticed the hosts
-// drifting; it helped at the margins and did not fix the thing he hears, which is below.
-//
-// WHY EPISODES ARE RENDERED IN CHUNKS. Until 2026-09-17 each episode was one call carrying the
-// whole script, 6,000 to 8,300 characters. Profiling the fourteen episodes that existed, every one
-// showed the same shape: the level decays steadily from the first minute to the last (Personal
-// Finance 2 runs from an RMS of 0.06 at the start to 0.003 at the end) and the male band drops out
-// with it, so John (Charon) ends the episode whispering or replaced. Several ended in two minutes
-// of near silence. Google's own TTS docs say consistency drifts on outputs longer than a few
-// minutes and tell you to split the transcript; production reports put the practical ceiling for
-// two-speaker calls at about 3,000 characters. So: the script is cut at turn boundaries into
-// chunks of about CHUNK_TARGET characters, a minute or so of audio each, every chunk is its own
-// call with the same two voices, and the chunks are level-matched and joined with ffmpeg. Billing
-// is per character, so the episode costs the same as before.
-//
-// THE GATE, per chunk, before any stitching. Each chunk has to pass three checks or it is rendered
-// again on its own (about six cents), never the whole episode:
-//   level    mean volume no quieter than LEVEL_FLOOR dBFS, and within LEVEL_SPREAD dB of the median
-//            chunk, which is what catches a host fading to a whisper;
-//   voices   when both hosts speak in the chunk, both the low band (Charon) and the high band
-//            (Aoede) must be populated; a one-host chunk must sit mostly in that host's band;
-//   length   the spoken duration must sit between LENGTH_MIN and LENGTH_MAX of what the word count
-//            predicts, which catches truncation and invented lines.
-//   match    each host's median pitch (and, loosely, spectral shape) must sit within MATCH_PITCH of
-//            the reference fingerprint in scripts/podcast/hosts.json, which is what makes John at
-//            minute four the same John as minute one, and the same John in every episode. Without
-//            a seed or reference audio this is the only lock available on Gemini: the roll is
-//            random, so keep rolling until it lands. A reroll is about five cents.
-// A chunk that fails RETRIES times is reported and the render stops, so a bad chunk is never
-// uploaded and never silently accepted. --force renders the episode with the best attempt.
-//
-// WHAT THE MATCH GATE CAN AND CANNOT DO, measured 2026-09-17 on Personal Finance 2. Across 27
-// attempts John's median ran from 92 to 119 Hz and Haley's from 186 to 232: the call-to-call spread
-// on Gemini 3.1 Flash TTS is about plus or minus twelve percent, not the five the first seven
-// chunks happened to show. At a 4% tolerance three chunks failed four attempts each and the run
-// cost $1.09 with no episode to show for it. So the tolerance is 6%: it rejects the gross recasts
-// (the 8 to 20% ones John hears as a different man) and accepts the rest, and it does not make two
-// chunks the same rendition. The route to that is a different model or a seed; see QUEUE.md.
-//
-// THE REFERENCE. `node scripts/podcast.mjs reference <lesson> [--file=<mp3>]` writes hosts.json
-// from that lesson's first passed chunk (or the given file). It was set on 2026-09-17 from the
-// opening of Personal Finance 2, the rendition John listened to and called right. Resetting it
-// means every episode rendered since no longer matches, so do not reset it without asking him.
-//
-// NOTHING IS PAID FOR TWICE. Every attempt is kept under audio-out/work/<school>/<course>/<id>/
-// with a manifest recording the prompt hash, the check results and which attempt passed. A rerun,
-// a crash, or a second `render` reuses every chunk that already passed and only sends the ones
-// that are missing or failed. --fresh discards the work directory and pays for everything again;
-// use it only when the script text has changed, and the manifest notices that anyway because the
-// prompt hash changes.
-//
-// WHAT THIS DOES NOT DO. Gemini has no seed and takes no reference audio, so two chunks are not
-// guaranteed to be the same rendition of Charon. What chunking buys is that every minute starts
-// from the fresh state the model produces at the top of a call, which is the state John listened
-// to and approved, instead of minute six of a drift. The alternatives with a real lock
-// (ElevenLabs text-to-dialogue with a seed, MiniMax voice-clone) are priced in DECISIONS.md
-// section 7. Do not switch engines or hosts without asking John.
+// THE GATE, on the returned audio, before it can be uploaded:
+//   opening  the first six seconds are in Haley's band (if not, the voices are swapped);
+//   level    mean volume no quieter than LEVEL_FLOOR dBFS, and the last minute no more than
+//            LEVEL_SPREAD dB under the first, which is what the old fade looked like;
+//   voices   both hosts' pitch bands populated;
+//   length   spoken duration within LENGTH_MIN..LENGTH_MAX of what the word count predicts;
+//   match    when scripts/podcast/hosts.json exists, each host's median pitch within MATCH_PITCH of
+//            it, so every episode in the institute is the same John and the same Haley.
+// `reference` writes hosts.json from an episode John has approved; it refuses to overwrite
+// without --force, because resetting it means nothing rendered before it is known to match.
 
 import fs from "node:fs";
 import path from "node:path";
-import { createHash } from "node:crypto";
-import { execFileSync } from "node:child_process";
+import { execFileSync, spawnSync } from "node:child_process";
 import { fileURLToPath } from "node:url";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const BUCKET = "foval-audio";
 const PUBLIC_BASE = "https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev";
-const ENDPOINT = "https://queue.fal.run/fal-ai/gemini-3.1-flash-tts";
-const SPEAKERS = [
-  { speaker_id: "John", voice: "Charon" },
-  { speaker_id: "Haley", voice: "Aoede" },
-];
-const STYLE = "Unhurried and conversational, thinking aloud rather than reading aloud. Keep each speaker's voice exactly as configured and consistent from start to finish. Never announcer-bright.";
-const TEMPERATURE = 0.25;
-const COST_PER_1K_CHARS = 0.05;
-const COST_CAP = 2;
-const CHUNK_TARGET = 800;      // characters; about fifty seconds of two-host audio
-const CHUNK_MAX = 1300;        // a single long turn may push a chunk past the target, never past this
-const CONCURRENCY = 4;         // chunk renders in flight at once
-const RETRIES = 4;             // attempts per chunk before giving up
-const HOSTS_FILE = path.join(ROOT, "scripts", "podcast", "hosts.json");  // the reference fingerprints
-const MATCH_PITCH = 0.06;      // a host's median pitch may sit this far (log ratio) from the reference; an outlier guard, not a lock (see below)
-const MATCH_SPEC = 0.9;        // and its spectral shape this far; a gross-error check, pitch is the real test
-const MATCH_MIN_FRAMES = 80;   // fewer voiced frames than this and the host is not judged in that chunk
-const WPM = 150;               // words a minute, for the length check
+const MODEL = "gemini-2.5-pro-preview-tts";
+const ENDPOINT = `https://generativelanguage.googleapis.com/v1beta/models/${MODEL}:generateContent`;
+const HOSTS = { 1: { name: "John", voice: "Charon" }, 2: { name: "Haley", voice: "Aoede" } };
+const HOSTS_FILE = path.join(ROOT, "scripts", "podcast", "hosts.json");
+const PRICE_AUDIO_PER_M = 20, PRICE_TEXT_PER_M = 1;
+const TOKENS_PER_SECOND = 26;      // measured: 11,080 audio tokens for 443 s
+const WPM = 150;
+const OUTPUT_TOKEN_CEILING = 16384; // the model's own limit, about ten minutes
+const COST_CAP = 0.6;
 const LENGTH_MIN = 0.6, LENGTH_MAX = 1.7;
-const LEVEL_FLOOR = -30;       // dBFS mean volume; whispering lands around -40
-const LEVEL_SPREAD = 6;        // dB below the median chunk that counts as a fade
-const LEVEL_TARGET = -20;      // dBFS mean volume every chunk is gained to before stitching
-const GAP_SECONDS = 0.35;      // silence between chunks
+const LEVEL_FLOOR = -30, LEVEL_SPREAD = 6;
+const MATCH_PITCH = 0.06, MATCH_MIN_FRAMES = 80;
+const CURL_MAX_SECONDS = 1500;
 
 const args = process.argv.slice(2);
 const cmd = args[0];
 const lessonArg = args.find((a, i) => i > 0 && !a.startsWith("--"));
 const GO = args.includes("--go");
 const FORCE = args.includes("--force");
-const FRESH = args.includes("--fresh");
-// --temperature=<n> overrides TEMPERATURE for an experiment; the chunk hash includes it, so chunks
-// rendered at another temperature are never reused by mistake.
-const tempArg = args.find(a => a.startsWith("--temperature="));
-const TEMP = tempArg ? Number(tempArg.split("=")[1]) : TEMPERATURE;
 
 if (!["plan", "render", "upload", "stamp", "all", "profile", "reference"].includes(cmd) || !lessonArg) {
-  console.error("Usage: node scripts/podcast.mjs <plan|render|upload|stamp|all|profile|reference> <courses/.../lessons/NN-slug.md> [--go] [--force] [--fresh] [--file=<mp3>]");
+  console.error("Usage: node scripts/podcast.mjs <plan|render|upload|stamp|all|profile|reference> <courses/.../lessons/NN-slug.md> [--go] [--force] [--file=<mp3>]");
   process.exit(1);
 }
 
 /* ---------- derive every path from the lesson ---------- */
 const lessonPath = path.resolve(lessonArg);
 const rel = path.relative(ROOT, lessonPath).split(path.sep);
-// courses/<school>/<course>/lessons/<id>.md
 if (rel[0] !== "courses" || rel[3] !== "lessons" || rel.length !== 5 || !rel[4].endsWith(".md")) {
   console.error(`Not a lesson path: ${lessonArg}\nExpected courses/<school>/<course>/lessons/<id>.md`);
   process.exit(1);
@@ -161,20 +104,23 @@ const id = rel[4].replace(/\.md$/, "");
 const scriptPath = path.join(ROOT, "courses", school, course, "podcast", `${id}.script.md`);
 const mp3Path = path.join(ROOT, "audio-out", school, course, `${id}.mp3`);
 const workDir = path.join(ROOT, "audio-out", "work", school, course, id);
+const manifestPath = path.join(workDir, "manifest.json");
 const r2Key = `${school}/${course}/${id}.mp3`;
 const publicUrl = `${PUBLIC_BASE}/${r2Key}`;
 const show = p => path.relative(ROOT, p);
 
-/* ---------- .env.local fallback for FAL_KEY ---------- */
-if (!process.env.FAL_KEY) {
+/* ---------- keys from .env.local ---------- */
+function envKey(name) {
+  if (process.env[name]) return process.env[name];
   const envFile = path.join(ROOT, ".env.local");
   if (fs.existsSync(envFile)) {
-    const m = fs.readFileSync(envFile, "utf8").match(/^FAL_KEY=(.+)$/m);
-    if (m) process.env.FAL_KEY = m[1].trim().replace(/^(["'])(.*)\1$/, "$2");   // a quoted value keeps its quotes otherwise
+    const m = fs.readFileSync(envFile, "utf8").match(new RegExp(`^${name}=(.+)$`, "m"));
+    if (m) return m[1].trim().replace(/^(["'])(.*)\1$/, "$2");
   }
+  return null;
 }
 
-/* ---------- script parsing (same grammar as podcast-compare.mjs) ---------- */
+/* ---------- script parsing ---------- */
 function readScript() {
   if (!fs.existsSync(scriptPath)) {
     console.error(`No script at ${show(scriptPath)}.\nWrite one with /make-podcast ${show(lessonPath)} (it must be fact-checked before rendering).`);
@@ -188,179 +134,156 @@ function readScript() {
     .map(m => ({ speaker: Number(m[1]), text: m[2].replace(/\s+/g, " ").trim() }))
     .filter(t => t.text);
   if (!turns.length) { console.error(`No S1:/S2: turns found in ${show(scriptPath)}.`); process.exit(1); }
-  const words = turns.reduce((n, t) => n + t.text.split(/\s+/).length, 0);
-  const minutes = words / WPM; // a normal two-host pace
-  return { turns, words, minutes, checked };
-}
-
-/* ---------- cut the script into chunks at turn boundaries ---------- */
-function chunkTurns(turns) {
-  const chunks = [];
-  let cur = [], size = 0;
-  for (const t of turns) {
-    const len = t.text.length + 8;
-    if (cur.length && (size + len > CHUNK_MAX || size >= CHUNK_TARGET)) { chunks.push(cur); cur = []; size = 0; }
-    cur.push(t); size += len;
+  if (turns[0].speaker !== 2) {
+    console.error(`${show(scriptPath)} opens with S1. Haley (S2) has to speak first: the engine gives the first turn to the second voice whatever the label says. Swap the intro so Haley welcomes and John follows, then rerun.`);
+    process.exit(1);
   }
-  if (cur.length) chunks.push(cur);
-  return chunks.map((ts, i) => {
-    const prompt = ts.map(t => `${SPEAKERS[t.speaker - 1].speaker_id}: ${t.text}`).join("\n");
-    const words = ts.reduce((n, t) => n + t.text.split(/\s+/).length, 0);
-    const speakers = [...new Set(ts.map(t => t.speaker))];
-    const byHost = [1, 2].map(n => ts.filter(t => t.speaker === n).reduce((k, t) => k + t.text.length, 0));
-    const share = byHost.map(k => k / (byHost[0] + byHost[1]));
-    const hash = createHash("sha1").update(`${TEMP}|${STYLE}|${prompt}`).digest("hex").slice(0, 12);
-    return { i, prompt, words, speakers, share, hash, chars: prompt.length };
-  });
+  const words = turns.reduce((n, t) => n + t.text.split(/\s+/).length, 0);
+  const prompt = "TTS the following conversation between John and Haley:\n" + turns.map(t => `${HOSTS[t.speaker].name}: ${t.text}`).join("\n");
+  const seconds = words / WPM * 60;
+  const maxTokens = Math.min(OUTPUT_TOKEN_CEILING, Math.ceil(seconds * TOKENS_PER_SECOND * 1.6));
+  const textTokens = Math.ceil(prompt.length / 4);
+  const cost = seconds * TOKENS_PER_SECOND * PRICE_AUDIO_PER_M / 1e6 + textTokens * PRICE_TEXT_PER_M / 1e6;
+  const worst = maxTokens * PRICE_AUDIO_PER_M / 1e6 + textTokens * PRICE_TEXT_PER_M / 1e6;
+  return { turns, words, seconds, prompt, maxTokens, cost, worst, checked };
 }
 
-/* ---------- render on fal, Gemini 3.1 Flash TTS, one chunk per call ---------- */
+/* ---------- manifest of attempts ---------- */
+function loadManifest() { try { return JSON.parse(fs.readFileSync(manifestPath, "utf8")); } catch { return { attempts: [] }; } }
+function saveManifest(m) { fs.mkdirSync(workDir, { recursive: true }); fs.writeFileSync(manifestPath, JSON.stringify(m, null, 2)); }
+function scriptHash(prompt) { let h = 0; for (const c of prompt) h = (h * 31 + c.charCodeAt(0)) >>> 0; return h.toString(16); }
+
+/* ---------- render: one call ---------- */
 async function render() {
-  const { turns, words, minutes, checked } = readScript();
-  const chunks = chunkTurns(turns);
-  const chars = chunks.reduce((n, c) => n + c.chars, 0);
-  const cost = (chars / 1000) * COST_PER_1K_CHARS;
-  console.log(`${show(scriptPath)}: ${turns.length} turns, ${words} words, about ${minutes.toFixed(1)} minutes`);
-  console.log(`estimated cost on Gemini 3.1 Flash TTS: $${cost.toFixed(2)} (${chars} characters in ${chunks.length} chunks)   fact-checked: ${checked ? "yes" : "NO"}`);
-
-  const manifest = loadManifest(chunks);
-  const todo = chunks.filter(c => !manifest.chunks[c.i]?.passed);
-  const todoCost = (todo.reduce((n, c) => n + c.chars, 0) / 1000) * COST_PER_1K_CHARS;
-  if (todo.length < chunks.length) console.log(`${chunks.length - todo.length} of ${chunks.length} chunks already passed in ${show(workDir)}; ${todo.length} to render, about $${todoCost.toFixed(2)}`);
-
-  if (!GO) {
-    console.log("\nDry run. Nothing sent, nothing spent. Add --go to render. Chunks:");
-    for (const c of chunks) console.log(`  ${String(c.i + 1).padStart(2)}  ${String(c.chars).padStart(5)} chars  ${String(c.words).padStart(4)} words  hosts ${c.speakers.map(n => SPEAKERS[n - 1].speaker_id).join("+")}  ${manifest.chunks[c.i]?.passed ? "passed, will reuse" : "to render"}`);
-    console.log(`  POST ${ENDPOINT} per chunk with speakers ${JSON.stringify(SPEAKERS)}, temperature ${TEMP}`);
+  const s = readScript();
+  const hash = scriptHash(s.prompt);
+  const manifest = loadManifest();
+  const passed = manifest.attempts.find(a => a.hash === hash && a.passed);
+  console.log(`${show(scriptPath)}: ${s.turns.length} turns, ${s.words} words, about ${(s.seconds / 60).toFixed(1)} minutes; fact-checked: ${s.checked ? "yes" : "NO"}`);
+  console.log(`one call to ${MODEL}: expected cost $${s.cost.toFixed(2)}, capped at $${s.worst.toFixed(2)} by maxOutputTokens ${s.maxTokens}; attempts so far on this script: ${manifest.attempts.filter(a => a.hash === hash).length}`);
+  if (passed) {
+    fs.copyFileSync(path.join(workDir, passed.file), mp3Path);
+    console.log(`already rendered and passed (${passed.file}); copied to ${show(mp3Path)}. Not spending again.`);
     return;
   }
-  if (!checked) {
-    console.error("\nRefusing to spend money on an unchecked script: its frontmatter has no `checked:` entry.");
-    console.error("Fact-check it in a fresh-context subagent first (that is the /make-podcast flow), record the verdict in `checked:`, then rerun.");
-    process.exit(1);
+  if (!GO) {
+    console.log("\nDry run. Nothing sent, nothing spent. Add --go to render. Request that would be POSTed:");
+    console.log(`  POST ${ENDPOINT}`);
+    console.log(`  generationConfig: { responseModalities: [AUDIO], maxOutputTokens: ${s.maxTokens}, speechConfig: John=${HOSTS[1].voice}, Haley=${HOSTS[2].voice} }   (no temperature, no seed: either one returns silence, billed)`);
+    console.log(`  prompt starts: ${JSON.stringify(s.prompt.slice(0, 120))}...`);
+    return;
   }
-  if (cost > COST_CAP && !FORCE) {
-    console.error(`\nEstimate $${cost.toFixed(2)} is over the $${COST_CAP} guard. A normal episode is ~$0.40. Add --force if this is intended.`);
-    process.exit(1);
-  }
-  if (todo.length && !process.env.FAL_KEY) { console.error("\nNo FAL_KEY in the environment or .env.local."); process.exit(1); }
+  if (!s.checked) { console.error("\nRefusing to spend money on an unchecked script: its frontmatter has no `checked:` entry."); process.exit(1); }
+  if (s.worst > COST_CAP && !FORCE) { console.error(`\nWorst case $${s.worst.toFixed(2)} is over the $${COST_CAP} guard. Add --force if this is intended.`); process.exit(1); }
+  if (s.seconds * TOKENS_PER_SECOND > OUTPUT_TOKEN_CEILING * 0.9 && !FORCE) { console.error(`\nThis script expects about ${Math.round(s.seconds * TOKENS_PER_SECOND)} audio tokens against the model's ${OUTPUT_TOKEN_CEILING}; it would be cut off. Shorten it, or --force.`); process.exit(1); }
+  const key = envKey("GEMINI_API_KEY");
+  if (!key) { console.error("\nNo GEMINI_API_KEY in the environment or .env.local."); process.exit(1); }
 
+  const body = {
+    contents: [{ parts: [{ text: s.prompt }] }],
+    generationConfig: {
+      responseModalities: ["AUDIO"],
+      maxOutputTokens: s.maxTokens,
+      speechConfig: { multiSpeakerVoiceConfig: { speakerVoiceConfigs: [1, 2].map(n => ({ speaker: HOSTS[n].name, voiceConfig: { prebuiltVoiceConfig: { voiceName: HOSTS[n].voice } } })) } },
+    },
+  };
   fs.mkdirSync(workDir, { recursive: true });
-  // Render the missing chunks, CONCURRENCY at a time, each retried on its own until it passes.
-  let spent = 0;
-  const queue = [...todo];
-  const failures = [];
-  async function worker() {
-    while (queue.length) {
-      const c = queue.shift();
-      const entry = manifest.chunks[c.i] ||= { hash: c.hash, attempts: [] };
-      for (let attempt = entry.attempts.length + 1; attempt <= RETRIES; attempt++) {
-        const file = path.join(workDir, `chunk-${String(c.i + 1).padStart(2, "0")}.attempt-${attempt}.mp3`);
-        await renderChunk(c, file);
-        spent += (c.chars / 1000) * COST_PER_1K_CHARS;
-        const check = checkChunk(file, c);
-        entry.attempts.push({ file: path.basename(file), ...check });
-        if (check.ok) { entry.passed = path.basename(file); saveManifest(manifest); console.log(`  chunk ${c.i + 1} attempt ${attempt}: ok  (${check.summary})`); break; }
-        saveManifest(manifest);
-        console.log(`  chunk ${c.i + 1} attempt ${attempt}: FAILED ${check.why.join(", ")}  (${check.summary})`);
-      }
-      if (!entry.passed) failures.push(c);
-    }
+  const n = manifest.attempts.length + 1;
+  const file = `attempt-${n}.mp3`;
+  const reqFile = path.join(workDir, `attempt-${n}.request.json`);
+  fs.writeFileSync(reqFile, JSON.stringify(body));
+  console.log(`sending attempt ${n} (one request, no automatic retry; a long render is normal, up to a few minutes)...`);
+  const t0 = Date.now();
+  const res = spawnSync("curl", ["-s", "--max-time", String(CURL_MAX_SECONDS), "-X", "POST", "-H", "Content-Type: application/json", "-H", `x-goog-api-key: ${key}`, "--data-binary", `@${reqFile}`, ENDPOINT], { maxBuffer: 1 << 30, encoding: "utf8" });
+  fs.unlinkSync(reqFile);
+  const entry = { n, file, hash, sent: new Date().toISOString(), seconds: Math.round((Date.now() - t0) / 1000) };
+  let data;
+  try { data = JSON.parse(res.stdout); } catch { data = null; }
+  if (res.status !== 0 || !data || data.error) {
+    entry.error = data?.error ? JSON.stringify(data.error).slice(0, 300) : `curl exit ${res.status}: ${(res.stderr || res.stdout || "").slice(0, 200)}`;
+    manifest.attempts.push(entry); saveManifest(manifest);
+    console.error(`\nFAILED: ${entry.error}`);
+    console.error("Not re-sending. Check https://aistudio.google.com/usage before rendering again: a request that timed out here may still have completed, and been billed, on Google's side.");
+    process.exit(1);
   }
-  if (todo.length) {
-    console.log(`rendering ${todo.length} chunks, ${CONCURRENCY} at a time...`);
-    await Promise.all(Array.from({ length: Math.min(CONCURRENCY, todo.length) }, worker));
-    console.log(`spent about $${spent.toFixed(2)} this run`);
+  const part = data.candidates?.[0]?.content?.parts?.find(p => p.inlineData);
+  entry.finish = data.candidates?.[0]?.finishReason;
+  entry.audioTokens = data.usageMetadata?.candidatesTokenCount;
+  entry.textTokens = data.usageMetadata?.promptTokenCount;
+  entry.billed = ((entry.audioTokens || 0) * PRICE_AUDIO_PER_M + (entry.textTokens || 0) * PRICE_TEXT_PER_M) / 1e6;
+  if (!part) {
+    entry.error = "no audio in the response: " + JSON.stringify(data).slice(0, 200);
+    manifest.attempts.push(entry); saveManifest(manifest);
+    console.error(`\nFAILED: ${entry.error}`); process.exit(1);
   }
+  const rate = +(part.inlineData.mimeType.match(/rate=(\d+)/)?.[1] || 24000);
+  const wavPath = path.join(workDir, `attempt-${n}.wav`);
+  fs.writeFileSync(wavPath, wav(Buffer.from(part.inlineData.data, "base64"), rate));
+  execFileSync("ffmpeg", ["-v", "error", "-y", "-i", wavPath, "-ar", "24000", "-ac", "1", "-c:a", "libmp3lame", "-b:a", "128k", path.join(workDir, file)]);
+  fs.unlinkSync(wavPath);
+  console.log(`attempt ${n}: finish ${entry.finish}, ${entry.audioTokens} audio tokens, billed about $${entry.billed.toFixed(2)}, ${entry.seconds}s to render`);
 
-  // The level check is relative to the median chunk, so it is applied again across the whole set
-  // now that every chunk exists: a chunk that passed the floor alone can still be the odd one out.
-  const levels = chunks.map(c => manifest.chunks[c.i]?.passed ? manifest.chunks[c.i].attempts.find(a => a.file === manifest.chunks[c.i].passed).level : null);
-  const median = medianOf(levels.filter(v => v !== null));
-  const faded = chunks.filter((c, i) => levels[i] !== null && levels[i] < median - LEVEL_SPREAD);
-  for (const c of faded) {
-    console.log(`  chunk ${c.i + 1}: passed alone but sits ${(median - levels[c.i]).toFixed(1)} dB under the median chunk; re-rendering`);
-    delete manifest.chunks[c.i].passed;
+  const check = gate(path.join(workDir, file), s);
+  Object.assign(entry, check);
+  manifest.attempts.push(entry); saveManifest(manifest);
+  console.log(`gate: ${check.summary}`);
+  if (!check.ok) {
+    console.error(`\nFAILED the gate: ${check.why.join("; ")}.\nThe attempt is kept at ${show(path.join(workDir, file))}. Listen to it. To spend again, run render --go once more; the manifest keeps the count.`);
+    process.exit(1);
   }
-  if (faded.length && !failures.length) {
-    saveManifest(manifest);
-    queue.push(...faded);
-    await Promise.all(Array.from({ length: Math.min(CONCURRENCY, faded.length) }, worker));
-  }
-
-  if (failures.length) {
-    console.error(`\n${failures.length} chunk(s) failed every attempt: ${failures.map(c => c.i + 1).join(", ")}. Attempts and checks are in ${show(path.join(workDir, "manifest.json"))}.`);
-    if (!FORCE) { console.error("Not stitching. Listen to the attempts, then rerun render (it reuses the chunks that passed) or add --force to stitch the best attempt of each."); process.exit(1); }
-    for (const c of failures) {
-      const best = manifest.chunks[c.i].attempts.slice().sort((a, b) => b.score - a.score)[0];
-      manifest.chunks[c.i].passed = best.file; manifest.chunks[c.i].forced = true;
-    }
-    saveManifest(manifest);
-  }
-
-  stitch(chunks.map(c => ({ file: path.join(workDir, manifest.chunks[c.i].passed), level: manifest.chunks[c.i].attempts.find(a => a.file === manifest.chunks[c.i].passed).level })));
-  const buf = fs.readFileSync(mp3Path);
-  console.log(`\nwrote ${show(mp3Path)} (${(buf.length / 1024 / 1024).toFixed(1)} MB, ${chunks.length} chunks). Listen before uploading.`);
+  fs.mkdirSync(path.dirname(mp3Path), { recursive: true });
+  fs.copyFileSync(path.join(workDir, file), mp3Path);
+  console.log(`\nwrote ${show(mp3Path)}. Listen before uploading.`);
   profile(mp3Path);
 }
 
-async function renderChunk(c, file) {
-  const body = {
-    prompt: c.prompt,
-    speakers: SPEAKERS,
-    style_instructions: STYLE,
-    temperature: TEMP,
-    language_code: "English (US)",
-    output_format: "mp3",
-  };
-  const headers = { Authorization: `Key ${process.env.FAL_KEY}`, "Content-Type": "application/json" };
-  const res = await fetch(ENDPOINT, { method: "POST", headers, body: JSON.stringify(body) });
-  if (!res.ok) throw new Error(`fal answered ${res.status}: ${(await res.text()).slice(0, 300)}`);
-  let data = await res.json();
-  const statusUrl = data.status_url || data.status;
-  for (let i = 0; ; i++) {
-    await new Promise(r => setTimeout(r, 3000));
-    const s = await (await fetch(statusUrl, { headers })).json();
-    if (s.status === "COMPLETED") { data = await (await fetch(data.response_url, { headers })).json(); break; }
-    if (s.status === "FAILED") throw new Error(`chunk ${c.i + 1}: fal reported FAILED: ` + JSON.stringify(s).slice(0, 300));
-    if (i === 200) throw new Error(`chunk ${c.i + 1}: still not done after 10 minutes; check the fal dashboard before re-sending`);
-  }
-  const url = data?.audio?.url || data?.audio_url || data?.url;
-  if (!url) throw new Error(`chunk ${c.i + 1}: no audio in the response: ` + JSON.stringify(data).slice(0, 300));
-  fs.writeFileSync(file, Buffer.from(await (await fetch(url)).arrayBuffer()));
+function wav(pcm, rate = 24000) {
+  const h = Buffer.alloc(44);
+  h.write("RIFF", 0); h.writeUInt32LE(36 + pcm.length, 4); h.write("WAVE", 8);
+  h.write("fmt ", 12); h.writeUInt32LE(16, 16); h.writeUInt16LE(1, 20); h.writeUInt16LE(1, 22);
+  h.writeUInt32LE(rate, 24); h.writeUInt32LE(rate * 2, 28); h.writeUInt16LE(2, 32); h.writeUInt16LE(16, 34);
+  h.write("data", 36); h.writeUInt32LE(pcm.length, 40);
+  return Buffer.concat([h, pcm]);
 }
 
-/* ---------- the manifest: what has been rendered and what passed ---------- */
-function manifestPath() { return path.join(workDir, "manifest.json"); }
-function loadManifest(chunks) {
-  let m = { chunks: {} };
-  if (FRESH && fs.existsSync(workDir)) { fs.rmSync(workDir, { recursive: true }); console.log(`--fresh: discarded ${show(workDir)}`); }
-  if (fs.existsSync(manifestPath())) {
-    try { m = JSON.parse(fs.readFileSync(manifestPath(), "utf8")); } catch { m = { chunks: {} }; }
+/* ---------- the gate ---------- */
+function gate(file, s) {
+  const a = analyse(file);
+  const open = analyse(file, 0, 6);
+  const ref = loadHosts();
+  const why = [];
+  if (open.voiced >= 20 && open.high < open.low) why.push(`the opening is in John's band, so the voices are swapped (${(open.high * 100).toFixed(0)}% Haley in the first six seconds)`);
+  if (a.level < LEVEL_FLOOR) why.push(`level ${a.level.toFixed(1)} dBFS under the ${LEVEL_FLOOR} floor`);
+  if (a.seconds > 120) {
+    const first = analyse(file, 0, 60).level, last = analyse(file, Math.max(0, a.spoken - 60), 60).level;
+    if (first - last > LEVEL_SPREAD) why.push(`the last minute is ${(first - last).toFixed(1)} dB under the first: the fade`);
   }
-  // A chunk whose text changed since it was rendered is stale, whatever the manifest says.
-  for (const c of chunks) {
-    const e = m.chunks[c.i];
-    if (e && (e.hash !== c.hash || (e.passed && !fs.existsSync(path.join(workDir, e.passed))))) delete m.chunks[c.i];
+  if (a.low < 0.15) why.push(`John's band nearly empty (${(a.low * 100).toFixed(0)}%)`);
+  if (a.high < 0.15) why.push(`Haley's band nearly empty (${(a.high * 100).toFixed(0)}%)`);
+  const ratio = a.speaking / s.seconds;
+  if (ratio < LENGTH_MIN) why.push(`speech ${a.speaking.toFixed(0)}s is short for ${s.words} words (expected about ${s.seconds.toFixed(0)}s)`);
+  if (ratio > LENGTH_MAX) why.push(`speech ${a.speaking.toFixed(0)}s is long for ${s.words} words (expected about ${s.seconds.toFixed(0)}s)`);
+  const match = {};
+  if (ref) for (const [host, name] of [["john", "John"], ["haley", "Haley"]]) {
+    if (a[host].frames < MATCH_MIN_FRAMES) continue;
+    match[host] = Math.abs(Math.log(a[host].med / ref[host].med));
+    if (match[host] > MATCH_PITCH) why.push(`${name} is ${(match[host] * 100).toFixed(1)}% off the reference pitch (${a[host].med.toFixed(0)} vs ${ref[host].med.toFixed(0)} Hz)`);
   }
-  for (const k of Object.keys(m.chunks)) if (Number(k) >= chunks.length) delete m.chunks[k];
-  return m;
+  const m = h => match[h] !== undefined ? `${(match[h] * 100).toFixed(1)}%` : "n/a";
+  const summary = `${a.level.toFixed(1)} dBFS, John ${(a.low * 100).toFixed(0)}% at ${a.john.med.toFixed(0)} Hz, Haley ${(a.high * 100).toFixed(0)}% at ${a.haley.med.toFixed(0)} Hz, ${a.speaking.toFixed(0)}s of speech in ${a.seconds.toFixed(0)}s, opening ${open.high >= open.low ? "Haley" : "JOHN"}` + (ref ? `, off reference John ${m("john")} Haley ${m("haley")}` : "");
+  return { ok: !why.length, why, passed: !why.length, level: a.level, low: a.low, high: a.high, seconds: a.seconds, speaking: a.speaking, john: a.john, haley: a.haley, summary };
 }
-function saveManifest(m) { fs.mkdirSync(workDir, { recursive: true }); fs.writeFileSync(manifestPath(), JSON.stringify(m, null, 2)); }
 
-/* ---------- the per-chunk gate ---------- */
-// Decodes the chunk once to mono 16 kHz and measures three things: the mean level, how much of the
-// voiced audio sits in each host's pitch band (autocorrelation), and how long the speech runs
-// against what the word count predicts. Returns { ok, why, level, low, high, seconds, score }.
+// Decodes to mono 16 kHz and measures: mean level, the share of voiced frames in each host's pitch
+// band (autocorrelation, with an octave check so a female voice is not counted as a male one),
+// each host's median pitch, and how long the speech runs.
 function analyse(file, start = 0, dur = 0) {
   const sr = 16000;
   const argsIn = ["-v", "quiet", ...(dur ? ["-ss", String(start), "-t", String(dur)] : []), "-i", file, "-f", "f32le", "-ac", "1", "-ar", String(sr), "-"];
   const raw = execFileSync("ffmpeg", argsIn, { maxBuffer: 1 << 28 });
   const x = new Float32Array(raw.buffer, raw.byteOffset, Math.floor(raw.length / 4));
-  const w = 0.04 * sr, hop = 0.02 * sr, N = 512;
-  const f0 = []; let sumSq = 0, loudFrames = 0, frames = 0, lastLoud = 0;
-  const hosts = { john: { f0: [], spec: new Float64Array(16), n: 0 }, haley: { f0: [], spec: new Float64Array(16), n: 0 } };
-  const re = new Float64Array(N), im = new Float64Array(N);
+  const w = 0.04 * sr, hop = 0.02 * sr;
+  const lo = [], hi = []; let voiced = 0, sumSq = 0, loudFrames = 0, frames = 0, lastLoud = 0;
   for (let i = 0; i + w < x.length; i += hop) {
     frames++;
     let e = 0; for (let k = 0; k < w; k++) e += x[i + k] * x[i + k];
@@ -371,132 +294,55 @@ function analyse(file, start = 0, dur = 0) {
     let mean = 0; for (let k = 0; k < w; k++) mean += x[i + k]; mean /= w;
     let r0 = 0; for (let k = 0; k < w; k++) { const v = x[i + k] - mean; r0 += v * v; }
     if (r0 <= 0) continue;
+    const corr = lag => { let s = 0; for (let k = 0; k + lag < w; k++) s += (x[i + k] - mean) * (x[i + k + lag] - mean); return s / r0; };
     let best = 0, bestLag = 0;
-    for (let lag = Math.floor(sr / 300); lag < Math.floor(sr / 70); lag++) {
-      let s = 0; for (let k = 0; k + lag < w; k++) s += (x[i + k] - mean) * (x[i + k + lag] - mean);
-      const r = s / r0; if (r > best) { best = r; bestLag = lag; }
-    }
+    for (let lag = Math.floor(sr / 300); lag < Math.floor(sr / 70); lag++) { const r = corr(lag); if (r > best) { best = r; bestLag = lag; } }
     if (!(best > 0.35 && bestLag)) continue;
-    const p = sr / bestLag; f0.push(p);
-    const host = p < 140 ? hosts.john : p > 165 ? hosts.haley : null;
-    if (!host) continue;
-    host.f0.push(p); host.n++;
-    for (let k = 0; k < N; k++) { re[k] = (x[i + k] - mean) * (0.5 - 0.5 * Math.cos(2 * Math.PI * k / N)); im[k] = 0; }
-    fft(re, im);
-    for (let b = 0; b < 16; b++) {
-      let sum = 0; const k0 = SPEC_EDGES[b], k1 = SPEC_EDGES[b + 1];
-      for (let k = k0; k < k1; k++) sum += re[k] * re[k] + im[k] * im[k];
-      host.spec[b] += Math.log(sum / (k1 - k0) + 1e-9);
-    }
+    voiced++;
+    let p = sr / bestLag;
+    if (p < 140 && corr(Math.round(bestLag / 2)) >= best * 0.9) p *= 2;   // octave error: it is really the higher voice
+    if (p < 140) lo.push(p); else if (p > 165) hi.push(p);
   }
   const level = frames ? 20 * Math.log10(Math.sqrt(sumSq / (frames * w)) + 1e-9) : -99;
-  const low = f0.length ? f0.filter(v => v < 140).length / f0.length : 0;
-  const high = f0.length ? f0.filter(v => v > 165).length / f0.length : 0;
-  const seconds = x.length / sr, spoken = (lastLoud + w) / sr, speaking = loudFrames * hop / sr;
-  const fp = h => {
-    if (!h.n) return { med: 0, vec: null, frames: 0 };
-    const v = Array.from(h.spec, s => s / h.n); const m = v.reduce((a, b) => a + b) / 16;
-    h.f0.sort((a, b) => a - b);
-    return { med: h.f0[h.f0.length >> 1], vec: v.map(s => +(s - m).toFixed(3)), frames: h.n };
+  const med = a => { a.sort((p, q) => p - q); return a.length ? a[a.length >> 1] : 0; };
+  return {
+    level, voiced, low: voiced ? lo.length / voiced : 0, high: voiced ? hi.length / voiced : 0,
+    seconds: x.length / sr, spoken: (lastLoud + w) / sr, speaking: loudFrames * hop / sr,
+    john: { med: med(lo), frames: lo.length }, haley: { med: med(hi), frames: hi.length },
   };
-  return { level, low, high, seconds, spoken, speaking, voiced: f0.length, john: fp(hosts.john), haley: fp(hosts.haley) };
-}
-// 16 log-spaced bands from 100 Hz to 6 kHz, as FFT bin edges at 16 kHz / 512 points.
-const SPEC_EDGES = (() => { const e = Array.from({ length: 17 }, (_, i) => Math.round(Math.pow(60, i / 16) * 100 * 512 / 16000)); for (let i = 1; i < 17; i++) if (e[i] <= e[i - 1]) e[i] = e[i - 1] + 1; return e; })();
-function fft(re, im) {
-  const n = re.length;
-  for (let i = 1, j = 0; i < n; i++) { let bit = n >> 1; for (; j & bit; bit >>= 1) j ^= bit; j ^= bit; if (i < j) { [re[i], re[j]] = [re[j], re[i]]; [im[i], im[j]] = [im[j], im[i]]; } }
-  for (let len = 2; len <= n; len <<= 1) {
-    const ang = -2 * Math.PI / len, wr = Math.cos(ang), wi = Math.sin(ang);
-    for (let i = 0; i < n; i += len) {
-      let cr = 1, ci = 0;
-      for (let j = 0; j < len / 2; j++) {
-        const a = i + j, b = a + len / 2;
-        const vr = re[b] * cr - im[b] * ci, vi = re[b] * ci + im[b] * cr;
-        re[b] = re[a] - vr; im[b] = im[a] - vi; re[a] += vr; im[a] += vi;
-        const t = cr * wr - ci * wi; ci = cr * wi + ci * wr; cr = t;
-      }
-    }
-  }
-}
-// How far a host in this chunk sits from the reference: log pitch ratio, and RMS distance of the
-// level-normalised band spectrum. Pitch is the test that tracks what John hears; spec is coarse.
-function hostDistance(fp, ref) {
-  if (!fp.vec || !ref?.vec) return null;
-  let d = 0; for (let i = 0; i < 16; i++) d += (fp.vec[i] - ref.vec[i]) ** 2;
-  return { pitch: Math.abs(Math.log(fp.med / ref.med)), spec: Math.sqrt(d / 16) };
 }
 function loadHosts() { try { return JSON.parse(fs.readFileSync(HOSTS_FILE, "utf8")); } catch { return null; } }
 
-function checkChunk(file, c) {
-  const a = analyse(file);
-  const expected = c.words / WPM * 60;
-  const ratio = a.speaking / expected;
-  const why = [];
-  if (a.level < LEVEL_FLOOR) why.push(`level ${a.level.toFixed(1)} dBFS under the ${LEVEL_FLOOR} floor`);
-  if (c.speakers.length === 2) {
-    // Each host's band should hold a share of the voiced frames in proportion to how much of the
-    // chunk that host speaks; a chunk that is 85% John is allowed a small Haley band.
-    const need = share => Math.max(0.05, 0.4 * share);
-    if (a.low < need(c.share[0])) why.push(`John's band nearly empty (${(a.low * 100).toFixed(0)}% against ${(c.share[0] * 100).toFixed(0)}% of the words)`);
-    if (a.high < need(c.share[1])) why.push(`Haley's band nearly empty (${(a.high * 100).toFixed(0)}% against ${(c.share[1] * 100).toFixed(0)}% of the words)`);
-  } else {
-    const share = c.speakers[0] === 1 ? a.low : a.high;
-    if (share < 0.4) why.push(`${SPEAKERS[c.speakers[0] - 1].speaker_id} alone but only ${(share * 100).toFixed(0)}% in that band`);
-  }
-  const ref = loadHosts();
-  const match = {};
-  if (ref) for (const [host, name] of [["john", "John"], ["haley", "Haley"]]) {
-    if (a[host].frames < MATCH_MIN_FRAMES) continue;
-    const d = hostDistance(a[host], ref[host]); match[host] = d;
-    if (d.pitch > MATCH_PITCH) why.push(`${name} is ${(d.pitch * 100).toFixed(1)}% off the reference pitch (${a[host].med.toFixed(0)} vs ${ref[host].med.toFixed(0)} Hz)`);
-    else if (d.spec > MATCH_SPEC) why.push(`${name}'s spectrum is ${d.spec.toFixed(2)} from the reference`);
-  }
-  if (ratio < LENGTH_MIN) why.push(`speech ${a.speaking.toFixed(0)}s is short for ${c.words} words (expected about ${expected.toFixed(0)}s)`);
-  if (ratio > LENGTH_MAX) why.push(`speech ${a.speaking.toFixed(0)}s is long for ${c.words} words (expected about ${expected.toFixed(0)}s)`);
-  const off = Object.values(match).reduce((n, d) => n + d.pitch, 0);
-  const score = -why.length * 10 + a.level / 10 + Math.min(a.low, a.high) - off * 20;
-  const m = h => match[h] ? `${(match[h].pitch * 100).toFixed(1)}%` : "n/a";
-  const summary = `${a.level.toFixed(1)} dBFS, low ${(a.low * 100).toFixed(0)}% high ${(a.high * 100).toFixed(0)}%, ${a.speaking.toFixed(0)}s of speech in ${a.seconds.toFixed(0)}s` + (ref ? `, off reference John ${m("john")} Haley ${m("haley")}` : "");
-  return { ok: !why.length, why, level: a.level, low: a.low, high: a.high, seconds: a.seconds, spoken: a.spoken, speaking: a.speaking, john: a.john, haley: a.haley, score, summary };
-}
-function medianOf(v) { const s = v.slice().sort((a, b) => a - b); return s.length ? s[Math.floor(s.length / 2)] : 0; }
-
-/* ---------- stitch: gain-match every chunk to LEVEL_TARGET, trim tails, join with a short gap ---------- */
-function stitch(parts) {
-  const inputs = [], filters = [];
-  parts.forEach((p, i) => {
-    inputs.push("-i", p.file);
-    const gain = (LEVEL_TARGET - p.level).toFixed(2);
-    // trim trailing silence, gain to target, then pad a gap after the chunk
-    filters.push(`[${i}:a]aformat=sample_rates=24000:channel_layouts=mono,areverse,silenceremove=start_periods=1:start_threshold=-45dB:start_silence=0.25,areverse,volume=${gain}dB,apad=pad_dur=${GAP_SECONDS}[a${i}]`);
-  });
-  const concat = parts.map((_, i) => `[a${i}]`).join("") + `concat=n=${parts.length}:v=0:a=1,alimiter=limit=0.95[out]`;
-  fs.mkdirSync(path.dirname(mp3Path), { recursive: true });
-  execFileSync("ffmpeg", ["-v", "error", "-y", ...inputs, "-filter_complex", filters.join(";") + ";" + concat, "-map", "[out]", "-c:a", "libmp3lame", "-b:a", "128k", mp3Path], { stdio: "inherit" });
-}
-
-/* ---------- profile: the per-30-second report on a finished file ---------- */
-// The same measurement as the gate, printed per half minute across the whole episode. A good
-// episode holds a flat level and both bands from the first line to the last; the old single-call
-// renders fell 20 dB and lost the low band by the end, which is what this exists to show.
+/* ---------- profile ---------- */
 function profile(file) {
   let dur;
   try { dur = parseFloat(execFileSync("ffprobe", ["-v", "quiet", "-show_entries", "format=duration", "-of", "csv=p=0", file]).toString()); }
   catch { console.log("profile skipped: ffprobe is not on the path"); return; }
   const ref = loadHosts();
-  console.log("profile (per 30 s): level dBFS, share of voiced frames in each host's band, each host's median pitch" + (ref ? " and distance from the reference" : ""));
+  console.log("profile (per 30 s): level dBFS, share of voiced frames and median pitch per host" + (ref ? ", and distance from the reference" : ""));
   for (let s = 0; s < dur; s += 30) {
     const a = analyse(file, s, Math.min(30, dur - s));
-    const h = (fp, r) => fp.frames < MATCH_MIN_FRAMES ? "   n/a      " : `${String(fp.med.toFixed(0)).padStart(4)} Hz` + (ref ? ` ${(hostDistance(fp, r).pitch * 100).toFixed(1).padStart(4)}%` : "");
+    const h = (fp, r) => fp.frames < MATCH_MIN_FRAMES ? "   n/a      " : `${String(fp.med.toFixed(0)).padStart(4)} Hz` + (ref ? ` ${(Math.abs(Math.log(fp.med / r.med)) * 100).toFixed(1).padStart(4)}%` : "");
     console.log(`  ${String(s).padStart(3)}s  ${a.level.toFixed(1).padStart(6)}  John ${String(Math.round(a.low * 100)).padStart(3)}% ${h(a.john, ref?.john)}  Haley ${String(Math.round(a.high * 100)).padStart(3)}% ${h(a.haley, ref?.haley)}${a.voiced < 50 ? "  (little speech)" : ""}`);
   }
+}
+
+/* ---------- reference ---------- */
+function reference() {
+  const fileArg = args.find(a => a.startsWith("--file="))?.split("=")[1];
+  const file = fileArg ? path.resolve(fileArg) : mp3Path;
+  if (!fs.existsSync(file)) { console.error(`No MP3 at ${show(file)}. Render first, or pass --file=<mp3>.`); process.exit(1); }
+  const a = analyse(file);
+  if (a.john.frames < MATCH_MIN_FRAMES || a.haley.frames < MATCH_MIN_FRAMES) { console.error(`Both hosts need to speak in the reference; John ${a.john.frames} frames, Haley ${a.haley.frames}.`); process.exit(1); }
+  if (fs.existsSync(HOSTS_FILE) && !FORCE) { console.error(`${show(HOSTS_FILE)} exists. Resetting it means nothing rendered so far is known to match; ask John, then add --force.`); process.exit(1); }
+  const out = { set: new Date().toISOString().slice(0, 10), engine: MODEL, from: show(file), john: a.john, haley: a.haley };
+  fs.writeFileSync(HOSTS_FILE, JSON.stringify(out, null, 2) + "\n");
+  console.log(`wrote ${show(HOSTS_FILE)}: John ${a.john.med.toFixed(0)} Hz, Haley ${a.haley.med.toFixed(0)} Hz, from ${show(file)}`);
 }
 
 /* ---------- upload to R2 ---------- */
 async function upload() {
   if (!fs.existsSync(mp3Path)) { console.error(`No MP3 at ${show(mp3Path)}. Render first.`); process.exit(1); }
-
   console.log(`uploading ${show(mp3Path)} to ${BUCKET}/${r2Key} ...`);
   execFileSync("npx", ["--yes", "wrangler@4", "r2", "object", "put", `${BUCKET}/${r2Key}`, "--file", mp3Path, "--content-type", "audio/mpeg", "--remote"], { stdio: "inherit", cwd: ROOT });
   const head = await fetch(publicUrl, { method: "HEAD" });
@@ -515,7 +361,6 @@ function stamp() {
     if (fm[1].includes(line)) { console.log(`already stamped: ${show(lessonPath)}`); return; }
     out = src.replace(fm[0], fm[0].replace(/^audio:.*$/m, line));
   } else {
-    // after the minutes: line, where the other lessons carry it
     const inner = /^minutes:.*$/m.test(fm[1])
       ? fm[1].replace(/^(minutes:.*)$/m, `$1\n${line}`)
       : `${line}\n${fm[1]}`;
@@ -525,44 +370,35 @@ function stamp() {
   console.log(`stamped ${show(lessonPath)} with ${line}\nRun npm run validate, and npm run build if the course is published.`);
 }
 
-/* ---------- plan: where does this episode stand ---------- */
+/* ---------- plan ---------- */
 async function plan() {
   const y = v => v ? "yes" : "no";
   const script = fs.existsSync(scriptPath);
-  const checked = script && readScript().checked;
+  let checked = false, opensRight = false;
+  if (script) {
+    const raw = fs.readFileSync(scriptPath, "utf8");
+    checked = /^checked:/m.test(raw.match(/^---\n([\s\S]*?)\n---\n/)?.[1] || "");
+    opensRight = /^S2:/m.test(raw.replace(/^---[\s\S]*?\n---\n/, "").trimStart().split("\n")[0]);
+  }
+  const manifest = loadManifest();
   const mp3 = fs.existsSync(mp3Path);
   const stamped = fs.readFileSync(lessonPath, "utf8").includes(`audio: ${publicUrl}`);
   let live = false;
   try { live = (await fetch(publicUrl, { method: "HEAD" })).ok; } catch { /* offline is fine */ }
   console.log(`${school}/${course}/${id}`);
-  console.log(`  script  ${show(scriptPath)}  ${y(script)}${script ? ` (fact-checked: ${y(checked)})` : ""}`);
+  console.log(`  script  ${show(scriptPath)}  ${y(script)}${script ? ` (fact-checked: ${y(checked)}, Haley opens: ${y(opensRight)})` : ""}`);
+  console.log(`  render  attempts ${manifest.attempts.length}, spent about $${manifest.attempts.reduce((n, a) => n + (a.billed || 0), 0).toFixed(2)}, passed: ${y(manifest.attempts.some(a => a.passed))}`);
   console.log(`  mp3     ${show(mp3Path)}  ${y(mp3)}`);
   console.log(`  R2      ${publicUrl}  ${live ? "live" : "not there"}`);
   console.log(`  lesson  audio: stamped  ${y(stamped)}`);
   const next = !script ? `/make-podcast ${show(lessonPath)}`
     : !checked ? "fact-check the script and record the verdict in its `checked:` frontmatter"
-    : !mp3 && !live ? `node scripts/podcast.mjs render ${show(lessonPath)} --go`
+    : !opensRight ? "swap the intro so Haley (S2) speaks first"
+    : !mp3 ? `node scripts/podcast.mjs render ${show(lessonPath)} --go`
     : !live ? `node scripts/podcast.mjs upload ${show(lessonPath)}`
     : !stamped ? `node scripts/podcast.mjs stamp ${show(lessonPath)}`
     : "done";
   console.log(`  next    ${next}`);
-}
-
-/* ---------- reference: write hosts.json from a chunk both hosts speak in ---------- */
-function reference() {
-  const fileArg = args.find(a => a.startsWith("--file="))?.split("=")[1];
-  let file = fileArg && path.resolve(fileArg);
-  if (!file) {
-    const m = fs.existsSync(manifestPath()) ? JSON.parse(fs.readFileSync(manifestPath(), "utf8")) : null;
-    if (!m?.chunks?.[0]?.passed) { console.error(`No passed first chunk in ${show(workDir)}. Render first, or pass --file=<mp3>.`); process.exit(1); }
-    file = path.join(workDir, m.chunks[0].passed);
-  }
-  const a = analyse(file);
-  if (a.john.frames < MATCH_MIN_FRAMES || a.haley.frames < MATCH_MIN_FRAMES) { console.error(`Both hosts need to speak in the reference; John ${a.john.frames} frames, Haley ${a.haley.frames}.`); process.exit(1); }
-  if (fs.existsSync(HOSTS_FILE) && !FORCE) { console.error(`${show(HOSTS_FILE)} exists. Resetting it means nothing rendered so far matches; ask John, then add --force.`); process.exit(1); }
-  const out = { set: new Date().toISOString().slice(0, 10), from: show(file), john: a.john, haley: a.haley };
-  fs.writeFileSync(HOSTS_FILE, JSON.stringify(out, null, 2) + "\n");
-  console.log(`wrote ${show(HOSTS_FILE)}: John ${a.john.med.toFixed(0)} Hz over ${a.john.frames} frames, Haley ${a.haley.med.toFixed(0)} Hz over ${a.haley.frames} frames, from ${show(file)}`);
 }
 
 /* ---------- go ---------- */

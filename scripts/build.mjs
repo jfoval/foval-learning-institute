@@ -795,10 +795,18 @@ function checkAudio() {
   // a number in the same commit as a new lesson passed. The committed version is the ratchet.
   try {
     const prev = yaml.load(execFileSync("git", ["show", "HEAD:curriculum/audio-debt.yaml"], { cwd: ROOT, encoding: "utf8", stdio: ["ignore", "pipe", "ignore"] })) || {};
+    // A reset is the one way the debt may grow: episodes that shipped are being deliberately
+    // withdrawn and re-rendered, which is John's call and nobody else's. It authorises exactly the
+    // raises it names, and only in the commit that introduces it: once `reset.date` matches the
+    // committed file, the same block authorises nothing, so the ratchet is back on the next commit.
+    const reset = (d.reset && d.reset.date !== (prev.reset || {}).date) ? d.reset : null;
+    if (reset && (!reset.reason || !reset.raises)) errors.push(`curriculum/audio-debt.yaml: a reset needs a "reason" and a "raises" map saying which course goes to which number.`);
+    const allowedRaise = (id, n) => reset && reset.raises && reset.raises[id] === n;
     for (const [id, n] of Object.entries(owed)) {
       const was = (prev.owed || {})[id];
+      if (allowedRaise(id, n)) continue;
       if (was === undefined) errors.push(`curriculum/audio-debt.yaml: "${id}" was not in the committed file. The debt ledger only shrinks; a course drafted today gets its episodes before the next lesson, and never appears here.`);
-      else if (n > was) errors.push(`curriculum/audio-debt.yaml: "${id}" went from ${was} to ${n}. The debt ledger only shrinks; render the episode instead.`);
+      else if (n > was) errors.push(`curriculum/audio-debt.yaml: "${id}" went from ${was} to ${n}. The debt ledger only shrinks; render the episode instead, or record a reset (see the header of that file).`);
     }
   } catch { /* not a git checkout, or no HEAD yet: nothing to ratchet against */ }
 

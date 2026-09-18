@@ -17,9 +17,9 @@ speakers: 2
 approx_minutes: 6
 ---
 
-S1: Welcome in. This is the Foval Learning Institute podcast, where the two of us talk a lesson through. I'm John.
+S2: Welcome in. This is the Foval Learning Institute podcast, where the two of us talk a lesson through. I'm Haley.
 
-S2: And I'm Haley. Today we're in the Bible Basics course, on the lesson called One story. Genesis to Revelation in a single sitting.
+S1: And I'm John. Today we're in the Bible Basics course, on the lesson called One story. Genesis to Revelation in a single sitting.
 
 S1: And it starts on a road. Two people are walking home from Jerusalem, and a stranger falls in beside them. And over the next few miles he does something nobody has ever done for them. He takes the whole Old Testament and reads it as one thing. Not a shelf of separate books. One story, with a shape, and a direction, and, he says, a subject.
 

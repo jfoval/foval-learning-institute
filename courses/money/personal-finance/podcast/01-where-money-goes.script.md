@@ -14,9 +14,9 @@ speakers: 2
 approx_minutes: 6
 ---
 
-S1: Welcome in. This is the Foval Learning Institute podcast, where the two of us talk a lesson through. I'm John.
+S2: Welcome in. This is the Foval Learning Institute podcast, where the two of us talk a lesson through. I'm Haley.
 
-S2: And I'm Haley. Today we're starting the Personal Finance Fundamentals course, on the first lesson. Where your money actually goes.
+S1: And I'm John. Today we're starting the Personal Finance Fundamentals course, on the first lesson. Where your money actually goes.
 
 S1: And I want to open with a number, because it's the number the whole lesson hangs on. In twenty twenty two, a market research firm asked a thousand Americans to guess how much they spend on subscriptions every month. The average guess was eighty six dollars.
 

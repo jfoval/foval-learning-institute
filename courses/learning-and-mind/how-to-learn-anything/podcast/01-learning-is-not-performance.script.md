@@ -9,16 +9,17 @@ checked: >-
   (an unsourced "famous", and the dropped one-model-among-several hedge) were fixed
   in this file before rendering.
 about: >-
-  About six minutes. Hosts are John (S1, the Carter voice) and Haley (S2, the Alice
+  About six minutes. Haley opens (the engine gives the first turn to the second voice, so S2 speaks
+  first in every script; swapped 2026-09-17). Hosts are John (S1, the Carter voice) and Haley (S2, the Alice
   voice). First episode for How to Learn Anything, the flagship course. The intro and
   sign-off name the hosts and the lesson and assert nothing factual beyond that.
 speakers: 2
 approx_minutes: 6
 ---
 
-S1: Welcome in. This is the Foval Learning Institute podcast, where the two of us talk a lesson through. I'm John.
+S2: Welcome in. This is the Foval Learning Institute podcast, where the two of us talk a lesson through. I'm Haley.
 
-S2: And I'm Haley. Today we're starting the course called How to Learn Anything, with its first lesson. Learning is not performance.
+S1: And I'm John. Today we're starting the course called How to Learn Anything, with its first lesson. Learning is not performance.
 
 S1: And it opens with a feeling everybody knows. You go over your notes the night before, everything looks familiar, you'd bet money you know it. A week later somebody asks you a question about it and there's nothing there.
 

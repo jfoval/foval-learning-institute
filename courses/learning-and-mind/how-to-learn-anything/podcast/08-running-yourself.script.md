@@ -17,9 +17,9 @@ speakers: 2
 approx_minutes: 6
 ---
 
-S1: Welcome in. This is the Foval Learning Institute podcast, where the two of us talk a lesson through. I'm John.
+S2: Welcome in. This is the Foval Learning Institute podcast, where the two of us talk a lesson through. I'm Haley.
 
-S2: And I'm Haley. We're in How to Learn Anything, and this is the last lesson of the course. Running yourself. Attention, procrastination, sleep, and your system.
+S1: And I'm John. We're in How to Learn Anything, and this is the last lesson of the course. Running yourself. Attention, procrastination, sleep, and your system.
 
 S1: Everything in this course so far has one awkward property. None of it runs itself. And the whole lesson fits in one sentence. Every technique in this course feels worse in the moment than its useless rival, so any decision you make in the moment will go the wrong way, and the only fix is to make the decision before the moment arrives.
 

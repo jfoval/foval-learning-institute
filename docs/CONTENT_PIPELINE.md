@@ -113,8 +113,9 @@ is a six-minute two-host conversation: John (S1, the teaching voice) and Haley (
 curious one). The command writes the script from the lesson (every claim must appear in
 the lesson; the script adds nothing), fact-checks it in a fresh-context subagent before
 any money is spent, then hands off to `scripts/podcast.mjs` to render on Gemini 3.1 Flash
-TTS via fal (~$0.40 an episode, in gated chunks of about a minute so the hosts hold to the end;
-see `docs/DECISIONS.md` §7), upload to R2, and stamp `audio:` into the lesson frontmatter.
+TTS, the whole episode in one call (~$0.22), upload to R2, and stamp `audio:` into the lesson
+frontmatter. **`docs/PODCAST_PIPELINE.md` is the operating manual**: the method, the measured cost,
+the order to render courses in, and the five rules that keep the spending sane.
 The script lives at `courses/<school>/<course>/podcast/<lesson-id>.script.md` and is
 committed; the MP3 lives in R2, never in git. Publishing does not wait for podcasts: a
 settled lesson can go live and get its episode after.

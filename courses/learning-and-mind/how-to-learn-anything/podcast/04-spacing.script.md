@@ -16,9 +16,9 @@ speakers: 2
 approx_minutes: 6
 ---
 
-S1: Welcome in. This is the Foval Learning Institute podcast, where the two of us talk a lesson through. I'm John.
+S2: Welcome in. This is the Foval Learning Institute podcast, where the two of us talk a lesson through. I'm Haley.
 
-S2: And I'm Haley. We're in How to Learn Anything, lesson four. Spacing, when to come back.
+S1: And I'm John. We're in How to Learn Anything, lesson four. Spacing, when to come back.
 
 S1: Last episode said test yourself and come back later. This one answers the question that leaves open. When is later? And it starts with a plan that feels responsible and isn't. You reviewed something yesterday, it felt solid, you'll review it again tomorrow.
 

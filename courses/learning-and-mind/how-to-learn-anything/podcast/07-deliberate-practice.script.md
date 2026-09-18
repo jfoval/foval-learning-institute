@@ -14,9 +14,9 @@ speakers: 2
 approx_minutes: 6
 ---
 
-S1: Welcome in. This is the Foval Learning Institute podcast, where the two of us talk a lesson through. I'm John.
+S2: Welcome in. This is the Foval Learning Institute podcast, where the two of us talk a lesson through. I'm Haley.
 
-S2: And I'm Haley. We're in How to Learn Anything, lesson seven. Getting good at a skill. Deliberate practice and feedback.
+S1: And I'm John. We're in How to Learn Anything, lesson seven. Getting good at a skill. Deliberate practice and feedback.
 
 S1: Start with something you've done almost every day for years. Typing, driving, cooking. If you type, you've typed for thousands of hours. Are you much faster or more accurate than you were after the first year?
 

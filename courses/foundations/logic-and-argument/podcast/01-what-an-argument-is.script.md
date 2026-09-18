@@ -22,9 +22,9 @@ speakers: 2
 approx_minutes: 6
 ---
 
-S1: Welcome in. This is the Foval Learning Institute podcast, where the two of us talk a lesson through. I'm John.
+S2: Welcome in. This is the Foval Learning Institute podcast, where the two of us talk a lesson through. I'm Haley.
 
-S2: And I'm Haley. Today we're starting the Logic and Argument course, on the first lesson. What an argument is, and how to find the missing step.
+S1: And I'm John. Today we're starting the Logic and Argument course, on the first lesson. What an argument is, and how to find the missing step.
 
 S1: And it starts with a text message. Sunday night, a friend texts you: take the train tomorrow, the M6 is shut at junction ten. Two sentences, and you're already deciding whether to agree.
 

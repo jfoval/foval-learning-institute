@@ -4,8 +4,14 @@ argument-hint: <path/to/lesson.md>
 ---
 Produce the podcast episode for the lesson at `$ARGUMENTS`. The episode is a two-host
 conversation: S1 is **John**, the teaching voice; S2 is **Haley**, the curious one. The
-rendered voices are fixed in `scripts/podcast.mjs`: the engine is Gemini 3.1 Flash TTS on
-fal, John is the Charon voice and Haley is Aoede. One episode per session.
+engine is Gemini 2.5 Pro TTS on Google's own API, the whole episode in one call, about
+$0.22. John is the Charon voice and Haley is Aoede. One episode per session.
+
+**Read `docs/PODCAST_PIPELINE.md` before spending anything.** It carries the measured cost,
+the order courses are to be rendered in, and the five rules that exist because about $25 went
+out in one afternoon on 2026-09-17. The short version of those rules: never send `temperature`
+or `seed`, always cap `maxOutputTokens`, use curl not fetch, **never re-send automatically**,
+and one request at a time. They are enforced in `scripts/podcast.mjs`; do not work around them.
 
 **Gate first: the lesson must be settled.** Podcast only after the Stage 4 review, the
 voice pass, and the media pass are done, never before, so audio is not paid for twice.
@@ -21,6 +27,11 @@ episode:
 - Frontmatter: `source:` (the lesson path), `written_by:`, `about:`, `speakers: 2`,
   `approx_minutes:`. Leave `checked:` out until step 2 has actually run.
 - Body: alternating `S1:` / `S2:` turns separated by blank lines. Nothing else renders.
+- **Haley (S2) speaks first. Always.** The model gives the first turn to the second speaker's
+  voice whatever the label says, so John written first means Haley reads his line and the whole
+  episode comes out in one voice. `podcast.mjs` refuses an S1 opening before any money is spent.
+  The opening is: `S2: Welcome in. This is the Foval Learning Institute podcast, where the two
+  of us talk a lesson through. I'm Haley.` then `S1: And I'm John. Today we're in <course>...`
 - Length: 900–1,100 words, about six minutes. A long lesson still gets a six-minute
   episode; the episode sells the lesson, it does not replace it.
 - Intro names the podcast, both hosts, the course, and the lesson title. Sign-off sends
@@ -48,20 +59,24 @@ findings were fixed. `scripts/podcast.mjs` refuses to render a script without it
 **3. Render, upload, stamp.**
 
 ```
-node scripts/podcast.mjs render $ARGUMENTS          # dry run: confirm cost (~$0.40) and shape
-node scripts/podcast.mjs render $ARGUMENTS --go     # spends money; FAL_KEY comes from .env.local
+node scripts/podcast.mjs render $ARGUMENTS          # dry run: confirm cost (~$0.22) and shape
+node scripts/podcast.mjs render $ARGUMENTS --go     # ONE call; GEMINI_API_KEY comes from .env.local
 node scripts/podcast.mjs upload $ARGUMENTS          # to R2; verifies the public URL answers
 node scripts/podcast.mjs stamp $ARGUMENTS           # writes audio: into the lesson frontmatter
 ```
 
-The render cuts the script into chunks of about a minute, renders each as its own call, gates each
-chunk on level, both voices present, and speech length, re-renders only a failing chunk, and joins
-them. It prints a per-30-second profile of the result: the level should hold near -20 dBFS and both
-hosts' bands should stay populated to the end. Every chunk attempt is kept under `audio-out/work/`
-with a manifest, so if the render fails or is interrupted, run it again and it reuses the chunks
-that passed. `--fresh` throws that away and pays for everything again; there is no reason to use it
-unless the script text changed and you want a clean slate. If a chunk fails all three attempts,
-listen to the attempts before deciding anything.
+The render takes five to six minutes for one episode; that is normal, not a hang. It measures the
+audio it gets back and refuses to continue if the opening is in the wrong voice, the level is low or
+fades, a host is missing, the length is wrong for the word count, or either host is more than 6% off
+the reference in `scripts/podcast/hosts.json`. It then prints a per-30-second profile: the level
+should hold flat and both hosts should be present to the last line. Listen before uploading.
+
+**If the render fails, do not run it in a loop.** Read what it says, fix the cause, and run it again
+once, deliberately. Every attempt is kept with what it was billed in
+`audio-out/work/<school>/<course>/<id>/manifest.json`, and a render that already passed is copied
+rather than paid for again. If a call times out, check
+[aistudio.google.com/usage](https://aistudio.google.com/usage) before re-sending: a request that
+failed on our side may have completed, and been billed, on Google's.
 
 **4. Lower the debt.** Subtract one from this course's entry in `curriculum/audio-debt.yaml`, in the
 same commit as the stamp, and delete the entry when it reaches zero. `npm run validate` fails if the

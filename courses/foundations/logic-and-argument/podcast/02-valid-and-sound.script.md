@@ -29,9 +29,9 @@ speakers: 2
 approx_minutes: 10
 ---
 
-S1: Welcome in. This is the Foval Learning Institute podcast, where the two of us talk a lesson through. I'm John.
+S2: Welcome in. This is the Foval Learning Institute podcast, where the two of us talk a lesson through. I'm Haley.
 
-S2: And I'm Haley. We're in the Logic and Argument course, lesson two. Valid and sound.
+S1: And I'm John. We're in the Logic and Argument course, lesson two. Valid and sound.
 
 S1: Start with something you could have heard from a neighbour this week. Every flat in this building that's had damp has had its windows painted shut. Your windows are painted shut. So you're going to get damp.
 

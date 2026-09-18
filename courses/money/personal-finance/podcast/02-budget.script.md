@@ -12,9 +12,9 @@ speakers: 2
 approx_minutes: 6
 ---
 
-S1: Welcome in. This is the Foval Learning Institute podcast. I'm John.
+S2: Welcome in. This is the Foval Learning Institute podcast. I'm Haley.
 
-S2: And I'm Haley. Personal Finance Fundamentals, lesson two. A budget that survives real life.
+S1: And I'm John. Personal Finance Fundamentals, lesson two. A budget that survives real life.
 
 S1: And the framing I like is right at the top. A budget is just the audit from lesson one, run forwards, on purpose. Where the money went, turned into where you want it to go.
 

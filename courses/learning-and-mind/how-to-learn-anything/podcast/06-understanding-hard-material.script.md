@@ -15,9 +15,9 @@ speakers: 2
 approx_minutes: 6
 ---
 
-S1: Welcome in. This is the Foval Learning Institute podcast, where the two of us talk a lesson through. I'm John.
+S2: Welcome in. This is the Foval Learning Institute podcast, where the two of us talk a lesson through. I'm Haley.
 
-S2: And I'm Haley. We're in How to Learn Anything, lesson six. Understanding hard material.
+S1: And I'm John. We're in How to Learn Anything, lesson six. Understanding hard material.
 
 S1: The last few episodes gave you tools for holding on to things you already understand. Test yourself, space it out, mix it up. This one is about the step before all of that. Getting a hard thing into your head at all. The proof that runs a page and a half. The paragraph you read, follow, nod at, and then can't say what it said.
 

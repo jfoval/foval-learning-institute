@@ -18,12 +18,35 @@
 # course today, it gets its episodes before you move on, and it never appears in this file.
 #
 # Opened 2026-09-09 with the debt as it stood that day: 47 episodes across six courses.
+#
+# A RESET is the one way a number here may go up. It exists because on 2026-09-18 every episode the
+# institute had shipped was withdrawn: they were rendered in one long call on an engine that fades,
+# so each one starts right and ends with a host whispering or recast. John listened, approved the
+# replacement, and asked for the old ones deleted and rebuilt one at a time. That is a deliberate
+# quality decision, not debt drifting upward, so it is written down rather than worked around.
+# `npm run validate` accepts a reset only in the commit that introduces it (it compares `date`
+# against the committed file), and only for the exact numbers in `raises`. The commit after it, the
+# ratchet is back on. Do not write one to get past the check on work you are doing now.
+
+reset:
+  date: 2026-09-18
+  reason: >-
+    Every episode rendered before 2026-09-18 fades: the level falls about 20 dB across the episode
+    and the male host drops out with it. Cause and fix are in docs/DECISIONS.md section 7. The
+    thirteen defective episodes were deleted from R2 and unstamped; How to Learn Anything lesson 1
+    was re-rendered on the new pipeline and is live. The rest come back one at a time.
+  raises:
+    how-to-learn-anything: 7
+    bible-basics: 12
+    logic-and-argument: 10
+    personal-finance: 10
 
 owed:
   # course id (the folder name)   : episodes still to render
-  bible-basics: 11
+  how-to-learn-anything: 7
+  bible-basics: 12
   clear-writing: 9
-  logic-and-argument: 7
-  personal-finance: 8
+  logic-and-argument: 10
+  personal-finance: 10
   algebra-essentials: 6
   python-basics: 6
