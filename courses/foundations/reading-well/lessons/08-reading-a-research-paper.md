@@ -1,6 +1,7 @@
 ---
 title: Reading a research paper
 minutes: 95
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/foundations/reading-well/08-reading-a-research-paper.mp3
 objectives:
   - Run a first pass on a paper in five to ten minutes and answer the five Cs from it
   - Say what a paper's evidence can and cannot support, and where in the paper that is decided
