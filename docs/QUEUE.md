@@ -14,70 +14,13 @@ defect moves to the changelog; it does not stay here struck through.
 
 Rewrite these five lines each session. Nothing else goes in this block.
 
-- **Current course:** **Every published course is now written**, as of the night of 2026-09-18:
-  sixty-one lessons, sixty-one fact-checked scripts. Two are **finished**, How to Learn Anything and
-  Writing Clearly, both off the debt ledger. Logic and Argument owes one episode and nothing else.
-  Personal Finance, Algebra Essentials, Python Basics and Bible Basics owe only money. **So the
-  writing job is now drafting, not scripts**, and Reading Well is it.
-- **Current lesson:** Reading Well, lessons 1 to 5 drafted. **1, 2 and 4 are through Stage 4 and
-  clean.** Lesson 3 has had all of its review findings applied, including the new
-  opener, and its **second pass is out**, owed because the first found wrong facts. Lesson 5 has
-  had its first review applied, six critical findings and all of them factual, and a **targeted
-  re-check is out**. Lessons 3, 5, 6 and 7 have all been through a review and
-  had every finding applied; lesson 3 has also passed a neutrality audit. Lessons 6 and 7 have also been through a second pass and
-  **owe a third** on the passages those passes rewrote, which is where this course's defects now
-  live: a repair fails in the opposite direction about half the time. Lessons 8 and 10 are drafted and their reviews are out. **All ten lessons are drafted**. Lesson 9 is in a 3.4 domain, its neutrality audit is mandatory and is out, and its two primary
-  documents were sourced and verified first. **Both assessments are written.** The twenty-item
-  course-end test is in, with the two cross-lesson items the blueprint asks for and every distractor
-  taken from a misconception a lesson names. **Note an inconsistency in `research/OUTLINE.md`**: its
-  prose says twenty items and its table by objective sums to twenty-two. The test follows the prose
-  and drops one item each from lessons 5 and 7, keeping both of the blueprint's named special items,
-  the lesson 4 arithmetic and the lesson 7 agree-in-part.
-- **What is left before Reading Well publishes:** lesson 9's second pass, which is split between a
-  facts-and-sourcing reviewer and a second neutrality auditor because it failed the first audit and
-  its repair rewrote four sections. Lessons 1 to 8 and 10 are done and their review files are
-  written. Then the publish commit: `course.yaml` to published, the TAXONOMY row in the same commit,
-  and `reading-well: 10` added to `curriculum/audio-debt.yaml`.
-- **Nine of the ten podcast scripts are written**, which is what takes the course from *published* to
-  *written*, and none carries a `checked:` entry yet so none can be rendered. Lesson 9's script waits
-  on lesson 9 settling. Fact-checks are out on all nine: scripts 1, 2 and 4 have had one round
-  applied and are on their second, and 3, 5, 6, 7, 8 and 10 are on their first.
-- **Stop-reviewing signal, and it is worth keeping.** The fourth pass on lesson 6 returned one stale
-  pointer, a Latin spelling, a dropped dash and two paragraph-distance slips, and its reviewer said a
-  fifth would cost a session and buy a dash. `research/reviews/course-wide.md` finding 14 records the
-  signal: when a pass returns only locational and arithmetical slips in unquoted sentences, apply
-  them, commit, and put anything else here under rule 9.
-- **Lesson 9's two documents are sourced and verified**, and the research is worth keeping.
-  **Worked example (a): Captain John Parker's deposition of 25 April 1775 paired with Major John
-  Pitcairn's report to Gage of 26 April 1775.** One day apart, each by the officer commanding at the
-  point of contact, each addressed upward to his own side's authority, each written while his own
-  conduct was in question, agreeing on nearly everything except the clause that matters. Parker is
-  clean at both layers: the 1775 text is public domain and the National Archives transcription is a
-  US government work marked unrestricted. **The British half is the problem and the lesson must say
-  so**: nobody has seen the manuscript or Allen French's 1932 printing of it, the Clements Library
-  and HathiTrust both refused access, every online transcription is unsourced and one says it has
-  been edited for readability, and the archival citation comes from a footnote in a web magazine.
-  Gage's own published account corroborates the wording clause by clause but is derived from
-  Pitcairn's report, so it proves the text is real and proves nothing about the events. **Worked
-  example (b): Sylvanus Wood's affidavit of 17 June 1826**, which is weak evidence about 1775 and
-  excellent evidence about 1826, and whose sting is that it was gathered not by Lexington's friends
-  but by Concord's, to take the priority away from Lexington.
-- **Another licence trap, of the kind `course-wide.md` already records.** The Internet Archive copy
-  of Peter Force's *American Archives* vol. 2 is a community upload carrying a CC BY badge applied by
-  the uploader, who has no standing to license an 1839 public-domain text. The Ripley and Dawson
-  scans of the same period are library-sponsored and marked not in copyright, which is the clean
-  case. **A badge on an Archive item licenses the uploader's work, not the book.** The course publishes when those are done, adding `reading-well: 10` to
-  `curriculum/audio-debt.yaml` in the same commit. Next is `/draft-lesson courses/foundations/reading-well 6`, as many lessons as the
-  budget allows, after reading that course's `research/reviews/course-wide.md`.
-- **Where to look for a real example when the obvious domains all fail.** Lesson 3 needed a short
-  real text in which every word is ordinary and a newcomer still cannot say what happened. Cricket,
-  beekeeping, gardening, bell-ringing and sailing were all tried and all fail the same way: their
-  plain-looking words (*frame*, *struck*, *bob*, *course*, *slip*, *over*) are technical terms in
-  disguise, which is exactly the objection that lesson teaches. **Institutional procedure is close
-  to the only domain where the words stay in their plain senses and only the significance is
-  assumed**, which is why the opener is now four lines of Hansard. Parliamentary records, court and
-  tribunal records, and committee minutes are the place to go next time. Hansard's historic archive
-  is openly licensed and Logic and Argument already cites it.
+- **Current course:** **Reading Well published on 2026-09-19**, ten lessons, a twenty-item course-end
+  test and the project. It is the eighth live course and the second on the Foval Core. Its ten
+  episodes are on the debt ledger. **Every published course is written except this one**, which owes
+  one podcast script, for lesson 9; the other nine are drafted and three are fact-checked.
+- **Current lesson:** none. **Next is `/make-podcast` on Reading Well lesson 9**, then the second
+  fact-check round on the six scripts that have had one, and then the next course on the Core, which
+  is Digital Literacy. Start it with `/new-course`.
 - **Before drafting anything:** `npm run taught <course>`. It prints every objective a learner has
   already met earlier on the Core, and names the earlier courses that do not exist yet so nothing
   is assumed from them. Stage 2 and Stage 3 both call for it.
