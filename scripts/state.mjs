@@ -107,6 +107,50 @@ console.log(`\nTHREE STATES  published = lessons through Stage 4, live on the si
 console.log(`              written   = + every lesson has a fact-checked script (free; finish this before the next course)`);
 console.log(`              FINISHED  = + every lesson has an episode (costs money; trails, in term order)`);
 
+/* Audio budget, from what was actually billed rather than from a figure typed into a document.
+   Every render logs its billed amount in audio-out/work/.../manifest.json, so the month's spend is
+   a sum, not a memory. John raises the cap at aistudio.google.com/spend as budget allows and asks
+   only to be told when it runs out; this is what tells him. The previous version of this number
+   lived in a sentence in docs/PODCAST_PIPELINE.md and was stale the day after it was written. */
+function budget() {
+  let cap = null, prior = {};
+  try {
+    const b = JSON.parse(fs.readFileSync(path.join(ROOT, "scripts", "podcast", "budget.json"), "utf8"));
+    cap = b.monthlyCapUSD; prior = b.priorSpendUSD || {};
+  } catch { return; }
+  const work = path.join(ROOT, "audio-out", "work");
+  if (!fs.existsSync(work)) return;
+  const now = new Date(), key = now.toISOString().slice(0, 7);
+  let month = 0, all = 0, attempts = 0, monthAttempts = 0;
+  (function walk(d) {
+    for (const e of fs.readdirSync(d, { withFileTypes: true })) {
+      const p = path.join(d, e.name);
+      if (e.isDirectory()) { walk(p); continue; }
+      if (e.name !== "manifest.json") continue;
+      let m; try { m = JSON.parse(fs.readFileSync(p, "utf8")); } catch { continue; }
+      for (const a of m.attempts || []) {
+        const b = Number(a.billed) || 0;
+        all += b; attempts++;
+        if (String(a.sent || "").slice(0, 7) === key) { month += b; monthAttempts++; }
+      }
+    }
+  })(work);
+  // Spend the manifests cannot see: September carries the 2026-09-17 debugging afternoon, which
+  // ran through tooling that has since been deleted. Reporting the manifest sum alone would say
+  // $28 free in a month that has about $5, and John renders against this number.
+  const unseen = Number(prior[key]) || 0;
+  const spent = month + unseen;
+  const left = cap - spent;
+  const each = 0.22;
+  console.log(`
+AUDIO BUDGET  ${key}: $${spent.toFixed(2)} of a $${cap.toFixed(2)} cap${unseen ? `  ($${month.toFixed(2)} from ${monthAttempts} render(s) logged here, plus $${unseen.toFixed(2)} in budget.json that no manifest saw)` : `, over ${monthAttempts} render(s)`}.`);
+  console.log(`              $${left.toFixed(2)} left, about ${Math.floor(left / each)} more episode(s) at $${each.toFixed(2)}. aistudio.google.com/spend is the authority.`);
+  console.log(`              $${all.toFixed(2)} billed all time over ${attempts} render(s).`);
+  if (left < each) console.log(`              *** THE CAP IS SPENT. Tell John: raise it at aistudio.google.com/spend, then edit scripts/podcast/budget.json. Rendering will fail until then. ***`);
+  else if (left < each * 5) console.log(`              *** Running low: fewer than five episodes left this month. Worth telling John. ***`);
+}
+budget();
+
 console.log(`\nNEXT ACTION, PER COURSE, IN CORE TERM ORDER`);
 for (const c of courses) if (c.next !== "finished") console.log(`  ${pad(c.id, 24)} ${c.next}`);
 const doneCourses = courses.filter(c => c.next === "finished").map(c => c.id);

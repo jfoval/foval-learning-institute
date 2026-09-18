@@ -377,3 +377,25 @@ test("course.yaml status must agree with the TAXONOMY row, and the row must exis
   assert.equal(r.status, 1, r.out);
   assert.ok(r.out.includes("no row"), r.out);
 });
+
+test("a sentence repeated across two lessons of a course is flagged", () => {
+  const { root, course } = fixture();
+  // Twelve words or more, in two lessons, outside code and comments.
+  const line = "The same worked example about a tired commuter counting coins on a wet platform.";
+  fs.writeFileSync(path.join(course, "lessons", "01-good.md"), GOOD_LESSON.replace("A paragraph with a [link](https://example.org/one).[1]", `${line} A paragraph with a [link](https://example.org/one).[1]`));
+  fs.writeFileSync(path.join(course, "lessons", "02-more.md"), GOOD_LESSON.replace("A paragraph with a [link](https://example.org/one).[1]", `${line} A paragraph with a [link](https://example.org/one).[1]`));
+  fs.writeFileSync(path.join(root, "curriculum", "audio-debt.yaml"), "owed:\n  sample: 2\n");
+  const r = check(root);
+  assert.ok(/the same sentence appears in 01-good and 02-more/.test(r.out), r.out);
+});
+
+test("a sentence repeated only inside an HTML comment is not flagged", () => {
+  const { root, course } = fixture();
+  // Bible Basics carries identical split-seam notes in four lessons. A learner never sees them.
+  const note = "<!-- The same planning note about where this lesson would split if it ever had to. -->";
+  fs.writeFileSync(path.join(course, "lessons", "01-good.md"), GOOD_LESSON + "\n" + note + "\n");
+  fs.writeFileSync(path.join(course, "lessons", "02-more.md"), GOOD_LESSON + "\n" + note + "\n");
+  fs.writeFileSync(path.join(root, "curriculum", "audio-debt.yaml"), "owed:\n  sample: 2\n");
+  const r = check(root);
+  assert.ok(!/same sentence appears/.test(r.out), r.out);
+});

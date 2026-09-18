@@ -1,0 +1,7 @@
+{
+  "monthlyCapUSD": 30,
+  "priorSpendUSD": {
+    "2026-09": 23.39
+  },
+  "note": "monthlyCapUSD is the Google AI Studio cap at aistudio.google.com/spend, which resets on the 1st. Raise it there first, then here. priorSpendUSD records spend that the manifests cannot see: September carries about $23.39 from the 2026-09-17 debugging afternoon, which ran through tooling that has since been deleted, so no manifest records it. Without that line the month would read $28 free when it has about $5. Google's own spend page is the authority; this is the best estimate the repo can make on its own."
+}

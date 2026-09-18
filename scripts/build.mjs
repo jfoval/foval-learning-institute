@@ -823,6 +823,50 @@ function lintLessons() {
 }
 lintLessons();
 
+/* ---------- repeated passages across a course's lessons ----------
+   courses/CLAUDE.md rule 2 allows a session to draft several lessons, which is how John uses the
+   token budget he has. The failure that comes with it is repetition: lessons written in one
+   context reuse each other's examples, figures and sentences, and the drafter cannot see it
+   because all of it reads as familiar. A reader meeting the same worked example twice loses trust
+   in both.
+
+   Sentences of twelve words or more, normalised, appearing in two different lessons of one course.
+   Twelve is high enough that an accidental collision is rare and a deliberate callback is usually
+   reworded rather than copied. Code, SVG, block headers and the Sources list are stripped first:
+   a repeated citation is correct, and two lessons printing the same three lines of Python is the
+   point. Warns rather than fails, because a course may legitimately restate one sentence and only
+   a person can say which. */
+function checkRepetition() {
+  for (const school of fs.readdirSync(COURSES_DIR, { withFileTypes: true }).filter(d => d.isDirectory())) {
+    for (const cdir of fs.readdirSync(path.join(COURSES_DIR, school.name), { withFileTypes: true }).filter(d => d.isDirectory())) {
+      const lessonsDir = path.join(COURSES_DIR, school.name, cdir.name, "lessons");
+      if (!fs.existsSync(lessonsDir)) continue;
+      const seen = new Map();
+      for (const f of fs.readdirSync(lessonsDir).filter(f => f.endsWith(".md")).sort()) {
+        let body = fs.readFileSync(path.join(lessonsDir, f), "utf8").split(/^---$/m).slice(2).join("---");
+        body = body.replace(/^## Sources[\s\S]*$/m, "")
+                   // HTML comments are not read by a learner. Bible Basics carries split-seam
+                   // notes in four lessons that are identical by design and invisible on the page.
+                   .replace(/<!--[\s\S]*?-->/g, "")
+                   .replace(/<svg[\s\S]*?<\/svg>/g, "")
+                   .replace(/```[\s\S]*?```/g, "")
+                   .replace(/^:::.*$/gm, "");
+        for (const raw of body.split(/(?<=[.?!])\s+/)) {
+          const norm = raw.toLowerCase().replace(/\[[^\]]*\]\([^)]*\)/g, " ").replace(/[^a-z0-9 ]+/g, " ").replace(/\s+/g, " ").trim();
+          if (norm.split(" ").length < 12) continue;
+          if (!seen.has(norm)) seen.set(norm, new Set());
+          seen.get(norm).add(f);
+        }
+      }
+      for (const [norm, files] of seen) {
+        if (files.size < 2) continue;
+        warn.push(`${path.relative(ROOT, lessonsDir)}: the same sentence appears in ${[...files].map(f => f.replace(/\.md$/, "")).join(" and ")}: "${norm.slice(0, 90)}...". Lessons drafted in one session reuse each other; give the second one its own example rather than rewording this.`);
+      }
+    }
+  }
+}
+checkRepetition();
+
 /* ---------- root CLAUDE.md rule 6: a published course owes an episode for every lesson ----------
    "A course is finished when every lesson is at standard AND every lesson has a podcast
    episode." That was a shouting paragraph in CLAUDE.md because it had been ignored once. A

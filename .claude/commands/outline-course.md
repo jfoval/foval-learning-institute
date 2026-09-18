@@ -15,15 +15,34 @@ Read first: `docs/EDITORIAL_STANDARDS.md`, `$ARGUMENTS/course.yaml`, `$ARGUMENTS
 
 Produce `$ARGUMENTS/research/OUTLINE.md`. For each lesson: title, 2–4 testable objectives (verbs: explain, calculate, identify, compare, apply, build), the core ideas, the mechanism to explain, the worked examples to include (at least two, one with a wrinkle), the misconceptions to address, the practice exercises, which sources it draws on, and how it connects to previous and next lessons. Sequence for how the ideas build, not how textbooks list chapters. Plan spaced review: later lessons revisit earlier ideas.
 
-**Decide the scope against what the learner needs, and write down the reasoning.** Say how many
-lessons and why, what is deliberately left out, and what the courses downstream on the Core will
-need this one to have taught. **Do not set the target against the thing being replaced.** Python
-Basics was outlined at "1,800 to 2,600 words a lesson, against the stubs' 463" and froze at six
-inherited lesson files to keep live URLs; both numbers describe the stubs, not the subject, and the
-course came out missing a setup lesson. At the other end, Bible Basics averages 137 measured
-minutes a lesson, which is not a sitting, and has the lowest think-block density in the institute
-(1.3 per 1,000 words of prose against Algebra's 2.9). **A lesson should be one sitting.** If the
-plan puts a lesson far outside 40 to 90 measured minutes, say why in the outline or split it.
+### How long a lesson should be
+
+**The unit is the objective, not the word.** A course covers what its subject needs, and a lesson
+runs as long as teaching its objectives properly takes. There is no word target and there is not
+going to be one: setting a number makes the drafter write to the number.
+
+What replaces it is a floor and a ceiling, and neither is about length.
+
+**The floor is completeness, not size.** For every objective the lesson claims, it must carry: the
+idea explained against a concrete case, at least one fully worked example, the misconception that
+actually lives there, and practice the reader does rather than reads. If all four are not there,
+the lesson is thin however many words it has, and the fix is to teach it properly rather than to
+pad it. If they cannot all fit, it is two lessons. A lesson coming in under about 25 measured
+minutes is worth a second look for this, as a signal and not as a rule.
+
+**The ceiling is one sitting.** A learner should be able to start and finish a lesson in a sitting.
+Around 90 measured minutes is the edge of that. Past it, either split the lesson or write one line
+in the outline saying why this one earns the length. Bible Basics averages 137 minutes and has the
+lowest think-block density in the institute (1.3 per 1,000 words of prose, against Algebra's 2.9),
+which is the shape to avoid: long and comparatively passive. It stays as it is; it is not a model.
+
+**Never set the target against the thing being replaced.** Python Basics was outlined at "1,800 to
+2,600 words a lesson, against the stubs' 463" and froze at the six lesson files its live URLs
+already used. Both numbers describe the stubs rather than the subject, and the course shipped
+without a setup lesson because six inherited slots had no room for one.
+
+**Say the reasoning in the outline**: how many lessons and why, what is deliberately left out, and
+what courses downstream on the Core will need this one to have taught.
 
 Also plan assessments: a course-end test blueprint and at least one project with deliverable and rubric for courses of 6+ lessons.
 

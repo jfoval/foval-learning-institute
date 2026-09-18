@@ -81,8 +81,13 @@ build says anything about it.
 - **Whether an episode sounds right.** The gate measures level, fade, both voices, length and
   pitch. It cannot hear a bad reading. John listens.
 - **Whether the site is usable on a phone.** `npm run shots` renders it; somebody has to look.
-- **Whether a learner gets anything out of it.** The feedback form, and John reading a lesson as a
-  learner. **This is the only human check in the pipeline and it has never been done.**
+- **Whether a learner gets anything out of it.** The feedback form. **John is not the reviewer**,
+  decided 2026-09-18: he wants to be able to take these courses rather than proof them, and the
+  pipeline has to be good enough that he can. Two things carry the weight that his reading would
+  have: the **cold-start pass** in `/review-lesson`, which reads a lesson as someone who has done
+  exactly the courses `npm run taught` lists and nothing else, and the feedback loop once learners
+  arrive. The cold-start pass exists because the one defect John caught by eye, Python assuming a
+  terminal, was a cold-start defect that every other pass read straight past.
 
 ## Known gaps in this file's own coverage
 

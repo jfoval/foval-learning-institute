@@ -25,9 +25,19 @@ knowledge for each stage, including the list of defects this drafter repeats.
 1. **Never draft a lesson without the course's `research/SOURCES.md` in context.** If it does not
    exist, run Stage 1 first. Check that it covers *this lesson's* domain, not just the course's: a
    lesson drafted into a research gap fails its neutrality audit on exactly that gap.
-2. **One lesson per drafting session on a prose course.** Do not batch-generate lessons. On a
-   procedural course whose lessons are short and mechanical (programming, arithmetic, algebra), two
-   per session is allowed.
+2. **Draft as many lessons in a session as the budget allows.** This replaced a one-lesson rule on
+   2026-09-18: John uses the token budget he has when he has it, and the old rule capped throughput
+   for a quality reason that is better served by the three invariants below than by a limit.
+   **None of these may be relaxed to go faster:**
+   **(a) Every lesson gets its own Stage 4 review in a fresh context.** Not one review for the
+   batch. The context that wrote a lesson cannot see what it assumed, and that is more true, not
+   less, when it wrote four of them.
+   **(b) Re-read the outline and run `npm run taught <course>` before each lesson**, rather than
+   working from what is still in context from the last one.
+   **(c) Watch for repetition across lessons.** This is the specific failure of batching: lessons
+   written in one context reuse each other's examples, figures and turns of phrase, and the drafter
+   cannot see it because it all reads as familiar. `npm run validate` warns on passages repeated
+   across a course's lessons. Read those warnings; the fix is a different example, not a reword.
 3. **Reviews run in fresh-context subagents**, never in the same context as the draft. Stage 4 is
    tiered: one reviewer by default, five in parallel only for sensitive domains, standpoint courses,
    and lessons sent back for heavy rewriting. A pre-pipeline stub is replaced, never reviewed.

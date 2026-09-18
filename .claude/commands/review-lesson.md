@@ -44,7 +44,23 @@ Reviews run in a fresh context, never in the same context as the draft. That is 
 4. **Pedagogy**, against Part 4. Objectives testable, worked examples before problems, exercises that are real practice, misconceptions addressed. Quiz against 4.3: at least half application questions, plausible distractors, teaching explanations. **Measure the option shapes, do not eyeball them**: option lengths within about 15 characters, all four answer indices used across the quiz, no adjacent repeat, at least two options per item carrying no absolute. Check whether the items reuse the body's own people and numbers, which tests recall of the page rather than the idea. Check that no self-check prints its own answer in plain body text instead of hiding it behind `:::predict` or `:::checkpoint`.
    **Execute every stem against its own model answer, not only the answer against the source.** An Algebra practice item asked the reader to show that a correct equation was wrong and reached its "correct version" by swapping the letters, which teaches the reversal error as the cure for it. The stem was a typo for a different equation and the answer text was internally consistent, which is why the drafter's own arithmetic check missed it.
    **Trace every "if you got X, you probably did Y" backwards** from the wrong answer. Three in one rebuild blamed a slip that cannot produce the number, and one blamed a route that produces the right answer.
-5. **Voice and media**, against `docs/STYLE_GUIDE.md` and standards 4.5. Quote every em dash (U+2014) **and every en dash (U+2013)**; the convention is " to ". Quote every banned word and sentence shape with its line. Then read it as a person talking to one student and quote every sentence that sounds like a textbook, a blog, a salesperson or a machine, rewriting each. Check the reader is made to think as they read: predict blocks, checkpoints, an exercise, not paragraphs then a quiz. Check `minutes:` against the real load, which has been understated in every lesson measured so far. Check media: primary sources linked in the body, real images with credits, nothing decorative or AI-generated. **Open every SVG and read it by eye.**
+5. **The cold-start pass. Run `npm run taught <course>` and read this lesson as someone who has
+   done exactly those courses and nothing else.** Not as someone who knows the subject. Walk every
+   instruction and every step literally, in order, and stop at the first thing that cannot be done
+   from that starting position. Flag every place the lesson assumes **knowledge** not in that list,
+   a **tool or setup** it never explains, a **file, account or piece of software** the reader is
+   expected to already have, or a **habit or notation** introduced without being named.
+   Check the course's own `prerequisites:` in `course.yaml`: if it is empty, the lesson may assume
+   nothing at all beyond the earlier Core courses that actually exist.
+   **This pass exists because it is the one John caught by eye and the pipeline did not.** Python
+   Basics lesson 1 told a reader with no prior experience to type `python3` at a terminal and to
+   save a file called `sums.py`, and the course never said what a terminal is, how to open one, or
+   that the terminal has to be standing in the folder the file is in. Every other pass read that
+   lesson and passed it, because every other pass reads as somebody who already knows.
+   An unwritten earlier course teaches nothing: `npm run taught` lists those separately and they
+   are not a defence.
+
+6. **Voice and media**, against `docs/STYLE_GUIDE.md` and standards 4.5. Quote every em dash (U+2014) **and every en dash (U+2013)**; the convention is " to ". Quote every banned word and sentence shape with its line. Then read it as a person talking to one student and quote every sentence that sounds like a textbook, a blog, a salesperson or a machine, rewriting each. Check the reader is made to think as they read: predict blocks, checkpoints, an exercise, not paragraphs then a quiz. Check `minutes:` against the real load, which has been understated in every lesson measured so far. Check media: primary sources linked in the body, real images with credits, nothing decorative or AI-generated. **Open every SVG and read it by eye.**
 
 Each pass returns findings ranked by severity, with quoted passages and specific fixes.
 

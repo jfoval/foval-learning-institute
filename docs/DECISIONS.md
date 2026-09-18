@@ -83,6 +83,31 @@ that a lesson's audio is never paid for before its content is settled.
 
 ---
 
+## 2b. How long a lesson is, and how many get drafted in a session
+
+Settled with John 2026-09-18, both halves.
+
+**No word target, ever.** He declined a lesson-size standard in those terms: *"instead of picking a
+length we decided early on to let the course be what it should be... the course goal should be to
+teach the concepts, sometimes it takes more sometimes less."* A number makes the drafter write to
+the number. What stands in its place is a floor of completeness and a ceiling of one sitting, both
+in `/outline-course`: every objective carries the idea against a concrete case, a worked example,
+the misconception that lives there, and practice the reader does; and a lesson a learner cannot
+finish in a sitting either splits or justifies itself in one line. Bible Basics at 137 measured
+minutes a lesson stays as it is and is not a model.
+
+**Batching is allowed.** The one-lesson-per-session rule is gone: *"I want to use this project as a
+way to burn tokens before my weekly usage runs out."* Throughput is the point. The three invariants
+that replace it are in `courses/CLAUDE.md` rule 2, and the one that needed a check is repetition
+across lessons written in one context, which `npm run validate` now warns on.
+
+**John is not the reviewer.** He asked to be able to take these courses rather than proof them, and
+accepted that not every lesson will be ideal. That is a real constraint on the pipeline, not a
+preference: the `/review-lesson` cold-start pass was added the same day to carry the class of
+defect he would otherwise have caught.
+
+---
+
 ## 3. Work that is not on `main` is not done
 
 The live site serves `main`. A platform session on 2026-09-06 left thirteen commits on a branch
