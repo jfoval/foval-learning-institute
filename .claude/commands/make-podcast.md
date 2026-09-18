@@ -74,24 +74,24 @@ them), or FAIL (list findings)." Fix every finding in the script file. Then, and
 then, add the `checked:` frontmatter entry recording the date, the verdict, and that all
 findings were fixed. `scripts/podcast.mjs` refuses to render a script without it.
 
-### Checking a script that already exists
+### Scripts that already exist are renderable as they are
 
-Seven scripts were written before the podcast setup settled, under `logic-and-argument/`,
-`personal-finance/` and `bible-basics/`. They are not wrong, but they are not at the current
-standard, and bringing one up is Part A work: free, and part of writing that course. **This is
-script work and it is the only thing to go back for. Do not re-open lesson content on a course
-that is already through Stage 4.** What to look for:
+**The speaker prompt lives in `scripts/podcast.mjs`, not in the script files.** The renderer builds
+`TTS the following conversation between John and Haley:` and rewrites every `S1:`/`S2:` into
+`John:`/`Haley:` to match the `multiSpeakerVoiceConfig`, on every render. That framing is what made
+How to Learn Anything come out right, and **every script gets it, including the seven written
+before the setup settled.** A script only has to open with Haley and carry a `checked:` entry; all
+fifteen do. Do not rewrite an old script believing it lacks the prompt. It does not.
 
-- **Length.** They run 1,259 to 1,539 words against the measured band of 1,000 to 1,200. Trim to
-  about 1,150.
+Two optional improvements on the seven older ones, worth doing only if John wants them, and never a
+reason to hold up a render:
+
+- **Length.** They run 1,259 to 1,539 words against the measured band of 1,000 to 1,200, so about
+  seven cents and ninety seconds more each.
 - **Turn shape.** They ping-pong: `logic-and-argument/02` has 68 turns where the settled shape has
   about 33, with teaching turns up to 100 words. Short turns make the hosts sound like a quiz.
-  Merge John's fragments into whole explanations and let Haley interrupt where she has a real
-  question.
-- **Stale `about:`.** `bible-basics/02` and `personal-finance/01` still name the retired engine's
-  voices ("the Carter voice", "the Alice voice"). They are Charon and Aoede.
 
-A trimmed script needs its fact-check run again, because the cuts are new text.
+Either change is new text and needs the fact-check run again, which is why neither is automatic.
 
 **3. Render, upload, stamp.**
 

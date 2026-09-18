@@ -12,7 +12,7 @@ The map is deliberately ambitious. Most courses are `planned`. The point of writ
 4. **Depth over breadth per course.** A course should leave you genuinely competent in its subject, not "exposed" to it.
 
 **Levels:** `Foundation` (no prerequisites), `Core` (assumes Foundation courses), `Advanced` (assumes Core).
-**Status:** `planned` → `research` → `drafting` → `published`. A course is published when its lessons have been through the review pipeline; it keeps improving through the feedback loop after that. One of the original starter courses, Writing Clearly, is marked `published` but still owes its Stage 4 and voice pass; Algebra Essentials was rebuilt on 2026-09-09 and owes its voice pass. See `docs/QUEUE.md`.
+**Status:** `planned` → `research` → `drafting` → `published`. A course is published when its lessons have been through the review pipeline; it keeps improving through the feedback loop after that. Run `npm run state` for what each course actually has; it is computed, and nothing in this file restates it.
 
 **Path:** every course sits in a term of the Foval Core. There is no elective tier; see "Placing a course on the Core" at the foot of this file.
 
@@ -154,8 +154,8 @@ The map is deliberately ambitious. Most courses are `planned`. The point of writ
 
 | Course | Level | Status | Path | Notes |
 |---|---|---|---|---|
-| Digital Literacy | Foundation | planned | T1 | Files, networks, security hygiene, how the internet works. |
-| Introduction to Programming with Python | Foundation | published | T6 | Rebuilt 2026-09-10: six lessons through Stage 4 and the voice pass, final test and project live. Owes six episodes. |
+| Digital Literacy | Foundation | planned | T1 | Files and folders, **the terminal and how to run a command**, installing software safely, networks, security hygiene, how the internet works. Term 6's Python course assumes the terminal half and never teaches it; scope widened 2026-09-18 so it is taught once, five terms earlier, rather than bolted onto a programming course. |
+| Introduction to Programming with Python | Foundation | published | T6 | Rebuilt 2026-09-10: six lessons through Stage 4, final test and project live. **Known gap, CW-04:** assumes a terminal it never teaches, because the rebuild froze the course at the six lesson files the live URLs already used. Gains a setup lesson at its Term 6 turn; not re-opened before then. |
 | How Computers Work | Foundation | planned | T6 | From transistors to operating systems. |
 | Data Structures and Algorithms | Core | planned | T20 | |
 | Web Development | Core | planned | T6 | HTML, CSS, JS, a real site. |

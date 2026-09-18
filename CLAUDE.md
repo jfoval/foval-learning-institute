@@ -5,8 +5,14 @@ repo as Markdown; a build script compiles it into a static site. Read this file,
 `docs/QUEUE.md`, then the document relevant to your task and nothing else.
 
 ## Start here in a new session
-- `docs/QUEUE.md` — the marching order: what is in flight, what is next, what is blocked. Read it
-  first and keep it current **in the same commit as the work**, not at the end of the session.
+- **`npm run state`, first, before reading anything.** It computes the state of every course from
+  the filesystem: lessons, review files, scripts, episodes, average body words, and the next action
+  for each in Core term order. One second, always current. **Facts that a script can derive are not
+  written down anywhere in this repo**, so do not go looking for them in prose and do not
+  cross-check the script against prose: if they disagree, the script is right.
+- `docs/QUEUE.md` — what is in flight and what is blocked, which a script cannot know. It no longer
+  carries counts. Keep it current **in the same commit as the work**, not at the end of the
+  session.
 - Nested `CLAUDE.md` files load when you work in their directory: `courses/`, `site/`, `scripts/`.
   Do not restate their rules here.
 

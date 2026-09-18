@@ -11,6 +11,82 @@ Older entries refer to `docs/BACKLOG.md`, which was split on 2026-09-09 into `do
 unstarted work) and this file. Its section numbers survive only in those entries and in a few
 split-seam comments inside Bible Basics lessons, which point at `docs/DECISIONS.md` §5.
 
+## 2026-09-18 — `npm run state`: the facts are computed, not written down
+
+John, after the third correction in one session: *"we keep going in circles... it seems like no
+matter what I try you keep tripping over yourself."* He is right about the symptom and the cause is
+worth writing down, because it is not the size of the repo. The code is 2,749 lines and the docs
+3,369; Bible Basics alone is bigger than all of it.
+
+**The cause is that the facts a session needs at startup were prose, in several files, and prose
+drifts.** This one review found five places still telling a session to commit a build that had
+moved the day before, two different cost tables for the same courses, `/make-podcast` contradicting
+its own length rule three bullets later, and `CONTENT_PIPELINE.md` naming the TTS engine that had
+been replaced for fading. Each is somewhere a session reads confidently and acts wrongly, and then
+has to be corrected, which is the circling. `/status`, the command meant to prevent exactly this,
+was itself prose: it asked the model to read fifteen files and reason, freshly and differently
+every session.
+
+**So `scripts/state.mjs` computes it instead.** One second, from the filesystem: every course with
+term, state, lessons, review files, scripts, episodes and average body words; the totals; and the
+next action per course in Core term order. It is the first thing a session runs, ahead of
+`docs/QUEUE.md`. The hand-maintained status table is deleted from the queue, and the rule is now in
+both `CLAUDE.md` and `scripts/CLAUDE.md`: **a fact a script can derive is not written down in prose
+anywhere in this repo**, and when you want to record a count or a status, you add it to
+`state.mjs`. That is the same rule as "if a rule needs shouting, write a check instead", applied to
+facts rather than to rules.
+
+It found two things on its first run, which is the argument for it. **Logic and Argument lessons 9
+and 10 have no review file**, though both were reviewed (commits `0258956`, `e0832bb`); the
+findings went into `course-wide.md` and the per-lesson record was never written. And the first
+draft of the script itself named the wrong next lesson for Bible Basics, because it counted scripts
+rather than finding the first lesson missing one, and that course's single script is lesson 2. Both
+were caught by reading the output against the tree before shipping it.
+
+**Also corrected here: the seven older podcast scripts need no work.** The previous entry said they
+had to be brought up to the new prompt. That was wrong, asserted without reading
+`scripts/podcast.mjs`. The speaker framing that made How to Learn Anything come out right
+(`TTS the following conversation between John and Haley:`, with `S1:`/`S2:` rewritten to the names
+in `multiSpeakerVoiceConfig`) is built at render time and applies to every script. A script only
+has to open with Haley and carry a `checked:` entry. All fifteen do.
+
+---
+
+## 2026-09-18 — Two courses are short, and the outline says why
+
+John, reading Python lesson 1: *"it starts off telling you python commands but do you know how to
+use a terminal and where to write those commands?"* Confirmed, and the finding is in
+`courses/computer-science-and-ai/python-basics/research/reviews/course-wide.md` as CW-04.
+
+Lesson 1 says the interpreter is "what you get by typing `python3` at a terminal" and tells the
+reader to "put the same line in a file called `sums.py`". It assumes the reader can open a
+terminal, has Python installed, and knows where a file has to live. None of it is taught anywhere
+in the course.
+
+**The six lessons are not at fault; the outline is.** Its decision 3 reads: *"The file names do not
+change. `01-first-program.md` through `06-collections.md` stay, because the course is live and
+those URLs are in the site's data."* Sound for a rebuild, but it froze the course at six inherited
+slots, and the stubs had never had a setup lesson. The same decision set the target at "1,800 to
+2,600 words a lesson, against the stubs' 463", which is why this course averages 2,904 body words
+where courses designed from scratch average 5,794. **Both numbers were set relative to what was
+being replaced rather than to the institute's standard.** That is the lesson worth keeping: a
+rebuild inherits the shape of the thing it replaces unless the outline is made to justify the
+shape, and this outline was asked only to justify the contents of each slot.
+
+Algebra Essentials is the same size for a different reason. Its outline *did* reason about scope
+and added a sixth lesson rather than inheriting five, so the six it has are the right six. What it
+never asked is whether six covers what the Core puts downstream: exponents and roots, which
+Geometry needs, and quadratics. Recorded in its `course-wide.md`.
+
+**Nothing is re-opened.** Two moves instead:
+
+- **Digital Literacy carries the terminal.** Its TAXONOMY scope line was widened today to say so.
+  It is Term 1 position 5 and unwritten, five terms ahead of Python, so it is the right home and it
+  costs nothing now.
+- **Each course gains lessons at its own Core turn**, and loses none. Adding is not re-opening.
+
+---
+
 ## 2026-09-18 — A course has three states, and only the last one costs money
 
 Written the same day as the entry below and refining it. John's correction: the podcast **script**

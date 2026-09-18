@@ -57,10 +57,11 @@ logic-and-argument 7, personal-finance 7, python-basics 6, algebra-essentials 6.
 `/make-podcast <lesson>`, stopping after the fact-check. Several a session is fine. Take one course
 all the way to *written* before starting the next.
 
-**The seven existing pre-settlement scripts need bringing up**, which is the same free Part A work:
-they run 1,259 to 1,539 words against a band of 1,000 to 1,200, and they ping-pong (68 turns where
-the settled shape has about 33). `/make-podcast` has the checklist. **That is the only thing to go
-back for. Lesson content on a course already through Stage 4 is done; do not re-open it.**
+**The seven existing scripts are renderable as they are.** The speaker prompt that made How to
+Learn Anything come out right is built by `scripts/podcast.mjs` at render time, not stored in the
+script, so every script gets it. They only run long and ping-pong, which is taste and about seven
+cents. `/make-podcast` says what could be improved and that neither thing blocks a render.
+**Nothing on a course already through Stage 4 is to be re-opened.**
 
 1. **`npm run quiz` lists 18 quizzes tripping the shape heuristic** (option-length spread over 25
    characters, adjacent repeats, unused positions) without being winnable by a reader who read
@@ -99,32 +100,10 @@ These have no session that owns them, which is how they were being skipped.
 
 ## Status
 
-| Course | Term | Lessons | Avg words | Stage 4 | Assessments | Episodes | Owes |
-|---|---|---|---|---|---|---|---|
-| How to Learn Anything | T1 | 8 | 7,216 | 8 | 2 | 8 of 8 | **nothing** |
-| Logic and Argument | T1 | 10 | 9,380 | 10 | 2 | 0 of 10 | 10 episodes |
-| Bible Basics | T8 | 12 | 13,163 | 12 | 2 | 0 of 12 | 12 episodes |
-| Personal Finance | T2 | 10 | 5,932 | 10 | 2 | 0 of 10 | 10 episodes |
-| Algebra Essentials | T5 | 6 | 3,689 | 6 | 2 | 0 of 6 | 6 episodes |
-| Writing Clearly | T1 | 9 | 4,646 | 9 | 2 | 0 of 9 | 9 episodes |
-| Python Basics | T6 | 6 | 3,095 | 6 | 2 | 0 of 6 | 6 episodes |
-| Reading Well | T1 | 1 of 10 | 4,340 | 1 | 0 | 0 | **not live yet** |
+**`npm run state`.** It computes every count from the filesystem: courses, lessons, review files,
+scripts, episodes, average body words, and the next action for each course in Core term order.
 
-Sixty-one lessons live, eight with audio, all eight rendered on 2026-09-18 on the settled pipeline.
-Reading Well is the eighth course and is `status: drafting`, so its one finished lesson is not on the
-site and is not counted above; it publishes when its ten lessons are through Stage 4, owing ten
-episodes on the ledger (`docs/DECISIONS.md` §2).
-The count had fallen to one that day: every episode shipped before it faded out by its end and was
-deleted at John's instruction. They come back course by course. See `docs/DECISIONS.md` section 7. `/status` recomputes this table and rewrites it here
-when it has drifted.
-
-## Waiting on John
-
-- **Regenerate the Gemini API key** at aistudio.google.com/apikey when convenient: the current one
-  was pasted into a chat transcript on 2026-09-17. Put the new one in `.env.local`.
-- **Raise the Gemini monthly spend cap** at aistudio.google.com/spend when you want a run longer
-  than the month's headroom. All sixty owed episodes cost about $13 in total.
-- **Deploy the accounts Worker.** It needs credentials and two free accounts; steps in
-  `workers/api/README.md`.
-- **A store account and a donations account**, if he wants either. Artwork and copy can be prepared
-  without him; see `docs/PLATFORM_ROADMAP.md`.
+The table that used to sit here is gone. It was hand-maintained, it drifted between sessions, and
+reconciling it against the repo was the first thing every session did. **A fact a script can derive
+is no longer written down in this repo.** If something above disagrees with `npm run state`, the
+script is right.

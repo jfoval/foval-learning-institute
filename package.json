@@ -18,7 +18,8 @@
     "icon": "node scripts/icon.mjs",
     "minutes": "node scripts/reading-time.mjs",
     "quiz": "node scripts/check-quiz-shape.cjs && node scripts/check-quiz-letters.cjs",
-    "test": "node --test \"scripts/tests/*.test.mjs\""
+    "test": "node --test \"scripts/tests/*.test.mjs\"",
+    "state": "node scripts/state.mjs"
   },
   "engines": {
     "node": ">=20"

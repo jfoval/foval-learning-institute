@@ -5,6 +5,7 @@ compile step anywhere in this repo.
 
 | Script | npm | What it does |
 |---|---|---|
+| `state.mjs` | `state` | The state of every course and the next action for each, computed. Session-start command |
 | `core-path.mjs` | `path` | Keeps `TAXONOMY.md` and `core-path.yaml` agreeing; generates the Core list |
 | `build.mjs` | `build`, `validate`, `build:drafts` | Compiles `courses/` + `site/` into git-ignored `dist/`, and lints everything |
 | `reading-time.mjs` | `minutes` | Measures every lesson's real `minutes:`; `--write` fixes them |
@@ -73,6 +74,15 @@ and citations to works the course's SOURCES.md marks unread.
 **`npm test` covers the lints.** `scripts/tests/build.test.mjs` builds a throwaway course tree and
 runs the build over one bad lesson per check, asserting each fails and names its defect. Add a case
 whenever you add a check; a check that stops firing is exactly the bug a green build hides.
+
+`npm run state` exists because a session's first job used to be reading prose in five files and
+reconciling it, and prose drifts. A review on 2026-09-18 found five places still telling a session
+to commit a build that had moved the day before, two different cost tables for the same courses,
+a command contradicting its own length rule, and the wrong TTS engine named in the pipeline doc.
+Each was somewhere a session would act confidently and wrongly. **A fact a script can derive is not
+written down in prose anywhere in this repo.** When you are tempted to record a count, a status or
+a next step in a document, add it to `state.mjs` instead. The same rule as the one below, applied
+to facts rather than to rules.
 
 ## The rule this directory exists to serve
 

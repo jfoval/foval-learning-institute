@@ -1,6 +1,16 @@
 ---
-description: Report the status of every course and the next action for each
+description: Report the state of every course and the next action for each
 ---
-Read `curriculum/TAXONOMY.md` and every `courses/**/course.yaml`. For each course folder, check which of `research/SOURCES.md`, `research/OUTLINE.md` and `research/reviews/` exist, count lessons in `lessons/`, and count how many lessons have a review file and how many have an `audio:` stamp. Run `npm run validate` and include its output.
+Run `npm run state`. It computes everything from the filesystem in under a second: every course
+with its term, state, lesson count, review files, scripts, episodes and average body words, the
+totals, and the next action for each course in Core term order.
 
-Print a table: course, school, status, lessons, research done?, outline done?, last review, next action (e.g. "/research-course", "/draft-lesson 4", "/review-lesson 2", "/voice-pass 3", "/make-podcast 5", "publish"; there is no sign-off step, see root `CLAUDE.md` rule 5). Flag any course whose `status` in course.yaml disagrees with its TAXONOMY.md row. Compare the table against the `## Status` table in `docs/QUEUE.md` and rewrite that table if it has drifted. Then list the three highest-value next actions across the project.
+**Print its output and stop there.** Do not re-derive any of it by reading files, and do not
+"check" it against `docs/QUEUE.md`. If the two disagree, the script is right and the queue has
+drifted: fix the queue.
+
+Then add only what a script cannot know: whether a number looks wrong for a reason worth chasing,
+and which one thing John should do next given what he last said he was doing. Two sentences, not
+a report.
+
+Run `npm run validate` as well if anything is about to be committed.

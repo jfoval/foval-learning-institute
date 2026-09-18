@@ -116,3 +116,40 @@ not name Fisler or Seppälä.
 `estimated_hours` moves from 7.2 to **9.7**: the six lessons measure 420 minutes and the two
 assessments carry 40 and 120, which is 580. CW-01 said this number would move when the assessments
 landed, and it has.
+
+---
+
+## 2026-09-18 — CW-04: the course assumes a terminal it never teaches
+
+Raised by John reading lesson 1: *"it starts off telling you python commands but do you know how to
+use a terminal and where to write those commands?"* He is right, and the six lessons are not at
+fault. The gap is in the outline.
+
+**What lesson 1 assumes without teaching.** Its "Two ways to run Python" section says the
+interpreter is "what you get by typing `python3` at a terminal" and tells the reader to "put the
+same line in a file called `sums.py`". That assumes the reader can open a terminal, has Python
+installed and on the path, knows how to create and save a `.py` file, and knows the working
+directory has to be the one holding the file. None of that appears anywhere in the course. A
+complete beginner is stuck before the first line of Python.
+
+**Why it happened, and it is not the drafting.** `research/OUTLINE.md` decision 3: *"The file names
+do not change. `01-first-program.md` through `06-collections.md` stay, because the course is live
+and those URLs are in the site's data."* That was a sound call for a rebuild of a live course, but
+it froze the course at six lessons, and six inherited slots had no room for a setup lesson because
+the stubs had never had one. The same decision set the word target at "1,800 to 2,600 words a
+lesson, against the stubs' 463", which is why this course's bodies average 2,903 words where
+courses designed from scratch average 5,800. **Both numbers were set relative to what was being
+replaced rather than to the institute's standard.** That is the finding worth keeping: a rebuild
+inherits the shape of the thing it replaces unless the outline is asked to justify the shape, and
+this outline was asked only to justify the contents of each slot.
+
+**The fix, and when.** Not now. The six lessons are at standard and are not re-opened. Two moves:
+
+1. **Digital Literacy carries the terminal**, and its TAXONOMY scope line was widened on 2026-09-18
+   to say so. It is Term 1 position 5, unwritten, and five terms ahead of this course, so it is the
+   right home and it costs nothing today.
+2. **When Python Basics comes up in Core order (Term 6), it gains lessons rather than losing any.**
+   A setup lesson at the front, and the outline revisited for what else the six slots excluded:
+   strings, files and input, modules and imports. Adding is not re-opening.
+
+Recorded rather than acted on, so the next pass finds it instead of rediscovering it.
