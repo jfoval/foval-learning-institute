@@ -31,12 +31,12 @@ Rewrite these five lines each session. Nothing else goes in this block.
   a course is taken all the way to *written* before the next starts, and what is left behind is a
   pure spending step that needs only budget. Keep writing courses whenever there are tokens;
   render whenever there is money. Never call a course finished while it owes episodes.
-- **Blocked on:** nothing. September's Gemini cap has about $4.40 left of $30, resetting on the 1st.
-- **Next action, content:** `/draft-lesson courses/foundations/reading-well 2`.
-  **Next action, audio (when there is budget):**
-  `node scripts/podcast.mjs render courses/foundations/logic-and-argument/lessons/01-what-an-argument-is.md`
-  then `--go`. Its script is ready. Writing the remaining seven Logic scripts with `/make-podcast`
-  costs nothing at the API and can happen any time.
+- **Blocked on:** nothing. September's Gemini cap is down to about $4.80 of $30 after Logic 1,
+  resetting on the 1st. Two more Logic scripts are ready to render and the headroom covers them.
+- **Next action, content:** scripts, in Core term order, starting with Writing Clearly. They are
+  free at the API and they are what stands between six published courses and *written*.
+  **Next action, audio:** `node scripts/podcast.mjs render courses/foundations/logic-and-argument/lessons/02-*.md`
+  then `--go`.
 
 ## The queue, top to bottom
 
@@ -54,7 +54,8 @@ its first attempt, all eight live in R2. It is the first course finished by the 
 definition.
 
 Render order: **Logic and Argument**, then Writing Clearly, Personal Finance, Algebra Essentials,
-Python Basics, Bible Basics.
+Python Basics, Bible Basics. **Logic 1 is live as of 2026-09-18**, rendered on the settled pipeline,
+billed $0.23, level flat and both hosts present to the last line.
 
 **Scripts are the outstanding writing job, and they are free.** `npm run validate` prints the count
 every run; today it is **46 of 61 lessons with no script**: bible-basics 11, clear-writing 9,
