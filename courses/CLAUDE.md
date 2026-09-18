@@ -47,8 +47,10 @@ knowledge for each stage, including the list of defects this drafter repeats.
    exceptions. School of Christian Studies courses carry `standpoint: christian` and follow
    standards 3.7: taught from within the faith, labelled as such, objections engaged at full
    strength. Neutral schools never assert or mock religious claims either way.
-7. **Run `npm run validate` before committing any lesson change.** Run `npm run build` and commit
-   `site/data/courses.js` when publishing.
+7. **Run `npm run validate` before committing any lesson change**, and check its exit code, not its
+   output. Then run `npm run build` and commit whatever changes under `site/`, in the same commit,
+   whenever the site reads what you touched. Root `CLAUDE.md` rule 4 has the detail: it is not only
+   publishing, because the Path page lists every course whatever its status.
 
 ## Lesson file format
 
