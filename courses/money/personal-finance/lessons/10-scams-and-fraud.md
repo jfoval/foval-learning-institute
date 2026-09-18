@@ -1,6 +1,7 @@
 ---
 title: Defending it
 minutes: 120
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/money/personal-finance/10-scams-and-fraud.mp3
 objectives:
   - Identify the three things nearly every scam has to do, and find them in a message you have actually received
   - Rank common payment methods by how reversible they are, and explain why the method a stranger asks for is the strongest single signal
