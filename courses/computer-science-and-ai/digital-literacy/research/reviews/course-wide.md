@@ -26,6 +26,36 @@ institute and the feedback loop should revisit them on a shorter cycle than the 
 | 1 | UNESCO adds competence area 0 below the European framework's five | 2018 |
 | 1 | NIST's minimum password length changed | 2025 |
 | 3 | Rename and checksum check run on the machine the lesson was written on | 2026 |
+| 7 | Time-to-live counting down 107, 99, 97, 95, 93, 90 and query times of 26 to 32 msec over seven runs | machine the lesson was written on, September 2026 |
+| 7 | Firefox sends its own lookups to a resolver it chose, by default, for users in the United States | February 2020 |
+| 8 | 82% of phishing sites protected by SSL, and 90% of their certificates free and domain-validated | APWG/PhishLabs, 2nd quarter 2021 |
+| 8 | Axur's regional figure of 70% against 82% worldwide | same quarter, 2021 |
+| 8 | 451 participants, 167,128 sessions, private browsing in 4% of them, 41% using it at least once | 2018 |
+| 8 | Five belief pairs from Table 6 (24/26, 27/42, 51/52, 55/50, 66/69), and 39% answering anonymity incorrectly | 2018 |
+| 8 | 5% and 12% expecting private browsing to stop malware and hacking | 2018 |
+| 8 | 51 VPNs screened, 16 evaluated, 12 of 16 inaccurate or overly broad, 8 audited, 6 reproducible, 4 internal, one shipping PPTP | December 2021 |
+| 8 | Mullvad, IVPN, Mozilla VPN and TunnelBear described their limits accurately | December 2021 |
+| 9 | 9 of 33 respondents held the buggy-software model of viruses | published 2010, interviews 2007 and 2008 |
+| 9 | 231 experts and 294 non-experts, three practices each, no overlap | 2015 |
+| 10 | 15-character minimum for single-factor, 8 within multi-factor, 64 permitted, no composition rules, no periodic rotation, blocklist with reason given | NIST SP 800-63B-4, final August 2025 |
+| 10 | Section renumbered from 5.1.1.2 to 3.1.1.2 and the length floor raised | revision 4, 2025 |
+| 10 | Out-of-band over the public telephone network designated restricted | NIST §3.1.3.3, 2025 |
+| 10 | 982 SIM-swap complaints and about $26.0m reported US losses, against 1,611 and over $68m | 2024, against 2021 |
+| 10 | About 70% workforce multi-factor adoption; phishing-resistant use 14.0%, up from 8.6% | Okta, January 2025 |
+| 11 | Eight months, ten campaigns, 19,500+ employees, no significant training effect, 2 points from embedded, over 56% clicking, median about 10%, lures 1 to 2% against upwards of 30%, half of sessions under 10 seconds, under 24% completing, 19% relative among completers | 2025 |
+| 12 | Dropbox version history: 30 days on Basic, Plus and Family; 180 on Professional, Essentials, Business and Standard; 365 on Business Plus, Advanced and Enterprise | Dropbox's own page, read 18 September 2026 |
+| 13 | 153 participants surveyed on Google's My Activity; only 25% would change a setting; exposure made people less concerned | 2021 |
+
+**Why this table matters more for this course than for any other.** `research/SOURCES.md` records
+that numbers in this subject go stale faster than anywhere else in the institute: NIST's minimum
+length changed in 2025, antivirus lab scores change quarterly, APWG counts change quarterly, Okta's
+are annual, and a provider's retention window can change without an announcement. **The rows most
+likely to be wrong first are lesson 10's Okta figures, lesson 12's Dropbox windows and lesson 8's
+Consumer Reports counts**, in that order. Lesson 12's exercise already sends the reader to their own
+provider's page rather than relying on the figure, which is the right pattern and worth copying.
+
+**Lesson 13's row is listed in advance**, because the Stage 1 pass that produced it is done while the
+lesson itself is blocked on a data export only John can run.
 
 ## Standing decisions about how this course is reviewed
 
