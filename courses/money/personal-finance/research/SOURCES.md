@@ -182,6 +182,82 @@ Everything below was verified live on 2026-09-06.*
 - **Should the ACA subsidy cliff exist?** Live political argument in 2026. The course takes no
   position. What the lesson owes the reader is the mechanism and the date.
 
+### Documents found 2026-09-18, closing lesson 6's uncited claims
+
+*Lesson 6 made five claims that no entry above carried. Each was chased to a document that was
+actually read; what follows is where each lives, so nobody has to find it twice.*
+
+- **Who takes the standard deduction: use IRS SOI Table 1.2, not a secondary summary.**
+  irs.gov/statistics/soi-tax-stats-individual-statistical-tables-by-size-of-adjusted-gross-income,
+  files `<yy>in12ms.xls`, one per tax year back to 1996. The columns are "Total itemized deductions
+  / number of returns" and "Standard deduction / number of returns" against "All returns". Read off
+  the "All returns, total" row: **tax year 2023 (the most recent published), 143,309,624 of
+  160,602,107 returns, 89.2%, with 9.4% itemising; tax year 2017, 104,013,115 of 152,903,231,
+  68.0%, with 30.6% itemising. Tax year 2022 is 88.5%.** Note the disagreement with the "about 91%
+  in tax year 2022" recorded higher up this file from the Tax Policy Center: TPC models tax units
+  and SOI counts filed returns, and the lesson now cites SOI because it is primary and because the
+  figures can be recomputed from the file. **Do not state the share as a present fact without the
+  tax year**, which is the defect this closed.
+- **Which refundable credit is largest: IRS SOI Table 3.3**, same page, files `<yy>in33ar.xls`.
+  Tax year 2023: earned income credit **$66.3bn on 24.4m returns** ($55.9bn of it the refundable
+  portion); refundable/additional child tax credit **$34.5bn on 17.6m returns** ($32.1bn
+  refundable); non-refundable child and other dependent credit a further $84.4bn on 38.9m returns.
+  So the EITC really is the largest refundable credit, but **the Child Tax Credit is larger in
+  total and only partly refundable** (up to $1,700 per child for 2025, per the IRS child tax credit
+  page against a $2,200 credit), and a sentence calling the EITC "the largest credit" without that
+  qualifier is wrong. Amounts in those files are thousands of dollars.
+- **CBO on the employer half of payroll tax.** The statement lives in the appendix of the
+  household-income series, not in the effective-marginal-rate paper cited as [5]:
+  *The Distribution of Household Income in 2021* (cbo.gov/publication/60706, September 2024),
+  Appendix A, "Incidence of Federal Taxes": "CBO also allocates the employer's share of payroll
+  taxes to employees because employers appear to pass on their share of payroll taxes to employees
+  by paying lower wages than they otherwise would. The incidence of those taxes could differ from
+  CBO's allocation, though." The footnote there points to Dorian Carloni, *Revisiting the Extent to
+  Which Payroll Taxes Are Passed Through to Employees*, Working Paper 2021-06
+  (cbo.gov/publication/57089), which says "Empirical evidence on the incidence of payroll tax
+  changes in the United States is limited" and estimates **58% short-run pass-through** to
+  employees for a broad rate rise (23% for the Medicare surtax, 62% for OASDI).
+  **"Along with most economists" is not supportable from these documents** and was cut: CBO's own
+  sources call the evidence limited. Attribute the allocation to CBO and say it is a working
+  assumption. The newer *Distribution of Household Income, 2022* (publication 61911/62300, January
+  2026) does not reproduce the incidence appendix in its web text, so cite the 2021 report.
+- **Long-term capital gains and qualified dividends.** IRS **Topic 409** carries the 0/15/20
+  schedule and the holding period ("more than one year"), and the bracket thresholds for the
+  current year, but **says nothing about dividends**. For those use **Publication 550**, chapter 1:
+  "Qualified dividends are the ordinary dividends that are subject to the same 0%, 15%, or 20%
+  maximum tax rate that applies to net capital gain." Topic 404 only says they "qualify to be taxed
+  at lower capital gain rates" without naming them, so it is the weaker citation.
+- **State income tax range.** Tax Foundation, "State Individual Income Tax Rates and Brackets,
+  2026" (17 February 2026): "Forty-two states levy individual income taxes. Forty-one tax wage and
+  salary income. Washington taxes capital gains income only... **Eight states**, including New
+  Hampshire, which repealed its interest and dividends tax as of 2025, levy no individual income
+  tax at all." Top marginal rates "span from 2.5 percent in Arizona and North Dakota to **13.3
+  percent in California**", with a 1.1% California payroll tax on wages taking the all-in top rate
+  to 14.4%. New Hampshire is inside the eight; Washington is not, because of its capital gains tax.
+  The no-tax eight are Alaska, Florida, Nevada, New Hampshire, South Dakota, Tennessee, Texas,
+  Wyoming.
+- **The Additional Medicare Tax threshold is not indexed.** The IRS pages give the $200,000 and
+  $250,000 thresholds and the 2013 start date but never say whether they move. The statute does:
+  **26 U.S.C. §3101(b)(2)** fixes the dollar amounts in the text and attaches no cost-of-living
+  adjustment, unlike the Social Security wage base. This is the cleanest citation for "has not
+  moved since 2013", and it is worth pairing with the SSA cap beside it, which does move.
+- **The ARPA enhancement and the 2026 cliff.** The KFF piece that actually carries the mechanism is
+  **"What we know so far about 2026 ACA marketplace enrollment, premiums, and deductibles"**
+  (McGough, Ortaliza, Lo and Cox, 19 May 2026), not the October 2025 "steep subsidy cliff" quick
+  insight already cited as [7], which carries the premium estimates instead. It states the American
+  Rescue Plan origin in 2021, the Inflation Reduction Act extension "through 2025", expiry "at the
+  end of 2025", the 8.5%-of-income cap on a benchmark silver plan above 400% FPL, and that
+  eligibility "ends" above that line. Both are needed; they support different sentences.
+- **ASPE poverty guidelines move every January and the page only shows the current year.** The
+  **2026 guideline for a household of one in the 48 contiguous states is $15,960** (Federal
+  Register, 15 January 2026), so 400% is $63,840 and that governs the **2027** coverage year. The
+  2025 figure of $15,650, which governs 2026 coverage, is now only on the prior-guidelines page
+  (aspe.hhs.gov/topics/poverty-economic-mobility/poverty-guidelines/prior-hhs-poverty-guidelines-federal-register-references).
+  Any paragraph built on this needs a date on its face, or it goes wrong each January.
+- **Fetching notes.** cbo.gov and taxpolicycenter.org both refuse plain HTTP fetches (bot walls);
+  they read fine in a browser. irs.gov serves both its pages and the SOI spreadsheets to a plain
+  fetch, so the SOI tables are the cheapest primary numbers in this whole subject.
+
 ### For "Go deeper" rather than for claims
 
 - **Kapoor, Dlabay & Hughes, part 1**, is the field's own treatment of taxes in a personal finance

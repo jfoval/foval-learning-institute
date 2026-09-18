@@ -12,6 +12,10 @@ checked: >-
   rather than personalised advice both survive, and the script never tells a listener what to do
   about their own taxes. The one nit, that "nought percent" reads oddly over US federal brackets,
   is fixed. The course teaches from no declared standpoint.
+  On 2026-09-19 the lesson's state income tax range was sourced for the first time and turned out
+  to be understated: not "over ten percent at the top in others" but a top marginal rate of 13.3%
+  in California, and not "a handful" of states with none but exactly eight. This turn now matches.
+  Nothing else in the episode repeats a claim that pass changed.
 about: >-
   About six minutes. Haley opens, because the engine gives the first turn to the second voice.
   Hosts are John (S1, the Charon voice) and Haley (S2, the Aoede voice). Sixth episode for
@@ -39,7 +43,7 @@ S1: It is not how to file, and it isn't how to pay less. It's how it works, so y
 
 S2: Before we go on, what's the scope?
 
-S1: United States federal income tax, with the numbers for tax year twenty twenty five, from the IRS. If you're somewhere else the specific rates won't transfer, but the structure almost certainly will, because nearly every income tax in the world is built from slices in the same way. It also ignores state income tax, which runs from nothing at all in a handful of states to over ten percent at the top in others.
+S1: United States federal income tax, with the numbers for tax year twenty twenty five, from the IRS. If you're somewhere else the specific rates won't transfer, but the structure almost certainly will, because nearly every income tax in the world is built from slices in the same way. It also ignores state income tax, which runs from nothing at all in eight states to a top rate of thirteen point three percent in California.
 
 S2: And the standing note.
 
