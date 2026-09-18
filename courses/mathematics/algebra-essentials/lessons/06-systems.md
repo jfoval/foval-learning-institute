@@ -1,6 +1,7 @@
 ---
 title: Two unknowns at once
 minutes: 70
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/mathematics/algebra-essentials/06-systems.mp3
 objectives:
   - Solve a pair of linear equations by substitution and by elimination, and check the answer in both
   - Say what the solution of a pair means on a graph, and what parallel or identical lines look like in the algebra
