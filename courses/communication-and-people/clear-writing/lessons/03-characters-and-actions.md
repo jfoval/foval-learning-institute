@@ -1,6 +1,7 @@
 ---
 title: Characters and actions
 minutes: 75
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/communication-and-people/clear-writing/03-characters-and-actions.mp3
 objectives:
   - Name the real character and the real action in a sentence, before rewriting anything
   - Rewrite a sentence so the character is its subject and the action is its verb
