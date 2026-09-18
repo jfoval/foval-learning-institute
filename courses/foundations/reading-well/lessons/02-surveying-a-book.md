@@ -1,6 +1,7 @@
 ---
 title: Surveying a book before you read it
 minutes: 90
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/foundations/reading-well/02-surveying-a-book.mp3
 objectives:
   - Apply Adler's six-step systematic skimming to a real book inside an hour
   - State, after surveying and before reading, what a book argues and how it is built
