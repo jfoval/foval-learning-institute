@@ -89,18 +89,21 @@ const TARGETS = {
   feedback: { page: `#/course/${HTLA}/lesson/03-retrieval-practice`, sel: ".feedback-ask", widths: "both" },
   review: { page: "#/review", sel: ".review-card", widths: "both", pad: 2, seed: true },
   standpoint: { page: "#/path", sel: standpointBox, widths: "both", desktopWidth: 900 },
-  chart: { page: `#/course/${BIBLE}/lesson/02-one-story`, sel: p => svgBox(p, 0), widths: "both", draft: true },
+  chart: { page: `#/course/${BIBLE}/lesson/02-one-story`, sel: p => svgBox(p, 0), widths: "both" },
 
   "tile-quiz": { page: `#/course/${HTLA}/lesson/01-learning-is-not-performance`, sel: ".q", nth: 1, widths: "phone",
     anchor: "options", before: answerTheQuiz },
-  "tile-map": { page: `#/course/${BIBLE}/lesson/02-one-story`, sel: p => svgBox(p, 1), widths: "phone", draft: true },
+  "tile-map": { page: `#/course/${BIBLE}/lesson/02-one-story`, sel: p => svgBox(p, 1), widths: "phone" },
   "tile-exercise": { page: `#/course/${HTLA}/lesson/01-learning-is-not-performance`, sel: ".exercise", widths: "phone" },
   "tile-recall": { page: `#/course/${HTLA}/lesson/02-how-memory-works`, sel: ".recall", widths: "phone", before: fillRecall },
   "tile-code": { page: "#/course/python-basics/lesson/04-loops", sel: ".lesson-content pre", nth: 1, widths: "phone" },
   "tile-transcript": { page: "#/my-learning", sel: "#main .eyebrow", widths: "phone", seed: true },
   "tile-video": { page: `#/course/${BIBLE}/lesson/01-finding-your-way-around`, sel: ".video-fig", widths: "phone",
-    draft: true, needsYouTube: true, before: loadVideo },
-  "tile-podcast": { page: `#/course/${BIBLE}/lesson/02-one-story`, sel: ".podcast", widths: "phone", draft: true },
+    needsYouTube: true, before: loadVideo },
+  // Was Bible Basics lesson 2, which lost its audio in the 2026-09-18 catalogue reset, so the
+  // player never rendered and this timed out. How to Learn Anything is the only course with
+  // episodes, and it is the one to photograph until others catch up.
+  "tile-podcast": { page: `#/course/${HTLA}/lesson/01-learning-is-not-performance`, sel: ".podcast", widths: "phone" },
 };
 
 /* ---------- a plausible learner, so the Review page and the transcript have something on them ---------- */
@@ -190,9 +193,15 @@ try {
 
 if (!fs.existsSync(SITE)) { console.error("No dist/ to photograph. Run `npm run build` first."); process.exit(1); }
 const courses = fs.readFileSync(path.join(SITE, "data", "courses.js"), "utf8");
-if (wanted.some(n => TARGETS[n].draft) && !courses.includes(`"id": "${BIBLE}"`)) {
-  console.error(`${wanted.filter(n => TARGETS[n].draft).join(", ")} photograph a drafting course that is not in site/data/courses.js.`);
-  console.error("Run `npm run build:drafts` first, then `npm run build` afterwards to put it back.");
+// Match the id without assuming how the JSON is spaced. This looked for `"id": "bible-basics"`
+// with a space while build.mjs emits it minified, so the guard fired every time and `npm run
+// shots` could not be run at all. It went unnoticed because nothing else calls this script and
+// the failure looked like a real instruction. A check nobody can satisfy is worse than no check.
+const inBuild = id => new RegExp(`"id"\\s*:\\s*"${id}"`).test(courses);
+const missing = wanted.filter(n => TARGETS[n].draft && !inBuild(TARGETS[n].course || BIBLE));
+if (missing.length) {
+  console.error(`${missing.join(", ")} photograph a course that is not in this build of dist/data/courses.js.`);
+  console.error("Run `npm run build:drafts` first if the course is still drafting, then `npm run build` when you are done.");
   process.exit(1);
 }
 

@@ -97,7 +97,13 @@ repo as Markdown; a build script compiles it into a static site. Read this file,
    and say what you decided and why. Bring John a decision only when it changes what the institute
    claims or teaches, when it would spend money or create an account, or when two readings of a
    request would produce genuinely different work.
-9. **If a rule needs shouting, write a check instead.** Two rules here were paragraphs in capitals
+9. **A review session reports and records. It does not rebuild.** On 2026-09-18 a request to
+   review the project produced ten commits of tooling and consumed a session that could have
+   drafted two lessons. Some of it was worth having; the pattern is not. When a review finds
+   something: fix it inline only if the fix is one edit and obviously right, and otherwise **write
+   it into `docs/QUEUE.md` and move on**. Bring John the list, not the repairs. A found defect that
+   is written down is not lost, and he decides what is worth a session.
+10. **If a rule needs shouting, write a check instead.** Two rules here were paragraphs in capitals
    because each had been broken once, and capitals do not prevent a repeat. Both are now in
    `npm run validate` and one line of prose. Do the same with the next one.
 

@@ -47,7 +47,7 @@ Network, slow, or heuristic. A gate would get them weakened or routed around.
 | Quizzes winnable by shape alone; explanations contradicting their own key | `npm run quiz` | 2026-09-18: 18 flagged, undecided |
 | Measured reading time vs the `minutes:` field | `npm run minutes` | 2026-09-18: 62 lessons, 0 materially out |
 | What a learner already knows at a given point on the Core, and which earlier courses are unwritten | `npm run taught <course>` | Run at Stage 2 and Stage 3 |
-| The site in both themes at both widths | `npm run shots` | **Never run in a review. See below.** |
+| The site in both themes at both widths | `npm run shots` | 2026-09-18: ran, 14 of 15 targets; `chart` finds nothing and is a selector fault, not a site one |
 
 ## Checked once, by hand, and recorded
 
@@ -93,7 +93,9 @@ Honest list, so the next person does not have to rediscover them.
   it needs fixture audio. It has caught real defects in use, and it was wrong once in a way John's
   ear caught and the code did not (an octave error letting a one-voice episode pass a two-voice
   check). Worth fixture audio if it ever fails silently again.
-- **`npm run shots` has never been run as part of a review.** The site is checked by building it,
-  not by looking at it.
+- **The `chart` screenshot target finds nothing.** `npm run shots` produces 14 of its 15 targets;
+  `svgBox(p, 0)` on Bible Basics lesson 2 matches no element while `svgBox(p, 1)` on the same page
+  works. It is a marketing screenshot for the homepage, not learner-facing content, and the lesson
+  itself renders both charts correctly in a browser. Worth ten minutes when somebody is in there.
 - **No check reads a quiz answer for correctness**, only its shape. `check-quiz-letters.cjs`
   catches an explanation that contradicts its own key, which is not the same thing.
