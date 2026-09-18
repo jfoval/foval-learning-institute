@@ -51,6 +51,6 @@ reset:
 owed:
   # course id (the folder name)   : episodes still to render
   bible-basics: 12
-  algebra-essentials: 5
+  algebra-essentials: 3
   python-basics: 6
   reading-well: 10

@@ -1,6 +1,7 @@
 ---
 title: Equals means the same size
 minutes: 35
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/mathematics/algebra-essentials/02-equals.mp3
 objectives:
   - Say what the equals sign claims, and test whether an equation is true for a given number
   - Keep an equation true by doing the same thing to both sides

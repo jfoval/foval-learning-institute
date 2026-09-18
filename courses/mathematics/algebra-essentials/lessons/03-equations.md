@@ -1,6 +1,7 @@
 ---
 title: Solving, and why the moves are legal
 minutes: 45
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/mathematics/algebra-essentials/03-equations.mp3
 objectives:
   - Solve a linear equation in one unknown, and justify each step by what it does to both sides
   - Handle brackets, an unknown on both sides, and a negative term without losing the sign
