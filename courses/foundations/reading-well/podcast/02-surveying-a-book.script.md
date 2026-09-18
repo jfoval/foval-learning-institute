@@ -108,6 +108,6 @@ S2: An apparatus that carries no information is information.
 
 S1: About the book. And the survey still ends in a verdict, and still costs twenty minutes rather than a week.
 
-S2: We've left out the four questions a survey can and can't answer, the executive summary at work, and Adler's rule about a first pass through a hard book, which is the one readers find hardest to accept. The full lesson has all of it, with the exercise that asks you to survey a book off your own shelf in an hour. It's free at Foval Learning Institute dot org.
+S2: We've left out the four questions a survey can and can't answer, the executive summary at work, and Adler's rule about a first pass through a hard book, which is the one most readers find counterintuitive. The full lesson has all of it, with the exercise that asks you to survey a book off your own shelf in an hour. It's free at Foval Learning Institute dot org.
 
 S1: Thanks for listening. Survey first, and write the verdict down.

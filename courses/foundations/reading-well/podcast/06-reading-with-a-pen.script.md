@@ -68,7 +68,7 @@ S1: A cross beside the bracket, I know I am right in this. He's offering his own
 
 S2: Third.
 
-S1: A question mark beside the clause about letters and sounds, which I've read four times and cannot restate. That's lesson three's signature for syntax, so I did lesson three's fix for syntax, and the structure came apart at once and I was still holding nothing. What I'm missing is a fact the sentence assumes and never supplies, and the fix isn't on this page.
+S1: A question mark beside the clause about letters and sounds. I've read it four times, and I can restate the paragraph around it and not that clause. That's lesson three's signature for syntax, so I did lesson three's fix for syntax, and the structure came apart at once and I was still holding nothing. What I'm missing is a fact the sentence assumes and never supplies, and the fix isn't on this page.
 
 S2: Fourth.
 
@@ -80,7 +80,7 @@ S1: A cross beside, you are for evermore in some measure an educated person. Ten
 
 S2: And sixth.
 
-S1: An arrow beside the last sentence, pointing at my note on lesson five. Ruskin's route to a word is its history. Lesson five's fifth rule takes the other route, into the sense this author pinned down. That's a difference of method rather than of destination, and it's the mark I would certainly have lost.
+S1: An arrow beside the last sentence, pointing at my note on lesson five. Ruskin's route to a word is its history. Lesson five's fifth rule takes the other route, into the sense this author pinned down. That's a difference of method rather than of destination, and it's the mark I would have lost.
 
 S2: Now suppose I'd highlighted that paragraph instead.
 
@@ -88,8 +88,8 @@ S1: My guess is three phrases. Looking intensely at words. Letter by letter. An 
 
 S2: And in a month?
 
-S1: You'd know Ruskin said something about reading words carefully. You wouldn't know that his support was an assertion of his own confidence, that one clause defeated you, that two of his words aren't in their ordinary senses, or what it connected to. Five of those six marks were the useful ones, and not one of them is a phrase.
+S1: You'd know Ruskin said something about reading words carefully. You wouldn't know that his support was an assertion of his own confidence, that one clause defeated you, that two of his words aren't in their ordinary senses, that you disagreed with his conclusion, or what it connected to. Five of those six marks were the useful ones, and not one of them is a phrase.
 
-S2: We've left out the one-page reading record and its seven lines, what to do with a library book you can't write in, and the four things people get wrong about marking. The full lesson has all of it, with the whole Ruskin passage. It's free at Foval Learning Institute dot org.
+S2: We've left out the one-page reading record and its seven lines, what to do with a library book you can't write in, and the five things people get wrong about marking. The full lesson has all of it, with the extract unabridged, including the clause we skipped past. It's free at Foval Learning Institute dot org.
 
 S1: Thanks for listening. A mark that doesn't say what kind of thought it was is a highlight with extra steps.

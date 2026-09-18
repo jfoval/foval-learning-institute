@@ -219,7 +219,7 @@ the debt is.
     Taken by order of the Massachusetts Provincial Congress, whose covering address "To the
     Inhabitants of Great Britain" states the purpose in its own words: "it being of the greatest
     importance that an early, true, and authentick account of this inhuman proceeding should be known
-    to you". Printed at Worcester and sent to England ahead of Gage's own account. **Note that
+    to you". Printed at Worcester and carried to England on a fast ship that arrived ahead of Gage's own dispatches, which had left Boston first. **Note that
     transcriptions differ**: Peter Force's 1839 printing modernises spelling and capitals, prints the
     jurat and the notarial certificate that the Archives transcript omits, and drops the word
     "molest".
@@ -230,10 +230,16 @@ the debt is.
     printed by Allen French in 1932; **neither was reachable**, the Clements and HathiTrust both
     refusing access, and the archival citation comes from a footnote in a web magazine. Two other
     online transcriptions disagree with it on spacing and headings and one states that it has been
-    edited for readability. **What could be established is that the text is not invented**: Gage's own
-    published account, in Force's *American Archives*, tracks the report clause by clause, which shows
-    the letter is real and **corroborates nothing about the events**, because it is derived from the
-    report rather than independent of it. Lesson 9 says all of this in its body, and no lesson may let
+    edited for readability. **What could be established is only that a document of this
+    wording was moving out of that headquarters within days of the morning**: Gage's printed
+    *Circumstantial Account* tracks the report clause by clause. **Read the dates before taking that
+    for reassurance.** The Clements Library, which holds Gage's papers, dates that broadside to 21
+    April 1775, five days before Pitcairn wrote, so it is neither a second witness nor derived from
+    this letter, and the match is weaker evidence than it looks, because a transcription made from
+    the printed account would match it too. Either both descend from Colonel Smith's report, which
+    Pitcairn's own closing line points at, or Pitcairn wrote with the printed account at his elbow.
+    **An earlier version of this entry asserted the derivation in the opposite direction**, and a
+    draft of lesson 9 followed it. Lesson 9 now says all of this in its body, and no lesson may let
     this passage carry more than that.
   - **Affidavit of Sylvanus Wood, 17 June 1826**, printed in Ezra Ripley, *A History of the Fight at
     Concord* (Concord, 1827), 53 to 54, [Internet Archive](https://archive.org/details/historyoffightat00ripl),
@@ -255,8 +261,7 @@ the debt is.
 
   **What is uncontested about that morning**, for any lesson using this material: a British
   detachment marched from Boston overnight to destroy colonial stores at Concord; it reached
-  Lexington around sunrise; militia were drawn up on the Common; firing occurred; eight Lexington men
-  were killed; a soldier of the 10th Regiment was wounded and Pitcairn's horse hit in two places; the
+  Lexington around sunrise; militia were drawn up on the Common; firing occurred; eight Americans were killed, seven of them Lexington men; a soldier of the 10th Regiment was wounded and Pitcairn's horse hit in two places; the
   column went on to Concord; and both commanders stated in writing within a week that they had
   ordered their own men not to fire first. **What is not settled**: who fired first and from where,
   whether any officer's shout included the word "fire" as an order, whether Lexington men returned
@@ -377,8 +382,9 @@ the debt is.
   historians ranked the textbook dead last for trustworthiness, below the novel.** Three of the
   eight students put it at or near the top, one calling it "the facts", another "straight
   information", an "objective" account, though it contradicted primary accounts from both sides.
-  The behavioural finding is the sentence to build a lesson around: "historians, when first given a
-  document, looked immediately to its attribution, whereas students usually began with the first
+  The behavioural finding is the sentence to build a lesson around, and it opens with a frequency
+  qualifier that a draft of lesson 9 elided: "In almost every opportunity to do so, historians, when
+  first given a document, looked immediately to its attribution, whereas students usually began with the first
   word in the upper left and never stopped until they reached the last word on the bottom right."
   This study is the origin of the three heuristics now taught everywhere as **sourcing,
   contextualization and corroboration**, to which the Stanford curriculum adds **close reading**.

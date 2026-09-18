@@ -103,6 +103,6 @@ S2: Anything that does raise my rate?
 
 S1: One thing nobody can sell you in a weekend. Vocabulary and practice. A word you know well is processed faster than a word you half know.
 
-S2: We've left out the five reading gears and why this course won't hand them to you, the finding about screens against paper and the three conditions it comes with, and the list of what people get wrong, including the inner voice and the reader who says six hundred words a minute. The full lesson has all of it, with the rates drawn to one scale against the marketed claim. It's free at Foval Learning Institute dot org.
+S2: We've left out the five reading gears and why this course won't hand them to you, the finding about screens against paper and the three conditions it comes with, and two of the things people get wrong, the inner voice and the reader who says six hundred words a minute. The full lesson has all of it, with the rates drawn to one scale against the marketed claim. It's free at Foval Learning Institute dot org.
 
 S1: Thanks for listening. Measure yourself once, before you take anyone's word for a reading speed.

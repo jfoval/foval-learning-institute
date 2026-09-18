@@ -138,3 +138,73 @@ and an active anti-presentist move about the town rivalry; "What people get wron
 **Status after review:** the auditor's own instruction is that a third pass should look only at the
 agreed list and the checkpoint, and that if it returns nothing but wording preferences, course-wide
 finding 14 applies and the lesson ships.
+
+## 2026-09-18 — Lesson 09 — second pass on facts and sourcing
+**Reviewer:** fresh-context subagent, run alongside the second neutrality audit and told not to
+duplicate it. It fetched all four sources directly, plus Gage's printed *Circumstantial Account* and
+the Clements catalogue record for it. **Three criticals, and each changes what the lesson teaches.**
+
+**Findings:**
+
+1. [critical] **The corroboration list credited both documents with four things only one of them
+   says.** Two of six items are attested by both. Only Parker reports the march on the stores and the
+   eight dead; only Pitcairn reports the wounded man of the Tenth, the horse, and the bridges at
+   Concord; and "a British officer ordered his men not to fire" is Pitcairn's alone, since Parker's
+   one "not to fire" is his own order to his own militia. **The lesson handed the central
+   self-exculpation of a report by the officer under scrutiny to the reader as corroborated by the
+   man he was firing at.** The neutrality auditor found the same thing independently and in the same
+   hour, which is worth noting: two reviewers with different briefs converged on one passage.
+2. [critical] **The Wineburg quotation was truncated at the front and the note about it was not
+   honest.** The article's sentence opens "In almost every opportunity to do so," and the ellipsis
+   removed it, turning a qualified tendency into a flat behavioural law in the sentence of which the
+   lesson then says "That sentence is the lesson". The note said `SOURCES.md` records why; it
+   recorded nothing, and carried the same truncation unmarked. **Course-wide finding 12 repeating
+   inside the lesson that produced finding 12.**
+3. [critical] **The Gage chronology was backwards.** The Clements Library dates the broadside to 21
+   April 1775, five days before Pitcairn wrote, so Gage's account cannot repeat Pitcairn's phrasing
+   and "which of them fed which we have not established" was a fudge over a date the first review had
+   already supplied. Worse for the argument: if the only attestation is a match with a document
+   printed five days earlier, the match is *weaker* evidence that the manuscript is real, because a
+   transcription worked up from the printed account would match it too.
+4. [high] Parker's against-interest credit was built on the most self-serving sentence in his
+   deposition. "Ordered our Militia to disperse and not to fire" is the exculpation the deposition
+   exists to deliver, and "drawn up in the path of the King's troops" is contradicted by the same
+   sentence, which says they met "to consult what to do, and concluded not to be discovered, nor
+   meddle or make with said Regular Troops". The real against-interest fact is the first clause: he
+   called out an armed company.
+5. [high] **Ripley was credited for candour while the fact that most damages his provenance was left
+   out.** Three of his four affidavits were sworn before Nathan Brooks, justice of the peace, of
+   Concord, and three pages earlier Ripley prints Brooks as a witness on his own side. The officer
+   who took three of the four oaths was a party to the argument they were collected to settle.
+6. [high] The second-hand debit was carried across onto a first-hand claim. The flash in the pan
+   happened out on the road, before Pitcairn reached the village, and is a different incident from
+   the Common. His claim about the Common is his own, mounted, at about a hundred yards.
+7. [high] "sent to England ahead of General Gage's own account" is wrong on "sent": Gage's dispatches
+   left Boston first and the colonial packet arrived first. And `SOURCES.md` did not carry what the
+   lesson claimed from it, in five separate places, all in the direction of the lesson claiming more.
+8. [medium] The Wood quotation started one sentence late, and the dropped sentence has Parker's men
+   "dispersing and leaping over the wall", which is the wall Pitcairn says the shots came from. What
+   follows the quotation matters too: Wood claims to have taken the first British prisoner and Ripley
+   argues him down on the facing page, which is a second and sharper instance of the candour the
+   lesson credits him with. Plus "six rules later" for eight, an equation of sourcing with rule 1 that
+   two of this course's lessons then read differently, the *insult* gloss still tilting, and three of
+   five quiz items being the lesson's own worked cases with two of them sharing a stimulus.
+
+**Resolutions:** all applied, with the five `SOURCES.md` corrections in the same commit per
+course-wide finding 13. The corroboration list now says what each document alone supplies. The
+Wineburg sentence is quoted whole with its qualifier, in the lesson and in `SOURCES.md`. The Gage
+paragraph gives the date, says the broadside came first, and says plainly that the match is weaker
+evidence than it looks. Parker's credit moves to the assembly clause with an explicit warning that
+reading the disperse order as an admission is the mistake this lesson exists to prevent. Brooks is
+named. The two Pitcairn claims are kept apart. And the quiz's fifth item moves to a company's
+incident report against a regulator's letter.
+
+**Status after review:** the reviewer's own scope for a third pass is three passages only, read in a
+fresh context with both blockquotes and the Clements record in front of it: the corroboration
+section, the Wineburg paragraph and the Gage paragraph.
+
+**One observation for `course-wide.md`**, in the reviewer's words: finding 12 says to check where each
+quotation stops, and the complement this pass suggests is that **this drafter's next move after a
+truncation is caught is to quote correctly and then describe the quotation wrongly in the surrounding
+prose.** Every quotation here but one was verbatim, and all three criticals were in unquoted sentences
+within two paragraphs of a blockquote.

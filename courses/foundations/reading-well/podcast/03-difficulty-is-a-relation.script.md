@@ -37,7 +37,7 @@ S1: You've heard routine housekeeping. A man started speaking, there weren't man
 
 S2: Which word tripped me up?
 
-S1: None of them, and that's the point. Present, counted, adjourned, members, House. Two items need a gloss and neither is hard. Honourable, and Baronet, which is a title.
+S1: None of them, and that's the point. Present, counted, adjourned, members, House. On the page two things need a gloss and neither is hard. Honourable is written short, as hon., and a Baronet is a title.
 
 S2: So it's not vocabulary.
 
@@ -107,6 +107,6 @@ S2: And third.
 
 S1: Syntax. One particular sentence won't resolve, and you can feel yourself rereading it and losing your place. The signature is that you can restate the paragraph around it but not that sentence, and the fix is structural. Find the main verb, find its subject, and put the qualifications to one side.
 
-S2: We've left out the famous study behind all this and the twenty twenty five review that complicates it, which the lesson treats at length and with its own admission that we read it at second hand, plus the nested legal sentence taken apart clause by clause, and what to do when the diagnosis is missing background. The full lesson has all of it. It's free at Foval Learning Institute dot org.
+S2: We've left out the famous study behind all this, which the lesson treats at length and with its own admission that we read it at second hand, and the twenty twenty five review that complicates it, plus the nested legal sentence taken apart clause by clause, and the sentence about bond yields that looks like a vocabulary problem and isn't. The full lesson has all of it. It's free at Foval Learning Institute dot org.
 
 S1: Thanks for listening. Ask whether a definition would fix it, and you've made the diagnosis.

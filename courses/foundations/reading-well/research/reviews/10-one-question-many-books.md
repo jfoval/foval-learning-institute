@@ -17,8 +17,9 @@ against `SOURCES.md`**, and then one non-Adler quotation that is verbatim from n
    quotation marks and is right to.
 2. [critical] **The worked example's central move was false about Ruskin, and the lecture refutes it
    twice.** The lesson said Ruskin "has no concept of a pass at all" and "never addresses the case of
-   a difficulty met in the middle of a first reading". Four hundred words before the sentence the
-   lesson quotes, Ruskin writes "whenever you are in doubt about a word, hunt it down patiently" and
+   a difficulty met in the middle of a first reading". Later in the same lecture, about fourteen hundred words after the
+   sentence the lesson quotes, Ruskin writes "whenever you are in doubt about a word, hunt it down
+   patiently" and
    "never let a word escape you that looks suspicious"; elsewhere he says a book is not serviceable
    "until it has been read, and re-read". He has a pass and he answers the question, the opposite way.
    **The lesson made its own payoff come out tidily by asserting a silence the author does not have**,

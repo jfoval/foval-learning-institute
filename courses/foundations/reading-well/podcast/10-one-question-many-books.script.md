@@ -63,7 +63,7 @@ S1: Adler. On a first pass through a hard book, do not resolve. Keshav. Don't ev
 
 S2: Three of them say keep going and one says stop. That looks like a three to one vote.
 
-S1: And that's what step two is for, because it isn't. Ruskin answers this question, and he answers it the opposite way. Four hundred words before the sentence I quoted he tells you to get good dictionaries and then, whenever you are in doubt about a word, hunt it down patiently, and after that, never let a word escape you that looks suspicious. He adds, honestly, it is severe work.
+S1: And that's what step two is for, because it isn't one. Ruskin looks like the odd one out who wandered in on a different subject. He isn't. He's answering exactly this question, and answering it the opposite way. Later in the same lecture he tells you to get good dictionaries and then, whenever you are in doubt about a word, hunt it down patiently, and, separately, never let a word escape you that looks suspicious. He adds, honestly, it is severe work.
 
 S2: So he does stop.
 

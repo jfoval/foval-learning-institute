@@ -20,7 +20,7 @@ S1: Lesson two decided whether to read the book. Lesson three explained why it w
 
 S2: And there's a procedure.
 
-S1: Adler's. Fifteen numbered rules in three stages, and this lesson is the first two stages, rules one to eight. The order isn't decoration, and this is the reason. Each stage produces the material the next one needs. You can't say whether an argument holds until you have the argument, and you can't have the argument until you know what the words in it mean in this author's hands.
+S1: Adler's. Fifteen numbered rules in three stages, and this lesson is the first two stages, rules one to eight. The order isn't decoration, and this is the reason. Each stage produces the material the next one needs. You can't say whether an argument holds until you have the argument, and you can't have the argument until you know what the words in it mean in this author's hands. None of it is measured, by the way. Adler is a philosopher writing about a craft rather than a researcher reporting a result. And the lesson says there's a real objection to this ordering, which lesson nine takes up, so hold that question rather than settling it here.
 
 S2: Which chapter are we in?
 
@@ -68,11 +68,15 @@ S1: And write them down, because the gaps only become visible once the argument 
 
 S2: Do it on Darwin.
 
-S1: His three sentences run one after another, which is unusually tidy of him, and take the tidy case first. One. A struggle for existence inevitably follows from the high rate at which all organic beings tend to increase. Two. Every being which produces several eggs or seeds must suffer destruction during some period of its life, otherwise, on the principle of geometrical increase, its numbers would quickly become so inordinately great that no country could support the product. Three. Hence, as more individuals are produced than can possibly survive, there must in every case be a struggle for existence.
+S1: His three sentences run one after another, which is unusually tidy of him, and take the tidy case first. Here's the first. A struggle for existence inevitably follows from the high rate at which all organic beings tend to increase. And the second. Every being, which during its natural lifetime produces several eggs or seeds, must suffer destruction during some period of its life, and during some season or occasional year, otherwise, on the principle of geometrical increase, its numbers would quickly become so inordinately great that no country could support the product.
+
+S2: And the third.
+
+S1: Hence, as more individuals are produced than can possibly survive, there must in every case be a struggle for existence, either one individual with another of the same species, or with the individuals of distinct species, or with the physical conditions of life.
 
 S2: Set out as reasoning.
 
-S1: Every kind of organism tends to increase geometrically. More individuals are produced than can possibly survive. Therefore there must be a struggle for existence.
+S1: Three steps. Step one. Every kind of organism tends to increase geometrically. Step two. More individuals are produced than can possibly survive. Step three. Therefore there must be a struggle for existence.
 
 S2: Step two doesn't follow from step one on its own.
 
@@ -84,7 +88,7 @@ S1: That the supply of food and room doesn't increase geometrically along with t
 
 S2: Is it in the text?
 
-S1: Yes, and not where the argument needs it. In the paragraph carrying the argument it appears only inside a subordinate clause, that its numbers would become so great that no country could support the product, and then as an aside, for the world would not hold them.
+S1: Yes, and not where the argument needs it. In the paragraph carrying the argument it appears only inside a subordinate clause, that its numbers would quickly become so inordinately great that no country could support the product, and then as an aside, for the world would not hold them.
 
 S2: So he does say it.
 
@@ -98,6 +102,6 @@ S2: One more thing about that argument.
 
 S1: It closes the loop on rule five. Darwin's third sentence says there must be a struggle in every case, and that's only true under the wide sense he defined earlier, which includes a plant depending on moisture. The argument and the definition are load-bearing for each other, which is why the stages run in the order they do.
 
-S2: We've left out rules one to four, which classify the book and outline the chapter, rule six on finding the important sentences, rule eight on the problems an author knows he hasn't solved, and the wrinkle, which is a term the reader settles too early and never goes back to. The full lesson has all of it, and the chapter it works on is free. It's free at Foval Learning Institute dot org.
+S2: We've left out rules one to four, which classify the book and outline the chapter, rule six on finding the important sentences, rule eight on the problems an author knows he hasn't solved, and the wrinkle, which is a term the reader settles too early and never goes back to. The full lesson has all of it, free at Foval Learning Institute dot org.
 
 S1: Thanks for listening. Find the terms first, because the argument is built out of them.

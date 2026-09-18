@@ -67,7 +67,7 @@ S1: Title. How many words do we read per minute? A review and meta-analysis of r
 
 S2: Abstract.
 
-S1: A hundred and ninety studies, eighteen thousand five hundred and seventy three participants, two hundred and thirty eight words a minute for non-fiction and two hundred and sixty for fiction, oral reading a hundred and eighty three. And the estimates are, in his words, lower than the numbers often cited in scientific and popular writings, with the reasons for the overestimates reviewed.
+S1: A hundred and ninety studies, eighteen thousand five hundred and seventy three participants, two hundred and thirty eight words a minute for non-fiction and two hundred and sixty for fiction, and for reading aloud, a hundred and eighty three words a minute. And the estimates are, in his words, lower than the numbers often cited in scientific and popular writings, with the reasons for the overestimates reviewed.
 
 S2: Introduction.
 
@@ -95,12 +95,12 @@ S1: And lesson four rests on it. Sub-headings written as claims are a gift, and 
 
 S2: So give me the five Cs.
 
-S1: Category, a review and meta-analysis with one original experiment attached, whose size I can't answer yet. Context, the psychology of reading rate against a widely repeated figure of three hundred, standing on or arguing with Tinker and Carver, and I'd have to read to find out which. Correctness, the assumptions look sound from here and the obvious risk is in what counts as a study fit to pool, which a first pass can't check. Contributions, a pooled estimate with ranges, a second one for reading aloud, a history of where three hundred came from, and an argument that it's an overestimate. Clarity, the general discussion's headings are whole sentences, which is a good sign.
+S1: Category, a review and meta-analysis with one original experiment attached, whose size I can't answer yet. Context, the psychology of reading rate against a widely repeated figure of three hundred, standing on or arguing with Tinker and Carver, and I'd have to read to find out which. Correctness, the assumptions look sound from here and the obvious risk is in what counts as a study fit to pool, which a first pass can't check. Contributions, a pooled estimate for silent reading, a second one for reading aloud, a history of where three hundred came from, and an argument that it's an overestimate. Clarity, the general discussion's headings are whole sentences, which is a good sign.
 
 S2: How long did that take?
 
 S1: Eight minutes. And it's enough to decide three things. Whether to read the paper, what to cite it for, and what you'd have to check before citing it for anything else.
 
-S2: We've left out the second pass worked on a methods section, the case where a second pass contradicts the first, which is this course's own baseball story, and the five things people get wrong, including what peer review actually means. The full lesson has all of it, and the paper is free. It's free at Foval Learning Institute dot org.
+S2: We've left out the second pass worked on a methods section, the case where a second pass contradicts the first, which is this course's own baseball story, and the five things people get wrong, including what peer review actually means. The full lesson has all of it, and it links the paper, which is free to open. The lesson's free at Foval Learning Institute dot org.
 
 S1: Thanks for listening. Ten minutes, five questions, and then you may stop.

@@ -5,7 +5,7 @@ about: >-
   About seven minutes. Haley opens, because the engine gives the first turn to the second voice.
   Hosts are John (S1, the Charon voice) and Haley (S2, the Aoede voice). Seventh episode for Reading
   Well. Adler is quoted directly where the lesson quotes him, including the demanding rule, which is
-  blunter than a paraphrase would be. The episode takes the four grounds and two of the lesson's four
+  blunter than a paraphrase would be. The episode takes the four grounds and one of the lesson's four
   worked objections, and names the rest in the sign-off. The course teaches from no declared
   standpoint, and the lesson's own refusal to adjudicate Ruskin's view is carried here.
 speakers: 2
@@ -68,7 +68,7 @@ S1: For the first you produce the knowledge he lacked. For the second you produc
 
 S2: Third.
 
-S1: Illogical. He has committed a fallacy in reasoning, and either way the reader must be able to show the precise respect in which it goes wrong.
+S1: Illogical. He has committed a fallacy in reasoning, which Adler splits into the conclusion that doesn't follow and the two statements that can't both be true, and either way the reader must be able to show the precise respect in which it goes wrong.
 
 S2: And fourth.
 
@@ -102,6 +102,6 @@ S2: So the verdict is.
 
 S1: Agreement on what was argued, suspended judgement on the whole, and the gap named. Uncomfortable to write, because it concedes and withholds in the same breath, and more informative than either I agree or I disagree.
 
-S2: We've left out two more worked objections, including one on a sentence of Ruskin's about class that turns out to fall on no ground at all, which is a limit of the method worth knowing. And the four things people get wrong. The full lesson has all of it. It's free at Foval Learning Institute dot org.
+S2: We've left out three more worked objections, including one on a sentence of Ruskin's about class that turns out to be two claims, only the first of which any ground can reach, which is a limit of the method worth knowing. And the five things people get wrong. The full lesson has all of it. It's free at Foval Learning Institute dot org.
 
 S1: Thanks for listening. If you can't name the ground, you don't yet have an objection.

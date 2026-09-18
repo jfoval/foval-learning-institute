@@ -62,7 +62,7 @@ S1: Elementary reading asks, what does this sentence say. You finished that one 
 
 S2: Which is a nice way of saying skimming.
 
-S1: Except he finishes that sentence honestly, and the ending is the part to keep. The time is, in his words, usually a relatively short time, and always, by definition, too short a time to get out of the book everything that can be gotten. So it isn't a cheaper way of doing the full job. He says so himself, and lesson two is entirely about it.
+S1: Except he finishes that sentence honestly, and the ending is the part to keep. The time is, in his words, usually a relatively short time, and always, by definition, too short a time to get out of the book everything that can be gotten. So inspection isn't a cheaper way of doing the full job. He says so himself, and lesson two is entirely about inspectional reading.
 
 S2: That's two of the four. What's the third?
 
