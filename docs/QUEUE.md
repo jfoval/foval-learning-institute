@@ -18,7 +18,7 @@ Rewrite these five lines each session. Nothing else goes in this block.
   episodes, all live in R2 and off the debt ledger. It is the second course finished, after How to
   Learn Anything. Logic and Argument, Personal Finance and Algebra Essentials are **written**:
   every lesson in each has a fact-checked script, so all three need only money now. Python Basics
-  has one script of six. Reading Well is still the drafting job, at lesson 2 of ten.
+  is being written now. Reading Well is still the drafting job, at lesson 2 of ten.
 - **Current lesson:** Python Basics' scripts, then Bible Basics. Then Reading Well lesson 2 of ten. `/draft-lesson courses/foundations/reading-well 2`,
   as many lessons as the budget allows, after reading that course's `research/reviews/course-wide.md`.
 - **Before drafting anything:** `npm run taught <course>`. It prints every objective a learner has
@@ -96,6 +96,17 @@ script, so every script gets it. They only run long and ping-pong, which is tast
 cents. `/make-podcast` says what could be improved and that neither thing blocks a render.
 **Nothing on a course already through Stage 4 is to be re-opened.**
 
+**The 1,417-word ceiling is about 150 words tighter than it needs to be, measured 2026-09-18.**
+`scripts/podcast.mjs` computes the refusal from `WPM = 150`, and across the twenty one episodes
+rendered with durations recorded the real rate is about 167 words a minute. Logic 4 is the clean
+case: 1,413 words came back as 511 seconds of audio and 12,787 audio tokens, against the 14,745 the
+guard assumed. So the true ceiling is nearer 1,570 words. **Do not raise the constant on this
+note**: the guard is doing its job and a wrong ceiling in the other direction costs money. It is
+here so that a session shortening a good script knows it is cutting against a conservative wall,
+and so that whoever next touches that file can widen it on evidence. The same constant makes every
+script's `approx_minutes` wrong; the six Python and Algebra scripts written tonight say 8, the
+older ones still say 6 over 1,400 words.
+
 1. **A render was paid for twice on 2026-09-18, and the reason is worth keeping.** Writing Clearly
    lesson 4's script was shortened to fit the render ceiling and sent to render before its
    re-check came back. The re-check returned FAIL: the cut had dropped the closing clause of a
@@ -120,13 +131,23 @@ cents. `/make-podcast` says what could be improved and that neither thing blocks
    nineteen even counted through "within one month". The scripts for both were written around the
    figures rather than repeating them. One visit fixes all of these and re-reads the Sources notes
    that promise the counts were checked.
-4. **Two lessons do not cite their own sources.** `npm run validate` warns on both, added
+4. **Three small things in Python Basics lessons, found by script fact-checks on 2026-09-18.**
+   **Lesson 2 says "Two ways to live with it" and closes "Either is a real answer" over a section
+   that gives three**: rounding before comparing, whole units of the smallest denomination, and the
+   `decimal` module. Two words fix it. **Lesson 1's arithmetic about the Patitsas result deserves a
+   second look.** The lesson says 45 of 778 sections came back positive, that about 5% would come
+   back positive by chance, and so "most of the 45 may well be noise". But the 5% is a rate over the
+   323 sections actually tested, which is about 16, not most of 45. Either the sentence wants a
+   different word than "most" or the reasoning wants spelling out; the paper is the place to settle
+   it, and the script was written so as not to repeat the inference. Neither is load-bearing and
+   both are content changes on a published course.
+5. **Two lessons do not cite their own sources.** `npm run validate` warns on both, added
    2026-09-18. **Personal Finance 6 (taxes) has nine sources and not one `[n]` marker in its
    prose**, so every bracket figure in a tax lesson is uncited to the reader; Python 2 cites one
    of five. Both are content fixes on published courses and both are standards Part 2. Nine other
    lessons have one to three uncited entries, which is ordinary and stays under the threshold.
    Personal Finance 6 is also the worst quiz below, so it earns one visit for both.
-5. **Seven dead links in published lessons.** `npm run links` finds them; standards 4.5 asks for
+6. **Seven dead links in published lessons.** `npm run links` finds them; standards 4.5 asks for
    primary sources linked in the body, and these do not answer. Four are
    `earlychristianwritings.com` pages in Bible Basics 6 and 7 (the site reorganised; the texts are
    still there under other paths), `corporate.vanguard.com/.../vemo.html` in Personal Finance 2,
@@ -134,11 +155,11 @@ cents. `/make-podcast` says what could be improved and that neither thing blocks
    `tenancydepositscheme.com/resources/tds-guides/` in Reading Well 1, which is still drafting.
    Replace each with a URL that answers, or drop the link and keep the citation in Sources. The
    32 links reporting 403 are publishers blocking scripts, not breakage; leave them.
-6. **`npm run quiz` lists 18 quizzes tripping the shape heuristic** (option-length spread over 25
+7. **`npm run quiz` lists 18 quizzes tripping the shape heuristic** (option-length spread over 25
    characters, adjacent repeats, unused positions) without being winnable by a reader who read
    nothing. Worst is Personal Finance 6 at a 174-character spread. Decide one thing when it comes
    up: tighten the 18, or raise the threshold and say why. Not both.
-7. **Then the Foval Core in order, one course at a time.**
+8. **Then the Foval Core in order, one course at a time.**
    **Reading Well: lesson 1 of ten is written and through two Stage 4 rounds as of 2026-09-17.**
    It publishes when its ten lessons pass Stage 4, adding `reading-well: 10` to
    `curriculum/audio-debt.yaml` in the same commit. Ten lessons are planned in
