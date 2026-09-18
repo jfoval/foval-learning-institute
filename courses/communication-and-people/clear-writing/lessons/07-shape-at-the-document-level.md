@@ -1,6 +1,7 @@
 ---
 title: Shape at the document level
 minutes: 75
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/communication-and-people/clear-writing/07-shape-at-the-document-level.mp3
 objectives:
   - Write headings that let a reader decide whether to stop, rather than naming a category
   - Choose between prose, a list and a table by asking what relationship the content has
