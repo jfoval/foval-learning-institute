@@ -13,7 +13,7 @@ through.
 Rewrite these five lines each session. Nothing else goes in this block.
 
 - **Current course:** Writing Clearly (Stage 4 and voice pass complete; owes nine episodes).
-- **Current lesson:** Algebra Essentials voice pass, lessons 1 and 2 done (2026-09-17); lesson 3 is next.
+- **Current lesson:** Algebra Essentials voice pass, lessons 1 to 3 done (2026-09-17); lesson 4 is next.
 - **Current stage:** episodes, blocked on the Gemini key below. Content work moves to the Algebra Essentials voice pass (queue item 3) meanwhile.
 - **Blocked on:** a Google AI Studio API key from John (`GEMINI_API_KEY` in `.env.local`, billing
   enabled), so Gemini 2.5 Pro TTS and the direct API's `seed` can be tested. John heard the chunked
@@ -54,8 +54,8 @@ validate` enforces the second half against `curriculum/audio-debt.yaml`, which o
    Python Basics' 6 need scripts, which is the first step of `/make-podcast` and needs no fal.
    Writing Clearly's 9 and Algebra's 6 wait on their Stage 4 cycles and voice pass.
 3. **Algebra Essentials: the voice pass on six lessons, then episodes.** Rebuilt 2026-09-09 and
-   through Stage 4 with both assessments; the voice pass has not run. Lesson 3 is the only warning
-   `npm run validate` still prints (no links in the body); add the links in the pass. Lesson 1 done 2026-09-17.
+   through Stage 4 with both assessments; the voice pass has not run. The no-links warnings on
+   lessons 1 and 3 are cleared. Lessons 1 to 3 done 2026-09-17.
 4. **Charts on a phone.** 34 charts render their smallest label at 8.8px and Bible Basics 9 at
    8.0px, against a 10px floor. The validator names each one. The fix is one chart at a time with
    the page open: narrow the viewBox and re-lay-out, or raise the font size and check nothing

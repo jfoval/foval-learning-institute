@@ -136,7 +136,7 @@ Solving an equation means finding the value that makes the claim true. `3x + 5 =
 
 You want to end up with the letter alone on one side: `x = something`. That shape is an equation you can read the answer off.
 
-Every move you make is chosen to get closer to that shape, and every move is legal for exactly one reason: it does the same thing to both pans, so the claim survives. There is no second reason.
+Every move you make is chosen to get closer to that shape, and every move is legal for exactly one reason: it does the same thing to both pans, so the claim survives. There is no second reason. Textbooks state the same thing as properties of equality, and [OpenStax's chapter 2](https://openstax.org/books/elementary-algebra-2e/pages/2-introduction) has them written out if you want the formal names.
 
 ## Solving one, every step annotated
 
@@ -148,7 +148,7 @@ Solve `3x + 5 = 20`.
 | `3x = 15` | took 5 off both sides | the pans were equal, so they still are |
 | `x = 5` | divided both sides by 3 | same |
 
-Now the step most people skip, and the one that makes algebra safe: **check it.** Put 5 back into the original equation. `3(5) + 5` is `15 + 5`, which is 20, and the right side is 20. The two sides are the same size, so the claim is true, so 5 is the solution.
+Now the step most people skip, and the one that makes algebra safe: check it. Put 5 back into the original equation. `3(5) + 5` is `15 + 5`, which is 20, and the right side is 20. The two sides are the same size, so the claim is true, so 5 is the solution.
 
 Notice what the check does. It doesn't tell you that your method was good; it tells you that your answer is right, which is the thing you actually care about. You can get an answer by any route at all, including guessing, and the check will still confirm or destroy it.
 
@@ -176,7 +176,7 @@ Two things in that working are worth slowing down for.
 
 **Expanding the bracket.** `4(x - 2)` means four lots of `(x - 2)`, so it is `4x - 8`, not `4x - 2`. The multiplier reaches everything inside the bracket, including the second term and its sign. Test it with a number if you ever doubt it: at `x = 3`, `4(3 - 2)` is 4, and `4x - 8` is `12 - 8`, which is 4, while `4x - 2` would be 10.
 
-**Taking `2x` off both sides.** You can subtract an expression, not just a number. The balance does not care what the weight is made of, only that you removed the same weight from both pans.
+**Taking `2x` off both sides.** You can subtract an expression as well as a number. The balance does not care what the weight is made of, only that you removed the same weight from both pans.
 
 :::checkpoint Below is `5x - 3 = 2x + 9`, worked to the second to last line. Take `2x` off both sides to get `3x - 3 = 9`. Add 3 to both sides to get `3x = 12`. Finish it, and check your answer.
 Divide both sides by 3, so `x = 4`. Check: `5(4) - 3` is `20 - 3`, which is 17, and `2(4) + 9` is `8 + 9`, which is 17. Both sides are 17, so 4 is the solution. If you finished it without needing the check, do the check anyway; it takes ten seconds and it is the step that cannot lie to you.
@@ -186,7 +186,13 @@ Divide both sides by 3, so `x = 4`. Check: `5(4) - 3` is `20 - 3`, which is 17, 
 
 The most common source of arithmetic slips in solving is a sign, and it is worth meeting directly rather than being warned about.[1]
 
-Look at `7 - 3x = 1`. It is tempting to see a 7 and a 3 and produce a 4. That is wrong, and the reason is that the minus sign is not an instruction sitting between two numbers; it belongs to the `3x`. The left side is "seven, plus negative three lots of x".
+Look at `7 - 3x = 1`. Solve it in your head before you read the working.
+
+:::predict What is `x`?
+Two. If you got 4, or something involving a 4, you saw a 7 and a 3 and subtracted, which is the trap this section is about.
+:::
+
+It is tempting to see a 7 and a 3 and produce a 4. That is wrong, and the reason is that the minus sign is not an instruction sitting between two numbers; it belongs to the `3x`. The left side is "seven, plus negative three lots of x".
 
 So solve it properly:
 
@@ -210,7 +216,7 @@ Four. Add `2x` to both sides: `9 = 3x - 3`. Add 3 to both sides: `12 = 3x`. Divi
 
 `5x - 3 = 2x + 9` had `x` terms on both sides, and the first move gathered them. That gathering has a name, collecting like terms, and it exists in service of solving rather than as a topic of its own.
 
-**Like terms are terms with the same letter part.** `3x` and `5x` are like terms and add to `8x`. `3x` and `5y` are not, and cannot be combined at all. `3x` and `5x²` are not either, because `x` and `x²` are different things: at `x = 3`, one is 9 and the other is 27.
+**Like terms** are terms with the same letter part. `3x` and `5x` are like terms and add to `8x`. `3x` and `5y` are not, and cannot be combined at all. `3x` and `5x²` are not either, because `x` and `x²` are different things: at `x = 3`, one is 9 and the other is 27.
 
 The test, as always, is a number. Does `3x + 5x = 8x`? At `x = 2`: the left is `6 + 10`, which is 16, and the right is 16. Yes. Does `3x + 5y = 8xy`? At `x = 2` and `y = 1`: the left is `6 + 5`, which is 11, and the right is `8 × 2 × 1`, which is 16. No.
 
@@ -267,5 +273,5 @@ The lesson after that writes equations from sentences, which is the hard half of
 
 ## Go deeper
 
-- [**OpenStax, *Elementary Algebra 2e*, chapter 2**](https://openstax.org/books/elementary-algebra-2e/pages/2-introduction), free online, which works through the same moves with many more examples and states them as formal properties of equality.
-- [**Khan Academy, solving equations**](https://www.khanacademy.org/math/algebra-basics/alg-basics-linear-equations-and-inequalities), for practice with immediate feedback.
+- [OpenStax, *Elementary Algebra 2e*, chapter 2](https://openstax.org/books/elementary-algebra-2e/pages/2-introduction), free online, which works through the same moves with many more examples and states them as formal properties of equality.
+- [Khan Academy, solving equations](https://www.khanacademy.org/math/algebra-basics/alg-basics-linear-equations-and-inequalities), for practice with immediate feedback.
