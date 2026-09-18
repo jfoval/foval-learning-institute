@@ -10,6 +10,7 @@ compile step anywhere in this repo.
 | `build.mjs` | `build`, `validate`, `build:drafts` | Compiles `courses/` + `site/` into git-ignored `dist/`, and lints everything |
 | `reading-time.mjs` | `minutes` | Measures every lesson's real `minutes:`; `--write` fixes them |
 | `podcast.mjs` | — | `/make-podcast`'s engine: plan, render (one call), gate, upload, stamp, profile, reference |
+| `taught.mjs` | `taught` | Every objective taught earlier on the Core path, and which earlier courses do not exist yet |
 | `links.mjs` | `links` | Checks every external link in every lesson. Network, slow, run deliberately |
 | `check-quiz-letters.cjs` | `quiz` | Finds explanations that contradict their own `answer` |
 | `check-quiz-shape.cjs` | `quiz` | Finds quizzes a reader could pass without reading the lesson |

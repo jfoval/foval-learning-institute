@@ -2,6 +2,11 @@
 description: Stage 3. Draft ONE lesson from the research and outline
 argument-hint: <courses/school/course-id> <lesson-number>
 ---
+**Run `npm run taught <course>` before drafting.** It prints every objective a learner has already
+met on the Core path, so this lesson builds on them by name instead of re-teaching them or assuming
+something that was never taught. Its second half lists earlier courses that do not exist yet:
+assume none of that.
+
 You are doing Stage 3 (Draft) of the Foval Learning Institute content pipeline. Arguments: `$ARGUMENTS` (course path, then lesson number).
 
 Read first, all of them: `docs/EDITORIAL_STANDARDS.md`, `<course>/course.yaml`, `<course>/research/SOURCES.md`, `<course>/research/OUTLINE.md` (the section for this lesson and the ones before and after), the previous lesson file if it exists, and `templates/lesson.md`.

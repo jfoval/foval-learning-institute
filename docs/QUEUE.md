@@ -17,6 +17,9 @@ Rewrite these five lines each session. Nothing else goes in this block.
   finished by the institute's own definition.
 - **Current lesson:** Reading Well lesson 2 of ten. `/draft-lesson courses/foundations/reading-well 2`,
   one lesson a session, after reading that course's `research/reviews/course-wide.md`.
+- **Before drafting anything:** `npm run taught <course>`. It prints every objective a learner has
+  already met earlier on the Core, and names the earlier courses that do not exist yet so nothing
+  is assumed from them. Stage 2 and Stage 3 both call for it.
 - **Current stage:** Stage 3 on content. Rendering trails, in Core term order, at whatever the
   month's Gemini cap allows. `docs/PODCAST_PIPELINE.md` is the manual.
 - **The shape of the work, decided 2026-09-17** (`docs/DECISIONS.md` §2). Three states, and only

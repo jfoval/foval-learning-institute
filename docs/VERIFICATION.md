@@ -46,6 +46,7 @@ Network, slow, or heuristic. A gate would get them weakened or routed around.
 | Every external link in every lesson | `npm run links` | 2026-09-18: 482 links, 7 dead |
 | Quizzes winnable by shape alone; explanations contradicting their own key | `npm run quiz` | 2026-09-18: 18 flagged, undecided |
 | Measured reading time vs the `minutes:` field | `npm run minutes` | 2026-09-18: 62 lessons, 0 materially out |
+| What a learner already knows at a given point on the Core, and which earlier courses are unwritten | `npm run taught <course>` | Run at Stage 2 and Stage 3 |
 | The site in both themes at both widths | `npm run shots` | **Never run in a review. See below.** |
 
 ## Checked once, by hand, and recorded
@@ -70,10 +71,13 @@ build says anything about it.
 - **Whether a lesson is true.** `/review-lesson` pass 2 and `/fact-check`. The linter checks that a
   citation resolves, never that it supports the claim.
 - **Whether a lesson is fair.** `/neutrality-audit` and `/review-lesson` pass 3.
-- **Whether a course covers enough.** Nothing checks scope. This is how Python Basics ended up
-  assuming a terminal it never teaches: its outline froze the course at the six lesson files the
-  live URLs already used, and every later review looked at the lessons rather than the shape.
-  **When an outline inherits its shape, make it justify the shape, not just the contents.**
+- **Whether a course covers enough, or too much.** Nothing checks scope, and it has gone wrong in
+  both directions. Python Basics froze at the six lesson files its live URLs already used and came
+  out assuming a terminal it never teaches; Bible Basics runs 137 measured minutes a lesson, which
+  is not a sitting, with the lowest think-block density in the institute. Every later review looked
+  at the lessons rather than at the shape. **When an outline inherits its shape, make it justify
+  the shape, not just the contents.** `npm run taught` now covers the half of this that is
+  mechanical: what came before, and what has not been written.
 - **Whether an episode sounds right.** The gate measures level, fade, both voices, length and
   pitch. It cannot hear a bad reading. John listens.
 - **Whether the site is usable on a phone.** `npm run shots` renders it; somebody has to look.

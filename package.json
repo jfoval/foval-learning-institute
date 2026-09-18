@@ -20,7 +20,8 @@
     "quiz": "node scripts/check-quiz-shape.cjs && node scripts/check-quiz-letters.cjs",
     "test": "node --test \"scripts/tests/*.test.mjs\"",
     "state": "node scripts/state.mjs",
-    "links": "node scripts/links.mjs"
+    "links": "node scripts/links.mjs",
+    "taught": "node scripts/taught.mjs"
   },
   "engines": {
     "node": ">=20"
