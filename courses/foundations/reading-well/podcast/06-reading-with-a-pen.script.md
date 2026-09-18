@@ -1,6 +1,18 @@
 ---
 source: courses/foundations/reading-well/lessons/06-reading-with-a-pen.md
 written_by: Claude, by hand, from the lesson text
+checked: >-
+  Fact-checked twice in fresh-context subagents against the lesson on 2026-09-18. **Round one was a
+  FAIL** on two sign-off defects: a count of four things people get wrong where the lesson has five,
+  and a claim that the lesson carries the whole Ruskin passage, which the episode itself had denied
+  forty seconds earlier. Three nits with it: mark 3 had dropped the discriminating half of lesson 3's
+  syntax signature, the list of what a highlight would not tell you had four items against the
+  lesson's five and the arithmetic that followed said five, and an unsupported "certainly". The
+  Ruskin work, which was the risk, was sound in round one: the passage verbatim against Project
+  Gutenberg, the cut counted at exactly 221 words, and everything the note names in it verified.
+  **Round two failed it again on the same clause in a quieter form**: "with the extract unabridged"
+  still tells a listener the lesson prints Ruskin's whole paragraph. The sign-off now says what is
+  true, that the lesson prints the extract in full and links the lecture for the rest.
 about: >-
   About seven minutes. Haley opens, because the engine gives the first turn to the second voice.
   Hosts are John (S1, the Charon voice) and Haley (S2, the Aoede voice). Sixth episode for Reading
@@ -90,6 +102,6 @@ S2: And in a month?
 
 S1: You'd know Ruskin said something about reading words carefully. You wouldn't know that his support was an assertion of his own confidence, that one clause defeated you, that two of his words aren't in their ordinary senses, that you disagreed with his conclusion, or what it connected to. Five of those six marks were the useful ones, and not one of them is a phrase.
 
-S2: We've left out the one-page reading record and its seven lines, what to do with a library book you can't write in, and the five things people get wrong about marking. The full lesson has all of it, with the extract unabridged, including the clause we skipped past. It's free at Foval Learning Institute dot org.
+S2: We've left out the one-page reading record and its seven lines, what to do with a library book you can't write in, and the five things people get wrong about marking. The full lesson has all of it, and it prints the passage in full, including the clause we skipped past, and it links Ruskin's lecture for the rest of the paragraph. It's free at Foval Learning Institute dot org.
 
 S1: Thanks for listening. A mark that doesn't say what kind of thought it was is a highlight with extra steps.

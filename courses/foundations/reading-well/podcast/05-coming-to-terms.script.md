@@ -1,6 +1,19 @@
 ---
 source: courses/foundations/reading-well/lessons/05-coming-to-terms.md
 written_by: Claude, by hand, from the lesson text
+checked: >-
+  Fact-checked twice in fresh-context subagents against the lesson on 2026-09-18. **Round one was a
+  FAIL**, and it is the reason this check exists. Three of the five Darwin quotations were altered.
+  One stopped before "either one individual with another of the same species, or with the individuals
+  of distinct species, or with the physical conditions of life", which is the episode's own evidence
+  for the claim it closes on, that the argument holds only under Darwin's wide sense. One was
+  shortened by two clauses with no mark. And one clause was quoted correctly in one turn and wrongly
+  four turns later in the same episode. The numbered steps were also unnumbered while the numbers sat
+  on the wrong list, both of the lesson's epistemic hedges about Adler were dropped, and the sign-off
+  asserted a factual claim behind an ambiguous pronoun. Round two, PASS: every Darwin quotation
+  re-verified character for character against Project Gutenberg including where each one stops, the
+  paragraph count and the four-printed-pages figure confirmed in the text, the steps countable by ear,
+  and the hedge paragraph overclaiming in neither direction.
 about: >-
   About seven minutes. Haley opens, because the engine gives the first turn to the second voice.
   Hosts are John (S1, the Charon voice) and Haley (S2, the Aoede voice). Fifth episode for Reading

@@ -1,6 +1,17 @@
 ---
 source: courses/foundations/reading-well/lessons/08-reading-a-research-paper.md
 written_by: Claude, by hand, from the lesson text
+checked: >-
+  Fact-checked twice in fresh-context subagents against the lesson on 2026-09-18, and against the
+  paper itself. Round one, PASS WITH NITS, and the part that mattered came back clean: every element
+  of the live first pass checks out against the PDF, including the heading count that had been wrong
+  twice in the lesson, the two sections beginning "a meta-analysis of", the bare surname sub-headings
+  Tinker and Carver, and the three declarative sub-headings of the General discussion quoted verbatim.
+  Three nits: an "It's free" whose nearest antecedent by ear was the paper rather than the lesson, a
+  figure left without its unit at the end of a run of five, and a Contributions line promising ranges
+  the episode had not given. Round two confirmed all three repairs and the sign-off's four counts.
+  The lesson's own heading list has one pair out of order against the PDF, which the episode does not
+  repeat and which is reported as the lesson's.
 about: >-
   About seven minutes. Haley opens, because the engine gives the first turn to the second voice.
   Hosts are John (S1, the Charon voice) and Haley (S2, the Aoede voice). Eighth episode for Reading

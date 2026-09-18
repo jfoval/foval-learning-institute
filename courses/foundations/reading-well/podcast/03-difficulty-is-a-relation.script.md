@@ -1,6 +1,17 @@
 ---
 source: courses/foundations/reading-well/lessons/03-difficulty-is-a-relation.md
 written_by: Claude, by hand, from the lesson text
+checked: >-
+  Fact-checked twice in fresh-context subagents against the lesson on 2026-09-18, and every finding
+  is fixed here. Round one, PASS WITH NITS. Both required hedges survived, the Hansard passage and
+  the motion were verbatim, and every number held. Two findings. The gloss on the two hard words was
+  broken by ear: the script reads "hon." aloud as "honourable" and then told the listener that two
+  things need a gloss, one of which it had just supplied silently. And the sign-off claimed the
+  episode had left out what to do when the diagnosis is missing background, which the episode gives.
+  Round two confirmed both repairs, including that the expansion now arrives before the abbreviation
+  is named, which is the only order that works in audio, and that the bond-yield sentence the sign-off
+  now names is genuinely in the lesson and absent from the episode. The lesson's own inconsistency
+  about three lines against four was reported and is the lesson's to settle.
 about: >-
   About seven minutes. Haley opens, because the engine gives the first turn to the second voice.
   Hosts are John (S1, the Charon voice) and Haley (S2, the Aoede voice). Third episode for Reading

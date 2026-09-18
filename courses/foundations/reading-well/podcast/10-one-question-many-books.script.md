@@ -1,6 +1,17 @@
 ---
 source: courses/foundations/reading-well/lessons/10-one-question-many-books.md
 written_by: Claude, by hand, from the lesson text
+checked: >-
+  Fact-checked twice in fresh-context subagents against the lesson on 2026-09-18. **Round one was a
+  FAIL** on a checkable falsehood spoken aloud: the episode said Ruskin's instruction to hunt a
+  doubtful word down comes four hundred words before the sentence it quotes. It comes about fourteen
+  hundred words after. The lesson, its footnote, and its review file all carried the same error, so
+  the fix was not in the script alone, and the episode sends listeners to the free text where they
+  would have found it. Three nits with it: a pronoun with no antecedent by ear, a reply that restated
+  the question instead of answering it, and an "and after that" that re-anchored one of Ruskin's two
+  instructions to the wrong one. Every quotation, Bacon included, was verbatim in round one. Round
+  two, PASS: the distance measured again in the source at 1,374 words, all four files agreeing, and
+  the three other repairs holding.
 about: >-
   About seven minutes. Haley opens, because the engine gives the first turn to the second voice.
   Hosts are John (S1, the Charon voice) and Haley (S2, the Aoede voice). Tenth and last episode for

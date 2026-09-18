@@ -1,6 +1,17 @@
 ---
 source: courses/foundations/reading-well/lessons/07-judging-what-you-understood.md
 written_by: Claude, by hand, from the lesson text
+checked: >-
+  Fact-checked twice in fresh-context subagents against the lesson on 2026-09-18. **Round one was a
+  FAIL.** The sign-off described the lesson's fourth objection as falling on no ground, when the
+  lesson says that sentence is two claims and a ground reaches the first of them; two counts were
+  wrong, four misconceptions where the lesson has five and two more worked objections where three are
+  left out, with the same count in the frontmatter; and an "either way" had lost its antecedent when
+  Adler's split into the non sequitur and the inconsistency was cut. All thirteen Adler quotations
+  were verbatim and the demanding rule was quoted whole and unsoftened, which is the thing this
+  episode exists to carry. Round two, PASS: the fourth objection's description now matches the lesson
+  exactly, the counts agree with the lesson and with the frontmatter, and the restored Adler split
+  matches what `research/SOURCES.md` records.
 about: >-
   About seven minutes. Haley opens, because the engine gives the first turn to the second voice.
   Hosts are John (S1, the Charon voice) and Haley (S2, the Aoede voice). Seventh episode for Reading
