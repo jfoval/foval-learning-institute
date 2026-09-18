@@ -1,6 +1,7 @@
 ---
 title: "Covenant made, covenant enforced: reading the law and the prophets"
 minutes: 145
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/christian-studies/bible-basics/04-law-and-prophets.mp3
 objectives:
   - Explain what the Old Testament law is (the terms of the Sinai covenant, written in the shape of an ancient treaty) and compare the main Christian proposals for how it applies now, in each proposal's own terms
   - State the main frameworks for relating the Old Testament to the New (covenant theology, dispensationalism, and the positions between) in terms their holders would accept, and say what reading habits each one produces
