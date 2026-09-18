@@ -223,9 +223,9 @@ That is what step 3 is for. Writing the missing premise down shows you how far t
   <text x="10" y="233" font-size="15" fill="var(--navy, #0f2a4a)">generally be a British subject.</text>
   <text x="0" y="272" font-size="15" font-weight="600" fill="var(--oxblood, #8b1e2d)">Rebuttal, and it hangs off the claim</text>
   <rect x="0" y="280" width="344" height="74" fill="none" stroke="var(--oxblood, #8b1e2d)" stroke-width="1.5"/>
-  <text x="10" y="303" font-size="15" fill="var(--navy, #0f2a4a)">unless both his parents were</text>
-  <text x="10" y="323" font-size="15" fill="var(--navy, #0f2a4a)">aliens, or he has since become</text>
-  <text x="10" y="343" font-size="15" fill="var(--navy, #0f2a4a)">a naturalised American.</text>
+  <text x="10" y="303.0" font-size="15" fill="var(--navy, #0f2a4a)">unless both his parents were aliens, or</text>
+  <text x="10" y="322.0" font-size="15" fill="var(--navy, #0f2a4a)">he has since become a naturalised</text>
+  <text x="10" y="341.0" font-size="15" fill="var(--navy, #0f2a4a)">American.</text>
 </svg>
 
 Look at the warrant: its own box, drawn dashed, sitting outside the step rather than beside the data as a second premise. It's the rule that licenses that step, and it's the thing nobody said. The rebuttal hangs off the claim, and it only exists because the warrant says "generally". Lesson 7 gives you the full layout, with the two slots this drawing leaves out. For now, the habit is enough: write the rule the arguer relies on, then ask what it doesn't cover.

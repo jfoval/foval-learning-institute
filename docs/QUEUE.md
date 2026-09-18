@@ -45,29 +45,12 @@ its first attempt. It is the first course finished by the institute's own defini
 5. **Python Basics, all six.** Term 6, about $1.20.
 6. **Bible Basics, all twelve.** Term 8, about $2.40. Lesson 2 has a script.
 
-8. **Charts on a phone. 7 left**, in Logic and Argument (5) and Bible Basics (2). All are argument
-   or structure diagrams, which are the hard kind: see below. Personal Finance, How to Learn
-   Anything and Bible Basics 9 are done, 23 charts in all, every one checked in the browser at
-   375px as well as by the validator.
-   **The method, which now has a tool behind it.** A label renders at `font-size * 340 / viewBox
-   width`, so 15px labels need a viewBox of 510 or narrower; 420 is the house width and gives
-   12.1px. For a bar or line chart, scale every x-coordinate by 420/584 and leave y alone, then let
-   `npm run validate` name the labels that no longer fit. The scripts used are throwaway, but the
-   sequence is: rescale, reflow the footnote block as one unit (wrapping each line separately makes
-   the new lines land on the next original line), then fix in-chart labels by hand.
-   **Box and argument diagrams cannot be rescaled and must be redrawn**, because shrinking a box
-   while its text stays the same size bursts it. Redraw them stacked top to bottom with downward
-   arrows, which is the shape a phone wants: How to Learn Anything lessons 2 and 6 are the worked
-   examples. That is what the seven remaining charts need.
-   **The validator does not see collisions**, only labels past the viewBox edge. Open the page. A
-   quick way to see a chart on its own is to fetch the built page, pull the SVG out of it and drop
-   it into `document.body` at 375px wide.
 
-9. **`npm run quiz` lists 19 quizzes tripping the shape heuristic** (option-length spread over 25
+8. **`npm run quiz` lists 19 quizzes tripping the shape heuristic** (option-length spread over 25
    characters, adjacent repeats, unused positions) without being winnable by a reader who read
    nothing. Worst is Personal Finance 6 at a 174-character spread. Decide one thing when it comes
    up: tighten the 19, or raise the threshold and say why. Not both.
-10. **Then the Foval Core in order, one course at a time, each finished before the next starts.**
+9. **Then the Foval Core in order, one course at a time, each finished before the next starts.**
    **Reading Well: lesson 1 of ten is written and through two Stage 4 rounds as of 2026-09-17**,
    drafting ahead of its audio under the §2 exception. Ten lessons are planned in
    `research/OUTLINE.md`, with a course-end test and a project.

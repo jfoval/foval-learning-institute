@@ -117,41 +117,41 @@ Now look at the pile of positive results. It contains 8 women with cancer and 95
 
 The whole count, drawn as a tree. The two outlined boxes are the two ways to test positive, and the answer is one of them divided by both together.
 
-<svg viewBox="0 0 584 368" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="nf-t nf-d" style="width:100%;max-width:584px;height:auto;font-family:inherit">
+<svg viewBox="0 0 420 368" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="nf-t nf-d" style="width:100%;max-width:420px;height:auto;font-family:inherit">
   <title id="nf-t">Natural-frequency tree for the mammogram problem</title>
   <desc id="nf-d">A tree starting from 1,000 women screened. It splits into 10 who have cancer and 990 who do not. The 10 with cancer split into 8 who test positive and 2 who test negative. The 990 without cancer split into 95 who test positive and 895 who test negative. The two positive boxes are outlined. A footer reads: positives in all, 8 plus 95 equals 103; with cancer, 8 of 103, about 8 in 100.</desc>
-  <rect x="192" y="8" width="200" height="34" rx="6" fill="var(--navy-soft, #e8eef6)" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
-  <text x="292" y="31" font-size="16" font-weight="600" text-anchor="middle" fill="var(--navy, #0f2a4a)">1,000 women screened</text>
-  <line x1="292" y1="42" x2="125" y2="92" stroke="var(--line, #d9d9d9)" stroke-width="2"/>
-  <line x1="292" y1="42" x2="459" y2="92" stroke="var(--line, #d9d9d9)" stroke-width="2"/>
-  <text x="176" y="66" font-size="15" text-anchor="end" fill="var(--text-2, #4a5260)">1 in 100</text>
-  <text x="408" y="66" font-size="15" text-anchor="start" fill="var(--text-2, #4a5260)">99 in 100</text>
-  <rect x="45" y="92" width="160" height="34" rx="6" fill="none" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
-  <text x="125" y="115" font-size="16" text-anchor="middle" fill="var(--text, #1a1a1a)">10 have cancer</text>
-  <rect x="379" y="92" width="160" height="34" rx="6" fill="none" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
-  <text x="459" y="115" font-size="16" text-anchor="middle" fill="var(--text, #1a1a1a)">990 do not</text>
-  <line x1="125" y1="126" x2="70" y2="182" stroke="var(--line, #d9d9d9)" stroke-width="2"/>
-  <line x1="125" y1="126" x2="200" y2="182" stroke="var(--line, #d9d9d9)" stroke-width="2"/>
-  <line x1="459" y1="126" x2="384" y2="182" stroke="var(--line, #d9d9d9)" stroke-width="2"/>
-  <line x1="459" y1="126" x2="514" y2="182" stroke="var(--line, #d9d9d9)" stroke-width="2"/>
-  <text x="88" y="158" font-size="15" text-anchor="end" fill="var(--text-2, #4a5260)">80%</text>
-  <text x="418" y="158" font-size="15" text-anchor="end" fill="var(--text-2, #4a5260)">9.6%</text>
-  <rect x="12" y="182" width="116" height="52" rx="6" fill="none" stroke="var(--oxblood, #8b1e2d)" stroke-width="2"/>
-  <text x="70" y="204" font-size="16" font-weight="600" text-anchor="middle" fill="var(--oxblood, #8b1e2d)">8 test</text>
-  <text x="70" y="225" font-size="16" font-weight="600" text-anchor="middle" fill="var(--oxblood, #8b1e2d)">positive</text>
-  <rect x="142" y="182" width="116" height="52" rx="6" fill="none" stroke="var(--line, #d9d9d9)" stroke-width="1.5"/>
-  <text x="200" y="204" font-size="16" text-anchor="middle" fill="var(--text-2, #4a5260)">2 test</text>
-  <text x="200" y="225" font-size="16" text-anchor="middle" fill="var(--text-2, #4a5260)">negative</text>
-  <rect x="326" y="182" width="116" height="52" rx="6" fill="none" stroke="var(--oxblood, #8b1e2d)" stroke-width="2"/>
-  <text x="384" y="204" font-size="16" font-weight="600" text-anchor="middle" fill="var(--oxblood, #8b1e2d)">95 test</text>
-  <text x="384" y="225" font-size="16" font-weight="600" text-anchor="middle" fill="var(--oxblood, #8b1e2d)">positive</text>
-  <rect x="456" y="182" width="116" height="52" rx="6" fill="none" stroke="var(--line, #d9d9d9)" stroke-width="1.5"/>
-  <text x="514" y="204" font-size="16" text-anchor="middle" fill="var(--text-2, #4a5260)">895 test</text>
-  <text x="514" y="225" font-size="16" text-anchor="middle" fill="var(--text-2, #4a5260)">negative</text>
-  <text x="292" y="282" font-size="16" text-anchor="middle" fill="var(--text, #1a1a1a)">Positives in all: 8 + 95 = 103</text>
-  <text x="292" y="308" font-size="16" font-weight="600" text-anchor="middle" fill="var(--oxblood, #8b1e2d)">With cancer: 8 of 103, about 8 in 100</text>
-  <text x="292" y="334" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">Gigerenzer and Hoffrage 1995: base rate 1%,</text>
-  <text x="292" y="356" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">sensitivity 80%, false positives 9.6%</text>
+  <rect x="138.1" y="8" width="143.8" height="34" rx="6" fill="var(--navy-soft, #e8eef6)" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
+  <text x="210.0" y="31" font-size="16" font-weight="600" text-anchor="middle" fill="var(--navy, #0f2a4a)">1,000 women screened</text>
+  <line x1="210.0" y1="42" x2="89.9" y2="92" stroke="var(--line, #d9d9d9)" stroke-width="2"/>
+  <line x1="210.0" y1="42" x2="330.1" y2="92" stroke="var(--line, #d9d9d9)" stroke-width="2"/>
+  <text x="126.6" y="66" font-size="15" text-anchor="end" fill="var(--text-2, #4a5260)">1 in 100</text>
+  <text x="293.4" y="66" font-size="15" text-anchor="start" fill="var(--text-2, #4a5260)">99 in 100</text>
+  <rect x="32.4" y="92" width="115.1" height="34" rx="6" fill="none" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
+  <text x="89.9" y="115" font-size="16" text-anchor="middle" fill="var(--text, #1a1a1a)">10 have cancer</text>
+  <rect x="272.6" y="92" width="115.1" height="34" rx="6" fill="none" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
+  <text x="330.1" y="115" font-size="16" text-anchor="middle" fill="var(--text, #1a1a1a)">990 do not</text>
+  <line x1="89.9" y1="126" x2="50.3" y2="182" stroke="var(--line, #d9d9d9)" stroke-width="2"/>
+  <line x1="89.9" y1="126" x2="143.8" y2="182" stroke="var(--line, #d9d9d9)" stroke-width="2"/>
+  <line x1="330.1" y1="126" x2="276.2" y2="182" stroke="var(--line, #d9d9d9)" stroke-width="2"/>
+  <line x1="330.1" y1="126" x2="369.7" y2="182" stroke="var(--line, #d9d9d9)" stroke-width="2"/>
+  <text x="63.3" y="158" font-size="15" text-anchor="end" fill="var(--text-2, #4a5260)">80%</text>
+  <text x="300.6" y="158" font-size="15" text-anchor="end" fill="var(--text-2, #4a5260)">9.6%</text>
+  <rect x="8.6" y="182" width="83.4" height="52" rx="6" fill="none" stroke="var(--oxblood, #8b1e2d)" stroke-width="2"/>
+  <text x="50.3" y="204" font-size="16" font-weight="600" text-anchor="middle" fill="var(--oxblood, #8b1e2d)">8 test</text>
+  <text x="50.3" y="225" font-size="16" font-weight="600" text-anchor="middle" fill="var(--oxblood, #8b1e2d)">positive</text>
+  <rect x="102.1" y="182" width="83.4" height="52" rx="6" fill="none" stroke="var(--line, #d9d9d9)" stroke-width="1.5"/>
+  <text x="143.8" y="204" font-size="16" text-anchor="middle" fill="var(--text-2, #4a5260)">2 test</text>
+  <text x="143.8" y="225" font-size="16" text-anchor="middle" fill="var(--text-2, #4a5260)">negative</text>
+  <rect x="234.5" y="182" width="83.4" height="52" rx="6" fill="none" stroke="var(--oxblood, #8b1e2d)" stroke-width="2"/>
+  <text x="276.2" y="204" font-size="16" font-weight="600" text-anchor="middle" fill="var(--oxblood, #8b1e2d)">95 test</text>
+  <text x="276.2" y="225" font-size="16" font-weight="600" text-anchor="middle" fill="var(--oxblood, #8b1e2d)">positive</text>
+  <rect x="327.9" y="182" width="83.4" height="52" rx="6" fill="none" stroke="var(--line, #d9d9d9)" stroke-width="1.5"/>
+  <text x="369.7" y="204" font-size="16" text-anchor="middle" fill="var(--text-2, #4a5260)">895 test</text>
+  <text x="369.7" y="225" font-size="16" text-anchor="middle" fill="var(--text-2, #4a5260)">negative</text>
+  <text x="210.0" y="282" font-size="16" text-anchor="middle" fill="var(--text, #1a1a1a)">Positives in all: 8 + 95 = 103</text>
+  <text x="210.0" y="308" font-size="16" font-weight="600" text-anchor="middle" fill="var(--oxblood, #8b1e2d)">With cancer: 8 of 103, about 8 in 100</text>
+  <text x="210.0" y="334" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">Gigerenzer and Hoffrage 1995: base rate 1%,</text>
+  <text x="210.0" y="356" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">sensitivity 80%, false positives 9.6%</text>
 </svg>
 
 That's the whole calculation. Notice what did the work. The test's 80% was real and it's in there (it's the 8). But the base rate, the 1%, decided the size of both piles: it made the cancer group tiny, so even a very accurate test produced only 8 true positives, and it made the healthy group huge, so even a modest false-positive rate produced 95 false ones. The doctors' 70 to 80% is what you get if you look only at the test and forget the piles.

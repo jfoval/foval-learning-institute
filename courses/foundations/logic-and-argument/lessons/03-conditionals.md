@@ -226,7 +226,7 @@ The 4: an even number. If the back is a vowel, that's a vowel with an even numbe
 
 The 7: an odd number. If the back is a vowel, that's a vowel with an odd number. Broken. Turn it. (Modus tollens: not Q, so check for not P.)
 
-<svg viewBox="0 0 344 244" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="wr-t wr-d" style="max-width:100%;height:auto;font-family:inherit">
+<svg viewBox="0 0 344 253" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="wr-t wr-d" style="max-width:100%;height:auto;font-family:inherit">
   <title id="wr-t">The same four cards as the four moves on a conditional</title>
   <desc id="wr-d">The four cards labelled with their logical role. E is P, turn it, modus ponens. K is not P, leave it, since turning it would be denying the antecedent. 4 is Q, leave it, since turning it would be affirming the consequent. 7 is not Q, turn it, modus tollens.</desc>
   <text x="0" y="15" font-size="17" font-weight="600" fill="var(--text-2, #4a5260)">The same cards, as four moves</text>
@@ -246,10 +246,10 @@ The 7: an odd number. If the back is a vowel, that's a vowel with an odd number.
   <text x="310" y="82" font-size="36" text-anchor="middle" fill="var(--navy, #0f2a4a)">7</text>
   <text x="310" y="130" font-size="16" text-anchor="middle" fill="var(--text-2, #4a5260)">not Q</text>
   <text x="310" y="152" font-size="16" text-anchor="middle" fill="var(--oxblood, #8b1e2d)">Turn</text>
-  <text x="0" y="182" font-size="15" fill="var(--text-2, #4a5260)">Turn P and not-Q: modus ponens and</text>
-  <text x="0" y="200" font-size="15" fill="var(--text-2, #4a5260)">modus tollens. Turning Q is affirming the</text>
-  <text x="0" y="218" font-size="15" fill="var(--text-2, #4a5260)">consequent; turning not-P is denying the</text>
-  <text x="0" y="236" font-size="15" fill="var(--text-2, #4a5260)">antecedent.</text>
+  <text x="0" y="182.0" font-size="15" fill="var(--text-2, #4a5260)">Turn P and not-Q: modus ponens and modus</text>
+  <text x="0" y="201.0" font-size="15" fill="var(--text-2, #4a5260)">tollens. Turning Q is affirming the</text>
+  <text x="0" y="220.0" font-size="15" fill="var(--text-2, #4a5260)">consequent; turning not-P is denying the</text>
+  <text x="0" y="239.0" font-size="15" fill="var(--text-2, #4a5260)">antecedent.</text>
 </svg>
 
 So the four cards are the four one-step moves on a conditional, laid out on a table. The two you should turn are the two valid moves: the vowel and the odd number. The pair most people actually reach for is one of those plus one of the invalid ones: the vowel, which is right, and the even number, which is affirming the consequent. The card that goes unturned is the one modus tollens would have sent them to.
@@ -258,7 +258,7 @@ Wason summarised what was already known by the time of his 1968 paper: "Nearly a
 
 Half a century of replications lets us put numbers on it. Ragni, Kola and Johnson-Laird pooled 228 selection-task experiments in 2017: 104 with abstract rules like Wason's, 44 with everyday content, 80 with rules about what people are permitted or obliged to do (Ragni, Kola & Johnson-Laird, 2017).[3] The four canonical selections on those abstract rules came out like this.[3]
 
-<svg viewBox="0 0 344 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="wb-t wb-d" style="max-width:100%;height:auto;font-family:inherit">
+<svg viewBox="0 0 344 324" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="wb-t wb-d" style="max-width:100%;height:auto;font-family:inherit">
   <title id="wb-t">Which cards people turn over on an abstract Wason task</title>
   <desc id="wb-d">Four bars on one scale. P alone, the vowel, 36 per cent. P and Q, the vowel and the even number, 39 per cent. P and not-Q, the vowel and the odd number, the correct choice, 19 per cent. P, Q and not-Q together, 5 per cent. Pooled from 104 abstract-rule experiments.</desc>
   <text x="0" y="15" font-size="17" font-weight="600" fill="var(--text-2, #4a5260)">What people turn over, abstract rules</text>
@@ -278,8 +278,9 @@ Half a century of replications lets us put numbers on it. Ragni, Kola and Johnso
   <rect x="0" y="226" width="240" height="26" fill="var(--surface-2, #f3f5f8)" stroke="var(--line, #d6dbe3)" stroke-width="1.5"/>
   <rect x="0" y="226" width="12" height="26" fill="var(--navy, #0f2a4a)"/>
   <text x="250" y="245" font-size="16" fill="var(--text-2, #4a5260)">5%</text>
-  <text x="0" y="272" font-size="15" fill="var(--text-2, #4a5260)">Bars are shares of the four canonical picks.</text>
-  <text x="0" y="290" font-size="15" fill="var(--text-2, #4a5260)">104 abstract experiments, Ragni et al. 2017.</text>
+  <text x="0" y="272.0" font-size="15" fill="var(--text-2, #4a5260)">Bars are shares of the four canonical</text>
+  <text x="0" y="291.0" font-size="15" fill="var(--text-2, #4a5260)">picks. 104 abstract experiments, Ragni et</text>
+  <text x="0" y="310.0" font-size="15" fill="var(--text-2, #4a5260)">al. 2017.</text>
 </svg>
 
 If you picked E and 4 up there, you are in the largest group on that chart.

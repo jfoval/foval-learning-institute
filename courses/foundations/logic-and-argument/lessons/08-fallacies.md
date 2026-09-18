@@ -260,28 +260,28 @@ Three objections followed that you should be able to state.
 
 **Boudry, Paglieri and Pigliucci (2015):** the Fallacy Fork. In their words: "if fallacies are construed as demonstrably invalid form of reasoning, then they have very limited applicability in real life (few actual instances). On the other hand, if our definitions of fallacies are sophisticated enough to capture real-life complexities, they can no longer be held up as an effective tool for discriminating good and bad forms of reasoning." And: "almost every known type of fallacy is a close neighbor to sound inferences or acceptable moves in a debate."[20] Every twin in the list above is an instance of that sentence.
 
-<svg viewBox="0 0 584 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fork-t fork-d" style="width:100%;max-width:584px;height:auto;font-family:inherit">
+<svg viewBox="0 0 420 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="fork-t fork-d" style="width:100%;max-width:420px;height:auto;font-family:inherit">
   <title id="fork-t">The Fallacy Fork</title>
   <desc id="fork-d">A decision tree. Define a fallacy strictly and it is always bad when it fits, but it almost never fits a real argument. Define it loosely and it fits real arguments, but many of them are cogent. Either way, the name is not the verdict.</desc>
-  <rect x="182" y="12" width="220" height="56" rx="6" fill="var(--navy, #0f2a4a)"/>
-  <text x="292" y="35" text-anchor="middle" font-size="16" fill="var(--navy-ink, #ffffff)">Define "fallacy X"</text>
-  <text x="292" y="56" text-anchor="middle" font-size="16" fill="var(--navy-ink, #ffffff)">how strictly?</text>
-  <line x1="240" y1="68" x2="148" y2="120" stroke="var(--text-2, #4a5260)" stroke-width="2"/>
-  <line x1="344" y1="68" x2="436" y2="120" stroke="var(--text-2, #4a5260)" stroke-width="2"/>
-  <text x="168" y="100" text-anchor="middle" font-size="15" fill="var(--text-2, #4a5260)">strictly</text>
-  <text x="416" y="100" text-anchor="middle" font-size="15" fill="var(--text-2, #4a5260)">loosely</text>
-  <rect x="16" y="120" width="264" height="86" rx="6" fill="var(--navy-soft, #e8eef6)" stroke="var(--oxblood, #8b1e2d)" stroke-width="2"/>
-  <text x="148" y="148" text-anchor="middle" font-size="15" fill="var(--oxblood, #8b1e2d)">Always bad when it fits,</text>
-  <text x="148" y="170" text-anchor="middle" font-size="15" fill="var(--oxblood, #8b1e2d)">but it almost never fits</text>
-  <text x="148" y="192" text-anchor="middle" font-size="15" fill="var(--oxblood, #8b1e2d)">a real argument</text>
-  <rect x="304" y="120" width="264" height="86" rx="6" fill="var(--navy-soft, #e8eef6)" stroke="var(--oxblood, #8b1e2d)" stroke-width="2"/>
-  <text x="436" y="148" text-anchor="middle" font-size="15" fill="var(--oxblood, #8b1e2d)">Fits real arguments,</text>
-  <text x="436" y="170" text-anchor="middle" font-size="15" fill="var(--oxblood, #8b1e2d)">but many of them</text>
-  <text x="436" y="192" text-anchor="middle" font-size="15" fill="var(--oxblood, #8b1e2d)">are cogent</text>
-  <line x1="148" y1="206" x2="272" y2="246" stroke="var(--text-2, #4a5260)" stroke-width="2"/>
-  <line x1="436" y1="206" x2="312" y2="246" stroke="var(--text-2, #4a5260)" stroke-width="2"/>
-  <rect x="102" y="246" width="380" height="42" rx="6" fill="var(--navy, #0f2a4a)" stroke="var(--gold, #b08d2a)" stroke-width="2"/>
-  <text x="292" y="273" text-anchor="middle" font-size="16" fill="var(--navy-ink, #ffffff)">Either way, the name is not the verdict</text>
+  <rect x="130.9" y="12" width="158.2" height="56" rx="6" fill="var(--navy, #0f2a4a)"/>
+  <text x="210.0" y="35" text-anchor="middle" font-size="16" fill="var(--navy-ink, #ffffff)">Define "fallacy X"</text>
+  <text x="210.0" y="56" text-anchor="middle" font-size="16" fill="var(--navy-ink, #ffffff)">how strictly?</text>
+  <line x1="172.6" y1="68" x2="106.4" y2="120" stroke="var(--text-2, #4a5260)" stroke-width="2"/>
+  <line x1="247.4" y1="68" x2="313.6" y2="120" stroke="var(--text-2, #4a5260)" stroke-width="2"/>
+  <text x="98" y="98" text-anchor="middle" font-size="15" fill="var(--text-2, #4a5260)">strictly</text>
+  <text x="322" y="98" text-anchor="middle" font-size="15" fill="var(--text-2, #4a5260)">loosely</text>
+  <rect x="11.5" y="120" width="189.9" height="86" rx="6" fill="var(--navy-soft, #e8eef6)" stroke="var(--oxblood, #8b1e2d)" stroke-width="2"/>
+  <text x="106.4" y="148" text-anchor="middle" font-size="15" fill="var(--oxblood, #8b1e2d)">Always bad when it fits,</text>
+  <text x="106.4" y="170" text-anchor="middle" font-size="15" fill="var(--oxblood, #8b1e2d)">but it almost never fits</text>
+  <text x="106.4" y="192" text-anchor="middle" font-size="15" fill="var(--oxblood, #8b1e2d)">a real argument</text>
+  <rect x="218.6" y="120" width="189.9" height="86" rx="6" fill="var(--navy-soft, #e8eef6)" stroke="var(--oxblood, #8b1e2d)" stroke-width="2"/>
+  <text x="313.6" y="148" text-anchor="middle" font-size="15" fill="var(--oxblood, #8b1e2d)">Fits real arguments,</text>
+  <text x="313.6" y="170" text-anchor="middle" font-size="15" fill="var(--oxblood, #8b1e2d)">but many of them</text>
+  <text x="313.6" y="192" text-anchor="middle" font-size="15" fill="var(--oxblood, #8b1e2d)">are cogent</text>
+  <line x1="106.4" y1="206" x2="195.6" y2="246" stroke="var(--text-2, #4a5260)" stroke-width="2"/>
+  <line x1="313.6" y1="206" x2="224.4" y2="246" stroke="var(--text-2, #4a5260)" stroke-width="2"/>
+  <rect x="24" y="246" width="372" height="42" rx="6" fill="var(--navy, #0f2a4a)" stroke="var(--gold, #b08d2a)" stroke-width="2"/>
+  <text x="210.0" y="273" text-anchor="middle" font-size="16" fill="var(--navy-ink, #ffffff)">Either way, the name is not the verdict</text>
 </svg>
 
 The diagram is the fork. Whichever prong you take, the name on its own cannot do the job people want it to do. Boudry and colleagues conclude that fallacy theory should give way to case-by-case evaluation. That is one live position in the field.

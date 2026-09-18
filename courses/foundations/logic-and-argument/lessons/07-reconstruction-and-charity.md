@@ -131,36 +131,36 @@ The flat argument survives, weaker. Two reasons remain: it's near work and it ha
 
 The flat argument has convergent premises: each one is a separate reason for the conclusion, and each would count for something on its own. The train argument has linked premises: they support the conclusion only together, and neither does anything alone. The [Stanford Encyclopedia's entry on informal logic](https://plato.stanford.edu/entries/logic-informal/) makes the distinction the basic move in argument diagramming: convergent premises are drawn as separate arrows into the conclusion, and linked premises are joined with a plus sign to show "that they support the argument's conclusion (only) when combined."[2] The drawing below does exactly that for the two arguments you just read. You've met the pure convergent case before, too: the conductive arguments of lesson 5, where independent reasons are weighed against counter-considerations, are convergent support with the other side of the ledger written in.
 
-<svg viewBox="0 0 584 268" role="img" aria-labelledby="linkconv-title" style="max-width:584px;height:auto;font-family:inherit">
-  <title id="linkconv-title">Two argument diagrams. Left, convergent: three premise boxes (near her office; under budget; has a garden) each send their own arrow into the conclusion "take the flat". Right, linked: two premise boxes (leaves at 22:10; trip takes 50 minutes) are joined with a plus sign and send one shared arrow into the conclusion "home by 23:00".</title>
-  <text x="8" y="22" font-size="15" font-weight="bold" fill="var(--oxblood, #8b1e2d)">Convergent: separate reasons</text>
-  <rect x="8" y="34" width="132" height="30" fill="var(--navy-soft, #e8eef6)" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
-  <text x="16" y="54" font-size="15" fill="var(--navy, #0f2a4a)">Near her office</text>
-  <rect x="8" y="74" width="132" height="30" fill="var(--navy-soft, #e8eef6)" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
-  <text x="16" y="94" font-size="15" fill="var(--navy, #0f2a4a)">Under budget</text>
-  <rect x="8" y="114" width="132" height="30" fill="var(--navy-soft, #e8eef6)" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
-  <text x="16" y="134" font-size="15" fill="var(--navy, #0f2a4a)">Has a garden</text>
-  <line x1="140" y1="49" x2="176" y2="82" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
-  <line x1="140" y1="89" x2="176" y2="89" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
-  <line x1="140" y1="129" x2="176" y2="96" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
-  <polygon points="176,84 184,89 176,94" fill="var(--navy, #0f2a4a)"/>
-  <rect x="184" y="74" width="112" height="30" fill="none" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
-  <text x="192" y="94" font-size="15" fill="var(--navy, #0f2a4a)">Take the flat</text>
-  <text x="8" y="188" font-size="15" font-weight="bold" fill="var(--oxblood, #8b1e2d)">Linked: reasons only together</text>
-  <rect x="8" y="200" width="132" height="30" fill="var(--navy-soft, #e8eef6)" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
-  <text x="16" y="220" font-size="15" fill="var(--navy, #0f2a4a)">Leaves at 22:10</text>
-  <text x="152" y="220" font-size="17" font-weight="bold" fill="var(--oxblood, #8b1e2d)">+</text>
-  <rect x="170" y="200" width="150" height="30" fill="var(--navy-soft, #e8eef6)" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
-  <text x="178" y="220" font-size="15" fill="var(--navy, #0f2a4a)">Trip takes 50 min</text>
-  <line x1="320" y1="215" x2="366" y2="215" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
-  <polygon points="366,210 374,215 366,220" fill="var(--navy, #0f2a4a)"/>
-  <rect x="374" y="200" width="140" height="30" fill="none" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
-  <text x="382" y="220" font-size="15" fill="var(--navy, #0f2a4a)">Home by 23:00</text>
-  <text x="326" y="54" font-size="15" fill="var(--text-2, #4a5260)">Lose one convergent premise:</text>
-  <text x="326" y="74" font-size="15" fill="var(--text-2, #4a5260)">two arrows still arrive. Lose one</text>
-  <text x="326" y="94" font-size="15" fill="var(--text-2, #4a5260)">linked premise: the shared</text>
-  <text x="326" y="114" font-size="15" fill="var(--text-2, #4a5260)">arrow never fires.</text>
-  <text x="8" y="258" font-size="15" fill="var(--text-2, #4a5260)">The flat and train arguments, drawn as the Stanford entry draws them.</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 372" width="100%" style="max-width:420px;display:block;margin:1.5em auto;font-family:system-ui,sans-serif" role="img" aria-labelledby="linkconv-title">
+<title id="linkconv-title">Two argument diagrams. First, convergent: three premise boxes (near her office; under budget; has a garden) each send their own arrow into the conclusion "take the flat". Second, linked: two premise boxes (leaves at 22:10; trip takes 50 minutes) are joined with a plus sign and send one shared arrow into the conclusion "home by 23:00".</title>
+<text x="6" y="22" font-size="15" font-weight="700" fill="var(--oxblood, #8b1e2d)">Convergent: separate reasons</text>
+<rect x="6" y="34" width="120" height="30" fill="var(--navy-soft, #e8eef6)" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
+<text x="14" y="54" font-size="15" fill="var(--navy, #0f2a4a)">Near her office</text>
+<rect x="6" y="74" width="120" height="30" fill="var(--navy-soft, #e8eef6)" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
+<text x="14" y="94" font-size="15" fill="var(--navy, #0f2a4a)">Under budget</text>
+<rect x="6" y="114" width="120" height="30" fill="var(--navy-soft, #e8eef6)" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
+<text x="14" y="134" font-size="15" fill="var(--navy, #0f2a4a)">Has a garden</text>
+<line x1="126" y1="49" x2="160" y2="82" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
+<line x1="126" y1="89" x2="160" y2="89" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
+<line x1="126" y1="129" x2="160" y2="96" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
+<polygon points="160,84 166,89 160,94" fill="var(--navy, #0f2a4a)"/>
+<rect x="166" y="74" width="110" height="30" fill="none" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
+<text x="174" y="94" font-size="15" fill="var(--navy, #0f2a4a)">Take the flat</text>
+<text x="6" y="178" font-size="15" font-weight="700" fill="var(--oxblood, #8b1e2d)">Linked: reasons only together</text>
+<rect x="6" y="190" width="120" height="30" fill="var(--navy-soft, #e8eef6)" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
+<text x="14" y="210" font-size="15" fill="var(--navy, #0f2a4a)">Leaves at 22:10</text>
+<text x="133" y="211" font-size="17" font-weight="700" fill="var(--oxblood, #8b1e2d)">+</text>
+<rect x="148" y="190" width="132" height="30" fill="var(--navy-soft, #e8eef6)" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
+<text x="156" y="210" font-size="15" fill="var(--navy, #0f2a4a)">Trip takes 50 min</text>
+<line x1="280" y1="205" x2="290" y2="205" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
+<polygon points="290,200 296,205 290,210" fill="var(--navy, #0f2a4a)"/>
+<rect x="296" y="190" width="120" height="30" fill="none" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
+<text x="304" y="210" font-size="15" fill="var(--navy, #0f2a4a)">Home by 23:00</text>
+<text x="6" y="262" font-size="15" fill="var(--text, #111418)">Lose one convergent premise and two arrows</text>
+<text x="6" y="281" font-size="15" fill="var(--text, #111418)">still arrive. Lose one linked premise and the</text>
+<text x="6" y="300" font-size="15" fill="var(--text, #111418)">shared arrow never fires.</text>
+<text x="6" y="334" font-size="15" fill="var(--text-2, #4a5260)">The flat and train arguments, drawn as the</text>
+<text x="6" y="353" font-size="15" fill="var(--text-2, #4a5260)">Stanford entry draws them.</text>
 </svg>
 
 The reason to tell them apart is that the whole point of evaluating premises one at a time (which is what step 5 does) is to know what happens to the argument when one of them fails. If the premises are linked, a single false premise sinks the conclusion. If they're convergent, a single false premise costs the argument one reason and leaves the rest. So a diagram is a prediction about damage. It tells you, before you've tested anything, which premises are load-bearing and which are extra weight.
@@ -186,37 +186,30 @@ Stephen Toulmin, in *The Uses of Argument* (1958), thought the premise-and-concl
 
 Here are the six slots drawn out. Lesson 1's drawing showed four of them; this is the whole machine.
 
-<svg viewBox="0 0 584 396" role="img" aria-labelledby="toulmin-full-title" style="max-width:584px;height:auto;font-family:inherit">
-  <title id="toulmin-full-title">Toulmin's full six-slot layout of the Harry argument. The data "Harry was born in Bermuda" leads by an arrow labelled with the qualifier "so, presumably" to the claim "Harry is a British subject". Under the arrow sits the warrant "A man born in Bermuda will generally be a British subject", and under the warrant its backing, the statutes on British nationality. Hanging from the claim is the rebuttal: unless both his parents were aliens, or he has since become a naturalised American.</title>
-  <text x="8" y="20" font-size="15" font-weight="bold" fill="var(--oxblood, #8b1e2d)">Data</text>
-  <rect x="8" y="28" width="182" height="56" fill="var(--navy-soft, #e8eef6)" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
-  <text x="16" y="52" font-size="15" fill="var(--navy, #0f2a4a)">Harry was born</text>
-  <text x="16" y="72" font-size="15" fill="var(--navy, #0f2a4a)">in Bermuda.</text>
-  <line x1="190" y1="56" x2="368" y2="56" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
-  <polygon points="368,51 376,56 368,61" fill="var(--navy, #0f2a4a)"/>
-  <text x="279" y="46" font-size="15" font-style="italic" fill="var(--oxblood, #8b1e2d)" text-anchor="middle">so, presumably</text>
-  <text x="272" y="20" font-size="15" font-weight="bold" fill="var(--oxblood, #8b1e2d)" text-anchor="middle">Qualifier</text>
-  <text x="376" y="20" font-size="15" font-weight="bold" fill="var(--oxblood, #8b1e2d)">Claim</text>
-  <rect x="376" y="28" width="182" height="56" fill="var(--navy-soft, #e8eef6)" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
-  <text x="384" y="52" font-size="15" fill="var(--navy, #0f2a4a)">Harry is a</text>
-  <text x="384" y="72" font-size="15" fill="var(--navy, #0f2a4a)">British subject.</text>
-  <line x1="279" y1="56" x2="279" y2="120" stroke="var(--navy, #0f2a4a)" stroke-width="1.5" stroke-dasharray="4 3"/>
-  <text x="60" y="140" font-size="15" font-weight="bold" fill="var(--oxblood, #8b1e2d)">Warrant (the rule nobody said)</text>
-  <rect x="60" y="148" width="300" height="56" fill="none" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
-  <text x="68" y="172" font-size="15" fill="var(--navy, #0f2a4a)">A man born in Bermuda will</text>
-  <text x="68" y="192" font-size="15" fill="var(--navy, #0f2a4a)">generally be a British subject.</text>
-  <line x1="210" y1="204" x2="210" y2="240" stroke="var(--navy, #0f2a4a)" stroke-width="1.5" stroke-dasharray="4 3"/>
-  <text x="60" y="260" font-size="15" font-weight="bold" fill="var(--oxblood, #8b1e2d)">Backing (why the rule holds)</text>
-  <rect x="60" y="268" width="300" height="56" fill="none" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
-  <text x="68" y="292" font-size="15" fill="var(--navy, #0f2a4a)">The statutes and legal provisions</text>
-  <text x="68" y="312" font-size="15" fill="var(--navy, #0f2a4a)">governing British nationality.</text>
-  <line x1="467" y1="84" x2="467" y2="240" stroke="var(--oxblood, #8b1e2d)" stroke-width="1.5" stroke-dasharray="4 3"/>
-  <text x="390" y="260" font-size="15" font-weight="bold" fill="var(--oxblood, #8b1e2d)">Rebuttal (unless...)</text>
-  <rect x="390" y="268" width="188" height="76" fill="none" stroke="var(--oxblood, #8b1e2d)" stroke-width="1.5"/>
-  <text x="398" y="290" font-size="15" fill="var(--navy, #0f2a4a)">both his parents were</text>
-  <text x="398" y="310" font-size="15" fill="var(--navy, #0f2a4a)">aliens, or he is now a</text>
-  <text x="398" y="330" font-size="15" fill="var(--navy, #0f2a4a)">naturalised American.</text>
-  <text x="8" y="384" font-size="15" fill="var(--text-2, #4a5260)">Toulmin's layout in full (1958, pp. 97 to 102). Wording from the 2003 edition.</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 438" width="100%" style="max-width:420px;display:block;margin:1.5em auto;font-family:system-ui,sans-serif" role="img" aria-labelledby="toulmin-full-title">
+<title id="toulmin-full-title">Toulmin's full six-slot layout of the Harry argument, stacked top to bottom. The data "Harry was born in Bermuda" leads by an arrow labelled with the qualifier "so, presumably" to the claim "Harry is a British subject". Below them sits the warrant, that a man born in Bermuda will generally be a British subject, and below that its backing, the statutes governing British nationality. Last comes the rebuttal: unless both his parents were aliens, or he has since become a naturalised American.</title>
+<text x="6" y="20" font-size="15" font-weight="700" fill="var(--oxblood, #8b1e2d)">Data</text>
+<rect x="6" y="28" width="408" height="32" fill="var(--navy-soft, #e8eef6)" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
+<text x="16" y="49" font-size="15" fill="var(--navy, #0f2a4a)">Harry was born in Bermuda.</text>
+<line x1="40" y1="60" x2="40" y2="82" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
+<polygon points="35,82 45,82 40,90" fill="var(--navy, #0f2a4a)"/>
+<text x="54" y="80" font-size="15" font-style="italic" fill="var(--oxblood, #8b1e2d)">so, presumably (the qualifier)</text>
+<text x="6" y="110" font-size="15" font-weight="700" fill="var(--oxblood, #8b1e2d)">Claim</text>
+<rect x="6" y="118" width="408" height="32" fill="var(--navy-soft, #e8eef6)" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
+<text x="16" y="139" font-size="15" fill="var(--navy, #0f2a4a)">Harry is a British subject.</text>
+<text x="6" y="176" font-size="15" font-weight="700" fill="var(--oxblood, #8b1e2d)">Warrant (the rule nobody said)</text>
+<rect x="6" y="184" width="408" height="52" fill="none" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
+<text x="16" y="205" font-size="15" fill="var(--navy, #0f2a4a)">A man born in Bermuda will generally</text>
+<text x="16" y="225" font-size="15" fill="var(--navy, #0f2a4a)">be a British subject.</text>
+<text x="6" y="262" font-size="15" font-weight="700" fill="var(--oxblood, #8b1e2d)">Backing (why the rule holds)</text>
+<rect x="6" y="270" width="408" height="52" fill="none" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
+<text x="16" y="291" font-size="15" fill="var(--navy, #0f2a4a)">The statutes and legal provisions</text>
+<text x="16" y="311" font-size="15" fill="var(--navy, #0f2a4a)">governing British nationality.</text>
+<text x="6" y="348" font-size="15" font-weight="700" fill="var(--oxblood, #8b1e2d)">Rebuttal (unless...)</text>
+<rect x="6" y="356" width="408" height="52" fill="none" stroke="var(--oxblood, #8b1e2d)" stroke-width="1.5"/>
+<text x="16" y="377" font-size="15" fill="var(--navy, #0f2a4a)">both his parents were aliens, or he is</text>
+<text x="16" y="397" font-size="15" fill="var(--navy, #0f2a4a)">now a naturalised American.</text>
+<text x="6" y="432" font-size="15" fill="var(--text-2, #4a5260)">Toulmin's layout in full (1958, pp. 97 to 102).</text>
 </svg>
 
 Now write the same argument in the standard form you've been using since lesson 1:
@@ -271,31 +264,32 @@ So the full reconstruction adds:
 
 with 1, 2 and 5 linked, and 3 and 4 convergent alongside them. Here's the diagram, and notice what it predicts before any premise has been tested: the chain on the left fails as one piece, while each arrow on the right stands or falls alone.
 
-<svg viewBox="0 0 584 288" role="img" aria-labelledby="boiler-diag-title" style="max-width:584px;height:auto;font-family:inherit">
-  <title id="boiler-diag-title">Diagram of the boiler argument. On the left, premises 1 (fourteen years old), 2 (the fifteen-year rule) and 5 (replace before it fails) are joined with plus signs and send one shared arrow to the conclusion "replace it this autumn". On the right, premises 3 (serviced twice this year) and 4 (pays for itself in gas) each send their own arrow to the same conclusion.</title>
-  <text x="8" y="20" font-size="15" font-weight="bold" fill="var(--oxblood, #8b1e2d)">Linked chain</text>
-  <rect x="8" y="28" width="200" height="30" fill="var(--navy-soft, #e8eef6)" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
-  <text x="16" y="48" font-size="15" fill="var(--navy, #0f2a4a)">1. Fourteen years old</text>
-  <text x="102" y="76" font-size="17" font-weight="bold" fill="var(--oxblood, #8b1e2d)" text-anchor="middle">+</text>
-  <rect x="8" y="84" width="200" height="30" fill="var(--navy-soft, #e8eef6)" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
-  <text x="16" y="104" font-size="15" fill="var(--navy, #0f2a4a)">2. The fifteen-year rule</text>
-  <text x="102" y="132" font-size="17" font-weight="bold" fill="var(--oxblood, #8b1e2d)" text-anchor="middle">+</text>
-  <rect x="8" y="140" width="200" height="30" fill="var(--navy-soft, #e8eef6)" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
-  <text x="16" y="160" font-size="15" fill="var(--navy, #0f2a4a)">5. [Replace before it fails]</text>
-  <line x1="108" y1="170" x2="108" y2="200" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
-  <line x1="108" y1="200" x2="216" y2="222" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
-  <polygon points="214,215 224,224 212,226" fill="var(--navy, #0f2a4a)"/>
-  <text x="330" y="20" font-size="15" font-weight="bold" fill="var(--oxblood, #8b1e2d)">Convergent reasons</text>
-  <rect x="330" y="28" width="230" height="30" fill="var(--navy-soft, #e8eef6)" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
-  <text x="338" y="48" font-size="15" fill="var(--navy, #0f2a4a)">3. Serviced twice this year</text>
-  <rect x="330" y="84" width="230" height="30" fill="var(--navy-soft, #e8eef6)" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
-  <text x="338" y="104" font-size="15" fill="var(--navy, #0f2a4a)">4. Pays for itself in gas</text>
-  <line x1="430" y1="58" x2="366" y2="212" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
-  <polygon points="372,208 362,220 362,206" fill="var(--navy, #0f2a4a)"/>
-  <line x1="420" y1="114" x2="376" y2="208" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
-  <rect x="200" y="216" width="230" height="30" fill="none" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
-  <text x="208" y="236" font-size="15" fill="var(--navy, #0f2a4a)">C. Replace it this autumn</text>
-  <text x="8" y="276" font-size="15" fill="var(--text-2, #4a5260)">The boiler argument's structure: one linked chain, two separate reasons.</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 472" width="100%" style="max-width:420px;display:block;margin:1.5em auto;font-family:system-ui,sans-serif" role="img" aria-labelledby="boiler-diag-title">
+<title id="boiler-diag-title">Diagram of the boiler argument. At the top, premises 1 (fourteen years old), 2 (the fifteen-year rule) and 5 (replace before it fails) are joined with plus signs and send one shared arrow, down the left side, to the conclusion "replace it this autumn". Below them, premises 3 (serviced twice this year) and 4 (pays for itself in gas) each send their own arrow down into the same conclusion.</title>
+<text x="40" y="20" font-size="15" font-weight="700" fill="var(--oxblood, #8b1e2d)">Linked chain: only together</text>
+<rect x="40" y="28" width="346" height="30" fill="var(--navy-soft, #e8eef6)" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
+<text x="50" y="48" font-size="15" fill="var(--navy, #0f2a4a)">1. Fourteen years old</text>
+<text x="213" y="76" font-size="17" font-weight="700" text-anchor="middle" fill="var(--oxblood, #8b1e2d)">+</text>
+<rect x="40" y="82" width="346" height="30" fill="var(--navy-soft, #e8eef6)" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
+<text x="50" y="102" font-size="15" fill="var(--navy, #0f2a4a)">2. The fifteen-year rule</text>
+<text x="213" y="130" font-size="17" font-weight="700" text-anchor="middle" fill="var(--oxblood, #8b1e2d)">+</text>
+<rect x="40" y="136" width="346" height="30" fill="var(--navy-soft, #e8eef6)" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
+<text x="50" y="156" font-size="15" fill="var(--navy, #0f2a4a)">5. [Replace before it fails]</text>
+<path d="M 213 166 V 180 H 20 V 400 H 32" fill="none" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
+<polygon points="32,395 40,400 32,405" fill="var(--navy, #0f2a4a)"/>
+<text x="40" y="214" font-size="15" font-weight="700" fill="var(--oxblood, #8b1e2d)">Convergent: each on its own</text>
+<rect x="40" y="222" width="346" height="30" fill="var(--navy-soft, #e8eef6)" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
+<text x="50" y="242" font-size="15" fill="var(--navy, #0f2a4a)">3. Serviced twice this year</text>
+<rect x="40" y="276" width="346" height="30" fill="var(--navy-soft, #e8eef6)" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
+<text x="50" y="296" font-size="15" fill="var(--navy, #0f2a4a)">4. Pays for itself in gas</text>
+<line x1="150" y1="252" x2="150" y2="378" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
+<polygon points="145,378 155,378 150,386" fill="var(--navy, #0f2a4a)"/>
+<line x1="300" y1="306" x2="300" y2="378" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
+<polygon points="295,378 305,378 300,386" fill="var(--navy, #0f2a4a)"/>
+<rect x="40" y="386" width="346" height="30" fill="none" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
+<text x="50" y="406" font-size="15" fill="var(--navy, #0f2a4a)">C. Replace it this autumn</text>
+<text x="6" y="444" font-size="15" fill="var(--text-2, #4a5260)">The boiler argument's structure: one linked</text>
+<text x="6" y="463" font-size="15" fill="var(--text-2, #4a5260)">chain, two separate reasons.</text>
 </svg>
 
 **Now the evaluation**, which is the next section's subject, done here in preview. The link: this is an inductive argument (you can tell from the guards), and given the premises it's reasonably strong. The premises: 1 is a matter of record. 3 and 4 are guarded and plausible; a reasonable person would accept them provisionally and might ask to see the gas bills. Premise 2 is the problem. It's the one under "every engineer will tell you", and as stated it is almost certainly false: boilers don't have a fixed lifespan, and "don't last past fifteen" is the kind of round number people quote rather than measure. Weaken it to what an engineer might actually say ("older boilers fail more often and cost more to repair") and it still supports the intermediate conclusion, but only weakly, and premise 5 now carries more weight than the writer noticed.

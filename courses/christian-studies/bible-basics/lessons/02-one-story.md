@@ -98,27 +98,28 @@ And these are all Protestant evangelical schemes, which is a limit worth naming,
 
 Second, notice how lopsided the acts are. Count the chapters. A Protestant Bible has 1,189 of them,[7] and Act 3 alone, Genesis 12 through Malachi, has 918.
 
-<svg viewBox="0 0 584 225" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:584px;display:block;margin:1.5em auto;font-family:system-ui,sans-serif" role="img" aria-labelledby="bulk-title bulk-desc">
+<svg viewBox="0 0 420 252" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:420px;display:block;margin:1.5em auto;font-family:system-ui,sans-serif" role="img" aria-labelledby="bulk-title bulk-desc">
   <title id="bulk-title">Chapters per act: Act 3 is 918 of the Bible's 1,189 chapters</title>
   <desc id="bulk-desc">A single horizontal bar divided into five segments in proportion to the number of chapters in each act. Acts 1 and 2 are drawn as a pale outlined sliver because eleven chapters is barely a mark at this scale. Acts 1 and 2 together (Genesis 1 to 11) are 11 chapters. Act 3 (Genesis 12 to Malachi) is 918. Act 4, the four Gospels, is 89. Act 5, Acts through Jude, is 149. Act 6, Revelation, is 22. Act 3 fills about three quarters of the bar.</desc>
-  <text x="20" y="22" font-size="17" font-weight="700" fill="var(--text, #1a1a1a)">Where the bulk sits: chapters per act</text>
-  <rect x="20" y="36" width="5" height="34" fill="var(--navy-soft, #e8eef6)" stroke="var(--text-2, #4a5260)" stroke-width="1"/>
-  <rect x="25" y="36" width="420" height="34" fill="var(--oxblood, #8b1e2d)"/>
-  <rect x="445" y="36" width="41" height="34" fill="var(--navy, #0f2a4a)"/>
-  <rect x="486" y="36" width="68" height="34" fill="var(--gold, #b08d2a)"/>
-  <rect x="554" y="36" width="10" height="34" fill="var(--text-2, #4a5260)"/>
-  <text x="34" y="59" font-size="15" font-weight="700" fill="var(--bg, #ffffff)">Act 3, Israel</text>
-  <rect x="20" y="90" width="15" height="15" fill="var(--navy-soft, #e8eef6)" stroke="var(--text-2, #4a5260)" stroke-width="1"/>
-  <text x="44" y="103" font-size="15" fill="var(--text, #1a1a1a)">Acts 1 and 2, Genesis 1 to 11: 11 chapters</text>
-  <rect x="20" y="114" width="15" height="15" fill="var(--oxblood, #8b1e2d)"/>
-  <text x="44" y="127" font-size="15" fill="var(--text, #1a1a1a)">Act 3, Genesis 12 to Malachi: 918</text>
-  <rect x="20" y="138" width="15" height="15" fill="var(--navy, #0f2a4a)"/>
-  <text x="44" y="151" font-size="15" fill="var(--text, #1a1a1a)">Act 4, the four Gospels: 89</text>
-  <rect x="20" y="162" width="15" height="15" fill="var(--gold, #b08d2a)"/>
-  <text x="44" y="175" font-size="15" fill="var(--text, #1a1a1a)">Act 5, Acts through Jude: 149</text>
-  <rect x="20" y="186" width="15" height="15" fill="var(--text-2, #4a5260)"/>
-  <text x="44" y="199" font-size="15" fill="var(--text, #1a1a1a)">Act 6, Revelation: 22</text>
-  <text x="20" y="219" font-size="15" fill="var(--text-2, #4a5260)">Chapter counts, Protestant canon. Chapters are a rough measure of bulk.</text>
+  <text x="14.4" y="22" font-size="17" font-weight="700" fill="var(--text, #1a1a1a)">Where the bulk sits: chapters per act</text>
+  <rect x="14.4" y="36" width="3.6" height="34" fill="var(--navy-soft, #e8eef6)" stroke="var(--text-2, #4a5260)" stroke-width="1"/>
+  <rect x="18.0" y="36" width="302.1" height="34" fill="var(--oxblood, #8b1e2d)"/>
+  <rect x="320.0" y="36" width="29.5" height="34" fill="var(--navy, #0f2a4a)"/>
+  <rect x="349.5" y="36" width="48.9" height="34" fill="var(--gold, #b08d2a)"/>
+  <rect x="398.4" y="36" width="7.2" height="34" fill="var(--text-2, #4a5260)"/>
+  <text x="24.5" y="59" font-size="15" font-weight="700" fill="var(--bg, #ffffff)">Act 3, Israel</text>
+  <rect x="14.4" y="90" width="10.8" height="15" fill="var(--navy-soft, #e8eef6)" stroke="var(--text-2, #4a5260)" stroke-width="1"/>
+  <text x="31.6" y="103" font-size="15" fill="var(--text, #1a1a1a)">Acts 1 and 2, Genesis 1 to 11: 11 chapters</text>
+  <rect x="14.4" y="114" width="10.8" height="15" fill="var(--oxblood, #8b1e2d)"/>
+  <text x="31.6" y="127" font-size="15" fill="var(--text, #1a1a1a)">Act 3, Genesis 12 to Malachi: 918</text>
+  <rect x="14.4" y="138" width="10.8" height="15" fill="var(--navy, #0f2a4a)"/>
+  <text x="31.6" y="151" font-size="15" fill="var(--text, #1a1a1a)">Act 4, the four Gospels: 89</text>
+  <rect x="14.4" y="162" width="10.8" height="15" fill="var(--gold, #b08d2a)"/>
+  <text x="31.6" y="175" font-size="15" fill="var(--text, #1a1a1a)">Act 5, Acts through Jude: 149</text>
+  <rect x="14.4" y="186" width="10.8" height="15" fill="var(--text-2, #4a5260)"/>
+  <text x="31.6" y="199" font-size="15" fill="var(--text, #1a1a1a)">Act 6, Revelation: 22</text>
+  <text x="14.4" y="219" font-size="15" fill="var(--text-2, #4a5260)">Chapter counts, Protestant canon. Chapters</text>
+  <text x="14.4" y="238" font-size="15" fill="var(--text-2, #4a5260)">are a rough measure of bulk.</text>
 </svg>
 
 Fee and Stuart put the same point in words: the Old Testament is "three-quarters of the bulk of the Bible", and "over 40 percent of the Old Testament is narrative".[8] So most of what you'll ever read sits inside one act, the story of Israel, and that act is the one that needs a map of its own. We'll build it in a minute.
@@ -167,55 +168,56 @@ David's. "The throne of his father David" and a kingdom that "will never end" ar
 
 This is the act most readers get lost in, laid out so you can find your place. Read it top to bottom, then keep it open while you read the rest of the lesson.
 
-<svg viewBox="0 0 584 880" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:584px;display:block;margin:1.5em auto;font-family:system-ui,sans-serif" role="img" aria-labelledby="tl-title tl-desc">
+<svg viewBox="0 0 420 899" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:420px;display:block;margin:1.5em auto;font-family:system-ui,sans-serif" role="img" aria-labelledby="tl-title tl-desc">
   <title id="tl-title">The six acts of the Bible's story, with the books of Act 3 in order</title>
   <desc id="tl-desc">A vertical timeline. Act 1 Creation and Act 2 Fall at the top (Genesis 1 to 11). Act 3 Israel runs from Genesis 12 through the patriarchs, Egypt and Sinai, conquest and judges, the united kingdom, the divided kingdom, the fall of Samaria in 722 BC, the fall of Jerusalem and the exile in 586 BC, and the return under Persia, ending with Malachi. Two fixed archaeological points are marked in the pre-exilic stretch: the Tel Dan stele of the ninth century BC and the Ketef Hinnom amulets of the late seventh century BC. A four-hundred-year gap follows, empty of books in a Protestant Bible. Act 4 Jesus (the four Gospels, around AD 30). Act 5 Church (Acts and the letters). Act 6 New creation (Revelation, ending at chapters 21 and 22).</desc>
-  <line x1="44" y1="20" x2="44" y2="800" stroke="var(--text-2, #4a5260)" stroke-width="2"/>
-  <circle cx="44" cy="32" r="6" fill="var(--navy, #0f2a4a)"/>
-  <text x="60" y="37" font-size="17" font-weight="700" fill="var(--navy, #0f2a4a)">Act 1  Creation</text>
-  <text x="60" y="59" font-size="15" fill="var(--text-2, #4a5260)">Genesis 1 to 2</text>
-  <circle cx="44" cy="86" r="6" fill="var(--navy, #0f2a4a)"/>
-  <text x="60" y="91" font-size="17" font-weight="700" fill="var(--navy, #0f2a4a)">Act 2  Fall</text>
-  <text x="60" y="113" font-size="15" fill="var(--text-2, #4a5260)">Genesis 3 to 11. Noah covenant (Gen 9)</text>
-  <rect x="38" y="136" width="12" height="436" fill="var(--navy, #0f2a4a)" opacity="0.15"/>
-  <circle cx="44" cy="142" r="6" fill="var(--navy, #0f2a4a)"/>
-  <text x="60" y="147" font-size="17" font-weight="700" fill="var(--navy, #0f2a4a)">Act 3  Israel</text>
-  <text x="60" y="170" font-size="15" fill="var(--text-2, #4a5260)">Patriarchs: Genesis 12 to 50</text>
-  <text x="60" y="190" font-size="15" fill="var(--oxblood, #8b1e2d)">Abraham covenant (Gen 12, 15, 17)</text>
-  <text x="60" y="214" font-size="15" fill="var(--text-2, #4a5260)">Egypt and Sinai: Exodus to Deuteronomy</text>
-  <text x="60" y="234" font-size="15" fill="var(--oxblood, #8b1e2d)">Sinai covenant (Exod 19 to 24), renewed Deut 28 to 30</text>
-  <text x="60" y="258" font-size="15" fill="var(--text-2, #4a5260)">Land and judges: Joshua, Judges, Ruth</text>
-  <text x="60" y="282" font-size="15" fill="var(--text-2, #4a5260)">United kingdom: 1 and 2 Samuel, 1 Kings 1 to 11</text>
-  <text x="60" y="302" font-size="15" fill="var(--oxblood, #8b1e2d)">David covenant (2 Sam 7)</text>
-  <text x="60" y="322" font-size="15" fill="var(--text-2, #4a5260)">Psalms and Proverbs begin; the Psalter grows to the exile</text>
-  <text x="60" y="346" font-size="15" fill="var(--text-2, #4a5260)">Divided kingdom: 1 Kings 12 to 2 Kings 25</text>
-  <text x="60" y="366" font-size="15" fill="var(--text-2, #4a5260)">Amos, Hosea, Isaiah, Micah, Jeremiah, Zephaniah</text>
-  <text x="60" y="386" font-size="15" fill="var(--text-2, #4a5260)">Tel Dan stele, 9th c. BC: "House of David"</text>
-  <text x="60" y="406" font-size="15" fill="var(--text-2, #4a5260)">Ketef Hinnom amulets, late 7th c. BC: Numbers 6 in use</text>
-  <circle cx="44" cy="424" r="5" fill="var(--oxblood, #8b1e2d)"/>
-  <text x="60" y="429" font-size="15" font-weight="700" fill="var(--oxblood, #8b1e2d)">722 BC  Samaria falls to Assyria. The north ends</text>
-  <circle cx="44" cy="450" r="6" fill="var(--oxblood, #8b1e2d)"/>
-  <text x="60" y="455" font-size="15" font-weight="700" fill="var(--oxblood, #8b1e2d)">586 BC  Jerusalem falls. Exile</text>
-  <text x="60" y="477" font-size="15" fill="var(--text-2, #4a5260)">Lamentations, Ezekiel, Daniel</text>
-  <text x="60" y="497" font-size="15" fill="var(--text-2, #4a5260)">Psalms of the exile, Psalm 137 among them</text>
-  <text x="60" y="517" font-size="15" fill="var(--oxblood, #8b1e2d)">New covenant promised (Jer 31)</text>
-  <text x="60" y="541" font-size="15" fill="var(--text-2, #4a5260)">Return under Persia: Ezra, Nehemiah, Esther,</text>
-  <text x="60" y="561" font-size="15" fill="var(--text-2, #4a5260)">Haggai, Zechariah, Malachi, Chronicles</text>
-  <rect x="38" y="584" width="12" height="56" fill="var(--gold, #b08d2a)" opacity="0.35"/>
-  <text x="60" y="608" font-size="15" font-weight="700" fill="var(--gold, #b08d2a)">Four hundred years, no book in this Bible</text>
-  <text x="60" y="630" font-size="15" fill="var(--text-2, #4a5260)">Persia, Greece, the Maccabees, Rome. Sirach, c. 132 BC</text>
-  <circle cx="44" cy="660" r="6" fill="var(--navy, #0f2a4a)"/>
-  <text x="60" y="665" font-size="17" font-weight="700" fill="var(--navy, #0f2a4a)">Act 4  Jesus  (about AD 30)</text>
-  <text x="60" y="687" font-size="15" fill="var(--text-2, #4a5260)">Matthew, Mark, Luke, John</text>
-  <text x="60" y="707" font-size="15" fill="var(--oxblood, #8b1e2d)">New covenant made (Luke 22:20)</text>
-  <circle cx="44" cy="733" r="6" fill="var(--navy, #0f2a4a)"/>
-  <text x="60" y="738" font-size="17" font-weight="700" fill="var(--navy, #0f2a4a)">Act 5  Church</text>
-  <text x="60" y="760" font-size="15" fill="var(--text-2, #4a5260)">Acts; Paul's letters; Hebrews to Jude</text>
-  <circle cx="44" cy="786" r="6" fill="var(--navy, #0f2a4a)"/>
-  <text x="60" y="791" font-size="17" font-weight="700" fill="var(--navy, #0f2a4a)">Act 6  New creation</text>
-  <text x="60" y="813" font-size="15" fill="var(--text-2, #4a5260)">Revelation, ending at chapters 21 and 22</text>
-  <text x="20" y="847" font-size="15" fill="var(--text-2, #4a5260)">This map shows where each book's story is set.</text>
-  <text x="20" y="867" font-size="15" fill="var(--text-2, #4a5260)">When each book was written is a separate question; lesson 10 takes it up.</text>
+  <line x1="31.6" y1="20" x2="31.6" y2="800" stroke="var(--text-2, #4a5260)" stroke-width="2"/>
+  <circle cx="31.6" cy="32" r="6" fill="var(--navy, #0f2a4a)"/>
+  <text x="43.2" y="37" font-size="17" font-weight="700" fill="var(--navy, #0f2a4a)">Act 1  Creation</text>
+  <text x="43.2" y="59" font-size="15" fill="var(--text-2, #4a5260)">Genesis 1 to 2</text>
+  <circle cx="31.6" cy="86" r="6" fill="var(--navy, #0f2a4a)"/>
+  <text x="43.2" y="91" font-size="17" font-weight="700" fill="var(--navy, #0f2a4a)">Act 2  Fall</text>
+  <text x="43.2" y="113" font-size="15" fill="var(--text-2, #4a5260)">Genesis 3 to 11. Noah covenant (Gen 9)</text>
+  <rect x="27.3" y="136" width="8.6" height="436" fill="var(--navy, #0f2a4a)" opacity="0.15"/>
+  <circle cx="31.6" cy="142" r="6" fill="var(--navy, #0f2a4a)"/>
+  <text x="43.2" y="147" font-size="17" font-weight="700" fill="var(--navy, #0f2a4a)">Act 3  Israel</text>
+  <text x="43.2" y="170" font-size="15" fill="var(--text-2, #4a5260)">Patriarchs: Genesis 12 to 50</text>
+  <text x="43.2" y="190" font-size="15" fill="var(--oxblood, #8b1e2d)">Abraham covenant (Gen 12, 15, 17)</text>
+  <text x="43.2" y="214" font-size="15" fill="var(--text-2, #4a5260)">Egypt and Sinai: Exodus to Deuteronomy</text>
+  <text x="43.2" y="234" font-size="15" fill="var(--oxblood, #8b1e2d)">Sinai covenant (Exod 19 to 24; Deut 28 to 30)</text>
+  <text x="43.2" y="258" font-size="15" fill="var(--text-2, #4a5260)">Land and judges: Joshua, Judges, Ruth</text>
+  <text x="43.2" y="282" font-size="15" fill="var(--text-2, #4a5260)">United kingdom: 1 and 2 Samuel, 1 Kings 1 to 11</text>
+  <text x="43.2" y="302" font-size="15" fill="var(--oxblood, #8b1e2d)">David covenant (2 Sam 7)</text>
+  <text x="43.2" y="322" font-size="15" fill="var(--text-2, #4a5260)">Psalms and Proverbs begin; the Psalter grows</text>
+  <text x="43.2" y="346" font-size="15" fill="var(--text-2, #4a5260)">Divided kingdom: 1 Kings 12 to 2 Kings 25</text>
+  <text x="43.2" y="366" font-size="15" fill="var(--text-2, #4a5260)">Amos, Hosea, Isaiah, Micah, Jeremiah, Zeph.</text>
+  <text x="43.2" y="386" font-size="15" fill="var(--text-2, #4a5260)">Tel Dan stele, 9th c. BC: "House of David"</text>
+  <text x="43.2" y="406" font-size="15" fill="var(--text-2, #4a5260)">Ketef Hinnom amulets, c. 600 BC: Numbers 6</text>
+  <circle cx="31.6" cy="424" r="5" fill="var(--oxblood, #8b1e2d)"/>
+  <text x="43.2" y="429" font-size="15" font-weight="700" fill="var(--oxblood, #8b1e2d)">722 BC  Samaria falls. The north ends</text>
+  <circle cx="31.6" cy="450" r="6" fill="var(--oxblood, #8b1e2d)"/>
+  <text x="43.2" y="455" font-size="15" font-weight="700" fill="var(--oxblood, #8b1e2d)">586 BC  Jerusalem falls. Exile</text>
+  <text x="43.2" y="477" font-size="15" fill="var(--text-2, #4a5260)">Lamentations, Ezekiel, Daniel</text>
+  <text x="43.2" y="497" font-size="15" fill="var(--text-2, #4a5260)">Psalms of the exile, Psalm 137 among them</text>
+  <text x="43.2" y="517" font-size="15" fill="var(--oxblood, #8b1e2d)">New covenant promised (Jer 31)</text>
+  <text x="43.2" y="541" font-size="15" fill="var(--text-2, #4a5260)">Return under Persia: Ezra, Nehemiah, Esther,</text>
+  <text x="43.2" y="561" font-size="15" fill="var(--text-2, #4a5260)">Haggai, Zechariah, Malachi, Chronicles</text>
+  <rect x="27.3" y="584" width="8.6" height="56" fill="var(--gold, #b08d2a)" opacity="0.35"/>
+  <text x="43.2" y="608" font-size="15" font-weight="700" fill="var(--gold, #b08d2a)">Four hundred years, no book in this Bible</text>
+  <text x="43.2" y="630" font-size="15" fill="var(--text-2, #4a5260)">Persia, Greece, the Maccabees, Rome. Sirach</text>
+  <circle cx="31.6" cy="660" r="6" fill="var(--navy, #0f2a4a)"/>
+  <text x="43.2" y="665" font-size="17" font-weight="700" fill="var(--navy, #0f2a4a)">Act 4  Jesus  (about AD 30)</text>
+  <text x="43.2" y="687" font-size="15" fill="var(--text-2, #4a5260)">Matthew, Mark, Luke, John</text>
+  <text x="43.2" y="707" font-size="15" fill="var(--oxblood, #8b1e2d)">New covenant made (Luke 22:20)</text>
+  <circle cx="31.6" cy="733" r="6" fill="var(--navy, #0f2a4a)"/>
+  <text x="43.2" y="738" font-size="17" font-weight="700" fill="var(--navy, #0f2a4a)">Act 5  Church</text>
+  <text x="43.2" y="760" font-size="15" fill="var(--text-2, #4a5260)">Acts; Paul's letters; Hebrews to Jude</text>
+  <circle cx="31.6" cy="786" r="6" fill="var(--navy, #0f2a4a)"/>
+  <text x="43.2" y="791" font-size="17" font-weight="700" fill="var(--navy, #0f2a4a)">Act 6  New creation</text>
+  <text x="43.2" y="813" font-size="15" fill="var(--text-2, #4a5260)">Revelation, ending at chapters 21 and 22</text>
+  <text x="14.4" y="847.0" font-size="15" fill="var(--text-2, #4a5260)">This map shows where each book's story is set.</text>
+  <text x="14.4" y="866.0" font-size="15" fill="var(--text-2, #4a5260)">When each book was written is a separate</text>
+  <text x="14.4" y="885.0" font-size="15" fill="var(--text-2, #4a5260)">question; lesson 10 takes it up.</text>
 </svg>
 
 A few things to notice on the map.

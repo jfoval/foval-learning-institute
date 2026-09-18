@@ -11,6 +11,42 @@ Older entries refer to `docs/BACKLOG.md`, which was split on 2026-09-09 into `do
 unstarted work) and this file. Its section numbers survive only in those entries and in a few
 split-seam comments inside Bible Basics lessons, which point at `docs/DECISIONS.md` §5.
 
+## 2026-09-18 — Every chart now readable on a phone
+
+**All thirty undersized charts are fixed.** They were viewBox 584 (one at 640) with 15px labels,
+which renders at 8.8px on the 340px-wide phone the validator models, against a 10px floor. They are
+now 420 wide and render at 12.1px, and every one was opened in the browser at 375px as well as run
+past the validator.
+
+**The arithmetic, for the next time.** A label renders at `font-size * 340 / viewBox width`. For
+15px labels to clear 10px the viewBox must be 510 or narrower; 420 is the house width.
+
+**Two kinds of chart, two methods.** Bar and line charts take a mechanical rescale: multiply every
+x-coordinate by 420/584 and leave y alone. The text then keeps its size on a smaller canvas, so some
+labels no longer fit, and the validator names each one. **Box and argument diagrams cannot be
+rescaled at all**, because shrinking a box while its text stays the same size bursts it. Those were
+redrawn stacked top to bottom with downward arrows, which is the shape a phone wants: How to Learn
+Anything lessons 2 and 6, and Logic and Argument lesson 7's three argument diagrams, including
+Toulmin's six-slot layout, which was two-dimensional and is now a column.
+
+**What the validator does not see, and the browser did.** Segment labels colliding under a bar
+(Personal Finance 6). A caption printed straight through its own bar (the same chart). Three columns
+of labels each running into the next column (Personal Finance 7). Y-axis labels clipped off the
+*left* edge, which no check looks for and which a left-edge scan now catches (Personal Finance 3).
+Branch labels sitting on top of their own connecting lines (Logic 8). Every one of those passed a
+green validate.
+
+**One method mistake worth recording.** Wrapping each long footnote line on its own puts the new
+second line exactly where the next original line already sits. The taxes chart shipped that way for
+a few minutes. The fix is to treat a chart's whole footnote block as one unit: join it, rewrap it,
+re-emit it at even spacing. And the character-width estimate has to be generous, because the
+validator's "fits in a narrow system font but not a wide one" warning is the one that catches you.
+
+**A live defect found by opening the page.** Bible Basics lesson 9 listed the literal text
+"object Object" as one of the five things the learner would learn. An objective contained a colon,
+so YAML parsed it as a mapping. The build already checked quiz fields for exactly that trap and did
+not check objectives; it does now, with a test. One instance repo-wide.
+
 ## 2026-09-17 — Algebra Essentials: the voice pass on all six lessons
 
 The same pass as Writing Clearly's, the same day, and lighter still: no em dashes, two banned

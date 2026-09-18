@@ -193,7 +193,7 @@ That, in 1843, is the whole content of the slogan "correlation isn't causation".
 
 Here are the four, drawn. This diagram is the lesson's most reused object: the predict block below, a checkpoint, a quiz question, and the exercise all ask you to run it.
 
-<svg viewBox="0 0 344 392" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="cr-t cr-d" style="max-width:100%;height:auto;font-family:inherit">
+<svg viewBox="0 0 344 401" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="cr-t cr-d" style="max-width:100%;height:auto;font-family:inherit">
   <title id="cr-t">The four readings of a correlation between A and B</title>
   <desc id="cr-d">Four panels. Reading 1: an arrow runs from A to B. Reading 2: an arrow runs from B to A. Reading 3: a third thing C sits above A and B with arrows down to each, and no arrow between A and B. Reading 4: A and B stand apart with nothing joining them, labelled chance. A footer says reading 1 is earned by ruling out 2, 3, and 4.</desc>
   <defs>
@@ -228,8 +228,8 @@ Here are the four, drawn. This diagram is the lesson's most reused object: the p
   <text x="302" y="288" font-size="16" font-weight="600" text-anchor="middle" fill="var(--navy, #0f2a4a)">B</text>
   <text x="259" y="288" font-size="16" text-anchor="middle" fill="var(--text-2, #4a5260)">. . .</text>
   <text x="259" y="332" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">4. Chance: no link</text>
-  <text x="0" y="368" font-size="15" fill="var(--text-2, #4a5260)">Reading 1 is earned by ruling out</text>
-  <text x="0" y="388" font-size="15" fill="var(--text-2, #4a5260)">readings 2, 3, and 4.</text>
+  <text x="0" y="368.0" font-size="15" fill="var(--text-2, #4a5260)">Reading 1 is earned by ruling out</text>
+  <text x="0" y="387.0" font-size="15" fill="var(--text-2, #4a5260)">readings 2, 3, and 4.</text>
 </svg>
 
 A causal argument from a correlation is strong to the degree that readings 2, 3, and 4 have been ruled out, and weak to the degree that any of them is still live. That's the test, and it's the method of difference in disguise: you're hunting for the one thing that varies, and readings 2 to 4 are the "other differences" that haven't been excluded.

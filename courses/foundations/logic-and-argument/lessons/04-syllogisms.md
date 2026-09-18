@@ -159,7 +159,7 @@ Each of the four sentences is a mark on that picture, and [Knachel's chapter](ht
 
 Here are all four, drawn:
 
-<svg viewBox="0 0 344 344" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="cf-t cf-d" style="max-width:100%;height:auto;font-family:inherit">
+<svg viewBox="0 0 344 355" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="cf-t cf-d" style="max-width:100%;height:auto;font-family:inherit">
   <title id="cf-t">The four categorical sentences as marks on a two-circle diagram</title>
   <desc id="cf-d">Four small panels. All A are B: the part of circle A outside circle B is shaded, meaning empty. No A are B: the overlap of the two circles is shaded. Some A are B: an X sits in the overlap. Some A are not B: an X sits in the part of A outside B.</desc>
   <defs>
@@ -191,8 +191,8 @@ Here are all four, drawn:
   <text x="320" y="186" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">B</text>
   <text x="214" y="234" font-size="20" font-weight="600" text-anchor="middle" fill="var(--oxblood, #8b1e2d)">X</text>
   <text x="258" y="290" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">Some A are not B</text>
-  <text x="0" y="322" font-size="15" fill="var(--text-2, #4a5260)">Shading: this region is empty.</text>
-  <text x="0" y="340" font-size="15" fill="var(--text-2, #4a5260)">X: at least one thing lives here.</text>
+  <text x="0" y="322.0" font-size="15" fill="var(--text-2, #4a5260)">Shading: this region is empty. X: at</text>
+  <text x="0" y="341.0" font-size="15" fill="var(--text-2, #4a5260)">least one thing lives here.</text>
 </svg>
 
 Two conventions to fix in your head: shading means nothing lives here; an X means something does. Shading is a strong claim about a whole region. An X is a weak claim about a single occupant.
@@ -250,9 +250,8 @@ That open region is the counterexample. It's a dog that's a mammal and isn't a c
   <text x="172" y="248" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">Mammals</text>
   <circle cx="130" cy="162" r="4" fill="var(--oxblood, #8b1e2d)"/>
   <line x1="130" y1="162" x2="70" y2="240" stroke="var(--oxblood, #8b1e2d)" stroke-width="1.5"/>
-  <text x="4" y="260" font-size="15" fill="var(--oxblood, #8b1e2d)">open: a dog that's a</text>
-  <text x="4" y="278" font-size="15" fill="var(--oxblood, #8b1e2d)">mammal and not a cat</text>
-  <text x="4" y="298" font-size="15" fill="var(--text-2, #4a5260)">Shading: emptied by the premises.</text>
+  <text x="4" y="260.0" font-size="15" fill="var(--oxblood, #8b1e2d)">open: a dog that's a mammal and not a</text>
+  <text x="4" y="279.0" font-size="15" fill="var(--oxblood, #8b1e2d)">cat Shading: emptied by the premises.</text>
 </svg>
 
 Textbooks call this the fallacy of the undistributed middle: the middle term, "mammals", is never used to say something about all mammals, so it can't connect the other two terms. The [IEP's list of fallacies](https://iep.utm.edu/fallacy/) uses this very argument, in dogs, cats and animals, as its example of the mistake (Dowden).[3] You don't need the name. You need the picture, because the picture also works when the content isn't absurd.
@@ -301,7 +300,7 @@ The counterexample is the other side of the line: an applicant with a degree who
 
 The two finished diagrams are below, and the difference between them is the whole method: in the first, the shading leaves the X only one place to go; in the second, the shading never touches the X's home, so it sits on the line.
 
-<svg viewBox="0 0 344 632" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="ap-t ap-d" style="max-width:100%;height:auto;font-family:inherit">
+<svg viewBox="0 0 344 642" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="ap-t ap-d" style="max-width:100%;height:auto;font-family:inherit">
   <title id="ap-t">The two applicant arguments drawn, one X forced and one X on the line</title>
   <desc id="ap-d">Two three-circle diagrams, labelled Applicants, Qualified and Degrees, each with the part of Qualified outside Degrees shaded. In the first, the X for "some applicants are qualified" is forced into the region inside all three circles, so the argument is valid. In the second, the X for "some applicants have degrees" sits on the boundary of the Qualified circle inside the Applicants and Degrees overlap, so the conclusion is not forced and the argument is invalid.</desc>
   <text x="0" y="15" font-size="17" font-weight="600" fill="var(--text-2, #4a5260)">The valid version: the X is forced</text>
@@ -327,9 +326,9 @@ The two finished diagrams are below, and the difference between them is the whol
   <text x="264" y="380" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">Qualified</text>
   <text x="166" y="554" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">Degrees</text>
   <text x="158" y="467" font-size="20" font-weight="600" text-anchor="middle" fill="var(--oxblood, #8b1e2d)">X</text>
-  <text x="0" y="590" font-size="15" fill="var(--text-2, #4a5260)">The X for "some applicants have degrees"</text>
-  <text x="0" y="608" font-size="15" fill="var(--text-2, #4a5260)">straddles the Qualified line: it may be either</text>
-  <text x="0" y="626" font-size="15" fill="var(--text-2, #4a5260)">side of it. Not forced. Invalid.</text>
+  <text x="0" y="590.0" font-size="15" fill="var(--text-2, #4a5260)">The X for "some applicants have degrees"</text>
+  <text x="0" y="609.0" font-size="15" fill="var(--text-2, #4a5260)">straddles the Qualified line: it may be</text>
+  <text x="0" y="628.0" font-size="15" fill="var(--text-2, #4a5260)">either side of it. Not forced. Invalid.</text>
 </svg>
 
 One more thing about that first, valid version. "Some of the applicants are qualified" told you nothing about any applicant being unqualified. If someone hears that argument and says "so some of them aren't qualified, then", they've added a premise. Maybe it's true. It wasn't stated, and it isn't something the diagram will ever show, because an X in one region says nothing about the others.
