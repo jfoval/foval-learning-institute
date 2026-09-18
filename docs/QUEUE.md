@@ -33,10 +33,20 @@ Rewrite these five lines each session. Nothing else goes in this block.
   prose says twenty items and its table by objective sums to twenty-two. The test follows the prose
   and drops one item each from lessons 5 and 7, keeping both of the blueprint's named special items,
   the lesson 4 arithmetic and the lesson 7 agree-in-part.
-- **What is left before Reading Well publishes:** lesson 9's Stage 4 review and its mandatory
-  neutrality audit, and a narrow verification of the passages lessons 6, 7 and 8 have each had
-  rewritten two or three times. Then the publish commit: `course.yaml` to published, the TAXONOMY row
-  in the same commit, and `reading-well: 10` added to `curriculum/audio-debt.yaml`.
+- **What is left before Reading Well publishes:** lesson 9's second pass, which is split between a
+  facts-and-sourcing reviewer and a second neutrality auditor because it failed the first audit and
+  its repair rewrote four sections. Lessons 1 to 8 and 10 are done and their review files are
+  written. Then the publish commit: `course.yaml` to published, the TAXONOMY row in the same commit,
+  and `reading-well: 10` added to `curriculum/audio-debt.yaml`.
+- **Nine of the ten podcast scripts are written**, which is what takes the course from *published* to
+  *written*, and none carries a `checked:` entry yet so none can be rendered. Lesson 9's script waits
+  on lesson 9 settling. Fact-checks are out on all nine: scripts 1, 2 and 4 have had one round
+  applied and are on their second, and 3, 5, 6, 7, 8 and 10 are on their first.
+- **Stop-reviewing signal, and it is worth keeping.** The fourth pass on lesson 6 returned one stale
+  pointer, a Latin spelling, a dropped dash and two paragraph-distance slips, and its reviewer said a
+  fifth would cost a session and buy a dash. `research/reviews/course-wide.md` finding 14 records the
+  signal: when a pass returns only locational and arithmetical slips in unquoted sentences, apply
+  them, commit, and put anything else here under rule 9.
 - **Lesson 9's two documents are sourced and verified**, and the research is worth keeping.
   **Worked example (a): Captain John Parker's deposition of 25 April 1775 paired with Major John
   Pitcairn's report to Gage of 26 April 1775.** One day apart, each by the officer commanding at the
