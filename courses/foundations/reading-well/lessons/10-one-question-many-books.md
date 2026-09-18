@@ -1,6 +1,7 @@
 ---
 title: "One question, many books"
 minutes: 140
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/foundations/reading-well/10-one-question-many-books.mp3
 objectives:
   - Apply the five steps of syntopical reading to one question and several texts, ending in a stated issue rather than a verdict
   - Build a neutral set of terms in which authors who do not share a vocabulary can be compared, and translate each author into it

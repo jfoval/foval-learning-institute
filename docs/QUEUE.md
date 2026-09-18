@@ -28,33 +28,31 @@ Rewrite these five lines each session. Nothing else goes in this block.
   had. Lesson 9 is about signatures, stores and package managers and will want several more. Check
   `npm run taught` and lessons 1 to 8 before assuming a word is available.
 
-- **Where the audio stands, 2026-09-18.** Six courses are FINISHED: Clear Writing, How to Learn
-  Anything, Logic and Argument, Personal Finance, Algebra Essentials and Python Basics. What is
-  left is **Reading Well** and **Bible Basics**. `npm run state` has the counts, the costs and the
-  next lesson; it is the authority on which one, and this file no longer duplicates the answer.
+- **Where the audio stands, 2026-09-18. Reading Well is FINISHED.** All ten episodes rendered,
+  uploaded and stamped in one session, one call each, every one passing the gate on its first
+  attempt. Seven courses are now finished and **Bible Basics is the only one owing anything**:
+  twelve episodes, and `npm run state` names the next lesson. When that entry leaves
+  `curriculum/audio-debt.yaml` the file is empty and every live course is finished.
 
   **The render order below and `npm run state` disagreed, and the disagreement is now resolved in
   the script's favour.** This file said legacy courses first, then the Core in term order, which
-  puts Bible Basics ahead of Reading Well. `npm run state` and `docs/PODCAST_PIPELINE.md` section 3
+  put Bible Basics ahead of Reading Well. `npm run state` and `docs/PODCAST_PIPELINE.md` section 3
   both say plain Core term order, which puts Reading Well first. Three documents against one, and
-  `.claude/commands/keep-going.md` says the command wins when they differ, so Reading Well is being
-  rendered first. **Nothing turns on it either way**: this month's remaining headroom covers every
-  one of the twenty two episodes still owed, so both courses finish regardless of which goes first.
-  **John, if you want the legacy-first order back, say so and it goes into the script rather than
-  into prose**, which is the only way it will survive the next session.
+  `.claude/commands/keep-going.md` says the command wins when they differ, so Reading Well went
+  first. **Nothing turned on it**: the month's headroom covers both courses, so both get finished
+  either way, and the hand-written order is gone rather than left to be re-litigated.
 
-  **One render was killed in flight** on Bible Basics lesson 1, on 2026-09-18, and the reason is
-  worth keeping because it was a misreading rather than a mishap. John said to wrap up before
-  starting a fresh session; the session read that as "stop everything" and stopped the chain.
-  **Wrap up means the four things at the foot of `.claude/commands/keep-going.md`: the queue true,
-  the tree clean, everything pushed, a short report.** It does not mean killing work in flight, and
-  that file now says so. Nothing was paid for twice, because nothing was kept: renders write their
-  mp3s to `audio-out/`, which survives a session, and `podcast.mjs` copies a kept attempt rather
-  than paying again.
+  **Bible Basics lesson 1 is the one whose render was killed in flight**, on 2026-09-18, and it is
+  worth knowing that nothing was paid for twice. `podcast.mjs` reports zero attempts on that
+  script, so no billed attempt was ever recorded and no audio was kept. The misreading behind it:
+  John said to wrap up before starting a fresh session and the session read that as "stop
+  everything". **Wrap up means the four things at the foot of `.claude/commands/keep-going.md`:
+  the queue true, the tree clean, everything pushed, a short report.**
 
   **Bible Basics scripts are the long ones** (1,259 to 1,539 words against the measured band of
-  1,000 to 1,200), so its twelve renders take noticeably longer than Python's six did. Budget the
-  wall-clock accordingly. Reading Well's are long too: lesson 1 took 335 seconds to render.
+  1,000 to 1,200), and lesson 1 sits at exactly 1,417, which is the guard's ceiling to the word.
+  Expect its twelve renders to take noticeably longer than Reading Well's ten did; those ran 271
+  to 484 seconds each and billed $0.18 to $0.24, averaging about $0.21.
 
 - **Digital Literacy is written as far as it can be, and now is.** All twelve drafted lessons have
   a fact-checked script; `npm run state` shows 12 of 12. Nothing on this course is outstanding
