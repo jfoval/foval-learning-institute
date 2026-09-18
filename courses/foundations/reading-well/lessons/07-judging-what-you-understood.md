@@ -1,6 +1,7 @@
 ---
 title: Judging what you have understood
 minutes: 90
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/foundations/reading-well/07-judging-what-you-understood.mp3
 objectives:
   - Explain why criticism follows interpretation, and say what goes wrong in a judgement made before one
   - Sort an objection onto one of the four grounds, or say why it belongs to none of them, and name the evidence each ground requires
