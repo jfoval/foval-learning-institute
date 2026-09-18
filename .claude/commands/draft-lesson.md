@@ -56,3 +56,30 @@ Confirmed across seventeen lessons in two courses, then again in every course si
 Run `npm run validate` and `npm run minutes`, fix what they report, then re-read your draft against the three tests in Part 1.1 and against the defect list above. Report what you wrote, the sources used, and anything you were unsure about; the reviewer will want to know.
 
 **Draft as many lessons as the budget allows** (`courses/CLAUDE.md` rule 2, changed 2026-09-18). There is no per-session cap. What must not be relaxed to go faster: each lesson gets its own Stage 4 review in a fresh context, never one review for the batch; re-read the outline and run `npm run taught <course>` before each lesson rather than working from what is still in context; and read the repetition warnings from `npm run validate`, because lessons written in one sitting reuse each other's examples and the drafter cannot see it.
+
+### Two measured patterns, moved here from docs/QUEUE.md on 2026-09-19
+
+They were in the marching order, where a session read them before deciding what to work on rather
+than while drafting. They belong with the defect list above, which is what a reviewer is told to
+read.
+
+**This drafter quotes accurately and describes carelessly, measured over five Reading Well
+lessons.** Every quotation in lesson 5 was verbatim, checked character by character against the
+source. Six of its findings were critical and every one was a claim *about* the book rather than a
+quotation from it: a sentence placed at the end of a chapter when it is in the second paragraph, a
+chapter said to be about cabbage growers when cabbage appears twice in passing, three consecutive
+sentences called distributed across three paragraphs in the very passage arguing that arguments are
+distributed, and a premise called too obvious to state when the author states it flatly four pages
+on. **Point a review at the sentences with no quotation marks in them**, and give it the source text
+so it can check them.
+
+**A lesson's Stage 4 review also catches this, measured over four Reading Well lessons.** Not
+invented facts. Arithmetic the drafter did not redo (a marketed 1,500 wpm called "four to six times"
+a band that makes it five to eight); a publisher's name half-remembered (the "American Psychological
+Science"); a claim carried in from the outline rather than from a source, which then falsified the
+lesson's own promise to claim nothing beyond its sources; a source's finding quietly rewritten to
+match the course's theme ("vocabulary and practice" becoming "vocabulary and background knowledge");
+two different things given one name across two lessons; two invented author first names; and a quiz
+that could be passed without reading the lesson because every answer was B and every correct option
+the longest. **Prompt a lesson review for those**, and give it the course's SOURCES.md, because
+three of the eight were the drafter drifting off a source that was sitting right there.

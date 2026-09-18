@@ -271,3 +271,56 @@ git add courses/<school>/<course>/lessons/<id>.md courses/<school>/<course>/podc
 Run `git status` first and read it. A file you did not touch is somebody else's work in progress;
 leave it rather than committing it for them. Pull before you push, and expect `docs/QUEUE.md` to be
 the one file two sessions genuinely contend for, because it is the shared marching order.
+
+## 8. What writing and checking scripts has taught, measured
+
+These paragraphs lived in `docs/QUEUE.md` until 2026-09-19, where they were read by every session
+whether it was touching audio or not, and were slowly turning the marching order into an archive.
+They are craft, not queue: read them before writing or checking a script. Root `CLAUDE.md` already
+sends you here for that.
+
+**A repair fails again about half the time, measured across two rounds on ten Reading Well scripts.**
+Five of the six scripts sent for a second round had passed their first-round repairs, and the sixth
+failed again on the same sentence in a quieter form: a sign-off telling the listener the lesson
+carried a whole passage it does not. The fix that works is to brief the re-checker with **what the
+repair was for**, not just to ask for another read. Three rounds is the point of diminishing return:
+lesson 6's fourth pass returned a Latin spelling and two paragraph-distance slips and nothing else.
+
+**A script fact-check earns its keep, and the failures are not the ones you would guess.** Of the
+twenty-odd scripts written on 2026-09-18, about half came back FAIL. Almost none of the failures
+were invented facts. They were: a quotation spoken in words the cited translation does not have,
+three separate times; a cross-reference to the wrong lesson in a course built on cross-references;
+a count in a sign-off that the repair itself had falsified; a hedge dropped so that an argued claim
+arrived settled; and, once, a whole direction, where every compression in an episode narrowed the
+range of positions and weakened the side the course disagrees with. **Prompt the check for those**,
+not for whether the numbers are right, and on a standpoint course ask explicitly whether anything
+the episode keeps quietly takes a side.
+
+**A maths script needs a different check from a prose one, learned on 2026-09-18.** A listener
+cannot see a bracket, so every bracket is opened and closed aloud ("bracket, minus one, close
+bracket, squared"), every product is spoken with its "times", and any expression that could parse
+two ways by ear is said in pieces. The fact-check prompt for a maths lesson asks the reviewer to
+redo every calculation **and** to read the script as a listener hears it: the first algebra script
+said the same spoken phrase equalled plus one in one turn and minus one four turns later, which is
+invisible on the page and fatal in audio.
+
+**What a script for a long lesson looks like, learned over seventeen of them on 2026-09-18.** The
+ceiling is about 1,417 spoken words and the dense lessons do not fit. Choose two or three of the
+lesson's sections and take them properly, rather than touring all of them; then **say in the
+sign-off what the episode left out**, by name. Logic 5 takes one of its four families of inductive
+argument, Logic 6 takes two of its three errors, and both are better episodes for it. Cut whole
+exchanges, never shave words: shaving costs a dozen edits and loses the hedges, and every
+fact-check tonight found the same thing, that what a cut removes first is a qualifier. Write them with
+`/make-podcast <lesson>`, stopping after the fact-check. Several a session is fine. Take one course
+all the way to *written* before starting the next.
+
+**The 1,417-word ceiling is about 150 words tighter than it needs to be, measured 2026-09-18.**
+`scripts/podcast.mjs` computes the refusal from `WPM = 150`, and across the twenty one episodes
+rendered with durations recorded the real rate is about 167 words a minute. Logic 4 is the clean
+case: 1,413 words came back as 511 seconds of audio and 12,787 audio tokens, against the 14,745 the
+guard assumed. So the true ceiling is nearer 1,570 words. **Do not raise the constant on this
+note**: the guard is doing its job and a wrong ceiling in the other direction costs money. It is
+here so that a session shortening a good script knows it is cutting against a conservative wall,
+and so that whoever next touches that file can widen it on evidence. The same constant makes every
+script's `approx_minutes` wrong; the six Python and Algebra scripts written tonight say 8, the
+older ones still say 6 over 1,400 words.

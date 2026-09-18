@@ -11,6 +11,142 @@ Older entries refer to `docs/BACKLOG.md`, which was split on 2026-09-09 into `do
 unstarted work) and this file. Its section numbers survive only in those entries and in a few
 split-seam comments inside Bible Basics lessons, which point at `docs/DECISIONS.md` §5.
 
+## 2026-09-19 — Reading Well written, Digital Literacy started, and the queue pruned
+
+**Reading Well is written.** Ten lessons, a twenty-item course-end test, a project, and ten
+fact-checked scripts. The eighth live course and the second on the Foval Core. Its ten episodes are
+on the debt ledger; it is not finished and the word is not used for it.
+
+**Digital Literacy through Stage 2.** Scaffolded at T1, 8,800 words of research, and a 15,900-word
+outline planning thirteen lessons, a course-end test and a machine-audit project. Six decisions are
+settled in the outline rather than left to the drafter, including teaching POSIX shell rather than
+PowerShell and having lesson 1 state that the course's own premise is only partly supported by its
+own sources.
+
+**Three checks stopped saying false things, each with tests.** `npm run state` and `npm run
+validate` counted script *files* and called them fact-checked, so ten unread drafts read as a
+written course; it had already misrouted this session past an unchecked script. `npm run state`
+also named a stage a course was not ready for, telling a session to draft lesson 1 of a course that
+had only been researched. And `npm run quiz` reported eighteen quizzes under the headline "a reader
+could game" when not one was beaten by any strategy, which is why those eighteen had sat unactioned
+for days.
+
+**Two silent failures in the audio budget block**, both found by John asking why no episodes were
+rendered. The "THE CAP IS SPENT" banner sat after an early `return` from 2026-09-09 and had never
+run once, through the month a runaway retry loop ate $23.39 of a $30 cap. And the block reported
+five views of what had been spent and none of what finishing costs, though it was derivable from
+two numbers printed a few lines apart. It now prints the debt and what clears it, from one measured
+per-episode rate instead of three hardcoded copies of $0.22.
+
+**Four defects closed in published courses.** Python Basics 1's Patitsas arithmetic, which said
+"most of the 45 may well be noise" when the chance rate applies to the 323 sections tested, about
+sixteen, so it was undercutting a real result threefold; its script carried the same error and its
+`checked:` block recorded that two reviewers had confirmed the wrong denominator. Personal Finance
+6's citations, and then the five claims that had no source at all, two of which did not survive
+contact with the evidence. That lesson's quiz, the worst in the repo. And a neutrality lean in
+Reading Well 9's uncontested frame.
+
+**The queue was pruned back to what is actionable.** It had grown from 847 words on 9 September to
+4,109, and a third of it was history and craft that every session read before deciding what to work
+on. Closed items are below; the script craft moved to `docs/PODCAST_PIPELINE.md` section 8 and the
+lesson-drafting craft to the defect list in `.claude/commands/draft-lesson.md`, which are the files
+the pipeline already tells you to read at those moments. Nothing was deleted.
+
+### Closed queue items, moved here verbatim
+
+1. **A render was paid for twice on 2026-09-18, and the reason is worth keeping.** Writing Clearly
+   lesson 4's script was shortened to fit the render ceiling and sent to render before its
+   re-check came back. The re-check returned FAIL: the cut had dropped the closing clause of a
+   thirty-six-word example while keeping the number, so the episode said "thirty six words" over a
+   thirty-word sentence and then called eighteen "half the length". The episode was rendered,
+   listened to on the profile, and **not uploaded**; the script was fixed and rendered again, at a
+   cost of about $0.24. **The rule that follows: never start a render until the fact-check of the
+   text you are about to send has come back.** A `checked:` entry from before a cut is not a check
+   of what the cut left.
+2. **Seven small numbers and headings in published lessons, all found by script fact-checks on
+   2026-09-18 and all fixed on the morning of the 19th.** Algebra 3's "at x = 3, one is 9 and the
+   other is 27", which compared `3x` and `5x²` and then gave the values of `x` and `x²`; Algebra 2's
+   heading "Two more shapes" over four; Python 2's "Two ways to live with it" and "Either is a real
+   answer" over three; Bible Basics 4's "says it in four words" over a five-word chapter title;
+   Bible Basics 6's exercise heading naming Acts 6, which appears in the lesson's discussion and not
+   in the exercise; Writing Clearly 6's shortened paragraph called 46 words when it is 47, which
+   makes the reduction 58 per cent rather than 59, in a lesson whose own Sources note promises every
+   count was recounted; and Writing Clearly 9's "twenty-word subordinate clause" over a clause of
+   eleven. **Two Algebra scripts named two of these slips in their sign-offs or their `checked:`
+   blocks and have been updated**, which is the thing to remember: a fix to a published lesson can
+   falsify a script written about it, so grep the podcast folder as well.
+3. **Closed 2026-09-19, and the queue's reading of it was right.** Python Basics lesson 1 said
+   "most of the 45 may well be noise" about the Patitsas dip-test result. The 5% is 5% of the 323
+   sections actually tested, about sixteen, so it was undercutting a real result by a factor of
+   nearly three. The paper was read directly: its own figures are "45 classes (13.9% of those
+   tested, 5.8% of all the classes)", and the lesson had printed only the second, which is what
+   made 5.8% look indistinguishable from the 5% chance rate. Both are now given, and the paper's
+   own strengthening argument replaces the invented one. **The script carried the same error and
+   its `checked:` block recorded that two reviewers had confirmed the denominator and called 13.9%
+   "the misleading" figure.** Both rounds were wrong, and the block now says so. The lesson to keep:
+   a `checked:` block is evidence about what was looked at, not proof that it was right.
+**Two things `npm run state` was getting wrong, both fixed 2026-09-19 with tests.** It counted
+script *files* rather than checked ones, so ten unread drafts read as a written course, and it had
+already sent this session past an unchecked script to the next course. And it named a stage the
+course was not ready for: it tracked `OUTLINE.md` and never looked at it, so it told a session to
+draft lesson 1 of a course that had only been researched. **The line `npm run state` prints is the
+one thing a session acts on without re-deriving, so a wrong line misdirects a whole session.** If
+you find a third case, write the test first.
+
+4. **Personal Finance 6 is cited, and citing it found something worse.** Thirteen markers went in
+   on 2026-09-19 and the last `npm run validate` warning is cleared; every one of the nine entries
+   now carries a claim the prose makes, and none was a candidate for removal. **The problem was the
+   other way round.** Five claims in the lesson have no entry at all, two of them load-bearing: the
+   "nine in ten filers take the standard deduction" figure, asserted four times and carrying the
+   whole not-every-deduction-reaches-you argument, and a contested payroll-tax incidence assumption
+   attributed to the CBO where the CBO entry cited is a different paper on a different subject. The
+   capital-gains schedule, the refundable-credit paragraph and the state-tax range are the other
+   three. Two sentences that reached past their sources were narrowed in the same commit. **The
+   remaining five were closed on 2026-09-19 from primary documents**, and two did not survive
+   contact with the evidence: "along with most economists" on payroll tax incidence was cut,
+   because CBO's own appendix says the incidence could differ from its allocation and its working
+   paper calls the empirical evidence limited; and "the EITC is the largest example" of a
+   refundable credit was narrowed, because the Child Tax Credit is larger in total though only
+   partly refundable. The lesson now says a newer tax table exists. Its quiz, the worst in the
+   repo at a 174-character option spread with the key longest in three of six items, was rebalanced
+   in the same pass. Nine other lessons have one to three uncited entries, which is ordinary and
+   stays under the threshold. **Nothing is outstanding on this lesson.**
+5. **Six of the seven dead links are fixed, and the seventh cannot be.** The
+   `earlychristianwritings.com` pages had moved: the Thomas page is back at `/thomas.html`, and 1
+   Enoch, 2 Baruch and 4 Ezra were never Christian writings and live on the sister site
+   `earlyjewishwritings.com`, where 4 Ezra is filed as 2 Esdras and the lesson now says so. Personal
+   Finance 1's Wikipedia link for *All Your Worth* is now Open Library. Reading Well 1's tenancy
+   guides page is now the scheme's help centre. **The Vanguard emergency-savings report is gone with
+   no replacement**, so its citation stands in both places without a link, which is what standards
+   4.5 allows. The 32 links reporting 403 are publishers blocking scripts, not breakage; leave them.
+6. **Settled 2026-09-19: the quiz check was reporting eighteen quizzes under a headline that was
+   false.** Not one of the eighteen was beaten by pick-the-longest, pick-the-shortest, or
+   always-pick-the-same-position, which are the strategies that actually make a quiz gameable.
+   Every flag was an advisory note about shape. Verdict and advice are now separate, only a
+   genuinely gameable quiz exits non-zero, and the spread line carries the number worth acting on:
+   how many wide items have the key as the longest option. Seventeen quizzes remain lumpy in shape
+   and none is winnable by it. **Rebalance one when its lesson is next open; do not make a session
+   of it.**
+
+**How to Learn Anything is done**, finished 2026-09-18: eight episodes, $1.61, every one passing on
+its first attempt, all eight live in R2. It is the first course finished by the institute's own
+definition.
+
+**Adler's third stage is now recorded verbatim in Reading Well's SOURCES.md, re-read from the scan
+on 2026-09-18.** Four lessons had been leaning on `OUTLINE.md` for it, which is a plan and not a
+citation, and one of them invented a distinction Adler explicitly rules out. Two things came back
+stronger than the course had been recording. The demanding rule is blunter: "You have no freedom of
+will about this ... you simply cannot disagree. You must agree." And **Adler's own illustration of an
+uninformed author is Darwin lacking genetics**, which he calls "one of the major defects in *The
+Origin of Species*", so lesson 7's example now comes from the book lesson 5 worked.
+
+**The seven existing scripts are renderable as they are.** The speaker prompt that made How to
+Learn Anything come out right is built by `scripts/podcast.mjs` at render time, not stored in the
+script, so every script gets it. They only run long and ping-pong, which is taste and about seven
+cents. `/make-podcast` says what could be improved and that neither thing blocks a render.
+**Nothing on a course already through Stage 4 is to be re-opened.**
+
+
 ## 2026-09-18 — `npm run state`: the facts are computed, not written down
 
 John, after the third correction in one session: *"we keep going in circles... it seems like no
