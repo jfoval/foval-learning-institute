@@ -56,16 +56,33 @@ Rewrite these five lines each session. Nothing else goes in this block.
   1,000 to 1,200), so its twelve renders take noticeably longer than Python's six did. Budget the
   wall-clock accordingly. Reading Well's are long too: lesson 1 took 335 seconds to render.
 
-- **Digital Literacy is written as far as it can be, and nearly is.** Every drafted script now
-  carries a `checked:` entry. **Lessons 4, 5 and 6 still need scripts written**; 1, 2, 3 and 7 to 12
-  are done. Lesson 1's check came back FAIL on a real finding worth remembering: the script had
-  offered the single-box drawing from Kang as the result arguing against the course's own premise,
-  when the lesson presents it as the encouraging half and puts the weight on the null result that
-  technical background had no relationship with protective action. **A compression that keeps every
-  figure can still invert the argument**, which is the failure mode the fact-check prompt should
-  name explicitly.
+- **Digital Literacy is written as far as it can be, and now is.** All twelve drafted lessons have
+  a fact-checked script; `npm run state` shows 12 of 12. Nothing on this course is outstanding
+  except lesson 13, which is blocked below.
 
-- **BLOCKED ON JOHN, and it is the only thing standing between Digital Literacy and publication.**
+  **What the twelve checks taught, because it is the same defect three ways.** Two came back FAIL
+  and the rest PASS WITH NITS, and almost none of it was an invented fact. Lesson 1's script had
+  offered Kang's single-box drawing as the result arguing against the course's own premise, when
+  the lesson presents it as the encouraging half and puts the weight on the null result that
+  technical background had no relationship with protective action. **A compression that keeps every
+  figure can still invert the argument.** Lesson 6's script spoke one error message for both shells
+  and then claimed they differed in word order, and after the repair it made the same unhearable
+  claim one clause later; it took three rounds. **An episode is heard, not read, so a difference
+  that lives in punctuation or a capital letter does not exist**, and that is worth adding to the
+  fact-check prompt for any lesson that prints a terminal message. And four scripts running, the
+  nits were dropped hedges: "will usually have changed" stated flat, "almost every" split across
+  two sentences so three items became universals, "by default" removed from a claim the lesson's
+  own callout contradicts. **What a compression removes first is a qualifier**, which the pipeline
+  doc already says and which held on every lesson here.
+
+  Every script in this course was also written long and cut against the free dry run before the
+  check rather than after, per section 4a. Five of the six drafted today opened above the
+  1,417-word wall.
+
+- **BLOCKED ON JOHN, and it is now the only unblocked-work gap in the whole institute.** With the
+  scripts done, lesson 13 is the single thing between Digital Literacy and publication, and no
+  other course has content work outstanding. A session with no episodes left to render has nothing
+  to write until this arrives.
   Lesson 13, the last one, has a Stage 1 gate the outline states as a **must**: "Stage 1 must run a
   real data export end to end and record what arrived". Its first worked example is that export,
   described concretely, how long it took, how big it was, what format it was in, which parts were

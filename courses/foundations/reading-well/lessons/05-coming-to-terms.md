@@ -1,6 +1,7 @@
 ---
 title: "Finding the argument: coming to terms with an author"
 minutes: 150
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/foundations/reading-well/05-coming-to-terms.mp3
 objectives:
   - Apply the four structural rules to a chapter and produce an outline of its parts
   - Identify an author's key terms and state what each one means in that author's usage rather than in general usage
