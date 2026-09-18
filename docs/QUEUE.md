@@ -14,14 +14,14 @@ defect moves to the changelog; it does not stay here struck through.
 
 Rewrite these five lines each session. Nothing else goes in this block.
 
-- **Current course:** **Digital Literacy**, started 2026-09-19 and in Stage 1 research. Reading
-  Well published on 2026-09-19 with ten lessons, a twenty-item course-end test and the project; it
-  is the eighth live course and the second on the Foval Core, and its ten episodes are on the debt
-  ledger. **Every published course is written except Reading Well**, which owes one fact-check, on
-  script 9. Its other nine scripts are checked, six of them twice.
-- **Current lesson:** none. **Next is the fact-check on Reading Well script 9**, which is drafted
-  at 1,333 spoken words and is the last thing between that course and *written*, and then Stage 2
-  on Digital Literacy once its SOURCES.md lands.
+- **Current course:** **Digital Literacy**. Stage 1 is done: `research/SOURCES.md` is 8,800 words
+  and `course.yaml` is at `drafting`. **Stage 2 has not run**, so the next action is
+  `/outline-course courses/computer-science-and-ai/digital-literacy`, which is what `npm run state`
+  now says.
+- **Every published course is written**, Reading Well included as of 2026-09-19: ten lessons, a
+  twenty-item course-end test, the project, and ten fact-checked scripts. It is the eighth live
+  course and the second on the Foval Core, and its ten episodes are on the debt ledger. Nothing on
+  any live course is outstanding except episodes, which are blocked on money.
 - **Before drafting anything:** `npm run taught <course>`. It prints every objective a learner has
   already met earlier on the Core, and names the earlier courses that do not exist yet so nothing
   is assumed from them. Stage 2 and Stage 3 both call for it.
@@ -39,8 +39,8 @@ Rewrite these five lines each session. Nothing else goes in this block.
   across four courses. The cap resets on the 1st, and John raises it when he can; he asked to be
   told, not asked. **Writing scripts is free and is not blocked by any of this**, and it is what the
   rest of the month is for.
-- **Next action, content:** whatever `npm run state` names. As of the night of the 19th that is the
-  Reading Well script 9 fact-check, then Digital Literacy's outline and lessons.
+- **Next action, content:** whatever `npm run state` names, which is Digital Literacy's outline,
+  then its lessons.
   **Next action, audio:** Logic and Argument 10, the moment the cap resets.
 - **"Written" now means checked, as of 2026-09-19.** `npm run state` and `npm run validate` counted
   script *files*, so ten unread drafts read as a written course, and it had already happened: with
@@ -76,9 +76,8 @@ dry run instead of only on `--go`, which is where the limit used to be invisible
 1,300 and check the dry run before the fact-check**, because shortening is new text and the
 fact-check has to run again after it.
 
-**Scripts: seventy of seventy-one.** Every lesson on the eight published courses has one, and every
-one but Reading Well 9 is fact-checked in a fresh context, most of them twice and several three
-times. What the night taught about writing them is in the two craft notes above and in the ceiling
+**Scripts: seventy-one of seventy-one, all fact-checked.** Every lesson on the eight published
+courses has one, checked in a fresh context, most of them twice and several three times. What the night taught about writing them is in the two craft notes above and in the ceiling
 note; what it taught about checking them is the next paragraph.
 
 **A repair fails again about half the time, measured across two rounds on ten Reading Well scripts.**
@@ -183,12 +182,24 @@ older ones still say 6 over 1,400 words.
    eleven. **Two Algebra scripts named two of these slips in their sign-offs or their `checked:`
    blocks and have been updated**, which is the thing to remember: a fix to a published lesson can
    falsify a script written about it, so grep the podcast folder as well.
-3. **One Python Basics item is not a one-line fix and is still open.** **Lesson 1's arithmetic about
-   the Patitsas result deserves a second look.** The lesson says 45 of 778 sections came back
-   positive, that about 5% would come back positive by chance, and so "most of the 45 may well be
-   noise". But the 5% is a rate over the 323 sections actually tested, which is about 16, not most of
-   45. Either the sentence wants a different word than "most" or the reasoning wants spelling out,
-   and the paper is the place to settle it. The script was written so as not to repeat the inference.
+3. **Closed 2026-09-19, and the queue's reading of it was right.** Python Basics lesson 1 said
+   "most of the 45 may well be noise" about the Patitsas dip-test result. The 5% is 5% of the 323
+   sections actually tested, about sixteen, so it was undercutting a real result by a factor of
+   nearly three. The paper was read directly: its own figures are "45 classes (13.9% of those
+   tested, 5.8% of all the classes)", and the lesson had printed only the second, which is what
+   made 5.8% look indistinguishable from the 5% chance rate. Both are now given, and the paper's
+   own strengthening argument replaces the invented one. **The script carried the same error and
+   its `checked:` block recorded that two reviewers had confirmed the denominator and called 13.9%
+   "the misleading" figure.** Both rounds were wrong, and the block now says so. The lesson to keep:
+   a `checked:` block is evidence about what was looked at, not proof that it was right.
+**Two things `npm run state` was getting wrong, both fixed 2026-09-19 with tests.** It counted
+script *files* rather than checked ones, so ten unread drafts read as a written course, and it had
+already sent this session past an unchecked script to the next course. And it named a stage the
+course was not ready for: it tracked `OUTLINE.md` and never looked at it, so it told a session to
+draft lesson 1 of a course that had only been researched. **The line `npm run state` prints is the
+one thing a session acts on without re-deriving, so a wrong line misdirects a whole session.** If
+you find a third case, write the test first.
+
 4. **Personal Finance 6 is cited, and citing it found something worse.** Thirteen markers went in
    on 2026-09-19 and the last `npm run validate` warning is cleared; every one of the nine entries
    now carries a claim the prose makes, and none was a candidate for removal. **The problem was the
@@ -198,10 +209,15 @@ older ones still say 6 over 1,400 words.
    attributed to the CBO where the CBO entry cited is a different paper on a different subject. The
    capital-gains schedule, the refundable-credit paragraph and the state-tax range are the other
    three. Two sentences that reached past their sources were narrowed in the same commit. **The
-   remaining five are out with a research agent**; if that comes back short, they are the next
-   visit. The lesson is also one tax year behind: honest about being 2025, silent that 2026 exists.
-   Nine other lessons have one to three uncited entries, which is ordinary and stays under the
-   threshold.
+   remaining five were closed on 2026-09-19 from primary documents**, and two did not survive
+   contact with the evidence: "along with most economists" on payroll tax incidence was cut,
+   because CBO's own appendix says the incidence could differ from its allocation and its working
+   paper calls the empirical evidence limited; and "the EITC is the largest example" of a
+   refundable credit was narrowed, because the Child Tax Credit is larger in total though only
+   partly refundable. The lesson now says a newer tax table exists. Its quiz, the worst in the
+   repo at a 174-character option spread with the key longest in three of six items, was rebalanced
+   in the same pass. Nine other lessons have one to three uncited entries, which is ordinary and
+   stays under the threshold. **Nothing is outstanding on this lesson.**
 5. **Six of the seven dead links are fixed, and the seventh cannot be.** The
    `earlychristianwritings.com` pages had moved: the Thomas page is back at `/thomas.html`, and 1
    Enoch, 2 Baruch and 4 Ezra were never Christian writings and live on the sister site
@@ -210,10 +226,14 @@ older ones still say 6 over 1,400 words.
    guides page is now the scheme's help centre. **The Vanguard emergency-savings report is gone with
    no replacement**, so its citation stands in both places without a link, which is what standards
    4.5 allows. The 32 links reporting 403 are publishers blocking scripts, not breakage; leave them.
-6. **`npm run quiz` lists 18 quizzes tripping the shape heuristic** (option-length spread over 25
-   characters, adjacent repeats, unused positions) without being winnable by a reader who read
-   nothing. Worst is Personal Finance 6 at a 174-character spread. Decide one thing when it comes
-   up: tighten the 18, or raise the threshold and say why. Not both.
+6. **Settled 2026-09-19: the quiz check was reporting eighteen quizzes under a headline that was
+   false.** Not one of the eighteen was beaten by pick-the-longest, pick-the-shortest, or
+   always-pick-the-same-position, which are the strategies that actually make a quiz gameable.
+   Every flag was an advisory note about shape. Verdict and advice are now separate, only a
+   genuinely gameable quiz exits non-zero, and the spread line carries the number worth acting on:
+   how many wide items have the key as the longest option. Seventeen quizzes remain lumpy in shape
+   and none is winnable by it. **Rebalance one when its lesson is next open; do not make a session
+   of it.**
 7. **Then the Foval Core in order, one course at a time.**
    **Reading Well: lesson 1 of ten is written and through two Stage 4 rounds as of 2026-09-17.**
    It publishes when its ten lessons pass Stage 4, adding `reading-well: 10` to
