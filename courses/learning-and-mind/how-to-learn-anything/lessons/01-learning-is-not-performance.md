@@ -125,7 +125,7 @@ At two days, the order had flipped: the recalled passage came back at 68%, the r
 
 At one week, the recalled passage scored 56% and the restudied one 42%.[8] Restudy had lost nearly half of what it had at five minutes; recall had lost a quarter. The one-week effect size was d = 0.83. The chart below draws all six numbers; the crossover between the two lines is the whole lesson in one picture.
 
-<svg viewBox="0 0 420 374" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:420px;display:block;margin:1.5em auto;font-family:system-ui,sans-serif" role="img" aria-labelledby="rk-title rk-desc">
+<svg viewBox="0 0 420 376" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:420px;display:block;margin:1.5em auto;font-family:system-ui,sans-serif" role="img" aria-labelledby="rk-title rk-desc">
   <title id="rk-title">The Roediger and Karpicke crossover: restudy wins at five minutes, recall wins later</title>
   <desc id="rk-desc">A line chart with two lines. The restudy line starts at 81 percent at five minutes, falls to 54 percent at two days and 42 percent at one week. The recall line starts lower, at 75 percent at five minutes, but falls more slowly, to 68 percent at two days and 56 percent at one week. The lines cross between five minutes and two days, and the recall line ends 14 points higher.</desc>
   <text x="14.4" y="22" font-size="17" font-weight="700" fill="var(--text, #1a1a1a)">Percent recalled on the final test</text>
@@ -158,9 +158,9 @@ At one week, the recalled passage scored 56% and the restudied one 42%.[8] Restu
   <text x="230.1" y="272" font-size="15" text-anchor="middle" fill="var(--text, #1a1a1a)">2 days</text>
   <text x="359.6" y="272" font-size="15" text-anchor="middle" fill="var(--text, #1a1a1a)">1 week</text>
   <text x="212.2" y="294" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">Delay before the final test (spacing not to scale)</text>
-  <text x="14.4" y="324" font-size="15" fill="var(--text-2, #4a5260)">Roediger and Karpicke (2006), experiment 1.</text>
-  <text x="14.4" y="342" font-size="15" fill="var(--text-2, #4a5260)">Each student restudied one prose passage</text>
-  <text x="14.4" y="360" font-size="15" fill="var(--text-2, #4a5260)">and free-recalled the other.</text>
+  <text x="14.4" y="324.0" font-size="15" fill="var(--text-2, #4a5260)">Roediger and Karpicke (2006), experiment 1. Each</text>
+  <text x="14.4" y="343.0" font-size="15" fill="var(--text-2, #4a5260)">student restudied one prose passage and</text>
+  <text x="14.4" y="362.0" font-size="15" fill="var(--text-2, #4a5260)">free-recalled the other.</text>
 </svg>
 
 :::checkpoint Take the two-strengths model and explain the five-minute result and the one-week result with it. Which strength did rereading raise, and which did recalling raise? Say it in two sentences before you look.

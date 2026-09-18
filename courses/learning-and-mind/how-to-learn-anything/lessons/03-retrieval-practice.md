@@ -137,7 +137,7 @@ The test a week later asked both verbatim questions (facts stated in the text) a
 
 Their second experiment made it personal, and put the size on firmer ground. 120 students each learned two texts, one by concept mapping and one by retrieval, so every student was their own control. 84% did better on the retrieval text. Yet when asked, during learning, which method would work better, 90 of the 120 (three-quarters) expected concept mapping to do as well as or better than retrieval; about half expected it to do better outright. [15] The paper's own table puts the two facts side by side, and the chart below redraws it:
 
-<svg viewBox="0 0 420 308" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:420px;display:block;margin:1.5em auto;font-family:system-ui,sans-serif" role="img" aria-labelledby="kb-title kb-desc">
+<svg viewBox="0 0 420 321" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:420px;display:block;margin:1.5em auto;font-family:system-ui,sans-serif" role="img" aria-labelledby="kb-title kb-desc">
   <title id="kb-title">Karpicke and Blunt experiment 2: what happened on the test versus what the students predicted</title>
   <desc id="kb-desc">Two stacked bars, each representing the same 120 students. In the top bar, actual performance on the one-week final test: retrieval practice won for 101 students, 6 showed no difference, and concept mapping won for 13. In the bottom bar, the students' own predictions made during learning: 30 predicted retrieval would win, 31 predicted no difference, and 59 predicted concept mapping would win. The two bars are nearly mirror images.</desc>
   <text x="14.4" y="22" font-size="17" font-weight="700" fill="var(--text, #1a1a1a)">The same 120 students, twice</text>
@@ -161,8 +161,8 @@ Their second experiment made it personal, and put the size on firmer ground. 120
   <text x="64.0" y="260" font-size="15" text-anchor="middle" fill="var(--navy, #0f2a4a)">30</text>
   <text x="163.3" y="260" font-size="15" text-anchor="middle" fill="var(--gold, #b08d2a)">31</text>
   <text x="308.5" y="260" font-size="15" text-anchor="middle" fill="var(--oxblood, #8b1e2d)">59</text>
-  <text x="14.4" y="288" font-size="15" fill="var(--text-2, #4a5260)">Karpicke and Blunt (2011), experiment 2, Table 1.</text>
-  <text x="14.4" y="306" font-size="15" fill="var(--text-2, #4a5260)">Each student learned one text by each method.</text>
+  <text x="14.4" y="288.0" font-size="15" fill="var(--text-2, #4a5260)">Karpicke and Blunt (2011), experiment 2, Table 1.</text>
+  <text x="14.4" y="307.0" font-size="15" fill="var(--text-2, #4a5260)">Each student learned one text by each method.</text>
 </svg>
 
 Then the wrinkle inside the wrinkle. For half of those 120 students, the final test was itself a concept map: they had to draw the diagram from memory. The text they had learned by retrieval *still* came out ahead, d = 1.01. Practising the drawing lost to practising the recall, at drawing. [15] That's not a contradiction of the format-match rule from earlier. Format match helps when both formats are retrieval from memory; it doesn't rescue a format that has the source open in front of it.

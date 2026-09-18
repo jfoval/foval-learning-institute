@@ -84,7 +84,7 @@ Long-term memory is where everything you know lives, and for practical purposes 
 
 For the kind of learning this course is about, everything has to pass through the small store to reach the large one. That's the bottleneck, and most of what goes wrong in studying goes wrong there. The diagram below is the whole architecture this lesson runs on; keep it in view as you read.
 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 436" width="100%" style="max-width:420px;display:block;margin:1.5em auto;font-family:system-ui,sans-serif" role="img" aria-labelledby="wm-title wm-desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 444" width="100%" style="max-width:420px;display:block;margin:1.5em auto;font-family:system-ui,sans-serif" role="img" aria-labelledby="wm-title wm-desc">
 <title id="wm-title">The bottleneck: new material passes through a small working memory to reach an unlimited long-term memory</title>
 <desc id="wm-desc">Three boxes stacked top to bottom. New material flows down into working memory, a small box labelled about four chunks of new material, held for seconds. An arrow labelled thinking about meaning carries material down from working memory into long-term memory, a large box labelled everything you know, no practical limit. A return arrow up the right-hand side shows stored chunks coming back to working memory as single units, without spending a slot on each part.</desc>
 <text x="14" y="24" font-size="16" font-weight="700" fill="var(--text, #111418)">Two memories, one bottleneck</text>
@@ -111,9 +111,9 @@ For the kind of learning this course is about, everything has to pass through th
 <text x="312" y="250" font-size="15" fill="var(--text, #111418)">return</text>
 <text x="14" y="340" font-size="15" fill="var(--text, #111418)">A stored chunk comes back as a single unit,</text>
 <text x="14" y="359" font-size="15" fill="var(--text, #111418)">without spending a slot on each of its parts.</text>
-<text x="14" y="392" font-size="15" fill="var(--text-2, #4a5260)">The two-store picture cognitive load theory</text>
-<text x="14" y="410" font-size="15" fill="var(--text-2, #4a5260)">is built on (Sweller; capacity estimate from</text>
-<text x="14" y="428" font-size="15" fill="var(--text-2, #4a5260)">Cowan 2001). Sizes not to scale.</text>
+<text x="14" y="392.0" font-size="15" fill="var(--text-2, #4a5260)">The two-store picture cognitive load theory is</text>
+  <text x="14" y="411.0" font-size="15" fill="var(--text-2, #4a5260)">built on (Sweller; capacity estimate from Cowan</text>
+  <text x="14" y="430.0" font-size="15" fill="var(--text-2, #4a5260)">2001). Sizes not to scale.</text>
 </svg>
 
 How small is small? You've probably heard the number seven. [George Miller's 1956 paper](https://psychclassics.yorku.ca/Miller/), one of the most cited in psychology and free to read, put the limit at "seven, plus or minus two".[2]

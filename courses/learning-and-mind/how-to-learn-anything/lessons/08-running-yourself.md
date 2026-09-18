@@ -126,7 +126,7 @@ About r = 0.07.[12] Sleep quality did slightly better (r of about 0.10) and dayt
 
 Read that number for what it is. It's a between-person correlation across children who mostly sleep roughly enough, so it says the differences in their hours don't track grades much. It's the wrong number for "does a lost night hurt" and the right number for "is sleep the lever". Numbers this small are hard to feel, so here they are drawn on the full scale a correlation can take:
 
-<svg viewBox="0 0 420 328" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:420px;display:block;margin:1.5em auto;font-family:system-ui,sans-serif" role="img" aria-labelledby="dew-title dew-desc">
+<svg viewBox="0 0 420 329" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:420px;display:block;margin:1.5em auto;font-family:system-ui,sans-serif" role="img" aria-labelledby="dew-title dew-desc">
   <title id="dew-title">Sleep and school performance at actual size: three small correlations on the full minus-one-to-one scale</title>
   <desc id="dew-desc">A chart whose horizontal axis runs from minus one to plus one, a correlation's full range. Three bars sit near the zero line: sleep duration at 0.07, sleep quality at 0.10, and daytime sleepiness at minus 0.13. All three are slivers against the width of the axis.</desc>
   <text x="14.4" y="22" font-size="17" font-weight="700" fill="var(--text, #1a1a1a)">Sleep and school grades, at actual size</text>
@@ -148,8 +148,8 @@ Read that number for what it is. It's a between-person correlation across childr
   <text x="310.7" y="244" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">0.5</text>
   <text x="404.2" y="244" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">1</text>
   <text x="217.2" y="268" font-size="15" text-anchor="middle" fill="var(--text, #1a1a1a)">The full range a correlation can take</text>
-  <text x="14.4" y="296" font-size="15" fill="var(--text-2, #4a5260)">Dewald and colleagues (2010),</text>
-  <text x="14.4" y="314" font-size="15" fill="var(--text-2, #4a5260)">15,199 children and adolescents.</text>
+  <text x="14.4" y="296.0" font-size="15" fill="var(--text-2, #4a5260)">Dewald and colleagues (2010), 15,199 children and</text>
+  <text x="14.4" y="315.0" font-size="15" fill="var(--text-2, #4a5260)">adolescents.</text>
 </svg>
 
 A lost night does hurt, and it hurts attention first. [Lim and Dinges' meta-analysis](https://doi.org/10.1037/a0018883) of 70 studies of short-term sleep deprivation found lapses in simple attention among the largest effects (g of about −0.78), with reasoning accuracy barely moved.[13] So a tired study session is a worse one, mostly because the single-tasking you just read about gets harder.
