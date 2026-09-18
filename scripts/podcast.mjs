@@ -190,6 +190,40 @@ async function render() {
   const s = readScript();
   const hash = scriptHash(s.prompt);
   const manifest = loadManifest();
+
+  // An `attempt-N.request.json` is written just before curl is spawned and deleted the
+  // instant it returns, so a leftover one means a render was started and its result never
+  // came back: the process was killed, or the machine went down, mid-call.
+  //
+  // That matters because of how Google bills. It bills on audio OUT, generated on its
+  // side, not on whether we received it. So a killed render is money that may have been
+  // spent with nothing kept, and it is invisible: no mp3, no manifest entry, nothing in
+  // budget.json. It happened on 2026-09-18, when a twelve-episode chain was stopped with
+  // Bible Basics lesson 1 in flight about seven minutes in, which is right at the end of a
+  // long render. Nobody would have known but for the file left behind.
+  //
+  // This is the same failure as rule 3 in docs/PODCAST_PIPELINE.md, reached by a different
+  // road: there it was `fetch` abandoning a slow response, here it is the process being
+  // killed. Both leave Google rendering and billing while the caller sees nothing.
+  //
+  // So: say it, loudly, before spending again. It does not block the render, because the
+  // right response is usually to render properly this time.
+  try {
+    const orphans = fs.readdirSync(workDir).filter(f => /^attempt-\d+\.request\.json$/.test(f));
+    if (orphans.length) {
+      console.log("");
+      console.log(`!! ${orphans.length} earlier attempt(s) on this episode were started and never came back: ${orphans.join(", ")}`);
+      console.log("   That file is deleted the moment a request returns, so its presence means the");
+      console.log("   process was killed mid-call. Google bills on audio it generated, whether or not");
+      console.log("   we received it, so that may be money already spent with nothing kept. It is in");
+      console.log("   neither the manifest nor budget.json, because no episode came of it.");
+      console.log("   Check aistudio.google.com/spend if you want to know. Rendering now is a fresh");
+      console.log("   spend and is the right thing to do; nothing is being paid for twice.");
+      console.log("");
+      for (const f of orphans) fs.unlinkSync(path.join(workDir, f));
+    }
+  } catch { /* no work dir yet is the ordinary case */ }
+
   const passed = manifest.attempts.find(a => a.hash === hash && a.passed);
   console.log(`${show(scriptPath)}: ${s.turns.length} turns, ${s.words} words, about ${(s.seconds / 60).toFixed(1)} minutes; fact-checked: ${s.checked ? "yes" : "NO"}`);
   console.log(`one call to ${MODEL}: expected cost $${s.cost.toFixed(2)}, capped at $${s.worst.toFixed(2)} by maxOutputTokens ${s.maxTokens}; attempts so far on this script: ${manifest.attempts.filter(a => a.hash === hash).length}`);

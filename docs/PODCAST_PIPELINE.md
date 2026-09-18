@@ -117,6 +117,15 @@ written here.
    minutes. Google keeps rendering and keeps billing, and the caller sees a network error and thinks
    nothing happened. A Pro render of a full episode takes five to six minutes, so this is the normal
    case, not the edge case.
+3a. **And do not kill a render in flight, for the same reason.** Stopping the process does not
+   stop Google. It is generating audio on its side and billing for it, and killing curl only
+   means you do not receive what you paid for. On 2026-09-18 a twelve-episode chain was stopped
+   with Bible Basics lesson 1 about seven minutes in, which is right at the end of a long render,
+   and the money went with nothing kept. **If a chain has to stop, let the current render finish
+   and stop before the next one starts.** `podcast.mjs` now detects this after the fact: the
+   `attempt-N.request.json` it writes is deleted the moment the request returns, so a leftover one
+   means a call was killed, and the next render on that episode says so loudly before spending.
+
 4. **Never re-send automatically.** This is the big one. The $25 was a retry loop wrapped around
    rule 3: each timeout started a fresh billed render of the same episode. `podcast.mjs` now stops
    on any failure and says so. Spending again is always a fresh, explicit `render --go`, and every
