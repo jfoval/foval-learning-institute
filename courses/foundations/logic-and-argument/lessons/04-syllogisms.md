@@ -1,6 +1,7 @@
 ---
 title: "All, no, some: checking a syllogism in two minutes"
 minutes: 60
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/foundations/logic-and-argument/04-syllogisms.mp3
 objectives:
   - Translate everyday sentences into the four categorical forms (all, no, some, some not) and state the exact sentence that contradicts each one
   - Test a two-premise syllogism for validity with a three-circle Venn diagram and name the counterexample when it fails
