@@ -172,6 +172,25 @@ the debt is.
   between education and non-education (as regards the merely intellectual part of it), consists in
   this accuracy."
 
+  **Two paragraphs above that one, Ruskin states Adler's fifth rule and Adler's ninth**, and any
+  lesson contrasting the two men has to reckon with it: "be sure that you go to the author to get at
+  *his* meaning, not to find yours. Judge it afterwards if you think yourself qualified to do so; but
+  ascertain it first." The same passage carries the miner figure, in which "the metal you are in
+  search of being the author's mind or meaning, his words are as the rock which you have to crush and
+  smelt in order to get at it", so for Ruskin a word is the material rather than the destination.
+  After the cut he tells the reader to get good dictionaries and hunt a word through its languages,
+  wanting the meaning "which in a good writer's work it must still bear". **The difference between
+  Ruskin and Adler is one of route rather than of destination**, and a draft of lesson 6 got this
+  backwards twice, in opposite directions, before a third pass caught it.
+
+  **The class passage, for any lesson that reaches it.** After the cut, Ruskin writes that a false
+  accent or mistaken syllable is enough "to assign to a man a certain degree of inferior standing for
+  ever", follows it with "And this is right", and then complains that the accuracy so insisted on is
+  not greater and is not "required to a serious purpose". Lesson 7 sorts that sentence and finds it
+  falls on none of Adler's four grounds, because it is a judgement of value rather than a claim about
+  what is the case. **That is the fair handling, and this course does not adjudicate the view
+  itself.**
+
 - **UK Parliament, *Hansard*, "NAVY—RULE OF THE ROAD AT SEA. RESOLUTION", House of Commons, 8 June
   1875, vol 224 cc1561-2.** **Read in full** at
   [historic-hansard](https://api.parliament.uk/historic-hansard/commons/1875/jun/08/resolution),
@@ -478,8 +497,12 @@ The backbone for the outline, in build order:
   Reading Well should teach marginalia and the notes that serve a single reading, and stop at the
   boundary of systems for keeping notes across years. Say so in the lesson so the reader knows the
   other course exists.
-- **How to Learn Anything owns rereading and highlighting.** Its lessons 1 and 3 teach Dunlosky's
-  utility ratings and the Roediger and Karpicke crossover in full. Reading Well cites the conclusion
+- **How to Learn Anything owns rereading and highlighting.** Its **lesson 1** teaches Dunlosky's
+  utility ratings for rereading and highlighting, including the study in which highlighting hurt on
+  questions needing inference; its **lesson 6** rates highlighting again alongside summarisation; and
+  its **lesson 3** has the Roediger and Karpicke crossover. **Check the target course before citing a
+  lesson number from this line**: two Reading Well lessons shipped the wrong one by trusting an
+  earlier and vaguer version of it. Reading Well cites the conclusion
   and points at that course; it must not re-teach the evidence.
 - **Literature and poetry are barely covered here.** Adler's chapters 14 and 15 handle imaginative
   writing and this research did not pursue them, nor Richards's *Practical Criticism* (1929), the

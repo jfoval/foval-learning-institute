@@ -89,7 +89,7 @@ const EXCEPTIONS = {
   "courses/christian-studies/bible-basics/lessons/12-method-tools-plan.md":
     "asks the reader to read three whole books of the Bible and write a fortnight's study plan",
   "courses/foundations/reading-well/lessons/06-reading-with-a-pen.md":
-    "asks the reader to mark a whole chapter in its own sitting and then to come back to it four weeks later, and states 55 minutes across two exercises that the stated-minutes cap prices at 30",
+    "asks the reader to mark a whole chapter in its own sitting and then to come back to it four weeks later, and states 55 minutes inside one exercise that the stated-minutes cap prices at 30",
   "courses/foundations/reading-well/lessons/05-coming-to-terms.md":
     "asks the reader to read a six-thousand-word chapter of Darwin alongside the lesson, which is body prose and so costs the model nothing, and states 45 minutes for an exercise the stated-minutes cap prices at 30",
 };

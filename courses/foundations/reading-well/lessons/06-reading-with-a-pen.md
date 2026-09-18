@@ -14,7 +14,7 @@ quiz:
       - Neither can say anything useful, since a month is long enough that only rereading would help
     answer: 2
     explain: A mark that says what kind of thought you had is a thing you can retrieve, and a line under a sentence records only that your eye stopped there, so C. A ignores that the underliner has to reread to recover anything, which is the cost the marking was supposed to avoid. B treats preserving words as the goal, when the goal is preserving the thinking. D overstates, since the note-taker's questions alone would rebuild most of the chapter.
-  - q: A reader keeps a one-page record for every book, and finds a year later that the records tell them what each book convinced them of and almost nothing else. Which lines were they leaving out, and why do those matter most?
+  - q: A reader keeps a one-page record for every book. A year later the records still give them the book, the date, the claim and the argument, and they notice that every record reads as a report of what the book persuaded them of. Which lines were they leaving out, and why do those matter most?
     options:
       - What they doubted and what they did not follow, which is where the next reading starts
       - The book and the date, without which a record cannot be found again at all
@@ -84,29 +84,37 @@ Now a real page. This is John Ruskin, from a lecture called "Of Kings' Treasurie
 
 Read it once before you look at what follows. It is the opening of one paragraph, and it is harder than it looks.
 
-Ruskin does not stop where I have stopped him. The same paragraph runs on for another two hundred words, into the "peerage" of words, words of "ancient blood" against words of "modern canaille", and a well-educated gentleman who can tell one from the other. There his subject becomes class rather than reading. That part is at the link, and it is worth seeing what I have cut before you take him as an authority on anything except accuracy.
+Ruskin does not stop where I have stopped him. The same paragraph runs on for another two hundred and twenty-one words, and I should tell you what is in them.
+
+Some of it is still about reading, including a seaman who has only to speak a sentence "to be known for an illiterate person", which is the plainest thing in the lecture about what Ruskin means by that word. The rest of it is class. Words have a "peerage", with "true descent and ancient blood" on one side and "modern canaille" on the other, a well-educated gentleman can tell them apart, and Ruskin finishes by saying that a mistaken syllable is enough "to assign to a man a certain degree of inferior standing for ever". His next words are "And this is right", though he goes straight on to complain that the accuracy so insisted on is not greater and is not "required to a serious purpose".
+
+I cut it for room, not to protect him. It is all at the link, and it is worth reading before you take him as an authority on anything except accuracy. Lesson 7 sorts one objection to it and finds that the method this course teaches has nothing to say about that sentence, which is a limit worth knowing about the method.
 
 :::predict Before you look at mine. You have read it once. Which single clause could you not restate in your own words, and which sentence would you want to argue with?
-If you picked the clause about the opposition of letters to sounds, we agree, and mark 3 below is what I did with it. If you picked the sentence about ten pages making you educated for evermore, we agree there too, and that is mark 5.
+The clause I could not restate is the one about the opposition of letters to sounds, and mark 3 below is what I did with it. The sentence I most wanted to argue with is the one about ten pages making you educated for evermore, which is mark 5. If you picked the parenthesis instead, that is mark 2, and it is arguably the better catch of the two.
 
-If you picked neither, read it once more before going on. The marks below will look obvious in a way they were not.
+If you picked something else, you have not made a mistake. Lesson 3's whole claim is that difficulty is a relation between a page and a reader, so the clause that stopped you is evidence about you rather than about Ruskin. Write your two down now, because the comparison with mine is the thing worth having.
 :::
 
 ## The same page, marked
 
 Six marks. Every one of them is a judgement I had to make in order to write it.
 
-1. **Vertical line** beside *you must get into the habit of looking intensely at words, and assuring yourself of their meaning*. That is the claim. Everything else in the paragraph either supports it, decorates it, or overstates it, and I want to be able to find it without rereading the rest.
+1. **Vertical line** beside *you must get into the habit of looking intensely at words, and assuring yourself of their meaning*. That is the claim. Everything else in what I have quoted either supports it, decorates it, or overstates it, and I want to be able to find it without rereading the rest.
 
 2. **X** beside *(I know I am right in this)*. Ruskin is offering his own certainty as a reason. It is not one. Marking it is not a complaint about Ruskin, who is entitled to be sure of things. It is a note that this particular sentence gave me nothing to weigh, so at this point in the paragraph the claim is still unsupported, and what I want to know is whether the next two sentences repair that.
 
-3. **?** beside *For though it is only by reason of the opposition of letters in the function of signs, to sounds in the function of signs*. I have read that four times and I can restate the paragraph around it and not that clause. Lesson 3 would have me decide whether that is syntax or missing background, and I could not decide, which is itself worth knowing. The structure comes apart easily enough, and I am still holding nothing, so it is background rather than syntax and the fix is not on this page. By lesson 2's rule about a first pass, I mark it and keep going, and the mark is what sends me back.
+3. **?** beside *For though it is only by reason of the opposition of letters in the function of signs, to sounds in the function of signs*. I have read that four times and I can restate the paragraph around it and not that clause. That is lesson 3's signature for syntax, so I did lesson 3's fix for syntax: find the main verb, find its subject, put the qualifications to one side. The structure comes apart at once, and it says that it is only by reason of one opposition that the study of books is called literature. And I am still holding nothing, because what I lack is what that opposition *is*. A signature sent me one way and the fix sent me straight back, which is the case lesson 3's three boxes do not cover, and the honest thing to put in the margin is the `?` rather than a verdict. What I can say is where the fix is not, and it is not on this page: I would need somebody to tell me that *litera* is Latin for a letter, and that is the kind of thing you go elsewhere for. By lesson 2's rule about a first pass, I mark it and keep going, and the mark is what sends me back.
 
-4. **O** around *literature* and around *illiterate*. Ruskin is using both in a sense of his own, and he tells you so himself by putting them in quotation marks, which is the textual signal worth learning to spot. The whole sentence turns on it: for him an "illiterate" person is not one who cannot read but one who reads without accuracy. If I take the ordinary sense, the sentence about the British Museum reads as nonsense. That is lesson 5's fifth rule arriving in the margin.
+4. **O** around *literature* and around *illiterate*. Ruskin is using both in a sense of his own, and the text puts both in quotation marks, which is the signal worth learning to spot. The whole sentence turns on it: for him an "illiterate" person is not one who cannot read but one who reads without accuracy, or, in the part I cut, speaks without it. If I take the ordinary sense, the sentence about the British Museum reads as nonsense. That is lesson 5's fifth rule arriving in the margin.
 
 5. **X** beside *you are for evermore in some measure an educated person*. Ten pages read accurately, and you are permanently educated in some measure. That is a much larger claim than anything he has given a reason for, and the hedge "in some measure" is doing a great deal of quiet work.
 
-6. **Arrow** beside *The entire difference between education and non-education ... consists in this accuracy*, pointing to my note on lesson 5. It points there and it does not agree with it, which is why the arrow is worth more than a tick. Ruskin's accuracy is accuracy about what a word means in itself, letter by letter, which is the dictionary's kind. Lesson 5's rule 5 wants the sense *this author* gives a word, which is often not the dictionary's at all. Two men seventy-five years apart, both saying the reader's real work happens at the level of the single word, and disagreeing about where the answer comes from. That disagreement is the connection, and it is exactly the thing I would have lost.
+6. **Arrow** beside *The entire difference between education and non-education (as regards the merely intellectual part of it), consists in this accuracy*, pointing to my note on lesson 5. Ruskin's route to a word is its history: later in the same lecture he tells you to get good dictionaries and hunt a suspicious word down through Greek, Latin and French. Lesson 5's rule 5 takes the other route, into the sense *this author* pinned down, which is often not the dictionary's at all.
+
+    So the arrow records a difference of method, and I want to be careful about how far it goes. Two paragraphs above this extract Ruskin writes that you should "go to the author to get at *his* meaning, not to find yours", and then "Judge it afterwards if you think yourself qualified to do so; but ascertain it first", which is Adler's fifth rule and the whole of lesson 7 arriving a century early. After the part I have cut, he says what he wants from a word's history is the meaning "which in a good writer's work it must still bear". The two routes were always meant to end in the same place.
+
+    What the arrow catches is that Ruskin thinks the etymology gets you there and Adler thinks the book does. That is a live question rather than a contradiction, and it is exactly the thing I would have lost.
 
 :::predict Now the other version. Suppose you had highlighted that paragraph instead, the way most people do. Which phrases would a highlighter have taken, and what would you be able to say about the paragraph in a month?
 My guess is three: *looking intensely at words*, *letter by letter*, and *an educated person*. They are the memorable phrases and they are what the eye stops on.
@@ -152,7 +160,7 @@ Two things make this work rather than being a chore. Write the page number *firs
 
 ## What people get wrong
 
-**"Highlighting is studying."** It is among the most common study techniques and among the least effective ones. This course does not re-teach that evidence, because [How to Learn Anything](/courses/how-to-learn-anything/) already has it in its lessons 1 and 3. What this lesson adds is the reason: a highlight cannot record a judgement, and a judgement is the only part worth keeping.
+**"Highlighting is studying."** It is among the most common study techniques and among the least effective ones. This course does not re-teach that evidence, because [How to Learn Anything](/courses/how-to-learn-anything/) already has it in its lessons 1 and 6. What this lesson adds is the reason: a highlight cannot record a judgement, and a judgement is the only part worth keeping.
 
 **"My notes should be neat."** Neatness is a cost with no return here. A mark that takes four seconds gets made; a mark that takes thirty doesn't, and the one that doesn't get made is worth nothing however tidy it would have been.
 
@@ -190,14 +198,14 @@ Lesson 3's three obstacles are three different marks. A word you can point at is
 
 Lesson 5 is what the marks are in service of. The terms you circle become the terms you come to; the vertical lines become the outline; the passages you doubted are the raw material for lesson 7, which is judgement.
 
-Lesson 7 comes next, and the rule there is that you may not say you agree or disagree until you can say you understand. Your `X` marks are not yet disagreements. They are places where you owe yourself a reason.
+Lesson 7 comes next, and its first rule is that understanding has to come before any verdict at all. Your `X` marks are not yet disagreements. They are places where you owe yourself a reason.
 
 What this lesson does not do is keep notes across years. The one-page record serves one book. A system that makes a hundred of those records findable five years later is a different subject with its own course, Note-Taking and Personal Knowledge, in Term 2. This lesson stops at the edge of one book on purpose.
 
 ## Go deeper
 
 - **[Harvard Library, "Interrogating Texts: Six Reading Habits"](https://guides.library.harvard.edu/sixreadinghabits).** Free, and its second habit is this lesson in three paragraphs, including the instruction to abandon highlighters and the reason for writing the unresolved questions down.
-- **[How to Learn Anything](/courses/how-to-learn-anything/), lessons 1 and 3.** The evidence on highlighting and rereading, which this course leans on and does not repeat.
+- **[How to Learn Anything](/courses/how-to-learn-anything/), lessons 1 and 3.** Lesson 1 has the evidence on highlighting and on rereading, including the study in which highlighting hurt on questions needing inference; lesson 3 has the retrieval crossover. Lesson 6 of that course rates highlighting again alongside summarisation. This course leans on all of it and repeats none of it.
 - **Mortimer J. Adler, "How to Mark a Book", *Saturday Review of Literature*, 6 July 1940.** The original statement of marginalia as thinking rather than decoration. It is short, it is still in copyright on the evidence of the renewal register, and every reproduction we could find is unauthorised, including one that carries an open-licence badge belonging to the site rather than to the essay. So this course cites it and does not link it, and if you find a copy, notice that the famous sentence is usually quoted with its opening clause removed.
 
 ## Sources

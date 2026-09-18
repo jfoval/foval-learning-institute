@@ -24,9 +24,9 @@ Rewrite these five lines each session. Nothing else goes in this block.
   opener, and its **second pass is out**, owed because the first found wrong facts. Lesson 5 has
   had its first review applied, six critical findings and all of them factual, and a **targeted
   re-check is out**. Lessons 3, 5, 6 and 7 have all been through a review and
-  had every finding applied; lesson 3 has also passed a neutrality audit. **Two narrow second passes
-  are owed**: lesson 6's Ruskin section and lesson 7's three-objections section, both of which are
-  substantially new prose. Lessons 8 and 10 are drafted and their reviews are out. **Lesson 9 is the
+  had every finding applied; lesson 3 has also passed a neutrality audit. Lessons 6 and 7 have also been through a second pass and
+  **owe a third** on the passages those passes rewrote, which is where this course's defects now
+  live: a repair fails in the opposite direction about half the time. Lessons 8 and 10 are drafted and their reviews are out. **Lesson 9 is the
   only one left to draft**, it is in a 3.4 domain, its neutrality audit is mandatory, and its two
   primary documents are being sourced and verified now. **Then the assessments**, which
   `research/OUTLINE.md` blueprints in full and which do not exist yet: a twenty-item course-end test

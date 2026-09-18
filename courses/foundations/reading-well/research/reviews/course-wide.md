@@ -143,3 +143,36 @@ self-declared duration is capped at 30, and prose that tells the reader to go an
 six-thousand-word chapter costs the model nothing. Lesson 5 was inside both and the tool agreed with
 a figure a third too low. `scripts/reading-time.mjs` has an `EXCEPTIONS` map for exactly this and the
 script's own header says so; use it rather than accepting the tool's number.
+
+## 2026-09-18 — What the second and third passes taught
+
+### 9. A repair's second attempt fails in the opposite direction
+
+Finding 6 said a repair breaks something about half the time. The second passes sharpened it. Lesson
+6's mark 6 was first wrong by joining Ruskin and Adler where they disagree; the repair made it wrong
+by separating them where Ruskin's own text agrees, two paragraphs above the extract the lesson
+quotes. Lesson 7's two Ruskin verdicts were first in collision on one sentence; the repair put them
+in collision across two sentences of the same paragraph, with the *stronger* claim getting the
+*milder* verdict. Lesson 5's wrinkle blamed an author for a change he did not make; the repair said
+the mistake was "entirely yours" in an edition where the author's own prose hands the confusion back.
+
+**So the instruction to a re-checker is not "look again". It is "this passage was rewritten to fix X;
+check whether it now does X in the other direction."**
+
+### 10. The quotations have never been wrong. Not once.
+
+Across eight lessons, four second passes and one neutrality audit, **every quotation checked has been
+verbatim**, including eleven in lesson 8 and the whole of lesson 6's blockquote to the character.
+Every critical finding has been a sentence with no quotation marks in it: a heading list, a chapter's
+subject, a paragraph number, a page count, a premise's location, a licence, a frequency claim, a
+publisher's name.
+
+**Give every reviewer the source text and point it at the unquoted sentences.** That is where this
+drafter fails, and it fails there reliably enough to plan around.
+
+### 11. Don't trust a cross-reference to another course; open it
+
+Three separate lessons shipped a wrong lesson number for How to Learn Anything's highlighting
+evidence, and two of them got it from `SOURCES.md` rather than from thin air. The entry said "lessons
+1 and 3" and the evidence is in 1 and 6. `SOURCES.md` now says so and carries a warning. **Grep the
+target course.**

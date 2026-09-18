@@ -82,3 +82,65 @@ to Adler re-checked against the corrected `SOURCES.md`, the Ruskin section and t
 read together in one sitting for consistency of verdict, and quiz item 2 re-keyed. `npm run validate`
 exits 0, `npm run quiz` reports nothing for this course, `npm run minutes` measures 90 against a
 declared 90.
+
+## 2026-09-18 — Lesson 07 — second pass, scoped
+**Reviewer:** fresh-context subagent against the corrected `SOURCES.md`. **Every Adler quotation
+verbatim**, and every defect again in a sentence without quotation marks. Three of five repairs
+introduced a subtler instance of what they repaired.
+
+**Findings:**
+
+1. [critical] **The two Ruskin verdicts were still incompatible, and the collision was now inverted.**
+   The same missing knowledge produced a disagreement on one sentence and a suspension on another
+   sentence of the same paragraph; the sentence that says *more* got the *milder* verdict, when the
+   entire-difference claim entails the sufficiency claim and so is defeated a fortiori; and the
+   bridging paragraph asserted "This one accepts everything he argued" after the lesson had disagreed
+   with one of his claims on a named ground thirty lines earlier.
+2. [critical] **Quiz item 2 was still keyed wrong and the invented availability test survived inside
+   its explain.** "In 1840 nothing he could have consulted said otherwise" is exactly the test
+   `SOURCES.md` was re-read to rule out and that this lesson's own footnote claims it does not use.
+   And under Adler's real criterion the key was wrong: a miasma theorist **asserts** something not the
+   case, which is misinformed. Adler's own uninformed example, Darwin, was *silent* on inheritance.
+3. [high] Objection 2 quoted Ruskin's hedge "in some measure" and never reckoned with it, thirty lines
+   before the lesson made a virtue of preserving a different Ruskin qualifier. Lesson 6 has already
+   told the reader that hedge is doing quiet work.
+4. [high] "When you disagree with an author, you are making one of exactly four claims" contradicted,
+   sixty lines later, Adler's own "this fourth point is strictly not a basis for disagreement", with
+   both sentences carrying the same footnote.
+5. [high] The objection-1 repair falsified the generalisation the section rests on, that an objection
+   off the four grounds "is usually a report of taste": objection 1 is off the grounds and is not
+   taste. And objection 1 refused the taxonomy without saying where it does land, which reads as a
+   shrug when the answer was forty lines above: it is rule 11 turned back on the author.
+6. [high] "the one thing in the paragraph a reader could check", of the British Museum contrast, which
+   lesson 6 has already shown works only in Ruskin's own sense of "illiterate".
+7. [high] Footnote 1 claimed "every sentence in quotation marks above is his" over a lesson whose
+   quotation marks also enclose invented reader speech, misconception headings and Ruskin; and it
+   claimed Adler's definitions of "all four grounds" when `SOURCES.md` carries three definitions and
+   the fourth ground's status.
+8. [medium] "history settled the gap rather than the conclusion", a scientific-consensus verdict a
+   reading lesson has no business issuing and a gift to anyone looking for one; "it was not studied
+   until the twentieth century", unsourced and the availability reflex returning in prose; the
+   demanding rule softened in the sentence after it was quoted; the second predict giving away its own
+   reveal; objective 2 no longer matching a section in which one of three objections sorts; and "the
+   four minutes" over exercises of forty and twenty.
+
+**Resolutions:** all applied, taking the reviewer's recommended fix for finding 1 rather than its
+alternative. **Ruskin comes out of the incompleteness case entirely**, because a ground found is a
+ground used, and the lesson now says so in those words and lets the checkpoint carry the incompleteness
+verdict. The separating paragraph now distinguishes a ground from a limit, and a sentence was added
+saying the gate is narrow on purpose.
+
+Quiz item 2 is re-keyed to misinformed, with Adler's "whatever its cause" quoted in the explain and the
+date left in the stem as the temptation it is.
+
+**And the lesson gained a fourth objection**, which lesson 6's second pass showed was owed: Ruskin's
+sentence that a mistaken syllable should assign a man inferior standing for ever, and "And this is
+right". Sorted, it falls on none of the four grounds, because it is a judgement of value rather than a
+claim about what is the case. The lesson names that as a limit of the method, says a reader who finds
+the sentence repugnant has not made a mistake and has not found a ground, and does not adjudicate the
+view. That closes a deferral which lesson 6 and lesson 7 had each been pointing at the other to settle.
+
+**Status after review:** a **third pass is owed**, scoped by the reviewer to three things: that no
+ground found anywhere in the lesson is later suspended on, that no appeal to what was available when
+survives in item 2's explain, and that footnote 1's attribution claims are true of five distinct kinds
+of quotation mark. It does not need the Adler quotations re-checked.

@@ -83,3 +83,79 @@ mark 3's new diagnosis holds against lesson 3's definitions, and that mark 6's d
 is the one lesson 5 actually supports. `npm run validate` exits 0, `npm run quiz` reports nothing for
 this course, and `minutes` is 90 with an `EXCEPTIONS` entry recording why the model cannot see the
 real load.
+
+## 2026-09-18 — Lesson 06 — narrow second pass on the Ruskin section
+**Reviewer:** fresh-context subagent, with the full Gutenberg text open beside the lesson. Verdict:
+three of the eight repairs broke something, and all three in the pattern course-wide finding 6
+predicts.
+
+**Findings:**
+
+1. [critical] **Mark 6 reversed the error's direction instead of removing it.** The first review found
+   it joined Ruskin and Adler on the half where they disagree; the repair separated them on a half
+   where Ruskin's own text agrees. **Two paragraphs above the extract Ruskin writes: "be sure that you
+   go to the author to get at *his* meaning, not to find yours. Judge it afterwards if you think
+   yourself qualified to do so; but ascertain it first."** That is Adler's fifth rule and Adler's
+   ninth, in 1864. The same passage has the miner figure, in which words are "the rock which you have
+   to crush and smelt" to reach "the author's mind or meaning", so for Ruskin the word is the material
+   and not the destination, which also defeats the claim that both men put the reader's real work at
+   the level of the single word. And after the cut Ruskin wants from a word's history the meaning
+   "which in a good writer's work it must still bear". **The difference is one of route, not
+   destination.** Compounding it: none of those sentences appears anywhere in the course, including in
+   a `SOURCES.md` entry written the same night to close a finding about this text and labelled "read
+   in full".
+2. [critical, arithmetic] "seventy-five years apart" is right only against Adler's 1940 first edition,
+   which this course never cites for rule 5. Against the 1972 edition it is 108 years, and the
+   previous "a century earlier" was closer.
+3. [high] **Mark 3 quoted lesson 3's syntax signature as evidence for a background verdict.** Lesson 3
+   defines the syntax signature as being able to restate the paragraph around a sentence but not that
+   sentence, which is mark 3's first line verbatim, and never describes a background failure confined
+   to one clause inside a paragraph the reader has understood. The mark then decided on a test lesson
+   3 does not supply, and never ran lesson 3's own discriminator.
+4. [high] **The new predict punished a reader for a correct answer.** It asked which clause stopped
+   *you* and then told a reader who picked a different one to reread, in a course whose third lesson
+   exists to say difficulty is a relation between a page and a reader. It also named two of the six
+   marks and silently ignored a third correct answer, mark 2, which is the mark lesson 7 builds its
+   first objection on.
+5. [high] The cut note was incomplete in the direction that flatters the lesson: 221 words rather than
+   "two hundred", "class rather than reading" is not fair to a passage still about accuracy with
+   words, the seaman sentence was left unmentioned, and the single passage most worth seeing was the
+   one omitted, that a mistaken syllable is enough "to assign to a man a certain degree of inferior
+   standing for ever", followed by "And this is right".
+6. [high] **Mark 6 ellipsed out the one qualifier `SOURCES.md` says a lesson must not drop**, sixty
+   lines after mark 5 congratulates itself for noticing a different hedge.
+7. [medium] The repair's stated warrant, that judging the class material is lesson 7's business, did
+   not exist: lesson 7's own footnote said it does not judge it either. The highlighting pointer was
+   swapped from one wrong answer to another by trusting `SOURCES.md` instead of the target course.
+   Quiz item 2's stem admitted three answers.
+8. [low] The `EXCEPTIONS` reason said "two exercises" for two figures inside one; mark 4 attributed
+   the quotation marks to Ruskin when they are the 1894 compositor's as transcribed; mark 1's
+   "the paragraph" became ambiguous once the cut was declared; a sixteen-word clause repeated verbatim
+   from lesson 5's Connections; and `curriculum/TAXONOMY.md` described this course as covering
+   "Note-taking that sticks", which is the thing lesson 6's hand-off explicitly refuses.
+
+**Resolutions:** all applied, and three of them changed the lesson's argument rather than its wording.
+
+Mark 6 now records a difference of **route** and says so, quotes the two sentences in which Ruskin
+states Adler's rules a century early, and keeps the qualifier in full. It is a better mark than either
+earlier version, because "the etymology gets you there against the book gets you there" is a live
+question rather than a manufactured contradiction.
+
+Mark 3 now shows the diagnosis failing and says so: the signature sent one way, the fix sent straight
+back, and the honest thing in the margin is the question mark rather than a verdict. It also names
+what would actually fix it, which is somebody telling you that *litera* is Latin for a letter.
+
+The cut note now names everything in the cut, including the sentence about inferior standing and
+Ruskin's "And this is right", and including his immediate complaint that the accuracy insisted on is
+not greater. **And the duck is closed**: lesson 7 now sorts that sentence and finds it falls on none
+of Adler's four grounds, because it is a judgement of value rather than a claim about what is the
+case. That is a limit of the method, which is worth teaching, and the course does not adjudicate the
+view itself.
+
+`SOURCES.md` gained both passages, and its cross-course pointer for the highlighting evidence was
+corrected with a warning attached, since two lessons shipped a wrong lesson number by trusting it.
+
+**Status after review:** a **third pass is owed** on the rewritten mark 6, mark 3, predict and cut
+note, with the Gutenberg text open, because the reviewer's own warning is that this passage has now
+produced a defect on two consecutive repairs. `npm run validate` exits 0, `npm run quiz` reports
+nothing for this course.

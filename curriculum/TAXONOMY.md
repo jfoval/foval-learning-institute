@@ -23,7 +23,7 @@ The map is deliberately ambitious. Most courses are `planned`. The point of writ
 
 | Course | Level | Status | Path | Notes |
 |---|---|---|---|---|
-| Reading Well | Foundation | drafting | T1 | How to read a book, a paper, a primary source. Adler's levels of reading. Note-taking that sticks. |
+| Reading Well | Foundation | drafting | T1 | How to read a book, a paper, a primary source. Adler's levels of reading. Marking a book, and judging what you understood. |
 | Logic and Argument | Foundation | published | T1 | Deductive and inductive reasoning, argument structure, formal fallacies, informal fallacies, steelmanning. |
 | Statistics for Citizens | Foundation | planned | T5 | Averages that lie, base rates, sampling, spread and the normal distribution (what the bell curve really claims and where it fails), confidence, correlation vs causation, how to read a study and a news claim. |
 | Probability and Decisions | Core | planned | T5 | Expected value, Bayes, risk, decision-making under uncertainty. |
