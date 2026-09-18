@@ -105,9 +105,16 @@ from primary guidance and the research literature, not from a text.
   accumulated "here is what actually goes wrong", and every item is a lesson-design constraint:
   Windows learners cannot find their home directory; Windows learners cannot run a plain text editor;
   the shell refuses scripts with DOS line endings; learners get *trapped inside* command-line
-  editors such as Vim, Emacs or Nano and cannot get out; and the recommended fix for the filesystem
-  confusion is to have the terminal and the graphical file browser open side by side so the learner
-  can see that they are two views of one thing. The notes also warn that even four hours does not
+  editors such as Vim, Emacs or Nano and cannot get out.
+
+  **Correction, 2026-09-18.** This entry used to end with a fifth item: that the notes recommend
+  keeping the terminal and the graphical file browser open side by side so the learner sees two
+  views of one thing. **They do not.** A Stage 4 reviewer downloaded the notes and searched the full
+  text: no "side by side", no "file browser", no "two views", no such recommendation anywhere. The
+  claim reached lesson 4 as a quotation attributed to a body that never wrote it, which is the exact
+  failure standards Part 2 names. The device is a good one and this course still uses it; it is
+  **ours**, and no lesson may attribute it. Anything else in this file that reads as a
+  recommendation rather than a record should be treated the same way until it is checked. The notes also warn that even four hours does not
   cover the whole lesson, and that file permissions, job control and SSH are the first things cut.
 - **Harvard, CS50's Understanding Technology** (cs50.harvard.edu/technology). **Read**: course
   homepage. Six units: Hardware, Internet, Multimedia, Security, Web Development, Programming,
@@ -345,7 +352,9 @@ above. The order is a build order: each item is a prerequisite for the next.
 1. **The machine as a place, not a surface.** Files, directories, the tree, the home directory,
    paths as addresses. Carpentry's framing, that a file and a directory differ in a nameable way and
    that any file has both an absolute and a relative address, is the whole foundation. The physical
-   pairing of graphical browser and terminal, side by side, is the instructional device.
+   pairing of graphical browser and terminal, side by side, is the instructional device we use.
+   **That pairing is this course's own choice and is not Carpentry's recommendation**; see the
+   correction in the shell-novice entry above.
 2. **Naming and finding.** Extensions and what they do and do not determine; why a file "disappears"
    (moved, renamed, saved by an application into its own container, synced and un-synced, or simply
    never given a location by the learner); search as a supplement to structure rather than a
