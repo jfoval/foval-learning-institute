@@ -161,7 +161,7 @@ Three more names, which you met in lesson 2 and which now become things you type
 
 `..` is the directory one level up. `cd ..` takes you back.
 
-`.` is the directory you're standing in. `cd .` does nothing at all, which sounds useless. It stays useless until lesson 5, which shows you the one place where writing the dot changes whether a command runs.
+`.` is the directory you're standing in. `cd .` does nothing at all, which sounds useless. It stays useless until lesson 6, which shows you the one place where writing the dot changes whether a command runs.
 
 `~` is your home directory, whatever its full address happens to be. `cd ~` takes you home from anywhere, and so does `cd` on its own, which is a small kindness you'd only discover by reading the manual. Lesson 5 is about reading the manual.
 
@@ -208,7 +208,7 @@ Nothing about the command changed. Not a character. What changed is where it was
 :::checkpoint You are inside `Documents` and you want that listing again without leaving. At least two commands will do it. How many can you find?
 `ls` on its own is the plain answer. With no argument it lists the working directory, which is where you are.
 
-`ls .` does exactly the same thing, and that is the honest note to make about the single dot: here it buys you nothing at all. Keep it in your pocket anyway. Lesson 5 shows you the one place where writing the dot is the difference between a command running and not running.
+`ls .` does exactly the same thing, and that is the honest note to make about the single dot: here it buys you nothing at all. Keep it in your pocket anyway. Lesson 6 shows you the one place where writing the dot is the difference between a command running and not running.
 
 `ls ~/Documents` also works, and it works from anywhere at all, because it is an absolute address written with the `~` shorthand. That is the trade lesson 2 described: the relative form is shorter and depends on where you stand, the absolute form is longer and doesn't.
 :::

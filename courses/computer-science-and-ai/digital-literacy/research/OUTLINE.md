@@ -570,9 +570,12 @@ of those surnames. Four of them bite this outline directly:
 - **Spaced review of:** lesson 5's error categories, applied to a permission error, which is a fourth
   category and is introduced as such rather than smuggled in.
 - **Deliberate omission, stated in the lesson:** version control, SSH, job control and regular
-  expressions beyond literal text are not taught here. Carpentry's instructor notes say permissions,
-  job control and SSH are the first things cut from a four-hour workshop, and this course cuts the
-  same things for the same reason. Link Missing Semester and Carpentry and say so.
+  expressions beyond literal text are not taught here. Carpentry's shell curriculum leaves out the same
+  three and says so in its own words, "We have to leave out many important things because of time
+  constraints, including file permissions, job control, and SSH", and this course cuts two of them
+  for the same reason. **Do not write "the first things cut" or attach it to a four-hour workshop**:
+  the notes carry no ranking, and that wording reached lesson 6 from this line before a Stage 4
+  reviewer caught it on 2026-09-18. Link Missing Semester and Carpentry and say so.
 
 ### 7. From an address to a page (~60 min)
 
@@ -1129,8 +1132,9 @@ sitting rule:
 - **Content creation and digital wellbeing**, which the European framework treats as core areas, and
   **career-related competencies**, which UNESCO does. Stated as a choice in lesson 1, not an accident.
 - **Version control, SSH, job control, and regular expressions beyond literal text.** Carpentry's
-  instructor notes record permissions, job control and SSH as the first things cut from a four-hour
-  workshop; this course cuts the same things and links Missing Semester and Carpentry for them.
+  shell curriculum leaves the same three out by design and says so; this course cuts them too and
+  links Missing Semester and Carpentry for them. (See the correction above: the notes carry no
+  ranking, so do not write "the first things cut".)
 - **Hardware, bits, gates and what a processor does.** How Computers Work owns that at Term 6.
 - **Cryptography below the level of "what does this guarantee".** Cybersecurity for Everyone owns it
   at Term 6.

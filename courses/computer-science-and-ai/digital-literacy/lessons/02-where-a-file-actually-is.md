@@ -203,7 +203,7 @@ The absolute path begins with `/`, which is the root. Reading it left to right i
 
 The relative path from A has no leading `/`, and that is the visible difference between the two kinds. It says: from where you are, go into `Documents`, then `letters`, then the file. Shorter, and useless to anybody who doesn't know you're standing at `tomas`.
 
-The relative path from B opens with `..`, which is a name that means the directory one level up. Standing in `invoices`, `..` is `Documents`, so `../letters/landlord.md` reads as: go up one, into `letters`, then the file. You will also meet `.`, a single dot, which means the directory you are standing in right now. It looks redundant and it isn't. You'll meet it again in lesson 4, and the reason it earns its place lands in lesson 5, when you find out where the shell actually looks for a program.
+The relative path from B opens with `..`, which is a name that means the directory one level up. Standing in `invoices`, `..` is `Documents`, so `../letters/landlord.md` reads as: go up one, into `letters`, then the file. You will also meet `.`, a single dot, which means the directory you are standing in right now. It looks redundant and it isn't. You'll meet it again in lesson 4, and the reason it earns its place lands in lesson 6, when you find out where the shell actually looks for a program.
 
 :::checkpoint Standing at B, write two more addresses: one for the `Pictures` directory, and one for `tomas` itself.
 `../../Pictures` for the first. From `invoices`, one `..` puts you at `Documents`, a second puts you at `tomas`, and then `Pictures` is a step down from there.

@@ -48,9 +48,12 @@ Rewrite these five lines each session. Nothing else goes in this block.
 **Nothing on a course already through Stage 4 is to be re-opened** unless the feedback loop or a
 check brings it back.
 
-Render order, when there is money: **Logic and Argument**, then Personal Finance, Algebra
-Essentials, Python Basics, Bible Basics, then Reading Well. Logic 10 is the first episode to render
-when the cap resets. `npm run state` has the counts and the costs.
+**Render order is whatever `npm run state` prints, and this file used to disagree with it.** It
+listed Reading Well last; the script lists in Core term order and puts Reading Well second, which
+matches `docs/PODCAST_PIPELINE.md` section 3. Root `CLAUDE.md` says the script wins, so the wrong
+line is gone rather than being argued with. Corrected 2026-09-18, after four Personal Finance
+episodes had already gone out under the old order; the remaining rule, finish a course before
+starting the next, is why Personal Finance is being completed first rather than abandoned mid-way.
 
 **The script length ceiling lives in `docs/PODCAST_PIPELINE.md` section 4a**, which is the
 authority. It was duplicated here until 2026-09-19 and the two copies had drifted to different

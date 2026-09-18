@@ -114,8 +114,18 @@ from primary guidance and the research literature, not from a text.
   claim reached lesson 4 as a quotation attributed to a body that never wrote it, which is the exact
   failure standards Part 2 names. The device is a good one and this course still uses it; it is
   **ours**, and no lesson may attribute it. Anything else in this file that reads as a
-  recommendation rather than a record should be treated the same way until it is checked. The notes also warn that even four hours does not
-  cover the whole lesson, and that file permissions, job control and SSH are the first things cut.
+  recommendation rather than a record should be treated the same way until it is checked. The notes say two separate things that this file
+  previously welded into one, and the weld reached three lessons before a reviewer caught it.
+  **What they actually say**, quoted: "We have to leave out many important things because of time
+  constraints, including file permissions, job control, and SSH", which is the curriculum saying
+  what it permanently does not contain; and, separately, "Unless you have a truly generous amount of
+  time (4+ hours), it is likely that you will not cover ALL the material in this lesson in a single
+  half-day session. Plan ahead on what you might skip", which names nothing in particular.
+  **There is no ranking and no "first things cut" anywhere on the page.** This entry asserted one
+  until 2026-09-18, lesson 6 printed it, and lessons 4 and 5 fabricated their own attributions to
+  the same source. The general rule, which belongs at the top of this entry: **these notes record
+  what goes wrong, and they rarely recommend anything.** Any sentence in this file that turns the
+  first into the second is suspect until it is checked against the page.
 - **Harvard, CS50's Understanding Technology** (cs50.harvard.edu/technology). **Read**: course
   homepage. Six units: Hardware, Internet, Multimedia, Security, Web Development, Programming,
   aimed explicitly at people who do not yet consider themselves computer people. **Retired as an
@@ -221,10 +231,20 @@ from primary guidance and the research literature, not from a text.
   (docs.apwg.org/reports). **Read at search-summary level; the quarterly PDFs were not opened.**
   About 3.8 million phishing attacks observed across 2025, against 3.76 million in 2024; Q1 2025 was
   the largest quarter since Q4 2023 at 1,003,924. Financial institutions 18.3% of attacks in Q2,
-  SaaS and webmail 18.2%. The number the course actually needs is the padlock one: by 2023 over 90%
-  of phishing sites served HTTPS, so **the padlock has no remaining value as a safety signal**, and
-  any lesson that repeats "look for the padlock" is teaching folklore. Verify this specific figure
-  against a named quarterly report before a lesson prints it.
+  SaaS and webmail 18.2%. The number the course actually needs is the padlock one,
+  and it has now been checked, as this entry told the next session to check it.
+
+  **Correction, 2026-09-18: the "over 90% by 2023" figure does not survive contact with the
+  reports.** What APWG publishes on this is a series contributed by PhishLabs, and the **Q2 2021
+  report, opened and read**, carries its CTO's own sentence: "After peaking in late 2020, the
+  percentage of phishing sites protected by SSL dropped to 82 percent in 2Q 2021." The same report
+  records that **90 percent of the certificates used in phishing were free domain-validated
+  certificates**, which is the more useful fact, because it says why a padlock costs an attacker
+  nothing. A second contributor, Axur, put its regional figure at 70 percent against 82 worldwide
+  that quarter. **No 2023 figure was found anywhere in the quarterly series.** So a lesson may print
+  82% with its quarter and year, and the free-certificate point, and may **not** print "over 90%" or
+  attach any figure to 2023. The conclusion is unaffected: the padlock has no remaining value as a
+  safety signal, and any lesson repeating "look for the padlock" is teaching folklore.
 
 ---
 
@@ -486,7 +506,8 @@ a money-saving one. All specific lab scores must be dated when quoted; they chan
 Ormandy's own writing was read only as quoted in secondary coverage.**
 
 **5. Consumer VPNs.** *Classification: established that the marketing is wrong; contested what the
-residual value is.* Consumer Reports' evaluation of **16 VPNs on Windows 10** found **12 of 16 either
+residual value is.* Consumer Reports' Digital Lab evaluation, **published December 2021**, screened
+51 VPNs on Windows 10 with a University of Michigan team and evaluated **16 of them** in depth. It found **12 of 16 either
 inaccurately represented their products or made hyperbolic or overly broad claims**; only 8 of 16 had
 current third-party security audits of the core product, only 6 had reproducible builds, only 4
 mentioned internal audits, and one shipped 1990s-era PPTP. It notes that "military-grade encryption"
