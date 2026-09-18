@@ -1,6 +1,7 @@
 ---
 title: Investing without the noise
 minutes: 45
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/money/personal-finance/05-investing.mp3
 objectives:
   - Explain what a share, a bond, and a fund each give their owner, and why shedding single-company risk costs nothing in expected return
   - Judge an active fund's pitch against the SPIVA record, the persistence evidence, and Sharpe's cost arithmetic
