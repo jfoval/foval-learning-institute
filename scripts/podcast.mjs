@@ -189,7 +189,15 @@ async function render() {
     console.log(`already rendered and passed (${passed.file}); copied to ${show(mp3Path)}. Not spending again.`);
     return;
   }
+  /* The three refusals below used to fire only on --go, so a dry run said "expected cost $0.32"
+     about a script the renderer would not send. On 2026-09-18 that cost a session two rounds of
+     trimming against a limit it could not see. Say them on the dry run too; --go still exits. */
   if (!GO) {
+    const blockers = [];
+    if (!s.checked) blockers.push("no `checked:` entry in the frontmatter, so --go will refuse to spend");
+    if (s.worst > COST_CAP) blockers.push(`worst case $${s.worst.toFixed(2)} is over the $${COST_CAP} guard`);
+    if (s.seconds * TOKENS_PER_SECOND > OUTPUT_TOKEN_CEILING * 0.9) blockers.push(`about ${Math.round(s.seconds * TOKENS_PER_SECOND)} audio tokens against the model's ${OUTPUT_TOKEN_CEILING}: it would be cut off. At ${WPM} words a minute the ceiling is about ${Math.floor(OUTPUT_TOKEN_CEILING * 0.9 * WPM / 60 / TOKENS_PER_SECOND)} spoken words, and this script has ${s.words}`);
+    if (blockers.length) console.log("\n--go would refuse this script:\n" + blockers.map(b => "  - " + b).join("\n"));
     console.log("\nDry run. Nothing sent, nothing spent. Add --go to render. Request that would be POSTed:");
     console.log(`  POST ${ENDPOINT}`);
     console.log(`  generationConfig: { responseModalities: [AUDIO], maxOutputTokens: ${s.maxTokens}, speechConfig: John=${HOSTS[1].voice}, Haley=${HOSTS[2].voice} }   (no temperature, no seed: either one returns silence, billed)`);
