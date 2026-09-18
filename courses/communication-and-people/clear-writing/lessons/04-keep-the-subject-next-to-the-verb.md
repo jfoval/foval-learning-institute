@@ -1,6 +1,7 @@
 ---
 title: Keep the subject next to the verb
 minutes: 75
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/communication-and-people/clear-writing/04-keep-the-subject-next-to-the-verb.mp3
 objectives:
   - Explain what a reader is doing while a subject waits for its verb, and why the cost rises with every word
   - Measure the gap between subject and verb in your own sentences, and close the worst ones three different ways
