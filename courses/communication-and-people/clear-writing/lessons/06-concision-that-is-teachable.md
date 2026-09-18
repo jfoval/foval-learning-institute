@@ -74,25 +74,25 @@ Strunk's version of this, in [*The Elements of Style*](https://www.gutenberg.org
 
 The whole of rule 13's first paragraph reads:
 
-> "Vigorous writing is concise. A sentence should contain no unnecessary words, a paragraph no unnecessary sentences, for the same reason that a drawing should have no unnecessary lines and a machine no unnecessary parts. **This requires not that the writer make all his sentences short, or that he avoid all detail and treat his subjects only in outline, but that he make every word tell.**"
+> "Vigorous writing is concise. A sentence should contain no unnecessary words, a paragraph no unnecessary sentences, for the same reason that a drawing should have no unnecessary lines and a machine no unnecessary parts. This requires not that the writer make all his sentences short, or that he avoid all detail and treat his subjects only in outline, but that he make every word tell."
 
-The analogy is exactly right. A machine part that does nothing isn't neutral; it's weight, and something has to carry it. And the bolded sentence, which almost nobody quotes, is Strunk answering the misreading his own headline invites, sixty years before anyone accused him of it. He is not telling you to be brief. He is telling you to make every word tell.
+The analogy is exactly right. A machine part that does nothing isn't neutral; it's weight, and something has to carry it. And the last sentence, which almost nobody quotes, is Strunk answering the misreading his own headline invites, sixty years before anyone accused him of it. He is not telling you to be brief. He is telling you to make every word tell.
 
 Then there's the part that surprises people who only know the four words. Rule 13 doesn't stop at the principle. It gives you a list:
 
-> the question as to whether → **whether**
+> the question as to whether → whether
 >
-> there is no doubt but that → **no doubt**
+> there is no doubt but that → no doubt
 >
-> used for fuel purposes → **used for fuel**
+> used for fuel purposes → used for fuel
 >
-> he is a man who → **he**
+> he is a man who → he
 >
-> in a hasty manner → **hastily**
+> in a hasty manner → hastily
 >
-> owing to the fact that → **since**
+> owing to the fact that → since
 >
-> in spite of the fact that → **though**
+> in spite of the fact that → though
 
 That is instruction, not a slogan, and two of this lesson's six kinds are sitting in it already.
 
@@ -100,9 +100,13 @@ So where's the objection? Geoffrey Pullum puts it this way in ["50 Years of Stup
 
 > "Many are useless, like 'Omit needless words.' (The students who know which words are needless don't need the instruction.)"
 
-Read fairly, that lands on the **headline** and not on the rule. Four words on their own tell you what the finished state looks like and nothing about how to reach it, rather like telling someone to sculpt an elephant by removing everything that doesn't look like an elephant. Strunk knew that, which is why he wrote three more paragraphs and a substitution list. What happened over a century is that the headline travelled and the rule stayed behind.
+Read fairly, that lands on the headline and not on the rule. Four words on their own tell you what the finished state looks like and nothing about how to reach it, rather like telling someone to sculpt an elephant by removing everything that doesn't look like an elephant. Strunk knew that, which is why he wrote three more paragraphs and a substitution list. What happened over a century is that the headline travelled and the rule stayed behind.
 
 Pullum is careful about this too, and the care usually gets dropped when he's quoted. In the same essay he calls the style advice "mostly harmless" and writes: "Even so, it doesn't hurt to lay such well-meant maxims before novice writers." His quarrel is with the book's grammatical claims, which lesson 8 takes up, not with the idea of telling a beginner to cut.
+
+:::checkpoint Pullum says "Omit needless words" is useless. Does that objection land on Strunk's rule, or on the four-word headline?
+On the headline. The four words on their own tell you what the finished state looks like and nothing about how to get there. The rule underneath has three more paragraphs and a substitution list, which is instruction. Pullum's own qualification, that it doesn't hurt to lay such maxims before novice writers, is aimed at the same distinction. What a century of quoting did was carry the headline and leave the rule behind.
+:::
 
 So this lesson isn't supplying what Strunk left out. It's doing what he did, at more length and with the kinds named, because a list you can hold in your head is what makes the cut repeatable.
 
@@ -110,16 +114,16 @@ So this lesson isn't supplying what Strunk left out. It's doing what he did, at 
 
 Don't cut by feel. Name the kind of every cut, and you'll be able to do it again next week and on someone else's writing.
 
-**This list is mine.** It was assembled from the sources at the foot of this lesson and from the pattern of the examples; Strunk's list is shorter, Williams's catalogue is longer. Use this one because six is few enough to remember at the moment you need it.
+This list is mine. It was assembled from the sources at the foot of this lesson and from the pattern of the examples; Strunk's list is shorter, Williams's catalogue is longer. Use this one because six is few enough to remember at the moment you need it.
 
 | Kind | What it is | Example, and the cut |
 |---|---|---|
-| **Doubled words** | Two words joined by *and* where either would do | *full and complete* → **complete**. Also *each and every*, *first and foremost*, *hopes and aspirations* |
-| **Already implied** | The sentence has said it once in another word | *period of time* → **period**. Also *advance planning*, *revert back*, *large in size*, *in the month of May* |
+| **Doubled words** | Two words joined by *and* where either would do | *full and complete* → complete. Also *each and every*, *first and foremost*, *hopes and aspirations* |
+| **Already implied** | The sentence has said it once in another word | *period of time* → period. Also *advance planning*, *revert back*, *large in size*, *in the month of May* |
 | **Metadiscourse** | Writing about the writing | *It should be noted that*, *I would like to say that*, *It is important to note that*. Cut the whole phrase |
-| **A phrase for a word** | Four words doing one word's job | *due to the fact that* → **because**. Also *in the event that* → **if**, *at this point in time* → **now**, *in order to* → **to** |
-| **Negative for positive** | A not that has a word of its own | *was not able to* → **could not**. Also *did not remember* → **forgot**, *not many* → **few** |
-| **Hedge stacking** | Two or three hedges where one is honest | *there is a possibility that we may possibly* → **we may**. Also *it seems likely that it could perhaps* |
+| **A phrase for a word** | Four words doing one word's job | *due to the fact that* → because. Also *in the event that* → if, *at this point in time* → now, *in order to* → to |
+| **Negative for positive** | A not that has a word of its own | *was not able to* → could not. Also *did not remember* → forgot, *not many* → few |
+| **Hedge stacking** | Two or three hedges where one is honest | *there is a possibility that we may possibly* → we may. Also *it seems likely that it could perhaps* |
 
 None of these is a rule about long words, and every cut above leaves the vocabulary alone.
 
@@ -139,7 +143,13 @@ If you found those easy, that's the point of naming kinds. The hard part of conc
 
 ## Down the paragraph, cut by cut
 
-The 111-word paragraph again, with every cut named. Work down it and you'll see nothing left over that the six kinds and lesson 3 can't account for.
+The 111-word paragraph again, with every cut named. Before you look at the table, do its first sentence yourself: "It should be noted at the outset that, due to the fact that the previous system was not able to handle the volume of applications that we were receiving during the course of the busy summer period, a decision was taken by the management team in order to procure a replacement." Name each cut and its kind.
+
+:::checkpoint How many cuts are in that first sentence, and what kind is each?
+Six, and one of them is lesson 3's rather than one of the six kinds. *It should be noted at the outset that* is metadiscourse and goes entirely. *Due to the fact that* is a phrase for a word: *so*, or *because*. *Was not able to* is a negative for a positive: *could not*. *That we were receiving* is already implied, since a volume you handle is one you receive. *During the course of the busy summer period* is a phrase for a word, twice over: *the summer*. And *a decision was taken by the management team in order to procure* is a buried action, which becomes *the management team bought*. If you got five of the six, check whether the one you missed was the buried action, because it's the one that isn't on the list and returns the most words.
+:::
+
+Work down the whole paragraph now and you'll see nothing left over that the six kinds and lesson 3 can't account for.
 
 | Original | Kind | Result |
 |---|---|---|
@@ -161,7 +171,7 @@ Notice the row that isn't one of the six. "A decision was taken in order to proc
 :::predict How much of this can go, and what kind is each cut?
 > "At this point in time, it would appear that there may possibly be a need for us to give consideration to a review of the current arrangements that are presently in place."
 
-One answer: **"We may need to review the current arrangements."** Eight words from thirty-two, which is three quarters of it gone.
+One answer: "We may need to review the current arrangements." Eight words from thirty-two, which is three quarters of it gone.
 
 The cuts, in order. *At this point in time* is a phrase for a word, and the word is *now*, which then turns out to be implied by the present tense and goes entirely. *It would appear that there may possibly be a need for us to* is hedge stacking, three hedges deep, and becomes *we may need to*. *Give consideration to a review of* is a buried action twice over, and becomes *review*. *That are presently in place* is already implied by *current*, and *current* and *presently* are themselves a doubled pair, so one of them goes.
 
@@ -182,7 +192,7 @@ A concision pass will find "That cost is far more than" and see six words repeat
 
 Five words shorter, both figures intact, no fact lost. And the paragraph is worse, because the second sentence now opens on a fresh number instead of on something the reader already has. The chain from lesson 5 is broken, and the reader has to work out the relation between two million and four hundred thousand for themselves.
 
-**Repetition in the topic position is not padding. It is the join.** It looks exactly like padding, which is why concision passes damage prose so often, and why "cut anything you've already said" is a dangerous rule for anyone who hasn't met the given and new contract.
+Repetition in the topic position is not padding. It is the join. It looks exactly like padding, which is why concision passes damage prose so often, and why "cut anything you've already said" is a dangerous rule for anyone who hasn't met the given and new contract.
 
 So ask what the repeated words are doing. If they're carrying the reader from the previous sentence into this one, they're load-bearing. If they're just there, they're not.
 
@@ -215,7 +225,7 @@ Take 45 minutes over the cutting. Use the document you've carried since lesson 1
 
 1. Count the words. Write the number at the top. Your target is two thirds of it. A third is a working target, not a law: this lesson's own paragraph lost nearly sixty percent, and a document that's already been through lessons 2 to 5 may have much less to give.
 
-2. Work through it once, cutting only what you can name. Keep a tally as you go, in seven columns: the six kinds, plus buried actions from lesson 3. **If you can't say which kind a cut is, don't make it yet.** Put a question mark in the margin and move on.
+2. Work through it once, cutting only what you can name. Keep a tally as you go, in seven columns: the six kinds, plus buried actions from lesson 3. If you can't say which kind a cut is, don't make it yet. Put a question mark in the margin and move on.
 
 3. Now go back to the question marks. For each, read the sentence without the words and ask what a reader has lost. If the answer is nothing, cut it and work out afterwards which kind it was. If the answer is a link back to the previous sentence, put it back, and mark it as a join.
 
@@ -242,8 +252,8 @@ The next lesson goes up a level, to the parts of a document that aren't prose at
 ## Sources
 
 - William Strunk Jr., [*The Elements of Style*](https://www.gutenberg.org/cache/epub/37134/pg37134.txt) (1918), rule 13. The first paragraph is quoted in full above, including the sentence, usually dropped, that the rule "requires not that the writer make all his sentences short... but that he make every word tell"; the substitution pairs quoted are Strunk's own, from the same rule. The 1918 text was read for this lesson.
-- **E. B. White's 1959 revision is not read by this course and nothing is cited to it.** The "write with nouns and verbs" advice discussed in the misconceptions is quoted as Pullum reports it, and attributed to that revision rather than to Strunk. The string does not appear in the 1918 text.
+- E. B. White's 1959 revision is not read by this course and nothing is cited to it. The "write with nouns and verbs" advice discussed in the misconceptions is quoted as Pullum reports it, and attributed to that revision rather than to Strunk. The string does not appear in the 1918 text.
 - Geoffrey K. Pullum, ["50 Years of Stupid Grammar Advice"](https://pullum.ppls.ed.ac.uk/50years.pdf), *The Chronicle of Higher Education* (2009), for the objection that the four-word maxim is not usable instruction, and for the qualifications quoted with it: "mostly harmless" and "it doesn't hurt to lay such well-meant maxims before novice writers". His wider argument is lesson 8.
 - Nancy Sommers, *Revision Strategies of Student Writers and Experienced Adult Writers* (report to the National Institute of Education, 1982), for Michael, the student whose "strategy is to use a thesaurus". Eight freshman students and seven experienced adult writers. The lesson claims nothing about novices in general from it, because the study does not support that.
-- Joseph M. Williams, *Style: Lessons in Clarity and Grace*, on concision. **This course has read the book's structure and central principles as others report them, not the text itself**, so the six kinds are this course's own list, assembled from the sources above and from the pattern of the examples. The lesson says so where the list is introduced.
+- Joseph M. Williams, *Style: Lessons in Clarity and Grace*, on concision. This course has read the book's structure and central principles as others report them, not the text itself, so the six kinds are this course's own list, assembled from the sources above and from the pattern of the examples. The lesson says so where the list is introduced.
 - Every word count in this lesson was recounted from the passage printed beside it: 111 words to 46, which is 59 percent; the predict block's 32 words to 8; and the six-word repetition in the bridge pair.
