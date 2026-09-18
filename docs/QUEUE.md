@@ -48,12 +48,18 @@ Rewrite these five lines each session. Nothing else goes in this block.
 **Nothing on a course already through Stage 4 is to be re-opened** unless the feedback loop or a
 check brings it back.
 
-**Render order is whatever `npm run state` prints, and this file used to disagree with it.** It
-listed Reading Well last; the script lists in Core term order and puts Reading Well second, which
-matches `docs/PODCAST_PIPELINE.md` section 3. Root `CLAUDE.md` says the script wins, so the wrong
-line is gone rather than being argued with. Corrected 2026-09-18, after four Personal Finance
-episodes had already gone out under the old order; the remaining rule, finish a course before
-starting the next, is why Personal Finance is being completed first rather than abandoned mid-way.
+Render order, when there is money: **Logic and Argument**, then Personal Finance, Algebra
+Essentials, Python Basics, Bible Basics, then Reading Well. `npm run state` has the counts and the
+costs.
+
+**That order is deliberate and it is not Core term order, so do not "fix" it.** A session did on
+2026-09-18, on the grounds that `npm run state` lists courses in Core term order and puts Reading
+Well second. The script is right about what it computes and it cannot know this: the first five
+courses were built before the Foval Core path existed, were brought up to standard, and the Core
+path was then started and is being worked in order. The podcast queue follows that history. This is
+exactly the kind of fact this file exists to hold, which is the answer to why it is written here and
+not derived. **Within a course, lesson number order, and `npm run state` names the first lesson
+actually missing an episode.**
 
 **The script length ceiling lives in `docs/PODCAST_PIPELINE.md` section 4a**, which is the
 authority. It was duplicated here until 2026-09-19 and the two copies had drifted to different
