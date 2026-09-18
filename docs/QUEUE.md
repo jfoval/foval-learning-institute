@@ -46,10 +46,18 @@ course in `docs/PODCAST_PIPELINE.md` section 3. Finish a course before starting 
 6. **Python Basics, all six.** Term 6, about $1.31.
 7. **Bible Basics, all twelve.** Term 8, about $2.61. Lesson 2 has a script.
 
-8. **Charts on a phone.** 34 charts render their smallest label at 8.8px and Bible Basics 9 at
-   8.0px, against a 10px floor. The validator names each one. The fix is one chart at a time with
-   the page open: narrow the viewBox and re-lay-out, or raise the font size and check nothing
-   collides. Do not bulk-edit the font sizes.
+8. **Charts on a phone. 29 left**, all of them viewBox 584 with 15px labels, which render at 8.8px
+   against a 10px floor. The validator names each one, by course: Personal Finance 14, How to Learn
+   Anything 8, Logic and Argument 5, Bible Basics 2.
+   **Bible Basics 9 is done and is the worked example to copy.** It was the worst at 8.0px. The fix
+   was not a font bump: the timeline was rebuilt at viewBox 420 in the house pattern (no `<g>`,
+   every size an attribute on its own `<text>`, `var(--token, #literal)` everywhere, a real
+   `<desc>`), laid out tall rather than wide, with each label on its own line led by a coloured
+   swatch matching its marker so nothing depends on colour alone. Labels now render at 12.3px.
+   **The arithmetic to aim at:** the validator measures at 340px phone width, so a label renders at
+   `font-size * 340 / viewBox-width`. For 15px labels to clear 10px the viewBox must be 510 or
+   narrower; 420 is the house width and gives 12.1px. **Do not bulk-edit font sizes**, and open the
+   page at phone width before and after: the browser is the only thing that catches a collision.
 9. **`npm run quiz` lists 19 quizzes tripping the shape heuristic** (option-length spread over 25
    characters, adjacent repeats, unused positions) without being winnable by a reader who read
    nothing. Worst is Personal Finance 6 at a 174-character spread. Decide one thing when it comes

@@ -72,7 +72,13 @@ repo as Markdown; a build script compiles it into a static site. Read this file,
 8. **Finish the job without asking permission for the routine parts of it.** When work is done and
    `npm run validate` exits 0, merge it to `main` rather than asking whether to. **Work that is not
    on `main` is not done, because the live site serves `main`.** Content sessions commit straight to
-   `main` and pull first; platform work gets a branch. Make the ordinary judgement calls (which term
+   `main` and pull first; platform work gets a branch.
+   **John often runs two sessions at once, usually one on episodes and one on lessons, so stage your
+   own files by name and never `git add -A` or `git commit -a`.** On 2026-09-17 and 18 a broad add
+   swept another session's in-progress work into two unrelated commits. Nothing was lost, because
+   the work happened to be finished, but the history now says the wrong thing about who changed
+   what, and the next one could commit something half-written. If `git status` shows files you did
+   not touch, leave them: that is the other session working, not a dirty tree to tidy. Make the ordinary judgement calls (which term
    a course belongs in, whether a suggestion duplicates something on the map, how to word a note)
    and say what you decided and why. Bring John a decision only when it changes what the institute
    claims or teaches, when it would spend money or create an account, or when two readings of a
