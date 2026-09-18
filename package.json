@@ -8,7 +8,7 @@
     "build": "node scripts/core-path.mjs && node scripts/build.mjs",
     "validate": "node scripts/core-path.mjs && node scripts/build.mjs --check",
     "path": "node scripts/core-path.mjs",
-    "serve": "npx --yes serve site -l 4173",
+    "serve": "npx --yes serve dist -l 4173",
     "feedback": "node scripts/feedback.mjs",
     "feedback:deploy": "wrangler deploy --cwd workers/feedback",
     "net": "node scripts/net-quotes.mjs",

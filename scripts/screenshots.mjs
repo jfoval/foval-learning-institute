@@ -9,7 +9,7 @@
 //
 // Some targets photograph a course that is still `drafting`, which the normal build
 // leaves out of the site. Run `npm run build:drafts` first, then `npm run build`
-// afterwards, and check `git diff site/data/courses.js` is empty before committing.
+// afterwards. Nothing generated is committed any more, so there is no diff to check.
 //
 // Every shot is taken four ways: light and dark, phone and desktop, except the tiles,
 // which are narrow objects that a phone frames best at any width. The <picture> element
@@ -21,8 +21,10 @@ import http from "node:http";
 import { fileURLToPath } from "node:url";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
-const SITE = path.join(ROOT, "site");
-const OUT = path.join(SITE, "assets", "media", "screens");
+// The pages are served out of the built site; the screenshots are written back into the SOURCE
+// assets, because they are committed and the app's <picture> elements reference them by name.
+const SITE = path.join(ROOT, "dist");
+const OUT = path.join(ROOT, "site", "assets", "media", "screens");
 const PORT = Number(process.env.SHOTS_PORT || 4180);
 const BASE = `http://localhost:${PORT}/`;
 
@@ -186,6 +188,7 @@ try {
   process.exit(1);
 }
 
+if (!fs.existsSync(SITE)) { console.error("No dist/ to photograph. Run `npm run build` first."); process.exit(1); }
 const courses = fs.readFileSync(path.join(SITE, "data", "courses.js"), "utf8");
 if (wanted.some(n => TARGETS[n].draft) && !courses.includes(`"id": "${BIBLE}"`)) {
   console.error(`${wanted.filter(n => TARGETS[n].draft).join(", ")} photograph a drafting course that is not in site/data/courses.js.`);

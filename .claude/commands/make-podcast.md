@@ -82,6 +82,7 @@ failed on our side may have completed, and been billed, on Google's.
 same commit as the stamp, and delete the entry when it reaches zero. `npm run validate` fails if the
 ledger and the lessons disagree in either direction, which is what stops the count drifting.
 
-**5. Finish.** `npm run validate`; `npm run build` and commit `site/data/courses.js` too
-if the course is published. Commit the script and the stamped lesson together, naming the
-course and lesson. The MP3 itself lives in R2 and git-ignored `audio-out/`, never in git.
+**5. Finish.** `npm run validate`. Nothing generated is committed: the build writes to
+git-ignored `dist/` and the Pages workflow builds and publishes it in CI. Commit the script
+and the stamped lesson together, naming the course and lesson. The MP3 itself lives in R2 and
+git-ignored `audio-out/`, never in git.

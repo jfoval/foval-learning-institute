@@ -44,17 +44,18 @@ repo as Markdown; a build script compiles it into a static site. Read this file,
    drafting, one lesson per session, reviews in fresh contexts, no em dashes, the lesson format and
    the `:::` block grammar, sensitive domains and the Christian standpoint.
 2. **Site rules live in `site/CLAUDE.md`**: plain HTML, CSS and JS with no framework and no build
-   step, `site/data/courses.js` is generated, check both themes at phone and desktop width.
+   step, the built site is generated into git-ignored `dist/`, check both themes at phone and
+   desktop width.
 3. **Build and validator rules live in `scripts/CLAUDE.md`**: what `npm run validate` enforces, and
    the contract between `curriculum/TAXONOMY.md` and `curriculum/core-path.yaml`.
 4. **Run `npm run validate` before every commit, and check its exit code rather than its output.**
-   Then **run `npm run build` and commit whatever it changes under `site/`, in the same commit**,
-   whenever you touched anything the site reads. That is more than publishing: the Path page lists
-   every course on the map, so adding one, or changing its status, changes `site/data/courses.js`
-   and the content hashes in `site/index.html` and `site/sw.js`. Two commits on 2026-09-17 failed CI
-   on exactly this, because this rule used to say "when publishing" and that is not when the build
-   output changes. CI's "Check the committed build output is current" step is the backstop; it
-   failing means the live site is already behind.
+   That is the whole rule now. **The built site is not in git**: `npm run build` writes everything
+   into git-ignored `dist/`, and the Pages workflow builds it in CI and publishes what it built, so
+   there is nothing generated to commit and nothing to keep in step. `site/` is source, and the
+   build never writes to it. This replaced a rule that said to commit the build output, which cost
+   two CI failures on 2026-09-17 and, over twelve hours of two sessions working at once, fourteen
+   mechanical conflicts on each of three generated files. `docs/PODCAST_PIPELINE.md` has the
+   reasoning under "Working alongside another session".
 5. **A course status change edits `course.yaml` and its TAXONOMY.md row in the same commit.**
    Statuses are planned → research → drafting → published. There is no "review" state and no owner
    sign-off gate: a course goes live once its lessons have passed Stage 4 and the voice pass, and

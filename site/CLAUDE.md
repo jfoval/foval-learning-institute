@@ -65,3 +65,11 @@ The static site. Everything a learner sees.
   tested but not deployed; while this is empty the site behaves exactly as it does now, with no
   sign-in link and no network calls. Setting it before the Worker is deployed gives every visitor a
   broken sign-in page.
+
+## The build output is not in git
+
+`site/` is source and the build never writes to it. `npm run build` mirrors `site/` into
+git-ignored `dist/`, generates `dist/data/`, the static reading copies under `dist/courses/` and the
+sitemap, and stamps the asset hashes into `dist/index.html` and `dist/sw.js`. The Pages workflow
+runs the same build in CI and publishes `dist/`, so nothing generated is committed and nothing can
+go stale. `npm run serve` serves `dist/`, so build before you preview.

@@ -6,7 +6,7 @@ compile step anywhere in this repo.
 | Script | npm | What it does |
 |---|---|---|
 | `core-path.mjs` | `path` | Keeps `TAXONOMY.md` and `core-path.yaml` agreeing; generates the Core list |
-| `build.mjs` | `build`, `validate`, `build:drafts` | Compiles `courses/` to `site/data/courses.js`, and lints everything |
+| `build.mjs` | `build`, `validate`, `build:drafts` | Compiles `courses/` + `site/` into git-ignored `dist/`, and lints everything |
 | `reading-time.mjs` | `minutes` | Measures every lesson's real `minutes:`; `--write` fixes them |
 | `podcast.mjs` | — | `/make-podcast`'s engine: plan, render (one call), gate, upload, stamp, profile, reference |
 | `check-quiz-letters.cjs` | `quiz` | Finds explanations that contradict their own `answer` |
@@ -21,7 +21,8 @@ compile step anywhere in this repo.
 | `tests/` | `test` | `node --test`: fixtures that must fail each lint, and a renderer snapshot |
 
 `npm run validate` is `core-path.mjs` then `build.mjs --check`. Run it before every commit.
-`npm run build` is the same two without `--check`, and it writes `site/data/courses.js`.
+`npm run build` is the same two without `--check`, and it writes the whole site into `dist/`.
+`site/` is source and the build never touches it, so a build leaves the working tree clean.
 
 `npm run quiz` runs both quiz checks over every lesson and assessment. It is **not** part of
 `validate`, deliberately: both are heuristics that need a human to read each hit, and a heuristic

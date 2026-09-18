@@ -16,6 +16,6 @@ audio-samples/
 # rendered episodes on their way to R2, not source
 audio-out/
 
-# static reading copies of every course and lesson, written by `npm run build` at deploy
-site/courses/
-site/sitemap.xml
+# the built site. `npm run build` writes everything here from site/ plus courses/; the Pages
+# workflow builds it in CI and publishes that, so none of it belongs in git. site/ is source.
+dist/

@@ -20,7 +20,7 @@ A free, open, general-education online institute. The goal is simple to state an
 | `docs/PLATFORM_ROADMAP.md` | Accounts, review system, credentials, social, devices, costs |
 | `courses/` | Course sources: Markdown lessons with YAML frontmatter |
 | `site/` | The static site (plain HTML/CSS/JS, no framework) |
-| `scripts/build.mjs` | Compiles `courses/` into `site/data/courses.js` |
+| `scripts/build.mjs` | Compiles `courses/` and `site/` into the git-ignored `dist/` |
 | `.claude/commands/` | Slash commands for each pipeline stage |
 | `templates/` | Starting points for new courses and lessons |
 
@@ -28,7 +28,7 @@ A free, open, general-education online institute. The goal is simple to state an
 
 ```bash
 npm install
-npm run build      # compile courses/ -> site/data/courses.js
+npm run build      # compile courses/ + site/ -> dist/ (never committed)
 npm run serve      # preview at http://localhost:4173
 npm run validate   # check content without building
 ```
