@@ -1,6 +1,7 @@
 ---
 title: "What reading costs: your eyes, the page, and the speed you cannot buy"
 minutes: 40
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/foundations/reading-well/04-what-reading-costs.mp3
 objectives:
   - State a realistic reading rate for yourself and calculate how long a given text will take
   - Explain why reading rates far above the measured band cost comprehension, and what the eye is doing that makes that so
