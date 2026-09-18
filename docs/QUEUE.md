@@ -238,7 +238,28 @@ you find a third case, write the test first.
    how many wide items have the key as the longest option. Seventeen quizzes remain lumpy in shape
    and none is winnable by it. **Rebalance one when its lesson is next open; do not make a session
    of it.**
-7. **Then the Foval Core in order, one course at a time.**
+7. **Four things Digital Literacy's outline hands to this file rather than settling itself.**
+   **(a) Python Basics lesson 1 will disagree with Digital Literacy about the shell.** Digital
+   Literacy teaches POSIX and has Windows learners install Git Bash in lesson 4; Python Basics
+   currently sends them to PowerShell. Digital Literacy is five terms earlier on the Core, so
+   Python Basics is the one that moves. **Do not do it until Digital Literacy's terminal lessons
+   exist**, because until then Python Basics' PowerShell instructions are the only ones a Windows
+   learner has.
+   **(b) Three Stage 1 gates block specific claims**, each with a written fallback in the outline
+   so nothing is stopped: lesson 12 needs CISA or provider documentation for backup retention
+   windows and for versioning defeating ransomware, lesson 13 needs a real data export actually run
+   so the lesson says what one contains, and lesson 11 needs the Verizon figures read rather than
+   taken at search-summary level. **A drafter who ignores a gate will print a claim the research
+   cannot support**, which is the exact defect this repo keeps finding.
+   **(c) Lesson 8 is the one length risk**, planned at 70 measured minutes. The split is decided in
+   advance: past 90, the VPN and private browsing move to a fourteenth lesson and HTTPS stays with
+   the padlock. Do not improvise a different split.
+   **(d) A mobile-first counterpart is missing from the Core map.** Digital Literacy teaches the
+   desktop model deliberately and says so, so a phone-only learner cannot do its lessons 2 to 7 or
+   the terminal half of its project. That is a real gap in what the institute offers and it is
+   John's call whether it becomes a course, not a drafter's. The outline did not touch the taxonomy.
+
+8. **Then the Foval Core in order, one course at a time.**
    **Reading Well: lesson 1 of ten is written and through two Stage 4 rounds as of 2026-09-17.**
    It publishes when its ten lessons pass Stage 4, adding `reading-well: 10` to
    `curriculum/audio-debt.yaml` in the same commit. Ten lessons are planned in
