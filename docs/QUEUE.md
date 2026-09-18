@@ -13,7 +13,7 @@ through.
 Rewrite these five lines each session. Nothing else goes in this block.
 
 - **Current course:** How to Learn Anything, finishing its episodes on the new pipeline. Reading
-  Well's Stage 1 research runs alongside under the `docs/DECISIONS.md` §2 exception.
+  Well runs alongside under the `docs/DECISIONS.md` §2 exception, now at Stage 3.
 - **Current lesson:** How to Learn Anything lesson 1's episode is live and approved by John; lessons
   2 to 8 are next, and their scripts are already written and fact-checked.
 - **Current stage:** Stage 6, one episode at a time. **`docs/PODCAST_PIPELINE.md` is the manual**:
@@ -55,9 +55,14 @@ course in `docs/PODCAST_PIPELINE.md` section 3. Finish a course before starting 
    nothing. Worst is Personal Finance 6 at a 174-character spread. Decide one thing when it comes
    up: tighten the 19, or raise the threshold and say why. Not both.
 10. **Then the Foval Core in order, one course at a time, each finished before the next starts.**
-   **Reading Well is scaffolded and at Stage 1 as of 2026-09-17**, drafted ahead of its audio under
-   the §2 exception. After it: Digital Literacy, then Using AI Effectively, then Term 2. Start each
-   with `/new-course`.
+   **Reading Well is researched and outlined as of 2026-09-17** and is drafting, ahead of its audio
+   under the §2 exception. Ten lessons planned in `research/OUTLINE.md`, with a course-end test and a
+   project; `/draft-lesson courses/foundations/reading-well 1` is the next step, one lesson a
+   session. Three things the outline flags for whoever drafts: lesson 4 leans on the Rayner
+   speed-reading monograph, which was read only through its public summary; lesson 6 on marginalia is
+   thin and should be folded into lesson 5 rather than padded; lesson 9 is in a 3.4 domain and its
+   neutrality audit is mandatory. After Reading Well: Digital Literacy, then Using AI Effectively,
+   then Term 2. Start each with `/new-course`.
 
 ## Standing items, every week
 
