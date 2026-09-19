@@ -79,6 +79,21 @@ Confirmed across seventeen lessons in two courses, then again in every course si
     remove", "this course has not read" and "reported from" is a claim about provenance, and
     provenance claims are checkable against `SOURCES.md` in seconds.
 
+    **Second form, measured on 2026-09-19 on two lessons of one course: the read level is itself a
+    provenance claim, and the drafter raises it where it is least entitled to.** `SOURCES.md`
+    recorded "the abstract and the results of the diary studies"; the lesson's Sources entry and its
+    Go deeper both said "the abstract, **the Method section** and the diary-study results", and then
+    the lesson gave a page of Method detail that existed nowhere: a university, two sample sizes,
+    course credit, recording periods, a chiming wristwatch, a signed contract, an exclusion rule.
+    The next lesson did the same with "Study 1's design and participants" raised to "both studies",
+    and then printed a sample size for Study 2. **In each case the inflated read level is exactly
+    what licenses the invented material**, which is why this form is worth checking separately: the
+    fabrication is downstream of a sentence that looks like scrupulousness. For a drafter: **write
+    the read level by copying it out of `SOURCES.md`, never from memory of what you read**, and if
+    the lesson wants something that level does not cover, say in the body that the course did not
+    read that part. For a reviewer: string-match every read-level statement against `SOURCES.md`,
+    then ask what it is being used to license.
+
     **Measured again on 2026-09-19, three times in one course, and the mechanism is now clear.**
     Time Management lessons 1, 3 and 4 each shipped a constructed case or an attribution labelled
     only in the Sources block, and in two of the three the footnote had **no marker anywhere in the
