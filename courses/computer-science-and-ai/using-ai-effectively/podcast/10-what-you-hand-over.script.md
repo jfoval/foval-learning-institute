@@ -1,11 +1,20 @@
 ---
 source: courses/computer-science-and-ai/using-ai-effectively/lessons/10-what-you-hand-over.md
 written_by: Claude, by hand, from the lesson text
+checked: >-
+  Both NIST quotations keep their hedges inside the attribution, the worked case's six document
+  sentences match the lesson word for word, the episode says the case is constructed as the lesson
+  does, and nothing in it states current market behaviour as a standing fact, which is the defect
+  this lesson's own Stage 4 review failed it for. Nothing has been added that the lesson does not
+  say. Fact-checked in a fresh-context subagent against the lesson on 2026-09-19: verdict PASS WITH
+  NITS, and every nit was fixed in this file before rendering, including a fifth checkable belief
+  the first draft had dropped without saying so.
 about: >-
   About eight minutes. Haley opens, because the engine gives the first turn to the second voice.
   Hosts are John (S1) and Haley (S2). Tenth episode for Using AI Effectively. The episode leaves
-  out the reference-writing predict block, the callout on jurisdiction and the ICO's guidance,
-  the education-not-advice callout, and both exercises.
+  out both predict blocks (the reference-writing one and the two-sentences-now one, with its
+  over-reliance and aversion material), the callout on jurisdiction and the ICO's guidance, and
+  the education-not-advice callout. Both exercises are summarised rather than given in full.
 speakers: 2
 approx_minutes: 8
 ---
@@ -16,7 +25,7 @@ S1: And I'm John. Today we're in Using AI Effectively, lesson ten. What you hand
 
 S2: And this is a change of direction for the course.
 
-S1: Everything so far has been about what comes back. This lesson is about what goes in. It's the shortest in the course, because most of it is a document you can go and read in twenty minutes, and the lesson says it's the one most likely to stop you doing something you can't undo, because what you've typed into somebody else's system is typed.
+S1: Everything so far has been about what comes back. This lesson is about what goes in. The lesson calls it the shortest of the eleven, because most of it is a document you can go and read in twenty minutes, and the lesson says it's the one most likely to stop you doing something you can't undo, because what you've typed into somebody else's system is typed.
 
 S2: So what do I need to know?
 
@@ -54,9 +63,9 @@ S2: Which means what for me?
 
 S1: That the decision has to be made by category rather than field by field. Taking the name out of a case summary changes less than it feels like, because a case summary is made of exactly the sort of details that combine.
 
-S2: All right, the worked case. You said it's constructed.
+S2: All right, the worked case.
 
-S1: Every sentence attributed to a document in it is made up, and the lesson says so, because whatever any product says today isn't what this lesson can teach you. What it can teach is the shape of the difference. So. A manager uses the same product at home and at work.
+S1: And it's constructed. Every sentence attributed to a document in it is made up, and the lesson says so, because whatever any product says today isn't what this lesson can teach you. What it can teach is the shape of the difference. So. A manager uses the same product at home and at work.
 
 S2: Start with home.
 
@@ -82,9 +91,17 @@ S2: Is that an AI point at all?
 
 S1: The lesson says it has nothing to do with the technology. It's the same reasoning that says not to draft that letter in a shared folder or on a work laptop that IT images. What the lesson adds is remembering that a chat window is one of those places.
 
+S2: So the home account is the right answer.
+
+S1: It's the better of the two available, and the lesson is careful that this is a different claim from its being a good idea. It doesn't say she should use a system for the letter at all.
+
 S2: Give me the beliefs worth testing.
 
 S1: Anything I type is used to train it. That's a fact about your product, your plan and your settings, on the date you read them, and it's written down. Assuming either way is a way of not reading the sentence that would've told you.
+
+S2: And the belief pointing the other way?
+
+S1: Nothing I type is used to train it. Same belief-instead-of-a-document, and the lesson calls it the more expensive of the two, because the first costs you some use of a tool and the second can cost somebody else their privacy.
 
 S2: And deleting?
 
@@ -100,11 +117,7 @@ S1: NIST's sentence about inference from disparate sources is the answer. A name
 
 S2: What does the lesson actually ask me to do?
 
-S1: Two exercises. Read the page, both pages, with the date beside each answer. And then three lists: what you will type in, what you won't whatever the plan says, and what depends, with the condition written out beside every entry in the third list.
-
-S2: Why the condition?
-
-S1: Because an entry in the third list without its condition belongs in one of the other two. And decide it now rather than in the moment, because the moment is when you're busy and the material is in your clipboard.
+S1: Two exercises. Read the page, and the work one, with the date beside each answer. And then three lists: what you will type in, what you won't whatever the plan says, and what depends, with the condition written out beside every entry in the third list, because an entry without its condition belongs in one of the other two. And decide it now rather than in the moment, because the moment is when you're busy and the material is in your clipboard.
 
 S2: That's the episode. We've left out a worked example about a reference letter, a callout on rights and which jurisdiction they belong to, a note that this is education and not advice, and both exercises in full. The full lesson is at Foval Learning Institute dot org. Thanks for listening.
 
