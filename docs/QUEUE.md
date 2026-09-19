@@ -67,6 +67,20 @@ Rewrite these five lines each session. Nothing else goes in this block.
   claims about itself, so under root rule 8 it is John's decision and not a drafter's. Nothing is
   blocked: the course is live without it.
 
+- **Thirty-four quiz explanations name a distractor by its position**, across seven courses. Found
+  by a survey on 2026-09-19 after three courses had their answer sequences permuted, and written up
+  here rather than fixed, under root rule 9. **This is `/draft-lesson` defect 17 and it is a trap
+  rather than a wording problem**: the day somebody reorders a quiz's options, a sentence saying
+  "the second answer overshoots" starts describing a different option, and nothing fails. Two Focus
+  explanations survived today's permutation by luck and were rewritten; the rest were not touched.
+
+  `npm run quiz` lists them with the sentence, so a session can work straight down the output. They
+  are in Digital Literacy's final test (4), Using AI Effectively's final test (4) and three of its
+  lessons, Time Management's final test (4), Habits and Self-Discipline's final test (2) and lesson
+  7, How to Learn Anything's lessons 4, 6, 7 and 8 (8 in total), Focus and Deep Work's final test,
+  Bible Basics lessons 4 and 9, Python Basics lesson 1, Logic and Argument lesson 10, and Digital
+  Literacy lessons 1 and 3. **The fix is one edit each: name the distractor by its content.**
+
 - **Memory is drafting.** Lessons 1 to 6 are written and the project is written. Lesson 1 has had
   its Stage 4 review applied; lessons 2 to 5 have been reviewed and the findings are being applied;
   lessons 6 and 7 are under review now. Both assessments are written. **Still to do: apply those

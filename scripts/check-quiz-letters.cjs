@@ -63,6 +63,17 @@ for (const f of files) {
       }
     }
 
+    // /draft-lesson defect 17: an explanation naming a distractor by its position. It reads fine
+    // and it is a trap, because the day somebody permutes the options to fix defect 16 the
+    // explanation starts describing the wrong option and nothing fails. Memory's quiz answer
+    // sequences were permuted across three courses on 2026-09-19 and two Focus explanations
+    // survived it by luck. Name distractors by content instead.
+    //
+    // Advisory and deliberately not in `npm run validate`: an ordinal can legitimately point at
+    // something enumerated in the stem or in the explanation itself, so every hit is read by eye.
+    for (const mm of ex.matchAll(/\b(first|second|third|fourth|last)\s+(option|answer|one|of them)\b/gi))
+      flags.push(`POSITION names a distractor by place: "${mm[0]}" in: ${ex.slice(Math.max(0, mm.index - 60), mm.index + 80)}`);
+
     if (flags.length) {
       hits++;
       console.log(`\n${f} item ${i + 1}  key=${key}`);
