@@ -27,8 +27,8 @@ Rewrite these five lines each session. Nothing else goes in this block.
   eleven episodes, which is money and trails. Every review file is in `research/reviews/`, and the
   audit is the last entry in `course-wide.md` and lists what it checked so nothing is re-checked.
 
-  **Six defects recurred across four or more of its lessons and are now drafting defects rather
-  than lesson defects.** They are in `.claude/commands/draft-lesson.md`. Two are worth knowing
+  **Four defects recurred across four or more of its lessons and are now drafting defects rather
+  than lesson defects, numbered 18 to 21.** They are in `.claude/commands/draft-lesson.md`. Two are worth knowing
   before anybody opens a lesson anywhere in this repo. **Anything a course constructed itself must
   be labelled as the course's own in the body at the point of use**, not only in a footnote:
   lessons 8 and 11 both had a Sources block claiming the body said so when it did not. And **a

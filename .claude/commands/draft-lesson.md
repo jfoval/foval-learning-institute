@@ -49,6 +49,34 @@ Confirmed across seventeen lessons in two courses, then again in every course si
 16. **The same drafter's quiz keys run long and cluster on one position, every time.** Same three drafts: the key was the sole longest option in 4 of 6, 5 of 6 and, on a 32-item test, 15 of 32, and one lesson used only two of the four answer positions across six items. Both are measured by `npm run validate`. **Fix them by lengthening distractors rather than trimming the key**, which is what the warning says and is the right way round, because the key is usually longest for the good reason that it carries the reasoning.
 17. **Explanations that refer to options by position collide with explanations that refer to anything else by position.** A review on 2026-09-18 found a test where "the fourth-named" meant the fourth thing mentioned in the explanation while every other explanation used the fourth *option*, and a lesson where one explanation said "the first request" about the stem and "the first" about an option in consecutive sentences. **Name each distractor by its content instead**, which survives the options being reordered to fix defect 16 and reads better anyway.
 
+18. **Quotations re-worded inside their own marks, most often by re-inflecting a verb.** Measured
+    across one course on 2026-09-19: five of eleven lessons, and then a podcast script one stage
+    later, in the same course, on the same sentence. A vendor's `"eliminat[es]"` and `"avoid[s]"`
+    were printed as "eliminating" and "avoid[ing]", the second with its bracket moved to cover the
+    change; a textbook's "we now *try to* reserve" lost its hedge; a study's "largely mitigated"
+    gained a verb it did not have. **The bracket convention exists to declare an alteration, and
+    each of these used it to hide one.** Check quotations by string match against `SOURCES.md`
+    rather than by eye, because every one of these reads perfectly.
+19. **A hedge or a scope dropped in the unquoted lead-in to an accurate quotation.** The mirror of
+    18 and harder to see, because the marks are clean. "Risks arise" for NIST's "Risks from
+    confabulations **may** arise"; "the standards body describes" for a definition NIST quotes from
+    somewhere else; "nothing you withhold prevents an inference" for a source that says a system
+    "may be able to correctly infer". Four lessons of one course in one session. **The sentence
+    before the quotation is part of the citation.**
+20. **Anything the course constructed itself, labelled in a footnote instead of in the body.** Two
+    lessons of one course had a Sources block asserting "the lesson says so in the body" where the
+    body said no such thing, and in one of them the footnote carried no marker, so it was
+    unreachable, while four quiz items graded the reader on the construction as though it were
+    established. **Label it where the reader meets it**, in one clause, and keep the footnote for
+    the detail. The convention already exists in this repo: "which is this course's inference from
+    the same mechanism rather than a finding", inline, at the point of use.
+21. **Go deeper recommending, describing or ranking a part of a source nobody here has opened.**
+    "Read section 4 for the typology, which is the most transferable thing in it", where the
+    research file records the abstract only. Four lessons of one course, plus one that named a
+    table's contents and called it the most useful thing in a paper the course had not downloaded.
+    **Recommend the work and state the read level**, which is both honest and usually the better
+    recommendation.
+
 ## Two mechanical traps
 
 - **Blocks need blank lines inside them.** `:::predict`, `:::checkpoint`, `:::callout` and `:::exercise` bodies parse with `breaks: false`, so single newlines render as one run-on paragraph; six blocks once shipped as 160 to 290-word walls. `:::figure` and `:::video` are the opposite: they use `parseInline` and must stay one paragraph. **Never put a blank line inside an `<svg>`**, which truncates the chart (the build now fails on it).
@@ -59,6 +87,18 @@ Confirmed across seventeen lessons in two courses, then again in every course si
 Run `npm run validate` and `npm run minutes`, fix what they report, then re-read your draft against the three tests in Part 1.1 and against the defect list above. Report what you wrote, the sources used, and anything you were unsure about; the reviewer will want to know.
 
 **Draft as many lessons as the budget allows** (`courses/CLAUDE.md` rule 2, changed 2026-09-18). There is no per-session cap. What must not be relaxed to go faster: each lesson gets its own Stage 4 review in a fresh context, never one review for the batch; re-read the outline and run `npm run taught <course>` before each lesson rather than working from what is still in context; and read the repetition warnings from `npm run validate`, because lessons written in one sitting reuse each other's examples and the drafter cannot see it.
+
+
+**Stage 6 catches lesson defects that Stage 4 does not, and this is now measured.** Writing a
+podcast script from a lesson is a close reading of it that nothing else in the pipeline performs,
+and on 2026-09-19 eleven scripts written against a course that had just passed eleven Stage 4
+reviews and a neutrality audit turned up three defects in the lessons themselves: a task design
+credited to the wrong study, a Sources cross-reference pointing at the wrong note after a
+renumbering, and a worked costing whose total did not fit its own double-counting story. The last
+is the instructive one. **A figure a reader can squint past in print is a column of numbers a
+listener is invited to add up.** So write the script promptly rather than treating it as packaging,
+and when a fact-check reports a defect, check whether it belongs to the script or to the lesson
+before fixing it in the script.
 
 ### Two measured patterns, moved here from docs/QUEUE.md on 2026-09-19
 
