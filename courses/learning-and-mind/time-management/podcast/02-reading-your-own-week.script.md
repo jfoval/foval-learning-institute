@@ -1,6 +1,17 @@
 ---
 source: courses/learning-and-mind/time-management/lessons/02-reading-your-own-week.md
 written_by: Claude, by hand, from the lesson text
+checked: >-
+  Fact-checked in a fresh-context subagent against the lesson on 2026-09-19: verdict PASS WITH NITS,
+  and every finding was fixed in this file before any render. **The most useful finding was an
+  arithmetic error in the lesson itself**, which the script had faithfully reproduced: Ade's residue
+  is 65 waking hours outside his four categories, not 54, because 54 is his waking hours inside
+  them. The lesson was corrected first and the script follows it. Also fixed: "usually" restored to
+  the lesson's "often" on whether the two kinds of gap fall in the same category; the definition of
+  a discretionary hour restored to include "and without a cost you are unwilling to pay", which is
+  the clause that stops the column being over-filled; the sign-off no longer names a worked case the
+  episode had already delivered; the three expectations labelled as the lesson labels them; and the
+  energy supplier restored to the hour on hold.
 about: >-
   About seven minutes. Haley opens, because the engine gives the first turn to the second voice.
   Hosts are John (S1) and Haley (S2). The episode takes the two passes over a week's record, Ade's
@@ -25,7 +36,7 @@ S1: Put the prediction beside the record. Four numbers you wrote down before the
 
 S2: And what should I expect to see?
 
-S1: Three things, and none of them is a failure. Some categories will agree closely, which is a real finding, because you can stop attending to them. One or two will be out by a lot. And something will turn up that was not in your four categories at all.
+S1: Three things the lesson expects rather than anything it has measured, and none of them is a failure. Some categories will agree closely, which is a real finding, because you can stop attending to them. One or two will be out by a lot. And something will turn up that was not in your four categories at all.
 
 S2: Why do the disagreements carry the information rather than the totals?
 
@@ -41,7 +52,7 @@ S1: The lesson builds one, and it says plainly that the person is constructed. A
 
 S2: So he lost eleven hours of leisure.
 
-S1: And here's the arithmetic almost everybody skips. A week has a hundred and sixty-eight hours. His four categories account for a hundred and three of them, and forty-nine of those are sleep. So fifty-four waking hours sat outside the four boxes he predicted. That's close to eight hours a day.
+S1: And here's the arithmetic almost everybody skips. A week has a hundred and sixty-eight hours. He slept for forty-nine of them, so he was awake for a hundred and nineteen. His four categories account for a hundred and three hours, but forty-nine of those are the sleep, so only fifty-four of his waking hours are inside a box he predicted. Which leaves sixty-five waking hours outside all four. More than nine hours a day.
 
 S2: That sounds alarming.
 
@@ -49,7 +60,7 @@ S1: It isn't, and this is the correction the lesson makes. Most of it is the ord
 
 S2: Then what is the finding?
 
-S1: The largest named thing you can pull out of the residue. For Ade it came to eleven hours and it was one recognisable activity. Calls to the surgery, a form for the council, two trips to the pharmacy, an hour on hold about his mother's account, an afternoon at an appointment. He had recorded every one accurately. He had simply never had a name for them, so there was no box to predict them into.
+S1: The largest named thing you can pull out of the residue. For Ade it came to eleven hours and it was one recognisable activity. Calls to the surgery, a form for the council, two trips to the pharmacy, an hour on hold with the energy supplier about his mother's account, an afternoon at an appointment. He had recorded every one accurately. He had simply never had a name for them, so there was no box to predict them into.
 
 S2: And his leisure shortfall is also eleven hours.
 
@@ -61,7 +72,7 @@ S1: Every recorded hour into one of three columns. Fixed, discretionary, or cont
 
 S2: Define them for me.
 
-S1: Fixed is an hour you do not decide about this month. A rostered shift, the school run, a dialysis appointment, sleep, the journey between two of those. The test isn't whether the hour is pleasant, it's whether a decision of yours this month could move it. Discretionary is where the decision is genuinely yours. Not hours with nothing planned in them, which is a much larger set, but hours where you could do a different thing without somebody else's agreement.
+S1: Fixed is an hour you do not decide about this month. A rostered shift, the school run, a dialysis appointment, sleep, the journey between two of those. The test isn't whether the hour is pleasant, it's whether a decision of yours this month could move it. Discretionary is where the decision is genuinely yours. Not hours with nothing planned in them, which is a much larger set, but hours where you could do a different thing without somebody else's agreement, and without a cost you're unwilling to pay.
 
 S2: And contested?
 
@@ -81,6 +92,6 @@ S1: Count the discretionary column twice. The sum, and the shape. How many piece
 
 S2: What have we left out?
 
-S1: A second worked case built entirely on that point, the difference between a gap measured in hours and the same gap measured as a share of what you predicted, which are usually different categories, three things people get wrong about their own records, and an exercise for anybody who hasn't finished the week yet. The full lesson is at Foval Learning Institute dot org.
+S1: The difference between a gap measured in hours and the same gap measured as a share of what you predicted, which are often not the same category. A field study of how long people actually stay on one piece of work, with its scope. The limit that a week cannot tell you whether it was typical, and what to write at the top of the sheet instead. And an exercise for anybody who hasn't finished the week yet. The full lesson is at Foval Learning Institute dot org.
 
 S2: Thanks for listening.

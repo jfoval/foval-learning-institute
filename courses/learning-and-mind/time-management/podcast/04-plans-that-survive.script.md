@@ -1,6 +1,17 @@
 ---
 source: courses/learning-and-mind/time-management/lessons/04-plans-that-survive.md
 written_by: Claude, by hand, from the lesson text
+checked: >-
+  Fact-checked in a fresh-context subagent against the lesson on 2026-09-19: verdict PASS WITH
+  NITS. Every finding was fixed in this file before any render. Two were quotation defects of the
+  kind this repo keeps meeting: the implementation-intention definition had dropped "or desired
+  outcomes" from inside its own quotation marks, and the goal-intention definition had dropped
+  "that". Both restored. The 1994 date had moved from publication to the fieldwork, which nothing
+  read records; "roughly" restored to the doubling; the constructed man labelled as constructed;
+  and one detail corrected from "the day it matters" to the lesson's "the evening it matters". The
+  checker verified by hand that the third condition is not presented as making people finish
+  sooner, that the read level on the unopened meta-analysis survives, and that every item in the
+  sign-off is in the lesson and not in the script.
 about: >-
   About seven minutes. Haley opens, because the engine gives the first turn to the second voice.
   Hosts are John (S1) and Haley (S2). The episode takes Study 4's third condition and what it buys,
@@ -17,13 +28,13 @@ S1: And lesson three left us with a problem and two repairs that don't work. Pad
 
 S2: You said there was a third group.
 
-S1: There was, in the same study. A hundred and twenty-three Canadian university students in nineteen ninety-four, on a computer assignment. The third group did what the recall group did, describing their past experience with similar assignments. Then they answered two further questions, and the paper describes those questions rather than printing them. Put into the second person they are. When would you finish this assignment if you completed it as far before its deadline as you typically do. And, what is a plausible scenario, based on your past experience, that would result in you finishing at your typical time.
+S1: There was, in the same study. A hundred and twenty-three university students in Canada, on one computer assignment, published in nineteen ninety-four. The third group did what the recall group did, describing their past experience with similar assignments. Then they answered two further questions, and the paper describes those questions rather than printing them. Put into the second person they are. When would you finish this assignment if you completed it as far before its deadline as you typically do. And, what is a plausible scenario, based on your past experience, that would result in you finishing at your typical time.
 
 S2: Before you tell me the result. What do I expect to move?
 
 S1: That's the right question and almost everybody gets it wrong. Here are the numbers. The control group predicted five and a half days and took six point eight, and twenty-nine point three percent finished within their own prediction. The third group predicted seven point zero days and took seven point zero, and sixty percent finished within their prediction.
 
-S2: The share doubled.
+S2: The share roughly doubled.
 
 S1: Read the middle row before the bottom one. The work did not speed up. Seven days against the control group's six point eight, which if anything is a shade slower. What's different is the prediction. Theirs sat at seven against the control group's five and a half, which is where what actually happened was all along.
 
@@ -53,11 +64,11 @@ S1: It's a real relationship. What you intend has a lot to do with what you do. 
 
 S2: Give me the two kinds of intention.
 
-S1: Both have a definition in the authors' own words. A goal intention is the instructions people give themselves to perform particular behaviours or to achieve certain desired outcomes, measured by items of the form, I intend to achieve X. I'm going to get fitter. I'll sort the paperwork out.
+S1: Both have a definition in the authors' own words. A goal intention is the instructions that people give themselves to perform particular behaviours or to achieve certain desired outcomes, measured by items of the form, I intend to achieve X. I'm going to get fitter. I'll sort the paperwork out.
 
 S2: And the other.
 
-S1: Implementation intentions are if-then plans that link situational cues, meaning good opportunities to act and critical moments, with responses that are effective in attaining goals. If situation Y is encountered, then I will initiate behaviour Z in order to reach goal X. So. When I have finished loading the dishwasher, then I will do fifteen minutes of the paperwork.
+S1: Implementation intentions are if-then plans that link situational cues, meaning good opportunities to act and critical moments, with responses that are effective in attaining goals or desired outcomes. If situation Y is encountered, then I will initiate behaviour Z in order to reach goal X. So. When I have finished loading the dishwasher, then I will do fifteen minutes of the paperwork.
 
 S2: What's the actual difference? The second one is just more specific.
 
@@ -65,7 +76,7 @@ S1: It isn't that it's more detailed or more serious. It's that it names a situa
 
 S2: Test that for me.
 
-S1: Take a man who wants to keep up with professional reading. First attempt. When I have a free evening, then I'll read one article. Now ask the question. Would he notice a free evening while tired and in a bad mood? No, because a free evening isn't an event. It's a judgement he has to make about an evening, and making that judgement is exactly the thing that fails on the day it matters. Second attempt. When I sit down on the train on Wednesday morning, then I'll read one article. That's an event. It happens whether or not he's thinking about the plan.
+S1: The lesson builds one, constructed like the others. A man who wants to keep up with professional reading. First attempt. When I have a free evening, then I'll read one article. Now ask the question. Would he notice a free evening while tired and in a bad mood? No, because a free evening isn't an event. It's a judgement he has to make about an evening, and making that judgement is exactly the thing that fails on the evening it matters. Second attempt. When I sit down on the train on Wednesday morning, then I'll read one article. That's an event. It happens whether or not he's thinking about the plan.
 
 S2: And nothing else changed.
 

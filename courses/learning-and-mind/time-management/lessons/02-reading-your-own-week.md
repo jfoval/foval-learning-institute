@@ -207,13 +207,13 @@ half. Leisure came to 9.
 | Leisure | 20 | 9:00 | -11:00 |
 | **Predicted categories** | **114** | **103** | **-11:00** |
 
-**Now the arithmetic almost everybody skips.** A week has 168 hours. His four categories account for
-103 of them, and 49 of those are sleep. So **54 waking hours sat outside the four boxes he
-predicted**, which is close to eight hours a day.
+**Now the arithmetic almost everybody skips**, and it is worth doing slowly. A week has 168 hours.
+He slept for 49 of them, so he was awake for 119. His four categories account for 103 hours, but 49
+of those are the sleep, which leaves only 54 of his **waking** hours inside a box he predicted.
 
-That number is not a scandal and it is not unusual. Most of it is the ordinary business of being
-alive: eating, washing, getting places, the twenty minutes between one thing and the next, standing
-in a queue. **Everybody's residue is large.** The four categories you chose were never going to
+**So 65 waking hours sat outside all four**, which is more than nine hours a day.
+
+That number is not a scandal and it is not unusual. Most of it is the ordinary business of being alive: eating, washing, getting places, the twenty minutes between one thing and the next, standing in a queue, the half hour after you meant to get up. **Everybody's residue is large.** The four categories you chose were never going to
 cover a week, and the exercise was never asking them to.
 
 **The finding is the largest named thing you can pull out of that residue.** For Ade it came to

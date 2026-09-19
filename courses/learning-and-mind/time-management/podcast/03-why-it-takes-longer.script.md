@@ -1,6 +1,19 @@
 ---
 source: courses/learning-and-mind/time-management/lessons/03-why-it-takes-longer.md
 written_by: Claude, by hand, from the lesson text
+checked: >-
+  Fact-checked in a fresh-context subagent against the lesson on 2026-09-19: verdict FAIL, and every
+  finding was fixed in this file before any render. **One finding was an error in the lesson**,
+  which the script had reproduced: 23.2 days against 22.6 is six tenths of a day, not "within half a
+  day". The lesson was corrected first. In the script: the means were attributed to all
+  thirty-seven students when the paper's are from thirty-three; the thought listing and the recall
+  condition were split into two studies when both are Study 4, which also had no scope spoken, so it
+  now carries its 123 students and its computer assignment; and the sign-off named four things
+  people believe about their own estimates as left out when three of the four are in the episode, so
+  it now names the one that genuinely is not, which is the one carrying the course's own admission
+  that it has not read the observer study. The 1979 date restored to the Kahneman and Tversky
+  attribution. The checker verified every figure against the lesson's tables and both quotations
+  word for word.
 about: >-
   About seven minutes. Haley opens, because the engine gives the first turn to the second voice.
   Hosts are John (S1) and Haley (S2). The episode takes the thesis study, the failure of padding,
@@ -17,11 +30,11 @@ S1: And this is the best evidenced thing in the whole course, which is worth say
 
 S2: Where does it come from?
 
-S1: Buehler, Griffin and Ross, published in nineteen ninety-four in the Journal of Personality and Social Psychology. They credit the name, the planning fallacy, to Kahneman and Tversky, and they put it in quotation marks in their own title. And before any of the numbers, the scope. Every subject in these studies was a Canadian university student.
+S1: Buehler, Griffin and Ross, published in nineteen ninety-four in the Journal of Personality and Social Psychology. They credit the name, the planning fallacy, to Kahneman and Tversky in nineteen seventy-nine, and they put it in quotation marks in their own title. And before any of the numbers, the scope. Every subject in these studies was a Canadian university student.
 
 S2: Start with the study.
 
-S1: Thirty-seven psychology students in the final semester of the Honors Thesis course at the University of Waterloo. They were telephoned and asked to predict when they'd submit, three different ways. Their best estimate. The date if everything went as well as it possibly could. And the date if everything went as poorly as it possibly could.
+S1: Thirty-seven psychology students in the final semester of the Honors Thesis course at the University of Waterloo, telephoned and asked to predict when they'd submit, three different ways. The means that follow are from thirty-three of them. Their best estimate. The date if everything went as well as it possibly could. And the date if everything went as poorly as it possibly could.
 
 S2: And somebody recorded when the theses actually arrived.
 
@@ -41,7 +54,7 @@ S1: Which is the first thing anybody thinks, and the same study tested it, becau
 
 S2: Unpack that for me.
 
-S1: The absolute error was twenty-three point two days under the pessimistic instruction, against twenty-two point six under the instruction to be accurate. Unchanged, to within half a day. And the distinction underneath it recurs twice more in this course. Bias is which side of the truth you land on. Accuracy is how far from it you are. Padding moves you across the truth without moving you closer to it, because it adds no information about this particular job.
+S1: The absolute error was twenty-three point two days under the pessimistic instruction, against twenty-two point six under the instruction to be accurate. Six tenths of a day apart, on a task that ran to fifty-five. And the distinction underneath it recurs twice more in this course. Bias is which side of the truth you land on. Accuracy is how far from it you are. Padding moves you across the truth without moving you closer to it, because it adds no information about this particular job.
 
 S2: Is it only theses?
 
@@ -69,7 +82,7 @@ S1: And their forecast didn't know. Two things follow and they pull in different
 
 S2: Why does it happen at all?
 
-S1: The paper asked subjects to list what they were thinking about while they predicted, and the answer is the whole mechanism in three figures. Ninety-three and a half percent reported considering future plans and scenarios, mostly about how they'd successfully complete the thing. Nine point eight percent mentioned any potential impediment. Eight point nine percent reported thinking about their own past experiences.
+S1: A fourth study, a hundred and twenty-three students on a computer assignment, asked its subjects to list what they were thinking about while they predicted, and the answer is the whole mechanism in three figures. Ninety-three and a half percent reported considering future plans and scenarios, mostly about how they'd successfully complete the thing. Nine point eight percent mentioned any potential impediment. Eight point nine percent reported thinking about their own past experiences.
 
 S2: So it isn't that people ignore their history.
 
@@ -77,7 +90,7 @@ S1: It's that the history never comes up. Forecasting a task means imagining how
 
 S2: Then fetch the history. Go and look at what happened last time.
 
-S1: Tested too, in a fourth study. One group described their past experience with similar assignments and were told to keep it in mind. On-time completion went from twenty-nine point three percent to thirty-eight point one. And the authors call the absence of an effect remarkable, because those subjects had just acknowledged that they typically finish only one day before deadlines, and then predicted they'd be early.
+S1: The same study tested that. One group described their past experience with similar assignments and were told to keep it in mind. On-time completion went from twenty-nine point three percent to thirty-eight point one. And the authors call the absence of an effect remarkable, because those subjects had just acknowledged that they typically finish only one day before deadlines, and then predicted they'd be early.
 
 S2: They said it out loud and then didn't use it.
 
@@ -85,6 +98,6 @@ S1: Remembering is not connecting. There was a third group who were made to do t
 
 S2: What did we leave out?
 
-S1: A worked set of five tasks showing how to take a median ratio and why the outlier is the finding, a checkpoint on whether any of this applies to somebody who quotes jobs for a living, and four things people believe about their own estimates. The full lesson is at Foval Learning Institute dot org.
+S1: A worked set of five tasks showing how to take a median ratio and why the outlier is the finding, a checkpoint on whether any of this applies to somebody who quotes jobs for a living, and the misconception the lesson is most careful about, which is that other people manage this, where the course flags that it has not read the study on predicting for somebody else. The full lesson is at Foval Learning Institute dot org.
 
 S2: Thanks for listening.

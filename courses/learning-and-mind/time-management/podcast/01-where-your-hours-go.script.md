@@ -1,6 +1,19 @@
 ---
 source: courses/learning-and-mind/time-management/lessons/01-where-your-hours-go.md
 written_by: Claude, by hand, from the lesson text
+checked: >-
+  Fact-checked in a fresh-context subagent against the lesson on 2026-09-19: verdict FAIL, and every
+  finding was fixed in this file before any render. The serious one was a quotation about the
+  diary's own limitations reworded three ways inside its own marks, turning the source's "may
+  substitute" into "substitute" and dropping the clause that scopes it to recall. "Tend to" had been
+  dropped twice from the headline figure and from the 35-to-45 band, so an average tendency arrived
+  as a universal. The refusal on the do-more question had widened from "nothing in the evidence this
+  course read" to the evidence at large. And the closing instruction had inverted the lesson's
+  method, asking the listener to estimate last week rather than predict next week, which breaks the
+  predicted-first logic the rest of the course runs on. Also restored: "housework estimates",
+  "reported as" on the 72 percent, and the United States scope on the club study. The checker
+  verified the script settles neither the do-more question nor the misreporting question, keeps both
+  mechanisms for the gap, and that the sign-off names only things genuinely absent.
 about: >-
   About seven minutes. Haley opens, because the engine gives the first turn to the second voice.
   Hosts are John (S1) and Haley (S2). First episode for Time Management. The episode takes the
@@ -22,15 +35,15 @@ S1: Ask somebody how many hours they worked last week. Then ask the same person 
 
 S2: Which one is bigger?
 
-S1: For paid work, the estimate. On data from the American Time Use Survey and a Belgian national survey, published in two thousand and eleven, employed respondents overestimate their work hours by five to ten percent compared with what they report in their diaries.
+S1: For paid work, the estimate. On data from the American Time Use Survey and a Belgian national survey, published in two thousand and eleven, employed respondents tend to overestimate their work hours by five to ten percent in relation to the work hours they report in their time diaries.
 
 S2: Five to ten percent is not very much.
 
-S1: It isn't, and if that were the whole finding it would be a short lesson. The useful part is where the error sits. Workers reporting between thirty-five and forty-five hours a week report roughly the same figure either way. Above that, the two come apart, and the higher the estimate, the bigger the gap. The authors say the estimate data tend to follow the pattern of, the greater the estimate, the greater the overestimate.
+S1: It isn't, and if that were the whole finding it would be a short lesson. The useful part is where the error sits. Workers reporting between thirty-five and forty-five hours a week tend to report relatively similar work hours either way. Above that, the two come apart, and the higher the estimate, the bigger the gap. The authors say the estimate data tend to follow the pattern of, the greater the estimate, the greater the overestimate.
 
 S2: So the person most certain they have no spare time.
 
-S1: Is the person whose account of their week is least likely to survive being written down. And the lesson is careful here, because there are two explanations in the paper and not one. The first is that estimating is genuinely hard. The second is that people have a reason to want the answer to be large. The article says respondents may believe that low estimates of time spent on paid work or housework could be taken as a sign of being lazy or irresponsible.
+S1: Is the person whose account of their week is least likely to survive being written down. And the lesson is careful here, because there are two explanations in the paper and not one. The first is that estimating is genuinely hard. The second is that people have a reason to want the answer to be large. The article says respondents may believe that low estimates of time spent on paid work or housework estimates could be taken as a sign of being lazy or irresponsible.
 
 S2: Which one does the course go with?
 
@@ -58,11 +71,11 @@ S1: There is. When people are asked to estimate the duration of all their daily 
 
 S2: Let me push on something. You've described the diary as the better instrument all the way through. Is it?
 
-S1: That's a fair challenge and the lesson gives it room. The source that argues hardest for the diary says the diary method is not without its own problems. Respondents can still distort, embellish or even lie outright about what they do, and many simply cannot remember and substitute a habitual activity for what actually happened. So the case for the diary isn't that it's accurate. It's that it asks an easier question and has to add up.
+S1: That's a fair challenge and the lesson gives it room. The source that argues hardest for the diary says the diary method is not without its own problems. Respondents can still distort, embellish or even lie outright about what they do. When asked to recall what they did, many simply cannot remember and may substitute a habitual activity for what actually took place. So the case for the diary isn't that it's accurate. It's that it asks an easier question and has to add up.
 
 S2: Right. Then let me ask the question the whole course turns on. What does it promise?
 
-S1: Not that it'll make you more productive, and that's a measurement rather than modesty. A two thousand and twenty-one meta-analysis pooled a hundred and fifty-eight studies and nearly fifty-four thousand participants. Time management is moderately related to job performance, academic achievement and wellbeing. But it enhances wellbeing, and life satisfaction in particular, to a greater extent than it does performance. The effect on life satisfaction was about seventy-two percent stronger than the effect on job satisfaction.
+S1: Not that it'll make you more productive, and that's a measurement rather than modesty. A two thousand and twenty-one meta-analysis pooled a hundred and fifty-eight studies and nearly fifty-four thousand participants. Time management is moderately related to job performance, academic achievement and wellbeing. But it enhances wellbeing, and life satisfaction in particular, to a greater extent than it does performance. The effect on life satisfaction was reported as about seventy-two percent stronger than the effect on job satisfaction.
 
 S2: Which is the reverse of what the books sell.
 
@@ -70,11 +83,11 @@ S1: It is. So a course leading with output would be leading with the thing its o
 
 S2: And there's a question it refuses.
 
-S1: Whether a person should be trying to do more or trying to do less. The lesson puts both cases and says plainly that the evidence doesn't decide between them, and that this course has no standing to. It even names its own lean, which is that the course description takes the second side, so you can discount for it.
+S1: Whether a person should be trying to do more or trying to do less. The lesson puts both cases and says plainly that nothing in the evidence this course read decides between them, and that it has no standing to. It even names its own lean, which is that the course description takes the second side, so you can discount for it.
 
 S2: What should somebody do after listening to this?
 
-S1: Write four numbers before you do anything else. How many hours you think you spent last week on paid work, on domestic work, on sleep, and on anything you'd call leisure. Two minutes, no looking anything up. Then record a week and compare.
+S1: Write four numbers before you do anything else. How many hours you think you'll spend next week on paid work, on domestic work, on sleep, and on anything you'd call leisure. Two minutes, no looking anything up. Then record that week and compare.
 
 S2: And if the four numbers add up to more than a hundred and sixty-eight.
 
@@ -82,6 +95,6 @@ S1: Then you've reproduced the finding on yourself before the week even starts.
 
 S2: We've left things out. What's in the lesson that we haven't touched?
 
-S1: Two worked cases that show the gap landing in different places, a study of swimming and tennis club members where almost half overestimated their visits by more than double, an argument in print about whether the gap shows misreporting at all, which the lesson gives both sides of and does not settle, and a review saying the term time management is itself misleading, because time cannot be managed. The full lesson is at Foval Learning Institute dot org.
+S1: Two worked cases that show the gap landing in different places, a study of United States swimming and tennis club members where almost half overestimated their visits by more than double, an argument in print about whether the gap shows misreporting at all, which the lesson gives both sides of and does not settle, and a review saying the term time management is itself misleading, because time cannot be managed. The full lesson is at Foval Learning Institute dot org.
 
 S2: Thanks for listening.

@@ -1,6 +1,18 @@
 ---
 source: courses/learning-and-mind/time-management/lessons/05-what-a-day-looks-like.md
 written_by: Claude, by hand, from the lesson text
+checked: >-
+  Fact-checked in a fresh-context subagent against the lesson on 2026-09-19: verdict PASS WITH
+  NITS. Every finding was fixed in this file before any render. The serious one was a hedge
+  stripped from a quotation announced as the authors' own: "Our data suggests that people
+  compensate for interruptions by working faster" had become a flat finding joined with "and", and
+  that is the hedged half of the abstract and the half the script leans on. Restored. The lesson's
+  read-level caveat on the word "central" was missing and is back; the 11 min 4 sec quotation had
+  lost "that" and shortened "another working sphere"; "almost" was restored to a scope claim; the
+  blog author is no longer gendered and is quoted in the first person; and the sign-off overclaimed
+  one omission, since the first of the four beliefs is the whole second half of the episode. The
+  checker verified that the weaker claim about the twenty-three minutes holds throughout, that
+  Gloria Mark is not said to have invented anything, and that no constructed person appears.
 about: >-
   About seven minutes. Haley opens, because the engine gives the first turn to the second voice.
   Hosts are John (S1) and Haley (S2). The episode takes the CHI 2005 field study, the irony of the
@@ -17,7 +29,7 @@ S1: And it has two halves. The first is what somebody measured. The second is th
 
 S2: Start with the measurement, and tell me the scope first.
 
-S1: Which is the right order, and it matters more here than almost anywhere, because these figures travel further from their source than any others in this subject. Mark, Gonzalez and Harris, published at CHI two thousand and five, followed twenty-four information workers at a single outsourcing company and observed them to the second. It's a field study rather than an experiment. Nobody was assigned to anything.
+S1: Which is the right order, and it matters more here than almost anywhere, because these particular numbers travel further from their source than almost any others in this subject. Mark, Gonzalez and Harris, published at CHI two thousand and five, followed twenty-four information workers at a single outsourcing company and observed them to the second. It's a field study rather than an experiment. Nobody was assigned to anything.
 
 S2: So it describes that office.
 
@@ -25,7 +37,7 @@ S1: It describes that office. Three findings, in the authors' order. People had 
 
 S2: A working sphere being?
 
-S1: A chunk of work with its own purpose and its own people. Roughly what you'd call a project or a case. Second finding. The average length of time the informants spent in central and peripheral working spheres was eleven minutes four seconds, before switching to another sphere or being interrupted.
+S1: A chunk of work with its own purpose and its own people. Roughly what you'd call a project or a case. Second finding. The average length of time that the informants spent in central and peripheral working spheres was eleven minutes four seconds, before switching to another working sphere or being interrupted.
 
 S2: Eleven minutes.
 
@@ -33,7 +45,7 @@ S1: And read the bracket as well as the figure, because the paper gives a standa
 
 S2: Which is what lesson two asked people to look for in their own week.
 
-S1: Exactly that. Third finding. Fifty-seven point one percent of working sphere segments were interrupted. The abstract puts it as fifty-seven percent of their working spheres are interrupted. And the central spheres ran higher, at sixty point three.
+S1: Exactly that. Third finding. Fifty-seven point one percent of working sphere segments were interrupted. The abstract puts it as fifty-seven percent of their working spheres are interrupted. And the ones the paper calls central ran higher, at sixty point three. Though this course has read that figure and not the study's definition of the word, so take central as the study's own label.
 
 S2: All right, let me guess at something. Were the interrupted stretches shorter or longer than the ones nobody broke into?
 
@@ -41,7 +53,7 @@ S1: What do you think?
 
 S2: Shorter, surely. An interruption ends a stretch, so a stretch that got interrupted is one that was cut off.
 
-S1: That's the reasoning everybody gives and the measurement says the opposite. Interrupted segments lasted twelve minutes forty seconds. Uninterrupted ones lasted eight minutes fifty-eight. And the relationship runs further. The longer one works in a working sphere, the longer is the interrupting event. The authors call it the irony of the work day.
+S1: That's the reasoning almost everybody gives, and the measurement says the opposite. Interrupted segments lasted twelve minutes forty seconds. Uninterrupted ones lasted eight minutes fifty-eight. And the relationship runs further. The longer one works in a working sphere, the longer is the interrupting event. The authors call it the irony of the work day.
 
 S2: Why would that be?
 
@@ -69,7 +81,7 @@ S1: A two thousand and eight laboratory experiment. This course has read its abs
 
 S2: Has anybody looked properly?
 
-S1: A writer in twenty twenty-three worked through five papers and twenty-three blog posts and concluded, in his words, that they are mentioned in interviews multiple times by Gloria Mark, but he wasn't able to find a primary printed source. And this course cites that piece for one thing only, which is that its author looked and didn't find one. It's a blog post, not a study.
+S1: A writer in twenty twenty-three worked through five papers and twenty-three blog posts and concluded, in the author's own words, that they are mentioned in interviews multiple times by Gloria Mark, but, quote, I wasn't able to find a primary printed source. And this course cites that piece for one thing only, which is that its author looked and didn't find one. It's a blog post, not a study.
 
 S2: Be careful with me here. Is the lesson saying she invented a number?
 
@@ -77,7 +89,7 @@ S1: It is not, and it says so. She's the researcher who's done more than anybody
 
 S2: What does an interruption cost, then?
 
-S1: The two thousand and eight experiment is the honest answer, and its scope first. Forty-eight subjects, eighty-one percent German university students, answering twelve simulated emails as a fictional human resource manager, interrupted every two to five minutes. Not a study of a working day. Its finding, in the authors' words. People completed interrupted tasks in less time with no difference in quality, and people compensate for interruptions by working faster, but this comes at a price, experiencing more stress, higher frustration, time pressure and effort.
+S1: The two thousand and eight experiment is the honest answer, and its scope first. Forty-eight subjects, eighty-one percent German university students, answering twelve simulated emails as a fictional human resources manager, interrupted every two to five minutes. Not a study of a working day. Its finding, in the authors' words. People completed interrupted tasks in less time with no difference in quality. Our data suggests that people compensate for interruptions by working faster, but this comes at a price, experiencing more stress, higher frustration, time pressure and effort.
 
 S2: Less time, same quality, more stress.
 
@@ -85,6 +97,6 @@ S1: If you've ever come out of a heavily interrupted day having got everything d
 
 S2: What did we leave out?
 
-S1: A worked day counted into switches, a case built around a ward nurse for whom being interrupted is most of the job and who most of this advice is useless to, the finding about people who sit near their colleagues, which cuts both ways at once, and four things people believe about interruption. The full lesson is at Foval Learning Institute dot org.
+S1: A worked day counted into switches, a case built around a ward nurse for whom being interrupted is most of the job and who most of this advice is useless to, the finding about people who sit near their colleagues, which cuts both ways at once, and three more things people believe about interruption, including the authors' own two-sided position that switching may refresh a person and bring new ideas, so a day with no interruption in it is not the target. The full lesson is at Foval Learning Institute dot org.
 
 S2: Thanks for listening.

@@ -166,8 +166,7 @@ multiplier are not obviously the same operation. Here is what the authors found:
 prediction decreased the optimistic bias in prediction, it did not increase the accuracy of
 respondents' forecasts."[1]
 
-The absolute error was 23.2 days under the pessimistic instruction against 22.6 days under the
-instruction to be accurate. Unchanged, to within half a day.
+The absolute error was 23.2 days under the pessimistic instruction against 22.6 days under the instruction to be accurate. Six tenths of a day apart, on a task that ran to fifty-five.
 
 **That distinction is the one to carry out of this section, and it recurs twice more in this
 course.** Bias is which side of the truth you land on. Accuracy is how far from it you are. Padding
