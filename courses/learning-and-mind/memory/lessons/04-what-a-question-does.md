@@ -15,10 +15,10 @@ quiz:
       what is the risk?
     options:
       - None, since a question about an event cannot change what people saw
+      - The wording supplies a frame, which may enter the accounts people give
       - The team will lie, since nobody contradicts a manager in a meeting
       - The accounts will be accurate but less detailed than a neutral question gets
-      - The wording supplies a frame, which may enter the accounts people give
-    answer: 3
+    answer: 1
     explain: >-
       The 1974 experiments changed the verb and changed both the estimates and, a week later, what
       people said they had seen, which is the phenomenon the question risks. Deliberate dishonesty
@@ -28,10 +28,10 @@ quiz:
       you see when the carriages were ripped apart?" What does this lesson predict?
     options:
       - The accounts will be less detailed, since a dramatic headline discourages careful reporting
-      - Some accounts may include material the headline supplied rather than the derailment itself
       - The accounts will be more accurate, since the headline helps a witness reconstruct the scene
+      - Some accounts may include material the headline supplied rather than the derailment itself
       - The accounts will divide evenly between accurate reports and wholly invented ones
-    answer: 1
+    answer: 2
     explain: >-
       Changing one verb moved both the speed estimates and, a week later, what people said they had
       seen, and "ripped apart" is doing the work "smashed" did. Nothing here is about the level of
@@ -41,11 +41,11 @@ quiz:
       A witness asked "how fast was the van going when it ploughed into the barrier?" later
       describes a dented barrier. Two accounts of that are available. What would tell them apart?
     options:
-      - A measure of what the witness has, rather than of what they say when they are asked
       - Asking the same witness the same question again a week later, to check it is stable
       - Asking the witness to rate how confident they feel about the detail they reported
       - Checking whether witnesses who were asked nothing describe the barrier the same way
-    answer: 0
+      - A measure of what the witness has, rather than of what they say when they are asked
+    answer: 3
     explain: >-
       One account says the question changed the answer and the other says it changed the
       representation, so only something sensitive to the representation separates them. Repeating
@@ -55,11 +55,11 @@ quiz:
       This course could not open the original paper. What does it use instead, and what does that
       license?
     options:
+      - A published teaching summary, which licenses the figures held at that level
       - A later review of the literature, which licenses the general phenomenon only
       - Nothing, since a source that cannot be opened cannot be used at all
-      - A published teaching summary, which licenses the figures held at that level
       - The authors' later writing, which licenses their own account of the study
-    answer: 2
+    answer: 0
     explain: >-
       The summary is an examination board's own resource and the lesson says so where the figures
       appear, which is the same handling Habits lesson 4 gave a book it had not opened. A later
@@ -70,10 +70,10 @@ quiz:
       unreliable. What does this course say?
     options:
       - It supports them, since accounts demonstrably change under leading questions
-      - It is outside what the course can do, which is describe what memory does in general
       - It supports them only if somebody asked the colleague a leading question
       - It supports them if the account has been retold several times since that meeting ended
-    answer: 1
+      - It is outside what the course can do, which is describe what memory does in general
+    answer: 3
     explain: >-
       A general finding about how memory behaves across people is a different thing from a verdict
       on one person's recollection, and that refusal is stated in lesson 1 and faced again in lesson
@@ -85,9 +85,9 @@ quiz:
     options:
       - That the finding has been replicated, since a weak result would never be cited that often
       - That the study must have been large, since small studies rarely attract that attention
-      - Nothing usable at all, since citation counts are not recorded reliably for papers as old as this
       - That many people have referred to it, which is a fact about the literature and not the study
-    answer: 3
+      - Nothing usable at all, since citation counts are not recorded reliably for papers as old as this
+    answer: 2
     explain: >-
       Citation is a measure of how much a result has been talked about, and this lesson's own study
       is famous and rests on a difference of ten people. Citation is not replication. Small studies

@@ -15,11 +15,11 @@ quiz:
   - q: >-
       "Habits form faster if you reward yourself straight afterwards." Sort that claim.
     options:
-      - Measurable, and a comparison of rewarded with unrewarded repetitions would settle it
       - False, since the research shows a reward makes no difference to how fast one forms
       - Unmeasurable, because a reward means something different to everybody who receives one
       - Two claims, because it recommends a reward and recommends giving it to yourself
-    answer: 0
+      - Measurable, and a comparison of rewarded with unrewarded repetitions would settle it
+    answer: 3
     explain: >-
       There are two conditions to compare and something to count, which is automaticity over some
       weeks, so this is the kind of sentence a study settles; the useful question is whether one
@@ -33,9 +33,9 @@ quiz:
     options:
       - The figure was invented, since no such number appears in the paper at all
       - The figure was misquoted, and the number in the paper is a little lower
-      - The study has dated, and newer work with better methods gives another figure
       - A real measurement lost its scope, which is harder to spot than invention
-    answer: 3
+      - The study has dated, and newer work with better methods gives another figure
+    answer: 2
     explain: >-
       Forty-three is in the paper, as the higher of two figures with a stated reason for the gap, so
       nothing was invented or misquoted; what fell away was the range, the criterion and the sample.
@@ -46,10 +46,10 @@ quiz:
       are his honest options?
     options:
       - Build the habit properly, because two years of intending shows he wants it
-      - Find a better cue, since a good enough cue will make any behaviour stick
       - Build it, keep deciding each time, or stop carrying it, each with a cost
+      - Find a better cue, since a good enough cue will make any behaviour stick
       - Accept that he lacks the discipline, which no technique here can supply him
-    answer: 2
+    answer: 1
     explain: >-
       Three endings, and the course has no view on which he picks; what it asks is that he picks one
       and names what it costs. Two years of intending is as consistent with not wanting it as with
@@ -59,11 +59,11 @@ quiz:
       A reader traces a figure and finds the paper says what the claim says, with its range and
       its criterion attached. What has the trace established?
     options:
-      - That the claim is true, since it matches the source it came from word for word
       - That this claim survived the trace, which is one of the exercise's five endings
+      - That the claim is true, since it matches the source it came from word for word
       - That the trace failed, because a trace finding nothing wrong has found nothing
       - That the source is itself unreliable, since claims rarely survive a trace intact
-    answer: 1
+    answer: 0
     explain: >-
       A trace checks the chain of custody between a source and a claim, so what it can establish is
       that the claim carries its conditions, and the exercise names that as one of five results. It
@@ -89,11 +89,11 @@ quiz:
       This course has given you three numbers, a contested mechanism and a definition. Which should
       you hold most loosely?
     options:
-      - What replaced the resource model, which its own authors call a blueprint
       - The definition, since a definition is a convention rather than a finding
       - The three numbers, because figures date faster than the mechanisms behind them
+      - What replaced the resource model, which its own authors call a blueprint
       - The missed-day finding, which rests on a study this course has not opened
-    answer: 0
+    answer: 2
     explain: >-
       Its proposers describe their own paper as highlighting where evidence is lacking and providing
       a blueprint for future research, which is the weakest claim on offer here. The numbers do date,

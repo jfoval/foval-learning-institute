@@ -17,10 +17,10 @@ quiz:
       first thing this course says to ask about it?
     options:
       - How large the effect was, since a small effect is not worth changing anything over
-      - Which instrument produced the finding, a questionnaire or a task that counted something
       - Whether the study has ever been replicated, since a single result settles very little indeed
+      - Which instrument produced the finding, a questionnaire or a task that counted something
       - Who funded it, since attention research attracts money from the technology industry
-    answer: 1
+    answer: 2
     explain: >-
       Self-report and task performance are different instruments that give different answers in this
       literature, and lesson 4 is about a case where they disagree, so the instrument comes first.
@@ -30,11 +30,11 @@ quiz:
       Why does this course say a questionnaire about your own attention and a task measuring it can
       disagree?
     options:
+      - Because a questionnaire asks for a judgement from memory and a task produces a count
       - Because questionnaires are unreliable and tasks are the only real measure of anything
       - Because people lie about how distractible they are when they are asked directly
-      - Because a questionnaire asks for a judgement from memory and a task produces a count
       - Because tasks are done in laboratories, and nothing measured in one transfers outside
-    answer: 2
+    answer: 0
     explain: >-
       They are answering different questions: one asks what somebody concludes about themselves over
       weeks, the other counts what happened in twenty minutes, and neither is the other's check.
@@ -44,11 +44,11 @@ quiz:
   - q: >-
       A man says his attention is worse than it was ten years ago. What can this course tell him?
     options:
-      - That nothing it read measures change inside one person over time, so it cannot say
       - That he is right, since the evidence on devices and attention points that way
       - That he is wrong, because the pooled evidence on multitasking does not support it
       - That his self-report is the best available evidence, so his judgement should stand
-    answer: 0
+      - That nothing it read measures change inside one person over time, so it cannot say
+    answer: 3
     explain: >-
       No source in this course measures the same people years apart, so change within a person
       is not something any of them was built to detect, and that refusal is stated in lesson 1 and
@@ -61,9 +61,9 @@ quiz:
     options:
       - Nothing, since one professional sample cannot generalise any further than a student one
       - Very little, because a selected professional group is less representative than students
-      - Proof that the effect is universal, since pilots are selected for exactly this capacity
       - Evidence that the effect is not confined to students, which widens what can be claimed
-    answer: 3
+      - Proof that the effect is universal, since pilots are selected for exactly this capacity
+    answer: 2
     explain: >-
       A second population that differs from the first in the ways that worried you is the ordinary
       way a narrow finding gets wider, and it widens the claim without settling it. Dismissing it
@@ -73,10 +73,10 @@ quiz:
       Which of these claims could this course support, on what it has read?
     options:
       - That focused work is a skill that anybody can develop with the right daily practice
-      - That the average person now has a shorter attention span than they did twenty years ago
       - That an interruption was measured to cost something other than time, in one experiment
+      - That the average person now has a shorter attention span than they did twenty years ago
       - That putting your phone in another room will reliably improve how well you think
-    answer: 2
+    answer: 1
     explain: >-
       Lesson 2 is exactly that: a measured result, in one lab experiment, with its scope attached.
       The training claim is what lesson 6 finds no convincing far transfer for. The shorter-span
@@ -86,11 +86,11 @@ quiz:
   - q: >-
       What does this course refuse to do, and why?
     options:
-      - Discuss devices at all, because that particular debate is too charged to be useful here
       - Hand out a focus technique it cannot support, because the genre already supplies those
+      - Discuss devices at all, because that particular debate is too charged to be useful here
       - Cite any study run on students, because such samples cannot support general claims
       - Take any position at all on a contested question, because the evidence is too weak
-    answer: 1
+    answer: 0
     explain: >-
       Two lessons are about devices and both take the evidence seriously. Student samples are used
       throughout, with their scope stated. And the course does take positions where the evidence

@@ -14,10 +14,10 @@ quiz:
       What did the 2023 meta-analysis pool, and what did it find overall?
     options:
       - 43 studies and 22 effects, with a moderate negative effect on attention throughout
-      - 22 studies and 43 effects, with a small negative pooled effect of g = −0.14
       - 22 studies, finding no pooled effect once the regional differences were accounted for
+      - 22 studies and 43 effects, with a small negative pooled effect of g = −0.14
       - 118 assessments, which is the same literature the previous lesson was built on
-    answer: 1
+    answer: 2
     explain: >-
       Twenty-two studies yielding forty-three effects, pooled at g = −0.14 with an interval from
       −0.24 to −0.03, is the headline. The counts are the right way round in only one option. A
@@ -27,11 +27,11 @@ quiz:
       The pooled effect for the attention category was g = −0.07, with an interval from −0.21 to
       0.06. What does that permit?
     options:
-      - That this pooled evidence cannot tell an effect on attention apart from none
       - That phones impair attention slightly, since the estimate sits below zero
       - That phones have no effect on attention, which the interval demonstrates
       - That the attention studies were far too few for any pooling to be meaningful
-    answer: 0
+      - That this pooled evidence cannot tell an effect on attention apart from none
+    answer: 3
     explain: >-
       An interval running from below zero to above it leaves both small effects and no effect on the
       table, which is a statement about what the pooled evidence can resolve. Reading the point
@@ -42,10 +42,10 @@ quiz:
       is the disciplined reading of that?
     options:
       - The effect is real in Asia and absent elsewhere, which is what the figures show
+      - Something differs between these literatures, and the subgroup does not say what
       - The regional split is noise, since subgroup analyses find spurious patterns often
       - Cultural attitudes to phones explain it, which is why the Asian effect is larger
-      - Something differs between these literatures, and the subgroup does not say what
-    answer: 3
+    answer: 1
     explain: >-
       A subgroup analysis locates a difference and does not explain it, and the candidates include
       the populations, the tasks, the publication practices and chance. Reading it as a fact about
@@ -69,11 +69,11 @@ quiz:
   - q: >-
       The brain-drain claim is about attention. Where did the pooled effect actually sit?
     options:
-      - In memory, at g = −0.23, while attention's own interval crosses zero entirely
       - In attention, at g = −0.07, which is where the phrase would have you expect it
+      - In memory, at g = −0.23, while attention's own interval crosses zero entirely
       - In general cognitive performance, which the authors report at g = 0.10 overall
       - Across all three categories about equally, which is why the overall figure is below zero
-    answer: 0
+    answer: 1
     explain: >-
       Memory is the one category with an interval entirely below zero, and attention's crosses it,
       which matters because the phrase brain drain names the capacity the effect is weakest in.
@@ -83,11 +83,11 @@ quiz:
       What is the strongest thing this lesson says against dismissing the brain-drain effect
       outright?
     options:
-      - That a preregistered replication is only one study, and failures can be flukes
       - That a small pooled effect exists, and the authors themselves argue for caution
+      - That a preregistered replication is only one study, and failures can be flukes
       - That the funnel plot showed no asymmetry, so publication bias is ruled out here
       - That the effect was found in the original study, which used a large enough sample
-    answer: 1
+    answer: 0
     explain: >-
       g = −0.14 with an interval below zero is a real pooled finding, and the meta-analysts conclude
       in favour of caution about phones in classrooms, which a lesson quoting only the null results

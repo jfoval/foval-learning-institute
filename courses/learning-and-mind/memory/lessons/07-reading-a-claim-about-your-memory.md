@@ -42,10 +42,10 @@ quiz:
       the way they remember it. What does the course say?
     options:
       - That lesson 4 gives a way of testing whether a memory was contaminated
-      - That a confident memory of an emotional event is usually accurate
       - That it cannot tell them, and what it can tell them is a different question
+      - That a confident memory of an emotional event is usually accurate
       - That they should treat it as unreliable, since all memory is reconstructive
-    answer: 2
+    answer: 1
     explain: >-
       The course teaches what has been measured about memory in general, and adjudicating one
       person's recollection is not that. No lesson gives a contamination test for a particular
@@ -55,10 +55,10 @@ quiz:
       What does the sample question add to the institute's standing three-way sort?
     options:
       - A fourth category, for claims whose sample is too small for anybody to judge
-      - It asks how many people a measurable claim was measured on, and who they were
       - It replaces the sort entirely, since sample size settles most claims on its own
       - It applies only to those claims that already come with a number attached to them
-    answer: 1
+      - It asks how many people a measurable claim was measured on, and who they were
+    answer: 3
     explain: >-
       The sort tells you whether a claim could be checked, and the sample question tells you what a
       check that was run actually covers. It adds no category. It does not replace the sort, since a
@@ -67,11 +67,11 @@ quiz:
   - q: >-
       Why does this lesson name three popular books and cite none of them?
     options:
+      - Because none was opened for this course, so naming is all that is honest
       - Because their claims have been checked against the sources here and failed
       - Because trade books are not admissible evidence in any lesson at this institute
       - Because the course's research file could not locate copies of them
-      - Because none was opened for this course, so naming is all that is honest
-    answer: 3
+    answer: 0
     explain: >-
       They sit on the research file's unread line, the build fails on a citation to any of them, and
       a reader will meet them, so the lesson says they exist and stops there. No assessment of their
@@ -81,11 +81,11 @@ quiz:
       A learner finishes this course and decides to stop trusting anything they remember. What does
       the last lesson say about that?
     options:
-      - That it goes past the evidence in the opposite direction from the claims sorted here
       - That it follows, since every lesson in the course is about memory going wrong
       - That it is the correct reading of the reconstructive account taught here
+      - That it goes past the evidence in the opposite direction from the claims sorted here
       - That it depends on just how confident they happened to feel about the memories concerned
-    answer: 0
+    answer: 2
     explain: >-
       A general finding about what memory does under measured conditions licenses no verdict on any
       particular recollection, and that holds whichever way the verdict points. The course selected

@@ -218,10 +218,13 @@ identifications.
 
 ## 5. What the memory techniques actually do
 
-**Wagner and colleagues, "Durable memories and efficient neural coding through mnemonic training
-using the method of loci".** **Read in part on 2026-09-19**: the abstract verbatim from the
-preprint, and the participant counts. **The published version was not located and the body was not
-read.**
+**Isabella C. Wagner and colleagues, ["Durable memories and efficient neural coding through
+mnemonic training using the method of
+loci"](https://www.biorxiv.org/content/10.1101/2020.04.29.067561v1.full), preprint.** **Read in
+part on 2026-09-19**: the abstract verbatim from the preprint page, and the participant counts.
+**The published version was not located and the body was not read.** The first author's name and
+the URL were added to this entry on 2026-09-19 from the preprint page itself, after a Stage 4
+review found three lessons carrying them while this file did not.
 
 - **The abstract, verbatim in part:** "Mnemonic techniques, such as the method of loci, can
   powerfully boost memory. Here, we compared memory athletes ranked among the world's top 50 in
@@ -229,16 +232,28 @@ read.**
   memory training, working memory training, or no intervention. Behaviorally, memory training
   enhanced durable, longer-lasting memories."
 - **The design a lesson can use**: a six-week training study with **three arms**, memory training,
-  working-memory training and no intervention, with a behavioural retest at four months.
+  working-memory training and no intervention, with a behavioural retest at four months. **The
+  three arms and the six weeks are in the quoted abstract; the four-month retest and the
+  participant counts are from the preprint page's own description of the design**, not from the
+  sentences quoted above, and a lesson using the four months should say which it is leaning on.
 - **Why the three arms matter**, and this is the link to Focus lesson 6: the working-memory training
   arm is an active control, and Focus lesson 6 is about a literature where the far-transfer verdict
   turned entirely on whether controls were treated. **A reader who has done that lesson can read
   this design and see why it is better than most.**
-- **What this course cannot say**: how many words anybody recalled, before or after. The numbers are
-  in the body and the body was not read.
+- **What this course cannot say**: how many words anybody recalled, before or after. The numbers
+  are in the body and the body was not read. **Nor which arm the durability effect was measured
+  against.** The abstract says memory training enhanced durable, longer-lasting memories and does
+  not name the comparison, so a lesson must not write "against an active control": that is the
+  result the three-arm design would be needed to show and the abstract declines to report it.
+  **Nor what material the training was tested on**, which the abstract does not name either.
 
-**And the honest frame for a lesson.** The method of loci is the oldest technique in the subject and
-it works on the thing it works on: ordered lists of arbitrary items. **Whether it does anything for
+**And the honest frame for a lesson.** The method of loci is the oldest technique in the subject
+and it works on the thing it works on: ordered lists of arbitrary items. **That last phrase is this
+research file's own description of what the technique is for and not a finding**, and the abstract
+read here describes the technique not at all: it names it in one clause and says mnemonic
+techniques can powerfully boost memory. **Nothing read for this course describes walking a route,
+placing items at points along it, or making the images strange**, and a lesson giving those has to
+say they are the technique as generally described rather than as anything a source here sets out. **Whether it does anything for
 the material a learner actually wants to remember is the transfer question**, which Focus lesson 6
 answers for a different technique and which this course must not answer by analogy.
 

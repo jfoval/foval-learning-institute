@@ -31,9 +31,9 @@ quiz:
     options:
       - Whether the fall is statistically significant, given how small the difference is
       - Whether the study controlled for age, which is the obvious confound in such work
-      - Whether eight seconds is shorter than a goldfish's, which is the usual comparison
       - Whether the same people were measured twice, which is what a fall would require
-    answer: 3
+      - Whether eight seconds is shorter than a goldfish's, which is the usual comparison
+    answer: 2
     explain: >-
       A claim about a fall is a claim about change over time, so it needs the same people or at
       least comparable populations measured twice on the same instrument, and this course found no
@@ -44,10 +44,10 @@ quiz:
       course say about that report?
     options:
       - It is unreliable, since self-reports of attention diverge from the task measures
-      - It is a real report of her experience, and not a measurement of change over time
       - It is the best evidence available, since nobody else has watched her work
       - It is probably accurate, since the evidence on devices supports the direction
-    answer: 1
+      - It is a real report of her experience, and not a measurement of change over time
+    answer: 3
     explain: >-
       Her report is the kind of evidence the self-report half of lesson 4's literature is built on,
       and it is still not a measurement of the same person on the same instrument years apart.
@@ -58,10 +58,10 @@ quiz:
       loosely. Which does it put first, and on what?
     options:
       - The brain-drain claim, which pooled to a significant effect across 22 studies
-      - The attention-training claim, whose near-transfer effect was the largest of the three
       - The media-multitasking claim, which held in the self-report half of its literature
+      - The attention-training claim, whose near-transfer effect was the largest of the three
       - None of them, since all three were badly undercut by the syntheses that followed
-    answer: 2
+    answer: 1
     explain: >-
       Self-report multitasking pooled at z = .200 with a bias test it survived, which is the most
       robust of the three. Brain drain pooled at g = −0.14 and lost its attention subgroup, and two of its three regions came out non-significant. Near transfer is large and is the level nobody is buying. And none of the
@@ -70,11 +70,11 @@ quiz:
       A manager tells her team a new tool has cut their interruptions, and the team's own logs show
       no change. What does this lesson say the disagreement is really about?
     options:
+      - Two instruments answering different questions, so say which one is in dispute
       - The logs settle it, since a count is the more direct of the two instruments here
       - Nothing can be said, since personal experience cannot be argued with either way
       - It needs a third measurement, which is what resolves a disagreement like this one
-      - Two instruments answering different questions, so say which one is in dispute
-    answer: 3
+    answer: 0
     explain: >-
       Her report and the logs are two instruments answering different questions, and the useful move
       is to say which of the two anybody is disputing before disagreeing. Treating the logs as
@@ -83,11 +83,11 @@ quiz:
   - q: >-
       What is this course's main refusal, and why does it hold?
     options:
-      - That it cannot say whether your attention has got worse, since nothing measured change
       - That it will not name any of the trade books, since it has assessed none of them
       - That it will not recommend a technique, since no evidence supports any of them
       - That it cannot say anything at all about devices, since that literature is too contested
-    answer: 0
+      - That it cannot say whether your attention has got worse, since nothing measured change
+    answer: 3
     explain: >-
       Every source here is a single session or a snapshot of different people, so change within a
       person is outside what any of them was built to detect. The trade books are named. Lesson 6

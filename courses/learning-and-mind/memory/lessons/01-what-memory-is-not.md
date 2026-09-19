@@ -30,11 +30,11 @@ quiz:
   - q: >-
       Which of these claims could this course support, on what it has read?
     options:
-      - That retrieving some items can make related items harder to recall afterwards
       - That most childhood memories turn out to be reconstructions of photographs seen since
+      - That retrieving some items can make related items harder to recall afterwards
       - That a person who remembers an event in detail is more likely to be accurate
       - That memory declines from the age of thirty in a way that can be measured
-    answer: 0
+    answer: 1
     explain: >-
       Lesson 3 is a meta-analysis of exactly that, with three effect sizes and their intervals. The
       photograph claim is not something this course read anything about. Detail and accuracy is a
@@ -44,11 +44,11 @@ quiz:
       A charity reports that one well-documented case of a therapy working proves the therapy
       works. What is the most accurate thing to say about that?
     options:
+      - It establishes that the outcome can occur, which is narrower than the claim
       - It is worthless, since one case can support no claim at all of any kind
       - It is sound, since a documented case is stronger than a statistical average
       - It depends entirely on how thoroughly that one case was documented and followed
-      - It establishes that the outcome can occur, which is narrower than the claim
-    answer: 3
+    answer: 0
     explain: >-
       A single case can show that something is possible, which is a real and narrow result, and it
       cannot show how often it happens or in whom. Dismissing it entirely throws away the
@@ -71,11 +71,11 @@ quiz:
       A woman says that because memory is reconstructive, nothing anybody remembers can be trusted.
       What is wrong with that?
     options:
-      - It confuses a claim about the mechanism with a claim about the output's accuracy
       - Nothing, since that is what a reconstructive account of memory actually implies
       - It is right about events but wrong about facts, which are stored quite differently
       - It ignores that reconstruction only affects memories older than about a year
-    answer: 0
+      - It confuses a claim about the mechanism with a claim about the output's accuracy
+    answer: 3
     explain: >-
       Reconstruction is how memory works rather than a verdict on what it produces, and lesson 5 is
       a case where reconstructed memories are highly accurate under stated conditions. Taking the
@@ -85,11 +85,11 @@ quiz:
       Somebody proposes to use this course's lesson on leading questions to argue that a relative's
       account of an argument is unreliable. What does this lesson say about that?
     options:
+      - It is outside what the course measures, which is what memory does in general
       - It supports them, since the research shows accounts change under questioning
       - It supports them only if the relative was questioned repeatedly about it
-      - It is outside what the course measures, which is what memory does in general
       - It is fine, provided they explain the research honestly to the relative first
-    answer: 2
+    answer: 0
     explain: >-
       The course's refusal is exactly this: measuring what memory does across people is a different
       thing from adjudicating one person's recollection, and lesson 7 says so in terms. The first

@@ -16,11 +16,11 @@ quiz:
       A man practises a number-sequence game daily for six weeks and gets much better at it. What
       kind of transfer has he demonstrated?
     options:
+      - Near transfer, which is improvement on the trained task or one very like it
       - Intermediate transfer, since the game taxes the same system as other tasks would
       - Far transfer, since a general capacity must have improved for the score to rise
       - None, because improvement on a practised task is not a form of transfer at all
-      - Near transfer, which is improvement on the trained task or one very like it
-    answer: 3
+    answer: 0
     explain: >-
       Getting better at the thing you practised is near transfer, and the meta-analysis reports reliable
       improvement on working memory measures with no convincing far transfer beside it. Intermediate
@@ -59,11 +59,11 @@ quiz:
       A trainer argues his programme must transfer, because the people who improve most on his
       exercises report the biggest gains at work. What is wrong with that argument?
     options:
-      - The pooled analysis found no such relationship, and his report is two self-reports
       - Nothing, since a dose-response relationship is what a real mechanism would produce
       - He has not said how long the programme runs, which is what determines any transfer
       - Self-reports are unreliable, so no claim resting on one can be taken seriously here
-    answer: 0
+      - The pooled analysis found no such relationship, and his report is two self-reports
+    answer: 3
     explain: >-
       Across 145 comparisons the degree of improvement on the trained measures was not related to
       the size of far-transfer effects, so the pattern he reports is not what the pooled data shows.
@@ -72,11 +72,11 @@ quiz:
   - q: >-
       A woman asks whether meditation would improve her attention. What can this course tell her?
     options:
+      - That the syntheses report small effects, which this course has not read itself
       - That it will, since mindfulness is the best-evidenced attention training available
       - That it will not, since no training of any kind shows far transfer in the evidence
-      - That the syntheses report small effects, which this course has not read itself
       - That the question is unanswerable, since attention cannot be measured reliably
-    answer: 2
+    answer: 0
     explain: >-
       Search-summary level is exactly what this course holds those syntheses at, and the honest
       answer names both the direction and the read level rather than putting a figure in her hands.
@@ -87,10 +87,10 @@ quiz:
       course's own judgement?
     options:
       - That an hour is the right length for a block of demanding work of this kind
+      - That a reliable context is what an association needs, which Habits lesson 3 measured
       - That the hour should be the same hour each day rather than a different one
       - That the phone should be in another room throughout the hour, which lesson 5 supports
-      - That a reliable context is what an association needs, which Habits lesson 3 measured
-    answer: 3
+    answer: 1
     explain: >-
       The cue and its reliability are the best-evidenced practical thing in the term, from two field
       experiments, and the lesson cites them. The length of the block and the choice of a fixed hour

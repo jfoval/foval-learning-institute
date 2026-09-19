@@ -19,9 +19,9 @@ quiz:
     options:
       - Yes, because three years of near-weekly repetition is what the word means
       - Yes, because the cue is Tuesday evening and the cue is what makes a habit
-      - No, because she is deciding each time, and the decision is what a habit removes
       - No, because three weeks in four is not frequent enough to have become automatic
-    answer: 2
+      - No, because she is deciding each time, and the decision is what a habit removes
+    answer: 3
     explain: >-
       The research definition turns on the behaviour being triggered automatically by a context, and
       she is consulting herself about it every week. The frequency answer is the everyday sense of
@@ -32,11 +32,11 @@ quiz:
       A man finds himself checking his phone whenever he sits down on the bus, and often cannot say
       afterwards what he looked at. He would rather not do it. What does the definition say?
     options:
-      - It is a habit, and the definition has no view on whether he wants it
       - It is not a habit, since a habit is something you have deliberately built
+      - It is a habit, and the definition has no view on whether he wants it
       - It is a habit only if he has done it long enough for it to be learned
       - It is not a habit, because he is aware of it and wants to stop
-    answer: 0
+    answer: 1
     explain: >-
       A context, a response that runs off without a decision, and no memory of deciding: that is the
       definition met, and nothing in it is about the behaviour being welcome. The built answer
@@ -46,11 +46,11 @@ quiz:
   - q: >-
       Why does this course say a habit is worth having, in the terms the research uses?
     options:
-      - Because a habit is a behaviour you have chosen deliberately and can therefore trust
       - Because once the action is triggered by a cue, it no longer depends on wanting to do it
+      - Because a habit is a behaviour you have chosen deliberately and can therefore trust
       - Because repeating something makes you better at it, which is what automaticity means
       - Because habits are more efficient than decisions, so they leave you with more time
-    answer: 1
+    answer: 0
     explain: >-
       The point of the transfer to external cues is that reliance on attention and motivation drops,
       so the behaviour survives the weeks when you do not feel like it. The chosen answer describes
@@ -63,9 +63,9 @@ quiz:
     options:
       - That habits are hard to break once a person has formed them over many years
       - That smoking is more strongly habitual than most other behaviours people perform
-      - That a ban changes behaviour less than people expect it to in the first year
       - That the association runs from a context to a response, whatever the person now intends
-    answer: 3
+      - That a ban changes behaviour less than people expect it to in the first year
+    answer: 2
     explain: >-
       Her mother's kitchen was the cue and the spoonful was the response, and a year of intending
       otherwise did not unhook one from the other. Difficulty in breaking a habit is a consequence

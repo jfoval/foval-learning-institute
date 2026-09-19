@@ -13,11 +13,11 @@ quiz:
       A student revises half of a topic by testing herself and leaves the other half alone. On this
       literature, what should happen to the half she left?
     options:
-      - It should be somewhat harder to recall than if she had tested nothing
       - It should be unaffected, since she spent no time on it either way
       - It should be easier, since testing the first half activates the whole topic
+      - It should be somewhat harder to recall than if she had tested nothing
       - It should be lost entirely, since retrieval actively erases competing items
-    answer: 0
+    answer: 2
     explain: >-
       Retrieving a subset can make related unpractised items harder to reach, at around nine percent
       in the pooled raw figures. Nothing here supports the material being unaffected or improved,
@@ -28,11 +28,11 @@ quiz:
       not blind the assessors, and 3 percent in trials that did. A coach quotes the 6 percent. What
       has gone wrong?
     options:
+      - The overall figure averages two designs, so it describes neither the blinded nor the rest
       - Nothing, since the overall figure pools every trial and is therefore the best estimate here
       - The 3 percent figure is the only real one, since the other trials were not properly run
-      - The overall figure averages two designs, so it describes neither the blinded nor the rest
       - The review should not report subgroups at all, since they invite exactly this confusion
-    answer: 2
+    answer: 0
     explain: >-
       A pooled figure that spans two methods is a statement about the mixture of studies rather than
       about the thing being measured, which is this lesson's three-row table in a different subject.
@@ -43,10 +43,10 @@ quiz:
       avoided. What is wrong with that?
     options:
       - Nothing at all, since the finding does show that retrieval causes forgetting elsewhere
+      - The practised items gain far more than the unpractised ones lose, so the advice stands
       - The effect only appears in laboratories, so it has no bearing on real revision
       - The effect is too small to detect in any individual, so it can be ignored entirely
-      - The practised items gain far more than the unpractised ones lose, so the advice stands
-    answer: 3
+    answer: 1
     explain: >-
       Retrieval practice is the best-evidenced technique in the earlier course, and this literature
       adds a cost on items you did not practise rather than overturning the benefit on those you
@@ -57,10 +57,10 @@ quiz:
       The meta-analysts describe two competing explanations for the effect. What do they conclude?
     options:
       - That inhibition accounts are supported outright, and the competing view is refuted flatly
-      - That the results largely supported inhibition but also provided challenging evidence
       - That neither account can be distinguished by any evidence currently available
+      - That the results largely supported inhibition but also provided challenging evidence
       - That the non-inhibitory accounts explain the results better across the whole pool
-    answer: 1
+    answer: 2
     explain: >-
       Their own summary says the results largely supported inhibition accounts while also providing
       some challenging evidence, with the pattern varying by how the effect was assessed, which is
@@ -72,9 +72,9 @@ quiz:
     options:
       - Because drilling the practised cards first makes those same cards harder to recall later
       - Because the deck should be shuffled so that related cards never come up next to each other
-      - Because producing the drilled cards first interferes with producing the rest of the deck
       - Because the unpractised cards should be tested twice, to make up for the cost they carry
-    answer: 2
+      - Because producing the drilled cards first interferes with producing the rest of the deck
+    answer: 3
     explain: >-
       That is output interference, and studies that control for it report an effect about half the
       size, so an app using this order is measuring its own test design as well as your memory. The

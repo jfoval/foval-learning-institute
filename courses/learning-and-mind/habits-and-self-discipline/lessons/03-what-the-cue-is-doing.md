@@ -46,10 +46,10 @@ quiz:
       and finds she no longer wants to read in the morning. What does this lesson say is going on?
     options:
       - He has broken the habit, which shows that habits fade once a person has stopped feeding them
+      - The cue has gone, and the association needs the context to fire even though it survives
       - His motivation has changed, since working from home is much less stressful than an office
       - The habit was weaker than he thought, since a strong one would have followed him home
-      - The cue has gone, and the association needs the context to fire even though it survives
-    answer: 3
+    answer: 1
     explain: >-
       The association is between a context and a response, so removing the context removes the
       trigger without touching what was learned, which is why the pull often returns on the first
@@ -59,11 +59,11 @@ quiz:
   - q: >-
       Which of these is the best cue for a habit you want to build?
     options:
-      - When I am feeling motivated in the evening, then I will write in the notebook for a page
       - When I have put the kettle on in the morning, then I will write a page in the notebook
+      - When I am feeling motivated in the evening, then I will write in the notebook for a page
       - When I get a quiet moment at some point in the day, then I will write a page in the notebook
       - When I am not too tired after work, then I will write a page in the notebook that evening
-    answer: 1
+    answer: 0
     explain: >-
       A cue has to be a context you meet reliably and cannot miss, and putting the kettle on is an
       event that happens at the same place and time nearly every day. Feeling motivated and not
@@ -74,9 +74,9 @@ quiz:
     options:
       - Because the participants were students, who are not representative of adults generally
       - Because the amounts eaten were small, so nothing much was at stake either way
-      - Because the same people ate much less stale popcorn once they were out of the cinema
       - Because the study measured eating rather than a behaviour anybody would call a vice
-    answer: 2
+      - Because the same people ate much less stale popcorn once they were out of the cinema
+    answer: 3
     explain: >-
       Nothing about their character changed between the cinema and the meeting room; the context
       did, and their behaviour followed it, which locates the cause outside the person. The student
@@ -85,11 +85,11 @@ quiz:
   - q: >-
       A woman picks a good cue and the behaviour still does not happen. What does this lesson say?
     options:
-      - A cue is half of it, and the response has to be something she can actually do then
       - The cue must be wrong, since a cue that fires reliably will produce the behaviour
       - She has not yet repeated it enough times for the association to have been built at all
+      - A cue is half of it, and the response has to be something she can actually do then
       - The behaviour is one she does not really want, which no cue will fix for her
-    answer: 0
+    answer: 2
     explain: >-
       A cue can arrive faithfully at a moment when the response is impossible, which is a fault in
       the pairing rather than in either half; a cue at the school gates is no use for a behaviour

@@ -17,10 +17,10 @@ quiz:
       later re-analysis of the same sixty reporting almost nothing. What should they suspect first?
     options:
       - That the effect itself has weakened over the years, which does happen in psychology
-      - That correcting for small-study effects took the pooled estimate most of the way down
       - That the second team dropped the experiments whose results it happened to dislike
+      - That correcting for small-study effects took the pooled estimate most of the way down
       - That newer experiments were added to the pool and returned much smaller results than those
-    answer: 1
+    answer: 2
     explain: >-
       Same published record, different handling of it, is the pattern this lesson's first step shows,
       and a re-analysis by definition works on studies that already exist rather than adding any.
@@ -31,11 +31,11 @@ quiz:
       Twenty-three laboratories ran the same protocol and the pooled estimate was d = 0.04, with a
       confidence interval from −0.07 to 0.15. What does that permit you to say?
     options:
-      - That this design at this size could not tell the effect apart from nothing
       - That the effect is zero, since the interval contains zero and the estimate is so tiny
+      - That this design at this size could not tell the effect apart from nothing
       - That the effect exists but is small, since the estimate itself is above zero
       - That the laboratories disagreed, since the interval spans positive and negative values
-    answer: 0
+    answer: 1
     explain: >-
       An interval containing zero means the data are compatible with no effect and with small
       effects in both directions, which is a statement about what this study could resolve rather

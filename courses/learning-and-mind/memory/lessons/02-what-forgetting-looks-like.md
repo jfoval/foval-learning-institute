@@ -13,11 +13,11 @@ quiz:
       A revision app tells you that you will forget half of a lesson within an hour, and cites the
       forgetting curve. What is the first thing wrong with that?
     options:
-      - The figure is too high, since the real curve is closer to forty percent an hour
       - The curve measures savings on relearning, which is not a percentage recalled
+      - The figure is too high, since the real curve is closer to forty percent an hour
       - Nothing, since that is what the original experiments measured and reported
       - The curve applies only to nonsense syllables, so no figure from it transfers
-    answer: 1
+    answer: 0
     explain: >-
       Savings is the proportion of relearning time you are spared by having learned it once, which
       is a different quantity from how much you can produce, and swapping one for the other is the
@@ -40,11 +40,11 @@ quiz:
       A teacher wants to use the 2015 replication to argue that her students will lose most of a
       lesson by the next morning. What should stop her?
     options:
+      - Savings on relearning lists in one subject is not a claim about her whole class
       - The replication found no forgetting in the first day, so the claim is backwards
       - Nothing, since a replicated finding can be applied to any group of learners
-      - Savings on relearning lists in one subject is not a claim about her whole class
       - The study measured recognition, so it says nothing about what students recall
-    answer: 2
+    answer: 0
     explain: >-
       One subject, learning nonsense syllables over seventy hours, measured by relearning time, is a
       narrow thing to build a claim about a classroom on, and the study never intended to be one. The
@@ -54,11 +54,11 @@ quiz:
       A language app schedules its first review at exactly 24 hours and gives the replication's jump
       at the 24 hour data point as the reason. What should you say?
     options:
-      - That the jump is a claim about the shape of one subject's savings curve, not about scheduling
       - Nothing at all, since the jump is the newest finding in the replication and applies directly here
       - That the jump means forgetting stops after a day, so the first review should come later
+      - That the jump is a claim about the shape of one subject's savings curve, not about scheduling
       - That the replication found no jump at all, so the app has the finding backwards entirely
-    answer: 0
+    answer: 2
     explain: >-
       A jump upwards in savings at one point of one subject's curve says the measured value sits
       above a smooth fit, and this course did not read the analysis behind it; review schedules come
@@ -69,10 +69,10 @@ quiz:
       answer on this lesson?
     options:
       - They are right, and the course uses this study only as a historical curiosity of its own
+      - It establishes that an older one-subject result reproduces, which is narrow and real
       - They are wrong, because seventy hours of data from one person is a large sample
       - It establishes the curve for adults, since one adult is representative of adults
-      - It establishes that an older one-subject result reproduces, which is narrow and real
-    answer: 3
+    answer: 1
     explain: >-
       Replicating a one-subject study with one subject tests whether the original result holds up,
       which is a real question and a narrow answer. Hours of data are not a sample of people. One
@@ -83,10 +83,10 @@ quiz:
       measured for over a century". What is the strongest objection this lesson supports?
     options:
       - That forgetting is much slower than the curve suggests once the material means something
-      - That what was measured is relearning time in one subject, so "people" is the wrong word
       - That a measurement from the 1880s cannot apply to how anybody learns anything today
+      - That what was measured is relearning time in one subject, so "people" is the wrong word
       - That the replication failed to reproduce the original, so the finding no longer stands
-    answer: 1
+    answer: 2
     explain: >-
       The instrument is savings on relearning and the sample is one person twice, so the sentence
       has the right shape and the wrong subject. Nothing read here compares meaningful material with

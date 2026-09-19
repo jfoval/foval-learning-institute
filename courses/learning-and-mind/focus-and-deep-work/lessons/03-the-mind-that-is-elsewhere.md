@@ -14,11 +14,11 @@ quiz:
       A colleague says he only loses focus when the work is boring. What does this study say about
       that?
     options:
-      - It contradicts him, since at least three in ten samples wandered in almost everything
       - It supports him entirely, since wandering was concentrated in low-demand activities
       - It cannot address it at all, since the study never recorded what people were doing
+      - It contradicts him, since at least three in ten samples wandered in almost everything
       - It supports him in part, since demanding work halved the rate of wandering they reported
-    answer: 0
+    answer: 2
     explain: >-
       The floor across activities is the striking part, and the authors report that the nature of
       people's activities had only a modest impact on whether their minds wandered. Activity was
@@ -55,10 +55,10 @@ quiz:
       What is the most important limit on the study's sample?
     options:
       - It was small, at 2,250 people, which is far too few for a claim about everybody
-      - The mean age was 34, so nothing in it can apply to older or younger people at all
       - They volunteered for a happiness app on an iPhone in 2010, which is a specific group
+      - The mean age was 34, so nothing in it can apply to older or younger people at all
       - They were mostly in the United States, so the findings are about that one culture only
-    answer: 2
+    answer: 1
     explain: >-
       Self-selection into a happiness-tracking app, on a phone not everybody had in 2010, is the
       thing that most shapes who is in the sample. Two thousand two hundred and fifty people is a
@@ -68,10 +68,10 @@ quiz:
       A man tracks his own mind-wandering for a day and gets 60 percent. What can he conclude?
     options:
       - That he wanders more than average, since the study's figure was 46.9 percent
-      - Very little, since his method, his day and his judgement are all different from theirs
       - That his day was quite unusual, since the published figure is an average across people
+      - Very little, since his method, his day and his judgement are all different from theirs
       - That he is unusually honest, since most people under-report their own wandering
-    answer: 1
+    answer: 2
     explain: >-
       One person, one day, a different prompt schedule and his own judgement of what counts are
       four reasons his number and theirs are not comparable, which is the point of the exercise

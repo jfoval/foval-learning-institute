@@ -17,10 +17,10 @@ quiz:
       actually report?
     options:
       - That 43 percent of behaviours were habitual, across two studies that agreed closely
-      - Between a third and a half, with 43 percent in one study and 35 percent in the other
       - That habits made up 43 percent of the waking day, measured by observers over two days
       - That 43 percent of behaviours were automatic, on a nationally representative sample
-    answer: 1
+      - Between a third and a half, with 43 percent in one study and 35 percent in the other
+    answer: 3
     explain: >-
       The paper's own sentence gives a range and then two figures, and the 43 is the higher of them;
       the authors explain the gap rather than averaging it away. The agreed-closely answer is what
@@ -29,11 +29,11 @@ quiz:
   - q: >-
       Why did the second study return a higher figure than the first, on the authors' own account?
     options:
+      - Because it let participants list several behaviours at once, so more habitual ones got in
       - Because it ran for two days rather than just one, which gave habits more chance to appear
       - Because its participants happened to be more habitual, having been recruited a year later
       - Because it used a rather looser criterion for what counted as a habitual behaviour
-      - Because it let participants list several behaviours at once, so more habitual ones got in
-    answer: 3
+    answer: 0
     explain: >-
       Reports limited to one behaviour an hour tend to catch the one that needed attention, so
       allowing several lets the automatic ones be recorded too; the authors designed the second
@@ -46,9 +46,9 @@ quiz:
     options:
       - That she is less habitual than most other people, since the published figure is higher
       - That her count must be wrong, because the published range begins at a third
-      - That her day differs from the studies', which may be her or may be how she listed
       - That 30 percent of her waking hours are spent on behaviour that is automatic
-    answer: 2
+      - That her day differs from the studies', which may be her or may be how she listed
+    answer: 3
     explain: >-
       A count of behaviours is not a count of hours, and her figure depends as much on how finely
       she listed as on how she lives, which is the lesson's whole point about the criterion. Reading
@@ -58,11 +58,11 @@ quiz:
       What did the diary studies find people were thinking about while performing habitual
       behaviours?
     options:
-      - Issues unrelated to the behaviour, which is what not having to guide it frees them to do
       - Nothing in particular, since automatic behaviour leaves the mind briefly blank for a moment
       - The behaviour itself, and more closely than during behaviours they had to think through
+      - Issues unrelated to the behaviour, which is what not having to guide it frees them to do
       - Their emotions, which the studies found were stronger during habitual performance
-    answer: 0
+    answer: 2
     explain: >-
       Not having to consciously guide the action is what leaves attention available, and the
       participants reported less stress during habitual behaviour too. The blank-mind answer
@@ -73,10 +73,10 @@ quiz:
       Which kinds of behaviour did the study find were most often classified as habitual?
     options:
       - Work and study behaviours, because those are performed to a fairly fixed timetable
+      - Hygiene and appearance, and sleeping and waking, which run to the same place and time
       - Eating and drinking, which happen more times a day than anything else listed
       - Social interaction, since it is performed with the same people in the same places
-      - Hygiene and appearance, and sleeping and waking, which run to the same place and time
-    answer: 3
+    answer: 1
     explain: >-
       Those are the behaviours most reliably tied to one place and one moment, which is what the
       criterion asks for, and they are the ones the paper names. Work and study run to a timetable
@@ -86,11 +86,11 @@ quiz:
   - q: >-
       Somebody says the diary figure proves most of life is automatic. What is wrong with that?
     options:
-      - It reverses the finding, which was that nearly every listed behaviour was habitual
       - It treats a count of behaviours meeting one stated criterion as a claim about a life
+      - It reverses the finding, which was that nearly every listed behaviour was habitual
       - Nothing, since a third to a half of behaviours is most of a person's day by any measure
       - It ignores that the studies were run before smartphones changed how people spend time
-    answer: 1
+    answer: 0
     explain: >-
       The number counts listed behaviours against a criterion the paper states, on students, and
       none of those steps licenses a claim about how much of a life is automatic. The reversal

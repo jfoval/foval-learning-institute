@@ -27,11 +27,11 @@ quiz:
       A forensic review finds that a long-standing doubt about a technique was well founded for the
       equipment of the time and no longer holds for current equipment. What shape is that?
     options:
-      - The synthesis's own, in which the old position was reasonable for what produced it
       - The opposite of the synthesis's, holding that the old position was mistaken all along
       - Not a shape a synthesis can take, since a review reports evidence rather than judging it
+      - The synthesis's own, in which the old position was reasonable for what produced it
       - A weaker version, since it keeps the old doubt alongside the new evidence unresolved
-    answer: 0
+    answer: 2
     explain: >-
       Conceding that a position was correct about the evidence that produced it, and then saying
       what changed, is exactly the move the paper makes in its first paragraph. It does not say
@@ -40,11 +40,11 @@ quiz:
   - q: >-
       Which of these is NOT one of the five pristine conditions?
     options:
+      - Recording the identification on video for later review by a court
       - Cautioning the witness that the offender might not be in the lineup
       - Using an administrator who does not know which person is the suspect
-      - Recording the identification on video for later review by a court
       - Collecting a confidence statement at the time of the identification
-    answer: 2
+    answer: 0
     explain: >-
       Video recording is a sensible practice and is not one of the five. The other three are conditions
       three, four and five of Box 3, and the two not listed here are including only one suspect per
@@ -55,9 +55,9 @@ quiz:
     options:
       - It carries the same weight, since it is the same witness and the same memory
       - It carries more weight, since she has had longer to consider the identification
-      - It is worthless, since any confidence expressed in court has been contaminated
       - The claim is about initial confidence, so courtroom certainty is outside it
-    answer: 3
+      - It is worthless, since any confidence expressed in court has been contaminated
+    answer: 2
     explain: >-
       The synthesis is about confidence expressed at the moment of the identification, and the word
       initial appears throughout its own summary for that reason. Time to consider is not what the
@@ -82,10 +82,10 @@ quiz:
       applying its conclusions there?
     options:
       - They apply, since the underlying relationship between confidence and accuracy holds
-      - They cannot yet be applied there, which the authors say in their own summary
       - They apply with a correction factor the paper provides for unreformed procedures
       - They apply to high-confidence identifications only, not to low-confidence ones
-    answer: 1
+      - They cannot yet be applied there, which the authors say in their own summary
+    answer: 3
     explain: >-
       The summary says in terms that the conclusions about high-confidence identifications cannot
       yet be applied to jurisdictions that have not made the reforms, which is the qualification

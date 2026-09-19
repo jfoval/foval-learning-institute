@@ -29,10 +29,10 @@ quiz:
       What did the trim-and-fill correction do to the performance-based effect?
     options:
       - It reduced it slightly, leaving a small but still statistically significant effect
+      - It removed the statistical significance, leaving an interval that crosses zero
       - It increased it, which is what happens when small null studies are imputed
       - It left it unchanged, since the funnel plot showed no sign of asymmetry at all
-      - It removed the statistical significance, leaving an interval that crosses zero
-    answer: 3
+    answer: 1
     explain: >-
       The corrected estimate was z = .032 with an interval running from below zero to above it,
       which is a statement about what the pooled literature can distinguish. Egger's test did
@@ -42,11 +42,11 @@ quiz:
       A woman is certain her phone has destroyed her attention. On this lesson, what is the most
       accurate thing to tell her?
     options:
-      - That the association holds in self-report and not in task performance, and both matter
       - That she is mistaken, since the performance evidence does not survive the correction
       - That she is quite right, since the self-report evidence supports just what she reports
       - That nothing at all is known here, since a heterogeneous literature supports nothing
-    answer: 0
+      - That the association holds in self-report and not in task performance, and both matter
+    answer: 3
     explain: >-
       The split is the finding, and her report belongs to the half where the association is
       consistently found, which is not nothing even though a task might not show it. Telling her
@@ -56,11 +56,11 @@ quiz:
       Why does this lesson say the self-report and performance halves are not simply one right and
       one wrong?
     options:
-      - Because both halves used the same index, so any difference must be random variation
       - Because a questionnaire measures something real, which is how somebody experiences it
+      - Because both halves used the same index, so any difference must be random variation
       - Because performance measures are known to be unreliable in this particular research
       - Because the meta-analysis found the two halves did not truly differ from each other at all
-    answer: 1
+    answer: 0
     explain: >-
       They answer different questions, and how somebody experiences and describes their attention is
       a real thing with real consequences even when a task in a quiet room shows nothing. The measurement approach did moderate the result, so the two halves did differ. Performance
@@ -84,11 +84,11 @@ quiz:
       A student is deciding whether to write an essay arguing that this question is now settled.
       What would the meta-analysts themselves tell her?
     options:
+      - That ten years on, the picture is not more transparent and we are no closer
       - That the original finding has been overturned and the question is now settled
       - That media multitasking is harmful, though by a smaller margin than first reported
-      - That ten years on, the picture is not more transparent and we are no closer
       - That the question cannot be answered until better performance measures exist
-    answer: 2
+    answer: 0
     explain: >-
       Their closing paragraph says exactly that, while also noting that studies using a different
       measurement approach have consistently supported an association with everyday executive

@@ -18,9 +18,9 @@ quiz:
     options:
       - A store of a finite resource is drawn down, and refills with rest or with food
       - A trait-level difference emerges, so that some people show the effect and others never do
-      - Two shifts, one in motivation away from control and one in attention away from its cues
       - Nothing at all, since the second task is harder only because people expect it to be
-    answer: 2
+      - Two shifts, one in motivation away from control and one in attention away from its cues
+    answer: 3
     explain: >-
       The proposal is a shift in motivation towards what is rewarding and a shift in attention
       towards cues signalling gratification, each affecting the other. The store is the resource
@@ -29,11 +29,11 @@ quiz:
   - q: >-
       Why do the proposers say their account is worth having, even though it is less tidy?
     options:
+      - Because it gives a more precise picture, and makes predictions a metaphor cannot
       - Because elegance in a theory is generally a sign that something has been left out
       - Because it can be stated without any reference to the experiments that prompted it
       - Because it has already been confirmed by evidence the resource model could not explain
-      - Because it gives a more precise picture, and makes predictions a metaphor cannot
-    answer: 3
+    answer: 0
     explain: >-
       They say in terms that the model may sacrifice the elegance of the resource metaphor and
       paints a more precise picture, with specific predictions that can be put to a test. Treating
@@ -46,10 +46,10 @@ quiz:
       need. How would the two accounts describe this differently?
     options:
       - The resource account says that she ran out; the process account says she has a weaker trait
-      - The resource account says she ran out; the process account says what she wanted shifted
       - Both say the same thing in different words, so no case at all can tell them apart
       - The process account says that she was never trying, which the resource account denies
-    answer: 1
+      - The resource account says she ran out; the process account says what she wanted shifted
+    answer: 3
     explain: >-
       One says capacity was spent, the other says her motivation turned towards what was rewarding
       and her attention followed it, which is a difference about what changed rather than about how
@@ -60,11 +60,11 @@ quiz:
       A reader proposes separating the two accounts by offering people money before the second
       task. Why is that a weaker test than it looks?
     options:
-      - Defenders of the resource account expect an incentive to work too, by conservation
       - The process account makes no prediction about incentives, so only one side gets tested
       - Money is known to reduce performance on tasks that people already find interesting
+      - Defenders of the resource account expect an incentive to work too, by conservation
       - The experiment has been run many times and has produced results in both directions
-    answer: 0
+    answer: 2
     explain: >-
       On the stretched version of the resource model, what looks like depletion is unwillingness to
       draw further on a partly spent reserve, and an incentive is exactly what would make somebody
@@ -77,10 +77,10 @@ quiz:
       a moral judgement dressed up. Is he right?
     options:
       - Yes, since motivation is another word for effort, and effort is a choice a person makes
+      - No, because the shift is described as something that happens to a person, not a decision
       - Yes, which is partly why the resource account remains the more useful one in practice
       - No, because the account says nothing at all about motivation, only about where attention goes
-      - No, because the shift is described as something that happens to a person, not a decision
-    answer: 3
+    answer: 1
     explain: >-
       The account describes motivation and attention moving in response to prior exertion, which is
       a mechanism rather than a verdict on the person, and it pairs the shift with attention rather

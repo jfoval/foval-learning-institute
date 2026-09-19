@@ -1050,31 +1050,29 @@ function checkAnswerSequences() {
         warn.push(`${path.relative(ROOT, lessonsDir)}: ${seqs[i - 1][0].replace(/\.md$/, "")} and ${seqs[i][0].replace(/\.md$/, "")} have the same quiz answer sequence, ${seqs[i][1]}. A learner takes them one after the other and carries the key from the first into the second. Permute one of them.`);
       }
 
-      // Neighbours matching is the obvious failure and not the one that happened. Stage 4 on
-      // Memory found every lesson in the course carrying the cycle 0,2,1,3 started one position
-      // later than the lesson before, which is what /draft-lesson defect 16's "rotate the starting
-      // point by the lesson number" produces when it is followed mechanically. Neighbours never
-      // matched, so the check above passed on all six, and a reader who spotted the cycle in
-      // lesson 1 held the key to thirty items. Rotations of one cycle are what this looks for.
+      // Neighbours matching is the obvious failure and not the one that happens. Two Stage 4
+      // reviews on 2026-09-19 found the same course-wide shape twice over, and neither trips the
+      // neighbour check. First: every lesson running one cycle started a position later each
+      // time, which is what /draft-lesson defect 16's "rotate by the lesson number" produces.
+      // Second, after that was fixed by hand: every lesson still sharing one permutation
+      // pattern, a,b,c,d,b,a, so item 5 repeated item 2 and item 6 repeated item 1 in all seven.
+      // A reader who spots the shape once gets two items free in every other lesson.
+      //
+      // Both are the same defect seen through different lenses, so the check is written on the
+      // general form: relabel each sequence by order of first appearance and compare the
+      // patterns. 0,2,1,3,0,2 and 2,1,3,0,2,1 both reduce to 0,1,2,3,0,1, and so does every
+      // rotation of any 4-cycle.
       if (seqs.length >= 3) {
-        const rotationsOfFirst = new Set();
-        const first = seqs[0][1].split(",").map(Number);
-        const period = new Set(first).size;
-        if (period >= 2) {
-          for (let r = 0; r < period; r++) {
-            rotationsOfFirst.add(first.map((_, k) => first[(k + r) % first.length]).join(","));
-          }
-          // Build every rotation of the repeating unit rather than of the whole sequence, since a
-          // sequence of six built from a cycle of four is not a rotation of itself.
-          const unit = first.slice(0, period);
-          rotationsOfFirst.clear();
-          for (let r = 0; r < period; r++) {
-            const o = unit.slice(r).concat(unit.slice(0, r));
-            rotationsOfFirst.add(seqs[0][1].split(",").map((_, k) => o[k % period]).join(","));
-          }
-          if (seqs.every(s => rotationsOfFirst.has(s[1]))) {
-            warn.push(`${path.relative(ROOT, lessonsDir)}: all ${seqs.length} lessons' quiz answer sequences are rotations of one cycle (${unit.join(",")}). Neighbours differ, so the check above passes, and a reader who works the cycle out once has the key to every quiz in the course. Give each lesson its own irregular sequence.`);
-          }
+        const shape = str => {
+          const seen = new Map();
+          return str.split(",").map(x => {
+            if (!seen.has(x)) seen.set(x, seen.size);
+            return seen.get(x);
+          }).join(",");
+        };
+        const first = shape(seqs[0][1]);
+        if (seqs.every(s => shape(s[1]) === first)) {
+          warn.push(`${path.relative(ROOT, lessonsDir)}: all ${seqs.length} lessons' quiz answer sequences share one permutation pattern (${first}, reading each lesson's own first-seen position as 0). No two neighbours match, so the check above passes, and a reader who works the shape out once gets the repeated positions free in every lesson. Give each lesson its own irregular sequence.`);
         }
       }
     }
