@@ -162,7 +162,7 @@ The map is deliberately ambitious. Most courses are `planned`. The point of writ
 | Databases and SQL | Core | planned | T6 | |
 | Data Analysis | Core | planned | T6 | Spreadsheets to Python; asking questions of data. |
 | Machine Learning Fundamentals | Advanced | planned | T20 | |
-| Using AI Effectively | Foundation | research | T1 | Prompting, workflows, verification, where it fails. |
+| Using AI Effectively | Foundation | drafting | T1 | Prompting, workflows, verification, where it fails. |
 | Building with AI | Core | planned | T20 | APIs, agents, tools; shipping something real. |
 | Cybersecurity for Everyone | Foundation | planned | T6 | |
 | Computer Science Foundations | Core | planned | T20 | The theory under the craft: computation and what a computer cannot do, complexity and Big O, languages and compilers, memory, concurrency. |
