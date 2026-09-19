@@ -3,12 +3,12 @@
 *Stage 1 research, 2026-09-18. Written before any lesson is drafted. For each source: what it is good
 for, what it establishes, and how much of it was actually read.*
 
-<!-- unread: Jurafsky (except 02), Martin (except 02), Russell, Norvig -->
+<!-- unread: Jurafsky (except 02 03), Martin (except 02 03), Russell, Norvig -->
 
 **How to read the "read" labels below.** Every entry says whether it was read in full, in part, at
 abstract level, or not opened. That label is a ceiling, not decoration: a lesson may not lean on a
 source further than its label allows, and `npm run validate` fails on a lesson citing anything named
-in the `unread:` line above. Four names are there and they are the two textbooks, with one exemption: **chapter 2 of Jurafsky and Martin was read in full on 2026-09-18**, so lesson 2 may cite it and no other lesson may cite the book. That exemption keys to a lesson number rather than to a chapter, which is a known gap in the mechanism; a lesson 2 citing chapter 7 would pass the check and would be wrong. Most are named because the work's *result* was
+in the `unread:` line above. Four names are there and they are the two textbooks, with exemptions: **chapters 2 and 7 of Jurafsky and Martin were read in full on 2026-09-18**, so lesson 2 may cite chapter 2 and lesson 3 may cite chapter 7, and no other lesson may cite the book at all. **Those exemptions key to a lesson number rather than to a chapter, which is a known gap in the mechanism**: a lesson 2 citing chapter 7, or a lesson 3 citing chapter 2, would pass `npm run validate` and would be wrong. A reviewer has to check which chapter by eye. Note the syntax too: the unread line is split on commas before the exemption is parsed, so a second lesson number is added with a **space**, `(except 02 03)`, and a comma there would break the line silently. Most are named because the work's *result* was
 read through a reliable route (the authors' own abstract page, an author's own written account of
 their study, a publisher's table of contents) while the work itself was never opened. **If a lesson
 needs one of them, open it first and move it out of that line**, which is what happened to
@@ -65,9 +65,40 @@ it may already be wrong.
   fact that does the work: the pieces the system operates on are chosen by frequency in text, so they
   are neither letters nor reliably words, and no step in the process ever counts a letter.
 
+  **What chapter 7, "Transformers and Pretraining", gives lesson 3**, read the same day and for the
+  same reason, which is that no other source in this file could support the lesson at all. Three
+  things, and a Foundation lesson needs none of the mathematics around them.
+
+  *The context window*, defined in the book's own terms: when the model processes a token it "has
+  access to `xi` as well as the representations of all the prior tokens in the context window
+  (context windows consist of thousands of tokens) but no tokens after `i`." The chapter summary
+  gives the scale as it stands in this draft: transformer language models "have a wide context
+  window (hundreds of thousands to millions of tokens) allowing them to draw on enormous amounts of
+  context to predict upcoming words." **That figure is a capability claim and dates like one**, so a
+  lesson quoting it says whose draft and when.
+
+  *Why the same request does not give the same answer*, which is the fact lesson 3 is built on and
+  which almost nobody can explain. The book: "The choice of which word to generate in transformer
+  LLMs is done by sampling from the distribution of possible next words." The alternative is spelled
+  out and rejected: greedy decoding, choosing the most probable word every time, "is so predictable
+  that it is deterministic; if the context is identical, and the probabilistic model is the same,
+  greedy decoding will always result in generating exactly the same string", and "In practice,
+  however, we don't use greedy decoding with large language models", because what it produces is
+  "generic and often quite repetitive". **So the variability is a design choice rather than a
+  defect**, and that is the sentence lesson 3 exists to deliver.
+
+  *What is being traded*, in the book's own framing of temperature sampling, which is the cleanest
+  statement of the trade-off in any source here: "Methods that emphasize the most probable words
+  tend to produce generations that are rated by people as more accurate, more coherent, and more
+  factual, but also more boring and more repetitive. Methods that give a bit more weight to the
+  middle-probability words tend to be more creative and more diverse, but less factual and more
+  likely to be incoherent or otherwise low-quality." The chapter names three methods, **temperature
+  sampling, top-k and top-p**, and a Foundation lesson should name them once and teach none of them,
+  because a reader cannot set any of them in a chat window.
+
   Worst for our purpose: everything else. It is a graduate text with mathematics on most pages and no
-  interest in getting work out of these systems. Take chapter 2, take the ordering, leave the rest,
-  and link the free draft as the go-deeper for the mechanism lesson.
+  interest in getting work out of these systems. Take chapters 2 and 7, take the ordering, leave the
+  rest, and link the free draft as the go-deeper for the mechanism lessons.
 
 - **Stuart Russell and Peter Norvig, *Artificial Intelligence: A Modern Approach* (4th ed., 2021).**
   **Not opened and not consulted beyond knowing what it is.** It is recorded here so the next
@@ -117,6 +148,25 @@ it may already be wrong.
   will use. And the technique has since been absorbed: current systems often produce steps without
   being asked, which changes what a learner should do with this and is a live question rather than a
   settled one. See the contested section.
+- **Nelson F. Liu, Kevin Lin, John Hewitt, Ashwin Paranjape, Michele Bevilacqua, Fabio Petroni and
+  Percy Liang, "Lost in the Middle: How Language Models Use Long Contexts", *Transactions of the
+  Association for Computational Linguistics* (arXiv 2307.03172, 2023).** **Abstract read in full and
+  directly; the paper was not opened.** The only measured result in this file about *where* in a long
+  input a model actually uses what it has been given, and the finding is counter-intuitive enough to
+  be worth teaching: "performance is often highest when relevant information occurs at the beginning
+  or end of the input context, and significantly degrades when models must access relevant
+  information in the middle of long contexts, even for explicitly long-context models." The authors'
+  conclusion is that "current language models do not robustly make use of information in long input
+  contexts."
+
+  **Be exact about what was measured, because it is easy to stretch.** The two tasks were
+  multi-document question answering and key-value retrieval, and the manipulation was the *position*
+  of the relevant information rather than the length of the conversation. So it supports "where
+  something sits in a long input changes how well it is used" and does **not** by itself support
+  "long conversations get worse", which is a related claim a lesson has to reach by its own
+  reasoning and should label as such. The last clause is the one to keep: a model advertised as
+  handling long contexts is not thereby a model that uses all of one evenly.
+
 - **Saurav Kadavath and 30 co-authors, "Language Models (Mostly) Know What They Know", 2022 (arXiv
   2207.05221).** **Abstract read in full; the paper was not opened.** The careful source on
   self-assessment. Larger models are well calibrated on multiple-choice and true-or-false questions,
