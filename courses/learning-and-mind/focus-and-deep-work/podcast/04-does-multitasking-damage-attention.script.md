@@ -1,7 +1,17 @@
 ---
 source: courses/learning-and-mind/focus-and-deep-work/lessons/04-does-multitasking-damage-attention.md
 written_by: Claude, by hand, from the lesson text
-checked: pending
+checked: >-
+  Fact-checked in a fresh-context subagent against the lesson on 2026-09-19: verdict FAIL, and every
+  finding was fixed in this file before any render. The serious one was a missing refusal on an
+  episode whose title asks a causal question: the lesson says the review targeted cross-sectional
+  designs, that inferences about causality are limited, and that nobody has shown multitasking
+  damages attention and nobody has shown it does not. All of that is now an exchange before the
+  sign-off. The three explanations for the split had lost their attribution as the course's own
+  reasoning, and a sign-off claim that nothing earlier on the Core defines an effect size is not
+  something the lesson says and is not true. Also fixed: three words restored inside a quoted
+  conclusion, and a sign-off item naming a table the episode had given in prose. The checker
+  string-matched four quotations exactly and verified every pooled figure and interval.
 about: >-
   About seven minutes. Haley opens. Hosts are John (S1) and Haley (S2). Fourth episode for Focus and
   Deep Work. The episode takes the 2009 claim, the 2021 synthesis, the split by instrument and the
@@ -76,7 +86,7 @@ S1: It runs from below zero to above it. Once the pattern of missing nulls is co
 
 S2: So the task half loses and the questionnaire half wins.
 
-S1: That's where a worse lesson would stop and declare a winner, and this course won't. Three explanations for the split, and all three are live. First, the two instruments ask about different stretches of time: a task measures twenty minutes in a quiet room, a questionnaire asks about a life.
+S1: That's where a worse lesson would stop and declare a winner, and this course won't. Three explanations for the split, and this is the course's own reading rather than a finding: all three are live. First, the two instruments ask about different stretches of time: a task measures twenty minutes in a quiet room, a questionnaire asks about a life.
 
 S2: Second.
 
@@ -92,18 +102,22 @@ S1: And the first two are testable. A study measuring the same people in a quiet
 
 S2: What do the meta-analysts themselves say?
 
-S1: Ten years on from Ophir and colleagues, the picture is not any more transparent, and based on the papers reviewed we are no closer to understanding cognitive control in media multitaskers.
+S1: Ten years on from Ophir and colleagues, the picture is not any more transparent, and based on the papers reviewed in this study we are no closer to understanding cognitive control in media multitaskers.
 
 S2: That sounds like a debunking.
 
 S1: Except the same paragraph carries the other half. However, complicating matters, studies adopting a different measurement approach than this first investigation have consistently produced results supporting the claim that media multitasking is negatively associated with everyday executive functioning.
 
-S2: Both sentences are theirs.
+S2: Does any of this say multitasking caused anything?
+
+S1: No, and the authors say so. The review targeted cross-sectional studies, so inferences about causality are limited. Nobody has shown multitasking damages attention and nobody has shown it doesn't. What's been measured is whether the two things go together, and the answer depends on how you measure one of them.
+
+S2: And both of those conclusion sentences are theirs.
 
 S1: And they belong together. A meta-analysis that had found nothing would say so. This one says the picture is unclear and that one half of it consistently finds something.
 
 S2: What's in the lesson that we haven't touched?
 
-S1: What an effect size is, which the course defines here because nothing earlier on the path does; a table setting all four pooled results side by side; a checkpoint taking apart a friend who says it was all a scare and the studies were junk; a worked case of four questions to put to a headline about this; an exercise on finding which instrument three claims rest on; and a second exercise that asks you to write the strongest case on each side. The full lesson is at Foval Learning Institute dot org.
+S1: What an effect size is, which the course defines here because the rest of the course runs on it; how many of the assessments were questionnaires and how many were tasks, which is forty-five and seventy-three, with the interval on each; a checkpoint taking apart a friend who says it was all a scare and the studies were junk; a worked case of four questions to put to a headline about this; and an exercise that asks you to write the strongest case on each side. The full lesson is at Foval Learning Institute dot org.
 
 S2: Thanks for listening.

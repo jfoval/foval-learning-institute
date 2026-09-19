@@ -1,7 +1,16 @@
 ---
 source: courses/learning-and-mind/focus-and-deep-work/lessons/06-can-attention-be-trained.md
 written_by: Claude, by hand, from the lesson text
-checked: pending
+checked: >-
+  Fact-checked in a fresh-context subagent against the lesson on 2026-09-19: verdict FAIL, and both
+  findings were fixed in this file before any render. Both were in the sign-off, which named the six
+  lines of the hour and three misconceptions, all of which the episode had just delivered. It now
+  names what is genuinely absent: which earlier lesson each evidenced element borrows from and the
+  step this course takes past it, and the course's own reading that almost everything surviving in
+  this term is about arranging the situation rather than improving the person. The checker called
+  the body the cleanest of the three it reviewed: five quotations string-matched character for
+  character, no effect size from the working-memory paper anywhere, and the meditation refusal
+  intact, with Haley pushing for figures and the episode declining and saying why.
 about: >-
   About seven minutes. Haley opens. Hosts are John (S1) and Haley (S2). Sixth episode for Focus and
   Deep Work. The episode takes transfer, the working-memory training meta-analysis, what the course
@@ -96,6 +105,6 @@ S1: And a step away from the evidence in both of the first two. That's what an h
 
 S2: What's in the lesson that we haven't touched?
 
-S1: A worked case taking an invented training advert apart level by level, including the sentence that does its work by putting near transfer next to far; the full six lines of the hour with what each rests on; an exercise that has you design your hour, label every element, run it three times and see which label turns out wrong; a second exercise on sorting a real product's claim by transfer level; and three things people get wrong about all of it. The full lesson is at Foval Learning Institute dot org.
+S1: A worked case taking an invented training advert apart level by level, including the sentence that does its work by putting near transfer next to far; which earlier lesson each of the two evidenced elements borrows from, and the step this course takes past it in each case; the one thing the course says holds across the whole term, that almost everything surviving is about arranging the situation rather than improving the person, which it marks as its own reading of two courses rather than a finding either reports; an exercise that has you design your hour, label every element, run it three times and see which label turns out wrong; and a second exercise on sorting a real product's claim by transfer level. The full lesson is at Foval Learning Institute dot org.
 
 S2: Thanks for listening.

@@ -1,7 +1,18 @@
 ---
 source: courses/learning-and-mind/focus-and-deep-work/lessons/05-the-phone-on-the-desk.md
 written_by: Claude, by hand, from the lesson text
-checked: pending
+checked: >-
+  Fact-checked in a fresh-context subagent against the lesson on 2026-09-19: verdict FAIL, and every
+  finding was fixed in this file before any render. Two were provenance: the four candidate
+  explanations for the regional split are the course's own list rather than the authors', and the
+  script had dropped both that and the lesson's ranking of the cultural reading as the least
+  supported of the four, so a listener heard four co-equal options with the authors behind them.
+  Both restored. The sign-off named three misconceptions the episode had delivered two of, and now
+  names the funnel-plot point. Also added: the three regional heterogeneity figures and a gloss of
+  what I-squared is, since the script used the term cold. The checker verified every one of the
+  twelve figures and intervals by hand, string-matched both quotations including the closing
+  recommendation word for word, and confirmed the episode is not a debunking: it carries the
+  authors' case, the memory effect and the recommendation at full strength.
 about: >-
   About seven minutes. Haley opens. Hosts are John (S1) and Haley (S2). Fifth episode for Focus and
   Deep Work. The episode takes the brain-drain claim, the failed replication, the pooled effect and
@@ -20,7 +31,7 @@ S1: Because it's about a decision nearly everybody has made without evidence. Wh
 
 S2: Start with the claim.
 
-S1: In two thousand and seventeen, Ward, Duke, Gneezy and Bos published a study that gave the subject its phrase. People did working-memory tasks with their own phone on the desk, in a bag, or in another room. Those with the phone in another room performed best, even though nobody was using it. They called it brain drain: the mere presence of the phone consuming cognitive capacity.
+S1: In twenty seventeen, Ward, Duke, Gneezy and Bos published a study that gave the subject its phrase. People did working-memory tasks with their own phone on the desk, in a bag, or in another room. Those with the phone in another room performed best, even though nobody was using it. They called it brain drain: the mere presence of the phone consuming cognitive capacity.
 
 S2: Have you read it?
 
@@ -40,7 +51,7 @@ S1: Böttger, Poschik and Zierer, twenty twenty-three. In their words: in a data
 
 S2: And overall?
 
-S1: The pooled effect across all studies was g equals minus nought point one four, with a ninety-five percent confidence interval of minus nought point two four to minus nought point nought three. Heterogeneous, at an I-squared of about sixty-two.
+S1: The pooled effect across all studies was g equals minus nought point one four, with a ninety-five percent confidence interval of minus nought point two four to minus nought point nought three. Heterogeneous, at an I-squared of about sixty-two, which is the share of the variation between studies that's real difference rather than noise.
 
 S2: So something is there.
 
@@ -68,11 +79,11 @@ S1: The United States. In the pooled North American samples the effect is about 
 
 S2: What do you do with a split like that?
 
-S1: You say what it is and not what it means. A subgroup analysis tells you that something differs between these literatures. It doesn't tell you what. At least four candidates are live and this course can't choose: the populations differ, the studies differ, publication practice differs, or chance.
+S1: You say what it is and not what it means. A subgroup analysis tells you that something differs between these literatures. It doesn't tell you what. Four candidates are live, and the list is this course's own rather than one the authors give, and it can't choose between them. The populations differ, which is what the phrase cultural difference reaches for and is the least supported of the four. The studies differ. Publication practice differs. Or chance.
 
 S2: The authors give you anything?
 
-S1: They report that the Asian subgroup was much the least heterogeneous of the three, which makes chance less comfortable than it would otherwise be, because the studies inside it are agreeing rather than scattering. It doesn't make it impossible, and they call for more research rather than offering a mechanism. Neither does this course.
+S1: They report that the Asian subgroup was much the least heterogeneous of the three, at an I-squared of about thirty-one against seventy-one in Europe and fifty-one in North America. That makes chance less comfortable than it would otherwise be, because the studies inside that subgroup are agreeing rather than scattering. It doesn't make it impossible, and they call for more research rather than offering a mechanism. Neither does this course.
 
 S2: Now, you could read all that as a debunking.
 
@@ -96,6 +107,6 @@ S1: The research can't tell you where to put your phone. You can, and the honest
 
 S2: What's in the lesson that we haven't touched?
 
-S1: What a subgroup analysis actually is, before the discipline of reading one; a constructed case of a sleep meta-analysis splitting by lab and home, worked through a four-step reasoning order; an exercise that has you run the phone comparison on yourself and then write down three reasons it proves nothing; a second exercise on finding a subgroup claim in the wild; and three things people get wrong about all of it. The full lesson is at Foval Learning Institute dot org.
+S1: What a subgroup analysis actually is, before the discipline of reading one; a constructed case of a sleep meta-analysis splitting by lab and home, worked through a four-step reasoning order; the funnel-plot point, and why it is weaker than it sounds; an exercise that has you run the phone comparison on yourself and then write down three reasons it proves nothing; and a second exercise on finding a subgroup claim in the wild. The full lesson is at Foval Learning Institute dot org.
 
 S2: Thanks for listening.

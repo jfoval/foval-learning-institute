@@ -151,7 +151,14 @@ function readScript() {
   }
   const raw = fs.readFileSync(scriptPath, "utf8");
   const fmMatch = raw.match(/^---\n([\s\S]*?)\n---\n/);
-  const checked = fmMatch ? /^checked:/m.test(fmMatch[1]) : false;
+  // A `checked:` key is not a fact-check. Two independent reviewers found on 2026-09-19 that
+  // `checked: pending` satisfied this gate, so `--go` would have spent money on seven unchecked
+  // scripts. A real entry records a date, a verdict and what was fixed, so it is long and it is
+  // not a placeholder word. Both tests have to pass.
+  const checkedValue = fmMatch ? (fmMatch[1].match(/^checked:([\s\S]*?)(?=\n[^\s]|$(?![\s\S]))/m)?.[1] || "") : "";
+  const placeholder = /^\s*(>-?|\|-?)?\s*(pending|todo|tbd|no|none|n\/a|false|-)?\s*$/i.test(checkedValue);
+  const checked = !!fmMatch && /^checked:/m.test(fmMatch[1]) && !placeholder
+                  && checkedValue.replace(/\s+/g, " ").trim().length >= 40;
   const body = raw.replace(/^---[\s\S]*?\n---\n/, "");
   const turns = [...body.matchAll(/^S([12]):\s*([\s\S]*?)(?=\n\s*\nS[12]:|\s*$)/gm)]
     .map(m => ({ speaker: Number(m[1]), text: m[2].replace(/\s+/g, " ").trim() }))
@@ -237,7 +244,7 @@ async function render() {
      trimming against a limit it could not see. Say them on the dry run too; --go still exits. */
   if (!GO) {
     const blockers = [];
-    if (!s.checked) blockers.push("no `checked:` entry in the frontmatter, so --go will refuse to spend");
+    if (!s.checked) blockers.push("no real `checked:` entry in the frontmatter, so --go will refuse to spend. A placeholder such as `pending` does not count");
     if (s.worst > COST_CAP) blockers.push(`worst case $${s.worst.toFixed(2)} is over the $${COST_CAP} guard`);
     if (s.seconds * TOKENS_PER_SECOND > OUTPUT_TOKEN_CEILING * 0.9) blockers.push(`about ${Math.round(s.seconds * TOKENS_PER_SECOND)} audio tokens against the model's ${OUTPUT_TOKEN_CEILING}: it would be cut off. At ${WPM} words a minute the ceiling is about ${Math.floor(OUTPUT_TOKEN_CEILING * 0.9 * WPM / 60 / TOKENS_PER_SECOND)} spoken words, and this script has ${s.words}`);
     if (blockers.length) console.log("\n--go would refuse this script:\n" + blockers.map(b => "  - " + b).join("\n"));
@@ -247,7 +254,7 @@ async function render() {
     console.log(`  prompt starts: ${JSON.stringify(s.prompt.slice(0, 120))}...`);
     return;
   }
-  if (!s.checked) { console.error("\nRefusing to spend money on an unchecked script: its frontmatter has no `checked:` entry."); process.exit(1); }
+  if (!s.checked) { console.error("\nRefusing to spend money on an unchecked script: its frontmatter has no real `checked:` entry. A placeholder such as `pending`, or an entry shorter than about forty characters, does not count: the entry records the date, the verdict and what was fixed."); process.exit(1); }
   if (s.worst > COST_CAP && !FORCE) { console.error(`\nWorst case $${s.worst.toFixed(2)} is over the $${COST_CAP} guard. Add --force if this is intended.`); process.exit(1); }
   if (s.seconds * TOKENS_PER_SECOND > OUTPUT_TOKEN_CEILING * 0.9 && !FORCE) { console.error(`\nThis script expects about ${Math.round(s.seconds * TOKENS_PER_SECOND)} audio tokens against the model's ${OUTPUT_TOKEN_CEILING}; it would be cut off. Shorten it, or --force.`); process.exit(1); }
   const key = envKey("GEMINI_API_KEY");
@@ -519,7 +526,11 @@ async function plan() {
   let checked = false, opensRight = false;
   if (script) {
     const raw = fs.readFileSync(scriptPath, "utf8");
-    checked = /^checked:/m.test(raw.match(/^---\n([\s\S]*?)\n---\n/)?.[1] || "");
+    const fmRaw = raw.match(/^---\n([\s\S]*?)\n---\n/)?.[1] || "";
+    const cv = fmRaw.match(/^checked:([\s\S]*?)(?=\n[^\s]|$(?![\s\S]))/m)?.[1] || "";
+    checked = /^checked:/m.test(fmRaw)
+              && !/^\s*(>-?|\|-?)?\s*(pending|todo|tbd|no|none|n\/a|false|-)?\s*$/i.test(cv)
+              && cv.replace(/\s+/g, " ").trim().length >= 40;
     opensRight = /^S2:/m.test(raw.replace(/^---[\s\S]*?\n---\n/, "").trimStart().split("\n")[0]);
   }
   const manifest = loadManifest();

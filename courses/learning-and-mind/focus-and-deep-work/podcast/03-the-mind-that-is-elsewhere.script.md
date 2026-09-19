@@ -1,7 +1,16 @@
 ---
 source: courses/learning-and-mind/focus-and-deep-work/lessons/03-the-mind-that-is-elsewhere.md
 written_by: Claude, by hand, from the lesson text
-checked: pending
+checked: >-
+  Fact-checked in a fresh-context subagent against the lesson on 2026-09-19: verdict FAIL, and every
+  finding was fixed in this file before any render. Two figures had been rounded inside what the
+  lesson presents as the paper's own sample description, so a listener would have heard the paper's
+  sentence with 58.8 and 73.9 percent turned into fifty-nine and seventy-four. Both restored. And
+  the pleasant-topics result had lost the fact that it is a null: the slope did not reach
+  significance, while neutral and unpleasant did, and the script now says so. The checker
+  string-matched five quotations character for character, including the sampling question with its
+  four options and the time-lag sentence with all three of its hedges, and confirmed the episode
+  takes those hedges apart as the lesson does.
 about: >-
   About seven minutes. Haley opens. Hosts are John (S1) and Haley (S2). Third episode for Focus and
   Deep Work. The episode takes experience sampling, the 46.9 percent, the mood finding and the
@@ -36,7 +45,7 @@ S1: One question, four options, at a moment nobody chose. It's called experience
 
 S2: Who were they?
 
-S1: Samples from two thousand two hundred and fifty adults, fifty-nine percent male, seventy-four percent residing in the United States, mean age thirty-four. Volunteers who'd installed a happiness-tracking application on an iPhone, in twenty ten.
+S1: Samples from two thousand two hundred and fifty adults, fifty-eight point eight percent male, seventy-three point nine percent residing in the United States, mean age of thirty-four years. Volunteers who'd installed a happiness-tracking application on an iPhone, in twenty ten.
 
 S2: And what did it find?
 
@@ -60,7 +69,7 @@ S1: And people were less happy when their minds were wandering than when they we
 
 S2: There's a second result there I want.
 
-S1: And it's the one that makes the first interesting. Minds wandered to pleasant topics in forty-two and a half percent of samples, to neutral in thirty-one, to unpleasant in twenty-six and a half. People were no happier when thinking about pleasant topics than about their current activity. Neutral and unpleasant topics were both sharply worse.
+S1: And it's the one that makes the first interesting. Minds wandered to pleasant topics in forty-two and a half percent of samples, to neutral in thirty-one, to unpleasant in twenty-six and a half. People were no happier when thinking about pleasant topics than about their current activity, at a slope that didn't reach significance, while neutral came in at minus seven point two and unpleasant at minus twenty-three point nine, both strongly significant.
 
 S2: So it isn't simply that unhappy thoughts make you unhappy.
 

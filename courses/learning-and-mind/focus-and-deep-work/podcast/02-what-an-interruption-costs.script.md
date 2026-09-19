@@ -1,7 +1,17 @@
 ---
 source: courses/learning-and-mind/focus-and-deep-work/lessons/02-what-an-interruption-costs.md
 written_by: Claude, by hand, from the lesson text
-checked: pending
+checked: >-
+  Fact-checked in a fresh-context subagent against the lesson on 2026-09-19: verdict FAIL, and every
+  finding was fixed in this file before any render. The serious one was a dropped hedge that widened
+  a claim: the lesson says this course expects most readers to predict two things, marked as an
+  expectation rather than a measurement, and the script had turned that into what nearly everybody
+  does. The sign-off named three misconceptions the episode had delivered in full, and now names the
+  error counts and standard deviations instead. And an interruption arrived by instant message where
+  the lesson says only messaged. The checker recomputed the entire figure load, which is fifteen
+  workload ratings, three completion times and three word counts, and found every one correct, and
+  string-matched all three quotations exactly, including the discussion sentence both files
+  correctly leave unquoted.
 about: >-
   About seven minutes. Haley opens. Hosts are John (S1) and Haley (S2). Second episode for Focus and
   Deep Work. The episode takes the CHI 2008 experiment, the result that inverts what people expect,
@@ -32,7 +42,7 @@ S1: Playing a human-resources manager who'd just come back from holiday, answeri
 
 S2: And the conditions?
 
-S1: Three, counterbalanced so everybody did all three. No interruption. Interruption on the same topic as the task. Interruption on a different topic. The supervisor interrupting them was the experimenter in another room, by telephone or instant message.
+S1: Three, counterbalanced so everybody did all three. No interruption. Interruption on the same topic as the task. Interruption on a different topic. The supervisor interrupting them was the experimenter in another room, by telephone or message.
 
 S2: What did they measure?
 
@@ -40,7 +50,7 @@ S1: Time to complete the task, with the time spent on interruptions subtracted. 
 
 S2: So before you tell me. Interrupted people had to stop, answer a question and come back. What happened to the time and to the errors?
 
-S1: Write down your prediction, because nearly everybody predicts the same two things and one of them is right.
+S1: Write down your prediction. This course expects most readers to predict the same two things, which is an expectation rather than a measurement, and one of the two is right.
 
 S2: Errors the same, time longer.
 
@@ -92,6 +102,6 @@ S1: A lot, and one thing in particular, which the lesson flags as its own readin
 
 S2: What's in the lesson that we haven't touched?
 
-S1: A worked case of a team lead whose dashboard has exactly the two measures that didn't move, and what she may not be seeing; a personality finding worth a paragraph and not more; an exercise that has you keep the column a dashboard doesn't have, on two of your own work blocks; a second exercise on finding the missing measure in something that gets measured about you; and three things people get wrong about all this. The full lesson is at Foval Learning Institute dot org.
+S1: A worked case of a team lead whose dashboard has exactly the two measures that didn't move, and what she may not be seeing; a personality finding worth a paragraph and not more; the error counts and the standard deviations from the paper's own tables; an exercise that has you keep the column a dashboard doesn't have, on two of your own work blocks; and a second exercise on finding the missing measure in something that gets measured about you. The full lesson is at Foval Learning Institute dot org.
 
 S2: Thanks for listening.

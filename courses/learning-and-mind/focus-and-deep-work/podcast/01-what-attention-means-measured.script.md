@@ -1,7 +1,17 @@
 ---
 source: courses/learning-and-mind/focus-and-deep-work/lessons/01-what-attention-means-measured.md
 written_by: Claude, by hand, from the lesson text
-checked: pending
+checked: >-
+  Fact-checked in a fresh-context subagent against the lesson on 2026-09-19: verdict FAIL, and every
+  finding was fixed in this file before any render. One figure had been rounded: the mind-wandering
+  study's sample is 73.9 percent in the United States, not seventy-four, and the script now also
+  gives the 58.8 percent the lesson's table carries. The sign-off named the scope table, which the
+  episode had walked row by row, and now names what each synthesis pooled instead. And the
+  four-source count contradicted itself for a listener, who heard two outright plus two pooled where
+  the lesson says three plus one; the script no longer asserts the pooled samples are students in
+  the same breath. Also restored: what the standard correction corrects for. The checker verified
+  every other figure by hand, string-matched both quoted phrases, and confirmed the refusal about
+  whether a reader's attention has got worse survives at full width in both halves.
 about: >-
   About seven minutes. Haley opens, because the engine gives the first turn to the second voice.
   Hosts are John (S1) and Haley (S2). First episode for Focus and Deep Work. The episode takes the
@@ -29,7 +39,7 @@ S1: Usually over weeks or months of remembered experience. The second is a task.
 
 S2: Two routes to the same fact.
 
-S1: They aren't. In the two thousand and twenty-one synthesis of the media-multitasking literature, the two halves give different answers about the same question. The association is small but holds where people reported on themselves, and it doesn't survive a standard correction where a task did the measuring.
+S1: They aren't. In the two thousand and twenty-one synthesis of the media-multitasking literature, the two halves give different answers about the same question. The association is small but holds where people reported on themselves, and it doesn't survive a standard correction for publication bias where a task did the measuring.
 
 S2: So one of them is wrong.
 
@@ -77,7 +87,7 @@ S1: This course can't tell you whether your attention has declined, because nobo
 
 S2: Let me ask about the samples, because you flagged them.
 
-S1: Four main sources. The interruption experiment is forty-eight people, eighty-one percent German university students, mean age twenty-six, in two thousand and eight. The mind-wandering study is two thousand two hundred and fifty adults, seventy-four percent in the United States, mean age thirty-four, sampled through an iPhone application in twenty ten. The two syntheses pool studies that are overwhelmingly student samples.
+S1: Four main sources. The interruption experiment is forty-eight people, eighty-one percent German university students, mean age twenty-six, in two thousand and eight. The mind-wandering study is two thousand two hundred and fifty adults, fifty-nine percent male, seventy-three point nine percent in the United States, mean age thirty-four, sampled through an iPhone application in twenty ten. And two syntheses that pool studies from the published literature.
 
 S2: Three of four are students or volunteers.
 
@@ -93,6 +103,6 @@ S1: And defensible, which is the trade this whole course is about.
 
 S2: What's in the lesson that we haven't touched?
 
-S1: A worked case of one person answering both instruments and getting two different pictures, with three explanations for the gap; the scope table itself, row by row; what the word attention actually covers and why the taxonomy matters less than the instrument; five things people believe about this subject that the course takes apart; two exercises, one of which asks you to write down what would have had to be measured for your own answers to be facts; and the four things the course leaves out on purpose, including flow. The full lesson is at Foval Learning Institute dot org.
+S1: A worked case of one person answering both instruments and getting two different pictures, and three explanations for the gap; what each synthesis actually pooled, which is a hundred and eighteen assessments in one and twenty-two studies in the other; what the word attention covers and why the taxonomy matters less than the instrument; two exercises, one of which asks you to write down what would have had to be measured for your own answers to be facts; and the four things the course leaves out on purpose, including flow. The full lesson is at Foval Learning Institute dot org.
 
 S2: Thanks for listening.

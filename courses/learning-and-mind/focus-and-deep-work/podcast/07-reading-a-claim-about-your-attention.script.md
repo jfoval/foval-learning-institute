@@ -1,7 +1,16 @@
 ---
 source: courses/learning-and-mind/focus-and-deep-work/lessons/07-reading-a-claim-about-your-attention.md
 written_by: Claude, by hand, from the lesson text
-checked: pending
+checked: >-
+  Fact-checked in a fresh-context subagent against the lesson on 2026-09-19: verdict FAIL, and every
+  finding was fixed in this file before any render. The sign-off named three things people believe
+  about this literature and the episode had delivered two of them, so it now names only the one it
+  left out. The three-row table's third column is the course's own reading, and the script said so
+  after the rows rather than before; the marking has moved to the turn that opens the table. And the
+  one effect size in the episode arrived with no name attached, which it now has. The checker
+  confirmed the most exposed sentence in the course is handled correctly: the deep-work specimen is
+  introduced as something this course wrote rather than a quotation, before it is spoken, and no
+  trade book is named or assessed anywhere in the episode.
 about: >-
   About seven minutes. Haley opens. Hosts are John (S1) and Haley (S2). Seventh and last episode for
   Focus and Deep Work. The episode takes the three habits of reading, this subject's own failure
@@ -84,11 +93,11 @@ S1: To say which one you're disputing, out loud, before you disagree. Most of th
 
 S2: Put the three claims side by side for me.
 
-S1: Media multitasking damages attention: a hundred and eighteen assessments, overall small, and the performance half fails a publication-bias correction. What survives is the self-report association, consistently. The phone's mere presence drains cognitive capacity: twenty-two studies, minus nought point one four, memory yes, attention crossing zero, null in North American samples. What survives is a small pooled effect in memory and the authors' recommendation of caution. Attention can be trained: eighty-seven publications, no convincing far transfer against treated controls. What survives is large near transfer, which is not what anybody is buying.
+S1: The first two columns of this are the syntheses'; the third, what survives, is this course's own reading of what each leaves standing, and it says to hold that loosely. Media multitasking damages attention: a hundred and eighteen assessments, overall small, and the performance half fails a publication-bias correction. What survives is the self-report association, consistently. The phone's mere presence drains cognitive capacity: twenty-two studies, a pooled effect size of minus nought point one four, memory yes, attention crossing zero, null in North American samples. What survives is a small pooled effect in memory and the authors' recommendation of caution. Attention can be trained: eighty-seven publications, no convincing far transfer against treated controls. What survives is large near transfer, which is not what anybody is buying.
 
 S2: In all three cases something survives.
 
-S1: And in all three it's narrower than the claim it came from. None of the three is a fraud and none of them is what it's sold as. That third column is this course's own reading, and the lesson says to hold it loosely.
+S1: And in all three it's narrower than the claim it came from. None of the three is a fraud and none of them is what it's sold as.
 
 S2: What do they have in common?
 
@@ -96,6 +105,6 @@ S1: In each case the synthesis is more informative than the original study, and 
 
 S2: What's in the lesson that we haven't touched?
 
-S1: What to do when somebody hands you one of the three trade books, none of which this course has opened; a checkpoint that turns the course's method on the course and says which of its own claims to hold most loosely, which turns out to be its own constructive hour; three things people believe about this literature; an exercise that traces one claim in twenty minutes with five endings that all count; and a last exercise that takes one working arrangement of yours and asks you to change it, keep it deliberately, or stop deciding about it, with what each costs. The full lesson is at Foval Learning Institute dot org.
+S1: What to do when somebody hands you one of the three trade books, none of which this course has opened; a checkpoint that turns the course's method on the course and says which of its own claims to hold most loosely, which turns out to be its own constructive hour; the second of the three things people believe about this literature, that the science says, and why naming the instrument, the synthesis and the population usually collapses that sentence into something narrower and more useful; an exercise that traces one claim in twenty minutes with five endings that all count; and a last exercise that takes one working arrangement of yours and asks you to change it, keep it deliberately, or stop deciding about it, with what each costs. The full lesson is at Foval Learning Institute dot org.
 
 S2: Thanks for listening. That's the course.
