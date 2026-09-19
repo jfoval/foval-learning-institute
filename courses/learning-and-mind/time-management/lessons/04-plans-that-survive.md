@@ -1,6 +1,7 @@
 ---
 title: Plans that survive the moment
 minutes: 95
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/learning-and-mind/time-management/04-plans-that-survive.mp3
 objectives:
   - >-
     Distinguish a goal intention from an implementation intention, and write one of each for the
