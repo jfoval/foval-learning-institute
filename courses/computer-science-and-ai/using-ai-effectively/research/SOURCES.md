@@ -3,12 +3,12 @@
 *Stage 1 research, 2026-09-18. Written before any lesson is drafted. For each source: what it is good
 for, what it establishes, and how much of it was actually read.*
 
-<!-- unread: Jurafsky, Martin, Russell, Norvig -->
+<!-- unread: Jurafsky (except 02), Martin (except 02), Russell, Norvig -->
 
 **How to read the "read" labels below.** Every entry says whether it was read in full, in part, at
 abstract level, or not opened. That label is a ceiling, not decoration: a lesson may not lean on a
 source further than its label allows, and `npm run validate` fails on a lesson citing anything named
-in the `unread:` line above. Four names are there, and they are the two textbooks. Most are named because the work's *result* was
+in the `unread:` line above. Four names are there and they are the two textbooks, with one exemption: **chapter 2 of Jurafsky and Martin was read in full on 2026-09-18**, so lesson 2 may cite it and no other lesson may cite the book. That exemption keys to a lesson number rather than to a chapter, which is a known gap in the mechanism; a lesson 2 citing chapter 7 would pass the check and would be wrong. Most are named because the work's *result* was
 read through a reliable route (the authors' own abstract page, an author's own written account of
 their study, a publisher's table of contents) while the work itself was never opened. **If a lesson
 needs one of them, open it first and move it out of that line**, which is what happened to
@@ -30,21 +30,45 @@ it may already be wrong.
 ## Canonical textbooks
 
 - **Dan Jurafsky and James H. Martin, *Speech and Language Processing*, 3rd edition draft (current
-  draft dated 19 August 2026, free at web.stanford.edu/~jurafsky/slp3/).** **Not opened**; the
-  authors' own page and its full table of contents were read directly. This is the canonical
-  textbook of the field and the third edition has been rebuilt around language models: Volume I is
-  now titled *Large Language Models* and runs 1. Introduction, 2. Words and Tokens, 3. N-gram
-  Language Models, 4. Logistic Regression and Text Classification, 5. Embeddings, 6. Neural
-  Networks, 7. Transformers and Pretraining, 8. Post-training. Volume II adds 9. Masked Language
-  Models, 10. Interpretability, 11. Information Retrieval and RAG, 12. Agents (marked not yet
-  written), and then the older speech and translation material. Best for: the **sequencing**. The
-  book puts tokens second, before anything else, and puts post-training in its own chapter
-  immediately after pretraining, which is the shape this course should borrow: a learner who has
-  never heard of a token cannot understand why the system cannot count letters, and a learner who
-  thinks a model is only its pretraining cannot understand why it declines things. Worst for: our
-  actual purpose, since it is a graduate text with mathematics on every page and no interest in how
-  to get work out of one of these systems. Take the order and leave the contents. The free draft is
-  also the right "go deeper" link for the mechanism lesson.
+  draft dated 19 August 2026, free at web.stanford.edu/~jurafsky/slp3/).** **Chapter 2, "Words and
+  Tokens", read in full and directly. The rest of the book is not opened**; its table of contents was
+  read from the authors' own page. This is the canonical textbook of the field and the third edition
+  has been rebuilt around language models: Volume I is now titled *Large Language Models* and runs
+  1. Introduction, 2. Words and Tokens, 3. N-gram Language Models, 4. Logistic Regression and Text
+  Classification, 5. Embeddings, 6. Neural Networks, 7. Transformers and Pretraining, 8.
+  Post-training. Volume II adds 9. Masked Language Models, 10. Interpretability, 11. Information
+  Retrieval and RAG, 12. Agents (marked not yet written), and then the older speech and translation
+  material.
+
+  **The sequencing is the first thing to take.** The book puts tokens second, before anything else,
+  and gives post-training its own chapter straight after pretraining. That is the shape this course
+  borrows: a learner who has never heard of a token cannot understand why the system struggles to
+  count letters, and a learner who thinks a model is only its pretraining cannot understand why it
+  declines things.
+
+  **What chapter 2 gives lesson 2, and it is the only source in this file that can give it.** The
+  book is explicit that the word has been repurposed: "we now try to reserve the word token instead
+  to mean the output of subword tokenization algorithms." A subword is what it sounds like: "modern
+  tokenizers automatically induce sets of tokens that include tokens smaller than words, called
+  subwords", and "In modern tokenization schemes, many tokens are words, but other tokens are
+  frequently occurring morphemes or other subwords like -er." The purpose is stated plainly, which
+  is handling words the system has never seen: "Every unseen word can thus be represented by some
+  sequence of known subword units. For example, if we had happened not to ever see the word lower,
+  when it appears we could segment it successfully into low and er which we had already seen." And
+  the limiting case is the one a lesson should print, because it shows the whole idea: "In the worst
+  case, a really unusual word (perhaps an acronym like GRPO) could be tokenized as a sequence of
+  individual letters if necessary."
+
+  The chapter names the two algorithms in current use, **byte-pair encoding** (Sennrich et al. 2016;
+  Gage 1994) and **unigram language modelling** (Kudo 2018), and works BPE through by hand on a small
+  corpus. **A Foundation lesson should not teach the algorithm**, and it should take from it the one
+  fact that does the work: the pieces the system operates on are chosen by frequency in text, so they
+  are neither letters nor reliably words, and no step in the process ever counts a letter.
+
+  Worst for our purpose: everything else. It is a graduate text with mathematics on most pages and no
+  interest in getting work out of these systems. Take chapter 2, take the ordering, leave the rest,
+  and link the free draft as the go-deeper for the mechanism lesson.
+
 - **Stuart Russell and Peter Norvig, *Artificial Intelligence: A Modern Approach* (4th ed., 2021).**
   **Not opened and not consulted beyond knowing what it is.** It is recorded here so the next
   researcher does not go looking: it is the standard undergraduate AI survey, it long predates this
