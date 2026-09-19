@@ -144,7 +144,15 @@ it may already be wrong.
   presentation: eight worked exemplars in the prompt took a 540-billion-parameter model to
   state-of-the-art accuracy on GSM8K grade-school maths word problems, beating a fine-tuned GPT-3
   with a verifier. Best for: the one prompting technique with a clean published result behind it,
-  and the honest framing of what it is. **Two cautions for the drafter.** The paper's own claim is
+  and the honest framing of what it is.
+
+  **The result sentence, verbatim, because lesson 5 quotes it:** "prompting a 540B-parameter language
+  model with just eight chain of thought exemplars achieves state of the art accuracy on the GSM8K
+  benchmark of math word problems, surpassing even finetuned GPT-3 with a verifier." **The abstract
+  does not name the model**, only its size, so a lesson citing it cannot meet decision 2's
+  model-name convention from this source and should say so rather than imply the name is known here.
+
+  **Two cautions for the drafter.** The paper's own claim is
   that the ability "emerge[s] naturally in sufficiently large language models", so it is a result
   about scale as much as about wording, and the 2022 models it measured are not the ones a learner
   will use. And the technique has since been absorbed: current systems often produce steps without
@@ -248,6 +256,15 @@ it may already be wrong.
   answer even when the answer itself is incorrect." **That last sentence is the one that decides how
   this course teaches chain-of-thought**, and a lesson that teaches "ask it to show its working"
   without it is teaching half a thing.
+
+  **Three more sentences from §2.2 that lesson 7 needs, recorded so a reviewer can check them.** On
+  where it bites hardest: "This dynamic is particularly relevant when it comes to open-ended prompts
+  for long-form responses and in domains which require highly contextual and/or domain expertise."
+  On why fluency does the damage: "Risks from confabulations may arise when users believe false
+  content -- often due to the confident nature of the response -- leading users to act upon or
+  promote the false information." And on justification: "GAI outputs may also include confabulated
+  logic or citations that purport to justify or explain the system's answer, which may further
+  mislead humans into inappropriately trusting the system's output."
 
   **On the word itself.** A NIST footnote records that "some commenters have noted that the terms
   'hallucination' and 'fabrication' anthropomorphize GAI, which itself is a risk related to GAI
@@ -602,6 +619,15 @@ learners cannot read anybody else's writing on the subject.
   worked example in which "NEVER use ellipses" is improved by explaining that the text will be read
   aloud; **use examples**, three to five, relevant and varied; and **structure the prompt** so that
   instructions, context and input are distinguishable.
+
+  **The three example criteria, verbatim, because lesson 5 quotes one of them.** The page gives them
+  as a list: "**Relevant:** Mirror your actual use case closely." "**Diverse:** Cover edge cases and
+  vary enough that Claude doesn't pick up unintended patterns." "**Structured:** Wrap examples in
+  `<example>` tags (multiple examples in `<examples>` tags) so Claude can distinguish them from
+  instructions." The count sits in a separate tip: "Include 3-5 examples for best results."
+  **Note that the third criterion is about XML tags**, which an ordinary chat user does not write, so
+  a Foundation lesson should take the principle, which is that examples must be distinguishable from
+  instructions, and not the mechanism.
 
   **The ellipses pair, verbatim, because a lesson quotes it and a reviewer must be able to check it.**
   The weaker instruction is "NEVER use ellipses". The improved one is "Your response will be read
