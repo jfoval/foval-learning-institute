@@ -1,6 +1,6 @@
 ---
 title: How long it takes, and what happens when you miss
-minutes: 80
+minutes: 90
 objectives:
   - >-
     State what has been measured about how long habit formation takes, with its range, its scope,
@@ -62,22 +62,23 @@ quiz:
     explain: >-
       It is an observation from a self-help book, and the words reported are "a minimum of about 21
       days", with the qualifier lost along the way. No study produced it, so there is nothing for
-      later work to have superseded. The fastest individual in the 66-day study was 18 days, not 21.
-      And it predates that study by half a century.
+      later work to have superseded, and no unpublished training programme behind it either: the
+      trail ends in a preface. And the fastest individual in the 66-day study was 18 days, not 21,
+      in a study published half a century later.
   - q: >-
-      Two people each do a daily behaviour for seventy days. One performed it 64 times, the other
-      31. What does the research let you say about them?
+      Two people each keep a daily behaviour going for eight weeks. One performed it 50 times, the
+      other 22. What does the research let you say about them?
     options:
-      - The first has had roughly twice the repetitions, and repetitions are what build it
-      - Both have had seventy days, so both should be near the plateau by now
+      - The first has had more than twice the repetitions, and repetitions are what build it
+      - Both have had eight weeks, so both of them should be near the plateau by now
       - Neither can be assessed, because the study reported averages rather than individuals
-      - The second has missed too often, so the association will not have built at all
+      - The second has missed too often for the association to have built at all yet
     answer: 0
     explain: >-
       The pairing of cue and response is the thing that accumulates, so two identical stretches of
-      calendar can contain very different amounts of learning. The seventy-days answer is exactly
+      calendar can contain very different amounts of learning. The eight-weeks answer is exactly
       the error the days-are-not-repetitions point exists to stop. Saying nothing has built
-      overstates it, since 31 pairings is real learning. And individual curves were modelled in that
+      overstates it, since 22 pairings is real learning. And individual curves were modelled in that
       study, so individuals are not off limits.
   - q: >-
       On the curve the study reported, when do the largest gains in automaticity happen?
@@ -95,7 +96,7 @@ quiz:
       was described, though individuals varied in level and speed.
 ---
 
-This is the lesson the course was built to deliver, and the reason's one sentence in a three-page
+This is the lesson the course was built to deliver, and the reason is one sentence in a three-page
 paper written for doctors. Almost nothing you will read about habits contains it.
 
 Before that, the number you have certainly met.
@@ -105,7 +106,7 @@ Before that, the number you have certainly met.
 **A note about read level first, because it governs the rest of the lesson.**
 
 The study everybody quotes is Lally, van Jaarsveld, Potts and Wardle, published in the *European
-Journal of Social Psychology* in 2010. **This course hasn't opened it.** It sits behind a paywall
+Journal of Social Psychology* in 2010.[3] **This course hasn't opened it.** It sits behind a paywall
 that could not be got past, so every figure below is reported at one remove, from two open-access
 papers that have Phillippa Lally as an author and that describe her own study.[1][2]
 
@@ -114,7 +115,7 @@ the person who ran it. But it is not the same thing, and a course that asks you 
 claims come from should say where its own stand.
 
 **The design.** Ninety-six volunteers each chose an eating, drinking or activity behaviour to do
-daily in the same context, and were followed for twelve weeks.[1] Each day they recorded whether
+daily in the same context, and were followed for twelve weeks.[1][2] Each day they recorded whether
 they had done it and rated how automatic it felt. Eighty-two provided enough data to analyse. Curves
 were fitted for sixty-two of them, of whom thirty-nine fitted well.[2]
 
@@ -132,7 +133,12 @@ plateau".[1]
 The first fortnight should feel like more progress than the sixth, not because you are losing
 momentum but because that's what the curve does.
 
-| Stage | What is happening | How it feels |
+**The table below is this course's own rendering of that shape**, and the two columns are not on the
+same footing.[5] The middle column restates the measured curve. **The right-hand column is what this
+course infers it would feel like from the inside, and nothing in the studies measured how any of it
+felt.**
+
+| Stage | What is happening (measured) | How it might feel (inferred) |
 |---|---|---|
 | The first repetitions | Largest gains in automaticity | Effortful, and noticeably easier each time |
 | The middle | Gains continuing but smaller | Easier, and apparently stalling |
@@ -168,19 +174,19 @@ if you never miss, and nobody does not miss.
 
 The researchers say this outright in their guidance to other researchers. One of their criteria for
 a well-run habit study is that it "should not infer effects of repetition from measures of time".[2]
-They spell out the reason: even for a once-daily activity, plotting habit against time "will
-overlook missed performances".[2]
+The reason, in this course's words rather than theirs, is that days are not repetitions: a day the
+behaviour did not happen is still a day, so a graph plotted against time counts it as progress.[2]
 
 ### Worked: two people, seventy days
 
-**Both cases are constructed.**[4]
+**Both cases are constructed.**[5]
 
 **Asha** picks a cue she meets every day and does the behaviour on 64 of the next 70 days.
 
 **Ben** picks the same behaviour and a cue he meets about four days in seven. He does it on 31 of
 the 70.
 
-**Both of them have "done seventy days".** If either's counting on a calendar, they're at the same
+**Both of them have "done seventy days".** If either is counting on a calendar, they're at the same
 place. If you ask how many times the cue and the response have occurred together, one has had more
 than twice as much learning as the other.
 
@@ -195,7 +201,7 @@ Outside a study, nobody's calendar is that clean.
 
 ## What happens when you miss a day
 
-Here is the sentence, and it is the reason this lesson exists in this position in the course.
+The sentence that follows is the reason this lesson sits where it does in the course.
 
 **"Missing the occasional opportunity to perform the behaviour did not seriously impair the habit
 formation process: automaticity gains soon resumed after one missed performance."**[1]
@@ -207,10 +213,10 @@ from about where it was.
 that a broken streak is a failure, that you are back at the beginning, that consistency means never
 missing.
 
-**None of that's in the research**, and one part of it is contradicted by the only study that has
-looked properly at within-person missed performances.[2]
+**None of that is in the research**, and one part of it is contradicted by the one study this course
+has read on the question.[1]
 
-:::checkpoint So does this mean it does not matter whether you miss days? Somebody could take this lesson as permission to be irregular, and that would be a strange thing for it to teach.
+:::checkpoint So does this mean it does not matter whether you miss days? Somebody could take this lesson as permission to be irregular.
 It would, and the finding does not say that. Two things keep it in bounds, and the second is the
 important one.
 
@@ -237,7 +243,7 @@ actually costs you everything you have built.
 The other number, and this is the course's worked provenance case.
 
 **Twenty-one days does not come from a study.** As far as this course can establish, and it holds
-this at the level of a search summary because **the book has not been opened**,[3] it comes from
+this at the level of a search summary because **the book has not been opened**,[4] it comes from
 *Psycho-Cybernetics*, published in 1960 by Maxwell Maltz, a plastic surgeon who wrote a self-help
 book.
 
@@ -267,11 +273,13 @@ hard to repeat.
 **"Twenty-one days."** Traced above. A 1960 self-help book, an observation about surgical patients,
 and "a minimum of about" lost in transmission.
 
-**"Sixty-six days."** Better, and still wrong as usually stated. An average, on 96 self-selected
+**"Sixty-six days."** Better, and still wrong as usually stated, and reported here at one remove
+from a paper this course has not opened. An average, on 96 self-selected
 volunteers doing self-chosen simple behaviours, with a range from 18 to a predicted 254, and simple
 actions plateauing sooner than elaborate ones.
 
-**"Miss a day and start again."** Contradicted by the one study that looked. Gains resumed.
+**"Miss a day and start again."** Contradicted by the one study this course has read on it. Gains
+resumed.
 
 **"It gets easier every day at the same rate."** The curve flattens instead. The stretch where it
 seems to have stalled is the stretch where you are closest to the plateau, which is an unfortunate
@@ -284,10 +292,12 @@ Take 20 minutes to set up, then about ten seconds a day for ten weeks.
 
 **This is modelled on a real instrument**, the tick sheet in Box 1 of the *British Journal of
 General Practice* paper this course keeps quoting, which is a sheet a doctor can hand to a
-patient.[1] It runs for ten weeks for the reason you now know: 66 days is about nine and a half.
+patient.[1] **The sheet's own text gives the ten weeks**, and the reason this course reads into it
+is the one you now know: 66 days is about nine and a half weeks.[5]
 
-1. **One behaviour**, small and daily. The study's participants chose things like drinking a glass of
-   water or taking a short walk.
+1. **One behaviour**, small and daily. The two examples the papers give are drinking water and
+   doing 50 sit-ups, and the first of those is much closer to what the study's participants mostly
+   picked.
 2. **One cue**, from lesson 3, tested against both bars: would you notice it tired, and do you meet
    it every day?
 3. **A grid**, seven columns and ten rows. A tick on every day you do it and nothing on days you do
@@ -361,8 +371,9 @@ puts this lesson's two numbers beside lesson 2's and asks you to read the whole 
    formation"](https://www.tandfonline.com/doi/full/10.1080/23311908.2022.2041277), *Cogent
    Psychology* 9:1, 2022, article 2041277. **Read in substantial part**, open access. Supports: the
    18-to-254 range; the numbers modelled and well-fitted; the quoted criterion that studies should
-   not infer effects of repetition from measures of time, and the quoted reason about overlooking
-   missed performances; and that within-person analyses of missed performances were undertaken.
+   not infer effects of repetition from measures of time; and the twelve-week follow-up and the
+   96 volunteers, which this source reports alongside source 1. **The gloss about a missed day
+   still being a day is this course's own and is unquoted in the body.**
 3. Phillippa Lally, Cornelia van Jaarsveld, Henry Potts and Jane Wardle, "How are habits formed:
    Modelling habit formation in the real world", *European Journal of Social Psychology* 40(6),
    2010, pages 998 to 1009. **Paywalled, and this course has not opened it.** It is the source of
@@ -377,5 +388,7 @@ puts this lesson's two numbers beside lesson 2's and asks you to read the whole 
    `research/SOURCES.md`.
 5. **Asha and Ben are constructed**, and so is every figure attached to them; the lesson says so
    where they appear. **The three-stage table of the curve is this course's own rendering** of the
-   asymptotic shape sources 1 and 2 describe, and the "how it feels" column is an inference from that
-   shape rather than anything measured.
+   asymptotic shape sources 1 and 2 describe, its right-hand column is an inference about how that
+   shape would feel rather than anything measured, and the table says both where it appears. **The
+   reading of Box 1's ten weeks as following from the 66 days is also this course's own**: the sheet
+   gives ten weeks, and the derivation is the lesson's.
