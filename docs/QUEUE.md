@@ -141,30 +141,20 @@ Rewrite these five lines each session. Nothing else goes in this block.
   of unwanted installs, because it is the source of 87% of installs. Safest per install, largest in
   absolute terms.
 
-- **The day's fifty renders are spent again, on 2026-09-18, and the window behaved as recorded.**
-  Four Bible Basics episodes went out over the day: 4 and 5 in the afternoon, then 6 and 7 in the
-  evening after a refusal at 17:03 had said 23h59m. **That refusal was not the whole day gone.** Two
-  slots freed inside four hours, which matches what this file already says about a rolling window,
-  and the two renders that used them passed the gate first time. The fifth attempt was refused at
-  **21h43m**, which is the real end of the day's allowance, and attempts 6 to 9 were refused in the
-  same second. **Nothing was billed for any refusal.** The debt is 9 down to 5, and $1.10 clears the
-  rest. A session opening after about 19:00 tomorrow has the whole allowance.
+- **The day's allowance is spent again, on 2026-09-19 at 21:45, and the window's shape is now
+  well established over three sessions.** Two more Bible Basics episodes went out this evening, 6
+  and 7, both one call, both passing the gate first time. The debt is 9 down to 5. Then nine
+  refusals in a row: 21h43m, and an hour later 21h14m. **Nothing is billed for a refusal**, which
+  is why trying four in a row costs four minutes and is worth doing rather than reasoning about.
 
-  **The shape worth carrying forward**, because two sessions have now seen it: a 23h59m or 21h43m
-  message means stop rendering for now, and a shorter one is worth waiting out. Trying four renders
-  in a row after a refusal costs four minutes and nothing else, which is why it is worth doing
-  rather than reasoning about. **The retry time is the thing to read**, and it moved during the
-  session in a way worth recording: a 429 at 17:03 said 1h57m, a render at 18:35 was served, a
-  second at 18:41 was served, and the next refusal said **23h59m**. So the window really is rolling,
-  a slot or two can free up inside a couple of hours at the edge of it, and when the whole day's
-  fifty are gone the message says so plainly. **A session that meets 23h59m should stop rendering
-  and spend the rest of itself on content**, which is what this one did. Nothing was billed for any
-  of the refusals.
+  **The rule that has held every time:** a refusal quoting twenty-something hours means stop
+  rendering and spend the session on content. A refusal quoting one or two hours is worth waiting
+  out, because slots free at the edge of the rolling window. On 2026-09-18 a 23h59m message at
+  17:03 was followed by two successful renders four hours later.
 
-  **`npm run state` cannot know this and will keep saying render.** That is correct behaviour for a
-  script that computes from the filesystem, and the queue is where the fact lives. Do not build it a
-  rate-limit file: a refused request costs a minute and no money, which is cheaper than the
-  bookkeeping.
+  **Using AI Effectively now owes eleven episodes too**, added to `curriculum/audio-debt.yaml` when
+  it published. Sixteen owed across two courses, and about $3.50 clears every one of them. A
+  session opening after about 19:00 has the whole day's fifty.
 
 - **The binding limit on audio is requests per day, not money, and that is new.** John opened
   [aistudio.google.com/rate-limit](https://aistudio.google.com/rate-limit) on 2026-09-18: the
