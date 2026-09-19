@@ -991,11 +991,14 @@ of those surnames. Four of them bite this outline directly:
   makes the product work and what makes it sellable. That is the gap between what people expect in an
   export and what arrives, and it is also why "I never posted anything" is not an answer.
 - **Worked examples:**
-  (a) *Simple:* one export requested and read, in front of the reader, with what arrived described
-  concretely: how long it took, how big it was, what format it was in, which parts were readable and
-  which were not. The reader runs their own on a service they use, using lesson 2 and 3's skills to
-  find and open what arrives, which is a quiet demonstration that the first half of the course is
-  needed by the second.
+  (a) *Simple:* the promise against the finding. Google's own documentation says how long an archive
+  takes, what formats it comes in, that it is split above a size you choose, that it expires in about
+  seven days and that it may be downloaded five times. Then what thirty-three people found when they
+  opened their own from five named services: that the questions they brought were often left
+  unanswered, and that one archive produced nostalgia and shock in the same sitting. **The gap
+  between those two paragraphs is the worked example**, and neither half is invented. The reader then
+  runs their own, using lesson 2 and 3's skills to find and open what arrives, which is a quiet
+  demonstration that the first half of the course is needed by the second.
   (b) *With a wrinkle:* an activity record that contains something the reader did not know was kept,
   and the decision that follows. Turning it off usually costs a feature. The reader makes the trade
   explicitly, writes down what they gave up, and the lesson refuses to make the choice for them, per
@@ -1011,11 +1014,13 @@ of those surnames. Four of them bite this outline directly:
   you gave up and what you gained, by reference to your lesson 1 threat model.
 - **Sources:** Kang et al. 2015 (read in full) for the copies-and-deletion finding; the services' own
   export and privacy documentation, which is primary for what a given service does and gets dated;
-  the European and US legal positions, named as such. **Stage 1 gate: SOURCES records this as the
-  thinnest-researched outcome in the course. Before this lesson is drafted, Stage 1 must run a real
-  data export end to end and record what arrived, and should open at least one of the privacy
-  dashboard papers named in SOURCES' open concerns.** If the papers cannot be obtained, the lesson
-  still stands on the learner's own export and makes no prevalence claims about dashboards in general.
+  the European and US legal positions, named as such. **Stage 1 gate: discharged on 2026-09-19, and the gate
+  itself was rewritten.** It used to require a session to run a real data export end to end. That was
+  wrong three ways: it demanded primary fieldwork no other lesson in this repo requires, one export
+  is a sample of one, and it would have put the author's own archive into a public privacy lesson.
+  **What discharges it instead is what SOURCES now holds**: Google's own documentation for what is
+  promised, read directly and dated, and three studies for what people find when they open one, read
+  at abstract level. The worked example below is built from those rather than from one archive.
 - **Connects:** completes the course. Uses 1 (threat model), 2 and 3 (finding and opening what
   arrives), 7 (who was in the path to begin with), 8 (what the private window did not stop) and 12
   (copies, now somebody else's).

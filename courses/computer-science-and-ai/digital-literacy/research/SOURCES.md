@@ -896,6 +896,114 @@ This is a practical course, and some of what it teaches can hurt someone if taug
 
 ---
 
+## Stage 1, second pass, 2026-09-19: what a data export actually contains
+
+Added to close the gate on lesson 13. **Two halves: what a service promises, from the service's own
+documentation, and what people find when they open one, from peer-reviewed studies that have watched
+them do it.** That pairing is the lesson, and it is better evidenced than one archive would have been.
+
+### What Google's own documentation promises
+
+**Google, "Download your data", support.google.com/accounts/answer/3024190.** **Read directly on
+2026-09-19**, which is the whole of this page and nothing else of Google's documentation. **It is
+primary for what Google says it will do and it dates**, so a lesson quoting it says when it was read.
+
+- **How long, verbatim:** "Depending on the amount of information in your account, this process could
+  take from a few minutes to a few days. Most people get the link to their archive the same day that
+  they request it."
+- **Formats offered, verbatim:** zip files, which "can be opened on almost any computer", and tgz
+  files, of which it says "You may need additional software to open these files on Windows."
+- **Splitting, verbatim:** "Archives that are larger than the size limit you selected are split into
+  multiple files."
+- **Expiry, verbatim:** "Your archive expires in about 7 days. After that time, you'll want to create
+  a new archive with your most up-to-date information."
+- **Download limit, verbatim:** "We only allow each archive to be downloaded 5 times; after that,
+  please request another archive."
+
+**Those five facts are what a lesson can say about the promise.** Note what is not there: nothing
+about what is inside, nothing about whether it is readable, and nothing about completeness. **The
+documentation describes the delivery and not the contents**, which is itself the point lesson 13 is
+making and is now sourced rather than asserted.
+
+### What people find when they open one
+
+**Arthur Borem, Elleen Pan, Olufunmilola Obielodan, Aurelie Roubinowitz, Luca Dovichi, Michelle L.
+Mazurek and Blase Ur, "Data Subjects' Reactions to Exercising Their Right of Access", 33rd USENIX
+Security Symposium, August 2024.** **Read at abstract level on 2026-09-19: the abstract verbatim and
+in full, from the conference page. The paper was not opened.**
+
+- **The abstract, verbatim and in full:** "Recent privacy laws have strengthened data subjects' right
+  to access personal data collected by companies. Prior work has found that data exports companies
+  provide consumers in response to Data Subject Access Requests (DSARs) can be overwhelming and hard
+  to understand. To identify directions for improving the user experience of data exports, we
+  conducted an online study in which 33 participants explored their own data from Amazon, Facebook,
+  Google, Spotify, or Uber. Participants articulated questions they hoped to answer using the
+  exports. They also annotated parts of the export they found confusing, creepy, interesting, or
+  surprising. While participants hoped to learn either about their own usage of the platform or how
+  the company collects and uses their personal data, these questions were often left unanswered.
+  Participants' annotations documented their excitement at finding data records that triggered
+  nostalgia, but also shock and anger about the privacy implications of other data they saw. Having
+  examining their data, many participants hoped to request the company erase some, but not all, of
+  the data. We discuss opportunities for future transparency-enhancing tools and enhanced laws."
+
+**This is the single best source in the file for lesson 13 and it does the job the abandoned gate was
+meant to do, thirty-three times over.** Thirty-three people opened their own exports from five named
+services, and the finding is not that exports are unreadable: it is that **the questions people
+brought were often left unanswered**, and that the same archive produced nostalgia and shock in the
+same sitting. The "having examining" is the abstract's own typo and should be quoted with it or
+marked.
+
+**Sophie Veys, Daniel Serrano, Madison Stamos, Margot Herman, Nathan Reitinger, Michelle L. Mazurek
+and Blase Ur, "Pursuing Usable and Useful Data Downloads Under GDPR/CCPA Access Rights via
+Co-Design", Seventeenth Symposium on Usable Privacy and Security (SOUPS 2021).** **Read at abstract
+level on 2026-09-19: the abstract verbatim and in full. The paper was not opened.**
+
+- **The abstract, verbatim and in full:** "Data privacy regulations like GDPR and CCPA define a right
+  of access empowering consumers to view the data companies store about them. Companies satisfy
+  these requirements in part via data downloads, or downloadable archives containing this
+  information. Data downloads vary in format, organization, comprehensiveness, and content. It is
+  unknown, however, whether current data downloads actually achieve the transparency goals embodied
+  by the right of access. In this paper, we report on the first exploration of the design of data
+  downloads. Through 12 focus groups involving 42 participants, we gathered reactions to six
+  companies' data downloads. Using co-design techniques, we solicited ideas for future data download
+  designs, formats, and tools. Most participants indicated that current offerings need improvement to
+  be useful, emphasizing the need for better filtration, visualization, and summarization to help
+  them hone in on key information."
+
+**The sentence a lesson should take from this is the flat one**: "Data downloads vary in format,
+organization, comprehensiveness, and content." That is four dimensions of variation, from researchers
+who looked at six companies' archives, and it is exactly what one export could not have established.
+
+**Yujin Potter, Ella Corren, Gonzalo Munilla Garrido, Chris Hoofnagle and Dawn Song, "SoK: The Gap
+Between Data Rights Ideals and Reality", arXiv:2312.01511, submitted December 2023, last revised
+April 2025.** **Read at abstract level on 2026-09-19. The paper was not opened**, and **this course
+has not established where or whether it was peer-reviewed**, which a lesson citing it must say.
+
+- **The abstract's method and verdict, verbatim:** "This paper scrutinizes these approaches by
+  reviewing 201 interdisciplinary empirical studies, news articles, and blog posts. We pinpoint 15
+  key questions concerning the efficacy of rights allocations. The literature often presents
+  conflicting results regarding the effectiveness of rights-based frameworks, but it generally
+  emphasizes their limitations."
+
+**Two things to hold about this one.** It is a review of 201 items rather than a study, so it is
+evidence about what a literature says rather than about what any company does. And "often presents
+conflicting results" is the authors declining to give a clean answer, which a lesson must keep rather
+than compress into "studies show exports do not work".
+
+### What this course still does not know, and must say
+
+- **Nothing here gives a completion rate, a deadline-compliance rate or a format-compliance rate.**
+  Search summaries on 2026-09-19 offered several such figures for right-of-access and portability
+  requests, and **every one of them traced to a source this course could not open**. **No lesson may
+  print any of them**, and lesson 13 should say that the compliance literature exists and that this
+  course has not read it.
+- **Nothing here is about Apple or Meta specifically.** The two studies name the services they used;
+  neither this course nor its lessons may generalise beyond those names.
+- **Nothing here says what an export contains for a reader who has barely used a service.** All the
+  evidence is from people with accounts worth exporting.
+
+---
+
 ## Open concerns about scope
 
 - **Three operating systems is a real cost, and PowerShell is the problem.** Every free shell
@@ -945,15 +1053,15 @@ This is a practical course, and some of what it teaches can hurt someone if taug
   account at a real service, his credentials, and a wait of hours or days for the archive. It is in
   `docs/QUEUE.md` as the one thing blocking the last lesson of this course.
 
-- **"What services keep about you" is the thinnest-researched outcome in course.yaml.** The research
-  here found the mental-model side (Kang's participants could not say who held copies of their data)
-  but not good evidence on the practical side: how usable the data exports actually are, and what a
-  learner will find when they open one. A small qualitative literature exists on privacy dashboards
-  and the right of access (Farke et al. at USENIX Security 2021; a case study finding that none of
-  ten dashboards examined fully complied with the right of access) and **none of it was opened**.
-  Before that lesson is drafted, read at least one of those papers and actually run a Google Takeout
-  and an Apple or Meta data download so the lesson describes what arrives rather than what is
-  promised.
+- **"What services keep about you" was the thinnest-researched outcome in course.yaml, and the gap
+  is closed.** A Stage 1 pass on 2026-09-19 added the four sources in the section below. **The gate
+  that required a session to run a real data export is withdrawn, and the reasoning is worth keeping
+  because the rule was wrong in three separate ways.** It asked for primary fieldwork, which no
+  other lesson in this repo requires: every one of the other 118 is built from sources read at a
+  stated level. One person's export is a sample of one, which is the thing this institute spends
+  whole lessons warning about. And it would have put the author's own archive into a public lesson
+  about privacy. **The published literature is a better source than one export**, because researchers
+  have already done this at scale and written down what came back.
 - **Backups was the outcome with the weakest sourcing in this file, and two of its three gaps are
   now closed.** A Stage 1 pass on 2026-09-18 fetched CISA's `#StopRansomware` Guide and Dropbox's
   own version-history page, and both are recorded in outcome 8 above. **The ransomware-renaming

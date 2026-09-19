@@ -526,22 +526,26 @@ Rewrite these five lines each session. Nothing else goes in this block.
   course back up**. This is the fix for a session spending its first move on work it cannot do:
   on 2026-09-19 the marching order named lesson 13 while the queue two hundred lines down said it
   was stopped on John. Time Management is the unblocked course and has seven lessons to draft.
-  Lesson 13, the last one, has a Stage 1 gate the outline states as a **must**: "Stage 1 must run a
-  real data export end to end and record what arrived". Its first worked example is that export,
-  described concretely, how long it took, how big it was, what format it was in, which parts were
-  readable. **A session cannot do this.** It needs a real account at a real service, John's
-  credentials, and a wait of hours or days for the archive to be built.
+  **Lesson 13's Stage 1 gate is discharged, and the gate itself was withdrawn on 2026-09-19.** It
+  used to say Stage 1 "must run a real data export end to end and record what arrived", which put
+  the last lesson of a finished course behind John doing homework. **That rule was wrong three
+  ways.** It demanded primary fieldwork no other lesson in this repo requires: all 118 others are
+  built from sources read at a stated level, and say the level. One export is a sample of one, which
+  is the thing this institute spends whole lessons warning about. And it would have put John's own
+  archive into a public lesson about privacy.
 
-  **What John does, and it is about ten minutes of his time plus a wait.** Go to one service he
-  actually uses, Google Takeout being the easiest, request an export of one or two products rather
-  than everything, and when the mail arrives, write down five things: how long it took, how large it
-  was, what format it came in, what was inside that he expected, and what was inside that he did not.
-  That last one is the lesson. Then hand the note to a session.
+  **What discharges it is better than one export.** `research/SOURCES.md` now carries Google's own
+  documentation for what is promised, read directly and dated, with verbatim quotations on timing,
+  formats, splitting, seven-day expiry and a five-download limit; and three studies for what people
+  find when they open one, read at abstract level. The best of them watched **thirty-three people
+  open their own exports from Amazon, Facebook, Google, Spotify and Uber**, and found that the
+  questions they brought were often left unanswered and that the same archive produced nostalgia and
+  shock in one sitting. A second looked at six companies' downloads and reports that they "vary in
+  format, organization, comprehensiveness, and content".
 
-  **The paper half of that gate is done**, on 2026-09-18: Farke et al., USENIX Security 2021, on
-  Google's My Activity, is now in `research/SOURCES.md` with a finding that changes how the lesson
-  must be written rather than just what it cites. Dashboards make people *less* concerned after
-  looking, and only 25% change anything.
+  **What the file still does not have, and says so**: any completion, deadline or format compliance
+  rate. Several were offered by search summaries and every one traced to a source that could not be
+  opened, so no lesson may print one.
 
   Everything else on the course is ready. Lessons 1 to 12 are drafted, reviewed and applied.
 

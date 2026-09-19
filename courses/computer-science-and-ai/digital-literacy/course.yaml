@@ -8,8 +8,6 @@ status: drafting
 # stopped on John: the outline gates it on a real data export run end to end, which needs one of his
 # own accounts and a wait of hours or days. docs/QUEUE.md has what he does and what to write down.
 # Delete this line when the note arrives and the course is picked up again automatically.
-blocked: >-
-  lesson 13 needs John to run a real data export (Google Takeout) and note what arrived
 summary: >-
   Understand what the machine in front of you is actually doing, run a command without fear, and
   install, connect and protect things without guessing.
