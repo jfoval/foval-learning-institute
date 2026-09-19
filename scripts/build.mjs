@@ -806,6 +806,23 @@ function lintLessons() {
               if (published) STIFF.push({ file, n: contractions.length, words, per1000 });
               else warn.push(`${file}: ${contractions.length} contractions in ${words} body words (${per1000.toFixed(1)} per 1,000; this repo's lessons run 5 to 8). The style guide calls their absence "the fastest way to sound like a manual". [draft: fix before publishing]`);
             }
+            // The other end, added 2026-09-18. The floor above had only ever caught prose
+            // that reads like a manual, and a drafter told to fix it overshot: three
+            // consecutive Using AI Effectively drafts came in at 12.2, 15.4 and 17.4 per
+            // 1,000 while a fourth, written the same afternoon, sat at 0.0. Two separate
+            // reviews found the oscillation by hand and asked for a check rather than a
+            // third note, which is root CLAUDE.md rule 10.
+            //
+            // The ceiling is 14 rather than 8 on purpose. The band is where this repo's
+            // lessons sit, not a rule, and a lesson may legitimately run chattier than the
+            // average; 14 is comfortably clear of every published lesson and catches the
+            // overcorrection, which is the thing that actually happened. Published courses
+            // are exempt: this has never been a defect anybody shipped, and a warning on
+            // twenty live lessons would bury the drafts, which is the mistake the floor
+            // above already made once.
+            else if (per1000 > 14 && !published) {
+              warn.push(`${file}: ${contractions.length} contractions in ${words} body words (${per1000.toFixed(1)} per 1,000; this repo's lessons run 5 to 8). Overshooting the band reads as an overcorrection rather than as a voice. [draft: fix before publishing]`);
+            }
           }
         }
 

@@ -55,6 +55,13 @@ Rewrite these five lines each session. Nothing else goes in this block.
   were being used as though it had, and the same defect came back in lesson 9. Check
   `npm run taught` and the earlier lessons before assuming a word is available.
 
+- **The contraction check has a ceiling now, and it found four drafts on its first run.** It warns
+  above 14 per 1,000 body words on drafting courses only. The four: Digital Literacy lesson 11 at
+  18.1 and its machine-audit project at 22.8, and Using AI Effectively lessons 2 and 7 at 15.6 and
+  14.5. **None of them can publish yet**, so nothing is blocked, and the right time to fix each is
+  the next time somebody is in that file rather than a pass of its own. `docs/VERIFICATION.md`
+  carries the row and the reasoning.
+
 - **Both assessments are written, so lesson 13 is now the whole of what is left.** The machine
   audit and a 32-item course-end test are in `assessments/`, and the test carries a note saying
   lesson 13's two items are still to come. Nothing else on this course is outstanding.
