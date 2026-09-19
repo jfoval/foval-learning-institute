@@ -57,7 +57,12 @@ for (const cdir of fs.readdirSync(path.join(COURSES_DIR, school.name), { withFil
     // The marker can sit after a closing bold span, and a load-bearing quotation is often short.
     // Both were found by a Stage 4 review on 2026-09-19: the one quotation a whole course rested
     // on was invisible here because it was bolded, which is exactly why it was bolded.
-    for (const m of body.replace(/\*\*/g, "").matchAll(/["“]([^"“”]{25,})["”][.,;:]?\s*\[\d+\]/g)) {
+    // A quotation long enough to need a block quote wraps, and every continuation line then starts
+    // with "> ". Those markers are presentation, not wording, and leaving them in made three
+    // verbatim quotations of two real documents read as misses on 2026-09-19. Strip the marker
+    // from the start of every line before matching; norm() collapses the whitespace that is left.
+    const flat = body.replace(/\*\*/g, "").replace(/^>[ \t]?/gm, "");
+    for (const m of flat.matchAll(/["“]([^"“”]{25,})["”][.,;:]?\s*\[\d+\]/g)) {
       checked++;
       // A quoter legitimately moves the closing full stop inside the quotation marks and
       // capitalises the first letter of a passage they start mid-sentence. Neither is a change of
