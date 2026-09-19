@@ -1,6 +1,6 @@
 # Sources: Memory
 
-<!-- unread: Schacter, Loftus-trade, Foer -->
+<!-- unread: Schacter (except 07), Loftus-trade (except 07), Foer (except 07) -->
 
 *Stage 1 research, 2026-09-19. Written before any lesson is drafted. For each source: what it is good
 for and what it establishes. Where a passage is quoted below it was read in the original and checked
@@ -10,6 +10,10 @@ character by character; where it was not, the entry says so.*
 Loftus's own trade writing are the two books a reader will have met, and Foer's *Moonwalking with
 Einstein* is what they will have been told about memory techniques. **None was opened for this
 course**, and a lesson may name them as things that exist and must not cite one for a claim.
+**Lesson 7 is exempted on the line above**, because its "books you will be handed" section names all
+three and says the course opened none of them, which is the section the rule exists to make
+possible. The exemption keys to the lesson number rather than to the sentence, so a reviewer still
+has to check by eye that lesson 7 only names them.
 
 **Ebbinghaus is deliberately not on that line, and the reasoning is the precedent Time Management
 set with Parkinson and Habits set with Maltz.** The line exists to stop a course borrowing authority

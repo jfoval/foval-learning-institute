@@ -68,9 +68,9 @@ Rewrite these five lines each session. Nothing else goes in this block.
   blocked: the course is live without it.
 
 - **Memory is drafting.** Lessons 1 to 6 are written and the project is written. Lesson 1 has had
-  its Stage 4 review applied; lessons 2 to 5 are under review now; lesson 6 owes one. **Still to
-  write: lesson 7, the eighteen-item test, then publish and seven podcast scripts.** T2, fourth of
-  the term on running yourself.
+  its Stage 4 review applied; lessons 2 to 5 have been reviewed and the findings are being applied;
+  lessons 6 and 7 owe theirs. **Still to write: the eighteen-item test, then publish and seven
+  podcast scripts.** T2, fourth of the term on running yourself.
 
   **The project was written before lesson 7 rather than after it**, on the course-wide review's
   note: lesson 1's first exercise stakes an irreversible instruction on the project existing, and a
