@@ -167,6 +167,26 @@ it may already be wrong.
   reasoning and should label as such. The last clause is the one to keep: a model advertised as
   handling long contexts is not thereby a model that uses all of one evenly.
 
+- **Ziqi Yin, Hao Wang, Kaito Horio, Daisuke Kawahara and Satoshi Sekine, "Should We Respect LLMs? A
+  Cross-Lingual Study on the Influence of Prompt Politeness on LLM Performance", SICon 2024 (arXiv
+  2402.14531).** **Abstract read in full and directly; the paper was not opened.** The only measured
+  source in this file on a question every learner asks and no serious writing answers. Tasks in
+  **English, Chinese and Japanese**, prompts varied by politeness level. The finding, in the
+  authors' words: "impolite prompts often result in poor performance, but overly polite language
+  does not guarantee better outcomes. The best politeness level is different according to the
+  language."
+
+  **What a lesson may take from it.** That politeness is not a lever you turn up: the relationship
+  is not monotonic, and where the best point sits depends on the language you are writing in, which
+  is a result nobody predicts. **What it may not take.** Any claim that politeness makes no
+  difference at all, which the study contradicts at the rude end, and any claim about a particular
+  product today, since this is a 2024 measurement across a set of models the paper names and this
+  file has not read.
+
+  **Best used to close an argument rather than to open one.** A reader who wants to know whether to
+  say please has asked the wrong question, and the useful reframing is that anything which adds
+  context is doing the context job; "please" on its own adds none.
+
 - **Saurav Kadavath and 30 co-authors, "Language Models (Mostly) Know What They Know", 2022 (arXiv
   2207.05221).** **Abstract read in full; the paper was not opened.** The careful source on
   self-assessment. Larger models are well calibrated on multiple-choice and true-or-false questions,
@@ -580,6 +600,15 @@ learners cannot read anybody else's writing on the subject.
   worked example in which "NEVER use ellipses" is improved by explaining that the text will be read
   aloud; **use examples**, three to five, relevant and varied; and **structure the prompt** so that
   instructions, context and input are distinguishable.
+
+  **On role prompting**, which a course has to address because it is the commonest piece of advice
+  in circulation: the page has a short section for it, and what it claims is modest. Setting a role
+  "focuses Claude's behavior and tone for your use case", and "even a single sentence makes a
+  difference". Note what that is and is not. It is a claim about **tone and focus**, from the
+  vendor, about its own models, and it is not a claim that a role makes the system know more. It
+  also appears in the page's examples as a *system prompt*, which an ordinary chat user does not
+  set. **A Foundation lesson should say that a role is one way of supplying context and is not
+  magic**, and should not promise it improves accuracy, which this source does not claim.
 
   **Two cautions.** It is a vendor's guidance for its own models and carries an interest, which the
   course should name once rather than insinuate. And it is written for people building applications,
