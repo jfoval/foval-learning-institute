@@ -103,6 +103,8 @@ Two parts, and the second matters as much as the first.
 
 **The task you have kept and redesigned.** One task you still use a system for, changed so that you still do the part that builds the judgement. Say what the old shape was, what the new shape is, and what you are now doing yourself that you were not doing before.
 
+If there is no such task, because you have decided not to use one of these systems for anything, take a task you would use one for if you were going to, and design that shape now. Lesson 9's second exercise says why that is worth doing: it is the cheapest way to find out whether your objection is to the tool or to a particular way of using it, and it is an answer either way.
+
 Roughly 300 words.
 
 ## The rubric

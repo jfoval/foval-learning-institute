@@ -21,11 +21,12 @@ and it never feels that way while you are writing it.
 
 Rewrite these five lines each session. Nothing else goes in this block.
 
-- **Using AI Effectively has all eleven lessons drafted, and both assessments.** T1, sixth of
-  seven, status drafting. Stage 4 reviews are applied on lessons 1 to 8 and 11; **lessons 9 and 10
-  are the only two still owed a review**, and when those are applied and the voice pass is run, the
-  course publishes. Every review file is in `research/reviews/`; read `course-wide.md` plus the
-  file for the lesson you are touching before touching it.
+- **Using AI Effectively has all eleven lessons drafted, both assessments, all eleven Stage 4
+  reviews applied, the voice pass done and the neutrality audit done.** T1, sixth of seven, status
+  drafting. **The audit passed and the course may publish**; its entry is the last one in
+  `research/reviews/course-wide.md` and it lists what it checked so nothing is re-checked. Every
+  review file is in `research/reviews/`; read `course-wide.md` plus the file for the lesson you are
+  touching before touching it.
 
   **Six defects recurred across four or more lessons of this course and are now drafting defects
   rather than lesson defects.** They are in `.claude/commands/draft-lesson.md`. The two worth
@@ -46,17 +47,37 @@ Rewrite these five lines each session. Nothing else goes in this block.
   quarantined there so that a future session can bring the course up to date without re-opening ten
   lessons. Do not spread dated claims back through the others.
 
-  **All eleven lessons are reviewed and the voice pass is done.** What is left before it publishes:
-  the neutrality audit, which `sensitive_domain: true` makes mandatory, and then the status change
-  in `course.yaml` and the TAXONOMY row together, with the lesson count added to
+  **The neutrality audit is done and it passed**, so what is left before it publishes is the status
+  change in `course.yaml` and the TAXONOMY row together, with the lesson count added to
   `curriculum/audio-debt.yaml` in the same commit. Then eleven podcast scripts, which cost nothing
   and are what takes the course from published to written.
+
+  **One voice item the audit found and did not fix, because rule 9 says an audit records rather
+  than rebuilds.** Five lessons sit above the repo's 5 to 8 contraction band, measured by the
+  validator's own method: lesson 1 at 13.5, lesson 3 at 12.2, lesson 4 at 11.2, lesson 5 at 11.3
+  and lesson 6 at 9.6. All are under the validator's ceiling of 14, so `npm run validate` exits 0,
+  and lesson 1 is half a point from tripping it. This is the oscillation lessons 3 and 5 both
+  recorded and neither closed, and lesson 6 has drifted back up from the 7.6 its review measured.
+  **One `/voice-pass` sitting across those five, and it does not block publishing.**
 
   **One scope question is John's and is not urgent.** The course deliberately leaves out the ethics
   of training data, copyright and the labour questions, on the grounds that they are a different
   course. A reader may reasonably expect a course called Using AI Effectively to say something about
   whether using one is a defensible thing to do. The outline flags it under "What is deliberately
-  left out"; nothing is blocked either way.
+  left out"; nothing is blocked either way. The neutrality audit widened lesson 1's exclusion
+  paragraph so that energy, water and bias in the outputs are at least named alongside copyright
+  and jobs, with NIST's twelve risks pointed at, which answers the omission without taking the
+  scope decision away from John.
+
+  **A second question is John's, and it is bigger than this course.** Nothing in `site/`,
+  `README.md` or `docs/VALUES.md` says that the institute's lessons are written by an AI. That is a
+  repo-wide question, and **Using AI Effectively is where it bites hardest**: the course cites a
+  vendor's own documentation as a primary source, it teaches readers to ask who is making a claim,
+  and it was written by that vendor's model. `docs/SOURCE_NOTES.md`'s standing rule is that a
+  declared interest is stated once rather than insinuated, and the course applies that rule to
+  Anthropic's guidance in lesson 4 and not to its own authorship. This changes what the institute
+  claims about itself, so under root rule 8 it is John's decision and not a drafter's. Nothing is
+  blocked: the audit passed without it.
 
 - **Digital Literacy lessons 1 to 12 are drafted, reviewed, applied and scripted.** The only
   content work left on the course is lesson 13, which is blocked on John below. **Read lesson 8's

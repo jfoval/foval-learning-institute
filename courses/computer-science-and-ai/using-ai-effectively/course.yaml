@@ -15,7 +15,8 @@ description: >-
   likely, how to check an answer you could not have produced yourself, and the failure modes that
   are properties of the machinery rather than bugs somebody will fix next year. It is written for
   somebody who uses these tools for real work, or who is required to and would rather not, and it
-  is against both trusting everything and refusing to look. It names no product and recommends
+  is against both trusting everything and refusing to look at how any of it works. Whether to use
+  one at all is a decision it describes and does not make. It names no product and recommends
   none. Every claim about what these systems can and cannot do carries the model and the date,
   because this is the fastest-moving subject the institute teaches and the course would rather be
   checkable than current.

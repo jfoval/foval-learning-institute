@@ -73,20 +73,22 @@ quiz:
       answer. And choosing between three answers is a judgement about answers rather than the work
       the answers replaced.
   - q: >-
-      A colleague says the study shows these systems are bad for education and should be kept out of
-      schools. What is wrong with that reading?
+      A colleague says the study shows these systems are bad for education. What is wrong with that
+      reading of it?
     options:
       - Nothing is wrong with it; a 17% deficit is a serious result and that is the obvious conclusion
       - The same study's guarded tutor produced the largest gain of all, so the finding is about design
-      - The study is too small to support a policy conclusion, since a thousand students is one school
+      - The study is too small to support a conclusion of any kind, since a thousand students is one school
       - The result was about practice grades rather than about examinations, so it does not transfer
     answer: 1
     explain: >-
       The 127% is in the same paper as the 17%, and it is what turns a verdict on the technology into
-      a question about how it is used. The too-small answer misdescribes a study of nearly a thousand
-      students. The practice-grades answer is wrong on the facts, since the deficit was measured when
-      access was removed. And the obvious-conclusion answer carries one of the study's numbers and
-      leaves the other.
+      a question about how it is used. What a school should then do about it is a further question,
+      about policy and about what teachers can supervise, and neither the study nor this course
+      answers that. The too-small answer misdescribes a study of nearly a thousand students. The
+      practice-grades answer is wrong on the facts, since the deficit was measured when access was
+      removed. And the obvious-conclusion answer carries one of the study's numbers and leaves the
+      other.
   - q: >-
       A trainee decides he will use a system for the parts of his job he already understands, and do
       the rest himself. What is the weakness in that rule?
@@ -209,7 +211,7 @@ The same goes in the other direction, and the standards body says it in the same
 
 **"If I read the answer carefully, I have learned it."** Reading feels like learning, and the feeling tracks how easy something was to follow rather than how much of it you will retain. Term 1 taught this as the fluency illusion; here it arrives with a better interface.
 
-**"The study shows these tools are bad for education."** The same paper's guarded tutor produced the biggest gain of the three conditions.[1] The finding is about design, not about whether.
+**"The study shows these tools are bad for education."** The same paper's guarded tutor produced the biggest gain of the three conditions.[1] The finding is about design, not about whether. What a school should do about that is a further question, about policy and about what teachers can supervise, and this lesson doesn't answer it either way.
 
 **"Refusing to use one is just being difficult."** NIST names unnecessary aversion as a real cost in the same breath as over-reliance, and the word doing the work there is "unnecessarily".[2] Somebody who does not want to use one is not thereby being averse in NIST's sense, and the reason can be this lesson's trade, or it can be a reason this course has no standing to weigh: what the work is for, what they want to be good at, what they are content to be part of. This lesson supplies one consideration. It doesn't supply the licence.
 

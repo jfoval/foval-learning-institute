@@ -179,6 +179,8 @@ Both halves of that sentence matter, and a summary that carries one of them is n
 
 The per-tool figures are worth having because they vary so much: Lexis+ AI answered 65% of queries accurately and was the best of the three; Westlaw's AI-Assisted Research was accurate 42% of the time; Ask Practical Law AI gave incomplete answers on more than 60% of queries.[3] Three products built for the same job, by serious companies, differing by more than twenty points.
 
+Those figures belong to three products as they stood on the days they were tested, and none of them is a standing fact about any of those products now. The convention this course applies to a vendor's claim applies to a measurement of one: it carries its date, and the date is where it stops.
+
 And note how the study had to define its terms to get a number at all. It counted "a response that contains either incorrect information or a false assertion that a source supports a proposition".[3] Two failures, separated, which is the distinction the previous section drew and is why it is worth drawing.
 
 :::checkpoint Those figures are from 2024, on legal tools. What can you carry from them to your own product today, and what can you not?
