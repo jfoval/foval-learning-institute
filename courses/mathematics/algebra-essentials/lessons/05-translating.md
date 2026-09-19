@@ -133,7 +133,7 @@ quiz:
       letters that does not exist.
 ---
 
-Every equation you have solved so far arrived already written. Lesson 3 handed you `4(x - 2) = 2x + 6`. Lesson 4 handed you the phone plan. In real use nobody hands you anything: there is a situation, described in words, and somebody has to write the equation before any of the machinery can start.
+Every equation you have solved so far arrived already written. Lesson 3 handed you `4(x - 2) = 2x + 6`. Lesson 4 handed you the phone plan. In real use nobody hands you anything: there's a situation, described in words, and somebody has to write the equation before any of the machinery can start.
 
 That step is where the most reliable error in the whole subject lives, and this lesson is about it.
 
@@ -146,7 +146,7 @@ The problem was put to engineering freshmen at an American university by [John C
 Write your answer down before reading on. This matters more than usual here, because the point of the lesson is what your own hand does.
 
 :::predict What did you write, and is it right?
-The correct equation is `S = 6P`. The common wrong answer is `6S = P`, and if that is what you wrote you are in large company: in Clement's study thirty seven per cent of the engineering students got this wrong, and of the wrong answers, sixty eight per cent were exactly that reversal.[1] Being wrong here is not a sign of anything about you. It is a sign of a habit that a great deal of schooling installs, and the rest of this lesson takes it apart and gives you the check that catches it.
+The correct equation is `S = 6P`. The common wrong answer is `6S = P`, and if that's what you wrote you are in large company: in Clement's study thirty seven per cent of the engineering students got this wrong, and of the wrong answers, sixty eight per cent were exactly that reversal.[1] Being wrong here is not a sign of anything about you. It's a sign of a habit that a great deal of schooling installs, and the rest of this lesson takes it apart and gives you the check that catches it.
 :::
 
 ## Why the wrong answer is so attractive
@@ -155,9 +155,9 @@ Read the sentence and watch the order in which the pieces arrive.
 
 > six times as many *students* as professors
 
-Six, then students, then professors. Write those down in that order and you get `6S = P`. The equation is a transcription of the English word order, and that is the whole mechanism. It is called **word-order matching**, and it is not stupidity; it is a reasonable strategy that happens to be wrong, because the order of words in a sentence and the structure of an equation are different things that look alike.
+Six, then students, then professors. Write those down in that order and you get `6S = P`. The equation is a transcription of the English word order, and that's the whole mechanism. It is called **word-order matching**, and it's not stupidity; it's a reasonable strategy that happens to be wrong, because the order of words in a sentence and the structure of an equation are different things that look alike.
 
-There is a second mechanism behind the same wrong answer, and it is worth knowing because people defend the answer with it. It is called **static comparison**. You picture the room: six students standing next to each professor. The `6` goes with the students because there are six of them in the picture. The trouble is that an equation is not a caption on a picture. It is a claim that one number is equal to another number, and it is either true or false when you put the numbers in.
+There is a second mechanism behind the same wrong answer, and it's worth knowing because people defend the answer with it. It is called **static comparison**. You picture the room: six students standing next to each professor. The `6` goes with the students because there are six of them in the picture. The trouble is that an equation isn't a caption on a picture. It's a claim that one number is equal to another number, and it is either true or false when you put the numbers in.
 
 ## The check that takes ten seconds
 
@@ -197,11 +197,11 @@ The picture is the point. The bar for the bigger group is the longer one, and th
 
 ## Say what the letter is, in full
 
-There is a habit that prevents most of this trouble before it starts, and it costs one line of writing.
+There's a habit that prevents most of this trouble before it starts, and it costs one line of writing.
 
 Write down what each letter stands for, as a number, in words.
 
-Not "`S` is students". That is a label on a thing, which is lesson 1's misconception coming back for a second try. Write:
+Not "`S` is students". That's a label on a thing, which is lesson 1's misconception coming back for a second try. Write:
 
 - `S` is the number of students.
 - `P` is the number of professors.
@@ -225,7 +225,7 @@ Once the letters are numbers, the question "is 216 equal to 6" is obviously answ
 Notice that step 4 is doing something step 3 cannot do for itself. Writing the equation uses your reading of the sentence, and it's exactly your reading of the sentence that may be at fault. Substituting brings in a fresh piece of evidence.
 
 :::checkpoint A car park holds five times as many cars as buses. Name the letters, write the equation, and test it. The naming is done for you: let `c` be the number of cars and `b` the number of buses. The relationship in English: the number of cars is the number of buses multiplied by five. Now finish the equation and run the test with four buses.
-`c = 5b`. With four buses there are twenty cars, and substituting gives `20 = 5 × 4`, which holds. The reversal here would be `5c = b`, and the same numbers kill it at once: `5 × 20 = 4` says a hundred equals four. Notice again that the multiplier sits with the smaller count. There are more cars, and it is the bus number that has to be multiplied up to reach it.
+`c = 5b`. With four buses there are twenty cars, and substituting gives `20 = 5 × 4`, which holds. The reversal here would be `5c = b`, and the same numbers kill it at once: `5 × 20 = 4` says a hundred equals four. Notice again that the multiplier sits with the smaller count. There are more cars, and it's the bus number that has to be multiplied up to reach it.
 :::
 
 ## The same trap in subtraction
@@ -241,12 +241,12 @@ The correct equation is `M = B - 7`, and testing gives `23 = 30 - 7`, which hold
 The English is doing something sly here. "Maya is seven years younger" mentions Maya and seven close together, so the hand wants to put them close together in the equation. But the seven is the size of the *gap*, and the gap has to be taken off the larger number, not off Maya's.
 
 :::predict A shelf holds fourteen more paperbacks than hardbacks. Write the equation with `p` and `h`, then test it with ten hardbacks.
-`p = h + 14`. Ten hardbacks means twenty four paperbacks, and `24 = 10 + 14` holds. The tempting wrong answers are `p + 14 = h`, which the same numbers reject since 38 is not 10, and `14 - p = h`. If you wrote `h = p - 14` you are also right, because that is the same claim rearranged: with the same numbers it reads `10 = 24 - 14`. Two equations that survive the same numerical test are usually the same equation in different clothes, and you can check that by solving one for the other letter.
+`p = h + 14`. Ten hardbacks means twenty four paperbacks, and `24 = 10 + 14` holds. The tempting wrong answers are `p + 14 = h`, which the same numbers reject since 38 is not 10, and `14 - p = h`. If you wrote `h = p - 14` you are also right, because that's the same claim rearranged: with the same numbers it reads `10 = 24 - 14`. Two equations that survive the same numerical test are usually the same equation in different clothes, and you can check that by solving one for the other letter.
 :::
 
 ## Translating a whole problem, then solving it
 
-Most real problems do not stop at the translation. They give you a relationship and a total, and want a number out.
+Most real problems don't stop at the translation. They give you a relationship and a total, and want a number out.
 
 **The situation.** A theatre sold three times as many standard tickets as concessions, and 480 tickets in all. How many of each?
 
@@ -274,7 +274,7 @@ It would be easy to read the Clement study and conclude that the human mind is b
 
 A [2021 study](https://eric.ed.gov/?id=EJ1327400) compared 211 Spanish and 79 South African trainee primary teachers on the same kind of problem. Nearly all of the errors the Spanish group made were reversals. The South African group barely made the error at all. The authors put the difference down to how the two groups had been taught, not to anything about the people.[2]
 
-So this is a trap that particular teaching builds, and other teaching seems not to. If you wrote `6S = P` at the top of this lesson, what that tells you is something about the algebra classes you sat in, and nothing whatever about your capacity for the subject. The habit that fixes it is the numerical check.
+So this is a trap that particular teaching builds, and other teaching seems not to. If you wrote `6S = P` at the top of this lesson, what that tells you is something about the algebra classes you sat in, and nothing whatever about your capacity for the subject. The habit that fixes it's the numerical check.
 
 ## What people get wrong
 
@@ -297,7 +297,7 @@ Take 25 minutes over these. For every one of the first six, name your letters as
 4. A taxi charges a flag fare of $4 plus $1.50 a mile, and a trip cost $19. How far was it?
 5. There are twice as many chairs as tables in a hall, and 54 pieces of furniture in total. How many tables?
 6. A phone plan costs $18 a month plus 3 cents a text. A bill was $27. How many texts?
-7. Somebody has written `8C = T` for "there are eight times as many cats as tortoises", using `C` for the number of cats and `T` for the number of tortoises. Show, with numbers, that it is wrong, and write the correct version.
+7. Somebody has written `8C = T` for "there are eight times as many cats as tortoises", using `C` for the number of cats and `T` for the number of tortoises. Show, with numbers, that it's wrong, and write the correct version.
 :::
 
 :::checkpoint Answers to the practice set, once you have done all seven
@@ -337,4 +337,4 @@ The next lesson takes on two unknowns at once, and translation becomes harder th
 ## Go deeper
 
 - [OpenStax, *Elementary Algebra 2e*, chapter 3](https://openstax.org/books/elementary-algebra-2e/pages/3-introduction), free online, which is a long set of word problems worked in full.
-- [Clement, Lochhead and Monk, "Translation difficulties in learning mathematics"](https://people.umass.edu/~clement/pdf/Translation%20Difficulties%20in%20Learning%20Math.pdf), the 1981 paper that first measured the reversal error. It is a scan, so the type is old, but it is short.
+- [Clement, Lochhead and Monk, "Translation difficulties in learning mathematics"](https://people.umass.edu/~clement/pdf/Translation%20Difficulties%20in%20Learning%20Math.pdf), the 1981 paper that first measured the reversal error. It's a scan, so the type is old, but it is short.

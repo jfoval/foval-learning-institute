@@ -137,13 +137,13 @@ Solving an equation means finding the value that makes the claim true. `3x + 5 =
 
 You want to end up with the letter alone on one side: `x = something`. That shape is an equation you can read the answer off.
 
-Every move you make is chosen to get closer to that shape, and every move is legal for exactly one reason: it does the same thing to both pans, so the claim survives. There is no second reason. Textbooks state the same thing as properties of equality, and [OpenStax's chapter 2](https://openstax.org/books/elementary-algebra-2e/pages/2-introduction) has them written out if you want the formal names.
+Every move you make is chosen to get closer to that shape, and every move is legal for exactly one reason: it does the same thing to both pans, so the claim survives. There's no second reason. Textbooks state the same thing as properties of equality, and [OpenStax's chapter 2](https://openstax.org/books/elementary-algebra-2e/pages/2-introduction) has them written out if you want the formal names.
 
 ## Solving one, every step annotated
 
 Solve `3x + 5 = 20`.
 
-| Line | What was done | Why it is allowed |
+| Line | What was done | Why it's allowed |
 | --- | --- | --- |
 | `3x + 5 = 20` | the equation we were given | |
 | `3x = 15` | took 5 off both sides | the pans were equal, so they still are |
@@ -175,17 +175,17 @@ Check: `4(7 - 2)` is `4 × 5`, which is 20. And `2(7) + 6` is `14 + 6`, which is
 
 Two things in that working are worth slowing down for.
 
-**Expanding the bracket.** `4(x - 2)` means four lots of `(x - 2)`, so it is `4x - 8`, not `4x - 2`. The multiplier reaches everything inside the bracket, including the second term and its sign. Test it with a number if you ever doubt it: at `x = 3`, `4(3 - 2)` is 4, and `4x - 8` is `12 - 8`, which is 4, while `4x - 2` would be 10.
+**Expanding the bracket.** `4(x - 2)` means four lots of `(x - 2)`, so it's `4x - 8`, not `4x - 2`. The multiplier reaches everything inside the bracket, including the second term and its sign. Test it with a number if you ever doubt it: at `x = 3`, `4(3 - 2)` is 4, and `4x - 8` is `12 - 8`, which is 4, while `4x - 2` would be 10.
 
 **Taking `2x` off both sides.** You can subtract an expression as well as a number. The balance does not care what the weight is made of, only that you removed the same weight from both pans.
 
 :::checkpoint Below is `5x - 3 = 2x + 9`, worked to the second to last line. Take `2x` off both sides to get `3x - 3 = 9`. Add 3 to both sides to get `3x = 12`. Finish it, and check your answer.
-Divide both sides by 3, so `x = 4`. Check: `5(4) - 3` is `20 - 3`, which is 17, and `2(4) + 9` is `8 + 9`, which is 17. Both sides are 17, so 4 is the solution. If you finished it without needing the check, do the check anyway; it takes ten seconds and it is the step that cannot lie to you.
+Divide both sides by 3, so `x = 4`. Check: `5(4) - 3` is `20 - 3`, which is 17, and `2(4) + 9` is `8 + 9`, which is 17. Both sides are 17, so 4 is the solution. If you finished it without needing the check, do the check anyway; it takes ten seconds and it's the step that cannot lie to you.
 :::
 
 ## The minus sign belongs to the term
 
-The most common source of arithmetic slips in solving is a sign, and it is worth meeting directly rather than being warned about.[1]
+The most common source of arithmetic slips in solving is a sign, and it's worth meeting directly rather than being warned about.[1]
 
 Look at `7 - 3x = 1`. Solve it in your head before you read the working.
 
@@ -193,7 +193,7 @@ Look at `7 - 3x = 1`. Solve it in your head before you read the working.
 Two. If you got 4, or something involving a 4, you saw a 7 and a 3 and subtracted, which is the trap this section is about.
 :::
 
-It is tempting to see a 7 and a 3 and produce a 4. That is wrong, and the reason is that the minus sign is not an instruction sitting between two numbers; it belongs to the `3x`. The left side is "seven, plus negative three lots of x".
+It is tempting to see a 7 and a 3 and produce a 4. That's wrong, and the reason is that the minus sign is not an instruction sitting between two numbers; it belongs to the `3x`. The left side is "seven, plus negative three lots of x".
 
 So solve it properly:
 
@@ -205,7 +205,7 @@ So solve it properly:
 
 Check: `7 - 3(2)` is `7 - 6`, which is 1. Correct.
 
-And notice the last division. Dividing both sides by a negative is legal like every other move: it is the same operation on both pans. Minus six divided by minus three is positive two, because a negative divided by a negative is positive.
+And notice the last division. Dividing both sides by a negative is legal like every other move: it's the same operation on both pans. Minus six divided by minus three is positive two, because a negative divided by a negative is positive.
 
 If you ever lose track of a sign, the check catches it immediately, which is the argument for checking every single time rather than only when you are unsure.
 
@@ -217,13 +217,13 @@ Four. Add `2x` to both sides: `9 = 3x - 3`. Add 3 to both sides: `12 = 3x`. Divi
 
 `5x - 3 = 2x + 9` had `x` terms on both sides, and the first move gathered them. That gathering has a name, collecting like terms, and it exists in service of solving rather than as a topic of its own.
 
-**Like terms** are terms with the same letter part. `3x` and `5x` are like terms and add to `8x`. `3x` and `5y` are not, and cannot be combined at all. `3x` and `5x²` are not either, because `x` and `x²` are different things: at `x = 3`, `x` is 3 and `x²` is 9.
+**Like terms** are terms with the same letter part. `3x` and `5x` are like terms and add to `8x`. `3x` and `5y` are not, and can't be combined at all. `3x` and `5x²` are not either, because `x` and `x²` are different things: at `x = 3`, `x` is 3 and `x²` is 9.
 
 The test, as always, is a number. Does `3x + 5x = 8x`? At `x = 2`: the left is `6 + 10`, which is 16, and the right is 16. Yes. Does `3x + 5y = 8xy`? At `x = 2` and `y = 1`: the left is `6 + 5`, which is 11, and the right is `8 × 2 × 1`, which is 16. No.
 
 ## What people get wrong
 
-**Doing something to one side only.** Not a move. The equation you end up with is not the one you started with, so its answer is not the answer to your problem.
+**Doing something to one side only.** Not a move. The equation you end up with isn't the one you started with, so its answer is not the answer to your problem.
 
 **`4(x - 2)` becoming `4x - 2`.** The multiplier reaches every term inside the bracket.
 
@@ -231,7 +231,7 @@ The test, as always, is a number. Does `3x + 5x = 8x`? At `x = 2`: the left is `
 
 **Reading `7 - 3x` as a subtraction between 7 and 3.** The minus belongs to the `3x`.
 
-**Not checking.** Every solution can be verified in ten seconds by substitution, and the check is the only step that cannot be fooled by a confident wrong method.
+**Not checking.** Every solution can be verified in ten seconds by substitution, and the check is the only step that can't be fooled by a confident wrong method.
 
 :::exercise Practice
 Solve each, then check by substituting your answer into the original equation. Do not skip the checks; they are the point.
@@ -262,7 +262,7 @@ Solve each, then check by substituting your answer into the original equation. D
 
 Lesson 2's balance is the whole justification for every move here. If you ever forget why a step is allowed, put the equation back on the scales and ask what you did to each pan.
 
-Lesson 1's habit of substituting a number is what the check is, and it is also how you settle any question about whether two expressions are the same.
+Lesson 1's habit of substituting a number is what the check is, and it's also how you settle any question about whether two expressions are the same.
 
 Lesson 4 draws relationships as lines, and solving turns up there as finding where a line reaches a particular height.
 

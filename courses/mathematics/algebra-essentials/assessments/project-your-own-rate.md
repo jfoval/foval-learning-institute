@@ -4,13 +4,13 @@ minutes: 90
 type: project
 ---
 
-Every worked example in this course belonged to somebody else. A taxi, a phone plan, a printer, a theatre selling tickets. This is the same work done on a rate that is actually yours, and it fits on one page.
+Every worked example in this course belonged to somebody else. A taxi, a phone plan, a printer, a theatre selling tickets. This is the same work done on a rate that's actually yours, and it fits on one page.
 
 The brief: **find one real rate in your own life, write it as an equation, draw it, use it to answer a question you actually have, and then check the answer against reality.** The last step is the point of the project, and the rubric weights it accordingly.
 
 ## Step 1: find a rate you can measure
 
-You need something that changes at a steady amount per unit of something else. Anywhere a bill, a quantity or a total goes up by roughly the same amount each time, there is a rate.
+You need something that changes at a steady amount per unit of something else. Anywhere a bill, a quantity or a total goes up by roughly the same amount each time, there's a rate.
 
 Places people find one on the first look:
 
@@ -42,17 +42,17 @@ Places people find one on the first look:
 
 This is the part that matters, so give it three or four sentences rather than one.
 
-Your prediction will not be exactly right. The interesting question is why, and there are three quite different answers.
+Your prediction won't be exactly right. The interesting question is why, and there are three quite different answers.
 
 **The arithmetic was wrong.** Check the substitution again. This is the easiest of the three to find and the least interesting.
 
 **The line is right but the reading was imprecise.** Meters, statements and stopwatches all have slack in them. A prediction two per cent out from a rate measured off two fuel fills is doing well.
 
-**The relationship is not actually straight.** This is the useful discovery, and it happens more often than a maths course usually admits. Your phone bill has a tier you did not know about. Your fuel consumption depends on whether the trip is town or motorway. The savings rate slipped in the month you had a car repair. A straight line means the rate is the same everywhere, and finding out that yours is not is a real result, not a failed project. Say what you now think the relationship does instead.
+**The relationship isn't actually straight.** This is the useful discovery, and it happens more often than a maths course usually admits. Your phone bill has a tier you did not know about. Your fuel consumption depends on whether the trip is town or motorway. The savings rate slipped in the month you had a car repair. A straight line means the rate is the same everywhere, and finding out that yours isn't is a real result, not a failed project. Say what you now think the relationship does instead.
 
 **An equation that disagrees with the world is the most useful thing a beginner can find**, because up to that point the algebra has only ever been checked against itself.
 
-## How to tell whether it is finished
+## How to tell whether it's finished
 
 Seven checks, and the last one is worth more than the rest.
 
@@ -76,6 +76,6 @@ Three things happen to most people, and each of them is the project working.
 
 ## Afterwards
 
-Keep the page somewhere you will find it, and when the next bill or the next measurement arrives, put the point on the graph. Two things can happen. It lands on the line, in which case you have a working model of something in your life and can use it to answer the next question without redoing any of this. Or it does not, and then you know something changed, and roughly when.
+Keep the page somewhere you'll find it, and when the next bill or the next measurement arrives, put the point on the graph. Two things can happen. It lands on the line, in which case you have a working model of something in your life and can use it to answer the next question without redoing any of this. Or it does not, and then you know something changed, and roughly when.
 
 That is what people who use algebra actually do with it. Not solving for `x` on demand, but keeping a rough model of something and noticing when the world stops agreeing with it.

@@ -49,9 +49,9 @@ quiz:
     explain: The survey reads the places where the author has already compressed the book, which is C. A overstates it, because the survey supports a decision about reading rather than a judgement of the argument, which is lesson 5's job. B confuses a procedure with a skill, since the survey changes what you read rather than how fast. D is the intuition being tested, and it loses because the first reader knows nine per cent of the book and cannot say whether it was the nine per cent that mattered.
 ---
 
-Lesson 1 gave you four levels and told you to choose one. This lesson is the procedure for the second level, and it is the one you will use most often, because most of the books and reports that land in front of you do not deserve a week and cannot be judged from the first chapter.
+Lesson 1 gave you four levels and told you to choose one. This lesson is the procedure for the second level, and it's the one you will use most often, because most of the books and reports that land in front of you do not deserve a week and can't be judged from the first chapter.
 
-The situation is ordinary. Somebody hands you a book. You have an hour, or less. At the end of it you have to say what it is about, how it is built, and whether it is worth your time. Almost everyone in that position opens at page one, and lesson 1 showed you what that costs.
+The situation is ordinary. Somebody hands you a book. You have an hour, or less. At the end of it you have to say what it is about, how it is built, and whether it's worth your time. Almost everyone in that position opens at page one, and lesson 1 showed you what that costs.
 
 There is a procedure instead, and it is old, and it has six steps.
 
@@ -65,7 +65,7 @@ Adler splits the second level into two sublevels, which do different jobs and ar
 
 The first is triage. The second is a first pass. This lesson is mostly about the first, and comes back to the second at the end.
 
-The idea is not peculiar to Adler. [Harvard Library's guide for first-year undergraduates](https://guides.library.harvard.edu/sixreadinghabits) makes "preview" the first of its six reading habits, which is this lesson in a paragraph and a useful cross-check that the method is not one man's enthusiasm.[4]
+The idea isn't peculiar to Adler. [Harvard Library's guide for first-year undergraduates](https://guides.library.harvard.edu/sixreadinghabits) makes "preview" the first of its six reading habits, which is this lesson in a paragraph and a useful cross-check that the method is not one man's enthusiasm.[4]
 
 ## The six steps
 
@@ -82,7 +82,7 @@ Read down that list and notice the shape of it. The steps run from the most comp
 
 ## Why it works: a book encodes its argument more than once
 
-That ordering is not a convenience. It is the reason a survey is an order of magnitude faster than reading without being an order of magnitude worse.
+That ordering is not a convenience. It's the reason a survey is an order of magnitude faster than reading without being an order of magnitude worse.
 
 A serious book states its argument several times, in several forms, in places that are not the body text. The contents page is the outline the author already made. The index is a frequency table of what the book is about, sorted alphabetically. The opening and closing paragraphs of a chapter are where a writer says what is coming and what just happened. And the last two or three pages are where almost no author can resist summarising.
 
@@ -91,7 +91,7 @@ Surveying reads those encodings instead of the text. You are not skimming the ar
 :::predict Before the worked example: of the six steps, which one do you think most readers have never once performed on a book they owned?
 Step 3, the index, in my experience of asking. People use an index to find a page. Almost nobody reads one as a list, which is what it is: every topic the author thought worth locating, in the author's own vocabulary, with a rough weight attached by how many page numbers follow each entry.
 
-Step 4 comes a close second, because people read blurbs and do not count them as evidence.
+Step 4 comes a close second, because people read blurbs and don't count them as evidence.
 :::
 
 ## A survey, done in front of you
@@ -100,7 +100,7 @@ The book is Charles Darwin's *On the Origin of Species*, first edition, 1859, fr
 
 A note on what we are doing, so the lesson does not drift. We are surveying the book, not arguing the biology. What Darwin argues is reported here as the survey finds it.
 
-**Step 1, the title page and the preface.** The title page gives the whole thesis: *On the Origin of Species by Means of Natural Selection, or the Preservation of Favoured Races in the Struggle for Life*. That is a title, a mechanism, and a restatement of the mechanism in other words. London, John Murray, 1859.
+**Step 1, the title page and the preface.** The title page gives the whole thesis: *On the Origin of Species by Means of Natural Selection, or the Preservation of Favoured Races in the Struggle for Life*. That's a title, a mechanism, and a restatement of the mechanism in other words. London, John Murray, 1859.
 
 Under it sit two epigraphs, one from Whewell and one from Bacon, both to the effect that God works by general laws rather than by particular interventions.[2] Read that as a surveyor rather than as a theologian: before a word of the argument, the author has told you who he expected to have to reassure. That is what step 1 is for.
 
@@ -110,7 +110,7 @@ Two minutes, and the book's claim is in your hands, in the author's words, with 
 
 **Step 2, the contents.** Fourteen chapters and an index. Read as a road map, the shape is plain: variation, first under domestication and then in nature; struggle for existence; natural selection; laws of variation; then four chapters of difficulties, instinct, hybridism and the geological record; then the geological succession of organic beings, distribution and affinities; then recapitulation and conclusion.
 
-A reader who has done nothing but read that list can already say where the argument is made and where it is defended.
+A reader who has done nothing but read that list can already say where the argument is made and where it's defended.
 
 Then the wrinkle, and it is the reason this book was chosen. Immediately after the contents comes a second one, headed "Detailed Contents", which breaks every chapter into its topics in order. Chapter 6 alone lists transitions, the absence or rarity of transitional varieties, organs of extreme perfection, and eleven more. That is the analytical table of contents Adler praises, and it is the target he says has nearly disappeared from publishing.[1] Two pages of it are worth more than the first fifty pages of the book.
 
@@ -118,7 +118,7 @@ One small warning if you are following along in the Gutenberg file: the heading 
 
 **Step 3, the index.** Scan it and you are reading Darwin's own vocabulary with weights on it. Species, varieties, selection, sterility, instinct, and a very large number of proper names: Agassiz, Lyell, Hooker, Wallace. The index tells you, before you have read a paragraph, that this is a book engaging with named contemporaries about particular cases, not a treatise reasoning from first principles.
 
-**Step 4, the blurb.** There is not one. The 1859 title page carries the author's fellowships and his previous book instead, which is what a publisher's pitch looked like in 1859. Absence is still evidence: nobody was selling this to a general reader.
+**Step 4, the blurb.** There's not one. The 1859 title page carries the author's fellowships and his previous book instead, which is what a publisher's pitch looked like in 1859. Absence is still evidence: nobody was selling this to a general reader.
 
 :::predict Step 5 asks for the pivotal chapters. From the contents alone, which chapter would you nominate, and where in the book could you check whether you are right?
 Chapter 4, "Natural Selection", is the obvious nomination: it is the title's own mechanism, and the four chapters after it are headed as difficulties, which is the shape of a book defending a claim it has just made.
@@ -126,7 +126,7 @@ Chapter 4, "Natural Selection", is the obvious nomination: it is the title's own
 Where to check is the more useful half of the question. The Introduction, which you read in step 1, is where authors say what each chapter is for. In this case it says so directly, and the next paragraph gives you Darwin's sentence.
 :::
 
-**Step 5, the pivotal chapters.** The contents nominate chapter 4, and the Introduction confirms it: "This fundamental subject of Natural Selection will be treated at some length in the fourth chapter."[2] The author has told you which chapter is load-bearing. That is step 5 done for you, and it is more common than people expect: writers say where the centre of a book is, in the introduction, and readers skip the introduction.
+**Step 5, the pivotal chapters.** The contents nominate chapter 4, and the Introduction confirms it: "This fundamental subject of Natural Selection will be treated at some length in the fourth chapter."[2] The author has told you which chapter is load-bearing. That is step 5 done for you, and it's more common than people expect: writers say where the centre of a book is, in the introduction, and readers skip the introduction.
 
 **Step 6, dip in, and read the last pages.** Open chapter 9 anywhere and you find Darwin stating an objection against himself. On the absence of intermediate fossil links: "Geology assuredly does not reveal any such finely graduated organic chain; and this, perhaps, is the most obvious and gravest objection which can be urged against my theory."[2] One paragraph, and you know what kind of writer this is.
 
@@ -134,13 +134,13 @@ Then the last page, which Adler says never to skip:
 
 > There is grandeur in this view of life, with its several powers, having been originally breathed into a few forms or into one; and that, whilst this planet has gone cycling on according to the fixed law of gravity, from so simple a beginning endless forms most beautiful and most wonderful have been, and are being, evolved.[2]
 
-**The verdict, written down.** What kind of book: a scientific argument for a general educated reader, by a naturalist, arguing from accumulated cases rather than from theory. What it argues: that species are not fixed, and that natural selection is the main but not the only mechanism by which they change. How it is built: five chapters to state the mechanism, four to answer the strongest objections to it, four on the evidence from the fossil record, distribution and classification, one to recapitulate. Whether to read it: yes, and the survey has also told you how, since chapters 4 and 14 carry the case and chapters 6 to 9 carry the defence.
+**The verdict, written down.** What kind of book: a scientific argument for a general educated reader, by a naturalist, arguing from accumulated cases rather than from theory. What it argues: that species are not fixed, and that natural selection is the main but not the only mechanism by which they change. How it's built: five chapters to state the mechanism, four to answer the strongest objections to it, four on the evidence from the fossil record, distribution and classification, one to recapitulate. Whether to read it: yes, and the survey has also told you how, since chapters 4 and 14 carry the case and chapters 6 to 9 carry the defence.
 
 That took about thirty minutes of work, and it is knowledge about the whole book, which is what reading the first fifty pages could not have given you at any speed.
 
 ## The four questions, and which ones a survey answers
 
-Adler also asks four questions of any book, and they are the spine of the rest of this course: what is the book about as a whole; what is being said in detail, and how; is the book true, in whole or part; and what of it.[1] Lessons 5 and 7 work all four properly. They are worth having now, because they tell you exactly what a survey is and is not for.
+Adler also asks four questions of any book, and they are the spine of the rest of this course: what is the book about as a whole; what is being said in detail, and how; is the book true, in whole or part; and what of it.[1] Lessons 5 and 7 work all four properly. They are worth having now, because they tell you exactly what a survey is and isn't for.
 
 :::checkpoint You have surveyed Darwin and written the verdict above. Which of those four questions have you answered, and which have you not touched?
 You have answered the first, what the book is about as a whole, and you have made a start on the second, what is being said in detail and how, at the level of which chapter does what.
@@ -156,16 +156,16 @@ Open Bacon's *Essays*, which you met in lesson 1 and which is free at [Project G
 
 Step 2 gives you a contents page of fifty-eight short pieces, each headed by its topic: "Of Truth", "Of Death", "Of Studies". Every title names a subject and not one of them tells you what Bacon thinks about it. Step 3 finds no index. Step 4 finds no publisher's note. Three steps, almost nothing.
 
-That is not a failure of the method. What those three steps have told you is that this is not a book with a single argument running through it, which is a real and useful finding: it is a collection, and the unit is the essay rather than the book. So you change what you do. Step 6 does the work, and you do more of it: read one essay whole, since a whole essay here is two pages, and you have a fair sample of all fifty-eight.
+That is not a failure of the method. What those three steps have told you is that this isn't a book with a single argument running through it, which is a real and useful finding: it is a collection, and the unit is the essay rather than the book. So you change what you do. Step 6 does the work, and you do more of it: read one essay whole, since a whole essay here is two pages, and you have a fair sample of all fifty-eight.
 
-The modern version of the same problem looks different and behaves the same way. A trade paperback with chapter titles chosen to intrigue rather than to inform, a blurb of three sentences of praise, and no index has told you, by those three absences, that it is built to be read once, front to back, quickly, and not to be gone back to. Adler makes this point about the blurb specifically, and it generalises: an apparatus that carries no information is itself information about the book.[1]
+The modern version of the same problem looks different and behaves the same way. A trade paperback with chapter titles chosen to intrigue rather than to inform, a blurb of three sentences of praise, and no index has told you, by those three absences, that it's built to be read once, front to back, quickly, and not to be gone back to. Adler makes this point about the blurb specifically, and it generalises: an apparatus that carries no information is itself information about the book.[1]
 
 When the apparatus returns nothing, the survey still ends in a verdict, and it still costs twenty minutes rather than a week.
 
 :::checkpoint A report at work has an executive summary. Which step is that, and what should you be careful about?
 It is steps 1 and 5 combined, prepared for you: a statement of scope and a set of summary statements. Read it first, always.
 
-Be careful about two things. An executive summary is written to be approved rather than to be accurate, so check one of its claims against the body before you rely on it. And it will not tell you what the report leaves out, which is what the contents page and the length of each section are for. A summary that is one page over a sixty-page report has told you very little about where those sixty pages went.
+Be careful about two things. An executive summary is written to be approved rather than to be accurate, so check one of its claims against the body before you rely on it. And it will not tell you what the report leaves out, which is what the contents page and the length of each section are for. A summary that's one page over a sixty-page report has told you very little about where those sixty pages went.
 :::
 
 ## The other sublevel: superficial reading
@@ -174,24 +174,24 @@ You have surveyed, you have decided to read, and the book is hard. Here Adler's 
 
 The reason is the same as the reason for the survey. Stopping at page one buys you page one at the cost of the shape, and the shape is what makes page one legible. A hard book read straight through, with the hard parts allowed to be hard, leaves you knowing where the argument goes, which is exactly what you need on the second pass to know what the hard parts were doing.
 
-This is not a claim that you will understand it. It is a claim about the order of operations, and it only makes sense because there is a second pass. If you are only going to read something once, this rule is not for you.
+This is not a claim that you will understand it. It's a claim about the order of operations, and it only makes sense because there is a second pass. If you are only going to read something once, this rule is not for you.
 
 ## What people get wrong
 
-**"I should not judge a book before reading it."** You are not judging the book. You are judging whether to read it, and the survey makes that judgement on evidence taken from the book rather than from the cover or from a habit. Refusing to judge is not neutrality; it is deciding by whatever happens to be nearest.
+**"I should not judge a book before reading it."** You aren't judging the book. You are judging whether to read it, and the survey makes that judgement on evidence taken from the book rather than from the cover or from a habit. Refusing to judge is not neutrality; it is deciding by whatever happens to be nearest.
 
-**"The contents page is for looking things up."** That is what it is used for. What it is, is the author's own outline, made before the book was written and revised until it was true of the finished thing. Reading it as an outline is the cheapest structural information you will ever get.
+**"The contents page is for looking things up."** That's what it is used for. What it is, is the author's own outline, made before the book was written and revised until it was true of the finished thing. Reading it as an outline is the cheapest structural information you will ever get.
 
 **"If a book is hard I should go slower on page one."** Sometimes, on the second pass. On the first, the rule points the other way, and going slower on page one is how people spend three weeks on a book and abandon it at chapter 2.
 
-**"Skimming is cheating."** Systematic skimming is a named level of reading, with a six-step procedure and a time budget, aimed at a question it can actually answer. What is not defensible is skimming that is offered as though it were analytical reading, which is a claim about the level rather than about the speed.
+**"Skimming is cheating."** Systematic skimming is a named level of reading, with a six-step procedure and a time budget, aimed at a question it can actually answer. What isn't defensible is skimming that is offered as though it were analytical reading, which is a claim about the level rather than about the speed.
 
 **"The survey replaces reading the book."** It does not, and lesson 1's levels say why: inspectional reading answers what the thing is about, and stops there. If the survey has told you the book matters, the survey has just made the case for spending the week.
 
 ## Practice
 
 :::exercise Survey a book you own and have not read
-Take a book off your own shelf that you have not read. Allow 60 minutes for this, set a timer, and run the six steps in order. Write four things down, in four sentences, before the timer goes:
+Take a book off your own shelf that you haven't read. Allow 60 minutes for this, set a timer, and run the six steps in order. Write four things down, in four sentences, before the timer goes:
 
 1. What kind of book is this?
 2. What does it argue, in one sentence, in your own words?
@@ -200,7 +200,7 @@ Take a book off your own shelf that you have not read. Allow 60 minutes for this
 
 Then check yourself on two points. Did you actually read the index, as a list, or did you skip step 3 because it felt like it was not for reading? And is your answer to question 2 in your own words, or is it the subtitle?
 
-If you finished in twenty minutes, that is normal and it is not a sign you did it badly. Adler's hour is a ceiling rather than a target.
+If you finished in twenty minutes, that is normal and it's not a sign you did it badly. Adler's hour is a ceiling rather than a target.
 :::
 
 :::exercise The one that will annoy you
@@ -213,7 +213,7 @@ Lesson 1 asked you to choose a level. This lesson gives you the evidence to choo
 
 Lesson 3 explains what to do when the survey comes back "not yet", which is usually a problem of background rather than of the book.
 
-Lesson 5 begins analytical reading, and its first rule is to classify the book and state what it is about with the utmost brevity. The survey has already done both, which is why Adler puts inspectional reading first and not as an optional shortcut.
+Lesson 5 begins analytical reading, and its first rule is to classify the book and state what it's about with the utmost brevity. The survey has already done both, which is why Adler puts inspectional reading first and not as an optional shortcut.
 
 Lesson 10 reads many books on one question, and the survey is what makes that possible at all. You cannot read twelve books analytically to find the four that matter. You survey twelve and read four.
 

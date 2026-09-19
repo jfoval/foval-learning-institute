@@ -157,7 +157,7 @@ Take the taxi from lesson 1's practice: $3.50 to get in, $1.20 a mile. That rela
 
 **As an equation.** `fare = 3.50 + 1.20d`
 
-These are not three topics. They are one relationship in three costumes, and being able to move between them is most of what this lesson is for. The table came from the equation by substituting, which is lesson 1. The graph below comes from the table by plotting.
+These aren't three topics. They are one relationship in three costumes, and being able to move between them is most of what this lesson is for. The table came from the equation by substituting, which is lesson 1. The graph below comes from the table by plotting.
 
 <svg viewBox="0 0 420 262" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:420px;display:block;margin:1.5em auto;font-family:system-ui,sans-serif" role="img" aria-labelledby="line-title line-desc">
   <title id="line-title">The taxi fare drawn as a straight line</title>
@@ -192,25 +192,25 @@ These are not three topics. They are one relationship in three costumes, and bei
 
 Look at the equation and the picture together, because each number in one is a feature of the other.
 
-**The 3.50 is where the line starts.** It is the fare at zero miles, which is the flag charge you pay for getting in. On the graph it is the height of the line where it meets the vertical axis. Its usual name is the **intercept**.
+**The 3.50 is where the line starts.** It is the fare at zero miles, which is the flag charge you pay for getting in. On the graph it's the height of the line where it meets the vertical axis. Its usual name is the **intercept**.
 
-**The 1.20 is the rate.** It is how much the fare goes up for each extra mile, and on the graph it is how steeply the line climbs. Its usual name is the **slope** or **gradient**.
+**The 1.20 is the rate.** It is how much the fare goes up for each extra mile, and on the graph it's how steeply the line climbs. Its usual name is the **slope** or **gradient**.
 
-That is the whole of it. Any relationship of the form `y = starting value + rate × x` is a straight line, and any straight line can be written that way. The general form you will meet everywhere is:
+That is the whole of it. Any relationship of the form `y = starting value + rate × x` is a straight line, and any straight line can be written that way. The general form you'll meet everywhere is:
 
 `y = mx + c`
 
 where `m` is the rate and `c` is the starting value. The letters are a convention, not a law; some countries write `y = mx + b`. What matters is which number does which job.
 
 :::checkpoint The phone plan from lesson 1 was `12 + 0.05m`. What is its starting value, what is its rate, and what does each one mean in the situation?
-The starting value is 12 and it is the monthly charge you pay before making a single call, so it is the height of the line at zero minutes. The rate is 0.05, which is five cents per minute, and it is how steeply the cost climbs as you talk. Notice that the rate is small, so the line is nearly flat, which is a true fact about the plan: minutes are cheap and the fixed charge dominates until you have talked for a long time. At two hundred and forty minutes the calls have cost twelve dollars, and only then does the variable part match the fixed part.
+The starting value is 12 and it is the monthly charge you pay before making a single call, so it's the height of the line at zero minutes. The rate is 0.05, which is five cents per minute, and it is how steeply the cost climbs as you talk. Notice that the rate is small, so the line is nearly flat, which is a true fact about the plan: minutes are cheap and the fixed charge dominates until you have talked for a long time. At two hundred and forty minutes the calls have cost twelve dollars, and only then does the variable part match the fixed part.
 :::
 
 ## Reading a slope in the situation's own units
 
 The slope of a line is a number, and on its own it means very little. What makes it useful is that it always has units, and the units come from the situation.
 
-For the taxi, the slope is 1.20 *dollars per mile*. For the phone plan it is 0.05 *dollars per minute*. If you plotted the distance a car travels against time, the slope would be *miles per hour*, which is a thing you already know how to think about: speed is a slope.
+For the taxi, the slope is 1.20 *dollars per mile*. For the phone plan it's 0.05 *dollars per minute*. If you plotted the distance a car travels against time, the slope would be *miles per hour*, which is a thing you already know how to think about: speed is a slope.
 
 To find a slope from any two points on a line, take the change in the up-and-down direction and divide by the change in the across direction. The two marked points on the graph are at two miles, where the fare is $5.90, and at five miles, where it is $9.50. Work the slope out from those two points before you open the answer.
 
@@ -218,10 +218,10 @@ To find a slope from any two points on a line, take the change in the up-and-dow
 Change in fare divided by change in miles: `(9.50 - 5.90) / (5 - 2)` = `3.60 / 3` = 1.20 dollars per mile. Which is the number that was in the equation all along.
 :::
 
-Any two points on the line give the same answer, and that is what makes the line straight: the rate is the same everywhere on it. A relationship where the rate changes as you go is not a straight line, and this course does not cover those.
+Any two points on the line give the same answer, and that's what makes the line straight: the rate is the same everywhere on it. A relationship where the rate changes as you go is not a straight line, and this course doesn't cover those.
 
 :::checkpoint A savings account starts with $20 in it and $5 is added every week, with no interest. Write the equation, and say what the graph of it looks like at week zero and how steeply it climbs.
-`total = 20 + 5w`, where `w` is the number of weeks. At week zero the line is at a height of 20, since that is the money already there. It climbs by 5 dollars per week, so it is five times steeper than a line rising a dollar a week. Notice how little of this is about algebra: the equation is a way of writing down something you could have said in a sentence, and the graph is a way of seeing it.
+`total = 20 + 5w`, where `w` is the number of weeks. At week zero the line is at a height of 20, since that is the money already there. It climbs by 5 dollars per week, so it's five times steeper than a line rising a dollar a week. Notice how little of this is about algebra: the equation is a way of writing down something you could have said in a sentence, and the graph is a way of seeing it.
 :::
 
 ## Building a line from a situation
@@ -245,7 +245,7 @@ Any two points on the line give the same answer, and that is what makes the line
 
 Take `0.04p` off both sides: `180 = 40 + 0.04p`. Take 40 off both: `140 = 0.04p`. Divide by 0.04: `p = 3,500`.
 
-So at three and a half thousand pages the two printers cost the same, and below that the cheap printer wins while above it the expensive one does. That is what solving an equation means when you have a picture: finding where two lines cross.
+So at three and a half thousand pages the two printers cost the same, and below that the cheap printer wins while above it the expensive one does. That's what solving an equation means when you have a picture: finding where two lines cross.
 
 :::predict Check that answer before trusting it. What does each printer cost at exactly 3,500 pages?
 The first is `180 + 0.04 × 3500`, which is `180 + 140`, so $320. The second is `40 + 0.08 × 3500`, which is `40 + 280`, so $320 as well. The two agree, so 3,500 is right. This is the same substitution check from lesson 3, and it is worth noticing that it works identically here even though the question arrived as a shopping decision rather than as an equation.
@@ -259,16 +259,16 @@ The first is `180 + 0.04 × 3500`, which is `180 + 140`, so $320. The second is 
 | 2 | $5.60 |
 | 10 | $16.80 |
 
-`fare = 2.80 + 1.40d`, and at five miles that is `2.80 + 7.00`, which is $9.80. Notice that this firm is cheaper than the first one for short trips, because its flag charge is lower, and dearer for long ones, because its rate is higher. The two lines cross somewhere, and finding where is exactly the printer question above.
+`fare = 2.80 + 1.40d`, and at five miles that's `2.80 + 7.00`, which is $9.80. Notice that this firm is cheaper than the first one for short trips, because its flag charge is lower, and dearer for long ones, because its rate is higher. The two lines cross somewhere, and finding where is exactly the printer question above.
 :::
 
 ## What people get wrong
 
 **Reading a slope without its units.** A slope of 1.20 means nothing until you say dollars per mile. Steeper does not mean bigger unless the two lines measure the same things.
 
-**Thinking the intercept is always the answer to something sensible.** In the taxi it is a real charge. In a line fitted to data, the value at zero can be meaningless or impossible, and you should ask before using it.
+**Thinking the intercept is always the answer to something sensible.** In the taxi it's a real charge. In a line fitted to data, the value at zero can be meaningless or impossible, and you should ask before using it.
 
-**Confusing the rate with the total.** The taxi's slope is 1.20, and the fare after five miles is 9.50. The slope is not the fare; it is how fast the fare grows.
+**Confusing the rate with the total.** The taxi's slope is 1.20, and the fare after five miles is 9.50. The slope is not the fare; it's how fast the fare grows.
 
 **Expecting every relationship to be straight.** Straight means a constant rate. Compound growth, the shape of the savings curve you may meet elsewhere, is not straight, because its rate depends on the current amount.
 

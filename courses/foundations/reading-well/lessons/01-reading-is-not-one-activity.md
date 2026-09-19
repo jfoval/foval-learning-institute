@@ -55,7 +55,7 @@ Almost everyone does the same thing. They open it at page one and read until the
 
 Mortimer Adler watched people do this and named what it costs. Such readers, he wrote in 1972, "start a book on page one and plow steadily through it, without even reading the table of contents", and so "are thus faced with the task of achieving a superficial knowledge of the book at the same time that they are trying to understand it."[2] Two jobs at once, and the harder one gets no room.
 
-That is one option out of several, and it is usually the worst available. The problem is not reading too slowly. It is that no decision was made, because nobody said there was one to make.
+That's one option out of several, and it is usually the worst available. The problem isn't reading too slowly. It is that no decision was made, because nobody said there was one to make.
 
 ## Four hundred years ago somebody wrote this down
 
@@ -63,14 +63,14 @@ Francis Bacon first published his *Essays* in 1597 and kept enlarging them; the 
 
 > Some books are to be tasted, others to be swallowed, and some few to be chewed and digested; that is, some books are to be read only in parts; others to be read, but not curiously; and some few to be read wholly, and with diligence and attention.[1]
 
-The half that gets dropped is the half after the semicolon, and it is the useful half. Bacon is not being poetic about books. He is telling you three different things to do with your eyes and your hands. Read only in parts. Read the whole thing but not closely. Read the whole thing closely.
+The half that gets dropped is the half after the semicolon, and it is the useful half. Bacon isn't being poetic about books. He is telling you three different things to do with your eyes and your hands. Read only in parts. Read the whole thing but not closely. Read the whole thing closely.
 
 Notice what he has done. He has taken one word, reading, and split it into three activities that share almost nothing except the alphabet.
 
 :::predict Bacon lists three treatments. Which of the three does most of your own reading get?
 Asked honestly, most readers land on the second one: swallowed, read through but not closely. It is the default setting, and it gets applied to a news article, a contract, a textbook chapter and a novel alike.
 
-Nobody has counted how often that default happens to be the right choice, and this lesson is not going to pretend otherwise. What it does claim is narrower and harder to argue with: a reader who only ever does one of Bacon's three is choosing by habit rather than by need, and the times it fits are luck.
+Nobody has counted how often that default happens to be the right choice, and this lesson isn't going to pretend otherwise. What it does claim is narrower and harder to argue with: a reader who only ever does one of Bacon's three is choosing by habit rather than by need, and the times it fits are luck.
 :::
 
 ## The four levels
@@ -89,7 +89,7 @@ That distinction matters more than it looks, so here is the picture.
 <title id="lvl-title">The four levels of reading, drawn as nested boxes</title>
 <desc id="lvl-desc">Four rectangles, each drawn inside the one before it. The outermost is labelled Syntopical, inside it Analytical, inside that Inspectional, and innermost Elementary. The nesting shows that each higher level contains the ones below it rather than replacing them: a syntopical reader is still doing everything the three lower levels do.</desc>
 <text x="8" y="20" font-size="16" font-weight="700" fill="var(--text, #111418)">The levels contain each other</text>
-<text x="8" y="38" font-size="15" fill="var(--text-2, #4a5260)">A higher level does not replace the one below it</text>
+<text x="8" y="38" font-size="15" fill="var(--text-2, #4a5260)">A higher level doesn't replace the one below it</text>
 <rect x="8" y="48" width="404" height="240" rx="6" fill="none" stroke="var(--navy, #0f2a4a)" stroke-width="2"/>
 <text x="20" y="68" font-size="15" font-weight="600" fill="var(--navy, #0f2a4a)">Syntopical</text>
 <rect x="40" y="80" width="340" height="176" rx="6" fill="none" stroke="var(--oxblood, #8b1e2d)" stroke-width="2"/>
@@ -108,16 +108,16 @@ Each level has its own question, and the question is the thing to remember rathe
 
 **Analytical reading** asks what is being said in detail, and how, and in the end whether it is true. Adler is insistent about the order: the level is "preeminently for the sake of understanding", and judgement comes last, after eight of his fifteen rules. His pair of definitions is the clearest thing anyone has written about the difference:
 
-> If inspectional reading is the best and most complete reading that is possible given a limited time, then analytical reading is the best and most complete reading that is possible given unlimited time.[2]
+> If inspectional reading is the best and most complete reading that's possible given a limited time, then analytical reading is the best and most complete reading that is possible given unlimited time.[2]
 
 He also connects it straight back to Bacon, quoting the same sentence and adding: "Reading a book analytically is chewing and digesting it."
 
-**Syntopical reading** asks your question rather than the book's. You read several books against one problem, and the aim is something none of them contains. In Adler's words, "the syntopical reader is able to construct an analysis of the subject that may not be in any of the books". It is the last lesson of this course.
+**Syntopical reading** asks your question rather than the book's. You read several books against one problem, and the aim is something none of them contains. In Adler's words, "the syntopical reader is able to construct an analysis of the subject that may not be in any of the books". It's the last lesson of this course.
 
 :::checkpoint If the levels are nested, what follows about someone who says they are "good at close reading but bad at skimming"?
 It is not impossible, but it is not two independent skills either. Analytical reading contains inspectional reading: Adler's rules for it begin with classifying the book and outlining its parts, which is what an inspection gives you. So a reader in that position is usually not bad at inspection. They are skipping it, and then doing the analytical work without the map that the inspection would have handed them.
 
-The practical version: if you are finding hard books exhausting, the fix is often not more effort at the level you are on. It is doing the level below first.
+The practical version: if you are finding hard books exhausting, the fix is often not more effort at the level you are on. It's doing the level below first.
 :::
 
 ## What actually sets the effort
@@ -126,14 +126,14 @@ The four names are only useful if something decides which one you pick. This cou
 
 **The effort a text demands is set by what you need to be able to do when you put it down.**
 
-That is a synthesis of the three sources, and they do not all say it. Bacon attaches the treatment to the book: his three kinds are kinds of book, and elsewhere in the essay he ranks them by worth. Adler brings in purpose, noting that analytical reading "is hardly ever necessary if your goal in reading is simply information or entertainment", and Carver's whole model is built on reading goals. Put them together and the decision moves from the shelf to the reader.
+That's a synthesis of the three sources, and they do not all say it. Bacon attaches the treatment to the book: his three kinds are kinds of book, and elsewhere in the essay he ranks them by worth. Adler brings in purpose, noting that analytical reading "is hardly ever necessary if your goal in reading is simply information or entertainment", and Carver's whole model is built on reading goals. Put them together and the decision moves from the shelf to the reader.
 
 Test it against what each level leaves you holding. To say what a sentence says, you need that sentence. To say what a book is about, you need its shape: the claim, the parts, the kind of thing it is. To say whether its argument holds, you need the argument itself, rebuilt well enough that you could run it forwards and find the step you doubt. To answer your own question across four books, you need all four arguments and a vocabulary you built yourself in which they can be compared.
 
 Each of those is a bigger thing to have produced than the last. That is why the same twelve pages can honestly take four minutes or four hours, and why neither number is wrong.
 
 :::checkpoint Two people spend forty minutes on the same thirty-page report. One can afterwards state its claim and its structure. The other can also say where the argument is weakest and what evidence would settle it. Who read more carefully?
-That question does not have an answer as asked, which is the point. They did different jobs. The second reader rebuilt more of the report inside their head, because judging an argument needs the argument present in a way that summarising its claim does not.
+That question doesn't have an answer as asked, which is the point. They did different jobs. The second reader rebuilt more of the report inside their head, because judging an argument needs the argument present in a way that summarising its claim does not.
 
 Notice neither of them read thirty pages closely in forty minutes, and neither needed to. The first surveyed the whole thing. The second surveyed it too, then found the two or three pages carrying the argument and chewed those. Choosing the level per passage is what makes the budget work, and the tenancy agreement below is the same move on a shorter document.
 
@@ -142,24 +142,24 @@ Calling that "more careful" hides the decision, because it suggests the first re
 
 ## A psychologist tried to measure this, and half of it did not survive
 
-Adler was a philosopher working from experience, and nothing in his book is measured. So it is fair to ask what happens when somebody does measure it. The answer is instructive, and it does not all go the lesson's way.
+Adler was a philosopher working from experience, and nothing in his book is measured. So it is fair to ask what happens when somebody does measure it. The answer is instructive, and it doesn't all go the lesson's way.
 
 In 1992 Ronald Carver proposed that readers shift between five gears, each with its own speed: reading for recall at about 140 words a minute, reading for recognition at 200, reading out of interest at 300, skimming at 450, and scanning at 650.[3] It is a tidy model, and if it held it would be Adler's levels arrived at from the psychology side.
 
-It mostly does not hold. Marc Brysbaert's 2019 review, which pooled 190 studies and 18,573 readers, went looking for the gears and gave its verdict as a section heading: there is no evidence for reading gears except for the distinction between reading and scanning.[3] Specifically, he found no difference between reading for recognition and reading out of interest, and no difference in kind between reading for recall and either of them.
+It mostly doesn't hold. Marc Brysbaert's 2019 review, which pooled 190 studies and 18,573 readers, went looking for the gears and gave its verdict as a section heading: there is no evidence for reading gears except for the distinction between reading and scanning.[3] Specifically, he found no difference between reading for recognition and reading out of interest, and no difference in kind between reading for recall and either of them.
 
 :::predict Reading for recall really is slower, at something like 100 words a minute. If that is not a separate gear, what is it?
-It is ordinary reading with more work happening in it. Brysbaert reports that the extra time goes on "an increased structuring and organization of text information", visible as "many regressions and rereadings": the reader keeps going back. So they are not driving in a different gear, they are covering the same ground repeatedly in order to build something that will still be there tomorrow.
+It's ordinary reading with more work happening in it. Brysbaert reports that the extra time goes on "an increased structuring and organization of text information", visible as "many regressions and rereadings": the reader keeps going back. So they are not driving in a different gear, they are covering the same ground repeatedly in order to build something that will still be there tomorrow.
 
 Which is this lesson's argument arriving from the other direction. The time did not go on a mode of reading. It went on what the reader was trying to end up holding.
 :::
 
 :::callout What survives, and what to do with it
-**Reading against scanning is real.** Brysbaert says the best evidence for a difference in gear is there, and eye-tracking shows why: when you are hunting for a word rather than following an argument, forward jumps get longer, pauses get shorter, and how common the words are stops mattering. You are not reading slowly, you are doing a different thing.
+**Reading against scanning is real.** Brysbaert says the best evidence for a difference in gear is there, and eye-tracking shows why: when you are hunting for a word rather than following an argument, forward jumps get longer, pauses get shorter, and how common the words are stops mattering. You aren't reading slowly, you are doing a different thing.
 
 **The five-gear ladder is not.** Do not carry it around, and be careful with anyone who quotes you a words-per-minute figure for a kind of reading. Carver's numbers also sit on a "normal" rate of 300 words a minute that Brysbaert corrects to about 238; Carver had arrived at 300 partly from Buswell and Taylor and partly from his own earlier work on compressed speech, where he thought he had found a threshold near that figure.
 
-**What is left is the thing worth having**, and it is weaker and more useful than a ladder: what you are trying to get out changes what you do with your eyes and how long it takes, and reading for recall costs more because of the rereading it forces, not because you shifted a lever.
+**What is left is the thing worth having**, and it's weaker and more useful than a ladder: what you are trying to get out changes what you do with your eyes and how long it takes, and reading for recall costs more because of the rereading it forces, not because you shifted a lever.
 
 Those rates describe adult native English speakers reading for comprehension and staying on task, which is not everybody and not every occasion. Lesson 4 does the numbers properly.
 :::
@@ -168,18 +168,18 @@ Those rates describe adult native English speakers reading for comprehension and
 
 Take a twelve-page article on a change to local planning rules. Here is what each level leaves you holding.
 
-**Scanned**, in about ninety seconds: you find the date the rules take effect and close the tab. You now know one fact and nothing else, and if that was all you needed, you are finished and the other three options would have been waste. Scanning is the odd one out here: it is not one of Adler's four levels, and strictly it is not reading. It is the one distinction the measurements did support, which is why it earns a place beside them.
+**Scanned**, in about ninety seconds: you find the date the rules take effect and close the tab. You now know one fact and nothing else, and if that was all you needed, you are finished and the other three options would have been waste. Scanning is the odd one out here: it is not one of Adler's four levels, and strictly it's not reading. It is the one distinction the measurements did support, which is why it earns a place beside them.
 
-**Inspected**, in about ten minutes: you read the opening and closing sections, the subheadings, and the first line of each part. You can say it argues that the new rules will slow small developments, that it is built as three case studies followed by a recommendation, and that it is written by a body with an interest in the outcome. You can also say whether it is worth the next hour.
+**Inspected**, in about ten minutes: you read the opening and closing sections, the subheadings, and the first line of each part. You can say it argues that the new rules will slow small developments, that it's built as three case studies followed by a recommendation, and that it is written by a body with an interest in the outcome. You can also say whether it is worth the next hour.
 
-**Read analytically**, in about an hour: you can state its claim in a sentence, lay out the argument from the case studies to the recommendation, say that the second case study does most of the work, and point out that it never addresses whether the delays it measures were caused by the rules or by something else happening in the same period. That last sentence is the one you could not have produced at any lower level.
+**Read analytically**, in about an hour: you can state its claim in a sentence, lay out the argument from the case studies to the recommendation, say that the second case study does most of the work, and point out that it never addresses whether the delays it measures were caused by the rules or by something else happening in the same period. That last sentence is the one you couldn't have produced at any lower level.
 
 **Read syntopically**, across this and four other pieces over a week: you can say what the actual disagreement is between the people who study this, which turns out to be about how the delays are counted, and you can say which measurement would settle it.
 
 :::predict Same article, four readings. Which of the four was the best use of the reader's time?
-There is no answer without the reader's purpose, and that is the whole lesson. If you had to know when the rules start, the ninety-second scan was the best reading and the hour would have been an hour wasted. If you are deciding whether to object to the policy, the inspection was not enough and the analytical hour was the minimum. If you are writing something that other people will rely on, only the last one does the job.
+There is no answer without the reader's purpose, and that is the whole lesson. If you had to know when the rules start, the ninety-second scan was the best reading and the hour would have been an hour wasted. If you are deciding whether to object to the policy, the inspection wasn't enough and the analytical hour was the minimum. If you are writing something that other people will rely on, only the last one does the job.
 
-The failure this course is about is not reading at the wrong speed. It is not choosing, and then defaulting to the second gear for everything.
+The failure this course is about is not reading at the wrong speed. It's not choosing, and then defaulting to the second gear for everything.
 :::
 
 ## When the level changes halfway down the page
@@ -195,9 +195,9 @@ So: inspect the whole agreement first, which tells you what is in it and where. 
 You have inspected the agreement and found the damage clause. It says the tenant is responsible for "any damage beyond fair wear and tear".
 
 :::checkpoint Reading that clause analytically rather than swallowing it, what is the first thing you need, and what would you do about it?
-The first thing you need is the sense of "fair wear and tear", because the whole clause turns on it and you do not yet know what it means here. That is the move lesson 5 calls coming to terms with the author.
+The first thing you need is the sense of "fair wear and tear", because the whole clause turns on it and you don't yet know what it means here. That is the move lesson 5 calls coming to terms with the author.
 
-What you do about it is find out where that sense is fixed. Check the agreement first, in case it defines the phrase. Many do not, and that is not in itself a warning sign, because "fair wear and tear" is a term of art: its sense is settled outside the document, by the law and practice of wherever you are renting. In England and Wales, for instance, the tenancy deposit schemes publish what they will and will not treat as fair wear and tear when they adjudicate a dispute, and [one of them sets it out here](https://www.tenancydepositscheme.com/help-centre/). That is guidance from the body that would decide, which is the sort of source to want, and it is reading practice rather than legal advice.
+What you do about it is find out where that sense is fixed. Check the agreement first, in case it defines the phrase. Many do not, and that's not in itself a warning sign, because "fair wear and tear" is a term of art: its sense is settled outside the document, by the law and practice of wherever you are renting. In England and Wales, for instance, the tenancy deposit schemes publish what they will and will not treat as fair wear and tear when they adjudicate a dispute, and [one of them sets it out here](https://www.tenancydepositscheme.com/help-centre/). That is guidance from the body that would decide, which is the sort of source to want, and it's reading practice rather than legal advice.
 
 So the general move is: read the author harder, and occasionally go outside the text to the place the word is actually defined. Knowing which of those you are in is the skill.
 
@@ -214,7 +214,7 @@ Notice that the useful output of this reading was a question rather than a summa
 
 **"Faster is better."** Speed is an output of the level you chose, not a skill you apply on top. Lesson 4 takes the claim apart with the measurements, including the parts of it that survive.
 
-**"The level is a property of the book."** It is a relation between the book, you and what you need, which is why the same tenancy agreement gets two levels in two paragraphs.
+**"The level is a property of the book."** It's a relation between the book, you and what you need, which is why the same tenancy agreement gets two levels in two paragraphs.
 
 ## Practice
 
@@ -227,7 +227,7 @@ Take 25 minutes over this, on paper or in a note, and be honest rather than flat
 
 3. Beside that, write the level it deserved, given what you needed from it at the time. Not the level a diligent person would have given it. The level the job required.
 
-4. Circle every row where the two differ, and mark which way. Over-read is as much a mistake as under-read, and you will probably find both on your list.
+4. Circle every row where the two differ, and mark which way. Over-read is as much a mistake as under-read, and you'll probably find both on your list.
 
 5. Pick the worst under-read on the list, the one where the gap cost you something, and write one sentence on what you would have done differently.
 
@@ -245,7 +245,7 @@ The analytical rules arrive in lesson 5, once you can survey a book well enough 
 ## Go deeper
 
 - [Bacon's "Of Studies"](https://www.gutenberg.org/cache/epub/575/pg575.txt), in the *Essays* at Project Gutenberg. One page, public domain, four hundred years old, and it contains this lesson plus several arguments the course does not make. Search the page for "Of Studies".
-- Adler and Van Doren, *How to Read a Book*, chapter 2, "The Levels of Reading", five pages, and the source of the four levels. Chapter 1 is worth it too, for the distinction between reading for information and reading for understanding. It is in print and in most public libraries; [Open Library](https://openlibrary.org/works/OL1892819W/How_to_Read_a_Book) will find you a copy.
+- Adler and Van Doren, *How to Read a Book*, chapter 2, "The Levels of Reading", five pages, and the source of the four levels. Chapter 1 is worth it too, for the distinction between reading for information and reading for understanding. It's in print and in most public libraries; [Open Library](https://openlibrary.org/works/OL1892819W/How_to_Read_a_Book) will find you a copy.
 - [Brysbaert's meta-analysis of reading rate](https://gwern.net/doc/psychology/linguistics/2019-brysbaert.pdf), if you want to know now where the 300-words-a-minute figure came from and why it is too high. Lesson 4 uses it properly.
 
 ## Sources

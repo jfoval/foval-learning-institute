@@ -6,7 +6,7 @@ type: project
 
 Every lesson in this course has given you one move. This project is the first time you use all of them on something you actually want to know.
 
-You will take one question, find six texts that touch it, read two of them properly, three-pass a paper, source a document, build a vocabulary of your own, and finish with the issues stated rather than with a summary of each text in turn.
+You'll take one question, find six texts that touch it, read two of them properly, three-pass a paper, source a document, build a vocabulary of your own, and finish with the issues stated rather than with a summary of each text in turn.
 
 Budget about fifteen hours across two or three weeks. Most of that is reading you would have done anyway. What the project adds is the record, and the record is what makes the reading worth more than the hours.
 
@@ -14,7 +14,7 @@ Budget about fifteen hours across two or three weeks. Most of that is reading yo
 
 **Write it in one sentence, and put a question mark at the end.**
 
-A topic is not a question. "Sleep" is a topic. "How much does sleeping badly for one night cost me the next day?" is a question. So is "Should our team review code before merging or after?", and so is "Why did my grandmother's village empty out between 1950 and 1970?"
+A topic isn't a question. "Sleep" is a topic. "How much does sleeping badly for one night cost me the next day?" is a question. So is "Should our team review code before merging or after?", and so is "Why did my grandmother's village empty out between 1950 and 1970?"
 
 Two tests before you commit.
 
@@ -34,7 +34,7 @@ For each, write three lines:
 2. Does it speak to my question, and where? Name the parts.
 3. Read it, skim it, or put it down, and why.
 
-**The reasons are the deliverable here, not the verdicts.** "Not relevant" is not a reason. "Its index has four entries for my second term and none for my first, and its last chapter is about a different country" is a reason, and it comes from the book's own apparatus rather than from your impression of the cover.
+**The reasons are the deliverable here, not the verdicts.** "Not relevant" isn't a reason. "Its index has four entries for my second term and none for my first, and its last chapter is about a different country" is a reason, and it comes from the book's own apparatus rather than from your impression of the cover.
 
 Expect to put three or four of the six down. If you are keeping all six, your question is too broad or your surveys were too kind.
 
@@ -45,7 +45,7 @@ Take the two most useful and read them analytically, per lessons 5 and 7. For ea
 - **What kind of book it is**, and what it is about, in one sentence each.
 - **The whole in one sentence**, in your own words. Not the subtitle.
 - **An outline of the relevant part**, in order, with one line on how each part serves the claim.
-- **Three key terms**, with the author's sense of each, and the place in the text that fixed that sense. If you cannot name the place, you have not found a term yet.
+- **Three key terms**, with the author's sense of each, and the place in the text that fixed that sense. If you can't name the place, you have not found a term yet.
 - **A verdict naming one of Adler's four grounds**, with the reason. If no ground holds, write "no ground found, agreement in part" and mean it.
 
 At least one of your two verdicts should honestly reach agreement in part. If neither does, look again at whether you were reading to disagree.
@@ -64,11 +64,11 @@ Then the test: write the paragraph you could say aloud to somebody else, main th
 
 Apply lesson 9's four moves to the primary document: source it, contextualize it, corroborate it, read it closely.
 
-Then find a second account of the same thing and corroborate properly. The deliverable is not "which is true". It is **what each one is evidence of**, which is a different sentence and usually a more useful one.
+Then find a second account of the same thing and corroborate properly. The deliverable isn't "which is true". It is **what each one is evidence of**, which is a different sentence and usually a more useful one.
 
 ## Step 5: bring the authors to terms
 
-This is the step the whole project turns on, and lesson 10 warns you it is the hardest.
+This is the step the whole project turns on, and lesson 10 warns you it's the hardest.
 
 Your authors do not share a vocabulary. Find the two or three words they are using differently, define your own terms for them, and translate every author into your terms rather than accepting anyone's.
 
@@ -80,7 +80,7 @@ Write the translations out. Four authors, one paragraph each, in your words.
 
 Where do these authors actually disagree, once they are in one vocabulary?
 
-For each issue: what are the alternatives, who holds which, and **what evidence would settle it**. That last clause is the whole of step 5 in lesson 10, and it is the difference between a reading file and a book report.
+For each issue: what are the alternatives, who holds which, and **what evidence would settle it**. That last clause is the whole of step 5 in lesson 10, and it's the difference between a reading file and a book report.
 
 Then, and only then, your own answer, with the grounds it rests on.
 
@@ -107,7 +107,7 @@ The file itself is:
 | Judgement is grounded | Every verdict names one of Adler's four grounds, and at least one reaches "agree in part" honestly. |
 | Genres handled | The paper's five Cs are answered and its evidence assessed. The document is sourced, contextualized and corroborated. |
 | Issues, not summary | The file ends in stated issues with what would settle them, rather than in a précis of each text in turn. |
-| Honesty | Where you did not read something fully, the file says so. |
+| Honesty | Where you didn't read something fully, the file says so. |
 
 **That last row is deliberate and it is not a formality.** This course's own research file labels every source by how much of it was read: in full, in substantial part, at abstract level, at summary level only. Several lessons say in their own bodies which of their sources were never opened, and at least one lesson exists partly to show what that costs. The project asks you to do the same thing, because a reading file that hides its own depth is exactly the kind of document lesson 9 taught you to distrust.
 
@@ -115,6 +115,6 @@ The file itself is:
 
 It is not a literature review in the sense of a summary of each text in turn. Four summaries are four book reports with a staple in them.
 
-It is not a verdict dressed as research. If you knew the answer before step 1, the project will show it, because your six surveys will all have come back yes.
+It's not a verdict dressed as research. If you knew the answer before step 1, the project will show it, because your six surveys will all have come back yes.
 
 And it is not finished when the file is written. The point of stating what evidence would settle an issue is that you can then go and get it. That is where this course stops and the habit starts.

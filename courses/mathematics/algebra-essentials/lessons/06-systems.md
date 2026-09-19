@@ -159,7 +159,7 @@ quiz:
 
 Lesson 5 dodged something. The theatre problem had two unknown numbers in it, standard tickets and concessions, and the way round it was to call the concessions `c` and write the standard tickets as `3c`, so that only one letter ever appeared.
 
-That works when one quantity is described directly in terms of the other. Often it is not. You know two facts about two quantities and neither fact hands you one in terms of the other. Then you need both facts written down as equations, and a way of working with the pair.
+That works when one quantity is described directly in terms of the other. Often it's not. You know two facts about two quantities and neither fact hands you one in terms of the other. Then you need both facts written down as equations, and a way of working with the pair.
 
 ## What a pair of equations is claiming
 
@@ -171,9 +171,9 @@ Take these two.
 
 Each one on its own has an enormous number of solutions. The first is satisfied by `x = 1, y = 89` and by `x = 20, y = 70` and by `x = 90, y = 0`, and by infinitely many other pairs. The second is satisfied by a different infinite collection.
 
-Asking for a **solution of the pair**, which is what people mean by a **system**, is asking for the one pair of numbers that satisfies *both*. That is the whole idea, and everything else in this lesson is machinery for finding it.
+Asking for a **solution of the pair**, which is what people mean by a **system**, is asking for the one pair of numbers that satisfies *both*. That's the whole idea, and everything else in this lesson is machinery for finding it.
 
-The picture makes it obvious. Each equation is a straight line, in the sense of lesson 4: the line is made of all the pairs that satisfy it. Two lines that are not parallel cross at exactly one point, and that point is on both lines, so its two coordinates satisfy both equations.
+The picture makes it obvious. Each equation is a straight line, in the sense of lesson 4: the line is made of all the pairs that satisfy it. Two lines that aren't parallel cross at exactly one point, and that point is on both lines, so its two coordinates satisfy both equations.
 
 <svg viewBox="0 0 420 260" xmlns="http://www.w3.org/2000/svg" width="100%" style="max-width:420px;display:block;margin:1.5em auto;font-family:system-ui,sans-serif" role="img" aria-labelledby="sys-title sys-desc">
   <title id="sys-title">Two lines crossing at a single point</title>
@@ -213,16 +213,16 @@ Substitution is the method from lesson 5 made general. Get one letter alone in o
 
 `12x + 7(90 - x) = 880`
 
-**Now it is lesson 3.** Expand the bracket: `12x + 630 - 7x = 880`. Collect the `x` terms: `5x + 630 = 880`. Take 630 off both sides: `5x = 250`. Divide by five: `x = 50`.
+**Now it's lesson 3.** Expand the bracket: `12x + 630 - 7x = 880`. Collect the `x` terms: `5x + 630 = 880`. Take 630 off both sides: `5x = 250`. Divide by five: `x = 50`.
 
 **Find the other letter.** Put `x = 50` back into whichever equation is simpler: `y = 90 - 50`, so `y = 40`.
 
 **Check in both equations, not one.** First: `50 + 40 = 90`. Second: `12 × 50` is 600, `7 × 40` is 280, and `600 + 280 = 880`. Both hold, so the answer is fifty adult tickets and forty child tickets.
 
-The step people skip is the last one, and it is skipped because after all that work the answer feels earned. It is not earned until it survives both equations.
+The step people skip is the last one, and it's skipped because after all that work the answer feels earned. It is not earned until it survives both equations.
 
 :::checkpoint Solve `y = 2x - 1` together with `3x + y = 14`, then check. The first equation has `y` alone already, so the substitution is done for you: `3x + (2x - 1) = 14`. Finish it.
-Collect the `x` terms: `5x - 1 = 14`. Add one to both sides: `5x = 15`. Divide by five: `x = 3`. Then `y = 2 × 3 - 1`, which is 5. Check in both. The first: `5 = 2 × 3 - 1`, which is `5 = 5`. The second: `3 × 3 + 5` is `9 + 5`, which is 14. Notice that the pair `x = 3, y = 5` is one point, and it is the crossing point of those two lines.
+Collect the `x` terms: `5x - 1 = 14`. Add one to both sides: `5x = 15`. Divide by five: `x = 3`. Then `y = 2 × 3 - 1`, which is 5. Check in both. The first: `5 = 2 × 3 - 1`, which is `5 = 5`. The second: `3 × 3 + 5` is `9 + 5`, which is 14. Notice that the pair `x = 3, y = 5` is one point, and it's the crossing point of those two lines.
 :::
 
 ## Method two: elimination
@@ -243,11 +243,11 @@ The left gives `4x + y + 2x - y`, and the `+y` and the `-y` cancel, leaving `6x`
 
 Then substitute back into either equation: `4 × 3 + y = 14` gives `12 + y = 14`, so `y = 2`. Check in both: `12 + 2 = 14`, and `6 - 2 = 4`. Both hold.
 
-**Why is adding two equations allowed?** Because of the balance from lesson 2. The second equation says that `2x - y` and `4` are two names for the same number. Adding that number to the left side of the first equation and adding 4 to its right side is doing the same thing to both sides, which is the one move that keeps an equation true. Elimination is not a new rule; it is the old rule with a slightly cleverer choice of what to add.
+**Why is adding two equations allowed?** Because of the balance from lesson 2. The second equation says that `2x - y` and `4` are two names for the same number. Adding that number to the left side of the first equation and adding 4 to its right side is doing the same thing to both sides, which is the one move that keeps an equation true. Elimination isn't a new rule; it's the old rule with a slightly cleverer choice of what to add.
 
 ### When the coefficients do not match
 
-Most pairs are not so obliging. Here the letters do not cancel as they stand.
+Most pairs aren't so obliging. Here the letters don't cancel as they stand.
 
 **The situation.** Two coffees and three teas cost $11.50. Four coffees and one tea cost $13.50. What does each drink cost?
 
@@ -291,9 +291,9 @@ Elimination is easier when neither letter is alone and the coefficients are clos
 
 If you cannot decide, pick one. The wasted effort of choosing the clumsier method is smaller than the wasted effort of deliberating.
 
-## When there is no crossing point
+## When there's no crossing point
 
-Two lines that are not parallel cross exactly once. Two that are parallel never cross, and one line drawn twice crosses everywhere. Both of those show up in the algebra as something odd.
+Two lines that aren't parallel cross exactly once. Two that are parallel never cross, and one line drawn twice crosses everywhere. Both of those show up in the algebra as something odd.
 
 **No solution.** Take `y = 2x + 1` and `y = 2x + 5`. Try substituting the first into the second before you open the answer, and see what you're left with.
 
@@ -301,15 +301,15 @@ Two lines that are not parallel cross exactly once. Two that are parallel never 
 Substituting gives `2x + 1 = 2x + 5`. Take `2x` off both sides and you get `1 = 5`, which is false no matter what `x` is. So no pair of numbers satisfies both. Look at the two equations again: both lines climb at a rate of 2 and they start at different heights, so they run alongside each other for ever.
 :::
 
-**Infinitely many solutions.** Take `2x + y = 6` and `4x + 2y = 12`. Multiply the first by 2 and you get the second exactly. Eliminating gives `0 = 0`, which is true and tells you nothing about `x`. It is one line written in two ways, and every point on it is a solution.
+**Infinitely many solutions.** Take `2x + y = 6` and `4x + 2y = 12`. Multiply the first by 2 and you get the second exactly. Eliminating gives `0 = 0`, which is true and tells you nothing about `x`. It's one line written in two ways, and every point on it is a solution.
 
 So when the letters vanish, read what is left. A false statement like `0 = 7` means the lines are parallel and there is no answer. A true statement like `0 = 0` means the two equations are the same line. Neither is a mistake, and both are worth recognising rather than staring at.
 
 ## What people get wrong
 
-**Forgetting that the answer is a pair.** "The solution is 3" is not an answer to a system. The solution is `x = 3` and `y = 2`, and a question about tickets or drinks wants both numbers with their units.
+**Forgetting that the answer is a pair.** "The solution is 3" isn't an answer to a system. The solution is `x = 3` and `y = 2`, and a question about tickets or drinks wants both numbers with their units.
 
-**Checking in one equation only.** Half the arithmetic slips available in this lesson produce a pair that satisfies one equation and fails the other. Checking one is not much better than checking none.
+**Checking in one equation only.** Half the arithmetic slips available in this lesson produce a pair that satisfies one equation and fails the other. Checking one isn't much better than checking none.
 
 **Multiplying only part of an equation.** Doubling `2c + 3t = 11.50` means doubling the 11.50 as well. Leaving the right side alone breaks the claim, and the answer that follows will fail the check.
 
@@ -354,7 +354,7 @@ Lesson 5's naming and numerical checking is what turns a situation with two unkn
 
 ## Where this course stops, and what comes next
 
-That is the course. You can say what a letter means, keep an equation true while you change it, solve one for its unknown, read and write a straight line, turn a sentence into an equation, and handle two unknowns at once. That is the working core of elementary algebra.
+That's the course. You can say what a letter means, keep an equation true while you change it, solve one for its unknown, read and write a straight line, turn a sentence into an equation, and handle two unknowns at once. That's the working core of elementary algebra.
 
 What this course deliberately leaves out is quadratics, factoring, exponents, and inequalities. Those need more space than a foundation course has. Two free places to get them, both good:
 

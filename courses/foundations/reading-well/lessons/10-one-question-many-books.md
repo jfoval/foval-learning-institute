@@ -49,7 +49,7 @@ quiz:
     explain: A summary hands you somebody else's decisions about what mattered, and in syntopical work the framing is exactly the thing being examined, so B. A overstates and is easy to refute with one good summary. C is the misconception the lesson answers. D is a real and defensible practice, which is why it is the tempting wrong answer, but it does not answer the objection about framing.
 ---
 
-This is the last lesson, and it is the level lesson 1 named and then left alone.
+This is the last lesson, and it's the level lesson 1 named and then left alone.
 
 Everything so far has been one reader and one text. The survey decided whether to read it, the diagnosis explained why it was hard, the terms and the argument came out of it, the marks recorded what you thought, and the four grounds judged it.
 
@@ -61,7 +61,7 @@ Adler calls this the fourth level of reading, syntopical, and the framing is the
 
 > In syntopical reading, it is you and your concerns that are primarily to be served, not the books that you read.[1]
 
-Read that against what you have been doing for nine lessons. Analytical reading serves the book. You work out what the author claimed and whether it holds, and the measure of success is that the author would recognise your account. Syntopical reading serves you. The books are evidence about your question, and much of each book will not bear on it.
+Read that against what you have been doing for nine lessons. Analytical reading serves the book. You work out what the author claimed and whether it holds, and the measure of success is that the author would recognise your account. Syntopical reading serves you. The books are evidence about your question, and much of each book won't bear on it.
 
 That inversion is the reason people get this wrong. The natural plan is to read the four books properly, one after another, and compare at the end. Adler names why that fails: it "would be to place the individual books first in the order of your priorities, and your problem second".[1] Do it that way and you finish with four summaries and the same question you started with, because you never framed it in a way all four could answer.
 
@@ -92,14 +92,14 @@ Here is a narrow question and four texts this course has already used, so you ca
 - Keshav, on reading a paper: three passes, the first of which reads the headings and ignores everything under them, and the second of which marks the references you have not read rather than chasing them.[3]
 - Harvard Library, on annotation: hear yourself asking questions as you read, and write them down, because they are "reminders of the unfinished business you still have with a text".[4]
 
-**Step 2, bringing them to terms.** They do not share a vocabulary, and two words are doing different jobs in different mouths.
+**Step 2, bringing them to terms.** They don't share a vocabulary, and two words are doing different jobs in different mouths.
 
 *Understand.* Ruskin's is understanding a word. Adler's is understanding an argument. Keshav's is narrower still and genre-specific: understanding what a paper contributes.
 
 *Stop.* Adler forbids stopping during one particular traversal of one particular kind of book. Ruskin is not describing a traversal at all; he is describing a lifelong habit.
 
 :::predict Four authors, and two words doing different jobs in different mouths. Before you read mine: what two terms would you build to compare them, and what does each one have to be neutral about?
-Mine are below, and if yours are different that is not a failure. The test of a term here is not elegance. It is whether all four authors can be stated in it without any of them having to be bent.
+Mine are below, and if yours are different that's not a failure. The test of a term here is not elegance. It is whether all four authors can be stated in it without any of them having to be bent.
 
 What mine have to be neutral about is the two things these authors disagree on without noticing: how much reading counts as one go, and what counts as settling a difficulty.
 :::
@@ -111,9 +111,9 @@ So here are my two terms, built for the question rather than taken from anyone.
 
 Now translate.
 
-- Adler: on a first pass through a hard book, do not resolve.
+- Adler: on a first pass through a hard book, don't resolve.
 - Keshav: on the first pass, do not even go to the places the difficulties live; on the second, read with care and still defer, ignoring the proofs and marking the references rather than chasing them.
-- Harvard: record the question at the moment it arises, so that whether you settle it now or later, it is still there to be settled.
+- Harvard: record the question at the moment it arises, so that whether you settle it now or later, it's still there to be settled.
 - Ruskin: resolve, at the grain of the word, as a standing habit.
 
 :::predict Look at those four translations. One of the four authors is not answering the same question as the other three. Which, and why?
@@ -121,27 +121,27 @@ Ruskin, but not in the way it first looks. He does answer this question, and he 
 
 What differs is the scope. Adler's prohibition is scoped to one traversal of one kind of book, and he can afford it because a second traversal is coming. Ruskin's instruction carries no scope at all. He does have a second pass, and says a book is not serviceable "until it has been read, and re-read",[2] but he never makes the prohibition depend on which pass you are in.
 
-That is what step 2 buys you. Before the translation it looked like a flat three-to-one vote about stopping. Afterwards it is a question about whether the instruction is a property of the first pass or of reading as such, and that question is the thing to take away.
+That's what step 2 buys you. Before the translation it looked like a flat three-to-one vote about stopping. Afterwards it is a question about whether the instruction is a property of the first pass or of reading as such, and that question is the thing to take away.
 :::
 
 **Step 3, getting the questions clear.** The original question was hiding two.
 
-- Q1: during a pass, should a local difficulty be resolved at the moment it is met?
+- Q1: during a pass, should a local difficulty be resolved at the moment it's met?
 - Q2: at what grain should a difficulty be resolved when it is resolved at all? The word, the sentence, the argument?
 
-**Step 4, defining the issues.** On Q1 there is a real issue after all, and it is narrower than the original vote. Adler, Keshav and the Harvard guide all give instructions that presuppose more than one traversal and put the settling later. Ruskin gives his unscoped. So the issue is not "stop or keep going". It is whether the prohibition is a property of the first pass or of reading as such, and Ruskin is the only one of the four who does not make it a property of a pass.
+**Step 4, defining the issues.** On Q1 there is a real issue after all, and it's narrower than the original vote. Adler, Keshav and the Harvard guide all give instructions that presuppose more than one traversal and put the settling later. Ruskin gives his unscoped. So the issue is not "stop or keep going". It's whether the prohibition is a property of the first pass or of reading as such, and Ruskin is the only one of the four who does not make it a property of a pass.
 
 On Q2 there is a second issue, about grain, between Ruskin, whose grain is the word, and Adler, whose grain is the argument, with Keshav sitting between them and choosing by genre.
 
-That second one is a real disagreement, and it is not resolved by translation. Ruskin would say that a reader who cannot give you the meaning of a word does not understand the sentence it is in. Adler would say that a reader can grasp an author's argument while still being unsure of a word, and that the argument is what the book is for.
+That second one is a real disagreement, and it's not resolved by translation. Ruskin would say that a reader who cannot give you the meaning of a word does not understand the sentence it's in. Adler would say that a reader can grasp an author's argument while still being unsure of a word, and that the argument is what the book is for.
 
 **Step 5, analysing the discussion.** And here is the step people skip, because it does not feel like an answer.
 
-Adler's name for what this step is trying to be is **dialectical objectivity**, and his definition of it is one sentence: "The syntopical reader, in short, tries to look at all sides and to take no sides."[1] He is honest that it is an exacting ideal nobody meets. "Absolute objectivity is not humanly possible", and the half you will fail at is looking at all sides rather than taking none, because "all possible sides of an issue cannot be exhaustively enumerated". His instruction is to try anyway.[1]
+Adler's name for what this step is trying to be is **dialectical objectivity**, and his definition of it is one sentence: "The syntopical reader, in short, tries to look at all sides and to take no sides."[1] He is honest that it's an exacting ideal nobody meets. "Absolute objectivity is not humanly possible", and the half you will fail at is looking at all sides rather than taking none, because "all possible sides of an issue cannot be exhaustively enumerated". His instruction is to try anyway.[1]
 
 So what you write down is the issues with their alternatives ordered, and not a verdict. What you now have is better than a verdict: you know that the question you started with was two questions, that one of them turns on scope and the other on grain, and which author to go back to for each.
 
-If you want my view, it is in lesson 5 and lesson 2, and it is that both grains are right in an order: Adler's on the first pass, Ruskin's on the second, when you know which words were load-bearing. But notice that my view is a fifth position, and that having it is not what step 5 produced. Step 5 produced the ground on which I could have one.
+If you want my view, it is in lesson 5 and lesson 2, and it's that both grains are right in an order: Adler's on the first pass, Ruskin's on the second, when you know which words were load-bearing. But notice that my view is a fifth position, and that having it is not what step 5 produced. Step 5 produced the ground on which I could have one.
 
 ## A disagreement that dissolves
 
@@ -156,19 +156,19 @@ Run step 2 on the word *work* and the contradiction dissolves, because two claim
 
 On Claim A the evidence is against the programmes and the arithmetic in lesson 4 is against them too. On Claim B the same researchers concede the point: speed-reading programmes do appear to train skimming, which is a real skill.[5]
 
-So there is no disagreement about a fact. There is one word carrying two claims, and the claim being sold is A while what the evidence supports is B.
+So there's no disagreement about a fact. There is one word carrying two claims, and the claim being sold is A while what the evidence supports is B.
 
 :::checkpoint You are comparing three authors on whether a particular study technique is effective. Two say yes and one says no. Before you record that as a two-to-one disagreement, what does step 2 require you to check?
 Whether "effective" means the same thing in all three mouths, and whether the three are measuring the same outcome over the same interval.
 
 That is where these disputes usually live. One author means performance at the end of the session, another means retention a week later, and lesson 1 of How to Learn Anything is about how sharply those two come apart. Two authors who look as though they disagree about a technique may agree entirely and be reporting different measurements.
 
-What you write down is not "two to one". It is the question split into the two it was hiding, with each author's answer attached to the one he was actually answering. Then, if a real disagreement survives, you have found something.
+What you write down isn't "two to one". It is the question split into the two it was hiding, with each author's answer attached to the one he was actually answering. Then, if a real disagreement survives, you have found something.
 :::
 
 ## What people get wrong
 
-**"I should read the books first and compare afterwards."** The question comes first and governs what you read. Read the books first and you will have read the wrong parts of all of them.
+**"I should read the books first and compare afterwards."** The question comes first and governs what you read. Read the books first and you'll have read the wrong parts of all of them.
 
 **"Syntopical reading means agreeing with everyone."** It means understanding the disagreement well enough to state it in terms neither party chose. That is harder than agreeing and harder than taking a side, and it is the only thing that produces a question worth working on.
 
@@ -182,13 +182,13 @@ Francis Bacon's "Of Studies" is one page, four hundred years old, in the form he
 
 > Some books also may be read by deputy, and extracts made of them by others; but that would be only in the less important arguments, and the meaner sort of books, else distilled books are like common distilled waters, flashy things.[6]
 
-Read *by deputy* means read by somebody else on your behalf. *Flashy* in 1625 meant insipid, watery, without taste. So the claim is that a summary of an important book is a watered-down thing, and Bacon allows it only for books that did not matter much in the first place.
+Read *by deputy* means read by somebody else on your behalf. *Flashy* in 1625 meant insipid, watery, without taste. So the claim is that a summary of an important book is a watered-down thing, and Bacon allows it only for books that didn't matter much in the first place.
 
 He is writing about a world in which the extract was made by another person, by hand.
 
 The sentence has not aged in its reference. A book summary, an executive briefing and a machine's answer about a book are all extracts made by another. But Bacon's own objection to them is that the distillate is thin, and this course has a different one, which is the thing this lesson has been building: every one of those hands you somebody else's decisions about what mattered, and in syntopical work those decisions are the thing under examination. The framing is what you came for, and a summary is the one part of a book guaranteed not to contain it.
 
-Bacon is not saying never read a summary. He is saying know which kind of book you are doing it to. Notice that he sorts the books, which is the move lesson 1 said Adler improved on by putting the decision with the reader instead. Your purpose belongs in this too: a summary of an important book may be exactly the right thing when all you need is to know whether to open it.
+Bacon isn't saying never read a summary. He is saying know which kind of book you are doing it to. Notice that he sorts the books, which is the move lesson 1 said Adler improved on by putting the decision with the reader instead. Your purpose belongs in this too: a summary of an important book may be exactly the right thing when all you need is to know whether to open it.
 
 ## Practice
 
@@ -207,7 +207,7 @@ This is the course project and it starts here, in two sittings.
 
 Stop there for this sitting. The course project, *One question, four texts*, has the rest: the two analytical readings, the paper, the document, and the issues.
 
-If step 4 produces the result that two of your authors were never disagreeing, that is not a failure of your question. It is the most valuable thing this course can hand you, and it is what the whole of lesson 5 was building towards.
+If step 4 produces the result that two of your authors were never disagreeing, that is not a failure of your question. It is the most valuable thing this course can hand you, and it's what the whole of lesson 5 was building towards.
 :::
 
 :::exercise The summary test
@@ -228,11 +228,11 @@ Then compare the two lists on one question only. How many rows have a gap betwee
 
 ## Connections
 
-This lesson uses all nine of the others, which is the point of putting it last. Lesson 2 selects, lesson 3 diagnoses, lesson 4 supplies the speed-reading case above, lessons 5 and 6 read and record, lesson 7 judges, and lessons 8 and 9 handle the genres you will meet.
+This lesson uses all nine of the others, which is the point of putting it last. Lesson 2 selects, lesson 3 diagnoses, lesson 4 supplies the speed-reading case above, lessons 5 and 6 read and record, lesson 7 judges, and lessons 8 and 9 handle the genres you'll meet.
 
 Lesson 1 gave you four levels and said the higher ones contain the lower. This is the one that contains all three, and it is worth noticing what has changed since then. In lesson 1 the levels were a claim you took on trust. Now you have done three of them and can say what each is for, and lesson 1's other claim still stands: none of them is better in itself, and the syntopical hour is wasted if what you needed was a date.
 
-What comes after this course is not another level. It is the project, and then the habit.
+What comes after this course is not another level. It's the project, and then the habit.
 
 ## Go deeper
 
