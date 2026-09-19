@@ -67,6 +67,36 @@ Rewrite these five lines each session. Nothing else goes in this block.
   claims about itself, so under root rule 8 it is John's decision and not a drafter's. Nothing is
   blocked: the course is live without it.
 
+- **Time Management is through Stage 2 and ready to draft.** T1, seventh and last of the Tools
+  term, `status: drafting`. 4,900 words of research and a 5,400-word outline planning eight lessons,
+  a twenty-item test and a fortnight-long project. Start at lesson 1 with
+  `/draft-lesson courses/learning-and-mind/time-management 1`.
+
+  **Read the outline's "Six decisions this outline settles" before drafting anything.** Two change
+  what a drafter may write. The course says "your hours" and never "productivity", because the one
+  meta-analysis in the subject finds the wellbeing effect larger than the performance effect, and a
+  course leading with performance would be promising the thing its own evidence supports least. And
+  **every exercise must work for a reader whose week is mostly fixed**: a shift worker, a carer, a
+  self-employed tradesperson. Lesson 6 is built around that reader rather than treating them as an
+  exception.
+
+  **The research found something that shapes the whole course and is worth knowing before you
+  open it.** There is no canonical textbook and there are no university syllabi. The nearest thing
+  to a textbook chapter says the field "has made its way into the literature without being
+  accompanied by empirical research", and that the term itself is misleading because time cannot be
+  managed. The course is short and honest for that reason, and it spends its first two lessons on
+  measurement.
+
+  **The whole trade canon is on the `unread:` line** and the build fails on a citation to any of it.
+  Allen, Covey, Drucker, Lakein, Burkeman and Newport are named in lesson 8 as widely read and cited
+  for nothing. **If John wants one opened properly, Burkeman is the one**, because he argues against
+  the genre's own premise; that is a Stage 1 job and is not blocking.
+
+  **Lesson 8 carries everything perishable**, per Using AI Effectively's pattern, and its worked
+  example is a number traced to nothing: the twenty-three minutes attributed to Gloria Mark's
+  interruption research is in neither paper it is attributed to, and the second paper's actual
+  finding is close to the opposite. Both papers were read for this file.
+
 - **Digital Literacy lessons 1 to 12 are drafted, reviewed, applied and scripted.** The only
   content work left on the course is lesson 13, which is blocked on John below. **Read lesson 8's
   review file before drafting anything else here**, in particular its cold-start finding: six terms
