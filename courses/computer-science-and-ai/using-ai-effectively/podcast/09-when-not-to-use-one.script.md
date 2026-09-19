@@ -1,11 +1,19 @@
 ---
 source: courses/computer-science-and-ai/using-ai-effectively/lessons/09-when-not-to-use-one.md
 written_by: Claude, by hand, from the lesson text
+checked: >-
+  All three of the study's figures travel together wherever any of them appears, and its scope
+  travels with them, which is what the lesson insists on. The lesson's generalisation from
+  schoolchildren to work is labelled in the episode as the course's own reasoning rather than as a
+  finding, and declining to use one of these systems is framed as neither a mistake nor a virtue.
+  Nothing has been added that the lesson does not say. Fact-checked in a fresh-context subagent
+  against the lesson on 2026-09-19: verdict PASS WITH NITS, and all five nits were fixed in this
+  file before rendering, including a NIST quotation that had been re-worded inside its own marks.
 about: >-
   About eight minutes. Haley opens, because the engine gives the first turn to the second voice.
   Hosts are John (S1) and Haley (S2). Ninth episode for Using AI Effectively. The episode leaves
-  out the withdrawal-letter case, the checkpoint on this week's files, most of the five beliefs
-  worth testing, and both exercises.
+  out the withdrawal-letter case, the checkpoint on this week's files, and most of the five beliefs
+  worth testing. Both exercises are summarised rather than given in full.
 speakers: 2
 approx_minutes: 8
 ---
@@ -104,7 +112,11 @@ S1: It's the guarded condition, run by her rather than by a designer. She attemp
 
 S2: Does this lesson think declining is the right answer?
 
-S1: No, and it's careful in both directions. The standards body names over-reliance, which it calls excessive deference to automated systems, and in the same section it names the opposite failure: human experts may be unnecessarily averse to these systems, and thus deprive themselves or others of their beneficial uses.
+S1: It declines to say either way, and it's careful in both directions. NIST names over-reliance, which it calls excessive deference to automated systems, and in the same section it names the opposite failure. I'll read it as they wrote it: human experts may be unnecessarily averse to GAI systems, and thus deprive themselves or others of GAI's beneficial uses.
+
+S2: And the word doing the work there.
+
+S1: Unnecessarily. Somebody who doesn't want to use one of these isn't thereby being averse in NIST's sense, and the reason can be this lesson's trade or it can be a reason the course has no standing to weigh.
 
 S2: So the course is against both.
 
@@ -112,7 +124,7 @@ S1: Declining isn't a mistake and it isn't a virtue either. It's a decision with
 
 S2: And the exercise asks you to act on that.
 
-S1: Two of them. One asks you to stop something, and to write down what you'll do instead and how much longer it'll take. The other is the harder half, which is redesigning a task you intend to keep, so that you still do the part that builds the judgement.
+S1: Two of them, and the first has two halves. If it's a task you hand over now, stop handing that one over, and write down what you'll do instead and how much longer it'll take. If it's one you've already declined, the step is the mirror image: write down what declining is costing you, and what you'd need to see to change your mind. The second exercise is the harder half, which is redesigning a task you intend to keep, so that you still do the part that builds the judgement.
 
 S2: That's the episode. We've left out a case where handing the work over costs nothing at all, a checkpoint, and both exercises in full. The full lesson is at Foval Learning Institute dot org. Thanks for listening.
 

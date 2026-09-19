@@ -1,11 +1,20 @@
 ---
 source: courses/computer-science-and-ai/using-ai-effectively/lessons/07-confident-and-wrong.md
 written_by: Claude, by hand, from the lesson text
+checked: >-
+  Every figure, name and quotation below appears in the lesson, and each quotation was checked by
+  string match rather than by eye, because this course's reviews have repeatedly found quotations
+  drifting inside their own marks. Nothing has been added that the lesson does not say. The course
+  is in a neutral school with no standpoint to preserve. Fact-checked in a fresh-context subagent
+  against the lesson on 2026-09-19: verdict PASS WITH NITS, and all six nits were fixed in this
+  file before rendering, including the one that mattered, which was that cutting the calibration
+  study had left the episode one-sided where the lesson refuses both sides.
 about: >-
   About eight minutes. Haley opens, because the engine gives the first turn to the second voice.
   Hosts are John (S1) and Haley (S2). Seventh episode for Using AI Effectively. The episode leaves
-  out the invented-reference worked case, the calibration study, the vendor-claim predict block,
-  the misconception list and both exercises.
+  out the fabricated citation in the invented-source worked case (though it keeps that case's
+  checking steps), the calibration study, the vendor-claim predict block, four of the five
+  misconceptions, and both exercises.
 speakers: 2
 approx_minutes: 8
 ---
@@ -32,7 +41,7 @@ S1: Structural. NIST puts it as the design working rather than failing. Confabul
 
 S2: Does NIST say where it's worst?
 
-S1: And the sentence is worth having because it predicts your own experience. The dynamic is particularly relevant when it comes to open-ended prompts for long-form responses and in domains which require highly contextual and slash or domain expertise.
+S1: It does, and the sentence is worth having because it predicts your own experience. The dynamic is particularly relevant when it comes to open-ended prompts for long-form responses and in domains which require highly contextual and slash or domain expertise.
 
 S2: Open-ended, long, and specialist.
 
@@ -84,7 +93,7 @@ S1: It's been measured, and the measurement is worth more than any argument eith
 
 S2: And the result?
 
-S1: The study's finding, and I'll say it in its own terms rather than read the sentence out with its brackets. Hallucinations are reduced relative to general-purpose chatbots, and GPT four is the chatbot they compared against. And the tools made by LexisNexis and Thomson Reuters each hallucinate between seventeen and thirty-three percent of the time.
+S1: The study's finding, not word for word, because the sentence is full of brackets, but the finding is this. Hallucinations are reduced relative to general-purpose chatbots, and GPT four is the chatbot they compared against. And the tools made by LexisNexis and Thomson Reuters each hallucinate between seventeen and thirty-three percent of the time.
 
 S2: Both halves of that matter.
 
@@ -109,6 +118,10 @@ S1: Fluency is a property of the text. That was lesson six's sentence about benc
 S2: And distrusting the fluent ones instead?
 
 S1: Hedging is a feature of produced text too. A reader who learns to distrust the confident answers and trust the careful-sounding ones has changed which non-signal they're reading, and not much else.
+
+S2: So it has no idea whether it's right.
+
+S1: And that's the sentence the lesson refuses as well, in the other direction. There's a measured result on these systems judging their own answers, and it's the part of the lesson we've had to leave out. The honest position is neither of the two you'll hear: not "it has no idea", and not "just ask it how confident it is".
 
 S2: That's the episode. We've left out the invented-reference worked case, a careful result on whether these systems know what they know, and both exercises. The full lesson is at Foval Learning Institute dot org. Thanks for listening.
 
