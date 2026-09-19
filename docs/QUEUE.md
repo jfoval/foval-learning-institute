@@ -104,8 +104,8 @@ Rewrite these five lines each session. Nothing else goes in this block.
   4,800-word outline planning eight lessons, an eighteen-item test and a project that runs across
   the course. T2, fifth in the term on running yourself. **All eight lessons are drafted and the
   project is written. Lessons 1 to 6 have been reviewed and every finding is applied; lesson 7's
-  review is running and lesson 8 owes one. The eighteen-item course-end test is still to write, and
-  then the course publishes.**
+  review is running and lesson 8 owes one. The eighteen-item course-end test is written. **What is
+  left is those two reviews, and then the course publishes.**
 
   **The outline's main decision was how many lessons go to practices with no evidence behind
   them, and the answer is none: they go inside lesson 7.** The research
