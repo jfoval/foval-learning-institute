@@ -67,36 +67,47 @@ Rewrite these five lines each session. Nothing else goes in this block.
   claims about itself, so under root rule 8 it is John's decision and not a drafter's. Nothing is
   blocked: the course is live without it.
 
-- **Time Management is drafting, lessons 1 to 5 of 8 done.** T1, seventh and last of the Tools
-  term, `status: drafting`. 4,900 words of research and a 5,400-word outline planning eight lessons,
-  a twenty-item test and a fortnight-long project. **Lessons 1, 2 and 3 have had their Stage 4
-  review and the fixes are applied and committed**; lessons 4 and 5 are in review. Lessons 6, 7 and
-  8 are next and `npm run state` names the one to draft.
+- **Time Management is drafted end to end: all eight lessons, both assessments, seven of eight Stage
+  4 reviews applied.** T1, seventh and last of the Tools term. Lesson 8's review is the only thing
+  outstanding before it publishes, and publishing means `status: published`, the TAXONOMY.md row, and
+  eight lessons added to `curriculum/audio-debt.yaml` in the same commit.
 
-  **Stage 4 failed the fact-check on every one of the first three lessons, and in the same way each
-  time.** Every quotation was verbatim and every figure matched the research file digit for digit.
-  Every single failure was in a sentence with no quotation marks in it: a between-person finding
-  reported as a within-person one, a coinage credited to the paper that borrowed it, a mechanism the
-  source explicitly pre-empts, a cross-reference to a recommendation the other lesson declines to
-  make, an invented reason for a study's attrition. **`/draft-lesson`'s note that this drafter
-  quotes accurately and describes carelessly is now confirmed on a third course**, and the useful
-  instruction for a reviewer is the one already written there: point the review at the sentences
-  with no quotation marks in them.
+  **Stage 4 failed the fact-check on every lesson it has reviewed, and in the same way every time.**
+  Seven reviews, seven fact-check failures. Every quotation in the course string-matched its source
+  character for character, and every figure matched the research file digit for digit. **Every
+  single failure was in a sentence with no quotation marks in it.** A between-person finding reported
+  as a within-person one; a coinage credited to the paper that borrowed it; a mechanism the source
+  explicitly pre-empts; a cross-reference to a recommendation the other lesson declines to make; an
+  invented reason for a study's attrition; a comparative hardened into a condition, twice, on
+  consecutive lessons. `/draft-lesson`'s note that this drafter quotes accurately and describes
+  carelessly is now confirmed on a third course, and the instruction that follows from it is the one
+  already written there: **point the review at the sentences with no quotation marks in them.**
 
-  **Two findings changed lessons for the better rather than just repairing them**, which is worth
-  knowing before anybody treats a review as a tax. Lesson 2's worked case claimed eleven hours were
-  "missing" when eleven was the change in a predicted-category total; the real residue is 54 waking
-  hours, and the rule became "go into the residue and name the biggest thing in it" instead of
-  something no reader's sheet would have supported. Lesson 3 picked the three actual-over-predicted
-  ratios that agree, and its own table a hundred lines below gives 1.2; the lesson now runs that
-  division itself.
+  **Arithmetic is the second pattern and it is newer.** Three lessons shipped a broken sum: lesson 5
+  double-counted a lunch break and divided by the wrong number of stretches, and lesson 7 got a total
+  wrong and then built a conclusion on a figure that came from nowhere. **All three were the only sum
+  in their lesson, and all three were the worked example the exercise then asks the reader to
+  reproduce.** A reviewer told to redo every number by hand found all of them; nothing else did.
+  **Ask for that explicitly in the review prompt.**
 
-  **The contraction defect went both ways in one session and the repair is the unstable part.**
-  Lesson 2 drafted at 0.5 per 1,000 and lesson 5 at 0.3, which is defect 15 as written. Lesson 3
-  was drafted with contractions in deliberately and came in at 10.7, over the band. Lesson 5's
-  repair overshot to 15.0 before landing at 7.2. **Measure after the repair, every time**, and note
-  that a mechanical expansion pass can leave broken clauses behind: one did, and it was caught by
-  eye rather than by the validator.
+  **Defect 20 recurred five times in one course**, which is what produced the note now in
+  `/draft-lesson`: the drafter writes the honest footnote first and the footnote then feels like the
+  job done. Twice the footnote had no marker in the body at all, so the admission was unreachable.
+
+  **Two defects were this session's tooling rather than the drafter's**, and both are worth knowing.
+  A re-wrapping helper joined a closing `:::` onto the end of the previous line, so a checkpoint
+  swallowed half of lesson 6 including its entire statement of the value question; `npm run validate`
+  caught it and the session's grep did not, because that check reports against the directory rather
+  than the file. And a whitespace-tolerant regex used for edits collapses YAML block scalars onto one
+  line, which broke frontmatter four times. **A quiz option containing a colon parses as a YAML map**
+  and would reach a learner as `[object Object]`; that happened three times and the validator caught
+  every one.
+
+  **The contraction repair is unstable in both directions.** Across eight lessons it went under the
+  band four times and over it four times, and a mechanical expansion pass leaves clauses like "you've
+  discretionary hours" behind, which the validator cannot see. Measure after the repair, read the
+  sentences the pass touched, and note that a hand count reads about double because the validator
+  excludes possessives; one reviewer reported the whole course as over band on that mistake.
 
 - **Digital Literacy lessons 1 to 12 are drafted, reviewed, applied and scripted.** The only
   content work left on the course is lesson 13, which is blocked on John below. **Read lesson 8's
