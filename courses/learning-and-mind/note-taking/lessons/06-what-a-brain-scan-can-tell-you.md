@@ -64,17 +64,20 @@ quiz:
       activation. Sample size, region naming and imaging method are all worth asking about and all
       of them come after the question of whether the outcome was measured at all.
   - q: >-
-      The commentary says the study reported only the difference between conditions, not each
-      condition on its own. Why is that a problem?
+      A trial reports that a morning-light group slept 22 minutes longer than a control group, and
+      prints no figure for either group on its own. What can a reader not tell?
     options:
-      - Because a difference can be produced by either condition changing, and you cannot tell which
-      - Because differences are less reliable statistics than the values they are computed from
-      - Because the authors should have published their raw data alongside the paper
-      - Because it prevents other researchers from replicating the analysis exactly
+      - Whether the light group rose, the control group fell, or both moved a little
+      - Whether a difference that size would matter to anybody's ordinary week
+      - Whether the trial enrolled enough people for the comparison to mean anything
+      - Whether the two groups were alike before the trial started, or already differed
     answer: 0
     explain: >-
-      With only the difference, a reader cannot assess either condition independently, which is this course's reading of why the commentary's objection matters. Replication and data sharing are real concerns and are not what it
-      raises here, and a difference is not inherently a less reliable statistic.
+      A gap between two groups can be produced by either of them moving, so with only the gap
+      printed the reader cannot say which did, which is the third objection of this lesson applied
+      somewhere else. How much twenty minutes matters, how many people were enrolled, and whether
+      the groups started alike are all fair questions about a trial, and none of them is the
+      question the missing numbers create.
   - q: >-
       After reading both papers, what is the honest position on whether handwriting is better for
       learning?
@@ -245,6 +248,38 @@ And this course has nothing to say about it. Every study it read was on adults. 
 own participants were university students. **Nothing read for this course bears on children at
 all**, in either direction, and a lesson that used an adult finding to take a side in an argument
 about schools would be doing the thing lessons 1 to 5 were about.
+
+## The same count, outside the brain
+
+The step count isn't really about brains. It works anywhere a number stands in for the thing
+somebody is claiming, so here's one with no scanner in it. **This case is invented for the lesson
+rather than drawn from a source**, because what's being shown is the arithmetic and not the case.
+
+A school district spends a year on a new reading programme and reports a result: library check-outs
+are up forty per cent. The press release says literacy is rising.
+
+Count. The district measured check-outs. Other work, which the release gestures at without naming,
+associates how much children read with how well they read. The claim is about literacy. **That's
+two steps from the measurement to the claim, and the release has evidence for the first one**,
+which is the shape of the EEG study's argument in a building with no electrodes in it.
+
+The alternatives are easier to see here than they were in the brain, which is why this example is
+worth the detour. A check-out is a book leaving a shelf. It can rise because children are reading
+more, or because a teacher started requiring a book a week, or because the library extended its
+hours, or because the programme moved the popular shelves to where children walk past.
+
+:::predict One measurement would close the gap between the check-outs and the claim. What is it?
+
+A reading test, given to the same children at the start of the year and at the end of it.
+
+That's the whole answer, and what's worth noticing is how ordinary it is. A report reaches for a
+number like check-outs because the number is already being collected, and that is also why a study
+built around a 256-channel array reports connectivity rather than a test score. It's what the
+equipment measures.
+
+**Neither report is dishonest.** Each gives you a real number about something next to the question
+you asked, and the counting is left to you.
+:::
 
 ## Three things people get wrong about brain-imaging claims
 
