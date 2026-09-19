@@ -12,7 +12,7 @@ quiz:
       A friend reads Psalm 137 ("By the rivers of Babylon we sit down and weep when we remember Zion", NET) and asks you where it belongs in the story. Which placement is right, and what does it change?
     options:
       - "Act 3, in the united kingdom under David, so it is a royal song celebrating Jerusalem at the height of its glory and safety"
-      - "Act 3, in the exile, so the grief is over a city that has really fallen and the singers are captives of the empire they name"
+      - "Act 3, in the exile, so the grief is over a city that has really fallen and the singers are captives of the empire they name it after"
       - "Act 2, just after the fall, so Babylon stands for human rebellion in general rather than a real city the singers lived in"
       - "Act 5, sung by the early church, so Babylon is a code for Rome, exactly as it is when Revelation uses the same name later"
     answer: 1
@@ -31,9 +31,9 @@ quiz:
   - q: >-
       At a national prayer breakfast a speaker quotes 2 Chronicles 7:14, "if my people, who belong to me, humble themselves, pray, seek to please me, and repudiate their sinful practices, then I will respond from heaven, forgive their sin, and heal their land" (NET), and applies it directly to his own country. Using this lesson's method, how should you assess that?
     options:
-      - "It works. The verse states a condition and a result, and God does not change, so the condition and the result carry across unaltered to any country that meets them"
-      - "It fails. The verse belongs to the law, and the New Testament put grace in the place of law, so promises shaped like this now apply only to a believer's inner life"
-      - "It fails. Chronicles was written after the exile to explain a national collapse, so the sentence reports how Israel read its own history rather than offering terms to anyone"
+      - "It works. The verse states a condition and a result, and God does not change, so the condition and the result carry across unaltered to any country in any century that meets them"
+      - "It fails. The verse belongs to the law, and the New Testament put grace in the place of the law, so a promise shaped like this one now applies only to a believer's inner life and not to a country"
+      - "It fails. Chronicles was written after the exile in order to explain a national collapse, so the sentence reports how Israel came to read its own history rather than offering terms to anyone at all"
       - "It works only through a step the speaker skipped. These are Sinai's terms for Israel, in its land and at its Temple, so ask which covenant carries them and how they reach a church that is not a nation"
     answer: 3
     explain: >-
@@ -41,20 +41,20 @@ quiz:
   - q: >-
       Genesis 42: there is famine in Canaan, and Jacob sends ten sons down to Egypt to buy grain from an official they do not recognise as their brother. Reading on all three levels, which account is right?
     options:
-      - "Bottom: a famine in Canaan. Middle: Egypt's grain policy under an able administrator. Top: God rewarding Joseph for keeping his integrity in prison"
+      - "Bottom: a famine in the land of Canaan. Middle: Egypt's grain policy under an unusually able foreign administrator. Top: God rewarding Joseph for having kept his integrity through the years in prison"
       - "Bottom: ten men buying grain from a brother they sold. Middle: Abraham's family kept alive and drawn into Egypt, where Exodus will find them. Top: God preserving the family the whole world's blessing was promised through"
-      - "Bottom: the brothers' guilt. Middle: the founding of the twelve tribes. Top: nothing yet, because the top level only begins once Israel is a nation with a covenant at Sinai"
-      - "Every level is the same level here, because Joseph is a figure of Christ, so each detail of the chapter is a coded picture of the gospel and should be read that way"
+      - "Bottom: the brothers and their guilt. Middle: the founding of the twelve tribes of Israel. Top: nothing yet at all, because the top level only begins once Israel is a nation standing under a covenant at Sinai"
+      - "Every level is the same level in this chapter, because Joseph is a figure of Christ, so each detail of what happens is a coded picture of the gospel and the whole scene should be read that way"
     answer: 1
     explain: >-
       The middle level always asks what a story does for Israel, and this one moves Abraham's whole family into the country where the next act opens; Joseph says so himself, that God sent him ahead "to preserve you on the earth" (Genesis 45:7, NET). The top level asks what God's plan is doing, and a family kept alive is a promise kept alive (B). Option A puts Egypt at the middle level, where Israel belongs, and turns the top level into a moral about Joseph. Option C is the common belief that the story only becomes God's story at Sinai; Genesis 12 is where the plan starts, not Exodus 19. Option D is not a beginner's error at all: reading Joseph as a figure of Christ is old, standard in the church fathers, and normal in Orthodox and Catholic reading today. What goes wrong is collapsing the levels into it, so that the middle level disappears and every detail has to be decoded.
   - q: >-
       Ezekiel, a priest deported to Babylon, writes: "I will give you a new heart, and I will put a new spirit within you... I will put my Spirit within you; I will take the initiative, and you will obey my statutes" (Ezekiel 36:26 to 27, NET). Which covenant is in play, and how can you tell?
     options:
-      - "Abraham's, because the next verse promises the land God gave their ancestors, and land is Abraham's promise"
-      - "Sinai's, because the passage is about statutes and regulations, and the law is what Sinai is for"
+      - "Abraham's, because the very next verse promises them the land that God gave to their ancestors, and the land is Abraham's promise before it is anybody else's"
+      - "Sinai's, because the passage is about statutes and regulations and about keeping them, and the giving of the law is what Sinai is for"
       - "The new covenant, because God undertakes to do inside the people the thing Sinai asked them to do, which is what Jeremiah 31 promises in different words"
-      - "David's, because Ezekiel is writing in the exile and the exile is when the promise of a lasting dynasty is in doubt"
+      - "David's, because Ezekiel is writing during the exile, and the exile is exactly when the promise of a lasting dynasty on the throne is in the most doubt"
     answer: 2
     explain: >-
       Sinai told Israel to keep the statutes; Ezekiel promises that God will put his Spirit inside them so that they do. That is the same promise Jeremiah 31 makes when it says God will write his law on their hearts, and the two prophets are contemporaries (C). Option A spots a real echo of Abraham, because verse 28 does promise the land, but the land is being restored under the new arrangement, not instead of it. Option B mistakes the subject of a covenant for the covenant itself: statutes appear here precisely because the new covenant is answering what happened to Sinai's. Option D is a fair guess from the date and wrong on the content; Ezekiel does invoke David, but two chapters later, at 37:24.

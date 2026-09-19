@@ -10,11 +10,11 @@ objectives:
 quiz:
   - q: Priya is new to organic chemistry. Told that "struggling first is how you learn", she spends 40 minutes on the first mechanism problem in the set and gets nowhere. What does the evidence in this lesson say she should do?
     options:
-      - Keep going. Struggle is a desirable difficulty, and the evidence says the answer will come if she persists
       - Study two fully worked mechanisms, explaining each step to herself, then attempt a similar problem
+      - Keep going. Struggle is a desirable difficulty, and the evidence says the answer will come if she persists
       - Reread the chapter twice so the concepts feel familiar, then return to the same problem with the theory fresh
       - Start with the easiest problems in the set and work up, so each success supplies the method for the next
-    answer: 1
+    answer: 0
     explain: For a novice, attempting problems with no structure and no explanation to follow spends working memory on searching for moves rather than on learning the pattern (Sweller & Cooper 1985). Studying a worked solution hands over the pattern; self-explaining it stops the study from becoming passive reading (Chi et al. 1989, 1994). A difficulty is only desirable if the learner can meet it (lesson 1), which she can't yet. The designed version of struggling first, productive failure, uses a problem chosen to expose a gap and always follows it with a full explanation; 40 unguided minutes is not that. Rereading raises fluency without building the schema. Easier problems help only if she already has a method, which is the thing she is missing.
   - q: Tom has studied worked examples of one type of equation and has now solved eight near-identical problems in a row correctly. Reading complete solutions is starting to feel tedious. What is the right next move?
     options:
@@ -26,10 +26,10 @@ quiz:
     explain: Once the pattern is in long-term memory, a full worked example is redundant processing, and the expertise-reversal effect (Kalyuga et al. 2003) says it can start to hurt. The fix is to fade guidance rather than stop it. Sweller & Cooper 1985 also found the worked-example benefit did not extend to problems that varied from the studied ones, so varied problems must be part of the fade. Returning to theory is the wrong direction too; his problem is not the principle, which eight correct solutions show he has, but the range of forms he has met. Eight correct near-transfer problems tells him about retrieval strength today (lesson 1), not about the varied problems he hasn't tried.
   - q: Four students are reading the same worked proof. Which one is behaving like the good students in Chi et al. 1989?
     options:
-      - Ana reads it twice and copies it out neatly into her notes, so she has the whole argument in her own handwriting
-      - Ben highlights the three key steps and the final line, so the structure of the proof stands out when he revises
+      - Ana reads it twice and copies it out neatly into her notes, so that she has the whole argument in her own handwriting
+      - Ben highlights the three key steps and the final line, so that the structure of the proof stands out to him when he revises
       - Cara covers each line before reading it, writes what she expects it to say, then checks, and works out what she missed when she is wrong
-      - Dev writes a one-sentence summary of what the proof shows and which method it uses, to check he has the point
+      - Dev writes a one-sentence summary of what the proof shows and which method it uses, to check that he has the point of it
     answer: 2
     explain: Chi's good students generated explanations of why each step was there, which is what predicting the next line and then checking forces you to do, and they noticed accurately when they didn't understand. The poor students seldom noticed a gap, and when they got stuck later they went back and reread the example searching for a line to use. Highlighting and summarising are rated low utility by Dunlosky et al. 2013, and neither forces you to fill the gaps the author left, which is where the learning is.
   - q: Maya has no background in law. Reading a contract-law text, she asks "why would that be true?" of every sentence, as the lesson suggested, and gets nothing out of it. What has gone wrong?
@@ -50,11 +50,11 @@ quiz:
     explain: A "why" answered by restating the claim ("that is how they behave") is what an unfilled gap looks like from the inside; the step slid past without being reconstructed, which is exactly what Chi's poor students did while feeling they understood. The first two options connect the claim to something Sam already knows (sampling variation; what an interval contains), which is a filled gap. The last option is not a gap but the pass working well; the "how does it connect?" prompt has produced an inference the author left out. Having found the gap, Sam then decides whether thinking can fill it (here, probably yes, from his intro course, by asking what happens to a standard error as n falls) or whether he needs a source.
   - q: A teacher reads that "discovery learning has been discredited" and plans to cut all problem-based work from a course. What does the guided-versus-discovery debate actually support?
     options:
-      - Cutting it. Kirschner, Sweller and Clark 2006 showed that minimal guidance fails at every level of prior knowledge
+      - Cutting it. Kirschner, Sweller and Clark 2006 showed that minimal guidance fails at every level of prior knowledge there is
       - Keeping it all. Hmelo-Silver, Duncan and Chinn 2007 showed problem-based learning beats direct instruction on content knowledge
-      - Neither extreme. The dispute is partly about what counts as guidance, and the problem-based learning defended in 2007 was heavily scaffolded
       - Cutting it for novices only, since the 2021 productive-failure meta-analysis found struggle helps only learners with prior knowledge
-    answer: 2
+      - Neither extreme. The dispute is partly about what counts as guidance, and the problem-based learning defended in 2007 was scaffolded
+    answer: 3
     explain: Kirschner, Sweller and Clark argued from cognitive load and from the studies they reviewed that minimal guidance fails for novices; they explicitly exempted learners with high prior knowledge, since expertise reversal is their own effect, so "at every level" is wrong. Hmelo-Silver, Duncan and Chinn replied that well-designed problem-based and inquiry learning is structured scaffolding, not minimal guidance, and that it targets reasoning and self-direction as well as content; they did not claim it beats direct instruction on content knowledge. Sinha and Kapur's 2021 meta-analysis found designed problem-solving before instruction helped novices, the opposite of the last option. Neither side disputes that novices need support or that it should fade; the argument is about how much, of what kind, and measured on which outcomes. So neither "cut it all" nor "keep it all" follows.
 ---
 
