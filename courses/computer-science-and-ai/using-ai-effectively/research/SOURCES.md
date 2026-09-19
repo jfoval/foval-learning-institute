@@ -3,15 +3,16 @@
 *Stage 1 research, 2026-09-18. Written before any lesson is drafted. For each source: what it is good
 for, what it establishes, and how much of it was actually read.*
 
-<!-- unread: Jurafsky, Martin, Russell, Norvig, Dell'Acqua, Lakhani, Mollick, Noy, Zhang, Schulhoff, Resnik, Kadavath -->
+<!-- unread: Jurafsky, Martin, Russell, Norvig, Noy, Zhang, Schulhoff, Resnik -->
 
 **How to read the "read" labels below.** Every entry says whether it was read in full, in part, at
 abstract level, or not opened. That label is a ceiling, not decoration: a lesson may not lean on a
 source further than its label allows, and `npm run validate` fails on a lesson citing anything named
-in the `unread:` line above. Twelve names are there. Most are named because the work's *result* was
+in the `unread:` line above. Eight names are there. Most are named because the work's *result* was
 read through a reliable route (the authors' own abstract page, an author's own written account of
 their study, a publisher's table of contents) while the work itself was never opened. **If a lesson
-needs one of them, open it first and move it out of that line.**
+needs one of them, open it first and move it out of that line**, which is what happened to
+Dell'Acqua et al. on the day this file was written; see that entry for what opening it changed.
 
 **This course has a research problem the other eight do not have, and it has to be stated at the
 top.** Every capability claim about these systems is a claim about a particular model on a
@@ -202,27 +203,69 @@ This is the part of the research that does not go stale, because each entry is a
 Four studies, and **they do not agree**, which is the finding rather than a problem with the
 finding.
 
-- **Fabrizio Dell'Acqua, Edward McFowland III, Ethan Mollick, Hila Lifshitz-Assaf, Katherine Kellogg,
-  Saran Rajendran, Lisa Krayer, François Candelon and Karim Lakhani, "Navigating the Jagged
-  Technological Frontier", HBS working paper 24-013 (2023), published in *Organization Science*.**
-  **Not opened.** Both publisher copies returned 403 and the HBS PDF would not extract; the figures
-  below come from a written account by one of the authors, Mollick, on his own site, which is a
-  reliable route to a result and is not the paper. **This is the first name on the `unread:` line and
-  the first thing the next researcher should fix**, because the study is otherwise the best thing in
-  this section. A pre-registered randomised experiment with **758 BCG consultants**. Inside the
-  system's competence, consultants with AI "completed 12.2% more tasks, completed them 25.1% faster,
-  and delivered solutions of substantially higher quality, with average scores rising roughly 30%
-  above the control group". On a task built to sit *outside* that competence, they "were 19
-  percentage points less likely to produce a correct recommendation than those without it", against a
-  control-group baseline of 84.5% correct. And the gains were not evenly spread: "lower-skilled
-  workers gained the most, with quality scores rising 43% compared to 17% for the highest-skilled
-  participants."
+- **Fabrizio Dell'Acqua, Edward McFowland III, Ethan Mollick, Hila Lifshitz, Katherine C. Kellogg,
+  Saran Rajendran, Lisa Krayer, François Candelon and Karim R. Lakhani, "Navigating the Jagged
+  Technological Frontier: Field Experimental Evidence of the Effects of Artificial Intelligence on
+  Knowledge Worker Productivity and Quality", *Organization Science*, published online 11 March
+  2026 (doi 10.1287/orsc.2025.21838).** **Read in substantial part**: the abstract verbatim, the
+  design, and the whole of the results, extracted directly from the open-access copy, which is CC BY
+  4.0. **This entry was rewritten on 2026-09-18 after the paper was opened, and opening it corrected
+  two figures and turned up a third that every summary had dropped.** That is recorded here rather
+  than quietly fixed, because it is the best argument in the repo for the `unread:` line existing.
 
-  **The concept is worth more than any of those numbers.** The "jagged frontier" is the observation
-  that the boundary between what these systems do well and badly is not a smooth line of difficulty:
-  two tasks that look equally hard to a person can sit on opposite sides of it. That is the single
-  most useful idea for a learner, because it explains why their own experience is contradictory, and
-  it is the reason this course's third outcome is about telling the two kinds of task apart.
+  **The design.** A pre-registered experiment with **758 knowledge workers** at Boston Consulting
+  Group. After a baseline assessment, each was randomly assigned to one of **three** conditions: no
+  AI, GPT-4, or **GPT-4 plus a prompt engineering overview**. Then **18 realistic consulting tasks
+  chosen to sit inside the frontier**, ranging from creative to analytical, and **one complex
+  managerial task chosen to sit outside it**.
+
+  **Inside the frontier**, subjects using AI "outperformed those not using AI, completing 12.2% more
+  tasks and completing them 25.1% more quickly on average while also delivering solutions of
+  significantly improved quality". The underlying numbers are worth having: the control group
+  completed 82% of tasks, GPT-only 91%, GPT + overview about 93%. On quality, graded by MBA graders
+  on a 1 to 10 scale against a control mean of 4.37, GPT-only added 1.31 (a **29.9%** increase) and
+  GPT + overview added 1.48 (**33.9%**). On time, GPT + overview cut 1,129 seconds off the first 17
+  questions, which the paper puts as 18.8 minutes or **22.5% faster** than the control.
+
+  **Outside the frontier**, the control group "were correct about this exercise about 84.5% of the
+  time, but the AI conditions scored at 60% and 70.6% (an average decrease of 19 percentage points
+  when combining the AI treatment conditions and comparing them with the control condition)."
+
+  **Correction one, and a lesson must get this right.** The paper's own *abstract* says subjects
+  using AI were "19% less likely to produce correct solutions". Its *results section* says **19
+  percentage points**, and gives the arithmetic that shows percentage points is the correct reading:
+  84.5% against 60% and 70.6%. A course that prints "19% less likely" is repeating the paper's
+  looser sentence rather than its finding. **Say percentage points, and give the 84.5% baseline in
+  the same breath**, because without the baseline neither version means anything.
+
+  **Correction two.** The widely repeated figures that below-average performers gained 43% against
+  17% for the highest-skilled **are not in the published paper's text**. They come from an author's
+  own written account of the earlier working paper and appear in the published version only as
+  Figure 4. What the published text says is qualitative: "the most significant beneficiaries of
+  using AI are the bottom-half-skill subjects", and "the top-half-skill performers also received a
+  significant boost, although not as much as the bottom-half-skill performers." **A lesson may state
+  that and may not print 43 and 17** without somebody reading the figure.
+
+  **The third thing, which no summary carried and which matters more to this course than either
+  correction.** The prompt engineering overview helped inside the frontier and **hurt more outside
+  it**. On the outside-the-frontier task, both AI treatments show a significant negative effect, and
+  "the GPT + overview group record[ed] a more pronounced decrease (24.5% versus 13.9%)". So the
+  group taught to use the tool better was the group most damaged by using it on the task it should
+  not have been used for. **That is the single most useful result in this file for a course whose
+  job is teaching people to use these systems well**, and it should be somewhere a reader cannot
+  miss it.
+
+  **The concept is still worth more than any of the numbers.** The "jagged technology frontier" is
+  the paper's own phrase for "the uneven impact of artificial intelligence (AI) capabilities, where
+  AI assistance improves performance for some tasks but worsens it for others, even within the same
+  knowledge workflow and with a seemingly similar level of difficulty." That sentence explains why a
+  learner's own experience is contradictory, and it is the reason this course's third outcome exists.
+
+  **Scope, to travel with every use.** 758 management consultants at one firm, GPT-4, tasks written
+  for the experiment, 2023 data. It is a study of elite knowledge workers, and the paper says so:
+  "In our study, centered on high-end knowledge work, we observe a universal benefit for workers
+  involved in complex, high-level tasks, particularly for tasks within the AI's capability frontier."
+
 - **Joel Becker, Nate Rush, Elizabeth Barnes and David Rein (METR), "Measuring the Impact of
   Early-2025 AI on Experienced Open-Source Developer Productivity", July 2025 (arXiv 2507.09089).**
   **Abstract read in full and directly; the paper was not opened.** A randomised controlled trial,
@@ -252,6 +295,7 @@ finding.
   pattern that Dell'Acqua also found, which makes it worth teaching rather than an artefact of one
   study. **On the unread line**, and the substitution finding in particular should not be leaned on
   until somebody opens the paper, because it is the finding that connects this section to the next.
+  It is now the most valuable name left on that line.
 - **Hamsa Bastani, Osbert Bastani, Alp Sungu, Haosen Ge, Özge Kabakcı and Rei Mariman, "Generative AI
   Without Guardrails Can Harm Learning: Evidence from High School Mathematics", *PNAS* (2025).**
   **Abstract read in full and verbatim** from the authors' own copy of the paper; the body was not

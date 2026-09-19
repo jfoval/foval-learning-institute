@@ -164,8 +164,9 @@ than the title.
   - Write down one task you already use one of these systems for and one you would never use it for,
     with the reason for each, as a baseline to come back to in lesson 6.
 - **Core ideas:** the course opens the way Digital Literacy opens, by testing its own premise in
-  public. **Dell'Acqua's consultants were 25.1% faster and about 30% better inside the frontier and
-  19 percentage points *less* likely to be right outside it. METR's sixteen experienced developers
+  public. **Dell'Acqua's consultants were 25.1% faster and about 30% better inside the frontier, and outside
+  it they were right 60% and 70.6% of the time against a control group's 84.5%, a drop of 19
+  percentage points. METR's sixteen experienced developers
   were 19% slower and believed they had been 20% faster.** Both are real and neither is the
   headline anybody quotes. The reconciliation, which the course commits to and states as its own
   reading rather than as a finding: the gains show up on work near the edge of what a person can
@@ -187,7 +188,7 @@ than the title.
 - **Practice:** the baseline. Two columns, tasks you use it for and tasks you would not, with a
   reason beside each. Kept, and revisited in lesson 6 against the frontier and in lesson 9 against
   the learning finding. **This is the course's spine and the project's first section.**
-- **Sources:** Dell'Acqua et al. (**open it first**); Becker et al. (METR); Noy and Zhang, for the
+- **Sources:** Dell'Acqua et al., now read and off the `unread:` line; Becker et al. (METR); Noy and Zhang, for the
   second instance of lower-skilled workers gaining more; EU AI Act Article 4 for one sentence on why
   an institution might require this.
 - **Connects:** leads to 2, which explains why the frontier is jagged rather than merely uneven.
@@ -368,14 +369,24 @@ than the title.
   and is really a fact task underneath, such as "summarise this report" where the report contains
   figures the summary must carry accurately. The wrinkle is that most real work is mixed, and the
   skill is splitting a job into the parts that sit on each side.
+- **The result this lesson is built around, and it is in no summary of the study.** Dell'Acqua ran
+  three conditions, and the third was GPT-4 **plus a prompt engineering overview**. Inside the
+  frontier that group did best. Outside it, that group did **worst**: both AI conditions were
+  significantly less likely to be correct, and "the GPT + overview group record[ed] a more pronounced
+  decrease (24.5% versus 13.9%)". **The people taught to use the tool better were the ones most
+  damaged by using it on the task it should not have been used for.** That belongs in the body of
+  this lesson, stated plainly, and it is the reason a course on using these systems well has to teach
+  where not to use them in the same breath. It is also the honest answer to a reader who has just
+  spent lessons 4 and 5 learning to ask well: skill at asking is not skill at knowing when to ask.
 - **Misconceptions to address:** "it is good at things in proportion to how hard they are"; "it is
   good at technical things and bad at creative things"; "it is good at creative things and bad at
-  technical things"; "the frontier moves, so there is no point learning where it is".
+  technical things"; "the frontier moves, so there is no point learning where it is"; "getting
+  better at prompting protects me".
 - **Practice:** take one real piece of work and split it into parts by which side each falls on.
   Then revisit the lesson 1 baseline and mark what moved. **The split is the project's fourth
   section.**
-- **Sources:** Dell'Acqua et al. (**on the `unread:` line**); lesson 2's mechanism, which is doing
-  most of the work here.
+- **Sources:** Dell'Acqua et al., including the overview result; lesson 2's mechanism, which is
+  doing most of the work here.
 - **Connects:** builds on 2 and 5. Leads to 7 and 8, which are what to do about the unreliable side.
 - **Spaced review of:** lesson 1's baseline, explicitly.
 
@@ -751,10 +762,13 @@ way Digital Literacy lesson 1 states its own, and it stays a gap.
 
 ## Concerns to flag
 
-1. **Dell'Acqua is on the `unread:` line and four lessons want it.** Whoever drafts lesson 1 must
-   open the paper first and move it off, or those lessons lose the jagged frontier as a citable
-   source and keep it only as an idea. Both publisher copies returned 403 on 2026-09-18 and the HBS
-   PDF would not extract; a library copy or the accepted manuscript is the likely route.
+1. **Dell'Acqua was opened on 2026-09-18 and is off the `unread:` line.** Doing it corrected two
+   figures and found a third. The outside-frontier result is **19 percentage points**, not 19%, and
+   must be printed with its 84.5% baseline. The 43%-against-17% skill figures everybody quotes are
+   **not in the published text** and must not be printed. And the third: the group given a prompt
+   engineering overview did best inside the frontier and worst outside it, 24.5% against 13.9%. That
+   result is now lesson 6's spine. **The general lesson for the next Stage 1: a summary keeps the
+   figures that make a clean story and drops the one that complicates it.**
 2. **Lesson 8 is partly original.** The four-step procedure is assembled by this outline from
    Kadavath, NIST and ordinary practice, and no source states it as a procedure. That is allowed and
    it must be labelled: the lesson says it is the course's own construction, in the way Digital
