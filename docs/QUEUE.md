@@ -81,6 +81,18 @@ Rewrite these five lines each session. Nothing else goes in this block.
   Bible Basics lessons 4 and 9, Python Basics lesson 1, Logic and Argument lesson 10, and Digital
   Literacy lessons 1 and 3. **The fix is one edit each: name the distractor by its content.**
 
+- **Note-Taking and Personal Knowledge is scaffolded** and is the next course on the Core, fifth in
+  the term on running yourself. T2, after Memory, because the case for writing anything down rests
+  on Memory's account of what remembering is, and Memory's outline says so in terms. Its
+  prerequisites are How to Learn Anything and Memory. **Stage 1 is the next thing.**
+
+  **Two things Stage 1 has to settle before anything is drafted.** The first is the
+  longhand-against-laptop literature, which is the one result everybody in this subject has heard
+  and which has a replication history worth reading before a lesson quotes it. The second is the
+  boundary with How to Learn Anything, which already teaches retrieval practice and spacing, and
+  with Memory, which already teaches reconstruction: this course uses all three and must re-teach
+  none, in the form Memory lesson 1 used for its own boundary.
+
 - **Memory is published**, seven lessons, an eighteen-item test and the project. Every lesson has
   been through Stage 4 in a fresh context and every finding is applied; `research/reviews/` has a
   file each. **It is also written**: seven fact-checked podcast scripts, two of which came back

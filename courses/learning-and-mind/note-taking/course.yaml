@@ -1,0 +1,36 @@
+id: note-taking
+title: Note-Taking and Personal Knowledge
+school: learning-and-mind
+subject: Learning & Mind
+level: Foundation
+status: research
+summary: >-
+  What a note is for, which note-taking methods have actually been tested, and how to keep a body
+  of written knowledge that is still usable in five years.
+description: >-
+  Everybody takes notes and almost nobody is taught how. This course is about the part that can be
+  checked: what the evidence says about writing notes by hand against typing them, what the
+  encoding and the external-storage functions of a note actually are and why the two pull in
+  different directions, what happens to a note you never look at again, and what a personal
+  knowledge system has to do to earn the time it costs. It takes the reconstructive account from
+  Memory as its starting point, because the case for writing anything down rests on it, and it
+  takes retrieval practice and spacing from How to Learn Anything rather than re-teaching them.
+  It is the fifth course of the term on running yourself.
+outcomes:
+  - >-
+    State what a note is for, distinguishing the encoding function from the external-storage
+    function, and say which one a given note is serving
+  - >-
+    Describe what the longhand-against-laptop studies measured, what replicated and what did not
+  - >-
+    Choose a note-taking method for a described situation and say what evidence supports the choice
+  - >-
+    Design a review routine for notes that uses what How to Learn Anything established about
+    retrieval and spacing
+  - >-
+    Evaluate a personal knowledge system against what it costs to maintain, rather than against
+    what it promises
+  - >-
+    Read a claim about note-taking and say what would have had to be measured to support it
+prerequisites: [how-to-learn-anything, memory]
+sensitive_domain: false
