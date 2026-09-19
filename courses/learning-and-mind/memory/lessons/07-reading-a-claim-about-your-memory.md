@@ -257,7 +257,7 @@ was, which is a different property from how much it licenses.
 ## Practice
 
 :::exercise Trace one
-Take 20 minutes, and stop at twenty whether or not you have finished.
+Take 20 minutes, and put it down at twenty whether or not the trail has ended.
 
 Find one claim about memory with a number in it. An app's onboarding, a headline, a book jacket,
 something somebody told you at work.
@@ -359,8 +359,8 @@ need the reconstructive account from lesson 1, because the case for writing thin
    mnemonic training using the method of
    loci"](https://www.biorxiv.org/content/10.1101/2020.04.29.067561v1.full), preprint. **Read in
    part: the abstract verbatim and the participant counts.** Supports: about fifty people, three
-   arms, and that the abstract reports no figure for how much recall improved. 6. **The sample
-   question is this course's own addition to the institute's standing sort**, and the reading of
+   arms, and that the abstract reports no figure for how much recall improved.
+6. **The sample question is this course's own addition to the institute's standing sort**, and the reading of
    what each source licenses in the table's last column is the course's reasoning rather than any
    source's. **The four worked claims are specimens written for this lesson**, not quotations,
    except where a claim is attributed. **The three books named are on the research file's unread

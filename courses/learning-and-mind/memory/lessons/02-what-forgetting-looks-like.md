@@ -10,10 +10,10 @@ objectives:
     Explain what the jump at 24 hours is, and why it matters that the curve is not smooth
 quiz:
   - q: >-
-      A revision app tells you that you will forget seventy percent of a lesson within a day, and
-      cites the forgetting curve. What is the first thing wrong with that?
+      A revision app tells you that you will forget half of a lesson within an hour, and cites the
+      forgetting curve. What is the first thing wrong with that?
     options:
-      - The figure is too high, since the real curve is closer to forty percent a day
+      - The figure is too high, since the real curve is closer to forty percent an hour
       - The curve measures savings on relearning, which is not a percentage recalled
       - Nothing, since that is what the original experiments measured and reported
       - The curve applies only to nonsense syllables, so no figure from it transfers
@@ -42,28 +42,28 @@ quiz:
     options:
       - The replication found no forgetting in the first day, so the claim is backwards
       - Nothing, since a replicated finding can be applied to any group of learners
-      - Savings on relearning word lists in one adult is not a claim about her class
+      - Savings on relearning lists in one subject is not a claim about her whole class
       - The study measured recognition, so it says nothing about what students recall
     answer: 2
     explain: >-
-      One participant, learning lists over seventy hours, measured by relearning time, is a narrow
-      thing to build a claim about a classroom on, and the study never intended to be one. The
+      One subject, learning nonsense syllables over seventy hours, measured by relearning time, is a
+      narrow thing to build a claim about a classroom on, and the study never intended to be one. The
       replication did find forgetting across the intervals. Replication makes a finding sturdier
       rather than broader. And savings is not recognition.
   - q: >-
-      The replication's authors conclude the curve is "not completely smooth" but shows a jump
-      upwards starting at the 24 hour data point. What would that mean if it holds?
+      A language app schedules its first review at exactly 24 hours and gives the replication's jump
+      at the 24 hour data point as the reason. What should you say?
     options:
-      - That performance is better at a day than a pure decay curve would predict
-      - That forgetting stops after a day, which is what the jump upwards represents
-      - That the original study was wrong and its shape has now been overturned
-      - That relearning gets harder after a day, which is the opposite of savings
+      - That the jump is a claim about the shape of one subject's savings curve, not about scheduling
+      - Nothing at all, since the jump is the newest finding in the replication and applies directly here
+      - That the jump means forgetting stops after a day, so the first review should come later
+      - That the replication found no jump at all, so the app has the finding backwards entirely
     answer: 0
     explain: >-
-      A jump upwards in savings means more of the original learning survives at that point than the
-      smooth curve predicts, which is a claim about shape rather than about forgetting stopping.
-      The replication supports the original's broad result and corrects its shape. And a jump
-      upwards in savings is relearning getting easier, not harder.
+      A jump upwards in savings at one point of one subject's curve says the measured value sits
+      above a smooth fit, and this course did not read the analysis behind it; review schedules come
+      from studies built for that question, which is How to Learn Anything lesson 4. Forgetting
+      stopping is a different claim from a bump in the curve. And the replication does report it.
   - q: >-
       Somebody objects that a study with one participant cannot establish anything. What is the best
       answer on this lesson?
@@ -79,18 +79,19 @@ quiz:
       person is not representative of a population by construction. And the course uses the finding
       rather than treating it as a curiosity.
   - q: >-
-      Why does this lesson say the instrument matters more here than in most subjects?
+      A colleague sums up this literature as "people forget most things fast, and it has been
+      measured for over a century". What is the strongest objection this lesson supports?
     options:
-      - Because the study is old, and older instruments are less reliable than modern ones
-      - Because savings and recall differ, and the figure that travels is reported as recall
-      - Because savings is a weaker measure than recall and understates what is remembered here
-      - Because the study used nonsense syllables, which no modern instrument would use
+      - That forgetting is much slower than the curve suggests once the material means something
+      - That what was measured is relearning time in one subject, so "people" is the wrong word
+      - That a measurement from the 1880s cannot apply to how anybody learns anything today
+      - That the replication failed to reproduce the original, so the finding no longer stands
     answer: 1
     explain: >-
-      The number everybody quotes came from one instrument and is repeated as though it came from
-      another, which is Focus lesson 1's question arriving in a subject a century older. Age is not
-      what makes an instrument wrong. Savings tends to show more surviving than recall does, not
-      less. And the material is a separate limitation from the measure.
+      The instrument is savings on relearning and the sample is one person twice, so the sentence
+      has the right shape and the wrong subject. Nothing read here compares meaningful material with
+      nonsense syllables. Age is not what makes an instrument wrong, which is Focus lesson 1's
+      point. And the replication succeeded and corrected the shape.
 ---
 
 Every poster about studying has the same curve on it. This lesson is about where it came from, what
@@ -98,60 +99,64 @@ it measures, and the two things that fall off before it reaches you.
 
 ## The measure comes first
 
-**Before any curve makes sense you have to know what is on the vertical axis**, and in this case it
+Before any curve makes sense you have to know what is on the vertical axis, and in this case it
 isn't what almost anybody assumes.
 
 The measure is **savings**. You learn a list until you can produce it. Some time later you learn it
 again, and the question is how much of the original effort you are spared. **If learning took twenty
 minutes and relearning takes ten, you saved half.**
 
-**That isn't a percentage of items recalled**, and the difference isn't a technicality.
+That isn't a percentage of items recalled, and the difference isn't a technicality.
 
-**Somebody can be unable to produce a single item and still show substantial savings**, because
+Somebody can be unable to produce a single item and still show substantial savings, because
 relearning is easier than learning even when nothing comes back on demand. On a savings measure that
-material is partly there. On a recall measure it is entirely gone.
+material is partly there. On a recall measure it is entirely gone. **That follows from the
+definition of the two measures rather than from any comparison this course read**, and no source
+here puts the two instruments side by side.[2]
 
-**Which is right?** Both, and they are answering different questions. **Focus and Deep Work** lesson
+Which is right? Both, and they are answering different questions. **Focus and Deep Work** lesson
 1 called this the instrument question, and this is the same question in a subject a century older:
 before asking whether a claim is true, ask what would have had to be measured.
 
-**And here it bites unusually hard**, because the figure that travels from this curve is reported as
-though it were recall. "You forget seventy percent of what you learn within a day" is a sentence
-about production. The curve behind it is about relearning.
+And here it bites unusually hard, because the figure that travels from this curve is reported as
+though it were recall. "You forget half of what you learn in an hour" is a sentence about
+production. The curve behind it is about relearning.
 
 ## The study
 
-Murre and Dros published a replication of the classic forgetting curve in 2015.[1] **This course has
+Murre and Dros published [a replication of the classic forgetting curve](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0120644) in 2015.[1] **This course has
 read its abstract and the summary statements of method and result**; the curve-fitting analysis was
-not opened.
+not opened. **The 1885 monograph it replicates was not opened either**, and everything this lesson
+says about the original reaches you at one remove, through the 2015 paper.
 
 **The design, in the paper's own words:** "One subject spent 70 hours learning lists and relearning
 them after 20 min, 1 hour, 9 hours, 1 day, 2 days, or 31 days."[1]
 
-**Read that twice, because the sample is the second thing this lesson is about.**
+Read that twice, because the sample is the second thing this lesson is about.
 
-**One subject.** Not a small sample. One person, doing seventy hours of it, across six relearning
-intervals from twenty minutes to a month.
+One subject. Not a small sample. One person, doing seventy hours of it, across six relearning
+intervals from twenty minutes to a month, on nonsense syllables.
 
 :::predict Before you read on: is a study with one participant worthless? Write down your answer and one sentence of reasoning, and then read what this lesson says.
 Most people say yes, some say it depends, and the useful answer is narrower than either.
 
-**What it can't do is tell you about people.** One person isn't a sample of a population, and no
+What it can't do is tell you about people. One person isn't a sample of a population, and no
 amount of data from that person makes it one. Any sentence beginning "people forget" is out of
 reach.
 
-**What it can do is test whether an older result reproduces**, which is exactly what it was built
-for. The study it replicates was also a study of one subject, conducted in the 1880s by a researcher
-working on himself. **Replicating a one-subject study with one subject is the right shape of test
-for the question "does this hold up?"**, even though it is the wrong shape for "is this true of
-everybody?"
+What it can do is test whether an older result reproduces, which is exactly what it was built
+for. The study it replicates was also a study of one subject, from the 1880s. **Replicating a one-
+subject study with one subject is the right shape of test for the question "does this hold up?"**,
+even though it is the wrong shape for "is this true of everybody?"
 
-**So the honest sentence is:** in one modern participant, the savings curve reproduced the shape
+So the honest sentence is: in one modern participant, the savings curve reproduced the shape
 reported in the 1880s. That is narrow, it is real, and it is very much more than nothing given how
 much of this subject rests on the original.
 
-**And it is worth noticing what a century of citation did to it.** The founding measurement of an
-entire field is a study of one person, and almost nobody who cites the curve knows that.[3]
+And it is worth noticing what a century of citation did to it. The founding measurement of an
+entire field is a study of one person, and the presentations of it this course has met do not say
+so. **That last sentence is the course's own observation about the presentations it looked at**,
+not a survey of the literature.[3]
 :::
 
 ## What it found
@@ -160,19 +165,19 @@ entire field is a study of one person, and almost nobody who cites the curve kno
 indeed been replicated and that it is not completely smooth but most probably shows a jump upwards
 starting at the 24 hour data point."[1]
 
-**Two claims there and they pull in different directions.** The curve replicated. And the shape
+Two claims there and they pull in different directions. The curve replicated. And the shape
 isn't the one everybody draws.
 
-**A jump upwards in savings means more of the original learning survives at that point than a smooth
-decay would predict.** Not that forgetting stops. The measured value at a day is higher than the
+A jump upwards in savings means more of the original learning survives at that point than a smooth
+decay would predict. Not that forgetting stops. The measured value at a day is higher than the
 smooth curve through the other points would put it.
 
-**This course can't tell you why**, because the analysis that would bear on it is in the parts of
+This course can't tell you why, because the analysis that would bear on it is in the parts of
 the paper that were not read.[1] The authors offer it as their conclusion and this lesson reports it
 as their conclusion.
 
-**What it does establish is smaller and more useful: the curve on the poster is smoother than the
-curve in the data.** A curve drawn from an equation is a model of the measurements, and the
+What it does establish is smaller and more useful: the curve on the poster is smoother than the
+curve in the data. A curve drawn from an equation is a model of the measurements, and the
 measurements did not lie on it.
 
 ### Worked: the same material, two instruments
@@ -180,59 +185,59 @@ measurements did not lie on it.
 **This case is constructed**, because the paper reports one participant's curve rather than a
 comparison of instruments.[3]
 
-**Priya learns twenty Welsh words on a Monday.** She can produce all twenty at the end of the
+Priya learns twenty Welsh words on a Monday. She can produce all twenty at the end of the
 session, which took her eighteen minutes.
 
-**On Friday, somebody asks her to write down as many as she can.** She gets four. **On a recall
+On Friday, somebody asks her to write down as many as she can. She gets four. **On a recall
 measure she has retained twenty percent**, and if somebody put that on a slide, that is the figure
 that would travel.
 
-**On the same Friday, she relearns the list to the same standard.** It takes her seven minutes
+On the same Friday, she relearns the list to the same standard. It takes her seven minutes
 against the original eighteen. **On a savings measure she has retained about sixty percent.**
 
-**Same person, same material, same day, and two answers that differ by a factor of three.**[3]
+Same person, same material, same day, and two answers that differ by a factor of three.[3]
 
-**Neither number is wrong.** They are answers to different questions: what can you produce right
-now, and how much of the work is still done. **A course that gave you one of them and called it
-"how much you forgot" would be misleading you**, and that is what almost every presentation of this
-curve does.
+Neither number is wrong. They are answers to different questions: what can you produce right
+now, and how much of the work is still done. A course that gave you one of them and called it "how
+much you forgot" would be misleading you, and every presentation of the curve this course has met
+gives one number and no instrument.[3]
 
-**And notice which direction the error runs.** Savings shows more surviving than recall does. **So
-the famous curve, quoted as though it were recall, is understating what is left**, which is the
-opposite of the way it is usually deployed.
+And notice which direction the gap runs in Priya's case: the savings figure is the larger of the
+two. **Whether that holds generally is not something this course can tell you**, because no source
+it read compares the two measures on the same material.[2] What the case shows is that the two can
+differ by a lot, which is enough for the point being made.
 
 :::checkpoint So is the forgetting curve useless? A poster with a smoothed curve, a measure nobody explains, and one participant.
 No, and the reason is worth more than the curve.
 
-**What it establishes is the shape of the problem**, and the shape is what you act on. Forgetting is
+What it establishes is the shape of the problem, and the shape is what you act on. Forgetting is
 fast at first and slows down. That isn't in doubt, it is what the replication reproduced, and it is
 why **How to Learn Anything** lesson 4's spacing advice is built the way it is: the first review
 matters more than the fourth.
 
-**What it doesn't establish is any number you should plan with.** Not seventy percent, not a day,
+What it doesn't establish is any number you should plan with. Not seventy percent, not a day,
 not any of it. **The interval schedule that lesson gives you comes from studies designed for the
 purpose**, not from this curve, and this lesson isn't undermining it.
 
-**And there is a third thing, which is why the lesson exists here rather than in the earlier
-course.** A measurement whose instrument nobody explains, on a sample nobody mentions, smoothed into
+And there is a third thing, which is why the lesson exists here rather than in the earlier
+course. A measurement whose instrument nobody explains, on a sample nobody mentions, smoothed into
 a curve nobody drew, is the single best worked example this subject has of how a real finding
 travels badly. **The curve isn't the problem. What happened to it on the way to the poster is.**
 
-**So the useful version is:** forgetting is rapid then slow, the shape has been reproduced, the
+So the useful version is: forgetting is rapid then slow, the shape has been reproduced, the
 numbers on the posters are not measurements you can use, and the measure is savings rather than
 recall.
 :::
 
 ## Three things people get wrong about the curve
 
-**"You forget seventy percent within a day."** No source read for this course gives that figure, and
-the measure it would have to come from is savings rather than recall. **The number is repeated
-without either its instrument or its sample.**
+"You forget half of what you learn in an hour." The measure it would have to come from is savings
+rather than recall, and the number is repeated without either its instrument or its sample.
 
-**"The curve is a law."** It is one subject, twice, a century apart, and the 2015 authors say the
+"The curve is a law." It is one subject, twice, a century apart, and the 2015 authors say the
 shape is not smooth.
 
-**"A replication means the original was right."** It means the result reproduced. This replication
+"A replication means the original was right." It means the result reproduced. This replication
 reproduced the broad result and corrected the shape, which is what a good replication usually does.
 
 ## Practice
@@ -243,7 +248,7 @@ Take 25 minutes across a week, in three short sittings.
 **Sitting one, about 15 minutes.** Pick twenty arbitrary items: foreign words, capital cities,
 names paired with numbers. Something you don't already know and will not meet in between.
 
-**Learn them until you can produce all twenty once, and time it.** Write the number of minutes down.
+Learn them until you can produce all twenty once, and time it. Write the number of minutes down.
 That is your baseline.
 
 **Sitting two, five days later, about 5 minutes.** Before relearning anything, write down as many as
@@ -258,7 +263,7 @@ Then two lines.
 1. **The two percentages, side by side.**
 2. **Which one you would have quoted** if somebody asked how much you had forgotten, and why.
 
-**One person for one week establishes nothing about anybody**, which you now have an unusually good
+One person for one week establishes nothing about anybody, which you now have an unusually good
 reason to believe.
 :::
 
@@ -278,7 +283,7 @@ Write down four things.
 
 Then one line: **which of the four did the source give you?**
 
-**If the answer is none, that is the usual result** and it is what this lesson is for. A curve with
+If the answer is none, that is the usual result and it is what this lesson is for. A curve with
 no axis label, no instrument, no sample and a confident headline number is the standard presentation
 of the best-known finding in this subject.
 :::
@@ -290,8 +295,9 @@ that can't be produced on demand can still be partly there. **Focus and Deep Wor
 instrument question, and this lesson is it applied to a measure from the 1880s. **How to Learn
 Anything** lesson 4 is spacing, which this lesson supports and doesn't replace.
 
-**Forward.** Lesson 3 is what makes the curve steeper than pure decay would: retrieving one thing
-can make its neighbours harder to reach. Lesson 7 comes back to what happened to this curve on its
+**Forward.** Lesson 3 is a second reason things become hard to reach: retrieving one thing can make
+its neighbours harder to get at. Whether that is part of what shapes this curve is not something
+this course read the analysis to answer. Lesson 7 comes back to what happened to this curve on its
 way to the poster.
 
 ## Go deeper
@@ -318,9 +324,13 @@ way to the poster.
    at the 24-hour point; and that the measure is the method of savings.
 2. The description of what savings measures, and of how it differs from a recall measure, is the
    standard definition in this literature and is stated in the source above as the method the study
-   used. **The comparison between the two measures is this course's own framing**, marked inline in
-   the worked case, and no source read for this course sets the two instruments side by side.
+   used. **That somebody can show savings while recalling nothing follows from the two definitions
+   and not from a measurement this course read**, and the body says so at the point of use.
+   **No source read for this course sets the two instruments side by side on the same material**,
+   which is why the worked case stops short of a general claim about which measure runs higher.
 3. **Priya is constructed**, and so is every figure attached to her; the lesson says so where she
    appears. **Her two percentages are invented to show the gap between the instruments** and are not
    a reported result. **The observation that a century of citation has detached the curve from its
-   sample is also this course's own**, marked in the predict block where it appears.
+   sample is also this course's own**, said as such in the predict block and again in the worked
+   case. It describes the presentations this course has met and is not a survey of how the curve is
+   cited.
