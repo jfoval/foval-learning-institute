@@ -107,8 +107,7 @@ This is the lesson with the least evidence behind it and, if the rest of the cou
 job, the most use in it. You should know which of those two you are getting before you start.
 
 What is measured here is the destination and not the route. Two reviews of the whole field,
-fourteen years apart, agree on roughly where time management behaviours show up. Claessens and
-colleagues, in 2007: "The review demonstrates that time management behaviours relate positively to
+fourteen years apart, agree on roughly where time management behaviours show up. [Claessens and colleagues, in 2007](https://www.researchgate.net/publication/228079857_A_review_of_the_time_management_literature): "The review demonstrates that time management behaviours relate positively to
 perceived control of time, job satisfaction, and health, and negatively to stress. The relationship
 with work and academic performance is not clear."[1] The 2021 meta-analysis, over 158 studies and
 53,957 participants, found the relationship with wellbeing, and with life satisfaction in

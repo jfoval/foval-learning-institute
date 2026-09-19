@@ -180,8 +180,7 @@ rather than in one lump, and put it where the week historically goes wrong rathe
 Reserving it first matters, because slack added at the end is slack taken off something already
 planned, and that is the step nobody actually performs.
 
-**Six: apply your own ratio to what is left, and take something out.** Lesson 3 gave you a median
-for how far your estimates run short, **and it gave you its scope**: your median is for the items
+**Six: apply your own ratio to what is left, and take something out.** Lesson 3 gave you a median for how far your estimates run short, from [the study it rests on](https://web.mit.edu/curhan/www/docs/Articles/biases/67_J_Personality_and_Social_Psychology_366,_1994.pdf), **and it gave you its scope**: your median is for the items
 whose length is yours to decide. Anything that involves waiting on somebody else gets a whole
 morning instead, which is what lesson 3's outlier was about. Apply the ratio, and if what you have
 planned does not fit, take one thing out and write down what it was. Not adjust, not compress.

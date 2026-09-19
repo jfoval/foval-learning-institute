@@ -128,7 +128,7 @@ for.
 Write your four predictions in one column and your four recorded totals beside them. Then a third
 column, the difference, with its sign. That's the whole instrument.
 
-Lesson 1 gave you the measured version on United States and Belgian national samples, published in 2011: employed respondents "tend to
+Lesson 1 gave you the measured version on United States and Belgian national samples, [published in 2011](https://www.bls.gov/opub/mlr/2011/06/art3full.pdf): employed respondents "tend to
 overestimate their work hours by 5–10 percent in relation to the work hours they report in their time diaries", with the gap widest among those estimating the longest weeks.[1] You now have the
 same comparison on a sample of one, which is worse evidence about people in general and much better
 evidence about you. Lesson 1 set out why the two are different instruments rather than one

@@ -272,7 +272,7 @@ negatively to stress. **The relationship with work and academic performance is n
 same review found no empirical study in the subject published before 1982, having searched from
 1954.[1]
 
-**Aeon, Faber and Panaccio, 2021**, pooling 158 studies, 53,957 participants and 490 effect sizes:
+**[Aeon, Faber and Panaccio, 2021](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0245066)**, pooling 158 studies, 53,957 participants and 490 effect sizes:
 time management "is moderately related to job performance, academic achievement, and wellbeing", and
 shows "a moderate, negative relationship with distress".[2] Job performance came out at r = .25 and
 distress at r = -0.358, and the authors note that the link to job performance appears to increase

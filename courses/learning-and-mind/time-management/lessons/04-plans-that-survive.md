@@ -212,7 +212,7 @@ days, not three evenings.
 
 A better estimate tells you when something will be done if you do it. It says nothing about whether you'll start.
 
-Those are genuinely separate, and the size of the second one has been measured. Gollwitzer and Sheeran, writing in the chapter this course has read in full, report that goal intentions "accounted for 28% of the variance in behavior, on average, across 422 studies"; that a review of health behaviour matrices found people "translated their 'good'
+Those are genuinely separate, and the size of the second one has been measured. Gollwitzer and Sheeran, writing in [the chapter this course has read in full](https://cancercontrol.cancer.gov/brp/research/constructs/implementation-intentions), report that goal intentions "accounted for 28% of the variance in behavior, on average, across 422 studies"; that a review of health behaviour matrices found people "translated their 'good'
 intentions into action only 53% of the time"; and that in experiments which successfully changed
 people's intentions, the resulting change in behaviour was "only small-to-medium (R² = .03)", R² being the same variance-explained figure **How to Learn Anything** lesson 7 took apart. Their
 conclusion is printed in bold in the original: **"forming even strong goal intentions does not

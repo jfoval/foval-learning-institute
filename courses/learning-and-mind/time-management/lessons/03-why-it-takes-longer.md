@@ -111,8 +111,7 @@ scale of a single job, where it has been measured much more precisely and where 
 everybody reaches for turns out not to work.
 
 The finding has a name, the planning fallacy, which Buehler and colleagues credit to Kahneman and
-Tversky in 1979 and put in quotation marks in their own title.[2] Buehler, Griffin and Ross, 1994, in the *Journal of Personality and Social
-Psychology*.[1] It's the best-evidenced thing in this course, and it is worth knowing its scope
+Tversky in 1979 and put in quotation marks in their own title.[2] Buehler, Griffin and Ross, 1994, in the [*Journal of Personality and Social Psychology*](https://web.mit.edu/curhan/www/docs/Articles/biases/67_J_Personality_and_Social_Psychology_366,_1994.pdf).[1] It's the best-evidenced thing in this course, and it is worth knowing its scope
 before its numbers: every subject in the studies below was a Canadian university student, and the
 paper was published in 1994.
 
