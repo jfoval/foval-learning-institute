@@ -255,6 +255,21 @@ finding.
   time, but the AI conditions scored at 60% and 70.6% (an average decrease of 19 percentage points
   when combining the AI treatment conditions and comparing them with the control condition)."
 
+  **Three details of the design a lesson will want, and one of them is routinely misattributed.**
+  The graders were MBA graders working on a 1 to 10 scale, rating each response on **creativity,
+  analytical thinking, writing proficiency or persuasiveness** depending on the question, and the
+  authors checked the gains were not an artefact of tidier prose: "We verified that the treatment
+  effects are not driven by superficial spelling or grammar improvements."
+
+  And the outside-the-frontier task was built on purpose, out of BCG's own hiring material: the
+  authors "designed the beyond-the-frontier task in collaboration with BCG, using as a starting
+  point the type of business cases that BCG uses for its highly competitive job interviews", with
+  the explicit aim of "creating a task at which knowledge workers would excel but AI would struggle,
+  at least without extensive guidance and human intervention." **That provenance belongs to the one
+  task outside the frontier and not to the eighteen inside it**, and a lesson that attaches it to the
+  eighteen has said something false about how the study was built. It also makes the result sharper
+  rather than softer: the task was chosen because people are good at it.
+
   **Correction one, and a lesson must get this right.** The paper's own *abstract* says subjects
   using AI were "19% less likely to produce correct solutions". Its *results section* says **19
   percentage points**, and gives the arithmetic that shows percentage points is the correct reading:

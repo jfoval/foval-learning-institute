@@ -11,6 +11,89 @@ Older entries refer to `docs/BACKLOG.md`, which was split on 2026-09-09 into `do
 unstarted work) and this file. Its section numbers survive only in those entries and in a few
 split-seam comments inside Bible Basics lessons, which point at `docs/DECISIONS.md` §5.
 
+## 2026-09-18 — Using AI Effectively started, and two papers opened that everybody quotes second-hand
+
+**Sixth of seven in Term 1, immediately after Digital Literacy, where the Core map already had it.**
+Scaffolded, researched, outlined and two lessons drafted in one session. 6,800 words of research,
+a 9,600-word outline planning eleven lessons, a 24-item test blueprint and a project, and lessons 1
+and 2 through Stage 3 with fresh-context reviews running.
+
+**The course carries `sensitive_domain: true` on the institute's own call rather than the standards'
+list.** Standards 3.4 names education and any recent event, and an honest treatment of this subject
+needs both.
+
+**Seven decisions are settled in the outline** so that eleven lessons written in different sessions
+agree. The two that most change what a drafter may write: the course names no product and prints no
+interface instruction, and no lesson body states a capability as a standing fact. Every capability
+figure carries a model name as well as a date, which is Digital Literacy's convention with one field
+added. And everything perishable is quarantined in lesson 11, which is the revision point for the
+whole course, so a future session can bring it up to date without re-opening ten lessons.
+
+**The hardest design problem was that the course cannot predict what any reader's system will say**,
+so no exercise can have a key. The answer, used in every lesson: the reader writes a prediction
+first, then runs it, then records the gap, and the gap is the deliverable. That is assessable
+without a key, it works on any product, and it is retrieval practice, which Term 1 position 1 taught
+them.
+
+**Two papers were opened that the whole internet quotes second-hand, and both had been summarised
+wrongly in the same direction.**
+
+Dell'Acqua et al. on the jagged frontier: the publisher's HTML returns 403 and the PDF does not, so
+the paper is open access and readable after all. Opening it corrected the headline from "19% less
+likely" to **19 percentage points**, which is what the results section says and the abstract does
+not; killed the 43%-against-17% skill figures, which are not in the published text; and turned up
+the result nobody carries. The study had **three** conditions, and the third was GPT-4 plus a prompt
+engineering overview. That group did best inside the frontier and **worst outside it**, 24.5%
+against 13.9%. The people taught to use the tool better were the ones most damaged by using it on
+the wrong task. That is now the spine of lesson 6.
+
+Noy and Zhang on writing productivity: the MIT working paper extracts cleanly. The "18% higher
+quality" figure that circulates **is not in the paper**; quality is reported in standard deviations
+and the number is 0.45 SD. And the compression finding is better than its summary: low-scoring
+workers got faster *and* better, while high-scoring workers kept their grade and got much faster, so
+the gap closed because the already-good stopped spending as long.
+
+**The general lesson, now written into both research files: a summary keeps the figures that make a
+clean story and drops the one that complicates it.** Both papers came off the `unread:` line, and
+so did chapter 2 of Jurafsky and Martin, which gave the mechanism lesson a real source for tokens
+instead of general knowledge.
+
+## 2026-09-18 — Digital Literacy's assessments, and a test that had to be written twice
+
+The machine audit and a 32-item course-end test. The course now has everything except lesson 13,
+which is blocked on John running a real data export.
+
+**Both failed their first Stage 4 review, and the two failures were different in a way worth
+keeping.**
+
+The project failed on **fidelity**. It was drafted from the lesson objectives rather than the lesson
+bodies, and the result was structurally right and factually wrong in a way that reads as fine: it
+named the wrong five questions from lesson 1, halved Wash's eight folk models to five, told the
+learner that the one party who cannot see them is covered by encryption when lesson 7 spends a
+predict block ruling exactly that out, promised every learner a permission-denied that Git Bash on
+Windows will not give, and carried Reading Well's "lesson 9" across into a course where lesson 9 is
+about installing software. **Objectives are an index, not a source.**
+
+The test failed on **the one requirement that made it a test**. The outline asks for at least
+fifteen items of application to material appearing in no lesson; it had about five. Twenty-six of
+thirty-two handed back a scenario the learner had already been walked through, and seven were a
+lesson's own predict block or quiz item with the pronouns changed and the key in the next sentence.
+Standards 1.1 says a quiz passable by recognising phrases from the text has failed the transfer
+test. Rewritten with a new person, a new file and a new number in every item.
+
+**Three measured tells came out of the same rewrite**, and they are now defects 15 to 17 on the
+drafter's list because this drafter produced all three on every draft it wrote that day: the key was
+the strictly longest option in 15 of 32 items, answer positions ran 9/11/8/4, and contraction rates
+came in at 2.9, 0.0 and 0.3 per 1,000 words against a band of 5 to 8. All three are measured by
+`npm run validate`, so the only cost is a fix pass that should not be needed.
+
+**And the test found a contradiction inside a published lesson.** Lesson 7's diagnostic ladder said
+a trace answering at hop one and nowhere after means the trouble is at or just past your provider.
+Its own earlier section says asterisks are not a fault and a trace to a healthy site is full of
+them. A learner obeying the ladder reached a conclusion the lesson elsewhere calls an overread. The
+ladder now says what a stop past hop one is worth, which is nothing on its own, and gives the
+comparison that does carry information.
+
 ## 2026-09-18 — Three queue items closed by checking rather than by building
 
 None of the three needed code. Two of them described a defect that was not there.
