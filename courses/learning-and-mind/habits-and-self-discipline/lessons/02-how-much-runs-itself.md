@@ -73,19 +73,20 @@ quiz:
       Which kinds of behaviour did the study find were most often classified as habitual?
     options:
       - Work and study behaviours, because those are performed to a fairly fixed timetable
-      - Eating and drinking, which were the most frequently listed of all of the domains
+      - Eating and drinking, which happen more times a day than anything else listed
       - Social interaction, since it is performed with the same people in the same places
       - Hygiene and appearance, and sleeping and waking, which run to the same place and time
     answer: 3
     explain: >-
-      Those are the domains most reliably tied to one place and one moment, which is what the
-      criterion asks for. Studying was the most commonly listed domain and not the most habitual,
-      which is the distinction the item turns on. Eating and drinking were common too. And social
-      interaction varies in both place and company more than the definition likes.
+      Those are the behaviours most reliably tied to one place and one moment, which is what the
+      criterion asks for, and they are the ones the paper names. Work and study run to a timetable
+      that moves week by week. Eating and drinking happen often, and often in different places, which
+      is the frequency-is-not-automaticity distinction again. And social interaction varies in both
+      place and company more than the criterion allows.
   - q: >-
       Somebody says the diary figure proves most of life is automatic. What is wrong with that?
     options:
-      - It reverses the finding, which was that most listed behaviours were not habitual
+      - It reverses the finding, which was that nearly every listed behaviour was habitual
       - Nothing, since a third to a half of behaviours is most of a person's day by any measure
       - It treats a count of behaviours meeting one stated criterion as a claim about a life
       - It ignores that the studies were run before smartphones changed how people spend time
@@ -93,33 +94,31 @@ quiz:
     explain: >-
       The number counts listed behaviours against a criterion the paper states, on students, and
       none of those steps licenses a claim about how much of a life is automatic. The reversal
-      answer is wrong on the arithmetic, since between a third and a half is not most. And the date
-      is a fair thing to ask about and is not what makes the inference fail.
+      answer misstates the finding in the other direction, since a third to a half is not nearly
+      every one. Accepting it outright ignores that the count is of listed behaviours rather than of
+      time. And the date is a fair thing to ask about and is not what makes the inference fail.
 ---
 
-Lesson 1 gave you a definition. This lesson asks how much of an ordinary day meets it, and it is the first measurement in the course, and then does
-something the rest of this course will keep doing: it takes the number everybody quotes and puts it
-back beside the sentence it came from.
+Lesson 1 gave you a definition. This lesson asks how much of an ordinary day meets it, which is the
+first measurement in the course, and then does something the rest of this course will keep doing: it
+takes the number everybody quotes and puts it back beside the sentence it came from.
 
 ## Two diary studies
 
-Wood, Quinn and Kashy ran two studies and reported them together.[1] The design is worth having in
-detail, because in this subject the design is usually what has gone missing by the time a figure reaches you.
+Wood, Quinn and Kashy ran two studies in 2002 and reported them together.[1] What matters about the
+design is small and is exactly what goes missing by the time the figure reaches you.
 
-**Study 1.** Seventy undergraduates at Texas A&M University, taking part for course credit. One day
-of recording. Each participant carried a diary form and **a wristwatch programmed to chime on the
-hour**, and at each chime wrote down what they were doing, what they were thinking, and how they
-felt. One behaviour per entry.
+**Both were hourly diary studies with student participants.** A prompt once an hour, and at each
+prompt the participant wrote down what they were doing, what they were thinking, and how they felt.
 
-**Study 2.** Two hundred and nine undergraduates at the same university. Two days rather than one.
-And one change to the form: participants could record **several behaviours at once** rather than one.
+**The two studies differed in one thing that turns out to matter: the form.** Study 1 took one
+behaviour per entry. Study 2 let a participant list **several behaviours at once**.
 
-The authors say why they made that change, and it matters for the number: "Because people are likely
-to be most aware of actions that require attention and control, reports limited to a single behavior
-at each assessment might underestimate the incidence of habits."[1]
-
-**Read that sentence twice.** They're saying that a diary asking for one behaviour an hour will tend to catch the one you were paying attention to, which is by definition the least habitual thing
-you were doing.
+**This course has read the abstract and the diary-study results rather than the Method section**, so
+the sample sizes, the length of the recording period and the details of how participants were
+recruited are not reported here. The one design fact the lesson leans on, the difference between the
+two forms, comes from the authors' own explanation of why their two figures differ, which is quoted
+below.
 
 ### The criterion, which is where the number comes from
 
@@ -155,16 +154,21 @@ is a general property of this subject rather than a fact about these authors. Yo
 thing happen twice more in this course, to 66 and to 21.
 :::
 
-The authors do not leave the gap between their two studies unexplained. It is "consistent with our
-expectation that the procedure of listing multiple behaviors in Study 2 would encourage participants
-to include more activities performed habitually".[1]
+The authors do not leave the gap between their two studies unexplained. Their account of it is that
+the Study 2 procedure of listing multiple behaviours "would encourage participants to include more
+activities performed habitually".[1]
 
-**So the difference between 35 and 43 is a difference between two diary forms.** Same university,
-same kind of participant, same criterion. What changed is how many behaviours a person could write down at once, and that's all, and the count moved by eight percentage points.
+**Read that twice**, because it is the whole reason the two numbers differ. A diary asking for one
+behaviour an hour tends to catch the one you were paying attention to, and the thing you were paying
+attention to is the least habitual thing you were doing.
+
+**So the difference between 35 and 43 is a difference between two diary forms.** Same kind of
+participant, same criterion, and the only thing that changed is how many behaviours a person could
+write down at once. The count moved by eight percentage points.
 
 ### Worked: one hour, two forms
 
-**This case is constructed**, and the two forms are the ones the studies actually used.[3]
+**This case is constructed**, and the two forms are the two the authors describe.[3]
 
 A student at eleven in the morning is sitting in a library, reading for an essay, drinking coffee,
 with music in her ears. The watch chimes.
@@ -200,14 +204,12 @@ people's minds were somewhere else.
 habitual than nonhabitual behavior".[1] Not happier, and not more satisfied either. Less stressed, which is
 a narrower and more believable claim.
 
-**The most habitual domains were the ones you would guess, and the most common ones were not.** Of
-the domains the authors identified, "attending to hygiene and appearance and sleeping and waking
-activities were most likely to be classified as habitual".[1] The most commonly reported domains in
-these students' lives were studying and other school-related behaviours, entertainment and
-information-gathering, social interaction, and eating and drinking.[1]
+**The most habitual domains were the ones you would guess.** The behaviours most often classified
+as habits were "attending to hygiene and appearance and sleeping and waking activities".[1]
 
-**So the things people did most were not the things they did most habitually**, which is lesson 1's
-frequency-is-not-automaticity distinction arriving from the data rather than from a definition.
+**Those are the behaviours most tightly tied to one place and one moment**, which is what the
+criterion asks for, and that is lesson 1's point arriving from data rather than from a definition:
+what makes something count here is not how much of it there is but how fixed its context is.
 
 :::checkpoint Somebody says the honest version of the finding is that most of life is not automatic, which is the opposite of what the figure is used for. Are they right?
 On the arithmetic, yes, and it's worth being precise about how far that goes.
@@ -221,7 +223,8 @@ required a behaviour to happen just about every day in the same location. That i
 you do automatically three times a week, or automatically in two different places, fails it and is
 still a habit in lesson 1's sense.
 
-**So the figure is a floor rather than an estimate**, and the honest sentence is duller than either
+**So the figure is a floor rather than an estimate**, which is this course's reading of it rather
+than a claim the authors make,[3] and the honest sentence is duller than either
 version you will meet: on one criterion, in two student diaries, somewhere between a third and a half
 of listed behaviours qualified, and the true proportion of automatic behaviour isn't something these studies were built to measure.
 :::
@@ -236,18 +239,17 @@ that let people list more.
 not classified as habitual.
 
 **"The studies observed people."** They didn't. These are hourly self-report diaries, filled in by
-undergraduates prompted by a chiming wristwatch, who had signed a contract agreeing to complete
-them.[1] The researchers were careful about it, and it's still people telling you what they did.
-**Lesson 6 comes back to that**, because the whole habit literature measures automaticity by asking,
-and it is the weakest joint in the subject.
+students at an hourly prompt.[1] The researchers were careful about it, and it is still people
+telling you what they did. **Lesson 7 comes back to that**, because the whole habit literature
+measures automaticity by asking, and it is the weakest joint in the subject.
 
 ## Practice
 
 :::exercise Count one day of your own
 Take 30 minutes across a day, then 15 at the end of it.
 
-**Set something to prompt you once an hour** while you are awake. The studies used a chiming
-wristwatch; a phone alarm does the same job.
+**Set something to prompt you once an hour** while you are awake. The studies used an hourly prompt
+and a paper form; a phone alarm and a notes app do the same job.
 
 At each prompt, write down **every** behaviour you are engaged in, not just the main one. That is the
 Study 2 form, and the worked case above is why it matters.
@@ -263,14 +265,14 @@ Then three numbers and one sentence.
 4. **One sentence on how your listing affected the number.** Did you write one thing an hour or
    several? Where you wrote several, how many of the extra ones were the habitual ones?
 
-Keep this sheet. Lesson 3 works on the cues attached to the behaviours you marked yes.
+Keep this sheet. **Lesson 3 is about the cues attached to behaviours like the ones you marked yes**, and the sheet is the obvious place to pick one from.
 :::
 
 :::exercise Find the criterion
 Take 20 minutes.
 
 Find one claim, anywhere, about how much of human behaviour is habit, automatic, or unconscious.
-There are a great many and they disagree wildly with each other. Write it down word for word, with where you found it.
+There are a great many, and the ones this course looked at disagree with each other. Write it down word for word, with where you found it.
 
 Then three questions, and stop when you run out of answers rather than when you run out of patience.
 
@@ -280,7 +282,7 @@ Then three questions, and stop when you run out of answers rather than when you 
    was doing most of the work in the one study this lesson covers.
 3. **On whom, and when?**
 
-Most claims of this kind fail at question two, and that is quick to find out. That is the result, and it is the same exercise lesson
+Every claim of this kind that this course has traced failed at question two, and that is quick to find out. That is the result, and it is the same exercise lesson
 7 runs on the whole subject.
 :::
 
@@ -297,7 +299,7 @@ claim was measured on and when.
 
 **Forward.** Lesson 3 is what the cue is doing, and the behaviours you marked yes in the exercise are
 its raw material. Lesson 4 is how long a habit takes, and it contains the second of this course's
-three travelling numbers. Lesson 6 returns to the problem that automaticity is measured by asking.
+three travelling numbers. Lesson 7 returns to the problem that automaticity is measured by asking.
 Lesson 7 puts all three numbers side by side.
 
 ## Go deeper
@@ -305,10 +307,10 @@ Lesson 7 puts all three numbers side by side.
 - **[Habits in Everyday
   Life](https://dornsife.usc.edu/wendy-wood/wp-content/uploads/sites/183/2023/10/Wood.Quinn_.Kashy_.2002_Habits_in_everyday_life.pdf)**
   (*Journal of Personality and Social Psychology*, 2002), posted by one of its authors. This course
-  has read the abstract, the method and the diary-study results. **Read the Method section rather
-  than the Results**, which is the reverse of the usual advice and is right here: the wristwatch, the
-  contract, the exclusion of participants who filled the form in retrospectively, and the two
-  versions of the form are what the number is made of.
+  has read the abstract and the diary-study results. **If you open it, read the Method section**,
+  which this course did not: how participants were recruited, how long they recorded for, and what
+  each version of the form asked are what the number is actually made of, and none of it travels
+  with the figure.
 
 ## Sources
 
@@ -316,12 +318,14 @@ Lesson 7 puts all three numbers side by side.
    and
    Action"](https://dornsife.usc.edu/wendy-wood/wp-content/uploads/sites/183/2023/10/Wood.Quinn_.Kashy_.2002_Habits_in_everyday_life.pdf),
    *Journal of Personality and Social Psychology* 83(6), 2002, pages 1281 to 1297. Read in part: the
-   abstract, the Method section and the diary-study results. Supports: both study designs and their
-   samples; the hourly chiming wristwatch and the contract; the quoted rationale for allowing
-   multiple behaviours in Study 2; the quoted criterion; the quoted result with both figures and the
-   authors' quoted explanation of the difference; the quoted finding about unrelated thoughts and
-   the lesser stress; and the most and least habitual domains. **Scope: 70 undergraduates for one
-   day and 209 for two days, all at Texas A&M University, taking part for course credit.**
+   abstract and the diary-study results; **the Method section was not opened**, and the body says
+   so. Supports: that these were two hourly diary studies with student participants; the quoted
+   criterion; the quoted result with both figures and the authors' quoted explanation of the
+   difference, which is also the only thing supporting the one-behaviour and several-behaviour
+   forms; the quoted finding about unrelated thoughts and the lesser stress; and the quoted
+   statement of which behaviours were most often classified as habitual. **Scope: student
+   participants, hourly self-report diaries. The sample sizes and the recording period are in the
+   Method section and are therefore not claimed here.**
 2. Benjamin Gardner, Phillippa Lally and Jane Wardle, ["Making health habitual"](https://pmc.ncbi.nlm.nih.gov/articles/PMC3505409/),
    *British Journal of General Practice* 62(605), 2012. Read in full. Cited here only for lesson 1's
    definition, which this lesson uses as the standard the diary criterion is a proxy for.
@@ -329,4 +333,4 @@ Lesson 7 puts all three numbers side by side.
    diary forms she fills in are the ones the studies used, and the eight-point gap her two entries
    illustrate is the gap the authors report and explain; the individual case is built to show the
    mechanism rather than taken from the paper. **The reading of the figure as a floor rather than an
-   estimate is also this course's own**, stated as such in the checkpoint where it appears.
+   estimate is also this course's own**, marked as such in the checkpoint where it appears.
