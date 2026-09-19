@@ -3,7 +3,7 @@ title: Time Management
 school: learning-and-mind
 subject: Learning & Mind
 level: Foundation
-status: drafting
+status: published
 summary: >-
   Where your hours actually go, why the usual advice fails, and a small system for deciding what
   gets done and what does not.
@@ -11,8 +11,9 @@ description: >-
   Most time management teaches you to fit more in. This course starts from the opposite premise:
   the hours are fixed, the list is not, and the skill is deciding. It covers how to find out where
   your time really goes rather than where you think it goes, why estimates run short in a way that
-  is measurable and predictable, what the evidence does and does not show about planning, lists and
-  multitasking, and how to build a week that survives contact with other people. It is the last
+  is measurable and predictable, what the evidence does and does not show about planning, about
+  deciding what not to do, and about how a working day is actually broken up, and how to build a
+  week that survives contact with other people. It is the last
   course in the first term of the Core, after the ones that teach you how to learn, read, write,
   think and use a machine, because it is the course that decides when you will do any of it.
 outcomes:
@@ -38,6 +39,6 @@ outcomes:
     Build a week that names its fixed points first, run it, and record where it broke
   - >-
     Sort a piece of time-management advice into measurable, unmeasurable or false, and trace a
-    repeated figure to its source or establish that it has none
+    repeated figure to its source or establish that nobody can produce one
 prerequisites: []
 sensitive_domain: false
