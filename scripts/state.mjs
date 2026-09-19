@@ -48,6 +48,40 @@ const SPEND = (function renders() {
 })();
 const EACH = SPEND.attempts ? SPEND.all / SPEND.attempts : 0.22;
 
+/* The daily quota, which is a different wall from the money and hits first.
+   The account is on Google's Tier 1: fifty Gemini 2.5 Pro TTS requests per day, per model, on a
+   rolling window. When it is exhausted Google refuses with 429 before generating anything, so the
+   refusal costs nothing, and it returns a retryDelay saying exactly when the next call is accepted.
+   Until 2026-09-19 this file did not know that, so with money in the cap it kept naming a render as
+   the one thing to do for the whole twenty hours the quota was out, and every session had to work
+   out for itself that it should move on to content. Now it reads the last refusal and moves on. */
+const RENDER_BLOCKED_UNTIL = (function blocked() {
+  const work = path.join(ROOT, "audio-out", "work");
+  if (!fs.existsSync(work)) return 0;
+  let until = 0;
+  (function walk(d) {
+    for (const e of fs.readdirSync(d, { withFileTypes: true })) {
+      const f = path.join(d, e.name);
+      if (e.isDirectory()) { walk(f); continue; }
+      if (e.name !== "manifest.json") continue;
+      let m; try { m = JSON.parse(fs.readFileSync(f, "utf8")); } catch { continue; }
+      for (const a of m.attempts || []) {
+        const err = String(a.error || "");
+        if (!err.includes('"code":429') && !err.includes("RESOURCE_EXHAUSTED")) continue;
+        const delay = err.match(/"retryDelay"\s*:\s*"(\d+)s"/);
+        const sent = Date.parse(a.sent || "");
+        if (!delay || Number.isNaN(sent)) continue;
+        until = Math.max(until, sent + Number(delay[1]) * 1000);
+      }
+    }
+  })(work);
+  return until > Date.now() ? until : 0;
+})();
+const blockedFor = () => {
+  const h = (RENDER_BLOCKED_UNTIL - Date.now()) / 3600000;
+  return h >= 1 ? `${h.toFixed(1)} hour(s)` : `${Math.max(1, Math.round(h * 60))} minute(s)`;
+};
+
 
 const TERMS = (() => {
   try {
@@ -74,6 +108,13 @@ for (const school of dirs(COURSES)) {
     const has = (sub, f) => fs.existsSync(path.join(dir, sub, f));
     courses.push({
       id, school, status: meta.status, term: TERMS[id] ?? null,
+      /* Some work is stopped on something no script can see. Digital Literacy lesson 13 needs a
+         real data export from one of John's own accounts, which a session cannot request, and on
+         2026-09-19 this file spent a session's first move naming it anyway. A course.yaml with
+         `blocked: <one line saying why>` is skipped when the next action is chosen, and the line
+         is printed instead, so the block is stated where the work is rather than only in the
+         queue. Remove the field and it is picked up again on the next run. */
+      blocked: typeof meta.blocked === "string" ? meta.blocked.trim() : null,
       lessons: lessons.length,
       words: lessons.length ? Math.round(lessons.reduce((n, f) => n + body(f), 0) / lessons.length) : 0,
       // Held as the LIST of lessons still missing each thing, not a count. Bible Basics has one
@@ -174,6 +215,7 @@ function budget() {
 AUDIO BUDGET  ${key}: $${left.toFixed(2)} left of a $${cap.toFixed(2)} cap, about ${Math.floor(left / (each || 0.22))} more episode(s).`);
   console.log(`              production: $${month.toFixed(2)} over ${monthAttempts} episode(s), $${each.toFixed(2)} each.`);
   if (lost) for (const x of incidents) console.log(`              not production: $${x.amountUSD.toFixed(2)} lost to an accident (${String(x.what).split(".")[0]}). Counts against the cap, never against the cost of an episode.`);
+  if (RENDER_BLOCKED_UNTIL) console.log(`              DAILY QUOTA OUT: Google is refusing renders for another ${blockedFor()} (50 requests\n              per day on gemini-2.5-pro-tts, rolling). A 429 is refused before any audio is made, so it\n              costs nothing and is not an incident. Money is not the wall here. Work content instead.`);
   console.log(`              Headroom, not an allowance: unspent is money John still has. Render only what is owed.`);
   console.log(`              aistudio.google.com/spend is the authority; he raises the cap as he can afford it.`);
   console.log(`              all time, production only: $${all.toFixed(2)} over ${attempts} render(s).`);
@@ -193,7 +235,10 @@ AUDIO BUDGET  ${key}: $${left.toFixed(2)} left of a $${cap.toFixed(2)} cap, abou
 const money = budget();
 
 console.log(`\nNEXT ACTION, PER COURSE, IN CORE TERM ORDER`);
-for (const c of courses) if (c.next !== "finished") console.log(`  ${pad(c.id, 24)} ${c.next}`);
+for (const c of courses) if (c.next !== "finished") {
+  console.log(`  ${pad(c.id, 24)} ${c.blocked ? "BLOCKED: " + c.blocked : c.next}`);
+  if (c.blocked) console.log(`  ${pad("", 24)} (would otherwise be: ${c.next})`);
+}
 const doneCourses = courses.filter(c => c.next === "finished").map(c => c.id);
 if (doneCourses.length) console.log(`  finished: ${doneCourses.join(", ")}`);
 console.log("");
@@ -218,7 +263,7 @@ console.log("");
    Terms 1 and 2 finish first when the whole Core is a multi-year build. */
 function nextAction(courses, money) {
   const lessonFiles = c => { try { return fs.readdirSync(path.join(COURSES_DIR, c.school, c.id, "lessons")).filter(f => f.endsWith(".md")).sort(); } catch { return []; } };
-  if (money && money.left >= money.each) {
+  if (money && money.left >= money.each && !RENDER_BLOCKED_UNTIL) {
     for (const c of courses) {
       if (c.status !== "published") continue;
       const ready = c.noEpisode.filter(f => !c.noScript.includes(f));
@@ -230,7 +275,7 @@ function nextAction(courses, money) {
     }
   }
   for (const c of courses) {
-    if (c.next === "finished") continue;
+    if (c.next === "finished" || c.blocked) continue;
     // The pipeline has stages and this is the one action a session will act on without
     // checking, so it must not name a stage the course is not ready for. On 2026-09-19 it told a
     // session to draft lesson 1 of a course whose only research file was SOURCES.md, because it

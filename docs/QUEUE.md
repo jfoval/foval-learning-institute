@@ -157,11 +157,17 @@ Rewrite these five lines each session. Nothing else goes in this block.
   of unwanted installs, because it is the source of 87% of installs. Safest per install, largest in
   absolute terms.
 
-- **The day's allowance is spent again, on 2026-09-19 at 21:45, and the window's shape is now
-  well established over three sessions.** Two more Bible Basics episodes went out this evening, 6
-  and 7, both one call, both passing the gate first time. The debt is 9 down to 5. Then nine
-  refusals in a row: 21h43m, and an hour later 21h14m. **Nothing is billed for a refusal**, which
-  is why trying four in a row costs four minutes and is worth doing rather than reasoning about.
+- **The day's allowance is out, and `npm run state` now knows it rather than each session finding
+  out by hand.** One refusal on 2026-09-19 at 03:19, quoting **20h40m**, so rendering is done until
+  roughly midnight on the 20th. Sixteen episodes are still owed across Using AI Effectively (11) and
+  Bible Basics (5), and $3.20 clears them; the money was never the constraint.
+
+  **What changed in the tooling.** `scripts/state.mjs` reads the last 429 out of the attempt
+  manifests, takes Google's own `retryDelay`, and if the window has not cleared it skips the render
+  branch entirely and moves the one next action on to content, printing one line saying why. Before
+  this it named a render as the one thing to do for the whole twenty hours the quota was out, and
+  every session had to reason its way past its own marching order. **Nothing is billed for a
+  refusal**, so a session that wants to test the window may still try one; it costs a minute.
 
   **The rule that has held every time:** a refusal quoting twenty-something hours means stop
   rendering and spend the session on content. A refusal quoting one or two hours is worth waiting
@@ -237,10 +243,13 @@ Rewrite these five lines each session. Nothing else goes in this block.
   check rather than after, per section 4a. Five of the six drafted today opened above the
   1,417-word wall.
 
-- **BLOCKED ON JOHN, and it is now the only unblocked-work gap in the whole institute.** With the
-  scripts done, lesson 13 is the single thing between Digital Literacy and publication, and no
-  other course has content work outstanding. A session with no episodes left to render has nothing
-  to write until this arrives.
+- **BLOCKED ON JOHN, and the block is now in `course.yaml` rather than only here.** With the
+  scripts done, lesson 13 is the single thing between Digital Literacy and publication. The course
+  carries a `blocked:` line saying so, `npm run state` skips a blocked course when it picks the one
+  next action and prints the reason instead, and **deleting that line is all it takes to pick the
+  course back up**. This is the fix for a session spending its first move on work it cannot do:
+  on 2026-09-19 the marching order named lesson 13 while the queue two hundred lines down said it
+  was stopped on John. Time Management is the unblocked course and has seven lessons to draft.
   Lesson 13, the last one, has a Stage 1 gate the outline states as a **must**: "Stage 1 must run a
   real data export end to end and record what arrived". Its first worked example is that export,
   described concretely, how long it took, how big it was, what format it was in, which parts were
