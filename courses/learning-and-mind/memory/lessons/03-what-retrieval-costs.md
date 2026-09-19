@@ -24,20 +24,20 @@ quiz:
       and nothing supports erasure: the effect is a difference in recall of a few percentage points,
       not a deletion.
   - q: >-
-      The meta-analysis reports a raw difference of 8.7 percent overall, 10.9 percent in studies that
-      did not control output interference, and 5.0 percent in studies that did. What is the lesson?
+      A sports-science review reports an overall effect of 6 percent, 9 percent in trials that did
+      not blind the assessors, and 3 percent in trials that did. A coach quotes the 6 percent. What
+      has gone wrong?
     options:
-      - The true effect is 8.7 percent and the other two figures are subgroup noise
-      - That much of the headline figure is an artefact, since controlling halves it
-      - That a single reported number here is as much about method as about memory
-      - That studies controlling output interference were too few to be worth pooling
+      - Nothing, since the overall figure pools every trial and is therefore the best estimate here
+      - The 3 percent figure is the only real one, since the other trials were not properly run
+      - The overall figure averages two designs, so it describes neither the blinded nor the rest
+      - The review should not report subgroups at all, since they invite exactly this confusion
     answer: 2
     explain: >-
-      The same phenomenon comes out at five or eleven percent depending on one design choice, so a
-      single figure is uninterpretable without knowing which kind of study produced it. Calling the
-      overall figure the true one ignores that it averages two different designs. Calling the whole
-      effect an artefact overshoots, since the controlled figure is still above zero with an
-      interval that excludes it. And seventy-nine samples is not too few.
+      A pooled figure that spans two methods is a statement about the mixture of studies rather than
+      about the thing being measured, which is this lesson's three-row table in a different subject.
+      Pooling everything does not make an average interpretable. Unblinded trials are not worthless.
+      And reporting the split is what let the coach be corrected at all.
   - q: >-
       A reader finishes this lesson and concludes that self-testing damages memory and should be
       avoided. What is wrong with that?
@@ -67,18 +67,19 @@ quiz:
       neither a clean win nor a stalemate. The other three options each remove one half of what the
       authors actually wrote.
   - q: >-
-      What is output interference, in the sense this lesson uses?
+      A revision app tests you on the cards you drilled this week first, and then on the rest of the
+      deck. Why would this lesson want that order changed?
     options:
-      - The tendency of a final test to make the earlier-tested items harder to reach
-      - Noise in a study caused by the participants talking about the task afterwards to each other
-      - The effect of recalling practised items first on later recall of unpractised ones
-      - The interference between two lists learned in the same laboratory session
+      - Because drilling the practised cards first makes those same cards harder to recall later
+      - Because the deck should be shuffled so that related cards never come up next to each other
+      - Because producing the drilled cards first interferes with producing the rest of the deck
+      - Because the unpractised cards should be tested twice, to make up for the cost they carry
     answer: 2
     explain: >-
-      If a final test asks for the practised items before the unpractised ones, the act of producing
-      the first set interferes with producing the second, and studies that control for this report
-      an effect about half the size. The other options describe different things, one of which is
-      list interference and none of which is what the control is for.
+      That is output interference, and studies that control for it report an effect about half the
+      size, so an app using this order is measuring its own test design as well as your memory. The
+      practised cards are the ones that benefit. Shuffling is a different idea. And testing the rest
+      twice would change what the app teaches rather than what it measures.
   - q: >-
       Which of these would be the strongest evidence that this effect matters outside a laboratory?
     options:
@@ -101,54 +102,57 @@ This lesson is about what the same act does to the things you did not retrieve.
 
 ## The effect
 
-**Retrieving a subset of items can cause the forgetting of other items.**[1] That is the phenomenon,
+Retrieving a subset of items can cause the forgetting of other items.[1] That is the phenomenon,
 in the meta-analysts' own words, and it has a name: retrieval-induced forgetting.
 
-**The paradigm behind it is worth having concretely.** You learn a set of items in categories.
-Then you practise retrieving some of the items from some of the categories. Then, later, you are
-tested on everything.
+The paradigm behind it is worth having concretely. You learn a set of items in categories. Then you
+practise retrieving some of the items from some of the categories. Then, later, you are tested on
+everything. **That description, and the three kinds of item below, are this course's own account of
+the design the meta-analysis pools**, assembled from what the paper says about the effect rather
+than quoted from it: the research file holds the abstract, the effect sizes and the
+output-interference analysis, and nothing describing the paradigm itself.[2]
 
-**Three kinds of item come out of that.** The ones you practised. The ones you did not practise from
+Three kinds of item come out of that. The ones you practised. The ones you did not practise from
 categories you did practise. And the ones from categories you never touched at all.
 
-**The finding is about the middle group.** They come out worse than the untouched ones. **Not the
+The finding is about the middle group. They come out worse than the untouched ones. **Not the
 ones you ignored: the ones that were sitting next to something you retrieved.**
 
 :::predict Before the numbers. You have just been told that retrieving some items hurts their neighbours, in a course whose predecessor recommends retrieval practice as the single best technique available. Write down how you think those two facts fit together, in two sentences.
 Most people reach for one of two resolutions and the useful answer is neither.
 
-**The first is "so retrieval practice is wrong".** It isn't, and nothing in this literature says
+The first is "so retrieval practice is wrong". It isn't, and nothing in this literature says
 so. The practised items benefit, substantially, and that benefit is what the earlier course is
 about.
 
-**The second is "so it does not matter".** Also no. The effect is real, it has been pooled across
+The second is "so it does not matter". Also no. The effect is real, it has been pooled across
 hundreds of samples, and its interval excludes zero.
 
-**The resolution is that these are two different groups of items and the finding is about the trade
-between them.** Retrieval isn't free in the way a course that only measured the practised items
+The resolution is that these are two different groups of items and the finding is about the trade
+between them. Retrieval isn't free in the way a course that only measured the practised items
 would suggest. **What you choose to test yourself on is a choice about what gets stronger and,
 slightly, about what gets harder to reach.**
 
-**And the practical upshot is smaller than either resolution suggests**, which the lesson comes back
+And the practical upshot is smaller than either resolution suggests, which the lesson comes back
 to. This is a reason to spread your testing across a topic rather than a reason to stop testing.
 :::
 
 ## What pooling found
 
-Murayama, Miyatsu, Buchli and Storm published the meta-analysis in 2014.[1] **This course has read
+Murayama, Miyatsu, Buchli and Storm published [the meta-analysis](https://centaur.reading.ac.uk/37052/) in 2014.[1] **This course has read
 its abstract, its overall effect sizes and its output-interference analysis**; the theoretical
 sections were not opened.
 
 **The headline**, excluding studies where retrieval practice was replaced by something else:
 **g = 0.35, with a 95 percent confidence interval from 0.32 to 0.38**, across 472 samples.[1]
 
-**But the number this lesson is built on is the raw one**, because it is in units a reader can
+But the number this lesson is built on is the raw one, because it is in units a reader can
 picture. In the authors' words: "the average raw mean difference was 8.7% for the entire sample
 (k = 193, 95% CI = [7.5%, 9.8%]), 10.9% for samples that did not control output interference
 (k = 124; 95% CI = [9.4%, 12.4%]), and 5.0% for samples that did control output interference
 (k = 79; 95% CI = [3.7%, 6.3%])."[1]
 
-**Three numbers, and reading them together is the lesson.**
+Three numbers, and reading them together is the lesson.
 
 | What was pooled | Samples | Raw difference | Interval |
 |---|---|---|---|
@@ -156,32 +160,34 @@ picture. In the authors' words: "the average raw mean difference was 8.7% for th
 | Studies not controlling output interference | 124 | 10.9% | 9.4% to 12.4% |
 | Studies controlling output interference | 79 | 5.0% | 3.7% to 6.3% |
 
-**The same phenomenon is eleven percent or five percent depending on one choice about how the final
-test is run.** Both intervals exclude zero, so something is there in both. And a single reported
+The same phenomenon is eleven percent or five percent depending on one choice about how the final
+test is run. Both intervals exclude zero, so something is there in both. And a single reported
 figure is a statement about the method as much as about memory, which is **Focus and Deep Work**
 lesson 4's point arriving in a different subject.
 
 ## What output interference is, and why it halves the number
 
-**This is the part that makes the table readable**, and it is a smaller idea than it sounds.
+This is the part that makes the table readable, and it is a smaller idea than it sounds. **The
+account below is this course's own explanation of why the control matters**, reasoned from the
+analysis the paper reports rather than taken from a passage in it.[2]
 
 At the end of the experiment you are tested on everything. **If the test asks for the practised
 items first**, then by the time it asks for the unpractised ones you have just spent several minutes
 producing their neighbours. **That act of producing interferes with what comes next**, entirely
 apart from whatever the practice did earlier.
 
-**So a study that doesn't control for the order of the final test is measuring two things at
-once**: the effect of the practice, and the effect of having just recalled a pile of related items.
+So a study that doesn't control for the order of the final test is measuring two things at
+once: the effect of the practice, and the effect of having just recalled a pile of related items.
 Controlling for it separates them, and when you do, the effect halves.
 
-**Notice what that does and doesn't show.** It doesn't show the effect is an artefact: the
+Notice what that does and doesn't show. It doesn't show the effect is an artefact: the
 controlled figure is five percent, with an interval from 3.7 to 6.3 that excludes zero. **What it
 shows is that about half of the number people quote is coming from the test rather than from the
 practice.**
 
 ## Why it happens, which is contested
 
-**The meta-analysts set the dispute out themselves**, and a course that reported one side would be
+The meta-analysts set the dispute out themselves, and a course that reported one side would be
 misrepresenting a paper that doesn't.
 
 **In their words:** "According to some theorists, retrieval-induced forgetting is the consequence of
@@ -194,10 +200,10 @@ non-inhibitory mechanisms, such as strength-based competition or blocking."[1]
 supported inhibition accounts, but also provided some challenging evidence, with the nature of the
 results often varying as a function of how retrieval-induced forgetting was assessed."[1]
 
-**Read the last clause.** The answer depends on how the effect was measured, which is the third time
+Read the last clause. The answer depends on how the effect was measured, which is the third time
 in three lessons that the instrument has turned out to be doing part of the work.
 
-**This course doesn't settle it**, and the sections of the paper that argue it were not read.[1]
+This course doesn't settle it, and the sections of the paper that argue it were not read.[1]
 What a reader should take is that a real effect can be well measured and still have two live
 accounts of why it happens, which is the ordinary state of a healthy literature rather than a
 failure of one.
@@ -205,22 +211,22 @@ failure of one.
 :::checkpoint So should you stop testing yourself? The earlier course said retrieval practice is the best thing you can do, and this lesson says it makes other things harder to reach.
 No, and working out why is the most useful thing in this lesson.
 
-**The two findings are about different items and the sizes aren't comparable.** Retrieval practice
+The two findings are about different items and the sizes aren't comparable. Retrieval practice
 produces large benefits on the practised material, which is what **How to Learn Anything** lesson 3
 reports. This literature reports a cost of about five to eleven percentage points on related
 material you did not practise. **Those aren't the same quantity and the first is much larger.**
 
-**What changes isn't whether to test but what to test.** If you test the same third of a topic
+What changes isn't whether to test but what to test. If you test the same third of a topic
 every time, you are strengthening that third and, slightly, making the rest harder to reach. **The
 fix is coverage**, and it costs nothing: test across the topic rather than the part you enjoy.
 
-**And notice the honest limit on all of this.** These are laboratory studies with word lists and
+And notice the honest limit on all of this. These are laboratory studies with word lists and
 category exemplars, over minutes. **Nothing this course read tests the effect on material somebody
 chose, cared about, and came back to over weeks**, which is the situation a reader is actually in.
 The gap between the finding and the advice is real and the lesson names it rather than papering over
 it.[2]
 
-**So the sentence to carry is:** retrieval practice works, it isn't free, and the cost is paid by
+So the sentence to carry is: retrieval practice works, it isn't free, and the cost is paid by
 whatever you keep skipping.
 :::
 
@@ -228,16 +234,16 @@ whatever you keep skipping.
 
 **This case is constructed**, and the numbers in it are illustrative rather than measured.[2]
 
-**Two students revise the same twelve-topic syllabus over a fortnight, both by self-testing.**
+Two students revise the same twelve-topic syllabus over a fortnight, both by self-testing.
 
-**Amara tests herself on four topics, repeatedly, because those are the ones her flashcards cover.**
+Amara tests herself on four topics, repeatedly, because those are the ones her flashcards cover.
 By the end she is fast and confident on those four. The other eight have had no retrieval at all,
 and four of them are closely related to the ones she drilled.
 
-**Ben tests himself across all twelve, less often on each.** He is slower on any given topic than
+Ben tests himself across all twelve, less often on each. He is slower on any given topic than
 Amara is on hers.
 
-**What this literature predicts about the difference**, and it is a prediction rather than a
+What this literature predicts about the difference, and it is a prediction rather than a
 measurement:[2]
 
 - **Amara's four are stronger than any of Ben's twelve.** That is retrieval practice and it is the
@@ -246,36 +252,41 @@ measurement:[2]
   she drilled nothing, by something in the range of five to eleven percentage points on the
   laboratory measures.
 - **Amara's four unrelated topics are unaffected** by any of it.
-- **Ben has no retrieval-induced cost anywhere**, because nothing was left sitting beside something
-  he practised.
+- **Ben has no retrieval-induced cost anywhere**, if testing a topic reaches every item in it.
+  Where it does not, Ben has the same problem inside each topic that Amara has across the syllabus,
+  and the case is built to keep that possibility visible rather than to rule it out.
 
-**Who does better in the exam depends on the exam**, which this lesson can't tell you. **What it
+Who does better in the exam depends on the exam, which this lesson can't tell you. **What it
 can tell you is where the difference will be**, and that Amara's weakest topics are weaker than she
 thinks, in a way that has been measured.
 
 ## Three things people get wrong about this
 
-**"Testing yourself damages your memory."** It damages nothing you tested. The cost falls on related
+"Testing yourself damages your memory." It damages nothing you tested. The cost falls on related
 material you skipped, and it is a few percentage points.
 
-**"The effect is about nine percent."** It is about eleven percent in studies with one design and
+"The effect is about nine percent." It is about eleven percent in studies with one design and
 five in studies with another, and quoting the average without saying which is the thing this lesson
 exists to stop.
 
-**"Inhibition has been demonstrated."** The meta-analysis says the results largely supported
+"Inhibition has been demonstrated." The meta-analysis says the results largely supported
 inhibition accounts and also provided challenging evidence, which is a different sentence.
+
+"The non-inhibitory accounts have been ruled out." They have not, and the same sentence is the
+reason. Both errors are the same error, and the second is the one a reader of this lesson is
+likelier to make, because the lesson reports which way the evidence leans.
 
 ## Practice
 
 :::exercise Map your own coverage
 Take 25 minutes.
 
-**Pick something you are actually studying or have to know**, with more than one part: a syllabus, a
+Pick something you are actually studying or have to know, with more than one part: a syllabus, a
 body of procedures at work, a language's grammar.
 
-**Write down every part of it**, in a list. Ten to twenty items is the right size.
+Write down every part of it, in a list. Ten to twenty items is the right size.
 
-**Then mark each one**: have you tested yourself on this in the last month? Not read it. Tested.
+Then mark each one: have you tested yourself on this in the last month? Not read it. Tested.
 
 Then three lines.
 
@@ -284,7 +295,7 @@ Then three lines.
    confused with each other.
 3. **What this literature predicts about those specifically**, and in what units.
 
-**The list is the useful output**, not the prediction. Most of the value here is discovering how
+The list is the useful output, not the prediction. Most of the value here is discovering how
 concentrated your revision actually is.
 :::
 
@@ -304,7 +315,7 @@ Answer four questions.
 
 Then one line: **what would you have to read to find out?**
 
-**The habit this builds is the one the whole institute runs on**: a number is a summary of a method,
+The habit this builds is the one the whole institute runs on: a number is a summary of a method,
 and a number reported without its method is a summary of nothing.
 :::
 
@@ -327,8 +338,8 @@ methods.
   Forgetting](https://centaur.reading.ac.uk/37052/)** (*Psychological Bulletin*, 2014), open in the
   University of Reading repository. Read in part by this course: the abstract, the overall effect
   sizes and the output-interference analysis. **Read the abstract and then the output-interference
-  section**, which is where the two numbers in this lesson's table come from and is four paragraphs.
-- **[Replication and Analysis of Ebbinghaus' Forgetting
+  analysis**, which is where the lower two rows of this lesson's table come from. - **[Replication
+  and Analysis of Ebbinghaus' Forgetting
   Curve](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0120644)** (*PLOS ONE*,
   2015), open access and lesson 2's subject. Worth reading beside this one for the contrast in what
   counts as evidence: one participant measured exhaustively, against four hundred and seventy-two
@@ -346,8 +357,11 @@ methods.
    across 472 samples; and the three quoted raw differences with their sample counts and intervals,
    which are the whole of the table.
 2. **The account of what output interference is and why controlling for it halves the figure is this
-   course's own explanation** of the analysis reported in source 1, marked inline where it appears,
-   rather than a passage from the paper. **Amara and Ben are constructed**, and the lesson says so
-   where they appear and again where it says the four bullets are a prediction rather than a
-   measurement. **The observation that nothing read for this course tests the effect on material
-   somebody chose and cared about over weeks is also the course's own**, marked in the checkpoint.
+   course's own explanation** of the analysis reported in source 1 rather than a passage from the
+   paper, and it is labelled as such at the head of its own section. **The description of the
+   paradigm and its three kinds of item is the course's own too**, and is labelled where it appears:
+   the research file holds no passage describing the design. **Amara and Ben are constructed**, and
+   the lesson says so where they appear and again where it says the four bullets are a prediction
+   rather than a measurement. **The observation that nothing read for this course tests the effect
+   on material somebody chose and cared about over weeks is also the course's own**, marked in the
+   checkpoint.
