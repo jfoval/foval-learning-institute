@@ -1,6 +1,7 @@
 ---
 title: Reading the letters and Revelation
 minutes: 130
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/christian-studies/bible-basics/07-letters-and-revelation.mp3
 objectives:
   - Reconstruct the situation a letter answers, reading by paragraph rather than by verse
   - Apply the basic rule and the comparable-particulars test to decide what a first-century instruction asks of a reader now
