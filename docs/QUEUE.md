@@ -121,12 +121,24 @@ Rewrite these five lines each session. Nothing else goes in this block.
   Bible Basics lessons 4 and 9, Python Basics lesson 1, Logic and Argument lesson 10, and Digital
   Literacy lessons 1 and 3. **The fix is one edit each: name the distractor by its content.**
 
-- **Sleep is scaffolded and owes Stage 1.** `courses/health-and-body/sleep/`, the first course in
-  the School of Health and the Body, sixth in T2 after Note-Taking. **It is a sensitive domain
-  under standards 3.4** (medicine), so `sensitive_domain: true` and the neutrality audit is
-  mandatory before publish, not optional. Its prerequisites are How to Learn Anything and Memory,
-  because the best-known findings in the sleep literature are memory findings and the course should
-  use them rather than re-teach them. Next: `/research-course courses/health-and-body/sleep`.
+- **Sleep is through Stage 1**, with 6,000 words of research. `courses/health-and-body/sleep/`, the
+  first course in the School of Health and the Body, sixth in T2 after Note-Taking. **It is a
+  sensitive domain under standards 3.4** (medicine), so the neutrality audit is mandatory before
+  publish, not optional.
+
+  **The finding that decides the course**: the best evidence here is experimental and about
+  performance over days, the most repeated claims are observational and about disease and death over
+  years, and they get spoken in one breath. A randomised dose-response experiment holding 48 adults
+  at four, six or eight hours for fourteen nights sits on one side; a meta-analysis of 1,382,999
+  people with a relative risk of 1.12 for short sleep sits on the other. Neither supports the other's
+  sentence.
+
+  **Three things Stage 2 must settle before any lesson is drafted**, all recorded in the file's Open
+  concerns: the `unread:` line needs an `(except NN)` for Walker on whichever lesson covers the
+  public dispute about his book, or the build fails on it; circadian rhythm, shift work and
+  chronotype are in no source here and either get their own Stage 1 pass or an explicit omission;
+  and sleep disorders, children and adolescents should be left out by name. Next:
+  `/outline-course courses/health-and-body/sleep`.
 
 - **Note-Taking and Personal Knowledge is through Stage 2**, with 4,600 words of research and a
   4,800-word outline planning eight lessons, an eighteen-item test and a project that runs across
