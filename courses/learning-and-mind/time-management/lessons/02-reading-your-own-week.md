@@ -1,6 +1,7 @@
 ---
 title: Reading your own week
 minutes: 110
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/learning-and-mind/time-management/02-reading-your-own-week.mp3
 objectives:
   - >-
     Identify, from your own record, the largest differences between what you predicted and what you
