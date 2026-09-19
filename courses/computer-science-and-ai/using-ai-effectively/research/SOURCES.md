@@ -603,6 +603,30 @@ learners cannot read anybody else's writing on the subject.
   aloud; **use examples**, three to five, relevant and varied; and **structure the prompt** so that
   instructions, context and input are distinguishable.
 
+  **The ellipses pair, verbatim, because a lesson quotes it and a reviewer must be able to check it.**
+  The weaker instruction is "NEVER use ellipses". The improved one is "Your response will be read
+  aloud by a text-to-speech engine, so never use ellipses since the text-to-speech engine will not
+  know how to pronounce them." The page's own comment on the pair is one sentence: "Claude is smart
+  enough to generalize from the explanation." **That last sentence is a vendor's capability claim
+  about its own model and must be attributed rather than endorsed**; the reason a stated purpose
+  helps is available from the mechanism in lesson 2 and does not need the vendor's word for it.
+
+  **The ellipses pair, verbatim, because a lesson quotes it and a reviewer must be able to check it.**
+  The weaker instruction is "NEVER use ellipses". The improved one is "Your response will be read
+  aloud by a text-to-speech engine, so never use ellipses since the text-to-speech engine will not
+  know how to pronounce them." The page's own comment on the pair is one sentence: "Claude is smart
+  enough to generalize from the explanation." **That last sentence is a vendor's capability claim
+  about its own model and must be attributed rather than endorsed**; the reason a stated purpose
+  helps is available from the mechanism in lesson 2 and does not need the vendor's word for it.
+
+  **The ellipses pair, verbatim, because a lesson quotes it and a reviewer must be able to check it.**
+  The weaker instruction is "NEVER use ellipses". The improved one is "Your response will be read
+  aloud by a text-to-speech engine, so never use ellipses since the text-to-speech engine will not
+  know how to pronounce them." The page's own comment on the pair is one sentence: "Claude is smart
+  enough to generalize from the explanation." **That last sentence is a vendor's capability claim
+  about its own model and must be attributed rather than endorsed**; the reason a stated purpose
+  helps is available from the mechanism in lesson 2 and does not need the vendor's word for it.
+
   **On role prompting**, which a course has to address because it is the commonest piece of advice
   in circulation: the page has a short section for it, and what it claims is modest. Setting a role
   "focuses Claude's behavior and tone for your use case", and "even a single sentence makes a
