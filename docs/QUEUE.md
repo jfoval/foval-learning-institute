@@ -67,6 +67,11 @@ Rewrite these five lines each session. Nothing else goes in this block.
   claims about itself, so under root rule 8 it is John's decision and not a drafter's. Nothing is
   blocked: the course is live without it.
 
+- **A defect in a published course, found in passing and written down rather than fixed**, per root
+  rule 9. **Time Management** lesson 5 says the 2008 experiment's subjects were "interrupted every
+  two to five minutes". The paper says interruption frequency was set to two minutes. One clause,
+  one lesson, and it is wrong as printed.
+
 - **Focus and Deep Work is through Stage 2**, with 3,800 words of research and a 3,900-word outline
   planning seven lessons, an eighteen-item test and a four-week project. T2, third of the term on
   running yourself. **Drafting is the next thing.**

@@ -25,33 +25,33 @@ quiz:
       experiment worth teaching. It was not a wash, and the two interruption conditions did not
       differ from each other, which is the paper's other finding.
   - q: >-
-      A team lead measures her people on tasks completed per day and on error rate. On this
-      experiment, what would constant interruption do to her numbers?
+      A hospital measures a clinic on appointments completed per session and on follow-up
+      complaints. On this experiment, what would constant interruption do to those two numbers?
     options:
-      - Push errors up while leaving the completion rate alone, which is the usual pattern
-      - Leave both looking fine, while the cost lands somewhere she is not measuring
-      - Push both figures the wrong way, which is why interruption is worth managing
-      - Push the completion rate down, which is the cost interruption is usually said to have
+      - Push complaints up while leaving the appointment count alone, as most people expect
+      - Leave both looking acceptable, while the cost lands where nothing is measuring it
+      - Push both figures the wrong way, which is why interruption is worth managing at all
+      - Push the appointment count down, which is the cost interruption is usually said to have
     answer: 1
     explain: >-
-      Interrupted tasks were finished faster with no difference in errors, so both of her measures
-      would look acceptable or better while stress, frustration, time pressure and effort all rose.
-      The error answer is what most people predict and is not what happened. And the
-      completion-rate answer is the folk model the experiment contradicts.
+      Interrupted tasks were finished faster with no difference in errors, so both of those measures
+      would look acceptable or better while stress, frustration, time pressure and effort rose. The
+      complaints answer is what most people predict and is not what happened. And the appointment
+      count falling is the folk model the experiment contradicts.
   - q: >-
-      The experiment compared interruptions on the same topic as the task with interruptions on a
-      different topic. What did it find?
+      A manager decides to batch her interruptions so that they all concern the project her team is
+      already working on. What does this experiment say about that plan?
     options:
-      - Same-topic interruptions were less costly, which is why context switching is the problem
-      - Different-topic interruptions cost more time, though the difference was a small one
-      - Same-topic interruptions cost more, because they compete with the task for the same memory
-      - No difference between them in time, and none in the workload measures either
+      - It should help a great deal, since same-topic interruptions proved much less costly
+      - It should help a little, since same-topic interruptions cost somewhat less time
+      - It should make things worse, since same-topic interruptions compete for the same memory
+      - Nothing supports it here, since same and different topics made no measured difference
     answer: 3
     explain: >-
-      The authors set out to test whether context makes a difference and report that it does not,
-      which is worth knowing because the same-context-is-easier idea circulates widely. Two of the
-      wrong answers state a difference in one direction or the other, and the fourth proposes a
-      mechanism nothing in this study tests.
+      Whether the interruption matched the task was the question this study set out to answer, and
+      it reports that context does not make a difference, on time or on any workload measure. Two of
+      the wrong answers claim a benefit the study looked for and did not find. And the third
+      proposes a mechanism nothing here tests.
   - q: >-
       What did the experiment find had changed about the work itself under interruption?
     options:
@@ -108,21 +108,24 @@ and asks a narrower question: not how often you are interrupted, and not how lon
 back, but **what the interruption does to the work and to you.**
 
 **One thing does overlap and it is worth saying exactly what.** Time Management lesson 5 gives this
-experiment's headline, quoting its abstract: interrupted tasks finished faster, paid for in stress,
-frustration, time pressure and effort. **If you have met that, you have met the conclusion and not
-the study.** This course has read the paper in full, and what follows is the condition-by-condition
+experiment's sample, its design and its abstract: forty-eight mostly German students answering
+simulated emails, and the conclusion that interrupted tasks were finished faster and paid for in
+stress, frustration, time pressure and effort. **If you have met that, you have met who was in it
+and what they concluded, and not the study.** This course has read the paper in full, and what
+follows is the condition-by-condition
 times, the workload ratings one measure at a time, the question the experiment was actually designed
 to answer, and the one thing that changed about the work itself. **The headline is the part that
 travels; the rest is where the teaching is.**
 
 ## The experiment
 
-Mark, Gudith and Klocke ran it and published it at a computing conference in 2008.[1] Six pages,
-freely available, and the most quotable experiment in this whole subject.
+Mark, Gudith and Klocke ran it and published it at [a computing conference in
+2008](https://www.ics.uci.edu/~gmark/chi08-mark.pdf).[1] Six pages,
+freely available, and the experiment this course quotes most.
 
-**The people.** Forty-eight subjects, 81 percent of them German university students, mean age 26.
+The people. Forty-eight subjects, 81 percent of them German university students, mean age 26.
 
-**The task.** Each played a human-resources manager who had just come back from holiday, answering
+The task. Each played a human-resources manager who had just come back from holiday, answering
 twelve emails from staff, with a fact sheet to answer from. They were instructed and given
 incentives, in the paper's words, "to answer all emails in their inbox as quickly, correctly and
 politely as possible".[1]
@@ -134,16 +137,17 @@ politely as possible".[1]
   another room, telephoned or messaged with a question related to the emails.
 - **Interruption on a different topic.** Same thing, unrelated question.
 
-**What they measured.** Time to complete the task, with time spent on the interruptions subtracted.
+What they measured. Time to complete the task, with time spent on the interruptions subtracted.
 Errors, counted as spelling mistakes and typos. A politeness measure. And a modified NASA Task Load
 Index, on which participants rated mental workload, stress, frustration, time pressure and effort,
 each on a twenty-point scale.
 
 :::predict Before the result. Interrupted people had to stop, answer a question, and come back. Write down what you expect happened to the time they took, and to the errors they made.
-Nearly everybody predicts the same two things, and one of them is right.
+**This course expects most readers to predict the same two things**, which is an expectation rather
+than a measurement, and one of the two is right.
 
-**The errors** did not differ between conditions. That part usually surprises nobody after a
-moment's thought: the emails were short, the fact sheet was in front of them, and there's no obvious
+**The errors** did not differ between conditions. That part is the less surprising of the two: the
+emails were short, the fact sheet was in front of them, and there's no obvious
 reason an interruption would make somebody misspell a name.
 
 **The time is the one to sit with.** If you wrote "longer", you've got the folk model, and so did
@@ -160,7 +164,7 @@ That is the result, and the rest of the lesson is about what it means and what i
 but surprisingly, people completed interrupted tasks in less time with no difference in
 quality."[1]
 
-Here are the numbers, with standard deviations, as the paper reports them.[1]
+The numbers, with standard deviations, as the paper reports them.[1]
 
 | Condition | Time to perform the task | Average errors | Words per email |
 |---|---|---|---|
@@ -168,12 +172,12 @@ Here are the numbers, with standard deviations, as the paper reports them.[1]
 | Same-topic interruption | 20.31 minutes (5.94) | 1.93 (.88) | 29.17 (7.02) |
 | Different-topic interruption | 20.60 minutes (4.93) | 1.84 (.92) | 30.16 (7.18) |
 
-**The uninterrupted condition was the slowest.** Read that twice, because everything else in the
+The uninterrupted condition was the slowest. Read that twice, because everything else in the
 lesson depends on it.
 
-**And the two kinds of interruption did not differ from each other.** That was the question the
+And the two kinds of interruption did not differ from each other. That was the question the
 study set out to answer, and the answer was no: whether the interruption was about your task or
-about something else didn't change the time. The paper's first sentence of results says so.
+about something else didn't change the time. It is the first thing the abstract reports.
 
 ## So what did it cost?
 
@@ -181,13 +185,16 @@ about something else didn't change the time. The paper's first sentence of resul
 
 | Measure | No interruption | Same topic | Different topic |
 |---|---|---|---|
+| Mental workload | 10.02 | 10.83 | 11.50 |
 | Stress | 6.92 | 9.46 | 9.13 |
 | Frustration | 4.73 | 6.63 | 6.48 |
 | Time pressure | 11.02 | 12.69 | 12.17 |
 | Effort | 9.50 | 11.04 | 11.52 |
 
-**Every one of those is higher in both interruption conditions**, and the paper reports stress,
-frustration and effort as differing at conventional levels of significance.
+**Every one of those is higher in both interruption conditions**, and all five differ at
+conventional levels of significance, four of them at the stricter one.[3] The authors put it
+plainly in their discussion: after only twenty minutes of interrupted performance, people reported
+significantly higher stress, frustration, workload, effort and pressure.
 
 **The authors' own statement of it**, from the abstract: "Our data suggests that people compensate
 for interruptions by working faster, but this comes at a price: experiencing more stress, higher
@@ -198,13 +205,20 @@ faster, but at a price."[1]
 
 ## The mechanism, and one thing it changed about the work
 
-**Compensation is the proposed mechanism** and it is the authors'. People know they have lost time,
+Compensation is the proposed mechanism and it is the authors'. People know they have lost time,
 they speed up, and the speeding up is what costs them.
 
 **There's a second piece of evidence for it in the table above, and it's easy to miss.** The emails
 were longest in the uninterrupted condition, at 31.49 words on average against 29.17 and 30.16.
-**People wrote less.** The paper offers this as part of the interpretation: some of the speed came
+People wrote less. The paper offers this as part of the interpretation: some of the speed came
 from producing slightly less.
+
+**One more finding, worth a paragraph and not more.** A regression found that two personality
+measures, openness to experience and need for personal structure, both predicted how quickly
+somebody finished an interrupted task, together accounting for about 14 percent of the variance in
+completion time.[1] **That is a real effect and a small one**, and the reason it gets a paragraph
+rather than a section is that a course built on it would be telling you your personality decides
+how interruption treats you, on 48 people in one session.
 
 **So the work wasn't identical, even though the error count and the politeness rating were.** That's
 a specific and checkable thing, and it is the seam this lesson is really about: **two measures
@@ -241,7 +255,7 @@ tickets closed, and tickets reopened by the customer. It has done for two years.
 Her team moved to a new chat tool in March. Since then, interruptions have roughly doubled:
 everybody can reach everybody, instantly, and they do.
 
-**The dashboard says nothing has happened.** Tickets closed is very slightly up. Reopens are flat.
+The dashboard says nothing has happened. Tickets closed is very slightly up. Reopens are flat.
 On the evidence Dana has, the new tool has been fine or mildly positive.
 
 **What this experiment suggests she is not seeing**, and the word is *suggests*, because her team is
@@ -269,7 +283,7 @@ The recovery-time question, which is a different question, belongs to **Time Man
 designed to test, and it found no difference between same-topic and different-topic interruptions on
 any measure it reported.
 
-**"So interruptions are harmless."** Five measures of workload moved and three of them moved
+**"So interruptions are harmless."** Five measures of workload moved and every one of them moved
 significantly. What the study undermines is one particular account of the harm, not the harm itself.
 
 ## Practice
@@ -277,20 +291,20 @@ significantly. What the study undermines is one particular account of the harm, 
 :::exercise Measure the column nobody measures
 Take 20 minutes across one working day, then 10 at the end.
 
-**Pick two work blocks of about an hour each**, on the same day if you can. One where you expect
+Pick two work blocks of about an hour each, on the same day if you can. One where you expect
 interruptions, and one where you expect few.
 
-**In each, keep one count**: how many times somebody or something took your attention away from the
+In each, keep one count: how many times somebody or something took your attention away from the
 task. A tally on paper. Don't try to change anything.
 
-**At the end of each block, rate four things**, one to twenty, exactly as the study did: stress,
+At the end of each block, rate four things, one to twenty, exactly as the study did: stress,
 frustration, time pressure, effort. **Write them down before you start the next block**, because
 rating them afterwards from memory is a different measurement.
 
 Then, at the end of the day, three lines.
 
-1. **The two tallies**, side by side.
-2. **The two sets of four ratings**, side by side.
+1. The two tallies, side by side.
+2. The two sets of four ratings, side by side.
 3. **One sentence on whether your output differed**, and how you would even know.
 
 **One day proves nothing about you**, which is Time Management lesson 2's point and it holds here.
@@ -305,7 +319,7 @@ target, a metric, a report, a league table.
 
 Write down three things.
 
-1. **What it counts.** Exactly, in the terms the measure itself uses.
+1. What it counts. Exactly, in the terms the measure itself uses.
 2. **What would have to be true for the count to stay flat while something got worse.** This is the
    seam. In the experiment it was the time and the error count staying put while the stress rating
    moved.

@@ -66,8 +66,13 @@ subject.
   slowest.** Errors did not differ across conditions, and neither did the politeness measure.
 - **What it cost**, verbatim: "Our data suggests that people compensate for interruptions by working
   faster, but this comes at a price: experiencing more stress, higher frustration, time pressure and
-  effort." Table 3, on a 1-to-20 scale: stress 6.92 at baseline against 9.46 and 9.13; frustration
-  4.73 against 6.63 and 6.48; effort 9.50 against 11.04 and 11.52.
+  effort." Table 3, on a 1-to-20 scale, baseline against same-topic and different-topic: mental
+  workload 10.02 against 10.83 and 11.50; stress 6.92 against 9.46 and 9.13; frustration 4.73
+  against 6.63 and 6.48; time pressure 11.02 against 12.69 and 12.17; effort 9.50 against 11.04 and
+  11.52. **All five differ at conventional levels**, workload at p < .05 and the other four at
+  p < .01, and the discussion says so in one sentence: after only twenty minutes of interrupted
+  performance people reported significantly higher stress, frustration, workload, effort and
+  pressure.
 - **And one thing that did change in the work.** Email messages were longest in the uninterrupted
   condition, at 31.49 words on average against 29.17 and 30.16. The authors offer this as part of
   the interpretation: people wrote less to go faster.
@@ -155,10 +160,10 @@ abstract, the overall meta-analytic result, the moderator analyses and the concl
   point about what a criterion is doing.
 - **The authors' own conclusion**, verbatim: "Ten years on from Ophir et al. (2009) the picture is
   not any more transparent. Based on the papers reviewed in this study we are no closer to
-  understanding 'cognitive control in media multitaskers'." And, honestly, the other half: "studies
-  adopting a different measurement approach than this first investigation have consistently produced
-  results supporting the claim that media multitasking is negatively associated with everyday
-  executive functioning."
+  understanding 'cognitive control in media multitaskers'." And, honestly, the other half: "However,
+  complicating matters, studies adopting a different measurement approach than this first
+  investigation have consistently produced results supporting the claim that media multitasking is
+  negatively associated with everyday executive functioning."
 - **Their own stated limitation**, verbatim: "the review explicitly targeted studies adopting a
   cross-sectional design. Therefore, any inferences about causality are limited."
 

@@ -197,9 +197,9 @@ day looks like when somebody follows people around with a stopwatch, and a trace
 number in the whole subject back to a source nobody can produce. **If you haven't read it, read it
 before lesson 2 here.**
 
-**One thing overlaps deliberately and it is worth saying which.** Time Management lesson 5 also
-gives the headline of the experiment that lesson 2 here is built on, at the level of its abstract:
-interrupted tasks done faster, paid for in stress and effort. **This course has read that paper in
+**One thing overlaps deliberately and it is worth saying which.** Time Management lesson 5 also gives the experiment that lesson 2 here is
+built on: its sample, its design and its abstract, which is interrupted tasks done faster and paid
+for in stress and effort. **This course has read that paper in
 full**, and lesson 2 takes it to the condition-by-condition times, the workload ratings and the one
 thing that changed about the work itself. If you have met the headline already, lesson 2 is where it
 gets taken apart.

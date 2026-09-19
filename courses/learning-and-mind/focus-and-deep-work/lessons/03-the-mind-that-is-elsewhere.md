@@ -1,6 +1,6 @@
 ---
 title: The mind that is not on the task at all
-minutes: 65
+minutes: 70
 objectives:
   - >-
     State what the experience-sampling study measured about mind-wandering, with its sample, its
@@ -11,18 +11,19 @@ objectives:
     Say what the study's time-lag analysis does and does not establish about causation
 quiz:
   - q: >-
-      What did the study find about how often people's minds were elsewhere?
+      A colleague says he only loses focus when the work is boring. What does this study say about
+      that?
     options:
-      - About a third of samples, which was roughly what laboratory work had predicted
-      - 46.9 percent of samples, and at least 30 percent during every activity but one
-      - It varied enormously by activity, from near zero to over eighty percent of samples
-      - Just under half of samples, with the rate much lower during demanding work than leisure
+      - It supports him entirely, since wandering was concentrated in low-demand activities
+      - It contradicts him, since at least three in ten samples wandered in almost everything
+      - It cannot address it at all, since the study never recorded what people were doing
+      - It supports him in part, since demanding work halved the rate of wandering they reported
     answer: 1
     explain: >-
-      The floor across activities is the striking part: mind-wandering was not concentrated in
-      boring moments. The authors also say the figure is higher than laboratory studies typically
-      find, which is the opposite of the second answer. And activity had only a modest effect on
-      whether minds wandered, which is what rules the other two out.
+      The floor across activities is the striking part, and the authors report that the nature of
+      people's activities had only a modest impact on whether their minds wandered. Activity was
+      recorded, from a list of twenty-two, which is how the floor could be reported at all. And
+      nothing in the study shows demanding work halving anything.
   - q: >-
       A woman reads that mind-wandering makes people unhappy and concludes she should try to stop
       hers. What does the study actually support?
@@ -94,10 +95,12 @@ quiz:
 
 Lesson 2 was about somebody else taking your attention. This lesson is about the times nobody did.
 
-**They're different problems and only one of them has a tally.** An interruption has a phone
-call attached to it, or a colleague, or a notification, and somebody standing behind you could count
+**They're different problems and only one of them has a tally.** An interruption has a phone call
+attached to it, or a colleague, or a notification, and somebody standing behind you could count
 them. **A mind that has drifted leaves no trace at all**, which is why the study this lesson is
-built on had to do something unusual to measure it.
+built on had to do something unusual to measure it. **That way of separating the two is this
+course's own rather than a distinction the study draws**,[2] and it is the reason these are two
+lessons rather than one.
 
 ## How you measure a thing with no witness
 
@@ -111,7 +114,7 @@ question about attention.[1]
 doing?" Four answers were available: no; yes, something pleasant; yes, something neutral; yes,
 something unpleasant.
 
-**That's the whole instrument.** One question, four options, at a moment nobody chose. It's called
+That is the whole instrument. One question, four options, at a moment nobody chose. It's called
 experience sampling, and the reason it exists is that asking somebody at the end of the day how
 often their mind wandered gets you a judgement from memory rather than a count.
 
@@ -124,15 +127,28 @@ who had installed a happiness-tracking application on an iPhone, in 2010.
 **"Mind wandering occurred in 46.9% of the samples and in at least 30% of the samples taken during
 every activity except making love."**[1]
 
-**The second half of that sentence is the one to keep.** Not that the average is high, but that
-there's a floor: across everything these people were doing, at least three moments in ten were
-spent somewhere else. **Mind-wandering was not concentrated in the dull parts of the day.**
+The second half of that sentence is the one to keep. Not that the average is high, but that
+there's a floor: across almost everything these people were doing, at least three sampled moments in
+ten were spent
+somewhere else. Mind-wandering was not concentrated in the dull parts of the day.
 
 **And the authors put a caveat next to their own headline**, which almost never travels with it:
 "The frequency of mind wandering in our real-world sample was considerably higher than is typically
 seen in laboratory experiments."[1]
 
-**Read that as a statement about instruments**, which is lesson 1's question arriving early. A lab
+**And there's a second result in the mood data that almost never travels**, and it is the one that
+makes the first interesting. Minds wandered to pleasant topics in 42.5 percent of samples, to
+neutral topics in 31 percent and to unpleasant topics in 26.5 percent. **People were no happier
+when thinking about pleasant topics than about their current activity**, at a slope of −0.52 that
+did not reach significance, while neutral topics came in at −7.2 and unpleasant at −23.9, both
+strongly significant.[1]
+
+**So it is not simply that unhappy thoughts make you unhappy.** Wandering to something pleasant did
+not help, which is what makes the authors' framing about wandering itself rather than about its
+content.
+
+**Read the laboratory caveat as a statement about instruments**, which is lesson 1's question
+arriving early. A lab
 study of mind-wandering interrupts somebody doing a task the experimenter chose, in a room with
 nothing else in it. This study asked people in the middle of their lives. The two produce
 different numbers, and the authors say so rather than leaving you to find out.
@@ -152,19 +168,22 @@ association is exactly what you'd expect if the arrow ran the other way entirely
 
 **The second is that both could have a third cause.** A tedious meeting produces both.
 
-**The paper addresses the first and not the second**, and the next section is about how.
+**The paper addresses the first directly and the second only partly**, and the next section is
+about how. On the third cause, it reports that the variance explained by mind-wandering was largely
+independent of the variance explained by activity, which rules out one candidate and not the
+class.[1]
 :::
 
 ## The causal claim, and exactly how strong it is
 
-This is the part of the study that travels furthest and survives the journey worst, so here is the
-sentence in full.
+This is the part of the study that travels furthest and arrives in the worst condition, so the
+sentence is here in full.
 
 **"Although negative moods are known to cause mind wandering, time-lag analyses strongly suggested
 that mind wandering in our sample was generally the cause, and not merely the consequence, of
 unhappiness."**[1]
 
-**Three things in that sentence are doing work.**
+Three things in that sentence are doing work.
 
 **"Time-lag analyses"** means they used the order of the samples: does wandering at one moment
 predict lower mood at the next, more than low mood at one moment predicts wandering at the next? In
@@ -173,9 +192,9 @@ observational data, that is the strongest move available.
 **"Strongly suggested"** is the authors' own hedge, and it isn't decoration. A time-lag analysis in
 observational data does not rule out a third cause that moves first.
 
-**"Generally"** admits the other direction exists in the data.
+"Generally" admits the other direction exists in the data.
 
-**So what can you say?** That in this sample, the order of events fits wandering leading unhappiness
+So what can you say? That in this sample, the order of events fits wandering leading unhappiness
 better than the reverse. **What you can't say is that mind-wandering causes unhappiness**, full
 stop, which is how the finding is almost always reported. The gap between those two sentences is the
 whole lesson.
@@ -198,15 +217,16 @@ which is why the figures are reported with the sample attached.
 **What it rules out is the sentence "people spend 46.9 percent of their time thinking about
 something else".** That sentence is everywhere and it isn't what the study supports.
 
-**What survives is more interesting than what's lost.** The floor across activities, at least 30
+What survives is more interesting than what is lost. The floor across activities, at least 30
 percent everywhere, is a finding about a large and varied group doing ordinary things, and it would
 be remarkable in almost any sample. The mood association held during every activity measured. And
 the instrument itself, which is the thing worth taking away: **one question, at moments the person
 did not choose, is a better measurement of this than anything you could ask at the end of a day.**
 
 **So the honest form is narrower and still worth having**: in a large self-selected sample of adults
-in 2010, minds were elsewhere about half the time, at least three times in ten during everything
-they did. **Whether your day looks like that isn't something this study was built to tell you**,
+in 2010, minds were elsewhere in about half the moments
+sampled, and in at least three in ten during every activity but one. **Whether your day looks like
+that isn't something this study was built to tell you**,
 and the exercise below is how you find out.
 :::
 
@@ -224,7 +244,7 @@ This time he was reading a sentence he had just written, and his answer is no.
 
 **Now notice three things about those two data points.**
 
-1. **Nothing external distinguished them.** A colleague watching Marcus would have seen a man typing
+1. Nothing external distinguished them. A colleague watching Marcus would have seen a man typing
    in both cases. **There's no tally anybody but Marcus could keep**, which is the difference
    between this lesson and lesson 2.
 2. **The first answer was available for about two seconds.** Ask him at lunchtime how much of the
@@ -234,7 +254,7 @@ This time he was reading a sentence he had just written, and his answer is no.
 3. **Both moments were "writing the report".** If you sorted Marcus's morning by activity, the two
    are the same row. The study's finding is that this sorting is the less informative one.
 
-**What the case can't show you** is what Marcus's proportion was, because he's made up.[3] The
+**What the case cannot show you** is what Marcus's proportion was, because he's made up.[3] The
 proportion is the one thing in this lesson you can only get by doing it.
 
 ## Three things people get wrong about this
@@ -243,11 +263,12 @@ proportion is the one thing in this lesson you can only get by doing it.
 that were wasted. Planning, remembering and anticipating are all mind-wandering by this definition,
 and the paper calls the ability "a remarkable evolutionary achievement" in its own opening.
 
-**"Mind-wandering causes unhappiness."** Stated flatly, that's stronger than the paper, which says
+**"Mind-wandering causes unhappiness."** Stated flatly, that is stronger than the paper, which says
 time-lag analyses "strongly suggested" it was "generally" the cause.
 
 **"Your mind wanders because you are undisciplined."** At least 30 percent of samples during every
-activity measured, in 2,250 adults. Whatever explains that, individual failure is not the obvious
+activity the study measured except one, in 2,250 adults. Whatever explains that, individual failure
+is not the obvious
 candidate.
 
 ## Practice
@@ -255,10 +276,10 @@ candidate.
 :::exercise Sample yourself
 Take one day, and about 20 minutes of writing at the end of it.
 
-**Set something to prompt you at random**, not on the hour. A random-interval timer, or a friend, or
+Set something to prompt you at random, not on the hour. A random-interval timer, or a friend, or
 an app. Eight to twelve prompts across your waking hours is enough.
 
-**At each prompt, answer two questions in five seconds**, before you've thought about it.
+At each prompt, answer two questions in five seconds, before you've thought about it.
 
 1. **What are you doing?** Three words.
 2. **Are you thinking about something other than what you're currently doing?** No; yes, pleasant;
@@ -268,7 +289,7 @@ At the end of the day, work out your proportion: how many of the prompts got a y
 
 Then write three lines.
 
-1. **Your number**, and how many prompts it came from.
+1. Your number, and how many prompts it came from.
 2. **Whether your yeses clustered in particular activities**, and whether that surprised you.
 3. **Why your number and the study's 46.9 percent are not comparable.** At least three reasons, and
    this is the line the exercise exists for.
@@ -298,8 +319,9 @@ carrying more weight than their design can bear.
 **Back.** Lesson 1's instrument question is what makes the 46.9 percent readable: it's a
 self-report, at a moment the person didn't choose, which is a different instrument from both the
 questionnaire and the task. Lesson 2 measured somebody else taking your attention, and this lesson
-is the half with no external cause. **Logic and Argument** lesson 6 is where inference from evidence
-to a conclusion was taught, and the causal exercise here is that lesson applied to one sentence.
+is the half with no external cause. **Logic and Argument** lesson 5 is where the readings of a
+correlation were taught, and the causal
+exercise here is that lesson applied to one sentence.
 **Habits and Self-Discipline** lesson 2 is the nearest relative in structure: a diary study, a
 criterion, and a figure that travels without its scope.
 
@@ -314,6 +336,11 @@ question once you know how often it is elsewhere. Lesson 7 comes back to causal 
   2010). One page, free, read in full by this course. **Read the first paragraph as carefully as the
   results**: it states the case for mind-wandering as an achievement before the paper measures its
   cost, which is the kind of balance a finding this quotable rarely keeps.
+- **[The Cost of Interrupted Work: More Speed and
+  Stress](https://www.ics.uci.edu/~gmark/chi08-mark.pdf)** (*CHI 2008*), read in full by this
+  course and the subject of lesson 2. Worth reading beside this one: the two papers measure the two
+  halves of the same problem, one where somebody else takes your attention and one where nobody
+  does, and the instruments they reach for are completely different.
 
 ## Sources
 

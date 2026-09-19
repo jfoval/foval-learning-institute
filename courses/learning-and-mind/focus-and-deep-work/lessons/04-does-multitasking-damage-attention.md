@@ -1,6 +1,6 @@
 ---
 title: Does multitasking damage your attention?
-minutes: 80
+minutes: 85
 objectives:
   - >-
     State what the 2009 study claimed and what the 2021 meta-analysis found, with the scale of each
@@ -12,7 +12,8 @@ objectives:
     means for somebody assessing their own attention
 quiz:
   - q: >-
-      What did the 2021 meta-analysis find overall, across all its assessments?
+      A newspaper reports that a big review "found media multitasking harms attention". What does
+      the review's overall figure actually support?
     options:
       - A moderate association, which confirmed the original study at larger scale
       - No association at all once the published studies had been pooled together
@@ -81,7 +82,8 @@ quiz:
       effect size are both worth knowing and neither is what this lesson is about. And commercial
       interest is not a feature of this particular literature.
   - q: >-
-      What do the meta-analysts themselves conclude about the state of this question?
+      A student is deciding whether to write an essay arguing that this question is now settled.
+      What would the meta-analysts themselves tell her?
     options:
       - That ten years on, the picture is not more transparent and we are no closer
       - That the original finding has been overturned and the question is now settled
@@ -101,11 +103,12 @@ two answers**, and both answers have been counted.
 
 ## The claim you have met
 
-In 2009, Ophir, Nass and Wagner published a study in a major journal that is now one of the most
-cited things in this whole subject.[3] They built a questionnaire called the media multitasking
-index, which asks how much of your media time is spent using more than one medium at once. They
-split people into heavy and light multitaskers by that index, and reported that the heavy
-multitaskers did worse on tests of filtering out distraction.
+In 2009, Ophir, Nass and Wagner published a study in a major journal that is the study everybody in
+this subject cites.[3] They built a questionnaire called the media multitasking index, split people
+into heavy and light
+multitaskers by their scores on it, and reported that the heavy multitaskers did worse on tests of
+filtering out distraction. **What exactly the index asks is not something this course can tell
+you**, because it has not opened the paper.
 
 **This course hasn't opened that paper.**[3] What the lesson holds at search-summary level is the
 shape of the claim, which is the part that travelled: heavy media multitaskers are worse at
@@ -117,7 +120,8 @@ association and some didn't, and after a decade somebody pooled the lot.
 
 ## What pooling found
 
-Parry and le Roux published the synthesis in 2021.[1] **This course has read its abstract, its
+Parry and le Roux published [the synthesis](https://cyberpsychology.eu/article/view/13303) in
+2021.[1] **This course has read its abstract, its
 overall result, its moderator analyses and its conclusion**, which is enough for what follows and
 isn't enough to have weighed every study in it.
 
@@ -132,24 +136,29 @@ heterogeneous (I2 = 79.76%, Q(117) = 531.795, p < .001)."[1]
 **Three things to take from that sentence and no more.** The association is there. It's small. And
 the studies disagree with each other a great deal, which is what the heterogeneity figure says.
 
-**If the lesson stopped there it'd be a dull lesson.** What makes it the centre of this course
+**And one thing the sentence does not say, which this course has to.** The 118 assessments pool
+studies that are overwhelmingly student samples, as the research file records.[1] **So every figure
+below is a figure about students**, and the sentence "people who multitask are more distractible"
+is already wrong at the second word.
+
+**If the lesson stopped there it would be a dull lesson.** What makes it the centre of this course
 is the next step.
 
 :::predict Before you read on. The 118 assessments used two kinds of measure: questionnaires asking people about their own distractibility, and tasks counting their performance. Which do you expect showed the stronger association, and why?
 Lesson 1 planted this, and here's where it gets paid.
 
-**The self-report half showed the stronger association.** In their words, for self-report measures
+The self-report half showed the stronger association. In their words, for self-report measures
 "the pooled effect size is small, statistically significant (z = .200, 95% CI [.165, .231], p <
 .001)".[1]
 
-**The performance half was weaker.** For performance-based assays, "the effect size is negligible
+The performance half was weaker. For performance-based assays, "the effect size is negligible
 but statistically significant (z = .091, 95% CI [.044, .139], p = .001)".[1]
 
 **And the measurement approach moderated the result**, which is the technical way of saying the
 difference between those two numbers is itself a finding rather than noise.
 
 **If you predicted the other way round, you're in good company**, and the reason most people do is
-that a task feels like the more serious instrument. It's more direct. What it isn't is more
+that a task feels like the more serious instrument. It is more direct. What it isn't is more
 sensitive to the thing the questionnaire is picking up, and the next section is about what that is.
 :::
 
@@ -169,11 +178,11 @@ pattern suggests are missing and re-pools.
 **In their words:** "In this sensitivity analysis, the pooled effect for performance-based assays
 was no longer statistically significant (z = .032, 95% CI [−.024, .088], p = .260)."[1]
 
-**Read the interval rather than the estimate.** It runs from below zero to above it. **Once the
+Read the interval rather than the estimate. It runs from below zero to above it. **Once the
 pattern of missing nulls is corrected for, the performance-based literature cannot distinguish the
 effect from nothing.**
 
-Here is the whole thing in one table.[1]
+The whole thing in one table.[1]
 
 | What was pooled | Number | Pooled effect | Interval |
 |---|---|---|---|
@@ -184,13 +193,13 @@ Here is the whole thing in one table.[1]
 
 ## So which half is right?
 
-**This is where a worse course would stop and declare a winner.** The performance evidence is the
+This is where a worse course would stop and declare a winner. The performance evidence is the
 more direct, it doesn't survive correction, therefore the claim is dead.
 
 **That reading throws away half the finding and this course won't make it.** Here are three
 explanations for the split, and the lesson's view is that all three are live.[4]
 
-**One: the two instruments are asking about different stretches of time.** A task measures twenty
+**One: the two instruments ask about different stretches of time.** A task measures twenty
 minutes in a quiet room. A questionnaire asks about a life, in which the person's doing things they
 chose, among other people, with everything else that is true of them.
 
@@ -203,9 +212,11 @@ filtering task.
 behaves differently from one who hasn't, and the questionnaire is the only instrument of the two
 that can see it.
 
-**Notice that none of the three requires anybody to be lying or mistaken**, and notice that they
-make different predictions, which means somebody could tell them apart. **Nothing this course read
-has.**
+**Notice that none of the three requires anybody to be lying or mistaken.** And notice that the
+first two are testable: a study measuring the same people in a quiet room and in their own working
+week would separate them, and one measuring how much people are interrupted would bear on the
+second. **The third is the hardest to test and this course has no design for it.** Nothing this
+course read separates any of them.
 
 :::checkpoint A friend says: "So it was all a scare. Multitasking doesn't do anything and the studies were junk." How much of that is supported?
 Almost none of it, and unpicking why is the most useful thing in this lesson.
@@ -236,7 +247,7 @@ worse on tasks isn't something the pooled and corrected literature can currently
 
 **In their words:** "Ten years on from Ophir et al. (2009) the picture is not any more transparent.
 Based on the papers reviewed in this study we are no closer to understanding 'cognitive control in
-media multitaskers.'"[1]
+media multitaskers'."[1]
 
 **And, in the same paragraph, the other half, which is why this is not a debunking:** "However,
 complicating matters, studies adopting a different measurement approach than this first
@@ -263,7 +274,7 @@ say so; this one says the picture is unclear and that one half of it consistentl
 4. **What would change the answer?** For this literature, a longitudinal design or an experiment,
    which the meta-analysts say does not yet exist in what they reviewed.
 
-**Four questions, and the headline as written can't answer any of them.** That isn't a reason to
+Four questions, and the headline as written can't answer any of them. That isn't a reason to
 dismiss it; it is a reason to go and look, which takes about ten minutes and is lesson 7's exercise.
 
 ## Three things people get wrong about this
@@ -286,28 +297,28 @@ Find three claims about multitasking and attention. News, a book's jacket, an ap
 
 For each, write down three things.
 
-1. **The claim, word for word.**
+1. The claim, word for word.
 2. **Which instrument it must rest on**, and whether the piece says.
 3. **Whether it is one study or a pooled result**, and whether the piece says.
 
 Then one line: **how many of the three told you either of those things?**
 
-**In this subject the usual answer is none**, and noticing that is the whole skill. A claim that
+In this subject the usual answer is none, and noticing that is the whole skill. A claim that
 won't say what it measured isn't necessarily false, and it isn't yet checkable.
 :::
 
 :::exercise Write both cases
-Take 25 minutes. This one's harder than it looks and it's the more valuable of the two.
+Take 25 minutes. This one is harder than it looks and it's the more valuable of the two.
 
 **Write the strongest case for the association**, in about 150 words, using only what is in this
 lesson. You may use the meta-analysis's own words. It has to be a case somebody who believes it
 would recognise as their own.
 
-**Then write the strongest case against**, same length, same rule.
+Then write the strongest case against, same length, same rule.
 
 Then two lines.
 
-1. **Which was harder to write, and why.**
+1. Which was harder to write, and why.
 2. **What single piece of evidence would most change your mind**, whichever way you lean.
 
 **If one of the two came out obviously weaker, go back to it.** The test of this exercise isn't
@@ -333,6 +344,11 @@ be trained. Lesson 7 makes the instrument question a habit.
   access. **Read in substantial part by this course**: the abstract, the overall result, the
   moderator analyses and the conclusion. **Read the conclusion first**, which is two paragraphs and
   says both halves of the finding without flinching from either.
+- **[Does the Brain Drain Effect Really Exist? A
+  Meta-Analysis](https://pmc.ncbi.nlm.nih.gov/articles/PMC10525686/)** (*Behavioral Sciences*,
+  2023), open access and read in substantial part by this course. It is lesson 5's subject and is
+  worth reading beside this one: a second pooled literature on a second famous claim, splitting a
+  different way, which is how you tell a pattern from a coincidence.
 
 ## Sources
 
