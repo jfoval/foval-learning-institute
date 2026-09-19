@@ -21,10 +21,20 @@ and it never feels that way while you are writing it.
 
 Rewrite these five lines each session. Nothing else goes in this block.
 
-- **Using AI Effectively is through Stage 2 and ready to draft.** T1, sixth of seven, status
-  drafting in `course.yaml` and the TAXONOMY row. 6,300 words of research and a 9,400-word outline
-  planning eleven lessons, a 24-item test and a project. Start at lesson 1 with
-  `/draft-lesson courses/computer-science-and-ai/using-ai-effectively 1`.
+- **Using AI Effectively has all eleven lessons drafted, and both assessments.** T1, sixth of
+  seven, status drafting. Stage 4 reviews are applied on lessons 1 to 8 and 11; **lessons 9 and 10
+  are the only two still owed a review**, and when those are applied and the voice pass is run, the
+  course publishes. Every review file is in `research/reviews/`; read `course-wide.md` plus the
+  file for the lesson you are touching before touching it.
+
+  **Six defects recurred across four or more lessons of this course and are now drafting defects
+  rather than lesson defects.** They are in `.claude/commands/draft-lesson.md`. The two worth
+  knowing before you open anything here: **anything the course constructed itself must be labelled
+  as the course's own in the body at the point of use**, not only in a footnote, because lessons 8
+  and 11 both had a Sources block claiming the body said so when it did not; and **the contraction
+  check counts `it's`, `that's` and `there's` and excludes ordinary possessives**, so a hand
+  count that strips the Sources block and counts every `'s` reads roughly double and will send you
+  through the floor while you are fixing the ceiling. That cost two passes each on lessons 7 and 11.
 
   **Read the outline's "Seven decisions this outline settles" before drafting anything.** They are
   there because eleven lessons written in different sessions have to agree, and two of them change
@@ -55,22 +65,26 @@ Rewrite these five lines each session. Nothing else goes in this block.
   were being used as though it had, and the same defect came back in lesson 9. Check
   `npm run taught` and the earlier lessons before assuming a word is available.
 
-- **Two things Using AI Effectively's reviews have flagged that no single lesson can fix.**
-  **(a) Five of its six drafted lessons open with a pair**: two results, two things, two requests,
-  two moves, two jobs. That is `courses/CLAUDE.md` rule 2(c), a batch of lessons written in one
-  context reusing each other's turns of phrase, and the fix is a different opening rather than a
-  reword, so changing one of five does nothing. **Lessons 9 to 11 must not open with a pair**, and
-  1 to 6 want a single pass when the course is otherwise done.
-  **(b) `assessments/` is empty while three lessons already point at the course project by section
-  number**, which is defect 12's setup exactly. The outline specifies both the test and the project.
-  Fill them before a fourth lesson adds a fourth pointer.
+- **One thing Using AI Effectively's reviews flagged that no single lesson can fix.** Five of its
+  first six lessons open with a pair: two results, two things, two requests, two moves, two jobs.
+  That is `courses/CLAUDE.md` rule 2(c), a batch of lessons written in one context reusing each
+  other's turns of phrase, and the fix is a different opening rather than a reword, so changing one
+  of five does nothing. Lessons 7 to 11 were written to avoid it and every one of them does.
+  **Lessons 1 to 6 want a single pass, and the right time is the voice pass before publishing.**
 
-- **The contraction check has a ceiling now, and it found four drafts on its first run.** It warns
-  above 14 per 1,000 body words on drafting courses only. The four: Digital Literacy lesson 11 at
-  18.1 and its machine-audit project at 22.8, and Using AI Effectively lessons 2 and 7 at 15.6 and
-  14.5. **None of them can publish yet**, so nothing is blocked, and the right time to fix each is
-  the next time somebody is in that file rather than a pass of its own. `docs/VERIFICATION.md`
-  carries the row and the reasoning.
+  **A smaller one from lesson 11's review, and it is repo-wide rather than this course's.** Lesson
+  bodies name other lessons and other courses constantly and link none of them, while Go deeper and
+  Sources link everything. That is either a deliberate convention nobody has written down or an
+  oversight in twenty lessons. **Settle it once and apply it everywhere**, rather than one lesson at
+  a time.
+
+- **The contraction check has a ceiling now, and three files are still over it.** It warns above 14
+  per 1,000 body words on drafting courses only. Using AI Effectively lesson 7 was one of the
+  original four and is fixed, at 7.0. The three left: Digital Literacy lesson 11 at 18.1, its
+  machine-audit project at 22.8, and Using AI Effectively lesson 2 at 15.6. **None of them can
+  publish yet**, so nothing is blocked, and the right time to fix each is the next time somebody is
+  in that file rather than a pass of its own. `docs/VERIFICATION.md` carries the row and the
+  reasoning.
 
 - **Both assessments are written, so lesson 13 is now the whole of what is left.** The machine
   audit and a 32-item course-end test are in `assessments/`, and the test carries a note saying
