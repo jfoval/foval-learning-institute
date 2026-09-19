@@ -67,9 +67,15 @@ Rewrite these five lines each session. Nothing else goes in this block.
   claims about itself, so under root rule 8 it is John's decision and not a drafter's. Nothing is
   blocked: the course is live without it.
 
-- **Memory is through Stage 2**, with 3,400 words of research and a 3,500-word outline planning
-  seven lessons, an eighteen-item test and a project that runs across the whole course. T2, fourth
-  of the term on running yourself. **Drafting is the next thing.**
+- **Memory is drafting.** Lessons 1 to 6 are written and the project is written. Lesson 1 has had
+  its Stage 4 review applied; lessons 2 to 5 are under review now; lesson 6 owes one. **Still to
+  write: lesson 7, the eighteen-item test, then publish and seven podcast scripts.** T2, fourth of
+  the term on running yourself.
+
+  **The project was written before lesson 7 rather than after it**, on the course-wide review's
+  note: lesson 1's first exercise stakes an irreversible instruction on the project existing, and a
+  learner who reaches it before the project page has been told to save something without being told
+  what it is for.
 
   **The scope decision is the one that matters and Stage 1 tested it rather than assuming it.**
   How to Learn Anything already teaches retrieval, spacing, interleaving, chunking and the two
