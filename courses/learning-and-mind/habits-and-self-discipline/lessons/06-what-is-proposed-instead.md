@@ -1,6 +1,6 @@
 ---
 title: What is proposed instead
-minutes: 85
+minutes: 90
 objectives:
   - >-
     State what the process account proposes, in its proponents' own terms, and name the two shifts it
@@ -36,7 +36,8 @@ quiz:
     answer: 1
     explain: >-
       They say in terms that the model may sacrifice the elegance of the resource metaphor and
-      paints a more precise picture, with nuanced predictions to test. Treating elegance as itself
+      paints a more precise picture, with specific predictions that can be put to a test. Treating
+      elegance as itself
       suspicious is a general attitude they do not adopt. Independence from the experiments is not a
       virtue they claim. And they are explicit about where evidence for their own account is still
       lacking.
@@ -56,19 +57,21 @@ quiz:
       which is what the lesson's second worked case is about. And nothing in the process account
       implies she was not trying.
   - q: >-
-      Which finding would count against the resource account and for the process account?
+      A reader proposes separating the two accounts by offering people money before the second
+      task. Why is that a weaker test than it looks?
     options:
-      - That performance on the second task recovers when people are offered a reward
-      - That people perform rather worse on a second task after a demanding first one
-      - That the effect is larger in some laboratories than in others
-      - That people report feeling markedly tired after they have exerted self-control
+      - Defenders of the resource account expect an incentive to work too, by conservation
+      - The process account makes no prediction about incentives, so only one side gets tested
+      - Money is known to reduce performance on tasks that people already find interesting
+      - The experiment has been run many times and has produced results in both directions
     answer: 0
     explain: >-
-      A store that has been spent should not refill because somebody offers money, whereas a shift
-      in motivation is exactly what an incentive would be expected to move. Worse performance on the
-      second task is the shared phenomenon both accounts exist to explain. Variation between
-      laboratories bears on whether the effect is there at all. And feeling tired is compatible with
-      either account.
+      On the stretched version of the resource model, what looks like depletion is unwillingness to
+      draw further on a partly spent reserve, and an incentive is exactly what would make somebody
+      willing, so both accounts can accommodate the result. The process account's prediction here is
+      the clearer of the two rather than the missing one. Crowding-out effects are real and are a
+      different literature. And the experiment has not been run: the process model's own authors put
+      it forward as an avenue for future research.
   - q: >-
       A man says the process account is just saying people stopped wanting to try, which sounds like
       a moral judgement dressed up. Is he right?
@@ -145,6 +148,18 @@ so.
 because it is a different kind of failure. On the resource account you see the biscuit, you want to
 resist, and you can't. On this account you may simply not register that resisting was on the table.
 
+:::predict A new account replacing an old one usually claims to be better in some way. Before reading on: what do you think this one gives up, and what does it claim in exchange?
+Worth a guess, because the answer is not the usual one and the authors say it themselves.
+
+**What it does not give up is the phenomenon.** Both accounts agree that something happens between
+the first task and the second, and a replacement that denied that would be answering a different
+question.
+
+**What it gives up is how easy the old account was to say.** That is a real cost and the next
+section is about why. A course that let you think a better theory is always the one that explains
+itself faster would be teaching you to pick by comfort.
+:::
+
 ## What it keeps and what it gives up
 
 This is where the lesson earns its place, because the authors are unusually direct about the trade.
@@ -166,20 +181,27 @@ almost any result you give it. A claim about motivation shifting predicts specif
 things the resource account cannot accommodate, which the next section is about.
 
 :::predict Here is the test of whether the two accounts genuinely differ or whether one is a relabelling of the other. Imagine an experiment: people do a demanding first task, and then, before the second task, half of them are offered money for doing well on it. What does each account predict?
-**The resource account has a problem here.** If the first task spent a store, then an offer of money
-before the second task doesn't refill it. Whatever capacity was used is still used. You might
-predict people try harder and still do worse, but you cannot easily predict the effect going away.
+**The process account predicts the effect can go away.** If what happened was a shift in motivation
+towards the rewarding, then supplying a reward acts directly on the thing that shifted. The account
+is about what you want, and an incentive is about what you want.
 
-**The process account predicts it can go away.** If what happened was a shift in motivation towards
-the rewarding, then supplying a reward acts directly on the thing that shifted. The account is about
-what you want, and an incentive is about what you want.
+**The resource account's simplest version predicts it cannot.** If the first task spent a store,
+then money before the second task does not refill it, and you might expect people to try harder and
+still do worse.
 
-**So the two are not a relabelling**, and that's the point of the exercise. They differ about what
-changed, which means they differ about what would change it back.
+**But that simplest version is not the one its defenders hold, and this is the part worth learning.**
+The resource model was stretched years ago to say that initial acts of self-control only *partially*
+deplete the resource, and that what looks like depletion is people being **unwilling to draw further
+on what is left**.[1] That is called an energy-conservation account, and on it an incentive is
+exactly the sort of thing that would make a person willing to spend. **So a defender predicts the
+effect can go away too**, and the incentive experiment does not separate the two accounts as cleanly
+as the setup suggests.
 
-**One caution, and it matters here.** This is the shape of a distinguishing test rather than a report of
-one. The reasoning is this course's own, from the two accounts as stated,[3] and where the evidence
-stands is the subject of the section after next.
+**Which is why this block is a caution rather than a test.** The reasoning above is this course's
+own, from the two accounts as stated,[3] and the paper proposing the process account says the
+experiment has not been run: of the studies that used motivational incentives, none offered them for
+the first task.[1] **They put it forward as an avenue for future research**, which is what it still
+is.
 :::
 
 ### Worked: one evening, read twice
@@ -199,9 +221,10 @@ behind on the course were less salient, the phone more so. **She may not have ex
 at all**, which is worth noticing, which is a specific prediction, and on the resource account is
 harder to explain.
 
-**Notice which account describes what she would report.** Most people in Nadia's position do not
-describe a fight they lost. They describe the evening going, which is closer to the second
-description than the first.
+**Notice which account describes what she would report**, and this is an observation of this
+course's own rather than a finding anybody has measured.[3] People in Nadia's position, in this
+course's experience of how they talk about such evenings, do not usually describe a fight they lost.
+They describe the evening going, which is closer to the second description than the first.
 
 **That's a point in the process account's favour and it is not evidence**, which is the distinction
 this course keeps making. What people report is a thing to explain, and not a thing that settles an
@@ -210,16 +233,18 @@ explanation.
 ## Where the evidence actually stands
 
 Be careful here, because the temptation is to treat the new account as established simply because
-the old one is not.
+the old one lost its evidence.[2]
 
 **The process account is a proposal.** Its authors describe the paper as highlighting "evidence in
 support of this model" but also "where evidence is lacking, thus providing a blueprint for future
 research".[1] **A blueprint for future research is not a result**, and they chose that phrase.
 
-**And this course hasn't read much of it.**[1] The argument summarised above is from that abstract
-and from the two passages stating the shifts; the rest of a fourteen-page paper has not been opened.
-That is a thin read level for a lesson built on it, and a reader should weight the lesson
-accordingly.
+**And this course hasn't read all of it.**[1] What was read is the abstract, the section setting
+out the process model, the section on motivation, the conclusion and one footnote; the rest of a
+fourteen-page paper has not been opened. Every passage quoted in this lesson was read in the
+original and checked word by word, and the parts not read are the evidence review and the attention
+half, so the lesson's account of where the evidence stands rests on the authors' own summary of it
+rather than on this course having weighed it.
 
 **So the honest position is the one the quiz ends on.** The phenomenon is better attested than
 either explanation of it. Things get harder after a hard morning, and that isn't in doubt. Why, is.
@@ -298,7 +323,9 @@ Write down the passage, then answer three questions.
 2. **If it uses the process account, is it the authors' version or the sloppy one?** The tell is the
    attention half. A version that talks only about wanting has dropped half the proposal and is
    fairly open to the objection in the checkpoint above.
-3. **Does the advice depend on the account being true?** As in lesson 5's exercise, often it doesn't, and a piece of advice can be worth taking with its stated reason wrong.
+3. **Which half is doing the work?** If the passage is using the process account, is its advice
+   aimed at motivation, at attention, or at both? Most popular versions aim at motivation alone,
+   and an account whose second half is never used is one the writer has not understood.
 :::
 
 ## Connections
@@ -318,8 +345,9 @@ claims this course has made.
 
 - **[What Is Ego Depletion? Toward a Mechanistic Revision of the Resource Model of
   Self-Control](https://journals.sagepub.com/doi/abs/10.1177/1745691612454134)** (*Perspectives on
-  Psychological Science*, 2012). **This course has read the abstract and the two passages stating the
-  shifts, and no more.** A copy is posted on the first author's own site. The section worth a
+  Psychological Science*, 2012). **This course has read the abstract, the overview of the process
+  model, the motivation section, the conclusion and footnote 2.** A copy is posted on the first
+  author's own site, which is where this course read it. The section worth a
   reader's time, on the strength of the abstract's own description, is wherever the paper marks
   where evidence is lacking, because authors who write that section are worth reading.
 - **[A Multilab Preregistered Replication of the Ego-Depletion
@@ -331,13 +359,17 @@ claims this course has made.
 
 1. Michael Inzlicht and Brandon J. Schmeichel, "What Is Ego Depletion? Toward a Mechanistic Revision
    of the Resource Model of Self-Control", *Perspectives on Psychological Science* 7(5), 2012, pages
-   450 to 463. **Read in part: the abstract and the two passages stating the two shifts. The rest of
-   the paper was not opened**, and the body says so. Supports: the quoted one-sentence statement of
-   the process model; the quoted description of the motivational shift and its unpacking; the quoted
-   description of the attentional shift; the quoted assumption that motivation and attention affect
-   each other; the quoted sentence about sacrificing the elegance of the resource metaphor; and the
-   quoted description of the paper as highlighting where evidence is lacking and providing a
-   blueprint for future research.
+   450 to 463. **Read in part on 2026-09-19, from the copy the first author posts on his own site:
+   the abstract, the "Brief Overview of the Process Model" section, the motivation section, the
+   conclusion and footnote 2. The rest of the paper was not opened**, and the body says so.
+   Supports: the quoted one-sentence statement of the process model; the quoted description of the
+   motivational shift and its unpacking; the quoted description of the attentional shift; the quoted
+   assumption that motivation and attention affect each other; the quoted sentence about sacrificing
+   the elegance of the resource metaphor; the quoted description of the paper as highlighting where
+   evidence is lacking and providing a blueprint for future research; the energy-conservation
+   statement of what the resource model's defenders propose, which is in this paper's footnote 2 and
+   is attributed there to Baumeister and Vohs, 2007; and the authors' statement that no study using
+   motivational incentives has offered them for the first task.
 2. M. S. Hagger, N. L. D. Chatzisarantis and others, "A Multilab Preregistered Replication of the
    Ego-Depletion Effect", *Perspectives on Psychological Science* 11(4), 2016. Abstract and
    limitations read verbatim. Cited here only for the standing point, established in lesson 5, that
