@@ -253,7 +253,7 @@ The map is deliberately ambitious. Most courses are `planned`. The point of writ
 | Course | Level | Status | Path | Notes |
 |---|---|---|---|---|
 | How to Learn Anything | Foundation | published | T1 | Retrieval, spacing, interleaving, deliberate practice. Take this first. |
-| Memory | Foundation | planned | T2 | |
+| Memory | Foundation | research | T2 | The other half of memory: what forgetting looks like measured, why a memory changes when you use it, and what confidence is worth. Takes up what How to Learn Anything deliberately left. |
 | Focus and Deep Work | Foundation | published | T2 | What attention is when it is measured, what an interruption costs, and how to get a difficult hour out of an ordinary day. |
 | Note-Taking and Personal Knowledge | Foundation | planned | T2 | |
 | Reading Faster and Deeper | Foundation | planned | T24 | |
