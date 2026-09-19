@@ -36,6 +36,7 @@
    wrong. **The research file now carries all five with their p-levels.** The general lesson: a
    Stage 1 file is a summary and a Stage 4 reviewer should open the paper when a footnote points at
    one.
-8. **A defect in a published course, found in passing**: Time Management lesson 5 says the 2008
+8. **A defect in a published course, found in passing**: Time Management lesson 5 said the 2008
    subjects were interrupted every two to five minutes, where the paper says interruption frequency
-   was set to two minutes. Written into `docs/QUEUE.md` per root rule 9 rather than fixed here.
+   was set to two minutes and only the length of each interruption was adjusted. **One clause, so it
+   was fixed inline** rather than queued, which is what root rule 9 allows.
