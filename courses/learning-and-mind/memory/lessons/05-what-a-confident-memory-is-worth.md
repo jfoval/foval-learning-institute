@@ -24,18 +24,19 @@ quiz:
       The unrelated answer is the traditional position the synthesis revises. And the flat
       high-confidence answer drops the conditions the paper spends fifty pages on.
   - q: >-
-      Why does the synthesis say the traditional pessimism about confidence was reasonable?
+      A forensic review finds that a long-standing doubt about a technique was well founded for the
+      equipment of the time and no longer holds for current equipment. What shape is that?
     options:
-      - Because the procedures police used could produce confident and wrong identifications
-      - Because the early studies were too small to detect the relationship reliably
-      - Because confidence was measured in court rather than by researchers at the time
-      - Because the relationship genuinely was absent until the lineup reforms had changed it
+      - The synthesis's own, in which the old position was reasonable for what produced it
+      - The opposite of the synthesis's, holding that the old position was mistaken all along
+      - Not a shape a synthesis can take, since a review reports evidence rather than judging it
+      - A weaker version, since it keeps the old doubt alongside the new evidence unresolved
     answer: 0
     explain: >-
-      Questionable procedures are what the paper names in its first paragraph, and a confident
-      identification produced by a biased lineup tells you about the lineup. Study size is not the
-      account they give. Court confidence is a separate and real problem the paper also raises. And
-      nothing suggests the underlying relationship changed.
+      Conceding that a position was correct about the evidence that produced it, and then saying
+      what changed, is exactly the move the paper makes in its first paragraph. It does not say
+      anybody was simply wrong. A review can and does judge a position. And nothing here is left
+      unresolved: the conditions are stated.
   - q: >-
       Which of these is NOT one of the five pristine conditions?
     options:
@@ -45,9 +46,9 @@ quiz:
       - Collecting a confidence statement at the time of the identification
     answer: 2
     explain: >-
-      Video recording is a sensible practice and is not one of the five. The other three are
-      conditions two, four and five of Box 3, along with including only one suspect and the suspect
-      not standing out.
+      Video recording is a sensible practice and is not one of the five. The other three are conditions
+      three, four and five of Box 3, and the two not listed here are including only one suspect per
+      lineup and the suspect not standing out in it.
   - q: >-
       A witness identified a suspect eighteen months ago and is now certain in court. What does this
       lesson say about that certainty?
@@ -63,19 +64,19 @@ quiz:
       research measures. Calling courtroom confidence worthless goes further than this course read,
       which is that the claim does not extend to it.
   - q: >-
-      In one police field study the synthesis analyses, what happened to high-confidence
-      identifications?
+      A police force says 40 of last year's identifications were made with high confidence at the
+      lineup and 38 have since been supported by other evidence. What does this lesson ask first?
     options:
-      - Ninety-six percent of 72 were correct, with a model estimate near ninety-seven
-      - About seventy percent of them were correct, which is above chance but modest
-      - They were correct about as often as the low-confidence ones, near fifty percent
-      - The study could not determine accuracy, since ground truth was unavailable
+      - Which of the five conditions those particular lineups actually met, if any of them did
+      - Whether forty identifications is simply too small a number to draw any conclusion from
+      - Nothing, since the figures agree with the synthesis and support the force's conclusion
+      - Whether the other evidence is independent enough to count as a check on the witnesses
     answer: 0
     explain: >-
-      Ninety-six percent of the seventy-two, with a signal-detection model putting high-confidence
-      accuracy near ninety-seven and low-confidence nearer fifty, is what the paper reports. The
-      fifty percent figure is what the model gives for low confidence, not high. And accuracy was
-      estimated rather than being unavailable.
+      The synthesis's finding is conditional on procedure, and its own summary says the conclusions
+      cannot yet be applied where the reforms have not been made. Sample size is a later question.
+      Agreeing with a figure is not the same as meeting the conditions that figure was measured
+      under. And independence of the corroborating evidence matters, after the procedure does.
   - q: >-
       A jurisdiction has not adopted any of the five conditions. What does the synthesis say about
       applying its conclusions there?
@@ -88,8 +89,8 @@ quiz:
     explain: >-
       The summary says in terms that the conclusions about high-confidence identifications cannot
       yet be applied to jurisdictions that have not made the reforms, which is the qualification
-      most likely to be dropped when the finding is repeated. No correction factor is offered, and
-      the conditional applies to the whole finding rather than to one half of it.
+      most likely to be dropped when the finding is repeated. Nothing this course read offers a correction factor, and the conditional applies to the whole
+      finding rather than to one half of it.
 ---
 
 This is the best-evidenced thing in the course and the hardest lesson to write, because the honest
@@ -97,8 +98,10 @@ answer has a condition attached to every part of it.
 
 ## What everybody knows
 
-**A confident witness is no more likely to be right than an unconfident one.** That sentence is in
-textbooks, in judicial guidance, and in almost every discussion of eyewitness evidence.
+A confident witness is no more likely to be right than an unconfident one. That is the position
+this lesson starts from, and the synthesis describes it as one the legal system increasingly
+accepts.[1] **This course has not read a textbook or a judicial direction stating it**, so where it
+is written down is something the lesson does not claim.
 
 **The synthesis this lesson is built on opens by agreeing that it was reasonable.** In the authors'
 own words: "The U.S. legal system increasingly accepts the idea that the confidence expressed by an
@@ -107,12 +110,12 @@ that identification. **There was a time when this pessimistic assessment was ent
 because of the questionable eyewitness-identification procedures that police commonly
 employed.**"[1]
 
-**Read that as a model of how to disagree with somebody.** Not "everyone was wrong". The position
+Read that as a model of how to disagree with somebody. Not "everyone was wrong". The position
 was correct about the evidence that produced it, and the evidence changed.
 
 ## What changed
 
-Wixted and Wells published the synthesis in 2017.[1] **This course has read its Summary, its Box 3,
+Wixted and Wells published [the synthesis](https://journals.sagepub.com/doi/full/10.1177/1529100616686966) in 2017.[1] **This course has read its Summary, its Box 3,
 the section introducing the five recommendations, and one field-study passage.** The fifty pages of
 evidence review were not opened, so what follows is the paper's own account of its evidence rather
 than this course's weighing of it.
@@ -134,13 +137,15 @@ high-confidence suspect ID is seriously compromised."[1]
 
 **Box 3 of the paper, verbatim and complete.**[1]
 
-1. Include only one suspect per lineup
-2. The suspect should not stand out in the lineup
-3. Caution that the offender might not be in the lineup
-4. Use double-blind testing
-5. Collect a confidence statement at the time of the identification
+1. Include only one suspect per lineup.
+2. The suspect should not stand out in the lineup.
+3. Caution that the offender might not be in the lineup.
+4. Use double-blind testing.
+5. Collect a confidence statement at the time of the identification.
 
-**What each one is protecting against is worth a sentence.**
+**What each one is protecting against is worth a sentence, and the five sentences below are this
+course's reasoning from the conditions rather than the paper's own account of them.**[2] The paper's
+explanations, if it gives any, are in the fifty pages this course did not read.
 
 **One suspect.** A lineup where everybody is a suspect is a test with no wrong answer available. The
 other people are there so that a witness who is guessing has somewhere to guess wrong.
@@ -163,49 +168,54 @@ high accuracy."[1]
 :::predict Before the figures. Under those five conditions, how accurate do you expect a high-confidence identification to be? Write a percentage down. And write down what you expect for a low-confidence one.
 Both guesses are usually wrong and in opposite directions.
 
-**People guess too low for high confidence.** In one police-department field study the synthesis
-analyses, of 72 suspect identifications made with high confidence, **96 percent were correct**, and
-a signal-detection model fitted to those data "estimated high-confidence suspect-ID accuracy to be
-approximately 97% correct".[1]
+People guess too low for high confidence. In one police-department field study the synthesis
+analyses, of 72 suspect identifications made with high confidence at the identification itself,
+**96 percent were correct**, and a signal-detection model fitted to those data "estimated
+high-confidence suspect-ID accuracy to be approximately 97% correct".[1]
 
-**And too high for low confidence.** The same model estimated low-confidence accuracy at "closer to
+And too high for low confidence. The same model estimated low-confidence accuracy at "closer to
 50% correct".[1]
 
-**That second number is the one that matters more**, and it is the one nobody expects. A witness who
-says they aren't sure is, on this estimate, about as likely to be wrong as right. **The traditional
+That second number is the one that matters more, and it is the one nobody expects. A witness who
+says they aren't sure is, on this estimate, about as likely to be wrong as right. The traditional
 position was that confidence tells you nothing. This says it tells you a great deal, and most of
-what it tells you is on the low-confidence side**, where it is a warning.
+what it tells you is on the low-confidence side, where it is a warning.
 
-**Note the scope before you carry any of it away.** One field study, analysed inside a synthesis
-this
-course has read four sections of, on adults, under procedures that jurisdiction had adopted. **This
-lesson gives those figures with that attached every time.**
+Note the scope before you carry any of it away. One field study, analysed inside a synthesis
+this course has read four sections of, on adults, on initial confidence statements. **What this
+course read does not say which of the five conditions that police department met**, and the figures
+are worth little without them. **This lesson gives them with that attached every time.**
 :::
 
 ## The word the whole thing rests on
 
-**"Initial".** It's in the paper's own statement of its question, in its statement of its
-conclusion, and in both halves of its practical recommendation.
+**"Initial".** It is in the paper's own statement of what it set out to ask, and it is the first
+word of the list of pristine conditions.
 
-**The claim is about confidence expressed at the moment of the identification.** Not confidence in
+The claim is about confidence expressed at the moment of the identification. Not confidence in
 court. Not confidence after being told the suspect was charged, or after months of being treated as
 the witness whose identification mattered.
 
-**In the authors' own words**, the value of understanding this is that it helps the system "to
-exonerate the innocent (by better appreciating that initial, low-confidence suspect identifications
-are error prone) and to convict the guilty (by better appreciating that initial, high-confidence
-suspect identifications are surprisingly accurate under proper testing conditions)."[1]
+The word is theirs and it is in the sentence stating the question: the pristine conditions are
+"initial, uncontaminated memory tests using fair lineups, with no lineup administrator influence,
+and with an immediate confidence statement".[1] **Two of the three things in that list are about
+timing**, once as "initial" and once as "an immediate confidence statement", which is how much
+weight the point is carrying.
 
-**Both uses of "initial" are theirs.** A lesson that dropped the word would be teaching the opposite
-of the paper, because the courtroom certainty everybody has seen is exactly the kind the claim
-doesn't cover.
+A lesson that dropped the word would be teaching the opposite of the paper, because the courtroom
+certainty everybody has seen is exactly the kind the claim doesn't cover.
+
+What this course did not read is the paper's own discussion of the courtroom case, so what it
+can say is that the claim is scoped to the initial statement, and not what the authors think ought
+to follow at a trial.[2]
 
 :::checkpoint Somebody reads this and concludes that eyewitness identification is reliable after all, and that the reform campaigns were overblown. What is wrong with that?
 Almost everything, and taking it apart is the point of the lesson.
 
-**The conclusion is conditional and the conditions are the reforms.** The finding is that
-identifications are accurate *under the five procedures*, four of which are precisely what the
-reform campaigns were for. **The synthesis is an argument for the reforms, not against them.**
+The conclusion is conditional and the conditions are the reforms. The finding is that
+identifications are accurate *under the five procedures*, and the five are reforms rather than the
+status quo. **The synthesis is an argument for the reforms, not against them.** **Which of the five
+any particular campaign was for is not something this course read**, and the point does not need it.
 
 **The authors say so themselves, and this is the sentence most likely to be dropped:**
 "Unfortunately, some jurisdictions have not yet made reforms that would create pristine testing
@@ -215,27 +225,27 @@ cannot yet be applied to those jurisdictions."[1]
 **And the other half of their own summary rules out the comfortable reading**: when unfair lineups
 are used, "the accuracy of even a high-confidence suspect ID is seriously compromised."[1]
 
-**There is a second error in the conclusion and it is subtler.** The finding isn't that eyewitness
+There is a second error in the conclusion and it is subtler. The finding isn't that eyewitness
 identification is reliable. It's that **confidence is informative**, which cuts both ways: initial
 high confidence is very accurate and initial low confidence is about a coin toss. **A system that
 took this seriously would convict on some identifications and throw out others**, which is a
 different thing from trusting witnesses more.
 
-**So the honest sentence, and it is a mouthful:** under five stated procedural conditions, for
+So the honest sentence, and it is a mouthful: under five stated procedural conditions, for
 adults, an initial confidence statement carries a great deal of information about whether an
 identification is correct, in both directions, and those conditions aren't met everywhere.
 :::
 
 ## Three things people get wrong about this
 
-**"Confidence means nothing."** The position this synthesis revises, and it was reasonable about the
+"Confidence means nothing." The position this synthesis revises, and it was reasonable about the
 procedures that produced it. It isn't what the evidence under pristine conditions shows.
 
-**"This proves eyewitnesses are reliable."** It shows confidence is informative under conditions.
+"This proves eyewitnesses are reliable." It shows confidence is informative under conditions.
 Low confidence under the same conditions is a warning, and the paper is explicit that its
 conclusions don't reach jurisdictions without the reforms.
 
-**"A confident witness in court is a confident witness."** The claim is about initial confidence,
+"A confident witness in court is a confident witness." The claim is about initial confidence,
 and the courtroom is the case it specifically doesn't cover.
 
 ## Practice
@@ -243,11 +253,11 @@ and the courtroom is the case it specifically doesn't cover.
 :::exercise Check a procedure against the five
 Take 25 minutes.
 
-**Find an account of a real identification procedure.** A news report of a trial, a documentary
+Find an account of a real identification procedure. A news report of a trial, a documentary
 summary, a police force's published policy, a wrongful-conviction case write-up. Anything that
 describes how somebody was picked out.
 
-**Go through Box 3 one condition at a time**, and for each write one of three things: met, not met,
+Go through Box 3 one condition at a time, and for each write one of three things: met, not met,
 or the account doesn't say.
 
 Then three lines.
@@ -257,7 +267,7 @@ Then three lines.
 3. **What the synthesis would let you conclude** about a confident identification made under what
    you can establish, and what it would not.
 
-**"Does not say" is the commonest answer and it is the finding.** An account that describes a
+"Does not say" is the commonest answer and it is the finding. An account that describes a
 confident identification without describing the procedure has told you nothing the synthesis can
 work with.
 :::
@@ -265,18 +275,18 @@ work with.
 :::exercise Write the opposing case
 Take 25 minutes. This one is harder than it looks.
 
-**Write the strongest case for the traditional position**, in about 200 words: that eyewitness
+Write the strongest case for the traditional position, in about 200 words: that eyewitness
 confidence tells you little about accuracy. Use the synthesis's own words where you can, because it
 makes that case itself in its first paragraph.
 
-**Then write the strongest case against it**, same length, same rule.
+Then write the strongest case against it, same length, same rule.
 
 Then two lines.
 
 1. **Which was harder, and why.**
 2. **What single piece of evidence would most change your mind**, whichever way you lean.
 
-**If either case came out obviously weaker, go back to it.** The test isn't which side you end on;
+If either case came out obviously weaker, go back to it. The test isn't which side you end on;
 it is whether somebody holding the other one would recognise what you wrote for them.
 :::
 
@@ -297,9 +307,9 @@ one. Lesson 7 comes back to conditional claims and what happens to them in trans
   Synthesis](https://journals.sagepub.com/doi/full/10.1177/1529100616686966)** (*Psychological
   Science in the Public Interest*, 2017). Read in part by this course: the Summary, Box 3, the
   section introducing the five recommendations, and one field-study passage. **Read the Summary**,
-  which is one page and is the best short example in this institute's reading lists of a field
-  saying what it used to think, why that was reasonable, and what changed.
-- **[Forgetting as a Consequence of Retrieval: A Meta-Analytic Review of Retrieval-Induced
+  which is one page and is the clearest example this course met of a field saying what it used to
+  think, why that was reasonable, and what changed. - **[Forgetting as a Consequence of Retrieval: A
+  Meta-Analytic Review of Retrieval-Induced
   Forgetting](https://centaur.reading.ac.uk/37052/)** (*Psychological Bulletin*, 2014), lesson 3's
   subject and read in part by this course. Worth reading beside this one for the contrast: a
   laboratory effect measured precisely with no stakes, against a field question with enormous stakes
@@ -318,9 +328,11 @@ one. Lesson 7 comes back to conditional claims and what happens to them in trans
    qualification about non-pristine conditions; Box 3 verbatim and complete; the quoted statement
    that low confidence implies low accuracy and high confidence implies high accuracy; the field
    study's 72 high-confidence identifications at 96 percent correct with model estimates of about
-   97 and about 50 percent; the quoted qualification about jurisdictions that haven't reformed; and
-   the quoted statement about exonerating the innocent and convicting the guilty.
+   97 and about 50 percent; and the quoted qualification about jurisdictions that haven't reformed.
 2. **The one-sentence explanations of what each of the five conditions protects against are this
-   course's own**, marked inline where they appear. They are consistent with the paper's own
-   sections on the first and fourth conditions, which this course read, and the other three are
-   reasoning from the condition rather than passages from the paper.
+   course's own**, said as such at the head of the list. **None of them comes from the paper.** The
+   read level is the Summary, Box 3, the section introducing the five recommendations, and one
+   field-study passage; the paper's own discussion of the conditions is in the evidence review this
+   course did not open, and each explanation is reasoning from what the condition says. **The
+   statement that this course cannot say what the paper concludes about courtroom confidence is the
+   same limit stated from the other side.**
