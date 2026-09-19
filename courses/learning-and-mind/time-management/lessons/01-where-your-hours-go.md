@@ -115,8 +115,8 @@ survey, employed respondents
 That is 2011, on data from the American Time Use Survey and a Belgian national survey, which is
 the scope of every figure in this section.
 
-**And the direction is not a law about people, which matters because you are about to predict four
-categories rather than one.** The same authors report two activities where the error runs the other
+And the direction is not a law about people, which matters because you are about to predict four
+categories rather than one. The same authors report two activities where the error runs the other
 way: respondents "underestimate their weekly hours spent relative to the diary, namely, sleep and
 free time". Diaries carry about eight hours of sleep a night against estimates "closer to 7", and
 estimates of free time come in at "less than 20 hours per week, compared with at least 35 hours in

@@ -136,7 +136,7 @@ Read the bracket as well as the figure. **The spread is larger than the average.
 day of eleven-minute blocks; it is a day with a great many very short pieces and a few long ones,
 which is exactly the shape lesson 2 asked you to look for in your own week.
 
-**And more than half of those stretches ended because something broke in.** 57.1 percent of working
+And more than half of those stretches ended because something broke in. 57.1 percent of working
 sphere segments were interrupted, which the abstract reports as "57% of their working spheres are
 interrupted".[1] Central spheres ran at 60.3 percent, peripheral ones at 41.7. **This course has read those two figures and not the study's definition of the two terms**,[4] so read "central" as the study's own label rather than as anything this lesson can unpack.
 
@@ -213,28 +213,28 @@ is not a failure of her arrangements; it's a large part of what she is for, and 
 nurse could not be interrupted would be a worse ward.
 
 Almost all of the advice she will meet on this subject is useless to her, and the reason is worth naming:
-**the advice treats interruption as a defect in a day that could have been otherwise.** Hers
+the advice treats interruption as a defect in a day that could have been otherwise. Hers
 couldn't.
 
 So the question changes shape. Not "how do I reduce interruptions", which is not hers to decide, but
-**which of my work actually needs a continuous stretch, and when in the week does such a stretch
-exist at all?**
+which of my work actually needs a continuous stretch, and when in the week does such a stretch
+exist at all?
 
 For Nadia the answer to the first is short, and everything in this paragraph is stipulated about her rather than established about nursing.[4] Most of her job is meant to be interruptible and, as this case is built, is done no worse for it. Two things aren't: the drug round, which in this constructed case the ward already protects by procedure, and the written handover, which she currently does in
 fragments and which takes her twice as long that way.
 
 The answer to the second is that a stretch exists in exactly one place in her week, the half hour
 after the handover meeting on the days she is on early. That is the whole of the discretionary
-capacity her job offers for work needing continuity, and **knowing that it is one half hour is more
-use to her than any technique**, because it tells her that the written handover is the only thing
+capacity her job offers for work needing continuity, and knowing that it is one half hour is more
+use to her than any technique, because it tells her that the written handover is the only thing
 that can go there.
 
 ## The number nobody can find in the paper
 
 Now the part of this lesson that is a method rather than a finding.
 
-**You have almost certainly met the claim that an interruption costs you twenty-three minutes and
-fifteen seconds**, or twenty-three minutes, or "about twenty-five minutes to get back on task". It
+You have almost certainly met the claim that an interruption costs you twenty-three minutes and
+fifteen seconds, or twenty-three minutes, or "about twenty-five minutes to get back on task". It
 is the most quoted figure in this subject. It is on slides in corporate training rooms and in more articles than anybody has counted.
 
 It's normally attributed to one of two papers, and this course went looking in both.
@@ -252,8 +252,8 @@ finding is close to the opposite of the popular one, which the next section is a
 **And a third party went looking properly.** A 2023 review by a writer working through five papers
 and twenty-three blog posts concluded: "So in the end, where do the 23 minutes and 15 seconds come
 from? They are mentioned in interviews multiple times by Gloria Mark. But I wasn't able to find a
-primary printed source."[3] **This course cites that piece for one claim only, which is that its
-author looked and did not find one.** It is a blog post, not a study, and the honest use of it is as
+primary printed source."[3] This course cites that piece for one claim only, which is that its
+author looked and did not find one. It is a blog post, not a study, and the honest use of it is as
 a record of a search rather than as an authority.
 
 :::callout What this course is and is not saying about the figure
@@ -276,7 +276,7 @@ including the ones in this course.
 The 2008 experiment is the honest answer to the question the twenty-three minutes pretends to
 answer, and the first thing to say about it is what it was.[2]
 
-**Forty-eight subjects, 81 percent of them German university students with a mean age of 26**,
+Forty-eight subjects, 81 percent of them German university students with a mean age of 26,
 answering twelve simulated emails as a fictional human resources manager, interrupted every two to
 five minutes by the experimenter, by telephone or instant message, and paid twelve euros. A
 laboratory task of twelve emails. **It is not a study of a working day** and this lesson
@@ -287,7 +287,7 @@ surprisingly, people completed interrupted tasks in less time with no difference
 data suggests that people compensate for interruptions by working faster, but this comes at a price:
 experiencing more stress, higher frustration, time pressure and effort."[2]
 
-**Less time. No difference in quality. More stress, frustration, time pressure and effort.**
+Less time. No difference in quality. More stress, frustration, time pressure and effort.
 
 That is a real cost and it isn't the one the folklore describes. Nothing was lost in minutes and
 nothing was lost in the work. What was paid was paid in how the work felt, and people bought the
@@ -324,7 +324,7 @@ gets quoted in one direction by people who have read half of it.
 :::exercise Count your own switches for two days
 Take 30 minutes.
 
-**One thing to know before you start, because it changes what your answer means.** Lesson 1 asked
+One thing to know before you start, because it changes what your answer means. Lesson 1 asked
 for fifteen-minute resolution, which is right for measuring where a week goes and too coarse to see
 switches: a great many of the stretches in the study above are shorter than fifteen minutes. So you
 have two options. **Use your lesson 1 record and read the result as a floor**, knowing it will
@@ -334,7 +334,7 @@ study's, because the instrument cannot see the difference.
 
 Pick two recorded days. Go through each one and do three things.
 
-1. **Mark a new stretch every time the purpose of what you are doing changes.** Not every time you
+1. Mark a new stretch every time the purpose of what you are doing changes. Not every time you
    pick up your phone; when the thing you are trying to achieve changes. Sam's rule above is good
    enough: if you'd describe it to somebody else as a different job, it is a different stretch.
 
@@ -346,8 +346,8 @@ Pick two recorded days. Go through each one and do three things.
 3. **Mark every switch `internal` or `external`.** Internal means you left the work; external means
    something arrived. Be honest about the ones where a notification arrived and you chose to look, because those are internal. **This course expects most readers to find more of them than they predicted**, which is an expectation rather than a measurement.[4]
 
-Finish with one sentence: **which of the two kinds is larger for you, and which of them could you
-actually act on this month?**
+Finish with one sentence: which of the two kinds is larger for you, and which of them could you
+actually act on this month?
 
 Keep this. Lesson 6 works on the answer, and lesson 7 builds a week around it.
 :::
@@ -416,9 +416,9 @@ tracing move from this lesson applied to it.
 2. Gloria Mark, Daniela Gudith and Ulrich Klocke, ["The Cost of Interrupted Work: More Speed and
    Stress"](https://www.ics.uci.edu/~gmark/chi08-mark.pdf), *CHI 2008*. Read in part: the abstract
    and the experimental design, pages 1 to 2. Supports: the quoted abstract in full, and the design.
-   **Scope: a laboratory experiment, 48 subjects, 81 percent German university students with a mean
+   Scope: a laboratory experiment, 48 subjects, 81 percent German university students with a mean
    age of 26, twelve simulated emails, interruptions every two to five minutes, paid 12 euros. It is
-   not a study of a working day and the body says so at the point of use.**
+   not a study of a working day and the body says so at the point of use.
 3. oberien, ["Interruptions cost 23 minutes 15 seconds,
    right?"](https://blog.oberien.de/2023/11/05/23-minutes-15-seconds.html), 2023. Read in full.
    **A blog post, not a source, and cited for exactly one claim**: that its author reviewed five

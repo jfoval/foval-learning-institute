@@ -106,7 +106,7 @@ quiz:
 This is the lesson with the least evidence behind it and, if the rest of the course has done its
 job, the most use in it. You should know which of those two you are getting before you start.
 
-**What is measured here is the destination and not the route.** Two reviews of the whole field,
+What is measured here is the destination and not the route. Two reviews of the whole field,
 fourteen years apart, agree on roughly where time management behaviours show up. Claessens and
 colleagues, in 2007: "The review demonstrates that time management behaviours relate positively to
 perceived control of time, job satisfaction, and health, and negatively to stress. The relationship
@@ -114,7 +114,7 @@ with work and academic performance is not clear."[1] The 2021 meta-analysis, ove
 53,957 participants, found the relationship with wellbeing, and with life satisfaction in
 particular, larger than the relationship with performance.[2]
 
-Read that as a description of where the benefit lands, because that is all it is. **Nothing this course read in either review tests a method for deciding what to drop.** Nothing in either of them tells you how to choose, and
+Read that as a description of where the benefit lands, because that is all it is. Nothing this course read in either review tests a method for deciding what to drop. Nothing in either of them tells you how to choose, and
 this course isn't going to dress its reasoning up as a finding.
 
 **So most of this lesson is the course's own reasoning**, and it is labelled where it appears.[4]
@@ -132,7 +132,7 @@ sometimes in a four-box grid, sometimes just by rewriting the list until the sha
 
 Then the week happens, and all of them are still in it.
 
-**That is the whole problem, and it's worth being precise about why.** Ranking is an operation on
+That is the whole problem, and it's worth being precise about why. Ranking is an operation on
 a list. The constraint is not in the list, it's in the hours, and lesson 2 asked you to count them. An ordering changes nothing about the hours. Putting
 something fifth does not remove it from the week; it tells you which thing you will feel worst about
 when the week runs out, which is a different service and it is not a useful one.
@@ -151,8 +151,8 @@ bedtime, two things you genuinely want and cannot both have. Both of those land 
 the scheme then has nothing further to say. It has sorted the easy cases and handed the hard ones
 back.
 
-There is a second problem that is smaller and worth noticing. **A box with four things in it is
-still four things.** Sorting makes a list legible; it does not make it shorter, and a list is not where the constraint is.
+There is a second problem that is smaller and worth noticing. A box with four things in it is
+still four things. Sorting makes a list legible; it does not make it shorter, and a list is not where the constraint is.
 
 The books that made this scheme famous are named in lesson 8, which is where this course deals with
 the trade literature properly. It has not read them and it isn't citing them here.
@@ -161,9 +161,9 @@ the trade literature properly. It has not read them and it isn't citing them her
 ## What a decision actually is
 
 The form below is partly this course's own and partly borrowed, and the borrowing is worth stating
-here rather than in a footnote.[4] **The pair is this course's.** **The shape of naming what the
+here rather than in a footnote.[4] **The pair is this course's.** The shape of naming what the
 choice costs, what would reverse it, and when you will look again is taken from Using AI
-Effectively lesson 9**, which handles a value question of the same kind and asks its reader for a
+Effectively lesson 9, which handles a value question of the same kind and asks its reader for a
 reason, for what they would need to see to change their mind, and for a date three weeks out.
 
 **A decision is a pair.** What I will do, and what I am accepting will not happen.
@@ -214,7 +214,7 @@ What he writes instead is one refusal, in four lines.
 > **What would reverse it:** If the committee moves to one evening a month, or if the parking scheme
 > comes back in the form we were warned about, I will go back. Review in June.
 
-**Look at the third line, because it is the whole lesson.** He is not telling himself the committee
+Look at the third line, because it is the whole lesson. He is not telling himself the committee
 was a waste of time, which would be the comfortable version and isn't true. He has written down that
 he will lose an argument he cares about and a piece of his social life. He has decided anyway, and
 now he can act on the decision without relitigating it every month.
@@ -231,8 +231,8 @@ What still applies is the form: a pair, a named cost, a review date, a condition
 hours as well as on eleven, and it works on things that are not commitments at all.
 
 What doesn't apply is the assumption underneath Marcus's case, which is that there was a thing to
-drop. This course expects a reader with two discretionary hours to have already dropped everything droppable, often years ago, and usually without noticing that a decision was being made. That is an expectation rather than a measurement.[4] **That reader has not failed
-at this lesson. The lesson has to be about something else for them**, and the next section is what.
+drop. This course expects a reader with two discretionary hours to have already dropped everything droppable, often years ago, and usually without noticing that a decision was being made. That is an expectation rather than a measurement.[4] That reader has not failed
+at this lesson. The lesson has to be about something else for them, and the next section is what.
 :::
 
 ### Worked: a reader with almost none
@@ -259,9 +259,9 @@ harder. Each is a request to somebody, or a question she has not asked.
 
 **Three, and this is the one to have ready: what she would ask for.** People do sometimes ask her
 what would help. A manager, a social worker, a brother on a good day. The answer "I do not know,
-it's just a lot" is the true one and it does not get her anything. **Having one specific, small,
+it's just a lot" is the true one and it does not get her anything. Having one specific, small,
 costed request written down before anybody asks is the highest-value thing on this page for a reader
-in her position**, because the moment somebody offers is never the moment to work it out.
+in her position, because the moment somebody offers is never the moment to work it out.
 
 Hers is one line: *one Thursday in three, and I would use it to sleep.*
 
@@ -277,10 +277,10 @@ A week with no discretion in it did not arrive that way. Things came out of it, 
 usually without a decision being made about any of them. The choir, the running, the friend you used
 to ring, the qualification you have stopped mentioning.
 
-**None of that's a moral failure and this lesson is not going to treat it as one.** Most of it went
+None of that's a moral failure and this lesson is not going to treat it as one. Most of it went
 for reasons that were good at the time and are still good. But there is a difference between a thing
 you decided to let go and a thing that fell off, and the difference matters for one specific
-practical reason: **the things that fell off are the ones you are still carrying.**
+practical reason: the things that fell off are the ones you are still carrying.
 
 You'll know the feeling: the low-level sense of owing something to a version of your life that is
 not currently running. That is what an undecided item costs, and it is charged every week whether or
@@ -345,8 +345,8 @@ mostly did not choose.
 where it stops, and the hard cases are important against important.
 
 **"Saying no is a skill I lack."** It is not mainly a skill, and treating it as one keeps you
-practising the wrong thing. **It is a decision with a cost, and the cost is the part to write
-down.** This course's reading is that people who look good at this are not better at the sentence.[4] They have decided
+practising the wrong thing. It is a decision with a cost, and the cost is the part to write
+down. This course's reading is that people who look good at this are not better at the sentence.[4] They have decided
 earlier, they know what they are giving up, and the sentence comes out easily because the hard part
 already happened on paper.
 
@@ -365,7 +365,7 @@ actually act on in the next month.
 
 - **If you have genuine discretion**, pick from the discretionary column, and what you write's a withdrawal.
 - **If you have very little**, pick from the contested column, and what you write is a request. There's a worked version below.
-- **And if what you have decided is to take something on**, which is a decision this course has no objection to and no view about, then write that. The four lines are unchanged and the third one is
+- And if what you have decided is to take something on, which is a decision this course has no objection to and no view about, then write that. The four lines are unchanged and the third one is
   still the one not to skip: **what comes out of the week to make room.**
 
 Write four lines, in this order, and do not skip the third.
@@ -373,7 +373,7 @@ Write four lines, in this order, and do not skip the third.
 1. **What.** One sentence. Specific, with a date on it.
 2. **Why.** What it costs you now, in hours from your own sheet.
 3. **What it costs to stop.** Specific. A named person, a named thing that will not happen, a named
-   consequence you are accepting. **If this line is hard to write, that is the exercise working.**
+   consequence you are accepting. If this line is hard to write, that is the exercise working.
    If it comes out as "less pressure", go back and write the thing.
 4. **What would reverse it, and when you will look again.** A condition and a date.
 
@@ -383,7 +383,7 @@ commitment is. Look at it before you pick.
 
 Then the fourth line from the body's list: **who has to be told, and when.**
 
-**The request branch, worked, because it is the one the course owes you.** Ruth's four lines, in the
+The request branch, worked, because it is the one the course owes you. Ruth's four lines, in the
 same form Marcus got:
 
 > **What:** I am asking my brother to take one Thursday in three.
@@ -396,7 +396,7 @@ same form Marcus got:
 > **What would reverse it, and when I will look again:** If he says no, I ask the social worker
 > what else exists, and I ask him again after Christmas.
 
-**Notice that a request still has a cost and still has a condition.** What it hasn't got is a withdrawal, which is why the reader with no discretionary hours writes the same four lines about a
+Notice that a request still has a cost and still has a condition. What it hasn't got is a withdrawal, which is why the reader with no discretionary hours writes the same four lines about a
 different kind of act.
 
 Keep the sheet. Lesson 7 writes this into an actual week.
@@ -453,8 +453,8 @@ discussed above.
    the time management literature", *Personnel Review* 36(2), 2007, pages 255 to 276. Read in part:
    the abstract and pages 255 to 257. Supports the quoted sentence about perceived control of time,
    job satisfaction, health and stress, and about the relationship with performance being unclear.
-   **Scope: a review of 32 or 35 empirical studies, the paper's own two figures disagreeing, whose
-   respondents were mostly students in psychology classes and employees.**
+   Scope: a review of 32 or 35 empirical studies, the paper's own two figures disagreeing, whose
+   respondents were mostly students in psychology classes and employees.
 2. Brad Aeon, Aïda Faber and Alexandra Panaccio, ["Does time management work? A
    meta-analysis"](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0245066),
    *PLOS ONE* 16(1), e0245066, 2021. Abstract, effect sizes and limitations read. Supports: 158

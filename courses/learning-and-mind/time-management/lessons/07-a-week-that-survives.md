@@ -133,19 +133,19 @@ much of it actually is.
 :::checkpoint So is the lesson just "be realistic"? What does this course add to that?
 Two things, and the second is the useful one.
 
-**The first is that "realistic" has a measurement behind it now.** You're not guessing at how much
+The first is that "realistic" has a measurement behind it now. You're not guessing at how much
 of the week is yours. You counted it in lesson 2, and you counted its shape as well as its total,
 which this course expects came out smaller and more fragmented than you had assumed. "Be realistic"
-is advice. **A number of discretionary hours and a count of how many pieces they arrive in is an
-input.**
+is advice. A number of discretionary hours and a count of how many pieces they arrive in is an
+input.
 
 **The second is that a plan is a prediction**, and lesson 3 is entirely about what happens to your
 predictions. Everything that lesson found about a single task applies to a week: you plan the run
 that goes well, your own history is not in the room while you do it, and the result is
 systematically short in a direction you can measure.
 
-So a week plan isn't a statement of intent that you either live up to or fall short of. **It is a forecast,
-and it is subject to every finding in this course about forecasts.** That is a different relationship
+So a week plan isn't a statement of intent that you either live up to or fall short of. It is a forecast,
+and it is subject to every finding in this course about forecasts. That is a different relationship
 to have with it, and it is the one that survives a Tuesday.
 :::
 
@@ -186,15 +186,15 @@ whose length is yours to decide. Anything that involves waiting on somebody else
 morning instead, which is what lesson 3's outlier was about. Apply the ratio, and if what you have
 planned does not fit, take one thing out and write down what it was. Not adjust, not compress.
 
-Slack is not rest and it is not catching up, though it can be spent on either. **Slack is what lets
-a plan be wrong without being finished.** A week with every hour committed is a week that is fully
+Slack is not rest and it is not catching up, though it can be spent on either. Slack is what lets
+a plan be wrong without being finished. A week with every hour committed is a week that is fully
 wrong by Tuesday afternoon; a week with a fifth loose absorbs the Tuesday and carries on.
 
 ### If your discretionary total is two hours
 
 Lesson 6 was built around you and this lesson has to be as well, because the six steps above assume a week with room to arrange, and yours hasn't got one.
 
-**Steps one and two are the same and they are most of the value.** Your fixed points go in, and your
+Steps one and two are the same and they are most of the value. Your fixed points go in, and your
 refusal or your request goes in as a named line rather than as a gap. That is a week honestly described, which is more than most people have.
 
 **Step three changes shape.** If you have no long pieces at all, do not force one. What you have is short pieces, and the useful move is to decide **what one thing** those short pieces are for this
@@ -213,7 +213,7 @@ Because what you are correcting at this level is not the length of any one item.
 Lesson 3 measured the ratio on individual tasks because that is where you can see it, and its own
 warning was that a ratio is only stable within a kind of work. Applied item by item to a week, you'd be pretending to a precision the measurement doesn't support: your median is a summary of five tasks, not a multiplier for each of the next six.
 
-**Applied to the total it does something more modest and more defensible.** It says: whatever you
+Applied to the total it does something more modest and more defensible. It says: whatever you
 have planned, you have historically needed about this much more of it than you thought, so plan for
 less. That is a claim about the size of the week rather than about the length of any job in it, and
 it survives the fact that your individual estimates vary.
@@ -270,8 +270,8 @@ child being ill, a deadline moving.
 
 Write down your own answer, because the exercise at the end of this lesson asks you to make the same
 prediction about your own week before you run it, and the point of making it in writing is that you
-find out afterwards whether your model of your own week is any good. **That is lesson 1's move,
-applied one last time to the plan itself.**
+find out afterwards whether your model of your own week is any good. That is lesson 1's move,
+applied one last time to the plan itself.
 :::
 
 ### Worked: the same week, after it broke
@@ -282,28 +282,28 @@ Not because of a client. Her daughter's school ran a parents' coffee morning tha
 about for three weeks and had not put on the sheet, because it wasn't the sort of thing that goes on
 a sheet.
 
-**Look at what that did, because the mechanism is the lesson.** Tuesday 9:15 was one of her two long
+Look at what that did, because the mechanism is the lesson. Tuesday 9:15 was one of her two long
 pieces. Losing it didn't cost her fifty-five minutes; it cost her the only continuous slot before
 Sunday, and the qualification therefore got half of its week. By Wednesday the plan had one wrong
 thing in it. By Thursday she had stopped looking at it.
 
-**Three things she changed, and the third one is the finding.**
+Three things she changed, and the third one is the finding.
 
-**She moved the study to Sunday and Tuesday rather than Tuesday and Sunday.** If the first long
+She moved the study to Sunday and Tuesday rather than Tuesday and Sunday. If the first long
 piece of the week is also the most exposed, then the week's most important work is riding on its
 most fragile slot. Sunday evening is the one nobody else can claim.
 
-**She put the coffee morning and its relatives into the fixed column.** Not that specific event: the
+She put the coffee morning and its relatives into the fixed column. Not that specific event: the
 category. School things, three or four a term, always known about in advance, never written down.
 Her lesson 2 sheet had missed a whole class of fixed commitment because none of them happened in the
-week she recorded. **A single week's record has that hole in it by construction**, which lesson 2
+week she recorded. A single week's record has that hole in it by construction, which lesson 2
 said and which she has now met.
 
 **And she stopped treating the break as a failure.** This is the one that transfers. The plan did
 its job: it converted a vague sense that the weeks get away from her into one sentence, *my study
 time is on the most interruptible morning of the week and my sheet is missing the school calendar.*
-**She couldn't have got that sentence from a better-designed plan. She got it from running a plan
-that broke.**
+She couldn't have got that sentence from a better-designed plan. She got it from running a plan
+that broke.
 
 ## What a plan is for
 
@@ -346,8 +346,8 @@ available, and no empirical test of the time-expansion claim was found when this
 looking.
 
 So: an amusing observation that might well be true, presented as a law, quoted for seventy years,
-and, as far as this course can tell, never tested. **Plan every hour if it suits you. Don't do it
-because of Parkinson.**
+and, as far as this course can tell, never tested. Plan every hour if it suits you. Don't do it
+because of Parkinson.
 
 ## Practice
 
@@ -373,13 +373,13 @@ now, in one line. **No refusal:** skip step 2 and note that you skipped it.
    written down. If a plan's cue is not visible on this sheet, the cue is wrong.
 5. **Reserve about a fifth of the discretionary time**, in pieces, placed where your weeks
    historically go wrong. Do this before the next step, not after it.
-6. **Apply your ratio to what is left, and remove one thing.** Apply it to the items whose length is
+6. Apply your ratio to what is left, and remove one thing. Apply it to the items whose length is
    yours to decide, and give anything that waits on somebody else a whole morning. Write down what
    you removed. If you can't bring yourself to remove anything, that's the finding, and write that
    down instead.
 
-**Then, before the week starts, one line: which day do you think it will break, and what do you
-think will break it?** Seal it, or just write it at the top of the sheet where you will not
+Then, before the week starts, one line: which day do you think it will break, and what do you
+think will break it? Seal it, or just write it at the top of the sheet where you will not
 conveniently forget it.
 
 **Run the week.** Don't tidy the sheet as you go.
@@ -412,7 +412,7 @@ lesson 6's refusal, and adds nothing to any of them. Lesson 1's habit of predict
 is applied one last time, to the plan itself, which is why the exercise asks you to name the day
 before you run the week.
 
-**Sideways, and this course is not going to re-teach any of it.** **How to Learn Anything** lesson 8
+Sideways, and this course is not going to re-teach any of it. **How to Learn Anything** lesson 8
 already builds a weekly study plan and covers attention, procrastination and sleep, and it is the
 better place for those. **Habits and Self-Discipline** and **Focus and Deep Work** are Term 2
 courses on the Core and are not written yet; when they exist, they take up what this course

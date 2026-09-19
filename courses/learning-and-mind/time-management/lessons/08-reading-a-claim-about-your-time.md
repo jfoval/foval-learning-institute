@@ -127,7 +127,7 @@ somebody says what the words mean.
 these than you'd expect, because most of the genre's claims never get near enough to a measurement
 to be wrong.
 
-**This is Digital Literacy's move and Using AI Effectively lesson 11's, adapted again**, and the
+This is Digital Literacy's move and Using AI Effectively lesson 11's, adapted again, and the
 course says so rather than presenting it as new. What changes here is the subject and one wrinkle,
 which is the fourth category the sort keeps producing.
 
@@ -202,31 +202,31 @@ circulates inside it, each repetition inheriting its authority from the last rat
 study. That is not dishonesty; it's what happens when a field is written mostly by practitioners for
 practitioners.
 
-**And nobody checks, because checking looks like more work than it is.** This is the actionable one.
+And nobody checks, because checking looks like more work than it is. This is the actionable one.
 The trace in lesson 5 took one person an afternoon. Your own version takes twenty minutes, most
 trails end after two steps, and the number of times you will need to do it before you stop believing
 unsourced figures is about one.
 
 ### Parkinson's law, which is not a law
 
-The most quoted sentence in this whole subject is that **work expands so as to fill the time
-available for its completion**.
+The most quoted sentence in this whole subject is that work expands so as to fill the time
+available for its completion.
 
 **This course has not read the essay it comes from.** The full text sits behind a paywall and the
 copies found were unreachable, so what follows is at the level of a search summary and is flagged
 as such.[3] At that level, four things are established and they are worth having.
 
-**It is the opening line of an essay in *The Economist*, published on 19 November 1955.** Not a
+**It is the opening line of an essay in *The Economist*, published on 19 November 1955. Not a
 paper, not a study, not a report of anything anybody measured.
 
-**Its author presents it as a commonplace observation**, which is to say he isn't claiming to have
+Its author presents it as a commonplace observation, which is to say he isn't claiming to have
 discovered it. That is a considerable distance from how it's used seventy years later.
 
-**The essay is a satire, and it is about something else.** Its actual subject is why bureaucracies
+The essay is a satire, and it is about something else. Its actual subject is why bureaucracies
 grow regardless of how much work there is to do, and its two stated drivers are that an official
 wants to multiply subordinates rather than rivals, and that officials make work for each other.
 
-**And no empirical test of the time-expansion claim was found.** A 2008 study tests the essay's
+And no empirical test of the time-expansion claim was found.** A 2008 study tests the essay's
 *committee* argument, which is a different claim in the same essay.
 
 So the most repeated sentence in this subject is a funny aside in a satirical essay about civil
@@ -261,10 +261,10 @@ a careful paper and a careless one.
 
 The second is the thing people get wrong in both directions. Readers who expect "it all works" are
 about to be disappointed, and readers who expect "none of it works" are about to be disappointed
-too. **The honest answer is in between and it is less satisfying than either.**
+too. The honest answer is in between and it is less satisfying than either.
 :::
 
-**Two reviews of the whole field, fourteen years apart, and they do not agree.**
+Two reviews of the whole field, fourteen years apart, and they do not agree.
 
 **Claessens and colleagues, 2007**, reviewing the literature to that point: time management
 behaviours "relate positively to perceived control of time, job satisfaction, and health, and
@@ -278,15 +278,15 @@ shows "a moderate, negative relationship with distress".[2] Job performance came
 distress at r = -0.358, and the authors note that the link to job performance appears to increase
 over the years.
 
-**The newer one's larger, newer and pooled over far more studies. Both are correlational.** Neither
+The newer one's larger, newer and pooled over far more studies. Both are correlational. Neither
 can tell you time management caused anything, because the studies underneath them mostly measure
 people at one moment rather than following them through a change. And the 2021 authors add a
 limitation that is unusually frank: studies "often don't explain what, exactly, is taught in time
 management training seminars",[2] so the pooled effect is the effect of something not well
 specified.
 
-**So the honest answer is that something is there, that it is probably not what the genre sells, and
-that nobody has shown it is causal.**
+So the honest answer is that something is there, that it is probably not what the genre sells, and
+that nobody has shown it is causal.
 
 That middle clause is the one to carry away. Both reviews point at the same region: control,
 satisfaction, health, stress. The 2021 paper puts it directly, finding that time management enhances
@@ -327,8 +327,8 @@ checked it**, which is a cheap assumption, because checking takes twenty minutes
 
 **"An old study is out of date."** Sometimes, and the distinction matters. **Figures that describe a
 time and place go stale**: the estimate-against-diary gap was 6.2 hours a week in 1985 and 2.4
-across 2003 to 2007, so quoting either without its year is a defect. **Findings about how people
-reason do not obviously go stale the same way.** That people forecast by imagining the run that goes
+across 2003 to 2007, so quoting either without its year is a defect. Findings about how people
+reason do not obviously go stale the same way. That people forecast by imagining the run that goes
 well is a claim about how forecasting works, and 1994 being a long time ago is not in itself an
 argument against it. Ask which kind of claim you are looking at. That distinction is **Using AI
 Effectively** lesson 11's and it holds here for the same reason.
@@ -374,11 +374,11 @@ sets of numbers side by side.
 
 Three questions in writing.
 
-1. **Are your four numbers closer to the record than they were the first time?** Some readers find
+1. Are your four numbers closer to the record than they were the first time? Some readers find
    they are, and some find one category is far worse because the week in question was unusual.
 2. **Which category did you get wrong in the same direction as before?** That one is your standing
    bias, and it is the single most useful line in this exercise.
-3. **What would you now say to somebody who told you they know roughly where their hours go?**
+3. What would you now say to somebody who told you they know roughly where their hours go?
 
 Writing it from memory before opening the record is not a formality. **How to Learn Anything**
 lesson 3 is about why retrieving something first changes what the comparison is worth, and this is

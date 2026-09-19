@@ -117,10 +117,10 @@ The computer-assignment study had 123 Canadian university students and three gro
 The third group did what the recall group did, describing their past experience with similar
 assignments. Then they answered two further questions, and those two questions are what separates this group from the last one. **The paper describes them rather than printing them; put into the second person they are:**
 
-- **When would you finish this assignment if you completed it as far before its deadline as you
-  typically do?**
-- **What is a plausible scenario, based on your past experience, that would result in you finishing
-  at your typical time?**
+- When would you finish this assignment if you completed it as far before its deadline as you
+  typically do?
+- What is a plausible scenario, based on your past experience, that would result in you finishing
+  at your typical time?
 
 :::predict Before the table: the control group finished within their own prediction 29.3 percent of the time, and the recall group 38.1 percent. What do you expect for this third group, and what do you expect happened to how long the work actually took?
 Most people expect the second number to move. It is the natural reading of a technique like this:
@@ -314,7 +314,7 @@ friend did. The condition in the quotation above is doing real work here: if-the
 supported by strong activated goal intentions, and there is no strong goal intention here for it to
 be supported by.
 
-**The honest outcome of Marek's four weeks isn't a better plan. It is crossing the goal off.** That
+The honest outcome of Marek's four weeks isn't a better plan. It is crossing the goal off. That
 is a legitimate result and this course is going to say so plainly rather than treating every
 abandoned intention as a failure of method.
 
@@ -445,7 +445,7 @@ actual week. Lesson 8 asks what the whole evidence base, this technique included
    pages 69 to 119. **Search-summary level only; this course has not opened the meta-analysis**, and
    the body says so where the figure appears. Supports, at that level: d = .65 across 94 independent
    tests and more than 8,000 participants.
-4. **The reading of d as a gap in standard deviations, and the convention that .65 lies between
-   medium and large, is stated as a convention rather than as a finding**, and no source in
+4. The reading of d as a gap in standard deviations, and the convention that .65 lies between
+   medium and large, is stated as a convention rather than as a finding, and no source in
    `research/SOURCES.md` is cited for it. **Marek is constructed**, and so is the report in the
    worked drill; no source read for this course describes an individual's plan.
