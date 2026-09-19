@@ -133,11 +133,13 @@ Rewrite these five lines each session. Nothing else goes in this block.
   people with a relative risk of 1.12 for short sleep sits on the other. Neither supports the other's
   sentence.
 
-  **Three things Stage 2 must settle before any lesson is drafted**, all recorded in the file's Open
-  concerns: the `unread:` line needs an `(except NN)` for Walker on whichever lesson covers the
-  public dispute about his book, or the build fails on it; circadian rhythm, shift work and
-  chronotype are in no source here and either get their own Stage 1 pass or an explicit omission;
-  and sleep disorders, children and adolescents should be left out by name. Next:
+  **The circadian gap was closed the same day** by a second Stage 1 pass, which added the
+  pharmacologic guideline (fourteen recommendations, every one weak, in both directions), the
+  chronotype measure and its laboratory gold standard, and IARC's Group 2A classification of night
+  shift work. **Two things Stage 2 must still settle before any lesson is drafted**: the `unread:`
+  line needs an `(except NN)` for Walker on whichever lesson covers the public dispute about his
+  book, or the build fails on it; and sleep disorders, children and adolescents, and light exposure
+  should each be left out by name, since nothing in the file covers them. Next:
   `/outline-course courses/health-and-body/sleep`.
 
 - **Note-Taking and Personal Knowledge is through Stage 2**, with 4,600 words of research and a

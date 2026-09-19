@@ -440,6 +440,113 @@ honest than a citation nobody could defend, and it tells a reader where to go ne
 
 ---
 
+## 11. The pharmacologic guideline, and the fourteen weak recommendations
+
+**Michael J. Sateia, Daniel J. Buysse, Andrew D. Krystal, David N. Neubauer and Jonathan L. Heald,
+"Clinical Practice Guideline for the Pharmacologic Treatment of Chronic Insomnia in Adults: An
+American Academy of Sleep Medicine Clinical Practice Guideline", *Journal of Clinical Sleep
+Medicine* 13(2), 2017, pp. 307 to 349, doi 10.5664/jcsm.6470.** **Read in part on 2026-09-19, from
+the PubMed Central copy: the list of recommendations and the definition of a weak recommendation.
+The evidence summaries behind each drug were not read.**
+
+The guideline makes **fourteen recommendations and every one of them is WEAK**. Eight are for a drug
+in a named indication (suvorexant, eszopiclone, zaleplon, zolpidem, triazolam, temazepam, ramelteon,
+doxepin) and six are against one (trazodone, tiagabine, diphenhydramine, melatonin, tryptophan,
+valerian), each for sleep onset or sleep maintenance insomnia or both.
+
+- **What a weak recommendation means, in the guideline's own words:** "A WEAK recommendation reflects
+  a lower degree of certainty in the appropriateness of the patient-care strategy and requires that
+  the clinician use his/her clinical knowledge and experience, and refer to the individual patient's
+  values and preferences to determine the best course of action."
+
+**Set this beside source 5 and you have the course's cleanest single comparison.** The behavioural
+guideline issues a **strong** recommendation for cognitive behavioural therapy. The pharmacologic
+guideline, from the same body, issues **fourteen weak ones and no strong one**, including weak
+recommendations *against* four things sold over the counter. **That contrast is a fact about two
+documents rather than a claim about what works**, and a lesson should present it that way and let
+the reader do the arithmetic.
+
+**Three cautions for the lesson that uses this.** A recommendation against melatonin is not a finding
+that melatonin does nothing: it is a weak recommendation, in a named indication, for chronic
+insomnia disorder, and it says nothing about jet lag or shift work, which this guideline is not
+about. The guideline is from 2017 and drugs approved since are not in it. And **nothing in this
+course supports advising anybody to start or stop a medication**.
+
+---
+
+## 12. Chronotype: what it is, how it is measured, and what social jetlag names
+
+**Dorothee Fischer, Céline Vetter and colleagues with Till Roenneberg (paper by Neda Ghotbi and
+colleagues), "The µMCTQ: An Ultra-Short Version of the Munich ChronoType Questionnaire", *Journal of
+Biological Rhythms* 35(1), February 2020, pp. 98 to 110, doi 10.1177/0748730419886986.** Open access.
+**Read in part on 2026-09-19: the abstract and the section defining the chronotype measure, from the
+open PDF. The validation results were not read**, and the author order above is taken from the
+running head rather than from the title page, so **a lesson must cite this as "Ghotbi and
+colleagues" and nothing more specific**.
+
+- **What chronotype is, verbatim:** "Individuals vary in how their circadian system synchronizes with
+  the cyclic environment (zeitgeber). Assessing these differences in phase of entrainment—often
+  referred to as chronotype—is an important procedure in laboratory experiments and epidemiological
+  studies but is also increasingly applied in circadian medicine, both in diagnosis and therapy."
+- **What the gold standard is, verbatim:** "While biochemical measurements (e.g., dim-light melatonin
+  onset [DLMO]) of internal time are still the gold standard, they are laborious, expensive, and
+  mostly rely on special conditions (e.g., dim light)."
+- **What the questionnaire does instead, verbatim:** "Chronotype estimation in the form of
+  questionnaires is useful in approximating the timing of an individual's circadian clock."
+- **The measure itself, verbatim:** the marker is the midpoint between sleep onset and sleep end on
+  free days (MSF), "which is corrected for potential oversleep on free days (to compensate for sleep
+  debt accumulated over the workweek, MSFsc), therefore accounting for the homeostatic process
+  influencing sleep."
+- **The short form, verbatim:** the µMCTQ "contains only the core chronotype module of the standard
+  MCTQ (stdMCTQ), which was shortened and adapted from 17 to 6 essential questions", and its derived
+  chronotype marker "showed slight deviations toward earlier times in the µMCTQ when compared with
+  the stdMCTQ (~35 min)."
+
+**Social jetlag** is the difference between the mid-sleep time on work days and on free days, and
+the term is Roenneberg's. **This course has that definition at search-summary level only**, from
+encyclopaedic and methodological summaries rather than from the paper that introduced it, and **a
+lesson must say so**, must not give a population figure for how large social jetlag is, and must not
+report any health outcome associated with it, because nothing in this file measures one.
+
+**Why this matters more than it looks.** It gives the course a second instrument question. Sleep
+*duration* is what almost every claim in sources 1 to 3 is about; sleep *timing* is a different
+quantity, measured differently, with its own gold standard in a hormone assay. A reader who has been
+told to get seven hours has been told nothing about when.
+
+---
+
+## 13. Shift work, which is where sleep timing meets a real outcome
+
+**International Agency for Research on Cancer, *IARC Monographs* Volume 124, "Night Shift Work",
+evaluation published June 2019.** **Not read. Search-summary level only**, from IARC's own
+announcement as reported by a research institute involved in the working group and by the summary
+published in *The Lancet Oncology* (doi 10.1016/S1470-2045(19)30578-9), neither of which this course
+opened in full.
+
+At that level, established:
+
+- The working group classified night shift work as **"probably carcinogenic to humans" (Group 2A)**.
+- The classification rests on **limited evidence in humans**, with positive associations observed for
+  cancers of the breast, prostate, colon and rectum; **sufficient evidence in experimental animals**
+  for alteration of the light–dark schedule; and **strong mechanistic evidence**.
+- A summary from an institute whose researchers took part puts the caveat plainly: "the mechanisms
+  underpinning the association between night shift work and cancer in humans have still not been
+  fully established."
+
+**This is a trap and an opportunity at once.** The Group 2A label is one of the most misreported
+things in public health: it is a statement about **how strong the evidence is that something can
+cause cancer**, not about how much it raises anybody's risk, and IARC says so about every one of its
+classifications. **A lesson that uses this must teach the distinction or leave the classification
+out**, and it must not put a risk figure next to it, because this course has read none.
+
+**And it is the one place where this course's subject touches somebody's livelihood.** Nurses,
+drivers, bakers and police officers do not choose their schedules, and a lesson that treats night
+work as a lifestyle error would fail the neutrality standard as badly as any political case. **The
+honest treatment names the classification, names its grade of evidence, and says what this course
+cannot say**: how much, for whom, and what to do about it.
+
+---
+
 ## What the field considers essential
 
 1. **Sleep is measured, and by four different instruments that do not measure the same thing.**
@@ -457,6 +564,10 @@ honest than a citation nobody could defend, and it tells a reader where to go ne
    statement says and source 9 demonstrates.
 7. **Sleep and memory are linked, and the size of the link depends on a design choice** (source 7).
    This is where the course points back at **Memory** and at **How to Learn Anything**.
+8. **Timing is a separate quantity from duration**, measured with a different instrument and with its
+   own gold standard in a hormone assay (source 12). Almost every popular claim is about duration.
+9. **Night shift work carries an IARC Group 2A classification**, and what that label means is itself
+   a thing to teach (source 13).
 
 ## Common misconceptions
 
@@ -478,6 +589,14 @@ honest than a citation nobody could defend, and it tells a reader where to go ne
 - **"Good sleep hygiene is the treatment."** The 2021 behavioural guideline says it is not an
   effective stand-alone therapy for the disorder (source 5), which is not the same as saying the
   individual practices are useless.
+- **"Melatonin is the safe natural option."** The 2017 pharmacologic guideline recommends against it
+  for chronic insomnia, weakly, alongside recommendations against valerian, tryptophan and
+  diphenhydramine (source 11). That is a statement about one indication and not about the molecule.
+- **"Group 2A means night work gives you cancer."** The label grades how strong the evidence is that
+  something can cause cancer, not how much risk anybody carries (source 13).
+- **"I'm a night owl, so I should sleep late."** Chronotype is a measured quantity with a laboratory
+  gold standard and a questionnaire proxy (source 12), and nothing in this file says what anybody
+  should do about theirs.
 
 ## Contested questions and the positions on each
 
@@ -498,6 +617,13 @@ question rather than the answer.
 errors to be corrected:* Walker's own reply, which concedes the WHO attribution and the graph and
 undertakes corrections (source 8c). **Both positions are in their proponents' own words and both are
 free to read**, which is the condition standards 3.1 wants.
+
+**Does shift work cause cancer?**
+*Probably, on limited human evidence:* the IARC working group's Group 2A classification, resting on
+limited evidence in humans, sufficient evidence in animals and strong mechanistic evidence (source
+13). *Unresolved mechanism:* the caveat from the same announcement, that the mechanisms in humans
+are not fully established. **This course has read neither the monograph nor any of the cohort
+studies**, so it may report the classification and its grades and nothing else.
 
 **How much does sleep do for memory?**
 *A moderate benefit, g ≈ 0.44 overall* (source 7, at search-summary level). *Much of it may be design*
@@ -541,11 +667,12 @@ day. **Unsettled, and the course should say so rather than pick.**
 - **Scope decision: sleep disorders.** Apnoea, narcolepsy, restless legs and parasomnias are a
   clinical literature this course has not searched. The outline should leave them out explicitly, as
   Note-Taking left out children, and say where a reader should go instead.
-- **Scope decision: circadian rhythm, shift work and chronotype.** Nothing in this file covers them,
-  and they are the part of the subject most relevant to readers who work nights. Either Stage 1 runs
-  again on that gap before the lesson is drafted, or the outline declares the omission. **Personal
-  Finance lesson 6 is the cautionary case**: a lesson drafted into a research gap failed its
-  neutrality audit on exactly that gap.
+- **The circadian gap was closed on 2026-09-19**, the same day, by a second Stage 1 pass that added
+  sources 11, 12 and 13, after the first pass flagged it here. That is the order **Personal Finance
+  lesson 6** established: research the gap before the lesson rather than after the neutrality audit.
+  **What is still missing on that side is light exposure**: nothing in this file measures what light
+  at what time does to circadian timing, so no lesson may give advice about screens, lamps or morning
+  daylight. Either a third pass covers it or the outline says the course does not.
 - **Scope decision: children and adolescents.** A separate literature with live policy arguments
   attached, and the course's prerequisites are adult. Leave out and say so.
 - **The course's most likely reader sleeps badly and wants to be told what to do.** Every lesson will
