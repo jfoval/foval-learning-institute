@@ -16,11 +16,11 @@ quiz:
       What does the process account propose is happening between the first act of self-control and
       the second?
     options:
-      - Two shifts, one in motivation away from control and one in attention away from its cues
       - A store of a finite resource is drawn down, and refills with rest or with food
       - A trait-level difference emerges, so that some people show the effect and others never do
+      - Two shifts, one in motivation away from control and one in attention away from its cues
       - Nothing at all, since the second task is harder only because people expect it to be
-    answer: 0
+    answer: 2
     explain: >-
       The proposal is a shift in motivation towards what is rewarding and a shift in attention
       towards cues signalling gratification, each affecting the other. The store is the resource
@@ -30,10 +30,10 @@ quiz:
       Why do the proposers say their account is worth having, even though it is less tidy?
     options:
       - Because elegance in a theory is generally a sign that something has been left out
-      - Because it can be stated without any reference to the experiments that prompted it
       - Because it gives a more precise picture, and makes predictions a metaphor cannot
+      - Because it can be stated without any reference to the experiments that prompted it
       - Because it has already been confirmed by evidence the resource model could not explain
-    answer: 2
+    answer: 1
     explain: >-
       They say in terms that the model may sacrifice the elegance of the resource metaphor and
       paints a more precise picture, with nuanced predictions to test. Treating elegance as itself
@@ -45,10 +45,10 @@ quiz:
       need. How would the two accounts describe this differently?
     options:
       - The resource account says that she ran out; the process account says she has a weaker trait
-      - The resource account says she ran out; the process account says what she wanted shifted
       - Both say the same thing in different words, so no case at all can tell them apart
       - The process account says that she was never trying, which the resource account denies
-    answer: 1
+      - The resource account says she ran out; the process account says what she wanted shifted
+    answer: 3
     explain: >-
       One says capacity was spent, the other says her motivation turned towards what was rewarding
       and her attention followed it, which is a difference about what changed rather than about how
@@ -58,11 +58,11 @@ quiz:
   - q: >-
       Which finding would count against the resource account and for the process account?
     options:
+      - That performance on the second task recovers when people are offered a reward
       - That people perform rather worse on a second task after a demanding first one
       - That the effect is larger in some laboratories than in others
       - That people report feeling markedly tired after they have exerted self-control
-      - That performance on the second task recovers when people are offered a reward
-    answer: 3
+    answer: 0
     explain: >-
       A store that has been spent should not refill because somebody offers money, whereas a shift
       in motivation is exactly what an incentive would be expected to move. Worse performance on the
@@ -73,11 +73,11 @@ quiz:
       A man says the process account is just saying people stopped wanting to try, which sounds like
       a moral judgement dressed up. Is he right?
     options:
-      - No, because the shift is described as something that happens to a person, not a decision
       - Yes, since motivation is another word for effort, and effort is a choice a person makes
       - Yes, which is partly why the resource account remains the more useful one in practice
+      - No, because the shift is described as something that happens to a person, not a decision
       - No, because the account says nothing at all about motivation, only about where attention goes
-    answer: 0
+    answer: 2
     explain: >-
       The account describes motivation and attention moving in response to prior exertion, which is
       a mechanism rather than a verdict on the person, and it pairs the shift with attention rather
@@ -88,10 +88,10 @@ quiz:
       What does this lesson say a reader should conclude about which account is right?
     options:
       - The process account, since the resource account failed its replication outright
-      - That the question is unanswerable, since both describe the same feeling differently
       - That the phenomenon is better attested than either explanation of it currently is
+      - That the question is unanswerable, since both describe the same feeling differently
       - The resource account, since it is simpler and simplicity is the better guide
-    answer: 2
+    answer: 1
     explain: >-
       Things do feel harder after a hard morning, and both accounts are attempts to say why; the
       resource one has lost most of its evidence and the process one is a proposal whose authors say

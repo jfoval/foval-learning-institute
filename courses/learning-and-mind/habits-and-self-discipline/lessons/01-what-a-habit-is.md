@@ -17,11 +17,11 @@ quiz:
       Tuesdays, sometimes decides not to, and goes about three weeks in four. Is this a habit in the
       sense the research uses?
     options:
-      - Yes, because three years of near-weekly repetition is what the word means
       - No, because she is deciding each time, and the decision is what a habit removes
+      - Yes, because three years of near-weekly repetition is what the word means
       - Yes, because the cue is Tuesday evening and the cue is what makes a habit
       - No, because three weeks in four is not frequent enough to have become automatic
-    answer: 1
+    answer: 0
     explain: >-
       The research definition turns on the behaviour being triggered automatically by a context, and
       she is consulting herself about it every week. The frequency answer is the everyday sense of
@@ -34,9 +34,9 @@ quiz:
     options:
       - It is not a habit, since a habit is something you have deliberately built
       - It is a habit only if he has done it long enough for it to be learned
-      - It is not a habit, because he is aware of it and wants to stop
       - It is a habit, and the definition has no view on whether he wants it
-    answer: 3
+      - It is not a habit, because he is aware of it and wants to stop
+    answer: 2
     explain: >-
       A context, a response that runs off without a decision, and no memory of deciding: that is the
       definition met, and nothing in it is about the behaviour being welcome. The built answer
@@ -47,10 +47,10 @@ quiz:
       Why does this course say a habit is worth having, in the terms the research uses?
     options:
       - Because a habit is a behaviour you have chosen deliberately and can therefore trust
-      - Because repeating something makes you better at it, which is what automaticity means
       - Because once the action is triggered by a cue, it no longer depends on wanting to do it
+      - Because repeating something makes you better at it, which is what automaticity means
       - Because habits are more efficient than decisions, so they leave you with more time
-    answer: 2
+    answer: 1
     explain: >-
       The point of the transfer to external cues is that reliance on attention and motivation drops,
       so the behaviour survives the weeks when you do not feel like it. The chosen answer describes
@@ -61,11 +61,11 @@ quiz:
       A woman who gave up sugar in tea a year ago finds she has stirred a spoonful into a visitor's
       cup and her own, in her mother's kitchen, without noticing. What does this illustrate?
     options:
-      - That the association runs from a context to a response, whatever the person now intends
       - That habits are hard to break once a person has formed them over many years
       - That smoking is more strongly habitual than most other behaviours people perform
       - That a ban changes behaviour less than people expect it to in the first year
-    answer: 0
+      - That the association runs from a context to a response, whatever the person now intends
+    answer: 3
     explain: >-
       Her mother's kitchen was the cue and the spoonful was the response, and a year of intending
       otherwise did not unhook one from the other. Difficulty in breaking a habit is a consequence
@@ -75,11 +75,11 @@ quiz:
       Two men each take a walk at lunchtime four days in five. One weighs it up each day. The other
       has his coat on before the question of whether to go has arisen. What is true of them?
     options:
-      - They have the same habit, since the definition is about what a person actually does
       - Only the second has a habit; the first has a routine with the same frequency to it
+      - They have the same habit, since the definition is about what a person actually does
       - The first has the habit, because deciding to go is what builds the association
       - Neither has a habit until the behaviour has lasted a good sixty-six days
-    answer: 1
+    answer: 0
     explain: >-
       Identical frequency, different mechanism, and the definition tracks the mechanism. Saying they
       have the same habit is the everyday usage this lesson separates out. Deciding each time is
@@ -90,9 +90,9 @@ quiz:
     options:
       - That habits can be formed at all, since the evidence for that is weaker than it looks
       - That a habit, once it has formed, cannot be lost again if the cue stops appearing
-      - That habit formation works outside a laboratory, which has not been demonstrated
       - That the reader will become more disciplined, which is not what the research is about
-    answer: 3
+      - That habit formation works outside a laboratory, which has not been demonstrated
+    answer: 2
     explain: >-
       The research is about a mechanism by which behaviour stops needing a decision, which is a
       different thing from making a person more disciplined, and the course says so rather than

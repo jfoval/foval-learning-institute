@@ -15,11 +15,11 @@ quiz:
   - q: >-
       "Stack your new habit onto an existing one and it will stick." Sort that claim.
     options:
-      - Measurable, and a comparison of stacked with unstacked cues would settle it
       - False, because the evidence shows stacking works no better than a fixed time
+      - Measurable, and a comparison of stacked with unstacked cues would settle it
       - Unmeasurable, because nobody could ever count whether a behaviour has stuck
       - Two claims, and only the first of the two is the kind a study could check
-    answer: 0
+    answer: 1
     explain: >-
       An existing routine is a reliable, noticeable context, which is what lesson 3 says a cue needs,
       so this is specific enough to run. Nothing this course read compares stacking against the
@@ -32,9 +32,9 @@ quiz:
     options:
       - The figure was invented, since no such number appears in the paper at all
       - The figure was misquoted, and the number in the paper is a little lower
-      - A real measurement lost its scope, which is harder to spot than invention
       - The study has dated, and newer work with better methods gives another figure
-    answer: 2
+      - A real measurement lost its scope, which is harder to spot than invention
+    answer: 3
     explain: >-
       Forty-three is in the paper, as the higher of two figures with a stated reason for the gap, so
       nothing was invented or misquoted; what fell away was the range, the criterion and the sample.
@@ -44,11 +44,11 @@ quiz:
       A man has intended for two years to start running and has not. On this course's account, what
       are his honest options?
     options:
-      - Build the habit properly, because two years of intending shows he wants it
       - Build it, keep deciding each time, or stop carrying it, each with a cost
+      - Build the habit properly, because two years of intending shows he wants it
       - Find a better cue, since a good enough cue will make any behaviour stick
       - Accept that he lacks the discipline, which no technique here can supply him
-    answer: 1
+    answer: 0
     explain: >-
       Three endings, and the course has no view on which he picks; what it asks is that he picks one
       and names what it costs. Two years of intending is as consistent with not wanting it as with
@@ -59,9 +59,9 @@ quiz:
     options:
       - All three were invented by writers who had never opened the studies they cite
       - All three rest on samples too small for anyone to have relied on them
-      - All three have been corrected by later work that nobody has read since
       - None was invented; each arrived with the scope that made it meaningful gone
-    answer: 3
+      - All three have been corrected by later work that nobody has read since
+    answer: 2
     explain: >-
       Twenty-one days was a real observation about surgical patients, sixty-six a real average with a
       range, and forty-three a real count against a stated criterion; in each case what travelled was
@@ -72,11 +72,11 @@ quiz:
       What does this course say to do with a piece of habit advice whose stated reason turns out to
       be unsupported?
     options:
-      - Judge the advice separately, because a good one can rest on a bad reason
       - Discard it, since advice resting on a bad reason is unlikely to be good
+      - Judge the advice separately, because a good one can rest on a bad reason
       - Keep it if it works for you, since what works is the only thing that counts
       - Look for a better reason, since advice worth taking must have one behind it
-    answer: 0
+    answer: 1
     explain: >-
       Not starting two habits at once can be argued from repetitions being halved even after the
       willpower-budget reason has gone, so the advice and its justification are two questions.
@@ -88,9 +88,9 @@ quiz:
     options:
       - The definition, since a definition is a convention rather than a finding
       - The three numbers, because figures date faster than the mechanisms behind them
-      - What replaced the resource model, which its own authors call a blueprint
       - The missed-day finding, which rests on a study this course has not opened
-    answer: 2
+      - What replaced the resource model, which its own authors call a blueprint
+    answer: 3
     explain: >-
       Its proposers describe their own paper as highlighting where evidence is lacking and providing
       a blueprint for future research, which is the weakest claim on offer here. The numbers do date,

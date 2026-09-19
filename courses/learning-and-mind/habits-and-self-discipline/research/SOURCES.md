@@ -218,13 +218,52 @@ undercuts, which is worth telling a reader.
 
 **What replaced it, from its own proponents.** **Inzlicht and Schmeichel, "What Is Ego Depletion?
 Toward a Mechanistic Revision of the Resource Model of Self-Control", *Perspectives on Psychological
-Science* 7(5), 2012, pp. 450 to 463.** **Abstract read verbatim.** Their proposal: "exerting
-self-control at Time 1 causes temporary shifts in both motivation and attention that undermine
-self-control at Time 2". They are explicit about the cost of the change: "Though the process model
-of depletion may sacrifice the elegance of the resource metaphor, it paints a more precise picture of
-ego depletion". **This is the honest shape of the dispute**: not "willpower is a myth", but that the
-resource metaphor was doing work the evidence did not support, and something less tidy is proposed
-in its place.
+Science* 7(5), 2012, pp. 450 to 463.** **Read in part on 2026-09-19, from the copy the first author
+posts on his own site: the abstract, the "Brief Overview of the Process Model" section, the
+motivation section, the conclusion and footnote 2. The rest of a fourteen-page paper was not
+opened.** Everything quoted below was read in the original and checked character by character
+against that copy.
+
+- **The proposal**, from the abstract: "exerting self-control at Time 1 causes temporary shifts in
+  both motivation and attention that undermine self-control at Time 2".
+- **The first shift**, verbatim: "The first process is a shift in motivational orientation away from
+  suppressing and inhibiting desires and toward approaching and gratifying them." And their own
+  unpacking of it: "initial acts of control lead people to become less motivated to engage in
+  further deliberative control and more motivated to engage in things that are more personally
+  rewarding, interesting, and enjoyable."
+- **The second shift**, verbatim: "The second process, which occurs in tandem with the first, is a
+  shift in attention away from cues signaling the need to exert control and toward cues signaling
+  gratification."
+- **And that the two are coupled**: "The model also assumes that motivation and attention each
+  affect the other."
+- **What they say it costs**, verbatim and in full: "Though the process model of depletion may
+  sacrifice the elegance of the resource metaphor, it paints a more precise picture of ego depletion
+  and suggests several nuanced predictions for future research."
+- **How they rate their own evidence**, from the abstract: "The article highlights evidence in
+  support of this model but also highlights where evidence is lacking, thus providing a blueprint
+  for future research."
+- **The incentive question, which the lessons must not get wrong.** The paper proposes it as
+  untested: "of the handful of studies that have included motivational incentives, none have offered
+  motivational incentives for the Time 1 task", and being rewarded for exerting self-control at
+  Time 1 "may motivate good performance on that task ... and lead to no depletion or even enhanced
+  performance on the Time 2 task". **So an incentive experiment is the paper's own proposed avenue
+  for future research, not a result.**
+- **What the resource model's defenders say, in this paper's footnote 2**, which is the best
+  statement of the "For" side any source read for this course carries: "The resource model has been
+  stretched to accommodate such results by suggesting that initial acts of self-control only
+  partially deplete the resource and that ego depletion occurs because people are unwilling to draw
+  further from their reserves (Baumeister & Vohs, 2007). This 'energy conservation' account is, at
+  the very least, consistent with the view that diminished motivation to engage in self-control
+  moderates depletion". **A lesson that describes the resource account as predicting that an
+  incentive cannot restore performance has failed the ideological Turing test**, because
+  conservation is exactly what its defenders propose.
+- **And they are not opponents of the model.** Their conclusion opens "Self-control appears to
+  operate on the basis of a limited inner resource or strength. We both admire and have contributed
+  to the corpus of evidence in support of the limited resource view."
+
+**This is the honest shape of the dispute**: not "willpower is a myth", but that the resource
+metaphor was doing work the evidence did not support, and something less tidy is proposed in its
+place.
 
 **One more, at search-summary level only.** Watts, Duncan and Quan, "Revisiting the Marshmallow
 Test", *Psychological Science*, 2018, a conceptual replication of the delay-of-gratification work.

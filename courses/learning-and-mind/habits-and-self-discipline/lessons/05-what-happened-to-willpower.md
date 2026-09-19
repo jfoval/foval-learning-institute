@@ -13,20 +13,20 @@ objectives:
     limitations
 quiz:
   - q: >-
-      A 2010 meta-analysis of 198 published experiments reported a medium-to-large depletion effect.
-      A 2015 re-analysis of much the same literature reported very little evidence for it. What
-      changed?
+      A reader finds a meta-analysis of sixty published experiments on some other effect, and a
+      later re-analysis of the same sixty reporting almost nothing. What should they suspect first?
     options:
-      - The second team corrected for small-study effects, and the estimate did not survive it
-      - The effect itself weakened over time, which is a known pattern within psychology
-      - Newer experiments were run and they returned smaller results than the older ones
-      - The second team used a rather stricter definition of what was to count as self-control
+      - That correcting for small-study effects took the pooled estimate most of the way down
+      - That the effect itself has weakened over the years, which does happen in psychology
+      - That the second team dropped the experiments whose results it happened to dislike
+      - That newer experiments were added to the pool and returned much smaller results than those
     answer: 0
     explain: >-
-      Same published record, different handling of it: correcting for the pattern that small studies
-      report larger effects took the estimate most of the way to nothing. No new experiments were
-      needed for that re-analysis. Effects do not weaken by themselves, though published estimates
-      shrink as methods tighten. And nothing here turns on redefining self-control.
+      Same published record, different handling of it, is the pattern this lesson's first step shows,
+      and a re-analysis by definition works on studies that already exist rather than adding any.
+      Effects do not weaken by themselves, though published estimates do shrink as methods tighten.
+      And a team quietly dropping inconvenient studies is a different accusation, and a serious one,
+      which the word re-analysis does not support on its own.
   - q: >-
       Twenty-three laboratories ran the same protocol and the pooled estimate was d = 0.04, with a
       confidence interval from −0.07 to 0.15. What does that permit you to say?
@@ -60,16 +60,17 @@ quiz:
   - q: >-
       Why does it matter that Roy Baumeister vetted the replication protocol?
     options:
-      - Because it means that he agreed in advance with whatever the result turned out to be
-      - Because it shows the replication team had no view at all about what they would find
-      - Because vetting by an originator is required before any registered replication can be run
-      - Because a protocol its originator approved removes the wrong-paradigm objection largely
+      - Because it commits him in advance to accepting the result the protocol produced
+      - Because it shows the replication team was working without a hypothesis of its own
+      - Because an originator's sign-off is a condition of running a registered replication
+      - Because a protocol its originator approved closes off the wrong-method objection
     answer: 3
     explain: >-
       The usual defence of a failed replication is that the method was not the real one, and having
-      the model's originator sign off the protocol in advance closes most of that route. Vetting is
-      not agreement with the outcome, and nobody is obliged to accept a result they think is wrong.
-      The team plainly had expectations. And no rule requires an originator's approval.
+      the model's originator approve the protocol beforehand shuts most of that route. Vetting is
+      not agreement with the outcome, and a researcher may reject a result he thinks is mistaken.
+      The team plainly had expectations, which is what preregistration is for. And sign-off by an
+      originator is a courtesy the field values rather than a rule it enforces.
   - q: >-
       A man reads all this and concludes that since willpower is not a resource, self-control
       training is pointless. What has he missed?
@@ -86,19 +87,20 @@ quiz:
       it, since the model did generate training predictions. And the field-versus-lab answer is a
       real argument that the lesson leaves open rather than the thing he missed.
   - q: >-
-      What replaced the resource account, in its proponents' own terms?
+      A colleague says she can feel her willpower running out by four in the afternoon and asks
+      what the research says about it. What does this lesson let you tell her?
     options:
-      - Nothing as yet, since the field withdrew the model without proposing a successor
-      - A finding that self-control is a stable trait rather than a state which varies
-      - A proposal that exerting control shifts motivation and attention, rather than draining a store
-      - A model in which glucose rather than some abstract resource is the thing that becomes depleted
+      - That the feeling is an illusion, since the resource it reports turned out not to exist
+      - That she is describing depletion, which 198 published experiments have established
+      - That the feeling is real and what is contested is the account of what produces it
+      - That the afternoon effect is about falling glucose rather than about self-control
     answer: 2
     explain: >-
-      The process account keeps the phenomenon and drops the metaphor, proposing shifts in
-      motivation and attention as what carries the effect from one task to the next. The nothing-yet
-      answer is wrong, and lesson 6 is about the successor. Trait accounts of self-control exist and
-      are a different literature. And the glucose version was a variant of the resource model rather
-      than its replacement.
+      What the replication tested is a proposed mechanism, and lesson 6 is about the successor
+      account, so the phenomenon she is reporting is not what lost its evidence. Calling her
+      experience an illusion goes far beyond anything measured. The 198 experiments are the pooled
+      literature the re-analysis and the replication both undercut. And glucose was a variant of the
+      resource model rather than a separate explanation.
 ---
 
 The course changes subject here, and it is worth saying what the join is.
@@ -116,9 +118,11 @@ will tell you about habits.
 
 The resource or strength model of self-control's easy to state, which is part of why it travelled.
 
-Self-control is "conceptualized as a limited resource that becomes depleted after a period of
-exertion resulting in self-control failure".[1] Use it, and there is less of it. Resist a biscuit
-this morning and you have less left for the argument this afternoon.
+On this model self-control is a limited resource that gets depleted by a period of exertion, and
+self-control failure is what happens when it runs low.[1] **That is this course's wording rather
+than the paper's**, because the research file does not hold the sentence verbatim. Use it, and
+there is less of it: resist a biscuit this morning and you have less left for the argument this
+afternoon.
 
 **The way it was tested is called the sequential-task paradigm.** People do one task requiring
 self-control, then a second unrelated one, and the prediction is that the first makes the second
@@ -126,23 +130,27 @@ worse. The state this is supposed to produce has a name: **ego depletion**.[1]
 
 **And the model was not fringe.** A 2010 meta-analysis of 198 published experiments reported the
 depletion effect as medium-to-large, at d = 0.62 with a confidence interval from 0.57 to 0.67.[2]
+**Two of that meta-analysis's four authors are the proposing authors of the replication that follows**,
+which is worth knowing before you read it as a hit job: the people who assembled the best case for
+the effect are the people who then ran the test it failed.
 
 **One thing to keep hold of before the rest of this lesson.** The claim under test is about the
 *mechanism*: whether one act of control makes the next one harder. It isn't the claim that
-self-control matters. The replication's own abstract opens by granting that: "Good self-control has
-been linked to adaptive outcomes such as better health, cohesive personal relationships, success in
-the workplace and at school, and less susceptibility to crime and addictions."[1] **None of that was
-ever in question**, and it still isn't, and a reader who finishes this lesson doubting it has read
-it wrongly.
+self-control matters. The replication's own abstract opens by granting the point: good
+self-control has been linked to better health, to more cohesive personal relationships, to success
+at work and at school, and to less susceptibility to crime and addiction.[1] **That summary is this
+course's, not a quotation**, for the same reason as above. **None of that was ever in question**,
+and it still isn't, and a reader who finishes this lesson doubting it has read it wrongly.
 
 ## What happened to it
 
 Three steps, in order, and each one tightened the method.
 
 **First, somebody asked what publication bias would do to that meta-analysis.** Small studies tend
-to report larger effects, partly because small studies that find nothing are less likely to be
-published. Carter, Kofler, Forster and McCullough ran a series of meta-analyses correcting for
-exactly that.
+to report larger effects, and the usual explanation, which this course is giving you as the standard
+account rather than as something it has verified,[5] is that a small study finding nothing is less
+likely to be written up and accepted. Carter, Kofler, Forster and McCullough ran a series of
+meta-analyses correcting for exactly that.
 
 Their conclusion, in their own words, and **read the middle of the sentence**: "We find very little
 evidence that the depletion effect is a real phenomenon, at least when assessed with the methods
@@ -159,8 +167,7 @@ effect was small with 95% confidence intervals (CIs) that encompassed zero (d = 
 0.15]."[1]
 
 **And the detail that does most of the work.** The paper's own front matter records that the
-protocol was "vetted by" Chandra Sripada, Daniel Kessler and **Roy Baumeister**,[1] who originated
-the model being tested.
+protocol was vetted by **Roy Baumeister**,[1] who originated the model being tested.
 
 :::predict Before the next section. A confidence interval running from minus nought point nought seven to nought point one five, around an estimate of nought point nought four. Write down what you think that permits somebody to say, in one sentence.
 The two wrong answers are the common ones, and they're wrong in opposite directions.
@@ -190,16 +197,14 @@ The replication has a limitations section running to pages, and the authors rais
 their own study that a critic would have had to work to find.
 
 **The task may not have induced what it was meant to induce.** Their depletion task "did not include
-an initial period in which individuals familiarized themselves with the no-depletion version of the
-task used in the control group prior to engaging the depletion version", and that initial period "is
-supposed to induce a 'habitual' response that participants would need to override".[1] They then
-give the argument on the other side, that several published depletion experiments also omitted it,
-and conclude the omission "is unlikely to have been a decisive factor".
+an initial period in which individuals familiarized themselves with the no-depletion version",[1]
+and that period is supposed to induce the habitual response participants then override. **They judge
+the omission unlikely to have been decisive**, and both of those sentences are this course's
+summary of their argument rather than their words.
 
 **Or it may not have gone on long enough.** "It is possible that the letter 'e' task was
 sufficiently arduous but not of sufficient duration to deplete individuals' self-control
-resources."[1] They note evidence pointing both ways on whether duration matters, observe that their
-duration matched the study they were replicating, and leave the question open for future work.
+resources."[1] They raise it themselves and leave it open.
 
 **Notice what they're doing.** They have a striking null result, and they spend pages on the reasons
 it might be wrong. That's what a paper looks like when the people who wrote it care more about the
@@ -245,8 +250,31 @@ assembly** of figures from three papers; no single source presents them together
 published, to asking what publication had filtered out, to fixing the protocol in advance and
 running it in 23 places at once.
 
-**That is the general lesson and it is bigger than this subject.** An effect that shrinks as the
-method tightens is the signature of a literature, not of a phenomenon. You will use it again.
+**That is the general lesson and it is bigger than this subject**, and it is this course's reading
+of the three rows rather than a claim any of these three papers makes.[5] An effect that shrinks as
+the method tightens is the signature of a literature rather than of a phenomenon. You will use it
+again.
+
+## What the model's defenders say
+
+**This course read no source written by a defender of the resource model**, and that is a real
+limitation of this lesson: the 2010 meta-analysis was not opened, and everything above comes from
+papers arguing the other way. **So take the defence from the fairest place available**, which is the
+process model's own paper, whose authors say in their conclusion that they admire and have
+contributed to the evidence for the limited-resource view.[4]
+
+Their footnote records what the model's defenders propose. The resource account, they write, "has
+been stretched to accommodate such results by suggesting that initial acts of self-control only
+partially deplete the resource and that ego depletion occurs because people are unwilling to draw
+further from their reserves".[4] **That is called an energy-conservation account**, and it matters
+for reading the rest of this lesson: on that version, a person who performs badly on the second task
+has not run out, but is holding something back.
+
+**Notice what it does to the tests.** A conservation account expects performance to come back when
+there is a reason to spend, which is a different prediction from a store that is simply empty, and
+it is the version a defender will give you rather than the muscle. **A reader who takes "willpower
+is a muscle" as the only thing the resource model ever said is arguing with the popular version
+rather than with the position.**
 
 ## Four things people get wrong about this
 
@@ -274,8 +302,9 @@ Take 30 minutes. This is **Reading Well** lesson 8 applied to a paper that matte
 The replication is freely readable: search for "A Multilab Preregistered Replication of the
 Ego-Depletion Effect" and you will find a full copy posted by the University of Konstanz.
 
-Read two parts only. **The abstract**, which is one paragraph. And **the limitations**, which begin
-"A number of limitations that may affect the interpretation of the effect size".
+Read two parts only. **The abstract**, which is one paragraph. And **the limitations section**,
+which comes after the results and is where the authors set out what their own result cannot
+settle.
 
 Then answer four questions in writing.
 
@@ -322,9 +351,10 @@ claim about your habits.
 
 - **[A Multilab Preregistered Replication of the Ego-Depletion
   Effect](https://pubmed.ncbi.nlm.nih.gov/27474142/)** (*Perspectives on Psychological Science*,
-  2016). This course has read the abstract and the limitations section. A full copy is posted openly
-  by the University of Konstanz. **Read the limitations beside the abstract**, which is what the
-  first exercise asks: it is a model of how to report a result you did not want.
+  2016). This course has read the abstract and the limitations section. The publisher's page is
+  paywalled and open copies are posted by several universities, so it is worth a search by title.
+  **Read the limitations beside the abstract**, which is what the first exercise asks: it is a model
+  of how to report a result you did not want.
 - **[A Series of Meta-Analytic Tests of the Depletion
   Effect](https://psycnet.apa.org/record/2015-24266-001)** (*Journal of Experimental Psychology:
   General*, 2015). This course has read the abstract only, from a copy posted by one of its authors.
@@ -336,11 +366,12 @@ claim about your habits.
 1. M. S. Hagger, N. L. D. Chatzisarantis and 55 others, "A Multilab Preregistered Replication of the
    Ego-Depletion Effect", *Perspectives on Psychological Science* 11(4), 2016, pages 546 to 573.
    **The abstract and the limitations section were read verbatim; the rest of the paper was not.**
-   Supports: the quoted description of the resource model and the sequential-task paradigm; the
-   quoted opening sentence about outcomes; k = 23 and N = 2,141; the quoted result with its
-   confidence interval; the front matter recording that the protocol was vetted by Chandra Sripada,
-   Daniel Kessler and Roy Baumeister; and both quoted limitations with the authors' own responses to
-   them.
+   Supports: the name of the sequential-task paradigm; k = 23 and N = 2,141; the quoted result with
+   its confidence interval; the front matter recording that the protocol was vetted by Roy
+   Baumeister; the quoted fragment about the missing familiarisation period; and the quoted
+   limitation about the task's duration. **The statement of the resource model and the summary of
+   what good self-control has been linked to are this course's wording, not the paper's**, because
+   `research/SOURCES.md` does not carry those sentences verbatim, and the body says so at both.
 2. M. S. Hagger, C. Wood, C. Stiff and N. L. D. Chatzisarantis, meta-analysis of ego-depletion
    experiments, 2010. **Not opened by this course.** The figure of 198 published experiments and
    d = 0.62 with a confidence interval of 0.57 to 0.67 is taken from source 3, which quotes it.
@@ -353,9 +384,17 @@ claim about your habits.
    including its qualifier, and the 2010 figures it quotes.
 4. Michael Inzlicht and Brandon J. Schmeichel, "What Is Ego Depletion? Toward a Mechanistic Revision
    of the Resource Model of Self-Control", *Perspectives on Psychological Science* 7(5), 2012.
-   **Abstract read verbatim.** Cited here only for the existence of the process account, which
-   lesson 6 takes properly.
+   **Read in part: the abstract, the overview of the process model, the motivation section, the
+   conclusion and footnote 2.** Supports: the existence of the process account, which lesson 6 takes
+   properly; the quoted energy-conservation statement of what the resource model's defenders
+   propose, which is in this paper's footnote 2 and is attributed there to Baumeister and Vohs,
+   2007; and the conclusion's statement that these authors admire and have contributed to the
+   evidence for the limited-resource view. **The defence in this lesson is therefore taken from a
+   paper arguing against the model**, which the body says, because no source written by a defender
+   was read for this course.
 5. **The three-row table is this course's own assembly**, stated as such where it appears. No source
    read for this course presents those three estimates together, and the reading of a shrinking
    estimate as the signature of a literature is the course's own inference rather than a claim any
-   of these papers makes.
+   of these papers makes, marked inline where it appears. **The account of why small studies report
+   larger effects is also given as the standard explanation rather than as something this course has
+   verified**, and the body says so at the sentence.
