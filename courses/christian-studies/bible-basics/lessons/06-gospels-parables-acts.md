@@ -1,6 +1,7 @@
 ---
 title: Reading the Gospels, the parables, and Acts
 minutes: 140
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/christian-studies/bible-basics/06-gospels-parables-acts.mp3
 objectives:
   - Explain why there are four Gospels, and read one event across the parallel accounts without forcing them into one
   - Apply the one-point-with-a-punch rule to a parable and identify allegorising when you see it
