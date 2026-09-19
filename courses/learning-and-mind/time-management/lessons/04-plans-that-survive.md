@@ -6,8 +6,8 @@ objectives:
     Distinguish a goal intention from an implementation intention, and write one of each for the
     same goal of your own
   - >-
-    State what the if-then meta-analysis reports and what it does not establish, including the
-    condition its authors attach to the effect
+    State what the if-then meta-analysis reports and what it does not establish, and give the
+    condition its authors attach to the effect in their own statement of the idea
   - >-
     Apply the one correction to the planning fallacy with a measured effect behind it, and say
     precisely what it buys and what it leaves untouched
@@ -33,15 +33,14 @@ quiz:
     options:
       - That the technique failed, since accuracy is the only thing a forecast is for in practice
       - That accuracy and bias are measured on different scales and cannot really be compared at all here
-      - That the finding is too weak to act on, because one study cannot establish a correction
+      - That the finding is worth little on its own, since it comes from a single study of students
       - That you will be late against your own date far less often, without knowing this job better
     answer: 3
     explain: >-
       Bias is which side of the truth you land on and accuracy is how far from it you are; the drill
       moved the first and left the second, which is the same shape as the pessimism result in lesson
-      3. It failed at nothing: doubling the share who meet their own date is worth having. The two
-      are different measures and are directly comparable here, which is how the paper reports both.
-      And the finding is a measured result the lesson states with its scope, not a hunch.
+      3. It failed at nothing: doubling the share who meet their own date is worth having. The two are different measures, which is why the paper can say the share rose while the accuracy did not.
+      And a single study is a fair worry, though this one is the measured result the lesson rests on and states the scope of.
   - q: >-
       A man writes "I am going to be better about the paperwork". What is missing, in the terms this
       lesson uses?
@@ -63,11 +62,11 @@ quiz:
     options:
       - Whether the plan was written in the correct if-then form rather than as a resolution
       - Whether the effect size reported for the technique applies to somebody in her own situation
-      - Whether she actually holds the goal, since the effect is conditional on a goal she holds
+      - Whether she actually holds the goal, since the authors report a stronger effect where she does
       - Whether three weeks is long enough for a new behaviour to establish itself as a habit
     answer: 2
     explain: >-
-      The authors state that the effects are stronger where if-then planning is supported by strong
+      The authors report the effect as stronger where if-then planning is supported by strong
       activated goal intentions, so a plan attached to something she does not really want is the
       first thing to rule out. Checking the form is worth doing and is cheaper as a second step. An
       effect size describes an average across studies and cannot be applied to one person. And
@@ -78,7 +77,7 @@ quiz:
       - When I have finished loading the dishwasher in the evening, then I will write the two emails
       - When I am feeling reasonably fresh and on top of things, then I will write the two emails
       - When I get a chance at some point in the working day, then I will sit down and write the two emails
-      - When I have a spare half hour with nothing urgent, then I will write the two emails
+      - When I have a spare half hour and nothing else is urgent, then I will write the two emails
     answer: 0
     explain: >-
       A cue has to be something you will notice from the outside while tired, and a finished
@@ -105,24 +104,22 @@ quiz:
 
 Lesson 3 left you with a problem and two repairs that do not work. Padding the estimate moves the number without improving it, and it is the first thing anybody tries. Being told to remember your history moves almost nothing at all.
 
-This lesson is the third condition of that same study, which does work, and then the one planning
+This lesson is the third condition of that same study, which works in one specific way, and then the one planning
 technique in this whole subject with a meta-analysis behind it. Both come with limits that matter more than the headline, so they're in the lesson rather than in a footnote.
 
 ## The third condition
 
-The computer-assignment study had 123 students and three groups, and lesson 3 showed you two of
-them.[1]
+The computer-assignment study had 123 Canadian university students and three groups, published in 1994, and lesson 3 showed you two of them.[1]
 
 The third group did what the recall group did, describing their past experience with similar
-assignments. Then they answered two further questions, and those two questions are the entire
-intervention:
+assignments. Then they answered two further questions, and those two questions are what separates this group from the last one. **The paper describes them rather than printing them; put into the second person they are:**
 
 - **When would you finish this assignment if you completed it as far before its deadline as you
   typically do?**
 - **What is a plausible scenario, based on your past experience, that would result in you finishing
   at your typical time?**
 
-:::predict Before the table: the control group finished within their own prediction 29.3 percent of the time, and the recall group 38.1 percent. What do you expect for this third group, and, more importantly, what do you expect happened to how long the work actually took?
+:::predict Before the table: the control group finished within their own prediction 29.3 percent of the time, and the recall group 38.1 percent. What do you expect for this third group, and what do you expect happened to how long the work actually took?
 Most people expect the second number to move. It is the natural reading of a technique like this:
 confront somebody with their own history, and they start earlier.
 
@@ -138,11 +135,9 @@ almost everybody, including people who have read about this effect, gets it wron
 
 Read the middle row before the bottom one.
 
-**The work didn't speed up.** It took 7.0 days against the control group's 6.8, which if anything is a shade slower. What moved was the prediction, from 5.5 days out to 7.0, where it met what
-actually happened.
+**The work didn't speed up.** It took 7.0 days against the control group's 6.8, which if anything is a shade slower. What is different is the prediction: this group's sat at 7.0 against the control group's 5.5, which is where what actually happened was all along.
 
-The share finishing on time doubled, and it doubled because the forecast came to the work rather
-than the work coming to the forecast.
+The share finishing on time roughly doubled against the control group, and it doubled because the forecast came to the work rather than the work coming to the forecast.
 
 ### What it bought, and what it did not
 
@@ -161,7 +156,7 @@ because the first will be done by Wednesday. You tell somebody a date. You start
 o'clock believing it will be finished before the school run. A forecast that's systematically short turns into promises that are systematically broken, and the damage is done by the direction rather
 than by the size.
 
-The drill doesn't tell you how long this job will take. Nobody in this literature can do that. It
+The drill doesn't tell you how long this job will take. Nothing this course has read can do that. It
 stops your number being the one from the run that goes well, which is enough to double how often
 you are not late against yourself.
 
@@ -171,15 +166,13 @@ which is probably why people don't do this on their own.
 :::
 
 There is one more figure from that study worth carrying, because it says how hard the connecting is.
-Even inside the group made to do it, only **12.5 percent** of subjects mentioned their own past
-experiences when asked afterwards what they had been thinking about.[1] Two direct questions moved the on-time share from 29 percent to 60, and most of the people answering them still didn't report thinking about their history.
+Even inside the group made to do it, only **12.5 percent** of subjects mentioned their own past experiences when asked what they had been thinking about.[1] Adding those two questions to the recall the middle group had already done took the on-time share from 38.1 percent to 60, and most of the people answering them still did not report thinking about their history.
 
-**Remembering is not connecting**, which lesson 3 ended on, and connecting is not natural either. It has to be asked for, in writing, every single time.
+**Remembering is not connecting**, which lesson 3 stopped on, and connecting is not natural either. In the study it had to be asked for, in writing, and this course's reading is that the same is true outside it.[4]
 
 ### Worked: the drill on a real job
 
-Take a job you keep meaning to do. The worked case here is a written report, and the drill runs the
-same on a tyre change or a tax return.
+Take a job you keep meaning to do. The worked case here is a constructed written report,[4] and the drill runs the same on a tyre change or a tax return.
 
 **Step one, the ordinary estimate.** "About three evenings." Write it down first, because you want
 to see what it was.
@@ -216,11 +209,9 @@ days, not three evenings.
 
 A better estimate tells you when something will be done if you do it. It says nothing about whether you'll start.
 
-Those are genuinely separate, and the size of the second one has been measured. Gollwitzer and
-Sheeran report that goal intentions "accounted for 28% of the variance in behavior, on average,
-across 422 studies"; that a review of health behaviour found people "translated their 'good'
+Those are genuinely separate, and the size of the second one has been measured. Gollwitzer and Sheeran, writing in the chapter this course has read in full, report that goal intentions "accounted for 28% of the variance in behavior, on average, across 422 studies"; that a review of health behaviour matrices found people "translated their 'good'
 intentions into action only 53% of the time"; and that in experiments which successfully changed
-people's intentions, the resulting change in behaviour was "only small-to-medium (R² = .03)". Their
+people's intentions, the resulting change in behaviour was "only small-to-medium (R² = .03)", R² being the same variance-explained figure **How to Learn Anything** lesson 7 took apart. Their
 conclusion is printed in bold in the original: **"forming even strong goal intentions does not
 guarantee goal attainment."**[2]
 
@@ -246,25 +237,46 @@ initiate behavior Z in order to reach goal X!')."[2]
 The difference isn't that the second is more detailed or more serious. **It is that the second one
 names a situation.** The first waits for you to decide; the second is attached to something that will happen anyway.
 
-That is what the form is doing, and it is why the "when" half matters more than the "then" half,
-which is the reverse of how most people write them.
+That is what the form is doing, and in this course's reading it is why the "when" half matters more than the "then" half,[4] which is the reverse of how most people write them.
+
+### Worked: one goal, written twice
+
+**Dev is constructed.**[4] He wants to keep up with the professional reading his trade body puts
+out, and has wanted to for about a year.
+
+**As a goal intention**, which is how he has been carrying it: *I intend to keep up with the
+reading.*
+
+There's nothing wrong with that sentence. It's honest, he means it, and it's produced nothing in a year, which is the 53 percent and the 28 percent above arriving in one person's life.
+
+**As an if-then plan**, first attempt: *When I have a free evening, then I will read one article.*
+
+Now apply the cue test. **Would he notice "a free evening" while tired and in a bad mood?** No,
+because a free evening isn't an event. It is a judgement he has to make about an evening, and making that judgement is exactly the thing that fails on the evening it matters.
+
+**Second attempt**: *When I sit down on the train on Wednesday morning, then I will read one
+article.*
+
+That is an event. It happens whether or not he is thinking about the plan, he can't miss it, and it arrives at a time of day he's capable of reading. Notice what changed between the two versions:
+**nothing about the goal, nothing about his willingness, and nothing about the "then" half.** The
+whole repair was in the "when".
+
+One more thing worth saying, because it is the honest limit on the example. Dev's plan might still fail. If it does four Wednesdays running, on a cue that good, the next section is what to check.
 
 ### What the meta-analysis reports
 
-The pooled result is **d = .65, across 94 independent tests and more than 8,000 participants**.[3]
+The pooled result of their 2006 meta-analysis is **d = .65, across 94 independent tests and more than 8,000 participants**.[3]
 
 Two things about that number before anything is done with it.
 
 **What d means.** It is the gap between two groups measured in standard deviations of the outcome
 rather than in any real unit, which is what lets results on different outcomes be pooled at all. By
 the convention usually applied to it, .65 sits between the values called medium and large. So: a
-real effect, comfortably bigger than nothing, and nowhere near the transformations the genre
-promises.
+real effect, comfortably bigger than nothing, and nowhere near what the genre promises.
 
 **What this course has read.** The chapter in which the authors state the idea and the numbers above
 was read in full. **The meta-analysis itself was not opened**, and the figures in this paragraph are
-at the level of a search summary. Lesson 1 promised that this course would say where it is standing,
-and this is one of those places: treat d = .65 as what the authors report rather than as something
+at the level of a search summary. This course names the gaps in its own evidence, as lesson 1 did with the shape of its samples; this is a gap in what has been read: treat d = .65 as what the authors report rather than as something
 checked here.
 
 ### The condition attached to the effect
@@ -278,11 +290,11 @@ and when if-then planning is supported by strong activated goal intentions."[2]
 Read the second half slowly. **An if-then plan is a bridge from wanting to doing.** It does nothing whatever about whether you actually want the thing.
 
 So the technique has a shape. It helps most where you genuinely hold a goal and keep failing to act
-on it, which is a large and frustrating category. It doesn't help where you're carrying a goal you don't actually want, which is a different and larger category still, and lesson 6 is about that one.
+on it, which is a large and frustrating category. It helps least where you're carrying a goal you don't actually want, which is a different and larger category still, and lesson 6 is about that one.
 
 ### Worked: the plan that was never going to work
 
-**Marek wrote a good plan.** "When I sit down after supper on Tuesday, then I will do half an hour
+**Marek is constructed, and so are his four weeks.**[4] **He wrote a good plan.** "When I sit down after supper on Tuesday, then I will do half an hour
 of Spanish." Cue named, an event rather than a mood, a specific response attached to it.
 
 Four weeks later he has done it twice.
@@ -303,8 +315,15 @@ be supported by.
 is a legitimate result and this course is going to say so plainly rather than treating every
 abandoned intention as a failure of method.
 
-**And the diagnostic generalises.** A plan that fails in the right form, on a good cue, four weeks
-running, is evidence about the goal rather than about the plan.
+**And the diagnostic generalises**, with one branch that has to travel with it. A plan that fails in
+the right form, on a good cue, four weeks running, is evidence about the goal rather than about the
+plan.
+
+**Which doesn't always mean the goal should go.** Some goals aren't yours to drop: the paperwork,
+the errand somebody depends on, the thing your job requires. For those, "do I hold this goal" has an answer you already know without asking, and the authors' other half is the relevant one, that the effect is
+stronger where a self-regulatory problem is what stands between you and something you are going to
+have to do anyway. **Marek's answer is to cross it off. A reader whose goal is imposed has a
+different question**, which is what lesson 6 is about.
 
 ## Four things people get wrong about this
 
@@ -323,9 +342,7 @@ moment is what keeps failing. Whether it removes the deciding or merely moves it
 question about mechanism that this course has not read the evidence on, and it does not change what
 to do.
 
-**"So planning works."** That overshoots. What is reported is a medium-to-large effect on goal
-attainment for if-then plans, under a stated condition, pooled across studies of many different
-goals.[3] "Planning works" is a claim about a whole genre, and lesson 8 is about what that genre
+**"So planning works."** That overshoots. What is reported is a medium-to-large pooled effect on goal attainment for if-then plans,[3] under a condition the authors state elsewhere.[2] "Planning works" is a claim about a whole genre, and lesson 8 is about what that genre
 can and cannot show.
 
 ## Practice
@@ -343,15 +360,14 @@ Write each one twice.
 2. **As an if-then plan**, in the form "When Y happens, then I will Z". The cue has to be an event
    you will meet this week whether or not you are thinking about the plan.
 
-Then test every cue with one question: **would I notice this if I were tired and in a bad mood?**
+Then test every cue with one question. **This test is the course's own**,[4] built out of the authors' phrase "critical moments" rather than taken from them: **would I notice this if I were tired and in a bad mood?**
 Sitting down after supper passes. Feeling ready does not. Having a free moment does not. If a cue
-fails that question, rewrite it around something that happens in the world, and note what it was
-before, because the first version people write usually fails.
+fails that question, rewrite it around something that happens in the world, and note what it was before, because in this course's experience of writing them the first version usually fails.
 
 At the end of the week, count. **Out of how many times the cue occurred, how many times did the
 response happen?** A count, not an impression, and a low number is still a number. Three plans and a number.
 
-If a plan came out at nought from four occasions, do not immediately rewrite it. Ask Marek's
+If a plan came out at nought from however many occasions the cue gave you, do not immediately rewrite it. Ask Marek's
 question above first: do you hold the goal?
 :::
 
@@ -367,12 +383,14 @@ Five steps, in this order and in writing.
 4. **A plausible scenario, with events in it, that produces that date.** Two or three sentences.
    Real things: a document you will have to go and find, a reply you will have to wait for, an
    evening that will disappear.
-5. **The difference between your answer to 1 and your answer to 3**, written as a ratio.
+5. **The gap between your answer to 1 and your answer to 3**, in days. Your first answer is how
+   much work you think it is; your third is when it will actually be finished. **Those are
+   different quantities and the gap between them is the point**, because the thing that fills it is
+   not work at all. It is waiting, forgetting, and the week going on around the job.
 
-Then compare that ratio with the median ratio from lesson 3's exercise. If they are close, you have
-two independent measurements agreeing, which is more than most people have ever had about their own
-work. If they are far apart, the likely reason is that they are different kinds of task, which is
-itself worth knowing and is what lesson 7 builds on.
+That gap is a different measurement from lesson 3's ratio, which compared work against work, and
+the two are not comparable. What they have in common is that both of them are larger than you
+think, and lesson 7 builds a week that has room for both.
 :::
 
 ## Connections
