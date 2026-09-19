@@ -78,7 +78,7 @@ the same.
 
 ## Lesson sequence
 
-### 1. What a note is for (~75 min)
+### 1. What a note is for (~100 min)
 
 **Objectives.**
 - Distinguish the encoding function of a note from the external-storage function, and say which one
@@ -119,6 +119,12 @@ reopened since.
 **Sources.** 5 for the two functions and the field's summary; 3 for the no-notes group; 1, 2, 4 and
 6 for the scope table. **Connects:** builds on How to Learn Anything lessons 1 and 3 and Memory
 lesson 1; leads to lesson 2.
+
+**Why this one runs to 100 measured minutes**, against the ceiling of about 90. Fifty of them are
+the two exercises, and the first of those is the project's own first section, which cannot be done
+later and so cannot be moved out of lesson 1. The teaching itself is about 2,800 words. **The
+alternative is to split the scope table into its own lesson**, which would be a lesson with one
+table in it, so the length is the better of the two.
 
 ---
 
