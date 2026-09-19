@@ -1,16 +1,22 @@
 # Sources: Memory
 
-<!-- unread: Schacter, Loftus-trade, Foer, Ebbinghaus -->
+<!-- unread: Schacter, Loftus-trade, Foer -->
 
 *Stage 1 research, 2026-09-19. Written before any lesson is drafted. For each source: what it is good
 for and what it establishes. Where a passage is quoted below it was read in the original and checked
 character by character; where it was not, the entry says so.*
 
 **The `unread:` line is the build's enforcement.** Schacter's *The Seven Sins of Memory* and
-Loftus's own trade writing are the two books a reader will have met, Foer's *Moonwalking with
-Einstein* is what they will have been told about memory techniques, and Ebbinghaus's 1885
-*Über das Gedächtnis* is the founding text this course reports at one remove. **None was opened for
-this course**, and a lesson may name them as things that exist and must not cite one for a claim.
+Loftus's own trade writing are the two books a reader will have met, and Foer's *Moonwalking with
+Einstein* is what they will have been told about memory techniques. **None was opened for this
+course**, and a lesson may name them as things that exist and must not cite one for a claim.
+
+**Ebbinghaus is deliberately not on that line, and the reasoning is the precedent Time Management
+set with Parkinson and Habits set with Maltz.** The line exists to stop a course borrowing authority
+from a work nobody has opened. This course does the opposite with the 1885 monograph: it never cites
+it, it reports its result at one remove through a 2015 replication it did read, and lesson 2 says so
+in the body. **The name appears in the replication's own title**, which is unavoidable, and a course
+that could not print a paper's title would be enforcing a rule against itself.
 
 ---
 
