@@ -376,7 +376,7 @@ own writing about his card index; Tony Buzan on mind mapping.** **None was opene
 
 ## Common misconceptions
 
-- **"Writing by hand is better, it has been proven."** Five meta-analyses, two significant, pooled
+- **"Writing by hand is better, it has been proven."** Five meta-analyses, three significant, pooled
   effects from +0.008 to +0.250, and the largest single replication found the mechanism but not the
   outcome.
 - **"The act of writing the note is what helps."** The field's own summary says the review is where
@@ -394,11 +394,11 @@ own writing about his card index; Tony Buzan on mind mapping.** **None was opene
 ## Contested questions and the positions on each
 
 **Is handwriting better than typing for lecture notes?**
-*Yes, modestly:* Flanigan and colleagues 2024, g = +0.248 [0.181, 0.315] over 49 effect sizes, and
-Allen and colleagues 2020, g = +0.250 [0.127, 0.371]. *Not shown:* Voyer and colleagues 2022,
+*Yes, modestly:* Flanigan and colleagues 2024, g = +0.248 [0.181, 0.315] over 49 effect sizes,
+Allen and colleagues 2020, g = +0.250 [0.127, 0.371], and Lau 2022, g = +0.144 [0.023, 0.265]. *Not shown:* Voyer and colleagues 2022,
 g = +0.008 [−0.16, 0.18], and Urry and colleagues 2021, g = +0.040 [−0.13, 0.20]. *Premature to
-say:* Morehead, Dunlosky and Rawson 2019, in terms. **All five point the same direction and only
-two clear zero.** The disagreement is about inclusion, populations and whether distraction is part
+say:* Morehead, Dunlosky and Rawson 2019, in terms. **All five point the same direction and three
+clear zero.** The disagreement is about inclusion, populations and whether distraction is part
 of the question.
 
 **Does reviewing notes increase or erase the handwriting advantage?**
