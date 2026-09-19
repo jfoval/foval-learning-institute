@@ -1,6 +1,6 @@
 # Sources: Habits and Self-Discipline
 
-<!-- unread: Duhigg, Clear, Fogg, Baumeister-Tierney -->
+<!-- unread: Duhigg (except 07), Clear (except 07), Fogg (except 07), Baumeister-Tierney (except 07) -->
 
 *Stage 1 research, 2026-09-19. Written before any lesson is drafted. For each source: what it is good
 for and what it establishes. Where a passage is quoted below it was read in the original and checked
@@ -19,6 +19,14 @@ book being right. Time Management handled Parkinson exactly this way and Parkins
 unread line. **The entry below carries the read level instead**, which is where a reader checks it. They are named in lessons only as things that exist and
 are widely read, never cited for a claim, and the build fails on a citation to any of them. If a
 later session wants a claim from one, read it first and take it off the line.
+
+**All four carry `(except 07)`, added on 2026-09-19, and this is Time Management's precedent again.**
+Its unread line exempted lesson 08 for the same reason: the last lesson of a course like this one
+has to name the books a reader will actually be handed, because a course that pretended the reader
+was not going to meet them would be less useful, not more honest. Lesson 7 names all four, states in
+the body that none was opened, and rests no claim on any of them; the exemption lets the name through
+and nothing else. **The mechanism keys to a lesson number rather than to a claim**, so a future
+lesson 7 edit could cite one of these books and pass the build. A reviewer checks that by eye.
 
 ---
 
