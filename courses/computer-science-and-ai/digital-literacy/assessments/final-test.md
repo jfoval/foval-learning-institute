@@ -1,542 +1,554 @@
 ---
 title: Final test
 pass_mark: 0.8
-minutes: 50
+minutes: 70
 quiz:
   # --- What understanding does and does not predict; threat modelling (L1) ---
   - q: >-
-      In 2015 four researchers asked 28 people to draw the internet. The people who drew layered
-      pictures named about four parties who could see their data; the single-box people named about
-      two and a half. What did the same study find about what those people actually did?
+      Lesson 1 reported two results that sit awkwardly together. What is the second one, the one that
+      argues against the obvious case for a course like this?
     options:
-      - No direct relationship was found between technical background and the protective actions people took
-      - The layered group took more precautions as well, which is the straightforward case for teaching how the machinery works
-      - The layered group took fewer precautions, because understanding how much was visible made them fatalistic about it
-      - The study measured only what people perceived, so nothing about behaviour follows from it either way
+      - Technical background did not predict the protective actions people actually took
+      - People with technical training named fewer parties who could see their data, because they knew which ones did not matter in practice
+      - People with technical training were more likely to abandon a precaution once they understood how narrow its protection really was
+      - The study never asked what anybody did, so the question of behaviour was left entirely open by it
     answer: 0
     explain: >-
-      Knowing more predicted perceiving more and did not predict doing more, and the authors looked
-      for the relationship rather than failing to ask. The second option is what almost everybody
-      assumes, and it is the assumption lesson 1 exists to remove. The third invents a result the
-      study does not report. The fourth is wrong on the facts: the behaviour question was asked,
-      which is exactly what makes a null finding worth something.
+      Knowing more predicted noticing more, and it did not predict doing more. The second option
+      reverses the first result, which was that layered pictures named about four parties against
+      about two and a half. The third invents a mechanism the study does not report. The fourth is
+      wrong on the facts, and it matters that it is: the behaviour question was asked, and that is
+      what makes a null answer worth anything at all.
   - q: >-
-      A man who runs a small joinery business will not use a password manager. "Nobody is going to
-      break into an account with nine hundred pounds behind it," he says. He is neither careless nor
-      stupid. Which single belief, if it changed, would change his behaviour on its own?
+      A man runs the email account for a village cricket club. There's no money in it, no members'
+      details beyond a fixtures list, and he says, reasonably, that nobody has any use for it. Which
+      question from lesson 1 does his plan not contain, and what does adding it change?
     options:
-      - That the afternoon it takes to set one up is a larger cost than the protection it would buy him
-      - That a password manager concentrates everything behind one password, which is a worse failure than the one it prevents
-      - That attackers choose their targets, so being of no interest to anybody is itself a defence
-      - That the passwords he already uses are long enough that nobody is going to guess them
+      - How likely is it that they will try, which would show him that automated attempts are continuous rather than unlikely
+      - How much trouble am I willing to go to, which would show him that the protections worth having here are cheap
+      - What can this account be used for by somebody who doesn't care whose it is, which makes it a resource rather than a target
+      - How bad would it be if they succeeded, which would show him that a club account matters more to its members than he thinks
     answer: 2
     explain: >-
-      His reasoning is sound and his picture is wrong in one place: most credential attack chooses
-      nobody at all. A stolen list is replayed against hundreds of services at near-zero cost per
-      account, so being unimportant keeps you off a shortlist that was never drawn up. The first and
-      second options are objections he did not make. The fourth is the closest wrong answer, because
-      strength is not what the attack turns on: the attacker already has the password.
+      His answers to the five questions are all correct and all small, because every one of them asks
+      what an attacker would want from *him*. The sixth question asks what the account can be used
+      for, and a mail account that can send mail can send a great deal of spam to people who trust
+      the club's name. The first and fourth are questions his plan does contain and answers honestly.
+      The second is real and comes after the threat is named, not instead of naming it.
   # --- Paths, absolute against relative, the tree (L2) ---
   - q: >-
-      What is the difference between an absolute path and a relative path?
+      What makes an address absolute rather than relative?
     options:
-      - An absolute path names a file and a relative path names the directory that a file is sitting in
-      - An absolute path starts at the root, so it means the same thing from anywhere; a relative one starts from where you are standing
-      - An absolute path is the form the operating system works in, and a relative path is the shorthand people type instead
-      - An absolute path survives a directory above it being renamed, and a relative path is the one that breaks
-    answer: 1
-    explain: >-
-      The whole difference is the starting point, which is why an absolute path survives being
-      written down and handed to somebody else and a relative one does not. The first invents a
-      distinction that does not exist. The third is false in both halves. The fourth is the
-      attractive wrong answer, because both kinds break on a rename: an absolute path breaks when a
-      directory above the file is renamed, and a relative one breaks when the rename is above the
-      point it starts from.
-  - q: >-
-      A photographer keeps her work under `shoots`, one directory per client, with `raw` and
-      `edited` inside each. She is standing in `shoots/kelso-wedding/edited` and wants to name
-      `shoots/tarbert-farm/raw/0012.dng`. Which relative path does it?
-    options:
-      - "`./tarbert-farm/raw/0012.dng`, since the single dot means the directory she is standing in"
-      - "`shoots/tarbert-farm/raw/0012.dng`, since that is the address with the leading slash taken off"
-      - "`../tarbert-farm/raw/0012.dng`, since one `..` takes her out of the directory she is in"
-      - "`../../tarbert-farm/raw/0012.dng`, since she is two levels below the directory both branches share"
+      - It names a file rather than naming the directory the file is sitting inside
+      - It is the form the machine works in, where a relative address is a shorthand that has to be expanded before anything can use it
+      - It survives a rename of any directory above it, where a relative address is the one that breaks when a name changes
+      - It starts at the root, so it means the same thing wherever you happen to be standing
     answer: 3
     explain: >-
-      She is two levels below `shoots`, so two `..` take her back up to it before she can go down
-      the other branch. One `..` lands her in `kelso-wedding`, which has no `tarbert-farm` inside it.
-      The single dot looks inside `edited`. And the fourth-named form is a relative path too, written
-      without a leading slash, so it would work only if she were standing in whatever directory
-      contains `shoots`, which she is not.
-  - q: >-
-      The same photographer renames `shoots` to `client-work`. Which of her written-down addresses
-      still work?
+      The starting point is the whole difference, which is why you can write an absolute address down
+      and hand it to somebody else. The first invents a distinction that doesn't exist. The second is
+      false in both halves. The third has it backwards: absolute addresses are the ones that break
+      when a directory above the file is renamed, and a relative address written from inside the
+      subtree survives that rename, because `..` means the parent whatever the parent is called.
+  - q: |-
+      A translator runs `ls -R` in her `jobs` directory and gets this:
+
+      ```
+      jobs/:
+      bellweather   corrigan   dunmore
+
+      jobs/bellweather:
+      source   delivered
+
+      jobs/corrigan:
+      source   delivered   queries
+
+      jobs/dunmore:
+      source
+      ```
+
+      She is standing in `jobs/corrigan/queries` and wants to name a file called `notes.txt` inside
+      `jobs/dunmore/source`. Which relative address does it?
     options:
-      - Both kinds break, because renaming a directory changes the position of everything underneath it
-      - The relative ones all survive, because they never mentioned `shoots`, and every absolute one breaks
-      - The relative ones between two places inside the subtree survive; every absolute one that ran through `shoots` breaks
-      - Neither kind is affected, because a rename changes only a label and the files have not moved anywhere
+      - "`./dunmore/source/notes.txt`"
+      - "`../dunmore/source/notes.txt`"
+      - "`../../dunmore/source/notes.txt`"
+      - "`jobs/dunmore/source/notes.txt`"
     answer: 2
     explain: >-
-      The rename changed one directory's name and touched no file. An absolute address that spelled
-      out `shoots` now names something that is not there. A relative address from one place inside
-      the tree to another place inside the same subtree never said the word and is unharmed. The
-      second option is half right and too confident, since a relative path that climbs above the
-      renamed directory and comes back down does break. The first is wrong about what a rename does,
-      and the fourth forgets that a name is what an address is made of.
-  # --- Extensions, plain against rich text, the missing file (L3) ---
-  - q: >-
-      What does a file's extension actually determine?
+      She's two levels below `jobs`, so two `..` take her up to it before she can go back down. One
+      `..` puts her in `corrigan`, which has no `dunmore` in it. The single dot looks inside
+      `queries`. And the last one is a relative address too, written with no leading slash, so it
+      would work only from whatever directory contains `jobs`, which isn't where she is.
+  - q: |-
+      The same translator has three addresses written in a notebook:
+
+      1. `/Users/mara/jobs/corrigan/source/brief.pdf`
+      2. `../../dunmore/source/notes.txt`, written from `jobs/corrigan/queries`
+      3. `../source/glossary.txt`, written from `jobs/corrigan/queries`
+
+      She renames `jobs` to `translation-work`. Which of the three still work, standing where they
+      were written?
     options:
-      - Which program the system offers to open it with, and nothing whatever about the contents
-      - What is inside the file, because the system writes the contents in the format the name asks for
-      - Nothing at all, which is the argument for hiding extensions and letting the system decide
-      - Whether the file can be opened, because a file with no extension has nothing to open it with
+      - None of them, because renaming a directory changes the position of everything underneath it
+      - Only the first, because an absolute address is the only kind that does not depend on anything else
+      - Two and three, because neither of them ever spells out the name that changed
+      - Only the third, because it is the only one that stays inside a single directory
+    answer: 2
+    explain: >-
+      The rename touched one name and moved no file. The absolute address spells out `jobs`, so it now
+      names something that isn't there. Both relative addresses climb with `..`, which means the
+      parent whatever it's called, so neither of them ever said the word. The fourth option is the
+      near miss: address two climbs two levels and comes back down, and it survives anyway, because
+      the part it names on the way down was never renamed.
+  - q: >-
+      What does a file's extension determine?
+    options:
+      - Which program the system offers when you open it, and nothing else
+      - What the file contains, because a program writing a file has to write the format its name claims
+      - Nothing whatever, which is the reason most systems now hide extensions rather than showing them
+      - Whether the file can be opened at all, because a file with no extension gives the system nothing to work from
     answer: 0
     explain: >-
-      The extension is a claim, and the system uses it to decide which program to hand the file to.
-      It is not checked against the contents, which is what makes the claim capable of being false,
-      by accident or on purpose. The second option has the causation backwards. The third overshoots,
-      since the extension determines something real and consequential. The fourth is false: a file
-      with no extension opens perfectly well once you say what should open it.
+      The extension is a claim, and the system uses it to pick a program. Nothing checks the claim
+      against the contents, which is what lets it be false, by accident or on purpose. The second has
+      the causation backwards. The third goes too far, since the extension decides something real.
+      The fourth is simply untrue: a file with no extension opens perfectly well once you say what
+      should open it.
   - q: >-
-      Somebody cannot find a report they wrote three weeks ago. Searching for a phrase from inside
-      it returns nothing, and they are certain of the phrase. Which conclusion is justified?
+      A charity treasurer keeps the accounts in a synced folder. On her laptop the file is there and
+      opens. Signed in to the same account in a browser on the library computer, the file isn't
+      listed at all, and a search there finds nothing. Which of the five causes fits, and what is the
+      giveaway?
     options:
-      - The file has been deleted, because a content search covers everything on the machine
-      - It was renamed, which is the one cause of a missing file that defeats a search on the contents
-      - It is inside a program's own storage, which is the part of the tree that a search cannot reach
-      - Nothing is ruled out, but two causes become less likely and the two the index cannot reach become more likely
-    answer: 3
+      - It was saved to a default location she never chose, and the giveaway is that she can open it on the laptop without ever having gone looking for it
+      - It was moved or renamed at some point, and the giveaway is that one machine's copy has an address the other's does not
+      - It is in a synced directory that isn't currently synced, and the giveaway is that the two views disagree while both are working correctly
+      - It was never given a location at all, and lives only inside the spreadsheet program's unsaved state
+    answer: 2
     explain: >-
-      A failed search moves the odds and settles nothing. An ordinary document in the home directory
-      would usually be found by a content search, so a genuine failure pushes you towards the file
-      not being on this machine today or never having been saved at all. The first treats a partial
-      index as a complete one. The second is wrong, since a rename leaves the contents indexed. The
-      third states as certain the one cause whose honest answer is "sometimes", depending on whether
-      the program keeps ordinary files or one large database.
+      Two machines are showing different things, and neither is broken: the sync client on the laptop
+      hasn't sent that file up, so the server has nothing to show the library computer and nothing to
+      index. The first and second would both leave the file on the server, where a search would find
+      it. The fourth is ruled out by the file opening on the laptop, which means it exists somewhere
+      with an address.
   - q: >-
-      An attachment arrives named `statement.pdf.exe`. The recipient's machine is hiding known
-      extensions. What do they see, what does the system see, and what kind of attack is this?
+      A teacher wants a grammar checker. A colleague sends a link; the page offers
+      `grammarfix-setup.exe`, and her machine is hiding known extensions, so the download shows as
+      `grammarfix-setup`. She runs it and it works. Which two things happened, in the course's terms?
     options:
-      - They see the full name and the system sees a document, so nothing has happened until they install something
-      - They see `statement.pdf`, the system sees a program, and the attack is on the name, which is the thing no route can check for them
-      - They see `statement.pdf`, the system sees a program, and the party attacked is whoever hosted the file they were sent
-      - They see `statement.exe`, the system sees a document, and the mismatch between the two is what a scanner is for
+      - Nothing dangerous, because a program that installs and works is a program that did what it said
+      - The name hid what the system would do with the file, and the party who told her where to go was her colleague, which no route can check
+      - The name hid what the system would do with the file, and the party who failed was whoever hosted it, since the host served the file she got
+      - Her machine checked the publisher on her behalf when it ran, so the only open question is whether the colleague meant well
     answer: 1
     explain: >-
-      Hiding known extensions removes exactly the part of the name that decides what happens on a
-      double click, so the reader sees a document and the system runs a program. And this is the same
-      attack as a look-alike domain and a look-alike package name: a name is a claim made by whoever
-      chose it, and none of the three install routes can check whether the thing you were pointed at
-      is the thing you meant. The third names a party from the install chain that this attack does not
-      touch. The first and fourth each get the display or the system's reading the wrong way round.
+      Hiding known extensions takes away the part of the name that decides what happens, and the
+      fourth party in the chain, the one who told her where to look, was a colleague rather than
+      anything a store or a package manager could vet. The first is the "I'll run it and see" belief,
+      and a hostile program that failed to work would be a failed one. The third names a party that
+      may well have behaved perfectly. The fourth invents a check: running it raised no warning, and
+      an absent warning is narrow news about the file rather than news about who made it.
   # --- Working directory and navigation (L4) ---
   - q: >-
-      You are in your home directory. You run `cd Documents`, then `cd ..`, then `cd Documents`,
-      then `cd ~`. Where are you at the end, and how many times did the working directory change?
+      You're in your home directory. You run `cd projects`, then `cd ../music`, then `cd ..`. Where
+      are you, and how many times did the working directory change?
     options:
-      - In your home directory, and it changed four times, because every one of the four commands moved you
-      - In your home directory, and it changed three times, because the last command asked for where you already were
-      - In `Documents`, and it changed four times, because the last command returns you to the directory you had opened
-      - In `Documents`, and it changed three times, because the second and third commands cancel each other out
+      - Home, and it changed three times
+      - In `projects`, and it changed twice, because the third command undoes the second
+      - In `music`, and it changed three times, because the last command has nowhere above it to go
+      - Home, and it changed twice, because the second command is one move rather than two
     answer: 0
     explain: >-
-      Home to `Documents` is one, back up is two, down again is three, and `~` is the fourth, since
-      you were in `Documents` and `~` means your home directory. The three-times answer comes from
-      reading the last command as doing nothing, which it is not, because the third command had
-      already moved you somewhere else. The two options ending in `Documents` both misread `~`, which
-      means home wherever you happen to be standing.
+      Each of the three commands moved you. `cd ../music` is one command and one change, from
+      `projects` up to home and back down into `music`, and then `cd ..` takes you from `music` to
+      home. The fourth option gets the destination right by an argument that miscounts. The second
+      and third each lose track of where the middle command landed.
   - q: >-
-      You are standing in your home directory and `ls Documents` prints a list of names. You then run
-      `cd Documents` and, without leaving, type `ls Documents` again. What happens?
+      A man is standing in `~/Documents/invoices`. He runs `ls ..` and sees a list of names, none of
+      which is `invoices`. What's the most likely explanation?
     options:
-      - The same list as before, because the argument spells out the same directory both times
-      - An empty listing, because you are already inside the directory you are asking about
-      - An error saying it cannot be found, unless there happens to be a `Documents` inside `Documents`
-      - A listing of where you are now, because `ls` ignores an argument that names the current directory
+      - The listing is of the directory above him and `invoices` has been renamed since he entered it
+      - "`ls` does not list the directory you are standing in when you ask about its parent"
+      - He is not where he thinks he is, and the list he is reading belongs to somewhere else
+      - The names beginning with a dot are hidden, and `invoices` is one of them
     answer: 2
     explain: >-
-      `Documents` is a relative address, so it means "a `Documents` inside wherever I am standing",
-      and you are now inside `Documents`. The first option is the mistake this item exists to catch:
-      the same typed argument named two different places, because the standing point moved underneath
-      it. The second and fourth both assume `ls` knows what you meant, which is the assumption a
-      terminal never makes.
+      `ls ..` lists the parent, and if he really were inside `~/Documents/invoices` the parent would
+      be `Documents` and `invoices` would be in it. `pwd` settles it in one command. The first is
+      possible and far less likely, and it would also mean he can no longer be where he thinks. The
+      second invents a behaviour. The fourth is wrong because `invoices` has no leading dot.
   # --- Command grammar and error diagnosis (L5) ---
   - q: >-
-      "A reader gets back exactly this, and nothing else: `zsh: command not found: pythn3`. What
-      failed, and what is the one thing the message rules out?"
+      A reader types a command and gets back one line and nothing else, `bash: tracrt: command not
+      found`. What has failed, and what does that message rule out?
     options:
-      - The program started and could not find the file it was given, which rules out a spelling mistake in the command
-      - The program ran and stopped on an error inside itself, which rules out the file having been missing
-      - The system found the program and declined to run it, which rules out the program being absent
-      - The shell could not find a program by that name, which rules out any problem with the file being acted on
-    answer: 3
-    explain: >-
-      The name at the front is the shell speaking, which means no program ever started, so nothing
-      was ever looked for and the file is not in question. The first and second describe the other
-      two categories, both of which require the program to have been found first. The third is the
-      fourth category, a permission refusal, which says the file was found and then declined.
-  - q: >-
-      "A reader gets back: `/usr/bin/python3: can't open file '/home/ana/hello.py': [Errno 2] No such
-      file or directory`. They are certain `hello.py` exists. What is the fault, and what proves it?"
-    options:
-      - The program is not installed, which the full path at the front of the line is reporting
-      - They are standing somewhere other than where they think, proved by the address inside the quotation marks
-      - The file itself is damaged, which is what the error number at the end is there to report
-      - The file is not marked as readable, which is what the words "can't open" are reporting
+      - The program started and then could not find what it was told to work on, which rules out a spelling mistake
+      - The shell found no program of that name, which rules out any problem with what the command was pointed at
+      - The system found the program and refused to run it, which rules out the program being missing from the machine
+      - The program ran and stopped on something it did not understand, which rules out the file being in the wrong place
     answer: 1
     explain: >-
-      Python started, which the full path at the front shows, so the program is fine. The address in
-      the quotation marks is where Python actually went looking, and comparing it with `pwd` puts the
-      fault in front of you. The first misreads the strongest evidence that the program was found.
-      The third invents a meaning for an error number. The fourth is the fourth category again, which
-      reports itself differently and explicitly.
+      The name at the front is the shell speaking, which means no program ever started and nothing was
+      ever looked for. So the arguments aren't in question, and the two candidates are a typo and a
+      program that isn't installed. The first and fourth both describe failures that require the
+      program to have been found. The third is the fourth category, a refusal, which announces itself
+      quite differently.
   - q: >-
-      A traceback ends with `NameError: name 'prnt' is not defined` and has three lines above it
-      naming a file, a line number and a piece of text. A colleague says to read the last line and
-      ignore the rest. What does that cost?
+      A reader is standing in `/Users/mira/2026` and runs a script she wrote. She gets
+      `/usr/bin/python3: can't open file '/Users/mira/2026/receipts.py': [Errno 2] No such file or
+      directory`. She is certain `receipts.py` exists. What does the message establish?
     options:
-      - The file and the line number, which are the only parts saying where to go and which copy ran
-      - Nothing at all, since the last line is the only part of a traceback that names the mistake
-      - The category of the fault, which is what the lines above the last one are carrying
-      - The chance to find out whether the program was ever found, which the last line does not report
+      - That the file is damaged, which is what the error number at the end reports
+      - That Python is not installed at that address, which is why it could not start
+      - That she is not allowed to read the file, which is what "can't open" means here
+      - That Python started, looked in the directory she is standing in, and the file is somewhere else
+    answer: 3
+    explain: >-
+      The full path at the front shows Python was found and started, and the address in the quotation
+      marks is exactly where it looked, which is where she's standing. So the file exists somewhere
+      that isn't here. The first invents a meaning for an error number. The second reads the evidence
+      that the program was found as evidence that it wasn't. The third is the fourth category again,
+      which reports itself as a refusal rather than as a failure to find.
+  - q: >-
+      A reader's script stops with four lines. The last reads `ZeroDivisionError: division by zero`.
+      The three above it name a file, a line number, and the text of that line. Which line does she
+      need, and what is the general shape of the rule?
+    options:
+      - All four, because the category is on the last line and the position is on the ones above it
+      - Only the last, because it is the one that names what actually went wrong
+      - Only the ones above, because the last line repeats what the third already showed her
+      - Only the file name, because the same script may exist in more than one place
     answer: 0
     explain: >-
-      The last line gives the category and the upper lines give the location, including the file by
-      its full address, which is how you find out which of two copies just ran. The second is the
-      habit this item is about. The third has it backwards. The fourth is wrong because a traceback
-      exists only when the program was found, read and run, so that question is already settled.
+      The last line is the category and the upper lines are the location, and she wants both: what
+      kind of fault, and which line of which file to open. The second is the habit this item is
+      about. The third discards the name of the fault. The fourth is a true and useful observation,
+      about which copy just ran, offered as though it were the whole answer.
   # --- Streams, pipes, permission (L6) ---
   - q: >-
-      A directory holds forty files. `grep -li deposit *.txt` prints the names of the text files
-      containing the word. What does `grep -li deposit *.txt | wc -l` produce, and what is written
-      to disk?
+      A directory holds twelve files ending `.csv` and nothing else. What does `ls *.csv | head -3 |
+      wc -l` print, and what lands on disk?
     options:
-      - The names and then a count, plus a temporary file holding the names while they are handed over
-      - Nothing on the screen, and a file holding the count, because the count is what the pipe collected
-      - A single number, the count of matching files, and nothing whatever is written to disk
-      - A single number, the count of lines containing the word across all forty files, and nothing is written
-    answer: 2
-    explain: >-
-      The pipe hands `grep`'s output straight to `wc` as it is produced, so the names never reach the
-      screen and never become a file. And `-l` on `grep` makes it print one line per matching file
-      rather than one per matching line, so the number counts files. The first invents a temporary
-      file, and only `>` and `>>` write. The fourth is the plausible miscount, and it is what you
-      would get without `grep`'s `-l`. The second describes a redirect rather than a pipe.
-  - q: >-
-      A learner saves three working lines into `count.sh` with a text editor on a Mac, types
-      `./count.sh`, and gets `permission denied`. What has happened, and what does the message rule
-      out?
-    options:
-      - The shell could not find `count.sh`, which is the reason the dot and the slash are needed at all
-      - The script has an error inside it, and the shell is reporting that as a refusal to carry on
-      - The account does not have the right to run programs, which is a setting on the machine rather than the file
-      - The file was found and is not marked as runnable, which rules out both a missing program and a missing file
+      - Twelve, and nothing is written to disk
+      - Three, plus a file holding the three names that were passed along
+      - Nothing on screen, and a file holding the number
+      - Three, and nothing is written to disk
     answer: 3
     explain: >-
-      This is a fourth category, distinct from the three in lesson 5: the file was located and the
-      system declined to run it, because a text editor makes documents and a document is not marked
-      executable. The first describes what happens without the `./`, which is a different message
-      entirely. The second would require the script to have started. The third is the misreading
-      worth naming, since this is about one file rather than about one person. Note that inside Git
-      Bash on Windows the same script may run straight away, because a file whose contents begin with
-      `#!` counts as executable there.
+      `ls` produces twelve lines, `head -3` passes on the first three and drops the rest, and `wc -l`
+      counts what reaches it, which is three. The first forgets that a stage in the middle can throw
+      work away. The second adds a temporary file that nothing in the line asks for: only `>` and
+      `>>` write anything. The third describes a redirect, and there isn't one here.
+  - q: >-
+      A man copies a colleague's working script onto his own Mac from a memory stick, types
+      `./tidy.sh`, and gets `zsh: permission denied: ./tidy.sh`. What has happened?
+    options:
+      - The memory stick was formatted for another system, so the file arrived unreadable and the shell is reporting that it cannot make sense of the contents
+      - The shell could not find the script, and the dot and slash are what would fix that
+      - The file was found and is not marked as runnable, which is a fourth kind of failure and has nothing to do with him
+      - His account is not permitted to run programs he did not install, which is a setting on the machine
+    answer: 2
+    explain: >-
+      The file was located and the system declined to run it, which is neither of the two failures in
+      lesson 5 and is why the execute bit is worth knowing about. Copying commonly loses it. The
+      first is ruled out by the shell being able to name the file back to him. The second describes
+      what happens without the dot and slash, which is a different message. The fourth reads a
+      statement about one file as a statement about one person.
   # --- Name to page, and where a failure sits (L7) ---
   - q: >-
-      Put the first two steps between typing an address and seeing a page in the right relation to
-      each other.
+      What is the relation between the name lookup and the connection?
     options:
-      - The connection opens first, and the name is translated into an address along the way by the machines carrying it
-      - The name is translated into an address in a round trip of its own, which finishes before the connection opens
-      - The name and the connection are one step, because the address is simply what the name turns out to be
-      - The connection opens to the name itself, and the translation is done at the far end by the service
+      - They are one step, because the address is what the name turns out to mean
+      - The lookup is a round trip of its own and finishes before the connection opens
+      - The connection opens first and the name is translated along the way by the machines carrying it
+      - The connection is opened to the name, and the far end does the translating when it arrives
     answer: 1
     explain: >-
-      The lookup is a separate round trip that completes and then drops out, and nothing below it is
-      guided by the name server. That ordering is what makes the lookup a party of its own, and it is
-      why encryption on the connection does not cover it. The other three each fold the two steps
-      together in a different way, and each one loses the party that knows which names you asked for.
+      The lookup completes and then drops out, and nothing below it is guided by the name server.
+      That is what makes whoever answers your names a party in their own right, and it is why
+      encryption on the connection leaves the lookup untouched. The other three each fold the two
+      steps together, and every one of them loses that party.
   - q: >-
-      A site will not load on somebody's laptop and loads on their phone over mobile data. On the
-      laptop, a name lookup returns an address, and a route trace gets an answer from the first hop
-      and then asterisks to the limit. What have they established?
+      A woman's smart television can't reach a streaming service. Her laptop, on the same home
+      Wi-Fi, reaches it in a second. What has the comparison ruled out, and where does it point?
     options:
-      - That the site is down, because the trace could not reach the far end of the path
-      - That their laptop's networking has failed, because a trace that stops has nowhere left to go
-      - That the name resolved and their own router is reachable, and the asterisks establish nothing further
-      - That the fault sits at their internet provider, because that is where the trace stopped answering
-    answer: 2
+      - It rules out her provider and points at the service having blocked the television's account
+      - It rules out the router and points at the name lookup, which the two devices do separately
+      - It rules out her whole home network and points at the cable between the router and the television
+      - It rules out the router, the provider, the route and the service, and points at the television itself
+    answer: 3
     explain: >-
-      Two rungs are confirmed and the asterisks are not evidence, because plenty of machines are
-      configured not to announce themselves, which is why an ordinary trace to a working site is full
-      of them. The first is contradicted by the phone. The second is contradicted by hop one
-      answering. The fourth is the tempting overread, and the trace cannot support it because a silent
-      hop and a broken hop look identical.
+      Both devices share the router, the provider and the path, and both are asking for the same
+      service, so everything they have in common is working. What they don't share is the device and
+      its software, which is where the fault has to be. The first and third keep looking at parts the
+      laptop has just proved are fine. The second names a real difference between devices and then
+      stops one step short of the conclusion.
   - q: >-
-      Somebody reports that a command "does not work" and that a website "does not work", and asks
-      why the same two words cover both. What do the two diagnoses actually have in common?
+      A man says a command "doesn't work" and that a website "doesn't work", and cannot see why
+      anybody would want more detail than that. What is the single habit that answers both?
     options:
-      - In both, the visible symptom is reported by the only layer that can see it, so you walk the steps and ask at each one whether it succeeded
-      - Both are cleared by restarting, because a restart is what clears the stale state behind either of them
-      - Both are usually caused by whatever sits furthest from the person typing, so the far end is where to start
-      - Neither can be diagnosed without knowing what the layer below was doing at the time
+      - Name the steps, then ask at each one whether it succeeded, because each layer reports only what it can see
+      - Start at the far end, since the part furthest from you is the part you have least control over
+      - Restart the machine, since a stale state is the commonest cause of both
+      - Compare with a second machine, which is the only way to get evidence about anything on a network
     answer: 0
     explain: >-
-      A shell reports that it could not find a program, because that is all it can see, and a browser
-      reports that nothing came back, for the same reason. In both cases the habit is the same: name
-      the steps and ask at each one whether it worked, which is why lesson 5's three error categories
-      and lesson 7's ladder are the same skill on different subjects. The second is folklore. The
-      third reverses the useful order and is usually wrong. The fourth is false, since the point of
-      walking the steps is that each one can be asked about on its own.
+      A shell says it could not find a program because that is all it can see, and a browser says
+      nothing came back for the same reason. In both cases the symptom is reported by the only layer
+      in a position to report it, so you walk the steps. The second reverses a useful order. The
+      third is folklore. The fourth names a genuinely good technique and overstates it into the only
+      one.
   # --- What HTTPS, a VPN and a private window each hide (L8) ---
   - q: >-
-      A woman shares a laptop with two flatmates and does not want them to see which sites she
-      visited. Which tool addresses that, and what does it leave untouched?
+      A freelancer is working on a client's office Wi-Fi and would rather the client's IT department
+      couldn't see that she's been reading job adverts. Which tool fits, and what exactly has she
+      changed?
     options:
-      - A VPN, which takes the destinations away from anybody watching and leaves the browser's own history alone
-      - HTTPS, which encrypts the connection and leaves the flatmates able to see the domain but not the page
-      - None of the three, because anything done on a shared machine is visible to anyone else who uses it
-      - A private window, which keeps that session off the machine and leaves the site, her provider and the network untouched
+      - A private window, because the adverts then leave no trace of having been read
+      - HTTPS, because an encrypted connection leaves the office with no way to tell where she went
+      - None of them, because a network you do not run can see everything that crosses it
+      - A VPN, which takes the destinations away from the office network and gives them to the VPN company
     answer: 3
     explain: >-
-      This is the one worry a private window genuinely answers, because the worry is about her own
-      disk and so is the tool. The VPN option gets the tool wrong, since a VPN changes who sees the
-      destination on the way out and writes history to the laptop exactly as before. The HTTPS option
-      confuses encryption in transit with what is stored locally. The fourth-named refusal is too
-      quick, and it throws away the honest, narrow use the tool has.
+      This is the case a consumer VPN is genuinely for, and the honest description is a swap: the
+      office sees one encrypted connection to a company she picked, and that company sees what the
+      office used to. The first is about her own disk and the office network never looked there.
+      The second is wrong in its second half, since HTTPS hides what she read and not which domain
+      she reached. The third throws away the fact that choosing who sees is worth something.
   - q: >-
-      A man on a hotel's wireless network does not know who runs it and does not want them to see
-      which sites he reaches. Which tool addresses that, and what has he actually changed?
+      A man is buying a present on the family tablet and doesn't want the shop turning up in the
+      address bar's suggestions when his wife uses it tomorrow. Which tool fits, and what does it
+      leave alone?
     options:
-      - A private window, since the hotel cannot see a session that the browser is not recording anywhere
-      - A VPN, which takes the destinations away from the hotel and hands them to the VPN company instead
-      - HTTPS on its own, since an encrypted connection leaves the hotel with nothing at all about where he went
-      - None of the three, since a network you do not control can see everything that crosses it
+      - HTTPS, which keeps the page contents off the device, leaving only the address behind
+      - A private window, which keeps the session off the tablet and leaves the shop, the provider and the network untouched
+      - A VPN, which hides where he went from everybody on the way out, and leaves the tablet's own record of where he went exactly as it was
+      - None of them, because anything done on a shared device is available to anyone else who uses it
     answer: 1
     explain: >-
-      This is the use a consumer VPN is genuinely for, and the honest statement of it is a swap rather
-      than a removal: the hotel now sees one encrypted connection to a company he chose, and that
-      company sees what the hotel used to. The private window option confuses a statement about his
-      disk with a statement about the network. The HTTPS option is wrong in its last clause, since
-      HTTPS hides what he read and not which domain he reached. The refusal ignores that choosing who
-      sees is itself worth something.
+      This is the narrow, honest use of a private window: the worry is about what's left on a shared
+      machine, and so is the tool. The first misdescribes what HTTPS does, which is about the
+      connection rather than about storage. The third gets the tool wrong and then correctly says it
+      leaves the tablet's record alone, which is why it fails. The fourth is too quick, and it
+      discards the one thing that does work here.
   - q: >-
-      A reader follows a link to a page that is a perfect copy of her bank, with a valid certificate
-      and a closed padlock, and types her password. Which of the three tools would have prevented
-      this, and what did the padlock certify?
+      A woman pays a bill on a café's Wi-Fi and worries the café's owner can read her card details as
+      they go past. What's already true, and what would each of the three tools add?
     options:
-      - HTTPS would have, and the padlock certified that the domain in the bar belongs to the bank
-      - A VPN would have, and the padlock certified that the certificate was issued to a real company
-      - None of them, and the padlock certified only that the connection to that domain was encrypted
-      - A private window would have, and the padlock certified that nothing had been stored on her machine
-    answer: 2
+      - The owner can read them, and only a VPN closes it, because it is the only tool that encrypts anything
+      - The owner cannot read them, because HTTPS is already doing that job, and none of the three adds anything to this particular worry
+      - The owner can read them unless she uses a private window, which is the tool that stops a network on the way keeping a copy of what crossed it
+      - The owner cannot read them, because a café network carries traffic without ever being able to inspect it
+    answer: 1
     explain: >-
-      All three tools worked exactly as designed and none of them touches this. HTTPS delivered the
-      password to the attacker in excellent confidentiality, a private window would have declined to
-      keep the attacker's cookie, and a VPN would have changed the address the attacker saw it arrive
-      from. What catches it is reading the domain leftwards from the first single slash. The other
-      three each attribute to the padlock a claim about identity or safety it has never made.
+      HTTPS encrypts the contents between her and the site, and that has been true in every column of
+      the table all along, which is why "what you read" never changes between an ordinary window, a
+      private one and a tunnel. A VPN would hide which site she went to from the café, which is a
+      different worry and not this one. The first and third both hand this job to a tool that doesn't
+      do it. The fourth reaches the right answer by a false reason: a network certainly can inspect
+      what crosses it, and encryption is why there's nothing to read.
   # --- The chain of trust in an install (L9) ---
   - q: >-
-      Name the four parties you trust when you install a program.
+      Which set names the four parties you trust when you install a program?
     options:
-      - Whoever wrote it, whoever built it into what you downloaded, whoever hosts it, and whoever told you where to find it
-      - Whoever wrote it, whoever sold it to you, whoever certified it as safe, and whoever supports it afterwards
-      - Whoever wrote it, whoever signed the build, whoever scanned it for malware, and whoever reviewed it for the store
-      - The developer, the operating system, the antivirus product, and the network the file came over
-    answer: 0
+      - Who wrote it, who sold it, who certified it as safe, and who provides support afterwards
+      - Who wrote it, who signed the build, who scanned it for malware, and who reviewed it for the store
+      - The developer, the operating system it runs on, the antivirus product, and the network it arrived over
+      - Who wrote it, who built it, who hosts it, and who told you where to find it
+    answer: 3
     explain: >-
-      Four separate people who fail in four different ways, and the fourth is the one almost nobody
-      lists and the one no route can check, because no route knows what you meant. The other three
-      each replace that fourth party with a checking party, which is the mistake the frame exists to
-      prevent: every one of those checks runs downstream of how you came to be on that download page,
-      and runs correctly on the wrong software.
+      Four people, four different ways of failing, and the fourth is the one almost nobody writes down
+      and the one no route can check, because no route knows what you meant to install. The other
+      three each swap that fourth party for a checking party, which is the exact mistake the frame
+      exists to prevent: every check below it runs correctly on the wrong software.
   - q: >-
-      An installer is signed and the machine raises no warning. Which of the four parties does that
-      cover, and what is the next question worth asking?
+      A nurse installs a PDF tool from her hospital's own software centre, which builds and signs
+      what it distributes. Which of the four parties is she still trusting without any check having
+      been made for her?
     options:
-      - All four of them, since a signature is the mechanism the whole chain was built around
-      - The host, and part of the builder, and the next question is whose key it actually is
-      - The author alone, since the signing key is something only the author of the code can hold
-      - None of them, since a signature is a claim and a claim cannot establish anything by itself
-    answer: 1
+      - Whoever hosts it, since a hospital's internal server is no better run than anybody else's
+      - Whoever told her where to find it, since her employer chose this tool rather than her
+      - Whoever built it, since a signature says only that a key was used and not that the build was watched
+      - Whoever wrote the code, since nothing in the arrangement is an audit of what the program does
+    answer: 3
     explain: >-
-      A signature says this build came from the holder of that key, which means nobody altered it in
-      transit and the server did not swap it. It says nothing about whether the code is hostile, and
-      nothing about how you came to be on that page. So the useful next question is whose key it is:
-      the project you meant, or a company you have never heard of. The first is the belief this
-      section exists to remove. The third is false, since a builder or a distributor commonly signs.
-      The fourth throws away a real and checkable guarantee.
+      This is the party the strongest route still cannot cover. The hospital hosts the file and built
+      and signed it, which covers two parties properly, and it chose the tool, which covers the
+      fourth in the only sense that matters, since she didn't arrive by way of a search result. What
+      nobody did is read the code. The first and second name parties the arrangement genuinely does
+      cover. The third is a true sentence about signatures in general, and not about this one.
   # --- Password guidance and the ladder (L10) ---
   - q: >-
-      The United States guidance on passwords was revised in August 2025. What does its password
-      section require of a service, and where does that section live?
+      Where does the current United States password guidance live, and what does it require?
     options:
-      - "NIST SP 800-63B-4, section 5.1.1.2: at least eight characters, mixed character types, and a change every ninety days"
-      - "NIST SP 800-63B-4, section 3.1.1.2: at least fifteen characters for a single-factor password, no composition rules, and no periodic expiry"
-      - "NIST SP 800-63B-4, section 3.1.1.2: at least eight characters for any password, with composition rules left to each service to decide"
-      - "NIST SP 800-63B-4, section 3.1.3.3: at least fifteen characters, with a change required whenever there is evidence of compromise"
-    answer: 1
-    explain: >-
-      Revision 4 renumbered the section from 5.1.1.2 to 3.1.1.2 and raised the floor, and it forbids
-      composition rules and periodic expiry outright while requiring a change on evidence of
-      compromise. The first quotes the previous revision at its old number. The third keeps eight,
-      which now applies only to a password used inside multi-factor authentication. The fourth names
-      the section on out-of-band authentication over the telephone network, which is where SMS is
-      designated restricted.
-  - q: >-
-      Two people have the same twenty accounts. One uses a long unique generated password on every
-      account and has no second factor anywhere. The other reuses one password everywhere and has an
-      authenticator app on all twenty. Who is in better shape against the attack that actually
-      reaches ordinary people?
-    options:
-      - The first, because a breach at any one service then tells the attacker nothing about any other
-      - The second, because a second factor means a stolen password is not enough on its own
-      - Neither of them, since twenty accounts is more than anybody can defend properly either way
-      - The second, because a code from an app cannot be relayed to the real site by a fake page
+      - "SP 800-63B-4, section 3.1.1.2: fifteen characters as a single factor, no composition rules, no periodic expiry"
+      - "SP 800-63B-4, section 5.1.1.2: eight characters, a mixture of character types, and a change every ninety days"
+      - "SP 800-63B-4, section 3.1.3.3: fifteen characters, with a forced change whenever there is evidence of compromise"
+      - "SP 800-63B-4, section 3.1.1.2: eight characters for any password, with each service free to set its own composition rules"
     answer: 0
     explain: >-
-      The attack that runs against everybody is a stolen list replayed across hundreds of services,
-      and unique passwords turn one company's breach into one company's problem. The second option is
-      a true sentence answering a different question: that person has also guaranteed their one
-      password is in a breach list by now, so every account rests on the second factor alone. The
-      third is a counsel of despair. The fourth is false, since an app code can be relayed in real
-      time, which is why it sits below the top rung.
+      Revision 4 renumbered the password section from 5.1.1.2 to 3.1.1.2 and raised the single-factor
+      floor to fifteen. The second keeps the old number and attaches rules to it that the previous
+      revision had already dropped: composition requirements and periodic expiry were advised against
+      in 2017, so that option is folklore rather than an older standard. The third names the section
+      on authentication over the telephone network, where SMS is designated restricted. The fourth
+      keeps eight, which now applies only inside multi-factor authentication.
   - q: >-
-      A man has a passkey on his bank and nothing else configured. His bank's recovery flow sends a
-      code to the email address he opened in 2011, which has a reused password and no second factor.
-      Where is the account's real security level?
+      A man finds out that a gym he left in 2019 was breached, and that the password he used there is
+      the one he still uses for his email. He changes the gym password. What has he achieved, and
+      what has he not?
     options:
-      - At the passkey, because that is the strongest thing standing between an attacker and the account
-      - Somewhere between the two, because an attacker would have to work through both of the routes
-      - At the email account, because an account is exactly as strong as the weakest way into it
-      - At the bank's own fraud monitoring, because that is what would actually stop a transfer leaving
+      - Nothing useful either way, since he left the gym in 2019 and the account behind that password has not mattered to him for years
+      - He has closed the account that was breached, and left open every other account where that password was used, including the one that recovers the rest
+      - He has closed the breached account and made the email safe as well, since the attacker would have to work out that the two were connected
+      - He has closed the breached account, and the remaining risk is that the gym is breached a second time
+    answer: 1
+    explain: >-
+      The attack doesn't guess: it takes the pair and tries it everywhere, and no attacker has to work
+      out that two accounts are connected when a program can simply try. So the account that needs
+      changing most is the email, which is also the route back into everything else. The first
+      dismisses the only account that still matters. The third assumes an attacker who thinks rather
+      than one who runs a list. The fourth worries about the one place the password no longer works.
+  - q: >-
+      A woman has an authenticator app on her council tax account. The same account's "forgotten your
+      password" page asks for her mother's maiden name and the street she grew up on. Where does the
+      account's real level sit?
+    options:
+      - At the authenticator app, which is the strongest thing an attacker would have to get past
+      - Between the two, since an attacker cannot know in advance which route is open to them
+      - At the recovery questions, because an account is as strong as the weakest way into it
+      - At the council's own fraud checks, which are what would catch a fraudulent change of address
     answer: 2
     explain: >-
-      The passkey is doing nothing an attacker needs to defeat, because there is a route that does not
-      pass through it, and that route is a second front door with weaker locks. The first is how people
-      measure their own security, by looking at the strongest thing they have. The second treats two
-      alternative routes as though both were required. The fourth changes the subject to somebody
-      else's control, which is worth having and is not what was asked.
+      The app is defending a door that an attacker need not use, and the answers to both questions are
+      facts about her rather than secrets, available to anybody who knows where she grew up, which
+      often includes somebody she has deliberately stopped trusting. The first is how people measure
+      their own security, by the strongest thing they have. The second treats two alternative routes
+      as though both had to be forced. The fourth moves the subject to somebody else's controls.
   # --- The structure of a con, and recovery (L11) ---
   - q: >-
-      A message arrives with perfect spelling, the real company's logo, the reader's actual name, and
-      a link to a domain with a valid certificate and a closed padlock. A delivery fee is owed and the
-      parcel returns to sender in 24 hours. What is the verdict, and on what?
+      A text arrives about an unpaid road toll of £2.99, with a link, and says the charge doubles
+      after midnight. The spelling is perfect, the agency's logo is right, it uses the reader's name,
+      and the link's certificate is valid. What is the verdict, and on what?
     options:
-      - Probably genuine, because every signal people are told to check has come back clean
-      - All three structural parts are present, and the verdict does not rest on any of the tells, which are cheap to fix
-      - Unknown, because with the usual tells all clean there is nothing left on which to form a judgement
-      - A con, because a padlock on a message from a delivery company is itself the thing to be suspicious of
+      - Unknown, because with all the usual signals clean there is nothing left on which to judge it
+      - All three parts are there, and none of the clean signals entered the reasoning, because every one of them is cheap for a sender to fix
+      - Probably genuine, because a sender who has gone to the trouble of getting the spelling, the logo, the name and the certificate right is usually the real one
+      - A con, because a real agency would not put a deadline on a sum as small as this one
     answer: 1
     explain: >-
-      Contact you did not initiate, pressure with a deadline, and an action that is hard to reverse,
-      because a card payment takes the money and the details. None of the tells entered the reasoning,
-      which is the point: they are decoration an attacker can correct, and the structure is what the
-      con is. The first treats clean signals as evidence of honesty. The third gives up too early. The
-      fourth turns lesson 8 into a new piece of folklore.
+      Contact she didn't start, a deadline, and a payment, which takes both the money and the card
+      details. The tells never came into it, which is the point of reading structure instead: they're
+      decoration, and the structure is what the con actually is. The first gives up at exactly the
+      moment the method starts working. The third treats effort as evidence of honesty. The fourth
+      replaces one piece of folklore with another.
   - q: >-
-      A woman gets a text from her child's school about a trip closing at five, with a link to pay a
-      deposit. The school really does send these, and all three structural parts are present. What
-      does she do, and what makes the answer work whatever the message turns out to be?
+      A bookkeeper is part-way through an email thread she started with a supplier the firm has used
+      for years. A reply arrives in that thread, from the right address, attaching the invoice she
+      asked for, with new bank details and no deadline of any kind. How does the three-part reading
+      go, and what follows?
     options:
-      - Study the message closely for tells, since a school is a plausible sender and the details will decide it
-      - Ignore it, since a message with all three parts present has told her what it is
-      - Reply to the message and ask the school to confirm that it really did send it
-      - Do the thing by a route she already had, so that she never has to decide whether the message was real
-    answer: 3
+      - Three parts present, so the structure has given her the verdict and she should not pay
+      - Part one fails and there is no pressure either, so the structure gives her nothing, and she confirms the bank details by a route she already had
+      - No parts are present, so the reading has cleared the message and she can pay the invoice to the new details as asked
+      - Part three alone is present, which is not enough to act on, so she pays and watches the account
+    answer: 1
     explain: >-
-      If it was genuine she pays the same deposit a minute later through the school's own app or
-      website, and if it was not she finds out by the absence of any such trip. The judgement is
-      replaced by a procedure, which works the same whether she is sharp or tired. The first is the
-      judgement the attacker is paying to defeat. The second would flag genuine messages constantly,
-      which is how a rule gets abandoned inside a fortnight. The third asks the sender to vouch for
-      itself.
+      This is the case the three-part reading is built to miss, and lesson 11 names it: she started
+      the contact, and an invoice she was expecting needs no pressure at all. So the frame is silent,
+      and the move still covers it, because ringing the supplier on the number she already had costs
+      a minute whether the invoice is real or not. The first misreads the frame. The third and fourth
+      both take the frame's silence as permission, which is the thing to avoid.
   - q: >-
-      Somebody has typed their password into a fake page and realises a minute later. Why does
-      changing the password come before signing out of every session, when signing out is what
-      removes the attacker?
+      A man gave his password to a convincing page. He changed it within the minute, signed out of
+      every session, and checked that the recovery address was still his. A week later his accountant
+      is still receiving copies of his mail. What did he miss, and why does it survive what he did?
     options:
-      - Because changing it shuts the way back in, so that signing out afterwards leaves nothing to return with
-      - It does not, and signing out first is correct, because that is the step which removes the attacker now
-      - Because a password change ends every open session by itself, which makes the second step unnecessary
-      - Because an attacker cannot do anything until the next sign-in, so open sessions are not the urgent part
+      - A forwarding rule in his mail settings, which keeps working however often the password changes
+      - A second factor enrolled by somebody else, which is why the sessions came back
+      - Nothing; a copy already taken cannot be recalled and the week's mail was taken before he acted
+      - The recovery phone number, which he did not check and which is the usual way a break is made permanent
     answer: 0
     explain: >-
-      Close the entrance before you clear the room. Sign out first and the attacker, who still has the
-      password, simply signs back in, and you have spent your one clean minute on something they undid
-      for nothing. The third is why step two exists at all, since a password change does not reliably
-      end sessions already open. The fourth is false and dangerous, because a session already open is
-      the attacker working now.
+      A rule that quietly forwards everything is a setting rather than a session, so it outlives every
+      password change, and it's the quiet step almost nobody knows to check. The second and fourth are
+      both real steps in the procedure and neither would produce this symptom: an enrolled factor
+      affects signing in, and the recovery number would show up as an attempt to take the account
+      rather than as a steady copy. The third is the belief that makes people stop looking.
   # --- What makes a copy a backup (L12) ---
   - q: >-
-      State the property that makes a copy a backup.
+      What makes a copy a backup?
     options:
-      - It is held by a different company from the one holding the original, so that one failure cannot take both
-      - It is encrypted and kept offline, which is what the official ransomware guidance asks for
-      - A mistake on the original cannot reach it, and the only way to know you have one is to restore from it
-      - There are at least three of it, on at least two kinds of storage, with one of them somewhere else
-    answer: 2
-    explain: >-
-      Both halves of that sentence do work, and everything else is a consequence rather than a rule.
-      The fourth option is the familiar numbered mnemonic, and it is a packaging of the property: hold
-      the property and you can derive the numbers, hold only the numbers and you cannot say which of
-      your copies counts. The first and second each name one way of achieving the property and mistake
-      it for the property itself.
-  - q: >-
-      A man keeps his accounts in a folder that syncs to a laptop, a desktop and a phone, all on one
-      account. His provider keeps 30 days of versions. He last opened the 2023 subfolder fourteen
-      months ago. What is his actual position on those 2023 files?
-    options:
-      - Three copies and a version history behind them, which is more protection than most people have
-      - Two backups and a working copy, since a phone is a different kind of device from the two computers
-      - Protected, because version history will restore anything inside the plan's window as soon as he notices
-      - One copy in three places, and the version window closed long ago on anything that went wrong, so his exposure is total
+      - It is held by a company other than the one holding the original
+      - There are three of it, on two kinds of storage, with one of them held somewhere other than the building you are in
+      - It is encrypted and disconnected, which is what the official guidance on ransomware asks organisations to maintain
+      - A mistake on the original cannot reach it, and you have restored from it
     answer: 3
     explain: >-
-      One mistake on the account reaches all three devices, so the count is a count and not a property.
-      And a 30-day window only helps with damage noticed inside it: a file nobody has opened for
-      fourteen months can pass through the whole window quietly and come out with the good version
-      gone. The first and second both mistake the count for the property. The third is the quiet limit
-      the lesson exists to name.
+      Both halves of that do work, and every other rule is a consequence of it rather than a
+      substitute for it. The second is a numbered rule this course doesn't teach, and the reason is
+      that it packages the property: hold the property and you can work the numbers out, hold the
+      numbers and you still can't say which of your copies counts. The first and third each name one
+      way of getting the property and mistake it for the property.
+  - q: >-
+      A photographer keeps her archive on an external drive that stays plugged into her desktop, and
+      a second copy on a network drive in the same room that the desktop writes to nightly. She has
+      never restored from either. What has she got?
+    options:
+      - Two backups, since the copies sit on two separate devices, bought at different times, that will not fail on the same day as each other
+      - One backup and one working copy, the network drive being the backup because it is written to on a schedule
+      - Nothing that meets the definition, since anything the desktop can write to is something a mistake on the desktop can reach
+      - Two backups and one untested restore, which is a reporting problem rather than a problem with the copies
+    answer: 2
+    explain: >-
+      Both copies are reachable from the machine, so a deletion, a bad save or a program damaging
+      files can travel to both, and neither has ever been restored from, so neither half of the
+      definition is met. Independent failure of the hardware is real and is a different property from
+      reach. The second mistakes a schedule for the thing a schedule cannot provide. The fourth
+      treats an untested restore as paperwork, when it is the only test there is.
   # --- Across the course: the dating convention ---
   - q: >-
-      Four claims. "82% of phishing sites were served over HTTPS in the second quarter of 2021."
-      "Dropbox keeps 30 days of versions on its Basic plan, read on 18 September 2026." "Most VPN
-      services misdescribe their own limits." "Workforce phishing-resistant authenticator use was
-      14.0% as of January 2025." Which is the odd one out, and why does it matter?
+      Four claims, one of which carries no date. "82% of phishing sites were served over HTTPS in the
+      second quarter of 2021." "Dropbox keeps 30 days of versions on its Basic plan, read on 18
+      September 2026." "Most VPN services describe their own limits inaccurately." "Phishing-resistant
+      authenticator use stood at 14.0% of users as of January 2025." Which is it, and what does the
+      missing date cost?
     options:
-      - The first, because a quarter is too coarse a period for a figure that changes as fast as this one
-      - The third, because it carries no date, so nobody can say whether it is still true or what it was measured against
-      - The second, because the date something was read is not the same thing as the date it was published
-      - The fourth, because one vendor's figure should not be dated as though it had been a census
-    answer: 1
+      - The third, and the cost is that the reader cannot tell which products were looked at or whether the claim has since been retested
+      - The third, and the cost is that a claim about an industry needs a source more than a claim about one company does
+      - The third, and the cost is that an undated claim is more likely to be false than one whose author was willing to say when it was measured
+      - The third, and the cost is that the reader cannot check it, which is true of every claim in the list
+    answer: 0
     explain: >-
-      It is the only one with nothing to anchor it, and the honest version is a count from a particular
-      evaluation in a particular year: sixteen products looked at closely in 2021, twelve of which
-      described themselves inaccurately or too broadly. Without the year and the number it becomes a
-      standing complaint about an industry, which is a different and weaker kind of claim. The other
-      three each name a real limitation of a dated figure, and a limitation you can state is exactly
-      what a date buys you.
+      All four options spot the same claim, so the question is what a date is actually for. It fixes
+      a figure to a moment and a measurement, and the honest version here is a count: sixteen products
+      examined closely in 2021, twelve of which described themselves inaccurately or too broadly.
+      Without that, "most" has no denominator and no expiry. The second is about sourcing rather than
+      dating. The third is false, since an undated claim can be perfectly true and simply unusable.
+      The fourth is true of every claim and therefore tells you nothing about this one.
 ---
 
 This test covers lessons 1 to 12. Lesson 13's two items are not here yet, and this file gets them
 when that lesson is written; until then the pass mark applies to what is here.
 
-Most items put a case to you that no lesson worked, because the question is whether you can use the
-course rather than whether you remember it. Three of them need more than one lesson at once: one
-pairs lesson 5's error categories with lesson 7's failure ladder, because they are the same
-diagnostic habit on different subjects; one pairs lesson 8's padlock with lesson 11's structural
-reading of a message; and one pairs lesson 3's extensions with lesson 9's chain of trust.
+Almost every item puts a case to you that no lesson worked: a different person, different files,
+different numbers. That is deliberate, and it is the whole point. A test you could pass by
+recognising sentences from the lessons would measure whether you read them, and this course has
+spent thirteen lessons arguing that reading is the weakest evidence there is.
+
+Three items need more than one lesson at once. One pairs lesson 5's error categories with lesson 7's
+failure ladder, because they are the same diagnostic habit on different subjects. One pairs lesson
+3's hidden extension with lesson 9's chain of trust. And one asks about a message that lesson 11's
+own three-part reading is built to miss, which is a harder question than the one the frame answers.
 
 The last item is about the course's own convention rather than about any one lesson. Every figure
-here is written with its year inside the sentence, and the item asks you to notice a claim that
-is not.
+here carries its year inside the sentence, and the item asks what that is for.
 
-The wrong answers are not invented. Every one of them is a misconception named somewhere in the
-course, or a true sentence answering a question that was not asked, which is the commoner and harder
-failure. If a distractor looks reasonable to you, the lesson that names it is the one to go back to.
+The wrong answers are mostly misconceptions this course names, or true sentences answering a
+question that was not asked, which is the commoner and harder failure. A few are there because the
+reasoning behind them is the reasoning to unlearn. If a distractor looks reasonable to you, the
+lesson that names it is the one to go back to.
 
 Pass mark is 80 per cent. If you do not reach it, the useful thing is not the score but the pattern.
 Look at which lessons your wrong answers came from, and reread those rather than the whole course.

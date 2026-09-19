@@ -259,7 +259,9 @@ Walk the ladder on the laptop.
 
 **Did the name resolve?** Run `dig` on the domain. If it returns an address, that rung is fine. If it returns nothing, the fault is at the top, and the commonest causes are a name server that is unwell and an answer that was kept too long.
 
-**Did the connection open?** Run the route trace. If hop one fails, the trouble is between you and your own router. If hop one works and nothing after it does, the trouble is at or just past your provider.
+**Did the connection open?** Run the route trace. If hop one fails, the trouble is between you and your own router, and that one is solid, because hop one is a machine in your house that ought to answer.
+
+Past hop one, be careful, because this is where the rows of asterisks from earlier in this lesson meet the diagnosis and the two can be made to disagree. **Asterisks on their own are not a fault**, since plenty of machines are configured not to announce themselves, and a trace to a perfectly healthy site is often full of them. What is worth something is a **comparison**: run the same trace to a site that does load, from the same machine, and see where each one stops. If the good trace runs past the point where the bad one stops, you have learned something about the path. If both stop in the same place, you have learned about which machines answer traces, and nothing at all about your problem.
 
 **Did the response arrive with a complaint?** If the page loads and says something like 403 or 500, everything below has worked perfectly and the site is telling you about itself.
 
