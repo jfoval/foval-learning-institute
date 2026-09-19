@@ -22,8 +22,8 @@ quiz:
       - Near transfer, which is improvement on the trained task or one very like it
     answer: 3
     explain: >-
-      Getting better at the thing you practised is near transfer, and it is the level the
-      meta-analysis describes as specific training effects that do not generalise. Intermediate
+      Getting better at the thing you practised is near transfer, and the meta-analysis reports reliable
+      improvement on working memory measures with no convincing far transfer beside it. Intermediate
       transfer would be improvement on a different task tapping the same system. Far transfer would
       be improvement on reasoning or reading. And improvement on the trained task is the first rung
       of the ladder rather than no rung at all.
@@ -174,8 +174,10 @@ shows that there is no evidential value from the studies of working memory train
 controls."[1]
 
 **And their statement of what training does produce**, which is the honest replacement for any
-number: the programmes "appear to produce short-term, specific training effects that do not
-generalize to measures of 'real-world' cognitive skills."[1]
+number, is the first half of the finding quoted above: reliable improvement on measures of
+intermediate transfer, and no convincing evidence of improvement on far transfer against a treated
+control.[1] **That is the course's own paraphrase of the abstract sentence**, not a second
+quotation, because the abstract is the whole of what this course read.
 
 **Their conclusion**, in their words: "These results seriously question the practical and
 theoretical importance of current computerized working memory programs as methods of training
