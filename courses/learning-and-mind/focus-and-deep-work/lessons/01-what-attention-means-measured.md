@@ -1,6 +1,6 @@
 ---
 title: What this course is for, and what attention means when somebody measures it
-minutes: 85
+minutes: 90
 objectives:
   - >-
     Distinguish the two instruments this subject uses, self-report and task performance, and say why
@@ -50,26 +50,25 @@ quiz:
       - That his self-report is the best available evidence, so his judgement should stand
     answer: 1
     explain: >-
-      Every source in this course is cross-sectional or a single session, so change within a person
+      No source in this course measures the same people years apart, so change within a person
       is not something any of them was built to detect, and that refusal is stated in lesson 1 and
       faced again in lesson 7. Telling him he is right or wrong both claim a result nobody has. And
       treating his own impression as the best evidence skips the instrument question the course
       opens with.
   - q: >-
-      Nearly every figure in this subject comes from students or self-selected volunteers. What does
-      that license?
+      A study of airline pilots finds an effect that earlier student studies had also found. What
+      does the pilot study add?
     options:
-      - Nothing at all, since a finding on students cannot be applied to anybody who is not one
-      - Everything, since attention is a basic mechanism and does not vary by population
-      - A finding about young people specifically, which is the population most of these studies used
-      - A finding about people like those, held loosely, with the sample stated wherever it appears
+      - Nothing, since one professional sample cannot generalise any further than a student one
+      - Very little, because a selected professional group is less representative than students
+      - Proof that the effect is universal, since pilots are selected for exactly this capacity
+      - Evidence that the effect is not confined to students, which widens what can be claimed
     answer: 3
     explain: >-
-      A student sample is a real limit and not a disqualification, and the honest handling is to
-      carry the sample with the figure rather than to discard it or to forget it. Discarding it
-      throws away most of what is known. Treating attention as invariant is an assumption nothing
-      here tests. And several of this course's sources are not restricted to young people, so a
-      claim about age is a different claim.
+      A second population that differs from the first in the ways that worried you is the ordinary
+      way a narrow finding gets wider, and it widens the claim without settling it. Dismissing it
+      throws away the answer to the objection. Two samples do not make anything universal. And
+      pilots being selected is a reason to describe the sample rather than a reason to ignore it.
   - q: >-
       Which of these claims could this course support, on what it has read?
     options:
@@ -104,7 +103,7 @@ than almost anywhere else you'll read.
 
 This course is about the measurement. That means it starts somewhere unhelpful, with what the word
 covers and how anybody counts it, because **the single most useful thing in this subject is knowing
-which instrument produced a claim**, and four of the seven lessons turn on it.
+which instrument produced a claim**, and it comes back in four later lessons.
 
 ## Two instruments, and they do not agree
 
@@ -118,18 +117,19 @@ themselves, usually over weeks or months of remembered experience.
 missed, how long they took, how often they responded to something they were told to ignore. The
 answer is a number produced in the room, in twenty minutes or an hour.
 
-**These sound like two routes to the same fact and they aren't.** In the largest synthesis this
-course has read, the two halves of one literature give different answers about the same question,
-and the difference is not small: the association shows up clearly where people reported on
-themselves, and does not survive a standard correction where a task did the measuring. **Lesson 4 is
-that case in full.**
+These sound like two routes to the same fact and they aren't. In the 2021 synthesis of the
+media-multitasking literature, the two halves give different answers about the same question: the
+association is small but holds where people reported on themselves, and does not survive a standard
+correction for publication bias where a task did the measuring.[3] Lesson 4 is that case in full.
 
 **So the question to ask first, of any claim about attention, is which of the two produced it.**
 That is this course's opening move and it is not a trick to catch researchers out: both instruments
 measure something real, and the interesting question is what they measure.
 
 :::predict Before you read on: a questionnaire asks a hundred people how distractible they are, and a task measures the same hundred people. Why might the two disagree? Write down as many reasons as you can in two minutes.
-Most people get two of these and the third is the one worth having.
+Three reasons, and **the first two are in what this course read. The third is the course's own
+reading of the two instruments rather than a finding anybody has reported**,[5] and it is the one
+worth having.
 
 **A questionnaire asks for a judgement and a task produces a count.** "How often do you get
 distracted?" is answered by consulting an impression built over months. A task counts what happened
@@ -157,11 +157,15 @@ question above, so this is short.
 one thing while something else competes. **Switching** is what happens when you move between tasks,
 and the control of switching is what most of this course is actually about.
 
-**Nothing in this course requires you to keep those apart**, and it names them here only so they
-don't arrive unexplained later. What the course does require is the instrument question, and
-one more thing: noticing when a claim about one of the three is being made from evidence about
-another. **The brain-drain literature in lesson 5 does exactly that**, and its own meta-analysis
-finds the effect in memory and not in attention, which is the thing the phrase claims.
+**Those three descriptions are ordinary usage rather than anything this course read**, and they
+are named here only so they don't arrive unexplained later; no attention textbook was opened for
+this course, and this is not the place to pretend otherwise.[5]
+
+What the course does require is the instrument question, and one more thing: **noticing when a claim
+about one capacity is being made from evidence about a different one.** The brain-drain literature
+in lesson 5 is the case. Its own meta-analysis sorts the evidence into memory, attention and general
+cognitive performance, and finds the effect in memory and not in attention,[4] which is the capacity
+the phrase itself claims.
 
 ## What this course is for
 
@@ -171,7 +175,7 @@ rather than modesty.
 What the research in this course can do is tell you what has been measured: what an interruption
 costs, how often a mind is elsewhere, what happens to two famous claims about devices when the
 studies are pooled, and whether anything that calls itself attention training transfers to anything.
-**That's a great deal, and it isn't a method.**
+That is a great deal, and it isn't a method.
 
 **There is one constructive section in the whole course**, in lesson 6, and it is built only from
 what survives lessons 2 to 5. Where it reasons past the evidence it says so in the sentence. **A
@@ -179,9 +183,10 @@ course that handed you seven techniques on the strength of this literature would
 this course exists to teach you to spot.**
 
 **And one refusal is worth stating now, because everybody arrives with the question.** This course
-cannot tell you whether your attention has got worse than it used to be. **Nothing it has read
-measures change inside one person over time.** Every source here is either a snapshot of different
-people at one moment or a single session in a lab. That's a fact about the evidence rather than a
+cannot tell you whether your attention has got worse than it used to be. **No source it has read
+measures the same people on the same instrument years apart.** Some follow people for hours or
+weeks; none follows anybody across the stretch of time the question is about. That's a fact about
+the evidence rather than a
 verdict on your impression, and lesson 7 comes back to it with the whole course behind you.
 
 ## Where this course sits
@@ -191,6 +196,13 @@ That lesson covers how long people work before switching or being interrupted, w
 day looks like when somebody follows people around with a stopwatch, and a trace of the most quoted
 number in the whole subject back to a source nobody can produce. **If you haven't read it, read it
 before lesson 2 here.**
+
+**One thing overlaps deliberately and it is worth saying which.** Time Management lesson 5 also
+gives the headline of the experiment that lesson 2 here is built on, at the level of its abstract:
+interrupted tasks done faster, paid for in stress and effort. **This course has read that paper in
+full**, and lesson 2 takes it to the condition-by-condition times, the workload ratings and the one
+thing that changed about the work itself. If you have met the headline already, lesson 2 is where it
+gets taken apart.
 
 **Habits and Self-Discipline** is the course immediately before this one, and two things from it get
 used. Lesson 3's cue, which is the best-evidenced practical idea in that course, comes back in
@@ -203,24 +215,45 @@ evidence says about the things people blame.
 
 ## The gap in the evidence, named now rather than discovered later
 
-Here is every main source in this course with what it was measured on.[1][2][3][4]
+:::predict Four sources, below, with what each was measured on. Before you look at the third column: how many of the four do you expect were measured on students or self-selected volunteers? Write a number from nought to four.
+Most readers guess one or two. The answer is that three of the four are students or volunteers
+outright, and the fourth pools studies that are overwhelmingly student samples.
+
+**That is not a scandal and it is not a secret.** It is the ordinary state of psychology's evidence
+base, because students are who is available to university researchers, and it is why this course
+states a sample next to every figure rather than once at the start.
+
+**What it should change is the verb you use.** Not "people are distracted by their phones" but
+"students in these studies were", which is a duller sentence carrying a claim somebody has actually
+supported.
+:::
+
+Every main source in this course, with what it was measured on.[1][2][3][4]
 
 | The source | What it measured | On whom | When |
 |---|---|---|---|
-| The interruption experiment | Time, errors and rated workload on an email task | 48 people, 81% German university students, mean age 26 | 2008 |
-| The mind-wandering study | Self-reported thought and mood at random moments | 2,250 adults, 58.8% male, 73.9% in the United States, mean age 34, recruited through an iPhone app | 2010 |
+| The interruption experiment | Time, errors, politeness and rated workload on an email task | 48 people, 81% German university students, mean age 26 | 2008 |
+| The mind-wandering study | Self-reported thought and mood at random moments | 2,250 adults, 58.8% male, 73.9% in the United States, mean age 34, sampled through an iPhone application | 2010 |
 | The media-multitasking synthesis | 118 assessments pooled from the published literature | Overwhelmingly student samples | 2021 |
-| The phone-presence synthesis | 22 studies, 43 effects pooled | Student and general samples across three regions | 2023 |
+| The phone-presence synthesis | 22 studies, 43 effects pooled | Overwhelmingly student samples, across three regions | 2023 |
 
-**Read the third column rather than the second.** Three of the four are students or volunteers, and
+Read the third column rather than the second. Three of the four are students or volunteers, and
 the fourth is a pooling of studies that are mostly students. **That's a real limit on everything
 this course tells you**, and it is the ordinary state of this literature rather than a failure of
 these particular papers.
 
-**And it cuts both ways**, which is the part people get wrong. A student sample doesn't make a
+Work one row before you go on. Take the mind-wandering study. What it measured is what people
+said they were thinking, at a moment they did not choose. Who it measured is 2,250 adults who had
+installed a happiness application on an iPhone. When was 2010. **So a sentence beginning "people
+spend half their time thinking about something else" is already wrong at the second word**, and the
+sentence the row supports is "in a large group of volunteers who chose to track their own happiness
+in 2010, minds were elsewhere in 46.9 percent of sampled moments". That second sentence is duller,
+and it is the one lesson 3 can defend.
+
+And it cuts both ways, which is the part people get wrong. A student sample doesn't make a
 finding worthless: it makes it a finding about people like those, which is still information, and
-several of the effects here would be surprising in any population. **What it rules out is the
-sentence "people are".** Every figure in this course arrives with its sample attached, in the body,
+several of the effects here would be surprising in any population. What it rules out is the sentence
+"people are". Every figure in this course arrives with its sample attached, in the body,
 where you meet it.
 
 ### Worked: the same person, two answers
@@ -252,9 +285,9 @@ constructed person; the point is that all three are live.[5]
    differently from somebody who has not, and the questionnaire is the only one of the two
    instruments that can see it.
 
-**Notice what a course built on only one instrument would tell her.** On the task alone: nothing is
+Notice what a course built on only one instrument would tell her. On the task alone: nothing is
 wrong, which she wouldn't recognise. On the questionnaire alone: her attention is poor, which the
-task does not support. **The honest answer uses both and is less satisfying than either.**
+task does not support. The honest answer uses both, and it is less satisfying than either.
 
 :::checkpoint Somebody objects that this is just academic hedging. They know their attention is worse than it was, they do not need a study to tell them, and a course that will not say so is being precious.
 It is a fair challenge and it deserves a real answer rather than a shrug.
@@ -262,34 +295,42 @@ It is a fair challenge and it deserves a real answer rather than a shrug.
 **The first half of the answer is that their impression is evidence of something.** They are
 reporting a change in how their working life feels, and the whole self-report half of this
 literature is built on exactly that kind of report. Lesson 4 will show that it is the half in which
-the associations hold. **Nobody here is telling them they've imagined it.**
+the associations hold.[3] **Nobody here is telling them they've imagined it.**
 
 **The second half is what their impression cannot settle.** A memory of how easy it was to read a
-book in 2015 is a comparison between a current experience and a remembered one, and remembered ease
-is the least reliable thing in the whole of this subject. It's also confounded with everything else
-that changed: their job, their sleep, their age, how many people can now reach them.
+book in 2015 is a comparison between a current experience and a remembered one, and nobody has
+measured how well that comparison tracks. It's also confounded with everything else that changed:
+their job, their sleep, their age, how many people can now reach them.
 
-**And the thing that would settle it does not exist in what this course read.** You would need the
-same people measured on the same instrument, years apart. Every source here is a snapshot of
-different people or a single session.
+**And the thing that would settle it doesn't exist in what this course read.** You would need the
+same people measured on the same instrument, years apart, and no source here does that.
 
 **So the honest sentence is narrow and it isn't a dodge**: this course cannot tell you whether your
-attention has declined, because nobody it read designed a study that could. **Somebody could.**
-That's the shape of a real answer to a real question, and lesson 7 takes it up again.
+attention has declined, because nobody it read designed a study that could. Somebody could, and that
+is the shape of a real answer to a real question, and lesson 7 takes it up again.
 :::
 
-## Three things people believe about this subject
+## Five things people believe about attention
 
-**"The science of attention is settled."** Three of the four best-known claims in it have been
-re-examined in the last five years and none came out where it went in. Lessons 4, 5 and 6.
+**"Attention is one capacity."** It covers at least three things, and the useful consequence is not
+the taxonomy but that a claim about one of them is often supported by evidence about another, which
+is the mistake the section above describes.
 
-**"Attention research is all lab tricks."** Some of it is, and the lab is where the two clearest
-results in this course come from. What matters is not whether a study was run in a room but whether
-its scope travels with its finding.
+**"If I feel more distractible, I am."** You are certainly reporting something, and what a
+questionnaire and a task say about the same person can differ. Which of the two answers your
+question depends on what you wanted to know.
+
+**"Studies of students tell you nothing."** This over-corrects and would throw away most of what is
+known here. A student sample makes a finding narrower rather than empty, and the fix is to carry the
+sample with the figure.
+
+**"Attention research is all lab tricks."** Some of it is, and lesson 2's result, which is the
+clearest thing in this course, came out of a lab. What matters is not whether a study was run in a
+room but whether its scope travels with its finding.
 
 **"A meta-analysis settles it."** It pools what has been published, which isn't the same as what has
-been found, and lesson 4 is about what happens to one pooled effect when somebody corrects for
-the difference.
+been found, and lesson 4 is about what happens to one pooled effect when somebody corrects for the
+difference.
 
 ## What this course leaves out on purpose
 
@@ -326,8 +367,9 @@ average, average, or worse. **One word, written down.**
 above, write one line saying **what would have had to be measured for that answer to be a fact about
 your attention** rather than a report of your experience.
 
-**Most people find question three is the hardest and that their answer to it is "nothing I have".**
-That is the correct result and the reason the course opens here.
+**This course expects most readers to find question three the hardest, and to answer it with
+"nothing I have"**, which is an expectation rather than a measurement.[5] It is also the correct
+result, and the reason the course opens here.
 :::
 
 :::exercise Sort five claims
@@ -371,9 +413,8 @@ figure here has dated.
   after: the result's more surprising if you meet it cold.
 - **[A Wandering Mind Is an Unhappy
   Mind](https://pdodds.w3.uvm.edu/files/papers/others/2010/killingsworth2010a.pdf)** (*Science*,
-  2010). One page, free, read in full by this course. **The shortest paper in this institute's
-  reading lists** and a good demonstration that a famous finding can fit on a single page with its
-  own caveats printed next to it.
+  2010). One page, free, read in full by this course. A single page, and a good demonstration that a
+  famous finding can fit on one with its own caveats printed beside it.
 
 ## Sources
 

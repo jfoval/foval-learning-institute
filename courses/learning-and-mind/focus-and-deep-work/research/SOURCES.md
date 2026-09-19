@@ -20,9 +20,9 @@ access should read it and take the name off.
 ## The first thing Stage 1 found, and it shapes the course
 
 **This is the most advised-about subject in the whole self-improvement genre and one of the least
-settled.** Three of the four best-known empirical claims in it have been meta-analysed in the last
-five years, and in each case the meta-analysis is more interesting than the original finding and
-says something the original does not.
+settled.** Three of its best-known empirical claims have been meta-analysed since 2016, and in
+each case the meta-analysis is more interesting than the original finding and says something the
+original does not.
 
 - Media multitasking damages your attention: **118 assessments, and the effect in the
   performance-based half disappears once you correct for publication bias.**

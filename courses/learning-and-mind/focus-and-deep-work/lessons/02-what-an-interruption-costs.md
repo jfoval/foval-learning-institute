@@ -107,6 +107,14 @@ the most quoted figure in the subject back to a source nobody can produce.
 and asks a narrower question: not how often you are interrupted, and not how long it takes to get
 back, but **what the interruption does to the work and to you.**
 
+**One thing does overlap and it is worth saying exactly what.** Time Management lesson 5 gives this
+experiment's headline, quoting its abstract: interrupted tasks finished faster, paid for in stress,
+frustration, time pressure and effort. **If you have met that, you have met the conclusion and not
+the study.** This course has read the paper in full, and what follows is the condition-by-condition
+times, the workload ratings one measure at a time, the question the experiment was actually designed
+to answer, and the one thing that changed about the work itself. **The headline is the part that
+travels; the rest is where the teaching is.**
+
 ## The experiment
 
 Mark, Gudith and Klocke ran it and published it at a computing conference in 2008.[1] Six pages,
