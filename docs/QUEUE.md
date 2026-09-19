@@ -67,47 +67,45 @@ Rewrite these five lines each session. Nothing else goes in this block.
   claims about itself, so under root rule 8 it is John's decision and not a drafter's. Nothing is
   blocked: the course is live without it.
 
-- **Time Management is drafted end to end: all eight lessons, both assessments, seven of eight Stage
-  4 reviews applied.** T1, seventh and last of the Tools term. Lesson 8's review is the only thing
-  outstanding before it publishes, and publishing means `status: published`, the TAXONOMY.md row, and
-  eight lessons added to `curriculum/audio-debt.yaml` in the same commit.
+- **Time Management is PUBLISHED**, with eight lessons, both assessments, eight Stage 4 reviews
+  applied, and eight podcast scripts drafted. T1, seventh and last of the Tools term. It owes eight
+  episodes, which is $1.60 and is money and trails; `curriculum/audio-debt.yaml` opened at eight in
+  the publishing commit. **It reaches *written* when the last of its scripts is fact-checked**, and
+  five of eight are stamped.
 
-  **Stage 4 failed the fact-check on every lesson it has reviewed, and in the same way every time.**
-  Seven reviews, seven fact-check failures. Every quotation in the course string-matched its source
-  character for character, and every figure matched the research file digit for digit. **Every
-  single failure was in a sentence with no quotation marks in it.** A between-person finding reported
-  as a within-person one; a coinage credited to the paper that borrowed it; a mechanism the source
-  explicitly pre-empts; a cross-reference to a recommendation the other lesson declines to make; an
-  invented reason for a study's attrition; a comparative hardened into a condition, twice, on
-  consecutive lessons. `/draft-lesson`'s note that this drafter quotes accurately and describes
-  carelessly is now confirmed on a third course, and the instruction that follows from it is the one
-  already written there: **point the review at the sentences with no quotation marks in them.**
+  **Stage 4 failed the fact-check on all eight lessons, and in the same way every time.** Every
+  quotation in the course string-matched its source character for character and every figure matched
+  the research file digit for digit. **Every single failure was in a sentence with no quotation marks
+  in it.** `/draft-lesson`'s note that this drafter quotes accurately and describes carelessly is now
+  confirmed on a third course, and the instruction that follows is already written there: point the
+  review at the sentences with no quotation marks in them.
 
-  **Arithmetic is the second pattern and it is newer.** Three lessons shipped a broken sum: lesson 5
-  double-counted a lunch break and divided by the wrong number of stretches, and lesson 7 got a total
-  wrong and then built a conclusion on a figure that came from nowhere. **All three were the only sum
-  in their lesson, and all three were the worked example the exercise then asks the reader to
-  reproduce.** A reviewer told to redo every number by hand found all of them; nothing else did.
-  **Ask for that explicitly in the review prompt.**
+  **Arithmetic is the second pattern and it is the one to add to a review prompt.** Five sums in this
+  course were wrong and each was the only sum in its lesson: lesson 5 double-counted a lunch break
+  and divided by the wrong number of stretches, lesson 7 got a total wrong and then built a
+  conclusion on a figure that came from nowhere, lesson 2 printed the waking hours *inside* a
+  reader's categories as the hours outside them, and lesson 3 called six tenths of a day "within
+  half a day". **Two of those five survived their Stage 4 review and were caught by the podcast
+  fact-check instead**, which is the strongest evidence this repo has for writing scripts promptly.
+  Asking a reviewer in terms to redo every number by hand found the other three; nothing else did.
 
-  **Defect 20 recurred five times in one course**, which is what produced the note now in
-  `/draft-lesson`: the drafter writes the honest footnote first and the footnote then feels like the
-  job done. Twice the footnote had no marker in the body at all, so the admission was unreachable.
+  **Defect 20 recurred five times in one course**, which produced the note now in `/draft-lesson`
+  about why: the drafter writes the honest footnote first and the footnote then feels like the job
+  done. Twice the footnote had no marker in the body at all.
 
-  **Two defects were this session's tooling rather than the drafter's**, and both are worth knowing.
-  A re-wrapping helper joined a closing `:::` onto the end of the previous line, so a checkpoint
-  swallowed half of lesson 6 including its entire statement of the value question; `npm run validate`
-  caught it and the session's grep did not, because that check reports against the directory rather
-  than the file. And a whitespace-tolerant regex used for edits collapses YAML block scalars onto one
-  line, which broke frontmatter four times. **A quiz option containing a colon parses as a YAML map**
-  and would reach a learner as `[object Object]`; that happened three times and the validator caught
-  every one.
+  **Two defects were this session's tooling rather than the drafter's.** A re-wrapping helper joined
+  a closing `:::` onto the end of the previous line, so a checkpoint swallowed half of lesson 6
+  including its whole statement of the value question; `npm run validate` caught it and the
+  session's grep did not, because that check reports against the directory rather than the file. And
+  a whitespace-tolerant regex used for edits collapses YAML block scalars onto one line, which broke
+  frontmatter five times. A quiz option containing a colon parses as a YAML map and would reach a
+  learner as `[object Object]`; that happened three times and the validator caught every one.
 
-  **The contraction repair is unstable in both directions.** Across eight lessons it went under the
-  band four times and over it four times, and a mechanical expansion pass leaves clauses like "you've
-  discretionary hours" behind, which the validator cannot see. Measure after the repair, read the
-  sentences the pass touched, and note that a hand count reads about double because the validator
-  excludes possessives; one reviewer reported the whole course as over band on that mistake.
+  **The contraction repair is unstable in both directions**, going under the band four times and over
+  it four times across eight lessons, and a mechanical expansion leaves clauses like "you've
+  discretionary hours" that the validator cannot see. Measure after the repair, read what the pass
+  touched, and note that a hand count reads about double because the validator excludes possessives;
+  one reviewer reported the whole course as over band on that mistake.
 
 - **Digital Literacy lessons 1 to 12 are drafted, reviewed, applied and scripted.** The only
   content work left on the course is lesson 13, which is blocked on John below. **Read lesson 8's
