@@ -88,9 +88,12 @@ lesson 2 and Focus lesson 3.**
 
 **Murayama, Miyatsu, Buchli and Storm, "Forgetting as a Consequence of Retrieval: A Meta-Analytic
 Review of Retrieval-Induced Forgetting", *Psychological Bulletin* 140(5), 2014, pp. 1383 to 1409.**
-**Read in part on 2026-09-19**, from the open copy in the University of Reading repository: the
+**Read in part on 2026-09-19**, from the [open copy in the University of Reading
+repository](https://centaur.reading.ac.uk/37052/): the
 abstract verbatim, the overall effect sizes, the output-interference analysis and the surrounding
-discussion. The theoretical sections were not read.
+discussion. The theoretical sections were not read. **The repository URL was added to this entry on
+2026-09-19**, after a Stage 4 review found lesson 7 linking to centaur.reading.ac.uk/38078, which
+is a paper about iPads in fieldwork. The record was checked by title before this line was written.
 
 - **The abstract's statement of the phenomenon, verbatim:** "Retrieving a subset of items can cause
   the forgetting of other items, a phenomenon referred to as retrieval-induced forgetting."

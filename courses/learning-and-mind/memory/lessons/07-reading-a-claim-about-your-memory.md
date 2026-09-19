@@ -1,6 +1,6 @@
 ---
 title: Reading a claim about your memory
-minutes: 80
+minutes: 95
 objectives:
   - >-
     Sort a claim about memory into measurable, unmeasurable as stated, or false, and say what would
@@ -52,63 +52,67 @@ quiz:
       memory. Lesson 5's finding is about initial identifications under named conditions. And
       telling somebody their memory is unreliable is the same overreach in the other direction.
   - q: >-
-      What does the sample question add to the institute's standing three-way sort?
+      A health app says its exercises "improve recall by a third". It names no study and no sample,
+      and the sort says the claim is measurable. What does the sample question add?
     options:
-      - A fourth category, for claims whose sample is too small for anybody to judge
-      - It replaces the sort entirely, since sample size settles most claims on its own
-      - It applies only to those claims that already come with a number attached to them
-      - It asks how many people a measurable claim was measured on, and who they were
+      - It shows the claim is unmeasurable after all, since with no sample nothing was measured
+      - It settles the claim, since a figure with no sample behind it is a figure somebody invented
+      - It replaces the sort, since what a claim covers matters more than whether it can be checked
+      - It asks what a check, if one was run, would cover, which the sort does not ask at all
     answer: 3
     explain: >-
-      The sort tells you whether a claim could be checked, and the sample question tells you what a
-      check that was run actually covers. It adds no category. It does not replace the sort, since a
-      claim that is unmeasurable as stated has no sample to ask about. And a claim with no number
-      still rests on somebody having looked at somebody.
+      The sort tells you whether a claim could be checked and the sample question tells you what a
+      check that was run actually reaches, which is a second question rather than a rival to the
+      first. A missing sample is a gap in the report, not proof the claim is uncheckable or
+      invented. And nothing here replaces the sort, which is what tells you the claim has a shape.
   - q: >-
-      Why does this lesson name three popular books and cite none of them?
+      A reading list names a book and adds the line "nobody here has read this". What is that line
+      doing?
     options:
-      - Because none was opened for this course, so naming is all that is honest
-      - Because their claims have been checked against the sources here and failed
-      - Because trade books are not admissible evidence in any lesson at this institute
-      - Because the course's research file could not locate copies of them
+      - Marking what the list cannot vouch for, which is what this lesson does with three books
+      - Recommending it more strongly, since an unread book is an unbiased recommendation
+      - Padding the list out, since a book nobody has read has no business appearing on it at all
+      - Warning the reader off it, since naming an unread book is how a list signals distrust
     answer: 0
     explain: >-
-      They sit on the research file's unread line, the build fails on a citation to any of them, and
-      a reader will meet them, so the lesson says they exist and stops there. No assessment of their
-      claims was made. Trade books are cited elsewhere in the institute when somebody has read them.
-      And whether copies could be located is not what the unread line records.
+      Saying a work exists and saying nothing rests on it are two different acts, and the line
+      separates them so a reader can tell which they are being given. Not reading something is not
+      a reason to trust it more. A book a reader will meet anyway is worth naming. And nothing about
+      the line says the book is bad.
   - q: >-
-      A learner finishes this course and decides to stop trusting anything they remember. What does
-      the last lesson say about that?
+      A reader finishes Focus and Deep Work, whose lesson 6 found no convincing far transfer from
+      attention training, and concludes no training of any kind is worth doing. What has gone wrong?
     options:
-      - That it follows, since every lesson in the course is about memory going wrong
-      - That it is the correct reading of the reconstructive account taught here
-      - That it goes past the evidence in the opposite direction from the claims sorted here
-      - That it depends on just how confident they happened to feel about the memories concerned
+      - Nothing, since the far-transfer literature is the strongest evidence anybody has on training
+      - The conclusion depends on whether the training has been compared with a treated control
+      - A finding about one trained thing licenses no verdict on training in general
+      - The reader should hold the training claims they meet until a meta-analysis says otherwise
     answer: 2
     explain: >-
-      A general finding about what memory does under measured conditions licenses no verdict on any
-      particular recollection, and that holds whichever way the verdict points. The course selected
-      failure literatures and says so. The reconstructive account describes how an account is built
-      rather than rating it. And lesson 5's confidence finding is about a named situation.
+      A result measured on one kind of training, against one kind of control, is the scope it has,
+      and this lesson's habits run the same way in both directions. The control question is the
+      right question about a particular claim and does not reach a verdict about all training.
+      Calling that literature the strongest evidence on training is a claim nobody here has checked.
 ---
 
-Last lesson, and it's the one that stays useful after every figure in the other six has dated.
+Every figure in the other six lessons will date. This one is about what is left when they have.
 
-Everything before this was about memory. This one is about the claims you will meet about memory,
-and you will meet a great many, because this subject has an unusually confident popular literature
-sitting on top of unusually careful research.
+This subject has an unusually confident popular literature sitting on top of unusually careful
+research, and the gap between the two is where you will meet almost everything anybody tells you
+about memory.
 
 ## Habit one: sort the claim
 
-The institute's standing sort is three categories, and **Digital Literacy** lesson 8, **Time
-Management** lesson 8, **Habits and Self-Discipline** lesson 7 and **Focus and Deep Work** lesson 7
-all use it. Measurable: a study could check it. Unmeasurable as stated: it uses a term nobody has
-defined. False: it has been checked and didn't hold.
+The institute's standing sort is three categories, and **Digital Literacy** lesson 8, **Using AI
+Effectively** lesson 11, **Time Management** lesson 8, **Habits and Self-Discipline** lesson 7 and
+**Focus and Deep Work** lesson 7 all use it. Measurable: a study could check it. Unmeasurable as
+stated: it uses a term nobody has defined. False: it has been checked and didn't hold.
 
-It is used here rather than re-taught, and four claims are worked below.[6]
+It is used here rather than re-taught. **The four claims worked below are specimens written for
+this lesson rather than quotations from anywhere**, and the sorting of each is the course's
+reasoning.[6]
 
-Work one. "Most people forget half of what they learn within a day." Measurable, and something
+Work one. "Most people forget half of what they learn within an hour." Measurable, and something
 close to it has been measured: lesson 2's replication plotted savings on relearning for one subject
 across six delays.[1] So the sort is easy and the sentence still misleads, for a reason habit two
 is about.
@@ -118,12 +122,13 @@ second half and almost content-free in the first. Nothing in the sentence says w
 reconstruction would have to do for the claim to fail, and a claim that nothing could falsify isn't
 a finding. As it stands it is a framing, and framings are useful without being results.
 
-Work three. "Eyewitness testimony is notoriously unreliable." This one is false as stated, which is
-the most interesting sort in the course, because it was the responsible thing to say for thirty
-years. Lesson 5's synthesis opens by saying the pessimistic view was entirely reasonable for the
-procedures that produced it, and then reports that under five named conditions an initial
-high-confidence identification by an adult is remarkably accurate.[4] The sentence was right about
-the lineups people used to run.
+Work three. "Eyewitness testimony is notoriously unreliable." Measurable, and the answer turns out
+to be conditional, which is the most interesting sort in the course. Lesson 5's [synthesis](https://journals.sagepub.com/doi/10.1177/1529100616686966) opens by saying the pessimistic view was entirely reasonable for the procedures that produced it, and then
+reports that under five named conditions an initial high-confidence identification by an adult is
+remarkably accurate.[4] **So the sentence is false of a properly run lineup, and still true where
+the five conditions have not been adopted**, which the paper says is many jurisdictions and says in
+the present tense. A sorter who stopped at "false" would have dropped the sentence the synthesis is
+most often quoted without.
 
 Work four, and this is the commonest shape. "Don't trust your memory of an argument, because
 questions change what people remember." Two claims stuck together. The second is lesson 4's, at one
@@ -136,11 +141,13 @@ halves need separate verdicts**, and a reader who accepts or rejects both togeth
 This is the course's own addition to the sort, and it's here because of something the research
 turned up about this subject in particular.[6]
 
-**This course's evidence rests on the smallest samples in the institute, and the claims built on it
-are the largest.** Lesson 2's founding measurement of the whole field is one subject.[1] Lesson 4's
-famous demonstration is a hundred and fifty first-year students in 1974.[3] Lesson 6's training
-study is about fifty people.[5] Set those against what gets said about memory in general, which is
-usually about everybody who has ever lived.
+****The samples behind this course are the smallest you will meet on the Core path, and the claims
+made about memory in general are among the largest.** That comparison is this course's own rather
+than a finding, and it is a comparison with the courses on the path rather than with every study
+anybody has run.[6] Lesson 2's founding measurement of the whole field is one subject.[1] Lesson 4's
+famous demonstration is a hundred and fifty undergraduates in 1974.[3] Lesson 6's training study is
+about fifty people.[5] Set those against what gets said about memory in general, which is usually
+about everybody who has ever lived.
 
 The question to put to a measurable claim, then, isn't only whether somebody checked but **how many
 people they checked and who those people were**.
@@ -159,8 +166,23 @@ it is: a demonstration, an estimate, or a claim about everyone, and those three 
 amounts of trust.
 
 The trouble comes when a demonstration is reported as an estimate. "You forget half of what you
-learn within a day" takes a curve measured on one man relearning nonsense syllables and prints it as
-a fact about you learning anything.[1] The study is sound and the sentence isn't its finding.
+learn within an hour" takes a curve measured on one person relearning nonsense syllables and prints
+it as a fact about you learning anything.[1] The study is sound and the sentence isn't its finding.
+:::
+
+:::predict Before the table. Five sources, five literatures. Guess which one rests on the most data, and guess which one supports the biggest claim.
+Most people put the same source in both answers, and in this course they come apart.
+
+**The most data is the pooled review in lesson 3**, which turns many studies into a single estimate
+across four hundred and seventy-two samples.[2] **And it supports the narrowest claim of the five**:
+a cost of a few percentage points on items sitting beside something you retrieved, under laboratory
+conditions, over minutes.
+
+**That is not a coincidence.** Pooling is what turns a demonstration into an estimate, and estimates
+are usually smaller than the demonstrations that made people interested in the first place.[6]
+
+**The biggest claim in the table belongs to the smallest samples.** Read the two columns together
+and you will see it in every row.
 :::
 
 ## The five sources, side by side
@@ -171,16 +193,19 @@ sources'; the last is this course's own reading of what each one licenses.[6]
 | Source | Sample | Read level | What it licenses |
 |---|---|---|---|
 | Forgetting curve replication[1] | One subject, 70 hours, six delays | Abstract and summary statements | The shape of forgetting on relearning, not a rate for you |
-| Retrieval-induced forgetting review[2] | Pooled across many studies | Abstract, effect sizes, one analysis | A small cost to neighbouring items, and an unsettled mechanism |
+| Retrieval-induced forgetting review[2] | Pooled across many studies | Abstract, effect sizes, one analysis and its discussion | A small cost to neighbouring items, and an unsettled mechanism |
 | Questions and memory[3] | 150 participants, 1974 | A published teaching summary, not the paper | That a verb's wording moved later answers, on those people |
-| Eyewitness confidence synthesis[4] | A literature of mock-crime and field studies | Summary, one box, one passage | Initial high-confidence identifications by adults under five conditions |
+| Eyewitness confidence synthesis[4] | A literature of mock-crime and field studies | Summary, one box, the five-recommendations section, one passage | Initial high-confidence identifications by adults under five conditions |
 | Method of loci training[5] | About fifty people, three arms | Abstract and participant counts | That the technique produced durable memories against an active control |
 
-Read the sample column and the last column together. **In every row the licence is narrower than the
-claim you will meet in the wild**, and in every row something real survives.
+Read the sample column and the last column together. **In every row the licence is narrower than
+the source's reputation**, and in every row something real survives. Row four points the other way
+from the claim you will meet in the wild, which is what makes it the interesting one.
 
-One row is different from the others and it's worth naming. The pooled review is the only source
-here built on many studies, and it supports the narrowest claim of the five.[2] That isn't a
+One row is different from the others and it's worth naming. The [pooled
+review](https://centaur.reading.ac.uk/37052/) is the only source here that turns many studies into
+a single estimate, and it supports the narrowest claim of the
+five.[2][6] That isn't a
 coincidence. Pooling is what turns a demonstration into an estimate, and estimates are usually
 smaller than the demonstrations that made people interested.
 
@@ -193,9 +218,9 @@ of Memory*, Loftus's own writing for general readers, and Foer's *Moonwalking wi
 build fails on a citation to any of them, and no claim in these seven lessons rests on any of the
 three. Naming them is all that's honest, and it's worth doing, because you will be handed one.
 
-What to do when that happens is the two habits above, and the second especially. A book about memory
-is very likely to build a chapter on one famous demonstration, and the question to put to it is how
-many people that demonstration was run on and who they were.
+What to do when that happens is the two habits above, and the second especially. **What this course
+can tell you is what to do with any book that builds a chapter on one famous demonstration**, which
+is habit two: how many people was it run on, and who were they.
 
 ## What this course will not do
 
@@ -218,8 +243,8 @@ for a confidence that isn't more justified than the one it replaced.
 Worth doing, and the order isn't the obvious one.
 
 **Hold most firmly: the scope question.** Not a finding, a way of reading, and the evidence for its
-usefulness is the table above, where every row's licence turned out narrower than its reputation.
-Nothing that happens to these figures touches it.
+usefulness is the table above, where every row's licence turned out narrower than the claim you will
+meet in the wild. Nothing that happens to these figures touches it.
 
 **Hold nearly as firmly: lesson 5's shape.** A belief that was reasonable, procedures that changed,
 a claim that now holds under named conditions and fails outside them.[4] That is the most careful
@@ -230,20 +255,21 @@ to you at one remove through a teaching summary, which the lesson says at the po
 Lesson 6 gives no figure at all, for a reason it states twice.[5]
 
 **Hold most loosely: the mechanisms.** Lesson 3's review found the inhibition account largely
-supported and not cleanly, in the authors' own words.[2] A mechanism is the thing likeliest to be
-different in ten years, and the effect will still be there when it is.
+supported and, in the authors' own words, also facing "some challenging evidence".[2] A mechanism is
+the thing likeliest to be different in ten years, and the effect will still be there when it is.
 
-**And hold this against the course itself.** Six of its seven lessons are about memory failing,
-which is a selection. It was made because those are the literatures with recent syntheses and it is
-still a selection, and a reader who finishes here with a bleaker view of memory than the evidence
-supports has been affected by the shape of the reading list rather than by the findings.
+****And hold this against the course itself.** Five of its seven lessons draw on failure
+literatures, which is a selection. It was made because those are the literatures with recent
+syntheses and it is still a selection, and a reader who finishes here with a bleaker view of memory
+than the evidence supports has been affected by the shape of the reading list rather than by the
+findings.
 :::
 
 ## Three things people believe about this literature
 
-"Somebody must have checked." Lesson 4's study is one of the most cited in psychology and this
-course could not open it, reporting its figures through a teaching summary and saying so.[3] If that
-is the state of the most famous one, assume nothing about the rest.
+"Somebody must have checked." Lesson 4's study is the most famous demonstration in the subject and
+this course could not open it, reporting its figures through a teaching summary and saying so.[3] If
+that is the state of the most famous one, assume nothing about the rest.
 
 "The science says." There is no single body here that says anything. There is a replication of an
 1885 result on one subject, a pooled review with an unsettled mechanism, a demonstration from 1974,
@@ -251,13 +277,15 @@ a synthesis that overturned a consensus by making it conditional, and a training
 people. **They don't speak with one voice and they were never asked the same question.**
 
 "A famous study is a big study." Lesson 4's is famous and had a hundred and fifty participants.[3]
-Lesson 2's founded a field and had one.[1] Fame in this subject tracks how good the demonstration
+The study lesson 2 is built on replicates the one that founded the field, and both had one
+subject.[1] Fame in this subject tracks how good the demonstration
 was, which is a different property from how much it licenses.
 
 ## Practice
 
 :::exercise Trace one
-Take 20 minutes, and put it down at twenty whether or not the trail has ended.
+Take 20 minutes, and put it down at twenty whether or not the trail has ended. Lesson 4 traced a
+study; this one traces a number.
 
 Find one claim about memory with a number in it. An app's onboarding, a headline, a book jacket,
 something somebody told you at work.
@@ -270,9 +298,11 @@ Write it down word for word, with where you found it. Then follow it back, writi
 4. **When was it measured, and how long after what?** This subject's findings are mostly about a
    delay, and a figure without one is usually missing its conditions.
 
-Write your finding in one sentence. **Five endings are all results**: the number is there with its
-sample and delay; the number is there stripped of them; the trail ends in nothing; the trail leads
-somewhere you cannot get to; or twenty minutes ran out.
+Write your finding in one sentence. **Five endings are all results**, and the list is **Habits and
+Self-Discipline** lesson 7's and **Focus and Deep Work** lesson 7's, recast here for a number
+rather than a study: the number is there with its sample and delay; the number is there stripped of
+them; the trail ends in nothing; the trail leads somewhere you cannot get to; or twenty minutes ran
+out.
 :::
 
 :::exercise The decision
@@ -285,13 +315,14 @@ four lines.
 
 **One: treat it as it stands.** You are going to go on holding it as an account of what happened.
 Say why, in terms of something other than how vivid it feels: a document, another person, a
-consequence that followed and is still checkable. And say what you are accepting, which is that a
-detailed account written years afterwards has been built more than once.
+consequence that followed and is still checkable. **That is a real check and most accounts do not
+have one.** And say what you are accepting, which is that a detailed account written years
+afterwards has been built more than once.
 
 **Two: treat it as an account you cannot check.** Not false, not unreliable, just unverified, which
-is the honest status of most of what anybody remembers. Say what changes: probably how you would
-report it to somebody else rather than whether you believe it. **The cost is real**, and it is that
-you give up a certainty you had this morning.
+is the status of most of what anybody remembers. Say what changes: probably how you would report it
+to somebody else rather than whether you believe it. **The cost is real**, and it is that you give
+up a certainty you had this morning.
 
 **Three: find out.** Name one external thing that could corroborate or contradict part of it, and
 what you will do to look. A photograph, a message, a receipt, a person who was there. Then write
@@ -310,11 +341,12 @@ is yours and the reasoning is what is being asked for.
 
 **Back.** This lesson uses the whole course. Lesson 1's scope table is habit two's ancestor and the
 first account is the exercise above. Lesson 2 supplies the one-subject row and the worked claim
-about forgetting half a day's learning. Lesson 3's unsettled mechanism is the checkpoint's loosest
+about forgetting half an hour's learning. Lesson 3's unsettled mechanism is the checkpoint's loosest
 item. Lesson 4 is the provenance case and the two-claims sort. Lesson 5 is the false-as-stated sort
 and the shape worth keeping. Lesson 6 is the row with no figure in it. From earlier Core courses:
-the sort is **Digital Literacy** lesson 8's, and **Focus and Deep Work** lesson 7 is the nearest
-relative of this one, with the instrument question where this lesson puts the sample question.
+the sort is **Digital Literacy** lesson 8's, in **Using AI Effectively** lesson 11's refinement of
+it, and **Focus and Deep Work** lesson 7 is the nearest relative of this one, with the instrument
+question where this lesson puts the sample question.
 
 **Forward.** **Note-Taking and Personal Knowledge** is next in this term and is unwritten. It will
 need the reconstructive account from lesson 1, because the case for writing things down rests on it.
@@ -324,10 +356,10 @@ need the reconstructive account from lesson 1, because the case for writing thin
 - **[The Relationship Between Eyewitness Confidence and Identification Accuracy: A New
   Synthesis](https://journals.sagepub.com/doi/10.1177/1529100616686966)** (*Psychological Science in
   the Public Interest*, 2017). **Read in part by this course**, as lesson 5 says. If you read one
-  thing from this reading list, read its Summary: it is the best short example in the institute of a
-  field revising a consensus without pretending the old one was foolish.
-- **[Forgetting as a Consequence of Retrieval: A Meta-Analytic
-  Review](https://centaur.reading.ac.uk/38078/)** (*Psychological Bulletin*, 2014). **Read in
+  thing from this reading list, read its Summary: it is the clearest example this course met of a
+  field revising a consensus without pretending the old one was foolish. - **[Forgetting as a
+  Consequence of Retrieval: A Meta-Analytic
+  Review](https://centaur.reading.ac.uk/37052/)** (*Psychological Bulletin*, 2014). **Read in
   part**, as lesson 3 says. Worth opening for how carefully its authors describe a mechanism they
   haven't settled.
 
@@ -340,7 +372,7 @@ need the reconstructive account from lesson 1, because the case for writing thin
    measure. Lesson 2 carries the full account.
 2. Kou Murayama, Toshiya Miyatsu, Dorothy Buchli and Benjamin Storm, ["Forgetting as a Consequence
    of Retrieval: A Meta-Analytic Review of Retrieval-Induced
-   Forgetting"](https://centaur.reading.ac.uk/38078/), *Psychological Bulletin* 140(5), 2014. **Read
+   Forgetting"](https://centaur.reading.ac.uk/37052/), *Psychological Bulletin* 140(5), 2014. **Read
    in part.** Supports: that it pools many studies, and that its authors describe the inhibition
    account as largely supported with challenging evidence. Lesson 3 carries the full account.
 3. Elizabeth Loftus and John Palmer, "Reconstruction of automobile destruction", *Journal of Verbal
@@ -360,9 +392,9 @@ need the reconstructive account from lesson 1, because the case for writing thin
    loci"](https://www.biorxiv.org/content/10.1101/2020.04.29.067561v1.full), preprint. **Read in
    part: the abstract verbatim and the participant counts.** Supports: about fifty people, three
    arms, and that the abstract reports no figure for how much recall improved.
-6. **The sample question is this course's own addition to the institute's standing sort**, and the reading of
-   what each source licenses in the table's last column is the course's reasoning rather than any
-   source's. **The four worked claims are specimens written for this lesson**, not quotations,
-   except where a claim is attributed. **The three books named are on the research file's unread
-   line**: none was opened, the build fails on a citation to any of them, and nothing here assesses
-   their contents.
+6. **The sample question is this course's own addition to the institute's standing sort**, and the
+   reading of what each source licenses in the table's last column is the course's reasoning rather
+   than any source's. **The four worked claims are specimens written for this lesson rather than
+   quotations from anywhere, and the body says so where they are introduced. **The three books named
+   are on the research file's unread line**: none was opened, the build fails on a citation to any
+   of them, and nothing here assesses their contents.
