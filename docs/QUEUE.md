@@ -133,14 +133,17 @@ Rewrite these five lines each session. Nothing else goes in this block.
   people with a relative risk of 1.12 for short sleep sits on the other. Neither supports the other's
   sentence.
 
-  **The circadian gap was closed the same day** by a second Stage 1 pass, which added the
-  pharmacologic guideline (fourteen recommendations, every one weak, in both directions), the
-  chronotype measure and its laboratory gold standard, and IARC's Group 2A classification of night
-  shift work. **Two things Stage 2 must still settle before any lesson is drafted**: the `unread:`
-  line needs an `(except NN)` for Walker on whichever lesson covers the public dispute about his
-  book, or the build fails on it; and sleep disorders, children and adolescents, and light exposure
-  should each be left out by name, since nothing in the file covers them. Next:
-  `/outline-course courses/health-and-body/sleep`.
+  **Sleep is through Stage 2**, with an 8,200-word research file written in three passes and a
+  5,200-word outline planning eight lessons, an eighteen-item test and a three-week project that
+  compares two measurements of the same nights. The circadian and light gaps the first pass flagged
+  were both closed the same day rather than left for the outline to declare.
+
+  **Six decisions are settled in the outline and no lesson may re-open them**, of which two carry
+  the build: the `unread:` line now reads `Walker (except 07), Kryger`, so any lesson but 7 that
+  names him fails; and sleep disorders, children and adolescents, screens and ordinary indoor light,
+  dreams and naps are each left out by name in a stated lesson. **The course's own addition to the
+  institute's claim sort is the clock question**: is this claim about how much, or about when.
+  Next: `/draft-lesson courses/health-and-body/sleep 1`.
 
 - **Note-Taking and Personal Knowledge is through Stage 2**, with 4,600 words of research and a
   4,800-word outline planning eight lessons, an eighteen-item test and a project that runs across

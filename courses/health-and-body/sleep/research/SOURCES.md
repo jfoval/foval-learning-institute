@@ -1,6 +1,6 @@
 # Sources: Sleep
 
-<!-- unread: Walker, Kryger -->
+<!-- unread: Walker (except 07), Kryger -->
 
 *Stage 1 research, 2026-09-19. Written before any lesson is drafted. For each source: what it is good
 for and what it establishes. Where a passage is quoted below it was read in the original and checked
@@ -9,10 +9,11 @@ character by character; where it was not, the entry says so.*
 **The `unread:` line is the build's enforcement.** Matthew Walker's *Why We Sleep* and Kryger's
 *Principles and Practice of Sleep Medicine* are the two works a reader arriving at this course is
 likeliest to have heard of, and **neither was opened for this course**. A lesson may name them as
-things that exist and must not cite either for a claim. **Stage 2 must add an `(except NN)`
-exemption for Walker on whichever lesson handles the public dispute about his book**, in the form
-Note-Taking lesson 8 used, because that lesson has to name the book to discuss it. Until that
-exemption exists the build will fail on any lesson that names him, which is the correct default.
+things that exist and must not cite either for a claim. **Stage 2 settled the exemption: Walker is
+exempt on lesson 07 and nowhere else**, which is the lesson that handles the public dispute about his
+book, in the form Note-Taking lesson 8 used. Every other lesson fails the build if it names him, and
+every quotation from the book in lesson 7 reaches the course through the critic's essay, at one
+remove, which that lesson says at each one.
 
 ---
 
