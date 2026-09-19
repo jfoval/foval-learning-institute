@@ -81,21 +81,24 @@ Rewrite these five lines each session. Nothing else goes in this block.
   Bible Basics lessons 4 and 9, Python Basics lesson 1, Logic and Argument lesson 10, and Digital
   Literacy lessons 1 and 3. **The fix is one edit each: name the distractor by its content.**
 
-- **Note-Taking and Personal Knowledge is through Stage 1**, with 4,600 words of research. T2,
-  fifth in the term on running yourself. **Stage 2 is the next thing**, and it has two decisions to
-  make that Stage 1 could not.
+- **Note-Taking and Personal Knowledge is through Stage 2**, with 4,600 words of research and a
+  4,800-word outline planning eight lessons, an eighteen-item test and a project that runs across
+  the course. T2, fifth in the term on running yourself. **Drafting is the next thing.**
 
-  **The first is how many lessons go to practices with no evidence behind them.** The research
+  **The outline's main decision was how many lessons go to practices with no evidence behind
+  them, and the answer is none: they go inside lesson 7.** The research
   literature in this subject is about lecture note-taking by college students, tested within the
   hour or the week. The advice literature is about building a personal store of written knowledge
   over years, and a search found **no peer-reviewed work measuring whether any of it improves
   anything**. Its own evidence is Luhmann's output, which is a sample of one person who is also the
   person the method is named after. Memory lesson 6's treatment of the method of loci is the
-  template: say what it is, say nothing read here tests it, hand over the sorting tools.
+  template: say what it is, say nothing read here tests it, hand over the sorting tools. A whole
+  lesson on it would either pad or drift into opinion.
 
-  **The second is the boundary with two earlier courses.** How to Learn Anything teaches retrieval
-  practice and spacing; Memory teaches reconstruction and the sample question. This course uses all
-  of them and re-teaches none.
+  **The course's spine is lessons 3, 4 and 5**, which are one argument in three parts: the most
+  famous result in the subject, what happened when two teams checked it, and five meta-analyses of
+  the same question giving five answers. That is a worked example of how a question does and does
+  not get settled, run on a claim the reader has already met.
 
   **And Stage 1 found the best teaching object in any course so far.** The 2024 meta-analysis
   prints a table of five meta-analyses of the same question, with pooled effects from +0.008 to

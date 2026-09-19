@@ -12,25 +12,31 @@ description: >-
   checked: what the evidence says about writing notes by hand against typing them, what the
   encoding and the external-storage functions of a note actually are and why the two pull in
   different directions, what happens to a note you never look at again, and what a personal
-  knowledge system has to do to earn the time it costs. It takes the reconstructive account from
-  Memory as its starting point, because the case for writing anything down rests on it, and it
-  takes retrieval practice and spacing from How to Learn Anything rather than re-teaching them.
-  It is the fifth course of the term on running yourself.
+  knowledge system has to do to earn the time it costs. Its spine is one argument in three
+  lessons: the most famous result in the subject, what happened when two teams checked it, and five
+  meta-analyses of the same question that give five different answers. It takes retrieval practice
+  and spacing from How to Learn Anything and the reconstructive account from Memory rather than
+  re-teaching either. It is the fifth course of the term on running yourself.
 outcomes:
   - >-
-    State what a note is for, distinguishing the encoding function from the external-storage
-    function, and say which one a given note is serving
+    Distinguish the encoding function of a note from the external-storage function, and say which
+    one a described note is serving
   - >-
-    Describe what the longhand-against-laptop studies measured, what replicated and what did not
+    State what proportion of what is presented ends up in a note, and why a count of a note means
+    nothing without its denominator
   - >-
-    Choose a note-taking method for a described situation and say what evidence supports the choice
+    State what the longhand-against-laptop study found, at what read level, and which half of it
+    survived a direct replication
   - >-
-    Design a review routine for notes that uses what How to Learn Anything established about
-    retrieval and spacing
+    Read a table of meta-analytic effect sizes and say what five different answers to one question
+    mean
   - >-
-    Evaluate a personal knowledge system against what it costs to maintain, rather than against
-    what it promises
+    Say what a measurement of brain activity licenses about a claim on learning, and what it does
+    not
   - >-
-    Read a claim about note-taking and say what would have had to be measured to support it
+    Design a review routine for notes, and evaluate a personal knowledge system against the time it
+    costs to maintain
+  - >-
+    Read a claim about note-taking and say what would have had to be measured, and where
 prerequisites: [how-to-learn-anything, memory]
 sensitive_domain: false
