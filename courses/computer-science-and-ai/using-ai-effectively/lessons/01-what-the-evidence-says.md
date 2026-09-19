@@ -1,6 +1,7 @@
 ---
 title: What this is for, and what the evidence actually says
 minutes: 85
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/computer-science-and-ai/using-ai-effectively/01-what-the-evidence-says.mp3
 objectives:
   - State what the measured studies show about whether these systems make people more productive, including the two results that point opposite ways, and say what reconciles them
   - Say what this course claims and what it refuses to claim, and identify a claim about these systems that the course could not support

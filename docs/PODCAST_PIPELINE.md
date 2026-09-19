@@ -79,6 +79,22 @@ to be asked.
 When the cap is hit, requests fail rather than overcharging, so the failure mode is a wasted minute
 and not a surprise bill.
 
+### The wall before both of those: the prepaid balance
+
+**Google's prepaid credit balance is a third limit, it is invisible from this repo, and on
+2026-09-19 it was the one that stopped work.** A batch rendered eight episodes and then came back
+with HTTP **402**: *"Your prepayment credits are depleted."* `npm run state` was still reporting
+about $4.97 of headroom under the monthly cap at the time, and it was not wrong: **the cap and the
+prepayment are different numbers and either can run out first.** The cap limits what a month may
+spend; the prepayment is the money actually loaded into the account.
+
+**A 402 costs nothing.** It is refused before any audio is generated, exactly like the 429, and it
+is not an incident.
+
+**What John does:** top up prepaid credits at [ai.studio/projects](https://ai.studio/projects).
+Until he does, no render goes through whatever the cap says. **Tell him in one line and carry on
+with content**, which is the standing rule for the money and applies here too.
+
 ### The other ceiling, and it is the one you will actually hit
 
 **Money is not the only limit, and on 2026-09-18 it was not the binding one.** The account is on

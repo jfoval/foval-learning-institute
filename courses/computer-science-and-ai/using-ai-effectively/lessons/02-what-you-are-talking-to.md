@@ -1,6 +1,7 @@
 ---
 title: What you are actually talking to
 minutes: 90
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/computer-science-and-ai/using-ai-effectively/02-what-you-are-talking-to.mp3
 objectives:
   - >-
     Describe, without mathematics, what the system is doing when it answers, in a way you could say

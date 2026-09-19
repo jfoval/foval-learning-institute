@@ -1,6 +1,7 @@
 ---
 title: The session, and what it can see
 minutes: 115
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/computer-science-and-ai/using-ai-effectively/03-what-it-can-see.mp3
 objectives:
   - >-
     Say what the system can see when it answers, and explain from the mechanism why the same

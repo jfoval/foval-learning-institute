@@ -7,5 +7,12 @@
       "what": "A runaway retry loop. A session wrapped a render in a retry, each attempt timed out on the caller's side while Google kept rendering and kept billing, and nothing stopped it. Not production: almost none of it became audio anyone kept. It counts against September's cap because Google charged it, and it must never count as what an episode costs. The guards in scripts/podcast.mjs and the five rules in docs/PODCAST_PIPELINE.md section 4 exist because of this afternoon, and scripts/tests/podcast.test.mjs now tests them."
     }
   ],
-  "note": "monthlyCapUSD is the Google AI Studio cap at aistudio.google.com/spend. It is a CEILING on John's own money, not an allowance: unspent headroom is not lost, and nothing should ever be rendered in order to use it up. He raises it as he can afford it; raise it there first, then here. Real production spend is summed from the render manifests, which log what each call was billed; incidents are accidents recorded separately so they never pollute the per-episode figure. Google's own spend page is the authority."
+  "note": "monthlyCapUSD is the Google AI Studio cap at aistudio.google.com/spend. It is a CEILING on John's own money, not an allowance: unspent headroom is not lost, and nothing should ever be rendered in order to use it up. He raises it as he can afford it; raise it there first, then here. Real production spend is summed from the render manifests, which log what each call was billed; incidents are accidents recorded separately so they never pollute the per-episode figure. Google's own spend page is the authority. AND SEE prepaidDepleted: the monthly cap is not the only wall. Google's prepaid balance is a separate pot, invisible from here, and on 2026-09-19 it ran out first while this file still reported headroom.",
+  "prepaidDepleted": {
+    "seen": "2026-09-19",
+    "code": 402,
+    "message": "Your prepayment credits are depleted.",
+    "what": "The real wall is Google's PREPAID CREDIT BALANCE, which this file cannot see and does not model. On 2026-09-19 a batch stopped on HTTP 402 after eight episodes while monthlyCapUSD still showed about $4.97 of headroom. The cap below is a ceiling on a month's spend; the prepayment is the money actually loaded. They are different numbers and either can run out first. A 402 is refused before any audio is generated, so it costs nothing, and it is not an incident.",
+    "whatJohnDoes": "Top up prepaid credits at ai.studio/projects. Until then no render will go through, whatever this file says about the cap."
+  }
 }
