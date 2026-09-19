@@ -1,10 +1,10 @@
 ---
 title: When not to use one
-minutes: 95
+minutes: 100
 objectives:
   - >-
     State what the evidence shows about using one of these systems while learning something, giving
-    both of the study's figures and its scope
+    all three of the study's figures and the scope they carry
   - >-
     Identify a task where the doing was the point, and say specifically what handing it over would
     cost you
@@ -40,24 +40,24 @@ quiz:
     explain: >-
       Reading an answer and being able to produce one are different capacities, and only the second
       gets her through the day when the system is unavailable or wrong. The compliance point is real
-      and is a different lesson. The accuracy answer may well be false, since a checked draft can be
+      and is about who signs work rather than about what she can do. The accuracy answer may well be false, since a checked draft can be
       more accurate than a tired first attempt. And the no-cost answer is exactly the belief the
       study was run to test.
   - q: >-
-      Somebody uses a system to write a letter of a kind he will never have to write again, in a job
-      he leaves next month. What should this lesson say to him?
+      A bookkeeper has used a system to categorise every transaction for two years. Her firm now asks
+      her to review a subcontractor's coding by hand, and she finds it hard going. What does this
+      lesson predict, and what is the question worth asking about it?
     options:
-      - That he is losing the judgement the letter would have built, which will cost him later
-      - That the question is whether the letter is any good, since nothing else is at stake here
-      - That he should write it himself anyway, since the habit matters more than the individual case
-      - That he should redesign how he uses it, so that he still does the part that builds judgement
+      - That she will be fine, because categorising by hand is only a slower version of what she has been doing
+      - That she may struggle, and the question is whether the categorising is where the judgement was built
+      - That she will be quicker than a colleague who never used one, since she has seen far more transactions
+      - That her firm has made a management error, because reviewing should go to whoever did the coding
     answer: 1
     explain: >-
-      The cost this lesson is about appears when the doing was the point, and here it is not: no
-      judgement is being built because none is needed again. A course that cannot say that has lost
-      the reader for the cases where the cost is real. The losing-judgement answer applies the rule
-      without its condition. The habit answer turns a trade-off into a discipline. And the redesign
-      answer is right for a recurring task and wasteful for this one.
+      Two years of approving a system's categories is two years of recognising them, which is a
+      different capacity from producing them, and reviewing somebody else's work needs the second.
+      The she-will-be-fine answer assumes the two capacities are the same. The seen-more answer counts
+      exposure as practice. And the management answer changes the subject to who should have the task.
   - q: >-
       Which redesign most closely matches what the guarded tutor in the study actually did?
     options:
@@ -88,60 +88,72 @@ quiz:
       access was removed. And the obvious-conclusion answer carries one of the study's numbers and
       leaves the other.
   - q: >-
-      Why is "I read the explanation carefully, so I have learned it" a belief worth distrusting?
+      A trainee decides he will use a system for the parts of his job he already understands, and do
+      the rest himself. What is the weakness in that rule?
     options:
-      - Because explanations produced by these systems are less reliable than a good textbook would be
-      - Because learning requires spaced repetition, which reading something through once cannot provide
-      - Because reading feels like learning, and the feeling tracks fluency rather than retention
-      - Because the explanation may have been produced for a different question than the one that was asked
+      - Nothing; it is a correct application of this lesson and is roughly what the redesign exercise asks for
+      - It costs him time, because the parts he already understands are the ones he could do quickest himself
+      - What he already understands stops being practised, and a judgement decays when it is not used
+      - He has no way of telling which parts he understands, so the rule cannot be applied to a real task at all
     answer: 2
     explain: >-
-      This is the fluency illusion from Term 1, arriving with a better interface: a clear explanation
-      is easy to follow, and easy to follow feels like understood. The reliability answer is a
-      different objection and would apply to a bad textbook too. The spacing answer names a real
-      technique and is not what makes the feeling misleading. And the wrong-question answer describes
-      an error rather than the illusion.
+      A rule that protects what you cannot yet do leaves everything you can do unprotected, and the
+      capacities that go first are the ones that stopped being exercised. The nothing-wrong answer
+      misreads the redesign exercise, which is about keeping the part that builds the judgement
+      rather than the part that already has. The time answer is true and is not the cost this lesson
+      is about. And the cannot-tell answer is too strong: he can tell roughly, and roughly is
+      enough to run the rule, which is why the rule is tempting rather than useless.
 ---
 
-A course that teaches you to use something has an obvious temptation, which is never to say when to stop. This lesson exists because the best-evidenced study in this course's research is about exactly that, and it would be dishonest to put it in a callout.
+A course that teaches you to use something has an obvious temptation, which is never to say when to stop. This lesson exists because the best-evidenced study in this course's research is about exactly that, and it would be a dishonest course that put it in a callout.
 
 ## What happened to a thousand students
 
-In 2025 a team published a field experiment in *PNAS* with nearly a thousand high school mathematics students.[1] The students got access to GPT-4 during practice sessions, in one of two forms.
+In 2025 a team published a field experiment in *PNAS* with nearly a thousand high school mathematics students.[1] During practice sessions the students were in **one of three conditions**: two of them with access to GPT-4, and one with no access at all.
 
-**GPT Base** was a standard chat interface, of the kind most people use.
+**GPT Base** was a standard chat interface.
 
 **GPT Tutor** was the same model with prompts designed to safeguard learning, giving teacher-written hints rather than answers.
 
-Then the results, and you need both.
+**And a group with no access**, which is the comparison that makes the rest of it mean anything. Without it there is nothing to be 17% below.
+
+Then the results, and you need all of them.
 
 **During practice, both helped, and the guarded one helped far more.** Grades improved "48% ... for GPT Base and 127% for GPT Tutor".[1]
 
 **When access was taken away, the unguarded group was worse off than students who had never had it at all**, by "17% ... in grades for GPT Base".[1] The authors' own summary of why: "Without guardrails, students attempt to use GPT-4 as a 'crutch' during practice problem sessions, and subsequently perform worse on their own."[1]
 
-And the guarded group did not suffer that. The negative effects "are largely mitigated by the safeguards in GPT Tutor".[1]
+And the guarded group did not suffer that. The negative effects were "largely mitigated by the safeguards in GPT Tutor".[1]
 
-**The 48 and the 17 travel together, always**, because either one alone is propaganda. And the 127 travels with them, because it is what turns this from a verdict on the technology into a question about how it is used.
+| Condition | During practice | After access was removed |
+|---|---|---|
+| No access | the baseline | the baseline |
+| GPT Base | grades up 48% | 17% below the no-access group |
+| GPT Tutor | grades up 127% | the harm "largely mitigated" |
 
-**The scope travels too.** High school mathematics, practice problems, GPT-4, published 2025. It is one study in one subject with one age group, and it is the best-designed thing anybody has on this question.
+**The 48 and the 17 travel together, always**, because either one on its own is being used to make an argument the study doesn't support. And the 127 travels with them, because it is what turns this from a verdict on the technology into a question about how it is used.
+
+**The scope travels too.** High school mathematics, practice problems, GPT-4, published 2025. It is one study in one subject with one age group, and it is the best-evidenced thing this course found on the question.
 
 :::predict Before you read on: why would using a tool during practice leave somebody worse off afterwards than never having used it? Not the same as, worse than.
 The mechanism is one you already have, from Term 1 of the Core.
 
-**How to Learn Anything** taught that retrieval strength is built by retrieving, and that a study method which feels fluent is often the one teaching least. Asking for the answer removes the retrieval, and it removes it at exactly the moment when the struggle was doing the work.
+**How to Learn Anything** taught that reconstructing something from nothing is what builds the kind of memory that lasts, and that a study method which feels fluent is often the one teaching least. Rereading a clear answer raises fluency and does little for what you will still have next month. Asking for the answer removes the reconstructing, and it removes it at exactly the moment when the struggle was doing the work.
 
 So the worse-off part isn't mysterious. The unguarded group spent their practice sessions reading answers rather than producing them, and got grades in those sessions that reflected the tool rather than themselves. They had the same hours and none of the retrieval, and the feeling of following a clear worked answer is very close to the feeling of understanding one.
 
 **That is the fluency illusion with a much better interface.**
 :::
 
+**The mechanism, in one sentence, because it should not live only behind that button.** Practice works by making you produce the answer, an answer you read instead is an answer you didn't produce, and the grade you get in that session is a measurement of the tool rather than of you.
+
 ## The generalisation, and it is this course's rather than the study's
 
-The study is about maths homework. Most readers here are not doing maths homework. So what follows is reasoning from it rather than a finding, and the label matters because the reasoning is doing a lot of work.
+The study is about maths homework, and most readers here aren't doing maths homework. So what follows is reasoning from it rather than a finding, and the label matters because the reasoning is doing a lot of work.[3]
 
 **The cost appears when the doing was the point.**
 
-Sometimes the output is the point: a letter you need, a summary somebody will read, a first draft you will rewrite anyway. Hand those over, check them, get on with your day.
+Sometimes the output is the point: a letter you need, a summary somebody will read, a first draft you will rewrite anyway. Hand those over, check them, and get on with your day.
 
 Sometimes the doing is the point. You are learning something. You are building a judgement you will need later, in a room, without the system. You are writing something whose value is that you thought it through rather than that it exists.
 
@@ -149,39 +161,47 @@ Sometimes the doing is the point. You are learning something. You are building a
 
 ## Two people doing the same thing differently
 
-Here is the distinction made concrete, because "when the doing is the point" is easy to nod at and hard to apply.
+"When the doing is the point" is easy to nod at and hard to apply, so work it on one person. The case is constructed, and what matters in it is the difference between the two approaches rather than any detail of the trade.
 
-**A conveyancing paralegal, first year, learning to spot problems in a title.** She has a system open. Two ways to use it.
+**A trainee claims handler, first year, learning to spot the problems in a claim file.** She has a system open. Two ways to use it.
 
-*One.* She reads the title, marks what she thinks is wrong, and then asks: "Here is a title and here is what I flagged. What have I missed, and why would somebody flag it?" She gets three more, reads why, and next time she catches two of the three herself.
+*One.* She reads the file, writes down what she thinks is wrong, and then asks: "Here is the file and here is what I flagged. What have I missed, and why would somebody flag it?"
 
-*Two.* She pastes the title in and asks what is wrong with it. She gets a good list. She reads it, agrees with it, and sends it on. Next time she pastes the next title in.
+Her list said three things: the incident date is a Sunday and the policy is a commercial one, the repair quote has no VAT line, and the claimant's address on the form does not match the address on the policy. What comes back adds two she did not have. The claim was notified eleven weeks after the incident, and the policy wording she was sent has a notification window in it. And the quote is from a firm that shares a surname with the claimant.
 
-Same tool, same subject, same fifteen minutes. The first builds the thing she came to the firm to acquire, which is a trained eye. The second replaces it, and the replacement works right up until she's in front of a client with a question the list didn't cover.
+She reads why each of those matters. The next file she does, she catches the late notification herself and she misses the surname again.
+
+*Two.* She pastes the file in and asks what is wrong with it. Back come five things, the same five. She reads them, agrees, and sends the file on. The next file, she pastes in.
+
+Same tool, same subject, same fifteen minutes. The first builds the thing she came to the firm to acquire, which is a trained eye: three flags, then five, then the two she missed becoming one. The second produces the same five flags every week and builds nothing, and it works right up to the morning she is in front of somebody with a question the list did not cover.
 
 **Notice what the first one is.** It is the guarded condition, run by her rather than by a designer. She attempted first and asked for what she missed, which is hints after effort rather than answers instead of it.
 
 :::checkpoint The paralegal's second approach produces better flagged titles this week than her first approach does. Is that a reason to prefer it?
-For this week's titles, yes, and that is exactly what makes the trade hard rather than obvious.
+For this week's files, yes, and that's exactly what makes the trade hard rather than obvious.
 
 The study found the same shape: the unguarded group's practice grades went up 48%. The work in front of them got better. What went down was what they could do without it.
 
-So the question isn't which produces better output now. It's whether you need the capacity later, and how much later, and what it costs you not to have it. For a first-year paralegal who intends to be a conveyancer for thirty years, the answer is not close. For somebody covering a colleague's caseload for three weeks, it might be.
+So the useful question is not which produces better output now, but whether you need the capacity later, and how much later, and what it costs you not to have it. For a first-year paralegal who intends to be a conveyancer for thirty years, the answer is not close. For somebody covering a colleague's caseload for three weeks, it might be.
 
 **Writing down which of those you are is the whole exercise at the end of this lesson.**
 :::
 
 ## The case where it does not matter, which the course has to say
 
-A man in his last month of a job he is leaving writes a kind of letter he will never write again. He hands it over, reads it, sends it.
+A man in his last month at a charity he is leaving has to write to forty regular donors explaining that the minibus appeal has been withdrawn and their standing orders will be cancelled. He has never written that letter and will never write it again.
 
-**He has lost nothing.** No judgement was going to be built, because none is needed again. The doing wasn't the point; the letter was.
+He hands the facts over, gets a draft, reads it, changes two sentences that sounded like a press release, and sends it.
+
+**He has lost nothing.** Ask the question this lesson asks: if he could not use a system for this for six months, what would he be worse at? Writing withdrawal letters to donors. He is leaving in three weeks and will not write one again, so the answer is nothing he needs. No judgement was going to be built, because none is needed again. The doing wasn't the point; the letter was.
+
+Now change one detail and the answer changes with it. If he were staying, and the charity ran three appeals a year, the same letter would be the third or fourth of its kind he had written, and learning what tone keeps a donor is exactly the judgement a fundraiser is paid for. Same task, same tool, opposite verdict, and what moved it was one fact about his next twelve months.
 
 A course that can't say that plainly has lost you for the cases where the cost is real, because you'll correctly notice that its rule is being applied without its condition, and you'll stop trusting the condition.
 
 The same goes in the other direction, and the standards body says it in the same section as the warning everybody quotes. Alongside over-reliance, which it calls "excessive deference to automated systems", NIST names the opposite failure: "human experts may be unnecessarily 'averse' to GAI systems, and thus deprive themselves or others of GAI's beneficial uses".[2]
 
-**This course is against both.** Declining to use one of these systems is not a mistake, and it is not a virtue either. It is a decision with a cost on each side, and the point of this lesson is to make the cost on the less obvious side visible enough to weigh.
+**This course is against both.** Declining to use one of these systems isn't a mistake, and it isn't a virtue either. It's a decision with a cost on each side, and the point of this lesson is to make the cost on the less obvious side visible enough to weigh.
 
 ## Five beliefs worth testing
 
@@ -191,32 +211,32 @@ The same goes in the other direction, and the standards body says it in the same
 
 **"The study shows these tools are bad for education."** The same paper's guarded tutor produced the biggest gain of the three conditions.[1] The finding is about design, not about whether.
 
-**"Refusing to use one is just being difficult."** NIST names unnecessary aversion as a real cost in the same breath as over-reliance.[2] But somebody who's weighed the trade and decided isn't being averse. They're doing what this lesson asks.
+**"Refusing to use one is just being difficult."** NIST names unnecessary aversion as a real cost in the same breath as over-reliance, and the word doing the work there is "unnecessarily".[2] Somebody who does not want to use one is not thereby being averse in NIST's sense, and the reason can be this lesson's trade, or it can be a reason this course has no standing to weigh: what the work is for, what they want to be good at, what they are content to be part of. This lesson supplies one consideration. It doesn't supply the licence.
 
-**"I can tell whether I have learned something."** The least comfortable one, and the reason the exercises below ask you to test rather than to reflect. The students in the study couldn't tell either, and their practice grades were telling them the opposite of the truth.
+**"I can tell whether I have learned something."** The least comfortable one, and the reason the exercises below ask you to test rather than to reflect. The study measured grades rather than what the students believed, so this next part is inference: their practice grades went up while what they could do alone went down, which means the most visible signal they had was pointing the wrong way.
 
 ## Practice
 
 :::exercise Stop one thing
 Take 20 minutes.
 
-1. List every task you currently hand over. Five or six is plenty.
+1. List five or six candidate tasks. Ones you currently hand over, if you do. Ones you have been asked or expected to hand over. And ones you have considered and decided against, which belong on the list for the same reason the others do.
 
 2. Beside each, answer one question: **if I could not use a system for this for six months, what would I be worse at?** Not what would take longer. What would I be *worse at*.
 
 3. Pick the one where the answer is most uncomfortable.
 
-4. **Stop doing that one with a system.** Write down the reason in a sentence, and write down what you will do instead, including how much longer it will take.
+4. **Act on it.** If it is a task you hand over now, stop handing that one over: write the reason in a sentence, and write what you will do instead, including how much longer it will take. If it is a task you have already declined, the step is the mirror image: write down what declining is costing you, in hours or in output, and write down what you would need to see to change your mind. Both are the same exercise, which is putting a number against a decision you have been making by feel.
 
 5. Put a date three weeks from now in your calendar to read what you wrote and say whether you kept to it.
 
-If nothing on your list produces an uncomfortable answer, write that down too, with the list, and say why. That is a legitimate result and it is worth having on paper rather than assumed.
+If nothing on your list produces an uncomfortable answer, write that down too, with the list, and say why. That is a legitimate result and it is worth having on paper rather than assumed. So is a list on which every entry is a task you have declined.
 :::
 
 :::exercise Redesign one thing, the harder half
 Take 25 minutes. This is the guarded-tutor condition applied to yourself, and it matters more than stopping, because you won't stop most things.
 
-1. Take one task you use a system for and intend to keep using it for.
+1. Take one task you use a system for and intend to keep using it for. If there is no such task, take one you are expected to use a system for, or one you would use a system for if you were going to use one at all; the redesign works the same way on a hypothetical, and it is the cheapest way to find out whether your objection is to the tool or to a particular shape of using it.
 
 2. Write down **which part of it builds the judgement**. Usually one specific step: the noticing, the choosing, the first attempt, the diagnosis.
 
@@ -224,7 +244,7 @@ Take 25 minutes. This is the guarded-tutor condition applied to yourself, and it
 
 4. **Predict what it will cost you in time**, then do it that way three times and record the real number.
 
-5. Then the judgement, in writing: is the extra time worth what it buys, for this task, for you? A no is a legitimate answer if you have actually measured it.
+5. Then the judgement, in writing: is the extra time worth what it buys, for this task, for you? A no is a legitimate answer if you've actually measured it, and so is deciding that the redesigned shape is the only one you want to use.
 
 Keep this. It is section six of the course project, which asks for one task stopped and one redesigned.
 :::
@@ -233,12 +253,12 @@ Keep this. It is section six of the course project, which asks for one task stop
 
 **Back.** Lesson 1's evidence and this lesson's are the two halves of one decision: what handing a task over gains you, and what it costs you. Lesson 6 told you which tasks these systems are reliable on, which is a different question from which tasks you should hand over. Lesson 8 priced the checking, and that price belongs in this calculation too. And Term 1's **How to Learn Anything** supplies the mechanism, in its lessons on the fluency illusion and on retrieval practice, which this lesson uses and does not re-teach.
 
-**Forward.** Lesson 10 is about what you hand over of a different kind, which is your data rather than your practice. Lesson 11 closes the course by turning its habits on claims about these systems, including claims about learning.
+**Forward.** Lesson 10 is about what you hand over of a different kind, which is your data rather than your practice. Lesson 11 closes the course by turning its habits on claims about these systems, and the habit it teaches is the one this lesson just used on a study: ask what was measured, on whom, and what travels with the figure.
 
 ## Go deeper
 
-- **Bastani and colleagues, ["Generative AI Without Guardrails Can Harm Learning: Evidence from High School Mathematics"](https://hamsabastani.github.io/education_llm.pdf)** (*PNAS*, 2025). The abstract is on the first page and carries every figure in this lesson. Read the significance statement under it too, which is four sentences and is the authors putting their own result in proportion.
-- **[NIST AI 600-1](https://doi.org/10.6028/NIST.AI.600-1)**, section 2.7 on human-AI configuration. Short, and the only official document this course has found that names both failures in the same paragraph.
+- **Bastani and colleagues, ["Generative AI Without Guardrails Can Harm Learning: Evidence from High School Mathematics"](https://hamsabastani.github.io/education_llm.pdf)** (*PNAS*, 2025). Every figure in this lesson comes from the abstract, which is on the first page. This course read the abstract and did not open the body, so the recommendation is the paper rather than any part of it, and the first page is where its figures come from.
+- **[NIST AI 600-1](https://doi.org/10.6028/NIST.AI.600-1)**, section 2.7 on human-AI configuration. Short, and the only official document this course has found that names both failures in the same section.
 - **How to Learn Anything, lessons 1 and 3**, on the Foval Core. If the mechanism here felt thin, that is where it is taught properly, and this lesson deliberately does not repeat it.
 
 ## Sources
