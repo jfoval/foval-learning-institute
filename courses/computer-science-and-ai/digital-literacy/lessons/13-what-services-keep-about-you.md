@@ -178,8 +178,8 @@ they arrived with.
 
 The same abstract records something else, and it belongs here: participants' annotations "documented
 their excitement at finding data records that triggered nostalgia, but also shock and anger about
-the privacy implications of other data they saw".[3] One archive, both reactions, in the same
-sitting.** And afterwards, "many participants hoped to request the company erase some, but not all,
+the privacy implications of other data they saw".[3] One archive, both reactions, on this
+course's reading of that sentence.[6] And afterwards, "many participants hoped to request the company erase some, but not all,
 of the data", which is a more interesting result than either camp in the 2015 study would've
 predicted.
 

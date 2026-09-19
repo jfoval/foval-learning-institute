@@ -496,28 +496,24 @@ Rewrite these five lines each session. Nothing else goes in this block.
   1,000 to 1,200). Lesson 1 sits at exactly 1,417, the guard's ceiling to the word, and took 473
   seconds and $0.26, the longest and dearest render of the session.
 
-- **Digital Literacy is written as far as it can be, and now is.** All twelve drafted lessons have
-  a fact-checked script; `npm run state` shows 12 of 12. Nothing on this course is outstanding
-  except lesson 13, which is blocked below.
+- **Digital Literacy is PUBLISHED**, with thirteen lessons, both assessments, thirteen Stage 4
+  reviews applied and thirteen fact-checked scripts. T1, fifth of the Tools term. It owes thirteen
+  episodes, which is $2.60 and is money and trails; `curriculum/audio-debt.yaml` opened at thirteen
+  in the publishing commit.
 
-  **What the twelve checks taught, because it is the same defect three ways.** Two came back FAIL
-  and the rest PASS WITH NITS, and almost none of it was an invented fact. Lesson 1's script had
-  offered Kang's single-box drawing as the result arguing against the course's own premise, when
-  the lesson presents it as the encouraging half and puts the weight on the null result that
-  technical background had no relationship with protective action. **A compression that keeps every
-  figure can still invert the argument.** Lesson 6's script spoke one error message for both shells
-  and then claimed they differed in word order, and after the repair it made the same unhearable
-  claim one clause later; it took three rounds. **An episode is heard, not read, so a difference
-  that lives in punctuation or a capital letter does not exist**, and that is worth adding to the
-  fact-check prompt for any lesson that prints a terminal message. And four scripts running, the
-  nits were dropped hedges: "will usually have changed" stated flat, "almost every" split across
-  two sentences so three items became universals, "by default" removed from a claim the lesson's
-  own callout contradicts. **What a compression removes first is a qualifier**, which the pipeline
-  doc already says and which held on every lesson here.
+  **Lesson 13's gate is gone and the course is no longer blocked on John.** It had required a
+  session to run a real data export end to end. That rule demanded primary fieldwork no other
+  lesson in this repo requires, rested on a sample of one, and would have put John's own archive
+  into a public privacy lesson. `research/SOURCES.md` now carries Google's documentation for what is
+  promised, read directly and dated, and three studies for what people find when they open one.
 
-  Every script in this course was also written long and cut against the free dry run before the
-  check rather than after, per section 4a. Five of the six drafted today opened above the
-  1,417-word wall.
+  **What the twelve fact-checks taught, because it is the same defect three ways.** Two came back
+  FAIL and the rest PASS WITH NITS, and almost none of it was an invented fact. Lesson 1's script
+  had offered Kang's single-box drawing as the result arguing against the course's own premise, when
+  the lesson presents it as the encouraging half. **A compression that keeps every figure can still
+  invert the argument.** Lesson 6's script spoke one error message for both shells and then claimed
+  they differed in word order; it took three rounds. **An episode is heard, not read, so a
+  difference that lives in punctuation or a capital letter does not exist.**
 
 - **BLOCKED ON JOHN, and the block is now in `course.yaml` rather than only here.** With the
   scripts done, lesson 13 is the single thing between Digital Literacy and publication. The course

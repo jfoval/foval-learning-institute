@@ -50,9 +50,10 @@ reset:
 
 owed:
   # course id (the folder name)   : episodes still to render
+  digital-literacy: 13
   bible-basics: 5
   using-ai-effectively: 11
-  time-management: 4
+  time-management: 1
   habits-and-self-discipline: 7
   focus-and-deep-work: 7
   memory: 7

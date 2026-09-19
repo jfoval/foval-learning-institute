@@ -1,6 +1,7 @@
 ---
 title: Deciding what not to do
 minutes: 110
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/learning-and-mind/time-management/06-deciding-what-not-to-do.mp3
 objectives:
   - >-
     Produce a written decision to stop or decline something, with what it costs on the other side
