@@ -43,7 +43,18 @@ Reviews run in a fresh context, never in the same context as the draft. That is 
    And check the organising claim itself, not only the sentences. That same course's insurance lesson was built on "insurance is negative expected value by construction", which is false for employer coverage, where the employer pays roughly six sevenths of the premium untaxed, and employer coverage is most of what the lesson teaches.
 4. **Pedagogy**, against Part 4. Objectives testable, worked examples before problems, exercises that are real practice, misconceptions addressed. Quiz against 4.3: at least half application questions, plausible distractors, teaching explanations. **Measure the option shapes, do not eyeball them**: option lengths within about 15 characters, all four answer indices used across the quiz, no adjacent repeat, at least two options per item carrying no absolute. Check whether the items reuse the body's own people and numbers, which tests recall of the page rather than the idea. Check that no self-check prints its own answer in plain body text instead of hiding it behind `:::predict` or `:::checkpoint`.
    **Execute every stem against its own model answer, not only the answer against the source.** An Algebra practice item asked the reader to show that a correct equation was wrong and reached its "correct version" by swapping the letters, which teaches the reversal error as the cure for it. The stem was a typo for a different equation and the answer text was internally consistent, which is why the drafter's own arithmetic check missed it.
-   **Trace every "if you got X, you probably did Y" backwards** from the wrong answer. Three in one rebuild blamed a slip that cannot produce the number, and one blamed a route that produces the right answer.
+   **Trace every "if you got X, you probably did Y" backwards** from the wrong answer.
+   **And redo every sum in the lesson by hand, saying so in the prompt.** Measured over one course
+   on 2026-09-19: five worked sums were wrong and **each was the only sum in its lesson**, which is
+   also the sum the exercise then asks the reader to reproduce. A lunch break subtracted twice; a
+   count of switches used where the count of stretches was needed, which is always one more; a
+   total that came from nowhere and then carried a conclusion; the waking hours *inside* a reader's
+   categories printed as the hours outside them; and six tenths of a day called "within half a day".
+   **A reviewer told in terms to redo every number found three of the five. Two survived the review
+   and were caught by the podcast fact-check a stage later.** So name the numbers in the prompt and
+   ask for them to be worked, rather than trusting that a fact-check of the sources covers the
+   arithmetic between them: every one of these lessons had every quotation and every cited figure
+   correct. Three in one rebuild blamed a slip that cannot produce the number, and one blamed a route that produces the right answer.
 5. **The cold-start pass. Run `npm run taught <course>` and read this lesson as someone who has
    done exactly those courses and nothing else.** Not as someone who knows the subject. Walk every
    instruction and every step literally, in order, and stop at the first thing that cannot be done
