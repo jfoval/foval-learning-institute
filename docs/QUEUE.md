@@ -123,10 +123,11 @@ Rewrite these five lines each session. Nothing else goes in this block.
 
 - **Note-Taking and Personal Knowledge is through Stage 2**, with 4,600 words of research and a
   4,800-word outline planning eight lessons, an eighteen-item test and a project that runs across
-  the course. T2, fifth in the term on running yourself. **All eight lessons are drafted and the
-  project is written. Lessons 1 to 6 have been reviewed and every finding is applied; lesson 7's
-  review is running and lesson 8 owes one. The eighteen-item course-end test is written. **What is
-  left is those two reviews, and then the course publishes.**
+  the course. T2, fifth in the term on running yourself. **Published on 2026-09-19.** All eight
+  lessons are through Stage 4 with every finding applied, the course-end test and the project are
+  written, and `curriculum/audio-debt.yaml` opened its line at eight. **What is left is the eight
+  podcast scripts, which cost nothing at the API and are what takes the course from published to
+  written.**
 
   **The outline's main decision was how many lessons go to practices with no evidence behind
   them, and the answer is none: they go inside lesson 7.** The research
