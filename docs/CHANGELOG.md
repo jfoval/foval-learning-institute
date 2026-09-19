@@ -11,6 +11,75 @@ Older entries refer to `docs/BACKLOG.md`, which was split on 2026-09-09 into `do
 unstarted work) and this file. Its section numbers survive only in those entries and in a few
 split-seam comments inside Bible Basics lessons, which point at `docs/DECISIONS.md` §5.
 
+## 2026-09-19 — Time Management is published, and Term 1's Tools are complete but for one blocked lesson
+
+**The course went live.** Eight lessons, every one through Stage 4 with its review applied, both
+assessments written, and eight podcast scripts drafted. It is the seventh and last course of the
+Tools term. `curriculum/audio-debt.yaml` opened at eight in the same commit, per rule 6, because
+audio gates the word *finished* and not publishing.
+
+**It is an honest course about a dishonest subject**, and the shape of it follows from that. There
+is no canonical textbook and there are no university syllabi; the nearest thing to a textbook
+chapter says the field "has made its way into the literature without being accompanied by empirical
+research". So the course spends its first two lessons on measurement rather than method, states in
+lesson 6's first paragraph that it is the lesson with the least evidence behind it, and closes on a
+lesson about reading claims, including its own.
+
+**Two decisions in the outline shaped every lesson and are worth carrying to the next course.** The
+course says "your hours" and never "productivity", because the one meta-analysis finds the wellbeing
+effect larger than the performance effect and a course leading with output would be promising what
+its evidence supports least. And **every exercise had to work for a reader whose week is mostly
+fixed**: a shift worker, a carer, a self-employed tradesperson. That second one failed twice in
+review, on lessons 6 and 7, in both cases because an exercise addressed that reader and then asked
+for something only a reader with discretion could do. Both are fixed, and the fix improved the
+lessons rather than patching them.
+
+### What eight Stage 4 reviews measured
+
+**The fact-check failed on all eight lessons, and in the same way every time.** Every quotation in
+the course string-matched its source character for character, and every figure matched the research
+file digit for digit. **Every single failure was in a sentence with no quotation marks in it**: a
+between-person finding reported as a within-person one, a coinage credited to the paper that
+borrowed it, a mechanism the source explicitly pre-empts, a cross-reference to a recommendation the
+other lesson declines to make, an invented reason for a study's attrition, a comparative hardened
+into a condition on two consecutive lessons. That is `/draft-lesson`'s own measured note confirmed
+on a third course.
+
+**Five worked sums were wrong, and each was the only sum in its lesson**, which is also the sum the
+exercise then asks the reader to reproduce. A lunch break subtracted twice. A count of switches used
+where the count of stretches was needed, which is always one more. A total that came from nowhere
+and then carried a conclusion. The waking hours *inside* a reader's categories printed as the hours
+outside them. And six tenths of a day called "within half a day". **Two of the five survived their
+Stage 4 review and were caught by the podcast fact-check a stage later**, which is the strongest
+evidence this repo has for writing scripts promptly rather than treating them as packaging.
+`/review-lesson` now asks for every sum to be redone by hand, in terms.
+
+**Defect 20 recurred five times in one course**, which produced a new note in `/draft-lesson` about
+why: the drafter writes the honest footnote first, and the footnote then feels like the job done.
+Twice the footnote had no marker in the body at all, so the admission was unreachable.
+
+### Three checks added, and one of them could not have been caught any other way
+
+**A `:::` block header wrapped onto a second line** silently becomes a fragment, because the header
+is captured with `(.*)` and that cannot match a newline. Nine of them across four drafts showed the
+reader half a question and hid the rest behind the reveal button. **The defect does not exist in the
+source, only in the rendered page**, so no amount of reading the markdown would find it; a Stage 4
+reviewer found it by reading `build.mjs`. `npm run validate` now fails a published course on it.
+
+**`npm run state` learned two things it could not see.** A course whose next action is blocked on
+something outside the repo now carries a `blocked:` line in its `course.yaml`, so the one next
+action skips it and prints the reason; that stopped every session spending its first move on Digital
+Literacy lesson 13, which is gated on a data export only John can run. And when the day's TTS quota
+is spent, the state script reads the last 429 out of the attempt manifests, takes Google's own
+`retryDelay`, and moves the one next action on to content until the window clears. A 429 is refused
+before any audio is generated, so it costs nothing and is not an incident.
+
+### The budget
+
+**Nothing was spent.** The daily quota of fifty requests on this model went out at 03:19 with a
+20h40m retry, so no episode was rendered and no money left the account. Time Management owes eight
+episodes at about $1.60, and the institute owes twenty-four across three courses at about $4.80.
+
 ## 2026-09-19 — Using AI Effectively is published and written, and the repo's warning debt is cleared
 
 **The course went live.** Eleven lessons, every one through Stage 4 with its review applied, the
