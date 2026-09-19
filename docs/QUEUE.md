@@ -69,8 +69,14 @@ Rewrite these five lines each session. Nothing else goes in this block.
 
 - **Time Management is drafting, lesson 1 of 8 done.** T1, seventh and last of the Tools
   term, `status: drafting`. 4,900 words of research and a 5,400-word outline planning eight lessons,
-  a twenty-item test and a fortnight-long project. **Lesson 1 is drafted and committed and owes a
-  Stage 4 review**; lessons 2 to 8 are next, and `npm run state` names the one to draft.
+  a twenty-item test and a fortnight-long project. **Lessons 1 and 2 are drafted and both owe their
+  Stage 4 review**; lessons 3 to 8 are next, and `npm run state` names the one to draft.
+
+  **Lesson 2 is drafted**, 3,850 body words, 110 measured minutes, and both of this drafter's
+  measured defects appeared on it again on the first pass: 0.5 contractions per 1,000 body words
+  against a band of 5 to 8, and the outline's 65-minute estimate against a measured 110, which is
+  the factor-of-two understatement this repo has now seen in every lesson it has measured. Both are
+  closed on the file. Lessons 1 and 2 are in Stage 4 review.
 
   **Both of this drafter's measured defects appeared on lesson 1's first pass, exactly as
   `.claude/commands/draft-lesson.md` numbers 15 and 16 say they will.** The draft came in at 0.3
