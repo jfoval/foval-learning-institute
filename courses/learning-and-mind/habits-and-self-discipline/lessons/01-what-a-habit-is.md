@@ -55,11 +55,11 @@ quiz:
       The point of the transfer to external cues is that reliance on attention and motivation drops,
       so the behaviour survives the weeks when you do not feel like it. The chosen answer describes
       a deliberate behaviour rather than a habitual one. Getting better at something is skill, which
-      is a different thing from automaticity. And the time saving is real and small next to
-      independence from motivation.
+      is a different thing from automaticity. And the second benefit is what your attention is freed
+      to do, not minutes saved; nothing here measures time.
   - q: >-
-      After a smoking ban in public houses, smokers reported finding themselves lighting a cigarette
-      when they drank alcohol, without having decided to. What does this illustrate?
+      A woman who gave up sugar in tea a year ago finds she has stirred a spoonful into a visitor's
+      cup and her own, in her mother's kitchen, without noticing. What does this illustrate?
     options:
       - That the association runs from a context to a response, whatever the person now intends
       - That habits are hard to break once a person has formed them over many years
@@ -67,18 +67,18 @@ quiz:
       - That a ban changes behaviour less than people expect it to in the first year
     answer: 0
     explain: >-
-      The drinking was the cue and the lighting was the response, and the intention to stop did not
-      unhook one from the other. Difficulty in breaking a habit is a consequence of that and not
-      what the case shows. Nothing here compares smoking with other behaviours. And the case is
-      about individuals finding themselves acting, not about whether the ban worked.
+      Her mother's kitchen was the cue and the spoonful was the response, and a year of intending
+      otherwise did not unhook one from the other. Difficulty in breaking a habit is a consequence
+      of that rather than what the case shows. Nothing here compares this behaviour with others. And
+      whether she should have given up sugar is a question the case does not touch.
   - q: >-
-      Two people each run three mornings a week. One decides each morning whether to go. The other
-      is usually out of the door before the question arises. What is true of them?
+      Two men each take a walk at lunchtime four days in five. One weighs it up each day. The other
+      has his coat on before the question of whether to go has arisen. What is true of them?
     options:
-      - They have the same habit, since the definition is about what a person does
-      - Only the second has a habit; the first has a routine with the same frequency
-      - Only the first has a habit, since deciding to go is what builds the association
-      - Neither has a habit until the behaviour has lasted at least sixty-six days
+      - They have the same habit, since the definition is about what a person actually does
+      - Only the second has a habit; the first has a routine with the same frequency to it
+      - The first has the habit, because deciding to go is what builds the association
+      - Neither has a habit until the behaviour has lasted a good sixty-six days
     answer: 1
     explain: >-
       Identical frequency, different mechanism, and the definition tracks the mechanism. Saying they
@@ -89,16 +89,19 @@ quiz:
       What does this course refuse to promise?
     options:
       - That habits can be formed at all, since the evidence for that is weaker than it looks
-      - That any particular habit is worth forming, which is a decision about the reader's life
+      - That a habit, once it has formed, cannot be lost again if the cue stops appearing
       - That habit formation works outside a laboratory, which has not been demonstrated
       - That the reader will become more disciplined, which is not what the research is about
     answer: 3
     explain: >-
       The research is about a mechanism by which behaviour stops needing a decision, which is a
       different thing from making a person more disciplined, and the course says so rather than
-      selling the second. The first and fourth answers understate what has been measured: habits do
-      form, and the central study was run in people's own homes. The third is true and is stated
-      here as a decision the course leaves with the reader.
+      selling the second. The forming-at-all answer and the laboratory answer both understate what
+      has been measured: habits do form, and the central study followed people performing behaviours
+      of their own choosing in their own lives, which is what its title claims and is as much as
+      this course can say without having opened it. The cannot-be-lost answer is a claim about what
+      happens to an association, which lesson 3 takes up and this lesson does not promise either
+      way.
 ---
 
 Most of what you will read about habits rests on a definition that isn't the one the research uses,
@@ -132,12 +135,24 @@ them, which is the thing that was built and the thing that does the triggering.
 
 What's missing from that list is you deciding. That absence is the whole point of it.
 
+**And the association is built by one thing.** The same paper states the mechanism: "Decades of
+psychological research consistently show that mere repetition of a simple action in a consistent
+context leads, through associative learning, to the action being activated upon subsequent exposure
+to those contextual cues".[1]
+
+**Three words in that sentence do the work.** *Repetition*, because one pairing builds next to nothing. *Consistent context*, because the association is to a context, so a shifting one gives the
+learning nothing to attach to. And *associative learning*, which is the ordinary mechanism by which
+two things that keep occurring together become linked, and which does not require you to intend any
+of it.
+
 ## Frequency is not automaticity
+
+**Automaticity** is the word this literature uses for the thing the definition turns on: a behaviour starting on its own, from the cue, without being decided about. It is what the third part of the definition names.
 
 The test that separates the research sense from the everyday one is short, and it is the single most
 useful thing in this lesson.
 
-**Two people both go running three mornings a week.**
+**Two constructed people both go running three mornings a week**, because no source read for this course describes an individual's habits.[5]
 
 The first thinks about it each morning. Some mornings she talks herself into it, some mornings she
 does not, and over a year it comes out at about three. The second's usually laced up and out of the
@@ -171,15 +186,16 @@ conscious motivation or interest dissipates."[1]
 That is the offer. Not that you will want things more, or want them more consistently, but that for
 one specific behaviour the wanting stops being load-bearing.
 
-**And a habit is cheap to run.** Wood, Quinn and Kashy's diary studies found that when people were
-doing something habitual they "were likely to think about issues unrelated to their behavior,
-presumably because they did not have to consciously guide their actions", and reported less stress
-doing it than doing comparable non-habitual things.[2] Lesson 2 takes that study properly.
+**And a habit is cheap to run.** In two hourly-diary studies of students, published in 2002, Wood, Quinn and Kashy counted a
+behaviour as habitual when it had been "performed almost daily in stable contexts", which is a criterion of frequency and context rather than the automaticity test above, which isn't the same thing. **Lesson 2 is about that
+difference and why it matters.** Within it, they found that when people were doing something
+habitual they "were likely to think about issues unrelated to their behavior, presumably because
+they did not have to consciously guide their actions", and reported less stress than during
+non-habitual behaviour.[2] Lesson 2 takes that study properly.
 
 **Set those two beside what you already know**, because this course starts one step further on than
 the last one did. **Time Management** lesson 4 gave you if-then plans and was careful about their
-limit: an if-then plan is a bridge from wanting to doing, and it does nothing at all about whether
-the wanting's there. Everything in that lesson assumed a goal you actually hold.
+limit: an if-then plan is a bridge from wanting to doing, and it does nothing at all about whether you want the thing. Everything in that lesson assumed a goal you actually hold.
 
 A habit is the case where that assumption stops mattering, because the behaviour is no longer being
 fetched from the goal each time. **That's what this course adds**, and it is also why it can't help
@@ -190,11 +206,16 @@ you want things.
 Three things, and readers get caught by all three.
 
 **It says nothing about the habit being a good one.** The definition is a mechanism, and mechanisms
-are indifferent. A useful case, and an uncomfortable one: after the 2007 smoking ban in United
-Kingdom public houses, many smokers reported "finding themselves lighting a cigarette as an
-unintentional habitual response to drinking alcohol".[3] The drinking was the cue. The lighting was
-the response. The association had been built by years of repetition and was not consulted about the
-ban.
+are indifferent. A useful case, and an uncomfortable one: after the 2007 smoking ban in United Kingdom public houses, many smokers reported "finding
+themselves lighting a cigarette as an unintentional habitual response to drinking alcohol".[3]
+**That is quoted from a 2022 methods paper this course has read, which is reporting other
+researchers' work rather than its own**, and this course has not gone back to the study behind it.
+The drinking was the cue. The lighting was
+the response. The association had been built by repetition and was not consulted about the ban.
+
+**And it says nothing about discipline.** This is the one worth pausing on, because it is what most
+readers arrive holding. A habit isn't a thing disciplined people have and undisciplined people don't. It is an association, built by repetition in a context, and the mechanism builds them in
+everybody regardless of what they think of themselves. Lesson 3 is the evidence for that.
 
 **It says nothing about the habit being chosen.** Nobody sets out to learn to check their phone when
 they sit down; it is not a plan anybody makes. The association gets built anyway, because the
@@ -208,7 +229,7 @@ It's a fair challenge and there is a real answer.
 
 **The definition is not a label, it is a prediction about what will happen when things get hard.**
 If your running is habitual, the research says it should survive a week when you do not feel like
-running, because the initiation's transferred to a cue and stopped depending on how you feel. If
+running, because the initiation has transferred to a cue and stopped depending on how you feel. If
 it is deliberated, the research predicts no such thing, and a bad fortnight is likely to end it.
 
 Those are different predictions about the same person doing the same number of runs, and you can
@@ -218,12 +239,12 @@ and a claim.
 **There is a second reason and it is the practical one.** Everything in this course that works is
 about building an association between a context and a response. If what you actually have is a
 behaviour you decide about each time, then the techniques are aimed at nothing, and when they fail
-you will conclude something about yourself that is not true. **The definition's what tells you whether the tools apply.**
+you will conclude something about yourself that is not true. **The definition is what tells you whether the tools apply.**
 :::
 
 ### Three behaviours, sorted
 
-Take them one at a time and test each against the three parts: a cue, a response, an association
+**All three are constructed**, like the runners above.[5] Take them one at a time and test each against the three parts: a cue, a response, an association
 doing the triggering.
 
 **One. A man puts his keys in the same bowl every time he comes in.** He hasn't thought about it in
@@ -252,19 +273,16 @@ than modesty.
 What the evidence in this course describes is a mechanism by which a behaviour stops needing a
 decision. That is a real thing, it is measurable, and lesson 4 gives you the measurement. It isn't
 the same as a person becoming someone who does hard things, and a course promising the second on the
-strength of evidence for the first would be doing exactly what this subject's books do.
+strength of evidence for the first would be doing the thing this course exists to teach you to spot, and this course has not opened a single one of the popular books on the subject to check whether they do it.
 
 **There is a second half to the course and it is less comfortable.** Lessons 5 and 6 are about
-self-control, which is what happens when a decision *is* needed, and the famous account of it did
-not survive testing. The arc there is worth knowing before you start: an elegant model, a
-meta-analysis of 198 experiments behind it, and then a preregistered replication across 23
-laboratories that could not find the effect. The course tells that story straight, including what
+self-control, which is what happens when a decision *is* needed, and the famous account of it lost most of the evidence that supported it, while what is proposed in its place is less tidy than either the model or its debunking. The arc there is worth knowing before you start: an elegant model, a 2010 meta-analysis of 198 published experiments behind it, and then a preregistered replication across 23 laboratories in 2016 whose pooled estimate could not be told apart from zero[6]. The course tells that story straight, including what
 the replication's authors say their own result can't settle.
 
 **And one question is yours and the course will not answer it.** Whether you should want your life
 run by habit at all.
 
-The case for is everything above: a habit is behaviour that survives your worst weeks, and a life
+The case for is what this lesson has been describing, which is not the same as the lesson having argued for it: a habit is behaviour that survives your worst weeks, and a life
 with more of them in it spends less of itself on getting started. The case against is that a habit
 is by definition something you do without deciding to, that the mechanism is indifferent to whether
 the thing is worth doing, and that a person can automate their way into a life they never chose one
@@ -272,49 +290,51 @@ cue at a time. **Both of those are true at once**, which is what makes it a ques
 problem to be solved.
 
 This course has not the standing to settle it, and lesson 7 comes back to it with the whole course
-behind you. What the course offers meanwhile is narrower: what a habit is, what it costs to build
+behind you. What the course offers meanwhile is narrower, and it's this: what a habit is, what it costs to build
 one, and what the evidence does and does not show.
 
 ## A gap in the evidence, named now rather than discovered later
 
 Nearly every participant in this literature is a student or a self-selected volunteer. The diary
 studies in lesson 2 are students. The field experiment in lesson 3 is a campus cinema. The
-replications in lesson 5 are undergraduates. The study in lesson 4 is the broadest of them, and it
-is 96 volunteers in London who answered an advertisement.[4]
+replications in lesson 5 are undergraduates. The study in lesson 4 is the broadest of them, and it is 96 self-selected volunteers, followed for twelve weeks, published in 2010. **This course has not been able to open that paper**, which is behind a paywall, so everything it is cited for here and in lesson 4 comes at one remove through two papers by one of its own authors.[4]
 
 **And a large share of the habit literature comes from two research groups.** That is not a
 criticism of either, and it does mean the field is smaller than the volume of writing about it
 suggests.
 
-Where a later lesson reasons past the evidence, it will say that it is reasoning.
+Where a later lesson reasons past the evidence, it'll say that it's reasoning.
 
 ## Three things left out on purpose
 
-**Breaking a habit.** The literature on breaking is much thinner than the literature on forming, and
+**Breaking a habit.** The literature on breaking is thinner than the literature on forming, and
 what exists is mostly about changing the context. Lesson 3 says what little can be said honestly.
 **A course that handed you a breaking method would be inventing one.**
 
 **Addiction.** A different literature, a different mechanism at the edges, and real harm available
 if a course treats them as the same thing. This course does not.
 
-**The neuroscience.** There is a real account involving the basal ganglia and this course has not
-read it. A lesson of brain diagrams would be decoration, and the honest thing is to say so.
+**The neuroscience.** There's a real account involving the basal ganglia and this course hasn't read it. A lesson of brain diagrams would be decoration, and the honest thing's to say so.
 
 ## Practice
 
 :::exercise Sort five of your own
 Take 25 minutes.
 
-Write down five things you do most days or most weeks. Mix them: at least one you are pleased with,
+Write down five things you do most days or most weeks. Mix them: at least one you're pleased with,
 at least one you are not, and at least one that is purely functional.
 
 For each, answer three questions in writing.
 
 1. **What is the cue?** A context: a place, a time, an event, the end of another behaviour. If you
    cannot name one, write "none", and that is a finding rather than a failure.
-2. **Does the question of whether to do it arise?** Not whether you could stop. Whether, on a normal
+2. **Is the association doing the triggering?** When the cue turns up, does the behaviour start
+   before you have arranged for it to? This is the third part of the definition and it is the one
+   people skip.
+3. **Does the question of whether to do it arise?** Not whether you could stop. Whether, on a normal
    day, you consult yourself. One word.
-3. **Habit or deliberated?**, by the definition in this lesson, and one clause saying why.
+4. **Habit or deliberated?**, by all three parts, and one clause saying why. If parts one and two
+   disagree, say which you trusted.
 
 Then the count: **how many of your five turned out to be habits?**
 
@@ -327,27 +347,26 @@ lesson 3 works on the cues.
 Take 15 minutes, and this one is uncomfortable by design.
 
 Find a behaviour of yours that meets all three parts of the definition and that you did not set out
-to build. Phones are the obvious place and not the only one: what you do when you come through the
+to build. Phones are the obvious place and they're not the only one: what you do when you come through the
 door, what you eat at a particular time, what you reach for at the end of a hard day.
 
 Write three lines.
 
 1. **The cue**, as precisely as you can. Not "the evening" but "sitting down after the children are
    in bed".
-2. **When you think the association was built.** A season is precise enough. You're not going to know, and the guess is the point.
+2. **When you think the association was built.** A season is precise enough. You are not going to know, and the guess is the point: it tells you whether you are dealing with something a few months old or something that has had years of repetition behind it.
 3. **What would have to change for it to stop firing?** One line, and this is lesson 3's question
    arriving early.
 
 **This is not an exercise in feeling bad about yourself.** The mechanism built that association
-without asking you, exactly as it built the useful ones, and noticing it's the only thing that makes it available to change.
+without asking you, exactly as it built the useful ones, and noticing it is the only thing that makes it available to change.
 :::
 
 ## Connections
 
 **Back.** This is the first lesson, so nothing here depends on the course. It leans on three earlier
 courses on the Core and re-teaches none of them. **Time Management** lesson 4 taught you if-then
-plans and named their limit, which is the doorway this course comes through. **Logic and Argument**
-taught you what a definition is doing in an argument, which is the whole of this lesson. **Using AI
+plans and named their limit, which is the doorway this course comes through. **Logic and Argument** lesson 2 taught you to test a definition by what it rules in and out rather than by whether it sounds right, which is the whole of this lesson. **Using AI
 Effectively** lesson 11 taught you to ask what a claim was measured on and when, which is why the
 gap in this literature is named above rather than in a footnote.
 
@@ -365,9 +384,7 @@ and 6 are self-control. Lesson 7 comes back to the question this lesson declined
   subject in print. It ends with a tick sheet a GP can hand to a patient, and lesson 4 uses it.
 - **[Habits in Everyday
   Life](https://dornsife.usc.edu/wendy-wood/wp-content/uploads/sites/183/2023/10/Wood.Quinn_.Kashy_.2002_Habits_in_everyday_life.pdf)**
-  (*Journal of Personality and Social Psychology*, 2002), posted by one of its authors. This course
-  has read the abstract and the diary-study results. Lesson 2 is built on it; read the method section
-  if you want to see how much work goes into deciding what counts as one behaviour.
+  (*Journal of Personality and Social Psychology*, 2002), posted by one of its authors. This course has read the abstract and the diary-study results and no further. The results are where lesson 2 comes from. The method is where the definition of one behaviour is settled, and this course has not read it.
 
 ## Sources
 
@@ -386,14 +403,23 @@ and 6 are self-control. Lesson 7 comes back to the question this lesson declined
 3. Benjamin Gardner, Amanda L. Rebar and Phillippa Lally, ["How does habit form? Guidelines for
    tracking real-world habit formation"](https://www.tandfonline.com/doi/full/10.1080/23311908.2022.2041277),
    *Cogent Psychology* 9:1, 2022, article 2041277. Read in substantial part, open access. Supports
-   the smoking-ban case, which that paper reports from Orbell and Verplanken. **This course has not
-   read the Orbell and Verplanken paper itself**, so the case is carried at one remove and the body
-   does not quote it.
+   the smoking-ban case in that paper's own words, which is what the body quotes. **That paper is
+   describing other researchers' work rather than its own**, and this course has not gone back to
+   the study behind it.
 4. Phillippa Lally, Cornelia van Jaarsveld, Henry Potts and Jane Wardle, "How are habits formed:
    Modelling habit formation in the real world", *European Journal of Social Psychology* 40(6),
    2010, pages 998 to 1009. **Paywalled, and this course has not opened it.** Everything it is cited
    for is reported at one remove through sources 1 and 3, both of which have Lally as an author, and
    lesson 4 says so where its figures appear. Cited here only for the sample of 96 volunteers.
-5. **The three sorted behaviours and the two runners are constructed**, and so is every detail
-   attached to them. No source read for this course describes an individual's habits. They are built
-   to show a distinction the research does draw.
+5. **Every person in this lesson is constructed**, and so is every detail attached to them: the two
+   runners, the three sorted behaviours, the swimmer and the phone-checker in the quiz, and the
+   examples in the predict block. No source read for this course describes an individual's habits.
+   They are built to show a distinction the research does draw. **The claim that the association in
+   the smoking case had been built by repetition is an inference from the mechanism** rather than
+   something the source states.
+6. Mark S. Hagger and others, "A Multilab Preregistered Replication of the Ego-Depletion Effect",
+   *Perspectives on Psychological Science* 11(4), 2016, pages 546 to 573, and the 2010 meta-analysis
+   it followed, Hagger, Wood, Stiff and Chatzisarantis. **The replication's abstract and limitations
+   section were read verbatim; the 2010 meta-analysis has not been opened** and its count of 198
+   published experiments is taken from the 2015 re-analysis that quotes it. Cited here only for the
+   two figures in the preview above, and taken properly in lesson 5.
