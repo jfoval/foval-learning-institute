@@ -441,10 +441,11 @@ discussed above.
   (*Personnel Review*, 2007). This course has read the abstract and pages 255 to 257. It is the
   closest thing this subject has to a textbook chapter, and the honest thing about it is the
   abstract: read that alone and you will know more about what is established here than most of what is written about the subject will tell you.
-- **[Does time management work? A meta-analysis](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0245066)**
-  (*PLOS ONE*, 2021). Open access, and this course has read the abstract, the effect sizes and the
-  limitations. Read the limitations section, which is unusually direct about what a pooled
-  correlation cannot show.
+- **[The pooled evidence on whether time management
+  works](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0245066)** (*PLOS ONE*,
+  2021), open access. This course has read the abstract, the effect sizes and the limitations.
+  **Come to it from this lesson for one thing**: what a pooled correlation between a practice and an
+  outcome can say about a decision you are making, which is very little and is worth feeling.
 
 ## Sources
 

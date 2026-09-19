@@ -384,8 +384,8 @@ tracing move from this lesson applied to it.
 
 ## Go deeper
 
-- **[No Task Left Behind? Examining the Nature of Fragmented Work](https://www.ics.uci.edu/~gmark/CHI2005.pdf)**
-  (CHI 2005). Ten pages, free. This course has read the abstract, the research setting and the
+- **[The field study this lesson is built on](https://www.ics.uci.edu/~gmark/CHI2005.pdf)** (CHI
+  2005). Ten pages, free. This course has read the abstract, the research setting and the
   results on fragmented work, which is where every measured figure above comes from. Worth reading for one thing lesson 2 did not send you there for: pages 324 and 325, where the interrupted-against-uninterrupted and collocation figures sit together, which is the passage this lesson's second section is built on.
 - **[The Cost of Interrupted Work: More Speed and Stress](https://www.ics.uci.edu/~gmark/chi08-mark.pdf)**
   (CHI 2008). This course has read the abstract and the experimental design. Read the design before

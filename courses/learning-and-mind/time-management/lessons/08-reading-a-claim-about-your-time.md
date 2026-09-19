@@ -431,10 +431,11 @@ the gap this course opened with has been a different size in every decade anybod
 
 - **[A review of the time management literature](https://www.researchgate.net/publication/228079857_A_review_of_the_time_management_literature)**
   (*Personnel Review*, 2007). This course has read the abstract and pages 255 to 257. The abstract alone will tell you more about what is established here than most summaries of the subject will.
-- **[Does time management work? A meta-analysis](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0245066)**
-  (*PLOS ONE*, 2021). Open access; this course has read the abstract, the effect sizes and the
-  limitations. Read the limitations beside the abstract, which is a good general habit and is the
-  specific point of this lesson.
+- **[A meta-analysis of 158 time-management
+  samples](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0245066)** (*PLOS ONE*,
+  2021), open access, and read here at the abstract, the effect sizes and the limitations.
+  **Read the limitations beside the abstract**, which is a good general habit and is this lesson's
+  specific point.
 - **[Interruptions cost 23 minutes 15 seconds, right?](https://blog.oberien.de/2023/11/05/23-minutes-15-seconds.html)**
   (2023). A blog post, not a source, and linked because it is the tracing exercise done properly and
   written up. Read it as a method.
