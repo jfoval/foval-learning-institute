@@ -8,25 +8,24 @@ objectives:
   - >-
     Explain why the segments that were interrupted were the longer ones, and what that does to the
     usual advice about protecting a block of time
-  - >-
-    Trace the most quoted number in this subject back to its source, and say what the two papers it
-    is attributed to actually report
+  - >-    Trace the most quoted number in this subject back to its source, and say what the read parts of
+    the two papers it is attributed to actually report
 quiz:
   - q: >-
-      A field study observed twenty-four information workers to the second. What was the average
-      time they spent on one piece of work before switching or being interrupted?
+      A man counts his own day and finds an average of 25 minutes on a piece of work before he
+      switches, against the study's 11 minutes 4 seconds. What has he established?
     options:
-      - About forty minutes, which is roughly the length of the meetings that broke the day up
-      - About twenty-five minutes, the figure usually quoted as the cost of an interruption
-      - About three minutes, which is how often a person touches a different document or window
-      - About eleven minutes, and the spread around it was larger than the average itself
-    answer: 3
+      - That his day is less fragmented than the day that study measured, on the count he took
+      - That he is better at protecting his attention than the information workers in that study
+      - That his job involves fewer working spheres, which is what the difference is measuring
+      - That his count was taken wrongly, since the measured figure is the one to trust here
+    answer: 0
     explain: >-
-      Eleven minutes four seconds, with a standard deviation of eighteen minutes nine seconds, so
-      the variation between stretches is bigger than the typical stretch. The forty-minute answer
-      is what most people guess. Twenty-five minutes is a distorted memory of the figure this lesson
-      traces and finds unsupported. And three minutes is the same group's earlier measurement of
-      individual work events, which is a finer grain than a piece of work.
+      He has one number about himself and it is larger, which is worth having and is all of it; why
+      the two differ is not something a count can tell him. Reading it as skill imports a cause the
+      measurement does not carry. The number of spheres is a separate count he has not taken. And a
+      figure from twenty-four people in one office is not a standard his own day can be wrong
+      against.
   - q: >-
       In that study, stretches of work that were interrupted lasted longer than stretches that were
       not. Why does this lesson say that is not a paradox?
@@ -48,12 +47,11 @@ quiz:
     options:
       - Accept it, since it is the most widely repeated figure in the field and the research is well known
       - Halve it, because figures of this kind are reliably inflated by the time they reach a headline
-      - Ask which study it comes from, because it is not in either paper it is usually attributed to
+      - Ask which study it comes from, because it is not in the parts of those papers anybody has read
       - Reject the underlying idea, since the evidence shows interruptions cost nothing at all
     answer: 2
     explain: >-
-      The two papers it gets hung on report other things entirely, and a reviewer who went through
-      five papers and twenty-three posts could not find a primary printed source for it. Being
+      The parts of both papers this course read report other things, and a reviewer who went through five papers and twenty-three posts could not find a primary printed source for it. Being
       widely repeated is not evidence, which is the whole point of the exercise. Halving an
       unsourced number leaves it unsourced. And rejecting the idea overshoots: the 2008 experiment
       measured a real cost, just not that one.
@@ -76,47 +74,42 @@ quiz:
       them. What does this lesson say is the useful question for her?
     options:
       - How to build a protected block, since everybody needs one and hers will have to be shorter
+      - Which of her work actually needs a continuous stretch, and when in her week a stretch exists
       - Whether she should look for work with a different shape, since the cost here is unavoidable
       - How many interruptions are genuinely necessary, which is the first thing to measure and reduce
-      - Which of her work actually needs a continuous stretch, and when in her week a stretch exists
-    answer: 3
+    answer: 1
     explain: >-
-      Most of ward work is meant to be interruptible and is done no worse for it; the question worth
-      asking is which of the remainder is not, and where in the week that remainder could sit. The
+      In the case the lesson builds, most of the ward's work is meant to be interruptible; the question worth asking is which of the remainder is not, and where in the week that remainder could sit. The
       protected block answer applies office advice to a job it does not fit. Telling her to change
       job is not advice about her week. And auditing which interruptions are necessary hands her a
       judgement that is mostly not hers to make.
   - q: >-
       The same study found that workers sitting near their colleagues worked in longer stretches and
-      were interrupted more often. What does that pair of findings rule out?
+      were interrupted more often. What does that pair of findings fail to establish?
     options:
-      - That working near other people is worse on balance, since only one of the two effects is bad
-      - That collocation affects interruption at all, since the two effects point in opposite directions
-      - That the study measured collocation reliably, given that its two results contradict each other
-      - That longer stretches and fewer interruptions are the same thing, measured two different ways
-    answer: 0
+      - That sitting near colleagues changes how a working day is broken up, which it plainly does
+      - That a longer stretch and an uninterrupted stretch are the same thing, which it refutes
+      - That the two effects were measured on the same people, which is what makes them comparable
+      - That sitting near colleagues is better or worse on balance, since the two effects disagree
+    answer: 3
     explain: >-
-      The two findings run in opposite directions for the person sitting there, so the study does
-      not license the usual verdict on open offices either way. Collocation plainly affects
-      interruption, at 62.9 percent against 49.3. The results are not a contradiction, because
-      nothing says a longer stretch must be an uninterrupted one. And that last point is true and
-      is a restatement of the finding rather than something it rules out.
+      The two findings run in opposite directions for the person sitting there, one welcome and one
+      not, so the study gives no verdict on open offices either way. That collocation changes the
+      day is exactly what it does establish, at 62.9 percent against 49.3. That a longer stretch is
+      not an uninterrupted one is also established, and in fact refuted by this very pair. And the
+      two effects were measured on the same informants, which is why they can be set side by side.
 ---
 
-Lesson 2 asked you to count your discretionary hours twice, as a total and as a shape, and some of
-you will have found them arriving in pieces of eleven and nineteen minutes. This lesson is about why
-the day does that, and about the most quoted number in the whole subject, which turns out not to
-have a source at all.
+Lesson 2 asked you to count your discretionary hours twice, as a total and as a shape, and some of you will have found them arriving in pieces shorter than you expected. This lesson is about why
+the day does that, and about the most quoted number in the whole subject, which turns out to have no printed source anybody has been able to produce.
 
 ## What was measured, and on whom
 
 Everything in the first half of this lesson comes from one study, so its scope goes first and the
 figures follow.
 
-Mark, Gonzalez and Harris, published at CHI 2005, followed **twenty-four information workers at a
-single outsourcing company** and observed them **to the second**.[1] It is a field study rather than
-an experiment: nobody was assigned to anything, and the researchers sat with people and recorded
-what they did.
+Mark, Gonzalez and Harris, [published at CHI 2005](https://www.ics.uci.edu/~gmark/CHI2005.pdf), followed **twenty-four information workers at a single outsourcing company** and observed them **to the second**.[1] It is a field study rather than
+an experiment: nobody was assigned to anything, and the researchers observed people directly and recorded what they did.
 
 That's a small number of people in one office in one industry, which means the figures below are
 a description of that office rather than a law about work. Lesson 1 asked you to write the scope
@@ -125,8 +118,10 @@ numbers travel further from their source than almost any others in this subject.
 
 Three findings, in the authors' order.
 
-**People worked in about a dozen things at once.** Each informant was running an average of **11.7
-different working spheres** (standard deviation 2.4).[1] A working sphere is a chunk of work with
+**People had about a dozen pieces of work on the go.** Each informant worked in an average of
+**11.7 different working spheres** (standard deviation 2.4, which is a measure of how spread out
+the individual counts were around that average).[1] The source says they worked in that many; it
+does not say all of them were live at the same moment. A working sphere is a chunk of work with
 its own purpose and its own people, roughly what you would call a project or a case.
 
 **They spent about eleven minutes in one before leaving it.** "The average length of time that the
@@ -139,11 +134,11 @@ which is exactly the shape lesson 2 asked you to look for in your own week.
 
 **And more than half of those stretches ended because something broke in.** 57.1 percent of working
 sphere segments were interrupted, which the abstract reports as "57% of their working spheres are
-interrupted".[1] Central spheres, the ones people were most involved in, ran at 60.3 percent.
-Peripheral ones ran at 41.7 percent.
+interrupted".[1] Central spheres ran at 60.3 percent, peripheral ones at 41.7. **This course has read those two figures and not the study's definition of the two terms**,[4] so read "central" as the study's own label rather than as anything this lesson can unpack.
+
 
 :::predict Hold those two numbers together before reading on. More than half of all stretches were interrupted, and the most central work was interrupted most. Now: were the interrupted stretches longer or shorter than the ones nobody broke into?
-Almost everybody says shorter, and the reasoning's good: an interruption ends a stretch, so a stretch that gets interrupted is one that was cut off before it finished.
+Almost everybody says shorter, and the reasoning behind it is good: an interruption ends a stretch, so a stretch that gets interrupted is one that was cut off before it finished.
 
 The measurement says the opposite. Interrupted segments lasted **12 minutes 40 seconds**;
 uninterrupted ones lasted **8 minutes 58 seconds**.[1] And the relationship runs further than that:
@@ -152,7 +147,7 @@ uninterrupted ones lasted **8 minutes 58 seconds**.[1] And the relationship runs
 The authors call this **the irony of the work day**.[1]
 :::
 
-## Why the longer stretches are the interrupted ones
+## Time spent is time exposed
 
 This is worth slowing down on, because it quietly demolishes a piece of advice you have certainly
 been given.
@@ -165,8 +160,7 @@ question that makes you findable rather than protected.
 
 Put the two findings side by side and the picture is coherent rather than strange. The most central
 work is interrupted most, because it is the work you're most obviously doing. The longest stretches
-are interrupted most, because they are the longest. Neither of those is anybody behaving badly, and
-neither one's going to be fixed by trying harder.
+are interrupted most, because they are the longest. Neither of those is anybody behaving badly, and neither is going to be fixed by trying harder.
 
 :::checkpoint So what happens to the standard advice, which is to protect a long block of uninterrupted time?
 **This part is the course's own reading and not a finding of the study**,[4] so take it as
@@ -182,24 +176,23 @@ other people can see: a different room, a shut door, a shift nobody else is on, 
 building is empty. It works much less well where your visibility is the thing that cannot change,
 which is most open offices, most shop floors, most wards and most homes with small children in them.
 
-Notice which readers that leaves out, and notice that the genre almost never does.
+Notice which readers that leaves out.
 :::
 
 ### Worked: a day counted, against the study's day
 
-**Sam's day is constructed**, and so is every figure in it.[4] He has the record from lesson 1 and
-has gone back over Tuesday with a pen.
+**Sam's day is constructed**, and so is every figure in it.[4] He estimates jobs for a building firm. He has the record from lesson 1 and has gone back over Tuesday with a pen.
 
-He marks a new working sphere each time the purpose of what he is doing changes, which is the
-study's own rule of thumb rather than a precise definition.
+He marks a new working sphere each time the purpose of what he is doing changes. **That is this course's working rule for the exercise and not the study's own definition**,[4] which this course has read described but not specified.
 
 From 8:40 to 17:20, with forty minutes for lunch, he counts **31 switches** across **9 working
-spheres**. Eight hours of working day, 480 minutes, less the 40: 440 minutes over 31 stretches
-gives an average of **about 14 minutes**.
+spheres**.
 
-Set that beside the study's 11 minutes 4 seconds and the honest conclusion is that his day looks
-much like their day. Not because fourteen is near eleven, though it is, but because **he had to
-count to find out**, and before he counted he would have told you he spent the morning on the
+Do the sum carefully, because it has two places to go wrong. 8:40 to 17:20 is 520 minutes, and less
+the 40 for lunch that is 480. And **31 switches make 32 stretches**, not 31, because the first
+stretch starts before any switch has happened. 480 over 32 gives **15 minutes**.
+
+Set that beside the study's 11 minutes 4 seconds and the honest conclusion is that his day looks much like their day. Not because fifteen is near eleven, though it is, but because **he had to count to find out**, and before he counted he would have told you he spent the morning on the
 tender.
 
 **The number isn't the finding either.** What Sam's sheet tells him is where the two long stretches
@@ -215,7 +208,7 @@ Her day has more switches in it than Sam's and she isn't going to reduce them. B
 is not a failure of her arrangements; it's a large part of what she is for, and a ward where the
 nurse could not be interrupted would be a worse ward.
 
-Almost everything written about this subject is useless to her, and the reason is worth naming:
+Almost all of the advice she will meet on this subject is useless to her, and the reason is worth naming:
 **the advice treats interruption as a defect in a day that could have been otherwise.** Hers
 couldn't.
 
@@ -223,9 +216,7 @@ So the question changes shape. Not "how do I reduce interruptions", which is not
 **which of my work actually needs a continuous stretch, and when in the week does such a stretch
 exist at all?**
 
-For Nadia the answer to the first is short. Most of the job's meant to be interruptible and is done
-no worse for it. Two things aren't: the drug round, where interruption is a safety matter and the
-ward already has a procedure that says so, and the written handover, which she currently does in
+For Nadia the answer to the first is short, and everything in this paragraph is stipulated about her rather than established about nursing.[4] Most of her job is meant to be interruptible and, as this case is built, is done no worse for it. Two things aren't: the drug round, which in this constructed case the ward already protects by procedure, and the written handover, which she currently does in
 fragments and which takes her twice as long that way.
 
 The answer to the second is that a stretch exists in exactly one place in her week, the half hour
@@ -234,18 +225,17 @@ capacity her job offers for work needing continuity, and **knowing that it is on
 use to her than any technique**, because it tells her that the written handover is the only thing
 that can go there.
 
-## The number that is not in the paper
+## The number nobody can find in the paper
 
 Now the part of this lesson that is a method rather than a finding.
 
 **You have almost certainly met the claim that an interruption costs you twenty-three minutes and
 fifteen seconds**, or twenty-three minutes, or "about twenty-five minutes to get back on task". It
-is the most quoted figure in this subject. It is on slides in corporate training rooms, in a great
-many books, and in more articles than anybody has counted.
+is the most quoted figure in this subject. It is on slides in corporate training rooms and in more articles than anybody has counted.
 
 It's normally attributed to one of two papers, and this course went looking in both.
 
-**The 2005 field study**, the one every figure above comes from. This course has read its abstract,
+**The 2005 field study**, the one every measured figure above comes from. This course has read its abstract,
 its research setting and its results on fragmented work.[1] The figure is not in what this course
 read, and the paper's finding about resumption is about something else entirely: the abstract says
 that "most interrupted work is resumed on the same day" but that "more than two intervening
@@ -270,8 +260,7 @@ is hers, and a number said in an interview is not a fabricated finding.
 It is not saying interruptions are free. The next section is a measured cost.
 
 **What it's saying is narrower, and it is the transferable part.** A figure repeated ten thousand
-times, always with two decimal places of precision and never with a page number, is a figure that
-has come loose from whatever produced it. The precision is doing rhetorical work rather than
+times, always given to the second and never with a page number, is a figure that has come loose from whatever produced it. The precision is doing rhetorical work rather than
 measuring anything, and the tell is that nobody quoting it can tell you which table it's in.
 
 **Lesson 8 is built on this move.** Apply it to any claim about how people spend their time,
@@ -286,7 +275,7 @@ answer, and the first thing to say about it is what it was.[2]
 **Forty-eight subjects, 81 percent of them German university students with a mean age of 26**,
 answering twelve simulated emails as a fictional human resources manager, interrupted every two to
 five minutes by the experimenter, by telephone or instant message, and paid twelve euros. A
-laboratory task of a few minutes' length. **It is not a study of a working day** and this lesson
+laboratory task of twelve emails. **It is not a study of a working day** and this lesson
 isn't going to let it be read as one.
 
 Its finding, verbatim from the abstract: "We found that context does not make a difference but
@@ -313,8 +302,7 @@ attributed to report a count of intervening activities and a cost in stress.
 **"Interruptions are what other people do to me."** The 2005 study records internal interruptions,
 the ones you start yourself, as a large share of the total.[1] **This course has not read a
 percentage for it and isn't going to print one**, which is the rule lesson 1 set. The practical form
-is that the exercise below asks you to mark each switch internal or external, because the two have
-entirely different remedies and most people are surprised by their own ratio.
+is that the exercise below asks you to mark each switch internal or external, because the two have entirely different remedies, and this course expects the ratio to surprise you[4].
 
 **"Interruption is simply bad."** The authors are careful in a way the genre is not: switching may
 refresh a person and bring new ideas, and too much of it across too many activities may be harmful.
@@ -323,15 +311,22 @@ interruption in it is not the target**, and a course that implied otherwise woul
 something its own sources do not support.
 
 **"Open offices are the cause."** The collocation finding goes both ways, in the same study, on the
-same people. Workers sitting near colleagues spent longer in a working sphere, 11 minutes 56 seconds
-against 9 minutes 56, **and** were interrupted more, 62.9 percent against 49.3.[1] Whatever you
+same people. Workers sitting near their colleagues, which the study calls collocation, spent longer in a working sphere, 11 minutes 56 seconds against 9 minutes 56, **and** were interrupted more, 62.9 percent against 49.3.[1] Whatever you
 think about open offices, this study does not settle it, and it's a good example of a result that
 gets quoted in one direction by people who have read half of it.
 
 ## Practice
 
 :::exercise Count your own switches for two days
-Take 30 minutes, using the record you already have from lesson 1 rather than starting again.
+Take 30 minutes.
+
+**One thing to know before you start, because it changes what your answer means.** Lesson 1 asked
+for fifteen-minute resolution, which is right for measuring where a week goes and too coarse to see
+switches: a great many of the stretches in the study above are shorter than fifteen minutes. So you
+have two options. **Use your lesson 1 record and read the result as a floor**, knowing it will
+undercount, or **record two fresh days finely**, writing the time each time the work changes. Either
+is fine. What is not fine is using the coarse record and then concluding your day is calmer than the
+study's, because the instrument cannot see the difference.
 
 Pick two recorded days. Go through each one and do three things.
 
@@ -339,12 +334,13 @@ Pick two recorded days. Go through each one and do three things.
    pick up your phone; when the thing you are trying to achieve changes. Sam's rule above is good
    enough: if you'd describe it to somebody else as a different job, it is a different stretch.
 
-2. **Count the stretches and divide.** Waking working minutes over the number of stretches gives
-   your average. Write it down beside 11 minutes 4 seconds and note which side of it you are on.
+2. **Count the stretches and divide.** The minutes you recorded, over the number of stretches,
+   gives your average. **Remember that N switches make N plus one stretches**, which is where Sam's
+   sum above nearly went wrong. Write the result beside 11 minutes 4 seconds and note which side of
+   it you are on.
 
 3. **Mark every switch `internal` or `external`.** Internal means you left the work; external means
-   something arrived. Be honest about the ones where a notification arrived and you chose to look,
-   because those are internal and they are usually the largest group.
+   something arrived. Be honest about the ones where a notification arrived and you chose to look, because those are internal. **This course expects most readers to find more of them than they predicted**, which is an expectation rather than a measurement.[4]
 
 Finish with one sentence: **which of the two kinds is larger for you, and which of them could you
 actually act on this month?**
@@ -376,13 +372,9 @@ Most trails end at step 2 or 3, and that is the result rather than a failure. Ke
 **Back.** Lesson 2 found that discretionary hours arrive in pieces and asked you to measure the
 shape as well as the total; this lesson is the measurement of that shape in somebody else's office,
 and the reason it happens. Lesson 1's habit of writing the scope beside a figure is what the second
-half of this lesson is made of. From earlier Core courses: **Using AI Effectively** lesson 11 taught
-you to ask what a claim was measured on and when, which is the whole of the twenty-three minutes
-section, and **Logic and Argument** lesson 9 taught you how to check a source and what to do when a
-figure arrives with no denominator.
+half of this lesson is made of. From earlier Core courses: **Using AI Effectively** lesson 11 taught you to ask what a claim was measured on and when, which is what the first half of this lesson does with the 2005 study's scope. The provenance tracing in the second half is **Logic and Argument** lesson 9's four rules for sources arriving in a new subject, including what to do when a figure turns up with no denominator.
 
-**Forward.** Lesson 6 is deciding what not to do, and the internal-against-external count from the
-exercise above is one of its two inputs. Lesson 7 builds a week that takes the shape of your day
+**Forward.** Lesson 6 is deciding what not to do, and the internal-against-external count from the exercise above is one of the things it works on. Lesson 7 builds a week that takes the shape of your day
 seriously rather than assuming an empty one. Lesson 8 is the trade literature, read with the
 tracing move from this lesson applied to it.
 
@@ -390,9 +382,7 @@ tracing move from this lesson applied to it.
 
 - **[No Task Left Behind? Examining the Nature of Fragmented Work](https://www.ics.uci.edu/~gmark/CHI2005.pdf)**
   (CHI 2005). Ten pages, free. This course has read the abstract, the research setting and the
-  results on fragmented work, which is where every figure above comes from. Worth reading for the
-  method as much as the results: the amount of work involved in measuring something most people
-  believe they already know is the argument for measuring it.
+  results on fragmented work, which is where every measured figure above comes from. Worth reading for one thing lesson 2 did not send you there for: pages 324 and 325, where the interrupted-against-uninterrupted and collocation figures sit together, which is the passage this lesson's second section is built on.
 - **[The Cost of Interrupted Work: More Speed and Stress](https://www.ics.uci.edu/~gmark/chi08-mark.pdf)**
   (CHI 2008). This course has read the abstract and the experimental design. Read the design before
   the result, which is a general habit worth having and matters here: what the study did tells you
