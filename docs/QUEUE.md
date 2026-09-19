@@ -21,53 +21,41 @@ and it never feels that way while you are writing it.
 
 Rewrite these five lines each session. Nothing else goes in this block.
 
-- **Using AI Effectively has all eleven lessons drafted, both assessments, all eleven Stage 4
-  reviews applied, the voice pass done and the neutrality audit done.** T1, sixth of seven, status
-  drafting. **The audit passed and the course may publish**; its entry is the last one in
-  `research/reviews/course-wide.md` and it lists what it checked so nothing is re-checked. Every
-  review file is in `research/reviews/`; read `course-wide.md` plus the file for the lesson you are
-  touching before touching it.
+- **Using AI Effectively is published and written.** T1, sixth of seven. Eleven lessons, every one
+  through Stage 4 with its review applied, the voice pass done, the neutrality audit passed, both
+  assessments written, and eleven fact-checked podcast scripts. Nothing on it is outstanding except
+  eleven episodes, which is money and trails. Every review file is in `research/reviews/`, and the
+  audit is the last entry in `course-wide.md` and lists what it checked so nothing is re-checked.
 
-  **Six defects recurred across four or more lessons of this course and are now drafting defects
-  rather than lesson defects.** They are in `.claude/commands/draft-lesson.md`. The two worth
-  knowing before you open anything here: **anything the course constructed itself must be labelled
-  as the course's own in the body at the point of use**, not only in a footnote, because lessons 8
-  and 11 both had a Sources block claiming the body said so when it did not; and **the contraction
-  check counts `it's`, `that's` and `there's` and excludes ordinary possessives**, so a hand
-  count that strips the Sources block and counts every `'s` reads roughly double and will send you
-  through the floor while you are fixing the ceiling. That cost two passes each on lessons 7 and 11.
+  **Six defects recurred across four or more of its lessons and are now drafting defects rather
+  than lesson defects.** They are in `.claude/commands/draft-lesson.md`. Two are worth knowing
+  before anybody opens a lesson anywhere in this repo. **Anything a course constructed itself must
+  be labelled as the course's own in the body at the point of use**, not only in a footnote:
+  lessons 8 and 11 both had a Sources block claiming the body said so when it did not. And **a
+  quotation gets re-worded inside its own marks** with striking regularity, in five lessons here and
+  then again in a podcast script one stage later, so check quotations by string match rather than
+  by eye.
 
-  **Read the outline's "Seven decisions this outline settles" before drafting anything.** They are
-  there because eleven lessons written in different sessions have to agree, and two of them change
-  what a drafter can write: the course names no product and prints no interface instruction, and no
-  lesson body states a capability as a standing fact. Every capability figure carries a model name
-  as well as a date, which is Digital Literacy's convention with one field added.
+  **Stage 6's fact-checks caught three defects in the lessons that all eleven Stage 4 reviews had
+  missed**, which is the strongest argument this repo has for keeping the two stages separate and
+  fresh-context. Lesson 1 credited a task design to the wrong study. Lesson 5's costing case, the
+  one that teaches you to check the seam between the steps and the conclusion, printed a total that
+  did not fit its own double-counting story. And lesson 10's Sources block had been renumbered by
+  the neutrality audit, leaving a body cross-reference pointing at the wrong note. **Writing the
+  script is a close reading of the lesson that nothing else in the pipeline performs**, which is a
+  reason to write scripts promptly rather than to treat them as packaging.
 
   **Lesson 11 is the revision point for the whole course**, by design. Everything perishable is
   quarantined there so that a future session can bring the course up to date without re-opening ten
   lessons. Do not spread dated claims back through the others.
 
-  **The neutrality audit is done and it passed**, so what is left before it publishes is the status
-  change in `course.yaml` and the TAXONOMY row together, with the lesson count added to
-  `curriculum/audio-debt.yaml` in the same commit. Then eleven podcast scripts, which cost nothing
-  and are what takes the course from published to written.
-
-  **One voice item the audit found and did not fix, because rule 9 says an audit records rather
-  than rebuilds.** Five lessons sit above the repo's 5 to 8 contraction band, measured by the
-  validator's own method: lesson 1 at 13.5, lesson 3 at 12.2, lesson 4 at 11.2, lesson 5 at 11.3
-  and lesson 6 at 9.6. All are under the validator's ceiling of 14, so `npm run validate` exits 0,
-  and lesson 1 is half a point from tripping it. This is the oscillation lessons 3 and 5 both
-  recorded and neither closed, and lesson 6 has drifted back up from the 7.6 its review measured.
-  **One `/voice-pass` sitting across those five, and it does not block publishing.**
-
   **One scope question is John's and is not urgent.** The course deliberately leaves out the ethics
   of training data, copyright and the labour questions, on the grounds that they are a different
   course. A reader may reasonably expect a course called Using AI Effectively to say something about
   whether using one is a defensible thing to do. The outline flags it under "What is deliberately
-  left out"; nothing is blocked either way. The neutrality audit widened lesson 1's exclusion
-  paragraph so that energy, water and bias in the outputs are at least named alongside copyright
-  and jobs, with NIST's twelve risks pointed at, which answers the omission without taking the
-  scope decision away from John.
+  left out". The neutrality audit widened lesson 1's exclusion paragraph so that energy, water and
+  bias in the outputs are at least named alongside copyright and jobs, with NIST's twelve risks
+  pointed at, which answers the omission without taking the scope decision away from John.
 
   **A second question is John's, and it is bigger than this course.** Nothing in `site/`,
   `README.md` or `docs/VALUES.md` says that the institute's lessons are written by an AI. That is a
@@ -77,7 +65,7 @@ Rewrite these five lines each session. Nothing else goes in this block.
   declared interest is stated once rather than insinuated, and the course applies that rule to
   Anthropic's guidance in lesson 4 and not to its own authorship. This changes what the institute
   claims about itself, so under root rule 8 it is John's decision and not a drafter's. Nothing is
-  blocked: the audit passed without it.
+  blocked: the course is live without it.
 
 - **Digital Literacy lessons 1 to 12 are drafted, reviewed, applied and scripted.** The only
   content work left on the course is lesson 13, which is blocked on John below. **Read lesson 8's
@@ -86,18 +74,10 @@ Rewrite these five lines each session. Nothing else goes in this block.
   were being used as though it had, and the same defect came back in lesson 9. Check
   `npm run taught` and the earlier lessons before assuming a word is available.
 
-- **One thing Using AI Effectively's reviews flagged that no single lesson can fix.** Five of its
-  first six lessons open with a pair: two results, two things, two requests, two moves, two jobs.
-  That is `courses/CLAUDE.md` rule 2(c), a batch of lessons written in one context reusing each
-  other's turns of phrase, and the fix is a different opening rather than a reword, so changing one
-  of five does nothing. Lessons 7 to 11 were written to avoid it and every one of them does.
-  **Lessons 1 to 6 want a single pass, and the right time is the voice pass before publishing.**
-
-  **A smaller one from lesson 11's review, and it is repo-wide rather than this course's.** Lesson
-  bodies name other lessons and other courses constantly and link none of them, while Go deeper and
-  Sources link everything. That is either a deliberate convention nobody has written down or an
-  oversight in twenty lessons. **Settle it once and apply it everywhere**, rather than one lesson at
-  a time.
+- **One repo-wide convention nobody has written down, found by lesson 11's review.** Lesson bodies
+  name other lessons and other courses constantly and link none of them, while Go deeper and
+  Sources link everything. That is either a deliberate convention or an oversight in eighty lessons.
+  **Settle it once and apply it everywhere**, rather than one lesson at a time.
 
 - **The contraction check's ceiling is clear: nothing in the repo is over it.** All four files it
   caught on its first run are fixed, on 2026-09-18 and 19. `docs/VERIFICATION.md` carries the row.
