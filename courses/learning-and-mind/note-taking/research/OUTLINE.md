@@ -396,8 +396,9 @@ sort, used rather than re-taught, in the form **Digital Literacy** lesson 8 gave
 Effectively** lesson 11 refined it.
 
 **This course's own addition to the sort is the setting question.** Memory's addition was the
-sample; this course's is where the measurement happened. **Every figure in this course was measured
-in a lecture hall on a college student, tested inside a week**, and almost every claim made about
+sample; this course's is where the measurement happened. **Every measurement of note-taking in this course
+happened in a lecture hall, on a college student, tested inside a week**, the EEG study excepted,
+which is a laboratory with no lecture and no outcome, and almost every claim made about
 note-taking is about somebody at work, reading, or keeping a notebook for years. That gap is
 specific and checkable and it is what this lesson hands the reader.
 

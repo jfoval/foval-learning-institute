@@ -250,7 +250,7 @@ making the mistake lesson 5's two non-significant rows exist to prevent, in its 
 somebody measured and found nothing, here nobody measured.
 
 And the case its advocates make is a sample of one. One person, no comparison group, and that
-person is the one the method is named after. Memory lesson 7 taught the sample question and this
+person is the one whose practice it is modelled on. Memory lesson 7 taught the sample question and this
 is its sharpest form: not a small sample, a sample chosen because of its outcome.
 
 Which is not an argument that it does not work. It is an argument that his output is not evidence
@@ -333,7 +333,7 @@ findings**, and the last is a correction of this lesson's own likeliest misreadi
 the part that fails.
 
 "A system that works for a famous person will work for me." One person, no comparison, and the
-famous person is the one the method is named after.
+famous person is the one whose practice the method is modelled on.
 
 "If I capture everything I will be able to use it." Capture is the storage half and review is
 where the benefit is. More capture without more review is more maintenance for the same return.

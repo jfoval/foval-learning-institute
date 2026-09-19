@@ -123,8 +123,8 @@ Write it in three parts.
 1. **The decision**, in one or two sentences.
 2. **What it rests on.** Your own numbers from section 3, and any finding from the course you are
    leaning on. **If a finding doesn't stretch as far as your decision, say so** and make the
-   decision anyway with the gap named. Every study in this course was a student in a lecture, and
-   you are not.
+   decision anyway with the gap named. Every study of note-taking in this course was a student
+   in a lecture, and you are not.
 3. **What it costs.** Time, attention, or something you will stop doing. A decision that costs
    nothing is usually a decision you haven't made.
 

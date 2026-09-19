@@ -1,6 +1,6 @@
 ---
 title: Reading a claim about your notes
-minutes: 85
+minutes: 95
 objectives:
   - >-
     Sort a claim about note-taking into measurable, unmeasurable as stated, or false, and say what
@@ -34,9 +34,10 @@ quiz:
       - Whether handwriting or typing was the condition the researchers expected to win
     answer: 1
     explain: >-
-      Every figure this course read came from a student in a lecture tested inside a week, and a
-      meeting is none of those things. Effect size, test delay and researcher expectation are all
-      worth asking and all of them come after the question of whether the setting reaches your case.
+      Every figure this course read about note-taking came from a student in a lecture tested
+      inside a week, and a meeting is none of those things. Effect size, test delay and researcher
+      expectation are all worth asking and all come after the question of whether the setting
+      reaches your case.
   - q: >-
       An article says "a study proved that handwriting is better for the brain". Which of this
       lesson's four shapes is that?
@@ -44,58 +45,63 @@ quiz:
       - Two claims stuck together, needing separate verdicts before either is accepted
       - Measurable, checked, and the checking came out the way the sentence says
       - Unmeasurable as stated, because "better for the brain" has no definition anywhere
-      - False, because no study has ever compared handwriting with typing in a scanner
+      - False, because no study has compared handwriting with typing while recording the brain
     answer: 0
     explain: >-
       "Handwriting changes what the brain does" and "handwriting is better for you" are separate
       claims with separate evidence, and the sentence welds them. The second half is the one with
-      nothing measured under it, a comparison in a scanner does exist, and the brain half is
+      nothing measured under it, a recorded comparison does exist, and the brain half is
       definable enough to have been measured.
   - q: >-
-      A reader finishes this course and decides to stop taking notes in meetings, since a group who
-      took no notes did not do worse. What has gone wrong?
+      A school newsletter says the research shows children should be taught to write by hand. What
+      does this course let you say about that?
     options:
-      - Nothing has gone wrong, because that experiment is the most recent evidence available
-      - The result came from a single experiment and single experiments are never actionable
-      - A lecture followed by a test within the week is not a meeting followed by a month
-      - The no-notes group was smaller than the note-taking groups it was compared against
+      - That the research supports it, since all five pooled effects point the same way
+      - That the research refutes it, since those effects are small or include zero
+      - Nothing either way, since every source read here was measured on adults
+      - That it depends on whether the children are taught to type at the same time
     answer: 2
     explain: >-
-      The finding is real and its setting is a lecture and a test, which is the one gap this lesson
-      exists to make visible. Recency does not extend a scope, single experiments can be actionable
-      inside their own conditions, and nothing this course read gives that group's size.
+      The pooled effects come from college students and the imaging study from university students,
+      so a claim about children is outside every source here in both directions. Whether typing is
+      taught alongside would matter to a study nobody in this course has read.
   - q: >-
-      You trace a widely repeated figure about note-taking and the trail ends at a blog post citing
-      another blog post. What does this lesson say that ending is worth?
+      You follow a widely quoted figure about note-taking back through three articles and reach a
+      conference talk that cites nothing of its own. What have you established?
     options:
-      - It means the figure is false, because a real result would have a paper behind it
-      - It means the search was done badly and should be repeated with better terms
-      - Nothing, since an untraceable figure should simply be dropped and forgotten
-      - It is the most common ending, and what that tells you is how far the figure travelled
+      - That the figure is false, since a real result would have a paper behind it
+      - That the search was done badly and should be repeated with better terms
+      - That the figure is true but narrow, which a trail that long implies
+      - That the figure's authority is one person's judgement, which you can weigh
     answer: 3
     explain: >-
-      A trail that ends in citation without a source is itself the finding: the number travelled a
-      long way without anybody checking it. A dead end is not proof that a figure is false, is
-      worth recording rather than dropping, and is not usually a failure of searching.
+      The trail ended at a person rather than at a measurement, and that is a real result about the
+      claim rather than a failed search. A dead end is not proof of falsehood, and the length of a
+      trail says nothing about how narrow the finding at the end of it would have been.
   - q: >-
-      Someone asks whether they should switch to a Zettelkasten. What can this course tell them?
+      A colleague shows you a tagging scheme they have kept for four years and asks whether the
+      research backs it. What can this course tell them?
     options:
-      - What the method is, and that nothing read here tests it either way
-      - That the method works, on the evidence of the output of the man who built it
-      - That the method does not work, since a search for evidence turned up nothing
-      - That the question is unanswerable, because personal systems cannot be studied
-    answer: 0
+      - That the research supports it, since organising is part of the storage function
+      - That nothing this course read tests such a scheme, in either direction
+      - That the research is against it, since a search for evidence found none
+      - That it works if they review the notes, which is where the benefit was measured
+    answer: 1
     explain: >-
-      A practice with no evidence behind it is not a practice shown not to work, and saying so is
-      the whole of what this course is entitled to say. One person's output is a sample of one, an
-      absence of evidence is not a refutation, and nothing prevents such a system being studied.
+      No source here compares one way of organising notes with another, so the honest report is the
+      absence. An absence of evidence is not a refutation, the storage function is about the note
+      being reviewed rather than about how it is filed, and the review finding says nothing about
+      tagging.
 ---
 
-Every figure in the seven lessons behind this one will date. Five meta-analyses will become six, the
-corrigendum will be joined by something else, and somebody will run the EEG study again with two
-hands on the keyboard.
+Five meta-analyses will become six. Somebody will run the EEG study again with two hands on the
+keyboard, and somebody else will publish the commentary on that. Within a few years the numbers in
+lessons 3 to 6 will be the wrong numbers.
 
-This lesson is about what's left when that happens, which is a way of reading rather than a result.
+None of that touches what this lesson is for. The seven lessons behind it were also, quietly, a
+training in one operation: taking a sentence somebody says about notes and working out what would
+have had to happen for it to be true. That operation outlives its examples, and this lesson is
+where it gets written down.
 
 ## The sort you already have
 
@@ -165,10 +171,14 @@ sample: how many people, and who. **Focus and Deep Work** lesson 7 added the ins
 course's addition is the setting, and it's here because of something Stage 1 turned up about this
 subject in particular.[7]
 
-**Every measurement behind these eight lessons happened in a lecture hall, to a college student,
-with the outcome taken inside the hour or inside the week.** That's not a criticism of the
-literature and it isn't a coincidence either: a lecture is a controllable event with a natural
-comparison group sitting in it, which is exactly what an experiment wants.
+**Every measurement of note-taking behind these eight lessons happened in a lecture hall, to a
+college student, with the outcome taken inside the hour or inside the week.** The one exception is
+the EEG study, which is a laboratory with no lecture and no outcome at all, and that is a different
+gap: lesson 6's rather than this one's.
+
+The lecture is not a coincidence and it isn't a criticism of the literature either. A lecture is a
+controllable event with a natural comparison group sitting in it, which is exactly what an
+experiment wants.
 
 Now hold that against the claims you actually meet. They're about somebody in a meeting, somebody
 reading a paper at their desk, somebody keeping a notebook for eleven years. **None of those is a
@@ -176,7 +186,8 @@ lecture, and none of them is tested on Friday.**
 
 So the setting question is three questions, and they take about ten seconds.
 
-**Where did the measurement happen?** A hall, a laboratory, a workplace, a scanner.
+**Where did the measurement happen?** A lecture hall, a laboratory, a workplace, somebody's own
+week.
 
 **How long after?** Within the hour, within the week, or long enough to matter to you.
 
@@ -191,13 +202,12 @@ whole subject.
 
 They aren't the same source, and the second one is easier to guess than the first.
 
-**The widest licence belongs to the 2024 meta-analysis**, because pooling 24 studies across 21
-articles is what buys you a statement about college students in general rather than about the
-forty people in one room.[5] Even then the statement it buys is "among college students", which the
-abstract says twice.
+**The widest licence belongs to the 2024 meta-analysis**, because pooling 24 studies across 21 articles[5] is what buys you a statement about college
+students in general rather than about the participants in any one room. Even then the statement it buys is "among college students", which the abstract says three times
+and scopes a fourth.
 
-**The hardest-worked source is the EEG study**, which measured 36 people writing single words and
-is quoted everywhere as evidence about children and classrooms.[6] Its own last sentence is a
+**The most heavily worked source is the EEG study**, which measured 36 people writing single words
+and was widely reported as evidence about children and classrooms, its own title inviting that.[6] Its own last sentence is a
 recommendation about children, which lesson 6 gives in the authors' words, and no child was in it.
 
 **That pairing is the lesson.** The widest licence and the widest circulation attach to different
@@ -214,92 +224,104 @@ part to argue with.[7]
 | The source | Measured on | What it licenses | What it does not |
 |---|---|---|---|
 | The 2024 meta-analysis[5] | 24 studies, 21 articles, college students in lectures | A pooled achievement advantage for handwriting, g = +0.248, and a larger volume advantage for typing | Anybody who is not a college student in a lecture |
-| The 2022 meta-analysis[3] | 77 effect sizes from 39 samples | That a pooled analysis of 73 effect sizes returned +0.008, interval −0.16 to 0.18 | Any account of how it was done, since this course read only the figure in another paper's table |
+| The 2022 meta-analysis[3] | 77 effect sizes from 39 samples, from a search summary | That a pooled analysis of 73 effect sizes returned +0.008, interval −0.16 to 0.18 | Any account of how it was done, since this course read only the figure in another paper's table |
 | The direct replication[4] | 74 laptop and 68 longhand participants, one lecture, a quiz after a brief distraction | That the note-taking difference reproduced and the quiz difference did not, on those 142 people | Anything about a delayed test, or about what reviewing the notes would have done |
-| The replication and extension[2] | Students, two experiments, including a group taking no notes | That performance did not consistently differ between groups, and that its authors call the question premature | What the eWriter condition found, which the abstract does not say |
+| The replication and extension[2] | Students, two experiments, including a group taking no notes | That some trends suggested longhand superiority but performance did not consistently differ between groups, and that its authors call the question premature | What the eWriter condition found, which the abstract does not say |
 | The famous 2014 study[1] | Students, three studies, conceptual questions | That three studies found a longhand advantage on conceptual questions, with verbatim transcription proposed as the mechanism | Any sample size or effect size, neither of which is in the abstract this course read |
-| The EEG study and its commentary[6] | 36 university students writing single words, one finger on the keyboard | That two motor acts are accompanied by different connectivity patterns, and that three published objections stand against the design | Anything at all about learning, which nobody in that study measured |
+| The EEG study and its commentary[6] | 36 university students writing single words, one finger on the keyboard | That two motor acts are accompanied by different connectivity patterns | Anything at all about learning, which nobody in that study measured |
 
-Read the last column on its own. **In four of the six rows, the thing the source cannot support is
-the thing it gets quoted for.**
+Read the last column on its own. **In four of the six rows, what the source cannot support is
+close to what a reader will have met it saying** , which is this course's reading rather than a
+count anybody has made.[7]
 
 And read the first row against the third. The 2024 meta-analysis and the 2021 replication are
-looking at the same literature, and the second is inside the first: Urry and colleagues' pooled
-figure is one of the five in lesson 5's table.[5] **A disagreement between two sources is not
-always two camps.** Sometimes it's one body of work being cut two ways, which is what lesson 5 found
-and what makes this subject's disagreement an unusually honest one.
+looking at the same literature from two distances: alongside their 142 participants, Urry and
+colleagues also pooled eight similar studies, and **that** pooled figure is one of the five rows in
+lesson 5's table, sitting beside the 2024 paper's own.[5] **A disagreement between two sources is
+not always two camps.** Sometimes it's one body of work being cut two ways, which is what lesson 5
+found and what makes this subject's disagreement an unusually honest one.
 
-## The four books you will actually be handed
+## Four books this course did not open
 
-Almost nobody meets this subject through a meta-analysis. They meet it through Sönke Ahrens's *How
-to Take Smart Notes*, Tiago Forte's *Building a Second Brain*, Niklas Luhmann's own account of his
-card index, or Tony Buzan on mind mapping.
+The route most readers take into this subject doesn't go through a meta-analysis. It goes through
+Sönke Ahrens's *How to Take Smart Notes*, Tiago Forte's *Building a Second Brain*, Niklas Luhmann's
+own account of his card index, or Tony Buzan on mind mapping. **That this is the usual route is
+this course's expectation about its readers rather than something anybody counted.**[7]
 
-**This course has opened none of the four.**[7] They sit on the unread line of its research file,
-the build fails if any lesson cites one for a claim, and nothing in these eight lessons rests on any
-of them. Naming them is the whole of what's honest here, and it's worth doing, because you will be
-handed one.
+**None of the four was opened for this course.**[7] The research file names all four as unread and
+the build takes that seriously: a lesson citing one of them for a claim fails, and this lesson is
+exempted from that only so it can say their titles. Nothing in these eight lessons rests on any of
+them, and they are named here because you will be handed one and ought to know what the course can
+and cannot say about it.
 
-What Stage 1 did establish is an absence, and it's reported here as a finding rather than as a gap
-in the searching: **a search for peer-reviewed work measuring whether any personal knowledge
-management system improves anything returned nothing.**[7] That's a large, confident and
-commercially successful literature with no controlled evidence behind it that this course could
-find.
+Which is less than you might hope and more than nothing. Stage 1 searched for peer-reviewed work
+measuring whether any personal knowledge management system improves anything, and **found none**.[7]
+That is reported as a finding rather than as a gap in the searching, because the searching was the
+ordinary kind and this is a large and commercially successful literature.
 
-**Which is not the same as evidence that it fails.** A practice nobody has tested is untested, and
-lesson 7 costed two such systems rather than ranking them for exactly this reason. What you have for
-the four books is the sort, the setting question, and the fact that the case the advice literature
-makes for itself rests on the output of the one man the method is named after.
+**An absence of tests is not a failed test**, which is the distinction lesson 5's two
+non-significant rows exist to protect and the one this section would defend in either direction.
+What you have for these four books is the sort, the setting question, and one specific thing from
+lesson 7: the best known of the systems, the Zettelkasten, rests its public case on the output of a
+single scholar nobody compared with anybody.
 
 :::checkpoint Eight lessons in. Which of the things this course has told you should you hold most firmly, and which most loosely?
 
 Worth answering before you read on, and the order isn't the one the lessons were in.
 
-**Hold most firmly: the setting question**, and lesson 2's denominator question with it. Neither is
-a finding. Both are ways of reading, and the evidence for them is the table above, where four of six
-rows get quoted past their licence. Nothing that happens to these five meta-analyses touches either.
+Sort them the way the lesson has been sorting everything else, by what would have to happen for
+each to stop being true.
 
-**Hold nearly as firmly: the field's own summary of where the benefit is.** Taking and reviewing
-notes beats taking and not reviewing them, which is source 5's summary of its own literature rather
-than a result this course checked.[5] It has held long enough to be written as a summary, and it is
-the one claim here that would change what you do tomorrow.
+**The two questions survive anything.** The setting question and lesson 2's denominator question
+are not findings, so no result can overturn them; a meta-analysis published tomorrow would be read
+with both and would need both. The table above is the argument for keeping them, since four of its
+six rows carry a licence narrower than what a reader will have met.
 
-**Hold loosely: every figure.** The five pooled effects, the 30 percent, the 74 and the 68. All are
-real and all are narrow, and lesson 5's table exists to show that the same question honestly asked
-returns different numbers.
+**The field's summary of where the benefit sits would take a lot to move.** Taking and reviewing
+notes beats taking and not reviewing them. That reaches you as source 5's summary of its own
+literature rather than as a result this course checked,[5] and it is the one sentence here that
+would change what you do tomorrow.
 
-**Hold most loosely: the mechanism.** Verbatim transcription as the reason handwriting helps was the
-2014 study's proposal, it reproduces as a description of what typists do, and its link to worse
-performance was not robust in the replication.[4] **A mechanism is the thing most likely to be
-different in ten years**, and some version of the effect will probably still be there when it is.
+**Every figure could move by next year**, and some of them will. The five pooled effects depend on
+which studies go into the pool, and lesson 5 showed five honest poolings producing five answers. The
+30 percent rests on three cited papers. The 74 and the 68 are one room.
+
+**And the mechanism is the piece to bet against.** Verbatim transcription as the reason handwriting
+helps was a proposal in the 2014 abstract; it reproduces as a description of what typists do, and
+its link to worse performance was not robust in the replication.[4] If a version of the effect
+survives, the story about why is the part likeliest to be different.
 :::
 
-## What this course will not do
+## The one thing this course will not do
 
-Here's the refusal, and it's narrower than the ones that ended the courses before it.
+**Nothing in these eight lessons will tell you whether your own notes are any good.** Not last
+week's meeting page, not the system you have been building for three years, not the notebook you
+keep meaning to reread. There is no test in here you can run on one note.
 
-**This course cannot tell you whether your notes are any good.** Not the ones from last week's
-meeting, not the system you have been building for three years, not the notebook you keep meaning to
-reread. Nothing in eight lessons is a test you can run on one note or on one person's practice.
+That sounds like modesty and it is closer to arithmetic. Every result this course has is an average
+over a room of people doing a task somebody chose, and an average over a room says nothing about any
+one person in it. The thing that can say something about your own practice is the project, and the
+reason it asks you to log a week rather than read a table is that a table cannot do that job.
 
-What it can tell you is what note-taking does in general, under conditions somebody arranged and
-measured, and where the edges of those conditions are. That's a different question, and **the
-difference is the last thing this course teaches**.
+So the two overreaches to watch for are mirror images, and both are ordinary.
 
-Both directions of overreach are the same mistake. A reader who takes lesson 4 and stops taking
-notes has gone past a result measured on students in a lecture.[2] So has a reader who takes lesson
-5's largest pooled effect and rebuilds their working life around a pen.
+One reader finishes lesson 4, reads that a no-notes group did no worse, and stops taking notes:
+that result was measured on students in a lecture, tested soon afterwards.[2] Another finishes
+lesson 5, takes the largest of the five pooled effects, and rebuilds a working life around a pen.
+**Each has taken a number measured on somebody else and spent it on themselves.**
 
 ## Three things people get wrong at this stage
 
-"Somebody must have checked." For the medium question, somebody has, five times. For whether a
-personal knowledge system does anything, nobody that this course could find.
+**"There must be research on this."** On handwriting against typing there is, five poolings of it.
+On whether a personal knowledge system does anything, none that this course could find.
 
-"The science says handwriting." The science says +0.008 to +0.250 depending on which studies you
-pool, among college students, and two of the five intervals include zero.[5]
+**"The science says handwriting."** It says +0.008 to +0.250 depending on which studies you pool,
+among college students, with all five pointing the same way and two of the five intervals including
+zero.[5]
 
-"A famous method is a tested method." Fame and evidence are produced by different processes, and in
-this subject they attach to different things.
+**"If it were nonsense somebody would have said so."** Publishing an objection takes a journal, a
+reviewer and a reason; not objecting takes nothing. Silence around a method is the cheapest thing
+in this subject.
 
 ## Practice
 
@@ -313,18 +335,22 @@ percentage, a multiplier, a number of days. Write it down in the words you met i
 Then work backwards. Who said it? What do they cite? Follow that, and follow what that cites.
 Stop after twenty minutes whatever happens.
 
-**There are five endings and all five are results.**
+**There are six endings and every one of them is a result.** Which of the first five you reach
+more often than the others is not something anybody has counted, so nothing below says.[7]
 
 1. **You reach a study and it says what the claim says.** Rare, and when it happens, check the
    setting before you celebrate.
-2. **You reach a study and it says something narrower.** The commonest ending with a real paper at
-   the bottom of it. Write down what was dropped between the paper and the sentence.
+2. **You reach a study and it says something narrower.** The usual shape when there is a real paper
+   at the bottom of the trail. Write down what was dropped between the paper and the sentence.
 3. **You reach a study that says something else.** Work three above is this shape.
-4. **You reach a person rather than a study.** An author, a speaker, somebody's blog. Not nothing:
-   it tells you the claim's authority is a person's judgement, which is a thing you can weigh.
-5. **You reach nothing.** The citation loops, or the trail ends in "studies show". **This is the
-   most common ending of the five and it is the most informative**, because it means the number
+4. **You reach a person who gives no source of their own.** An author, a speaker, a post that cites
+   nothing onward. Not nothing: it tells you the claim's authority is one person's judgement, which
+   is a thing you can weigh.
+5. **The trail closes.** It circles back to something you have already followed, or it ends in
+   "studies show". **That is the most informative of the six**, because it means the number
    travelled a long way without anybody checking it.
+6. **Twenty minutes ran out.** Record where you had got to and how many steps it took. How deep a
+   trail goes before it runs out is itself a fact about the claim.
 
 Write one line saying which ending you got and how many steps it took. That line is the whole
 exercise.
@@ -344,12 +370,15 @@ or an idea you'll lose because you're writing instead of listening.
 
 **Ending two: keep something deliberately.** You type your notes, you've read all eight lessons, and
 you're going to carry on typing. That's a defensible decision and it's a decision, as long as you
-write down why and what evidence you're leaning on. **The five meta-analyses are as good an argument
-for staying as for switching**, which is what an unsettled question means.
+write down why and what evidence you're leaning on. **All five meta-analyses point the same way and three of them clear zero**, which is an argument
+for switching that you may judge too small to act on, and is not one you can wave off.
 
 **Ending three: stop deciding about it.** Some things aren't worth a policy. If you take four notes
 a month and go back to none of them, the review routine from lesson 7 is a solution to a problem you
-don't have, and saying so is worth more than a habit you'll drop in a fortnight.
+don't have, and saying so is worth more than a habit you'll drop in a fortnight. **This ending is
+the exercise's rather than the project's**: the project's section 4 asks for one of the first two,
+because it marks the cost you named, so if you are writing this as your project section, pick one of
+those and keep this one for yourself.
 
 **Then, for whichever ending you chose, one line on what would tell you it was the wrong call.**
 That line is the difference between a decision and a preference, and it is the thing almost nobody
@@ -366,18 +395,19 @@ maintaining a system costs.
 **Across.** **Digital Literacy** lesson 8 is where the three-way sort was introduced and **Using AI
 Effectively** lesson 11 is where it was sharpened. **Memory** lesson 7 added the sample question and
 **Focus and Deep Work** lesson 7 added the instrument question; this lesson adds the setting.
-**Logic and Argument** is where tracing a claim to its source was taught as a method, and **How to
-Learn Anything** is where the review routine's evidence actually lives.
+**Memory** lesson 4 and this course's own lesson 3 are where tracing a claim back to its source was
+worked as a method, and **How to Learn Anything** is where the review routine's evidence actually
+lives.
 
-**Out.** Nothing depends on this course. It is the last of its term that leans on the others, and
-what it hands forward is the habit rather than the figures.
+**Out.** Nothing on the path depends on this course, and what it hands forward is the habit rather
+than the figures.
 
 ## Go deeper
 
 - **[Typed Versus Handwritten Lecture Notes and College Student Achievement: A
-  Meta-Analysis](https://doi.org/10.1007/s10648-024-09914-w)**, Flanigan and colleagues, 2024. Open
-  access. **This course read the abstract, the introduction, two sections, Table 6 and one
-  limitations subsection**, and Table 6 is the object worth your time: five meta-analyses of one
+  Meta-Analysis](https://doi.org/10.1007/s10648-024-09914-w)**, Flanigan and colleagues, 2024.
+  **This course read the abstract, the introduction, two sections, Table 6 and one limitations
+  subsection, from an open copy of the PDF**, and Table 6 is the object worth your time: five meta-analyses of one
   question, side by side, with their intervals.
 - **[Don't Ditch the Laptop Just Yet](https://doi.org/10.1177/0956797620965541)**, Urry and 87
   colleagues, 2021. **This course read the abstract only.** Worth reading for how a replication
@@ -422,10 +452,11 @@ what it hands forward is the habit rather than the figures.
    students, single words, the one-finger typing condition, and the existence of three published
    objections.
 7. **The course's own constructions, each labelled where it appears in the body.** The four worked
-   claims are specimens written for this lesson rather than quotations, and the sorting of each is
-   this course's reasoning. **The setting question is this course's own addition to the sort**, and
-   the observation that every measurement behind these lessons happened in a lecture is a statement
-   about the six sources in this file rather than about the literature at large. **The last two
+   claims are sentences invented for this lesson rather than anything quoted, and how each is
+   sorted is this course's reasoning. **The setting question is this course's own addition to the sort**, and
+   the observation that every measurement of note-taking behind these lessons happened in a lecture
+   is a statement about the six sources in this file rather than about the literature at large, and
+   the body names the EEG study as the exception to it. **The last two
    columns of the licence table are this course's reading of the sources**, not anything they say
    about themselves. **And the absence of peer-reviewed evidence for personal knowledge management
    systems is the result of this course's own Stage 1 search**, which is a weaker thing than a

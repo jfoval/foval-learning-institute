@@ -347,7 +347,9 @@ own writing about his card index; Tony Buzan on mind mapping.** **None was opene
   commercially successful literature with, as far as this search could establish, no controlled
   evidence behind it.
 - **The evidence the advice literature itself offers is Luhmann's output**, a card index of about
-  90,000 slips belonging to the one person the method is named after. **That figure is at
+  90,000 slips belonging to the one scholar whose practice the method is modelled on. (Zettelkasten
+  is German for slip box; the method is not named after him, and an earlier version of this line
+  said it was, corrected on 2026-09-19 after a Stage 4 review.) **That figure is at
   search-summary level and a lesson quoting it must say so.** It is also, as evidence, a sample of
   one who was not compared with anything, which is the sample question Memory lesson 7 taught.
 - **This must not become a hit piece.** Standards 3.1 case 2: a practice with no evidence is not a
