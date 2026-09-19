@@ -81,7 +81,7 @@ quiz:
       of the same test. And a self-report about feeling is a third measure again, which Focus
       lesson 1 is about.
   - q: >-
-      Eighty-seven people are listed as authors of the replication, most of them undergraduates in
+      Eighty-eight people are listed as authors of the replication, most of them undergraduates in
       one research-methods class. What does that tell you about the result?
     options:
       - Nothing about the result, though it tells you something about how it was produced
@@ -365,7 +365,7 @@ word-count difference gets its measured size.
    to 339. **Read at abstract level only, from the bibliographic record. The paper was not opened**,
    and the body says so. Supports: the abstract as quoted in full, including the 74 and 68
    participants, the two correlations and their robustness, and the eight similar studies. **The
-   count of eighty-seven authors and the composition of that list come from the same record**, which
+   count of eighty-eight authors and the composition of that list come from the same record**, which
    lists them.
 2. Kayla Morehead, John Dunlosky and Katherine A. Rawson, ["How Much Mightier Is the Pen than the
    Keyboard for Note-Taking? A Replication and Extension of Mueller and Oppenheimer
@@ -377,7 +377,7 @@ word-count difference gets its measured size.
    notes, are in the same abstract.**
 3. **The split of a claim into a mechanism and an outcome, and the four cases a pair of replications
    can produce, are this course's own framing**, said as such where they appear, and the hospital
-   checklist is constructed. **The reading of the eighty-seven authors as a fact about incentives is
+   checklist is constructed. **The reading of the eighty-eight authors as a fact about incentives is
    also the course's own**, labelled where it appears; the author count itself is from the record.
    **The observation that most traces go after the outcome is an expectation** rather than a
    measurement, and the exercise says so.

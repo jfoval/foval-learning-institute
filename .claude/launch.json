@@ -7,7 +7,7 @@
       "runtimeArgs": [
         "--yes",
         "serve",
-        "site",
+        "dist",
         "-l",
         "4173"
       ],
@@ -19,7 +19,7 @@
       "runtimeArgs": [
         "--yes",
         "serve",
-        "site",
+        "dist",
         "-l",
         "4174"
       ],

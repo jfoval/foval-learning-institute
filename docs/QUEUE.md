@@ -125,9 +125,9 @@ Rewrite these five lines each session. Nothing else goes in this block.
   4,800-word outline planning eight lessons, an eighteen-item test and a project that runs across
   the course. T2, fifth in the term on running yourself. **Published on 2026-09-19.** All eight
   lessons are through Stage 4 with every finding applied, the course-end test and the project are
-  written, and `curriculum/audio-debt.yaml` opened its line at eight. **What is left is the eight
-  podcast scripts, which cost nothing at the API and are what takes the course from published to
-  written.**
+  written, and `curriculum/audio-debt.yaml` opened its line at eight. **All eight podcast scripts are
+  written and fact-checked, so the course is WRITTEN.** What is left is eight episodes, $1.55 at the
+  measured rate, whenever the daily quota and the month's cap allow.
 
   **The outline's main decision was how many lessons go to practices with no evidence behind
   them, and the answer is none: they go inside lesson 7.** The research
