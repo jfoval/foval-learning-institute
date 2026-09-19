@@ -10,17 +10,17 @@ objectives:
     Say what this course will and will not conclude about note-taking medium, and why
 quiz:
   - q: >-
-      Five syntheses of one question report pooled effects of +0.008, +0.040, +0.144, +0.248 and
-      +0.250, and three of the five have intervals that exclude zero. What is the honest summary?
+      Three syntheses of a sleep-and-exercise question report pooled effects of +0.05, +0.19 and
+      +0.21, and two of the three have intervals that exclude zero. What is the honest summary?
     options:
-      - The evidence is mixed, so nothing can be concluded about the question at all
-      - All five point the same way, three clear zero and two do not, and both halves travel
-      - The three that cleared zero are the reliable ones and the other two should be set aside
-      - The average of the five, about +0.14, is the best estimate available from the set
+      - The evidence is mixed, so nothing at all can be concluded about the question
+      - All three point the same way, two clear zero and one does not, and both halves travel
+      - The two that cleared zero are the reliable ones and the third should be set aside
+      - The average of the three, about +0.15, is the best estimate available from that whole set
     answer: 1
     explain: >-
       Direction and significance are two different facts and quoting either alone misleads.
-      Discarding the two that did not clear zero is choosing the answer you wanted. Averaging
+      Discarding the one that did not clear zero is choosing the answer you wanted. Averaging
       syntheses that overlap in the studies they pool double-counts. And "nothing can be concluded"
       throws away a consistent direction.
   - q: >-
@@ -48,23 +48,23 @@ quiz:
     answer: 2
     explain: >-
       A moderator splits an already-pooled literature into smaller pieces, so it is the part of a
-      synthesis most sensitive to which studies went in, which is exactly what the two authors
-      offer as an explanation. An error is possible and is not what either team claims. Opposite
+      synthesis most sensitive to which studies went in, which is what the 2024 authors offer as an explanation. An error is possible and is not what the
+      2024 authors claim. Opposite
       findings do not cancel. And recency is not an argument on its own.
   - q: >-
-      The volume difference between typed and handwritten notes is a pooled effect of about 0.9,
-      and the achievement difference is at most about 0.25. What follows?
+      A training programme reliably increases the number of practice hours people log, at a large
+      pooled effect, and shows a small and disputed effect on performance. What follows?
     options:
-      - That volume is the more important of the two, being the larger effect
+      - That the hours are the more important of the two, being the larger effect
       - That the reliably measurable difference is not the one anybody cares about
-      - That the achievement effect is probably an artefact of the volume one
-      - That both effects are measuring the same underlying thing at different scales
+      - That the performance effect is probably just an artefact of the hours one
+      - That both effects are measuring the same underlying thing at two different scales
     answer: 1
     explain: >-
-      A large, agreed difference in words written sits next to a small, disputed difference in what
-      anybody learns, and nothing read here shows the first buying the second. Size is not
-      importance. No source treats the achievement effect as an artefact. And they are measures of
-      two different things.
+      A large, agreed difference in a thing that is easy to count sits next to a small, disputed
+      difference in the thing the programme is for, and nothing here shows the first buying the
+      second. Size is not importance, an artefact is a specific claim nobody has made, and the two
+      are measures of different things.
   - q: >-
       A colleague cites one meta-analysis as settling the note-taking question. What does this
       lesson give you to say?
@@ -83,9 +83,9 @@ quiz:
       After all of this, what does this course tell a reader to do about their own note-taking
       medium?
     options:
-      - Write by hand, since three of five syntheses found an advantage for it
-      - Type, since the two largest syntheses by effect count found no reliable difference at all
-      - Nothing at all, since the course reports the table and leaves the decision to the reader
+      - Write by hand, since three of the five syntheses found an advantage for handwriting
+      - Type, since the two syntheses that found no reliable difference pool ninety-five effect sizes
+      - Nothing, since the course reports the table and leaves the decision to the reader
       - Whichever is faster, since speed is the only real difference anybody has measured
     answer: 2
     explain: >-
@@ -100,9 +100,14 @@ happened when five teams pooled the whole literature, and it is the reason this 
 ## Five answers
 
 Five meta-analyses have asked whether handwritten lecture notes beat typed ones for achievement.
-The most recent of them prints the other four beside its own result, which isn't a thing papers usually do.[1] **This course read that table and the discussion around it.**
+The most recent of them prints the other four beside its own result, in [a table this course
+read](https://doi.org/10.1007/s10648-024-09914-w) along with the discussion around it.[1] **The
+other four were not opened for this course.** Their numbers reach you through this paper's table,
+which is exactly the trace lesson 3 taught you to run.
 
-A positive number means handwriting came out ahead.
+A positive number means handwriting came out ahead. **Hedges' g is a difference measured in
+standard deviations**, so 0.25 means the two groups' averages sat a quarter of a standard deviation
+apart, and the interval beside it is the range the synthesis cannot rule out.
 
 | The synthesis | Effect sizes pooled | Hedges' g | 95 percent interval |
 |---|---|---|---|
@@ -112,16 +117,22 @@ A positive number means handwriting came out ahead.
 | Urry and colleagues, 2021 | 22 | +0.040 | −0.13 to 0.20 |
 | Voyer and colleagues, 2022 | 73 | +0.008 | −0.16 to 0.18 |
 
-**The table's own note, verbatim:** "A positive Hedges' g indicates that handwritten notes were more
-effective than typed notes on overall achievement."[1]
+The 73 in the last row is the 2024 paper's count for that synthesis; lesson 1's scope table records
+why a summary of the same paper says 77.[1]
+
+**The table's own note, verbatim:** "A positive Hedges' g indicates that handwritten notes were
+more effective than typed notes on overall achievement."[1]
+
+**Every study pooled in that table is a college student taking lecture notes, tested within the
+hour or the week.** That is lesson 1's scope table, five syntheses deep.[1]
 
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 470 380" width="100%" style="max-width:470px;display:block;margin:1.5em auto;font-family:system-ui,sans-serif" role="img" aria-labelledby="nt5-title nt5-desc">
 <title id="nt5-title">Five meta-analyses of one question, with their confidence intervals</title>
-<desc id="nt5-desc">Five horizontal intervals on a scale of Hedges' g from minus nought point two five to plus nought point four five. A positive value favours handwriting. Allen and colleagues 2020 sits at plus nought point two five zero with an interval from nought point one two seven to nought point three seven one. The 2024 meta-analysis sits at plus nought point two four eight, interval nought point one eight one to nought point three one five. Lau 2022 sits at plus nought point one four four, interval nought point nought two three to nought point two six five. Urry and colleagues 2021 sits at plus nought point nought four zero, interval minus nought point one three to nought point two zero. Voyer and colleagues 2022 sits at plus nought point nought nought eight, interval minus nought point one six to nought point one eight. A dashed line marks zero. All five points sit to the right of it, three intervals clear it and two cross it.</desc>
+<desc id="nt5-desc">Five horizontal intervals on a scale of Hedges' g from minus nought point two five to plus nought point four five. A positive value favours handwriting. Allen and colleagues 2020 sits at plus nought point two five zero with an interval from nought point one two seven to nought point three seven one. The 2024 meta-analysis sits at plus nought point two four eight, interval nought point one eight one to nought point three one five. Lau 2022 sits at plus nought point one four four, interval nought point nought two three to nought point two six five. Urry and colleagues 2021 sits at plus nought point nought four zero, interval minus nought point one three to nought point two zero. Voyer and colleagues 2022 sits at plus nought point nought nought eight, interval minus nought point one six to nought point one eight. A dashed line marks zero. All five points sit to the right of it, three intervals clear it and two cross it; the two that cross it are drawn in a second colour with unfilled circles.</desc>
 <text x="8" y="22" font-size="16" font-weight="700" fill="var(--text, #111418)">Five syntheses, one question</text>
 <text x="8" y="42" font-size="15" fill="var(--text-2, #4a5260)">Hedges' g for achievement. Positive favours handwriting</text>
 <line x1="234.3" y1="72" x2="234.3" y2="322" stroke="var(--text-2, #4a5260)" stroke-width="2" stroke-dasharray="6 4"/>
-<text x="8" y="66" font-size="15" fill="var(--text-2, #4a5260)">no difference</text>
+<text x="196" y="66" font-size="15" fill="var(--text-2, #4a5260)">no difference</text>
 <text x="8" y="84" font-size="15" font-weight="600" fill="var(--oxblood, #8b1e2d)">Allen and colleagues, 2020 (24)</text>
 <line x1="292.4" y1="100" x2="404.0" y2="100" stroke="var(--oxblood, #8b1e2d)" stroke-width="3"/>
 <line x1="292.4" y1="93" x2="292.4" y2="107" stroke="var(--oxblood, #8b1e2d)" stroke-width="2"/>
@@ -140,25 +151,25 @@ effective than typed notes on overall achievement."[1]
 <line x1="355.4" y1="193" x2="355.4" y2="207" stroke="var(--oxblood, #8b1e2d)" stroke-width="2"/>
 <circle cx="300.2" cy="200" r="6" fill="var(--oxblood, #8b1e2d)"/>
 <text x="366" y="205" font-size="15" fill="var(--oxblood, #8b1e2d)">.144</text>
-<text x="8" y="234" font-size="15" font-weight="600" fill="var(--text-2, #4a5260)">Urry and colleagues, 2021 (22)</text>
-<line x1="175.4" y1="250" x2="325.7" y2="250" stroke="var(--text-2, #4a5260)" stroke-width="3"/>
-<line x1="175.4" y1="243" x2="175.4" y2="257" stroke="var(--text-2, #4a5260)" stroke-width="2"/>
-<line x1="325.7" y1="243" x2="325.7" y2="257" stroke="var(--text-2, #4a5260)" stroke-width="2"/>
-<circle cx="252.6" cy="250" r="6" fill="var(--text-2, #4a5260)"/>
-<text x="336" y="255" font-size="15" fill="var(--text-2, #4a5260)">.040</text>
-<text x="8" y="284" font-size="15" font-weight="600" fill="var(--text-2, #4a5260)">Voyer and colleagues, 2022 (73)</text>
-<line x1="161.1" y1="300" x2="316.6" y2="300" stroke="var(--text-2, #4a5260)" stroke-width="3"/>
-<line x1="161.1" y1="293" x2="161.1" y2="307" stroke="var(--text-2, #4a5260)" stroke-width="2"/>
-<line x1="316.6" y1="293" x2="316.6" y2="307" stroke="var(--text-2, #4a5260)" stroke-width="2"/>
-<circle cx="237.9" cy="300" r="6" fill="var(--text-2, #4a5260)"/>
-<text x="327" y="305" font-size="15" fill="var(--text-2, #4a5260)">.008</text>
+<text x="8" y="234" font-size="15" font-weight="600" fill="var(--navy, #0f2a4a)">Urry and colleagues, 2021 (22)</text>
+<line x1="175.4" y1="250" x2="325.7" y2="250" stroke="var(--navy, #0f2a4a)" stroke-width="3"/>
+<line x1="175.4" y1="243" x2="175.4" y2="257" stroke="var(--navy, #0f2a4a)" stroke-width="2"/>
+<line x1="325.7" y1="243" x2="325.7" y2="257" stroke="var(--navy, #0f2a4a)" stroke-width="2"/>
+<circle cx="252.6" cy="250" r="6" fill="none" stroke="var(--navy, #0f2a4a)" stroke-width="2.5"/>
+<text x="336" y="255" font-size="15" fill="var(--navy, #0f2a4a)">.040</text>
+<text x="8" y="284" font-size="15" font-weight="600" fill="var(--navy, #0f2a4a)">Voyer and colleagues, 2022 (73)</text>
+<line x1="161.1" y1="300" x2="316.6" y2="300" stroke="var(--navy, #0f2a4a)" stroke-width="3"/>
+<line x1="161.1" y1="293" x2="161.1" y2="307" stroke="var(--navy, #0f2a4a)" stroke-width="2"/>
+<line x1="316.6" y1="293" x2="316.6" y2="307" stroke="var(--navy, #0f2a4a)" stroke-width="2"/>
+<circle cx="237.9" cy="300" r="6" fill="none" stroke="var(--navy, #0f2a4a)" stroke-width="2.5"/>
+<text x="327" y="305" font-size="15" fill="var(--navy, #0f2a4a)">.008</text>
 <line x1="120" y1="322" x2="440" y2="322" stroke="var(--text-2, #4a5260)" stroke-width="1"/>
 <line x1="188.6" y1="322" x2="188.6" y2="328" stroke="var(--text-2, #4a5260)" stroke-width="1"/>
 <line x1="234.3" y1="322" x2="234.3" y2="328" stroke="var(--text-2, #4a5260)" stroke-width="1"/>
 <line x1="279.7" y1="322" x2="279.7" y2="328" stroke="var(--text-2, #4a5260)" stroke-width="1"/>
 <line x1="325.7" y1="322" x2="325.7" y2="328" stroke="var(--text-2, #4a5260)" stroke-width="1"/>
 <line x1="371.4" y1="322" x2="371.4" y2="328" stroke="var(--text-2, #4a5260)" stroke-width="1"/>
-<text x="172" y="346" font-size="15" fill="var(--text-2, #4a5260)">-0.1</text>
+<text x="172" y="346" font-size="15" fill="var(--text-2, #4a5260)">−0.1</text>
 <text x="229" y="346" font-size="15" fill="var(--text-2, #4a5260)">0</text>
 <text x="264" y="346" font-size="15" fill="var(--text-2, #4a5260)">0.1</text>
 <text x="310" y="346" font-size="15" fill="var(--text-2, #4a5260)">0.2</text>
@@ -171,29 +182,45 @@ Two facts are in that picture and quoting either one alone misleads.
 **All five point the same way.** Every point estimate is positive. Not one synthesis of this
 literature has found typing ahead.
 
-**Three of the five clear zero and two do not.** In the 2024 paper's own words: "The present study
-is among three (i.e., Allen et al., 2020; Authors, under review; Lau, 2022) of the five studies
+**Three intervals clear zero. Two do not.** In the 2024 paper's own words: "The present study is
+among three (i.e., Allen et al., 2020; Authors, under review; Lau, 2022) of the five studies
 included in Table 6 that detected statistically significant achievement advantages stemming from
 recording handwritten lecture notes."[1]
 
-And of the other two, in the same paragraph: "Although the directionality of the overall
+"Authors, under review" is the 2024 paper naming itself, which is how a paper cites its own
+unpublished work, so the three are Allen, Lau, and the paper printing the table. And of the other
+two, in the same paragraph: "Although the directionality of the overall
 meta-analytic achievement analyses of the other two studies included in Table 6 (i.e., Urry et al.,
 2021; Voyer et al., 2022) also favored handwritten notes, those analyses did not achieve statistical
 significance."[1]
 
+And read the fourth column against the second. Voyer pooled seventy-three effect sizes and has the
+widest interval in the table; the 2024 paper pooled forty-nine and has the narrowest. **More studies
+did not buy a tighter answer**, because how much the pooled studies disagree with each other matters
+as much as how many there are. **That is the second thing the table teaches and almost nobody looks
+for it**, and reading it that way is this course's own rather than a point any of the five makes.[2]
+
 :::predict Before you read on. Five teams pooled overlapping sets of studies about the same question and got pooled effects ranging from +0.008 to +0.250, a factor of thirty. Write down what you think they are disagreeing about.
-Almost everybody's first guess is that somebody made a mistake, and that isn't what's going on.
+The guess this course expects most readers to make is that somebody made a mistake, and that isn't
+what's going on.
 
 They aren't disagreeing about what any individual study found. The studies are published; the
 numbers are the numbers. Nobody in this table is disputing anybody's data.
 
-They are disagreeing about which studies belong in the pool. A meta-analysis begins with a
-decision about what counts as an instance of the question, and that decision is made by people. One
-team includes classroom quasi-experiments, another restricts to laboratory work. One includes
-secondary-school students, another college students only.
+They are disagreeing about which studies belong in the pool. A meta-analysis begins with a decision
+about what counts as an instance of the question, and that decision is made by people. A pool can
+be drawn tight or wide: one synthesis might take only laboratory work, another might take classroom
+studies too. **This course read one of the five**, so it cannot tell you which did what, with one
+exception, and the exception is the useful one.
 
-And that isn't a flaw in the method. It's what a meta-analysis is: a single estimate produced by a
-stated set of choices. **Change the choices and you change the estimate**, which is why a
+**Voyer and colleagues, whose pooled effect is the smallest, offer one version of this themselves**:
+distraction may account for the handwriting advantage found in earlier work, because laboratory
+studies remove it. **That reaches this course from a summary of their paper rather than from the
+paper**, which lesson 1's scope table records.[2]
+
+And that isn't a flaw in the method, and **this next part is the course's reading of the table
+rather than something the table says**.[2] It's what a meta-analysis is: a single estimate produced
+by a stated set of choices. **Change the choices and you change the estimate**, which is why a
 careful synthesis states its inclusion criteria before its result.[2]
 
 What the range tells you, then, is how sensitive the answer is to those choices. A question whose
@@ -214,13 +241,14 @@ benefits of handwritten notes."[1]
 One team found reviewing erases it. The other found reviewing increases it.
 
 **Their own explanation is tentative and worth having**, because it shows the mechanism of the
-disagreement: the two analyses covered different student populations, and the earlier one included
-secondary-school students whose achievement the 2024 analysis did not account for.[1]
+disagreement: the two analyses covered different student populations.[1] This course did not read
+Lau, so it cannot say which populations.
 
-Why this matters more than the headline number. A moderator analysis splits an
+This matters more than the headline number, because a moderator analysis splits an
 already-pooled literature into smaller pieces, so it's the part of a synthesis most sensitive to
 which studies went in. **A moderator finding is a weaker thing than the main effect it qualifies**,
-and this pair is the clearest demonstration of it in anything this course read.[2]
+which is this course's reading and not a sentence any of the five wrote,[2] and this pair is the
+clearest demonstration of it in anything this course read.[2]
 
 ### What a reader quoting one row would be entitled to say
 
@@ -262,14 +290,25 @@ table into "write by hand" would be giving an instruction to people its evidence
 and the project is where you find out what your own notes are actually doing.
 :::
 
+## One thing this lesson has to add
+
+And there is one thing this lesson has to add that none of the sources does.[2] Advice to write by
+hand is not neutral across readers. For some people a keyboard isn't a preference, and **nothing
+read for this course reports whether any of these studies included them**. A course that turned this
+table into "write by hand" would be giving an instruction to people its evidence never looked at.
+
+**So the course's answer is the table**, and the decision's yours. Lesson 8 is where you make it,
+and the project is where you find out what your own notes are actually doing.
+
 ## The difference everybody can measure, and the one they cannot
 
-One more pair of numbers, because together they are the most useful thing in this lesson.
+One more pair of numbers, and together they are the most useful thing in this lesson.
 
 The volume difference is large and undisputed. Typed notes contain more words, at a pooled effect
-of about 0.919 in the 2024 analysis.[1] The direct replication puts the same difference the
-other way round at about −0.91, with an interval from −1.18 to −0.65.[1] Two syntheses, two
-directions of sign, one agreed finding: typing gets more words down, by a lot.
+of about 0.919 in the 2024 analysis, **where the sign runs the other way from the table: this one
+favours typing**.[1] **Urry and colleagues** put the same difference the other way round again, at
+about −0.91 with an interval from −1.18 to −0.65, **as the 2024 paper quotes them**.[1] Two
+syntheses, two directions of sign, one agreed finding: typing gets more words down, by a lot.
 
 The achievement difference is small and disputed, at most about 0.25, and two of five syntheses
 cannot distinguish it from zero.
@@ -281,7 +320,8 @@ notes, even when those notes are reviewed before testing."[1]
 
 Read the two effect sizes together. The thing that's easy to measure is large, reliable and agreed.
 The thing anybody actually cares about is small, contested, and not bought by the first one. **That
-pattern is not special to note-taking**, and lesson 8 is where you learn to look for it.[2]
+pattern isn't special to note-taking**, and lesson 8's sort is where it becomes a question you
+ask.[2]
 
 ## Three things people get wrong about this table
 
@@ -298,9 +338,13 @@ words in a notebook.
 :::exercise Find the second one
 Take 25 minutes.
 
+**Put it down at twenty-five minutes whether or not you found a second one**: not finding one
+inside twenty-five minutes is outcome two below.
+
 Find a claim in any field that is supported by "a meta-analysis", named or not.
 
-Then go looking for a second meta-analysis of the same question.
+Then go looking for a second meta-analysis of the same question. Search in Google Scholar or
+PubMed, and search the question rather than the claim.
 
 Write down four things.
 
@@ -325,7 +369,8 @@ Then check it against four tests.
 
 1. **Does it give a direction?** All five syntheses have one.
 2. **Does it give a size, and is the size defensible?** Look at the spread before you answer.
-3. **Does it say who was measured?** Every study here is a student in a lecture.
+3. **Does it say who was measured?** What this course can vouch for is the 2024 synthesis: college
+   students taking lecture notes, tested within the hour or the week.
 4. **Would you be comfortable if the colleague repeated it to somebody else without the
    qualifications?** If not, the qualifications aren't in the sentence yet.
 
@@ -336,11 +381,11 @@ the sentence.
 
 ## Connections
 
-**Back.** Lesson 3 is the study four of these five syntheses pool, and lesson 4 is the direct
-replication that is one of the five rows. Lesson 2's denominator question is why the volume effect
-is easy to measure and the achievement effect is not. **Memory** lesson 3 is a pooled figure that
-halves on one methodological choice, and this lesson is the same lesson with five pools instead of
-one.
+**Back.** Lesson 3 is the study this whole literature was built around, and lesson 4 is the paper
+whose mini meta-analyses are one of the five rows. Lesson 2's denominator question is why the volume
+effect is easy to measure and the achievement effect is not. **Memory** lesson 3 is a pooled figure
+that halves on one methodological choice, and this lesson is the same lesson with five pools instead
+of one.
 
 **Forward.** Lesson 6 is the same question asked with a completely different instrument, and what
 that instrument can and cannot show. Lesson 8 is where the table becomes a habit rather than a fact.
@@ -351,11 +396,12 @@ that instrument can and cannot show. Lesson 8 is where the table becomes a habit
   Meta-Analysis](https://doi.org/10.1007/s10648-024-09914-w)** (*Educational Psychology Review*,
   2024). **Read in part by this course**: the abstract, the introduction, the table this lesson is
   built on and the discussion around it, and one of its four limitations subsections. **Read its
-  Table 6 and the two paragraphs after it**, which is the whole of this lesson's evidence and is
-  worth seeing in its own setting.
+  Table 6 and the discussion around it**, which is the whole of this lesson's evidence and is worth
+  seeing in its own setting.
 - **[Don't Ditch the Laptop Just Yet](https://doi.org/10.1177/0956797620965541)** (*Psychological
-  Science*, 2021). **Read at abstract level only by this course**, and it is one of the five rows.
-  Read it beside the table to see what a single row looks like from the inside.
+  Science*, 2021). **Read at abstract level only by this course**, and its mini meta-analyses are
+  one of the five rows. Read it if you want the paper behind a row, which this course did not open
+  past the abstract.
 
 ## Sources
 
