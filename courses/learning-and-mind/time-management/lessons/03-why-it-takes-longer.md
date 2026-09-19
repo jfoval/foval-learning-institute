@@ -43,20 +43,21 @@ quiz:
       designed to test. The expansion answer is a different claim with no evidence here behind it.
       And the effect of instructed pessimism is precisely what Study 1 measured.
   - q: >-
-      Students described their past experience of similar assignments, were told to keep it in mind,
-      and then predicted. How much did their predictions improve?
+      A man says out loud that the last three times he decorated a room it took a fortnight, then
+      predicts four days for the next one. What does this lesson say is going on?
     options:
-      - Substantially, which is why reviewing your own past work is the correction usually recommended
-      - Not at all, because they turned out to be unable to recall how long the earlier assignments took
-      - They got worse, since dwelling on past failures leaves people defensively overconfident instead
-      - Barely, from 29.3 to 38.1 percent on time, and the same students had just described the history accurately
+      - He does not believe his own account of the last three rooms, or he would not say four days
+      - He is padding downwards deliberately, to set himself a target rather than a real forecast
+      - He is right to ignore the history, since every room differs and the past may not transfer
+      - He is remembering without connecting, which is the failure the recall condition measured
     answer: 3
     explain: >-
-      Recall on its own moved the on-time share from 29.3 to 38.1 percent, which the authors call
-      remarkable precisely because these subjects had just acknowledged finishing about a day before
-      deadlines. Remembering is not connecting. The substantial answer is what the manipulation was
-      expected to produce. The could-not-recall answer contradicts the design, since describing the
-      history was the task. And nothing here shows a defensive rebound.
+      Students in that study described their history accurately, were told to keep it in mind, and
+      predicted optimistically anyway; the authors describe them as able to acknowledge past
+      episodes and disassociate those episodes from their present predictions. Disbelief is ruled
+      out by his saying it unprompted. Nothing here suggests he is setting a target rather than
+      forecasting. And the differences between rooms are real without being what makes four days
+      wrong.
   - q: >-
       Sixty-two students had external deadlines on their projects. 80.6 percent met the deadline and
       38.7 percent met their own prediction. What does the pair of figures show?
@@ -109,15 +110,15 @@ Lesson 1 found that your picture of a week is unreliable. This lesson is the sam
 scale of a single job, where it has been measured much more precisely and where the fix that
 everybody reaches for turns out not to work.
 
-The finding has a name, the planning fallacy, and the paper this lesson rests on gave it that name
-in its title. Buehler, Griffin and Ross, 1994, in the *Journal of Personality and Social
+The finding has a name, the planning fallacy, which Buehler and colleagues credit to Kahneman and
+Tversky in 1979 and put in quotation marks in their own title.[2] Buehler, Griffin and Ross, 1994, in the *Journal of Personality and Social
 Psychology*.[1] It's the best-evidenced thing in this course, and it is worth knowing its scope
 before its numbers: every subject in the studies below was a Canadian university student, and the
-work was done in the early 1990s.
+paper was published in 1994.
 
 ## The thesis study
 
-Thirty-seven psychology students in the final semester of an Honours Thesis course at the University
+Thirty-seven psychology students in the final semester of the Honors Thesis course at the University
 of Waterloo were telephoned and asked to predict when they would submit. Not once, but three times
 over, in three different ways:
 
@@ -125,8 +126,7 @@ over, in three different ways:
 - the date if **"everything went as well as it possibly could"**
 - the date if **"everything went as poorly as it possibly could"**
 
-The course coordinator recorded when each thesis actually arrived. The means below are from the 33
-subjects for whom both figures existed.[1]
+The course coordinator recorded when each thesis actually arrived. The means below are from 33 of them.[1]
 
 :::predict Before you look at the table: write down two numbers. First, how many days past their best estimate you think the average student took. Second, what share of them you think met their own worst-case date, the one they gave assuming everything went as badly as it possibly could.
 Most people who do this get the first number roughly right, in the sense of guessing that the work
@@ -139,7 +139,7 @@ finish early.
 Hold your two numbers and read on.
 :::
 
-| | Best estimate | "As well as it possibly could" | "As poorly as it possibly could" |
+| | Best estimate | "Everything went as well as it possibly could" | "Everything went as poorly as it possibly could" |
 |---|---|---|---|
 | Predicted days | 33.9 | 27.4 | 48.6 |
 | Actual days | 55.5 | 55.5 | 55.5 |
@@ -160,13 +160,15 @@ So the worst case a person can imagine isn't the worst case. It is a slightly sl
 You are probably already thinking it, and it is the first thing anybody thinks: fine, so I'll pad my
 estimates.
 
-The same study tested that, because the pessimistic date *is* a padded estimate produced under
-instruction. Here is what the authors found: "Although the instructions to make a pessimistic
+The same study tested the nearest thing to it. **Reading the pessimistic date as a padded estimate
+produced under instruction is this course's own reading of that condition rather than a claim the
+authors make**,[4] and it is worth saying so, because a worst-case scenario and an arbitrary
+multiplier are not obviously the same operation. Here is what the authors found: "Although the instructions to make a pessimistic
 prediction decreased the optimistic bias in prediction, it did not increase the accuracy of
 respondents' forecasts."[1]
 
 The absolute error was 23.2 days under the pessimistic instruction against 22.6 days under the
-instruction to be accurate. Essentially unchanged.
+instruction to be accurate. Unchanged, to within half a day.
 
 **That distinction is the one to carry out of this section, and it recurs twice more in this
 course.** Bias is which side of the truth you land on. Accuracy is how far from it you are. Padding
@@ -185,7 +187,7 @@ not, that they intended to finish in the coming week.[1]
 | Finished within the prediction | 37.1% | 42.5% |
 
 And the figure that closes off the easy explanation: these people were not hedging or being
-modest. "Subjects reported feeling 74.1% certain that they would meet their forecasts for academic
+modest. "[S]ubjects reported feeling 74.1% certain that they would meet their forecasts for academic
 projects and 69.9% certain for nonacademic tasks."[1]
 
 Three quarters certain, and right about a third of the time.
@@ -209,16 +211,50 @@ other.
 minutes on a forty-minute job tells you nothing about a job that will take a fortnight. "About
 double" does.
 
-Two warnings, so nobody carries this further than it goes. Three ratios from two studies of students
-in one country in one decade do not give you a constant, and your own number is the one that matters
-anyway. And a ratio is only stable within a kind of work, which the exercise is designed to show you.
+### Worked: five tasks and one number
+
+**Rosa's week is constructed**, and so is every figure in it.[4] She is a district nurse on a fixed
+rota, and these are five things she did around it.
+
+| Task | Predicted | Actual | Ratio |
+|---|---|---|---|
+| Ring the bank about the direct debit | 10 min | 47 min | 4.7 |
+| Weekly shop | 60 min | 75 min | 1.25 |
+| Write up two case notes | 40 min | 55 min | 1.38 |
+| Change the tyre on the car | 45 min | 40 min | 0.89 |
+| Fill in the insurance renewal form | 20 min | 35 min | 1.75 |
+
+Line the five ratios up in order: 0.89, 1.25, 1.38, 1.75, 4.7. **The middle one is 1.38, and that
+is her median.** She would have got 1.99 by averaging, and the average is the wrong tool here,
+because one task is doing all the work in it.
+
+**That one task is the finding, not the noise.** The bank call ran nearly five times over, and it is
+the only one of the five where the length was not hers to decide. She could not have known it would
+be forty-seven minutes. What she could have known, from the last three times she rang them, is that
+it is the kind of task where somebody else sets the clock.
+
+So her sheet gives her two things rather than one. **A working number of about 1.4 for tasks she
+controls**, which is close enough to the studies above to be worth trusting on herself. And **a
+named category, anything that involves waiting on an institution, where the ratio is not a ratio at
+all** and the only honest plan is to give the whole morning to it.
+
+Notice what a median did that an average would not: it kept the outlier visible as a separate fact
+instead of smearing it across the other four.
+
+**Now run the same division on the Study 4 table further down this lesson**, which is a computer
+assignment rather than a thesis: 6.8 over 5.5 is about 1.2. So the neighbourhood is loose, and it is
+loosest on the shortest task.
+
+That is the first of two warnings, and the three figures above would have hidden it. Three ratios
+from two studies of students in one country do not give you a constant, and your own number is the
+one that matters anyway. The second warning is that a ratio is only stable within a kind of work,
+which the exercise is designed to show you.
 
 :::checkpoint Someone objects that all of this is about students and essays, and that a person doing paid trade work quotes jobs accurately because they get paid by the quote. Is that a good objection?
 It is a good objection and it should not be waved away, but notice what it's actually claiming.
 
 It says the effect is smaller, or absent, where there's a feedback loop with money attached to it.
-That is plausible and this course has no measurement of it either way, because the literature it read
-studied students. Lesson 1 named that gap and this is one of the places it bites.
+That is plausible and this course has no measurement of it either way, because the literature it read studied students and office workers.[3] Lesson 1 named that gap and this is one of the places it bites.
 
 What the objection does not do is rescue the general case. The person quoting jobs for money has a
 narrow band of work they have quoted hundreds of times, and their accuracy is a fact about that
@@ -233,6 +269,14 @@ price with a penalty clause is an external deadline wearing a different hat.
 
 Inside Study 2 there is a smaller analysis that is, practically speaking, the most useful thing in
 the paper.[1]
+
+:::predict Sixty-two of those students had an external deadline on their academic project, a date somebody else set. Two numbers before you read on: what share of them do you think met the deadline, and what share met their own earlier prediction?
+The two numbers are 80.6 percent and 38.7 percent, and the gap between them is the finding.
+
+Most people guess the two close together, and usually both low, because the section you have just
+read is about people who cannot forecast. The reason the guess goes wrong is that forecasting and
+finishing turn out to be different skills, and this study measures them separately.
+:::
 
 Sixty-two of those students had an **external deadline** on their academic project. A date somebody
 else set.
@@ -266,8 +310,8 @@ there, and lesson 6 is about deciding whether they should be on the list at all.
 
 ## Why it happens, in one set of figures
 
-The paper asked subjects to list what they were thinking about while they predicted, and the answer
-is the whole mechanism.[1]
+Study 4, the one in the next section, also asked its 123 subjects to list what they were thinking
+about while they predicted, and the answer is the whole mechanism.[1]
 
 - **93.5 percent** reported considering future plans and scenarios for the task, mostly about how
   they'd successfully complete it.
@@ -287,8 +331,19 @@ forecasting is, and your history isn't in the room while you do it.
 
 ### And remembering doesn't fix it
 
-If the history is absent, the obvious repair is to fetch it. The paper tested that too, in a fourth
-study of 123 students on a computer assignment.[1]
+If the history is absent, the obvious repair is to fetch it. Study 4, the source of the three
+figures above, tested exactly that on 123 students doing a computer assignment.[1]
+
+:::checkpoint One group described their past experience with similar assignments just before predicting, and was told to keep those experiences in mind. Given everything in this lesson so far, what do you expect that did to their predictions?
+The honest answer is that this lesson has set you up to expect very little, and very little is what
+happened: 29.3 percent finishing on time became 38.1 percent.
+
+What is worth sitting with is why that is surprising anyway. The other two corrections in this
+lesson failed for reasons you can see. Pessimism adds no information about this job. Imagining the
+run that goes well is what planning is. But fetching the history directly ought to work, because the
+history is precisely what the forecast is missing, and these subjects fetched it accurately and out
+loud.
+:::
 
 One group described their past experience with similar assignments just before predicting, and was
 told to keep those experiences in mind.
@@ -315,8 +370,10 @@ time they'd be early.
 
 **Remembering is not connecting**, and the gap between those two is where this whole subject lives.
 There was a third group in that study who were made to do the connecting, and what happened to them
-is lesson 4's subject, because it is the one correction in this course with a measured effect behind it. Lesson 3 stops here on purpose: you should feel the size of the problem before you meet the
-repair.
+is lesson 4's subject. Their share finishing on time roughly doubled, though **their forecasts were
+no more accurate than anybody else's**, which is a distinction this lesson has already made you
+careful about. Lesson 3 stops here on purpose: you should feel the size of the problem before you
+meet what can be done about it.
 
 ## Four things people believe about their own estimates
 
@@ -327,21 +384,23 @@ and left the error where it was.[1] The pessimistic estimate was still a week sh
 29.3 to 38.1 percent while the students in question had just recited their own history
 accurately.[1]
 
-**"Other people manage this."** The paper's first hypothesis was that "people underestimate their own
-but not others' completion times",[1] and the pattern it reports is that the bias belongs to
+**"Other people manage this."** The paper's first hypothesis was that "[p]eople underestimate their own but not others' completion times",[1] and the pattern it reports is that the bias belongs to
 predicting for yourself rather than to predicting in general. **This course has read the abstract
 and Studies 1, 2 and 4, not the observer study**, so treat this as what the paper reports rather
-than as something the course has checked line by line. Either way, the folk version has it backwards:
-you are not unusually bad at this, and the person you ask for a second opinion is not unusually good.
+than as something the course has checked line by line. Either way, the folk version has it backwards.
+You are not unusually bad at this, and on what the paper reports the asymmetry is not between you
+and other people but between predicting for yourself and predicting for somebody else. Which is a
+reason to ask somebody, and lesson 4 gives you a way of doing the same job on your own.
 
 **"Deadlines are the problem."** In Study 2, 80.6 percent of the students with deadlines met
 them.[1] Deadlines were the thing that worked. What failed was the forecast.
 
 :::callout A word about what this lesson is not saying
 Nothing here says you should work to deadlines, or that external pressure is good for people, or
-that you ought to be doing more. This course made a decision at the outset not to argue about
-whether a person should aim to do more or to do less, on the grounds that the evidence doesn't settle
-it and the question is yours. Lesson 8 says why at length.
+that you ought to be doing more. Lesson 1 named the question of whether a person should aim to do
+more or to do less and said the evidence does not settle it. **Lesson 6 is where that question is
+faced**, because it is the lesson that would otherwise decide it silently, and lesson 8 asks what
+the whole evidence base is worth.
 
 What this lesson claims is narrower and, hopefully, more useful: **your estimate of how long a
 specific job will take is unreliable in a known direction and by a measurable amount, and the two
@@ -369,16 +428,15 @@ Then do the task and write down what it actually took.
 At the end of the week, for each task, work out **the ratio**: actual divided by predicted. Not the
 difference. Then answer three questions in writing:
 
-- **What is your median ratio** across the five?
+- **What is your median ratio** across the five, which is the middle one when you line all five up in order?
 - **Which task was furthest out**, and was it the largest task or the least familiar one?
 - **Look back at your five sentences about how you pictured it going.** How many of them mention
-  anything going wrong? The study found 9.8 percent of people mentioning any impediment at all, and
-  your own five is a small enough sample that you can just count.
+  anything going wrong? Study 4's subjects mentioned an impediment 9.8 percent of the time, and your own five is a small enough sample that you can just count.
 
 Keep the sheet. Lesson 4 uses your median ratio, and lesson 7 uses it again when you build a week.
 :::
 
-:::exercise Find one task that has no deadline
+:::exercise Find the tasks nobody is waiting for
 Take 20 minutes.
 
 Write down three things you intend to do that nobody is waiting for. No client, no boss, no form
@@ -408,9 +466,9 @@ of .23 and .82 in the deadline analysis are doing. **Using AI Effectively** taug
 measurement was taken on before you carry it anywhere, which is why the scope of these studies is in
 the second paragraph rather than in a footnote.
 
-**Forward.** Lesson 4 is the correction that works, from the third condition of the study this
-lesson stopped short of, together with the one planning technique in this subject that has a
-meta-analysis behind it. Lesson 5 is why the day itself doesn't hold still. Lesson 7 builds a week
+**Forward.** Lesson 4 is the two corrections with measured effects behind them, the third condition
+of the study this lesson stopped short of and the one planning technique in this subject with a
+meta-analysis, and it is careful about what each does and does not improve. Lesson 5 is why the day itself doesn't hold still. Lesson 7 builds a week
 using your own ratio. Lesson 8 returns to what the whole evidence base is worth.
 
 ## Go deeper
@@ -418,11 +476,15 @@ using your own ratio. Lesson 8 returns to what the whole evidence base is worth.
 - **[Exploring the "Planning Fallacy"](https://web.mit.edu/curhan/www/docs/Articles/biases/67_J_Personality_and_Social_Psychology_366,_1994.pdf)**
   (*Journal of Personality and Social Psychology*, 1994). Hosted openly at MIT. This course has read
   the abstract, Studies 1 and 2 in full with their tables, and Study 4 with its table and discussion.
-  If you read one thing, read the tables: they carry the argument on their own, which is rare and is
-  a good reason to practise reading tables first, as **Reading Well** lesson 8 suggests for papers.
-- **[The American Time Use Survey](https://www.bls.gov/tus/)**, for a different reason from lesson 1:
-  it is a case of a large organisation deciding that asking people how long things take is not good
-  enough, and building an instrument instead. United States only.
+  If you read one thing, read the tables: they carry the argument on their own, which is rare.
+  **Reading Well** lesson 8 gives you the questions to put to a figure, and they work unchanged on
+  these tables.
+- **[The American Time Use Survey](https://www.bls.gov/tus/)** appears here for a third time and a
+  third reason, after lessons 1 and 2. This one: it is a case of a large organisation deciding that
+  asking people how long things take is not good enough, and building an instrument instead. That is
+  the institutional version of the move this lesson asks you to make on yourself. United States
+  only, and this course has read the article that uses its data rather than the survey's own
+  documentation.
 
 ## Sources
 
@@ -449,7 +511,11 @@ using your own ratio. Lesson 8 returns to what the whole evidence base is worth.
    the time management literature", *Personnel Review* 36(2), 2007. Read in part: the abstract and
    pages 255 to 257. Supports the standing point, made in lesson 1 and relied on here, that the
    evidence base for this subject is mostly students and office workers.
-4. **The ratios of actual to predicted time are this course's own arithmetic** on the published
-   means in source 1, stated as such in the body where they appear. The authors report means and
-   completion shares; they do not report ratios, and nothing in the paper establishes that a ratio
-   is stable for an individual.
+4. **Three things in this lesson are the course's own and are labelled as such in the body where the
+   reader meets them.** First, the ratios of actual to predicted time are this course's arithmetic
+   on the published means in source 1: the authors report means and completion shares, they do not
+   report ratios, and nothing in the paper establishes that a ratio is stable for an individual.
+   Second, reading Study 1's pessimistic condition as a test of padding an estimate is this course's
+   reading of that condition and not a claim the authors make. Third, **Rosa and her five tasks are
+   constructed**, along with every figure in them; no source read for this course records one
+   person's predictions against their own times.
