@@ -1,6 +1,6 @@
 ---
 title: The session, and what it can see
-minutes: 110
+minutes: 115
 objectives:
   - >-
     Say what the system can see when it answers, and explain from the mechanism why the same
@@ -39,8 +39,10 @@ quiz:
     answer: 1
     explain: >-
       Everything in the conversation is in front of the system at once, including four rounds of the
-      mistake it is being asked not to make. A fresh start puts the instruction where nothing
-      competes with it. The firmer correction adds a fifth round to the same pile. The change of
+      mistake it is being asked not to make, so a fresh start puts the instruction somewhere nothing
+      competes with it. **Note what that reasoning is:** the measured finding is about position
+      inside a long input, and applying it to a long conversation is this course's inference, which
+      the body flags. The firmer correction adds a fifth round to the same pile. The change of
       product assumes learning that did not happen, since nothing persisted anywhere. And splitting
       the spreadsheet treats a conversation problem as a size problem.
   - q: >-
@@ -72,23 +74,24 @@ quiz:
       Position within a long input changes how well the information is used, and the degradation in
       the middle was found even in models built for long contexts. The equal-availability answer is
       what everybody assumes and is what the study was run to test. The middle-is-best answer invents
-      a mechanism. And the last answer names the one thing that would certainly matter, exceeding the
-      window, while treating everything short of that as safe, which is the belief the study
-      contradicts.
+      a mechanism. And the exceeding-the-window answer names the one thing that would certainly matter
+      while treating everything short of it as safe, which is the belief the study contradicts.
   - q: >-
-      Why does a system produce a different answer to the same question on a second attempt?
+      A developer wants a system's answers to be identical every time, for a process that has to be
+      auditable. On the account in this lesson, what would that actually cost him?
     options:
-      - Because the model is updated continuously, so the second request meets a slightly different model
-      - Because the next word is sampled from a distribution rather than always taken at the top of it
-      - Because the system remembers the first attempt and is deliberately trying not to repeat itself
-      - Because a small amount of randomness is added to the text you sent before it is read
+      - Nothing; identical answers are what a well-specified request produces in any case
+      - The text would come out noticeably more generic and repetitive, which is why nobody ships it that way
+      - It cannot be had at all, since the variation is added deliberately and cannot be removed
+      - The answers would become less accurate, since variety is what allows a better option to surface
     answer: 1
     explain: >-
-      Choosing the most probable word every time would be deterministic, and it is not what these
-      systems do, because text produced that way comes out generic and repetitive. So variation is a
-      design decision rather than a fault. The continuous-updating answer describes something that
-      does happen on a scale of months and cannot explain two attempts a minute apart. The memory
-      answer assumes a persistence there is no reason to expect. And nothing is done to your text.
+      Always taking the most probable next word is deterministic and is precisely what these systems
+      avoid, because what it produces reads as generic and repetitive. So the trade he is asking for
+      is real and it has a price, and the price is the thing he may not have priced. The
+      well-specified-request answer confuses clarity with determinism. The cannot-be-had answer
+      overstates it, since the behaviour is a setting rather than a law. And the accuracy answer
+      inverts the trade: sticking to the most probable words is the more factual end of it.
   - q: >-
       Which pair of habits follows from what this lesson says, for somebody using one of these
       systems for real work?
@@ -108,51 +111,61 @@ quiz:
 
 You can put the same question to one of these systems twice and get two different answers. Most people notice this, decide it's a glitch, and stop thinking about it.
 
-It isn't a glitch. It's a decision somebody made on purpose, and once you know why it was made you can use it. By the end of this lesson, asking twice will be a technique rather than a nuisance.
+It isn't a glitch. It's a decision somebody made on purpose, and once you know why it was made you can turn asking twice into a technique instead of a nuisance.
 
 That's one of three things in this lesson, and all three are about the same question: **what can the system actually see when it answers you?**
 
 ## Everything in front of it, and nothing else
 
-Lesson 2 gave you the core paragraph and flagged its middle sentence as this lesson's business. Here it is.
+Lesson 2 gave you the core paragraph and flagged its middle sentence as this lesson's business: each piece of text the system produces is chosen given **everything in front of it**. Not everything it has ever read, which is finished and folded into the model. Not everything you've ever typed. Everything in front of it, right now.
 
-Each piece of text the system produces is chosen given **everything in front of it**. Not everything it has ever read, which is finished and folded into the model. Not everything you've ever typed. Everything in front of it, right now.
+The textbook's version is precise about the shape of that. When the model is working on a piece of text, it "has access to `xi` as well as the representations of all the prior tokens in the context window ... but no tokens after `i`."[1] The name for that span is the **context window**.
 
-The textbook's version is precise about the shape of that: when the model is working on a piece of text, it "has access to" that piece "as well as the representations of all the prior tokens in the context window (context windows consist of thousands of tokens) but no tokens after".[1] The name for that span is the **context window**, and in the draft of that textbook dated August 2026 the scale had reached "hundreds of thousands to millions of tokens".[1] Treat that number as a snapshot rather than a fact. It's the kind of figure that changes every few months, which is why this course dates them.
+How big is it? The same chapter gives two figures, and the difference between them is instructive rather than a contradiction. The passage defining the mechanism says context windows "consist of thousands of tokens", which is the scale at which the idea was described. The chapter's own summary, characterising transformer language models in general in that draft, says they "have a wide context window (hundreds of thousands to millions of tokens)".[1]
+
+**Neither is a measurement of any particular product**, and that is the thing to take. It is a textbook's characterisation of a class of system in a draft dated August 2026, and the number has moved every year for several years. Treat it as a snapshot. What does not move is the shape: a span, with everything in it available and nothing outside it available at all.
 
 What goes into the window is more than you typed. Depending on the product, it may include instructions from the company that built it, some record of earlier conversations, the contents of a file you attached, and the results of any search the system was allowed to run. **You cannot see most of that**, and you should assume it is there rather than assume it is not.
 
 :::predict Before you read on: a colleague says a long conversation is better than a short one, because the system has more to work with. What is right about that, and what is wrong?
 Right: the material really is all available at once. Something you said forty messages ago hasn't been forgotten and doesn't need repeating.
 
-Wrong: available isn't the same as used well. Everything in the window competes, and the next section has the measurement.
+Wrong: available isn't the same as used well. The next section has a measurement of how much where something sits inside a long input affects whether it gets used.
 
 There's also a second, quieter problem with a long conversation, and it's the one that catches people. Everything in it is available, including the four wrong turns. A thread in which the system has misunderstood you three times contains three worked examples of the misunderstanding.
 :::
 
-## Where it sits in the window matters, which nobody expects
+## Where it sits in the window matters
 
-In 2023 a group at Stanford ran a study to find out how well these systems actually use long inputs, on two tasks: answering a question from a set of documents, and looking a value up by its key. They moved the relevant information around inside the input and watched what happened.[2]
+In 2023 Nelson Liu and six colleagues ran a study to find out how well these systems actually use long inputs, on two tasks: answering a question from a set of documents, and looking a value up by its key. They moved the relevant information around inside the input and watched what happened.[2]
 
-Their finding: "performance is often highest when relevant information occurs at the beginning or end of the input context, and significantly degrades when models must access relevant information in the middle of long contexts, **even for explicitly long-context models**."[2]
+Their finding: "performance is often highest when relevant information occurs at the beginning or end of the input context, and significantly degrades when models must access relevant information in the middle of long contexts, even for explicitly long-context models."[2]
 
-Read that last clause twice. A system advertised as handling an enormous window isn't thereby a system that uses all of one evenly.
+Read that last clause twice, because a system advertised as handling an enormous window isn't thereby a system that uses all of one evenly.
 
 **Be exact about what was measured, because this is easy to stretch and I am about to stretch it myself.** What they varied was the *position* of the information inside one input. They didn't study conversations, and they didn't measure whether long conversations get worse over time. The result supports one sentence: where something sits in a long input changes how well it is used.
 
 **Here is the stretch, marked as mine.** If position matters that much inside one input, then a long conversation, which is one long input by the time you reach the end of it, is a place where things get buried. That's reasoning from the study rather than a finding of it, and it happens to match what people report. Treat it as a good working assumption and not as a measurement.
 
-What follows from it is practical, and almost nobody does it. **When a request really matters, put the important thing at the end.** And when a conversation has gone badly wrong, don't correct it again. Start a fresh one and put the correction in from the beginning. You aren't punishing the system; you're giving your instruction a window it doesn't have to compete in.
+Two things follow, and both are practical. **When a request really matters, put the important thing at the end.** And when a conversation has gone badly wrong, don't correct it again. Start a fresh one and put the correction in from the beginning. You aren't punishing the system; you're giving your instruction a window it doesn't have to compete in.
+
+### What four corrections look like from the system's side
+
+It is worth seeing this piled up rather than described, so here is the spreadsheet conversation from the quiz, written out as the system meets it.
+
+Message one asks for a summary of a sales sheet by region. The answer treats a column called `NE` as north-east when it means "new enterprise". Message two says so. Message three asks for the same summary again; the answer gets `NE` right and treats `SW` the same wrong way. Message four says so. Messages five and six are the same shape again, for two more columns.
+
+Now count what is in front of the system when message seven arrives. One request. Six answers, of which four contain the misreading. Four corrections. And the correction you are about to type, which will sit at the end of all of it.
+
+Your instruction is one paragraph in a document that contains four worked demonstrations of the thing you are trying to stop. Starting again is not a fresh attempt at the same problem. It is the same request with the misreading absent.
 
 ## Why the same question gives different answers
 
-Now the thing you noticed on your first day.
-
-At each step the system has a distribution over what could come next: a long list of possible pieces with a probability attached to each. It could just take the most probable one every time. That approach has a name, greedy decoding, and the textbook is clear about two things: it "is so predictable that it is deterministic; if the context is identical, and the probabilistic model is the same, greedy decoding will always result in generating exactly the same string", and "in practice, however, we don't use greedy decoding with large language models."[1]
+At each step the system has a distribution over what could come next: a long list of possible pieces with a probability attached to each. It could just take the most probable one every time. That approach has a name, greedy decoding, and the textbook is clear about two things: it "is so predictable that it is deterministic; if the context is identical, and the probabilistic model is the same, greedy decoding will always result in generating exactly the same string", and, in its own words, "[i]n practice, however, we don't use greedy decoding with large language models".[1]
 
 Why not? Because what it produces is "generic and often quite repetitive".[1]
 
-So instead, "the choice of which word to generate in transformer LLMs is done by **sampling** from the distribution of possible next words".[1] Sampling means choosing with the probabilities rather than always choosing the top. Two runs of the same request are two draws, and two draws can differ.
+So instead, "[t]he choice of which word to generate in transformer LLMs is done by sampling from the distribution of possible next words".[1] **Sampling** means choosing with the probabilities rather than always choosing the top. Two runs of the same request are two draws, and two draws can differ.
 
 **The variation is the price of the text not being flat.** That's the whole explanation, and it has a shape worth holding on to, which the textbook states better than I can. Methods that stick close to the most probable words "tend to produce generations that are rated by people as more accurate, more coherent, and more factual, but also more boring and more repetitive". Methods that give more weight to the middle of the list "tend to be more creative and more diverse, but less factual and more likely to be incoherent or otherwise low-quality".[1]
 
@@ -172,22 +185,24 @@ Three things happen when you tell a system it got something wrong, and people us
 
 **What really happens:** your correction goes into the window, along with everything else in the conversation. The next answer is produced given all of it, so the correction usually takes effect, and it takes effect here.
 
-**What people believe happens:** the system has learned. It hasn't. Nothing about the model changed because you typed a sentence, and the next person to ask that question, and you next week in a fresh conversation, meet exactly what you met before.
+**What people believe happens:** the system has learned. It hasn't. Nothing about the model changed because you typed a sentence, so next week, in a fresh conversation, you meet a system that has no record of your correction, and the same error is available to it again.
 
-**What might also happen, depending entirely on the product:** some of what you said is saved and put back in front of the system next time. Several products now do this. Several don't. Some do it only if you switch it on.
+**What might also happen, depending entirely on the product:** some of what you said is saved and put back in front of the system next time. Several products now do this, several don't, and some do it only if you switch it on. **This course has not surveyed them and is not going to**, because any such survey would be out of date before you read it.
 
 That third one is why this lesson can't tell you whether it remembers you. **It is a fact about your product rather than about the technology**, so the honest teaching is not an answer but an instruction: go and find out, and write down the date you found out.
 
 :::exercise Read your own product's page, and date it
 Take 15 minutes. This is Digital Literacy's retention-window exercise on a new subject, and the habit is the same one: find the provider's own documentation rather than an article about it, quote the sentence, and write the date you read it.
 
-1. Find the page where your product says what it does with your conversations. Look for "data", "privacy", "memory" or "controls" in its help or settings.
+1. **Before you look, write down what you think the answers are.** Most people are wrong about at least one, and the gap is the whole value of this exercise.
 
-2. Answer three questions in writing, quoting the sentence that answers each. **Is anything kept between conversations and put back in front of the system later?** **Is anything used to train future models?** **Can you turn either off, and is it on or off right now for your account?**
+2. Find the page where your product says what it does with your conversations. Look for "data", "privacy", "memory" or "controls" in its help or settings, if it has them; a product provided by your employer may have none of those and a policy document instead.
 
-3. Write the date you checked, beside each answer.
+3. Answer three questions in writing, quoting the sentence that answers each. **Is anything kept between conversations and put back in front of the system later?** **Is anything used to train future models?** **Can you turn either off, and is it on or off right now for your account?**
 
-4. If your account is your employer's rather than your own, find out whether the answers differ. They very often do, and almost nobody has looked.
+4. Write the date you checked, beside each answer, and mark which of your predictions were wrong.
+
+5. If your account is your employer's rather than your own, find out whether the answers differ. They very often do.
 
 Keep this. Lesson 10 is about what you are willing to hand over, and it starts from what you have just written down.
 :::
@@ -196,7 +211,7 @@ Keep this. Lesson 10 is about what you are willing to hand over, and it starts f
 
 **"It remembers what I told it last week."** Sometimes, and only because somebody built a feature that puts it back in front of the system. Never because the conversation taught it anything, because it didn't.
 
-**"It never remembers anything."** The same mistake with the sign flipped, and it was closer to true a few years ago than it is now. Both versions are guesses about a product you could go and read about.
+**"It never remembers anything."** The same mistake with the sign flipped. Both versions are guesses about a product you could go and read about, and this course's position is the same on both: it is a question with a documented answer, and the answer belongs to your product rather than to the technology.
 
 **"Correcting it teaches it."** It changes this conversation. That's worth a great deal and it isn't learning, and the difference shows up the moment you open a new conversation and meet the same error.
 
@@ -204,7 +219,7 @@ Keep this. Lesson 10 is about what you are willing to hand over, and it starts f
 
 **"A longer conversation gives it more to work with."** True and not the whole story. More to work with is also more to compete with, and a long correction thread is a document containing several worked examples of the mistake you are trying to stop.
 
-**"If I paste in more, it will use all of it."** The Stanford result is the answer: where something sits changes how well it is used, and the middle of a long input is the worst place for it.[2]
+**"If I paste in more, it will use all of it."** Liu and colleagues are the answer: where something sits changes how well it is used, and the middle of a long input is the worst place for it.[2]
 
 :::callout One thing that is not in this lesson, and why
 **How much your product puts in the window without telling you.** Companies don't generally publish the instructions they attach to your conversation, and this course has read nothing reliable about it. What you can say with confidence is that something is there, because products behave in ways plain text prediction wouldn't, and that its contents aren't yours to see.
@@ -241,7 +256,7 @@ Take 15 minutes, on a conversation that is actually going wrong. Save it up if y
 
 4. Compare. Note how long each took and which answer you would actually use.
 
-Almost nobody tries this, and it's the most useful habit in the lesson.
+Most people correct a fifth time instead, which is why this is worth doing once deliberately.
 :::
 
 ## Connections
@@ -253,8 +268,8 @@ Almost nobody tries this, and it's the most useful habit in the lesson.
 ## Go deeper
 
 - **Jurafsky and Martin, *Speech and Language Processing*, 3rd edition draft, [chapter 7, "Transformers and Pretraining"](https://web.stanford.edu/~jurafsky/slp3/7.pdf)**, section 7.6 on decoding and sampling. Free. The mathematics is skippable and the prose around it is not: it is the clearest statement anywhere of what is being traded when a system chooses its next word.
-- **Liu and colleagues, ["Lost in the Middle: How Language Models Use Long Contexts"](https://arxiv.org/abs/2307.03172)** (2023). Read the abstract and look at the figures. The shape of the curve, high at both ends and sagging in the middle, is worth seeing once.
-- **Your own product's data page.** Not a joke. It's the only source in this lesson that's about the thing you actually use, and reading it once a year is the whole of the discipline.
+- **Liu and colleagues, ["Lost in the Middle: How Language Models Use Long Contexts"](https://arxiv.org/abs/2307.03172)** (2023). This course has read the abstract and not the paper, so take this as a pointer rather than a recommendation with detail behind it: the abstract is four sentences and states the result plainly, and the paper is where the measurements are.
+- **Your own product's data page.** It is the only source in this lesson that is about the thing you actually use, and reading it once a year is the whole of the discipline.
 
 ## Sources
 

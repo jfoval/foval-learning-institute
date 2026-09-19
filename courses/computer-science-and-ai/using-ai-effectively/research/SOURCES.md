@@ -78,7 +78,9 @@ it may already be wrong.
   lesson quoting it says whose draft and when.
 
   *Why the same request does not give the same answer*, which is the fact lesson 3 is built on and
-  which almost nobody can explain. The book: "The choice of which word to generate in transformer
+  which almost nobody can explain. **It lives in section 7.6, "Decoding and sampling", and the
+  temperature discussion is 7.6.3**, recorded here because lesson 3 sends a reader to that section by
+  number. The book: "The choice of which word to generate in transformer
   LLMs is done by sampling from the distribution of possible next words." The alternative is spelled
   out and rejected: greedy decoding, choosing the most probable word every time, "is so predictable
   that it is deterministic; if the context is identical, and the probabilistic model is the same,
