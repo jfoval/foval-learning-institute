@@ -11,6 +11,63 @@ Older entries refer to `docs/BACKLOG.md`, which was split on 2026-09-09 into `do
 unstarted work) and this file. Its section numbers survive only in those entries and in a few
 split-seam comments inside Bible Basics lessons, which point at `docs/DECISIONS.md` §5.
 
+## 2026-09-19 — Habits and Self-Discipline is published and written, and Focus and Deep Work is drafted
+
+**Habits and Self-Discipline went live.** Seven lessons, every one through Stage 4 with its review
+applied, an eighteen-item test, a ten-week project, and seven fact-checked podcast scripts, so the
+course is *written* and owes only its seven episodes. `curriculum/audio-debt.yaml` opened at seven in
+the publishing commit. It is the second course of the term on running yourself.
+
+**The course's spine is three numbers that travel further than their evidence**, and the useful
+thing about them is that none was invented. Twenty-one days is a real observation about
+plastic-surgery patients in a 1960 self-help book, with "a minimum of about" lost in transmission.
+Sixty-six days is a real average with a range of 18 to 254. Forty-three percent is the higher of two
+figures in a paper that says "between a third and a half" and explains why its own two studies
+disagree. **A reader taught only to spot fabrications is defenceless against all three**, which is
+why the course traces its first number in lesson 2 rather than at the end.
+
+**Its most useful defect is now `/draft-lesson`'s defect 22, second form: the read level is itself a
+provenance claim.** Three lessons inflated what `SOURCES.md` records about how much of a paper this
+course had read, and in each case the inflation was exactly what licensed material that existed
+nowhere: a university, two sample sizes, a chiming wristwatch, a signed contract, a second study's
+N, and four quotations. **The fabrication sits downstream of a sentence that reads as
+scrupulousness**, which is why it needs a check of its own.
+
+**Two of the three were repaired by Stage 1 work rather than by editing.** The process-model paper
+was opened from the copy its first author posts, and its abstract, overview, motivation section,
+conclusion and footnote 2 are now recorded verbatim. That fixed lessons 5 and 6 together and also
+supplied the resource model's own defence, which lesson 5 had been missing: the course had described
+a contested model entirely in the words of the papers undercutting it.
+
+**Focus and Deep Work was started and drafted in the same session.** Stages 0 to 3 complete: 3,800
+words of research, a 3,900-word outline, seven lessons, an eighteen-item test and a four-week
+project, with Stage 4 reviews applied on the first four lessons. It is not published.
+
+**Its research found an unusual shape and the course is built on it.** Three of this subject's
+best-known claims have been meta-analysed since 2016, and in each case the synthesis says something
+the popular literature has not caught up with: the media-multitasking association does not survive a
+publication-bias correction in the half measured by task performance though it holds in the half
+measured by self-report; the brain-drain effect pools to g = −0.14, sits in memory rather than
+attention, and is null in North American samples; and working-memory training shows no convincing far
+transfer, its own meta-analysts writing that there is no evidential value in the treated-control
+studies.
+
+**The best single source in it is the least expected.** In a CHI 2008 experiment people finished
+interrupted tasks faster than uninterrupted ones, with no difference in errors, and paid for it in
+stress, frustration, time pressure and effort. **A course built on that teaches a reader to ask what
+a measure misses**, which is worth more than any technique the evidence would support.
+
+**One platform change, and it is root rule 10 applied.** `npm run validate` now warns when two
+neighbouring lessons share a quiz answer sequence. Every lesson's quiz can pass all three existing
+shape checks and the course can still hand a learner one key: Habits shipped seven lessons all
+running 0,2,1,3,0,2. A Stage 4 reviewer found it, which is a check's job.
+
+**Three fixes to published courses, found in passing.** Time Management lesson 5 said the 2008
+subjects were interrupted every two to five minutes; the paper says two. Three go-deeper entries
+across five Time Management lessons shared a first line, which the repetition check had been warning
+about since the course shipped. Both are fixed and the repo is now warning-free but for the two
+courses deliberately at `drafting`.
+
 ## 2026-09-19 — Time Management is published, and Term 1's Tools are complete but for one blocked lesson
 
 **The course went live.** Eight lessons, every one through Stage 4 with its review applied, both
