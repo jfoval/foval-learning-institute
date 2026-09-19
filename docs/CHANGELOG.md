@@ -65,6 +65,14 @@ longest option in three or four of their items, so "pick the longest" beat readi
 one used only two of the four answer positions. Fixed the way the warning asks, by lengthening
 distractors rather than trimming keys. `npm run validate` now reports no quiz warning anywhere.
 
+**And the voice debt is gone.** The floor check has been naming sixteen files since it was written,
+six Reading Well lessons and a project among them sitting at exactly zero contractions per thousand
+words. All sixteen are in the band now. Contractions only: no claim, figure, quotation, heading or
+example moved in any of them, occurrences inside quotation marks were left alone, and so were the
+"of it is" and "with it is" shapes, where the "it" belongs to the preposition and a mechanical pass
+gets it wrong. **`npm run validate` now reports no voice warning and no quiz warning anywhere**, and
+the only two warnings left in the whole repo are the two courses that are still drafting.
+
 **Four Bible Basics episodes, and the rate-limit window's real shape.** Episodes 4 to 7 went out,
 taking the debt from nine to five. A refusal at 17:03 saying 23h59m was **not** the day gone: two
 slots freed inside four hours and both renders passed the gate first time. The genuine end of the
