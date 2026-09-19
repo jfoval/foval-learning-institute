@@ -56,8 +56,8 @@ verbatim, and the existence of a corrigendum nobody here has read. **The lesson 
 point of use and teaches the trace**, the way Memory lesson 4 did with Loftus and Palmer. A lesson
 that hid it would be worse than one that did not use the study.
 
-**Decision 4. No lesson tells the reader which medium to use.** Five meta-analyses, two clearing
-zero, pooled effects from +0.008 to +0.250. **The course's answer is the table**, and the reader's
+**Decision 4. No lesson tells the reader which medium to use.** Five meta-analyses, three clearing
+zero and two not, pooled effects from +0.008 to +0.250. **The course's answer is the table**, and the reader's
 own decision is the project's. A course that picked a side here would be teaching against its own
 lesson 5.
 
@@ -258,8 +258,8 @@ all of this.
 - Explain why five syntheses of one literature can give five different answers
 - Say what this course will and will not conclude about note-taking medium, and why
 
-**Core ideas.** **Table 6.**[5] Five meta-analyses, pooled effects from +0.008 to +0.250, two
-clearing zero, **all five pointing the same way**. Printed in full, with intervals and effect
+**Core ideas.** **Table 6.**[5] Five meta-analyses, pooled effects from +0.008 to +0.250, three
+clearing zero and two not, **all five pointing the same way**. Printed in full, with intervals and effect
 counts, and drawn as a chart, because this is the case where the numbers are the point.
 
 Then what the disagreement is about, which is **not** what happened in any study: inclusion

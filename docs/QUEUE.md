@@ -102,8 +102,8 @@ Rewrite these five lines each session. Nothing else goes in this block.
 
 - **Note-Taking and Personal Knowledge is through Stage 2**, with 4,600 words of research and a
   4,800-word outline planning eight lessons, an eighteen-item test and a project that runs across
-  the course. T2, fifth in the term on running yourself. **Lessons 1 to 4 are drafted. Lessons 1 to 3
-  have been reviewed and every finding is applied; lesson 4 owes its review. Lessons 5 to 8 and
+  the course. T2, fifth in the term on running yourself. **Lessons 1 to 5 are drafted. Lessons 1 to 3
+  have been reviewed and every finding is applied; lessons 4 and 5 owe theirs. Lessons 6 to 8 and
   both assessments are still to write, and the project comes before lesson 7.**
 
   **The outline's main decision was how many lessons go to practices with no evidence behind
@@ -123,7 +123,7 @@ Rewrite these five lines each session. Nothing else goes in this block.
 
   **And Stage 1 found the best teaching object in any course so far.** The 2024 meta-analysis
   prints a table of five meta-analyses of the same question, with pooled effects from +0.008 to
-  +0.250 and only two of five clearing zero, all five pointing the same way. Two of them disagree
+  +0.250 and three of five clearing zero, all five pointing the same way. Two of them disagree
   about the same moderator in opposite directions. The disagreement is about which studies belong
   in the pool rather than about what happened in any one of them.
 

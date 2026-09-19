@@ -269,8 +269,8 @@ this course. A correction published by the authors is a fact in the paper's favo
 being dropped in retellings is a fact about the retellings.
 
 The study is a real experiment reporting a real result, and lesson 5 will show you that five
-separate syntheses of this question all point the same direction, and that only two of the five
-clear zero. **Neither half of that sentence can be left off.**
+separate syntheses of this question all point the same direction, and that three of the five clear
+zero and two do not. **Neither half of that sentence can be left off.**
 
 What you should stop doing is quoting it without its conditions. "Laptop note-takers performed
 worse on conceptual questions, in three studies, and the authors propose verbatim transcription as

@@ -40,8 +40,10 @@ nothing read here tests it, and then give the reader the sorting tools rather th
 
 **And one more thing the search establishes.** This subject's single most famous result, the one
 every reader has heard, is currently the subject of a live disagreement between five
-meta-analyses whose pooled effects run from +0.008 to +0.250 on the same question, two of five
-statistically significant. **That table is printed in source 5 below and it is the best teaching
+meta-analyses whose pooled effects run from +0.008 to +0.250 on the same question, **three of five
+statistically significant**. That count was written as "two" when this file was first drafted on
+2026-09-19 and corrected the same day against source 5's own sentence, which names the three:
+Allen and colleagues 2020, Lau 2022, and source 5 itself. **That table is printed in source 5 below and it is the best teaching
 object this search found in any course so far**: the same question, five syntheses, five answers,
 and the disagreement is about which studies belong in the pool rather than about what happened in
 any one of them.
@@ -228,6 +230,10 @@ tables other than Table 6, and three of the four limitation subsections, were no
 
   **The table's own note, verbatim:** "A positive Hedges' g indicates that handwritten notes were
   more effective than typed notes on overall achievement."
+- **How many of the five cleared zero, verbatim:** "The present study is among three (i.e., Allen
+  et al., 2020; Authors, under review; Lau, 2022) of the five studies included in Table 6 that
+  detected statistically significant achievement advantages stemming from recording handwritten
+  lecture notes."
 - **Their own reading of the disagreement, verbatim:** "Although the directionality of the overall
   meta-analytic achievement analyses of the other two studies included in Table 6 (i.e., Urry
   et al., 2021; Voyer et al., 2022) also favored handwritten notes, those analyses did not achieve
