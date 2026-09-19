@@ -26,22 +26,22 @@ quiz:
   - q: A lender offers to consolidate Priya's $12,000 of credit card debt into a home equity loan at 9% instead of 24%. What is the most important thing this lesson says she should weigh?
     options:
       - The cards are unsecured; the new loan is secured by her house. Missed cards damage credit, but a missed home equity loan can cost the house
-      - Nothing at all. A lower rate is a lower rate, so the consolidation has to be the right move whichever way you happen to look at it
+      - Nothing at all. A lower rate is a lower rate, so a consolidation at a lower rate has to be the right move whichever way you happen to look at it
       - The main risk is that consolidating all of the balances will look bad on her credit report for a good while afterwards
       - Home equity loans are a scam of a kind, and no legitimate lender anywhere in the country would ever offer her one of them
     answer: 0
     explain: The rate cut is real, and so is the trade she'd be making underneath it. Credit card debt is unsecured; the worst outcomes are severe but don't directly take her home. A home equity loan pins the same debt to the house, so the downside if her income fails changes category, from damaged credit to possible foreclosure. That doesn't make consolidation always wrong; it means the decision needs her honest odds of repaying, not just the two rates. Option B is exactly the incomplete comparison the offer is designed to invite. Option C is a minor and mostly temporary effect, not the main event. Option D is false; home equity loans are legitimate products, which is why the real risk is easy to miss.
   - q: Your friend pays off most of his card each month but deliberately leaves $80 unpaid, because "carrying a small balance builds your credit score." What is the accurate response?
     options:
-      - He's right, and the trick is simply keeping the carried balance under $100 in any given month
-      - He's half right. Carrying a balance does help her score, but only if the card is more than a year old already
+      - He's right about it, and the whole trick is simply keeping the balance she carries under $100 in any given month
+      - He's half right about it. Carrying a balance does help her score, but only if the card she carries it on is more than a year old
       - He's paying interest for nothing. Using the card and paying the statement in full shows the bureaus the same activity
-      - He's wrong, but only because he ought to be carrying the balance on two cards rather than on one
+      - He's wrong about it, but only because he ought to be carrying the balance across two cards rather than on one of them
     answer: 2
     explain: This is the most-repeated credit myth in America, and it costs real money. Scores use what the card company reports, mainly your statement balance and whether you paid on time. Paying in full after the statement closes reports the same usage and the same on-time record as carrying $80 into the next cycle. The only difference is that the carried $80 accrues interest and forfeits the grace period on new purchases. All three wrong options are variants of the same myth with invented rules attached; no version of "pay interest to help your score" is true.
   - q: Rosa has $400 a month freed up by her lesson 2 budget. She has no cash cushion, a card balance at 24% APR, and an employer who matches 401(k) contributions dollar for dollar up to 3% of her pay, which she isn't claiming. Where does the strongest case say the first dollars go?
     options:
-      - The card, because 24% is comfortably the highest single interest number anywhere in her finances right now, by some way
+      - The card, because 24% is comfortably the highest single interest number anywhere in her finances at the moment, and by quite some way
       - Enough into the 401(k) to collect the full match, since a dollar-for-dollar match is an instant 100% return that a 24% card cannot beat
       - The cushion, because every expert agrees that a full $1,000 of savings has to come before any debt payment at all
       - Split the whole $400 evenly across all three of them, since diversifying like that is always going to be the safest option

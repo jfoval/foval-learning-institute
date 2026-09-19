@@ -25,26 +25,26 @@ quiz:
     explain: This is the Roediger and Karpicke pattern applied to a new case. Reading again beats recalling when the test is minutes away (81% vs 75% in their first experiment, where each student did both conditions on different passages), and loses by a week (42% vs 56%). Their second experiment is closer still to Marco's choice, since study-study-study-study lost to study-test-test-test 40% to 61% at one week. Option B over-generalises; recall does not win immediately, which is exactly why it feels worse. Option C is what most people predict, and it is right only for tomorrow. Option D has the short-delay result wrong; rereading really does score higher at first.
   - q: A language app shows you each word next to its translation and asks you to swipe "know it" or "still learning". You swipe "know it" on 95% of the cards and finish in ten minutes. Your friend's app shows the word on its own and makes her type the translation; she gets 70% right and it takes her twice as long. Who is likely to remember more of the vocabulary in a month?
     options:
-      - You, because a 95% rating means most of the words are already stored and only need a light refresh
-      - You, because her errors and frustration during practice get in the way of forming clean memories
-      - About the same, because both of you met the same words the same number of times in the same session
+      - You, because a 95% rating means that most of the words are already stored away, so what is left to do before the test is a light refresh rather than any real learning
+      - You, because her errors and her frustration during the practice itself get in the way of forming clean memories of any of it
+      - About the same, because the two of you met exactly the same words the same number of times in the same session on the same day
       - Your friend, because typing the translation from the word alone builds storage strength, while your swipe measured how familiar the pair looked together
     answer: 3
     explain: Your app showed you the word and the translation side by side and asked how it felt. That is a judgement of learning made with the answer in view, the situation Koriat and Bjork showed inflates confidence, and it never made you produce anything. Your friend had to rebuild each translation from the word alone, which is the event that raises storage strength. Option A treats a feeling of knowing as a measure of storage. Option B treats difficulty as bad; here it is the useful kind. Option C ignores that what you do with an exposure matters more than how many exposures there are.
   - q: Lena spoke Portuguese every day until she was nine, then moved country and has not used it in twenty years. Today she can barely produce a sentence. Tom learned thirty Portuguese words from a list an hour ago and can produce all thirty. Which description is right?
     options:
-      - Lena has low storage strength and Tom has high storage strength; a test today would show exactly that
-      - Both have low storage strength, since neither of them would pass a test on the material in a month
+      - Lena has low storage strength and Tom has high storage strength, and a test taken this afternoon would show exactly that
+      - Both of them have low storage strength, since neither of the two would pass a test on the material a month from now
       - Lena has high storage and low retrieval strength; Tom has high retrieval and low storage strength; she will relearn far faster than he will retain
-      - Lena's Portuguese has decayed to nothing, and Tom's words will go the same way unless he reads the list again every day
+      - Lena's Portuguese has decayed away to nothing at all, and Tom's vocabulary will go exactly the same way unless he reads the list through again every single day
     answer: 2
     explain: Lena is the childhood phone number case. Years of daily use built deep storage strength; twenty years of disuse drained retrieval strength, so nothing comes out today, but a few weeks back in Portugal would bring much of it back fast. Tom is the opposite profile; one exposure an hour ago makes the words accessible now and has built little that will last. Option A reads a test taken today as a measure of storage, which is the lesson's central mistake. Option B is wrong about Lena, whose storage is high. Option D assumes storage strength decays, which the Bjorks' model denies, and prescribes rereading, which raises the wrong strength.
   - q: Daniel tries two ways of studying for two comparable chapters, then takes a delayed test on both. The chapter he studied the harder, less comfortable way scores noticeably higher. He says the easier method "just works better for me" and goes back to it. Which response is best supported by the evidence in this lesson?
     options:
-      - He is probably right; people are usually good judges of which methods suit them, and his comfort is real data
+      - He is probably right about it, since people are usually good judges of which study methods suit them best, and how comfortable he felt is real data about him
       - He should trust the delayed test over the feeling, because judgements of learning follow fluency and are biased in a predictable direction
-      - He should keep the easier method but spend longer on it, so that the extra time makes up the gap the test showed
-      - He should use the harder method only for chapters he finds boring, since difficulty helps mainly when motivation is low
+      - He should keep to the easier method but spend rather longer on it each week, so that the extra time makes up the gap that the test showed
+      - He should use the harder method only on the chapters he finds boring, since a difficulty helps mainly when motivation is already low
     answer: 1
     explain: Kornell and Bjork's painters studies are the warning here. In one experiment 78% of people did better with the spaced order, yet 78% said the massed order was as good or better; in another, 64 of the 72 who had a preference picked the method that had worked worse, even after their own test performance had demonstrated the opposite. Feelings of learning track fluency, not storage. Option A is what the illusion feels like from the inside. Option C adds more of a method that raises retrieval strength without building storage, which is the problem, not the fix. Option D invents a rule the lesson never gives; the useful kind of difficulty is about what the activity makes you do, not about how bored you are. One comparison on two chapters is thin evidence on its own, but it points the same way as the whole literature, and the feeling points the wrong way.
 ---

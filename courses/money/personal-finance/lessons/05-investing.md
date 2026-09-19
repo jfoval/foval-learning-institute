@@ -18,24 +18,24 @@ quiz:
   - q: A fund company advertises a fund that beat its index in each of the last five years, and a friend says that settles the choice. What does the evidence say?
     options:
       - Past winning tells you almost nothing about future winning, and none of 2020's top-quarter US funds stayed there
-      - Five years is long enough. A fund that beats the index for that long has proven real skill rather than luck
-      - The ad proves skill, but a careful investor would wait for a full ten years of outperformance before buying
-      - Beating an index is simply impossible over any period at all, so the advertisement has to be false somewhere
+      - Five years is long enough to tell. A fund that beats its index for that long has proven real skill rather than luck
+      - The advertisement proves skill, but a careful investor would wait for a full ten years of outperformance before buying
+      - Beating an index is simply impossible over any period of time at all, so the advertisement has to be false somewhere
     answer: 0
     explain: This is what the SPIVA persistence scorecard measures directly, and its answer is brutal for the advertisement. Winners don't stay winners at anything like the rate skill would predict; the top-quartile-to-nowhere result (0.0% over four years) is typical of edition after edition. Option B is the exact inference the persistence data exist to test, and it fails the test. Option C just doubles the length of a signal that doesn't work; by the time ten years have passed, the record still can't tell you about the next ten. Option D overcorrects, since some funds genuinely do beat their index in any period; the problem is that nothing identifies them in advance, which is what a buyer would need.
   - q: Ines is offered an actively managed fund charging 1% a year, and the manager is genuinely clever and hard-working. A comparable index fund charges 0.05%. What does Sharpe's arithmetic say Ines should ask?
     options:
-      - Nothing much at all. A 1% fee is trivial next to markets that can move 10% or more in a single year
-      - Whether the fund has managed to beat the index over the past few years of trading in the market
+      - Nothing much at all. A fee of 1% is trivial next to markets that can move by 10% or more inside a single year
+      - Whether the fund has managed to beat its index over the past few years of trading in the market as a whole
       - Whether the manager can beat the market by more than the extra 0.95 points of fee, every year she holds it
       - Whether the index fund is really the riskier one, since in most markets a lower price means lower quality
     answer: 2
     explain: Active investors as a group hold the market, so as a group they earn the market's return minus their costs; for any one fund to justify its fee it must beat the market by at least the fee gap, every year, net of its own trading costs. That is the hurdle, and the SPIVA record shows how rarely it is cleared for long. Option A confuses the size of market moves with the cost of the fee, which compounds against you in up years and down years alike. Option B is the persistence mistake from the previous question. Option D has funds exactly backwards; two funds tracking the same index deliver the same return minus their fees, so the cheaper one is simply better, one of the few markets where that is true.
   - q: Eight months after Lena starts investing her retirement savings (35 years away) in a broad index fund, the market falls 25% and the news is full of catastrophe. Her emergency cushion is intact. What does this lesson say about her situation?
     options:
-      - Sell everything now, wait for the recovery to begin properly, and then buy back into the market again
+      - Sell everything she holds now, wait for the recovery to begin properly, and then buy back into the market again
       - A drop like this sits inside the normal historical range, her horizon is decades, and she won't be forced to sell
-      - Move everything across into bonds until the direction of the market becomes properly clear again
+      - Move everything she holds across into bonds until the direction of the market becomes properly clear again
       - Pause her monthly contributions altogether until prices have clearly stopped falling again
     answer: 1
     explain: The average year sees the US market dip about 14% at some point, and falls of 30% or more have arrived about once a decade; a plan that only works in calm years isn't a plan. Selling after a fall converts a paper loss into a real one, and options A and C both require being right twice, on the way out and on the way back in, which is the timing problem professionals fail at. Option D stops her buying at the lowest prices she may see for years; the same monthly amount buys more shares after a fall. The honest caveat stands, though. Nobody can promise a quick recovery, and history includes a decade of negative real returns. That's precisely why only long-horizon money, backed by a cushion, belongs in stocks at all.

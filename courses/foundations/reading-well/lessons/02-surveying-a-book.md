@@ -9,18 +9,18 @@ objectives:
 quiz:
   - q: You have an hour and an unread 500-page book. Which order of moves is the survey, and why is that order not arbitrary?
     options:
-      - Read the first fifty pages carefully, then decide whether to go on reading
-      - Read every chapter's first paragraph, front to back, without stopping anywhere
+      - Read the first fifty pages carefully, and then decide whether to go on reading it
+      - Read every chapter's opening paragraph, front to back, without stopping anywhere
       - Title page, contents, index, blurb, pivotal chapters, then dip in and the last pages
-      - Read the final chapter first, since conclusions are where the argument lands
+      - Read the final chapter first of all, since a conclusion is where the argument lands
     answer: 2
     explain: The steps run from the most compressed statement of a book to the least, so each one tells you where to look in the next, which is C. A is the default this lesson replaces, and it spends the hour on a tenth of the book. B has no source of orientation in it, so you finish with fifty disconnected openings. D names something close to a real step, and step six is the last two or three pages rather than the last chapter, and it comes last because it makes sense only once you know what the book claimed to be doing.
   - q: A reader surveys a book and decides not to read it. A colleague says this is judging a book before reading it. What is the precise answer?
     options:
       - Two judgements are in play, and the survey makes the cheaper one on the evidence
-      - The colleague is right, so the survey should count as a first impression only
-      - No judgement was made at all, because no view of the argument was ever formed
-      - Surveys are for books you have decided to read, so the method was misapplied
+      - The colleague is right, so the survey ought to count as a first impression and no more
+      - No judgement was made at all, because no view of the argument itself was ever formed
+      - Surveys are for books you have already decided to read, so the method was misapplied
     answer: 0
     explain: The survey decides whether to read the book, and it decides on evidence the book supplied, which is A. B treats an hour of structured evidence as a hunch. C is false, since the survey does form a view of what the book argues, and that view is what the decision rests on. D inverts the method's commonest use, which is triage.
   - q: Adler's rule for a hard book on a first pass is to read it through without stopping to look up or ponder what you do not understand. Why is that not laziness?
@@ -41,10 +41,10 @@ quiz:
     explain: An absent index is step 3 and an absent publisher's note is step 4, and when the apparatus returns nothing the survey falls back on the text itself, which is B. A misnames the steps, since a title page and chapters are both present here. C prescribes more of the step that already worked. D is the conclusion the whole lesson argues against, because step 6 still costs twenty minutes rather than a week.
   - q: Two readers each spend forty minutes on the same unread 400-page book. One reads from page 1 and reaches page 45. The other surveys it. Both are asked what the book argues. What does the surveyor have that the other does not?
     options:
-      - A verdict on whether the book is any good, which the other one cannot form
-      - A faster reading rate, which is the skill a survey is supposed to train
+      - A verdict on whether the book is any good at all, which the other one cannot form
+      - A faster reading rate overall, which is the skill a survey is supposed to train
       - The author's outline, the range of the topics, and his own closing statement
-      - Nothing, since forty minutes of careful reading beats forty of skimming
+      - Nothing at all, since forty minutes of careful reading beats forty of skimming
     answer: 2
     explain: The survey reads the places where the author has already compressed the book, which is C. A overstates it, because the survey supports a decision about reading rather than a judgement of the argument, which is lesson 5's job. B confuses a procedure with a skill, since the survey changes what you read rather than how fast. D is the intuition being tested, and it loses because the first reader knows nine per cent of the book and cannot say whether it was the nine per cent that mattered.
 ---
