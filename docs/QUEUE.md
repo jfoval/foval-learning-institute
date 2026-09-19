@@ -67,16 +67,21 @@ Rewrite these five lines each session. Nothing else goes in this block.
   claims about itself, so under root rule 8 it is John's decision and not a drafter's. Nothing is
   blocked: the course is live without it.
 
-- **Time Management is drafting, lesson 1 of 8 done.** T1, seventh and last of the Tools
+- **Time Management is drafting, lessons 1 to 3 of 8 done.** T1, seventh and last of the Tools
   term, `status: drafting`. 4,900 words of research and a 5,400-word outline planning eight lessons,
-  a twenty-item test and a fortnight-long project. **Lessons 1 and 2 are drafted and both owe their
-  Stage 4 review**; lessons 3 to 8 are next, and `npm run state` names the one to draft.
+  a twenty-item test and a fortnight-long project. **All three drafted lessons owe their Stage 4
+  review** and all three are in one now; lessons 4 to 8 are next, and `npm run state` names the one
+  to draft.
 
-  **Lesson 2 is drafted**, 3,850 body words, 110 measured minutes, and both of this drafter's
-  measured defects appeared on it again on the first pass: 0.5 contractions per 1,000 body words
-  against a band of 5 to 8, and the outline's 65-minute estimate against a measured 110, which is
-  the factor-of-two understatement this repo has now seen in every lesson it has measured. Both are
-  closed on the file. Lessons 1 and 2 are in Stage 4 review.
+  **The contraction defect went both ways on 2026-09-19 and the second direction is new.** Lesson 2
+  came in at 0.5 per 1,000 body words, which is defect 15 exactly as written. Lesson 3 was then
+  drafted with contractions deliberately in the first pass and came in at **10.7, over the top of
+  the 5 to 8 band**, which took a second pass to bring down to 6.6. So writing them in is right and
+  it is not self-correcting: measure after drafting either way. The band is checked by
+  `npm run validate` in both directions, and it warns on the overshoot as an overcorrection.
+
+  **The outline's minute estimates run low here too**, which is now three courses running. Lesson 2
+  was planned at 65 and measures 110. Take `npm run minutes` and ignore the outline's heading.
 
   **Both of this drafter's measured defects appeared on lesson 1's first pass, exactly as
   `.claude/commands/draft-lesson.md` numbers 15 and 16 say they will.** The draft came in at 0.3
