@@ -46,11 +46,11 @@ Rewrite these five lines each session. Nothing else goes in this block.
   quarantined there so that a future session can bring the course up to date without re-opening ten
   lessons. Do not spread dated claims back through the others.
 
-  **Dell'Acqua et al. is on the `unread:` line and four lessons want it.** Both publisher copies
-  returned 403 on 2026-09-18 and the HBS PDF would not extract, so the jagged-frontier figures came
-  from an author's own written account of his own study. Whoever drafts lesson 1 should open the
-  paper first and move it off that line, or lessons 1, 6, 9 and 11 keep the idea and lose the
-  citation.
+  **All eleven lessons are reviewed and the voice pass is done.** What is left before it publishes:
+  the neutrality audit, which `sensitive_domain: true` makes mandatory, and then the status change
+  in `course.yaml` and the TAXONOMY row together, with the lesson count added to
+  `curriculum/audio-debt.yaml` in the same commit. Then eleven podcast scripts, which cost nothing
+  and are what takes the course from published to written.
 
   **One scope question is John's and is not urgent.** The course deliberately leaves out the ethics
   of training data, copyright and the labour questions, on the grounds that they are a different
@@ -78,13 +78,20 @@ Rewrite these five lines each session. Nothing else goes in this block.
   oversight in twenty lessons. **Settle it once and apply it everywhere**, rather than one lesson at
   a time.
 
-- **The contraction check has a ceiling now, and three files are still over it.** It warns above 14
-  per 1,000 body words on drafting courses only. Using AI Effectively lesson 7 was one of the
-  original four and is fixed, at 7.0. The three left: Digital Literacy lesson 11 at 18.1, its
-  machine-audit project at 22.8, and Using AI Effectively lesson 2 at 15.6. **None of them can
-  publish yet**, so nothing is blocked, and the right time to fix each is the next time somebody is
-  in that file rather than a pass of its own. `docs/VERIFICATION.md` carries the row and the
-  reasoning.
+- **The contraction check has a ceiling now, and two Digital Literacy files are still over it.** It
+  warns above 14 per 1,000 body words on drafting courses only. Both Using AI Effectively files it
+  caught are fixed, lesson 7 at 7.0 and lesson 2 at 7.4. The two left are Digital Literacy lesson 11
+  at 18.1 and its machine-audit project at 22.8. **Neither can publish yet**, so nothing is blocked,
+  and the right time to fix each is the next time somebody is in that file rather than a pass of its
+  own. `docs/VERIFICATION.md` carries the row and the reasoning.
+
+  **One thing to know before fixing either, because it cost four separate second passes today.**
+  Stripping an overshoot overshoots the other way: lessons 7, 9, 10, 11 and 2 all went from over the
+  ceiling to under the floor on the first pass and needed a third. The validator counts `it's`,
+  `that's`, `there's`, `here's`, `what's`, `let's`, `he's`, `she's` and `who's` as
+  contractions, excludes every other possessive, and counts the Sources block in the word total, so
+  a hand count that strips the sources and counts every `'s` reads about double. **Measure the way
+  the validator measures, after the edit, not before it.**
 
 - **Both assessments are written, so lesson 13 is now the whole of what is left.** The machine
   audit and a 32-item course-end test are in `assessments/`, and the test carries a note saying
@@ -111,9 +118,19 @@ Rewrite these five lines each session. Nothing else goes in this block.
   of unwanted installs, because it is the source of 87% of installs. Safest per install, largest in
   absolute terms.
 
-- **The day's fifty renders are spent, on 2026-09-18, and Google says come back tomorrow.** Two
-  Bible Basics episodes went out today, 4 and 5, at $0.26 and $0.24, both passing the gate first
-  time. The debt is 9 down to 7. **The retry time is the thing to read**, and it moved during the
+- **The day's fifty renders are spent again, on 2026-09-18, and the window behaved as recorded.**
+  Four Bible Basics episodes went out over the day: 4 and 5 in the afternoon, then 6 and 7 in the
+  evening after a refusal at 17:03 had said 23h59m. **That refusal was not the whole day gone.** Two
+  slots freed inside four hours, which matches what this file already says about a rolling window,
+  and the two renders that used them passed the gate first time. The fifth attempt was refused at
+  **21h43m**, which is the real end of the day's allowance, and attempts 6 to 9 were refused in the
+  same second. **Nothing was billed for any refusal.** The debt is 9 down to 5, and $1.10 clears the
+  rest. A session opening after about 19:00 tomorrow has the whole allowance.
+
+  **The shape worth carrying forward**, because two sessions have now seen it: a 23h59m or 21h43m
+  message means stop rendering for now, and a shorter one is worth waiting out. Trying four renders
+  in a row after a refusal costs four minutes and nothing else, which is why it is worth doing
+  rather than reasoning about. **The retry time is the thing to read**, and it moved during the
   session in a way worth recording: a 429 at 17:03 said 1h57m, a render at 18:35 was served, a
   second at 18:41 was served, and the next refusal said **23h59m**. So the window really is rolling,
   a slot or two can free up inside a couple of hours at the edge of it, and when the whole day's
