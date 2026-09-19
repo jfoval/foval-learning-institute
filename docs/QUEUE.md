@@ -81,17 +81,27 @@ Rewrite these five lines each session. Nothing else goes in this block.
   Bible Basics lessons 4 and 9, Python Basics lesson 1, Logic and Argument lesson 10, and Digital
   Literacy lessons 1 and 3. **The fix is one edit each: name the distractor by its content.**
 
-- **Note-Taking and Personal Knowledge is scaffolded** and is the next course on the Core, fifth in
-  the term on running yourself. T2, after Memory, because the case for writing anything down rests
-  on Memory's account of what remembering is, and Memory's outline says so in terms. Its
-  prerequisites are How to Learn Anything and Memory. **Stage 1 is the next thing.**
+- **Note-Taking and Personal Knowledge is through Stage 1**, with 4,600 words of research. T2,
+  fifth in the term on running yourself. **Stage 2 is the next thing**, and it has two decisions to
+  make that Stage 1 could not.
 
-  **Two things Stage 1 has to settle before anything is drafted.** The first is the
-  longhand-against-laptop literature, which is the one result everybody in this subject has heard
-  and which has a replication history worth reading before a lesson quotes it. The second is the
-  boundary with How to Learn Anything, which already teaches retrieval practice and spacing, and
-  with Memory, which already teaches reconstruction: this course uses all three and must re-teach
-  none, in the form Memory lesson 1 used for its own boundary.
+  **The first is how many lessons go to practices with no evidence behind them.** The research
+  literature in this subject is about lecture note-taking by college students, tested within the
+  hour or the week. The advice literature is about building a personal store of written knowledge
+  over years, and a search found **no peer-reviewed work measuring whether any of it improves
+  anything**. Its own evidence is Luhmann's output, which is a sample of one person who is also the
+  person the method is named after. Memory lesson 6's treatment of the method of loci is the
+  template: say what it is, say nothing read here tests it, hand over the sorting tools.
+
+  **The second is the boundary with two earlier courses.** How to Learn Anything teaches retrieval
+  practice and spacing; Memory teaches reconstruction and the sample question. This course uses all
+  of them and re-teaches none.
+
+  **And Stage 1 found the best teaching object in any course so far.** The 2024 meta-analysis
+  prints a table of five meta-analyses of the same question, with pooled effects from +0.008 to
+  +0.250 and only two of five clearing zero, all five pointing the same way. Two of them disagree
+  about the same moderator in opposite directions. The disagreement is about which studies belong
+  in the pool rather than about what happened in any one of them.
 
 - **Memory is published**, seven lessons, an eighteen-item test and the project. Every lesson has
   been through Stage 4 in a fresh context and every finding is applied; `research/reviews/` has a
