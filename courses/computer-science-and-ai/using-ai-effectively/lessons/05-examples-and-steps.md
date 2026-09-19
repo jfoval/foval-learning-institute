@@ -106,7 +106,7 @@ quiz:
       examples, which bear on the task, with the padding lesson 4 warned about.
 ---
 
-Two moves in this lesson, and they are the last two techniques the course teaches. Both have published results behind them. Both get misunderstood in the same direction, which is that people take them to be doing more than they do.
+This lesson teaches the last two techniques in the course. Both have published results behind them, and both get misunderstood in the same direction, which is that people take them to be doing more than they do.
 
 ## Showing beats describing, for anything with a shape
 

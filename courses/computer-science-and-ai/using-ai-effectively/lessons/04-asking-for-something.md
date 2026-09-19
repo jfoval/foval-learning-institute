@@ -108,7 +108,7 @@ quiz:
       evidence is usually asked to settle and cannot.
 ---
 
-Two requests for the same thing.
+The same task, asked twice.
 
 > Write something for the team about the new expenses policy.
 

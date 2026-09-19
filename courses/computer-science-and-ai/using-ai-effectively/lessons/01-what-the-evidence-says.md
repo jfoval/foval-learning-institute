@@ -103,7 +103,7 @@ quiz:
       not make the decision for you, which is a different thing from declining to cover it.
 ---
 
-Two results, from two trials, both careful, both randomised, and they point in opposite directions.
+The best evidence anybody has about whether these systems make people faster comes from two randomised trials. Both are careful. They point in opposite directions.
 
 **The first.** In a [study run with Boston Consulting Group](https://doi.org/10.1287/orsc.2025.21838) and published in 2026, 758 consultants were given eighteen realistic consulting tasks. Some had no AI, some had GPT-4, and some had GPT-4 plus a short overview on how to prompt it. On those eighteen tasks, the ones with AI completed 12.2% more of them, completed them 25.1% faster, and their work was graded substantially better: graders working on a scale of 1 to 10 gave the control group an average of 4.37, and the two AI groups came in **29.9% and 33.9%** above that.[1] The authors checked that the gain was not just tidier prose, and report that the effects are "not driven by superficial spelling or grammar improvements".[1]
 

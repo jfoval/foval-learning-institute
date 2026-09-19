@@ -109,7 +109,7 @@ quiz:
       as far apart as the key's pair.
 ---
 
-Two jobs, both of which an experienced conveyancer would call routine.
+An experienced conveyancer would call both of these routine.
 
 Turn these eight pages of survey notes into a two-page letter for a client.
 

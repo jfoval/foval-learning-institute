@@ -111,13 +111,11 @@ quiz:
       contracts supplies. And the balance exists only in a system the model cannot reach.
 ---
 
-Two things go wrong with these systems that look completely unrelated.
+Ask one of these systems to count the letter `r` in a long word and you may well get the wrong number, from a system that has just written you a competent paragraph about mediaeval crop rotation. That failure is small and funny.
 
-The first is small and funny. Ask one to count the letter `r` in a long word and you may well get the wrong number, from a system that has just written you a competent paragraph about mediaeval crop rotation.
+A second failure is not funny at all. Ask for a reference and you may get an author who exists, in a journal that exists, with a title in exactly the right style for that field, and a year, and a volume number, for a paper that was never written.
 
-The second is not funny at all. Ask one for a reference and you may get an author who exists, in a journal that exists, with a title in exactly the right style for that field, and a year, and a volume number, for a paper that was never written.
-
-Those two failures have the same cause, and one paragraph explains both. Nine of the eleven lessons in this course are that paragraph applied to something, so it is worth the time it takes to get it properly. Everything you're told to do with these systems, by me or by anybody, either follows from it or is a ritual somebody picked up and passed on.
+Those look like unrelated faults and they have the same cause, and one paragraph explains both. Nine of the eleven lessons in this course are that paragraph applied to something, so it is worth the time it takes to get it properly. Everything you are told to do with these systems, by me or by anybody, either follows from it or is a ritual somebody picked up and passed on.
 
 No mathematics is required to hold it.
 
@@ -133,11 +131,11 @@ Read the last clause of NIST's sentence again, because there is a word in it doi
 
 ## The pieces are not letters, and they are not quite words
 
-The word is **token**, and it doesn't mean what it used to. The standard textbook in the field is blunt about the change: "we now try to reserve the word token instead to mean the output of subword tokenization algorithms."[2]
+The word is **token**, and it no longer means what it used to. The standard textbook in the field is blunt about the change: "we now try to reserve the word token instead to mean the output of subword tokenization algorithms."[2]
 
-Follow that through. Before a system can work with your text, the text has to be cut into pieces. The pieces are not characters, because that would make every sentence enormously long. They aren't words either, because then any word the system had never seen would be a blank. So they're something in between, and the textbook's name for them is **subwords**: "modern tokenizers automatically induce sets of tokens that include tokens smaller than words, called subwords".[2]
+Follow that through. Before a system can work with your text, the text has to be cut into pieces. The pieces are not characters, because that would make every sentence enormously long. They are not words either, because then any word the system had never seen would be a blank. So they are something in between, and the textbook's name for them is **subwords**: "modern tokenizers automatically induce sets of tokens that include tokens smaller than words, called subwords".[2]
 
-The worked example in that chapter is the clearest one I know. Suppose the system has met `low` and `new` and `newer` during training, but never `lower`. Cut on whole words and `lower` is a hole. Cut into subwords and it isn't: "if we had happened not to ever see the word lower, when it appears we could segment it successfully into low and er which we had already seen."[2]
+The worked example in that chapter is the clearest one I know. Suppose the system has met `low` and `new` and `newer` during training, but never `lower`. Cut on whole words and `lower` is a hole. Cut into subwords and it is not: "if we had happened not to ever see the word lower, when it appears we could segment it successfully into low and er which we had already seen."[2]
 
 So a token is sometimes a whole common word, sometimes a fragment like `-er`, and, at the limit, sometimes a single letter: "In the worst case, a really unusual word (perhaps an acronym like GRPO) could be tokenized as a sequence of individual letters if necessary."[2]
 
@@ -148,7 +146,7 @@ Picture a sentence being cut. A common word like `strawberry` may well arrive wh
 :::predict You ask a system how many times the letter `s` appears in "Mississippi sandstorms", and then you ask the same question with a space typed between every letter. Write both predictions down before you run either.
 Run both and compare. What matters is the comparison, not either answer on its own.
 
-What you're testing is whether the difficulty lives in the counting or in the reading. If the spaced-out version does better, the counting was never the problem: the letters simply weren't available as separate things until you made them separate.
+What you are testing is whether the difficulty lives in the counting or in the reading. If the spaced-out version does better, the counting was never the problem: the letters were not available as separate things until you made them separate.
 
 Your system may well get the first one right. Longer and stranger words are where it shows, and a system that gets this right isn't a system that read it the way you did. It's a system for which this particular word happened to be cut conveniently.
 :::
@@ -197,35 +195,35 @@ Now put the invented reference back in front of you.
 A real citation has a shape. Surname, initials, a year in brackets, a title in sentence case, a journal in italics, a volume, a page range. That shape is in the training material tens of millions of times, so a system producing text that fits the statistical shape of writing will produce citations that fit the shape of citations, with the right sort of author for the field and the right sort of journal for the claim. It is convincing for exactly that reason, and it was not a failed attempt at retrieval. Nothing retrieved anything.
 
 :::checkpoint A colleague argues that because the system was trained on real papers, its citations must come from those papers, even if it occasionally muddles two of them. What has she got wrong?
-She's kept the retrieval picture and made it fuzzy, which is the commonest half-step towards understanding this, and it's still the wrong picture.
+She has kept the retrieval picture and made it fuzzy, which is the commonest half-step towards understanding this, and it is still the wrong picture.
 
-Training isn't storage. What the training produced is a model of the shape of text rather than a copy of the documents it read, and there's no step at which a particular document is consulted.
+Training isn't storage. What the training produced is a model of the shape of text rather than a copy of the documents it read, and no step in it consults a particular document.
 
 The practical difference is what she does next. If she believes a citation is a muddled retrieval, she'll try to work out which real paper was meant. If she understands it was produced, she'll go and look for a real source instead, which is both faster and the thing lesson 8 turns into a procedure.
 :::
 
 ## Why "it made that up" is the wrong complaint
 
-You've now got enough to see something most writing on this subject misses. A system built this way isn't sometimes producing text and sometimes reporting facts; it's producing text every time. When the produced text happens to be true, that's because the shape of true writing about that subject was well represented in what it learned from, and when it's false, the same process ran.
+You've now got enough to see something most writing on this subject misses. A system built this way is not sometimes producing text and sometimes reporting facts; it is producing text every time. When the produced text happens to be true, that is because the shape of true writing about that subject was well represented in what it learned from, and when it is false, the same process ran.
 
 So there's no separate faulty mode to be switched off, and a confident false answer isn't evidence that anything malfunctioned. The confidence and the falsehood are both properties of the text, and the text is what the thing makes.
 
-That isn't the whole story. Lesson 7 takes it properly, including an argument published in 2025 that the *training and scoring* of these systems rewards guessing over admitting ignorance, which would be a real lever somebody could pull.[3] For now hold the narrower version, because it's the one that changes how you work: **ask whether this is the kind of task where the shape of good writing and the truth come apart.** When the answer is no, as in rewriting something you supplied, you're on safe ground. When the answer is yes, as in anything that has to match a fact outside the conversation, you're not, and no amount of asking nicely changes that. Lesson 6 turns the question into something you can apply in a few seconds, and this lesson is where it comes from.
+That isn't the whole story. Lesson 7 takes it properly, including an argument published in 2025 that the *training and scoring* of these systems rewards guessing over admitting ignorance, which would be a real lever somebody could pull.[3] For now hold the narrower version, because it's the one that changes how you work: **ask whether this is the kind of task where the shape of good writing and the truth come apart.** When the answer is no, as in rewriting something you supplied, you are on safe ground. When the answer is yes, as in anything that has to match a fact outside the conversation, you are not, and no amount of asking nicely changes that. Lesson 6 turns the question into something you can apply in a few seconds, and this lesson is where it comes from.
 
 ## What people get wrong
 
-**"It looks things up."** Unless it's been handed a tool that goes and searches, it doesn't. Plenty of products now hand it such a tool, and that changes what it can reach rather than how the answer is produced when it hasn't used one. How much the tool helps has been measured, on commercial legal research systems tested in 2024, and lesson 7 has the number.[4] It is smaller than the people selling those systems said.
+**"It looks things up."** Unless it has been handed a tool that goes and searches, it does not. Plenty of products now hand it such a tool, and that changes what it can reach rather than how the answer is produced when it has not used one. How much the tool helps has been measured, on commercial legal research systems tested in 2024, and lesson 7 has the number.[4] It is smaller than the people selling those systems said.
 
 **"It has a database."** No. Training built a model of the shape of text. There's no table of facts to be corrected, which is why pointing out an error changes this conversation rather than the system. What a correction does and does not reach is lesson 3's subject, and the answer depends on the product more than people expect.
 
-**"It understands the question the way I do."** Careful in both directions. It plainly does something that behaves a great deal like understanding on a great many tasks, and this course isn't going to tell you it's merely pattern matching, because that phrase does no work. What you can say with more confidence is narrower and more useful: whatever it's doing, it's doing it over pieces of text that don't correspond to letters, and without a document to consult. Those two facts predict its failures, and "does it really understand" doesn't.
+**"It understands the question the way I do."** Careful in both directions. It plainly does something that behaves a great deal like understanding on a great many tasks, and this course isn't going to tell you it's merely pattern matching, because that phrase does no work. What you can say with more confidence is narrower and more useful: whatever it is doing, it is doing it over pieces of text that do not correspond to letters, and without a document to consult. Those two facts predict its failures, and "does it really understand" doesn't.
 
 **"If it can write an essay it can count letters."** Those two aren't on a scale with each other. Essay-shaped text is what the pieces are good for. Letter counting is a job about something below the pieces.
 
 **"Getting it wrong means it is broken."** It means you were on the wrong kind of task, which is most of what lesson 6 is about. Your first instinct on a bad answer should be to ask what kind of question you asked, rather than to ask again more firmly.
 
 :::callout Two things this lesson deliberately does not tell you
-**How the model is built**, which is transformers, attention, parameters and training, and which takes a graduate textbook a hundred pages. You don't need it. Everything in this course follows from the one paragraph, and I'd rather you held one paragraph tightly than four chapters loosely.
+**How the model is built**, which is transformers, attention, parameters and training, and which takes a graduate textbook a hundred pages. You don't need it. Everything in this course follows from the one paragraph, and I would rather you held one paragraph tightly than four chapters loosely.
 
 **Whether it "really" reasons.** People argue about this, and the argument turns on what the word's being asked to mean. Lesson 5 says so explicitly and answers the question you can act on instead, which is what asking for steps actually does to the answer.
 :::
@@ -233,7 +231,7 @@ That isn't the whole story. Lesson 7 takes it properly, including an argument pu
 ## Practice
 
 :::exercise The two demonstrations
-Take 25 minutes. Write your prediction down first, every time. Guessing at an answer before you're given it makes the answer stick better than reading it twice would, which is what How to Learn Anything's lessons on retrieval and testing are about.
+Take 25 minutes. Write your prediction down first, every time. Guessing at an answer before you are given it makes the answer stick better than reading it twice would, which is what How to Learn Anything's lessons on retrieval and testing are about.
 
 **One: the letters.**
 
@@ -258,14 +256,14 @@ Take 10 minutes, and do this one at least an hour after the rest of the lesson r
 
 Close the page. Write the paragraph from the start of this lesson in your own words, from memory: what the system produces, what decides each piece, and what it's approximating.
 
-Then open the page and compare, and mark what you left out. The thing you left out is the thing to reread, and it's worth much more to you found this way than it would've been from reading the section again.
+Then open the page and compare, and mark what you left out. The thing you left out is the thing to reread, and it is worth much more to you found this way than it would have been from reading the section again.
 :::
 
 ## Connections
 
 **Back.** Lesson 1 gave you two studies pointing opposite ways and a reconciliation: gains near the edge of what you can already do, losses on work you had mastered. This lesson is the first half of *why* the frontier is jagged rather than smooth. Get out the two-column baseline you wrote there and mark any entry this lesson has changed your mind about, which will usually be on the right-hand side. It borrows one picture from **Digital Literacy**, the file system and its addresses, and uses it as a contrast rather than re-teaching it.
 
-**Forward.** Lesson 3 is what the system can see when it answers, which is the second sentence of the paragraph above and the one NIST's quotation does not cover. Lesson 6 turns the question about shape and truth into a working test. Lesson 7 is confident false answers taken properly, with the measurement of what a search tool does and does not fix. And lesson 8, checking, only makes sense once you know there's no document to go and look at.
+**Forward.** Lesson 3 is what the system can see when it answers, which is the second sentence of the paragraph above and the one NIST's quotation does not cover. Lesson 6 turns the question about shape and truth into a working test. Lesson 7 is confident false answers taken properly, with the measurement of what a search tool does and does not fix. And lesson 8, checking, only makes sense once you know there is no document to go and look at.
 
 ## Go deeper
 
