@@ -1,0 +1,32 @@
+id: sleep
+title: Sleep
+school: health-and-body
+subject: Health & the Body
+level: Foundation
+status: research
+summary: >-
+  What sleep is measured with, what the evidence does and does not show about losing it, and how
+  to read the confident claims made about it.
+description: >-
+  Sleep is the most advised-about and least measured part of most people's lives. This course is
+  about what is actually known: how sleep is measured and what each instrument can and cannot see,
+  what happens to performance and mood when sleep is restricted under controlled conditions, what
+  the evidence says about the treatments people are offered, and where the popular claims about
+  sleep outrun the studies behind them. It is the sixth course of the term on running yourself, and
+  it is a health course, so it says throughout what it is and is not entitled to claim.
+outcomes:
+  - >-
+    Name the instruments sleep research uses and say what each one can and cannot measure
+  - >-
+    State what controlled sleep restriction has been shown to do to performance, with the
+    conditions it was measured under
+  - >-
+    Distinguish a finding about a population from advice about one person's night
+  - >-
+    Say what the evidence shows about the commonest treatments offered for poor sleep
+  - >-
+    Identify what a widely repeated claim about sleep was measured on, and what it licenses
+  - >-
+    Decide what, if anything, to change about your own sleep, and say what the decision rests on
+prerequisites: [how-to-learn-anything, memory]
+sensitive_domain: true

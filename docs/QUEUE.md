@@ -121,6 +121,13 @@ Rewrite these five lines each session. Nothing else goes in this block.
   Bible Basics lessons 4 and 9, Python Basics lesson 1, Logic and Argument lesson 10, and Digital
   Literacy lessons 1 and 3. **The fix is one edit each: name the distractor by its content.**
 
+- **Sleep is scaffolded and owes Stage 1.** `courses/health-and-body/sleep/`, the first course in
+  the School of Health and the Body, sixth in T2 after Note-Taking. **It is a sensitive domain
+  under standards 3.4** (medicine), so `sensitive_domain: true` and the neutrality audit is
+  mandatory before publish, not optional. Its prerequisites are How to Learn Anything and Memory,
+  because the best-known findings in the sleep literature are memory findings and the course should
+  use them rather than re-teach them. Next: `/research-course courses/health-and-body/sleep`.
+
 - **Note-Taking and Personal Knowledge is through Stage 2**, with 4,600 words of research and a
   4,800-word outline planning eight lessons, an eighteen-item test and a project that runs across
   the course. T2, fifth in the term on running yourself. **Published on 2026-09-19.** All eight
