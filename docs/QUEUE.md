@@ -67,48 +67,64 @@ Rewrite these five lines each session. Nothing else goes in this block.
   claims about itself, so under root rule 8 it is John's decision and not a drafter's. Nothing is
   blocked: the course is live without it.
 
-- **Habits and Self-Discipline is in flight, lessons 1 to 4 of 7 drafted.** T2, second of the term
-  on running yourself. Stages 0, 1 and 2 done: 3,950 words of research, a 4,570-word outline
-  planning seven lessons, an eighteen-item test and a ten-week project. **Lesson 1 has had its Stage
-  4 review and the fixes are applied; lessons 2, 3 and 4 owe theirs.** Lessons 5, 6 and 7 are next.
+- **Habits and Self-Discipline is PUBLISHED**, with seven lessons, both assessments, seven Stage 4
+  reviews applied and a review file for each. T2, second of the term on running yourself. **What it
+  owes is seven podcast scripts**, which are free at the API, and then seven episodes, which are
+  money. `curriculum/audio-debt.yaml` opens its line at 7.
 
-  **Lesson 1's review found a fabrication and it is worth reading before drafting anything here.**
-  The Sources block attributed a case to two named researchers and then hedged that the course had
-  not read their paper. Nothing in the research file connected either name to that case: the chain
-  of custody was invented and then hedged against, which reads as scrupulousness. That is now defect
-  22 in `/draft-lesson`, and the instruction for a reviewer is that **an unprompted hedge is a thing
-  to check rather than a reason to relax.** Two smaller versions of the same failure were in the
-  same lesson: an invented recruitment detail and an invented study setting, both about the one
-  source the course has not opened, and one of them was being used to mark a quiz answer wrong.
+  **This course is where defect 22's second form was measured, and it is the most useful thing the
+  session produced.** The read level is itself a provenance claim, and the drafter raises it exactly
+  where it is least entitled to: lesson 2 turned "the abstract and the diary-study results" into
+  "the abstract, the Method section and the diary-study results" and then printed a page of Method
+  detail that existed nowhere; lesson 3 turned "Study 1's design and participants" into "both
+  studies" and printed Study 2's sample size; lesson 6 turned "Abstract read verbatim" into "the
+  abstract and the two passages stating the shifts" and hung four quotations on the difference.
+  **In every case the inflated read level is exactly what licenses the invented material**, which is
+  why it needs its own check: the fabrication sits downstream of a sentence that reads as
+  scrupulousness. It is now in `/draft-lesson` under defect 22, with the instruction to copy read
+  levels out of `SOURCES.md` rather than write them from memory.
 
-  **Four of that lesson's five criticals were read-level discipline failing on the sources the
-  course has read least**, which is exactly where outline decision 3 predicted the risk and exactly
-  where the decision alone was not enough.
+  **Two of the three were fixed by Stage 1 work rather than by editing**, and that is the lesson for
+  the next course. The Inzlicht and Schmeichel paper was opened from the copy its first author
+  posts, and its abstract, process-model overview, motivation section, conclusion and footnote 2 are
+  now recorded in `SOURCES.md` with every quotation checked character by character. That repaired
+  lessons 5 and 6 at once. **When a read level is the finding, opening the paper is usually cheaper
+  than cutting the lesson.**
 
-  **The research found the thing that shapes the course.** This subject has a good empirical
-  literature and a bad popular one, and the gap is wider than in Time Management. The self-control
-  half is in worse shape than a reader expects: the account that made it famous returned d = 0.04
-  with a confidence interval spanning zero across 23 labs and 2,141 participants, on a protocol its
-  own originator vetted.
+  **It also fixed the course's one neutrality failure.** Lesson 5 described the resource model
+  entirely in the words of the papers that undercut it, because no proponent source had been read.
+  Footnote 2 of that same paper carries the best statement of the defence available: partial
+  depletion, and what looks like depletion being unwillingness to draw further on the reserve, the
+  energy-conservation account. Lesson 5 now has a section for it, and lesson 6's predict block no
+  longer describes the resource account as unable to predict something its defenders do predict.
 
   **Three numbers in this subject travel further than their evidence**, which gives the course its
   spine and its last lesson. Twenty-one days is an observation about plastic-surgery patients in a
   1960 self-help book, with "a minimum of about" lost in transmission. Sixty-six days is an average
   with a range of 18 to 254. And forty-three percent is the higher of two figures in one paper that
-  says "between a third and a half" and explains why its own two studies disagree.
+  says "between a third and a half" and explains why its own two studies disagree. **None of the
+  three was invented**, which is the point lesson 7 assembles them to make, and a harder failure to
+  catch than invention.
 
   **The highest-value fact in the subject is the least repeated one**, and lesson 4 delivers it:
   missing a single opportunity did not seriously impair habit formation, and automaticity gains
   resumed afterwards.
 
-  **Maltz came off the `unread:` line on 2026-09-19**, on the precedent Time Management set with
-  Parkinson: that line stops a course borrowing authority from an unopened work, and lesson 4 does
-  the opposite, since the provenance is the teaching point and the body states the read level.
-  `research/SOURCES.md` carries the reasoning where the entry is.
-
   **The Lally study itself is paywalled and was not opened**, and is reported at one remove through
   two open-access papers by its own author. Outline decision 3 requires lessons to say so in the
-  body wherever the 66 days appears, and lesson 4 opens on it.
+  body wherever the 66 days appears.
+
+  **The four trade books carry `(except 07)` on the `unread:` line**, on the precedent Time
+  Management set with its lesson 8: the last lesson names what a reader will actually be handed, and
+  rests no claim on any of them. `research/SOURCES.md` holds the four titles at search-summary level
+  so a lesson naming them takes them from the research file.
+
+  **Two smaller things left open.** Lesson 5 quotes the 2016 replication's statement of the resource
+  model and its opening sentence about outcomes as the course's own summary rather than as
+  quotations, because `SOURCES.md` does not carry those strings and no open copy of the paper could
+  be reached this session; a later session with access should verify and record them. And lesson 7
+  cites Digital Literacy twice, which is still `status: drafting`, so the pointer goes nowhere on
+  the live site until that course publishes.
 
 - **Time Management is PUBLISHED**, with eight lessons, both assessments, eight Stage 4 reviews
   applied, and eight podcast scripts drafted. T1, seventh and last of the Tools term. It owes eight

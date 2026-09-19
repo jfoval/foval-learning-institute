@@ -83,8 +83,8 @@ Verbatim, and this is the definition the course should use:
 
 **Lally, van Jaarsveld, Potts and Wardle, "How are habits formed: Modelling habit formation in the
 real world", *European Journal of Social Psychology* 40(6), 2010, pp. 998 to 1009.** **Paywalled at
-Wiley and not opened.** Everything below is at one remove, from the two sources in sections 1 and 3,
-both of which have Lally as an author. **A lesson may report it at that level and must say so.**
+Wiley and not opened.** Everything below is at one remove, from the two Gardner papers in section 1
+and immediately below in this section, both of which have Lally as an author. **A lesson may report it at that level and must say so.**
 
 At that level, established:
 

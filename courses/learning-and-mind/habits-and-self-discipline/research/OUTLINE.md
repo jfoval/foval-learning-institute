@@ -380,6 +380,8 @@ does not reach it: no politics, no religion, no recent event. Two things still n
 ## What downstream courses will need this one to have taught
 
 **Focus and Deep Work** (T2, unwritten) will need the cue-and-context material and the honest state
-of the self-control literature, and should not have to re-teach either. **Mental Fitness** (T2,
+of the self-control literature, and should not have to re-teach either. **Memory** (T2,
 unwritten) will need lesson 5's arc as a worked case of a psychological finding that did not hold.
+(An earlier draft of this outline called that course Mental Fitness; `curriculum/core-path.yaml`
+names it Memory, and the map is the authority.)
 Neither exists yet, so this course assumes nothing from them.
