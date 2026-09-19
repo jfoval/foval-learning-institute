@@ -10,14 +10,14 @@ checked: >-
   same commit: it had credited the BCG business-case task design to the second study when it is the
   first study's.
 about: >-
-  About six minutes. Haley opens, because the engine gives the first turn to the second voice.
+  About eight minutes. Haley opens, because the engine gives the first turn to the second voice.
   Hosts are John (S1) and Haley (S2). First episode for Using AI Effectively, sixth course in
   Term 1. The intro and sign-off name the hosts and the lesson and assert nothing factual beyond
   that. The episode leaves out the third study (the writing trial), the European AI Act point, the
   NIST twelve risks, the count of prompting techniques, the Digital Literacy warning about
   understanding, the two-conventions callout, and the second exercise.
 speakers: 2
-approx_minutes: 6
+approx_minutes: 8
 ---
 
 S2: Welcome in. This is the Foval Learning Institute podcast, where the two of us talk a lesson through. I'm Haley.

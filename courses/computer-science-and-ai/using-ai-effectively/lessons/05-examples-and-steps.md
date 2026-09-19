@@ -193,7 +193,7 @@ What comes back:
 > **Year 1:** £14,400
 > **Year 2:** £14,400 × 1.03 = £14,832
 > **Year 3:** £14,832 × 1.03 = £15,277
-> **Total: £59,109**
+> **Total: £58,909**
 
 She checks the arithmetic in each line. Year two is right. Year three is right, to the pound. The uplift has been applied in the right years and compounded rather than repeated, which is the thing she was most worried about.
 

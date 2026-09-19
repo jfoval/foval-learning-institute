@@ -1,12 +1,19 @@
 ---
 source: courses/computer-science-and-ai/using-ai-effectively/lessons/04-asking-for-something.md
 written_by: Claude, by hand, from the lesson text
+checked: >-
+  Every figure, quotation and claim below appears in the lesson. Nothing has been added that the
+  lesson does not say. The course is in a neutral school with no standpoint to preserve, and the
+  one hedge that matters, that the prompting guidance is a vendor writing about its own product,
+  is preserved. Fact-checked in a fresh-context subagent against the lesson on 2026-09-19: verdict
+  PASS WITH NITS, and all five nits were fixed in this file before rendering.
 about: >-
-  About six minutes. Haley opens, because the engine gives the first turn to the second voice.
+  About eight minutes. Haley opens, because the engine gives the first turn to the second voice.
   Hosts are John (S1) and Haley (S2). Fourth episode for Using AI Effectively. The episode leaves
-  out the politeness study, the note on roles and system prompts, and both exercises.
+  out the politeness study, the note on roles and system prompts, the misconception that there is
+  a single correct prompt for a task, and both exercises.
 speakers: 2
-approx_minutes: 6
+approx_minutes: 8
 ---
 
 S2: Welcome in. This is the Foval Learning Institute podcast, where the two of us talk a lesson through. I'm Haley.
@@ -19,7 +26,7 @@ S1: It does. The first version is: write something for the team about the new ex
 
 S2: And the lesson's claim is that the second isn't better engineered.
 
-S1: It's that the second contains things the first doesn't. What changed, who is reading, what they already know, how long, what to avoid, and how to end. That's the whole lesson, and the reason it works is in lesson two.
+S1: It is, and the point is that the second contains things the first doesn't. What changed, who is reading, what they already know, how long, what to avoid, and how to end. That's the whole lesson, and the reason it works is in lesson two.
 
 S2: Why does the request matter that much?
 
@@ -41,7 +48,7 @@ S2: And most bad requests are missing one.
 
 S1: Usually context. And the lesson has a nice explanation of why it's usually that one. Constraints and form are things you know you want and might forget to say. Context is everything you know about the situation that you never thought to mention, because to you it goes without saying.
 
-S2: Now the part I want to hear about, because you said it surprises people.
+S2: Now the part the lesson says surprises people most.
 
 S1: Give the reason, not just the instruction. There's a worked pair in the vendor documentation this lesson quotes. The instruction "never use ellipses" is improved to: your response will be read aloud by a text-to-speech engine, so never use ellipses since the text-to-speech engine will not know how to pronounce them.
 
@@ -75,7 +82,7 @@ S1: The firm was founded in nineteen seventy-four and has offices in four cities
 
 S2: Next.
 
-S1: We pride ourselves on candour and long client relationships. Arguably yes, since candour is a register. But the request already says the slippage has to be said without losing the client, which is candour stated as a constraint on this task. So it's a restatement, and it competes with the sentence that said it precisely.
+S1: We pride ourselves on candour and long client relationships. If the firm prided itself on something else, would the openings change? Arguably yes, since candour is a register. But the request already says the slippage has to be said without losing the client, which is candour stated as a constraint on this task. So it's a restatement, and it competes with the sentence that said it precisely.
 
 S2: And the third?
 
@@ -89,7 +96,7 @@ S2: Which kills "a longer prompt is a better prompt".
 
 S1: And it's why the expenses request at the top of the lesson runs to sixty words rather than six hundred.
 
-S2: What about magic words? There's a whole industry of them.
+S2: What about magic words? There's a whole literature of them.
 
 S1: Lesson one mentioned a twenty twenty-four catalogue naming fifty-eight separate prompting techniques for text. What survives contact with the mechanism is small. Say what the thing is for, say what it must and mustn't do, say what the answer should look like, and give your reasons. Everything else is a special case of one of those, or an artefact of a particular system at a particular time.
 
@@ -97,6 +104,6 @@ S2: And if it misunderstands me, I explain again?
 
 S1: Sometimes. But lesson three's fresh start is often better, and the reason is this lesson's. A new request with the missing context built in is cleaner than an old one with four corrections stacked on top.
 
-S2: That's the episode. We've left out what the evidence says about being polite to one of these, a note on roles, and both exercises. The full lesson is at Foval Learning Institute dot org. Thanks for listening.
+S2: That's the episode. We've left out what the evidence says about being polite to one of these, a note on roles and system prompts, the point that there's no single correct prompt for a task, and both exercises. The full lesson is at Foval Learning Institute dot org. Thanks for listening.
 
 S1: Thanks for listening.

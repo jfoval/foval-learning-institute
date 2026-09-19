@@ -128,7 +128,7 @@ This one's simpler. You typed something on purpose. What happens to it?
 
 Simpler, and with an answer you can go and find, which is why the first exercise below is twenty minutes with a document rather than a lesson of argument.
 
-There's a harder half, though, and it's the one part of this subject that doesn't depend on what any policy says this month. NIST's generative AI profile notes that these systems "may be able to correctly infer PII or sensitive data that was not in their training data nor disclosed by the user by stitching together information from disparate sources". PII is the standards world's abbreviation for personally identifiable information, which is anything that picks out one person, and that "these inferences can have negative impact on an individual even if the inferences are not accurate".[1]
+There's a harder half, though, and it's the one part of this subject that doesn't depend on what any policy says this month. NIST's generative AI profile notes that these systems "may be able to correctly infer PII or sensitive data that was not in their training data nor disclosed by the user by stitching together information from disparate sources", and that "these inferences can have negative impact on an individual even if the inferences are not accurate".[1] PII is the standards world's abbreviation for personally identifiable information, which is anything that picks out one person.
 
 Read that twice. NIST says an inference **may** be drawn and that it can harm somebody **even when it is wrong**, and both halves are in the quotation. The part that is this course's own, and worth saying as such, is the practical upshot: you cannot tell in advance which details are the ones that combine, so withholding the obvious ones is not a plan.
 
@@ -154,7 +154,7 @@ Either way the failure is the same, which is holding a belief about a document i
 
 ## One product, two accounts, worked
 
-A manager uses the same product at home and at work. **The case below is constructed and so is every sentence attributed to a document in it.** No real product's terms are quoted, and the reason for making them up rather than looking them up is the whole of footnote 3: whatever any product says today is not what this lesson can teach you. What it can teach you is the shape of the difference and how to go and find it.
+A manager uses the same product at home and at work. **The case below is constructed and so is every sentence attributed to a document in it.** No real product's terms are quoted, and the reason for making them up rather than looking them up is the whole of footnote 4: whatever any product says today is not what this lesson can teach you. What it can teach you is the shape of the difference and how to go and find it.
 
 **Her home account, read on 14 September.** She finds the privacy page and looks for three sentences.
 

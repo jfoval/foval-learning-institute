@@ -1,18 +1,25 @@
 ---
 source: courses/computer-science-and-ai/using-ai-effectively/lessons/03-what-it-can-see.md
 written_by: Claude, by hand, from the lesson text
+checked: >-
+  Every figure and claim below appears in the lesson. Nothing has been added that the lesson does
+  not say. The course is in a neutral school with no standpoint to preserve. Fact-checked in a
+  fresh-context subagent against the lesson on 2026-09-19: verdict PASS WITH NITS, and every nit
+  was fixed in this file before rendering, including two quotations that had been trimmed of
+  words the lesson prints.
 about: >-
-  About six minutes. Haley opens, because the engine gives the first turn to the second voice.
+  About eight minutes. Haley opens, because the engine gives the first turn to the second voice.
   Hosts are John (S1) and Haley (S2). Third episode for Using AI Effectively. The episode leaves
-  out the worked spreadsheet conversation and the exercise that sends the reader to their own
-  product's documentation.
+  out the worked spreadsheet conversation, all three exercises, the misconception list, the
+  callout on what the lesson deliberately omits, and the naming of temperature sampling, top-k
+  and top-p.
 speakers: 2
-approx_minutes: 6
+approx_minutes: 8
 ---
 
 S2: Welcome in. This is the Foval Learning Institute podcast, where the two of us talk a lesson through. I'm Haley.
 
-S1: And I'm John. Today we're in Using AI Effectively, lesson three. What it can see.
+S1: And I'm John. Today we're in Using AI Effectively, lesson three. The session, and what it can see.
 
 S2: And the lesson opens with something everybody has noticed.
 
@@ -34,9 +41,9 @@ S2: Which is it?
 
 S1: Neither is a measurement of any particular product, and that's the thing to take. It's a textbook characterising a class of system, in a draft dated August twenty twenty-six, and the number has moved every year for several years. Treat it as a snapshot. What doesn't move is the shape. A span, with everything in it available and nothing outside it available at all.
 
-S2: And what's in the window isn't just what I typed.
+S2: And what's in the window isn't just what I typed. The lesson says it may include instructions from the company that built the product, some record of earlier conversations, an attached file, the results of a search.
 
-S1: No. Depending on the product it may include instructions from the company that built it, some record of earlier conversations, the contents of a file you attached, and the results of any search the system was allowed to run. You can't see most of that, and the lesson's advice is to assume it's there rather than assume it isn't.
+S1: And you can't see most of that. The lesson's advice is to assume it's there rather than assume it isn't.
 
 S2: So a long conversation gives it more to work with. That's good, surely.
 
@@ -68,7 +75,7 @@ S1: Because of what's in front of the system by then. Correct the same misreadin
 
 S2: Now the two-different-answers thing. Why does that happen?
 
-S1: At each step the system has a distribution over what could come next, a long list of possible pieces with a probability attached to each. It could take the most probable one every time. That has a name, greedy decoding, and the textbook says it's so predictable that it's deterministic: if the context is identical and the model is the same, greedy decoding will always generate exactly the same string.
+S1: At each step the system has a distribution over what could come next, a long list of possible pieces with a probability attached to each. It could take the most probable one every time. That has a name, greedy decoding, and the textbook says it's so predictable that it's deterministic: if the context is identical, and the probabilistic model is the same, greedy decoding will always result in generating exactly the same string.
 
 S2: But that's not what products do.
 
@@ -76,7 +83,7 @@ S1: The textbook is blunt. In practice, however, we don't use greedy decoding wi
 
 S2: Sampling meaning choosing with the probabilities rather than always taking the top one.
 
-S1: And two runs of the same request are two draws, and two draws can differ. The variation is the price of the text not being flat. The textbook says methods that stick close to the most probable words tend to produce generations rated as more accurate, more coherent, and more factual, but also more boring and more repetitive, while methods that give more weight to the middle of the list tend to be more creative and more diverse, but less factual and more likely to be incoherent.
+S1: And two runs of the same request are two draws, and two draws can differ. The variation is the price of the text not being flat. The textbook says methods that stick close to the most probable words tend to produce generations rated by people as more accurate, more coherent, and more factual, but also more boring and more repetitive, while methods that give more weight to the middle of the list tend to be more creative and more diverse, but less factual and more likely to be incoherent or otherwise low-quality.
 
 S2: So accuracy and interest are being traded off.
 
@@ -98,6 +105,6 @@ S2: So the course won't tell me which.
 
 S1: It won't, because any such survey would be out of date before you read it. It's a fact about your product rather than about the technology, so the honest teaching isn't an answer. It's an instruction: go and find out, and write down the date you found out.
 
-S2: That's the episode, and we've left out the worked spreadsheet conversation and the exercise that sends you to your own product's documentation. The full lesson is at Foval Learning Institute dot org. Thanks for listening.
+S2: That's the episode, and it leaves a good deal out: the worked spreadsheet conversation, three exercises including the one that sends you to your own product's documentation, the list of things people get wrong, and the names of the three ways that accuracy-against-interest trade gets made. The full lesson is at Foval Learning Institute dot org. Thanks for listening.
 
 S1: Thanks for listening.

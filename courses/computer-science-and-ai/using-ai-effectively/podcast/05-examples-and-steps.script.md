@@ -1,12 +1,22 @@
 ---
 source: courses/computer-science-and-ai/using-ai-effectively/lessons/05-examples-and-steps.md
 written_by: Claude, by hand, from the lesson text
+checked: >-
+  Every figure, quotation and claim below appears in the lesson, and every scope caveat on the 2022
+  chain-of-thought result travels with it. Nothing has been added that the lesson does not say. The
+  course is in a neutral school with no standpoint to preserve, and the lesson's refusal to settle
+  whether producing steps counts as reasoning is preserved. Fact-checked in a fresh-context
+  subagent against the lesson on 2026-09-19: came back FAIL on two findings, both repaired and
+  re-checked to PASS WITH NITS in a second fresh context, and the remaining nits were fixed here.
+  The first finding was a defect in the lesson rather than in the script: the costing case's total
+  was £59,109 where the double-counting story requires £58,909, and the lesson was corrected in the
+  same commit.
 about: >-
-  About six minutes. Haley opens, because the engine gives the first turn to the second voice.
+  About eight minutes. Haley opens, because the engine gives the first turn to the second voice.
   Hosts are John (S1) and Haley (S2). Fifth episode for Using AI Effectively. The episode leaves
-  out the charity's worked volunteering descriptions and the misconception list.
+  out the charity's worked volunteering descriptions, the misconception list and both exercises.
 speakers: 2
-approx_minutes: 6
+approx_minutes: 8
 ---
 
 S2: Welcome in. This is the Foval Learning Institute podcast, where the two of us talk a lesson through. I'm Haley.
@@ -27,7 +37,7 @@ S1: You can't get all the way, because what you're describing is a form, and a d
 
 S2: Is there a number?
 
-S1: The vendor guidance the course quotes has a tip: include three to five examples for best results. And two criteria that apply to anybody. Relevant, meaning mirror your actual use case closely. And diverse, meaning cover edge cases and vary enough that the system doesn't pick up unintended patterns.
+S1: A vendor's guidance for its own models, which lesson four introduced and named as a vendor document, has a tip: include three to five examples for best results. And two criteria that apply to anybody. Relevant, meaning mirror your actual use case closely. And diverse, meaning cover edge cases and vary enough that it doesn't pick up unintended patterns.
 
 S2: What's an unintended pattern?
 
@@ -79,7 +89,7 @@ S1: Five steps and the join at the end. The steps aren't evidence. They're a han
 
 S2: Give me the case, because I think I need to see it.
 
-S1: A finance officer asks for the total cost of a three-year contract. Base year fourteen thousand four hundred pounds, with a three percent uplift each year from year two. Back comes: year one, fourteen thousand four hundred. Year two, times one point oh three, fourteen thousand eight hundred and thirty-two. Year three, times one point oh three again, fifteen thousand two hundred and seventy-seven. Total, fifty-nine thousand one hundred and nine.
+S1: A finance officer asks for the total cost of a three-year contract. Base year fourteen thousand four hundred pounds, with a three percent uplift each year from year two. Back comes: year one, fourteen thousand four hundred. Year two, times one point oh three, fourteen thousand eight hundred and thirty-two. Year three, times one point oh three again, fifteen thousand two hundred and seventy-seven. Total, fifty-eight thousand nine hundred and nine.
 
 S2: And she checks it.
 
@@ -103,8 +113,12 @@ S1: Ten seconds, and it's the one that catches her case, and it's almost never d
 
 S2: If somebody only had time for one?
 
-S1: The third. Every time.
+S1: The third, and the lesson then corrects its own answer, which I like. The third check is the best value, and the first is the one whose absence costs most. A correct calculation of the wrong thing is the worse risk. If step one converted the weight in pounds when the brief said kilograms, the arithmetic is flawless all the way down and the answer is dangerous.
 
-S2: That's the episode, and we've left out a worked example about a charity's volunteering descriptions and the list of things people get wrong. The full lesson is at Foval Learning Institute dot org. Thanks for listening.
+S2: So with twenty seconds rather than ten?
+
+S1: Read the first step against the brief, then add the column up, and skip the middle.
+
+S2: That's the episode, and we've left out a worked example about a charity's volunteering descriptions, the list of things people get wrong, and both exercises. The full lesson is at Foval Learning Institute dot org. Thanks for listening.
 
 S1: Thanks for listening.

@@ -9,12 +9,12 @@ checked: >-
   lesson flags its "no store to reach" wording as the course's own and guards it with a
   qualification the first draft of this script had lost, and both are now in the episode.
 about: >-
-  About six minutes. Haley opens, because the engine gives the first turn to the second voice.
+  About eight minutes. Haley opens, because the engine gives the first turn to the second voice.
   Hosts are John (S1) and Haley (S2). Second episode for Using AI Effectively. The episode leaves
   out the diagram comparing a file system, a search engine and a language model, both practice
   demonstrations, and the callout on what the lesson deliberately does not cover.
 speakers: 2
-approx_minutes: 6
+approx_minutes: 8
 ---
 
 S2: Welcome in. This is the Foval Learning Institute podcast, where the two of us talk a lesson through. I'm Haley.
