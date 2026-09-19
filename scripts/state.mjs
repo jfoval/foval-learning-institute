@@ -58,7 +58,7 @@ const EACH = SPEND.attempts ? SPEND.all / SPEND.attempts : 0.22;
 const RENDER_BLOCKED_UNTIL = (function blocked() {
   const work = path.join(ROOT, "audio-out", "work");
   if (!fs.existsSync(work)) return 0;
-  let until = 0;
+  let until = 0, lastOk = 0, lastRefusal = 0;
   (function walk(d) {
     for (const e of fs.readdirSync(d, { withFileTypes: true })) {
       const f = path.join(d, e.name);
@@ -66,15 +66,25 @@ const RENDER_BLOCKED_UNTIL = (function blocked() {
       if (e.name !== "manifest.json") continue;
       let m; try { m = JSON.parse(fs.readFileSync(f, "utf8")); } catch { continue; }
       for (const a of m.attempts || []) {
+        const sent = Date.parse(a.sent || "");
+        if (Number.isNaN(sent)) continue;
+        /* A render that went through is proof the window has room, whatever an older refusal
+           predicted. The quota is a rolling window and Google's retryDelay is its estimate of when
+           the oldest request ages out, so it over-predicts whenever anything else expires first.
+           Without this, one 429 kept telling every session "quota out, work content instead" for
+           the whole delay it named, and on 2026-09-19 that was still being printed while renders
+           were succeeding. Successes are read alongside refusals now. */
+        if (a.ok === true || a.ok === "true") { lastOk = Math.max(lastOk, sent); continue; }
         const err = String(a.error || "");
         if (!err.includes('"code":429') && !err.includes("RESOURCE_EXHAUSTED")) continue;
         const delay = err.match(/"retryDelay"\s*:\s*"(\d+)s"/);
-        const sent = Date.parse(a.sent || "");
-        if (!delay || Number.isNaN(sent)) continue;
+        if (!delay) continue;
         until = Math.max(until, sent + Number(delay[1]) * 1000);
+        lastRefusal = Math.max(lastRefusal, sent);
       }
     }
   })(work);
+  if (lastOk > lastRefusal) return 0;
   return until > Date.now() ? until : 0;
 })();
 const blockedFor = () => {
