@@ -1,0 +1,51 @@
+id: using-ai-effectively
+title: Using AI Effectively
+school: computer-science-and-ai
+subject: Computer Science & AI
+level: Foundation
+status: research
+summary: >-
+  Get useful work out of a language model, check what it gives you before you rely on it, and know
+  the kinds of task where it will confidently hand you something wrong.
+description: >-
+  Almost everybody has now typed something into one of these systems and got back an answer that
+  was either better than expected or quietly wrong, and most people cannot say which kind of task
+  produces which. This course is about telling them apart. It covers what a language model is
+  actually doing when it answers, how to ask for something in a way that makes a good answer more
+  likely, how to check an answer you cannot verify by reading it, and the failure modes that are
+  properties of the machinery rather than bugs somebody will fix next year. It is written for
+  somebody who uses these tools for real work and wants to be neither the person who trusts
+  everything nor the person who refuses to touch them. Every claim about what the systems can and
+  cannot do carries its date, because this is the fastest-moving subject the institute teaches.
+outcomes:
+  - >-
+    Describe, without mathematics, what a language model is doing when it produces an answer, and
+    say which of its behaviours follow from that and which do not
+  - >-
+    Ask for a piece of work in a way that supplies the context, the constraints and the form of the
+    answer, and say why each of the three changes what comes back
+  - >-
+    Tell apart the tasks these systems are reliable at from the tasks they are unreliable at, and
+    say what the distinction rests on
+  - >-
+    Verify an answer you could not have produced yourself, using a procedure that does not depend on
+    already knowing the answer
+  - >-
+    Recognise the standard failure modes, including a confident wrong citation, and say which are
+    properties of the machinery rather than defects awaiting a fix
+  - >-
+    Decide when not to use one, on grounds you can state, including the cases where using one costs
+    you the learning the task was for
+  - >-
+    Say what happens to what you type in, and make a considered decision about what you are willing
+    to put into somebody else's system
+# Term 1 on the Foval Core, sixth of seven, immediately after Digital Literacy. The placement is
+# already in curriculum/core-path.yaml and predates this course being started.
+#
+# sensitive_domain is true, and the call is this session's rather than the standards' list.
+# Standards 3.4 names education and any recent event, and this course cannot be written without
+# both: an honest treatment has to say what the evidence shows about these systems and learning,
+# and every capability claim in it is a claim about something that changed this year. The
+# neutrality audit is therefore mandatory rather than optional.
+prerequisites: []
+sensitive_domain: true
