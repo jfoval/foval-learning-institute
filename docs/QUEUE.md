@@ -78,20 +78,22 @@ Rewrite these five lines each session. Nothing else goes in this block.
   oversight in twenty lessons. **Settle it once and apply it everywhere**, rather than one lesson at
   a time.
 
-- **The contraction check has a ceiling now, and two Digital Literacy files are still over it.** It
-  warns above 14 per 1,000 body words on drafting courses only. Both Using AI Effectively files it
-  caught are fixed, lesson 7 at 7.0 and lesson 2 at 7.4. The two left are Digital Literacy lesson 11
-  at 18.1 and its machine-audit project at 22.8. **Neither can publish yet**, so nothing is blocked,
-  and the right time to fix each is the next time somebody is in that file rather than a pass of its
-  own. `docs/VERIFICATION.md` carries the row and the reasoning.
+- **The contraction check's ceiling is clear: nothing in the repo is over it.** All four files it
+  caught on its first run are fixed, on 2026-09-18 and 19. `docs/VERIFICATION.md` carries the row.
 
-  **One thing to know before fixing either, because it cost four separate second passes today.**
-  Stripping an overshoot overshoots the other way: lessons 7, 9, 10, 11 and 2 all went from over the
-  ceiling to under the floor on the first pass and needed a third. The validator counts `it's`,
-  `that's`, `there's`, `here's`, `what's`, `let's`, `he's`, `she's` and `who's` as
-  contractions, excludes every other possessive, and counts the Sources block in the word total, so
-  a hand count that strips the sources and counts every `'s` reads about double. **Measure the way
-  the validator measures, after the edit, not before it.**
+  **Two things to know before anybody trips it again, because between them they cost seven second
+  passes.** First, **stripping an overshoot overshoots the other way.** Five files today went from
+  over the ceiling to under the floor on the first pass and needed a third. Second, **the validator
+  counts a narrower set than a hand count does**: `it's`, `that's`, `there's`, `here's`, `what's`,
+  `let's`, `he's`, `she's` and `who's` count, every other possessive does not, and the Sources block
+  is in the word total, so a hand count that strips the sources and counts every `'s` reads about
+  double. Measure the way the validator measures, and measure after the edit rather than before it.
+
+  **The mechanical case has a tool now, in the scratchpad pattern rather than in `scripts/`:**
+  expanding every contraction except every third one lands a file in the band in one pass and
+  spreads what is left evenly, which is what fixed Digital Literacy lesson 11 (18.1 to 6.5) and the
+  machine audit (22.8 to 5.6). It is only right for a file that is far out; a file near the band
+  wants sentences chosen by hand.
 
 - **Both assessments are written, so lesson 13 is now the whole of what is left.** The machine
   audit and a 32-item course-end test are in `assessments/`, and the test carries a note saying
