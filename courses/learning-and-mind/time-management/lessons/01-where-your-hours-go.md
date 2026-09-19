@@ -1,6 +1,7 @@
 ---
 title: What this course is for, and where your hours actually go
 minutes: 85
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/learning-and-mind/time-management/01-where-your-hours-go.mp3
 objectives:
   - >-
     State what has been measured about the gap between people's estimates of their own time and
