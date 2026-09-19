@@ -152,7 +152,9 @@ abstract, the overall meta-analytic result, the moderator analyses and the concl
   significant (z = .091, 95% CI [.044, .139], p = .001)". Self-report measures: "the pooled effect
   size is small, statistically significant (z = .200, 95% CI [.165, .231], p < .001)".
 - **And then the publication-bias check.** Egger's test was significant for the performance-based
-  assays, so the authors ran trim-and-fill. Verbatim: "In this sensitivity analysis, the pooled
+  assays, so the authors ran trim-and-fill. **The test split the two halves**: for self-report measures
+  Egger's test was not significant (z = −.803, p = .422), and for performance-based assays it
+  indicated an association (z = 3.129, p = .002). Verbatim: "In this sensitivity analysis, the pooled
   effect for performance-based assays was no longer statistically significant (z = .032, 95% CI
   [−.024, .088], p = .260)."
 - **So the association survives where people say how distractible they are, and does not survive
@@ -206,6 +208,22 @@ abstract, the overall result, both subgroup analyses and the discussion. Open ac
   [−0.57, −0.21], p < 0.001. European g = −0.20, 95% CI [−0.46, 0.06], p = 0.12. **North American
   g = −0.03, 95% CI [−0.15, 0.09], p = 0.60.**
 - **The funnel plot showed no obvious asymmetry**, which the authors say in the results.
+- **Heterogeneity by region**, from the paper's Table 2, and the Asian subgroup is the least
+  heterogeneous rather than homogeneous: North America I² = 50.98 (Q = 48.96 on 24 df, p < 0.01),
+  Europe I² = 70.71 (Q = 30.73 on 9 df, p < 0.01), Asia I² = 30.58 (Q = 10.08 on 5 df, not
+  significant).
+- **Why the regional split was run**, which a lesson leaning on it must say: the authors ran it
+  because an earlier study, Mahsud and colleagues, 2021, had reported that Asian students
+  concentrated better without smartphones than European students. **It was a check on a prior claim
+  rather than a pattern found in their own data.**
+- **Their closing recommendation, verbatim**, which a lesson must report alongside the intervals
+  rather than instead of them: "In view of the present research results, it seems important that
+  people in general, and especially children and adolescents in schools and classrooms, learn how to
+  deal with the distracting potential of smartphones."
+- **What the authors' reasoning for it appears to be**, at the level this course read: a real pooled
+  effect in memory, and a distracting potential that the pooled cognitive-capacity measures were not
+  testing. **That second half is this course's reading of their discussion rather than a sentence
+  they write**, and a lesson using it must say so.
 
 **Why this is the sharpest teaching case in the course.** The effect that a reader has certainly met
 is, in the pooled evidence, small; it is in memory rather than in attention, which is the thing the

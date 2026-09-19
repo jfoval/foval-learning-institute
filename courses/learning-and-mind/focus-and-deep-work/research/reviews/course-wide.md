@@ -40,3 +40,24 @@
    subjects were interrupted every two to five minutes, where the paper says interruption frequency
    was set to two minutes and only the length of each interruption was adjusted. **One clause, so it
    was fixed inline** rather than queued, which is what root rule 9 allows.
+
+## 2026-09-19 — from the Stage 4 review of lessons 5 to 7
+
+9. **The reviewer downloaded two primary documents and both changed findings**, which is now the
+   second time in one course. It is how the Asian-subgroup heterogeneity claim was caught in lesson
+   5 and how lesson 6's g = 0.8 was proved impossible: **the abstract that lesson says it read
+   contains no effect sizes at all**. A Stage 4 reviewer who works only from the research file
+   cannot find either. **Open the document a footnote points at.**
+10. **`SOURCES.md` was short in three places and a lesson filled each gap by guessing.** The three
+    regional heterogeneity figures, the closing recommendation's full wording, the reason the
+    regional split was run, and the Egger split between the two halves of the multitasking
+    literature are all now recorded. **A Stage 1 file's omissions become a Stage 3 invention**,
+    which is the general shape.
+11. **The unread-books exemption was routed around in lesson 7**, exactly as `SOURCES.md` warned it
+    could be: the mechanism keys to a lesson number rather than to a claim. **The check is a
+    reviewer's eye and it worked.** Worth carrying to the next course that needs an exemption.
+12. **Bold ran at 31 to 34 spans per 1,000 words across all three lessons**, with three quarters of
+    paragraphs opening on a bolded fragment, against a repo range of 12 to 25. Lesson 1 had already
+    been cut for this at its own review and the drafter did it again. **The bolded opener has become
+    this drafter's default sentence shape**, and it is worth a pass on every draft rather than a
+    finding on every review.

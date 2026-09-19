@@ -133,6 +133,12 @@ the association between media multitasking and cognitive control is small (z = .
 .170], p < .001; with RVE: 95% CI [.102, .174], p < .001) and, as would be expected, highly
 heterogeneous (I2 = 79.76%, Q(117) = 531.795, p < .001)."[1]
 
+**One word first, because the rest of this course runs on it.** An effect size is a number saying
+how big a difference is, in units that let you compare one study with another: **zero means no
+difference, and the further from zero the bigger the effect.** The letter changes with the measure,
+and you will meet `z` here and `g` in lesson 5. What matters is the sign, the distance from zero,
+and the interval around it, and this course gives you all three every time.
+
 **Three things to take from that sentence and no more.** The association is there. It's small. And
 the studies disagree with each other a great deal, which is what the heterogeneity figure says.
 

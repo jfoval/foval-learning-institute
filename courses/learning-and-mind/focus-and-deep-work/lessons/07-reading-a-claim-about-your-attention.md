@@ -54,7 +54,8 @@ quiz:
       Calling it unreliable discards the half where associations hold. Calling it the best evidence
       skips the instrument question. And the device evidence does not support a claim about change.
   - q: >-
-      Which of the three claims this course examined came out strongest in the pooled evidence?
+      This course ranks the three claims by what survives each, and says to hold that ranking
+      loosely. Which does it put first, and on what?
     options:
       - The brain-drain claim, which pooled to a significant effect across 22 studies
       - The attention-training claim, whose near-transfer effect was the largest of the three
@@ -63,23 +64,22 @@ quiz:
     answer: 2
     explain: >-
       Self-report multitasking pooled at z = .200 with a bias test it survived, which is the most
-      robust of the three. Brain drain pooled at g = -0.14 and lost its attention subgroup and one
-      region entirely. Near transfer is large and is the level nobody is buying. And none of the
+      robust of the three. Brain drain pooled at g = −0.14 and lost its attention subgroup, and two of its three regions came out non-significant. Near transfer is large and is the level nobody is buying. And none of the
       three was simply undercut, which is why the lesson sets them side by side.
   - q: >-
-      A friend tells you a technique works for him, and you have found no evidence for it. What does
-      this lesson say to do?
+      A manager tells her team a new tool has cut their interruptions, and the team's own logs show
+      no change. What does this lesson say the disagreement is really about?
     options:
-      - Tell him the evidence does not support it, since that is what the course teaches
-      - Separate his report from the general claim, and say which one you are disputing
-      - Say nothing, since personal experience cannot be argued with either way
-      - Try it yourself, since a single case is how most useful things are discovered
+      - The logs settle it, since a count is the more direct of the two instruments here
+      - Two instruments answering different questions, so say which one is in dispute
+      - Nothing can be said, since personal experience cannot be argued with either way
+      - It needs a third measurement, which is what resolves a disagreement like this one
     answer: 1
     explain: >-
-      That it works for him and that it works are different claims with different evidence behind
-      them, and most arguments about techniques are two people disputing different sentences.
-      Correcting him outright treats his experience as the general claim. Saying nothing gives up
-      the distinction. And trying it is fine and is not what settles the general claim.
+      Her report and the logs are two instruments answering different questions, and the useful move
+      is to say which of the two anybody is disputing before disagreeing. Treating the logs as
+      settling it discards the half of the evidence lesson 4 found holds. Saying nothing gives up
+      the distinction. And a third measurement is worth having and is not what resolves this.
   - q: >-
       What is this course's main refusal, and why does it hold?
     options:
@@ -98,8 +98,9 @@ quiz:
 This is the last lesson, and it is the one that stays useful after the rest has dated.
 
 Everything before it was about attention. This one is about the claims you will meet about it, and
-you will meet a great many, because this is the most advised-about subject in the genre and one of
-the least measured.
+you will meet a great many, because this is among the most advised-about subjects in the genre and,
+on what this course found,
+one of the least settled.
 
 ## Habit one: ask what would have had to be measured
 
@@ -108,36 +109,41 @@ Effectively** lesson 11, **Time Management** lesson 8 and **Habits and Self-Disc
 all use it. **Measurable**: a study could check it. **Unmeasurable as stated**: it uses a term
 nobody has defined. **False**: it has been checked and did not hold.
 
-**This course adds a question in front of that one**, and it is the thing lesson 1 opened with.
-**Which instrument would have had to produce this claim?**
+**This course adds a question in front of that one**, and it is the thing lesson 1 opened with:
+**which instrument would have had to produce this claim?** **The three habits below are this
+course's own way of organising the job** rather than a procedure anybody has published.[4]
 
-**Work one.** "People who check their phone constantly are worse at concentrating." Before sorting
+Work one. "People who check their phone constantly are worse at concentrating." Before sorting
 it, ask what would have been measured. A questionnaire about phone-checking and a questionnaire
 about concentration? A questionnaire and a task? Two tasks? **The claim is compatible with all
 three and they aren't the same claim**, and lesson 4 is a case where two of them give different
 answers about the same literature.
 
-**Once you have asked that, the sort is easier.** The sentence as written is measurable, several
+Once you have asked that, the sort is easier. The sentence as written is measurable, several
 different ways, and the useful question is which way somebody did it.
 
-**Work a second.** "Deep work is the ability to focus without distraction on a cognitively demanding
-task." What would be measured? Nothing yet: there is no criterion for when somebody has the ability
+**Work a second**, and this one is a specimen this course has written rather than a sentence it is
+quoting: **an ability to focus without distraction on a cognitively demanding task.**[4] It is the
+shape of thing the books in this subject define, and the course has opened none of them, so it is
+not quoting one. What would be measured? Nothing yet: there is no criterion for when somebody has
+the ability
 and when they merely did the task once. **Unmeasurable as stated**, which isn't the same as
 useless. It's a definition, and definitions are conventions.
 
-**Work a third.** "You get about eight seconds of attention before you lose people." What would be
+Work a third. "You get about eight seconds of attention before you lose people." What would be
 measured, and on whom, and compared with what? **This is the category where the instrument question
 does most of its work**, because the claim implies a measurement nobody names.
 
-**And a fourth kind, which is the commonest.** "Turn off notifications, because every interruption
+And a fourth kind, which is the commonest. "Turn off notifications, because every interruption
 costs you twenty-three minutes." **That is two claims**: a recommendation and a figure. **Time
-Management** lesson 8 traced the figure and found no printed source anybody has been able to
+Management** lesson 5 traced the figure and found no printed source anybody has been able to
 produce. The recommendation survives the figure being wrong, on lesson 2's evidence about what an
 interruption actually costs, and a sorter who threw out both has thrown away the half that holds.
 
 ## Habit two: check whether the claim is about change
 
-**This subject has one failure mode of its own and it is different from the previous course's.**
+**This subject has one failure mode of its own, and naming it is this course's own reading rather
+than a finding.**[4] It differs from the previous course's.
 
 Habits and Self-Discipline's numbers failed by arriving stripped of their scope. **This subject's
 claims fail by being about change when nothing measured change.**
@@ -147,10 +153,11 @@ shorter than a goldfish's." **Every one of those is a claim about something that
 different**, and a claim about change needs the same people, or at least comparable populations,
 measured twice on the same instrument.
 
-**Nothing this course read does that.** Every source here is either a single session or a snapshot
+Nothing this course read does that. Every source here is either a single session or a snapshot
 of different people at one moment. The 2008 experiment ran for ninety minutes. The mind-wandering
-study sampled people over days. The two meta-analyses pool cross-sectional studies, and one of them
-says so in terms.
+study sampled people over days. Both syntheses pool studies that measured people once, and one of
+the two says in terms that its
+designs are cross-sectional and its causal inferences therefore limited.
 
 **So this course's central refusal isn't modesty, it is arithmetic.** A body of evidence made
 entirely of snapshots can't answer a question about change, however many snapshots there are.
@@ -158,17 +165,17 @@ entirely of snapshots can't answer a question about change, however many snapsho
 :::predict Before the next section. Somebody wants to know whether attention spans have really fallen. What study would settle it, and why do you think nobody has run it?
 Two parts, and the second one is more interesting than the first.
 
-**The study is easy to describe.** Take a sample, measure them on a fixed task, wait ten or twenty
+The study is easy to describe. Take a sample, measure them on a fixed task, wait ten or twenty
 years, measure the same people again on the same task. Or measure comparable samples at two dates
 with the identical instrument.
 
 **Why nobody has run it is where the lesson is.** Three reasons, and this course's own reading is
 that the third is the binding one.[4]
 
-**The obvious one is duration.** A twenty-year study needs funding across careers and a stable
+The obvious one is duration. A twenty-year study needs funding across careers and a stable
 research group.
 
-**The second is that instruments change.** A task written in 2005 is delivered on hardware nobody
+The second is that instruments change. A task written in 2005 is delivered on hardware nobody
 uses now, and rewriting it breaks the comparison, which is the whole point.
 
 **The third is that nobody would agree what to measure.** You would have to settle, in advance and
@@ -197,7 +204,9 @@ general claim hasn't been tested.
 
 ## The three claims, side by side
 
-Here is what this course did to the three best-known claims in its subject.[1][2][3]
+What this course did to the three best-known claims in its subject. **The first two columns are the
+syntheses'; the third is this course's own reading of what each leaves standing**, and the
+checkpoint below says how loosely to hold it.[1][2][3][4]
 
 | The claim | What the synthesis found | What survives |
 |---|---|---|
@@ -205,18 +214,19 @@ Here is what this course did to the three best-known claims in its subject.[1][2
 | A phone's mere presence drains cognitive capacity | 22 studies, 43 effects, g = −0.14; memory yes, attention crosses zero; null in North American samples | A small pooled effect in memory, and the authors' recommendation of caution |
 | Attention can be trained | 87 publications, 145 comparisons; no convincing far transfer against treated controls | Large near transfer, which isn't what anybody is buying |
 
-**Read the middle column and then the right one.** In all three cases something survives, and in all
+Read the middle column and then the right one. In all three cases something survives, and in all
 three cases it is narrower than the claim it came from. **None of the three is a fraud and none of
 them is what it is sold as**, which is the pattern this course most wants you to carry out of it.
 
-**And notice what the three have in common.** In each case the synthesis is more informative than
+And notice what the three have in common. In each case the synthesis is more informative than
 the original study, and in each case it is the thing nobody has read. The original is famous. **The
 paper that pooled it is where the answer is.**
 
 ## The books you will be handed
 
 You will meet this subject mostly through two very widely read books: Newport's *Deep Work* and
-Mark's *Attention Span*. Csikszentmihalyi's *Flow* sits behind both.
+Mark's *Attention Span*. Csikszentmihalyi's *Flow* is the trade statement of the state this
+course is not teaching, which lesson 1 told you it was leaving out.
 
 **This course hasn't opened any of them.**[5] That is on the `unread` line of its research file and
 enforced by the build, and it means this section isn't an assessment of them. No claim anywhere in
@@ -227,7 +237,7 @@ the researcher whose two papers lessons 2 and Time Management lesson 5 are built
 claims can in principle be checked against work with her name on it. **That is a note about where a
 reading would go furthest rather than a recommendation.**[5]
 
-**What to do when somebody hands you one** is the three habits above, and the middle one especially.
+What to do when somebody hands you one is the three habits above, and the middle one especially.
 A book about attention is very likely to contain a claim about change, and the question to put to
 it is what was measured twice.
 
@@ -238,15 +248,15 @@ Worth doing, and the ordering isn't the obvious one.
 the evidence for its usefulness is lesson 4, where a single literature answers the same question two
 ways depending on which instrument asked. Nothing that happens to these figures will touch it.
 
-**Hold firmly: lesson 2's result**, with its scope. Interrupted tasks finished faster, with the cost
+Hold firmly: lesson 2's result, with its scope. Interrupted tasks finished faster, with the cost
 in stress, frustration, time pressure and effort. One experiment, 48 people, ninety minutes, and the
 clearest measured thing in the course.
 
-**Hold with its hedges attached: lesson 3's causal claim.** The authors wrote that time-lag analyses
+Hold with its hedges attached: lesson 3's causal claim. The authors wrote that time-lag analyses
 "strongly suggested" wandering was "generally" the cause of unhappiness. Both hedges are theirs and
 both matter.
 
-**Hold loosely: the three-row table above.** It is this course's own assembly,[4] and the judgement
+Hold loosely: the three-row table above. It is this course's own assembly,[4] and the judgement
 about what survives in each row is the course's reading rather than any synthesis's conclusion.
 
 **Hold most loosely: lesson 6's hour.** Two of its six elements have evidence behind them, one of
@@ -319,8 +329,12 @@ it is something you could find out in an afternoon or something nobody has measu
 supplies the surviving recommendation in the fourth sort. Lesson 3's hedges are what the checkpoint
 says to keep attached. Lessons 4, 5 and 6 are the three rows. From earlier Core courses: the sort is
 **Digital Literacy** lesson 8's and **Using AI Effectively** lesson 11's, **Time Management** lesson
-8 traced the twenty-three minutes, and **Habits and Self-Discipline** lesson 7 is this lesson's
+5 traced the twenty-three minutes, and **Habits and Self-Discipline** lesson 7 is this lesson's
 nearest relative in the whole institute.
+
+**On.** The course's test is eighteen items, thirteen of them on people and claims that appear in no
+lesson. And the project is lesson 6's hour, run for four weeks, with every element of your design
+labelled evidence or judgement the way that lesson labelled its own.
 
 **Out.** **Memory** and **Note-Taking and Personal Knowledge** are later courses in this same term
 and aren't written yet. What survives from here, when every figure in the course has dated, is the

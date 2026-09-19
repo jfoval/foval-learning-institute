@@ -49,23 +49,23 @@ quiz:
     explain: >-
       A subgroup analysis locates a difference and does not explain it, and the candidates include
       the populations, the tasks, the publication practices and chance. Reading it as a fact about
-      Asia treats the location as the cause. Dismissing it as noise ignores that the authors report
-      it with no heterogeneity in that subgroup. And supplying a cultural explanation is speculation
-      the lesson marks as speculation.
+      Asia treats the location as the cause. Dismissing it as noise ignores that the studies inside
+      that subgroup agree with each other more closely than those in either of the others. And
+      supplying a cultural explanation is speculation the lesson marks as speculation.
   - q: >-
-      A woman asks whether she should put her phone in another room while she works. What can this
-      course tell her?
+      A review of a diet pools 40 trials, finds an overall effect, and reports it significant in
+      trials under twelve weeks and not in the longer ones. What should a reader do with that?
     options:
-      - Yes, since the meta-analysis found a significant negative effect of phone presence
-      - No, since the preregistered replication found no effect of phone location at all
-      - That it depends on her own region, since the effect differs between samples from each
-      - Very little, and the decision is still worth making on grounds that are not findings
+      - Conclude the diet works short-term and then stops working, which is what the split shows
+      - Ignore the split entirely, since subgroup analyses are unreliable and are best not reported
+      - Conclude the longer trials were underpowered, which is why they found nothing at all
+      - Treat the split as locating a difference without explaining it, and ask what else differs
     answer: 3
     explain: >-
-      A small pooled effect, sitting in memory rather than attention, absent in the samples from one
-      whole region, and with a direct replication that failed, is thin ground for a personal
-      recommendation either way. Both of the first two answers pick one result and ignore the
-      others. And a woman's region is a property of research samples rather than of her.
+      A subgroup locates a difference and does not explain it, and duration, adherence, dropout and
+      publication practice are all candidates before any claim about the diet itself. Reading the
+      split as a mechanism is the commonest error. Subgroup analyses are worth reporting and worth
+      handling carefully. And power is one candidate among several rather than the answer.
   - q: >-
       The brain-drain claim is about attention. Where did the pooled effect actually sit?
     options:
@@ -105,8 +105,8 @@ decision nearly everybody has made without evidence.
 ## The claim
 
 In 2017, Ward, Duke, Gneezy and Bos published a study that gave this subject its phrase. People did
-tasks measuring working memory and attention with their own phone in one of three places: on the
-desk, in a bag or pocket, or in another room. **Those with the phone in another room performed
+working-memory tasks with their own phone in one of three places: on the desk, in a bag,
+or in another room. **Those with the phone in another room performed
 best**, even though nobody was using it. They called the effect **brain drain**: the mere presence
 of the phone was said to consume cognitive capacity.
 
@@ -125,21 +125,29 @@ a careful direct test went the other, which is where a pooled estimate earns its
 
 ## What pooling found
 
-Böttger, Poschik and Zierer published the meta-analysis in 2023.[1] **This course has read its
+Böttger, Poschik and Zierer published [the
+meta-analysis](https://pmc.ncbi.nlm.nih.gov/articles/PMC10525686/) in 2023.[1] **This course has
+read its
 abstract, its overall result, both subgroup analyses and its discussion.**
+
+**Effect sizes here are reported as `g` rather than lesson 4's `z`**, and the reading is the same:
+zero means no difference, the sign says which way, and the interval says what the pooled evidence
+can distinguish.
 
 **The scale**, in their words: "In a database search we identified 22 studies with a total of 43
 relevant effects that could be assigned to the categories 'memory', 'attention', and 'general
 cognitive performance'."[1]
 
 **The overall result**, in their words: "The pooled effect across all studies was g = −0.14, with a
-95% confidence interval (CI) of −0.24 to −0.03, at p < 0.05."[1] The included effects are
-significantly heterogeneous, at I² = 61.84.
+95% confidence interval (CI) of −0.24 to −0.03, at p < 0.05."[1] The included effects disagree with
+each other more than chance would explain, at an I² of 61.84;
+**I² is the share of the variation between studies that is real difference rather than noise**, so
+about three fifths here.
 
-**So something is there.** The interval sits entirely below zero, the direction is the one the
+Something is there. The interval sits entirely below zero, the direction is the one the
 original claimed, and a course that stopped here would say the effect is real and small.
 
-**It doesn't stop here, because the authors ran two subgroup analyses and both of them matter more
+It doesn't stop here, because the authors ran two subgroup analyses and both of them matter more
 than the headline.**
 
 :::predict Before the subgroups. The phrase is "brain drain", and the claim is that a phone on the desk costs you cognitive capacity. The meta-analysis sorted its 43 effects into memory, attention and general cognitive performance. Which of the three do you expect the effect to be in, and which would be most awkward for the phrase?
@@ -159,6 +167,10 @@ sentence the pooled evidence doesn't support**, and "the phone is associated wit
 memory performance in these studies" is one it does.
 :::
 
+**Those three figures again, outside the block, because the rest of the lesson uses them.** Memory
+g = −0.23, interval −0.36 to −0.10. Attention g = −0.07, interval −0.21 to 0.06. General cognitive
+performance g = 0.10, interval −0.52 to 0.72.[1]
+
 ## The subgroup that makes this lesson hard
 
 The second analysis split by region, because an earlier study had reported different effects for
@@ -170,26 +182,33 @@ Asian and European participants.[1]
 | European samples | g = −0.20 | −0.46 to 0.06 | No |
 | North American samples | g = −0.03 | −0.15 to 0.09 | No |
 
-**Read the bottom row twice.** The original study was run in the United States. In the pooled North
+Read the bottom row twice. The original study was run in the United States. In the pooled North
 American samples, the effect is −0.03 with an interval straddling zero, which is as close to nothing
 as a meta-analysis gets.
 
-**Now the discipline.** A subgroup analysis tells you *that* something differs between these
-literatures. **It doesn't tell you what.** At least four candidates are live and this course can't
-choose between them.[5]
+**What a subgroup analysis is**, before the discipline. You take the studies you have already
+pooled, sort them by some feature, and pool each pile separately. It costs nothing, it can be done
+after the fact on any feature you like, and that is both why it is useful and why it needs handling.
 
-1. **The populations differ** in something that matters, which is the reading the phrase "cultural
+Now the discipline. A subgroup analysis tells you *that* something differs between these
+literatures. **It doesn't tell you what.** **The four candidates below are this course's own list
+rather than one the authors give**, and it
+can't choose between them.[5]
+
+1. The populations differ in something that matters, which is the reading the phrase "cultural
    difference" reaches for and is the least supported of the four.
-2. **The studies differ.** Different tasks, different phone conditions, different sample sizes,
+2. The studies differ. Different tasks, different phone conditions, different sample sizes,
    different years.
-3. **Publication practice differs**, and a literature's null results aren't equally likely to be
+3. Publication practice differs, and a literature's null results aren't equally likely to be
    published everywhere.
-4. **Chance.** Subgroup analyses generate spurious differences for the ordinary reason that they
+4. Chance. Subgroup analyses generate spurious differences for the ordinary reason that they
    involve multiple comparisons on smaller pools.
 
-**The authors do report that the Asian subgroup showed no heterogeneity**, which makes chance less
-comfortable as an explanation than it would otherwise be, and they call for more research rather
-than offering a mechanism.[1] **Neither does this course.**
+**The authors do report that the Asian subgroup was much the least heterogeneous of the three**, at
+an I² of 30.58 against 70.71 in Europe and 50.98 in North America.[1] **That makes chance less
+comfortable as an explanation than it would otherwise be**, because the studies inside that subgroup
+are agreeing with each other rather than scattering. It does not make it impossible, and the authors
+call for more research rather than offering a mechanism. **Neither does this course.**
 
 ## What the authors conclude, and why the lesson quotes it
 
@@ -206,8 +225,16 @@ who think the practical upshot is caution. **Reporting the intervals and not the
 as partial as reporting the conclusion and not the intervals.**
 
 **They also report that the funnel plot showed no obvious asymmetry**,[1] which is a mild point in
-the literature's favour and a weaker one than it sounds: a funnel plot on 43 effects isn't a
-powerful test.
+the literature's favour and a weaker one than it sounds. **A funnel plot is the picture Egger's test
+in lesson 4 puts a number on**, and on 43 effects it is not a powerful test.
+
+**And their case for the recommendation is better than the intervals alone suggest**, which is the
+half a sceptical reading loses. There is a real pooled effect in memory. And the measures these
+studies used are cognitive-capacity tasks, which is not the same thing as what a phone does to a
+classroom: **the distracting potential the authors are worried about is largely not what the pooled
+measures were testing**. That second half is this course's reading of their discussion rather than a
+sentence they write.[5] **A reader who takes the null attention interval as the end of the argument
+has answered a narrower question than the one the authors asked.**
 
 :::checkpoint So where should you put your phone? Somebody has read all of the above and wants an answer.
 They deserve one, and the honest answer has two halves.
@@ -239,16 +266,16 @@ the section above is easier to state than to apply.
 interval just below zero. It then splits by whether the studies were run in a university lab or in
 people's homes. **Lab studies: g = −0.34, significant. Home studies: g = 0.01, not.**
 
-**What would you conclude?** Here is a reasoning order, which is the course's own and not a rule
+What would you conclude? A reasoning order, which is the course's own and not a rule
 anybody has published.[5]
 
-1. **Restate what was found, without a cause.** Something differs between the lab literature and the
+1. Restate what was found, without a cause. Something differs between the lab literature and the
    home literature in this pool. That is the whole finding.
-2. **List what could differ**, including the boring options: the interventions, the measures, the
+2. List what could differ, including the boring options: the interventions, the measures, the
    participants, the sample sizes, the years, the journals.
-3. **Ask which split was planned.** A subgroup the authors said in advance they would test is
+3. Ask which split was planned. A subgroup the authors said in advance they would test is
    worth more than one they found by looking, and a meta-analysis usually says which.
-4. **Ask what the split would predict next.** If lab-and-home is the real divide, the next home
+4. Ask what the split would predict next. If lab-and-home is the real divide, the next home
    study should also find nothing. That is a prediction, and it is the thing that makes the
    subgroup useful rather than decorative.
 
@@ -274,17 +301,19 @@ which is a different thing from telling you what is true.
 ## Practice
 
 :::exercise Run it on yourself, and then say why it proves nothing
-Take four work blocks across two days, about an hour each, plus 15 minutes of writing.
+Take four work blocks across two days, about an hour each, plus 15 minutes of writing. **The 15
+minutes is what the lesson's clock counts; the four hours are your own working time rearranged
+rather than added.**
 
-**Two blocks with your phone in another room. Two with it on the desk, face down, untouched.**
+Two blocks with your phone in another room. Two with it on the desk, face down, untouched.**
 Alternate them, and do the same kind of work in all four if you can.
 
-**In each block, record two things.** How much you got through, in whatever unit fits your work.
+In each block, record two things. How much you got through, in whatever unit fits your work.
 And one rating from one to twenty of how effortful it felt, written at the end of the block.
 
 Then write three lines.
 
-1. **The four pairs of numbers.**
+1. The four pairs of numbers.
 2. **What the difference, if any, would need to be before you believed it.** Write this before you
    look at the numbers if you can manage it.
 3. **Three reasons your four blocks can't establish anything**, and be specific. The right answers
@@ -303,10 +332,10 @@ coverage, education research, and anything about diet or exercise are full of th
 
 Answer the four questions from the worked case.
 
-1. **What was found, stated without a cause?**
-2. **What could differ between the two groups?** At least four candidates.
-3. **Was the split planned or found?** Say how you can tell, or that you can't.
-4. **What would the split predict next?**
+1. What was found, stated without a cause?
+2. What could differ between the two groups? At least four candidates.
+3. Was the split planned or found? Say how you can tell, or that you can't.
+4. What would the split predict next?
 
 Then one line: **does the piece you read do any of these four, or does it go straight to a
 mechanism?**
@@ -334,6 +363,11 @@ everything lessons 4 and 5 did by hand.
   2023). Open access. **Read in substantial part by this course**: the abstract, the overall result,
   both subgroup analyses and the discussion. **Read the two subgroup tables**, which are the whole
   lesson, and notice that the paper reports them without softening either one.
+- **["Cognitive Control in Media Multitaskers" Ten Years On: A
+  Meta-Analysis](https://cyberpsychology.eu/article/view/13303)** (*Cyberpsychology*, 2021), open
+  access and read in substantial part by this course. Lesson 4's subject, and worth reading beside
+  this one: two pooled literatures on two famous claims, splitting two different ways, which is how
+  you tell a pattern from a coincidence.
 
 ## Sources
 

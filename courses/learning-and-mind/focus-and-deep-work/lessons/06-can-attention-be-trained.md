@@ -1,6 +1,6 @@
 ---
 title: Can attention be trained, and what would that even mean?
-minutes: 80
+minutes: 85
 objectives:
   - >-
     Distinguish near, intermediate and far transfer, and say why the distinction decides the
@@ -22,23 +22,26 @@ quiz:
       - None, because improvement on a practised task is not a form of transfer at all
     answer: 2
     explain: >-
-      Getting better at the thing you practised is near transfer, and the meta-analysis found it
-      large, at about g = 0.8. Intermediate transfer would be improvement on a different task
-      tapping the same system. Far transfer would be improvement on reasoning or reading. And
-      improvement on the trained task is the first rung of the ladder rather than no rung at all.
+      Getting better at the thing you practised is near transfer, and it is the level the
+      meta-analysis describes as specific training effects that do not generalise. Intermediate
+      transfer would be improvement on a different task tapping the same system. Far transfer would
+      be improvement on reasoning or reading. And improvement on the trained task is the first rung
+      of the ladder rather than no rung at all.
   - q: >-
-      What did the meta-analysis find about far transfer from working-memory training?
+      A school is offered a programme whose evidence is that pupils' scores on its own exercises
+      rise reliably. What does this literature say the school should ask next?
     options:
-      - Reliable gains in reasoning, though smaller than the training companies claim
-      - No convincing evidence of reliable improvement against a treated control group
-      - Gains that appeared immediately and then faded over the months that followed
-      - Gains in verbal ability but not in arithmetic or in reading comprehension either
+      - Whether the rise is statistically significant, which a score claim has to show
+      - Whether the scores rose faster than in another programme run for the same hours
+      - Whether the exercises are enjoyable, since compliance is what makes training work
+      - Whether the programme runs long enough for the gains to consolidate properly
     answer: 1
     explain: >-
-      The authors' phrase is that there was no convincing evidence of any reliable improvements when
-      training was compared with a treated control condition, across all five far-transfer outcomes
-      they measured. Nothing faded because nothing reliable arrived. And the outcomes did not split
-      the way the fourth option describes.
+      A treated control, doing something else for the same hours, is what the far-transfer question
+      turned on across 145 comparisons, and without one a rise measures expectation and practice as
+      well as training. Significance on the trained task is near transfer and is not in dispute.
+      Enjoyment is worth knowing and is not evidence of transfer. And duration is not what this
+      literature found decisive.
   - q: >-
       Why does the phrase "treated control condition" matter so much here?
     options:
@@ -53,19 +56,19 @@ quiz:
       for. The word treated here means given some activity rather than given medicine. Cost is not
       the point and is probably the other way round. And no industry set the standard.
   - q: >-
-      The meta-analysis also checked whether improvement on the trained task predicted far transfer.
-      What did it find?
+      A trainer argues his programme must transfer, because the people who improve most on his
+      exercises report the biggest gains at work. What is wrong with that argument?
     options:
-      - That it did not, which removes the obvious explanation for any far transfer found
-      - That it did, which supports the mechanism training programmes propose to work by
-      - That the relationship held only for children, which is where most training is sold
-      - That the question could not be answered with the data the pooled studies reported
+      - The pooled analysis found no such relationship, and his report is two self-reports
+      - Nothing, since a dose-response relationship is what a real mechanism would produce
+      - He has not said how long the programme runs, which is what determines any transfer
+      - Self-reports are unreliable, so no claim resting on one can be taken seriously here
     answer: 0
     explain: >-
-      The degree of improvement on working-memory measures was not related to the magnitude of
-      far-transfer effects, which is awkward for the idea that training the system is what would
-      carry gains outward. The age split is not what the mediation analysis reported. And the data
-      did allow the question to be asked, which is why it was.
+      Across 145 comparisons the degree of improvement on the trained measures was not related to
+      the size of far-transfer effects, so the pattern he reports is not what the pooled data shows.
+      A dose-response pattern would support him if it were there. Duration is not the issue. And
+      self-reports are one of two real instruments rather than worthless, which lesson 1 is about.
   - q: >-
       A woman asks whether meditation would improve her attention. What can this course tell her?
     options:
@@ -109,10 +112,10 @@ one task, and the question is what else improves.
 The literature separates three levels and the separation isn't a technicality. **It is the whole
 argument.**
 
-**Near transfer.** You get better at the thing you practised, or at something almost identical. You
+Near transfer. You get better at the thing you practised, or at something almost identical. You
 do a number-sequence game every day and your score on that game rises.
 
-**Intermediate transfer.** You get better at a different task that taxes the same system. Your
+Intermediate transfer. You get better at a different task that taxes the same system. Your
 score rises on a working-memory test you were not practising.
 
 **Far transfer.** You get better at something out in your life that the system is supposed to
@@ -142,7 +145,7 @@ improvement at level one is the thing you were sold.
 Melby-Lervåg, Redick and Hulme pooled the working-memory training literature in 2016.[1] **This
 course has read its abstract verbatim; the body of the paper was not opened.**
 
-**The scale**, in their words: "87 publications with 145 experimental comparisons".[1]
+The scale, in their words: "87 publications with 145 experimental comparisons".[1]
 
 **The result, in their words, and it is worth having in full:** "Immediately following training
 there were reliable improvements on measures of intermediate transfer (verbal and visuospatial
@@ -150,14 +153,15 @@ working memory). For measures of far transfer (nonverbal ability, verbal ability
 reading comprehension, arithmetic) there was no convincing evidence of any reliable improvements
 when working memory training was compared with a treated control condition."[1]
 
-**Read "treated control condition" carefully, because it carries the argument.** A treated control
+Read "treated control condition" carefully, because it carries the argument. A treated control
 is a group that does something else: another activity, another training programme, anything that
 takes similar time and attention. **Comparing training against a group that did nothing measures
 the expectation of improvement, the attention from the researchers, and the practice at being
-tested, all of which move scores on their own.** A large part of the earlier optimism in this
-literature came from comparisons against nothing.
+tested, all of which move scores on their own.** A do-nothing comparison cannot separate the
+training from any of that, which is why the
+meta-analysis restricts its far-transfer verdict to studies with a treated control.
 
-**Then the mediation check**, which is the finding this lesson would keep if it could keep only one:
+Then the mediation check, which is the finding this lesson would keep if it could keep only one:
 "mediation analyses indicated that across studies, the degree of improvement on working memory
 measures was not related to the magnitude of far-transfer effects found."[1]
 
@@ -169,27 +173,30 @@ should show the most far transfer. They did not.
 shows that there is no evidential value from the studies of working memory training using treated
 controls."[1]
 
+**And their statement of what training does produce**, which is the honest replacement for any
+number: the programmes "appear to produce short-term, specific training effects that do not
+generalize to measures of 'real-world' cognitive skills."[1]
+
 **Their conclusion**, in their words: "These results seriously question the practical and
-theoretical
-importance of current computerized working memory programs as methods of training working memory
-skills."[1]
+theoretical importance of current computerized working memory programs as methods of training
+working memory skills."[1]
 
 ## What about meditation?
 
 **This is the question everybody asks next and this course has to answer it carefully, because it
 hasn't read the evidence.**
 
-At search-summary level, two syntheses are worth naming.[2] One, from 2021, reports an overall
-effect of about g = 0.2, with significant effects on attention and on executive control and not on
-working memory. Another, also from 2021, reports averages around g = 0.29 for intervention studies
-and 0.32 for long-term practitioners.
+At search-summary level, two syntheses from 2021 are worth naming: one by Yakobi and colleagues and
+one by Verhaeghen.[2] **Both report small effects**, with significant results on some attention
+measures and not others. **This lesson is not going to give you their figures**, because the
+research file says in terms that a course at this read level must not put one in a learner's hands,
+and a number remembered is a number quoted.
 
-**Three things follow and the third is the one to keep.**
+Three things follow and the third is the one to keep.
 
-**First, those are small effects**, on the same scale where the working-memory training near
-transfer was about 0.8.
+**First, the syntheses themselves call those effects small.**
 
-**Second, the active-control question applies here too**, and this course doesn't know how those
+Second, the active-control question applies here too, and this course doesn't know how those
 syntheses handled it. That is not a criticism of them; it is a statement about what twenty minutes
 of searching established.
 
@@ -212,8 +219,10 @@ and were careful about what. **What the course lacks is a method**, because the 
 support one, and a course that invented one to feel useful would be the problem rather than the
 answer.
 
-**There is one more thing and it isn't nothing.** Almost everything that has held up in this term
-of the Core is about arranging the situation rather than improving the person. Habits and
+**There is one more thing and it isn't nothing.** Almost everything that has held up in this term of
+the Core is about arranging the situation rather
+than improving the person, which is this course's reading of two courses rather than a finding
+either of them reports.[3] Habits and
 Self-Discipline found that the cue does the work the resolve was supposed to do. This course found
 that an interruption's cost lands somewhere nobody measures. **Both point the same way**, and the
 next section is what that points at.
@@ -224,15 +233,17 @@ next section is what that points at.
 **This is the only constructive section in the course, and every element below is labelled.**
 
 **One: a context you meet reliably.** Same place, same time, something you encounter anyway.
-**Evidence**, and it is the best-evidenced practical thing in this term: **Habits and
-Self-Discipline** lesson 3 has two field experiments showing that a behaviour runs off its context,
-and that removing the context stops it. The cue has to be reliable and noticeable.
+**Evidence, plus a step this course is taking from it.** The evidence is **Habits and
+Self-Discipline** lesson 3: two field experiments showing that an established behaviour runs off its
+context, and that removing the context stops it. **The step is that choosing a reliable context will
+help institute a new hour**, which those experiments do not test, because they measured behaviours
+people already had. This course rates it the strongest borrowed element in the list.[3]
 
-**Two: remove the interruptions rather than compensating for them.** **Evidence, with its scope
-attached.** Lesson 2's experiment found people compensate for interruptions by working faster and
-pay for it in stress, frustration, time pressure and effort, in 48 people in a 90-minute session.
-**What that licenses is expecting a cost you will not see in your output**, not a promise about your
-hour.
+**Two: remove the interruptions rather than compensating for them.** **Evidence, plus a step.**
+The evidence is lesson 2: people compensate for interruptions by working faster and pay for it in
+stress, frustration, time pressure and effort, in 48 people in a 90-minute session. **What that
+establishes is that a cost is hidden, not that removing interruptions improves the hour**, and the
+step from one to the other is this course's.[3]
 
 **Three: an hour.** **The course's own judgement.**[3] Nothing this course read tests the length of
 a
@@ -252,10 +263,33 @@ you got through, and an effort rating.
 attention, and absent in one region's samples. **Do what you like with your phone and don't tell
 yourself the research decided it.**
 
-**Notice the shape of that list.** Two elements have evidence behind them and one of those is
-borrowed from the previous course. Three are judgement. One is explicitly not supported. **That is
+**Notice the shape of that list.** Two elements have evidence behind them and a step away from it
+in each case, and one of the two is borrowed from the previous course. Three are judgement outright.
+One is explicitly not supported. **That is
 what an honest constructive section looks like in this subject**, and a course offering you seven
 techniques has either read something this one hasn't or is not telling you which is which.
+
+### Worked: one claim, taken apart by transfer level
+
+**The claim is invented and the reasoning is the course's own.**[3] It is built to be ordinary
+rather than egregious.
+
+**"Ten minutes a day of our memory game. Users improve their scores by 62 percent in six weeks, and
+report feeling sharper at work."** Three sentences, three different levels, and they are stacked so
+that the first supports the third.
+
+1. **"Improve their scores by 62 percent."** That is near transfer, measured on the trained task,
+   and it is the one thing the meta-analysis found large and reliable. **It is also the level that
+   tells you least**, because getting better at a thing you practise daily is what practice is.
+2. **"Feeling sharper at work."** That is far transfer, and it is what the buyer is buying. **It is
+   also a self-report**, which lesson 1 says is a different instrument from the score, so the
+   sentence contains two kinds of evidence presented as one.
+3. What is missing is the middle. No intermediate transfer is claimed, which is the level where
+   a real effect would show up first, and no comparison group is mentioned at all.
+
+**So the sort is: the first claim is measurable and probably true; the third is measurable and
+untested here; and the sentence's work is done by putting them next to each other.** Nothing in it
+is a lie, which is what makes it worth working.
 
 ## Three things people get wrong about this
 
@@ -275,7 +309,7 @@ course hasn't read them**, which is a statement about this course rather than ab
 :::exercise Design it, then run it three times
 Take 20 minutes to design, then three hours across a week, then 15 minutes to read it.
 
-**Write the hour down before you run it**, in six lines matching the six elements above. For each,
+Write the hour down before you run it, in six lines matching the six elements above. For each,
 write **evidence** or **judgement** next to it, and if you write evidence, name which lesson.
 
 Then run it three times, and record two numbers each time: **what you got through**, and **an effort
@@ -283,7 +317,7 @@ rating from one to twenty**.
 
 Then three lines.
 
-1. **The three pairs of numbers.**
+1. The three pairs of numbers.
 2. **Which element broke first**, because one of them will. Usually it is the context.
 3. **Whether anything you wrote as evidence turned out to be judgement after all**, which is the
    line this exercise exists for.
@@ -297,12 +331,12 @@ Write its claim down word for word.
 
 Then answer four questions.
 
-1. **What level of transfer is being claimed?** Near, intermediate or far.
-2. **What level would its evidence support, if it names any?** Most name near transfer evidence and
+1. What level of transfer is being claimed? Near, intermediate or far.
+2. What level would its evidence support, if it names any? Most name near transfer evidence and
    claim far transfer.
-3. **Was there a control group, and did it do something?** If the page doesn't say, that is your
+3. Was there a control group, and did it do something? If the page doesn't say, that is your
    answer to question four.
-4. **What would you have to see to believe it?** One sentence, specific enough that somebody could
+4. What would you have to see to believe it? One sentence, specific enough that somebody could
    go and check.
 
 **If you can't find any evidence at all on the page, that is the commonest result**, and it is
@@ -317,7 +351,8 @@ is the strongest thing in the design. **How to Learn Anything** taught deliberat
 the nearest relative of the transfer question and is not re-taught here.
 
 **Forward.** Lesson 7 is what stays useful when everything in this lesson has dated, and the sorting
-exercise above is its first rehearsal.
+exercise above is its first rehearsal. **And the course's project is this lesson's hour run for four
+weeks**: its first section is the six elements above, each labelled the way you labelled them here.
 
 ## Go deeper
 
@@ -327,6 +362,11 @@ exercise above is its first rehearsal.
   The abstract alone is worth it: it states the scale, the result, the mediation check and the
   publication-bias verdict in about two hundred words, which is unusually direct for a paper of this
   size.
+- **[The pooled evidence on phones and cognitive
+  performance](https://pmc.ncbi.nlm.nih.gov/articles/PMC10525686/)** (*Behavioral Sciences*, 2023),
+  open access, read in substantial part. Lesson 5's subject. Read it beside this one for the
+  contrast in verdicts: there, an effect smaller and narrower than its name; here, a mechanism that
+  does not transfer at all.
 
 ## Sources
 
@@ -337,14 +377,15 @@ exercise above is its first rehearsal.
    paper was not opened**, and the body of this lesson says so. Supports: the quoted count of 87
    publications and 145 experimental comparisons; the quoted statement of intermediate and far
    transfer results; the quoted mediation finding; the quoted publication-bias sentence; and the
-   quoted conclusion. **The near-transfer figure of about g = 0.8 is from the same source's reported
-   effect sizes for treated controls.**
+   quoted conclusion. **No effect size from this paper appears in the lesson**, because the abstract
+   this course read
+reports none, and the body was not opened.
 2. Two mindfulness syntheses, at **search-summary level only; neither was opened**, which the body
-   states where they appear: Yakobi and colleagues, 2021, reporting an overall effect of about
-   g = 0.2 with significant effects on attention and executive control but not working memory; and
-   Verhaeghen, 2021, "Mindfulness as Attention Training", reporting averages around g = 0.29 for
-   intervention studies and 0.32 for long-term practitioners. **No claim in this lesson rests on
-   either beyond the direction and the read level.**
+   states where they appear: Yakobi and colleagues, 2021, and Verhaeghen, 2021, "Mindfulness as
+   Attention Training". Both report small effects, with significant results on some attention
+   measures and not others. **`research/SOURCES.md` says in terms that a course at this read level
+   must not put a figure in a learner's hands**, so this lesson gives none and neither does this
+   entry. **No claim in this lesson rests on either beyond the direction and the read level.**
 3. **Elements three, four and five of the hour are this course's own judgement**, each labelled
    inline at the point of use, and nothing this course read tests the length of a work block, the
    value of a fixed time, or which measures to keep. **Element four's analogy to element one is
