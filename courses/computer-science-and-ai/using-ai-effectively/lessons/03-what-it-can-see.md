@@ -109,15 +109,15 @@ quiz:
       agreement rather than truth, which is a distinction lesson 8 takes properly.
 ---
 
-You can put the same question to one of these systems twice and get two different answers. Most people notice this, decide it's a glitch, and stop thinking about it.
+You can put the same question to one of these systems twice and get two different answers. Most people notice this, decide it is a glitch, and stop thinking about it.
 
-It isn't a glitch. It's a decision somebody made on purpose, and once you know why it was made you can turn asking twice into a technique instead of a nuisance.
+It isn't a glitch. It is a decision somebody made on purpose, and once you know why it was made you can turn asking twice into a technique instead of a nuisance.
 
 That's one of three things in this lesson, and all three are about the same question: **what can the system actually see when it answers you?**
 
 ## Everything in front of it, and nothing else
 
-Lesson 2 gave you the core paragraph and flagged its middle sentence as this lesson's business: each piece of text the system produces is chosen given **everything in front of it**. Not everything it has ever read, which is finished and folded into the model. Not everything you've ever typed. Everything in front of it, right now.
+Lesson 2 gave you the core paragraph and flagged its middle sentence as this lesson's business: each piece of text the system produces is chosen given **everything in front of it**. Not everything it has ever read, which is finished and folded into the model. Not everything you have ever typed. Everything in front of it, right now.
 
 The textbook's version is precise about the shape of that. When the model is working on a piece of text, it "has access to `xi` as well as the representations of all the prior tokens in the context window ... but no tokens after `i`."[1] The name for that span is the **context window**.
 
@@ -128,11 +128,11 @@ How big is it? The same chapter gives two figures, and the difference between th
 What goes into the window is more than you typed. Depending on the product, it may include instructions from the company that built it, some record of earlier conversations, the contents of a file you attached, and the results of any search the system was allowed to run. **You cannot see most of that**, and you should assume it is there rather than assume it is not.
 
 :::predict Before you read on: a colleague says a long conversation is better than a short one, because the system has more to work with. What is right about that, and what is wrong?
-Right: the material really is all available at once. Something you said forty messages ago hasn't been forgotten and doesn't need repeating.
+Right: the material really is all available at once. Something you said forty messages ago hasn't been forgotten and does not need repeating.
 
 Wrong: available isn't the same as used well. The next section has a measurement of how much where something sits inside a long input affects whether it gets used.
 
-There's also a second, quieter problem with a long conversation, and it's the one that catches people. Everything in it is available, including the four wrong turns. A thread in which the system has misunderstood you three times contains three worked examples of the misunderstanding.
+There is also a second, quieter problem with a long conversation, and it's the one that catches people. Everything in it is available, including the four wrong turns. A thread in which the system has misunderstood you three times contains three worked examples of the misunderstanding.
 :::
 
 ## Where it sits in the window matters
@@ -141,13 +141,13 @@ In 2023 Nelson Liu and six colleagues ran a study to find out how well these sys
 
 Their finding: "performance is often highest when relevant information occurs at the beginning or end of the input context, and significantly degrades when models must access relevant information in the middle of long contexts, even for explicitly long-context models."[2]
 
-Read that last clause twice, because a system advertised as handling an enormous window isn't thereby a system that uses all of one evenly.
+Read that last clause twice, because a system advertised as handling an enormous window is not thereby a system that uses all of one evenly.
 
-**Be exact about what was measured, because this is easy to stretch and I am about to stretch it myself.** What they varied was the *position* of the information inside one input. They didn't study conversations, and they didn't measure whether long conversations get worse over time. The result supports one sentence: where something sits in a long input changes how well it is used.
+**Be exact about what was measured, because this is easy to stretch and I am about to stretch it myself.** What they varied was the *position* of the information inside one input. They didn't study conversations, and they did not measure whether long conversations get worse over time. The result supports one sentence: where something sits in a long input changes how well it is used.
 
 **Here is the stretch, marked as mine.** If position matters that much inside one input, then a long conversation, which is one long input by the time you reach the end of it, is a place where things get buried. That's reasoning from the study rather than a finding of it, and it happens to match what people report. Treat it as a good working assumption and not as a measurement.
 
-Two things follow, and both are practical. **When a request really matters, put the important thing at the end.** And when a conversation has gone badly wrong, don't correct it again. Start a fresh one and put the correction in from the beginning. You aren't punishing the system; you're giving your instruction a window it doesn't have to compete in.
+Two things follow, and both are practical. **When a request really matters, put the important thing at the end.** And when a conversation has gone badly wrong, do not correct it again. Start a fresh one and put the correction in from the beginning. You aren't punishing the system; you are giving your instruction a window it doesn't have to compete in.
 
 ### What four corrections look like from the system's side
 
@@ -167,16 +167,16 @@ Why not? Because what it produces is "generic and often quite repetitive".[1]
 
 So instead, "[t]he choice of which word to generate in transformer LLMs is done by sampling from the distribution of possible next words".[1] **Sampling** means choosing with the probabilities rather than always choosing the top. Two runs of the same request are two draws, and two draws can differ.
 
-**The variation is the price of the text not being flat.** That's the whole explanation, and it has a shape worth holding on to, which the textbook states better than I can. Methods that stick close to the most probable words "tend to produce generations that are rated by people as more accurate, more coherent, and more factual, but also more boring and more repetitive". Methods that give more weight to the middle of the list "tend to be more creative and more diverse, but less factual and more likely to be incoherent or otherwise low-quality".[1]
+**The variation is the price of the text not being flat.** That is the whole explanation, and it has a shape worth holding on to, which the textbook states better than I can. Methods that stick close to the most probable words "tend to produce generations that are rated by people as more accurate, more coherent, and more factual, but also more boring and more repetitive". Methods that give more weight to the middle of the list "tend to be more creative and more diverse, but less factual and more likely to be incoherent or otherwise low-quality".[1]
 
 Accuracy and interest are being traded against each other, by whoever built the product, on your behalf. The textbook names three ways of doing the trade, temperature sampling, top-k and top-p, and you will meet those words in other people's writing.[1] You can't set any of them in an ordinary chat window, which is why this course names them once and stops.
 
 :::checkpoint If two runs of the same request are two draws, what does one run tell you about what the system "thinks"?
 Less than it feels like. One run is one sample, so a surprising answer might be the usual one or might be an odd draw you happened to get.
 
-The useful consequence is a habit rather than an attitude. **When an answer surprises you, and it matters, ask again in a fresh conversation before you do anything about it.** If the second answer agrees, you've learned something real about what this system reliably produces here. If it doesn't, you've learned something more useful still, which is that this is a question it is unsteady on, and unsteady is exactly where the checking should go.
+The useful consequence is a habit rather than an attitude. **When an answer surprises you, and it matters, ask again in a fresh conversation before you do anything about it.** If the second answer agrees, you have learned something real about what this system reliably produces here. If it doesn't, you have learned something more useful still, which is that this is a question it is unsteady on, and unsteady is exactly where the checking should go.
 
-Notice what this doesn't establish. Two answers agreeing tells you the system is consistent, and consistency isn't accuracy: a system can produce the same wrong thing every time. Lesson 8 is where that distinction gets its due.
+Notice what this doesn't establish. Two answers agreeing tells you the system is consistent, and consistency is not accuracy: a system can produce the same wrong thing every time. Lesson 8 is where that distinction gets its due.
 :::
 
 ## What a correction actually does
@@ -187,7 +187,7 @@ Three things happen when you tell a system it got something wrong, and people us
 
 **What people believe happens:** the system has learned. It hasn't. Nothing about the model changed because you typed a sentence, so next week, in a fresh conversation, you meet a system that has no record of your correction, and the same error is available to it again.
 
-**What might also happen, depending entirely on the product:** some of what you said is saved and put back in front of the system next time. Several products now do this, several don't, and some do it only if you switch it on. **This course has not surveyed them and is not going to**, because any such survey would be out of date before you read it.
+**What might also happen, depending entirely on the product:** some of what you said is saved and put back in front of the system next time. Several products now do this, several do not, and some do it only if you switch it on. **This course has not surveyed them and is not going to**, because any such survey would be out of date before you read it.
 
 That third one is why this lesson can't tell you whether it remembers you. **It is a fact about your product rather than about the technology**, so the honest teaching is not an answer but an instruction: go and find out, and write down the date you found out.
 
@@ -209,11 +209,11 @@ Keep this. Lesson 10 is about what you are willing to hand over, and it starts f
 
 ## What people get wrong
 
-**"It remembers what I told it last week."** Sometimes, and only because somebody built a feature that puts it back in front of the system. Never because the conversation taught it anything, because it didn't.
+**"It remembers what I told it last week."** Sometimes, and only because somebody built a feature that puts it back in front of the system. Never because the conversation taught it anything, because it did not.
 
 **"It never remembers anything."** The same mistake with the sign flipped. Both versions are guesses about a product you could go and read about, and this course's position is the same on both: it is a question with a documented answer, and the answer belongs to your product rather than to the technology.
 
-**"Correcting it teaches it."** It changes this conversation. That's worth a great deal and it isn't learning, and the difference shows up the moment you open a new conversation and meet the same error.
+**"Correcting it teaches it."** It changes this conversation. That's worth a great deal and it is not learning, and the difference shows up the moment you open a new conversation and meet the same error.
 
 **"The same prompt gives the same answer, so one test is enough."** One run is one draw. If you have ever decided a system is good or bad at something on the strength of a single answer, you decided on a sample of one.
 
@@ -222,9 +222,9 @@ Keep this. Lesson 10 is about what you are willing to hand over, and it starts f
 **"If I paste in more, it will use all of it."** Liu and colleagues are the answer: where something sits changes how well it is used, and the middle of a long input is the worst place for it.[2]
 
 :::callout One thing that is not in this lesson, and why
-**How much your product puts in the window without telling you.** Companies don't generally publish the instructions they attach to your conversation, and this course has read nothing reliable about it. What you can say with confidence is that something is there, because products behave in ways plain text prediction wouldn't, and that its contents aren't yours to see.
+**How much your product puts in the window without telling you.** Companies don't generally publish the instructions they attach to your conversation, and this course has read nothing reliable about it. What you can say with confidence is that something is there, because products behave in ways plain text prediction would not, and that its contents aren't yours to see.
 
-That's a smaller claim than the ones circulating, and it's the one this course can stand behind.
+That is a smaller claim than the ones circulating, and it's the one this course can stand behind.
 :::
 
 ## Practice

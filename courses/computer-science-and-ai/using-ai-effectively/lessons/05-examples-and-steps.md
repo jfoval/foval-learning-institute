@@ -110,9 +110,9 @@ This lesson teaches the last two techniques in the course. Both have published r
 
 ## Showing beats describing, for anything with a shape
 
-Lesson 4 said the request is the specification. This is the part of the specification you can't write in sentences.
+Lesson 4 said the request is the specification. This is the part of the specification you cannot write in sentences.
 
-Try describing the difference between two house styles of writing, or the tone of a particular kind of internal email, or what makes one colleague's meeting notes usable and another's not. You can get somewhere. You can't get all the way, because what you're describing is a form, and a description of a form is second-hand.
+Try describing the difference between two house styles of writing, or the tone of a particular kind of internal email, or what makes one colleague's meeting notes usable and another's not. You can get somewhere. You can't get all the way, because what you are describing is a form, and a description of a form is second-hand.
 
 **So put the form itself in front of the system.** Three or four real examples of what you want, and the description you were struggling with becomes unnecessary.
 
@@ -131,9 +131,9 @@ If your examples run straight on from your instruction with nothing separating t
 :::predict You are about to supply four example emails to show the tone you want. Three of them happen to be about invoices, because those are the ones nearest to hand. What might the system learn that you did not mean to teach?
 That the topic is invoices, or that this kind of email always mentions money, or that it always opens with a reference number, or any other regularity that happens to run through the three without being the thing you cared about.
 
-That's what "diverse" is for. A set of examples is a set of claims about what matters, and every accidental thing they share is a claim you didn't mean to make.
+That's what "diverse" is for. A set of examples is a set of claims about what matters, and every accidental thing they share is a claim you did not mean to make.
 
-The fix isn't more examples. It's four examples that differ in everything except the thing you want.
+The fix isn't more examples. It is four examples that differ in everything except the thing you want.
 :::
 
 ### Worked: a charity's volunteering descriptions
@@ -142,7 +142,7 @@ A charity has six role descriptions on its website and wants six more in the sam
 
 > **Befriending visitor.** You'll visit one person at home for an hour a week, usually the same person for at least six months. Most of our visitors are matched with someone within a mile of where they live. You'd be working alongside Priya, who has coordinated the scheme since 2019.
 
-> **Minibus driver, Thursdays.** You'll collect six people from home and bring them to the lunch club, then take them back at two. A D1 entitlement is needed and we will pay for it if you don't have one. You'd be driving with Tom, who has done the Thursday run for eleven years.
+> **Minibus driver, Thursdays.** You will collect six people from home and bring them to the lunch club, then take them back at two. A D1 entitlement is needed and we will pay for it if you don't have one. You'd be driving with Tom, who has done the Thursday run for eleven years.
 
 Now the two attempts.
 
@@ -165,7 +165,7 @@ People argue about whether producing intermediate steps is reasoning, and the ar
 
 This course declines the question, deliberately, and answers the one you can act on instead. On multi-stage problems the steps changed the measured answer. The steps can be wrong while the answer is right, which is what the standards body records below, and the reverse is also possible, which is this course's inference from the same mechanism rather than a finding. Either way they are something to check.
 
-If somebody tells you these systems can't reason, or that they obviously do, ask what would count as evidence either way. Nothing in how you use one tomorrow depends on the answer.
+If somebody tells you these systems cannot reason, or that they obviously do, ask what would count as evidence either way. Nothing in how you use one tomorrow depends on the answer.
 :::
 
 ## What the steps actually are
@@ -178,7 +178,7 @@ The steps are output. They are produced the same way the answer is, by the same 
 
 That has two consequences, pointing in opposite directions.
 
-**The uncomfortable one.** Printed steps aren't proof. A neat chain of five stages, each phrased confidently, is five more pieces of produced text, and the conclusion at the bottom can fail to follow from any of them.
+**The uncomfortable one.** Printed steps are not proof. A neat chain of five stages, each phrased confidently, is five more pieces of produced text, and the conclusion at the bottom can fail to follow from any of them.
 
 **The useful one, and it is the reason to ask anyway.** Steps you can read are steps you can check. An answer with no working gives you one thing to take or leave. An answer with five steps gives you six places to look, and finding the one that does not follow is far easier than producing the whole thing yourself.
 
@@ -199,7 +199,7 @@ She checks the arithmetic in each line. Year two is right. Year three is right, 
 
 The total is wrong. The three years come to **£44,509**. The figure given is that plus another £14,400: year one has been counted twice.
 
-**Nothing in checking the steps catches that**, because the error isn't inside a step. It's at the seam, between the steps and the conclusion, and a column of correct arithmetic is persuasive enough that most readers stop before they reach it.
+**Nothing in checking the steps catches that**, because the error is not inside a step. It's at the seam, between the steps and the conclusion, and a column of correct arithmetic is persuasive enough that most readers stop before they reach it.
 
 ### Three checks, in the order that costs least
 
@@ -207,7 +207,7 @@ The costing case needs three separate readings, and they are not the same readin
 
 **One. Do the steps agree with the question?** Three years, 3%, applied from year two. If a step has misread the brief, everything after it answers a different question correctly, and no amount of checking the arithmetic will show it.
 
-**Two. Is each step right in itself?** This is the one the finance officer did. It is worth doing and it isn't sufficient.
+**Two. Is each step right in itself?** This is the one the finance officer did. It is worth doing and it is not sufficient.
 
 **Three. Does the conclusion follow from the steps?** Add them up yourself. Ten seconds, and it is the check that catches her case, and it is almost never done, because by the time you have read three correct steps you have decided the thing is careful.
 
@@ -225,22 +225,22 @@ So the honest version is that the third check is the best value and the first is
 
 **"The steps are the reasoning."** They're output that describes reasoning. The standards body's sentence is the one to remember: steps appear even when the answer itself is incorrect.[4]
 
-**"If it shows its working, it is right."** The finance officer's total was wrong under three correct lines. A worked answer is easier to check and isn't thereby checked.
+**"If it shows its working, it is right."** The finance officer's total was wrong under three correct lines. A worked answer is easier to check and is not thereby checked.
 
 **"Chain-of-thought is a magic phrase."** It's a name for putting worked examples in a request, from a 2022 paper measuring 2022 models.[3] What products do now is a separate question with a separate answer, and this course has read no measurement of it, so go and see whether yours produces steps unasked rather than take anybody's word for it.
 
 **"Examples are for when you cannot describe what you want."** Examples beat description for anything with a form, including things you could describe. Description is second-hand.
 
-**"More examples are better."** Three to five, varied.[2] Past that you're adding length rather than context, which lesson 4 is about, and a dozen near-identical examples teaches the wrong regularity twelve times over.
+**"More examples are better."** Three to five, varied.[2] Past that you are adding length rather than context, which lesson 4 is about, and a dozen near-identical examples teaches the wrong regularity twelve times over.
 
-**"Asking for steps always helps."** It helps where there are stages to get wrong, which is what the 2022 result measured. On a rewriting job there aren't any intermediate stages, and asking for working produces a commentary on a task that didn't need one.
+**"Asking for steps always helps."** It helps where there are stages to get wrong, which is what the 2022 result measured. On a rewriting job there aren't any intermediate stages, and asking for working produces a commentary on a task that did not need one.
 
 **"Examples can make an answer true."** They can't, and this is the limit worth stating plainly because it is where the two halves of this lesson meet. Four perfect examples of a well-formed citation teach a system to produce well-formed citations. They teach it nothing about whether any particular one is real, which is lesson 7.
 
 ## Practice
 
 :::exercise Show rather than describe
-Take 25 minutes. You'll need something with a form that you produce regularly: a kind of email, a meeting note, a product line, a case summary.
+Take 25 minutes. You will need something with a form that you produce regularly: a kind of email, a meeting note, a product line, a case summary.
 
 1. Write the description. Three or four sentences saying what the form is, as carefully as you can.
 
@@ -252,7 +252,7 @@ Take 25 minutes. You'll need something with a form that you produce regularly: a
 
 5. Put the two answers beside a real example of your own and mark every place the second matches where the first did not.
 
-6. The question that matters: **is there something in the matched list that you couldn't have written as an instruction?** There usually is, and that's what this technique is for.
+6. The question that matters: **is there something in the matched list that you couldn't have written as an instruction?** There usually is, and that is what this technique is for.
 :::
 
 :::exercise Find the seam

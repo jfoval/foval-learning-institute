@@ -114,9 +114,9 @@ The same task, asked twice.
 
 > Write a short email to about forty office staff telling them that from 1 October, expense claims go through the new portal rather than by paper form, and that anything submitted on paper after that date will be returned. Most of them have not heard of the portal. Keep it under 150 words, do not apologise for the change, and end with where to get help.
 
-The second isn't better engineered. It contains things the first one doesn't: what changed, who is reading, what they already know, how long, what to avoid, and how to end.
+The second is not better engineered. It contains things the first one doesn't: what changed, who is reading, what they already know, how long, what to avoid, and how to end.
 
-That's the whole of this lesson, and the reason it works is in lesson 2.
+That is the whole of this lesson, and the reason it works is in lesson 2.
 
 ## Why the request is everything
 
@@ -143,9 +143,9 @@ Run through those three before you send anything that matters. Most of what goes
 :::predict Look at a request you actually sent this week. Which of the three was missing? Write it down before you read on, then think about what came back.
 My guess is that it was context, and that you feel you had explained the situation.
 
-The reason it's usually context is that context is the part you can't see you've left out. Constraints and form are things you know you want and might forget to say. Context is everything you know about the situation that you never thought to mention, because to you it goes without saying.
+The reason it's usually context is that context is the part you cannot see you've left out. Constraints and form are things you know you want and might forget to say. Context is everything you know about the situation that you never thought to mention, because to you it goes without saying.
 
-That's exactly what the colleague test at the end of this lesson is for.
+That is exactly what the colleague test at the end of this lesson is for.
 :::
 
 ## Give the reason, not just the instruction
@@ -170,7 +170,7 @@ You've gone from a word that could mean four things to a situation where "factua
 
 ## The one that stops "more words is better"
 
-The previous section invites a failure, and it's worth a section of its own, because it's where people go wrong next.
+The previous section invites a failure, and it is worth a section of its own, because it's where people go wrong next.
 
 A consultant has a request that works:
 
@@ -198,22 +198,22 @@ Which is why "a longer prompt is a better prompt" is the wrong lesson to take fr
 
 **"Being polite improves the answers."** This one's actually been studied, and the answer is more interesting than either thing people say. A 2024 study ran tasks in English, Chinese and Japanese at different politeness levels and found that "impolite prompts often result in poor performance, but overly polite language does not guarantee better outcomes." It also found that "[t]he best politeness level is different according to the language."[4] The paper names the models it measured and this course has not read which, so take it as a 2024 result about systems of this kind rather than as a fact about the one you use.
 
-So it isn't a dial you turn up. Being rude appears to cost something, being extravagantly polite buys nothing reliable, and where the best point sits depends on which language you're writing in, which nobody predicts. **The useful reframing is that "please" adds no context.** If a courteous sentence also explains the situation, it is earning its place as context and not as politeness.
+So it is not a dial you turn up. Being rude appears to cost something, being extravagantly polite buys nothing reliable, and where the best point sits depends on which language you're writing in, which nobody predicts. **The useful reframing is that "please" adds no context.** If a courteous sentence also explains the situation, it is earning its place as context and not as politeness.
 
-**"You have to tell it what role to play."** The vendor guidance above does recommend setting a role, and is careful about what it claims: a role "focuses Claude's behavior and tone for your use case".[2] Tone and focus. It doesn't claim a role makes the system know more, and you shouldn't expect it to. "Act as a world-class copywriter" supplies a persona and no facts. "This is for a trade magazine read by plumbers, and the last three headlines we ran were too clever" supplies facts, and will do more.
+**"You have to tell it what role to play."** The vendor guidance above does recommend setting a role, and is careful about what it claims: a role "focuses Claude's behavior and tone for your use case".[2] Tone and focus. It does not claim a role makes the system know more, and you shouldn't expect it to. "Act as a world-class copywriter" supplies a persona and no facts. "This is for a trade magazine read by plumbers, and the last three headlines we ran were too clever" supplies facts, and will do more.
 
 One practical note the guidance makes plain and most summaries drop: in its own examples the role is set as a **system prompt**, which is a separate field an ordinary chat user never sees.[2] In a chat window a role is simply the first line of your request, which is to say it is one more piece of context competing with the rest of it.
 
-**"There is a correct prompt for a task."** There isn't, partly because lesson 3's sampling means two runs differ anyway, and partly because the right request depends on what you want, which the system can't know. What there is, is a request that supplies enough, and several of those are usually available.
+**"There is a correct prompt for a task."** There is not, partly because lesson 3's sampling means two runs differ anyway, and partly because the right request depends on what you want, which the system can't know. What there is, is a request that supplies enough, and several of those are usually available.
 
 **"If it misunderstood, I should explain again."** Sometimes. But lesson 3's fresh start is often better, and the reason is the one in this lesson: a new request with the missing context built in is cleaner than an old one with four corrections stacked on top.
 
 :::callout Where this guidance comes from, and its interest
 The worked instruction pair and the role claim in this lesson are from Anthropic's own prompting documentation for its own models, read on 18 September 2026.[2]
 
-That's a vendor writing about its own product, and this course says so once rather than implying it. The material is used here because it is a primary source on what the people who build one of these systems tell users to do, and because the two specific things taken from it are both general rather than model-specific.
+That is a vendor writing about its own product, and this course says so once rather than implying it. The material is used here because it is a primary source on what the people who build one of these systems tell users to do, and because the two specific things taken from it are both general rather than model-specific.
 
-The same page says something worth carrying: a technique measured on one model should be re-checked against your own evaluation before you apply it to another.[2] That's good advice, and it's also why this course teaches the reasons instead of the settings.
+The same page says something worth carrying: a technique measured on one model should be re-checked against your own evaluation before you apply it to another.[2] That's good advice, and it is also why this course teaches the reasons instead of the settings.
 :::
 
 ## Practice
@@ -225,13 +225,13 @@ Take 30 minutes. You'll need a real request from your own work in the last week,
 
 2. **Predict, in writing:** which of the three is missing, and what specifically will change in the answer if you supply it?
 
-3. Rewrite it once, supplying whichever of context, constraints and form is absent. Beside each change, write which of the three it is. If you can't label a change, you're polishing rather than supplying, and it can come out.
+3. Rewrite it once, supplying whichever of context, constraints and form is absent. Beside each change, write which of the three it is. If you cannot label a change, you're polishing rather than supplying, and it can come out.
 
 4. Run both, in two fresh conversations.
 
 5. Put the answers side by side and mark where they differ. Then answer the question that matters: **was the difference the one you predicted?**
 
-6. Now the second half, and it's the one people skip. **Add three sentences that are not context**, something true about your organisation that does not bear on this task, and run it a third time. Note what happens.
+6. Now the second half, and it is the one people skip. **Add three sentences that are not context**, something true about your organisation that does not bear on this task, and run it a third time. Note what happens.
 :::
 
 :::exercise The colleague test
@@ -249,7 +249,7 @@ The guidance this lesson quotes puts it plainly: "Show your prompt to a colleagu
 
 4. If you have nobody to hand, read the request aloud to yourself and stop at every noun that means something particular in your organisation. It is the same test with you standing in for the colleague, which is harder and works less well, because you know what the nouns mean.
 
-The reason this works is that you can't see your own assumptions by reading. Somebody without your background can, and the guesses they report are the exact list of what to add.
+The reason this works is that you cannot see your own assumptions by reading. Somebody without your background can, and the guesses they report are the exact list of what to add.
 :::
 
 ## Connections

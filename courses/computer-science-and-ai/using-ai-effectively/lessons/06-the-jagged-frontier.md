@@ -115,7 +115,7 @@ Turn these eight pages of survey notes into a two-page letter for a client.
 
 State the standard notice period for this kind of lease.
 
-Hand both to one of these systems and one is fine and the other is a liability. The reason people pick wrong isn't carelessness, and it's the whole of this lesson.
+Hand both to one of these systems and one is fine and the other is a liability. The reason people pick wrong is not carelessness, and it's the whole of this lesson.
 
 ## The line is not where difficulty is
 
@@ -125,19 +125,19 @@ Same workflow. Same apparent difficulty. Opposite results.
 
 The study is 758 management consultants at Boston Consulting Group, using GPT-4, with the data gathered in 2023, and every figure below carries that scope. On the eighteen tasks chosen to sit inside the frontier, consultants with AI completed 12.2% more of them and finished 25.1% faster on average, and their work was graded 29.9% higher with the system alone and 33.9% higher with the system plus a prompting overview, against a control group's mean of 4.37 out of 10. On the one task chosen to sit outside it, the AI groups were right 60% and 70.6% of the time against a control group's 84.5%.[1]
 
-**What makes the second task interesting isn't that it was easy.** It was built out of the sort of business cases BCG uses in its own hiring, deliberately, with the aim of "creating a task at which knowledge workers would excel but AI would struggle, at least without extensive guidance and human intervention".[1] The control group still only got it right 84.5% of the time, so it was hard. It was chosen because it's the kind of hard that people are comparatively good at.
+**What makes the second task interesting isn't that it was easy.** It was built out of the sort of business cases BCG uses in its own hiring, deliberately, with the aim of "creating a task at which knowledge workers would excel but AI would struggle, at least without extensive guidance and human intervention".[1] The control group still only got it right 84.5% of the time, so it was hard. It was chosen because it is the kind of hard that people are comparatively good at.
 
 That is the whole idea. Difficulty is one axis and the frontier runs across it at an angle, which is why your own experience of these systems feels contradictory: you hand over something demanding and it comes back excellent, you hand over something trivial and it comes back wrong, and that isn't the system being erratic, it's you sorting by the wrong property.
 
 ## Which makes the last two lessons half a skill
 
-You met the three-group result in lesson 1, in a callout. It belongs in this lesson too, and what belongs here isn't the finding, it's the consequence.
+You met the three-group result in lesson 1, in a callout. It belongs in this lesson too, and what belongs here is not the finding, it's the consequence.
 
 Inside the frontier, the group with the prompting overview did best of the three. Outside it, that same group fell furthest: 60% correct, 24.5 percentage points below the control group, against 13.9 points for the group with no overview.[1]
 
 Now read the study's own sentence about that task again. It was built to be one AI would struggle with **"at least without extensive guidance and human intervention"**. The overview group is the group that had the guidance. It didn't rescue them, and on that task it went the other way.
 
-**So skill at asking and skill at knowing when to ask are two different competences, they don't arrive together, and the first without the second is worse than neither**, because it produces confidence exactly where confidence is misplaced.
+**So skill at asking and skill at knowing when to ask are two different competences, they do not arrive together, and the first without the second is worse than neither**, because it produces confidence exactly where confidence is misplaced.
 
 You have just spent two lessons on the first competence. This lesson is the second.
 
@@ -158,7 +158,7 @@ Run the two conveyancing jobs through it. The letter is entirely constrained by 
 :::callout One complication, and the course owes you it here rather than in lesson 7
 "Nothing goes and looks" is true of a plain chat window and isn't true of every product. Plenty now give the system a search tool, and when it uses one, some facts outside the request are brought inside it.
 
-That doesn't move the line, it moves particular tasks across it, and only when the tool actually ran and actually found the right thing. Lesson 7 has the measurement of how much that helps on professional tools built for exactly this, and the short version is that it helps measurably, and much less than the people selling them said.
+That does not move the line, it moves particular tasks across it, and only when the tool actually ran and actually found the right thing. Lesson 7 has the measurement of how much that helps on professional tools built for exactly this, and the short version is that it helps measurably, and much less than the people selling them said.
 
 So the sorting rule stands, with one extra question on the fact cases: **did it go and look, and can I see what it found?**
 :::
@@ -183,9 +183,9 @@ It isn't, because of the eight numbers. The prose is on one side of the line and
 
 **The split takes about a minute.** Let the system write the report. Then put the notes beside it and read the eight figures across, one at a time, ticking each. That is a minute of work, it's the only minute that had to be yours, and it converts an untrustworthy report into a trustworthy one.
 
-Compare the two alternatives. Hand the whole thing over and you've a good report with numbers you can't rely on. Refuse to hand any of it over and you've written two pages of prose yourself for the sake of eight figures.
+Compare the two alternatives. Hand the whole thing over and you have a good report with numbers you can't rely on. Refuse to hand any of it over and you've written two pages of prose yourself for the sake of eight figures.
 
-**Look for the join in anything you are about to hand over.** It's usually small and specific: the figures, the dates, the names, the one claim about a rule. Knowing which they are before you start is much faster than checking everything afterwards, and it's the difference between this being a technique and being a worry.
+**Look for the join in anything you are about to hand over.** It is usually small and specific: the figures, the dates, the names, the one claim about a rule. Knowing which they are before you start is much faster than checking everything afterwards, and it's the difference between this being a technique and being a worry.
 
 :::checkpoint A recruiter wants a shortlist of five from forty applications, with a reason for each. Where is the join?
 The reasons are constrained work: each is a claim about a document the system was given, and you can check it against that document in seconds.
@@ -194,7 +194,7 @@ The ranking isn't. "Best five" depends on what your team actually needs this yea
 
 So the split is not "do the shortlist, check the reasons". It is the other way round. Let it summarise each application against criteria you supplied, and do the ranking yourself with those summaries in front of you.
 
-Notice what that does to the work. You haven't saved yourself the decision, which is the part that needed you. You've saved yourself forty readings, which is the part that didn't.
+Notice what that does to the work. You have not saved yourself the decision, which is the part that needed you. You've saved yourself forty readings, which is the part that didn't.
 :::
 
 ## Five ways people draw the line wrong
@@ -211,7 +211,7 @@ Each is a real rule somebody uses, and each fails on a case you can now build yo
 
 **By assuming better prompting protects you.** The overview group. This is the rule this lesson exists to break, and it is the one held by people who have taken a course.
 
-And an objection worth answering rather than listing. **"The frontier moves, so why learn where it is?"** It does move, and a better model shifts where the boundary falls on the counting cases and on some of the fact cases. What doesn't move is the reason a task sits on one side, which is whether the answer is constrained by what you supplied. That question survives a better model, and the question is what you're learning.
+And an objection worth answering rather than listing. **"The frontier moves, so why learn where it is?"** It does move, and a better model shifts where the boundary falls on the counting cases and on some of the fact cases. What does not move is the reason a task sits on one side, which is whether the answer is constrained by what you supplied. That question survives a better model, and the question is what you're learning.
 
 ## Practice
 

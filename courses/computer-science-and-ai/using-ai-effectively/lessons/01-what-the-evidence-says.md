@@ -131,7 +131,7 @@ Read the second row twice. That is where the answer is.
 
 ## What this course is for
 
-It isn't going to promise you a speed-up, because the evidence doesn't support one as a general claim about a person whose work nobody has studied. What it promises is narrower, and it is the thing those two studies actually distinguish between.
+It is not going to promise you a speed-up, because the evidence does not support one as a general claim about a person whose work nobody has studied. What it promises is narrower, and it is the thing those two studies actually distinguish between.
 
 **You will be able to tell which kind of task you are on.** The consultants gained on tasks chosen to sit inside what the system was good at, and in the same study, on one task deliberately chosen to sit outside it, the people with AI were **right 60% and 70.6% of the time against a control group's 84.5%**, a drop of about nineteen percentage points.[1] Same people, same afternoon, same tool, and the difference was the task. Knowing which side you are standing on is most of the skill, and lesson 6 is where you get it properly.
 
@@ -142,18 +142,18 @@ Those are the two claims. Everything else in this course serves one of them.
 :::predict Before you read on: which of those two studies do you think is more likely to describe your own work, and why?
 There's no right answer here, and writing one down is the point. What you should notice is which features you reached for when you decided.
 
-If you thought about the *subject* of the work, consulting against software, that's the instinct this course will spend lesson 6 taking apart, because it isn't the thing that divides the two results.
+If you thought about the *subject* of the work, consulting against software, that is the instinct this course will spend lesson 6 taking apart, because it isn't the thing that divides the two results.
 
 If you thought about how familiar the work was to the person doing it, and how much of it you could already do well yourself, you have arrived at the reconciliation two sections early.
 :::
 
 ## What reconciles them
 
-The two studies don't contradict each other, and the shape of the agreement is worth having on the first page, because it is the frame for the whole course.
+The two studies do not contradict each other, and the shape of the agreement is worth having on the first page, because it is the frame for the whole course.
 
 **The gains show up on work near the edge of what the person can already do. The losses show up on work they had already mastered.**
 
-Think about what it costs to use one of these systems on a piece of work. You write the request. You read what comes back. You check it. You correct it, or you throw it away and ask again. That cost is roughly constant. What varies is what it's being compared against.
+Think about what it costs to use one of these systems on a piece of work. You write the request. You read what comes back. You check it. You correct it, or you throw it away and ask again. That cost is roughly constant. What varies is what it is being compared against.
 
 If producing the work yourself would have taken an afternoon and a lot of effort, the reading-and-checking cost is small against that and you come out ahead. If you could've done it yourself in eleven minutes and done it right, the reading-and-checking cost is most of eleven minutes, and you've added a step and gained nothing.
 
@@ -161,7 +161,7 @@ The consultants were working on tasks written for the experiment, which were new
 
 There is a detail in how the second study built its outside-the-frontier task that makes the same point from the other side. The authors designed it with BCG, "using as a starting point the type of business cases that BCG uses for its highly competitive job interviews", aiming at "creating a task at which knowledge workers would excel but AI would struggle".[1] So the task where AI made people worse was chosen because people are good at it. That is the reconciliation stated as a study design rather than as a theory.
 
-That paragraph is this course's reading of two studies, and not a finding either study reports. Neither set of authors puts it that way. It's the best account I can give of why two careful trials came out opposite, and you should hold it the way you'd hold any reasonable explanation nobody has tested: use it, and be ready to drop it.
+That paragraph is this course's reading of two studies, and not a finding either study reports. Neither set of authors puts it that way. It is the best account I can give of why two careful trials came out opposite, and you should hold it the way you'd hold any reasonable explanation nobody has tested: use it, and be ready to drop it.
 
 :::callout One result from that first study that almost nobody quotes
 The consultants were split three ways, not two, and the third group got GPT-4 **plus a short overview on how to prompt it**.
@@ -177,26 +177,26 @@ That result is the reason this course is shaped the way it is, and it's the one 
 
 ## What the studies can and cannot tell you
 
-You've now met four numbers from two studies. Before you carry any of them anywhere, be exact about what a trial like this is and what it isn't, because this is a subject where numbers travel a long way from the thing they measured.
+You have now met four numbers from two studies. Before you carry any of them anywhere, be exact about what a trial like this is and what it is not, because this is a subject where numbers travel a long way from the thing they measured.
 
-**A randomised trial answers one narrow question well.** Both studies assigned people to conditions at random, which means the difference in outcome is caused by the condition rather than by who volunteered. That's a genuinely strong design, and it's why these two studies are worth more than a hundred articles about how much this all changes everything.
+**A randomised trial answers one narrow question well.** Both studies assigned people to conditions at random, which means the difference in outcome is caused by the condition rather than by who volunteered. That's a genuinely strong design, and it is why these two studies are worth more than a hundred articles about how much this all changes everything.
 
 **And the narrowness is the price.** The consultants study is 758 management consultants at one firm, on tasks written for the experiment, using GPT-4, with data gathered in 2023. The developers study is **sixteen people**, on work they knew intimately, with tools available in early 2025.
 
 So neither of them is a claim about you, and a lesson that told you otherwise would be doing the thing this course exists to stop.
 
-What you do with a study that isn't about you is not ignore it. It's read what it measured, and ask how far that reaches.
+What you do with a study that isn't about you is not ignore it. It is read what it measured, and ask how far that reaches.
 
-**And there's a third study worth one line**, because it's a second sighting of the same pattern rather than a third opinion. In 2023, 444 college-educated professionals were given writing tasks from their own jobs, marketing people and analysts and HR staff rather than writers, and half were randomly given ChatGPT. That half finished **37% faster**, taking 10 minutes off a control average of 27, and their work was graded **0.45 standard deviations higher**.[3]
+**And there is a third study worth one line**, because it's a second sighting of the same pattern rather than a third opinion. In 2023, 444 college-educated professionals were given writing tasks from their own jobs, marketing people and analysts and HR staff rather than writers, and half were randomly given ChatGPT. That half finished **37% faster**, taking 10 minutes off a control average of 27, and their work was graded **0.45 standard deviations higher**.[3]
 
 The detail inside that is better than the headline. The people who'd scored *low* on the first task got both faster and better. The people who'd scored *high* kept their grade and got much faster.[3] So the gap between them closed, and it closed because the already-good stopped spending as long, not because they improved. The consultants study found the same shape: the biggest beneficiaries were the ones in the bottom half of the baseline assessment, and the top half gained too, less.[1]
 
-**Two studies finding the same pattern is worth more than either finding it alone.** What both measured, on GPT-4 and ChatGPT in 2022 and 2023, is a distance between people closing, with the least practised lifted furthest. Whether that holds for whatever you have open today is exactly the kind of question this course will keep telling you to date rather than assume. Whether you find that cheering or alarming is a separate question, and it isn't one this course will answer for you.
+**Two studies finding the same pattern is worth more than either finding it alone.** What both measured, on GPT-4 and ChatGPT in 2022 and 2023, is a distance between people closing, with the least practised lifted furthest. Whether that holds for whatever you have open today is exactly the kind of question this course will keep telling you to date rather than assume. Whether you find that cheering or alarming is a separate question, and it is not one this course will answer for you.
 
 :::predict Somebody tells you that a new model scored 92% on a professional benchmark, so it can now do that profession's work. What is missing from that inference?
 Several things, and lesson 11 takes them all properly. The quickest one is this: a benchmark is a set of questions somebody chose, and a profession's work isn't a set of questions somebody chose.
 
-The second is that "can do the work" isn't the claim the trials above measured. The consultants study didn't ask whether GPT-4 could be a consultant. It asked what happened to consultants who used it, which is a different question with a much more interesting answer, since the answer was "it depends which task, and by nineteen points".
+The second is that "can do the work" is not the claim the trials above measured. The consultants study did not ask whether GPT-4 could be a consultant. It asked what happened to consultants who used it, which is a different question with a much more interesting answer, since the answer was "it depends which task, and by nineteen points".
 
 Hold onto the habit rather than the example: when somebody reports a capability, ask what was measured, on what, and when.
 :::
@@ -211,16 +211,16 @@ Four things it leaves out, and you should know before you start.
 
 **It is not about building anything.** No interfaces, no code, no running a model yourself.
 
-**It doesn't recommend a product, and never assumes which one you have.** It names GPT-4 and ChatGPT where a study used them, because a result belongs to the thing it was measured on. It never says "use this one", and every exercise is written to work on whichever you've got. That's deliberate. The market moves faster than a lesson does, plenty of readers didn't choose what they use because their employer chose it, and a course that reads as an advertisement for a product is doing something this institute doesn't do.
+**It does not recommend a product, and never assumes which one you have.** It names GPT-4 and ChatGPT where a study used them, because a result belongs to the thing it was measured on. It never says "use this one", and every exercise is written to work on whichever you've got. That is deliberate. The market moves faster than a lesson does, plenty of readers didn't choose what they use because their employer chose it, and a course that reads as an advertisement for a product is doing something this institute does not do.
 
 Some readers are here because somebody told them to be. Since 2 February 2025, European law has required providers and deployers of AI systems to "take measures to support the development of AI literacy of their staff and other persons dealing with the operation and use of AI systems on their behalf".[5] That obligation is on organisations rather than on you, and it is European rather than universal, and it is why a course like this one now turns up in a staff induction.
 
-**And it doesn't cover the ethics of how these systems were built, or what it costs to run them**: whose writing was used to train them, what that means for copyright, what it does to the people whose jobs are affected, what the training and the running take in energy and water, and whether the answers carry the biases of the writing they were built from. NIST's profile lists environmental impacts and harmful bias among the twelve risks it names, and this course takes neither.[6] Those are serious questions and this course isn't the place where they get a serious answer. It covers what happens to *your* data when you type it in, which is lesson 10, and it stops there.
+**And it does not cover the ethics of how these systems were built, or what it costs to run them**: whose writing was used to train them, what that means for copyright, what it does to the people whose jobs are affected, what the training and the running take in energy and water, and whether the answers carry the biases of the writing they were built from. NIST's profile lists environmental impacts and harmful bias among the twelve risks it names, and this course takes neither.[6] Those are serious questions and this course isn't the place where they get a serious answer. It covers what happens to *your* data when you type it in, which is lesson 10, and it stops there.
 
 :::callout Two conventions this course follows, and why
-**Every claim about what these systems can do carries a model name and a date.** Not "current models can" but "GPT-4, in tasks run in 2023". This is Digital Literacy's habit of dating every figure with one field added, and it exists because a sentence about capability is a sentence about a particular thing at a particular moment. When you meet a capability claim here without a model and a date, that's a defect, and the feedback form at the bottom of the page is the right place to say so.
+**Every claim about what these systems can do carries a model name and a date.** Not "current models can" but "GPT-4, in tasks run in 2023". This is Digital Literacy's habit of dating every figure with one field added, and it exists because a sentence about capability is a sentence about a particular thing at a particular moment. When you meet a capability claim here without a model and a date, that is a defect, and the feedback form at the bottom of the page is the right place to say so.
 
-**Anything that goes stale lives in lesson 11.** The other ten lessons are written so their arguments survive a better model arriving, because they're about mechanism, about what a task needs, and about what a person should do. If this course is still useful in three years, that's why.
+**Anything that goes stale lives in lesson 11.** The other ten lessons are written so their arguments survive a better model arriving, because they're about mechanism, about what a task needs, and about what a person should do. If this course is still useful in three years, that is why.
 :::
 
 ## What people get wrong
@@ -229,11 +229,11 @@ Some readers are here because somebody told them to be. Since 2 February 2025, E
 
 **"The studies show these tools do not work."** Same problem in the other direction. The consultants study found large, consistent gains across creative, analytical, writing and persuasive tasks, and checked that they weren't just spelling and grammar.[1]
 
-**"I can tell whether it is helping me."** Sixteen developers thought they were 20% faster while being 19% slower.[2] That's the single most useful thing on this page, and it applies to you, including now you've read it.
+**"I can tell whether it is helping me."** Sixteen developers thought they were 20% faster while being 19% slower.[2] That is the single most useful thing on this page, and it applies to you, including now you've read it.
 
-**"This course will teach me the prompts that work."** It'll teach you four or five moves that follow from how the thing works, which is a much smaller number than you'll find elsewhere and a much more useful one. One catalogue published in 2024 names fifty-eight separate techniques for prompting in text, and forty more for other kinds of output.[4] Ninety-eight named techniques for one activity is what a field looks like before it knows which of them matter.
+**"This course will teach me the prompts that work."** It'll teach you four or five moves that follow from how the thing works, which is a much smaller number than you will find elsewhere and a much more useful one. One catalogue published in 2024 names fifty-eight separate techniques for prompting in text, and forty more for other kinds of output.[4] Ninety-eight named techniques for one activity is what a field looks like before it knows which of them matter.
 
-**"Understanding how it works will make me use it better."** Careful. This is the assumption the course is built on, and I owe you the same warning [Digital Literacy](/courses/digital-literacy/) opens with. In a different subject, and on evidence that course sets out rather than this one, understanding predicted *noticing* more and didn't predict *doing* more. What the evidence here supports is narrower, and it's what the overview result above shows: knowing how to ask well didn't stop people using the tool on the wrong task, and it made the damage worse. Understanding where the frontier is, which is a different thing from understanding the machinery, is what this course is actually selling.
+**"Understanding how it works will make me use it better."** Careful. This is the assumption the course is built on, and I owe you the same warning [Digital Literacy](/courses/digital-literacy/) opens with. In a different subject, and on evidence that course sets out rather than this one, understanding predicted *noticing* more and didn't predict *doing* more. What the evidence here supports is narrower, and it is what the overview result above shows: knowing how to ask well did not stop people using the tool on the wrong task, and it made the damage worse. Understanding where the frontier is, which is a different thing from understanding the machinery, is what this course is actually selling.
 
 ## A gap in the evidence, named now rather than discovered later
 
@@ -241,7 +241,7 @@ Every study in this lesson ran on management consultants, college-educated profe
 
 **Nobody has measured what happens to somebody with no technical background using one of these systems for ordinary work.** That's most people, and it may well be you.
 
-So the honest position is that this course's advice rests on studies of populations you may not belong to, and on a mechanism that's the same for everybody. The mechanism is the firmer half, which is one reason lesson 2 sits where it does.
+So the honest position is that this course's advice rests on studies of populations you may not belong to, and on a mechanism that is the same for everybody. The mechanism is the firmer half, which is one reason lesson 2 sits where it does.
 
 ## Practice
 
@@ -258,11 +258,11 @@ If you don't use one, this column is still yours to fill. Write three tasks some
 
 Then two more things, and these are the ones that will be worth something later.
 
-1. **Mark each entry as a guess or a finding.** A finding means you tried it and saw what happened. A guess means you assumed. Be honest. Most people's lists are almost all guesses, and that's the normal state.
+1. **Mark each entry as a guess or a finding.** A finding means you tried it and saw what happened. A guess means you assumed. Be honest. Most people's lists are almost all guesses, and that is the normal state.
 
 2. **Pick the one entry you are least sure about**, from either column, and write one sentence saying what would change your mind about it.
 
-That last sentence is the whole method of this course in miniature. If you can't say what would change your mind, you don't have a view. You have a habit.
+That last sentence is the whole method of this course in miniature. If you cannot say what would change your mind, you don't have a view. You have a habit.
 :::
 
 :::exercise Find a claim and take it apart
@@ -274,7 +274,7 @@ Then answer three questions about it.
 
 1. **What exactly was measured, and on what?** If you cannot tell from the claim, that is the answer.
 
-2. **Which model, and when?** Again, if it doesn't say, write "not stated".
+2. **Which model, and when?** Again, if it does not say, write "not stated".
 
 3. **What would have to be true for this to apply to your work?**
 
@@ -283,7 +283,7 @@ Keep this too. Lesson 11 is built on it, and you'll find it much easier there fo
 
 ## Connections
 
-**Back.** This is the first lesson, so nothing here depends on anything in the course. It leans on three earlier courses on the Core and re-teaches none of them. [How to Learn Anything](/courses/how-to-learn-anything/) taught you that how a study method feels is a poor guide to whether it's working, which is exactly the METR result arriving in another subject. [Logic and Argument](/courses/logic-and-argument/) taught you what makes evidence bear on a claim. [Digital Literacy](/courses/digital-literacy/) taught you to ask who's making a claim and what they measured.
+**Back.** This is the first lesson, so nothing here depends on anything in the course. It leans on three earlier courses on the Core and re-teaches none of them. [How to Learn Anything](/courses/how-to-learn-anything/) taught you that how a study method feels is a poor guide to whether it is working, which is exactly the METR result arriving in another subject. [Logic and Argument](/courses/logic-and-argument/) taught you what makes evidence bear on a claim. [Digital Literacy](/courses/digital-literacy/) taught you to ask who's making a claim and what they measured.
 
 **Forward.** Lesson 2 explains what the system is actually doing when it answers, which is where the jagged frontier comes from. Lesson 6 takes the frontier properly and asks for your baseline back. Lesson 9 is about the cost of using one while you are learning something, which is the other half of the decision this lesson opened. Lesson 11 returns to the evidence with nine lessons behind you.
 
