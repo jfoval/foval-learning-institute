@@ -81,11 +81,14 @@ Rewrite these five lines each session. Nothing else goes in this block.
   Bible Basics lessons 4 and 9, Python Basics lesson 1, Logic and Argument lesson 10, and Digital
   Literacy lessons 1 and 3. **The fix is one edit each: name the distractor by its content.**
 
-- **Memory is drafting.** Lessons 1 to 6 are written and the project is written. Lesson 1 has had
-  its Stage 4 review applied; lessons 2 to 5 have been reviewed and the findings are being applied;
-  lessons 6 and 7 are under review now. Both assessments are written. **Still to do: apply those
-  two reviews, then publish, then seven podcast scripts.** T2, fourth of the term on running
-  yourself.
+- **Memory is published**, seven lessons, an eighteen-item test and the project. Every lesson has
+  been through Stage 4 in a fresh context and every finding is applied; `research/reviews/` has a
+  file each. Audio debt opened at 7. **Next for it: seven podcast scripts to reach written**, which
+  costs nothing at the API.
+
+  **One thing is left undone and is not a blocker.** The course has no chart, image or video in any
+  lesson, and two reviewers raised it. Lesson 3's three-row table of pooled figures with their
+  confidence intervals is the obvious candidate for one.
 
   **The project was written before lesson 7 rather than after it**, on the course-wide review's
   note: lesson 1's first exercise stakes an irreversible instruction on the project existing, and a

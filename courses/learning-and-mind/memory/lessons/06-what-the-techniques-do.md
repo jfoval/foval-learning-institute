@@ -372,7 +372,7 @@ sorting exercise above is its rehearsal.
    technique against spending the same time rehearsing is also the course's own**, marked in the
    checkpoint. **The invented claim in the worked case is labelled as invented** where it appears,
    and the sorting of its two sentences is the course's reasoning rather than a reported analysis.
-   3. The description of the method of loci itself, and the standard instruction to make the images
+3. The description of the method of loci itself, and the standard instruction to make the images
    strange, is the technique as it is generally described. **The abstract this course read names the
    technique and does not describe it**, so neither the walk-the-route description nor the
    strangeness instruction comes from anything read here, and the body says so at both places. **No

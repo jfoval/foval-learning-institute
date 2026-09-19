@@ -3,7 +3,7 @@ title: Memory
 school: learning-and-mind
 subject: Learning & Mind
 level: Foundation
-status: drafting
+status: published
 summary: >-
   What memory does when it fails, why a confident recollection is not evidence that something
   happened, and what the research can and cannot tell you about your own.
@@ -11,15 +11,15 @@ description: >-
   How to Learn Anything taught memory as something you build: retrieval, spacing, interleaving.
   This course is about the other half, which is memory as something that is reconstructed every
   time you use it, and which is therefore wrong in particular ways that can be measured. It covers
-  what forgetting actually looks like when somebody plots it, why interference explains more of it
-  than decay, how a memory can be changed by a question, what the evidence says about confidence
-  and accuracy, and what the memory techniques people sell actually do. It is the fourth course of
+  what forgetting actually looks like when somebody plots it, what retrieving one thing does to the
+  things next to it, how a memory can be changed by a question, what the evidence says about
+  confidence and accuracy, and what the memory techniques people sell actually do. It is the fourth course of
   the term on running yourself.
 outcomes:
   - >-
     Describe what a forgetting curve measures and what it does not, with what it was measured on
   - >-
-    Explain why interference accounts for more forgetting than the passage of time does
+    Explain what retrieving one thing costs its neighbours, and what the pooled figure depends on
   - >-
     State what has been measured about the relationship between confidence in a memory and its
     accuracy
