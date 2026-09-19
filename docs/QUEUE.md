@@ -67,17 +67,29 @@ Rewrite these five lines each session. Nothing else goes in this block.
   claims about itself, so under root rule 8 it is John's decision and not a drafter's. Nothing is
   blocked: the course is live without it.
 
-- **Habits and Self-Discipline is in flight.** T2, second of the term on running yourself, after
-  Personal Finance. Stages 0, 1 and 2 are done: scaffolded, 3,950 words of research, and a
-  4,570-word outline planning seven lessons, an eighteen-item test and a ten-week project. Lesson 1
-  is next.
+- **Habits and Self-Discipline is in flight, lessons 1 to 4 of 7 drafted.** T2, second of the term
+  on running yourself. Stages 0, 1 and 2 done: 3,950 words of research, a 4,570-word outline
+  planning seven lessons, an eighteen-item test and a ten-week project. **Lesson 1 has had its Stage
+  4 review and the fixes are applied; lessons 2, 3 and 4 owe theirs.** Lessons 5, 6 and 7 are next.
+
+  **Lesson 1's review found a fabrication and it is worth reading before drafting anything here.**
+  The Sources block attributed a case to two named researchers and then hedged that the course had
+  not read their paper. Nothing in the research file connected either name to that case: the chain
+  of custody was invented and then hedged against, which reads as scrupulousness. That is now defect
+  22 in `/draft-lesson`, and the instruction for a reviewer is that **an unprompted hedge is a thing
+  to check rather than a reason to relax.** Two smaller versions of the same failure were in the
+  same lesson: an invented recruitment detail and an invented study setting, both about the one
+  source the course has not opened, and one of them was being used to mark a quiz answer wrong.
+
+  **Four of that lesson's five criticals were read-level discipline failing on the sources the
+  course has read least**, which is exactly where outline decision 3 predicted the risk and exactly
+  where the decision alone was not enough.
 
   **The research found the thing that shapes the course.** This subject has a good empirical
-  literature and a bad popular one, and the gap is wider than in Time Management. The habit half has
-  a definition, a measurement paradigm and a published methods guide whose authors are candid about
-  what they have not established. The self-control half is in worse shape than a reader expects: the
-  account that made it famous returned d = 0.04 with a confidence interval spanning zero across 23
-  labs and 2,141 participants, on a protocol its own originator vetted.
+  literature and a bad popular one, and the gap is wider than in Time Management. The self-control
+  half is in worse shape than a reader expects: the account that made it famous returned d = 0.04
+  with a confidence interval spanning zero across 23 labs and 2,141 participants, on a protocol its
+  own originator vetted.
 
   **Three numbers in this subject travel further than their evidence**, which gives the course its
   spine and its last lesson. Twenty-one days is an observation about plastic-surgery patients in a
@@ -85,14 +97,18 @@ Rewrite these five lines each session. Nothing else goes in this block.
   with a range of 18 to 254. And forty-three percent is the higher of two figures in one paper that
   says "between a third and a half" and explains why its own two studies disagree.
 
-  **The highest-value fact in the subject is the least repeated one**, and lesson 4 exists to deliver
-  it: missing a single opportunity did not seriously impair habit formation, and automaticity gains
-  resumed afterwards. Outline decision 6 is built on the reader who has failed at this before and
-  been told it was discipline.
+  **The highest-value fact in the subject is the least repeated one**, and lesson 4 delivers it:
+  missing a single opportunity did not seriously impair habit formation, and automaticity gains
+  resumed afterwards.
 
-  **The Lally study itself is paywalled and was not opened.** It is reported at one remove through
-  two open-access papers by its own author, and outline decision 3 requires lessons to say so in the
-  body wherever the 66 days appears.
+  **Maltz came off the `unread:` line on 2026-09-19**, on the precedent Time Management set with
+  Parkinson: that line stops a course borrowing authority from an unopened work, and lesson 4 does
+  the opposite, since the provenance is the teaching point and the body states the read level.
+  `research/SOURCES.md` carries the reasoning where the entry is.
+
+  **The Lally study itself is paywalled and was not opened**, and is reported at one remove through
+  two open-access papers by its own author. Outline decision 3 requires lessons to say so in the
+  body wherever the 66 days appears, and lesson 4 opens on it.
 
 - **Time Management is PUBLISHED**, with eight lessons, both assessments, eight Stage 4 reviews
   applied, and eight podcast scripts drafted. T1, seventh and last of the Tools term. It owes eight
