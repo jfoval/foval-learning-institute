@@ -281,13 +281,8 @@ What it can't say is the size, and size is what a decision needs. The largest of
 quarter of a standard deviation and the smallest is indistinguishable from zero, and which one
 describes you depends on whether you are in the population each pooled.
 
-**And there is one thing this lesson has to add that none of the sources does.**[2] Advice to write
-by hand is not neutral across readers. For some people a keyboard isn't a preference, and **nothing
-read for this course reports whether any of these studies included them**. A course that turned this
-table into "write by hand" would be giving an instruction to people its evidence never looked at.
-
-**So the course's answer is the table**, and the decision's yours. Lesson 8 is where you make it,
-and the project is where you find out what your own notes are actually doing.
+**So what the course hands you is the table rather than an instruction**, and the section below is
+the one reader for whom that difference is not a technicality.
 :::
 
 ## One thing this lesson has to add
