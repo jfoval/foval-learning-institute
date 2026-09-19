@@ -67,6 +67,35 @@ Rewrite these five lines each session. Nothing else goes in this block.
   claims about itself, so under root rule 8 it is John's decision and not a drafter's. Nothing is
   blocked: the course is live without it.
 
+- **Memory is through Stage 2**, with 3,400 words of research and a 3,500-word outline planning
+  seven lessons, an eighteen-item test and a project that runs across the whole course. T2, fourth
+  of the term on running yourself. **Drafting is the next thing.**
+
+  **The scope decision is the one that matters and Stage 1 tested it rather than assuming it.**
+  How to Learn Anything already teaches retrieval, spacing, interleaving, chunking and the two
+  strengths, so a second memory course either takes the other half or is a restatement. The other
+  half is memory as a thing reconstructed every time it is used, and **every strong literature the
+  search found is about failure and distortion rather than acquisition**, which makes that boundary
+  evidence rather than convenience.
+
+  **The best lesson available is the eyewitness one, and not because it debunks anything.**
+  Everybody knows a confident witness is no more accurate than an unconfident one. The 2017
+  synthesis opens by saying that belief was entirely reasonable for the procedures that produced it,
+  and then gives five conditions under which initial high confidence is remarkably accurate and
+  initial low confidence signals a high risk of error. **The word "initial" is load-bearing** and
+  the outline requires it wherever the claim appears.
+
+  **Two gaps are recorded rather than filled, and both are deliberate.** The Loftus and Palmer
+  figures come from a published teaching summary because the original could not be opened, which
+  makes that study the course's own worked provenance case, the way Maltz was Habits lesson 4's. And
+  a large misinformation-effect meta-analysis that search results keep attributing could not be
+  found, verified or attributed across several attempts, so `SOURCES.md` says in terms that **no
+  lesson may print its figure**.
+
+  **This course's main refusal is sharper than the two before it.** It cannot tell a reader whether
+  a particular thing they remember happened, and somebody will want to use lesson 4 on a person.
+  Lesson 7 faces that rather than leaving it implied.
+
 - **Focus and Deep Work is PUBLISHED and WRITTEN**, with seven lessons, both assessments, seven
   Stage 4 reviews applied with a review file for each, and seven fact-checked podcast scripts. T2,
   third of the term on running yourself. **Nothing on it is outstanding except seven episodes**,
