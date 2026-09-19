@@ -227,8 +227,9 @@ than the title.
 - **Practice:** the letter exercise and the citation exercise, both with a prediction written first.
   Then: write the one-paragraph description in your own words, without looking, which is retrieval
   practice and the course should name it as such and point at How to Learn Anything lesson 3.
-- **Sources:** NIST AI 600-1 §2.2, quoted; Jurafsky and Martin chapters 2 and 7 as the go-deeper
-  link (**on the `unread:` line, so link it and do not cite it**).
+- **Sources:** NIST AI 600-1 §2.2, quoted; **Jurafsky and Martin chapter 2, which was read in full
+  on 2026-09-18 and carries an exemption on the `unread:` line keyed to this lesson**, so lesson 2
+  may cite chapter 2 and only chapter 2. Chapter 7 is still unread and is a link, not a citation.
 - **Connects:** builds on nothing; everything after it depends on this. Leads to 3 (what it can see)
   and to 7 (why confident false answers happen).
 - **Spaced review of:** lesson 1's baseline, used as the material for the prediction.
