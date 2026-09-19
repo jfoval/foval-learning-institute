@@ -15,11 +15,11 @@ quiz:
   - q: >-
       "Habits form faster if you reward yourself straight afterwards." Sort that claim.
     options:
-      - False, since the research shows a reward makes no difference to how fast one forms
       - Measurable, and a comparison of rewarded with unrewarded repetitions would settle it
+      - False, since the research shows a reward makes no difference to how fast one forms
       - Unmeasurable, because a reward means something different to everybody who receives one
       - Two claims, because it recommends a reward and recommends giving it to yourself
-    answer: 1
+    answer: 0
     explain: >-
       There are two conditions to compare and something to count, which is automaticity over some
       weeks, so this is the kind of sentence a study settles; the useful question is whether one
@@ -45,11 +45,11 @@ quiz:
       A man has intended for two years to start running and has not. On this course's account, what
       are his honest options?
     options:
-      - Build it, keep deciding each time, or stop carrying it, each with a cost
       - Build the habit properly, because two years of intending shows he wants it
       - Find a better cue, since a good enough cue will make any behaviour stick
+      - Build it, keep deciding each time, or stop carrying it, each with a cost
       - Accept that he lacks the discipline, which no technique here can supply him
-    answer: 0
+    answer: 2
     explain: >-
       Three endings, and the course has no view on which he picks; what it asks is that he picks one
       and names what it costs. Two years of intending is as consistent with not wanting it as with
@@ -60,10 +60,10 @@ quiz:
       its criterion attached. What has the trace established?
     options:
       - That the claim is true, since it matches the source it came from word for word
-      - That the trace failed, because a trace finding nothing wrong has found nothing
       - That this claim survived the trace, which is one of the exercise's five endings
+      - That the trace failed, because a trace finding nothing wrong has found nothing
       - That the source is itself unreliable, since claims rarely survive a trace intact
-    answer: 2
+    answer: 1
     explain: >-
       A trace checks the chain of custody between a source and a claim, so what it can establish is
       that the claim carries its conditions, and the exercise names that as one of five results. It
@@ -75,10 +75,10 @@ quiz:
       finds out the momentum idea has little behind it. What does this lesson say she should do?
     options:
       - Stop making the bed, since advice whose reason failed checking is unsafe to keep
-      - Judge the advice on its own, since a good one can rest on an unsupported reason
       - Keep doing it because it works for her, which is the only test that matters here
       - Look for the real reason, since advice worth taking must have one behind it
-    answer: 1
+      - Judge the advice on its own, since a good one can rest on an unsupported reason
+    answer: 3
     explain: >-
       A recommendation and its stated reason are separately checkable, so losing the reason tells
       her that nobody has checked the recommendation rather than that it fails. Dropping it on the
@@ -89,11 +89,11 @@ quiz:
       This course has given you three numbers, a contested mechanism and a definition. Which should
       you hold most loosely?
     options:
+      - What replaced the resource model, which its own authors call a blueprint
       - The definition, since a definition is a convention rather than a finding
       - The three numbers, because figures date faster than the mechanisms behind them
       - The missed-day finding, which rests on a study this course has not opened
-      - What replaced the resource model, which its own authors call a blueprint
-    answer: 3
+    answer: 0
     explain: >-
       Its proposers describe their own paper as highlighting where evidence is lacking and providing
       a blueprint for future research, which is the weakest claim on offer here. The numbers do date,

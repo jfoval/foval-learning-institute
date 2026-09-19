@@ -14,11 +14,11 @@ quiz:
       A colleague says he only loses focus when the work is boring. What does this study say about
       that?
     options:
-      - It supports him entirely, since wandering was concentrated in low-demand activities
       - It contradicts him, since at least three in ten samples wandered in almost everything
+      - It supports him entirely, since wandering was concentrated in low-demand activities
       - It cannot address it at all, since the study never recorded what people were doing
       - It supports him in part, since demanding work halved the rate of wandering they reported
-    answer: 1
+    answer: 0
     explain: >-
       The floor across activities is the striking part, and the authors report that the nature of
       people's activities had only a modest impact on whether their minds wandered. Activity was
@@ -29,10 +29,10 @@ quiz:
       hers. What does the study actually support?
     options:
       - That she is right, since the study established that wandering causes unhappiness
+      - That wandering predicted lower mood, and a time-lag analysis suggested a direction
       - That the relationship runs the other way, since low mood is known to cause wandering
       - That nothing can be said, since this was observational and correlations show nothing
-      - That wandering predicted lower mood, and a time-lag analysis suggested a direction
-    answer: 3
+    answer: 1
     explain: >-
       The authors write that time-lag analyses "strongly suggested" wandering was "generally the
       cause", which is a hedge in observational data rather than an experimental result. Calling it
@@ -41,11 +41,11 @@ quiz:
   - q: >-
       Why is mind-wandering harder to measure than an interruption?
     options:
-      - Because it leaves no external trace, so the only witness is the person it happened to
       - Because it happens less often, so a study needs a far larger sample to detect it
       - Because it cannot be defined precisely enough for any study to operationalise properly
       - Because laboratory conditions suppress it, so it can only be studied in the field
-    answer: 0
+      - Because it leaves no external trace, so the only witness is the person it happened to
+    answer: 3
     explain: >-
       An interruption has a phone call or a colleague attached to it and somebody else could count
       them; a wandering mind is visible only from inside, which is why this study had to ask.
@@ -81,11 +81,11 @@ quiz:
       The study found that what people were thinking predicted their happiness better than what they
       were doing. What does that establish?
     options:
+      - That the content of thought explained more variance in mood than activity did
       - That activities do not matter to happiness, which overturns most advice about it
       - That changing what you think about is easier than changing what you do
       - That the study's happiness measure was too crude to detect effects of activity
-      - That the content of thought explained more variance in mood than activity did
-    answer: 3
+    answer: 0
     explain: >-
       Activities explained 4.6 percent of within-person variance and mind-wandering 10.8 percent, so
       this is a comparison of explained variance and not a claim that activity is irrelevant. Ease

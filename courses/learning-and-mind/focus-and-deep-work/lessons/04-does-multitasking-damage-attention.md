@@ -17,9 +17,9 @@ quiz:
     options:
       - A moderate association, which confirmed the original study at larger scale
       - No association at all once the published studies had been pooled together
-      - A large association in self-report work and none at all in performance work
       - A small association, pooled across 118 assessments, with high heterogeneity
-    answer: 3
+      - A large association in self-report work and none at all in performance work
+    answer: 2
     explain: >-
       Small, statistically significant, and heterogeneous is the honest summary of the overall
       figure, and the interesting structure is underneath it rather than in it. Nothing here
@@ -28,11 +28,11 @@ quiz:
   - q: >-
       What did the trim-and-fill correction do to the performance-based effect?
     options:
-      - It removed the statistical significance, leaving an interval that crosses zero
       - It reduced it slightly, leaving a small but still statistically significant effect
       - It increased it, which is what happens when small null studies are imputed
       - It left it unchanged, since the funnel plot showed no sign of asymmetry at all
-    answer: 0
+      - It removed the statistical significance, leaving an interval that crosses zero
+    answer: 3
     explain: >-
       The corrected estimate was z = .032 with an interval running from below zero to above it,
       which is a statement about what the pooled literature can distinguish. Egger's test did
@@ -42,11 +42,11 @@ quiz:
       A woman is certain her phone has destroyed her attention. On this lesson, what is the most
       accurate thing to tell her?
     options:
+      - That the association holds in self-report and not in task performance, and both matter
       - That she is mistaken, since the performance evidence does not survive the correction
       - That she is quite right, since the self-report evidence supports just what she reports
-      - That the association holds in self-report and not in task performance, and both matter
       - That nothing at all is known here, since a heterogeneous literature supports nothing
-    answer: 2
+    answer: 0
     explain: >-
       The split is the finding, and her report belongs to the half where the association is
       consistently found, which is not nothing even though a task might not show it. Telling her
@@ -63,8 +63,7 @@ quiz:
     answer: 1
     explain: >-
       They answer different questions, and how somebody experiences and describes their attention is
-      a real thing with real consequences even when a task in a quiet room shows nothing. The
-      measurement approach did moderate the result, which rules out the last option. Performance
+      a real thing with real consequences even when a task in a quiet room shows nothing. The measurement approach did moderate the result, so the two halves did differ. Performance
       measures are the more direct of the two here. And the media multitasking index is only one
       half of what varies.
   - q: >-
@@ -85,11 +84,11 @@ quiz:
       A student is deciding whether to write an essay arguing that this question is now settled.
       What would the meta-analysts themselves tell her?
     options:
-      - That ten years on, the picture is not more transparent and we are no closer
       - That the original finding has been overturned and the question is now settled
       - That media multitasking is harmful, though by a smaller margin than first reported
+      - That ten years on, the picture is not more transparent and we are no closer
       - That the question cannot be answered until better performance measures exist
-    answer: 0
+    answer: 2
     explain: >-
       Their closing paragraph says exactly that, while also noting that studies using a different
       measurement approach have consistently supported an association with everyday executive

@@ -16,9 +16,9 @@ quiz:
     options:
       - More time, at about twenty-three minutes against about twenty for no interruptions
       - The same, since the time lost to the interruption was recovered afterwards each time
-      - Less time, at about twenty minutes against about twenty-three for no interruptions
       - It varied by interruption type, with the same-topic condition much the faster of the two
-    answer: 2
+      - Less time, at about twenty minutes against about twenty-three for no interruptions
+    answer: 3
     explain: >-
       Twenty-two point seven seven minutes uninterrupted, against twenty point three one and twenty
       point six zero for the two interruption conditions, which is the result that makes the
@@ -28,11 +28,11 @@ quiz:
       A hospital measures a clinic on appointments completed per session and on follow-up
       complaints. On this experiment, what would constant interruption do to those two numbers?
     options:
-      - Push complaints up while leaving the appointment count alone, as most people expect
       - Leave both looking acceptable, while the cost lands where nothing is measuring it
+      - Push complaints up while leaving the appointment count alone, as most people expect
       - Push both figures the wrong way, which is why interruption is worth managing at all
       - Push the appointment count down, which is the cost interruption is usually said to have
-    answer: 1
+    answer: 0
     explain: >-
       Interrupted tasks were finished faster with no difference in errors, so both of those measures
       would look acceptable or better while stress, frustration, time pressure and effort rose. The
@@ -43,10 +43,10 @@ quiz:
       already working on. What does this experiment say about that plan?
     options:
       - It should help a great deal, since same-topic interruptions proved much less costly
+      - Nothing supports it here, since same and different topics made no measured difference
       - It should help a little, since same-topic interruptions cost somewhat less time
       - It should make things worse, since same-topic interruptions compete for the same memory
-      - Nothing supports it here, since same and different topics made no measured difference
-    answer: 3
+    answer: 1
     explain: >-
       Whether the interruption matched the task was the question this study set out to answer, and
       it reports that context does not make a difference, on time or on any workload measure. Two of
@@ -55,11 +55,11 @@ quiz:
   - q: >-
       What did the experiment find had changed about the work itself under interruption?
     options:
-      - The emails were shorter, at about twenty-nine or thirty words against thirty-one
       - The emails contained rather more errors, though not enough to reach significance
       - The emails were rated as noticeably less polite by the people who assessed them
+      - The emails were shorter, at about twenty-nine or thirty words against thirty-one
       - The emails took longer to start, though they were written faster once begun
-    answer: 0
+    answer: 2
     explain: >-
       Average length fell from about thirty-one and a half words in the uninterrupted condition, and
       the authors offer it as part of why the task went faster: people wrote less. Errors and
@@ -69,11 +69,11 @@ quiz:
       A man says interruptions do not affect him, and points out that he gets through the same
       amount of work either way. What does this lesson let you say?
     options:
+      - That output is one measure of several, and this study found the cost in the others
       - That he is wrong, since the study shows interrupted work takes measurably longer
       - That he must be underestimating his own output, since interrupted work goes faster
-      - That output is one measure of several, and this study found the cost in the others
       - That his own experience is the best evidence available about his working day
-    answer: 2
+    answer: 0
     explain: >-
       His observation is consistent with the finding rather than against it, and the question is
       what else changed, which the experiment measured on a workload scale. Telling him the work
@@ -83,10 +83,10 @@ quiz:
       What is the most important limit on how far this experiment travels?
     options:
       - It was run in a laboratory, and no laboratory result tells you about real work
-      - Forty-eight mostly German students, a ninety-minute session, and an email task
       - The interruptions were delivered by a supervisor, which made them impossible to decline
       - It measured only subjective workload, which is a less reliable kind of measurement
-    answer: 1
+      - Forty-eight mostly German students, a ninety-minute session, and an email task
+    answer: 3
     explain: >-
       A small sample of students doing a short email task is the honest boundary, and nothing here
       bears on work that takes days. Dismissing all laboratory findings over-corrects and would

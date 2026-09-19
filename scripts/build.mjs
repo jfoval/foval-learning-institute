@@ -1049,6 +1049,34 @@ function checkAnswerSequences() {
         if (seqs[i][1] !== seqs[i - 1][1]) continue;
         warn.push(`${path.relative(ROOT, lessonsDir)}: ${seqs[i - 1][0].replace(/\.md$/, "")} and ${seqs[i][0].replace(/\.md$/, "")} have the same quiz answer sequence, ${seqs[i][1]}. A learner takes them one after the other and carries the key from the first into the second. Permute one of them.`);
       }
+
+      // Neighbours matching is the obvious failure and not the one that happened. Stage 4 on
+      // Memory found every lesson in the course carrying the cycle 0,2,1,3 started one position
+      // later than the lesson before, which is what /draft-lesson defect 16's "rotate the starting
+      // point by the lesson number" produces when it is followed mechanically. Neighbours never
+      // matched, so the check above passed on all six, and a reader who spotted the cycle in
+      // lesson 1 held the key to thirty items. Rotations of one cycle are what this looks for.
+      if (seqs.length >= 3) {
+        const rotationsOfFirst = new Set();
+        const first = seqs[0][1].split(",").map(Number);
+        const period = new Set(first).size;
+        if (period >= 2) {
+          for (let r = 0; r < period; r++) {
+            rotationsOfFirst.add(first.map((_, k) => first[(k + r) % first.length]).join(","));
+          }
+          // Build every rotation of the repeating unit rather than of the whole sequence, since a
+          // sequence of six built from a cycle of four is not a rotation of itself.
+          const unit = first.slice(0, period);
+          rotationsOfFirst.clear();
+          for (let r = 0; r < period; r++) {
+            const o = unit.slice(r).concat(unit.slice(0, r));
+            rotationsOfFirst.add(seqs[0][1].split(",").map((_, k) => o[k % period]).join(","));
+          }
+          if (seqs.every(s => rotationsOfFirst.has(s[1]))) {
+            warn.push(`${path.relative(ROOT, lessonsDir)}: all ${seqs.length} lessons' quiz answer sequences are rotations of one cycle (${unit.join(",")}). Neighbours differ, so the check above passes, and a reader who works the cycle out once has the key to every quiz in the course. Give each lesson its own irregular sequence.`);
+          }
+        }
+      }
     }
   }
 }

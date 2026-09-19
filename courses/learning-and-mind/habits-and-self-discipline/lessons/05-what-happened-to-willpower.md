@@ -16,11 +16,11 @@ quiz:
       A reader finds a meta-analysis of sixty published experiments on some other effect, and a
       later re-analysis of the same sixty reporting almost nothing. What should they suspect first?
     options:
-      - That correcting for small-study effects took the pooled estimate most of the way down
       - That the effect itself has weakened over the years, which does happen in psychology
+      - That correcting for small-study effects took the pooled estimate most of the way down
       - That the second team dropped the experiments whose results it happened to dislike
       - That newer experiments were added to the pool and returned much smaller results than those
-    answer: 0
+    answer: 1
     explain: >-
       Same published record, different handling of it, is the pattern this lesson's first step shows,
       and a re-analysis by definition works on studies that already exist rather than adding any.
@@ -31,11 +31,11 @@ quiz:
       Twenty-three laboratories ran the same protocol and the pooled estimate was d = 0.04, with a
       confidence interval from −0.07 to 0.15. What does that permit you to say?
     options:
+      - That this design at this size could not tell the effect apart from nothing
       - That the effect is zero, since the interval contains zero and the estimate is so tiny
       - That the effect exists but is small, since the estimate itself is above zero
-      - That this design at this size could not tell the effect apart from nothing
       - That the laboratories disagreed, since the interval spans positive and negative values
-    answer: 2
+    answer: 0
     explain: >-
       An interval containing zero means the data are compatible with no effect and with small
       effects in both directions, which is a statement about what this study could resolve rather
@@ -47,10 +47,10 @@ quiz:
       replication's own terms?
     options:
       - Nothing is wrong with it at all, since a null result across 23 laboratories must be conclusive
-      - It confuses the resource model with self-control itself, and the authors list their own limits
       - It ignores that the laboratories were not blinded to the hypothesis they were testing
+      - It confuses the resource model with self-control itself, and the authors list their own limits
       - It treats a preregistered study as being more reliable than the published literature
-    answer: 1
+    answer: 2
     explain: >-
       What was tested is one model of self-control in one paradigm, and the authors devote pages to
       what their protocol may not have done; the outcomes self-control predicts were never in
@@ -91,10 +91,10 @@ quiz:
       what the research says about it. What does this lesson let you tell her?
     options:
       - That the feeling is an illusion, since the resource it reports turned out not to exist
-      - That she is describing depletion, which 198 published experiments have established
       - That the feeling is real and what is contested is the account of what produces it
+      - That she is describing depletion, which 198 published experiments have established
       - That the afternoon effect is about falling glucose rather than about self-control
-    answer: 2
+    answer: 1
     explain: >-
       What the replication tested is a proposed mechanism, and lesson 6 is about the successor
       account, so the phenomenon she is reporting is not what lost its evidence. Calling her

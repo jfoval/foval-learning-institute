@@ -13,11 +13,11 @@ quiz:
   - q: >-
       What did the 2023 meta-analysis pool, and what did it find overall?
     options:
-      - 22 studies and 43 effects, with a small negative pooled effect of g = −0.14
       - 43 studies and 22 effects, with a moderate negative effect on attention throughout
+      - 22 studies and 43 effects, with a small negative pooled effect of g = −0.14
       - 22 studies, finding no pooled effect once the regional differences were accounted for
       - 118 assessments, which is the same literature the previous lesson was built on
-    answer: 0
+    answer: 1
     explain: >-
       Twenty-two studies yielding forty-three effects, pooled at g = −0.14 with an interval from
       −0.24 to −0.03, is the headline. The counts are the right way round in only one option. A
@@ -27,11 +27,11 @@ quiz:
       The pooled effect for the attention category was g = −0.07, with an interval from −0.21 to
       0.06. What does that permit?
     options:
+      - That this pooled evidence cannot tell an effect on attention apart from none
       - That phones impair attention slightly, since the estimate sits below zero
       - That phones have no effect on attention, which the interval demonstrates
-      - That this pooled evidence cannot tell an effect on attention apart from none
       - That the attention studies were far too few for any pooling to be meaningful
-    answer: 2
+    answer: 0
     explain: >-
       An interval running from below zero to above it leaves both small effects and no effect on the
       table, which is a statement about what the pooled evidence can resolve. Reading the point
@@ -42,10 +42,10 @@ quiz:
       is the disciplined reading of that?
     options:
       - The effect is real in Asia and absent elsewhere, which is what the figures show
-      - Something differs between these literatures, and the subgroup does not say what
       - The regional split is noise, since subgroup analyses find spurious patterns often
       - Cultural attitudes to phones explain it, which is why the Asian effect is larger
-    answer: 1
+      - Something differs between these literatures, and the subgroup does not say what
+    answer: 3
     explain: >-
       A subgroup analysis locates a difference and does not explain it, and the candidates include
       the populations, the tasks, the publication practices and chance. Reading it as a fact about
@@ -58,9 +58,9 @@ quiz:
     options:
       - Conclude the diet works short-term and then stops working, which is what the split shows
       - Ignore the split entirely, since subgroup analyses are unreliable and are best not reported
-      - Conclude the longer trials were underpowered, which is why they found nothing at all
       - Treat the split as locating a difference without explaining it, and ask what else differs
-    answer: 3
+      - Conclude the longer trials were underpowered, which is why they found nothing at all
+    answer: 2
     explain: >-
       A subgroup locates a difference and does not explain it, and duration, adherence, dropout and
       publication practice are all candidates before any claim about the diet itself. Reading the
@@ -84,15 +84,14 @@ quiz:
       outright?
     options:
       - That a preregistered replication is only one study, and failures can be flukes
-      - That the funnel plot showed no asymmetry, so publication bias is ruled out here
       - That a small pooled effect exists, and the authors themselves argue for caution
+      - That the funnel plot showed no asymmetry, so publication bias is ruled out here
       - That the effect was found in the original study, which used a large enough sample
-    answer: 2
+    answer: 1
     explain: >-
       g = −0.14 with an interval below zero is a real pooled finding, and the meta-analysts conclude
       in favour of caution about phones in classrooms, which a lesson quoting only the null results
-      would hide. The funnel-plot point is real and is weaker than it sounds. Single failed
-      replications are worth more than that first option allows. And the original study's sample is
+      would hide. The funnel-plot point is real and is weaker than it sounds. Calling a preregistered replication one study among many undersells it. And the original study's sample is
       not what makes the pooled case.
 ---
 

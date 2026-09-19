@@ -16,11 +16,11 @@ quiz:
       A study reports that people who use several devices at once are more distractible. What is the
       first thing this course says to ask about it?
     options:
-      - Which instrument produced the finding, a questionnaire or a task that counted something
       - How large the effect was, since a small effect is not worth changing anything over
+      - Which instrument produced the finding, a questionnaire or a task that counted something
       - Whether the study has ever been replicated, since a single result settles very little indeed
       - Who funded it, since attention research attracts money from the technology industry
-    answer: 0
+    answer: 1
     explain: >-
       Self-report and task performance are different instruments that give different answers in this
       literature, and lesson 4 is about a case where they disagree, so the instrument comes first.
@@ -44,11 +44,11 @@ quiz:
   - q: >-
       A man says his attention is worse than it was ten years ago. What can this course tell him?
     options:
-      - That he is right, since the evidence on devices and attention points that way
       - That nothing it read measures change inside one person over time, so it cannot say
+      - That he is right, since the evidence on devices and attention points that way
       - That he is wrong, because the pooled evidence on multitasking does not support it
       - That his self-report is the best available evidence, so his judgement should stand
-    answer: 1
+    answer: 0
     explain: >-
       No source in this course measures the same people years apart, so change within a person
       is not something any of them was built to detect, and that refusal is stated in lesson 1 and
@@ -72,11 +72,11 @@ quiz:
   - q: >-
       Which of these claims could this course support, on what it has read?
     options:
-      - That an interruption was measured to cost something other than time, in one experiment
       - That focused work is a skill that anybody can develop with the right daily practice
       - That the average person now has a shorter attention span than they did twenty years ago
+      - That an interruption was measured to cost something other than time, in one experiment
       - That putting your phone in another room will reliably improve how well you think
-    answer: 0
+    answer: 2
     explain: >-
       Lesson 2 is exactly that: a measured result, in one lab experiment, with its scope attached.
       The training claim is what lesson 6 finds no convincing far transfer for. The shorter-span
@@ -87,10 +87,10 @@ quiz:
       What does this course refuse to do, and why?
     options:
       - Discuss devices at all, because that particular debate is too charged to be useful here
-      - Cite any study run on students, because such samples cannot support general claims
       - Hand out a focus technique it cannot support, because the genre already supplies those
+      - Cite any study run on students, because such samples cannot support general claims
       - Take any position at all on a contested question, because the evidence is too weak
-    answer: 2
+    answer: 1
     explain: >-
       Two lessons are about devices and both take the evidence seriously. Student samples are used
       throughout, with their scope stated. And the course does take positions where the evidence

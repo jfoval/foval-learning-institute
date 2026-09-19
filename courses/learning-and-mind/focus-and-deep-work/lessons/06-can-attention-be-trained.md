@@ -18,9 +18,9 @@ quiz:
     options:
       - Intermediate transfer, since the game taxes the same system as other tasks would
       - Far transfer, since a general capacity must have improved for the score to rise
-      - Near transfer, which is improvement on the trained task or one very like it
       - None, because improvement on a practised task is not a form of transfer at all
-    answer: 2
+      - Near transfer, which is improvement on the trained task or one very like it
+    answer: 3
     explain: >-
       Getting better at the thing you practised is near transfer, and it is the level the
       meta-analysis describes as specific training effects that do not generalise. Intermediate
@@ -32,10 +32,10 @@ quiz:
       rise reliably. What does this literature say the school should ask next?
     options:
       - Whether the rise is statistically significant, which a score claim has to show
-      - Whether the scores rose faster than in another programme run for the same hours
       - Whether the exercises are enjoyable, since compliance is what makes training work
+      - Whether the scores rose faster than in another programme run for the same hours
       - Whether the programme runs long enough for the gains to consolidate properly
-    answer: 1
+    answer: 2
     explain: >-
       A treated control, doing something else for the same hours, is what the far-transfer question
       turned on across 145 comparisons, and without one a rise measures expectation and practice as
@@ -46,10 +46,10 @@ quiz:
       Why does the phrase "treated control condition" matter so much here?
     options:
       - Because it means the control group received a real clinical treatment as well as it
+      - Because comparing training against nothing measures expectation as well as training
       - Because treated controls are cheaper to recruit, so those studies are much larger
       - Because it is the standard that the training industry itself asked researchers for
-      - Because comparing training against nothing measures expectation as well as training
-    answer: 3
+    answer: 1
     explain: >-
       A group that does something else controls for the expectation of improvement, the attention
       from researchers and the practice at being tested, none of which a do-nothing group controls
@@ -87,10 +87,10 @@ quiz:
       course's own judgement?
     options:
       - That an hour is the right length for a block of demanding work of this kind
-      - That a reliable context is what an association needs, which Habits lesson 3 measured
       - That the hour should be the same hour each day rather than a different one
       - That the phone should be in another room throughout the hour, which lesson 5 supports
-    answer: 1
+      - That a reliable context is what an association needs, which Habits lesson 3 measured
+    answer: 3
     explain: >-
       The cue and its reliability are the best-evidenced practical thing in the term, from two field
       experiments, and the lesson cites them. The length of the block and the choice of a fixed hour

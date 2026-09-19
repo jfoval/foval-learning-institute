@@ -30,10 +30,10 @@ quiz:
       Why do the proposers say their account is worth having, even though it is less tidy?
     options:
       - Because elegance in a theory is generally a sign that something has been left out
-      - Because it gives a more precise picture, and makes predictions a metaphor cannot
       - Because it can be stated without any reference to the experiments that prompted it
       - Because it has already been confirmed by evidence the resource model could not explain
-    answer: 1
+      - Because it gives a more precise picture, and makes predictions a metaphor cannot
+    answer: 3
     explain: >-
       They say in terms that the model may sacrifice the elegance of the resource metaphor and
       paints a more precise picture, with specific predictions that can be put to a test. Treating
@@ -46,10 +46,10 @@ quiz:
       need. How would the two accounts describe this differently?
     options:
       - The resource account says that she ran out; the process account says she has a weaker trait
+      - The resource account says she ran out; the process account says what she wanted shifted
       - Both say the same thing in different words, so no case at all can tell them apart
       - The process account says that she was never trying, which the resource account denies
-      - The resource account says she ran out; the process account says what she wanted shifted
-    answer: 3
+    answer: 1
     explain: >-
       One says capacity was spent, the other says her motivation turned towards what was rewarding
       and her attention followed it, which is a difference about what changed rather than about how
@@ -78,9 +78,9 @@ quiz:
     options:
       - Yes, since motivation is another word for effort, and effort is a choice a person makes
       - Yes, which is partly why the resource account remains the more useful one in practice
-      - No, because the shift is described as something that happens to a person, not a decision
       - No, because the account says nothing at all about motivation, only about where attention goes
-    answer: 2
+      - No, because the shift is described as something that happens to a person, not a decision
+    answer: 3
     explain: >-
       The account describes motivation and attention moving in response to prior exertion, which is
       a mechanism rather than a verdict on the person, and it pairs the shift with attention rather
@@ -91,10 +91,10 @@ quiz:
       What does this lesson say a reader should conclude about which account is right?
     options:
       - The process account, since the resource account failed its replication outright
-      - That the phenomenon is better attested than either explanation of it currently is
       - That the question is unanswerable, since both describe the same feeling differently
+      - That the phenomenon is better attested than either explanation of it currently is
       - The resource account, since it is simpler and simplicity is the better guide
-    answer: 1
+    answer: 2
     explain: >-
       Things do feel harder after a hard morning, and both accounts are attempts to say why; the
       resource one has lost most of its evidence and the process one is a proposal whose authors say

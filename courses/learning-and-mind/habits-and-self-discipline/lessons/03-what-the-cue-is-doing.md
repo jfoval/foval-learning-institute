@@ -15,11 +15,11 @@ quiz:
       Habitual popcorn eaters at a cinema ate the same amount of stale popcorn as fresh. What does
       that tell you about them?
     options:
-      - That they could not tell the difference, since the staleness was not detectable
       - That their hunger and their liking were not what was driving how much they ate
+      - That they could not tell the difference, since the staleness was not detectable
       - That they liked stale popcorn more than people who were not habitual eaters did
       - That habitual eaters eat more in general than people without the habit do
-    answer: 1
+    answer: 0
     explain: >-
       The whole point of the freshness manipulation is that their consumption tracked neither how
       hungry they were nor how much they liked it, which is what a response cued by a context looks
@@ -32,9 +32,9 @@ quiz:
     options:
       - It made the food harder to enjoy, so they ate less of it whether it was stale or fresh
       - It reminded them that they were being studied, which made them eat rather more carefully
-      - It slowed them down, so they ate less in the time that the film trailers lasted
       - It stopped the response running off automatically, so their liking could guide them again
-    answer: 3
+      - It slowed them down, so they ate less in the time that the film trailers lasted
+    answer: 2
     explain: >-
       The manipulation targets the execution rather than the food or the setting: a response that
       cannot be performed the way it always has been comes back under intentional control, and with
@@ -45,11 +45,11 @@ quiz:
       A woman who has read on the same commuter train for six years moves to a job she walks to,
       and finds she no longer wants to read in the morning. What does this lesson say is going on?
     options:
-      - The cue has gone, and the association needs the context to fire even though it survives
       - He has broken the habit, which shows that habits fade once a person has stopped feeding them
       - His motivation has changed, since working from home is much less stressful than an office
       - The habit was weaker than he thought, since a strong one would have followed him home
-    answer: 0
+      - The cue has gone, and the association needs the context to fire even though it survives
+    answer: 3
     explain: >-
       The association is between a context and a response, so removing the context removes the
       trigger without touching what was learned, which is why the pull often returns on the first
@@ -60,10 +60,10 @@ quiz:
       Which of these is the best cue for a habit you want to build?
     options:
       - When I am feeling motivated in the evening, then I will write in the notebook for a page
-      - When I get a quiet moment at some point in the day, then I will write a page in the notebook
       - When I have put the kettle on in the morning, then I will write a page in the notebook
+      - When I get a quiet moment at some point in the day, then I will write a page in the notebook
       - When I am not too tired after work, then I will write a page in the notebook that evening
-    answer: 2
+    answer: 1
     explain: >-
       A cue has to be a context you meet reliably and cannot miss, and putting the kettle on is an
       event that happens at the same place and time nearly every day. Feeling motivated and not
@@ -73,10 +73,10 @@ quiz:
       Why does this lesson say the popcorn result is not a story about weak-willed people?
     options:
       - Because the participants were students, who are not representative of adults generally
-      - Because the same people ate much less stale popcorn once they were out of the cinema
       - Because the amounts eaten were small, so nothing much was at stake either way
+      - Because the same people ate much less stale popcorn once they were out of the cinema
       - Because the study measured eating rather than a behaviour anybody would call a vice
-    answer: 1
+    answer: 2
     explain: >-
       Nothing about their character changed between the cinema and the meeting room; the context
       did, and their behaviour followed it, which locates the cause outside the person. The student
@@ -85,11 +85,11 @@ quiz:
   - q: >-
       A woman picks a good cue and the behaviour still does not happen. What does this lesson say?
     options:
+      - A cue is half of it, and the response has to be something she can actually do then
       - The cue must be wrong, since a cue that fires reliably will produce the behaviour
       - She has not yet repeated it enough times for the association to have been built at all
       - The behaviour is one she does not really want, which no cue will fix for her
-      - A cue is half of it, and the response has to be something she can actually do then
-    answer: 3
+    answer: 0
     explain: >-
       A cue can arrive faithfully at a moment when the response is impossible, which is a fault in
       the pairing rather than in either half; a cue at the school gates is no use for a behaviour

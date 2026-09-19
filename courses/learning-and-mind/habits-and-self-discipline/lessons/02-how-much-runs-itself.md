@@ -17,10 +17,10 @@ quiz:
       actually report?
     options:
       - That 43 percent of behaviours were habitual, across two studies that agreed closely
-      - That habits made up 43 percent of the waking day, measured by observers over two days
       - Between a third and a half, with 43 percent in one study and 35 percent in the other
+      - That habits made up 43 percent of the waking day, measured by observers over two days
       - That 43 percent of behaviours were automatic, on a nationally representative sample
-    answer: 2
+    answer: 1
     explain: >-
       The paper's own sentence gives a range and then two figures, and the 43 is the higher of them;
       the authors explain the gap rather than averaging it away. The agreed-closely answer is what
@@ -30,10 +30,10 @@ quiz:
       Why did the second study return a higher figure than the first, on the authors' own account?
     options:
       - Because it ran for two days rather than just one, which gave habits more chance to appear
-      - Because it let participants list several behaviours at once, so more habitual ones got in
       - Because its participants happened to be more habitual, having been recruited a year later
       - Because it used a rather looser criterion for what counted as a habitual behaviour
-    answer: 1
+      - Because it let participants list several behaviours at once, so more habitual ones got in
+    answer: 3
     explain: >-
       Reports limited to one behaviour an hour tend to catch the one that needed attention, so
       allowing several lets the automatic ones be recorded too; the authors designed the second
@@ -46,9 +46,9 @@ quiz:
     options:
       - That she is less habitual than most other people, since the published figure is higher
       - That her count must be wrong, because the published range begins at a third
-      - That 30 percent of her waking hours are spent on behaviour that is automatic
       - That her day differs from the studies', which may be her or may be how she listed
-    answer: 3
+      - That 30 percent of her waking hours are spent on behaviour that is automatic
+    answer: 2
     explain: >-
       A count of behaviours is not a count of hours, and her figure depends as much on how finely
       she listed as on how she lives, which is the lesson's whole point about the criterion. Reading
@@ -74,9 +74,9 @@ quiz:
     options:
       - Work and study behaviours, because those are performed to a fairly fixed timetable
       - Eating and drinking, which happen more times a day than anything else listed
-      - Hygiene and appearance, and sleeping and waking, which run to the same place and time
       - Social interaction, since it is performed with the same people in the same places
-    answer: 2
+      - Hygiene and appearance, and sleeping and waking, which run to the same place and time
+    answer: 3
     explain: >-
       Those are the behaviours most reliably tied to one place and one moment, which is what the
       criterion asks for, and they are the ones the paper names. Work and study run to a timetable

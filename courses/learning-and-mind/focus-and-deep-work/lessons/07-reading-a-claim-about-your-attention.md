@@ -15,11 +15,11 @@ quiz:
       "Deep work is the ability to focus without distraction on a cognitively demanding task." Sort
       that.
     options:
-      - Measurable, since focus without distraction is what a continuous performance task counts
       - Unmeasurable as stated, because it names no criterion for when the ability is present
+      - Measurable, since focus without distraction is what a continuous performance task counts
       - False, since the pooled evidence shows no such general ability can be demonstrated
       - Two claims, one about focus and one about the demands of the task being performed
-    answer: 1
+    answer: 0
     explain: >-
       It is a definition rather than a finding, and nothing in it says how you would tell somebody
       who has the ability from somebody who merely did the task, which is what a criterion supplies.
@@ -43,11 +43,11 @@ quiz:
       A colleague reports that her attention is much worse than five years ago. What does this
       course say about that report?
     options:
-      - It is a real report of her experience, and not a measurement of change over time
       - It is unreliable, since self-reports of attention diverge from the task measures
+      - It is a real report of her experience, and not a measurement of change over time
       - It is the best evidence available, since nobody else has watched her work
       - It is probably accurate, since the evidence on devices supports the direction
-    answer: 0
+    answer: 1
     explain: >-
       Her report is the kind of evidence the self-report half of lesson 4's literature is built on,
       and it is still not a measurement of the same person on the same instrument years apart.
@@ -71,10 +71,10 @@ quiz:
       no change. What does this lesson say the disagreement is really about?
     options:
       - The logs settle it, since a count is the more direct of the two instruments here
-      - Two instruments answering different questions, so say which one is in dispute
       - Nothing can be said, since personal experience cannot be argued with either way
       - It needs a third measurement, which is what resolves a disagreement like this one
-    answer: 1
+      - Two instruments answering different questions, so say which one is in dispute
+    answer: 3
     explain: >-
       Her report and the logs are two instruments answering different questions, and the useful move
       is to say which of the two anybody is disputing before disagreeing. Treating the logs as
@@ -83,11 +83,11 @@ quiz:
   - q: >-
       What is this course's main refusal, and why does it hold?
     options:
+      - That it cannot say whether your attention has got worse, since nothing measured change
       - That it will not name any of the trade books, since it has assessed none of them
       - That it will not recommend a technique, since no evidence supports any of them
       - That it cannot say anything at all about devices, since that literature is too contested
-      - That it cannot say whether your attention has got worse, since nothing measured change
-    answer: 3
+    answer: 0
     explain: >-
       Every source here is a single session or a snapshot of different people, so change within a
       person is outside what any of them was built to detect. The trade books are named. Lesson 6

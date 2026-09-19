@@ -28,11 +28,11 @@ quiz:
   - q: >-
       A woman doing a daily habit misses one day in week three. What does the evidence say happens?
     options:
-      - Nothing serious, since gains resumed after one missed performance in the study that looked
       - The association weakens measurably, which is why consecutive days are so often recommended
+      - Nothing serious, since gains resumed after one missed performance in the study that looked
       - She returns to roughly where she started, and her count of days begins again from there
       - It depends entirely on how strong the habit had become before she missed it
-    answer: 0
+    answer: 1
     explain: >-
       Missing the occasional opportunity did not seriously impair the process, and automaticity
       gains soon resumed, which is the single most useful and least repeated finding here. Starting
@@ -41,11 +41,11 @@ quiz:
   - q: >-
       Why does this lesson say counting days is the wrong way to think about habit formation?
     options:
+      - Because a day on which you did not do it is still a day, so days overstate repetitions
       - Because habits form at quite different rates, so no count of days can apply to everybody
       - Because the study measured weeks rather than days, so the daily figure is a conversion
-      - Because a day on which you did not do it is still a day, so days overstate repetitions
       - Because automaticity was only rated weekly, so daily resolution was never available
-    answer: 2
+    answer: 0
     explain: >-
       What builds the association is the pairing of cue and response, and elapsed time only tracks
       that if nothing is ever missed; the methods guidance says in terms not to infer effects of
@@ -55,10 +55,10 @@ quiz:
       Where does the claim that a habit takes twenty-one days come from?
     options:
       - An early habit-formation study that later work with better methods has superseded
-      - A 1960 book by a plastic surgeon, about how long patients took to adjust to a new face
       - A misreading of the 66-day study, in which 21 days was the fastest time it recorded
+      - A 1960 book by a plastic surgeon, about how long patients took to adjust to a new face
       - A training programme that reported its results but never published its methods
-    answer: 1
+    answer: 2
     explain: >-
       It is an observation from a self-help book, and the words reported are "a minimum of about 21
       days", with the qualifier lost along the way. No study produced it, so there is nothing for
@@ -70,10 +70,10 @@ quiz:
       other 22. What does the research let you say about them?
     options:
       - Both have had eight weeks, so both of them should be near the plateau by now
+      - The first has had more than twice the repetitions, and repetitions are what build it
       - Neither can be assessed, because the study reported averages rather than individuals
       - The second has missed too often for the association to have built at all yet
-      - The first has had more than twice the repetitions, and repetitions are what build it
-    answer: 3
+    answer: 1
     explain: >-
       The pairing of cue and response is the thing that accumulates, so two identical stretches of
       calendar can contain very different amounts of learning. The eight-weeks answer is exactly
@@ -83,11 +83,11 @@ quiz:
   - q: >-
       On the curve the study reported, when do the largest gains in automaticity happen?
     options:
-      - Early, with later repetitions adding progressively less as it approaches a plateau
       - Steadily throughout, since each repetition contributes about the same amount
       - Late, once enough repetitions have accumulated for the association to consolidate
       - At no consistent point, since the shape varied too much between individuals to describe
-    answer: 0
+      - Early, with later repetitions adding progressively less as it approaches a plateau
+    answer: 3
     explain: >-
       An asymptotic rise means the early repetitions buy the most and the curve flattens towards its
       plateau, which is why the first fortnight feels like more progress than the sixth. Even

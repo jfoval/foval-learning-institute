@@ -17,11 +17,11 @@ quiz:
       Tuesdays, sometimes decides not to, and goes about three weeks in four. Is this a habit in the
       sense the research uses?
     options:
-      - No, because she is deciding each time, and the decision is what a habit removes
       - Yes, because three years of near-weekly repetition is what the word means
       - Yes, because the cue is Tuesday evening and the cue is what makes a habit
+      - No, because she is deciding each time, and the decision is what a habit removes
       - No, because three weeks in four is not frequent enough to have become automatic
-    answer: 0
+    answer: 2
     explain: >-
       The research definition turns on the behaviour being triggered automatically by a context, and
       she is consulting herself about it every week. The frequency answer is the everyday sense of
@@ -32,11 +32,11 @@ quiz:
       A man finds himself checking his phone whenever he sits down on the bus, and often cannot say
       afterwards what he looked at. He would rather not do it. What does the definition say?
     options:
+      - It is a habit, and the definition has no view on whether he wants it
       - It is not a habit, since a habit is something you have deliberately built
       - It is a habit only if he has done it long enough for it to be learned
-      - It is a habit, and the definition has no view on whether he wants it
       - It is not a habit, because he is aware of it and wants to stop
-    answer: 2
+    answer: 0
     explain: >-
       A context, a response that runs off without a decision, and no memory of deciding: that is the
       definition met, and nothing in it is about the behaviour being welcome. The built answer
