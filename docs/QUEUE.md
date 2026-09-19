@@ -86,6 +86,18 @@ Rewrite these five lines each session. Nothing else goes in this block.
   `research/OUTLINE.md` specifies it in full under "Project: the notes you went back to". **Write it
   before lesson 7.**
 
+- **Nothing in the repo can see cross-course cloning, and one closing lesson was written as
+  another's rewrite.** Note-Taking lesson 8 came back from Stage 4 with 23 ten-word runs shared with
+  Memory lesson 7, whole sections cloned clause for clause, every automated check green. The cause
+  is structural: each "reading a claim about your X" lesson is drafted against its predecessor's
+  shape, so the drafter has the previous text in context and the reviewer has no tool. The lesson
+  was rewritten and is down to one shared ten-gram. **The check worth writing is a repo-wide n-gram
+  diff between a course's closing lesson and the closing lessons of the courses before it**, and by
+  extension between any two lessons in different courses. `npm run validate`'s repetition warning is
+  per-course and cannot be widened cheaply, because legitimate overlap across courses includes every
+  citation string and every standing convention, so this needs the quoted-material and
+  convention-stripping treatment the 25-word duplicate check already has.
+
 - **Thirty-five lessons across eight courses put every link in Go deeper and Sources**, with none
   in the teaching prose where the source is quoted. Found by a new `npm run validate` warning on
   2026-09-19 and written up here rather than fixed, under root rule 9. The check exists because
