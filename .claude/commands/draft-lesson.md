@@ -145,6 +145,16 @@ Confirmed across seventeen lessons in two courses, then again in every course si
     `(body.match(/\*\*[^*]+\*\*/g)||[]).length` over body words, times a thousand, and anything
     over 25 needs a cut before the lesson is handed over.
 
+25. **The two defects that come from editing a draft, not from writing it.** Measured on
+    2026-09-19, when two Stage 4 reviewers found one each by eye in the same afternoon.
+    **An unbalanced `**` run renders as literal asterisks** and the emphasis disappears. Every one
+    of the fourteen a repo-wide scan then found came from a scripted bold-density cut that took one
+    span out of a pair, or from wrapping a span that was already wrapped. `npm run validate` now
+    fails on it. **And a quiz key that no longer matches its explanation**: two items in one lesson
+    had keys their own explanations refuted, after the options had been reordered. Nothing catches
+    that, so **after any edit to a quiz, read each explanation against the option its key now
+    selects.** Both defects are invisible in the diff and obvious on the page.
+
 24. **A quotation that nobody wrote, in quotation marks, attributed, with a source marker.**
     Measured on 2026-09-19. Memory lesson 5 printed a passage about exonerating the innocent and
     convicting the guilty as the authors' own words, carrying a `[1]`, in the section titled "The
