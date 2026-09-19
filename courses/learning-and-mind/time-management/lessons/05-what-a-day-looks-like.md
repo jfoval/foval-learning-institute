@@ -277,8 +277,8 @@ The 2008 experiment is the honest answer to the question the twenty-three minute
 answer, and the first thing to say about it is what it was.[2]
 
 Forty-eight subjects, 81 percent of them German university students with a mean age of 26,
-answering twelve simulated emails as a fictional human resources manager, interrupted every two to
-five minutes by the experimenter, by telephone or instant message, and paid twelve euros. A
+answering twelve simulated emails as a fictional human resources manager, interrupted every two minutes by the experimenter, by telephone or instant message, and paid twelve
+euros. A
 laboratory task of twelve emails. **It is not a study of a working day** and this lesson
 isn't going to let it be read as one.
 
