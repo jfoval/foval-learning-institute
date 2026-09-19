@@ -1,6 +1,6 @@
 # Sources: Note-Taking and Personal Knowledge
 
-<!-- unread: Ahrens, Forte, Luhmann, Buzan -->
+<!-- unread: Ahrens (except 08), Forte (except 08), Luhmann (except 07 08), Buzan (except 08) -->
 
 *Stage 1 research, 2026-09-19. Written before any lesson is drafted. For each source: what it is
 good for and what it establishes. Where a passage is quoted below it was read in the original and
@@ -10,8 +10,12 @@ checked character by character; where it was not, the entry says so.*
 Forte's *Building a Second Brain*, Niklas Luhmann's own writing about his card index, and Tony
 Buzan on mind mapping are the four things a reader arriving at this course will already have met.
 **None was opened for this course**, and a lesson may name them as things that exist and must not
-cite one for a claim. The closing lesson will be exempted on that line in the form Memory lesson 7
-was, so that it can name them and say the course read none of them.
+cite one for a claim. **Lesson 8 is exempted on the line above for all four**, in the form Memory
+lesson 7 was, so that it can name them and say the course read none of them. **Lesson 7 is exempted
+for Luhmann only**, because the case the advice literature makes for itself rests on his card index
+and a lesson describing that case has to say whose it was; it cites him for nothing, and the
+exemption keys to the lesson number rather than to the sentence, so a reviewer still has to check by
+eye.
 
 ---
 
@@ -88,7 +92,7 @@ record (PMID 24760141). The paper itself was not opened.**
 
 ## 2. The direct replication
 
-**Heather L. Urry and 86 colleagues, "Don't Ditch the Laptop Just Yet: A Direct Replication of
+**Heather L. Urry and 87 colleagues, "Don't Ditch the Laptop Just Yet: A Direct Replication of
 Mueller and Oppenheimer's (2014) Study 1 Plus Mini Meta-Analyses Across Similar Studies",
 *Psychological Science* 32(3), 2021, pp. 326 to 339, doi 10.1177/0956797620965541, PMID 33539228.**
 **Read in part on 2026-09-19: the abstract verbatim, from the PubMed record. The paper was not
@@ -110,8 +114,11 @@ opened.**
   original reported. They simply did not do worse on the quiz. **A lesson that reports this as
   "the study failed to replicate" is wrong about which half failed.**
 - **The paper's authorship is itself worth a sentence.** It is Heather Urry and her entire research
-  methods class at Tufts, 87 authors. **That is a real fact about how this replication was
-  produced** and a lesson may use it, from this record.
+methods class at Tufts, **88 authors in total**, counted from the record on 2026-09-19 after a
+Stage 4 review found this entry and a lesson both saying 87. The record gives four distinct
+affiliation markers, so "her class" is the research file's shorthand rather than the record's
+statement, and a lesson should not say more than that about who they were. **The record's keyword line is worth having too**: "laptop; longhand; note taking; open data;
+  open materials; preregistered". **That is a real fact about how this replication was produced** and a lesson may use it, from this record.
 - **The word-count finding cuts against the course's own instinct**: higher word count was
   associated with *better* quiz performance in both the original and the replication. The verbatim
   finding, which is Mueller and Oppenheimer's proposed mechanism, "was not robust in our

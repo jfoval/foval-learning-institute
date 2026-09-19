@@ -20,21 +20,24 @@ quiz:
     answer: 2
     explain: >-
       Laptop participants did take notes with more words and more verbatim overlap, exactly as the
-      original reported, and they simply did not do worse on the quiz. An opposite result is a
+      original reported, and the replication reports no longhand advantage on the quiz. An opposite result is a
       different thing from no difference. The replication reports 74 and 68 participants. And
       nothing in what this course read says the materials differed.
   - q: >-
-      In both the original study and the replication, what was higher word count associated with?
+      A trial of a new tutoring programme finds that tutored students ask more questions in class,
+      and that their grades are no different from the control group's. What is the strongest
+      follow-up question?
     options:
-      - Worse quiz performance, which is what the proposed mechanism predicts
-      - No difference in quiz performance either way, in both studies
-      - Worse performance in the original and better in the replication
-      - Better quiz performance, in both the original and the replication
+      - Whether the tutors were following the programme as it was written
+      - Whether the control group was given anything at all to do during the trial
+      - Whether the grades were measured soon enough after the tutoring ended
+      - Whether asking more questions buys anything, which the trial did not show
     answer: 3
     explain: >-
-      The replication's abstract says so in terms, and says it held in the original too, which is
-      awkward for any account that treats writing more as the problem. The verbatim association
-      pointed the other way and was not robust in the replication.
+      The programme did what it was designed to do to the behaviour, and the step from that to the
+      grades is the one the trial leaves open, which is this lesson's shape. Fidelity, an untreated
+      control and timing are all real follow-ups and all of them assume the step the trial has not
+      established.
   - q: >-
       A company's internal study finds that its new onboarding process produces more documented
       steps per new hire, but no difference in how quickly they become productive. Which half of
@@ -56,13 +59,13 @@ quiz:
       - That longhand is better, but only once notes have been studied
       - That typing is better for factual questions and longhand for conceptual ones
       - That concluding either way seems premature on the available evidence
-      - That the question cannot be settled, because the two media differ in far too many ways
+      - That the question cannot be settled, since the media differ too much
     answer: 2
     explain: >-
       "Premature" is their own word, and it is a statement about the state of the evidence rather
       than about the question being unanswerable. Their abstract reports group differences
-      decreasing after notes were studied, not a longhand advantage appearing. And no split by
-      question type appears in what this course read.
+      decreasing after notes were studied, not a longhand advantage appearing. And the only split by question type this course has is at summary level, from a write-up rather
+      than the paper, so this lesson does not rest on it.
   - q: >-
       Somebody proposes that a new reading technique works because it forces you to summarise. What
       would a replication of the mechanism, as opposed to the outcome, look like?
@@ -98,10 +101,11 @@ This lesson is what happened when two teams went and checked.
 
 ## The direct replication
 
-In 2021, a team published a direct replication of the first of the three studies.[1] **This course
-read its abstract and did not open the paper.**
+In 2021, Heather Urry and her research-methods class published [a direct
+replication](https://doi.org/10.1177/0956797620965541) of the first of the three studies.[1]
+**This course read its abstract and did not open the paper.**
 
-Their abstract, quoted in full, because it is the whole of what this course has:[1]
+Their abstract, in full, because it is all this course has:[1]
 
 > In this direct replication of Mueller and Oppenheimer's (2014) Study 1, participants watched a
 > lecture while taking notes with a laptop (n = 74) or longhand (n = 68). After a brief distraction
@@ -115,27 +119,37 @@ Their abstract, quoted in full, because it is the whole of what this course has:
 > not support the idea that longhand note taking improves immediate learning via better encoding of
 > information.
 
+Both replications are the same population as lesson 3's: students, one recorded lecture, a quiz
+soon afterwards.[1][2]
+
 Read the third sentence and then the fourth, because between them they are the lesson.
 
-**"As in the original study, laptop participants took notes containing more words spoken verbatim by
-the lecturer and more words overall."** That is the mechanism, and it replicated.
+**"As in the original study, laptop participants took notes containing more words spoken verbatim
+by the lecturer and more words overall than did longhand participants."** That is the mechanism,
+and it replicated.
 
 **"However, laptop participants did not perform better than longhand participants on the quiz."**
 That is the outcome, and it did not.
+
+Read that sentence carefully, because it is phrased oddly: the original's claim was that laptops do
+*worse*, and this says only that they did not do *better*. The sentence that closes the gap is the
+abstract's last one: "results do not support the idea that longhand note taking improves immediate
+learning via better encoding of information".[1]
 
 ## Why "it failed to replicate" is the wrong sentence
 
 You'll hear this study described as a failed replication, and the description throws away the
 interesting part.
 
-A claim of this shape has two components. **The mechanism** is what the intervention does to the
-thing in the middle: here, what typing does to the notes. **The outcome** is what that is supposed
+A claim of this shape has two components, and **this split is this course's way of putting it**,
+not a division either team makes.[3] **The mechanism** is what the intervention does to the thing
+in the middle: here, what typing does to the notes. **The outcome** is what that is supposed
 to cost or buy: here, what it does to the test score.
 
 A replication can confirm one and not the other, and when it does, **the claim is in a more
 interesting state than either "confirmed" or "refuted"**.[3] The thing typists were supposed to do
-to their notes, they did, twice, in two labs, with hundreds of people between them. The cost that
-was supposed to follow from it did not show up.
+to their notes, they did, in a replication of a hundred and forty-two people.[1] The cost that was
+supposed to follow from it did not show up.
 
 So the live question moves. It's no longer "do typists transcribe?" It's "does transcribing cost
 anything?", and that's a narrower and more answerable question than the one everybody was arguing
@@ -177,14 +191,27 @@ by watching.
 The outcome is the errors. A replication of it asks: with the checklist, are there fewer errors?
 That is a question about results and you answer it by counting.
 
-Four things can happen and all four are informative.
+:::predict Before the list. Two of the four combinations are easy to read: both replicate, or neither does. What would it mean if the outcome replicated and the mechanism did not?
+It means the thing works and not for the reason given, and it is the case people find hardest to
+accept.
+
+**Nobody is disputing the result in that case.** The intervention did what it was supposed to do to
+the outcome. What failed is the account of how, which is the part everybody quotes.
+
+**Write down a claim you believe where that might be true**, before you read the list. It is a more
+uncomfortable exercise than it sounds.
+:::
+
+Four things can happen and all four are informative, and **this four-way sort is the course's
+own**.[3]
 
 1. **Both replicate.** The claim stands as stated.
 2. **Neither replicates.** The original result is in trouble.
-3. **The mechanism replicates and the outcome does not.** The intervention does what it was supposed
-   to do and the benefit doesn't follow. **This is the case this lesson is about.** 4. **The outcome
-   replicates and the mechanism does not.** The checklist helps and not for the reason given, which
-   is the commonest state of affairs in applied research and the one people find hardest to accept.
+3. **The mechanism replicates and the outcome does not.** The intervention does what it was
+   supposed to do and the benefit doesn't follow. **This is the case this lesson is about.**
+4. **The outcome replicates and the mechanism does not.** The checklist helps and not for the
+   reason given. **This course has not read anything that counts how often that happens**, and it
+   is the case people find hardest to accept.
 
 Notice what case 3 doesn't license. It does not say the checklist is useless: it says the route from
 the checklist to the errors is not the route that was described. And it does not say the original
@@ -193,8 +220,9 @@ a discussion section is for.
 
 ## The replication that added a condition
 
-A second team replicated the original and extended it, and their extension is the more useful
-contribution.[2] **This course read their abstract and not the paper.**
+Kayla Morehead, John Dunlosky and Katherine Rawson replicated the original and extended it, and
+the extension is the part this course finds most useful, which is a judgement rather than anything
+they claim.[2] **This course read their abstract and not the paper.**
 
 In their words: "We conducted a direct replication of Mueller and Oppenheimer (2014) and extended
 their work by including groups who took notes using eWriters and who did not take notes."[2]
@@ -213,11 +241,12 @@ unanswerable. It says the evidence in 2019 was not enough to answer it, which is
 the state of a literature rather than about the world. Lesson 5 is what that literature looked like
 once somebody pooled it.
 
-:::checkpoint Two teams checked the most famous study in this subject, and neither found the effect everybody repeats. Why is this course not simply telling you the original was wrong?
+:::checkpoint Two teams checked the most famous study in this subject, and neither found the effect everybody repeats clearly: one reports some trends favouring longhand and no consistent difference, the other no longhand advantage at all. Why is this course not simply telling you the original was wrong?
 Because that isn't what happened, and getting this right is worth more than the finding.
 
-The original reported something real. Two teams found the note-taking difference it reported,
-at the sizes it reported. Nobody is disputing that typists transcribe more.
+The original reported something real. One team measured the note-taking difference it reported and
+found it. Neither abstract gives a size, and this course did not open either paper. Nothing this
+course read disputes that typists transcribe more.
 
 What did not travel is the step from there to the test score, in an immediate test, with no
 opportunity to study. That is a specific condition and both replications used it, because a direct
@@ -226,7 +255,8 @@ replication has to.
 So the honest sentence is narrow. Under the original's own conditions, the note-taking
 difference reproduces and the quiz difference does not. **What happens once notes are reviewed is a
 different question**, and the second team's abstract reports group differences decreasing further
-after students studied their notes, which is a hint rather than an answer.[2]
+after students studied their notes, in their second experiment, which is a hint rather than an
+answer.[2]
 
 And there is a reason to be careful in the other direction too. Two studies finding no difference
 isn't the same as evidence of no difference, and lesson 5 has twenty-four studies pooled and a
@@ -234,10 +264,10 @@ different answer. **A reader who leaves this lesson certain that the medium does
 overshot exactly as far as the person who arrived certain that it does.**
 :::
 
-## The eighty-seven authors
+## The eighty-eight authors
 
-The replication lists eighty-seven authors. One is a professor and most of the rest are the
-undergraduates in her research-methods class.[1]
+The replication lists eighty-eight authors. One is the researcher who led it and the rest are her
+research-methods class.[1]
 
 **That is a real fact about how the work was produced** and it's worth a paragraph, because people
 read it two opposite ways and both are wrong.
@@ -245,19 +275,20 @@ read it two opposite ways and both are wrong.
 It is not a reason to trust it less. A long author list says nothing about a design, a sample or an
 analysis, and those are the things that bear on a result.
 
-It is not a reason to trust it more either. "Eighty-seven people checked it" is not what an author
+It is not a reason to trust it more either. "Eighty-eight people checked it" is not what an author
 list means.
 
 What it is, is a piece of information about incentives, and **this part is the course's own reading
 rather than anything reported**.[3] A class replicating a famous study has nothing invested in
-the outcome. They did not propose the mechanism, they were not going to be embarrassed by either
-result, and the study was preregistered. **That is worth about as much as the author count is worth
-nothing.**
+the outcome. They did not propose the mechanism and were not going to be embarrassed by either
+result. **The record also shows the study was preregistered**, which is a fact rather than a
+reading.[1] **The author count tells you nothing; how little anybody stood to lose tells you
+something.**
 
 ## Three things people get wrong about this
 
-"The laptop study was debunked." Its central note-taking finding was reproduced twice. What did not
-reproduce is one step in the account of what that finding costs.
+"The laptop study was debunked." Its central note-taking finding was reproduced in a direct
+replication. What did not reproduce is one step in the account of what that finding costs.
 
 "A failed replication means the original was wrong." It means one result did not appear again under
 those conditions. Four things can happen, and this was case 3.
@@ -281,13 +312,15 @@ Write four things.
 
 Then one line: **which half does the evidence you have been shown actually address?**
 
-Usually it is the outcome, with the mechanism asserted in the discussion. That is not a criticism of
-anybody: it is what a study is for, and it is why lesson 3 told you to hold a mechanism more loosely
-than a result.
+**This is what this course expects rather than something anybody has counted**: usually it is the
+outcome, with the mechanism asserted in the discussion.[3] That is not a criticism of anybody: it
+is what a study is for, and it is why lesson 3 told you to hold a mechanism more loosely than a
+result.
 :::
 
 :::exercise Go back to your trace
-Take 15 minutes. This needs the trace you did in lesson 3.
+Take 15 minutes. This needs the trace you did in lesson 3. **If you did not do it, pick any claim
+you have argued about this week.**
 
 Read what you wrote, and answer two questions.
 
@@ -297,8 +330,9 @@ Read what you wrote, and answer two questions.
 Then one line: **if you were to spend another twenty minutes on it, what would you go looking for
 now?**
 
-**Most traces go after the outcome**, because that's the half with the number in it, and the
-mechanism is usually the half doing the persuading.
+**This is an expectation rather than something anybody has counted**: most traces go after the
+outcome, because that's the half with the number in it, and the mechanism is usually the half doing
+the persuading.[3]
 :::
 
 ## Connections
@@ -309,8 +343,8 @@ this lesson is that point at a higher resolution: there, a one-subject result re
 a claim did.
 
 **Forward.** Lesson 5 is twenty-four studies of the same question pooled, and five meta-analyses
-that do not agree with each other. It is also where the word-count difference gets its measured
-size.
+that all point the same way and disagree about whether the effect clears zero. It is also where the
+word-count difference gets its measured size.
 
 ## Go deeper
 
@@ -321,7 +355,7 @@ size.
 - **[How Much Mightier Is the Pen than the Keyboard for
   Note-Taking?](https://doi.org/10.1007/s10648-019-09468-2)** (*Educational Psychology Review*,
   2019). **Also read at abstract level only.** Read it for the no-notes group and for the word
-  "premature", which is the most honest sentence in this subject.
+  "premature", which is the most careful sentence anybody in this dispute has written down.
 
 ## Sources
 

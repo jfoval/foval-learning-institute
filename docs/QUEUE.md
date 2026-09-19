@@ -102,9 +102,9 @@ Rewrite these five lines each session. Nothing else goes in this block.
 
 - **Note-Taking and Personal Knowledge is through Stage 2**, with 4,600 words of research and a
   4,800-word outline planning eight lessons, an eighteen-item test and a project that runs across
-  the course. T2, fifth in the term on running yourself. **Lessons 1 to 6 are drafted. Lessons 1 to 3
-  have been reviewed and every finding is applied; lessons 4, 5 and 6 owe theirs. Lessons 7 and 8
-  and both assessments are still to write, and the project comes before lesson 7.**
+  the course. T2, fifth in the term on running yourself. **Lessons 1 to 6 are drafted and the project is
+  written. Lessons 1 to 4 have been reviewed and every finding is applied; lessons 5 and 6 are
+  under review. Lessons 7 and 8 and the course-end test are still to write.**
 
   **The outline's main decision was how many lessons go to practices with no evidence behind
   them, and the answer is none: they go inside lesson 7.** The research
