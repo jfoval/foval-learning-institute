@@ -1,6 +1,17 @@
 ---
 source: courses/learning-and-mind/time-management/lessons/08-reading-a-claim-about-your-time.md
 written_by: Claude, by hand, from the lesson text
+checked: >-
+  Fact-checked in a fresh-context subagent against the lesson on 2026-09-19: verdict PASS WITH NITS,
+  and every finding was fixed in this file before any render. Every quotation was exact and every
+  hedge the lesson insists on survived, including that the course has not read Parkinson's essay and
+  the weaker "no empirical test found when this course went looking". The three fixes: the sign-off
+  claimed four sorted pieces of advice were left out when two are in the episode; an intensifier had
+  been added to a sentence whose whole job is to be exactly measured, making "good advice" into
+  "very good advice"; and **the three-way sort was presented as the lesson's own** when the lesson
+  makes a point of crediting it to Digital Literacy lesson 8 and Using AI Effectively lesson 11 and
+  says so rather than presenting it as new. The credit is now in the episode where the habit is
+  introduced. The checker confirmed none of the six trade authors is named anywhere in the script.
 about: >-
   About seven minutes. Haley opens, because the engine gives the first turn to the second voice.
   Hosts are John (S1) and Haley (S2). Last episode of Time Management. The episode takes the
@@ -17,11 +28,11 @@ S1: And this is the one you'll use longest. Everything before it was about your 
 
 S2: Give me the first habit.
 
-S1: Sort the claim before you argue with it. Almost every piece of advice about time is one of three things, and telling them apart takes about thirty seconds once you've done it twice. Measurable. It makes a claim a study could check, whether or not one has. Check email twice a day rather than continuously. Somebody could randomise people to the two conditions.
+S1: Sort the claim before you argue with it. And the lesson says up front that this isn't new here. It's Digital Literacy lesson eight's move and Using AI Effectively lesson eleven's, adapted again. Almost every piece of advice about time is one of three things, and telling them apart takes about thirty seconds once you've done it twice. Measurable. It makes a claim a study could check, whether or not one has. Check email twice a day rather than continuously. Somebody could randomise people to the two conditions.
 
 S2: Second.
 
-S1: Unmeasurable as stated. It uses a term nobody has defined, so no study could settle it either way. Focus on what really matters. And this isn't the same as false, and it isn't automatically useless. It may be very good advice. It's simply not the kind of sentence evidence can bear on until somebody says what the words mean.
+S1: Unmeasurable as stated. It uses a term nobody has defined, so no study could settle it either way. Focus on what really matters. And this isn't the same as false, and it isn't automatically useless. It may be good advice. It's simply not the kind of sentence evidence can bear on until somebody says what the words mean.
 
 S2: And false.
 
@@ -97,6 +108,6 @@ S1: The lesson names them, because a course that never did would be pretending y
 
 S2: What did we leave out?
 
-S1: Four pieces of advice sorted properly, three things people believe about this literature, including why an old study is sometimes out of date and sometimes not. And the last exercise, which asks you to write your lesson one estimate again from memory before you open the record. That's the course closing on the measurement it opened with. The full lesson is at Foval Learning Institute dot org.
+S1: Two more pieces of advice sorted properly, including the twenty-three minute figure lesson five traced. Three things people believe about this literature, including why an old study is sometimes out of date and sometimes not. And the last exercise, which asks you to write your lesson one estimate again from memory before you open the record. That's the course closing on the measurement it opened with. The full lesson is at Foval Learning Institute dot org.
 
 S2: Thanks for listening, and that's the end of the course.

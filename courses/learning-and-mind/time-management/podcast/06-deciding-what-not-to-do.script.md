@@ -1,6 +1,18 @@
 ---
 source: courses/learning-and-mind/time-management/lessons/06-deciding-what-not-to-do.md
 written_by: Claude, by hand, from the lesson text
+checked: >-
+  Fact-checked in a fresh-context subagent against the lesson on 2026-09-19: verdict PASS WITH NITS,
+  and every finding was fixed in this file before any render. **The priority check was neutrality**,
+  because the lesson's own Stage 4 review had failed it for giving the do-less side all the worked
+  cases and all the exercises. The checker counted the script and found no tilt re-introduced: 48
+  words for do-less against 85 for do-more, the do-more case getting the last word before the
+  landing, and the refusal to choose stated outright. The four defects fixed were all in the
+  sign-off or in references to material the trims removed: the four things a decision names were
+  conflated with the four lines a refusal is written in, which are not the same four; the sign-off
+  claimed four beliefs were left out when the sorting one is in the episode; two sentences dangled
+  against a worked case that had been cut; and the course's own lean was named without saying which
+  way it leans, which is the one thing the lesson is emphatic about at that point.
 about: >-
   About seven minutes. Haley opens, because the engine gives the first turn to the second voice.
   Hosts are John (S1) and Haley (S2). The episode takes why a priority list does nothing, what a
@@ -45,7 +57,7 @@ S1: If nothing is lost, nothing was decided. You can tell the difference by tryi
 
 S2: Now. A lot of this assumes I have things I could drop.
 
-S1: Which is the objection the lesson takes most seriously, and it builds a second case around it. A woman working a fixed rota at a distribution centre, caring for her father four evenings a week. Her sheet came back with two discretionary hours, both on Sunday, and eleven contested hours with conditions written beside them. She's constructed, like the others here.
+S1: Which is the objection the lesson takes most seriously, and it builds a case around it. A woman working a fixed rota at a distribution centre, caring for her father four evenings a week. Her sheet came back with two discretionary hours, both on Sunday, and eleven contested hours with conditions written beside them. She's constructed, like the others here.
 
 S2: There's nothing on her sheet to drop.
 
@@ -61,7 +73,7 @@ S1: The second is the eleven contested hours, because every one has a clause bes
 
 S2: What's hers?
 
-S1: One line. One Thursday in three, and I would use it to sleep. And notice she's still named a cost. Her brother has his own week, and asking means he does less of something. She's decided it's worth asking for anyway, which is the same operation and a harder one.
+S1: One line. One Thursday in three, and I would use it to sleep. And notice she's still named a cost. Her brother has his own week, and asking means he does less of something. She's decided it's worth asking for anyway, which is the same operation as the reader with eleven discretionary hours performs, and a harder one.
 
 S2: There's a question underneath all of this and I want to put it to you directly. Should a person be trying to do more, or trying to do less?
 
@@ -73,10 +85,10 @@ S1: Gets said less often in books like this. A life is largely made of what you 
 
 S2: Where does the course land?
 
-S1: It doesn't, and it says it has no standing to. What it offers is the same either way. Know what your hours are, decide rather than default, and write down what the decision costs. A person doing too much on purpose, with the cost named, is doing something this course has nothing to object to. What it argues against is only the third thing, which is carrying a life you haven't decided on and paying for it every week. And it names its own lean, so you can discount for it.
+S1: It doesn't, and it says it has no standing to. What it offers is the same either way. Know what your hours are, decide rather than default, and write down what the decision costs. A person doing too much on purpose, with the cost named, is doing something this course has nothing to object to. What it argues against is only the third thing, which is carrying a life you haven't decided on and paying for it every week. And it names its own lean, which is the do-less side, so you can discount for it.
 
 S2: What did we leave out?
 
-S1: The four lines a written decision has to contain, which are the cost in specific terms, a review date, the condition that would reverse it, and who has to be told. A worked refusal in those four lines from somebody with plenty of discretion. The credit to Using AI Effectively lesson nine, which is where part of that shape comes from. What you've already given up without deciding to, which is the uncomfortable half. And four things people believe about this. The full lesson is at Foval Learning Institute dot org.
+S1: The four things a decision has to name, which are the cost in specific terms, a review date, the condition that would reverse it, and who has to be told. And a worked refusal, in four lines, from somebody with plenty of discretion. The credit to Using AI Effectively lesson nine, which is where part of that shape comes from. What you've already given up without deciding to, which is the uncomfortable half. And three more things people believe about this, beyond the sorting one we did. The full lesson is at Foval Learning Institute dot org.
 
 S2: Thanks for listening.

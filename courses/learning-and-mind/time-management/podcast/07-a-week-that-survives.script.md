@@ -1,6 +1,19 @@
 ---
 source: courses/learning-and-mind/time-management/lessons/07-a-week-that-survives.md
 written_by: Claude, by hand, from the lesson text
+checked: >-
+  Fact-checked in a fresh-context subagent against the lesson on 2026-09-19: verdict FAIL, and every
+  finding was fixed in this file before any render. **The failure was a spoken time that came out as
+  nonsense**: the lesson's Sunday slot of 20:00 to 20:55 had been written as "Sunday eight to five to
+  nine", which is not a time, is unintelligible read aloud, and contradicted the episode's own
+  hundred-and-ten-minute figure four turns later. It is the load-bearing number of the worked case.
+  Now spoken as eight in the evening to eight fifty-five, with the Tuesday slot marked as the
+  morning. Also fixed: the hedge on the slack figure, which is the course's judgement rather than a
+  finding and had its own disclaimer separate from the one on the order; the superlative about the
+  most quoted sentence, restored to "as far as the course can tell"; a claim of six inputs where the
+  lesson hands over five; and "reliably wrong" loosened from the lesson's "systematically short in a
+  direction you can measure". The checker redid all five of Hannah's sums by hand and every one is
+  correct.
 about: >-
   About seven minutes. Haley opens, because the engine gives the first turn to the second voice.
   Hosts are John (S1) and Haley (S2). The episode takes why week plans fail on Tuesday, the six-step
@@ -15,7 +28,7 @@ S1: And I'm John. Today we're in Time Management, on the seventh lesson. A week 
 
 S1: This is the assembly lesson. Nothing in it is new, and everything in it comes from a sheet you already have.
 
-S2: Six lessons, six inputs.
+S2: Six lessons, and each one handed you something.
 
 S1: Lesson two gave you the hours that are actually yours. Lesson three gave you a number for how far your estimates run short. Lesson four gave you plans attached to cues instead of to intentions. Lesson five gave you the real shape of a working day. Lesson six gave you one refusal, in writing, with its cost named. This lesson puts them in a week, runs it, and then reads what broke.
 
@@ -49,7 +62,7 @@ S1: The discretionary hours go in against their real shape. If your eleven hours
 
 S2: And the last three?
 
-S1: Four, the if-then plans go on cues that exist in the week you've just written, because you now have a sheet showing which whens are real. Five, reserve the slack before planning the rest, about a fifth of your discretionary time, in pieces, placed where the week historically goes wrong. Reserving it first matters, because slack added at the end is slack taken off something already planned, and that's the step nobody actually performs. And six, apply your own ratio to what's left and take something out. Lesson three gave you its scope too: your median is for the items whose length is yours to decide, and anything that waits on somebody else gets a whole morning instead.
+S1: Four, the if-then plans go on cues that exist in the week you've just written, because you now have a sheet showing which whens are real. Five, reserve the slack before planning the rest. About a fifth of your discretionary time, and how much is the course's own judgement rather than a finding, in pieces, placed where the week historically goes wrong. Reserving it first matters, because slack added at the end is slack taken off something already planned, and that's the step nobody actually performs. And six, apply your own ratio to what's left and take something out. Lesson three gave you its scope too: your median is for the items whose length is yours to decide, and anything that waits on somebody else gets a whole morning instead.
 
 S2: What is slack for, exactly? It sounds like rest.
 
@@ -61,7 +74,7 @@ S1: The lesson builds one on a reader you met in lesson two, constructed, a self
 
 S2: And the study she keeps not starting?
 
-S1: A bookkeeping qualification. It needs continuity, so it gets her two genuinely long pieces. Tuesday nine fifteen to ten ten, and Sunday eight to five to nine. An hour and fifty minutes a week.
+S1: A bookkeeping qualification. It needs continuity, so it gets her two genuinely long pieces. Tuesday nine fifteen to ten ten in the morning, and Sunday eight in the evening to eight fifty-five. An hour and fifty minutes a week.
 
 S2: That sounds thin.
 
@@ -69,7 +82,7 @@ S1: It does, and the arithmetic is worth following because the lesson does it in
 
 S2: So it fits.
 
-S1: Exactly, and that's the trap. A plan that fits exactly has no room to be wrong, and being wrong is what lesson three established her forecasts reliably are. So one item comes out, and she writes down which. The website, again, which has now been removed from three consecutive weeks. That fact is itself worth having.
+S1: Exactly, and that's the trap. A plan that fits exactly has no room to be wrong, and being short is what lesson three established her forecasts systematically are, in a direction she can measure. So one item comes out, and she writes down which. The website, again, which has now been removed from three consecutive weeks. That fact is itself worth having.
 
 S2: Where did it break?
 
@@ -89,6 +102,6 @@ S1: She stopped treating the break as a failure. The plan converted a vague sens
 
 S2: What did we leave out?
 
-S1: What to do if your discretionary total is two hours, which is a section of its own. Four things people believe about week plans. And the most quoted sentence in this subject, about work expanding to fill the time available, which this lesson deflates and lesson eight takes properly. The full lesson is at Foval Learning Institute dot org.
+S1: What to do if your discretionary total is two hours, which is a section of its own. Four things people believe about week plans. And the sentence this subject quotes more than any other, as far as the course can tell, about work expanding to fill the time available, which this lesson deflates and lesson eight takes properly. The full lesson is at Foval Learning Institute dot org.
 
 S2: Thanks for listening.
