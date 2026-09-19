@@ -120,7 +120,7 @@ mnemonics-naïve controls. In a second study, participants completed a six-weeks
 working memory training, or no intervention. Behaviorally, memory training enhanced durable,
 longer-lasting memories."[1]
 
-****Three arms**, about fifty people across them, with the athletes of the first study counted
+**Three arms**, about fifty people across them, with the athletes of the first study counted
 separately. **The retest at four months comes from the preprint page's description of the design
 rather than from the sentences quoted above**, which the research file records.[1]
 
@@ -329,7 +329,7 @@ lesson 7 is about what to do with those.
 
 ## Connections
 
-****Back.** Lesson 3 is the nearest thing this course has to an account of why a technique like this
+**Back.** Lesson 3 is the nearest thing this course has to an account of why a technique like this
 might help at all, and **nothing read here tests that connection**. **Focus and Deep Work** lesson 6
 supplies the transfer distinction and the active-control argument, both used here and neither re-
 taught. **How to Learn Anything** lesson 2's chunking is the nearest relative of what a memory

@@ -221,7 +221,7 @@ available for its completion.
 copies found were unreachable, so what follows is at the level of a search summary and is flagged
 as such.[3] At that level, four things are established and they are worth having.
 
-**It is the opening line of an essay in *The Economist*, published on 19 November 1955. Not a
+**It is the opening line of an essay in *The Economist*, published on 19 November 1955.** Not a
 paper, not a study, not a report of anything anybody measured.
 
 Its author presents it as a commonplace observation, which is to say he isn't claiming to have
@@ -231,7 +231,7 @@ The essay is a satire, and it is about something else. Its actual subject is why
 grow regardless of how much work there is to do, and its two stated drivers are that an official
 wants to multiply subordinates rather than rivals, and that officials make work for each other.
 
-And no empirical test of the time-expansion claim was found.** A 2008 study by Klimek, Hanel and
+**And no empirical test of the time-expansion claim was found.** A 2008 study by Klimek, Hanel and
 Thurner tests Parkinson's *committee* argument, which is a different claim of his and not this
 sentence.
 

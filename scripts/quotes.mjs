@@ -54,7 +54,10 @@ for (const cdir of fs.readdirSync(path.join(COURSES_DIR, school.name), { withFil
   const sources = norm(fs.readFileSync(sourcesPath, "utf8"));
   for (const f of fs.readdirSync(lessonsDir).filter(x => x.endsWith(".md")).sort()) {
     const body = fs.readFileSync(path.join(lessonsDir, f), "utf8").split(/^---$/m).slice(2).join("---");
-    for (const m of body.matchAll(/["“]([^"“”]{40,})["”][.,;:]?\s*\[\d+\]/g)) {
+    // The marker can sit after a closing bold span, and a load-bearing quotation is often short.
+    // Both were found by a Stage 4 review on 2026-09-19: the one quotation a whole course rested
+    // on was invisible here because it was bolded, which is exactly why it was bolded.
+    for (const m of body.replace(/\*\*/g, "").matchAll(/["“]([^"“”]{25,})["”][.,;:]?\s*\[\d+\]/g)) {
       checked++;
       // A quoter legitimately moves the closing full stop inside the quotation marks and
       // capitalises the first letter of a passage they start mid-sentence. Neither is a change of

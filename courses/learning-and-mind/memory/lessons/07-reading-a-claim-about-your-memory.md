@@ -141,7 +141,7 @@ halves need separate verdicts**, and a reader who accepts or rejects both togeth
 This is the course's own addition to the sort, and it's here because of something the research
 turned up about this subject in particular.[6]
 
-****The samples behind this course are the smallest you will meet on the Core path, and the claims
+**The samples behind this course are the smallest you will meet on the Core path, and the claims
 made about memory in general are among the largest.** That comparison is this course's own rather
 than a finding, and it is a comparison with the courses on the path rather than with every study
 anybody has run.[6] Lesson 2's founding measurement of the whole field is one subject.[1] Lesson 4's
@@ -258,7 +258,7 @@ Lesson 6 gives no figure at all, for a reason it states twice.[5]
 supported and, in the authors' own words, also facing "some challenging evidence".[2] A mechanism is
 the thing likeliest to be different in ten years, and the effect will still be there when it is.
 
-****And hold this against the course itself.** Five of its seven lessons draw on failure
+**And hold this against the course itself.** Five of its seven lessons draw on failure
 literatures, which is a selection. It was made because those are the literatures with recent
 syntheses and it is still a selection, and a reader who finishes here with a bleaker view of memory
 than the evidence supports has been affected by the shape of the reading list rather than by the
@@ -395,6 +395,6 @@ need the reconstructive account from lesson 1, because the case for writing thin
 6. **The sample question is this course's own addition to the institute's standing sort**, and the
    reading of what each source licenses in the table's last column is the course's reasoning rather
    than any source's. **The four worked claims are specimens written for this lesson rather than
-   quotations from anywhere, and the body says so where they are introduced. **The three books named
+   quotations from anywhere**, and the body says so where they are introduced. **The three books named
    are on the research file's unread line**: none was opened, the build fails on a citation to any
    of them, and nothing here assesses their contents.

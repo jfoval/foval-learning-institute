@@ -817,6 +817,20 @@ function lintLessons() {
         // site's address" is not a contraction and counting it hides the defect.
         {
           const body = src.split(/^---$/m).slice(2).join("---");
+          // An unbalanced `**` run renders as literal asterisks on the page and the emphasis
+          // it was meant to carry disappears. Nothing here caught it before, and on 2026-09-19 a
+          // repo-wide scan found fourteen across five courses, three of them live. Every one came
+          // from an edit rather than from drafting: cutting one bold span out of a pair, or
+          // wrapping a span that was already wrapped. Two Stage 4 reviewers found two of them by
+          // eye in the same afternoon, which is the wrong way to find a mechanical defect.
+          for (const para of body.split(/\n\n+/)) {
+            const runs = (para.match(/\*\*/g) || []).length;
+            const quad = /\*\*\*\*/.test(para);
+            if (runs % 2 === 0 && !quad) continue;
+            const where = para.replace(/\s+/g, " ").slice(0, 70);
+            fail(`${file}: ${quad ? "four asterisks in a row" : "an odd number of ** runs"} in the paragraph beginning "${where}". It renders as literal asterisks and loses the emphasis.`);
+          }
+
           const words = body.split(/\s+/).filter(Boolean).length;
           if (words >= 1200) {
             const hits = body.match(/[A-Za-z]+'(t|re|ve|ll|m|d|s)\b/g) || [];

@@ -22,16 +22,16 @@ quiz:
     answer: 1
     explain: >-
       Taking the note is one function and going back to it is the other, and she is getting only
-      the first. A note nobody reopens is not nothing, since the writing happened. Existing is not
+      the first. Whether a note nobody reopens did nothing at all is a separate question this lesson leaves open. Existing is not
       the same as being reviewed, which is what the storage function means in this literature. And
       a thing she could do is not a thing she does.
   - q: >-
       On the field's own summary, where does most of the benefit of taking notes come from?
     options:
-      - The attention that taking a note forces during the lecture itself
+      - The attention that taking a note forces during the lecture
       - Writing the note in your own words rather than the speaker's
-      - Having the note, and reviewing it afterwards
-      - The two functions contribute about equally, once both are measured
+      - Having the note afterwards, and going back to review it
+      - The two functions contribute about equally, once measured
     answer: 2
     explain: >-
       The 2024 meta-analysis summarises its own field by saying the primary benefit emerges from
@@ -69,11 +69,11 @@ quiz:
   - q: >-
       Which of these is a claim this course could not support, whatever the answer turns out to be?
     options:
-      - That students who take notes and review them tend to achieve more than students who do not
-      - That taking notes by hand produces more words in the notes than typing does
+      - That students who take and review notes tend to achieve more than students who do not
+      - That typing produces more words in the notes than writing by hand does
       - That note-taking improves how much people remember from meetings at work
-      - That most lecture ideas do not end up in any student's notes
-    answer: 3
+      - That most lecture ideas do not end up in any student's notes at all
+    answer: 2
     explain: >-
       Every source here measured college students in lectures, so a claim about meetings at work is
       outside what any of them reaches, whether or not it is true. The other three are all things
@@ -85,8 +85,8 @@ quiz:
       - The encoding function, and it is quiet about whether capture aids attention
       - The external-storage function, and it is quiet about whether you go back to any of it
       - Both functions equally, and it is quiet about which one it improves more
-      - Neither function, since capturing is a different activity from note-taking
-    answer: 2
+      - Neither function, since capturing is a different activity from note-taking altogether
+    answer: 1
     explain: >-
       Capture is the storage half, and the half the field says carries the benefit is the review,
       which no amount of capture supplies. It is not selling the encoding function, because
@@ -127,11 +127,12 @@ summary of its own evidence says the reading afterwards is.
 :::predict Before you read on. If the benefit is mostly in the review, what follows for how a note should be written? Write two sentences, then read what this lesson says.
 Most people's first answer is "write better notes", and the useful answer is narrower.
 
-What follows is that a note has two customers and they want different things. The version of you
-writing it wants speed, because the speaker is still talking. The version of you reading it in
-a month wants a note that makes sense out of context, with enough around it to be found and
-understood. Those two aren't the same document, and the second is the one the research says carries
-the benefit.
+What follows is that a note has two customers who want different things, **which is this course's
+own way of putting it rather than a finding**.[7] The version of you writing it wants speed, because
+the speaker is still talking. The version of you reading it in a month wants a note that makes sense
+out of context, with enough around it to be found and understood. Those two aren't the same
+document, and the research's finding is about the second one being used, not about how it was
+written.
 
 And the second thing that follows is a question rather than a technique. If review is where the
 benefit is, then whether you review is the variable that matters most, and almost nobody has ever
@@ -144,12 +145,28 @@ more reviewable, and a lesson claiming one would be going past its evidence.
 
 ## The result that makes the encoding function worth arguing about
 
-Here is the finding that should unsettle anybody who takes the encoding function for granted.
+:::predict Before the finding. Morehead and colleagues ran the famous study again and added a condition nobody had thought to include: a group who took no notes at all. What would you expect that group to do, against the groups who took notes?
+Almost everybody expects them to do worse, and the useful part is what follows either way.
+
+**If they do worse**, you have a measurement of the encoding function on its own, and it is the
+first one anybody had.
+
+**If they do not**, you have not shown that note-taking is useless. You have shown that in this
+experiment, on this test, at this delay, writing something did not separate people from writing
+nothing. **Those are very different sentences** and the difference is what the rest of this section
+is about.
+
+**Write down which you expect before you read on**, because the result is much easier to explain
+away once you know it.
+:::
+
+One finding should unsettle anybody who takes the encoding function for granted.
 
 Morehead, Dunlosky and Rawson ran a replication of the most famous study in this subject and
-extended it. **This course read their abstract and not the paper.**[2] In their words: "performance
-did not consistently differ between any groups (experiments 1 and 2), **including a group who did
-not take notes** (experiment 2)".[2]
+extended it. **This course read their abstract and not the paper.**[2] Some trends in their data
+favoured longhand, they report, and then, in their words: "performance did not consistently differ
+between any groups (experiments 1 and 2), **including a group who did not take notes** (experiment
+2)".[2]
 
 A group who wrote nothing did not do worse than the groups who wrote something.
 
@@ -181,28 +198,28 @@ note is, what gets into one, and what the evidence does and does not say about h
 It won't tell you which way to take notes. That isn't modesty: it's lesson 5, where five syntheses
 of the same question give five answers.
 
-And one refusal is worth stating now. ****This course can't tell you whether your notes are any
+And one refusal is worth stating now. **This course can't tell you whether your notes are any
 good.** It reports what note-taking does across people, under conditions somebody arranged and
 measured, and that is a different question from auditing one person's notebook. Lesson 8 comes back
 to it with the whole course behind you.
 
 ## What the evidence was measured on
 
-This course reads six things properly, and two of them are open access.[1][2][3][4][5][6] Here is
-what each one was measured on, and at what level this course holds it.
+This course reads six things at the levels the table below gives, and only one of them at any
+depth. Here is what each was measured on, and how far this course got into it.
 
 | The source | What it measured | On whom | Read at |
 |---|---|---|---|
-| The 2024 meta-analysis | Achievement and note volume, typed against handwritten, pooled | 24 studies across 21 articles, college students | Abstract, introduction, one table, part of the limitations |
-| The replication and extension | Test performance across note-taking media, plus a no-notes group | College students, two experiments | Abstract only |
-| The famous 2014 study | Performance on conceptual questions, typed against handwritten | College students, three studies | **Abstract only. The paper was not opened** |
-| The direct replication | Quiz performance and note contents | 74 laptop and 68 longhand participants | Abstract only |
-| The 2022 meta-analysis | Academic performance by note-taking method | 77 effect sizes from 39 samples | **Not read.** One figure, from the 2024 paper's table |
-| The handwriting EEG study | Brain connectivity while writing single words | 36 university students | Abstract and one sentence |
+| The 2024 meta-analysis[1] | Achievement and note volume, typed against handwritten, pooled | 24 studies across 21 articles, college students | Abstract, introduction, two sections, one table, one limitation |
+| The replication and extension[2] | Test performance across note-taking media, plus a no-notes group | Students, two experiments | Abstract only |
+| The famous 2014 study[3] | Performance on conceptual questions, typed against handwritten | Students, three studies | **Abstract only. The paper was not opened** |
+| The direct replication[4] | Quiz performance and note contents | 74 laptop and 68 longhand participants | Abstract only |
+| The 2022 meta-analysis[5] | Academic performance by note-taking method | 77 effect sizes from 39 samples | **Not read.** Its counts reach this course from a search summary |
+| The [handwriting EEG study](https://doi.org/10.3389/fpsyg.2023.1219945)[6] | Brain connectivity while writing single words | 36 university students | Abstract and one sentence. Open access |
 
-Read the third column. **Every figure in this course was measured on college students in a lecture,
-tested within the hour or within the week.** One of them measured thirty-six people writing single
-words with no learning outcome at all.
+Read the third column. **Every figure in this course but one was measured on students in a lecture,
+tested within the hour or within the week.** The exception measured thirty-six people writing single
+words, with no learning outcome at all.
 
 So a sentence beginning "note-taking improves retention" is already out of scope at the third word,
 unless the person saying it means a student in a lecture hall. And it cuts both ways: a narrow
@@ -210,7 +227,7 @@ finding isn't an empty one, and the 2024 meta-analysis pools twenty-four studies
 rules out is the sentence "so you should"**, applied to a reader in a meeting, reading a paper, or
 keeping a notebook over years.
 
-### Worked: three notes, sorted
+### Three notes from the same meeting
 
 **This case is constructed**, because no source read for this course reports individual notes with
 their later use.[7]
@@ -226,8 +243,9 @@ somebody asks what was decided about the supplier and he finds it in forty secon
 storage, and it worked.** Whether the typing helped him at the time is a separate question.
 
 Daniel writes a page of neat headings with two or three words under each, feels organised, and
-cannot reconstruct a single decision from it a week later. **Neither function.** The note was too
-thin to encode and too thin to store.
+cannot reconstruct a single decision from it a week later. **Neither function**, on the course's own
+reading of the two definitions rather than on any finding.[7] There is nothing in the page for a
+review to work with.
 
 Notice what the sorting didn't depend on. Not neatness, not length, not medium. It depended
 on what happened to the note afterwards and on what was in it, which are the two things this
@@ -236,7 +254,8 @@ course is about.
 :::checkpoint So if the review is where the benefit is, should you stop worrying about how you take the note and just make sure you reread it?
 No, and the reason is the more useful half of the lesson.
 
-Rereading a note you can't understand is worth nothing, which is Daniel's case above. The
+Rereading a note you can't understand is worth nothing, which is Daniel's case above, and that
+sentence is this course's reasoning from the definitions rather than a measured result.[7] The
 storage function needs a note with something in it, and what gets into a note is lesson 2's subject,
 where the numbers are worse than you think.
 
@@ -250,8 +269,8 @@ reviewing, and what you do in the review matters as much as that you do it. Thre
 one everybody attends to is the writing, which is in none of them.
 
 And the limit, which this lesson states rather than hides: all of this was measured on students
-and lectures. **Whether it describes your meetings isn't something this course can tell you, and the
-project is how you find out for yourself.
+and lectures. **Whether it describes your meetings isn't something this course can tell you**, and
+the project is how you find out for yourself.
 :::
 
 ## Three things people get wrong about notes
@@ -263,7 +282,8 @@ benefit is.[1] The writing is real and it's the smaller half.
 perform worse than any note-taking group.[2] One experiment, on an immediate test, and it's still
 more than most confident claims in this subject have behind them.
 
-"A note is a record of what was said." Lesson 2 is about how little of it gets into one.
+"A note is a record of what was said." It is a record of a fraction of it, selected under time
+pressure, and lesson 2 has the measured version.
 
 ## What this course leaves out on purpose
 
@@ -305,6 +325,8 @@ something it has measured.[7]
 Take 25 minutes.
 
 Find five notes you have taken in the last three months. Real ones, not the ones you're proud of.
+**If you have not taken five, use what you have and say so**, because how few there are is itself a
+result.
 
 For each, write four things.
 
@@ -316,16 +338,18 @@ For each, write four things.
 Then one line: **how many of the five were still doing anything for you a week after you wrote
 them?**
 
-If the answer is none, that's the usual result and it's what lesson 7 exists for. A page of notes
+**If the answer is none, that is what this course expects, though it has not measured it.**[7] It
+is also what lesson 7 exists for. A page of notes
 nobody reopens is the encoding function on its own, which is the half the evidence says is smaller.
 :::
 
 ## Connections
 
 **Back.** **How to Learn Anything** lesson 3 is retrieval practice, applied to notes in lesson 7
-rather than re-taught. **Memory** lesson 1 is the reconstructive account and **Memory** lesson 7 is
-the sample question, which the scope table is an instance of. **Focus and Deep Work** lesson 1 is
-the instrument question, and this course's lesson 2 is it applied to what a note contains.
+rather than re-taught. **Memory** lesson 1 is the reconstructive account, and its scope table is the
+form this lesson's table takes; **Memory** lesson 7 is the sample question the table is an instance
+of. **Focus and Deep Work** lesson 1 is the instrument question, and this course's lesson 2 is it
+applied to what a note contains.
 
 **Forward.** Lesson 2 is what actually gets into a note, and the figure is lower than anybody
 guesses. Lessons 3 to 5 are the one question in this subject everybody has an opinion about, and
@@ -368,8 +392,10 @@ where the benefit is.
    2021, pp. 326 to 339. **Read at abstract level only.** Supports only the scope-table row,
    including its 74 and 68 participants.
 5. Daniel Voyer, Scott T. Ronis and Narissa Byers, "The effect of notetaking method on academic
-   performance", *Contemporary Educational Psychology* 68, 2022. **Not read.** Its sample counts
-   reach this course through source 1's table, which the scope table says.
+   performance", *Contemporary Educational Psychology* 68, 2022. **Not read**, and its sample counts
+   reach this course from a search summary rather than from the paper or from source 1, which the
+   scope table says. **Source 1's own table gives this paper 73 effect sizes and a pooled effect of
+   +0.008**, and lesson 5 is where those numbers are used.
 6. F. R. Van der Weel and Audrey L. H. Van der Meer, "Handwriting but not typewriting leads to
    widespread brain connectivity", *Frontiers in Psychology* 14, 2024, article 1219945. **Read at
    abstract level, plus one sentence about the typing condition.** Supports only the scope-table

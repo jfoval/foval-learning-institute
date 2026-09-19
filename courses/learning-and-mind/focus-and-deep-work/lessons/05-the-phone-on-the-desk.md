@@ -146,7 +146,7 @@ about three fifths here.
 Something is there. The interval sits entirely below zero, the direction is the one the
 original claimed, and a course that stopped here would say the effect is real and small.
 
-It doesn't stop here, because the authors ran two subgroup analyses and both of them matter more
+**It doesn't stop here, because the authors ran two subgroup analyses and both of them matter more
 than the headline.**
 
 :::predict Before the subgroups. The phrase is "brain drain", and the claim is that a phone on the desk costs you cognitive capacity. The meta-analysis sorted its 43 effects into memory, attention and general cognitive performance. Which of the three do you expect the effect to be in, and which would be most awkward for the phrase?
@@ -304,7 +304,7 @@ Take four work blocks across two days, about an hour each, plus 15 minutes of wr
 minutes is what the lesson's clock counts; the four hours are your own working time rearranged
 rather than added.**
 
-Two blocks with your phone in another room. Two with it on the desk, face down, untouched.**
+**Two blocks with your phone in another room. Two with it on the desk, face down, untouched.**
 Alternate them, and do the same kind of work in all four if you can.
 
 In each block, record two things. How much you got through, in whatever unit fits your work.

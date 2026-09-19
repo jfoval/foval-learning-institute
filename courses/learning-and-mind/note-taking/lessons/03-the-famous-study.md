@@ -164,7 +164,7 @@ seen a number attached to this study, it came from somewhere else, and this cour
 whether that somewhere was the paper.
 
 That restriction is worth more than the numbers would be, and here's why. The sentences
-everybody repeats about this study are exactly the sentences in the abstract. ****The conditions
+everybody repeats about this study are exactly the sentences in the abstract. **The conditions
 everybody drops are also in the abstract**, three lines from the sentence they're dropping. Nobody
 who repeats "the pen is mightier" without "on conceptual questions" was defeated by a paywall.
 

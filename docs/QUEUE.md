@@ -67,6 +67,25 @@ Rewrite these five lines each session. Nothing else goes in this block.
   claims about itself, so under root rule 8 it is John's decision and not a drafter's. Nothing is
   blocked: the course is live without it.
 
+- **Nine quoted passages in two published courses are not in their own research files.** Found on
+  2026-09-19 by the widened `npm run quotes`, and written up here rather than fixed, under root
+  rule 9. **They are not fabrications.** A spot-check of Time Management lesson 1's five against the
+  primary, a free Bureau of Labor Statistics PDF, found two of them present verbatim; the PDF's
+  two-column layout interleaves when extracted, which prevented a clean check of the other three.
+  Using AI Effectively's four all contain ellipses, which is why the matcher misses them.
+
+  **The defect is that `SOURCES.md` does not carry them**, so nothing in the repo can verify them
+  and a future session would have to re-fetch the primary to check a quotation a live lesson prints.
+  **The fix is to transcribe them into the research file, not to edit the lessons**: Time Management
+  lesson 1 (5, all from pages 43 to 45 of the Monthly Labor Review article, which `SOURCES.md` says
+  were read) and Using AI Effectively lessons 3, 7 and 9 (4). `npm run quotes <course>` lists them.
+
+- **Note-Taking's course project is not written**, and lesson 1's first exercise already tells a
+  reader it is section 1 of it and cannot be done later. This is Memory's finding repeating, and
+  Memory's resolution was to write the project before the lesson that stakes something on it.
+  `research/OUTLINE.md` specifies it in full under "Project: the notes you went back to". **Write it
+  before lesson 7.**
+
 - **Thirty-four quiz explanations name a distractor by its position**, across seven courses. Found
   by a survey on 2026-09-19 after three courses had their answer sequences permuted, and written up
   here rather than fixed, under root rule 9. **This is `/draft-lesson` defect 17 and it is a trap
