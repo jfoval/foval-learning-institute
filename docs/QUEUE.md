@@ -67,10 +67,16 @@ Rewrite these five lines each session. Nothing else goes in this block.
   claims about itself, so under root rule 8 it is John's decision and not a drafter's. Nothing is
   blocked: the course is live without it.
 
-- **Time Management is through Stage 2 and ready to draft.** T1, seventh and last of the Tools
+- **Time Management is drafting, lesson 1 of 8 done.** T1, seventh and last of the Tools
   term, `status: drafting`. 4,900 words of research and a 5,400-word outline planning eight lessons,
-  a twenty-item test and a fortnight-long project. Start at lesson 1 with
-  `/draft-lesson courses/learning-and-mind/time-management 1`.
+  a twenty-item test and a fortnight-long project. **Lesson 1 is drafted and committed and owes a
+  Stage 4 review**; lessons 2 to 8 are next, and `npm run state` names the one to draft.
+
+  **Both of this drafter's measured defects appeared on lesson 1's first pass, exactly as
+  `.claude/commands/draft-lesson.md` numbers 15 and 16 say they will.** The draft came in at 0.3
+  contractions per 1,000 body words and the quiz had the key as the sole longest option in four of
+  six items with three adjacent key repeats. Both are closed on that lesson. **Expect them on every
+  draft and fix them before review rather than after**, which is two passes saved each time.
 
   **Read the outline's "Six decisions this outline settles" before drafting anything.** Two change
   what a drafter may write. The course says "your hours" and never "productivity", because the one
