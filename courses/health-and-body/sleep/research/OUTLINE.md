@@ -148,8 +148,10 @@ statistical model revealed", which the abstract says in terms.
 **Worked examples.** (a) Simple: read the Results sentence clause by clause and say, for each clause,
 what was measured and on whom. (b) With a wrinkle: a constructed reader who has slept six hours a
 night for a fortnight and reports feeling fine. What does this study license about them, and what
-does it not? **It licenses an expectation about a reaction-time task in a laboratory and nothing
-about their driving, their work or their health**, and saying exactly that is the exercise.
+does it not? **It licenses an expectation about unnamed cognitive tasks in a laboratory and
+nothing about their driving, their work or their health**, and saying exactly that is the exercise.
+**The abstract names no task**, so no lesson may name one; an earlier draft of this outline said
+"reaction-time task" and that was an inference, corrected 2026-09-19.
 
 **Misconceptions.** "Six hours is fine for me, I've adapted." "Sleep debt is a metaphor." (The paper
 proposes the opposite, in its own words, and the lesson quotes the proposal as a proposal.) "This
@@ -161,10 +163,11 @@ run to show that six hours harms *health* rather than performance, and notice ho
 
 **Sources.** §1 throughout, at abstract level, which the lesson states twice.
 
-**Connects.** Back to lesson 1's instruments: this one used polysomnography and a performance task.
+**Connects.** Back to lesson 1's instruments: this one used polysomnography overnight and
+performance tasks the abstract does not name.
 Forward to lesson 3, which is the same subject measured a completely different way.
 
-**Spaced review of:** lesson 1's instrument question, applied to a reaction-time task.
+**Spaced review of:** lesson 1's instrument question, applied to two measures that moved differently.
 
 ---
 

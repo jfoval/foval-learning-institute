@@ -143,7 +143,7 @@ Rewrite these five lines each session. Nothing else goes in this block.
   names him fails; and sleep disorders, children and adolescents, screens and ordinary indoor light,
   dreams and naps are each left out by name in a stated lesson. **The course's own addition to the
   institute's claim sort is the clock question**: is this claim about how much, or about when.
-  **Lesson 1 is drafted and owes its review.** Next: spawn its Stage 4 review, then draft lesson 2.
+  **Lessons 1 and 2 are drafted. Lesson 1's review is running and lesson 2 owes one.**
 
 - **Note-Taking and Personal Knowledge is through Stage 2**, with 4,600 words of research and a
   4,800-word outline planning eight lessons, an eighteen-item test and a project that runs across
