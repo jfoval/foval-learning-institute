@@ -159,7 +159,7 @@ If producing the work yourself would have taken an afternoon and a lot of effort
 
 The consultants were working on tasks written for the experiment, which were new to them that afternoon. The developers were working in code they had written and maintained for years. The difference is not about subject matter.
 
-There is a detail in how the second study built its outside-the-frontier task that makes the same point from the other side. The authors designed it with BCG, "using as a starting point the type of business cases that BCG uses for its highly competitive job interviews", aiming at "creating a task at which knowledge workers would excel but AI would struggle".[1] So the task where AI made people worse was chosen because people are good at it. That is the reconciliation stated as a study design rather than as a theory.
+There is a detail in how the first study built its outside-the-frontier task that makes the same point from the other side. The authors designed it with BCG, "using as a starting point the type of business cases that BCG uses for its highly competitive job interviews", aiming at "creating a task at which knowledge workers would excel but AI would struggle".[1] So the task where AI made people worse was chosen because people are good at it. That is the reconciliation stated as a study design rather than as a theory.
 
 That paragraph is this course's reading of two studies, and not a finding either study reports. Neither set of authors puts it that way. It is the best account I can give of why two careful trials came out opposite, and you should hold it the way you'd hold any reasonable explanation nobody has tested: use it, and be ready to drop it.
 
@@ -229,7 +229,7 @@ Some readers are here because somebody told them to be. Since 2 February 2025, E
 
 **"The studies show these tools do not work."** Same problem in the other direction. The consultants study found large, consistent gains across creative, analytical, writing and persuasive tasks, and checked that they weren't just spelling and grammar.[1]
 
-**"I can tell whether it is helping me."** Sixteen developers thought they were 20% faster while being 19% slower.[2] That is the single most useful thing on this page, and it applies to you, including now you've read it.
+**"I can tell whether it is helping me."** Sixteen developers thought they were 20% faster while being 19% slower.[2] That applies to you, including now you have read it.
 
 **"This course will teach me the prompts that work."** It'll teach you four or five moves that follow from how the thing works, which is a much smaller number than you will find elsewhere and a much more useful one. One catalogue published in 2024 names fifty-eight separate techniques for prompting in text, and forty more for other kinds of output.[4] Ninety-eight named techniques for one activity is what a field looks like before it knows which of them matter.
 
