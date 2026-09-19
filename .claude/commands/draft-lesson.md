@@ -69,6 +69,16 @@ Confirmed across seventeen lessons in two courses, then again in every course si
     unreachable, while four quiz items graded the reader on the construction as though it were
     established. **Label it where the reader meets it**, in one clause, and keep the footnote for
     the detail.
+22. **A hedge can dress a fabrication, and it reads as scrupulousness.** Measured on 2026-09-19.
+    A Sources entry said a case was reported "from Orbell and Verplanken" and added "this course has
+    not read the Orbell and Verplanken paper itself, so the case is carried at one remove". Nothing
+    in the research file mentioned either name in that connection: **the chain of custody was
+    invented, and then hedged against.** The same entry claimed the body did not quote the case, and
+    the body quoted it. **An unprompted hedge is a thing to check, not a reason to relax**, because
+    the drafter produces them exactly where it is least certain. For a reviewer: every "at one
+    remove", "this course has not read" and "reported from" is a claim about provenance, and
+    provenance claims are checkable against `SOURCES.md` in seconds.
+
     **Measured again on 2026-09-19, three times in one course, and the mechanism is now clear.**
     Time Management lessons 1, 3 and 4 each shipped a constructed case or an attribution labelled
     only in the Sources block, and in two of the three the footnote had **no marker anywhere in the
