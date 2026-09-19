@@ -68,7 +68,15 @@ Confirmed across seventeen lessons in two courses, then again in every course si
     body said no such thing, and in one of them the footnote carried no marker, so it was
     unreachable, while four quiz items graded the reader on the construction as though it were
     established. **Label it where the reader meets it**, in one clause, and keep the footnote for
-    the detail. The convention already exists in this repo: "which is this course's inference from
+    the detail.
+    **Measured again on 2026-09-19, three times in one course, and the mechanism is now clear.**
+    Time Management lessons 1, 3 and 4 each shipped a constructed case or an attribution labelled
+    only in the Sources block, and in two of the three the footnote had **no marker anywhere in the
+    body**, so it was unreachable. The drafter is not forgetting the label. It writes the footnote
+    first, honestly and in full, and the footnote then feels like the job done. **So check the other
+    way round: for every Sources entry that begins "this is the course's own" or "X is constructed",
+    go and find the sentence in the body that says so.** If there is only a marker, that is the
+    defect; if there is not even a marker, the reader cannot reach the admission at all. The convention already exists in this repo: "which is this course's inference from
     the same mechanism rather than a finding", inline, at the point of use.
 21. **Go deeper recommending, describing or ranking a part of a source nobody here has opened.**
     "Read section 4 for the typology, which is the most transferable thing in it", where the
