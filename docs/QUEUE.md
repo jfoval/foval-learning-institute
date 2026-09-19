@@ -67,6 +67,33 @@ Rewrite these five lines each session. Nothing else goes in this block.
   claims about itself, so under root rule 8 it is John's decision and not a drafter's. Nothing is
   blocked: the course is live without it.
 
+- **Habits and Self-Discipline is in flight.** T2, second of the term on running yourself, after
+  Personal Finance. Stages 0, 1 and 2 are done: scaffolded, 3,950 words of research, and a
+  4,570-word outline planning seven lessons, an eighteen-item test and a ten-week project. Lesson 1
+  is next.
+
+  **The research found the thing that shapes the course.** This subject has a good empirical
+  literature and a bad popular one, and the gap is wider than in Time Management. The habit half has
+  a definition, a measurement paradigm and a published methods guide whose authors are candid about
+  what they have not established. The self-control half is in worse shape than a reader expects: the
+  account that made it famous returned d = 0.04 with a confidence interval spanning zero across 23
+  labs and 2,141 participants, on a protocol its own originator vetted.
+
+  **Three numbers in this subject travel further than their evidence**, which gives the course its
+  spine and its last lesson. Twenty-one days is an observation about plastic-surgery patients in a
+  1960 self-help book, with "a minimum of about" lost in transmission. Sixty-six days is an average
+  with a range of 18 to 254. And forty-three percent is the higher of two figures in one paper that
+  says "between a third and a half" and explains why its own two studies disagree.
+
+  **The highest-value fact in the subject is the least repeated one**, and lesson 4 exists to deliver
+  it: missing a single opportunity did not seriously impair habit formation, and automaticity gains
+  resumed afterwards. Outline decision 6 is built on the reader who has failed at this before and
+  been told it was discipline.
+
+  **The Lally study itself is paywalled and was not opened.** It is reported at one remove through
+  two open-access papers by its own author, and outline decision 3 requires lessons to say so in the
+  body wherever the 66 days appears.
+
 - **Time Management is PUBLISHED**, with eight lessons, both assessments, eight Stage 4 reviews
   applied, and eight podcast scripts drafted. T1, seventh and last of the Tools term. It owes eight
   episodes, which is $1.60 and is money and trails; `curriculum/audio-debt.yaml` opened at eight in
