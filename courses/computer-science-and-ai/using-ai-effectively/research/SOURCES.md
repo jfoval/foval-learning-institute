@@ -271,6 +271,21 @@ it may already be wrong.
   systems as it can inappropriately attribute human characteristics to non-human entities." The
   course has to pick a word and should say why. See the contested section.
 
+  **On data privacy (§2.4), which lesson 10 needs.** Three sentences, verbatim. On what training
+  needs: "GAI system training requires large volumes of data, which in some cases may include
+  personal data", and "most model developers do not disclose specific data sources on which models
+  were trained, limiting user awareness of whether personally identifiably information (PII) was
+  trained on and, if so, how it was collected." On what a model can leak back: "during adversarial
+  attacks, LLMs have revealed sensitive information (from the public domain) that was included in
+  their training data. This problem has been referred to as data memorization." And the half a
+  reader will not have thought of: models "may be able to correctly infer PII or sensitive data that
+  was not in their training data nor disclosed by the user by stitching together information from
+  disparate sources", and "these inferences can have negative impact on an individual even if the
+  inferences are not accurate."
+
+  **The last one is the sentence to teach**, because it is the only part of this subject that does
+  not depend on what a particular product's policy says this month.
+
   **On automation bias (§2.7, Human-AI Configuration).** "[D]ue to the complexity and increasing
   reliability of GAI technology, over time, humans may over-rely on GAI systems or may unjustifiably
   perceive GAI content to be of higher quality than that produced by other sources. This phenomenon
