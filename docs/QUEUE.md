@@ -67,52 +67,36 @@ Rewrite these five lines each session. Nothing else goes in this block.
   claims about itself, so under root rule 8 it is John's decision and not a drafter's. Nothing is
   blocked: the course is live without it.
 
-- **Time Management is drafting, lessons 1 to 3 of 8 done.** T1, seventh and last of the Tools
+- **Time Management is drafting, lessons 1 to 5 of 8 done.** T1, seventh and last of the Tools
   term, `status: drafting`. 4,900 words of research and a 5,400-word outline planning eight lessons,
-  a twenty-item test and a fortnight-long project. **All three drafted lessons owe their Stage 4
-  review** and all three are in one now; lessons 4 to 8 are next, and `npm run state` names the one
-  to draft.
+  a twenty-item test and a fortnight-long project. **Lessons 1, 2 and 3 have had their Stage 4
+  review and the fixes are applied and committed**; lessons 4 and 5 are in review. Lessons 6, 7 and
+  8 are next and `npm run state` names the one to draft.
 
-  **The contraction defect went both ways on 2026-09-19 and the second direction is new.** Lesson 2
-  came in at 0.5 per 1,000 body words, which is defect 15 exactly as written. Lesson 3 was then
-  drafted with contractions deliberately in the first pass and came in at **10.7, over the top of
-  the 5 to 8 band**, which took a second pass to bring down to 6.6. So writing them in is right and
-  it is not self-correcting: measure after drafting either way. The band is checked by
-  `npm run validate` in both directions, and it warns on the overshoot as an overcorrection.
+  **Stage 4 failed the fact-check on every one of the first three lessons, and in the same way each
+  time.** Every quotation was verbatim and every figure matched the research file digit for digit.
+  Every single failure was in a sentence with no quotation marks in it: a between-person finding
+  reported as a within-person one, a coinage credited to the paper that borrowed it, a mechanism the
+  source explicitly pre-empts, a cross-reference to a recommendation the other lesson declines to
+  make, an invented reason for a study's attrition. **`/draft-lesson`'s note that this drafter
+  quotes accurately and describes carelessly is now confirmed on a third course**, and the useful
+  instruction for a reviewer is the one already written there: point the review at the sentences
+  with no quotation marks in them.
 
-  **The outline's minute estimates run low here too**, which is now three courses running. Lesson 2
-  was planned at 65 and measures 110. Take `npm run minutes` and ignore the outline's heading.
+  **Two findings changed lessons for the better rather than just repairing them**, which is worth
+  knowing before anybody treats a review as a tax. Lesson 2's worked case claimed eleven hours were
+  "missing" when eleven was the change in a predicted-category total; the real residue is 54 waking
+  hours, and the rule became "go into the residue and name the biggest thing in it" instead of
+  something no reader's sheet would have supported. Lesson 3 picked the three actual-over-predicted
+  ratios that agree, and its own table a hundred lines below gives 1.2; the lesson now runs that
+  division itself.
 
-  **Both of this drafter's measured defects appeared on lesson 1's first pass, exactly as
-  `.claude/commands/draft-lesson.md` numbers 15 and 16 say they will.** The draft came in at 0.3
-  contractions per 1,000 body words and the quiz had the key as the sole longest option in four of
-  six items with three adjacent key repeats. Both are closed on that lesson. **Expect them on every
-  draft and fix them before review rather than after**, which is two passes saved each time.
-
-  **Read the outline's "Six decisions this outline settles" before drafting anything.** Two change
-  what a drafter may write. The course says "your hours" and never "productivity", because the one
-  meta-analysis in the subject finds the wellbeing effect larger than the performance effect, and a
-  course leading with performance would be promising the thing its own evidence supports least. And
-  **every exercise must work for a reader whose week is mostly fixed**: a shift worker, a carer, a
-  self-employed tradesperson. Lesson 6 is built around that reader rather than treating them as an
-  exception.
-
-  **The research found something that shapes the whole course and is worth knowing before you
-  open it.** There is no canonical textbook and there are no university syllabi. The nearest thing
-  to a textbook chapter says the field "has made its way into the literature without being
-  accompanied by empirical research", and that the term itself is misleading because time cannot be
-  managed. The course is short and honest for that reason, and it spends its first two lessons on
-  measurement.
-
-  **The whole trade canon is on the `unread:` line** and the build fails on a citation to any of it.
-  Allen, Covey, Drucker, Lakein, Burkeman and Newport are named in lesson 8 as widely read and cited
-  for nothing. **If John wants one opened properly, Burkeman is the one**, because he argues against
-  the genre's own premise; that is a Stage 1 job and is not blocking.
-
-  **Lesson 8 carries everything perishable**, per Using AI Effectively's pattern, and its worked
-  example is a number traced to nothing: the twenty-three minutes attributed to Gloria Mark's
-  interruption research is in neither paper it is attributed to, and the second paper's actual
-  finding is close to the opposite. Both papers were read for this file.
+  **The contraction defect went both ways in one session and the repair is the unstable part.**
+  Lesson 2 drafted at 0.5 per 1,000 and lesson 5 at 0.3, which is defect 15 as written. Lesson 3
+  was drafted with contractions in deliberately and came in at 10.7, over the band. Lesson 5's
+  repair overshot to 15.0 before landing at 7.2. **Measure after the repair, every time**, and note
+  that a mechanical expansion pass can leave broken clauses behind: one did, and it was caught by
+  eye rather than by the validator.
 
 - **Digital Literacy lessons 1 to 12 are drafted, reviewed, applied and scripted.** The only
   content work left on the course is lesson 13, which is blocked on John below. **Read lesson 8's
@@ -325,6 +309,16 @@ Rewrite these five lines each session. Nothing else goes in this block.
   way to *written* before the next starts. **Never call a course finished while it owes episodes**,
   and never use the word loosely in a report to John: on 2026-09-19 a session wrote "one course
   finished" about a course owing ten episodes, and he had to catch it.
+
+- **Found on 2026-09-19 and written down rather than fixed, per root rule 9.** A chart of the
+  estimate-against-diary gap by decade (1.3 in 1965, 3.6 in 1975, 6.2 in 1985, 2.7 for 1993 to
+  1995, 3.7 for 1998 to 2001, 2.4 for 2003 to 2007) belongs in Time Management lesson 1. Six numbers
+  that make the lesson's own argument for dating every figure, currently a list. It is a media
+  addition rather than a defect, and it has to clear the repo's SVG rules by eye in both themes.
+
+- **Time Management's assessments are not written**, which is correct until the course has six
+  lessons, and `OUTLINE.md` fully specifies both. Lessons 2 and 3 already point at the project.
+  **This is drafting defect 12's shape and must not survive to publish**: write them at lesson 6.
 
 ## The queue, top to bottom
 
