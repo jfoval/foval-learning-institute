@@ -116,6 +116,16 @@ Confirmed across seventeen lessons in two courses, then again in every course si
     table's contents and called it the most useful thing in a paper the course had not downloaded.
     **Recommend the work and state the read level**, which is both honest and usually the better
     recommendation.
+23. **The bolded opener becomes this drafter's default sentence shape, and the count climbs to
+    roughly double the repo's range.** Measured on 2026-09-19 across a whole course: bold ran at 28
+    to 34 spans per 1,000 body words in six of seven lessons, with **three quarters of paragraphs
+    opening on a bolded fragment**, against a repo range of 12 to 25 and an average nearer 17. The
+    first lesson of that course was cut to 21 at its own Stage 4 review and the drafter did it again
+    on the next six. **Bold is emphasis and emphasis is relative**: when most paragraphs begin with
+    it, none of them is emphasised and the page reads as a slide deck. The style guide names it,
+    under "formatting as a substitute for writing". **Check it before handing the lesson over**: if
+    more than about half your paragraphs open bold, the fix is to cut, and the ones to cut first are
+    the section-opening labels and the one-line morals, neither of which needs it.
 
 ## Two mechanical traps
 
