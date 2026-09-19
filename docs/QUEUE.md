@@ -55,6 +55,16 @@ Rewrite these five lines each session. Nothing else goes in this block.
   were being used as though it had, and the same defect came back in lesson 9. Check
   `npm run taught` and the earlier lessons before assuming a word is available.
 
+- **Two things Using AI Effectively's reviews have flagged that no single lesson can fix.**
+  **(a) Five of its six drafted lessons open with a pair**: two results, two things, two requests,
+  two moves, two jobs. That is `courses/CLAUDE.md` rule 2(c), a batch of lessons written in one
+  context reusing each other's turns of phrase, and the fix is a different opening rather than a
+  reword, so changing one of five does nothing. **Lessons 9 to 11 must not open with a pair**, and
+  1 to 6 want a single pass when the course is otherwise done.
+  **(b) `assessments/` is empty while three lessons already point at the course project by section
+  number**, which is defect 12's setup exactly. The outline specifies both the test and the project.
+  Fill them before a fourth lesson adds a fourth pointer.
+
 - **The contraction check has a ceiling now, and it found four drafts on its first run.** It warns
   above 14 per 1,000 body words on drafting courses only. The four: Digital Literacy lesson 11 at
   18.1 and its machine-audit project at 22.8, and Using AI Effectively lessons 2 and 7 at 15.6 and
