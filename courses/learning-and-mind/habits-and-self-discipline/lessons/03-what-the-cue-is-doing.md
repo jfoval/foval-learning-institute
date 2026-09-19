@@ -1,6 +1,6 @@
 ---
 title: What the cue is doing
-minutes: 85
+minutes: 90
 objectives:
   - >-
     Explain what the context does in a habit that motivation does not, and say what two field
@@ -42,8 +42,8 @@ quiz:
       predict less of both. Being observed was constant across conditions. And slowing down would
       also reduce fresh popcorn, which is not what happened.
   - q: >-
-      A man who always smokes outside his office at eleven takes a job working from home and finds
-      the urge has largely gone. What does this lesson say is going on?
+      A woman who has read on the same commuter train for six years moves to a job she walks to,
+      and finds she no longer wants to read in the morning. What does this lesson say is going on?
     options:
       - He has broken the habit, which shows that habits fade once a person has stopped feeding them
       - The cue has gone, and the association needs the context to fire even though it survives
@@ -52,20 +52,20 @@ quiz:
     answer: 1
     explain: >-
       The association is between a context and a response, so removing the context removes the
-      trigger without touching what was learned, which is why such urges return on a visit to the
-      old workplace. Calling it broken claims something about the learning the case does not show.
-      Nothing here measures stress. And the strength of a habit is not what determines whether its
-      cue is present.
+      trigger without touching what was learned, which is why the pull often returns on the first
+      train journey afterwards. Calling it broken claims something about the learning the case does
+      not show. Nothing here measures how much she enjoyed it. And the strength of a habit is not
+      what determines whether its cue is still present.
   - q: >-
       Which of these is the best cue for a habit you want to build?
     options:
-      - When I am feeling motivated in the morning, then I will do ten minutes of stretching
-      - When I get a quiet moment at some point in the day, then I will do ten minutes of stretching
-      - When I am not too tired after work, then I will do ten minutes of stretching
-      - When I have finished brushing my teeth at night, then I will do ten minutes of stretching
+      - When I am feeling motivated in the evening, then I will write in the notebook for a page
+      - When I get a quiet moment at some point in the day, then I will write a page in the notebook
+      - When I am not too tired after work, then I will write a page in the notebook that evening
+      - When I have put the kettle on in the morning, then I will write a page in the notebook
     answer: 3
     explain: >-
-      A cue has to be a context you meet reliably and cannot miss, and finishing at the sink is an
+      A cue has to be a context you meet reliably and cannot miss, and putting the kettle on is an
       event that happens at the same place and time nearly every day. Feeling motivated and not
       being too tired are states you have to check for, and the checking is what fails on the day it
       matters. A quiet moment during the day names no particular moment at all.
@@ -103,17 +103,18 @@ a proxy for that. This lesson is about the context itself: what it actually does
 override what you want, and how to choose one.
 
 It is the first lesson in this course with a technique in it, and the technique is short. Most of
-the lesson is why it works, because a cue chosen without understanding what a cue's for is the
+the lesson is why it works, because a cue chosen without understanding what a cue is for is the
 commonest way habit attempts fail.
 
 ## Popcorn
 
-Two field experiments, and they are the clearest demonstration in this subject.[1]
+Neal, Wood, Wu and Kurlander ran two field experiments in 2011, and this course rates them the
+clearest demonstration in the subject.[4] **A field experiment is one run on real people in the
+place the behaviour normally happens**, which buys realism and costs control.
 
-**Study 1.** Ninety-eight people were recruited at a campus cinema before a regularly scheduled
-film, and sixty more in a meeting room near it. Everyone was given a bottle of water and a box of
-popcorn and told they were rating movie trailers. **Half of them got fresh popcorn. Half got popcorn
-that had been made a week earlier.** Everybody was paid six dollars.
+**Study 1.** Ninety-eight students at a campus cinema, and sixty more in a meeting room. Everyone
+was given a box of popcorn and told they were rating movie trailers, and everybody was paid six
+dollars. **Half of them got fresh popcorn. Half got stale.**
 
 The researchers had also measured, separately, how strong each person's habit of eating popcorn at
 the cinema was.
@@ -124,9 +125,9 @@ fresh popcorn."[1]
 
 Sit with that for a moment. Not that they preferred stale popcorn, and not that they couldn't taste
 it. Their hunger did not predict how much they ate. Their liking did not predict how much they ate.
-**Week-old popcorn and fresh popcorn came out the same.**
+**Stale popcorn and fresh popcorn came out the same.**
 
-:::predict Before you read what broke it. The same people, the same popcorn, and something has to change to make them eat less of the stale. What would you change?
+:::predict So what would break it? The same people, the same popcorn, and something has to change to make them eat less of the stale. What would you change?
 Most people reach for something about the person, and that is the wrong place: tell them it is stale, give them a reason to care,
 make them pay attention.
 
@@ -134,10 +135,12 @@ The two things that actually worked in these experiments were neither. **One was
 the cinema.** In the meeting room, the same kind of habitual eaters ate much less stale popcorn than
 fresh, exactly like everybody else.
 
-**The other was stranger and is the one worth remembering.** In the second experiment, eighty-nine
-participants at the cinema were told to eat with a particular hand, and half were assigned their
-non-dominant one. That alone was enough, which is the surprising part: habitual eaters using the
-wrong hand ate less stale than fresh popcorn, like people without the habit.[1]
+**The other was stranger and is the one worth remembering.** In the second experiment, participants
+at the cinema were told which hand to eat with, and half were given their non-dominant one. That
+alone was enough, which is the surprising part: habitual eaters using the wrong hand ate less stale
+than fresh popcorn, like people without the habit.[1] **This course has read Study 1's design and
+participants and not Study 2's**, so how many people took part in the second experiment is not
+reported here.
 
 Nothing about the popcorn changed. Nothing about their preferences changed. **What changed was whether the response could run off the way it always had done.**
 :::
@@ -146,17 +149,17 @@ Nothing about the popcorn changed. Nothing about their preferences changed. **Wh
 
 The authors summarise both conditions in one sentence. Participants ate out of habit, regardless of
 freshness, "only when currently in the context associated with past performance (i.e., a cinema;
-Study 1) and only when eating in a way that allowed them to automatically execute the response cued
-by that context (i.e., eating with their dominant hand; Study 2)".[1]
+Study 1) and only when eating in a way that allowed" the habitual response to run, which in Study 2
+meant eating with the dominant hand.[1]
 
 **Two requirements, and both had to hold.** The cue had to be present, and the response had to be
 performable in its usual form. Remove either and the behaviour came back under the person's control,
 which the study could see because they started eating less of the stale popcorn.
 
-And the other half of the finding, which the abstract states and which matters as much: "Across all
-conditions, participants with weaker cinema-popcorn-eating habits ate because of motivations such as
-liking for the popcorn."[1] **People without the habit behaved exactly as you would expect people to
-behave.** It's only the habitual eaters whose liking stopped predicting what they did.
+**And notice who this is a finding about.** The people whose eating stopped tracking their hunger
+and their liking were the ones with a strong cinema-popcorn habit. That is what the abstract
+singles out, and it is the reason the experiment shows anything: the same box of stale popcorn, in
+the same room, was eaten one way by people with the habit and another way by people without it.[1]
 
 ### Why this is not a story about weak-willed people
 
@@ -177,7 +180,7 @@ that setting is cueing.
 context was an office doorway at eleven o'clock with the same colleagues in it. Working from home, he
 does not meet it, so nothing fires. That is not willpower and he shouldn't take credit for it.
 
-**What has not happened is that the association has gone.** Nothing in this literature says an
+**What has not happened is that the association has gone.** Nothing this course has read says an
 association decays because its cue stopped appearing. It says the response is activated on exposure
 to the cue, and he simply isn't being exposed.
 
@@ -201,12 +204,14 @@ with the question *would I notice this if I were tired and in a bad mood?* Its r
 getting the behaviour to start at all, on a day you cannot be relied on to decide.
 
 **This course adds why that works and what it therefore requires.** The cue is not a reminder. It is
-one half of an association that gets built by repetition, and the building only happens when the two
-things keep occurring together. So a cue has to clear two bars rather than one.
+one half of an association that gets built by repeated cue-and-response pairings rather than by
+elapsed time,[3] and the building only happens when the two things keep occurring together. So a cue
+has to clear two bars rather than one.
 
 **It has to be noticeable.** That is lesson 4's bar, and the test is unchanged.
 
-**And it has to be reliable.** It has to be a context you actually meet, at a rate that lets the
+**And it has to be reliable**, which is this course's inference from the mechanism rather than a
+finding anybody has reported.[4] It has to be a context you actually meet, at a rate that lets the
 association form. A cue you encounter twice a month isn't a bad reminder; it is a context that'll
 take years to build anything.
 
@@ -248,7 +253,7 @@ Three weeks later he has done it twice.
 **The cue isn't the problem, and it is worth checking that properly before concluding anything.** It
 fired: he sat down on the train fifteen times. What failed is the other half.
 
-His train is standing-room-only three days in four, and the reading's a textbook he has to hold open
+His train is standing-room-only three days in four, and the reading is a textbook he has to hold open
 with both hands.
 
 **So the pairing is wrong rather than either half of it.** A cue can arrive faithfully at a moment
@@ -266,7 +271,7 @@ the question lesson 7 is about, which is whether you want the thing at all.
 built, is what removes the decision. In the early weeks it'll feel like the first and the point of
 the repetition is to make it the second.
 
-**"The best cue is a time of day."** A clock time's a weak context on its own, because your
+**"The best cue is a time of day."** A clock time is a weak context on its own, because your
 relationship to eleven o'clock varies. An event inside the day is usually stronger: after you lock
 the front door, after the last meeting, when the kettle clicks off.
 
@@ -344,7 +349,7 @@ comes back to whether the behaviour was worth automating.
 - **[The Pull of the Past: When Do Habits Persist Despite Conflict With
   Motives?](https://dornsife.usc.edu/wendy-wood/wp-content/uploads/sites/183/2023/10/neal.wood_.wu_.kurlander.2011.the_pull_of_the_past.pdf)**
   (*Personality and Social Psychology Bulletin*, 2011), posted by one of its authors. This course has
-  read the abstract and the designs of both studies. Worth it for the second experiment in
+  read the abstract and Study 1's design and participants. Worth it for the second experiment in
   particular: the reasoning that led somebody to think of testing the non-dominant hand is the most
   instructive thing in the paper, and it is in the text before the results.
 - **[Making health habitual](https://pmc.ncbi.nlm.nih.gov/articles/PMC3505409/)** (*British Journal
@@ -358,11 +363,12 @@ comes back to whether the behaviour was worth automating.
    Persist Despite Conflict With
    Motives?"](https://dornsife.usc.edu/wendy-wood/wp-content/uploads/sites/183/2023/10/neal.wood_.wu_.kurlander.2011.the_pull_of_the_past.pdf),
    *Personality and Social Psychology Bulletin* 37(11), 2011, pages 1428 to 1437. Read in part: the
-   abstract and the design and participants of both studies. Supports: the quoted finding about
+   abstract and Study 1's design and participants; **Study 2's design and sample were not opened**,
+   and the body says so. Supports: the quoted finding about
    habitual popcorn eaters; the quoted sentence giving both conditions under which they ate out of
    habit; the quoted finding about weaker-habit participants eating from motivation; the fresh and
    stale manipulation; and the two designs. **Scope: Study 1, 98 participants at a campus cinema and
-   60 in a meeting room; Study 2, 89 participants, all paid $6, rating movie trailers.**
+   60 in a meeting room, all paid $6, rating movie trailers. Study 2's sample size is not claimed.**
 2. Benjamin Gardner, Phillippa Lally and Jane Wardle, ["Making health
    habitual"](https://pmc.ncbi.nlm.nih.gov/articles/PMC3505409/), *British Journal of General
    Practice* 62(605), 2012, pages 664 to 666. **Read in full.** Supports the quoted advice to choose
