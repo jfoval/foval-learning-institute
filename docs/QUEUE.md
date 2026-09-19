@@ -67,9 +67,17 @@ Rewrite these five lines each session. Nothing else goes in this block.
   claims about itself, so under root rule 8 it is John's decision and not a drafter's. Nothing is
   blocked: the course is live without it.
 
-- **Focus and Deep Work is through Stage 2**, with 3,800 words of research and a 3,900-word outline
-  planning seven lessons, an eighteen-item test and a four-week project. T2, third of the term on
-  running yourself. **Drafting is the next thing.**
+- **Focus and Deep Work has all seven lessons drafted, both assessments written, and Stage 4 reviews
+  applied on lessons 1 to 4.** T2, third of the term on running yourself. **Lessons 5 to 7 owe
+  theirs**, and then the course publishes.
+
+  **Two findings from its reviews are worth knowing before drafting anything anywhere.** The first
+  is that a Stage 4 reviewer who opens the primary document finds things a reviewer working from the
+  research file cannot: lesson 2 said three of five workload measures were significant because
+  `SOURCES.md` had recorded only three, and the paper stars all five. **A research file is a summary,
+  and a footnote pointing at a paper is an instruction to open it.** The second is that the drafter
+  gives every lesson in a course the same quiz answer sequence; `npm run validate` now warns when two
+  neighbouring lessons match.
 
   **The research found the shape of the course and it is unusual.** Three of the four best-known
   empirical claims in this subject have been meta-analysed in the last five years, and in each case
