@@ -67,9 +67,10 @@ Rewrite these five lines each session. Nothing else goes in this block.
   claims about itself, so under root rule 8 it is John's decision and not a drafter's. Nothing is
   blocked: the course is live without it.
 
-- **Focus and Deep Work has all seven lessons drafted, both assessments written, and Stage 4 reviews
-  applied on lessons 1 to 4.** T2, third of the term on running yourself. **Lessons 5 to 7 owe
-  theirs**, and then the course publishes.
+- **Focus and Deep Work is PUBLISHED**, with seven lessons, both assessments, seven Stage 4 reviews
+  applied and a review file for each. T2, third of the term on running yourself. **What it owes is
+  seven podcast scripts**, which are free at the API, and then seven episodes, which are money.
+  `curriculum/audio-debt.yaml` opens its line at 7.
 
   **Two findings from its reviews are worth knowing before drafting anything anywhere.** The first
   is that a Stage 4 reviewer who opens the primary document finds things a reviewer working from the

@@ -254,7 +254,7 @@ The map is deliberately ambitious. Most courses are `planned`. The point of writ
 |---|---|---|---|---|
 | How to Learn Anything | Foundation | published | T1 | Retrieval, spacing, interleaving, deliberate practice. Take this first. |
 | Memory | Foundation | planned | T2 | |
-| Focus and Deep Work | Foundation | drafting | T2 | What attention is when it is measured, what an interruption costs, and how to get a difficult hour out of an ordinary day. |
+| Focus and Deep Work | Foundation | published | T2 | What attention is when it is measured, what an interruption costs, and how to get a difficult hour out of an ordinary day. |
 | Note-Taking and Personal Knowledge | Foundation | planned | T2 | |
 | Reading Faster and Deeper | Foundation | planned | T24 | |
 | How to Learn a Language | Foundation | planned | T24 | What the research says actually works: comprehensible input, spaced review, speaking early, and the honest hours required to reach each level. |
