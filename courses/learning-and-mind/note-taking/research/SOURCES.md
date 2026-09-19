@@ -250,6 +250,12 @@ tables other than Table 6, and three of the four limitation subsections, were no
   during lectures suggests that college students record a small fraction of lecture-presented ideas
   (about 30%) (Flanigan & Titsworth, 2020; Flanigan et al., 2023; Luo et al., 2018) and images
   (about 10–20%) (Flanigan & Titsworth, 2020; Flanigan et al., 2023; Luo et al., 2018)."
+- **How many of the pooled studies counted anything at all**, verbatim, from the same subsection and
+  added to this file on 2026-09-19 while lesson 2 was being drafted: "Only nine of the studies
+  included in our analysis reported the number of lecture ideas students recorded in notes... and
+  just three reported how many lecture images were recorded." The ellipsis replaces a list of
+  citations. And their own verdict on that, verbatim: "Neglecting to do so obscures treatment
+  effects and neglects to ascertain note-taking's true achievement effect."
 - **And the methodological complaint underneath it**, verbatim: "Knowing, for example, that students
   recorded an average of 34 lecture ideas is inconsequential without knowing the number of lecture
   ideas presented. Yet, most of the studies reviewed (n = 15) did not indicate the total number of
