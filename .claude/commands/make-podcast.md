@@ -71,12 +71,29 @@ engine, some still name its voices in `about:`, and all seven run long (1,259 to
   commitment in the script.
 
 **Check the sign-off last, after every trim.** Measured over eight scripts on 2026-09-19: five of
-them named something in the sign-off that the episode had actually delivered. The cause is
-mechanical and will recur. The sign-off is written once, while the script is whole; the trims to get
-under the length ceiling happen afterwards, and each trim moves material out of the episode without
-anybody revisiting the list of what was left out. **Re-read the sign-off against the finished script
-as the last thing you do**, and check each item is in the lesson and genuinely absent from the
-episode.
+them named something in the sign-off that the episode had actually delivered. **Measured again the
+same day over seven more, with the same result: five of seven**, so this is the most reliable defect
+in the stage. The cause is mechanical and will recur. The sign-off is written once, while the script
+is whole; the trims to get under the length ceiling happen afterwards, and each trim moves material
+out of the episode without anybody revisiting the list of what was left out. **Re-read the sign-off
+against the finished script as the last thing you do**, and check each item is in the lesson and
+genuinely absent from the episode.
+
+**The failure has a second cause, and it is the one to design against.** The sign-off gets written
+from the lesson's headings rather than from the script that exists, so it lists the lesson's
+sections and every section the episode covered is wrong. **Write the sign-off by reading the
+finished script**, asking what a listener now knows, and naming only what they would still be
+missing. A heading that the episode covered in a different worked case, or in the listener's own
+words rather than the lesson's, has still been covered.
+
+**A dropped hedge is the other repeated defect, measured on three of seven scripts on 2026-09-19.**
+A lesson narrows a claim and the script gives the claim without the narrowing: a figure reported at
+one remove arrives as flat fact, a criterion of frequency arrives as a test of automaticity, a
+result contradicted by the one study this course read arrives as simply contradicted. **The worst
+version is a quotation run straight into a paraphrase**, where a script gave the recorded fragment
+and then two sentences its lesson explicitly marks as the course's own summary, with nothing between
+them, so a listener would have heard all three as the paper's words. **Where a lesson says "this is
+this course's wording, not the paper's", the script has to say it too**, and it costs one clause.
 
 **And read the script aloud, or at least read it as a listener hears it.** On 2026-09-19 a time
 written for the ear came out as "Sunday eight to five to nine", for the lesson's 20:00 to 20:55.

@@ -67,10 +67,19 @@ Rewrite these five lines each session. Nothing else goes in this block.
   claims about itself, so under root rule 8 it is John's decision and not a drafter's. Nothing is
   blocked: the course is live without it.
 
-- **Habits and Self-Discipline is PUBLISHED**, with seven lessons, both assessments, seven Stage 4
-  reviews applied and a review file for each. T2, second of the term on running yourself. **What it
-  owes is seven podcast scripts**, which are free at the API, and then seven episodes, which are
-  money. `curriculum/audio-debt.yaml` opens its line at 7.
+- **Habits and Self-Discipline is PUBLISHED and WRITTEN**, with seven lessons, both assessments,
+  seven Stage 4 reviews applied with a review file for each, and seven fact-checked podcast scripts.
+  T2, second of the term on running yourself. **Nothing on it is outstanding except seven episodes**,
+  which is money and trails. `curriculum/audio-debt.yaml` opened its line at 7.
+
+  **All seven fact-checks came back FAIL, and five of the seven failed in the sign-off.** That is
+  now the most reliable defect in this stage: the sign-off names as left out something the episode
+  delivered in full, because it is written from the lesson's headings rather than from the script
+  that actually exists. `/make-podcast` already says to check the sign-off last, after every trim,
+  and the instruction needs sharpening to say check it against the script rather than against the
+  lesson. The other repeated failure was a dropped hedge: three scripts widened a claim their lesson
+  had narrowed, and one ran a recorded quotation straight into two sentences the lesson marks as the
+  course's own summary, which would have reached a listener as the paper's words.
 
   **This course is where defect 22's second form was measured, and it is the most useful thing the
   session produced.** The read level is itself a provenance claim, and the drafter raises it exactly
