@@ -134,9 +134,7 @@ it as one. It is a fact about a hard measurement task performed in a few seconds
 single number to carry, which is the first reason this course dates every figure it prints and asks
 you to do the same.
 
-:::predict Before you read on: you are about to be asked to record a week. Write down now, in four
-numbers, how many hours you think you'll spend on paid work, on domestic work, on sleep, and on
-anything you would call leisure. Two minutes, and do not look anything up.
+:::predict Before you read on: you are about to be asked to record a week. Write down now, in four numbers, how many hours you think you'll spend on paid work, on domestic work, on sleep, and on anything you would call leisure. Two minutes, and do not look anything up.
 Keep those four numbers somewhere you will find them, because the exercise at the end of this lesson
 is built on them and lesson 2 reads them.
 
@@ -218,8 +216,7 @@ cared about.
 your week as a moral question. Counting recurring events over a year, from memory, without a record,
 is simply a task people are bad at, and the clubs were good at it because they had a sign-in sheet.
 
-:::checkpoint Somebody says all of this is obvious: of course a rough guess is rough. What is the
-finding that is not obvious?
+:::checkpoint Somebody says all of this is obvious: of course a rough guess is rough. What is the finding that is not obvious?
 Two things, and the first is the shape rather than the existence of the error.
 
 The gap isn't a general fuzziness. It is close to zero in the band where most people sit, and it

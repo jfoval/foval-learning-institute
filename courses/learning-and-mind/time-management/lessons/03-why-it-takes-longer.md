@@ -128,9 +128,7 @@ over, in three different ways:
 The course coordinator recorded when each thesis actually arrived. The means below are from the 33
 subjects for whom both figures existed.[1]
 
-:::predict Before you look at the table: write down two numbers. First, how many days past their
-best estimate you think the average student took. Second, what share of them you think met their
-own worst-case date, the one they gave assuming everything went as badly as it possibly could.
+:::predict Before you look at the table: write down two numbers. First, how many days past their best estimate you think the average student took. Second, what share of them you think met their own worst-case date, the one they gave assuming everything went as badly as it possibly could.
 Most people who do this get the first number roughly right, in the sense of guessing that the work
 ran over, and get the second one badly wrong, usually somewhere between 80 and 95 percent.
 
@@ -215,8 +213,7 @@ Two warnings, so nobody carries this further than it goes. Three ratios from two
 in one country in one decade do not give you a constant, and your own number is the one that matters
 anyway. And a ratio is only stable within a kind of work, which the exercise is designed to show you.
 
-:::checkpoint Someone objects that all of this is about students and essays, and that a person doing
-paid trade work quotes jobs accurately because they get paid by the quote. Is that a good objection?
+:::checkpoint Someone objects that all of this is about students and essays, and that a person doing paid trade work quotes jobs accurately because they get paid by the quote. Is that a good objection?
 It is a good objection and it should not be waved away, but notice what it's actually claiming.
 
 It says the effect is smaller, or absent, where there's a feedback loop with money attached to it.

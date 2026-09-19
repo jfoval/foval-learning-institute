@@ -777,6 +777,32 @@ function lintLessons() {
           });
         }
 
+        // A block's header is ONE PHYSICAL LINE. renderBlocks captures it with
+        // /^:::(kind)[ \t]*(.*)\r?\n/, and `.` does not match a newline, so a header wrapped
+        // at the file's usual column silently becomes a fragment: everything after the first
+        // line falls into the body, behind the reveal button on a :::predict or :::checkpoint.
+        // The question the reader is shown then breaks mid-clause and the instruction they are
+        // meant to act on before reading on is hidden.
+        //
+        // Found on 2026-09-19 by a Stage 4 reviewer reading build.mjs rather than the rendered
+        // page, in nine blocks across four Time Management lessons, all written in one session
+        // by a drafter wrapping prose to 100 columns. Every published course was clean, because
+        // their headers happen to be short. Nothing in the pipeline would have caught it: the
+        // markdown is valid, validate was green, and the defect is invisible in the source.
+        //
+        // The test is a continuation rather than a length: a body whose first line opens with a
+        // lowercase letter while the header does not end a sentence is a wrapped header. A title
+        // followed by a numbered list or a quotation is the normal case and passes.
+        {
+          const re = /^:::(callout|exercise|predict|checkpoint)[ \t]*(.*)\r?\n([\s\S]*?)^:::[ \t]*$/gm;
+          let b;
+          while ((b = re.exec(src)) !== null) {
+            const title = b[2].trim(), first = (b[3].split("\n")[0] || "").trim();
+            if (/^[a-z]/.test(first) && !/[.?!]$/.test(title))
+              fail(`${file}: the :::${b[1]} header is wrapped onto a second line, so the reader is shown only "${title.slice(-45)}" and the rest is hidden in the body. A block header must be one physical line, however long it runs.`);
+          }
+        }
+
         // STYLE_GUIDE: contractions. "Their absence is the fastest way to sound like a
         // manual." Four consecutive Digital Literacy lessons were sent back by Stage 4 for
         // this and nothing else would have caught it: 1 in 4,739 body words on lesson 8,

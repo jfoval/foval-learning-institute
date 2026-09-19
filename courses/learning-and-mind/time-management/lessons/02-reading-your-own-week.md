@@ -144,8 +144,7 @@ the thing you claimed most of is the thing that shrinks.
 **And something will turn up that was not in your four categories at all.** That's the commonest
 outcome of the exercise and it is usually the most useful line on the page.
 
-:::predict Look at your own three columns before reading on. Which of your four categories is the
-furthest out, in hours, and which is furthest out as a share of what you predicted?
+:::predict Look at your own three columns before reading on. Which of your four categories is the furthest out, in hours, and which is furthest out as a share of what you predicted?
 They're often not the same category, and the difference between those two questions is worth two
 minutes of your time.
 
@@ -256,8 +255,7 @@ cannot. You don't have to act on any of them today. You have to get them out of 
 the sheet, because lesson 6 is about deciding what not to do, and it operates entirely on this
 column.
 
-:::checkpoint A reader says the sort is pointless because all of his hours are fixed. Everything is
-work, sleep, the commute, or his children, and there is no third category. What should he do?
+:::checkpoint A reader says the sort is pointless because all of his hours are fixed. Everything is work, sleep, the commute, or his children, and there is no third category. What should he do?
 Two things, and neither of them is to argue with him.
 
 **First, he should have the number.** If the honest answer is three discretionary hours a week, then
