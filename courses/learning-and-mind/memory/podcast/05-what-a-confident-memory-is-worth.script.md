@@ -1,14 +1,25 @@
 ---
 source: courses/learning-and-mind/memory/lessons/05-what-a-confident-memory-is-worth.md
 written_by: Claude, by hand, from the lesson text
+checked: >-
+  Fact-checked in a fresh-context subagent against the lesson on 2026-09-19: verdict FAIL on one
+  finding, plus seven nits, and every one is fixed in this file. Every quotation was matched
+  character for character, which matters here because a fabricated quotation was found in this
+  lesson at its Stage 4 review; all four qualifications travel with every claim they travel with in
+  the lesson. The finding was the sign-off naming a misconception as left out when it was the
+  episode's longest passage; the sign-off now names only the two exercises. Also fixed: an `about`
+  block that disagreed with its own sign-off, the "e.g." dropped from the paper's example list,
+  "suspect-ID" dropped from a quoted phrase, a strengthened claim about what people guess, an
+  exercise described a shade firmer than the lesson, and the stated duration. The course has no
+  standpoint to preserve.
 about: >-
-  About six minutes. Haley opens. Hosts are John (S1) and Haley (S2). Fifth episode for Memory, and
+  About seven minutes. Haley opens. Hosts are John (S1) and Haley (S2). Fifth episode for Memory, and
   the one the lesson itself calls the hardest to write. The episode carries every qualification the
   lesson attaches to the claim: adults, initial, the five conditions, and the jurisdictions that
-  have not adopted them. It leaves the second exercise and the misconception list to the lesson,
-  and the sign-off says so.
+  have not adopted them. It leaves both exercises to the lesson,
+  and the sign-off names both.
 speakers: 2
-approx_minutes: 6
+approx_minutes: 7
 ---
 
 S2: Welcome in. This is the Foval Learning Institute podcast, where the two of us talk a lesson through. I'm Haley.
@@ -37,7 +48,7 @@ S1: Wixted and Wells, twenty seventeen. This course read its Summary, its Box th
 
 S2: Then their question.
 
-S1: In their words. After thirty years of research, the time seems ripe to ask how eyewitness confidence informs accuracy under more pristine testing conditions. Initial, uncontaminated memory tests using fair lineups, with no lineup administrator influence, and with an immediate confidence statement.
+S1: In their words. After thirty years of research, the time seems ripe to ask how eyewitness confidence informs accuracy under more pristine testing conditions, and their examples of those are initial, uncontaminated memory tests using fair lineups, with no lineup administrator influence, and with an immediate confidence statement.
 
 S2: And their answer.
 
@@ -55,11 +66,11 @@ S1: I'll say it, and I'll say first that these five sentences are the course's o
 
 S2: Give me the numbers. What is a high-confidence identification actually worth?
 
-S1: In one police-department field study the synthesis analyses, of seventy-two suspect identifications made with high confidence at the identification itself, ninety-six percent were correct. A signal-detection model fitted to those data estimated high-confidence accuracy at approximately ninety-seven percent correct.
+S1: In one police-department field study the synthesis analyses, of seventy-two suspect identifications made with high confidence at the identification itself, ninety-six percent were correct. A signal-detection model fitted to those data estimated high-confidence suspect identification accuracy at approximately ninety-seven percent correct.
 
 S2: Higher than I'd have guessed.
 
-S1: Almost everybody guesses too low there, and too high at the other end. The same model estimated low-confidence accuracy at closer to fifty percent correct.
+S1: Both guesses are usually wrong, and in opposite directions. People go too low for high confidence and too high for low. The same model estimated low-confidence accuracy at closer to fifty percent correct.
 
 S2: Fifty.
 
@@ -87,6 +98,6 @@ S1: It's a mouthful. Under five stated procedural conditions, for adults, an ini
 
 S2: What's in the lesson we haven't done?
 
-S1: An exercise that has you take a real identification procedure from a news report or a case write-up and check it against Box three one condition at a time, where the commonest answer is that the account doesn't say. A second exercise on writing the strongest case for the traditional position and then against it, same length, using the synthesis's own words for both. And three things people get wrong about this, including the one about a confident witness in court.
+S1: An exercise that has you take a real identification procedure from a news report or a case write-up and check it against Box three one condition at a time, where the commonest answer is that the account doesn't say. And a second exercise on writing the strongest case for the traditional position and then against it, same length, using the synthesis's own words where you can. That one is harder than it looks.
 
 S2: Read it at Foval Learning Institute dot org. Lesson six next, and it's lighter.

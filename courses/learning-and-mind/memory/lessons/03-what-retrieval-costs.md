@@ -160,6 +160,45 @@ Three numbers, and reading them together is the lesson.
 | Studies not controlling output interference | 124 | 10.9% | 9.4% to 12.4% |
 | Studies controlling output interference | 79 | 5.0% | 3.7% to 6.3% |
 
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 320" width="100%" style="max-width:460px;display:block;margin:1.5em auto;font-family:system-ui,sans-serif" role="img" aria-labelledby="rif-title rif-desc">
+<title id="rif-title">The same effect, pooled three ways, with its confidence intervals</title>
+<desc id="rif-desc">Three horizontal intervals on a scale of raw mean difference in recall, from zero to fourteen percent. All studies pooled, 193 samples, sits at 8.7 percent with an interval from 7.5 to 9.8. Studies that did not control output interference, 124 samples, sit at 10.9 percent with an interval from 9.4 to 12.4. Studies that did control it, 79 samples, sit at 5.0 percent with an interval from 3.7 to 6.3. A dashed line marks zero. None of the three intervals touches it, and the top and bottom intervals do not overlap each other.</desc>
+<text x="8" y="22" font-size="16" font-weight="700" fill="var(--text, #111418)">The same effect, pooled three ways</text>
+<text x="8" y="42" font-size="15" fill="var(--text-2, #4a5260)">Raw mean difference in recall, with 95 percent intervals</text>
+<line x1="60" y1="66" x2="60" y2="262" stroke="var(--text-2, #4a5260)" stroke-width="2" stroke-dasharray="6 4"/>
+<text x="8" y="60" font-size="15" fill="var(--text-2, #4a5260)">no effect</text>
+<text x="8" y="80" font-size="15" font-weight="600" fill="var(--text-2, #4a5260)">All studies pooled, 193 samples</text>
+<line x1="263.6" y1="96" x2="326.0" y2="96" stroke="var(--text-2, #4a5260)" stroke-width="3"/>
+<line x1="263.6" y1="88" x2="263.6" y2="104" stroke="var(--text-2, #4a5260)" stroke-width="2"/>
+<line x1="326.0" y1="88" x2="326.0" y2="104" stroke="var(--text-2, #4a5260)" stroke-width="2"/>
+<circle cx="296.1" cy="96" r="6" fill="var(--text, #111418)"/>
+<text x="338" y="101" font-size="15" fill="var(--text, #111418)">8.7%</text>
+<text x="8" y="145" font-size="15" font-weight="600" fill="var(--oxblood, #8b1e2d)">Not controlling output interference, 124</text>
+<line x1="315.1" y1="161" x2="396.6" y2="161" stroke="var(--oxblood, #8b1e2d)" stroke-width="3"/>
+<line x1="315.1" y1="153" x2="315.1" y2="169" stroke="var(--oxblood, #8b1e2d)" stroke-width="2"/>
+<line x1="396.6" y1="153" x2="396.6" y2="169" stroke="var(--oxblood, #8b1e2d)" stroke-width="2"/>
+<circle cx="355.9" cy="161" r="6" fill="var(--oxblood, #8b1e2d)"/>
+<text x="408" y="166" font-size="15" fill="var(--oxblood, #8b1e2d)">10.9%</text>
+<text x="8" y="210" font-size="15" font-weight="600" fill="var(--gold, #b08d2a)">Controlling output interference, 79</text>
+<line x1="160.4" y1="226" x2="231.0" y2="226" stroke="var(--gold, #b08d2a)" stroke-width="3"/>
+<line x1="160.4" y1="218" x2="160.4" y2="234" stroke="var(--gold, #b08d2a)" stroke-width="2"/>
+<line x1="231.0" y1="218" x2="231.0" y2="234" stroke="var(--gold, #b08d2a)" stroke-width="2"/>
+<circle cx="195.7" cy="226" r="6" fill="var(--gold, #b08d2a)"/>
+<text x="243" y="231" font-size="15" fill="var(--gold, #b08d2a)">5.0%</text>
+<line x1="60" y1="262" x2="440" y2="262" stroke="var(--text-2, #4a5260)" stroke-width="1"/>
+<line x1="60" y1="262" x2="60" y2="268" stroke="var(--text-2, #4a5260)" stroke-width="1"/>
+<line x1="195.7" y1="262" x2="195.7" y2="268" stroke="var(--text-2, #4a5260)" stroke-width="1"/>
+<line x1="331.4" y1="262" x2="331.4" y2="268" stroke="var(--text-2, #4a5260)" stroke-width="1"/>
+<text x="54" y="286" font-size="15" fill="var(--text-2, #4a5260)">0</text>
+<text x="184" y="286" font-size="15" fill="var(--text-2, #4a5260)">5%</text>
+<text x="318" y="286" font-size="15" fill="var(--text-2, #4a5260)">10%</text>
+<text x="8" y="310" font-size="15" fill="var(--text-2, #4a5260)">Murayama and colleagues, 2014</text>
+</svg>
+
+The two coloured intervals do not overlap, and neither of them touches zero. **That is the whole
+table in one picture**: something is there under both designs, and how much is there depends on how
+the final test was run.
+
 The same phenomenon is eleven percent or five percent depending on one choice about how the final
 test is run. Both intervals exclude zero, so something is there in both. And a single reported
 figure is a statement about the method as much as about memory, which is **Focus and Deep Work**

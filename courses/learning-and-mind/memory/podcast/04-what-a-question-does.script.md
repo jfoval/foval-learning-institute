@@ -1,21 +1,31 @@
 ---
 source: courses/learning-and-mind/memory/lessons/04-what-a-question-does.md
 written_by: Claude, by hand, from the lesson text
+checked: >-
+  Fact-checked in a fresh-context subagent against the lesson on 2026-09-19: verdict PASS WITH
+  NITS, and all six nits are fixed in this file. Every verb, every mean estimate, the sixteen,
+  seven and six, and all the arithmetic were verified, as was the read level, which this lesson
+  turns on and which the episode states three times. Fixed: a continuity error attributing a line
+  to the wrong host, an evaluation of lesson 5 the lesson does not make, the trace's own limit at
+  step two, the second route to a distinguishing test, "that is a real difference" restored beside
+  the small-study point, and the invitation to go and read the paper, which the lesson makes twice
+  and the episode had dropped. Stated duration corrected to seven minutes. The course has no
+  standpoint to preserve.
 about: >-
-  About six minutes. Haley opens. Hosts are John (S1) and Haley (S2). Fourth episode for Memory.
+  About seven minutes. Haley opens. Hosts are John (S1) and Haley (S2). Fourth episode for Memory.
   The episode runs both experiments, the two interpretations, the size of the result, and the trace
   that could not reach the paper, which is the lesson's real subject. It leaves both exercises and
   the misconception list to the lesson, and the sign-off says so. The read level is stated three
   times, because the whole lesson turns on it.
 speakers: 2
-approx_minutes: 6
+approx_minutes: 7
 ---
 
 S2: Welcome in. This is the Foval Learning Institute podcast, where the two of us talk a lesson through. I'm Haley.
 
 S1: And I'm John. Today we're in Memory, lesson four. What a question does to a memory.
 
-S2: You told me at the end of the last one that this is the famous one.
+S2: This is the famous one.
 
 S1: The most famous experiment in the subject, and the lesson is about two things. What it found, and how hard it turned out to be to check.
 
@@ -53,11 +63,11 @@ S1: That the question changed what they had. The word entered the memory, the as
 
 S2: Those are very different claims.
 
-S1: Very. And they predict the same result in this experiment, which is why it can't tell them apart. What would separate them is something sensitive to what somebody has rather than to what they say. This course can't answer it from what it read, and the lesson says that's the shape of a test rather than a report of one.
+S1: Very. And the lesson's own reasoning, marked as its own, is that they predict the same result in this experiment, which is why it can't tell them apart. What would separate them is something sensitive to what somebody has rather than to what they say, or a design where the two accounts predict different outcomes. This course can't answer it from what it read, and the lesson says that's the shape of a test rather than a report of one.
 
 S2: Let me ask about the size, because sixteen against six isn't many people.
 
-S1: It isn't, and the lesson looks straight at it. The difference between the smashed condition and the control is ten people, out of a hundred that were asked. Between smashed and hit it's nine. Ten is the comparison the lesson rests on, because the control group is the one that was asked no speed question at all.
+S1: It isn't, and the lesson looks straight at it. The difference between the smashed condition and the control is ten people, out of a hundred that were asked. Between smashed and hit it's nine. Ten is the comparison the lesson rests on, because the control group is the one that was asked no speed question at all. That's a real difference and it's a very small study.
 
 S2: And that's the foundation of an idea I've heard my whole life.
 
@@ -73,7 +83,7 @@ S1: This course tried to read the original and couldn't, and the lesson walks yo
 
 S2: Step two.
 
-S1: No copy this course could reach turned out to be the paper. Step three. What was reachable was a teaching summary, published by an examination board as a resource for students, giving both experiments, both tables and the authors' two interpretations. Step four. So the figures in this lesson are at one remove. They agree with the other summaries the course could reach, and agreement between summaries is not verification. It's what you'd see either way, because summaries copy each other.
+S1: No copy this course could reach turned out to be the paper, and whether it's open access somewhere the course didn't look isn't something the trace establishes. Step three. What was reachable was a teaching summary, published by an examination board as a resource for students, giving both experiments, both tables and the authors' two interpretations. Step four. So the figures in this lesson are at one remove. They agree with the other summaries the course could reach, and agreement between summaries is not verification. It's what you'd see either way, because summaries copy each other.
 
 S2: Somebody's going to say that's over-scrupulous. The figures are in twenty textbooks and they all agree.
 
@@ -81,10 +91,10 @@ S1: The weaker answer is that twenty textbooks agreeing is one source, twenty ti
 
 S2: Is there a cost to the fuss?
 
-S1: There is, and the lesson owns it. This is a real, well-replicated phenomenon, and anybody who takes away "the broken glass study is dodgy" has learned the wrong thing. The study is fine as far as this course can tell. What's uncertain is this course's access to it, which is a statement about the course.
+S1: There is, and the lesson owns it. This is a real, well-replicated phenomenon, and anybody who takes away "the broken glass study is dodgy" has learned the wrong thing. The study is fine as far as this course can tell. What's uncertain is this course's access to it, which is a statement about the course. And if you can reach the paper, you'll know something this course doesn't, which the lesson says twice.
 
 S2: What's in the lesson that we haven't done?
 
 S1: An exercise that has you trace a famous study yourself in twenty minutes, with the five ways that can end and all of them counting as results. A second one on writing the same question two ways, neutrally and with a frame. And three things people get wrong about this study, including the commonest, which inflates sixteen out of fifty into everybody.
 
-S2: Read it at Foval Learning Institute dot org. Lesson five next, and John tells me it's the best one.
+S2: Read it at Foval Learning Institute dot org. Lesson five next, which is the same subject with the stakes turned up.

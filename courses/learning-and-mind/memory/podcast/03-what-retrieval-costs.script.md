@@ -1,13 +1,21 @@
 ---
 source: courses/learning-and-mind/memory/lessons/03-what-retrieval-costs.md
 written_by: Claude, by hand, from the lesson text
+checked: >-
+  Fact-checked in a fresh-context subagent against the lesson on 2026-09-19: verdict PASS WITH
+  NITS, and all four nits are fixed in this file. The verbatim conclusion was matched word for
+  word, every figure checked, and both "this is the course's own reasoning" labels were confirmed
+  to survive. Fixed: the exclusion that qualifies the headline effect size, the dropped "95
+  percent", an "both intervals" with no antecedent for a listener, and a closing line describing
+  lesson 4 in words that come from lesson 4 rather than from this one. Stated duration corrected
+  to seven minutes. The course has no standpoint to preserve.
 about: >-
-  About six minutes. Haley opens. Hosts are John (S1) and Haley (S2). Third episode for Memory.
+  About seven minutes. Haley opens. Hosts are John (S1) and Haley (S2). Third episode for Memory.
   The episode runs the phenomenon, the three pooled figures, output interference, the unsettled
   mechanism, and the reconciliation with retrieval practice. It leaves the two revision weeks and
   both exercises to the lesson, and the sign-off says so.
 speakers: 2
-approx_minutes: 6
+approx_minutes: 7
 ---
 
 S2: Welcome in. This is the Foval Learning Institute podcast, where the two of us talk a lesson through. I'm Haley.
@@ -32,15 +40,15 @@ S1: The middle group. They come out worse than the untouched ones. Not the ones 
 
 S2: That's unsettling. How big is it?
 
-S1: Murayama, Miyatsu, Buchli and Storm published the meta-analysis in twenty fourteen. This course read its abstract, its overall effect sizes and its output-interference analysis, and not the theoretical sections. The headline effect size is a g of nought point three five, with a confidence interval from nought point three two to nought point three eight, across four hundred and seventy-two samples.
+S1: Murayama, Miyatsu, Buchli and Storm published the meta-analysis in twenty fourteen. This course read its abstract, its overall effect sizes and its output-interference analysis, and not the theoretical sections. The headline effect size, excluding studies where retrieval practice was replaced by something else, is a g of nought point three five, with a ninety-five percent confidence interval from nought point three two to nought point three eight, across four hundred and seventy-two samples.
 
 S2: I can't picture that.
 
-S1: Nor can I, which is why the lesson is built on the raw numbers instead. In the authors' words, the average raw mean difference was eight point seven percent for the entire sample, ten point nine percent for samples that did not control output interference, and five point nought percent for samples that did.
+S1: Nor can I, which is why the lesson is built on the raw numbers instead. In the authors' words, the average raw mean difference was eight point seven percent for the entire sample, ten point nine percent for samples that did not control output interference, and five point nought percent for samples that did. Each of those comes with its own interval, and none of the three reaches zero.
 
 S2: So it halves.
 
-S1: It halves, on one choice about how the final test is run. And both intervals exclude zero, so something is there in both. A single reported figure here is a statement about the method as much as about memory.
+S1: It halves, on one choice about how the final test is run. And something is there under both designs. A single reported figure here is a statement about the method as much as about memory.
 
 S2: Then explain output interference, because that's doing all the work.
 
@@ -86,4 +94,4 @@ S2: What have we left?
 
 S1: A worked case with two students revising the same twelve-topic syllabus two different ways, which is where you can see the trade rather than being told about it. An exercise that has you map your own coverage, and most people find they've actually retrieved a third of their material or less. And a second exercise on reading a method rather than a result, which is the habit the whole institute runs on.
 
-S2: Read it at Foval Learning Institute dot org. Lesson four next, and it's the famous one.
+S2: Read it at Foval Learning Institute dot org. Lesson four next, which is what a question does to a memory.

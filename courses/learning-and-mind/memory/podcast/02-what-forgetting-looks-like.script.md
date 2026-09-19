@@ -1,13 +1,22 @@
 ---
 source: courses/learning-and-mind/memory/lessons/02-what-forgetting-looks-like.md
 written_by: Claude, by hand, from the lesson text
+checked: >-
+  Fact-checked in a fresh-context subagent against the lesson on 2026-09-19: verdict PASS WITH
+  NITS, and all five nits are fixed in this file. Both quotations were verified verbatim and every
+  figure matched, including Priya's arithmetic in both directions. Fixed: the `about` block
+  disagreed with the finished sign-off, the sign-off oversold the sourcing note, it asserted
+  something the lesson does not say, the hedge about which measure runs higher was missing at the
+  point where the two numbers are given, and the spacing attribution was broadened from How to
+  Learn Anything lesson 4 to the whole course. Stated duration corrected to seven minutes. The
+  course has no standpoint to preserve.
 about: >-
-  About six minutes. Haley opens. Hosts are John (S1) and Haley (S2). Second episode for Memory.
+  About seven minutes. Haley opens. Hosts are John (S1) and Haley (S2). Second episode for Memory.
   The episode runs the savings measure, the one-subject sample, the jump at twenty-four hours, and
-  the two-instrument worked case. It leaves the second exercise and the full sourcing note to the
-  lesson, and the sign-off says so.
+  the two-instrument worked case. It leaves both exercises and the sourcing note to the lesson, and
+  the sign-off names all three.
 speakers: 2
-approx_minutes: 6
+approx_minutes: 7
 ---
 
 S2: Welcome in. This is the Foval Learning Institute podcast, where the two of us talk a lesson through. I'm Haley.
@@ -84,7 +93,7 @@ S1: On Friday somebody asks her to write down as many as she can. She gets four.
 
 S2: And savings?
 
-S1: Same Friday, she relearns the list to the same standard. Seven minutes against the original eighteen. On a savings measure she's retained about sixty percent.
+S1: Same Friday, she relearns the list to the same standard. Seven minutes against the original eighteen. On a savings measure she's retained about sixty percent. And notice which way the gap runs in her case: savings is the larger of the two. Whether that holds generally isn't something this course can tell you, because no source it read compares the two measures on the same material.
 
 S2: Same person, same material, same day.
 
@@ -92,14 +101,14 @@ S1: And two answers that differ by a factor of three. Neither is wrong. They're 
 
 S2: So is the curve useless?
 
-S1: No, and the reason is worth more than the curve. What it establishes is the shape of the problem, and the shape is what you act on. Forgetting is fast at first and slows down. That isn't in doubt, it's what the replication reproduced, and it's why the spacing advice in How to Learn Anything is built the way it is. The first review matters more than the fourth.
+S1: No, and the reason is worth more than the curve. What it establishes is the shape of the problem, and the shape is what you act on. Forgetting is fast at first and slows down. That isn't in doubt, it's what the replication reproduced, and it's why How to Learn Anything lesson four's spacing advice is built the way it is. The first review matters more than the fourth.
 
 S2: And what it doesn't establish.
 
-S1: Any number you should plan with. The interval schedules in that earlier course come from studies designed for the purpose, not from this curve, and nothing here undermines them.
+S1: Any number you should plan with. The interval schedule that lesson gives you comes from studies designed for the purpose, not from this curve, and nothing here undermines it.
 
 S2: What's left in the lesson?
 
-S1: An exercise that has you measure savings on yourself over a week, in three short sittings, which is the only way I know to feel the difference between the two numbers. A second exercise on finding the curve in the wild and checking four things about how it's presented. And the sourcing note, which says exactly which claims are the course's own reasoning rather than the paper's.
+S1: An exercise that has you measure savings on yourself over a week, in three short sittings, so the two numbers are yours rather than Priya's. A second exercise on finding the curve in the wild and checking four things about how it's presented. And the sourcing note, which sets out every claim in the lesson that is the course's own reasoning rather than the paper's.
 
 S2: Read it at Foval Learning Institute dot org. Lesson three next.

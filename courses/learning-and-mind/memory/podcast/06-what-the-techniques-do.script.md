@@ -1,14 +1,23 @@
 ---
 source: courses/learning-and-mind/memory/lessons/06-what-the-techniques-do.md
 written_by: Claude, by hand, from the lesson text
+checked: >-
+  Fact-checked in a fresh-context subagent against the lesson on 2026-09-19: verdict PASS WITH
+  NITS, and both nits are fixed in this file. The three things this lesson was sent back for at
+  Stage 4 were checked specifically and all three are clear: no "against an active control", the
+  technique's description is not sourced to the abstract, and no figure for how much the trained
+  group improved appears anywhere. Fixed: the sign-off called both sentences of the invented claim
+  true where the lesson says neither is a lie, and the worked route demonstration was not labelled
+  as constructed. Stated duration corrected to seven minutes. The course has no standpoint to
+  preserve.
 about: >-
-  About six minutes. Haley opens. Hosts are John (S1) and Haley (S2). Sixth episode for Memory. The
+  About seven minutes. Haley opens. Hosts are John (S1) and Haley (S2). Sixth episode for Memory. The
   episode runs the worked demonstration on a five-point route, the three-arm design and why the
   middle arm is there, the figure the lesson refuses to give, and the transfer question. It leaves
   the worked sorting of an advertising claim and both exercises to the lesson, and the sign-off
   says so.
 speakers: 2
-approx_minutes: 6
+approx_minutes: 7
 ---
 
 S2: Welcome in. This is the Foval Learning Institute podcast, where the two of us talk a lesson through. I'm Haley.
@@ -25,7 +34,7 @@ S1: The method of loci, which is the oldest technique in the subject. And here i
 
 S2: Show me. I'd rather do it than be told about it.
 
-S1: Then take a route. The front door. The hall table. The bottom stair. The bathroom sink. The bedroom window. Five points, in the order you'd walk them. And five things to buy. Bleach, a birthday card, batteries, bread, a bicycle pump. Bleach is poured over the front door, running down it and taking the paint off. The birthday card is on the hall table, propped open and singing. The batteries are stacked on the bottom stair, so you tread on them and they roll.
+S1: Then take a route, and I should say the route and the list are both invented. The front door. The hall table. The bottom stair. The bathroom sink. The bedroom window. Five points, in the order you'd walk them. And five things to buy. Bleach, a birthday card, batteries, bread, a bicycle pump. Bleach is poured over the front door, running down it and taking the paint off. The birthday card is on the hall table, propped open and singing. The batteries are stacked on the bottom stair, so you tread on them and they roll.
 
 S2: And the last two are mine.
 
@@ -93,6 +102,6 @@ S1: If you've got ordered arbitrary material you must hold, this is the only met
 
 S2: What's in the lesson we haven't done?
 
-S1: An invented advertising claim, sorted sentence by sentence, where both sentences are true and the selling happens in putting them next to each other. An exercise that has you build a palace properly and use it twice a week apart, to find out what it costs rather than whether it works. And a second exercise on sorting a memory product by the level it claims against the level its evidence reaches.
+S1: An invented advertising claim, sorted sentence by sentence, where neither sentence is a lie and the selling happens in putting them next to each other. An exercise that has you build a palace properly and use it twice a week apart, to find out what it costs rather than whether it works. And a second exercise on sorting a memory product by the level it claims against the level its evidence reaches.
 
 S2: Read it at Foval Learning Institute dot org. Lesson seven next, and it's the last one.

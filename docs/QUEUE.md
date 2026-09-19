@@ -83,12 +83,13 @@ Rewrite these five lines each session. Nothing else goes in this block.
 
 - **Memory is published**, seven lessons, an eighteen-item test and the project. Every lesson has
   been through Stage 4 in a fresh context and every finding is applied; `research/reviews/` has a
-  file each. Audio debt opened at 7. **Next for it: seven podcast scripts to reach written**, which
-  costs nothing at the API.
+  file each. **It is also written**: seven fact-checked podcast scripts, two of which came back
+  FAIL and both on the same defect, a sign-off naming as left out something the episode had just
+  delivered. Audio debt stands at 7. **Nothing is owed for it but the rendering**, which waits on
+  the daily quota with the other 34 episodes.
 
-  **One thing is left undone and is not a blocker.** The course has no chart, image or video in any
-  lesson, and two reviewers raised it. Lesson 3's three-row table of pooled figures with their
-  confidence intervals is the obvious candidate for one.
+  Lesson 3 now carries the course's one chart, the three pooled figures with their confidence
+  intervals, which is what two reviewers asked for.
 
   **The project was written before lesson 7 rather than after it**, on the course-wide review's
   note: lesson 1's first exercise stakes an irreversible instruction on the project existing, and a

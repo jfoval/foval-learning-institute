@@ -1,14 +1,25 @@
 ---
 source: courses/learning-and-mind/memory/lessons/01-what-memory-is-not.md
 written_by: Claude, by hand, from the lesson text
+checked: >-
+  Fact-checked in a fresh-context subagent against the lesson on 2026-09-19: verdict FAIL on one
+  finding, plus ten nits, and every one is fixed in this file. The finding was the sign-off naming
+  the five-source table as left to the lesson when the episode had just read the whole "on whom"
+  column; it now names the table's other columns instead. Also fixed: lesson six called a fourth
+  lesson, a superlative the lesson does not make, "the one that matters" replacing "the second
+  experiment", "plus memory athletes" restored to the mnemonic row, the founding measurement
+  correctly attributed to the study the 2015 paper replicates rather than to it, an evaluation
+  attributed to the lesson that the lesson does not make, and the stated duration corrected to
+  seven minutes. Every figure and every hedge was verified clean, including the checkpoint's five
+  qualifications. The course has no standpoint to preserve.
 about: >-
-  About six minutes. Haley opens, as every script does, because the engine gives the first turn to
+  About seven minutes. Haley opens, as every script does, because the engine gives the first turn to
   the second voice. Hosts are John (S1) and Haley (S2). First episode for Memory. The episode runs
   the recording-versus-assembly contrast, the scope table's third column, and the over-correction
-  the checkpoint refuses. It leaves the constructed worked case and the course's list of omissions
-  to the lesson, and the sign-off says so.
+  the checkpoint refuses. It leaves the constructed worked case, the table's other
+  columns and the course's list of omissions to the lesson, and the sign-off says so.
 speakers: 2
-approx_minutes: 6
+approx_minutes: 7
 ---
 
 S2: Welcome in. This is the Foval Learning Institute podcast, where the two of us talk a lesson through. I'm Haley.
@@ -33,11 +44,11 @@ S1: Good, because the lesson answers that, and it flags the answer as the course
 
 S2: And has anybody measured that?
 
-S1: Lesson five, and the answer there turns out to be conditional, which is the most interesting thing in the course. Two. On a recording model, asking somebody about an event doesn't change the recording. On an assembly account it can, because the question supplies material to the assembly. That's lesson four. Three. On a recording model, recalling one thing has no effect on the recordings next to it. On an assembly account it might, because retrieval is an act rather than a read. That's lesson three.
+S1: Lesson five, and the answer there turns out to be conditional. Two. On a recording model, asking somebody about an event doesn't change the recording. On an assembly account it can, because the question supplies material to the assembly. That's lesson four. Three. On a recording model, recalling one thing has no effect on the recordings next to it. On an assembly account it might, because retrieval is an act rather than a read. That's lesson three.
 
 S2: So the course is three tests of one idea.
 
-S1: More or less. And then a fourth lesson on the technique everybody asks about, and a last one on how to read the next claim you meet.
+S1: More or less. Then lesson six is the techniques everybody asks about, and lesson seven is what stays useful once every figure in the course has dated.
 
 S2: Can I push on the evidence? Because I've noticed this subject gets talked about very confidently.
 
@@ -45,15 +56,15 @@ S1: Please, because the lesson does something unusual here. It prints a table of
 
 S2: Go on then.
 
-S1: The forgetting curve replication, which is lesson two and the founding measurement of the whole field. One subject. One person, over seventy hours.
+S1: The forgetting curve replication, which is lesson two. It replicates the study that founded the field, and both had one subject. One person, over seventy hours.
 
 S2: One.
 
-S1: One. The leading question experiments, which are the most famous thing in the subject. A hundred and fifty participants in the one that matters, in nineteen seventy-four. The mnemonic training study, which is lesson six. About fifty people. The eyewitness synthesis is a review of a literature rather than a single study, and it's about adults, on initial identifications, under lineup conditions many places haven't adopted. And the pooled review in lesson three covers four hundred and seventy-two samples from the published literature, and the lesson says plainly that this course didn't read who was in them.
+S1: One. The leading question experiments, which are the most famous thing in the subject. A hundred and fifty participants in the second experiment, in nineteen seventy-four. The mnemonic training study, which is lesson six. About fifty people, plus memory athletes. The eyewitness synthesis is a review of a literature rather than a single study, and it's about adults, on initial identifications, under lineup conditions many places haven't adopted. And the pooled review in lesson three covers four hundred and seventy-two samples from the published literature, and the lesson says plainly that this course didn't read who was in them.
 
 S2: So the biggest claims in the popular version of this subject are sitting on the smallest studies in the course.
 
-S1: That's the lesson's own line, near enough. And it says that isn't a failure of these particular papers. It's what this subject's best evidence looks like.
+S1: The lesson puts it more carefully. It says these are the smallest samples it teaches from, and that that isn't a failure of these particular papers. It's what this subject's best evidence looks like.
 
 S2: Then why teach from them at all?
 
@@ -77,6 +88,6 @@ S1: You lose the ability to tell a strong account from a weak one, which is the 
 
 S2: That's a good place to stop. What's in the lesson that we haven't done?
 
-S1: A worked case the course built itself, one man's account of a family holiday written twice eight months apart, with four differences and what each one might mean. The full table with all five sources and what each was measured on. And the list of what this course deliberately leaves out, which includes memory and ageing, and why that's a decision rather than an oversight. There's also an exercise in there you should do before lesson two, because it's the first piece of the course project and it can't be done later.
+S1: A worked case the course built itself, one account of a family holiday written twice eight months apart, with four differences and what each one might mean. The table's other columns, which give what each source measured and when. The list of what this course deliberately leaves out, including memory and ageing, and recovered memory, which it names so that its absence is a decision rather than an oversight. And an exercise that is the first piece of the course project and can't be done later, so do it before you go on.
 
 S2: Read it at Foval Learning Institute dot org. We'll see you for lesson two.

@@ -1,14 +1,23 @@
 ---
 source: courses/learning-and-mind/memory/lessons/07-reading-a-claim-about-your-memory.md
 written_by: Claude, by hand, from the lesson text
+checked: >-
+  Fact-checked in a fresh-context subagent against the lesson on 2026-09-19: verdict PASS WITH
+  NITS, and all four nits are fixed in this file. All eleven restatements of lessons 1 to 6 were
+  checked against lesson 7's current text and every one is clean, which is where this lesson's own
+  Stage 4 send-back was. Fixed: an admission attributed to the lesson that the lesson does not
+  make, "in an hour" where the lesson and this script's own earlier line say "within an hour", an
+  `about` block that misdescribed its own sign-off, and a reference to a table row the episode had
+  not read out. Stated duration corrected to seven minutes. The course has no standpoint to
+  preserve.
 about: >-
-  About six minutes. Haley opens. Hosts are John (S1) and Haley (S2). Seventh and last episode for
+  About seven minutes. Haley opens. Hosts are John (S1) and Haley (S2). Seventh and last episode for
   Memory. The episode runs three of the four worked sorts, the sample question, the five-source
   table read aloud as three rows, and the course's main refusal. It leaves the fourth sort, the
-  three unread books, the misconception list and both exercises to the lesson, and the sign-off
-  says so.
+  three unread books, the checkpoint, the misconception list and both exercises to the lesson, and
+  the sign-off names four of those.
 speakers: 2
-approx_minutes: 6
+approx_minutes: 7
 ---
 
 S2: Welcome in. This is the Foval Learning Institute podcast, where the two of us talk a lesson through. I'm Haley.
@@ -31,9 +40,9 @@ S2: Work two.
 
 S1: Memory is reconstructive, so your memories are not recordings. Measurable in the second half and almost content-free in the first. Nothing in the sentence says what a reconstruction would have to do for the claim to fail, and a claim that nothing could falsify isn't a finding. As it stands it's a framing, and framings are useful without being results.
 
-S2: Which is awkward, since that's the course's own opening idea.
+S2: Which is the course's own opening idea.
 
-S1: It is, and the lesson says so rather than hiding it.
+S1: It is, and the lesson runs the sort on it anyway rather than exempting it.
 
 S2: Work three.
 
@@ -57,7 +66,7 @@ S1: Yes, and saying exactly what takes a sentence rather than a shrug. A small s
 
 S2: So the question isn't only whether somebody checked.
 
-S1: It's how many people they checked and who those people were. And the trouble comes when a demonstration gets reported as an estimate. You forget half of what you learn in an hour takes a curve measured on one person relearning nonsense syllables and prints it as a fact about you learning anything. The study is sound and the sentence isn't its finding.
+S1: It's how many people they checked and who those people were. And the trouble comes when a demonstration gets reported as an estimate. You forget half of what you learn within an hour takes a curve measured on one person relearning nonsense syllables and prints it as a fact about you learning anything. The study is sound and the sentence isn't its finding.
 
 S2: The lesson has a table of all five sources. Give me the shape of it.
 
@@ -65,7 +74,7 @@ S1: Four columns. What the source is, what it rests on, what read level this cou
 
 S2: And the pattern?
 
-S1: In every row the licence is narrower than the source's reputation, and in every row something real survives. One row points the other way from the claim you'll meet in the wild, which is the eyewitness one, and that's what makes it the interesting row.
+S1: In every row the licence is narrower than the source's reputation, and in every row something real survives. The eyewitness row, which I didn't read out, points the other way from the claim you'll meet in the wild, and that's what makes it the interesting one.
 
 S2: Anything else in the table worth saying out loud?
 
