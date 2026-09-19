@@ -70,6 +70,21 @@ engine, some still name its voices in `about:`, and all seven run long (1,259 to
 - For a `standpoint: christian` course, keep the lesson's own labelling of the faith
   commitment in the script.
 
+**Check the sign-off last, after every trim.** Measured over eight scripts on 2026-09-19: five of
+them named something in the sign-off that the episode had actually delivered. The cause is
+mechanical and will recur. The sign-off is written once, while the script is whole; the trims to get
+under the length ceiling happen afterwards, and each trim moves material out of the episode without
+anybody revisiting the list of what was left out. **Re-read the sign-off against the finished script
+as the last thing you do**, and check each item is in the lesson and genuinely absent from the
+episode.
+
+**And read the script aloud, or at least read it as a listener hears it.** On 2026-09-19 a time
+written for the ear came out as "Sunday eight to five to nine", for the lesson's 20:00 to 20:55.
+It is not a time, it contradicted the episode's own arithmetic four turns later, and it was the
+load-bearing figure of the worked case. `docs/PODCAST_PIPELINE.md` section 8 says a maths script
+needs this; that lesson was not maths, and it needed it anyway. **Any time, duration or range spoken
+aloud is where this bites.**
+
 **2. Fact-check in a fresh-context subagent, before any money is spent.** Launch one
 subagent whose prompt contains only: the script file path, the lesson file path, and this
 instruction: "Assume the script contains errors and find them. Verify every claim, figure,
