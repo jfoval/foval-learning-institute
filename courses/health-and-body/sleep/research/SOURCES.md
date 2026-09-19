@@ -547,6 +547,57 @@ cannot say**: how much, for whom, and what to do about it.
 
 ---
 
+## 14. What light does, and when
+
+**Melissa A. St Hilaire, Joshua J. Gooley, Sat Bir S. Khalsa, Richard E. Kronauer, Charles A.
+Czeisler and Steven W. Lockley, "Human phase response curve to a 1 h pulse of bright white light",
+*The Journal of Physiology* 590(13), 2012, pp. 3035 to 3045, doi 10.1113/jphysiol.2012.227892, PMID
+22547633.** Open access at PubMed Central. **Read in part on 2026-09-19: the abstract verbatim and in
+full, plus one sentence from the introduction. The methods and results were not read.**
+
+- **The abstract, verbatim and in full:** "The phase resetting response of the human circadian
+  pacemaker to light depends on the timing of exposure and is described by a phase response curve
+  (PRC). The current study aimed to construct a PRC for a 1 h exposure to bright white light (∼8000
+  lux) and to compare this PRC to a <3 lux dim background light PRC. These data were also compared to
+  a previously completed 6.7 h bright white light PRC and a <15 lux dim background light PRC
+  constructed under similar conditions. Participants were randomized for exposure to 1 h of either
+  bright white light (n = 18) or <3 lux dim background light (n = 18) scheduled at 1 of 18 circadian
+  phases. Participants completed constant routine (CR) procedures in dim light (<3 lux) before and
+  after the light exposure to assess circadian phase. Phase shifts were calculated as the difference
+  in timing of dim light melatonin onset (DLMO) during pre- and post-stimulus CRs. Exposure to 1 h of
+  bright white light induced a Type 1 PRC with a fitted peak-to-trough amplitude of 2.20 h. No
+  discernible PRC was observed in the <3 lux dim background light PRC. The fitted peak-to-trough
+  amplitude of the 1 h bright light PRC was ∼40% of that for the 6.7 h PRC despite representing only
+  15% of the light exposure duration, consistent with previous studies showing a non-linear
+  duration–response function for the effects of light on circadian resetting."
+- **The direction of the effect, verbatim:** "Light exposure occurring in the early biological night
+  induces a phase delay shift of the circadian pacemaker, whereas light exposure occurring in the
+  late biological night induces a phase advance shift."
+- **The earlier curve it compares itself to** is Khalsa, Jewett, Cajochen and Czeisler, "A phase
+  response curve to single bright light pulses in human subjects", *The Journal of Physiology* 549,
+  2003, pp. 945 to 952, doi 10.1113/jphysiol.2003.040477, PMID 12717008. **That paper was not
+  opened**, and what this course knows of it is the 6.7 hour exposure and the peak-to-trough
+  amplitude the 2012 abstract gives for it. A lesson must cite the 2012 paper for both figures.
+
+**This closes the light gap and it closes it narrowly, which is the point.** What the course now has
+is a controlled laboratory measurement of how far one hour of very bright light moves the clock, and
+which way, depending on when it lands. **What it does not have is anything about a phone, a lamp, a
+laptop or a bedroom.** Eight thousand lux is roughly an overcast sky outdoors; a screen at arm's
+length is orders of magnitude below it, and **this course has read no measurement of what a screen
+does**, so no lesson may give screen advice in either direction.
+
+**Two things here are gold for teaching.** The first is that **the effect reverses**: the same light
+at a different hour moves the clock the opposite way, which is why "get more light" and "avoid light"
+are both sometimes right and neither is advice without a time attached. The second is the
+**non-linearity**: one hour of light produced about 40 percent of the shift that 6.7 hours produced,
+which means most of the effect arrives early and the rest costs a great deal more exposure.
+
+**And note the instrument, again.** Phase was measured as the change in dim-light melatonin onset
+under a constant routine in under three lux. That is the gold standard source 12 named, and this is
+what using it looks like: 36 people, in a laboratory, in near darkness, for days.
+
+---
+
 ## What the field considers essential
 
 1. **Sleep is measured, and by four different instruments that do not measure the same thing.**
@@ -566,6 +617,7 @@ cannot say**: how much, for whom, and what to do about it.
    This is where the course points back at **Memory** and at **How to Learn Anything**.
 8. **Timing is a separate quantity from duration**, measured with a different instrument and with its
    own gold standard in a hormone assay (source 12). Almost every popular claim is about duration.
+   **Light moves timing, and which way depends on the hour** (source 14).
 9. **Night shift work carries an IARC Group 2A classification**, and what that label means is itself
    a thing to teach (source 13).
 
@@ -597,6 +649,9 @@ cannot say**: how much, for whom, and what to do about it.
 - **"I'm a night owl, so I should sleep late."** Chronotype is a measured quantity with a laboratory
   gold standard and a questionnaire proxy (source 12), and nothing in this file says what anybody
   should do about theirs.
+- **"Light at night is bad for you."** Light in the early biological night delays the clock and light
+  in the late biological night advances it (source 14). Which of those you want depends on which way
+  you are trying to move, and **nothing read here measures what a screen does at all**.
 
 ## Contested questions and the positions on each
 
@@ -670,9 +725,10 @@ day. **Unsettled, and the course should say so rather than pick.**
 - **The circadian gap was closed on 2026-09-19**, the same day, by a second Stage 1 pass that added
   sources 11, 12 and 13, after the first pass flagged it here. That is the order **Personal Finance
   lesson 6** established: research the gap before the lesson rather than after the neutrality audit.
-  **What is still missing on that side is light exposure**: nothing in this file measures what light
-  at what time does to circadian timing, so no lesson may give advice about screens, lamps or morning
-  daylight. Either a third pass covers it or the outline says the course does not.
+  **The light gap was closed on the same day by a third pass** (source 14), and closed narrowly: the
+  course now has a controlled phase response curve for one hour of 8000 lux, and **nothing at all
+  about screens, lamps or ordinary indoor light**. No lesson may give screen advice in either
+  direction, and the outline should say the course does not cover it.
 - **Scope decision: children and adolescents.** A separate literature with live policy arguments
   attached, and the course's prerequisites are adult. Leave out and say so.
 - **The course's most likely reader sleeps badly and wants to be told what to do.** Every lesson will
