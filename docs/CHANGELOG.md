@@ -11,7 +11,33 @@ Older entries refer to `docs/BACKLOG.md`, which was split on 2026-09-09 into `do
 unstarted work) and this file. Its section numbers survive only in those entries and in a few
 split-seam comments inside Bible Basics lessons, which point at `docs/DECISIONS.md` §5.
 
-## 2026-09-19 — Using AI Effectively finished drafting: eleven lessons, eleven reviews, both assessments
+## 2026-09-19 — Using AI Effectively is published and written, and the repo's warning debt is cleared
+
+**The course went live.** Eleven lessons, every one through Stage 4 with its review applied, the
+voice pass done, the neutrality audit passed, both assessments written, and eleven fact-checked
+podcast scripts. `npm run state` reports it as *written*, which is the second of the three states:
+nothing is left on it but eleven episodes, and about $2.23 clears them.
+
+**The neutrality audit found four things eleven lesson reviews had not**, which is the case for
+running it as its own stage. The course excluded the ethics of training data, copyright and jobs in
+one honest paragraph and never named energy, water or bias in the outputs anywhere, in a course
+whose own quiz turns on a screening tool's bias claim. Lesson 7 named three commercial products with
+2024 figures and never said the figures date the test rather than the product, which is decision 2
+applied to vendors but not to the course's own measurement of them. Lesson 9's quiz bundled an
+empirical misreading with a policy conclusion and marked the pair wrong. And decision 6, the one
+forbidding the course to treat declining as a mistake, was breached in two places outside the
+lessons: in `course.yaml`'s own description, and in the project's section 6, which a reader who has
+declined could not have written.
+
+**Then Stage 6 found three more that neither the reviews nor the audit had caught.** Lesson 1
+credited a task design to the wrong study. Lesson 5's costing case, the one whose whole point is the
+seam between correct steps and a wrong conclusion, printed a total that did not fit its own
+double-counting story: £59,109 where the three years plus year one again is £58,909. And lesson 10's
+Sources block had been renumbered by the audit, leaving a body cross-reference pointing at the wrong
+note. **Writing a podcast script turns out to be a close reading of the lesson that nothing else in
+the pipeline performs**, because a figure a reader can squint past in print is a column of numbers a
+listener is invited to add up. That is now in `docs/QUEUE.md` as a reason to write scripts promptly
+rather than treat them as packaging.
 
 **The course went from two lessons drafted to the whole of it in one session.** Lessons 3 to 11
 drafted, every one of the eleven reviewed in a fresh context, every review applied, both assessments
