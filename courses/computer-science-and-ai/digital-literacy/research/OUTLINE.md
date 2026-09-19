@@ -758,7 +758,13 @@ of those surnames. Four of them bite this outline directly:
   reports the shape of the disagreement and prints no lab scores**).
 - **Connects:** completes debt (g), which lesson 4 opened. Builds on 3 (a name is not a thing, so
   `invoice.pdf.exe` is an executable) and 8 (a valid certificate is not a vouching). Leads to 11,
-  where the same four-party question is asked about a message rather than a program.
+  which **carries the four-party question across to a message as a callback rather than as a frame**.
+  This entry originally promised lesson 11 would ask the same four-party question of a message, and
+  the lesson 11 entry below has never had a four-party frame in it: its structure is contact,
+  pressure and irreversible action. **The disagreement is settled here, in lesson 11's favour**, on
+  2026-09-19. Lesson 11's three parts are its own content and are what its evidence is about, and a
+  second four-part scheme in the same lesson would be one scheme too many for a Term 1 reader.
+  The transfer is real and belongs in Connections, which is where the drafted lesson puts it.
 - **Spaced review of:** lesson 1's folk models, now with Wash's antivirus rows as the worked case, and
   lesson 3's extensions.
 - **Neutrality note:** the antivirus question is a contested empirical question under standards 3.1
@@ -838,6 +844,11 @@ of those surnames. Four of them bite this outline directly:
   otherwise" is not an answer their IT department will accept.
 
 ### 11. Recognising a con, and the ten minutes after you clicked (~55 min)
+
+> **Note added 2026-09-19.** Lesson 9's entry above used to promise that this lesson would ask its
+> four-party question about a message. It does not, and it should not: see that entry for the
+> reasoning. What this lesson does is name the transfer in Connections, so the reader who learned
+> the four parties in lesson 9 is told where they apply next.
 
 - **Objectives:** identify the three structural parts of a con in a message you have received, without
   reference to any list of current scams; explain what the evidence does and does not show about

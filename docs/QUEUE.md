@@ -254,13 +254,6 @@ Rewrite these five lines each session. Nothing else goes in this block.
 
   Everything else on the course is ready. Lessons 1 to 12 are drafted, reviewed and applied.
 
-- **The outline disagrees with itself about lesson 11.** The lesson 9 entry promises that lesson 11
-  asks the same four-party question about a message that lesson 9 asks about a program. The lesson 11
-  entry has no four-party frame in it at all; it is contact, pressure, irreversible action, plus the
-  training evidence, plus recovery. Lesson 11 as drafted honours the promise in one Connections
-  sentence without building on it, which is the cheap reconciliation, but the two entries still
-  disagree and somebody should pick one.
-
 - **The same two defects have now recurred one lesson after being closed.** Lesson 8's review closed
   a cold-start finding (terms used that the course had never defined) and a contractions finding.
   **Both came back in lesson 9**, which makes it a pattern rather than an incident: a drafter working
