@@ -8,7 +8,8 @@ objectives:
   - >-
     Explain why the segments that were interrupted were the longer ones, and what that does to the
     usual advice about protecting a block of time
-  - >-    Trace the most quoted number in this subject back to its source, and say what the read parts of
+  - >-
+    Trace the most quoted number in this subject back to its source, and say what the read parts of
     the two papers it is attributed to actually report
 quiz:
   - q: >-
@@ -51,7 +52,8 @@ quiz:
       - Reject the underlying idea, since the evidence shows interruptions cost nothing at all
     answer: 2
     explain: >-
-      The parts of both papers this course read report other things, and a reviewer who went through five papers and twenty-three posts could not find a primary printed source for it. Being
+      The parts of both papers this course read report other things, and a reviewer who went through
+      five papers and twenty-three posts could not find a primary printed source for it. Being
       widely repeated is not evidence, which is the whole point of the exercise. Halving an
       unsourced number leaves it unsourced. And rejecting the idea overshoots: the 2008 experiment
       measured a real cost, just not that one.
@@ -79,7 +81,9 @@ quiz:
       - How many interruptions are genuinely necessary, which is the first thing to measure and reduce
     answer: 1
     explain: >-
-      In the case the lesson builds, most of the ward's work is meant to be interruptible; the question worth asking is which of the remainder is not, and where in the week that remainder could sit. The
+      In the case the lesson builds, most of the ward's work is meant to be interruptible; the
+      question worth asking is which of the remainder is not, and where in the week that remainder
+      could sit. The
       protected block answer applies office advice to a job it does not fit. Telling her to change
       job is not advice about her week. And auditing which interruptions are necessary hands her a
       judgement that is mostly not hers to make.

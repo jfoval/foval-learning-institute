@@ -24,7 +24,8 @@ quiz:
     answer: 0
     explain: >-
       Four is his working number and the sort is what produced it; the conditions written beside the
-      fixed hours are what make them a question he can ask later rather than a wall. He has the four already; what he does not have
+      fixed hours are what make them a question he can ask later rather than a wall. He has the four
+      already; what he does not have
       yet is the condition beside each fixed hour, and a conversion would have to act on one of
       those. Re-recording
       treats a surprise as an error, which is the one thing a record is for. And the course is
@@ -74,7 +75,8 @@ quiz:
       Fifteen-minute resolution is what this course asked for. And the cause of the fragmentation,
       other people or the reader's own switching, is not something the record establishes.
   - q: >-
-      A reader's recorded week contains four days when a relative was staying. What should be done with it?
+      A reader's recorded week contains four days when a relative was staying. What should be done
+      with it?
     options:
       - Discard it and record an ordinary week, because an unusual one cannot be read for anything
       - Keep it, and write down what made it unusual, because the note is what stops it being read as a rate
@@ -85,7 +87,8 @@ quiz:
       The record is evidence about the week it covers, and naming the week is what keeps it from
       being quietly generalised. Discarding it loses the surprises, which survive an unusual week
       because they are about the reader's picture rather than about the rate. Reading the totals as
-      typical is the generalisation the note prevents. And averaging two weeks produces a figure describing
+      typical is the generalisation the note prevents. And averaging two weeks produces a figure
+      describing
       neither, from a sample still far too small to carry a rate.
   - q: >-
       Somebody has recorded four consecutive weeks and intends to carry on for a year. What does

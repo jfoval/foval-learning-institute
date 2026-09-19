@@ -1,13 +1,25 @@
 # Sources: Time Management
 
-<!-- unread: Allen, Covey, Burkeman, Newport, Drucker, Lakein, Leroy -->
+<!-- unread: Allen (except 08), Covey (except 08), Burkeman (except 08), Newport (except 08), Drucker (except 08), Lakein (except 08), Leroy -->
 
 *Stage 1 research, 2026-09-19. Written before any lesson is drafted. For each source: what it is
 good for and what it establishes. Where a passage is quoted below it was read in the original and
 checked character by character; where it was not, the entry says so.*
 
 **The `unread:` line above is the build's enforcement and it is unusually long for this subject, for
-a reason worth stating at the top.** Almost everything written about time management is a trade
+a reason worth stating at the top.**
+
+**The six `(except 08)` exemptions were added on 2026-09-19 when lesson 8 was drafted, and they are
+narrow on purpose.** Outline decision 4 and this file both say the trade canon is **named in lesson
+8 as widely read and cited for nothing**, and a course that never names the books its readers have
+heard of looks evasive. The build's check fires on any occurrence of a name, so naming them at all
+needs the exemption. **What the exemption does not do is make a citation legal**: lesson 8 says in
+the body that this course has not opened any of them and is reporting what the genre is rather than
+what these authors argue, and it attributes no claim to any of them. `docs/QUEUE.md` records the
+known weakness of this mechanism, which is that it keys to a lesson number rather than to a work,
+so if a later session ever wants a real claim from one of these books in lesson 8, it must read the
+book rather than lean on the exemption. **Leroy stays unexempted** because nothing needs her name.
+ Almost everything written about time management is a trade
 book, and the trade books were not opened for this course. They are named in lessons only as things
 that exist and are widely read, never cited for a claim. If a lesson wants a claim from Allen,
 Covey, Burkeman, Newport, Drucker or Lakein, somebody has to read them first and take them off that

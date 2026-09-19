@@ -39,8 +39,11 @@ quiz:
     explain: >-
       Bias is which side of the truth you land on and accuracy is how far from it you are; the drill
       moved the first and left the second, which is the same shape as the pessimism result in lesson
-      3. It failed at nothing: doubling the share who meet their own date is worth having. The two are different measures, which is why the paper can say the share rose while the accuracy did not.
-      And a single study is a fair worry, though this one is the measured result the lesson rests on and states the scope of.
+      3. It failed at nothing: doubling the share who meet their own date is worth having. The two
+      are different measures, which is why the paper can say the share rose while the accuracy did
+      not.
+      And a single study is a fair worry, though this one is the measured result the lesson rests on
+      and states the scope of.
   - q: >-
       A man writes "I am going to be better about the paperwork". What is missing, in the terms this
       lesson uses?

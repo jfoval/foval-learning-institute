@@ -23,7 +23,8 @@ quiz:
     explain: >-
       The overestimate is real, modest on average, and concentrated: people reporting 35 to 45 hour
       weeks come out close, and the gap widens as the estimate rises. The close-agreement answer is
-      the one the estimate question would give you if it worked. The diaries-run-higher answer inverts the
+      the one the estimate question would give you if it worked. The diaries-run-higher answer
+      inverts the
       finding. And the fixed-amount answer would make the correction easy, which is exactly what the
       uneven distribution rules out.
   - q: >-
