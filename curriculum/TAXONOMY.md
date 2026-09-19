@@ -258,7 +258,7 @@ The map is deliberately ambitious. Most courses are `planned`. The point of writ
 | Note-Taking and Personal Knowledge | Foundation | planned | T2 | |
 | Reading Faster and Deeper | Foundation | planned | T24 | |
 | How to Learn a Language | Foundation | planned | T24 | What the research says actually works: comprehensible input, spaced review, speaking early, and the honest hours required to reach each level. |
-| Habits and Self-Discipline | Foundation | research | T2 | What a habit is, how long one really takes to form, and what the evidence says about self-control. Second in the term on running yourself, and it takes up what Time Management stops short of. |
+| Habits and Self-Discipline | Foundation | drafting | T2 | What a habit is, how long one really takes to form, and what the evidence says about self-control. Second in the term on running yourself, and it takes up what Time Management stops short of. |
 | Time Management | Foundation | published | T1 | Where the hours go, why estimates run short, deciding what not to do, and a week that survives other people. Last of the seven in Tools, because it is the course that decides when you will do any of the others. |
 | Mental Models | Core | planned | T25 | The 50 that matter, with worked examples. |
 
