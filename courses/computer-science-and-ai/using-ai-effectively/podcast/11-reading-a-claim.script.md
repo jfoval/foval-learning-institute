@@ -1,10 +1,18 @@
 ---
 source: courses/computer-science-and-ai/using-ai-effectively/lessons/11-reading-a-claim.md
 written_by: Claude, by hand, from the lesson text
+checked: >-
+  The vendors' claims are de-bracketed for speech without any word being changed inside them, the
+  METR figures and the consultants and students figures match the lesson exactly, the sorting
+  taxonomy is presented as Digital Literacy's move adapted rather than copied, and the account of
+  why using one of these feels fast is labelled in the episode as the course's own rather than as
+  a finding. Nothing has been added that the lesson does not say. Fact-checked in a fresh-context
+  subagent against the lesson on 2026-09-19: verdict PASS WITH NITS, and all three nits were fixed
+  in this file before rendering.
 about: >-
   About eight minutes. Haley opens, because the engine gives the first turn to the second voice.
   Hosts are John (S1) and Haley (S2). Last episode for Using AI Effectively. The episode leaves
-  out the diagnostic-claim predict block, the checkpoint on two timed tasks, three of the five
+  out the diagnostic-claim predict block, the checkpoint on two timed tasks, four of the five
   beliefs, and both exercises.
 speakers: 2
 approx_minutes: 8
@@ -18,7 +26,7 @@ S2: And it turns the course outward.
 
 S1: In its first lesson the course told you it wouldn't promise to make you faster, because two randomised trials pointed opposite ways. Everything since has been about what these systems do and how to work them. This lesson takes the same habits and points them at the claims other people make, including the ones you'll meet next week.
 
-S2: It's also the lesson that goes stale.
+S2: It's also the lesson to revise when the world moves.
 
 S1: Deliberately. Everything in the course that can go stale is quarantined here, so that a reader in three years can read lessons two to ten and know the argument still holds.
 
@@ -48,7 +56,7 @@ S1: Is it a benchmark result or a demonstration? A benchmark is a set of questio
 
 S2: Sort one for me.
 
-S1: Scored at the top of a professional examination. Measurable, and this kind of claim is usually measured before it's made, which makes it the hardest of the four to read. Suppose it checks out exactly as stated. What it still doesn't tell you is whether the system can do that profession's work, because the examination is a set of questions somebody chose and the work isn't.
+S1: Scored at the top of a professional examination. Measurable, and this kind of claim is usually measured before it's made, which makes it the hardest of the four in the lesson to read. Suppose it checks out exactly as stated. What it still doesn't tell you is whether the system can do that profession's work, because the examination is a set of questions somebody chose and the work isn't.
 
 S2: So the claim can be true.
 
@@ -57,6 +65,10 @@ S1: Perfectly true. And the inference almost everybody draws from it is a differ
 S2: Another.
 
 S1: Cuts the time your team spends on reporting by up to sixty percent. Measurable, unsettled, and the weasel is "up to", which makes the sentence compatible with a zero percent reduction. What would settle it: matched teams, a real reporting cycle, the time measured rather than reported. What you have instead is a number with no study attached.
+
+S2: And the third?
+
+S1: Understands your business. Unmeasurable. Nothing in it could come out the other way, so there's nothing to check.
 
 S2: And the interesting one.
 
