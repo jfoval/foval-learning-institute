@@ -26,10 +26,10 @@ quiz:
       What did the training study measure, and how was it designed?
     options:
       - Six weeks of training against no training, with a test immediately afterwards
-      - Six weeks of memory training, working-memory training or nothing, retested later
       - Twelve weeks of memory training in memory athletes and in matched controls
       - Six weeks of training, with the control group given an unrelated physical exercise
-    answer: 1
+      - Six weeks of memory training, working-memory training or nothing, retested later
+    answer: 3
     explain: >-
       Three arms and a behavioural retest at four months is the design, and the working-memory arm
       is the active control that makes it better than most in this area. A no-training comparison
@@ -39,10 +39,10 @@ quiz:
       A friend says memory athletes must have extraordinary memories. What does this lesson say?
     options:
       - They do, which is why they can be identified before any training at all
+      - They have a technique, and the training studies are about what it does
       - Nothing, since the study compared them only with each other over time
       - They do not, since the study found their performance matched the controls
-      - They have a technique, and the training studies are about what it does
-    answer: 3
+    answer: 1
     explain: >-
       The study compared athletes with mnemonics-naive controls and then trained ordinary people,
       which is a design built around the technique rather than around a trait. Nothing this course
@@ -67,9 +67,9 @@ quiz:
     options:
       - Yes, since the technique has been shown to produce durable memories in training
       - No, since nothing this course has read shows this technique transferring to the work of a job
-      - That it works on ordered lists of arbitrary items, and the rest is the transfer question
       - That it depends on whether their job involves memorising material for exams or tests
-    answer: 2
+      - That it works on ordered lists of arbitrary items, and the rest is the transfer question
+    answer: 3
     explain: >-
       The technique's evidence is about what it does to material of a particular kind, and whether
       that reaches their work is the question Focus lesson 6 taught and this course has not answered
@@ -79,10 +79,10 @@ quiz:
       What figure does this lesson give for how much better the trained group got?
     options:
       - About double, which is the improvement reported in the training study
-      - None, because the numbers are in the body of a paper this course did not read
       - The figure is in the abstract but was judged too technical for a lesson
+      - None, because the numbers are in the body of a paper this course did not read
       - About a third better on the same list task, measured again at the four-month retest
-    answer: 1
+    answer: 2
     explain: >-
       The abstract gives the design and the durability finding without numbers of words recalled,
       and the body was not opened, so the lesson gives none. Inventing or importing one would be the

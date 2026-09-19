@@ -13,11 +13,11 @@ quiz:
       A witness picks somebody out of a lineup and says she is completely certain. What does this
       synthesis say that tells you?
     options:
-      - It depends on the procedure, and on whether this is her first statement of confidence
       - Very little, since confidence and accuracy are known to be entirely unrelated
-      - That she is very likely right, since high confidence reliably predicts accuracy
+      - It depends on the procedure, and on whether this is her first statement of confidence
+      - That she is very likely to be right, since high confidence reliably predicts accuracy
       - That she is no more likely to be right than any witness who says she is unsure
-    answer: 0
+    answer: 1
     explain: >-
       The claim is conditional on five procedural conditions and on the confidence being expressed
       at the identification rather than later, so the answer is a question rather than a verdict.
@@ -26,11 +26,11 @@ quiz:
   - q: >-
       Why does the synthesis say the traditional pessimism about confidence was reasonable?
     options:
+      - Because the procedures police used could produce confident and wrong identifications
       - Because the early studies were too small to detect the relationship reliably
       - Because confidence was measured in court rather than by researchers at the time
-      - Because the procedures police used could produce confident and wrong identifications
       - Because the relationship genuinely was absent until the lineup reforms had changed it
-    answer: 2
+    answer: 0
     explain: >-
       Questionable procedures are what the paper names in its first paragraph, and a confident
       identification produced by a biased lineup tells you about the lineup. Study size is not the
@@ -40,10 +40,10 @@ quiz:
       Which of these is NOT one of the five pristine conditions?
     options:
       - Cautioning the witness that the offender might not be in the lineup
-      - Recording the identification on video for later review by a court
       - Using an administrator who does not know which person is the suspect
+      - Recording the identification on video for later review by a court
       - Collecting a confidence statement at the time of the identification
-    answer: 1
+    answer: 2
     explain: >-
       Video recording is a sensible practice and is not one of the five. The other three are
       conditions two, four and five of Box 3, along with including only one suspect and the suspect
@@ -81,10 +81,10 @@ quiz:
       applying its conclusions there?
     options:
       - They apply, since the underlying relationship between confidence and accuracy holds
-      - They apply with a correction factor the paper provides for unreformed procedures
       - They cannot yet be applied there, which the authors say in their own summary
+      - They apply with a correction factor the paper provides for unreformed procedures
       - They apply to high-confidence identifications only, not to low-confidence ones
-    answer: 2
+    answer: 1
     explain: >-
       The summary says in terms that the conclusions about high-confidence identifications cannot
       yet be applied to jurisdictions that have not made the reforms, which is the qualification

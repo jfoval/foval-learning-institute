@@ -16,11 +16,11 @@ quiz:
       A man insists his account of a childhood holiday is accurate because he feels completely sure
       about it. What does this course let you say about that reasoning?
     options:
-      - How sure he feels is generated along with the memory, so it is not a check on it
       - How sure he feels is a reliable guide for childhood memories, which are laid down young
       - He is wrong, since reconstruction means no childhood memory can be accurate at all
+      - How sure he feels is generated along with the memory, so it is not a check on it
       - Nothing, since how sure somebody feels is outside what any of this research measures
-    answer: 0
+    answer: 2
     explain: >-
       On a reconstructive account the confidence arrives with the assembled memory rather than
       before it, which is why lesson 5 has to work so hard to say when it is informative. There is
@@ -30,11 +30,11 @@ quiz:
   - q: >-
       Which of these claims could this course support, on what it has read?
     options:
+      - That retrieving some items can make related items harder to recall afterwards
       - That most childhood memories turn out to be reconstructions of photographs seen since
       - That a person who remembers an event in detail is more likely to be accurate
-      - That retrieving some items can make related items harder to recall afterwards
       - That memory declines from the age of thirty in a way that can be measured
-    answer: 2
+    answer: 0
     explain: >-
       Lesson 3 is a meta-analysis of exactly that, with three effect sizes and their intervals. The
       photograph claim is not something this course read anything about. Detail and accuracy is a
@@ -45,10 +45,10 @@ quiz:
       works. What is the most accurate thing to say about that?
     options:
       - It is worthless, since one case can support no claim at all of any kind
-      - It establishes that the outcome can occur, which is narrower than the claim
       - It is sound, since a documented case is stronger than a statistical average
       - It depends entirely on how thoroughly that one case was documented and followed
-    answer: 1
+      - It establishes that the outcome can occur, which is narrower than the claim
+    answer: 3
     explain: >-
       A single case can show that something is possible, which is a real and narrow result, and it
       cannot show how often it happens or in whom. Dismissing it entirely throws away the
@@ -58,10 +58,10 @@ quiz:
       What does this course refuse to do, and why?
     options:
       - Discuss eyewitness memory at all, since that subject is too consequential for a course
+      - Tell you whether a particular thing you remember happened, since it measures no such thing
       - Cite any study whose sample is small, since such studies can support no conclusion
       - Take a position at all on any contested question, since the evidence is too weak throughout
-      - Tell you whether a particular thing you remember happened, since it measures no such thing
-    answer: 3
+    answer: 1
     explain: >-
       The course measures what memory does in general, which is a different question from whether
       one remembered event occurred, and lesson 7 faces that refusal squarely. Eyewitness memory is

@@ -26,11 +26,11 @@ quiz:
   - q: >-
       What did the second experiment find about broken glass?
     options:
-      - Sixteen of fifty in the smashed condition said yes, against seven and six
       - Everyone in the smashed condition reported glass that was not there
+      - Sixteen of fifty in the smashed condition said yes, against seven and six
       - The effect appeared immediately but had gone when they were asked a week later
       - Reports of glass tracked the speed estimates exactly, person by person
-    answer: 0
+    answer: 1
     explain: >-
       Sixteen against seven against six, a week after the question, with no glass in the clip, is
       the finding. It is a minority of the smashed group rather than everyone, the test was a week
@@ -39,11 +39,11 @@ quiz:
   - q: >-
       The authors give two interpretations of the first experiment. What separates them?
     options:
+      - Whether people are answering differently or remembering differently
       - Whether the effect appears in a laboratory or only in a real investigation
       - Whether the verb is emotionally loaded or merely more specific
-      - Whether people are answering differently or remembering differently
       - Whether participants were told the purpose of the study beforehand
-    answer: 2
+    answer: 0
     explain: >-
       A response-bias account says the question changes what people say without changing what they
       have; a memory-change account says the representation itself is altered. That is the
@@ -54,10 +54,10 @@ quiz:
       license?
     options:
       - A later review of the literature, which licenses the general phenomenon only
-      - A published teaching summary, which licenses the figures held at that level
       - Nothing, since a source that cannot be opened cannot be used at all
+      - A published teaching summary, which licenses the figures held at that level
       - The authors' later writing, which licenses their own account of the study
-    answer: 1
+    answer: 2
     explain: >-
       The summary is an examination board's own resource and the lesson says so where the figures
       appear, which is the same handling Habits lesson 4 gave a book it had not opened. A later
@@ -68,10 +68,10 @@ quiz:
       unreliable. What does this course say?
     options:
       - It supports them, since accounts demonstrably change under leading questions
+      - It is outside what the course can do, which is describe what memory does in general
       - It supports them only if somebody asked the colleague a leading question
       - It supports them if the account has been retold several times since that meeting ended
-      - It is outside what the course can do, which is describe what memory does in general
-    answer: 3
+    answer: 1
     explain: >-
       A general finding about how memory behaves across people is a different thing from a verdict
       on one person's recollection, and that refusal is stated in lesson 1 and faced again in lesson
@@ -80,11 +80,11 @@ quiz:
   - q: >-
       Why does this lesson say a famous study is not necessarily a strong study?
     options:
-      - Because this one found its key result in sixteen people against seven
       - Because older studies used methods that would not pass review today
       - Because fame is a measure of how often a study is cited rather than its quality
       - Because the authors themselves later withdrew one of the two interpretations
-    answer: 0
+      - Because this one found its key result in sixteen people against seven
+    answer: 3
     explain: >-
       The broken-glass finding rests on a difference of nine people between two groups of fifty,
       which is the whole basis of an idea now repeated everywhere. The age of a study is not itself

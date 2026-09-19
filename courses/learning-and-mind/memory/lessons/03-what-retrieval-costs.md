@@ -13,11 +13,11 @@ quiz:
       A student revises half of a topic by testing herself and leaves the other half alone. On this
       literature, what should happen to the half she left?
     options:
-      - It should be unaffected, since she spent no time on it either way
       - It should be somewhat harder to recall than if she had tested nothing
+      - It should be unaffected, since she spent no time on it either way
       - It should be easier, since testing the first half activates the whole topic
       - It should be lost entirely, since retrieval actively erases competing items
-    answer: 1
+    answer: 0
     explain: >-
       Retrieving a subset can make related unpractised items harder to reach, at around nine percent
       in the pooled raw figures. Nothing here supports the material being unaffected or improved,
@@ -29,9 +29,9 @@ quiz:
     options:
       - The true effect is 8.7 percent and the other two figures are subgroup noise
       - That much of the headline figure is an artefact, since controlling halves it
-      - That studies controlling output interference were too few to be worth pooling
       - That a single reported number here is as much about method as about memory
-    answer: 3
+      - That studies controlling output interference were too few to be worth pooling
+    answer: 2
     explain: >-
       The same phenomenon comes out at five or eleven percent depending on one design choice, so a
       single figure is uninterpretable without knowing which kind of study produced it. Calling the
@@ -42,11 +42,11 @@ quiz:
       A reader finishes this lesson and concludes that self-testing damages memory and should be
       avoided. What is wrong with that?
     options:
-      - The practised items gain far more than the unpractised ones lose, so the advice stands
       - Nothing at all, since the finding does show that retrieval causes forgetting elsewhere
       - The effect only appears in laboratories, so it has no bearing on real revision
       - The effect is too small to detect in any individual, so it can be ignored entirely
-    answer: 0
+      - The practised items gain far more than the unpractised ones lose, so the advice stands
+    answer: 3
     explain: >-
       Retrieval practice is the best-evidenced technique in the earlier course, and this literature
       adds a cost on items you did not practise rather than overturning the benefit on those you
@@ -57,10 +57,10 @@ quiz:
       The meta-analysts describe two competing explanations for the effect. What do they conclude?
     options:
       - That inhibition accounts are supported outright, and the competing view is refuted flatly
-      - That neither account can be distinguished by any evidence currently available
       - That the results largely supported inhibition but also provided challenging evidence
+      - That neither account can be distinguished by any evidence currently available
       - That the non-inhibitory accounts explain the results better across the whole pool
-    answer: 2
+    answer: 1
     explain: >-
       Their own summary says the results largely supported inhibition accounts while also providing
       some challenging evidence, with the pattern varying by how the effect was assessed, which is
@@ -70,10 +70,10 @@ quiz:
       What is output interference, in the sense this lesson uses?
     options:
       - The tendency of a final test to make the earlier-tested items harder to reach
-      - The effect of recalling practised items first on later recall of unpractised ones
       - Noise in a study caused by the participants talking about the task afterwards to each other
+      - The effect of recalling practised items first on later recall of unpractised ones
       - The interference between two lists learned in the same laboratory session
-    answer: 1
+    answer: 2
     explain: >-
       If a final test asks for the practised items before the unpractised ones, the act of producing
       the first set interferes with producing the second, and studies that control for this report
@@ -82,11 +82,11 @@ quiz:
   - q: >-
       Which of these would be the strongest evidence that this effect matters outside a laboratory?
     options:
+      - A study finding the effect in material people chose and cared about, over weeks
       - A larger pooled effect size across the same kind of laboratory studies
       - A study showing the effect is larger in students than in the general population
       - A replication of the original paradigm with a much larger sample of students
-      - A study finding the effect in material people chose and cared about, over weeks
-    answer: 3
+    answer: 0
     explain: >-
       The gap between this literature and a reader's life is the material and the timescale, so a
       study crossing that gap is what would close it. A larger pooled effect from the same designs
