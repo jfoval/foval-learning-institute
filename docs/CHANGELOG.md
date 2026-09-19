@@ -11,6 +11,66 @@ Older entries refer to `docs/BACKLOG.md`, which was split on 2026-09-09 into `do
 unstarted work) and this file. Its section numbers survive only in those entries and in a few
 split-seam comments inside Bible Basics lessons, which point at `docs/DECISIONS.md` §5.
 
+## 2026-09-19 — Using AI Effectively finished drafting: eleven lessons, eleven reviews, both assessments
+
+**The course went from two lessons drafted to the whole of it in one session.** Lessons 3 to 11
+drafted, every one of the eleven reviewed in a fresh context, every review applied, both assessments
+written, and the voice pass done.
+
+**Nine of the eleven Stage 4 reviews came back FAIL, and not one needed a rewrite.** That is worth
+recording, because a run of FAILs reads like a bad course and this one is the opposite: the reviews
+were finding integrity defects a script cannot see, in lessons whose mechanics were green. The three
+that recurred across four or more lessons are now drafting defects in
+`.claude/commands/draft-lesson.md` rather than lesson defects:
+
+- **A quotation re-inflected inside its own marks.** Five lessons. The vendors' claims in Magesh et
+  al. were printed as `"eliminating"` and `"avoid[ing]"` where the source says `"eliminat[es]"` and
+  `"avoid[s]"`, in two different lessons, two different ways. The bracket convention exists to
+  declare an alteration and was being used to hide one.
+- **The course's own constructions labelled in a footnote rather than in the body.** Lesson 8's
+  four-step checking procedure is this course's invention; the only admission of that sat in a
+  footnote with no marker, and that footnote claimed the body said so when it did not. Lesson 11 had
+  the same shape on the same day. Both now say it where the reader meets the thing.
+- **Go deeper rating material nobody here has read.** Four lessons recommended a particular section
+  of a paper the research file records as abstract-only, and ranked its contents.
+
+**The lesson that fixed itself is worth naming.** Lesson 11 teaches readers to refuse a capability
+claim carrying no model and no date, and was itself printing one, asserted as true, with no source:
+a bar-examination figure. Lesson 1 had handled the same example correctly as a hypothetical.
+
+**Two structural findings that no single lesson could fix.** Five of the first six lessons opened
+with a pair, which is a batch of lessons written in one context reusing its own turns of phrase, and
+the fix had to be a set. And `assessments/` was empty while three lessons already pointed at the
+course project by section number.
+
+**The project solves the problem that no section of it can have a key.** Two readers doing it
+properly get different answers, because the course cannot predict what any reader's system will say.
+So every section asks for a prediction, then the outcome, then the gap, and the gap is the
+deliverable. The rubric says out loud that a project whose predictions were all correct is one whose
+predictions were written afterwards.
+
+**The 24-item test is built so that it does not rot.** No item turns on a capability claim about a
+named model, twenty of the twenty-four are application to a person, task or claim that appears in no
+lesson, and the sorting item is lesson 11's objective applied to a claim nobody has met.
+
+**The contraction ceiling, added the day before, earned itself and taught something.** It caught
+four files on its first run and all four are fixed. What it did not predict is that **stripping an
+overshoot overshoots the other way**: five files today went from over the ceiling to under the floor
+on the first pass. The cause is that the validator counts a narrower set than a hand count does, and
+counts the Sources block in the word total, so a hand count reads about double. That is in
+`docs/QUEUE.md` now, with the mechanical fix for a file that is far out.
+
+**Every quiz-shape warning in the repo is closed.** Six published lessons had the key as the sole
+longest option in three or four of their items, so "pick the longest" beat reading the lesson, and
+one used only two of the four answer positions. Fixed the way the warning asks, by lengthening
+distractors rather than trimming keys. `npm run validate` now reports no quiz warning anywhere.
+
+**Four Bible Basics episodes, and the rate-limit window's real shape.** Episodes 4 to 7 went out,
+taking the debt from nine to five. A refusal at 17:03 saying 23h59m was **not** the day gone: two
+slots freed inside four hours and both renders passed the gate first time. The genuine end of the
+allowance said 21h43m, and four further attempts were refused in the same second. Nothing is billed
+for a refusal, which is why trying is cheaper than reasoning about it.
+
 ## 2026-09-18 — Using AI Effectively started, and two papers opened that everybody quotes second-hand
 
 **Sixth of seven in Term 1, immediately after Digital Literacy, where the Core map already had it.**
