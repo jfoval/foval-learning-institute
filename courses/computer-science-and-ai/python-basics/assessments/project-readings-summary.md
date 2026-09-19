@@ -35,7 +35,7 @@ has to give these figures:
 Reading, or 'done': 12
 Reading, or 'done': 7
 Reading, or 'done': -3
-Ignored -3: readings below zero are not allowed.
+Ignored -3: readings below zero aren't allowed.
 Reading, or 'done': 19
 Reading, or 'done': 4
 Reading, or 'done': done
@@ -60,7 +60,7 @@ not help you anyway, since it refuses the decimal point and the minus sign that 
 
 ## Build it in five steps
 
-Do not try to write the whole thing and then run it. That is the way this problem has defeated
+Don't try to write the whole thing and then run it. That is the way this problem has defeated
 beginners for forty years, and it is avoidable. Get each step running before the next.
 
 **Step 1. Read one number and print it back.** Three lines: an `input()`, a `float()`, a
@@ -73,7 +73,7 @@ end. Type three numbers and `done` and make sure all three are there.
 
 **Step 3. Reject the invalid ones.** An `if` inside the loop, before the append. Below zero goes
 to a message; everything else goes in the list. Run it with a negative in the middle and check
-two things: the message appears at the time, and the negative is not in the list afterwards.
+two things: the message appears at the time, and the negative isn't in the list afterwards.
 
 **Step 4. Compute the four figures in a function.** Write a function that takes the list and
 gives back the total, the average, the highest and the lowest. Not prints: gives back. The
@@ -82,7 +82,7 @@ hands back one value, and you need four, so decide how. A tuple works, and lesso
 three had you decide this already. For the highest and lowest, Python has `max()` and `min()`,
 and they are fine to use. If you would rather see how they work, a loop that keeps the best so
 far, with an `if` inside, is the accumulator from lesson 4 with a comparison instead of an
-addition, and it is worth writing once.
+addition, and it's worth writing once.
 
 :::checkpoint Before you write the function, say what it should do if it is handed an empty list.
 
@@ -97,7 +97,7 @@ in exactly one place. If you find yourself checking in both, one of them is not 
 false. Then print the average with `f"{average:.1f}"`, which lesson 5's exercise used, and check
 the sample run above against yours.
 
-If a step will not work and you cannot see why, paste it into
+If a step won't work and you can't see why, paste it into
 [Python Tutor](https://pythontutor.com/) and watch what each name is worth on each pass. Every
 bug in this program is a name holding something other than what you thought.
 
@@ -116,7 +116,7 @@ page, and for each of these, write down the line numbers and the lesson:
   each one turned out to mean.
 
 The last one is the point of the exercise. If the answer is "none", either you are unusually
-careful or you did not run it enough.
+careful or you didn't run it enough.
 
 ## How you did
 
@@ -125,7 +125,7 @@ Five checks, each a plain pass or not.
 | Check | What passes |
 | --- | --- |
 | It runs | The sample run above produces the same figures, with no traceback |
-| The sentinel works | `done` ends input, and the reading typed just before it is counted |
+| The sentinel works | `done` ends input, and the reading typed just before it's counted |
 | Invalid readings | Negatives are reported when typed and are left out of the count, total, average, highest and lowest |
 | The empty case | Typing `done` first prints a sentence, not `ZeroDivisionError` or `ValueError` |
 | It is composed | The four figures come out of a function that takes the list and returns them; nothing is totalled or printed from inside the reading loop |
@@ -138,7 +138,7 @@ same summary for a second list you are copying eight lines, which is the problem
 to remove.
 
 If you passed four of five and missed that one, go back to lesson 5's third exercise, do it
-again, and then move your totals into a function here. It usually takes ten minutes and it is the
+again, and then move your totals into a function here. It usually takes ten minutes and it's the
 most useful ten minutes in the course.
 
 ## Why this problem
@@ -155,4 +155,4 @@ So if this took you three sittings, that is the documented experience of most pe
 tried it, and it is the reason the problem is here rather than a reason to feel bad. If it took
 you one, add a sixth figure of your own choosing, such as how many readings were above the
 average, and notice whether the function or the loop is the right place for it. Lesson 4's first
-exercise is the reason it is not the loop.
+exercise is the reason it's not the loop.

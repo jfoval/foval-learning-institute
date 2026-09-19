@@ -12,9 +12,9 @@ Budget about five hours, spread over a week or two rather than done in one sitti
 
 Pick one argument you actually encountered. A newspaper column, a podcast segment, a company blog post, a politician's speech, a leaflet through your door, a letter to an editor, a post from someone you follow, a paragraph in a book. It must be:
 
-- **Real, and quotable.** You need the words, the source, and the date. If you cannot link it or cite it, pick something else.
+- **Real, and quotable.** You need the words, the source, and the date. If you can't link it or cite it, pick something else.
 - **Something you have an opinion about.** Not the easiest one to take apart. The one where you already think you know the answer, because that is where the check earns its keep.
-- **Long enough to have a structure.** A single sentence will not do. A few paragraphs with more than one reason in them is about right.
+- **Long enough to have a structure.** A single sentence won't do. A few paragraphs with more than one reason in them is about right.
 
 You have been collecting these in your folder since lesson 1. Use one of those.
 
@@ -35,13 +35,13 @@ Standard form: numbered premises, a line, "C:" for the conclusion. Unstated prem
 Then two diagrams:
 
 - **Linked or convergent.** Which premises work together and which stand alone. This decides what happens if one of them falls.
-- **Toulmin's layout**, naming the warrant (the rule licensing the step), the qualifier if there is one, and the rebuttal if there is one. If the argument has no qualifier and no rebuttal, say so; that is itself a finding.
+- **Toulmin's layout**, naming the warrant (the rule licensing the step), the qualifier if there's one, and the rebuttal if there is one. If the argument has no qualifier and no rebuttal, say so; that is itself a finding.
 
 ### 3. The steelman
 
-One paragraph putting the argument at its strongest, following Rapoport's rules. The test is not whether it sounds generous. The test is whether someone who holds the position would read your paragraph and say yes, that is what I think.
+One paragraph putting the argument at its strongest, following Rapoport's rules. The test is not whether it sounds generous. The test is whether someone who holds the position would read your paragraph and say yes, that's what I think.
 
-If you can actually show it to such a person, do, and write down what they said. That is the only real check on this part, and it is worth the awkwardness.
+If you can actually show it to such a person, do, and write down what they said. That's the only real check on this part, and it is worth the awkwardness.
 
 ### 4. The evaluation
 
@@ -55,7 +55,7 @@ If you can actually show it to such a person, do, and write down what they said.
 
 List every named pattern you can find in the argument. For each one, run its critical questions and say whether they convict it or acquit it.
 
-This part is marked on the testing, not the naming. An argument that contains a slippery slope with a documented mechanism at each step is not thereby defective, and saying "slippery slope" and stopping scores nothing. Neither does hunting for fallacies that are not there.
+This part is marked on the testing, not the naming. An argument that contains a slippery slope with a documented mechanism at each step is not thereby defective, and saying "slippery slope" and stopping scores nothing. Neither does hunting for fallacies that aren't there.
 
 ### 6. Your own argument
 
@@ -71,7 +71,7 @@ Half a page. What would you have concluded about this argument before the course
 
 This is not a reflection exercise for its own sake. An argument you evaluated honestly and still disagree with is a normal outcome, and saying so precisely is worth more than a conversion story.
 
-## How it is marked
+## How it's marked
 
 Twelve points. Nine to pass.
 
@@ -92,6 +92,6 @@ The two-point items are the ones where most projects lose marks, and they lose t
 There is no grader here yet. Mark it yourself, a week after you finish, against the table above, and be harder on yourself than you want to be. Two checks make self-marking honest:
 
 - For part 3, the steelman: would the person you are answering sign it? If you cannot ask them, find the best written statement of their position you can and compare.
-- For part 6, your own argument: hand it to someone who disagrees with you and ask them where they would stop reading. That is Weston's rule 38, and it is the one people skip.
+- For part 6, your own argument: hand it to someone who disagrees with you and ask them where they would stop reading. That is Weston's rule 38, and it's the one people skip.
 
-Keep the project. When you take a course in history, ethics, economics or apologetics here, you will be asked to argue, and this is the standard.
+Keep the project. When you take a course in history, ethics, economics or apologetics here, you'll be asked to argue, and this is the standard.

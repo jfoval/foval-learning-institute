@@ -4,9 +4,9 @@ minutes: 240
 type: project
 ---
 
-The test measures whether you can recognise the moves. This project measures whether you can make them on writing that matters to you, and then find out from another human being whether any of it worked. That last part is what separates this from every writing exercise you have done before, and it is the part people skip.
+The test measures whether you can recognise the moves. This project measures whether you can make them on writing that matters to you, and then find out from another human being whether any of it worked. That last part is what separates this from every writing exercise you've done before, and it's the part people skip.
 
-Budget about four hours, spread over a week rather than done in one sitting. The gap matters. On Tuesday you will see things in your own prose that were invisible on Sunday, for the same reason lesson 4 gave: you cannot feel a wait when you already know what is coming.
+Budget about four hours, spread over a week rather than done in one sitting. The gap matters. On Tuesday you'll see things in your own prose that were invisible on Sunday, for the same reason lesson 4 gave: you cannot feel a wait when you already know what is coming.
 
 ## Choose the document
 
@@ -16,7 +16,7 @@ Three rules about the choice.
 
 **It must be real and already sent.** Not something written for this project. The whole exercise depends on the document having been produced under the conditions you actually write under.
 
-**Somebody must have had to do something with it.** Writing whose only job was to exist cannot be tested, because there is no right answer for a reader to arrive at.
+**Somebody must have had to do something with it.** Writing whose only job was to exist can't be tested, because there's no right answer for a reader to arrive at.
 
 **Not your best piece.** Choose one you were slightly uneasy about, or one that produced a reply asking a question you thought you had answered. That reply is a finding, and it is the closest thing to free evidence you will get.
 
@@ -30,7 +30,7 @@ Do not tidy it first. The urge to fix a typo before anyone sees the original is 
 
 ## Part 2: the diagnosis
 
-One page, and this is the part that carries the most weight in the rubric. **Name specific sentences.** A diagnosis that says "the tone is a bit formal" or "it could be clearer" is not a diagnosis; it is an impression, and impressions are what the whole course was built to replace.
+One page, and this is the part that carries the most weight in the rubric. **Name specific sentences.** A diagnosis that says "the tone is a bit formal" or "it could be clearer" is not a diagnosis; it's an impression, and impressions are what the whole course was built to replace.
 
 Cover these six, in writing:
 
@@ -87,4 +87,4 @@ There is an exception row, and it is specific.
 
 The paraphrase record contains at least one sentence beginning "she thought it meant", followed by something the writer did not mean.
 
-And the final paragraph says what the writer learned about their own writing rather than about this document. That is the part that transfers, and it is why the project is worth four hours.
+And the final paragraph says what the writer learned about their own writing rather than about this document. That's the part that transfers, and it's why the project is worth four hours.
