@@ -1025,6 +1025,35 @@ function checkRepetition() {
 }
 checkRepetition();
 
+/* ---------- a course whose lessons all share one answer sequence is guessable across the course
+   Each lesson's own quiz can pass every shape check above and the course can still hand a learner
+   one key. Habits and Self-Discipline shipped seven lessons all running 0,2,1,3,0,2: every
+   individual requirement met, and a reader who noticed the pattern in lesson 1 had the key to
+   forty-two items. Found by a Stage 4 reviewer on 2026-09-19, which is a check's job rather than a
+   reviewer's. Neighbouring lessons are what matter: a learner takes them in order. ---------- */
+function checkAnswerSequences() {
+  for (const school of fs.readdirSync(COURSES_DIR, { withFileTypes: true }).filter(d => d.isDirectory())) {
+    for (const cdir of fs.readdirSync(path.join(COURSES_DIR, school.name), { withFileTypes: true }).filter(d => d.isDirectory())) {
+      const lessonsDir = path.join(COURSES_DIR, school.name, cdir.name, "lessons");
+      if (!fs.existsSync(lessonsDir)) continue;
+      const seqs = [];
+      for (const f of fs.readdirSync(lessonsDir).filter(f => f.endsWith(".md")).sort()) {
+        try {
+          const fm = yaml.load(fs.readFileSync(path.join(lessonsDir, f), "utf8").split(/^---$/m)[1]);
+          if (!fm || !Array.isArray(fm.quiz) || fm.quiz.length < 4) continue;
+          const idx = fm.quiz.filter(q => q && typeof q.answer === "number").map(q => q.answer);
+          if (idx.length >= 4) seqs.push([f, idx.join(",")]);
+        } catch { /* a frontmatter that will not parse is reported by its own check */ }
+      }
+      for (let i = 1; i < seqs.length; i++) {
+        if (seqs[i][1] !== seqs[i - 1][1]) continue;
+        warn.push(`${path.relative(ROOT, lessonsDir)}: ${seqs[i - 1][0].replace(/\.md$/, "")} and ${seqs[i][0].replace(/\.md$/, "")} have the same quiz answer sequence, ${seqs[i][1]}. A learner takes them one after the other and carries the key from the first into the second. Permute one of them.`);
+      }
+    }
+  }
+}
+checkAnswerSequences();
+
 /* ---------- root CLAUDE.md rule 6: a published course owes an episode for every lesson ----------
    "A course is finished when every lesson is at standard AND every lesson has a podcast
    episode." That was a shouting paragraph in CLAUDE.md because it had been ignored once. A
