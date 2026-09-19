@@ -26,8 +26,8 @@ spoken in one breath, and they license completely different sentences.**
 On the experimental side there is a randomised laboratory dose-response study (source 1) in which
 48 adults were held at 4, 6 or 8 hours in bed for 14 consecutive nights with everything else
 controlled, and in which cognitive performance fell cumulatively and the participants did not notice.
-That is a causal finding, and its outcome is a reaction-time task, over a fortnight, in healthy
-21-to-38-year-olds.
+That is a causal finding, and its outcome is cognitive performance on tasks the abstract never
+names, over a fortnight, in healthy 21-to-38-year-olds.
 
 On the observational side there is a meta-analysis of 27 cohort samples and **1,382,999
 participants** (source 3) reporting a relative risk of death of **1.12 for short sleepers and 1.30
@@ -302,8 +302,8 @@ together and why "my watch says I got seven hours" is a claim with a known error
 
 And read the last clause of the Results: performance **fell on the disrupted nights**. The people
 most likely to buy a tracker are the people whose nights are disrupted, and those are the nights the
-devices read worst. **That observation is this course's own reading of the sentence, not something
-the paper says**, and a lesson must label it.
+devices read worst. **That observation is this course's own**, and its first half is a guess about
+who buys trackers rather than anything measured, so a lesson must label both halves.
 
 The paper is also the course's answer to the instrument question **Focus and Deep Work** lesson 1
 taught: polysomnography is electrodes and a laboratory, actigraphy is movement at the wrist, a
@@ -605,7 +605,8 @@ what using it looks like: 36 people, in a laboratory, in near darkness, for days
    Polysomnography, actigraphy, consumer devices and self-report. Every claim about sleep carries the
    limits of whichever one produced it (source 6).
 2. **Chronic restriction has a dose-response cost to performance, and people do not notice it.**
-   Source 1 is the demonstration, over fourteen nights, on a reaction-time measure.
+   Source 1 is the demonstration, over fourteen nights, on cognitive tasks the
+   abstract does not name.
 3. **The population recommendation is seven or more hours, from the field's own peak bodies, and it
    is stated in associational language** (source 2).
 4. **The mortality association is real, small for short sleep, and larger for long sleep**, and the

@@ -46,34 +46,35 @@ quiz:
     answer: 3
     explain: >-
       A rule that says sleep every minute is correct for most of the night, which is why one
-      headline accuracy figure hides the problem and the pair of numbers does not. Published
-      figures here came from an independent laboratory, nothing was excluded, and scoring
-      conventions are not the reason.
+      headline accuracy figure hides the problem and the pair of numbers does not. Nothing in what
+      this course read says the figures were selected or filtered, and scoring conventions are not
+      the reason either.
   - q: >-
-      A sleep diary and a wrist device disagree by ninety minutes about the same night. What does
-      this lesson say you should conclude?
+      A wrist device and a sensor under the mattress report different totals for the same night, by
+      half an hour. What follows?
     options:
-      - That the device is wrong, since movement is a poor proxy for being asleep
-      - That the diary is wrong, since people are unreliable witnesses about their own nights
-      - That they measured two different things and the size of the gap is itself information
-      - That the night should be discarded, since no number from it can now be trusted
-    answer: 2
+      - The wrist device is the one to trust, since it is closer to the sleeper's body
+      - Two models reading two different signals produced two numbers, and neither is the night
+      - The under-mattress sensor is the one to trust, since it cannot be knocked off or removed
+      - Half an hour is within normal error for both, so the disagreement carries no information
+    answer: 1
     explain: >-
-      One is a person's memory of falling asleep and the other is a model reading movement and
-      heart rate, so there is no reason for them to agree and the disagreement is data about the
-      night. Discarding it throws away the most interesting night in the week.
+      Each device infers sleep from what its own sensor can see, through software nobody outside
+      the company has read, so a gap between them is a gap between two models. Neither position on
+      the body settles which is right, and a disagreement that size is worth knowing about rather
+      than waving through.
   - q: >-
       Somebody asks this course whether they have sleep apnoea. What does the course say?
     options:
       - That the question is outside everything it has read, and belongs with a doctor
-      - That apnoea is diagnosed by the same equipment the course describes in this lesson
+      - That it can rule the condition out, since no study it read reported any cases
       - That the symptoms are covered later, once the instruments have been established
       - That a consumer device can screen for it, given its high sensitivity for sleep
     answer: 0
     explain: >-
       No source read for this course covers sleep disorders, so it has nothing to say and says so
-      rather than improvising. It is true that a laboratory can diagnose apnoea, and that is a
-      reason to go to one rather than a reason for this course to discuss it.
+      rather than improvising. An absence of cases in studies about something else rules nothing
+      out, the symptoms appear in no later lesson, and no consumer device is a screening test.
   - q: >-
       A news article reports that people who sleep badly have worse memories. Before reading
       further, what does this lesson tell you to ask?
@@ -99,31 +100,38 @@ anybody saying which one produced the number.
 
 This lesson is that list, and one pair of numbers that shows why it matters.
 
+**If you're reading this because something is wrong with your sleep**, go to the section near the end
+on what this course leaves out, and read that first.
+
 ## The four instruments
 
-**Polysomnography.** Electrodes on the scalp, around the eyes and on the chin, plus breathing and
-heart traces, recorded overnight and then scored in thirty-second blocks by a technician following a
-manual. It is what "the gold standard" means in this subject, and every other instrument in the list
-is validated against it. It also costs a night in a laboratory with wires glued to your head, which is why almost no study of
-ordinary life uses one.
+**Polysomnography.** Electrodes on the scalp and face, plus breathing and heart traces, recorded
+overnight in a laboratory and scored by a technician in thirty-second blocks. It is what "the gold
+standard" means in this subject, and every other instrument in the list is validated against it. It
+also costs a night with wires glued to your head. **The descriptions of the four instruments here
+are general background rather than anything this course's sources describe**, which is why no
+lesson prints a figure about any of them.[6]
 
-**Actigraphy.** A research-grade device worn at the wrist that records movement and infers sleep from
-its absence. Cheap enough to give to hundreds of people for weeks. It doesn't know anything about your brain and it knows everything about whether your arm moved.
+**Actigraphy.** A research device worn at the wrist that records movement and infers sleep from its
+absence. It doesn't know anything about your brain and it knows everything about whether your arm
+moved.
 
-**A consumer device.** A watch or ring that records movement and heart rate and feeds both into a
-model the manufacturer has not published. **The model is the part to notice**, because two devices with identical sensors can disagree about
+**A consumer device.** A watch, a ring, or a sensor beside the bed, recording movement and heart
+rate and feeding both into a model the manufacturer has not published. **The model is the part to notice**, because two devices with identical sensors can disagree about
 the same night when the software disagrees.
 
 **A sleep diary.** A person writing down when they think they fell asleep and when they woke. It's the only instrument in the list that measures what somebody experienced, which isn't a weakness
 so much as a different subject.
 
-Four instruments, four different quantities, one word.
+Four instruments, four different quantities, one word. **Grouping them as four is this course's own
+organisation**: the sources treat them separately and none of them prints this list.[6]
 
 ## What happens when you check the devices against the electrodes
 
 In 2021 a team put thirty-four healthy young adults in a sleep laboratory for three consecutive
-nights, wired for polysomnography, and had them wear seven consumer devices and a research
-actigraph at the same time.[1] **This course read the abstract of that paper and did not open
+nights, wired for polysomnography, and measured them at the same time with a research actigraph and
+a subset of seven consumer devices: four worn at the wrist, and three sitting beside or under the
+bed.[1] **This course read the abstract of that paper and did not open
 it**, which is the level everything below is held at.
 
 The design, in the authors' own words: "34 healthy young adults (22 women; 28.1 ± 3.9 years, mean ±
@@ -135,13 +143,36 @@ And the result that matters, verbatim: "Overall, epoch-by-epoch sensitivity was 
 specificity was low-to-medium (0.18–0.54), sleep stage comparisons were mixed, and devices tended to
 perform worse on nights with poorer/disrupted sleep."[1]
 
+An epoch is one of those thirty-second blocks, so "epoch-by-epoch" means the two records were
+compared block by block across the whole night rather than as two totals.
+
 Two numbers in one sentence, and they have to be read together.
+
+:::predict Before the two numbers. Every device in this study caught 93 per cent or more of the minutes you were genuinely asleep. What would you expect the same devices to do with the minutes you were genuinely awake?
+
+Worse, and the size of the gap is the point.
+
+The two jobs are not symmetrical. Lying still with your eyes shut and asleep, and lying still with
+your eyes shut and awake, look almost identical to anything reading movement, and fairly similar to
+anything reading heart rate. **A device catching your sleep is catching the easy case.**
+
+So the number to look for is the one for wake, and it is the one that almost never appears in an
+advertisement. Read on for what it was.
+:::
 
 **Sensitivity here is the share of genuinely asleep minutes the device called asleep.** At 0.93 and
 above, every device caught almost all of your sleep.
 
-**Specificity is the share of genuinely awake minutes the device called awake.** At 0.18 to 0.54, the devices caught between a fifth and a half of the time you'd spent awake in bed,
-and scored the rest as sleep.
+**Specificity is the share of genuinely awake minutes the device called awake.** At 0.18 to 0.54, the
+devices caught between a fifth and a half of the time you'd spent awake in bed, and scored the rest
+as sleep.
+
+**And the same abstract says something that cuts the other way, which this lesson would be dishonest
+to leave out.** Most of the consumer devices "performed as well as or better than actigraphy on
+sleep/wake performance measures", and the conclusion calls their performance "promising".[1] The
+research instrument is living with the same problem. **So the specificity figure isn't a complaint
+about cheap watches**, it's a property of measuring sleep by movement at all, and that makes the
+point structural rather than a grumble.
 
 ### One night, three versions of it
 
@@ -155,7 +186,7 @@ other twenty-eight sleep. At 0.18, it finds about eleven and calls forty-nine of
 <title id="spec-title">The same night, as it happened and as two devices would report it</title>
 <desc id="spec-desc">Three horizontal bars, each eight hours of time in bed. The first is what happened: seven hours asleep and one hour awake. The second is a device at specificity 0.54, which finds 32 of the 60 awake minutes and reports the other 28 as sleep. The third is a device at specificity 0.18, which finds 11 and reports 49 as sleep. The awake portion shrinks from 60 minutes to 32 to 11 while the night itself does not change.</desc>
 <text x="8" y="22" font-size="16" font-weight="700" fill="var(--text, #111418)">One night, three versions of it</text>
-<text x="8" y="42" font-size="15" fill="var(--text-2, #4a5260)">Eight hours in bed. The dark end is time awake</text>
+<text x="8" y="42" font-size="15" fill="var(--text-2, #4a5260)">Eight hours in bed. The end nearest 8 h is time awake</text>
 <text x="8" y="70" font-size="15" font-weight="600" fill="var(--text, #111418)">What happened: 7 hours asleep, 1 hour awake</text>
 <rect x="8" y="78" width="262.5" height="22" fill="var(--gold, #b08d2a)"/>
 <rect x="270.5" y="78" width="37.5" height="22" fill="var(--oxblood, #8b1e2d)"/>
@@ -210,10 +241,11 @@ The last clause of that quoted sentence is the one to keep: devices "tended to p
 nights with poorer/disrupted sleep".[1]
 
 **The people most likely to buy a sleep tracker are the people whose nights are disrupted**, and
-those are the nights the devices read worst. That sentence is this course's own reading of the finding rather than something the paper says, and
-it's the reason this lesson comes first.[6]
+those are the nights the devices read worst. That sentence is this course's own, and the first half
+of it is a guess about who buys trackers rather than anything measured.[6] It's the reason this
+lesson comes first.
 
-:::checkpoint Your diary says you fell asleep at half past eleven. Your watch says quarter to eleven. Ninety minutes of your evening is in dispute. Which one is wrong?
+:::checkpoint Your diary says you fell asleep at half past eleven. Your watch says ten o'clock. Ninety minutes of your evening is in dispute. Which one is wrong?
 
 Neither, and the question has the wrong shape, which is the whole of this lesson in one example.
 
@@ -221,8 +253,9 @@ Your diary records **when you experienced falling asleep**, which is the moment 
 you were awake and is therefore reported from the wrong side of the event. Your watch records **when
 a model decided your movement and heart rate looked like sleep**. Those are two different quantities about the same night, and there's no reason for them to agree.
 
-What the gap tells you is worth having. A large one usually means a long quiet settling period, when you were lying still and awake, which is
-exactly the stretch the specificity figure says a device gets wrong. **A reader who throws out the night because the numbers disagree has discarded the most
+What the gap tells you is worth having. A large one would fit a long quiet settling period, when you were lying still and awake, which is
+exactly the stretch the specificity figure says a device gets wrong. **How often that's the
+explanation is not something this course has read anything about.** **A reader who throws out the night because the numbers disagree has discarded the most
 informative night of the week.**
 
 And notice what neither instrument gives you. Polysomnography would've called it by the electrodes,
@@ -239,11 +272,11 @@ one measured, on whom, and how far this course got into it.
 |---|---|---|---|
 | The [device comparison](https://doi.org/10.1093/sleep/zsaa291)[1] | Seven consumer devices and an actigraph against polysomnography | 34 healthy young adults, 3 nights | **Abstract verbatim in full. The paper was not opened** |
 | The [restriction experiment](https://doi.org/10.1093/sleep/26.2.117)[2] | Cognitive performance and sleep physiology at 4, 6 and 8 hours in bed | 48 healthy adults aged 21 to 38, 14 nights | **Abstract verbatim in full. The paper was not opened** |
-| The [light experiment](https://doi.org/10.1113/jphysiol.2012.227892)[3] | How far one hour of bright light moves the body clock, by circadian phase | 36 participants in a laboratory | **Abstract verbatim in full. The paper was not opened** |
-| The [consensus statement](https://doi.org/10.5665/sleep.4716)[4] | Nothing. It is a panel's recommendation about a literature | A panel of experts, by a structured process | Read in part: the recommendation and four statements |
+| The [light experiment](https://doi.org/10.1113/jphysiol.2012.227892)[3] | How far one hour of bright light moves the body clock, by circadian phase | 36 participants in a laboratory | **Abstract verbatim in full, plus one sentence of the introduction. The methods and results were not read** |
+| The [consensus statement](https://doi.org/10.5665/sleep.4716)[4] | Nothing. It is a panel's recommendation about a literature | A panel of experts; this course did not read how the panel worked | Read in part: the recommendation and four statements |
 | The [mortality meta-analysis](https://doi.org/10.1093/sleep/33.5.585)[5] | All-cause mortality against self-reported sleep duration | 1,382,999 people in 27 cohort samples | Read in part, in fragments, from a proof copy |
 | The insomnia guideline[7] | Nothing. It is a college's recommendation about trials | Adults with chronic insomnia disorder | Read in part: both recommendations and two sections |
-| The chronotype paper[8] | A short questionnaire against a laboratory hormone measure | Participants in a validation study | Read in part: the abstract and the measure |
+| The chronotype paper[8] | A short questionnaire against the longer standard questionnaire it shortens | Participants in a validation study | Read in part: the abstract and the measure |
 | The sleep and memory meta-analysis[9] | Episodic memory after sleep against after waking | 823 effect sizes from 271 samples | **Not read. Search-summary level only** |
 
 Read the last column before you read anything else. **Three abstracts were read in full, four sources were
@@ -258,10 +291,9 @@ That split is the subject of lesson 3 and it is the single most important thing 
 ## What this course leaves out on purpose
 
 **Sleep disorders.** Apnoea, narcolepsy, restless legs and the parasomnias are a clinical literature
-this course has not searched, and it isn't going to improvise about them. **If you snore loudly and
-somebody has seen you stop breathing, if you fall asleep during the day without meaning to, or if
-sleeping more does not fix your sleepiness, those are reasons to see a doctor**, and no lesson here
-is a substitute for that.
+this course has not searched, and it isn't going to improvise about them. **If you snore loudly and somebody has seen you stop breathing, if you have fallen asleep at the
+wheel, if severe sleeplessness has come on suddenly, or if sleeping more does not fix your
+sleepiness, those are reasons to see a doctor**, and no lesson here is a substitute for that.
 
 **Children and adolescents.** A separate literature with live policy arguments attached. Everything
 here was measured on adults.
@@ -305,9 +337,11 @@ Then three things.
 shakiest and very few can say what would settle it, and an answer you can't imagine checking is
 lesson 8's subject arriving early.
 
-**This is also section 1 of the course project**, which compares two measurements of the same nights
-across a week. The project is in `assessments/` and **its prediction section cannot be written
-later**, so if you are going to do it, write those three numbers down now and do not edit them.
+**The course project starts here too.** It compares two measurements of the same nights across a
+week, and its first section is a prediction that **cannot be written later**: how long you sleep on a
+work night and on a free night, the midpoint of your sleep on a free night, and how confident you are
+out of ten, on a scale where ten is certain. Write those four things down now, before lesson 2, and
+do not edit them afterwards.
 :::
 
 :::exercise Find the instrument
@@ -339,8 +373,8 @@ it applied to the one activity you cannot watch yourself doing. **Memory** lesso
 question, which the third column of the table above is an instance of. **Logic and Argument** is
 where base rates were taught, which is why a mostly-sleep night makes an accuracy figure useless.
 
-**Forward.** Lesson 2 is the one experiment in this course that takes sleep away on purpose, and it
-used polysomnography and a reaction-time task. Lesson 3 is the same subject measured by asking a
+**Forward.** Lesson 2 is the one experiment in this course that takes sleep away on purpose, and it used
+polysomnography overnight and performance tasks its abstract never names. Lesson 3 is the same subject measured by asking a
 million people a question. Lesson 4 is the fifth instrument, a hormone assay, and the quantity it measures isn't duration at
 all.
 
@@ -352,7 +386,7 @@ all.
   numbers this lesson is built on. If you own a tracker, the device list is worth a look to see whether yours is in it.
 - **Your own device's support pages.** Not a source and not read for this course, but worth ten
   minutes: find out whether the manufacturer says anywhere what their sleep staging is validated
-  against, and notice how hard it is to find.
+  against, and see whether you can find it.
 
 ## Sources
 
