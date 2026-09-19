@@ -143,9 +143,17 @@ Rewrite these five lines each session. Nothing else goes in this block.
   names him fails; and sleep disorders, children and adolescents, screens and ordinary indoor light,
   dreams and naps are each left out by name in a stated lesson. **The course's own addition to the
   institute's claim sort is the clock question**: is this claim about how much, or about when.
-  **Lessons 1 to 4 are drafted and each owes or is having its Stage 4 review.** Four lessons
-  remain: sleep and memory, what is offered to somebody sleeping badly, the bestseller dispute, and
-  the closing lesson, plus the eighteen-item test and the project.
+  **Lessons 1 to 4 are drafted. Reviews for 1 and 2 are applied and recorded; lesson 3's is running
+  and lesson 4 owes one.** The course project is written. Four lessons remain: sleep and memory,
+  what is offered to somebody sleeping badly, the bestseller dispute, and the closing lesson, plus
+  the eighteen-item test.
+
+  **Two things a later session should pick up.** The `minutes` model cannot price an exercise that
+  says "come back in a fortnight", and this course generates at least two of them; Reading Well
+  carries four EXCEPTIONS entries for the same shape, so either a cue form the model can read or an
+  entry per lesson. And lesson 1's review found the research file carrying an inference the outline
+  had already corrected ("a reaction-time task", which that study's abstract never names): it is
+  fixed, but it is the second time a correction landed in one file and not the others.
 
 - **Note-Taking and Personal Knowledge is through Stage 2**, with 4,600 words of research and a
   4,800-word outline planning eight lessons, an eighteen-item test and a project that runs across

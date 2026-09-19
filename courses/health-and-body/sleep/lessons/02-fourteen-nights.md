@@ -1,9 +1,10 @@
 ---
 title: Fourteen nights at four, six and eight hours
-minutes: 75
+minutes: 80
 objectives:
   - >-
-    State the design of the dose-response experiment and what it measured
+    State the design of the dose-response experiment, what it measured, and which of its numbers
+    came out of a model
   - >-
     Explain what cumulative, dose-dependent deficits means in terms you can restate
   - >-
@@ -22,22 +23,22 @@ quiz:
       the dose. Baseline days were included and matter, an ordinary-sleep comparison is not what
       the eight-hour arm was, and nobody in it adapted.
   - q: >-
-      A colleague has slept about six hours a night for a fortnight and says they feel completely
-      fine. What does this study licence you to think?
+      Somebody was in bed four hours a night for three nights, then eight hours a night for a week,
+      and says they have caught up. What does this study licence you to say?
     options:
-      - That they are probably one of the people whose sleep need is genuinely lower
-      - That they are wrong about feeling fine, since the study measured how people felt
-      - That they have adapted, which is what the fourteen-night design was built to test
-      - That feeling fine is what the six-hour group reported too, while performing worse
-    answer: 3
+      - That the recovery is complete, since the design included three recovery days
+      - That three nights of no sleep cost more per hour lost than a fortnight of short ones
+      - That nothing in this study followed anybody through a loss and then a recovery like that
+      - That the deficit is permanent, since the fourteen-night arm never returned to its baseline
+    answer: 2
     explain: >-
-      The subjective ratings did not separate six hours from four, and the performance did, so the
-      report and the measurement came apart in exactly this way. Nothing here identifies who has a
-      lower sleep need, the participants were not wrong about their own feelings, and no adaptation
-      appeared.
+      The two arms were separate experiments on separate people, and neither ran a short loss
+      followed by a week of long nights, so the design does not reach this case. The
+      disproportionality finding is real and is about a comparison between arms, and nothing here
+      says a deficit is permanent.
   - q: >-
-      The abstract says lapses in behavioural alertness were nearly linearly related to cumulative
-      wakefulness in excess of 15.84 hours. What kind of statement is that?
+      The paper reports that lapses in alertness were related, close to linearly, to cumulative
+      wakefulness beyond 15.84 hours. What kind of statement is that?
     options:
       - A parameter from a statistical model the authors fitted to their four conditions
       - A threshold observed directly in the data, above which performance began to fall
@@ -51,10 +52,10 @@ quiz:
   - q: >-
       Which of these questions does this experiment answer?
     options:
-      - Whether people who sleep six hours a night have more heart disease later
-      - Whether sleeping six hours makes somebody a worse driver on a real road
-      - Whether cognitive performance falls further on each successive restricted night
-      - Whether six hours of sleep is enough for a particular person to function well
+      - Whether people who spend six hours in bed have more heart disease years later
+      - Whether six hours in bed makes somebody a worse driver on a real road
+      - Whether cognitive performance falls further on each successive restricted night in turn
+      - Whether six hours in bed is enough for a particular person to function well
     answer: 2
     explain: >-
       Cumulative deficits over fourteen consecutive nights is exactly what the design was built to
@@ -65,7 +66,7 @@ quiz:
       changed, while performance kept falling. Why does that matter?
     options:
       - Because it shows the physiological measures were recorded with the wrong equipment
-      - Because the body's overnight response and the daytime cost are not the same quantity
+      - Because the body's overnight response and the daytime cost are not the same quantity at all
       - Because it means the performance decline must have been caused by something else
       - Because it shows the participants were compensating for the lost sleep while asleep
     answer: 1
@@ -94,8 +95,8 @@ how long they sleep, waited, and counted what happened to them. Lesson 3 is abou
 it is enormous.
 
 This lesson is the other kind. One experiment, forty-eight people, everything controlled, sleep
-taken away on purpose by an amount somebody chose. It is the strongest evidence in this course and
-it is also the narrowest, and holding both of those at once is what the lesson is for.
+taken away on purpose by an amount somebody chose. It's the strongest evidence in this course and
+it's also the narrowest.
 
 ## The design
 
@@ -116,12 +117,18 @@ continuous behavioral, physiological and medical monitoring."[1]
 
 Read those three sentences together and you have the shape of the thing. **Three doses, fourteen
 nights, forty-eight healthy people in their twenties and thirties, in a laboratory, watched
-continuously.** Nobody was allowed to nap: "All other sleep was prohibited."[1]
+continuously.** No sleep outside the assigned hours was allowed, of any kind: "All other sleep was
+prohibited."[1]
 
 **Notice the eight-hour arm.** It is not a group sleeping normally; it is a group held at eight hours
 in bed, which for some of them will be more than they usually get and for others less. That is what
 a dose is, and it is why this is a dose-response experiment rather than a comparison of the sleepy
 with the rested.
+
+**And notice the unit, because the whole lesson has to hold it.** The doses are hours **in bed**,
+not hours asleep. Nobody sleeps every minute they are in bed, so somebody who actually sleeps six
+hours is getting more sleep than the six-hour arm did, not the same. Every "six hours" below means
+six hours in bed.
 
 ## What happened
 
@@ -154,8 +161,8 @@ What the abstract reports is that they came apart. **Subjective sleepiness respo
 then almost stopped moving**, and it "did not significantly differentiate the 6 h and 4 h
 conditions".[1]
 
-So the people on four hours a night, for two weeks, rated themselves about as sleepy as the people
-on six, while performing measurably worse. The instrument inside your head, the one you actually use
+So the ratings did not separate the four-hour group from the six-hour group, while the performance
+did. The instrument inside your head, the one you actually use
 to decide whether you slept enough, was not tracking the thing that was changing.
 :::
 
@@ -164,7 +171,7 @@ paraphrasing: "Sleepiness ratings suggest that subjects were largely unaware of 
 cognitive deficits, which may explain why the impact of chronic sleep restriction on waking
 cognitive functions is often assumed to be benign."[1]
 
-**Read the hedge.** "Suggest", and "may explain". This is the authors offering an account of why a
+**Read the hedge.** "suggest", and "may explain". This is the authors offering an account of why a
 belief is common, not reporting a measurement of the belief.
 
 ## The measures that didn't move
@@ -173,10 +180,10 @@ There is a third clause and it is the one nobody quotes, which is a reason to gi
 
 > "Polysomnographic variables and δ power in the non-REM sleep EEG—a putative marker of sleep homeostasis—displayed an acute response to sleep restriction with negligible further changes across the 14 restricted nights."[1]
 
-Delta power is the amount of slow electrical activity in the sleep trace. **This course has read
-nothing about it beyond the phrase the authors use in that sentence**, "a putative marker of sleep
-homeostasis", and putative is their word for a thing widely taken to be a marker rather than a thing
-shown to be one.
+Delta power is slow electrical activity in the sleep trace, which is background this course is
+supplying rather than anything the abstract says. **What the abstract gives is the authors' own
+phrase for it**, "a putative marker of sleep homeostasis", and putative is their word for a thing
+widely taken to be a marker rather than a thing shown to be one.[2]
 
 What matters here is not the physiology, it is the shape. **The overnight measures jumped once and then
 sat still. The daytime performance kept falling for a fortnight.** Two quantities, measured on the
@@ -184,10 +191,10 @@ same people on the same nights, moving differently.
 
 That is lesson 1's point arriving with teeth. A physiological measurement of sleep and a measurement
 of what sleep loss costs you are not the same number, and in this study they are visibly not the
-same number. If you had only the overnight trace, you would have concluded after three nights that
-nothing much else was happening.
+same number. If you had only the overnight trace, you would have concluded early in the fortnight that nothing
+much else was happening.
 
-## Two nights of no sleep at all
+## The arm with no sleep in it
 
 The study ran a second arm: three nights with no sleep, and then compared the two kinds of loss.
 
@@ -195,12 +202,15 @@ The study ran a second arm: three nights with no sleep, and then compared the tw
 in disproportionately large waking neurobehavioral and sleep δ power responses relative to how much
 sleep was lost."[1]
 
-**So an all-nighter costs more per hour lost than a fortnight of short nights does.** Which, put the
-other way round, is the sentence the paper is famous for: "chronic restriction of sleep to 6 h or
-less per night produced cognitive performance deficits equivalent to up to 2 nights of total sleep
-deprivation".[1]
+**So three nights with no sleep at all cost more, per hour of sleep lost, than a fortnight of short
+nights did.**
 
-**Hold "up to" firmly.** It is a ceiling, over fourteen nights, on tasks the abstract doesn't name,
+The Conclusions then put an equivalence the other way round, and this is the sentence that gets
+quoted out of this paper: "chronic restriction of sleep to 6 h or less per night produced cognitive
+performance deficits equivalent to up to 2 nights of total sleep deprivation".[1] **That is a
+separate claim from the one above**, not the same finding restated.
+
+**Hold "up to" firmly.** It is a ceiling, over fourteen nights, on tasks the abstract does not name,
 in a laboratory. It is not a conversion rate you can apply to your own week.
 
 ### The number that isn't an observation
@@ -223,8 +233,8 @@ a limit**, and has also quietly applied a fortnight of laboratory data to a sing
 
 The honest answer has two halves and the second is the more useful one.
 
-**On what this experiment measured, six hours was not enough**, and the deficits were still growing
-at the end of the fortnight. That's a real result, on healthy 21-to-38-year-olds, in a laboratory,
+**On what this experiment measured, six hours in bed was not enough**, and the deficits accumulated
+across the whole fortnight, with the abstract reporting no point at which they stopped. That's a real result, on healthy 21-to-38-year-olds, in a laboratory,
 on unnamed cognitive tasks, with everything else controlled.
 
 **And the question you actually asked isn't one this study can answer**, which is worth being exact
@@ -234,18 +244,36 @@ forty-eight people, none over thirty-eight, doing tasks the abstract doesn't nam
 to do all day.
 
 **And the thing that makes the gap uncomfortable rather than academic** is the sleepiness finding.
-The people in the six-hour condition felt about as they did in the four-hour condition, which means
-the feeling you would use to answer the question for yourself is the one measurement in this study
-that did not track the cost. **That is not a reason to assume you are impaired. It is a reason to notice that
-feeling fine is not evidence either way**, which is this course's reading of the finding rather than
-something the paper says.[2]
+The ratings did not separate the people held at six hours from the people held at four, while the
+performance did, which means the feeling you would use to answer the question for yourself is the
+one measurement here that did not track the cost. **That's not a reason to assume you're impaired. It's a reason to notice that feeling fine is not
+evidence either way**, which is this course's reading of the finding rather than something the paper
+says.[2]
+:::
+
+:::checkpoint Somebody tells you that 15.84 hours is the longest a person can safely stay awake. Name the two things wrong with that sentence.
+
+Both are in the paragraph above, and the second is the one people miss.
+
+**It isn't an observed threshold.** The abstract says a statistical model revealed it, which means it
+is a parameter fitted to data rather than a point anybody watched somebody cross. Fitted parameters
+inherit every assumption in the model they came from.
+
+**And it isn't about a person.** It was fitted across four experimental conditions in a laboratory
+study of forty-eight people, and it describes the relationship between accumulated wakefulness and
+lapses across all of them. There is no version of it that belongs to one reader's Tuesday.
+
+**A third thing, if you want it.** "Safely" is not in the sentence the paper wrote. Lapses in
+behavioural alertness is what was modelled, and safety is a claim about consequences that nobody
+here measured.
 :::
 
 ## One person, worked through
 
 **This case is constructed**, because no source read for this course follows an individual.[2]
 
-Nadia has slept about six hours a night for the last two weeks, on purpose, to finish something. She
+Nadia has been in bed about six hours a night for the last two weeks, on purpose, to finish
+something. She
 feels tired in the mornings and fine by ten. Her work has gone out on time and nobody has complained.
 
 Take the study to her, clause by clause, and see what survives.
@@ -279,8 +307,8 @@ happened**, which is the distinction this whole course is built on.
 
 ## Three things people get wrong about this study
 
-"Six hours is fine, you adapt." The design ran for fourteen consecutive nights specifically to look
-for that, and the deficits were cumulative to the end.[1]
+"Six hours is fine, you adapt." The design ran for fourteen consecutive nights specifically to look for that, and the abstract
+reports the deficits accumulating with no point at which they stopped.[1]
 
 "Sleep debt is just a metaphor." The authors propose the opposite in their final sentence, and they
 propose it: sleep debt "is perhaps best understood as resulting in additional wakefulness that has a
@@ -313,9 +341,9 @@ observational. Write two lines on that before you move on.
 
 :::exercise Two weeks of your own
 
-Allow fifteen minutes now, and ten more in a fortnight.
+Take 15 minutes now. Take 10 more in a fortnight, which sit outside this lesson's stated time.
 
-This is section 2 of the course project and it works on its own.
+This is preparation for the project's log section and it works on its own.
 
 Write down, today, three things you'd be able to notice if your own performance dropped by a small
 amount. Not "I would feel tired": something you could point at. A task you time, a number of errors you
@@ -326,8 +354,8 @@ three, if it had happened?**
 
 **Most people find that at least two of their three were unfalsifiable when they wrote them**, which
 is this course's expectation rather than something it has measured,[2] and finding that out is the
-exercise. The project in `assessments/` is where this gets done properly, with two instruments and a
-week of nights.
+exercise. The project in `assessments/` is where this gets done properly, with two instruments and a week of
+nights.
 :::
 
 ## Connections
@@ -337,8 +365,7 @@ performance tasks by day, and the two did not move together. **Focus and Deep Wo
 attention as a measured quantity was taught, and this is what taking it away on purpose looks like.
 
 **Forward.** Lesson 3 asks the same question with an instrument that could not be more different: a
-questionnaire, given to more than a million people, with death as the outcome. Reading these two
-lessons against each other is the point of both.
+questionnaire, given to more than a million people, with death as the outcome.
 
 ## Go deeper
 
@@ -364,5 +391,7 @@ lessons against each other is the point of both.
 2. **The course's own constructions, each labelled where it appears in the body.** Nadia's case is
    invented and the body says so where it begins. **The reading of the sleepiness finding as meaning
    that feeling fine is not evidence either way is this course's**, said as such in the checkpoint
-   rather than attributed to the paper. **The expectation that most readers' three signals will turn
-   out to be unfalsifiable is an expectation**, and the exercise says so.
+   rather than attributed to the paper. **The expectation that most readers' three signals will turn out to be unfalsifiable is an
+   expectation**, and the exercise says so. **The one-line description of what delta power is is
+   background this course supplied rather than anything the abstract says**, and the body says so
+   at the point of use.
