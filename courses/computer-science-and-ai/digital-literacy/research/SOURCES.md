@@ -970,9 +970,16 @@ level on 2026-09-19: the abstract verbatim and in full. The paper was not opened
   be useful, emphasizing the need for better filtration, visualization, and summarization to help
   them hone in on key information."
 
-**The sentence a lesson should take from this is the flat one**: "Data downloads vary in format,
-organization, comprehensiveness, and content." That is four dimensions of variation, from researchers
-who looked at six companies' archives, and it is exactly what one export could not have established.
+**Note what kind of study this is**, because it is easy to get backwards: focus groups are a method
+for gathering reactions, so this is people reacting to six companies' downloads rather than an
+audit of the downloads themselves. Its finding is the sentence "Most participants indicated that
+current offerings need improvement to be useful."
+
+**The sentence a lesson is likeliest to want is the flat one in the opening**: "Data downloads vary
+in format, organization, comprehensiveness, and content." **That sits in the abstract as background
+rather than as the study's contribution**, and a lesson using it should not present it as what the
+researchers found. It is still worth carrying, because four dimensions of variation is exactly what
+one export could not have established.
 
 **Yujin Potter, Ella Corren, Gonzalo Munilla Garrido, Chris Hoofnagle and Dawn Song, "SoK: The Gap
 Between Data Rights Ideals and Reality", arXiv:2312.01511, submitted December 2023, last revised
@@ -1030,8 +1037,8 @@ than compress into "studies show exports do not work".
   feedback loop should expect to revisit this course's numbers more often than any other.
 - **Stage 1 pass on lesson 13, 2026-09-18: the paper half is done, the export half cannot be.**
   **Farke, Balash, Golla, Durmuth and Aviv, "Are Privacy Dashboards Good for End Users? Evaluating
-  User Perceptions and Reactions to Google's My Activity", USENIX Security 2021.** Abstract page
-  fetched and read; the full paper was not opened. An online survey of **153 participants** on
+  User Perceptions and Reactions to Google's My Activity", USENIX Security 2021**,
+  usenix.org/conference/usenixsecurity21/presentation/farke. Abstract page fetched and read; the full paper was not opened. An online survey of **153 participants** on
   Google's My Activity dashboard. Participants found the volume and detail of collected data
   surprising, and then, counterintuitively, exposure to the dashboard made them **significantly more
   likely to be both less concerned about data collection and to view it more beneficially**. **Only

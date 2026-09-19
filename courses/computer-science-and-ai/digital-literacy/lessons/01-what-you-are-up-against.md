@@ -175,7 +175,7 @@ Not one of the eight pictures makes all twelve worth doing. Each marks some of t
 
 ## Building a security plan
 
-The people who teach this best do not start with a list of precautions. They start by making you say what you are protecting and from whom, because the right precautions genuinely differ between a journalist in a hostile country and a retired teacher with a tablet. The Electronic Frontier Foundation's *Surveillance Self-Defense* opens with an exercise it calls [Your Security Plan](https://ssd.eff.org/module/your-security-plan), five questions, and I am going to work one in front of you rather than rebuild theirs.[5]
+The people who teach this best do not start with a list of precautions. They start by making you say what you are protecting and from whom, because the right precautions genuinely differ between a journalist in a hostile country and a retired teacher with a tablet. The Electronic Frontier Foundation's *Surveillance Self-Defense* opens with an exercise it calls [Your Security Plan](https://ssd.eff.org/module/your-security-plan), five questions, and I am going to work one in front of you rather than rebuild theirs.[5] Security people usually call the result a **threat model**, and later lessons use that name for what you are about to build.
 
 Our subject is an ordinary person. Call her Ruth. She has a laptop, an email account she has had since 2009, a banking app on her phone, and about fifteen years of family photographs, most of them in one folder and some of them nowhere else.
 
