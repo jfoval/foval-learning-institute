@@ -38,18 +38,19 @@ quiz:
       Whether a journal should publish a recommendation is not this course's question, and a title
       is not evidence.
   - q: >-
-      A commentary objects that the study's participants typed with one finger only. Why does that
-      matter?
+      A trial concludes that walking beats cycling for fitness. Its cycling condition was a
+      stationary bike held at a fixed low resistance. What is wrong with the conclusion?
     options:
-      - Because one-finger typing is slower, so the two conditions took different amounts of time
-      - Because it means the participants were not experienced typists to begin with
-      - Because it makes the typing condition unlike the typing the conclusion is about
-      - Because the study should have used the same hand for both conditions to be fair
+      - A stationary bike gives noisier measurements than a bike ridden on the road
+      - The two conditions could not have been run for the same number of minutes
+      - The cycling condition is unlike the cycling the conclusion is meant to cover
+      - The same people would have to do both halves for the comparison to be fair
     answer: 2
     explain: >-
-      A conclusion about handwriting against typing needs a typing condition that resembles typing,
-      and the commentary says this one is quite different from typical typing. Timing, expertise
-      and hand assignment are all real considerations and none is the objection raised.
+      A conclusion about cycling needs a cycling condition that resembles cycling, and a fixed low
+      resistance does not. That is the first of this lesson's three objections, in another sport.
+      Measurement noise, matched durations and whether the same people do both halves are all real
+      design questions, and none of them is what a mismatched condition breaks.
   - q: >-
       A product claims its exercises "activate the regions associated with memory formation". What
       does this lesson tell you to ask?
@@ -145,12 +146,38 @@ literature the study cites and this course has not read.
 
 So the structure of the argument is, and **this is this course's reading rather than the paper's
 own description of itself**, that we measured A, other work says A goes with B, therefore B.[3]
-That's a legitimate thing for a discussion section to do, and it's a completely different kind of
+Drawn out, with the measured step separated from the asserted ones, it looks like this.
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 356" width="100%" style="max-width:460px;display:block;margin:1.5em auto;font-family:system-ui,sans-serif" role="img" aria-labelledby="steps-title steps-desc">
+<title id="steps-title">One measurement, two assertions</title>
+<desc id="steps-desc">Three stacked boxes joined by two downward arrows. The top box holds what the study measured: different connectivity patterns while writing single words by hand and typing them, on 36 students. An arrow labelled other work associates these patterns with leads to the second box, a brain state favourable to learning, marked as asserted from a literature this course has not read. A second arrow labelled and that state is taken to mean leads to the third box, handwriting is better for learning, marked as the headline, with no learning measured anywhere above it.</desc>
+<text x="8" y="22" font-size="16" font-weight="700" fill="var(--text, #111418)">One measurement, two assertions</text>
+<text x="8" y="42" font-size="15" fill="var(--text-2, #4a5260)">The study's argument, step by step</text>
+<rect x="8" y="56" width="444" height="76" rx="4" fill="none" stroke="var(--text-2, #4a5260)" stroke-width="2"/>
+<text x="20" y="80" font-size="15" font-weight="600" fill="var(--text, #111418)">Different connectivity patterns while writing</text>
+<text x="20" y="100" font-size="15" font-weight="600" fill="var(--text, #111418)">single words by hand and typing them</text>
+<text x="20" y="122" font-size="15" fill="var(--text-2, #4a5260)">Measured in this study, on 36 students</text>
+<line x1="60" y1="132" x2="60" y2="154" stroke="var(--oxblood, #8b1e2d)" stroke-width="2"/>
+<polygon points="60,164 55,154 65,154" fill="var(--oxblood, #8b1e2d)"/>
+<text x="78" y="150" font-size="15" fill="var(--oxblood, #8b1e2d)">other work associates these with</text>
+<rect x="8" y="164" width="444" height="60" rx="4" fill="none" stroke="var(--oxblood, #8b1e2d)" stroke-width="2"/>
+<text x="20" y="188" font-size="15" font-weight="600" fill="var(--oxblood, #8b1e2d)">a brain state favourable to learning</text>
+<text x="20" y="210" font-size="15" fill="var(--oxblood, #8b1e2d)">Asserted from work this course has not read</text>
+<line x1="60" y1="224" x2="60" y2="246" stroke="var(--oxblood, #8b1e2d)" stroke-width="2"/>
+<polygon points="60,256 55,246 65,246" fill="var(--oxblood, #8b1e2d)"/>
+<text x="78" y="242" font-size="15" fill="var(--oxblood, #8b1e2d)">and that state is taken to mean</text>
+<rect x="8" y="256" width="444" height="60" rx="4" fill="none" stroke="var(--oxblood, #8b1e2d)" stroke-width="2"/>
+<text x="20" y="280" font-size="15" font-weight="600" fill="var(--oxblood, #8b1e2d)">handwriting is better for learning</text>
+<text x="20" y="302" font-size="15" fill="var(--oxblood, #8b1e2d)">The headline. No learning was measured above.</text>
+<text x="8" y="336" font-size="15" fill="var(--text-2, #4a5260)">The course's own diagram of the study's argument</text>
+</svg>
+
+Only the top box was measured here. That's a legitimate thing for a discussion section to do, and it's a completely different kind of
 statement from a measured result. **A reader who meets this study as "handwriting is better for learning" has been handed the
 conclusion of a syllogism as though it were a finding.**[3] 
 
 :::predict Before you read on. If you wanted to know whether handwriting beats typing for learning, and you had this study's 36 participants for an afternoon, what would you add to the design?
-The answer is short and the fact that it's short is the point.
+The answer is short, and how short it is matters more than what it is.
 
 A test. Have them write some of the words by hand and some by keyboard, wait, and then ask them
 which words they can recall. That's a study about learning, and the design change is small.
@@ -169,6 +196,13 @@ sentences are where a reader would pick it up.[3]
 In 2025 the same journal published [a commentary on
 it](https://doi.org/10.3389/fpsyg.2024.1517235).[2] **This course read the four fragments quoted below, which
 make three objections, and nothing else of it.**
+
+:::predict You have the design now: thirty-six students, single words, a digital pen in one hand, a keyboard. Before you read the objections, write down the one you would raise.
+
+There's no right answer to match, and the exercise is worth more if you write yours before you look.
+
+What's worth comparing afterwards isn't whether you matched the commentary but where you aimed. The sample is the easiest thing to aim at, because thirty-six sounds small. None of the commentary's three objections is about the sample. All three are about the design of the comparison and about what the measure means, which is a different instinct and, for this kind of claim, the more useful one.
+:::
 
 **On the typing condition.** The study's participants, in its own words, "only used their right index finger for typing to
 prevent undesired crossover effects between the two hemispheres".[1] The commentary's objection, in
@@ -327,7 +361,7 @@ Then write two things.
 2. **What the study's authors could say in reply to that one, at their strongest.** Not a strawman:
 their actual best answer.
 
-**The second is the harder half and it's the half worth doing.** The study states a reason for one
+The second is the harder half. The study states a reason for one
 of the three and this lesson quotes it. For the other two you will have to construct the reply
 yourself, from what the paper is trying to do.
 :::
