@@ -1,6 +1,6 @@
 ---
 title: Reading a claim about your habits
-minutes: 75
+minutes: 90
 objectives:
   - >-
     Sort a piece of habit advice into measurable, unmeasurable as stated, or false, and say what
@@ -13,19 +13,20 @@ objectives:
     to stop carrying it, with what each costs
 quiz:
   - q: >-
-      "Stack your new habit onto an existing one and it will stick." Sort that claim.
+      "Habits form faster if you reward yourself straight afterwards." Sort that claim.
     options:
-      - False, because the evidence shows stacking works no better than a fixed time
-      - Measurable, and a comparison of stacked with unstacked cues would settle it
-      - Unmeasurable, because nobody could ever count whether a behaviour has stuck
-      - Two claims, and only the first of the two is the kind a study could check
+      - False, since the research shows a reward makes no difference to how fast one forms
+      - Measurable, and a comparison of rewarded with unrewarded repetitions would settle it
+      - Unmeasurable, because a reward means something different to everybody who receives one
+      - Two claims, because it recommends a reward and recommends giving it to yourself
     answer: 1
     explain: >-
-      An existing routine is a reliable, noticeable context, which is what lesson 3 says a cue needs,
-      so this is specific enough to run. Nothing this course read compares stacking against the
-      alternatives, so calling it false claims a result nobody has. Sticking can be operationalised
-      as automaticity, which is how this literature measures it. And the claim offers no mechanism to
-      separate off.
+      There are two conditions to compare and something to count, which is automaticity over some
+      weeks, so this is the kind of sentence a study settles; the useful question is whether one
+      has. Nothing this course read tests it either way, so calling it false claims a result nobody
+      has. Rewards vary between people, which is a reason to define the reward rather than a reason
+      the claim cannot be checked. And who hands over the reward is a detail of the same single
+      claim rather than a second one.
   - q: >-
       A reader traces "43 percent of what you do is habit" and finds the paper says between a third
       and a half. What is the best description of what went wrong?
@@ -55,33 +56,35 @@ quiz:
       wanting it. A cue is only half of it, as lesson 3's second case showed. And the discipline
       framing is the one this course spends seven lessons refusing.
   - q: >-
-      Why does this lesson say the three travelling numbers in this subject failed in the same way?
+      A reader traces a figure and finds the paper says what the claim says, with its range and
+      its criterion attached. What has the trace established?
     options:
-      - All three were invented by writers who had never opened the studies they cite
-      - All three rest on samples too small for anyone to have relied on them
-      - None was invented; each arrived with the scope that made it meaningful gone
-      - All three have been corrected by later work that nobody has read since
+      - That the claim is true, since it matches the source it came from word for word
+      - That the trace failed, because a trace finding nothing wrong has found nothing
+      - That this claim survived the trace, which is one of the exercise's five endings
+      - That the source is itself unreliable, since claims rarely survive a trace intact
     answer: 2
     explain: >-
-      Twenty-one days was a real observation about surgical patients, sixty-six a real average with a
-      range, and forty-three a real count against a stated criterion; in each case what travelled was
-      the number with its conditions stripped off. Invention is a different and rarer failure. Sample
-      size is not what went wrong in any of the three. And none has been corrected, because none was
-      wrong where it was published.
+      A trace checks the chain of custody between a source and a claim, so what it can establish is
+      that the claim carries its conditions, and the exercise names that as one of five results. It
+      does not establish that the finding is correct, which is a separate question about the study.
+      A trace that finds nothing wrong is a result, not a failure. And a source that reports its own
+      scope is showing the opposite of unreliability.
   - q: >-
-      What does this course say to do with a piece of habit advice whose stated reason turns out to
-      be unsupported?
+      An app tells a woman to make her bed first thing because small wins build momentum. She
+      finds out the momentum idea has little behind it. What does this lesson say she should do?
     options:
-      - Discard it, since advice resting on a bad reason is unlikely to be good
-      - Judge the advice separately, because a good one can rest on a bad reason
-      - Keep it if it works for you, since what works is the only thing that counts
-      - Look for a better reason, since advice worth taking must have one behind it
+      - Stop making the bed, since advice whose reason failed checking is unsafe to keep
+      - Judge the advice on its own, since a good one can rest on an unsupported reason
+      - Keep doing it because it works for her, which is the only test that matters here
+      - Look for the real reason, since advice worth taking must have one behind it
     answer: 1
     explain: >-
-      Not starting two habits at once can be argued from repetitions being halved even after the
-      willpower-budget reason has gone, so the advice and its justification are two questions.
-      Discarding on the reason alone throws the first away. Keeping only what works abandons the
-      checking this course teaches. And some worthwhile advice has no good reason available yet.
+      A recommendation and its stated reason are separately checkable, so losing the reason tells
+      her that nobody has checked the recommendation rather than that it fails. Dropping it on the
+      reason alone throws away a claim nobody has tested. Keeping only what seems to work abandons
+      the checking this whole course teaches. And plenty of worthwhile advice has no good reason
+      available yet, which is what habit one's fourth kind is about.
   - q: >-
       This course has given you three numbers, a contested mechanism and a definition. Which should
       you hold most loosely?
@@ -111,17 +114,36 @@ Three habits of reading, and then the decision the course has been deferring sin
 
 Almost every piece of advice about habits is one of three things.
 
-**Measurable.** It makes a claim a study could check. "Stacking a new behaviour onto an existing
-routine makes it stick faster than putting it at a fixed time." Somebody could run that, and the
-useful question is whether anybody has.
+**Measurable.** It makes a claim a study could check. Take "stacking a new behaviour onto an
+existing routine makes it stick faster than putting it at a fixed time". **Work it.** Is there
+something to count? Yes: how automatic the behaviour feels, which is how this literature measures
+sticking, rated over some weeks. Are there two conditions to compare? Yes: stacked against
+fixed-time. Could one person run it? Yes, on themselves, badly, and a lab could run it properly. So
+it is measurable, and **the useful question is not whether it sounds right but whether anybody has
+run it**. Nothing this course read has.
 
 **Unmeasurable as stated.** It uses a term nobody has defined, so no study could settle it either
-way. "Become the kind of person who does this." **That isn't the same as useless**, and it may be
-good advice; it is simply not the kind of sentence evidence bears on until somebody says what the
-words mean.
+way. Take "become the kind of person who does this". **Work it the same way.** What is to be
+counted? A kind of person. By what criterion? None is given, and the sentence supplies no way of
+telling somebody who has become that kind of person from somebody who merely does the behaviour
+every day. Without that, there is no result the advice could fail. **That isn't the same as
+useless**, and it may be good advice; it is simply not the kind of sentence evidence bears on until
+somebody says what the words mean.
 
-**False.** It makes a checkable claim that has been checked and didn't hold. "Miss a day and you
-start again" is the clearest example this course can give you, and lesson 4 gave it.[1]
+**False.** It makes a checkable claim that has been checked and didn't hold. Take "miss a day and
+you start again". **Work it.** What would make it true? That automaticity ratings after a missed day
+resume from lower than where they were. What was found? That gains soon resumed after one missed
+performance. So the claim is not merely unsupported; it is contradicted by the one study this course
+has read on the point, which is the strongest thing you can say about a piece of advice and the
+rarest.[1]
+
+**And a fourth, which is the commonest of all: two claims stuck together.** Most habit advice is a
+recommendation with a reason attached, and the two are separately checkable. "Do it first thing in
+the morning, because that is when your willpower is highest" is **one claim about when to act and
+one about why**. The second is the resource model, which lesson 5 is about; the first would survive
+somebody's morning being reliably quiet whatever willpower turns out to be. **A sorter who marks the
+whole sentence false because its reason failed has thrown away a claim nobody has tested**, and
+habit three is what to do about that.
 
 **This sort isn't new here and the course says so.** It is **Digital Literacy** lesson 8's move and
 **Using AI Effectively** lesson 11's, and **Time Management** lesson 8 applied it to a different
@@ -134,11 +156,11 @@ numbers side by side and something becomes obvious that none of them shows alone
 
 | The claim | What the source says | What fell off |
 |---|---|---|
-| 21 days to form a habit | "A minimum of about 21 days" to change a mental image, in a 1960 self-help book, about patients adjusting after surgery | "A minimum of about", and that it was not about habits |
-| 66 days to form a habit | An average, with individuals from 18 days to a predicted 254, on 96 volunteers doing self-chosen simple behaviours | The range, the sample, and that simple actions plateaued sooner |
+| 21 days to form a habit | "[A] minimum of about 21 days" to change a mental image, in a 1960 self-help book, about patients adjusting after surgery | "a minimum of about", and that it was not about habits |
+| 66 days to form a habit | An average, with individuals from 18 days to a predicted 254, on 96 volunteers doing self-chosen eating, drinking or activity behaviours | The range, the sample, and that simple actions plateaued sooner |
 | 43% of what you do is habit | "Between a third and a half", 43% in one study and 35% in another, on students, by a stated criterion | The range, the criterion, and the second study |
 
-**None of these was invented.**[2] That's the point of putting them together. Every one is a real
+**None of these was invented.**[1] That's the point of putting them together. Every one is a real
 thing somebody measured or observed, reported honestly in its source, and every one arrives at you
 with the part that made it meaningful stripped away.
 
@@ -156,8 +178,8 @@ between a third and a half costs you nothing in practice.
 
 **Sixty-six is the one that changes behaviour.** It sounds like a finding, because it is one. It
 sounds precise, because it's a real average. And a reader who takes it as a rule will conclude at
-week ten that they've failed, when the study they're relying on contains people who took eight
-months. **A number that is true and stripped of its range is worse than a number that is simply
+week ten that they've failed, when the study they're relying on fitted
+curves running out to eight months. **A number that is true and stripped of its range is worse than a number that is simply
 wrong**, because there's nothing about it to distrust.
 :::
 
@@ -173,8 +195,9 @@ what matters.
 **The reason has gone. The advice hasn't necessarily gone with it.**
 
 "Don't start two habits at once" was argued from a willpower budget. It can also be argued from
-something this course has established: habits are built by repeated pairings, attention is finite,
-and two attempts at once halve the attention available for noticing either cue. **Same advice,
+something this course did establish: what builds a habit is repeated pairings of cue and response,
+and two behaviours started at once split whatever attention you have for noticing either cue between
+them, so each gets fewer usable repetitions. **Same advice,
 different support, and the second one survives lesson 5.**
 
 **So a piece of advice and its stated reason are two separate things to check**, and finding the
@@ -244,19 +267,24 @@ enforced by the build, and it means this section is not an assessment of them. N
 these seven lessons rests on any of the four.
 
 **What to do when somebody hands you one** is the three habits above. Sort each claim. Trace each
-figure, and expect the failure in the table rather than invention. And check whether the advice
-survives its reason, because the fourth of those books argues from the model lesson 5 is about.
+figure, and expect the failure in the table rather than invention. And check whether the advice survives its reason, which
+matters most for the fourth of them: at the same search-summary level as everything else here, it is
+the trade statement of the position lesson 5 is about, so a reader has to ask what of it survives
+lesson 5.
 
 **One of them is worth naming separately**, on the same search-summary basis as everything else this
-course knows about them. If a later reader opens one properly, the one to open is Fogg's, because
-it is the only one of the four written by a researcher about his own research programme, which means
-its claims can be checked against papers with his name on them. That is a note about where a reading
-would go furthest rather than a recommendation.[4]
+course knows about them. If a later reader opens one properly, the one to open is Fogg's, because of
+the first three it is the one written by a researcher about his own research programme, which means
+its claims can be checked against papers with his name on them. **The fourth is a researcher's book
+too**, and it is the trade statement of the position lesson 5 is about, which is a different reason
+to open it and a worse one to start with. That is a note about where a reading would go furthest
+rather than a recommendation.[4]
 
 ## Three things people believe about this literature
 
 **"Somebody must have checked."** Three of this subject's best-known numbers reached you with their
-conditions removed, and the checking took twenty minutes each. Nobody had done it.
+conditions removed, and the checking took twenty minutes each. The sources that handed them to you
+had not done it.
 
 **"The science says."** There is less science here than the phrase implies and more than there is in
 most of the genre. The habit half has a measurement paradigm and researchers who publish their own
@@ -338,8 +366,9 @@ once every figure in the course has dated, is the definition, the sort, and the 
   practitioners, by people who ran the studies.
 - **[Guidelines for tracking real-world habit
   formation](https://www.tandfonline.com/doi/full/10.1080/23311908.2022.2041277)** (*Cogent
-  Psychology*, 2022, open access). Lesson 4 sends you here for the timeline; come back to it for
-  section 2, where a field writes down plainly what its own measures cannot support. That is a rarer
+  Psychology*, 2022, open access). Read in substantial part by this course. Lesson 4 sends you here
+  for the timeline; come back to it for its criteria, the second of which is a field writing down
+  plainly what its own measures cannot support. That is a rarer
   document than it ought to be.
 - **[A Multilab Preregistered Replication of the Ego-Depletion
   Effect](https://pubmed.ncbi.nlm.nih.gov/27474142/)** (*Perspectives on Psychological Science*,
@@ -356,13 +385,14 @@ once every figure in the course has dated, is the definition, the sort, and the 
 2. **The three-row table is this course's own assembly.** No source read for this course presents
    those three claims together; each row's content is cited in the lesson it comes from, and the
    body says where the assembly is the course's own work.
-3. **The three habits of reading, the argument that a true number stripped of its range is worse
-   than a wrong one, and the three-way decision in the second exercise are the course's own
-   reasoning**, marked as such where they appear, and the checkpoint says where to put each of them
+3. **The three habits of reading, the fourth kind of claim,
+   the argument that a true number stripped of its range is worse than a wrong one, and the
+   three-way decision in the second exercise are the course's own reasoning**, marked as such where they appear, and the checkpoint says where to put each of them
    on a scale of confidence. The decision's form is taken from **Time Management** lesson 6, which
    is this institute's own earlier handling of a value question.
 4. Charles Duhigg, *The Power of Habit*; James Clear, *Atomic Habits*; B. J. Fogg, *Tiny Habits*;
-   Roy Baumeister and John Tierney, *Willpower*. **None of the four was opened for this course**,
+   Roy Baumeister and John Tierney, *Willpower*. Titles and dates from `research/SOURCES.md`, which
+   holds them at search-summary level. **None of the four was opened for this course**,
    and all four are on the `unread:` line of `research/SOURCES.md`, which exempts this lesson so that
    it can name them. They are cited here for nothing. **The judgement that Fogg's would be the one
    to open first rests on the same search-summary level** as everything this course knows about the

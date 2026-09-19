@@ -413,8 +413,16 @@ Sourced where a source exists; marked as the course's own where not.
 - **This course cannot avoid the trade books and has not read them.** Duhigg, Clear and Fogg are what
   a reader will have met. The honest middle is Time Management's: name them as widely read, say the
   course has not assessed them, and teach the reader to sort their claims. **If a later session opens
-  one, Fogg is the one to open**, because his is the only one of the three written by a researcher
-  about his own research programme, so it can be checked against papers.
+  one, Fogg is the one to open**, because of the three his is the one written by a researcher about
+  his own research programme, so it can be checked against papers. **Note that Baumeister is a
+  researcher too** and *Willpower* is his own programme's trade statement, so a lesson must not say
+  Fogg is the only researcher among the four; the reason to start with Fogg is that his subject is
+  habit formation, which is this course's subject.
+- **The four titles, at search-summary level**, so that a lesson naming them takes them from here
+  rather than from memory: Charles Duhigg, *The Power of Habit* (2012); James Clear, *Atomic Habits*
+  (2018); B. J. Fogg, *Tiny Habits* (2019); Roy Baumeister and John Tierney, *Willpower* (2011).
+  **None was opened. Nothing in this course rests on any of them**, and the `unread:` line exempts
+  lesson 7 only so that it can name them.
 - **The course must not become a productivity course.** Its own `course.yaml` promises what a habit
   is and what the evidence shows, and the pull towards "here are seven habits to build" will be
   constant. Time Management's decision 1 is the model: name the thing the course will not do, in
