@@ -73,8 +73,7 @@ quiz:
       - Because it prevents other researchers from replicating the analysis exactly
     answer: 0
     explain: >-
-      With only the difference, a reader cannot assess either condition independently, which is the
-      commentary's own point. Replication and data sharing are real concerns and are not what it
+      With only the difference, a reader cannot assess either condition independently, which is this course's reading of why the commentary's objection matters. Replication and data sharing are real concerns and are not what it
       raises here, and a difference is not inherently a less reliable statistic.
   - q: >-
       After reading both papers, what is the honest position on whether handwriting is better for
@@ -97,10 +96,13 @@ result that says less than it sounds like.
 
 ## The study
 
-In 2024, two researchers published an EEG study comparing handwriting with typing.[1] It's open
-access, it was widely reported, and you've probably met a version of it.
+In 2024, two researchers published [an EEG study](https://doi.org/10.3389/fpsyg.2023.1219945)
+comparing handwriting with typing.[1] EEG is electroencephalography: electrodes on the scalp
+reading the brain's electrical activity, 256 of them here. It's open access, it was widely
+reported, and you've probably met a version of it.
 
-Their abstract, quoted in full:[1]
+**Their abstract, quoted in full, and it is the whole of what this course read of this paper apart
+from one sentence about the typing condition:**[1]
 
 > As traditional handwriting is progressively being replaced by digital devices, it is essential to
 > investigate the implications for the human brain. Brain electrical activity was recorded in 36
@@ -138,49 +140,58 @@ That's a step from other people's work, not from this study's data. The study me
 connectivity. The claim that this particular connectivity is good for learning comes from a
 literature the study cites and this course has not read.
 
-So the structure of the argument is: we measured A, other work says A goes with B, therefore B.
+So the structure of the argument is, and **this is this course's reading rather than the paper's
+own description of itself**, that we measured A, other work says A goes with B, therefore B.[3]
 That's a legitimate thing for a discussion section to do, and it's a completely different kind of
-statement from a measured result. **A reader who meets this study as "handwriting is better for
-learning" has been handed the conclusion of a syllogism as though it were a finding.**[2]
+statement from a measured result. **A reader who meets this study as "handwriting is better for learning" has been handed the
+conclusion of a syllogism as though it were a finding.**[3] 
 
 :::predict Before you read on. If you wanted to know whether handwriting beats typing for learning, and you had this study's 36 participants for an afternoon, what would you add to the design?
 The answer is short and the fact that it's short is the point.
 
 A test. Have them write some of the words by hand and some by keyboard, wait, and then ask them
-which words they can recall. That's a study about learning, and it would have cost this one an extra
-twenty minutes per participant.
+which words they can recall. That's a study about learning, and the design change is small.
 
 Notice what you wouldn't need. You wouldn't need the EEG at all. A recall measure answers the
 question the headline asks, and the connectivity measure answers a different question about what the
 brain is doing while the writing happens.
 
 Which isn't a criticism of the study for being what it is. It was designed to look at
-connectivity and it looked at connectivity, on a 256-channel array, which is careful work. **The gap
-is between what it measured and what it is quoted for**, and that gap was opened by the abstract's
-own last two sentences rather than by anybody misreporting it.[2]
+connectivity and it looked at connectivity, on a 256-channel array, which is careful work. **The gap is between what it measured and what it is quoted for**, and the abstract's own last two
+sentences are where a reader would pick it up.[3]
 :::
 
 ## The published objection
 
-In 2025 the same journal published a commentary on it.[1] **This course read the three objections
-below and not the whole commentary.**
+In 2025 the same journal published [a commentary on
+it](https://doi.org/10.3389/fpsyg.2024.1517235).[2] **This course read the four fragments quoted below, which
+make three objections, and nothing else of it.**
 
-**On the typing condition.** The study's participants, in its own words, "only used their right
-index finger for typing to prevent undesired crossover effects between the two hemispheres".[1] The
-commentary's objection, in its words: participants were instructed to type using only their right
-index finger, "making the typing condition quite different from typical typing".[1] It adds that
-"removal of visual feedback decreases typing speed and impairs error monitoring processes".[1]
+**On the typing condition.** The study's participants, in its own words, "only used their right index finger for typing to
+prevent undesired crossover effects between the two hemispheres".[1] The commentary's objection, in
+its words: "participants were instructed to type using only their right index finger, making the
+typing condition quite different from typical typing".[2] It adds that "removal of visual feedback
+decreases typing speed and impairs error monitoring processes".[2]
 
 **On what the measure shows.** In the commentary's words: "the interpretation of increased
 theta/alpha connectivity as an unequivocal indicator of a brain state favorable to learning and
-remembering is problematic".[1]
+remembering is problematic".[2]
+
+Theta and alpha are bands of the brain's electrical rhythm, and the objection is about the first
+link in the abstract's own chain: from a pattern in those bands, to a brain state, to learning.
+**The commentary's point is that the first link is not one-to-one**, because the same pattern
+accompanies states that are not favourable to learning. **That is the same step this lesson has
+already counted**, arriving from somebody who studies the measure.
 
 **On what was reported.** In its words: "only the difference between handwriting and typing is
-reported in the results, not connectivity patterns for each condition separately".[1]
+reported in the results, not connectivity patterns for each condition separately".[2]
 
-Take the first objection seriously, because it is the one people wave away. The study had a
-reason for the one-finger instruction and states it: to avoid crossover effects between the
-hemispheres. That's a real methodological concern. **And the commentary's point stands anyway**: a
+Take the first objection seriously, because it is the one with a real answer on the other side. The
+study had a reason for the one-finger instruction and states it: to avoid crossover effects between
+the hemispheres. **Typing with both hands moves both of them at once**, and the comparison here is
+with one-handed handwriting, so a two-handed typing condition would have confounded the difference
+the study was trying to measure with a difference in how many hands were moving. **That is a real
+cost of the alternative design rather than a convenience.** **And the commentary's point stands anyway**: a
 conclusion about handwriting against typing needs a typing condition that resembles typing, and
 whatever the reason, this one doesn't.
 
@@ -192,9 +203,9 @@ The design choice was made for a reason and it limits what the result can be use
 Only the difference was reported, not each condition separately.
 
 Why that matters takes a sentence, and **this is the course's reasoning from what the commentary
-says rather than the commentary's own elaboration**.[2] A difference between two conditions can be
-produced by either one moving. Handwriting could have raised connectivity above some baseline, or
-typing could have lowered it, or both could have moved in opposite directions by half as much.
+says rather than the commentary's own elaboration**.[3] A difference between two conditions can be
+produced by either one moving. One condition could have been higher than the other because handwriting rose, or because typing
+fell, or because both moved in opposite directions by half as much.
 
 Those three possibilities support three different stories, and the reported result can't tell them
 apart.
@@ -216,8 +227,9 @@ limit what the result can be used for. It doesn't show the finding is wrong.
 And the reason this lesson exists is that a brain measurement feels like harder evidence than a
 test score, and it's the other way round for this question. A test score is a direct measurement of
 the thing the claim is about. A connectivity pattern is a measurement of something else that other
-work associates with the thing the claim is about. **The number of steps between the measurement and
-the claim is what to count**, and imaging results usually have one more step than they appear to.[2]
+work associates with the thing the claim is about. **The number of steps between the measurement and the claim is what to count**, which is this
+course's own generalisation and not something it has measured, and imaging results seem to this
+course to have one more step than they appear to.[3]
 :::
 
 ## The recommendation about children
@@ -254,7 +266,8 @@ Find a claim that cites brain activity. An app, a headline, a training programme
 
 Write it as two columns.
 
-1. **What was measured.** The actual dependent variable, as precisely as the source states it.
+1. **What was measured.** The actual thing the study measured and reported, as precisely as the
+   source states it.
 2. **What is claimed.** The sentence being sold.
 
 Then count the steps between them, and name each one. A step is anything of the form "and X is
@@ -264,23 +277,24 @@ Then one line: **how many of those steps does the source give you evidence for?*
 
 **Usually the answer is the first one only**, and the rest arrive as "existing literature
 indicates", which is the phrase to look for. That expectation is this course's own rather than
-something it has measured.[2]
+something it has measured.[3]
 :::
 
 :::exercise Read the objection
 Take 25 minutes.
 
-Both papers in this lesson are open access and short. Read the study's abstract and the
-commentary's three objections, both linked below.
+Both papers in this lesson are open access. Read the study's abstract and the commentary's three
+objections, both linked below.
 
 Then write two things.
 
 1. **Which of the three objections you find strongest**, and why, in three sentences.
-2. **What the study's authors could say in reply** to that one, at their strongest. Not a strawman:
-   their actual best answer.
+2. **What the study's authors could say in reply to that one, at their strongest.** Not a strawman:
+their actual best answer.
 
-**The second is the harder half and it's the half worth doing.** The study has a stated reason for
-the design choice the commentary attacks, and finding it is the exercise.
+**The second is the harder half and it's the half worth doing.** The study states a reason for one
+of the three and this lesson quotes it. For the other two you will have to construct the reply
+yourself, from what the paper is trying to do.
 :::
 
 ## Connections
@@ -303,7 +317,7 @@ course. Lesson 8 is where counting the steps becomes a habit.
   Read the abstract and notice where the word "learning" first appears.
 - **[Commentary: Handwriting but not typewriting leads to widespread brain
   connectivity](https://doi.org/10.3389/fpsyg.2024.1517235)** (*Frontiers in Psychology*, 2025).
-  Open access, and short. **Read in part by this course**: the three objections quoted above.
+  Open access. **Read in part by this course**: the three objections quoted above.
   Reading it beside the study is the exercise above, and the pair is the best free example this
   course found of a methodological disagreement conducted in public.
 
@@ -317,18 +331,21 @@ course. Lesson 8 is where counting the steps becomes a habit.
    thirty-six university students, the single words, the 256-channel array, the step through
    "existing literature", and the recommendation about children; and the quoted sentence about the
    right index finger.
-   **Adrien Pinet and Marieke Longcamp, ["Commentary: Handwriting but not typewriting leads to
-   widespread brain connectivity"](https://doi.org/10.3389/fpsyg.2024.1517235), *Frontiers in
-   Psychology* 15, 2025, article 1517235.** Open access. **Read in part: the three quoted
-   objections and nothing else**, which the body says. Supports: the three quoted fragments and
-   nothing beyond them. **The commentary has no abstract**, so there is none to quote.
-2. **The reading of the abstract's learning claim as a step from other work rather than from this
+2. Adrien Pinet and Marieke Longcamp, ["Commentary: Handwriting but not typewriting leads to
+   widespread brain connectivity: a high-density EEG study with implications for the
+   classroom"](https://doi.org/10.3389/fpsyg.2024.1517235), *Frontiers in Psychology* 15, 2025,
+   article 1517235. Open access. **Read in part: the four quoted fragments, which make three
+   objections, and nothing else**, which the body says. Supports: those four fragments and nothing
+   beyond them. **The commentary has no abstract**, so there is none to quote.
+3. **The reading of the abstract's learning claim as a step from other work rather than from this
    study's data is this course's own**, said as such where it appears, and the syllogism it is set
    out as is the course's framing rather than anybody's description of the paper. **So is the
    account of why reporting only a difference matters**, labelled at the head of that section as
    reasoning from what the commentary says rather than as the commentary's own elaboration. **So is
    the closing observation that the number of steps between a measurement and a claim is the thing
-   to count**, and that imaging results usually have one more than they appear to. **The
-   expectation that a source usually supports only the first step is an expectation** rather than a
-   measurement, and the exercise says so. **Nothing in this lesson is a claim about children**, and
+   to count**, and that imaging results seem to this course to have one more than they appear to,
+   both labelled where they appear. **So is the judgement about where the gap between the
+   measurement and the quotation opens**, which is a judgement about the abstract rather than a
+   report of it. **The expectation that a source usually supports only the first step is an
+   expectation** rather than a measurement, and the exercise says so. **Nothing in this lesson is a claim about children**, and
    the section carrying the authors' recommendation says why.
