@@ -13,18 +13,20 @@ objectives:
     treating it as typical
 quiz:
   - q: >-
-      A man on a rotating shift sorts his week and finds nine genuinely discretionary hours, against
-      the twenty he had expected. What does this lesson tell him to do with that figure?
+      A man on a rotating shift sorts his week and finds four genuinely discretionary hours, against
+      the fifteen he would have guessed before he looked. What does this lesson tell him to do with
+      that figure?
     options:
-      - Work the later lessons on the nine, and write down what would have to change to move any of the rest
-      - Look for a way to convert fixed hours into discretionary ones, because nine is too few to build on
+      - Work the later lessons on the four, and write down what would have to change to move any of the rest
+      - Look for a way to convert fixed hours into discretionary ones, because four is too few to build on
       - Record a second week, because a figure that far below his expectation suggests the sort went wrong
       - Accept that the techniques in the rest of the course are written for somebody with a freer week
     answer: 0
     explain: >-
-      Nine is his working number and the sort is what produced it; the conditions written beside the
-      fixed hours are what make them a question he can ask later rather than a wall. Hunting for
-      conversions first skips the step that tells him which hours are even candidates. Re-recording
+      Four is his working number and the sort is what produced it; the conditions written beside the
+      fixed hours are what make them a question he can ask later rather than a wall. He has the four already; what he does not have
+      yet is the condition beside each fixed hour, and a conversion would have to act on one of
+      those. Re-recording
       treats a surprise as an error, which is the one thing a record is for. And the course is
       written for his week in particular, which is why the sort comes before any technique.
   - q: >-
@@ -57,8 +59,8 @@ quiz:
       yet either, because she has not spoken to her sister. And the condition is precisely the
       testable part, which is what separates it from a complaint.
   - q: >-
-      Two readers each record eleven discretionary hours. One has them in three unbroken blocks, the
-      other in thirty-odd pieces across the week. What has the record shown?
+      Two readers each record seven discretionary hours. One has them in two unbroken blocks, the
+      other in eighteen pieces across the week. What has the record shown?
     options:
       - That the two weeks are equivalent, since the hours available come to the same figure
       - That the second reader kept the record at too fine a resolution for the total to mean anything
@@ -66,15 +68,15 @@ quiz:
       - That the same total can hold work the other total cannot, which is a difference no total shows
     answer: 3
     explain: >-
-      Eleven hours in three pieces and eleven hours in thirty are not the same resource, and the
+      Seven hours in two pieces and seven hours in eighteen are not the same resource, and the
       total is exactly the figure that cannot tell them apart, which is why the sort asks for the
       shape as well as the sum. The equivalence answer is the mistake the example exists to correct.
       Fifteen-minute resolution is what this course asked for. And the cause of the fragmentation,
       other people or the reader's own switching, is not something the record establishes.
   - q: >-
-      A reader's recorded week contains two days lost to illness. What should be done with it?
+      A reader's recorded week contains four days when a relative was staying. What should be done with it?
     options:
-      - Discard it and record a clean week, because an unusual week cannot be read for anything
+      - Discard it and record an ordinary week, because an unusual one cannot be read for anything
       - Keep it, and write down what made it unusual, because the note is what stops it being read as a rate
       - Keep it and read the totals as typical, on the grounds that illness is a normal part of any year
       - Average it with the following week, which cancels the effect of the two days that went wrong
@@ -83,8 +85,8 @@ quiz:
       The record is evidence about the week it covers, and naming the week is what keeps it from
       being quietly generalised. Discarding it loses the surprises, which survive an unusual week
       because they are about the reader's picture rather than about the rate. Reading the totals as
-      typical is the generalisation the note prevents. And averaging two weeks produces a figure
-      describing neither, from a sample still far too small to carry a rate.
+      typical is the generalisation the note prevents. And averaging two weeks produces a figure describing
+      neither, from a sample still far too small to carry a rate.
   - q: >-
       Somebody has recorded four consecutive weeks and intends to carry on for a year. What does
       this lesson say about that?
@@ -106,13 +108,13 @@ You have a week on paper, or you soon will. This lesson is what to do with it, a
 to say is that the answer is not to add it up.
 
 A total is the least informative thing a record contains. It tells you what you already half knew,
-it varies from week to week for reasons that have nothing to do with you, and there's nothing to
-compare it against. The information is somewhere else, and finding it takes two passes over the same
+it varies from week to week for reasons that have nothing to do with you, and the only thing it can
+be compared against is the prediction you wrote before you started, which is what the next two
+pages are about. The information is somewhere else, and finding it takes two passes over the same
 sheet of paper.
 
 **The first pass looks for disagreements.** The second sorts every hour into three columns. Both
-produce a number or a written line, and by the end of this lesson you should have a figure for how
-many hours of your week you actually decide about. Every later lesson in this course works on that
+produce a number or a written line, and you should finish it with a figure for how many hours of your week you actually decide about. Every later lesson in this course works on that
 figure and not on your week.
 
 ## Pass one: put the prediction beside the record
@@ -123,9 +125,8 @@ for.
 Write your four predictions in one column and your four recorded totals beside them. Then a third
 column, the difference, with its sign. That's the whole instrument.
 
-Lesson 1 gave you the measured version of this at national scale: employed respondents "tend to
-overestimate their work hours by 5 to 10 percent in relation to the work hours they report in their
-time diaries", with the gap widest among those estimating the longest weeks.[1] You now have the
+Lesson 1 gave you the measured version on United States and Belgian national samples, published in 2011: employed respondents "tend to
+overestimate their work hours by 5–10 percent in relation to the work hours they report in their time diaries", with the gap widest among those estimating the longest weeks.[1] You now have the
 same comparison on a sample of one, which is worse evidence about people in general and much better
 evidence about you. Lesson 1 set out why the two are different instruments rather than one
 instrument used with more or less care, and the short form is that a record is kept in sequence
@@ -135,14 +136,14 @@ few seconds with nothing constraining it.[2]
 Expect three things, and none of them is a failure.
 
 **Some categories will agree closely.** Good. You have learned that your picture is roughly right
-there, and you can stop attending to it. Most people find at least one category like this, and it's
-often sleep, because sleep has a clock at both ends.
+there, and you can stop attending to it. This course expects most readers to find at least one category like this, often sleep, because sleep has a clock at both ends. That is an expectation rather than a measurement.[3]
 
-**One or two will be out by a lot**, and the direction is usually the same one the research found:
-the thing you claimed most of is the thing that shrinks.
+**One or two will be out by a lot.** Lesson 1 gives you the measured expectation per category:
+paid work and housework tend to come in high, sleep and free time tend to come in low. What the
+research does not tell you, and what this course will not pretend to, is which of your own four it
+will be.
 
-**And something will turn up that was not in your four categories at all.** That's the commonest
-outcome of the exercise and it is usually the most useful line on the page.
+**And something will turn up that was not in your four categories at all.** This course expects that to be the commonest outcome and the most useful line on the page, which is again a judgement rather than a finding.[3]
 
 :::predict Look at your own three columns before reading on. Which of your four categories is the furthest out, in hours, and which is furthest out as a share of what you predicted?
 They're often not the same category, and the difference between those two questions is worth two
@@ -183,7 +184,10 @@ them.
 So read your record for existence claims. They're cheap, they're true, and they are the only thing
 on the page that a second week is unlikely to overturn.
 
-### Worked: the category that was not on the list
+### Two weeks, two people, and the category nobody predicts
+
+**Ade is constructed, and so is Hannah below, and so is every figure attached to either of
+them.**[5] The callout after this section says why.
 
 **Ade predicted four numbers**: 30 hours of paid work, 12 of domestic work, 52 of sleep, 20 of
 leisure. He works four days a week at a builders' merchant and spends part of most weeks helping his
@@ -192,16 +196,41 @@ mother, who is seventy-nine and lives two streets away.
 His record came back close on three of them. Paid work 31 hours 30, sleep 49, domestic work 13 and a
 half. Leisure came to 9.
 
-**The eleven missing hours were not in any of his four categories.** They were phone calls to the
-surgery, a form for the council that needed a document he had to find, two trips to the pharmacy, an
-hour on hold with the energy supplier about his mother's account, and a Tuesday afternoon at an
-appointment. He had recorded every one of them accurately. He had simply never had a name for them,
-so before the week began there was no box to predict them into.
+| Category | Predicted | Recorded | Difference |
+|---|---|---|---|
+| Paid work | 30 | 31:30 | +1:30 |
+| Domestic work | 12 | 13:30 | +1:30 |
+| Sleep | 52 | 49:00 | -3:00 |
+| Leisure | 20 | 9:00 | -11:00 |
+| **Predicted categories** | **114** | **103** | **-11:00** |
 
-Ade's finding is not that he has too little leisure. It's that **eleven hours of his week were
-invisible to him until he wrote them down**, and that the category they belong to is not domestic
-work and is not paid work. It is administration performed on somebody else's behalf, and for a great
-many readers of this course it is the largest unnamed thing in the week.
+**Now the arithmetic almost everybody skips.** A week has 168 hours. His four categories account for
+103 of them, and 49 of those are sleep. So **54 waking hours sat outside the four boxes he
+predicted**, which is close to eight hours a day.
+
+That number is not a scandal and it is not unusual. Most of it is the ordinary business of being
+alive: eating, washing, getting places, the twenty minutes between one thing and the next, standing
+in a queue. **Everybody's residue is large.** The four categories you chose were never going to
+cover a week, and the exercise was never asking them to.
+
+**The finding is the largest named thing you can pull out of that residue.** For Ade it came to
+eleven hours, and it was one recognisable activity: phone calls to the surgery, a form for the
+council that needed a document he had to find, two trips to the pharmacy, an hour on hold with the
+energy supplier about his mother's account, and a Tuesday afternoon at an appointment. He had
+recorded every one of them accurately. He had simply never had a name for them, so before the week
+began there was no box to predict them into.
+
+**Notice that his leisure shortfall is also eleven hours, and that this is not a coincidence.**
+Every hour that goes into an unnamed activity had to come from somewhere, and in his case what it
+came out of was the box he was least sure about. That is worth watching for on your own sheet: the
+category that shrinks most is often the one you were using as a mental remainder rather than a real
+estimate.
+
+Ade's finding is not that he has too little leisure. It's that **eleven hours of his week belonged to
+an activity he had no name for**, and that the activity is not domestic work and is not paid work.
+It is administration performed on somebody else's behalf, and this course expects it to be the
+largest unnamed thing in the week for a good many of its readers, which is the course's own
+expectation rather than anything measured.[3]
 
 :::callout These worked cases are constructed
 Ade and the other people in this lesson are made up, and so is every number attached to them.[5] No
@@ -218,15 +247,17 @@ uncomfortable. The four categories you chose before you started didn't just orga
 They shaped what you were able to see. Every hour that did not fit went into whichever box was
 nearest, or went unrecorded, and the closer you stuck to your four the less you learned.
 
-The practical form of that is simple. **The residue is the finding.** Whatever would not sort into
-your predicted categories is the part of your week you had no model of at all.
+The practical form of that is not "the residue is small", because it never is. It is this:
+**go into the residue and name the biggest thing in it.** Most of what is there is the ordinary
+business of living and needs no attention. What you are looking for is the one recognisable
+activity, like Ade's eleven hours, that had no box because you had never given it a name.
 
 ## Pass two: fixed, discretionary, contested
 
 Now the sort, and a warning about it first.
 
 **This three-way distinction is this course's own**, not a finding from the research.[3] Nothing in
-the literature this course read defines a "discretionary hour" or measures how many people have. The
+the literature this course read defines a "discretionary hour" or measures how many of them anybody has. The
 course uses it because the rest of the course needs a name for the hours a technique could possibly
 act on, and because the alternative, which is to write as though every reader has an open calendar,
 would make the course useless to most of the people reading it.
@@ -234,7 +265,7 @@ would make the course useless to most of the people reading it.
 Take every recorded hour and put it in one of three columns.
 
 **Fixed.** Hours you do not decide about this month. A shift you are rostered onto, the school run,
-a dialysis appointment, the hours your body needs for sleep, the journey between two of those. The
+a dialysis appointment, the hours your body needs for sleep, the trip between two of those. The
 test is not whether the hour is pleasant. It's whether a decision of yours this month could move it.
 
 **Discretionary.** Hours where the decision is genuinely yours. Not "hours I have nothing planned
@@ -255,21 +286,27 @@ cannot. You don't have to act on any of them today. You have to get them out of 
 the sheet, because lesson 6 is about deciding what not to do, and it operates entirely on this
 column.
 
-:::checkpoint A reader says the sort is pointless because all of his hours are fixed. Everything is work, sleep, the commute, or his children, and there is no third category. What should he do?
-Two things, and neither of them is to argue with him.
+:::checkpoint A reader says the sort is pointless for him. Almost none of his hours are discretionary: it is work, sleep, the commute, and his children, and he thinks the third column will come out empty too. What should he do?
+**Start by granting the count**, because he is very likely right about it and nothing here depends
+on his being wrong.
 
-**First, he should have the number.** If the honest answer is three discretionary hours a week, then
-three is what the rest of this course has to work with, and knowing it is three is a genuinely
-different position from suspecting it is somewhere between two and twenty. A course that told him he
-must really have more if he looked harder would be doing exactly what this one refuses to do, which
-is to tell a reader that their week is a failure of attitude.
+**The first job is to have the number rather than the impression.** If the honest answer is two
+discretionary hours a week, then two is what the rest of this course has to work with, and knowing
+it is two is a genuinely different position from suspecting it is somewhere between nothing and
+twenty. A course that told him he must really have more if he looked harder would be doing exactly
+what this one refuses to do, which is to tell a reader that their week is a failure of attitude.
 
-**Second, the contested column is where his week actually lives**, and it's probably not empty. An
-hour that is fixed because of a rota is fixed in a different way from an hour that is fixed because
-nobody has ever asked whether it could move. Both belong in the fixed column this month. Only one of
-them has a condition worth writing beside it.
+**The second job is the one he has not done, and it is in the fixed column rather than the third
+one.** He may well be right that nothing is contested. But an hour that is fixed because of a rota
+is fixed in a different way from an hour that is fixed because nobody has ever asked whether it
+could move, and both of them sit in the fixed column this month looking identical. The sort does not
+ask him to move any of them. It asks him to write one clause beside the ones where a condition
+exists, even if the condition is out of reach today.
 
-The distinction matters because the conditions are the only route out. Lesson 6 is built for this
+If that turns out to be none of them, the sort has given him a two-hour number and a fixed week
+honestly described, and lesson 6 is written for exactly that sheet rather than around it.
+
+The distinction matters because the conditions are the only part that could change. Lesson 6 is built for this
 reader rather than around him, and it starts from the sheet he is about to write, three hours and
 all.
 :::
@@ -288,14 +325,14 @@ total will ever tell them apart. Some things she wants those hours for, such as 
 qualification she has been meaning to start, don't fit in fourteen minutes at all. Others fit
 perfectly well.
 
-**This is lesson 5's subject arriving two lessons early**, and it's deliberate, because you're
+**This is lesson 5's subject arriving three lessons early**, and it's deliberate, because you're
 looking at your own sheet now and it's the last moment where noticing it costs you nothing.
 
-One measured figure, with its scope attached, because the shape is not unique to Hannah. A 2005
-field study followed 24 information workers at a single outsourcing company, observed to the second,
-and found that the average time spent on a working sphere "was 11 min. 4 sec." before the person
-switched or was interrupted, with 57.1 percent of those segments interrupted.[4] That's an office,
-in one company, twenty years ago, and it isn't a measurement of anybody's evenings. **This course
+One measured figure, with its scope attached, because the shape is not unique to Hannah. A field study published at CHI 2005 followed 24 information workers at a single outsourcing
+company, observed to the second,
+and found that the average time spent on a working sphere "was 11 min. 4 sec. (sd=18 min. 9 sec.)" before the
+person switched or was interrupted, with 57.1 percent of those segments interrupted.[4] The spread
+there is larger than the average, which is the study making Hannah's point on its own data. That's an office, in one company, about twenty years ago, and it isn't a measurement of anybody's evenings. **This course
 has no measurement of how discretionary hours arrive at home**, and the honest thing is to say so
 and to point you at your own sheet, which you now have and the researchers did not.
 
@@ -319,10 +356,9 @@ from an unusual week as though it described your life.
 And note that an unusual week is still worth having. The surprises survive it, because a surprise is
 about your picture and not about the rate. Ade would have found his eleven hours in almost any week.
 
-**A week cannot tell you what to do.** It has no view on whether nine hours of television is too
-many. That judgement is yours, and this course isn't going to make it for you: lesson 8 comes back
-to the question of whether a person should aim to do more or to do less, and comes back to it in
-order to say that the evidence does not settle it.
+**A week cannot tell you what to do.** It has no view on whether nine hours of television is too many, and none on whether eleven hours
+of caring for somebody is too many either. That judgement is yours, and this course isn't going to make it for you: lesson 1 names the question of whether a person should aim to do more or to do less, and lesson 6
+is where it is faced, because that is the lesson it would otherwise decide silently.
 
 ## Three things people get wrong about their own record
 
@@ -400,8 +436,7 @@ account of it.
 open the same comparison on yourself; this lesson reads the result. The limits on what one week
 supports come from **Logic and Argument** lesson 5, on what a sample can carry, and lesson 4's
 distinction between "some" and "all" is exactly the difference between an existence claim and a
-rate. **Using AI Effectively** lesson 3 gave you the habit of asking what a measurement was taken on
-before believing what it says, which is why the 2005 office study above arrives with its scope
+rate. **Using AI Effectively** lesson 11 gave you the habit of asking what a measurement was taken on before believing what it says, which is why the 2005 office study above arrives with its scope
 attached.
 
 **Forward.** Lesson 3 is why your estimates of single tasks run short, which is this lesson's gap at
@@ -412,13 +447,11 @@ fixed. Lesson 8 returns to what a record is worth and to the argument about whet
 
 ## Go deeper
 
-- **[The American Time Use Survey](https://www.bls.gov/tus/)**. Worth twenty minutes for one
-  purpose: look at how the survey defines its activity categories and how many there are. It is the
-  clearest demonstration available of how much work goes into deciding what counts as one thing, and
-  it will change how you name your own categories. United States only.
-- **[The overestimated workweek revisited](https://www.bls.gov/opub/mlr/2011/06/art3full.pdf)**
-  (*Monthly Labor Review*, June 2011). Four pages, free. This course has read the standfirst and
-  pages 43 to 45. Page 44 is the part relevant here: it sets out why a sequential record and a
+- **[The American Time Use Survey](https://www.bls.gov/tus/)**. Worth twenty minutes to see what a
+  category looks like when an organisation has had to define one and defend it. This course has read
+  the article that uses its data, not the survey's own category documentation, so treat the visit as
+  a look rather than as a reading. United States only.
+- **[The overestimated workweek revisited](https://www.bls.gov/opub/mlr/2011/06/art3full.pdf)**  (*Monthly Labor Review*, June 2011). Free. This course has read the standfirst and pages 43 to 45. Page 44 is the part relevant here: it sets out why a sequential record and a
   summary estimate are different instruments rather than one instrument used with different care.
 - **[No Task Left Behind? Examining the Nature of Fragmented Work](https://www.ics.uci.edu/~gmark/CHI2005.pdf)**
   (CHI 2005). This course has read the abstract, the research setting and the results on fragmented
@@ -444,8 +477,7 @@ fixed. Lesson 8 returns to what a record is worth and to the argument about whet
    Fragmented Work"](https://www.ics.uci.edu/~gmark/CHI2005.pdf), *CHI 2005*, pages 321 to 330.
    Read in part: the abstract, the research setting, and the results on fragmented work, pages 321
    to 325. Supports: the average of 11 minutes 4 seconds in a working sphere before a switch or an
-   interruption, and that 57.1 percent of working sphere segments were interrupted. **Scope: 24
-   information workers at one outsourcing company, observed in 2005. It measures an office and not a
+   interruption, and that 57.1 percent of working sphere segments were interrupted. **Scope: 24 information workers at one outsourcing company, published at CHI 2005; the fieldwork is not dated in what this course has read. It measures an office and not a
    household, which the body says at the point of use.**
 5. **Ade and Hannah are constructed**, along with every figure attached to them, and the lesson says
    so in a callout at the point the first one appears. No source in this course's research describes
