@@ -3,12 +3,12 @@
 *Stage 1 research, 2026-09-18. Written before any lesson is drafted. For each source: what it is good
 for, what it establishes, and how much of it was actually read.*
 
-<!-- unread: Jurafsky, Martin, Russell, Norvig, Noy, Zhang, Schulhoff, Resnik -->
+<!-- unread: Jurafsky, Martin, Russell, Norvig -->
 
 **How to read the "read" labels below.** Every entry says whether it was read in full, in part, at
 abstract level, or not opened. That label is a ceiling, not decoration: a lesson may not lean on a
 source further than its label allows, and `npm run validate` fails on a lesson citing anything named
-in the `unread:` line above. Eight names are there. Most are named because the work's *result* was
+in the `unread:` line above. Four names are there, and they are the two textbooks. Most are named because the work's *result* was
 read through a reliable route (the authors' own abstract page, an author's own written account of
 their study, a publisher's table of contents) while the work itself was never opened. **If a lesson
 needs one of them, open it first and move it out of that line**, which is what happened to
@@ -116,8 +116,8 @@ it may already be wrong.
   statistical account in the NIST entry below; a lesson should present it as an explanation with a
   named case behind it.
 - **Sander Schulhoff and 29 co-authors, "The Prompt Report: A Systematic Survey of Prompt
-  Engineering Techniques", 2024, latest version February 2025 (arXiv 2406.06608).** **Abstract read;
-  the survey itself was not opened.** Catalogues **58 text-based prompting techniques**, 40 more for
+  Engineering Techniques", 2024, latest version February 2025 (arXiv 2406.06608).** **Abstract read in full and directly, from the work's own
+  page; the survey itself was not opened.** Catalogues **58 text-based prompting techniques**, 40 more for
   other modalities, and establishes a vocabulary of **33 terms**. Best for: two things, neither of
   them the list. First, as evidence for a sentence the course should say plainly: fifty-eight named
   techniques for one activity is what a field looks like before it knows which of them matter, and a
@@ -284,18 +284,37 @@ finding.
   **Held together, the two studies are the course's honest position**: large gains on unfamiliar work
   inside the frontier, losses on expert work outside it, and self-report unreliable in both
   directions.
-- **Shakked Noy and Whitney Zhang, "Experimental evidence on the productivity effects of generative
-  artificial intelligence", *Science* 381 (2023), 187–192.** **Read at search-summary level only; the
-  paper and its abstract were not opened directly.** **444 college-educated professionals**, given
-  occupation-specific incentivised writing tasks, half randomly given ChatGPT. Those with access
-  finished **37% faster** with **18% higher quality ratings**, the productivity distribution
-  compressed because lower-ability workers gained more, and the tool "mostly substituted for worker
-  effort rather than complementing worker skills", shifting time from drafting towards idea
-  generation and editing. Best for: a second, independent instance of the lower-skilled-gain-more
-  pattern that Dell'Acqua also found, which makes it worth teaching rather than an artefact of one
-  study. **On the unread line**, and the substitution finding in particular should not be leaned on
-  until somebody opens the paper, because it is the finding that connects this section to the next.
-  It is now the most valuable name left on that line.
+- **Shakked Noy and Whitney Zhang, "Experimental Evidence on the Productivity Effects of Generative
+  Artificial Intelligence".** **Read in part**: the abstract verbatim and the results section of the
+  **MIT working paper dated 2 March 2023**, extracted directly. The peer-reviewed version is in
+  *Science* 381 (2023), 187 to 192, and **that version could not be opened** (the publisher returned
+  403), so everything below is the working paper and a lesson should say which it is citing.
+
+  **444 college-educated professionals**, given occupation-specific incentivised writing tasks from
+  their own jobs, half randomly given ChatGPT. The headline, in the paper's own terms: "time taken
+  decreases by 0.8 SDs and output quality rises by 0.4 SDs." In minutes, from the results section:
+  the treatment group's time on the post-treatment task "drops by 10 minutes (37%) relative to the
+  control group, who take an average of 27 minutes", and evaluator grades rise by **0.45 standard
+  deviations**.
+
+  **A correction worth recording, because it is the second of its kind in this file.** The widely
+  repeated figure of "18% higher quality" is **not in this paper**. Quality is reported in standard
+  deviations throughout, and 0.45 SD is the number. A lesson may print 37% faster, because the paper
+  gives it with its baseline; it must not print a percentage for quality.
+
+  **And the finding that is better than the one everybody quotes.** "Inequality between workers
+  decreases, as ChatGPT compresses the productivity distribution by benefiting low-ability workers
+  more" is the abstract's version. The results section is more interesting and more useful to a
+  learner: workers who scored low on the first task "experience both increases in grades and
+  decreases in time spent, while workers who received a high grade maintain their grade level while
+  substantially reducing their time spent." So the compression happened because the already-good got
+  *faster* rather than better, which is a different claim from the one the summaries carry and is
+  the one that matches this course's reconciliation in lesson 1.
+
+  The abstract also states two things a later lesson will want: ChatGPT "mostly substitutes for
+  worker effort rather than complementing worker skills", and it "restructures tasks towards
+  idea-generation and editing and away from rough-drafting."
+
 - **Hamsa Bastani, Osbert Bastani, Alp Sungu, Haosen Ge, Özge Kabakcı and Rei Mariman, "Generative AI
   Without Guardrails Can Harm Learning: Evidence from High School Mathematics", *PNAS* (2025).**
   **Abstract read in full and verbatim** from the authors' own copy of the paper; the body was not
