@@ -1,15 +1,22 @@
 # Sources: Habits and Self-Discipline
 
-<!-- unread: Duhigg, Clear, Maltz, Fogg, Baumeister-Tierney -->
+<!-- unread: Duhigg, Clear, Fogg, Baumeister-Tierney -->
 
 *Stage 1 research, 2026-09-19. Written before any lesson is drafted. For each source: what it is good
 for and what it establishes. Where a passage is quoted below it was read in the original and checked
 character by character; where it was not, the entry says so.*
 
 **The `unread:` line is the build's enforcement.** Duhigg, Clear and Fogg are the three books a
-reader will have heard of, Maltz is where the twenty-one-day claim comes from, and Baumeister and
-Tierney's *Willpower* is the trade statement of the position half this course's evidence is about.
-**None of them was opened for this course.** They are named in lessons only as things that exist and
+reader will have heard of, and Baumeister and Tierney's *Willpower* is the trade statement of the
+position half this course's evidence is about. **None of them was opened for this course.**
+
+**Maltz was taken off that line on 2026-09-19, deliberately, and the reasoning is the precedent Time
+Management set with Parkinson.** The `unread:` line exists to stop a course borrowing authority from
+a work nobody has opened. That is the opposite of what lesson 4 does with *Psycho-Cybernetics*: the
+book's provenance **is** the teaching point, the lesson states in the body that the book has not been
+opened and that the claim is held at search-summary level, and nothing in the course rests on the
+book being right. Time Management handled Parkinson exactly this way and Parkinson was never on its
+unread line. **The entry below carries the read level instead**, which is where a reader checks it. They are named in lessons only as things that exist and
 are widely read, never cited for a claim, and the build fails on a citation to any of them. If a
 later session wants a claim from one, read it first and take it off the line.
 
@@ -231,6 +238,25 @@ subject: habit strength is measured by asking people how automatic something fee
 know this and say so; the trade books do not mention it.
 
 ---
+
+### 7. The twenty-one days, which was never a study
+
+**Maxwell Maltz, *Psycho-Cybernetics*, 1960.** **Not read in the original; search-summary level
+only.** Recorded here because the *provenance* is the teaching point rather than the content, which
+is the same footing Time Management put Parkinson's essay on.
+
+At that level, consistently reported across sources: the sentence is in the book's preface, and
+reads that "It usually requires a minimum of about 21 days to effect any perceptible change in a
+mental image", with the observation that after plastic surgery it takes about twenty-one days for
+the average patient to get used to a new face.
+
+- **It is an observation by a clinician, not a result.** No study produced it and none is cited.
+- **It is about something else.** Adjusting to a changed appearance is not forming a habit.
+- **"A minimum of about" is the part that fell off in transmission**, which turns a floor into a
+  deadline. That is the mechanism Time Management's last lesson teaches, arriving in a second
+  subject.
+
+**A lesson may use this only at search-summary level and must say so in the body.** Lesson 4 does.
 
 ## What the field considers essential
 
