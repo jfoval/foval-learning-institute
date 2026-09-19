@@ -101,6 +101,17 @@ Confirmed across seventeen lessons in two courses, then again in every course si
     read that part. For a reviewer: string-match every read-level statement against `SOURCES.md`,
     then ask what it is being used to license.
 
+    **Third form, and it is the hardest of the three to catch: unsourced material with no read level
+    at all.** Measured on 2026-09-19. A lesson's lead explanation, one of its five misconceptions and
+    one graded quiz key all rested on a mechanism stated flatly in the course's own voice, with no
+    marker, no source and no label, and the word it turned on appeared nowhere in the research file.
+    **The first two forms are false claims about what was read, so a reviewer can string-match them.
+    This one makes no claim at all**, which means there is nothing to match and the sentence reads
+    like every other sentence in the lesson. **The check runs the other way: take each mechanistic
+    claim in the body, in the course's own voice, and ask which source it came from.** If the answer
+    is "it is obviously true", that is the defect, because obviously true is how the invented ones
+    feel too.
+
     **Measured again on 2026-09-19, three times in one course, and the mechanism is now clear.**
     Time Management lessons 1, 3 and 4 each shipped a constructed case or an attribution labelled
     only in the Sources block, and in two of the three the footnote had **no marker anywhere in the
