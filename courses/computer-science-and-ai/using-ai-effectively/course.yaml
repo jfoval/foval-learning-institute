@@ -12,40 +12,61 @@ description: >-
   was either better than expected or quietly wrong, and most people cannot say which kind of task
   produces which. This course is about telling them apart. It covers what a language model is
   actually doing when it answers, how to ask for something in a way that makes a good answer more
-  likely, how to check an answer you cannot verify by reading it, and the failure modes that are
-  properties of the machinery rather than bugs somebody will fix next year. It is written for
-  somebody who uses these tools for real work and wants to be neither the person who trusts
-  everything nor the person who refuses to touch them. Every claim about what the systems can and
-  cannot do carries its date, because this is the fastest-moving subject the institute teaches.
+  likely, how to check an answer you could not have produced yourself, and the failure modes that
+  are properties of the machinery rather than bugs somebody will fix next year. It is written for
+  somebody who uses these tools for real work, or who is required to and would rather not, and it
+  is against both trusting everything and refusing to look. It names no product and recommends
+  none. Every claim about what these systems can and cannot do carries the model and the date,
+  because this is the fastest-moving subject the institute teaches and the course would rather be
+  checkable than current.
 outcomes:
   - >-
-    Describe, without mathematics, what a language model is doing when it produces an answer, and
-    say which of its behaviours follow from that and which do not
+    State what the measured studies show about whether these systems make people more productive,
+    including the two results that point opposite ways, and say what reconciles them
   - >-
-    Ask for a piece of work in a way that supplies the context, the constraints and the form of the
-    answer, and say why each of the three changes what comes back
+    Describe without mathematics what the system is doing when it answers, and predict from that
+    description alone which of two tasks it will be unreliable at
   - >-
-    Tell apart the tasks these systems are reliable at from the tasks they are unreliable at, and
-    say what the distinction rests on
+    Say what the system can see when it answers, why the same question can give different answers,
+    and what a correction does and does not change
   - >-
-    Verify an answer you could not have produced yourself, using a procedure that does not depend on
-    already knowing the answer
+    Rewrite a vague request so that it supplies the context, the constraints and the form of the
+    answer, and say which of the three each change is
   - >-
-    Recognise the standard failure modes, including a confident wrong citation, and say which are
-    properties of the machinery rather than defects awaiting a fix
+    Use examples and ask for intermediate steps, and explain why steps that are right do not
+    guarantee an answer that is
   - >-
-    Decide when not to use one, on grounds you can state, including the cases where using one costs
-    you the learning the task was for
+    Sort tasks by which side of the jagged frontier they fall on, giving the reason from the
+    mechanism rather than from experience
   - >-
-    Say what happens to what you type in, and make a considered decision about what you are willing
-    to put into somebody else's system
-# Term 1 on the Foval Core, sixth of seven, immediately after Digital Literacy. The placement is
-# already in curriculum/core-path.yaml and predates this course being started.
+    Explain in two different ways why these systems produce confident false answers, and say what
+    retrieval does and does not do to the problem
+  - >-
+    Check an answer you could not have produced yourself, using a four-step procedure, and decide
+    how much checking the work actually needs
+  - >-
+    Say what the evidence shows about using one of these systems while learning something, and
+    decide for one task of your own to stop
+  - >-
+    Find out what the product you use does with what you type into it, and decide by category what
+    you are willing to put in
+  - >-
+    Sort a claim about AI into measurable, unmeasurable or false, and say why your own impression of
+    whether a tool helped you is not evidence
+# Term 1 on the Foval Core, sixth of seven, immediately after Digital Literacy. The placement was
+# already in curriculum/core-path.yaml and predates the course being started.
 #
-# sensitive_domain is true, and the call is this session's rather than the standards' list.
-# Standards 3.4 names education and any recent event, and this course cannot be written without
-# both: an honest treatment has to say what the evidence shows about these systems and learning,
-# and every capability claim in it is a claim about something that changed this year. The
-# neutrality audit is therefore mandatory rather than optional.
+# Nothing here requires the five Term 1 courses before it, and all five are used. How to Learn
+# Anything supplies retrieval practice and the fluency illusion, which lesson 9 leans on hard;
+# Reading Well supplies judging a source; Logic and Argument supplies what makes evidence bear on a
+# claim; Digital Literacy supplies threat models, dated figures, and the habit of asking who is
+# making a claim. Each is linked and none is re-taught, which is a reason to take them first and
+# not a requirement. See research/OUTLINE.md.
+#
+# sensitive_domain is true, and the call is the institute's rather than the standards' list.
+# Standards 3.4 names education and any recent event, and this course cannot be written honestly
+# without both: it has to say what the evidence shows about these systems and learning, and every
+# capability claim in it is a claim about something that changed this year. The neutrality audit is
+# mandatory rather than optional.
 prerequisites: []
 sensitive_domain: true

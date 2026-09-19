@@ -21,6 +21,33 @@ and it never feels that way while you are writing it.
 
 Rewrite these five lines each session. Nothing else goes in this block.
 
+- **Using AI Effectively is through Stage 2 and ready to draft.** T1, sixth of seven, status
+  drafting in `course.yaml` and the TAXONOMY row. 6,300 words of research and a 9,400-word outline
+  planning eleven lessons, a 24-item test and a project. Start at lesson 1 with
+  `/draft-lesson courses/computer-science-and-ai/using-ai-effectively 1`.
+
+  **Read the outline's "Seven decisions this outline settles" before drafting anything.** They are
+  there because eleven lessons written in different sessions have to agree, and two of them change
+  what a drafter can write: the course names no product and prints no interface instruction, and no
+  lesson body states a capability as a standing fact. Every capability figure carries a model name
+  as well as a date, which is Digital Literacy's convention with one field added.
+
+  **Lesson 11 is the revision point for the whole course**, by design. Everything perishable is
+  quarantined there so that a future session can bring the course up to date without re-opening ten
+  lessons. Do not spread dated claims back through the others.
+
+  **Dell'Acqua et al. is on the `unread:` line and four lessons want it.** Both publisher copies
+  returned 403 on 2026-09-18 and the HBS PDF would not extract, so the jagged-frontier figures came
+  from an author's own written account of his own study. Whoever drafts lesson 1 should open the
+  paper first and move it off that line, or lessons 1, 6, 9 and 11 keep the idea and lose the
+  citation.
+
+  **One scope question is John's and is not urgent.** The course deliberately leaves out the ethics
+  of training data, copyright and the labour questions, on the grounds that they are a different
+  course. A reader may reasonably expect a course called Using AI Effectively to say something about
+  whether using one is a defensible thing to do. The outline flags it under "What is deliberately
+  left out"; nothing is blocked either way.
+
 - **Digital Literacy lessons 1 to 12 are drafted, reviewed, applied and scripted.** The only
   content work left on the course is lesson 13, which is blocked on John below. **Read lesson 8's
   review file before drafting anything else here**, in particular its cold-start finding: six terms
@@ -52,6 +79,21 @@ Rewrite these five lines each session. Nothing else goes in this block.
   (IEEE S&P 2021) measured that Play has the best defences of any route **and** is the source of 67%
   of unwanted installs, because it is the source of 87% of installs. Safest per install, largest in
   absolute terms.
+
+- **The day's fifty renders are spent, on 2026-09-18, and Google says come back tomorrow.** Two
+  Bible Basics episodes went out today, 4 and 5, at $0.26 and $0.24, both passing the gate first
+  time. The debt is 9 down to 7. **The retry time is the thing to read**, and it moved during the
+  session in a way worth recording: a 429 at 17:03 said 1h57m, a render at 18:35 was served, a
+  second at 18:41 was served, and the next refusal said **23h59m**. So the window really is rolling,
+  a slot or two can free up inside a couple of hours at the edge of it, and when the whole day's
+  fifty are gone the message says so plainly. **A session that meets 23h59m should stop rendering
+  and spend the rest of itself on content**, which is what this one did. Nothing was billed for any
+  of the refusals.
+
+  **`npm run state` cannot know this and will keep saying render.** That is correct behaviour for a
+  script that computes from the filesystem, and the queue is where the fact lives. Do not build it a
+  rate-limit file: a refused request costs a minute and no money, which is cheaper than the
+  bookkeeping.
 
 - **The binding limit on audio is requests per day, not money, and that is new.** John opened
   [aistudio.google.com/rate-limit](https://aistudio.google.com/rate-limit) on 2026-09-18: the
