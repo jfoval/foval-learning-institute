@@ -1,6 +1,6 @@
 # Sources: Focus and Deep Work
 
-<!-- unread: Newport, Mark-AttentionSpan, Csikszentmihalyi, Goleman, Leroy -->
+<!-- unread: Newport (except 07), Mark-AttentionSpan (except 07), Csikszentmihalyi (except 07), Goleman, Leroy -->
 
 *Stage 1 research, 2026-09-19. Written before any lesson is drafted. For each source: what it is good
 for and what it establishes. Where a passage is quoted below it was read in the original and checked
@@ -334,8 +334,19 @@ weaker than the way it is always reported.
   field study, the length of a work segment and the twenty-three-minute trace are all taught there.
 - **This course cannot avoid *Deep Work* and has not read it.** The honest middle is the one Habits
   lesson 7 used for the four habit books: name it as widely read, say the course has not assessed it,
-  and teach the reader to sort its claims. If a later lesson needs the exemption, add `(except NN)`
-  to the `unread:` line with the reasoning here.
+  and teach the reader to sort its claims.
+
+  **Newport, Mark's *Attention Span* and Csikszentmihalyi carry `(except 07)` from 2026-09-19**, on
+  the precedent Time Management lesson 8 and Habits lesson 7 both set: the last lesson of a course
+  like this has to name the books a reader will actually be handed, because pretending they will not
+  meet them is less useful and no more honest. Lesson 7 names the three, states in the body that
+  none was opened, and rests no claim on any of them. **The mechanism keys to a lesson number rather
+  than to a claim**, so a future edit to lesson 7 could cite one of these and pass the build. A
+  reviewer checks that by eye.
+- **The three titles, at search-summary level**, so that a lesson naming them takes them from here:
+  Cal Newport, *Deep Work* (2016); Gloria Mark, *Attention Span* (2023); Mihaly Csikszentmihalyi,
+  *Flow* (1990). **None was opened.** Goleman's *Focus* stays on the line without an exemption,
+  because no lesson needs to name it.
 - **The course must not become a productivity course.** Its `course.yaml` promises what attention is
   when it is measured and what an interruption costs. The pull towards "seven ways to focus" will be
   constant, and Habits' decision 1 is the model: name the thing the course will not do, in lesson 1,
