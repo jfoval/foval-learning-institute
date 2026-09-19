@@ -46,7 +46,7 @@ Confirmed across seventeen lessons in two courses, then again in every course si
 13. **"If you got X, you probably did Y" that does not trace backwards.** Three times in the Algebra rebuild the lesson blamed a slip that cannot produce the number it was attached to, and once the blamed route produces the right answer. **Work every diagnosis backwards from the wrong answer before it ships.** A wrong diagnosis is worse than none, because the reader who made the slip is told they made a different one.
 14. **Fairness that fails at the level of selection rather than accuracy.** Writing Clearly lesson 8 presented as a discovery a qualification its opponent quotes in his own essay, conceded the half of his case he explicitly disclaims, and omitted his strongest evidence. Every sentence in it was true. Personal Finance lessons 7 and 9 failed the same way. **When two positions are described, count the citations each side gets, count who gets the last word, count who is explained against who is merely quoted, and count whose errors are in the misconception list, before reading a word for tone.** Three domains, one defect.
 15. **This drafter writes its first pass with no contractions at all, and it is not close.** Measured on three consecutive drafts on 2026-09-18: the Digital Literacy project came in at 2.9 per 1,000 body words, and Using AI Effectively lessons 1 and 2 at **0.0 and 0.3**, against the repo's band of 5 to 8. The style guide names their absence as "the fastest way to sound like a manual", and a reader meets it in the first sentence. `npm run validate` warns on it, so the cost is only that a fix pass is needed every time; **write the draft in the voice and save the pass**. The tell while drafting is "it is", "does not", "cannot" and "you will" three times in a paragraph.
-16. **The same drafter's quiz keys run long and cluster on one position, every time.** Same three drafts: the key was the sole longest option in 4 of 6, 5 of 6 and, on a 32-item test, 15 of 32, and one lesson used only two of the four answer positions across six items. Both are measured by `npm run validate`. **Fix them by lengthening distractors rather than trimming the key**, which is what the warning says and is the right way round, because the key is usually longest for the good reason that it carries the reasoning.
+16. **The same drafter's quiz keys run long and cluster on one position, every time.** Same three drafts: the key was the sole longest option in 4 of 6, 5 of 6 and, on a 32-item test, 15 of 32, and one lesson used only two of the four answer positions across six items. Both are measured by `npm run validate`. **Fix them by lengthening distractors rather than trimming the key**, which is what the warning says and is the right way round, because the key is usually longest for the good reason that it carries the reasoning. **Do not fix the clustering by rotating the same cycle one position per lesson.** That is what this drafter does when told to vary the sequence, and it passes every check: Memory's six lessons and, before them, Focus and Deep Work's seven and Habits and Self-Discipline's seven all ran 0,2,1,3 shifted by the lesson number, so no two neighbours matched while the whole course carried one key. `npm run validate` now warns on it. **Give each lesson its own irregular sequence**, still using all four positions with no adjacent repeat.
 
     **And the same drafter gives every lesson in a course the same answer sequence.** Measured on
     2026-09-19: Habits and Self-Discipline shipped seven lessons all running 0,2,1,3,0,2, each
@@ -137,6 +137,28 @@ Confirmed across seventeen lessons in two courses, then again in every course si
     under "formatting as a substitute for writing". **Check it before handing the lesson over**: if
     more than about half your paragraphs open bold, the fix is to cut, and the ones to cut first are
     the section-opening labels and the one-line morals, neither of which needs it.
+
+    **It recurred exactly, in the next course.** Memory's lesson 1 was cut to 19.6 at its review,
+    and lessons 2 to 5 came back from theirs at 33.6, 32.1, 34.2 and 28.5, with two thirds of
+    paragraphs opening bold. **Two courses in two days is not a slip, it is the default**, so
+    measure it while drafting rather than waiting for a reviewer: the count is
+    `(body.match(/\*\*[^*]+\*\*/g)||[]).length` over body words, times a thousand, and anything
+    over 25 needs a cut before the lesson is handed over.
+
+24. **A quotation that nobody wrote, in quotation marks, attributed, with a source marker.**
+    Measured on 2026-09-19. Memory lesson 5 printed a passage about exonerating the innocent and
+    convicting the guilty as the authors' own words, carrying a `[1]`, in the section titled "The
+    word the whole thing rests on", where it was that section's sole evidence. **The passage was
+    `SOURCES.md`'s own unquoted commentary**, which the drafter had read, agreed with, and promoted
+    into a quotation. Every other quotation in that lesson matched the research file character for
+    character, which is why reading for sense does not catch it: the fabricated one reads exactly
+    like the real ones, because it was written by somebody who had read them.
+    **This is the one defect the institute's whole method exists to make impossible**, and it is
+    also the easiest to find: `npm run quotes <course>` takes every quoted passage in the lessons
+    that carries a source marker and checks it against the course's own research file.
+    **Run it before handing over any lesson that quotes anything.** And while drafting, the rule
+    that prevents it is simple: **a passage goes inside quotation marks only if you copied it out
+    of `SOURCES.md`.** Your own summary of a source, however faithful, is your sentence.
 
 ## Two mechanical traps
 
