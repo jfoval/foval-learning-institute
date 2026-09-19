@@ -955,6 +955,42 @@ function lintLessons() {
           const prose = sourcesAt === -1 ? body : body.slice(0, sourcesAt);
           if (!/\]\(https?:\/\//.test(prose)) warn.push(`${file}: no links in the body; 4.5 asks for plain Markdown links in the text, not only in the Sources list`);
 
+          /* The teaching prose, not just the body. Five consecutive Note-Taking lessons put every
+             link in "Go deeper" and "Sources" while quoting an open-access paper on page one, and
+             five consecutive reviews raised it and fixed it in place. Root CLAUDE.md rule 10: the
+             sixth draft doing it again is a check, not a rule. A paper quoted where the reader
+             meets it should be reachable from there. */
+          const deeperAt = prose.search(/^## Go deeper/m);
+          const teaching = deeperAt === -1 ? prose : prose.slice(0, deeperAt);
+          if (/\]\(https?:\/\//.test(prose) && !/\]\(https?:\/\//.test(teaching))
+            warn.push(`${file}: every link sits in Go deeper or Sources; none in the teaching prose, where the reader meets the source being quoted (4.5)`);
+
+          /* A passage left in twice. Two distinct routes have produced one in this repo, both
+             during a fix pass and both invisible in the diff: a block promoted out of a
+             :::checkpoint and not deleted from it, and a scripted edit that inserted rather than
+             replaced. Neither showed up in any other check. Compares 25-word spans. */
+          {
+            const words = teaching.replace(/```[\s\S]*?```/g, " ").replace(/<svg[\s\S]*?<\/svg>/g, " ")
+              /* Quoted source material is repeated on purpose: a passage block-quoted and then
+                 worked over line by line, a verse given in full and again at its climax. Strip
+                 block quotes and anything inside quotation marks before comparing, or the check
+                 fires on three lessons that are doing exactly what they should. */
+              .replace(/^>.*$/gm, " ").replace(/"[^"]*"/g, " ").replace(/\u201c[^\u201d]*\u201d/g, " ")
+              /* Emphasis added or removed on one copy would otherwise hide the duplicate, which is
+                 the likeliest difference between two copies of the same passage. */
+              .replace(/[*`]/g, "")
+              .split(/\s+/).filter(Boolean);
+            const seen = new Map();
+            for (let i = 0; i + 25 <= words.length; i++) {
+              const span = words.slice(i, i + 25).join(" ");
+              if (seen.has(span)) {
+                warn.push(`${file}: the same 25-word passage appears twice, beginning "${words.slice(i, i + 9).join(" ")}...". A fix pass that copies rather than moves leaves one of these and the diff does not show it.`);
+                break;
+              }
+              seen.set(span, i);
+            }
+          }
+
           /* Part 2: a marker a reader can click has to resolve, and the Sources list should be
              what the lesson was written from rather than a reading list bolted on.
              Two failures, weighted differently. A marker with no entry is broken for a learner,

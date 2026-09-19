@@ -86,6 +86,15 @@ Rewrite these five lines each session. Nothing else goes in this block.
   `research/OUTLINE.md` specifies it in full under "Project: the notes you went back to". **Write it
   before lesson 7.**
 
+- **Thirty-five lessons across eight courses put every link in Go deeper and Sources**, with none
+  in the teaching prose where the source is quoted. Found by a new `npm run validate` warning on
+  2026-09-19 and written up here rather than fixed, under root rule 9. The check exists because
+  five consecutive Note-Taking lessons did it, five reviews caught it, and the sixth draft did it
+  again, which is rule 10's trigger. **The fix is one link each**, at the sentence that quotes the
+  paper. Using AI Effectively has 10, Digital Literacy 7, Habits and Self-Discipline 6, Focus and
+  Deep Work 4, Logic and Argument 3, Personal Finance 2, Reading Well 2, Algebra Essentials 1.
+  `npm run validate` lists them by name.
+
 - **Thirty-four quiz explanations name a distractor by its position**, across seven courses. Found
   by a survey on 2026-09-19 after three courses had their answer sequences permuted, and written up
   here rather than fixed, under root rule 9. **This is `/draft-lesson` defect 17 and it is a trap
