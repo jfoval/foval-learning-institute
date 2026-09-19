@@ -67,6 +67,38 @@ Rewrite these five lines each session. Nothing else goes in this block.
   claims about itself, so under root rule 8 it is John's decision and not a drafter's. Nothing is
   blocked: the course is live without it.
 
+- **Focus and Deep Work is through Stage 2**, with 3,800 words of research and a 3,900-word outline
+  planning seven lessons, an eighteen-item test and a four-week project. T2, third of the term on
+  running yourself. **Drafting is the next thing.**
+
+  **The research found the shape of the course and it is unusual.** Three of the four best-known
+  empirical claims in this subject have been meta-analysed in the last five years, and in each case
+  the synthesis says something the popular literature has not caught up with. The
+  media-multitasking association does not survive a publication-bias correction in the half measured
+  by task performance, though it holds in the half measured by self-report. The brain-drain effect
+  pools to g = −0.14, sits in memory rather than in attention, and is null in North American
+  samples. Working-memory training shows no convincing far transfer, and its own meta-analysts write
+  that there is no evidential value in the studies using treated controls.
+
+  **The best single source is the least expected one.** In the CHI 2008 experiment people finished
+  interrupted tasks *faster* than uninterrupted ones, with no difference in errors, and paid for it
+  in stress, frustration, time pressure and effort. A lesson built on that teaches a reader to ask
+  what a measure misses, which is worth more than any technique this course could hand out.
+
+  **The spine is the difference between self-report and task performance**, planted in lesson 1 and
+  paid off in lesson 4. It is the one idea the course most wants a learner to keep.
+
+  **Two boundaries are written into the outline so nothing gets re-taught or improvised.** Time
+  Management lesson 5 already has Mark's 2005 field study, the length of a work segment and the
+  twenty-three-minute trace, and this course points there rather than repeating them. And flow is
+  left out on purpose: Csikszentmihalyi is on the `unread:` line, the measurement literature was not
+  read, and improvising it would be the thing the course exists to teach against.
+
+  **Leroy's attention residue is the awkward case.** It is one of the two or three ideas a reader
+  will bring, the 2009 paper is paywalled and could not be opened, and no replication turned up
+  either way in twenty minutes of searching. It is on the `unread:` line and handled the way Habits
+  lesson 4 handled the twenty-one days: named, placed, and load-bearing for nothing.
+
 - **Habits and Self-Discipline is PUBLISHED and WRITTEN**, with seven lessons, both assessments,
   seven Stage 4 reviews applied with a review file for each, and seven fact-checked podcast scripts.
   T2, second of the term on running yourself. **Nothing on it is outstanding except seven episodes**,
