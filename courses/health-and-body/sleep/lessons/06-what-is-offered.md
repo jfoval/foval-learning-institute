@@ -60,10 +60,10 @@ quiz:
       recommendation against melatonin tell you about that use?
     options:
       - That it doesn't work for jet lag either, since it's the same substance
-      - Nothing, since the guideline is about chronic insomnia, not jet lag
       - That it's unsafe, since the guideline recommends against its use
+      - Nothing, since the guideline is about chronic insomnia, not jet lag
       - That it works for jet lag, since the guideline only rules out insomnia
-    answer: 1
+    answer: 2
     explain: >-
       The recommendation is weak, it's for chronic insomnia in adults, and the guideline isn't
       about jet lag at all, so it licenses no conclusion in either direction there. It isn't a
@@ -72,10 +72,10 @@ quiz:
       Which description of sleep restriction therapy is this course willing to give?
     options:
       - A home method that anyone can follow safely from a written description
-      - A dangerous method that guidelines recommend against for people with insomnia
       - A clinician-guided part of CBT-I that shortens time in bed and has cautions
+      - A dangerous method that guidelines recommend against for people with insomnia
       - A relaxation method that works by lowering how anxious people feel at night
-    answer: 2
+    answer: 1
     explain: >-
       The 2021 guideline gives it a conditional recommendation as a single component and describes
       early daytime sleepiness and cautions for drivers and some conditions. That's why this course
@@ -85,11 +85,11 @@ quiz:
       Somebody has had trouble getting to sleep most nights for months and it's affecting their
       days. What does this lesson support them doing with what they've read?
     options:
-      - Taking it to a clinician, with questions about what the guidelines recommend first
+      - Trying sleep hygiene for a few months first, since it's cheap and harmless
       - Starting sleep restriction on their own, since it's a recommended component
       - Asking a clinician for the strongest-graded sleep medicine, since CBT-I is slow
-      - Trying sleep hygiene for a few months first, since it's cheap and harmless
-    answer: 0
+      - Taking it to a clinician, with questions about what the guidelines recommend first
+    answer: 3
     explain: >-
       The lesson describes what three guidelines recommend and stops there. It doesn't support
       running a clinical procedure unsupervised or a sequence of steps the guidelines don't set

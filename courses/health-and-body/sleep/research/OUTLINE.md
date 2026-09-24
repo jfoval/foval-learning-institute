@@ -439,8 +439,9 @@ licenses. Then the refusal.
 
 **The refusal is specific to this course and it is the reason lesson 8 exists.** **This course cannot
 tell any reader how much sleep they need.** The population recommendation is seven or more hours
-(§2). A rare minority demonstrably need about six and a quarter and are fine (§9). And the
-participants in §1 who were not fine also reported feeling fine. **Those three facts sit together and
+(§2). People carrying one rare mutation averaged about six and a quarter hours (§9, at release level:
+how long they slept, not what they need). And the participants in §1 who were declining rated
+themselves only slightly sleepier after the first days. **Those three facts sit together and
 no reading of them produces a personal number**, which is a harder refusal than any course before this
 one has had to make, because a reader who wants a number will take one.
 
@@ -449,7 +450,7 @@ worked, all invented for the lesson and labelled as invented. (b) The source tab
 licenses, in the form **Memory** lesson 7 used, with the clock question as a column.
 
 **Misconceptions.** "Somebody must have checked." "The science says eight hours." "If I feel fine I
-am fine." (§1's participants reported exactly that.)
+am fine." (§1's participants' sleepiness ratings barely moved while their performance fell.)
 
 **Practice.** (1) Trace one claim about sleep back to its source in twenty minutes, with endings
 named, including the ending where the time runs out. (2) **The decision**: one thing to change, keep

@@ -212,11 +212,13 @@ other twenty-eight sleep. At 0.18, it finds about eleven and calls forty-nine of
 **The arithmetic is this course's own and the simplification in it is deliberate**: the picture holds
 sensitivity at a perfect 1.00 so that you can see the specificity effect on its own.[6] In reality a
 sensitivity of 0.93 also sends some genuine sleep the other way, which pushes the reported total back
-down a little and does not change the direction.
+down, and on a night with little time awake in bed it can outweigh the overcount. Which effect wins
+depends on how long you lay awake, which the abstract doesn't let you work out.
 
-**Notice which way the error runs.** A device with those two numbers reports more sleep than you got,
-not less. If your watch says you slept well and you feel as though you didn't, the instrument has a
-known bias in exactly that direction, and that isn't reassurance.
+**Notice which way the error leans.** A device with those two numbers tends to report more sleep than
+you got on a night with a lot of lying awake, which is the night you'd most want it to get right. If
+your watch says you slept well and you feel as though you didn't, the instrument's weakness points
+exactly that way, and that isn't reassurance. This reading is the course's own.[6]
 
 :::predict Before you read on. Why would a device with a specificity of 0.20 still be advertised as "over 90 percent accurate", without anybody lying?
 
@@ -271,7 +273,7 @@ one measured, on whom, and how far this course got into it.
 | The source | What it measured | On whom | Read at |
 |---|---|---|---|
 | The [device comparison](https://doi.org/10.1093/sleep/zsaa291)[1] | Seven consumer devices and an actigraph against polysomnography | 34 healthy young adults, 3 nights | **Abstract verbatim in full. The paper was not opened** |
-| The [restriction experiment](https://doi.org/10.1093/sleep/26.2.117)[2] | Cognitive performance and sleep physiology at 4, 6 and 8 hours in bed | 48 healthy adults aged 21 to 38, 14 nights | **Abstract verbatim in full. The paper was not opened** |
+| The [restriction experiment](https://doi.org/10.1093/sleep/26.2.117)[2] | Cognitive performance and sleep physiology at 4, 6 and 8 hours in bed | 48 healthy adults aged 21 to 38, across a 14-night experiment and a 3-night one | **Abstract verbatim in full. The paper was not opened** |
 | The [light experiment](https://doi.org/10.1113/jphysiol.2012.227892)[3] | How far one hour of bright light moves the body clock, by circadian phase | 36 participants in a laboratory | **Abstract verbatim in full, plus one sentence of the introduction. The methods and results were not read** |
 | The [consensus statement](https://doi.org/10.5665/sleep.4716)[4] | Nothing. It is a panel's recommendation about a literature | A panel of experts; this course did not read how the panel worked | Read in part: the recommendation and four statements |
 | The [mortality meta-analysis](https://doi.org/10.1093/sleep/33.5.585)[5] | All-cause mortality against sleep duration | 1,382,999 people in 27 cohort samples | Read in part, in fragments, from a proof copy |
@@ -309,8 +311,8 @@ strength each attaches, and stops at the point where a description would become 
 
 ## Three things people get wrong about measuring sleep
 
-"My tracker knows how much I slept." It has a known bias towards reporting more sleep than you got,
-and it is largest on the nights you most want to measure.[1]
+"My tracker knows how much I slept." It tends to count quiet wakefulness as sleep, and it did worse
+on disrupted nights, which are the nights you most want to measure.[1]
 
 "The sleep stages on my watch are measured." The comparison study calls the stage results "mixed"
 and "inconsistent" in its own words.[1]

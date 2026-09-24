@@ -116,8 +116,9 @@ And the setting: "Both experiments were conducted under standardized laboratory 
 continuous behavioral, physiological and medical monitoring."[1]
 
 Read those three sentences together and you have the shape of the thing. **Three doses, fourteen
-nights, forty-eight healthy people in their twenties and thirties, in a laboratory, watched
-continuously.** No sleep outside the assigned hours was allowed, of any kind: "All other sleep was
+nights, healthy people in their twenties and thirties, in a laboratory, watched continuously.** The
+forty-eight is the total across both experiments, the fortnight of restriction and the three nights
+without sleep; how many were in each arm is not in the abstract. No sleep outside the assigned hours was allowed, of any kind: "All other sleep was
 prohibited."[1]
 
 **Notice the eight-hour arm.** It is not a group sleeping normally; it is a group held at eight hours

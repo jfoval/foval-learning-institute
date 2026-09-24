@@ -46,3 +46,13 @@ Findings that belong to the course rather than to any one lesson, from the Stage
   all of them; a reference group invented for a meta-analysis. **`npm run quotes` cannot see any of
   these**, because the marks are clean.
 - **Per cent and percent are mixed** across the course: bodies say "per cent", quizzes "percent". Pick one before publish (from lesson 4's review, 2026-09-23).
+- **Key sequences shared an internal pattern across lessons 5 and 6** (item 4's key equal to item 1's,
+  item 6's to item 2's), which the adjacent-lesson check cannot see. Lesson 6's reordered on
+  2026-09-23 to 1,0,3,2,1,3; lesson 7's to 2,0,3,1,3,0; lesson 8's to 1,3,0,2,1,0.
+- **"48 healthy adults, 14 nights" was wrong in four places** (lessons 1, 2 and 8 and `SOURCES.md`):
+  48 is the total across the 14-night restriction experiment and the 3-night deprivation one. Found at
+  lesson 8's review and corrected everywhere.
+- **"A known error direction" for consumer devices was wrong in lesson 1 and `SOURCES.md`.** Low
+  specificity overcounts quiet wake, but sensitivity below 1 undercounts sleep, so the net direction
+  depends on how long the person lay awake. Corrected to "leans towards overcounting on a night with a
+  lot of lying awake".

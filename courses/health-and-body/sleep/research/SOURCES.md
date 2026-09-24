@@ -24,8 +24,10 @@ repeated claims are observational and are about disease and death over years. Th
 spoken in one breath, and they license completely different sentences.**
 
 On the experimental side there is a randomised laboratory dose-response study (source 1) in which
-48 adults were held at 4, 6 or 8 hours in bed for 14 consecutive nights with everything else
-controlled, and in which cognitive performance fell cumulatively and the participants did not notice.
+adults were held at 4, 6 or 8 hours in bed for 14 consecutive nights with everything else
+controlled (48 healthy adults took part across this and a 3-night deprivation experiment; the
+abstract doesn't give the split), and in which cognitive performance fell cumulatively while
+sleepiness ratings, after an initial rise, barely moved.
 That is a causal finding, and its outcome is cognitive performance on tasks the abstract never
 names, over a fortnight, in healthy 21-to-38-year-olds.
 
@@ -53,7 +55,8 @@ critique cites.
 mandatory before publish. The specific risk here is not political: it is that a health course drifts
 into telling a reader what to do about a body it has never examined. **The refusal that ends the
 course must be that this course cannot tell anybody how much sleep they personally need**, and the
-evidence for that refusal is in source 9, where a handful of families demonstrably need less.
+evidence for that refusal is in source 9, where families carrying rare mutations naturally sleep much less. *(At release level, "sleep less",
+not "need less": the release reports how long people slept.)*
 
 ---
 
@@ -391,7 +394,9 @@ with a watch on.** Sensitivity of 0.93 and above means the devices almost always
 electrodes say sleep. Specificity between 0.18 and 0.54 means that when the electrodes say you were
 awake in bed, the device was as likely as not to call it sleep. **A device that assumes sleep is
 right most of the time, because most of the night is sleep**, which is why the pair has to be read
-together and why "my watch says I got seven hours" is a claim with a known error direction.
+together, and why "my watch says I got seven hours" leans towards overcounting on a night with a
+lot of lying awake. *(Corrected at lesson 8's review: this said "a known error direction". Sensitivity
+below 1 also undercounts, so which effect wins depends on how long the person lay awake.)*
 
 And read the last clause of the Results: performance **fell on the disrupted nights**. The people
 most likely to buy a tracker are the people whose nights are disrupted, and those are the nights the
@@ -1083,7 +1088,7 @@ what using it looks like: 36 people, in a laboratory, in near darkness, for days
 7. **Sleep and memory are linked, and the size of the link depends on a design choice** (source 7).
    This is where the course points back at **Memory** and at **How to Learn Anything**.
 8. **Timing is a separate quantity from duration**, measured with a different instrument and with its
-   own gold standard in a hormone assay (source 12). Almost every popular claim is about duration.
+   own gold standard in a hormone assay (source 12). That almost every popular claim is about duration is this file's impression, not a measurement.
    **Light moves timing, and which way depends on the hour** (source 14).
 9. **Night shift work carries an IARC Group 2A classification**, and what that label means is itself
    a thing to teach (source 13).
@@ -1092,8 +1097,10 @@ what using it looks like: 36 people, in a laboratory, in near darkness, for days
 
 - **"Everybody needs eight hours."** The consensus recommendation is seven or more, it names no upper
   bound for healthy adults, and it says in terms that sleep need varies between people (source 2).
-- **"I only need six hours, I'm fine."** The participants restricted to six hours in source 1 also
-  reported themselves fine, and their measured performance kept falling for fourteen days.
+- **"I only need six hours, I'm fine."** The participants restricted to six hours in bed in source 1
+  rated themselves sleepier at first and only slightly sleepier afterwards, while their measured
+  performance kept falling for fourteen days; the authors read the ratings as suggesting they were
+  "largely unaware". *(Corrected at lesson 8's review: this said they "reported themselves fine".)*
 - **"Sleeping too much is dangerous."** Long sleep carries a larger mortality association than short
   sleep (source 3), and the standard explanation for it is that illness causes long sleep rather than
   the reverse, which is an explanation the short arm can also be given.
