@@ -1,6 +1,7 @@
 ---
 title: Where a file actually is
 minutes: 100
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/computer-science-and-ai/digital-literacy/02-where-a-file-actually-is.mp3
 objectives:
   - Say what makes a directory different from a file, in terms you could use to explain it to somebody else
   - Construct an absolute path and two different relative paths to a particular file on your own machine, and translate one into the other
