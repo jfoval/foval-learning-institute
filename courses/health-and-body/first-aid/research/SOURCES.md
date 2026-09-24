@@ -2963,9 +2963,11 @@ the same sentence Part A gave from ERC).
 CPR" or the AHA "How to save a life: Hands-Only CPR" against 2025 guidance. Lesson 3 embeds neither
 and links the organisations' own pages instead.
 
-**G5 (ILCOR manuscripts): fallback used.** Lesson 3 paraphrases ILCOR 2025 BLS on firm surfaces, on
-beds in hospital and on monitoring rescuer fatigue, with strength and certainty and no quotation
-marks. The ILCOR EIT 2025 feedback-device sentence it quotes is from the typeset *Circulation* text
+**G5 (ILCOR manuscripts): closed by the browser pass below.** Drafted first as a paraphrase; once
+"Browser gate closures (2026-09-24), G5" confirmed the firm-surface, bed-to-floor and fatigue
+quotes (Part A lines 846 and 884) word for word in the typeset ILCOR BLS 2025 text, lesson 3
+quotes them and cites the typeset article. G1 was also closed by that pass; lesson 3 still cites
+RCUK for every European instruction, which is enough for it. The ILCOR EIT 2025 feedback-device sentence it quotes is from the typeset *Circulation* text
 (Part D, D41, Wayback 20260430180745), not a manuscript.
 
 **G16 (images): closed for one image, two rejected.** Checked on Wikimedia Commons today through
@@ -3690,3 +3692,560 @@ Corrections found by lesson 2's reviewers and checked against the saved primarie
   calls." [V] And first: "When you call 999 in a medical emergency, ask for the ambulance
   service." [V] So SCAS asks about breathing before location; the NHS and 911.gov list location
   first.
+
+## Gate closures, lesson 4
+
+*2026-09-24, by the lesson 4 drafter. Append-only. No outline gate blocks lesson 4 (G2's in-water
+box and G15 are closed in "Browser gate closures"; G5 is closed there for the BLS quotes). What
+follows is defect 26 applied: every source lesson 4 rests on was re-opened at its primary today.
+[V] means copied from text extracted directly today (curl and an HTML stripper for RCUK, the BHF,
+the British Red Cross, St John, the American Red Cross, and the Internet Archive captures of the AHA
+pages named below; pdftotext for the CARES PDFs and the ILCOR manuscript; PubMed efetch for the
+abstracts; the rendered page's own text in the built-in browser pane for the typeset ILCOR BLS
+CoSTR). [V-img] means read by eye from the publisher's full-size table image in the browser pane,
+legible without doubt. Nobody signed in to anything.*
+
+### The grading key (for the lesson that teaches it)
+
+- **AHA 2025 Part 7, Table 1** (S1), "Applying Class of Recommendation and Level of Evidence to
+  Clinical Strategies, Interventions, Treatments, or Diagnostic Testing in Patient Care (Updated
+  December 2024)". Opened at full size on ahajournals.org
+  (https://www.ahajournals.org/cms/10.1161/CIR.0000000000001369/asset/fb6a0832-412f-4248-8e37-eefd7109d512/assets/graphic/cir.0000000000001369tab01.jpg).
+  [V-img]: "Class 1 (STRONG)", "Benefit >>> Risk", suggested phrases "Is recommended", "Should be
+  performed/administered/other"; "Class 2a (MODERATE)", "Benefit >> Risk", "Is reasonable", "Can be
+  useful/effective/beneficial"; "Class 2b (WEAK)", "Benefit ≥ Risk", "May/might be reasonable",
+  "May/might be considered", "Usefulness/effectiveness is unknown/unclear/uncertain or not
+  well-established"; "Class 3: No Benefit (MODERATE)", "Benefit = Risk", "Is not recommended";
+  "Class 3: HARM (STRONG)", "Risk > Benefit", "Potentially harmful", "Causes harm". Levels: "Level A", "High-quality evidence‡ from more than 1 RCT", "Meta-analyses
+  of high-quality RCTs"; "Level B-R", "(Randomized)", "Moderate-quality evidence‡ from 1 or more
+  RCTs"; "Level B-NR", "(Nonrandomized)", "Moderate-quality evidence‡ from 1 or more well-designed,
+  well-executed nonrandomized studies, observational studies, or registry studies"; "Level C-LD",
+  "(Limited Data)", "Randomized or nonrandomized observational or registry studies with limitations
+  of design or execution"; "Level C-EO", "(Expert Opinion)", "Consensus of expert opinion based on
+  clinical experience". And: "COR and LOE are determined independently (any COR may be paired with
+  any LOE)." and "A recommendation with LOE C does not imply that the recommendation is weak. Many
+  important clinical questions addressed in guidelines do not lend themselves to clinical trials.
+  Although RCTs are unavailable, there may be a very clear clinical consensus that a particular test
+  or therapy is useful or effective."
+- **AHA 2025 Part 7 §4.4** (S1, Wayback 20251026225858), text [V]: "The COR refers to the strength
+  and consistency of the evidence reflects the writing group’s synthesis of the available
+  literature, the potential impact on patient outcome, and the relevant principles of feasibility,
+  acceptability, and equity." (sic) "The specific wording is intended to reflect the risk-benefit
+  ratio associated with the recommendation, with terms such as “is recommended” or “should”
+  reserved for Class 1 recommendations." "The LOE reflects the quality of the evidence, with highest
+  value (LOE A) placed on randomized controlled trials (RCTs) and meta-analyses involving RCTs."
+  "Recommendations based on limited data or expert opinion are indicated as LOE C." §4.5: "the order
+  of recommendations in the tables is determined primarily by the COR, with Class 1 recommendations
+  first, then by LOE category. The order is not intended to reflect the sequence of resuscitation
+  step performance".
+- **ILCOR BLS 2025, typeset** (S6; https://www.ahajournals.org/doi/10.1161/CIR.0000000000001364,
+  rendered text in the browser pane). Introduction [V]: "Good practice statements, which represent
+  the expert opinion of the task force in light of very limited or no direct evidence, can be
+  generated after ScopRevs and occasionally after EvUps in cases where the task force thinks
+  providing guidance is especially important." The manuscript's abstract [V, manuscript] says the
+  task force "assessed, discussed, and debated the quality of the evidence, based on Grading of
+  Recommendations Assessment, Development, and Evaluation criteria". The CoSTR does not define
+  "recommend" and "suggest" in the text read; in every treatment recommendation read, "We recommend"
+  carries a strong recommendation or a good practice statement and "We suggest" a weak one. That
+  pairing is this file's observation from the text, not ILCOR's stated rule.
+
+### Breaths and compression-only: the guideline text
+
+- **ILCOR BLS 2025, typeset**, "Bystander Chest Compression-Only CPR (Without Dispatcher
+  Assistance)" [V]: "No new studies that directly addressed this topic were found. The evidence
+  remains 3 observational studies that compared bystander chest compression–only CPR with
+  conventional CPR at a ratio of 15:2 and 30:2 in adults without DA-CPR instructions." (reference
+  numbers removed) "Because 15:2 CPR is no longer recommended, all outcomes with these studies were
+  downgraded for indirectness." Treatment recommendations "(2025, Unchanged From 2017)" as Part A
+  2.4 quotes them. Justification [V]: "the task force acknowledged the very low–certainty evidence in
+  comparison with 15:2 CPR but placed greater emphasis on the need to give chest compressions in
+  adult CPR and the potential to increase rates of bystander CPR with chest compression–only CPR or
+  compression-focused CPR in adults." Bullets [V]: "The existing evidence suggests chest
+  compression–only CPR is comparable to 15:2 CPR in adults. Given the included studies were
+  conducted without dispatcher assistance, it could be assumed that the CPR was performed by
+  CPR-trained individuals or off-duty health care professionals."; a 1980s study "reported higher
+  unadjusted survival when 15:2 was performed correctly (good technique and effect), compared with
+  incorrectly (31% versus 8%) or when compared with chest compression–only CPR (31% versus 20%)"
+  (the manuscript's wording; the typeset text was checked only as far as "this study reported higher"); "Chest
+  compression–only CPR is preferred by the public and easier to learn and recall."; "as it
+  continues, rescuers may experience fatigue, which can reduce the depth of compressions compared
+  with those delivered in conventional CPR with pauses for breaths." (manuscript; not checked in the typeset text); "Opening the
+  airway and delivering ventilations are technical skills, and bystanders, especially if untrained
+  or minimally trained, are typically unable to deliver effective ventilations during simulated
+  CPR."; "Both types of CPR are better than no CPR, and both should be taught in BLS/CPR training."
+  Knowledge gap [V]: "The effect on outcomes of chest compression–only CPR compared with 30:2 CPR
+  without dispatcher assistance". Table 1 [V, typeset]: the one adult study found "higher survival
+  to hospital discharge with CCO-CPR compared with 30:2 CPR (aOR, 1.60; 95% CI, 1.08–2.35)"; the two
+  all-age studies found no difference against 15:2. **Note for the lesson:** the only adult study
+  against 30:2 in ILCOR's evidence favours compression-only, and the weak recommendation for breaths
+  by the trained stands anyway; the justification does not give one decisive reason for the breaths
+  half.
+- **ILCOR BLS 2025, typeset**, "Dispatcher-Assisted Chest Compression–Only CPR" [V]: "Four RCTs and
+  6 observational studies were identified that compared dispatcher-assisted chest compression–only
+  CPR with conventional CPR at a ratio of 15:2 or 30:2 in adults or all ages" (reference numbers
+  removed). "As 15:2 CPR is no longer recommended, all outcomes were downgraded for indirectness. The
+  overall certainty of evidence was rated as low to very low for all outcomes, primarily due to a
+  very serious risk of bias. Because of this and a high degree of heterogeneity, meta-analyses were
+  not performed." Recommendation [V]: "We recommend that dispatchers provide chest compression–only
+  CPR instructions to callers for adults with suspected OHCA (strong recommendation, low-certainty
+  evidence)." Justification [V]: "Bystander CPR more than doubles OHCA survival. We placed a higher
+  emphasis on the importance of providing high-quality chest compressions and increasing the
+  overall rate of bystander CPR over providing rescue breaths." "Using a chest compression–only CPR
+  strategy may increase the willingness of bystanders to respond during a cardiac arrest." "Most
+  bystander CPR for adults is given with DA-CPR instructions, even in the presence of CPR-trained
+  lay bystanders." The typeset Table 2's survival row is collapsed on the page; the manuscript's
+  reads [V, manuscript] "3 adult RCTs" and "No difference in survival to hospital discharge compared
+  with 15:2". The manuscript's reference list names the three: Rea 2010, Hallstrom 2000 (*NEJM*
+  342:1546-53) and Svensson 2010.
+- **AHA 2025 Part 7** (S1, Wayback 20251026225858). §6.2 rec 1 (COR 1, B-NR) "All lay rescuers
+  should provide chest compressions for adults with presumed cardiac arrest." Rec 4 (2a, B-R) [V]:
+  "For lay rescuers trained in performing CPR, it is reasonable to provide ventilation (breaths) in
+  addition to chest compressions for an adult in cardiac arrest." Synopsis [V]: "Immediate chest
+  compressions are critical to improve patient outcomes from OHCA, and a chest compression–only
+  approach is appropriate if lay rescuers are untrained or unwilling to provide breaths. Because
+  CPR with breaths may lead to improved outcomes for adults in comparison with chest
+  compression–only CPR, trained rescuers are encouraged to provide breaths along with chest
+  compressions." Supportive [V]: "In Japan, nationwide dissemination of chest compression–only CPR
+  for lay rescuers was associated with an increase in the incidence of survival with favorable
+  neurological outcome after OHCAs, likely due to an increase in lay rescuers providing CPR."
+  "Numerous observational studies and 1 large secondary analysis of an RCT found improved outcomes
+  in patients with cardiac arrest who received both chest compressions and ventilations compared
+  with those who received chest compressions only." "Other observational studies have reported no
+  difference in outcome for patients receiving compressions and ventilations compared with
+  compression-only CPR." "Given the potential benefit of including both compressions and
+  ventilations during CPR, if lay rescuers are appropriately trained, they should be encouraged to
+  deliver breaths with compressions." (reference numbers removed from each.) The text does not name
+  which RCT supports the B-R.
+  - §7.2 supportive [V]: "there is new evidence that ventilations delivered during the pause when
+    using a 30:2 compression-to-ventilation ratio are often ineffective. In an analysis of the
+    Resuscitation Outcomes Consortium data, investigators found that effective ventilations were
+    delivered during fewer than half of the pauses." And patients "with a lower proportion of
+    effective ventilations had worse rates of ROSC, survival to hospital discharge, and survival
+    with favorable neurologic outcome."
+  - §8.1, Fundamentals of Ventilation: rec 1 (2a, C-LD) mouth-to-mouth, mouth-to-mask or bag-mask;
+    rec 2 (2a, C-LD) [V] "it is reasonable to give enough tidal volume to produce visible chest
+    rise."; rec 4 (2b, C-LD) [V] "When providing breaths to an adult in cardiac arrest without an
+    advanced airway, it may be reasonable to give each breath over 1 s."; rec 5 (3: Harm, C-LD) [V]
+    "When providing breaths to adult patients in cardiac arrest, rescuers should avoid
+    hypoventilation (too few breaths or too little volume) or hyperventilation (too many breaths or
+    too large a volume)." Synopsis [V]: "Performing chest compressions with passive oxygen delivery
+    does not ensure sufficient ventilation." Supportive [V]: "To provide mouth-to-mouth breaths, open
+    the person’s airway, pinch the person’s nose, create an airtight seal around the mouth, and
+    provide a breath." "When using a barrier device, use of mouth-to-pocket mask provides more
+    effective breaths than mouth-to-face shield." "Taking a regular rather than a deep breath may
+    help prevent the rescuer from getting dizzy or lightheaded when giving mouth-to-mouth or
+    mouth-to-mask breaths and prevents overinflation of the person’s lungs. The recommendation for
+    using a 1-second inspiratory time is to keep the pauses in chest compressions as brief as
+    possible during 30:2 CPR." "Excessive ventilation can cause gastric inflation, regurgitation,
+    aspiration, and decreased cardiac output." "Too little ventilation also is harmful and is
+    associated with decreased survival." (reference numbers removed.)
+  - §8.4 rec 1 (2a, B-NR) [V]: "It is reasonable for lay rescuers and health care professionals to
+    perform CPR with cycles of 30 compressions followed by 2 breaths before placement of an advanced
+    airway (supraglottic airway or endotracheal tube)."
+- **AHA 2025 Part 4, Systems of Care** (S4, Wayback 20260208194135), T-CPR section. Rec 1 (COR 1,
+  LOE A) [V]: "T-CPR instructions for adult OHCA should advise compression-only CPR consistent with
+  adult BLS guidelines." Supportive [V]: "While recent observational studies have reported improved
+  neurologically intact survival outcomes with conventional CPR in adults, these studies are
+  vulnerable to selection bias and confounding. Three randomized trials comparing T-CPR
+  compression-only CPR with conventional CPR instruction in adults trended towards better survival
+  with compression-only CPR instructions. In a pooled analysis of these data, the improvement in
+  survival was significant (risk ratio, 1.22; 95% CI, 1.01–1.46) with a number needed to treat of 41
+  (95% CI, 20–1250). In one of these RCTs, compression-only instructions were delivered 1.4 min
+  faster and more likely to be delivered completely by the telecommunicator. It is noteworthy that
+  the adult OHCA RCTs largely predate the rise in overdose-associated OHCA seen in the last decade."
+  (reference numbers removed; the three are Hallstrom 2000, Svensson 2010 and Rea 2010, and the
+  pooled analysis is Hüpfl 2010.) Knowledge gaps [V]: "Research to identify age cutoffs and
+  etiologies for which individuals in cardiac arrest benefit from full CPR with breaths, as opposed
+  to compression-only CPR, is needed." and "Compression-only CPR is easier to implement because of
+  its simplicity and reduced contact but may be less efficacious than CPR with breaths in some
+  etiologies of OHCA (eg, opioid-associated OHCA)." Public Access Naloxone synopsis [V]: "An
+  estimated 1 in 6 to 1 in 3 OHCAs are related to an overdose, most commonly involving opioids."
+- **RCUK 2025 Adult BLS** (S11), re-read today. "Rescue breaths" [V]: "If you have been trained to
+  provide rescue breaths, alternate 30 chest compressions with 2 rescue breaths." "When providing
+  rescue breaths, deliver just enough air to make the chest start to rise; avoid excessive
+  ventilation." "If you are unable to ventilate the chest after two attempts, consider foreign body
+  airway obstruction" (the sentence continues after a spaced hyphen, so quote only this much). "If
+  you are not trained to provide rescue breaths, perform continuous chest compressions without
+  interruptions." Call handlers [V]: "The ambulance service call handler should assume the caller
+  does not know how to perform CPR and provide chest-compression-only instructions. If the caller
+  subsequently states they know how to perform rescue breaths, then the ambulance service call
+  handler should facilitate 30:2 CPR." And [V]: "Bystander CPR and use of an AED increase the chances
+  of survival by two to four-fold". (Part A's "RCUK S11" attribution for this sentence is right.)
+- **RCUK 2025 Epidemiology** (S14), re-read today: England data are "England (2024)" [V]; "30-day
+  Survival – overall" England 9.5%, Northern Ireland 6.5%, Scotland 9.6%; "Approximately 80% of
+  out-of-hospital cardiac arrests are due to a cardiac cause." [V]; "70-80% occur at home" [V].
+  Hot spots [V]: "areas with incidence above 60.2 per 100,000 per year and bystander CPR rates below
+  78.7% (the national medians), are more likely to be urban, densely populated, and socioeconomically
+  deprived."
+- **ERC 2025 Adult BLS** (110771), as confirmed in "Browser gate closures", G1: "COVID-19 patients
+  should be treated as any other patients. Modifications to CPR are no longer required."
+
+### Public pages, re-read today
+
+- **BHF, "How to do CPR"** (S18), undated. Under the question "Should I give rescue breaths?" [V]:
+  "It’s your choice if you would like to give rescue
+  breaths. Hands-only CPR is very effective and is the recommended way to give CPR since the
+  Covid-19 pandemic. However, you may wish to give rescue breaths to a family member." Steps [V]:
+  "Tilt the person’s head back gently and lift their chin.", "Pinch their nose.", "Seal your mouth
+  over theirs and blow hard for a second. Do this twice." The drowning answer [V]: "if you are
+  trained and feel comfortable to do so, administer 5 rescue breaths to the person before starting
+  regular CPR (2 rescue breaths for every 30 compressions)."
+- **British Red Cross, "Unresponsive and not breathing"** (D12), undated ("©2026 British Red
+  Cross"). **Correction to Part D 1.4**, which says "No rescue breaths in this public sequence": the
+  numbered steps are compressions only, but the page's questions section now offers breaths [V]:
+  "Am I supposed to give rescue breaths too?" "If you feel able to, combine chest compressions with
+  breathing into their mouth or nose." "However, giving chest compressions is the most important
+  thing to do because their blood already has some oxygen in it and the compressions will keep
+  that blood pumping around their body, taking oxygen to their brain." "Breathing into their mouth
+  or nose tops up the oxygen in their lungs." "Blow air into them with two steady breaths." And
+  [V]: "The chance of restarting the heart by chest compressions alone is very small. Usually, a
+  heart needs an electric shock from an automated external defibrillator (AED) to restart." "Chest
+  compressions pump a small amount of blood around the body to keep the organs alive, most
+  importantly the brain." On the head tilt [V]: "When a person is unresponsive, their muscles relax
+  and their tongue can block their airway so they can no longer breathe. Tilting their head back
+  opens the airway by pulling the tongue forward." (The same page still says "For a baby under a
+  year old, use two fingers to do chest compressions." [V], which is lesson 6's concern.)
+- **St John Ambulance, "How to do CPR"** (S17), clinically reviewed 28/04/2025 [V]: "If you are
+  trained to do so, after 30 compressions, provide two rescue breaths. If you are unable or
+  unwilling to provide rescue breaths, give continuous chest compressions." "Tilt the casualty's
+  head backwards, lift their chin, and pinch the soft part of their nose closed." "Blow into their
+  mouth steadily and firmly for up to one second, until the chest rises." "Remove your mouth and
+  watch the chest fall." "If one or both don't work, return to chest compressions."
+- **American Red Cross, "CPR Steps"** (S19), undated [V]: "Open the airway to a past-neutral
+  position using the head-tilt/chin-lift technique", "Pinch the nose shut, take a normal breath, and
+  make complete seal over the person’s mouth with your mouth.", "Ensure each breath lasts about 1
+  second and makes the chest rise; allow air to exit before giving the next breath", "If the 2nd
+  breath does not make the chest rise, an object may be blocking the airway", "Continue giving sets
+  of 30 chest compressions and 2 breaths."
+
+### Registries, re-read today
+
+- **CARES 2025 National Survival Report** (S20), dated April 20, 2026, all confirmed against the
+  PDF: N = 140144; survival to discharge 14768 (10.5); CPC 1 or 2 11608 (8.3); home 100154 (71.5),
+  survival 8.9; nursing home 4.5; public 24459 (17.5), survival 20.9; bystander witnessed 16.1,
+  unwitnessed 4.3; bystander CPR excluding nursing home and healthcare facility events 44398 (42.5),
+  survival 12.9, against 7.7 without; bystander AED use, same exclusion, 2630 (2.5), survival 32.9;
+  shockable 25824 (18.4), survival 29.0; non-shockable 6.4. Inclusion [V]: "An out-of-hospital
+  cardiac arrest where resuscitation is attempted by a 911 responder (CPR and/or defibrillation)."
+  **CARES 2025 Metrics Summary**: public bystander CPR 46.2% female, 48.8% male; all bystander CPR
+  41.9% female, 41.6% male.
+
+### Study abstracts, re-read today (PubMed efetch; abstract only for each)
+
+- **SOS-KANTO 2007** (S23): 4068 witnessed adult arrests; 439 compression-only, 712 conventional,
+  2917 none. [V]: "Any resuscitation attempt was associated with a higher proportion having
+  favourable neurological outcomes than no resuscitation (5.0%vs 2.2%, p<0.0001)." "However, there
+  was no evidence for any benefit from the addition of mouth-to-mouth ventilation in any subgroup."
+  Interpretation [V]: "Cardiac-only resuscitation by bystanders is the preferable approach to
+  resuscitation for adult patients with witnessed out-of-hospital cardiac arrest, especially those
+  with apnoea, shockable rhythm, or short periods of untreated arrest." Background [V]:
+  "Mouth-to-mouth ventilation is a barrier to bystanders doing cardiopulmonary resuscitation (CPR)".
+- **Svensson 2010** (S24): randomised dispatcher instructions, 1276 patients, 30-day survival 8.7%
+  (54 of 620) against 7.0% (46 of 656), P=0.29.
+- **Rea 2010** (S25): 1941 patients, 12.5% against 11.0%, P=0.31; subgroups cardiac cause 15.5%
+  against 12.3% and shockable 31.9% against 25.7%, both P=0.09. Conclusion [V]: "The results
+  support a strategy for CPR performed by laypersons that emphasizes chest compression and minimizes
+  the role of rescue breathing."
+- **Hüpfl 2010** (S26): [V] "pooled data from three randomised trials showed that
+  chest-compression-only CPR was associated with improved chance of survival compared with standard
+  CPR (14% [211/1500] vs 12% [178/1531]; risk ratio 1·22, 95% CI 1·01-1·46). The absolute increase
+  in survival was 2·4% (95% CI 0·1-4·9), and the number needed to treat was 41 (95% CI 20-1250)."
+  Observational cohorts: "no difference was recorded between the two CPR techniques (8% [223/2731]
+  vs 8% [863/11 152]; risk ratio 0·96, 95% CI 0·83-1·11)." Interpretation [V]: "For adults with
+  out-of-hospital cardiac arrest, instructions to bystanders from emergency medical services
+  dispatch should focus on chest-compression-only CPR." Funding: US National Institutes of Health
+  and American Heart Association.
+- **Iwami 2015** (S28): 816,385 arrests in Japan 2005 to 2012; any bystander CPR 34.6% to 47.3%,
+  compression-only 17.4% to 39.3%; survival with favourable neurological outcome attributed to any
+  bystander CPR per 10 million, 9.0 to 43.6. Conclusion [V]: "Nationwide dissemination of CCCPR for
+  lay-rescuers was associated with the increase in the incidence of survival with favorable
+  neurological outcome after OHCAs in Japan."
+- **Hasselqvist-Ax 2015** (S29): 30,381 witnessed arrests in Sweden, 1990 to 2011; 30-day survival
+  10.5% with CPR before EMS against 4.0% without; after a propensity score "(which included the
+  variables of age, sex, location of cardiac arrest, cause of cardiac arrest, initial cardiac
+  rhythm, EMS response time, time from collapse to call for EMS, and year of event)" [V], odds ratio
+  2.15 (1.88 to 2.45). Conclusion [V]: "CPR performed before EMS arrival was associated with a 30-day
+  survival rate after an out-of-hospital cardiac arrest that was more than twice as high as that
+  associated with no CPR before EMS arrival."
+- **Wissenberg 2013** (S30): presumed noncardiac causes excluded; bystander CPR 21.1% (2001) to
+  44.9% (2010); 30-day survival 3.5% to 10.8%. [V]: "Because of the co-occurrence of other related
+  initiatives, a causal relationship remains uncertain."
+- **Blewer 2018** (S32): 19,331 arrests, ROC 2011 to 2015. [V]: "In public locations, 39% (272/694)
+  of females and 45% (1170/2600) of males received BCPR ( P<0.01), whereas in private settings, 35%
+  (2198/6328) of females and 36% (3364/9449) of males received BCPR ( P=NS)." Public odds ratio 1.27.
+- **Garcia 2022** (S33): 110,054 witnessed arrests, CARES 2013 to 2019. Home 38.5% against 47.4%
+  (adjusted OR 0.74), public 45.6% against 60.0% (adjusted OR 0.63). Conclusion [V]: "Black and
+  Hispanic persons were less likely than White persons to receive potentially lifesaving bystander
+  CPR at home and in public locations, regardless of the racial or ethnic makeup or income level of
+  the neighborhood where the cardiac arrest occurred."
+- **Diem 1996** (S41): ER and Chicago Hope, 1994-1995 season, and 50 episodes of Rescue 911; 60 CPR
+  events in 97 episodes. [V]: "In the majority of cases, cardiac arrest was caused by trauma; only 28
+  percent were due to primary cardiac causes. Sixty-five percent of the cardiac arrests occurred in
+  children, teenagers, or young adults. Seventy-five percent of the patients survived the immediate
+  arrest, and 67 percent appeared to have survived to hospital discharge."
+- **Portanova 2015** (S42): Grey's Anatomy and House, 2010 to 2011. [V]: "CPR was depicted 46 times
+  in the 91 episodes, with a survival rate of 69.6%." "Among those immediately surviving following
+  CPR, the majority (71.9%) survived to hospital discharge". Conclusion [V]: "Overall, the shows
+  portrayed an immediate survival rate nearly twice that of actual survival rates."
+
+### Unread, for this lesson
+
+Kitamura 2010 and the drowning and overdose sequences are lessons 6 and 7. The AHA Part 7 text does
+not name the RCT behind its B-R grade for trained lay rescuers' breaths, and this file has not
+identified it. Hallstrom 2000 is known here only as a reference in ILCOR's and the AHA's lists; its
+abstract was not read.
+
+## Stage 4 note, lesson 3 (2026-09-24)
+
+*By the lesson 3 fix pass, from the two Stage 4 findings files (now folded into
+`reviews/03-pushing-on-the-chest.md`). Each item re-checked at the primary today: PubMed efetch for
+the abstracts, the Internet Archive capture 20251027153841 (`id_` raw) for AHA Part 10.*
+
+- **Hellevuo 2013 (S39): the conclusion was recorded by its reassuring half.** "Gate closures,
+  lesson 3" and Part A 2.8 give only "were by and large not fatal". The abstract's CONCLUSION, in
+  full: "The number of iatrogenic injuries in male patients was associated with chest compressions
+  during cardiopulmonary resuscitation increased as the measured compression depth exceeded 6 cm.
+  While there is an increased risk of complications with deeper compressions it is important to
+  realize that the injuries were by and large not fatal." [V] Quote both halves or neither.
+- **The 6 cm cap's reason.** Part A 2.8 ("This supports ... the 6 cm upper limit") and the OUTLINE's
+  lesson 3 mechanism ("the 6 cm cap limits injury (Hellevuo)") present injury as a reason for the
+  ceiling. The AHA's only stated reason is "Observational research has suggested reduced survival
+  with chest compressions of excessive depth (greater than 6cm)." [V, above]; Reviewer F searched
+  the whole Part 7 capture and found nothing tying injury to the ceiling, and RCUK gives no reason.
+  Hellevuo bears on the worry about injury; no guideline read cites it for the cap.
+- **Haley 2011 (S36): the population's hedge.** Method: "Victims who were determined not to be in
+  cardiac arrest upon EMS personnel assessment were identified as likely not in cardiac arrest." [V]
+  Also in the abstract: "Twenty-three percent of the patients were less than 19 years of age." [V]
+  (the abstract does not say whether of the 77 or the 72), so Haley is not an adults-only study.
+- **Van Wijck 2024 (S38): the pooled figures include mechanical CPR.** The abstract's subgroup
+  analysis compared manual with mechanically assisted compressions: "Mechanically assisted CPR, when
+  compared to manual CPR, was associated with a higher risk ratio for CPR-related injuries of 1.36
+  (95% CI 1.17-1.59)." [V] Conclusion: injuries "frequently occur ... especially when mechanical CPR
+  is administered." [V] So the 55% is not a figure for hand CPR alone.
+- **AHA Part 10 (S3): the recovery-position sentence is from the gas embolism section**, outside
+  the sections S3's read level lists. In full: "Effective CPR cannot be performed in the recovery
+  (lateral decubitus) position, and standard resuscitation practice calls for compressions to be
+  administered with the patient positioned supine (refer to " Part 7: Adult BLS " guidelines)." [V]
+  It rebuts the Durant (left lateral, head-down) position for gas embolism; the sentence is general
+  and fit to cite for CPR position. S3's read level for lesson 3 is: pregnancy section in full, and
+  this sentence in the gas embolism section.
+- **RCUK 2025 Adult BLS (S11), "High-quality chest compressions"** is thirteen sentences, as listed
+  in "Gate closures, lesson 3" (counted by Reviewer F against the page).
+- **AHA Part 7 (S1), two sentences lesson 3 now uses, from the Part 7 text re-read today.** §7.1
+  supportive, straight after the kneeling evidence: "However, kneeling and straddling, especially on
+  a moving cot, needs to be weighed against rescuer safety and stability." [V] Epidemiology
+  preamble: "The majority of adult OHCA occurred in private residences while 18% occurred in public
+  places." [V]
+
+## Gate closures, lesson 5
+
+*2026-09-24, by the lesson 5 drafter. Append-only. G1, G5 and G14 were already closed in "Browser
+gate closures"; this section records what lesson 5 read beyond them, and closes G16 for one image.
+[V] means copied from text read today: in the built-in browser pane on the publisher's page for
+the ERC chapter and the two AHA Circulation articles (every quotation string-matched by script
+against the rendered page's text, whitespace normalised); by curl and an HTML stripper for RCUK and
+the American Red Cross; by pdftotext for CARES and the ERC lay book; and, for AHA grades that the
+publisher prints only as table images, from the Part A researcher's saved extraction of the
+Internet Archive captures (S1 20251026225858; the Part 4 capture S4 records as 20260208194135).
+Nobody signed in to anything.*
+
+**G4 (videos): not attempted.** "Defib Dani" (7aX1EwkC1yY) and the American Red Cross "How to Use
+an AED on an Adult" (in8j2Q2z3HE) were not opened. Lesson 5 embeds neither and names both in Go
+deeper as not yet checked against 2025 guidance.
+
+**G17 (PulsePoint): planned around** as the outline says, from D21 only; no coverage figures.
+
+**G16 (images): closed for one image.** `AED - Automated external defibrillator in compartment with
+sign above.jpg`, Wikimedia Commons, by Infrogmation, own work, **CC BY-SA 4.0**, taken 2025-03-29,
+2040 × 4199 px (licence and author from the Commons API; image viewed today). It shows a white wall
+cabinet with a glass front, a handle on the left and "AED" with a red heart and lightning bolt
+across the top; inside, an orange Cardiac Science AED in its case; above, a separate sign reading
+"AED" and "Automated External Defibrillator" over a red heart with a white lightning bolt. No
+lock is visible. No technique is shown, so nothing needed checking against 2025 guidance. The
+Waconia candidate was not used.
+
+### ERC 2025 Adult BLS (110771), publisher page, passages beyond G1
+
+https://www.resuscitationjournal.com/article/S0300-9572(25)00283-7/fulltext , read in the browser
+pane today; each of these was string-matched on the rendered page [V]:
+- "Use an AED as soon as it is available." "Some AEDs (fully automatic AEDs) will deliver a shock
+  automatically, while others (semi-automatic AEDs) will require the rescuer to press the shock
+  button to deliver the shock." "After the shock has been delivered, immediately restart chest
+  compressions." "If no shock is indicated, immediately restart CPR chest compressions." "Ensure
+  that nobody touches the person whilst the AED is analysing the heart rhythm." "If more than one
+  rescuer is present, continue CPR while the defibrillation pads are being attached." "Usually, the
+  AED will instruct the rescuer to perform CPR, then, after a set time interval the AED will
+  instruct the rescuer to pause CPR to undertake rhythm analysis." "The local emergency service
+  should be able to direct callers to the nearest available AED."
+- What an AED is: a device "that includes adhesive defibrillation pads to attach to a patient’s
+  chest to detect the heart rhythm following suspected cardiac arrest." "AEDs are accurate in their
+  interpretation of the heart rhythm and are safe and effective when used by laypeople." "If the
+  rhythm is a shockable rhythm (ventricular fibrillation or pulseless ventricular tachycardia), an
+  audible (and sometimes visual) prompt is given to the operator to deliver a direct current
+  electric shock (defibrillation) to re-establish a coordinated heart rhythm."
+- Also string-matched: "were less likely to be exposed or disrobed", "No studies addressing ROSC,
+  survival or favourable neurologic outcome were identified.", "identified five RCTs", and the
+  "little evidence ... no evidence that an underwire" sentence below.
+- Minutes: "Among patients in a shockable rhythm, each minute delay to defibrillation is associated
+  with 6 % higher probability of failure to terminate VF, and 3–6 % lower probability of survival
+  to discharge." (en dash and spaced per cent sign as printed; G1 recorded the 3–6 % half.)
+- "The highest survival rates following lay rescuer resuscitation have been reported after use of
+  on-site AEDs such as at airports, casinos, sports facilities or train stations."
+- "An AED should only be attached to a person who is unresponsive with abnormal breathing." "CPR
+  should not be delayed whilst locating and retrieving an AED, but as soon as an AED has been
+  brought to the patient’s side, it should be attached to the patient."
+- CPR before the shock: an ILCOR 2020 systematic review "identified five RCTs" comparing a shorter
+  with a longer interval of compressions before defibrillation. "No clear benefit from additional
+  CPR before defibrillation was found."
+- Pads: "ILCOR has issued a good practice statement that recommends following the manufacturer’s
+  AED guidance and instructions for adult pad placement". "One defibrillation pad should be
+  positioned below the patient’s right clavicle, just to the right of the upper sternal border. The
+  other defibrillation pad should be centred on the patient’s left mid-axillary line, below the
+  armpit. Pad placement should avoid breast tissue if possible." Anterior-posterior only "if the
+  anterior-lateral pad position is not feasible", and then "if trained" (paraphrase; the sentence
+  reads "the rescuer can consider using the anterior-posterior pad position if trained", hyphen as
+  rendered on the publisher's page).
+- Bras: the sex gap "may stem from apprehension about exposing and touching a woman’s chest and
+  fears of being accused of sexual assault." The animal study "suggested that a metal wire inside a
+  bra did not adversely impact the defibrillation attempt nor cause any injury to the patient or
+  rescuer"; the manikin studies found female manikins "were less likely to be exposed or disrobed"
+  and time to defibrillation was longer with them; "No studies addressing ROSC, survival or
+  favourable neurologic outcome were identified." "there is little evidence addressing whether the
+  bra needs to be unfastened or cut-off, and no evidence that an underwire in a bra causes harm."
+  "If this can be quickly accomplished without unfastening or cutting the bra then, it is
+  acceptable to leave the bra in place. However, if the bra interferes with correctly locating the
+  defibrillation pads, then the bra should be displaced to facilitate correct defibrillation pad
+  application." "CPR training should incorporate pad placement in people wearing bras."
+- **A difference worth teaching:** where the bra is in the way, the ERC says "displaced" and RCUK
+  (below) says "removed". Both put bare skin and correct position first.
+
+### RCUK 2025 Adult BLS (S11), re-read today, direct
+
+https://www.resus.org.uk/professional-library/2025-resuscitation-guidelines/adult-basic-life-support-guidelines
+(HTTP 200, curl and an HTML stripper; each string checked in the stripped text) [V]:
+- "Use an AED as soon as it is available." "Open the AED case (if present). Some AEDs automatically
+  turn on when opened. If not, identify the power button and turn it on." "Follow the audio/visual
+  prompts from the AED." "Attach the electrode pads to the person’s bare chest according to the
+  position shown on the AED (or AED pads)." "If more than one rescuer is present, continue CPR while
+  the pads are being attached." "Ensure that nobody touches the person whilst the AED is analysing
+  the heart rhythm." "If a shock is indicated, ensure that nobody is touching the person." The
+  fully/semi-automatic sentence as the ERC's. "After the shock has been delivered, immediately
+  restart chest compressions." "If no shock is indicated, immediately restart chest compressions."
+  "Continue to follow the AED instructions." "Usually, the AED will instruct the rescuer to perform
+  CPR, then, after a set time interval, the AED will instruct the rescuer to pause CPR to undertake
+  rhythm analysis."
+- Bras: "Rescuers should prioritise correct pad placement and contact with bare skin. If this can be
+  quickly achieved without removing the bra, then it is acceptable to keep the bra in place. If the
+  bra interferes with correctly locating the pad position, then the bra should be removed. Rescuers
+  should not be concerned about exposing the person's chest to apply the pads and should prioritise
+  life-saving interventions." (straight apostrophe in "person's" as printed)
+- "Anyone can use an Automated External Defibrillator (AED)." "Signage should state that AEDs can be
+  used by anyone and that no training is needed." "The ambulance service should be able to direct
+  callers to the nearest accessible AED during the 999 call." "AED cabinets should be unlocked and
+  readily accessible 24 hours a day, 7 days a week, 365 days per year." "The risk of harm to rescuers
+  from accidental shock during AED use is low." "Ambulance service dispatch systems should integrate with a
+  volunteer first-responder system to activate registered volunteer first-responders to the incident
+  and to retrieve a nearby AED." The executive summary (S13) speaks of "strengthening
+  the chain of survival"; no RCUK chain figure was read.
+
+### AHA 2025 Part 7 (S1), defibrillation sections
+
+Recommendation grades from the saved Wayback 20251026225858 extraction (tables): §7.2 rec 1, COR 1,
+C-LD, "In adult cardiac arrest, preshock and postshock pauses in chest compressions should be as
+short as possible."; rec 3, COR 2a, B-R, "In adults with cardiac arrest, it is reasonable to
+immediately resume chest compressions after shock administration rather than pause CPR to perform a
+postshock rhythm check." §9.1 rec 1, COR 2a, C-LD, pads "in an anterolateral or anteroposterior
+position" with an electrode diameter "more than 8 cm". §9.2 rec 1, COR 1, C-LD, "For adults in
+cardiac arrest, CPR is recommended until a defibrillator or AED is applied."; rec 2, COR 2a, B-R, "a
+brief period of CPR while a defibrillator is being obtained and readied for use."
+
+Supportive text, string-matched today on https://www.ahajournals.org/doi/10.1161/CIR.0000000000001369
+[V]: "Every minute of delay to first shock was associated with a 6% decreased probability of
+survival to discharge." "Defibrillation success refers to termination of VF/pVT, although this may
+not result in a perfusing rhythm." "However, when VF/pVT persists for a longer duration, the heart’s
+energy reserves may become depleted, reducing defibrillation effectiveness unless preceded by a
+period of CPR to restore these reserves before rhythm analysis." "When VF/pVT has been present for more than a few minutes,
+myocardial reserves of oxygen and other energy substrates are rapidly depleted." "If replenished by
+a period of CPR before shock, defibrillation success improves significantly." "Studies comparing short
+(approximately 30 seconds) with prolonged (up to 3 minutes) periods of CPR preceding the initial
+rhythm analysis show no difference in defibrillation outcomes". "Immediate resumption of chest
+compressions after a shock results in a shorter perishock pause and improves the overall hands-on
+time (CCF) during resuscitation. Two RCTs enrolling more than 1000 patients did not find any
+increase in survival when pausing CPR to analyze rhythm after defibrillation." "Observational
+studies showed decreased ROSC when chest compressions are not resumed immediately after shock."
+"Rotating the designated chest compressor every 2 minutes is sensible because this approach
+maintains chest compression quality and takes advantage of when CPR would ordinarily be paused for
+rhythm analysis." Pads: "the left ventricle where VF often originates"; the lateral pad "placed in
+the midaxilla and not too anteriorly" (Circulation's spelling; the capture has "mid-axilla"). Bras: "The need to apply pads or paddles directly to the
+bare chest may be a contributing factor to the observations that females experience significantly
+lower rates of public access defibrillation compared to males." "The option to adjust rather than
+remove a bra could mitigate factors such as discomfort with exposing a woman’s chest or fear of
+accusations of inappropriate touching or sexual assault." The swine abstract "reported a 100%
+first-shock success rate even when self-adhering AED pads were applied directly over the metal
+underwire of a bra" and "No adverse events such as arcing, current redirection, or burning of the
+bra or the pig’s skin were observed in the study." The ARREST sentence matches Part A's summary
+(93% within 6 minutes, 75% beyond 16), but the Circulation text has no comma after "6 minutes",
+unlike the capture; lesson 5 gives those two figures without quotation marks.
+
+### AHA 2025 Part 4 (S4), Systems of Care
+
+Supportive text string-matched today on https://www.ahajournals.org/doi/10.1161/CIR.0000000000001378
+[V]: "For 2025, we have elected to revert to a single Chain of Survival" ... "This was for simplicity
+and because the writing groups felt each link of the chain could be applied to the different forms
+of cardiac arrest, although the details of this application may vary." "The missing link from the
+2025 Chain of Survival is prevention and preparedness." (It says the link is deferred "until the
+concepts can be better defined and clarified in a dedicated scientific statement", from the capture.)
+"Public access defibrillation (PAD) programs are designed to reduce time to defibrillation by
+placing AEDs in public places and training community members in how to use them." "In the PAD Trial
+implementation of a structured emergency response system that included training of lay volunteers
+in CPR and AED use led to a doubling of OHCA survival compared with CPR training alone (30 survivors
+in 107 arrests versus 15 survivors in 128 arrests" (continues "; RR, 2.0; 95% CI, 1.07–3.77;
+P=0.03)."). "Despite widespread implementation of AEDs in public spaces, use of public access
+defibrillators by lay rescuers remains low." "There was universal improvement in rates of bystander
+CPR when a mobile technology alert was accepted by a lay rescuer but inconsistent data on the
+incidence of ROSC and survival." This replaces Part D 1.5's "snippet only" note on that point.
+Grades from the capture's tables (the published tables are images, not checked): PAD, COR 1, B-NR,
+"We recommend that public access defibrillation (PAD) programs be implemented in communities at
+high risk of OHCA."; mobile technologies, COR 2a, B-NR, "Mobile technologies to summon responders to
+nearby OHCA events is a reasonable strategy to increase timely lay rescuer CPR and AED use."
+
+### CARES 2025 (S20), re-read today with pdftotext
+
+National survival report (140,144 arrests) [V, table]: "Shockable 25824 (18.4)", survival to
+discharge "7501 (29.0)"; "Non-shockable 114303 (81.6)", "7259 (6.4)". So Part A's "about 18%"
+is 18.4%. Metrics summary (dashboard layout, labels paired with values by position): "MEDIAN EMS
+RESPONSE TIME" 7.6 "MINUTES" (the interval measured is not defined on the page); "13.9%" "OF
+PATIENTS WHO ARRESTED IN PUBLIC HAD A BYSTANDER APPLIED AED", with the footnote "Rate excludes
+events that occurred in a private setting and/or were witnessed by a 911 Responder"; "PUBLIC AED
+USE" female 11.7%, male 13.4%.
+
+### ERC lay book (S10), AED pages re-read today
+
+pdftotext of the erc.edu PDF, pp. 25 to 26 [V]: "The rescuer cannot deliver a shock in error: the
+AED will not discharge if it does not detect appropriate conditions." "Each minute of delay in
+getting to defibrillation reduces the probability of survival by 10%." It also describes an AED as a
+device "that uses an electric shock to restart a heart in cardiac arrest", which is looser than the
+guideline chapter's wording; lesson 5 does not use it. And: "Avoid placing pads directly on breast
+tissue."
+
+### American Red Cross, "AED Steps"
+
+https://www.redcross.org/take-a-class/aed/using-an-aed/aed-steps , undated, read today in full,
+direct (curl and an HTML stripper) [V]: "These AED steps should be used when caring for a
+non-breathing child aged 8 or older who weighs more than 55 pounds, or an adult." Step 3: "Remove
+all clothing covering the chest. If necessary, wipe the chest dry"; pads "on the upper right side of
+the chest" and "on the lower left side of the chest, a few inches below the left armpit". Step 4:
+"Plug the pad connector cable into the AED, if necessary". Steps 5 and 6: "Make sure no one is
+touching the person" and "Say, “CLEAR!” in a loud, commanding voice"; "Push the “shock” button to
+deliver the shock". Step 7: "After the AED delivers the shock, or if no shock is advised,
+immediately start CPR, beginning with compressions".
+
+### Not found in anything read
+
+No source read addresses medication patches, chest hair, jewellery or a wet surface under the
+person; the outline's "medication patch" scenario was replaced in lesson 5 by one about a lone
+rescuer and a distant AED, and its wet-ground scenario is answered only with the Red Cross's "wipe
+the chest dry" and the rule that nobody touches the person. No source read gives a lay description
+of what ventricular fibrillation is beyond the ERC's "coordinated heart rhythm" and the AHA's
+"where VF often originates", and none gives a reason why AEDs re-analyse on a timer; lesson 5 says
+so rather than supplying one.
