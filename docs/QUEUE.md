@@ -25,7 +25,9 @@ Rewrite these five lines each session. Nothing else goes in this block.
   Effectively 4 to 11 rendered overnight, one call each, none re-rendered. Two are worth John's ear
   and neither was re-rendered on a number: lesson 10's last minute has John low (78 Hz) in his
   closing speech at a steady level, and lesson 11 has John about 6.6% above his reference throughout.
-  The next render order is `npm run state`: Term 2 now.
+  Term 2 renders began the same night: **Focus and Deep Work is FINISHED**, all seven live; lesson 5
+  has John low in its back half at a steady level, also worth a listen. The next render order is
+  `npm run state`.
 - **Using AI Effectively is FINISHED.** T1, sixth of seven. Eleven lessons, every one
   through Stage 4 with its review applied, the voice pass done, the neutrality audit passed, both
   assessments written, and eleven fact-checked podcast scripts. Nothing on it is outstanding except
