@@ -21,11 +21,12 @@ and it never feels that way while you are writing it.
 
 Rewrite these five lines each session. Nothing else goes in this block.
 
-- **Digital Literacy is FINISHED: all thirteen episodes live** (2026-09-24). Lesson 1 returned
-  `finishReason: OTHER` twice with no audio, then rendered on its third send, unchanged, after the
-  rest of the course: transient, not the script. Renders run on John's $56 cap; the next render
-  order is `npm run state`.
-- **Using AI Effectively is published and written.** T1, sixth of seven. Eleven lessons, every one
+- **Term 1 is FINISHED: all seven courses have every episode live** (2026-09-24). Using AI
+  Effectively 4 to 11 rendered overnight, one call each, none re-rendered. Two are worth John's ear
+  and neither was re-rendered on a number: lesson 10's last minute has John low (78 Hz) in his
+  closing speech at a steady level, and lesson 11 has John about 6.6% above his reference throughout.
+  The next render order is `npm run state`: Term 2 now.
+- **Using AI Effectively is FINISHED.** T1, sixth of seven. Eleven lessons, every one
   through Stage 4 with its review applied, the voice pass done, the neutrality audit passed, both
   assessments written, and eleven fact-checked podcast scripts. Nothing on it is outstanding except
   eleven episodes, which is money and trails. Every review file is in `research/reviews/`, and the
