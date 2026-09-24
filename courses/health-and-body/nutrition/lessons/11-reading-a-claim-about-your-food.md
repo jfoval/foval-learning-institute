@@ -1,6 +1,6 @@
 ---
 title: Reading a claim about your food
-minutes: 70
+minutes: 90
 objectives:
   - >-
     Sort a claim about food with the institute's questions, asking "instead of what?" first, and
@@ -28,36 +28,39 @@ quiz:
       so Mental Fitness's comparison-group question has no arm to ask about here; the swap question
       still applies.
   - q: >-
-      A clinic on a UK high street lists one of its staff as "Nutritionist, 10 years' experience".
-      What does that title tell you about her?
+      A wellness site in the US is written by someone who signs herself "Nutritionist, certified".
+      What can you check, on this lesson's reading?
     options:
-      - That she's trained, as the clinic couldn't use the title without a recognised degree
-      - That she's on the HCPC register, since that's the regulator for food and nutrition titles
-      - That she's a dietitian in all but name, as the two titles cover the same regulated work
-      - Nothing the law guarantees, since in the UK anyone may call themselves a nutritionist
+      - That the title guarantees a graduate degree, since the 2024 rule covers every nutritionist
+      - Her HCPC registration, since that register covers nutrition titles in the US as well
+      - Nothing further, as US titles are federal and "certified" confirms a national standard
+      - Whether she holds the RD or RDN credential, and what your state's licensing board says
     answer: 3
     explain: >-
-      In the UK "dietitian" is protected by law and "nutritionist" isn't; the British Dietetic
-      Association says it "can be used by anyone regardless of training and/or qualification". She
-      may well be trained, and the BDA's advice is to check the HCPC register or the voluntary
-      register for nutritionists. But the title alone guarantees no degree, puts nobody on the HCPC
-      register, and doesn't make its holder a dietitian.
+      In the US the national credentials are "registered dietitian" and "registered dietitian
+      nutritionist", from the Commission on Dietetic Registration, which says "all registered
+      dietitians are nutritionists but not all nutritionists are registered dietitians". Whether
+      "nutritionist" is regulated depends on the state, so her state's licensing board is the other
+      check. The 2024 graduate-degree rule is for the registration examination, not for anyone
+      calling herself a nutritionist; the HCPC is the UK's regulator; and nothing in "certified"
+      says who certified her.
   - q: >-
       Your uncle has lost a noticeable amount of weight over three months without trying. He's
       pleased, and puts it down to a new breakfast cereal. What does this lesson's reading of the
       NHS suggest?
     options:
       - Keep an eye on it for a few more months, since weight can drift and usually settles again
-      - See a GP, since losing weight without changing diet or exercise can be a sign of illness
+      - See a GP, since losing a noticeable amount without trying can be a sign of illness
       - Look up the cereal's evidence first, as the project would trace the claim to its source
       - Nothing yet, since a cereal can plausibly cut intake and so the loss is probably from that
     answer: 1
     explain: >-
-      The NHS describes unintentional weight loss as losing weight "without changing your diet or
-      exercise routine" and says it "can be a sign of stress or a serious illness. See a GP just in
-      case." Tracing the cereal claim is fine later, but it isn't the first step here. Waiting
-      months, or explaining the loss by the cereal, both guess at something only an examination can
-      settle.
+      The NHS says "It's important to get it checked if you're losing weight without trying," and
+      that unintentional weight loss "can be a sign of stress or a serious illness. See a GP just in
+      case." A new cereal is too small a change to explain a noticeable loss with no effort, and
+      only an examination can settle it. Tracing the cereal claim is fine later, but it isn't the
+      first step. Waiting months, or putting the loss down to the cereal, both guess at what a GP
+      can check.
   - q: >-
       A healthy adult who isn't pregnant drinks two energy drinks a day, each labelled 160 mg of
       caffeine, and one 200 ml cup of filter coffee. Using EFSA's topic page, what can you say?
@@ -78,9 +81,9 @@ quiz:
       survey of 30,000 adults asked once about both." What does a single survey like that leave
       open?
     options:
-      - Nothing important, since 30,000 people is large enough to rule out chance as a reason
+      - Little, since 30,000 people is enough to make chance an unlikely reason for the link
       - Whether the drink comes first, as both were measured once and at the same point in time
-      - Whether the drinks are ultra-processed, since only a NOVA group decides what it could mean
+      - Whether the drinks are ultra-processed, which a NOVA group would help it to decide
       - Only the size of the effect, since a survey can name causes but not say how large they are
     answer: 1
     explain: >-
@@ -90,33 +93,36 @@ quiz:
       the role of chance but not of direction; a NOVA group is a classification, not a test of
       cause; and a single survey can't name causes at all.
   - q: >-
-      A reader finishes the course and writes: "Half of it was 'contested'. So nobody knows
-      anything about food, and I'll eat what I like." Which reply fits the lesson?
+      A reader finds that a swap she'd actually make, fish in place of red meat twice a week,
+      rests on contested evidence. On this lesson's reading, what does a decision to change rest
+      on?
     options:
-      - He's right, since contested means the experts can't agree on any of the underlying facts
-      - He's wrong, since the mainstream view is settled and only a few dissenters contest it
-      - He's partly right, but only about sugar and salt, where the evidence is weakest overall
-      - He's wrong, since most disputes sit on agreed ground, like salt raising blood pressure
+      - The evidence alone, since contested still means more likely true than false on balance
+      - Nothing yet, as a contested finding can't bear any decision at all until it's settled
+      - Whichever guide is newest, since the latest edition has already weighed the dispute
+      - A premise of hers about uncertain benefit, written down with what would show it wrong
     answer: 3
     explain: >-
-      The course found that in almost every dispute the sides agree on more than the argument
-      suggests: sodium and blood pressure, saturated fat and LDL, the harm of industrial trans fat.
-      What's contested is usually narrower, a low end, a swap, or how to act on uncertain
-      evidence. So "nobody knows anything" is wrong, and so is the opposite claim that the dissent
-      is a fringe; lessons 6 and 7 gave serious people on both sides. Salt is not the weakest case:
-      its blood pressure effect is one of the best shown.
+      A contested finding can't settle the choice by itself, so the lesson says the decision rests
+      on a premise you write down, as lesson 8 did for each meat body, with a sign that would show
+      it was the wrong call. "Contested" doesn't mean "more likely true": it means serious people
+      read the evidence differently. Nor does it mean nothing can be decided, which is the "nobody
+      knows anything" error; people decide under uncertainty all the time, and saying what the
+      decision rests on is the point. A newer guide is worth reading, but it made its own value
+      choices, and they needn't be hers.
 ---
 
 Eight glasses of water a day, and tea and coffee don't count. You have probably heard it, and you may
 have lived by it. In 2002 H. Valtin, in [a review for a physiology
 journal](https://doi.org/10.1152/ajpregu.00365.2002), went looking for the
-evidence behind the advice to "drink at least eight 8-oz glasses of water a day", searching the
-databases and the older literature and consulting "several nutritionists who specialize in the
-field of thirst and drinking fluids". He reported: "No scientific studies were found in support of
-8 x 8."[1] That's what a claim about food usually turns out to be. Not a hoax: a sentence that
-travelled a long way from wherever it started, with nothing behind it when somebody finally looked.
-This last lesson gives you the whole method for checking one, runs it on two claims, says what the
-course cannot do for you and who can, and ends with a decision that's yours.
+evidence behind the advice to "drink at least eight 8-oz glasses of water a day". He searched the
+databases, took what he calls a cursory look at older literature, and consulted "several
+nutritionists who specialize in the field of thirst and drinking fluids". He reported: "No
+scientific studies were found in support of 8 x 8."[1] That's one thing a claim about food can turn
+out to be. Not a hoax: a sentence that travelled a long way from wherever it started, with nothing
+behind it when somebody finally looked. Others turn out to have a great deal behind them, and the
+method is how you tell which. You'll run it on that sentence first, then on caffeine and a
+headline, and finish with a decision only you can make.
 
 :::callout Before you change anything
 This course is education, not advice about your own diet. If you're pregnant or trying to be, have diabetes or kidney disease, take a medicine such as warfarin, or are deciding what a child should eat, talk to a doctor or a registered dietitian first. If food, eating or your weight has started to feel out of your control, tell a doctor, or call Beat on 0808 801 0677 in the UK or ANAD's peer-support helpline on 1-888-375-7767 in the US.
@@ -125,17 +131,17 @@ This course is education, not advice about your own diet. If you're pregnant or 
 ## The method, with this course's question in front
 
 The institute's sort was introduced in **Digital Literacy** lesson 8 and sharpened in **Using AI
-Effectively** lesson 11, and you've used it at the end of every course since. Three bins.
+Effectively** lesson 11, and you've used it at the end of most courses since. Three bins.
 Measurable: some result could count against the claim. Unmeasurable as stated: nothing in it could
 come out the other way. False: it was checked and did not hold.
 
-Each course then added a question for measurable claims. Here are all six, each with the place it
-did its work in this course.
+Each course since has added one question for measurable claims. Here they are, with the place each
+one bit in this course.
 
 | Course | Its question | Where it bit here |
 |---|---|---|
 | **Memory** | Who was in the sample? | The weight-maintenance registry enrols only people who kept weight off (lesson 4) |
-| **Focus and Deep Work** | Which instrument? | A food questionnaire's calories matched the body's at 0.21 (lesson 2) |
+| **Focus and Deep Work** | Which instrument? | Questionnaire calories correlated with the body's at only 0.21 (lesson 2) |
 | **Note-Taking** | Where was it measured? | Hall's ultra-processed diet trial ran on a hospital ward, not in a kitchen (lesson 8) |
 | **Sleep** | How much, or when? | Liu's trial held calories equal and changed only the eating window (lesson 4) |
 | **Mental Fitness** | What did the comparison group get? | Look AHEAD's comparison group lost weight too (lesson 4) |
@@ -143,28 +149,29 @@ did its work in this course.
 
 Each example is sourced, with its read level, in the lesson named.[16]
 
-Mental Fitness put its question last, as the final thing to ask of a measurable claim. This course
-puts "instead of what?" first, before the sort, and the reason is lesson 1's: you can't change one
+Mental Fitness put its question last, as the final thing to ask of a measurable claim. Focus and
+Deep Work asked its instrument question before the sort. This course puts "instead of what?" first
+too, and the reason is lesson 1's: you can't change one
 thing. "Cut saturated fat" was never one claim. With polyunsaturated fat in its place it was one
 finding, with refined starch in its place another. Until you know what came in, you do not know
 which claim you're sorting. That ordering is this course's way of joining its question to the
 sort.[16] It often splits one sentence into several, each with its own verdict. And the answer is
 often "not stated", which is itself a finding.
 
-Then, for a measurable claim about a known swap, the grade that lessons 6 to 8 used, the
+Then comes the grade lessons 6 to 8 used, for a measurable claim about a known swap: the
 institute's three kinds of claim. **Established**: settled across the experts who work on it, as
 industrial trans fat's harm is. **Contested**: an empirical question serious people argue over, as
 the low end of sodium is. **A value question**: one evidence can inform and not decide, as the meat
-panels showed. Many real claims are two of these at once. "Measurable" only means somebody could
+dispute showed, where a value question sat on top of an empirical one. Many real claims are two of these at once. "Measurable" only means somebody could
 check. The grade is where you find out whether anybody has.
 
 :::checkpoint A friend says: "Swap butter for corn oil and you'll live longer." Instead of what, which bin, and what grade would lesson 6 give it?
 
-The swap is stated, which is unusual: corn oil, lesson 6's linoleic acid, a polyunsaturated fat, in place of butter's saturated fat. One swap, so it is sortable.
+This one comes back from lesson 6 on purpose, to be run with the question in front. The swap is stated, which is unusual: corn oil, rich in lesson 6's linoleic acid, a polyunsaturated fat, in place of butter's saturated fat. One swap, so it is sortable.
 
-Measurable, and it has been measured. Minnesota fed people corn oil in place of animal fats and found no mortality benefit, though most stayed on the diet for months, not years. Cochrane found little or no effect on death from any cause, and Steen possible reductions only in people at high risk. So "live longer" is contested.
+Measurable, and it has been measured, but check the evidence is about this swap. Minnesota fed people corn oil in place of animal fats and found no mortality benefit, though most stayed on the diet for months, not years. Ramsden's pooled linoleic acid trials put death from any cause at 1.07 (0.90 to 1.27), crossing 1. Steen found possibly important reductions in deaths for people at high risk when polyunsaturated fat was the replacement, and little or no benefit at low risk. Cochrane's "little or no effect" on deaths is about cutting saturated fat with mixed replacements, so it answers a different claim. On the swap-specific evidence, "live longer" is contested, on this course's reading.[16]
 
-A narrower sentence grades differently: the same swap lowers LDL cholesterol, which lesson 6 graded established. One sentence, two claims, two grades.
+Lesson 6's exercise graded the narrower sentence: the same swap lowers LDL cholesterol, which lesson 6 graded established. One sentence, two claims, two grades.
 :::
 
 ## Eight glasses, run through the method
@@ -175,15 +182,16 @@ count."
 **Instead of what?** Two swaps hide in it: water in place of other drinks, and water on top of
 whatever you already get, food included, since the claim never mentions food. Two claims already.
 
-**Sort.** Measurable: you could look at what healthy people drink and whether those drinking less
-run short. Valtin's review is that look, and this course read its abstract in full.[1] On the first
+**Sort.** Measurable, and here's what would settle it: look at what healthy people drink and
+whether those drinking less run short. Valtin's review is that look, and this course read its abstract in full.[1] On the first
 half: no study supported it, and "surveys of food and fluid intake on thousands of adults of both
 genders, analyses of which have been published in peer-reviewed journals, strongly suggest that such
 large amounts are not needed because the surveyed persons were presumably healthy and certainly not
 overtly ill."
 
 He fences the finding himself: "It is to be emphasized that the conclusion is limited to healthy
-adults in a temperate climate leading a largely sedentary existence". And the other way, "large
+adults in a temperate climate leading a largely sedentary existence, precisely the population and
+conditions that the "at least" in 8 x 8 refers to". And the other way, "large
 intakes of fluid, equal to and greater than 8 x 8, are advisable for the treatment or prevention of
 some diseases and certainly are called for under special circumstances, such as vigorous work and
 exercise, especially in hot climates."[1]
@@ -211,16 +219,23 @@ litres for women and 2.5 for men in 2010; this course read only the press releas
 so it can't say what those figures count.[3] And the newest US guidelines, as of September 2026,
 give no volume at all: "Choose water (still or sparkling) and unsweetened beverages."[4]
 
-**The verdict, half by half.** "At least eight glasses" is measurable and unsupported: the review
-this course read found nothing behind it, and the surveys it cites point the other way, for healthy,
-mostly sedentary adults in a mild climate. It is not shown false for everyone, and Valtin says why:
-"it is difficult or impossible to prove a negative".[1] Heat, hard work and some illnesses change the
-answer. "Tea and coffee don't count" was checked and didn't hold in the studies he cites, which makes
-it the one false claim in this lesson, on the strength of an abstract.
+**The verdict, half by half**, in this course's reading.[16] "At least eight glasses" is
+measurable and unsupported: the review this course read found nothing behind it, and the surveys
+it cites point the other way, for healthy, mostly sedentary adults in a mild climate. It is not
+shown false for everyone, the difference lesson 10 drew between "no" and "can't tell", and Valtin
+says why: "it is difficult or impossible to prove a negative".[1] Heat, hard work and some illnesses
+change the answer. If a doctor has given you a fluid amount, more or less than usual, that number
+is about you, and this section isn't.
+
+"Tea and coffee don't count" goes against both sources: the studies Valtin cites found caffeinated
+drinks "may indeed be counted", and the Academies' figure counts every beverage. That is the nearest
+thing to a false claim in this lesson, on the strength of an abstract and a summary chapter.
 
 One caution the other way. The Academies set no upper limit for water, "as healthy persons can adapt
 to higher intakes from foods and beverages".[2] No limit is not a statement that any amount is safe,
-and this course read nothing on drinking too much, so it says nothing about it.
+and this course read nothing on drinking too much, so it says nothing about it. The same goes for
+"detox" diets and drinks, the other claim people ask about most: this course read no source on
+them, so it says nothing about them either way.
 
 ## Caffeine: one number, three framings
 
@@ -232,7 +247,9 @@ opinion; this course read the page, not the opinion.
 "Intakes up to 400mg per day (about 5.7mg/kg bw per day) consumed throughout the day do not raise
 safety concerns for healthy adults in the general population, except pregnant women." The "mg/kg bw"
 is milligrams per kilogram of body weight. The page puts a 200 ml cup of filter coffee at 90 mg, so
-400 mg is about four and a half cups (this course's arithmetic).[5] The US Food and Drug
+400 mg is about four and a half cups (this course's arithmetic).[5] The page gives a single-dose
+figure too: "Single doses of caffeine up to 200mg … from all sources do not raise safety concerns
+for the general healthy adult population". That is about one sitting, not the day.[5] The US Food and Drug
 Administration also cites 400 mg, and adds the caution that travels less: "However, there is wide
 variation in both how sensitive people are to the effects of caffeine and how fast they eliminate it
 from the body."[6]
@@ -251,14 +268,14 @@ The NHS frames 200 mg as a ceiling with a risk above it, ACOG as a level below w
 apparent, EFSA as a level without safety concerns. None says harm begins at 200. ACOG adds: "A final
 conclusion cannot be made at this time as to whether there is a correlation between high caffeine
 intake and miscarriage."[8] Its evidence is from 2010, and this course didn't read the newer studies
-that have argued for a lower figure. So the honest grade for 200 mg in pregnancy is a number three bodies use, not a
-settled line.
+that have argued for a lower figure. So, on the lesson's grades, "three bodies use 200 mg" is
+established and "harm begins above 200 mg" is contested: one number, two claims.
 
 :::checkpoint A friend who is pregnant reads that "400 mg of caffeine a day is safe" and plans her coffee around it. What's wrong, and where does the lesson send her?
 
-Ask "for whom?" first. EFSA's own sentence excludes her, "except pregnant women", and its pregnancy figure is 200. She read a true sentence about a different group.
+Ask Memory's question first, who the finding is about. EFSA's own sentence excludes her, "except pregnant women", and its pregnancy figure is 200. She read a true sentence about a different group.
 
-And pregnancy is on the callout's list. The FDA does not print a pregnancy number at all; it recommends that anyone "pregnant, trying to become pregnant, or breastfeeding" talk to their health care provider about caffeine.[6] The NHS page's amounts, 100 mg in a cup of instant coffee and 75 in a cup of tea, are useful to take to that conversation.[7]
+And pregnancy is on the callout's list. The FDA's page prints no pregnancy number; it recommends that anyone "pregnant, trying to become pregnant, or breastfeeding" talk to their health care provider about caffeine.[6] The NHS page's amounts, 100 mg in a cup of instant coffee and 75 in a cup of tea, are useful to take to that conversation.[7]
 :::
 
 ## A headline, with every question at once
@@ -274,7 +291,7 @@ the *BMJ*, which lesson 8 read for its
 heart findings; this course read the abstract.[9] It reports "higher risks of prevalent anxiety
 outcomes (odds ratio 1.48, 1.37 to 1.59; low)", among the findings its authors class as "convincing
 evidence (class I)". An odds ratio compares the odds of an outcome in two groups; 1 means no
-difference.
+difference. The 1.37 to 1.59 is its 95 percent confidence interval, and "low" is the GRADE rating.
 
 :::predict Run the first step before reading on. Instead of what?
 
@@ -295,60 +312,76 @@ doesn't say how people's food was recorded.[9] Lesson 2's self-report problem an
 specialists, who agreed on NOVA groups at a kappa of about a third, are this course's cautions, not
 findings about this review.
 
-**When?** The abstract calls some outcomes "incident" and others "prevalent". In this course's gloss,
+**Which came first?** This is not one of the six. It is **Sleep** lesson 3's direction problem, and
+it bites here. The abstract calls some outcomes "incident" and others "prevalent". In this course's gloss,
 incident means new cases arising while people were followed, and prevalent means cases people
-already had when studied. A prevalent finding cannot say which came first, the direction problem
-**Sleep** lesson 3 taught: anxiety might change what people eat as readily as the reverse. The
-abstract doesn't discuss direction; that reading is the course's.
+already had when studied. A prevalent finding can't say which came first: anxiety might change what
+people eat as readily as the reverse. The abstract doesn't discuss direction; that reading is the
+course's.
 
-**How big?** An odds ratio, and the review gives only relative measures, so there is no absolute
-figure of the kind **Logic and Argument** lesson 9 taught you to want.
+**How big?** Logic and Argument's question, not one of the six. An odds ratio, and the abstract
+gives only relative measures, so there is no absolute figure of the kind **Logic and Argument**
+lesson 9 taught you to want.
 
-**The grade.** The same finding is "convincing" on the authors' scheme and "low" on GRADE, which
-rates how far the design could mislead you. Across the whole review, only four of the 45 analyses reached
-moderate on GRADE; the other 41 were low or very low.[9] Lesson 8 showed
-how a consistent observational association can pass the first test and start low on the second.
+**Where, and against what?** Two of the six barely bite. Note-Taking's setting question has no
+single answer for a review pooling so many studies, and the abstract doesn't say where they ran.
+Mental Fitness's comparison-group question has nothing to grip: these are observational studies, so
+nobody was assigned to a comparison group. The people with lower exposure are just people who ate
+less of it, and who they were is the "instead of what?" you've already asked.
 
-**The advice.** "Time to clear out the cupboards" is the welded second half. The authors conclude
+**The grade.** You've met this pair in lesson 8: "convincing" on the authors' scheme, "low" on
+GRADE. Across the whole review only four of the 45 analyses reached moderate on GRADE; the other 41
+were low or very low.[9]
+
+**The advice.** "Time to clear out the cupboards" is the welded second half, the advice joined to
+the finding by "time to", in Note-Taking's word. The authors conclude
 that their findings "provide a rationale to develop and evaluate the effectiveness of using
 population based and public health measures to target and reduce dietary exposure to ultra-processed
 foods for improved human health", and "support for urgent mechanistic research".[9] So they do want
-exposure reduced, through public measures that are tested first, and they ask for the causes to be
-studied. That's a different thing from telling one household to act on this finding.
+exposure reduced, through public measures whose effectiveness is evaluated, and they ask for the
+causes to be studied. That's a different thing from telling one household to act on this finding.
+
+Others do go further. Monteiro, arguing the "yes" side of the debate lesson 8 quoted, holds
+that "existing evidence is sufficient to recommend the avoidance of ultra-processed foods to
+optimize health".[18] And the 2025–2030 US guidelines tell readers to "Avoid highly processed
+packaged, prepared, ready-to-eat, or other foods that are salty or sweet".[4] Both rest that advice
+on more than this one finding, and neither tells you what goes in the cupboard instead.
 
 :::checkpoint Put it together in three sentences: what the headline's first half can honestly say, how it grades, and what its second half is missing.
 
 Something like this. Across pooled observational studies, people with higher ultra-processed food intake were more likely to have anxiety when studied, an odds ratio of about 1.5, with no absolute figure and no way to tell which came first.
 
-As an association it is consistent, "convincing" on the authors' scheme and "low" on GRADE; as a cause it's contested, which is lesson 8's dispute over the category.
+As an association it is "convincing" on the authors' scheme and "low" on GRADE; as a cause it's contested, as lesson 8's disputes over the category and over confounding showed.
 
-The advice has no swap in it, and the authors ask for public measures to be tested and causes studied, not for readers to act on one finding.
+The advice has no swap in it, and the authors ask for public measures to be evaluated and causes studied, not for readers to act on this one finding; those who do advise households to cut back, as lesson 8 showed, rest on more than it.
+
+And what would settle the first half: a cohort that measured diet before anyone had anxiety and counted only new cases, with the comparison diet stated. For cause, a trial, which lesson 1 showed is hard to run on a whole diet for years; Hall's two weeks on a ward is the nearest the course met.
 :::
 
 Nothing in that headline is false, and the review is serious. Every problem sits in the distance
 between the review's sentences and the headline's.
 
-## What this course cannot tell you
+## What no study here can tell you
 
-The question most people bring to a course like this is short. What should I eat?
+Lesson 4's Ornish dieters averaged 3.3 kg lost, and one standard deviation either side ran from a
+4.0 kg gain to a 10.6 kg loss. Which of them would you be? This course can't say, and here's
+why, in three findings it has shown you.
 
-**This course can't tell you**, for three reasons it has shown you rather than asserted.
-
-The evidence is about groups. Lesson 4's diet trials found averages a kilogram or two apart, while
-people inside one diet spread over many kilograms. No average says where you would fall.
+The evidence is about groups. Lesson 4's diets had averages about a kilogram apart, 1.2 kg at
+most, while people inside one diet spread over many kilograms. No average says where you would
+fall.
 
 The swap that matters is yours. Every finding here was about a particular replacement in particular
 people: polyunsaturated oil for animal fat, a potassium salt substitute for table salt, low-fat advice
 against a usual diet. What you would actually eat instead depends on your kitchen, budget and week,
 and no study tested that.
 
-And much of the rest is value. Lesson 8's two meat panels gave opposite advice from overlapping
-evidence because each needed a premise about what matters, and the data couldn't supply it. When the
-evidence is low certainty and the effect small, whether to change is partly about what you care
-about.
+And much of the rest is value. Lesson 8's two meat bodies read overlapping evidence differently and
+also needed different premises about what matters, and the premises did work the data couldn't.
+When the evidence is low certainty and the effect small, whether to change is partly about what you
+care about.
 
-The refusal runs both ways: the course will not tell you the way you eat is fine, and it won't tell you
-it is wrong.
+So the course won't bless the way you eat, and it won't condemn it.
 
 ## Who can, and what their titles mean
 
@@ -375,8 +408,10 @@ depends on your state. This course saw that only in a search result and read no 
 check with your state's licensing board. Outside the UK and the US it read nothing on titles.
 
 So, in this course's summary, two checks: the HCPC register in the UK; the RD or RDN credential and
-the state licence in the US. Neither title guarantees good advice. The protected one does guarantee
-training, a code of conduct and a regulator you can complain to.[16] And for anything on the
+the state licence in the US. Neither title guarantees good advice. The protected UK title does
+guarantee training, a code of conduct and a regulator you can complain to; the US credential
+guarantees the training and the commission's standards, and whether there is also a state regulator
+depends on the state.[16] And for anything on the
 callout's list, a doctor is the other person to ask, often first.
 
 ## When it stops being a self-help question
@@ -387,18 +422,19 @@ official pages this course read.
 **Losing weight without trying.** [The
 NHS](https://www.nhs.uk/conditions/unintentional-weight-loss/): "Unintentional weight loss is when you lose weight
 without changing your diet or exercise routine. It can be a sign of stress or a serious illness. See
-a GP just in case."[14] Here weight loss is itself the warning.
+a GP just in case." And: "It's important to get it checked if you're losing weight without
+trying."[14] Here weight loss is itself the warning.
 
 **A medicine that meets food.** The NHS on
 [warfarin](https://www.nhs.uk/medicines/warfarin/): "Foods high in vitamin K, such as broccoli,
 spinach and other green leafy vegetables, can affect how warfarin works. You can still eat these
 foods, but talk to your warfarin clinic for advice." And: "Talk to your doctor before making any big
 changes to your diet when taking warfarin."[15] So "eat more leafy greens", ordinary advice for most
-people, is a change to talk over first for someone on warfarin. The claim didn't change; the reader
-did.
+people, is a change to talk over first for someone on warfarin, though the claim is the same.
 
 **Pregnancy.** Beyond caffeine, the NHS says "Get help from 111 if you're pregnant and" you "feel
-unwell after having food or drink that should be avoided in pregnancy", and it is reassuring about the
+unwell after having food or drink that should be avoided in pregnancy". (NHS 111 is the UK's
+non-emergency medical line; elsewhere, your midwife, obstetrician or doctor.) It is reassuring about the
 ordinary slip: "If you've already had a small amount of food or drink that should be avoided during
 pregnancy, it's unlikely to affect your baby if you did not get ill."[7]
 
@@ -407,11 +443,12 @@ teens because of the levels of sugar and caffeine, according to the American Aca
 Pediatrics."[6] Beyond that this course read no guidance on children's diets, which is why the
 callout sends those decisions to a doctor or dietitian.
 
-**Diabetes and kidney disease.** This course found no official page telling people with either to
-see a dietitian, and says so. What it did read points the same way: the American Diabetes
-Association on reducing glucose-lowering medicines "to prevent hypoglycemia" on a very low
-carbohydrate plan (lesson 9), the kidney guideline against high protein (lesson 5), and the caution
-on potassium salt substitutes (lesson 7).
+**Diabetes and kidney disease.** For diabetes, the American Diabetes Association says that on a very
+low carbohydrate plan "consultation with a knowledgeable practitioner at the onset is necessary to
+prevent dehydration and reduce insulin and hypoglycemic medications to prevent hypoglycemia"
+(lesson 9).[17] For kidney disease, the kidney guideline advises against high protein (lesson 5),
+and potassium salt substitutes carry a caution (lesson 7). This course found no official page on
+seeing a dietitian for either, and says so.
 
 **Food, eating or weight that feels out of control.** The NHS: "An eating disorder is a mental
 health condition where you use the control of food to cope with feelings and other situations."
@@ -419,8 +456,11 @@ Among its signs are "spending a lot of time worrying about your weight and body 
 very strict habits or routines around food". Its advice: "If you think you may have an eating
 disorder, see a GP as soon as you can." And: "With treatment, most people can recover from an eating
 disorder." For someone else: "Let them know you're worried about them and encourage them to see a
-GP. You could offer to go along with them."[13] The helplines are in the callout; ANAD's is peer
-support, not treatment.
+GP. You could offer to go along with them."[13] The helplines are in the callout. Beat's number
+there is its England line, and [its helplines
+page](https://www.beateatingdisorders.org.uk/get-information-and-support/get-help-for-myself/support-now/)
+lists the numbers for Scotland, Wales and Northern Ireland.[19] ANAD's is peer support, not
+treatment.
 
 One point belongs to this course's own method. Reading claims closely can turn into checking every
 label and every meal. If rules about food have started to take up more of your day than you'd like,
@@ -437,12 +477,15 @@ How does the method bear on the choice? In this course's reading:[16]
 
 - **An established finding about a swap you would actually make** can carry a change, weighed against
   what it costs you.
-- **A contested finding** can't settle it, so the decision rests on a premise of yours, like the one lesson 8 reconstructed for the panel that
-  said "continue": a very small, uncertain benefit doesn't justify asking
-  people to give up what they value. Or its opposite. Write the premise down.
+- **A contested finding** can't settle it, so the decision rests on a premise of yours. Lesson 8
+  reconstructed one for each meat body: for NutriRECS, a very small, uncertain benefit doesn't
+  justify asking people to give up what they value; for WCRF, when a food is a cause of serious
+  disease and no safe level has been shown, eat little or none of it, because small risks add up
+  across many people. Write yours down.
 - **A value question** is yours; evidence only informs it.
-- **A swap that's "not stated"** means the claim cannot yet bear a change, and keeping what you do is
-  a reasonable answer.
+- **A swap that's "not stated"** means the claim can't bear a change by itself. That does not show
+  your present way of eating is fine either, so the decision rests on what else you found (the
+  guides the project asks you to read) or on a premise you write down.
 
 A worked case. Sam, invented for this lesson, has made himself drink eight large glasses of water a
 day for years, not counting his three mugs of tea. He's healthy, works at a desk, lives somewhere
@@ -450,7 +493,7 @@ mild, and finds the water a chore. The section above has already sorted his clai
 
 :::predict Which of the three decisions does that sort support for Sam, and what should he write down as the sign it was the wrong call?
 
-Stopping acting on the claim is well supported: it is the rule Valtin found nothing behind, and his tea counts. Keeping a water habit deliberately is also fine, and costs nothing if he likes it. The sort can't choose between those two; that is his call.
+Stopping acting on the claim is well supported: it is the rule Valtin found nothing behind, and his tea counts. Keeping a water habit deliberately is also fine if he'd rather, though he has told us it is a chore, which is a cost. The sort can't choose between those two; that is his call.
 
 The sign it was wrong comes from Valtin's own fence: a hot summer, hard physical work, long exercise, or an illness his doctor says calls for more fluid. Writing that down is what makes it a decision rather than a shrug.
 :::
@@ -470,7 +513,7 @@ agreed ground. Salt raises blood pressure; the fight is over the low end. Satura
 the fight is over hard outcomes at ordinary intakes. Contested usually means narrower than the
 headline, not blank.
 
-**"Measurable means it's been measured."** The water rule was measurable for decades, and when
+**"Measurable means it's been measured."** The water rule was measurable all along, and when
 somebody looked, no study supported it. That is why the grade is a separate step.
 
 **"The course should have told me what to eat."** It would have had to know your swaps, your health,
@@ -481,27 +524,27 @@ eleven lessons teaching you to catch.
 
 :::exercise The project's first step
 
-Take 10 minutes over this. It's step 1 of the course project, *One claim you acted on*, done while the method is fresh.
+Take 20 minutes over this. It's step 1 of the course project, *One claim you acted on*, done while the method is fresh.
 
-1. Choose one claim about food that you have acted on, or were recently tempted to. Not one about a medicine, a supplement for a diagnosed condition, or a child's food: those go to the callout. Copy it in the words you met it, with where and roughly when.
+1. Choose one claim about food that you have acted on, or were recently tempted to. Not one about a medicine, a supplement for a diagnosed condition, or a child's food: those go to the callout. If the claims that come to mind are all about eating less or about weight, and the last paragraph of "When it stops being a self-help question" sounded familiar, take that to the callout instead; the project will wait. Copy the claim in the words you met it, with where and roughly when.
 2. If "so", "which means" or "that's why" welds it, split it, and mark which half is a finding and which is advice.
-3. Ask "instead of what?" twice: what the claim says replaces the food, and what you actually ate, or would eat, instead. Write "not stated" wherever the claim is silent.
-4. Put the finding in one of the three bins, and list which of the six questions you can't answer yet. That list is where the project's tracing starts.
+3. Ask "instead of what?" twice: what the claim says replaces the food (the project's step 4 asks again of the study itself, once you've traced it), and what you actually ate, or would eat, instead. Write "not stated" wherever the claim is silent.
+4. Put the finding in one of the three bins. If it's measurable, pencil in the grade you expect (established, contested or a value question), since the project's step 3 is where tracing tests that guess, and add one line on what would settle it: what design, in whom, comparing what with what. Then list which of the six questions you can't answer yet. That list is where the project's tracing starts.
 
 Stop there. The rest goes better in sittings over a week or two.
 :::
 
 :::checkpoint Check your first step
 
-A good one has the claim word for word, hedges kept ("may", "linked to"); a split where it was welded; two answers to "instead of what?", with "not stated" used rather than guessed; a bin; and a short list of open questions.
+A good one has the claim word for word, hedges kept ("may", "linked to"); a split where it was welded; two answers to "instead of what?", with "not stated" used rather than guessed; a bin; a pencilled grade, marked as a guess, with a line on what would settle it; and a short list of open questions.
 
 Two common slips: tidying the claim on the way in, so "linked to" becomes "causes" before you have read anything; and sorting the advice as if it were the finding, when advice usually carries a value step.
 :::
 
 ## Connections
 
-**Back.** This lesson used all ten before it: lesson 1's swap and designs, lesson 2's instrument,
-lessons 3 and 4's energy, diets and spread, lesson 5's Adequate Intake, which the water figures
+**Back.** This lesson drew on most of the ten before it: lesson 1's swap and designs, lesson 2's
+instrument, lesson 4's diets and spread, lesson 5's Adequate Intake, which the water figures
 turned on, lessons 6 to 8's grades and value premise, lesson 9's guides, which the project asks you
 to read, and lesson 10's difference between "no" and "can't tell".
 
@@ -537,7 +580,7 @@ will want the comparison and swap questions again.
    2010 opinion on water was not read.
 4. US Departments of Health and Human Services and of Agriculture, *Dietary Guidelines for
    Americans, 2025–2030*, January 2026, [PDF](https://cdn.realfood.gov/DGA.pdf). **Read: the whole
-   document.** The hydration line is dated September 2026.
+   document.** The hydration line is from the January 2026 edition, current as of September 2026.
 5. European Food Safety Authority, [caffeine topic
    page](https://www.efsa.europa.eu/en/topics/topic/caffeine), summarising the 2015 opinion (*EFSA
    Journal* 13(5), 4102). **Read: the topic page only; the opinion was not read.** The four and a
@@ -576,3 +619,11 @@ will want the comparison and swap questions again.
     before the sort; the table's examples, each sourced with its read level in lessons 1, 2, 4 and
     8; the verdicts on the corn oil, water and headline examples; the summary of what the two titles
     guarantee; the mapping of grades onto the project's decisions; and Sam, who is invented.
+17. A. B. Evert and colleagues, "Nutrition Therapy for Adults With Diabetes or Prediabetes: A
+    Consensus Report", *Diabetes Care* 42(5), 2019, pp. 731 to 754, doi 10.2337/dci19-0014. **Read:
+    the full-text sections on eating patterns, macronutrients and carbohydrate.**
+18. C. A. Monteiro and A. Astrup, "Does the concept of "ultra-processed foods" help inform dietary
+    guidelines, beyond conventional classification systems? YES", *American Journal of Clinical
+    Nutrition* 116(6), 2022, doi 10.1093/ajcn/nqac122. **Read: the abstract.**
+19. Beat, "[Helplines](https://www.beateatingdisorders.org.uk/get-information-and-support/get-help-for-myself/support-now/)".
+    **Read: the page**, checked 24 September 2026. Hours change, so this lesson doesn't print them.
