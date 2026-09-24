@@ -47,7 +47,7 @@ quiz:
       - This design shows sleep has no effect on memory, since the interval includes zero
       - This design shows a small but reliable benefit of about a tenth of a standard deviation
       - This design hasn't detected a benefit, and can't rule out one of moderate size either
-      - This design is flawed, since every other design in a literature found a clear benefit
+      - This design is flawed, since every other design in the same literature found a benefit
     answer: 2
     explain: >-
       An interval that runs from below zero to 0.40 contains no effect and a moderate one, so it
@@ -55,20 +55,20 @@ quiz:
       it reliable ignores that zero is inside the interval; and a design isn't flawed because its
       answer differs.
   - q: >-
-      A student who stayed up all night after revising does worse on a test the next morning than a
-      classmate who slept. Which question can that comparison not answer?
+      A student who stayed up all night after revising does worse the next morning than one who
+      slept. A researcher wants to know whether the material was lost, or only hard to reach while
+      exhausted. Which change to the comparison does that?
     options:
-      - Whether the memory was lost, or was there but hard to reach for someone that tired
-      - Whether the student who slept had revised the same material for the same length of time
-      - Whether the test was given at the same hour of the morning to both of the students
-      - Whether the two students would have scored alike if both of them had slept normally
+      - Let both students sleep a normal night before either of them sits the test
+      - Test both students at exactly the same hour of the morning as each other
+      - Make sure both students revised the material for the same length of time
+      - Test both students straight after revising as well as the following day
     answer: 0
     explain: >-
-      A test straight after a sleepless night measures the memory and the state of the person
-      retrieving it at once, which is what a recovery night is there to separate. The revision time,
-      the hour of the test and the counterfactual are all things a single comparison could be
-      designed or asked about; the two causes of a low score can't be pulled apart without a design
-      change.
+      A recovery night lets the sleepless student stop being exhausted before the test, so any gap
+      that remains is about the memory. Matching the hour and the revision time are sensible, but
+      the tired student is still tired at the test; an immediate test shows what was learned, not
+      what happened to it overnight.
   - q: >-
       Someone argues that the whole sleep benefit is an artefact of testing people at different
       times of day. What in the review's own table answers that best?
@@ -82,32 +82,33 @@ quiz:
       If the clock were the whole story, designs that hold it constant should find nothing, and the
       nighttime and daytime naps found 0.54 and 0.34. The night-against-day result is what the
       argument is about, so it can't answer it; the correction leaves 0.28, still significant; and
-      the authors didn't analyse time of day at all.
+      the authors didn't analyse time of day as a variable.
   - q: >-
       Which of these sentences would this course be willing to defend?
     options:
-      - Sleep after learning roughly doubles what you remember, across nearly all kinds of study
+      - Sleep after learning helps later recall by a moderate amount, but only in night designs
       - Sleep consolidates memories through slow-wave sleep, which the evidence has now settled
       - A night without sleep after learning erases most of what you learned the day before it
       - Sleep after learning helps later recall by a moderate amount that depends on the design
     answer: 3
     explain: >-
       The pooled benefit is moderate, 0.44 or 0.28 after correction, and it varies by design, which
-      is the defensible sentence. Nothing in the review supports doubling; slow-wave sleep is the
+      is the defensible sentence. The daytime nap's 0.34 refutes "only in night designs"; slow-wave sleep is the
       authors' reading of a pattern, not a settled mechanism; and the one design that tested memory
       after recovery from a sleepless night found no significant loss.
 ---
 
-You've already met this claim twice on the Core path. **How to Learn Anything** said, in its last
-lesson, that sleep matters for learning at a smaller size than people think. **Memory** spent a whole
-course on how remembering works and didn't take up sleep at all. This lesson is where the two meet,
+You've met this claim once on the Core path, and just missed it once. **How to Learn Anything**
+said, in its last lesson, that sleep matters for learning at a smaller size than people think.
+**Memory** spent a whole course on how remembering works and didn't take up sleep at all. This lesson
+is where the two meet,
 and it is the lesson a reader arriving at a course on sleep is most likely to be waiting for.
 
-It is built on one paper, a 2021 meta-analysis in *Psychological Bulletin*, and it asks two
+It's built on one paper, a 2021 meta-analysis in *Psychological Bulletin*, and it asks two
 questions of it. How big is the benefit of sleeping after you learn something? And why does the
 answer change so much depending on how the study was run?
 
-The second question is the interesting one. It is also a question about design, which makes it a
+The second question is the interesting one. It's also a question about design, which makes it a
 direct descendant of lesson 1's question about instruments: what a number means depends on the
 machinery that produced it.
 
@@ -126,7 +127,8 @@ reported in 177 articles published between 1967 and 2019."
 authors' accepted manuscript, which is free on PsyArXiv, and read it in part: the abstract, the
 definitions of the study designs, the results on design and on selective reporting, the discussion
 of how large the effect is and what the design pattern means, and the design rows of two tables. It
-did not read the long review of theories in the first half of the paper or the other sixteen
+read the opening definition and two paragraphs of the Introduction on materials and designs, but not
+the long review of theories that fills most of the first half of the paper, or the other fourteen
 variables the authors tested. And the manuscript carries the publisher's own warning that it "is not
 the copy of record and may not exactly replicate the final, authoritative version of the article".
 Every figure below comes from that manuscript.
@@ -141,7 +143,7 @@ measured in standard deviations. So 0.44 says the people who slept after learnin
 average, a little under half a standard deviation ahead of the people who stayed awake.
 
 That is still abstract, so here's one way to feel it. If scores in both groups are spread in the
-familiar bell shape, a difference of 0.44 standard deviations puts the average sleeper ahead of
+bell shape statisticians call the normal curve, a difference of 0.44 standard deviations puts the average sleeper ahead of
 about 67 percent of the people who stayed awake. **That conversion is this course's arithmetic on
 the normal curve, not a sentence from the paper**, and it depends on the bell-shape assumption.
 
@@ -149,7 +151,7 @@ the normal curve, not a sentence from the paper**, and it depends on the bell-sh
 
 About the same as both, on the authors' own comparison. They set their figure beside "the testing effect (g = 0.50, 95% CI [0.42, 0.58], p < .001, k = 159; Rowland, 2014), the retrieval-induced forgetting effect (g = 0.35, 95% CI [0.32, 0.38], p < .010, k = 512; Murayama et al., 2014)".
 
-The testing effect is what How to Learn Anything calls retrieval practice. And the retrieval-induced forgetting figure is the same 0.35, with the same interval, that Memory lesson 3 printed from the same paper. This course hasn't read the testing-effect review they cite, and names it only as their citation.
+The testing effect is what How to Learn Anything calls retrieval practice. And the retrieval-induced forgetting figure is the same 0.35, with the same interval, that Memory lesson 3 printed from the same paper (the sample counts differ, 512 here against 472 there, and this course hasn't checked why). This course hasn't read the testing-effect review they cite, and names it only as their citation.
 :::
 
 So the sleep benefit sits among the effects you've already been taught to take seriously. That is the
@@ -166,22 +168,24 @@ dropped: "the overall sleep benefit estimate was in fact only about half as larg
 statistically significant in the main data set, g = 0.28".
 
 Two things to notice about that sentence. First, 0.28 against 0.44 is a little under two thirds, not
-half, so the authors' own phrase rounds generously in the direction that makes their correction look
-larger. Second, and more important, their summary is balanced in both directions: "although the
+half, so the authors' own phrase, if anything, understates what survives their correction. Second,
+the corrected figure is uncertain in its own right, with an interval from 0.07 to 0.48, and a second
+check they ran put the corrected figure nearer 0.41. Their summary is balanced in both directions: "although the
 overall effect of sleep on episodic memory may have been overestimated in the present meta-analysis
 due to publication bias or other forms of selective reporting, we did not find strong evidence for
 selective reporting that would compromise the validity of our results."
 
-So the honest range is 0.28 to 0.44, and on this course's normal-curve conversion that is the average
-sleeper ahead of somewhere between about 61 and 67 percent of the wake group. Either end is a real
+And they add: "Importantly, a reliable sleep benefit persists even if potential selective reporting is
+accounted for." So this course's summary, and it's the course's, is that the benefit sits somewhere
+around 0.28 to 0.44, which on the normal-curve conversion puts the average sleeper ahead of about 61
+to 67 percent of the wake group. Either end is a real
 benefit. Neither end is the thing a headline wants.
 
 ## Seven ways to compare sleep with waking
 
-You cannot randomly assign people to sleep or not sleep for years. You can for a night, or an
+You can't randomly assign people to sleep or not sleep for years. You can for a night, or an
 afternoon, and researchers have done it in several quite different ways. The paper sorts the
-literature into seven designs. Four of them do the work in this lesson, plus a fifth that is a
-variation on one of them.
+literature into seven designs, and five of them matter here.
 
 Here are the definitions, in the paper's words, because everything that follows depends on exactly
 what each group did.
@@ -201,8 +205,9 @@ what each group did.
 - **Total sleep deprivation without recovery night.** The same, except that "memory testing for
   sleep and wake conditions takes place directly after sleep deprivation".
 
-The other two designs deprive people of one stage of sleep rather than all of it, and this course
-doesn't need them.
+The other two designs deprive people of one stage of sleep rather than all of it, slow-wave sleep
+(the deep stage, which the paper abbreviates SWS) or REM sleep. They come back in a moment, because
+they're the authors' best evidence for their own reading.
 
 :::predict Look at the first definition again, and only the first. Write down one thing, other than sleep, that is different between its two groups.
 
@@ -215,8 +220,9 @@ That is a genuine problem, and the rest of this lesson is what the literature do
 
 ## What the table says
 
-Here are the results for those five designs. Each row gives the pooled g, the 95 percent interval
-around it, and the number of independent samples behind it.
+Here are the results for those five designs. Each row gives the authors' estimate for that design,
+adjusted for the other variables in their model, the length of the gap between learning and test among
+them, with its 95 percent interval and the number of independent samples behind it.
 
 | Design | Samples | g | 95% interval |
 |---|---|---|---|
@@ -265,13 +271,13 @@ episodic memory."[1] This analysis ran on 777 of the 823 effect sizes, from 254 
 <line x1="97.6" y1="340" x2="97.6" y2="346" stroke="var(--text-2, #4a5260)" stroke-width="1"/>
 <line x1="241.6" y1="340" x2="241.6" y2="346" stroke="var(--text-2, #4a5260)" stroke-width="1"/>
 <line x1="385.6" y1="340" x2="385.6" y2="346" stroke="var(--text-2, #4a5260)" stroke-width="1"/>
-<text x="93" y="364" font-size="15" fill="var(--text-2, #4a5260)">0</text>
-<text x="229" y="364" font-size="15" fill="var(--text-2, #4a5260)">0.5</text>
-<text x="373" y="364" font-size="15" fill="var(--text-2, #4a5260)">1.0</text>
-<text x="10" y="386" font-size="15" fill="var(--text-2, #4a5260)">Filled: the one design with two clocks</text>
+<text x="97.6" y="364" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">0</text>
+<text x="241.6" y="364" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">0.5</text>
+<text x="385.6" y="364" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">1.0</text>
+<text x="10" y="386" font-size="15" fill="var(--text-2, #4a5260)">Filled: the one of these five with two clocks</text>
 </svg>
 
-*The five designs this lesson uses, drawn from the design rows of Table 2 in Berres and Erdfelder's accepted manuscript.[1] The filled circle marks the only design whose two groups learn and are tested at different times of day. The bottom row, in the second colour, is the only interval that crosses zero.*
+*The five designs this lesson uses, drawn from the design rows of Table 2 in Berres and Erdfelder's accepted manuscript.[1] The filled circle marks the only design of these five whose two groups learn and are tested at different times of day. The bottom row, in the second colour, is the only interval that crosses zero.*
 
 ## The clock, and what the naps do to it
 
@@ -283,8 +289,8 @@ find nothing. So which of these designs keep both groups on the same clock?
 Read the nap definition again. The sleep group naps and the wake group "stay awake throughout this
 time". Both groups learn at the same hour and are tested at the same hour; the only difference is
 what they did in between. **That reading of the definitions is this course's own**, but it is a close
-one, and it holds for the daytime nap, the nighttime nap and both deprivation designs. Of the five,
-only the natural design puts its two groups on different clocks.
+one, and it holds for the daytime nap, the nighttime nap and both deprivation designs. Of the five
+here, only the natural design puts its two groups on different clocks.
 
 :::predict You've got the table above. Before reading on, say what it does to the argument that the sleep benefit is just time of day.
 
@@ -293,34 +299,38 @@ It does not survive as a full explanation. The daytime nap keeps both groups on 
 What the clock could still explain is part of the gap between the natural design's 0.54 and the daytime nap's 0.34. It can't explain the daytime nap's benefit, because there is no clock difference there to do the explaining.
 :::
 
-Notice what just happened, because it is the most useful habit in this lesson. The confound was real
+Notice what just happened, because it's the most useful habit in this lesson. The confound was real
 and the objection was a good one. But a literature that runs several designs contains its own
 checks, and you didn't have to take anybody's word for the answer. You read it off the rows.
-
-That is worth more than the 0.44, because it is the thing you can do with the next literature too.
 
 ### The gap that is left, and two ways to read it
 
 So there is a gap between the night-against-day design and the daytime nap: 0.54 against 0.34. What
 causes it?
 
-The authors read it through slow-wave sleep, which the paper abbreviates SWS. In their discussion: "nighttime naps, natural sleep and wakefulness, and REM sleep deprivation
-constantly showed the largest sleep benefits compared to other sleep study designs. This pattern fits
-well to the assumption that SWS is important for the sleep benefit." They're careful to add that "it
-might not be SWS duration per se".
+The authors read it through slow-wave sleep. In their discussion: "nighttime naps, natural sleep and
+wakefulness, and REM sleep deprivation constantly showed the largest sleep benefits compared to other
+sleep study designs. This pattern fits well to the assumption that SWS is important for the sleep
+benefit. However, it might not be SWS duration per se, but rather specific SWS characteristics such
+as sleep spindles that matter most".
 
-The time-of-day reading is the other one. The night-against-day design is the only one with two
-clocks and it is at the top of the table, so some of its lead could be the clock.
+Their best evidence is the two designs this lesson set aside. Taking away REM sleep, which leaves
+slow-wave sleep in place, still left a benefit of 0.43 over 10 samples. Taking away slow-wave sleep
+left 0.31 over 9. The one that kept slow-wave sleep did better, though the two intervals overlap a
+good deal (0.28 to 0.58, and 0.02 to 0.59), so this leans rather than settles. And the nighttime
+nap's 0.54 fits them too: it has one clock and still matches the natural design, though on ten
+samples with a very wide interval.
 
-Both readings fit the table. The nighttime nap's 0.54 leans a little towards the authors, since it
-has one clock and still matches the natural design, but it rests on ten samples and its interval is
-very wide, so it cannot carry much. **This course can't choose between the two, and says so.** The
-time-of-day reading is the course's own; the slow-wave reading is the authors'.
+They also know the strongest objection to their own reading. Their meta-analysis found that how much
+slow-wave sleep people got didn't predict the size of the benefit, and they cite as "in line with"
+that a 2021 study by Cordi and Rasch, the one How to Learn Anything lesson 8 reported. That's why
+they point at features of slow-wave sleep, such as spindles, rather than its amount.
 
-How to Learn Anything lesson 8 reported something relevant from outside this paper: a 2021 study by
-Cordi and Rasch that found no within-person link between how much slow-wave sleep people got and how
-much they retained. That is that course's source and not this one's, but if you took it, you've
-already met a reason to hold the slow-wave reading loosely too.
+The time-of-day reading is the other one, and it's this course's. The night-against-day design is the
+only one of these five with two clocks and it sits at the top of the table, so some of its lead could
+be the clock. **It's a possibility with no direct evidence behind it**, because the paper didn't
+analyse time of day as a variable, while the authors' reading has the stage-deprivation rows. This
+course can't settle the gap, and if it had to lean, it would lean their way.
 
 ## The design that found nothing, and what nothing means
 
@@ -338,8 +348,8 @@ That reading of why the two designs differ is this course's, from the definition
 :::
 
 And once the recovery night is in, the benefit drops to 0.14 and stops being significant. The
-tempting sentence is "so an all-nighter does not cost you anything you learned". Lesson 3 should make
-you suspicious of it.
+tempting sentence is "so an all-nighter does not cost you anything you learned". Note-Taking lesson 5
+should make you suspicious of it.
 
 Look at the interval: -0.13 to 0.42. That range contains no effect at all. It also contains 0.42,
 which is nearly the overall figure for the whole literature. Twenty-three samples weren't enough to
@@ -347,21 +357,29 @@ tell those apart. **This is a failure to find, not a finding of nothing**, and i
 distinction Note-Taking lesson 5 drew for the two meta-analyses whose intervals crossed zero.
 
 So the fair reading of the pair is narrower than either headline. Staying up all night after
-learning costs you something at the next morning's test, about 0.30 on seventeen samples, and some
-of that is probably the tiredness rather than the memory. Once you've slept again, the studies so far
+learning costs you something at the next morning's test, about 0.30 on seventeen samples, and this
+course's reading is that some of that may be the tiredness rather than the memory; the two rows'
+intervals overlap too much to show it. Once you've slept again, the studies so far
 can't tell whether anything was lost. Neither of those is a reason to try it.
 
 ## What the authors conclude, and whose conclusion it is
 
-The paper ends strongly: "our meta-analysis provides convincing evidence that sleep compared to
-wakefulness following learning improves both storage in and retrieval from episodic memory
-significantly."
+The paper's conclusion is confident: "In sum, although further research is needed, our meta-analysis
+provides convincing evidence that sleep compared to wakefulness following learning improves both
+storage in and retrieval from episodic memory significantly."
+
+What they mean by storage and retrieval, from the same paragraph: "sleep benefits storage in memory
+due to memory consolidation and, in addition, retrieval from memory by reducing interference." In
+other words, sleep may both strengthen what was learned and protect it from being crowded out by
+whatever you'd otherwise have done while awake. That isn't the storage-and-retrieval-strength
+distinction How to Learn Anything lesson 1 taught, which is about how well something is learned
+against how easy it is to recall right now. And about this part the same paragraph is more careful:
+it calls it "encouraging initial support".
 
 Two parts of that sentence carry different weight. That sleep after learning helps later recall is
 what the 271 samples show, across designs, at a moderate size, and surviving the authors' own bias
 correction. That it does so by improving both storage and retrieval is **the authors' theoretical
-account**, which the first half of the paper argues and this course didn't read. Report it as
-theirs.
+account**, argued in the half of the paper this course didn't read. Report it as theirs.
 
 And the sentence they give the design result is one worth keeping whole: "To conclude, our findings
 urge caution in generalizing results across different sleep study designs."
@@ -380,26 +398,26 @@ effect, and it is not a reason to change your study method. It is a reason not t
 before an exam for another pass through your notes, which is the one practical sentence this lesson
 thinks the evidence supports, and it is a judgement rather than a finding.
 
-Everything here is about laboratory memory for lists, pairs, pictures and passages, tested hours or a
-day or two later. **None of it is about exam results, skills, or anything measured over months.**
+Everything here is about laboratory memory for lists, pairs, pictures and passages, tested in most
+studies about half a day later and never more than a month later. **None of it is about exam results, skills, or anything measured over months.**
 
 ## Four things people get wrong
 
 **"Sleep consolidates memory, and that is settled."** The benefit is well supported across nearly a
 century of studies. How it works is argued. The authors propose storage and retrieval both, and
-slow-wave sleep as important; How to Learn Anything reported a study finding no within-person link
-with slow-wave sleep. Settled is the wrong word for the mechanism.
+features of slow-wave sleep as important, while reporting that the amount of it didn't predict the
+benefit in their own data. Settled is the wrong word for the mechanism.
 
 **"An all-nighter wipes out what you learned."** Tested straight after, the sleepless group does
-worse, and some of that is tiredness. Tested after recovery sleep, the design found no significant
+worse, and on this course's reading some of that may be tiredness. Tested after recovery sleep, the design found no significant
 difference, on too few samples to say there is none.
 
 **"A nap is as good as a night."** The nighttime nap matched the night-against-day design, on ten
 samples with a very wide interval. The daytime nap came in lower, at 0.34. Neither comparison is a
 nap against a full night directly.
 
-**"A g of 0.44 is too small to matter."** It is about the size of the testing effect, which is the
-single most recommended study technique in How to Learn Anything. Small and unimportant aren't the
+**"A g of 0.44 is too small to matter."** It's about the size of the testing effect, one of the two
+techniques How to Learn Anything rated highest. Small and unimportant aren't the
 same word.
 
 ## Practice
@@ -442,8 +460,7 @@ headline version that your sentence doesn't license.
 
 **Back.** Lesson 1 said every number carries the limits of its instrument. This lesson says the same
 about designs, and the time-of-day problem is lesson 4's clock question turning up inside a memory
-study. Lesson 3's publication bias is corrected for here in the open, and its warning about reading
-an interval that crosses zero is what the recovery-night row needs. **Note-Taking** lesson 5 taught
+study. Lesson 3's publication bias is corrected for here in the open. **Note-Taking** lesson 5 taught
 Hedges' g and interval charts; **Memory** lesson 3 printed the same retrieval-induced forgetting
 figure this paper uses as a yardstick.
 
@@ -455,11 +472,11 @@ lesson goes with it: before you ask how big an effect is, ask what was compared 
 - **[The sleep benefit in episodic memory](https://osf.io/r2an6)**, Berres and Erdfelder's accepted
   manuscript, free on PsyArXiv. **This course read it in part**: the abstract, the design definitions
   and results, the selective-reporting results, and the discussion of size and design. The design
-  results are two pages, and reading them with this lesson's table beside you takes twenty minutes.
+  results are one paragraph of the Results and one of the Discussion.
   The version of record is in *Psychological Bulletin* at
   [doi:10.1037/bul0000350](https://doi.org/10.1037/bul0000350).
-- **How to Learn Anything lesson 8** and **Memory lesson 3**, for the two effects this paper uses as
-  its comparison and for the study on slow-wave sleep.
+- **How to Learn Anything lesson 3** (the testing effect) and **Memory lesson 3** (retrieval-induced
+  forgetting) for the two yardsticks, and **How to Learn Anything lesson 8** for the slow-wave study.
 
 ## Sources
 
@@ -467,9 +484,10 @@ lesson goes with it: before you ask how big an effect is, ask what was compared 
    and a meta-analysis", *Psychological Bulletin* 147(12), 2021, pp. 1309 to 1353,
    doi:10.1037/bul0000350. **Read in part, from the authors' accepted manuscript on PsyArXiv
    ([osf.io/r2an6](https://osf.io/r2an6))**, which carries the publisher's notice that it may not
-   exactly match the version of record. Read: the abstract, the design definitions, the results on
-   design and selective reporting, the discussion of size and design, the conclusion, and the design
-   rows of Tables 1 and 2. Supports: every figure and quotation in this lesson. The testing-effect
+   exactly match the version of record. Read: the abstract, the opening definition and the
+   Introduction's paragraphs on materials and designs, the design definitions, the results on design
+   and selective reporting, the discussion of size, of design and of sleep parameters, the
+   conclusion, and the design and retention-interval rows of Tables 1 and 2. Supports: every figure and quotation in this lesson. The testing-effect
    and retrieval-induced forgetting figures are the authors' citations of Rowland (2014) and
    Murayama and colleagues (2014); this course read neither for this lesson, though Memory lesson 3
    read the second.
@@ -478,5 +496,8 @@ lesson goes with it: before you ask how big an effect is, ask what was compared 
    the nap and deprivation definitions as keeping both groups on the same clock is this course's.
    The reading of the recovery night as separating the memory from the tiredness of the person
    retrieving it is this course's. The observation that 0.28 is nearer two thirds of 0.44 than half
-   is this course's arithmetic. The practical sentence about the night before an exam is a
+   is this course's arithmetic, and "somewhere around 0.28 to 0.44" is this course's summary. The
+   plain-language gloss of storage and retrieval is this course's. The time-of-day reading of the
+   gap between designs, and the judgement that it has less behind it than the authors' reading, are
+   this course's. The practical sentence about the night before an exam is a
    judgement, and the body calls it one.

@@ -379,8 +379,11 @@ the definitions of the seven sleep study designs in the Method, the Results para
 study design and on selective reporting, the Discussion paragraphs on the overall size and on study
 design, the Limitations paragraph on unpublished data, the Conclusion, and the sleep-study-design
 rows of Tables 1 and 2.** Not read: the integrative review of theories that makes up most of the
-paper's first half, the other sixteen moderators beyond the four the abstract names, and the
-supplement. The manuscript carries the publisher's notice that it "is not the copy of record and may
+paper's first half, the other fourteen of the paper's 18 moderators beyond the four the abstract
+names, and the supplement. *(Corrected 2026-09-23 at lesson 5's review: this said sixteen; the paper
+"considers 18 potential moderator variables". The read level above also omitted the Introduction
+passages quoted below, the Discussion paragraph on sleep parameters, and Table 1's
+retention-interval row, all of which were read.)* The manuscript carries the publisher's notice that it "is not the copy of record and may
 not exactly replicate the final, authoritative version of the article", which a lesson quoting it
 should repeat once.
 
@@ -470,7 +473,12 @@ The design analysis ran on 777 effect sizes from 254 samples, not the full 823 a
 **The authors' own reading of the design pattern**, from the Discussion: "nighttime naps, natural
 sleep and wakefulness, and REM sleep deprivation constantly showed the largest sleep benefits
 compared to other sleep study designs. This pattern fits well to the assumption that SWS is
-important for the sleep benefit." They add that "it might not be SWS duration per se" and close:
+important for the sleep benefit. However, it might not be SWS duration per se, but rather specific
+SWS characteristics such as sleep spindles that matter most (Cordi et al., 2021a)." *(Previously
+trimmed at "per se", which turned a refinement into a retreat; restored at lesson 5's review.)* The
+Results put the same pattern this way: "Although the result pattern varied across analyses, we
+constantly found descriptively larger sleep benefits in designs that did not impose constraints on
+SWS, such as nighttime naps, natural sleep and wakefulness, and REM sleep deprivation." They close:
 "In any case, researchers should avoid unsubstantiated generalization of findings across various
 sleep study designs."
 
@@ -489,14 +497,39 @@ smaller, for example the testing effect (g = 0.50, 95% CI [0.42, 0.58], p < .001
 Murayama et al., 2014)". Rowland and Murayama are named here as the authors' citations; this course
 has not read either.
 
-**The conclusion, verbatim:** "our meta-analysis provides convincing evidence that sleep compared to
+**The authors' own answer to the obvious objection, from the Discussion:** "we observed no
+significant effects on the sleep benefit whatsoever, neither for TST, nor for SWS, nor for REM sleep
+duration. As such, our results for SWS are in line with a recent study showing no statistically
+significant relationship between sleep benefits and the amount of SWS (Cordi & Rasch, 2021b)." That
+is the study How to Learn Anything lesson 8 cites. A lesson must not present it as outside evidence
+against the authors, because they cite it themselves.
+
+**The two stage-deprivation rows of Table 2**, which carry the authors' reading: SWS deprivation, k
+32, m 9, g .31, 95% CI [.02, .59]; REM sleep deprivation, k 34, m 10, g .43, [.28, .58]. Both are
+defined against "an equally long retention interval filled with daytime wakefulness", though the
+SWS definition also says the wake group "stay awake during this time"; this course does not rely on
+either design's clock. **Every g in Table 2 is, in the table's note, a marginal average effect "after
+adjusting for variation in the full set" of moderators**, retention interval among them.
+
+**Table 1's retention-interval row:** median 12 hours, range 0.67 to 720 hours.
+
+**More of the selective-reporting passage:** the corrected estimate is "g = 0.28, SE = 0.10, 95% CI
+[0.07, 0.48], t(103.71) = 2.69, p = .008"; the second method (3PSM) gave "a median for corrected
+overall effect size estimate of β = 0.41 (range: 0.05 – 0.79)" across 20 subsets; and "Importantly,
+a reliable sleep benefit persists even if potential selective reporting is accounted for."
+
+**The conclusion, verbatim:** "In sum, although further research is needed, our meta-analysis provides
+convincing evidence that sleep compared to
 wakefulness following learning improves both storage in and retrieval from episodic memory
-significantly."
+significantly." The same paragraph, on the mechanism: "we found encouraging initial support that sleep
+benefits storage in memory due to memory consolidation and, in addition, retrieval from memory by
+reducing interference." It is not the paper's last sentence; "Clearly, sleep not only benefits health
+and well-being in everyday life" follows.
 
 **What the reading changes for Stage 2.** The outline's lesson 5 was built on the summary's pattern:
 that the designs confounding sleep with time of day produce the biggest benefit and the design that
-removes the confound finds nothing. **The paper does not support the second half.** On the paper's own definitions, **only the natural
-design separates the groups by time of day**: its sleepers learn in the evening and are tested in the
+removes the confound finds nothing. **The paper does not support the second half.** On the paper's own definitions, **of the five designs
+that do not deprive a single stage, only the natural design separates the groups by time of day**: its sleepers learn in the evening and are tested in the
 morning, its wakers the reverse. In both nap designs the wake group "stay awake throughout this
 time", so both groups are learning and being tested over the same stretch of the clock, and the same
 holds for both deprivation designs. (That reading of the definitions is this course's, and a lesson
