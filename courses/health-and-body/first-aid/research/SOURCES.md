@@ -2427,9 +2427,11 @@ varies by state and country" line.
     with the person" [V] and the Adults with Incapacity (Scotland) Act 2000; Northern Ireland
     relies on common-law necessity (MCA (NI) 2016 not then in force).
   - SARAH 2015: "it has been criticised by prominent members of the legal profession who state that
-    it adds nothing to the protection already provided by existing common law" [V]. The sentence
-    continues (added 2026-09-24): "and that it may, in fact, erode the protection that already
-    exists. Experience with the interpretation of the Act is lacking" [V].
+    it adds nothing to the protection already provided by existing common law" [V]. The whole
+    sentence (added 2026-09-24): "it has been criticised by prominent members of the legal
+    profession who state that it adds nothing to the protection already provided by existing
+    common law and that it may, in fact, erode the protection that already exists" [V], followed by
+    "Experience with the interpretation of the Act is lacking" [V].
   - Implied consent for lay rescuers (added 2026-09-24, executive summary): "While the defence of
     implied consent may not be as clear-cut if the rescuer isn’t medically qualified, the defence of
     necessity may be available, provided the rescuer acts reasonably in the circumstances. For
@@ -3683,3 +3685,8 @@ Corrections found by lesson 2's reviewers and checked against the saved primarie
 - **St John primary survey (D11), response.** "If the casualty opens their eyes, or gives another
   gesture, they are responsive. If they do not respond to you in any way, they are unresponsive" [V],
   after asking "'Are you OK?', 'Can you open your eyes?'" [V]: the eyes open in answer to you.
+- **SCAS "999" (D17), order of questions.** After "if the patient is breathing and conscious" and
+  "your location": "This allows us to immediately start the dispatch process for the most critical
+  calls." [V] And first: "When you call 999 in a medical emergency, ask for the ambulance
+  service." [V] So SCAS asks about breathing before location; the NHS and 911.gov list location
+  first.
