@@ -183,10 +183,11 @@ course's reading of that sentence.[6] And afterwards, "many participants hoped t
 of the data", which is a more interesting result than either camp in the 2015 study would've
 predicted.
 
-A second study, from 2021, looked at the archives themselves rather than at people's reactions:
-twelve focus groups, forty-two participants, six companies' downloads.[4] **Read at abstract level
-here too.** Its flattest sentence is the useful one: "Data downloads vary in format, organization,
-comprehensiveness, and content."[4]
+A second study, from 2021, gathered people's reactions to six companies' downloads: twelve focus
+groups, forty-two participants.[4] **Read at abstract level here too.** Its finding was that "Most
+participants indicated that current offerings need improvement to be useful".[4] And its abstract
+opens, as background rather than as something the study found, with a flat sentence worth keeping:
+"Data downloads vary in format, organization, comprehensiveness, and content."[4]
 
 Four dimensions of variation, which is exactly what no single export could've told you, and which is
 why this lesson is built on published work rather than on one archive.
@@ -196,7 +197,9 @@ why this lesson is built on published work rather than on one archive.
 Everything so far says people are surprised by their exports. **Here is why**, and it is the one
 piece of mechanism this lesson has.
 
-**Most of what a service holds about you is observed rather than provided.** What you typed into a
+**Most of what a service holds about you is observed rather than provided.** That split is this
+course's way of sorting it, not a finding from the studies above,[6] and neither is the claim that
+the observed part is the larger. What you typed into a
 box is provided: you gave it deliberately and you can usually remember doing it. What you opened,
 when you opened it, from where, on what device, in what order, and how long you stayed is observed.
 Nobody typed any of that in. It accumulates as a by-product of the service working at all.
@@ -480,7 +483,8 @@ confusing, creepy, interesting or surprising, and the paper is where those annot
    the body says so. **The jurisdiction summary is a statement of the legal position as this course
    understands it and is not drawn from a legal source read for this file.** The body says so where
    the section opens, and sends the reader to their own data-protection authority before relying on
-   any of it. **And the
+   any of it. **The split between provided and observed data, and the view that the observed part is
+   usually larger, are this course's framing**, labelled where the section opens. **And the
    decision to send readers to look, in the face of a study suggesting that looking often leaves
    people calmer and changes little, is this course's judgement**, said as such in the checkpoint.
    **What this course still does not have** is any figure for how often exports are late, incomplete
