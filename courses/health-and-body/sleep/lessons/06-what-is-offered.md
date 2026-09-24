@@ -1,6 +1,6 @@
 ---
 title: What is offered to somebody sleeping badly
-minutes: 75
+minutes: 80
 objectives:
   - >-
     State what chronic insomnia disorder is, how common it is, and what the first-line treatment
@@ -23,21 +23,22 @@ quiz:
     explain: >-
       A weak grade is about certainty and about how much the choice should turn on the individual
       patient. The 2017 drug guideline says in terms that it "should not be construed as an
-      indication of ineffectiveness", and that grades don't refer to the size of an effect, so
+      indication of ineffectiveness", and that grades don't refer to the size of an effect in a
+      particular patient, so
       neither "works poorly" nor "small effect" follows, and the grade isn't a safety verdict.
   - q: >-
       A made-up guideline rates a breathing exercise "strong" and a stretching routine "conditional"
       for the same condition. A friend concludes the breathing exercise works about twice as well.
       What's wrong with that?
     options:
-      - A strength grade reflects certainty and trade-offs, not how large the effect is
+      - A strength grade reflects certainty and trade-offs, and isn't a measure of effect size
       - Nothing, since a strong grade is only given to a treatment with a large effect
       - A conditional grade means the routine was tested and shown to do nothing at all
       - The grades can't be compared, since two different panels must have issued them
     answer: 0
     explain: >-
       The drug guideline puts it directly: grade strengths "do not refer to the magnitude of
-      treatment effects". A conditional grade isn't a finding of no effect, a strong grade isn't
+      treatment effects in a particular patient". A conditional grade isn't a finding of no effect, a strong grade isn't
       reserved for big effects, and nothing in the stem says two panels were involved.
   - q: >-
       An article says "sleep experts now agree that sleep hygiene is useless". Which is closest to
@@ -51,7 +52,8 @@ quiz:
     explain: >-
       The recommendation is against sleep hygiene as a single-component therapy for chronic
       insomnia disorder, and the guideline adds that it may be part of a multicomponent treatment.
-      It doesn't say it harms anybody, one trial it reviewed found it beat a wait-list, and it
+      It doesn't say it harms anybody; one trial found a higher responder rate than a wait-list,
+      though the panel rated the evidence low and judged the benefit on its own minimal; and
       it says nothing about replacing therapy with it.
   - q: >-
       A pharmacy shelf sells melatonin for jet lag. What does the 2017 drug guideline's
@@ -69,7 +71,7 @@ quiz:
   - q: >-
       Which description of sleep restriction therapy is this course willing to give?
     options:
-      - A home method, where you pick a shorter time in bed and hold it until sleep improves
+      - A home method that anyone can follow safely from a written description
       - A dangerous method that guidelines recommend against for people with insomnia
       - A clinician-guided part of CBT-I that shortens time in bed and has cautions
       - A relaxation method that works by lowering how anxious people feel at night
@@ -85,13 +87,14 @@ quiz:
     options:
       - Taking it to a clinician, with questions about what the guidelines recommend first
       - Starting sleep restriction on their own, since it's a recommended component
-      - Stopping any sleep medicine they're on, since drug grades are all weak
+      - Asking a clinician for the strongest-graded sleep medicine, since CBT-I is slow
       - Trying sleep hygiene for a few months first, since it's cheap and harmless
     answer: 0
     explain: >-
       The lesson describes what three guidelines recommend and stops there. It doesn't support
-      running a clinical procedure unsupervised, changing a prescribed medicine, or a sequence of
-      steps the guidelines don't set out; it supports asking a clinician better questions.
+      running a clinical procedure unsupervised or a sequence of steps the guidelines don't set
+      out, and no drug in these guidelines has a strong grade to ask for. It supports asking a
+      clinician better questions.
 ---
 
 "Sleeping badly" covers a lot. A bad week before a deadline. A baby. A partner who snores. A
@@ -102,7 +105,7 @@ This lesson is about one specific thing at the far end of that range: a diagnosa
 reports what they recommend, with the grade each attaches, and it stops there.
 
 :::callout Read this before the rest
-This lesson describes treatments and gives no advice about your own sleep, your own medicine or any procedure to try. Lesson 1 listed the signs that mean a doctor rather than a course: loud snoring with pauses in breathing that somebody has seen, falling asleep at the wheel, severe sleeplessness that came on suddenly, and sleepiness that more sleep does not fix. **Nothing here supports starting, stopping or changing a prescribed medicine.**
+This lesson describes treatments and gives no advice about your own sleep, your own medicine or any procedure to try. Lesson 1 listed the signs that mean a doctor rather than a course: loud snoring with pauses in breathing that somebody has seen, falling asleep at the wheel, severe sleeplessness that came on suddenly, and sleepiness that more sleep does not fix. **Nothing here supports starting, stopping or changing any medicine, prescribed or bought over the counter.**
 :::
 
 ## What the disorder is
@@ -120,32 +123,35 @@ criteria."
 
 Notice that the definition starts with dissatisfaction. After lesson 1 you'll see why that matters:
 the thing being diagnosed is partly a report, which on this course's reading makes the person
-describing it the first instrument. A tracker that says you slept seven hours does not rule it out, and nothing in this
-lesson turns on a number from a device.
+describing it the first instrument. So a number from a device isn't what the definition turns on, and
+nothing in this lesson turns on one.
 
 ## What a guideline grade is
 
 Before the recommendations, the one idea that makes them readable.
 
-A guideline grade usually has two parts, and they answer different questions.
+A guideline grade usually has two parts, and they answer different questions. (This two-part summary
+is this course's, from what the three documents print.)[4]
 
 - **Strength of recommendation**: how confident the panel is that following it is the right call for
-  most patients. Strong, or something weaker, which one guideline here calls weak and another calls
+  most patients. Strong, or something weaker, which two guidelines here call weak and the third calls
   conditional.
-- **Quality of evidence**: how good the studies behind it are. High, moderate, low, very low.
+- **Quality of evidence**: how good the studies behind it are. High, moderate, low.
 
-The ACP prints both on every recommendation. The two sleep academy guidelines print the strength.
+The ACP prints both on every recommendation. The two sleep academy guidelines print the strength beside
+each recommendation and discuss the quality of evidence in the text under it. Both use a system called
+GRADE, short for Grading of Recommendations Assessment, Development and Evaluation.
 
-What a strong recommendation means, in the 2021 guideline's words: "A "strong" recommendation (ie,
+What the two strengths mean, in the 2021 guideline's words: "A "strong" recommendation (ie,
 "We recommend…") is one that clinicians should follow under most circumstances. A "conditional"
 recommendation is one that requires that the clinician use clinical knowledge and experience, and to
 strongly consider the patient's values and preferences to determine the best course of action."[2]
 
 :::predict Before you read on. A treatment gets a weak recommendation. Write down what you think that says about how well the treatment works.
 
-Less than you'd think, and the 2017 drug guideline says so directly. A weak recommendation, it says, "should not be construed as an indication of ineffectiveness". And: "GRADE recommendation strengths do not refer to the magnitude of treatment effects in a particular patient, but rather, to the strength of evidence in published data."[3]
+Less than you'd think, and the 2017 drug guideline says so directly. In full: "A WEAK recommendation reflects a lower degree of certainty in the outcome and appropriateness of the patient-care strategy for all patients, but should not be construed as an indication of ineffectiveness". And: "GRADE recommendation strengths do not refer to the magnitude of treatment effects in a particular patient, but rather, to the strength of evidence in published data."[3]
 
-So a weak grade is not "it does not work", and a strong one is not "it works a lot". Both are statements about certainty, and about how much the decision should turn on the individual person.
+So a weak grade is not "it doesn't work", and a strong one is not "it works a lot". Both are statements about certainty, including certainty about the outcome, and about how much the decision should turn on the individual person.
 :::
 
 That one idea stops this lesson being read as "the pills don't work", which is not what any of the
@@ -168,12 +174,17 @@ recommendations and gives every one of them the same grade.[3]
 | AASM 2021 | Sleep restriction alone | Conditional | Low, 6 studies |
 | AASM 2021 | Relaxation alone | Conditional | Low, 5 studies |
 | AASM 2021 | Not sleep hygiene alone | Conditional | Low |
-| AASM 2017 | Eight drugs for, six against, each for named symptoms | All fourteen weak | Not read here |
+| AASM 2017 | Eight drugs for, six against, each for a named type of insomnia | All fourteen weak | Not read here |
 
 CBT-I is cognitive behavioural therapy for insomnia, and the section after next says what's in it.
 The evidence column for the 2021 guideline is its own summary of each recommendation. The 2017
-guideline grades the evidence behind each drug separately, and this course didn't read those
-summaries, so it prints no quality for them.
+guideline reviews the evidence for each drug in its full text, and this course didn't read those
+reviews, so it prints no quality for them.
+
+One more thing before you read the table as a ranking. The drug guideline says what it's for:
+helping clinicians in "choosing a specific pharmacological agent for treatment of chronic insomnia in
+adults, when such treatment is indicated".[3] It doesn't rank drugs against therapy, and nor does
+this table.
 
 ### Reading the column
 
@@ -183,20 +194,22 @@ The talking therapy has a strong recommendation in both documents that grade it,
 evidence. Every medication recommendation, fifteen lines if you count the ACP's one and the drug
 guideline's fourteen, is weak. Nothing about a drug is strong.
 
-That is a fact about three documents, and it is the most useful thing in this lesson, because most
-people carry the ranking the other way round: pills are the real treatment and therapy is the soft
-option.
+That's a fact about three documents. It's worth having because the ranking many people assume runs
+the other way round, pills as the real treatment and therapy as the soft option, which is this
+course's impression rather than anything it measured.[4]
 
 :::checkpoint Before reading on. The drug guideline's fourteen weak grades sit beside the therapy guideline's strong one. Is that a finding that therapy works better than drugs?
 
 No, and the drug guideline itself tells you why not. Its abstract says: "Downgrading the quality of evidence for these treatments is predictable in GRADE, due to the funding source for most pharmacological clinical trials and the attendant risk of publication bias; the relatively small number of eligible trials for each individual agent; and the observed heterogeneity in the data."[3]
 
-In plain terms: most drug trials are paid for by the company that makes the drug, the grading system marks that down as a risk of bias, and there are not many trials of any one drug. Those are reasons the grades were always going to come out weak, and the authors said so in advance. The pattern tells you how certain three panels were. It is not a head-to-head result.
+In plain terms, the guideline points to who funds most drug trials and the risk that goes with it, that unfavourable results don't get published; to how few trials there are of any one drug; and to how much their results vary. Those are reasons the evidence behind each drug was always likely to be graded down, and the authors say so up front. The strengths also weigh, in the abstract's words, "the balance of benefits and harms, and patient values and preferences",[3] which this course didn't read for any drug.
+
+And the comparisons differ. Each drug was graded against no treatment. The CBT-I trials behind the strong grade compared it "to wait-list, minimal interventions, or placebo therapies".[2] The pattern tells you how certain three panels were. It isn't a head-to-head result.
 :::
 
-What the pattern does support is narrower and still worth having. **The panels that wrote these
-documents were more confident about recommending CBT-I first than about any drug**, and the ACP says
-so in its first recommendation: "ACP recommends that all adult patients receive cognitive behavioral
+What the pattern does support is narrower and still worth having. **The one panel that graded both,
+the ACP's, was more confident about CBT-I first than about adding a drug**, and says so in its first
+recommendation: "ACP recommends that all adult patients receive cognitive behavioral
 therapy for insomnia (CBT-I) as the initial treatment for chronic insomnia disorder. (Grade: strong
 recommendation, moderate-quality evidence)"[1]
 
@@ -213,26 +226,51 @@ over the longer term." And on what nobody knows: "Chronic insomnia disorder itse
 deleterious health effects. However, whether medications decrease the harmful health effects of
 sleep deprivation is unknown."[1]
 
-Those are a clinician's considerations. They are not a schedule for anybody reading this.
+Those are a clinician's considerations, not a schedule for anybody reading this. The drug guideline
+ends its recommendations the same way: "The ultimate judgment regarding propriety of any specific care
+must be made by the clinician in light of the individual circumstances presented by the patient,
+available diagnostic tools, accessible treatment options, and resources."[3] This course read no
+evidence on the harms of any drug, and the ACP's second recommendation names "benefits, harms, and
+costs" as part of the conversation.
 
 ## What CBT-I is
 
-It is not being told to relax. The ACP's description: "Cognitive behavioral therapy for insomnia
+It isn't being told to relax. The ACP's description: "Cognitive behavioral therapy for insomnia
 consists of a combination of treatments that include cognitive therapy around sleep, behavioral
 interventions (such as sleep restriction and stimulus control), and education (such as sleep
 hygiene). It can be performed in primary care."[1]
 
 So it is a package, and the 2021 guideline graded some of its parts on their own as well: stimulus
 control, sleep restriction and relaxation, each with a conditional recommendation on a small body of
-low-quality evidence. Its strong recommendation is for the whole package, and it adds a remark that
-matters for anybody thinking of a do-it-yourself version: "This recommendation is based primarily on
-studies in which CBT-I was delivered by a trained professional to patients with and without comorbid
-conditions."[2]
+low-quality evidence. This lesson names stimulus control without describing it. The strong
+recommendation is for the whole package, and the guideline adds a remark about who delivered it in
+the studies behind the grade: "This recommendation is based primarily on studies in which CBT-I was
+delivered by a trained professional to patients with and without comorbid conditions."[2] (Comorbid
+means other conditions alongside the insomnia.) It also found "insufficient evidence to make
+recommendations for specific delivery methods (eg, individual, group, internet, self-help, video)".[2]
+
+The same guideline is plain about what CBT-I costs a patient: "In most cases, a noticeable improvement
+in insomnia symptoms is not immediate (as is the case with pharmacological interventions), and CBT-I
+treatment typically ranges from 4–8 visits, both of which may serve as barriers to treatment
+completion." And: "patients may face barriers to accessing CBT-I, including higher out-of-pocket costs
+as compared to medications, or locating a skilled provider in their geographic region."[2]
+
+And what it offers in return, in the same summary: "Benefits of CBT-I include treatment gains that are
+potentially durable over the long term without the need for additional interventions." And: "CBT-I may
+reduce the need for pharmacologic therapy and thereby reduce patient risk of drug-related adverse
+events."[2]
+
+Its harms, in the guideline's words: "The principal harms associated with CBT-I are symptoms of
+daytime fatigue and sleepiness, mood impairment (eg, irritability), and cognitive difficulties (eg,
+attention problems) during treatment; however, these undesirable effects are primarily restricted to
+the early stages of treatment, when behavioral therapies are introduced, and improve over time,
+typically resolving by the end of treatment."[2] The panel judged that "the benefits of CBT-I strongly
+outweighed the short-term undesirable effects".
 
 ### Sleep restriction, described and not instructed
 
-One component needs a paragraph to itself, because it is the one most likely to be tried at home and
-the one with the clearest cautions.
+One component needs a paragraph to itself, because it's the one a reader could most easily mistake
+for a tip, and the one with the clearest cautions.
 
 Sleep restriction therapy deliberately shortens the time a person spends in bed, to begin with. The
 guideline describes what that costs early on: "Potential harms may occur in the early phases of
@@ -244,10 +282,10 @@ contraindicated in certain populations such as those working in high risk occupa
 machinery operators or drivers) or those predisposed to mania/hypomania poorly controlled seizure
 disorders or excessive daytime sleepiness."[2] (The missing "or" is in the original.)
 
-Put that beside lesson 2. A procedure that makes people sleepier during the day, for a while, in a
-course whose second lesson showed that people don't notice their own performance falling. **That is
-why this lesson says what sleep restriction is and gives no protocol for it**, and why the guideline
-addresses its cautions to clinicians.
+Put that beside lesson 2, where healthy adults held to fewer hours were largely unaware of their own
+decline. They weren't insomnia patients, so this is this course's reason for caution rather than a
+finding about this treatment. **It's why this lesson says what sleep restriction is and gives no
+protocol for it.**
 
 ## Sleep hygiene, precisely
 
@@ -264,11 +302,11 @@ This is the worked example, because it is easy to read that sentence as saying m
 
 Here are the ones that matter.
 
-It does not say sleep hygiene is false or harmful. It is a recommendation about what clinicians should offer as a treatment on its own.
+It doesn't say sleep hygiene is false or harmful. It is a recommendation about what clinicians should offer as a treatment on its own.
 
-It does not say it has no effect. The guideline reports a trial in which "The study demonstrated a clinically significant higher responder rate in the sleep hygiene group compared to control, although within the same study CBT-I was superior to sleep hygiene alone."[2]
+It doesn't say it has no effect. The guideline reports a trial in which "The study demonstrated a clinically significant higher responder rate in the sleep hygiene group compared to control, although within the same study CBT-I was superior to sleep hygiene alone." The next sentence matters as much: "Those who showed improvement in the sleep hygiene group also made additional behavioral changes such as standardizing their sleep schedules without being told to do so." And the panel's overall judgement was that its benefits on their own were "minimal and not more favorable compared to control conditions overall", on evidence it rated low.[2]
 
-It does not say leave it out. The remark on the recommendation: "Although sleep hygiene is not recommended as a single-component approach (ie, the only treatment) for patients with chronic insomnia disorder, sleep hygiene may be included in multicomponent interventions."[2]
+It doesn't say leave it out. The remark on the recommendation: "Although sleep hygiene is not recommended as a single-component approach (ie, the only treatment) for patients with chronic insomnia disorder, sleep hygiene may be included in multicomponent interventions."[2]
 
 And it applies to a diagnosed disorder in adults, not to a bad week.
 :::
@@ -280,22 +318,24 @@ alone." (TF is the guideline's task force.) And the cost of time: "allocation of
 hygiene alone may divert resources and delay the use of other single- or multicomponent behavioral
 interventions that are more effective."[2]
 
-Notice that the second reason is about what a clinic's time is best spent on. It is a fair reason and
-it is a different kind of reason from "it does not work". The same guideline also says "certain
-common-sense principles of sleep hygiene (eg, avoiding excessive caffeine or alcohol) may
-nevertheless be helpful in a comprehensive treatment approach".[2]
+Notice that the second reason is about what a clinic's time is best spent on, and the guideline ties
+it to the first: it calls sleep hygiene on its own a "minimally effective treatment". The same
+guideline, while saying it shouldn't be used by itself "due to the lack of evidence for its efficacy",
+adds that "certain common-sense principles of sleep hygiene (eg, avoiding excessive caffeine or
+alcohol) may nevertheless be helpful in a comprehensive treatment approach".[2]
 
-So the fair sentence is: **for somebody with diagnosed chronic insomnia, a leaflet of sleep tips
-shouldn't be the whole of what they're offered.** That is much narrower than "sleep hygiene does not
+So the guideline's position, fairly put, is that **for somebody with diagnosed chronic insomnia, a
+leaflet of sleep tips shouldn't be the whole of what they're offered.** That is much narrower than "sleep hygiene does not
 work", and further still from "don't bother".
 
 ## Melatonin, and the over-the-counter shelf
 
-Six of the drug guideline's fourteen recommendations are against something, and four of the six are
-things you can buy without a prescription in many countries: diphenhydramine, melatonin, tryptophan
-and valerian. The other two are trazodone and tiagabine.[3]
+Six of the drug guideline's fourteen recommendations are against something: diphenhydramine,
+melatonin, tryptophan, valerian, trazodone and tiagabine.[3] The first four are sold without a
+prescription in some countries, though not everywhere, which is general background and not from these
+guidelines.[4]
 
-Take melatonin, since it is the one most people have in a cupboard. The recommendation, verbatim: "We
+Take melatonin, since it's the one readers are likeliest to have met. The recommendation, verbatim: "We
 suggest that clinicians not use melatonin as a treatment for sleep onset or sleep maintenance
 insomnia (versus no treatment) in adults. (WEAK)."[3]
 
@@ -305,12 +345,12 @@ insomnia in adults, so it says nothing either way about jet lag or shift work, w
 is not about. **Versus no treatment**, which is the comparison each of the fourteen was made against.
 And it is from **2017**, so medicines approved since then are not in it.
 
-The eight drugs it suggests clinicians may use each come with a named symptom: for example
+The eight drugs it suggests clinicians may use each come with a named type of insomnia: for example
 "suvorexant as a treatment for sleep maintenance insomnia" and "zaleplon as a treatment for sleep
 onset insomnia".[3] This lesson names them because the guideline does. It does not describe any of
 them further, because deciding between them is a clinician's job with a patient in front of them.
 
-## Four things people get wrong
+## Five things people get wrong
 
 **"Sleeping pills are the real treatment."** None of the three guidelines gives any drug a strong
 recommendation, and the ACP names CBT-I as the initial treatment for all adult patients, strongly.
@@ -318,16 +358,21 @@ The drug guideline's weak grades are partly a product of how drug trials are gra
 itself, so this is not "pills don't work" either.
 
 **"Melatonin is the safe natural option."** For chronic insomnia in adults, the 2017 guideline
-suggests clinicians not use it, weakly. That is a statement about one use, not about the molecule,
-and not a safety verdict in either direction.
+suggests clinicians not use it, weakly. That's a statement about one use, not about the molecule.
+Whether it's safe is a question neither the guideline nor this course answers; what the guideline says
+is that, for this use, clinicians shouldn't reach for it.
 
 **"Good sleep hygiene is the treatment."** For the disorder, the 2021 guideline suggests it not be
 used on its own, while saying it can be part of a package and that some of it may help.
 
 **"CBT-I is just being told to relax."** Relaxation is one component among several, graded
 separately. The package is cognitive therapy, behavioural methods including sleep restriction and
-stimulus control, and education, and its strong grade is for the package delivered, mostly, by a
-trained professional.
+stimulus control, and education, and its strong grade rests mostly on studies in which a trained
+professional delivered it.
+
+**"CBT-I is quick and easy to get."** The guideline that grades it strongly says improvement usually
+isn't immediate, treatment typically runs to four to eight visits, and cost and finding a trained
+provider can stand in the way.
 
 ## Practice
 
@@ -364,8 +409,8 @@ Then check each question against this rule: **does it ask, or does it tell?** Re
 ## Connections
 
 **Back.** Lesson 1 said every sleep number carries the limits of its instrument; the diagnosis here
-starts with a person's own report. Lesson 2 showed that restricted sleepers don't notice their own
-decline, which is why sleep restriction therapy is a clinician's procedure. Lesson 3's line between
+starts with a person's own report. Lesson 2's participants were largely unaware of their own
+decline, which is one reason this course treats sleep restriction as a clinician's procedure. Lesson 3's line between
 evidence and recommendation is what a guideline grade makes explicit, in print, on every line.
 
 **Forward.** Lesson 8 asks you to decide what, if anything, to change about your own sleep. This
@@ -379,7 +424,7 @@ lesson is where that decision would stop being yours alone, and it is meant to l
   considerations box.**
 - **[The AASM behavioural guideline](https://doi.org/10.5664/jcsm.8986)**, Edinger and colleagues,
   2021, free at PubMed Central. **Read in part**: the abstract, the recommendations with their
-  remarks, and the sections on CBT-I, sleep hygiene and sleep restriction. The remarks under each
+  remarks, the evidence summaries on CBT-I and sleep hygiene, and the cautions on sleep restriction. The remarks under each
   recommendation are where the reasons live.
 - **[The AASM drug guideline](https://doi.org/10.5664/jcsm.6470)**, Sateia and colleagues, 2017,
   free at PubMed Central. **Read in part**: the abstract, which lists all fourteen recommendations,
@@ -413,5 +458,7 @@ lesson is where that decision would stop being yours alone, and it is meant to l
 4. **The course's own constructions, labelled where they appear.** The two-part explanation of a
    grade is this course's plain-language summary of what the three documents print. The count of
    medication lines in "Reading the column" is this course's count from the table. The breathing and
-   stretching guideline in quiz item 2 is invented. "Many countries" for over-the-counter sale is
-   general background, not from these sources, and the lesson draws nothing from it.
+   stretching guideline in quiz item 2 is invented. Over-the-counter sale "in some countries" is
+   general background, not from these sources. The impression that many people rank pills above
+   therapy is this course's, not a measurement. The reading of lesson 2's finding as a reason for
+   caution about sleep restriction is this course's.

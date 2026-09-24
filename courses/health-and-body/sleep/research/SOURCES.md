@@ -225,8 +225,8 @@ The systematic reviews behind it were not opened.**
 
 **Note the asymmetry in the grades**, because it is the most teachable thing here and it is invisible
 in any retelling: the talking therapy carries a **strong** recommendation on **moderate-quality**
-evidence, and the drugs carry a **weak** recommendation on **low-quality** evidence. Most readers
-have the two the other way round in their heads.
+evidence, and the drugs carry a **weak** recommendation on **low-quality** evidence. That many
+readers assume the reverse is this file's impression, not a measurement.
 
 ---
 
@@ -291,16 +291,51 @@ light, noise, temperature) that may promote or interfere with sleep." The remark
 for patients with chronic insomnia disorder, sleep hygiene may be included in multicomponent
 interventions." The evidence: "The TF made a conditional recommendation against use of sleep hygiene
 as a single-component therapy based on indirect evidence showing that sleep hygiene was less
-effective than other treatments when used alone." And, which a fair lesson must carry: "The study
-demonstrated a clinically significant higher responder rate in the sleep hygiene group compared to
-control, although within the same study CBT-I was superior to sleep hygiene alone." And the balance,
-from the discussion: "certain common-sense principles of sleep hygiene (eg, avoiding excessive
-caffeine or alcohol) may nevertheless be helpful in a comprehensive treatment approach, and
-consideration of sleep hygiene factors is a common element of CBT-I."
+effective than other treatments when used alone." And, which a fair lesson must carry
+**with the two sentences after it**: "The study demonstrated a clinically significant higher
+responder rate in the sleep hygiene group compared to control, although within the same study CBT-I
+was superior to sleep hygiene alone. Those who showed improvement in the sleep hygiene group also made
+additional behavioral changes such as standardizing their sleep schedules without being told to do
+so." Then: "The overall quality of evidence was low due to imprecision and risk of bias. The potential
+benefits of sleep hygiene as a single-component therapy were considered by the TF to be minimal and
+not more favorable compared to control conditions overall." And the balance, from the discussion,
+**whole**: "While sleep hygiene is not recommended to be used by itself, as a single-component
+therapy, due to the lack of evidence for its efficacy, certain common-sense principles of sleep
+hygiene (eg, avoiding excessive caffeine or alcohol) may nevertheless be helpful in a comprehensive
+treatment approach, and consideration of sleep hygiene factors is a common element of CBT-I."
+*(Corrected at lesson 6's review, 2026-09-23: this entry had quoted the first sentence of each
+passage without the qualifiers that follow or precede it, both cuts in sleep hygiene's favour. Defect
+9, in the research file.)*
 
-Part of the reasoning is about resources rather than efficacy, and the guideline says so: "allocation
-of resources for sleep hygiene alone may divert resources and delay the use of other single- or
-multicomponent behavioral interventions that are more effective."
+Part of the reasoning is about resources, **and the guideline ties it to efficacy rather than setting
+it beside it**: "allocation of resources for sleep hygiene alone may divert resources and delay the
+use of other single- or multicomponent behavioral interventions that are more effective." And:
+"Sleep hygiene education is considered inexpensive; however, no formal cost analyses have been
+conducted, and this minimally effective treatment may divert resources away from more effective
+ones." And: "The TF judged that any resources utilized for a treatment without sufficient evidence
+may be considered unfavorable."
+
+**What CBT-I costs the patient, verbatim, which a fair lesson must carry beside its strong grade:**
+"In most cases, a noticeable improvement in insomnia symptoms is not immediate (as is the case with
+pharmacological interventions), and CBT-I treatment typically ranges from 4–8 visits, both of which
+may serve as barriers to treatment completion." And: "Additionally, patients may face barriers to
+accessing CBT-I, including higher out-of-pocket costs as compared to medications, or locating a
+skilled provider in their geographic region." Its harms: "The principal harms associated with CBT-I
+are symptoms of daytime fatigue and sleepiness, mood impairment (eg, irritability), and cognitive
+difficulties (eg, attention problems) during treatment; however, these undesirable effects are
+primarily restricted to the early stages of treatment, when behavioral therapies are introduced, and
+improve over time, typically resolving by the end of treatment." Followed by: "Based on clinical
+experience, the TF determined that the benefits of CBT-I strongly outweighed the short-term
+undesirable effects for adults with chronic insomnia disorder."
+
+**What CBT-I's advocates would add, verbatim from the same summary:** "Benefits of CBT-I include
+treatment gains that are potentially durable over the long term without the need for additional
+interventions." And: "CBT-I may reduce the need for pharmacologic therapy and thereby reduce patient
+risk of drug-related adverse events."
+
+**Its comparator:** the 66 trials "compared CBT-I to wait-list, minimal interventions, or placebo
+therapies". **On format:** "There was insufficient evidence to make recommendations for specific
+delivery methods (eg, individual, group, internet, self-help, video) for any of the treatments."
 
 **Sleep restriction, the safety material, verbatim:** "Potential harms may occur in the early phases
 of treatment such as increased daytime sleepiness and difficulties with concentration, but these
@@ -314,8 +349,9 @@ sleep restriction and never instructs it.**
 **That sleep hygiene point is where this course earns its place**, and it must be handled carefully in
 both directions. Sleep hygiene is the entire content of almost every article a reader has met. **The
 guideline does not say those things are false.** It says the package of them, given on its own, is
-not the treatment to offer for a diagnosed disorder, on indirect evidence, partly for reasons of
-clinicians' time, while one trial found it beat a wait-list. That is a narrower claim than "sleep
+not the treatment to offer for a diagnosed disorder, on low-quality and indirect evidence, judging
+its benefit on its own "minimal", and treating clinicians' time as one more reason, while one trial
+found it beat a wait-list. That is a narrower claim than "sleep
 hygiene doesn't work" and much narrower than "do not bother".
 
 ---
@@ -762,8 +798,22 @@ The fourteen recommendations, verbatim from the abstract:
 - "We suggest that clinicians not use tryptophan as a treatment for sleep onset or sleep maintenance insomnia (versus no treatment) in adults. (WEAK)."
 - "We suggest that clinicians not use valerian as a treatment for sleep onset or sleep maintenance insomnia (versus no treatment) in adults. (WEAK)."
 
-**The last sentence changes how the grade contrast may be taught.** The authors say in advance that
-their weak grades are partly a product of how GRADE treats industry-funded trials. A lesson that sets
+Three more sentences from the same abstract: "The task force developed recommendations and assigned
+strengths based on the quality of evidence, the balance of benefits and harms, and patient values and
+preferences." "The following recommendations are intended as a guideline for clinicians in choosing
+a specific pharmacological agent for treatment of chronic insomnia in adults, when such treatment is
+indicated." And: "The ultimate judgment regarding propriety of any specific care must be made by the
+clinician in light of the individual circumstances presented by the patient, available diagnostic
+tools, accessible treatment options, and resources."
+
+**The downgrading sentence changes how the grade contrast may be taught**, and it must be read
+exactly. It says the *quality of evidence* is predictably downgraded, for three named reasons: "the
+funding source for most pharmacological clinical trials and the attendant risk of publication bias",
+few trials per drug, and heterogeneity. It does not say "industry-funded", and it is about evidence
+quality, not directly about recommendation strength, which also weighs benefits against harms and
+patient values. *(Corrected at lesson 6's review: this paragraph had said "industry-funded trials"
+and "weak grades".)* The drug guideline was also not written to be ranked against therapy: it is for
+choosing among drugs "when such treatment is indicated". A lesson that sets
 the drug guideline's fourteen weak grades beside the behavioural guideline's one strong grade must
 say this, in the drug guideline's own words, or it tilts the comparison.
 
@@ -775,7 +825,9 @@ say this, in the drug guideline's own words, or it tilts the comparison.
 **Set this beside source 5 and you have the course's cleanest single comparison.** The behavioural
 guideline issues a **strong** recommendation for cognitive behavioural therapy. The pharmacologic
 guideline, from the same body, issues **fourteen weak ones and no strong one**, including weak
-recommendations *against* four things sold over the counter. **That contrast is a fact about two
+recommendations *against* diphenhydramine, melatonin, tryptophan and valerian. *(Whether those are
+sold without prescription depends on the country, and nothing read here says; melatonin, for
+one, is prescription-only in some places.)* **That contrast is a fact about two
 documents rather than a claim about what works**, and a lesson should present it that way and let
 the reader do the arithmetic.
 
@@ -1073,7 +1125,7 @@ recovery nights. **Unsettled, and the course should say so rather than pick.**
 ## Open concerns for Stage 2
 
 - **Two read levels in this file are thin and should be raised if a later session has the budget**:
-  source 5 (the 2021 AASM behavioural guideline, publisher's summary only) and source 7 (Berres and
+  source 5 (the 2021 AASM behavioural guideline, raised to primary text on 2026-09-23) and source 7 (Berres and
   Erdfelder, raised to the accepted manuscript in part on 2026-09-23). **If a later session opens
   either, it goes in this file first and a lesson second.**
 - **The unread line must gain an exemption for Walker** on whichever lesson covers source 8, before

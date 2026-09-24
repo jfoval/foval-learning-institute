@@ -336,8 +336,9 @@ CBT-I, its conditional ones, and its sentence about sleep hygiene. SOURCES §11:
 recommendations, **every one weak**, eight for a drug and six against one.
 
 *Amended 2026-09-23, before drafting: §5 and §11 were raised to primary text the same day. §11's
-abstract says in advance that weak grades for drugs are "predictable in GRADE" because most drug
-trials are industry-funded, among other reasons. **The lesson must carry that sentence beside the
+abstract says the quality of drug evidence is predictably downgraded under GRADE, pointing to "the
+funding source for most pharmacological clinical trials and the attendant risk of publication bias"
+among other reasons. **The lesson must carry that sentence beside the
 grade pattern**, or the pattern reads as a verdict it is not. And §5's sleep-hygiene quotations now
 come from the guideline, not the publisher's announcement.*
 
@@ -364,7 +365,7 @@ guideline's own words.)
 guidelines names it, and what grade it carries. (2) Write down what you would ask a clinician, given
 what the guidelines say, without deciding anything yourself.
 
-**Sources.** §4 verbatim, §5 at publisher-summary level, §11 in part. **The safety section of
+**Sources.** §4 verbatim, §5 at the level SOURCES now records, §11 in part. **The safety section of
 `SOURCES.md` is mandatory reading for whoever drafts this lesson** and its lines go in the body,
 not in a footnote.
 

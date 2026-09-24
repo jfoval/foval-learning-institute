@@ -275,7 +275,7 @@ one measured, on whom, and how far this course got into it.
 | The [light experiment](https://doi.org/10.1113/jphysiol.2012.227892)[3] | How far one hour of bright light moves the body clock, by circadian phase | 36 participants in a laboratory | **Abstract verbatim in full, plus one sentence of the introduction. The methods and results were not read** |
 | The [consensus statement](https://doi.org/10.5665/sleep.4716)[4] | Nothing. It is a panel's recommendation about a literature | A panel of experts; this course did not read how the panel worked | Read in part: the recommendation and four statements |
 | The [mortality meta-analysis](https://doi.org/10.1093/sleep/33.5.585)[5] | All-cause mortality against self-reported sleep duration | 1,382,999 people in 27 cohort samples | Read in part, in fragments, from a proof copy |
-| The insomnia guideline[7] | Nothing. It is a college's recommendation about trials | Adults with chronic insomnia disorder | Read in part: both recommendations and two sections |
+| The insomnia guideline[7] | Nothing. It is a college's recommendation about trials | Adults with chronic insomnia disorder | Read in part: both recommendations, the opening paragraph and one box |
 | The chronotype paper[8] | A short questionnaire against the longer standard questionnaire it shortens | Participants in a validation study | Read in part: the abstract and the measure |
 | The sleep and memory meta-analysis[9] | Episodic memory after sleep against after waking | 823 effect sizes from 271 samples | **Read in part**, from the authors' accepted manuscript |
 
