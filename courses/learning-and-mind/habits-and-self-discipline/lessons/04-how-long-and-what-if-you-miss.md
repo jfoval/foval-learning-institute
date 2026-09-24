@@ -1,6 +1,7 @@
 ---
 title: How long it takes, and what happens when you miss
 minutes: 90
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/learning-and-mind/habits-and-self-discipline/04-how-long-and-what-if-you-miss.mp3
 objectives:
   - >-
     State what has been measured about how long habit formation takes, with its range, its scope,
