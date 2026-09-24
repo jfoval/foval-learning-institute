@@ -417,3 +417,20 @@ test("a Nutrition lesson without the standard safety callout fails, and with it 
   r = check(root);
   assert.ok(!r.out.includes("safety callout"), r.out);
 });
+
+test("a Strength and Fitness lesson without the standard safety callout fails, and with it passes", () => {
+  const { root, course } = fixture();
+  const moved = path.join(path.dirname(course), "strength-and-fitness");
+  fs.renameSync(course, moved);
+  const yml = path.join(moved, "course.yaml");
+  fs.writeFileSync(yml, fs.readFileSync(yml, "utf8").replace(/^id: .*$/m, "id: strength-and-fitness"));
+  fs.writeFileSync(path.join(root, "curriculum", "audio-debt.yaml"), "owed:\n  strength-and-fitness: 1\n");
+  let r = check(root);
+  assert.equal(r.status, 1, r.out);
+  assert.ok(r.out.includes("safety callout"), r.out);
+  const box = ":::callout Before you train\nThis course is education, not advice about your own body. If you have heart, kidney or metabolic disease such as diabetes, are pregnant, or have symptoms like chest discomfort, fainting or unusual breathlessness, talk to a doctor before you start or step up training. Stop and get medical help straight away for pain or pressure in the chest, neck, jaw or arms, dizziness, palpitations, or breathlessness out of all proportion to the effort, and call your local emergency number for chest pain. Cola-coloured urine, or muscle pain and swelling far worse than the session explains, needs a doctor the same day.\n:::\n\n";
+  const lesson = path.join(moved, "lessons", "01-good.md");
+  fs.writeFileSync(lesson, fs.readFileSync(lesson, "utf8").replace("A paragraph with a [link]", box + "A paragraph with a [link]"));
+  r = check(root);
+  assert.ok(!r.out.includes("safety callout"), r.out);
+});

@@ -822,6 +822,14 @@ function lintLessons() {
             fail(`${file}: the safety callout is missing or differs from the standard text. Every Nutrition lesson carries it word for word (research/OUTLINE.md decision 1); the text is in scripts/build.mjs.`);
         }
 
+        // Strength and Fitness outline decision 1: the same safety callout on every lesson, word for
+        // word, built from the warning signs in its SOURCES.md R4.1 to R4.4 and R4.20.
+        if (cdir.name === "strength-and-fitness" && path.basename(lessonsDir) === "lessons") {
+          const TRAINING_SAFETY = ":::callout Before you train\nThis course is education, not advice about your own body. If you have heart, kidney or metabolic disease such as diabetes, are pregnant, or have symptoms like chest discomfort, fainting or unusual breathlessness, talk to a doctor before you start or step up training. Stop and get medical help straight away for pain or pressure in the chest, neck, jaw or arms, dizziness, palpitations, or breathlessness out of all proportion to the effort, and call your local emergency number for chest pain. Cola-coloured urine, or muscle pain and swelling far worse than the session explains, needs a doctor the same day.\n:::";
+          if (!src.replace(/\r\n/g, "\n").includes(TRAINING_SAFETY))
+            fail(`${file}: the safety callout is missing or differs from the standard text. Every Strength and Fitness lesson carries it word for word (research/OUTLINE.md decision 1); the text is in scripts/build.mjs.`);
+        }
+
         // STYLE_GUIDE: contractions. "Their absence is the fastest way to sound like a
         // manual." Four consecutive Digital Literacy lessons were sent back by Stage 4 for
         // this and nothing else would have caught it: 1 in 4,739 body words on lesson 8,
@@ -1060,12 +1068,16 @@ lintLessons();
 //   - Mental Fitness carries the same crisis callout in every lesson, word for word, and a separate
 //     check enforces that it is identical (its outline's decision 1).
 //   - Nutrition carries the same safety callout in every lesson, word for word, enforced the same way.
+//   - Strength and Fitness carries the same safety callout in every lesson, enforced the same way.
 const REPETITION_EXEMPT = [
   "that cost is far more than the four hundred thousand pounds left in this year s capital budget",
   "this course holds the christian reading and says so on its first line",
   "if you re thinking about suicide or self harm or don t feel able to keep yourself safe",
   "if you re pregnant or trying to be have diabetes or kidney disease take a medicine such as warfarin",
   "if food eating or your weight has started to feel out of your control tell a doctor",
+  "if you have heart kidney or metabolic disease such as diabetes are pregnant or have symptoms like chest discomfort",
+  "stop and get medical help straight away for pain or pressure in the chest neck jaw or arms",
+  "cola coloured urine or muscle pain and swelling far worse than the session explains",
 ];
 
 function checkRepetition() {

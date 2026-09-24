@@ -16,10 +16,26 @@ description: >-
   household, and it is a health course, so it says throughout what it is and is not entitled to
   claim and when a question belongs with a doctor.
 outcomes:
-  - State what the major physical activity guidelines recommend and what evidence each figure rests on
-  - Explain how strength, muscle size and endurance each adapt to training, and why the adaptations differ
-  - Measure and set training effort using heart rate, perceived exertion and repetitions in reserve
-  - Write, run and progress a beginner training plan, and say what each choice in it rests on
-  - Evaluate a claim about training against the people, the duration and the outcome it was tested on
-prerequisites: []
+  - >-
+    State what the WHO, US and UK guidelines recommend, including muscle strengthening, and say which
+    kind of study supports "exercise changes the body", "active people live longer" and "becoming
+    active will make you live longer"
+  - >-
+    Set and check training effort with the talk test, a 0 to 10 scale, heart rate and repetitions in
+    reserve, and say how far a heart-rate formula can miss one person
+  - >-
+    Explain how endurance and strength each adapt to training, and what load, sets, effort and
+    frequency each do, with the people and durations the evidence comes from
+  - >-
+    Perform the squat, hinge, push, pull, lunge and carry patterns safely, and judge a technique rule
+    by what the study behind it measured
+  - >-
+    Write, run and progress a beginner plan inside current guidance, and say what each choice rests on
+  - >-
+    Tell ordinary soreness from a warning sign, and judge a warm-up, stretch or recovery method by
+    whether it changes how you feel or how you adapt
+  - >-
+    Ask of any training claim "trained whom, for how long, measured on what?", and decide what, if
+    anything, to change
+prerequisites: [logic-and-argument, mental-fitness]
 sensitive_domain: true

@@ -147,7 +147,10 @@ Rewrite these five lines each session. Nothing else goes in this block.
 - **Strength and Fitness is drafting** (T3, second of the term), started 2026-09-24 by a session
   working alongside the Nutrition one. Stage 1 is done: five parallel researchers, 53,000 words,
   every quotation script-checked against a downloaded text; most trials read at abstract level
-  because the big publishers refused scripted downloads, and the file says so at each entry. Sensitive domain (medicine): two fresh-context reviewers per
+  because the big publishers refused scripted downloads, and the file says so at each entry.
+  Stage 2 is done: nine lessons, an 18-item test and an eight-week project; the outline's eight
+  decisions include a safety callout on every lesson (now a check in `scripts/build.mjs`) and the
+  course's claim-sort question, "trained whom, for how long, measured on what?". Sensitive domain (medicine): two fresh-context reviewers per
   lesson and the neutrality audit before publish. **Boundaries with Nutrition are settled in its
   outline**: energy balance, exercise and weight (Nutrition 3) and protein (Nutrition 5) are taught
   there and pointed to here; exercise for depression is Mental Fitness 5.
