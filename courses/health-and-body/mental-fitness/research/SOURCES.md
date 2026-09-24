@@ -1,6 +1,6 @@
 # Sources: Mental Fitness
 
-<!-- unread: Sapolsky, David Burns, Greenberger, Padesky, McGonigal, McEwen, Teigen, DSM-5-TR, ICD-11, Clinical Practice Guideline for the Treatment of Depression, Pennebaker -->
+<!-- unread: Sapolsky, David Burns, Greenberger, Padesky, McGonigal (except 07), McEwen, Teigen, DSM-5-TR, ICD-11, Clinical Practice Guideline for the Treatment of Depression, Pennebaker -->
 
 *Stage 1 research, 2026-09-23. Written before any lesson is drafted. For each source: what it is good
 for, what it establishes, and exactly how much of it was read. Where a passage is in quotation marks
