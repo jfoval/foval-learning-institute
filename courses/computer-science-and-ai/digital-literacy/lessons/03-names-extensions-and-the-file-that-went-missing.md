@@ -1,6 +1,7 @@
 ---
 title: Names, extensions, and the file that went missing
 minutes: 125
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/computer-science-and-ai/digital-literacy/03-names-extensions-and-the-file-that-went-missing.mp3
 objectives:
   - Say what a file extension does and does not determine, and explain the one indirection that makes an "open with" menu necessary
   - Produce a genuinely plain text file on your own machine, and check that what you produced is plain text
