@@ -151,8 +151,8 @@ Rewrite these five lines each session. Nothing else goes in this block.
 - **Strength and Fitness is PUBLISHED**, 2026-09-24: ten lessons through Stage 4 (two
   reviewers and a fix pass each), the mandatory neutrality audit passed after eight sentence-level
   fixes (`research/reviews/course-wide.md`), and both assessments reviewed (the test had been
-  passable by choosing the careful answer; fixed). audio-debt opened at 10. **Next:** ten scripts,
-  being written now. **Open, from the audit:** no zone 2 proponent read in their own words; one
+  passable by choosing the careful answer; fixed). audio-debt opened at 10. **It is written**: ten fact-checked
+  scripts; only the ten episodes remain. **Open, from the audit:** no zone 2 proponent read in their own words; one
   sceptic only on exercise causing longer life; several replies unread (Loenneke's group, the
   HERITAGE team, a low-volume practitioner, a muscle-confusion proponent, an independent creatine
   review). "Qualified exercise professional" is undefined in everything read (lessons 1, 7, 9, 10
