@@ -623,6 +623,20 @@ well-being: a systematic review and meta-analysis", *JAMA Internal Medicine* 174
   life."
 - Verbatim: "We found no evidence that meditation programs were better than any active treatment (ie,
   drugs, exercise, and other behavioral therapies)."
+- Population and attention, verbatim from the same abstract (appendix): the objective names "diverse
+  adult clinical populations", and "We found low evidence of no effect or insufficient evidence of any
+  effect of meditation programs on positive mood, attention, substance use, eating habits, sleep, and
+  weight."
+- **The Discussion's comparison with antidepressants.** Read on 2026-09-24 from the PMC full text
+  (PMC4142584): one paragraph of the Discussion, the one containing this sentence, and nothing else of
+  the body. Verbatim: "These small effects are comparable with what would be expected from the use of
+  an antidepressant in a primary care population, without the associated toxicities." The next
+  sentence sets it beside a separate patient-level meta-analysis of antidepressants against placebo
+  (Fournier et al.). **This is the sentence Van Dam (9e) cites Goyal for.** It is an across-study
+  comparison: Goyal's effects are against active controls in meditation trials, the antidepressant
+  figures come from other trials against placebo. The abstract's own finding, "no evidence that
+  meditation programs were better than any active treatment", is not evidence that they are as good
+  as one, and a lesson that says so must label the reasoning as the course's.
 
 **9b. Galante J, Friedrich C, Dawson AF, and 8 others, "Mindfulness-based programmes for mental health
 promotion in adults in nonclinical settings: A systematic review and meta-analysis of randomised
@@ -637,14 +651,27 @@ full text, 2026-09-23). The body was not read.**
 - Verbatim: "Compared with specific active control conditions, there is no statistically significant
   evidence of MBPs' superiority. Only effects on distress remained when higher–risk trials were excluded.
   USA–based trials reported smaller effects."
-- Verbatim, conclusions: "the findings do not support generalisation of MBP effects across every
-  setting." And: "Other preventative interventions may be equally effective."
+- Verbatim, against nonspecific active controls (appendix): "Compared with nonspecific active control
+  conditions, in most but not all scenarios MBPs improved average depression (6 trials; SMD = -0.46; 95%
+  CI -0.81 to -0.10; p-value = 0.012, 95% PI -1.57 to 0.66), with no statistically significant evidence
+  for improving anxiety or distress and no reliable data on well-being."
+- Verbatim, conclusions, whole (appendix): "Compared with taking no action, MBPs of the included
+  studies promote mental health in nonclinical settings, but given the heterogeneity between studies,
+  the findings do not support generalisation of MBP effects across every setting. MBPs may have
+  specific effects on some common mental health symptoms. Other preventative interventions may be
+  equally effective." **Quote the first clause with the rest**; the earlier entry here quoted only the
+  cautions.
 
 **9c. Galante J, Friedrich C, Collaboration of Mindfulness Trials (CoMinT), Dalgleish T, Jones PB,
 White IR, "Individual participant data systematic review and meta-analysis of randomised controlled
 trials assessing adult mindfulness-based programmes for mental health promotion in non-clinical
 settings", *Nature Mental Health* 1(7), 2023, pp. 462 to 476, doi 10.1038/s44220-023-00081-5,
-PMC7615230.** **Read: the abstract's Results (Europe PMC full text, 2026-09-23).**
+PMC7615230.** **Read: the abstract (Europe PMC full text, 2026-09-23); the Results and Conclusions
+are quoted below and the whole abstract, Methods included, is in the appendix. The body was not
+read.** (Corrected 2026-09-24: this line said "the abstract's Results" while quoting the
+Conclusions too.)
+- Methods, verbatim (appendix): trials "comparing in-person, expert-defined MBPs in non-clinical
+  settings with passive control groups".
 - Verbatim: "Fifteen trials were eligible, 13 trialists shared IPD (2,371 participants representing 8
   countries, median age 34 years-old, 71% women, moderately distressed on average, 20% missing outcome
   data). In comparison with passive control groups, MBPs reduced average distress between one- and
@@ -655,8 +682,10 @@ PMC7615230.** **Read: the abstract's Results (Europe PMC full text, 2026-09-23).
   among community adults who volunteer to receive this type of intervention."
 
 **Read the qualifiers in 9c's own sentence**: group-based, teacher-led, community adults, who
-volunteer, against passive controls. **An app used alone on a phone is none of those things**, and a
-lesson must not carry 9c's "high" certainty over to it.
+volunteer, against passive controls. **An app used alone is neither group-based nor teacher-led, and
+the review included only in-person programmes**, so a lesson must not carry 9c's "high" certainty
+over to it. (Corrected 2026-09-24: this said an app is "none of those things", which is false; an app
+user can be a community adult who volunteered.)
 
 **9d. Kuyken W, Warren FC, Taylor RS, and 15 others, "Efficacy of Mindfulness-Based Cognitive Therapy
 in Prevention of Depressive Relapse: An Individual Patient Data Meta-analysis From Randomized Trials",
@@ -694,8 +723,11 @@ mindfulness researchers, which is what makes this the strongest form of the crit
 controls, not better than other active treatments), states MBCT's specific relapse finding for its
 specific population, and then gives the field's own critique in the field's own words. **Van Dam is
 not an opponent of mindfulness, and a lesson must not present him as one**; the Turing test (3.2) runs
-on the mindfulness teacher too, who would say the practice was never sold as a treatment by its
-serious proponents, and 9e's MBSR exclusion sentence supports that reading.
+on the mindfulness teacher too, who would say MBSR was designed for general stress and its own
+standards exclude psychiatric disorder, which 9e's MBSR exclusion sentence supports. (Corrected
+2026-09-24: this said the practice "was never sold as a treatment by its serious proponents", which
+contradicts 9d, source 2's group mindfulness row and 19h: MBCT was built for relapse in recurrent
+depression, NICE offers it, and MBSR has been trialled in anxiety disorders.)
 
 ---
 
@@ -716,6 +748,12 @@ Systematic Reviews* 2020, issue 7, CD013305, doi 10.1002/14651858.CD013305.pub2,
 - Against CBT, verbatim: "We found moderate-certainty evidence suggesting no evidence of a difference in
   short-term treatment efficacy between behavioural activation and CBT (RR 0.99, 95% CI 0.92 to 1.07; 5
   RCTs, 601 participants)."
+- Against waiting list, verbatim (appendix): "Compared with waiting list, behavioural activation may be
+  more effective, but there were fewer data in this comparison and evidence was of low certainty (RR
+  2.14, 95% CI 0.90 to 5.09; 1 RCT, 26 participants)." **Efficacy rests on one trial of 26; the
+  review had eight waiting-list trials in all**, from its acceptability (dropout) analysis: "(RR 1.17,
+  95% CI 0.70 to 1.93; 8 RCTs. 359 participants)". Do not call the 26-person trial "the one
+  waiting-list trial the review found".
 - Verbatim, conclusions: "However, our confidence in these findings is limited due to concerns about the
   certainty of the evidence."
 
@@ -741,6 +779,10 @@ health: A meta-analysis of randomised-controlled trials", *Scientific Reports* 1
 - Verbatim: "Meta-analyses for secondary outcomes of self-reported/subjective anxiety (k = 20) and
   depressive symptoms (k = 18) showed similar significant effect sizes: g = - 0.32, p < 0.0001, and g =
   - 0.40, p < 0.0001, respectively."
+- Comparator, verbatim (appendix): "compared to non-breathwork controls".
+- Verbatim, the sentence before the last: "Overall, results showed that breathwork may be effective for
+  improving stress and mental health." **Quote it with the caution that follows**; the earlier entry
+  here gave only the caution.
 - Verbatim, the authors' last sentence: "However, we urge caution and advocate for nuanced research
   approaches with low risk-of-bias study designs to avoid a miscalibration between hype and evidence."
 
@@ -1551,8 +1593,15 @@ abstract in full.**
   improved because of its treatment; and it is one trial. The primary sample is the 208 who completed.
 
 **Why it is in the file.** Van Dam and colleagues (9e, 2018) wrote that MBIs are "sometimes misleadingly
-described as 'comparable'" to antidepressants. **Five years later a trial designed to test exactly
-that, in anxiety disorders, reported noninferiority.** The two are not in contradiction: Van Dam was
+described as 'comparable'" to antidepressants. **Five years later a trial that tested the comparison
+for anxiety disorders reported noninferiority.** (Corrected 2026-09-24 from "a trial designed to test
+exactly that": Hoge recruited from June 2018, NCT03522844, so it ran alongside Van Dam rather than in
+answer to it, and Van Dam's sentence was about depression and stress, not anxiety disorders.) Two
+more sentences from the abstract (appendix), for a lesson that reports the result: "Secondary
+intent-to-treat analyses using imputed data also showed the noninferiority of MBSR compared with
+escitalopram based on the improvement in CGI-S score." And: "Of patients who started treatment, 10
+(8%) dropped out of the escitalopram group and none from the MBSR group due to adverse events." The
+primary outcome is the clinician-rated "Clinical Global Impression of Severity scale (CGI-S)". The two are not in contradiction: Van Dam was
 describing the evidence then and the claims made on it; Hoge is one well-designed trial since. A
 lesson can set them side by side, and the Turing test runs both ways: the trial's authors would say
 their design answered the objection, and a Van Dam-style critic would say one noninferiority trial
