@@ -1,6 +1,7 @@
 ---
 title: What a small effect is, and what the other group got
 minutes: 95
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/health-and-body/mental-fitness/02-compared-with-what.mp3
 objectives:
   - >-
     Read a standardised effect size and say in plain terms what it means, using a conversion this
