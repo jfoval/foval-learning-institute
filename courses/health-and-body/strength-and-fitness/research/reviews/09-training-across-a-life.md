@@ -1,8 +1,8 @@
 # Reviews: Strength and Fitness lesson 9
 
-## 2026-09-24 — Lesson 09 — Stage 4, two reviewers in parallel, Tier B (split): FINDINGS ONLY, FIXES NOT YET APPLIED
+## 2026-09-24 — Lesson 09 — Stage 4, two reviewers in parallel, Tier B (split)
 
-The session that ran these reviews ended before the fix pass. The two reviewers' findings are kept below verbatim. **Next step: a fix pass in a fresh context** per the fix brief in `research/pipeline-briefs.md`, then append "Resolutions applied" here.
+The session that ran these reviews ended before the fix pass. The two reviewers' findings are kept below verbatim. The fix pass ran later the same day in a fresh context; see "Resolutions applied" at the foot.
 
 ---
 
@@ -685,3 +685,163 @@ soreness and a warning sign applies"). Add lesson 7 to Back.
   earned. Record the exception in OUTLINE's length paragraph after the cuts.
 
 Findings: 7 major (P1 to P7), 9 minor (P8 to P16), 0 critical.
+
+---
+
+### Resolutions applied
+
+Fix pass, 2026-09-24, in a context that neither drafted nor reviewed the lesson. Findings: 42 (F: 5
+major, 21 minor; P: 7 major, 9 minor; none critical). The reviewers' saved primaries had not
+survived, so every factual finding was checked against a fresh fetch: PMC11209834 (AHA 2023),
+PMC6908414 (ADA 2016), PMC3483033 (Faigenbaum), the ACOG 804 web page, the NIA booklet PDF
+(pdftotext), and the PubMed abstracts of LIFTMOR (PMID 28975661), Roberts 2020 and Hubal 2005.
+
+**SOURCES.md corrections and additions (each dated in its entry):**
+- R2.12: Hubal's conclusion sentence on sex ("Men had only a slight advantage in relative size gains
+  ..."), the source read for a per-cent size comparison. (P12)
+- R5.15: correction. Roberts reports effect sizes, not per cent change; "similar *relative* rate" and
+  "in proportion" were this file's gloss. (P12, defect 26)
+- R4.20: ACOG's perceived-exertion and talk-test sentences, the gradual progression for sedentary
+  women, and the resistance-training passage, **scoped to its section on elite athletes**. (F1, F25)
+- R4.21: LIFTMOR's "High-intensity resistance and impact training", the screening clause and the
+  "perceived high risk of fracture" sentence; the AHA's paragraph opener, the whole osteoporosis
+  sentence pair with "the guidance of an exercise professional", the bone-density sentence, and the
+  falls sentences (noted as a narrative statement citing one reference). (F4, F8, F10, F12)
+- R4.24: the AHA hypertension figures (−6/−5) with the ">40" scope; the ADA's hyperglycaemia and
+  ketones sentences; the note that "6−15 h" sits in the nocturnal-hypoglycaemia paragraph with type 1
+  references. (F3, F6, F7)
+- R4.26: "On the basis of limited data" and "23 trials ... (n=1174 total participants)". (F11)
+- R4.3 (NIA): the booklet's balance section (about three sessions a week, six examples, the
+  sturdy-chair tip), which settles P11's open question: the booklet does have balance material, as
+  examples rather than a programme. (P11)
+
+**Reviewer F**
+- F1 fixed, with a scope correction. The reviewer framed ACOG's load and Valsalva passage as advice
+  for "athletes who want to keep training hard"; in the primary it is in the section on **elite
+  athletes**. The lesson now quotes it with that scope, says it isn't written for every pregnant
+  lifter, and presents it as the cautious side's strongest reason (sparse literature). Added the
+  gradual-progression sentence and a table line ("athletes training hard get approval and consider
+  lighter loads").
+- F2 fixed (Ines: ACOG unconditional; the Canadian symptom rule separately). Also P14.
+- F3 fixed. Quiz 6's high-sugar distractor now says high readings are "the only risk worth
+  planning his doses around", which the source contradicts; the explanation says high readings
+  matter too. The body adds a "High blood sugar" bullet with the ADA's recommendation.
+- F4 fixed. The AHA's falls sentences are quoted after "Uncertain isn't the same as ineffective",
+  with the note that it is a narrative statement and Cochrane the graded test, and that both point
+  to balance built in. The misconception and quiz 2's explanation now name the AHA view. (The
+  reviewer said the AHA sentence carries no citation; the next sentence cites ref 20, so the lesson
+  says "citing one reference".)
+- F5 fixed: added "The LIFTMOR trial shows heavy lifting is safe with osteoporosis" to the
+  misconception list. Count now 7 fragile, 1 limitless, plus the falls entry, which corrects an
+  over-reading on the strength side.
+- F6 fixed: −6/−5 in hypertension added beside −4/−2. The AHA's medication comparison is left out.
+- F7 fixed in body ("in the statement's paragraph on low blood sugar at night") and in quiz 6's
+  explanation (the type 2 clause and the timing clause are now separate).
+- F8 fixed: HiRIT expanded, "heavy lifting with impact work" in body, predict, table, misconception;
+  screening clause quoted.
+- F9 fixed ("may benefit from") in misconception and quiz 3's explanation.
+- F10 fixed: the AHA's bone sentence opens the caution paragraph; "a statement that seems to agree"
+  is now "a caution that seems to agree".
+- F11 fixed in the body and in Leon's model answer.
+- F12 fixed: quotation extended to "may provide enhanced benefit".
+- F13 fixed ("who plan to build up gradually").
+- F14 fixed ("it looked back at injuries after the fact rather than following people forward").
+- F15 fixed, in P15's shape (no "not X. It is Y."): "The danger the evidence points to is lifting
+  without qualified supervision, and at its worst, equipment left where a child can play with it."
+- F16 fixed ("something the guideline warns may happen").
+- F17 fixed in the opening.
+- F18 fixed with P5 (below).
+- F19 fixed: [9][14][7] on the condensed breathing sentence.
+- F20 fixed with P11: Borde and Grgic named in the body and added to source 4 with their read levels
+  (Borde full text, Grgic abstract only, per R2.14).
+- F21 fixed: Hubal's read level and measure (one arm's elbow flexors, 12 weeks) at point of use.
+- F22 fixed: "A similar caution fits much of the literature behind lessons 4 to 7."
+- F23 fixed: "this course doesn't ask a beginner to test one".
+- F24 fixed: the squat chair is "one without wheels, backed against a wall" (the course-wide set-up
+  line), and the NIA sturdy-chair tip covers the balance work.
+- F25 fixed: ACOG's perceived-exertion sentence, scoped to what it says (it names perceived
+  exertion as possibly better than heart rate, and the talk test as "another way"; the reviewer had
+  both as "more effective"). Points to lesson 2's tools.
+- F26 fixed with P8: heart-disease row added; older adults' "Who to ask" now names the balance
+  professional.
+
+**Reviewer P**
+- P1 taken in part. Cut: the whose-evidence section to retrieval plus one Montero sentence (the
+  second, which lesson 3 didn't quote; F22's wording); the Women predict's lead-in (P4); the high
+  blood pressure section's repeats (now one pointer sentence to lesson 6); the ADA clearance repeat
+  (one sentence); "it is the reason this course keeps saying stop short of failure"; the pacemaker
+  quotation (now a pointer to lesson 6, with the table keeping the condition); the consensus
+  sentence (moved into source 12); misconception entries to one line each. **Not cut further**,
+  because F1, F4, F6, F10, F25, P2, P6 and P7 added more than P1 removed. Length: see below.
+- P2 fixed: Step 1 is now a checkpoint the reader answers from lesson 1 before the other steps are
+  shown.
+- P3 fixed: the tablet question left the Margit checkpoint; the secretagogue gloss and "ask her
+  doctor which kind hers is" now close the diabetes section's low-blood-sugar bullet, pointing back
+  to Margit.
+- P4 fixed: the Women predict is a retrieval checkpoint from lesson 4, and its answer glosses effect
+  size. The lesson now has two predicts (LIFTMOR, rugby), inside the 2 to 3 band.
+- P5 fixed with F18: the subsection is "What changes with age"; it now says which groups the sources
+  show adapting (older adults, children) and which sources are about safety only, and labels the
+  working reading as the course's. The table's closing sentence is P5's wording, and "It is the
+  mechanism in one line" is gone.
+- P6 fixed: Step 3 now says "one thing changes, one is worth adding", presents the AHA's 40 to 60
+  per cent as a starting point for anyone new, labels "loads she could lift many more times" as the
+  course's reading, and works towards lesson 7's two or three in reserve. **For course-wide.md:**
+  lesson 7's plan and the AHA starting intensity should be reconciled from lesson 7's side (lesson 7
+  starts sets of about five "well short of hard", which is compatible, but doesn't cite the AHA).
+- P7 fixed: a labelled month sketch (weeks 1 and 2, weeks 3 and 4, after the month), each line
+  saying what it rests on (lesson 7's conventions, the AHA's light start, the NIA's frequency, the
+  stand's caution). Healthy 72-year-old, inside general guidance, so decision 3 allows it.
+- P8 fixed: WHO row no longer narrowed; heart-disease row added; "proper breathing"; the fourth
+  column's label moved into the table's lead-in.
+- P9 fixed ("For each of these four invented people").
+- P10 fixed: RT, MD, GP (family doctor), ruptured membranes, preeclampsia and effect size glossed;
+  mm Hg glossed too.
+- P11 fixed: Borde and Grgic in source 4; [14] on the Valsalva line; "lessons 4 to 7"; "clear gains
+  past 75 and 80"; the download sentence reworded; NIA opened and used for Step 4 (see SOURCES).
+- P12 fixed at SOURCES first (R5.15, R2.12), then the lesson: Roberts is "similar effect sizes", and
+  the per-cent comparison comes from Hubal's conclusion. Quiz 1's explanation and the misconception
+  follow.
+- P13 fixed: quiz 6's weak "keep to walking" option replaced with "Low blood sugar only on days he
+  lifts heavy"; quiz 1's stem now says "of what she could lift at the start"; quiz 4 now tests
+  headache rather than the calf sign the checkpoint singled out, so its implausible "abdomen and
+  chest" option went with it.
+- P14 fixed with F2.
+- P15 fixed: the three "not X. It is Y." shapes rewritten; morals at "costs nothing", "not a reason
+  to start alone", "the mechanism in one line" and "the point of the third question" cut or folded;
+  two "Now X." openers varied; stray line break fixed. "Highly supervised. Otherwise healthy. This
+  sample." kept, as P advised.
+- P16 fixed: lessons 7 and 8 in Connections; Wen's answer points to lesson 8's soreness line.
+
+**Declined:** none outright. Two findings were applied with a correction to the reviewer's
+wording (F1's scope, F25's claim about the talk test), and one reviewer factual aside was wrong
+(F4: the falls passage does cite a reference).
+
+**Final measures.**
+- Body words (before Sources): about 7,250; `npm run minutes`: 110 modelled, `minutes: 110` set by
+  hand (was 100; OUTLINE plans ~65).
+- Bold 35 spans, 4.8 per 1,000 body words. Contractions outside quotation marks 53, 7.3 per 1,000.
+- No em dashes, no spaced en dashes; banned-word search clean (one hit is inside the ADA's own
+  "recommended").
+- Quiz keys 1,3,2,0,2,1 (unchanged; differs from lessons 7, 8 and 10). Option lengths: 95/94/93/93,
+  89/94/90/94, 96/83/89/94, 92/89/92/93, 98/102/100/101, 97/96/92/94; widest spread 13 (item 3).
+  Every explanation read against the option its key now selects. `check-quiz-shape`: passes.
+- Callout byte-identical to lesson 8's (md5 match). `npm run validate` exits 0 with no line naming
+  this file (the course is `drafting`, so the built-course lints don't run on it).
+  `npm run quotes strength-and-fitness`: 386 sourced quotations, 0 not found.
+
+**For course-wide.md (not edited here; this pass could touch only lesson 9, this file and
+SOURCES.md):**
+- Lesson 9 measures 110 against OUTLINE's ~65: nine groups each with its own source and condition,
+  the month sketch, a 20-minute exercise, a Sources list of about 10 minutes, and a marked break at
+  "Common conditions". Record it in OUTLINE's "Lesson length" paragraph beside lessons 1 to 3 and 5
+  to 8.
+- R5.15's "relative rate" gloss is corrected: any lesson or script saying women's muscle grows
+  "in proportion" on Roberts's authority should cite Hubal's conclusion instead (lesson 4's
+  misconception at its line 510 is worth a check).
+- ACOG's resistance-load caution is for elite athletes; don't generalise it.
+- The AHA statement supports resistance training for falls and for bone in its own voice (R4.21);
+  lesson 10 should carry that beside Cochrane's "uncertain" if it touches falls.
+- Lesson 7 and the AHA's 40 to 60 per cent starting intensity (P6).
+
+**Status after review:** clean.

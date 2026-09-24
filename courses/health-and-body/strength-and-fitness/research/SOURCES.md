@@ -1806,7 +1806,11 @@ changes, increasing size by over 10 cm and doubling their strength." Sex: "Men e
 for CSA (P < 0.01) compared with women. Despite greater absolute gains in men, relative increases in
 strength measures were greater in women versus men (P < 0.05)." (Corrected 2026-09-24, lesson 4's
 review, F4, against the PubMed abstract: the entry had quoted from "relative increases" on, dropping
-the absolute-gains clause.)
+the absolute-gains clause.) The conclusion's sex sentence (added 2026-09-24, lesson 9's review, P12,
+checked against the PubMed abstract): "Men had only a slight advantage in relative size gains compared
+with women, whereas women outpaced men considerably in relative gains in strength." This, not
+Roberts 2020, is the source read for a *relative* (per cent) size comparison; the design is one arm's
+elbow flexors for 12 weeks.
 
 **Ahtiainen 2016.** 287 untrained adults aged 19 to 78 plus 72 controls, pooled. Size change "4.8 ±
 6.1 % (range from -11 to 30 %)", strength "21.1 ± 11.5 % (range from -8 to 60 %)". "Age and sex did
@@ -3199,6 +3203,14 @@ text): "Listen to your body. Aerobic activities should not cause dizziness, ches
 or nausea." Also: "Older adults who do not have an existing injury or chronic condition, and who
 plan to gradually increase their amounts of physical activity, generally do not need to talk with a
 doctor before becoming physically active."
+*Added 2026-09-24 (lesson 9's review, P11), from the PDF (pp. 12 to 13, fetched and read with
+pdftotext):* the booklet has a balance section. "As with muscle-strengthening exercises, balance
+exercises can help to prevent falls and fall-related injuries. Aim for about three sessions of balance
+exercises each week." Its examples: "Yoga", "Tai chi", "Standing on one foot", "Walking backward or
+sideways", "Practicing standing from a sitting position", "Using a wobble board". Its safety tips
+include "Have a sturdy chair, person, or wall nearby to hold onto for support." and "If you are
+unsure about doing a particular movement, seek guidance from your health care provider." It gives
+examples, not a programme (no progression or dose beyond the three sessions).
 
 **NHS, Heart attack page** (https://www.nhs.uk/conditions/heart-attack/, full page): under
 "Immediate action required: Call 999 if:": "you have chest pain that feels tight or like squeezing
@@ -3780,6 +3792,21 @@ not show:** how common OTS is; it is a statement about athletes.
   - Also: "remain well hydrated, avoid long periods of lying flat on their backs"; "Contact
     activities with high risk of abdominal trauma or imbalance should be avoided. Scuba diving should
     be avoided in pregnancy".
+  - *Added 2026-09-24 (lesson 9's review, F1 and F25), checked against the ACOG web text:*
+    - Intensity: "Because blunted and normal heart-rate responses to exercise have been reported in
+      pregnant women, the use of ratings of perceived exertion may be a more effective means to
+      monitor exercise intensity during pregnancy than heart-rate parameters". And: "Using the “talk
+      test” is another way to measure exertion".
+    - Progression: "Pregnant women who were sedentary before pregnancy should follow a more gradual
+      progression of exercise."
+    - **In the section on elite athletes** (scope: athletes who train at a high level year-round),
+      on resistance training: "this training was not considered a safe activity in early guidelines
+      for exercise during pregnancy because of potential injury and possible fetal heart
+      decelerations resulting from Valsalva maneuvers. Consequently, there is sparse literature on
+      this topic". And: "It is prudent for elite athletes who wish to continue strenuous activity
+      during pregnancy to have a clear understanding of the risks, to obtain approval from their
+      health care providers, and to consider decreasing resistance load compared with prepregnant
+      conditions." Quote with that scope; it is not ACOG's advice for every pregnant lifter.
 - **Mottola MF, Davenport MH, Ruchat SM, et al.** 2019 Canadian guideline for physical activity
   throughout pregnancy. *Br J Sports Med* 2018;52(21):1339-1346. doi:10.1136/bjsports-2018-100056.
   **Abstract read; the recommendations and contraindication lists read in full on the CSEP guideline
@@ -3828,6 +3855,27 @@ not show:** how common OTS is; it is a statement about athletes.
 - AHA 2023: people with "severe osteoporosis" among those who "may benefit from low- to
   moderate-intensity RT" and "Machines are likely safer than free weights for these patients".
   PAR-Q+ follow-up 1b asks about fractures "caused by osteoporosis".
+- *Added 2026-09-24 (lesson 9's review, F4, F8, F10, F12), each checked against the primary (the
+  PubMed abstract for LIFTMOR; PMC11209834 for the AHA):*
+  - LIFTMOR: HiRIT is "High-intensity resistance and impact training", not lifting alone. Its women
+    were "screened for conditions and medications that influence bone and physical function". The
+    abstract gives the reason it was novel: HiRIT "is not traditionally recommended for individuals
+    with osteoporosis because of a perceived high risk of fracture."
+  - AHA, the whole osteoporosis sentence pair and the paragraph they sit in. The paragraph opens:
+    "Relative contraindications may apply to clinical subpopulations in which they should seek
+    physician consultation and medical clearance before starting an RT program (Figure 1)." Then:
+    "Individuals with musculoskeletal limitations, advanced arthritic conditions, severe osteoporosis
+    and neuropathies, or previous stroke may benefit from low- to moderate-intensity RT." And:
+    "Machines are likely safer than free weights for these patients, and the guidance of an exercise
+    professional may provide enhanced benefit."
+  - AHA on bone, in its section on women: "RT improves bone mineral density in the femoral neck and
+    the lumbar spine in pre- and postmenopausal women." So the AHA's caution is for severe
+    osteoporosis, not against lifting for bone.
+  - AHA on falls, in its section on older adults: "RT can reduce the risk of falls and injury from
+    falls (eg, fractures) in older adults. RT programs that incorporate balance-challenge exercises
+    (eg, feet closer together, minimal hand support) may be the most effective in fall prevention."
+    This is a narrative statement citing one reference (its ref 20), not a graded review; read it
+    beside Sherrington's "uncertain" for programmes that are primarily resistance training.
 
 **Tension to present honestly:** LIFTMOR (highly supervised heavy lifting, safe in its sample) and
 the AHA statement (low to moderate for severe osteoporosis) are not in conflict once scope is kept:
@@ -3907,6 +3955,20 @@ is modest and on function small. **Does not show:** which exercise is best; non-
 - **Hypertension:** 4.10 has the guidance (AHA 2023, ADA table, ACSM 2004 abstract, PAR-Q+ threshold
   of 160/90). AHA 2023 on benefit: for adults over 40, resistance training "results in larger
   reductions in systolic BP (−4 mm Hg) and diastolic BP (−2 mm Hg)."
+  - *Added 2026-09-24 (lesson 9's review, F6), checked against PMC11209834:* that figure is for
+    "middle-aged and older healthy adults (>40 years)". The same passage goes on: "Effects of RT are
+    more pronounced for both systolic and diastolic BP in those with prehypertension9 (−3 mm Hg
+    systolic BP; −3 mm Hg diastolic BP) and hypertension8 (−6 mm Hg systolic BP; −5 mm Hg diastolic
+    BP) compared with normotensive individuals." (The 9 and 8 are reference numbers.) Its next
+    sentence compares RT with antihypertensive medications; a lesson using it must say at once that
+    this is no reason to change medication without the doctor.
+- *Added 2026-09-24 (lesson 9's review, F3), checked against `ada_pmc.txt` / PMC6908414:* high blood
+  sugar is also in the statement. "Very intense exercise such as sprinting (134), brief but intense
+  aerobic exercise (145), and heavy powerlifting (146,147) may promote hyperglycemia, especially if
+  starting blood glucose levels are elevated (145)." And, in the recommendations: "Exercising with
+  hyperglycemia and elevated blood ketones is not recommended." Also, on timing: the "6−15 h"
+  sentence sits in the paragraph on nocturnal hypoglycaemia, whose references are type 1 studies;
+  don't attach it to type 2 insulin users specifically.
 
 ### R4.25 Knee osteoarthritis (NICE NG226, 2022)
 
@@ -3932,6 +3994,11 @@ is modest and on function small. **Does not show:** which exercise is best; non-
   coronary heart disease trials: "there were 63 nonfatal cardiovascular-related complications during
   AT training and testing, whereas only 1 occurred during RT training and none during RT testing."
   Their hedge: "one-third of the studies in this review did not include adverse event information".
+  *Added 2026-09-24 (lesson 9's review, F11), checked against PMC11209834:* the sentence introducing
+  the review opens "On the basis of limited data, a review of exercise randomized controlled trials in
+  adults with coronary heart disease concluded that RT has a lower rate of cardiovascular
+  complications compared with AT", and the counts are "across 23 trials reporting on adverse events
+  (n=1174 total participants)". Carry the lead-in with the counts.
 - Pacemakers: "Individuals with implanted pacemakers or defibrillators should consult with their
   physicians before engaging in upper-body RT."
 - Same paragraph (added 2026-09-24 at lesson 6's review, F2 and F10, checked against the full text):
@@ -4451,6 +4518,11 @@ These are recorded as primary sources on the practitioners' own ideas. None of t
   is not measured here. The authors hedge the upper-body finding ("it is possible that untrained
   females display a higher capacity", checked) and raise the possibility that it is "an artifact of the
   short duration of studies included" (checked).
+  - *Correction, 2026-09-24 (lesson 9's review, P12, against the PubMed abstract):* the abstract
+    reports **effect sizes**, a standardised measure, not per cent change. "Similar *relative* rate"
+    and "in proportion" above are this file's gloss, not the paper's; the abstract uses "relative"
+    only for upper-body strength. For a per-cent size comparison use Hubal 2005's conclusion (R2.12:
+    men had "only a slight advantage in relative size gains").
 - **Interest.** Nuckols (R5.10) is a co-author.
 
 ### R5.16 "No pain, no gain" and soreness as a sign of growth: Damas et al. 2016
