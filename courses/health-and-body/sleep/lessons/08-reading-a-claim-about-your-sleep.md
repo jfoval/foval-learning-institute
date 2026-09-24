@@ -1,6 +1,7 @@
 ---
 title: Reading a claim about your sleep
 minutes: 95
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/health-and-body/sleep/08-reading-a-claim-about-your-sleep.mp3
 objectives:
   - >-
     Sort a claim about sleep into measurable, unmeasurable as stated, or false, and say what would
