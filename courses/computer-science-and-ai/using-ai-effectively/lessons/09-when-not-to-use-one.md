@@ -1,6 +1,7 @@
 ---
 title: When not to use one
 minutes: 100
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/computer-science-and-ai/using-ai-effectively/09-when-not-to-use-one.mp3
 objectives:
   - >-
     State what the evidence shows about using one of these systems while learning something, giving
