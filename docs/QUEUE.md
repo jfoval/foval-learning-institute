@@ -148,23 +148,15 @@ Rewrite these five lines each session. Nothing else goes in this block.
   commentary supporting the 2026 US guidelines, the carbohydrate-insulin side's critique of Hall
   2021); a Stage 1 pass could add them. The misconception lists correct four low-carb errors to
   two the other way.
-- **Strength and Fitness is drafting** (T3, second of the term; `course.yaml` and TAXONOMY both say
-  `drafting`). Stage 1, Stage 2 and the course project are done; ten lessons are drafted (lesson 4
-  was split into 4 and 5 on its first draft). **Lessons 1 to 8 are through Stage 4**: two
-  fresh-context reviewers each (F: facts, neutrality, safety; P: depth, pedagogy, cold start, voice)
-  and a third context for fixes, a review file each, and every error the reviews traced to a
-  `SOURCES.md` summary corrected there first against the primary. **Lesson 9 has both reviews'
-  findings in `research/reviews/09-training-across-a-life.md` and no fixes applied yet. Lesson 10 is
-  a draft with no review.** The drafting, review and fix briefs are in `research/pipeline-briefs.md`;
-  standing notes from eight reviews are in `research/reviews/course-wide.md`.
-  **Next, in order:** apply lesson 9's fixes in a fresh context; review lesson 10 (F and P) and fix
-  it; write `assessments/final-test.md` (20 items, OUTLINE blueprint) and review it with the
-  project; the course-wide neutrality audit (mandatory, sensitive domain); then publish (status and
-  TAXONOMY row together, `curriculum/audio-debt.yaml` opened at 10), then ten scripts. Lessons
-  measure 90 to 130 minutes; OUTLINE's length note records why, and the reviews judged it earned.
-  The session's raw downloads did not survive; every quotation the lessons use is in `SOURCES.md`.
-  Boundaries: energy balance and weight (Nutrition 3), protein (Nutrition 5) and exercise for
-  depression (Mental Fitness 5) are taught there and pointed to here.
+- **Strength and Fitness is PUBLISHED**, 2026-09-24: ten lessons through Stage 4 (two
+  reviewers and a fix pass each), the mandatory neutrality audit passed after eight sentence-level
+  fixes (`research/reviews/course-wide.md`), and both assessments reviewed (the test had been
+  passable by choosing the careful answer; fixed). audio-debt opened at 10. **Next:** ten scripts,
+  being written now. **Open, from the audit:** no zone 2 proponent read in their own words; one
+  sceptic only on exercise causing longer life; several replies unread (Loenneke's group, the
+  HERITAGE team, a low-volume practitioner, a muscle-confusion proponent, an independent creatine
+  review). "Qualified exercise professional" is undefined in everything read (lessons 1, 7, 9, 10
+  and the project say so). A Stage 1 pass could close these.
 
 - **Sleep is PUBLISHED**, 2026-09-23: eight lessons, both assessments, eight Stage 4 reviews applied
   and the mandatory neutrality audit passed (entry in `research/reviews/course-wide.md`). It owes

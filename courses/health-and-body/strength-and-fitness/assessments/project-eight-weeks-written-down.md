@@ -1,6 +1,6 @@
 ---
 title: Eight weeks, written down
-minutes: 480
+minutes: 570
 type: project
 ---
 
@@ -9,10 +9,10 @@ and measured them again. This project does the same to one person, you, and then
 result the question lesson 4 taught you to ask of everyone else's: **trained whom, for how long,
 measured on what?** You screen yourself, write a plan, take three measures you can repeat, train and
 keep a log for eight weeks, take the same measures again, and write a report on what the change can
-and can't tell you. The minutes above count about eight hours of desk and test time over ten weeks,
-not the training itself: an hour and a half for screening and the plan, the same for two baseline
-sessions, fifteen minutes a week for the log, the same again for two re-tests, and two hours for the
-report.
+and can't tell you. The minutes above count about nine and a half hours of desk and test time over
+ten weeks, not the training itself: an hour and a half for screening and the plan, the same for two
+baseline sessions, fifteen minutes a week for the log, an hour and a half again for two re-tests, and
+three hours for the report.
 
 :::callout Before you train
 This course is education, not advice about your own body. If you have heart, kidney or metabolic disease such as diabetes, are pregnant, or have symptoms like chest discomfort, fainting or unusual breathlessness, talk to a doctor before you start or step up training. Stop and get medical help straight away for pain or pressure in the chest, neck, jaw or arms, dizziness, palpitations, or breathlessness out of all proportion to the effort, and call your local emergency number for chest pain. Cola-coloured urine, or muscle pain and swelling far worse than the session explains, needs a doctor the same day.
@@ -104,15 +104,16 @@ and nothing more.
 This is lesson 7's exercise, finished and kept. If you wrote it when you read lesson 7, check it
 against the list below and bring it up to date. If you didn't, write it now.
 
-- Days: at least two strength sessions a week, with a day or more between them. That is the ACSM
-  2026 stand's primary recommendation and WHO's "2 or more days a week" for muscle strengthening, as
-  lessons 1 and 7 showed.[3][4]
+- Days: at least two strength sessions a week, with a day or more between them. Two or more is the
+  ACSM 2026 stand's primary recommendation and WHO's "2 or more days a week" for muscle
+  strengthening, as lessons 1 and 7 showed.[3][4] The day between them is older ACSM guidance,
+  untested for beginners, as lesson 7 labelled it.
 - Four slots: upper push, upper pull, lower push, lower pull, the four body regions the stand's
   authors offer as their view.[3] For each, a home or gym version from lesson 6 or 7 that you can do about
   8 to 12 times with good form. **Start below what you could do**: if you're unsure between two
   versions, pick the easier one.
-- Numbers: two sets per exercise, stopping with 2 to 3 reps in reserve, and your progression rule in
-  one sentence. Lesson 7's double progression is one such rule, and lesson 7 labels it a convention.
+- Numbers: two sets per exercise per session, the weekly total for each region (sets × days),
+  stopping with 2 to 3 reps in reserve, and your progression rule in one sentence. Lesson 7's double progression is one such rule, and lesson 7 labels it a convention.
 - Your aerobic week: lesson 3's first four weeks, then weeks 5 to 8 continued by the same rules you
   used there, with most sessions at the pace where you can talk but not sing. WHO's 150 to 300
   moderate minutes a week is the direction of travel, not the week-one target: lesson 1's curve is
@@ -277,7 +278,9 @@ Four safety lines, one for each way the eight weeks can go wrong.
    explains it. Muscle pain and swelling far worse than the session explains, or cola-coloured urine,
    needs a doctor the same day.
 2. Every session keeps the set-up and the breathing from Part 3: a stable chair against a wall, a
-   counter that won't move, and breathing out through the hard part of each rep.
+   counter that won't move, and breathing out through the hard part of each rep. Stop any movement
+   that hurts rather than pushing through it, and if the pain doesn't settle, see a physiotherapist
+   or a doctor, as lessons 6 and 7 said.
 3. After a break, restart a few steps back. A cold, a trip or a bad fortnight will happen to some
    readers. Lesson 7's rule is to restart at the load and version you used several weeks before you
    stopped, and to climb back by the same progression. Log the break and the restart. If the break
@@ -374,7 +377,7 @@ back to this decision.
 | Part | Full marks | Partly there | Not yet |
 |---|---|---|---|
 | Screening and safety | The PAR-Q+ was completed and dated before any training; any yes led to a conversation before the project went on; the callout's signs and the session safety lines were respected, and any that came up are in the log | Screening was done but late, or a safety event happened and isn't recorded | No screening, or training carried on through a callout sign |
-| The plan | Every line sits inside lessons 1, 3 and 7 and carries its label and a named source; no weight, body-fat or calorie goal | The plan is sound but some lines are unlabelled, or a label is wrong (a view called evidence, a convention called guidance) | No plan written before week 1, or a plan outside the guidance |
+| The plan | Every line sits inside lessons 1, 3 and 7 and carries its label, with a named source wherever there is one; no weight, body-fat or calorie goal | The plan is sound but some lines are unlabelled, or a label is wrong (a view called evidence, a convention called guidance) | No plan written before week 1, or a plan outside the guidance |
 | The baselines | Three measures, each taken twice, each with a written recipe precise enough for a stranger to repeat; the prediction is dated and untouched | Measures taken once, or recipes that leave out something that matters (the chair, the load, the route) | Baselines reconstructed from memory, or measures that can't be repeated |
 | The log | Every session and every missed session recorded at the time, with weekly lines and each change's reason and prediction | Gaps that aren't marked as gaps, or changes made without a written reason | A log written up afterwards |
 | The re-test | Repeated to the recipe, twice, on the baseline's terms, with any departure recorded | Repeated once, or with a departure that isn't recorded | Re-tested on the week-8 load or version, so it measures something else |
