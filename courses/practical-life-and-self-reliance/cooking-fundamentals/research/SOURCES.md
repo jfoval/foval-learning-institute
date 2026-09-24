@@ -3523,3 +3523,38 @@ text). Every quotation in lesson 9 matched. The lines below add to "Gate closure
 - **McGee 2009**, direct: the standard method is the one "found in Italian cookbooks and on pasta
   packages". His hot-start finding: "it’s possible to butta la pasta in 1 1/2 or 2 quarts of boiling water without having the noodles stick."
 - **Bad Bug Book**, direct: "This syndrome has occurred in the United Kingdom with some regularity." "Reports of this syndrome in the United States are anecdotal and have not been formally published."
+
+## Stage 4 note, lesson 10
+
+*2026-09-24, fresh-context review. Each item below was read direct at this review.*
+
+- **Bad Bug Book, *C. perfringens* chapter** (https://www.fda.gov/media/83271/download, pdftotext).
+  The doubling-time sentence carries a qualifier Part B 5.3 abbreviated: "can multiply rapidly as a result of a fast doubling time (<10 minutes for vegetative cells), depending on temperature and food matrix. Therefore, during cool-down (109-113°F) and storage of prepared foods, this organism can reach levels that cause food poisoning much more quickly than can other bacteria." The dose: "Symptoms occur about 16 hours after consumption of foods containing large numbers (>106 live vegetative cells or >106 spores) of C. perfringens" (10^6, the superscript lost in extraction), and elsewhere ">106 spores/g of food".
+- **Food Code 2026 PDF** (https://www.fda.gov/media/194741/download), re-checked: § 3-501.14, § 3-501.15(A)(4), (A)(7), (B)(2) and both Annex 3 entries match the lesson-10 gate closure word for word. The example of 70°F in 1 hour is introduced as "An example of proper cooling"; the 3-hour case "may not be adequately controlled". The code's front matter says an asterisk "is placed" before defined terms for accessibility, so the lesson's gloss of "*FOOD" stands. The landing page https://www.fda.gov/food/fda-food-code/food-code-2026 returns 200.
+- **Koreen, Baldwin and Schaffner 2024**, PubMed efetch: affiliations are the Minneapolis Health Department; Data Science and Strategic Analytics, Stockton University; and the Department of Food Science, Rutgers University.
+- **Mouritsen and colleagues 2012**, Internet Archive capture: "the first scientific basis for it was provided in 1957 by the Japanese chemist Akira Kuninaka [29]", which supports the lesson's name and date. "the fermented katsuobushi" is in the figure 3 discussion.
+- **ATK, "Getting to Know: Thickeners"**, re-read: the page gives "around 160 degrees" with no unit, and no other temperature. Reading it as Fahrenheit is the course's inference (ATK's house unit; a water-based sauce cannot reach 160°C), and the lesson says so.
+- **ATK, "Body Builder for Pan Sauces"**, re-read: "just about any preparation that calls for canned broth will likely benefit from the addition of gelatin", and "simply add powdered unflavored gelatin", which support the lesson's "powdered gelatin" and "bought broth".
+- **ATK, "Make-Ahead Vinaigrette"**, re-read: "1 tablespoon molasses", with 1 tablespoon each of mayonnaise and mustard, ¼ cup wine vinegar, ½ cup olive oil and ¼ cup vegetable oil; "Refrigerate for up to 1 week."
+
+## Stage 4 note, lesson 11
+
+*2026-09-24, fresh-context review. Each item below was read direct at this review (curl and local
+text extraction; the CDC page through the Internet Archive's 20 September 2026 capture; the FSA page
+through the GOV.UK Content API).*
+
+- **ATK, "No-Knead Bread 2.0"**, re-read. The sentence the lesson quotes on why the original worked
+  is verbatim: "These pieces were so small that, even without kneading, they could stretch out and cross-link during fermentation and the brief turning step."
+  The article also dates the original: "In November 2006, food writer Mark Bittman published a recipe in The New York Times",
+  which is where the lesson's "2006" comes from; the lesson names neither the writer nor the paper.
+  The flat flavour is "the flavor of the crumb fell flat in every sample": it is about taste, not
+  the loaf's shape.
+- **FSA, "Handling flour and flour products safely"**, re-read. It names dough outright: "You should not eat flour or flour products such as pastry and doughs that have not been cooked thoroughly or are not sold as ready to eat."
+  On crafts and play it does not say not to: "When using uncooked flour or flour products not intended to be eaten e.g. dough for crafts and play, you may wish to use this advice to support how you manage the risks during these activities."
+  "Children and older people may be more vulnerable to infection so additional care may be needed when handling these products."
+- **CDC, "Raw Flour and Dough"**, re-read. Its "Do not" list is stricter on play: "Let children play with or eat dough made with raw flour", with "This includes dough for crafts." Its list of doughs not to eat includes pizza. On shop-bought edible dough, after "These products are made with heat-treated flour and pasteurized eggs or no eggs.": "Before enjoying, read the label carefully to make sure the dough is meant to be eaten without baking or cooking."
+  So the two countries agree on eating raw dough and differ in strength on children playing with it.
+- **King Arthur, "Absolutely No-Knead Crusty-Chewy Bread"**, re-read. "If the dough rests too long in the crock before baking, it may fall." The page blurb calls it a "high-rising, crusty loaf" and credits King Arthur's own bread flour with "the added structure this loaf needs". It also says the flour is absorbed "after about 10 seconds of vigorous stirring", and suggests mixing "Friday night at about 10 p.m.".
+- **Martin Philip, "For crispy, crackly crusts, put a lid on it"**, re-read. The product it sells is "The Baking Shell", listed as "Brod & Taylor Baking Shell": a third-party cloche sold in King Arthur's shop, not a King Arthur product. It likens the covered baker to "a miniature masonry oven".
+- **PJ Hamel**, re-read. Her summary supports 190°F for the lesson's loaf: "Use a thermometer ... to assess the doneness of pan breads, freeform loaves, and soft rolls. A temperature of 190°F at the center will yield bread that's fully baked". Thin, crusty breads such as baguettes she judges by crust colour instead.
+- **King Arthur, "Yeast"**, re-read. The flavour cost is tied to dough temperature ("a dough temperature in this range is inappropriate"), not to the amount of yeast; the lesson now says applying it to quantity is its own reading.
