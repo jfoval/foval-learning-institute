@@ -19,7 +19,7 @@ Association's *Clinical Practice Guideline for the Treatment of Depression* (the
 returned a bot-protection page to every request), and Pennebaker's own expressive-writing papers
 (the course has the Frattaroli meta-analysis of them, abstract only). A lesson may name them as
 things that exist and must not cite any of them for a claim. **If Stage 2 wants McGonigal named in a
-lesson about stress mindset** (source 18, where her talk is how most readers met the Keller study),
+lesson about stress mindset** (source 15, where her talk is how most readers met the Keller study),
 it adds an exemption in the form Sleep used, `McGonigal (except NN)`, and the lesson quotes nothing
 from her.
 
@@ -30,9 +30,9 @@ from her.
 **The two camps in the loudest argument in this subject agree on the number. They disagree about
 what it means.**
 
-Kirsch and colleagues (source 19a), the best-known critique of antidepressants, report from the FDA
+Kirsch and colleagues (source 16a), the best-known critique of antidepressants, report from the FDA
 trial data a drug-placebo difference of **d = 0.32** and call it below "the 0.50 standardized mean
-difference criterion that NICE suggested". Cipriani and colleagues (source 19b), the network
+difference criterion that NICE suggested". Cipriani and colleagues (source 16b), the network
 meta-analysis usually quoted as the answer to Kirsch, report across 522 trials a summary
 standardised mean difference of **0.30** for all antidepressants against placebo, and describe the
 effects as "mostly modest". The measured size is almost the same. **One side reads 0.3 as too small to
@@ -43,10 +43,10 @@ to read this field than any amount of summary.
 **And almost every self-help method in this file lands in the same band.** Guided and unguided
 internet CBT, smartphone apps, breathwork, mindfulness programmes against passive controls, resilience
 training, stress-mindset interventions: the pooled effects run from about **g = 0.2 to about 0.6**
-(sources 7 to 18). Exercise sits at the upper end on the whole literature and much lower in its
-best-controlled trials (source 11). Expressive writing sits below the band (source 15). **So the
+(sources 5 to 15). Exercise sits at the upper end on the whole literature and much lower in its
+best-controlled trials (source 8). Expressive writing sits below the band (source 12). **So the
 course's real subject is not "what works" but how to read a small-to-moderate effect**: against what
-comparator, in whom, measured how, and graded how certain. The waiting-list finding (source 10) is
+comparator, in whom, measured how, and graded how certain. The waiting-list finding (source 7) is
 the key to that: the same therapy looks bigger or smaller depending on what it was compared with.
 
 **The clinical guidelines are built on a stepped-care idea that is itself the course's second
@@ -384,7 +384,7 @@ not quoted.
   analyses."
 
 **The trap in this source.** The headline 0.79 is against control conditions that include waitlist,
-and source 10 shows that waitlist flatters whatever it is compared with. **A lesson that sets CBT's
+and source 7 shows that waitlist flatters whatever it is compared with. **A lesson that sets CBT's
 0.79 beside an antidepressant's 0.30 has compared a therapy against a waiting list with a drug against
 a placebo pill**, and must not do it. The fair comparison in this abstract is the head-to-head one:
 no significant difference short-term.
@@ -1026,6 +1026,419 @@ is exactly what the course must not do. None was opened.
 
 ---
 
+## 19. Anxiety specifically: the second Stage 1 pass
+
+*Added 2026-09-23 at the start of Stage 2, because the open concern below said a lesson on worry had
+CG113 and little else. Every abstract here was fetched from the Europe PMC REST service on
+2026-09-23 and every quoted passage was copied from it. **All read at abstract level only unless the
+entry says otherwise; no full text was opened in this pass.** Author strings are as Europe PMC prints
+them.*
+
+**What the pass found, in one paragraph.** The anxiety literature is not thin; the file was. Self-help
+for anxiety disorders has a Cochrane review, three further meta-analyses and a Cochrane review of
+therapist-supported internet CBT, and they agree on a shape: **moderate-to-large effects against
+waiting lists and no treatment, a small but real deficit against face-to-face therapy, and
+low-to-moderate certainty throughout**. GAD has its own internet-treatment meta-analysis and its own
+Cochrane review of psychological therapy. **What remains thin is the evidence for the single
+techniques a reader is most often handed for worry**: worry postponement has small individual trials
+that disagree with each other and no meta-analysis this pass found, and exercise for anxiety
+disorders rests on small pooled samples with no adult Cochrane review found. And CG113 itself makes
+**no recommendation of exercise, mindfulness or any single technique for GAD**; its step 2 is
+structured CBT-based self-help or a psychoeducational group, and nothing else.
+
+### 19a. NICE CG113's own step 2, verbatim
+
+**The Recommendations chapter was fetched again on 2026-09-23 to transcribe 1.2.11 to 1.2.20**, which
+source 1 records as read but did not transcribe. The page sets each specification as a bulleted list;
+the semicolons below mark the list breaks and are not NICE's.
+
+- 1.2.12: "For people with GAD whose symptoms have not improved after education and active monitoring
+  in step 1, offer 1 or more of the following as a first-line intervention, guided by the person's
+  preference: individual non-facilitated self-help; individual guided self-help; psychoeducational
+  groups. [2011]" **The verb is "offer"**, which under NICE's own convention (source 1) is its strong
+  grade.
+- 1.2.13, non-facilitated self-help, in full: "include written or electronic materials of a suitable
+  reading age (or alternative media)"; "be based on the treatment principles of cognitive behavioural
+  therapy (CBT)"; "include instructions for the person to work systematically through the materials
+  over a period of at least 6 weeks"; "usually involve minimal therapist contact, for example an
+  occasional short telephone call of no more than 5 minutes. [2011]"
+- 1.2.14, guided self-help: "be supported by a trained practitioner, who facilitates the self-help
+  programme and reviews progress and outcome"; "usually consist of 5 to 7 weekly or fortnightly
+  face-to-face or telephone sessions, each lasting 20 to 30 minutes. [2011, amended 2018]"
+- 1.2.15, psychoeducational groups: "be based on CBT principles, have an interactive design and
+  encourage observational learning"; "have a ratio of 1 therapist to about 12 participants"; "usually
+  consist of 6 weekly sessions, each lasting 2 hours. [2011]"
+- 1.2.11: "Discuss the use of over-the-counter medications and preparations with people with GAD.
+  Explain the potential for interactions with other prescribed and over-the-counter medications and the
+  lack of evidence to support their safe use. [2011]"
+- 1.2.18: "If a person with GAD chooses a high-intensity psychological intervention, offer either CBT
+  or applied relaxation. [2011]" 1.2.20: applied relaxation "should: be based on the treatment manuals
+  used in the clinical trials of applied relaxation for GAD"; "be delivered by trained and competent
+  practitioners"; "usually consist of 12 to 15 weekly sessions ... each lasting 1 hour." (The ellipsis
+  stands for a parenthesis about fewer or more sessions.)
+
+**What the page does not say, checked by searching the fetched text.** "Mindfulness", "breathing",
+"yoga" and "physical activity" do not occur anywhere on the Recommendations page. "Exercise" occurs
+twice: once as a verb in 1.2.41 ("exercise caution"), and once as a treatment, at 1.3.11 for panic
+disorder, the 2004 sentence source 1 already flags. **No GAD recommendation names exercise as a
+treatment.** **So a lesson may not say NICE recommends exercise or mindfulness for anxiety**; it recommends
+them for less severe depression (source 2), which is a different guideline and a different disorder.
+
+### 19b. Self-help for anxiety disorders: the Cochrane review
+
+**Mayo-Wilson E, Montgomery P, "Media-delivered cognitive behavioural therapy and behavioural therapy
+(self-help) for anxiety disorders in adults", *Cochrane Database of Systematic Reviews* 2013, issue 9,
+CD005330, doi 10.1002/14651858.CD005330.pub4, PMC11694413.** **Read: abstract in full.** Searches ran to
+1 January 2013; PTSD excluded by design.
+
+- Verbatim: "One hundred and one studies with 8403 participants were included; 92 studies were
+  included in the quantitative synthesis."
+- Verbatim: "For the primary outcome of symptoms of anxiety, moderate-quality evidence showed medium
+  effects compared with no intervention (standardised mean difference (SMD) 0.67, 95% confidence
+  interval (CI) 0.55 to 0.80; 72 studies, 4537 participants), and low-quality evidence of small effects
+  favoured face-to-face therapy (SMD -0.23, 95% CI -0.36 to -0.09; 24 studies, 1360 participants)."
+- Verbatim: "Inconsistency and risk of bias reduced our confidence in the overall results."
+- Verbatim, and this must travel with the face-to-face comparison: "the latter comparison included
+  versions of therapies that were not as comprehensive as those provided in routine clinical
+  practice."
+- Verbatim: "Evidence regarding harm was lacking."
+- Verbatim, conclusions: "Self-help may be useful for people who are not able or are not willing to use
+  other services for people with anxiety disorders; for people who can access it, face-to-face
+  cognitive behavioural therapy is probably clinically superior."
+- Verbatim: "Most interventions tested are not available to consumers." And: "Self-help has been
+  recommended as the first step in the treatment of some anxiety disorders, but the short-term and
+  long-term effectiveness of media-delivered interventions has not been established."
+- Note the selection criteria: "no intervention" here explicitly includes "attention/relaxation
+  controls", so the 0.67 is not a pure waiting-list figure.
+
+**That last conclusions sentence is the most useful single line in this pass** for a course that is
+itself a piece of self-help: the Cochrane authors say, of the kind of thing the reader is doing, that
+its "short-term and long-term effectiveness" "has not been established", while their own pooled
+estimate against no intervention is medium. Both halves go in, and a lesson does not resolve the
+tension between them by guessing what the authors meant.
+
+### 19c. Three further meta-analyses of self-help for anxiety
+
+**Haug T, Nordgreen T, Öst LG, Havik OE, "Self-help treatment of anxiety disorders: a meta-analysis and
+meta-regression of effects and potential moderators", *Clinical Psychology Review* 32(5), 2012, pp. 425
+to 445, doi 10.1016/j.cpr.2012.04.002.** **Read: abstract in full.**
+- Verbatim: "a total sample of 56 articles with 82 comparisons. When self-help treatment was compared
+  to wait-list or placebo, a meta-analysis indicated a moderate to large effect size (g=0.78). When
+  self-help treatment was compared to face-to-face treatment, results indicated a small effect that
+  favored the latter (g=-0.20)."
+- Verbatim: "only recruitment procedures remained significant in a multiple meta-regression analysis."
+  (The abstract does not say which recruitment route did better, so no lesson may.)
+
+**Lewis C, Pearce J, Bisson JI, "Efficacy, cost-effectiveness and acceptability of self-help
+interventions for anxiety disorders: systematic review", *British Journal of Psychiatry* 200(1), 2012,
+pp. 15 to 21, doi 10.1192/bjp.bp.110.084756.** **Read: abstract in full.**
+- Verbatim: "Thirty-one RCTs met inclusion criteria for the review. Results of the overall
+  meta-analysis comparing self-help with waiting list gave a significant effect size of 0.84 in favour of
+  self-help. Comparison of self-help with therapist-administered treatments revealed a significant
+  difference in favour of the latter with an effect size of 0.34."
+- Verbatim: "The addition of guidance and the presentation of multimedia or web-based self-help
+  materials improved treatment outcome."
+- Verbatim, and note which disorders it names: "Self-help interventions appear to be an effective way of
+  treating individuals diagnosed with social phobia and panic disorder." **GAD is not in that
+  sentence.** The abstract does not say why; a lesson must not guess.
+
+**Pauley D, Cuijpers P, Papola D, Miguel C, Karyotaki E, "Two decades of digital interventions for
+anxiety disorders: a systematic review and meta-analysis of treatment effectiveness", *Psychological
+Medicine* 53(2), 2023, pp. 567 to 579, doi 10.1017/s0033291721001999, PMC9899576.** **Read: abstract in
+full.** Searches to 1 January 2020; controls were "wait-list and care-as-usual".
+- Verbatim: "Forty-seven randomized controlled trials (53 comparisons; 4958 participants) contributed to
+  the meta-analysis."
+- Verbatim: "A large, pooled effect size of g = 0.80 [95% Confidence Interval: 0.68-0.93] was found in
+  favor of digital interventions. Moderate to large pooled effect sizes favoring digital interventions
+  were found for generalized anxiety disorder (g = 0.62), mixed anxiety samples (g = 0.68), panic disorder
+  with or without agoraphobia (g = 1.08) and social anxiety disorder (g = 0.76) subgroups."
+- Verbatim: "Notably, the effects of guided interventions (g = 0.84) and unguided interventions (g = 0.64)
+  were not significantly different."
+- Verbatim: "Supplemental analysis comparing digital and face-to-face interventions (9 comparisons; 683
+  participants) found no significant difference in effect [g = 0.14 favoring digital interventions;
+  Confidence Interval: -0.01 to 0.30]."
+
+**Read 19b and 19c together.** Against waiting list or no treatment, self-help for anxiety comes out at
+g or SMD 0.67 to 0.84 across four reviews. Against face-to-face therapy, three of them find a small
+deficit (0.20 to 0.34) and the most recent, on digital programmes and nine comparisons, finds none.
+**Nobody in this set compares self-help for anxiety with an attention or psychological placebo
+control alone**, which is the comparison that would say how much of the 0.8 is the method.
+
+### 19d. Therapist-supported internet CBT for anxiety: the Cochrane review
+
+**Olthuis JV, Watt MC, Bailey K, Hayden JA, Stewart SH, "Therapist-supported Internet cognitive
+behavioural therapy for anxiety disorders in adults", *Cochrane Database of Systematic Reviews* 2016,
+issue 3, CD011565, doi 10.1002/14651858.CD011565.pub2, PMC7077612.** **Read: abstract in full.**
+Searches to 16 March 2015.
+
+- Verbatim: "We screened 1736 citations and selected 38 studies (3214 participants) for inclusion. The
+  studies examined social phobia (11 trials), panic disorder with or without agoraphobia (8 trials),
+  generalized anxiety disorder (5 trials)".
+- Verbatim: "Studies were conducted in Sweden (18 trials), Australia (14 trials), Switzerland (3
+  trials), the Netherlands (2 trials), and the USA (1 trial)".
+- Against waiting list and similar, verbatim: "general anxiety symptoms at post-treatment (19 studies,
+  1496 participants; SMD -0.75, 95% CI -0.98 to -0.52; I(2) = 78%) favoured therapist-supported ICBT; the
+  quality of the evidence for both outcomes was low."
+- Guided against unguided, verbatim: "there may not be a significant difference in outcome between
+  unguided CBT and therapist-supported ICBT; however, this latter finding must be interpreted with
+  caution due to imprecision." The evidence for that comparison is graded "very low quality".
+- Against face-to-face, verbatim: "The evidence suggests that therapist-supported ICBT may not be
+  significantly different from face-to-face CBT in reducing anxiety."
+- Verbatim: "Adverse events were rarely reported."
+
+**Two things a lesson keeps.** Thirty-two of thirty-eight trials were run in two countries, which
+bounds what the result says about anybody else's health system. And **on whether a guide matters
+for anxiety, this review and Pauley (19c) both find no significant difference, at very low
+certainty here**, which is not the same as the depression finding in source 6b, where the guide
+mattered more as symptoms rose. A lesson must not carry 6b's pattern across to anxiety.
+
+### 19e. GAD: psychological therapy, internet treatment, and what a comparison can mean
+
+**Hunot V, Churchill R, Silva de Lima M, Teixeira V, "Psychological therapies for generalised anxiety
+disorder", *Cochrane Database of Systematic Reviews* 2007, issue 1, CD001848, doi
+10.1002/14651858.CD001848.pub4, PMC7025441.** **Read: abstract in full.** Searches to February 2006.
+**It is old**, and no newer version of this review was found in the Europe PMC search; a lesson gives
+its date.
+- Verbatim: "Based on thirteen studies, psychological therapies, all using a CBT approach, were more
+  effective than TAU/WL in achieving clinical response at post-treatment (RR 0.63, 95%CI 0.55 to 0.73),
+  and also in reducing anxiety, worry and depression symptoms. No studies conducted longer-term
+  assessments of CBT against TAU/WL."
+- Verbatim: "No significant difference in clinical response was indicated between CBT and supportive
+  therapy at post-treatment (RR 0.86, 95%CI 0.70 to 1.06), however significant heterogeneity was
+  indicated".
+- **The RR of 0.63 is a risk of non-response**, which is why it is below 1 in CBT's favour. A lesson
+  that prints it must say so, or a reader will read it backwards.
+
+**Cuijpers P, Sijbrandij M, Koole S, Huibers M, Berking M, Andersson G, "Psychological treatment of
+generalized anxiety disorder: a meta-analysis", *Clinical Psychology Review* 34(2), 2014, pp. 130 to
+140, doi 10.1016/j.cpr.2014.01.002.** **Read: abstract in full.**
+- Verbatim: "A total of 41 studies (with 2132 patients meeting diagnostic criteria for GAD)". And: "The
+  majority of studies used waiting lists as control condition. The pooled effect of the 38 comparisons
+  (from 28 studies) of psychotherapy versus a control group was large (g=0.84; 95% CI: 0.71-0.97)".
+- Verbatim: "The effects based on self-report measures were somewhat lower than those based on
+  clinician-rated instruments." And: "There were some indications for publication bias."
+- Verbatim: "There were some indications that CBT was also effective at follow-up and that CBT was more
+  effective than applied relaxation in the longer term."
+
+**Flückiger C, Carratta K, Del Re AC, Probst G, Vîslă A, Gómez Penedo JM, Wampold BE, "The relative
+efficacy of bona fide cognitive behavioral therapy and applied relaxation for generalized anxiety
+disorder at follow-up: A longitudinal multilevel meta-analysis", *Journal of Consulting and Clinical
+Psychology* 90(4), 2022, pp. 339 to 352, doi 10.1037/ccp0000717.** **Read: abstract in full.**
+- Verbatim: "In total, 54 repeated effect sizes nested in 23 studies were included". And: "When
+  contrasting applied relaxation with CBT without applied relaxation, negligible relative efficacy
+  differences were found at each assessment time."
+
+**Cuijpers 2014 and Flückiger 2022 disagree on applied relaxation**, gently: "some indications" that
+CBT was better in the longer term against "negligible" differences at every time point. NICE offers
+both at step 3 (19a). **Classification under 3.1: contested, and small either way.** Both are abstracts;
+neither says more than that here.
+
+**Eilert N, Enrique A, Wogan R, Mooney O, Timulak L, Richards D, "The effectiveness of
+Internet-delivered treatment for generalized anxiety disorder: An updated systematic review and
+meta-analysis", *Depression and Anxiety* 38(2), 2021, pp. 196 to 219, doi 10.1002/da.23115,
+PMC7894171.** **Read: abstract in full.**
+- Verbatim: "Twenty studies met eligibility criteria and were included in the meta-analysis.
+  Random-effect models detected large effect sizes for primary outcomes of anxiety (g = 0.79) and worry
+  (g = 0.75), favoring treatment."
+- Verbatim: "Considerable heterogeneity between studies appeared moderated by variability in the
+  interventions themselves". The abstract does not name the control conditions, so **no lesson may say
+  what 0.79 was measured against** beyond control conditions in randomised trials.
+
+**Carl E, Witcraft SM, Kauffman BY, Gillespie EM, Becker ES, Cuijpers P, Van Ameringen M, Smits JAJ,
+Powers MB, "Psychological and pharmacological treatments for generalized anxiety disorder (GAD): a
+meta-analysis of randomized controlled trials", *Cognitive Behaviour Therapy* 49(1), 2020, pp. 1 to 21,
+doi 10.1080/16506073.2018.1560358, PMC7063818.** **Read: abstract in full.** (Europe PMC prints Smits JAJ
+twice in the author string; it is given once here.)
+- Verbatim: "Seventy-nine randomized controlled trials (RCT) including 11,002 participants with a
+  diagnosis of GAD were included". And: "Psychotherapy showed a medium to large effect size (g = 0.76)
+  and medication showed a small effect size (g = 0.38) on GAD outcomes."
+- Verbatim, **and this is the reason the paper is in the file**: "Because medication studies had more
+  placebo control conditions than inactive conditions compared to psychotherapy studies, effect sizes
+  between the domains should not be compared directly."
+- Verbatim: "There was evidence of publication bias in psychotherapy studies."
+
+**Carl is the anxiety twin of the trap in source 5**, and better, because the authors state the trap
+themselves in the abstract. A lesson can print 0.76 and 0.38 side by side and then the authors'
+sentence telling the reader not to compare them.
+
+**Zhu Z, Zhang L, Jiang J, Li W, Cao X, Zhou Z, Zhang T, Li C, "Comparison of psychological placebo and
+waiting list control conditions in the assessment of cognitive behavioral therapy for the treatment of
+generalized anxiety disorder: a meta-analysis", *Shanghai Archives of Psychiatry* 26(6), 2014, pp. 319
+to 331, doi 10.11919/j.issn.1002-0829.214173, PMC4311105.** **Read: abstract in full.**
+- Verbatim: "Twelve studies with a combined sample size of 531 were included in the analysis." And:
+  "Provision of a psychological placebo was associated with a significantly greater reduction of
+  symptoms than placement on a waiting list."
+- Verbatim, qualifier: "Eight of the studies were classified as 'high risk of bias', and the overall
+  level of evidence was classified as 'moderate', indicating that further research could change the
+  overall results of the meta-analysis."
+
+**Zhu is Furukawa's (source 7) finding in GAD specifically**, smaller and with the same honesty about
+quality. Together they carry the course's comparator question into anxiety without borrowing from
+depression.
+
+### 19f. Worry postponement and stimulus control: a technique, tested alone
+
+**This is the part of the anxiety literature that stays thin after this pass**, and it is the part a
+reader is likeliest to be handed as a tip: set aside a fixed time of day for worrying. The pass found individual
+trials and no meta-analysis. They are listed here so that a lesson can show a technique being tested
+and not always passing.
+
+**Borkovec TD, Wilkinson L, Folensbee R, Lerman C, "Stimulus control applications to the treatment of
+worry", *Behaviour Research and Therapy* 21(3), 1983, pp. 247 to 251, doi
+10.1016/0005-7967(83)90206-1.** **Not read: Europe PMC holds no abstract.** It is the paper later
+trials cite as the origin of the method; a lesson may name it as that and cite nothing from it.
+
+**McGowan SK, Behar E, "A preliminary investigation of stimulus control training for worry: effects on
+anxiety and insomnia", *Behavior Modification* 37(1), 2013, pp. 90 to 112, doi
+10.1177/0145445512455661.** **Read: abstract in full.**
+- Verbatim: "A total of 53 participants with high trait worry were randomly assigned to receive 2 weeks
+  of either SC training (consisting of a 30-min time- and place-restricted worry period each day) or a
+  control condition called focused worry". And: "At post-training, SC was superior to FW in producing
+  reductions on measures of worry, anxiety, negative affect, and insomnia, but not on measures of
+  depression or positive affect."
+- Verbatim, the authors' own framing: "Results provide preliminary support for the use of SC training
+  techniques in larger treatment packages for individuals who experience high levels of worry."
+  **In larger treatment packages**: the authors do not propose it as a stand-alone.
+
+**Versluis A, Verkuil B, Brosschot JF, "Reducing worry and subjective health complaints: A randomized
+trial of an internet-delivered worry postponement intervention", *British Journal of Health
+Psychology* 21(2), 2016, pp. 318 to 335, doi 10.1111/bjhp.12170.** **Read: abstract in full.**
+- Verbatim: "Via the research website, 996 participants were instructed to register their worrying for
+  6 consecutive days. The intervention group was instructed to postpone worry to a special 30-min period
+  in the early evening."
+- Verbatim: "Three hundred and sixty-one participants completed the study. Contrary to our expectation,
+  the registration group (n = 188) did not differ from the intervention group (n = 163) in SHC ... or in
+  worry frequency or duration." (The ellipsis stands for a parenthesis of statistics.)
+- Verbatim: "Overall, participants had high trait worry levels and reported difficulty with postponing
+  worrying."
+- **Two things to teach from it**: 361 of 996 completed, and the comparison was against people who
+  simply recorded their worry, which is itself an intervention of a kind.
+
+**Krzikalla C, Buhlmann U, Schug J, Kopei I, Gerlach AL, Doebler P, Morina N, Andor T, "Worry
+Postponement From the Metacognitive Perspective: A Randomized Waitlist-Controlled Trial", *Clinical
+Psychology in Europe* 6(2), 2024, e12741, doi 10.32872/cpe.12741, PMC11303915.** **Read: abstract in
+full.**
+- Verbatim, the state of the field as its authors describe it: "Worry postponement (WP) with a stimulus
+  control rationale appears to be effective in non-clinical samples. However, preliminary research in
+  participants with generalized anxiety disorder (GAD) does not support its efficacy in reducing
+  negative metacognitions or worry."
+- Verbatim: "Participants with GAD (n = 47) or hypochondriasis (HYP; n = 35) were randomly assigned to
+  either an intervention group (IG) or waitlist (WL). The IG received a two-session long WP
+  intervention". And: "revealed significantly lower worry scores in the treated GAD sample compared to
+  the WL, representing the only significant effect."
+- **Waitlist control, 47 people with GAD, two sessions with a clinician.** It is not evidence for a
+  reader doing it alone.
+
+**McCarrick D, Prestwich A, Ferguson E, O'Connor DB, "Effects of worry postponement on daily worry and
+sleep: a randomised controlled trial", *Psychology & Health* 2025, online ahead of print, doi
+10.1080/08870446.2025.2590072.** **Read: abstract in full.**
+- Verbatim: "A four-armed (online) randomised controlled trial (RCT) was conducted ... within 186
+  participants ... across 14 days." (The ellipses stand for the measurement design and the age
+  statistics.)
+- Verbatim: "Participants in the augmented arm reported significantly lower worry duration (by ∼15
+  min), relative to the standard worry postponement arm alone. However, the intervention arms did not
+  produce significant improvements in any of the sleep outcomes, relative to the control groups."
+- **Read the comparison**: the significant result is augmented against standard postponement, not
+  postponement against control. The abstract does not report postponement against control on worry.
+
+**Hoyer J, Beesdo K, Gloster AT, Runge J, Höfler M, Becker ES, "Worry exposure versus applied
+relaxation in the treatment of generalized anxiety disorder", *Psychotherapy and Psychosomatics* 78(2),
+2009, pp. 106 to 115, doi 10.1159/000201936.** **Read: abstract in full.**
+- Verbatim: "73 outpatients meeting DSM-IV criteria for GAD as primary diagnosis were allocated to
+  either WE or AR or a waiting list control group". And: "The treatment was manualized (15 sessions with
+  WE or AR)". And: "The proportion of patients reaching high end state functioning was 48% (WE) and 56%
+  (AR). WE and AR did not differ with regard to dropout rate or treatment effects."
+- **Fifteen sessions with a therapist.** It shows what a worry technique looks like when it is a
+  treatment, and it is the clearest contrast with a tip.
+
+**How to hold 19f.** Worry postponement is a **component** of CBT packages for worry, with small trials
+on its own that run from positive (McGowan, high-worry volunteers, two weeks; Krzikalla, GAD, with a
+clinician, against waitlist) to null (Versluis, online, general population), and its own recent
+authors describe the GAD evidence as not supportive before their trial. **Classification: contested,
+at the level of single small trials.** A lesson may describe what the trials instructed people to do,
+as a description of a study; it must not present it as a recommended method or give instructions in
+the course's voice.
+
+### 19g. Exercise for anxiety
+
+**Aylett E, Small N, Bower P, "Exercise in the treatment of clinical anxiety in general practice - a
+systematic review and meta-analysis", *BMC Health Services Research* 18(1), 2018, article 559, doi
+10.1186/s12913-018-3313-5, PMC6048763.** **Read: abstract in full.**
+- Verbatim: "Fifteen studies were identified with a total of 675 patients. Nine trials had participants
+  with diagnosed anxiety disorders and six trials had participants with raised anxiety on a validated
+  rating scale. Aerobic exercise was effective in the treatment of raised anxiety compared to waiting list
+  control groups (effect size - 0.41, 95% CI = - 0.70 to - 0.12)." (Spacing as printed.)
+- Verbatim: "High intensity exercise programmes showed greater effects than low intensity programmes."
+- Verbatim: "Conclusions were limited by the small number of studies and wide variation in the delivery
+  of exercise interventions."
+
+**Stubbs B, Vancampfort D, Rosenbaum S, Firth J, Cosco T, Veronese N, Salum GA, Schuch FB, "An
+examination of the anxiolytic effects of exercise for people with anxiety and stress-related disorders:
+A meta-analysis", *Psychiatry Research* 249, 2017, pp. 102 to 108, doi 10.1016/j.psychres.2016.12.020.**
+**Read: abstract in full.**
+- Verbatim: "The literature regarding exercise for people with established anxiety disorders is
+  equivocal." And: "six randomized control trials (RCTs) including 262 adults".
+- Verbatim: "Exercise significantly decreased anxiety symptoms more than control conditions, with a
+  moderate effect size (Standardized Mean Difference=-0.582, 95%CI -1.0 to -0.76, p=0.02)."
+  **The confidence interval as printed does not contain the point estimate**, so it is a typographical
+  error in the abstract and the true interval is unknown here. **A lesson must not print that interval.**
+  It may give the SMD, the 262 adults and the six trials.
+
+**Vancampfort D, Heissel A, Waclawovsky A, Stubbs B, Firth J, McGrath RL, Van Damme T, Schuch FB,
+"Precision-based exercise in people with anxiety and stress related disorders: Are there
+interindividual differences in anxiolytic effects? An ancillary meta-analysis of randomized controlled
+trials", *Psychiatry Research* 317, 2022, 114803, doi 10.1016/j.psychres.2022.114803.** **Read: abstract
+in full.** Verbatim: "(8 arms from 7 original studies, n participants=322)". And: "Aerobic exercise and
+resistance training showed significant anxiolytic effects." It adds seven trials' worth, not a new body
+of evidence.
+
+**The Europe PMC search for a Cochrane review of exercise for anxiety in adults found none**; the one
+it returned is for children and adolescents (Bailey, Castellano, Aleman, 2022), outside the course. With
+Singh's median of -0.42 for anxiety (8e), from reviews most of which scored "critically low", **the anxiety
+side of the exercise question is several hundred people in small trials, mostly against waiting
+lists**, against the depression side's 73-trial Cochrane review. A lesson on exercise says that
+asymmetry in terms.
+
+### 19h. Mindfulness against a drug, for anxiety disorders
+
+**Hoge EA, Bui E, Mete M, Dutton MA, Baker AW, Simon NM, "Mindfulness-Based Stress Reduction vs
+Escitalopram for the Treatment of Adults With Anxiety Disorders: A Randomized Clinical Trial", *JAMA
+Psychiatry* 80(1), 2023, pp. 13 to 21, doi 10.1001/jamapsychiatry.2022.3679, PMC9647561.** **Read:
+abstract in full.**
+- Design, verbatim: "This randomized clinical trial (Treatments for Anxiety: Meditation and Escitalopram
+  [TAME]) included a noninferiority design with a prespecified noninferiority margin." And: "The outcome
+  assessments were performed by blinded clinical interviewer".
+- Sample, verbatim: "276 adults with a diagnosed anxiety disorder from 3 urban academic medical centers
+  in the US were recruited for the trial, and 208 completed the trial."
+- Result, verbatim: "The difference between groups was -0.07 (0.16; 95% CI, -0.38 to 0.23; P = .65),
+  where the lower bound of the interval fell within the predefined noninferiority margin of -0.495,
+  indicating noninferiority of MBSR compared with escitalopram."
+- Harms, verbatim: "At least 1 study-related adverse event occurred for 110 participants randomized to
+  escitalopram (78.6%) and 21 participants randomized to MBSR (15.4%)."
+- **What it does not have**: a placebo or no-treatment arm, so it cannot say how much either group
+  improved because of its treatment; and it is one trial. The primary sample is the 208 who completed.
+
+**Why it is in the file.** Van Dam and colleagues (9e, 2018) wrote that MBIs are "sometimes misleadingly
+described as 'comparable'" to antidepressants. **Five years later a trial designed to test exactly
+that, in anxiety disorders, reported noninferiority.** The two are not in contradiction: Van Dam was
+describing the evidence then and the claims made on it; Hoge is one well-designed trial since. A
+lesson can set them side by side, and the Turing test runs both ways: the trial's authors would say
+their design answered the objection, and a Van Dam-style critic would say one noninferiority trial
+without a placebo arm is where a claim of comparability starts, not where it ends. **The drug's name
+appears in the trial's title; the course's decision on naming drugs is in the outline.** No dose from
+this abstract may appear anywhere in the course.
+
+### 19i. The positivity-ratio correction, checked once more
+
+PubMed's record for Fredrickson and Losada 2005 (PMID 16221001), fetched through the NCBI E-utilities
+service on 2026-09-23, lists under comments and corrections an entry of type "ErratumIn" pointing to
+*American Psychologist* 2013 Dec;68(9):822, alongside the Brown, Sokal and Friedman critique and four
+2014 comments. **It lists no retraction.** The erratum's text was not read. So the finding in source 14
+stands and is sharpened: **the journal record carries an erratum, not a retraction**, and a lesson may
+say that PubMed indexes an erratum and must not describe what the erratum says.
+
+---
+
 ## What the field considers essential
 
 1. **Ordinary stress, worry and low mood are not disorders, and the line is drawn by duration,
@@ -1204,7 +1617,7 @@ site decision the outline should raise (see Open concerns).
   (source 5), to get the self-help and control-condition subgroup figures; the Keller full text (15a),
   for its limitations section; Frattaroli's moderators (source 12), which need library access; the
   NICE public-information pages; and the APA depression guideline, blocked here.
-- **Anxiety evidence is thinner than depression evidence in this file.** Most of the method reviews
+- **Closed at Stage 2 by source 19, 2026-09-23. Kept for the record.** **Anxiety evidence is thinner than depression evidence in this file.** Most of the method reviews
   (BA, exercise, iCBT, CBT) are about depression. The anxiety-specific numbers are Goyal's anxiety effect
   (9a), Galante's (9b), Linardon's GAD figure (6), Fincham's secondary outcome (11) and Kunzler's null
   (13c). **A lesson on worry specifically has CG113 and little else**; a second Stage 1 pass on self-help
@@ -1215,7 +1628,7 @@ site decision the outline should raise (see Open concerns).
   and community health centres), which this file did not research. Either research it or say plainly that
   "a doctor" is the route and the course cannot map a health system.
 - **The positivity-ratio correction notice was not found.** Until it is read, lessons use neither
-  "retracted" nor "partially retracted".
+  "retracted" nor "partially retracted". Source 19i adds that PubMed indexes an erratum and no retraction.
 - **The unread line may need an exemption for McGonigal** on the stress-mindset lesson, decided at Stage 2.
 - **The course's likeliest reader is distressed and wants to be told what to do**, as with Sleep, but the
   stakes are higher: some readers will be in crisis. Every lesson will be read as advice. This file's
