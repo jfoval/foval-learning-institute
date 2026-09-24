@@ -16,12 +16,13 @@ description: >-
   certificate and not a substitute for hands-on training, and it says so; it is the knowledge
   that makes a practical class, and a real emergency, less frightening.
 outcomes:
-  - Recognise an emergency, keep yourself safe, and call for help with the information a dispatcher needs
-  - Recognise cardiac arrest and give hands-only and full CPR at the recommended rate and depth, and use an AED
-  - Put an unresponsive, breathing casualty in the recovery position and monitor them
-  - Clear choking in an adult, a child and an infant as current guidance describes
-  - Control severe bleeding with pressure, and say when a tourniquet is recommended
-  - Give first aid for burns, and recognise stroke, heart attack, severe allergic reaction and seizure
-  - Say where the major guidelines differ and why, and where hands-on training comes in
+  - Decide what to do in the first minute of an emergency, from checking for danger to calling your local emergency number on speaker, and state what the call handler needs from you
+  - Recognise cardiac arrest, including gasping, and state the compression rate, depth and ratio that the 2025 US and UK guidelines give, with the reason for each
+  - Describe how to use an AED, and explain why every minute before the first shock matters
+  - Sequence CPR for a child, a baby and a drowned person under US and UK/European guidance, and say where the two differ
+  - Decide between CPR, the recovery position and naloxone for someone who is unresponsive, and sequence the response to choking and to severe bleeding, including when a tourniquet is recommended
+  - State the first aid for burns, small wounds and injuries to bones, the head and the spine, and say when each needs a doctor
+  - Recognise a heart attack, a stroke, anaphylaxis, an asthma attack, a seizure, low blood sugar, poisoning, and heat and cold illness, and state what a bystander does for each
+  - Say which guideline and year each instruction comes from and how strong its evidence is, and choose the hands-on training that reading can't replace
 prerequisites: []
 sensitive_domain: true

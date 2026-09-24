@@ -830,6 +830,15 @@ function lintLessons() {
             fail(`${file}: the safety callout is missing or differs from the standard text. Every Strength and Fitness lesson carries it word for word (research/OUTLINE.md decision 1); the text is in scripts/build.mjs.`);
         }
 
+        // First Aid and CPR outline decision 4: the same safety callout on every lesson, word for
+        // word, directly after the opening paragraph. It carries the emergency numbers and says the
+        // course is not a certificate, for a reader who arrives at any lesson from a search engine.
+        if (cdir.name === "first-aid" && path.basename(lessonsDir) === "lessons") {
+          const FIRST_AID_SAFETY = ":::callout Before you need this\nThis course is education, not a certificate, and not medical advice about anyone's own situation. In an emergency, call your local emergency number first (911 in the US, 999 or 112 in the UK, 112 across the EU), put the phone on speaker, and do what the call handler tells you. Reading can teach you what to do and in what order. It can't teach your hands how hard to push or how a back blow should feel, so take a hands-on class with a manikin and an instructor, and practise between classes. Each instruction here names the guideline and year it comes from, and guidance changes.\n:::";
+          if (!src.replace(/\r\n/g, "\n").includes(FIRST_AID_SAFETY))
+            fail(`${file}: the safety callout is missing or differs from the standard text. Every First Aid and CPR lesson carries it word for word (research/OUTLINE.md); the text is in scripts/build.mjs.`);
+        }
+
         // STYLE_GUIDE: contractions. "Their absence is the fastest way to sound like a
         // manual." Four consecutive Digital Literacy lessons were sent back by Stage 4 for
         // this and nothing else would have caught it: 1 in 4,739 body words on lesson 8,
@@ -1069,7 +1078,17 @@ lintLessons();
 //     check enforces that it is identical (its outline's decision 1).
 //   - Nutrition carries the same safety callout in every lesson, word for word, enforced the same way.
 //   - Strength and Fitness carries the same safety callout in every lesson, enforced the same way.
+//   - First Aid and CPR carries the same safety callout in every lesson, enforced the same way.
+//   - Cooking Fundamentals repeats its higher-risk callout in lessons 4, 5 and 7 by its outline's
+//     design; it is not enforced by a check, so a change must be made in all three.
 const REPETITION_EXEMPT = [
+  "this course is education not a certificate and not medical advice about anyone s own situation",
+  "in an emergency call your local emergency number first 911 in the us 999 or 112 in the uk 112 across the eu",
+  "it can t teach your hands how hard to push or how a back blow should feel",
+  "food poisoning is more dangerous for anyone who is pregnant aged 65 or over a young child",
+  "if you re cooking for someone in one of these groups cook burgers and other mince all the",
+  "if they are pregnant 65 or over or have a weakened immune system check your country s list",
+  "if they are severely immunocompromised ask their doctor what they can eat",
   "that cost is far more than the four hundred thousand pounds left in this year s capital budget",
   "this course holds the christian reading and says so on its first line",
   "if you re thinking about suicide or self harm or don t feel able to keep yourself safe",

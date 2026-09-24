@@ -708,6 +708,8 @@ states a different target, so there is no longer a disagreement to settle.
 
 These have no session that owns them, which is how they were being skipped.
 
+- **When ILCOR publishes a new CoSTR, or the AHA, Red Cross, ERC or RCUK issue a guideline or
+  correction, re-check First Aid and CPR.** Every instruction names its body and year, so it's a search.
 - **John reads one lesson as a learner, on a phone.** Writing Clearly first, since nobody has read
   one yet. The only human check in the pipeline is this reading; the reviewer and the drafter are
   the same model. Say what was thin, wrong or unclear in the lesson's feedback form or in a session.
