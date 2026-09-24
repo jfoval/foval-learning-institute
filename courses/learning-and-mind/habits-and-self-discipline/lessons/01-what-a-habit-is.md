@@ -1,6 +1,7 @@
 ---
 title: What a habit actually is
 minutes: 85
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/learning-and-mind/habits-and-self-discipline/01-what-a-habit-is.mp3
 objectives:
   - >-
     State the definition of a habit that the research uses, and say what separates it from a
