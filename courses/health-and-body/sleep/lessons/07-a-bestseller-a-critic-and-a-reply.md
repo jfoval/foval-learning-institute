@@ -1,6 +1,7 @@
 ---
 title: A bestseller, a critic, and a reply
 minutes: 100
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/health-and-body/sleep/07-a-bestseller-a-critic-and-a-reply.mp3
 objectives:
   - >-
     Trace one claim from a research literature into a popular paragraph and name what changed on the
