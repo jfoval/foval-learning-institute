@@ -753,6 +753,29 @@ Three abstracts read via Europe PMC (appendix A9 to A11), used here as examples 
   indicated that the difference could be much more substantial, in either direction." **This is the
   best empirical answer to "do cohorts and trials agree?" and it partly vindicates each side.**
 
+  *Added 2026-09-24 at lesson 01's Stage 4:* **Two passages of the full text read**, the Methods
+  paragraph on how the pairs were compared and the first paragraph of the Results, fetched with curl
+  from Europe PMC's fullTextXML for PMC8441535 and stripped of markup by script. The rest of the full
+  text was not read. They change how the abstract's 1.09 may be taught, in two ways. First, it pools
+  only the pairs with binary outcomes, not all 97. Second, the authors say the ratio shows a
+  difference between the two bodies of evidence, not which one finds the bigger effect, and give an
+  example in which less benefit and more harm in the trials produce the same ratio. Verbatim (a
+  superscript reference numeral, 30, after "ratio of risk ratios," is omitted from the first):
+  - "Binary outcomes were expressed as ratio of risk ratios, while continuous outcomes were
+    expressed as differences of mean differences. By using the BoE of cohort studies as the
+    reference group, we examined the pooled estimate to determine a relatively larger or smaller
+    estimate from the BoE of randomised controlled trials (that is, effect of BoE of trials > effect
+    of BoE of cohort studies, or effect of BoE of trials < effect of BoE of cohort studies)."
+  - "For example, a risk ratio from randomised controlled trials of 0.95 and a risk ratio from
+    cohort studies of 0.90 would result in a ratio of risk ratios of 1.06; whereas a risk of 1.00 in
+    cohort studies compared with a risk ratio of 1.06 in randomised controlled trials would also
+    result in a ratio of risk ratios of 1.06. Therefore, the ratio of risk ratios should not be
+    interpreted as larger or smaller treatment effects in one type of study (eg, randomised
+    controlled trials), but only as differences between the two BoEs; and the direction of
+    difference depends on direction of effect of the underlying BoEs."
+  - Results: "Of the identified 97 diet-disease outcome pairs, 83 were included in the meta-analysis
+    (71 binary, 12 continuous)."
+
 ---
 
 ### 5. The Women's Health Initiative Dietary Modification Trial
