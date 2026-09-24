@@ -1,0 +1,34 @@
+id: mental-fitness
+title: Mental Fitness
+school: health-and-body
+subject: Health & the Body
+level: Foundation
+status: research
+summary: >-
+  What stress and anxiety are, what the evidence says about the things people are told to do about
+  them, and how strong that evidence is.
+description: >-
+  Everybody is told how to manage stress, and most of what they are told comes without a grade on
+  it. This course is about the difference between ordinary stress and a clinical problem, what
+  controlled studies have found about the self-help methods people are offered, what the clinical
+  guidelines recommend when it is more than ordinary, and how to read a claim about resilience. It is
+  the last course of the term on running yourself, and it is a health course, so it says throughout
+  what it is and is not entitled to claim, and where a reader should go instead of reading on.
+outcomes:
+  - >-
+    Distinguish ordinary stress and worry from an anxiety disorder or depression as the clinical
+    guidelines define them, and say what this course can and cannot help with
+  - >-
+    State what the evidence shows for a named self-help method, with its design, its sample and the
+    strength a guideline attaches to it
+  - >-
+    Compare what named clinical guidelines recommend first for anxiety and depression, and read the
+    grade each attaches
+  - >-
+    Trace a popular claim about stress or resilience back to its source and say what changed on the
+    way
+  - >-
+    Decide what, if anything, to change, and say what the decision rests on and when it stops being a
+    self-help question
+prerequisites: [how-to-learn-anything, sleep]
+sensitive_domain: true
