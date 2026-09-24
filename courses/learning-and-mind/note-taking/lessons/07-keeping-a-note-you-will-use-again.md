@@ -1,6 +1,7 @@
 ---
 title: Keeping a note you will use again
 minutes: 95
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/learning-and-mind/note-taking/07-keeping-a-note-you-will-use-again.mp3
 objectives:
   - >-
     Design a review routine for a body of notes, using retrieval and spacing from How to Learn
