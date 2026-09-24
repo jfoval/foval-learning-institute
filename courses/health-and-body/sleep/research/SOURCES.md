@@ -594,6 +594,73 @@ level, the author:
 - Undertakes further corrections in future editions, including to participant numbers and to how
   cardiovascular outcomes were described.
 
+**Raised on 2026-09-23: both (b) and (c) fetched in full and the passages below read and copied
+verbatim**, before lesson 7 was drafted. Still not read: the book itself, and every study either
+document cites. (b)'s page now reads "created: 2019-11-15; modified: 2025-07-16", so it has been
+edited since first publication and a lesson should say it read the current version.
+
+**From (b), Guzey, verbatim.**
+
+- Scope: "I hope that going through one full chapter, rather than cherry-picking stuff from across
+  the book, demonstrated the density of errors in the book." He gives his time as "more than 130
+  hours" and says checking the whole book at that pace "would take me more than 3,000 hours".
+- The WHO sentence, which he quotes from the book's page 4: "[T]he World Health Organization (WHO)
+  has now declared a sleep loss epidemic throughout industrialized nations." His verdict: "This is
+  false. The WHO never declared a sleep loss epidemic throughout industrialized nations." He reports
+  that the book's footnote cites a National Geographic film, that he "watched the entire 88-minute
+  long film twice" and that it "never mentions the WHO".
+- The cancer sentence, which he quotes from page 3: "Routinely sleeping less than six or seven hours
+  a night demolishes your immune system, more than doubling your risk of cancer." His verdict begins
+  "This is false. Walker does not cite any studies that support this assertion anywhere in the book."
+  He sets against it a 2018 systematic review (Chen and colleagues, *BMC Cancer*) which, in his
+  words, "involved 1,550,524 participants and 86,201 cancer cases, found that neither short nor long
+  sleep duration was associated with increased cancer risk." **This course has not read that review.**
+- The graph, in the appendix headed "what do you do when a part of the graph contradicts your
+  argument? You cut it out, of course": "The 5 hours of sleep column – which is associated with lower
+  chance of injury than 6 hours of sleep – has simply disappeared." He credits the observation: "this
+  problem was first noticed by Olli Haataja". The study is Milewski and colleagues, 2014, *Journal of
+  Pediatric Orthopaedics*, which this course has not read.
+- What he says he is not saying, from his appendix "things I'm not saying in this essay": "sleep is
+  not important", "sleeping well is not important", "there are no people who naturally need 8 hours
+  of sleep a night".
+- His reason for holding the book to a scholarly standard: the book, he quotes, is "intended to serve
+  as a scientifically accurate intervention".
+
+**From (c), Walker, verbatim.** The page is dated "December 19, 2019" and "February 18, 2021".
+
+- His framing: "The aim of the book, Why We Sleep, is to provide the general public access to a broad
+  collection of sleep research." And: "I very much appreciate being made aware of any errors in the
+  book requiring revision. Furthermore, and as an essential part of what I see to be good scholarly
+  conduct, I have made a full set of corrections to the book. These corrections have now been
+  published in a second edition, which is now in print." **This course has not seen the second
+  edition** and cannot say what it changed.
+- The WHO: "The Centers for Disease Control (CDC) has stated that, "Insufficient sleep is a public
+  health epidemic."" and "The book's misattribution of the CDC statement to the WHO will be corrected
+  in the next edition." His section summary adds: "Both organizations have stated that inadequate and
+  disrupted sleep is dangerous for human health."
+- Cancer: "Short sleep is by no means associated with a higher risk of all forms of cancer. Several
+  studies, however, have indicated that short sleep is associated with a doubling of risk for
+  specific cancers". He then lists four (lung, ovarian, thyroid, myeloma), and adds: "A meta-analysis
+  published after the book was written, which examined 9 main forms of cancer (spanning a total of 20
+  subtype cancers), did not find an association between an all-cancer category and sleep duration."
+  And: "This will be reflected in future editions of the book." **This course has not read any of
+  the studies he lists, and cannot say whether his meta-analysis is Guzey's.**
+- The graph: "As shown in the original study, as the athletes' sleep amount progressively decreased
+  from 9 to 6 hours, injury risk increased. This was depicted in a graphic in the book. The study also
+  reported a group of individuals getting 5 hours of sleep a night. This group's injury risk was also
+  high, though lower than the adjacent 6-hour group. However, noted by the authors in communication,
+  the 5 hour group was of a size small enough to challenge robust estimate of injury risk, and was not
+  represented in the book's graphic." And the remedy: "future editions of the book will include a new
+  graphic. This figure will depict the pooled injury risk of those getting less than 8 hours of sleep,
+  relative to those getting 8 hours or more."
+
+**The cancer exchange is the lesson's best worked example**, because the two documents converge. The
+book's sentence is about cancer in general and uses a causal verb, "demolishes". Guzey cites a review
+finding no association for cancer in general. Walker's reply agrees that the all-cancer association
+was not found in a meta-analysis and narrows the claim to specific cancers, in associational
+language ("is associated with"). **That narrowing is exactly lesson 3's distinction, performed by the
+author himself in public**, and a lesson can show it without reading any of the underlying studies.
+
 **How this must be taught.** Not as a takedown and not as a defence. The three documents are all
 public and all free, the dispute is about specific sentences rather than about character, and **a
 reader can check every step without a library card**, which is rare and valuable. The lesson's job is
