@@ -2798,3 +2798,250 @@ extracted locally; quotations are copied from that text, direct.*
   USDA-graded eggs ... at temperatures that prevent wash water from being “sucked” into the egg."
 - **Marc Anton**: the PDF's header reads "M. ANTON" with the address marc.anton@nantes.inra.fr; the
   first name is taken from that address.
+
+## Gate closures, lesson 7
+
+*Stage 3 top-up for lesson 7, 2026-09-24. Every page below was downloaded with curl and its text
+extracted locally (GOV.UK through the Content API; the MMWR through an Internet Archive capture,
+because cdc.gov refused automated access); quotations are copied from that text, direct, with the
+page's own curly apostrophes and dashes. No Serious Eats page was opened: the two Serious Eats
+articles are read in the publisher's syndicated copies on AOL. The outline's unverified-figures
+table allows lesson 7 the resting re-test's 16 in 30 after a recheck; it is rechecked here. The
+outline names no Stage 1 gate for lesson 7; the pages below recheck the [T] and fetch-tool items it
+relies on, and add the FDA's acrylamide pages, which Part D 3f did not have.*
+
+**Resting, rechecked.**
+
+- **Daniel Gritzer, "This Major Rule About Cooking Meat Turns out to Be Wrong", Serious Eats,
+  syndicated on AOL**, https://www.aol.com/major-rule-cooking-meat-turns-155336379.html ,
+  datePublished 22 July 2025, author "Daniel Gritzer" in the page's structured data, which also
+  gives the original as https://www.seriouseats.com/meat-resting-science-11776272 (not opened).
+  Read: full, direct. The [T] items in Part C 2 match, with these additions and corrections.
+  - The usual explanation, as Gritzer states it for resting's proponents: resting "gives the muscle fibers time to relax and reabsorb juices that were pushed toward the center during cooking."
+  - Kenji's old test, as Gritzer describes it: "Kenji cooked each steak sample to an internal temperature of 125°F, then sliced them in 2.5-minute intervals starting at zero minutes and continuing until the last one had rested 12.5 minutes. The steak that wasn't rested gushed juices when sliced, but by the 10-minute mark, the meat was hardly losing any at all." Gritzer says Kenji "wrote that piece more than 15 years ago".
+  - The flaw: "Because Kenji pulled all the steak samples at 125°F and sliced into each one in successive 2.5-minute intervals, temperature changes during resting were not controlled for: Inside the meat, heat was flowing from the hotter exterior towards the center, cooking it further, a phenomenon colloquially called "carryover cooking." At the same time, that stored heat was dissipating into the wider environment, leading to an overall cooling even as the center warmed."
+  - **Chris Young's tests are in a video, which this course did not watch**; Gritzer describes them: "Young's tests suggest that when samples of seared meat are sliced at the same final internal temperature, resting has no measurable effect on juice loss at all." And: "According to Young, it comes down to vapor pressure: The hotter the meat, the more energy the internal moisture has, leading to higher vapor pressure that pushes liquid outward when the meat is cut." Gritzer also summarises Meathead (AmazingRibs.com, 2013; not read): juice on the board can be poured back, and skipping the rest keeps a crust from steaming.
+  - The pull-quote, exact: "Resting meat is best understood as a method of temperature control, not juice retention."
+  - **His test was on pork, not steak** (Part C 2 did not say): "I bought a boneless pork loin and carefully sliced it into uniform 1.5-inch-thick chops". Unsalted; induction pan at 350°F; flipped every 30 seconds; pulled at "130°F for chops that would rest to 140°F, and 137°F for chops I planned to slice immediately"; slices cooled to room temperature before tasting; "a Two-Alternative Forced Choice (2-AFC) sensory test with four tasters across 30 rounds of tasting"; tasters' eyes closed; forced to pick the juicier. **140°F is below the US consumer figure for pork (145°F with a 3-minute rest).** A lesson citing the test says so.
+  - Result, exact: "Across 30 tasting rounds, my tasters identified the rested meat as juicier 16 times, an almost perfect 50/50 split. That's no better than a coin-flip". He adds that as the slicer he "thought the unrested meat had clear signs of having cooked a little more due to the aggressive carryover".
+  - **Carryover, measured by him**: "The most common advice when resting meat is to cook it roughly 5–15°F shy of the desired final core temperature. Then let it rest off-heat for 5 to 30 minutes, depending on the type and size of the cut". "But my 1.5-inch-thick chops completely defied this: Even when I pulled one a full 15°F before hitting its target temperature of 140°F, it had reached 140°F and threatened to surpass it in under three minutes." And: "Carryover cooking is greatly underestimated in both its speed and degree". How early to pull "depends on the type of meat, the cooking method, the cooking temperature, and the size and shape of the cut. In other words, it's damn-near impossible to offer a meaningful general rule. A good thermometer and some trial and error to build up experience are probably your best bet."
+  - Conclusion: "It's a good idea to pull meat early from the pan or oven and let it rest, but only long enough to give it the time to slide up via carryover cooking to the target internal temperature, which you need to track closely." And his own hedge: "Is this the last word on meat resting? Eh, probably not."
+  - Gritzer calls Young's thermometer "his Predictive Thermometer" and says Young is "now the maker of the Combustion Predictive Thermometer"; Gritzer used it and adds "(and no, this isn't an ad)". A lesson that names Young's view should state that interest once.
+- **Laila Ibrahim, "Why So Many Meat Cooking "Rules" Are Wrong—and What Actually Makes Steaks
+  Juicy and Chicken Crisp", Serious Eats, syndicated on AOL**, https://www.aol.com/articles/why-many-meat-cooking-rules-160000335.html ,
+  datePublished 21 December 2025, author "Laila Ibrahim". Read: full, direct.
+  - "When testers controlled for final internal temperature, rested and unrested meat lost essentially the same amount of juice." The [T] quotation matches.
+  - **Correction to Part C 2:** the page does not say Gritzer, Kenji and Young each "reached the same conclusion". It says Daniel's tests were "building on earlier work from Kenji, Serious Eats' culinary director emeritus and food-science whiz, as well as Meathead from Amazing Ribs, and Modernist Cuisine alum Chris Young". So the 2025 view rests on Gritzer's test and Young's video, as the outline already said.
+  - On probing: "the loss is so small that it's below what tasters can perceive" (attributed to Kenji's testing, not read).
+  - The same piece's cold-start searing and chicken-below-165°F items are not used (the first is on the outline's do-not-teach list; the second belongs to lesson 4's time-plus-temperature tables, and Ibrahim's framing is not a regulator's).
+
+**Pork and trichinellosis, rechecked.**
+
+- **CIDRAP News, "USDA: 145 degrees is safe temp for pork", 24 May 2011**,
+  https://www.cidrap.umn.edu/foodborne-disease/usda-145-degrees-safe-temp-pork . Read: full, direct.
+  The fetch-tool quotations in Part D 3d match. Also:
+  - The USDA's reason for the rest, as CIDRAP reports the statement: "During that time, the temperature stays the same or continues to rise, killing pathogens, the statement said."
+  - "The USDA Food Safety and Inspection Service (FSIS) has determined that it is just as safe to cook pork to 145°F with a 3-minute rest time as it is to cook it to 160°F with no rest time, the agency said."
+  - Hagen: "Now there will only be 3 numbers to remember: 145 for whole meats, 160 for ground meats and 165 for all poultry."
+  - "If raw pork is cooked to 145ºF and then allowed to stand for 3 minutes, it may still be pink but is safe to eat, the statement said". Cured pork "will remain pink after cooking".
+- **Wilson and colleagues, "Trichinellosis Surveillance, United States, 2008–2012", MMWR
+  Surveillance Summaries 64(SS-1), 16 January 2015**, read through the Internet Archive capture
+  20260726000434 (cdc.gov returned 403). Read: full, direct. The Part D 3d figures match. Also:
+  - "measures taken by the U.S. pork industry many decades ago to improve the health of farm-raised hogs have made Trichinella infections in U.S. swine rare".
+  - Pork products 22 cases, "including 10 (45%) that were linked with commercial pork products, six (27%) that were linked with wild boar"; bear meat 41 cases.
+  - "Public Health Actions: Changes in domestic pork production and public health education regarding the safe preparation of pork have contributed to the reduction in the incidence of trichinellosis in the United States; however, consumption of wild game meat such as bear continues to be an important source of infection."
+
+**FSA "Cooking your food", re-read for the minced and rolled rule.** GOV.UK Content API,
+public_updated_at 18 December 2017. Read: full, direct. Part B 3.1 has the list; the sentence that
+explains it was not recorded:
+- Under "4.2 Minced meat and offal": "Any meat that has been minced or skewered all the way through should be cooked thoroughly. When a whole cut of meat is minced or skewered, this moves any bacteria from the outside all the way through the meat." The list that follows: "mincemeat (any type)", "burgers", "sausages", "kebabs", "rolled joints", "kidney, liver, and other types of offal".
+- **The page's stated mechanism names mincing and skewering, not rolling.** Why a rolled joint belongs on the list (its outside surface is rolled into the middle) is a reader's inference from the same mechanism; a lesson says so where it uses it.
+- On whole cuts, the page itself uses the word "seal": "sear the meat by using a high temperature to seal the meat and kill any bacteria that might be on the outside" and "check that the meat is properly sealed by ensuring that the outside of the joint has changed colour". Its "seal" is a surface kill, not a claim about juices.
+- Whole bird: "the thickest part is the leg between the drumstick and the breast"; "Be sure to test the temperature of the meat and avoid the bones."
+
+**Acrylamide: the regulators and the dissent, rechecked, with the FDA added.**
+
+- **FSA, "Acrylamide"**, GOV.UK Content API: public_updated_at 9 January 2018. Read: full, direct.
+  Part D 3f's quotations match. Also:
+  - "Acrylamide is a chemical substance formed when starchy foods, such as potatoes and bread, are cooked at high temperatures (above 120°C)."; "it is a natural by-product of the cooking process and has always been present in our food." Foods listed include "roasted potatoes and root vegetables".
+  - Home advice in full: "aim for a golden yellow colour or lighter when frying, baking, toasting or roasting starchy foods"; "follow the cooking instructions on the pack when cooking packaged foods like chips and roast potatoes"; "eat a healthy, balanced diet and get your 5 A Day to help reduce your risk of cancer".
+  - The withdrawn fridge advice: "We previously advised consumers against storage of raw potatoes in the fridge at home, as it was thought this could lead to the formation of additional sugars (known as cold sweetening) which can then convert into acrylamide". Then the COT sentence as in Part D 3f, and "So, if you wish to help avoid food waste, you can choose to store either in the fridge or in a cool, dark place."
+  - FSA Explains box: "Long cooking times and higher temperatures form more acrylamide than short cooking times and lower temperatures." "In 2015, the EFSA published its risk assessment of acrylamide in food. The assessment confirms that acrylamide levels found in food have the potential to increase the risk of cancer for people of all ages. However, it’s not possible to estimate how much the risk is increased." "EFSA’s Scientific Committee states that, for substances that are genotoxic and carcinogenic, a MOE of 10,000 or higher is of low concern for public health. The MOE identified in our total diet study on acrylamide have indicated a concern for public health. These range between 300 for an average adult consumer and 120 for toddlers."
+- **EFSA, "Acrylamide" topic page**, https://www.efsa.europa.eu/en/topics/topic/acrylamide . Read:
+  full, direct (no page date found; the opinion it describes is 2015).
+  - "Currently, studies on human subjects have provided limited and inconsistent evidence of increased risk of developing cancer. However, studies on laboratory animals have shown that exposure to acrylamide through the diet increased the likelihood of developing gene mutations and tumours in various organs."
+  - "Based on these animal studies, EFSA’s experts agree with previous evaluations that acrylamide in food potentially increases the risk of developing cancer for consumers in all age groups. While this applies to all consumers, on a body weight basis, children are the most exposed age group."
+  - Forms "at +120°C and low moisture"; "The main chemical process that causes this is known as the Maillard Reaction; it is the same reaction that ‘browns’ food and affects its taste." "EFSA’s opinion states clearly that home-cooking choices can have a substantial impact".
+  - Adults' main sources: "Fried potato products (including French fries, croquettes and roasted potatoes) and coffee/coffee substitutes".
+  - A literature summary that EFSA flags: "it is important to note that EFSA has not evaluated the validity of these findings." It includes "Storage of potatoes at below 8°C generally increases sugar levels in potatoes, potentially leading to higher acrylamide levels following cooking" and "Toasting bread for five minutes instead of three minutes can increase the acrylamide content from 31µg/kg up to 118µg/kg ... Consumption of well-toasted bread, however, only increases overall average dietary exposure by 2.4%."
+  - "since it is practically impossible to eliminate acrylamide entirely from the diet"; "some countries recommend to consumers: “Don’t burn it, lightly brown it”." And: "consumers should look for the latest recommendations provided by their national food safety authorities".
+- **US FDA, "Acrylamide Questions and Answers"** and **"Acrylamide and Diet, Food Storage, and Food
+  Preparation"**, https://www.fda.gov/food/process-contaminants-food/acrylamide-questions-and-answers
+  and https://www.fda.gov/food/process-contaminants-food/acrylamide-and-diet-food-storage-and-food-preparation ,
+  both "Content current as of: 03/05/2024". Read: full, direct.
+  - "Acrylamide caused cancer in animals in studies where animals were exposed to acrylamide at very high doses. In 2010, the Joint Food and Agriculture Organization/World Health Organization Expert Committee on Food Additives (JECFA) concluded that acrylamide is a human health concern, and suggested additional long-term studies."
+  - "In laboratory studies, acrylamide caused cancer in animals, but at acrylamide levels much higher than those seen in foods. FDA is now conducting research to determine whether the much lower levels of acrylamide in food pose a health risk to people".
+  - "Should I stop eating foods that are fried, roasted, or baked? No." Its "best advice" is a healthy eating plan; "FDA is waiting for new research results before considering whether new advice on acrylamide is needed. However, consumers who want to reduce acrylamide levels in their diet now may find the following information helpful."
+  - "Boiling and steaming do not typically form acrylamide." "Acrylamide does not form, or forms at lower levels, in dairy, meat, and fish products."
+  - "Comparing frying, roasting, and baking potatoes, frying causes the highest acrylamide formation. Roasting potato pieces causes less acrylamide formation, followed by baking whole potatoes. Boiling potatoes and microwaving whole potatoes with skin on to make “microwaved baked potatoes” does not produce acrylamide. [Based on FDA studies.]"
+  - "Soaking raw potato slices in water for 15-30 minutes before frying or roasting helps reduce acrylamide formation during cooking. (Soaked potatoes should be drained and blotted dry before cooking to prevent splattering or fires.)"
+  - **The US still gives the fridge advice the UK withdrew:** "Storing potatoes in the refrigerator can result in increased acrylamide during cooking. Therefore, store potatoes outside the refrigerator, preferably in a dark, cool place, such as a closet or a pantry, to prevent sprouting."
+  - "Cooking cut potato products, such as frozen French fries or potato slices, to a golden yellow color rather than a brown color helps reduce acrylamide formation". "Toasting bread to a light brown color, rather than a dark brown color, lowers the amount of acrylamide". "Acrylamide forms in coffee when coffee beans are roasted, not when coffee is brewed at home or in a restaurant."
+- **Cancer Research UK, "Does burnt toast cause cancer?"**, last reviewed 18 December 2024, next
+  review due 18 December 2027. Read: full, direct. Part D 3f's quotations match. Also:
+  - "Good quality studies of people have found no link between eating foods high in acrylamide and cancer."
+  - "It is true that animal studies have shown that acrylamide has cancer-causing effects. But these studies gave animals very high levels of acrylamide. We are very unlikely to eat this amount of acrylamide in our diet. So these studies are not good evidence for cancer risk in people."
+  - Key references as the page describes them (the papers were not read): Filippini and others, *Frontiers in Nutrition* 2022, "31 studies ... showed no association between dietary acrylamide and cancer"; Pelucchi and others, *International Journal of Cancer* 2015, "32 studies ... found no evidence that eating lots of acrylamide causes common cancers".
+- **David Spiegelhalter, "Opinion: How dangerous is burnt toast?", University of Cambridge, 23
+  January 2017**, https://www.cam.ac.uk/research/discussion/opinion-how-dangerous-is-burnt-toast ,
+  with the byline "David Spiegelhalter, Professor of the Public Understanding of Risk at the new
+  Winton Centre for Risk and Evidence Communication". Read: full, direct. The Winton Centre copy
+  Part D 3f read carries the same text but no byline or date; cite the Cambridge copy.
+  - "Acrylamide can be, in large doses, a very nasty substance." "The IARC (International Agency for Research on Cancer) considers it a ‘probable human carcinogen’".
+  - "However, there is no good evidence of harm from humans consuming acrylamide in their diet".
+  - **He quotes EFSA's 2015 opinion (p185), and the quotation carries the other side's strongest point, so a lesson using him should keep it:** "In the epidemiological studies available to date, AA intake was not associated with an increased risk of most common cancers, including those of the GI or respiratory tract, breast, prostate and bladder. A few studies suggested an increased risk for renal cell, and endometrial (in particular in never-smokers) and ovarian cancer, but the evidence is limited and inconsistent."
+  - On the margin of exposure: "adults with the highest consumption of acrylamide could consume 160 times as much and still only be at a level that toxicologists think unlikely to cause increased tumours in mice"; "But, for cancer, toxicology committees demand a rather arbitrary margin of exposure of 10,000 before considering the chemical essentially acceptable."
+  - "the FSA provide no estimate of the current harm caused by acrylamide, nor the benefit from any reduction due to people following their advice. To be honest, I am not convinced it is appropriate to launch a public campaign on this basis." The campaign is named on the page: "The Food Standards Agency (FSA) today launched its Go for Gold campaign".
+
+**Roast potatoes video, description read.** YouTube oEmbed confirms "The Food Lab: How to Roast
+the Best Potatoes of Your Life", channel J. Kenji López-Alt, https://www.youtube.com/watch?v=argKpeiKFfo ;
+the page's description (read direct, publish date 2 December 2016, 217 seconds) says: "Large chunks of potato maximize the contrast between exterior and interior." "Parboiling the potatoes in alkaline water breaks down their surfaces, creating tons of starchy slurry for added surface area and crunch." Its stated aim is potatoes "incredibly crisp and crunchy on the outside". The video itself was not watched. The label in a lesson leaves out the title's first two words, as the unread line requires. The Pépin truss and carve videos' titles and channel were reconfirmed by oEmbed: "Jacques Pépin Techniques: How To Truss a Chicken for Roasting" and "Jacques Pépin Techniques: How to Carve a Roasted Chicken", KQED Food.
+
+## Gate closures, lesson 8
+
+*Stage 3 top-up for lesson 8, 2026-09-24. Every page below was downloaded with curl and its text
+extracted locally (PubMed abstracts through the E-utilities efetch endpoint; FSIS through the
+Internet Archive, because the live site blocks automated readers); quotations are copied from that
+text, direct.*
+
+**G14, simmer temperature: closed** at source.
+
+- **America's Test Kitchen, "Cooking Class: Boil versus Simmer"**, Cook's Illustrated how-to, no
+  author or date on the page, https://www.americastestkitchen.com/cooksillustrated/how_tos/10660-cooking-class-boil-versus-simmer .
+  Read: full, direct (the page is short).
+  - "BOIL: Liquid reaches 212 degrees ; large bubbles vigorously rise from bottom of pot and continually break surface. SIMMER: Liquid reaches 180 to 190 degrees ; small bubbles rise from bottom of pot and occasionally break surface." (The space before each semicolon is in the extracted text.)
+  - When ATK boils: "such as flash-cooking (or blanching) vegetables so that they lose their raw edge while retaining their flavor and bright color; speeding up the cooking of grains such as brown rice or wheat berries, since surrounding the grains with boiling water transfers heat more quickly than the absorption method; and cooking pasta, where the agitation helps keep the pieces from sticking to each other."
+  - "More often, we turn to simmering. Less agitation means delicate foods won’t break apart and fats and soluble proteins in stock won’t coagulate and turn the liquid cloudy. Because lower burner temperatures allow time for heat to transfer evenly from the bottom of a pan to the top, there’s also less risk of scorching."
+- **Recheck of the Part C 8e [T] quotation** from ATK, "For a Clearer Stock, Simmer; Don't Boil",
+  direct. The fetch tool's version is not verbatim. The page reads: "Just as when you’re making
+  stock for soups or stews, boiling will cause soluble proteins and rendered fat to emulsify into
+  the cooking liquid. By simmering, you avoid emulsifying the fat and thus keep the stock clearer,
+  and we found that the scum created simply settled to the bottom of the pot." The page's subject
+  is pot-au-feu ("Nearly every recipe for the classic French dish pot-au-feu (see related content)
+  calls for simmering rather than boiling once the meat has been added to the pot."), with stock as
+  the comparison. Lesson 10 should quote this form, not Part C 8e's.
+
+**G9, the temperature ladder, collagen part: closed at abstract level** with two peer-reviewed
+papers in *Meat Science*. Neither full text was read. The unsigned Science of Cooking figure in
+Part C 8e ("begins to dissolve to gelatin" at about 160°F/70°C) is not needed and should not be
+cited. Rice (lesson 9) remains open.
+
+- **Eva Tornberg, "Effects of heat on meat proteins - Implications on structure and quality of meat
+  products"**, *Meat Science* 70(3), 2005, 493-508, doi 10.1016/j.meatsci.2004.11.021, PMID
+  22063748. Lund Institute of Technology. Read: abstract, direct.
+  - "Most of the sarcoplasmic proteins aggregate between 40 and 60 °C, but for some of them the coagulation can extend up to 90°C. For myofibrillar proteins in solution unfolding starts at 30-32°C, followed by protein-protein association at 36-40°C and subsequent gelation at 45-50°C (conc.>0.5% by weight). At temperatures between 53 and 63°C the collagen denaturation occurs, followed by collagen fibre shrinkage. If the collagen fibres are not stabilised by heat-resistant intermolecular bonds, it dissolves and forms gelatine on further heating."
+  - The abstract says the paper then discusses water-holding and texture; it gives no figures for them. Nothing about cross-links and animal age is in the abstract.
+- **M. E. Latorre, M. I. Palacio, D. E. Velázquez and P. P. Purslow, "Specific effects on strength
+  and heat stability of intramuscular connective tissue during long time low temperature cooking"**,
+  *Meat Science* 153, 2019, 109-116, doi 10.1016/j.meatsci.2019.03.016, PMID 30925447. Read:
+  abstract, direct.
+  - "Long-time low-temperature (LTLT) cooking of meat is known to produce a tender product. The current work tested the hypothesis that LTLT cooking for periods of up to 24 h at 60 °C reduces the contribution of intramuscular connective tissue to cooked meat toughness."
+  - "Tensile tests on perimysium excised after cooking showed that its strength diminished with cooking time, although not as markedly as the Warner-Bratzler peak force measure of toughness. A gradually increasing susceptibility to trypsin digestion with increasing heating time demonstrated that there was a slow and gradual increase in the proportion of denatured collagen in the perimysium."
+  - "These results support the hypothesis that there is both an easily destabilized and more resistant fractions of the collagen in intramuscular connective tissue."
+- **What a lesson may say:** collagen starts to change at about 53 to 63°C and then shrinks (Tornberg);
+  unless it is held together by heat-stable bonds, further heating dissolves it into gelatin
+  (Tornberg); at a fixed temperature the change goes on slowly for hours, so time does the work
+  (Latorre, 60°C for up to 24 hours). No source here gives a braising time, or says a higher
+  temperature converts collagen faster; the lesson should not print either as a finding.
+
+**G7, pressure cooking: closed for lesson 8's needs** (pressure and temperature). No regulator
+statement on dried beans in a pressure cooker was found or looked for at length, so lesson 9's
+fallback (no pressure-cooker bean instruction) stands.
+
+- **Instant Pot, "Frequently Asked Questions"**, https://instantpot.com/pages/frequently-asked-questions .
+  No date on the page. Read: the pressure-cooking answers, direct. A manufacturer's page about its
+  own appliances.
+  - "What are the PSI levels for the different pressure levels? Low Pressure (on select models): 5.8 – 7.2 psi. High Pressure: 10.2 – 11.6 psi Max Pressure (on select models): 15 psi."
+  - For one model (the Duo Crisp with Ultimate Lid): "The pressure setting is 10.2 - 11.6 psi with a working temperature of ~ 239°F to 244°F." The page does not give a temperature for other models.
+  - Fill lines: "DO NOT fill over the PC MAX — 2/3 as indicated on the inner pot. When cooking foods that expand during cooking such as rice or dried vegetables, DO NOT fill the inner pot over the 1/2 line. Overfilling may cause a risk of clogging the steam release pipe and developing excess pressure."
+  - Release: "A quick release, or manual release, occurs when the user switches the Instant Pot from 'sealing' to 'venting' and will cause a jet of steam to eject through the top of the steam release handle." "Natural Release (NR) is recommended for foods with large liquid volume or high starch content such as oatmeal, beans, porridge, and soups. Quick Release (QR) can cause splattering with these foods".
+  - Frozen meat: "Frozen meat can be cooked directly in the pressure cooker, but the cooking time should generally be increased by about 50%, and the cooker will take longer to come to pressure. Large frozen cuts may add up to 45 to 60 minutes of preheating time."
+- **National Center for Home Food Preservation (University of Georgia), "Ensuring Safe Canned Foods"**,
+  https://nchfp.uga.edu/how/can/general-information/ensuring-safe-canned-foods/ , text from the USDA
+  *Complete Guide to Home Canning*. Read: full, direct.
+  - "all low-acid foods should be sterilized at temperatures of 240° to 250°F, attainable with pressure canners operated at 10 to 15 PSIG. PSIG means pounds per square inch of pressure as measured by gauge."
+  - "Water boils at lower temperatures as elevation increases. Lower boiling temperatures are less effective for killing bacteria. Increasing the process time or canner pressure compensates for lower boiling temperatures."
+- **Utah State University Extension, "Why Electric Pressure Cookers Are Not Pressure Canners"**,
+  Cathy Merrill, Karin Allen, Susan Haws, Teresa Hunsaker, Patricia Mathis, Paige Wray and Ellen
+  Serfustini, https://extension.usu.edu/preserve-the-harvest/research/why-electric-pressure-cookers-are-not-pressure-canners .
+  No date read. Read: full, direct.
+  - "Steam temperature rises as the pressure is increased."
+  - "pressure cookers (electric or stovetop) are not necessarily pressure canners. This is particularly true with electric pressure cookers because of their mechanical structure. A previous study conducted by USU Extension found that electric pressure cookers don’t always work the same at high altitudes as at sea level (Proctor et al. 2013). This isn’t a problem when cooking a roast or chicken because the temperature of the food can be checked to make sure it is safe and the EPPC can be restarted to cook the food longer."
+- **What a lesson may say:** a sealed pot lets pressure build, and water's boiling point rises with
+  it (USU); one maker gives its high setting as 10.2 to 11.6 psi and, for one model, about 239 to
+  244°F (about 115 to 118°C); pressure canners at 10 to 15 psi reach 240 to 250°F (NCHFP). A
+  pressure cooker is not a canner (USU). No source here gives how much faster a pressure cooker is.
+
+**Also read for lesson 8, not a gate:**
+
+- **USDA FSIS, "Slow Cookers and Food Safety"** (Part B 1.10), re-read in full through Wayback
+  20260923031306, direct. Part B's quotations match. Additional sentences:
+  - "The low heat helps less expensive, leaner cuts of meat become tender and shrink less. The direct heat from the pot, lengthy cooking and steam created within the tightly-covered container combine to destroy bacteria and make the slow cooker a safe process for cooking foods."
+  - "The slow cooker may take several hours to reach a safe, bacteria-killing temperature. Constant refrigeration assures that bacteria, which multiply rapidly at room temperature, won't get a "head start" during the first few hours of cooking." (This sits under "Safe Beginnings", before the thawing rule; the page gives no reason next to "Always thaw meat or poultry before putting it into a slow cooker.")
+  - "Vegetables cook slower than meat and poultry in a slow cooker so if using them, put the vegetables in first."
+  - "If possible, turn the cooker on the highest setting for the first hour of cooking time and then to low or the setting called for in your recipe. However, it's safe to cook foods on low the entire time".
+  - "Keep the lid in place, removing only to stir the food or check for doneness."
+  - "When you are at home, and if the food was completely cooked before the power went out, the food should remain safe up to two hours in the cooker with the power off."
+  - "Store leftovers in shallow covered containers and refrigerate within two hours after cooking is finished."
+- **US EPA, "Why can't I use hot water from the tap for drinking, cooking, or making baby
+  formula?"** (Part C 3h), direct; "Last updated on October 28, 2025". The [T] quotation matches:
+  "Hot water dissolves lead more quickly than cold water and is therefore more likely to contain greater amounts of lead." The page continues: "Never use water from the hot water tap for drinking, cooking, or making baby formula."
+- **Boiling-point elevation constant, replacing Part C 3g's Wikipedia citation.** LibreTexts,
+  "B5: Ebullioscopic (Boiling Point Elevation) Constants", Chemistry LibreTexts reference tables,
+  public domain, https://chem.libretexts.org/Ancillary_Materials/Reference/Reference_Tables/Bulk_Properties/B5:_Ebullioscopic_(Boiling_Point_Elevation)_Constants ,
+  direct: "Water 0.513", in units given as "[(°C·kg)/mol] or [°C/molal]". And LibreTexts
+  *Introductory Chemistry*, 13.9 "Freezing Point Depression and Boiling Point Elevation", direct:
+  "sodium chloride, \(\ce{NaCl}\), will dissociate into two ions so for \(\ce{NaCl}\), \(i = 2\)"
+  (that page gives water's constant as 0.515). Recalculated with 0.513 and i = 2 (the lesson's
+  arithmetic): 0.5% salt by weight raises water's boiling point by about 0.09°C, 1% by about
+  0.18°C, 2% by about 0.36°C. Part C 3g's figures stand.
+
+## Stage 4 note, lesson 6
+
+*Stage 4 review of lesson 6, 2026-09-24. Pages downloaded with curl and read from the extracted
+text, direct, unless marked. Two corrections to the gate closures above, then the additions the
+fixed lesson quotes.*
+
+**Correction: Connecticut.** The gate closures took Morgan Lewis's "from 1 July 2026 with prior
+notification" over The New Lede's "January 2028" as the later source. Both dates are real and mean
+different things. **Connecticut DEEP, "PFAS in Products"**, https://portal.ct.gov/deep/p2/pfas-in-products ,
+read direct: from 1 July 2026 the law "allows the manufacturing, selling, offering or distributing
+for sale of ... cookware ... if they contain intentionally added PFAS only if the manufacturer
+labels the products", and requires "prior notification to DEEP"; "On and after January 1, 2028, no
+person shall manufacture, sell, offer for sale or distribute for sale in this state any of the
+following products if the product contains intentionally added PFAS", cookware among them. Shipman &
+Goodwin's 2024 note (the page The New Lede links, read direct) says the same: labelling from 1 July
+2026, and from 1 January 2028 sale "will be prohibited regardless of labeling, notice, or
+disclosures." Morgan Lewis runs the notification rule and the product list together.
+
+**Correction: the ATK stir-fry page is written for a nonstick skillet** (recorded above, but not
+carried into the lesson): "It's still possible to make great stir fries in a nonstick skillet", and
+"Heat the oil until just smoking before beginning to stir-fry".
+
+**California veto, read direct.** Keller and Heckman, *National Law Review*, 20 October 2025,
+https://natlawreview.com/article/ca-governor-newsom-vetoes-pfas-ban-cookware-all-food-packaging :
+"On October 13, 2025, California’s Governor, Gavin Newsom, returned without signature a bill passed
+by the state legislature that would have phased out the use of per- and polyfluoroalkyl substances
+(PFAS) in cookware". The Farella Braun page still refuses automated access.
+
+**Quotations and facts the fixed lesson adds, each read direct on the page named.**
+- ATK, "Pan Sauces 101": "A nonstick skillet will not develop fond to the same degree as a traditional skillet will, and, because fond supplies a pan sauce with richness and depth of flavor, a nonstick skillet will make a less flavorful pan sauce." And: "When tested in our kitchen, a sauce made in a well-seasoned cast-iron pan tasted fine." The page gives no heat for the butter step.
+- Colins (Yahoo syndication): frequent flipping gives "less of the gray, overcooked meat that often forms just beneath the surface."
+- Lam, ATK: Chao's definition is introduced "Roughly speaking," in Chao's own words; the stirring test compared constant stirring with stirring "every 30 seconds", measured with "an infrared camera".
+- C&EN (Patel): "the waxy fluoropolymer belongs to the family of per- and polyfluoroalkyl substances (PFAS)". PFOA "served as a surfactant and polymerization aid to make PTFE coatings. The resulting coatings contained residual traces of the molecule." Miller, paraphrased by C&EN: "making fluoropolymers requires the use of PFAS molecules with unknown toxicity risks". "France’s PFAS ban should take effect in 2026. But it excludes cookware because of pushback from the French cookware maker Tefal." The ceramic warning is from Kevin Golovin, "a professor of mechanical engineering at the University of Toronto", who advises looking for the label "fluorine-free". Miller also: "from an overall environmental standpoint, an uncoated pan is a good choice because it can last decades, whereas any nonstick pan will become trash a lot sooner." (not used)
+- The New Lede (Kelleher): "According to Chemours, these PTFE flakes are “non-toxic and would pass through the body without being absorbed” if someone accidentally ingested them." Andrews in full: "The bulk plastic material will likely largely pass through the body, but it’s a matter of how many small fragments will break off in the body," then "I’ve seen no studies looking at that, specifically." On GenX: "In a 2021 health assessment, the EPA concluded that GenX, like the chemical it replaced, is highly toxic at small doses."
+- Cookware Sustainability Alliance, July 2026 special report on its home page: it objects to "labeling PTFE — the safe polymer in Teflon-style coatings — as a “PFAS forever chemical,”". It describes itself as "a 501(c)(6) non-profit organization".
+- EFSA 2020: "People can be exposed to PFAS in different ways, including food, where these substances are most often found in drinking water, fish, fruit, eggs, and egg products." The assessment "focused on" four PFAS: PFOA, PFOS, PFNA and PFHxS. So the list is of foods, and says nothing about cookware.
+- EPA TSCA page, rechecked: the second goal reads in full "To commit to working toward the elimination of these chemicals from emissions and products by 2015."
+- Wilson's "50 times" (not used, see the gate closures): confirmed on the page. Water's heat of vaporisation against 0 to 100°C of heating is 2,256 against about 418 kJ/kg, about 5.4 times, as lesson 2 says.
+- Keller and Heckman (*National Law Review*), on the reason: "The veto was driven by the Governor’s concern over a lack of affordable cookware options for Californians, if SB 682 had taken effect."
