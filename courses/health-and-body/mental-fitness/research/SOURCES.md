@@ -466,7 +466,11 @@ anxiety (g=0.30, n=39) symptoms, stress levels (g=0.35, n=27)". And: "Smartphone
 conferred no significant benefit over control conditions on panic symptoms (g=-0.05, n=3)". And: "Studies
 that delivered a cognitive behavior therapy (CBT)-based app and offered professional guidance and
 reminders to engage produced larger effects on multiple outcomes." **"n" in this abstract counts
-trials, not people**, and a lesson must not misread it.
+trials, not people**, and a lesson must not misread it. **Added at lesson 2's review, verbatim from the same abstract:** the effects were
+"robust even after adjusting for various possible biasing factors (type of control condition, risk of
+bias rating)", and "Smartphone interventions did not differ significantly from active interventions
+(face-to-face, computerized treatment), although the number of studies was low (n≤13)." The file had
+left both out, each of which cuts against a lesson that uses the comparator point against apps.
 
 ---
 

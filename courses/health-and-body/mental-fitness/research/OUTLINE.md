@@ -64,7 +64,10 @@ touches antidepressants ends with NG222 1.4.12**: talk to the prescriber, it is 
 reduce the dose in stages over time". Lesson 8 is the only lesson that discusses drugs at length.
 
 **4. Every figure carries its comparator.** This course's addition to the institute's claim sort is
-**the comparator question: compared with what?** Memory added the sample, Focus and Deep Work the
+**what did the comparison group get?** *(Amended at lesson 2's review, 2026-09-23: this said "compared
+with what?", which **Logic and Argument** lesson 9 already teaches as a question about baselines. This
+course's version is the sharper one for treatment trials, where the comparison group is a condition
+people are put in.)* Memory added the sample, Focus and Deep Work the
 instrument, Note-Taking the setting, Sleep the clock. A self-help effect against a waiting list and
 the same method against another active treatment are different numbers, and source 7 shows the
 waiting list flatters. Introduced in lesson 2, used in every method lesson, joined to the sort in
