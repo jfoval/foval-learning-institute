@@ -2505,6 +2505,8 @@ the egg board's functional explanation, plus two ATK pages for the practical fix
   - FDA Egg Safety Rule (21 CFR part 118): "requires virtually all egg producers with 3,000 or more laying hens to implement measures to prevent SE from contaminating eggs on the farm", including pest control, "purchasing chicks and pullets from suppliers who control for Salmonella in their flocks", biosecurity, refrigeration on the farm and in transport, and environmental testing.
   - Grades: "Grade AA and Grade A eggs are best for frying and poaching where appearance is important." Aging: "The white would be thinner, losing some of its thickening and leavening powers. The yolk would be flatter, larger and more easily broken."
   - Refrigeration: "A cold egg left out at room temperature can sweat, facilitating the movement of bacteria into the egg." "Refrigerated eggs should not be left out more than 2 hours." Store "in their carton and place them in the coldest part of the refrigerator, not in the door."
+  - Cracks: "Bacteria can enter eggs through cracks in the shell. Never purchase cracked eggs. If eggs crack during hard cooking, they are safe."
+  - Aging: "Moisture and carbon dioxide in the white evaporate through the pores, allowing more air to penetrate the shell and the air cell becomes larger." Peeling: "The increase in pH reduces the attraction of the outer (thin) albumen to the inner shell membrane allowing for easier peeling of the hard cooked egg."
   - Washing: "No. It's not necessary or recommended for consumers to wash eggs. This increases the risk of contamination because the wash water can be “sucked” into the egg through the pores in the shell."
   - Hard-cooked eggs: "Hard-cooked eggs should be refrigerated within 2 hours of cooking and used within a week." Peeling: "When an egg is laid, the albumen has a neutral pH (around 7.4). As an egg ages, the pH of the albumen increases to approximately 9." ... "For this reason, older eggs make better candidates for hard cooking."
   - Green ring: "A green ring on a hard-cooked yolk can be a result of overcooking as the sulfur and iron compounds in the egg react on the yolk's surface. The green color can also be caused by a high amount of iron in the cooking water. Scrambled eggs cooked at too high a temperature or held on a steam table too long can also develop a greenish cast. The green color is safe to consume."
@@ -2525,9 +2527,274 @@ the egg board's functional explanation, plus two ATK pages for the practical fix
   - "A range of interventions have been put in place across the food chain as part of the Lion scheme including: vaccinating hens, enhanced testing for salmonella, improved farm hygiene, effective rodent control, independent auditing and traceability, and keeping the eggs cool while transporting them from farm to shop."
   - "The revised advice does not apply to severely immunocompromised individuals, who require medically supervised diets prescribed by health professionals".
   - "The existing advice on UK non-Lion eggs, non-hen eggs and eggs from outside the UK, is that they should always be cooked thoroughly for vulnerable groups."
+  - Its advice when eating raw or lightly cooked eggs: "store eggs safely in a cool dry place such as the fridge"; good kitchen hygiene; "observe ‘best before’ dates."
   - The 2017 text names only the Lion scheme; Laid in Britain was added later (the current FSA fact checker, Part B 3.5, and the NHS, Gate closures lesson 4, name both). The ACMSF report itself was not read.
   - No source read compares Salmonella rates in US and UK eggs, so a lesson must not say which supply is safer.
 - **Videos, metadata only (not watched):** Jacques Pépin, "How To Properly Poach An Egg", KQED Food,
   309 s (description: "a number of tricks for not making the eggs rubbery, as well as a method to
   prepare them in advance of serving"); "Learn Jacques Pépin's famous omelet techniques", American
   Masters PBS, 353 s (description: "two different techniques for making this perfect egg dish").
+
+## Gate closures, lesson 6
+
+*Stage 3 top-up for lesson 6, 2026-09-24. Every page below was downloaded with curl and its text
+extracted locally; quotations are copied from that text, direct, including curly apostrophes where
+the page uses them. This section rechecks the [T] and fetch-tool quotations the outline's
+unverified-figures table allows lesson 6 to print, and adds five pages (the ATK pan sauce page
+re-read in full, two ATK stir-fry pages, a January 2026 law-firm summary of state PFAS laws, and the
+Alzheimer's Society page re-read). G9 needed nothing new: lesson 6 uses lesson 2's "about 140°C",
+attributed as lesson 2 attributes it. No Serious Eats page was opened; every Serious Eats figure
+below is from the publisher's syndicated copy or a newspaper report of it.*
+
+**The outline's unverified-figures table, rechecked.**
+
+- **Audrey Wilson, "Let's Talk Food: Steaks at room temperature or not?", *Hawaii Tribune-Herald*,
+  19 February 2019** (Part C 3a, 10e). Read: full, direct. Byline and date confirmed. A newspaper
+  column reporting Kenji López-Alt's test; much of it is written in his first person without quotation
+  marks, so it is not always clear which sentences are his and which are hers. Treat it as her report.
+  - "After 20 minutes, the temperature rose to less than 2 degrees. In fact, even after two full hours, the temperature had barely risen by 10 degrees"
+  - "Simply blotting your steak with paper towels before searing it will improve it far better than any amount of room temperature resting will."
+  - On salting ahead, the time left out here: "long enough to let salt draw out liquid and then for that liquid to be re-absorbed leaving a dryer surface".
+  - The column also says a steak dried uncovered on a rack in the fridge "for a couple of nights" browns fastest, and that salting "about 40 minutes in advance" helps. **The outline forbids printing the salting minutes; lesson 6 does not.**
+  - **Not used, and a reviewer should know why:** the column says "it still requires 50 times more energy to evaporate the moisture on the surface of the steak than it does to raise its temperature all the way from freezing to boiling." Lesson 2's own arithmetic from Engineering ToolBox's tables (2,256 kJ/kg to vaporise against about 418 kJ/kg to heat from 0 to 100°C) gives a little more than five times. The column's figure is ten times too high or means something unstated.
+  - The column gives the other side: "However, Bon Appetit has a different opinion and states leaving meat out to sit at room temperature before cooking won’t kill you, but instead will give you a juicier, more evenly cooked steak." Bon Appétit itself was not read.
+- **Leah Colins (the byline as the page prints it; Part C 10f had "Leah Collin"), "For the Juiciest
+  Steaks With the Best Crust, I Always Break This Classic Cooking Rule", Serious Eats, syndicated on
+  Yahoo, 15 July 2026**, https://www.yahoo.com/lifestyle/articles/juiciest-steaks-best-crust-always-210000151.html .
+  Read: full, direct. The [T] quotation in Part C 10f matches.
+  - "Burgers flipped every 15 seconds browned just as well as those flipped once, cooked in about two-thirds the time, and had roughly 40% less overcooked meat around the edges."
+  - "Every time you turn the steak, the hotter side faces upward and sheds some of its stored heat into the surrounding air while the cooler side gets its turn against the skillet."
+  - "Kenji points out in his testing that flipping only once won't ruin your steak, and frequent flipping won't transform a mediocre steak into the best one you've ever eaten. The differences are noticeable but a bit subtle: a slightly more even interior, a little less overcooked meat at the edges, and often a shorter cooking time by a couple of minutes."
+  - The writer flips "every 30 to 60 seconds"; McGee's testing is reported as showing every 15 seconds works; McGee's own column was not read.
+- **America's Test Kitchen, "Searing Steak"** (Part C 1). Read: full, direct. No author or date.
+  The [T] quotation matches.
+  - Method: eight 1¼-inch rib-eyes in two batches; one seared then finished "in a 250-degree oven" to 125°F; the other oven first to about 110°F, then seared to 125°F.
+  - "We found that both sets of steak lost nearly an identical amount of liquid: around 22 percent of their weight."
+  - "The notion of sealing in juices is thus nothing but an old wives’ tale."
+- **Liebig and the 1930s tests:** no non-Wikipedia source was found, so, as the outline directs,
+  lesson 6 does not name Liebig or the 1930s tests and rests the myth on the ATK test.
+
+**ATK on pans, crowding and pan sauces, re-read.**
+
+- **America's Test Kitchen, "The Best Stainless-Steel Skillets"**, equipment review, schema date
+  25 June 2025, author given as America's Test Kitchen,
+  https://www.americastestkitchen.com/equipment_reviews/1944-12-inch-stainless-steel-skillets .
+  Read: the review text in the page source, direct. The Part C 6 and 7 [T] quotations match; the
+  crowding one is longer than Part C gave it.
+  - "If you try to cook four steaks in a 12-inch skillet that has a cooking surface diameter of 8 inches, for example, the pan will struggle to recover its heat, so one side of the steaks will come out gray and steamed with sparse fond that will make paler, weaker pan sauce."
+  - On tall sides: "These trapped condensation, steaming food instead of allowing it to lose moisture and encouraging browning."
+  - "Aluminum conducts heat quickly, making the pan responsive to temperature changes; steel conducts slowly and retains heat, so the pan cooks remarkably evenly across its surface."
+  - "Aluminum reacts to acidic foods, but stainless steel doesn’t, so you can cook anything without fear of flavor transfer and damage to the pan." **This closes Part D 3f's unsourced practical note** on plain aluminium and acid, at the level of one test kitchen's statement.
+- **ATK, "Pan Sauces 101"** (Part C 8f). Read: full, direct. No author or date. The two [T]
+  quotations match.
+  - "The base of a pan sauce is the fond, or browned bits, clinging to the bottom of the skillet after sautéing or searing meat, poultry, or fish."
+  - "A nonstick skillet will not develop fond to the same degree as a traditional skillet will"
+  - "If it is overcrowded, the food will steam and will fail to create much fond."
+  - "Poorly maintained cast iron, however, will yield a metallic-tasting sauce."
+  - "Cold butter is easier to incorporate into a sauce than softened butter and it makes for a sturdier emulsion that is more resistant to separation."
+  - "it's best to use a low-sodium variety because reduction can result in overwhelming saltiness."
+  - On gauging a reduction: "the reduced liquid can be poured back into the cup toward the end of simmering to gauge if it has been adequately reduced."
+  - The seared meat is moved to a plate and tented loosely with foil because "it will help to keep any crust that has formed from turning soggy."
+  - **Not on the page:** what boiling does to the finished sauce. Part C 8f's "Boil it and the emulsion breaks" is the researcher's reasoning, not ATK's. A lesson may say ATK calls cold butter more "resistant to separation" and let the reader test boiling.
+- **ATK, "Should You Wash Mushrooms? The Definitive Answer"** (Part C 10b). Read: full, direct.
+  - "Unless they’re foraged, most mushrooms do not need to be cleaned."
+  - "the exposed gills on varieties such as portobello, shiitake, and oyster can grab substantial amounts of water that prolongs cooking and makes it harder for them to brown."
+  - After a one-minute soak, "the mushrooms without exposed gills retained almost no water, while those with them soaked up as much as 25 percent of their weight in liquid."
+  - "And unlike almost any other foods you can think of, they’re virtually impossible to overcook."
+- **Dave Arnold, "Crowded Wet Mushrooms. A Beautiful Thing.", Cooking Issues, 21 December 2009**
+  (Part C 6). Read: full, direct, with the comments.
+  - "The soaked mushrooms do take on water, but that water cooks off in the pan."
+  - Method: "To make the test really severe, I decided to cook the soaked mushrooms in one batch in an extremely crowded pan, and the dry mushrooms in 3 batches with plenty of room. We weighed out identical amounts of salt and oil (this is the crucial part) and began cooking."
+  - Result: "They looked as good and tasted better and less oily than their dry cousins"
+  - Arnold's own reply in the comments, 22 December 2009: "They browned quite well once the liquid in the pan evaporated."
+  - One test, one kitchen, tasted by the people who ran it.
+
+**Stir-frying (new; the outline allowed no claims about a wok beyond what was read).**
+
+- **Lan Lam, "The Science of Stir-Frying in a Wok", America's Test Kitchen (Cook's Illustrated),
+  published 1 April 2020**, https://www.americastestkitchen.com/cooksillustrated/articles/2189-the-science-of-stir-frying-in-a-wok .
+  Read: full, direct (the public part).
+  - She quotes Buwei Yang Chao's 1945 *How to Cook and Eat in Chinese*: "ch’ao may be defined as big-fire-shallow-fat-continual-stirring-quick-frying of cut-up material with wet seasoning." Chao's book was not read; the quotation is at one remove, through Lam.
+  - "SEAR ZONE: The bottom of a wok is the hottest part (it can exceed 750 degrees when set over a conventional gas burner) because it makes direct contact with the heat source. Food that passes through this part of the pan cooks rapidly and acquires flavorful browning."
+  - "STEAM ZONE: A couple of inches above the wok’s base, a layer of steam forms as moisture escaping from the food is corralled by the vessel’s tall sides. As this steam heat hits the food, it helps the food cook through quickly."
+  - Stirring thin beef constantly against occasionally, over gas: the constantly stirred batch cooked "about twice as fast". She notes woks behave differently on electric and induction hobs.
+  - Side-by-side tastings of the same dishes from a wok and a skillet favoured the wok. A tasting by the test kitchen, not a blind trial reported in numbers.
+- **America's Test Kitchen, "Technique #20: Make Superior Stir-Fries Without a Wok", published 12
+  October 2023**, https://www.americastestkitchen.com/articles/7725--how-to-stir-fry-without-a-wok .
+  Read: full, direct.
+  - "Even a skillet set over high heat won’t get hot enough to quickly stir-fry either large amounts or large pieces of food. So it’s important to cut the ingredients into bite-size pieces and to cook relatively small amounts of food at one time."
+  - "If necessary, cook the protein in batches to avoid overcrowding the pan, which will cause the protein to steam rather than sear."
+  - "And despite the name, don’t stir constantly. Leaving it alone will let your stir-fry brown and caramelize."
+  - **The two ATK pieces disagree on stirring**: Lam's wok test found constant stirring cooked beef about twice as fast; the 2023 skillet technique says not to stir constantly. They are different pans on possibly different heat, and neither page addresses the other.
+  - This page uses a nonstick skillet and says to heat the oil "until just smoking". No source read here says what temperature that is in a nonstick pan.
+
+**Pans: conductivity rechecked.**
+
+- **Engineering ToolBox, "Metals, Metallic Elements and Alloys: Thermal Conductivities"**,
+  https://www.engineeringtoolbox.com/thermal-conductivity-metals-d_858.html . Read: the table,
+  direct. W/(m·K): copper 401 (at 0°C); aluminium 236 (at 0°C); aluminium alloy 3003, rolled, 190;
+  aluminium alloy 360, 150; cast iron 52 (at 20°C); carbon steel, 0.5% C, 54; stainless steel type
+  304, 14.4. These match Part C 7. Which alloys cookware uses was not read, so a lesson gives pure
+  aluminium and notes the alloy range without saying which is in a pan.
+- The 10 to 20 minute cast-iron preheat stays unprinted (weak secondary). Part C 7's TiffyTaffy page
+  was re-read directly; its uneven-heating paragraph is the author's, and the Kenji soap quotation on
+  it ("The same way we can use soap inside a Tupperware container...") is attributed there to
+  López-Alt without a source. Not used.
+
+**Cast iron, Lodge, rechecked.** All read full, direct. The Part C 10g and Part D 3b [T] quotations
+match, with the differences noted.
+
+- **Lodge, "How to Clean"**: "Start with warm, soapy water and scrub with a stiff-bristled brush or scrubbing pad." "Dry completely with a paper towel or lint-free cloth." "Add a thin layer of oil, using a paper towel to distribute it over the entire surface." FAQ: "No! Soaking cast iron in water is a recipe for rust." "Soap is totally okay! The soap we use for washing dishes today is no longer strong enough to remove seasoning from cast iron and is an easy way to prevent build up." "A dishwasher will remove the seasoning and likely cause rust."
+- **Lodge, "How to Season"**: "Seasoning is just oil baked onto the pan through a process called polymerization." "Over time, these layers build up to form a strong, nonstick cooking surface." FAQ: "Recipes that call for acidic ingredients—like tomato sauce or lemon juice—aren’t the best choice for new cast iron because they can break down seasoning. After you build up your seasoning, you can introduce acidic ingredients with cook times under 45 minutes." **Note for the "naturally non-stick" myth:** the maker itself calls a built-up seasoning nonstick. What the lesson can correct is "naturally": the slickness is oil built up by use.
+- **Lodge, "3 Tips for Cooking Acidic Foods in Cast Iron"**: the page's schema date is 11 February 2025 (Part D 3b gave 9 May 2023, perhaps the original). "Similarly, deglazing your pan with wine or adding a little lemon juice to your dish shouldn’t cause problems." "As a general rule, you shouldn’t leave acidic ingredients directly in cast iron for more than about 45 minutes."
+- **Lodge, "10 Myths About Cast Iron Cookware, Busted!"**: "Soap isn't necessary, but you can use mild dish soap to clean cast iron." (The page italicises "can".)
+
+**Nonstick and PFAS, rechecked and one source added.**
+
+- **FDA, "Authorized Uses of PFAS in Food Contact Applications"**, content current as of 3 January
+  2025. Read: full, direct. The fetch-tool sentence is on the page, in the table row for pots and pans.
+  - "The manufacturing process vaporizes off virtually all the smaller (i.e., migratable) PFAS molecules."
+  - "Studies show negligible amounts of PFAS in this coating can migrate to food."
+  - "only paper and paperboard agents would result in dietary exposure to PFAS that may result in a potential safety concern"
+- **EPA, "Risk Management for Per- and Polyfluoroalkyl Substances (PFAS) under TSCA"**, last updated
+  26 March 2026. Read: full, direct. The second goal: "To commit to working toward the elimination of these chemicals from emissions and products by 2015." And: "All companies have met the PFOA Stewardship Program goals."
+- **Prachi Patel, C&EN**, 2025 (Part D 3a). Read: full, direct. Additions to Part D 3a:
+  - "PTFE degrades when it’s heated above 260 °C, releasing smaller PFAS molecules into air and food."
+  - "The fumes are also fatal to birds. But cases of such effects are uncommon, and it is unclear whether exposure from regular use harms human health."
+  - Gillian Miller of the Ecology Center, quoted directly: "The amounts might be low and not a concern, but there’s no simple answer," and, on manufacturing: "If you ignore that and say we made this inert polymer, you completely ignore the manufacturing impact."
+  - Steve Burns (CSA; the article calls it the "Cookware Safety Alliance"), quoted directly: "Folks who are looking to ban nonstick cookware now are seeking to right the wrongs of the past."
+  - C&EN says "PTFE makers phased it out in 2012" (PFOA); EPA's page gives the program's 2015 goal and says all companies met the goals. The lesson uses EPA.
+  - "Users often complain that ceramic coatings lose their nonstick property sooner than PTFE does. Scientific reviews are mixed."
+- **Cookware Sustainability Alliance, home page.** Read: full, direct. Page now carries a "July 2026 – Special Report".
+  - "Global public health authorities, academics and scientists have studied PTFE for decades and consistently conclude it is an inert molecule that is non-bioaccumulative, insoluble in water, non-toxic, and therefore safe for consumers."
+  - "The same compounds used in non-stick cookware (PTFE) are also used in life-saving medical devices, such as pacemakers."
+  - "The problematic PFAS (like PFOA) were never used on cookware and were banned from chemical production over a dozen years ago."
+  - It lists Illinois, Delaware, West Virginia, New Mexico and Canada as exempting fluoropolymer cookware from their PFAS rules. Not checked against the laws.
+- **Shannon Kelleher, The New Lede, 29 September 2025** (Part D 3a). Read: full, direct. The quotations
+  match. Also on the page, all reported by the journalist rather than quoted:
+  - "Chemours, a spinoff of the chemical company DuPont and the nonstick coating’s manufacturer, warns on its website not to use Teflon-coated cookware to broil food, which requires heating it to at least 500°F, or to preheat empty nonstick pans at high heat, since the coating can deteriorate." Chemours' page was not read.
+  - "More than 265 suspected cases of Teflon flu — which causes a fever, chills and headache — were reported in 2023, the highest number since the year 2000." No source is given for the figure; not used.
+  - David Andrews (EWG), on swallowed flakes: "I’ve seen no studies looking at that, specifically."
+  - The Los Angeles County Sanitation Districts' letter, in full as quoted: "Acting boldly to turn off the spigot of PFAS in consumer products is the only meaningful and cost-effective way to potentially avoid further PFAS contamination and avert the need for expensive treatment systems". Lohmann, quoted: "I don’t see manufacturers being able to produce [Teflon pans] without adding contamination to the environment".
+  - The article reports that Chemours stopped using PFOA in 2015, switching to the processing aid GenX, which a 2021 EPA assessment found "highly toxic at small doses" (the journalist's words). The EPA assessment was not read.
+  - Who publishes The New Lede was not confirmed (its about page refused automated access), so a lesson states no affiliation for it.
+- **Morgan Lewis, "State Regulation of PFAS in Consumer Products Continues to Gain Momentum in
+  2026", LawFlash, 21 January 2026**, https://www.morganlewis.com/pubs/2026/01/state-regulation-of-pfas-in-consumer-products-continues-to-gain-momentum-in-2026 .
+  Read: full, direct. A law firm's client note, the most recent summary read.
+  - Colorado: "On or after January 1, 2026, no person shall sell or distribute the following products with intentionally added PFAS", cookware among them.
+  - Maine: "Beginning January 1, 2026, the following products containing intentionally added PFAS cannot be sold in the state", cookware among them.
+  - Connecticut: cookware with intentionally added PFAS from 1 July 2026, which "may continue to be sold or distributed only if Connecticut’s Department of Energy and Environmental Protection receives prior notification in writing." (The New Lede, four months earlier, said 2028 for Connecticut; the later note is used.)
+  - Minnesota's first prohibitions, cookware among them, "became effective on January 1, 2025".
+  - New Jersey enacted a law on 12 January 2026 covering cookware from January 2028.
+- **California SB 682's veto (13 October 2025)** stays at Part D 3a's read level (a law firm's note,
+  fetch tool at Stage 1; the page now refuses automated access). A lesson may state the veto as a
+  fact with that read level; it does not quote the governor.
+- **EFSA 2020** (Part D 3a), rechecked, direct: PFAS in food are "most often found in drinking water, fish, fruit, eggs, and egg products."
+
+**Aluminium, rechecked.** **Alzheimer's Society, "Metals and the risk of dementia"**, Internet
+Archive capture 20251112073331 (the live page refuses automated access). Read: full, direct.
+
+- "There is no strong evidence to suggest that everyday contact with metals increases a person’s risk of developing dementia."
+- On the 1965 rabbit study: "Importantly, these results were only seen with extremely high doses - far more than we normally get from our environment."
+- "Other studies have suggested that high aluminium exposure might be related to an increased risk of dementia. These studies are small and others contradict them. The levels that are considered high are far greater than people are normally exposed to."
+- "No convincing relationship between aluminium and the development of Alzheimer's disease has been established."
+
+## Stage 4 note, lesson 4
+
+*Stage 4 review, 2026-09-24. Re-downloaded and read direct: the FSIS Appendix A PDF (Tables 3 and 4
+rendered and read from their images; every chicken figure in Part B 6.1 confirmed), the FSA pages
+through the GOV.UK Content API, the Salon copy of Desalu, the PubMed abstracts, CIDRAP, and the FSIS,
+CDC and USDA pages through 2026 Internet Archive captures. These passages were not recorded above and
+lesson 4 now relies on them.*
+
+- **FSA, "Cooking your food"** (direct): the top tips say "check that food is cooked completely
+  before serving - use visual cues, such as making sure the food is steaming hot" and "consider using
+  a food thermometer to verify the correct temperature"; section 2.1 opens "If you don't have a food
+  thermometer, then you can use visual cues", and section 4.1 gives the thermometer first, then
+  "If you don't have a thermometer, you should use the following visual cues". So Part B 3.1's
+  "Primary cue is visual" overstates the page: it offers a thermometer, or cues without one. Also
+  "Leftovers can be eaten cold if they have been cooked properly, cooled, and put in the fridge
+  within two hours." and "Eat leftovers within 48 hours or freeze them if you think this won't be
+  possible."
+- **FSA, "How to chill, freeze and defrost food safely"** (direct): "To cool food quickly, divide
+  food into smaller portions in containers or freezer bags before putting in the fridge or freezer."
+  "store raw meat, poultry and fish in their packaging or in clean sealed containers on the bottom
+  shelf of the fridge". "That's why we advise that the safest way to defrost food is in the fridge
+  overnight."
+- **Shumaker 2022 abstract, in full** (PubMed efetch). Part D 3e recorded two sentences. The rest:
+  participants "self-reported washing poultry"; "Treatment group participants received three e-mail
+  messages" from USDA material advising against washing; chicken thighs were "inoculated with
+  traceable nonpathogenic Escherichia coli strain DH5α"; "Three hundred people participated in the
+  study (158 control, 142 treatment)"; "93% of treatment group participants but only 39% of control
+  group participants did not wash the chicken". "Among chicken washers, 26 and 30% of the lettuce
+  from the prepared salad was contaminated for the control and treatment groups, respectively. For
+  nonwashers, 31 and 15% of the lettuce was contaminated for the control and treatment groups,
+  respectively." "Hand-facilitated cross-contamination is suspected to be a factor". The 2019 press
+  release's 26% and 31% match the control group; the release does not mention the treatment group.
+  **A lesson that gives only the release's pair implies non-washers always did worse; they did not.**
+- **Henley 2018 abstract** (Semantic Scholar): the washes were "10% vinegar or 10% lemon juice", for
+  "10 s, 30 s, 2 min or 5 min", on breasts inoculated with "approximately 5 × 10^8 CFU".
+- **Desalu, Salon copy** (direct), passages not recorded above: Chapman in full: "Bleach-based
+  solutions are the safest for cleaning. We don't have good data that proves vinegar kills what's in
+  your sink. It does [help], but lemons and vinegar don't do enough. Look at the liquid like it's a
+  pathogen, limit where it may tread then do a good job of cleaning and sanitizing." (Gate closures,
+  lesson 4 stopped after "your sink.", which dropped his concession.) Jackson, by phone: "The United
+  States Virgin Islands was a port for slavery. Food for [slaves] were leftovers kept in dirty
+  buckets. [By nature], animals aren't clean." (brackets Salon's). Desalu's method sentence
+  continues "for a few minutes to “wash” away the germs". Bobbi "cleans her sink and countertops with
+  the leftover lemons to avoid cross contamination" (Desalu's words). Desalu's conclusion: "I will,
+  update my family tradition by sanitizing with a bleach-based solution instead of vinegar because
+  tradition can change a little."
+- **FSIS, "Washing Food"** (Wayback 2026): on soaking, "Carefully pour out the soak and do not reuse
+  it. Wash the container you used for the soak or sanitize it in the dishwasher. Clean and then
+  sanitize your inner sink and any surfaces that touch the used soak." And: "Some consumers may wash
+  or rinse their raw meat or poultry because it's a habit or because a family member they trust has
+  always washed their meat."
+- **FSIS, "The Big Thaw"** (Wayback 2026), verbatim: "After thawing in the refrigerator, items such as
+  ground meat, stew meat, poultry, seafood, should remain safe and good quality for an additional day
+  or two before cooking; red meat cuts (such as beef, pork or lamb roasts, chops and steaks) 3 to 5
+  days."
+- **CIDRAP, 24 May 2011** (direct, rechecked): "If raw pork is cooked to 145ºF and then allowed to
+  stand for 3 minutes, it may still be pink but is safe to eat, the statement said". This is the
+  read source for the US "pink is fine" row in Part B 7.
+- **FSIS, "Food Product Dating"** (Wayback 2026): "Manufacturers provide dating to help consumers and
+  retailers decide when food is of best quality."
+
+## Stage 4 note, lesson 5
+
+*Stage 4 review of lesson 5, 2026-09-24. Each page below was downloaded with curl and its text
+extracted locally; quotations are copied from that text, direct.*
+
+- **Correction to the Egg Safety Center entry in "Gate closures, lesson 5".** The live page's table
+  does not give "Cook until no visible liquid egg remains" for scrambled eggs. That wording is its
+  row for an **egg white omelet** (144-149°). Scrambled eggs share a row with fried eggs: "Scrambled
+  eggs, fried eggs over easy, over hard, and basted | 144-158° | Cook until whites are completely
+  set, and the yolks begin to thicken but are not hard." Omelettes and frittatas: "Omelets,
+  frittatas and recipes with added liquid | 160 ° | Eggs will be thickened with no visible liquid
+  egg remaining." Lesson 5 is corrected.
+- **FSA, "New advice on eating runny eggs", food.gov.uk, "Last updated: 11 October 2017".** Read:
+  full, direct, through the Internet Archive capture of 17 October 2017,
+  https://web.archive.org/web/20171017232923/https://www.food.gov.uk/news-updates/news/2017/16597/new-advice-on-eating-runny-eggs .
+  The text matches the IFST copy word for word in every passage quoted in the gate closures above,
+  so the date is now confirmed at source. It adds that the advice "is only for eggs produced under
+  the British Lion Code of Practice", and names the groups as "infants, children, pregnant women and
+  elderly people".
+- **ACMSF Ad Hoc Group on Eggs, "An update on the microbiological risk from shell eggs and their
+  products"**, July 2016 (the back page's date and the PDF's creation date, 27 July 2016; the cover
+  carries a stray "September 2012" that the text does not otherwise support), through the Internet
+  Archive capture of 20 December 2016,
+  https://web.archive.org/web/20161220073347/https://www.food.gov.uk/sites/default/files/acmsf-egg-reportv1.pdf .
+  Read: the overall risk assessment and key recommendation (pages 8 and 9), and paragraph 5.47,
+  found by searching the full text. The rest was not read.
+  - "It was the strong view of the Working Group that there has been a major reduction in the microbiological risk from Salmonella in UK hen shell eggs since the 2001 ACMSF report."
+  - "the group suggests that the risk level for UK hen shell eggs produced under the Lion Code, or under demonstrably-equivalent comprehensive schemes, should be ‘VERY LOW’, with a low degree of uncertainty, whilst for other shell eggs the risk level should be considered ‘LOW’."
+  - Such eggs "can be served raw or lightly cooked to all groups in society, including those that are more vulnerable" to infection, including in care homes and hospitals. The footnote excludes "severely immunocompromised individuals such as those undergoing transplant surgery".
+  - "The risk from non-UK eggs has also been reduced, but not to the same extent."
+  - Egg washing, 5.47: under Regulation (EC) 589/2008 "washing of Class A table eggs ... is generally not permitted" and "This practice is not permitted in the UK."
+  - The parts read compare Lion eggs with other and non-UK eggs; none compares UK with US eggs, so the rule above (no lesson says which supply is safer) stands.
+- **FSIS "Shell Eggs from Farm to Table"**, same capture, rechecked for the grades: "U.S. Grade AA
+  eggs have thick, firm whites"; Grade A has "characteristics of Grade AA eggs except that the whites
+  are “reasonably” firm." And for washing at the plant: processors "carefully wash and sanitize
+  USDA-graded eggs ... at temperatures that prevent wash water from being “sucked” into the egg."
+- **Marc Anton**: the PDF's header reads "M. ANTON" with the address marc.anton@nantes.inra.fr; the
+  first name is taken from that address.

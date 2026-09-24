@@ -86,6 +86,8 @@ function exerciseCost(block) {
 // Lessons whose real load is not on the page. Keep the reason; do not add to this list to avoid a
 // number you dislike.
 const EXCEPTIONS = {
+  "courses/practical-life-and-self-reliance/cooking-fundamentals/lessons/05-eggs-gentle-heat-and-the-first-emulsion.md":
+    "states 75 minutes of cooking at the stove (seven eggs four ways, then a mayonnaise) that the stated-minutes cap prices at 30",
   "courses/christian-studies/bible-basics/lessons/12-method-tools-plan.md":
     "asks the reader to read three whole books of the Bible and write a fortnight's study plan",
   "courses/foundations/reading-well/lessons/10-one-question-many-books.md":
