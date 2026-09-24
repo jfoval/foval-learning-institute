@@ -290,3 +290,35 @@ Findings that belong to the course rather than to any one lesson, from the Stage
   1 to 3, 5, 6 and 8.
 - **Quiz keys:** lesson 7 is 0,2,3,1,0,2. Its first draft of this pass, 2,0,3,1,..., shared a
   first-four run with lesson 3, so check the whole course, not only neighbours.
+
+## From lesson 10's review (2026-09-24)
+
+- **SOURCES corrections at this review, each against the primary:** R5.12 (neither leg lost fat, not
+  just the trained one); R5.11 (the abstract names no DXA); R5.13 (every pooled study trained a limb,
+  the 2013 one-leg trial is one of the 13, and the authors' regional caveats); R5.18 (Fonseca's heads,
+  strength result and "alleged threshold" conclusion; ACSM's sentence on variation is "insufficient
+  data ... varied exercise selection", not "exercise complexity"); R5.20 (Achten's four to six steady
+  tests; nothing read traces how machines set a "fat burn" band). **No lesson may say the machines'
+  band descends from Fatmax** as history; lesson 10 labels the comparison as its own.
+- **"Qualified exercise professional" is undefined in everything read.** The PAR-Q+ uses the phrase ten
+  times and never says which qualifications count (R4.2, now recorded). Lessons 1, 7, 9 and 10 and the
+  project name one; none may say what qualifies one. A later research pass could read ACSM's or a
+  national register's definition. *(P9.)*
+- **Eating-concern route now in this course's SOURCES (R4.27)**, copied from Nutrition's F 5 with read
+  levels: NHS (including "exercising too much" as a sign), Beat, ANAD as peer support, no NEDA number.
+  Lesson 10 gives it in full; any other lesson that touches weight or body image can cite R4.27.
+- **Roberts 2020 reports effect sizes, not per cents** (R5.15, corrected at lesson 9's review). Lesson
+  10's "in proportion" is now "effect sizes similar to men's". Check lessons 4 and 9 and the final test
+  for the old wording.
+- **The one-minute study's address is 9 and 10 men, twelve weeks, a laboratory** (R3.4c). Lesson 10
+  had given it Vispute's 24 adults and six weeks.
+- **Lesson 10 measures 140 against OUTLINE's ~60** (130 at review). Reviewer P priced its two
+  exercises at about 30 minutes each (the tool counts numbered steps as well as the stated time, as at
+  lesson 8) and the Sources at about 12. The fix pass added the split address, the bin-and-grade conventions, a fourth
+  decision kind for a reader who hasn't trained, the helplines and the PAR-Q+ route. Record it in
+  OUTLINE's "Lesson length" paragraph beside the others.
+- **Nutrition dependency:** lesson 10 points to Nutrition lessons 3 (energy balance), 5 (protein) and
+  10 (supplements; it doesn't name creatine) and to Nutrition's safety box. If Strength publishes
+  before Nutrition, those pointers dangle; lesson 10 carries its own helpline route, so only the
+  teaching pointers would.
+- **Quiz keys:** lesson 10 is 2,0,1,3,0,3 (unchanged; checked against lessons 1 to 9 at review).

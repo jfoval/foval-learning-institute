@@ -3166,6 +3166,15 @@ lay tool is the PAR-Q+ (4.2).
 - A yes on a follow-up: "You should seek further information before becoming more physically active
   or engaging in a fitness appraisal." It points to the ePARmed-X+ or "a qualified exercise
   professional".
+- *Added 2026-09-24 (lesson 10's review, P9 and F15), re-checked against the PDF fetched that day
+  (pdftotext):* the opening says the form "will tell you whether it is necessary for you to seek
+  further advice from your doctor OR a qualified exercise professional before becoming more physically
+  active." The follow-up sentence continues: "You should complete the specially designed online
+  screening and exercise recommendations program - the ePARmed-X+ at www.eparmedx.com and/or visit a
+  qualified exercise professional to work through the ePARmed-X+ and for further information." **The
+  form uses "qualified exercise professional" ten times and never says which qualifications count**
+  (searched for "qualified", "certif" and "defin"). Nothing else read defines the term. A lesson may
+  say the form names such a person but must not say what qualifies one.
 - **Delay rules (verbatim):** "Delay becoming more active if:" "You are currently experiencing a
   temporary illness, such as a cold or fever. It is best to wait until you feel better." "You are
   pregnant." (then talk with a practitioner or complete the ePARmed-X+). "Your health changes."
@@ -4010,6 +4019,30 @@ is modest and on function small. **Does not show:** which exercise is best; non-
 - Starting point: "When beginning a new RT program, an initial intensity should correspond to 40% to
   60% of 1-RM". (Programming belongs to another researcher; noted for cross-reference.)
 
+### R4.27 Where to turn about eating: copied from the Nutrition course's SOURCES.md, F 5.2 and 5.3
+
+*Added 2026-09-24 at lesson 10's review (F22, P10), so this course can give the route itself rather
+than send a reader to another course's box. Copied from `courses/health-and-body/nutrition/research/SOURCES.md`
+section F 5, whose researcher fetched each page on 2026-09-24; not re-fetched here. The wording matches
+the Nutrition course's enforced callout (`NUTRITION_SAFETY` in `scripts/build.mjs`): "tell a doctor,
+or call Beat on 0808 801 0677 in the UK or ANAD's peer-support helpline on 1-888-375-7767 in the US."*
+
+- **NHS, "Eating disorders" overview.** https://www.nhs.uk/mental-health/feelings-symptoms-behaviours/behaviours/eating-disorders/overview/.
+  **Read level (Nutrition's):** full page, fetched by curl; "Page last reviewed: 23 January 2024".
+  Verbatim: "If you think you may have an eating disorder, see a GP as soon as you can." and "You can
+  also talk in confidence to an adviser from eating disorders charity Beat by calling the Beat
+  helpline on 0808 801 0677." Its symptom list includes "exercising too much".
+- **Beat (UK).** https://www.beateatingdisorders.org.uk/get-information-and-support/get-help-for-myself/support-now/
+  (the older helplines address redirects here). **Read level (Nutrition's):** full page, fetched by
+  curl and re-checked 2026-09-24. England "0808 801 0677"; Scotland "0808 801 0432"; Wales "0808 801
+  0433"; Northern Ireland "0808 801 0434". Verbatim: "Our Helplines are open 3pm-8pm, Monday to
+  Friday." Hours change; link the page rather than print hours.
+- **ANAD (US).** https://anad.org/get-support/eating-disorders-helpline/. **Read level (Nutrition's):**
+  full page, fetched by curl. Number: "1-888-375-7767". From https://anad.org/get-help/, verbatim:
+  "ANAD is a peer-run organization providing peer support. We do not provide therapy or anything
+  medical." **A lesson must call it peer support, not clinical care.** NEDA closed its helpline in
+  2023; do not print a NEDA number.
+
 ---
 
 ## What this section found that should shape the course
@@ -4443,6 +4476,11 @@ These are recorded as primary sources on the practitioners' own ideas. None of t
   abdominal subcutaneous fat and other measures of body composition" (checked).
 - **Does not show.** Anything beyond 6 weeks, or with a caloric deficit. Small sample. The word "alone"
   in the conclusion is the authors' hedge and should stay.
+- *Correction, 2026-09-24 (lesson 10's review, F23, against the PubMed abstract, PMID 21804427):* the
+  abstract does not name DXA. Its fat measures, verbatim: "body weight, body fat percentage, android
+  fat percentage, android fat, abdominal circumference, abdominal skinfold and suprailiac skinfold
+  measurements". "(DXA)" above was this file's inference from "android fat"; a lesson should not name
+  the scanner unless the full text is opened.
 
 ### R5.12 Spot reduction: Ramírez-Campillo et al. 2013
 
@@ -4457,6 +4495,13 @@ These are recorded as primary sources on the practitioners' own ideas. None of t
   trained leg.** Fat fell significantly in the upper extremities (10.2%) and trunk (6.9%). "In
   conclusion, the training program was effective in reducing fat mass, but this reduction was not
   achieved in the trained body segment" (checked).
+- *Correction, 2026-09-24 (lesson 10's review, F2, against the PubMed abstract, PMID 23222084):* the
+  line above recorded only the trained leg. The abstract says neither leg changed: "No significant
+  changes in bone mass, lean mass, fat mass, or fat percentage were observed in both the control and
+  trained leg." And: "The reduction of fat mass in the upper extremities and trunk was significantly
+  greater (p < 0.05) than the fat mass change observed in the trained leg but not in the control leg."
+  So fat came off the arms and trunk and off neither leg, and the trained leg did no better than the
+  untrained one. A lesson must not say fat came off "everywhere except" the trained leg.
 - **Good for a lesson.** The within-person design (one leg trained, one not) is easy to explain and is
   exactly the design the later meta-analysis treats as the valid test.
 
@@ -4482,6 +4527,15 @@ These are recorded as primary sources on the practitioners' own ideas. None of t
 - **Limits the authors state.** Programmes of 2 to 20 weeks; longer interventions were not addressed
   (paraphrase; the sentence is split across the PDF's two columns). The authors declare no conflict.
 - **Classification.** Established, within the tested durations.
+- *Added 2026-09-24 (lesson 10's review, P1 and P14, checked against the PDF text):* every included
+  study trained a **limb**: inclusion was "a localized exercise intervention (i.e., single-leg
+  training) ... compared with a control condition (i.e., contralateral limb)". No included study
+  trained the trunk. The quality table lists "Ramirez-Campillo et al., 2013 [21]" (R5.12) among the
+  13, so that trial is inside the pooled result, not separate from it. The discussion's own caveats,
+  verbatim across the PDF's column breaks: "fat depots from different body regions are not equally
+  comparable within a given individual (i.e., comparing arms and legs)" and "abdominal fat may respond
+  differently to exercise in males compared with females". So the address of "established" is limbs;
+  for the abdomen the course has Vispute's one six-week trial (R5.11).
 
 ### R5.14 "Toning" with light weights versus "bulking" with heavy: Schoenfeld et al. 2017
 
@@ -4572,10 +4626,21 @@ These are recorded as primary sources on the practitioners' own ideas. None of t
   12 weeks, twice a week, four combinations of constant or varied intensity and exercise plus a control;
   outcomes squat 1RM and quadriceps cross-sectional area. Whole-quadriceps growth in all training groups
   (about 9 to 12%); groups varying the exercise grew all four quadriceps heads.
+  *Added 2026-09-24 (lesson 10's review, F12, from the PubMed abstract, PMID 24832974):* the fixed
+  groups missed heads: "the CICE and VICE groups did not present hypertrophy in the vastus medialis and
+  rectus femoris (RF), and in the RF muscles, respectively". Strength: "The CIVE group had greater
+  strength increments than the other training groups" (CIVE = constant intensity, varied exercise).
+  The authors' conclusions, verbatim: "(a) CIVE is more efficient to produce strength gains for
+  physically active individuals; (b) as long as the training intensity reaches an alleged threshold,
+  muscle hypertrophy is similar regardless of the training intensity and exercise variation."
 - **What they test.** The marketing claim that muscles must be "confused" by constant novelty. The
   evidence found supports *some planned* variation and warns against random, frequent change. The
-  2026 ACSM overview (R5.26) lists "exercise complexity" and "periodization" among variables that did
-  not consistently affect outcomes. **No proponent statement of "muscle confusion" was read.**
+  2026 ACSM stand, read in full (R2.2), addresses varied exercise directly: "There were insufficient
+  data to determine if strength was affected by ... varied exercise selection ( 115 )". *(Corrected
+  2026-09-24 at lesson 10's review, F7: this line had cited the abstract's "exercise complexity"
+  (R5.26) for muscle confusion. Complexity, simple against complex movements, is not variation, and
+  the stand's own sentence on variation says "insufficient data", not "did not affect".)* **No
+  proponent statement of "muscle confusion" was read.**
 
 ### R5.19 The "anabolic window": Schoenfeld, Aragon and Krieger 2013
 
@@ -4602,6 +4667,14 @@ These are recorded as primary sources on the practitioners' own ideas. None of t
   peak lay between 55 ± 3 and 72 ± 4% VO2max; fat oxidation became negligible above 89 ± 3% VO2max.
   "Fat oxidation rates are high over a large range of intensities; however, at exercise intensities
   above Fat(max), fat oxidation rates drop markedly" (checked).
+  *Added 2026-09-24 (lesson 10's review, F5, from the PubMed abstract, PMID 11782653):* "graded tests"
+  above was a trim. Each cyclist did a graded test to exhaustion, and "In addition, four to six
+  continuous prolonged exercise tests (CE) at constant work rates, corresponding to the work rates of
+  the GE test, were performed on separate days." Seven other subjects did three graded tests. Nobody
+  trained. The study's stated aim: "to develop a test protocol to determine the exercise intensity at
+  which fat oxidation rate is maximal (Fat(max))." **Nothing read traces how gym machines or watches
+  set their "fat burn" band, or links that band to Fatmax**; a lesson that sets the two side by side
+  is making its own comparison and says so (F4, P3).
 - **What the claim gets wrong.** The "zone" is about the *fuel mix during the session*, measured in
   trained cyclists. The popular claim is that training in it loses more body fat over weeks. Two tests
   of the longer-run outcome:
