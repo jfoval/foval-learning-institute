@@ -3045,3 +3045,164 @@ by the state legislature that would have phased out the use of per- and polyfluo
 - EPA TSCA page, rechecked: the second goal reads in full "To commit to working toward the elimination of these chemicals from emissions and products by 2015."
 - Wilson's "50 times" (not used, see the gate closures): confirmed on the page. Water's heat of vaporisation against 0 to 100°C of heating is 2,256 against about 418 kJ/kg, about 5.4 times, as lesson 2 says.
 - Keller and Heckman (*National Law Review*), on the reason: "The veto was driven by the Governor’s concern over a lack of affordable cookware options for Californians, if SB 682 had taken effect."
+
+## Gate closures, lesson 9
+
+*Stage 3 top-up for lesson 9, 2026-09-24. Every page below was downloaded with curl and its text
+extracted locally (GOV.UK through the Content API; PubMed abstracts through the E-utilities efetch
+endpoint; Europe PMC full-text XML; the FDA Bad Bug Book and McGee's column as PDFs through
+pdftotext; the old NHS page through Internet Archive captures, because the live page has been
+removed). Quotations are copied from that text, direct. Gates G5, G6, G9 (rice) and G13 are closed;
+G7 is closed for lesson 8 only (see "Gate closures, lesson 8") and one extension-service page is
+added here.*
+
+**G5, the NHS kidney bean page: closed, and the answer is that the NHS no longer publishes it.**
+
+- **NHS, "Beans and pulses in your diet"**, https://www.nhs.uk/live-well/eat-well/beans-and-pulses-nutrition/ .
+  The live URL now answers 301 to `/page-removed/` (checked with curl on 2026-09-24); the Internet
+  Archive records the redirect from December 2022. Two archived versions read in full, direct:
+  - **Version reviewed 15/05/2015** (capture 20180528115551): "Cooking kidney beans safely Kidney beans contain a natural toxin called lectin. This can cause stomach aches and vomiting. The toxin is destroyed by proper cooking. Tinned kidney beans have already been cooked, so you can use them straight away. When using dried kidney beans, follow these three steps to destroy the toxins: soak the dried beans in water for at least 12 hours drain and rinse the beans, then cover them with fresh water boil them vigorously for at least 10 minutes, then simmer the beans for around 45-60 minutes to make them tender" (a bulleted list, run together in extraction). Soya beans on the same page: "boil them vigorously for one hour, then simmer the beans for about two to three hours".
+  - **Version reviewed 26 July 2021** (capture 20220319073630, "Next review due: 26 July 2024"): the numbered steps are gone. "Dried kidney beans and soya beans contain toxins. They can cause diarrhoea and vomiting. It's important they're soaked overnight and then cooked properly before you eat them." "Cooking times vary depending on the type of pulse. Follow the instructions on the packet." "You should not slow-cook dried red kidney beans as it does not destroy the toxin and may increase its toxicity." "Tinned pulses have already been soaked and cooked, so you only need to heat them up or add them straight to salads if you're using them cold."
+  - **So the familiar UK "10 minutes" is real, and was NHS advice until the 2021 revision**, which dropped it; the page was then removed. No current NHS page giving a boiling time was found. Part B 5.1's "snippet only" item is superseded by this entry.
+- **FSA, "Home food fact checker"**, GOV.UK Content API, public_updated_at 21 August 2026, re-read
+  in full, direct. The kidney bean answer in full: "Are raw kidney beans poisonous? Canned beans purchased in the supermarket are safe to consume as they have been pre-soaked and boiled to kill any toxins present. Raw or undercooked beans especially red kidney beans can be risky. This is because they naturally contain a type of lectin that can produce toxic effects. You should not slow cook raw red kidney beans as it does not destroy the toxin and may increase its toxicity." No boiling time.
+  - The rice answers, rechecked (Part B 3.4 matches) with the sentences it did not record: "Keep rice in the fridge for no more than one day until reheating. When you reheat any rice always check the dish is steaming hot all the way through." "Uncooked rice can contain spores of a bacterium called Bacillus cereus." "The longer cooked rice is left at room temperature, the more likely it is that the bacteria or toxins will make the rice unsafe to eat." "If you have leftover rice you should chill it as quickly as possible, ideally within one hour. Dividing it into smaller portions can help with this. Also don’t leave rice in the rice cooker, steamer or pan to cool down." Takeaway: "Ideally, takeaway rice should be eaten shortly after purchase or shortly after it has been delivered." Freezing: "Before eating, you should defrost your rice in the fridge and then reheat it until it is steaming hot before eating immediately."
+- **FDA Bad Bug Book, 2nd edition, 2012**, https://www.fda.gov/media/83271/download , re-read
+  (pdftotext) for the two chapters. Part B 5.1 and 5.2 match. Additions:
+  - Kidney beans, the consumer box, whose attribution Part B 5.1 dropped: "Studies done by British scientists suggest that beans should be soaked in water for at least 5 hours, the water poured away, and the beans boiled in fresh water for at least 30 minutes." Also: "Slow cookers don’t get hot enough to destroy the toxin in kidney beans."
+  - "The syndrome usually is caused by ingestion of raw, soaked kidney beans, either alone or in salads or casseroles." "PHA is destroyed by adequate cooking. Some variation in toxin stability has been found at different temperatures." "All people, regardless of age or gender, appear to be equally susceptible; the severity is related to the dose ingested. In the seven outbreaks mentioned below, the attack rate was 100%."
+  - Bacillus cereus: "The vomiting-type outbreaks generally have been associated with rice products; however, other starchy foods, such as potato, pasta, and cheese products, also have been implicated." Consumer box: "Cooking may kill the bacteria, but it might not disable the toxin that causes the vomiting type of illness." And "at higher temperatures, B. cereus can form spores" (the box's wording; the chapter proper is the better source for the mechanism). "Both kinds of illness generally go away by themselves, but can cause serious complications, although rarely in otherwise healthy people."
+- **Colorado State University Extension, "Cooking Dry Beans"**, https://extension.colostate.edu/resource/cooking-dry-beans/ ,
+  "Reviewed: October 2025". Read: full, direct. "red kidney beans are particularly high in lectins, thus it is not recommended to cook red kidney beans in a slow cooker because lectins may still be present. If you want to prepare red kidney beans in a slow cooker, the recommendation is to first boil them for 10 minutes before finishing them in the slow cooker, to properly inactivate lectins." An extension service, below the FDA's 30 minutes; a lesson that mentions it says so.
+
+**G6, rice ratios and resting: closed** with an ATK test of the ratio and ATK recipes for the rest.
+No test of resting itself (rested against unrested rice) was found; the rest is a recipe
+instruction with a stated reason, and a lesson says so.
+
+- **Cook's Illustrated (America's Test Kitchen), "Nailing the Perfect Ratio of Water to Rice"**,
+  https://www.americastestkitchen.com/articles/1692-nailing-the-perfect-ratio-of-water-to-rice ,
+  published 10 April 2019, byline "Cook's Illustrated". Read: full, direct.
+  - "A survey of common rice-to-water ratios suggests that long-grain rice absorbs more water than short-grain rice and that brown rice absorbs more than white rice. And yet when we researched how rice is cooked commercially, we found that 1 cup of water should be sufficient to hydrate 1 cup of rice, regardless of type. The water in excess of this 1:1 ratio is included to account for evaporation during cooking, according to commercial producers."
+  - Method: "We gathered 17 different varieties of rice" ... "After rinsing the rice to remove excess surface starch, we placed 1 cup of each type with 1 cup of water in a vacuum bag and sealed them to ensure that no water could evaporate during cooking. We then submerged the bags in a 200-degree water bath until the grains turned tender—25 minutes for white rice types and 65 minutes for brown, red, and black rice types. After letting the cooked rice sit in the bags for 10 minutes, we emptied each into a separate bowl, fluffed the grains with a fork, and tasted for doneness. We repeated this test three times."
+  - "To the surprise of our tasting panel, every variety of rice was properly cooked using the 1:1 ratio of rice to water. All of the rice types were tender throughout with no chalky or mushy grains. In addition, the water had been completely absorbed in each sample."
+  - "A cup of long-grain brown rice doesn't require more water than a cup of long-grain white rice, but it does need to cook for a significantly longer period of time in order for the water to work its way through the tough bran layer. That extended cooking time results in a greater amount of water lost to evaporation."
+  - "But there are other factors that influence evaporation, including the size and shape of the cooking vessel, how tightly the pot is covered, and the source and intensity of the heat. In addition, scaling ratios can be problematic because the amount of evaporation doesn't necessarily double when we double the quantity of rice. All of these variables demonstrate why set-in-stone ratios fail the home cook."
+- **ATK, "Fluffy White Rice"**, recipe, published 21 August 2007, https://www.americastestkitchen.com/recipes/1542-fluffy-white-rice .
+  Read: full, direct. 1 cup long-grain white rice to 1½ cups water. "This recipe is designed for one cup of raw rice in a tight-lidded pot. As you cook more rice, you should reduce the proportion of water. With two cups of rice, you can get these results with two and one-half to two and three-quarters cups of water. But it is very hard to get a reliable result with less than a cup of rice, so do not halve this recipe". Toasts the rice in fat first: "cook, stirring constantly, for 1 to 3 minutes, depending on desired amount of nutty flavor." Rest: "Turn off heat; let rice stand on burner, still covered, to finish cooking, about 15 minutes longer."
+- **ATK, "Everyday White Rice"**, recipe, published 19 October 2018, https://www.americastestkitchen.com/recipes/11284-everyday-white-rice .
+  Read: full, direct. "Using 2 cups of raw rice to 3 cups of water gave us just enough liquid to cook the rice through without leaving it wet. Two finishing tricks guaranteed success: letting the rice sit, still covered, off the heat for 10 minutes so any extra moisture was absorbed and, finally, gently fluffing the rice to break up any big masses." And: "It's important to rinse the rice before cooking it to remove excess starch from the grains."
+- **ATK, "Basic White Rice"**, recipe, published 12 June 2013, https://www.americastestkitchen.com/recipes/5035-basic-white-rice .
+  Read: full, direct. "Off heat, remove lid and place kitchen towel folded in half over saucepan; replace lid. Let stand 10 to 15 minutes; fluff with fork and serve."
+- **ATK, "How to Cook Rice in an Instant Pot (or Other Pressure Cooker)"**, no author or date,
+  https://www.americastestkitchen.com/how_tos/11684-how-to-make-rice-in-a-pressure-cooker . Read:
+  full, direct. "In tests, we’ve found that all varieties of rice hydrate properly with a 1:1 ratio of rice to water; additional water is added to account for evaporation. In a conventional covered pot, where water evaporates during the entire cooking time, we add an extra ½ cup water."
+- **What a lesson may say:** rice needs about its own volume of water to hydrate (ATK's sealed-bag
+  test, 17 varieties); a stovetop ratio is that plus what the pot loses, which is why ATK's
+  long-grain recipes use 1 to 1½ by volume and why doubling the rice does not double the water; ATK's
+  recipes rest the rice covered off the heat for 10 to 15 minutes, with the stated reason that extra
+  moisture is absorbed. No resting test.
+
+**Rinsing, re-read.**
+
+- **Sawyer Hill, "Do You Really Need to Rinse Your Rice?"**, America's Test Kitchen, published 26
+  October 2021, https://www.americastestkitchen.com/articles/3946-do-you-really-need-to-rinse-your-rice .
+  Read: full, direct. **Correction to Part C 8a:** the article is a lightly edited interview, and
+  the answers are **Matt Slem's, a culinary scientist at Lundberg Family Farms** (a rice company;
+  a lesson names that interest once), not an ATK test. Slem himself uses "the bowl method" for
+  white rice, so Part C 8a's snippet-only "strainer beat swishing" (a different ATK article, not
+  read) is not this page's view.
+  - "When you actually wash, rinse, or soak white rice, it becomes less sticky. And when you cook it up, the kernels of rice separate and get more fluffy."
+  - "White rice is just brown rice with its outer layer milled off. So when you wash brown rice or whole-grain rice, it doesn't have the same effect because that outer layer is still on."
+  - "No, there's no way that you could over-wash. You could soak it for too long, and it'll become too soft, but that takes a couple hours."
+  - The page's editor's note calls amylopectin "a water-soluble starch"; not used (it is not needed and the course has no second source for it).
+- **Gray and colleagues 2016**, PubMed abstract re-read, direct; Part C 8a's [V] quotations match.
+  Also: "Iron, folate, niacin and thiamin are reduced by 50-70% for enriched polished and parboiled rice, but significantly less so for brown rice, which is not enriched." The abstract gives no water-to-rice ratio for "excess water"; a lesson prints none.
+
+**G9, the temperature ladder, rice part: closed.**
+
+- **H. D. Woo and colleagues, "Physicochemical and Gelatinization Properties of Starches Separated
+  from Various Rice Cultivars"**, *Journal of Food Science* 80(10), 2015, E2208-16, doi
+  10.1111/1750-3841.13071, PMID 26352343. Read: abstract, direct.
+  - "The onset gelatinization temperatures of the starches from 10 rice cultivars ranged between 57.9 and 64.4 °C." "The amylose content was fairly correlated to hydration and pasting properties of rice starches but did not correlate well with viscoelastic and thermal characteristics."
+- **Y. Pang, J. Ali and colleagues, "Relationship of Rice Grain Amylose, Gelatinization Temperature
+  and Pasting Properties for Breeding Better Eating and Cooking Quality of Rice Varieties"**,
+  *PLoS ONE* 11(12), 2016, e0168483, doi 10.1371/journal.pone.0168483, CC BY (the paper Part C 8a
+  cites as PMC5167365, which gives no journal). Read: introduction,
+  direct, from Europe PMC full text.
+  - "Cooked rice kernels with high AAC (>25%) are dry, separate, less tender, and become hard upon cooling, whereas those with low (12–20%) are glossy, soft, and sticky" (AAC is apparent amylose content). "Intermediate AAC (20–25%)rice is widely preferred in most rice-producing areas of the world since this kind of cooked rice is soft and flaky". "However, AAC alone does not explain all of the variations for ECQ, as cultivars with similar AAC possess different ECQ." (ECQ: eating and cooking quality.)
+  - "GT is positively correlated with the amount of time required to cook rice. Rice varieties with high GT require more water and cooking time than those possessing low or intermediate GT."
+- **S. Renzetti, J. Henket, E. Raaijmakers, I. van den Hoek and R. van der Sman, "Hydrogen bond
+  density and glass-transition temperature govern gelatinization and gel rheology in cereal and
+  tuber starches"**, *Current Research in Food Science* 10, 2025, 101101, doi
+  10.1016/j.crfs.2025.101101, CC BY. Read: introduction, direct, from Europe PMC full text; used
+  only for the general description of gelatinisation.
+  - "Initially, water penetrates amorphous regions, causing granule swelling". "In the initial stages, starch granules absorb water and expand until they reach a packed state, causing peak viscosity observed by Rapid Visco Analyzer (RVA) ( Balet et al., 2019 ). Beyond this point, granules start to rupture, dispersing starch molecules into the aqueous phase and reducing viscosity ( Copeland et al., 2009 )."
+- **What a lesson may say:** rice starch begins to gelatinise at roughly 58 to 64°C, varying by
+  variety (Woo, ten cultivars), so water at a simmer or boil is well above it; granules take up
+  water and swell (Renzetti); amylose content goes with texture, dry and separate at high amylose,
+  soft and sticky at low (Pang), and did not track the gelatinisation temperature in Woo's ten.
+
+**G13, acid and bean softening: closed** with an ATK test.
+
+- **Cook's Illustrated (ATK), "Can Baking Soda Make Beans Cook Faster?"**, published 22 May 2019,
+  https://www.americastestkitchen.com/articles/1745-can-baking-soda-make-beans-cook-faster . Read:
+  full, direct.
+  - "We've noticed that adding an acidic ingredient such as tomatoes to a pot of beans can make them take longer to cook and even prevent them from ever fully softening."
+  - Method: "We filled three pots, each with 5 cups of water. To one we added 1 percent baking soda by weight to turn it alkaline (about 8 on the pH scale) and to another we added enough citric acid to increase its acidity to 3. We left the third pot untreated so that it registered a neutral pH of 7. We stirred a cup of black beans into each pot, brought them all to a simmer, covered the pots, and put them in the same 350-degree oven to cook. We removed all three pots from the oven when the beans in the alkaline water had turned tender, or about 45 minutes. We repeated the test three times."
+  - "The beans in the plain water had only slightly softened after 45 minutes. We returned this pot to the oven and they required another 15 minutes of cooking time, an hour in total. Those in the acidic water were still rock-hard after 45 minutes. They required a total cooking time of one hour and 45 minutes to soften fully."
+  - "It turns out that an alkaline environment starts a chemical reaction that causes the cell structure of legumes to break down." "On the flip side, adding acid causes the cell structure of legumes to remain firm. If there is too much acid in the pot, the beans may never soften enough to be ready to eat." "We find it is best to add citrus juices and vinegars at the end of the cooking process—when the beans are already softened. (This also preserves the flavor of these acidic ingredients.) Tomatoes generally need some cooking time, so we often add tomatoes (including all canned tomato products) partway through the cooking process, after the beans have softened considerably." "Just be sure not to add more than a pinch—too much and the beans can end up tasting soapy and unpleasant."
+  - pH 3 is stronger than a tomato sauce; the page does not give a tomato's pH. A lesson says the test used citric acid.
+- **Cook's Country (ATK), "Adjusting the Cooking Time of Dried Beans when Making Chili"**, no author
+  or date, https://www.americastestkitchen.com/cookscountry/how_tos/6563-adjusting-the-cooking-time-of-dried-beans-when-making-chili .
+  Read: full, direct. "In the test kitchen, we’ve found that the pH, or relative acidity, of the cooking liquid can have a dramatic effect on the rate at which beans soften (so can the age of the beans, but that’s impossible to gauge so we don’t address it in our recipes). The acidic tomatoes in something like chili may slow down softening. To speed softening when cooking dried beans in chili, wait to add tomatoes until the beans are already partially softened, and don’t add highly acidic ingredients like lemon juice and vinegar until the beans are tender." And: "Adding a pinch of baking soda (but no more or your beans will taste soapy) can further speed softening, reducing the cooking time by about an hour."
+- **ATK, "Salty Soak for Beans"** (Part C 3b), re-read in full, direct. The two [T] quotations
+  match. The page continues: "During soaking, the sodium ions will only filter partway into the beans, so their greatest effect is on the cells in the outermost part of the beans." And the formula ends "Drain and rinse them well before using."
+
+**Pressure cooking and dried beans (G7, lesson 9 part).** No regulator statement on dried beans in a
+pressure cooker was found; lesson 9's fallback stands (no pressure-cooker bean instruction from
+this course). One extension publication gives times:
+
+- **Julie Garden-Robinson, "Field to Fork: Pressure Cook Dry Beans to Save Money and Time"**, NDSU
+  Extension FN1939, "Reviewed July 2024", https://www.ndsu.edu/agriculture/extension/publications/field-fork-pressure-cook-dry-beans-save-money-and-time .
+  Read: full, direct. "Kidney beans: 20 to 30 minutes" at high pressure, after one of three soaks,
+  with "Allow 20 minutes for natural pressure release after cooking." "In our cook tests, we used 6-quart capacity pressure cookers from three different brands (Cuisinart, Fagor and Instant Pot). In most cases, we found that pre-soaking the beans was not necessary." "When soaking beans for longer than four hours, place the container in the refrigerator for safety." "Never fill the pressure cooker more than the half full line." It says nothing about lectin or whether its times destroy it.
+
+**Pasta, rechecked.**
+
+- **Harold McGee, "How Much Water Does Pasta Really Need?"**, re-read in full from the hosted PDF
+  (pdftotext), direct. Part C 3d's [V] quotations match. Additions:
+  - "The usual rationales are that abundant water quickly recovers the boil when the pasta is added, gives the noodles room so that they don’t stick to one another, and dilutes the starch they release, so they don’t end up with a “gluey” surface."
+  - Bastianich in full: "My grandmother would have thought of the idea surely as blasphemous. I think it is curious." Her test: "She started spaghettini in pots of cold water and boiling water (4 quarts each instead of her usual 6) side by side and found the cold-water version lacking in the gradation of texture she looks for." "I felt that the cold-water pasta had lost some of the nutty flavor of a good semolina pasta cooked properly." "Yes, I think it’s doable to reduce the cooking water by one third," ... "But please ‘butta la pasta’ in boiling water."
+  - Hazan: "I am a very curious person, and I’m glad people are exploring new ways." After her try: "Maybe you save heat energy, but you also have to work a lot harder," ... "It’s not so convenient. I don’t know if I would cook pasta this way."
+  - McGee on his own method: "It’s true, though, that no matter what temperature you start with, this method requires more attention. That’s a disadvantage when you’re cooking several things at once." And: "Be sure to use a pot broad enough for the noodles to lie flat on the bottom, and to reduce the salt for smaller volumes of water."
+  - On the water: "When I anointed a batch of spaghetti with olive oil and then tossed it with a couple of ladles-full, the oil dispersed into tiny droplets in the liquid, and the oily coating became an especially creamy one."
+- **Lan Lam, "Want to Cook Pasta Faster? Don't Wait for the Water to Boil"**, America's Test
+  Kitchen, 28 April 2023 (Part C 3d). Read: full, direct. The [T] "as much as 45 percent" matches.
+  - "In our tests, 1 pound of dried pasta started in 1 quart of cold water cooked up just as nicely al dente as the same type of pasta started in 4 quarts of boiling water (our conventional method). Only the most sensitive palates could discern any difference between the samples. (Note: We did not test this method with fresh or filled pastas.)"
+  - Times: conventional 23.5 to 29 minutes; cold start 16 to 17.75 minutes; "Total Water Savings: 75 percent".
+  - Method: "Combine 8 to 16 ounces of pasta and 1½ teaspoons table salt with 1 quart cold water." "Reduce heat to maintain simmer (stirring is no longer necessary; agitation of water will keep pasta from sticking)." "The cooking water will be extra starchy, so if you’re adding it to a sauce to adjust the consistency, you’ll probably need less of it than usual."
+- **Scott Kathan, "Making Your Pasta Water Work for You"**, ATK, 4 April 2022. Read: full, direct.
+  The [T] oil quotation matches. **Part C 3c missed that this page defends the sea rule:**
+  "“Salty like the sea” may sound corny, but it’s accurate; once it comes to a boil, add plenty of salt to the pasta cooking water to properly season the pasta as it cooks. Salting the pasta only at the end will make the seasoning taste superficial, because it is superficial." And: "And please, don’t put oil in the pasta cooking water; it does not help prevent the pasta from sticking to itself. A good hard boil and proper stirring, especially at the start of cooking, are what prevent the pasta from sticking to itself as it cooks." On the water as thickener: "Pasta contains a lot of starch, and some of it ends up in the cooking water, making that cooking water a smart (free, flavor neutral) thickener for many pasta sauces." A lesson that calls "salty as the sea" folklore gives Kathan's sentence as the other view.
+- **NOAA Ocean Service, "Why is the ocean salty?"**, "Last updated: 09/23/26". Read: full, direct.
+  The two [T] quotations match: "The average salinity is about 35 parts per thousand. Stated in another way, about 3.5 percent of the weight of seawater comes from the dissolved salts."
+- **Weight of a teaspoon of salt, replacing Part C 3c's label figure.** USDA Agricultural Research
+  Service, *Nutritive Value of Foods*, Home and Garden Bulletin 72, by Susan E. Gebhardt and Robin
+  G. Thomas, revised October 2002, https://www.ars.usda.gov/arsuserfiles/80400525/data/hg72/hg72_2002.pdf .
+  Read: the salt row, direct: item 1266, "Salt", "1 tsp", weight 6 g. The lesson's pasta-water
+  percentages are its own arithmetic from this (2 teaspoons in 2 quarts about 0.6%; 1½ teaspoons in
+  1 quart about 1%; ATK's brine, 3 tablespoons in 4 quarts, about 1.4%, taking a quart as 946 g of
+  water).
+
+## Stage 4 note, lesson 7
+
+*Stage 4 review of lesson 7, 2026-09-24. The AOL copy of Gritzer's article was downloaded again
+with curl and its paragraphs extracted; the lines below are copied from that text and add to the
+lesson 7 gate closures above.*
+
+- Gritzer on the conventional advice, in full: "The most common advice when resting meat is to cook it roughly 5–15°F shy of the desired final core temperature. Then let it rest off-heat for 5 to 30 minutes, depending on the type and size of the cut, with larger roasts pulled earlier and left to rest longer. When cooking smaller cuts like steaks and chops, cooks are usually told to pull them 5–10°F before the target temp and rest 5 to 10 minutes." **This is a citable statement of the usual pull-early range**, so the lesson no longer says the course read none; it is Gritzer's summary of common advice, not a measured range.
+- His verdict on it, a pull-quote in the article: "Follow the conventional resting advice, and in many cases, you're going to blow right past your target temp."
+- The "greatly underestimated" line is introduced as Young's point: the setup "underscored one of Chris Young's main points: Carryover cooking is greatly underestimated in both its speed and degree".
+- Young, as Gritzer describes him: "a chef and food scientist who was one of the co-authors of the original Modernist Cuisine books and now the maker of the Combustion Predictive Thermometer". "Young had long been in favor of meat resting, but in a recent video, he completely changed his stance." Gritzer "also used his Predictive Thermometer" in his own test.
+- In the pulled-15°F trial it was one chop ("Even when I pulled one a full 15°F"), and in the tasting test the chops were pulled 10°F short, with rests of "not much more than two minutes".
+- The Young sentence the lesson quotes opens with a hedge the lead-in must keep: "Young's tests suggest that when samples of seared meat are sliced at the same final internal temperature, resting has no measurable effect on juice loss at all."
