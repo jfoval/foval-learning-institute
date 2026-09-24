@@ -1,6 +1,6 @@
 # Sources: First Aid and CPR
 
-<!-- unread: Darley, Latan, Latane, 110771, 110753, 110752, medicalistes, semicyuc, Zideman, Djakow, 111314, 111316, 223-6, Highlights of the 2025 Guidelines, Lavonas, Part 12, Singletary, Hartford, Welling, Kauvar, Norii, citizenAID, Fatal posture, Mullins, Saver, Bad Samaritan, First Aid Manual, Scientific Advisory Council, ANZCOR, TOXBASE, StatPearls, EuReCa, Böttiger, NG41, Emerade, PDAPS, Peng Yu -->
+<!-- unread: Darley, Latan, Latane, medicalistes, semicyuc, 223-6, Highlights of the 2025 Guidelines, Lavonas, Singletary, Hartford, Welling, Kauvar, Norii, citizenAID, Fatal posture, Mullins, Saver, Bad Samaritan, First Aid Manual, ANZCOR, TOXBASE, StatPearls, EuReCa, Böttiger, NG41, Emerade, PDAPS, Peng Yu -->
 
 *Stage 1 research, 2026-09-24. Written before any lesson is drafted, by four researchers working
 in parallel, each in a fresh context, each on one part of the subject (Parts A to D below), and
@@ -1731,7 +1731,7 @@ Supportive text [V]: seizures usually stop within 1 to 2 minutes; febrile seizur
 - ILCOR 2025 (S2), 2019 recommendations unchanged after evidence update: [V] "We recommend the use of any type of physical counter-pressure maneuver by individuals with acute symptoms of presyncope due to vasovagal or orthostatic causes in the first aid setting (strong recommendation, low-certainty and very low–certainty evidence)." Lower-body manoeuvres preferred over upper-body and abdominal (weak, very low).
 - AHA/ARC 2024 (S1) supportive text (table image not archived): first goal is a safe position to prevent injury (injuries in about 30% of syncope ED admissions, severe in about 5%); meta-analysis of 11 trials, PCMs cut syncope risk by about 50%; squatting with leg crossing beat handgrip in one small study; PCMs not advocated for cardiac causes and may delay care. Table 9 of S1 lists the manoeuvres (not read, image).
 - Shock position, T15 [V-img]: for fainting with no trauma, "raising the feet about 6 to 12 in (≈30°–45°) from supine position may be reasonable while awaiting the arrival of EMS" COR 2b, C-LD; return to flat if it causes pain or worse symptoms.
-- NHS (S15): if about to faint, lie down with legs raised or sit with head between knees; cross legs while standing or rock on toes; clench fists. If fainted and breathing normally, lay on back and raise legs; if more than 28 weeks pregnant, on the side. Call 999 if not woken within 1 minute, chest pain or palpitations, fainted while exercising or lying down, seizure, injury. ERC 2025 dropped presyncope from scope (Table 1).
+- NHS (S15): if about to faint, lie down with legs raised or sit with head between knees; cross legs while standing or rock on toes; clench fists. If fainted and breathing normally, lay on back and raise legs; if more than 28 weeks pregnant, on the side. Call 999 if someone "is not breathing", "cannot be woken up within 1 minute", "has not fully recovered or has difficulty with speech or movement", has chest pain or palpitations, "has seriously hurt themselves before or after fainting", is having a seizure, or fainted while exercising or lying down [V] (corrected 2026-09-24, Stage 4 lesson 2: the earlier list here dropped the first and third items). Otherwise: "Non-urgent advice: See a GP if: you have fainted" [V]; the page does not mention NHS 111. ERC 2025 dropped presyncope from scope (Table 1).
 
 ---
 
@@ -2141,8 +2141,9 @@ Claim classes: **E** = Established, **CE** = Contested empirical, **V** = Value.
 - **Source D18.** South East Coast Ambulance Service NHS FT, FOI response 220805 on AML and W3W
   (2023). https://www.secamb.nhs.uk/wp-content/uploads/2023/08/220805-FOI-AML-W3W-references-.pdf
   Read level: full, direct.
-  - **Advanced Mobile Location (AML)**: "AML is not an app, it does not require any action from the
-    caller as it is built into most modern smartphones." [V] Accuracy "generally around or below
+  - **Advanced Mobile Location (AML)**: "AML is not an app; it does not require any action from the
+    caller as it is built into most modern smartphones." [V] (punctuation corrected 2026-09-24
+    against the rendered PDF, p. 4: a semicolon, not a comma.) Accuracy "generally around or below
     30meters but can be as low as 5 meters" [V], versus a cell-tower radius "of around 3000 meter"
     [V]. It arrives within about 25 seconds.
   - **what3words**: call handlers can send an SMS "FINDME" link; "There is no need for them to
@@ -2221,8 +2222,13 @@ Claim classes: **E** = Established, **CE** = Contested empirical, **V** = Value.
   Psychol Bull 2011;137(4):517-537. doi:10.1037/a0023304. Read level: abstract only.
   - Over 7,700 participants, 105 effect sizes; overall g = -0.35 (others present reduces an
     individual's helping). "The bystander effect was attenuated when situations were perceived as
-    dangerous" [V], when perpetrators were present and when costs were physical; explained by
-    dangerous emergencies being "recognized faster and more clearly as real emergencies" [V].
+    dangerous" [V], when perpetrators were present and when costs were physical. **Corrected
+    2026-09-24 (Stage 4 note, lesson 1):** the abstract does not give an explanation of its own; it
+    says "This pattern of findings is consistent with the arousal-cost-reward model, which proposes
+    that dangerous emergencies are recognized faster and more clearly as real emergencies, thereby
+    inducing higher levels of arousal and hence more helping." [V] Recognition is the model's
+    proposed route, running through arousal, not a finding. The abstract says nothing about
+    responsibility or about assigning tasks.
     Bystanders also reduce the effect when they are a source of support, e.g. when not strangers.
     (E for the individual-level effect; the size in real medical emergencies is CE.)
 - **Source D26.** Philpot R, Liebst LS, Levine M, Bernasco W, Lindegaard MR. Would I be helped?
@@ -2314,11 +2320,20 @@ varies by state and country" line.
     1989-2019. Of 506 cases reviewed, 170 directly related to CPR; "167 were due to inadequate or
     untimely bystander CPR. Three cases alleging harm due to providing CPR were identified." [V]
     The abstract speaks of "'Good Samaritan' statutes in all 50 states" [V].
-  - **Caution:** the 167 cases are mostly suits against people or organisations with a duty (the
-    AHA news story below does not say they were suits against lay strangers). The lesson should
-    not say "strangers get sued for not doing CPR". What is supported: suits over *giving* CPR are
-    very rare (3 in 30 years found), and the bigger legal exposure found was for failing to give
-    it, usually by those with a duty. (E for the count; the interpretation is CE.)
+  - **Caution (corrected 2026-09-24, Stage 4 note, lesson 1):** the abstract does not say who the
+    defendants were. It records that defendant demographics, "level of training of CPR provider"
+    and "relationship to patient" were collected, but reports none of them, and it frames the
+    dataset as "cases brought against bystanders" [V]. The 167 were cases "due to inadequate or
+    untimely bystander CPR" [V], and inadequate CPR is CPR that was given; the AHA News story (D34)
+    says 74 of the 167 negligence cases "were ruled in favor of the person who administered CPR"
+    [V], so many of those defendants had given CPR. The earlier line here, that the 167 were
+    "mostly suits against people or organisations with a duty", had no source and is withdrawn.
+    What is supported: suits claiming that giving CPR itself did harm were rare (3 in the 30-year
+    search); most CPR litigation found alleged that CPR was absent, inadequate or late; and the
+    authors conclude that "The likelihood of litigation is significantly higher in cases with
+    bystander CPR absent or delayed" [V]. Do not say "suits over giving CPR are very rare": the 167
+    include suits over CPR that was given badly or late. (E for the count; any reading of who was
+    sued is unsupported.)
 - **Source D34-news.** AHA News, "Worried about legal risk of doing CPR? Inaction is riskier", 13
   Nov 2019 (Resuscitation Science Symposium abstract of the same study). Wayback 20260904170700.
   Read level: Wayback, direct.
@@ -2354,7 +2369,13 @@ varies by state and country" line.
     petty misdemeanor, up to six months or $500.
     https://webserver.rilegislature.gov/Statutes/TITLE11/11-56/11-56-1.htm
   - Note for teaching: in all three, calling for help counts or is the obvious minimum; none
-    requires you to put yourself in danger. Other states have narrower duties (for example to
+    requires you to put yourself in danger. **Corrected 2026-09-24 (Stage 4 note, lesson 1):** only
+    Minnesota's text mentions getting aid ("may include"). All three have a danger clause (re-read
+    today, direct): Minnesota, "to the extent that the person can do so without danger or peril to
+    self or others" [V]; Rhode Island, "to the extent that he or she can do so without danger or
+    peril to himself or herself or to others" [V]. Vermont's and Rhode Island's say nothing about
+    calling, so that a call is the minimum there is this researcher's reading, not the statutes'
+    words. Other states have narrower duties (for example to
     report crimes); I did not survey them. Professor Zachary Kaufman's "Bad Samaritan Laws"
     database (https://www.zacharykaufman.com/projects/bad-samaritan-laws/) lists over 200 such
     laws worldwide; its entries load by script and I did not read them.
@@ -2406,9 +2427,37 @@ varies by state and country" line.
     with the person" [V] and the Adults with Incapacity (Scotland) Act 2000; Northern Ireland
     relies on common-law necessity (MCA (NI) 2016 not then in force).
   - SARAH 2015: "it has been criticised by prominent members of the legal profession who state that
-    it adds nothing to the protection already provided by existing common law" [V].
+    it adds nothing to the protection already provided by existing common law" [V]. The sentence
+    continues (added 2026-09-24): "and that it may, in fact, erode the protection that already
+    exists. Experience with the interpretation of the Act is lacking" [V].
+  - Implied consent for lay rescuers (added 2026-09-24, executive summary): "While the defence of
+    implied consent may not be as clear-cut if the rescuer isn’t medically qualified, the defence of
+    necessity may be available, provided the rescuer acts reasonably in the circumstances. For
+    instance, it would be reasonable to carry out CPR and use an AED if no healthcare professionals
+    were available." [V] Necessity is defined there as "that the treatment is given in the best
+    interests of the patient" [V]. Scotland (p. 12): the Adults with Incapacity (Scotland) Act 2000
+    procedure "is unlikely to be practicable in cases where cardiac resuscitation is necessary" [V].
+  - Duty-of-care exceptions (p. 4 and p. 9, added 2026-09-24): after the no-duty sentence, "there
+    are circumstances in which certain professionals, and people who have a particular relationship
+    with the collapsed person, would be considered to have a duty of care" [V]; p. 9 lists a doctor
+    or nurse with a patient in their care, ambulance staff dispatched, and "A trained responder or
+    first aider in a workplace setting because they have willingly taken on this role as part of
+    their employment" [V].
   - If a DNACPR or advance decision to refuse treatment becomes known, "it should be respected" [V].
-  - An unqualified person should defer if "a professional rescuer were present" [V].
+    **Context (added 2026-09-24, Stage 4 note, lesson 1):** the passage (p. 12, "Advance
+    decisions") is about "legally binding advance decisions to refuse treatment" under the Mental
+    Capacity Act 2005 ss. 24 to 26 (England and Wales), and says first that "in the real world,
+    it’s very unlikely that a rescuer acting in an emergency would be aware of any such advance
+    decision" [V]. Full sentence: "However, if it became known that an advance decision to refuse
+    treatment (ADRT) or a do not attempt cardiopulmonary resuscitation (DNACPR) recommendation were
+    in place, then it should be respected." [V] The booklet gives no instruction for a rescuer who
+    is unsure; nothing read says "if unsure, start CPR" about a DNACPR. Never quote the last clause
+    without the rarity and the formal-document context.
+  - An unqualified person should defer if "a professional rescuer were present" [V]. Full clause
+    (added 2026-09-24): "it wouldn’t be reasonable for an unqualified person to act if a
+    professional rescuer were present or arrived at the scene and offered to help. A bystander may
+    continue to help but this would usually be under the supervision of a healthcare professional
+    at the scene." [V]
 - **Source D38.** RCUK, "FAQs: Basic Life Support (CPR)".
   https://www.resus.org.uk/professional-library/faqs/faqs-basic-life-support-cpr . Read level:
   full, direct.
@@ -2802,3 +2851,835 @@ not a teaching resource.
 - Epilepsy Foundation (US) seizure first aid (blocked). *Epilepsy Foundation*.
 
 ---
+
+## Gate closures, lesson 2
+
+*2026-09-24, by the lesson 2 drafter. Append-only. Quotation marks here are [V]: copied from text
+extracted directly (curl and an HTML stripper for RCUK; the Part A researcher's saved extractions
+for the ERC lay book and AHA Part 7, which are the same files Parts A and D quote from).*
+
+**G1 (ERC 2025 chapters): not closed, and not needed for lesson 2.** The ERC chapters (110771 and
+the rest) stay on the unread line. The outline's fallback asks whether **RCUK 2025's adult BLS
+text** carries the panting athlete and the seizure-like episode. It does, so lesson 2 teaches both
+from RCUK, cites no ERC chapter, and drops the 4.3% figure and the "We need to do CPR" wording
+study as the fallback says.
+
+- **RCUK 2025 Adult basic life support guidelines** (S11), re-read today in full, direct, from
+  https://www.resus.org.uk/professional-library/2025-resuscitation-guidelines/adult-basic-life-support-guidelines
+  (published 27 October 2025). Passages used by lesson 2:
+  - Key points: "Recognition of cardiac arrest can be challenging." [V] "If a person is found
+    unresponsive, call 999 as soon as possible. Ideally, this should be carried out by a bystander,
+    but if no one else is available you should make the call yourself before assessing whether
+    breathing is normal." [V] "The ambulance service call handler will be able to assist you if you
+    are uncertain." [V]
+  - Changes for 2025: "The ambulance service call handler will be able to assist you in identifying
+    abnormal breathing, if needed." [V] "Exercise is a common precipitant of cardiac arrest. The
+    2021 guidelines emphasised descriptions of slow or laboured breathing as indicators of abnormal
+    breathing. For 2025, we recognise that early after the onset of cardiac arrest, athletes may
+    display a near-normal or panting breathing pattern." [V] Added for 2025: "The role of the
+    ambulance service call handler is critical to early recognition of cardiac arrest and
+    initiation of CPR." [V]
+  - The public steps, headed "3 steps to save a life": Check ("Is it safe to approach?", "Is the
+    person conscious?"), Call ("Call 999 immediately if they are unresponsive.", "Assess
+    breathing.") and CPR ("Start CPR immediately if they are unresponsive with abnormal breathing."
+    and "As soon as an AED is available, attach it and follow the AED instructions.") [V].
+  - Recognising cardiac arrest: "Suspect cardiac arrest in any person who is unresponsive." [V]
+    "Slow, laboured breathing, as well as other abnormal patterns such as agonal gasping or panting,
+    must be recognised as signs of cardiac arrest." [V] "A short period of seizure-like activity
+    may occur at the onset of cardiac arrest. Once the seizure stops, assess breathing." [V]
+  - Alerting the ambulance service: "If you have a mobile phone, activate the speaker function and
+    call 999 without delay." [V] "If you are alone and do not have a mobile phone, or there is no
+    mobile phone network/satellite connection, you can shout for help and then continue to assess
+    breathing." [V] "If you think no one will come to help, then you will have to leave the person
+    and call 999. Do this as quickly as possible." [V] "If they remain unresponsive and are not
+    breathing normally when you return from summoning help, immediately start CPR." [V]
+  - Role of call handlers: "Once cardiac arrest is recognised, ambulance service call handlers
+    should provide CPR instructions to all callers." [V] "The ambulance service call handler should
+    assume the caller does not know how to perform CPR and provide chest-compression-only
+    instructions." [V] "Once CPR is underway, the ambulance service call handler should ask if there
+    is an “AED” or “defibrillator” at the scene." [V] If none is at the scene and more than one
+    bystander is present, call handlers "should guide bystanders to the nearest AED" [V].
+- **RCUK 2025 First aid guidelines** (S15), recovery position section re-read today, direct:
+  "In cases of agonal breathing or trauma, do NOT move the person into the recovery position." [V]
+  (This confirms Part A's note that the RCUK text is identical to ERC's here, so lesson 2 cites
+  RCUK.)
+- **ERC lay book** (S10, D30), *The ERC Guidelines 2025 on Resuscitation for Everyone*, pages 21 to
+  22, "The 3 Cs", from the Part A extraction (hyphenation at line ends removed): "One of the biggest
+  barriers to a bystander stepping in to help is when the victim seems to be breathing." [V] "They appear to be
+  gasping, moaning, sighing, gurgling, groaning, snorting, or struggling to breathe. This is not
+  breathing!" [V] "Cardiac arrest victims who were in the middle of vigorous exercise or play,
+  where cardiac arrests can happen, may appear to be breathing heavily, and their eyes are often
+  open." [V] "Brief, seizure-like movements are often seen in younger cardiac arrest victims and
+  can make recognition of cardiac arrest difficult." [V] "Cardiac arrests are not always recognised
+  by bystanders on scene. In fact, most often, it is the emergency medical service (EMS) operator
+  on the phone who does." [V] The dispatcher "may start by asking: “Is the person conscious?” “Are
+  they breathing normally?”" [V]
+- **AHA 2025 Part 7, Adult BLS** (S1, D13), §6.1 and §6.2 supportive text, from the Part A saved
+  text of Wayback 20251026225858: "Recognition by lay rescuers is, therefore, based primarily on
+  level of consciousness and respiratory effort rather than using a pulse check." [V] "Agonal
+  breathing is described by lay rescuers with a variety of terms including abnormal breathing,
+  snoring respirations, and gasping." [V] Agonal breathing "diminishes the longer a person is in
+  cardiac arrest" [V] and "is cited as a common reason for lay rescuers to misdiagnose a patient as
+  not being in cardiac arrest" [V]. On the call: "Given that most lay rescuers will likely have
+  mobile phones with hands-free options, it is possible for lay rescuers to provide CPR and
+  activate the emergency response system at nearly the same time." [V] "Alternatively, a second
+  lay rescuer can be instructed to call 911." [V] "Our recommendation values the practical
+  considerations of timely emergency medical response dispatch and the availability and value of
+  remote assistance to improve the quality of CPR." [V] The "hands-free" speaker sentence is in
+  Part D 1.5 (D13). Note for the fact-checker: the pulse-check sentence "should not check for a
+  pulse" (COR 1, C-LD) and the 47% and 73% accuracy figures are in **Part 6, Pediatric BLS** (S2),
+  recommendation 1 of the lay-rescuer section and its supportive text; the adult Part 7 says only
+  the sentence above. Lesson 2 attributes each to its own part.
+
+**G2 (AHA telecommunicator recognition box): not closed; fallback used.** Lesson 2 gives no AHA
+recommendation for call-taker recognition. It cites AHA Part 4's T-CPR recommendation 1 (COR 1,
+LOE A, compression-only instructions for adults), which is a different box from the suspect one.
+
+**G4 (videos): not closed.** Nobody has watched the AHA 2012 Hands-Only video or RCUK's "Become
+ResusReady" film against 2025 guidance, so lesson 2 embeds neither and links neither.
+
+**G5 (ILCOR manuscripts): fallback used.** Lesson 2 paraphrases ILCOR's dispatch-CPR
+recommendation with its strength and certainty and no quotation marks.
+
+**G15 (Red Cross on ABC and CAB): fallback used.** Lesson 2 says what the Red Cross's read pages
+teach and makes no claim that the Red Cross and the AHA agree or disagree on sequence.
+
+## Gate closures, lesson 3
+
+*2026-09-24, by the lesson 3 drafter. Append-only. Quotation marks here are [V]: copied from text
+extracted directly today (curl and an HTML stripper for RCUK, St John, the BHF and the American Red
+Cross; curl of the Internet Archive captures named below for the AHA; PubMed efetch for the
+abstracts). Defect 26 applied: every source lesson 3 rests on was re-opened at its primary rather
+than taken from Part A's summary, and three of Part A's summaries needed correcting (below).*
+
+**G1 (ERC 2025 chapters): not closed, not needed.** Lesson 3 cites RCUK 2025 for every European
+instruction. Two things the outline attributes to ERC are therefore handled from other sources:
+larger bodies (AHA 2025 and RCUK 2025 Special circumstances, below) and clothing (RCUK 2025 carries
+the same sentence Part A gave from ERC).
+
+**G4 (videos): not closed.** Nobody has watched the American Red Cross "How to Perform Hands-Only
+CPR" or the AHA "How to save a life: Hands-Only CPR" against 2025 guidance. Lesson 3 embeds neither
+and links the organisations' own pages instead.
+
+**G5 (ILCOR manuscripts): fallback used.** Lesson 3 paraphrases ILCOR 2025 BLS on firm surfaces, on
+beds in hospital and on monitoring rescuer fatigue, with strength and certainty and no quotation
+marks. The ILCOR EIT 2025 feedback-device sentence it quotes is from the typeset *Circulation* text
+(Part D, D41, Wayback 20260430180745), not a manuscript.
+
+**G16 (images): closed for one image, two rejected.** Checked on Wikimedia Commons today through
+the API (licence metadata) and by viewing each image:
+
+- `Cardiopulmonary Resuscitation Adult.jpg`, a line drawing from a US Army Corps of Engineers
+  Illinois Waterway Visitor Center brochure (source given on Commons as an Internet Archive capture
+  of mvr.usace.army.mil, 2004), **public domain** (US federal work), 400 × 413 px, undated.
+  https://upload.wikimedia.org/wikipedia/commons/d/de/Cardiopulmonary_Resuscitation_Adult.jpg .
+  **Technique checked against 2025 guidance for posture only:** the rescuer kneels beside a person
+  lying on their back on the floor, arms straight, shoulders above the hands, both hands one on top
+  of the other in the centre of the chest. That matches RCUK 2025 ("Keep your arms straight."
+  "Position your shoulders vertically above the person’s chest.") and AHA 2025's kneeling and
+  knee-level recommendation. The drawing is too small to show whether the fingers are interlocked
+  or exactly where on the breastbone the heel sits, and its date is unknown, so **lesson 3 uses it
+  for posture only and its caption says so**. Used.
+- `NASA astronaut Jessica Meir practices cardiopulmonary resuscitation (CPR) (jsc2025e070047).jpg`,
+  public domain (NASA, 21 August 2025). Viewed: the rescuer is standing, the manikin is strapped to
+  a raised board at about waist height with a second person's hands on its chest, in a spaceflight
+  simulation. It shows the opposite of the knee-level position AHA 2025 recommends. **Rejected.**
+- `Chest compressions.gif`, CC BY 3.0 (Bangkok Hospital Phuket, extracted by Mikael Häggström,
+  2017), described on Commons as compressions "at 100 per minute" on a manikin. Not examined frame by
+  frame. **Not used.**
+
+**Primary re-reads for lesson 3**
+
+- **AHA 2025 Part 7, Adult BLS** (S1), Wayback 20251026225858, re-read today, §6.2, §7.1 to §7.3
+  and the obesity section in full:
+  - §7.1 rec 1 (COR 1, B-NR): "In adult cardiac arrest, rescuers should perform chest compressions
+    with the patient’s torso at approximately the level of the rescuer’s knees whenever possible."
+    [V] Rec 2 (COR 1, C-LD): the heel of one hand on "the center (middle) of the person’s chest (the
+    lower half to lower third of the sternum)" and the other on top "so that the hands are
+    overlapped" [V]. Rec 3 (COR 1, C-EO): "resuscitation should generally be conducted where the
+    person is found, as long as high-quality CPR can be administered safely and effectively." [V]
+    Rec 4 (2a, C-LD): "it is preferred to perform CPR on a firm surface and with the person in the
+    supine position, when feasible and does not delay chest compressions." [V] Rec 5 (2b, C-LD):
+    dominant hand on the sternum may be considered.
+  - §7.1 supportive text: "Multiple simulated cross-over RCTs have shown that kneeling on the floor
+    or in the bed next to the manikin resulted in improved chest compression depth compared to
+    standing in adult populations." [V] "Two studies specifically evaluating height found that when
+    the manikin torso was no more than 10 cm below the rescuer’s knee this was associated with
+    improved chest compression depth." [V] On hand position, 2 of 3 small studies (57 patients)
+    found better physiological measures over the lower third of the sternum, with no difference in
+    outcomes; "Radiographic studies show the left ventricle is typically located inferior to the
+    internipple line, corresponding with the lower half of the sternum." [V] "However, hand
+    placement inferior to the internipple line may result in compression over the xiphoid, which may
+    be less effective." [V] On moving the person: "Importantly, delay in initiation of chest
+    compressions is associated with worse outcomes. In a study of telephone-assisted CPR during
+    OHCA, delays to CPR due to patient repositioning occurred in 41% of cases, most commonly due to
+    physical limitations of the rescuer." [V] "Odds of survival to hospital discharge was
+    significantly lower in the group with delayed chest compressions." [V] "A firm surface improves
+    the likelihood of adequate chest compression depth." [V]
+  - §7.2 synopsis: "Chest compressions are required for forward flow during cardiac arrest and
+    pauses in chest compressions have been shown to result in an almost immediate drop in coronary
+    perfusion pressure, which is associated with reduced likelihood of ROSC." [V] Rec 4 (2a, B-R):
+    switch compressors "approximately every 2 min" [V]. Supportive: "Chest compression depth begins
+    to decrease after 90 to 120 seconds of CPR, although compression rates do not decrease
+    significantly over that time window." [V] "A randomized trial using manikins found no
+    difference in the percentage of high-quality compressions when rotating every 1 minute compared
+    with every 2 minutes." [V]
+  - §7.3 rec 1 (COR 1, B-NR): "During manual CPR, rescuers should perform chest compressions to a
+    depth of at least 2 inches, or 5 cm, for an average adult while avoiding excessive chest
+    compression depths (greater than 2.4 inches, or 6cm)" [V]. Rec 2 (2a, B-R): audiovisual
+    feedback devices reasonable. Rec 3 (2a, B-NR): "it is reasonable for rescuers to perform chest
+    compressions at a rate of 100 to 120/min." [V] Rec 4 (2a, C-LD): "It can be beneficial for
+    rescuers to allow complete chest wall recoil for adults in cardiac arrest, such as by not
+    leaning on the chest between compressions." [V] Rec 5 (2b, C-EO): compression and recoil times
+    approximately equal.
+  - §7.3 synopsis: "Although there are numerous retrospective observational studies, there is a
+    paucity of prospective studies or randomized trials specifically examining CPR quality
+    targets." [V] "Further, evidence suggests interactions between CPR components (eg, rate and
+    depth) confound studying them in isolation." [V]
+  - §7.3 supportive: a 2020 ILCOR scoping review of 12 studies, over 10,700 patients: "Several
+    studies found improved survival to hospital discharge when compression depth was at least 5 cm,
+    compared to less than 4 cm." [V, reference numbers removed] "Observational research has
+    suggested reduced survival with chest compressions of excessive depth (greater than 6cm)." [V,
+    reference numbers removed] On rate, three studies of over 13,700 patients "suggested improved
+    survival to hospital discharge with compression rates of 100 to 119/min, compared with lower or
+    higher rates." [V, reference numbers removed] "One randomized trial found no difference in
+    survival between chest compression rates of 100 and 120/min." [V, reference number removed] In
+    one study, return of circulation was better at 121 to 140 a minute (n = 222), but "the writing
+    group placed higher value on survival compared with ROSC when making this recommendation." [V]
+    On recoil: "Porcine study data suggest decreased coronary perfusion with rescuers leaning on the
+    chest." [V, reference number removed]
+  - **Obesity section.** Rec 1 (COR 1, C-LD): "CPR for adults with obesity who are in cardiac arrest
+    should be provided by using the same techniques as for the nonobese patient." [V] **Web copy
+    error:** the box's second row (2a, C-LD) repeats the third row's text word for word ("It may be
+    reasonable for rescuers to increase the force of compressions to achieve adequate depth ..."),
+    and the third row is graded 2b, C-EO, so the grade of the "more force" recommendation is
+    uncertain on this capture. Lesson 3 gives the more-force point from the supportive text with no
+    grade. Synopsis: compressions can be difficult "due to increased chest wall thickness,
+    requiring greater force to achieve the recommended depth." [V, reference number removed] "The
+    physical demands of performing CPR on an adult patient with obesity can lead to faster rescuer
+    fatigue, highlighting the need for close monitoring to switch rescuers." [V] Supportive: "During
+    OHCA in which an adult patient with obesity is found in a bed, the time required to move the
+    patient must be carefully considered to avoid delays in chest compression initiation." [V]
+    "Rescuers may need to increase force of compressions to achieve adequate depth of compressions
+    when compressions are performed on inflated mattresses or for adults with obesity." [V,
+    reference number removed]
+  - §6.2 rec 5 (2a, C-LD): "When immediately available, it is reasonable for rescuers to use PPE
+    during CPR for adult cardiac arrest." [V] Supportive: "Rescuers must be aware, however, that the
+    process of donning PPE may delay the initiation of CPR, and use of PPE has the potential to
+    adversely affect CPR performance and increase rescuer fatigue." [V, reference number removed] A
+    2023 meta-analysis found no change in CPR performance across 17 manikin studies, and worse
+    fatigue scores in two pooled studies. §6.1 supportive (confirming Part A's quote): "The benefit of
+    providing CPR for someone in cardiac arrest far outweighs any risk associated with providing
+    chest compressions to someone who is not." [V] §6.2 supportive: "Providing manual chest
+    compressions for an unconscious patient not in cardiac arrest has not been associated with
+    serious harm, as demonstrated in several observational studies." [V, reference numbers removed]
+- **AHA 2025 Part 10, Special Circumstances** (S3), Wayback 20251027153841, pregnancy section (§19.3
+  in Part A's numbering) re-read in full today. Rec 4 (COR 1, C-LD): "Manual left lateral uterine
+  displacement should be provided in conjunction with chest compressions for a pregnant patient in
+  cardiac arrest when the fundal height is at or above the umbilicus." [V] Synopsis: "The growing
+  uterus can cause position-dependent aortocaval compression when the pregnant person is supine."
+  [V] "Compression of the inferior vena cava leads to a decrease in preload, stroke volume, and
+  cardiac output, which must be overcome to enable adequate blood flow." [V, reference number
+  removed] Supportive: "Manual left lateral uterine displacement (Figure 6) alleviates aortocaval
+  compression while allowing the patient to remain in a supine position during the resuscitation."
+  [V] A meta-analysis of 8 simulation crossover trials found better compression technique on a
+  supine manikin than on a left lateral tilt. The recommendations in this section are written for
+  resuscitation teams (resuscitative delivery, airway management, IV access); **Figure 6 was not
+  seen**, and no lay-rescuer version of the displacement is described in the text read.
+- **RCUK 2025 Adult basic life support guidelines** (S11), re-read today, direct. Key points: "The
+  risk of harm from CPR is low. Rescuers should not be concerned that they will cause serious injury
+  if the person is not in cardiac arrest." [V] High-quality chest compressions, in full: "Start
+  chest compressions as soon as possible." "Place the heel of one hand on the lower half of the
+  sternum (“in the centre of the chest”)." "If you are unable to adequately visualise the sternum
+  due to clothing, it is reasonable to displace or remove such garments so you can identify the
+  correct anatomic landmark." "Place the heel of your other hand on top of the first hand."
+  "Interlock your fingers of the hands to ensure that pressure is not applied over the ribs." "Keep
+  your arms straight." "Position your shoulders vertically above the person’s chest." "Compress to
+  a depth of at least 5 cm, but not more than 6 cm." "Compress the chest at a rate of 100–120 min-1
+  with as few interruptions as possible." "Allow the chest to recoil completely after each
+  compression; avoid leaning on the chest." "CPR is most effective when performed on a firm
+  surface. However, rescuers should not move a person from a ‘soft’ surface, e.g. a bed, to the
+  floor. Start CPR on the bed and, if needed, compress the chest deeper to compensate for the soft
+  mattress." [V, each] Safety: "Lay people should start CPR for presumed cardiac arrest without
+  concerns about harm to people not in cardiac arrest." "The risk of infection to rescuers performing
+  CPR is low." "The risk of physical injury to the rescuer from performing CPR is low." [V, each]
+  The adult BLS text says nothing about swapping rescuers or about larger bodies.
+- **RCUK 2025 Special circumstances guidelines** (S15), re-read today, direct, "Resuscitation in
+  obese patients" and "Cardiac arrest in pregnancy": obese patients get standard resuscitation with
+  no deviation from standard BLS (the sentence contains a spaced dash, so lessons paraphrase it).
+  "Consider pregnancy in any collapsed woman of childbearing age." [V] "Above 20 weeks gestation,
+  relieve aortocaval compression as early as possible and maintain it throughout resuscitation.
+  Manual left uterine displacement in maternal cardiac arrest is preferred over the lateral tilt,
+  due to the practicalities of delivering chest compressions." [V] Like the AHA's, the rest of the
+  section is written for hospital teams.
+- **St John Ambulance, "How to do CPR"** (S17), clinically reviewed 28/04/2025, re-read today,
+  direct: "Start chest compressions. Ideally, this should be on a firm surface. For example, if they
+  are on a bed, and if it is safe for you to do so, move them to the floor." [V] "Lean forwards so
+  your shoulders are over your hands, keep your arms straight and press down hard, to a depth of
+  about 5-6cm before releasing the pressure and allowing the chest to come back up." [V] Continue
+  until help takes over, signs of life and normal breathing, "you are too exhausted to continue. If
+  there is a helper, you should swap every one to two minutes, but try to minimise interruptions to
+  chest compressions" [V], or a defibrillator is ready.
+- **British Heart Foundation, "How to do CPR"** (S18), re-read today, direct, undated: "press down
+  smoothly and firmly at a rate of 2 per second. Try pushing to the beat of Stayin’ Alive by the Bee
+  Gees." [V] "Sometimes minor injuries can occur, such as a cracked rib, but you should continue to
+  give CPR to help save their life." [V] "A broken rib or other injury can be treated." [V]
+  "Unfastening a thick coat will help but you do not need to remove any thin clothing to do CPR.
+  Clothing does however need to be removed to attach a defibrillator." [V] "Usually, it’s best to
+  press harder rather than softer." [V] "If you press too softly then your compressions won’t be
+  effective." [V] "Keep giving CPR until emergency services arrive, the person regains consciousness
+  or until you are too exhausted to continue. If there is somebody else with you ask them to take
+  turns giving CPR." [V] "When a person is in cardiac arrest their heart stops pumping blood, which
+  means their brain gets no oxygen." [V] "CPR keeps the heart pumping blood around the body until
+  emergency help arrives." [V] The page also says the target is "one third of the chest depth (or 5
+  to 6 centimetres)" [V].
+- **American Red Cross, "CPR Steps"** (S19), re-read today, direct, undated: "Place the person on
+  their back on a firm, flat surface" [V]; "Body position: Shoulders directly over hands; elbows
+  locked" [V]; "Compression depth: At least 2 inches" [V]; "Allow chest to return to normal position
+  after each compression" [V]; "Minimize interruptions to chest compressions to less than 10
+  seconds." [V]
+
+**Abstracts re-read today (PubMed efetch), and three corrections to Part A 2.8**
+
+- **White L et al. 2010** (S35), *Circulation* 121:91-7, abstract. Prospective cohort, King County,
+  Washington, June 2004 to January 2007. Of 1700 dispatcher CPR instructions, 762 were for people
+  not in arrest, 313 of whom received compressions; 247 had complete follow-up. "12% (29 of 247)
+  experienced discomfort, and 2% (6 of 247) sustained injuries likely or possibly caused by
+  bystander CPR. Only 2% (5 of 247) suffered a fracture, and no patients suffered visceral organ
+  injury." [V]
+- **Haley KB et al. 2011** (S36), *Prehosp Emerg Care* 15:282-7, abstract. Retrospective review,
+  one US county's EMS records, March 2003 to February 2009: 672 bystander CPR incidents, 77 (11.5%)
+  not arrests, 72 evaluable for injury. "One patient (1.4%) had an injury that was documented in the
+  medical record as possibly CPR-related: rhabdomyolysis." [V] **Correction to Part A:** the one
+  injury was rhabdomyolysis, not a fracture; and 53% of the 72 were admitted to intensive care,
+  so these were not well people. Conclusion: "Short-duration bystander CPR caused injury in less
+  than 2% of victims." [V]
+- **Williamson F et al. 2024** (S37), *Resusc Plus* 20:100828, abstract. Systematic review, five
+  observational studies, 1031 patients. "No deaths directly attributable to chest compressions were
+  reported, but 61 (6 %) died before discharge due to underlying conditions. In total, 9 (<1%)
+  experienced injuries, including rib fractures and different internal bleedings, and 24 (2 %)
+  reported symptoms such as chest pain. Evidence was of very low certainty due to risk of bias and
+  imprecision." [V] **Correction to Part A:** the under 1% includes rib fractures and internal
+  bleeding; Part A's "under 1% injured" is right but did not say what the injuries were.
+- **Van Wijck SFM et al. 2024** (S38), *Eur J Trauma Emerg Surg* 50:1331-46, abstract. 74 studies,
+  16,629 patients who had CPR for non-traumatic arrest. "Any CPR-related injury was documented in
+  60% (95% confidence interval [95% CI] 49-71) patients. Rib fractures emerged as the most common
+  injury, with a pooled prevalence of 55% (95% CI 48-62)." [V] Mechanical CPR risk ratio 1.36 against
+  manual.
+- **Hellevuo H et al. 2013** (S39), *Resuscitation* 84:760-5, abstract. 170 adults, **in-hospital**
+  arrests, Tampere University Hospital, 2009 to 2011, depth measured by the defibrillator's
+  accelerometer; injuries from autopsy, CT or chest X-ray. "Injuries were found in 36% of male and
+  23% of female patients. Among male patients CPR-related injuries were associated with deeper mean
+  - and peak compression depths (p<0.05). No such association was observed in women. The frequency
+  of injuries in mean compression depth categories <5, 5-6 and >6 cm, was 28%, 27% and 49%
+  (p=0.06)." [V] Conclusion: the injuries "were by and large not fatal." [V] **Correction to Part
+  A:** the 49% against about 27% comparison was not statistically significant across all patients
+  (p = 0.06); the significant association was in men only, and none was found in women. It supports
+  the 6 cm cap as a caution, not as a proof, and the AHA's own stated reason for the cap is reduced
+  survival in observational research (above).
+
+**Training and practice sources used by lesson 3** (already in Part D, not re-read): ILCOR EIT 2025
+(D41) "We recommend the use of CPR feedback devices during resuscitation training for health care
+professionals and laypersons (strong recommendation, moderate-certainty evidence)." [V]; Riggs 2019
+(D43, abstract) "Skills deteriorated within 3 months, then plateaued from 3 to 6 months." [V]; BHF
+RevivR (R6) and RCUK Lifesaver (R7).
+
+---
+
+## Stage 4 note, lesson 1
+
+*2026-09-24, by the lesson 1 fix pass. Append-only. Checked against the primaries the reviewers
+saved: the PubMed abstracts (Murphy 2020, Fischer 2011, Manning 2007), the RCUK law booklet PDF's
+extracted text, and the Minnesota and Rhode Island statutes re-fetched today.*
+
+Entries corrected in place, each marked "Stage 4 note, lesson 1":
+
+- **D33 Murphy 2020.** The caution that the 167 cases were "mostly suits against people or
+  organisations with a duty" had no source and is withdrawn. The three are claims that giving CPR
+  did harm; the 167 claimed CPR was inadequate or untimely, which includes CPR that was given. The
+  abstract does not say who the defendants were. The summary lines elsewhere in this file ("3 suits
+  over giving CPR against 167 over absent or late CPR", Headline findings and Myths) should be
+  read as "3 suits alleging harm from giving CPR against 167 alleging it was inadequate or late".
+- **D25 Fischer 2011.** "Explained by" recognition was the arousal-cost-reward model's proposal,
+  which the abstract says the findings are "consistent with"; it runs through arousal. The
+  abstract says nothing about responsibility.
+- **D37 RCUK law booklet.** Added the DNACPR passage's context (legally binding advance decisions,
+  and "very unlikely" a rescuer would know of one), the implied-consent qualifier for rescuers who
+  are not medically qualified, the duty-of-care exceptions, Scotland's position, the second half of
+  the SARAH criticism ("erode"), and the full "professional rescuer" clause.
+- **Duty-to-assist statutes.** Only Minnesota mentions getting aid. All three have a danger
+  clause (Minnesota's and Rhode Island's wording added from today's re-read).
+
+**Philpot 2020 postprint** (D26, full, direct), p. 14: the authors themselves draw the
+reconciliation between the laboratory and the footage, distinguishing "responsibility diffusion
+and mechanical helping potential" and saying that "while additional numbers may reduce the
+individual helping propensity, it can provide a larger pool from which help-givers may be sourced"
+[V]. D26's "Caveat" line attributes the reconciliation to this file; it is the authors'.
+
+**Manning 2007** (D23, abstract): the parable sentence in full is "the story itself has become
+a modern parable, the telling of which has served to limit the scope of inquiry into emergency
+helping" [V]. It does not say the story is told because it illustrates a finding.
+
+## Browser gate closures (2026-09-24)
+
+A browser pass over the OUTLINE's Stage 1 gates, in an ordinary browser (the built-in browser
+pane), on 2026-09-24. Nobody signed in to anything; no bot check, paywall or sign-in was bypassed;
+the one cookie banner acted on (cpr.heart.org) was answered "Reject All". [V] here means copied
+from the page's own text (extracted from the rendered page, whitespace normalised, and on the
+resuscitationjournal.com and ahajournals.org pages en dashes in number ranges shown as hyphens). [V-img]
+here means a recommendation table published as an image on the publisher's own site and read by
+eye from a clear, full-size rendering; each was legible without doubt. Where a quote below differs
+from an earlier quote in this file, the earlier text is left as it was and the difference is
+stated here.
+
+**Unread entries this pass clears** (for whoever commits the lesson that needs them; this section
+does not edit the unread line): `110771`, `110753`, `110752`, `111314`, `111316`, `Zideman`,
+`Djakow`, `Part 12`, `Scientific Advisory Council`, and the host names `medicalistes` and
+`semicyuc` (the chapters they hosted are now checked against the publisher, so a citation should
+name the publisher version and never the third-party host). Still unread: `223-6` (G9), `Darley`,
+`Latan`, `Latane` (G8), `PDAPS`, and the rest of the line.
+
+### G1. ERC 2025 chapters and errata: CLOSED
+
+All three chapters are free to read in full at the publisher (resuscitationjournal.com) in an
+ordinary browser. Every ERC quote in Parts A and C was searched for in the publisher's text.
+
+**ERC 2025 Adult BLS (110771).** https://www.resuscitationjournal.com/article/S0300-9572(25)00283-7/fulltext
+(reached from doi.org/10.1016/j.resuscitation.2025.110771). READ LEVEL: full, direct, publisher.
+No erratum is linked from the page.
+- Found word for word: the panting-athlete sentence (line 815); the seizure-like activity sentences
+  (816); "If you think no-one will come to help..." (825); "Defibrillation should not be delayed to
+  provide additional CPR." (869); "Rescuers should not be concerned about exposing the persons
+  chest to apply defibrillation pads. They should prioritise life-saving interventions over
+  concerns for modesty." (871; "persons" without an apostrophe is the publisher's); both
+  rescuer-risk sentences (900); "is associated with improved outcomes" (814); "COVID-19 patients
+  should be treated as any other patients. Modifications to CPR are no longer required." (930).
+  The words before that last quote read, as printed: "BLS modifications for COVID-19 been removed
+  from the BLS guideline." [V] (the missing "have" is the publisher's).
+- **Correction to line 1000:** the quote "asystole and a normal rhythm, no shock is advised." cuts
+  a parenthesis. The publisher reads "For other heart rhythms (including asystole and a normal
+  rhythm), no shock is advised." [V] Quote it whole.
+- Numbers confirmed against the publisher: agonal breathing "observed in 30-60 % of cardiac
+  arrests" [V]; seizure-like activity "3502 OHCAs identified 149 (4.3 %)" [V] and "more likely to
+  survive to hospital discharge (44 % vs. 16 %; p < 0.05)" [V]; "3-6 % lower probability of
+  survival to discharge" per minute of delay to defibrillation [V]; locked cabinets "a low risk of
+  theft, missing AEDs or vandalism was reported (<2%)" [V] and "half of all injuries sustained while
+  accessing an AED were incurred when attempting to break glass" [V]; volunteer responders "62 % vs
+  48 %" and "survival increased from 26 % to 39 %" [V]; the lay words for agonal breathing are as
+  line 814 lists them.
+- "We need to do CPR" (line 828) is in the publisher text: "Modifying the statement "Do you want
+  to do CPR" to "We need to do CPR" increased the number of cases where CPR was actually peformed"
+  [V] ("peformed" is the publisher's typo).
+- Also [V], useful for lessons 2 and 3: "Lay people should commence CPR for presumed cardiac arrest
+  without concerns of harm to patients not in cardiac arrest." and "most cardiac arrests are
+  initially recognised by the dispatcher during the call, rather than by bystanders at the scene."
+  Line 898 attributes the first to "ILCOR/ERC"; it is ERC's wording. It is not in the typeset
+  ILCOR BLS 2025 CoSTR (see G5).
+
+**ERC 2025 Special Circumstances (110753).** https://www.resuscitationjournal.com/article/S0300-9572(25)00265-5/fulltext .
+READ LEVEL: partial (drowning, opioid and hypothermia passages searched), direct, publisher.
+- Found word for word: "For simplicity, untrained bystanders should start with chest compressions
+  whilst trained first aid providers should consider ventilations" (line 910; the sentence goes on
+  ", since the time to ventilation is critical in restoring cardiac arrest in drowned victims." [V]);
+  "Existing evidence is not sufficient to recommend administration of an opioid-antagonist (e.g.
+  naloxone) for cardiac arrest caused by opioid poisoning." [V] (line 923). Also [V]: "CPR should
+  start with 5 ventilations." and "In drowning, an initial shockable rhythm is present in less than
+  10 % of cases".
+- The "rough handling triggers VF" teaching was searched for and not found in this chapter's text.
+  That planned-around item stays planned around.
+
+**Erratum 111314** (Corrigendum, Resuscitation 228, November 2026).
+https://www.resuscitationjournal.com/article/S0300-9572(26)02361-0/fulltext . READ LEVEL: full.
+"The authors regret that there were errors in Figures 5 (page 9) and 14 (page 25)." [V] The
+corrected figures are images. In the chapter, Figure 5 is "Emergency treatment of accidental
+hypothermia." [V] and Figure 14 is "Initial management of critically buried avalanche victim." [V]
+**It does not touch drowning or opioids.** Lesson 15 should not reproduce or describe the ERC
+hypothermia figure from any copy other than the publisher's current page.
+
+**ERC 2025 First Aid (110752).** https://www.resuscitationjournal.com/article/S0300-9572(25)00264-3/fulltext .
+READ LEVEL: full, direct, publisher.
+- All seventeen quoted ERC First Aid passages in Parts A and C were found word for word: the two
+  recovery-position sentences (889), both naloxone sentences (923), stroke scale (1589) and "could
+  find evidence supporting the use of one scale over another", the aspirin sentence with
+  "150–500 mg" (1620), "use a device for intranasal administration." and the second-dose sentence
+  (1652), "Ensure that the person remains in a seated or lying position." and "(expert opinion)"
+  (1667), the sugary sweets and juice alternative (1720), the heatstroke immersion sentence, "continue
+  cooling for 15 min or until neurological symptoms resolve, whichever is first", "Remember: cool
+  first, transfer second." and "if core temperature >40 °C" (1757), and "may decrease the risk of
+  suicide" (1798).
+- Anaphylaxis doses by age are in the concise guideline [V]: "0.15 mg for children aged 1-5 years",
+  "0.3 mg for children aged 6-12 years", "0.5 mg for adults".
+- The FLAG at line 1757 stands: the publisher's own evidence text also reads "whole body (from the
+  neck down) water immersion at 1 to 6 °C" [V] and lists "ice water immersion (15 °C)" [V], while
+  the concise guideline says 1 to 26 °C. These are in the version of record, not a copy artefact.
+  Teach the concise guideline's 1 to 26 °C and do not quote the evidence sentence. Cooling rate
+  [V]: "A cooling rate of ≥0.15 °C /min has been shown to be associated with survival without
+  medical complications for exertional heat stroke."
+- Confirmed [V]: "About 720,000 people die worldwide from suicide every year." and "According to
+  the European Society of Cardiology, a quarter of women report jaw pain, nausea or shortness of
+  breath instead of the classic symptoms". The suicidal-thoughts concise guidance is as line 1798
+  summarises it; its steps read [V]: "Ask the individual "Are you alright?" "How do you feel and
+  why?"", "Ask if the person has suicidal thoughts and plans (How? Where? When?).", "If the person
+  has made concrete threats or plans for suicide, tell them you are going to ask for help, and call
+  your emergency number (112).", "Give hope."
+
+**Erratum 111316** (Corrigendum, Resuscitation 228, November 2026).
+https://www.resuscitationjournal.com/article/S0300-9572(26)02363-4/fulltext . READ LEVEL: full.
+It changes one sentence on page 19: "Naloxone is not effective once cardiac arrest has occurred."
+becomes [V] "Naloxone is probably not effective once cardiac arrest occurred. However, this should
+be investigated in a large clinical trial." and adds a reference (Grunau B et al., Resusc Plus
+2025;22:100906). No quote in this file uses the old sentence. A lesson that says naloxone does
+not help once the heart has stopped must say "probably".
+
+**ERC 2021 First Aid (Zideman).** https://www.resuscitationjournal.com/article/S0300-9572(21)00066-6/fulltext .
+READ LEVEL: partial (aspirin), direct, publisher. Line 1621 confirmed [V]: "encourage and assist
+the casualty in the self-administration of 150-300 mg chewable aspirin", "Do not administer
+aspirin to adults with chest pain of unclear or traumatic aetiology", and "contraindications such
+as severe asthma or known gastrointestinal bleeding".
+
+**ERC 2025 Paediatric Life Support (Djakow).** https://www.resuscitationjournal.com/article/S0300-9572(25)00279-5/fulltext .
+READ LEVEL: partial (summary of changes table), direct, publisher. The 2025 column [V]: "The
+two-thumbs encircling technique for chest compressions in infants is recommended for all
+situations." and "Chest thrusts in infants should be performed using the two-thumbs encircling
+technique." (the 2021 column had two-finger compressions for a single rescuer and two-finger chest
+thrusts). This is the European basis for rejecting the two-finger videos under G4.
+
+### G2. The two AHA web boxes: CLOSED
+
+Both were copy errors in the archived web page, not in the guideline.
+
+**Part 10 §11.2, In-Water Breaths.** Checked in the Circulation article
+(https://www.ahajournals.org/doi/10.1161/CIR.0000000000001380, table image tab15) and on the live
+cpr.heart.org page, which now shows the right box. [V-img, and V on cpr.heart.org]
+"Recommendation for In-Water Breaths for Adults and Children": COR **2b**, LOE **C-LD**, "It may be
+reasonable for appropriately trained rescuers to provide in-water breaths to an unresponsive adult
+or child who has drowned if it does not compromise their own safety." The "artifact-filtering"
+text is gone from the live page. The 44% against 93% death-rate sentence in line 914 is in the
+supportive text beneath it [V].
+
+**Part 4, Telecommunicator Recognition of Cardiac Arrest.** Checked in the Circulation article
+(https://www.ahajournals.org/doi/10.1161/CIR.0000000000001378, table image tab05). [V-img]
+"Recommendations for Telecommunicator Recognition of Cardiac Arrest":
+1. COR **1**, LOE **C-LD**: "If the patient is unresponsive with abnormal, agonal, or absent
+   breathing, the telecommunicator should assume that the patient is in cardiac arrest."
+2. COR **1**, LOE **C-EO**: "Telecommunicators should determine the location of the event before
+   questioning to identify OHCA, to allow for simultaneous dispatching of EMS response."
+
+Note for anyone using cpr.heart.org: on 2026-09-24 the live "Part 4: Systems of Care" page
+(https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/systems-of-care) displays
+the Pediatric Advanced Life Support text under the Part 4 title (its abstract begins "The American
+Heart Association and the American Academy of Pediatrics provide these pediatric advanced life
+support guidelines"). Cite Part 4 from Circulation, not from that page.
+
+### G3. AHA/Red Cross 2024 first aid tables: CLOSED
+
+The Circulation article (https://www.ahajournals.org/doi/10.1161/CIR.0000000000001281) opens in
+full in a browser. Its recommendation tables are images on the publisher's site, numbered tab01 to
+tab51; the numbers match Part C's T-numbers. Each was opened at full size and read against Part
+C. [V-img] throughout.
+
+**The ten transcribed tables all match Part C** (T15, T16, T18, T19, T21, T22, T23, T24, T32,
+T33): every quoted phrase and every COR and LOE is as Part C gives it. Omissions and one
+misattribution, none of which changes a quote:
+- T18 (asthma): the improvised spacer sizes are not in the table. They are in the supportive
+  text [V]: "Improvised spacers made with a 500-mL (≈16 oz) plastic cold drink bottle or a 150-mL
+  (≈5 oz) disposable paper cup appear to provide drug delivery similar to that achieved with
+  commercial spacer devices" (reference numbers removed). Line 1685 puts them in the table
+  summary.
+- T24 (hypoglycaemia) rec 5 covers children "who are awake but unwilling or unable to swallow
+  glucose"; line 1718 has only "unwilling".
+- T32 (hypothermia) has ten recommendations; line 1769 lists eight. Missing: rec 3, COR 1, C-LD
+  (when using rewarming devices, follow the manufacturer's instructions, "place insulation between
+  the heat source and skin, and frequently monitor for burns and pressure injury"), and rec 6,
+  COR 2a, C-LD (the hypothermia wrap through damp, not saturated, clothing for a person with
+  decreased responsiveness who cannot be moved to a warm place).
+- T33 (frostbite): recs 3 to 8 are COR 1 as line 1783 says; their LOE is C-LD for recs 3 and 4 and
+  C-EO for recs 5 to 8.
+
+**The six tables that were never archived** can now be quoted with a grade:
+- **T25 Presyncope.** 1 (C-LD): "If a person experiences signs or symptoms of presyncope
+  (including pallor, sweating, lightheadedness, visual changes, and weakness) of vasovagal or
+  orthostatic origin, that person should maintain or assume a safe position such as assisted
+  sitting or lying down." 2a (C-LD): "Once the person with presyncope is in a safe position, it can
+  be beneficial for that person to use physical PCMs to avoid syncope." 2b (C-LD): "Lower-body PCMs
+  may be preferable to upper-body and abdominal PCMs in first aid for presyncope." 2b (C-EO): "If
+  no improvement occurs within 1 to 2 minutes, if syncope occurs, or if symptoms worsen or reoccur,
+  the first aid provider should activate emergency services." 3: No Benefit (C-EO): "The use of
+  PCMs is not recommended when symptoms of a heart attack or stroke accompany presyncope."
+- **T29 Snake Bite in North America.** 1 (C-EO): "Emergency services should be activated for any
+  person bitten by a venomous or possibly venomous snake." 2a (C-LD): "It is reasonable to rest and
+  immobilize the bitten extremity and minimize exertion by the person who was bitten if it does not
+  delay access to emergency medical care." 2a (C-EO): "It is reasonable to remove rings and other
+  constricting objects from the bitten extremity." 3: No benefit (C-LD): "Application of ice to a
+  snakebite wound is of unproven benefit and may be harmful in some situations." 3: Harm (C-LD),
+  four separate rows: suction, electric shock, tourniquets, and "The use of pressure immobilization
+  bandaging to treat snake bites is potentially harmful."
+- **T34 Exertional Hyperthermia and Heatstroke.** 1 (C-EO): "For people with exertional
+  hyperthermia or heatstroke, first aid providers should move the individual from the hot
+  environment, remove excess clothing, limit exertion, and provide cool liquids if the person is
+  able to swallow." 1 (C-EO): "For people with heatstroke (heat illness with altered mental
+  status), first aid providers should activate emergency services." 2a (C-LD): "For adults with
+  heatstroke, it is reasonable to initiate immediate active cooling by using whole-body (neck-down)
+  cool- to cold-water immersion for 15 minutes or until neurological symptoms resolve (whichever
+  occurs first)." 2a (C-LD): adults, other active cooling "including commercial ice packs, cold
+  showers, ice sheets and towels, cooling vests and jackets, and evaporative, fanning, or a
+  combination of techniques when water immersion is not available." The same two for children are
+  2a, C-EO. 2b (C-EO): "It may be reasonable for first aid providers, who are trained and willing,
+  to measure core temperature during active cooling for heatstroke. The target core temperature to
+  cool until is 39°C (102.2°F)."
+- **T35 Oral Rehydration for Exertional Dehydration.** 1 (C-LD): "In the absence of shock,
+  confusion, or inability to swallow, first aid providers should assist or encourage individuals
+  with exertional dehydration to orally rehydrate with any available rehydration drink or potable
+  water." 2a (B-R): "It is reasonable to choose 4% to 9% carbohydrate-electrolyte drink over potable
+  water, 0% to 3.9% carbohydrate-electrolyte drinks, coconut water, or low-fat cow's milk, if each
+  is readily available."
+- **T37 Chemical Exposure to the Skin.** 1 (B-NR): "Immediate skin decontamination is recommended
+  after a chemical exposure." 1 (B-NR): "Unless otherwise recommended by local guidelines or
+  chemical-specific information, skin exposed to caustic chemical should be irrigated with running
+  water for at least 15 minutes." 1 (C-LD): "It can be beneficial to follow local guidelines, follow
+  chemical-specific procedures, or consult a regional poison center when assisting a person with
+  chemical exposures." (printed as COR 1 despite 2a-style wording). 1 (C-EO): "Contaminated
+  clothing, jewelry, and other surrounding material should be removed from the area of a chemical
+  exposure." 1 (C-EO): "EMS should be called when a person with chemical exposure has respiratory
+  symptoms, systemic symptoms, or large chemical exposures." 2a (C-LD): "It is reasonable to brush
+  off any dry chemical before irrigation with water."
+- **T38 Chemical Exposure to the Eye.** 1 (B-NR): "Decontamination by irrigation should be
+  performed immediately after chemical exposure to the eyes." 1 (C-LD): "Unless otherwise
+  recommended by local guidelines, irrigation with a copious amount of tap water for 15 minutes
+  should be performed." 1 (C-EO): "When providing first aid for chemical eye injury, first aid
+  providers should avoid contaminating other individuals, areas, or the other eye with the caustic
+  substance." 2a (B-NR): "Eye irrigation with normal saline, Ringer's lactate solution, or a
+  commercial eye wash solution if immediately available is reasonable." 2a (C-LD): "It is
+  reasonable for individuals with ocular exposure to industrial chemicals to adhere to local
+  guidelines or recommendations from a poison center."
+
+### G4. Videos: PARTLY CLOSED
+
+Method, stated so nobody reads more into it: each YouTube watch page was opened in the browser;
+title, channel, length, publish date and description come from the page's own player data. I
+cannot hear audio. With the video muted I drew still frames at chosen timestamps (every 5 to 10
+seconds, then closer around the technique) and read them, including burned-in captions and
+on-screen text. YouTube's caption files came back empty, so no transcript was read. A verdict below
+rests on what the frames show; it is not a claim that the whole video was watched.
+
+- **AHA "Infant CPR" (01jpBkoQr4Y)**, 30 s, published 2024-01-11, no captions. Frames at 12 to 14 s
+  show the rescuer compressing the manikin's sternum with the fingertips of one hand (two fingers).
+  **Two-finger technique. Do not embed** (AHA 2025 removed it). There is still no US infant embed.
+- **St John Ambulance "What to do if Your Baby is Choking" (oswDpwzbAV8)**, 107 s, published
+  2016-09-07. On-screen cards at 60 to 63 s [V, on-screen text]: "USING TWO FINGERS", "IN LINE WITH
+  THE ARMPIT", "UP TO FIVE CHEST THRUSTS", with two fingers on the chest. **Do not embed.**
+- **British Red Cross "Baby first aid: Choking" (z-3IAG_974o)**, 265 s, published 2024-07-11
+  (chapters in the description: 0:00 story, 0:39 step-by-step, 3:53 key steps). Caption at 165 s
+  [V, on-screen text]: "Place two fingers in the middle of their chest just below the nipples",
+  shown with two fingers; the key-steps card at 240 s shows the same. **Do not embed.**
+- **CHOP "First Aid for Choking Victims of All Ages" (iEXKlzxjXak)**, 318 s, published 2023-01-06.
+  Infant chest thrusts (166 to 180 s, label "(Center of chest)") and unresponsive-infant compressions
+  (196 s, caption "Give 30 chest compressions before checking for the object") are done with the
+  fingertips of one hand. **Do not embed for infants.** The adult and child parts were not checked
+  against 2025 in detail.
+- **RCUK "How to give CPR to a baby (0-1 year)" (oKE9IG7LERg)**, 139 s, published 2026-08-04;
+  description [V]: "The guidance in this video is aligned to the 2025 UK Resuscitation Guidelines."
+  At 76 s [V, on-screen text]: "Thumbs can be placed side by side or stacked on top of one another",
+  subtitle "encircling the chest and fingers on the baby's back." **Two-thumb encircling; current;
+  the preferred UK embed for lesson 6.** Its summary card reads: "Check for a response", "Call 999 on
+  speakerphone", "Give five rescue breaths", "Start two thumb chest compressions", "If trained,
+  alternate compressions and breaths at a ratio of 15:2, otherwise do 30:2", "Continue until the
+  ambulance service arrives or the baby shows signs of life".
+- **RCUK "How to give CPR to a child (1-18 years)" (I3pHjgiaYew)**, 131 s, published 2026-08-04,
+  same "aligned to the 2025 UK Resuscitation Guidelines" line. Frames show the call on speakerphone,
+  five rescue breaths, then compressions; summary card: "Start one hand chest compressions, or use
+  two hands for larger children", and the same 15:2 or 30:2 line. **Current; embeddable.** Two slips
+  on its cards: the last line says "or the baby shows signs of life", and the end card points to
+  "www.resus.org.uk/baby-cpr". A caption should give the child page instead.
+- **St John Ambulance "How to do CPR on an Adult" (BQNNOh8c8ks)**, 235 s, published 2016-08-26.
+  Its description opens with the pandemic modification [V]: "In the event of a pandemic, do not put
+  your face near the casualty's." and ends that paragraph "Give chest-compression-only CPR." (ERC
+  and RCUK 2025 withdrew these modifications.) Frames show "PUSH DOWN 5 TO 6CM", "GIVE THEM 30 CHEST
+  COMPRESSIONS", "AT A RATE OF 100-120 BEATS PER MINUTE"; recap cards misspell "RECUE BREATHS". The
+  frames could not show whether the 999 call comes before the breathing check, which is the 2025
+  change. **Do not embed as the primary adult CPR video.**
+- **St John Ambulance "The Recovery Position" (GmqXqwSV3bo)**, 152 s, published 2016-08-25. The
+  frames are mostly the trainer talking to camera, with a knee bend and the roll; no legible
+  on-screen text on arm or hand placement. **Not closed**: the technique detail needs the audio.
+- **Not opened this pass:** the BHF Vinnie Jones advert (O92KL1mw77c), the St John heatstroke video
+  (jvGC_dQJUtE), and every other listed video. The OUTLINE's rules for those stand.
+
+### G5. ILCOR 2025 manuscripts against the typeset Circulation text: CLOSED, with three corrections
+
+Both typeset CoSTRs open in full at ahajournals.org: First Aid
+(https://www.ahajournals.org/doi/10.1161/CIR.0000000000001358) and Basic Life Support
+(https://www.ahajournals.org/doi/10.1161/CIR.0000000000001364; the DOI was not in this file).
+
+**ILCOR BLS 2025:** every [V] quote in Part A is word for word in the typeset text: the bra good
+practice statement (871), locked cabinets (877), 30:2 (853), compressions for all adults and breaths
+for the trained, able and willing (856), monitoring for fatigue (884), drowning CAB/ABC (909), firm
+surface and bed to floor (846).
+
+**ILCOR First Aid 2025:** the quotes at lines 1201, 1230 (pressure points), 1238 (tourniquet and its
+two evidence phrases), 1265, 1283, 1293 (both), 1349, 1370 (both), 1386, 1392 (both), 1619
+(aspirin; the full sentence begins "For adults with nontraumatic chest pain,"), 1651, 1731 and 1332
+are word for word in the typeset text. Three corrections:
+1. **Line 1218 (direct pressure) is incomplete and misdated.** The typeset text reads "Treatment
+   Recommendation (2021) We recommend that first aid providers use direct manual compression
+   compared with the use of external compression devises or pressure dressings/bandages for severe
+   life-threatening external bleeding from an extremity (strong recommendation, very low-certainty
+   evidence)." [V] Part B omitted "from an extremity" and called it a 2020 recommendation. The
+   "devises" typo is in the typeset text too.
+2. **Line 1647 (recognising anaphylaxis) quotes the manuscript's wording.** The typeset text reads
+   "First aid providers should not be expected to recognize the signs and symptoms of anaphylaxis
+   without repeated episodes of training and encounters with persons with anaphylaxis (good
+   practice statement)." [V] Not "victims of anaphylaxis".
+3. **Line 1230 dates the pressure-points recommendation 2020;** the typeset text places it under
+   "Treatment Recommendation (2021)" with the direct-pressure one.
+
+The ILCOR 2020 heatstroke CoSTR (line 1755) and the ILCOR 2020 suction line (1200) are not 2025
+chapters and were not rechecked.
+
+### G6. Cuts and grazes: CLOSED
+
+**AHA/Red Cross 2024, T42 "First Aid for Superficial Wounds"** [V-img]: 1 (C-EO) "Superficial wounds
+and abrasions should be thoroughly irrigated until there is no obvious debris or foreign matter in
+the wound." 1 (C-EO) "A superficial wound caused by an animal or human bite or with contamination
+with human or animal saliva should be evaluated in a medical facility as soon as possible." 2a
+(B-R) "It is reasonable to use running tap water or sterile saline solutions for wound irrigation
+instead of antiseptic agents such as povidone-iodine." 2a (B-R) "It is reasonable to cover clean
+superficial wounds and abrasions with an occlusive dressing to promote wound healing." 2a (C-EO)
+"If a person with superficial wound or abrasion develops redness, swelling, foul-smelling wound
+drainage, increased pain, or fever, it is reasonable to remove the dressing, inspect the wound, and
+obtain medical care."
+
+**NHS "Cuts and grazes"** (https://www.nhs.uk/conditions/cuts-and-grazes/, "Page last reviewed:
+02 April 2026"). READ LEVEL: full, direct. Cleaning [V]: "Clean the wound by rinsing it with bottled
+or tap water, or by using sterile wipes." Covering [V]: "Remove the gauze or cloth and put on a
+sterile dressing or a plaster." Get urgent help (GP or 111) if, among others [V], "a cut is
+swollen, red and getting more painful or pus is coming out of it", or "you were bitten by a person
+or a wild or stray animal". Call 999 or go to A&E if [V] "you have a cut and cannot stop the
+bleeding", or "the blood comes out in spurts and is bright red and hard to control". The elevation
+sentence at line 1231 is still on the page word for word. Lesson 10's cleaning, covering and
+infection lines can now be taught from both sources.
+
+### G7. AHA/Red Cross 2024 on the recovery position: CLOSED
+
+T14 "Positioning of the Ill or Injured Person for First Aid" [V-img], eight rows. The two that
+matter for lesson 7: 1 (C-LD) "If a person requires CPR or rescue breathing (ie, is unresponsive
+with absent or abnormal breathing), the first aid provider should position the person supine and
+follow the CPR algorithm." and 2a (C-LD) "It is reasonable to position a person with decreased
+alertness of nontraumatic cause who is breathing normally in a recovery (side-lying) position."
+Also 1 (C-EO): a responsive, normally breathing injured person whose injury "suggests a neck, back,
+hip, or pelvic injury" should be left in the position found unless the area is unsafe.
+Supportive text [V]: "The recovery position may reduce the risk for airway obstruction, facilitate
+drainage of airway secretions, and reduce the risk of aspiration in a person with a decreased level
+of responsiveness, particularly if the airway cannot be closely monitored by a first aid provider."
+and "However, the recovery position is associated with delayed recognition of respiratory arrest
+and delayed initiation of chest compressions." The guideline gives no step-by-step technique; its
+Figure 1, "The recovery position.", is a drawing of a person on their side with the lower arm
+stretched out beyond the head, the upper hand under the cheek, and the upper leg bent at hip and
+knee. So the AHA's current position is 2a, 2024, and replaces "the last AHA wording this course
+read, from 2020".
+
+### G9. French penal code Art. 223-6: NOT CLOSED
+
+https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000037289588 showed "Performing security
+verification" (a bot check). Not attempted further. The OUTLINE's fallback applies.
+
+### G10. Overdose Good Samaritan laws: CLOSED (product page)
+
+https://www.gao.gov/products/gao-21-248 ("Published: Mar 29, 2021"). READ LEVEL: the product page's
+Fast Facts and Highlights in full, direct; the 57-page PDF not opened. Part D's [T] quote is word for
+word on the page [V]: "GAO found that 48 jurisdictions (47 states and D.C.) have enacted both Good
+Samaritan and Naloxone Access laws." It continues [V]: "Kansas, Texas and Wyoming do not have a Good
+Samaritan law for drug overdoses but have a Naloxone Access law." Fast Facts [V]: "These laws
+protect people from certain criminal penalties if they call 911 to save an overdose victim." The
+laws "vary in the types of drug offenses that are exempt from prosecution" [V]. PDAPS not read; the
+count is as of 2021.
+
+### G11. AHA 2025 Part 12 (education): CLOSED for the three topics
+
+https://www.ahajournals.org/doi/10.1161/CIR.0000000000001374 opens in full. [V-img]
+- Feedback devices: COR 1, LOE A, "Feedback devices are recommended for use during CPR training for
+  lay rescuers." (and the same, COR 1, LOE A, for health care professionals).
+- Alternative objects: COR 2b, C-LD, "The usefulness of alternative objects to train laypeople in
+  chest compressions, when compared to a manikin, is not well established."
+- Blended learning (the nearest thing to online training; Part 12 has no separate online-only
+  table): COR 2b, B-NR, "A blended learning educational approach may be considered for teaching
+  guideline-based life support courses."
+- Also, for lesson 16's refresher advice: COR 1, B-R, "It is recommended to implement booster
+  sessions when utilizing a massed learning approach for resuscitation training." and COR 2a, B-R,
+  "It is reasonable to use a spaced learning approach in place of a massed learning approach for
+  resuscitation training."
+
+### G12. Murphy 2020: NOT CLOSED
+
+https://www.resuscitationjournal.com/article/S0300-9572(20)30130-1/abstract shows the abstract and
+"Log in, subscribe or purchase for full access." Paywalled; not pursued. No dollar figures.
+
+### G14. AHA's revised Chain of Survival: CLOSED
+
+Circulation Part 4, Figure 2, "Updated 2025 Chain of Survival." [V-img]: six links, in order,
+"Recognition and Emergency Activation", "High-Quality CPR", "Defibrillation", "Advanced
+Resuscitation", "Post-Cardiac Arrest Care", "Recovery and Survivorship". Top 10 message 2 [V]: "We
+present a simplified Chain of Survival meant to be applied to pediatric and adult cardiac arrest."
+And [V]: "The Chain of Survival is intended to be applied to both adult and pediatric in- and
+out-of-hospital cardiac arrest, though the details vary in each application."
+
+### G15. Red Cross on ABC and CAB: CLOSED
+
+"A-B-C vs. C-A-B", https://www.redcross.org/take-a-class/resources/articles/abc-vs-cab (linked from
+Check, Call, Care). "Date Published: July 15, 2024"; the text ends "Approved June 2020". READ LEVEL:
+full, direct. [V]: "Based on the above evidence, the ARC Scientific Advisory Council recommends
+teaching the A-B-C approach for assessment in all emergencies. For adult cardiac arrest and sudden
+pediatric arrests, the correct resuscitation sequence is compressions first, followed by breaths if
+the rescuer is trained and able. For hypoxic adult arrests and other pediatric arrests, the
+preferred sequence is airway and breathing first and then compressions." And [V]: "We do not
+recommend nor teach the mnemonic C-A-B as this sequence only applies to adult non-hypoxic cardiac
+arrest victims." So: for an adult in cardiac arrest the Red Cross and the AHA do the same thing
+(compressions first); they differ on the mnemonic (A-B-C for assessment), and the Red Cross puts
+airway and breaths first for "other pediatric arrests" and hypoxic adult arrests.
+
+### Gates not attempted this pass
+
+G8 (Darley and Latané, closed access), G13 (needs nothing), G16 (images), G17 (optional).
+
+### Errors found in this file, in one list
+
+1. Line 1000: the ERC asystole quote cuts a parenthesis (G1).
+2. Line 898: "without concerns of harm to patients not in cardiac arrest" is ERC's wording, not
+   ILCOR's (G1, G5).
+3. Line 1218: the ILCOR direct-pressure recommendation omits "from an extremity" and is dated 2020;
+   it is 2021 (G5).
+4. Line 1230: the ILCOR pressure-points recommendation is 2021, not 2020 (G5).
+5. Line 1647: the ILCOR anaphylaxis good practice statement says "persons with anaphylaxis", not
+   "victims of anaphylaxis" (G5).
+6. Line 1685: the improvised spacer sizes are AHA supportive text, not table wording (G3).
+7. Line 1718: T24 rec 5 is "unwilling or unable to swallow", not only "unwilling" (G3).
+8. Line 1769: T32 has ten recommendations, not eight (G3).
+
+Not an error: Part C's flag at line 1757 (1 to 6 °C) reflects the version of record, not the
+third-party copy (G1).
+
+## Stage 4 note, lesson 2 (2026-09-24)
+
+Corrections found by lesson 2's reviewers and checked against the saved primaries:
+
+- **NHS "Fainting" (S15; Part C 8).** The call-999 list in Part C 8 left out "is not breathing" and
+  "has not fully recovered or has difficulty with speech or movement" (a stroke sign), and shortened
+  "has seriously hurt themselves before or after fainting" to "injury". The page's advice for a
+  faint with none of those is "See a GP if: you have fainted" [V]; it does not mention NHS 111.
+  Corrected in place. NHS 111 comes from "When to call 999" (D16), "you're not sure if you need to
+  call 999" [V], and from the NHS carbon monoxide page (S16): "Call NHS 111 if: you think you might
+  have symptoms of carbon monoxide poisoning" [V]; "Call 999 or go to A&E if" exposed and "finding it
+  hard to breathe", "have suddenly become confused", "have lost consciousness", "are feeling weak",
+  "have chest or muscle pain" [V]. Its "go outside" is advice to the person who may have been
+  exposed, not to a rescuer.
+- **SECAmb FOI (D18).** The rendered PDF (p. 4) reads "AML is not an app; it does not require any
+  action from the caller" with a semicolon; the extraction lost it. Corrected in place.
+- **AHA pulse check (S1, S2).** The COR 1 "should not check for a pulse" is Part 6, paediatric,
+  and scoped to "any infant or child" [V]. Part 7 (adult) has no graded recommendation on a lay
+  pulse check; its supportive text says lay recognition is "based primarily on level of
+  consciousness and respiratory effort rather than using a pulse check" [V].
+- **ERC lay book (S10), stop condition.** Adult CPR is "repeated until EMS are on scene and able to
+  take over" [V] (p. 24); the heart-attack page says "Continue until professional help arrives,
+  takes over, or instructs" [V].
+- **St John primary survey (D11), response.** "If the casualty opens their eyes, or gives another
+  gesture, they are responsive. If they do not respond to you in any way, they are unresponsive" [V],
+  after asking "'Are you OK?', 'Can you open your eyes?'" [V]: the eyes open in answer to you.
