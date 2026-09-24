@@ -138,19 +138,16 @@ Rewrite these five lines each session. Nothing else goes in this block.
   Bible Basics lessons 4 and 9, Python Basics lesson 1, Logic and Argument lesson 10, and Digital
   Literacy lessons 1 and 3. **The fix is one edit each: name the distractor by its content.**
 
-- **Nutrition: The Evidence is drafting** (T3, first of the term), 2026-09-24. Stages 0 to 2 done
-  (`research/SOURCES.md`, six parts with whole-abstract appendices; `research/OUTLINE.md`, eleven
-  lessons and eight decisions, including a safety callout on every lesson that `npm run validate`
-  enforces). **Lessons 1 to 10 are through Stage 4**, each with two fresh-context reviewers and a
-  separate fix pass, review files in `research/reviews/`. **Lesson 11 is drafted and reviewed but the
-  fixes are not applied**: apply `research/reviews/11-reading-a-claim-about-your-food.findings-F.md`
-  (neutrality fails until F3 and F5 are fixed) and `...findings-P.md`, then fold both into a normal
-  `11-reading-a-claim-about-your-food.md` review record and delete the two findings files. The
-  project (`assessments/project-one-claim-you-acted-on.md`) is written; **the final test is not**
-  (30 items, blueprint in the outline). **Next, in order:** lesson 11's fix pass; the final test; the
-  mandatory neutrality audit across the course (lessons 6 to 10 carry the contested material, lesson
-  9 the dated 2026 guidelines); publish (course.yaml and the TAXONOMY row together, and an
-  audio-debt line of 11); then eleven scripts, fact-checked, no render.
+- **Nutrition: The Evidence is PUBLISHED**, 2026-09-24: eleven lessons through Stage 4, the
+  mandatory neutrality audit passed after eight sentence-level fixes (entry in
+  `research/reviews/course-wide.md`), and both assessments reviewed (23 findings; the test had been
+  passable by picking the one balanced-sounding option, now fixed). audio-debt opened at 11.
+  **Next:** eleven scripts, being written and fact-checked now. **Open, from the audit:** five
+  primary statements the research file lacks and the lessons say they haven't read (Sievenpiper's
+  disclosures, NutriRECS's reply to its critics, the PURE authors' reply on urine samples, a
+  commentary supporting the 2026 US guidelines, the carbohydrate-insulin side's critique of Hall
+  2021); a Stage 1 pass could add them. The misconception lists correct four low-carb errors to
+  two the other way.
 - **Strength and Fitness is drafting** (T3, second of the term; `course.yaml` and TAXONOMY both say
   `drafting`). Stage 1, Stage 2 and the course project are done; ten lessons are drafted (lesson 4
   was split into 4 and 5 on its first draft). **Lessons 1 to 8 are through Stage 4**: two

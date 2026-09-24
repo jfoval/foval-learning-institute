@@ -37,15 +37,18 @@ news story or this course. Write it down in the words you met it in, with where 
 
 Three things make a better choice.
 
-1. **It has changed, or could change, what goes on your plate.** "Eggs raise your cholesterol" is a
-   good project if you've been eating fewer eggs because of it.
+1. **It has changed, or could change, what goes on your plate.** "Heating olive oil destroys what's
+   good in it" is a good project if you've stopped cooking with it because of it.
 2. **It points at evidence**, even vaguely: "studies show", a number, a named expert.
 3. **It is not one of this course's own worked cases.** Beta-carotene, the saturated-fat swap table,
-   the salt substitute trial and the rest have been traced for you already. A claim near one of them
+   the salt substitute trial, eight glasses of water and the rest have been traced for you already. A claim near one of them
    is fine, as long as the trail you follow is your own.
 
 Don't choose a claim about a medicine, a supplement you take for a diagnosed condition, or what a
-child should eat. Those belong to the callout's list, and step 6 would stop you there anyway.
+child should eat. Those belong to the callout's list, and step 6 would stop you there anyway. And if
+the claims that come to mind are all about eating less or about your weight, and rules about food
+have started to take up more of your day than you'd like, take that to the callout first. That's
+the same check lesson 11's exercise asked for, and the project will wait.
 
 ## What you hand in
 
@@ -86,9 +89,10 @@ dead link, a paywall, or a source that does not contain the claim.
 
 ### Step 3: sort it, and say what would settle it
 
-Sort the traced finding the way lessons 6 to 8 did: **established**, **contested** (an empirical
-question serious people argue over), or **a value question** (one the evidence can inform and not
-decide). Many claims are more than one: lesson 8 found the meat dispute was all three at once. Give
+First put it in one of lesson 11's three bins: measurable, unmeasurable as stated, or false. A
+measurable finding then gets the grade lessons 6 to 8 used: **established**, **contested** (an
+empirical question serious people argue over), or **a value question** (one the evidence can inform
+and not decide). Many claims are more than one: lesson 8 found the meat dispute was all three at once. Give
 each part its sort and one piece of evidence for it.
 
 Then say, for the empirical parts, what evidence would settle them: what design, in whom, for how
@@ -108,8 +112,11 @@ suggested. If the source doesn't say what replaced the food, write "not stated".
 ### Step 5: what two guides say
 
 Lesson 9 compared five guides, four in its table and Canada's in its exercise: the US *Dietary
-Guidelines for Americans* 2020-2025 and 2025-2030, the UK's Eatwell Guide, Canada's Food Guide and
-the World Health Organization's healthy diet fact sheet. **Pick two, and find what each says about
+Guidelines for Americans* [2020-2025](https://www.dietaryguidelines.gov/sites/default/files/2020-12/Dietary_Guidelines_for_Americans_2020-2025.pdf)
+and [2025-2030](https://cdn.realfood.gov/DGA.pdf), the UK's [Eatwell
+Guide](https://www.gov.uk/government/publications/the-eatwell-guide), [Canada's Food
+Guide](https://food-guide.canada.ca/) and the World Health Organization's [healthy diet fact
+sheet](https://www.who.int/news-room/fact-sheets/detail/healthy-diet). **Pick two, and find what each says about
 your claim**, quoted, with the date of the version you read. The 2020-2025 US edition has been
 replaced by the 2025-2030 one; if you pick it, say so, and say what the newer edition changed.
 
@@ -162,8 +169,8 @@ arrives in are invented for this model. Everything quoted from the study is copi
 **The claim, as met:** a friend says, "A study of two thousand people on the carnivore diet found
 almost no side effects."
 
-**What it rests on.** A search for "carnivore diet" and "2029" (the friend's "two thousand" suggested
-a number) finds [Lennerz and colleagues, 2021](https://doi.org/10.1093/cdn/nzab133), in *Current
+**What it rests on.** A search for "carnivore diet" survey, with the friend's "two thousand people"
+as the clue, finds a title naming "2029 Adults": [Lennerz and colleagues, 2021](https://doi.org/10.1093/cdn/nzab133), in *Current
 Developments in Nutrition*, free at PubMed Central. Read at abstract level.
 
 **Whether the finding is there.** Yes, and fairly quoted. The abstract says "A total of 2029
@@ -210,7 +217,8 @@ Five criteria, each marked 0 to 3. **The pass mark is 10 of 15.**
 **Tracing** (steps 1 and 2)
 - **3:** The claim is quoted exactly. It is followed to its source, or marked untraceable with where
   the trail ended. The key sentence is quoted exactly, and the design and the read level are both
-  named correctly.
+  named correctly. For an untraceable claim, naming the kind of dead end and how far you got takes
+  the place of the key sentence and the design.
 - **2:** Traced, with the design and read level named, but one of them is wrong or the key sentence
   is paraphrased.
 - **1:** A source is named but not opened, or opened without the design or read level stated.
@@ -223,7 +231,7 @@ Five criteria, each marked 0 to 3. **The pass mark is 10 of 15.**
   settle them.
 - **2:** Sorted with evidence, but what would settle it is vague ("more research").
 - **1:** Sorted without evidence, or a claim with more than one part given a single sort.
-- **0:** Not sorted, or a contested question called settled (in either direction) with no source.
+- **0:** Not sorted, or a contested question called settled in either direction.
 
 **The swap** (step 4)
 - **3:** "Instead of what?" answered for the evidence and for the reader separately, with "not
@@ -233,8 +241,8 @@ Five criteria, each marked 0 to 3. **The pass mark is 10 of 15.**
 - **0:** Not answered, or the comparison group given where the swap was asked for.
 
 **Guidance** (step 5)
-- **3:** Two guides found and quoted, each dated, and any disagreement described as about evidence,
-  about values, or both.
+- **3:** Two guides found and quoted, or recorded as silent on the claim, each dated, and any
+  disagreement described as about evidence, about values, or both.
 - **2:** Two guides quoted, with dates missing or the disagreement left undescribed.
 - **1:** One guide, or two described from memory rather than quoted.
 - **0:** No guide consulted.
