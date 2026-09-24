@@ -346,6 +346,17 @@ recommendation is the second.
   https://www.iasp.info/crisis-centres-helplines/ . **Not read**: the page's content did not render
   without a browser. It is the scholarly body's directory and a lesson may link it as that, citing
   nothing from it.
+- **United States: 911, and how it relates to 988.** SAMHSA, "988 Frequently Asked Questions",
+  https://www.samhsa.gov/mental-health/988/faqs , read in part on 2026-09-23 (the passages on 911).
+  Verbatim: "911 is the primary contact for emergencies involving medical emergencies, fire, crimes in
+  progress, or other situations requiring immediate physical intervention." And: "Although 911 is
+  highly effective for emergencies involving physical harm and public safety concerns, it is not
+  specialized to manage behavioral health crises." **Added at Stage 3 so the crisis callout's US
+  emergency number has a source.**
+- **European Union: 112.** European Commission, "112 - the EU's emergency phone number",
+  https://digital-strategy.ec.europa.eu/en/policies/112 , read in part on 2026-09-23. Verbatim: "112
+  is the European emergency phone number, available everywhere in the EU, free of charge." **Added at
+  Stage 3 under outline decision 1.**
 - **UK: NHS Talking Therapies self-referral**,
   https://www.nhs.uk/mental-health/talking-therapies-medicine-treatments/talking-therapies-and-counselling/nhs-talking-therapies/
   . Read in part (the opening and "How to get talking therapies"). Verbatim: "For many mental health

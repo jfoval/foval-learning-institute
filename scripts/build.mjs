@@ -803,6 +803,16 @@ function lintLessons() {
           }
         }
 
+        // Mental Fitness outline decision 1: every lesson carries the same crisis callout, word for
+        // word, directly after its opening. The numbers live in this one string, so a number that
+        // changes is one edit here and one in each lesson, and a lesson that drops the box or keeps
+        // an old number fails. Root rule 10: a safety rule that needed shouting became a check.
+        if (cdir.name === "mental-fitness" && path.basename(lessonsDir) === "lessons") {
+          const CRISIS = ":::callout If you're struggling right now\nThis course is education, not care. If you're thinking about suicide or self-harm, or don't feel able to keep yourself safe, contact emergency services (911 in the US and Canada, 999 in the UK, 112 across the EU, 000 in Australia) or a crisis line: call or text 988 in the US and Canada, call Samaritans on 116 123 in the UK and Ireland, or Lifeline on 13 11 14 in Australia. Elsewhere, findahelpline.com lists free, confidential lines by country.\n:::";
+          if (!src.replace(/\r\n/g, "\n").includes(CRISIS))
+            fail(`${file}: the crisis callout is missing or differs from the standard text. Every Mental Fitness lesson carries it word for word (research/OUTLINE.md decision 1); the text is in scripts/build.mjs.`);
+        }
+
         // STYLE_GUIDE: contractions. "Their absence is the fastest way to sound like a
         // manual." Four consecutive Digital Literacy lessons were sent back by Stage 4 for
         // this and nothing else would have caught it: 1 in 4,739 body words on lesson 8,
