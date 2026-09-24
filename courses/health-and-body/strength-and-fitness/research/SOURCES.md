@@ -1289,6 +1289,52 @@ poor reporting of adverse events, and other shortcomings (199)". Overlap between
 only for strength. "Overviews of reviews do not permit inferences about the comparative effectiveness
 of different interventions (14)."
 
+**Ten more passages, verbatim (added 2026-09-24, lesson 7's review, Reviewer F; each string-checked
+against the Europe PMC full text of PMC12965823).** Lesson 7's Sources note said its paraphrases of
+these "were checked against the full text"; they were real, but none was recorded here.
+- No comparison of regions: "The available evidence did not compare distinct body regions or muscle
+  groups." Six regions: "The movement directions “horizontal” and “vertical” may also be considered
+  for upper body exercises (i.e., six body regions)."
+- The two sentences straight after the progression sentence above: "We note that in some
+  populations, due to inexperience (and potential safety concerns), RTx necessitates that loads are
+  necessarily low and progression is a requirement to achieve a meaningful benefit." "Continued
+  progression could be a personal decision and part of the individualization of RTx (see below)."
+  **Keep "due to inexperience": it names beginners.**
+- Progression for the untrained: "Untrained individuals will benefit from various RT programs,
+  provided that progression, the variables outlined here as affecting outcomes, and adherence are
+  core principles." With the abstract's conclusion ("Healthy adults should perform progressive RT"),
+  this is the other half of the "progression is not necessary" sentence; quote them together.
+- Relative load: "Such adaptation would require increasing the stimulus, such as load, volume,
+  training frequency, exercise selection, or duration (even if only slightly), as the muscle continues
+  to adapt to produce further adaptations ( 164 )." And: "Still, the same relative load can also be
+  sustained when regular strength testing is performed or perceived exertion scales are used to
+  increase absolute load commensurate with strength gains ( 113 , 165 )."
+- What did not change strength: "Strength was not affected by RT performed with contractions to
+  muscle failure/fatigue, free weights versus machines, unstable versus stable surfaces; fast (<2 s)
+  versus moderate-slow (>2 s) contractions, morning versus evening training sessions, short (<1 min)
+  versus long (>1 min) between-set rest intervals, eccentric versus concentric contractions, power
+  training techniques, or different set structures (cluster and complex)."
+- The earlier stands' details, rest included: "Previous guidelines have recommended healthy adults
+  use free weights and machines to complete two to three RT sessions per week, with eight to ten
+  exercises involving major muscle groups per session, one to four sets per exercise, eight to twenty
+  repetitions per set, 2–3 min rest between sets, loads 40%–70% 1RM, and follow the principles of
+  progressive overload, specificity, and variation ( 10 , 11 )."
+- Periodisation defined: "One of the most common forms of variation is periodization—intentionally
+  modifying prescription variables (e.g., load, volume, frequency) throughout an RT program." And the
+  "definitions vary" sentence whole (quoted only to its citation under "On periodisation" above): "We
+  note, however, that definitions of periodization vary ( 166 , 167 ), but broadly involve the
+  systematic manipulation of RTx variables with the goal of optimizing performance adaptations,
+  managing fatigue, preventing overtraining/injury, and peaking for specific goals."
+- Too little data, including same-session concurrent training: "There were insufficient data to
+  determine if strength was affected by blood flow restriction ( 110 – 112 ), Olympic-style
+  weightlifting ( 69 ), intrasession autoregulation ( 113 , 114 ), varied exercise selection ( 115 ),
+  periodization ( 24 , 116 – 118 ), or concurrent training (i.e., aerobic and RT in the same training
+  session) ( 119 – 124 )."
+- Frequency and volume: "For example, RT frequency was found to impact strength; however, there was
+  insufficient evidence to conclude a dose-response relationship, and the impact is diminished when
+  volume is equated ( 73 , 76 , 90 )." A third weekly session adds sets and practice together; this
+  sentence is why a lesson can't credit the practice alone.
+
 **Press release.** Adds a quotation from Phillips: "“The best resistance training program is the one
 you’ll actually stick with,”" and "“Training all major muscle groups at least twice a week matters
 far more than chasing the idea of a ‘perfect’ or complex training plan. Whether it’s barbells, bands,
@@ -1723,7 +1769,11 @@ Moesgaard 2022; overall, "periodization is less important than previously hypoth
 
 **Classification.** Contested for strength (modest effects, larger in some analyses, definitions vary
 and are "often conflated" with programming); fairly settled that periodisation does not add
-hypertrophy. For a beginner the question barely arises.
+hypertrophy. For a beginner the evidence points both ways: Williams found the 1RM advantage larger in
+untrained participants (without equal volume), while Moesgaard's undulating-over-linear result held
+only in trained people. (Corrected 2026-09-24 at lesson 7's review, F9: this line had read "For a
+beginner the question barely arises", which settled a contested question in the sceptics' direction
+and left out Williams's untrained result.)
 
 ---
 
@@ -1992,7 +2042,11 @@ are), with the caveats that estimates get worse above about 10 reps and differ b
 **Caveat.** The Marzagao preprint is not peer reviewed and comes from a company that sells a training
 app; it is used here only for its description of the classical equations' origins, which should be
 cross-checked against Brzycki 1993 or a textbook (NSCA *Essentials*) at Stage 2 if a lesson leans on
-it.
+it. **Lesson 7 leans on it, and the cross-check was not done** (noted 2026-09-24 at lesson 7's
+review): the lesson attributes the Nebraska-chart origin to the preprint, names the author's Fitbod
+affiliation, and says Epley 1985 was not opened. Its step of adding the reps in reserve to the reps
+done before applying the formula is the lesson's own inference, labelled there. Reynolds's ten-rep
+limit is for the leg press and chest press only.
 
 ---
 
@@ -2872,12 +2926,20 @@ past those, so those papers are abstract-only here and the entries say so.*
 - **Other claims, verbatim:** "Eccentric activities induce micro-injury at a greater frequency and severity than other types of muscle actions."
   "Cryotherapy, stretching, homeopathy, ultrasound and electrical current modalities have demonstrated no effect on the alleviation of muscle soreness or other DOMS symptoms."
   "Exercise is the most effective means of alleviating pain during DOMS, however the analgesic effect is also temporary."
+- **Added 2026-09-24 (lesson 8's review, F5), checked against `abs_12617692.txt`:** the same abstract's
+  limits on that exercise line, which a lesson quoting it must carry: "Athletes who must train on a daily basis should be encouraged to reduce the intensity and duration of exercise for 1-2 days following intense DOMS-inducing exercise."
+  On range: "Symptoms can range from muscle tenderness to severe debilitating pain." And on causes
+  beyond eccentric work and the start of a season: "The intensity and duration of exercise are also important factors in DOMS onset."
 
 ### R3.10e Hotfiel T, Freiwald J, Hoppe MW, et al. Advances in delayed-onset muscle soreness (DOMS): Part I: pathogenesis and diagnostics. *Sportverletz Sportschaden* 2018;32(4):243-250. doi:10.1055/a-0753-1884
 
 - **Read level:** abstract only (`abs_30537791.txt`).
 - **Verbatim:** "Although the exact pathophysiological pathway remains unknown, the primary mechanism is currently considered to be the ultrastructural damage of muscle cells due to unfamiliar sporting activities or eccentric exercise, which leads to further protein degradation, apoptosis and local inflammatory response."
   Timing: "(peak soreness at 48 - 72 h post-exercise)".
+- **Added 2026-09-24 (lesson 8's review, F3, F11), checked against `abs_30537791.txt`:** the abstract
+  opens "Delayed-onset muscle soreness (DOMS) is a type of ultrastructural muscle injury." (the
+  "Although the exact pathophysiological pathway remains unknown" sentence is its sixth, not its
+  first). Its clinical signs overlap the rhabdomyolysis list (R4.4): "Clinical signs include reduced force capacities, increased painful restriction of movement, stiffness, swelling, and dysfunction of adjacent joints."
 - **Good for:** with R3.10c, this is what the lesson can say: current reviews put soreness down to
   unaccustomed, especially eccentric, work and the damage and inflammation that follow, peaking 2 to 3
   days later. Neither source I read states in so many words that lactate does not cause DOMS; the lesson
@@ -3191,6 +3253,20 @@ unaccustomed conditioning exercises)."
 can be overwhelming and devastating". Consequences: "compartment syndrome, renal failure, and
 death."
 
+**Added 2026-09-24 (lesson 8's review, F3, F5, F6, F17), each checked against `champ_er.txt`.** The
+list above was recorded without its lead-in, which carries the hedge; the lead-in reads: "ER and DOMS can have overlapping symptoms, but key symptoms and findings of ER which help distinguish it from typical physiologic muscle breakdown and/or DOMS include:"
+So the signs help tell the two apart; they are not a clean partition (Hotfiel, R3.10e, lists
+swelling and restricted movement among ordinary soreness's signs too). Directly after the list:
+"It should be noted that on rare occasions a warfighter might present with cola-colored urine in the absence of severe muscle pain."
+Such patients "should undergo the same initial diagnostic evaluation as an individual with a classic presentation of ER."
+On lab values: "It cannot be overemphasized that SYMPTOMS, co-morbidities (e.g. acute kidney injury), and clinical judgment should drive management."
+Annotation 5, whole: "Although ER is a pathologic condition (and is, by definition, symptomatic), muscle breakdown of a lower degree is also a normal result of strenuous exercise (DOMS)."
+The DOMS-versus-ER sentence continues past "devastating": "especially when associated with other variables such as dehydration, sickle cell trait, use of certain drugs, dietary supplements, caffeine or alcohol, excessive exercise, exertional heat illness, underlying genetic conditions, or other incompletely understood contributing factors."
+Compartment syndrome: "ACS occurs when the tissue pressure within a closed muscle compartment (e.g., triceps, thigh) exceeds the perfusion pressure and results in muscle and nerve ischemia."
+And "surgical intervention for a fasciotomy may be required". Treatment is rest, not exercise:
+"Outpatient treatment in such patients consists of oral rehydration, limited physical activity, and close follow-up".
+Annotation 8, for a clinician's patient with ordinary breakdown: "muscle pain serves as an important guide in return to activity and should not be masked."
+
 **(b) Yow LPS, Ho HY, Lum IYW, Hanif IM.** Exercise-induced rhabdomyolysis: a case series of
 spin-related rhabdomyolysis. *Cureus* 2021;13(7):e16352. doi:10.7759/cureus.16352. PMC8276198, full
 text.
@@ -3204,6 +3280,20 @@ text.
   an unaccustomed exercise regime."
 - The authors' prevention list includes "Self-awareness of level of exertion especially when new to
   spin" and "Encouraging new participants to inform the instructor that they are new to the class".
+- **Added 2026-09-24 (lesson 8's review, F6, F7, F10, F17), each checked against `r4/PMC8276198.txt`.**
+  Setting: "the general medicine department in our local regional hospital", in Singapore. Cases: aged
+  28 to 33, three men and two women. Case 2: "He does regular gym workouts two to three times a week but was spin naive."
+  And, the confound: "He reported having drunk two pints of beer immediately after the spin session."
+  Case 3: "She does not exercise regularly, with only one to two exercise sessions of moderate-intensity per month at most."
+  Examination findings are "proximal weakness" of the legs in all five. Myoglobin: rhabdomyolysis
+  "releases an excessive amount of intracellular protein of creatine kinase (CK), lactate dehydrogenase (LDH), and myoglobin";
+  "Myoglobin is renally filtered"; above 100 mg/dl in urine "this pigments the urine to a dark red-brown color".
+  The discussion's sentence continues: "This could be individuals who exercise regularly but increased their workout intensity, changed their type of training regime, or trained an undertrained muscle group."
+  Precipitating factors: "Other precipitating factors of rhabdomyolysis include exercising with a concomitant viral illness, certain medications or drugs (for example, statin, anticholinergics, anabolic steroids, amphetamines), consumption of dietary supplements (for example, creatine, caffeine), and alcohol intake".
+  The discussion also stresses dehydration "especially in a hot humid environment like Singapore".
+  Massage gun: "The use of a percussion massage gun post-workout has also been linked to rhabdomyolysis in a reported case report".
+  Aftercare: "Patients are recommended to continue oral hydration at home and have complete rest until CK values are back to the normal range."
+  The rest of the public prevention list, verbatim items: "Good fluid and electrolyte replacement before, during, and post-workout"; "Avoiding alcohol peri-spin class"; "avoiding the use of nonsteroidal anti-inflammatory drugs (NSAIDs)"; "Avoiding sauna post-workout"; "Being aware of the risk in patients on statins and drugs (statin, cholinergic)"; "Avoiding the use of a percussion massage gun".
 
 **Good for:** the single most useful safety message for the beginner who joins a hard class: the
 danger is novelty plus volume plus eccentric work, and dark urine is a stop-and-get-seen sign.
@@ -3316,6 +3406,12 @@ a handful of trials. Populations are athletes in organised sport.
 - **Figures (verbatim):** "For the unrestricted squat, knee torque (N.m; mean +/- SD) = 150.1 +/-
   50.8 and hip torque = 28.2 +/- 65.0. For the restricted squat, knee torque = 117.3 +/- 34.2 and hip
   torque = 302.7 +/- 71.2."
+- **Trunk lean (verbatim, added 2026-09-24 at lesson 6's review, F11, checked against the
+  abstract):** "Restricted squats also produced more anterior lean of the trunk and shank and a
+  greater internal angle at the knees and ankles." This is the measured basis for the authors'
+  "low-back" inference; the back itself was not measured. The abstract says the men "were videotaped
+  while performing 2 variations of parallel barbell squats" and reports "static knee and hip
+  torques"; nothing says they held positions.
 - **Their conclusion, with its hedge:** "Although restricting forward movement of the knees may
   minimize stress on the knees, it is likely that forces are inappropriately transferred to the hips
   and low-back region. Thus, appropriate joint loading during this exercise may require the knees to
@@ -3332,7 +3428,11 @@ herniation: studies on a porcine model exposed to highly repetitive flexion/exte
 compressive force. *Clin Biomech* 2001;16(1):28-37. doi:10.1016/S0268-0033(00)00063-2. **Abstract
 only.** Pig cervical spine segments bent up to 86,400 times at 1 Hz under load. "Herniation
 (posterior and posterior-lateral regions of the annulus) occurred with relatively modest joint
-compression but with highly repetitive flexion/extension moments." Conclusion, hedged by the
+compression but with highly repetitive flexion/extension moments." The next sentence of the results (added 2026-09-24 at lesson 6's
+review, F21, checked against the abstract): "Increased magnitudes of axial compressive force
+resulted in more frequent and more severe disc injuries." The specimens were "Porcine cervical spine
+motion segments (C3-C4)", and the abstract's relevance note says "consistent reproduction of this
+injury in the laboratory has been elusive". Conclusion, hedged by the
 authors: "The results support the notion that intervertebral disc herniation may be more linked to
 repeated flexion extension motions than applied joint compression, at least with younger,
 non-degenerated specimens."
@@ -3382,6 +3482,13 @@ verdict on form beyond 'load you can control'.
 - Mechanism: "the mechanical compression of blood vessels combines with a potent pressor response
   and a Valsalva response to produce extreme elevations in blood pressure. Pressures are extreme even
   when exercise is performed with a relatively small muscle mass."
+- **How much of it was the breath (verbatim, added 2026-09-24 at lesson 6's review, F8, checked
+  against the abstract):** "Mouth pressures of 30-50 Torr during a single maximum lift, or as subjects
+  approached failure with a submaximal weight, indicate that a portion of the observed increase in
+  blood pressure was caused by a Valsalva maneuver." And on timing: "Systolic and diastolic blood
+  pressures rose rapidly to extremely high values during the concentric contraction phase for each
+  lift and declined with the eccentric contraction." A lesson that uses this study for "don't hold
+  your breath" should say the breath was only a portion of the rise.
 
 **What guidance says:**
 - AHA 2023 (4.3): "Patients with controlled hypertension can safely participate in low- to
@@ -3448,6 +3555,12 @@ been shown for workers. It must not claim more.
   activity is recommended for reducing muscle injuries and increasing joint ROM with inconsequential
   effects on subsequent athletic performance."
 
+- **Added 2026-09-24 (lesson 8's review, F17), checked against `r4/abstracts1.txt`:** the abstract
+  opens "Recently, there has been a shift from static stretching (SS) or proprioceptive neuromuscular facilitation (PNF) stretching within a warm-up to a greater emphasis on dynamic stretching (DS)."
+  Its reason for the loss is hedged: "possibly because of reduced muscle activation after SS and PNF."
+  The point on static stretching's side: "Conversely, SS demonstrated a moderate (2.2%) performance benefit at longer muscle lengths."
+  And: "DS produced small-to-moderate performance improvements when completed within minutes of physical activity."
+
 **Note the tension:** the review says no clear effect on all-cause injuries, yet recommends
 stretching in a warm-up "for reducing muscle injuries". The abstract does not resolve this (the full
 text may distinguish muscle injuries from all-cause). Record it as it stands.
@@ -3490,6 +3603,17 @@ keep: absence of shown benefit, not proof of harm.
     motion changes (ES = 1.042; p < 0.001)."
   - Conclusion: "As resistance training with external loads can improve range of motion, stretching
     prior to or after resistance training may not be necessary to enhance flexibility."
+  - **Added 2026-09-24 (lesson 8's review, F1, F2, F17), checked against `r4/PMC9935664.txt`.** The
+    body-mass exception carries the authors' own caution: "However, caution should be taken not to overemphasize these results, as this finding is based on only four ESs (see Table 2)."
+    Their suggested reason runs towards range, not load: "Hence, it is possible that the full or nearly full ROM used in isoinertial RT is more important for increasing ROM than the external load."
+    And "As isoinertial RT might be described as dynamic stretching with load, the attributed mechanisms underlying ROM improvements with dynamic stretching may be similar."
+    Full range was not the tested variable: "There are a dearth of studies comparing the effects of partial versus full ROM RT on ROM."
+    On injury (Behm is last author), a claim resting on a cited study, ref 113, not on this
+    meta-analysis's own data: "both stretching and RT can improve ROM, improve strength [1, 111, 112], and decrease musculotendinous injury incidence [113]."
+    Advocacy (Key Points): "Stretch training can still be advocated as a fitness and training component for much of the population and included as a component of a warm-up prior to competition".
+    **So the stretching-and-injury picture is split:** Thacker and Lauersen found no shown effect on
+    injuries in general; Behm 2016 (R4.12) and Alizadeh 2023, both with Behm as an author, still
+    recommend stretching partly for muscle or musculotendinous injuries. A lesson must carry both.
 
 **Good for:** 'lifting makes you stiff' is a misconception. **Does not show:** that stretching is
 useless for people whose goal is extreme range (gymnasts, dancers); the "may not be necessary" is
@@ -3542,7 +3666,9 @@ the content of 11+ was not read here.
 - **Herbert RD, de Noronha M, Kamper SJ.** Stretching to prevent or reduce muscle soreness after
   exercise. *Cochrane Database Syst Rev* 2011;(7):CD004577. doi:10.1002/14651858.CD004577.pub3.
   **Abstract only.** 12 studies. Post-exercise stretching reduced soreness at one day "by, on
-  average, one point on a 100-point scale". Conclusion: "muscle stretching, whether conducted before,
+  average, one point on a 100-point scale". Conclusion (corrected 2026-09-24, lesson 8's review F12:
+  the quotation below was recorded without its hedged opening, "The evidence from randomised studies
+  suggests that"; twelve studies were included, and the pooled estimates used fewer): "muscle stretching, whether conducted before,
   after, or before and after exercise, does not produce clinically important reductions in
   delayed-onset muscle soreness in healthy adults."
 - CHAMP 2020 (4.4) defines DOMS as "muscles that become sore and stiff, usually one to three days
@@ -3587,6 +3713,11 @@ versus nothing.
   - Limitation, their words: "the beneficial effect arising from the placebo effect of recovery
     techniques could not be eliminated."
   - **Outcome caveat:** soreness, perceived fatigue and blood markers. Not training adaptation.
+  - **Added 2026-09-24 (lesson 8's review, F9, F17), checked against `r4/PMC5932411.txt`.** Abstract:
+    "The most powerful techniques for reducing inflammation were massage and cold exposure."
+    Discussion (Immersion), which separates water temperature: "We observed that only immersion in water with a temperature lower than 15°C had a positive impact on inflammation."
+    Discussion (Cryotherapy): the cryotherapy studies it describes are cold-chamber exposures,
+    including "whole body cryotherapy (WBC)". Conclusion: "In this meta-analysis only one recovery session was examined."
 - **Wiewelhove T, Döweling A, Schneider C, et al.** A meta-analysis of the effects of foam rolling on
   performance and recovery. *Front Physiol* 2019;10:376. doi:10.3389/fphys.2019.00376. PMC6465761,
   full text downloaded; abstract read.
@@ -3612,7 +3743,9 @@ versus nothing.
 - "The distinction between NFOR and overtraining syndrome (OTS) is very difficult and will depend on
   the clinical outcome and exclusion diagnosis."
 - Symptoms: "fatigue, performance decline, and mood disturbances".
-- Diagnosis is by exclusion of "organic diseases or infections and factors such as dietary caloric
+- Diagnosis by exclusion is hedged in the abstract as "One approach to understanding the etiology of
+  OTS" (corrected 2026-09-24, lesson 8's review F13, checked against `r4/abstracts1.txt`); it
+  involves the exclusion of "organic diseases or infections and factors such as dietary caloric
   restriction (negative energy balance) and insufficient carbohydrate and/or protein intake, iron
   deficiency, magnesium deficiency, allergies, and others".
 - On tests: "several markers (hormones, performance tests, psychological tests, and biochemical and
@@ -3801,6 +3934,12 @@ is modest and on function small. **Does not show:** which exercise is best; non-
   Their hedge: "one-third of the studies in this review did not include adverse event information".
 - Pacemakers: "Individuals with implanted pacemakers or defibrillators should consult with their
   physicians before engaging in upper-body RT."
+- Same paragraph (added 2026-09-24 at lesson 6's review, F2 and F10, checked against the full text):
+  "Machines are likely safer than free weights for these patients" (people with musculoskeletal
+  limitations, advanced arthritis, severe osteoporosis, neuropathies or a previous stroke; see R4.21),
+  and "Medications can affect hemodynamics, ECG changes, and exercise capacity, and therefore, should
+  be considered when designing RT prescriptions", followed by the extended-cool-down sentence in
+  R4.10. Any "machines are safer" claim should carry the first with its scope.
 - Starting point: "When beginning a new RT program, an initial intensity should correspond to 40% to
   60% of 1-RM". (Programming belongs to another researcher; noted for cross-reference.)
 
@@ -4116,8 +4255,23 @@ These are recorded as primary sources on the practitioners' own ideas. None of t
   guides here" (checked).
 - **What the article's evidence is.** Anecdote from his gym: one 20-year-old man who went from 145 x 5
   x 3 to 315 x 5 x 3 in the squat in 11 weeks while gaining 55 pounds of bodyweight, eating "more than
-  6000 calories a day" (checked). That is a case report, not a test. The article is also openly
-  polemical about other methods and about academic programming.
+  6000 calories a day" (checked). Then: "This is not an isolated case" (checked), followed by Cliff
+  Swanson, 27, who "gained 45 pounds in twelve weeks" (checked), Bryan Fox, from 365 x 5 x 3 to
+  515 x 5 x 3 in the squat between August 12 and December 29, "several other guys" this year, and "my
+  gym has a long history of working with young men that got much bigger and stronger when they first
+  started training" (checked). Cases, not a test. He also argues for session-to-session loading from
+  principle, not only from cases: "the most mathematically efficient way to increase any quantity over
+  time is to incrementally add to the quantity in a way that allows the increase to accumulate for as
+  long as possible" (checked), and the programming sentence above carries a condition: "It must
+  obviously be done in a way that permits these increases to continue, and this means that each
+  increase must be recovered from and adapted to before the next workout" (checked). And he disputes
+  the neural account of early gains: "the standard dogma being that the first few months of strength
+  increase are due primarily to increases in neuromuscular efficiency. Perhaps this is true of most
+  people on an “evidence-based” periodized program designed by the Certified Strength and Conditioning
+  Specialists with the NSCA, but not here." (checked). *(Corrected 2026-09-24 at lesson 7's review,
+  Reviewer F, F6 and F11, against `raw/r5/ss_ne_web.flat`: this entry had recorded one case only, and
+  lesson 7 said "a single case". The shape of early gains is common ground; the reason is not.)* The
+  article is also openly polemical about other methods and about academic programming.
 - **What a lesson can take from it.** The practitioner's version of a real and uncontroversial shape:
   beginners gain strength fastest, and gains slow with training age (diminishing returns). The *shape*
   is common ground; what is Rippetoe's own is the claim that a session-to-session linear load increase
@@ -4148,8 +4302,14 @@ These are recorded as primary sources on the practitioners' own ideas. None of t
   no validation study was cited on the page and none was found.
 - **Also in RP's words.** "The volume recommendations in our muscle-specific guides are starting points,
   not gospel" (checked). That hedge belongs in any lesson that mentions the landmarks.
+- **Soreness enters twice.** Besides the MEV checklist, the page's "Weekly Set Progression Algorithm"
+  scores "Soreness Recovery (1-4 points)" beside performance and uses the two scores to add or hold
+  sets the next week (checked, `raw/r5/rp_vl.flat`; added 2026-09-24 at lesson 7's review, F26).
 - **Classification.** The idea that there is a volume too low to grow, a productive range and a ceiling
-  set by recovery is widely shared and consistent with dose-response data (R5.10). The specific
+  set by recovery is widely shared. The first two parts match the dose-response data (R2.8, R5.10); the
+  ceiling does not: Pelland's preprint found "no clear plateau" for size, with few studies past about
+  25 fractional weekly sets, so the recovery ceiling is RP's claim, not a trial finding (corrected
+  2026-09-24 at lesson 7's review, F8: this line had called the whole idea consistent with the data). The specific
   landmark numbers and the scoring system are one company's practice claims.
 
 ### R5.10 Greg Nuckols, Stronger By Science: what the volume evidence does and does not show
@@ -4186,8 +4346,14 @@ These are recorded as primary sources on the practitioners' own ideas. None of t
   a feud with a high-volume camp and a low-volume camp calling extra work "junk volume". **The
   low-volume side is here only as Nuckols describes it; no low-volume proponent was read.**
 - **(c) A practitioner's critique of novice linear programs.** Nuckols (2014) says the popular novice
-  programs are "all basically set up the same way" and suggests varying rep schemes (3x8, then 5x5, then
-  5x3) and adding a set at plateaus. He quotes a 2004 meta-analysis concluding periodized training is
+  programs are "all basically set up the same way" and, in the next sentence, "All of them accomplish
+  their intended purpose relatively well" (checked; it continues "getting you somewhat proficient with
+  the core barbell lifts"). So the piece is a friendly amendment, not an attack. He suggests varying
+  rep schemes (3x8, then 5x5, then 5x3), which he calls periodising ("1. Periodize"), and, at a
+  plateau, deloading a little and building back "with one extra set per exercise" (checked). *(Added
+  2026-09-24 at lesson 7's review, Reviewer F, F7, against `raw/r5/sbs_novice.flat`: quoting only
+  "all basically set up the same way" had turned the piece into a criticism.)* "Junk volume" is from
+  article (b), not (a) or (c). He quotes a 2004 meta-analysis concluding periodized training is
   more effective than non-periodized; **that meta-analysis was not opened here**, and the 2026 ACSM
   overview (R5.26) found periodization "did not consistently impact training outcomes". A lesson should
   not repeat the 2004 claim as settled.
@@ -4579,6 +4745,11 @@ evidence.** It is a commercial reference site with a long professional following
   low-complexity exercises are favored for teaching fundamental movements of resistance training"
   (checked). Its injury claim is hedged: proficiency "may reduce injury risk, as poor technique is
   considered a risk factor for training injuries" (checked). Keep the "may" and "considered".
+  Its Takeaway section draws the line between a technique fault and something else (added
+  2026-09-24 at lesson 6's review, F1, checked against `nsca_ptq_10_2_raw.txt`): "The presence of
+  pain, range of motion deficits, or overt weakness may negatively affect movement performance" and
+  "If underlying pathology is suggested, referral to a physical therapist or physician is
+  indicated." Any lesson that teaches a movement pattern should carry it with a stop-for-pain line.
 
 ### R5.32 ACSM consumer brochure, "Resistance Training for Health and Fitness"
 

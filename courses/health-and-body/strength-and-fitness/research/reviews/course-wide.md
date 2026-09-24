@@ -159,3 +159,42 @@ Findings that belong to the course rather than to any one lesson, from the Stage
 - **OUTLINE.md still lists "individual variation" under lesson 5** (line 25); it lives in lesson 4.
   Correct the outline line (repeats lesson 4's review note; not edited here, since the fix pass may
   touch only review files). *(P22.)*
+
+## From lesson 6's review (2026-09-24)
+
+- **MacDougall 1985: the breath was only "a portion" of the rise** (R4.10, added from the abstract).
+  Pressure also rose in the lifting half and fell in the lowering half. Lesson 2's "holding it under
+  effort drives blood pressure up sharply" should be read against it: holding the breath adds to a
+  rise that lifting to failure produces anyway. Any lesson that uses the study for "don't hold your
+  breath" says so.
+- **Callaghan 2001: compression made the injuries "more frequent and more severe", and the specimens
+  were pig neck segments (C3-C4)** (R4.9, added). Lessons 9 (back pain) and 10 carry both if they
+  mention the lumbar dispute.
+- **AHA 2023: "Machines are likely safer than free weights for these patients"**, scoped to people
+  with musculoskeletal limitations, advanced arthritis, severe osteoporosis, neuropathies or a
+  previous stroke (R4.21, R4.26). It travels with any "machines are safer" claim in lessons 7, 9
+  and 10; lesson 7's "The gym column isn't better than the home column" is about strength and
+  needs no change.
+- **AHA 2023's extended cool-down for people on blood-pressure medicine** (R4.10) belongs in lesson
+  9's hypertension section and lesson 8's cool-down material.
+- **Stop-for-pain line.** Lesson 6 now carries the NSCA Takeaway's pain-and-referral sentences
+  (R5.31) and a labelled stop rule. Any lesson that teaches or prescribes a movement (7, 8, 9)
+  should carry a stop-for-pain line. The NHS how-to page has one verbatim, "Stop the exercise
+  immediately if you feel any pain or become unwell" (checked in `raw/r5/nhs_strength-and-flex-
+  exercise-plan-how-to-videos.txt`), but R5.28 records only "a standard safety note": add the
+  sentence to R5.28 before a lesson quotes it.
+- **Open: the NHS Strength and Flex series has "pull-up" and "wide pull-up" videos that nobody has
+  watched** (Brightcove on nhs.uk). If they use household furniture, they contradict lesson 6's
+  warning about pulling from furniture and lesson 7's "a table that can't tip". Watch them and record
+  what they are in R5.28 before any lesson recommends them; lesson 6's Go deeper now says they
+  weren't watched.
+- **Home pulls:** lesson 6 now says every NSCA pulling progression starts with equipment and points
+  to lesson 7's labelled substitutes (one-arm backpack row, band row). Lesson 7 should keep those
+  labels, and its "keep lesson 6's shoulder-blade cue" still works: lesson 6 now says the cue reads
+  most naturally facing the floor, which a braced one-arm row does.
+- **Quiz keys:** lesson 6 is now 3,2,0,1,2,0. Lesson 3 (2,0,3,1,3,0) and lesson 2 (1,3,0,2,0,3)
+  shared first-four runs with suggested sequences; the validator compares only neighbours, so check
+  the whole course's keys when reordering.
+- **OUTLINE's "~75 min" for lesson 6 is short**: it measures 110, mostly six mandated videos
+  (about 16 minutes, unpriced by the tool) and two 10-minute exercises. Record the exception in
+  OUTLINE's "Lesson length" paragraph.
