@@ -23,7 +23,11 @@ Rewrite these five lines each session. Nothing else goes in this block.
 
 - **Terms 1 and 2 are FINISHED. Term 3's first three courses are published and written**
   (2026-09-24): Nutrition, Strength and Fitness, and Cooking Fundamentals, with every lesson
-  scripted and fact-checked. **First Aid and CPR is next**: research done, outline in progress.
+  scripted and fact-checked. **First Aid and CPR is drafting** (16 lessons, `research/OUTLINE.md`): lessons 1 to 3 are
+  through Stage 4; **lessons 4 and 5 are drafts owing their two reviews and fix pass**, then 6 to 16.
+  The review briefs (Reviewer F, Reviewer P, fix pass) are the same shape as
+  `strength-and-fitness/research/pipeline-briefs.md`. Ten gates were closed in a real browser on
+  2026-09-24 (end of `SOURCES.md`); the publishers' pages open in the in-app browser.
   **The September Gemini cap is spent**: a render of Bible Basics 8 on 2026-09-24 was refused by
   Google ("exceeded its monthly spending cap"), billed nothing. **38 episodes are owed**, about
   $7.60: Bible Basics 8 to 12, Cooking 12, Nutrition 11, Strength 10. They render when John raises
