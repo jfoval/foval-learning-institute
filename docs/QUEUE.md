@@ -151,20 +151,23 @@ Rewrite these five lines each session. Nothing else goes in this block.
   mandatory neutrality audit across the course (lessons 6 to 10 carry the contested material, lesson
   9 the dated 2026 guidelines); publish (course.yaml and the TAXONOMY row together, and an
   audio-debt line of 11); then eleven scripts, fact-checked, no render.
-- **Strength and Fitness is drafting** (T3, second of the term), started 2026-09-24 by a session
-  working alongside the Nutrition one. Stage 1 is done: five parallel researchers, 53,000 words,
-  every quotation script-checked against a downloaded text; most trials read at abstract level
-  because the big publishers refused scripted downloads, and the file says so at each entry.
-  Stage 2 is done: nine lessons, an 18-item test and an eight-week project; the outline's eight
-  decisions include a safety callout on every lesson (now a check in `scripts/build.mjs`) and the
-  course's claim-sort question, "trained whom, for how long, measured on what?".
-  **Stage 3 and 4 in flight** (2026-09-24): lesson 4 split into 4 and 5 (ten lessons); each lesson
-  is drafted by one subagent, reviewed by two fresh ones (F: facts, neutrality, safety; P: depth,
-  pedagogy, cold start, voice) and fixed by a third. Reviews keep finding errors already in
-  `SOURCES.md` summaries, which the fixers correct against the primary first. Sensitive domain (medicine): two fresh-context reviewers per
-  lesson and the neutrality audit before publish. **Boundaries with Nutrition are settled in its
-  outline**: energy balance, exercise and weight (Nutrition 3) and protein (Nutrition 5) are taught
-  there and pointed to here; exercise for depression is Mental Fitness 5.
+- **Strength and Fitness is drafting** (T3, second of the term; `course.yaml` and TAXONOMY both say
+  `drafting`). Stage 1, Stage 2 and the course project are done; ten lessons are drafted (lesson 4
+  was split into 4 and 5 on its first draft). **Lessons 1 to 8 are through Stage 4**: two
+  fresh-context reviewers each (F: facts, neutrality, safety; P: depth, pedagogy, cold start, voice)
+  and a third context for fixes, a review file each, and every error the reviews traced to a
+  `SOURCES.md` summary corrected there first against the primary. **Lesson 9 has both reviews'
+  findings in `research/reviews/09-training-across-a-life.md` and no fixes applied yet. Lesson 10 is
+  a draft with no review.** The drafting, review and fix briefs are in `research/pipeline-briefs.md`;
+  standing notes from eight reviews are in `research/reviews/course-wide.md`.
+  **Next, in order:** apply lesson 9's fixes in a fresh context; review lesson 10 (F and P) and fix
+  it; write `assessments/final-test.md` (20 items, OUTLINE blueprint) and review it with the
+  project; the course-wide neutrality audit (mandatory, sensitive domain); then publish (status and
+  TAXONOMY row together, `curriculum/audio-debt.yaml` opened at 10), then ten scripts. Lessons
+  measure 90 to 130 minutes; OUTLINE's length note records why, and the reviews judged it earned.
+  The session's raw downloads did not survive; every quotation the lessons use is in `SOURCES.md`.
+  Boundaries: energy balance and weight (Nutrition 3), protein (Nutrition 5) and exercise for
+  depression (Mental Fitness 5) are taught there and pointed to here.
 
 - **Sleep is PUBLISHED**, 2026-09-23: eight lessons, both assessments, eight Stage 4 reviews applied
   and the mandatory neutrality audit passed (entry in `research/reviews/course-wide.md`). It owes
