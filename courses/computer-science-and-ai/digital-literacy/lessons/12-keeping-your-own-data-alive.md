@@ -1,6 +1,7 @@
 ---
 title: Keeping your own data alive
 minutes: 145
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/computer-science-and-ai/digital-literacy/12-keeping-your-own-data-alive.mp3
 objectives:
   - State the property that makes a copy a backup, and say which of your own copies has it and which do not
   - Explain why a sync client cannot tell a person saving a file from a program damaging one, having watched it happen
