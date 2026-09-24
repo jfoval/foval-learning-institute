@@ -3869,6 +3869,11 @@ Longer controlled-feeding trials in which the UPF and minimally processed diets 
   - New, verbatim: "Meat can be part of a healthy diet and provides nutrients that are important for good health. However, many national dietary guidelines recommend limiting processed meat and red meat because higher intakes are linked to an increased risk of heart disease, type 2 diabetes and some cancers."
   - Verbatim: "Group 2A is the second highest hazard classification, meaning there is evidence of carcinogenicity but that it is not definitive."
 - Implication: a WHO guideline on animal-source foods is in development and may land during the life of the course. Flag in QUEUE-type notes to recheck.
+- *Added 2026-09-24 at lesson 08's Stage 4:* the live page re-fetched with curl the same day and converted to text by script. **Read: the whole page.** It records the question each new sentence answers, which the bullets above left out:
+  - Question, verbatim: "What about people who have had colon cancer? Should they stop eating red meat?" Its whole answer is the "Meat can be part of a healthy diet ..." passage quoted above.
+  - Question, verbatim: "How much red or processed meat is it safe to eat?" Its whole answer is the "The risk increases with the amount ..." passage quoted above.
+  - Verbatim: "IARC is a research organization that evaluates the evidence on the causes of cancer but does not make health recommendations as such."
+  - Note: nobody here read an earlier version of this WHO page. "No longer contains" above compares it with the 2015 IARC Q&A PDF, a different document.
 
 #### 4.2 NutriRECS 2019 (Johnston BC et al., Annals of Internal Medicine)
 
@@ -3915,6 +3920,11 @@ Longer controlled-feeding trials in which the UPF and minimally processed diets 
 - Read: abstract via Europe PMC.
 - Verbatim: "These recommendations are not justified, in large part because of the flawed methodologies used to review and grade nutritional evidence."
 - Verbatim: "Applying NutriGRADE, the evidence on the positive association between red and processed meats and type 2 diabetes was rated to be of "high quality," while the evidence on the association between red and processed meats and mortality was rated to be of "moderate quality." Another important limitation is that inadequate attention was paid to what might be replacing red meat, be it plant-based proteins, refined carbohydrates, or other foods."
+- *Added 2026-09-24 at lesson 08's Stage 4:* full text fetched with curl from Europe PMC (fullTextXML, PMC6971786) and converted to text by script. **Read: the NutriGRADE section, Table 1, the "Duality of Interest" statement and references 5, 33 and 34.** The rest of the full text was not read.
+  - Who applied NutriGRADE, verbatim: "Applying the NutriGRADE criteria to recent systematic reviews, the evidence for the association between red and processed meats and development of T2D was rated to be of “high quality” (5), while that for the association between red and processed meats and mortality was rated to be of “moderate quality” (34)." Reference 5: Neuenschwander M, Ballon A, Weber KS, et al., umbrella review, BMJ 2019;366:l2368. Reference 34: Schwingshackl L, Schwedhelm C, Hoffmann G, et al., "Food groups and risk of all-cause mortality", Am J Clin Nutr 2017;105:1462-1473. So the ratings are those two groups' work, which Qian and colleagues cite; they did not re-rate the evidence themselves.
+  - Table 1, GRADE for observational studies, verbatim: "Initially rated as low, upgrade or downgrade per above criteria". GRADE's "Criteria for upgrading", verbatim: "1) Large magnitude of effect (+1 for RR >2 or <0.5 or +2 for RR >5 or <0.2, in situations with an effect); 2) Dose-response gradient; 3) Adjustment for any potential residual confounders would only strengthen the observed association".
+  - Their argument, verbatim: "The strength of observational evidence should have been upgraded when there is supporting evidence from RCTs on relevant risk factors or biological mechanisms or if observational studies satisfy multiple Bradford Hill criteria (e.g., dose-response, consistency across studies)".
+  - Duality of Interest, verbatim: "M.C.R. reports research support through Oregon Health & Science University from AstraZeneca, Eli Lilly, and Novo Nordisk and honoraria for consulting from Adocia, AstraZeneca, Dance, Eli Lilly, GlaxoSmithKline, Novo Nordisk, Sanofi, and Theracos." And: "F.B.H. reports receiving research support from the California Walnut Commission, honoraria for lectures from Metagenics and Standard Process, and honoraria from Diet Quality Photo Navigation, outside the submitted work."
 
 **The undisclosed-conflict controversy**
 
