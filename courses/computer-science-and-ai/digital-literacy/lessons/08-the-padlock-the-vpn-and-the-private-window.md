@@ -1,6 +1,7 @@
 ---
 title: The padlock, the VPN and the private window
 minutes: 145
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/computer-science-and-ai/digital-literacy/08-the-padlock-the-vpn-and-the-private-window.mp3
 objectives:
   - Say exactly what the padlock in the address bar certifies, what it has never certified, and why that makes it useless as a safety signal
   - Place each of the three tools on lesson 7's path, saying which party it changes something for and which parties it leaves untouched
