@@ -2195,10 +2195,11 @@ copied from that text, direct.*
 - **Samin Nosrat, NPR *Fresh Air* transcript** (Part A 2.1), https://www.npr.org/transcripts/672904397 ,
   re-read in full, direct. Part A 2.1's quotations match. Additional passages:
   - Tomato: "once you sprinkle a few crystals of salt on a slice of tomato, some of the juices start to come out, you know? Osmosis starts. And a lot of the flavor, aromatic compounds in vegetables are inside those watery cells. And so they come to the top. They're more available for you to breathe in." And: "the salt really balances the acid in the tomato and the sweetness in the tomato and just makes it more tomato-y (ph)."
+  - "And that's really true for, you know, certainly every vegetable and I believe for meat, too." (after the tomato)
   - "salt is the first thing I sort of just instinctively taste for."
   - Salt brands, in full: "all salts are not created equal. So if I am using Diamond Crystal at home and I say one teaspoon but you have, you know, just a box of iodized table salt, what you use will almost be equivalent to twice as much." She adds it matters little for a pot of water, "But, you know, if you're making chocolate chip cookies and you use twice as much salt, it could be bad news." Then: "So I think it's really important more than anything to be familiar with your own salt and to really taste as you go so you start to learn what one pinch or one spoonful will do to a pot of food." She calls Diamond Crystal "really the least salty of all the salts".
   - **The line about salt's impact is the interviewer's, not hers.** Sam Briger says: "You say that salt has the greatest impact on flavor than any other ingredient." Nosrat's reply does not repeat it. A lesson may attribute it only as the interviewer's summary of her book.
-  - Fat, in full: "So while salt is all about enhancing flavor, fat is mostly about texture. But it's also this amazing sort of transporter of flavor. It's a carrier." The garlic demonstration: a clove simmered in water and a clove sizzled in olive oil, cloves removed; the water "it'll probably taste pretty much just like water. But if you taste the oil, it'll taste like this amazing perfume." Also: "So to make the thing taste of the place, start with the fat of the place."
+  - Fat, in full: "So while salt is all about enhancing flavor, fat is mostly about texture. But it's also this amazing sort of transporter of flavor. It's a carrier." The garlic demonstration: a clove simmered in water and a clove sizzled in olive oil, cloves removed; the water "it'll probably taste pretty much just like water. But if you taste the oil, it'll taste like this amazing perfume." Then: "that's what fat does for so many of the aromatic compounds and flavors in our cooking, is it distributes flavor. So that's why we start - you know, in a soup or stew, you put oil in the pan. And you put your onions in there. And if you're going to add a bay leaf or some coriander seed or whatever, you throw that in at the beginning so it can sort of work its way into that oil and then penetrate your dish fully." Also: "So to make the thing taste of the place, start with the fat of the place."
   - Acid: lemonade "just made of sugar, water and lemons"; too sugary is "kind of cloying in your throat. So you need to increase that acid to create that tart contrast." And: "Anything tart is acid". She names Mexican salsas, cremas, cheeses, guacamole and "a wedge of lime that comes with your fish taco", and says her Iranian family squeezes "a sour orange over almost everything or lime".
   - She explains she avoids iodised salt because she can taste the iodine; that is a health-adjacent claim (iodine intake) and is left out of lessons, per the Nutrition boundary.
 - **FDA, "Questions and Answers on Monosodium glutamate (MSG)"** (Part C 5), direct; "Content
@@ -2214,6 +2215,7 @@ copied from that text, direct.*
   - Summary: glutamate "in its free form has been shown to have a flavour enhancing effect." The introduction says glutamate "exists both as free glutamate and bound with other amino acids into protein". This is the source for free against bound.
   - Occurrence: "protein-rich foods such as breast milk, cheese and meat, contain large amounts of bound glutamate, while most vegetables contain relatively low amounts. However, despite their lower protein contents, vegetables tend to contain proportionally higher levels of free glutamate, especially peas, tomatoes, and potatoes."
   - "The optimal palatability concentration for MSG is between 0.2 – 0.8% and its use tends to be self-limiting as over-use decreases palatability." (The report spells umami "unami" throughout; quote it as printed or do not quote it.)
+  - Introduction: free glutamate "is also present in relatively high concentrations is some foods such as tomatoes, mushrooms, peas and certain cheeses" (the report's typo "is some" for "in some").
   - UK intake: "an average intake of 590mg/day, with extreme users (97.5th percentile consumers) consuming 2330mg/day (Rhodes et al 1991)."
   - The fuller summary: "ingestion of large amounts (≥3g) of MSG in the absence of food may be responsible for provoking symptoms similar to CRS in a small subset of individuals. These symptoms, although unpleasant, are neither persistent nor serious." And it names an open question in its own words: "an important question that remains unanswered by the scientific literature is what effect consumption with food would have on the incidence and severity of symptoms."
   - "This highlights the need for individuals with suspected MSG sensitivity to undergo appropriate clinical testing."
@@ -2229,6 +2231,8 @@ copied from that text, direct.*
   direct (structured data datePublished 2023-03-02). The [T] quotations match. Corrections and additions:
   - Kwok's three suspects, per Kean: "salt, cooking wine, or perhaps MSG". The letter was in April 1968; "A month later, the NEJM printed 10 responses from other doctors."
   - "Puzzlingly, though, no two letter writers listed the same symptoms."
+  - "Newspapers, however, didn’t get the joke and began running breathless stories about so-called Chinese Restaurant Syndrome." Kean calls the 1968 to 1969 studies that followed "dubious" and lists their flaws (tiny samples, no blinding, MSG on an empty stomach).
+  - Olney's critics, per Kean: the dose was "the equivalent of an adult human eating a whole pound of MSG in one sitting", and "people consumed around 0.01 milligrams of MSG per gram of body weight daily, compared to Olney’s 7 milligrams per gram." (Kean also gives US intake as about 500 mg a day; the FDA's 0.55 g is the figure lessons use.)
   - Olney's first experiment used "up to 4 milligrams of MSG per gram of body weight"; the "up to 7 milligrams per gram of body weight" was the second experiment, in 20 mice.
   - On the name and its stigma, Kean's own words: "a “foreign” chemical like MSG became an easy target" and "Only when MSG was linked to Chinese cuisine did Americans panic." He notes the same MSG had been in American "canned soups and TV dinners" for decades.
   - Kean's piece is a science writer's argued history, with openly scornful language ("hysteria", "smirking editorial"); use it for the sequence of events and attribute its judgements to him. **The 2018 prank claim is not in this article's text as fetched**, so Part C 5's note about it cannot be confirmed here either; leave it out.
@@ -2261,3 +2265,131 @@ copied from that text, direct.*
   - "With the high standards of food hygiene in the UK, the chances of getting food-borne botulism from food bought in this country are low. Preserving your own foods at home is riskier."
   - **The FSA gives no day limit for homemade garlic oil.** Its general advice is "chilling your food below 5°C". So the four-day figure is the US research-based rule (NCHFP, UGA), and a lesson says the UK page read gives no figure.
   - **For lesson 4's gate G3, not lesson 3's:** the same page says use-by dates matter "even if it looks and smells fine – eating food after this date could put your health at risk as you can’t smell or taste bacteria which could make you ill". A regulator's statement, in general terms; the lesson 4 drafter should judge whether it closes G3.
+
+## Stage 4 note, lesson 2
+
+*Added by the lesson 2 reviewer, 2026-09-24. Read directly (curl, or PubMed's E-utilities for the
+abstracts); quotations copied from the extracted text.*
+
+- **USDA FSIS, "High Altitude Cooking"**, https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/high-altitude-cooking ,
+  "Last Updated: Aug 13, 2024", read through Wayback 20260923031306 (live site blocks automated
+  readers). Read: full.
+  - "At sea level, water boils at 212 °F. With each 500-feet increase in elevation, the boiling point of water is lowered by just under 1 °F. At 7,500 feet, for example, water boils at about 198 °F."
+  - "Because water boils at a lower temperature at higher elevations, foods that are prepared by boiling or simmering will cook at a lower temperature, and it will take longer to cook."
+  - Why it matters: the thermometer page's "at least 2 degrees F and perhaps lower by as much as 5 degrees F" (B 1.9) understates the drop above about 2,500 feet. Lesson 2's altitude quiz item originally set 207°F at 1,500 m, where this rule predicts about 203°F; it now sets 750 m.
+- **FSIS "Food Thermometers"** (B 1.9), Wayback 20260823200227, rechecked. The asterisk after
+  "165 degrees F*" has no footnote anywhere on the extracted page, so dropping it inside the lesson's
+  quotation marks loses nothing. Calibration: "If not, adjust according to manufacturer instructions
+  (some thermometers have a calibration nut or dial you can adjust)." Boiling method adds: "For true
+  accuracy, distilled water must be used." The ice-water quotation in lesson 2, including "and check
+  the reading without removing the stem from the water", matches the page.
+- **FSIS "Deep Fat Frying"** (D 2a), same capture as the gate closure: its "Approximate Cooking
+  Times" table gives oil temperatures of 320 °F (fish fillets, shrimp), 350 °F (chicken fingers)
+  and 375 °F (chicken pieces, turkey), so about 350 °F is a fair middle figure for frying heat.
+- **FDA "Microwave Ovens"** (C 10h), direct. "Microwaves cause water molecules in food to vibrate,
+  producing heat that cooks the food." On heating water, the page also tells users to "closely
+  follow the precautions and recommendations provided in the microwave oven instruction manuals,
+  specifically regarding heating times" (fetch tool; consistent with the gate closure's direct read).
+- **Kashtan et al. 2024** (D 3c), abstract, PubMed E-utilities. Authors at Stanford (Earth System
+  Science; Woods and Precourt institutes), PSE Healthy Energy, the Central California Asthma
+  Collaborative and Harvard's Chan School. Method: "We estimate NO2 exposure and health consequences
+  using emissions and concentration measurements from >100 homes, a room-specific indoor air quality
+  model, epidemiological risk parameters, and statistical sampling of housing characteristics and
+  occupant behavior." The claim in full: "This increased exposure likely causes ~50,000 cases of
+  current pediatric asthma from long-term NO2 exposure alone." So the 4.0 ppb is an estimate built
+  on measurements, not a measured exposure, and the 50,000 applies earlier epidemiological risk
+  figures, which is the same kind of calculation as Gruenwald's.
+- **Kashtan et al. 2023** (D 3c), abstract, PubMed E-utilities. "Across 87 homes in California and
+  Colorado"; the benzene quotation matches. "The authors declare no competing financial interest."
+- **Essex County Fire and Rescue Service, "Firefighters' plea after man injured in chip pan fire"**,
+  31 March 2026, https://www.essex-fire.gov.uk/incidents/firefighters-plea-after-man-injured-chip-pan-fire-2026-03-31-14-25 .
+  Read: full, direct. Station Manager Steve Byrne: "Never use a damp or wet tea towel, as this is
+  outdated advice." and "If it is safe to do so, turn off the heat. If not, get out, stay out and
+  call 999." An earlier Essex release (11 July 2024, fetch tool only) carries the same towel line.
+  This is a UK fire service saying the towel advice is outdated in its own words; the 2008
+  withdrawal date remains snippet-only and unprinted.
+- **Ashley Dummer, "Safeguard Your Family from Scald Burns"**, Indiana University School of Medicine
+  pediatrics blog, 5 October 2021, https://medicine.iu.edu/blogs/pediatrics/safeguard-your-family-from-scald-burns .
+  Read: full, direct. "Be aware of steam! When removing the lids from hot foods, lift the lid away
+  from your arms and face." A university medical school's public safety page, not research.
+
+## Gate closures, lesson 4
+
+*Stage 3 top-up for lesson 4, 2026-09-24. Every page below was downloaded with curl and its text
+extracted locally (GOV.UK pages through the Content API; FSIS and CDC through Internet Archive
+captures, because the live sites block automated readers; the FDA Food Code 2026 PDF with
+pdftotext); quotations are copied from that text, direct. Gates G1, G2, G3 and G4 are closed.*
+
+**G3, smell and pathogens: closed** with a US regulator page that says it in so many words, and a
+UK one.
+
+- **USDA FSIS, "Refrigeration and Food Safety"**, https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/refrigeration ,
+  "Last Updated: Mar 23, 2015". Read: full, via Wayback capture 20260923031306 (live page 403).
+  - "There are two completely different families of bacteria: pathogenic bacteria, the kind that cause foodborne illness, and spoilage bacteria, the kind of bacteria that cause foods to deteriorate and develop unpleasant odors, tastes, and textures."
+  - "Pathogenic bacteria can grow rapidly in the "Danger Zone," the temperature range between 40 and 140 °F, but they do not generally affect the taste, smell, or appearance of a food. In other words, one cannot tell that a pathogen is present."
+  - "Spoilage bacteria can grow at low temperatures, such as in the refrigerator. Eventually they cause food to develop off or bad tastes and smells. Most people would not choose to eat spoiled food, but if they did, they probably would not get sick."
+  - "It comes down to an issue of quality versus safety: Food that has been left too long on the counter may be dangerous to eat, but could look fine. Food that has been stored too long in the refrigerator or freezer may be of lessened quality, but most likely would not make anyone sick. (However, some bacteria such as Listeria monocytogenes thrive at cold temperatures, and if present, will multiply in the refrigerator over time and could cause illness.)"
+  - "Hot food can be placed directly in the refrigerator or it can be rapidly chilled in an ice or cold water bath before refrigerating." And: "A large pot of food like soup or stew should be divided into small portions and put in shallow containers before being refrigerated."
+  - "A general rule of thumb for refrigerator storage for cooked leftovers is 4 days; raw poultry and ground meats, 1 to 2 days."
+  - "Raw meat, poultry, and seafood should be in a sealed container or wrapped securely to prevent raw juices from contaminating other foods."
+- **FSA, "Listeria"** (below, G4) says the same for the UK: "Foods after their use-by date may look and smell fine, but they could be unsafe and make you ill. You cannot see, smell or taste bacteria that causes foodborne illness". The FSA botulism page's sentence (Gate closures, lesson 3) agrees.
+
+**G4, higher-risk foods (Listeria): closed** with CDC for the US and the NHS and FSA for the UK.
+
+- **CDC, "Preventing Listeria Infection"**, https://www.cdc.gov/listeria/prevention/index.html ,
+  dated on the page January 31, 2025. Read: full, via Wayback capture 20260821034028.
+  - "Listeria infection is rare. An estimated 1,600 people in the U.S. get sick from Listeria each year." (Part B 4.2's risk-factors page, reviewed later, gives 1,250; the two CDC pages differ, so a lesson prints neither as a count.)
+  - Groups: "Women who are pregnant", "Newborns", "People who are 65 years or older", "People who have a weakened immune system".
+  - "If you are in any of these groups, choose safer foods to protect your health or your pregnancy."
+  - The "Avoid" column, in order: "Any unheated queso fresco-type cheeses"; "Any type of cheese when made with (raw) unpasteurized milk"; "Unheated deli meat, cold cuts, hot dogs, and fermented or dry sausages"; "Premade deli salads, such as coleslaw and potato, tuna, or chicken salad"; "Refrigerated pâté or meat spreads"; "Refrigerated smoked fish"; "Raw or lightly cooked sprouts"; "Cut melon left out for more than 2 hours (1 hour if it’s exposed to temperatures hotter than 90°F, such as a picnic or hot car)" and "Cut melon in refrigerator for more than a week"; "Raw (unpasteurized) milk, yogurt, and ice cream"; raw enoki mushrooms.
+  - The "Choose these instead" column includes "Deli meat, cold cuts, hot dogs, and fermented or dry sausages reheated to 165°F or until steaming hot", hard cheeses and pasteurised soft cheeses such as "feta, and mozzarella", "Smoked fish cooked in a casserole or other cooked dishes", "Sprouts cooked until steaming hot".
+- **CDC, "How Listeria Spreads"**, https://www.cdc.gov/listeria/causes/index.html , dated August 12, 2024. Read: full, via Wayback capture 20260911155225. "The germs even can grow in food kept in the refrigerator."
+- **NHS, "Foods to avoid in pregnancy"**, https://www.nhs.uk/pregnancy/keeping-well/foods-to-avoid/ , "Page last reviewed: 15 June 2026". Read: full, direct.
+  - Soft cheeses: "pasteurised or unpasteurised mould-ripened soft cheeses with a white coating on the outside, such as brie, camembert and chèvre – these must be thoroughly cooked"; soft blue-veined cheeses the same; "any cheese that's been cooked until steaming hot, including soft or blue cheese" is safe.
+  - Meat: "cold cured meats such as salami, pepperoni, chorizo and prosciutto – should be cooked until steaming hot before eating"; "any processed, cold pre-cooked meats, such as ham or chicken – keep chilled and eat before the use-by date"; "meat pâté – keep chilled and eat before the use-by date"; avoid "raw or undercooked meat", "liver and liver products" and game meats.
+  - Fish: "cold-smoked and cured fish, like smoked salmon – these must be cooked until steaming hot"; avoid "raw fish and raw shellfish".
+  - Eggs: British Lion or Laid in Britain hen eggs "can be eaten raw, partially cooked (runny yolk), or well-cooked"; other hen eggs "should only be eaten well-cooked".
+  - "Pre-packaged sandwiches and salads" containing cheese, meat, egg or fish: "keep them chilled and eat them before the use-by date".
+  - "Listeriosis can cause miscarriage or stillbirth, or make your newborn baby very unwell." (The page varies the last words between sections.)
+- **FSA, "Listeria"**, https://www.gov.uk/government/publications/listeria/listeria . Content API: public_updated_at 8 January 2018; first_published_at 25 June 2026 (the GOV.UK move). Read: full, direct.
+  - "Cases of listeriosis are rare, however, they can be a particular concern because the bacteria are able to grow at low temperatures. In healthy adults and children listeria usually causes few or no symptoms."
+  - Higher risk: "pregnant women and their unborn babies"; "those with weakened immune systems, including people with certain underlying conditions (such as cancer, diabetes, liver and kidney disease) or anyone taking medications which can weaken the immune system"; "older people have an increased risk compared with the general population, and this risk increases with age".
+  - "Although listeria is widespread in the environment and can contaminate a wide range of foods, it is more common in ready-to-eat foods." Examples: cold pre-cooked meats, deli meats, pâté, "smoked and cured fish – including sushi", cooked shellfish, soft mould-ripened cheeses, raw milk and its products, "pre-prepared sandwiches and salads", "pre-cut fruits (for example, pre-packed melon slices)".
+  - At home: chill "below 5°C"; eat ready-to-eat foods "within 4 hours or within 2 hours on a very warm day" of taking them out; "If there are no instructions, use opened foods within two days."; "cook or reheat foods (including frozen vegetables) until they are steaming hot right through".
+  - Smoked fish: pregnant women and people with weakened immunity "are advised to avoid eating ready-to-eat cold-smoked or cured fish products, such as smoked salmon or gravlax." Older people "should also be aware of the risk" and consider steps. "cooking will kill any listeria that may be present".
+- **For the callout (decision 3):** the three sources agree on the groups (pregnancy, older people, weakened immunity; CDC adds newborns) and on the principle (chilled ready-to-eat foods carry the Listeria risk; heating until steaming hot removes it). They differ in detail: CDC says to reheat deli meat; the NHS says cold cured meats must be cooked but pre-cooked ham may be eaten chilled within its date. So the callout's added clause points to "your country's list" rather than printing one rule.
+
+**G1, allergens and cross-contact: closed** for what lesson 4 needs (naming them, cross-contact,
+whether cooking removes them, and cooking for a guest). **Allergy management itself stays out of
+scope**, as the outline says; the course names the hazard, and the project (lesson 12) asks how it
+was handled.
+
+- **FDA, "Food Allergies: What You Need to Know"**, https://www.fda.gov/food/buy-store-serve-safe-food/food-allergies-what-you-need-know , "Content current as of: 08/16/2024". Read: full, direct.
+  - FALCPA 2004 "identified eight foods as major food allergens: milk, eggs, fish, Crustacean shellfish, tree nuts, peanuts, wheat, and soybeans." The FASTER Act (signed 23 April 2021) made sesame "the 9th major food allergen recognized by the United States", effective 1 January 2023.
+  - "there is no cure for food allergies."
+  - "It is important to understand that a mild allergic reaction does not always mean the allergy is mild. Any allergic reaction has potential to lead to anaphylaxis."
+  - Labelling applies to FDA-regulated foods, which "include all foods except poultry, most meats, certain egg products, and most alcoholic beverages".
+- **FDA Food Code 2026** (Part B 2), PDF text searched for allergen. Definition: "Major food allergen" means milk, egg, fish, crustacean shellfish, tree nuts, wheat, peanuts, soybeans and sesame (§ 1-201.10). Annex 3, on § 4-602.11: "Cross-contact occurs when a major food allergen, which is not an intentional ingredient in a food, is unintentionally introduced into that food." (The same annex paragraph, written earlier, still says "all eight (8) major food allergens".)
+- **FSA, "Food allergy and intolerance advice for consumers"**, https://www.gov.uk/government/publications/food-allergy-and-intolerance-advice-for-consumers , public_updated_at 7 August 2026. Read: full, direct.
+  - The 14: "celery", "cereals containing gluten (such as wheat, rye, barley and oats)", "crustaceans (such as prawns, crabs and lobsters)", "eggs", "fish", "lupin", "milk", "molluscs (such as mussels and oysters)", "mustard", "peanuts", "sesame", "soybeans", "sulphur dioxide and sulphites (at a concentration of more than ten parts per million)", "tree nuts (such as almonds, hazelnuts, walnuts, brazil nuts, cashews, pecans, pistachios and macadamia nuts)".
+  - Cooking at home: "If someone is allergic to something, and you have served them a food they can’t eat, just taking it off their plate is not enough. This is because an extremely small amount can be enough to cause an allergic reaction."
+  - Its list: "asking your guest (or a child’s parents or carers) what they can and can’t eat"; "making sure you keep allergens separate from other foods"; "checking the ingredients list on prepacked foods like sauces, dressings, and desserts for allergens"; "keeping a note of the ingredients or the food packet itself used in the dish so you can answer any questions your guests may have about the food"; "avoiding adding extra toppings or decorations to dishes".
+  - "It’s important to note that heating does not remove the allergenic potential of proteins in food unless they are completely hydrolysed, and heating temperatures in the kitchen will not do this."
+  - "Clean work surfaces and equipment thoroughly to remove traces of food you may have cooked or prepared before."
+  - On vegan labels: a product labelled vegan may still carry milk, egg, crustacean, fish or mollusc by cross-contamination; "free-from" labels are the guarantee.
+- **Where G1 belongs in the course:** a short section in lesson 4 (the lists, cross-contact, heat does not remove it, the FSA's steps for a guest) and step 3 of the project in lesson 12. The UK says "cross-contamination" for allergens; the US regulatory word is "cross-contact", kept separate from bacterial cross-contamination.
+
+**G2, washing chicken in practitioners' own words: closed** with one first-person account by a
+cook of Belizean and Nigerian family, which reports two other practitioners in their own words.
+
+- **Carolyn Desalu, "Washing meat is cultural, yet mandatory"**, first published on Food52 and republished by Salon, 7 August 2022, https://www.salon.com/2022/08/07/washing-meat-is-cultural-yet-mandatory_partner/ . Read: full, direct (the Salon copy; the Food52 original was not opened).
+  - "In my family, washing meat is the start to well-prepared food and something my parents, sister, cousins, and so forth do. To us, it’s a ritual, a mandate. We care equally about cleaning, eating, and communing."
+  - "My process of washing meat starts with a running water rinse, then soaking in a large bowl of cold water plus lemon juice and/or vinegar for a few minutes to “wash” away the germs. I inherited washing meat from my Belizean-Nigerian family."
+  - Her cousin Bobbi, 83, on the Belize City market about half a century ago: "you saw someone handling your meat with their bare hands. That was more than enough reason to wash it at home." The market later gave way to supermarkets with pre-packaged meat, "Yet, it never changed her stance on meat washing." Bobbi rubs "half or quartered lemons on each piece", seasons, then cleans sink and counters "with the leftover lemons to avoid cross contamination."
+  - Desalu buys vacuum-sealed supermarket chicken, "and yet, I still wash each piece."
+  - Julius Jackson, a St. Thomas (US Virgin Islands) chef and cookbook author, by phone: "Everyone I saw in the kitchen, including my mother, cleaned their meat before seasoning. My mother used acid — warm water and lemons or vinegar — to wash meat. This was especially true for chicken." (The em dash is his quoted speech as printed.) His method: "Use a really large bowl because it prevents splashing and try to avoid washing in your sink." And "Always have vinegar because it doesn’t go bad. It also cleans and sanitizes surfaces if you don’t have bleach". In his cookbook the washing step is not written out because "this pre-preparation stage is expected" (Desalu's words).
+  - Her Nigerian father "washes every piece of meat three times with a lemon-water mixture and after, cleanses it again with just lemons, then adds seasonings" (Desalu's report).
+  - Against: Jamila Robinson (Philadelphia Inquirer) is "totally anti-washing" and says "It’s important not to castigate cultural practices around food but also raise awareness about food safety." Benjamin Chapman (NC State): "Washing meat does not reduce the risk; it increases the chance of pathogens." And: "Bleach-based solutions are the safest for cleaning. We don’t have good data that proves vinegar kills what’s in your sink."
+  - Her conclusion: she will keep washing and teach her son, and "update my family tradition by sanitizing with a bleach-based solution instead of vinegar because tradition can change a little."
+  - Limits: one writer's family and two practitioners she quotes; not a survey. It names Belize, Nigeria and the US Virgin Islands and no other tradition. A lesson may describe the practice in these words and must not generalise it to a region beyond what Henley 2012 and this piece say.
+- **Drexel News, 30 August 2022** (Part D 3e), rechecked direct against the page: the quotations match. The page also says: "Poultry may have a coating of water and protein: this gets cooked off, or you can remove it with a clean paper towel and then wash your hands."
