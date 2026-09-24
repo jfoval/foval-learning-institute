@@ -3655,3 +3655,16 @@ extraction). The lines below add to "Gate closures, lesson 12".*
 - **FSA, "Cooking your food"**, re-read. The recipe sentence sits directly under the table of "Cooking temperatures and times" (70°C for 2 minutes and its equivalents). The page's first top tip is to "always follow cooking temperature guidelines according to the recipe or packet instructions carefully", and its second is to "check that food is cooked completely before serving - use visual cues, such as making sure the food is steaming hot". So the FSA does literally advise following a recipe's times and temperatures; reading that as a safety instruction rather than a claim that recipe times travel is a reading, and a lesson says so.
 - **foodsafety.gov, "Cold Food Storage Chart"** (date last reviewed 19 September 2023), Wayback 2026 capture. "Soups and stews, Vegetable or meat added": 3 to 4 days in the fridge, 2 to 3 months frozen. "Leftovers, Cooked meat or poultry": 3 to 4 days, 2 to 6 months. It agrees with FSIS on fridge days.
 - **FSIS, "The Big Thaw"**: the fridge-thawing figure, a pound of ground meat or boneless chicken breasts needing "a full day", is the only thawing time any source in this file gives for a household-sized portion.
+
+
+## Stage 4 note, lesson 2: the American Red Cross burns page changed (2026-09-24)
+
+Found by First Aid and CPR's Stage 1 research, which read the live page directly on 2026-09-24.
+The live American Red Cross burns page (redcross.org/take-a-class/resources/learn-first-aid/burns)
+now says: "Place the burn site under clean, cool, running water for 5-20 minutes." [V] Its FAQ
+says: "Should I use ice to cool the burn? No. Use water. Ice may further damage the skin." [V]
+The January 2026 capture (Wayback 20260117094816), which lesson 2 had quoted, said "for 20
+minutes" and "Never use ice, ice water, or a freezing compress to cool a burn."; both lines have
+since been replaced. The 2024 AHA and American Red Cross first aid guideline says "It may be
+reasonable to cool thermal burns for 5 to 20 minutes." Lesson 2 now quotes the live page and
+names the change.

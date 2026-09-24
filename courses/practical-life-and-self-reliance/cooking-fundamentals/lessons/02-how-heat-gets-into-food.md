@@ -104,10 +104,11 @@ quiz:
       - Leave the ring on to protect the skin, and then cover the burn at once with a sticking plaster
     answer: 0
     explain: >-
-      The NHS and the Red Cross both say 20 minutes under cool running water, as soon as possible,
-      and the NHS says to remove clothing or jewellery near the burn unless it's stuck to it. The
-      Red Cross says never use ice, which can damage the skin further. Both say
-      no butter, which the Red Cross says can seal the heat in. The NHS says not to use
+      Cool running water is the first response on both sides of the Atlantic: the NHS says 20
+      minutes, as soon as possible, and the American Red Cross now says 5 to 20. The NHS says to
+      remove clothing or jewellery near the burn unless it's stuck to it. The Red Cross answers
+      "Should I use ice?" with no, because ice may further damage the skin, so water comes first.
+      Both say no butter or grease, which can seal the heat in, and the NHS says not to use
       plasters or sticky dressings on a burn.
 ---
 
@@ -294,7 +295,7 @@ A scald is a burn from hot liquid or steam. The first response is the same for b
 
 The [NHS](https://www.nhs.uk/conditions/burns-and-scalds/): "Hold the burn or scald under cool running water for 20 minutes. Do this as soon as possible, within 3 hours of it happening."[15] It says to take off clothing or jewellery near the burn, but not anything stuck to it. When the burn has cooled, "lay cling film over it if you can. Do not wrap the cling film around it."[15] And the don'ts: "do not put any creams, oils or butter on burns or scalds", and do not use plasters or burst blisters.[15]
 
-The Red Cross says the same 20 minutes of "clean, cool, running water" and adds: "Never use ice, ice water, or a freezing compress to cool a burn."[16] It explains the butter myth, too: "Using a greasy substance can seal in the heat and make the burn worse."[16]
+The American Red Cross gives a range rather than one figure. Its burns page, read in September 2026, says: "Place the burn site under clean, cool, running water for 5-20 minutes."[16] Its answer to "Should I use ice to cool the burn?" is "No. Use water. Ice may further damage the skin."[16] (An earlier version of the same page, captured in January 2026, said 20 minutes, as the NHS does. The advice changed; the water didn't.) The same page explained the butter myth: "Using a greasy substance can seal in the heat and make the burn worse."[16] How long to cool is a real difference between the two countries' advice, and First Aid and CPR, later this term, takes it up.
 
 When to get help. The NHS says to call 999 or go to A&E for a burn or scald that is very large or deep, is on the face, genitals or bottom, or was caused by a chemical or electricity.[15] The Red Cross list for going to hospital includes a burned child, a burn that blisters, and a burn on the hands, feet, joints, face, neck or genitals.[16] Treating a burn beyond that first response belongs to First Aid and CPR, later this term.
 
@@ -377,7 +378,7 @@ Lesson 1 asked you to cut evenly. This lesson gives the reason: heat comes in fr
 13. US Consumer Product Safety Commission, "Recipe for Safer Cooking", read through the Internet Archive's 17 September 2026 capture <!-- SOURCES D2a; Gate closures, lesson 2 -->. **Read level: full, rechecked.** Supports: calling the fire department, the lid, never carrying the pan, never water or flour, the oven door.
 14. London Fire Brigade, "Pan fires: What to do if a pan catches fire?", https://www.london-fire.gov.uk/safety/the-home/cooking/pan-fires/ <!-- SOURCES D2a -->. **Read level: full.** Supports: the quoted advice and "around 60%" of home fires starting in the kitchen (from a linked page's teaser). The date the damp towel advice was first withdrawn rests on reports read only as search snippets, which is why no date is given; the towel quotation is note 26.
 15. NHS, "Burns and scalds", last reviewed 31 March 2026, https://www.nhs.uk/conditions/burns-and-scalds/ <!-- SOURCES D2b; Gate closures, lesson 2 -->. **Read level: full, rechecked directly.** Supports: 20 minutes, jewellery, cling film, the don'ts and when to go to A&E.
-16. American Red Cross, "Burns", read through the Internet Archive's January 2026 capture <!-- SOURCES D2b; Gate closures, lesson 2 -->. **Read level: full, rechecked.** Supports: 20 minutes, no ice, no greasy substances, when to go to hospital.
+16. American Red Cross, "Burns", https://www.redcross.org/take-a-class/resources/learn-first-aid/burns, read live on 24 September 2026 and, for comparison, through the Internet Archive's January 2026 capture <!-- SOURCES D2b; Gate closures, lesson 2; Stage 4 note, lesson 2 (burns page changed) -->. **Read level: full, both versions.** Supports: 5 to 20 minutes (live), the earlier 20 minutes (January capture), water not ice (live FAQ), no greasy substances and when to go to hospital (January capture).
 17. T. Gruenwald, B. A. Seals, L. D. Knibbs and H. D. Hosgood, "Population Attributable Fraction of Gas Stoves and Childhood Asthma in the United States", *International Journal of Environmental Research and Public Health*, 2022, PMID 36612391 <!-- SOURCES D3c -->. **Read level: abstract.** Supports: 12.7%, the method and the authors' affiliation.
 18. American Gas Association, "AGA Concerned by Methodology of Study by Gruenwald et al.", 5 January 2023 <!-- SOURCES D3c; Gate closures, lesson 2 -->. **Read level: full, rechecked directly.** Supports: the quoted criticism and the point about the authors' own search.
 19. W. Li and colleagues, "Gas cooking and respiratory outcomes in children: A systematic review", *Global Epidemiology*, 2023, PMID 37638371 <!-- SOURCES D3c -->. **Read level: abstract.** Supports: the quoted conclusion and the declared interest.
