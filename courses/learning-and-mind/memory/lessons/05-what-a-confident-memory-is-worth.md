@@ -1,6 +1,7 @@
 ---
 title: What a confident memory is worth
 minutes: 85
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/learning-and-mind/memory/05-what-a-confident-memory-is-worth.mp3
 objectives:
   - >-
     State what the traditional position on eyewitness confidence was, and why it was reasonable
