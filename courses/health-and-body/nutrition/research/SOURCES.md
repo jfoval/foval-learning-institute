@@ -468,6 +468,13 @@ Research notes for Stage 1 of "Nutrition: The Evidence". Compiled 2026-09-24.
   - On trials: "Large pragmatic trials for more complex diet patterns also may yield largely negative
     results. Nevertheless, their outcomes may help inform nutritional guidelines with some pragmatic
     “intention-to-eat” data."
+- *Added 2026-09-24 at lesson 09's Stage 4:* the PREDIMED passage, from the same PDF (local copy,
+  text extracted with pdftotext), read in full. Verbatim, with the reference numeral 9 after
+  "republished" omitted: PREDIMED "was recently retracted and republished after it was realized that
+  there were multiple subversions of randomization. Findings from the reanalysis showed results
+  similar to those of the initially reported findings; however, the study should no longer be
+  considered a randomized trial. Regardless, the trial showed no survival benefit." So he grants
+  that the result held and disputes what kind of evidence it now is.
 - **Other claims in the piece worth checking before a lesson uses them:** the hazelnut, coffee,
   mandarin, egg and bacon life-expectancy figures are his extrapolations from Schwingshackl 2017
   (AJCN) and Poole 2017 (BMJ), explicitly offered as a reductio, not as findings. Ioannidis's funding
@@ -4687,7 +4694,12 @@ Research notes for "Nutrition: The Evidence", Stage 1. Compiled 2026-09-24.
   combating obesity, diabetes or any other chronic disease" and "on key topics—including dietary
   fat, saturated fat, and cholesterol—we concluded that the guidelines are no longer supported by
   the science, or are simply in error." She cites NASEM's 2017 reports calling on the process to
-  "improve transparency" and "strengthen scientific rigor". Zoë Harcombe (PhD, low-carb
+  "improve transparency" and "strengthen scientific rigor". *Added 2026-09-24 at lesson 09's
+  Stage 4:* the page is a signed post, "Dietary Guidelines are Unscientific, Outdated", "Written By
+  Nina Teicholz", dated 8 September 2022 in its metadata (`datePublished` 2022-09-08), and it is
+  about the guidelines then in force: the sentence opens "In plain terms, we found that the U.S.
+  guidelines", reporting a paper she co-authored. It is not a comment on the 2025-2030 edition.
+  Zoë Harcombe (PhD, low-carb
   proponent) wrote on 2026-01 (read) that the new DGAs "bore almost no resemblance to the
   Scientific Report which preceded them" and welcomed the change as a "monumental change". The
   administration's own case is the Scientific Foundation text quoted above. Note that the ASN,
@@ -4780,6 +4792,11 @@ Research notes for "Nutrition: The Evidence", Stage 1. Compiled 2026-09-24.
     of total energy from trans fat of any type." It lists replacing "butter, lard and ghee with
     oils rich in polyunsaturated fat, such as soybean, canola (rapeseed), corn, safflower and
     sunflower oils".
+    *Added 2026-09-24 at lesson 09's Stage 4,* the rest of that sentence, from the local copy of the
+    page: fat intake "can be reduced by: steaming or boiling instead of frying when cooking;
+    replacing butter, lard and ghee with oils rich in polyunsaturated fat, such as soybean, canola
+    (rapeseed), corn, safflower and sunflower oils; eating reduced-fat dairy foods and lean meats, or
+    trimming visible fat from meat".
   - Protein: "Protein intake at 10–15% of total daily energy intake is generally sufficient to
     meet the needs of adults (approximately 50–75 grams for a person of healthy body weight
     consuming about 2000 calories per day)." "Consuming excessive amounts of protein, however,

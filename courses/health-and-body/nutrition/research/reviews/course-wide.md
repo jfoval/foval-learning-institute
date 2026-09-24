@@ -28,3 +28,30 @@ what the research file holds.
 Lesson 1 measured 85 minutes before and after; `minutes: 85` unchanged. `npm run validate` exit 0.
 
 **Status after review:** clean.
+
+## 2026-09-24 — Lessons 05 and 09, and the project — found at lesson 09's Stage 4 (Tier B, split)
+
+**Source:** reviewer P of lesson 09 (findings P1, P22 and P23, recorded in
+`09-patterns-and-the-guidelines.md`).
+
+1. [minor] Lesson 5: "The guidelines' own evidence for that figure, and the dispute over it, are
+   lesson 9's." Lesson 9 said it couldn't give that evidence, since the Scientific Foundation's
+   protein chapter wasn't read.
+2. [minor] Project step 5 said lesson 9 "set five guides side by side"; the table has four, and
+   Canada is added in the exercise. It didn't say the 2020-2025 US edition has been replaced.
+3. [major] Lesson 9 worked the Lennerz carnivore survey in full, which is the project's worked model
+   for step 2, while the project said the claim "was not used in any lesson".
+
+**Resolutions:**
+1. Kept the promise in lesson 9 rather than withdrawing it in lesson 5. SOURCES A 9.5 and A27 hold
+   Pasiakos and colleagues (J Nutr 2026, abstract), which describes the basis of the 1.2 to 1.6
+   target: "a rapid systematic review of randomized controlled trials focused on weight-management
+   outcomes and, to a lesser extent, a narrative review on nutrient adequacy". Lesson 9 now quotes
+   it, labelled as a critical commentary read at abstract level, and still says the Foundation's
+   protein chapter wasn't read. Lesson 5 unchanged.
+2. Step 5 now reads "five guides, four in its table and Canada's in its exercise" and says the
+   2020-2025 edition has been replaced, and what to say if a reader picks it.
+3. Lesson 9 cut to one sentence naming the survey and pointing to the project; the project's model
+   now says "Lesson 9 names the study and points here".
+
+**Status after review:** clean.

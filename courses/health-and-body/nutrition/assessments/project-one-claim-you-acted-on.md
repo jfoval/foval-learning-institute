@@ -107,10 +107,11 @@ suggested. If the source doesn't say what replaced the food, write "not stated".
 
 ### Step 5: what two guides say
 
-Lesson 9 set five guides side by side: the US *Dietary Guidelines for Americans* 2020-2025 and
-2025-2030, the UK's Eatwell Guide, Canada's Food Guide and the World Health Organization's healthy
-diet fact sheet. **Pick two, and find what each says about your claim**, quoted, with the date of the
-version you read.
+Lesson 9 compared five guides, four in its table and Canada's in its exercise: the US *Dietary
+Guidelines for Americans* 2020-2025 and 2025-2030, the UK's Eatwell Guide, Canada's Food Guide and
+the World Health Organization's healthy diet fact sheet. **Pick two, and find what each says about
+your claim**, quoted, with the date of the version you read. The 2020-2025 US edition has been
+replaced by the 2025-2030 one; if you pick it, say so, and say what the newer edition changed.
 
 A guide saying nothing is a result too. So is two guides disagreeing, and if they do, say whether
 they disagree about the evidence or about what to do with it, which is lesson 8's distinction
@@ -155,8 +156,8 @@ decision stands without it.
 
 ## A worked model: step 2, on one claim
 
-This is how step 2 might look. The claim was not used in any lesson, and the words it arrives in
-are invented for this model. Everything quoted from the study is copied from its abstract.
+This is how step 2 might look. Lesson 9 names the study and points here, and the words the claim
+arrives in are invented for this model. Everything quoted from the study is copied from its abstract.
 
 **The claim, as met:** a friend says, "A study of two thousand people on the carnivore diet found
 almost no side effects."
