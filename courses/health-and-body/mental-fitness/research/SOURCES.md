@@ -532,6 +532,14 @@ first and 8a only to show what changed. Searches ran to November 2023.
   is probably little to no difference in their effect on depressive symptoms at the end of treatment
   (SMD 0.03, 95% CI -0.16 to 0.23; moderate-certainty evidence)."
 - Verbatim: "we judged all studies to be at high risk of performance bias."
+- Verbatim: "Pooled data from the nine trials (405 participants) with long-term follow-up provided very
+  uncertain evidence about the effect of exercise on depressive symptoms (SMD -0.53, 95% CI -1.11 to
+  0.06; very low certainty evidence)."
+- Verbatim: "There did not appear to be a difference between exercise and other interventions in terms
+  of treatment acceptability, as measured by participants completing the study (moderate to low
+  certainty evidence)."
+- Verbatim, from the conclusions: "Long-term follow-up was rare."
+  *(These three added 2026-09-24 at lesson 5's review, which found the list above left them out.)*
 - Verbatim: "The addition of 35 RCTs (at least 2526 participants) to this update has had very little
   effect on the estimate of the benefit of exercise on symptoms of depression."
 
@@ -558,9 +566,9 @@ Verbatim: "218 unique studies with a total of 495 arms and 14 170 participants w
 "Compared with active controls (eg, usual care, placebo tablet), moderate reductions in depression were
 found for walking or jogging (n=1210, κ=51, Hedges' g -0.62, 95% credible interval -0.80 to -0.45),
 yoga (n=1047, κ=33, g -0.55, -0.73 to -0.36), strength training (n=643, κ=22, g -0.49, -0.69 to
--0.29)". And the qualifier that must travel with it: "only one study met the Cochrane criteria for
-low risk of bias. As a result, confidence in accordance with CINeMA was low for walking or jogging and
-very low for other treatments." And, from the conclusions: "To mitigate expectancy effects, future
+-0.29)". And the qualifier that must travel with it: "Results appeared robust to publication bias, but
+only one study met the Cochrane criteria for low risk of bias. As a result, confidence in accordance
+with CINeMA was low for walking or jogging and very low for other treatments." And, from the conclusions: "To mitigate expectancy effects, future
 studies could aim to blind participants and staff."
 
 **8e. The claim, and where it came from. Singh B, Olds T, Curtis R, and 10 others, "Effectiveness of
@@ -592,6 +600,12 @@ than", and asked for head-to-head research to confirm it. The press release turn
 head to head are in 8b: probably little to no difference, moderate certainty.** A lesson can walk a
 reader through all three in twenty minutes. The course must not sneer at the press office or the
 authors (standards 3.3); it reports the wording at each step and lets the reader see the change.
+
+**Recorded 2026-09-24, at lesson 5's review.** The paper, in the parts read (abstract and Discussion),
+has no "1.5" anywhere, and no caution about the different comparators behind the two figures it sets
+side by side; its only caveat is the call for future research. The ratio is reproducible from its own
+numbers: the midpoint of the range 0.22 to 0.37 is 0.295, and 0.43 ÷ 0.295 ≈ 1.46. That arithmetic is
+this file's, not the paper's or the release's.
 
 ---
 
@@ -836,6 +850,49 @@ scrubbed of Losada's now-questioned mathematical modeling, ample evidence contin
 conclusion that, within bounds, higher positivity ratios are predictive of flourishing mental health
 and other beneficial outcomes."
 
+**14d. The same Brown, Sokal and Friedman paper, as the authors' preprint: arXiv 1307.7006v1, posted
+26 July 2013, https://arxiv.org/abs/1307.7006.** **Read on 2026-09-24, for lesson 07 under defect 26:
+the introduction's first two paragraphs, the section on how 2.9013 was derived (its closing
+paragraphs), "Fredrickson and Losada’s empirical study", "An upper critical positivity ratio?", the
+Conclusion and the Concluding remarks.** The rest (the tutorial on differential equations and the
+examination of Losada 1999 and Losada and Heaphy 2004) was not read closely. **This is the preprint;
+the published text in *American Psychologist* was not opened and may differ in wording**, so a lesson
+quoting these passages says it is quoting the preprint.
+- On the construct itself: "On its own, the positivity ratio as propounded by Fredrickson and Losada
+  (2005) is not a particularly controversial construct; indeed, there is a long history of looking at
+  ratios (e.g., Bales, 1950) and non-ratio indices (e.g., Bradburn, 1969) relating positive to negative
+  emotions."
+- The empirical result as they report it: "among a group of college students, those who were
+  “languishing” had an average positivity ratio of 2.3, while those who were “flourishing” had an
+  average positivity ratio of 3.2."
+- On where the number came from: "the values of σ, b, and (especially) i plugged into Equation 6 are
+  totally arbitrary, at least within wide limits; so the predicted critical positivity ratio is
+  totally arbitrary as well". And: "Recall that Saltzman (1962) chose σ = 10 for illustrative purposes
+  and purely for convenience; then Lorenz (1963) and Losada (1999) followed him." With σ = 16 they
+  report "the predicted critical positivity ratio (with i = 16) is (P/N)crit = 1233/296 = 4.1655405."
+- On the empirical study: "there is nothing inherently implausible about the idea that people with a
+  higher ratio of positive to negative emotions might experience better outcomes than those with a
+  lower ratio. But the suggestion that people with a positivity ratio of 2.91 are in some discontinuous
+  way significantly better off than those with a ratio of 2.90, simply because this number has crossed
+  some magic line, is not supported by any evidence." And: "Fredrickson and Losada’s (2005) study of
+  “flourishing” versus “languishing” college students does at least provide some empirical evidence
+  that a higher positivity ratio typically corresponds to better outcomes than a lower one."
+- **Their own statement of scope, which matters for fairness:** "We do not here call into question the
+  idea that positive emotions are more likely to build resilience than negative emotions, or that a
+  higher positivity ratio is ordinarily more desirable than a lower one. But to suggest that some form
+  of discontinuity sets in at some special value of the positivity ratio — especially one that is
+  independent of all demographic and cultural factors — seems far-fetched. We cannot, of course, prove
+  that no such “tipping point” exists".
+- On motive: "Let us stress that our concern here is with the objective properties of published texts,
+  not the subjective states of mind of the authors".
+
+**What 14d changes.** The critics and Fredrickson's reply are closer than 14b and 14c alone suggest:
+**the critics say in terms that they do not dispute the weaker claim Fredrickson still holds.** The
+dispute is about the tipping point and the mathematics, not about whether positive emotion goes with
+flourishing. A lesson should say so, in the critics' words, which also keeps it from reading as a
+debunking of positive psychology. Note that the curly quotation marks and the em dash above are the
+preprint's own.
+
 **What the course may say.** The mathematical claim for a critical tipping point of 2.9013 was shown to
 be unfounded, and the first author accepted that the modelling was "now-questioned" and withdrew from
 it. **Her remaining claim, that more positive emotion relative to negative predicts flourishing
@@ -859,6 +916,38 @@ that stress affects health matter? The association with health and mortality", *
   increased risk of premature death (HR = 1.43, 95% CI [1.2, 1.7])."
 - Verbatim, conclusions: "High amounts of stress and the perception that stress impacts health are each
   associated with poor health and mental health."
+- **Full text read on 2026-09-24, for lesson 07 under defect 26**, from PubMed Central through the NCBI
+  E-utilities service (the author manuscript, PMC3374921): the Results, the Sensitivity Analysis and the
+  Discussion including its limitations paragraph. Verbatim, each copied from that text:
+  - Results: "Neither the amount of stress nor the perception that stress affects health independently
+    predicted premature mortality. However, the interaction between the amount of stress reported and
+    the perception that stress affects health was statistically significant".
+  - Results: "This represents an increase in the predicted cumulative hazard of death due to the stress
+    interaction from 3.5% to 5.1% for those who reported a lot of stress in the past 12 months and the
+    perception that stress affects health a lot compared to those who did not report either."
+  - Sensitivity analysis: "Analyses revealed that the inclusion of self-reported health mediated the
+    relationship between the stress interaction term and mortality such that the highest interaction
+    category (reported experiencing a lot of stress and perceiving that stress impacts their health a
+    lot) was attenuated from HR of 1.43 to HR of 1.18 and was of borderline significance (p=0.076)."
+  - Discussion: "If this were in fact a causal relationship, 20,231 deaths each year would be
+    attributable to having a lot of stress and perceiving that stress affects health a lot." And:
+    "While this study is unable to establish a causal relationship, these results highlight the
+    necessity for further research".
+  - Discussion: "In addition, reverse causality may partially explain the findings in this study.
+    Adults who reported poor health may have been more likely to report that stress impacts their
+    health simply due to their poor health status; moreover poor health status could also have
+    influenced the amount of stress reported."
+  - Limitations: "First, all data used for these analyses except mortality were cross-sectional and
+    thus limited the ability to assess the temporality of stress and health outcomes." And: "Finally,
+    this study was unable to address the role of factors that may be associated with perceptions of
+    stress and health outcomes such as personality (e.g. neuroticism)."
+  - **What the full text changes.** The authors themselves name reverse causality, state the study
+    cannot establish causation, and give the 20,231 figure only under an explicit "If this were in fact
+    a causal relationship". The 43% is for one combination (a lot of stress and a belief that it
+    affects health a lot), and the belief alone did not independently predict death. After adjusting
+    for self-reported health the combination's hazard ratio fell to 1.18, of borderline significance.
+    **Whether the popular version carries the "if" is not something this course can check**, because
+    it has not read McGonigal.
 
 **15b. Crum AJ, Salovey P, Achor S, "Rethinking stress: the role of mindsets in determining the stress
 response", *Journal of Personality and Social Psychology* 104(4), 2013, pp. 716 to 733, doi
@@ -1435,6 +1524,12 @@ Singh's median of -0.42 for anxiety (8e), from reviews most of which scored "cri
 side of the exercise question is several hundred people in small trials, mostly against waiting
 lists**, against the depression side's 73-trial Cochrane review. A lesson on exercise says that
 asymmetry in terms.
+**The comparators, named (added 2026-09-24 at lesson 5's review).** Aylett's comparison groups were
+"either a waiting list control group or low intensity exercise"; Stubbs compared exercise with "usual
+treatment or control conditions". So "mostly against waiting lists" is true of Aylett's headline
+figure, not of Stubbs's. And the several-hundred figure holds for people with an anxiety disorder or
+raised anxiety only: Singh's -0.42 pools populations that "included healthy adults, people with
+mental health disorders and people with various chronic diseases".
 
 ### 19h. Mindfulness against a drug, for anxiety disorders
 
@@ -1564,7 +1659,7 @@ or slightly greater than" (8e); Heissel and colleagues, "should be offered as an
 option" (8c); Noetel and colleagues, "could be considered alongside psychotherapy and antidepressants as
 core treatments" (8d). *It is probably about the same, on small trials, and the effect over no treatment
 is smaller in the best trials:* Cochrane 2026 (8b). **What would settle it:** larger head-to-head trials
-with blinded outcome assessment, which every one of these sources asks for. **Classification: contested
+with blinded outcome assessment, which Cochrane, Noetel and Singh ask for (Heissel does not). **Classification: contested
 on size and comparison; the direction (exercise helps on average) is well supported.** NICE lists group
 exercise as a first-line option for less severe depression (source 2), which is the establishment view.
 

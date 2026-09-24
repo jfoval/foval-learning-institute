@@ -11,7 +11,7 @@ or the qualifier that helps exercise. That is true of Heissel, Noetel, Aylett an
 the Krzikalla pattern from review 04. Rewrite each of those paragraphs from the whole abstract in the
 `SOURCES.md` appendix.
 
-### Findings, NOT YET APPLIED (next session: apply, validate, then lesson 6's review)
+### Findings
 
 **Safety**
 - **S-1 (required, outline decision 3).** The lesson touches antidepressants: the head-to-head against
@@ -130,3 +130,64 @@ the Krzikalla pattern from review 04. Rewrite each of those paragraphs from the 
 ### Tooling note
 `npm run validate` did not flag the adjacent key repeat in Q4 and Q5. Check whether the
 adjacent-repeat check covers this course before relying on it.
+
+### Resolutions applied (2026-09-24)
+
+Every finding applied, with two partial exceptions noted below. Every added quotation was checked by
+`npm run quotes` against `SOURCES.md` (no misses in this lesson); `npm run validate` exits 0 with no
+warning on this lesson.
+
+- **S-1.** A closing callout, "Before you change a treatment", after Go deeper: nothing here is a reason
+  to start, stop or swap a treatment; Table 2's group exercise note on more severe depression; NG222
+  1.4.12 quoted ("talk with the person who prescribed their medication", "it is usually necessary to
+  reduce the dose in stages over time", and its "most people stop antidepressants successfully", so the
+  sentence is not trimmed of its other half). Source 1 now names Table 2 and 1.4.12. Crisis callout
+  untouched.
+- **F1** reworded to "Singh's comparison was not itself a direct test". **F2** "hard to", with Noetel's
+  blinding sentence [4]; quiz 6 recast (P3), so its old key is gone. **F3** "proven" now set against
+  Cochrane's grade, naming Heissel's "efficacious" and Noetel's "an effective treatment". **F4** the
+  several-hundred claim scoped to people with an anxiety disorder or raised anxiety, with Singh's
+  populations quoted; quiz 4's explanation now addresses the true premise of the "nearly equal"
+  distractor. **F5** the intensity and outdoors "since" clauses are gone (quiz 5 recast). **F6, F8**
+  done. **F7** the p-value fits the estimate, so the interval is the likely misprint, labelled [7].
+  **F9** read level at first mention for all five. **F10** CG113 1.3.11 quoted in "What NICE says"
+  (the panic misconception it was to sit beside was replaced under P6).
+- **N1 to N5** done from the appendix abstracts: Stubbs's conclusion quoted and "equivocal" framed as
+  the field before the review; Aylett's viable-option conclusion and high-over-low intensity before
+  its limitation; Noetel's quotation starts at "Results appeared robust"; Heissel's conclusion quoted
+  in full (supervised, group, moderate, aerobic, tied to NG222's row) and its parenthesis closed with
+  the NNT interval; long-term follow-up, acceptability and "Long-term follow-up was rare" added.
+  **N6** the 0.43 ÷ 0.295 ≈ 1.46 arithmetic added, labelled [7]. **Not done: the second half of N6**,
+  Singh's key messages on mild-to-moderate symptoms. `SOURCES.md` does not record the key messages box,
+  so there is nothing to quote; it waits for a re-read of the paper. **N7** reworded. **N8** added: the
+  2013 six-trial subset (-0.18, not significant) beside 2026's, with "The addition of 35 RCTs".
+- **P1, P2** quiz rebuilt: keys 0,2,3,1,3,2 (differs from lessons 4 and 6, not a rotation of
+  0,2,1,3), option spreads 3 to 7 characters, clauses on keys and distractors alike, no option opening
+  "That's right/wrong", hedges on two distractors in Q1. **P3** Q3 is an invented supplement case, Q5
+  the gym "mood class", Q6 blinded assessors with self-report, Q2 "which of the three answers is this
+  evidence?" on an invented trial (old distractor C gone with it). **P4** exercise 1 now traces a
+  different sentence of the release, paper linked at PMC10579187. **P5** predicts added before the
+  head-to-head results and the anxiety numbers (three predicts, one checkpoint). **P6** one "names no
+  exercise treatment" cut (anxiety section opening); misconception 4 is now "Any exercise counts as the
+  treatment NICE lists". **P7** done.
+- **D1** the checkpoint now answers why a cross-study ratio can't support "more effective" (usual care
+  against other reviews' controls, lesson 2's question). **D2** tied to lesson 2's waiting-list finding,
+  keeping its "may". **D3, D4** done. **D5** done: an interval chart of the four Cochrane estimates with
+  a zero line, no `<g>`, every label 15, fallback fills, `<desc>`, viewBox 420, checked by screenshot
+  in both themes at phone width; labelled [7].
+- **C1 to C5** done: median and IQR explained, "collected"; the head-to-head sign line; k and NNT
+  glossed, performance bias defined in plain words; SMD pointed to lesson 3, network meta-analysis to
+  lesson 2, low-certainty to lesson 3, "equivocal" glossed; the Sleep 7 sentence now says the hardening
+  here is of a cross-study comparison.
+- **V1 to V5** done. Voice: no em or spaced en dashes, no banned words outside quotations (Noetel's
+  "robust" is his), 24 bold spans (6.0 per 1,000), contractions 7.6 per 1,000 by the validator's count.
+  `minutes` measured at 90 (was 75).
+- **SOURCES.md** all five fixed: §8d Noetel qualifier restored; §8b long-term follow-up, acceptability
+  and "Long-term follow-up was rare" added; Contested questions now "Cochrane, Noetel and Singh
+  (Heissel does not)"; §8e records no "1.5" and no comparator caution in the parts read, with the
+  arithmetic; §19g names Aylett's and Stubbs's comparators.
+
+**Tooling note, answered.** The validator did not miss the repeat by fault: `build.mjs` warns on
+adjacent repeats only when they reach half the items (3 of 6), and `check-quiz-shape.cjs` reports them
+only from 2 upward, so a single adjacent repeat is below both thresholds by design. The per-lesson "no
+adjacent repeat" target is enforced by review, not by a check.
