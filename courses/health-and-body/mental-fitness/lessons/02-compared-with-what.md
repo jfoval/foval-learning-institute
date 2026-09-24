@@ -376,29 +376,29 @@ an interval against zero, and **Sleep** lesson 6 noticed that the CBT-I trials w
 
 ## Sources
 
-1. Pim Cuijpers and colleagues, "Cognitive behavior therapy vs. control conditions, other
+1. P. Cuijpers and colleagues, "Cognitive behavior therapy vs. control conditions, other
    psychotherapies, pharmacotherapies and combined treatment for depression", *World Psychiatry*
    22(1), 2023, pp. 105 to 115, doi 10.1002/wps.21069. **Read: the abstract.** Supports: the scale,
    0.79 against controls and its follow-up, the comparison with medication short and longer term, 0.06
    against other therapies, and 0.45 for unguided self-help, whose comparison the abstract doesn't
    separate.
-2. Eirini Karyotaki and colleagues, "Efficacy of Self-guided Internet-Based Cognitive Behavioral
+2. E. Karyotaki and colleagues, "Efficacy of Self-guided Internet-Based Cognitive Behavioral
    Therapy in the Treatment of Depressive Symptoms", *JAMA Psychiatry* 74(4), 2017, doi
    10.1001/jamapsychiatry.2017.0044. **Read: the abstract.** Supports: g = 0.27, the comparisons, and
    the number needed to treat of 8.
-3. Jake Linardon and colleagues, "The efficacy of app-supported smartphone interventions for mental
+3. J. Linardon and colleagues, "The efficacy of app-supported smartphone interventions for mental
    health problems", *World Psychiatry* 18(3), 2019, doi 10.1002/wps.20673. **Read: the abstract.**
    Supports: the app figures, their robustness to the type of control, the panic result, the
    comparison with active interventions, and that "n" counts trials.
-4. Toshi A. Furukawa and colleagues, "Waiting list may be a nocebo condition in psychotherapy trials",
+4. T. A. Furukawa and colleagues, "Waiting list may be a nocebo condition in psychotherapy trials",
    *Acta Psychiatrica Scandinavica* 130(3), 2014, doi 10.1111/acps.12275. **Read: the abstract.**
    Supports: the 49 trials of CBT for depression, the odds ratio of 2.9 and its interval, the
    authors' qualifier and conclusion, and the word "nocebo" from the title.
-5. Zhu and colleagues, "Comparison of psychological placebo and waiting list control conditions in the
+5. Z. Zhu and colleagues, "Comparison of psychological placebo and waiting list control conditions in the
    assessment of cognitive behavioral therapy for the treatment of generalized anxiety disorder",
    *Shanghai Archives of Psychiatry* 26(6), 2014, doi 10.11919/j.issn.1002-0829.214173. **Read: the
    abstract.** Supports: the placebo-against-waiting-list finding and its qualifier.
-6. Carl and colleagues, "Psychological and pharmacological treatments for generalized anxiety disorder
+6. E. Carl and colleagues, "Psychological and pharmacological treatments for generalized anxiety disorder
    (GAD): a meta-analysis of randomized controlled trials", *Cognitive Behaviour Therapy* 49(1), 2020,
    doi 10.1080/16506073.2018.1560358. **Read: the abstract.** Supports: 0.76 and 0.38, and the
    authors' warning not to compare them.
