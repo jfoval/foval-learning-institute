@@ -141,8 +141,10 @@ recommendation must keep its verb**, because the verb is the grade.
   people with panic disorder as appropriate. [2004]" **Note the weakness of that sentence**: it is a
   2004 recommendation to discuss exercise as general health, not a recommendation of exercise as a
   treatment for panic.
-- On panic attacks in A&E: "It is important to remember that a panic attack does not necessarily
-  constitute a panic disorder". **That sentence is the whole of lesson 1's distinction in one line,
+- On panic attacks in A&E, **the full sentence** (corrected 2026-09-23 at lesson 1's review; the
+  file had cut it before its second half): "It is important to remember that a panic attack does not
+  necessarily constitute a panic disorder and appropriate treatment of a panic attack may limit the
+  development of panic disorder." **That sentence is the whole of lesson 1's distinction in one line,
   from the guideline itself.**
 
 **What a lesson must not do with this source.** It must not reproduce the drug recommendations
@@ -183,6 +185,15 @@ bothered by having little interest or pleasure in doing things?" **A lesson may 
 clinician is told to ask. It must not turn them into a self-test with a verdict**; 1.2.2 and 1.2.3 say
 a "yes" leads to a mental health assessment by someone competent to do it, which is the course's
 exact point.
+
+**Assessment, verbatim (1.2.6 and 1.2.7, added at lesson 1's review):** "Conduct a comprehensive
+assessment that does not rely simply on a symptom count when assessing a person who may have
+depression, but also takes into account severity of symptoms, previous history, duration and course of
+illness." And, among the factors 1.2.7 lists: "any history of mood elevation (to determine if the
+depression may be part of bipolar disorder)". **And 1.16.1**, read on the same day: "Commissioners and
+providers of mental health services should consider using models such as stepped care or matched care
+for organising the delivery of care and treatment of people with depression." So NG222 frames stepped
+care as one model alongside matched care; CG113 is the guideline that is built on steps.
 
 **Risk, verbatim:**
 - 1.2.8: "Always ask people with depression directly about suicidal ideation and intent. [2009]"
@@ -357,7 +368,13 @@ recommendation is the second.
   https://digital-strategy.ec.europa.eu/en/policies/112 , read in part on 2026-09-23. Verbatim: "112
   is the European emergency phone number, available everywhere in the EU, free of charge." **Added at
   Stage 3 under outline decision 1.**
-- **UK: NHS Talking Therapies self-referral**,
+- **UK: NHS, "Chest pain"**, https://www.nhs.uk/symptoms/chest-pain/ , read in part on 2026-09-23
+  (the "Call 999 if" section). Verbatim: "you get sudden pain or discomfort in your chest that does not
+  go away" and "you have chest pain and you feel sweaty, sick, light headed or short of breath", then
+  "You could be having a heart attack." **Added at lesson 1's review**, so a lesson can say which chest
+  pain is an emergency rather than only that it is a medical question.
+- **England: NHS Talking Therapies self-referral** *(labelled England, not UK, at lesson 1's review:
+  the programme is NHS England's, on the NHS website for England)*,
   https://www.nhs.uk/mental-health/talking-therapies-medicine-treatments/talking-therapies-and-counselling/nhs-talking-therapies/
   . Read in part (the opening and "How to get talking therapies"). Verbatim: "For many mental health
   problems, such as anxiety and depression, you can refer yourself to NHS talking therapies without
