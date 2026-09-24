@@ -584,7 +584,29 @@ Research notes for Stage 1 of "Nutrition: The Evidence". Compiled 2026-09-24.
   - Candid concession: "the critical assumption of “no unmeasured or residual confounding” that is
     needed to infer causality cannot be empirically verified in observational epidemiology".
   - On diet records and measurement: "most dietary assessment methods have a component of error". On
-    biomarkers: "many foods and nutrients lack sensitive or specific biomarkers".
+    biomarkers: "many foods and nutrients lack sensitive or specific biomarkers". **Both of these
+    were cut from their sentences; see the correction below before quoting either.**
+  - *Added 2026-09-24 at lesson 02's Stage 4:* **correction to the bullet above, from the full text
+    (PMC HTML via curl, section "Can We Reliably Measure Dietary Intakes...", read in full).** The
+    first quotation is not a free-standing concession. The whole sentence and the one after it:
+    "It is not surprising, then, that most dietary assessment methods have a component of error,
+    which could be random day-to-day, diurnal, and seasonal variation in an individual’s diet over
+    time, or because of systematic mechanisms, such as omission of foods when collecting data.
+    Nonetheless, several techniques have been developed to ascertain dietary intake from free-living
+    populations, and these methods have shown good validity with use of multiple criteria." The
+    second quotation is about **the limitations of biomarkers**, not of self-report, and argues that
+    biomarkers cannot replace asking: "The limitations of biomarkers, however, have prevented their
+    wider use. In particular, many foods and nutrients lack sensitive or specific biomarkers, their
+    assessment always includes error from multiple sources, they may not be indicators of individual
+    long-term intake, and obtaining and testing for biomarkers is expensive and burdensome." Read
+    together they are the defence's position (the error is real, the instruments are valid for
+    their purposes, and biomarkers can't do the job alone), not a concession.
+  - *Added 2026-09-24 at lesson 02's Stage 4:* on WHI adherence, the sentence between the two WHI
+    quotations below (section "Is the Drug Trial Paradigm Relevant...", read in full): "Moreover,
+    during the trial, there were no differences between the low-fat and control groups in plasma
+    concentrations of HDL cholesterol and triglycerides, which are known to change on low-fat diets
+    (53)." This is their objective evidence that the diet was not eaten as designed; it is the
+    reason the next sentence begins "The WHI, hence, failed to test".
   - Smoking analogy: "RCTs examining this issue have found no effect on mortality, probably because of
     recidivism and insufficient follow-up time".
 - **Caveat for writers:** the paper cites PREDIMED's 2013 result ("7447 men and women") as a landmark
