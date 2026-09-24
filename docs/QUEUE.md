@@ -21,12 +21,10 @@ and it never feels that way while you are writing it.
 
 Rewrite these five lines each session. Nothing else goes in this block.
 
-- **Renders run again.** John topped up prepaid credit and raised the cap to $56 on 2026-09-23.
-  Digital Literacy's episodes were rendered one at a time that night. **Digital Literacy lesson 1
-  twice returned `finishReason: OTHER` with no audio and only input tokens billed** (not the 402, not
-  a 429); lesson 2 rendered fine straight after, so it is specific to that script or transient. If it
-  fails a third time, look at the script's content before sending again. Next render order is `npm
-  run state`.
+- **Digital Literacy is FINISHED: all thirteen episodes live** (2026-09-24). Lesson 1 returned
+  `finishReason: OTHER` twice with no audio, then rendered on its third send, unchanged, after the
+  rest of the course: transient, not the script. Renders run on John's $56 cap; the next render
+  order is `npm run state`.
 - **Using AI Effectively is published and written.** T1, sixth of seven. Eleven lessons, every one
   through Stage 4 with its review applied, the voice pass done, the neutrality audit passed, both
   assessments written, and eleven fact-checked podcast scripts. Nothing on it is outstanding except
