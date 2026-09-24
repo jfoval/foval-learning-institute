@@ -1,6 +1,7 @@
 ---
 title: What the cue is doing
 minutes: 90
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/learning-and-mind/habits-and-self-discipline/03-what-the-cue-is-doing.mp3
 objectives:
   - >-
     Explain what the context does in a habit that motivation does not, and say what two field
