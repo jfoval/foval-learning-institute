@@ -30,8 +30,10 @@ const only = process.argv[2];
 
 // Normalise away everything that is presentation rather than wording: markdown emphasis, link
 // syntax, curly quotes, the [B]racketed capital a quoter uses when they start mid-sentence, and
-// line wrapping. What is left is the words, which is what has to match.
+// line wrapping, including the "> " a wrapped blockquote carries at the start of each line. What is
+// left is the words, which is what has to match.
 const norm = s => s
+  .replace(/\n[ \t]*>[ \t]?/g, "\n")
   .replace(/\*\*/g, "")
   .replace(/\[([^\]]*)\]\([^)]*\)/g, "$1")
   .replace(/\[([A-Za-z])\]/g, "$1")

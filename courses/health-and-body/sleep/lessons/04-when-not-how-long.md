@@ -1,6 +1,6 @@
 ---
 title: When, not how long
-minutes: 75
+minutes: 85
 objectives:
   - >-
     Distinguish a claim about sleep duration from a claim about sleep timing, and name the
@@ -17,39 +17,41 @@ quiz:
     options:
       - The clock question, since it says nothing about when any of this happened
       - The sample question, since it gives no indication of who was measured
-      - The instrument question, since sleep quality is not a thing any device reports
+      - The instrument question, since it doesn't say what measured quality or how
       - The scope question, since a percentage improvement has no unit attached to it
     answer: 2
     explain: >-
-      Quality is not a measured quantity in the way duration and timing are, so there is nothing
-      for the twenty per cent to be twenty per cent of. Who was measured and when are both worth
-      asking and both come after the question of what the number is a number of.
+      Sleep quality can be a self-rating, a device's own score or something else, and until you
+      know which, there's nothing for the twenty percent to be twenty percent of. Who was measured
+      and when are both worth asking, and both come after that.
   - q: >-
-      Two people each get an hour of bright light, one at ten at night and one at six in the
-      morning. What can this lesson tell you about which way their clocks move?
+      A nurse finishing a run of night shifts drives home at 7 in the morning in bright sun. Which
+      way does her clock move?
     options:
-      - That the first is delayed and the second advanced, since those are evening and morning
-      - That both are delayed, since any light near a sleep period pushes the clock later
-      - That it depends where those clock times fall in each person's own biological night
-      - That neither moves, since an hour is too short an exposure to shift anything
-    answer: 2
+      - It depends where 7 a.m. now falls in her own biological night, which nobody measured
+      - It advances, since morning light pulls everybody's clock earlier whatever their hours
+      - It delays, since after a run of nights 7 a.m. is the very start of her biological night
+      - It stays put, since half an hour of daylight is too little to shift a clock at all
+    answer: 0
     explain: >-
-      The finding is stated in biological night rather than clock time, and mapping one onto the
-      other needs a measurement of that person. An hour does shift the clock substantially, and
-      the direction is not fixed by whether it is dark outside.
+      The finding is stated in biological night rather than clock time, and after a run of nights
+      nobody here knows where hers sits, so neither the advance nor the delay can be read off the
+      clock. Nothing this course read measured half an hour of daylight either way, so it can't say
+      the light does nothing.
   - q: >-
-      One hour of bright light produced about 40 percent of the shift that 6.7 hours produced. What
-      does that imply about a light box used for four hours instead of one?
+      One hour of bright light produced about 40 percent of the amplitude that 6.7 hours produced.
+      What does that imply about four hours of the same light instead of one?
     options:
       - Four times the shift, since the relationship between dose and effect is linear
-      - Less than four times, since most of the effect arrives in the first hour
+      - Less than four times, since each added hour buys less than the one before
       - No additional shift, since the response saturates completely after one hour
       - It cannot be estimated, since the two exposures used different light intensities
     answer: 1
     explain: >-
       Fifteen per cent of the exposure bought forty per cent of the shift, which is the definition
-      of a non-linear dose response, so extra hours buy progressively less. Nothing here says the
-      response saturates entirely, and both exposures were bright white light.
+      of a non-linear dose response, so extra hours buy less than the first. Nothing here says the
+      response saturates entirely, and the abstract calls both bright white light, under similar
+      conditions.
   - q: >-
       A newspaper reports that the World Health Organization's cancer agency has classified night
       shift work as probably carcinogenic. What does that classification tell a night nurse?
@@ -65,17 +67,18 @@ quiz:
       makes no recommendation about anybody's job, and this course has read nothing distinguishing
       shift patterns.
   - q: >-
-      Why does this course say it cannot give you advice about screens before bed?
+      A friend asks whether this course thinks she should stop using her phone in bed. What's the
+      honest answer?
     options:
-      - Because the evidence on screens is contested and it declines to take a side
-      - Because screens are a consumer product and the course avoids naming products
-      - Because nothing it read measures what a screen does, at any intensity
-      - Because the effect is too small to matter compared with when you go to bed
+      - Yes, since light before bed delays the clock and that's the wrong direction
+      - No, since the effect of a screen is too small to matter next to your bedtime
+      - It can't say either way, since nothing it read measured what a screen does
+      - It won't say, since the evidence on screens is contested and it takes no side
     answer: 2
     explain: >-
       The one light measurement this course holds used eight thousand lux in a laboratory, which is
-      not a screen, and no other source it read addresses them. It is a gap in the reading rather
-      than a dispute, a policy about products, or a judgement about size.
+      not a screen, and nothing else it read addresses them. That's a gap in the reading, not a
+      dispute it's declining to settle, and it rules out a confident yes as firmly as a no.
   - q: >-
       Your mid-sleep on free days comes out at half past four in the morning. What is that a
       measurement of?
@@ -93,12 +96,12 @@ quiz:
 ---
 
 Every number in this course so far has been an amount. Four, six or eight hours. Seven or more. A
-relative risk attached to sleeping less than seven.
+relative risk attached to short sleep, wherever each study drew the line.
 
 None of them says anything about when.
 
-That's a second quantity, it's measured by different instruments, and almost nothing you have ever
-been told about sleep is about it. This lesson is that quantity, and **it's where this course's own
+That's a second quantity, it's measured by different instruments, and in this course's experience
+very little of what people are told about sleep is about it.[4] This lesson is that quantity, and **it's where this course's own
 question comes from**: is this claim about how much, or about when?
 
 ## Chronotype, and what it is a measurement of
@@ -107,7 +110,7 @@ People differ in when their bodies are set to sleep, not only in how much. The t
 that difference is **chronotype**, and the field defines it as a property of how you synchronise with
 the world rather than as a preference.
 
-In the words of a 2020 paper on how to measure it:
+In the words of a [2020 paper](https://doi.org/10.1177/0748730419886986) on how to measure it:
 
 > "Individuals vary in how their circadian system synchronizes with the cyclic environment (zeitgeber). Assessing these differences in phase of entrainment—often referred to as chronotype—is an important procedure in laboratory experiments and epidemiological studies but is also increasingly applied in circadian medicine, both in diagnosis and therapy."[1]
 
@@ -116,6 +119,12 @@ it.
 
 A zeitgeber is a time-giver: something in the world that your internal clock lines itself up with,
 light being the main one. **Phase of entrainment** is where your clock has settled relative to it.
+
+Two more words this lesson leans on, glossed here because no earlier course defines them.
+**Circadian** means roughly a day long, and describes the internal cycle this lesson is about. Your
+**biological night** is the stretch of that cycle your clock treats as night. It usually overlaps
+your sleep, but it doesn't have to line up with the clock on the wall. Both glosses are this
+course's plain-language background rather than definitions quoted from a source.[4]
 
 ### The gold standard, and the thing everybody uses instead
 
@@ -141,14 +150,13 @@ course didn't read the formula for that correction and so doesn't print one.**
 
 Two things, and the second is the one people miss.
 
-**You'd need the hormone measurement**, which means a sequence of samples taken in light dim enough
-not to suppress the thing you're measuring, on an evening arranged around it. That's the laborious
-and expensive part the abstract names.
+**You'd need the hormone measurement.** That's the laborious and expensive part the abstract names,
+and it needs dim light, which is one of the "special conditions" it lists.
 
 **And you'd need to not be doing anything else that evening**, because the measurement is of when
 your clock is set, and a clock that has been shifted by the light of the evening you spent measuring
-it is not the clock you were trying to measure. The study in the next section used a procedure called
-a constant routine for exactly this reason: participants under three lux, for days.
+it is not the clock you were trying to measure. The study in the next section measured its participants' clocks this way,
+under what it calls a constant routine in under three lux, before and after the light.
 
 Which is why the questionnaire exists, and why the word in the abstract is approximating. **Your
 mid-sleep on free days is a real fact about your sleep and a proxy for a fact about your clock**, and
@@ -157,33 +165,36 @@ those are not the same thing, which is lesson 1's distinction arriving in a new 
 
 ## What light does
 
-The clock moves, and light is what moves it. What that looks like when somebody measures it is the
-most surprising result in this course.
+The clock moves, and light moves it. Here's what that looks like when somebody measures it.
 
 A 2012 [experiment](https://doi.org/10.1113/jphysiol.2012.227892) gave participants one hour of
-bright white light, about 8000 lux, at one of eighteen different points around the circadian cycle,
+bright white light, about 8000 lux (lux is a unit of how much light reaches a surface), at one of eighteen different points around the circadian cycle,
 and measured how far their clocks shifted.[2] Phase was measured as the change in dim-light melatonin
-onset, under constant routine in under three lux. **This course read the abstract in full and one
-sentence of the introduction**, and nothing else.
+onset, under constant routine in under three lux. A matched group got the same hour in dim light,
+under three lux, and "No discernible PRC was observed" for them,[2] which is what shows it was the
+bright light doing the work. **This course read the abstract in full and one sentence of the
+introduction**, and nothing else.
 
 The size of the effect: "Exposure to 1 h of bright white light induced a Type 1 PRC with a fitted
-peak-to-trough amplitude of 2.20 h."[2] One hour of light, and the difference between the biggest
-delay and the biggest advance was over two hours of clock time.
+peak-to-trough amplitude of 2.20 h."[2] A PRC is a phase response curve: the size and direction of the
+shift, plotted against when in the cycle the light landed. "Type 1" is a technical class this lesson
+doesn't need. One hour of light, and on the fitted curve the difference between the biggest delay and
+the biggest advance was over two hours of clock time.
 
-And the direction, which is the part to hold: "Light exposure occurring in the early biological night
+And the direction, as the paper's introduction states it: "Light exposure occurring in the early biological night
 induces a phase delay shift of the circadian pacemaker, whereas light exposure occurring in the late
 biological night induces a phase advance shift."[2]
 
 **The same light does opposite things depending on when it lands.** Early in your biological night it
-pushes your clock later. Late in your biological night it pulls it earlier. There's a crossover point
-between them where it does nothing at all.
+pushes your clock later. Late in your biological night it pulls it earlier. And since the curve runs from one
+to the other, somewhere between them it crosses zero, which is this course's reading of the shape
+rather than a figure the abstract gives.[4]
 
 ### The trap in that sentence
 
-Here's a worked example, and the point of it is that the obvious answer is wrong.
+Try this one, and notice that the obvious answer is wrong.
 
-Two people each get an hour of bright light. Ana gets hers at ten at night. Ben gets his at six in
-the morning. Which way does each clock move?
+:::predict Two people each get an hour of bright light. Ana gets hers at ten at night. Ben gets his at six in the morning. Which way does each clock move? Write your answer down before you open this.
 
 **The obvious answer** is that ten at night is early in the night so Ana is delayed, and six in the
 morning is late so Ben is advanced.
@@ -200,8 +211,10 @@ course's reading of what "biological night" means in that sentence rather than a
 says about Ana or Ben, who are invented.[4]
 
 So the honest answer to the question is: **you can't tell, and what you would need is the
-measurement from the section above.** That's an unsatisfying answer and it is the correct one, and
-noticing which advice about light quietly assumes otherwise is most of what this lesson is for.
+measurement from the section above.** That's an unsatisfying answer and it's the correct one.
+:::
+
+Noticing which advice about light quietly assumes otherwise is most of what this lesson is for.
 
 ### The second hour is worth less than the first
 
@@ -210,35 +223,35 @@ was ∼40% of that for the 6.7 h PRC despite representing only 15% of the light 
 consistent with previous studies showing a non-linear duration–response function for the effects of
 light on circadian resetting."[2]
 
-Fifteen per cent of the exposure bought forty per cent of the shift. **Working backwards, the longer
+Fifteen per cent of the exposure bought forty per cent of the range. **Working backwards, the longer
 exposure's amplitude comes out around five and a half hours, which is this course's arithmetic on the
 abstract's own two figures** and not a number the paper prints.[4]
 
-What that shape means in practice: **most of what light is going to do, it does early.** An hour of
-morning daylight is not a quarter as useful as four hours of it. It is much more than a quarter, and
-the fourth hour is worth much less than the first.
+What that shape means: **the first hour does far more than its share.** Fifteen per cent of the time
+produced forty per cent of the effect. The abstract gives two points, one hour and 6.7, and nothing
+in between, so this course can't tell you what the second or the fourth hour is worth, only that
+together the hours after the first did less, hour for hour, than the first did.
 
 :::checkpoint Somebody tells you to get twenty minutes of bright light as soon as you wake up. Is that good advice?
 
 It might be, and the interesting part is everything you'd need to know to say.
 
 **What's right about it.** It's advice about timing rather than duration, which already puts it ahead
-of most sleep advice. And it exploits the non-linearity: if most of the effect arrives early in an
-exposure, a short one is a reasonable buy.
+of most sleep advice. And it exploits the non-linearity: if the early part of an exposure does more
+than its share, a short one is a reasonable buy.
 
 **What it assumes without saying.** That your waking time falls in the late biological night, where
-light advances the clock. For most people on a conventional schedule that's probably right. **For
+light advances the clock. For most people on a conventional schedule that's probably right, which is this
+course's guess and not something it read.[4] **For
 somebody who wakes at two in the afternoon it may be wrong**, and the advice gives you no way to tell
 which you are.
 
 **And what this course cannot tell you.** Whether twenty minutes of whatever light you actually have
-does anything at all. The measurement here used one hour at eight thousand lux, which is roughly an
-overcast sky outdoors. **Nothing read for this course measures a window, a lamp, a screen or a winter
+does anything at all. The measurement here used one hour at eight thousand lux in a laboratory. **Nothing read for this course measures a window, a lamp, a screen or a winter
 morning**, so no lesson here gives you a number for any of them.
 
 So: plausibly good advice, resting on an assumption about you that it doesn't state, at an intensity
-nobody here has measured. **That's not a reason to ignore it. It's what the advice is actually
-worth**, which is what you came to this course to be able to say.
+nobody here has measured. That's not a reason to ignore it. It's what the advice is actually worth.
 :::
 
 ## Screens, once
@@ -247,51 +260,97 @@ This course has read no measurement of what a screen does to sleep or to circadi
 weak one, not a contested one: none.
 
 **So it has nothing to say about screens before bed, in either direction**, and it will not mention
-them again. If you meet a confident claim about them, lesson 8 is the method, and the first question
-is which of the five instruments produced the number.
+them again. If you meet a confident claim about them, lesson 8 is the method, and one of the first
+questions is which of the five instruments produced the number.
 
 ## When timing meets an outcome
 
 There is one place where sleep timing has been set against a hard outcome at scale, and it is the
 only part of this lesson that touches somebody's livelihood.
 
-In 2019 the International Agency for Research on Cancer classified night shift work as **"probably
-carcinogenic to humans", which is its Group 2A**.[3] **This course did not read the monograph**; what
-it has is the agency's announcement as reported in summaries, and the grades that classification
-rests on.
+In 2019 the International Agency for Research on Cancer, the World Health Organization's cancer
+agency, classified night shift work as **"probably carcinogenic to humans", which is its Group
+2A**.[3] It was the second time: the first assessment, in 2007, reached the same group.[5] **This
+course did not read the monograph.** What it has is the classification's grades as secondary
+summaries report them, and the announcement from ISGlobal, the Barcelona institute whose researcher
+Manolis Kogevinas chaired the working group's epidemiology subgroup. That's an institute reporting
+its own researcher's part, and worth knowing once.[5]
 
-Those grades are the whole of the lesson here. The working group found **limited evidence in
-humans**, with positive associations reported for cancers of the breast, prostate, colon and rectum;
-**sufficient evidence in experimental animals** for alteration of the light and dark schedule; and
-strong mechanistic evidence.
+The grades, as the summaries give them: **limited evidence in humans**, with positive associations
+reported for cancers of the breast, prostate, colon and rectum, which are "associations" in lesson 3's
+sense of the word; **sufficient evidence in experimental animals** for alteration of the light and
+dark schedule; and strong mechanistic evidence.[3]
 
-**What Group 2A says** is that the evidence something can cause cancer in people has reached a
-particular grade. That is a statement about a literature.
+**What Group 2A says.** In the announcement's words, "The IARC classifies agents into four risk
+categories on the basis of the strength of the evidence on whether the substance or agent causes
+cancer. Group 2A is the second highest category in terms of the level of certainty of the
+evidence."[5] Put in the working group's own terms, having looked at the human, animal and
+mechanistic evidence together, they judged that night shift work probably causes cancer in people.
+The word "probably" is theirs. That is a judgement about a literature.
 
 **What Group 2A does not say** is how much anybody's risk changes. No number attaches to the label,
 this course has read none, and a classification and a risk estimate are different kinds of thing.
 
-And a summary from an institute whose researchers took part puts the caveat plainly: "the mechanisms
-underpinning the association between night shift work and cancer in humans have still not been fully
-established."[3]
+Kogevinas put both halves in one breath: "We consider that the evidence suggests a link between night
+shift work and breast, prostate and colorectal cancer. The evidence in animals is conclusive, but the
+mechanisms underpinning the association between night shift work and cancer in humans have still not
+been fully established."[5] This course can't fully reconcile "strong mechanistic evidence" with that
+caveat from what it read. The grade covers the mechanistic evidence as a whole, and the caveat is
+about humans in particular.
+
+He also said what he thinks follows. The category, in his words, "implies that more research is
+needed and also that preventive measures should be taken", and the measures he named were to "avoid
+long-term night shift work over many years and also eliminate shifts that require people to work many
+nights a week", while saying in the same breath that "we need people to work night shifts in many
+sectors".[5] **That's one working-group chair's view about how schedules are designed**, reported by
+his own institute. It isn't the classification, and it isn't advice to anybody about their job.
+
+:::checkpoint A friend who works permanent nights reads that her job is "probably carcinogenic". What can this lesson tell her, and what can't it?
+
+It can tell her what the label is: a grade for how strong the evidence is that night shift work can cause cancer, the second highest of the agency's four groups, resting on limited human evidence, sufficient animal evidence and strong mechanistic evidence.
+
+It can't tell her how much her own risk changes, because the label carries no number and this course read none. It can't tell her whether her pattern of nights differs from the ones studied, because nothing here distinguishes shift patterns. And it can't tell her what to do, which is hers to decide, with whatever her employer and her doctor can add.
+:::
 
 **This course has no advice for anybody who works nights.** Nurses, drivers, bakers and police
 officers mostly don't choose their schedules, and a course that treated night work as a lifestyle
 error would be making a claim about people's lives that nothing in its sources supports.
 
-## Three things people get wrong about timing
+## Five things people get wrong about timing
 
-"Night owls are just undisciplined." Chronotype is a measured quantity with a laboratory gold
-standard, and where it comes from is outside anything this course read.[1]
+"Night owls are just undisciplined." Chronotype is where your clock settles relative to light, and
+its gold standard is a hormone assay, not the time you choose to get up.[1] Where anybody's comes from
+is outside what this course read, and the light section above shows the clock does move with light,
+so this lesson can't tell you how much of anybody's lateness is choice. What it can say is that the
+same bedtime falls at different points in two people's biological night.
 
-"Light before bed is bad for you." Light in the early biological night delays the clock and light in
-the late biological night advances it.[2] Which of those you want depends on which way you're trying
-to move, and neither is a verdict.
+"Light before bed is bad for you." The evidence here supports something narrower. Bright light early
+in your biological night delays the clock,[2] which is the wrong direction if you're trying to sleep
+earlier and may be the right one before a night shift. What this course can't tell you is whether the
+light in your bedroom is bright enough to matter, because nothing here measured it.
+
+"My body clock is fixed, so there's nothing to be done about when I sleep." One hour of bright light
+moved the clock across a fitted range of over two hours in a laboratory.[2] Whether the light you
+actually get moves yours enough to matter is what nobody here measured.
+
+"Social jetlag is a diagnosis." Social jetlag is a researcher's name for the difference between your
+mid-sleep on work days and on free days. This course holds that definition at search-summary level
+only, has no figure for how large it usually is, and has read nothing linking it to any health
+outcome.[4] It's a measurement, not a condition.
 
 "Group 2A means night work gives you cancer." It grades the strength of the evidence that something
 can cause cancer, and carries no risk figure at all.[3]
 
 ## Practice
+
+Before the exercise, one worked through, with a step left for you.
+
+:::predict Somebody falls asleep at twenty to midnight on a free night and wakes on their own at twenty past eight. They slept 8 hours 40 minutes. What's their mid-sleep?
+
+Half of 8 hours 40 minutes is 4 hours 20 minutes. Add that to twenty to midnight and you get four in the morning.
+
+If you got a time near half past three or half past four, check the step across midnight: from 11:40 p.m., twenty minutes takes you to midnight and the other four hours take you to 4:00 a.m.
+:::
 
 :::exercise Work out your own mid-sleep
 
@@ -312,8 +371,8 @@ Then two lines.
   it, and the real measurement is the hormone assay. **You have a proxy for a proxy**, which is worth
   having as long as you say so.
 
-If you have no free days, that is itself the finding, and it is what the next lesson's subject and
-lesson 8's decision are for.
+If you have no free days, that is itself the finding, and lesson 8's decision is where you'd weigh
+what to do about it.
 :::
 
 :::exercise Make one piece of light advice checkable
@@ -352,9 +411,10 @@ or about when.
   access. **This course read the abstract in full and one sentence of the introduction.** Worth it
   for the design alone: eighteen circadian phases, one hour of light each, and a hormone measured
   before and after under constant routine.
-- **The Munich ChronoType Questionnaire**, which is the instrument the chronotype paper shortens.
-  **Not read for this course beyond the abstract and the section defining the measure**, and if you
-  want to answer it properly, that is where to go rather than to any summary of it.
+- **[The µMCTQ paper](https://doi.org/10.1177/0748730419886986)**, Ghotbi and colleagues, 2020. Open
+  access. **This course read the abstract and the section defining the measure.** It shortens the
+  standard Munich ChronoType Questionnaire from 17 questions to 6. The full questionnaire wasn't read
+  here, and if you want to answer it properly, that is where to go rather than to any summary of it.
 
 ## Sources
 
@@ -373,13 +433,26 @@ or about when.
    peak-to-trough amplitude, the 40 per cent against 15 per cent comparison and the word non-linear,
    and the direction of the shift in early and late biological night.
 3. International Agency for Research on Cancer, *IARC Monographs* Volume 124, "Night Shift Work",
-   2019. **Not read. Search-summary level only**, from the agency's announcement as reported in
-   secondary summaries, which the body says. Supports: the Group 2A classification, the three
-   evidence grades, the four cancer sites named, and the quoted caveat about mechanisms. **No risk
-   figure appears in this lesson because none was read.**
+   2019, and the working group's summary, "Carcinogenicity of night shift work", *The Lancet
+   Oncology*, 2019, doi 10.1016/S1470-2045(19)30455-3. **Neither was read.** The classification's
+   grades reach this course through secondary summaries, which the body says. Supports: the Group 2A
+   classification, the three evidence grades and the four cancer sites named. **No risk figure
+   appears in this lesson because none was read.**
 4. **The course's own constructions, each labelled where it appears in the body.** Ana and Ben are
    invented and the body says so. **The reading of "biological night" as meaning that one clock time
    is a different circadian phase in two people is this course's**, said as such at the point of
    use. **The five-and-a-half-hour figure for the longer exposure is this course's arithmetic on the
    abstract's own two figures** and is labelled as such where it appears. **The expectation that most
    light advice specifies neither timing nor intensity is an expectation**, and the exercise says so.
+   So is the opening remark that little of what people are told about sleep is about timing. The
+   glosses of circadian and biological night are plain-language background, not quotations. The
+   crossing point on the curve is the course's reading of its shape, and the guess that most people
+   on a conventional schedule wake in their late biological night is a guess. **The definition of
+   social jetlag is held at search-summary level only**, from summaries rather than from the paper
+   that introduced the term, and no figure or outcome is given for it because none was read.
+5. ISGlobal, ["IARC Retains 'Probably Carcinogenic' Classification for Night Shift
+   Work"](https://www.isglobal.org/en/-/iarc-retains-probably-carcinogenic-classification-for-night-shift-work),
+   15 July 2019. **Read in full.** An institute's announcement about its own researcher, Manolis
+   Kogevinas, who chaired the working group's epidemiology subgroup, which the body says. Supports:
+   the four categories and where Group 2A sits, the 2007 first assessment, and every quotation from
+   Kogevinas, including the mechanisms caveat and his view on preventive measures.

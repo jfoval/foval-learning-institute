@@ -45,3 +45,4 @@ Findings that belong to the course rather than to any one lesson, from the Stage
   quotation itself stayed verbatim. Hours in bed read as hours slept; a subset of devices read as
   all of them; a reference group invented for a meta-analysis. **`npm run quotes` cannot see any of
   these**, because the marks are clean.
+- **Per cent and percent are mixed** across the course: bodies say "per cent", quizzes "percent". Pick one before publish (from lesson 4's review, 2026-09-23).

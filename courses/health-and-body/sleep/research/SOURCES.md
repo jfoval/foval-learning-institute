@@ -638,20 +638,62 @@ told to get seven hours has been told nothing about when.
 ## 13. Shift work, which is where sleep timing meets a real outcome
 
 **International Agency for Research on Cancer, *IARC Monographs* Volume 124, "Night Shift Work",
-evaluation published June 2019.** **Not read. Search-summary level only**, from IARC's own
-announcement as reported by a research institute involved in the working group and by the summary
-published in *The Lancet Oncology* (doi 10.1016/S1470-2045(19)30578-9), neither of which this course
-opened in full.
+evaluation published June 2019.** **The monograph was not read**, and nor was the working group's
+summary in *The Lancet Oncology*, "Carcinogenicity of night shift work", doi
+10.1016/S1470-2045(19)30455-3. *(This entry previously gave the DOI as 10.1016/S1470-2045(19)30578-9,
+which Crossref resolves to a different item, "Night shift work and its carcinogenicity"; corrected
+2026-09-23.)*
 
-At that level, established:
+**Read in full on 2026-09-23: ISGlobal's announcement, "IARC Retains 'Probably Carcinogenic'
+Classification for Night Shift Work", dated 15.07.2019**, at
+isglobal.org/en/-/iarc-retains-probably-carcinogenic-classification-for-night-shift-work. ISGlobal is
+the Barcelona Institute for Global Health, and the announcement is about its own researcher, Manolis
+Kogevinas, who the page says "also chaired the Epidemiology working group" of the 27 experts from 16
+countries. **That is a declared interest in the sense of `docs/SOURCE_NOTES.md`**: an institute
+reporting its own researcher's part in an evaluation, which a lesson states once.
+
+Verbatim from that page:
+
+> "The IARC classifies agents into four risk categories on the basis of the strength of the evidence
+> on whether the substance or agent causes cancer. Group 2A is the second highest category in terms
+> of the level of certainty of the evidence."
+
+> "This is the second time the IARC has evaluated the carcinogenicity of night shift work. Following
+> the first assessment in 2007, night work was classified as a group 2A agent."
+
+Kogevinas, quoted by the page (the page's own quotation marks open before "We consider" and do not
+visibly close before "He goes on", so the whole run is attributed to him):
+
+> "Although there are many more studies available today, we have still not been able to make a
+> clearer assessment,"
+
+> "We consider that the evidence suggests a link between night shift work and breast, prostate and
+> colorectal cancer. The evidence in animals is conclusive, but the mechanisms underpinning the
+> association between night shift work and cancer in humans have still not been fully established."
+
+> "the probably carcinogenic category indicates a higher level of evidence than possibly carcinogenic
+> but less than definitely carcinogenic. This implies that more research is needed and also that
+> preventive measures should be taken."
+
+> "Our society functions around the clock and we need people to work night shifts in many sectors,
+> including health care, transport, hospitality and industry, for example. What we can do is avoid
+> long-term night shift work over many years and also eliminate shifts that require people to work
+> many nights a week."
+
+**Two things this changes.** The mechanisms caveat, which lessons had attributed to "a summary from
+an institute", is **Kogevinas's own sentence**, and it sits in the same breath as "the evidence
+suggests a link". Quoting the caveat without the sentence before it is defect 9. And the page gives
+the hazard side a voice in the same person: "preventive measures should be taken", with the two
+measures he names. Those are a working-group chair's view about schedules and not the
+classification itself, and a lesson must say so rather than present them as IARC's recommendation.
+
+At the level of the monograph's grades, as reported in secondary summaries and not checked against
+the monograph:
 
 - The working group classified night shift work as **"probably carcinogenic to humans" (Group 2A)**.
 - The classification rests on **limited evidence in humans**, with positive associations observed for
   cancers of the breast, prostate, colon and rectum; **sufficient evidence in experimental animals**
   for alteration of the light–dark schedule; and **strong mechanistic evidence**.
-- A summary from an institute whose researchers took part puts the caveat plainly: "the mechanisms
-  underpinning the association between night shift work and cancer in humans have still not been
-  fully established."
 
 **This is a trap and an opportunity at once.** The Group 2A label is one of the most misreported
 things in public health: it is a statement about **how strong the evidence is that something can
@@ -710,7 +752,9 @@ does**, so no lesson may give screen advice in either direction.
 at a different hour moves the clock the opposite way, which is why "get more light" and "avoid light"
 are both sometimes right and neither is advice without a time attached. The second is the
 **non-linearity**: one hour of light produced about 40 percent of the shift that 6.7 hours produced,
-which means most of the effect arrives early and the rest costs a great deal more exposure.
+which means the first hour does far more than its share and the remaining 5.7 hours together
+produced the other 60 percent. *(Corrected 2026-09-23: this line said "most of the effect arrives
+early", which 40 percent is not.)*
 
 **And note the instrument, again.** Phase was measured as the change in dim-light melatonin onset
 under a constant routine in under three lux. That is the gold standard source 12 named, and this is
