@@ -1,6 +1,7 @@
 ---
 title: Reading a claim about your habits
 minutes: 90
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/learning-and-mind/habits-and-self-discipline/07-reading-a-claim-about-your-habits.mp3
 objectives:
   - >-
     Sort a piece of habit advice into measurable, unmeasurable as stated, or false, and say what
