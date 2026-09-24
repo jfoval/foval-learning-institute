@@ -1,6 +1,7 @@
 ---
 title: What is offered to somebody sleeping badly
 minutes: 80
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/health-and-body/sleep/06-what-is-offered.mp3
 objectives:
   - >-
     State what chronic insomnia disorder is, how common it is, and what the first-line treatment
