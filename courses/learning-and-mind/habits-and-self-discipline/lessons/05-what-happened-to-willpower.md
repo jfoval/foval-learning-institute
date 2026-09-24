@@ -1,6 +1,7 @@
 ---
 title: Self-control, and what happened to the famous account
 minutes: 95
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/learning-and-mind/habits-and-self-discipline/05-what-happened-to-willpower.mp3
 objectives:
   - >-
     State what the resource model of self-control claimed and what evidence was thought to support
