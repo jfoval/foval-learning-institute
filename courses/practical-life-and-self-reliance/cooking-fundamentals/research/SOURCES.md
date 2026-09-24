@@ -3195,6 +3195,14 @@ this course). One extension publication gives times:
   1 quart about 1%; ATK's brine, 3 tablespoons in 4 quarts, about 1.4%, taking a quart as 946 g of
   water).
 
+**Full sentences the lesson quotes where the entries above or Part B give only part** (all direct,
+from the texts already listed):
+- Bad Bug Book, *B. cereus* consumer box: "One of the most important things you can do to protect yourself from infection with B. cereus is to keep your food refrigerated at 40°F or lower."
+- Bad Bug Book, kidney beans: "Consumers should boil the beans for at least 30 minutes to ensure that the product reaches sufficient temperature, for a sufficient amount of time, to completely destroy the toxin." And: "Studies of casseroles cooked in slow cookers revealed that the food often reached internal temperatures of only 75°C or less, which is inadequate for destruction of the toxin."
+- Bad Bug Book, kidney beans: "White kidney beans, another variety of Phaseolus vulgaris, contain about one-third the amount of toxin as the red variety; broad beans (Vicia faba) contain 5% to 10% the amount that red kidney beans contain." *B. cereus*: "Foods that were associated with outbreaks included beef, turkey, rice, beans, and vegetables."
+- ATK, Lam 2023: "Only the most sensitive palates could discern any difference between the samples." (Already in the entry above; repeated here as the lesson quotes it.)
+- McGee 2009: "Because the noodles absorb water only very slowly at temperatures much below the boil, so little happens to them in the few minutes it takes for the water to heat up. And no matter how starchy the cooking water is, the solid noodle surfaces themselves are starchier, and will be sticky until they’re lubricated by sauce or oil."
+
 ## Stage 4 note, lesson 7
 
 *Stage 4 review of lesson 7, 2026-09-24. The AOL copy of Gritzer's article was downloaded again
@@ -3361,6 +3369,157 @@ book and other people's blogs. Two recipes were read instead, and they give the 
   vinaigrette separates in time however it is whisked. Part C 8c's "honey helps it hold" has no
   source here; not printed.
 
-**Also read, not used:** the C&G handbook's "chill to below 5°C within 90 minutes" (Part A 3.6) is a
-UK professional-qualification standard; a lesson may give it as that, beside the FSA's consumer
+**Also used, from Part A:** the C&G handbook's "chill to below 5°C within 90 minutes" (Part A 3.6) is a
+UK professional-qualification standard; lesson 10 gives it as that, beside the FSA's consumer
 advice, and not as UK law.
+
+## Gate closures, lesson 11
+
+*Stage 3 top-up for lesson 11, 2026-09-24. Every page below was downloaded with curl and its text
+extracted locally, except the GOV.UK page, which came through the GOV.UK Content API. Quotations
+are copied from that text, direct. Nothing here is on the unread line. **The ATK article below
+names the newspaper writer of the 2006 recipe; per the outline's decision 7 no lesson names him or
+the paper's column, and Lahey is named only as the baker whose recipe ATK describes.***
+
+**G12, salt in bread: closed** at source, by King Arthur's professional reference page and a King
+Arthur baker's blog, which give slightly different upper bounds.
+
+- **King Arthur Baking, "Salt"**, professional reference page, no author or date on the page,
+  https://www.kingarthurbaking.com/pro/reference/salt . Read: full, direct.
+  - "Generally, the correct amount of salt in bread dough is 1.8 to 2% of salt based on flour weight (that is, 1.8–2 pounds of salt per 100 pounds of flour)."
+  - "while salt provides flavor, it is not a substitute for the fine flavor of well-fermented flour, and the role of salt is to enhance, not to take the place of, true bread flavor."
+  - "Salt tightens the gluten structure. The tightening gives strength to the gluten, enabling the dough to efficiently hold carbon dioxide, which is released into the dough as a byproduct of the yeast fermentation. When salt is left out, the resulting dough is slack and sticky in texture, work-up is difficult, and bread volume is poor."
+  - "If there is an excess of salt in bread dough, the yeast is retarded to the point that there is a marked reduction in volume. If there is no salt, the yeast will ferment too quickly."
+  - "In the absence of salt, the yeast quickly consumes the available sugars, and the crust on the baked bread is pale and dull."
+  - "Salt quantity, as we have noted, should stay within the 1.8–2% range."
+- **Martin Philip, "What is baker's math, and how can I use it in my everyday bread baking?"**,
+  King Arthur Baking blog, 28 April 2022,
+  https://www.kingarthurbaking.com/blog/2022/04/28/what-is-bakers-math-and-how-can-i-use-it-in-my-everyday-bread-baking .
+  Read: full text, direct; the formula tables are images and were not read.
+  - "The total weight of flour is always treated as 100%, and all other ingredients are measured against that flour weight to convert the recipe into percentages."
+  - "Are there firm rules that prescribe percentage amounts of water, fat, sugar, yeast, or other ingredients in a bread recipe? Unfortunately, the answer is no. From brioche to baguettes, bakers tend to apply their own standards. Salt is the only exception and can generally be calculated at 1.8% to 2.2%."
+  - On hydration: "the primary baker’s math consideration for hydration is water. Other liquids that contain a majority portion of water, such as milk or beer, can also be considered as hydration." Fats, "even liquid fats", are not counted.
+- **What a lesson may say:** King Arthur's reference page puts salt at 1.8 to 2% of flour weight; a
+  King Arthur baker's post puts it at 1.8 to 2.2% and calls salt the one ingredient with a
+  near-standard figure. Both are one company's; no second baking authority was read.
+
+**Also read for lesson 11.**
+
+- **King Arthur Baking, "Baker's Percentage"**, professional reference page, no author or date,
+  https://www.kingarthurbaking.com/pro/reference/bakers-percentage . Read: the text, direct; its
+  worked formulas are tables that did not come through, so no figure from them is used.
+  - "each ingredient in a formula is expressed as a percentage of the flour weight, and the flour weight is always expressed as 100%."
+  - "hydration is defined as the percentage of liquid in a dough, again based on the flour weight"
+  - On scaling: "We establish this by adding the percentages of the formula, which in this case total 168.25. Then divide our new desired dough weight by the sum of the percentages". It calls the result the Formula Conversion Factor, and rounds it up: "it is better to have a little extra bread rather than not enough".
+- **King Arthur Baking, "Yeast"**, professional reference page, no author or date,
+  https://www.kingarthurbaking.com/pro/reference/yeast . Read: full, direct.
+  - "During fermentation, yeast and bacteria consume sugars, and the resulting products are alcohol and carbon dioxide."
+  - "Although yeast requires oxygen for its reproduction, in reality there is almost no reproduction occurring in bread dough, and the rise we see is almost entirely due to gas production during fermentation."
+  - "Dough temperature is crucial for yeast activity. For commercial yeast, the optimum temperature for fermentation is 86° to 95°F or even higher. It is important to note, however, that a dough temperature in this range is inappropriate; although fermentation would be favored, it would occur at the expense of flavor development, which requires lower temperatures."
+  - "During fermentation, food is provided to the yeast by the conversion of starches (by amylase enzymes) into sugar. The yeast ferments the sugar, and as a result of this fermentation, carbon dioxide gas and alcohol are produced. The CO2 is trapped by the gluten network in the dough, and provides volume to the baked loaf. The alcohol is largely evaporated during the baking of the bread."
+- **Recheck of Part C 8d [T]: J. Kenji López-Alt, "No-Knead Bread 2.0"**, America's Test Kitchen,
+  published 1 January 2008, https://www.americastestkitchen.com/articles/41-no-knead-bread-2-dot-0 .
+  Read: **full, direct** (the article text is served on the page; this replaces Part C's "partial").
+  The [T] figure is verbatim. ATK's own recipe page for its version ("Almost No-Knead Bread",
+  recipes/4028) is marked paywalled and was not used.
+  - The original: "developed by Jim Lahey of the Sullivan Street Bakery in Manhattan"; "Mix a few cups of flour, a tiny amount of yeast, and a little salt together in a bowl; stir in some water until the ingredients just come together; and leave the dough to rise. After 12 to 18 hours, the dough is turned a couple of times, shaped, risen, and baked in a Dutch oven."
+  - The problem: given to "five inexperienced bakers", the loaves "varied wildly in size and shape, ranging from rounded mounds to flat, irregular blobs", and "the flavor of the crumb fell flat in every sample."
+  - "The wetness of the dough was making it too delicate to handle. Though it was well risen before baking, it was deflating on its way into the pot. In addition, because of its high moisture content, the dough was spreading out over the bottom of the pot before it could firm up properly."
+  - "its dough is 85 percent hydrated— meaning that for every 10 ounces of flour, there are 8.5 ounces of water. Most rustic breads, on the other hand, max out at around 80 percent hydration, and standard sandwich breads are never more than 75 percent hydrated."
+  - At 70%: "Instead of an open, airy crumb structure, it was dense and chewy, with rubbery pockets of unleavened flour."
+  - Photo captions: "50 percent hydration: This loaf had the smallest ratio of water to flour, resulting in a weak gluten network. As a result, the loaf was small and dense with a tight crumb." "68 percent hydration: With a typical hydration level of 68 percent, this loaf rose and expanded well, possessing modest-sized holes." "80 percent hydration: This loaf had the greatest ratio of water to flour, causing the gluten network to be weak and diluted. Therefore, the loaf was flat and wide with large air pockets."
+  - Gluten: "a strong network of cross-linked proteins that traps air bubbles and stretches as the dough bakes"; "In order to form these cross-links, the proteins in the flour need to be aligned next to each other." The yarn image, consecutive with the sentence before it: "In order to form these cross-links, the proteins in the flour need to be aligned next to each other. Imagine the proteins as bundled-up balls of yarn that you are trying to tie together into one longer piece, which you’ll then sew together into a wider sheet." "This straightening out and aligning is usually accomplished by kneading."
+  - Autolysis: "enzymes naturally present in wheat act like scissors, cutting the balled-up proteins into smaller segments that are easier to straighten during kneading." "The more water there is, the more efficiently the cut-and-link process takes place." "In most recipes, autolysis is just 20 to 30 minutes".
+  - The fix: "adding just 15 extra seconds to the no-knead recipe"; "I could actually reduce the minimum time of the rest period from 12 hours to 8 hours." Flavour: a tablespoon of distilled white vinegar and a mild lager.
+- **Martin Philip, "Why this pro baker doesn't knead"**, King Arthur Baking blog, 8 October 2021,
+  https://www.kingarthurbaking.com/blog/2021/10/08/mix-and-fold-in-bread-dough . Read: full, direct.
+  - "when we mix flour with water, the components of gluten come together, forming an elastic, extensible network. This happens without kneading or mixing: simply add water, wait, and voilá, a cohesive dough forms. Further, time also allows for fermentation, which has additional strengthening effects on dough."
+  - "Folds take the short chains of gluten that form in the bowl during mixing and fermentation and link them together, further building structure."
+  - "Ultimately, the key here is not either — it’s both. The combination of time and folds makes the magic happen."
+  - Hamelman's baguette: "a hand-mixed dough, barely stirred together, with a tiny amount of yeast. He folded it twice per hour for 3 hours".
+- **Michael Ruhlman, "Bake Your Own 5:3 Bread"**, ruhlman.com, published 27 March 2013, modified
+  27 February 2021, https://ruhlman.com/bread-ratio-5-3/ . Read: full, direct. **Rechecks Part A
+  1.4's fetch-tool quotation, which is verbatim:** "a basic bread ratio of 5 parts flour to 3 parts
+  water can be turned into pizza dough, flat bread, or even a braided loaf with kosher salt". The
+  post gives no salt or yeast figure. A commenter calls 3:5 "awfully simplistic for the world of
+  bread"; a commenter, not used.
+- **King Arthur Test Kitchen, "Absolutely No-Knead Crusty-Chewy Bread"**, recipe, no date on the
+  page, https://www.kingarthurbaking.com/recipes/absolutely-no-knead-crusty-chewy-bread-recipe .
+  Read: full, direct. **The readable primary for the lesson's no-knead loaf**, chosen because it is
+  free to read and gives grams.
+  - Ingredients: "5 cups (600g) King Arthur Unbleached Bread Flour"; "1/4 teaspoon instant yeast"; "2 1/4 teaspoons (14g) table salt"; "2 2/3 cups (605g) water, cool"; cornmeal or semolina for the pan.
+  - "The dough is stirred together; rests for 10 hours; is put into a crock; rises for 2 hours, and bakes for 45 minutes."
+  - Pot: "a 4- to 4 1/2-quart round, deep covered crock, Dutch oven, or casserole dish. It must be oven-safe (obviously); it really does need a lid, and it has to be deep enough (about 4\") to hold the rising dough."
+  - Rest "at cool room temperature for 10 to 12 hours"; "about 68°F to 70°F is ideal." Can shorten "the initial rest to 8 hours".
+  - "After its rest, the dough should be very bubbly and will have risen quite a bit."
+  - The crock is greased and dusted, the dough stirred down and scooped in, lidded, and left "1 1/2 to 2 hours"; oven preheated to 450°F; the dough "will have risen about 1/2\" and show some large bubbles on the surface, though it’ll be flat across the top, not domed."
+  - "Bake the bread for 45 minutes with the lid on. Remove the lid and bake for an additional 5 to 10 minutes".
+  - "slicing hot bread makes it irretrievably gummy." "If the dough rests too long in the crock before baking, it may fall."
+  - The crock is not preheated in this recipe. **Baker's percentages are the course's arithmetic:** water 605/600 = about 101%; salt 14/600 = about 2.3%, above both King Arthur ranges for salt; yeast about 0.75 g (from the weight chart below) = about 0.13%.
+- **King Arthur Baking, "Ingredient Weight Chart"**, https://www.kingarthurbaking.com/learn/ingredient-weight-chart .
+  Read: the rows used, direct. "Yeast (instant)", 2 teaspoons, 6 g. "Salt (table)", 1 tablespoon,
+  18 g. "Salt (Kosher, Diamond Crystal)", 1 tablespoon, 8 g. "Salt (Kosher, Morton's)", 1
+  tablespoon, 16 g. "Bread Flour", 1 cup, 120 g.
+- **PJ Hamel, "Using a thermometer with yeast bread"**, King Arthur Baking blog, 7 April 2017,
+  https://www.kingarthurbaking.com/blog/2017/04/07/using-a-thermometer-with-yeast-bread . Read: full, direct.
+  - "Most loaves and rolls will indeed be done when they register 190°F at their center."
+  - "some bakers argue that large, dense/hearty whole grain rounds should be baked to an internal temperature of 205°F to 210°F". Her test: "Even a large, fairly dense whole grain loaf is fully baked at 190°F."
+  - "I learn later that bread's interior temperature will never rise above 212°F, since that's the boiling point of water (and the temperature of steam, which water becomes as it evaporates from the loaf)."
+  - Baguettes are judged by crust colour, not temperature. "Gluten-free yeast bread needs to bake to 205°F in order to gelatinize its starches". "Bakers working at high altitude should reduce the desired internal temperature of their breads by about 5°F".
+  - The tap test: "a perfectly good method".
+- **Martin Philip, "For crispy, crackly crusts, put a lid on it"**, King Arthur Baking blog,
+  27 February 2024, https://www.kingarthurbaking.com/blog/2024/02/27/covered-baker-bread-steaming .
+  Read: full, direct. **The post also sells King Arthur's Baking Shell**; the lid principle does
+  not depend on it.
+  - "During the early stages of baking, as the loaf springs and quickly heats, it’s important that the crust remains supple (moist) for as long as possible. Moist conditions allow the loaf to expand more fully — the crust will stretch rather than dry out and set."
+  - "if you’re using a closed vessel, trapped moisture (from the loaf itself) remains in place, settling on the crust and preventing it from setting too soon."
+  - "For best results, be sure to preheat the vessel fully. A hot pot makes the bread jump (what we call “oven spring”) well".
+  - "As important as the moist period of baking, the drying period is key for crust firmness and full color (and flavor)."
+  - His test: two loaves from one batch, one uncovered without steam, one covered; the uncovered one had "much less volume, a tighter interior structure".
+- **FSA, "Handling flour and flour products safely"**, GOV.UK, published 11 April 2024,
+  https://www.gov.uk/government/publications/handling-flour-and-flour-products-safely/handling-flour-and-flour-products-safely .
+  Read: full, direct, through the GOV.UK Content API. **Closes Part B 8's "found, not read".**
+  - "Getting ill from uncooked flour or flour products is rare as they are mostly used as an ingredient in foods to be to be baked or cooked. Thorough cooking makes uncooked flour safe to eat. Food poisoning bacteria have been found in flour and pastry products in the UK, and there are examples from other countries where similar products have been linked to outbreaks of illness." (The doubled "to be" is on the page.)
+  - "This is because flour is not usually treated during processing to kill any food poisoning bacteria that may be present."
+  - "do not eat or taste uncooked flour or flour products, such as pastry, cookie dough, pizza dough and batter, such as cake mix, unless labelling indicates they are ready to eat"
+  - "keep flour and flour mixes (e.g. bread or cake mix) in a sealed bag or container - flour can spread easily and contaminate other foods"
+  - Vulnerable people named: "young children, those with compromised immune systems and older people".
+  - Home heat treatment: "while heat treatments applied in the home may reduce the risk, we can’t be certain that they will kill any harmful bacteria that might be present and eliminate the risk completely."
+- **King Arthur Baking, "Flour Safety"**, policy page, no date, https://www.kingarthurbaking.com/policies/flour-safety .
+  Read: full, direct. A miller's own statement.
+  - "Flour is considered a raw ingredient and it should never be consumed without being cooked or baked first."
+  - "It is rare for consumers to get sick from flour, however it can happen".
+  - "all surfaces, hands, and utensils need to be properly cleaned after they have made contact with raw flour, dough, or batter. This includes surfaces or cutting boards that have been dusted with flour".
+
+**Not found:** a second, independent baking authority for the salt range (the two read are both King
+Arthur); a primary source naming the gluten-forming proteins (Part C 8d names them without a read
+source, so the lesson does not); any read source saying how fast an under-risen dough fails, so the
+lesson reasons from the yeast page and labels it.
+
+## Stage 4 note, lesson 9
+
+*Added by the lesson 9 reviewer, 2026-09-24. Every primary the lesson rests on was downloaded again
+with curl and its text extracted (GOV.UK Content API; the Bad Bug Book PDF through pdftotext; both
+NHS Internet Archive captures; the ATK pages; McGee's hosted PDF; PubMed efetch; Europe PMC full
+text). Every quotation in lesson 9 matched. The lines below add to "Gate closures, lesson 9".*
+
+- **NDSU Extension FN1939** (Garden-Robinson), direct, the sentence after the fridge rule, which is
+  its stated reason: "Beans may contain bacteria that can grow to harmful levels or produce a toxin if they remain at room temperature too long." So the gate closure's "none of them explains the difference" was too broad: NDSU gives a reason, and none of the three sources says why its own cut-off (4 hours, 12 hours, 24 hours) is where it is.
+- **Colorado State "Cooking Dry Beans"** says nothing about soaking at room temperature; its only
+  soaking-temperature statement is the 12-hour fridge rule. It does back ATK's salted soak ("Adding
+  salt to the soaking water can shorten cooking time", recorded above).
+- **Lisa Peterson, "Kidney Beans and Slow Cookers"**, University of Illinois Extension, Live Well.
+  Eat Well. blog, 29 February 2024,
+  https://extension.illinois.edu/blogs/live-well-eat-well/2024-02-29-kidney-beans-and-slow-cookers .
+  Read: the page, direct. "Raw white (cannellini) kidney beans contain about one-third as much PHA as kidney beans." It cites the Bad Bug Book. **This is the citable source for cannellini being white kidney beans**, which lessons 8 and 9 had asserted with no source.
+- **Pang and colleagues 2016**: the author list gives two affiliations, the Chinese Academy of
+  Agricultural Sciences and the International Rice Research Institute; "breeders at IRRI" alone
+  was too narrow. The high/low amylose sentence is the introduction's summary of earlier work
+  (its reference 4), not the paper's own finding.
+- **ATK rice recipes, rechecked:** Fluffy White Rice lines the lid with a towel *while cooking* and
+  rests "on burner, still covered" with the heat off; Basic White Rice puts the folded towel under
+  the lid for the 10 to 15 minute rest; Everyday White Rice uses no towel and doubles in a Dutch oven
+  in a 350-degree oven at 4 cups to 6. Everyday and Basic both use 2 cups of rice to 3 of water.
+- **McGee 2009**, direct: the standard method is the one "found in Italian cookbooks and on pasta
+  packages". His hot-start finding: "it’s possible to butta la pasta in 1 1/2 or 2 quarts of boiling water without having the noodles stick."
+- **Bad Bug Book**, direct: "This syndrome has occurred in the United Kingdom with some regularity." "Reports of this syndrome in the United States are anecdotal and have not been formally published."
