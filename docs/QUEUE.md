@@ -26,8 +26,16 @@ Rewrite these five lines each session. Nothing else goes in this block.
   and neither was re-rendered on a number: lesson 10's last minute has John low (78 Hz) in his
   closing speech at a steady level, and lesson 11 has John about 6.6% above his reference throughout.
   Term 2 renders began the same night: **Focus and Deep Work is FINISHED**, all seven live; lesson 5
-  has John low in its back half at a steady level, also worth a listen. The next render order is
-  `npm run state`.
+  has John low in its back half at a steady level, also worth a listen. **Memory is FINISHED**, all
+  seven live. **Habits and Self-Discipline has six of seven live; lesson 2 is held, not uploaded.**
+  Its script is about 80% John by words and the render measures John 13%, Haley 63% throughout, so
+  Haley probably voiced John's lines. It passed the (deliberately loose) gate, so `render --go`
+  copies the kept file rather than paying again: **John listens to
+  `audio-out/learning-and-mind/habits-and-self-discipline/02-how-much-runs-itself.mp3`**, and if it
+  is wrong, the passed attempt in that episode's manifest is marked failed and it is rendered once
+  more. Until then `npm run state` keeps pointing at it; work past it in term order by hand. Other
+  episodes worth a listen, none re-rendered: Habits 3 and 5 (John low), Memory 3 (Haley 40% of the
+  audio for 17% of the words) and Memory 7 (John low).
 - **Using AI Effectively is FINISHED.** T1, sixth of seven. Eleven lessons, every one
   through Stage 4 with its review applied, the voice pass done, the neutrality audit passed, both
   assessments written, and eleven fact-checked podcast scripts. Nothing on it is outstanding except
