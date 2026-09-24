@@ -51,7 +51,7 @@ reset:
 owed:
   # course id (the folder name)   : episodes still to render
   sleep: 8
-  mental-fitness: 5
+  mental-fitness: 4
   bible-basics: 5
   habits-and-self-discipline: 1
   note-taking: 8
