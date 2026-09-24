@@ -108,7 +108,7 @@ against the list below and bring it up to date. If you didn't, write it now.
   2026 stand's primary recommendation and WHO's "2 or more days a week" for muscle strengthening, as
   lessons 1 and 7 showed.[3][4]
 - Four slots: upper push, upper pull, lower push, lower pull, the four body regions the stand's
-  authors offer as their view.[3] For each, a home or gym version from lesson 6 that you can do about
+  authors offer as their view.[3] For each, a home or gym version from lesson 6 or 7 that you can do about
   8 to 12 times with good form. **Start below what you could do**: if you're unsure between two
   versions, pick the easier one.
 - Numbers: two sets per exercise, stopping with 2 to 3 reps in reserve, and your progression rule in
