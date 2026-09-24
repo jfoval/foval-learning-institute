@@ -1048,9 +1048,12 @@ lintLessons();
 //     is doing so, because the whole section is about what a concision pass does to that paragraph.
 //   - Bible Basics repeats its standpoint disclosure in every lesson that makes a standpoint claim,
 //     which is what standards 3.7 and courses/CLAUDE.md rule 6 ask for.
+//   - Mental Fitness carries the same crisis callout in every lesson, word for word, and a separate
+//     check enforces that it is identical (its outline's decision 1).
 const REPETITION_EXEMPT = [
   "that cost is far more than the four hundred thousand pounds left in this year s capital budget",
   "this course holds the christian reading and says so on its first line",
+  "if you re thinking about suicide or self harm or don t feel able to keep yourself safe",
 ];
 
 function checkRepetition() {
