@@ -396,7 +396,8 @@ sleep matters at a smaller size than popular accounts claim. This lesson puts a 
 design breakdown under that sentence. The figure is moderate, it is about the same size as the testing
 effect, and it is not a reason to change your study method. It is a reason not to trade the night
 before an exam for another pass through your notes, which is the one practical sentence this lesson
-thinks the evidence supports, and it is a judgement rather than a finding.
+thinks the evidence supports, and it is a judgement rather than a finding: no design in the paper
+compared a night's sleep with a night's extra study.
 
 Everything here is about laboratory memory for lists, pairs, pictures and passages, tested in most
 studies about half a day later and never more than a month later. **None of it is about exam results, skills, or anything measured over months.**

@@ -372,7 +372,7 @@ Then two lines.
   having as long as you say so.
 
 If you have no free days, that is itself the finding, and lesson 8's decision is where you'd weigh
-what to do about it.
+whether it matters to you.
 :::
 
 :::exercise Make one piece of light advice checkable

@@ -69,7 +69,7 @@ quiz:
       - It's sound, since sleepiness is the most sensitive sign of lost sleep that there is
       - It's sound for six hours, since only the four-hour group showed any decline at all
       - It proves the team is impaired, since the experiment measured people just like them
-      - It's weak, since people held to six hours rated themselves barely sleepier than before
+      - It's weak, since sleepiness ratings at six hours barely moved while performance fell
     answer: 3
     explain: >-
       Sleepiness ratings rose once and then barely moved, and didn't separate six hours from four,
@@ -81,16 +81,17 @@ quiz:
       fine, so I'm obviously one of the people who need less." Which pair of facts from this course
       means the colleague can't know that?
     options:
-      - People held to six hours in the lab felt fine too, and genuine short sleepers are rare
+      - Six hours in bed soon left people barely any sleepier, and one mutation is rare
       - Nobody can stay healthy on six hours, and the recommendation is seven for everyone
       - Short-sleep genes are common, and feeling fine is the best evidence of carrying one
       - Twenty years is too short to see an effect, and the lab studied only young adults
     answer: 0
     explain: >-
-      The restricted participants rated themselves barely sleepier while their performance fell,
-      so feeling fine is what both groups would report; and the mutation linked to natural short
-      sleep is described as rare. Together they give no way to place one person, which is the
-      closing lesson's refusal. Some people do need less, so "nobody can" is wrong.
+      After the first days the restricted participants rated themselves barely sleepier while their
+      performance fell, so feeling fine is what both groups might report; and the one mutation
+      linked to natural short sleep is described as rare. Together they give no way to place one
+      person, which is the closing lesson's refusal. The consensus statement itself says need
+      varies, so "the recommendation is seven for everyone" misreads it.
 
   # --- The recommendation and the cohorts (L3) ---
   - q: >-

@@ -241,7 +241,7 @@ None, and it is worth seeing exactly why.
 
 The recommendation is a number for a population, and it says in the same statement that need varies between people. The short sleepers show that some of that variation is real and, in some cases, genetic. And the obvious thing a person could use to place themselves, how they feel, is the thing the experiment suggests does not track what restricted sleep costs.
 
-So the three facts together rule out two easy answers. They rule out "everybody needs seven or more", because on the release's account some people naturally sleep much less. And they rule out "I feel fine so I'm one of them", because feeling fine is what both groups might report. What's left is not a number. This course's view is that it is more honest to leave you there than to give you one, in either direction.[8]
+So the three facts together rule out two easy answers. They rule out "everybody needs seven or more", because the statement itself says need varies and, on the release's account, some people naturally sleep much less. And they rule out "I feel fine so I'm one of them", because feeling fine is what both groups might report. What's left is not a number. This course's view is that it is more honest to leave you there than to give you one, in either direction.[8]
 :::
 
 That refusal cuts both ways, and both matter. It won't give you the reassuring number, that six is
@@ -250,8 +250,8 @@ seven. Neither is something this course can know about one reader.
 
 ## Three things people get wrong
 
-**"Somebody must have checked."** Somebody checked one chapter of lesson 7's book, and it took him
-more than 130 hours. For a claim you meet, the question is whether you can see who checked and how
+**"Somebody must have checked."** Somebody checked one chapter of lesson 7's book, and he reports it
+took him more than 130 hours. For a claim you meet, the question is whether you can see who checked and how
 far they read, which is what the read-level column above is for.
 
 **"The science says eight hours."** The consensus statement says seven or more, sets no upper limit

@@ -774,7 +774,7 @@ is in dispute.**
 
 ---
 
-## 9. The people who need less, and why the course cannot tell you if you are one
+## 9. The people who sleep less by nature, and why the course cannot tell you if you are one
 
 **University of California, San Francisco, "After 10-year search, scientists find second 'short
 sleep' gene", 28 August 2019**, reporting work by Ying-Hui Fu, Louis Ptáček and colleagues published
@@ -790,12 +790,16 @@ the ADRB1 paper nor the earlier DEC2 paper was opened.**
   of natural short sleepers, none of whom harbored the *DEC2* mutation." The release does not say how
   many people carry it.
 
-**This is the course's closing refusal in a paragraph.** Natural short sleep exists, it is genetic in
-at least some cases, and it is rare. **So the honest position is that a population recommendation of
-seven or more hours and a real minority who need less are both true at once**, and that nothing in
-this course can tell one reader which they are. The failure mode to guard against is a reader
-deciding they are a short sleeper because they feel fine on six, which is exactly what source 1's
-participants also reported while performing worse every day.
+**This is the course's closing refusal in a paragraph.** Natural short sleep exists and is genetic
+in at least some cases; the release calls the DEC2 mutation rare and says it does not explain every
+natural short sleeper. **So the honest position is that a population recommendation of seven or more
+hours and a minority who naturally sleep much less are both true at once**, alongside the consensus
+statement's own sentence that need varies, and that nothing in this course can tell one reader
+which they are. The failure mode to guard against is a reader deciding they are a short sleeper
+because they feel fine on six, when source 1's participants rated themselves only slightly sleepier
+after the first days while performing worse every day. *(Corrected 2026-09-23 after the neutrality
+audit: this said short sleep "is rare" and that the minority "need less", which the release does not
+say, and that the participants "reported" feeling fine.)*
 
 ---
 

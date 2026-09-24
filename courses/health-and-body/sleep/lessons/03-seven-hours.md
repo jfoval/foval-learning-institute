@@ -95,7 +95,7 @@ Lesson 2 was one experiment on forty-eight people. This lesson is a recommendati
 professional societies and a study of one million three hundred and eighty-two thousand nine hundred
 and ninety-nine people.
 
-The bigger evidence is the weaker evidence, and understanding why is the most useful thing in this
+The bigger evidence is the weaker evidence about cause, and understanding why is the most useful thing in this
 course.
 
 ## The recommendation
@@ -223,8 +223,8 @@ dose-dependent cost to short sleep, measured under control. These cohorts find s
 sooner. Neither proves the other, and a panel weighing both together is doing something reasonable
 rather than something sloppy.
 
-**And a recommendation is a decision made under uncertainty.** Sleeping seven hours costs almost
-nothing. Advising it on an association, while declining to claim the mechanism, is what public
+**And a recommendation is a decision made under uncertainty.** On that view, sleeping seven hours
+costs most people little, though it costs more to somebody on nights or working two jobs. Advising it on an association, while declining to claim the mechanism, is what public
 health does with the evidence it has rather than the evidence it wants. **The panel's own wording is
 the proof that it knew the difference.**
 

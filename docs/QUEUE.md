@@ -125,10 +125,9 @@ Rewrite these five lines each session. Nothing else goes in this block.
   Bible Basics lessons 4 and 9, Python Basics lesson 1, Logic and Argument lesson 10, and Digital
   Literacy lessons 1 and 3. **The fix is one edit each: name the distractor by its content.**
 
-- **Sleep: all eight lessons drafted and seven reviewed and applied, both assessments written.**
-  `courses/health-and-body/sleep/`, sixth in T2, **a sensitive domain under standards 3.4**.
-  **Left before publish: apply lesson 8's review, then the neutrality audit (mandatory), then publish
-  with the audio-debt entry.** Then eight podcast scripts to take it to written.
+- **Sleep is PUBLISHED**, 2026-09-23: eight lessons, both assessments, eight Stage 4 reviews applied
+  and the mandatory neutrality audit passed (entry in `research/reviews/course-wide.md`). It owes
+  eight podcast scripts to be written, which are next, and eight episodes, which trail.
 
   **Five of today's Stage 1 corrections came from opening a primary the research file had held at
   summary level**, and each changed a lesson: Berres and Erdfelder (first author's name wrong, the

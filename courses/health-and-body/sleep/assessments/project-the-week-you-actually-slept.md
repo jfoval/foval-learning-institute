@@ -161,8 +161,8 @@ because the two records are no longer independent, and the honest repair is to s
 rather than to write up a week where one number was copied from the other.
 
 **The one thing not worth doing is reconstructing a week from memory.** You have now read a course
-about how badly people estimate their own nights, and a reconstructed log will agree with whichever
-number you looked at last.
+about how differently two records can report the same night, and a reconstructed log will agree with
+whichever number you looked at last.
 
 ## A note on what this project is not
 
