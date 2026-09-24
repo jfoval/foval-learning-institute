@@ -1,6 +1,7 @@
 ---
 title: Recognising a con, and the ten minutes after you clicked
 minutes: 120
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/computer-science-and-ai/digital-literacy/11-recognising-a-con.mp3
 objectives:
   - Take apart a message you have actually received into the three structural parts of a con, without using any list of current scams
   - Say what the evidence does and does not show about security awareness training, and keep two claims about it separate that are usually conflated
