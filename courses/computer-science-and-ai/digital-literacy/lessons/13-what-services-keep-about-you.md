@@ -1,6 +1,7 @@
 ---
 title: What services keep about you, and how to look
 minutes: 100
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/computer-science-and-ai/digital-literacy/13-what-services-keep-about-you.mp3
 objectives:
   - >-
     Apply a service's own data export and activity record, and say what one actually contains
