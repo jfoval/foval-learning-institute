@@ -1,6 +1,7 @@
 ---
 title: Self-help, with and without a guide
 minutes: 85
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/health-and-body/mental-fitness/03-self-help-with-and-without-a-guide.mp3
 objectives:
   - >-
     State what the evidence shows for self-help against a control and against a therapist, for
