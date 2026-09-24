@@ -142,7 +142,7 @@ Rewrite these five lines each session. Nothing else goes in this block.
   mandatory neutrality audit passed after eight sentence-level fixes (entry in
   `research/reviews/course-wide.md`), and both assessments reviewed (23 findings; the test had been
   passable by picking the one balanced-sounding option, now fixed). audio-debt opened at 11.
-  **Next:** eleven scripts, being written and fact-checked now. **Open, from the audit:** five
+  **It is written**: eleven fact-checked scripts. Only the eleven episodes remain, which trail. **Open, from the audit:** five
   primary statements the research file lacks and the lessons say they haven't read (Sievenpiper's
   disclosures, NutriRECS's reply to its critics, the PURE authors' reply on urine samples, a
   commentary supporting the 2026 US guidelines, the carbohydrate-insulin side's critique of Hall
