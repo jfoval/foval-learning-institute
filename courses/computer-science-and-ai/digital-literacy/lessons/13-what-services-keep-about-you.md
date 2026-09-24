@@ -366,7 +366,7 @@ saw.
 **"Once it's online it's there forever, so none of this matters."** The other half of the 2015
 split, and it fails in the same way as its opposite: it is a guess about who holds copies, made by
 somebody who has not looked.[1] It is also the belief that makes the request pointless, and the
-thirty-three people in 2024 who did look mostly wanted **some** of their data erased rather than all
+thirty-three people in 2024 who did look included many who wanted **some** of their data erased rather than all
 of it or none.[3]
 
 ## Practice
