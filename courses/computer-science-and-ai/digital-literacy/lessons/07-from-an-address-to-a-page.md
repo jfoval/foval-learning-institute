@@ -1,6 +1,7 @@
 ---
 title: From an address to a page
 minutes: 115
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/computer-science-and-ai/digital-literacy/07-from-an-address-to-a-page.mp3
 objectives:
   - Say in order what happens between typing a web address and seeing a page, naming every party that takes part
   - Run a name lookup and a route trace on a domain you chose, and read what comes back
