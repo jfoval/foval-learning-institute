@@ -33,7 +33,7 @@ function fixture({ checked = true, opensWithJohn = false, repeats = 6 } = {}) {
     ? "S1: And I'm John, opening the episode, which the engine will read in Haley's voice.\n\nS2: Welcome in.\n\n"
     : TURN.repeat(repeats);
   fs.writeFileSync(path.join(dir, "podcast", "01-lesson.script.md"),
-    `---\nsource: x\n${checked ? "checked: 2026-09-18 PASS\n" : ""}speakers: 2\n---\n\n${body}`);
+    `---\nsource: x\n${checked ? "checked: 2026-09-18 PASS, fresh-context fact-check, all findings fixed\n" : ""}speakers: 2\n---\n\n${body}`);
   return root;
 }
 
