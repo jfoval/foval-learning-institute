@@ -1,6 +1,7 @@
 ---
 title: Doing what you could not do by clicking
 minutes: 130
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/computer-science-and-ai/digital-literacy/06-doing-what-you-could-not-do-by-clicking.mp3
 objectives:
   - Explain what a stream is, and predict where a command's output will go before you run it
   - Build a pipeline of three commands that answers a question about your own files, one stage at a time
