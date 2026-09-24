@@ -4565,7 +4565,10 @@ evidence.** It is a commercial reference site with a long professional following
 - **Lincoln M, Ill K, Ibrahim M. "Progressive Strategies for Teaching Fundamental Resistance Training
   Movement Patterns." *NSCA Personal Training Quarterly* 10.2, 2023.** Free PDF:
   https://www.nsca.com/contentassets/3d09f06f0b4c4f6fbd8cc382ed1f3d4a/ptq-10.2.1-progressive-strategies-for-teaching-fundamental-resistance-training-movement-patterns.pdf
-  Read level: full text downloaded (`raw/r5/nsca_ptq_10_2.txt`); first two pages read closely. This is
+  Read level: full text downloaded (`raw/r5/nsca_ptq_10_2.txt`); first two pages read closely.
+  *(Updated 2026-09-24 at Stage 3: lesson 6's drafter read the whole downloaded text, including the
+  figure captions and cueing pages, so the read level is now the full text. Only the passages quoted
+  below were string-checked; anything else a lesson takes from the article is paraphrase.)* This is
   **the best single source found for a technique lesson**. It names six patterns: squat
   ("knee-dominant"), hip hinge ("hip-dominant"), horizontal push, horizontal pull, vertical push, vertical
   pull, with sample progressions for each. It is candid that there is no agreed method:
