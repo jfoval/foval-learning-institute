@@ -55,10 +55,11 @@ const EACH = SPEND.attempts ? SPEND.all / SPEND.attempts : 0.22;
    Until 2026-09-19 this file did not know that, so with money in the cap it kept naming a render as
    the one thing to do for the whole twenty hours the quota was out, and every session had to work
    out for itself that it should move on to content. Now it reads the last refusal and moves on. */
+let PREPAID_OUT_SINCE = 0;
 const RENDER_BLOCKED_UNTIL = (function blocked() {
   const work = path.join(ROOT, "audio-out", "work");
   if (!fs.existsSync(work)) return 0;
-  let until = 0, lastOk = 0, lastRefusal = 0;
+  let until = 0, lastOk = 0, lastRefusal = 0, last402 = 0;
   (function walk(d) {
     for (const e of fs.readdirSync(d, { withFileTypes: true })) {
       const f = path.join(d, e.name);
@@ -76,6 +77,11 @@ const RENDER_BLOCKED_UNTIL = (function blocked() {
            were succeeding. Successes are read alongside refusals now. */
         if (a.ok === true || a.ok === "true") { lastOk = Math.max(lastOk, sent); continue; }
         const err = String(a.error || "");
+        /* A 402 is the prepaid balance, a third wall (budget.json's prepaidDepleted). It carries no
+           retryDelay because it lasts until John tops up, so it blocks until a render succeeds.
+           Added 2026-09-23, when this file named a render as the one thing to do while every
+           attempt was refused for want of credit, and a session had to find that out by trying. */
+        if (err.includes('"code":402')) { last402 = Math.max(last402, sent); continue; }
         if (!err.includes('"code":429') && !err.includes("RESOURCE_EXHAUSTED")) continue;
         const delay = err.match(/"retryDelay"\s*:\s*"(\d+)s"/);
         if (!delay) continue;
@@ -84,6 +90,7 @@ const RENDER_BLOCKED_UNTIL = (function blocked() {
       }
     }
   })(work);
+  if (last402 > lastOk) { PREPAID_OUT_SINCE = last402; return Infinity; }
   if (lastOk > lastRefusal) return 0;
   return until > Date.now() ? until : 0;
 })();
@@ -225,7 +232,11 @@ function budget() {
 AUDIO BUDGET  ${key}: $${left.toFixed(2)} left of a $${cap.toFixed(2)} cap, about ${Math.floor(left / (each || 0.22))} more episode(s).`);
   console.log(`              production: $${month.toFixed(2)} over ${monthAttempts} episode(s), $${each.toFixed(2)} each.`);
   if (lost) for (const x of incidents) console.log(`              not production: $${x.amountUSD.toFixed(2)} lost to an accident (${String(x.what).split(".")[0]}). Counts against the cap, never against the cost of an episode.`);
-  if (RENDER_BLOCKED_UNTIL) console.log(`              DAILY QUOTA OUT: Google is refusing renders for another ${blockedFor()} (50 requests\n              per day on gemini-2.5-pro-tts, rolling). A 429 is refused before any audio is made, so it\n              costs nothing and is not an incident. Money is not the wall here. Work content instead.`);
+  if (PREPAID_OUT_SINCE) console.log(`              PREPAID CREDITS OUT: the last render attempt, ${new Date(PREPAID_OUT_SINCE).toISOString().slice(0, 16).replace("T", " ")} UTC,
+              was refused with 402. That is Google's prepaid balance, not the cap above, and it lasts
+              until John tops up at ai.studio/projects. Costs nothing. Tell him in one line; work content.
+              One render attempt after he says he has topped up clears this.`);
+  else if (RENDER_BLOCKED_UNTIL) console.log(`              DAILY QUOTA OUT: Google is refusing renders for another ${blockedFor()} (50 requests\n              per day on gemini-2.5-pro-tts, rolling). A 429 is refused before any audio is made, so it\n              costs nothing and is not an incident. Money is not the wall here. Work content instead.`);
   console.log(`              Headroom, not an allowance: unspent is money John still has. Render only what is owed.`);
   console.log(`              aistudio.google.com/spend is the authority; he raises the cap as he can afford it.`);
   console.log(`              all time, production only: $${all.toFixed(2)} over ${attempts} render(s).`);
