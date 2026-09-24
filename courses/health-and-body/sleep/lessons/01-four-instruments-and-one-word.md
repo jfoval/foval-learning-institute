@@ -1,6 +1,7 @@
 ---
 title: Four instruments and one word
 minutes: 80
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/health-and-body/sleep/01-four-instruments-and-one-word.mp3
 objectives:
   - >-
     Name the four instruments sleep research uses and say what each one can and cannot measure
