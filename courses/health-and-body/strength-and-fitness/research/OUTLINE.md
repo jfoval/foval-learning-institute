@@ -7,7 +7,8 @@ mandatory before publish.*
 
 ## How many lessons, and why
 
-**Nine.** The subject has two halves that the taxonomy row names together, "programming, technique,
+**Ten.** (Planned as nine; lesson 4 was split at its named seam on 2026-09-24 when its first
+draft measured 140 minutes.) The subject has two halves that the taxonomy row names together, "programming, technique,
 progression", and a health course's obligation to say what the evidence is. SOURCES' first finding
 decides the shape: **the big effect is starting, and the small effects are the arguments**, so the
 course teaches the reader to start and to keep going before it teaches them to argue, and it teaches
@@ -19,17 +20,19 @@ the arguments as a way of reading evidence rather than as a list of optimisation
    perceived exertion, repetitions in reserve, and what a watch can and cannot tell you.
 3. **Building endurance.** VO2max, what adapts, continuous against intervals, dose and
    "non-responders", zone 2 as a claim, and starting to walk or run without getting hurt.
-4. **How muscle gets stronger.** Neural then muscular, specificity, and what load, sets, effort and
-   frequency each do. The course's question introduced: trained whom, for how long, measured on what?
-5. **Technique: six movements and the rules about them.** Squat, hinge, push, pull, lunge, carry;
+4. **How strength adapts.** Starting as the big effect, neural then muscular, specificity. The
+   course's question introduced: trained whom, for how long, measured on what?
+5. **What the variables do.** Load, sets, effort and frequency, individual variation, and how the
+   advice changed between ACSM 2009 and 2026.
+6. **Technique: six movements and the rules about them.** Squat, hinge, push, pull, lunge, carry;
    what each cue is for; what the famous rules rest on; how often lifting actually hurts people.
-6. **Writing and progressing a plan.** A first plan built from ACSM 2026, how to progress it, what a
+7. **Writing and progressing a plan.** A first plan built from ACSM 2026, how to progress it, what a
    log is for, stalls, deloads, periodisation, cardio alongside, stopping and starting again.
-7. **Warm-up, stretching, soreness and recovery.** What each is for on the evidence, the soreness
+8. **Warm-up, stretching, soreness and recovery.** What each is for on the evidence, the soreness
    that is normal and the one that is an emergency, and the recovery industry.
-8. **Training across a life.** Women, older adults, pregnancy, children, and the common conditions,
+9. **Training across a life.** Women, older adults, pregnancy, children, and the common conditions,
    each as "yes, with conditions", with the conditions attached.
-9. **Reading a claim about your training.** The closing lesson: the sort with this course's question
+10. **Reading a claim about your training.** The closing lesson: the sort with this course's question
    joined, the popular claims, practitioners' frameworks, and a decision.
 
 **Why not fewer.** Endurance and strength adapt to different things (R2, R3), and a lesson that did
@@ -39,9 +42,10 @@ R4.3 fit inside lesson 1); flexibility, soreness and recovery share one question
 and fit one lesson; the special populations are safety pointers with conditions, not a clinical
 course, and fit one.
 
-**Lesson length.** Most should land between about 50 and 80 measured minutes. Lessons 4 and 6 carry
-the most material and may run to about 90; if lesson 4 passes that, split at the seam between "how
-strength adapts" (neural, specificity) and "what the variables do" (load, sets, effort, frequency).
+**Lesson length.** Most should land between about 50 and 80 measured minutes. Lesson 7 carries
+the most material and may run to about 90. **A lesson whose exercise is a real walk or a real
+session counts that time**, which is why lessons 2 and 3 measure past 100 minutes while reading in
+about an hour; that is earned, not padding, and the reviewer checks it.
 
 ## What is deliberately left out, and said so in lesson 1
 
@@ -52,12 +56,12 @@ strength adapts" (neural, specificity) and "what the variables do" (load, sets, 
 - **Sport-specific training, athletes, power and speed development**, competition lifting and
   bodybuilding. The evidence read is about healthy adults, mostly beginners.
 - **Clinical exercise prescription** (cardiac rehabilitation, diabetes management, arthritis
-  programmes, physiotherapy). Named in lesson 8 with where to go.
+  programmes, physiotherapy). Named in lesson 9 with where to go.
 - **Supplements and drugs**, including creatine and anabolic steroids. Nutrition lesson 10 owns
   supplements; the creatine stand in R2.20 has declared industry conflicts. Creatine is named once,
-  in lesson 9, as a claim with a stated conflict, or not at all.
-- **Sleep and recovery tracking.** Sleep owns it; lesson 7 points there in one line.
-- **Body image and appearance goals.** Value questions the course did not research; lesson 9 names
+  in lesson 10, as a claim with a stated conflict, or not at all.
+- **Sleep and recovery tracking.** Sleep owns it; lesson 8 points there in one line.
+- **Body image and appearance goals.** Value questions the course did not research; lesson 10 names
   them as reasons people train that the course does not adjudicate.
 
 ## Eight decisions, settled here so no lesson re-opens them
@@ -74,7 +78,7 @@ R4.1); stop and seek evaluation (AHA 2023, ADA 2016, NIA, R4.3); emergency for c
 R4.3); pregnancy (ACOG 804's "thorough clinical evaluation", R4.20; PAR-Q+, R4.2); cola-coloured
 urine and pain out of proportion (CHAMP, R4.4). The check is in `scripts/build.mjs` beside
 Nutrition's, and its sentence is in `REPETITION_EXEMPT`. This is standards 2.5's "education, not
-personalised advice" note, carried on every lesson because a reader may arrive at lesson 5 from a
+personalised advice" note, carried on every lesson because a reader may arrive at lesson 6 from a
 search engine.
 
 **2. "Trained whom, for how long, measured on what?" is this course's addition to the institute's
@@ -83,7 +87,7 @@ Sleep the clock, Mental Fitness what the comparison group got, Nutrition "instea
 claim about training is a claim about a population, a duration and an outcome measure**, and the
 exercise literature's defaults are narrow: 8 to 12 weeks, young, often male, untrained, tested on
 the lift they practised (R2.16, R2.5), or 9 men in a lab (R3.4c). Introduced in lesson 4 with the
-specificity finding, used in every evidence lesson after it, joined to the sort in lesson 9. It
+specificity finding, used in every evidence lesson after it, joined to the sort in lesson 10. It
 overlaps Memory's sample question, and lesson 4 says the difference in one sentence: the sample asks
 who; this asks who, for how long, and scored on which test.
 
@@ -100,7 +104,7 @@ was read, and never states a detail below it. ACSM 2026 (R2.2) and Generation 10
 full and are the course's anchors for that reason.
 
 **5. Weight is a boundary, not a topic.** No lesson sets a weight, body-fat or calorie goal. Lesson 1
-states the boundary; lesson 9 handles spot reduction as a claim about where fat comes off, not as
+states the boundary; lesson 10 handles spot reduction as a claim about where fat comes off, not as
 advice about losing it.
 
 **6. Practitioners are frameworks, labelled.** Rippetoe (R5.8), Renaissance Periodization (R5.9) and
@@ -111,7 +115,7 @@ the test.
 
 **7. Two things are said at full strength on both sides and never resolved.** Whether activity
 causes longer life (lesson 1; only one sceptic's own statement was read, Karvinen, R1.10, and the
-lesson says so), and whether rounding the lower back under load is harmful (lesson 5; the caution
+lesson says so), and whether rounding the lower back under load is harmful (lesson 6; the caution
 side read at abstract level only, R4.9). Zone 2 (lesson 3) has **no proponent statement read** and
 the lesson says so rather than improvising one.
 
@@ -210,7 +214,14 @@ minute; "per cent" in bodies and quizzes alike (Sleep's course-wide review found
   sentence is that?). Leads to lesson 4, which asks the same questions of strength.
 - **Spaced review of:** lesson 1's Generation 100 (its HIIT arm reappears), lesson 2's talk test.
 
-### 4. How muscle gets stronger (~85 min)
+### 4. How strength adapts (~70 min) and 5. What the variables do (~70 min)
+
+Drafted as one lesson and split at the seam named above: lesson 4 takes the objectives on neural
+adaptation, specificity and the course's question, with "starting is the big effect"; lesson 5 takes
+load, weekly sets, proximity to failure and frequency, individual variation, and the 2009 to 2026
+change in ACSM's advice, and opens by recalling lesson 4's question in a sentence. The plan below is
+the joint one both halves were drafted from.
+
 - **Objectives:** explain why early strength gains are largely neural and why progress slows; explain
   specificity and apply "trained whom, for how long, measured on what?" to a training claim; state
   what load, weekly sets, proximity to failure and frequency each do for strength and for muscle
@@ -219,7 +230,7 @@ minute; "per cent" in bodies and quizzes alike (Sleep's course-wide review found
 - **Core ideas:** starting is the big effect (R2.2, R2.3); neural adaptation first (R2.4, with the
   disagreement on how many weeks); specificity (R2.5, Spitz d = 1.84 against 0.8; R2.13); load (R2.6:
   heavy for 1RM, similar growth across loads when sets are hard); volume and diminishing returns
-  (R2.7, R2.8); frequency with volume equated (R2.9); failure optional, 1 to 3 RIR (R2.10, R2.2);
+  (R2.7, R2.8); frequency with volume equated (R2.9); failure optional, "near-failure" or 2 to 3 RIR in ACSM 2026's words (R2.10, R2.2);
   individual variation (R2.12, Hubal 0 to +250%); who these studies trained (R2.16); the 2026 stand
   against the 2009 one (R2.1, R2.2) as how guidance moves. The muscle-structure image (R5 Part H).
 - **Mechanism to explain:** the nervous system learning to recruit and coordinate before muscle
@@ -234,11 +245,11 @@ minute; "per cent" in bodies and quizzes alike (Sleep's course-wide review found
 - **Practice:** apply the course's question to three described studies; estimate the reader's own
   RIR on a set and check it.
 - **Sources:** R2.1 to R2.14, R2.16, R2.19 (named, not resolved).
-- **Connects:** lesson 2's RIR; lesson 3's dose and non-response, now for strength. Leads to lesson 5
-  (how to do the lifts) and lesson 6 (how to arrange them). **Introduces decision 2.**
+- **Connects:** lesson 2's RIR; lesson 3's dose and non-response, now for strength. Lesson 4 leads to lesson 5; lesson 5 leads to lesson 6
+  (how to do the lifts) and lesson 7 (how to arrange them). **Introduces decision 2.**
 - **Spaced review of:** Memory's sample question and Mental Fitness's comparison group, joined here.
 
-### 5. Technique: six movements and the rules about them (~75 min)
+### 6. Technique: six movements and the rules about them (~75 min)
 - **Objectives:** describe the squat, hip hinge, push, pull, lunge and carry patterns, with the cue
   that matters most in each and what it is for; evaluate a technique rule against what the study
   behind it measured; state how often lifting injures people compared with other sports, with the
@@ -260,17 +271,17 @@ minute; "per cent" in bodies and quizzes alike (Sleep's course-wide review found
   worked-example gap on the hinge where the reader writes the cue before it is shown.
 - **Sources:** R5.31, R5 Part G, R4.5, R4.7 to R4.11, R4.4, R2.13.
 - **Connects:** lesson 4's specificity (a technique is a skill, and skills are specific). Leads to
-  lesson 6.
+  lesson 7.
 - **Spaced review of:** lesson 2's RIR (technique breaks down near failure) and lesson 1's screening.
 
-### 6. Writing and progressing a plan (~85 min)
+### 7. Writing and progressing a plan (~85 min)
 - **Objectives:** build a first full-body plan for a healthy beginner from ACSM 2026 and WHO, and say
   what each choice rests on; progress it using a log, and say what to change when progress stalls;
   compare a practitioner's framework (novice linear progression, volume landmarks) with what the
   trials measured; explain what happens when training stops and restarts, and whether aerobic work
   interferes.
 - **Core ideas:** ACSM 2026's primary recommendation and its four-region view, labelled as the
-  authors' view (R2.2); two sets per exercise, 1 to 3 RIR; progression "likely a requirement only for
+  authors' view (R2.2); two sets per exercise, 2 to 3 RIR (ACSM 2026's "2–3 repetitions in reserve"); progression "likely a requirement only for
   those seeking continued longer term progress" (R2.2); double progression as one simple method,
   labelled as convention; Rippetoe's novice effect and his programme in his words, with its scope
   (young men) and interest (R5.8); RP's landmarks with "starting points, not gospel" and the soreness
@@ -289,10 +300,10 @@ minute; "per cent" in bodies and quizzes alike (Sleep's course-wide review found
 - **Practice:** write the reader's own plan on one page, with a column saying what each line rests on;
   a worked-example gap in the progression table.
 - **Sources:** R2.2, R2.8, R2.10, R2.11, R2.15 to R2.18, R5.8 to R5.10, R5.16.
-- **Connects:** lessons 4 and 5; the project starts here. Leads to lesson 7.
+- **Connects:** lessons 4 to 6; the project starts here. Leads to lesson 8.
 - **Spaced review of:** lesson 4's diminishing returns and specificity; lesson 3's dose.
 
-### 7. Warm-up, stretching, soreness and recovery (~60 min)
+### 8. Warm-up, stretching, soreness and recovery (~60 min)
 - **Objectives:** explain what a warm-up and stretching each do and do not do, on the evidence;
   distinguish ordinary delayed soreness from exertional rhabdomyolysis by its signs; evaluate a
   recovery method by asking whether it changes how you feel or how you adapt; explain what lactate is
@@ -311,13 +322,13 @@ minute; "per cent" in bodies and quizzes alike (Sleep's course-wide review found
 - **Misconceptions:** "stretch before exercise to prevent injury"; "stretching after stops soreness";
   "lactic acid causes the soreness"; "if you're not sore it didn't work" (the course's inference,
   labelled); "ice baths help you grow"; "lifting makes you stiff".
-- **Practice:** rebuild the reader's warm-up from lesson 6's plan; classify five recovery products by
+- **Practice:** rebuild the reader's warm-up from lesson 7's plan; classify five recovery products by
   "feel or adapt?" with the evidence named.
 - **Sources:** R4.4, R4.12 to R4.19, R3.10.
-- **Connects:** lesson 6's plan; Sleep for recovery and sleep. Leads to lesson 8.
+- **Connects:** lesson 7's plan; Sleep for recovery and sleep. Leads to lesson 9.
 - **Spaced review of:** lesson 4's specificity (range of motion is trained like anything else).
 
-### 8. Training across a life (~65 min)
+### 9. Training across a life (~65 min)
 - **Objectives:** state what the evidence read shows about strength training for women, for older
   adults and for people with low bone mass, with the population and conditions of each finding;
   state what ACOG and the Canadian guideline recommend in pregnancy and the signs to stop; state what
@@ -342,10 +353,10 @@ minute; "per cent" in bodies and quizzes alike (Sleep's course-wide review found
 - **Practice:** for four short cases, say what the guidance supports, what condition attaches, and who
   the person should ask; none of the cases is solved by the reader alone.
 - **Sources:** R2.14, R5.15, R4.20 to R4.26, R4.10, R4.2.
-- **Connects:** lesson 1's screening, lesson 4's evidence base (who was trained). Leads to lesson 9.
+- **Connects:** lesson 1's screening, lesson 4's evidence base (who was trained). Leads to lesson 10.
 - **Spaced review of:** decision 2's question, applied to populations the trials under-sample.
 
-### 9. Reading a claim about your training (~60 min)
+### 10. Reading a claim about your training (~60 min)
 - **Objectives:** sort a claim about training into established, contested or value, and ask of it
   "trained whom, for how long, measured on what?"; evaluate five popular claims against the tests
   recorded for them; say what this course cannot tell a reader about their own body and who can;
@@ -370,14 +381,14 @@ minute; "per cent" in bodies and quizzes alike (Sleep's course-wide review found
 
 ## Assessments
 
-- **Course-end test:** 18 items, at least 12 application. Blueprint: lesson 1 (3: the curve, the three
-  sentences, screening), lesson 2 (2), lesson 3 (2), lesson 4 (3: specificity, load and measure,
-  failure), lesson 5 (2), lesson 6 (2), lesson 7 (2, including rhabdomyolysis signs), lesson 8 (1),
-  lesson 9 (1). New cases throughout; no body people or numbers reused. Key sequence irregular, all
+- **Course-end test:** 20 items, at least 13 application. Blueprint: lesson 1 (3: the curve, the three
+  sentences, screening), lesson 2 (2), lesson 3 (2), lesson 4 (2: specificity and the course's
+  question), lesson 5 (2: load and measure, failure), lesson 6 (2), lesson 7 (2), lesson 8 (2, including rhabdomyolysis signs), lesson 9 (1),
+  lesson 10 (1), and one more item on lesson 10's sort. New cases throughout; no body people or numbers reused. Key sequence irregular, all
   four positions used, lengths within about 15 characters.
 - **Project: "Eight weeks, written down."** Deliverable: a plan, a log and a report. (1) Screen
   yourself with the PAR-Q+ (linked) and stop at any "yes" until you have talked to a doctor or
-  qualified exercise professional. (2) Write a plan inside the guidance from lessons 1, 3 and 6, with
+  qualified exercise professional. (2) Write a plan inside the guidance from lessons 1, 3 and 7, with
   a column saying what each line rests on. (3) Take three baseline measures you can repeat: a talk-test
   pace over a set route, reps at a fixed load or bodyweight for two lifts, and one thing you care about
   (stairs, carrying shopping). (4) Run it for eight weeks with a log. (5) Re-test and write a report
@@ -395,7 +406,7 @@ medicine, (b) the fitness industry's framing leaking in as fact, and (c) weight 
   words.
 - **HIIT, zone 2, failure, periodisation, lumbar flexion**: each side in its proponents' words where
   read; where only one side was read, the lesson says so.
-- **Practitioners** (lesson 6): quoted in their own words, interest stated once, no sneering.
+- **Practitioners** (lesson 7): quoted in their own words, interest stated once, no sneering.
 - **Weight and appearance**: decision 5; no goals set, value questions named and not adjudicated.
 - **Populations**: women, older adults, pregnant people and children described by what the evidence
   shows and its conditions, never as fragile and never as without limits.
