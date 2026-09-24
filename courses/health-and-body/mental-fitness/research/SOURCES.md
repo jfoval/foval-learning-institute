@@ -1069,8 +1069,10 @@ them.*
 **What the pass found, in one paragraph.** The anxiety literature is not thin; the file was. Self-help
 for anxiety disorders has a Cochrane review, three further meta-analyses and a Cochrane review of
 therapist-supported internet CBT, and they agree on a shape: **moderate-to-large effects against
-waiting lists and no treatment, a small but real deficit against face-to-face therapy, and
-low-to-moderate certainty throughout**. GAD has its own internet-treatment meta-analysis and its own
+waiting lists and no treatment, a small deficit or none against face-to-face therapy, and
+low-to-moderate certainty, very low on guided against unguided**. *(Corrected at lesson 3's review:
+this said "a small but real deficit"; Pauley, Olthuis and Mayo-Wilson's own response result found no
+significant deficit.)* GAD has its own internet-treatment meta-analysis and its own
 Cochrane review of psychological therapy. **What remains thin is the evidence for the single
 techniques a reader is most often handed for worry**: worry postponement has small individual trials
 that disagree with each other and no meta-analysis this pass found, and exercise for anxiety
@@ -1220,7 +1222,9 @@ Searches to 16 March 2015.
 
 **Two things a lesson keeps.** Thirty-two of thirty-eight trials were run in two countries, which
 bounds what the result says about anybody else's health system. And **on whether a guide matters
-for anxiety, this review and Pauley (19c) both find no significant difference, at very low
+for anxiety, the evidence is mixed**: Lewis (19c) says "The addition of guidance ... improved treatment
+outcome", while this review and Pauley (19c) find no significant difference *(corrected at lesson 3's
+review; this note had omitted Lewis)*, and in any case, at very low
 certainty here**, which is not the same as the depression finding in source 6b, where the guide
 mattered more as symptoms rose. A lesson must not carry 6b's pattern across to anxiety.
 
@@ -1675,3 +1679,1465 @@ site decision the outline should raise (see Open concerns).
 - **The prerequisites are How to Learn Anything and Sleep**; the course can draw on Sleep's habit of
   separating "associated with" from "causes", which lessons here need at sources 13, 15 and 17, and should
   point forward to Understanding People: Psychology Fundamentals and Medical Literacy.
+
+---
+
+## Appendix: every cited abstract, verbatim
+
+*Added 2026-09-23, during Stage 3, after the Stage 4 reviews of lessons 1 to 3 found the same defect
+three times: the entries above quote each abstract selectively, the omitted sentences cut against the
+framing the file adopted, and each lesson inherited the cut (defect 26). **Every abstract this file
+cites is reproduced here whole, as Europe PMC returned it on 2026-09-23**, so a drafter reads the
+sentence it is quoting with its neighbours, and a reviewer can see what was left out. Section
+headings inside an abstract are run in as "Heading:". Where Europe PMC holds no abstract, the entry
+says so. The read level of every source above is unchanged by this appendix: an abstract here is
+an abstract read, nothing more.*
+
+**A leaky umbrella has little value: evidence clearly indicates the serotonin system is implicated in depression.**, doi 10.1038/s41380-023-02095-y.
+
+*No abstract in Europe PMC.*
+
+**A preliminary investigation of stimulus control training for worry: effects on anxiety and insomnia.**, doi 10.1177/0145445512455661.
+
+> For individuals with generalized anxiety disorder, worry becomes associated with numerous aspects
+> of life (e.g., time of day, specific stimuli, environmental cues) and is thus under poor
+> discriminative stimulus control (SC). In addition, excessive worry is associated with anxiety,
+> depressed mood, and sleep difficulties. This investigation sought to provide preliminary evidence
+> for the efficacy of SC procedures in reducing anxiety-, mood-, and sleep-related symptoms. A total
+> of 53 participants with high trait worry were randomly assigned to receive 2 weeks of either SC
+> training (consisting of a 30-min time- and place-restricted worry period each day) or a control
+> condition called focused worry (FW; consisting of instructions to not avoid naturally occurring
+> worry so that worry and anxiety would not paradoxically increase). At post-training, SC was
+> superior to FW in producing reductions on measures of worry, anxiety, negative affect, and
+> insomnia, but not on measures of depression or positive affect. Moreover, SC was superior to FW in
+> producing clinically significant change on measures of worry and anxiety. Results provide
+> preliminary support for the use of SC training techniques in larger treatment packages for
+> individuals who experience high levels of worry.
+
+**An examination of the anxiolytic effects of exercise for people with anxiety and stress-related disorders: A meta-analysis.**, doi 10.1016/j.psychres.2016.12.020.
+
+> The literature regarding exercise for people with established anxiety disorders is equivocal. To
+> address this issue, we conducted a systematic review and meta-analysis investigating the benefits
+> of exercise compared to usual treatment or control conditions in people with an anxiety and/or
+> stress-related disorders. Major electronic databases were searched from inception until
+> December/2015 and a random effect meta-analysis conducted. Altogether, six randomized control
+> trials (RCTs) including 262 adults (exercise n=132, 34.74 [9.6] years; control n=130, 37.34 [10.0]
+> years) were included. Exercise significantly decreased anxiety symptoms more than control
+> conditions, with a moderate effect size (Standardized Mean Difference=-0.582, 95%CI -1.0 to -0.76,
+> p=0.02). Our data suggest that exercise is effective in improving anxiety symptoms in people with
+> a current diagnosis of anxiety and/ or stress-related disorders. Taken together with the wider
+> benefits of exercise on wellbeing and cardiovascular health, these findings reinforce exercise as
+> an important treatment option in people with anxiety/stress disorders.
+
+**Behavioural activation therapy for depression in adults.**, doi 10.1002/14651858.CD013305.pub2.
+
+> Background: Behavioural activation is a brief psychotherapeutic approach that seeks to change the
+> way a person interacts with their environment. Behavioural activation is increasingly receiving
+> attention as a potentially cost-effective intervention for depression, which may require less
+> resources and may be easier to deliver and implement than other types of psychotherapy.Objectives:
+> To examine the effects of behavioural activation compared with other psychological therapies for
+> depression in adults. To examine the effects of behavioural activation compared with medication
+> for depression in adults. To examine the effects of behavioural activation compared with treatment
+> as usual/waiting list/placebo no treatment for depression in adults.Search methods: We searched
+> CCMD-CTR (all available years), CENTRAL (current issue), Ovid MEDLINE (1946 onwards), Ovid EMBASE
+> (1980 onwards), and Ovid PsycINFO (1806 onwards) on the 17 January 2020 to identify randomised
+> controlled trials (RCTs) of 'behavioural activation', or the main elements of behavioural
+> activation for depression in participants with clinically diagnosed depression or subthreshold
+> depression. We did not apply any restrictions on date, language or publication status to the
+> searches. We searched international trials registries via the World Health Organization's trials
+> portal (ICTRP) and ClinicalTrials.gov to identify unpublished or ongoing trials.Selection
+> criteria: We included randomised controlled trials (RCTs) of behavioural activation for the
+> treatment of depression or symptoms of depression in adults aged 18 or over. We excluded RCTs
+> conducted in inpatient settings and with trial participants selected because of a physical
+> comorbidity. Studies were included regardless of reported outcomes.Data collection and analysis:
+> Two review authors independently screened all titles/abstracts and full-text manuscripts for
+> inclusion. Data extraction and 'Risk of bias' assessments were also performed by two review
+> authors in duplicate. Where necessary, we contacted study authors for more information.Main
+> results: Fifty-three studies with 5495 participants were included; 51 parallel group RCTs and two
+> cluster-RCTs. We found moderate-certainty evidence that behavioural activation had greater
+> short-term efficacy than treatment as usual (risk ratio (RR) 1.40, 95% confidence interval (CI)
+> 1.10 to 1.78; 7 RCTs, 1533 participants), although this difference was no longer evident in
+> sensitivity analyses using a worst-case or intention-to-treat scenario. Compared with waiting
+> list, behavioural activation may be more effective, but there were fewer data in this comparison
+> and evidence was of low certainty (RR 2.14, 95% CI 0.90 to 5.09; 1 RCT, 26 participants). No
+> evidence on treatment efficacy was available for behavioural activation versus placebo and
+> behavioural activation versus no treatment. We found moderate-certainty evidence suggesting no
+> evidence of a difference in short-term treatment efficacy between behavioural activation and CBT
+> (RR 0.99, 95% CI 0.92 to 1.07; 5 RCTs, 601 participants). Fewer data were available for other
+> comparators. No evidence of a difference in short term-efficacy was found between behavioural
+> activation and third-wave CBT (RR 1.10, 95% CI 0.91 to 1.33; 2 RCTs, 98 participants; low
+> certainty), and psychodynamic therapy (RR 1.21, 95% CI 0.74 to 1.99; 1 RCT,60 participants; very
+> low certainty). Behavioural activation was more effective than humanistic therapy (RR 1.84, 95% CI
+> 1.15 to 2.95; 2 RCTs, 46 participants; low certainty) and medication (RR 1.77, 95% CI 1.14 to
+> 2.76; 1 RCT; 141 participants; moderate certainty), but both of these results were based on a
+> small number of trials and participants. No evidence on treatment efficacy was available for
+> comparisons between behavioural activation versus interpersonal, cognitive analytic, and
+> integrative therapies. There was moderate-certainty evidence that behavioural activation might
+> have lower treatment acceptability (based on dropout rate) than treatment as usual in the short
+> term, although the data did not confirm a difference and results lacked precision (RR 1.64, 95% CI
+> 0.81 to 3.31; 14 RCTs, 2518 participants). Moderate-certainty evidence did not suggest any
+> difference in short-term acceptability between behavioural activation and waiting list (RR 1.17,
+> 95% CI 0.70 to 1.93; 8 RCTs. 359 participants), no treatment (RR 0.97, 95% CI 0.45 to 2.09; 3
+> RCTs, 187 participants), medication (RR 0.52, 95% CI 0.23 to 1.16; 2 RCTs, 243 participants), or
+> placebo (RR 0.72, 95% CI 0.31 to 1.67; 1 RCT; 96 participants; low-certainty evidence). No
+> evidence on treatment acceptability was available comparing behavioural activation versus
+> psychodynamic therapy. Low-certainty evidence did not show a difference in short-term treatment
+> acceptability (dropout rate) between behavioural activation and CBT (RR 1.03, 95% CI 0.85 to 1.25;
+> 12 RCTs, 1195 participants), third-wave CBT (RR 0.84, 95% CI 0.33 to 2.10; 3 RCTs, 147
+> participants); humanistic therapy (RR 1.06, 95% CI 0.20 to 5.55; 2 RCTs, 96 participants) (very
+> low certainty), and interpersonal, cognitive analytic, and integrative therapy (RR 0.84, 95% CI
+> 0.32 to 2.20; 4 RCTs, 123 participants). Results from medium- and long-term primary outcomes,
+> secondary outcomes, subgroup analyses, and sensitivity analyses are summarised in the
+> text.Authors' conclusions: This systematic review suggests that behavioural activation may be more
+> effective than humanistic therapy, medication, and treatment as usual, and that it may be no less
+> effective than CBT, psychodynamic therapy, or being placed on a waiting list. However, our
+> confidence in these findings is limited due to concerns about the certainty of the evidence. We
+> found no evidence of a difference in short-term treatment acceptability (based on dropouts)
+> between behavioural activation and most comparison groups (CBT, humanistic therapy, waiting list,
+> placebo, medication, no treatment or treatment as usual). Again, our confidence in all these
+> findings is limited due to concerns about the certainty of the evidence. No data were available
+> about the efficacy of behaioural activation compared with placebo, or about treatment
+> acceptability comparing behavioural activation and psychodynamic therapy, interpersonal, cognitive
+> analytic and integrative therapies. The evidence could be strengthened by better reporting and
+> better quality RCTs of behavioural activation and by assessing working mechanisms of behavioural
+> activation.
+
+**Cognitive behavior therapy vs. control conditions, other psychotherapies, pharmacotherapies and combined treatment for depression: a comprehensive meta-analysis including 409 trials with 52,702 patients.**, doi 10.1002/wps.21069.
+
+> Cognitive behavior therapy (CBT) is by far the most examined type of psychological treatment for
+> depression and is recommended in most treatment guide-lines. However, no recent meta-analysis has
+> integrated the results of randomized trials examining its effects, and its efficacy in comparison
+> with other psychotherapies, pharmacotherapies and combined treatment for depression remains
+> uncertain. We searched PubMed, PsycINFO, Embase and the Cochrane Library to identify studies on
+> CBT, and separated included trials into several subsets to conduct random-effects meta-analyses.
+> We included 409 trials (518 comparisons) with 52,702 patients, thus conducting the largest
+> meta-analysis ever of a specific type of psychotherapy for a mental disorder. The quality of the
+> trials was found to have increased significantly over time (with increasing numbers of trials with
+> low risk of bias, less waitlist control groups, and larger sample sizes). CBT had moderate to
+> large effects compared to control conditions such as care as usual and waitlist (g=0.79; 95% CI:
+> 0.70-0.89), which remained similar in sensitivity analyses and were still significant at 6-12
+> month follow-up. There was no reduction of the effect size of CBT according to the publication
+> year (2011). CBT was significantly more effective than other psychotherapies, but the difference
+> was small (g=0.06; 95% CI: 0-0.12) and became non-significant in most sensitivity analyses. The
+> effects of CBT did not differ significantly from those of pharmacotherapies at the short term, but
+> were significantly larger at 6-12 month follow-up (g=0.34; 95% CI: 0.09-0.58), although the number
+> of trials was small, and the difference was not significant in all sensitivity analyses. Combined
+> treatment was more effective than pharmacotherapies alone at the short (g=0.51; 95% CI: 0.19-0.84)
+> and long term (g=0.32; 95% CI: 0.09-0.55), but it was not more effective than CBT alone at either
+> time point. CBT was also effective as unguided self-help intervention (g=0.45; 95% CI: 0.31-0.60),
+> in institutional settings (g=0.65; 95% CI: 0.21-1.08), and in children and adolescents (g=0.41;
+> 95% CI: 0.25-0.57). We can conclude that the efficacy of CBT in depression is documented across
+> different formats, ages, target groups, and settings. However, the superiority of CBT over other
+> psychotherapies for depression does not emerge clearly from this meta-analysis. CBT appears to be
+> as effective as pharmacotherapies at the short term, but more effective at the longer term.
+
+**Comparative efficacy and acceptability of 21 antidepressant drugs for the acute treatment of adults with major depressive disorder: a systematic review and network meta-analysis.**, doi 10.1016/S0140-6736(17)32802-7.
+
+> Background: Major depressive disorder is one of the most common, burdensome, and costly
+> psychiatric disorders worldwide in adults. Pharmacological and non-pharmacological treatments are
+> available; however, because of inadequate resources, antidepressants are used more frequently than
+> psychological interventions. Prescription of these agents should be informed by the best available
+> evidence. Therefore, we aimed to update and expand our previous work to compare and rank
+> antidepressants for the acute treatment of adults with unipolar major depressive disorder.Methods:
+> We did a systematic review and network meta-analysis. We searched Cochrane Central Register of
+> Controlled Trials, CINAHL, Embase, LILACS database, MEDLINE, MEDLINE In-Process, PsycINFO, the
+> websites of regulatory agencies, and international registers for published and unpublished,
+> double-blind, randomised controlled trials from their inception to Jan 8, 2016. We included
+> placebo-controlled and head-to-head trials of 21 antidepressants used for the acute treatment of
+> adults (≥18 years old and of both sexes) with major depressive disorder diagnosed according to
+> standard operationalised criteria. We excluded quasi-randomised trials and trials that were
+> incomplete or included 20% or more of participants with bipolar disorder, psychotic depression, or
+> treatment-resistant depression; or patients with a serious concomitant medical illness. We
+> extracted data following a predefined hierarchy. In network meta-analysis, we used group-level
+> data. We assessed the studies' risk of bias in accordance to the Cochrane Handbook for Systematic
+> Reviews of Interventions, and certainty of evidence using the Grading of Recommendations
+> Assessment, Development and Evaluation framework. Primary outcomes were efficacy (response rate)
+> and acceptability (treatment discontinuations due to any cause). We estimated summary odds ratios
+> (ORs) using pairwise and network meta-analysis with random effects. This study is registered with
+> PROSPERO, number CRD42012002291.Findings: We identified 28 552 citations and of these included 522
+> trials comprising 116 477 participants. In terms of efficacy, all antidepressants were more
+> effective than placebo, with ORs ranging between 2·13 (95% credible interval [CrI] 1·89-2·41) for
+> amitriptyline and 1·37 (1·16-1·63) for reboxetine. For acceptability, only agomelatine (OR 0·84,
+> 95% CrI 0·72-0·97) and fluoxetine (0·88, 0·80-0·96) were associated with fewer dropouts than
+> placebo, whereas clomipramine was worse than placebo (1·30, 1·01-1·68). When all trials were
+> considered, differences in ORs between antidepressants ranged from 1·15 to 1·55 for efficacy and
+> from 0·64 to 0·83 for acceptability, with wide CrIs on most of the comparative analyses. In
+> head-to-head studies, agomelatine, amitriptyline, escitalopram, mirtazapine, paroxetine,
+> venlafaxine, and vortioxetine were more effective than other antidepressants (range of ORs
+> 1·19-1·96), whereas fluoxetine, fluvoxamine, reboxetine, and trazodone were the least efficacious
+> drugs (0·51-0·84). For acceptability, agomelatine, citalopram, escitalopram, fluoxetine,
+> sertraline, and vortioxetine were more tolerable than other antidepressants (range of ORs
+> 0·43-0·77), whereas amitriptyline, clomipramine, duloxetine, fluvoxamine, reboxetine, trazodone,
+> and venlafaxine had the highest dropout rates (1·30-2·32). 46 (9%) of 522 trials were rated as
+> high risk of bias, 380 (73%) trials as moderate, and 96 (18%) as low; and the certainty of
+> evidence was moderate to very low.Interpretation: All antidepressants were more efficacious than
+> placebo in adults with major depressive disorder. Smaller differences between active drugs were
+> found when placebo-controlled trials were included in the analysis, whereas there was more
+> variability in efficacy and acceptability in head-to-head trials. These results should serve
+> evidence-based practice and inform patients, physicians, guideline developers, and policy makers
+> on the relative merits of the different antidepressants.Funding: National Institute for Health
+> Research Oxford Health Biomedical Research Centre and the Japan Society for the Promotion of
+> Science.
+
+**Comparison of psychological placebo and waiting list control conditions in the assessment of cognitive behavioral therapy for the treatment of generalized anxiety disorder: a meta-analysis.**, doi 10.11919/j.issn.1002-0829.214173.
+
+> Background: There is ongoing debate about the efficacy of placebos in the treatment of mental
+> disorders. In randomized control trials (RCTs) about the treatment of generalized anxiety
+> disorder, the administration of a psychological placebo or placement on a waiting list are the two
+> most common control conditions. But there has never been a systematic comparison of the clinical
+> effect of these different strategies.Aim: Compare the change in symptom severity among individuals
+> treated with cognitive behavioral therapy, provided a psychological placebo, or placed on a
+> waiting list using data from RCTs on generalized anxiety disorder.Methods: The following databases
+> were searched for RCTs on generalized anxiety disorder: PubMed, PsycInfo, EMBASE, The Cochrane
+> Library, CNKI, Chongqing VIP, Wanfang, Chinese Biological Medical Literature Database, and Taiwan
+> Electronic Periodical Services. Studies were selected based on pre-defined inclusion and exclusion
+> criteria and the quality of each included study - based on the risk of bias and the level of
+> evidence - was formally assessed. Meta-analysis was conducted using RevMan5.3 and network
+> meta-analyses comparing the three groups were conducted using R.Results: Twelve studies with a
+> combined sample size of 531 were included in the analysis. Compared to either control method
+> (placebo or waiting list), cognitive behavioral therapy was more effective for generalized anxiety
+> disorder. Provision of a psychological placebo was associated with a significantly greater
+> reduction of symptoms than placement on a waiting list. Eight of the studies were classified as
+> 'high risk of bias', and the overall level of evidence was classified as 'moderate', indicating
+> that further research could change the overall results of the meta-analysis.Conclusions: RCTs
+> about the treatment of generalized anxiety disorders are generally of moderate quality; they
+> indicate the superiority of CBT but the results cannot, as yet, be considered robust. There is
+> evidence of a non-negligible treatment effect of psychological placebos used as control conditions
+> in research studies. This effect should be considered when designing and interpreting the results
+> of randomized controlled trials about the effectiveness of psychotherapeutic interventions.
+
+**Does the perception that stress affects health matter? The association with health and mortality.**, doi 10.1037/a0026743.
+
+> Objective: This study sought to examine the relationship among the amount of stress, the
+> perception that stress affects health, and health and mortality outcomes in a nationally
+> representative sample of U.S. adults.Methods: Data from the 1998 National Health Interview Survey
+> were linked to prospective National Death Index mortality data through 2006. Separate logistic
+> regression models were used to examine the factors associated with current health status and
+> psychological distress. Cox proportional hazard models were used to determine the impact of
+> perceiving that stress affects health on all-cause mortality. Each model specifically examined the
+> interaction between the amount of stress and the perception that stress affects health,
+> controlling for sociodemographic, health behavior, and access to health care factors.Results:
+> 33.7% of nearly 186 million (unweighted n = 28,753) U.S. adults perceived that stress affected
+> their health a lot or to some extent. Both higher levels of reported stress and the perception
+> that stress affects health were independently associated with an increased likelihood of worse
+> health and mental health outcomes. The amount of stress and the perception that stress affects
+> health interacted such that those who reported a lot of stress and that stress impacted their
+> health a lot had a 43% increased risk of premature death (HR = 1.43, 95% CI [1.2,
+> 1.7]).Conclusions: High amounts of stress and the perception that stress impacts health are each
+> associated with poor health and mental health. Individuals who perceived that stress affects their
+> health and reported a large amount of stress had an increased risk of premature death.
+
+**Effect of breathwork on stress and mental health: A meta-analysis of randomised-controlled trials.**, doi 10.1038/s41598-022-27247-y.
+
+> Deliberate control of the breath (breathwork) has recently received an unprecedented surge in
+> public interest and breathing techniques have therapeutic potential to improve mental health. Our
+> meta-analysis primarily aimed to evaluate the efficacy of breathwork through examining whether,
+> and to what extent, breathwork interventions were associated with lower levels of
+> self-reported/subjective stress compared to non-breathwork controls. We searched PsycInfo, PubMed,
+> ProQuest, Scopus, Web of Science, ClinicalTrials.gov and ISRCTN up to February 2022, initially
+> identifying 1325 results. The primary outcome self-reported/subjective stress included 12
+> randomised-controlled trials (k = 12) with a total of 785 adult participants. Most studies were
+> deemed as being at moderate risk of bias. The random-effects analysis yielded a significant
+> small-to-medium mean effect size, g = - 0.35 [95% CI - 0.55, - 0.14], z = 3.32, p = 0.0009,
+> showing breathwork was associated with lower levels of stress than control conditions.
+> Heterogeneity was intermediate and approaching significance, χ211 = 19, p = 0.06, I2 = 42%.
+> Meta-analyses for secondary outcomes of self-reported/subjective anxiety (k = 20) and depressive
+> symptoms (k = 18) showed similar significant effect sizes: g = - 0.32, p < 0.0001, and g = - 0.40,
+> p < 0.0001, respectively. Heterogeneity was moderate and significant for both. Overall, results
+> showed that breathwork may be effective for improving stress and mental health. However, we urge
+> caution and advocate for nuanced research approaches with low risk-of-bias study designs to avoid
+> a miscalibration between hype and evidence.
+
+**Effect of exercise for depression: systematic review and network meta-analysis of randomised controlled trials.**, doi 10.1136/bmj-2023-075847.
+
+> Objective: To identify the optimal dose and modality of exercise for treating major depressive
+> disorder, compared with psychotherapy, antidepressants, and control conditions.Design: Systematic
+> review and network meta-analysis.Methods: Screening, data extraction, coding, and risk of bias
+> assessment were performed independently and in duplicate. Bayesian arm based, multilevel network
+> meta-analyses were performed for the primary analyses. Quality of the evidence for each arm was
+> graded using the confidence in network meta-analysis (CINeMA) online tool.Data sources: Cochrane
+> Library, Medline, Embase, SPORTDiscus, and PsycINFO databases.Eligibility criteria for selecting
+> studies: Any randomised trial with exercise arms for participants meeting clinical cut-offs for
+> major depression.Results: 218 unique studies with a total of 495 arms and 14 170 participants were
+> included. Compared with active controls (eg, usual care, placebo tablet), moderate reductions in
+> depression were found for walking or jogging (n=1210, κ=51, Hedges' g -0.62, 95% credible interval
+> -0.80 to -0.45), yoga (n=1047, κ=33, g -0.55, -0.73 to -0.36), strength training (n=643, κ=22, g
+> -0.49, -0.69 to -0.29), mixed aerobic exercises (n=1286, κ=51, g -0.43, -0.61 to -0.24), and tai
+> chi or qigong (n=343, κ=12, g -0.42, -0.65 to -0.21). The effects of exercise were proportional to
+> the intensity prescribed. Strength training and yoga appeared to be the most acceptable
+> modalities. Results appeared robust to publication bias, but only one study met the Cochrane
+> criteria for low risk of bias. As a result, confidence in accordance with CINeMA was low for
+> walking or jogging and very low for other treatments.Conclusions: Exercise is an effective
+> treatment for depression, with walking or jogging, yoga, and strength training more effective than
+> other exercises, particularly when intense. Yoga and strength training were well tolerated
+> compared with other treatments. Exercise appeared equally effective for people with and without
+> comorbidities and with different baseline levels of depression. To mitigate expectancy effects,
+> future studies could aim to blind participants and staff. These forms of exercise could be
+> considered alongside psychotherapy and antidepressants as core treatments for
+> depression.Systematic review registration: PROSPERO CRD42018118040.
+
+**Effectiveness of physical activity interventions for improving depression, anxiety and distress: an overview of systematic reviews.**, doi 10.1136/bjsports-2022-106195.
+
+> Objective: To synthesise the evidence on the effects of physical activity on symptoms of
+> depression, anxiety and psychological distress in adult populations.Design: Umbrella review.Data
+> sources: Twelve electronic databases were searched for eligible studies published from inception
+> to 1 January 2022.Eligibility criteria for selecting studies: Systematic reviews with
+> meta-analyses of randomised controlled trials designed to increase physical activity in an adult
+> population and that assessed depression, anxiety or psychological distress were eligible. Study
+> selection was undertaken in duplicate by two independent reviewers.Results: Ninety-seven reviews
+> (1039 trials and 128 119 participants) were included. Populations included healthy adults, people
+> with mental health disorders and people with various chronic diseases. Most reviews (n=77) had a
+> critically low A MeaSurement Tool to Assess systematic Reviews score. Physical activity had medium
+> effects on depression (median effect size=-0.43, IQR=-0.66 to -0.27), anxiety (median effect
+> size=-0.42, IQR=-0.66 to -0.26) and psychological distress (effect size=-0.60, 95% CI -0.78 to
+> -0.42), compared with usual care across all populations. The largest benefits were seen in people
+> with depression, HIV and kidney disease, in pregnant and postpartum women, and in healthy
+> individuals. Higher intensity physical activity was associated with greater improvements in
+> symptoms. Effectiveness of physical activity interventions diminished with longer duration
+> interventions.Conclusion and relevance: Physical activity is highly beneficial for improving
+> symptoms of depression, anxiety and distress across a wide range of adult populations, including
+> the general population, people with diagnosed mental health disorders and people with chronic
+> disease. Physical activity should be a mainstay approach in the management of depression, anxiety
+> and psychological distress.Prospero registration number: CRD42021292710.
+
+**Effectiveness of stress arousal reappraisal and stress-is-enhancing mindset interventions on task performance outcomes: a meta-analysis of randomized controlled trials.**, doi 10.1038/s41598-024-58408-w.
+
+> Stress arousal reappraisal (SAR) and stress-is-enhancing (SIE) mindset interventions aim to
+> promote a more adaptive stress response by educating individuals about the functionality of
+> stress. As part of this framework, an adaptive stress response is coupled with improved
+> performance on stressful tasks. The goal of this meta-analysis is to evaluate the effectiveness of
+> these interventions on task performance. The literature search yielded 44 effect sizes, and a
+> random-effects model with Knapp-Hartung adjustment was used to pool them. The results revealed an
+> overall small significant improvement in task performance (d = 0.23, p < 0.001). The effect size
+> was significantly larger for mixed interventions (i.e., SAR/SIE mindset instructions combined with
+> additional content, k = 5, d = 0.45, p = 0.004) than SAR-only interventions (k = 33, d = 0.22, p <
+> 0.001) and SIE mindset-only interventions (k = 6, d = 0.18, p = 0.22) and tended to be larger for
+> public performance tasks than cognitive written tasks (k = 14, d = 0.34, p < 0.001 vs. k = 30, d =
+> 0.20, p = 0.002). Although SAR and SIE mindset interventions are not "silver bullets", they offer
+> a promising cost-effective low-threshold approach to improve performance across various domains.
+
+**Effects of worry postponement on daily worry and sleep: a randomised controlled trial.**, doi 10.1080/08870446.2025.2590072.
+
+> Objective: Previous studies have shown that perseverative, worrisome thoughts are prospectively
+> related to poor sleep outcomes and that worry postponement interventions may be effective in
+> reducing worry. However, their effectiveness for improving sleep outcomes is unknown and they have
+> not been tested over a period longer than 7 days. The current study investigated the effects of a
+> worry postponement intervention, alongside a worry postponement + planning intervention (augmented
+> condition) against active and non-active control conditions on daily worry and sleep
+> outcomes.Methods and measures: A four-armed (online) randomised controlled trial (RCT) was
+> conducted using an interval-contingent design, where self-report measures of worry each night
+> (duration & frequency for that day) and sleep (sleep onset latency; number of awakenings, sleep
+> quality) each morning (for the previous night) were collected within 186 participants (Mage =
+> 30.34; SD = 7.89) across 14 days.Results: Participants in the augmented arm reported significantly
+> lower worry duration (by ∼15 min), relative to the standard worry postponement arm alone. However,
+> the intervention arms did not produce significant improvements in any of the sleep outcomes,
+> relative to the control groups.Conclusion: Creating specific 'if-then' plans for when and how to
+> engage in a worry postponement can produce favourable outcomes for worry reduction; however,
+> future studies are needed to unpick how to best translate these effects into positive outcomes for
+> sleep.
+
+**Efficacy of Mindfulness-Based Cognitive Therapy in Prevention of Depressive Relapse: An Individual Patient Data Meta-analysis From Randomized Trials.**, doi 10.1001/jamapsychiatry.2016.0076.
+
+> Importance: Relapse prevention in recurrent depression is a significant public health problem, and
+> antidepressants are the current first-line treatment approach. Identifying an equally efficacious
+> nonpharmacological intervention would be an important development.Objective: To conduct a
+> meta-analysis on individual patient data to examine the efficacy of mindfulness-based cognitive
+> therapy (MBCT) compared with usual care and other active treatments, including antidepressants, in
+> treating those with recurrent depression.Data sources: English-language studies published or
+> accepted for publication in peer-reviewed journals identified from EMBASE, PubMed/Medline,
+> PsycINFO, Web of Science, Scopus, and the Cochrane Controlled Trials Register from the first
+> available year to November 22, 2014. Searches were conducted from November 2010 to November
+> 2014.Study selection: Randomized trials of manualized MBCT for relapse prevention in recurrent
+> depression in full or partial remission that compared MBCT with at least 1 non-MBCT treatment,
+> including usual care.Data extraction and synthesis: This was an update to a previous
+> meta-analysis. We screened 2555 new records after removing duplicates. Abstracts were screened for
+> full-text extraction (S.S.) and checked by another researcher (T.D.). There were no disagreements.
+> Of the original 2555 studies, 766 were evaluated against full study inclusion criteria, and we
+> acquired full text for 8. Of these, 4 studies were excluded, and the remaining 4 were combined
+> with the 6 studies identified from the previous meta-analysis, yielding 10 studies for qualitative
+> synthesis. Full patient data were not available for 1 of these studies, resulting in 9 studies
+> with individual patient data, which were included in the quantitative synthesis.Results: Of the
+> 1258 patients included, the mean (SD) age was 47.1 (11.9) years, and 944 (75.0%) were female. A
+> 2-stage random effects approach showed that patients receiving MBCT had a reduced risk of
+> depressive relapse within a 60-week follow-up period compared with those who did not receive MBCT
+> (hazard ratio, 0.69; 95% CI, 0.58-0.82). Furthermore, comparisons with active treatments suggest a
+> reduced risk of depressive relapse within a 60-week follow-up period (hazard ratio, 0.79; 95% CI,
+> 0.64-0.97). Using a 1-stage approach, sociodemographic (ie, age, sex, education, and relationship
+> status) and psychiatric (ie, age at onset and number of previous episodes of depression) variables
+> showed no statistically significant interaction with MBCT treatment. However, there was some
+> evidence to suggest that a greater severity of depressive symptoms prior to treatment was
+> associated with a larger effect of MBCT compared with other treatments.Conclusions and relevance:
+> Mindfulness-based cognitive therapy appears efficacious as a treatment for relapse prevention for
+> those with recurrent depression, particularly those with more pronounced residual symptoms.
+> Recommendations are made concerning how future trials can address remaining uncertainties and
+> improve the rigor of the field.
+
+**Efficacy of Self-guided Internet-Based Cognitive Behavioral Therapy in the Treatment of Depressive Symptoms: A Meta-analysis of Individual Participant Data.**, doi 10.1001/jamapsychiatry.2017.0044.
+
+> Importance: Self-guided internet-based cognitive behavioral therapy (iCBT) has the potential to
+> increase access and availability of evidence-based therapy and reduce the cost of depression
+> treatment.Objectives: To estimate the effect of self-guided iCBT in treating adults with
+> depressive symptoms compared with controls and evaluate the moderating effects of treatment
+> outcome and response.Data sources: A total of 13 384 abstracts were retrieved through a systematic
+> literature search in PubMed, Embase, PsycINFO, and Cochrane Library from database inception to
+> January 1, 2016.Study selection: Randomized clinical trials in which self-guided iCBT was compared
+> with a control (usual care, waiting list, or attention control) in individuals with symptoms of
+> depression.Data extraction and synthesis: Primary authors provided individual participant data
+> from 3876 participants from 13 of 16 eligible studies. Missing data were handled using multiple
+> imputations. Mixed-effects models with participants nested within studies were used to examine
+> treatment outcomes and moderators.Main outcomes and measures: Outcomes included the Beck
+> Depression Inventory, Center for Epidemiological Studies-Depression Scale, and 9-item Patient
+> Health Questionnaire scores. Scales were standardized across the pool of the included
+> studies.Results: Of the 3876 study participants, the mean (SD) age was 42.0 (11.7) years, 2531
+> (66.0%) of 3832 were female, 1368 (53.1%) of 2574 completed secondary education, and 2262 (71.9%)
+> of 3146 were employed. Self-guided iCBT was significantly more effective than controls on
+> depressive symptoms severity (β = -0.21; Hedges g = 0.27) and treatment response (β = 0.53; odds
+> ratio, 1.95; 95% CI, 1.52-2.50; number needed to treat, 8). Adherence to treatment was associated
+> with lower depressive symptoms (β = -0.19; P = .001) and greater response to treatment (β = 0.90;
+> P < .001). None of the examined participant and study-level variables moderated treatment
+> outcomes.Conclusions and relevance: Self-guided iCBT is effective in treating depressive symptoms.
+> The use of meta-analyses of individual participant data provides substantial evidence for clinical
+> and policy decision making because self-guided iCBT can be considered as an evidence-based
+> first-step approach in treating symptoms of depression. Several limitations of the iCBT should be
+> addressed before it can be disseminated into routine care.
+
+**Efficacy, cost-effectiveness and acceptability of self-help interventions for anxiety disorders: systematic review.**, doi 10.1192/bjp.bp.110.084756.
+
+> Background: Self-help interventions for psychiatric disorders represent an increasingly popular
+> alternative to therapist-administered psychological therapies, offering the potential of increased
+> access to cost-effective treatment.Aims: To determine the efficacy, cost-effectiveness and
+> acceptability of self-help interventions for anxiety disorders.Method: Randomised controlled
+> trials (RCTs) of self-help interventions for anxiety disorders were identified by searching nine
+> online databases. Studies were grouped according to disorder and meta-analyses were conducted
+> where sufficient data were available. Overall meta-analyses of self-help v. waiting list and
+> therapist-administered treatment were also undertaken. Methodological quality was assessed
+> independently by two researchers according to criteria set out by the Cochrane
+> Collaboration.Results: Thirty-one RCTs met inclusion criteria for the review. Results of the
+> overall meta-analysis comparing self-help with waiting list gave a significant effect size of 0.84
+> in favour of self-help. Comparison of self-help with therapist-administered treatments revealed a
+> significant difference in favour of the latter with an effect size of 0.34. The addition of
+> guidance and the presentation of multimedia or web-based self-help materials improved treatment
+> outcome.Conclusions: Self-help interventions appear to be an effective way of treating individuals
+> diagnosed with social phobia and panic disorder. Further research is required to evaluate the
+> cost-effectiveness and acceptability of these interventions.
+
+**Exercise as medicine for depressive symptoms? A systematic review and meta-analysis with meta-regression.**, doi 10.1136/bjsports-2022-106282.
+
+> Objective: To estimate the efficacy of exercise on depressive symptoms compared with non-active
+> control groups and to determine the moderating effects of exercise on depression and the presence
+> of publication bias.Design: Systematic review and meta-analysis with meta-regression.Data sources:
+> The Cochrane Central Register of Controlled Trials, PubMed, MEDLINE, Embase, SPORTDiscus,
+> PsycINFO, Scopus and Web of Science were searched without language restrictions from inception to
+> 13 September2022 (PROSPERO registration no CRD42020210651).Eligibility criteria for selecting
+> studies: Randomised controlled trials including participants aged 18 years or older with a
+> diagnosis of major depressive disorder or those with depressive symptoms determined by validated
+> screening measures scoring above the threshold value, investigating the effects of an exercise
+> intervention (aerobic and/or resistance exercise) compared with a non-exercising control
+> group.Results: Forty-one studies, comprising 2264 participants post intervention were included in
+> the meta-analysis demonstrating large effects (standardised mean difference (SMD)=-0.946, 95% CI
+> -1.18 to -0.71) favouring exercise interventions which corresponds to the number needed to treat
+> (NNT)=2 (95% CI 1.68 to 2.59). Large effects were found in studies with individuals with major
+> depressive disorder (SMD=-0.998, 95% CI -1.39 to -0.61, k=20), supervised exercise interventions
+> (SMD=-1.026, 95% CI -1.28 to -0.77, k=40) and moderate effects when analyses were restricted to
+> low risk of bias studies (SMD=-0.666, 95% CI -0.99 to -0.34, k=12, NNT=2.8 (95% CI 1.94 to
+> 5.22)).Conclusion: Exercise is efficacious in treating depression and depressive symptoms and
+> should be offered as an evidence-based treatment option focusing on supervised and group exercise
+> with moderate intensity and aerobic exercise regimes. The small sample sizes of many trials and
+> high heterogeneity in methods should be considered when interpreting the results.
+
+**Exercise for depression.**, doi 10.1002/14651858.CD004366.pub6.
+
+> Background: Depression is a common and important cause of morbidity and mortality worldwide.
+> Depression is commonly treated with antidepressants and/or psychological therapy, but some people
+> may prefer alternative approaches such as exercise. There are a number of theoretical reasons why
+> exercise may improve depression. This is an update of an earlier review first published in
+> 2009.Objectives: To determine the effectiveness of exercise in the treatment of depression in
+> adults compared with no treatment or a comparator intervention.Search methods: We searched the
+> Cochrane Depression, Anxiety and Neurosis Review Group's Controlled Trials Register (CCDANCTR) to
+> 13 July 2012. This register includes relevant randomised controlled trials from the following
+> bibliographic databases: The Cochrane Library (all years); MEDLINE (1950 to date); EMBASE (1974 to
+> date) and PsycINFO (1967 to date). We also searched www.controlled-trials.com, ClinicalTrials.gov
+> and the WHO International Clinical Trials Registry Platform. No date or language restrictions were
+> applied to the search.We conducted an additional search of the CCDANCTR up to 1st March 2013 and
+> any potentially eligible trials not already included are listed as 'awaiting
+> classification.'Selection criteria: Randomised controlled trials in which exercise (defined
+> according to American College of Sports Medicine criteria) was compared to standard treatment, no
+> treatment or a placebo treatment, pharmacological treatment, psychological treatment or other
+> active treatment in adults (aged 18 and over) with depression, as defined by trial authors. We
+> included cluster trials and those that randomised individuals. We excluded trials of postnatal
+> depression.Data collection and analysis: Two review authors extracted data on primary and
+> secondary outcomes at the end of the trial and end of follow-up (if available). We calculated
+> effect sizes for each trial using Hedges' g method and a standardised mean difference (SMD) for
+> the overall pooled effect, using a random-effects model risk ratio for dichotomous data. Where
+> trials used a number of different tools to assess depression, we included the main outcome measure
+> only in the meta-analysis. Where trials provided several 'doses' of exercise, we used data from
+> the biggest 'dose' of exercise, and performed sensitivity analyses using the lower 'dose'. We
+> performed subgroup analyses to explore the influence of method of diagnosis of depression
+> (diagnostic interview or cut-off point on scale), intensity of exercise and the number of sessions
+> of exercise on effect sizes. Two authors performed the 'Risk of bias' assessments. Our sensitivity
+> analyses explored the influence of study quality on outcome.Main results: Thirty-nine trials (2326
+> participants) fulfilled our inclusion criteria, of which 37 provided data for meta-analyses. There
+> were multiple sources of bias in many of the trials; randomisation was adequately concealed in 14
+> studies, 15 used intention-to-treat analyses and 12 used blinded outcome assessors.For the 35
+> trials (1356 participants) comparing exercise with no treatment or a control intervention, the
+> pooled SMD for the primary outcome of depression at the end of treatment was -0.62 (95% confidence
+> interval (CI) -0.81 to -0.42), indicating a moderate clinical effect. There was moderate
+> heterogeneity (I² = 63%).When we included only the six trials (464 participants) with adequate
+> allocation concealment, intention-to-treat analysis and blinded outcome assessment, the pooled SMD
+> for this outcome was not statistically significant (-0.18, 95% CI -0.47 to 0.11). Pooled data from
+> the eight trials (377 participants) providing long-term follow-up data on mood found a small
+> effect in favour of exercise (SMD -0.33, 95% CI -0.63 to -0.03).Twenty-nine trials reported
+> acceptability of treatment, three trials reported quality of life, none reported cost, and six
+> reported adverse events.For acceptability of treatment (assessed by number of drop-outs during the
+> intervention), the risk ratio was 1.00 (95% CI 0.97 to 1.04).Seven trials compared exercise with
+> psychological therapy (189 participants), and found no significant difference (SMD -0.03, 95% CI
+> -0.32 to 0.26). Four trials (n = 300) compared exercise with pharmacological treatment and found
+> no significant difference (SMD -0.11, -0.34, 0.12). One trial (n = 18) reported that exercise was
+> more effective than bright light therapy (MD -6.40, 95% CI -10.20 to -2.60).For each trial that
+> was included, two authors independently assessed for sources of bias in accordance with the
+> Cochrane Collaboration 'Risk of bias' tool. In exercise trials, there are inherent difficulties in
+> blinding both those receiving the intervention and those delivering the intervention. Many trials
+> used participant self-report rating scales as a method for post-intervention analysis, which also
+> has the potential to bias findings.Authors' conclusions: Exercise is moderately more effective
+> than a control intervention for reducing symptoms of depression, but analysis of methodologically
+> robust trials only shows a smaller effect in favour of exercise. When compared to psychological or
+> pharmacological therapies, exercise appears to be no more effective, though this conclusion is
+> based on a few small trials.
+
+**Exercise for depression.**, doi 10.1002/14651858.CD004366.pub7.
+
+> Rationale: Depression is a common cause of morbidity and mortality worldwide. Depression is often
+> treated with antidepressants or psychological therapy, or both, but some people may prefer
+> alternative approaches such as exercise. This review updates one first published in 2008 and last
+> updated in 2013.Objectives: To determine the effectiveness of exercise in the treatment of
+> depression in adults compared with no intervention, waiting list control or placebo, or where
+> exercise is used as an adjunct to an established treatment that is received by both exercising and
+> non-exercising groups. To determine the effectiveness of exercise compared with other active
+> interventions for depression in adults (psychological therapies, pharmacological treatments or
+> alternative interventions such as light therapy).Search methods: We searched the Cochrane
+> Depression, Anxiety and Neurosis Review Group's Controlled Trials Register (CCDANCTR) to November
+> 2013. We searched MEDLINE, Embase, PsycINFO and the Cochrane Central Register of Controlled Trials
+> (CENTRAL) from 2013 to November 2023. No date or language restrictions were applied.Eligibility
+> criteria: We included randomised controlled trials (RCTs) in which exercise was compared to no
+> treatment, inactive treatment or active treatment in adults (aged 18 years and over) with
+> depression. We included trials that randomised individual participants or clusters. We excluded
+> trials of postnatal depression. Two authors independently undertook study selection.Outcomes: The
+> primary outcome we assessed was a measure of depression or mood at the end of treatment and at any
+> longer-term follow-up. Other outcomes were treatment acceptability, quality of life, cost and
+> adverse events.Risk of bias: We assessed the risk of bias using the Cochrane risk of bias tool RoB
+> 1. Two authors independently performed the risk of bias assessment.Synthesis methods: Two authors
+> independently extracted data on outcomes at the end of the trial and end of follow-up (if
+> available). We calculated effect sizes for each trial using Hedges' g method and a mean difference
+> (MD) or standardised mean difference (SMD) for the overall pooled effect for continuous data, and
+> risk ratios for dichotomous data. Where trials used a number of different tools to assess
+> depression, we included only the main outcome measure in our meta-analyses. Where trials provided
+> several 'doses' of exercise, we used data from the largest dose and performed sensitivity analysis
+> using the lower dose. We performed subgroup analysis to explore the influence of diagnostic
+> method, exercise intensity, number of exercise sessions, type of exercise and type of control
+> (i.e. placebo, no treatment, waiting list, usual care and self monitoring). Through our
+> sensitivity analyses, we explored the influence of study risk of bias.Included studies: We
+> included 73 RCTs (at least 4985 participants) in the review, 69 of which contributed data to our
+> meta-analyses.Synthesis of results: For the 57 trials (2189 participants) comparing exercise with
+> no treatment or a control intervention, the pooled SMD for depressive symptoms at the end of
+> treatment was -0.67 (95% confidence interval (CI) -0.82 to -0.52; low-certainty evidence), showing
+> that exercise may result in a reduction in depressive symptoms. When we included only the seven
+> trials (447 participants) with adequate allocation concealment, intention-to-treat analysis and
+> blinded outcome assessment, the pooled SMD was smaller (SMD -0.46, 95% CI -0.88 to -0.04). Pooled
+> data from the nine trials (405 participants) with long-term follow-up provided very uncertain
+> evidence about the effect of exercise on depressive symptoms (SMD -0.53, 95% CI -1.11 to 0.06;
+> very low certainty evidence). Ten trials (414 participants) compared exercise with psychological
+> therapy, finding there is probably little to no difference in their effect on depressive symptoms
+> at the end of treatment (SMD 0.03, 95% CI -0.16 to 0.23; moderate-certainty evidence). There were
+> similar results at long-term follow-up (SMD -0.11, 95% CI -0.48 to 0.26; 4 studies, 114
+> participants; low-certainty evidence). Five trials (330 participants) compared exercise with
+> pharmacological treatment, finding there may be little to no difference in their effect on
+> depressive symptoms at the end of treatment (SMD -0.11, 95% CI -0.33 to 0.10; low-certainty
+> evidence). The evidence was very uncertain at long-term follow-up (SMD -0.40, 95% CI -0.80 to
+> 0.00; 1 study, 58 participants; very low certainty evidence). There did not appear to be a
+> difference between exercise and other interventions in terms of treatment acceptability, as
+> measured by participants completing the study (moderate to low certainty evidence). Results for
+> the outcome 'quality of life' were inconsistent (low to very low certainty evidence). Adverse
+> events were not common in any comparison, but included musculoskeletal injuries and depression
+> affecting those undertaking exercise, and diarrhoea, sexual dysfunction and fatigue reported by
+> those receiving sertraline. Many trials were affected by multiple sources of bias: randomisation
+> was adequately concealed in only 22 studies, only 31 used intention-to-treat analyses, and only 23
+> used blinded outcome assessors. Blinding of those receiving and those delivering the interventions
+> is inherently difficult; we judged all studies to be at high risk of performance bias. Many trials
+> used participant self-report rating scales, which have the potential to bias findings.Authors'
+> conclusions: Exercise may be moderately more effective than a control intervention for reducing
+> symptoms of depression. Exercise appears to be no more or less effective than psychological or
+> pharmacological treatments, though this conclusion is based on a few small trials. Long-term
+> follow-up was rare. The addition of 35 RCTs (at least 2526 participants) to this update has had
+> very little effect on the estimate of the benefit of exercise on symptoms of depression. If
+> further research is to take place, it should focus on improving trial quality, assessing which
+> characteristics of exercise are effective for different people, and exploring health
+> equity.Funding: This review update had no grant funding. Review authors AC, JH, CH and CW were
+> part-funded by the National Institute for Health and Care Research Applied Research Collaboration
+> North West Coast (NIHR ARC NWC). The views expressed are those of the authors and not necessarily
+> those of the NHS, NIHR or Department of Health and Social Care.Registration: Protocols and
+> previous versions: DOI 10.1002/14651858.CD004366; DOI 10.1002/14651858.CD4366.pub2; DOI
+> 10.1002/14651858.CD4366.pub3; DOI 10.1002/14651858.CD4366.pub4; DOI 10.1002/14651858.CD4366.pub5;
+> DOI 10.1002/14651858.CD4366.pub6.
+
+**Exercise in the treatment of clinical anxiety in general practice - a systematic review and meta-analysis.**, doi 10.1186/s12913-018-3313-5.
+
+> Background: Anxiety disorders are common, yet treatment options in general practice are often
+> limited to medication or CBT. There is a lack of evidence for the effectiveness of exercise in the
+> treatment of anxiety in patients who present to general practice and also about the intensity of
+> exercise required to lead to improvement. The aim of this systematic review was to assess the use
+> of exercise versus waiting list control groups in the treatment of anxiety and also to assess the
+> benefit of high intensity exercise vs low intensity exercise. Long term follow up scores were also
+> analysed. We included patients who met diagnostic criteria for anxiety disorders or had clinically
+> raised anxiety levels on a validated rating scale and performed a subgroup analysis of the
+> outcomes between the two groups. The intervention was any aerobic exercise programme carried out
+> for at least two weeks, or exercise carried out at high intensity for at least two weeks. The
+> comparison groups were either a waiting list control group or low intensity exercise.Method:
+> Systematic review of randomised controlled trials. Three databases were searched; CENTRAL, Medline
+> and Embase. Outcome assessment was based on validated anxiety rating scales. The quality of the
+> studies was appraised according to the Cochrane Risk of Bias tool. Effect sizes were calculated
+> using the standardised mean difference.Results: Fifteen studies were identified with a total of
+> 675 patients. Nine trials had participants with diagnosed anxiety disorders and six trials had
+> participants with raised anxiety on a validated rating scale. Aerobic exercise was effective in
+> the treatment of raised anxiety compared to waiting list control groups (effect size - 0.41, 95%
+> CI = - 0.70 to - 0.12). High intensity exercise programmes showed greater effects than low
+> intensity programmes. There was no significant difference in outcomes between groups of patients
+> with diagnosed anxiety disorders and patients who had raised anxiety on a rating scale.
+> Conclusions were limited by the small number of studies and wide variation in the delivery of
+> exercise interventions.Conclusion: Exercise programmes are a viable treatment option for the
+> treatment of anxiety. High intensity exercise regimens were found to be more effective than low
+> intensity regimens. The results have implications for the use of exercise schemes in General
+> Practice.
+
+**Experimental disclosure and its moderators: a meta-analysis.**, doi 10.1037/0033-2909.132.6.823.
+
+> Disclosing information, thoughts, and feelings about personal and meaningful topics (experimental
+> disclosure) is purported to have various health and psychological consequences (e.g., J. W.
+> Pennebaker, 1993). Although the results of 2 small meta-analyses (P. G. Frisina, J. C. Borod, & S.
+> J. Lepore, 2004; J. M. Smyth, 1998) suggest that experimental disclosure has a positive and
+> significant effect, both used a fixed effects approach, limiting generalizability. Also, a
+> plethora of studies on experimental disclosure have been completed that were not included in the
+> previous analyses. One hundred forty-six randomized studies of experimental disclosure were
+> collected and included in the present meta-analysis. Results of random effects analyses indicate
+> that experimental disclosure is effective, with a positive and significant average r-effect size
+> of .075. In addition, a number of moderators were identified.
+
+**Individual participant data systematic review and meta-analysis of randomised controlled trials assessing adult mindfulness-based programmes for mental health promotion in non-clinical settings.**, doi 10.1038/s44220-023-00081-5.
+
+> Introduction: Mindfulness-based programmes (MBPs) are widely used to prevent mental ill-health
+> that is becoming the leading global cause of morbidity. Evidence suggests beneficial average
+> effects but wide variability. We aimed to confirm the effect of MBPs on psychological distress,
+> and to understand whether and how baseline distress, gender, age, education, and dispositional
+> mindfulness modify the effect of MBPs on distress among adults in non-clinical settings.Methods:
+> We conducted a pre-registered systematic review and individual participant data (IPD)
+> meta-analysis (PROSPERO CRD42020200117). Thirteen databases were searched in December 2020 for
+> randomised controlled trials satisfying a quality threshold and comparing in-person,
+> expert-defined MBPs in non-clinical settings with passive control groups. Two researchers
+> independently selected, extracted, and appraised trials using the revised Cochrane Risk-of-Bias
+> Tool (RoB2). Anonymised IPD of eligible trials were sought from collaborating authors. The primary
+> outcome was psychological distress (unpleasant mental or emotional experiences including anxiety
+> and depression) at 1 to 6 months after programme completion. Data were checked and imputed if
+> missing. Pairwise, random-effects, two-stage IPD meta-analyses were conducted. Effect modification
+> analyses followed a within-studies approach. Public and professional stakeholders were involved in
+> the planning, conduct and dissemination of this study.Results: Fifteen trials were eligible, 13
+> trialists shared IPD (2,371 participants representing 8 countries, median age 34 years-old, 71%
+> women, moderately distressed on average, 20% missing outcome data). In comparison with passive
+> control groups, MBPs reduced average distress between one- and six-months post-intervention with a
+> small to moderate effect size (standardised mean difference (SMD) -0.32; 95% confidence interval
+> (CI) -0.41 to -0.24; p-value < 0.001; 95% prediction interval (PI) -0.41 to -0.24 (no
+> heterogeneity)). Results were robust to sensitivity analyses, and similar for the other
+> psychological distress time point ranges. Confidence in the primary outcome result is high. We
+> found no clear indication that this effect is modified by baseline psychological distress, gender,
+> age, education level, or dispositional mindfulness.Conclusions: Group-based teacher-led MBPs
+> generally reduce psychological distress among community adults who volunteer to receive this type
+> of intervention. More research is needed to identify sources of variability in outcomes at an
+> individual level.
+
+**Initial severity and antidepressant benefits: a meta-analysis of data submitted to the Food and Drug Administration.**, doi 10.1371/journal.pmed.0050045.
+
+> Background: Meta-analyses of antidepressant medications have reported only modest benefits over
+> placebo treatment, and when unpublished trial data are included, the benefit falls below accepted
+> criteria for clinical significance. Yet, the efficacy of the antidepressants may also depend on
+> the severity of initial depression scores. The purpose of this analysis is to establish the
+> relation of baseline severity and antidepressant efficacy using a relevant dataset of published
+> and unpublished clinical trials.Methods and findings: We obtained data on all clinical trials
+> submitted to the US Food and Drug Administration (FDA) for the licensing of the four
+> new-generation antidepressants for which full datasets were available. We then used meta-analytic
+> techniques to assess linear and quadratic effects of initial severity on improvement scores for
+> drug and placebo groups and on drug-placebo difference scores. Drug-placebo differences increased
+> as a function of initial severity, rising from virtually no difference at moderate levels of
+> initial depression to a relatively small difference for patients with very severe depression,
+> reaching conventional criteria for clinical significance only for patients at the upper end of the
+> very severely depressed category. Meta-regression analyses indicated that the relation of baseline
+> severity and improvement was curvilinear in drug groups and showed a strong, negative linear
+> component in placebo groups.Conclusions: Drug-placebo differences in antidepressant efficacy
+> increase as a function of baseline severity, but are relatively small even for severely depressed
+> patients. The relationship between initial severity and antidepressant efficacy is attributable to
+> decreased responsiveness to placebo among very severely depressed patients, rather than to
+> increased responsiveness to medication.
+
+**Internet-Based Cognitive Behavioral Therapy for Depression: A Systematic Review and Individual Patient Data Network Meta-analysis.**, doi 10.1001/jamapsychiatry.2020.4364.
+
+> Importance: Personalized treatment choices would increase the effectiveness of internet-based
+> cognitive behavioral therapy (iCBT) for depression to the extent that patients differ in
+> interventions that better suit them.Objective: To provide personalized estimates of short-term and
+> long-term relative efficacy of guided and unguided iCBT for depression using patient-level
+> information.Data sources: We searched PubMed, Embase, PsycInfo, and Cochrane Library to identify
+> randomized clinical trials (RCTs) published up to January 1, 2019.Study selection: Eligible RCTs
+> were those comparing guided or unguided iCBT against each other or against any control
+> intervention in individuals with depression. Available individual patient data (IPD) was collected
+> from all eligible studies. Depression symptom severity was assessed after treatment, 6 months, and
+> 12 months after randomization.Data extraction and synthesis: We conducted a systematic review and
+> IPD network meta-analysis and estimated relative treatment effect sizes across different patient
+> characteristics through IPD network meta-regression.Main outcomes and measures: Patient Health
+> Questionnaire-9 (PHQ-9) scores.Results: Of 42 eligible RCTs, 39 studies comprising 9751
+> participants with depression contributed IPD to the IPD network meta-analysis, of which 8107 IPD
+> were synthesized. Overall, both guided and unguided iCBT were associated with more effectiveness
+> as measured by PHQ-9 scores than control treatments over the short term and the long term. Guided
+> iCBT was associated with more effectiveness than unguided iCBT (mean difference [MD] in
+> posttreatment PHQ-9 scores, -0.8; 95% CI, -1.4 to -0.2), but we found no evidence of a difference
+> at 6 or 12 months following randomization. Baseline depression was found to be the most important
+> modifier of the relative association for efficacy of guided vs unguided iCBT. Differences between
+> unguided and guided iCBT in people with baseline symptoms of subthreshold depression (PHQ-9 scores
+> 5-9) were small, while guided iCBT was associated with overall better outcomes in patients with
+> baseline PHQ-9 greater than 9.Conclusions and relevance: In this network meta-analysis with IPD,
+> guided iCBT was associated with more effectiveness than unguided iCBT for individuals with
+> depression, benefits were more substantial in individuals with moderate to severe depression.
+> Unguided iCBT was associated with similar effectiveness among individuals with symptoms of
+> mild/subthreshold depression. Personalized treatment selection is entirely possible and necessary
+> to ensure the best allocation of treatment resources for depression.
+
+**Loss, trauma, and human resilience: have we underestimated the human capacity to thrive after extremely aversive events?**, doi 10.1037/0003-066X.59.1.20.
+
+> Many people are exposed to loss or potentially traumatic events at some point in their lives, and
+> yet they continue to have positive emotional experiences and show only minor and transient
+> disruptions in their ability to function. Unfortunately, because much of psychology's knowledge
+> about how adults cope with loss or trauma has come from individuals who sought treatment or
+> exhibited great distress, loss and trauma theorists have often viewed this type of resilience as
+> either rare or pathological. The author challenges these assumptions by reviewing evidence that
+> resilience represents a distinct trajectory from the process of recovery, that resilience in the
+> face of loss or potential trauma is more common than is often believed, and that there are
+> multiple and sometimes unexpected pathways to resilience.
+
+**Media-delivered cognitive behavioural therapy and behavioural therapy (self-help) for anxiety disorders in adults.**, doi 10.1002/14651858.CD005330.pub4.
+
+> Background: Anxiety disorders are the most common mental health problems. They are chronic and
+> unremitting. Effective treatments are available, but access to services is limited.
+> Media-delivered behavioural and cognitive behavioural interventions (self-help) aim to deliver
+> treatment with less input from professionals compared with traditional therapies.Objectives: To
+> assess the effects of media-delivered behavioural and cognitive behavioural therapies for anxiety
+> disorders in adults.Search methods: Published and unpublished studies were considered without
+> restriction by language or date. The Cochrane Depression, Anxiety and Neurosis Review Group's
+> Specialized Register (CCDANCTR) was searched all years to 1 January 2013. The CCDANCTR includes
+> relevant randomised controlled trials from the following bibliographic databases: The Cochrane
+> Library (all years), EMBASE (1974 to date), MEDLINE (1950 to date) and PsycINFO (1967 to date).
+> Complementary searches were carried out on Ovid MEDLINE (1950 to 23 February 2013) and PsycINFO
+> (1987 to February, Week 2, 2013), together with International trial registries (the trials portal
+> of the World Health Organization (ICTRP) and ClinicalTrials.gov). Reference lists from previous
+> meta-analyses and reports of randomised controlled trials were checked, and authors were contacted
+> for unpublished data.Selection criteria: Randomised controlled trials of media-delivered
+> behavioural or cognitive behavioural therapy in adults with anxiety disorders (other than
+> post-traumatic stress disorder) compared with no intervention (including attention/relaxation
+> controls) or compared with face-to-face therapy.Data collection and analysis: Both review authors
+> independently screened titles and abstracts. Study characteristics and outcomes were extracted in
+> duplicate. Outcomes were combined using random-effects models, and tests for heterogeneity and for
+> small study bias were conducted. We examined subgroup differences by type of disorder, type of
+> intervention provided, type of media, and recruitment methods used.Main results: One hundred and
+> one studies with 8403 participants were included; 92 studies were included in the quantitative
+> synthesis. These trials compared several types of media-delivered interventions (with varying
+> levels of support) with no treatment and with face-to-face interventions. Inconsistency and risk
+> of bias reduced our confidence in the overall results. For the primary outcome of symptoms of
+> anxiety, moderate-quality evidence showed medium effects compared with no intervention
+> (standardised mean difference (SMD) 0.67, 95% confidence interval (CI) 0.55 to 0.80; 72 studies,
+> 4537 participants), and low-quality evidence of small effects favoured face-to-face therapy (SMD
+> -0.23, 95% CI -0.36 to -0.09; 24 studies, 1360 participants). The intervention was associated with
+> greater response than was seen with no treatment (risk ratio (RR) 2.34, 95% CI 1.81 to 3.03; 21
+> studies, 1547 participants) and was not significantly inferior to face-to-face therapy in these
+> studies (RR 0.78, 95 % CI 0.56 to 1.09; 10 studies, 575 participants), but the latter comparison
+> included versions of therapies that were not as comprehensive as those provided in routine
+> clinical practice. Evidence suggested benefit for secondary outcome measures (depression,
+> mental-health related disability, quality of life and dropout), but this evidence was of low to
+> moderate quality. Evidence regarding harm was lacking.Authors' conclusions: Self-help may be
+> useful for people who are not able or are not willing to use other services for people with
+> anxiety disorders; for people who can access it, face-to-face cognitive behavioural therapy is
+> probably clinically superior. Economic analyses were beyond the scope of this review.Important
+> heterogeneity was noted across trials. Recent interventions for specific problems that incorporate
+> clinician support may be more effective than transdiagnostic interventions (i.e. interventions for
+> multiple disorders) provided with no guidance, but these issues are confounded in the available
+> trials.Although many small trials have been conducted, the generalisability of their findings is
+> limited. Most interventions tested are not available to consumers. Self-help has been recommended
+> as the first step in the treatment of some anxiety disorders, but the short-term and long-term
+> effectiveness of media-delivered interventions has not been established. Large, pragmatic trials
+> are needed to evaluate and to maximise the benefits of self-help interventions.
+
+**Meditation programs for psychological stress and well-being: a systematic review and meta-analysis.**, doi 10.1001/jamainternmed.2013.13018.
+
+> Importance: Many people meditate to reduce psychological stress and stress-related health
+> problems. To counsel people appropriately, clinicians need to know what the evidence says about
+> the health benefits of meditation.Objective: To determine the efficacy of meditation programs in
+> improving stress-related outcomes (anxiety, depression, stress/distress, positive mood, mental
+> health-related quality of life, attention, substance use, eating habits, sleep, pain, and weight)
+> in diverse adult clinical populations.Evidence review: We identified randomized clinical trials
+> with active controls for placebo effects through November 2012 from MEDLINE, PsycINFO, EMBASE,
+> PsycArticles, Scopus, CINAHL, AMED, the Cochrane Library, and hand searches. Two independent
+> reviewers screened citations and extracted data. We graded the strength of evidence using 4
+> domains (risk of bias, precision, directness, and consistency) and determined the magnitude and
+> direction of effect by calculating the relative difference between groups in change from baseline.
+> When possible, we conducted meta-analyses using standardized mean differences to obtain aggregate
+> estimates of effect size with 95% confidence intervals.Findings: After reviewing 18 753 citations,
+> we included 47 trials with 3515 participants. Mindfulness meditation programs had moderate
+> evidence of improved anxiety (effect size, 0.38 [95% CI, 0.12-0.64] at 8 weeks and 0.22
+> [0.02-0.43] at 3-6 months), depression (0.30 [0.00-0.59] at 8 weeks and 0.23 [0.05-0.42] at 3-6
+> months), and pain (0.33 [0.03- 0.62]) and low evidence of improved stress/distress and mental
+> health-related quality of life. We found low evidence of no effect or insufficient evidence of any
+> effect of meditation programs on positive mood, attention, substance use, eating habits, sleep,
+> and weight. We found no evidence that meditation programs were better than any active treatment
+> (ie, drugs, exercise, and other behavioral therapies).Conclusions and relevance: Clinicians should
+> be aware that meditation programs can result in small to moderate reductions of multiple negative
+> dimensions of psychological stress. Thus, clinicians should be prepared to talk with their
+> patients about the role that a meditation program could have in addressing psychological stress.
+> Stronger study designs are needed to determine the effects of meditation programs in improving the
+> positive dimensions of mental health and stress-related behavior.
+
+**Mind the Hype: A Critical Evaluation and Prescriptive Agenda for Research on Mindfulness and Meditation.**, doi 10.1177/1745691617709589.
+
+> During the past two decades, mindfulness meditation has gone from being a fringe topic of
+> scientific investigation to being an occasional replacement for psychotherapy, tool of corporate
+> well-being, widely implemented educational practice, and "key to building more resilient
+> soldiers." Yet the mindfulness movement and empirical evidence supporting it have not gone without
+> criticism. Misinformation and poor methodology associated with past studies of mindfulness may
+> lead public consumers to be harmed, misled, and disappointed. Addressing such concerns, the
+> present article discusses the difficulties of defining mindfulness, delineates the proper scope of
+> research into mindfulness practices, and explicates crucial methodological issues for interpreting
+> results from investigations of mindfulness. For doing so, the authors draw on their diverse areas
+> of expertise to review the present state of mindfulness research, comprehensively summarizing what
+> we do and do not know, while providing a prescriptive agenda for contemplative science, with a
+> particular focus on assessment, mindfulness training, possible adverse effects, and intersection
+> with brain imaging. Our goals are to inform interested scientists, the news media, and the public,
+> to minimize harm, curb poor research practices, and staunch the flow of misinformation about the
+> benefits, costs, and future prospects of mindfulness meditation.
+
+**Mindfulness-based programmes for mental health promotion in adults in nonclinical settings: A systematic review and meta-analysis of randomised controlled trials.**, doi 10.1371/journal.pmed.1003481.
+
+> Background: There is an urgent need for mental health promotion in nonclinical settings.
+> Mindfulness-based programmes (MBPs) are being widely implemented to reduce stress, but a
+> comprehensive evidence synthesis is lacking. We reviewed trials to assess whether MBPs promote
+> mental health relative to no intervention or comparator interventions.Methods and findings:
+> Following a detailed preregistered protocol (PROSPERO CRD42018105213) developed with public and
+> professional stakeholders, 13 databases were searched to August 2020 for randomised controlled
+> trials (RCTs) examining in-person, expert-defined MBPs in nonclinical settings. Two researchers
+> independently selected, extracted, and appraised trials using the Cochrane Risk-of-Bias Tool 2.0.
+> Primary outcomes were psychometrically validated anxiety, depression, psychological distress, and
+> mental well-being questionnaires at 1 to 6 months after programme completion. Multiple testing was
+> performed using p < 0.0125 (Bonferroni) for statistical significance. Secondary outcomes,
+> meta-regression and sensitivity analyses were prespecified. Pairwise random-effects multivariate
+> meta-analyses and prediction intervals (PIs) were calculated. A total of 11,605 participants in
+> 136 trials were included (29 countries, 77% women, age range 18 to 73 years). Compared with no
+> intervention, in most but not all scenarios MBPs improved average anxiety (8 trials; standardised
+> mean difference (SMD) = -0.56; 95% confidence interval (CI) -0.80 to -0.33; p-value < 0.001; 95%
+> PI -1.19 to 0.06), depression (14 trials; SMD = -0.53; 95% CI -0.72 to -0.34; p-value < 0.001; 95%
+> PI -1.14 to 0.07), distress (27 trials; SMD = -0.45; 95% CI -0.58 to -0.31; p-value < 0.001; 95%
+> PI -1.04 to 0.14), and well-being (9 trials; SMD = 0.33; 95% CI 0.11 to 0.54; p-value = 0.003; 95%
+> PI -0.29 to 0.94). Compared with nonspecific active control conditions, in most but not all
+> scenarios MBPs improved average depression (6 trials; SMD = -0.46; 95% CI -0.81 to -0.10; p-value
+> = 0.012, 95% PI -1.57 to 0.66), with no statistically significant evidence for improving anxiety
+> or distress and no reliable data on well-being. Compared with specific active control conditions,
+> there is no statistically significant evidence of MBPs' superiority. Only effects on distress
+> remained when higher-risk trials were excluded. USA-based trials reported smaller effects. MBPs
+> targeted at higher-risk populations had larger effects than universal MBPs. The main limitation of
+> this review is that confidence according to the Grading of Recommendations Assessment, Development
+> and Evaluation (GRADE) approach is moderate to very low, mainly due to inconsistency and high risk
+> of bias in many trials.Conclusions: Compared with taking no action, MBPs of the included studies
+> promote mental health in nonclinical settings, but given the heterogeneity between studies, the
+> findings do not support generalisation of MBP effects across every setting. MBPs may have specific
+> effects on some common mental health symptoms. Other preventative interventions may be equally
+> effective. Implementation of MBPs in nonclinical settings should be partnered with thorough
+> research to confirm findings and learn which settings are most likely to benefit.
+
+**Mindfulness-Based Stress Reduction vs Escitalopram for the Treatment of Adults With Anxiety Disorders: A Randomized Clinical Trial.**, doi 10.1001/jamapsychiatry.2022.3679.
+
+> Importance: Anxiety disorders are common, highly distressing, and impairing conditions. Effective
+> treatments exist, but many patients do not access or respond to them. Mindfulness-based
+> interventions, such as mindfulness-based stress reduction (MBSR) are popular and can decrease
+> anxiety, but it is unknown how they compare to standard first-line treatments.Objective: To
+> determine whether MBSR is noninferior to escitalopram, a commonly used first-line
+> psychopharmacological treatment for anxiety disorders.Design, setting, and participants: This
+> randomized clinical trial (Treatments for Anxiety: Meditation and Escitalopram [TAME]) included a
+> noninferiority design with a prespecified noninferiority margin. Patients were recruited between
+> June 2018 and February 2020. The outcome assessments were performed by blinded clinical
+> interviewer at baseline, week 8 end point, and follow-up visits at 12 and 24 weeks. Of 430
+> individuals assessed for inclusion, 276 adults with a diagnosed anxiety disorder from 3 urban
+> academic medical centers in the US were recruited for the trial, and 208 completed the
+> trial.Interventions: Participants were 1:1 randomized to 8 weeks of the weekly MBSR course or the
+> antidepressant escitalopram, flexibly dosed from 10 to 20 mg.Main outcomes and measures: The
+> primary outcome measure was anxiety levels as assessed with the Clinical Global Impression of
+> Severity scale (CGI-S), with a predetermined noninferiority margin of -0.495 points.Results: The
+> primary noninferiority sample consisted of 208 patients (102 in MBSR and 106 in escitalopram),
+> with a mean (SD) age of 33 (13) years; 156 participants (75%) were female; 32 participants (15%)
+> were African American, 41 (20%) were Asian, 18 (9%) were Hispanic/Latino, 122 (59%) were White,
+> and 13 (6%) were of another race or ethnicity (including Native American or Alaska Native, more
+> than one race, or other, consolidated owing to low numbers). Baseline mean (SD) CGI-S score was
+> 4.44 (0.79) for the MBSR group and 4.51 (0.78) for the escitalopram group in the per-protocol
+> sample and 4.49 (0.77) vs 4.54 (0.83), respectively, in the randomized sample. At end point, the
+> mean (SD) CGI-S score was reduced by 1.35 (1.06) for MBSR and 1.43 (1.17) for escitalopram. The
+> difference between groups was -0.07 (0.16; 95% CI, -0.38 to 0.23; P = .65), where the lower bound
+> of the interval fell within the predefined noninferiority margin of -0.495, indicating
+> noninferiority of MBSR compared with escitalopram. Secondary intent-to-treat analyses using
+> imputed data also showed the noninferiority of MBSR compared with escitalopram based on the
+> improvement in CGI-S score. Of patients who started treatment, 10 (8%) dropped out of the
+> escitalopram group and none from the MBSR group due to adverse events. At least 1 study-related
+> adverse event occurred for 110 participants randomized to escitalopram (78.6%) and 21 participants
+> randomized to MBSR (15.4%).Conclusions and relevance: The results from this randomized clinical
+> trial comparing a standardized evidence-based mindfulness-based intervention with pharmacotherapy
+> for the treatment of anxiety disorders found that MBSR was noninferior to escitalopram.Trial
+> registration: ClinicalTrials.gov Identifier: NCT03522844.
+
+**Positive affect and the complex dynamics of human flourishing.**, doi 10.1037/0003-066X.60.7.678.
+
+> Extending B. L. Fredrickson's (1998) broaden-and-build theory of positive emotions and M. Losada's
+> (1999) nonlinear dynamics model of team performance, the authors predict that a ratio of positive
+> to negative affect at or above 2.9 will characterize individuals in flourishing mental health.
+> Participants (N=188) completed an initial survey to identify flourishing mental health and then
+> provided daily reports of experienced positive and negative emotions over 28 days. Results showed
+> that the mean ratio of positive to negative affect was above 2.9 for individuals classified as
+> flourishing and below that threshold for those not flourishing. Together with other evidence,
+> these findings suggest that a set of general mathematical principles may describe the relations
+> between positive affect and human flourishing.
+
+**Precision-based exercise in people with anxiety and stress related disorders: Are there interindividual differences in anxiolytic effects? An ancillary meta-analysis of randomized controlled trials.**, doi 10.1016/j.psychres.2022.114803.
+
+> Interest in the individualized responses to exercise has been growing within mental health care
+> and psychiatry. This meta-analysis examined if true interindividual differences (IIDs) in
+> anxiolytic effects of exercise exist among adults with anxiety- and stress-related disorders. Data
+> were extracted from a previous meta-analysis of randomized controlled trials (RCTs) and searches
+> in CINAHL, Embase and Medline were updated (8 arms from 7 original studies, n participants=322).
+> Change outcome standard deviations treated as point estimates for anxiety were extracted to
+> calculate true IIDs. Inverse variance heterogeneity and restricted maximum likelihood models were
+> used. Aerobic exercise and resistance training showed significant anxiolytic effects. No
+> significant pooled IIDs were found for aerobic exercise nor resistance training demonstrating that
+> there is currently a lack of convincing evidence to support the notion that true IIDs exist for
+> the anxiolytic effects of exercise among adults with anxiety- and stress-related disorders.
+> Consequently, clinical practice can focus on general population physical activity guidelines for
+> patients with anxiety- and stress-related disorders rather than aiming for highly specific,
+> individualized recommendations. Future research could prioritize investigating how to motivate
+> patients with anxiety- and stress-related disorders to meet general population physical activity
+> guidelines.
+
+**Psychological and pharmacological treatments for generalized anxiety disorder (GAD): a meta-analysis of randomized controlled trials.**, doi 10.1080/16506073.2018.1560358.
+
+> The purpose of this meta-analysis was to provide updated pooled effect sizes of evidence-based
+> psychotherapies and medications for generalized anxiety disorder (GAD) and to investigate
+> potential moderators of outcomes. Seventy-nine randomized controlled trials (RCT) including 11,002
+> participants with a diagnosis of GAD were included in a meta-analysis that tested the efficacy of
+> psychotherapies or medications for GAD. Psychotherapy showed a medium to large effect size (g =
+> 0.76) and medication showed a small effect size (g = 0.38) on GAD outcomes. Psychotherapy also
+> showed a medium effect on depression outcomes (g = 0.64) as did medications (g = 0.59). Younger
+> age was associated with a larger effect size for psychotherapy (p < 0.05). There was evidence of
+> publication bias in psychotherapy studies. This analysis found a medium to large effect for
+> empirically supported psychotherapy interventions on GAD outcomes and a small effect for
+> medications on GAD outcomes. Both groups showed a medium effect on depression outcomes. Because
+> medication studies had more placebo control conditions than inactive conditions compared to
+> psychotherapy studies, effect sizes between the domains should not be compared directly. Patient
+> age should be further investigated as a potential moderator in psychotherapy outcomes in GAD.
+
+**Psychological interventions to foster resilience in healthcare professionals.**, doi 10.1002/14651858.CD012527.pub2.
+
+> Background: Resilience can be defined as the maintenance or quick recovery of mental health during
+> or after periods of stressor exposure, which may result from a potentially traumatising event,
+> challenging life circumstances, a critical life transition phase, or physical illness. Healthcare
+> professionals, such as nurses, physicians, psychologists and social workers, are exposed to
+> various work-related stressors (e.g. patient care, time pressure, administration) and are at
+> increased risk of developing mental disorders. This population may benefit from
+> resilience-promoting training programmes.Objectives: To assess the effects of interventions to
+> foster resilience in healthcare professionals, that is, healthcare staff delivering direct medical
+> care (e.g. nurses, physicians, hospital personnel) and allied healthcare staff (e.g. social
+> workers, psychologists).Search methods: We searched CENTRAL, MEDLINE, Embase, 11 other databases
+> and three trial registries from 1990 to June 2019. We checked reference lists and contacted
+> researchers in the field. We updated this search in four key databases in June 2020, but we have
+> not yet incorporated these results.Selection criteria: Randomised controlled trials (RCTs) in
+> adults aged 18 years and older who are employed as healthcare professionals, comparing any form of
+> psychological intervention to foster resilience, hardiness or post-traumatic growth versus no
+> intervention, wait-list, usual care, active or attention control. Primary outcomes were
+> resilience, anxiety, depression, stress or stress perception and well-being or quality of life.
+> Secondary outcomes were resilience factors.Data collection and analysis: Two review authors
+> independently selected studies, extracted data, assessed risks of bias, and rated the certainty of
+> the evidence using the GRADE approach (at post-test only).Main results: We included 44 RCTs
+> (high-income countries: 36). Thirty-nine studies solely focused on healthcare professionals (6892
+> participants), including both healthcare staff delivering direct medical care and allied
+> healthcare staff. Four studies investigated mixed samples (1000 participants) with healthcare
+> professionals and participants working outside of the healthcare sector, and one study evaluated
+> training for emergency personnel in general population volunteers (82 participants). The included
+> studies were mainly conducted in a hospital setting and included physicians, nurses and different
+> hospital personnel (37/44 studies). Participants mainly included women (68%) from young to middle
+> adulthood (mean age range: 27 to 52.4 years). Most studies investigated group interventions (30
+> studies) of high training intensity (18 studies; > 12 hours/sessions), that were delivered
+> face-to-face (29 studies). Of the included studies, 19 compared a resilience training based on
+> combined theoretical foundation (e.g. mindfulness and cognitive-behavioural therapy) versus
+> unspecific comparators (e.g. wait-list). The studies were funded by different sources (e.g.
+> hospitals, universities), or a combination of different sources. Fifteen studies did not specify
+> the source of their funding, and one study received no funding support. Risk of bias was high or
+> unclear for most studies in performance, detection, and attrition bias domains. At
+> post-intervention, very-low certainty evidence indicated that, compared to controls, healthcare
+> professionals receiving resilience training may report higher levels of resilience (standardised
+> mean difference (SMD) 0.45, 95% confidence interval (CI) 0.25 to 0.65; 12 studies, 690
+> participants), lower levels of depression (SMD -0.29, 95% CI -0.50 to -0.09; 14 studies, 788
+> participants), and lower levels of stress or stress perception (SMD -0.61, 95% CI -1.07 to -0.15;
+> 17 studies, 997 participants). There was little or no evidence of any effect of resilience
+> training on anxiety (SMD -0.06, 95% CI -0.35 to 0.23; 5 studies, 231 participants; very-low
+> certainty evidence) or well-being or quality of life (SMD 0.14, 95% CI -0.01 to 0.30; 13 studies,
+> 1494 participants; very-low certainty evidence). Effect sizes were small except for resilience and
+> stress reduction (moderate). Data on adverse effects were available for three studies, with none
+> reporting any adverse effects occurring during the study (very-low certainty evidence).Authors'
+> conclusions: For healthcare professionals, there is very-low certainty evidence that, compared to
+> control, resilience training may result in higher levels of resilience, lower levels of
+> depression, stress or stress perception, and higher levels of certain resilience factors at
+> post-intervention. The paucity of medium- or long-term data, heterogeneous interventions and
+> restricted geographical distribution limit the generalisability of our results. Conclusions should
+> therefore be drawn cautiously. The findings suggest positive effects of resilience training for
+> healthcare professionals, but the evidence is very uncertain. There is a clear need for
+> high-quality replications and improved study designs.
+
+**Psychological therapies for generalised anxiety disorder.**, doi 10.1002/14651858.CD001848.pub4.
+
+> Background: Generalised anxiety disorder (GAD) is a highly prevalent condition, characterised by
+> excessive worry or anxiety about everyday events and problems. The effectiveness and effectiveness
+> of psychological therapies as a group has not yet been evaluated in the treatment of
+> GAD.Objectives: To examine the efficacy and acceptability of psychological therapies, categorised
+> as cognitive behavioural therapy (CBT), psychodynamic therapy and supportive therapy, compared
+> with treatment as usual/waiting list (TAU/WL) and compared with one another, for patients with
+> GAD.Search strategy: We searched the Cochrane Depression, Anxiety & Neurosis Group (CCDAN)
+> Controlled Trials Register and conducted supplementary searches of MEDLINE, PsycInfo, EMBASE,
+> LILACS and controlledtrials.com in February 2006. We searched reference lists of retrieved
+> articles, and contacted trial authors and experts in the field for information on
+> ongoing/completed trials.Selection criteria: Randomised and quasi-randomised controlled trials
+> conducted in non-inpatient settings, involving adults aged 18-75 years with a primary diagnosis of
+> GAD, assigned to a psychological therapy condition compared with TAU/WL or another psychological
+> therapy.Data collection and analysis: Data on patients, interventions and outcomes were extracted
+> by two review authors independently, and the methodological quality of each study was assessed.
+> The primary outcome was anxiety reduction, based on a dichotomous measure of clinical response,
+> using relative risk (RR), and on a continuous measure of symptom reduction, using the standardised
+> mean difference (SMD), with 95% confidence intervals.Main results: Twenty five studies (1305
+> participants) were included in the review, of which 22 studies (1060 participants) contributed
+> data to meta-analyses. Based on thirteen studies, psychological therapies, all using a CBT
+> approach, were more effective than TAU/WL in achieving clinical response at post-treatment (RR
+> 0.63, 95%CI 0.55 to 0.73), and also in reducing anxiety, worry and depression symptoms. No studies
+> conducted longer-term assessments of CBT against TAU/WL. Six studies compared CBT against
+> supportive therapy (non-directive therapy and attention-placebo conditions). No significant
+> difference in clinical response was indicated between CBT and supportive therapy at post-treatment
+> (RR 0.86, 95%CI 0.70 to 1.06), however significant heterogeneity was indicated, which was partly
+> explained by the number of therapy sessions.Authors' conclusions: Psychological therapy based on
+> CBT principles is effective in reducing anxiety symptoms for short-term treatment of GAD. The body
+> of evidence comparing CBT with other psychological therapies is small and heterogeneous, which
+> precludes drawing conclusions about which psychological therapy is more effective. Further studies
+> examining non-CBT models are required to inform health care policy on the most appropriate forms
+> of psychological therapy in treating GAD.
+
+**Psychological treatment of generalized anxiety disorder: a meta-analysis.**, doi 10.1016/j.cpr.2014.01.002.
+
+> Recent years have seen a near-doubling of the number of studies examining the effects of
+> psychotherapies for generalized anxiety disorder (GAD) in adults. The present article integrates
+> this new evidence with the older literature through a quantitative meta-analysis. A total of 41
+> studies (with 2132 patients meeting diagnostic criteria for GAD) were identified through
+> systematic searches in bibliographical databases, and were included in the meta-analysis. Most
+> studies examined the effects of cognitive behavior therapy (CBT). The majority of studies used
+> waiting lists as control condition. The pooled effect of the 38 comparisons (from 28 studies) of
+> psychotherapy versus a control group was large (g=0.84; 95% CI: 0.71-0.97) with low to moderate
+> heterogeneity. The effects based on self-report measures were somewhat lower than those based on
+> clinician-rated instruments. The effects on depression were also large (g=0.71; 95% CI:
+> 0.59-0.82). There were some indications for publication bias. The number of studies comparing CBT
+> with other psychotherapies (e.g., applied relaxation) or pharmacotherapy was too small to draw
+> conclusions about comparative effectiveness or the long-term effects. There were some indications
+> that CBT was also effective at follow-up and that CBT was more effective than applied relaxation
+> in the longer term.
+
+**Reducing worry and subjective health complaints: A randomized trial of an internet-delivered worry postponement intervention.**, doi 10.1111/bjhp.12170.
+
+> Objectives: Several studies have shown that perseverative, worrisome thoughts are prospectively
+> related to subjective health complaints (SHC) and that a short worry postponement intervention can
+> decrease these complaints. As SHC and worry are prevalent and costly, we tested whether the
+> intervention can be offered online to reduce these complaints in the general population.Design: A
+> randomized parallel-group trial was conducted with self-selected participants from the general
+> population.Methods: Via the research website, 996 participants were instructed to register their
+> worrying for 6 consecutive days. The intervention group was instructed to postpone worry to a
+> special 30-min period in the early evening. The Subjective Health Complaints inventory, as
+> administered before and after the intervention, and daily worry frequency and duration were
+> considered the primary outcomes.Results: Three hundred and sixty-one participants completed the
+> study. Contrary to our expectation, the registration group (n = 188) did not differ from the
+> intervention group (n = 163) in SHC (ηp² = .000, CI [0.000-0.003]), or in worry frequency or
+> duration. Nevertheless, the different worry parameters were moderately related to SHC (r between
+> .238 and .340, p ≤ .001).Conclusions: In contrast to previous studies using pen-and-pencil
+> versions of the worry postponement intervention, this study suggests that a direct online
+> implementation was not effective in reducing SHC and worry. Overall, participants had high trait
+> worry levels and reported difficulty with postponing worrying. Reducing SHC and worries via the
+> Internet might require more elaborate interventions that better incorporate the advantages of
+> delivering interventions online.Statement of contribution: What is already known on this subject?
+> The perseverative cognition hypothesis argues that perseverative cognition, such as worry and
+> rumination, acts as a mediator by which psychosocial stress may produce negative health effects.
+> Prior research has indeed shown that worry and subjective health complaints (SHC) are
+> prospectively related, but causality studies - that is, showing that changes in worry induce
+> changes in health outcomes - are scarce and have mainly been conducted in young samples. These
+> studies showed that reducing worry, using a worry postponement intervention, can reduce daily
+> worrying and SHC. What does this study add? Trait and daily worrying are associated with SHC. An
+> online worry postponement intervention is ineffective in reducing worry and SHC. Paper-and-pencil
+> interventions cannot directly be used as online interventions.
+
+**Response to acute monotherapy for major depressive disorder in randomized, placebo controlled trials submitted to the US Food and Drug Administration: individual participant data analysis.**, doi 10.1136/bmj-2021-067606.
+
+> Objectives: To characterize individual participant level response distributions to acute
+> monotherapy for major depressive disorder in randomized, placebo controlled trials submitted to
+> the US Food and Drug Administration from 1979 to 2016.Design: Individual participant data
+> analysis.Population: 232 randomized, double blind, placebo controlled trials of drug monotherapy
+> for major depressive disorder submitted by drug developers to the FDA between 1979 and 2016,
+> comprising 73 388 adult and child participants meeting the inclusion criteria for efficacy studies
+> on antidepressants.Main outcome measures: Responses were converted to Hamilton Rating Scale for
+> Depression (HAMD17) equivalent scores where other measures were used to assess efficacy.
+> Multivariable analyses examined the effects of age, sex, baseline severity, and year of the study
+> on improvements in depressive symptoms in the antidepressant and placebo groups. Response
+> distributions were analyzed with finite mixture models.Results: The random effects mean difference
+> between drug and placebo favored drug (1.75 points, 95% confidence interval 1.63 to 1.86).
+> Differences between drug and placebo increased significantly (Pv 9.6%) and less likely to have a
+> Minimal response (12.2.% v 21.5%).Conclusions: The trimodal response distributions suggests that
+> about 15% of participants have a substantial antidepressant effect beyond a placebo effect in
+> clinical trials, highlighting the need for predictors of meaningful responses specific to drug
+> treatment.
+
+**Rethinking stress: the role of mindsets in determining the stress response.**, doi 10.1037/a0031201.
+
+> This article describes 3 studies that explore the role of mindsets in the context of stress. In
+> Study 1, we present data supporting the reliability and validity of an 8-item instrument, the
+> Stress Mindset Measure (SMM), designed to assess the extent to which an individual believes that
+> the effects of stress are either enhancing or debilitating. In Study 2, we demonstrate that stress
+> mindsets can be altered by watching short, multimedia film clips presenting factual information
+> biased toward defining the nature of stress in 1 of 2 ways (stress-is-enhancing vs.
+> stress-is-debilitating). In Study 3, we demonstrate the effect of stress mindset on physiological
+> and behavioral outcomes, showing that a stress-is-enhancing mindset is associated with moderate
+> cortisol reactivity and high desire for feedback under stress. Together, these 3 studies suggest
+> that stress mindset is a distinct and meaningful variable in determining the stress response.
+
+**Self-help treatment of anxiety disorders: a meta-analysis and meta-regression of effects and potential moderators.**, doi 10.1016/j.cpr.2012.04.002.
+
+> Self-help treatments have the potential to increase the availability and affordability of
+> evidence-based treatments for anxiety disorders. Although promising, previous research results are
+> heterogeneous, indicating a need to identify factors that moderate treatment outcome. The present
+> article reviews the literature on self-help treatment for anxiety disorders among adults, with a
+> total sample of 56 articles with 82 comparisons. When self-help treatment was compared to
+> wait-list or placebo, a meta-analysis indicated a moderate to large effect size (g=0.78). When
+> self-help treatment was compared to face-to-face treatment, results indicated a small effect that
+> favored the latter (g=-0.20). When self-help was compared to wait-list or placebo, subgroup
+> analyses indicated that self-help treatment format, primary anxiety diagnosis and procedures for
+> recruitment of subjects were related to treatment outcome in bivariate analyses, but only
+> recruitment procedures remained significant in a multiple meta-regression analysis. When self-help
+> was compared to face-to-face treatment, a multiple meta-regression indicated that the type of
+> comparison group, treatment format and gender were significantly related to outcome. We conclude
+> that self-help is effective in the treatment of anxiety disorders, and should be offered as part
+> of stepped care treatment models in community services. Implications of the results and future
+> directions are discussed.
+
+**The complex dynamics of wishful thinking: the critical positivity ratio.**, doi 10.1037/a0032850.
+
+> We examine critically the claims made by Fredrickson and Losada (2005) concerning the construct
+> known as the "positivity ratio." We find no theoretical or empirical justification for the use of
+> differential equations drawn from fluid dynamics, a subfield of physics, to describe changes in
+> human emotions over time; furthermore, we demonstrate that the purported application of these
+> equations contains numerous fundamental conceptual and mathematical errors. The lack of relevance
+> of these equations and their incorrect application lead us to conclude that Fredrickson and
+> Losada's claim to have demonstrated the existence of a critical minimum positivity ratio of 2.9013
+> is entirely unfounded. More generally, we urge future researchers to exercise caution in the use
+> of advanced mathematical tools, such as nonlinear dynamics, and in particular to verify that the
+> elementary conditions for their valid application have been met.
+
+**The effectiveness of Internet-delivered treatment for generalized anxiety disorder: An updated systematic review and meta-analysis.**, doi 10.1002/da.23115.
+
+> Background: Generalized anxiety disorder (GAD) is a highly prevalent, chronic disorder associated
+> with impaired quality of life, societal burden, and poor treatment rates. Internet-delivered
+> interventions may improve the accessibility of treatments and are increasingly being used. This
+> study aimed to update a previous meta-analysis to determine the effectiveness of available
+> Internet-delivered interventions in treating symptoms of GAD.Method: Systematic literature
+> searches were conducted (through April 2020) using Embase, PubMed, PsychINFO, and Cochrane to find
+> randomized controlled trials of Internet-delivered interventions for GAD. Risk of bias was
+> evaluated, and Hedge's g was calculated at posttreatment and follow-up.Results: Twenty studies met
+> eligibility criteria and were included in the meta-analysis. Random-effect models detected large
+> effect sizes for primary outcomes of anxiety (g = 0.79) and worry (g = 0.75), favoring treatment.
+> Effect sizes for depression, functional impairment, and quality of life were moderate to large.
+> Maintenance of effects at follow-up seems likely.Conclusions: Results support the effectiveness of
+> Internet-delivered treatments for GAD. Considerable heterogeneity between studies appeared
+> moderated by variability in the interventions themselves, highlighting the importance of further
+> investigation into the characteristics that may optimize treatment outcomes. Overall,
+> Internet-delivery appears to be a viable mode of treatment for GAD with potential to relieve
+> existing gaps in the provision of treatment.
+
+**The efficacy of app-supported smartphone interventions for mental health problems: a meta-analysis of randomized controlled trials.**, doi 10.1002/wps.20673.
+
+> Although impressive progress has been made toward developing empirically-supported psychological
+> treatments, the reality remains that a significant proportion of people with mental health
+> problems do not receive these treatments. Finding ways to reduce this treatment gap is crucial.
+> Since app-supported smartphone interventions are touted as a possible solution, access to
+> up-to-date guidance around the evidence base and clinical utility of these interventions is
+> needed. We conducted a meta-analysis of 66 randomized controlled trials of app-supported
+> smartphone interventions for mental health problems. Smartphone interventions significantly
+> outperformed control conditions in improving depressive (g=0.28, n=54) and generalized anxiety
+> (g=0.30, n=39) symptoms, stress levels (g=0.35, n=27), quality of life (g=0.35, n=43), general
+> psychiatric distress (g=0.40, n=12), social anxiety symptoms (g=0.58, n=6), and positive affect
+> (g=0.44, n=6), with most effects being robust even after adjusting for various possible biasing
+> factors (type of control condition, risk of bias rating). Smartphone interventions conferred no
+> significant benefit over control conditions on panic symptoms (g=-0.05, n=3), post-traumatic
+> stress symptoms (g=0.18, n=4), and negative affect (g=-0.08, n=5). Studies that delivered a
+> cognitive behavior therapy (CBT)-based app and offered professional guidance and reminders to
+> engage produced larger effects on multiple outcomes. Smartphone interventions did not differ
+> significantly from active interventions (face-to-face, computerized treatment), although the
+> number of studies was low (n≤13). The efficacy of app-supported smartphone interventions for
+> common mental health problems was thus confirmed. Although mental health apps are not intended to
+> replace professional clinical services, the present findings highlight the potential of apps to
+> serve as a cost-effective, easily accessible, and low intensity intervention for those who cannot
+> receive standard psychological treatment.
+
+**The relative efficacy of bona fide cognitive behavioral therapy and applied relaxation for generalized anxiety disorder at follow-up: A longitudinal multilevel meta-analysis.**, doi 10.1037/ccp0000717.
+
+> Objective: This meta-analysis examined the relative efficacy of bona fide psychotherapy conditions
+> in generalized anxiety disorder (GAD) from posttreatment to follow-up in adults.Methods: Omnibus
+> tests of relative efficacy across bona fide psychotherapies for primary and secondary outcomes
+> were conducted. Longitudinal multilevel subgroup analyses investigated, (a) applied relaxation
+> versus cognitive behavioral therapy (CBT) without applied relaxation and (b) well-established CBT
+> versus augmented integrative CBT.Results: In total, 54 repeated effect sizes nested in 23 studies
+> were included in this meta-analysis. Omnibus test of relative efficacy indicated no significant
+> differences among the bona fide psychotherapy contrasts in primary and some differences in
+> secondary outcomes. When contrasting applied relaxation with CBT without applied relaxation,
+> negligible relative efficacy differences were found at each assessment time. There were small
+> efficacy differences in favor of augmented integrative CBT in comparison to well-established
+> CBT.Conclusion: Small relative efficacy differences were found between bona fide psychotherapies
+> in GAD. (PsycInfo Database Record (c) 2022 APA, all rights reserved).
+
+**The serotonin theory of depression: a systematic umbrella review of the evidence.**, doi 10.1038/s41380-022-01661-0.
+
+> The serotonin hypothesis of depression is still influential. We aimed to synthesise and evaluate
+> evidence on whether depression is associated with lowered serotonin concentration or activity in a
+> systematic umbrella review of the principal relevant areas of research. PubMed, EMBASE and
+> PsycINFO were searched using terms appropriate to each area of research, from their inception
+> until December 2020. Systematic reviews, meta-analyses and large data-set analyses in the
+> following areas were identified: serotonin and serotonin metabolite, 5-HIAA, concentrations in
+> body fluids; serotonin 5-HT1A receptor binding; serotonin transporter (SERT) levels measured by
+> imaging or at post-mortem; tryptophan depletion studies; SERT gene associations and SERT
+> gene-environment interactions. Studies of depression associated with physical conditions and
+> specific subtypes of depression (e.g. bipolar depression) were excluded. Two independent reviewers
+> extracted the data and assessed the quality of included studies using the AMSTAR-2, an adapted
+> AMSTAR-2, or the STREGA for a large genetic study. The certainty of study results was assessed
+> using a modified version of the GRADE. We did not synthesise results of individual meta-analyses
+> because they included overlapping studies. The review was registered with PROSPERO
+> (CRD42020207203). 17 studies were included: 12 systematic reviews and meta-analyses, 1
+> collaborative meta-analysis, 1 meta-analysis of large cohort studies, 1 systematic review and
+> narrative synthesis, 1 genetic association study and 1 umbrella review. Quality of reviews was
+> variable with some genetic studies of high quality. Two meta-analyses of overlapping studies
+> examining the serotonin metabolite, 5-HIAA, showed no association with depression (largest n =
+> 1002). One meta-analysis of cohort studies of plasma serotonin showed no relationship with
+> depression, and evidence that lowered serotonin concentration was associated with antidepressant
+> use (n = 1869). Two meta-analyses of overlapping studies examining the 5-HT1A receptor (largest n
+> = 561), and three meta-analyses of overlapping studies examining SERT binding (largest n = 1845)
+> showed weak and inconsistent evidence of reduced binding in some areas, which would be consistent
+> with increased synaptic availability of serotonin in people with depression, if this was the
+> original, causal abnormaly. However, effects of prior antidepressant use were not reliably
+> excluded. One meta-analysis of tryptophan depletion studies found no effect in most healthy
+> volunteers (n = 566), but weak evidence of an effect in those with a family history of depression
+> (n = 75). Another systematic review (n = 342) and a sample of ten subsequent studies (n = 407)
+> found no effect in volunteers. No systematic review of tryptophan depletion studies has been
+> performed since 2007. The two largest and highest quality studies of the SERT gene, one genetic
+> association study (n = 115,257) and one collaborative meta-analysis (n = 43,165), revealed no
+> evidence of an association with depression, or of an interaction between genotype, stress and
+> depression. The main areas of serotonin research provide no consistent evidence of there being an
+> association between serotonin and depression, and no support for the hypothesis that depression is
+> caused by lowered serotonin activity or concentrations. Some evidence was consistent with the
+> possibility that long-term antidepressant use reduces serotonin concentration.
+
+**Therapist-supported Internet cognitive behavioural therapy for anxiety disorders in adults.**, doi 10.1002/14651858.CD011565.pub2.
+
+> Background: Cognitive behavioural therapy (CBT) is an evidence-based treatment for anxiety
+> disorders. Many people have difficulty accessing treatment, due to a variety of obstacles.
+> Researchers have therefore explored the possibility of using the Internet to deliver CBT; it is
+> important to ensure the decision to promote such treatment is grounded in high quality
+> evidence.Objectives: To assess the effects of therapist-supported Internet CBT (ICBT) on remission
+> of anxiety disorder diagnosis and reduction of anxiety symptoms in adults as compared to waiting
+> list control, unguided CBT, or face-to-face CBT. Effects of treatment on quality of life and
+> patient satisfaction with the intervention were also assessed.Search methods: We searched the
+> Cochrane Depression, Anxiety and Neurosis Review Group Specialised Register (CCDANCTR) to 16 March
+> 2015. The CCDANCTR includes relevant randomised controlled trials from MEDLINE, EMBASE, PsycINFO
+> and CENTRAL. We also searched online clinical trial registries and reference lists of included
+> studies. We contacted authors to locate additional trials.Selection criteria: Each identified
+> study was independently assessed for inclusion by two authors. To be included, studies had to be
+> randomised controlled trials of therapist-supported ICBT compared to a waiting list, attention,
+> information, or online discussion group; unguided CBT (that is, self-help); or face-to-face CBT.
+> We included studies that treated adults with an anxiety disorder (panic disorder, agoraphobia,
+> social phobia, post-traumatic stress disorder, acute stress disorder, generalized anxiety
+> disorder, obsessive compulsive disorder, and specific phobia) defined according to the Diagnostic
+> and Statistical Manual of Mental Disorders III, III-R, IV, IV-TR or the International
+> Classification of Disesases 9 or 10.Data collection and analysis: Two authors independently
+> assessed the risk of bias of included studies and judged overall study quality. We used data from
+> intention-to-treat analyses wherever possible. We assessed treatment effect for the dichotomous
+> outcome of clinically important improvement in anxiety using a risk ratio (RR) with 95% confidence
+> interval (CI). For disorder-specific and general anxiety symptom measures and quality of life we
+> assessed continuous scores using standardized mean differences (SMD). We examined statistical
+> heterogeneity using the I(2) statistic.Main results: We screened 1736 citations and selected 38
+> studies (3214 participants) for inclusion. The studies examined social phobia (11 trials), panic
+> disorder with or without agoraphobia (8 trials), generalized anxiety disorder (5 trials),
+> post-traumatic stress disorder (2 trials), obsessive compulsive disorder (2 trials), and specific
+> phobia (2 trials). Eight remaining studies included a range of anxiety disorder diagnoses. Studies
+> were conducted in Sweden (18 trials), Australia (14 trials), Switzerland (3 trials), the
+> Netherlands (2 trials), and the USA (1 trial) and investigated a variety of ICBT protocols. Three
+> primary comparisons were identified, therapist-supported ICBT versus waiting list control,
+> therapist-supported versus unguided ICBT, and therapist-supported ICBT versus face-to-face CBT.Low
+> quality evidence from 11 studies (866 participants) contributed to a pooled risk ratio (RR) of
+> 3.75 (95% CI 2.51 to 5.60; I(2) = 50%) for clinically important improvement in anxiety at
+> post-treatment, favouring therapist-supported ICBT over a waiting list, attention, information, or
+> online discussion group only. The SMD for disorder-specific symptoms at post-treatment (28
+> studies, 2147 participants; SMD -1.06, 95% CI -1.29 to -0.82; I(2) = 83%) and general anxiety
+> symptoms at post-treatment (19 studies, 1496 participants; SMD -0.75, 95% CI -0.98 to -0.52; I(2)
+> = 78%) favoured therapist-supported ICBT; the quality of the evidence for both outcomes was
+> low.One study compared unguided CBT to therapist-supported ICBT for clinically important
+> improvement in anxiety at post-treatment, showing no difference in outcome between treatments (54
+> participants; very low quality evidence). At post-treatment there were no clear differences
+> between unguided CBT and therapist-supported ICBT for disorder-specific anxiety symptoms (5
+> studies, 312 participants; SMD -0.22, 95% CI -0.56 to 0.13; I(2) = 58%; very low quality evidence)
+> or general anxiety symptoms (2 studies, 138 participants; SMD 0.28, 95% CI -2.21 to 2.78; I(2) =
+> 0%; very low quality evidence).Compared to face-to-face CBT, therapist-supported ICBT showed no
+> significant differences in clinically important improvement in anxiety at post-treatment (4
+> studies, 365 participants; RR 1.09, 95% CI 0.89 to 1.34; I(2) = 0%; low quality evidence). There
+> were also no clear differences between face-to-face and therapist supported ICBT for
+> disorder-specific anxiety symptoms at post-treatment (7 studies, 450 participants; SMD 0.06, 95%
+> CI -0.25 to 0.37; I(2) = 60%; low quality evidence) or general anxiety symptoms at post-treatment
+> (5 studies, 317 participants; SMD 0.17, 95% CI -0.35 to 0.69; I(2) = 78%; low quality
+> evidence).Overall, risk of bias in included studies was low or unclear for most domains. However,
+> due to the nature of psychosocial intervention trials, blinding of participants and personnel, and
+> outcome assessment tended to have a high risk of bias. Heterogeneity across a number of the
+> meta-analyses was substantial, some was explained by type of anxiety disorder or may be
+> meta-analytic measurement artefact due to combining many assessment measures. Adverse events were
+> rarely reported.Authors' conclusions: Therapist-supported ICBT appears to be an efficacious
+> treatment for anxiety in adults. The evidence comparing therapist-supported ICBT to waiting list,
+> attention, information, or online discussion group only control was low to moderate quality, the
+> evidence comparing therapist-supported ICBT to unguided ICBT was very low quality, and comparisons
+> of therapist-supported ICBT to face-to-face CBT were low quality. Further research is needed to
+> better define and measure any potential harms resulting from treatment. These findings suggest
+> that therapist-supported ICBT is more efficacious than a waiting list, attention, information, or
+> online discussion group only control, and that there may not be a significant difference in
+> outcome between unguided CBT and therapist-supported ICBT; however, this latter finding must be
+> interpreted with caution due to imprecision. The evidence suggests that therapist-supported ICBT
+> may not be significantly different from face-to-face CBT in reducing anxiety. Future research
+> should explore heterogeneity among studies which is reducing the quality of the evidence body,
+> involve equivalence trials comparing ICBT and face-to-face CBT, examine the importance of the role
+> of the therapist in ICBT, and include effectiveness trials of ICBT in real-world settings. A
+> timely update to this review is needed given the fast pace of this area of research.
+
+**Trajectories of resilience and dysfunction following potential trauma: A review and statistical evaluation.**, doi 10.1016/j.cpr.2018.05.008.
+
+> Given the rapid proliferation of trajectory-based approaches to study clinical consequences to
+> stress and potentially traumatic events (PTEs), there is a need to evaluate emerging findings.
+> This review examined convergence/divergences across 54 studies in the nature and prevalence of
+> response trajectories, and determined potential sources of bias to improve future research. Of the
+> 67 cases that emerged from the 54 studies, the most consistently observed trajectories following
+> PTEs were resilience (observed in: n = 63 cases), recovery (n = 49), chronic (n = 47), and delayed
+> onset (n = 22). The resilience trajectory was the modal response across studies (average of 65.7%
+> across populations, 95% CI [0.616, 0.698]), followed in prevalence by recovery (20.8% [0.162,
+> 0.258]), chronicity (10.6%, [0.086, 0.127]), and delayed onset (8.9% [0.053, 0.133]). Sources of
+> heterogeneity in estimates primarily resulted from substantive population differences rather than
+> bias, which was observed when prospective data is lacking. Overall, prototypical trajectories have
+> been identified across independent studies in relatively consistent proportions, with resilience
+> being the modal response to adversity. Thus, trajectory models robustly identify clinically
+> relevant patterns of response to potential trauma, and are important for studying determinants,
+> consequences, and modifiers of course following potential trauma.
+
+**Two decades of digital interventions for anxiety disorders: a systematic review and meta-analysis of treatment effectiveness.**, doi 10.1017/s0033291721001999.
+
+> Background: Digital interventions for anxiety disorders are a promising solution to address
+> barriers to evidence-based treatment access. Precise and powerful estimates of digital
+> intervention effectiveness for anxiety disorders are necessary for further adoption in practice.
+> The present systematic review and meta-analysis examined the effectiveness of digital
+> interventions across all anxiety disorders and specific to each disorder v. wait-list and
+> care-as-usual controls.Methods: A systematic search of bibliographic databases identified 15 030
+> abstracts from inception to 1 January 2020. Forty-seven randomized controlled trials (53
+> comparisons; 4958 participants) contributed to the meta-analysis. Subgroup analyses were conducted
+> by an anxiety disorder, risk of bias, treatment support, recruitment, location and treatment
+> adherence.Results: A large, pooled effect size of g = 0.80 [95% Confidence Interval: 0.68-0.93]
+> was found in favor of digital interventions. Moderate to large pooled effect sizes favoring
+> digital interventions were found for generalized anxiety disorder (g = 0.62), mixed anxiety
+> samples (g = 0.68), panic disorder with or without agoraphobia (g = 1.08) and social anxiety
+> disorder (g = 0.76) subgroups. No subgroups were significantly different or related to the pooled
+> effect size. Notably, the effects of guided interventions (g = 0.84) and unguided interventions (g
+> = 0.64) were not significantly different. Supplemental analysis comparing digital and face-to-face
+> interventions (9 comparisons; 683 participants) found no significant difference in effect [g =
+> 0.14 favoring digital interventions; Confidence Interval: -0.01 to 0.30].Conclusion: The precise
+> and powerful estimates found further justify the application of digital interventions for anxiety
+> disorders in place of wait-list or usual care.
+
+**Updated thinking on positivity ratios.**, doi 10.1037/a0033584.
+
+> This article presents my response to the article by Brown, Sokal, and Friedman (2013), which
+> critically examined Losada's conceptual and mathematical work (as presented in Losada, 1999;
+> Losada & Heaphy, 2004; and Fredrickson & Losada; 2005) and concluded that mathematical claims for
+> a critical tipping point positivity ratio are unfounded. In the present article, I draw recent
+> empirical evidence together to support the continued value of computing and seeking to elevate
+> positivity ratios. I also underscore the necessity of modeling nonlinear effects of positivity
+> ratios and, more generally, the value of systems science approaches within affective science and
+> positive psychology. Even when scrubbed of Losada's now-questioned mathematical modeling, ample
+> evidence continues to support the conclusion that, within bounds, higher positivity ratios are
+> predictive of flourishing mental health and other beneficial outcomes.
+
+**Waiting list may be a nocebo condition in psychotherapy trials: a contribution from network meta-analysis.**, doi 10.1111/acps.12275.
+
+> Objective: Various control conditions have been employed in psychotherapy trials, but there is
+> growing suspicion that they may lead to different effect size estimates. The present study aims to
+> examine the differences among control conditions including waiting list (WL), no treatment (NT)
+> and psychological placebo (PP).Method: We comprehensively searched for all randomized controlled
+> trials (RCTs) comparing cognitive-behaviour therapies (CBT) against various control conditions in
+> the acute phase treatment of depression, and applied network meta-analysis (NMA) to combine all
+> direct and indirect comparisons among the treatment and control arms.Results: We identified 49
+> RCTs (2730 participants) comparing WL, NT, PP and CBT. This network of evidence was consistent,
+> and the effect size estimates for CBT were substantively different depending on the control
+> condition. The odds ratio of response for NT over WL was statistically significant at 2.9 (95% CI:
+> 1.3-5.7). However, the quality of evidence, including publication bias, was less than ideal and
+> none of the preplanned sensitivity analyses limiting to high-quality studies could be conducted,
+> while findings of significant differences did not persist in post hoc sensitivity analyses trying
+> to adjust for publication bias.Conclusion: There may be important differences in control
+> conditions currently used in psychotherapy trials.
+
+**Worry exposure versus applied relaxation in the treatment of generalized anxiety disorder.**, doi 10.1159/000201936.
+
+> Background: Worry exposure (WE) is a core element of cognitive-behavioral treatment for
+> generalized anxiety disorder (GAD). Its efficacy as a stand-alone treatment method (without
+> further cognitive-behavioral therapy interventions) has never been tested.We aimed to examine
+> whether WE alone is as efficacious as the empirically supported stand-alone treatment for GAD,
+> applied relaxation (AR).Methods: In a randomized controlled study, 73 outpatients meeting DSM-IV
+> criteria for GAD as primary diagnosis were allocated to either WE or AR or a waiting list control
+> group; in a 2nd randomization procedure the waiting list subjects were reallocated to WE or AR.
+> The treatment was manualized (15 sessions with WE or AR), included 6-month and 1-year follow-ups,
+> as well as last observation carried forward and completer analyses, and was controlled for
+> allegiance effects.The Hamilton Anxiety Rating Scale and the State-Trait Anxiety Scale were used
+> as primary outcome measures. Self-report scales of anxiety, worrying and depression including
+> negative metacognition about worrying and thought suppression served as secondary outcome
+> measures.Results: The dropout rate was moderate. The pre-/posttreatment effects were high for the
+> Hamilton Anxiety Rating Scale (standardized mean difference >1) and for the State-Trait Anxiety
+> Inventory (standardized mean difference >0.87). The proportion of patients reaching high end state
+> functioning was 48% (WE) and 56% (AR). WE and AR did not differ with regard to dropout rate or
+> treatment effects. The treatment effects were stable at 6 month and 1 year follow-up.Conclusion:
+> This is the first study to show that a stand-alone exposure in sensu technique--WE--is efficacious
+> in the treatment of GAD. Both AR and WE seem to represent effective principles of change in GAD.
+
+**Worry Postponement From the Metacognitive Perspective: A Randomized Waitlist-Controlled Trial.**, doi 10.32872/cpe.12741.
+
+> Background: Pathological worry is associated with appraisals of worrying as uncontrollable. Worry
+> postponement (WP) with a stimulus control rationale appears to be effective in non-clinical
+> samples. However, preliminary research in participants with generalized anxiety disorder (GAD)
+> does not support its efficacy in reducing negative metacognitions or worry. The aim of this study
+> was to investigate the efficacy of WP with a metacognitive rationale.Method: Participants with GAD
+> (n = 47) or hypochondriasis (HYP; n = 35) were randomly assigned to either an intervention group
+> (IG) or waitlist (WL). The IG received a two-session long WP intervention aiming at mainly
+> reducing negative metacognitions concerning uncontrollability of worrying. Participants were
+> instructed to postpone their worry process to a predetermined later time during the six days
+> between the two sessions. Participants completed questionnaires of negative metacognitions and
+> worry at pre-assessment, post-assessment, and follow-up.Results: We observed a significant
+> Time*Group interaction for negative metacognitions and worry. Post-hoc analyses on the total
+> sample and separately for GAD and HYP revealed significantly lower worry scores in the treated GAD
+> sample compared to the WL, representing the only significant effect. In the GAD group,
+> pre-post-effect sizes were small for negative metacognitions and large for worry. Effects
+> persisted to a four-week follow-up.Conclusion: WP with a metacognitive rationale seems to be
+> effective in reducing worry in participants with GAD. The effectiveness for HYP seems limited,
+> possibly due to the small sample size.
+
+**(title not returned)**, doi 10.1016/0005-7967(83)90206-1.
+
+*No abstract in Europe PMC.*
