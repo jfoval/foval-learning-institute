@@ -488,7 +488,7 @@ difference.[2] The figure they report, adjusted, reaches 1.02.
 
 ### What the authors say about their own null
 
-Their reasons are good ones. On the comparison group: "participants in the control group had a high
+They give reasons, each drawn from their own data. On the comparison group: "participants in the control group had a high
 level of activity throughout the study, and many exercised using HIIT."[2] On adherence: "only 50% of
 participants in the HIIT group were able to follow the strict criteria for fulfilling the HIIT
 protocol."[2] On who took part: "The healthy volunteer bias might have moderated the effects of

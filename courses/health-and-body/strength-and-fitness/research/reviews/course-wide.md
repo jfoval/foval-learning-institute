@@ -322,3 +322,196 @@ Findings that belong to the course rather than to any one lesson, from the Stage
   before Nutrition, those pointers dangle; lesson 10 carries its own helpline route, so only the
   teaching pointers would.
 - **Quiz keys:** lesson 10 is 2,0,1,3,0,3 (unchanged; checked against lessons 1 to 9 at review).
+
+## 2026-09-24 — Course-wide neutrality audit, standards Part 3
+
+**STATUS: AUDITED AND APPLIED, same session. VERDICT: PASS after fixes.** Strength and Fitness is a
+sensitive domain under standards 3.4 (medicine), so this audit is mandatory before publish
+(`courses/CLAUDE.md` rule 6, standards 3.5). Eight findings, all fixed at sentence level in six
+lessons (1, 4, 5, 6, 7, 9), plus dated corrections to `SOURCES.md` R2.14 and two synthesis-table
+rows. No quiz item was edited. The "Before you train" callout is untouched in every lesson. Nothing
+a Stage 4 review closed was reopened.
+
+Fresh context. Read: standards Part 3 in full; `docs/VALUES.md`; the neutrality pass of
+`.claude/commands/review-lesson.md`; the two model audits (Nutrition's of today, Mental Fitness's);
+`research/OUTLINE.md` (eight decisions, neutrality notes); `research/pipeline-briefs.md`; this file,
+including the open notes left by the lesson 9 and 10 fix passes; lesson 9's review file in full and
+the other review files' resolutions; all ten lessons in full; and in `SOURCES.md` the entries the
+findings touched (R2.12, R2.14, R5.15, R5.8, R4.26). The assessments were grepped read-only for the
+open notes and not edited: another agent is reviewing them.
+
+### Counts across the course (distinct sources by side)
+
+| Contested question | Lessons | Side A | Side B | Explained, not only quoted | Last word |
+|---|---|---|---|---|---|
+| Activity causes longer life | 1 | Causal reading: WHO, Kujala, Lee, Jiesisibieke-Schooling, Stensvold (5; two stated as associations) | Sceptic: Karvinen (1; the only sceptic's own statement read) | Both; Karvinen's pleiotropy case and its basis given; imbalance disclosed in the body | The course's "what neither side contests" |
+| 220 minus age | 2 | Against: Robergs-Landwehr | For as a start: Martin's practical case | Both | Mirror misconception, Martin's "initial training targets" |
+| HIIT as public health | 3 | Biddle | Batterham | Both, each reading Jung's study; Generation 100 adherence between them | The course's three-way sort |
+| Non-responders | 3, 4 | For the concept: HERITAGE, Bamman (2) | Against: Montero-Lundby, Ross, Lundby, Churchward-Venne; statistics: Atkinson-Batterham, Williamson, Pelland preprint (7) | Both; the statisticians' test turned on the dose studies too; HERITAGE reply unread, disclosed | The course's sort (differences real; total non-response weakly supported) |
+| Zone 2 | 3, 10 | Proponent in own words: none read (physiology San-Millán-Brooks; sympathetic definition Sitko) | Critics: Storoschuk (1) | Critics quoted, declared equity stated; "no proponent read" said in both lessons | "Contested, with one side read" |
+| Growth causes strength | 4 | Loenneke group (abstract) | Taber group (full) | Both, each side's concession quoted; read-level asymmetry disclosed | "This course doesn't take a side" |
+| Closeness to failure | 5 | Robinson (may add muscle) | Refalo (trivial), ACSM (no) | All three in own words | Checkpoint: all three agree failure isn't required |
+| Periodisation | 5, 7 | For: Williams, Moesgaard | Against: Buckner; ACSM between | Both; beginners' evidence shown cutting both ways | The course's practical choice, labelled as not evidential |
+| Prescriptive against participation guidance | 5 | 2009 stand; Carpinelli (named as written against it) | 2026 stand's view, labelled "from our perspective" | Partly; no written prescriptive case read, disclosed | Left open as partly a value question |
+| Lumbar flexion | 6 | Caution: Callaghan-McGill, McGill 1998 (2) | Against the rule: Saraceni, Verbeek (2) | Both, "strongest form" of each in the course's words | The course's floor, "a load you can control" |
+| Stretching and injury | 6, 8 | No shown effect: Thacker, Lauersen (2) | Still recommend: Behm, Alizadeh (2) | Both in L8; L6 now points there (N4) | Thacker's "endorse or discontinue" |
+| Practitioner frameworks | 7, 10 | Rippetoe, RP, Nuckols, each in own words, interests stated | Trials beside each | All three; RP's soreness input tested against Damas without calling it wrong | Their own labels ("starting points, not gospel") |
+| Pregnancy and lifting | 9 | Permissive: ACOG, Canadian guideline, WHO | Cautious: ACOG's elite-athlete passage (sparse literature, Valsalva) | Both; the caution scoped to elite athletes | Box 3 stop signs |
+| Falls | 9 | Cochrane: uncertain for resistance alone | AHA: confident, balance built in | Both, with the graded/narrative difference stated | "Where the two overlap they agree" |
+| Low bone mass | 9 | LIFTMOR | AHA's severe-osteoporosis caution | Both, as right within each scope | Two mirror misconceptions |
+| Creatine | 10 | ISSN stand (conflicts declared) | No independent review read | Stand quoted; interests quoted from its own declarations | Course neither recommends nor advises against |
+
+**Architecture.** The course's spine, "the big effect is starting, and the small effects are the
+arguments", comes from ACSM 2026 and Currier 2023, which share authors (disclosed in L1 and L4). It
+was checked for being one side's case built into the course. The participation view is labelled as
+the authors' view wherever it is used (L5, L7, L10), and the Currier hedge ("does not permit
+definitive ... conclusions about the equivalency") is quoted. One sentence in the course's own voice
+(L4) carried the conclusion without its scope (N2). The course's own question, "trained whom, for how
+long, measured on what?", is turned on every side: on Gillen and the HIIT headline, on Rippetoe's
+cases, on RP's numbers, on Nuckols's 20 sets, on the stand's own strength definition, on LIFTMOR, on
+the spot-reduction trials and on the fat-burning band.
+
+**Misconception lists, whole course.** Mirrors on every dispute except two: L5's list corrected
+only the "more and harder" direction (heavy, failure, volume, frequency, hormones), fixed for volume
+(N3), and L9's is 6 fragile-direction against 2 limitless-direction (falls, LIFTMOR), which follows
+the named guidance, all of it permissive with conditions (see "Not fixed").
+
+### Classification (3.1)
+
+Sorted correctly throughout: exercise changing the body, the association with survival, every
+programme beating no training, specificity, the load finding for 1RM and size, the repeated-bout
+effect, spot reduction in limbs, wearable calorie error and the youth growth-plate finding as
+established; causation of longer life, non-response, zone 2, growth causing strength, failure,
+periodisation, lumbar flexion and stretching for injury as contested; appearance goals, how much of
+a life training should take and participation against optimisation as value. LIFTMOR against the
+AHA is correctly "established within each scope". One scope misstatement at the level of a finding
+(N1) and one unscoped organising sentence (N2).
+
+### Perspectives checked, and what each would object to
+
+1. **Strength coach.** Would recognise the load, failure and periodisation sections, the lumbar
+   dispute and "lifting is dangerous" corrected with competitor data. Would object that L5's
+   misconception list only ever corrects people who want more (N3), and that "the recipe buys you
+   much less than starting" is said without the trials' scope, when coaches work with lifters past
+   the first months (N2).
+2. **Endurance coach.** Would recognise Biddle and Batterham, Milanović's small interval advantage,
+   the non-responder statistics and Couch to 5K as convention. Would object that zone 2 has no
+   proponent voice; the lessons say so twice and classify it contested rather than false. Not
+   sentence-fixable (Stage 1 gap).
+3. **Physiotherapist.** Would recognise the lumbar section (both sides' strongest form, the Cochrane
+   workplace review), the stop-for-pain rule, knee torque as a trade that a clinician decides, and
+   NICE on osteoarthritis. Would object that L6 reported stretching's null in sports trials without
+   the stretching researchers' recommendation that L8 carries (N4), and that L7's first plan omits
+   the AHA's lighter starting intensity that L9 gives an older beginner (N5).
+4. **Sports scientist.** Would recognise the read levels, the Pelland preprint-versus-stand caution,
+   and the sex-differences hedges. Would object that L4 glossed Roberts's effect sizes as per cents
+   ("as a share of where each person started"), a gloss already corrected in R5.15 but still in R2.14
+   and in L4 (N1).
+5. **Obstetrician.** Would recognise ACOG and the Canadian guideline in their words, the ten Box 3
+   signs verbatim, and the cautious side's reason given its own paragraph. Would object only that
+   L9's summary table said "athletes training hard" where ACOG's passage is scoped to elite athletes
+   (N8).
+6. **Sceptic of fitness-industry claims.** Would recognise the interests stated for ACSM (Tonal),
+   Starting Strength, RP's app, Stronger By Science, Fitbod, Gibala's equity and the ISSN's trade
+   association, and the spot-reduction, toning, confusion, anabolic-window and fat-burn claims each
+   run to its test. No sentence-level objection.
+7. **Practitioner framework authors.** Rippetoe would recognise his definition, programme, scope,
+   hedge and argument, and object that his rejection of the neural account is reported without his
+   reason (N6). RP would recognise its landmarks in its words and "starting points, not gospel", and
+   accept the soreness point as stated ("It does not show that RP's checklist is wrong"). Nuckols
+   would recognise both articles and his population hedge; his co-authorship of Roberts 2020 was
+   named in L9 but not in L4, where Roberts is first used (fixed with N1).
+8. **Sceptic of the causal reading (Karvinen's side).** Would recognise the pleiotropy proposal and
+   the 1.00 in identical twins, and the disclosed 5-to-1 imbalance. Would object to "Their reasons
+   are good ones", the course endorsing Generation 100's authors' account of their own null (N7).
+9. **Cautious clinician and people reading about themselves** (older adults, women, pregnant women,
+   parents). Would find no group described as fragile or as without limits; every permission
+   carries its condition and a "who to ask".
+
+### Findings
+
+- **N1 (L4; `SOURCES.md` R2.14 and synthesis rows).** Roberts 2020 glossed as per cents: "These are
+  relative gains, as a share of where each person started", and the misconception "As a share of
+  their starting strength, women gained as much or more". The abstract reports effect sizes; its
+  only "relative" is upper-body strength. The per-cent comparison is Hubal's. This is the open "in
+  proportion" note, in its lesson 4 form. Nuckols's co-authorship not named where Roberts is used.
+- **N2 (L4).** "arguing about the recipe buys you much less than starting does", in the course's
+  voice without the scope of the trials behind it (weeks, mostly untrained people), which the
+  optimisation side and the Taber group's short-term point would insist on.
+- **N3 (L5, misconception "More is always better").** Corrected only in the more-volume direction;
+  the minimalist mirror that the body's size curve contradicts is absent.
+- **N4 (L6).** "while stretching showed no benefit" (Lauersen), with no pointer to the split the
+  course-wide note requires every lesson touching stretching and injury to carry.
+- **N5 (L7).** The AHA's "40% to 60% of 1-RM" starting intensity, general to new lifters and in
+  `SOURCES.md` R4.26, omitted from the lesson that builds the first plan. The open note from lesson
+  9's review (P6).
+- **N6 (L7).** Rippetoe's dispute of the neural account given without his stated basis (his cases'
+  large bodyweight gains, R5.8).
+- **N7 (L1).** "Their reasons are good ones": the course's endorsement of one side's explanation of
+  the null result.
+- **N8 (L9, summary table).** "athletes training hard get approval and consider lighter loads":
+  ACOG's passage is in its section on elite athletes.
+
+### Resolutions applied (2026-09-24)
+
+- **N1.** L4 now: a larger effect for women "in what it calls "relative upper-body strength""; "Those
+  results are effect sizes ... not per cents. For per cents, Hubal's study ... "Despite greater
+  absolute gains in men, relative increases in strength measures were greater in women versus
+  men", and its authors sum up that men "had only a slight advantage in relative size gains""; the
+  misconception now gives effect sizes for the short studies and Hubal for per cents; Nuckols named
+  as a co-author. Sources 10 and 11 updated. `SOURCES.md` R2.14 carries a dated correction and its
+  "Good for" line, and the two synthesis rows (Part R5 misconceptions table, course summary table)
+  now say effect sizes and cite Hubal for per cents. L9 needed nothing: its review had already moved
+  the per-cent claim to Hubal.
+- **N2.** L4 adds "at least over the weeks these trials ran, in mostly untrained people".
+- **N3.** L5 adds: "The mirror, that a set or two is all anyone needs, fits the strength curve and
+  drops the size one."
+- **N4.** L6 adds: "(Lesson 8 sets that stretching result beside stretching researchers who still
+  recommend it inside a warm-up.)"
+- **N5.** L7 adds a paragraph after the starting procedure quoting the AHA's sentence, saying it is
+  lighter than Dele's working loads, that his first sessions sit nearer it, and that a reader may
+  follow it as lesson 9 does; new source 20 (R4.26, full text).
+- **N6.** L7 adds "whose cases gained a great deal of bodyweight as their lifts rose".
+- **N7.** L1 now "They give reasons, each drawn from their own data."
+- **N8.** L9 table now "elite athletes get approval and consider lighter loads".
+
+**Open notes from the lesson 9 and 10 fix passes, resolved.** "In proportion" in L4 and L9: L4 fixed
+(N1); L9 clean. Final test resting on Roberts: a read-only grep of `assessments/final-test.md` finds
+no item on sex differences and no mention of Roberts 2020 (the one "Roberts" is the cold-water
+trial), so nothing rests on it. ACOG's lighter-loads caution: scoped to elite athletes in L9's body
+and now its table (N8); no other lesson uses it (L6 cites only lying flat). L7 against the AHA's 40
+to 60 per cent: reconciled (N5). The AHA on falls beside Cochrane's "uncertain": both in L9's body,
+misconception and quiz 2; L10 doesn't touch falls, and L1 mentions falls only as WHO's older-adult
+aim, so nothing else needed.
+
+**Checks.** `npm run validate` exits 0 (its only line for this course is the expected "status
+drafting, not built"). `node scripts/build.mjs --check --drafts` exits 0. `npm run quotes
+strength-and-fitness`: 390 sourced quotations, 0 not found. `npm run minutes`: all ten lessons match
+their `minutes:` (L7 still 120). No em dashes or spaced en dashes added. Callout unchanged in all ten
+lessons. No quiz item edited, so no explanation needed re-reading against its key.
+
+### Not fixed, and why (for `docs/QUEUE.md`, which this audit does not edit)
+
+- **Zone 2 has no proponent statement read** (L3, L10; OUTLINE decision 7). A Stage 1 pass should
+  add one in its own words (a book chapter, a published interview or a training trial by a
+  proponent) and L3 should then give it beside Storoschuk.
+- **Causation of longer life rests on one sceptic's own statement** (L1, Karvinen), disclosed with
+  the count. Add a second sceptical source at Stage 1 if one exists in print.
+- **Unread replies:** the Loenneke group's *Sports Medicine* paper (L4), the HERITAGE investigators'
+  reply to the statisticians (L3), a written case for more prescriptive guidance than ACSM 2026's
+  (L5), a low-volume practitioner in their own words (L7), a muscle-confusion proponent (L10) and an
+  independent creatine review (L10). Each lesson discloses its gap.
+- **L9's misconception tilt (6 fragile-direction, 2 limitless-direction)** is kept: each item is a
+  sourced error, the named guidance is uniformly "yes, with conditions", and the conditions are in
+  every entry. Adding a limitless-direction item for pregnancy or youth would need a source the file
+  doesn't have.
+- **Kept on purpose:** L3's "Count the side that's speaking" before Gibala's role and declared
+  equity. It is the only voice read on zone 2, so naming which camp it comes from is the fair
+  reading, and the declaration is stated as the review's own. L10 restates the declaration because
+  a reader can land there first.
+
+### Assessments (not read beyond the grep; for the agent editing `assessments/`)
+
+- If the final test or the project adds an item on women's gains, take per cents from Hubal and
+  effect sizes from Roberts (N1). If either repeats the first-plan loads, the AHA's 40 to 60 per cent
+  start is now in L7 (N5).

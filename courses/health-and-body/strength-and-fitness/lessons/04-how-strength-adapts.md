@@ -151,7 +151,8 @@ sets, the days and so on. The stand's summary table lists circuit training, elas
 home-based training among the forms that improve strength compared with no exercise.[1]
 
 So training beats not training, on almost everything measured, and arguing about the recipe buys
-you much less than starting does.
+you much less than starting does, at least over the weeks these trials ran, in mostly untrained
+people.
 
 Mental Fitness lesson 2 taught you to ask what the comparison group got, and this is that lesson
 arriving in a gym. **Against a group that did nothing, every programme wins. Against another
@@ -484,12 +485,16 @@ in this course can predict it. One slow measure over a few weeks doesn't make yo
 
 The same care applies to one popular belief, that women gain strength poorly. A 2020 meta-analysis
 by Roberts, Nuckols and Krieger, read at abstract level, found no significant difference between men
-and women in muscle growth, and a larger relative gain in upper-body strength for women.[11] The
-authors hedge it themselves: "it is possible that untrained females display a higher capacity to
-increase upper-body strength than males", and the difference might be "an artifact of the short
-duration of studies included".[11] These are relative gains, as a share of where each person
-started. In kilograms, men gained more: Hubal's study, above, reports "greater absolute gains in
-men".[10] Lesson 9 takes women and older adults properly.
+and women in muscle growth, and a larger effect for women in what it calls "relative upper-body
+strength".[11] Nuckols, a co-author, is the practitioner from the growth dispute above. The authors
+hedge it themselves: "it is possible that untrained females display a higher capacity to increase
+upper-body strength than males", and the difference might be "an artifact of the short duration of
+studies included".[11] Those results are effect sizes, the standardised scale from the specificity
+section, not per cents. For per cents, Hubal's study, above, is the one this course read: "Despite
+greater absolute gains in men, relative increases in strength measures were greater in women versus
+men", and its authors sum up that men "had only a slight advantage in relative size gains".[10] So in
+kilograms men gained more, and as a share of where they started, women gained more strength and
+nearly as much size. Lesson 9 takes women and older adults properly.
 
 ## What people get wrong
 
@@ -507,8 +512,9 @@ people in their twenties, tested on the lift they practised.
 Responses vary enormously, but the label depends on what was measured and for how long, and in the
 longer study read here everyone improved on something.
 
-**"Women respond poorly to training."** As a share of their starting strength, women gained as much
-or more in short studies, and gained muscle much as men did. In kilograms, men usually gain more.
+**"Women respond poorly to training."** In short studies women's gains had effect sizes as large as
+men's or larger, and in the one large trial read, women gained more strength as a share of where they
+started and only slightly less size. In kilograms, men usually gain more.
 
 ## Practice
 
@@ -693,7 +699,8 @@ institute's claim sort.
     expression during myofiber hypertrophy in humans", *Journal of Applied Physiology* 102(6), 2007,
     pp. 2232 to 2239; J. C. Pelland and others, bioRxiv preprint, doi 10.1101/2025.07.24.666533.
     **Read level: abstract only, all five; the Pelland preprint is not peer reviewed.** Supports:
-    Hubal's sample, ranges and absolute gains, Bamman's clusters and title, the Churchward-Venne
+    Hubal's sample, ranges, absolute and relative gains by sex and its conclusion on relative size,
+    Bamman's clusters and title, the Churchward-Venne
     conclusion and duration point, the preprint's design and conclusion, and the Ahtiainen figures
     in the exercise.
 11. <!-- SOURCES R2.14 --> Sex and age: B. M. Roberts, G. Nuckols and J. W. Krieger, "Sex differences in
@@ -705,4 +712,5 @@ institute's claim sort.
     [doi 10.1007/s40279-015-0385-9](https://doi.org/10.1007/s40279-015-0385-9), **full text**; J.
     Grgic, A. Garofolini, J. Orazem and others, "Effects of resistance training on muscle size and
     strength in very elderly adults", *Sports Medicine* 50(11), 2020, pp. 1983 to 1999, **abstract
-    only**. Supports: the sex findings and hedges; the Borde and Grgic descriptions in the exercise.
+    only**. Supports: the sex findings and hedges, which the abstract reports as effect sizes, not
+    per cents; the Borde and Grgic descriptions in the exercise.

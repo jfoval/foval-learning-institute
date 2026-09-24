@@ -434,7 +434,8 @@ be a poor idea, for blood vessels and for form.[3] Stopping with two or three re
 target.
 
 **"More is always better."** Every extra set buys less. For strength the curve flattens after a few
-sets a week; for size it keeps rising slowly, and very high volumes have hardly been studied.
+sets a week; for size it keeps rising slowly, and very high volumes have hardly been studied. The
+mirror, that a set or two is all anyone needs, fits the strength curve and drops the size one.
 
 **"Train each muscle twice a week or it won't grow."** With weekly volume held equal, one session or
 several made no meaningful difference to growth. Frequency is mostly a way to fit sets in.

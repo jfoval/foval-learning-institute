@@ -1898,7 +1898,10 @@ capacity to increase upper-body strength than males. Further research is require
 difference occurs only in the upper body and whether the differences are due to neural, muscular,
 motor learning, or are an artifact of the short duration of studies included." Consistent with Hubal
 2005 (relative strength gains greater in women). These are **relative** gains; men usually gain more
-in absolute kilograms.
+in absolute kilograms. *Correction, 2026-09-24 (course-wide neutrality audit, following R5.15's
+correction):* Roberts reports **effect sizes**, not per cent change, and uses "relative" only for
+upper-body strength. "These are relative gains" was this file's gloss and carried into lesson 4 as
+"as a share of where each person started". For a per-cent comparison by sex, use Hubal 2005 (R2.12).
 
 **Older adults (Peterson 2010).** 47 studies, 1079 participants aged 50 or over (randomised and
 non-randomised). "Strength increases ranged from 9.8 – 31.6 kg, and percent changes were 29 ± 2, 24 ±
@@ -1916,7 +1919,8 @@ confidence interval (CI) 0.50, 1.44; p = 0.001]"; in those 80 and over, "(differ
 CI 0.28, 2.29; p = 0.020)". Handgrip did not differ significantly. "There were minimal reports of
 adverse events associated with the training programs in the included studies."
 
-**Good for.** Two myths at once: that women gain strength poorly (relative gains are equal or better),
+**Good for.** Two myths at once: that women gain strength poorly (effect sizes equal or better in
+Roberts; relative strength gains greater in Hubal, R2.12),
 and that it is too late at 70 or 80 (strength gains are large; size gains smaller).
 
 ---
@@ -5034,7 +5038,7 @@ checking.
 |---|---|---|
 | Ab exercises burn belly fat (spot reduction) | R5.11 Vispute 2011; R5.12 Ramírez-Campillo 2013; R5.13 meta-analysis 2022 | Strong within 2 to 20 weeks |
 | Light weights "tone", heavy weights "bulk" | R5.14 Schoenfeld 2017 (hypertrophy similar across loads, to failure) | Moderate; all sets to failure |
-| Lifting makes women bulky | R5.15 Roberts 2020 (similar relative hypertrophy) | Tests relative gains, not appearance |
+| Lifting makes women bulky | R5.15 Roberts 2020 (similar effect sizes for hypertrophy; per cents are Hubal, R2.12) | Tests muscle growth, not appearance |
 | No pain, no gain; soreness means growth | R5.16 Damas 2016; R5.17 Grgic 2022 (failure not required) | Moderate (Damas n = 10) |
 | Muscles must be "confused" with constant change | R5.18 Kassiano 2022; Fonseca 2014; R5.26 | Moderate; all young men |
 | You must eat protein within the "anabolic window" | R5.19 Schoenfeld 2013 | Moderate; total intake matters more |
@@ -5145,7 +5149,7 @@ Consolidated from the five parts; each has its source there.
 | Every set must go to failure | Not needed in the trials; near failure is enough | R2.10 |
 | More is always better | Diminishing returns, especially for strength | R2.8 |
 | Early gains mean your muscles grew | Early gains are largely neural | R2.4 |
-| Women get bulky / gain less | Relative gains similar, upper body larger in women, in short studies | R2.14, R5.15 |
+| Women get bulky / gain less | Effect sizes similar, upper body larger in women, in short studies (Roberts); relative strength gains greater in women (Hubal) | R2.14, R5.15, R2.12 |
 | Older people can't gain strength | Large gains at 65+, 75+ and 80+ | R2.14 |
 | Cardio kills gains | Not for maximal strength or size; possibly for explosive power | R2.15, R5.23 |
 | Spot reduction works | Three tests and a meta-analysis say no | R5.11 to R5.13 |

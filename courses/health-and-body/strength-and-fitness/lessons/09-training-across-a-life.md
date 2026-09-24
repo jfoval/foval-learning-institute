@@ -637,7 +637,7 @@ condition is for, drawn from the sources above rather than stated by any of them
 | Healthy women | The same training as men | None beyond the box | (nothing extra) | No one extra |
 | Older adults | Strength work, and WHO's multicomponent balance and strength on 3+ days | Stop short of failure; start light | Vascular strain, injury from poor form, falls | An exercise professional before vigorous work; a physiotherapist or qualified professional for balance |
 | Low bone mass | Heavy lifting with impact work in one trial; low to moderate for severe osteoporosis | Close supervision; severity matters | Fracture | Doctor and a qualified professional |
-| Pregnancy | Aerobic and strength work | Clinical evaluation first; Box 3 signs; no contact sports; athletes training hard get approval and consider lighter loads | Complications a course can't see | Whoever looks after the pregnancy |
+| Pregnancy | Aerobic and strength work | Clinical evaluation first; Box 3 signs; no contact sports; elite athletes get approval and consider lighter loads | Complications a course can't see | Whoever looks after the pregnancy |
 | Children | Supervised resistance training | Qualified supervision of every session | Accidents with equipment, poor technique | The coach who supervises |
 | Back pain | Exercise for chronic non-specific pain | That it is non-specific | A serious cause being missed | Doctor or physiotherapist |
 | Type 2 diabetes | 2 to 3 resistance sessions a week | Glucose checks; medicine review | Low blood sugar, silent ischaemia, foot injury | Doctor |

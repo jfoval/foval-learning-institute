@@ -206,6 +206,13 @@ judge you have 2 or 3 left, and count the reps. Past 12 with that much left, try
 the next load up in the following session, not the same day. Under 8, drop back a version. That
 procedure is this course's convention, and it is "start below what you could do" in practice.[18]
 
+A more cautious start is on record too. The American Heart Association's 2023 statement on
+resistance training, written for people with and without heart disease, says: "When beginning a new
+RT program, an initial intensity should correspond to 40% to 60% of 1-RM".[20] That is lighter than
+the loads Dele works up to. His first sessions of about five, well short of hard, sit nearer it, and
+if you'd rather follow the AHA's start, keep to loads you could lift many more times for the first
+few weeks, as lesson 9 does for an older beginner.
+
 | Slot | Home version (Dele) | Gym version | Sets |
 |---|---|---|---|
 | Lower push | Squat to a chair (lesson 6's box squat), holding a backpack of water bottles to his chest once bodyweight gets easy | Goblet squat with a dumbbell or kettlebell (lesson 6) | 2 a session, 4 a week, each stopped at 2 to 3 in reserve |
@@ -424,7 +431,8 @@ His definition of a novice is worth having, because it isn't about how much you 
 approaching the limit of your ability to adapt".[10] On that definition a slow gain means you've
 moved along, not that you're doing it wrong. He agrees with lesson 4 on the shape and not on the
 reason, though: the same article rejects the idea that the first months of gains are mainly the
-nervous system, at least for the young men in his gym.[10]
+nervous system, at least for the young men in his gym, whose cases gained a great deal of bodyweight
+as their lifts rose.[10]
 
 ## Two practitioners, two frameworks
 
@@ -968,3 +976,9 @@ you wrote above.
     of New Mexico, **read in full**, one remove from the primary. <!-- SOURCES R1.5 --> Supports:
     "Major muscle groups should be trained 2-3 days/week with a 48-hour rest between sessions for
     muscle groups", as Kravitz gives it.
+20. A. E. Paluch, W. R. Boyer, B. A. Franklin and others, "Resistance exercise training in
+    individuals with and without cardiovascular disease: 2023 update", American Heart Association
+    scientific statement, *Circulation* 149(3), 2024, pp. e217 to e231,
+    [PMC11209834](https://pmc.ncbi.nlm.nih.gov/articles/PMC11209834/). <!-- SOURCES R4.26 -->
+    **Read level: full text.** Supports: the starting-intensity sentence. That Dele's first sessions
+    sit nearer it than his working sets do is this course's reading.

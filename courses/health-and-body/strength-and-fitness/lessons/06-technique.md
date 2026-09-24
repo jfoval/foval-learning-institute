@@ -654,7 +654,8 @@ not increase the risk of serious adverse events."[2] And in trials in organised 
 training reduced injuries. A 2014 meta-analysis by Lauersen and colleagues pooled 25 randomised
 trials with 26,610 participants; its strength-training estimate rests on a handful of them, and
 found "Strength training reduced sports injuries to less than 1/3 and overuse injuries could be
-almost halved", while stretching showed no benefit.[8] Those are athletes in organised sport, read
+almost halved", while stretching showed no benefit.[8] (Lesson 8 sets that stretching result beside
+stretching researchers who still recommend it inside a warm-up.) Those are athletes in organised sport, read
 at abstract level, and the abstract itself warns that "The overall effect estimate on injury
 prevention was heterogeneous."[8]
 
