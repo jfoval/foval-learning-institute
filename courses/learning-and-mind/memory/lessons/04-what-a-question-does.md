@@ -1,6 +1,7 @@
 ---
 title: What a question does to a memory
 minutes: 75
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/learning-and-mind/memory/04-what-a-question-does.mp3
 objectives:
   - >-
     State what the 1974 experiments did and found, and at what read level this course holds them
