@@ -1,6 +1,7 @@
 ---
 title: Reading a claim about your notes
 minutes: 95
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/learning-and-mind/note-taking/08-reading-a-claim-about-your-notes.mp3
 objectives:
   - >-
     Sort a claim about note-taking into measurable, unmeasurable as stated, or false, and say what
