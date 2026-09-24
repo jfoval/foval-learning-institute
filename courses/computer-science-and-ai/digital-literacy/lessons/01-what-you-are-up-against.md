@@ -1,6 +1,7 @@
 ---
 title: What you are up against, and what this course can honestly do
 minutes: 110
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/computer-science-and-ai/digital-literacy/01-what-you-are-up-against.mp3
 objectives:
   - Say what the research does and does not show about whether understanding computers makes a person safer, and state the two claims this course can defend
   - Build a security plan for yourself from the five questions, naming what you have, who would want it, how bad it would be, and how much trouble you will go to
