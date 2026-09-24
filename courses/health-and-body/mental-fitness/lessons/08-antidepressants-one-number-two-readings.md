@@ -202,8 +202,8 @@ about 62 percent of the placebo group, where no effect at all would be 50 percen
 ### What the placebo group got
 
 Lesson 2's question, what did the comparison group get, has a clear answer here: a dummy pill,
-usually in a trial where neither patient nor rater knew who had which. That is the hardest comparison
-there is, which is why lesson 2 warned against setting a therapy's 0.79, measured against controls
+usually in a trial where neither patient nor rater knew who had which. That is the hardest comparison short
+of another treatment, which is why lesson 2 warned against setting a therapy's 0.79, measured against controls
 such as waiting lists and usual care, beside a drug's 0.3 against placebo.
 
 And look again at Kirsch's two groups. The drug groups improved by 9.60 points and the placebo groups
@@ -603,7 +603,7 @@ If writing the list brings up thoughts of suicide or self-harm, stop and use the
 ## Connections
 
 **Back.** Lesson 2 gave you the tools this lesson ran on: what 0.3 looks like, and what the
-comparison group got, which here is the hardest comparator there is. It also warned against setting
+comparison group got, which here is the hardest comparator short of another treatment. It also warned against setting
 a therapy measured against waiting lists beside a drug measured against placebo. Lesson 6 met
 "comparable to antidepressants" and why a comparison across trials misleads. **Sleep** lesson 6
 showed that a grade on the evidence reports certainty rather than size, which is how to read

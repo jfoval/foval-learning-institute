@@ -149,6 +149,13 @@ recommendation must keep its verb**, because the verb is the grade.
   necessarily constitute a panic disorder and appropriate treatment of a panic attack may limit the
   development of panic disorder." **That sentence is the whole of lesson 1's distinction in one line,
   from the guideline itself.**
+- In the same A&E section, people presenting with a panic attack should "undergo the minimum
+  investigations necessary to exclude acute physical problems". *(Recorded here 2026-09-24, lesson 9
+  Stage 4, SOURCES error 4: the phrase was quoted only under Safety-critical guidance, without the
+  recommendation number or year tag this section's rule asks for. Neither was transcribed on
+  2026-09-23, and a re-fetch of the Recommendations page on 2026-09-24 returned HTTP 403, so both are
+  still missing. Until they are added, a lesson quotes the phrase only as a fragment inside its own
+  sentence, as lesson 9 does, never as a whole recommendation.)*
 
 **What a lesson must not do with this source.** It must not reproduce the drug recommendations
 (1.2.23 to 1.2.36, 1.3.20 to 1.3.34) beyond saying that drug treatment exists at step 3 and that the
@@ -1863,7 +1870,12 @@ abstract in full.**
 described as 'comparable'" to antidepressants. **Five years later a trial that tested the comparison
 for anxiety disorders reported noninferiority.** (Corrected 2026-09-24 from "a trial designed to test
 exactly that": Hoge recruited from June 2018, NCT03522844, so it ran alongside Van Dam rather than in
-answer to it, and Van Dam's sentence was about depression and stress, not anxiety disorders.) Two
+answer to it.) *(Corrected again 2026-09-24, lesson 9 Stage 4, SOURCES error 5: the note went on to say
+"Van Dam's sentence was about depression and stress, not anxiety disorders", which nothing read
+supports. The sentence names no disorder, and the Goyal review it cites reported anxiety among its
+findings (0.38 at 8 weeks, 9a); the paragraph of Goyal's Discussion that was read does not say which
+of its effects "These small effects" means. What is true is narrower: neither paper was about a trial
+in people with diagnosed anxiety disorders set against a drug, which is what Hoge ran.)* Two
 more sentences from the abstract (appendix), for a lesson that reports the result: "Secondary
 intent-to-treat analyses using imputed data also showed the noninferiority of MBSR compared with
 escitalopram based on the improvement in CGI-S score." And: "Of patients who started treatment, 10
@@ -1961,7 +1973,10 @@ apostrophes are Retraction Watch's rendering.
   best-controlled seven trials it is smaller, and the certainty is low (source 8b).
 - **"Mindfulness works as well as antidepressants."** Van Dam: "misleadingly described as
   'comparable'"; Goyal: no evidence meditation programmes beat any active treatment (sources 9a, 9e).
-  The real comparison, MBCT for relapse prevention, is narrower (source 9d).
+  The real comparison, MBCT for relapse prevention, is narrower (source 9d). And for anxiety disorders
+  one noninferiority trial since, Hoge 2023, found an eight-week MBSR course not worse than
+  escitalopram by more than its prespecified margin, with no placebo or no-treatment arm (source 19h).
+  *(Hoge added 2026-09-24, lesson 9 Stage 4: the entry had cited only the case against.)*
 - **"Meditation is harmless."** NCCIH, quoted in Van Dam: it "could cause or worsen certain psychiatric
   problems"; MBSR's own standards exclude suicidality and psychiatric disorder (source 9e).
 - **"Resilient people are rare, and resilience is a skill you can train."** About two in three follow the
@@ -2088,8 +2103,10 @@ site decision the outline should raise (see Open concerns).
   distressing thoughts (source 2): a lesson that encourages trying mindfulness must say it is not
   for everyone and that some people get worse.
 - **Crisis numbers verified 2026-09-23.** 988 (US and Canada), 116 123 (UK and Ireland), 13 11 14
-  (Australia), 999 / 911 / 000 for emergencies. A number that changes is a safety defect; the outline
-  should put them in one place that a single edit can update.
+  (Australia), 999 / 911 / 112 / 000 for emergencies (112, the EU's, was added at Stage 3 and is
+  sourced in §4; it was missing from this line until lesson 9's Stage 4 review, 2026-09-24). A number
+  that changes is a safety defect; the outline should put them in one place that a single edit can
+  update.
 
 ## Open concerns for Stage 2
 
@@ -2115,8 +2132,11 @@ site decision the outline should raise (see Open concerns).
   and nothing equivalent for the US (where access runs through insurance, employer assistance programmes
   and community health centres), which this file did not research. Either research it or say plainly that
   "a doctor" is the route and the course cannot map a health system.
-- **The positivity-ratio correction notice was not found.** Until it is read, lessons use neither
-  "retracted" nor "partially retracted". Source 19i adds that PubMed indexes an erratum and no retraction.
+- **The positivity-ratio correction notice** was not found at Stage 1. *Closed 2026-09-24:* it has
+  since been read as Retraction Watch reprints it (19i, lesson 7 Stage 4), and outline decision 6 was
+  amended to match. It is a correction, so "retracted" and "partially retracted" stay banned; a lesson
+  may quote what the notice withdraws, at that read level. *(This entry still said "not found" until
+  lesson 9's Stage 4 review.)*
 - **The unread line may need an exemption for McGonigal** on the stress-mindset lesson, decided at Stage 2.
 - **The course's likeliest reader is distressed and wants to be told what to do**, as with Sleep, but the
   stakes are higher: some readers will be in crisis. Every lesson will be read as advice. This file's
