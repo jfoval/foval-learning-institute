@@ -210,7 +210,7 @@ The map is deliberately ambitious. Most courses are `planned`. The point of writ
 | Nutrition: The Evidence | Foundation | published | T3 | Separating settled science from fads. |
 | Strength and Fitness | Foundation | drafting | T3 | Programming, technique, progression. |
 | Sleep | Foundation | published | T2 | What sleep is measured with, what controlled restriction actually does, and how to read the confident claims. Sixth in the term on running yourself, after Memory, because the sleep literature's best-known findings are memory findings. |
-| First Aid and CPR | Foundation | planned | T3 | Aligned to Red Cross / AHA guidance. |
+| First Aid and CPR | Foundation | research | T3 | Aligned to Red Cross / AHA guidance. |
 | Mental Fitness | Foundation | published | T2 | Stress, anxiety and low mood: where ordinary ends, what the controlled evidence shows for the methods people are offered, against what comparison, and how to read a claim about your mind. Last in the term on running yourself, after Sleep. A sensitive domain; neutrality audit passed 2026-09-24. |
 | Medical Literacy | Core | planned | T10 | Navigating healthcare, reading a study, talking to doctors, second opinions. |
 | Longevity: Evidence vs Hype | Core | planned | T10 | |

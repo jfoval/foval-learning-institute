@@ -1,0 +1,27 @@
+id: first-aid
+title: First Aid and CPR
+school: health-and-body
+subject: Health & the Body
+level: Foundation
+status: research
+summary: >-
+  What to do in the first minutes of an emergency, before help arrives: how to call for help, CPR
+  and a defibrillator, choking, bleeding, burns, and the other situations most people will meet.
+description: >-
+  Most emergencies are met first by someone who happens to be there. This course teaches what the
+  main resuscitation and first-aid bodies (the American Heart Association, the Red Cross, the
+  European and UK Resuscitation Councils and ILCOR) currently recommend a bystander do, why, and
+  where they differ: calling for help, checking a casualty, CPR and using an AED, the recovery
+  position, choking, severe bleeding, burns, and the common medical emergencies. It is not a
+  certificate and not a substitute for hands-on training, and it says so; it is the knowledge
+  that makes a practical class, and a real emergency, less frightening.
+outcomes:
+  - Recognise an emergency, keep yourself safe, and call for help with the information a dispatcher needs
+  - Recognise cardiac arrest and give hands-only and full CPR at the recommended rate and depth, and use an AED
+  - Put an unresponsive, breathing casualty in the recovery position and monitor them
+  - Clear choking in an adult, a child and an infant as current guidance describes
+  - Control severe bleeding with pressure, and say when a tourniquet is recommended
+  - Give first aid for burns, and recognise stroke, heart attack, severe allergic reaction and seizure
+  - Say where the major guidelines differ and why, and where hands-on training comes in
+prerequisites: []
+sensitive_domain: true
