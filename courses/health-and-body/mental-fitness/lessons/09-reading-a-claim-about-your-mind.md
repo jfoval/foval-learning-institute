@@ -1,6 +1,7 @@
 ---
 title: Reading a claim about your mind
 minutes: 120
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/health-and-body/mental-fitness/09-reading-a-claim-about-your-mind.mp3
 objectives:
   - >-
     Sort a claim about stress, anxiety or mood, and ask of it what the comparison group got
