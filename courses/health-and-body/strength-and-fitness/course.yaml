@@ -1,0 +1,25 @@
+id: strength-and-fitness
+title: Strength and Fitness
+school: health-and-body
+subject: Health & the Body
+level: Foundation
+status: research
+summary: >-
+  How much exercise the evidence asks for, how strength and endurance are actually built, and how
+  to write, run and progress a training plan of your own.
+description: >-
+  Most adults are told to exercise and very few are shown how training works. This course covers
+  what the physical activity guidelines ask for and what they rest on, how the body adapts to
+  endurance and strength training, how to judge effort, how to perform and progress the basic
+  lifts, and what the evidence does and does not say about stretching, soreness, injury and the
+  claims the fitness industry makes. It is the second course of the term on the body and the
+  household, and it is a health course, so it says throughout what it is and is not entitled to
+  claim and when a question belongs with a doctor.
+outcomes:
+  - State what the major physical activity guidelines recommend and what evidence each figure rests on
+  - Explain how strength, muscle size and endurance each adapt to training, and why the adaptations differ
+  - Measure and set training effort using heart rate, perceived exertion and repetitions in reserve
+  - Write, run and progress a beginner training plan, and say what each choice in it rests on
+  - Evaluate a claim about training against the people, the duration and the outcome it was tested on
+prerequisites: []
+sensitive_domain: true
