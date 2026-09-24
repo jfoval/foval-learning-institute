@@ -428,7 +428,7 @@ If you take an antidepressant and are thinking of stopping it, NICE's advice is 
 ## Sources
 
 1. National Institute for Health and Care Excellence, NG222, 2022: Table 1's group exercise row, Table
-   2's group exercise row, and recommendations 1.4.12 and 1.4.40. **Read.** Supports: the definition
+   2's group exercise row, and recommendations 1.4.12, 1.4.14 and 1.4.40. **Read.** Supports: the definition
    of group exercise, the note for more severe depression, the advice on stopping an antidepressant,
    and the consensus recommendation on physical activity.
 2. National Institute for Health and Care Excellence, CG113. **Read.** Supports: no exercise treatment

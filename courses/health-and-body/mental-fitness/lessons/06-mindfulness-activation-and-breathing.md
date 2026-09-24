@@ -491,7 +491,7 @@ between the evidence and the claim is widest of all.
 
 This lesson set a mindfulness course beside an antidepressant, and BA beside medication. None of that is a reason to start, stop or switch a treatment.
 
-If you're on an antidepressant and want to come off it, NG222 1.4.12 says to "talk with the person who prescribed their medication", since "it is usually necessary to reduce the dose in stages over time", and it also says "most people stop antidepressants successfully". Recommendation 1.4.14 adds the other side: for some, "withdrawal can sometimes be more difficult", and it can go on for weeks or longer.[6]
+If you're on an antidepressant and want to come off it, NG222 1.4.12 says to "talk with the person who prescribed their medication", since "it is usually necessary to reduce the dose in stages over time", and it also says "most people stop antidepressants successfully". Recommendation 1.4.14 adds the other side: for some, "withdrawal can sometimes be more difficult", with symptoms that can last weeks or occasionally months.[6]
 :::
 
 ## Sources
@@ -523,7 +523,7 @@ If you're on an antidepressant and want to come off it, NG222 1.4.12 says to "ta
    Database of Systematic Reviews* 2020, CD013305, doi 10.1002/14651858.CD013305.pub2, PMC7390059
    (**read: the abstract**); and National Institute for Health and Care Excellence, NG222, 2022, Table
    1 with its heading and its guided self-help, group mindfulness and behavioural activation rows,
-   recommendation 1.5.2, Table 2's row order, and recommendation 1.4.12 (**read**). Supports: BA's
+   recommendation 1.5.2, Table 2's row order, and recommendations 1.4.12 and 1.4.14 (**read**). Supports: BA's
    definitions, results and placement, the group mindfulness row and caution, and the advice on
    stopping an antidepressant.
 7. **This course's own constructions, labelled where they appear.** The reading of the 2023 review's

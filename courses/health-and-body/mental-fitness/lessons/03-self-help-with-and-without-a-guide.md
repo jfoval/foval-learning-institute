@@ -188,8 +188,8 @@ from a small deficit to none.** That summary is this course's, from the four abs
 
 ## And for depression
 
-Lesson 2 gave the depression figures, with their comparisons: unguided self-help CBT at 0.45 against
-control conditions the abstract doesn't separate, and self-guided internet CBT at 0.27 against usual
+Lesson 2 gave the depression figures, with their comparisons: unguided self-help CBT at 0.45 (from the review of CBT for
+depression that lesson 2 cited) against control conditions the abstract doesn't separate, and self-guided internet CBT at 0.27 against usual
 care, waiting lists or attention controls, with a number needed to treat of 8.[5] The authors of that
 second review conclude plainly: "Self-guided iCBT is effective in treating depressive symptoms", and
 that it "can be considered as an evidence-based first-step approach in treating symptoms of
@@ -218,7 +218,7 @@ So the pooled effect is what small controlled trials found. "Not established" is
 :::
 
 And one thing the evidence doesn't say. "Evidence regarding harm was lacking," the same review
-reports, and the Cochrane review of therapist-supported internet CBT for anxiety says "Adverse events
+reports, and the Cochrane review of therapist-supported internet CBT for anxiety (Olthuis and colleagues) says "Adverse events
 were rarely reported."[3][4] Not measuring harm isn't finding none, so "self-help has no risks" is more
 than anyone here can claim.
 
@@ -301,7 +301,8 @@ able or are not willing to use other services". **But the same sentence goes on*
 access it, face-to-face cognitive behavioural therapy is probably clinically superior."[3]
 
 **"An app is as good as seeing a therapist."** The mirror image, and just as easy to believe after the
-last paragraph. Three of the four anxiety reviews found a deficit against a therapist, and the one that
+last paragraph. On symptoms, three of the four anxiety reviews found a deficit against a therapist (on response,
+Mayo-Wilson and Montgomery found self-help not significantly inferior), and the one that
 didn't had nine comparisons and an interval running below zero.[4]
 
 ## Practice
