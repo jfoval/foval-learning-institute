@@ -3074,6 +3074,7 @@ added here.*
   - Bacillus cereus: "The vomiting-type outbreaks generally have been associated with rice products; however, other starchy foods, such as potato, pasta, and cheese products, also have been implicated." Consumer box: "Cooking may kill the bacteria, but it might not disable the toxin that causes the vomiting type of illness." And "at higher temperatures, B. cereus can form spores" (the box's wording; the chapter proper is the better source for the mechanism). "Both kinds of illness generally go away by themselves, but can cause serious complications, although rarely in otherwise healthy people."
 - **Colorado State University Extension, "Cooking Dry Beans"**, https://extension.colostate.edu/resource/cooking-dry-beans/ ,
   "Reviewed: October 2025". Read: full, direct. "red kidney beans are particularly high in lectins, thus it is not recommended to cook red kidney beans in a slow cooker because lectins may still be present. If you want to prepare red kidney beans in a slow cooker, the recommendation is to first boil them for 10 minutes before finishing them in the slow cooker, to properly inactivate lectins." An extension service, below the FDA's 30 minutes; a lesson that mentions it says so.
+  - On soaking: "Soaking is optional, but it can help shorten cooking time and improve appearance by preventing beans from bursting when cooking." "If soaking for more than 12 hours, refrigeration is recommended." "After soaking is complete, drain and rinse the beans before cooking in fresh water. Adding salt to the soaking water can shorten cooking time and helps to prevent beans from splitting during cooking." "Note: Lentils do not need to be soaked before cooking." Stovetop: "Cooking time varies but is generally about 1-3 hours, although lentils usually take less than 1 hour. Check for doneness by mashing beans with a fork (they are done when easily pierced) and/or sampling."
 
 **G6, rice ratios and resting: closed** with an ATK test of the ratio and ATK recipes for the rest.
 No test of resting itself (rested against unrested rice) was found; the rest is a recipe
@@ -3206,3 +3207,160 @@ lesson 7 gate closures above.*
 - Young, as Gritzer describes him: "a chef and food scientist who was one of the co-authors of the original Modernist Cuisine books and now the maker of the Combustion Predictive Thermometer". "Young had long been in favor of meat resting, but in a recent video, he completely changed his stance." Gritzer "also used his Predictive Thermometer" in his own test.
 - In the pulled-15°F trial it was one chop ("Even when I pulled one a full 15°F"), and in the tasting test the chops were pulled 10°F short, with rests of "not much more than two minutes".
 - The Young sentence the lesson quotes opens with a hedge the lead-in must keep: "Young's tests suggest that when samples of seared meat are sliced at the same final internal temperature, resting has no measurable effect on juice loss at all."
+
+## Stage 4 note, lesson 8
+
+*Added by the lesson 8 reviewer, 2026-09-24. Read directly (curl; PubMed through the E-utilities
+efetch endpoint; FSIS through the Internet Archive); quotations copied from the extracted text.*
+
+- **P. P. Purslow, "Intramuscular connective tissue and its role in meat quality"**, *Meat Science*
+  70(3), 2005, 435-447, doi 10.1016/j.meatsci.2004.06.028, PMID 22063743. University of Guelph.
+  Read: abstract, direct.
+  - "The amount, spatial distribution and composition of the connective tissue within muscle vary with muscle position in the carcase and with animal age. This has long been recognised to influence the tenderness of cooked meat."
+  - "Cooking increases IMCT strength in the range 20-50 °C and decreases its contribution at higher temperatures and longer cooking times."
+  - "Crosslinking of collagen in older animals is generally considered to result in tougher meat, although definitive links between mature crosslink content and cooked meat toughness have been difficult to prove."
+  - **Bearing on the lesson 8 gate note:** "no source here says a higher temperature converts collagen faster" is no longer quite true. Purslow says the contribution falls with higher temperatures as well as longer times, with no figure. A lesson may not say heat does nothing; it may say no source here quantifies the trade.
+- **USDA FSIS, "Slow Cookers and Food Safety"**, Wayback 20260923031306, rechecked for two
+  sentences the Part B and gate records did not carry: "If you are at home, finish cooking the ingredients immediately by some other means: on a gas stove, on the outdoor grill or at a house where the power is on." And: "Cooked food should be reheated on the stove, in a microwave, or in a conventional oven until it reaches 165 °F. Then the hot food can be placed in a preheated slow cooker to keep it hot for serving—at least 140 °F as measured with a food thermometer."
+- **Utah State University Extension, "Why Electric Pressure Cookers Are Not Pressure Canners"**,
+  rechecked, direct, for lesson 8's paraphrase of its canning concern: "Checking the temperature of food is quite simple when cooking, but it would defeat the purpose of canning to open the jar to check the temperature of the food. Low-acid foods, such as meats, beans, and vegetables with no added vinegar, must be handled very carefully when canning."
+
+## Gate closures, lesson 10
+
+*Stage 3 top-up for lesson 10, 2026-09-24. Every page below was downloaded with curl and its text
+extracted locally (the FDA PDFs with pdftotext; PubMed abstracts through the E-utilities efetch
+endpoint; GOV.UK through the Content API; the *Flavour* paper through an Internet Archive capture,
+because the live Springer page answers automated readers with a challenge page, which was not
+worked round). Quotations are copied from that text, direct. G11 is closed; the stock ratio is
+closed at recipe level only (see below).*
+
+**G11, thickener proportions: closed** with Ruhlman's blog (a roux proportion and four recipes that
+give flour or cornstarch per quantity of liquid) and three ATK pages for how the thickeners behave.
+
+- **Michael Ruhlman, "Holiday Classic: Gravy & Cranberry Sauce"**, ruhlman.com, published 25
+  November 2015, modified 3 February 2021, https://ruhlman.com/gravy-cranberry/ . Read: full, direct.
+  - The roux proportion, in a parenthesis: "(Someday I should do a quick plain roux video to show how easy it is, starting with equal parts fat and flour by volume, then adding more flour till you have a thin paste—3 parts flour to 2 parts fat is ideal if measuring by weight, but for small quantities, by eye is fine.)"
+  - Why fat first: "The key is dispersing the flour uniformly through the sauce. We do this by combining the fat (butter or rendered chicken or turkey fat) so that the granules of flour are each coated with fat to prevent their clumping together." And: "We want to cook it, too, so that you don’t taste any raw flour. Flour can be cooked pale (it will smell like pie crust), or it can be deeply browned, which gives it a wonderful nutty flavor but reduces its thickening power."
+  - Mechanism in his words: "stock is added and brought to a simmer as the flour absorbs the liquid and expands in the heat to thicken the sauce." "Gravy is nothing more than flour-thickened stock." "In cooking school, they call it velouté, French for velvety."
+  - Recipe: "½ Spanish onion", "¼ cup turkey fat or fat saved from a roasted chicken or butter", "4-6 tbsp all-purpose flour", "1 quart turkey stock". "If you want a thin gravy, add 4 tablespoons of flour, for a thicker gravy, add 6 tablespoons." "Keep cooking until the gravy comes to a boil and thickens." "Too thin? Either make a quick roux of fat and flour and add that or a slurry of cornstarch and water."
+  - A reply signed as Ruhlman's in the comments: "try another thickener - like a starch slurry with cornstarch, arrowroot, or tapioca flour if any of those are easier to get (just mix with as little cold water as it takes to dissolve the starch) - add to the stock, and bring to a boil." (A comment, so weaker than the post.)
+- **Michael Ruhlman, "Le Creuset Technique: Béchamel Sauce & the Croque Madame"**, ruhlman.com,
+  published 27 August 2013, modified 27 February 2021, https://ruhlman.com/croque-madame/ . Read:
+  full, direct. Sauce: "1 shallot, minced", "2 ounces salted butter", "3 tablespoons flour", "2 cups milk", nutmeg, salt. "Turn the heat to high and add the milk, whisking continuously until the milk comes to a simmer and thickens. Reduce the heat to medium-low and cook, skimming any skin that may form on the surface, for about 15 minutes and up to 45". On its uses: "Add cream for a simple cream sauce. Add grated cheese for a cheese sauce". A comment reply signed Ruhlman: "Common rule in school to avoid lumping, hot liquid cold roux, or cold liquid hot roux. But some chefs will tell you it doesn't matter either way."
+  - Note: this recipe uses more butter than flour by weight (2 oz, about 57 g, against 3 tablespoons of flour), so it does not follow the 3:2 of the gravy post. A lesson gives the 3:2 as Ruhlman's stated ideal and the recipes as what he actually wrote.
+- **Michael Ruhlman, "Moussaka"**, ruhlman.com, published 6 May 2022, https://ruhlman.com/moussaka/ .
+  Read: full, direct. Béchamel for a layered dish: "¾ cup flour", "1 sitck butter" [sic], "1 quart milk", "1 cup parmigiano reggiano", "2 egg yolks". "Making a bechamel takes five minutes." "Melt the butter, add the flour and make a roux. Add the milk, whisking, and simmer till thick."
+- **Michael Ruhlman, "Egg Foo Young"**, ruhlman.com, published 19 March 2021,
+  https://ruhlman.com/egg-foo-yung/ . Read: full, direct. The page tags the cuisine "American, Chinese".
+  - "The sauce was originally simply chicken stock seasoned with soy sauce and thickened with cornstarch (see James Beard’s recipe in his classic American Cookery)."
+  - Sauce: "2 cups chicken stock", "5 tbsp corn starch", with soy sauce, sugar, wine, garlic, ginger and scallions. "In a small bowl, whisk together 2 tablespoons of the stock and 2 tablespoons of the cornstarch to form a slurry for the sauce; while you’re at it, do the same in another bowl with another 3 tablespoons of stock and the remaining 3 tablespoons cornstarch and set aside for the eggs." "Bring the mixture to a simmer. Add the 2-tablespoon slurry and cook for a minute or two, until the sauce thickens."
+  - So the sauce itself is thickened by 2 tablespoons of cornstarch in a little under 2 cups of stock (the other 3 tablespoons go into the eggs). That arithmetic is the course's.
+- **America's Test Kitchen, "Getting to Know: Thickeners"**, no author or date,
+  https://www.americastestkitchen.com/how_tos/9126-getting-to-know-thickeners . Read: full, direct.
+  - "All-Purpose Flour: Flour can thicken a substance alone, as part of a slurry, or in conjunction with a fat. In a roux, a mixture of flour and fat is cooked to eliminate the raw flour flavor before introducing liquid. In a beurre manié, a paste of flour and softened butter is added to a soup or sauce to finish it. In either case, combine them with liquid gradually and whisk them in well before the mixture boils, when the flour’s starches cause the mixture to thicken."
+  - "Cornstarch: Because cornstarch is a pure starch, it is a more effective thickener than flour (which is only 75 percent starch). But cornstarch-thickened sauces break down more quickly than flour-thickened ones, so be sure to follow the cooking times for recipes thickened with cornstarch and to reduce the heat once the dish has thickened. Cornstarch is the go-to thickener for stir-fries; first mix it with cold liquid to form a slurry before adding the thickener to hot liquids to prevent clumping."
+  - **Butter, which answers lesson 6's open question:** "Butter: The ultimate sauce finisher, butter contributes a glossy sheen, richness, flavor, and thickening to pan sauces (and to custards like lemon curd). But in order to achieve the right body, it’s important to add butter off the heat. Because butter is an emulsion that can be broken by high temperatures, at around 160 degrees your nicely thickened sauce will lose its body."
+  - "Arrowroot has almost twice the thickening power of flour. Unlike flour and cornstarch, it doesn’t become cloudy as it thickens".
+- **ATK, "Thickeners"**, no author or date, https://www.americastestkitchen.com/how_tos/6187-thickeners .
+  Read: full, direct. "When using it to thicken liquids, we first mix the cornstarch with cold or room-temperature water (or some of the liquid to be thickened) to form a slurry. If you skip this step, cornstarch will clump. Cornstarch loses its thickening ability with prolonged exposure to heat." "It is important to let the flour cook in the fat—with continual stirring—for a minute or two to eliminate the raw flour flavor. If the roux is cooked until the flour actually browns, the flour adds flavor to dishes (such as gumbo) but loses some thickening power. In any case, liquids added to the roux must be stirred in gradually for smooth incorporation and maximum thickening power." And: "Gelatin is often called on to thicken refrigerator pies and fruit desserts and is the basis for Jell-O products."
+- **ATK, "Can Potato Starch be Substituted for Cornstarch to Thicken Sauces?"**, no author or date,
+  https://www.americastestkitchen.com/how_tos/6616-can-potato-starch-be-substituted-for-cornstarch-to-thicken-sauces .
+  Read: full, direct. "The reason, our science editor explained, is that potato starch granules are four to five times larger than cornstarch granules. When potato starch granules swell in hot liquids, they take up more space, restricting the liquid’s flow more than smaller cornstarch granules, which results in a more viscous sauce." "we also noticed that while cornstarch needed to be simmered in the sauce for a couple of minutes to achieve maximum thickness, the potato starch thickened more quickly, even before the sauce came to a full simmer." "For every tablespoon of cornstarch, use 2 teaspoons of potato starch."
+- **W. S. Ratnayake and D. S. Jackson, "Starch gelatinization"**, *Advances in Food and Nutrition
+  Research* 55, 2009, 221-268, doi 10.1016/S1043-4526(08)00405-1, PMID 18772106. Read: abstract,
+  direct. "When heated in water, starch undergoes a transition process, during which the granules break down into a mixture of polymers-in-solution, known as gelatinization." "None of the published starch gelatinization theories can fully and adequately explain the exact mechanism of sequential structural changes that starch granules undergo during gelatinization."
+- **What a lesson may say:** Ruhlman's stated roux ideal is 3 parts flour to 2 of fat by weight;
+  his recipes use about 1 to 1½ tablespoons of flour per cup of liquid for a gravy or a béchamel to
+  pour, and about 3 for a béchamel to set in layers; his cornstarch sauce uses about 1 tablespoon
+  per cup. The per-cup figures are the course's division of his recipes, and are recipe quantities,
+  not tested ratios. Cornstarch thickens more per spoon than flour, must be slurried cold, and thins
+  with long heating (ATK). Starch granules take up water and swell in hot liquid (ATK; Renzetti,
+  Gate closures lesson 9); nobody has a complete account of the sequence (Ratnayake and Jackson).
+
+**The stock ratio: closed at recipe level; the book's 3:2 is still not confirmed.** No page by
+Ruhlman giving "3 parts water to 2 parts bones" was found; searches returned only summaries of the
+book and other people's blogs. Two recipes were read instead, and they give the proportions.
+
+- **Michael Ruhlman, "Easy Turkey Stock"**, ruhlman.com, published 18 November 2020, modified 12
+  January 2021, https://ruhlman.com/easy-turkey-stock/ . Read: full, direct.
+  - "This is the way I make all my stocks, bones and water in the oven overnight, finish the next day by simmering the vegetables for 45 minutes."
+  - "Roast the turkey pieces (you should have 5–6 pounds/2–3 kilos) in a hot oven". "Put the turkey bones in a big pot and cover them completely with water, 3–4 quarts/liters, and put the pot over high heat. Turn your oven to 180°–200°F/80°–90°C. When the water comes to a simmer, put the pot in the oven, uncovered, for 8 hours or overnight."
+  - "Strain into a clean pot. Cool, then refrigerate." "Reserve any fat that’s congealed on top for the roux on Thanksgiving day."
+- **Michael Ruhlman, "Turkey Stock"**, ruhlman.com, published 22 November 2013,
+  https://ruhlman.com/turkey-stock/ . Read: full, direct. "12 hours in hot but not simmering water should do the trick!" and the vegetables cooked "again without a bubble but with the pot too hot to hold your hand against".
+- **Ruhlman, "Making Stock In the Instant Pot"**, published 15 April 2020,
+  https://ruhlman.com/instant-pot-stock/ . Read: full, direct. A reader's comment reports "your ratio of 2:3:1 (chicken bones, water, veg)"; Ruhlman's own reply there says "chicken bones need to cook about 4 hours, I add the veg during the last 45 mins of cooking." A commenter's report of a ratio is not Ruhlman's statement; do not cite it as his.
+- **ATK, "Classic Chicken Broth"**, recipe, https://www.americastestkitchen.com/recipes/9481-classic-chicken-broth .
+  Read: full, direct. "4 pounds chicken backs and wings", "3 ½ quarts water", "1 onion, chopped", "2 bay leaves", "2 teaspoons salt". "Heat chicken and water in large stockpot or Dutch oven over medium-high heat until boiling, skimming off any scum that comes to surface. Reduce heat to low and simmer gently for 3 hours." Then 2 hours more with the onion. "Let broth settle for about 5 minutes, then skim off fat." "The long, slow simmer helps the bones and meat release both deep flavor and gelatin and results in a full-bodied, all-purpose broth."
+- **ATK, "Body Builder for Pan Sauces"**, Cook's Illustrated how-to,
+  https://www.americastestkitchen.com/cooksillustrated/how_tos/9823-body-builder-for-pan-sauces .
+  Read: full, direct. "We often add gelatin to stews and braises to give them a silky, rich texture that you’d otherwise get only if you started with a homemade broth (the bones and meat used to make broth contain lots of collagen, which breaks down to form gelatin)."
+- **What a lesson may say:** by weight, taking a litre of water as a kilogram and a US quart as
+  0.95 litre (the course's arithmetic), Ruhlman's turkey stock runs about 1 to 2 parts water to 1 of
+  bones (3 to 4 litres over 2 to 3 kilos, about 1.4 at the middle of both ranges) and ATK's chicken
+  broth about 1.8 (3.3 litres over 1.8 kilos). Say the book's 3:2 is reported but not read here.
+
+**The ATK stock quotation.** The pot-au-feu page's wording, rechecked under "Gate closures, lesson
+8", is the one to quote.
+
+**Cooling a big pot: the Food Code's reasons, and the 2-inch study.**
+
+- **US FDA, *Food Code 2026*** (Part B 2), PDF re-downloaded and read for § 3-501.14, § 3-501.15 and
+  their Annex 3 entries, direct.
+  - § 3-501.14 matches Part B 2.4 ("(1) Within two hours from 57ºC (135ºF) to 21ºC (70ºF); P and (2) Within a total of six hours from 57ºC (135ºF) to 5ºC (41ºF) or less.").
+  - § 3-501.15(B)(2): containers being cooled shall be "Loosely covered, or uncovered if protected from overhead contamination as specified under Subparagraph 3-305.11(A)(2), during the cooling period to facilitate heat transfer from the surface of the *FOOD."
+  - Annex 3, § 3-501.14: "Safe cooling requires removing heat from food quickly enough to prevent microbial growth. Excessive time for cooling of time/temperature control for safety foods has been consistently identified as one of the leading contributing factors to foodborne illness." The incubation range is printed with an "o" for the degree sign: "A longer time near ideal bacterial incubation temperatures, 21oC - 52oC (70oF - 125oF), is to be avoided." Then: "The initial 2-hour cool is a critical element of this cooling process. An example of proper cooling might involve cooling from 135ºF to 70ºF in 1 hour, in which case 5 hours remain for cooling from 70ºF to 41ºF or 45ºF. Conversely, if cooling from 135ºF to 41°F or 45°F is achieved in 6 hours, but the initial cooling to 70ºF took 3 hours, the food safety hazards may not be adequately controlled." And: "If the cooking step prior to cooling is adequate and no recontamination occurs, all but the spore-forming organisms such as Clostridium perfringens or Bacillus cereus should be killed or inactivated."
+  - Annex 3, CFSAN/FSIS joint position paper: "this heat treatment does not eliminate spores of Clostridium botulinum and Clostridium perfringens and other spore-forming bacteria. Furthermore, these organisms can thrive in the warm product since other competing organisms have been eliminated." "When there is inadequate cooling, spores can germinate and the resulting vegetative cells can multiply to hazardous levels."
+  - Annex 3, § 3-501.15: "Large food items, such as roasts, turkeys, and large containers of rice or refried beans, take longer to cool because of the mass and volume from which heat must be removed. By reducing the volume of the food in an individual container, the rate of cooling is dramatically increased and opportunity for pathogen growth is minimized. If the hot food container is tightly covered, the rate of heat transfer is reduced, i.e., the time required for cooling and the time the food is exposed to optimal temperatures for bacterial multiplication or toxin production are increased." And: "Commercial refrigeration equipment is designed to hold cold food temperatures, not cool large masses of food." On (A)(7): "It is recommended that one or more methods be used to achieve cooling".
+  - The Food Code is written for restaurants and retail, not homes (Part B 2).
+- **N. Koreen, W. C. Baldwin and D. W. Schaffner, "Cooling Uncovered Foods at a Depth of ∼5.1 cm
+  (2 in.) or Less Poses Little Risk of Pathogen Growth"**, *Journal of Food Protection* 87(10), 2024,
+  100356, doi 10.1016/j.jfp.2024.100356, PMID 39241915. Read: abstract, direct. The Food Code's
+  supporting reference for the 2026 change.
+  - Minneapolis health inspectors logged cooling; "Data from 224 recipes were recorded by inspectors between October 2018 and October 2019." "Food depth had a highly significant effect (p = 8.90E-08) on cooling rate. The use of an ice bath or ice wand was also significant (p < 0.005)."
+  - "Foods in shallow containers at a food depth of less than or equal to ∼5.1 cm (2 in.) that cooled more slowly than 0.23 log(°C)/h were being cooled at temperatures greater than 5 °C (41°F) or were partially or wholly covered." "Our analysis shows that cooling foods in shallow containers at a food depth of less than or equal to ∼5.1 cm (2 in.) poses little risk of significant pathogen growth."
+  - Pathogen growth was predicted with "Preexisting pathogen models" for C. perfringens or B. cereus, not measured. The foods were restaurant foods, cooled in restaurant equipment.
+- **FDA Bad Bug Book, *Clostridium perfringens* chapter** (Part B 5.3), re-read (pdftotext), direct.
+  Part B's quotations match, and the sentence Part B flagged reads in full: "Spores of some C. perfringens strains can survive boiling water for an hour or longer in a relatively protective medium (e.g., a cooked-meat medium)." The qualifier ("some strains", "a relatively protective medium") must stay with it. The chapter also lists "Mexican foods" among "important vehicles", beside "Meats (especially beef and poultry), meat-containing products (e.g., gravies and stews)". Consumer box: "After food is cooked, the spores can turn into full‐fledged bacteria as the food cools – and here’s the most important part: these bacteria multiply much faster than do most other kinds of bacteria." "Refrigerating food within a couple of hours of cooking, or sooner, slows down the bacteria and greatly lowers your chance of illness." The mild illness "generally lasts 12 to 24 hours"; the CDC estimate the chapter gives (965,958 cases a year) is from 2011 and is not current (Part B 4.1).
+- **FSA, "Clostridium perfringens"**, GOV.UK, https://www.gov.uk/government/publications/clostridium-perfringens/clostridium-perfringens ,
+  published 25 June 2026 (Content API). Re-read in full, direct. Part B 3.6 matches. The fuller
+  sentences: "These bacteria can develop spores which can survive cooking and grow during slow cooling and unrefrigerated storage. These spores can make you ill." "Outbreaks of C. perfringens food poisoning tend to happen in settings where large groups of people and/or food are being served and where keeping food at safe temperatures may be difficult. This also applies to batch cooking at home where you may leave food out to cool longer than you intended while preparing other food." "if you are keeping leftovers, cool them within 2 hours and place them in the fridge or freezer - you can cool food more quickly by separating it into smaller portions". "make sure food isn’t left out for more than 4 hours (less on a very warm day) and keep it out of direct sunlight". "chill your food below 5°C - storing foods at this temperature will stop or significantly slow the growth of bacteria". Higher risk: "young children, pregnant women, people with an underlying health condition (e.g. cancer, diabetes, liver and kidney disease) and older people."
+
+**Dashi.** Lesson 3 promised a return to glutamate in stocks; no dashi source was in the file.
+
+- **Ole G. Mouritsen, Lars Williams, Rasmus Bjerregaard and Lars Duelund, "Seaweeds for umami
+  flavour in the New Nordic Cuisine"**, *Flavour* 1, article 4, 21 March 2012, doi
+  10.1186/2044-7248-1-4, CC BY 2.0. Read: full text, direct, from the Internet Archive's capture of
+  2 August 2025 of the BioMed Central page. A research paper from a university biophysics centre and
+  the Nordic Food Lab, which its acknowledgements say was funded partly by "private companies"; its
+  classic-dashi figures cite unpublished data from the Umami Information Center.
+  - "Dashi is made by a warm extract of the large brown Japanese seaweed konbu (Saccharina japonica). This extract is called konbu dashi. To the konbu dashi is then added a particular, highly processed fish product, katsuobushi, leading to the so-called first dashi (ichiban dashi). Ikeda discovered that konbu contains about 2 to 3 g of free MSG per 100 g dry weight of konbu [1]."
+  - The method: "the recipes used generally prescribe soaking the dry konbu in water at room temperature (typically using 10 g of dry konbu per litre of water) for about half an hour, heating it in an open pan to just below the water boiling point at 100°C and then quickly removing the konbu from the water before bitter-tasting compounds seep out." "It is well-known that keeping the konbu in the boiling dashi leads to an unpleasantly bitter flavour." "More recently, the classic Japanese recipe has been optimised to provide a better flavour and a clearer dashi by heating the solution to only 60°C (as in the present work), but still in an open pan [37]."
+  - A traditional dashi "contains about 20 to 30 mg of glutamate per 100 g of aqueous dashi extract."
+  - Synergy: inosinate and guanylate "in a synergistic fashion potentiate the receptor's sensitivity to glutamate." "Kuninaka discovered that guanylate from dried shiitake mushrooms or inosinate from katsuobushi enter a synergistic relationship with glutamate from konbu. These synergies underlie classic preparations of dashi [15]."
+  - Meat-free: "In the strictly vegetarian temple kitchen, shōjin ryōri, also known as 'the enlightened kitchen' [34], deriving from 12th-century Japan, katsuobushi is replaced by dried shiitake. Konbu provides glutamate and shiitake provides guanylate to replace inosinate from katsuobushi." "Konbu does not contain any of the 5'-ribonucleotides that enter synergistically with glutamate in umami."
+  - Body: konbu "secretes much less polysaccharide than sugar kelp when extracted from water, and the resulting dashi is light in colour with a fluidity similar to that of pure water."
+  - Western pairings: "synergy in umami sensation is used extensively in Western food pairing, such as tomatoes with anchovies, vegetables with meat, eggs with bacon, green peas with scallops, and so on."
+  - Its own finding (sealed-bag extraction gave more glutamate) is about a lab method and is not needed.
+
+**Vinaigrette.**
+
+- **Ruhlman, *Ratio*, the publisher's description on Goodreads**,
+  https://www.goodreads.com/book/show/3931154-ratio , re-read, direct. Part A 1.4's fetch-tool
+  quotation matches: "Vinaigrette is 3:1, or 3 parts oil to 1 part vinegar, and is one of the most useful sauces imaginable, giving everything from grilled meats and fish to steamed vegetables or lettuces intense flavor." (Part A 1.4 records that the book's ratios are by weight.)
+- **ATK, "Foolproof Vinaigrette"**, recipe, https://www.americastestkitchen.com/recipes/4887-foolproof-vinaigrette .
+  Read: full, direct. "1 tablespoon wine vinegar", "1 ½ teaspoons very finely minced shallot", "½ teaspoon regular or light mayonnaise", "½ teaspoon Dijon mustard", "⅛ teaspoon table salt", "3 tablespoons extra-virgin olive oil". "To come up with a well-balanced vinaigrette recipe that wouldn’t separate, we chose high-end oil and vinegar and whisked them together with a little mayonnaise, which acts as an emulsifier." "Whisking constantly, very slowly drizzle oil into vinegar mixture. If pools of oil are gathering on surface as you whisk, stop addition of oil and whisk mixture well to combine, then resume whisking in oil in slow stream. Vinaigrette should be glossy and lightly thickened, with no pools of oil on its surface."
+- **ATK, "Keep Vinaigrette Emulsified With. . . Molasses?"**,
+  https://www.americastestkitchen.com/articles/4272-keep-vinaigrette-emulsified-with-molasses . Read:
+  full, direct. "But no matter how carefully the oil is whisked into the other ingredients, it never stays emulsified for long." "It calls upon mustard and mayonnaise—two common emulsifiers in salad dressings that can hold a vinaigrette together for a little while. But the real key to the recipe’s longevity is molasses." "It works because molasses contains large compounds called melanoidins that increase the viscosity of the emulsion and make it difficult for the oil droplets to coalesce and separate from the water." The recipe: ¼ cup vinegar to ¾ cup oil in total, refrigerated "for up to 1 week" (the recipe page, https://www.americastestkitchen.com/recipes/8710-make-ahead-vinaigrette , read direct).
+- **Jacques Pépin, "How to Make Vinaigrette Salad Dressing: Jacques Pépin Techniques | KQED"**,
+  channel KQED Food, https://www.youtube.com/watch?v=-BJfsqzmeYg . Metadata only (oEmbed and page
+  data, direct): 159 seconds; the description says he "claims it is much better than commercial salad dressing which typically has 25% sugar". Not watched.
+- **What a lesson may say:** Ruhlman's 3:1 and both ATK recipes agree (ATK's are 3 to 1 by
+  volume); mustard and mayonnaise are the emulsifiers ATK uses, and ATK says an ordinary
+  vinaigrette separates in time however it is whisked. Part C 8c's "honey helps it hold" has no
+  source here; not printed.
+
+**Also read, not used:** the C&G handbook's "chill to below 5°C within 90 minutes" (Part A 3.6) is a
+UK professional-qualification standard; a lesson may give it as that, beside the FSA's consumer
+advice, and not as UK law.
