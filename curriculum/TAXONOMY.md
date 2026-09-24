@@ -207,7 +207,7 @@ The map is deliberately ambitious. Most courses are `planned`. The point of writ
 
 | Course | Level | Status | Path | Notes |
 |---|---|---|---|---|
-| Nutrition: The Evidence | Foundation | research | T3 | Separating settled science from fads. |
+| Nutrition: The Evidence | Foundation | drafting | T3 | Separating settled science from fads. |
 | Strength and Fitness | Foundation | planned | T3 | Programming, technique, progression. |
 | Sleep | Foundation | published | T2 | What sleep is measured with, what controlled restriction actually does, and how to read the confident claims. Sixth in the term on running yourself, after Memory, because the sleep literature's best-known findings are memory findings. |
 | First Aid and CPR | Foundation | planned | T3 | Aligned to Red Cross / AHA guidance. |
