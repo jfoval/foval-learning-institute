@@ -225,7 +225,7 @@ The map is deliberately ambitious. Most courses are `planned`. The point of writ
 | Emergency Preparedness | Foundation | planned | T24 | Household, natural disasters, grid-down basics. |
 | Navigation and Map Reading | Foundation | planned | T24 | |
 | Home Repair and Maintenance | Foundation | planned | T3 | |
-| Cooking Fundamentals | Foundation | research | T3 | Technique over recipes. |
+| Cooking Fundamentals | Foundation | drafting | T3 | Technique over recipes. |
 | Car Basics | Foundation | planned | T3 | How it works, what to check, what you can fix. |
 | Gardening and Growing Food | Foundation | planned | T23 | |
 | Tools and Making Things | Foundation | planned | T23 | Wood, metal, basic fabrication. |

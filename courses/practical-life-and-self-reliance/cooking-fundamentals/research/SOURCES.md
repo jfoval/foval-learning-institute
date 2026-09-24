@@ -1,0 +1,2029 @@
+# Sources: Cooking Fundamentals
+
+<!-- unread: On Food and Cooking, Food Lab, Professional Chef, Complete Techniques, Science of Good Cooking, My Bread, Understanding Food, Bittman, Verhoeven, Augustin -->
+
+*Stage 1 research, 2026-09-24. Written before any lesson is drafted, by four researchers working in
+parallel, each in a fresh context, each on one part of the subject (Parts A to D below), and
+brought together here. For each source: what it is good for, what it establishes, and exactly how
+much of it was read. All dates read are 2026-09-24.*
+
+**How to read the quotation marks.** Each part says how its quotations were taken, and the
+distinction matters to a drafter. Part B took every quotation from text it downloaded itself
+(curl, PDF-to-text, or the GOV.UK Content API). Parts A, C and D mark quotations one of two ways:
+copied from text the researcher extracted directly ("direct" in Part A, [V] in Part C), or returned
+by a summarising fetch tool ("fetch tool" in Part A, [T] in Part C), which is a small model and
+**must be re-checked against the page before it goes into a lesson**. Nothing from a search-result
+snippet is in quotation marks anywhere in this file. Where a part says "snippet only", nothing from
+that item may be stated in a lesson as a finding.
+
+**Three access problems shaped this research, and a drafter inherits them.**
+1. **Serious Eats blocks automated readers** (HTTP 402 and 451, with a message that the owner has
+   asked for automated access to stop). Nobody routed around it. So J. Kenji López-Alt's and Daniel
+   Gritzer's Serious Eats articles, the most cited home-cooking science on the web, are read here
+   only through the publisher's own syndicated copies on AOL and Yahoo, through secondary reports,
+   and through Kenji's own YouTube videos. Any lesson leaning on a specific Serious Eats number must
+   have that number read in a browser first, and Parts A and C name which ones are snippet-level.
+2. **FSIS, foodsafety.gov and CDC refused automated access** (HTTP 403). Part B read every one of
+   them through Internet Archive captures from August and September 2026 and gives the capture
+   date. FDA PDFs came straight from fda.gov.
+3. **The UK Food Standards Agency has moved its consumer pages to GOV.UK.** Old food.gov.uk URLs for
+   rice, leftovers, the 4Cs and chicken no longer resolve. Cite the GOV.UK URLs in Part B.
+
+**The `unread:` line is the build's enforcement.** It names works a reader of this course is likely
+to have met and that **were not opened for this course beyond a catalogue record**: McGee's *On
+Food and Cooking*, López-Alt's *The Food Lab*, the CIA's *The Professional Chef*, Pépin's *Complete
+Techniques*, ATK's *The Science of Good Cooking*, Lahey's *My Bread*, Brown's *Understanding
+Food*, Bittman's 2006 no-knead column, Verhoeven's knife-sharpening experiments, and Augustin et al.
+1992 on alcohol retention (whose numbers are cited here from the USDA table that reproduces them,
+which was read in full). **The line names the books by title, not by author**, because McGee's 2009
+*New York Times* pasta column and Ruhlman's own blog posts *were* read in full, and an author-name
+entry would block them. Two consequences for a drafter: a lesson may not name those titles at all
+(the build matches the words), and Kenji's YouTube video titled "The Food Lab: How to Roast the
+Best Potatoes of Your Life" must be linked with a label that leaves out those two words. Samin
+Nosrat's *Salt, Fat, Acid, Heat* and Ruhlman's *Ratio* are **not** on the line: their catalogued
+contents, the publisher's description and the author's own words elsewhere (Nosrat's NPR interview,
+read in full; Ruhlman's blog, read directly) were read, which is enough to name the book and its
+organising idea. Nothing beyond that may be attributed to either book. Whoever reads one of the
+listed books properly should record which chapters here and remove it from the line, using the
+`(except NN)` form if only some lessons are covered.
+
+**Boundaries with other Core courses, settled here so no lesson re-opens them.**
+- **Nutrition: The Evidence** (T3, two courses before this one) owns every health claim about food:
+  salt and blood pressure, saturated fat, processed and red meat, sugar, ultra-processed food,
+  supplements, alcohol and health. **This course makes no health claim about what to eat.** When
+  salt comes up in the seasoning lesson, one sentence points to Nutrition lesson 7 ("Salt and
+  sugar"); when processed meat or browning comes up, Nutrition lesson 8 ("Processed food and meat").
+  Nutrition did **not** research food safety (its SOURCES.md covers pregnancy food rules only as a
+  pointer), so **food safety belongs to this course**, and Part B is its research.
+- **First Aid and CPR** comes later in this term and owns treating injuries. This course teaches
+  prevention (knife handling, grease fires, steam) and gives only the one-line first response for a
+  kitchen burn and a cut, in the words of the NHS and Red Cross pages Part D read, then points
+  there.
+- **Home Repair and Maintenance** owns the appliance itself; **Emergency Preparedness** owns food
+  storage for outages and home canning. This course gives the CDC's single instruction on canning
+  (use the USDA *Complete Guide to Home Canning* and nothing else) and stops.
+
+---
+
+## The first things Stage 1 found, and they shape the course
+
+1. **Safety is time plus temperature, and the famous single numbers are shortcuts.** The consumer
+   chart's 165°F for poultry is the temperature at which a 7-log Salmonella kill is *instant*; the
+   FSIS cooking guideline tables show the same kill at 145°F held for about 8 to 13 minutes,
+   depending on fat (Part B 6.1). The FDA Food Code 2026 gives a beef roast 112 minutes at 130°F or
+   4 minutes at 145°F for the same lethality (Part B 2.1), and the UK's rule is itself a time pair,
+   70°C for 2 minutes, with equivalents from 60°C for 45 minutes to 80°C for 6 seconds (Part B 3.1).
+   **Teach the principle once and every rule after it makes sense**, including why a sous-vide
+   chicken breast at 60°C can be safe and why a quick 150°F reading on a grill is not.
+2. **Most of the classic kitchen rules that experts correct are about moisture and heat, and they
+   share one mechanism.** Wet surfaces cannot rise above 100°C until they dry, fast browning needs
+   roughly 140°C and more (Part C 6), so patting meat dry, not crowding the pan, and salting either
+   right before cooking or well ahead are the same lesson. Searing does not seal in juices (ATK's
+   test: about 22% loss either way, Part C 1). Resting is temperature control, not juice
+   reabsorption (Gritzer 2025, Part C 2).
+3. **The US and UK disagree on more of the home rules than a reader would guess**, and a lesson
+   written from one country's pages will mislead the other's readers (Part B 7). The largest: how
+   "done" is judged (thermometer in the US; visual cues first in the UK), pork (145°F and pink is
+   fine; cooked through with no pink), hot food into the fridge (allowed; don't), leftovers (3 to 4
+   days; 48 hours), reheating (no limit; "only ever reheat once"), raw eggs (cook firm; British
+   Lion eggs safe raw even for vulnerable groups), and rice (general rules; cool within an hour and
+   eat within 24 hours). **Both are official, and neither is wrong for its own food system.** The
+   course must present both, say where they come from where the sources say so, and never pick one
+   silently.
+4. **The syllabi agree on an order** (Part A, final section): safety, tasting, knife and equipment,
+   mise en place and ratios, heat, stocks and sauces, dry then moist methods, vegetables, eggs,
+   starches, proteins, bread. The leading professional text reorganised itself around cooking
+   *method* in its 10th edition (2024), having been organised by food in the 9th (Part A 1.5). That
+   is independent support for this course's "technique over recipes" framing.
+5. **The headline numbers most people repeat have moved.** CDC's current burden estimate is 9.9
+   million illnesses from seven pathogens (2025), not the older 48 million from all causes, and CDC
+   says the two cannot be compared (Part B 4.1). The FDA Food Code has a 2026 edition, published a
+   week before this research (Part B 2). The FSA is mid-way through replacing its 2.4 million UK
+   cases estimate, with new models due by early 2027 (Part B 4.3). **Quarantine each dated figure**
+   in a lesson so a later session can update it without re-opening the teaching.
+
+---
+
+## What each part holds, and which lessons it serves
+
+- **Part A, canonical texts and syllabi.** Catalogued tables of contents for Nosrat, López-Alt,
+  McGee, Ruhlman (with the ratios seen on his own blog), the CIA's *The Professional Chef* 10th
+  edition (full chapter list from Wiley's PDF), Pépin, and ATK's *The Science of Good Cooking* (its
+  50 concepts, a curriculum in themselves). Nosrat's NPR interview, read in full. Syllabi: Harvard
+  SPU27 in three runs, MIT Kitchen Chemistry, HKUST's Science of Gastronomy, CIA CULS-100 Culinary
+  Fundamentals (the best single statement of a first cooking course), Le Cordon Bleu Basic Cuisine,
+  City & Guilds 7100-12 Level 2 (read in full), ProStart, Leiths Essential Cooking (24 weeks),
+  Ballymaloe. Free courses and **verified** YouTube URLs (Pépin's KQED technique videos, ATK, Kenji).
+  Serves every lesson's framing and the Go deeper lists.
+- **Part B, food safety.** FSIS temperature chart, danger zone, leftovers, thawing, washing food,
+  thermometers, doneness versus safety, slow cookers; the USDA 2019 poultry-washing study; CDC on
+  prevention, chicken, raw flour, Listeria and the burden of illness; FDA Food Code 2026 cooking,
+  reheating, thawing, cooling and holding sections with the roast table; FSA pages on cooking,
+  chilling, cross-contamination, Campylobacter, rice, C. perfringens and rare burgers; NHS on food
+  poisoning; the FDA Bad Bug Book chapters on kidney beans, Bacillus cereus and C. perfringens;
+  botulism in garlic oil and home canning; the FSIS 2021 cooking guideline tables and Baldwin's sous
+  vide guide; the US against UK table. Serves the safety lesson and every lesson that cooks meat,
+  eggs, rice, beans or stock.
+- **Part C, myths and the science of technique.** Searing, resting, salting ahead, beans, pasta
+  water (McGee 2009 read in full), oil in pasta water, boiling point (calculated), alcohol retention
+  (USDA table read in full), MSG (FSANZ 2003 read in full; Geha 2000; FDA), Maillard and
+  caramelisation, heat transfer coefficients and pan materials, starch and rice (with the FDA's
+  rinsing and arsenic study), eggs, emulsions, gluten and no-knead bread, stock, pan sauces, knife
+  sharpness (McGorry 2003), mushrooms, avocado pits, room-temperature meat, flipping, cast iron and
+  soap (Lodge), microwaves (FDA), wooden against plastic boards (Ak, Cliver and Kaspar 1994).
+  Serves the heat, seasoning, method, egg, grain, stock and bread lessons.
+- **Part D, physical safety and contested questions.** Knife handling and cuts, grease fires and
+  burns, and the contested and confused questions: nonstick coatings and PFAS, cast iron, gas stoves
+  and indoor air, rare burgers and pink pork, washing chicken in its practitioners' terms, aluminium
+  and acrylamide, cutting boards, and date labels. Serves the knife, heat and safety lessons.
+
+---
+
+## Canonical textbooks
+
+Full entries, with what was read and where, are in Part A 1. In short:
+
+- **Samin Nosrat, *Salt, Fat, Acid, Heat* (Simon & Schuster, 2017).** Not a university text, but the
+  book most often recommended to a home cook who wants to cook without recipes, and the closest in
+  shape to this course: four chapters of principle, then "What to cook", then recipes grouped by
+  kind of food, with an index of "cooking lessons" pointing back from principle to recipe. Read: the
+  catalogued contents (Internet Archive, UW-Madison) and the publisher's description, plus her NPR
+  *Fresh Air* interview in full (Part A 2.1), which gives her own plain statement of salt's
+  mechanism, of salt brands differing by about twice by volume, and of fat as texture and carrier.
+  **Best for** the seasoning lesson's framing. Nothing beyond that may be attributed to the book.
+- **J. Kenji López-Alt, *The Food Lab* (Norton, 2015).** Nine chapters organised by technique and
+  food, with front matter on energy against temperature. Catalogue contents only; **on the unread
+  line.** His ideas reach this course through his videos (verified URLs in Part A 4) and through
+  syndicated and secondary reports of his Serious Eats articles (Part C).
+- **Harold McGee, *On Food and Cooking*, revised edition (Scribner, 2004).** The reference work of
+  the field and the set text for Harvard's SPU27 (Part A 3.1). Organised by ingredient, with
+  cooking methods, pan materials and the four food molecules at the end. Catalogue contents only;
+  **on the unread line.** His 2009 *New York Times* column on pasta water was read in full (Part C
+  3d) and may be cited.
+- **Michael Ruhlman, *Ratio* (Scribner, 2009).** Thirty-three ratios by weight; the bridge from
+  recipes to formulas. Contents from the catalogue; the bread (5:3), pasta dough (3:2 flour to egg)
+  and pancake ratios read on his own blog; vinaigrette 3:1, pie dough 3-2-1, biscuit 3:1:2 and
+  cookie 1:2:3 through a fetch-tool digest of the book's description; the stock ratio (3:2 water to
+  bones) **snippet only** (Part A 1.4). **Best for** the final lesson.
+- **The Culinary Institute of America, *The Professional Chef*, 10th edition (Wiley, 2024).** Full
+  chapter list read from Wiley's own contents PDF (Part A 1.5): 31 chapters in seven parts, with
+  essential cooking techniques ordered dry-heat first (grill, roast, sauté, pan fry, deep fry) then
+  moist and combination (steam, braise and stew, shallow poach, deep poach and simmer and boil). The
+  9th edition (2011) was organised by food; the 10th by method. Chapter 1 excerpt (the brigade
+  system) read directly. The body of the book was not read; **on the unread line.**
+- **Jacques Pépin, *Complete Techniques* (2001) and *New Complete Techniques* (2012).** Chapter list
+  from a review only (Part A 1.6); **on the unread line.** His KQED technique videos are the best
+  free substitute and are verified (Part A 4).
+- **America's Test Kitchen and Guy Crosby, *The Science of Good Cooking* (2012).** Its 50 numbered
+  "concepts", read from the catalogue record in full (Part A 1.7), are the best single list of
+  home-cooking principles in print, and a good checklist for the outline. Two of them are now
+  qualified by later testing: concept 3 ("Resting meat maximizes juiciness", Part C 2) and concept
+  32 (chile heat in "pith and seeds"). The body was not read; **on the unread line.**
+
+## University syllabi consulted
+
+Full entries in Part A 3.
+
+- **Harvard SPU27 / HarvardX, *Science and Cooking*** (Brenner, Sörensen, Weitz). Three syllabi read
+  in full as PDFs. Chemistry half: food components and flavour, energy and temperature and heat,
+  phase transitions, diffusion (salting, curing, spherification), heat transfer, candy and
+  chocolate. Physics half: elasticity, viscosity, emulsions and foams, phase behaviour (ice cream),
+  enzymes (browning), baking. Set text McGee. **Notable choice:** energy and temperature come before
+  any method, and diffusion is where salting lives.
+- **CIA AOS, CULS-100 Culinary Fundamentals** (course description read directly): "tasting, kitchen
+  equipment, knife skills, classical vegetable cuts, stock production, thickening agents, soup
+  preparation, grand sauces, timing and multi-tasking, station organization, palate development,
+  culinary terms, and food costing", then basic protein, starch and vegetable cookery, with "ratios
+  and formulas". Tasting is listed first.
+- **City & Guilds 7100-12 Level 2 Diploma in Professional Cookery** (handbook v1.6 read in full):
+  food safety first; stocks, soups and sauces the first cooking unit; every food unit split into
+  "Wet" and "Dry" methods; stock chilled "to below 5°C within 90 minutes".
+- **Le Cordon Bleu Basic Cuisine; ProStart; Leiths Essential Cooking (24 weeks); Ballymaloe; MIT
+  Kitchen Chemistry; HKUST Science of Gastronomy.** Leiths is the fullest home-cook sequence: knife
+  skills, then knife skills and seasoning, then eggs, in its first three weeks. HKUST starts with
+  heat transfer, then taste, smell, sight and touch, which suits the seasoning lesson.
+
+## Primary sources
+
+The primary sources this course actually rests on are regulators' texts and a handful of
+experiments, not literature. All in Parts B to D:
+
+- **FDA Food Code 2026** (released 17 September 2026) §§ 3-401.11 (cooking, with the roast
+  time-temperature table), 3-403.11 (reheating), 3-501.13 (thawing), 3-501.14 and 3-501.15
+  (cooling, including the new 2-inch uncovered method), 3-501.16 (holding), 3-603.11 (consumer
+  advisory), and Annex 3 on why. PDF read directly. Part B 2.
+- **FSIS Cooking Guideline for Meat and Poultry Products (Revised Appendix A), December 2021,**
+  Tables 2 to 4: the time needed at each temperature for a 6.5-log or 7-log Salmonella kill in meat,
+  chicken and turkey, by fat. Read in full from a state mirror. Part B 6.1.
+- **FDA Bad Bug Book, 2nd edition (2012):** the chapters on kidney bean lectin, Bacillus cereus and
+  Clostridium perfringens, read in full. Part B 5.
+- **USDA Table of Nutrient Retention Factors, Release 6 (2007):** the alcohol retention figures,
+  85% down to 5%. Read in full. Part C 4.
+- **The USDA 2019 poultry-washing study** (press release, read) and **Shumaker et al. 2022, J Food
+  Prot** (its peer-reviewed form, abstract read). Parts B 1.7 and D 3e.
+- **FSANZ, *Monosodium Glutamate: A Safety Assessment* (2003),** read in full, and **Geha et al.
+  2000** (abstract): the double-blind MSG evidence. Part C 5.
+- **Ak, Cliver and Kaspar 1994** and **Cliver 2006** on cutting boards (abstracts). Part C 10i.
+- **McGorry, Dowd and Dempsey 2003** on knife sharpness and grip force (abstract). Part C 9.
+- **Gray et al. 2016 (FDA)** on rinsing and cooking rice in excess water: arsenic and enriched
+  vitamins (abstract). Part C 8a.
+- **McGee, "How Much Water Does Pasta Really Need?", NYT 2009,** read in full. Part C 3d.
+
+## Expert bodies and official guidance
+
+- **US:** USDA FSIS (temperature chart, danger zone, leftovers, thawing, washing food, thermometers,
+  doneness versus safety, slow cookers, deep-fat frying, cutting boards, product dating);
+  foodsafety.gov (four steps, temperature chart); CDC (prevention, chicken, raw flour, Listeria,
+  burden, home-canned foods); FDA (Food Code, Bad Bug Book, MSG Q&A, microwave ovens, PFAS in food
+  contact); EPA (PFOA stewardship, indoor air while cooking, hot tap water and lead); NFPA, USFA and
+  CPSC on cooking fires; OSHA on knives; American Red Cross on burns; NCHFP on garlic in oil.
+- **UK:** Food Standards Agency, now on GOV.UK (cooking, chilling and defrosting, cross-contamination,
+  Campylobacter, the home food fact checker for rice and eggs and beans, C. perfringens, burgers and
+  the business guidance on less-than-thoroughly-cooked burgers, acrylamide, date labels); NHS (food
+  poisoning, burns and scalds, baby weaning storage); London Fire Brigade on pan fires; Alzheimer's
+  Society on aluminium; Cancer Research UK on burnt toast.
+- **Europe and elsewhere:** EFSA on PFAS (2020) and acrylamide (2015); ECHA's PFAS restriction
+  process (not adopted as of this date); FSANZ on MSG.
+
+---
+
+## What the field considers essential
+
+The ideas an expert would say a first cooking course must cover, in the order they build. It
+follows the syllabi's common skeleton (Part A, final section) with two changes that the home-cook
+curricula and the science courses both support: heat is taught explicitly and early, and eggs come
+early as the model protein.
+
+1. **The workspace and the knife.** Mise en place; a stable board; pinch grip and claw; the
+   classical cuts as sizes that cook evenly, not as ornament; honing against sharpening; letting a
+   falling knife fall (Parts A 3, C 9, D 1).
+2. **Heat: how it moves into food and what it does there.** Conduction, convection, radiation;
+   temperature against rate of heat transfer (why 200°C air is gentler than 100°C water, Part C 7);
+   pan materials; water's 100°C ceiling; Maillard browning from about 140°C; protein setting,
+   collagen melting, starch swelling as the four changes a cook is steering (Parts A 3.1, C 6 to 8).
+   Fire and steam safety belong here (Part D 2).
+3. **Tasting and seasoning.** Salt by taste and by weight, with brands differing about twofold by
+   volume; salt's timing on meat; acid for brightness; fat as texture and carrier; umami and
+   glutamate; adjusting as you go (Parts A 2.1, C 3 and 5). The CIA lists tasting first.
+4. **Food safety that changes what you do.** Where the bacteria are (surface of whole cuts, through
+   mince and poultry); time plus temperature; the thermometer; cross-contamination and the order of
+   work; cooling large batches; leftovers, rice and reheating; thawing; kidney beans and raw flour;
+   US against UK (Part B, all).
+5. **Dry-heat methods.** Sauté and sear, pan-roast, roast, grill and broil, shallow and deep fry;
+   drying the surface; not crowding; flipping; carryover and resting as temperature control;
+   fond and the pan sauce (Parts A 1.5, C 1, 2, 6, 8f).
+6. **Moist-heat and combination methods.** Boil, simmer, poach, steam, blanch; braise and stew,
+   and why tough cuts need long moist heat (collagen to gelatin); pasta water (Parts A 1.5, C 3, 8e).
+7. **Eggs.** The set temperatures of white and yolk as the clearest demonstration of gentle heat;
+   boiled, scrambled, fried, poached, omelette; the emulsion (mayonnaise) (Parts A 3.9, C 8b, 8c).
+8. **Starches: rice and grains, beans, pasta.** Gelatinisation; absorption against excess-water
+   cooking; rinsing; salting beans; the kidney bean rule (Parts B 5.1, C 3, 8a).
+9. **Stocks and sauces.** Stock and gelatin; simmer, don't boil; cooling a big pot safely; pan
+   sauces, roux-thickened sauces, emulsified sauces, vinaigrette (Parts A 3.4 and 3.6, B 5.3, C 8c
+   to 8f).
+10. **Bread.** Flour, water, salt, yeast; gluten; time as a substitute for kneading; the ratio and
+    baker's percentages (Parts A 1.4, C 8d).
+11. **Cooking from technique rather than recipe.** Ratios; reading a recipe for its method;
+    planning a week around a few methods and a batch of stock or grains, with the storage rules
+    that make it safe (Parts A 1.4, B 1.4).
+
+---
+
+## Common misconceptions
+
+Each is sourced in its part, with the strength of the evidence given there.
+
+- **"Searing seals in juices."** Seared meat loses as much moisture or more; ATK's eight-steak test
+  found about 22% either way. Searing is for flavour (Part C 1).
+- **"Resting lets the juices redistribute."** When final temperature is matched, rested and
+  unrested meat lose about the same juice; resting is a way of managing carryover (Gritzer, Serious
+  Eats 2025, via syndication; Part C 2). Recent, and from one publication plus Chris Young: teach it
+  as the current best view.
+- **"Never salt beans until the end."** Salted soaking water gives softer skins (ATK, Part C 3b).
+  Acid does slow softening, but that claim still needs a source.
+- **"Salt the pasta water like the sea."** The sea is about 3.5%; cooks use roughly 0.5 to 2%
+  (NOAA, ATK; Part C 3c).
+- **"Pasta needs a big pot of water"** and **"oil stops pasta sticking."** Neither (McGee 2009 read
+  in full; ATK 2023; Part C 3d, 3e).
+- **"Salt makes water boil faster."** It raises the boiling point by about 0.1 to 0.4°C at cooking
+  strength (Part C 3g, calculated).
+- **"The alcohol cooks off."** Between 85% and 5% remains, depending on method and time (USDA table;
+  Part C 4). The often-repeated "85% when flamed" is wrong: 85% is for alcohol stirred into boiling liquid and
+  taken off the heat; flaming keeps 75%.
+- **"MSG makes people ill."** Not supported by double-blind challenge; FDA treats it as GRAS; the
+  most the evidence allows is a small, unreproducible effect from 3 g or more taken without food
+  (Part C 5).
+- **"Bring meat to room temperature first."** A thick steak warms by less than 2°F in 20 minutes
+  (Kenji, via secondary report; Part C 10e), and two hours out breaks the 2-hour rule.
+- **"Flip a steak only once."** Frequent flipping cooks faster and more evenly (Part C 10f;
+  secondhand, check before quoting numbers).
+- **"Never use soap on cast iron."** The maker says mild soap is fine; soaking, the dishwasher and
+  long acidic simmers are what harm it (Lodge; Parts C 10g, D 3b).
+- **"Plastic boards are more hygienic than wood."** Not supported; either, kept clean, with a
+  separate board or strict order for raw meat (Parts C 10i, D 3g).
+- **"Microwaves cook from the inside out and destroy nutrients."** Neither (FDA; Part C 10h).
+- **"Wash raw chicken to make it safe."** Washing does not remove bacteria; cooking does. But the
+  USDA study found non-washers contaminated salad about as often (31% against 26%), so the real
+  lesson is hands, sink and order of work (Parts B 1.7, D 3e).
+- **"You can tell chicken or a burger is done by its colour."** FSIS: ground beef can brown before
+  it is safe; only a thermometer tells (Part B 1.9). Note the UK still leads with visual cues.
+- **"Reheating rice is what makes it dangerous."** FSA: "It's not the reheating that causes the
+  problem, but the way the rice has been stored" (Part B 3.4).
+- **"Boil kidney beans for 10 minutes."** That is the UK advice (snippet only); the FDA tells
+  consumers at least 30 minutes; both say never in a slow cooker from raw (Part B 5.1).
+- **"Put hot food in the fridge and you'll spoil the fridge"** against **"never leave food out to
+  cool."** The US says hot food can go straight in; the UK says cool it first and refrigerate
+  within one to two hours; both are after fast cooling (Part B 7).
+- **"Throw water, flour or a wet towel on a pan fire."** Never water or flour; the damp-towel advice
+  is no longer given in the UK (snippet level for the date) (Part D 2a).
+- **"Butter or ice on a burn."** Neither; 20 minutes of cool running water (NHS, Red Cross; Part D 2b).
+- **"A dull knife is safer."** Professional consensus and ergonomics research say the opposite, on
+  mechanism rather than injury counts (Parts C 9, D 1).
+- **"A 'use by' and a 'best before' date mean the same."** In the UK, use-by is a safety limit and
+  best-before is quality; in the US, apart from infant formula, dates are not federally required and
+  are not safety indicators (Part D 3h).
+
+---
+
+## Contested questions and the positions on each
+
+Classified under standards 3.1. Full statements of each side, in their own words, are in Part D 3
+and Part C 2.
+
+1. **Nonstick (PTFE) pans and PFAS.** Three questions mixed together (Part D 3a). (a) Does an intact
+   pan at normal heat put a meaningful dose into food? The FDA says migration is negligible:
+   **established as far as current evidence goes.** (b) Is overheating harmful? Above about 260°C
+   the coating degrades; the fumes kill pet birds and can cause a short fever in people:
+   **established.** (c) Should PTFE cookware be sold, given PFAS pollution in manufacture and
+   disposal? **A value question with a contested empirical core.** The Cookware Sustainability
+   Alliance: PTFE is "an inert molecule" and bans confuse it with PFOA, which was phased out of US
+   manufacture by 2015 (EPA). Proponents of bans (a URI PFAS researcher, Los Angeles County
+   Sanitation Districts, in The New Lede) argue it cannot be made without environmental
+   contamination. Minnesota's ban is in force; California's was vetoed in October 2025; the EU
+   restriction is still in committee. Settled by: migration data across a pan's working life,
+   including scratched coatings; life-cycle emission data; how long ceramic replacements last. A
+   lesson presents both choices as defensible.
+2. **Gas stoves and indoor air.** **Established** that gas burners add NO2 and some benzene to
+   indoor air and that a vented hood reduces it (Kashtan 2023 and 2024; EPA). **Contested** whether
+   this causes a measurable share of childhood asthma: Gruenwald 2022's 12.7% is an attributable
+   fraction built on cross-sectional associations; the American Gas Association and an
+   industry-linked review (Li 2023) criticise it, and ISAAC (Wong 2013, 512,000 children) found no
+   gas association. Settled by: prospective cohorts with measured NO2, or intervention trials. The
+   cooking advice is the same on every reading: hood on, back burners, window open. Keep brief.
+3. **Pink pork, rare burgers, and how cautious consumer advice should be.** The microbiology is
+   **established** (bacteria on the surface of whole cuts, spread through mince; time plus
+   temperature). The US allows pork at 145°F with a rest and pink colour since 2011; the UK says
+   cook pork through. Trichinellosis in the US fell from about 400 cases a year (1947 to 1951) to
+   0.1 per million (2008 to 2012). This is best described as a **value difference in how
+   cautiously each agency phrases public advice**, not a scientific disagreement: the FSA's own list
+   accepts 60°C for 45 minutes. Both advise against rare burgers at home.
+4. **Washing raw chicken.** The microbiology is **established**: washing does not make chicken
+   safer. Whether to keep the practice is a **value question for the cook**, and the lesson must
+   state the practitioners' case in terms they would recognise: removing slime, blood, bone chips
+   and feather stubs; distrust of processing; a practice learned from family; in many Caribbean,
+   West African, Latin American and South Asian kitchens a citrus or vinegar wash is part of
+   preparation (Henley 2012 focus groups; Drexel). A lab study found live Salmonella stayed on the
+   chicken and in the water after 10% lemon or vinegar washes (Henley 2018). The USDA study's own
+   authors recommend moving the message from "don't wash" to cleaning the sink and hands. The course
+   teaches the harm-reduced version for cooks who will wash. **Gap:** no first-person source from
+   those traditions has been read yet; one must be before the lesson describes them.
+5. **Resting meat.** **Contested empirical, with the evidence moving** (Part C 2): the older test
+   (Kenji, about 2010) against the 2025 re-test with matched final temperatures. Teach resting as
+   temperature management and say the older explanation has been revised.
+6. **Acrylamide in browned starch.** EFSA and the FSA reason from animal carcinogenicity to a
+   precautionary "go for gold"; Cancer Research UK reasons from human cohorts, which show no reliable
+   link, to "you don't need to avoid" it; Spiegelhalter questioned the campaign. Both are true to
+   their method. **Contested empirical** at the level of human risk. A health question, so the lesson
+   gives one paragraph and points to Nutrition. Note the FSA has withdrawn its old advice against
+   keeping potatoes in the fridge.
+7. **MSG sensitivity.** **Established** that "Chinese Restaurant Syndrome" as a general claim is not
+   supported; **contested at the margin** whether a few people have a small, transient reaction to
+   large doses without food (Geha 2000). The history of the name carries an ethnic stigma that the
+   lesson should state plainly (Kean 2023).
+8. **US against UK home food-safety rules** (fridge temperature, danger zone bounds, leftovers,
+   reheat-once, rice, thawing, hot food into the fridge, raw eggs). Not a scientific dispute: two
+   regulators writing for different food systems (the UK's Lion egg scheme, for instance) and
+   different habits, each choosing simple rules. Present both, side by side, and let the reader
+   follow their own country's.
+9. **Wooden against plastic boards.** Lab work favours wood or finds no difference; newer studies
+   (not read) point the same way. **Contested empirical but leaning to "either, if kept clean."**
+
+---
+
+## Best existing free resources (to link, not duplicate)
+
+- **Jacques Pépin's KQED technique videos** (verified URLs in Part A 4): knife basics and
+  sharpening, knife skills for cutting and chopping, poaching an egg, vinaigrette, cutting up,
+  trussing and carving a chicken; and his omelette. The Jacques Pépin Foundation's *Complete Pépin*
+  archive (the 1995 KQED series) is the best free technique library found.
+- **America's Test Kitchen, "How To Chop an Onion"** and Kenji López-Alt's verified videos (reverse
+  sear, roast potatoes, "Knife Skills: How to Chop", his knife-skills playlist).
+- **FSIS temperature chart, foodsafety.gov four steps, CDC chicken and raw-flour pages** (link the
+  live URLs; the content was read via archive captures).
+- **FSA "Cooking your food", "How to chill, freeze and defrost food safely", the home food fact
+  checker and the Campylobacter page** on GOV.UK.
+- **FDA Food Code 2026** for the reader who wants the professional rules.
+- **Douglas Baldwin's *A Practical Guide to Sous Vide Cooking*,** the clearest free explanation of
+  time and temperature as pasteurisation.
+- **NCHFP** for garlic in oil and the USDA *Complete Guide to Home Canning*.
+- **NFPA cooking safety page, London Fire Brigade pan fires page, NHS burns and scalds.**
+- **Lodge's care pages** for cast iron.
+- **HarvardX *Science and Cooking*** and **HKUST *The Science of Gastronomy*** (Coursera) as the
+  next course for a reader who wants the science. Current audit status on edX not confirmed.
+- **ATK's free articles** (several read in Part C) and **Serious Eats** (link from a browser check;
+  nothing there was read directly).
+
+---
+
+## Safety-critical guidance
+
+Every item is in Part B or Part D with its wording.
+
+- **Food poisoning is the kitchen's main hazard, and a lesson must give both countries' rules.**
+  Poultry 165°F / 74°C or the UK's 70°C for 2 minutes and equivalents; mince 160°F; whole cuts 145°F
+  with a 3-minute rest (US) or pink once seared (UK, not pork); leftovers reheated to 165°F or
+  steaming hot. Cooling: US 2 hours (1 above 90°F), shallow containers; UK cool and refrigerate
+  within one to two hours, rice within one hour. Leftovers 3 to 4 days (US) or 48 hours (UK).
+- **Higher-risk people** (pregnancy, over 65, weakened immune system, young children) get stricter
+  rules on Listeria foods, runny eggs outside the UK Lion scheme, rare burgers and raw flour. The
+  course gives the rule and points to Nutrition for pregnancy diet in general.
+- **Specific hazards a home cook meets:** raw or slow-cooked red kidney beans; badly stored rice
+  (the emetic toxin survives reheating); big pots of stew, stock or gravy cooling slowly (C.
+  perfringens); raw flour and cookie dough; garlic in oil at room temperature (botulism); home
+  canning outside the USDA guide.
+- **Knives:** claw and pinch grip, stable board, let a falling knife fall, never leave a knife in a
+  sink of water.
+- **Fire:** never leave hot oil; never water or flour on a fat fire; a lid slid on and the heat off
+  for a small fire just started (US agencies), or leave, close the door and call the fire service
+  (London Fire Brigade, and NFPA's own "Just get out!"); oven fire, door shut and heat off.
+- **Burns and scalds:** 20 minutes under cool running water; no ice, butter or creams; the NHS and
+  Red Cross thresholds for going to hospital. Then point to First Aid and CPR.
+- **Nonstick:** never preheat empty on high; keep birds away from the kitchen; replace when the
+  coating is damaged.
+- **Ventilation** when cooking on gas: the EPA's hood and back-burner advice.
+- **Allergens** were not researched (see scope). A lesson on cooking for others must at least name
+  them and cross-contact before the course is published.
+
+---
+
+## Open concerns about scope
+
+- **Twelve lessons is about the ceiling.** The outcomes ask for knife work, heat, six methods,
+  seasoning, eggs, grains, stock, a pan sauce, bread, food safety and meal planning. Bread in
+  particular is its own craft; the course should teach one lean bread (a no-knead loaf) and the
+  ratio, and say that baking and pastry are out of scope.
+- **Out of scope, said once in lesson 1:** baking and pastry beyond one bread, butchery beyond
+  cutting up a chicken, deep frying beyond safety, preserving and canning, special diets, and
+  nutrition claims (Nutrition: The Evidence).
+- **The canon is European and American.** Every syllabus and book here teaches the French-derived
+  method list. A home cook's real repertoire is wider: stir-frying in a wok, steaming, rice as the
+  default grain, spice blooming (ATK concept 33), pressure cooking. **Outline to fix:** the methods
+  lessons should draw examples from several cuisines, and the heat lesson should cover a wok and a
+  pressure cooker (not researched here; a Stage 1 top-up is needed for pressure cooking, which
+  Home Repair will not cover).
+- **Units.** US readers think in °F, cups and ounces; UK and most others in °C and grams. Every
+  temperature in both, and weights first for anything a ratio depends on.
+- **Equipment and cost.** The course should assume one good knife, one heavy pan, a pot, a sheet
+  pan and an instant-read thermometer (FSIS: only about 15% of people consistently use one), and
+  say so. Not researched: cost, and cooking without an oven.
+- **Allergens** (the 14 UK and 9 US major allergens, cross-contact) were not researched and should
+  be before a lesson on cooking for others.
+- **Serious Eats is unread.** Much of the best home-cooking science lives there. A drafter who
+  needs a specific Kenji or Gritzer number must check it in a browser; the claims already used here
+  are marked by read level.
+- **Dated figures to quarantine:** CDC burden (2025 update), FSA 2.4 million (being replaced by
+  early 2027), the FDA Food Code 2026, the NFPA fire figures (2017 to 2021 edition read), PFAS law
+  (moving monthly), and the 2025 resting-meat revision.
+- **Gaps each part names for a later pass:** the NHS kidney bean page; a first-person source on
+  acid-washing chicken; a source that pathogens do not cause off smells; the damp tea towel
+  withdrawal notice; any regulator on salt for grease fires; carbon steel care; plain against
+  anodised aluminium and acid; rice ratios and resting; acid slowing bean softening; hollandaise
+  temperatures (McGee in print); allergens; pressure cooking.
+
+---
+
+## Suggested lesson sequence (for Stage 2 to confirm)
+
+Twelve lessons, then the course project (a week of meals from a short list of techniques, with the
+storage plan that keeps it safe). Each lesson names the parts it draws on.
+
+1. **Your knife and your board.** Mise en place, grips, the claw, the cuts as cooking sizes, honing
+   and sharpening, knife safety. (A 3, C 9, D 1)
+2. **How heat gets into food.** Conduction, convection, radiation; temperature against rate; pans;
+   water's ceiling and browning; the thermometer; fire and steam safety. (C 6, 7; B 1.9; D 2)
+3. **Seasoning by taste.** Salt (by weight, brands, timing on meat), acid, fat, umami and MSG,
+   balancing a dish. (A 2.1; C 3a, 5)
+4. **What makes people ill, and the rules that stop it.** Where bacteria live, time plus
+   temperature, cross-contamination and washing chicken, cooling and leftovers, thawing, rice,
+   beans, flour; US and UK side by side. (B all; D 3d, 3e, 3h)
+5. **Fast, dry heat: searing and sautéing.** Dry surfaces, crowding, flipping, the searing myth,
+   the pan sauce from fond. (C 1, 6, 8f, 10f)
+6. **Roasting and grilling.** Oven heat, vegetables and meat, carryover and resting, the reverse
+   sear, safe temperatures for roasts. (C 2, 7; B 2.1)
+7. **Water and steam: boiling, simmering, poaching, steaming, braising.** Pasta water, blanching,
+   collagen and tough cuts, alcohol in a braise. (C 3, 4, 8e)
+8. **Eggs.** Set temperatures, the five basic egg cookeries, the green ring, mayonnaise as the
+   first emulsion, egg safety US and UK. (C 8b, 8c; B 3.5)
+9. **Rice, grains, beans and pasta.** Gelatinisation, absorption against excess water, rinsing
+   and arsenic, salting beans, kidney beans, cooling rice. (C 3, 8a; B 3.4, 5.1, 5.2)
+10. **Stock and sauces.** Stock and gelatin, simmer not boil, cooling a big pot, roux sauces,
+    emulsified sauces, vinaigrette. (A 3.6; B 5.3; C 8c, 8e)
+11. **Bread.** Flour, water, salt, yeast; gluten; no-knead; the 5:3 ratio and baker's percentages.
+    (A 1.4; C 8d)
+12. **Cooking without a recipe.** Ratios, reading a recipe for its method, planning a week around
+    methods and batches, and the storage rules that make batch cooking safe. (A 1.4; B 1.4, 2.4)
+
+---
+
+# The four research parts
+
+Each part below is the research pass as written on 2026-09-24, with its headings moved down one
+level. Section numbers inside a part are that part's own ("Part B 2.4" means section 2.4 of Part B).
+
+
+---
+
+## Cooking Fundamentals: Stage 1 research, Part A (canonical texts and syllabi)
+
+All pages below were accessed 2026-09-24. Two ways of reading are distinguished throughout:
+
+- **Direct**: I downloaded the page or PDF with curl and read the extracted text myself. Quotations marked direct are copied from that text.
+- **Fetch tool**: the WebFetch tool returns a summary made by a small model. Quotations it returned are marked "(fetch tool)". They are probably accurate but a drafter should re-check them against the page before quoting in a lesson.
+- **Snippet**: a search engine result summary only. Nothing from a snippet is put in quotation marks here.
+
+Serious Eats blocks Anthropic's crawler outright (WebFetch refused the domain; curl returned HTTP 402; WebSearch refused `allowed_domains: seriouseats.com` with a message that the domain is not accessible to our user agent). I did not route around this via the Wayback Machine, because the site has opted out. Every Serious Eats claim below is therefore secondhand and marked so.
+
+---
+
+### 1. Tables of contents of the canonical books
+
+#### 1.1 Samin Nosrat, *Salt, Fat, Acid, Heat: Mastering the Elements of Good Cooking* (Simon & Schuster, 2017)
+
+**Source A (direct):** Internet Archive metadata for the lending copy, https://archive.org/metadata/saltfatacidheatm0000nosr (lending copy is access-restricted; I read the catalogue record only). 469 pages, 24 cm; LCCN 2016040649; foreword by Michael Pollan, illustrations by Wendy MacNaughton. Contents note, copied:
+
+"Foreword -- Introduction -- How to use this book -- Part one: the four elements of good cooking. Salt -- Fat -- Acid -- Heat -- What to cook -- Part two: recipes and recommendations. Kitchen basics -- Recipes: Salads; Dressings; Vegetables; Stock and soups; Beans, grains, and pasta; Eggs; Fish; Thirteen ways of looking at a chicken; Meat; Sauces; Butter-and-flour doughs; Sweets -- Cooking lessons -- Suggested menus -- Tips for further reading"
+
+**Source B (direct):** University of Wisconsin–Madison Libraries catalogue, https://search.library.wisc.edu/catalog/9912312413502121. Same structure (pt. I / pt. II). Bibliography pp. 441 to 444 per the IA record.
+
+The same catalogue summary (direct) carries the publisher blurb: "there are only four basic factors that determine how good your food will taste. Salt, Fat, Acid, and Heat are the four cardinal directions of cooking".
+
+**Structure worth noting for our course:** four chapters of principle, then a short "What to cook" chapter on choosing a dish, and only then recipes. The recipe section is arranged by kind of food (salads, stock and soups, beans/grains/pasta, eggs, fish, chicken, meat, sauces, doughs, sweets), and a separate "Cooking lessons" index points from principle back into recipes. This is the book closest to "technique over recipes" for a home cook.
+
+(saltfatacidheat.com/kitchen-basics was also fetched; it is an equipment affiliate page, not teaching. Fetch tool, 2026-09-24.)
+
+#### 1.2 J. Kenji López-Alt, *The Food Lab: Better Home Cooking Through Science* (W. W. Norton, 2015)
+
+**Source (direct):** UW–Madison catalogue, https://search.library.wisc.edu/catalog/9911332255802121. First edition, New York and London: W. W. Norton, [2015]. Open Library gives 966 pages (https://openlibrary.org/isbn/9780393081084.json, direct). Contents note, copied:
+
+"Preface / by Jeffrey Steingarten -- Introduction: A nerd in the kitchen -- What's in this book? -- The keys to good kitchen science -- What is cooking? -- Essential kitchen gear -- basic pantry -- Eggs, dairy, and the science of breakfast -- Soups, stews, and the science of stock -- Steaks, chops, chicken, fish, and the science of fast-cooking foods -- Blanching, searing, braising, glazing, roasting, and the science of vegetables -- Balls, loaves, links, burgers, and the science of ground meat -- Chickens, turkeys, prime rib, and the science of roasts -- Tomato sauce, macaroni, and the science of pasta -- Greens, emulsions, and the science of salads -- Batter, breadings, and the science of frying"
+
+So nine numbered chapters (numbering per a search snippet; the catalogue does not number them): 1 eggs and dairy, 2 stock, 3 fast-cooking proteins, 4 vegetables, 5 ground meat, 6 roasts, 7 pasta, 8 salads and emulsions, 9 frying. The front matter ("What is cooking?", "The keys to good kitchen science") is where the energy versus temperature material sits. Wikipedia (fetch tool, https://en.wikipedia.org/wiki/The_Food_Lab) says the recipes are "arranged by the technique used to prepare them" and that the book has charts explaining "the difference between temperature and energy and the Leidenfrost effect" (fetch tool). No baking or bread chapter: this is a savoury-cooking book.
+
+#### 1.3 Harold McGee, *On Food and Cooking: The Science and Lore of the Kitchen* (Scribner, 2004, completely revised and updated)
+
+**Source (direct):** UW–Madison catalogue, https://search.library.wisc.edu/catalog/999975088902121. "Completely revised and updated", Scribner, 2004. IA metadata for onfoodcookingsci0000mcge_e4f3 (direct) gives x, 884 p., references pp. 819 to 833. Contents note, copied:
+
+"Introduction: Cooking and science, 1984 and 2004 -- Milk and dairy products -- Eggs -- Meat -- Fish and shellfish -- Edible plants: Introduction to fruits and vegetables, herbs and spices -- Survey of common vegetables -- Survey of common fruits -- flavorings from plants: herbs and spices, tea and coffee -- Seeds: grains, legumes, and nuts -- Cereal doughs and batters: Bread, cakes, pastry, pasta -- Sauces -- Sugars, chocolate, and confectionery -- Wine, beer, and distilled spirits -- Cooking methods and utensil materials -- four basic food molecules -- Appendix: Chemistry primer -- Selected references -- Index"
+
+Chapter numbering 1 to 15 (dairy = 1, cooking methods = 14, four basic food molecules = 15) is from a search snippet, consistent with the order above. Structure: by ingredient first, with the physics of heat ("Cooking methods and utensil materials") and the chemistry of water, fats, carbohydrates and proteins held back to the end as reference. McGee is the set textbook for Harvard's course (see 3.1).
+
+#### 1.4 Michael Ruhlman, *Ratio: The Simple Codes Behind the Craft of Everyday Cooking* (Scribner, 2009)
+
+**Source (direct):** UW–Madison catalogue, https://search.library.wisc.edu/catalog/9910824599202121. First Scribner hardcover edition, 2009, xxv, 224 pages. Contents note, copied:
+
+"The ratios -- What is a ratio, and why is it important? -- The all-important scale -- Using this book -- The truth of cooking -- Doughs and batters -- Stocks and the amazing things they allow you to do -- Meat : sausage, mousseline, and other meat-related ratios -- Fat-based sauces -- The custard continuum -- The ultimate meaning and usefulness of ratios"
+
+Catalogue summary (direct): "With thirty-three ratios and suggestions for enticing variations".
+
+**Ratios, with where each was actually seen:**
+
+| Ratio | As stated | Where seen | Status |
+|---|---|---|---|
+| Bread | "a basic bread ratio of 5 parts flour to 3 parts water" | https://ruhlman.com/bread-ratio-5-3/ | fetch tool |
+| Pasta dough | "all-purpose flour equal to 1.5 x the weight of the egg (or 2 parts egg, 3 parts flour)" | https://ruhlman.com/pasta-agnolotti-and-the-power-of-ratios/ (Feb 2013) | **direct** |
+| Pancakes | "2 parts liquid : 1 part egg : ½ part butter : 2 parts flour" | https://ruhlman.com/pancake-ratio/ (Feb 2014), which says the ratio "is from my book Ratio" | **direct** |
+| Vinaigrette | "Vinaigrette is 3:1, or 3 parts oil to 1 part vinegar" | Goodreads description, https://www.goodreads.com/book/show/3931154-ratio | fetch tool |
+| Cookie dough | "1 part sugar, 2 parts fat, and 3 parts flour" | same Goodreads page | fetch tool |
+| Biscuit dough | "3 parts flour, 1 part fat, and 2 parts liquid" | same Goodreads page | fetch tool |
+| Pie dough | "3-2-1" (flour, fat, water) | same Goodreads page | fetch tool |
+| Stock | 3 parts water to 2 parts bones | search snippet only | **not confirmed from a fetched page** |
+
+All Ruhlman ratios are by weight; the book's second front-matter section is on the scale. A Ruhlman blog commenter (pancake post, direct) makes the link to baker's percentages, which is the professional form of the same idea.
+
+#### 1.5 The Culinary Institute of America, *The Professional Chef*
+
+**10th edition (Wiley, March 2024), source (direct):** Wiley's own table-of-contents PDF, https://catalogimages.wiley.com/images/db/pdf/9781119490951.toc.pdf, linked from https://www.wiley.com/en-us/The+Professional+Chef,+10th+Edition-p-9781119498803. The Wiley page (fetch tool) says the edition has "reorganized chapters aligned with CIA's Culinary Fundamentals course", 960 pages. Full chapter list, copied from the PDF:
+
+- Part One, The Culinary Professional: 1 Introduction to the Profession; 2 Menus and Recipes; 3 Basics of Food Science
+- Part Two, Tools and Ingredients in the Professional Kitchen: 4 Equipment Identification; 5 Meat, Poultry, and Game Identification; 6 Fish and Shellfish Identification; 7 Fruit, Vegetable, and Fresh Herb Identification; 8 Dairy and Egg Purchasing and Identification; 9 Dry Goods Identification; 10 Fabricating Meats, Poultry, and Fish; 11 Fabricating Vegetables
+- Part Three, Mise en Place, Stocks, Sauces, and Soups: 12 Mise en Place; 13 Soups; 14 Sauces
+- Part Four, Essential Cooking Techniques: 15 Grilling and Broiling; 16 Roasting; 17 Sautéing; 18 Pan Frying; 19 Deep Frying; 20 Steaming; 21 Braising and Stewing; 22 Shallow Poaching and Pan Steaming; 23 Deep Poaching, Simmering, and Boiling
+- Part Five, Potatoes, Grains and Legumes, and Pasta and Dumplings: 24 Cooking Potatoes; 25 Grains and Legumes; 26 Pasta and Dumplings
+- Part Six, Eggs and the Cold Kitchen: 27 Cooking Eggs; 28 The Cold Kitchen
+- Part Seven, Baking and Pastry: 29 Baking Mise en Place; 30 Baking Techniques; 31 Kitchen Desserts and Savory Baking
+
+Note the order inside Part Four: the dry-heat methods first (grill, roast, sauté, pan fry, deep fry), then the moist and combination methods (steam, braise/stew, shallow poach, deep poach/simmer/boil). Note also that stock-making sits inside "Mise en Place" (ch. 12) in this edition rather than having its own chapter.
+
+A 5-page Wiley excerpt PDF (https://catalogimages.wiley.com/images/db/pdf/9781119490951.excerpt.pdf, direct) is chapter 1 only: the brigade system. It states the brigade "was instituted by French chef Auguste Escoffier to streamline and simplify work in hotel kitchens" (direct). Useful if a lesson mentions mise en place and kitchen organisation.
+
+**9th edition (Wiley, 2011), source (direct):** Open Library, https://openlibrary.org/isbn/9780470421352.json, 1212 pages, parts only: "The culinary professional; Tools and ingredients in the professional kitchen; Stocks, sauces, and soups; Meats, poultry, fish, and shellfish; Vegetables, potatoes, grains and legumes, and pasta and dumplings; Breakfast and garde manger; Baking and pastry." The 9th edition organised cooking by food; the 10th by method. That shift is itself evidence that the leading professional text now treats method as the organising idea.
+
+#### 1.6 Jacques Pépin, *Complete Techniques* (2001) / *New Complete Techniques* (Black Dog & Leventhal, 2012)
+
+**Catalogue (direct):** IA metadata for jacquesppinnewco0000ppin: *Jacques Pépin New Complete Techniques*, Black Dog & Leventhal, 2012, 736 p., no contents note. UW–Madison (https://search.library.wisc.edu/catalog/999913653702121, direct) holds the 2001 *Jacques Pépin's Complete Techniques*, photographs by Léon Perer, again without a contents note.
+
+**Chapter list (fetch tool):** a review at https://cookingbythebook.com/book-review-2/22057/ lists twelve chapters: Equipment; Basics, Sauces and Stocks; Vegetables; Eggs; Fish and Shellfish; Poultry; Meat; Offal and Charcuterie; Carving; Bread and Pasta; Pastry and Dessert; Presentation. A search snippet from a sampler said "The Basics" opens with sharpening knives, holding the knife to chop vegetables, and julienne. I did not see a publisher TOC. Full-text copies turned up only on pirate sites (dokumen.pub, ebin.pub, vdoc.pub), which I did not open.
+
+#### 1.7 America's Test Kitchen and Guy Crosby, *The Science of Good Cooking* (America's Test Kitchen, 2012)
+
+**Source (direct):** UW–Madison catalogue, https://search.library.wisc.edu/catalog/9910848246702121. xvii, 486 pages (IA record, direct). Publishers Weekly (fetch tool, https://www.publishersweekly.com/9781933615981) gives 504 pages and authorship "The Editors at America's Test Kitchen and Guy Crosby". Contents note, copied in full because the 50 concepts are themselves a curriculum:
+
+Front matter: "Preface by Christopher Kimball -- Welcome to America's Test Kitchen -- Recipes -- Introduction -- The science of measuring -- The science of time and temperature -- The science of heat and cold -- The science of the senses -- The science of tools and ingredients"
+
+"Concept 1. Gentle heat prevents overcooking -- Concept 2. High heat develops flavor -- Concept 3. Resting meat maximizes juiciness -- Concept 4. Hot food keeps cooking -- Concept 5. Some proteins are best cooked twice -- Concept 6. Slow heating makes meat tender -- Concept 7. Cook tough cuts beyond well-done -- Concept 8. Tough cuts like a covered pot -- Concept 9. A covered pot doesn't need liquid -- Concept 10. Bones add flavor, fat, and juiciness -- Concept 11. Brining maximizes juiciness in lean meats -- Concept 12. Salt makes meat juicy and skin crisp -- Concept 13. Salty marinades work best -- Concept 14. Grind meat at home for tender burgers -- Concept 15. A panade keeps ground meat tender -- Concept 16. Create layers for a breading that sticks -- Concept 17. Good frying is all about oil temperature -- Concept 18. Fat makes eggs tender -- Concept 19. Gentle heat guarantees smooth custards -- Concept 20. Starch keeps eggs from curdling -- Concept 21. Whipped egg whites need stabilizers -- Concept 22. Starch helps cheese melt nicely -- Concept 23. Salting vegetables removes liquid -- Concept 24. Green vegetables like it hot -- then cold -- Concept 25. All potatoes are not created equal -- Concept 26. Potato starches can be controlled -- Concept 27. Precooking makes vegetables firmer -- Concept 28. Don't soak beans -- brine 'em -- Concept 29. Baking soda makes beans and grains soft -- Concept 30. Rinsing (not soaking) makes rice fluffy -- Concept 31. Slicing changes garlic and onion flavor -- Concept 32. Chile heat resides in pith and seeds -- Concept 33. Bloom spices to boost their flavor -- Concept 34. Not all herbs are for cooking -- Concept 35. Glutamates, nucleotides add meaty flavor -- Concept 36. Emulsifiers make smooth sauces -- Concept 37. Speed evaporation when cooking wine -- Concept 38. More water makes chewier bread -- Concept 39. Rest dough to trim kneading time -- Concept 40. Time builds flavor in bread -- Concept 41. Gentle folding stops tough quick breads -- Concept 42. Two leaveners are often better than one -- Concept 43. Layers of butter makes flaky pastry -- Concept 44. Vodka makes pie dough easy -- Concept 45. Less protein makes tender cakes, cookies -- Concept 46. Creaming butter helps cakes rise -- Concept 47. Reverse cream for delicate cakes -- Concept 48. Sugar changes texture (and sweetness) -- Concept 49. Sugar and time makes fruit juicer -- Concept 50. Cocoa powder delivers big flavor"
+
+Back matter: "Equipping your kitchen -- Cookware materials -- What about nonstick pans? -- Knife basics -- Emergency ingredient substitutions -- Food safety -- Conversions and equivalents" (the catalogue's spelling "juicer" in Concept 49 is as printed in the record.)
+
+A search snippet numbered brining as Concept 12 and salt as 13; the catalogue record (direct) numbers them 11 and 12. Trust the catalogue.
+
+Caution for the fact-checker: several concepts are ATK house claims that later testing has qualified. Concept 3 (resting) is the obvious one: López-Alt, who once argued for resting on juice-loss grounds, later changed his explanation (secondhand, see 2.3). Concept 32 (chile heat in "pith and seeds") is commonly stated as pith (placental tissue) mostly, seeds only by contact; check before repeating.
+
+---
+
+### 2. Freely readable material from these authors that teaches core ideas
+
+#### 2.1 Nosrat on salt, fat, acid (NPR *Fresh Air* transcript, direct)
+
+https://www.npr.org/transcripts/672904397 (Terry Gross interview, tied to the Netflix series; the companion article URL is dated 2018-12-03). Read in full, direct. What it establishes, with short quotations copied from the transcript:
+
+- **Salt, mechanism, in plain words:** she explains salt on a tomato drawing juices out ("Osmosis starts") so aromatic compounds are more available. A usable lesson image.
+- **Salt, brands differ:** with Diamond Crystal versus table salt, what you use "will almost be equivalent to twice as much" by volume; her conclusion: "be familiar with your own salt and to really taste as you go". This is the single most practical point for a home-cook lesson on seasoning, and it supports teaching salt by weight or by taste rather than by teaspoon.
+- **Fat:** "while salt is all about enhancing flavor, fat is mostly about texture", and fat is a flavour "carrier" (garlic in oil versus water demonstration).
+- **Acid:** explained through lemonade as balance and "tart contrast".
+- The book's own formula (catalogue blurb, direct): the four are "the four cardinal directions of cooking".
+
+A secondhand line widely quoted from the book (snippet only, not seen on a fetched page): salt has a greater impact on flavour than any other ingredient. Do not quote it without the book in hand.
+
+#### 2.2 McGee on searing (fetch tool, and secondhand)
+
+McGee's NYT "Curious Cook" columns are paywalled; curiouscook.com returned an expired TLS certificate. Wikipedia "Searing" (https://en.wikipedia.org/wiki/Searing, fetch tool) cites McGee (2004) for: the sealing theory "was first put forth by Liebig in his book Researches on the Chemistry of Food around 1850"; it was "embraced by contemporary cooks and authors, including Escoffier"; "Experiments to test the theory were carried out as early as the 1930s and found that the seared roasts lost the same amount of moisture or more." What it establishes: searing is for flavour and colour (browning), not moisture. This is the canonical myth-correction for a lesson on dry heat. The line "The crust that forms around the surface of the meat is not waterproof" attributed to *On Food and Cooking* appeared only in a search snippet.
+
+#### 2.3 López-Alt (Serious Eats blocked; video and secondhand)
+
+- **Reverse sear.** Video verified by YouTube oEmbed (direct): "The Best Way to Cook Steak: The Reverse Sear | Kenji's Cooking Show", channel J. Kenji López-Alt, https://www.youtube.com/watch?v=pO8TUuSv7HA. The method, from snippets only: cook gently in a low oven to the target temperature, then sear at the end, reversing the usual sear-then-roast order. Serious Eats article URL (not read, blocked): https://www.seriouseats.com/2017/03/how-to-reverse-sear-best-way-to-cook-steak.html.
+- **Dry brining / salting timing.** Snippet only: salt draws out liquid, which dissolves the salt and is reabsorbed; the widely repeated López-Alt finding is to salt either immediately before cooking or at least about 40 minutes ahead (overnight best), and not in between. Needs the original article or *The Food Lab* ch. 3 before use.
+- **Resting meat.** Snippet only: his early Serious Eats test sliced steaks at intervals and found juice loss falling to little by about 10 minutes; his later explanation is about temperature equilibrium (hotter, thinner juices run more freely). Present resting as debated and give the mechanism, not a rule.
+- **Knife skills.** Verified (oEmbed, direct): "Knife Skills: How to Chop | Serious Eats", https://www.youtube.com/watch?v=XyS915RynEQ; and his playlist "Knife Skills", https://www.youtube.com/playlist?list=PLXonhhg5tUSLPMH2kZI67RYGb5V-fX-83.
+- **Roast potatoes.** Verified (oEmbed, direct): "The Food Lab: How to Roast the Best Potatoes of Your Life", https://www.youtube.com/watch?v=argKpeiKFfo (starch, parboiling with alkaline water, surface area).
+
+#### 2.4 America's Test Kitchen
+
+Publishers Weekly (fetch tool) highlights "gentle heat prevents overcooking" and "high heat develops flavor" as the book's lead concepts: these two, which open the book, are a fair one-line statement of the whole heat-management problem (cook the inside gently, brown the outside hard). ATK's own site pages I fetched were a shows directory, not lessons; americastestkitchen.com recipe and skills pages are mostly behind a paywall.
+
+---
+
+### 3. Syllabi
+
+#### 3.1 Harvard, *Science and Cooking: From Haute Cuisine to Soft Matter Science* (SPU 27 and HarvardX SPU27x)
+
+Instructors: Michael P. Brenner (applied mathematics), Pia Sörensen, David Weitz (physics). All three syllabi below are PDFs on courses.edx.org, downloaded and read in full (direct).
+
+**SPU27x, original single edX run (c. 2013 to 2014):** https://courses.edx.org/c4x/HarvardX/SPU27x/asset/SPU27x_syllabus.pdf. States the aim: students "will be able to explain how a range of cooking techniques and recipes work, in terms of the physical and chemical transformations of food." Textbook: "On Food and Cooking, Harold McGee, Scribner, 2004 (2nd edition)"; also referred to: "The Science of Good Cooking, The Editors of America's Test Kitchen and Guy Crosby, 2012". Ten weekly problem sets, weekly home-kitchen labs, and a final project instead of exams. Guests include McGee, Nathan Myhrvold, Dave Arnold, ATK.
+
+**SPU27.1x (chemistry half), 2017 run:** https://courses.edx.org/asset-v1:HarvardX+SPU27x+1T2017+type@asset+block/SPU27_1Syllabus.pdf. Weekly schedule (topic / chefs / lab):
+1. Food components and flavor (Daniel Humm; Joanne Chang). Lab: calibrate your equipment, make a cola drink.
+2. Energy, temperature, and heat (Dave Arnold). Lab: heat transfer in beverages.
+3. Phase transitions (Joan Roca). Lab: phase transitions of fats.
+4. Diffusion and spherification (José Andrés; Dominique Crenn). Lab: ceviche, diffusion in eggs.
+5. Heat transfer (Carme Ruscalleda; Nathan Myhrvold). Lab: molten chocolate cake.
+6. Candy and chocolate (Joanne Chang; Enric Rovira). Final projects.
+Texts: McGee, and *Science and Cooking: A Companion to the Harvard Course* (2015). A 2019 module syllabus also exists at https://courses.edx.org/assets/courseware/v1/b041edea36afb1986a624dc1134e6e2e/asset-v1:HarvardX+SPU27.1x+3T2019+type@asset+block/SPU27_1_Module_Syllabus.pdf (downloaded; the module table did not extract cleanly, so I rely on the 2017 table).
+
+**SPU27.2x (physics half), 2018 run:** https://courses.edx.org/assets/courseware/v1/6f96cf5df71af82d37300b01aaa54c25/asset-v1:HarvardX+SPU27.2x+2T2018+type@asset+block/SPU27_2_Syllabus.pdf. Modules (topic / chefs / lab):
+1. Elasticity (Bill Yosses; Mark Ladner). Lab: measure the elastic modulus of foods.
+2. Viscosity (Martin Breslin; Carles Tejedor). Lab: viscosity of macaroni and cheese.
+3. Emulsions and foams (Nandu Jubany). Lab: volume fraction in mayonnaise, egg white foam.
+4. Advanced phase behavior (Joan Roca; Enric Rovira). Lab: ice cream and freezing point depression.
+5. Enzymes (Wylie Dufresne; Ted Russin of the CIA). Lab: browning reactions in fruits and vegetables.
+6. Baking (Joanne Chang; Christina Tosi). Final projects.
+
+Harvard PLL listing (https://pll.harvard.edu/course/science-and-cooking, fetch tool) confirms the chemistry topics: molecules, moles, flavor and pH; energy, temperature and heat; phase transitions; diffusion and spherification; heat transfer; candy. The companion trade book is Brenner, Sörensen and Weitz, *Science and Cooking: Physics Meets Food, From Homemade to Haute Cuisine* (Norton, 2020) (search result; Norton page had no TOC in its HTML).
+
+What it tells us: the science sequence runs **what food is made of, then energy and temperature, then phase change, then diffusion (salt and marinades), then heat transfer**, with texture (elasticity, viscosity, emulsions, gels) and browning later. That is a good order for the "why" strand of our course.
+
+#### 3.2 MIT, *Kitchen Chemistry* (SP.287 / ES.287)
+
+The course number is SP.287 (not SP.237). OCW page https://ocw.mit.edu/courses/es-287-kitchen-chemistry-spring-2009/ exists (search result) but its calendar page looped on redirects. The instructor's own syllabus at https://stuff.mit.edu/afs/athena/course/other/kitchen-chem/www/Syllabus.html (direct, headed "Syllabus for Spring 2008", last updated December 28, 2008; contact patti@mit.edu) lists weekly topics: guacamole, salsa, hot sauce and quesadillas; cookies; pancakes (optional); bread; scones and coffee; meringues; jams and jellies; three bean chili and cornbread; cheese; molecular gastronomy; wacky cake (optional); ice cream; peer teaching; meatballs and spaghetti. Search snippet for the 2009 OCW version: experiments illustrate extraction, denaturation, and phase changes. There is also MIT 5.S16 *Advanced Kitchen Chemistry* (Spring 2002) on OCW (search result only). Dish-led, not technique-led; limited use for our sequence.
+
+#### 3.3 HKUST on Coursera, *The Science of Gastronomy* (fetch tool)
+
+https://www.coursera.org/learn/gastronomy, instructor King Lau Chow. Modules: 1 Energy transfer (conduction, convection, radiation, phase transition); 2 Hunger and satiety; 3 Taste; 4 Smell; 5 Sight; 6 Touch (texture); 7 Fruits and vegetables. Useful for a seasoning lesson (taste versus smell) and for heat transfer as the first topic.
+
+#### 3.4 The Culinary Institute of America, Associate (AOS) in Culinary Arts, NY and CA (direct)
+
+Catalogue: https://catalog.ciachef.edu/associate-in-occupational-studies-aos/culinary-arts-aos-ny-ca (direct, © 2026). Listed culinary requirements, in catalogue order: CULS-100 Culinary Fundamentals (6 cr); ServSafe exam; APFS-110 Introduction to Food Systems (1.5); CULS-115 Meat Identification, Fabrication, and Utilization (1.5); CULS-116 Seafood Identification and Fabrication (1.5); CULA-260 Modern Banquet Cookery (3); CULP-115 Introduction to À La Carte Cooking (3); CULP-135 Non-Commercial Foodservice and High-Volume Production (3); BAKE-241 Baking and Pastry Skill Development (3); Externship; CULP-225 Garde Manger (3); CULP-301/311/321 Cuisines and Cultures of the Americas, the Mediterranean, Asia (3 each); HOSP-355 Wine and Beverage Studies; then restaurant back- and front-of-house rotations. Culinary science: CUSC-100 Food Safety (1.5), CUSC-110 Nutrition (1.5). Liberal arts include MTSC-100 Math for the Professional Kitchen. Total 64 credits on this page. The CIA programme page (fetch tool, https://www.ciachef.edu/cia-culinary-arts-associate-degree-program/) says 66 credits for NY/CA and 69 for Texas; the catalogue page and the marketing page disagree slightly, so do not quote a credit total. The catalogue does not give a semester sequence, only that students "progress from basic to intermediate to advanced subject matter in proper sequence" (fetch tool).
+
+**CULS-100 Culinary Fundamentals, course description (direct),** https://catalog.ciachef.edu/culinary-skills/culs100: "Topics of study include tasting, kitchen equipment, knife skills, classical vegetable cuts, stock production, thickening agents, soup preparation, grand sauces, timing and multi-tasking, station organization, palate development, culinary terms, and food costing. The course also introduces the student to fundamental concepts and techniques of basic protein, starch, and vegetable cookery. Emphasis is placed upon the study of ingredients and an introduction to the concepts of ratios and formulas will be given."
+
+This is the single most useful statement of what a first course in cooking contains. Note that tasting comes first and "ratios and formulas" are explicitly named.
+
+**CULS-115 (direct),** https://catalog.ciachef.edu/culinary-skills/culs115: muscle and bone structure of beef, veal, pork, lamb, game and poultry; fabrication; tying and trussing; inspection and grading; "preferred cooking methods for all meats"; prerequisite CULS-100. So meat identification follows fundamentals, and cut determines method.
+
+#### 3.5 Le Cordon Bleu, Basic Cuisine Certificate (fetch tool)
+
+https://www.cordonbleu.edu/london/basic-cuisine-certificate/en. The first of three certificates (Basic, Intermediate, Superior) in the Diplôme de Cuisine. Content as returned: "knife skills, basic classical vegetable cuts, fish filleting skills, elementary butchery skills, basic stocks and derivatives, elementary sauces and emulsions, basic doughs (e.g. pasta and puff pastry), introduction to plating presentation, basic plated desserts for restaurants, elementary methods of cooking e.g. braising, pan-frying, boiling, deep-frying, roasting, and steaming" (fetch tool), plus French culinary terms and health, safety and hygiene. Duration (snippet): about 3 months standard or 7 weeks intensive.
+
+#### 3.6 City & Guilds Level 2 Diploma in Professional Cookery (7100-12), UK (direct)
+
+Qualification handbook v1.6, February 2023, QAN 601/0717/0: https://www.cityandguilds.com/-/media/productdocuments/hospitality_and_catering/hospitality_and_catering/7100/7100_level_2/centre_documents/7100-12_level_2_diploma_qualification_handbook_v1-6-pdf.pdf. 66 credits, all units mandatory. Units in handbook order: 202 Food safety in catering; 702 Developing skills for employment; 703 Health and safety; 704 Healthier foods and special diets; 705 Catering operations, costs and menu planning; **707 Prepare and cook stocks, soups and sauces**; 708 Fruit and vegetables; 709 Meat and offal; 710 Poultry; 711 Fish and shellfish; 712 Rice, pasta, grains and egg dishes; 713 Hot and cold desserts and puddings; 714 Paste products; 715 Biscuit, cake and sponge products; 716 Fermented dough products. (Note: search results also named an older code 8065/8064; 7100-12 is the one I read.)
+
+Specific content copied from the handbook that maps onto our lessons:
+- Unit 707 aim: "Stocks, soups and sauces are the key building blocks of many dishes and an understanding of them is essential for any chef."
+- Stock types: "White (beef, chicken, fish, vegetable), brown (beef, chicken, veal, vegetable)." Uses: "Soups, sauces, gravy, braising/stewing liquid." Cooking and chilling: "Cooking (simmering, skimming, straining, reduction), chilling (blast chill, ice water bath, chill to below 5°C within 90 minutes)." (A food-safety figure for the stock lesson; UK standard. The US FDA Food Code two-stage cooling rule differs; Part B should source it.)
+- Soup types: "Roux (eg velouté, cream), potage (eg minestrone, french onion), fish/shellfish (bisque, chowder), chilled (eg gaspacho, vichysoisse), purée (eg lentil, potato, vegetable), broth (scotch, mutton)." (spellings as printed)
+- Sauce types include béchamel and velouté derivatives, jus lié/brown sauces, purées, reductions (wine, stocks, cream).
+- Vegetables, cooking methods: "Wet: Boiling ..., poaching ..., steaming ..., braising ..., stewing" and "Dry: Roasting ..., grilling ..., shallow and deep fried ..., baking". This explicit **wet / dry** split recurs in the meat, poultry and fish units.
+- Rice methods: "Boil/steam (eg basmati), braise (long grain eg pilau), stew (eg risotto), fry (eg egg fried)".
+- Egg dishes: "Scrambled, boiled, poached, fried, omelette, scotch eggs."
+- Vegetable preparation methods list includes "blanch, soak, concassè, season, marinade".
+
+#### 3.7 ProStart (US high-school programme, National Restaurant Association Educational Foundation)
+
+Official text: *Foundations of Restaurant Management & Culinary Arts*, Level 1. Chapter list from a **search snippet only** (not fetched): 1 Welcome to the Restaurant and Foodservice Industry; 2 Keeping Food Safe; 3 Workplace Safety; 4 Kitchen Essentials 1 (professionalism, standard recipes); 5 Kitchen Essentials 2 (equipment and techniques); 6 Stocks, Sauces, and Soups; 7 Communication; 8 Management Essentials; 9 Fruits and Vegetables; 10 Serving Your Guests; 11 Potatoes and Grains; 12 Building a Successful Career. A real school's implementation (direct): James Rumsey Technical Institute, West Virginia, ProStart syllabus revised May 23, 2024, https://jamesrumsey.com/wp-content/uploads/1014-Restaurant-Management-Foundations-Syllabus-2024.pdf. Its sequence: Term 1 kitchen safety and equipment; Term 2 ServSafe food safety; Term 3 "Knife Skills", "Recipes", "Intro. To Food Preparation", "Stocks, Sauces, & Soups"; Term 4 serving guests, "Meats & Poultry", kitchen calculations; year 2 adds fruits, vegetables and starches, breakfast foods and dairy, desserts and baked goods, meat, poultry and seafood.
+
+#### 3.8 Institute of Culinary Education (NY/LA)
+
+Blocked: https://www.ice.edu/blog/back-basics returned HTTP 403. Search snippet only: the programme has five modules; Module 1 covers history of cooking, sanitation, basic knife skills, herb identification, culinary math, stock making and fabrication; sauces (pan sauce, béchamel to Mornay) follow.
+
+#### 3.9 Leiths (London), *Essential Cooking* online certificate (fetch tool)
+
+https://www.leithsonline.com/courses/essential-cooking-online-course. The fullest home-cook sequence I found, 24 weeks: 1 Knife skills and introduction to cooking; 2 Knife skills and seasoning; 3 Egg cookery (proteins, emulsifying); 4 Shortcrust pastry; 5 Vegetable and grains cooking (blanching, roasting, beurre noisette); 6 Food styling; 7 Meringues; 8 Fish preparation and cooking; 9 Choux and crème pâtissière; 10 Shellfish; 11 Creamed and melted cakes; 12 Time planning and roasting; 13 Bread; 14 Pasta; 15 Stews and slow cooking; 16 Whisking and rubbed-in cakes; 17 Brunch (hollandaise); 18 Caramel and custards; 19 Chicken jointing and stock; 20 Gelatine; 21 Meat (butchery basics, steak); 22 Gluten-free baking; 23 Dinner parties; 24 Assessment. (The London daytime Essential Cookery Certificate is 7 weeks per a snippet; not fetched.) Striking: knife skills and seasoning first, then eggs third.
+
+#### 3.10 Ballymaloe Cookery School, 12 Week Certificate, Ireland (fetch tool)
+
+https://www.ballymaloecookeryschool.ie/certificate-cookery-course/course-outline. No week-by-week technique list is published. Topics as returned: the Ballymaloe style, French cuisine, several world cuisines, menu planning, butchery, curing and smoking, wine, "Food Hygiene (HACCP)", producers, cheese making, fermentation. Structure: four mornings a week of practical cooking producing a 3 to 4 course meal, afternoons of demonstration; a practical technique exam and herb and salad recognition test in week 6. Built around daily cooking and tasting rather than a technique ladder.
+
+---
+
+### 4. Free courses and videos for home cooks (URLs verified 2026-09-24)
+
+YouTube items were verified with YouTube's oEmbed endpoint, which returns the exact title and channel only if the video exists (direct).
+
+**Jacques Pépin, KQED Food playlist "Jacques Pépin Technique Videos"** (channel KQED Food): https://www.youtube.com/playlist?list=PL1LaW-AR98H8-Hf3ft0g3sUuV5FCjvDsr. Twelve videos, each verified:
+- Knife Basics and Essentials of Knife Sharpening: https://www.youtube.com/watch?v=gq_JmJLOqxo
+- Proper Knife Skills for Cutting, Chopping and Slicing: https://www.youtube.com/watch?v=nffGuGwCE3E (also on KQED's site: https://www.kqed.org/jpepinheart/843/jacques-pepin-teaches-you-proper-knife-skills-for-cutting-chopping-and-slicing, search result)
+- How To Properly Poach An Egg: https://www.youtube.com/watch?v=8e2aBVRHZdI
+- How to Make Vinaigrette Salad Dressing: https://www.youtube.com/watch?v=-BJfsqzmeYg
+- How To Cut Up A Whole Chicken: https://www.youtube.com/watch?v=xfDsNRXPKE8
+- How To Truss a Chicken for Roasting: https://www.youtube.com/watch?v=VxlcSzMOG9o
+- How to Carve a Roasted Chicken: https://www.youtube.com/watch?v=ZJy7QK3jX4g
+- (the other five are garnish tricks: apple swan, pomegranate, coring an apple, lemon "lion teeth", olive rabbits; skip)
+
+**Pépin omelette:** "Pépin's Classic Omelette", channel Home Cooking with Jacques Pépin, https://www.youtube.com/watch?v=KveBXEIYaIU; "Learn Jacques Pépin's famous omelet techniques", channel American Masters PBS, https://www.youtube.com/watch?v=X1XoCQm5JSQ.
+
+**Jacques Pépin Foundation, "Complete Pépin" archive** (fetch tool): https://jp.foundation/video-series/complete-pepin. Describes itself as the KQED 1995 *Jacques Pépin's Complete Cooking Techniques*, "an exhaustive compendium of basic culinary and home-cooking instruction" (fetch tool); appears free; visible titles include roasting, trussing and deboning a chicken. Knife skills category: https://jp.foundation/video-category/knife-skills (search result). This is probably the best free technique video library in existence for our purposes.
+
+**Food52, "How To Sharpen Your Knife Skills With Jacques Pepin"**: https://www.youtube.com/watch?v=JMA2SqaDgG8 (verified).
+
+**America's Test Kitchen, "How To Chop an Onion"**: https://www.youtube.com/watch?v=VgffXyOORqQ (verified, channel America's Test Kitchen).
+
+**J. Kenji López-Alt**: reverse sear https://www.youtube.com/watch?v=pO8TUuSv7HA; roast potatoes https://www.youtube.com/watch?v=argKpeiKFfo; Serious Eats "Knife Skills: How to Chop" https://www.youtube.com/watch?v=XyS915RynEQ; his "Knife Skills" playlist https://www.youtube.com/playlist?list=PLXonhhg5tUSLPMH2kZI67RYGb5V-fX-83 (all verified).
+
+**Rouxbe Kitchen QuickStart** (fetch tool): announced free on June 10, 2021 at https://blog.rouxbe.com/free-10-hour-culinary-training-course-from-rouxbe; "14 key lessons" and "over 50 instructional videos", examples "using a chef's knife and roasting vegetables, to vinaigrette basics and poultry fundamentals" (fetch tool). Requires an account; I could not confirm it is still free today.
+
+**HarvardX Science and Cooking** on edX (chemistry and physics halves): free to audit historically; edX course pages returned only navigation to the fetch tool, so current audit status not confirmed.
+
+**Coursera, HKUST *The Science of Gastronomy***: https://www.coursera.org/learn/gastronomy (see 3.3).
+
+**OpenLearn**: search found only nutrition courses (*The science of nutrition and healthy eating*), no cooking-technique course. Not useful here.
+
+**BBC Good Food technique guides**: not reached (a search returned a mirror on an unrelated domain, which I ignored). Not verified.
+
+---
+
+### What the field considers essential (as seen in these curricula)
+
+Across the professional curricula (CIA CULS-100 and the 10th-edition *Professional Chef*, Le Cordon Bleu Basic Cuisine, City & Guilds 7100-12, ProStart, ICE Module 1) and the home-cook ones (Leiths Essential Cooking, Nosrat, López-Alt), the same topics recur, and in a recognisably common order:
+
+1. **Safety and sanitation first.** Food safety is taught before, or alongside, any cooking in every professional programme (ProStart chs. 2 to 3 and Terms 1 to 2; C&G Unit 202 first; CIA ServSafe and CUSC-100; LCB "health, safety and hygiene"; Ballymaloe HACCP). Home-cook books push it to the back (ATK back matter). A free home course should place it early but short, and then weave cooling, holding and temperatures into the stock, egg and meat lessons, as C&G does ("chill to below 5°C within 90 minutes").
+2. **Tasting and seasoning.** CIA CULS-100 lists "tasting" first and "palate development" among its topics; Leiths week 2 is "Knife Skills & Seasoning"; Nosrat builds her whole book on it. Salt by taste and by weight, then acid, then fat as texture and carrier.
+3. **Equipment and knife skills, with the classical cuts.** Universal and always early: CIA CULS-100, LCB, ProStart Term 3 Topic 1, ICE Module 1, Leiths weeks 1 to 2, Pépin's "Basics", *Professional Chef* chs. 4 and 11.
+4. **Mise en place and the recipe as a formula.** *Professional Chef* ch. 12; CIA "timing and multi-tasking, station organization" and "ratios and formulas"; ProStart "Recipes" and "Kitchen Calculations"; Ruhlman's whole book. Measuring by weight belongs here.
+5. **Heat: how it moves and what it does.** The science strand (Harvard weeks 2, 3 and 5; HKUST module 1; *Food Lab* "What is cooking?"; ATK front matter "The science of heat and cold") treats energy, temperature, conduction, convection, radiation and phase change before specific methods. Professional curricula teach it implicitly through methods.
+6. **Stocks, then sauces (thickeners, the mother sauces, emulsions), then soups.** Remarkably consistent as the first cooking block after knife work: CIA CULS-100 ("stock production, thickening agents, soup preparation, grand sauces"), C&G Unit 707 (the first cooking unit), ProStart Term 3 Topic 4 / ch. 6, LCB "basic stocks and derivatives, elementary sauces and emulsions", ICE Module 1, *Professional Chef* Part Three, Pépin "Basics, Sauces and Stocks".
+7. **Dry-heat methods, then moist and combination methods.** *Professional Chef* 10th ed. Part Four runs grill/broil, roast, sauté, pan fry, deep fry, then steam, braise/stew, shallow poach, deep poach/simmer/boil. C&G classifies every food unit into "Dry" and "Wet". LCB lists braising, pan-frying, boiling, deep-frying, roasting, steaming. The ATK concepts 1 to 9 are the home-cook version (gentle heat versus high heat, carryover, low and slow for tough cuts, covered pots).
+8. **Vegetables** (blanching, roasting, the green-vegetable rules), then **proteins by type** (meat and poultry, fish), with cut or muscle structure deciding the method (CIA CULS-115: "preferred cooking methods for all meats").
+9. **Starches: potatoes, grains and legumes, pasta.** *Professional Chef* Part Five; C&G Unit 712; ProStart ch. 11; Leiths weeks 5 and 14; ATK concepts 25 to 30.
+10. **Eggs.** Everywhere, but placed variably: Leiths puts egg cookery third; C&G joins eggs to rice and pasta; *Professional Chef* ch. 27 with the cold kitchen; *Food Lab* ch. 1 (eggs first, as the simplest protein to watch). The science courses use eggs for diffusion (Harvard week 4) and foams (physics module 3). A strong case for teaching eggs early as the model protein.
+11. **Doughs and bread last**, usually as a separate baking strand: *Professional Chef* Part Seven, C&G Units 714 to 716, Leiths week 13, ATK concepts 38 to 47, Harvard physics module 6. Ruhlman's 5:3 bread ratio is the natural bridge from the formula lesson.
+
+**The common skeleton, compressed:** safety → tasting and seasoning → knife and equipment → mise en place and ratios → heat transfer → stocks → sauces and emulsions → dry-heat methods → moist-heat methods → vegetables → eggs → grains, legumes and pasta → proteins → bread and doughs. The two things that vary most are where eggs go (early in home courses, later in professional ones) and whether heat science is taught explicitly (science courses and López-Alt) or through methods (professional schools). For a technique-first home course, the evidence supports teaching heat explicitly and early, and eggs early.
+
+---
+
+### Not read
+
+- **Serious Eats, every article.** The site blocks this crawler (WebFetch refused, curl HTTP 402, WebSearch domain refused). Claims about dry brining timing, resting and reverse sear above are from search snippets and verified video titles only.
+- **Full text of any of the seven books.** Internet Archive copies are lending-restricted; I read catalogue records only. Pirate full-text copies (dokumen.pub, ebin.pub, vdoc.pub, pdfroom, studylib) were deliberately not opened.
+- **Pépin *New Complete Techniques* publisher TOC.** Chapter list is from a review via the fetch tool, not a catalogue.
+- **Ruhlman stock ratio (3:2 water to bones).** Seen only in a search snippet.
+- **ProStart official chapter list.** Search snippet only; the NRAEF curriculum page was not fetched.
+- **ICE curriculum.** ice.edu returned 403; snippet only.
+- **Leiths London Essential Cookery Certificate** (7-week daytime) page: not fetched; I read the online course page instead.
+- **Simon & Schuster, Penguin Random House and Norton publisher pages**: 403 or navigation-only.
+- **Smithsonian, Marmot and Nashville library catalogues**: bot-challenge pages; not bypassed.
+- **Google Books API**: daily quota exhausted.
+- **MIT OCW ES.287 calendar**: redirect loop; used the instructor's 2008 syllabus instead.
+- **HarvardX edX course pages** (current run, audit status): only navigation returned.
+- **McGee's own site (curiouscook.com)**: expired certificate. His NYT columns: paywalled, not attempted.
+- **Harvard College SPU 27 / Gen Ed course site and lecture list** (canvas.harvard.edu syllabus, requires login): not read.
+- **UC Davis and Purdue food science courses**: not searched for lack of time; the Harvard, MIT and HKUST material covers the science strand.
+- **BBC Good Food technique guides, Babish, Ethan Chlebowski**: not verified.
+- **NPR companion article** (npr.org/2018/12/03/...): fetch timed out; the transcript was read instead.
+
+---
+
+## Cooking Fundamentals: Stage 1 research, Part B (food safety, US and UK primary guidance)
+
+Compiled 2026-09-24. Every quotation below was copied from a page or PDF fetched on 2026-09-24. "Read" status is given per item. Where a live .gov page blocked automated access (FSIS, foodsafety.gov and CDC all returned HTTP 403 "Access Denied" from Akamai to both curl and the fetch tool), I read the most recent Internet Archive (Wayback Machine) capture and say so, with the capture timestamp where I could get it. Raw text of everything fetched is in `scratchpad/cook/raw/`.
+
+### Headline findings a lesson writer must not miss
+
+1. **The FDA Food Code has a new edition.** The FDA released the **2026 Food Code on 17 September 2026** (a week before this research). The 2022 edition is superseded. I read both PDFs; the numbers a home cook cares about (cooking table, cooling, holding, reheating) are unchanged from 2022, but section 3-501.15 gains a new cooling method (see §2). Cite "FDA Food Code 2026" from now on.
+2. **CDC's "48 million" figure is no longer CDC's current headline.** CDC's current burden page (reviewed 19 March 2025) leads with new 2019 estimates for seven major pathogens: 9.9 million illnesses, 53,300 hospitalizations, 931 deaths. CDC says the two sets "cannot meaningfully" be compared. FSIS and foodsafety.gov pages still repeat 48 million / 128,000 / 3,000. A lesson should say which estimate it uses and why (see §4).
+3. **The UK Food Standards Agency website has moved to GOV.UK.** food.gov.uk/safety-hygiene/* URLs now 301-redirect to gov.uk/government/publications/*. Several old FSA URLs (rice, leftovers, 4Cs, chicken) no longer resolve; their content now lives inside other GOV.UK pages ("Home food fact checker", "Student guide", "Campylobacter"). Cite the GOV.UK URLs.
+4. **Kidney beans: "boil 10 minutes" is not what the FDA Bad Bug Book tells consumers.** It records that boiling for 10 minutes at 100°C destroyed the toxin in a study, then says "Consumers should boil the beans for at least 30 minutes". The 10-minute figure is the traditional UK/NHS advice, which I could only see in search snippets today (see §5).
+
+---
+
+### 1. USDA FSIS, foodsafety.gov and CDC: consumer guidance
+
+#### 1.1 FSIS Safe Minimum Internal Temperature Chart
+- URL: https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart
+- Read: full, via Wayback capture 20260923031306 (live page 403). Page says "Last Updated: Apr 14, 2025".
+- Intro: "Cook all food to these minimum internal temperatures, as measured with a food thermometer, before removing food from the heat source. For reasons of personal preference, consumers may choose to cook food to higher temperatures."
+- The page also lists the four steps: Clean ("Wash hands and surfaces often"), Separate ("Separate raw meat from other foods"), Cook ("Cook to the right temperature"), Chill ("Refrigerate food promptly").
+- Table, exact:
+  - Beef, Pork, Veal and Lamb Steaks, Chops and Roasts: "145 degrees F (62.8 degrees C) and allow to rest for at least 3 minutes"
+  - Ground Meats: "160 degrees F (71.1 degrees C)"
+  - Ground Poultry: "165 degrees F"
+  - Ham, Fresh or Smoked (Uncooked): 145°F (62.8°C) and rest at least 3 minutes
+  - Fully Cooked Ham (to Reheat): "Reheat cooked hams packaged in USDA-inspected plants to 140 degrees F (60 degrees C) and all others to 165 degrees F (73.9 degrees C)."
+  - All Poultry (Breasts, Whole Bird, Legs, Thighs, Wings, Ground Poultry, Giblets and Stuffing): 165°F (73.9°C)
+  - Eggs: 160°F (71.1°C)
+  - Fish & Shellfish: 145°F (62.8°C)
+  - Leftovers: 165°F (73.9°C)
+  - Casseroles: 165°F (73.9°C)
+
+#### 1.2 foodsafety.gov "Cook to a Safe Minimum Internal Temperature"
+- URL: https://www.foodsafety.gov/food-safety-charts/safe-minimum-internal-temperatures
+- Read: full, via Wayback 2026 capture (nearest 20260904040832). "Date Last Reviewed November 21, 2024".
+- Uses rounded Celsius (63°C, 71°C, 74°C) where FSIS gives 62.8, 71.1, 73.9.
+- Differences from the FSIS chart worth noting:
+  - Adds bison and goat to the 145°F / 3-minute row: "Beef, bison, veal, goat, and lamb | Steaks, roasts, chops | 145°F (63°C) Rest time: 3 minutes".
+  - "Ground meat and sausage | 160°F (71°C)".
+  - Poultry: "All: whole bird, breasts, legs, thighs, wings, ground poultry, giblets, sausage, and stuffing inside poultry." 165°F (74°C).
+  - Eggs split: "Raw eggs | Cook until yolk and white are firm"; "Egg dishes (such as frittata, quiche) | 160°F (71°C)".
+  - "Rabbit and venison | Wild or farm-raised | 160°F (71°C)" (not on the FSIS chart).
+  - Seafood: fish "145°F (63°C) or cook until flesh is no longer translucent and separates easily with a fork"; shrimp, lobster, crab, scallops "Cook until flesh is pearly or white, and opaque"; clams, oysters, mussels "Cook until shells open during cooking".
+  - Precooked ham to reheat 165°F, with note that USDA-plant hams go to 140°F.
+- On rest: "Rest time is important for certain meats because it allows the innermost parts and juices of the meats to become fully and safely cooked."
+
+#### 1.3 FSIS "Danger Zone (40°F - 140°F)"
+- URL: https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/danger-zone-40f-140f
+- Read: full, via Wayback 2026 capture. "Last Updated: Jun 28, 2023".
+- "Bacteria grow most rapidly in the range of temperatures between 40 °F and 140 °F, doubling in number in as little as 20 minutes."
+- "Never leave food out of refrigeration over 2 hours. If the temperature is above 90 °F, food should not be left out more than 1 hour."
+- Keep hot food "at or above 140 °F"; keep cold food "at or below 40 °F".
+- "When roasting meat and poultry, use an oven temperature no lower than 325 °F."
+- "One of the most common causes of foodborne illness is improper cooling of cooked foods." Leftovers "must be put in shallow containers for quick cooling and refrigerated at 40 °F or below within two hours."
+- "Foods should be reheated thoroughly to an internal temperature of 165 °F or until hot and steaming."
+
+#### 1.4 FSIS "Leftovers and Food Safety"
+- URL: https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety
+- Read: full, via Wayback 20260923031306. "Last Updated: Jul 31, 2020".
+- Two main causes: "Not cooking food to a safe temperature and leaving food out at an unsafe temperature are the two main causes of foodborne illness."
+- 2-hour rule, and "1 hour if the temperature is over 90° F, such as at an outdoor picnic during summer".
+- Cooling: "divide large amounts of food into shallow containers. A big pot of soup, for example, will take a long time to cool". "Hot food can be placed directly in the refrigerator or be rapidly chilled in an ice or cold water bath before refrigerating." (Contrast with FSA, §3.2.)
+- Storage: "Leftovers can be kept in the refrigerator for 3 to 4 days or frozen for 3 to 4 months. Although safe indefinitely, frozen leftovers can lose moisture and flavor".
+- Reheat: "be sure they reach 165° F as measured with a food thermometer. Reheat sauces, soups and gravies by bringing them to a rolling boil." Microwaves "have cold spots", so check in several places.
+- Refreezing: "It is safe to refreeze any food remaining after reheating previously frozen leftovers to the safe temperature of 165° F". Also safe to thaw in the fridge, take a portion, and "refreeze the remainder of the thawed leftovers without reheating it." There is **no US "reheat only once" rule** on this page.
+
+#### 1.5 FSIS "The Big Thaw: Safe Defrosting Methods"
+- URL: https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/big-thaw-safe-defrosting-methods
+- Read: full, via Wayback 2026 capture. "Last Updated: Jun 15, 2013".
+- "There are three safe ways to thaw food: in the refrigerator, in cold water, and in the microwave. In a hurry? It's safe to cook foods from the frozen state."
+- Never thaw "on the counter, or in hot water"; outer layer can sit in the Danger Zone while the centre is frozen.
+- Fridge: turkey "requires at least a day (24 hours) for every 5 pounds of weight"; "a pound of ground meat or boneless chicken breasts" needs "a full day". After fridge thawing, ground meat, stew meat, poultry, seafood keep "an additional day or two before cooking; red meat cuts ... 3 to 5 days." Fridge-thawed food "can be refrozen without cooking, although there may be some loss of quality."
+- Cold water: leak-proof bag, "submerged in cold tap water, changing the water every 30 minutes". About 1 lb "may thaw in an hour or less"; "A 3-to 4-pound package may take 2 to 3 hours"; whole turkey "about 30 minutes per pound". Cook before refreezing.
+- Microwave: cook immediately after, because parts may start to cook and reach Danger Zone temperatures.
+- From frozen: "The cooking will take approximately 50% longer than the recommended time for fully thawed or fresh meat and poultry."
+
+#### 1.6 FSIS "Washing Food: Does it Promote Food Safety?"
+- URL: https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/washing-food-does-it-promote-food
+- Read: full, via Wayback capture 20260912193141. "Last Updated: Feb 07, 2024".
+- "USDA research has found that washing or rinsing meat or poultry increases the risk for cross-contamination in the kitchen".
+- "washing raw poultry, beef, pork, lamb or veal before cooking it is not recommended as the safest method."
+- "Campylobacter can survive in your kitchen for up to 4 hours and Salmonella can last for up to 32 hours."
+- Norovirus is "the most common foodborne illness-causing germ in the United States."
+- Homemade sanitizer for boards and utensils: "one tablespoon of unscented liquid chlorine bleach with a gallon of water". Surface disinfectant (citing CDC): "five tablespoons (one-third cup) of unscented liquid chlorine bleach to one gallon of water or four teaspoons of bleach per quart of water", left "at least one minute".
+- Brining/soaking "serves no purpose for food safety"; soaking ham or bacon removes "very little salt".
+- Eggs: "Do not wash eggs from the grocery store"; commercial washing removes the "bloom", replaced with mineral oil.
+- Produce: rinse under running tap water, no soap or commercial produce washes; "pre-washed" produce needs no further washing.
+- Handwashing: at least 20 seconds, "Hum the 'Happy Birthday' song from beginning to end twice."
+
+#### 1.7 USDA press release on the 2019 poultry-washing study
+- URL: https://www.usda.gov/about-usda/news/press-releases/2019/08/20/washing-raw-poultry-our-science-your-choice
+- Read: full, via Wayback capture 20260318115046 (live page returned a stub). Dated August 20, 2019; Release No. 0125.19.
+- Observational study. Findings, verbatim:
+  - "Of the participants who washed their raw poultry, 60 percent had bacteria in their sink after washing or rinsing the poultry. Even more concerning is that 14 percent still had bacteria in their sinks after they attempted to clean the sink."
+  - "26 percent of participants that washed raw poultry transferred bacteria from that raw poultry to their ready to eat salad lettuce."
+  - "Of the participants that did not wash their raw poultry, 31 percent still managed to get bacteria from the raw poultry onto their salad lettuce." Attributed to "a lack of effective handwashing and contamination of the sink and utensils."
+- Advice: prepare uncooked foods such as salads "BEFORE handling and preparing raw meat and poultry"; "Washing, rinsing, or brining meat and poultry in salt water, vinegar or lemon juice does not destroy bacteria. If there is anything on your raw poultry that you want to remove, pat the area with a damp paper towel and immediately wash your hands."
+- Teaching point: the non-washers' 31% is higher than the washers' 26%, so the study's real lesson is hands, sink and order of work, not washing alone. A lesson that quotes only the 26% overstates the case.
+- Note: the executive summary of the study was not read.
+
+#### 1.8 Clean, Separate, Cook, Chill
+- foodsafety.gov "4 Steps to Food Safety": https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety . Read: full via Wayback 20260905200329. Page metadata dateModified 2023-09-18.
+  - Opens: "an estimated 1 in 6 Americans will get sick from food poisoning this year alone" and "sends 128,000 Americans to the hospital each year".
+  - Soap: use plain soap and water and "skip the antibacterial soap".
+  - "Don't wash meat, poultry, eggs, or seafood to avoid spreading harmful germs around your kitchen."
+  - Hot holding "140°F (60°C) or above"; microwave "165°F (74°C) or above"; danger zone "between 40°F (4°C) - 140°F (60°C)".
+  - "Your refrigerator should be set to 40°F (4°C) or below and your freezer to 0°F (-18°C) or below."
+  - Eggs: keep "in their original carton" in the main compartment, "not in the door."
+  - "Freezing does not destroy harmful germs, but it does keep food safe until you can cook it."
+- CDC "Preventing Food Poisoning": https://www.cdc.gov/food-safety/prevention/index.html . Read: full via Wayback 2026 capture; page reviewed November 24, 2025.
+  - "follow the four steps to food safety: Clean, Separate, Cook, and Chill."
+  - Riskier foods listed include "Raw dough or raw batter made with uncooked flour".
+  - "Raw chicken is ready to cook and doesn't need to be washed first." Then: "If you choose to wash chicken, do so as safely as possible". (CDC now gives harm-reduction steps; FSA says "never".)
+  - "You can't tell if food is safely cooked by checking its color and texture (except for seafood)."
+  - Microwave wattage: at "800 watts or more, use the minimum cooking time recommended"; at low wattage (300 to 500 watts) use the maximum.
+  - "It is okay to put small portions of hot food in the refrigerator since they will chill faster."
+
+#### 1.9 FSIS thermometers and "Doneness Versus Safety"
+- "Food Thermometers": https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/food-thermometers . Read: full via Wayback (Aug 2026 capture, 20260823200227). "Last Updated: Mar 21, 2025".
+  - "Most pathogens are destroyed between 140 degrees F and 165 degrees F".
+  - "In a USDA study, 21% of participants relied on visual cues such as color and grill marks to determine if their hamburger patties were fully cooked."
+  - "Most food thermometers will give an accurate reading within 2 to 4 degrees F".
+  - Placement: "in the thickest part of the food, away from bone, fat or gristle. For thin foods, the food thermometer should be inserted through the side until it reaches the center". Whole poultry: "check the internal temperature in three places: the innermost part of the thigh, the innermost part of the wing and the thickest part of the breast." "For optimum safety, do not stuff whole poultry."
+  - Dial thermometers "must be inserted about 2 to 3 inches into the food"; bimetal instant-read senses along "2 to 2 1/2 inches" of stem and is "not appropriate to measure the temperature of any food less than 3 inches thick" (the oven-safe type). Thermocouple 2 to 5 seconds; thermistor about 10 seconds; pop-up timers "reliable to within 1 to 2 degrees F".
+  - Calibration, ice water: "fill a large glass with ice cubes. Add drinking water to the glass and stir well. Immerse the food thermometer stem a minimum of 2 inches into the mixture, touching neither the sides nor the bottom of the glass. Wait a minimum of 30 seconds ... It should read 32 degrees F". Boiling: "212 degrees F at sea level"; at altitude water boils "lower by at least 2 degrees F and perhaps lower by as much as 5 degrees F."
+- "Doneness Versus Safety": https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/doneness-versus-safety . Read: full via Wayback 20260923 capture. "Last Updated: Jul 10, 2024".
+  - "only about 15% of people consistently use a food thermometer."
+  - "Ground beef may turn brown before it has reached a temperature at which bacteria are destroyed." A hamburger cooked to 160°F (165°F for ground poultry), measured with a thermometer, "is safe" regardless of colour.
+  - "even if hamburgers look fully cooked, one in four hamburgers may not be safely cooked. Yet only 6 percent of home cooks use a food thermometer for hamburgers and only 10 percent use a food thermometer for chicken breasts" (FSIS/FDA Food Safety Survey; survey year not given on page).
+  - Internal inconsistency: the tips at the bottom still say "160 °F for hamburger, pork, and egg dishes", i.e. whole pork at 160°F, contradicting the 145°F chart. Do not quote that line.
+
+#### 1.10 FSIS "Slow Cookers and Food Safety"
+- URL: https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/slow-cookers-and-food-safety . Read: full via Wayback 20260923031306. "Last Updated: Aug 08, 2013".
+- Slow cookers run "generally between 170° and 280° F". "Always thaw meat or poultry before putting it into a slow cooker." Power cut while away: "throw away the food even if it looks done." "Reheating leftovers in a slow cooker is not recommended." Reheat to 165°F elsewhere, then hold at "at least 140 °F".
+
+---
+
+### 2. FDA Food Code (2026 edition, with 2022 checked)
+
+- 2026 release: https://www.fda.gov/food/hfp-constituent-updates/fda-releases-2026-food-code (read via fetch tool, summary). Released September 17, 2026. The FDA's own description calls it "a model of uniform provisions to assist local, state, tribal, and territorial regulators". Key changes listed include "Alternative cooling process for foods at retail" and "Updates to sanitizer temperatures, consumer advisories".
+- Food Code 2026 landing page: https://www.fda.gov/food/fda-food-code/food-code-2026 (content current 09/17/2026). PDF: https://www.fda.gov/media/194741/download . **Read: PDF downloaded and text searched in full for the sections below.**
+- Summary of changes: https://www.fda.gov/food/fda-food-code/summary-changes-2026-fda-food-code . Read: full (content current as of 09/17/2026).
+- Food Code 2022 PDF: https://www.fda.gov/media/164194/download . Read: the same sections, to confirm the numbers did not change. There was also a "Supplement to the 2022 Food Code" (November 2024; search snippet only, not read).
+- Important framing for a lesson: the Food Code governs restaurants and retail, not home kitchens. It is a model code adopted by states. Its temperatures are **time plus temperature**, while the consumer chart gives single "instantaneous" numbers.
+
+#### 2.1 § 3-401.11 Raw Animal Foods (cooking) [2026 text; identical figures in 2022]
+- (A)(1) "63°C (145°F) or above for 15 seconds" for raw eggs broken for immediate service, and for fish and intact meat (including commercially raised game).
+- (A)(2) "68oC (155oF) for 17 seconds" [the "o" is the PDF's degree sign] or the chart: 63°C (145°F) 3 minutes; 66°C (150°F) 1 minute; 70°C (158°F) "< 1 second (instantaneous)". Applies to ratites, non-intact meats (e.g. injected), comminuted fish and game, and raw eggs not for immediate service.
+- (A)(3) "74oC (165oF) or above for < 1 second (instantaneous) for *POULTRY" plus wild game, stuffed fish, stuffed meat, stuffed pasta, stuffed poultry, and stuffing containing fish, meat or poultry.
+- (B) Whole meat roasts (beef, corned beef, lamb, pork, cured pork roasts such as ham), minimum time at temperature:
+  - Minutes: 130°F (54.4°C) 112; 131°F 89; 133°F 56; 135°F 36; 136°F 28; 138°F 18; 140°F 12; 142°F 8; 144°F 5; 145°F (62.8°C) 4.
+  - Seconds (header "Time1 in Seconds" confirmed in the 2022 PDF): 147°F 134; 149°F 85; 151°F 54; 153°F 34; 155°F 22; 157°F 14; 158°F 0.
+  - Footnote: "Holding time may include post-oven heat rise."
+  - Oven must be preheated: still dry oven, roast under 4.5 kg (10 lb), "177°C (350°F) or more"; convection "163°C (325°F) or more"; roasts of 10 lb or more 121°C (250°F) or more.
+- (C) Intact whole-muscle beef steak may be served rare to a non-highly-susceptible population if "cooked on both the top and bottom to a surface temperature of 63°C (145°F) or above and a cooked color change is achieved on all external surfaces."
+- (D) Raw or undercooked animal food (raw egg, raw fish, steak tartare, soft cooked eggs, rare meat) may be served on consumer request with the § 3-603.11 advisory, not to highly susceptible populations, and not comminuted meat from a children's menu.
+- Annex 3 (public health reasons), verbatim: "in cooking a beef roast, the microbial lethality achieved at 112 minutes after it has reached 54.4°C (130°F) is the same lethality attained as if it were cooked for 4 minutes after it has reached 62.8°C (145°F)." The roast table meets "a 6.5-log10 reduction of Salmonella" and comes from FSIS Appendix A.
+- Annex 3 on pork: "Trichinella spiralis, Toxoplasma gondii, and Taenia solium ... are inactivated at temperatures below 145oF. Therefore, pork roasts can be cooked like beef roasts".
+- Annex 3 on poultry: 165°F instantaneous "yield greater than a 7D reduction."
+- Annex 3 on eggs: "at 63oC(145oF), a time span of 15 seconds will provide a 3D reduction of Salmonella Enteritidis in eggs."
+
+#### 2.2 § 3-403.11 Reheating for Hot Holding
+- (A) cooked, cooled and reheated TCS food: "all parts of the *FOOD reach a temperature of at least 74°C (165°F) for 15 seconds."
+- (B) Microwave: 165°F, "rotated or stirred, covered, and allowed to stand covered for two minutes after reheating."
+- (C) Commercially processed ready-to-eat food: at least 57°C (135°F).
+- (D) "the time the *FOOD is between 5°C (41°F) and the temperatures specified ... may not exceed two hours."
+
+#### 2.3 § 3-501.13 Thawing
+- Under refrigeration at 5°C (41°F) or less; or "Completely submerged under running water" at "21°C (70°F) or below" with enough velocity to float off particles; or as part of cooking; or microwave then immediately to conventional cooking. (Contrast: FSIS consumer advice is still water changed every 30 minutes.)
+
+#### 2.4 § 3-501.14 Cooling
+- "(1) Within two hours from 57ºC (135ºF) to 21ºC (70ºF); P and (2) Within a total of six hours from 57ºC (135ºF) to 5ºC (41ºF) or less." (2022 wording: "Within 2 hours ... Within a total of 6 hours"; same figures.)
+- (B) Foods made from ambient-temperature ingredients (e.g. canned tuna): to 41°F within four hours.
+- The 2022 reference list for this section begins with a 1988 paper on "Growth of Clostridium perfringens in cooked chili during cooling", which shows what the rule is aimed at.
+
+#### 2.5 § 3-501.15 Cooling Methods (changed in 2026)
+- Methods: shallow pans; smaller or thinner portions; rapid cooling equipment; "Stirring the *FOOD in a container placed in an ice water bath"; heat-transfer containers; "Adding ice as an ingredient"; **new (A)(7) "Placing the *FOOD at a depth of no more than 2 inches"**; other effective methods.
+- **New ¶ (C)**: with regulatory approval, cooked TCS food may be cooled "Filled no more than two inches deep", "Held uncovered", in a unit at 41°F or less with continuous electronic time and temperature monitoring. Supporting reference added: Koreen, Baldwin and Schaffner, 2024, "Cooling Uncovered Foods at a Depth of ~5.1 cm (2 in.) or Less Poses Little Risk of Pathogen Growth". Useful for a home lesson: 2 inches deep, uncovered, is now the retail benchmark for fast cooling.
+
+#### 2.6 § 3-501.16 Hot and Cold Holding
+- "(1) At 57°C (135°F) or above, except that roasts cooked ... as specified in ¶ 3-401.11(B) ... may be held at a temperature of 54°C (130°F) or above; P or (2) At 5°C (41°F) or less."
+- So retail uses 41°F and 135°F; consumer advice uses 40°F and 140°F.
+
+#### 2.7 § 3-603.11 Consumer advisory
+- Title in 2026 (and 2022): "Consumption of Animal Foods that are Raw, Undercooked, or Not Otherwise Processed to Eliminate Pathogens."
+- Disclosure examples: "“oysters on the half shell (raw oysters) ,” “raw-*EGG Caesar salad,” and “hamburgers (can be cooked to order)”".
+- Reminder options, verbatim: "(1) Regarding the safety of these items, written information is available upon request; ... (2) Consuming raw or undercooked *MEATS, *POULTRY, seafood, shellfish, or *EGGS may increase your *RISK of foodborne illness; ... or (3) ... especially if you have certain medical conditions."
+
+---
+
+### 3. UK: Food Standards Agency and NHS
+
+All FSA pages below were read in full through the GOV.UK Content API (the HTML body of each publication). Dates are the GOV.UK "first published" and "public updated" fields.
+
+#### 3.1 FSA "Cooking your food"
+- URL: https://www.gov.uk/government/publications/cooking-your-food/cooking-your-food (old URL food.gov.uk/safety-hygiene/cooking-your-food redirects). Published 18 December 2017; no later update recorded.
+- Temperatures, verbatim: "the middle of the food should reach a temperature of 70°C for 2 minutes or the following temperature-time combinations: 60°C for 45 minutes 65°C for 10 minutes 70°C for 2 minutes 75°C for 30 seconds 80°C for 6 seconds". (The 60°C for 45 minutes line is there too.)
+- Primary cue is visual: "use visual cues, such as making sure the food is steaming hot"; thermometer is "consider using". Chicken: "cut into the thickest part and check there is no pink meat left and that juices run clear". Whole bird: thickest part is "the leg between the drumstick and the breast".
+- Pork: "Poultry (such as chicken, turkey, duck, and game birds) and pork can have bacteria all the way through the meat. This means that these meats need to be cooked all the way through." "make sure there is no pink, fleshy meat".
+- Mince and offal: mince, burgers, sausages, kebabs, "rolled joints", offal must be cooked through. "Burgers shouldn’t be served rare or pink at home."
+- Whole cuts except poultry and pork "only ever have bacteria on the outside surface of the meat. These can be served pink in the middle according to taste" after searing.
+- Frozen vegetables (sweetcorn, peas, carrots) "can contain bacteria" and need cooking unless the pack says otherwise (Listeria context, not stated on the page).
+- Leftovers: "Eat leftovers within 48 hours or freeze them". Danger zone: "When food is at a temperature of between 8 - 63°C, this is called The Danger Zone." Reheat: "you should only ever reheat once. This is because repeatedly changing temperatures provides more chances for bacteria to grow".
+
+#### 3.2 FSA "How to chill, freeze and defrost food safely"
+- URL: https://www.gov.uk/government/publications/how-to-chill-freeze-and-defrost-food-safely/how-to-chill-freeze-and-defrost-food-safely . Published 18 December 2017.
+- "your fridge should be between 0 and 5°C and your freezer should be around -18°C". Check with a fridge thermometer "once a week".
+- Chilled food out of fridge during preparation: "a maximum of four hours".
+- "Don’t place hot or warm food in your fridge. Instead, cool cooked food at room temperature and place in the fridge within one to two hours." (Opposite emphasis to FSIS, which says hot food "can be placed directly in the refrigerator".)
+- Defrost in the fridge, or "use a microwave on the defrost setting directly before cooking". Cold-water thawing is not mentioned. "use food within 24 hours after it’s been fully defrosted".
+- "you can freeze food again once cooked, but you’ll only be able to reheat it once after that".
+- Freezer: "you can freeze food right up until midnight on the ‘use by’ date". Meats best "within 2-3 months".
+- Danger Zone explainer: "Defrost food in the fridge to prevent it sitting in between 8 - 63°C". Cold does not stop Listeria monocytogenes.
+- Do not store food in an opened tin can (tin transfer).
+
+#### 3.3 Washing raw chicken, Campylobacter, and the 4Cs
+- "Campylobacter": https://www.gov.uk/government/publications/campylobacter/campylobacter . Published 9 January 2018.
+  - "Campylobacter is the main cause of bacterial food poisoning in the UK."
+  - "washing raw chicken can spread campylobacter by splashing it onto hands, work surfaces, clothing and cooking equipment. Campylobacter has a low infective dose".
+  - "never wash chicken/poultry"; chill "below 5°C".
+  - 4Cs, verbatim list: "cleaning chilling cooking avoiding cross-contamination".
+- "Why avoiding cross-contamination is important": https://www.gov.uk/government/publications/why-avoiding-cross-contamination-is-important . Published 18 December 2017. Heading "Don’t wash raw meat, fish or poultry": "Washing meat, fish and poultry doesn’t get rid of harmful bacteria - only thorough cooking will." If one board, "prepare vegetables and fruit first followed by raw meat, fish or poultry last".
+- "Student guide to food safety and hygiene": https://www.gov.uk/government/publications/student-guide-to-food-safety-and-hygiene . First published 15 November 2021, updated 8 July 2026. "Don’t wash raw chicken." Also warns that breaded chicken and goujons "are often assumed to be ready to eat, but can actually contain raw meat."
+- BBQ food safety (updated 31 July 2026): "never washing raw chicken or any other meat". Steaks "can be served pink, rare or bloody"; "chicken and pork, as well as minced meat products such as burgers, kebabs and sausages should not be served pink or rare".
+
+#### 3.4 Rice and Bacillus cereus (UK)
+- Source: FSA "Home food fact checker", https://www.gov.uk/government/publications/home-food-fact-checker . First published 2 June 2020, updated 21 August 2026. The old NHS rice page (nhs.uk/common-health-questions/food-and-diet/can-reheating-rice-cause-food-poisoning/) now redirects here.
+  - "Rice may be eaten cold if it is cooled down quickly. Put the rice in the fridge and consume within 24 hours."
+  - "It’s not the reheating that causes the problem, but the way the rice has been stored before it’s reheated."
+  - "The spores of Bacillus cereus can survive being cooked."
+  - "you should never reheat rice more than once."
+  - "chill it as quickly as possible, ideally within one hour ... don’t leave rice in the rice cooker, steamer or pan to cool down."
+  - Freezing: "By making sure rice goes in the freezer within an hour of cooking, you will stop bacteria multiplying and producing a toxin."
+- Student guide repeats: rice "ideally within one hour"; "no more than one day" in the fridge; "Consume cooked rice within 24 hours of cooking."
+- NHS "Storing and reheating food" (baby weaning): https://www.nhs.uk/best-start-in-life/baby/weaning/safe-weaning/storing-and-reheating-food/ . Read: full (no review date found in page source). "With rice, make sure it's cooled within 1 hour and then goes straight in the fridge or freezer. Rice kept in the fridge should be eaten within 24 hours. Never reheat rice more than once." Other food: cool "ideally within 1 to 2 hours"; fridge "use it within 2 days"; "Any already-cooked food you're feeding your child should only be reheated once."
+- The FDA/US consumer pages I read give **no rice-specific rule**; rice falls under the general 2-hour and 3 to 4 day leftovers rules. The Bad Bug Book (§5) explains the mechanism.
+
+#### 3.5 Other FSA fact-checker items
+- Raw eggs: "young children, people who are pregnant, older people and people with an underlying health condition ... can now safely eat raw or lightly cooked hen eggs ... if they have a British Lion mark or are produced under the Laid in Britain egg assurance scheme." Excludes the "severely immunocompromised". (US: FSIS egg dishes to 160°F; Food Code uses pasteurized eggs for susceptible groups. A genuine policy difference, driven by UK flock vaccination; the vaccination reason is not stated on the page read.)
+- Egg float test "assesses age, not safety".
+- Meat: "Previously cooked and frozen meat should only be reheated once."
+- Kidney beans: "Raw or undercooked beans especially red kidney beans can be risky ... You should not slow cook raw red kidney beans as it does not destroy the toxin and may increase its toxicity." (No boiling time is given on this page.)
+- Opened cans and bulging cans: do not eat from "a visibly bulging can".
+
+#### 3.6 FSA Clostridium perfringens (home batch cooking)
+- https://www.gov.uk/government/publications/clostridium-perfringens . Published 25 June 2026.
+- "These bacteria can develop spores which can survive cooking and grow during slow cooling and unrefrigerated storage." Applies to "batch cooking at home where you may leave food out to cool longer than you intended".
+- "cool them within 2 hours and place them in the fridge or freezer"; "make sure food isn’t left out for more than 4 hours (less on a very warm day)"; chill "below 5°C".
+
+#### 3.7 Rare burgers: FSA guidance for businesses and what it says for home cooks
+- "Less than thoroughly cooked beef burgers guidance for food businesses and local authorities": https://www.gov.uk/government/publications/less-than-thoroughly-cooked-beef-burgers-guidance-for-food-businesses-and-local-authorities . Read: full. Version dated 22 May 2023; "We will review this guidance before June 2025" (no newer version found).
+- History: "May 2016 - Original guidance published"; "June 2018 - Revision to consumer messaging"; January 2022 and May 2023 revisions (approved-premises advice added).
+- The standard: "When burgers are thoroughly cooked, achieving a temperature of 70°C for two minutes, or equivalent all the way through, this will result in a 99.9999% (six-log) reduction". Equivalents listed: "80°C for at least 6 seconds 75°C for at least 30 seconds 65°C for at least 10 minutes 60°C for at least 45 minutes".
+- Legal position: "there is no legal requirement to cook meat for a specific time or to a specific temperature, food businesses are legally obliged to produce safe food."
+- Methods: sous vide to a validated 70°C/2 min equivalent; "sear and shave"; "source control" (supplier controls giving 2-log plus cooking giving 4-log).
+- Home cooks: the point-of-sale message "also aims to discourage consumers from eating LTTC beef burgers at home"; businesses should help "consumers understand that cooking pink burgers at home is not recommended."
+- Recommended menu wording: "‘Burgers cooked rare and medium rare carry a higher risk of food poisoning. Unlike a steak, a burger needs to be cooked through to reduce that risk. The Food Standards Agency recommends that children, pregnant women and anyone with a weaker immune system have their burgers well done. Please ask us for more information.’"
+- Consumer "Burgers" page (https://www.gov.uk/government/publications/burgers , 19 December 2017): "This applies to all burgers, including burgers made from good quality or expensive meat." "That’s why a burger needs to be served well done, while a steak can be served rare." Vulnerable groups listed: children, people aged 65 or over, people who are pregnant, weakened immune system.
+
+#### 3.8 NHS "Food poisoning"
+- https://www.nhs.uk/conditions/food-poisoning/ . Read: full. "Page last reviewed: 19 December 2024. Next review due: 19 December 2027."
+- "Food poisoning is rarely serious and usually gets better within a week." Symptoms "usually start within a few hours or a few days"; "Sometimes symptoms do not start for a few weeks."
+- Causes: food "not cooked or reheated thoroughly", "not stored correctly", "handled by someone who's ill or has not washed their hands", "eaten after its "use by" date". Campylobacter is "the most common cause of food poisoning in the UK".
+- Call 111 for "diarrhoea for more than 7 days or vomiting for more than 2 days".
+- The NHS adult page "How to store food and leftovers" at the URL first tried returns 404; I did not find a current replacement. The NHS storage advice I could read is the baby-weaning page in §3.4.
+
+---
+
+### 4. Burden of illness
+
+#### 4.1 US, CDC
+- Current CDC page: "Estimates: Burden of Foodborne Illness in the United States", https://www.cdc.gov/food-safety/php/data-research/foodborne-illness-burden/index.html . Read: full via Wayback capture 20260829145538; page reviewed March 19, 2025.
+  - "Six of these pathogens caused 9.9 million domestically acquired foodborne illnesses." "Illnesses caused by all seven pathogens resulted in 53,300 hospitalizations and 931 deaths."
+  - Pathogens: Campylobacter, C. perfringens, invasive Listeria monocytogenes, norovirus, nontyphoidal Salmonella, STEC, Toxoplasma gondii (Toxoplasma counted for hospitalizations and deaths only).
+  - "Norovirus was the leading cause of domestically acquired foodborne illnesses (5.5 million) and hospitalizations from these illnesses (22,400)." "Salmonella was the leading cause of domestically acquired foodborne illnesses resulting in death (238)."
+  - "Invasive Listeria caused 1,050 non-pregnancy-associated illnesses and 198 pregnancy-associated illnesses."
+- Paper: Scallan Walter EJ et al., "Foodborne Illness Acquired in the United States: Major Pathogens, 2019" (the title uses a dash, rendered here as a colon), Emerging Infectious Diseases 31(4), April 2025. https://wwwnc.cdc.gov/eid/article/31/4/24-0913_article . Read: full (direct). Abstract gives about 9.9 million illnesses (90% credible interval 5.9 to 15.4 million), 53,300 hospitalizations and 931 deaths; Campylobacter 1.9 million illnesses and 13,000 hospitalizations; Salmonella 1.3 million and 12,500.
+- CDC Q&A, https://www.cdc.gov/food-safety/php/data-research/burden-qa.html . Read: full via Wayback 20260726050225. "We cannot meaningfully compare the estimates from 2019 with the ones published in 2011." "CDC's 1999 and 2011 estimates were not wrong". "The 2019 estimates give more descriptive information on the seven major pathogens instead of the broader 31 pathogens recorded previously in 2011."
+- The older all-cause figures still appear on federal consumer pages read today: FSIS Food Thermometers ("roughly 48 million people getting sick,128,000 hospitalizations and 3,000 deaths within the U.S."), foodsafety.gov ("1 in 6 Americans", "128,000"), USDA 2019 press release ("roughly 128,000 hospitalizations and 3,000 deaths"). Recommendation: a lesson can say "CDC's 2011 estimate, which covered all causes, was about 48 million illnesses a year; its 2025 update, covering only seven major germs, counts about 9.9 million" and not present them as a trend.
+
+#### 4.2 CDC chicken, raw flour, Listeria
+- "Chicken and Food Poisoning", https://www.cdc.gov/food-safety/foods/chicken.html . Read: full via Wayback 2026 capture; reviewed April 29, 2024.
+  - Raw chicken "can be contaminated with Campylobacter, Salmonella, or Clostridium perfringens germs."
+  - "Every year in the United States about 1 million people get sick from eating contaminated poultry."
+  - "1 in 25 packages of chicken at the grocery store are contaminated with Salmonella."
+  - "According to a USDA study, 1 in 7 people who cleaned their sink after washing chicken still had germs in the sink." (Same 14% as the press release.)
+  - Safe-washing steps if you do wash: "Run the water gently over the chicken to reduce splashing", clean and sanitize sink, wash hands 20 seconds.
+  - "Keep your chicken stored on the bottom shelf of the refrigerator".
+- "Raw Flour and Dough", https://www.cdc.gov/food-safety/foods/no-raw-dough.html (the raw-flour-dough URL first tried was never archived). Read: full via Wayback 20260920134344; reviewed November 24, 2025.
+  - "Flour doesn't look like a raw food, but most flour is raw." Germs named: E. coli and Salmonella. "Steps like grinding grain and bleaching flour don't kill harmful germs". "Germs are killed only when flour is baked or cooked."
+  - "CDC investigated outbreaks linked to raw flour or cake mix in 2016, 2019, 2021, and 2023."
+  - Covers play dough and crafts; store edible cookie dough uses "heat-treated flour and pasteurized eggs or no eggs."
+  - "Because flour is a powder, it can spread easily."
+- UK equivalent exists ("Handling flour and flour products safely", GOV.UK, 10 April 2024) but was not read.
+- "People at Increased Risk for Listeria Infection", https://www.cdc.gov/listeria/risk-factors/index.html . Read: full via Wayback 2026 capture; reviewed September 24, 2025.
+  - Higher-risk groups: pregnant people, "People who are 65 years or older", "People who have a weakened immune system".
+  - "about 1 in 25,000 pregnant women are infected with Listeria"; "1 in 4 pregnant women who get this illness lose their pregnancy or their baby shortly after birth."
+  - "an estimated 1,250 people get sick from Listeria. More than half of all Listeria infections occur among people 65 years and older." Older adults: "1 in 6 ... die".
+  - Weakened immune system: "make up 75% of all people with Listeria infection".
+
+#### 4.3 UK, FSA
+- FSA "Foodborne pathogens" research page, https://www.food.gov.uk/research/foodborne-pathogens . Read: partial, via Wayback capture 20260613052410 (live URL now 404 after the GOV.UK move). "Foodborne pathogens such as norovirus, Campylobacter, Listeria, Salmonella and Shiga toxin-producing Escherichia coli (STEC) cause approximately 2.4 million cases of disease in the UK population and impose an annual cost to society equivalent to £9.1 billion every year."
+- Search snippets (not read at source) report a later FSA cost-of-illness re-estimate of about £10.4 billion a year with the same 2.4 million cases. Treat as unverified until the FSA source is read.
+- FSA board paper "FSA 26/03/07 Foodborne Disease Update", https://www.gov.uk/government/publications/fsa-260307-foodborne-disease-update . Read: full (GOV.UK, published 25 June 2026).
+  - "It is estimated that there are 300,000 cases of foodborne Campylobacter a year with an estimated societal and economic cost burden of £716M, compared to 32,000 foodborne Salmonella cases with an estimated burden of £212M."
+  - UKHSA 2024 reports showed "a 17.1% rise in laboratory-confirmed human cases in England" (Campylobacter and Salmonella); causes uncertain; "approximately 27% of Salmonella cases travel-associated".
+  - New UK estimates (IID3 study) are expected, with updated foodborne-disease models "should be completed by early 2027". So the 2.4 million figure is from the 2018-based model and will be replaced.
+
+---
+
+### 5. Specific hazards
+
+#### 5.1 Raw red kidney beans (phytohaemagglutinin)
+- FDA Bad Bug Book, 2nd edition (2012), chapter "Phytohaemagglutinin (kidney bean lectin)". PDF https://www.fda.gov/media/83271/download . Read: full chapter.
+  - "Toxic dose: As few as four or five raw beans can trigger symptoms." Onset "within 1 to 3 hours"; recovery "usually is rapid, within 3 to 4 hours after onset".
+  - "Raw kidney beans contain from 20,000 to 70,000 hau, while fully cooked beans contain from 200 to 400 hau." White kidney beans about one third; broad beans 5% to 10%.
+  - "Several outbreaks have been associated with beans cooked in slow cookers".
+  - "Bender and Readi found that boiling the beans for 10 minutes (100°C) completely destroyed the toxin. Consumers should boil the beans for at least 30 minutes to ensure that the product reaches sufficient temperature, for a sufficient amount of time".
+  - Slow-cooker casseroles "often reached internal temperatures of only 75°C or less, which is inadequate".
+  - Consumer box: "soaked in water for at least 5 hours, the water poured away, and the beans boiled in fresh water for at least 30 minutes."
+  - UK history: "Seven outbreaks occurred in the U.K. between 1976 and 1979."
+- UK: FSA fact checker says do not slow cook raw red kidney beans (§3.5). The familiar NHS instruction (soak at least 12 hours, boil vigorously at least 10 minutes, then simmer) appeared only in search-result snippets from syndicated copies of NHS "Beans and pulses in your diet"; I could not load the NHS page itself. **Search snippet only; confirm before quoting.** Canned kidney beans are already cooked (FSA).
+
+#### 5.2 Bacillus cereus (rice)
+- Bad Bug Book chapter "Bacillus cereus and other Bacillus species". Read: full chapter.
+  - Two illnesses: diarrheal type, onset "6 to 15 hours"; emetic (vomiting) type, "0.5 to 6 hours", most often "rice and other starchy foods". Symptoms "usually subside after 24 hours".
+  - Emetic toxin cereulide "is stable after heating at 121°C for 30 minutes, cooling at 4°C for 60 days, and at a pH range of 2 to 11." This is why reheating does not rescue badly stored rice.
+  - Growth: optimum 28°C to 35°C, "minimum growth temperature of 4°C and a maximum of 48°C".
+  - Numbers associated with illness: 10^5 to 10^8 organisms per gram; more than 10^6 per gram indicates active growth.
+  - Rare deaths: emetic toxin "implicated in liver failure and death in otherwise healthy individuals."
+  - Consumer box advises refrigeration at "40°F or lower".
+
+#### 5.3 Clostridium perfringens (big pots of stew, stock, gravy)
+- Bad Bug Book chapter. Read: full chapter.
+  - "In most instances, the actual cause of poisoning by this organism is temperature abuse of cooked foods." Spores survive cooking; vegetative cells have a "fast doubling time (<10 minutes ...)", so "during cool-down (109-113°F) and storage of prepared foods, this organism can reach levels that cause food poisoning much more quickly than can other bacteria."
+  - Vehicles: "Meats (especially beef and poultry), meat-containing products (e.g., gravies and stews)". "Spores of some C. perfringens strains can survive boiling water for an hour" (the PDF text breaks at "an ho", reading "hour" is the evident completion; check the PDF page before quoting).
+  - Most common setting: institutions "where large quantities of food are prepared several hours before serving".
+  - Onset about 16 hours (range in consumer box 8 to 16 hours); mild form lasts "12 to 24 hours". Dose above 10^6 cells or spores per gram.
+- Tie-ins: Food Code cooling rule (§2.4) and 2-inch depth (§2.5); FSIS big-pot-of-soup advice (§1.4); FSA C. perfringens page (§3.6); FSIS Appendix A recommends limiting time between 50 and 130°F "to 6 hours or less".
+
+#### 5.4 Botulism relevant to home cooks
+- Garlic in oil: NCHFP "Freezing Garlic-In-Oil", https://nchfp.uga.edu/how/freeze/vegetable/freezing-garlic-in-oil/ . Read: full. "Research performed by the National Center for Home Food Preservation confirmed that mixtures of garlic in oil stored at room temperature are at risk for the development of botulism." "Garlic-in-oil should be made fresh and stored in the refrigerator at 40°F or lower for no more than 4 days. It may be frozen for long term storage for up to several months." Reference: Nummer, Schaffner, Fraser and Andress (2011), Food Protection Trends 31(6):336-342.
+- FDA requirement that commercial garlic-in-oil contain acidifying agents or microbial inhibitors: search snippet only (not read at FDA).
+- Home canning: CDC "Prevent Botulism: Home-Canned Foods", https://www.cdc.gov/botulism/prevention/home-canned-foods.html . Read: full via Wayback 20260915231556; reviewed April 25, 2024.
+  - "follow safe canning instructions ... These instructions are in the USDA Complete Guide to Home Canning." "Do not use other recipes, even if you got them from a trusted friend or family member."
+  - "Low-acid foods have a pH higher than 4.6." "Home-canned vegetables, which are low-acid foods, are the most common cause of botulism outbreaks in the United States." "Pressure canning is the only recommended method for canning low-acid foods." Do not use electric multi-cookers with a "canning" button.
+  - "If in doubt, throw it out! Never taste food to see if it's safe."
+- Point learners to: USDA Complete Guide to Home Canning, 2015 revision, hosted by NCHFP (https://nchfp.uga.edu/resources/category/usda-guide ; confirmed the "2015 revision" listing, guide not read). Canning deliberately not researched further.
+
+---
+
+### 6. Sous vide and pasteurization: safety is time plus temperature
+
+#### 6.1 FSIS Cooking Guideline (Revised Appendix A), December 2021
+- "FSIS Cooking Guideline for Meat and Poultry Products (Revised Appendix A)", December 2021, Document ID FSIS-GD-2021-14. Canonical page https://www.fsis.usda.gov/guidelines/2021-0014 (blocked). **Read: full PDF from a North Carolina Department of Agriculture mirror**, https://www.ncagr.gov/meat-poultry-inspection/Appendix-A12-2021/download . Tables 2 to 4 are images; I read them visually.
+- Scope: an industry guideline for ready-to-eat products, "It applies to small and very small meat and poultry official establishments". Not written for home cooks.
+- Targets: 6.5-log Salmonella reduction for meat, 7-log for poultry (9 CFR 381.150(a)(1)).
+- Table 2, meat (6.5-log / 7-log): 130°F 112 min / 121 min; 135°F 36 / 37 min; 140°F 12 / 12 min; 145°F 4 / 4 min; 147°F 134 sec / 144 sec; 150°F 67 / 72 sec; 155°F 22 / 23 sec; 158°F 0 sec. Footnote: "The required Log reductions are achieved instantly (0 seconds) when the internal temperature of a cooked meat product reaches 158°F or above."
+- Table 3, chicken, 7-log, by fat level (1% fat and 12% fat shown):
+  - 136°F: 63.3 min and 81.4 min
+  - 140°F: 25.2 min and 35 min
+  - 145°F: 8.4 min and 13 min
+  - 150°F: 2.7 min and 4.2 min
+  - 155°F: 44.2 sec and 54.4 sec
+  - 160°F: 13.7 sec and 16.9 sec
+  - 162°F: 0 sec at 1% to 6% fat, 9.6 to 10.5 sec at 7% to 12% fat
+  - 163°F to 165°F: 0 sec at every fat level. Footnote: "A 7-Log reduction of Salmonella is achieved instantly at internal temperatures in which the holding time is 0 seconds (0 sec.)."
+- Table 4, turkey, 7-log (1% / 12% fat): 140°F 28.1 / 33.7 min; 145°F 10.5 / 13.8 min; 150°F 3.8 / 4.9 min; 155°F 1.2 / 1.3 min; 160°F 25.6 / 26.9 sec; 164°F 11.1 / 11.7 sec; 165°F 0 sec.
+- Also: "FSIS recommends limiting the total time product temperature is between 50 and 130°F to 6 hours or less".
+- The lesson this supports: 165°F for poultry is the temperature at which the 7-log kill is instantaneous, so a thermometer reading is enough. Lower temperatures give the same kill if held long enough: chicken breast at 145°F for about 8.4 to 13 minutes, depending on fat. That is why sous vide chicken at 60 to 63°C can be safe, and why a quick 150°F reading on a grill is not.
+- The consumer chart's 145°F plus 3-minute rest for whole cuts is a close cousin of the Food Code's 145°F for 15 seconds for steaks (surface contamination) and 145°F for 4 minutes for roasts.
+
+#### 6.2 Douglas Baldwin, "A Practical Guide to Sous Vide Cooking"
+- URL: https://douglasbaldwin.com/sous-vide.html . Read: full. "Version 0.4k"; page footer "Last Updated: Thursday, December 25, 2014". Author of "Sous Vide for the Home Cook" (2010). Secondary source; its figures cite FSIS 2005 and the FDA Food Code 2009, so check against current editions.
+- Danger zone critique: "it’s well known that food pathogens can only multiply between 29.7°F (-1.3°C) and 126.1°F (52.3°C)". Food is safe "after about 12 minutes (for meat) and 35 minutes (for poultry) ... when the coldest part is 140°F (60°C)".
+- Lowest recommended bath: "130°F (54.4°C) ... the lowest temperature I recommend for cooking sous vide"; about "2½ hours to reduce E. coli to a safe level in a 1 inch (25 mm) thick hamburger patty".
+- D-value example: Salmonella in ground beef at 140°F "is reduced by a factor ten every 5.48 minutes"; FSIS 6.5-log target gives "at least 35.6 minutes" at 140°F.
+- "Pasteurization is a combination of both temperature and time."
+- Species: "at 140°F (60°C), it'll take you about 60% longer for chicken as it does for beef."
+- Thickness: "a steak that is twice as thick takes about four times longer to cook and cool!"
+- Table 4.1, poultry, total time in bath starting at 41°F (heating plus holding), for a 25 mm (1 inch) piece: 57°C 3 hr; 58°C 2¼ hr; 60°C 1½ hr; 63°C 1¼ hr; 65°C 55 min. Targets "a one million to one reduction in Listeria and a ten million to one reduction in Salmonella".
+- Spores: pasteurization leaves spores; cool in ice water "that is at least half ice" and refrigerate; "Raw or unpasteurized food must never be served to highly susceptible or immune compromised people."
+- Note: the FSA burger guidance (§3.7) also accepts sous vide if validated to the 70°C for 2 minutes equivalent, and lists 60°C for 45 minutes.
+
+---
+
+### 7. US vs UK: where the guidance differs
+
+| Topic | US (FSIS, foodsafety.gov, CDC, FDA) | UK (FSA, NHS) | Note for the lesson |
+|---|---|---|---|
+| Fridge temperature | 40°F (4°C) or below | "between 0 and 5°C" | 5°C is 41°F, which matches the FDA retail figure; the consumer figures differ by about 1°C |
+| Freezer | 0°F (-18°C) | "around -18°C" | Same |
+| Danger zone | 40°F to 140°F (4°C to 60°C) | "between 8 - 63°C" | UK lower bound reflects UK legal chill limit of 8°C (not read today); upper bound 63°C vs 60°C |
+| Time out of fridge | 2 hours; 1 hour above 90°F | Chilled food out during preparation "a maximum of four hours"; C. perfringens page "not ... more than 4 hours (less on a very warm day)"; cool and refrigerate "within one to two hours" | UK gives a longer limit for prep, similar limit for cooling |
+| Hot food into fridge | "Hot food can be placed directly in the refrigerator" (FSIS); small portions okay (CDC) | "Don’t place hot or warm food in your fridge. Instead, cool cooked food at room temperature and place in the fridge within one to two hours" | Both want fast cooling; they disagree on method. Worth teaching as a disagreement |
+| How "cooked" is judged | Thermometer is "the only reliable way"; colour is not a reliable guide | Visual cues first (steaming hot, no pink, juices clear); thermometer "consider using" | The largest difference in method |
+| Poultry | 165°F (73.9°C), instantaneous | 70°C for 2 min or equivalents (65°C 10 min, 75°C 30 s, 80°C 6 s, 60°C 45 min) | Both are time-temperature equivalents; UK states the time |
+| Pork | 145°F plus 3-minute rest; pink is acceptable | Cook "all the way through"; no pink | Real difference in advice |
+| Whole cuts of beef and lamb | 145°F plus 3-minute rest (medium) | May be served pink or rare once the surface is seared | UK more permissive for whole cuts |
+| Burgers and mince | 160°F; brown colour not a sign of safety | Cooked through, no pink, steaming; restaurants may serve pink under strict controls with a consumer message | Both say do not cook pink burgers at home |
+| Raw or runny eggs | Egg dishes 160°F; "cook until yolk and white are firm" | Lion-mark or Laid in Britain eggs safe raw or lightly cooked, even for vulnerable groups (except severely immunocompromised) | Genuine policy difference |
+| Leftovers in fridge | 3 to 4 days | "within 48 hours" / 2 days | UK is stricter |
+| Reheating | To 165°F (74°C); sauces to a rolling boil | "steaming hot" throughout; no number given | |
+| Reheat only once | No such rule; reheated leftovers may be refrozen (FSIS) | "you should only ever reheat once" (FSA, NHS) | UK only |
+| Rice | No rice-specific rule on pages read; general 2-hour and 3 to 4 day rules | Cool "ideally within one hour"; fridge "no more than one day" / 24 hours; never reheat more than once | UK stricter and specific |
+| Thawing | Fridge, cold water changed every 30 minutes, or microwave; cook from frozen allowed | Fridge, or microwave defrost immediately before cooking; use within 24 hours of defrosting | UK does not list cold water |
+| Use after fridge thawing | Ground meat, poultry, seafood 1 to 2 days; red meat 3 to 5 days | 24 hours | UK stricter |
+| Washing raw chicken | "not recommended"; CDC gives safe-washing steps "If you choose to wash" | "never wash chicken/poultry"; do not wash raw meat, fish or poultry | Same conclusion, UK firmer |
+| Hot holding | 140°F consumer; 135°F Food Code | 63°C (145°F) as top of danger zone | |
+| Kidney beans | FDA Bad Bug Book: boil at least 30 minutes; soak 5 hours; no slow cooker | Do not slow cook raw kidney beans (FSA); NHS 10-minute vigorous boil (snippet only) | Numbers differ; both ban slow cookers for raw beans |
+| Name of the framework | Clean, Separate, Cook, Chill | The 4Cs: cleaning, chilling, cooking, avoiding cross-contamination | Same content |
+
+---
+
+### 8. Not read / blocked
+
+- **All live FSIS, foodsafety.gov and CDC pages: blocked** (HTTP 403 Akamai "Access Denied" to curl and to the fetch tool). Read instead via Internet Archive captures from August and September 2026, as marked above.
+- FSIS "Washing Food" live page: blocked; read via Wayback 20260912193141.
+- USDA 2019 observational study executive summary: not read (press release only).
+- CDC raw flour URL first tried (cdc.gov/food-safety/foods/raw-flour-dough.html): never archived; read the current page no-raw-dough.html instead.
+- NHS "How to store food and leftovers" (nhs.uk/live-well/eat-well/food-guidelines-and-food-labels/how-to-store-food-and-leftovers/): **404 today**. No adult replacement found.
+- NHS "Beans and pulses in your diet" (kidney bean soak 12 hours, boil 10 minutes): **search snippets only**, from syndicated council copies; NHS page not loaded.
+- Old FSA URLs food.gov.uk/safety-hygiene/{leftovers, rice, the-4cs-of-food-hygiene, chicken, cross-contamination}: no longer resolve after the move to GOV.UK; equivalent content read on GOV.UK pages as cited.
+- FSA £10.4 billion cost re-estimate: search snippet only.
+- FDA garlic-in-oil acidification requirement: search snippet only.
+- FDA "Supplement to the 2022 Food Code" (Nov 2024): search snippet only; superseded by 2026 anyway.
+- FSIS Appendix A canonical page (fsis.usda.gov/guidelines/2021-0014): blocked; PDF read from ncagr.gov mirror.
+- FSA "Handling flour and flour products safely" (GOV.UK, April 2024): found, not read.
+- FSA/UK legal chill (8°C) and hot-holding (63°C) requirements in the Food Safety and Hygiene (England) Regulations: not read; the 8°C and 63°C figures above come only from the FSA "Danger Zone" wording.
+- USDA Complete Guide to Home Canning: located (2015 revision listing on NCHFP), not read, by design.
+- NHS baby "Storing and reheating food": read in full, but no review date found in the page source.
+
+---
+
+## Cooking Fundamentals, Stage 1 research, Part C: kitchen myths and the science of core techniques
+
+Compiled 2026-09-24. All "date read" entries are 2026-09-24.
+
+### How to read these notes
+
+- **Read status.** "Full" means I read the whole page or document text. "Partial" means I read the page through a summarising fetch tool, which returns extracts rather than the whole text, or I read only an abstract. "Snippet" means search-engine summary only, never opened. "Blocked" means I tried and could not get in.
+- **Quotation marks.** Text in quotation marks was copied from a page fetched today. Quotes marked **[V]** were copied from raw text I extracted myself (PDF to text, or PubMed's plain-text abstract service), so they are verbatim. Quotes marked **[T]** came back from the summarising fetch tool, which presents them as verbatim but is a language model; re-check these against the page before they go into a lesson.
+- **Classification.** Each claim is marked **established** (tested, and the tests agree), **contested** (tested, with disagreement or real uncertainty), or **folklore** (no good test supports it, or tests refute it).
+- **A big access problem.** Serious Eats (People Inc.) blocks automated readers. WebFetch refused it; curl got HTTP 402; the Jina reader returned HTTP 451 with a message that the owner has asked for automated access to stop; the Wayback Machine refused connections. I did not try to get round the block. Kenji López-Alt's Serious Eats articles are therefore read here only through (a) Serious Eats articles syndicated on AOL and Yahoo, which are the publisher's own text republished, and (b) secondary reports. Where a lesson leans on a Kenji number, someone should read the original in a browser. The NYT (Bittman 2006) and NEJM (Kwok 1968) were also blocked.
+
+---
+
+### 1. Searing "seals in juices"
+
+**Classification: folklore.** Tested repeatedly since the 1930s; seared meat loses as much moisture as unseared, or more.
+
+**Origin.** Justus von Liebig, around 1850.
+- Source: Wikipedia, "Searing". https://en.wikipedia.org/wiki/Searing . Read: partial (fetch tool). It says the theory "was first put forth by Liebig in his book _Researches on the Chemistry of Food_ around 1850" [T], and that "Experiments to test the theory were carried out as early as the 1930s and found that the seared roasts lost the same amount of moisture or more" [T]. It cites McGee that searing gives greater moisture loss than cooking to the same internal temperature without searing.
+- Search snippets (not opened) name a 1930 University of Missouri home economics study and say Escoffier took up Liebig's idea. Treat both as unconfirmed until a primary is found; McGee's *On Food and Cooking* (2004) is the book to check in print.
+
+**Tests with numbers.**
+- **Cook's Illustrated / America's Test Kitchen, "Searing Steak".** https://www.americastestkitchen.com/cooksillustrated/how_tos/5699-searing-steak . No author or date on page. Read: partial. Eight 1¼-inch rib-eyes in two batches: one seared raw then oven-cooked to 125°F; the other oven-cooked to 110°F then seared to 125°F. Result: "both sets of steak lost nearly an identical amount of liquid: around 22 percent of their weight" [T].
+- **Alton Brown, *Good Eats* "Myth Smashers" (episode 119, season 8)**, as recorded by Allison Chauvin, blog post 13 February 2019. https://allisoncooksgoodeats.com/2019/02/13/episode-119-myth-smashers/ . Read: partial. Unseared steak lost 13% of its weight, seared lost 19%. Secondary account of a TV test; one steak each, so anecdotal.
+- **Kenji López-Alt, "The Food Lab: 7 Old Wives' Tales About Cooking Steak", Serious Eats, June 2013.** http://www.seriouseats.com/2013/06/the-food-lab-7-old-wives-tales-about-cooking-steak.html (now https://www.seriouseats.com/the-food-lab-7-old-wives-tales-about-cooking-steak). **Blocked.** Kottke.org's 2013 link post (read, partial) quotes the finding that a steak "cooked gently first and finished with a sear will not only develop a deeper, darker crust...but it also cooks more evenly from center to edge" [T]. Search snippets (not opened) report Kenji's roast test: sear-first lost 1.68% more juice than sear-last. Snippet only; confirm before use.
+- **Serious Eats, "Why So Many Meat Cooking 'Rules' Are Wrong", Laila Ibrahim, syndicated on AOL 21 December 2025** (the same piece syndicated on Yahoo, dated 9 August 2026). https://www.aol.com/articles/why-many-meat-cooking-rules-160000335.html and https://www.yahoo.com/lifestyle/articles/6-things-ve-told-cooking-120000706.html . Read: partial. States that seared steaks "actually lose _slightly more_ moisture than unseared ones" because of evaporation from the hotter surface [T].
+
+**What searing does.** Browning (Maillard reactions, section 6) and a crisp crust for flavour and texture. The "sear last" (reverse sear) order gives a thinner overcooked band under the crust. The practical lesson: sear for flavour, and control juiciness with final internal temperature.
+
+---
+
+### 2. Resting meat
+
+**Classification: contested, with the evidence moving.** The old claim, that resting lets juices "redistribute" or be "reabsorbed", is not supported once final temperature is controlled. Resting does matter as a way to manage carryover cooking, and hot meat sliced immediately does shed more liquid on the board.
+
+**The original test.** Kenji López-Alt, Serious Eats, about 2010 (original blocked). As described in Gritzer 2025 (below): steaks cooked to 125°F and sliced at 2.5-minute intervals from 0 to 12.5 minutes. The unrested steak shed a lot of juice; by about 10 minutes it shed hardly any. For years this was the standard evidence for resting.
+
+**The revision.**
+- **Daniel Gritzer, Serious Eats, July 2025, syndicated on AOL 22 July 2025 as "This Major Rule About Cooking Meat Turns out to Be Wrong".** https://www.aol.com/major-rule-cooking-meat-turns-155336379.html . Read: partial (fetch tool, fairly full summary).
+  - The flaw in the old test: the steaks all came off the heat at the same temperature but were sliced at different times, so carryover cooking meant they were at different final temperatures when cut.
+  - Once final temperature is matched, rested and unrested meat lose about the same juice. The mechanism he gives is vapour pressure: hotter meat pushes out more liquid when cut, so the liquid stays in because the meat has cooled, not because it has been reabsorbed.
+  - Blind taste test: four tasters rotating over 30 rounds; the rested steak was picked as juicier 16 times out of 30, which the article calls "no better than a coin-flip" [T].
+  - Key line: "Resting meat is best understood as a method of temperature control, not juice retention" [T]. Recommendation: pull early, rest just long enough for carryover to reach the target, then slice.
+- **Laila Ibrahim, Serious Eats (AOL, December 2025; Yahoo, August 2026)**, as above. Read: partial. Says Serious Eats (Gritzer), Kenji López-Alt and Chris Young (of *Modernist Cuisine*) reached the same conclusion: when final temperature is controlled, "rested and unrested meat lost essentially the same amount of juice" [T]. The same piece reports that the juice lost from probing with a thermometer is below what tasters can detect.
+
+**Carryover figures.**
+- Wikipedia, "Carryover cooking". https://en.wikipedia.org/wiki/Carryover_cooking . Read: partial. Gives 5 to 25°F (3 to 14°C), citing Amy Brown, *Understanding Food: Principles and Preparation*, 3rd ed. (Thomson Wadsworth, 2008), p. 140. The rise is larger for bigger, denser roasts and higher cooking temperatures. A thin steak rises a few degrees; a large roast from a hot oven rises most. I found no controlled table by cut size; a lesson should give the range and the principle, not invented per-cut numbers.
+
+**For the lesson.** Resting is temperature management. It is worth doing for a large roast because the centre goes on rising, and it is harmless for a steak, but the "juices redistribute" explanation should be dropped. A small caveat: this revision is recent (2025) and comes mostly from one publication plus Chris Young's work. It is well reasoned, but it is fairer to call it the current best view than settled law.
+
+---
+
+### 3. Salt: meat, beans, pasta water, boiling point
+
+#### 3a. Salting meat ahead (dry brining)
+
+**Classification: established in outline, with the "40-minute worst window" contested as to exact timing.** Salt draws out liquid, which dissolves the salt into a brine; given time, the brine is reabsorbed and the salt seasons deeper and loosens muscle proteins.
+
+- Kenji López-Alt's position, from his own TikTok (February 2025), search snippet only, not opened: salt "right before cooking it, or at a minimum 45 minutes to an hour before cooking it" because cooking inside that first hour gives a poor sear. https://www.tiktok.com/@j.kenji.lopezalt/video/7471317522248142110
+- Tasting Table, "Why You Should Always Salt Your Steak Before Cooking" (no date shown). https://www.tastingtable.com/844510/why-you-should-always-salt-your-steak-before-cooking/ . Read: partial. Reports Kenji's Serious Eats timing tests with 40 minutes ahead best among short times, and overnight uncovered on a rack better still. Cites https://www.seriouseats.com/perfect-pan-seared-steaks-recipe (blocked).
+- Search summary (not opened) of Kenji's explanation: by about 10 to 15 minutes the surface is wet with brine; by about 40 minutes most of it has been reabsorbed. The window from roughly 3 to 40 minutes gives a wet surface that steams instead of browning.
+- Hawaii Tribune-Herald, Audrey Wilson, 19 February 2019, reporting Kenji. https://www.hawaiitribune-herald.com/2019/02/19/features/lets-talk-food-steaks-at-room-temperature-or-not/ . Read: partial. Quotes Kenji that blotting a steak dry "will improve it far better than any amount of room temperature resting will" [T], and that a night or two uncovered on a rack in the fridge gives the driest surface.
+
+For a lesson: "salt just before, or 45 minutes or more ahead, ideally overnight" is the consensus of the test-kitchen writers. The exact minutes are one experimenter's observations, not a measured curve.
+
+#### 3b. Salting beans
+
+**Classification: established.** The old rule "never salt beans until the end, or they stay hard" is folklore. Salted soaking water gives softer skins.
+
+- America's Test Kitchen (Cook's Illustrated), "Salty Soak for Beans". https://www.americastestkitchen.com/cooksillustrated/how_tos/5803-salty-soak-for-beans . No author or date on page. Read: partial. Mechanism: "sodium ions replace some of the calcium and magnesium ions in the skins. Because sodium ions are more weakly charged than calcium and magnesium ions, they allow more water to penetrate into the skins, leading to a softer texture" [T]. Formula: "For 1 pound of dried beans, dissolve 3 tablespoons of table salt in 4 quarts of cold water. Soak the beans at room temperature for 8 to 24 hours" [T]. That is about 54 g salt in 3.8 L, roughly 1.4%.
+- ATK "Brining Beans in Half the Water" (search snippet only): 2 quarts water and 1½ tablespoons salt per pound also works.
+- Kenji's Serious Eats bean article and The Kitchn's piece (403) not read.
+- The true exception worth teaching is acid: acidic ingredients (tomato, vinegar) do slow softening. I did not fetch a test on that today, so it needs a source before use.
+
+#### 3c. Salting pasta water
+
+**Classification: "as salty as the sea" is folklore as literal advice; salting the water is established as the way to season the pasta itself.**
+
+- Sea salinity: NOAA Ocean Service, "Why is the ocean salty?", last updated 23 September 2026. https://oceanservice.noaa.gov/facts/whysalty.html . Read: partial. "The average salinity is about 35 parts per thousand" [T] and "about 3.5 percent of the weight of seawater comes from the dissolved salts" [T].
+- ATK standard: 1 tablespoon table salt per 4 quarts water (search snippet across many ATK recipes). With table salt at about 18 g per tablespoon (Morton labels ¼ tsp as 1.5 g), that is about 18 g in 3.79 kg water, roughly **0.5%**. Common chef guidance runs 1 to 2%. Seawater strength (3.5%) is 3 to 7 times saltier than what cooks actually use, and would make the pasta unpleasantly salty.
+- ATK, "Making Your Pasta Water Work for You", Scott Kathan, 4 April 2022. https://www.americastestkitchen.com/articles/5284-making-your-pasta-water-work-for-you . Read: partial. Advises plenty of salt, no oil, and keeping the starchy water as a sauce thickener.
+- McGee reduces salt in proportion when using less water (next item).
+
+#### 3d. How much water pasta needs; starting cold
+
+**Classification: established.** A big pot is not needed.
+
+- **Harold McGee, "How Much Water Does Pasta Really Need?", *New York Times*, 25 February 2009** (dated 24 February in the copy). NYT itself blocked; read via a full-text PDF copy hosted by Wekiva Culinary at https://www.wekivaculinary.org/wp-content/uploads/2020/04/NYTimes-22How-Much-Water-Does-Pasta-Really-Need22.pdf . Read: **full** (PDF text extracted).
+  - Standard advice: "4 to 6 quarts of well-salted water per pound of pasta" [V].
+  - Test 1: a pound of spaghetti, "just 2 quarts of cold water and 2 teaspoons salt" [V]; 8 minutes to boil, then another 10 to cook; texture and saltiness as expected. Test 2: 1½ quarts, with frequent stirring; "the spaghetti came out fine" [V].
+  - Why it works: "the noodles absorb water only very slowly at temperatures much below the boil" [V], and the noodle surface is starchier than any cooking water, so stickiness is the same either way.
+  - Dissent recorded in the same article: Lidia Bastianich ran a side-by-side and found the cold-start version lacking in texture and "nutty flavor" [V]; she accepted cutting from 6 to 4 quarts. Marcella Hazan found it needed constant stirring.
+  - McGee's energy estimate: US home savings of "several trillion B.T.U.s" [V] a year. Exception: capellini cooks too fast for the method.
+- **ATK / Cook's Illustrated, "Start Pasta in Cold Water", Lan Lam, 28 April 2023.** https://www.americastestkitchen.com/cooksillustrated/articles/7181-start-pasta-in-cold-water . Read: partial. 1 quart cold water against 4 quarts boiling for a pound of penne, linguine and elbows. Water saving 75%; total time 16 to 17.75 minutes against 23.5 to 29 minutes, "as much as 45 percent" [T] less; tasters could barely tell the difference.
+- Kenji's Serious Eats pasta-water test: blocked, not read.
+
+#### 3e. Oil in pasta water
+
+**Classification: folklore.** Oil floats and mostly goes down the drain.
+- ATK (Kathan 2022, above): oil "does not help prevent the pasta from sticking" [T]; stirring early and a good boil do.
+- *Good Eats* "Myth Smashers" (Chauvin 2019 recap): about 85% of the added oil drained away with the water. Read: partial.
+
+#### 3f. Rinsing cooked pasta
+
+**Classification: established that rinsing hot pasta is a mistake for a hot sauced dish, because it washes off the surface starch that helps sauce cling** (ATK Kathan 2022 on starch as thickener; McGee 2009 on starchy water emulsifying oil). Rinsing is reasonable for cold pasta salads and some Asian noodle dishes where separate strands are wanted. I found no controlled test beyond this reasoning; call it well-founded practice.
+
+#### 3g. Salt and the boiling point
+
+**Classification: established physics; the effect is too small to matter at the stove.**
+- Boiling-point elevation: ΔT = i × Kb × m. Kb for water is 0.512 °C·kg/mol (Wikipedia, "Boiling-point elevation", https://en.wikipedia.org/wiki/Boiling-point_elevation , read partial; value given as "0.512" [T]). NaCl dissociates into two ions, so i ≈ 2 (real value slightly lower, about 1.8 to 1.9, so these figures are upper bounds).
+- My calculation (molar mass NaCl 58.44 g/mol):
+  - ATK strength, about 18 g in 3.79 kg water (≈0.5%): m ≈ 0.081 mol/kg; ΔT ≈ **0.08°C**.
+  - 1% (10 g per 990 g water): m ≈ 0.173; ΔT ≈ **0.18°C**.
+  - 2%: ΔT ≈ **0.36°C**.
+  - Seawater strength 3.5%: ΔT ≈ **0.64°C**.
+- So salt makes water boil fractionally *later*, not faster, and cooks food fractionally hotter by an amount no one could taste. The flurry of bubbles when salt goes into near-boiling water is nucleation (the crystals give dissolved gas and vapour somewhere to form), not faster boiling.
+
+#### 3h. "Cold water boils faster"
+
+**Classification: folklore.** Colder water has further to go and takes longer. The sound reason for starting with cold tap water is lead, not speed.
+- US EPA, "Why can't I use hot water from the tap for drinking, cooking, or making baby formula?", last updated 28 October 2025. https://www.epa.gov/lead/why-cant-i-use-hot-water-tap-drinking-cooking-or-making-baby-formula . Read: partial. "Hot water dissolves lead more quickly than cold water and is therefore more likely to contain greater amounts of lead" [T].
+- (The "Mpemba effect", hot water sometimes *freezing* faster, is a separate and disputed claim about freezing, not boiling. Do not conflate them.)
+
+---
+
+### 4. Alcohol "cooks off"
+
+**Classification: established that it does not all cook off.** Retention runs from 85% down to about 5%, depending on method and time.
+
+- **Primary data: USDA Table of Nutrient Retention Factors, Release 6, Nutrient Data Laboratory, Beltsville, December 2007.** https://www.ars.usda.gov/ARSUserFiles/80400530/pdf/retn06.pdf . Read: **full** (PDF text extracted). Alcohol factors were added in Release 4 (1998). The introduction says the alcohol study tested "no heat application, alcohol added to a boiling liquid, flaming, and baking for various lengths of time" [V] using gas-liquid chromatography, and refers readers to Augustin et al. 1992.
+- Alcohol retention (% of alcohol remaining), food group 14, from the table [V]:
+
+| Code | Preparation (USDA wording) | % retained |
+|---|---|---|
+| 5002 | ALC BEV, STIRRED INTO HOT LIQ (added to boiling liquid, removed from heat) | 85 |
+| 5003 | ALC BEV, FLAMED | 75 |
+| 5001 | ALC BEV, NO HEAT, STORED OVERNIGHT | 70 |
+| 5010 | ALC BEV, NOT STIRRED IN, BKD 25 MIN | 45 |
+| 5004 | STIRRED, BKD/SIMMRD 15 MIN | 40 |
+| 5005 | STIRRED, BKD/SIMMRD 30 MIN | 35 |
+| 5006 | STIRRED, BKD/SIMMRD 1 HR | 25 |
+| 5007 | STIRRED, BKD/SIMMRD 1.5 HR | 20 |
+| 5008 | STIRRED, BKD/SIMMRD 2 HR | 10 |
+| 5009 | STIRRED, BKD/SIMMRD 2.5 HR | 5 |
+
+- **Augustin J, Augustin E, Cutrufelli RL, Hagen SR, Teitzel C. "Alcohol retention in food preparation." *J Am Diet Assoc* 1992;92(4):486-8. PMID 1556354.** Department of Food Science and Toxicology, Food Research Center, Moscow, Idaho. PubMed record read (no abstract on PubMed). The journal's abstract page (jandonline.org) returned 403: **blocked**. Search snippets say six recipes retained 4% to 85%.
+- Note for the lesson: the often-repeated figure "85% when flamed" is not what the table says: **85% is for alcohol stirred into a boiling liquid and taken off the heat; flaming is 75%.** Also "40% after 15 minutes" is for alcohol stirred in and baked *or simmered* 15 minutes. These are percentages of the alcohol added, not of the dish. A wine braise simmered 2.5 hours keeps about 5% of the wine's alcohol, a very small amount per serving, but not zero, which matters to someone avoiding alcohol entirely.
+- Pan size, pot surface area and whether the liquid is stirred all change the figures; the USDA numbers are from a small number of recipes and should be taught as rough guides.
+
+---
+
+### 5. MSG and umami
+
+**Classification: the "Chinese Restaurant Syndrome" is not supported by double-blind testing (folklore as a general claim). A small, inconsistent effect from large doses taken without food is the most the evidence allows (contested at the margin). Umami as a basic taste is established.**
+
+**Chemistry.** MSG is the sodium salt of glutamic acid, one of the commonest amino acids. Free glutamate gives the savoury taste; glutamate bound in protein does not.
+- FDA, "Questions and Answers on Monosodium glutamate (MSG)", last updated 17 July 2026. https://www.fda.gov/food/food-additives-petitions/questions-and-answers-monosodium-glutamate-msg . Read: partial. FDA "considers the addition of MSG to foods to be 'generally recognized as safe' (GRAS)" [T]. FASEB's 1995 report for FDA: in some sensitive people, 3 g or more of MSG *without food* may cause "short-term, transient, and generally mild symptoms" [T] such as headache, numbness, flushing; a typical serving of food with added MSG has less than 0.5 g. Adults eat about 13 g of glutamate a day from protein, against about 0.55 g from added MSG. Added MSG must be labelled as "monosodium glutamate"; foods with naturally high glutamate ingredients (hydrolysed protein, yeast extract) cannot claim "No MSG".
+- **FSANZ, *Monosodium Glutamate: A Safety Assessment*, Technical Report Series No. 20, June 2003.** https://www.foodstandards.gov.au/sites/default/files/consumer/additives/msg/Documents/MSG%20Technical%20Report.pdf . Read: **full** (PDF text extracted, conclusion and tables read closely). Conclusion: "There is no convincing evidence that MSG is a significant factor in causing systemic reactions resulting in severe illness or mortality" [V]. It notes that when people who believe they are sensitive are tested double-blind, "the majority do not react to MSG under the conditions of the study (or react equally to placebo)" [V]. Free glutamate in foods (Table 1, from Yamaguchi and Ninomiya 1998), mg per 100 g: Parmesan 1200; peas 200; potato 180; tomatoes 140; corn 130; human milk 22; cow's milk 2; beef 33; chicken 44. Table 2: Marmite 1960, Vegemite 1431, Korean soy sauce 1264, Japanese soy 782, fish sauce (nam pla) 950, oyster sauce 900.
+
+**Double-blind challenge.**
+- **Geha RS, Beiser A, Ren C, et al. "Multicenter, double-blind, placebo-controlled, multiple-challenge evaluation of reported reactions to monosodium glutamate." *J Allergy Clin Immunol* 2000;106(5):973-80. PMID 11080723.** Abstract read in full via PubMed. (The "J Nutr" paper is a companion: Geha et al., "Review of alleged reaction to monosodium glutamate and outcome of a multicenter double-blind placebo-controlled study", *J Nutr* 2000;130(4S Suppl):1058S-62S, PMID 10736382, abstract also read.)
+  - 130 self-identified MSG-reactive volunteers; 5 g MSG or placebo, without food. "Of 130 subjects in protocol A, 50 (38. 5%) responded to MSG only, 17 (13.1%) responded to placebo only (P <. 05), and 19 (14.6%) responded to both" [V].
+  - On retest only 19 of 37 MSG-only responders reacted the same way again. 2 people responded to MSG but not placebo twice more, yet "their symptoms were not reproducible" [V], and when given MSG with food (3 MSG and 3 placebo challenges each) each reacted to only one of the MSG challenges.
+  - Conclusion: large doses without food "may elicit more symptoms than a placebo in individuals who believe that they react adversely to MSG. However, neither persistent nor serious effects from MSG ingestion are observed, and the responses were not consistent on retesting" [V]. The *J Nutr* summary adds: "The responses were not observed when MSG was given with food" [V].
+
+**History of the scare.**
+- Robert Ho Man Kwok, letter "Chinese-Restaurant Syndrome", *N Engl J Med* 1968;278(14):796, 4 April 1968. NEJM page **blocked** (403). Details from Sam Kean, "The Rotten Science Behind the MSG Scare", *Distillations*, Science History Institute, 2 March 2023. https://www.sciencehistory.org/stories/magazine/the-rotten-science-behind-the-msg-scare/ . Read: partial. Kwok described numbness, weakness and palpitations after Northern Chinese restaurant meals and offered several guesses (search snippets say cooking wine, MSG and high sodium). NEJM ran ten replies a month later; Kean writes that "no two letter writers listed the same symptoms" [T]. Kean also covers Robert Olney's 1969 mouse experiments using injected doses "up to 7 milligrams per gram of body weight" [T], far beyond dietary exposure.
+- The name itself carried an ethnic stigma that food writers and historians now note; a lesson should present that history plainly. (Kean's article discusses the 2018 claim that the Kwok letter was a prank by another doctor; I did not verify that claim and would leave it out.)
+
+**Umami and Ikeda.**
+- Kikunae Ikeda, Tokyo Imperial University, identified glutamate as the savoury taste of kombu broth in 1908 and patented MSG production (FDA page credits "a Japanese professor named Kikunae Ikeda" [T]). English translation of his 1909 paper: Ikeda K. "New seasonings." *Chem Senses* 2002;27(9):847-9, PMID 12438213, with commentary: Lindemann B, Ogiwara Y, Ninomiya Y. "The discovery of umami." *Chem Senses* 2002;27(9):843-4, PMID 12438211. PubMed records read (citation only; no abstract). Full text not read.
+- Kean dates MSG's invention to "the early 1900s" [T] and notes Ikeda founded the company that became Ajinomoto.
+
+---
+
+### 6. Maillard browning, caramelisation, dry surfaces, crowding
+
+**Classification: established.**
+
+- **Temperatures.** Wikipedia, "Maillard reaction". https://en.wikipedia.org/wiki/Maillard_reaction . Read: partial. The reaction "typically proceeds rapidly from around 140 to 165 °C (280 to 330 °F)" [T]; described by Louis Camille Maillard in 1912; it needs amino acids and reducing sugars, and runs faster in alkaline conditions (why a pinch of baking soda speeds onion browning). It happens slowly at lower temperatures too (the browning of long-braised or slow-roasted meat), so "140°C" is a threshold for *fast* browning, not an on-switch. Acrylamide forms at high temperatures in starchy foods.
+- Science of Cooking, "Important temperatures in cooking and baking" (no author or date). https://www.scienceofcooking.com/important_cooking_temperatures.htm . Read: partial. Browning "begins" at 285°F (140°C) [T].
+- **Caramelisation is a different reaction** (sugar alone, no protein). Wikipedia, "Caramelization". https://en.wikipedia.org/wiki/Caramelization . Read: partial. Temperatures at which it proceeds readily: fructose 105°C, glucose 150°C, galactose 160°C, sucrose 170°C, maltose 180°C. Science of Cooking gives sucrose 160°C and fructose 110°C. The spread between sources is real; teach "sucrose caramelises around 160 to 170°C". (There is newer work arguing sucrose "caramelises" by slow thermal decomposition at lower temperatures given time; I did not fetch it.) Onions "caramelising" in a pan are mostly Maillard browning plus some caramelisation.
+- **Why wet meat will not brown.** Physics, no single paper needed: a surface film of water cannot rise above 100°C at sea level until it has evaporated, and evaporating it takes a lot of energy (latent heat about 2,260 kJ/kg). Until the surface is dry it sits far below the 140°C where browning gets going. Hence pat dry, salt well ahead or not at all (3a), and dry uncovered in the fridge (Kenji via Wilson 2019).
+- **Overcrowding.** ATK, "The Best Stainless-Steel Skillets" (equipment review, no author or date shown). https://www.americastestkitchen.com/equipment_reviews/1944-12-inch-stainless-steel-skillets . Read: partial. Four steaks on an 8-inch cooking surface: "the pan will struggle to recover its heat, so one side of the steaks will come out gray and steamed with sparse fond" [T]. Their preferred pans had 9.25 to 10.5 inches of flat cooking surface. Mechanism: cold food absorbs heat from the pan and releases water faster than it can evaporate, so the surface sits near 100°C.
+- **A useful counterexample.** Dave Arnold, "Crowded Wet Mushrooms. A Beautiful Thing.", Cooking Issues, 21 December 2009. https://cookingissues.com/2009/12/21/crowded-wet-mushrooms-a-beautiful-thing/ . Read: partial. Soaked mushrooms crowded in one pan browned as well and tasted "better and less oily than their dry cousins" [T], because they collapse while steaming off their water and then absorb less oil. Mushrooms are mostly water and brown once it is gone; the rule "don't crowd" is about meat, where overcooking the interior while waiting for the water to go is the cost.
+
+---
+
+### 7. Heat transfer, the oven-hand puzzle, and pans
+
+**Classification: established physics.**
+
+- **Three modes.** Conduction (pan to food, and within food), convection (moving air, water or oil carrying heat), radiation (the glowing grill element, oven walls, a fire). Most cooking combines them.
+- **Why 200°C oven air does not burn your hand but 100°C water does.** The rate of heat flow depends on the heat transfer coefficient as much as on temperature. Engineering ToolBox, "Convective Heat Transfer" (no date). https://www.engineeringtoolbox.com/convective-heat-transfer-d_430.html . Read: partial. Typical coefficients, W/(m²K): free convection in air 0.5 to 1,000 (the range for still air in practice is at the bottom, single digits to about 25); forced convection air 10 to 1,000; free convection water 50 to 3,000; forced water 50 to 10,000; boiling water 3,000 to 100,000; condensing steam 5,000 to 100,000 [T]. Illustrative figures for teaching (my arithmetic, stated as such): with still oven air at h ≈ 10 W/(m²K) and a 170°C difference from skin, heat flux ≈ 1.7 kW/m²; with boiling water at h ≈ 5,000 and a 65°C difference, ≈ 325 kW/m², about 200 times more. Steam is worse again because condensing on skin releases latent heat. This is also why a convection fan roasts faster, and why steam burns are so severe.
+- **Pan materials.** Engineering ToolBox thermal conductivity (https://www.engineeringtoolbox.com/thermal-conductivity-metals-d_858.html , read partial), W/(m·K): copper 401; pure aluminium 236 (cookware alloys lower, roughly 150 to 220, not fetched); cast iron 52; carbon steel 54; stainless steel 304 about 14.4 [T]. Specific heat (https://www.engineeringtoolbox.com/specific-heat-metals-d_152.html , read partial), kJ/(kg·K): aluminium 0.91, cast iron 0.46, carbon steel 0.49, copper 0.39 [T]. Stainless is similar to carbon steel, about 0.5 (not in the fetched table; check).
+- **What this means at the stove.**
+  - Aluminium and copper spread heat sideways quickly, so they even out a burner's hot ring and respond fast when you turn the heat down.
+  - Cast iron conducts about a quarter as well as aluminium, so it heats unevenly over a burner, but it is thick and heavy, so it stores a lot of heat and does not drop much when a steak goes in. Preheat it long (10 to 20 minutes over medium, or in the oven) to get it even. Source for "cast iron heats unevenly" and the 10 to 20 minute preheat: Sarah Biren, "The Truth About Cast Iron Pans: 7 Myths", TiffyTaffy (citing Kenji López-Alt), https://tiffytaffy.com/truth-about-cast-iron-pans/ , read partial; a weak secondary, but the physics supports it.
+  - Stainless steel conducts poorly on its own, which is why good stainless pans are "clad" with an aluminium (or copper) core. ATK skillet review: "Aluminum conducts heat quickly, making the pan responsive to temperature changes; steel conducts slowly and retains heat" [T].
+- **Preheating.** A pan needs time for heat to spread from the burner contact area. With cast iron in particular, putting food in a pan that is hot in the middle and cool at the edge gives patchy browning. See also the Serious Eats (Ibrahim) claim, reported secondhand, that a cold-start sear gave more tender results in one writer's trials; that is a single report and should not be taught as a rule.
+
+---
+
+### 8. Core technique science
+
+#### 8a. Starch gelatinisation and rice
+
+**Classification: established for the chemistry; the rinse question is a trade-off, not a myth.**
+- Starch granules absorb water and swell when heated in water; for rice this happens roughly between the high 50s and high 70s °C depending on variety. Search snippets give 60 to 78°C for rice starch of about 20% amylose. The PMC paper I opened (Relationship of rice grain amylose, gelatinization temperature and pasting properties, PMC5167365, read partial) classes gelatinisation temperature by alkali-spreading score rather than degrees, and classes amylose content as very low 9 to 12%, low 12.1 to 20%, intermediate 20.1 to 25%, high above 25%. More amylose gives firmer, separate grains (long-grain); less gives sticky rice (sushi, glutinous). No clean °C table was read; cite a range, not a single number.
+- **Rinsing.** ATK, "Do You Really Need to Rinse Your Rice?", Sawyer Hill, 26 October 2021. https://www.americastestkitchen.com/articles/3946-do-you-really-need-to-rinse-your-rice . Read: partial. Rinsing removes loose surface starch so white rice cooks up more separate; little effect on brown rice. ATK "The Best Way to Rinse Rice" (snippet only): a strainer under running water beat swishing in a bowl.
+- **The nutrition cost of rinsing.** Gray PJ, Conklin SD, Todorov TI, Kasko SM (US FDA). "Cooking rice in excess water reduces both arsenic and enriched vitamins in the cooked grain." *Food Addit Contam A* 2016;33(1):78-85. PMID 26515534. Abstract read in full. "Rinsing rice before cooking has a minimal effect on the arsenic (As) content of the cooked grain, but washes enriched iron, folate, thiamin and niacin from polished and parboiled rice" [V]. Cooking in excess water (pasta-style, drained) cut inorganic arsenic "by 40% from long grain polished, 60% from parboiled and 50% from brown rice" [V], but cut iron, folate, niacin and thiamin by 50 to 70% in enriched rice. So in the US, where white rice is enriched, rinsing strips added vitamins; where rice is not enriched, the loss is small. Worth one honest sentence in a lesson.
+- **Ratios and resting.** Absorption ratios vary by rice and pot (a typical long-grain white is about 1 : 1.5 by volume on the stovetop; ratios quoted on the internet range widely). I did not fetch an authoritative ratio test today; take ratios from ATK recipes during drafting. Resting off heat, covered, for about 10 minutes lets moisture even out through the grains; I did not fetch a test for this either.
+
+#### 8b. Eggs
+
+**Classification: established.**
+- Science of Cooking temperatures page (above). "Ovalbumin begins to set at 180°F/80C while Ovotransferrin only begins to set when heated to 140°F/60C" [T]; whites thicken at about 63°C and are set at about 65°C; yolks set at about 70°C [T]. A secondary search snippet adds yolk thickens from about 65°C. Ovalbumin is about 54% of white protein and ovotransferrin about 12% (snippet). This is why a white can be just set while the yolk is runny, and why sous-vide eggs at 63 to 64°C give a soft white and jammy yolk.
+- **Green ring.** University of Nebraska-Lincoln Extension, "How to Avoid a Green Ring on Hard-Boiled Egg Yolks", Alice Henneman, reviewed 2024. https://food.unl.edu/how-avoid-green-ring-hard-boiled-egg-yolks/ . Read: partial. "The ring is caused by a chemical reaction involving sulfur (from the egg white) and iron (from the egg yolk), which naturally react to form ferrous sulfide at the surface of the yolk" [T]. Harmless. Prevent by not overcooking and by cooling fast in cold or iced water. Older eggs (more alkaline whites) green faster (search snippet).
+
+#### 8c. Emulsions
+
+**Classification: established.**
+- An emulsion is droplets of one liquid dispersed in another that would otherwise separate. Emulsifiers (in egg yolk, lecithin and lipoproteins; in mustard, mucilage) coat droplets and keep them apart.
+- Mayonnaise: oil droplets in the water of yolk and lemon or vinegar; breaks if oil is added faster than it can be broken into droplets, or if the ratio of oil to water gets too high. Fix by starting again with a fresh yolk or a spoon of water and whisking the broken sauce in slowly.
+- Vinaigrette: a temporary emulsion; mustard or honey helps it hold.
+- Hollandaise: warm emulsion of butter in yolk; breaks if it gets too hot (yolk proteins set) or too cold (butter solidifies). Search snippets (not opened; FineCooking "Too Hot for Hollandaise" refused connection): yolks curdle around 160 to 170°F (71 to 77°C); acid raises that; working window roughly 55 to 75°C. Numbers to be confirmed from McGee in print.
+- I did not fetch a primary source for emulsion science today. McGee's *On Food and Cooking* chapter on sauces is the standard reference to cite.
+
+#### 8d. Gluten and no-knead bread
+
+**Classification: established.**
+- Flour, water, salt, yeast. Glutenin and gliadin form gluten when wetted and worked; kneading organises it, but time does much of the same work.
+- **J. Kenji López-Alt, "No-Knead Bread 2.0", Cook's Illustrated / ATK, 1 January 2008.** https://www.americastestkitchen.com/articles/41-no-knead-bread-2-dot-0 . Read: partial. Describes the Lahey/Bittman recipe: minimal yeast, a 12 to 18 hour rest, baked in a covered Dutch oven. Hydration 85%, "for every 10 ounces of flour, there are 8.5 ounces of water" [T]. Why it works: during the long rest, enzymes in the flour cut protein bundles into shorter pieces that can line up and cross-link without kneading (autolysis). ATK's version lowered hydration to about 70%, added 15 seconds of kneading, beer and vinegar for flavour, and cut the rest to 8 hours.
+- Mark Bittman, "The Secret of Great Bread: Let Time Do the Work", *New York Times*, The Minimalist column, 8 November 2006, on Jim Lahey of Sullivan Street Bakery. NYT **blocked**; date and headline from search snippets. Lahey's own book *My Bread* (2009) is the primary for the method.
+- Salt tightens gluten and slows yeast; it is added at about 1.5 to 2% of flour weight in most breads (common baker's percentage; not fetched today).
+
+#### 8e. Stock
+
+**Classification: established.**
+- Collagen in bones, skin and connective tissue converts to gelatin with long moist heat; Science of Cooking gives collagen "begins to dissolve to gelatin" at about 160°F/70°C [T]. Gelatin gives body and makes a cold stock set.
+- ATK, "For a Clearer Stock, Simmer; Don't Boil" (no author or date). https://www.americastestkitchen.com/how_tos/9260-for-a-clearer-stock-simmer-dont-boil . Read: partial. "Boiling will cause soluble proteins and rendered fat to emulsify into the cooking liquid. By simmering, you avoid emulsifying the fat and thus keep the stock clearer, and we found that the scum created simply settled to the bottom of the pot" [T]. ATK elsewhere (snippet) defines a simmer as about 180 to 190°F.
+- Cloudiness is a matter of looks and a slightly greasier mouthfeel, not safety.
+
+#### 8f. Pan sauce: fond, deglazing, reducing, mounting with butter
+
+**Classification: established practice.**
+- ATK, "Pan Sauces 101" (no author or date). https://www.americastestkitchen.com/cooksillustrated/how_tos/5551-pan-sauces-101 . Read: partial. Fond is "the browned bits, clinging to the bottom of the skillet" [T]; deglazing adds liquid (wine, stock) and scrapes it up; reduce to concentrate and thicken; finish by whisking in butter. "Cold butter is easier to incorporate into a sauce than softened butter and it makes for a sturdier emulsion that is more resistant to separation" [T]; cut in tablespoon-size pieces.
+- Why it works: butter is itself an emulsion of fat in water with milk proteins; whisked cold into a hot but not boiling reduction, its fat disperses as droplets held by the proteins and any gelatin from the stock. Boil it and the emulsion breaks into a greasy layer.
+- A pan that has not browned (crowded, wet meat, section 6) leaves no fond, so crowding costs you the sauce as well as the crust.
+
+---
+
+### 9. Knife sharpness
+
+**Classification: "a sharp knife is safer than a dull one" is plausible and well supported indirectly (force, control, strain), but I found no study directly comparing injury rates. Call it expert consensus with mechanistic support, not a tested fact.**
+
+- **McGorry RW, Dowd PC, Dempsey PG. "Cutting moments and grip forces in meat cutting operations and the effect of knife sharpness." *Appl Ergon* 2003;34(4):375-82. PMID 12880746.** Liberty Mutual Research Center for Safety and Health. Abstract read in full. 15 professional meat cutters in two plants. Mean grip force 28.3% and peak 72.6% of maximum voluntary contraction. "Blade sharpness was found to effect grip forces, cutting moments and cutting time, with sharper blades requiring statistically significantly lower peak and mean cutting moments, and grip forces than dull knives" [V].
+- **Dempsey PG, McGorry RW. "Investigation of a pork shoulder deboning operation." *J Occup Environ Hyg* 2004;1(3):167-72. PMID 15204874.** Abstract read. Nine workers; average grip forces 11 to 35% of maximum; knife sharpness varied among workers over a 5-hour shift.
+- **Marsot J, Claudon L, Jacqmin M. "Assessment of knife sharpness by means of a cutting force measuring system." *Appl Ergon* 2007;38(1):83-9. PMID 16579952.** French INRS. Abstract read. Frames knife sharpness in terms of musculoskeletal disorders in the meat industry.
+- The argument from these: a dull knife needs more force, more force means less control and more chance of slipping, and when it slips it carries more momentum. The evidence is from meatpacking ergonomics (strain injuries), not home-kitchen laceration counts. A cut from a sharp knife is cleaner; one from a dull knife is more likely to happen in the first place. Knife-seller blogs claiming "3 to 5 times more pressure" and "backed by ER data" appeared in search results and should not be cited.
+- **Honing versus sharpening.** Wikipedia, "Honing steel". https://en.wikipedia.org/wiki/Honing_steel . Read: partial. A smooth steel "removes no material; instead it fixes deformations along the edge of a sharp blade" [T], so it cannot restore a blunt edge; ceramic and diamond rods are abrasive and do remove metal. It cites John Verhoeven, "Experiments on Knife Sharpening" (Iowa State University, 2004), which used electron microscopy on edges; I did not read Verhoeven today and he is the primary to fetch. Teaching line: hone often to straighten a rolled edge; sharpen (stone or sharpener, removing metal) occasionally when honing no longer helps.
+
+---
+
+### 10. Other common myths
+
+#### 10a. "Salt makes water boil faster"
+**Folklore.** See 3g: salt raises the boiling point by about 0.1 to 0.4°C at cooking concentrations. It does not speed boiling.
+
+#### 10b. "Never wash mushrooms"
+**Folklore for common button and cremini mushrooms; partly true for open-gilled types.**
+- *Good Eats* "Myth Smashers" (Chauvin recap, 2019, read partial): 4 oz of mushrooms gained 0.2 oz after 10 minutes' soaking, 0.25 oz after 20 minutes, 0.15 oz after 30 minutes, and 0.2 oz from a rinse under running water; about a teaspoon each time. As a percentage: roughly 4 to 6% of weight.
+- ATK, "Should You Wash Mushrooms?" (no author or date). https://www.americastestkitchen.com/how_tos/11827-should-you-wash-mushrooms . Read: partial. One-minute soak of white, cremini, portobello, shiitake, oyster and maitake: closed-gill mushrooms took up "almost no water" [T]; exposed-gill mushrooms absorbed "as much as 25 percent of their weight in liquid" [T]. About 1 tablespoon per pound for white mushrooms against about ¼ cup per pound for oysters.
+- Dave Arnold (Cooking Issues, 2009, above): "The soaked mushrooms do take on water, but that water cooks off in the pan" [T].
+- Lesson line: rinse closed button and cremini mushrooms just before cooking; brush or wipe open-gilled ones (oyster, maitake, big portobellos).
+
+#### 10c. "The avocado pit stops guacamole browning"
+**Folklore.** It protects only the patch it covers, by keeping air off.
+- Elana Spivack, "Do avocado pits keep guacamole fresh?", *Inverse*, 12 February 2022. https://www.inverse.com/science/do-avocado-pits-keep-your-guac-fresh . Read: partial. Food scientist Karen Schaich of Rutgers: "There was nothing in the pit that I knew of that should have inhibited the enzyme, so it had to be the oxygen" [T]. Browning is polyphenol oxidase acting on phenolic compounds in the presence of oxygen. What works: plastic wrap pressed onto the surface, or a thin layer of water or lime juice poured on top and poured off before serving; acid slows the enzyme.
+- Live Science piece (https://www.livescience.com/33660-guacamole-avocado-pit-prevent-brown.html) returned only a headline; not read.
+
+#### 10d. "Rinse pasta after cooking"
+See 3f. Folklore for hot dishes; sensible for cold salads.
+
+#### 10e. "Bring meat to room temperature before cooking"
+**Folklore as usually stated.** A thick steak barely warms in the time people leave it out.
+- Kenji López-Alt's test (Serious Eats, blocked), as reported by Audrey Wilson, *Hawaii Tribune-Herald*, 19 February 2019 (read partial). A thick-cut strip steak from the fridge rose by less than 2°F after 20 minutes, and by only about 10°F after 2 hours, which Wilson describes as "a little more than 10 percent of the way toward the final serving temperature of 130 degrees" [T]. A search snippet (not opened) gives the end point as 49.6°F after 1 hour 50 minutes. The cooked comparison showed no meaningful difference; drying the surface mattered much more.
+- Leaving raw meat out for 2 hours also runs against the USDA 2-hour rule for perishable food. Any lesson should say so.
+
+#### 10f. "Flip a steak only once"
+**Folklore.** Frequent flipping browns as well, cooks faster and more evenly.
+- Leah Collin (byline as returned by the fetch tool; check spelling), "For the Juiciest Steaks With the Best Crust, I Always Break This Classic Cooking Rule", Serious Eats, syndicated on Yahoo, 15 July 2026. https://www.yahoo.com/lifestyle/articles/juiciest-steaks-best-crust-always-210000151.html . Read: partial. Reports Harold McGee's finding that frequent flipping browns as well as a single flip, and Kenji's burger test: flipped every 15 seconds, burgers "cooked in about two-thirds the time, and had roughly 40% less overcooked meat around the edges" [T]. Recommends flipping every 30 to 60 seconds; says the difference is "noticeable but a bit subtle" [T].
+- McGee's original (his NYT Curious Cook column, around 2008) not read. Mechanism: each side alternately takes heat from the pan and loses a little to the air, so heat moves into the meat more evenly, like cooking from both sides at once.
+
+#### 10g. Cast iron: "naturally non-stick", "never use soap"
+**Folklore, both, in their strong forms.**
+- Lodge Cast Iron, "How to Season" (no date). https://www.lodgecastiron.com/pages/how-to-season . Read: partial. "Seasoning is just oil baked onto the pan through a process called polymerization" [T]; "Use warm, soapy water to wash your pan" [T]; to season, bake at 450 to 500°F for 1 hour. The maker itself says soap is fine.
+- The soap myth dates from soaps made with lye (strong alkali), which can strip seasoning. Modern dish liquid is a mild detergent; it removes grease but not polymerised oil (Biren/TiffyTaffy citing Kenji, read partial; Kenji is quoted: "The same way we can use soap inside a Tupperware container without taking the plastic away, you can use it on a cast-iron pan without removing the seasoning" [T]). What does strip seasoning: long soaking, the dishwasher, oven-cleaner, and long simmering of acidic food.
+- Cast iron is not naturally non-stick. Bare iron sticks badly; a good seasoning is fairly slick but less so than PTFE (Teflon). Preheating properly helps.
+
+#### 10h. Microwaves "destroy nutrients" and "cook from the inside out"
+**Folklore, both.**
+- US FDA, "Microwave Ovens" (radiation-emitting products page). https://www.fda.gov/radiation-emitting-products/resources-you-radiation-emitting-products/microwave-ovens . Read: partial. "When thick foods are cooked, the outer layers are heated and cooked primarily by microwaves while the inside is cooked mainly by the conduction of heat from the hot outer layers" [T]. On nutrition: "Microwave cooking does not reduce the nutritional value of foods any more than conventional cooking. In fact, foods cooked in a microwave oven may keep more of their vitamins and minerals, because microwave ovens can cook more quickly and without adding water" [T]. Leakage limit 5 mW/cm² at about 2 inches, 21 CFR 1030.10.
+- NC State Extension (Brunswick County), "Microwave Mythbusters", Cheryle Syracuse, 16 January 2024. https://brunswick.ces.ncsu.edu/2024/01/microwave-mythbusters/ . Read: partial. Microwaves "can only penetrate food to a depth of ¾ to 1½ inches" [T]; the centre cooks last, by conduction.
+- Harvard Health, "Microwave cooking and nutrition", 17 August 2021 (no author). https://www.health.harvard.edu/staying-healthy/microwave-cooking-and-nutrition . Read: partial. Agrees microwaving with little water keeps more vitamin C than boiling. Note: this page uses the phrase "steams food from the inside out" loosely; do not cite it for the physics.
+- Teaching point: nutrient loss depends on time, temperature and water, not on microwaves as such. Boiling leaches water-soluble vitamins into the water; microwaving and steaming lose less.
+
+#### 10i. "Wooden boards are less hygienic than plastic"
+**Folklore as a general claim; the evidence favours neither material strongly, and cleaning habits matter more.**
+- **Ak NO, Cliver DO, Kaspar CW. "Cutting boards of plastic and wood contaminated experimentally with bacteria." *J Food Prot* 1994;57(1):16-22. PMID 31113021.** University of Wisconsin-Madison. Abstract read in full. Nine hardwoods and four plastics plus hard rubber, new and used; E. coli (including O157:H7), Listeria and Salmonella. Clean wood absorbed the inoculum within 3 to 10 minutes; at 10³ to 10⁴ CFU bacteria "generally could not be recovered after entering the wood" [V]; at 10⁶ CFU some survived 12 hours, but numbers were "reduced by at least 98%, and often more than 99.9%" [V]. Bacteria on plastic survived and multiplied overnight if kept moist. Conclusion: "These results do not support the often-heard assertion that Plastic cutting boards are more sanitary than wood" [V].
+- **Ak NO, Cliver DO, Kaspar CW. "Decontamination of plastic and wooden cutting boards for kitchen use." *J Food Prot* 1994;57(1):23-30. PMID 31113026.** Abstract read. New plastic was easy to clean; knife-scarred plastic was hard to clean by hand, especially with chicken fat on it. Hot water and detergent cleaned wood regardless of species.
+- **Cliver DO. "Cutting boards in Salmonella cross-contamination." *J AOAC Int* 2006;89(2):538-42. PMID 16640304.** By then at UC Davis, School of Veterinary Medicine. Abstract read. Summarises: knife-scarred plastic is hard to disinfect and HDPE delaminates; bacteria drawn into wood by capillary action are not killed at once but do not return to the surface, and "resurrection of these bacteria via knife edges has not been demonstrated" [V]; dishwashers can spread bacteria to other surfaces. It cites two epidemiological studies in which board-cleaning habits had little effect on sporadic salmonellosis, one of which "indicated that use of plastic cutting boards in home kitchens is hazardous, whereas use of wooden cutting boards is not" [V]. That epidemiological study is not identified in the abstract; find it before quoting it as a finding.
+- **Aviat F, et al. "Microbial safety of wood in contact with food: a review." *Compr Rev Food Sci Food Saf* 2016;15(3):491-505. PMID 33401823.** Abstract partly read (truncated). A review supportive of wood as a food-contact material in general.
+- **Counterweight:** Hong Kong wet-market studies (Lo et al. 2019, *Front Microbiol*, PMID 31781084; Sekoai et al. 2020 and Ngan et al. 2020, *Microorganisms*, PMIDs 32316436 and 33297499; abstracts read) found pathogens and biofilm-formers on wooden boards cleaned by traditional scraping. These show that poor cleaning fails on wood as on anything, not that wood is worse than plastic; they did not compare materials.
+- Lesson line: either material is fine if washed with hot soapy water and dried; replace plastic boards when deeply scarred; keep a separate board for raw meat. That last point is the one that matters.
+
+---
+
+### Summary table
+
+| Claim | Verdict | Best source read today |
+|---|---|---|
+| Searing seals in juices | Folklore | ATK 8-steak test, ~22% loss both ways |
+| Resting lets juices reabsorb | Folklore (resting as temperature control: established) | Gritzer, Serious Eats 2025 (via AOL) |
+| Salt 40+ min ahead or just before | Established in outline, timings from one experimenter | Kenji via secondaries |
+| Salt beans in soak | Established (salt helps) | ATK |
+| Pasta water "salty as the sea" | Folklore (sea 3.5%; cooks use ~0.5 to 2%) | NOAA, ATK |
+| Pasta needs lots of water | Folklore | McGee NYT 2009 (full text); ATK 2023 |
+| Oil in pasta water | Folklore | ATK; Good Eats |
+| Salt makes water boil faster | Folklore (raises bp ~0.1 to 0.4°C) | Calculation |
+| Cold water boils faster | Folklore (use cold for lead reasons) | EPA |
+| Alcohol cooks off | Folklore (85% to 5% retained) | USDA Release 6 table (full) |
+| MSG causes illness | Folklore as a general claim | Geha 2000; FSANZ 2003 (full); FDA |
+| Wet meat browns | Folklore (surface capped at 100°C) | Physics; Maillard ~140 to 165°C |
+| Sharp knife safer | Plausible, indirect evidence | McGorry 2003 |
+| Never wash mushrooms | Folklore for closed caps | Good Eats; ATK |
+| Pit saves guacamole | Folklore | Schaich via Inverse |
+| Room-temperature meat | Folklore | Kenji via Hawaii Tribune-Herald |
+| Flip once | Folklore | McGee/Kenji via Serious Eats 2026 |
+| No soap on cast iron | Folklore | Lodge |
+| Microwaves cook inside out / kill nutrients | Folklore | FDA |
+| Wood less hygienic than plastic | Folklore | Ak, Cliver, Kaspar 1994; Cliver 2006 |
+
+---
+
+### Not read
+
+- **Serious Eats, every article (publisher blocks automated access; HTTP 402 / 451; I did not circumvent):** Kenji López-Alt, "The Food Lab: 7 Old Wives' Tales About Cooking Steak" (2013); Kenji's original resting-meat article (about 2010); "Perfect Pan-Seared Steaks" (salting timing); Kenji's bean-salting and pasta-water articles; Kenji's cast-iron myths article; Daniel Gritzer's resting article on seriouseats.com (read only its AOL syndication). The 1.68% sear-first figure and the 49.6°F room-temperature figure are search-snippet only.
+- **NEJM,** Kwok RHM, "Chinese-Restaurant Syndrome", 1968;278:796 (403).
+- **J Am Diet Assoc,** Augustin et al. 1992 abstract page (403). PubMed record read; numbers taken from the USDA table instead.
+- **J Allergy Clin Immunol** full text of Geha 2000 (403); abstract read via PubMed.
+- **European Journal of Clinical Nutrition,** "Consensus meeting: monosodium glutamate, an update" (2007) (login redirect).
+- **New York Times,** Mark Bittman, "The Secret of Great Bread: Let Time Do the Work" (8 November 2006), and McGee's Curious Cook column on flipping (blocked). McGee's 2009 pasta column was read through a hosted PDF copy.
+- **The Kitchn,** "Think Salt is the Enemy of Perfect Beans? Think Again." (403).
+- **FineCooking,** "Too Hot for Hollandaise" (connection refused). Hollandaise temperatures are snippet-only.
+- **Curious Cook (curiouscook.com)** 2009 post (expired certificate).
+- **Live Science** avocado pit article (only headline returned).
+- **Hong Kong Centre for Food Safety** microwave page (DNS failure).
+- **Wayback Machine** (connection refused all day).
+- **Books not consulted:** Harold McGee, *On Food and Cooking* (2004); J. Kenji López-Alt, *The Food Lab* (2015); Jim Lahey, *My Bread* (2009); Amy Brown, *Understanding Food* (2008). These are the primaries for egg, emulsion, stock and carryover figures and should be checked in print.
+- **Not fetched at all:** Ikeda 1909 full text (Chem Senses 2002 translation, citation only); Lindemann et al. 2002 full text; Verhoeven 2004, "Experiments on Knife Sharpening"; the 1930 University of Missouri searing study; the epidemiological cutting-board studies Cliver 2006 refers to; any controlled test on acid slowing bean softening; any authoritative rice-to-water ratio or rice-resting test; the Raab et al. 2009 arsenic study (snippet only); research on low-temperature sucrose decomposition.
+
+---
+
+## Cooking Fundamentals, Stage 1 research, Part D: physical kitchen safety and the contested questions
+
+Researcher notes. All reading done 2026-09-24. Classification key: **Established** (regulators and evidence agree; teach as fact), **Contested empirical** (a factual question where serious people disagree or evidence is thin), **Value** (the facts are roughly agreed; the disagreement is about how to weigh risk, cost, choice or tradition).
+
+How to read the "read" field:
+- **full (curl)**: I downloaded the page and searched the raw text myself. Quotations from these are verbatim.
+- **full (fetch tool)**: read through the WebFetch tool, which returns a model-written digest with quotations. Quotations are very likely verbatim but were not checked character by character; recheck before a lesson quotes them.
+- **abstract**: PubMed or Semantic Scholar abstract only, fetched as text; quotations verbatim.
+- **snippet**: search-engine summary only. Nothing from these is in quotation marks.
+- **Wayback**: the live site blocked me, so I read an Internet Archive snapshot; snapshot timestamp given.
+
+---
+
+### 1. Knife safety and technique (Established)
+
+#### Sources
+
+**OSHA, "Young Worker Safety in Restaurants eTool: Food Preparation"** (section "Knives and Cuts").
+URL: https://www.osha.gov/etools/young-workers-restaurant-safety/food-prep
+Body: US Occupational Safety and Health Administration. No page date found in the text I extracted. Read: full (curl). The URL first tried (.../food-prep/knives) returns "File Not Found"; the knife material now sits on the food-prep page.
+Verbatim, in order:
+- "Cut in the direction away from the body. Keep your fingers and thumbs out of the way of the cutting line."
+- "Let a falling knife fall. Do not try to catch it."
+- "Carry knives with the cutting edge angled slightly away from your body, with the tip pointed down to your side."
+- "Place a knife that you are handing to someone, down on a clean surface, and let the other person pick it up."
+- "Clean the knife immediately after use or place it in a dishwasher or a container labeled "for knives only.""
+- "Do not store knives and other sharp objects in sinks between periods of use."
+- "Keep knives sharpened and in good condition; dull knives tend to slip and may cause injuries."
+- "When interrupted, stop cutting and place the knife down on a secure surface."
+Note for the lesson: this is workplace guidance for teenage restaurant workers, so "cut away from the body" is written for trimming and boning. The home-cook version is really "keep the guiding hand out of the cutting line", which the claw does.
+
+**America's Test Kitchen, "A Guide to Using Your Chef's Knife"**, Liz Bomze, 5 December 2018.
+URL: https://www.americastestkitchen.com/articles/1362-a-guide-to-using-your-chef-s-knife
+Read: full (fetch tool).
+- Pinch grip: "Pinch the blade where it meets the handle with your thumb and forefinger. This grip, our go-to for most cutting tasks, allows you to choke up on the blade to get leverage over the whole length of the knife."
+- Handle grip: feels most secure to beginners but, in ATK's words, "it doesn't offer the control over the tip that is needed to make precision cuts."
+- Claw: "Curve your fingers into a claw on top of the food, making sure to tuck your thumb behind them and pressing down to hold the food in place. This position allows your knuckles to help guide the side of the blade while your fingertips stay out of harm's way."
+- Does not mention a damp towel.
+
+**University of Kentucky, "Knife Skills" handout** (Eat Well UK). File path dated 2023-03; no author named.
+URL: https://eatwell.uky.edu/sites/default/files/2023-03/knife%20skills-3.pdf
+Read: full (PDF text extracted with pdftotext).
+- Board: "if find that your cutting board moves around while using it, place a damp towel or paper towel underneath your board. You can also purhase an anti-slip mat." (typos are in the original)
+- Flat surface: "Create flat, stable surface by cutting food in half or removing thin slice from bottom."
+- Knife care: "hand wash and dry right away".
+- Its grip and claw paragraphs repeat the ATK wording almost word for word, so it is not independent of ATK. It is the only fetched source I have for the damp towel. **Serious Eats could not be read**: the search tool refuses the domain (seriouseats.com blocks the crawler). BBC Good Food search results did not surface a knife page.
+
+**Escoffier School of Culinary Arts, "Knife Skills: 10 Knife Cuts Every Professional Cook Should Know"**, Escoffier Team, 7 March 2024, updated 26 March 2026.
+URL: https://www.escoffier.edu/blog/culinary-arts/8-knife-cuts-every-professional-cook-should-know/
+Read: full (fetch tool). Stated sizes:
+- Julienne: 1/8 in x 1/8 in x 2 1/2 in (fine julienne 1/16 in)
+- Batonnet: 1/4 in x 1/4 in x 2 1/2 in
+- Brunoise: 1/8 in cubes
+- Small dice 1/4 in; medium dice 1/2 in; large dice 3/4 in to 1 in
+- Mince, chiffonade, bias, oblique, lyonnaise, tournee: no fixed size given.
+Metric (my conversions, not the source's): 1/8 in = 3 mm; 1/4 in = 6 mm; 1/2 in = 12 to 13 mm; 3/4 in = 19 to 20 mm. A search snippet from Wikipedia's "List of culinary knife cuts" gave small dice as 1/4 in "(5 mm)", which is a rounding inconsistency; use 6 mm or say "about 5 to 6 mm". The American sizes are the classical French ones rounded to inches; CIA's own textbook was not read.
+
+**Smith GA, "Knife-related injuries treated in United States emergency departments, 1990-2008"**, J Emerg Med 2013;45(3):315-23. PMID 23849364.
+Read: abstract. (The citation suggested in the research brief, "Chang et al 2016 Am J Emerg Med", I could not find; this Smith paper is the NEISS knife-injury epidemiology study that exists.)
+- "averaging 434,259 (95% CI 427,198-441,322) injuries annually, or 1190 per day."
+- Fingers or thumbs 66%; lacerations 94%.
+- "Pocket/utility knives were associated with injury most often (47%; 1,169,960 of 2,481,994), followed by cooking/kitchen knives (36%; 900,812 of 2,481,994)."
+- Caveat: knife type was known for only about 2.5 million of 8.25 million injuries, so "36% kitchen knives" is of the typed subset. Data are old (to 2008). Do not use the "326,000 ER visits" figure that appeared in a search snippet: it comes from a commercial blog ("Cambom"), not NEISS directly.
+
+#### What the lesson can say
+The claw, a pinch grip, a stable board, a flat side down, a sharp knife, letting a falling knife fall, and never leaving a knife in a sink of water are uniform across OSHA, a test kitchen and extension teaching. Nobody disputes any of it. The sharp-knife claim ("dull knives tend to slip") is stated by OSHA as a practice rule; I found no controlled study, so present it as the standard professional advice with its mechanism (a dull blade needs more force and skids off skins), not as a measured effect.
+
+---
+
+### 2. Fire and burns
+
+#### 2a. Cooking fires (Established on the facts; one real difference of advice between US and UK)
+
+**NFPA, "Home Cooking Fires" research report page** (key findings).
+URL: https://www.nfpa.org/education-and-research/research/nfpa-research/fire-statistical-reports/home-cooking-fires
+Read: full (curl; the WebFetch tool saw only the title). Data years 2017 to 2021.
+- "During 2017–2021, cooking was the leading cause of reported home fires and home fire injuries and the second leading cause of home fire deaths." (footnote markers removed)
+- "Cooking caused an average of 158,400 reported home structure fires per year (44 percent of all reported home fires in the US). These fires resulted in an average of 470 civilian deaths (18 percent of all home fire deaths) and 4,150 civilian injuries (42 percent of all reported home fire injuries) annually."
+- "Unattended cooking was the leading factor contributing to cooking fires and casualties."
+- "More than half of the non-fatal injuries occurred when people tried to control the fire themselves."
+- "Households with electric ranges had a higher risk of cooking fires and associated losses than those with gas ranges."
+A search snippet reported a newer NFPA edition (2019 to 2023: 159,400 fires, 430 deaths, 3,850 injuries; cooking third leading cause of deaths). I did not read that edition; the lesson should cite whichever it reads and say which years.
+
+**NFPA, "Cooking safety" consumer page.**
+URL: https://www.nfpa.org/education-and-research/home-fire-safety/cooking
+Read: full (curl). No visible date.
+- "Cooking fires are the number one cause of home fires and home injuries. The leading cause of fires in the kitchen is unattended cooking."
+- "Just get out! When you leave, close the door behind you to help contain the fire."
+- "Keep a lid nearby when you're cooking to smother small grease fires. Smother the fire by sliding the lid over the pan and turn off the stovetop. Leave the pan covered until it is completely cooled."
+- "For an oven fire, turn off the heat and keep the door closed."
+- "If you see wisps of smoke or the oil smells, immediately turn off the burner and/or carefully remove the pan from the burner. Smoke is a danger sign that the oil is too hot."
+- "Never throw water on the fire."
+
+**US Fire Administration (FEMA), "Cooking Fire Safety."**
+URL: https://www.usfa.fema.gov/prevention/home-fires/prevent-fires/cooking/
+Read: full (fetch tool). Page date 4 May 2023.
+- "Keep a pan lid or baking sheet nearby. Use it to cover the pan if it catches on fire."
+- "In 2021, fire departments in the United States responded to an estimated 170,000 home cooking fires. These fires caused an estimated 135 deaths, 3,000 injuries and over $494 million in property loss." (USFA counts differ from NFPA because of method; do not mix them in one sentence.)
+- Says nothing about baking soda, salt or flour.
+
+**US CPSC, "Recipe for Safer Cooking."**
+URL: https://www.cpsc.gov/safety-education/safety-guides/home-fire/recipe-safer-cooking
+Read: full (fetch tool). No page date.
+- "Slide a pan lid over flames to smother a grease or oil fire, then turn off the heat and leave the lid in place until the pan cools."
+- "Never carry the pan outside."
+- "Extinguish other food fires with baking soda."
+- "Never use water or flour on cooking fires."
+- "Keep the oven door shut and turn off the heat to smother an oven or broiler fire."
+This is the only regulator page I read that names baking soda and flour. Salt: no regulator page read; only non-authoritative search snippets. Leave salt out, or say "some fire services also mention salt" only after reading one.
+
+**London Fire Brigade, "Pan fires: What to do if a pan catches fire?"**
+URL: https://www.london-fire.gov.uk/safety/the-home/cooking/pan-fires/
+Read: full (curl; the URL I was given, /cooking-and-kitchen-fire-safety/, returns 404). No date on page.
+- "Don't tackle the fire yourself and don't try to move the pan. Never throw water over a fire as it could create a fireball. Turn off the heat, to stop the fire from growing, but only if it's safe to do so. Leave the room, close the door, warn others, and call 999 for emergency services."
+- Linked page teaser: "Around 60% of fires in the home start in the kitchen." Deep fat fryer page teaser: "In 2019, we attended 70 fires started by deep fat fryers".
+
+**The wet tea towel.** Search snippets (cooksinfo.com, safelincs, Oxfordshire leaflet) say the UK government withdrew the damp tea towel advice in 2008 and the national Fire Kills line became get out, stay out, call 999. Read: snippet only. I did not find the government notice itself. The LFB page above is consistent with it (no mention of any towel; "don't tackle the fire yourself"). Safe to say: UK fire services no longer advise a damp towel and say a few drops of water on burning oil can cause a fireball. Do not put a date on the withdrawal without a primary source.
+
+**FSIS, "Deep Fat Frying."**
+URL: https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/deep-fat-frying
+Read: Wayback (snapshot 20260923031306; live site returns Access Denied). Last Updated 9 August 2024.
+- "When water encounters very hot oil (about 350 °F) water vaporizes instantaneously turning into super heated steam. It expands quickly, which can cause oil to splatter and risk bodily injury."
+- "In the event of a grease fire, never use water to put out the fire."
+- "At the "smoke point," the oil begins to break down and can have a foul odor or taste."
+- Its table of approximate smoke points: peanut, safflower, soybean 450 F; grapeseed 445 F; canola 435 F; corn, olive, sesame, sunflower 410 F. Caution for the lesson: published smoke points vary widely by refinement (extra virgin olive oil is often listed far lower than 410 F). FSIS gives one figure per oil with no refinement grade. Present as approximate and say refined oils smoke higher.
+- Recommends having "a kitchen fire extinguisher available when deep-frying."
+
+**Classification and the fair summary.** The facts are Established: cooking is the leading cause of home fires and fire injuries (US) and most home fires start in the kitchen (London); unattended cooking is the main factor; water on burning oil is dangerous; flour is not a smothering agent; oven fires are handled by closing the door and cutting the heat. There is one **Value**-type difference between agencies: US bodies (NFPA, USFA, CPSC) tell you to slide a lid on a small pan fire and turn off the heat; the London Fire Brigade tells you not to tackle it, not to move the pan, turn off the heat only if safe, leave and call 999. NFPA itself adds "Just get out!" and reports that more than half of non-fatal cooking fire injuries happen to people fighting the fire. A fair lesson teaches both: a lid kept beside the pan can smother a small, just-started fire; anything beyond that, or any doubt, means leave, close the door, call the fire service. Never carry the pan.
+
+#### 2b. Burn first aid (Established)
+
+**NHS, "Burns and scalds."**
+URL: https://www.nhs.uk/conditions/burns-and-scalds/
+Read: full (fetch tool). Page last reviewed 31 March 2026.
+- "Hold the burn or scald under cool running water for 20 minutes. Do this as soon as possible, within 3 hours of it happening."
+- "do not put any creams, oils or butter on burns or scalds"
+- "When the burn or scald has cooled, lay cling film over it if you can. Do not wrap the cling film around it."
+- Ice is not mentioned on the part the tool returned. Go to A&E or call 999 for large or deep burns, burns on the face, genitals or bottom, chemical or electrical burns.
+
+**American Red Cross, "Burns" (Learn First Aid).**
+URL: https://www.redcross.org/take-a-class/resources/learn-first-aid/burns
+Read: Wayback (snapshot 20260117094816; live site returns 403).
+- Thermal burns: "Cool the burn as soon as possible under clean, cool, running water for 20 minutes. If clean, cool, running water is not available, use clean, lukewarm water or apply a cool or cold compress. Never use ice, ice water, or a freezing compress to cool a burn."
+- "Butter, mayonnaise, petroleum jelly or any other greasy substance does not help relieve pain or promote healing. Using a greasy substance can seal in the heat and make the burn worse."
+- Go to hospital if, among other things, "A child has been burned. The burn blisters." or the burn covers hands, feet, joints, face, neck or genitals.
+
+**2024 American Heart Association and American Red Cross Guidelines for First Aid**, Circulation, published 2024 (PubMed date 10 Dec 2024), doi 10.1161/CIR.0000000000001281.
+Read: snippet only (the journal and the AHA highlights PDF both blocked). Snippets say 10 to 20 minutes of cool running water. The Red Cross public page now says 20 minutes, which matches the NHS. Teach 20 minutes.
+
+#### 2c. Oil temperature and home deep frying
+Covered by FSIS and NFPA above: heat oil gradually, never leave it, smoke is the warning sign, keep water away from hot oil, lid within reach. Deep frying in a pan of oil on a hob is exactly what UK services call a chip pan; LFB's figure of 70 fryer fires in one year in London is the only local number I have.
+
+---
+
+### 3. Contested and confused questions
+
+#### 3a. Nonstick coatings (PTFE), PFOA and PFAS
+
+**Classification.** Three questions are mixed together, and they sort differently:
+1. Does cooking on an intact PTFE pan at normal temperatures put a meaningful dose of PFAS into food? **Established (low)** as far as the FDA is concerned; the evidence that would overturn it does not exist yet.
+2. Is overheating a PTFE pan harmful? **Established**: above roughly 260 C the coating degrades; the fumes kill pet birds and can cause a short flu-like illness in people.
+3. Should PTFE cookware be sold at all, given PFAS pollution from making and disposing of fluoropolymers? **Value** with a contested empirical core (life-cycle emissions and the toxicity of replacement processing aids).
+
+**FDA, "Authorized Uses of PFAS in Food Contact Applications."**
+URL: https://www.fda.gov/food/process-contaminants-food/authorized-uses-pfas-food-contact-applications
+Read: full (curl). "Content current as of: 01/03/2025".
+- "Of these uses, current data available to the FDA indicate that only paper and paperboard agents would result in dietary exposure to PFAS that may result in a potential safety concern"
+- On pans: "PFAS molecules are polymerized* (i.e., joined together to form large molecules) and are then applied to the surface of the cookware at very high temperatures, which tightly binds the polymer coating to the cookware. The manufacturing process vaporizes off virtually all the smaller (i.e., migratable) PFAS molecules."
+- Via fetch tool: "Studies show negligible amounts of PFAS in this coating can migrate to food."
+- February 2024: PFAS grease-proofing agents for paper no longer sold into the US market; January 2025 notice ending the 35 related notifications.
+
+**EPA, "Risk Management for Per- and Polyfluoroalkyl Substances (PFAS) under TSCA"** (the 2010/2015 PFOA Stewardship Program).
+URL: https://www.epa.gov/assessing-and-managing-chemicals-under-tsca/risk-management-and-polyfluoroalkyl-substances-pfas
+Read: full (fetch tool). Last updated 26 March 2026.
+- Eight companies, including DuPont, 3M/Dyneon, Daikin, Solvay Solexis.
+- Goals: a 95 percent cut in PFOA emissions and product content from a 2000 baseline by 2010, and "the elimination of these chemicals from emissions and products by 2015."
+- "All companies have met the PFOA Stewardship Program goals."
+So a pan bought in the US after 2015 was not made with PFOA. PFOA was a processing aid used in making PTFE, not the coating itself.
+
+**EFSA, "PFAS in food: EFSA assesses risks and sets tolerable intake,"** news release 17 September 2020.
+URL: https://www.efsa.europa.eu/en/news/pfas-food-efsa-assesses-risks-and-sets-tolerable-intake
+Read: full (fetch tool).
+- Group tolerable weekly intake "4.4 nanograms per kilogram of body weight per week" for PFOA, PFOS, PFNA and PFHxS combined.
+- Main dietary sources named: "drinking water, fish, fruit, eggs, and egg products". Cookware is not named as a source.
+
+**Overheating, fumes and birds.**
+- Wells RE, "Fatal toxicosis in pet birds caused by an overheated cooking pan lined with polytetrafluoroethylene," J Am Vet Med Assoc 1983;182(11):1248-50. PMID 6863146. Read: title and citation only (no abstract in PubMed).
+- Shimizu T et al., "Polymer fume fever," BMJ Case Rep 2012. PMID 23230259. Read: abstract. A 29-year-old man with fever, breathlessness and cough "after massive inhalation of evaporant from a polytetrafluoroethylene-coated cooking pan"; he improved within two days.
+- Correia MS, Horowitz BZ, "Polymer Fume Fever," StatPearls (archived), 4 Aug 2023. PMID 37603667. Read: abstract. Notes PTFE's acute toxicity was thought low until "the first reported case series of polymer fume fever due to occupational exposure" in 1951.
+- Hays HL, Spiller H, "Fluoropolymer-associated illness," Clin Toxicol 2014. PMID 25200453. Read: abstract. **Caution:** this review is about waterproofing sprays, not cookware; it says "Serious outcomes, including acute respiratory distress syndrome and death, are uncommon." Do not cite it for pans.
+- Patel P (Prachi Patel), "How does nonstick cookware work, and should you switch to 'green' pans?", C&EN, byline date 1 May 2025 (schema says 13 Nov 2025; print version vol 103 issue 12).
+URL: https://cen.acs.org/environment/persistent-pollutants/does-nonstick-cookware-work-should/103/web/2025/04
+Read: full (curl). Verbatim: "PTFE degrades when it's heated above 260 °C, releasing smaller PFAS molecules into air and food." "The fumes are also fatal to birds. But cases of such effects are uncommon, and it is unclear whether exposure from regular use harms human health." It quotes an Ecology Center scientist that PTFE coatings "are probably a lower PFAS exposure hazard than other sources for the average person, but are not necessarily inert" (the article's paraphrase, not a direct quote of her).
+
+**Ceramic ("PFAS-free") coatings.** Same C&EN article: ceramic coatings are usually a sol-gel siloxane network (silica and other mineral particles in PDMS resin). "Users often complain that ceramic coatings lose their nonstick property sooner than PTFE does. Scientific reviews are mixed." One 2024 study found ceramic stood up better to prolonged heat above 250 C; a preprint found "Teflon outperformed commercial ceramic coatings, but two ceramic coatings came close." A materials scientist warns "ceramic" can be marketing: some pans labelled ceramic still use PFAS. I did not read either underlying study.
+
+**The industry case, in its own words. Cookware Sustainability Alliance** (members per search snippet: Groupe SEB, Meyer, SCANPAN, Tramontina; the site itself did not list them).
+URL: https://cookwaresustainabilityalliance.org/
+Read: full (fetch tool). No date.
+- PTFE is "an inert molecule that is non-bioaccumulative, insoluble in water, non-toxic, and therefore safe for consumers."
+- "The same compounds used in non-stick cookware (PTFE) are also used in life-saving medical devices, such as pacemakers."
+- Argues bans conflate PTFE with PFOA, which it says was "never used" on cookware (read this as: not present in the finished coating; EPA confirms it was used in manufacture until the phase-out).
+
+**The case for bans, in its proponents' words.** Kelleher S, "Industry, environmental groups spar over California bill to ban PFAS in cookware," The New Lede, 29 September 2025.
+URL: https://www.thenewlede.org/2025/09/california-cookware-pfas-ban/
+Read: full (fetch tool).
+- Rainer Lohmann (URI PFAS research centre): "I don't see manufacturers being able to produce [Teflon pans] without adding contamination to the environment."
+- Los Angeles County Sanitation Districts: "Acting boldly to turn off the spigot of PFAS in consumer products is the only meaningful and cost-effective way to potentially avoid further PFAS contamination."
+- CSA president Steve Burns on scope: "The way that California's bill is drafted, it will include every coffeemaker, every Dunkin' Donuts or 7-Eleven."
+- The article also reports a July 2025 study linking PTFE exposure to reduced sperm count; I did not read it and would not use it without reading it.
+
+**US states.**
+- Minnesota (Amara's Law): cookware with intentionally added PFAS banned from sale from 1 January 2025; broad product ban by 2032 except "currently unavoidable uses". MPCA page read in full (fetch tool, https://www.pca.state.mn.us/get-engaged/pfas-in-products), but it states only the staged 2025 to 2032 scheme, not the cookware date; the cookware date comes from C&EN ("In January, Minnesota became the first US state to ban the sale of..." read in full) and snippets. A federal court dismissed the CSA's Commerce Clause challenge on 11 August (2025), per search snippets (Bloomberg Law, CBS Minnesota, National Law Review); not read.
+- Colorado and Maine: cookware bans in effect January 2026 (snippets only).
+- California SB 682 (cookware ban from 2030) passed the legislature and was vetoed on 13 October 2025. Farella Braun + Martel note of 16 October 2025, read in full (fetch tool), https://www.fbm.com/publications/governor-newsom-vetoes-sb-682-due-to-concerns-with-the-impact-on-affordable-cooking-products/ quotes the veto: "while this bill is well-intentioned, I am deeply concerned about the impact this bill would have on the availability of affordable options in cooking products". An EWG item of July 2026 (title only) says a separate California law makes PFAS in cookware easier to spot (a disclosure law); not read.
+
+**European Union.** ECHA's universal PFAS restriction (proposal 2023). RAC adopted its opinion in March 2026; SEAC's draft opinion went to consultation until 25 May 2026; SEAC final opinion expected by end of 2026, then the Commission drafts and member states vote. Sources: Arnold & Porter advisory 27 March 2026 (read full, fetch tool; does not mention cookware), Bergeson & Campbell 31 March 2026 (read full, fetch tool; RAC on fluoropolymers: "evidence of their mobility, bioaccumulative potential and (eco-)toxicological effects is limited", with emissions at production and waste stages; cookware not named). A search snippet says SEAC did not accept an industry request to exclude fluoropolymers and that consumer non-stick cookware would be restricted because substitutes exist; **not confirmed by any page I read.** As of today the EU has not adopted a restriction.
+
+**What evidence would settle it.** For the kitchen question: measured migration of PFAS (including particles from scratched coatings) into food across a pan's working life, compared with other dietary sources. For the policy question: life-cycle emission data for fluoropolymer manufacture with non-PFOA processing aids, and whether replacement ceramic coatings last long enough that people do not buy several pans in PTFE's lifetime.
+
+**Fair summary for the lesson.** Regulators who looked at the pan itself (FDA) find negligible migration from intact coatings. Overheating is a real, separate hazard: never preheat an empty nonstick pan on high, ventilate, and keep birds out of the kitchen. PFOA was phased out of manufacture by 2015 in the US. The live argument is about pollution where fluoropolymers are made and thrown away, and on that, US states and the EU are moving toward restriction while industry argues PTFE is inert. A student can reasonably keep an intact nonstick pan for eggs and fish, use it at medium heat, and replace it when the coating is damaged; or choose cast iron, carbon steel or stainless for reasons of environment or durability. Both are defensible choices.
+
+#### 3b. Cast iron, soap and acid (Established, with a myth to correct)
+
+**Lodge Cast Iron, "How to Clean."** URL: https://www.lodgecastiron.com/pages/how-to-clean. Read: full (fetch tool). No date.
+- "Start with warm, soapy water and scrub with a stiff-bristled brush or scrubbing pad." "Dry completely with a paper towel or lint-free cloth." "Add a thin layer of oil".
+- "The soap we use for washing dishes today is no longer strong enough to remove seasoning from cast iron."
+- Soaking: "No! Soaking cast iron in water is a recipe for rust." Dishwasher: "A dishwasher will remove the seasoning and likely cause rust."
+- Heavy rust: scour, oil, and re-season upside down at 450 to 500 F for an hour.
+
+**Lodge, "10 Myths About Cast Iron Cookware, Busted!"** URL: https://www.lodgecastiron.com/pages/cast-iron-101-cast-iron-myths. Read: full (fetch tool).
+- "Soap isn't necessary, but you _can_ use mild dish soap to clean cast iron."
+- On acidic foods: "These foods, in small quantities, are just fine to cook in brand new cookware. But large amounts of very acidic or alkaline foods can break down the seasoning when cooked for extended periods of time."
+- Metal utensils are fine.
+
+**Lodge, "3 Tips for Cooking Acidic Foods in Cast Iron,"** 9 May 2023. URL: https://www.lodgecastiron.com/blogs/story/3-tips-for-cooking-acidic-foods-cast-iron. Read: full (fetch tool).
+- "you shouldn't leave acidic ingredients directly in cast iron for more than about 45 minutes."
+- Long contact can "impart a metallic flavor to your food." It presents this as a quality issue, not a safety one.
+
+The URL first tried (/cleaning-and-care/cast-iron) is 404. **Carbon steel:** no source read; the care is the same in principle (season, dry, oil), but do not state it without a manufacturer's page. **Fair summary:** the "never use soap" rule dates from lye soaps; the maker says mild soap is fine. What damages cast iron is standing water, the dishwasher and long acidic simmers.
+
+#### 3c. Gas stoves and indoor air (Contested empirical)
+
+**Gruenwald T, Seals BA, Knibbs LD, Hosgood HD, "Population Attributable Fraction of Gas Stoves and Childhood Asthma in the United States,"** Int J Environ Res Public Health 2022 (published 21 Dec 2022). PMID 36612391. Read: abstract. First two authors at RMI (a clean-energy nonprofit).
+- Used a meta-analysis odds ratio of 1.34 (95% CI 1.12 to 1.57) for gas cooking and current asthma.
+- "We found that 12.7% (95% CI = 6.3−19.3%) of current childhood asthma in the US is attributable to gas stove use."
+- It is a calculation from an existing odds ratio and exposure prevalence, not new measurement. The attributable-fraction method assumes the association is causal.
+
+**The critique.**
+- American Gas Association statement, 5 January 2023. URL: https://www.aga.org/news/news-releases/statement-aga-concerned-by-methodology-of-new-study/. Read: full (fetch tool). "The claims made in Gruenwald et al. are derived from an advocacy-based mathematical exercise that doesn't add any new science." "The authors conducted no measurements or tests based on real-life appliance usage, emissions rates, or exposures." It also points out that the authors' own search since 2013 found "none reported new associations between gas stove use and childhood asthma specifically in North America or Europe." (AGA is the gas utilities' trade body.)
+- Li W et al., "Gas cooking and respiratory outcomes in children: A systematic review," Global Epidemiology 2023. PMID 37638371. Read: abstract. Authors at Gradient, which declares past work "with several organizations in the past that have an interest in gas stoves and NO2 science." Concludes the literature "does not provide sufficient evidence regarding causal relationships between gas cooking or indoor NO2 and asthma or wheeze," noting most studies are cross-sectional and the few cohort studies "have largely reported null results."
+- Wong GW et al., ISAAC Phase Three, Lancet Respir Med 2013. PMID 24429203. Read: abstract. Over 512,000 children in 47 countries: open-fire cooking was associated with asthma symptoms, but "we detected no evidence of an association between the use of gas as a cooking fuel and either asthma symptoms or asthma diagnosis." (Self-reported, cross-sectional.)
+
+**The measurement side (not disputed in the same way).**
+- Kashtan Y et al., Sci Adv, 3 May 2024. PMID 38701214. Read: abstract. Gas and propane stoves raise long-term NO2 exposure by 4.0 ppb on average, "75% of the World Health Organization's exposure guideline"; model estimates "~50,000 cases of current pediatric asthma"; short-term exposure "frequently exceeds" WHO and EPA benchmarks; people in homes under 800 square feet get four times the exposure of those in homes over 3,000.
+- Kashtan YS et al., Environ Sci Technol, 2023. PMID 37319002. Read: abstract. Burners on high and ovens at 350 F emitted benzene "10 to 25 times higher than emissions from electric coil and radiant alternatives; neither induction stoves nor the food being cooked emitted detectable benzene."
+
+**Regulator advice. EPA, "Strategies for Improving Indoor Air Quality While Cooking" (infographic).** URL: https://www.epa.gov/indoor-air-quality-iaq/strategies-improving-indoor-air-quality-while-cooking-infographic. Read: full (fetch tool). Page date 10 March 2026.
+- "Turn the range hood on whenever you are cooking." "Cook on the back burners when possible to capture more emissions." "Leave the range hood on for 10–20 minutes after you have finished cooking." Open windows when outdoor air allows; portable air cleaner that does not produce ozone.
+- It does not tell anyone to replace a gas stove.
+
+**Fair summary.** It is established that gas burners put NO2 (and some benzene) into indoor air, more in small, poorly ventilated kitchens, and that ventilation reduces it. Whether this causes a measurable share of childhood asthma is contested: the 12.7% figure is a model built on cross-sectional associations, criticised by industry and by an industry-linked review, and the largest international study found no gas association. What would settle it: prospective cohorts with measured NO2 exposure, or trials of stove replacement or hood use with asthma outcomes. For the cook, the practical advice is the same on every reading: use a hood vented outdoors, prefer back burners, open a window. Induction avoids combustion altogether. Keep this brief in the lesson.
+
+#### 3d. Rare burgers, pink pork, poultry (Established on the science; Value on personal choice)
+
+**FSA, "Less than thoroughly cooked beef burgers: guidance for food businesses."** GOV.UK, published 22 May 2023 (first 2016; revisions 2018, 2022).
+URL: https://www.gov.uk/government/publications/less-than-thoroughly-cooked-beef-burgers-guidance-for-food-businesses-and-local-authorities/less-than-thoroughly-cooked-beef-burgers-guidance-for-food-businesses
+Read: full (curl).
+- "When meat is minced to produce burgers, harmful bacteria from the surface of the raw meat may be spread throughout the burger."
+- "When burgers are thoroughly cooked, achieving a temperature of 70°C for two minutes, or equivalent all the way through, this will result in a 99.9999% (six-log) reduction in harmful bacteria".
+- "The colour of a beef burger cannot be used as the sole indication of safe cooking."
+- Businesses may serve rare beef burgers only with a food safety management system and approved suppliers, and "The consumer message also aims to discourage consumers from eating LTTC beef burgers at home."
+- Recommended menu message: "Burgers cooked rare and medium rare carry a higher risk of food poisoning. Unlike a steak, a burger needs to be cooked through to reduce that risk. The Food Standards Agency recommends that children, pregnant women and anyone with a weaker immune system have their burgers well done."
+- A search snippet quotes the FSA as saying the risk in controlled catering "is not so unacceptable as to justify removing the adult consumer's right to choose"; I did not see that sentence in the 2023 text and it may be from an earlier board paper. Not quoted here.
+
+**FSA, "Cooking your food."** GOV.UK, published 18 December 2017 (food.gov.uk now redirects here). URL: https://www.gov.uk/government/publications/cooking-your-food/cooking-your-food. Read: full (curl).
+- Equivalent time and temperature: "70°C for 2 minutes or the following temperature-time combinations: 60°C for 45 minutes 65°C for 10 minutes 70°C for 2 minutes 75°C for 30 seconds 80°C for 6 seconds".
+- "Burgers shouldn't be served rare or pink at home."
+- "Poultry (such as chicken, turkey, duck, and game birds) and pork can have bacteria all the way through the meat. This means that these meats need to be cooked all the way through." Whole cuts other than poultry and pork "can be served pink in the middle according to taste".
+
+**FSIS, "Safe Minimum Internal Temperature Chart."** Read: Wayback (snapshot 2026-09-23; live blocked).
+- Steaks, chops, roasts of beef, pork, veal, lamb: "145 degrees F (62.8 degrees C) and allow to rest for at least 3 minutes". "Ground Meats 160 degrees F (71.1 degrees C)". Poultry 165 F.
+- "For reasons of personal preference, consumers may choose to cook food to higher temperatures."
+
+**The 2011 pork change.** CIDRAP news item (read full, fetch tool), https://www.cidrap.umn.edu/foodborne-disease/usda-145-degrees-safe-temp-pork, dated 24 May 2011: USDA lowered whole-cut pork from 160 F to 145 F with a three-minute rest, saying it gives a product "both microbiologically safe and at its best quality"; Under Secretary Elizabeth Hagen: "With a single temperature for all whole cuts of meat and uniform 3-minute stand time, we believe it will be much easier for consumers to remember." Ground meat stayed at 160 F. The USDA press release itself was not read.
+
+**Trichinellosis. Wilson NO, Hall RL, Montgomery SP, Jones JL, "Trichinellosis Surveillance, United States, 2008-2012,"** MMWR Surveill Summ 2015;64(SS-1), 16 January 2015. URL: https://www.cdc.gov/mmwr/preview/mmwrhtml/ss6401a1.htm. Read: full (fetch tool).
+- 1947 to 1951: "approximately 400 cases with 10–15 trichinellosis-related deaths were reported each year."
+- 2008 to 2012: "the mean annual incidence of trichinellosis in the United States was 0.1 cases per 1 million population"; 84 confirmed cases; pork products 22 (26%), of which 10 commercial pork; bear meat the leading non-pork source.
+No newer CDC summary was read.
+
+**Sous vide poultry.** Douglas Baldwin, "A Practical Guide to Sous Vide Cooking" (version 0.4k; 2008 and later). URL: https://douglasbaldwin.com/sous-vide.html. Read: full (fetch tool). Table 4.1 times to pasteurise poultry at 60 C (140 F): 5 mm thick 45 min; 10 mm 55 min; 20 mm 1 1/4 h; 30 mm 2 h (from heating from fridge temperature). He relies on FSIS (2005) 7-log Salmonella lethality tables. "the common food pathogen Clostridium perfringens can grow at up to 126.1°F (52.3°C)", so he keeps sous vide at 130 F (54.4 C) or above. This matches the principle in the FSA's own equivalence list (60 C for 45 minutes). The 165 F figure is the instant-kill point, not the only safe one.
+
+**What the lesson can say.** Established: bacteria sit on the surface of a whole cut and are spread through by mincing; safety is time plus temperature, not colour; pork in the US and UK is now very unlikely to carry trichinella. **Value:** the difference between a US 145 F pink pork chop and the UK "cooked all the way through" advice is a difference in how cautiously each agency phrases advice for the public, not a disagreement about microbiology; the FSA's own 60 C for 45 minutes line shows the same time-temperature logic. Rare burgers at home: both agencies advise against. An adult can choose a rare steak; the burger is different for a reason the student can understand.
+
+#### 3e. Washing raw chicken (Established on the risk; Value on the practice)
+
+**The evidence against.**
+- USDA press release, "Washing Raw Poultry: Our Science, Your Choice," 20 August 2019. URL: https://www.usda.gov/about-usda/news/press-releases/2019/08/20/washing-raw-poultry-our-science-your-choice. Read: Wayback (live 403). Verbatim: "Of the participants who washed their raw poultry, 60 percent had bacteria in their sink after washing or rinsing the poultry. Even more concerning is that 14 percent still had bacteria in their sinks after they attempted to clean the sink. 26 percent of participants that washed raw poultry transferred bacteria from that raw poultry to their ready to eat salad lettuce." Also: "Of the participants that did not wash their raw poultry, 31 percent still managed to get bacteria from the raw poultry onto their salad lettuce." The title itself concedes the choice is the cook's.
+- Shumaker ET et al., "Observational Study of the Impact of a Food Safety Intervention on Consumer Poultry Washing," J Food Prot 2022;85(4):615-625. PMID 35051277. Read: abstract. The peer-reviewed version of the USDA work (300 participants). Key finding for the lesson: "The high levels of E. coli DH5α detected in the sink and on the salad lettuce suggest that microbes transferred to the sink from the chicken, packaging, or contaminated hands are a larger cause for concern than is splashing contaminated chicken fluids onto the counter." And the authors recommend changing "the frame of "don't wash your poultry" messaging to instead focus on preventing contamination of sinks and continuing to emphasize the importance of hand washing and cleaning and sanitizing surfaces."
+- FSA, "Campylobacter," GOV.UK, published 9 January 2018. URL: https://www.gov.uk/government/publications/campylobacter/campylobacter. Read: full (curl). "washing raw chicken can spread campylobacter by splashing it onto hands, work surfaces, clothing and cooking equipment. Campylobacter has a low infective dose". Advice: "never wash chicken/poultry".
+- FSA Food Safety Week 2014 (Quadram Institute page, 16 June 2014, https://quadram.ac.uk/fsw2014/, read full via fetch tool): about 280,000 Campylobacter cases a year in the UK; "up to 65% of poultry may be contaminated". The widely repeated "44% always wash chicken" figure is from snippets only.
+- Kosa KM et al., J Food Prot 2015;78(1):180-6. PMID 25581194. Read: abstract. National US web survey, n = 1,504: "Nearly 70% of consumers reported washing or rinsing raw poultry before cooking it".
+
+**The practitioners' case, fairly stated.**
+- Henley SC, Stein SE, Quinlan JJ (Drexel), "Identification of unique food handling practices that could represent food safety risks for minority consumers," J Food Prot 2012;75(11):2050-4. PMID 23127716. Read: abstract. Nine focus groups in Philadelphia (African American, Hispanic, Asian). Washing raw poultry was found in all three; "using hot water (Asian, Hispanic) or acidic solutions (African American, Hispanic) to clean raw poultry" were culturally specific. The authors note the small, non-random sample means these "cannot be extrapolated".
+- Drexel News, "Don't Wash Your Chicken: It's Risky, It's Unnecessary and There's a Better Way!", 30 August 2022. URL: https://drexel.edu/news/archive/2022/August/Dont-Wash-Your-Chicken-Its-Risky-Its-Unnecessary-and-Theres-a-Better-Way. Read: full (fetch tool). Quinlan's research found cooks wash because of a "desire to control the process of preparing food, have a lack of trust in chicken processing and/or the habitual nature of the behavior." The better way offered: "wipe it off with a clean paper towel and then wash your hands." The 2013 Drexel campaign page (snippet only) reports Quinlan saying some cooks "just want to get slime off, or feel like it's dirty".
+- So the case, as practitioners make it: raw poultry can carry slime, blood, feather stubs, bone chips and fat that a cook wants off; washing is how a mother or grandmother taught it; it expresses care and cleanliness; and in many Caribbean, West African, Latin American and South Asian kitchens a lime, lemon or vinegar wash is part of seasoning and of removing smell. Many cooks distrust industrial processing. These are real reasons, and the lesson should say so without mockery. Note for the writer: I did not find a first-person source from a Caribbean or West African cook or cookbook in this pass; the "freshens the smell" description came from a search summary only. Stage 1 should add one before the lesson characterises the tradition.
+
+**Does an acid wash kill the bacteria?** Henley SC, Launchi N, Quinlan JJ, "Survival of Salmonella on raw poultry exposed to 10% lemon juice and vinegar washes," Food Control, December 2018, doi 10.1016/j.foodcont.2018.06.034. Read: abstract (Semantic Scholar API). "a subset of consumers report using acidic solutions (diluted lemon/lime juice or vinegar) to wash raw poultry." After 10 s to 5 min washes, live Salmonella stayed on the chicken and in the wash water: "Washing raw poultry in a diluted lemon juice or vinegar solution is an inefficient method for removing pathogens and results in pathogens both in the wash water and on the chicken, increasing the risk for cross contamination". Limit: lab-inoculated at a very high level; a 10% dilution, not neat juice. A Turkish study on lemon juice in cig kofte (Baris Bingol et al., Br Food J 2011, abstract read via Crossref) found reductions of 0.1 to 2.1 log with longer times, so acid marinating does something, but far less than cooking.
+
+**Fair summary.** Washing does not make chicken safer; cooking does. Washing adds a sink full of bacteria, and the USDA's own study found the sink and hands, not spray on the counter, were the main route. Cooks who wash for texture or tradition can reduce the harm: clear the sink and draining board first, run water gently, prepare salad before touching raw chicken, clean and sanitise the sink afterwards, wash hands. A paper towel pat removes slime without water. An acid wash can stay as a flavour step if it is treated as raw-chicken liquid. Classification: the microbiology is Established; whether to keep the practice is a Value question for the cook.
+
+#### 3f. Aluminium and Alzheimer's; acrylamide
+
+**Aluminium (Established: no demonstrated link).**
+- Alzheimer's Society (UK), "Metals and the risk of dementia." URL: https://www.alzheimers.org.uk/about-dementia/risk-factors-and-prevention/metals-and-dementia. Read: Wayback (snapshot 20251112073331; live page returned a stub). "There is no strong evidence to suggest that everyday contact with metals increases a person's risk of developing dementia." The 1965 rabbit study led to "speculation that aluminium from cans, cookware and even the water supply could be causing dementia. Importantly, these results were only seen with extremely high doses". "Aluminium in food and drink is in a form that is not easily absorbed into the body. Hence the amount taken up is less than 1% of the amount present in food and drink."
+- Alzheimer's Association (US) myths page, https://www.alz.org/alzheimers-dementia/what-is-alzheimers/myths: read full (fetch tool); **it no longer contains an aluminium myth.** A quotation often attributed to it ("studies have failed to confirm any role for aluminum in causing Alzheimer's") appears only in search snippets. Do not cite alz.org for this.
+- Practical note (not sourced): plain aluminium reacts with acids and can discolour food or taste metallic; anodised aluminium does not. Source this in Stage 1 before teaching it.
+
+**Acrylamide (Contested empirical, and a Value tension in messaging).**
+- EFSA, acrylamide topic page, opinion of 4 June 2015. URL: https://www.efsa.europa.eu/en/topics/topic/acrylamide. Read: full (fetch tool). "acrylamide in food potentially increases the risk of developing cancer for consumers in all age groups." Human evidence "limited and inconsistent". Main adult sources fried potato products and coffee.
+- FSA, "Acrylamide," GOV.UK, published 9 January 2018. URL: https://www.gov.uk/government/publications/acrylamide/acrylamide. Read: full (curl). "Laboratory tests show that acrylamide in the diet causes cancer in animals. Scientists agree that acrylamide in food has the potential to cause cancer in humans as well. We recommend that the amount of acrylamide we all consume is reduced, as a precaution." Home advice: "aim for a golden yellow colour or lighter when frying, baking, toasting or roasting starchy foods". **The FSA has withdrawn its old advice not to keep raw potatoes in the fridge**: a study reviewed by COT "has shown that home storage of potatoes in the fridge doesn't materially increase acrylamide forming potential", so potatoes may go in the fridge or a cool dark place.
+- FSA "Go for Gold" press release, 24 January 2017 (via wired-gov.net, read full, fetch tool): the four original tips, including the now-withdrawn fridge tip, and "consumers are currently exposed to higher levels of acrylamide than is desirable and this may contribute to overall lifetime cancer risk."
+- Cancer Research UK, "Does burnt toast cause cancer?" Last reviewed 18 December 2024. URL: https://www.cancerresearchuk.org/about-cancer/causes-of-cancer/cancer-myths-questions/does-burnt-toast-cause-cancer. Read: full (curl). "Eating acrylamide in burnt food is unlikely to increase cancer risk." "Our evidence-based advice: You don't need to avoid burnt starchy foods. There is no reliable evidence that eating acrylamide increases the risk of cancer in people."
+- David Spiegelhalter, Winton Centre (Cambridge), "How dangerous is burnt toast?" URL: https://wintoncentre.maths.cam.ac.uk/news/how-dangerous-burnt-toast/. Read: full (fetch tool); date unclear on the page (written at the 2017 campaign). "I am not convinced it is appropriate to launch a public campaign on this basis."
+- **The tension, fairly stated.** EFSA and the FSA reason from animal carcinogenicity and exposure margins to a precautionary "reduce it"; Cancer Research UK reasons from human cohort studies, which do not show a link, to "you don't need to avoid" it. Both are true to their method. Evidence that would settle it: large prospective cohorts with biomarker-measured acrylamide exposure (haemoglobin adducts) and cancer outcomes. For the cook: golden rather than dark brown costs nothing and loses little flavour; burnt toast is not a cancer emergency.
+
+#### 3g. Wooden versus plastic boards (Contested empirical, leaning toward "either, if kept clean")
+
+- Ak NO, Cliver DO, Kaspar CW, "Cutting Boards of Plastic and Wood Contaminated Experimentally with Bacteria," J Food Prot 1994;57(1):16-22. PMID 31113021. Read: abstract. (University of Wisconsin-Madison; Cliver later moved to UC Davis.) "Recoveries from wooden blocks were generally less than those from plastic blocks, regardless of new or used status". "These results do not support the often-heard assertion that Plastic cutting boards are more sanitary than wood."
+- Cliver DO, "Cutting boards in Salmonella cross-contamination," J AOAC Int 2006;89(2):538-42. PMID 16640304. Read: abstract. Knife-scarred plastic is "very difficult to clean and disinfect"; bacteria drawn into wood "are not killed instantly, but neither do they return to the surface"; plastic boards can go in a dishwasher "but the dishwasher may distribute the bacteria onto other food-contact surfaces"; and "one of these studies indicated that use of plastic cutting boards in home kitchens is hazardous, whereas use of wooden cutting boards is not." (Cliver is summarising other people's epidemiology; I have not read those two studies.)
+- FSIS, "Cutting Boards." Read: Wayback (2026-09-23 snapshot). Last updated 27 August 2024. "Consumers may choose either wood or a nonporous surface cutting board such as plastic, marble, glass, or pyroceramic. Nonporous surfaces are easier to clean than wood." Advises one board for produce and bread and "a separate one for raw meat, poultry, and seafood."
+- Newer work (titles and snippets only, not read): de Oliveira et al., LWT, April 2025, domestic boards in use (snippet: plastic boards had higher counts); Kimiran et al., J Food Safety 2026, Salmonella persisted longer on polyethylene and glass than on wood (snippet). Worth reading in a later pass.
+- **Fair summary.** The old belief that plastic is automatically more hygienic is not supported. Wood performs at least as well in lab work. Either is fine if washed hot and soapy, dried, and replaced when deeply scored; the bigger safety step is a separate board, or a strict order of use, for raw meat. Glass and marble are hygienic but dull knives fast (Cliver's point on knife wear is a quality claim, not a safety one).
+
+#### 3h. Food waste versus safety: dates and smelling (Established on dates; smell test is where people go wrong)
+
+- FSA (on GOV.UK), "Understanding food labelling: Best before and use-by dates." URL: https://www.gov.uk/understanding-food-labelling/best-before-and-use-by-dates. Read: full (curl). No date shown.
+  - "Use-by dates on food labels tell you when the food is no longer safe to eat. They must be shown on foods that go off quickly, such as meat products and ready-to-eat salads. Eating food after the use-by date could make you ill."
+  - "You can eat food after the use-by date if it was cooked or frozen on or before the use-by date."
+  - Best before "tells you when the food might start to reduce in quality." "After the best before date, the food is usually safe to eat but may not be of the same quality."
+  - "After the best before date, you can use sight, taste or smell to decide whether you should eat something". Note the sense check is offered for best-before foods only.
+  - Fridge "at 5°C or below"; freezer at -18 C; defrosted food used within 24 hours.
+- FSIS, "Food Product Dating." Read: Wayback (snapshot 20260923031306). Last updated 23 April 2025 (the footer date on the snapshot; treat with some caution).
+  - "Except for infant formula, product dating is not required by federal regulations."
+  - "Except for infant formula, dates are not an indicator of the product's safety and are not required by Federal law."
+  - FSIS recommends industry use "Best if Used By". "if the date passes during home storage, a product should still be safe and wholesome if handled properly until the time spoilage is evident."
+- FSIS, "Leftovers and Food Safety." Read: Wayback. Last updated 31 July 2020. "Leftovers can be kept in the refrigerator for 3 to 4 days or frozen for 3 to 4 months." I did not find in the extracted text an explicit line on smelling leftovers.
+- **The smell test.** No page I read says in so many words that pathogens do not cause off smells; the microbiological point (spoilage organisms cause smell; Listeria and Salmonella usually do not) is standard teaching but needs a regulator or textbook source before the lesson states it. The FSA page's structure makes the practical point already: sense checks are for best-before foods, the use-by date is a safety limit.
+- **Fair summary.** In the UK, the two dates mean different things and the law requires use-by on perishable, high-risk foods. In the US, apart from infant formula, date labels are the maker's quality estimate, and FSIS says food past the date is still safe if handled properly until it spoils. Waste and safety pull in opposite directions only for use-by foods; for everything else, eyes and nose are the right tools.
+
+---
+
+### Not read
+
+- Serious Eats knife skills pieces (Lopez-Alt and others): domain refused by the search tool; not attempted with curl for lack of a URL.
+- BBC Good Food knife skills: no page surfaced in search.
+- CIA (Culinary Institute of America) knife cut standards or textbook.
+- "Chang et al 2016 Am J Emerg Med" knife injury paper: could not find; may not exist as described. Smith 2013 used instead.
+- CPSC NEISS query data directly.
+- The newer NFPA "Home Cooking Fires" edition (2019 to 2023 data): snippet only.
+- UK government or Fire Kills notice withdrawing the damp tea towel advice (2008): snippet only.
+- Any regulator page naming salt for a grease fire.
+- American Red Cross cooking fire page (redcross.org URL 404); Massachusetts DFS cooking fire page (403).
+- 2024 AHA and Red Cross First Aid Guidelines full text (Circulation; 403) and the AHA highlights PDF (not a PDF when fetched).
+- OSHA knives URL as given (404); read the food-prep page instead.
+- London Fire Brigade URL as given (404); read the pan-fires page instead.
+- USDA 2011 pork press release itself (read CIDRAP's report of it).
+- CDC trichinellosis data after 2012.
+- FSIS "Washing Food: Does it Promote Food Safety?" (Access Denied live and on the archive fetch).
+- FSIS 2005 or 2017 Salmonella lethality tables (Appendix A) directly; relied on Baldwin.
+- FSA 2014 Food Safety Week release itself; the "44% always wash" figure is snippet only.
+- Any first-person Caribbean, West African or Latin American cook or cookbook on acid-washing chicken.
+- Minnesota Amara's Law statutory text; court rulings in CSA v. Minnesota; Colorado and Maine cookware laws; EWG July 2026 item on California disclosure.
+- ECHA's own pages and SEAC draft opinion text on consumer cookware; the claim that SEAC rejected a fluoropolymer exclusion is snippet only.
+- The 2022 study on particles from cracked PTFE, the 2024 ceramic durability study, the preprint pancake study, and the July 2025 PTFE sperm-count study (all cited inside C&EN or The New Lede, none read).
+- StatPearls "Polymer Fume Fever" full text (NCBI Bookshelf blocked; abstract only). Wells 1983 bird paper (citation only).
+- DuPont or Chemours statements on PTFE decomposition temperatures.
+- Alzheimer's Association statement on aluminium (not on the myths page any more).
+- Primary acrylamide cohort studies; Spiegelhalter's Medium post (403); read the Winton Centre version.
+- de Oliveira et al. 2025 (LWT) and Kimiran et al. 2026 (J Food Safety) on cutting boards; the two epidemiological studies Cliver cites.
+- Carbon steel care from any manufacturer.
+- A source for plain versus anodised aluminium reactivity with acid foods.
+- A source stating that pathogens do not produce off smells.
+- Gruenwald et al. full text; the RMI response to the AGA; the Kashtan et al. full texts.
