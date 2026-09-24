@@ -130,12 +130,14 @@ Rewrite these five lines each session. Nothing else goes in this block.
   and the mandatory neutrality audit passed (entry in `research/reviews/course-wide.md`). It owes
   eight podcast scripts to be written, which are next, and eight episodes, which trail.
 
-- **Mental Fitness is in Stage 3**, as of 2026-09-24. Nine lessons planned. **Lessons 1 to 4:** drafted,
-  reviewed by two fresh-context reviewers each, applied. **Lesson 5:** drafted; its two reviews ran and
-  their findings are in `research/reviews/05-exercise-asked-three-ways.md`, **not yet applied**.
-  **Lesson 6:** drafted, **not yet reviewed**. **Next session:** apply lesson 5's reviews, review
-  lesson 6 (two reviewers, as the course README says), then draft 7 to 9 and both assessments, then
-  the mandatory neutrality audit, then publish.
+- **Mental Fitness is published**, as of 2026-09-24: nine lessons, each through two fresh-context
+  Stage 4 reviewers, both assessments reviewed, and the mandatory neutrality audit passed after ten
+  sentence-level fixes (`research/reviews/course-wide.md`). **Next:** nine podcast scripts, in
+  progress in the same session; audio-debt opened at 9. **Open, from the audit:** the research file
+  has no defender's own statement of why a 0.3 drug-placebo gap matters clinically, so lesson 8 says
+  it hasn't read one (a Stage 1 pass could add it); positive-psychology interventions and religious
+  coping are named as unresearched. **The validator misses a single adjacent quiz-key repeat** (it
+  warns only at half the items), found by reviewers in lessons 5 and 6.
   Every lesson carries a crisis callout that `npm run validate` enforces word for word. **Every cited
   abstract is reproduced whole in an appendix to `SOURCES.md`**, because the first three reviews each
   found the file quoting abstracts selectively in the direction of its own framing; draft from the
