@@ -1,6 +1,7 @@
 ---
 title: What forgetting looks like when somebody plots it
 minutes: 80
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/learning-and-mind/memory/02-what-forgetting-looks-like.mp3
 objectives:
   - >-
     State what the method of savings measures and how it differs from a percentage recalled
