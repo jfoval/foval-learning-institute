@@ -130,10 +130,10 @@ Rewrite these five lines each session. Nothing else goes in this block.
   and the mandatory neutrality audit passed (entry in `research/reviews/course-wide.md`). It owes
   eight podcast scripts to be written, which are next, and eight episodes, which trail.
 
-- **Mental Fitness is published**, as of 2026-09-24: nine lessons, each through two fresh-context
-  Stage 4 reviewers, both assessments reviewed, and the mandatory neutrality audit passed after ten
-  sentence-level fixes (`research/reviews/course-wide.md`). **Next:** nine podcast scripts, in
-  progress in the same session; audio-debt opened at 9. **Open, from the audit:** the research file
+- **Mental Fitness is written**, as of 2026-09-24: nine lessons, each through two fresh-context
+  Stage 4 reviewers, both assessments reviewed, the mandatory neutrality audit passed after ten
+  sentence-level fixes (`research/reviews/course-wide.md`), and nine fact-checked scripts. **Next:**
+  the nine renders, which trail (audio-debt 9). **Open, from the audit:** the research file
   has no defender's own statement of why a 0.3 drug-placebo gap matters clinically, so lesson 8 says
   it hasn't read one (a Stage 1 pass could add it); positive-psychology interventions and religious
   coping are named as unresearched. **The validator misses a single adjacent quiz-key repeat** (it
