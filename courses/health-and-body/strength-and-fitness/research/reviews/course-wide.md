@@ -27,6 +27,23 @@ Findings that belong to the course rather than to any one lesson, from the Stage
   True of lesson 2; lesson 3's two exercises are desk work (30 minutes). Lesson 3 now measures 125:
   about 60 minutes of teaching, 13 of Sources and 36 of exercises. Correct the outline sentence, not
   the lesson. *(Lesson 3's review, P20.)*
+- **Lesson 1 update (its review, 2026-09-24):** lesson 1's Sources IDs are now HTML comments and all
+  its cross-references use the ten-lesson numbering (callout note 8 and 9, clinical programmes and
+  falls 9, body image 10, project 7).
+- **Lesson 1 measures 100 minutes against OUTLINE's "about 50 and 80".** Reviewer P named about 10
+  minutes of padding and recommended keeping screening in lesson 1 (lessons 2 and 5 and the
+  course-end blueprint already point at it there); the cuts were taken, and Reviewer F's fixes
+  added about as much back. Record the exception in OUTLINE's "Lesson length" paragraph beside
+  lesson 7's allowance: two heavy objectives (the causal evidence in each side's words, and
+  screening), a natural break at "Generation 100", and about 7 minutes of it the Sources list.
+  *(Lesson 1's review, P5.)*
+- **The course project file doesn't exist yet.** Lesson 1's exercise now says only "The course
+  project, which starts in lesson 7, asks you to keep one like it" (a log). `assessments/` must hold
+  the project, per OUTLINE's "Eight weeks, written down", before the course publishes, and lesson 7
+  must start it (drafting defect 12). *(Lesson 1's review, P2.)*
+- **Lesson 1 points to "Nutrition's lesson 10" for supplements.** Right by Nutrition's plan, but
+  its lessons 9 to 11 aren't drafted. Check the number when Nutrition lesson 10 is written, and add
+  this to QUEUE. *(Lesson 1's review, P13.)*
 
 ## Standing, for every lesson in this course
 
@@ -74,3 +91,71 @@ Findings that belong to the course rather than to any one lesson, from the Stage
 - **Lesson 3 teaches lactate briefly** (Brooks, R3.10b: not a waste product; the lactate threshold
   as a blood-sample point paired with the ventilatory threshold) and leaves soreness and the acidosis
   dispute to lesson 8.
+- **ACSM 2026 (R2.2) declares one interest, the Tonal advisory-board tie.** The Currier and
+  Phillips authorship overlap with R2.3 is a fact to state, once, not a "declared interest". Lesson 1
+  now says it that way; lesson 4 refers back to lesson 1 for both. *(Lesson 1's review F19, with
+  lesson 4's F8.)*
+- **Generation 100 facts now in R1.9, for lesson 3's HIIT arm and lesson 10:** the primary HR 0.92
+  (0.58 to 1.47); HIIT against MICT unadjusted 0.49 (0.25 to 0.99), adjusted 0.51 (0.25 to 1.02);
+  the training arms swapped two of five weekly guideline sessions, with supervision offered, not
+  required; and the exclusion list, so its "no cardiovascular events" applies to screened
+  volunteers. Karvinen's pleiotropy case rests on rats and twins (R1.10, corrected), and the MR
+  study tested for pleiotropy (R1.11). *(Lesson 1's review, F2, F3, F4, F17, F24.)*
+
+## From lesson 4's review (2026-09-24)
+
+- **The "Structure of skeletal muscle" Commons file (R5 Part H, item 1) is a single sarcomere**, labelled
+  only Z, M, Z, and it's 28.7 MB. SOURCES had described it from its title as muscle, fascicle, fibre
+  and myofibril, and lesson 4 shipped it under that caption. The entry is corrected. For muscle
+  structure use item 3 (NCI SEER, public domain, 46 KB), which lesson 4 now uses. *(P1.)*
+- **The growth-and-strength dispute (R2.19) is unresolved, and no lesson's own voice may assume
+  growth causes strength.** "Growth takes over after the first weeks" is Moritani's reading; say so.
+  Both sides now have their reason in SOURCES (the Loenneke group's "dissociations", the Taber group's
+  "not necessary ... not sufficient" concession). Lesson 5 (hypertrophy and volume), lesson 7
+  (slowdown) and lesson 9 should check their wording against this. *(F3.)*
+- **Spitz's 0.8 is the trained muscle on an unfamiliar device, not "general strength"** (inclusion
+  criterion 7, now in R2.5). And ACSM 2026 states the counterweight to specificity: "a considerable
+  carryover of training effects on general muscular performance in various domains in nonadvanced
+  trainees" (now in R2.2). A lesson that leans on specificity should carry both. *(F1.)*
+- **ACSM 2026 on who its evidence covers now has both halves in R2.2**: "training experience had a
+  minimal impact" and "much of the evidence synthesized here is from inexperienced trainees", plus
+  "evidence-based across all ages". Quote them together. *(F2.)*
+- **Hubal 2005: men made "greater absolute gains"; women's relative strength gains were greater**
+  (R2.12, corrected). Lesson 9's sex section must carry both. *(F4.)*
+- **Lopez 2021 is "Most of the studies involved men (19 of 28", not "men only"** (R2.16, corrected).
+  *(F15.)*
+- **OUTLINE's joint lesson 4/5 plan gives individual variation to lesson 5, but lesson 4 carries it**
+  (Hubal and the non-responder debate) and lesson 5 doesn't. No duplication; the OUTLINE line should
+  be updated to match. *(P, cross-lesson note.)*
+- **Visible SOURCES IDs:** lesson 4's are now HTML comments. Lessons 1, 3 and 5 still to check.
+
+## From lesson 5's review (2026-09-24)
+
+- **Resolved from the Open list:** lesson 5's two Halperin wordings now read "on average" and
+  "slightly better in sets of 12 reps or fewer", with long light sets labelled as the course's
+  inference. Lesson 5's Sources IDs are now HTML comments. R2.10's "Good for" line carried the same
+  unhedged wording and is corrected.
+- **R2.2 now carries three sentences the lessons need, all checked against the full text:** the
+  periodisation concession ("could not be determined, although one review found that periodized
+  programs were slightly favored ...", ref 117 = Moesgaard 2022, also restored in R2.11); the failure
+  caution ("It may also be that lifting to fatigue is inadvisable for certain populations (e.g., older
+  individuals) ..."); and the "starting point" concession to the older stands. **Any lesson that says
+  failure is optional should carry the caution; any that calls periodisation unimportant should carry
+  the concession.** Lesson 7 (periodisation, the plan) and lesson 9 (older adults) especially.
+- **The "20 h or more" estimate is Carpinelli 2009, a paper written against the 2009 stand** (the
+  stand's ref 176, now named in R2.2). Attribute it; don't present it as neutral.
+- **The stand's ref 187 is Pelland's published paper**, not the preprint the course read in full.
+  Differences between the stand's "plateaued ... ~18–20 weekly sets" and the preprint's "no clear
+  plateau" may be a version difference; lesson 5 now says so. Don't frame it as ACSM misreading.
+- **Lesson 5 now quotes Williams 2017, Moesgaard 2022 (ES 0.31) and Buckner 2020 on periodisation,
+  briefly, and says lesson 7 takes the argument further.** Lesson 7 should point back rather than
+  re-quote the same three sentences, and add what lesson 5 left out (Moesgaard's undulating-over-linear
+  result in trained people only; definitions "vary"; "often conflated" with programming).
+- **Lesson 5's constructed programme is a reading exercise, not a plan**, and its verdict now
+  changes the effort line to two or three in reserve. Lesson 7 builds the plan.
+- **Sets per exercise and sets per muscle per week are different units** (the stand's own sentence
+  mixes them). Lesson 5 now shows the conversion (3 days x 4 sets = 12 weekly sets per muscle trained
+  directly). Lesson 7's plan should state both counts.
+- **OUTLINE.md still lists "individual variation" under lesson 5** (line 25); it lives in lesson 4.
+  Correct the outline line (repeats lesson 4's review note; not edited here, since the fix pass may
+  touch only review files). *(P22.)*

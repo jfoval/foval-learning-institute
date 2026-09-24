@@ -1228,13 +1228,17 @@ repetitions; fast (0.5 s) versus slow (8 s) repetitions; power training techniqu
 
 **On volume.** "Clearly, one set is superior to zero sets (CTRL), and two sets are superior to one
 set (17,24,88–93,128,131–133), but the exact number of sets required to optimize adaptations cannot be
-ascertained." It cites a meta-regression (reference 187, which from context is Pelland et al., R2.8)
+ascertained." It cites a meta-regression (reference 187, which the stand's reference list names as Pelland et al.'s published *Sports Med* paper, R2.8, not the preprint; corrected 2026-09-24 at lesson 5's review, F5)
 as showing "a dose-response that plateaued and showed diminishing returns beyond ~2–3 sets/exercise
 for strength and ~18–20 weekly sets for hypertrophy with varying loads; thus, healthy adults are
 advised to complete at least two sets per exercise."
 
 **On failure.** "Completing sets to fatigue (momentary muscular failure) does not enhance gains in
-strength, hypertrophy, and power, and so is not necessary for benefits to occur." And: "Sufficient
+strength, hypertrophy, and power, and so is not necessary for benefits to occur." The next sentence,
+the stand's safety caution: "It may also be that lifting to fatigue is inadvisable for certain
+populations (e.g., older individuals) due to risks to vascular health and an increased risk of injury
+resulting from poor form (24,97–99)." (2026-09-24, lesson 5's review, F2: missing here, checked
+against the full text.) And: "Sufficient
 effort (assessed using various scales) can be accomplished by completing sets with various RTx and
 completion of “near-failure” or a target of 2–3 repetitions in reserve (RIR)". But also: "there is
 insufficient evidence to quantify exact RIR and perceived exertion targets".
@@ -1244,14 +1248,26 @@ is not necessary to achieve beneficial outcomes, and overload, or more accuratel
 stimulus in some manner, is likely a requirement only for those seeking continued longer term
 progress."
 
-**On periodisation.** "With appropriate progressive overload, periodization is not significantly
+**On periodisation.** "The impact of periodization on strength could not be determined, although one
+review found that periodized programs were slightly favored over nonperiodized programs to maximize
+strength gains under volume-equated conditions (117)." Reference 117 is Moesgaard 2022 (R2.11).
+"With appropriate progressive overload, periodization is not significantly
 superior to nonperiodized programs; thus, periodization is less important than previously
-hypothesized (11,12) for healthy adults to improve muscle function and hypertrophy." It also notes
-"periodization and programming are often conflated (168)".
+hypothesized (11,12) for healthy adults to improve muscle function and hypertrophy." And: "We note,
+however, that definitions of periodization vary (166,167)". It also notes
+"periodization and programming are often conflated (168)". (2026-09-24, lesson 5's review, F1: the
+first sentence and its "although" half were missing here, so the lesson carried only the sceptical
+half. Checked against the Europe PMC full text.)
 
 **On the old guidelines being too demanding.** "Notably, others have estimated that developing
 general muscular fitness (strength, hypertrophy, and power) according to previous ACSM guidelines
-may, in some cases, require training for 20 h or more per week (176)." And: "we propose that
+may, in some cases, require training for 20 h or more per week (176)." Reference 176 is Carpinelli RN,
+"Challenging the American College of Sports Medicine 2009 position stand on resistance training", *Med
+Sport* 2009;13(2):131-7: the estimate comes from a paper written against the 2009 stand, not read here.
+The stand then concedes: "The specific program details outlined in previous Position Stands may be an
+appropriate starting point for some individuals; however, several other RT programs, as evidenced
+here, can also be effective." (2026-09-24, lesson 5's review, F6: both added, checked against the
+full text and its reference list.) And: "we propose that
 individualizing programs to increase RT participation is, from our perspective, more important than
 conforming to specific RTx criteria outlined in previous Position Stands."
 
@@ -1658,8 +1674,10 @@ proximity to task failure independent of their training background. It remains t
 whether the observed degree of inaccuracy should be considered acceptable."
 
 **Good for.** Teaching effort: a set ‘counts’ when it is reasonably hard, not only when it ends in
-failure; people usually think they have fewer reps left than they do (by about one), and are worse at
-guessing on long, light sets. Pair with R2.2's "2–3 repetitions in reserve".
+failure; on average people think they have fewer reps left than they do (by about one), and guess
+slightly better in sets of 12 reps or fewer, so a little worse on long, light sets. Pair with R2.2's
+"2–3 repetitions in reserve". (Hedged 2026-09-24 at lesson 5's review, F10: this line had said
+"usually" and "worse", which the moderator hedges above don't support.)
 
 **Classification.** Established: failure is not required for strength or muscle gains in the short
 trials. Contested: whether going closer to failure adds hypertrophy (Robinson says yes as a
@@ -1698,7 +1716,10 @@ Selye's general adaptation syndrome: "To our knowledge, normal exercise in human
 to produce a general adaptation syndrome."
 
 **ACSM 2026's verdict.** Strength: "The impact of periodization on strength could not be
-determined"; overall, "periodization is less important than previously hypothesized".
+determined, although one review found that periodized programs were slightly favored over
+nonperiodized programs to maximize strength gains under volume-equated conditions (117)", and 117 is
+Moesgaard 2022; overall, "periodization is less important than previously hypothesized". (The
+"although" half restored 2026-09-24 at lesson 5's review, F1; see R2.2.)
 
 **Classification.** Contested for strength (modest effects, larger in some analyses, definitions vary
 and are "often conflated" with programming); fairly settled that periodisation does not add
