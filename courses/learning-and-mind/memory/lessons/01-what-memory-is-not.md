@@ -1,6 +1,7 @@
 ---
 title: What memory is not, and what this course is for
 minutes: 95
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/learning-and-mind/memory/01-what-memory-is-not.mp3
 objectives:
   - >-
     State the difference between a recording model of memory and a reconstructive one, and say what
