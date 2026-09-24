@@ -335,6 +335,12 @@ quoted in full with their grades. SOURCES §5: the behavioural guideline's stron
 CBT-I, its conditional ones, and its sentence about sleep hygiene. SOURCES §11: fourteen
 recommendations, **every one weak**, eight for a drug and six against one.
 
+*Amended 2026-09-23, before drafting: §5 and §11 were raised to primary text the same day. §11's
+abstract says in advance that weak grades for drugs are "predictable in GRADE" because most drug
+trials are industry-funded, among other reasons. **The lesson must carry that sentence beside the
+grade pattern**, or the pattern reads as a verdict it is not. And §5's sleep-hygiene quotations now
+come from the guideline, not the publisher's announcement.*
+
 **The lesson's spine is the grade pattern**, which no retelling carries: a talking therapy with a
 strong recommendation on moderate-quality evidence, and a pharmacopoeia with fourteen weak ones and
 none strong. That is a fact about three documents, and the lesson presents it as one.

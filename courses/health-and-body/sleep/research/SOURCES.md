@@ -232,34 +232,91 @@ have the two the other way round in their heads.
 
 ## 5. The behavioural guideline, and the thing everybody has been told that does not work alone
 
-**Jack D. Edinger and colleagues, "Behavioral and psychological treatments for chronic insomnia
-disorder in adults: an American Academy of Sleep Medicine clinical practice guideline", *Journal of
-Clinical Sleep Medicine*, 2021, doi 10.5664/jcsm.8986, with its companion systematic review, doi
-10.5664/jcsm.8988.** **Not read. Search-summary level only**, from the AASM's own announcement page,
-which is the publisher speaking about its own guideline.
+**J. D. Edinger, J. T. Arnedt, S. M. Bertisch, C. E. Carney, J. J. Harrington, K. L. Lichstein,
+M. J. Sateia, W. M. Troxel, E. S. Zhou, U. Kazmi, J. L. Heald and J. L. Martin, "Behavioral and
+psychological treatments for chronic insomnia disorder in adults: an American Academy of Sleep
+Medicine clinical practice guideline", *Journal of Clinical Sleep Medicine* 17(2), 2021, pp. 255 to
+262, doi 10.5664/jcsm.8986, PMC7853203.** Authors as Europe PMC lists them, by initials; a lesson
+writes "Edinger and colleagues". **Read level, raised on 2026-09-23: the abstract verbatim and in
+full (Europe PMC's record), and from the PMC full text the recommendation statements with their
+remarks, the evidence summaries for recommendation 1 and recommendation 6, the table's definition of
+sleep hygiene, and the cautions on sleep restriction.** The companion systematic review (doi
+10.5664/jcsm.8988, same issue, pp. 263 to 298) was not opened.
 
-At that level, established:
+*(This entry was previously at search-summary level from the AASM's announcement page. Its two
+quotations from that page, "sleep hygiene recommendation do not constitute an effective stand-alone
+therapy" and the guideline "suggests that sleep hygiene should not be used as a single-component
+treatment", are the publisher's wording and not the guideline's. A lesson should quote the guideline
+below instead.)*
 
-- **A strong recommendation for multicomponent cognitive behavioral therapy for insomnia** in adults
-  with chronic insomnia disorder.
-- **Conditional recommendations** for multicomponent brief therapies, and for stimulus control, sleep
-  restriction therapy and relaxation therapy as single components.
-- **On sleep hygiene**, the AASM's own wording: "Although sleep hygiene practices are often suggested
-  and well-understood by patients, sleep hygiene recommendation do not constitute an effective
-  stand-alone therapy." The guideline "suggests that sleep hygiene should not be used as a
-  single-component treatment for chronic insomnia disorder in adults."
+**The grading, verbatim from the abstract:** "Each recommendation statement is assigned a strength
+("strong" or "conditional"). A "strong" recommendation (ie, "We recommend…") is one that clinicians
+should follow under most circumstances. A "conditional" recommendation is one that requires that the
+clinician use clinical knowledge and experience, and to strongly consider the patient's values and
+preferences to determine the best course of action."
 
-**That last point is where this course earns its place**, and it must be handled carefully in both
-directions. Sleep hygiene is the entire content of almost every article a reader has met: dark room,
-cool room, no screens, no caffeine after two. **The guideline does not say those things are false.**
-It says the package of them, given on its own, is not an effective treatment for a diagnosed
-disorder, which is a narrower claim than "sleep hygiene doesn't work" and much narrower than "do not
-bother". A lesson that overshoots here would be doing what source 8's author is accused of doing, in
-the opposite direction.
+**The six recommendations, verbatim from the abstract:**
 
-**A lesson may quote the sentences above and must say they come from the AASM's summary of its own
-guideline rather than from the guideline**, and must not report an effect size for any component,
-because none was read.
+1. "We recommend that clinicians use multicomponent cognitive behavioral therapy for insomnia for the
+   treatment of chronic insomnia disorder in adults. (STRONG)."
+2. "We suggest that clinicians use multicomponent brief therapies for insomnia for the treatment of
+   chronic insomnia disorder in adults. (CONDITIONAL)."
+3. "We suggest that clinicians use stimulus control as a single-component therapy for the treatment
+   of chronic insomnia disorder in adults. (CONDITIONAL)."
+4. "We suggest that clinicians use sleep restriction therapy as a single-component therapy for the
+   treatment of chronic insomnia disorder in adults. (CONDITIONAL)."
+5. "We suggest that clinicians use relaxation therapy as a single-component therapy for the treatment
+   of chronic insomnia disorder in adults. (CONDITIONAL)."
+6. "We suggest that clinicians not use sleep hygiene as a single-component therapy for the treatment
+   of chronic insomnia disorder in adults. (CONDITIONAL)."
+
+**The evidence behind the strong one, verbatim:** "The TF made a strong recommendation in favor of
+CBT-I based on a large body of moderate quality evidence from 49 studies, including multiple, recent,
+large RCTs, showing clinically meaningful improvements in critical outcomes, patients highly
+preferring behavioral and psychological treatments, and favorable information on cost-effectiveness
+of CBT-I." (TF is the task force. The same section says it "identified 66 randomized controlled
+trials" comparing CBT-I with wait-list, minimal interventions or placebo; this course did not read
+how 66 became 49 and a lesson should not print both as if reconciled.) The remark on it:
+"This recommendation is based primarily on studies in which CBT-I was delivered by a trained
+professional to patients with and without comorbid conditions."
+
+The conditional recommendations rest, in the guideline's words, on "a small body of moderate quality
+evidence from 7 studies" (brief therapies), "a small body of low quality evidence from 8 studies"
+(stimulus control), "from 6 studies" (sleep restriction) and "from 5 studies" (relaxation).
+
+**Sleep hygiene, verbatim.** What it is, from the guideline's table: "A set of general
+recommendations about lifestyle (eg, diet, exercise, substance use) and environmental factors (eg,
+light, noise, temperature) that may promote or interfere with sleep." The remark on recommendation 6:
+"Although sleep hygiene is not recommended as a single-component approach (ie, the only treatment)
+for patients with chronic insomnia disorder, sleep hygiene may be included in multicomponent
+interventions." The evidence: "The TF made a conditional recommendation against use of sleep hygiene
+as a single-component therapy based on indirect evidence showing that sleep hygiene was less
+effective than other treatments when used alone." And, which a fair lesson must carry: "The study
+demonstrated a clinically significant higher responder rate in the sleep hygiene group compared to
+control, although within the same study CBT-I was superior to sleep hygiene alone." And the balance,
+from the discussion: "certain common-sense principles of sleep hygiene (eg, avoiding excessive
+caffeine or alcohol) may nevertheless be helpful in a comprehensive treatment approach, and
+consideration of sleep hygiene factors is a common element of CBT-I."
+
+Part of the reasoning is about resources rather than efficacy, and the guideline says so: "allocation
+of resources for sleep hygiene alone may divert resources and delay the use of other single- or
+multicomponent behavioral interventions that are more effective."
+
+**Sleep restriction, the safety material, verbatim:** "Potential harms may occur in the early phases
+of treatment such as increased daytime sleepiness and difficulties with concentration, but these
+effects typically dissipate as treatment progresses and time in bed is extended as sleep improves."
+And: "Clinicians should note that this treatment may be contraindicated in certain populations such
+as those working in high risk occupations (eg, heavy machinery operators or drivers) or those
+predisposed to mania/hypomania poorly controlled seizure disorders or excessive daytime sleepiness."
+(The missing "or" before "poorly controlled" is in the source.) **This is why a lesson describes
+sleep restriction and never instructs it.**
+
+**That sleep hygiene point is where this course earns its place**, and it must be handled carefully in
+both directions. Sleep hygiene is the entire content of almost every article a reader has met. **The
+guideline does not say those things are false.** It says the package of them, given on its own, is
+not the treatment to offer for a diagnosed disorder, on indirect evidence, partly for reasons of
+clinicians' time, while one trial found it beat a wait-list. That is a narrower claim than "sleep
+hygiene doesn't work" and much narrower than "do not bother".
 
 ---
 
@@ -573,6 +630,42 @@ The guideline makes **fourteen recommendations and every one of them is WEAK**. 
 in a named indication (suvorexant, eszopiclone, zaleplon, zolpidem, triazolam, temazepam, ramelteon,
 doxepin) and six are against one (trazodone, tiagabine, diphenhydramine, melatonin, tryptophan,
 valerian), each for sleep onset or sleep maintenance insomnia or both.
+
+*Raised on 2026-09-23 by the abstract verbatim in full, from Europe PMC's record (PMC5263087).* It
+contains all fourteen recommendation statements, each marked "(WEAK)", and these two sentences, which
+a lesson using the grade pattern must carry:
+
+> "Under GRADE, a STRONG recommendation is one that clinicians should, under most circumstances,
+> follow. A WEAK recommendation reflects a lower degree of certainty in the outcome and
+> appropriateness of the patient-care strategy for all patients, but should not be construed as an
+> indication of ineffectiveness. GRADE recommendation strengths do not refer to the magnitude of
+> treatment effects in a particular patient, but rather, to the strength of evidence in published
+> data. Downgrading the quality of evidence for these treatments is predictable in GRADE, due to the
+> funding source for most pharmacological clinical trials and the attendant risk of publication
+> bias; the relatively small number of eligible trials for each individual agent; and the observed
+> heterogeneity in the data."
+
+The fourteen recommendations, verbatim from the abstract:
+
+- "We suggest that clinicians use suvorexant as a treatment for sleep maintenance insomnia (versus no treatment) in adults. (WEAK)."
+- "We suggest that clinicians use eszopiclone as a treatment for sleep onset and sleep maintenance insomnia (versus no treatment) in adults. (WEAK)."
+- "We suggest that clinicians use zaleplon as a treatment for sleep onset insomnia (versus no treatment) in adults. (WEAK)."
+- "We suggest that clinicians use zolpidem as a treatment for sleep onset and sleep maintenance insomnia (versus no treatment) in adults. (WEAK)."
+- "We suggest that clinicians use triazolam as a treatment for sleep onset insomnia (versus no treatment) in adults. (WEAK)."
+- "We suggest that clinicians use temazepam as a treatment for sleep onset and sleep maintenance insomnia (versus no treatment) in adults. (WEAK)."
+- "We suggest that clinicians use ramelteon as a treatment for sleep onset insomnia (versus no treatment) in adults. (WEAK)."
+- "We suggest that clinicians use doxepin as a treatment for sleep maintenance insomnia (versus no treatment) in adults. (WEAK)."
+- "We suggest that clinicians not use trazodone as a treatment for sleep onset or sleep maintenance insomnia (versus no treatment) in adults. (WEAK)."
+- "We suggest that clinicians not use tiagabine as a treatment for sleep onset or sleep maintenance insomnia (versus no treatment) in adults. (WEAK)."
+- "We suggest that clinicians not use diphenhydramine as a treatment for sleep onset and sleep maintenance insomnia (versus no treatment) in adults. (WEAK)."
+- "We suggest that clinicians not use melatonin as a treatment for sleep onset or sleep maintenance insomnia (versus no treatment) in adults. (WEAK)."
+- "We suggest that clinicians not use tryptophan as a treatment for sleep onset or sleep maintenance insomnia (versus no treatment) in adults. (WEAK)."
+- "We suggest that clinicians not use valerian as a treatment for sleep onset or sleep maintenance insomnia (versus no treatment) in adults. (WEAK)."
+
+**The last sentence changes how the grade contrast may be taught.** The authors say in advance that
+their weak grades are partly a product of how GRADE treats industry-funded trials. A lesson that sets
+the drug guideline's fourteen weak grades beside the behavioural guideline's one strong grade must
+say this, in the drug guideline's own words, or it tilts the comparison.
 
 - **What a weak recommendation means, in the guideline's own words:** "A WEAK recommendation reflects
   a lower degree of certainty in the appropriateness of the patient-care strategy and requires that
