@@ -1,6 +1,7 @@
 ---
 title: Resilience, a ratio and a mindset
 minutes: 110
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/health-and-body/mental-fitness/07-resilience-a-ratio-and-a-mindset.mp3
 objectives:
   - >-
     State how common a resilient course is after a potentially traumatic event, and what the

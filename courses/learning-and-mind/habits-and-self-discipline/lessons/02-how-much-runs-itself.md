@@ -1,6 +1,7 @@
 ---
 title: How much of your day runs itself
 minutes: 90
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/learning-and-mind/habits-and-self-discipline/02-how-much-runs-itself.mp3
 objectives:
   - >-
     State what the diary studies measured about how much everyday behaviour is habitual, with what

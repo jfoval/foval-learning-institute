@@ -26,24 +26,18 @@ Rewrite these five lines each session. Nothing else goes in this block.
   and neither was re-rendered on a number: lesson 10's last minute has John low (78 Hz) in his
   closing speech at a steady level, and lesson 11 has John about 6.6% above his reference throughout.
   Term 2 renders began the same night: **Focus and Deep Work is FINISHED**, all seven live; lesson 5
-  has John low in its back half at a steady level, also worth a listen. **Memory is FINISHED**, all
-  seven live. **Habits and Self-Discipline has six of seven live; lesson 2 is held, not uploaded.**
-  Its script is about 80% John by words and the render measures John 13%, Haley 63% throughout, so
-  Haley probably voiced John's lines. It passed the (deliberately loose) gate, so `render --go`
-  copies the kept file rather than paying again: **John listens to
-  `audio-out/learning-and-mind/habits-and-self-discipline/02-how-much-runs-itself.mp3`**, and if it
-  is wrong, the passed attempt in that episode's manifest is marked failed and it is rendered once
-  more. Until then `npm run state` keeps pointing at it; work past it in term order by hand. Other
-  episodes worth a listen, none re-rendered: Habits 3 and 5 (John low), Memory 3 (Haley 40% of the
-  audio for 17% of the words) and Memory 7 (John low).
-- **The September Gemini cap is spent** (2026-09-25, overnight). Term 2 is otherwise FINISHED:
-  **Note-Taking and Sleep all live, Mental Fitness eight of nine.** **Mental Fitness 7 is held like
-  Habits 2**: its 3:00-3:30 window measures 59% Haley where the script has two long John paragraphs,
-  so she probably voiced one; listen at 3:00. Still owed: those two, and Bible Basics 8-12 (about
-  $1.40). Also worth a listen, all live: Mental Fitness 1, 4, 6, 9, Note-Taking 3, 6, 7. **Memory 3
-  is the test case**: its Haley excess is spread over minutes of short turns rather than one block,
-  and Mental Fitness 1 and Note-Taking 7 show the same shape. If Memory 3 has Haley reading a John
-  line, all three are re-rendered.
+  has John low in its back half at a steady level. **Term 2 is FINISHED: every episode of all seven
+  courses is live** (2026-09-25). **The September Gemini cap is spent**; still owed is Bible Basics
+  8-12, about $1.40, rendered when John raises it.
+
+  **What John's ear settled on 2026-09-25, which changes how a render is judged.** The engine
+  sometimes gives one of John's lines to Haley. The per-window speaker share cannot be trusted to
+  find it: Habits 2 measured John at 13% for the whole episode and John heard plenty of him, so it
+  was a false alarm. Mental Fitness 7 was a real one (Haley reads John's "Brown, Sokal and Friedman"
+  paragraph at 3:00-3:28), and John had it **published as it is**: the words are right, it sounds
+  fine on a quick listen, and he does not want re-renders that are not needed. **So a render is not
+  held or re-rendered on the speaker share alone.** Its manifest carries the note.
+
 - **Using AI Effectively is FINISHED.** T1, sixth of seven. Eleven lessons, every one
   through Stage 4 with its review applied, the voice pass done, the neutrality audit passed, both
   assessments written, and eleven fact-checked podcast scripts. Nothing on it is outstanding except
