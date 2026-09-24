@@ -206,7 +206,7 @@ nutrition relies on.
 | Prospective cohort | Record what thousands of people eat, then follow them for years | Associations with real diseases over decades, in ordinary life | Cause, because people who eat differently also live differently |
 | Case-control | Start with people who have a disease and people who do not, and ask about the past | A quick look at a rare disease | The same, plus the past is remembered after the diagnosis |
 | Randomised trial | Assign people to a diet or a supplement by chance | Cause, for the thing actually assigned | Anything the participants did not do, or long outcomes it could not wait for |
-| Controlled feeding | Every mouthful provided, often on a hospital ward | Exact short-term effects on weight, blood lipids, energy use | Disease, as a rule (lesson 6 has the rare trials that fed people in hospitals for years) |
+| Controlled feeding | Every mouthful provided, often on a hospital ward | Exact short-term effects on weight, blood lipids, energy use | Disease, as a rule (lesson 6 has a hospital trial that tried, where few stayed a year) |
 | Mendelian randomisation | Use gene variants that shift an exposure as a natural experiment | Evidence on cause, with different biases from a cohort, where a good genetic stand-in exists | Most foods, which have no such gene |
 
 This course's research file (its notes on every source it read, and how much of each) holds no
@@ -284,8 +284,8 @@ But its outcome is a blood measure after six weeks, not a heart attack, and it c
 the change lasts or matters for disease.
 
 Together they're stronger than either: a cause shown on a pathway, an association shown on the
-outcome. That's the convergence the defence leans on; lesson 6 shows trans fat as a case where the
-two converged.
+outcome. That's the convergence the defence leans on; lesson 6 has trans fat, the one fat every
+side agrees is harmful.
 :::
 
 ## Beta-carotene: the cohorts, then the trials
