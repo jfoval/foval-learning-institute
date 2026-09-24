@@ -1,0 +1,35 @@
+id: nutrition
+title: "Nutrition: The Evidence"
+school: health-and-body
+subject: Health & the Body
+level: Foundation
+status: research
+summary: >-
+  What is settled about food and health, what is still argued over, and how to tell which is which
+  when somebody confidently tells you what to eat.
+description: >-
+  Almost everyone is told what to eat, and very little of it comes with a grade on it. This course
+  is about how nutrition science knows what it knows, where the evidence is strong (energy balance,
+  deficiencies, a few well-tested patterns) and where it is weak or contested (saturated fat, salt
+  targets, sugar, supplements, the popular diets), and how to read a claim about food. It opens the
+  term on the body and the household, and it is a health course, so it says throughout what it is
+  and is not entitled to claim and where a reader should go instead.
+outcomes:
+  - >-
+    Explain what the main study designs in nutrition can and cannot show, and why food questions are
+    harder to test than drug questions
+  - >-
+    State what the energy, protein, fat and carbohydrate findings are, with the strength of the
+    evidence behind each
+  - >-
+    Compare what named dietary guidelines recommend and say where they agree and where they differ
+  - >-
+    Describe the best case for and against a contested claim (saturated fat, salt, sugar, a named
+    diet) in terms its own proponents would accept
+  - >-
+    Trace a nutrition headline back to its study and say what changed on the way
+  - >-
+    Decide what, if anything, to change about how you eat, and say what the decision rests on and
+    when it stops being a self-help question
+prerequisites: []
+sensitive_domain: true
