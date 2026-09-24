@@ -1,6 +1,7 @@
 ---
 title: Asking for something
 minutes: 100
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/computer-science-and-ai/using-ai-effectively/04-asking-for-something.mp3
 objectives:
   - >-
     Rewrite a vague request so that it supplies the context, the constraints and the form of the
