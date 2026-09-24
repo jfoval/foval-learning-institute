@@ -695,6 +695,11 @@ states a different target, so there is no longer a disagreement to settle.
    Effectively, then Term 2. Start each with `/new-course`. `npm run state` names the next action
    for every course, in term order, and is the authority over anything written here.
 
+5. **In flight, 2026-09-24: Cooking Fundamentals, T3, started ahead of Nutrition and Strength
+   finishing** so two sessions could work at once without touching the same files. One session has
+   Nutrition and Strength and Fitness; the other has Cooking. A session picking up either should
+   check `git status` and the file times before assuming the other course is free.
+
 ## Standing items, every week
 
 These have no session that owns them, which is how they were being skipped.
