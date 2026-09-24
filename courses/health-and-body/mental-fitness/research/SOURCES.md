@@ -36,8 +36,10 @@ difference criterion that NICE suggested". Cipriani and colleagues (source 16b),
 meta-analysis usually quoted as the answer to Kirsch, report across 522 trials a summary
 standardised mean difference of **0.30** for all antidepressants against placebo, and describe the
 effects as "mostly modest". The measured size is almost the same. **One side reads 0.3 as too small to
-matter clinically; the other reads it as a real, reliable effect of a size that is ordinary in
-medicine.** A lesson that shows a reader those two numbers side by side has taught more about how
+matter clinically; the other reads it as a real, reliable effect.** *(Corrected 2026-09-24, lesson 8
+Stage 4: this said "of a size that is ordinary in medicine", which is this file's gloss and appears in
+nothing read from Cipriani; it is withdrawn. The two figures are also computed differently, so they are
+the same size of effect only roughly: see 16a's note on how Kirsch computed d.)* A lesson that shows a reader those two numbers side by side has taught more about how
 to read this field than any amount of summary.
 
 **And almost every self-help method in this file lands in the same band.** Guided and unguided
@@ -1146,6 +1148,20 @@ authors' text and must not be quoted as theirs.
 - Verbatim, Discussion, the policy sentence: "Given these data, there seems little evidence to support
   the prescription of antidepressant medication to any but the most severely depressed patients, unless
   alternative treatments have failed to provide benefit."
+- **Added 2026-09-24 at lesson 8's Stage 4 review, from the PMC full text (PMC2253608); read on that
+  date: the abstract's Methods and the Methods paragraph on the two kinds of analysis, and the rest of the
+  Results paragraph on the overall difference.** Abstract, verbatim: "We obtained data on all clinical
+  trials submitted to the US Food and Drug Administration (FDA) for the licensing of the four
+  new-generation antidepressants for which full datasets were available." Methods, verbatim: "We
+  conducted two types of data analysis, one in which each group's change was represented as a
+  standardized mean difference (d), which divides change by the standard deviation of the change score".
+  Results, verbatim: "Represented as the standardized mean difference, d, mean change for drug groups was
+  1.24 and that for placebo 0.92, both of extremely large magnitude according to conventional
+  standards." **So Kirsch's 0.32 is 1.24 minus 0.92**, the difference between two within-group
+  standardised changes, each divided by its own group's spread of change scores. Cipriani's 0.30 is a
+  between-group SMD ("Cohen's d", 16b). The two are close in size but not the same measure, and a lesson
+  should compare them roughly and lean on the points (Kirsch 1.80; Stone 1.82 for adults, which Stone
+  standardises as 0.24). The full scale range of the HRSD is not recorded in anything read here.
 - **Which NICE criterion.** The three-point / d = 0.50 threshold is attributed to NICE's 2004
   depression guideline (their reference 1). **The current guideline, NG222, was not checked for any such
   threshold**, and a lesson must say the criterion was NICE's at the time.
@@ -1172,6 +1188,29 @@ first Results paragraph, the secondary-outcome paragraph, and the Discussion inc
 - A limitation they name, verbatim: "We did not cover important clinical issues that might inform
   treatment decision making in routine clinical practice (eg, specific adverse events, withdrawal
   symptoms, or combination with non-pharmacological treatments)."
+- **Added 2026-09-24 at lesson 8's Stage 4 review, re-copied from the PMC full text (PMC5889788); read on
+  that date: the Methods' statistical-analysis paragraph, besides the parts named above.** Abstract,
+  Interpretation (also in the appendix copy below), verbatim: "These results should serve evidence-based
+  practice and inform patients, physicians, guideline developers, and policy makers on the relative
+  merits of the different antidepressants." Methods, verbatim: "We estimated summary odds ratios (ORs)
+  for dichotomous outcomes and standardised mean differences (SMD, Cohen's d) for continuous outcomes
+  using pairwise and network meta-analysis." First Results paragraph, verbatim: "The great majority of
+  patients had moderate-to-severe major depressive disorder, with a mean reported baseline severity
+  score on the Hamilton Depression Rating Scale 17-item of 25·7 (SD 3·97) among 464 (89%) of 522
+  studies." Discussion, verbatim, on why placebo-controlled trials may understate the drug: "Patients
+  randomly assigned to the active drug in a double-blind, placebo-controlled trial might leave studies
+  earlier than in head-to-head studies because they might suspect they have been allocated to the
+  placebo group than to the intervention group. Antidepressants usually take full effect only after
+  weeks of treatment; therefore, participants who dropped out earlier tend to have poorer responses than
+  those who remain on treatment, which are carried forward to the end of the trial by the LOCF analysis.
+  The final result can be an underestimate of the true efficacy of the active drug." And: "The estimates
+  of treatment effect from our study are in line with previous reviews on the same matter,28 but they are
+  considerably more precise because of our larger quantity of data and resulting statistical power."
+- **What was looked for and not found (lesson 8 review, D2).** Nothing read in Cipriani sets the 0.30
+  against a clinical-significance threshold or argues that it clears one, and no other source in this
+  file makes that argument either. **The course has not read a primary statement of the defence's
+  reading of clinical significance**, nor any defender's argument against the 2004 criterion, and a
+  lesson must say so rather than supply one in the course's words.
 
 **16c. Stone MB, Yaseen ZS, Miller BJ, Richardville K, Kalaria SN, Kirsch I, "Response to acute
 monotherapy for major depressive disorder in randomized, placebo controlled trials submitted to the US
@@ -1219,7 +1258,10 @@ And: "These distributions were designated Large, Non-specific, and Minimal respo
 - Verbatim, Discussion: "we found a drug effect among adults equivalent to 1.82 points, with a
   standardized mean difference of 0.24." (Adults only; the abstract's 1.75 includes children.)
 - Verbatim, Discussion: "About two thirds of participants assigned drug and placebo had a Non-specific
-  response." And: "Thus the observed advantage of antidepressants over placebo is best understood as
+  response." And: "Those treated with drug were more likely to show a Large response (24.5% v 9.6% with
+  placebo), however, and less likely to have a Minimal response (12.2% v 21.5%)." (Re-copied from the
+  Discussion on 2026-09-24; it gives the Minimal figure without the abstract's stray full stop.) And:
+  "Thus the observed advantage of antidepressants over placebo is best understood as
   affecting a minority of patients as either an increase in the likelihood of a Large response or a
   decrease in the likelihood of a Minimal response."
 - Verbatim, Discussion, on the middle group: "these responses might reflect the diverse interactions of
@@ -1247,8 +1289,25 @@ And: "These distributions were designated Large, Non-specific, and Minimal respo
   paragraph says lower-risk treatments first "might be preferable" for mild to moderate depression. Both
   are treatment suggestions; the course reports that the paper discusses prescribing and quotes neither.
 
+- **Added 2026-09-24 at lesson 8's Stage 4 review, from the PMC full text; read on that date: the
+  Introduction's paragraph on response distributions (in the read level above, re-copied) and the Results
+  paragraphs on the mixture model (newly read).** Introduction, verbatim: "Lack of knowledge about the
+  distributions of individual responses has hampered discussions of the clinical significance of mean
+  effects." And: "Some investigators have attempted to look at this possibility by comparing variability
+  in treatment response in patients treated with a drug or placebo. These analyses cannot rule out the
+  effects of restricted subpopulations, however." Results, verbatim: "Analysis with finite mixture
+  modeling found that the optimal model for drug and placebo responses was a combination of three
+  overlapping normal distributions allowed to vary in relative size between drug and placebo (fig 2)."
+  And: "One latent distribution (Large) represented a large degree of improvement (mean improvement 16
+  points, standard deviation 4.2), one (Minimal) represented little or no improvement (1.7, 3.0), and the
+  third (Non-specific) represented a broad range (8.9, 7.0)." And: "Most responses (63.3% of active drug
+  and 68.9% of placebo), however, were in the Non-specific category." **Arithmetic:** each arm sums to
+  100 (24.5 + 63.3 + 12.2; 9.6 + 68.9 + 21.5), so the drug arm's extra 14.9 points in the Large group
+  are 9.3 fewer in Minimal plus 5.6 fewer in Non-specific.
+
 **What 16c adds, and why it is the best object for the lesson.** It has Kirsch as an author and
-reproduces his 1.8-point average almost exactly (1.75). **It then shows that an average can hide a
+reproduces his 1.8-point average almost exactly: 1.82 points for adults (the abstract's 1.75 includes
+children; *corrected 2026-09-24, lesson 8 review*). **It then shows that an average can hide a
 subgroup**: about 15% more people had a large response on drug than on placebo. Both camps can find
 their point in one paper, and a reader who has understood it can explain why "antidepressants barely
 beat placebo" and "antidepressants work for some people" are not contradictory sentences. **The course
@@ -1293,6 +1352,23 @@ paragraphs, the Discussion in full, and the competing interests.** The Results t
   serotonin hypothesis has not produced convincing evidence of a biochemical basis to depression."
   Discussion, first paragraph, verbatim: "methods to reduce serotonin availability using tryptophan
   depletion do not consistently lower mood in volunteers."
+- **Added 2026-09-24 at lesson 8's Stage 4 review, re-copied from the abstract on the PMC full text
+  (within the read level above).** Verbatim: "Two meta-analyses of overlapping studies examining the
+  5-HT1A receptor (largest n = 561), and three meta-analyses of overlapping studies examining SERT binding
+  (largest n = 1845) showed weak and inconsistent evidence of reduced binding in some areas, which would
+  be consistent with increased synaptic availability of serotonin in people with depression, if this was
+  the original, causal abnormaly. However, effects of prior antidepressant use were not reliably
+  excluded." ("abnormaly" is the source's spelling; the page prints thin spaces around "=".) Verbatim:
+  "One meta-analysis of tryptophan depletion studies found no effect in most healthy volunteers (n =
+  566), but weak evidence of an effect in those with a family history of depression (n = 75)." And:
+  "Another systematic review (n = 342) and a sample of ten subsequent studies (n = 407) found no effect in
+  volunteers." **Keep the family-history clause beside the "volunteers" sentence**: it is the review's
+  own concession, as "Admittedly" is the response's.
+- **An omission, recorded and judged (lesson 8 review).** The abstract's last sentence, "Some evidence
+  was consistent with the possibility that long-term antidepressant use reduces serotonin concentration",
+  is not in lesson 8. It was judged not a selection defect: Jauhar does not answer it, so it is not part
+  of the exchange the lesson reports, and in a lesson whose readers include people taking the drugs it
+  could read as a warning about their own medicine, which decision 3 keeps out.
 - Competing interests (declared on the paper, summarised here, not quoted): one author co-founded a
   company to help people stop antidepressants; another has royalties from a book titled *Evidence-biased
   Antidepressant Prescription*; the first author receives royalties for books about psychiatric drugs and
@@ -1301,7 +1377,15 @@ paragraphs, the Discussion in full, and the competing interests.** The Results t
 **17b. Jauhar S, Arnone D, Baldwin DS, and 32 others including Cowen PJ, "A leaky umbrella has little
 value: evidence clearly indicates the serotonin system is implicated in depression", *Molecular
 Psychiatry* 28(8), 2023, pp. 3149 to 3152, doi 10.1038/s41380-023-02095-y, PMC10618084.** **Read in
-full on 2026-09-23 (Europe PMC full text), including the competing interests.**
+full on 2026-09-23 (Europe PMC full text), including the competing interests.** Published online 16 June
+2023, as PMC prints it ("2023 Jun 16"; checked 2026-09-24).
+- **Added 2026-09-24 at lesson 8's Stage 4 review, re-copied from the PMC full text.** Abstract, first
+  sentence, verbatim: "A recent “umbrella” review examined various biomarkers relating to the serotonin
+  system, and concluded there was no consistent evidence implicating serotonin in the pathophysiology of
+  depression." On SERT, verbatim: "However, findings in a number of brain regions are consistent, with
+  SERT reductions reported in people with MDD in all reviews." **The response disputes the association
+  claim head-on, not only the causal one**: it quotes the review's "associated with, or caused by"
+  sentence and argues the tryptophan and imaging evidence shows serotonin is implicated.
 - Verbatim, abstract: "We present reasons for why this conclusion is overstated, including
   methodological weaknesses in the review process, selective reporting of data, over-simplification, and
   errors in the interpretation of neuropsychopharmacological findings."
@@ -1335,8 +1419,12 @@ full on 2026-09-23 (Europe PMC full text), including the competing interests.**
 
 **How to hold these two.** Notice the words each side uses. Moncrieff: no *consistent* evidence, *not
 empirically substantiated*, a claim about "lowered serotonin". Jauhar: the serotonin system is
-*implicated*, *perturbed*, has "a role". **Those are not contradictory claims**: the response defends a
-weaker hypothesis than the one the review rejects. A lesson can teach that exactly, with both sets of
+*implicated*, *perturbed*, has "a role". *(Corrected 2026-09-24, lesson 8 Stage 4, N1: this said "Those
+are not contradictory claims", which holds only for the causal claim.)* **The review rejects two things**:
+that depression is caused by lowered serotonin, and that there is consistent evidence of any association
+between serotonin and depression ("associated with, or caused by"). **The response's "a role" and
+"perturbed" can both be true alongside the rejection of the causal claim, but they contradict the
+rejection of an association**, and the response disputes that head-on (tryptophan, imaging). A lesson can teach that exactly, with both sets of
 words, and **both sides have declared interests that a reader should be told about, symmetrically**.
 **And the dispute is about causation, not about whether the drugs help**: Moncrieff's review did not
 assess antidepressant efficacy (Jauhar objects to its "discussion of antidepressant efficacy in a review
@@ -1907,7 +1995,8 @@ guidelines' position, not as the course's verdict.
 **Is depression caused by low serotonin?**
 *No consistent evidence; the theory is not empirically substantiated:* Moncrieff and colleagues (17a).
 *The review is methodologically flawed and the serotonin system is implicated:* Jauhar and 34 co-authors
-(17b). **The two are arguing at different strengths of claim**, which the lesson should show. **What
+(17b). **The two are arguing at different strengths of claim on causation, and genuinely disagree about
+association** (corrected 2026-09-24, lesson 8 review), which the lesson should show. **What
 would settle it:** a conventional umbrella review extracting and re-meta-analysing primary studies, which
 17b says would have "legitimately answered" the SERT question. **Classification: contested**, with the
 simple low-serotonin story unsupported by the evidence both sides cite. **Neither side's position bears
