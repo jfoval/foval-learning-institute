@@ -1,6 +1,7 @@
 ---
 title: What an interruption actually costs
 minutes: 80
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/learning-and-mind/focus-and-deep-work/02-what-an-interruption-costs.mp3
 objectives:
   - >-
     State what the CHI 2008 experiment measured and found, with its sample, its conditions and its
