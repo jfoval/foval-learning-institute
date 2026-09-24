@@ -1,6 +1,7 @@
 ---
 title: Opening a terminal, and standing somewhere
 minutes: 95
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/computer-science-and-ai/digital-literacy/04-opening-a-terminal.mp3
 objectives:
   - Open a POSIX shell on your own operating system, installing one first if you are on Windows, and say what you trusted in order to get it
   - Explain what the working directory is, and predict what a command will do before you press return
