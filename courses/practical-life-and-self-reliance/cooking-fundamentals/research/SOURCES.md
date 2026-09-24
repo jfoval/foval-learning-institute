@@ -2374,6 +2374,7 @@ was handled.
   - The 14: "celery", "cereals containing gluten (such as wheat, rye, barley and oats)", "crustaceans (such as prawns, crabs and lobsters)", "eggs", "fish", "lupin", "milk", "molluscs (such as mussels and oysters)", "mustard", "peanuts", "sesame", "soybeans", "sulphur dioxide and sulphites (at a concentration of more than ten parts per million)", "tree nuts (such as almonds, hazelnuts, walnuts, brazil nuts, cashews, pecans, pistachios and macadamia nuts)".
   - Cooking at home: "If someone is allergic to something, and you have served them a food they can’t eat, just taking it off their plate is not enough. This is because an extremely small amount can be enough to cause an allergic reaction."
   - Its list: "asking your guest (or a child’s parents or carers) what they can and can’t eat"; "making sure you keep allergens separate from other foods"; "checking the ingredients list on prepacked foods like sauces, dressings, and desserts for allergens"; "keeping a note of the ingredients or the food packet itself used in the dish so you can answer any questions your guests may have about the food"; "avoiding adding extra toppings or decorations to dishes".
+  - "There are often good substitutes for allergens available to buy. Your guest will have the best understanding of their specific allergy and will be able to help plan a suitable meal."
   - "It’s important to note that heating does not remove the allergenic potential of proteins in food unless they are completely hydrolysed, and heating temperatures in the kitchen will not do this."
   - "Clean work surfaces and equipment thoroughly to remove traces of food you may have cooked or prepared before."
   - On vegan labels: a product labelled vegan may still carry milk, egg, crustacean, fish or mollusc by cross-contamination; "free-from" labels are the guarantee.
@@ -2393,3 +2394,140 @@ cook of Belizean and Nigerian family, which reports two other practitioners in t
   - Her conclusion: she will keep washing and teach her son, and "update my family tradition by sanitizing with a bleach-based solution instead of vinegar because tradition can change a little."
   - Limits: one writer's family and two practitioners she quotes; not a survey. It names Belize, Nigeria and the US Virgin Islands and no other tradition. A lesson may describe the practice in these words and must not generalise it to a region beyond what Henley 2012 and this piece say.
 - **Drexel News, 30 August 2022** (Part D 3e), rechecked direct against the page: the quotations match. The page also says: "Poultry may have a coating of water and protein: this gets cooked off, or you can remove it with a clean paper towel and then wash your hands."
+
+## Stage 4 note, lesson 3
+
+*Stage 4 review, 2026-09-24. The FSANZ PDF, the FDA page, Kean, both Geha abstracts (PubMed efetch), the UGA circular and the Inverse page were re-downloaded and their text extracted; these passages were not recorded above and lesson 3 now relies on them.*
+
+- **FSANZ 2003, the summary's Conclusion, third sentence** (direct): "Symptoms resembling those of CRS may be provoked in a clinical setting in small numbers of individuals by the administration of large doses of MSG without food. However, such affects are neither persistent nor serious and are likely to be attenuated when MSG is consumed with food." (The report's "affects".) This is the same paragraph as "There is no convincing evidence ...", so a lesson quoting the first sentence quotes this one too.
+- **FSANZ Table 1, rows not recorded above** (bound / free, mg per 100 g): cow's milk 819 / 2; human milk 229 / 22; Parmesan 9847 / 1200; eggs 1583 / 23; chicken 3309 / 44; duck 3636 / 69; beef 2846 / 33; pork 2325 / 23; cod 2101 / 9; mackerel 2382 / 36; salmon 2216 / 20; peas 5583 / 200; corn 1765 / 130; carrots 218 / 33; spinach 289 / 39; tomatoes 238 / 140; potato 280 / 180. Table 2 lists fish sauce as "Nam-pla" 950 and "Nuoc-mam" 950. The table says "Corn", not sweetcorn.
+- **FSANZ, occurrence** (direct): "a virtually all foods" and "tomatoes, mushrooms, peas and certain cheeses" (the report's "is some" typo sits just before this phrase). The report also estimates CRS prevalence at "about 1 –2% of the general population" while saying "it is not clear what proportion of the reactions, if any, can be attributed to MSG".
+- **Geha, *J Nutr* abstract** (direct): calls the 130-subject study "the largest to date" (as of 2000). Protocol B's increasing doses are not given in the abstract.
+- **FDA** (direct): "Over the years, FDA has received reports of symptoms such as headache and nausea after eating foods containing MSG."
+- **Kean** (direct): Kwok was "a pediatrician in Maryland". The 0.01 mg per gram daily intake is what Olney's critics ("three physicians", four months later) said, per Kean, not Kean's own figure. Kean's explanation for the absence of reactions in East Asia: "because they don’t expect to and were never told they should".
+- **UGA Circular 1334** (direct): "For any of the methods below, always start by sterilizing your containers. Thoroughly wash your glass containers and boil them for 10 min to ensure the destruction of bacteria, yeasts, and molds."
+
+## Gate closures, lesson 5
+
+*Stage 3 top-up for lesson 5, 2026-09-24. Every page below was downloaded with curl and its text
+extracted locally (FSIS through an Internet Archive capture, because the live site blocks automated
+readers; PubMed and PMC through the E-utilities; the Anton paper with pdftotext); quotations are
+copied from that text, direct. G8 is closed; G9 is closed for eggs only (collagen and rice remain
+open for lessons 8 and 9).*
+
+**G9, the temperature ladder, egg part: closed** with two institutional statements that agree to
+within a few degrees and one peer-reviewed paper for the proteins behind them.
+
+- **American Egg Board, "Coagulation/Thickening"** (professionals, REAL Egg Functionality),
+  https://www.incredibleegg.org/professionals/manufacturers/real-egg-functionality/coagulation-thickening/ ,
+  page copyright 2023. Read: full, direct. The US egg industry's promotion board, citing Stadelman
+  and Cotterill, *Egg Science and Technology*, 4th edition (1995), which was not read.
+  - "Egg white protein coagulates between 144° F and 149° F (62.2° C and 65° C); egg yolk protein coagulates between 149° F and 158° F (65° C and 70° C); and whole egg protein coagulates between 144° F and 158° F (62.2° C and 70° C). However, a number of variables influence the rate of coagulation, as well as the ability of the proteins to remain in the three-dimensional network."
+  - "There are more than 40 different proteins in a whole egg, some only located in the white and others predominantly in the yolk."
+  - Mechanism: "Natural protein consists of complex, folded and coiled individual molecules. Loose bonds across the folds and coils hold each protein molecule in a tight, separate unit. These bonds can be disrupted when exposed to heat or acid, or by physical means such as whipping, causing the protein to denature." And: "Essentially, millions of protein molecules join in a three-dimensional network, or simply, they coagulate, causing the egg product to change from a liquid to a semisolid or solid."
+  - Modifiers: "sugar (raises the temperature for coagulation), acids (decrease temperature where coagulation is achieved)".
+  - Starch "is often added to custard to slow the process of coagulation to help prevent overcooking the mixture."
+- **Egg Safety Center, "What is the safe temperature to cook eggs?"**, https://eggsafety.org/faq/what-is-the-best-temperature-to-cook-an-egg/ .
+  Read: full, direct. The page says the Center "represents commercial egg producers". Same ranges:
+  "Egg white coagulates at 144-149° F, yolk coagulates at 149-158° F, and whole eggs coagulate at 144-158° F."
+  Its doneness guidance: fried and poached, "Cook until the whites are completely set, and the yolks begin to thicken but are not hard" (poached "about 5 minutes in simmering water, or 6-9 minutes in poaching inserts"); scrambled, "Cook until no visible liquid egg remains"; hard-cooked: "Place large eggs in sauce pan with cold water. Bring eggs to boil and cover. Remove from heat. Let eggs sit for 12 minutes for large eggs. ((9 minutes for medium eggs; 15 minutes for extra-large eggs)" (the doubled bracket is the page's).
+- **NDSU Extension, Julie Garden-Robinson, "Prairie Fare: Are Runny Eggs Safe to Eat?"**, 7 April 2011,
+  https://www.ag.ndsu.edu/news/columns/prairie-fare/prairie-fare-are-runny-eggs-safe-to-eat/ . Read:
+  full, direct. Repeats the Egg Safety Center's ranges ("According to the Egg Safety Center"), so it
+  is not independent of them. Its hard-cooking method (from a USDA recipe): bring to a boil, "Reduce
+  heat to simmer; cook for 15 minutes. Immediately rinse the eggs under cold water". Its reading of
+  the Food Code egg rule is the columnist's, not the FDA's; not used.
+- **Institute of Food Science and Technology, "Protein: coagulation"** (Love Food Love Science
+  teaching resource), https://www.ifst.org/lovefoodlovescience/resources/protein-coagulation . Read:
+  full, direct. The UK professional body for food scientists; a schools resource, not research.
+  "Egg whites coagulate at 60°C, egg yolks 65°C, with full coagulation occurring at 70°C." And:
+  "Coagulation is irreversible, the proteins cannot be turned back into their liquid form."
+- **Jian Kuang, Pascaline Hamon, Valérie Lechevalier and Rémi Saurel, "Thermal Behavior of Pea
+  and Egg White Protein Mixtures"**, *Foods* 12(13), 2023, 2528, PMC10340197, CC BY (names from the
+  PMC record). Read: full text XML from PMC, searched for the egg white passages; the pea results
+  were not read.
+  - "Ovalbumin (54%), ovotransferrin (12%), ovomucoid (11%), lysozyme (3.5%), and ovomucin (1.5–3.5%) are among the major proteins of egg white".
+  - Their own calorimetry of egg white: "the peaks at ~63, ~69, ~76, and ~83 °C could be assigned to ovotransferrin, lysozyme, ovalbumin, and S-ovalbumin (the more heat-stable form of ovalbumin [ 26 ]), respectively."
+  - "Many studies performed on liquid egg white around neutral pH indeed mention two main denaturation peaks around 65 and 80 °C attributed to ovotransferrin and ovalbumin, respectively".
+  - Gelling: "the two gelling temperatures at ~60 and ~75 °C could be attributed preferentially to the denaturation of ovotransferrin and ovalbumin, respectively".
+  - What a lesson may say: the white is several proteins that set at different temperatures; a minor one (about 12%) first, around 60 to 65°C, and the main one (about 54%) near 75 to 80°C. These are laboratory heating measurements; the step from them to "a white held in the low 60s is tender and one taken well past 75 is firmer" is the course's inference and is labelled as such.
+- The Science of Cooking figures in Part C 8b (ovalbumin at 80°C, ovotransferrin at 60°C) are
+  consistent with the paper but remain [T] from an unsigned page; the lesson cites the paper instead.
+- Donovan, Mapes, Davis and Garibaldi, *J Sci Food Agric* 26(1), 1975, 73–83, PMID 235041 (the
+  classic calorimetry of egg white): PubMed record has no abstract. Not read; not cited.
+
+**G8, emulsion mechanism: closed** with a researcher's review of how yolk stabilises emulsions and
+the egg board's functional explanation, plus two ATK pages for the practical fix.
+
+- **Marc Anton, "Recent advances concerning the functional properties of egg yolk low-density
+  lipoproteins"**, INRA Nantes, conference paper for the World's Poultry Science Association,
+  hosted by CABI, https://www.cabi.org/Uploads/animal-science/worlds-poultry-science-association/WPSA-italy-2006/10903.pdf
+  (eight pages; the URL places it at the 2006 WPSA meeting in Italy, which the extracted text does
+  not state). Read: full, direct.
+  - Abstract: "The emulsifying properties of egg yolk are principally attributed to its LDL." And: "interfacial films made with LDL are constituted by a blend of proteins and phospholipids that assure both the decrease of interfacial tension and the resistance to the rupture. This permits the formation and the stability of food emulsions made with yolk."
+  - Introduction: yolk "contributes to the formation and the stability of yolk emulsions like mayonnaises, salad dressings, and creams. Yolk is still used empirically and physical properties of yolk emulsions are not entirely controlled."
+  - LDL "form a film at the interface between oil and water, and this film contribute to the stabilisation of emulsions made with yolk."
+  - Breaking, in general terms: "Emulsion stability indicates the capacity to avoid flocculation, creaming, and/or coalescence of oil droplets. Creaming and flocculation are reversible phenomena which can be avoided by a simple agitation of the emulsion. Coalescence is the irreversible fusion of oil droplets due to the rupture of the interfacial film created by emulsifying agents. This phenomenon leads to a complete destruction of the emulsion."
+  - It says the adsorption mechanism has been debated ("controversies have persisted about the adsorption mechanism of LDL at the oil-water interface"). A lesson names the film, not the molecular sequence.
+- **American Egg Board, "Emulsification"**, https://www.incredibleegg.org/professionals/manufacturers/real-egg-functionality/emulsification/ ,
+  page copyright 2023. Read: full, direct. An industry promotion board's page for food
+  manufacturers.
+  - Definition, quoting *Food Technology*: an emulsion is a "temporarily stable mixture of immiscible fluids, such as oil and water, achieved by finely dividing one phase into very small droplets."
+  - "The reduction of surface tension is due to the lecithin or phosphatidylcholine contained within the egg yolk. This amphiphilic molecule has two ends, one hydrophobic and one hydrophilic, which minimizes the energy required to form an emulsion by reducing oil/water interfacial tension."
+  - "Egg yolks provide a viscous, continuous phase. This promotes stability in emulsions because it prevents the dispersed oil droplets from moving around and gathering, or coalescing."
+  - "the smaller the droplet and more uniform in size, the better the emulsion"; "oil must be added slowly to water so that the lecithin within the egg yolk can thoroughly coat the small droplets. This coating acts as a barrier to prevent the droplets from joining back together (flocculating or coalescing) to enhance emulsion stability".
+  - Note: this page credits the yolk's emulsifying power chiefly to lecithin; Anton's research credits it chiefly to the LDL particles, which carry phospholipids (lecithin among them) and proteins to the interface. The two are compatible at the level a lesson needs: a film of yolk material coats each droplet.
+- **America's Test Kitchen, "Make-Ahead Homemade Mayonnaise"**, Lan Lam, published 5 January 2020,
+  https://www.americastestkitchen.com/recipes/12375 . Read: full, direct (the public part of the page).
+  - Ingredients: "3 tablespoons water", "2 large egg yolks", "4 teaspoons lemon juice", "1 ½ cups vegetable oil, divided", "¾ teaspoon table salt", "½ teaspoon Dijon mustard", "¼ teaspoon sugar".
+  - Method: stir water, yolks and lemon juice, then "Microwave, stirring gently every 10 seconds, until mixture thickens slightly and registers 160 to 165 degrees, 1 to 2 minutes. Immediately add ¼ cup oil, salt, mustard, and sugar; whisk to combine." Then in a food processor "slowly drizzle in remaining 1¼ cups oil in thin stream, about 2 minutes." Refrigerate "for up to 1 month".
+  - "Our homemade mayo can be stored for one month because it's made with pasteurized egg yolks. Pasteurizing is as simple as heating the yolks to 160 degrees. Mixing the yolks with water and lemon juice kept the base of our mayo fluid even though it had been heated. Immediately whisking oil into that base cooled it and prevented it from thickening. At the same time, whisking broke the oil into tiny droplets, the critical starting point for any mayo."
+  - "pasteurized" and the one-month keeping time are ATK's claims; FSIS (below) is the regulator's statement of the 160°F method.
+- **America's Test Kitchen, "How to Fix Failed Mayo"**, https://www.americastestkitchen.com/how_tos/13363-how-to-fix-broken-mayo .
+  Read: full, direct. No author or date on the page.
+  - "Place 4 teaspoons water in bowl and, while whisking vigorously, very slowly drizzle in about ½ cup mayonnaise mixture (consistency should resemble heavy cream). Transfer to a food processor and slowly drizzle in remaining mayonnaise."
+  - "(Consistency will be slightly looser than unbroken mayonnaise but still thick and creamy.)"
+  - It gives the food processor's bowl volume as its reason a batch can fail ("the success of making mayonnaise in the food processor depends on having enough volume in the bowl").
+- **Not found at source, and so not printed:** a citable statement that "too much oil for the
+  water" breaks a mayonnaise (Part C 8c's second cause), a keeping time for mayonnaise made with
+  raw yolks, and hollandaise temperatures. The fresh-yolk rescue in Part C 8c has no source here
+  beyond search results; a lesson may mention it only as common practice, labelled as such.
+
+**Eggs and safety, rechecked and added.**
+
+- **USDA FSIS, "Shell Eggs from Farm to Table"**, https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/eggs/shell-eggs-farm-table ,
+  "Last Updated: Nov 20, 2024". Read: full, via Internet Archive capture 20260829182605 (live site
+  blocks automated readers). The page quotes McGee's book on egg history; not used (unread line).
+  - Salmonella: "Unbroken, clean, fresh shell eggs may contain Salmonella Enteritidis (SE) bacteria that can cause foodborne illness." Routes: SE "can contaminate eggs during their development inside the hen’s reproductive tract, before the shell even forms around the yolk and egg white"; via the shell on laying; and "through the pores of the shell". "if present, the SE can be in the yolk or “yellow” or the albumen “egg whites” or on the egg shell."
+  - Carton statement: "SAFE HANDLING INSTRUCTIONS: To prevent illness from bacteria: Keep eggs refrigerated, cook eggs until yolks are firm and cook foods containing eggs thoroughly."
+  - "Everyone is advised against eating raw or undercooked egg yolks and whites or products containing raw or undercooked eggs. This includes “health food” milk shakes made with raw eggs, Caesar salad, Hollandaise sauce and any other foods like homemade mayonnaise, ice cream or eggnog made from egg ingredients that are not thoroughly cooked." Then: "Infants, young children, older adults, pregnant women and people with weakened immune systems are particularly vulnerable to SE infections." And: "However, in-shell eggs that have been pasteurized may be used safely without cooking."
+  - Pasteurised shell eggs: "Pasteurized shell eggs are available at some grocery stores." "The equipment to pasteurize shell eggs isn't available for home use and it is very difficult to pasteurize shell eggs at home without cooking the egg."
+  - FDA Egg Safety Rule (21 CFR part 118): "requires virtually all egg producers with 3,000 or more laying hens to implement measures to prevent SE from contaminating eggs on the farm", including pest control, "purchasing chicks and pullets from suppliers who control for Salmonella in their flocks", biosecurity, refrigeration on the farm and in transport, and environmental testing.
+  - Grades: "Grade AA and Grade A eggs are best for frying and poaching where appearance is important." Aging: "The white would be thinner, losing some of its thickening and leavening powers. The yolk would be flatter, larger and more easily broken."
+  - Refrigeration: "A cold egg left out at room temperature can sweat, facilitating the movement of bacteria into the egg." "Refrigerated eggs should not be left out more than 2 hours." Store "in their carton and place them in the coldest part of the refrigerator, not in the door."
+  - Washing: "No. It's not necessary or recommended for consumers to wash eggs. This increases the risk of contamination because the wash water can be “sucked” into the egg through the pores in the shell."
+  - Hard-cooked eggs: "Hard-cooked eggs should be refrigerated within 2 hours of cooking and used within a week." Peeling: "When an egg is laid, the albumen has a neutral pH (around 7.4). As an egg ages, the pH of the albumen increases to approximately 9." ... "For this reason, older eggs make better candidates for hard cooking."
+  - Green ring: "A green ring on a hard-cooked yolk can be a result of overcooking as the sulfur and iron compounds in the egg react on the yolk's surface. The green color can also be caused by a high amount of iron in the cooking water. Scrambled eggs cooked at too high a temperature or held on a steam table too long can also develop a greenish cast. The green color is safe to consume."
+  - Float: "An egg can float in water when its air cell has enlarged sufficiently to keep it buoyant. This means the egg is of poor quality, but it may be perfectly safe to use. Crack the egg into a bowl and examine it for an off-odor or unusual appearance before deciding to use or discard it."
+  - Cooking: "eggs must be cooked thoroughly until yolks are firm. Scrambled eggs should not be runny." Egg dishes to 160°F. "To make a recipe safe that specifies using raw eggs, heat the eggs separately from all other ingredients in a liquid form over low heat, stirring constantly, until the mixture reaches 160 degrees F. Then combine it with the other ingredients and complete the recipe." "Use pasteurized eggs or egg products when preparing recipes that call for using eggs raw or undercooked." Cooked egg dishes "Use within 3 to 4 days"; storage chart: raw yolks or whites 2 to 4 days in the fridge.
+- **University of Nebraska–Lincoln Extension, "How to Avoid a Green Ring on Hard-Boiled Egg Yolks"**
+  (Part C 8b), rechecked, direct. The [T] quotation matches. "It's unattractive, but not harmful."
+  "The reaction is usually caused by overcooking, but can also be caused by a high amount of iron in
+  the cooking water." "Eliminate the ring by avoiding overcooking and by cooling the eggs quickly
+  after cooking. Run cold water over the just-cooked eggs or place them in a bowl or container of ice
+  water until they have completely cooled." "Reviewed and updated in 2024."
+- **Why the UK changed its advice: the FSA's October 2017 announcement, as reproduced by the
+  Institute of Food Science and Technology**, "New advice on eating runny eggs - FSA",
+  https://www.ifst.org/news/new-advice-eating-runny-eggs-fsa-0 . Read: full, direct. The IFST page
+  carries no date; the FSA original on food.gov.uk was not opened (the old news URLs moved with the
+  GOV.UK migration). Trade reports date it 11 October 2017 (search result only).
+  - "The decision to change the advice is a result of the findings from an expert group that was set up by the Advisory Committee on the Microbiological Safety of Food (ACMSF) in February 2015 to look at egg safety. Its report, published in July 2016, highlighted that the presence of salmonella in UK eggs has been dramatically reduced in recent years, and the risks are very low for eggs which have been produced according to food safety controls applied by the British Lion Code of Practice. More than 90% of UK eggs are produced under this scheme."
+  - "A range of interventions have been put in place across the food chain as part of the Lion scheme including: vaccinating hens, enhanced testing for salmonella, improved farm hygiene, effective rodent control, independent auditing and traceability, and keeping the eggs cool while transporting them from farm to shop."
+  - "The revised advice does not apply to severely immunocompromised individuals, who require medically supervised diets prescribed by health professionals".
+  - "The existing advice on UK non-Lion eggs, non-hen eggs and eggs from outside the UK, is that they should always be cooked thoroughly for vulnerable groups."
+  - The 2017 text names only the Lion scheme; Laid in Britain was added later (the current FSA fact checker, Part B 3.5, and the NHS, Gate closures lesson 4, name both). The ACMSF report itself was not read.
+  - No source read compares Salmonella rates in US and UK eggs, so a lesson must not say which supply is safer.
+- **Videos, metadata only (not watched):** Jacques Pépin, "How To Properly Poach An Egg", KQED Food,
+  309 s (description: "a number of tricks for not making the eggs rubbery, as well as a method to
+  prepare them in advance of serving"); "Learn Jacques Pépin's famous omelet techniques", American
+  Masters PBS, 353 s (description: "two different techniques for making this perfect egg dish").
