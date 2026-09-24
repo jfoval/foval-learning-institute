@@ -144,8 +144,10 @@ Rewrite these five lines each session. Nothing else goes in this block.
   Bible Basics lessons 4 and 9, Python Basics lesson 1, Logic and Argument lesson 10, and Digital
   Literacy lessons 1 and 3. **The fix is one edit each: name the distractor by its content.**
 
-- **Strength and Fitness is in research** (T3, second of the term), started 2026-09-24 by a session
-  working alongside the Nutrition one. Sensitive domain (medicine): two fresh-context reviewers per
+- **Strength and Fitness is drafting** (T3, second of the term), started 2026-09-24 by a session
+  working alongside the Nutrition one. Stage 1 is done: five parallel researchers, 53,000 words,
+  every quotation script-checked against a downloaded text; most trials read at abstract level
+  because the big publishers refused scripted downloads, and the file says so at each entry. Sensitive domain (medicine): two fresh-context reviewers per
   lesson and the neutrality audit before publish. **Boundaries with Nutrition are settled in its
   outline**: energy balance, exercise and weight (Nutrition 3) and protein (Nutrition 5) are taught
   there and pointed to here; exercise for depression is Mental Fitness 5.
