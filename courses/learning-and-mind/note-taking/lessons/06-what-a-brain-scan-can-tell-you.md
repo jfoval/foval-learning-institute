@@ -1,6 +1,7 @@
 ---
 title: What a brain scan can and cannot tell you
 minutes: 80
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/learning-and-mind/note-taking/06-what-a-brain-scan-can-tell-you.mp3
 objectives:
   - >-
     State what the EEG study measured and what it did not measure
