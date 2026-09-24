@@ -1,6 +1,7 @@
 ---
 title: The jagged frontier
 minutes: 115
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/computer-science-and-ai/using-ai-effectively/06-the-jagged-frontier.mp3
 objectives:
   - >-
     Explain why the boundary between what these systems do well and badly does not follow how hard
