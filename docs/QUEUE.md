@@ -36,6 +36,14 @@ Rewrite these five lines each session. Nothing else goes in this block.
   more. Until then `npm run state` keeps pointing at it; work past it in term order by hand. Other
   episodes worth a listen, none re-rendered: Habits 3 and 5 (John low), Memory 3 (Haley 40% of the
   audio for 17% of the words) and Memory 7 (John low).
+- **The September Gemini cap is spent** (2026-09-25, overnight). Term 2 is otherwise FINISHED:
+  **Note-Taking and Sleep all live, Mental Fitness eight of nine.** **Mental Fitness 7 is held like
+  Habits 2**: its 3:00-3:30 window measures 59% Haley where the script has two long John paragraphs,
+  so she probably voiced one; listen at 3:00. Still owed: those two, and Bible Basics 8-12 (about
+  $1.40). Also worth a listen, all live: Mental Fitness 1, 4, 6, 9, Note-Taking 3, 6, 7. **Memory 3
+  is the test case**: its Haley excess is spread over minutes of short turns rather than one block,
+  and Mental Fitness 1 and Note-Taking 7 show the same shape. If Memory 3 has Haley reading a John
+  line, all three are re-rendered.
 - **Using AI Effectively is FINISHED.** T1, sixth of seven. Eleven lessons, every one
   through Stage 4 with its review applied, the voice pass done, the neutrality audit passed, both
   assessments written, and eleven fact-checked podcast scripts. Nothing on it is outstanding except
