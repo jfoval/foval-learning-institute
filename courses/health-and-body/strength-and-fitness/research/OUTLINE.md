@@ -402,8 +402,9 @@ the joint one both halves were drafted from.
   that applies the course's question to yourself: one person, eight weeks, measured on what, and what
   the re-test can and cannot tell you (specificity, learning the test, no comparison). Rubric: safety
   (screening done, callout signs respected), plan grounded (each line sourced), log kept, measures
-  repeatable, report honest about what n = 1 can show. Eight weeks rather than twelve because it is the
-  median trial length in R2.16, which lets the report compare like with like.
+  repeatable, report honest about what n = 1 can show. Eight weeks rather than twelve because it sits where
+  the trials in R2.16 sit (Grgic's median of 8 weeks, Haugen's mean of 8.9, the Pelland preprint's
+  10.4), which lets the report compare like with like.
 
 ## Neutrality notes
 
