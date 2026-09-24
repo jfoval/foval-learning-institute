@@ -2027,3 +2027,237 @@ No newer CDC summary was read.
 - A source for plain versus anodised aluminium reactivity with acid foods.
 - A source stating that pathogens do not produce off smells.
 - Gruenwald et al. full text; the RMI response to the AGA; the Kashtan et al. full texts.
+
+## Gate closures, lesson 1
+
+*Added 2026-09-24 by the lesson 1 drafter. Every page below was downloaded with curl and its text
+extracted locally; quotations are copied from that text (direct), not from a summarising tool.*
+
+**G10, honing and sharpening: closed** with two America's Test Kitchen pages (a test-kitchen source,
+which is what the gate asked for). No manufacturer page was read: the Wüsthof results surfaced only
+retailer listings, which were not opened.
+
+- **America's Test Kitchen, "A Guide to Using Your Chef's Knife"**, Liz Bomze, 5 December 2018 (the
+  Part D 1 source), https://www.americastestkitchen.com/articles/1362-a-guide-to-using-your-chef-s-knife .
+  **Re-read in full, direct**, which also re-checks the Part D 1 grip and claw quotations: they match
+  the page (the page uses a curly apostrophe in "doesn’t").
+  - "Honing a knife with a honing steel (also referred to as a sharpening steel—a misnomer) repositions (or “trues”) the edge of a blade that is slightly out of alignment to restore sharpness. Sharpening trims and reshapes the blade by removing metal that is blunted or too far out of alignment for honing to work."
+  - "A good rule of thumb is to use a honing steel every time you start to cook."
+  - "If you cook often, you should check your knife weekly for sharpness using the sharpness test. If it fails the test, try honing first. If that doesn’t work, run it through a sharpener."
+  - Paper test: "Hold a sheet of paper by one end and drag your knife, from heel to tip, across it. If the knife snags or fails to cut the paper, it needs to be honed or sharpened."
+  - On dull knives: "A sharp knife is a precise, efficient tool, while a dull knife is an accident waiting to happen. That’s because a dull blade requires more force to do the job and has a higher chance of slipping and missing the mark." And: "Even a few minutes of cutting dense or hard foods can dull a blade."
+  - On evenness: "The goal when cutting any food is to avoid crushing or bruising it and to create even-size pieces that cook at the same rate and/or ensure even flavor distribution throughout the dish."
+  - Flat side: "Create flat, stable surface by cutting food in half or removing thin slice from bottom. Hold food with claw grip."
+  - Honing steps: handle grip, steel tip on the counter, blade "at consistent angle away from steel (15 to 20 degrees depending on the knife)", light pressure, "Four or 5 strokes on each side of blade (total of 8 to 10 alternating passes) should realign edge."
+  - Also on the page: an 8-inch chef's knife is ATK's preferred length ("We find that 8 inches is long enough to maneuver through a wide roast or a hefty watermelon but short enough to allow good control of the blade"); the page recommends named products, which a lesson should not repeat.
+- **America's Test Kitchen, "How to Use a Honing Rod"**, The Editors of America's Test Kitchen, https://www.americastestkitchen.com/articles/276-how-to-use-a-sharpening-steel . No date read on the page (the structured data carries a 2016 date that may belong to a linked item). Read in full, direct.
+  - "The force of repeated cutting bends microscopic pieces of the blade to either side, making it harder to push the blade through the food, which in turn makes it feel dull to the user."
+  - "A so-called sharpening steel—also called a honing rod—which is the metal rod sold with most knife sets, doesn’t really sharpen a knife, but rather hones the edge of a slightly dulled blade. Sweeping the blade along the steel realigns the edge so you don't have to sharpen as frequently."
+  - "Despite what many cooks believe, proper honing requires very little pressure." Here the angle is given as "15 degrees is perfect" (the chef's-knife guide says 15 to 20 depending on the knife; say "about 15 to 20").
+  - Paper test, with the order: "If the knife fails to slice cleanly, try honing it. If it still fails, it needs sharpening."
+- A companion page, "Knife Tune-Up: How to Use a Honing Rod" (https://www.americastestkitchen.com/how_tos/10751-knife-tune-up-how-to-use-a-honing-rod, direct), adds that honing takes "about 1 minute to hone versus 5 minutes to sharpen" and "doesn’t remove much metal from the blade". Note the hedge: "much", not "no".
+- Still not read: any manufacturer statement, and the electron-microscope work the Wikipedia article cites (on the unread line). **What a lesson may say:** a steel realigns an edge that has bent to the side; a sharpener or stone removes metal to make a new edge; hone first, and sharpen when honing no longer passes the paper test. No claim about ceramic or diamond rods (Wikipedia only).
+
+**Also read for lesson 1, not a gate:**
+
+- **America's Test Kitchen, "How to Cut an Onion"**, The Editors of America's Test Kitchen, https://www.americastestkitchen.com/articles/229-how-to-cut-an-onion . Read in full, direct. Supplies the onion method the outline wanted from a video only.
+  - "The goal when chopping an onion is to obtain evenly sized pieces that will cook at an even rate."
+  - "Many chefs lop off both the top and the root end before chopping an onion. However, for the average home cook, we find that leaving the root intact makes it easier to keep the layers together as you make each cut."
+  - Steps: "Halve onion pole to pole—that is, cutting through top and root end. Peel onion and trim top. (It’s much easier to remove the skin once the onion has been cut.)" Then flat side down, several horizontal cuts "but don’t cut through root end", several vertical cuts "up to but not through the root end", then "Rotate onion half so root end is in back. Slice onion thin across previous cuts."
+  - Spacing: "For chopped or diced onions, leave 1/4 to 1/2 inch between each cut. For minced or finely chopped onions, leave 1/8 to 1/4 inch between each cut."
+  - ATK's own recipe vocabulary: ""Minced" means 1/8-inch pieces or smaller. "Chopped fine" means 1/8- to 1/4-inch pieces." and ""Chopped medium" means 1/4- to 1/2-inch pieces. "Chopped coarse" means 1/2- to 3/4-inch pieces." A second vocabulary for the same sizes as Escoffier's dice (Part D 1), usable to show that recipe words are size instructions.
+- **Escoffier School of Culinary Arts, "What Is Mise en Place and Why Is It So Important to Chefs?"**, https://www.escoffier.edu/blog/culinary-arts/what-is-mise-en-place-and-why-is-it-so-important-to-chefs/ , published 18 October 2024, modified 18 February 2026 (structured data). Read in full, direct. A school's recruiting blog, so use it for the definition and the steps and nothing about history (it credits Escoffier, its namesake, with developing the system, which this course has not checked).
+  - "In the culinary world, this preparation practice is known as mise en place. This means “everything in its place.”" (the sentence is split across a link on the page; the words are as printed).
+  - "The goal of this culinary practice is to have everything ready to go when it comes time to cook, bake, or assemble your final dish."
+  - Steps: read the recipe first ("carefully read over a recipe’s ingredients, technique, and method"), gather tools, gather and measure ingredients into separate bowls, prep (chop, trim, wash).
+  - Among its common mistakes: prepping too far ahead ("vegetables can lose their crispiness, herbs may wilt"), and "Uniformity is important when slicing and chopping ingredients as it helps the food to cook evenly."
+
+## Gate closures, lesson 2
+
+*Stage 3 top-up for lesson 2, 2026-09-24. Everything below was read directly (curl, or Europe PMC's
+full-text XML) and quotations were copied from the extracted text, so they are verbatim.*
+
+**G9, the temperature ladder: partly closed, for lesson 2's needs only.** Egg, collagen and rice
+temperatures (lessons 5, 8, 9) were not looked for and remain open.
+
+- **Nancy Honig, "The Maillard Reaction", Wild West District Extension Blog, Kansas State University
+  Research and Extension**, posted 15 August 2022 (by Kylee Harrison),
+  https://blogs.k-state.edu/wildwestdistrict/2022/08/15/the-maillard-reaction/ . Read: full, direct.
+  - "Maillard reactions generally only begin to occur above 285°F (140°C)."
+  - "Sucrose and glucose caramelize around 160C (320F) and fructose caramelizes at 110C (230F)."
+  - Caution: much of the page's wording matches the unsigned Science of Cooking page in Part C 6, so
+    it may not be independent of it. It is an extension-service page, which is institutional, but
+    it is a county blog post, not research. Use for the approximate 140°C only, as approximate.
+- **L. El Hosry, V. Elias, V. Chamoun, M. Halawi, P. Cayot, A. Nehme and E. Bou-Maroun, "Maillard
+  Reaction: Mechanism, Influencing Parameters, Advantages, Disadvantages, and Food Industrial
+  Applications: A Review"**, *Foods* 14(11), 2025, 1881, doi 10.3390/foods14111881, PMC12154226,
+  CC BY. Read: full text XML from Europe PMC, searched for temperature; abstract, section 3.2
+  ("Effect of Temperature on Maillard Reaction's Rate") and the baking section (8.5) read.
+  - Abstract: "Other specific conditions of reaction medium such as temperature, reaction time (or
+    residence time in a process), and water activity also significantly influence the Maillard
+    reaction."
+  - Section 3.2: "The higher the temperature, the faster the reaction."
+  - It reports model-system studies (glucose with glycine; glucose with lysine) whose rate peaked
+    near 120 °C: "The mentioned researchers found that the maximum reaction rate occurred at 120 °C,
+    and it decreased at temperatures above 120 °C or below 100 °C." Those are solutions, not food
+    surfaces, but they are a reason not to present 140°C as a sharp threshold.
+  - Baking: "Baking can be divided into three phases: dough expansion, surface desiccation, and
+    crust browning. These phases are regulated by the temperature increase during baking, with
+    browning typically occurring at around 160 °C."
+  - Verdict: no source read gives a precise, institutionally backed on-temperature for browning,
+    and the review suggests there isn't one. Lesson 2 gives "about 140°C" attributed to the K-State
+    page, calls it a rough mark rather than a switch, and uses the review for the rate and for the
+    dry-then-brown order. Nothing in the lesson turns on the figure, and the chart draws only FSIS
+    figures, as the outline's fallback required.
+
+**Rechecks of Stage 1 [T] and fetch-tool quotations lesson 2 prints.**
+
+- **FDA "Microwave Ovens"** (Part C 10h), direct; "Content current as of: 10/12/2023". The two [T]
+  quotations match the page exactly. Also on the page:
+  - "Although heat is produced directly in the food, microwave ovens do not cook food from the "inside out.""
+  - "Super-heated water (water heated past its boiling temperature) does not appear to be boiling and occurs when water is heated by itself in a clean cup. If super-heating has occurred, a slight disturbance or movement such as picking up the cup, or pouring in a spoon full of instant coffee, may result in a violent eruption with the boiling water exploding out of the cup. Adding substances such as instant coffee or sugar before heating greatly reduces this risk."
+  - "Users should make sure that they do not exceed the recommended heating times when determining the best time settings to heat water to the desired temperature."
+- **Engineering ToolBox "Convective Heat Transfer"** (Part C 7), direct. The coefficient list
+  matches Part C 7: "Free Convection - air, gases and dry vapors : 0.5 - 1000 (W/(m 2 K))"; water and
+  liquids free 50 to 3000, forced 50 to 10000; forced air 10 to 1000; "Boiling Water : 3.000 -
+  100.000"; "Condensing Water Vapor: 5.000 - 100.000" (the page uses points as thousands
+  separators). Part C 7's note that still air sits "at the bottom" of the free-convection range is
+  the researcher's reading, not the page's; the page gives only the range.
+- **Engineering ToolBox "Water Properties: Vaporization Heat vs. Temperature"**,
+  https://www.engineeringtoolbox.com/water-properties-d_1573.html , direct, table only: at 100 °C,
+  2256.4 kJ/kg. **"Specific Heat Capacity of Water"**,
+  https://www.engineeringtoolbox.com/specific-heat-capacity-water-d_660.html , direct, table only:
+  4.2174 kJ/kgK at 0.01 °C, 4.1570 at 20 °C (liquid at saturation, the first of the two columns);
+  about 4.18 is a fair round figure for 0 to 100 °C. Lesson 2's 418 kJ and "more than five times"
+  are its own arithmetic from these.
+- **FSIS "Food Thermometers"** (Part B 1.9), Wayback 20260823200227, direct. Additional sentences:
+  - "Size, quantity and distribution of food when cooking causes the pieces of food to reach a safe internal temperature at different times."
+  - Altitude, in full: "Boiling water’s temperature may vary in high altitudes. Most likely, the water would boil lower by at least 2 degrees F and perhaps lower by as much as 5 degrees F. Remember that water boils at a lower temperature in a high-altitude area. Check with the local Cooperative Extension System office or hea[lth department]" (the page text continues past the extract).
+  - The pathogen sentence carries an asterisk on the page: "Most pathogens are destroyed between 140 degrees F and 165 degrees F*." Lesson 2 quotes it without the asterisk inside its own marks.
+  - "If the thermometer doesn’t allow manual calibration, you may need to replace it."
+  - Placement, in full: "The food thermometer should be placed in the thickest part of the food, away from bone, fat or gristle. For thin foods, the food thermometer should be inserted through the side until it reaches the center of the food."
+- **FSIS "Deep Fat Frying"** (Part D 2a), Wayback 20260923031306, direct. The water-and-oil and
+  smoke-point quotations match. The table also lists "Enova" brand at 420 °F. It adds: "A kitchen
+  fire extinguisher or covering the fryer with a metal lid is the best way to put out a grease
+  fire. Call 911 immediately if a grease fire occurs."
+- **CPSC "Recipe for Safer Cooking"** (Part D 2a), live site returned a 459-byte block; read through
+  Wayback 20260917064950, direct. The five fetch-tool quotations match the page (the page has
+  "andleave" run together in the lid sentence). The fire list opens: "Call the fire department
+  immediately. In many cases, dialing 911 will give you Emergency Services."
+- **NHS "Burns and scalds"** (Part D 2b), direct; "Page last reviewed: 31 March 2026". Quotations
+  match. Also: "Remove any clothing or jewellery that's near the affected area – but do not remove
+  anything that is stuck to the affected area." and "do not use plasters or sticky dressings to
+  cover a burn or scald do not burst any blisters" (a bulleted list, run together in extraction).
+  Ice is not mentioned.
+- **American Red Cross "Burns"** (Part D 2b), Wayback 20260117094816, direct. Quotations match. Also:
+  "Doing so can cause more damage to the skin." (after the ice sentence) and the hospital list:
+  "A child has been burned. The burn blisters. The burn affects more than one body area. The burn
+  covers the hands, feet, joints, face, neck, or genitals. A larger surface area, such as trunk or
+  limbs, is involved. Underlying tissues are visible."
+- **AGA statement, 5 January 2023** (Part D 3c), direct. Quotations match (the page uses a curly
+  apostrophe in "doesn’t"). Also: "Inexplicably, the authors ignored their own search of
+  peer-reviewed manuscripts since 2013, where they found “none reported new associations between
+  gas stove use and childhood asthma specifically in North America or Europe.”"
+- **EPA cooking infographic, text version** (Part D 3c), direct. The three quotations match.
+
+**G7 (pressure cooking)** is not lesson 2's gate in the outline (lessons 8 and 9); not attempted.
+
+## Stage 4 notes, lesson 1
+
+*Added 2026-09-24 by the lesson 1 reviewer. Pages downloaded with curl and read locally.*
+
+- **ATK, "A Guide to Using Your Chef's Knife"**, re-read direct. Confirms the lesson's unrecorded
+  details: "With practice, your claw will move back in even increments after each cut, guiding the
+  knife to make even slices"; the rocking motion for small items ("push down and forward") and
+  lifting the blade for large ones; the motions "rely on a pushing or pulling action rather than a
+  straight downward cut"; honing with the "heel of blade against its top, pointing knife tip
+  slightly upward" and "pulling knife toward your body". After the dull-knife sentence the page
+  adds: "The result most often is food that’s crushed or bruised."
+- **Correction to Part D 3g's fair summary.** "Glass and marble ... dull knives fast (Cliver's point
+  on knife wear ...)" is not supported by anything recorded here: the Cliver 2006 abstract notes in
+  Part C 10i and D 3g say nothing about knife wear. Do not print it until a read source says it.
+- **University of Kentucky "Knife Skills" PDF** is eight pages, not one.
+- **Videos, metadata only (not watched):** ATK "How To Chop an Onion" 103 s, channel America's Test
+  Kitchen; Pépin "Knife Basics and Essentials of Knife Sharpening" 184 s and "Proper Knife Skills
+  for Cutting, Chopping and Slicing" 238 s, channel KQED Food. The sharpening video's description
+  says it shows "a steel and a stone".
+
+## Gate closures, lesson 3
+
+*Stage 3 top-up for lesson 3, 2026-09-24. The outline assigns lesson 3 no gate in its table; this
+section rechecks every [T] and fetch-tool quotation lesson 3 prints, re-reads the direct sources it
+leans on, and adds two sources for garlic in oil (the mechanism and a UK statement), because Part B
+5.4 had the US rule only and decision 1 asks for both countries where a rule applies. Every page was
+downloaded with curl and its text extracted locally (PubMed through the E-utilities efetch
+endpoint, the FSANZ report with pdftotext, the GOV.UK page through the Content API); quotations are
+copied from that text, direct.*
+
+- **Samin Nosrat, NPR *Fresh Air* transcript** (Part A 2.1), https://www.npr.org/transcripts/672904397 ,
+  re-read in full, direct. Part A 2.1's quotations match. Additional passages:
+  - Tomato: "once you sprinkle a few crystals of salt on a slice of tomato, some of the juices start to come out, you know? Osmosis starts. And a lot of the flavor, aromatic compounds in vegetables are inside those watery cells. And so they come to the top. They're more available for you to breathe in." And: "the salt really balances the acid in the tomato and the sweetness in the tomato and just makes it more tomato-y (ph)."
+  - "salt is the first thing I sort of just instinctively taste for."
+  - Salt brands, in full: "all salts are not created equal. So if I am using Diamond Crystal at home and I say one teaspoon but you have, you know, just a box of iodized table salt, what you use will almost be equivalent to twice as much." She adds it matters little for a pot of water, "But, you know, if you're making chocolate chip cookies and you use twice as much salt, it could be bad news." Then: "So I think it's really important more than anything to be familiar with your own salt and to really taste as you go so you start to learn what one pinch or one spoonful will do to a pot of food." She calls Diamond Crystal "really the least salty of all the salts".
+  - **The line about salt's impact is the interviewer's, not hers.** Sam Briger says: "You say that salt has the greatest impact on flavor than any other ingredient." Nosrat's reply does not repeat it. A lesson may attribute it only as the interviewer's summary of her book.
+  - Fat, in full: "So while salt is all about enhancing flavor, fat is mostly about texture. But it's also this amazing sort of transporter of flavor. It's a carrier." The garlic demonstration: a clove simmered in water and a clove sizzled in olive oil, cloves removed; the water "it'll probably taste pretty much just like water. But if you taste the oil, it'll taste like this amazing perfume." Also: "So to make the thing taste of the place, start with the fat of the place."
+  - Acid: lemonade "just made of sugar, water and lemons"; too sugary is "kind of cloying in your throat. So you need to increase that acid to create that tart contrast." And: "Anything tart is acid". She names Mexican salsas, cremas, cheeses, guacamole and "a wedge of lime that comes with your fish taco", and says her Iranian family squeezes "a sour orange over almost everything or lime".
+  - She explains she avoids iodised salt because she can taste the iodine; that is a health-adjacent claim (iodine intake) and is left out of lessons, per the Nutrition boundary.
+- **FDA, "Questions and Answers on Monosodium glutamate (MSG)"** (Part C 5), direct; "Content
+  current as of: 07/17/2026". The [T] quotations match. Full sentences:
+  - "FDA considers the addition of MSG to foods to be “generally recognized as safe” (GRAS). Although many people identify themselves as sensitive to MSG, in studies with such individuals given MSG or a placebo, scientists have not been able to consistently trigger reactions."
+  - "In 1908, a Japanese professor named Kikunae Ikeda was able to extract glutamate from this broth and determined that glutamate provided the savory taste to the soup." "This broth" is "a glutamate-rich seaweed broth" in the sentence before; **the page does not name kombu**, so a lesson says seaweed broth.
+  - "The FASEB report identified some short-term, transient, and generally mild symptoms, such as headache, numbness, flushing, tingling, palpitations, and drowsiness that may occur in some sensitive individuals who consume 3 grams or more of MSG without food. However, a typical serving of a food with added MSG contains less than 0.5 grams of MSG."
+  - "An average adult consumes approximately 13 grams of glutamate each day from the protein in food, while intake of added MSG is estimated at around 0.55 grams per day."
+  - "Over the years, FDA has received reports of symptoms such as headache and nausea after eating foods containing MSG. However, we were never able to confirm that the MSG caused the reported effects."
+- **FSANZ, *Monosodium Glutamate: A Safety Assessment*, 2003** (Part C 5), PDF re-downloaded and
+  extracted, direct. Tables 1 and 2 match Part C 5, and Table 2 also gives soy sauce from China 926
+  and the Philippines 412, fish sauces ishiru 1383 and bakasang 727. Additional passages:
+  - Summary: glutamate "in its free form has been shown to have a flavour enhancing effect." The introduction says glutamate "exists both as free glutamate and bound with other amino acids into protein". This is the source for free against bound.
+  - Occurrence: "protein-rich foods such as breast milk, cheese and meat, contain large amounts of bound glutamate, while most vegetables contain relatively low amounts. However, despite their lower protein contents, vegetables tend to contain proportionally higher levels of free glutamate, especially peas, tomatoes, and potatoes."
+  - "The optimal palatability concentration for MSG is between 0.2 – 0.8% and its use tends to be self-limiting as over-use decreases palatability." (The report spells umami "unami" throughout; quote it as printed or do not quote it.)
+  - UK intake: "an average intake of 590mg/day, with extreme users (97.5th percentile consumers) consuming 2330mg/day (Rhodes et al 1991)."
+  - The fuller summary: "ingestion of large amounts (≥3g) of MSG in the absence of food may be responsible for provoking symptoms similar to CRS in a small subset of individuals. These symptoms, although unpleasant, are neither persistent nor serious." And it names an open question in its own words: "an important question that remains unanswered by the scientific literature is what effect consumption with food would have on the incidence and severity of symptoms."
+  - "This highlights the need for individuals with suspected MSG sensitivity to undergo appropriate clinical testing."
+  - Conclusion, first two sentences: "There is no convincing evidence that MSG is a significant factor in causing systemic reactions resulting in severe illness or mortality. The studies conducted to date on CRS have largely failed to demonstrate a causal association with MSG."
+- **Geha et al. 2000, both abstracts** (Part C 5), PubMed efetch, direct. Quotations match. **One
+  finding Part C 5 omitted, and it is the reporters' side's strongest datum:** "Challenge with
+  increasing doses of MSG in protocol B was associated with increased response rates." A positive
+  response meant "2 or more symptoms from a list of 10 symptoms" within 2 hours; protocols A to C
+  gave MSG without food. The *J Nutr* abstract: "the frequency of the responses was low and the
+  responses reported were inconsistent and were not reproducible. The responses were not observed
+  when MSG was given with food."
+- **Sam Kean, "The Rotten Science Behind the MSG Scare"**, *Distillations*, 2 March 2023 (Part C 5),
+  direct (structured data datePublished 2023-03-02). The [T] quotations match. Corrections and additions:
+  - Kwok's three suspects, per Kean: "salt, cooking wine, or perhaps MSG". The letter was in April 1968; "A month later, the NEJM printed 10 responses from other doctors."
+  - "Puzzlingly, though, no two letter writers listed the same symptoms."
+  - Olney's first experiment used "up to 4 milligrams of MSG per gram of body weight"; the "up to 7 milligrams per gram of body weight" was the second experiment, in 20 mice.
+  - On the name and its stigma, Kean's own words: "a “foreign” chemical like MSG became an easy target" and "Only when MSG was linked to Chinese cuisine did Americans panic." He notes the same MSG had been in American "canned soups and TV dinners" for decades.
+  - Kean's piece is a science writer's argued history, with openly scornful language ("hysteria", "smirking editorial"); use it for the sequence of events and attribute its judgements to him. **The 2018 prank claim is not in this article's text as fetched**, so Part C 5's note about it cannot be confirmed here either; leave it out.
+- **Elana Spivack, "Do avocado pits keep guacamole fresh?"**, *Inverse*, 12 February 2022 (Part C
+  10c), direct. The Schaich quotation matches ("There was nothing in the pit that I knew of that
+  should have inhibited the enzyme, so it had to be the oxygen"). Also, Schaich: "But it's only that
+  it interferes with oxygen transfer. There’s nothing special about a pit." The water or citrus
+  layer is the writer's paraphrase of Schaich's advice: "coat the guac with no more than half an
+  inch of water. Lemon or lime juice works, too." and "citrus fruits are highly acidic and will
+  deactivate the polyphenol oxidase enzyme". Schaich on leaving the avocado in chunks: "Tissue
+  that's inside those big chunks has less access to oxygen, so it should stay greener".
+- **NCHFP, "Freezing Garlic-In-Oil"** (Part B 5.4), direct. Quotations match. The page adds:
+  "Package in glass freezer jars or plastic freezer boxes, leaving ½-inch headspace. Label, date and
+  freeze."
+- **New: Carla Luisa Schwan, "How to Safely Make Infused Oils: Best Practices for Food Safety"**,
+  University of Georgia Cooperative Extension Circular 1334, published 17 December 2024,
+  https://fieldreport.caes.uga.edu/publications/C1334/how-to-safely-make-infused-oils/ (linked from
+  NCHFP's own entry). Read: full, direct. The mechanism the NCHFP page leaves out:
+  - "Oils provide an anaerobic environment, and when combined with low-acid food matrices such as garlic and herbs, this provides the perfect conditions for specific bacteria to thrive. Clostridium botulinum specifically is of concern in infused oils. Spores of C. botulinum may already be present in garlic and herbs, and when introduced to an ideal environment—no oxygen, low acid content, and ambient temperatures—they can germinate, multiply, and produce a deadly neurotoxin."
+  - Heat does not solve it: "In this method, the oil is heated to 180 °F before adding dried or fresh garlic and herbs. Since acidification is not used to prevent bacteria from growing, infused oils made with this method must be kept in the refrigerator and discarded 4 days after being made. Alternatively, you could freeze the oil until you are ready to use it."
+  - Dried garlic is not a way round it: "Using dried garlic and herbs, which have little available water (lower water activity), still does not ensure that your ingredients are dried enough to provide a safe product."
+  - The tested room-temperature route is acidifying the garlic first (University of Idaho method, Abo et al. 2014, Food Protection Trends 34(4):247-257, not read), and the acid is specific: "Do not replace the citric acid solution with vinegar or lemon juice, as they have not been tested and may result in an unsafe final product." And: "These measurements give you a ratio of 1 part garlic to 3 parts citric acid solution, which is critical!" A lesson may say the tested method exists and send the reader to it; it should not reprint the method.
+- **New: Food Standards Agency, "Botulism (Clostridium botulinum)"**, GOV.UK,
+  https://www.gov.uk/government/publications/botulism-clostridium-botulinum/botulism-clostridium-botulinum
+  (food.gov.uk URL redirects there), first published 25 June 2026 per the Content API. Read: full,
+  direct. "Applies to England, Northern Ireland and Wales."
+  - "the bacteria can also develop spores which are not killed by cooking and produce a toxin that can make you ill."
+  - "Canning and bottling products such as herbs or garlic in oil can be risky as it is difficult to achieve the level of control needed to destroy or prevent growth of C. botulinum spores at home."
+  - "Foods that have been associated with foodborne botulism include home preserved foods, tinned and bottled foods, foods preserved in oil and food packed in airtight containers."
+  - "With the high standards of food hygiene in the UK, the chances of getting food-borne botulism from food bought in this country are low. Preserving your own foods at home is riskier."
+  - **The FSA gives no day limit for homemade garlic oil.** Its general advice is "chilling your food below 5°C". So the four-day figure is the US research-based rule (NCHFP, UGA), and a lesson says the UK page read gives no figure.
+  - **For lesson 4's gate G3, not lesson 3's:** the same page says use-by dates matter "even if it looks and smells fine – eating food after this date could put your health at risk as you can’t smell or taste bacteria which could make you ill". A regulator's statement, in general terms; the lesson 4 drafter should judge whether it closes G3.
