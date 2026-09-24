@@ -18,6 +18,15 @@ Findings that belong to the course rather than to any one lesson, from the Stage
   one more rep in them than they thought" should read "on average". Its "guessed worst on light,
   long sets" should carry the abstract's hedge: accuracy was only "slightly" better at 12 reps or
   fewer. *(Lesson 2's review, F9 and F19.)*
+- **Lesson 3 update (its review, 2026-09-24):** lesson 3's Sources IDs are now HTML comments, its
+  exercise now opens with lesson 2's three rows, and its "lesson 6" for aerobic work beside strength
+  is now lesson 7. Lesson 1 still has stale cross-references (Reviewer P listed lines 132, 137 and
+  773 before the renumbering; check each against OUTLINE.md).
+- **OUTLINE.md's length note is wrong for lesson 3.** It says lessons 2 and 3 measure past 100
+  minutes because "a lesson whose exercise is a real walk or a real session counts that time".
+  True of lesson 2; lesson 3's two exercises are desk work (30 minutes). Lesson 3 now measures 125:
+  about 60 minutes of teaching, 13 of Sources and 36 of exercises. Correct the outline sentence, not
+  the lesson. *(Lesson 3's review, P20.)*
 
 ## Standing, for every lesson in this course
 
@@ -49,3 +58,19 @@ Findings that belong to the course rather than to any one lesson, from the Stage
   written.
 - **Pipeline words stay out of learner text**: say "this course read the abstract only", not "the
   research file" or "the researcher".
+- **Montero and Lundby 2017 is full text now, and it is 78 untrained young men, 18 to 35, in
+  self-chosen groups with no untrained comparison group** (SOURCES R3.6b, corrected at lesson 3's
+  review). Its abstract says "healthy adults". Any lesson citing it (lesson 4's non-responder
+  passage, lesson 9 on training across a life) should say "young men", and shouldn't use it for
+  women, older adults or patients: the authors' own limitation says so.
+- **The statisticians' comparator test cuts both ways.** Atkinson and Batterham's point applies to
+  the dose studies' individual counts as much as to HERITAGE. A lesson that uses it against one side
+  should say so of the other. No reply from the HERITAGE investigators has been read.
+- **Weston 2014's authors call HIIT "well tolerated and safe"** on limited data, with a screening
+  and supervision condition and a concern about all-out sprints in clinical populations (R3.4b, now
+  quoted). Report their reading beside the data; don't repeat "safe" as established.
+- **Storoschuk 2025 declares that Gibala advises and holds equity in a company whose services partly
+  relate to exercise** (R3.7c). State it once where the review is used, without insinuation.
+- **Lesson 3 teaches lactate briefly** (Brooks, R3.10b: not a waste product; the lactate threshold
+  as a blood-sample point paired with the ventilatory threshold) and leaves soreness and the acidosis
+  dispute to lesson 8.

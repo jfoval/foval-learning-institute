@@ -732,6 +732,20 @@ moderate level physical activity almost every day", n=780), MICT at about 70% of
 for five years. Primary outcome: all-cause mortality. "An exploratory hypothesis was that HIIT
 lowers mortality more than MICT."
 
+**What the training arms did, and who was excluded (added 2026-09-24 from the primary, Methods,
+at lesson 1's Stage 4 review, F17 and F24).** The training arms "were asked to exchange two of the
+five 30 minute moderate intensity physical activity sessions each week (as recommended by Norwegian
+health authorities) with two HIIT sessions" or two MICT sessions. "Every sixth week both groups met
+separately for supervised spinning sessions (ergometer cycling) with an exercise physiologist", and
+"Supervised training with exercise physiologists present was also offered twice" a week: offered,
+not required. Exclusion criteria "before and during the study were uncontrolled hypertension
+(untreated systolic blood pressure >220 mm Hg, or diastolic blood pressure >110 mm Hg); symptomatic
+valvular disease; hypertrophic cardiomyopathy; unstable angina pectoris; primary pulmonary
+hypertension; heart failure; severe arrhythmia; diagnosed dementia; cancer that made participation
+impossible; chronic communicable infectious diseases, illness, or disabilities that precluded
+exercise; or participation in other exercise trials." So the harms sentence below applies to
+screened volunteers.
+
 **Power assumption versus reality.** "With an expected 10% mortality rate after five years, we
 determined that 600 participants would be needed in the combined MICT and HIIT group and control
 group to detect a 50% reduction in mortality (from 10% to 5%)". Observed: "The observed mortality
@@ -742,7 +756,10 @@ or high physical activity levels".
 
 **Results.** "All cause mortality did not differ between the control group and combined MICT and
 HIIT group." HIIT versus control "hazard ratio 0.63, 95% confidence interval 0.33 to 1.20"; MICT
-versus control "(1.24, 0.73 to 2.10)"; HIIT versus MICT "(0.51, 0.25 to 1.02)". Peak oxygen uptake
+versus control "(1.24, 0.73 to 2.10)"; HIIT versus MICT "(0.51, 0.25 to 1.02)". Table 3, the
+primary comparison, combined MICT+HIIT against control: unadjusted "0.94 (0.59 to 1.41)", adjusted
+"0.92 (0.58 to 1.47)". Table 3 also gives HIIT against MICT unadjusted "0.49 (0.25 to 0.99)" (the
+0.51 above is the adjusted figure, the one the abstract reports). Peak oxygen uptake
 at five years was "0.3 mL/kg/min (P=0.17) higher in the combined MICT and HIIT group compared with
 the control group", and no group showed the expected age decline: "We observed no decline in peak
 oxygen uptake in any group".
@@ -814,7 +831,12 @@ twin pairs showed that the mortality HR for persistent vs. non-persistent vigoro
 (0.48–1.07)." DZ pairs "HR = 0.58, 95% CI: 0.39–0.88"; **MZ pairs "HR = 1.00, 95% CI: 0.52–1.94"**,
 34 pairs. The authors note: "The heritability of physical activity (see below) contributed to the
 statistical power of the analysis among MZ pairs." Heritability of leisure activity estimated at
-"53% (95% CI: 46–59%)". A secondary analysis with more pairs gave MZ "0.85 [0.56–1.30]".
+"53% (95% CI: 46–59%)". A secondary analysis with more pairs gave MZ "0.85 [0.56–1.30]". From the
+primary (added 2026-09-24, lesson 1's Stage 4 review, F9): that analysis used pairs discordant in
+1975 and 1981 only ("shorter PA discordance at baseline"), "778 DZ and 231 MZ vigorous activity
+discordant twin pairs", with 55 deaths among the MZ pairs; the 0.85 is "Unadjusted pairwise HR".
+"When this secondary analysis was repeated in the baseline-healthy subgroup the HRs were 0.64
+(0.45–0.89) for DZ pairs and 1.05 (0.58–1.88) for MZ pairs, respectively."
 
 Their framing, verbatim: "Despite suggestive evidence from population-based associations,
 scientists have not been able to show a beneficial effect of physical activity on the risk of death
@@ -824,8 +846,19 @@ high baseline physical activity and later reduced mortality in humans." And, kee
 side: "It is to note that randomized controlled trials show that vigorous physical activity has
 other health benefits such as improvement of both self-reported and objectively reported physical
 functioning and reduction of depression". The paper also reports a rat experiment in which
-voluntary wheel running shortened lifespan in female rats of both bred strains; a lesson should not
-generalise that to humans and the authors do not ask it to.
+voluntary wheel running shortened lifespan in female rats of both bred strains. **Corrected
+2026-09-24 (lesson 1's Stage 4 review, F2): this entry used to say the authors "do not ask" for the
+rat result to be carried to humans. They do.** Abstract: "Based on both our animal and human
+findings, we propose that genetic pleiotropy might partly explain the frequently observed
+associations between high baseline physical activity and later reduced mortality in humans", and
+"Here, in both animals and/or human twins, we show that the same genetic factors influence physical
+activity levels, cardiorespiratory fitness, and risk of death." They say their "controlled
+interventional study with laboratory rats bred for low and high intrinsic fitness contrast[s]" with
+the human cohorts. The introduction adds: "Based on past studies on elite athletes and twins, we
+previously suggested that genetic pleiotropy may explain at least some of the observed association".
+So the sceptical case rests on rats, twins and earlier athlete studies, not on the 34 MZ pairs alone.
+A lesson may decline to carry a rat result to humans on its own account, but must say the authors
+use it.
 
 **Caveats.** 34 MZ pairs is small; an HR of 1.00 with an interval of 0.52 to 1.94 is compatible
 with a large benefit or none. Absence of evidence in a small sample, not evidence of absence.
@@ -865,7 +898,15 @@ vigorous intensity physical activity may extend lifespan, while the role of leis
 time is less clear." The instruments explained little of the exposure ("0.45%" of variance for
 MVPA). The authors cite an earlier MR as "underpowered" (odds ratio for reaching the 90th survival
 percentile "1.89, 95% CI 0.53 to 6.70"). **Caveats:** a single, recent study; wide intervals;
-parental lifespan as proxy; MR assumptions (no pleiotropy) cannot be fully verified. The abstract
+parental lifespan as proxy; MR assumptions (no pleiotropy) cannot be fully verified. **Added
+2026-09-24 (lesson 1's Stage 4 review, F3), from the methods and results: the authors tested for
+pleiotropy rather than assuming it away.** "We used sensitivity analysis to assess horizontal
+pleiotropy (exclusion restriction)" (weighted median, MR-Egger, MR-PRESSO, and multivariable MR
+adjusting for education and lifestyle factors). "The p-value for the MR-Egger intercept did not show
+violations of the exclusion restriction assumption". Against that: "MR-Egger estimates differed from
+the IVW estimates; MR-Egger is sensitive to random measurement error and weak instrument bias, given
+the I 2 GX was low, indicating lack of the instrument strength for MR-Egger." These checks cannot
+rule pleiotropy out. The abstract
 "Objectives" paragraph in the saved PMC text contains a garbled insertion ("confirmAuthors’
 contributions the value"), so that sentence is not quoted.
 
@@ -1141,11 +1182,24 @@ RT for at least 6 weeks (range 6 to 52 weeks), at least 12 sessions. Reviews sco
 possible 11 on AMSTAR.
 
 **Who the evidence is about.** "In most cases, reviews examined people with minimal or no RT
-experience (i.e., novice); however, some reviews included more advanced trainees." And: "much of the
-evidence synthesized here is from inexperienced trainees." Strength, "Unless otherwise specified,
+experience (i.e., novice); however, some reviews included more advanced trainees." And, in full:
+"Previously, we showed that training experience had a minimal impact on strength and hypertrophy
+outcomes ( 17 ); nonetheless, much of the evidence synthesized here is from inexperienced trainees."
+(2026-09-24, lesson 4's review, F2: the first clause was missing here, so the lesson quoted only the
+half that suits a narrow-literature argument. Checked against the Europe PMC full text.) Strength, "Unless otherwise specified,
 strength was voluntary isotonic one-repetition maximum (1RM) in the same mode as that in which the
 training was performed." Ages were not separated: "our recommendations are evidence-based across all
 ages."
+
+**On specificity and carryover (added 2026-09-24, lesson 4's review, F1; checked against the full
+text).** "Some adaptations can be affected by modifying RTx variables, although there is a
+considerable carryover of training effects on general muscular performance in various domains in
+nonadvanced trainees ( 17 , 24 )." This is the stand's own counterweight to R2.5: a lesson that
+stresses specificity should carry it.
+
+**Forms of training (Table 6, added 2026-09-24, lesson 4's review, F14).** "Strength is improved by
+RT, including circuit RT, elastic band RT, home-based RT, and velocity-based RT." That is each form
+against no exercise, not against each other.
 
 **Headline findings, verbatim from the abstract.**
 - "Compared with no exercise (control), RT significantly improved muscle strength, size
@@ -1317,9 +1371,13 @@ activation, cross-education, and "increased muscle force generating capacity fol
 imagined contractions". Motor-unit recordings show that after training "increased force production
 following resistance training is accompanied by decreased motor unit recruitment threshold and
 increased discharge rate". But where in the nervous system it happens is unknown: "the precise site
-of putative neural adaptations remains unclear." And a caution on the evidence base: most mechanistic
-studies used "single-joint/single-muscle isometric contractions" and "simplified models of resistance
-exercise".
+of putative neural adaptations remains unclear." And a caution on the evidence base, with its scope
+(corrected 2026-09-24, lesson 4's review, F11, against the full text): the review says it "will be
+largely concentrated on studies employing single-joint/single-muscle isometric contractions during
+assessments" (a scoping choice for the review), and that "the majority of mechanistic studies
+reviewed in this article rely on simplified models of resistance exercise". Its "(< 2–4 weeks)"
+sentence cites Moritani and deVries 1979 among its references, so the two timings below are not fully
+independent.
 
 **Classification.** Established: early gains outpace muscle growth, and part of the gain is neural.
 Contested: exactly how many weeks, and the site of the change. Note the two sources give different
@@ -1346,7 +1404,10 @@ why the first month's gains will not continue at that pace.
 
 **Spitz et al. 2023.** Twelve studies with a time-matched non-exercise control, healthy adults,
 isotonic training, with strength then tested both in the trained movement and on a different
-isometric or isokinetic device. "The overall effect of resistance training on changes in strength
+isometric or isokinetic device. Inclusion criterion 7 (added 2026-09-24, lesson 4's review, F1,
+against the PubMed abstract): "the non-specific strength task had to test a muscle involved in the
+training (i.e., could not have trained chest press and test handgrip strength)". So the 0.8 is the
+trained muscle on an unfamiliar device, not strength in general. "The overall effect of resistance training on changes in strength
 within a movement that was not directly trained was 0.8 (Cohen's d)" (95% CI 0.22 to 1.4), against
 "The overall effect of resistance training on strength changes within a movement that was directly
 trained was 1.84 (Cohen's d)" (95% CI 1.23 to 2.4). Conclusion: "strength increases in both the
@@ -1670,8 +1731,11 @@ progressive training of the non-dominant elbow flexors; biceps size by MRI. "Siz
 changes ranged from -32 to +149% (-15.9 to +52.6 kg)." (The unit prints as "cm" in the PubMed text; a
 cross-sectional area is in square centimetres.) "Men and women exhibit wide ranges of response to
 resistance training, with some subjects showing little to no gain, and others showing profound
-changes, increasing size by over 10 cm and doubling their strength." Sex: "relative increases in
-strength measures were greater in women versus men (P < 0.05)".
+changes, increasing size by over 10 cm and doubling their strength." Sex: "Men experienced 2.5% greater gains
+for CSA (P < 0.01) compared with women. Despite greater absolute gains in men, relative increases in
+strength measures were greater in women versus men (P < 0.05)." (Corrected 2026-09-24, lesson 4's
+review, F4, against the PubMed abstract: the entry had quoted from "relative increases" on, dropping
+the absolute-gains clause.)
 
 **Ahtiainen 2016.** 287 untrained adults aged 19 to 78 plus 72 controls, pooled. Size change "4.8 ±
 6.1 % (range from -11 to 30 %)", strength "21.1 ± 11.5 % (range from -8 to 60 %)". "Age and sex did
@@ -1819,7 +1883,7 @@ assembled from the meta-analyses' own descriptions (each checked above):
 | Source | Participants | Duration |
 |---|---|---|
 | Pelland 2026 (67 studies) | 79.1% male; mean age 25.16 | 10.42 ± 4.48 weeks (preprint) |
-| Lopez 2021 (28 studies) | mean age 23.4; 67.9% of studies men only; 75% untrained | not extracted |
+| Lopez 2021 (28 studies) | mean age 23.4; "Most of the studies involved men (19 of 28, or 67.9%" (not "men only", corrected 2026-09-24); 75% untrained | not extracted |
 | Grgic 2022 failure (15 studies) | "All participants in the studies were young adults" | median 8 weeks (6 to 14) |
 | Haugen 2023 (13 studies) | 789 men, 219 women | 8.9 ± 1.9 weeks |
 | Currier 2023 (178 studies) | 45% women (strength network) | 6 weeks minimum |
@@ -1921,11 +1985,16 @@ it.
   to exercise-induced changes in muscle strength. *Sports Med* 2019;49(7):987-991.
   doi:10.1007/s40279-019-01106-9. **Not opened** (no abstract indexed; Springer blocked).
 - Loenneke JP, Dankel SJ, Bell ZW, Buckner SL, Mattocks KT, Jessee MB, Abe T. Is muscle growth a mechanism for increasing
-  strength? *Med Hypotheses* 2019;125:51-56. **Abstract only.**
+  strength? *Med Hypotheses* 2019;125:51-56. doi:10.1016/j.mehy.2019.02.030. PMID 30902152.
+  **Abstract only.**
 
 **The sceptical side (the Loenneke group, from the Loenneke et al. 2019 *Medical Hypotheses* abstract, a proponent source).**
 "at present, there is no experimental evidence that would support any paradigm in which muscle
-hypertrophy is a mechanism for increasing strength with exercise." "We are not dismissing the
+hypertrophy is a mechanism for increasing strength with exercise." Their reason, from the same
+abstract (added 2026-09-24, lesson 4's review, F3, against PubMed): "Herein, we suggest that there are
+dissociations between changes in muscle size and strength following exercise, anabolic drug
+administration, and aging (to a point). These dissociations occur throughout the literature,
+suggesting that these changes may be completely separate phenomena." "We are not dismissing the
 potential importance of maintaining muscle mass, particularly in clinical populations. What we are
 suggesting, however, is that muscle function may not necessarily be improved by these exercise or
 pharmacological induced increases in muscle size."
@@ -1936,7 +2005,11 @@ question of “Does hypertrophy contribute to strength gain?” less interesting
 under what circumstances does hypertrophy contribute to strength gain?”" Conclusion: "we conclude
 that in the long-term muscular hypertrophy contributes to strength." And the methodological point that
 connects to R2.16: "short-term studies utilizing untrained subjects may not fully capture the
-influence of hypertrophy on strength."
+influence of hypertrophy on strength." Their concession (added 2026-09-24, lesson 4's review, F3,
+against the author PDF): "We concede that strength can increase without increases in muscle size
+(not necessary) [12], and that an increase in muscle size may not be accompanied by an increase in
+strength (not sufficient)". The paper replies to the Loenneke group's *Sports Medicine* paper in its
+section 7, "Reply to Loenneke et al.", not to the *Medical Hypotheses* abstract.
 
 **Classification.** Contested among researchers. Nobody in either camp denies that bigger muscles and
 stronger people tend to go together; the dispute is about causation within training, and it is sharpened
@@ -2510,7 +2583,9 @@ past those, so those papers are abstract-only here and the entries say so.*
 - **How groups were formed, verbatim:** "All individuals underwent a first period of supervised training for 6 weeks consisting of 60 min sessions of cycle ergometer exercise. Individuals could chose to participate in five groups differing in the number of exercise sessions per week."
   So the groups were self-selected, not randomised.
 - **The non-response rule, verbatim:** "Any percentage change in W max not beyond ±1 × %TE was considered a non‐response."
-  (%TE is the typical error, ±3.96% for maximal power.)
+  (%TE is the typical error, ±3.96% for maximal power.) Baseline was tested twice: "The average of duplicate W max assessments was considered the baseline W max for each individual."
+  The Methods describe no duplicate test after training, so each person's change is read from one
+  post-training test against a two-test baseline.
 - **Group sizes, verbatim (Figure 1 legend):** "Non‐response was 69% (11 of 16), 40% (6 of 15), 29% (4 of 14), 0% (0 out of 17) and 0% (0 out of 16) for groups 1, 2, 3, 4 and 5, respectively."
 - **Limitations, verbatim:** "Findings were obtained from a sample of healthy young males. Further research will elucidate whether current conclusions can be extrapolated to populations including females, older individuals and/or cardio‐metabolic patients."
   And VO2max, unlike maximal power, was tested only once at baseline, so no typical error was
@@ -2551,6 +2626,7 @@ past those, so those papers are abstract-only here and the entries say so.*
   metabolic syndrome (55.2).
 - **Key finding, verbatim:** "Blood lactate accumulation is negatively correlated with FATox and positively correlated with CHOox during exercise across populations with widely ranging metabolic capabilities."
   Their proposal, that blood lactate and fat-oxidation measurements during exercise "provide an indirect method to assess metabolic flexibility and oxidative capacity across individuals of widely different metabolic capabilities" (abstract wording).
+  Their definition, verbatim: "Metabolic flexibility reflects the ability to oxidize fats and CHOs" (CHOs are carbohydrates; the two-column layout splits the sentence there). *(Added 2026-09-24 at lesson 3's Stage 4 review, from `sanmillan2018.txt`, so the lesson's gloss of the term has a source.)*
   Limitation: the authors write that their limitations "mainly reside in the indirect" nature of the assessment (the PDF's two-column layout splits the rest of the sentence, so I quote only this much).
 - **Important:** the phrase zone 2 **does not appear in this paper** (grep found no instance of "zone"). It is
   the physiology that popular zone-2 advocacy draws on, not a trial of zone-2 training. I read no
@@ -4540,11 +4616,17 @@ watch page (length, publish date). Output: `raw/r5/yt_check1.txt`, `yt_check2.tx
 Metadata from the Commons API `imageinfo`/`extmetadata`, which reproduces the file page's information
 template (`raw/r5/commons_meta.json`). The direct URLs are given without the API's tracking query.
 
-1. **Structure of skeletal muscle (muscle, fascicle, fibre, myofibril).**
+1. **"Structure of skeletal muscle" (Commons title), which is in fact a single sarcomere.**
    File page: https://commons.wikimedia.org/wiki/File:202107_Structure_of_skeletal_muscle.svg
    Direct: https://upload.wikimedia.org/wikipedia/commons/5/54/202107_Structure_of_skeletal_muscle.svg
    Author: DataBase Center for Life Science (DBCLS). Source: https://doi.org/10.7875/togopic.2021.083
-   Licence: CC BY 4.0. Dated 2021-07-01. Simple, modern, colour; best choice for a first muscle lesson.
+   Licence: CC BY 4.0. Dated 2021-07-01.
+   **Corrected 2026-09-24 (lesson 4's review, P1), after downloading the file and Commons' 960 px
+   render:** the drawing shows one sarcomere (two Z discs, an M line, myosin and actin filaments, and
+   two call-outs of a myosin molecule and an actin strand). Its only labels are "Z", "M", "Z". It has
+   no whole muscle, fascicle, fibre or myofibril, which this entry had claimed from the title alone.
+   The file is also 28.7 MB (28,728,277 bytes), too heavy to hotlink. **Do not use it for muscle
+   structure**; for that, use item 3. It could illustrate a sarcomere, with a thumbnail URL.
 2. **Skeletal muscle fibre (Blausen).**
    File page: https://commons.wikimedia.org/wiki/File:Blausen_0801_SkeletalMuscle.png
    Direct: https://upload.wikimedia.org/wikipedia/commons/6/6f/Blausen_0801_SkeletalMuscle.png
@@ -4555,7 +4637,10 @@ template (`raw/r5/commons_meta.json`). The direct URLs are given without the API
    File page: https://commons.wikimedia.org/wiki/File:Illu_muscle_structure.jpg
    Direct: https://upload.wikimedia.org/wikipedia/commons/8/89/Illu_muscle_structure.jpg
    Source: US National Cancer Institute SEER Training Modules (training.seer.cancer.gov). Licence: Public
-   domain. Small (520 x 286).
+   domain. Small (520 x 286). Opened 2026-09-24 (46 KB): titled "Structure of a Skeletal Muscle", its
+   labels are Bone, Tendon, Epimysium, Perimysium, Blood vessel, Muscle fiber, Fascicle, Endomysium.
+   Commons description: "Numerous skeletal muscle fibers bundle together to form muscle fascicles."
+   Used in lesson 4.
 4. **Sarcomere diagram.**
    File page: https://commons.wikimedia.org/wiki/File:Sarcomere_diagram.svg
    Direct: https://upload.wikimedia.org/wikipedia/commons/4/4c/Sarcomere_diagram.svg

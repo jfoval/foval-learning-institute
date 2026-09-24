@@ -43,9 +43,12 @@ and fit one lesson; the special populations are safety pointers with conditions,
 course, and fit one.
 
 **Lesson length.** Most should land between about 50 and 80 measured minutes. Lesson 7 carries
-the most material and may run to about 90. **A lesson whose exercise is a real walk or a real
-session counts that time**, which is why lessons 2 and 3 measure past 100 minutes while reading in
-about an hour; that is earned, not padding, and the reviewer checks it.
+the most material and may run to about 90. **Measured minutes include the exercises and the
+Sources list**, so a lesson can measure past 100 while its prose reads in about an hour. Lessons 1
+to 3 and 5 measured 100 to 125 after Stage 4; each reviewer judged the length earned (lesson 2 by a
+real walk, lesson 3 by two desk exercises of 36 minutes and a 33-note Sources list) and named the
+padding, which the fixes cut. Lesson 3 at 125 is the longest; its seam, if a later review wants a
+split, is between how endurance adapts and starting to walk or run.
 
 ## What is deliberately left out, and said so in lesson 1
 
@@ -217,8 +220,9 @@ minute; "per cent" in bodies and quizzes alike (Sleep's course-wide review found
 ### 4. How strength adapts (~70 min) and 5. What the variables do (~70 min)
 
 Drafted as one lesson and split at the seam named above: lesson 4 takes the objectives on neural
-adaptation, specificity and the course's question, with "starting is the big effect"; lesson 5 takes
-load, weekly sets, proximity to failure and frequency, individual variation, and the 2009 to 2026
+adaptation, specificity and the course's question, with "starting is the big effect" and individual
+variation; lesson 5 takes
+load, weekly sets, proximity to failure and frequency, and the 2009 to 2026
 change in ACSM's advice, and opens by recalling lesson 4's question in a sentence. The plan below is
 the joint one both halves were drafted from.
 
