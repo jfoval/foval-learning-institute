@@ -1,6 +1,7 @@
 ---
 title: What is proposed instead
 minutes: 90
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/learning-and-mind/habits-and-self-discipline/06-what-is-proposed-instead.mp3
 objectives:
   - >-
     State what the process account proposes, in its proponents' own terms, and name the two shifts it
