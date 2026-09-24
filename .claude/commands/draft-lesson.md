@@ -170,6 +170,25 @@ Confirmed across seventeen lessons in two courses, then again in every course si
     that prevents it is simple: **a passage goes inside quotation marks only if you copied it out
     of `SOURCES.md`.** Your own summary of a source, however faithful, is your sentence.
 
+26. **A research file held at summary level carries the trims, and the lesson inherits them.**
+    Measured on 2026-09-23 across Sleep lessons 4 to 8. Five times in one day a Stage 4 reviewer was
+    handed the primary text (a preprint, a guideline's full text, an institute's announcement, two
+    free web pages) and found the lesson's defect already sitting in `SOURCES.md`: a moderator
+    pattern that was wrong, a first author's name that was wrong, two sleep-hygiene quotations cut
+    before their qualifiers, a mechanisms caveat quoted without the half of the sentence before it,
+    a critic's post framed as a reply to him. **Every one read as scrupulous research**, because the
+    research file is where the drafter looks to check itself. **So when a source the lesson rests on
+    is at abstract, summary or search level and the primary is free, open it before drafting, write
+    it into `SOURCES.md` first, and hand the reviewer the primary text as well.** It cost minutes each
+    time and changed a lesson each time. And when the drafter corrects one error it tends to
+    over-correct in the opposite direction: having fixed a wrong moderator pattern, the same draft
+    then leaned against the authors' own reading.
+
+    **Defect 15 has reversed for this drafter.** The same four drafts came in at 16 to 21
+    contractions per 1,000 body words against a band of 5 to 8, and the fix pass (expanding "it's"
+    and "that's" outside quotation marks) is mechanical but leaves stiff sentences. Write the draft
+    at the band, not above it.
+
 ## Two mechanical traps
 
 - **Blocks need blank lines inside them.** `:::predict`, `:::checkpoint`, `:::callout` and `:::exercise` bodies parse with `breaks: false`, so single newlines render as one run-on paragraph; six blocks once shipped as 160 to 290-word walls. `:::figure` and `:::video` are the opposite: they use `parseInline` and must stay one paragraph. **Never put a blank line inside an `<svg>`**, which truncates the chart (the build now fails on it).
