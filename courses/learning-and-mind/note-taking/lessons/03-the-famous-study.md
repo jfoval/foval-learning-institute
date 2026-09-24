@@ -1,6 +1,7 @@
 ---
 title: The famous study, and how to hold it
 minutes: 80
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/learning-and-mind/note-taking/03-the-famous-study.mp3
 objectives:
   - >-
     State what Mueller and Oppenheimer's three studies reported and what mechanism they proposed
