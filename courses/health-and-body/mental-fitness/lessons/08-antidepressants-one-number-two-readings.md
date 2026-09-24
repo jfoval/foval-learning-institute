@@ -1,6 +1,7 @@
 ---
 title: "Antidepressants: one number, two readings, and a hypothesis"
 minutes: 115
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/health-and-body/mental-fitness/08-antidepressants-one-number-two-readings.mp3
 objectives:
   - >-
     State the drug-placebo difference that Kirsch's and Cipriani's reviews report, and what each paper
