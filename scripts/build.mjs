@@ -1085,6 +1085,7 @@ const REPETITION_EXEMPT = [
   "this course is education not a certificate and not medical advice about anyone s own situation",
   "in an emergency call your local emergency number first 911 in the us 999 or 112 in the uk 112 across the eu",
   "it can t teach your hands how hard to push or how a back blow should feel",
+  "each instruction here names the guideline and year it comes from and guidance changes",
   "food poisoning is more dangerous for anyone who is pregnant aged 65 or over a young child",
   "if you re cooking for someone in one of these groups cook burgers and other mince all the",
   "if they are pregnant 65 or over or have a weakened immune system check your country s list",
