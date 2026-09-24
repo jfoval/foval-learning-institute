@@ -314,34 +314,153 @@ remembering. Four instruments, four different things measured, one word.
 
 ## 7. Sleep and memory, which is where this course meets its prerequisite
 
-**Manuel Berres and Edgar Erdfelder, "The sleep benefit in episodic memory: An integrative review and
-a meta-analysis", *Psychological Bulletin* 147(12), 2021, pp. 1309 to 1353.** **Not read.
-Search-summary level only**, and the abstract could not be reached on 2026-09-19 through the journal,
-PubMed or Semantic Scholar. **A lesson using anything below must say it reaches the course through a
-search summary rather than through the paper**, in the form Memory lesson 4 used for its own
-one-remove figures.
+**Sabrina Berres and Edgar Erdfelder, "The sleep benefit in episodic memory: An integrative review
+and a meta-analysis", *Psychological Bulletin* 147(12), 2021, pp. 1309 to 1353.**
+doi:10.1037/bul0000350. **Read level, raised on 2026-09-23: the authors' accepted manuscript, free
+on PsyArXiv (osf.io/r2an6), read in these parts: the abstract, the public significance statement,
+the definitions of the seven sleep study designs in the Method, the Results paragraphs on sleep
+study design and on selective reporting, the Discussion paragraphs on the overall size and on study
+design, the Limitations paragraph on unpublished data, the Conclusion, and the sleep-study-design
+rows of Tables 1 and 2.** Not read: the integrative review of theories that makes up most of the
+paper's first half, the other sixteen moderators beyond the four the abstract names, and the
+supplement. The manuscript carries the publisher's notice that it "is not the copy of record and may
+not exactly replicate the final, authoritative version of the article", which a lesson quoting it
+should repeat once.
 
-At that level, established:
+**Two corrections to the entry this replaces, which was written from a search summary with the
+abstract unreachable.** The first author's first name is **Sabrina**, not Manuel. And the summary's
+moderator pattern was wrong: it said the benefit was largest in day-wake against night-sleep designs
+and smaller in naps. **The paper's own ordering puts nighttime naps level with the natural design at
+the top**, and says so in its abstract. The summary's line that effect sizes "had been overestimated
+in earlier work" is also not what the paper says; see the selective-reporting passage below, which is
+about this meta-analysis's own estimate.
 
-- The meta-analysis pooled **823 effect sizes from 271 independent samples in 177 articles published
-  between 1967 and 2019**, with multilevel meta-regression and robust variance estimation.
-- **An overall sleep benefit in episodic memory of about g = 0.44.**
-- The benefit was **largest in day-wake against night-sleep designs, smaller in nap designs, smaller
-  again in total sleep deprivation designs without recovery nights, and not significant in total
-  sleep deprivation designs with recovery nights.**
-- The authors report that effect sizes in this literature **had been overestimated** in earlier work.
+The abstract, verbatim:
 
-**That moderator pattern is the finding, not the 0.44**, and it is a gift to a course that has
-already taught the instrument question. The designs that produce the biggest sleep benefit are the
-ones that confound sleep with time of day, because a group that learns in the morning and is tested
-in the evening is being compared with a group that learns in the evening and is tested in the
-morning. **The design that removes that confound is the one that finds nothing.** Whether that is
-the right reading is a judgement this course should mark as its own.
+> "People recall more information after sleep than after an equally long period of wakefulness.
+> This sleep benefit in episodic memory has been documented in almost a century of research."
+
+> "Here, we address these issues by analyzing 823 effect sizes from 271 independent samples that
+> were reported in 177 articles published between 1967 and 2019. Using multilevel meta-regressions
+> with robust variance estimates, we found a moderate overall sleep benefit in episodic memory (g =
+> 0.44). Moderator analyses revealed four important findings: First, the sleep benefit is larger when
+> stimuli are studied multiple times instead of just once. Second, for word materials, the effect size
+> depends on the retrieval procedure: It is largest in free recall, followed by cued recall and
+> recognition tasks. Third, the sleep benefit is stronger in pre-post difference measures of retention
+> than in delayed memory tests. Fourth, sleep benefits are larger for natural sleep and nighttime naps
+> than for alternative sleep-study designs (e.g., SWS-deprived sleep, daytime naps). Although there
+> was no obvious evidence for selective reporting, it is a potential threat to the validity of the
+> results. When accounting for selective reporting bias, the overall effect of sleep on episodic
+> memory is reduced but still significant (g = 0.28)."
+
+The authors are at the Department of Psychology, University of Mannheim (the manuscript's title
+page). The material studied, from the Introduction's section on stimulus material: "(a) verbal
+material such as single words, word pairs, or prose passages; (b) nonverbal material such as
+pictures, colors, locations, sounds, or odors; and (c) various combinations of verbal and nonverbal
+materials."
+
+The paper's definition of what it is about: "Episodic memory is the memory for events, experiences
+or information and their respective context (e.g., location, time; Tulving, 2002)."
+
+**The design definitions, verbatim, which a lesson needs to reason about time of day:**
+
+> "Natural sleep and wakefulness: Participants in the sleep condition learn the material in the
+> evening and are tested after a night of sleep in the morning. Conversely, participants in the
+> wake condition learn the material in the morning and are tested after a day of wakefulness in
+> the evening."
+
+> "Daytime nap: Participants in the sleep condition nap during the day (i.e., before 7 p.m.),
+> whereas participants in the wake condition stay awake throughout this time."
+
+> "Total sleep deprivation with recovery night: Participants in the sleep condition sleep normally,
+> whereas participants in the wake condition stay awake in the first or second night after
+> learning. Memory testing for sleep and wake conditions takes place after one or more recovery
+> nights."
+
+Nighttime nap is "Like “daytime nap” with the exception that participants in the sleep condition nap
+during the night (i.e., after 7 p.m.)"; total sleep deprivation without recovery night is the same
+as with, "with the exception that memory testing for sleep and wake conditions takes place directly
+after sleep deprivation". SWS and REM deprivation are the two stage-selective designs, which this
+course does not need.
+
+The paper names the confound itself, in the Introduction's list of moderators: "All sleep study
+designs differ with regard to various features such as the time at which participants sleep versus
+stay awake, the length of the retention interval, TST, and the amount of SWS as well as REM sleep."
+**It does not analyse time of day as a variable.**
+
+**The design results, verbatim:** "With the exception of total sleep deprivation with recovery
+night, g = 0.14, t(11.35) = 1.14, p = .278, all sleep study designs showed a significant sleep
+benefit in episodic memory. The largest sleep benefit occurred for nighttime naps, g = 0.54,
+t(10.18) = 2.61, p = .025, and natural sleep and wakefulness, g = 0.54, t(115.89) = 14.28, p < .001,
+followed by REM sleep deprivation, g = 0.43, t(11.87) = 6.45, p < .001, daytime naps, g = 0.34,
+t(37.64) = 6.01, p < .001, SWS deprivation, g = 0.31, t(12.04) = 2.33, p = .038, and finally total
+sleep deprivation without recovery night, g = 0.30, t(15.00) = 3.25, p = .005". And: "To conclude,
+our findings urge caution in generalizing results across different sleep study designs."
+
+**Table 2's rows for the four designs a lesson will use** (k effect sizes, m samples, g, 95% CI),
+transcribed from the manuscript:
+
+| Design | k | m | g | 95% CI |
+|---|---|---|---|---|
+| Natural sleep and wakefulness | 365 | 138 | .54 | [.46, .61] |
+| Daytime nap | 181 | 60 | .34 | [.22, .45] |
+| Nighttime nap | 44 | 10 | .54 | [.08, 1.01] |
+| TSD with recovery night | 85 | 23 | .14 | [-.13, .42] |
+| TSD without recovery night | 36 | 17 | .30 | [.10, .49] |
+
+The design analysis ran on 777 effect sizes from 254 samples, not the full 823 and 271.
+
+**The authors' own reading of the design pattern**, from the Discussion: "nighttime naps, natural
+sleep and wakefulness, and REM sleep deprivation constantly showed the largest sleep benefits
+compared to other sleep study designs. This pattern fits well to the assumption that SWS is
+important for the sleep benefit." They add that "it might not be SWS duration per se" and close:
+"In any case, researchers should avoid unsubstantiated generalization of findings across various
+sleep study designs."
+
+**Selective reporting, verbatim:** "After correcting for potential funnel plot asymmetry using a
+modified variant of Egger’s linear regression (Pustejovsky & Rodgers, 2019; Rodgers & Pustejovsky,
+2020), the overall sleep benefit estimate was in fact only about half as large but still
+statistically significant in the main data set, g = 0.28". And: "In a nutshell, although the overall
+effect of sleep on episodic memory may have been overestimated in the present meta-analysis due to
+publication bias or other forms of selective reporting, we did not find strong evidence for selective
+reporting that would compromise the validity of our results."
+
+**The comparison the authors draw, which ties straight to this course's prerequisites**: "typical
+well-established memory effects documented in the literature are not much larger, and may be even
+smaller, for example the testing effect (g = 0.50, 95% CI [0.42, 0.58], p < .001, k = 159; Rowland,
+2014), the retrieval-induced forgetting effect (g = 0.35, 95% CI [0.32, 0.38], p < .010, k = 512;
+Murayama et al., 2014)". Rowland and Murayama are named here as the authors' citations; this course
+has not read either.
+
+**The conclusion, verbatim:** "our meta-analysis provides convincing evidence that sleep compared to
+wakefulness following learning improves both storage in and retrieval from episodic memory
+significantly."
+
+**What the reading changes for Stage 2.** The outline's lesson 5 was built on the summary's pattern:
+that the designs confounding sleep with time of day produce the biggest benefit and the design that
+removes the confound finds nothing. **The paper does not support the second half.** On the paper's own definitions, **only the natural
+design separates the groups by time of day**: its sleepers learn in the evening and are tested in the
+morning, its wakers the reverse. In both nap designs the wake group "stay awake throughout this
+time", so both groups are learning and being tested over the same stretch of the clock, and the same
+holds for both deprivation designs. (That reading of the definitions is this course's, and a lesson
+must say so.) **Those designs still find benefits**: the nighttime nap matches the natural design at
+0.54 on 10 samples, the daytime nap shows 0.34 over 60 samples with an interval well clear of zero.
+The one non-significant design, total sleep deprivation with recovery, rests on 23 samples and its
+interval runs from -0.13 to 0.42, which is a failure to find rather than a finding of nothing.
+
+**What a lesson may fairly say is narrower and better.** Time of day is a confound in one design and
+the literature contains its own check, which the confound does not survive as a full explanation.
+The deprivation designs carry a different rider, visible in the definitions: without a recovery
+night the wake group is tested straight after a night without sleep, so the comparison mixes what
+happened to the memory with the state of the person retrieving it; the recovery night removes that,
+and the benefit is no longer significant. That too is the course's reading and not the authors'. The
+authors read the design pattern through slow-wave sleep instead. **Both readings are available and
+this course cannot choose between them.**
 
 **This is also the boundary with Memory.** That course taught reconstruction, retrieval-induced
-forgetting and the sample question; this one should point at it rather than re-teach it, and should
-be careful not to imply that consolidation during sleep is settled when its own best pooled estimate
-depends this much on design.
+forgetting and the sample question; this one should point at it rather than re-teach it. The paper's
+own conclusion, storage and retrieval both, is the authors' theoretical account and the lesson
+reports it as theirs.
 
 ---
 
@@ -683,9 +802,10 @@ are not fully established. **This course has read neither the monograph nor any 
 studies**, so it may report the classification and its grades and nothing else.
 
 **How much does sleep do for memory?**
-*A moderate benefit, g ≈ 0.44 overall* (source 7, at search-summary level). *Much of it may be design*
-— the same meta-analysis reports the benefit shrinking to nothing in the design that controls time of
-day. **Unsettled, and the course should say so rather than pick.**
+*A moderate benefit, g = 0.44 overall, 0.28 after the authors' own correction for selective reporting*
+(source 7). *How much depends on design*: 0.54 in the natural night-against-day design, 0.34 in the
+daytime nap, which holds time of day constant, and not significant after total sleep deprivation with
+recovery nights. **Unsettled, and the course should say so rather than pick.**
 
 ## Best existing free resources (to link, not duplicate)
 
@@ -717,7 +837,7 @@ day. **Unsettled, and the course should say so rather than pick.**
 
 - **Two read levels in this file are thin and should be raised if a later session has the budget**:
   source 5 (the 2021 AASM behavioural guideline, publisher's summary only) and source 7 (Berres and
-  Erdfelder, search summary only, abstract unreachable on the day). **If a later session opens
+  Erdfelder, raised to the accepted manuscript in part on 2026-09-23). **If a later session opens
   either, it goes in this file first and a lesson second.**
 - **The unread line must gain an exemption for Walker** on whichever lesson covers source 8, before
   that lesson is drafted. See the note at the top of this file.

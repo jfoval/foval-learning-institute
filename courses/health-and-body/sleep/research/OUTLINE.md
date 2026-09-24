@@ -264,43 +264,62 @@ IARC's wording.
 
 ### 5. What sleep does for memory (~75 min)
 
+*Amended 2026-09-23, before drafting. The plan below was first written from a search summary that
+had the moderator pattern wrong. SOURCES §7 was raised to the accepted manuscript the same day and
+the lesson is now planned from that. The original plan's central claim, that the design removing the
+time-of-day confound finds nothing, is not what the paper shows, and the lesson must not make it.*
+
 **Objectives.**
-- State what the pooled sleep benefit in episodic memory is, and at what read level this course holds
-  it
-- Explain why the size of the benefit depends on which design produced it
+- State what the pooled sleep benefit in episodic memory is, before and after the authors' correction
+  for selective reporting, and what the effect size means in plain terms
+- Explain why the size of the benefit depends on which design produced it, using the time-of-day
+  confound as the worked case, and say what the daytime nap result does to that explanation
 - Say what this course adds to **Memory** and **How to Learn Anything** and what it leaves to them
 
-**Core ideas.** SOURCES §7, at search-summary level, which the lesson says in its first paragraph and
-again at every figure: 823 effect sizes, 271 independent samples, 177 articles from 1967 to 2019, an
-overall benefit of about g = 0.44, **and a moderator pattern that is the actual finding**. The
-benefit is largest in designs that compare a day awake with a night asleep, smaller for naps, smaller
-again for total sleep deprivation without recovery, and not significant for total sleep deprivation
-with recovery nights.
+**Core ideas.** SOURCES §7: 823 effect sizes, 271 samples, 177 articles from 1967 to 2019; g = 0.44
+overall, about half that (0.28) after the funnel-plot correction; the design table. **The lesson's
+spine is the design table read with the time-of-day question in hand**: the natural design compares a
+morning learner tested in the evening with an evening learner tested in the morning, so time of day
+rides along with sleep. On the paper's definitions every other design holds time of day constant
+between its groups, and the naps still show 0.54 and 0.34. The deprivation designs carry a different
+rider, tiredness at test, which the recovery night removes. The lesson ends where the evidence does: sleep helps, by an amount roughly the
+size of well-known memory effects the reader has already met, and how much depends on the design.
 
-**Mechanism to explain.** Why the day-wake against night-sleep design confounds sleep with time of
-day: one group learns in the morning and is tested in the evening, the other the reverse, so anything
-that varies across the day rides along with the sleep. **That reading is this course's own** and the
-lesson labels it as an inference rather than as the authors' statement.
+**Mechanism to explain.** What g is, in words a reader can hold: a difference between two groups
+measured in standard deviations, so 0.44 means the average sleeper beats about two thirds of the
+wake group (this is arithmetic on the normal curve and the lesson labels it as the course's
+conversion, not the authors' sentence). Then the confound, then what a confidence interval running
+through zero does and does not say, applied to the recovery-night design's 23 samples.
 
-**Worked examples.** (a) Simple: sort the four design types by how much of the confound each removes,
-and notice that the order matches the effect sizes. (b) With a wrinkle: a constructed study claiming
-that a nap "doubled" recall. What design was it, and which of the four does it belong to?
+**Worked examples.** (a) Simple: the natural design. Two groups, two clocks. Predict what else
+differs between them besides sleep. (b) With a wrinkle: the naps. They remove that difference;
+predict what the confound story says they should find, then read 0.54 and 0.34. The reader should reach, by
+themselves, the conclusion that time of day cannot be the whole story, and then meet the authors'
+alternative reading through slow-wave sleep.
 
-**Misconceptions.** "Sleep consolidates memory, that's settled." "Pull an all-nighter and you lose
-what you learned." (The design that tests exactly that, with recovery, is the one that found
-nothing.) "Naps are as good as a night."
+**Misconceptions.** "Sleep consolidates memory, that's settled." (The effect is well supported; the
+mechanism is argued, and the authors propose storage and retrieval both.) "Pull an all-nighter and
+you lose what you learned." (Tested after recovery sleep, the design found no significant benefit for
+the sleep group, on few samples with a wide interval: not a licence and not a verdict.) "Naps are as
+good as a night." (A nighttime nap matched the natural design on 10 samples; a daytime nap came in
+lower.) "A small g means it doesn't matter." (The testing effect is 0.50 on the authors' own
+comparison.)
 
-**Practice.** (1) Take one claim about sleep and learning and say which of the four designs would
-have to have produced it. (2) Write the one sentence about sleep and memory you would be willing to
-defend, with its read level attached.
+**Practice.** (1) Take one claim about sleep and learning and say which design would have to have
+produced it and what that design cannot rule out. (2) Write the one sentence about sleep and memory
+you would be willing to defend, with its figure and its design attached.
 
-**Sources.** §7 only, at search-summary level, stated repeatedly. The lesson prints **no figure from
-the paper's results** beyond the four the summary supports.
+**Sources.** §7 at its stated read level. The lesson says once that it read the accepted manuscript
+rather than the version of record. **No figure beyond what §7 transcribes.** Rowland and Murayama are
+the authors' citations and are not cited by the course.
 
-**Connects.** Back to **How to Learn Anything** lessons 3 and 4 and to **Memory** throughout; neither
-is re-taught. Forward to lesson 8.
+**Connects.** Back to **How to Learn Anything** and **Memory** (the testing effect and
+retrieval-induced forgetting, by name, not re-taught). Back to lesson 3's heterogeneity and
+publication bias, which this paper corrects for in the open. Forward to lesson 8.
 
-**Spaced review of:** lesson 1's read levels; lesson 3's association-and-cause distinction.
+**Spaced review of:** lesson 1's read levels; lesson 3's association-and-cause distinction (here the
+designs are experiments, which is why the question is about design and not about causation); lesson
+4's clock question, which the time-of-day confound is an instance of.
 
 ---
 

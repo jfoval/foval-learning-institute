@@ -277,10 +277,10 @@ one measured, on whom, and how far this course got into it.
 | The [mortality meta-analysis](https://doi.org/10.1093/sleep/33.5.585)[5] | All-cause mortality against self-reported sleep duration | 1,382,999 people in 27 cohort samples | Read in part, in fragments, from a proof copy |
 | The insomnia guideline[7] | Nothing. It is a college's recommendation about trials | Adults with chronic insomnia disorder | Read in part: both recommendations and two sections |
 | The chronotype paper[8] | A short questionnaire against the longer standard questionnaire it shortens | Participants in a validation study | Read in part: the abstract and the measure |
-| The sleep and memory meta-analysis[9] | Episodic memory after sleep against after waking | 823 effect sizes from 271 samples | **Not read. Search-summary level only** |
+| The sleep and memory meta-analysis[9] | Episodic memory after sleep against after waking | 823 effect sizes from 271 samples | **Read in part**, from the authors' accepted manuscript |
 
-Read the last column before you read anything else. **Three abstracts were read in full, four sources were
-read in part, and one reaches this course only through a search summary.** Six other sources are
+Read the last column before you read anything else. **Three abstracts were read in full and five sources
+were read in part.** Six other sources are
 named in the lessons that use them, each with its own level stated there, and this course opened the
 whole text of nothing at all.
 
@@ -421,6 +421,7 @@ all.
 8. Neda Ghotbi and colleagues, "The µMCTQ: An Ultra-Short Version of the Munich ChronoType
    Questionnaire", *Journal of Biological Rhythms* 35(1), 2020, pp. 98 to 110. **Read in part.**
    Named in the scope table only; lesson 4 uses it.
-9. Manuel Berres and Edgar Erdfelder, "The sleep benefit in episodic memory", *Psychological
-   Bulletin* 147(12), 2021, pp. 1309 to 1353. **Not read. Search-summary level only**, which lesson
-   5 says at every figure it takes from it.
+9. Sabrina Berres and Edgar Erdfelder, "The sleep benefit in episodic memory", *Psychological
+   Bulletin* 147(12), 2021, pp. 1309 to 1353. **Read in part**, from the authors' accepted
+   manuscript on PsyArXiv: the abstract, the design definitions and results, and the Discussion's
+   paragraphs on size and design. Lesson 5 uses it.
