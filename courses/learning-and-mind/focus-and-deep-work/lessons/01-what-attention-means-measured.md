@@ -1,6 +1,7 @@
 ---
 title: What this course is for, and what attention means when somebody measures it
 minutes: 90
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/learning-and-mind/focus-and-deep-work/01-what-attention-means-measured.mp3
 objectives:
   - >-
     Distinguish the two instruments this subject uses, self-report and task performance, and say why
