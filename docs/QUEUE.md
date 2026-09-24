@@ -138,6 +138,19 @@ Rewrite these five lines each session. Nothing else goes in this block.
   Bible Basics lessons 4 and 9, Python Basics lesson 1, Logic and Argument lesson 10, and Digital
   Literacy lessons 1 and 3. **The fix is one edit each: name the distractor by its content.**
 
+- **Nutrition: The Evidence is drafting** (T3, first of the term), 2026-09-24. Stages 0 to 2 done
+  (`research/SOURCES.md`, six parts with whole-abstract appendices; `research/OUTLINE.md`, eleven
+  lessons and eight decisions, including a safety callout on every lesson that `npm run validate`
+  enforces). **Lessons 1 to 10 are through Stage 4**, each with two fresh-context reviewers and a
+  separate fix pass, review files in `research/reviews/`. **Lesson 11 is drafted and reviewed but the
+  fixes are not applied**: apply `research/reviews/11-reading-a-claim-about-your-food.findings-F.md`
+  (neutrality fails until F3 and F5 are fixed) and `...findings-P.md`, then fold both into a normal
+  `11-reading-a-claim-about-your-food.md` review record and delete the two findings files. The
+  project (`assessments/project-one-claim-you-acted-on.md`) is written; **the final test is not**
+  (30 items, blueprint in the outline). **Next, in order:** lesson 11's fix pass; the final test; the
+  mandatory neutrality audit across the course (lessons 6 to 10 carry the contested material, lesson
+  9 the dated 2026 guidelines); publish (course.yaml and the TAXONOMY row together, and an
+  audio-debt line of 11); then eleven scripts, fact-checked, no render.
 - **Strength and Fitness is drafting** (T3, second of the term), started 2026-09-24 by a session
   working alongside the Nutrition one. Stage 1 is done: five parallel researchers, 53,000 words,
   every quotation script-checked against a downloaded text; most trials read at abstract level
