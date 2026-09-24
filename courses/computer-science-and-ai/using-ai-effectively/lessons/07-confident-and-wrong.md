@@ -1,6 +1,7 @@
 ---
 title: Confident and wrong
 minutes: 100
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/computer-science-and-ai/using-ai-effectively/07-confident-and-wrong.mp3
 objectives:
   - >-
     Explain in two different ways why a system like this produces confident false answers, and say
