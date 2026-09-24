@@ -1,6 +1,7 @@
 ---
 title: Mindfulness, behavioural activation and breathing
 minutes: 95
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/health-and-body/mental-fitness/06-mindfulness-activation-and-breathing.mp3
 objectives:
   - >-
     State the evidence for mindfulness programmes, behavioural activation and breathwork, each with
