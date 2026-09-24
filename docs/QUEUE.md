@@ -21,6 +21,10 @@ and it never feels that way while you are writing it.
 
 Rewrite these five lines each session. Nothing else goes in this block.
 
+- **Renders are blocked on Google's prepaid credit balance, not the cap** (HTTP 402, confirmed
+  2026-09-23 on John's AI Studio page: prepay credits depleted, $41.77 of the $45 cap used).
+  `npm run state` now reads the 402 and moves on to content until a render succeeds. John tops up
+  at ai.studio/projects; clearing all 55 owed episodes would also need the cap raised to about $56.
 - **Using AI Effectively is published and written.** T1, sixth of seven. Eleven lessons, every one
   through Stage 4 with its review applied, the voice pass done, the neutrality audit passed, both
   assessments written, and eleven fact-checked podcast scripts. Nothing on it is outstanding except
@@ -121,39 +125,26 @@ Rewrite these five lines each session. Nothing else goes in this block.
   Bible Basics lessons 4 and 9, Python Basics lesson 1, Logic and Argument lesson 10, and Digital
   Literacy lessons 1 and 3. **The fix is one edit each: name the distractor by its content.**
 
-- **Sleep is through Stage 1**, with 6,000 words of research. `courses/health-and-body/sleep/`, the
-  first course in the School of Health and the Body, sixth in T2 after Note-Taking. **It is a
-  sensitive domain under standards 3.4** (medicine), so the neutrality audit is mandatory before
-  publish, not optional.
+- **Sleep: all eight lessons drafted and seven reviewed and applied, both assessments written.**
+  `courses/health-and-body/sleep/`, sixth in T2, **a sensitive domain under standards 3.4**.
+  **Left before publish: apply lesson 8's review, then the neutrality audit (mandatory), then publish
+  with the audio-debt entry.** Then eight podcast scripts to take it to written.
 
-  **The finding that decides the course**: the best evidence here is experimental and about
-  performance over days, the most repeated claims are observational and about disease and death over
-  years, and they get spoken in one breath. A randomised dose-response experiment holding 48 adults
-  at four, six or eight hours for fourteen nights sits on one side; a meta-analysis of 1,382,999
-  people with a relative risk of 1.12 for short sleep sits on the other. Neither supports the other's
-  sentence.
+  **Five of today's Stage 1 corrections came from opening a primary the research file had held at
+  summary level**, and each changed a lesson: Berres and Erdfelder (first author's name wrong, the
+  moderator pattern wrong, and the outline's central claim for lesson 5 unsupported); both insomnia
+  guidelines (the sleep-hygiene quotations were the publisher's announcement, not the guideline);
+  ISGlobal on IARC (the mechanisms caveat was a named researcher's sentence, quoted without its first
+  half, and the *Lancet Oncology* DOI in the file pointed at a different item); and the Guzey and
+  Walker pages. **The pattern is that the research file carried the same trims the lessons then
+  inherited**, so a Stage 4 reviewer handed the primary text found them in both.
 
-  **Sleep is through Stage 2**, with an 8,200-word research file written in three passes and a
-  5,200-word outline planning eight lessons, an eighteen-item test and a three-week project that
-  compares two measurements of the same nights. The circadian and light gaps the first pass flagged
-  were both closed the same day rather than left for the outline to declare.
+  **One quiz-shape pattern needs a check, not a note.** Lessons 5 and 6 carry key sequences with the
+  same internal repeats (0,3,2,0,1,3 and 1,0,3,1,2,0: item 4 equals item 1, item 6 equals item 2),
+  which the adjacent-lesson check cannot see. Lesson 7's was changed; 5 and 6 still share it.
 
-  **Six decisions are settled in the outline and no lesson may re-open them**, of which two carry
-  the build: the `unread:` line now reads `Walker (except 07), Kryger`, so any lesson but 7 that
-  names him fails; and sleep disorders, children and adolescents, screens and ordinary indoor light,
-  dreams and naps are each left out by name in a stated lesson. **The course's own addition to the
-  institute's claim sort is the clock question**: is this claim about how much, or about when.
-  **Lessons 1 to 4 are drafted. Reviews for 1 and 2 are applied and recorded; lesson 3's is running
-  and lesson 4 owes one.** The course project is written. Four lessons remain: sleep and memory,
-  what is offered to somebody sleeping badly, the bestseller dispute, and the closing lesson, plus
-  the eighteen-item test.
-
-  **Two things a later session should pick up.** The `minutes` model cannot price an exercise that
-  says "come back in a fortnight", and this course generates at least two of them; Reading Well
-  carries four EXCEPTIONS entries for the same shape, so either a cue form the model can read or an
-  entry per lesson. And lesson 1's review found the research file carrying an inference the outline
-  had already corrected ("a reaction-time task", which that study's abstract never names): it is
-  fixed, but it is the second time a correction landed in one file and not the others.
+  **Still open from earlier**: the `minutes` model cannot price "come back in a fortnight"
+  exercises, which this course has at least two of.
 
 - **Note-Taking and Personal Knowledge is through Stage 2**, with 4,600 words of research and a
   4,800-word outline planning eight lessons, an eighteen-item test and a project that runs across
