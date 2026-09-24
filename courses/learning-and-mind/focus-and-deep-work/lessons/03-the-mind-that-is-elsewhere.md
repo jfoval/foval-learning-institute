@@ -1,6 +1,7 @@
 ---
 title: The mind that is not on the task at all
 minutes: 70
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/learning-and-mind/focus-and-deep-work/03-the-mind-that-is-elsewhere.mp3
 objectives:
   - >-
     State what the experience-sampling study measured about mind-wandering, with its sample, its
