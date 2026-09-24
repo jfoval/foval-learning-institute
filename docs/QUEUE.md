@@ -150,7 +150,11 @@ Rewrite these five lines each session. Nothing else goes in this block.
   because the big publishers refused scripted downloads, and the file says so at each entry.
   Stage 2 is done: nine lessons, an 18-item test and an eight-week project; the outline's eight
   decisions include a safety callout on every lesson (now a check in `scripts/build.mjs`) and the
-  course's claim-sort question, "trained whom, for how long, measured on what?". Sensitive domain (medicine): two fresh-context reviewers per
+  course's claim-sort question, "trained whom, for how long, measured on what?".
+  **Stage 3 and 4 in flight** (2026-09-24): lesson 4 split into 4 and 5 (ten lessons); each lesson
+  is drafted by one subagent, reviewed by two fresh ones (F: facts, neutrality, safety; P: depth,
+  pedagogy, cold start, voice) and fixed by a third. Reviews keep finding errors already in
+  `SOURCES.md` summaries, which the fixers correct against the primary first. Sensitive domain (medicine): two fresh-context reviewers per
   lesson and the neutrality audit before publish. **Boundaries with Nutrition are settled in its
   outline**: energy balance, exercise and weight (Nutrition 3) and protein (Nutrition 5) are taught
   there and pointed to here; exercise for depression is Mental Fitness 5.

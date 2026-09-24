@@ -1588,7 +1588,11 @@ load and provide feedback during a 1RM test." (A validation in squat only, in a 
 underpredict the number of repetitions to task failure by 0.95 repetitions (95% confidence interval
 [CI] 0.17-1.73), but with considerable heterogeneity". Accuracy was better nearer failure, with
 heavier loads (12 reps or fewer) and in later sets; "participants' training status did not seem to
-influence prediction accuracy". Conclusion: "Participants were imperfect in their ability to predict
+influence prediction accuracy". **The hedges on those moderators, verbatim** (corrected 2026-09-24
+at lesson 2's Stage 4 review; the summary above had dropped them): "prediction accuracy slightly improved when the predictions were made closer to set failure (β =  - 0.025, 95% CI - 0.05 to 0.0014) and when the number of repetitions performed to task failure was lower"
+(the near-failure interval includes zero), and "Set number trivially influenced prediction accuracy with slightly increased accuracy in later sets".
+The heterogeneity is between studies (I2 = 97.9%); the abstract reports "minimal between-participant
+variation in predictive accuracy (standard deviation 1.45 repetitions, 95% CI 0.99-2.12)". Conclusion: "Participants were imperfect in their ability to predict
 proximity to task failure independent of their training background. It remains to be determined
 whether the observed degree of inaccuracy should be considered acceptable."
 
@@ -2084,6 +2088,11 @@ past those, so those papers are abstract-only here and the entries say so.*
   that a small overperfused muscle can consume very large amounts of oxygen. It concludes "O2 delivery, not skeletal muscle O2 extraction, is viewed as the primary limiting factor for VO2max in exercising humans."
   On the muscle: "Metabolic adaptations in skeletal muscle are, however, critical for improving submaximal endurance performance."
   And: "The speed at lactate threshold (LT) integrates all three of these variables and is the best physiological predictor of distance running performance."
+  The "three variables" are named in the sentence before: "Running economy and fractional utilization of VO2max also affect endurance performance."
+  And on mitochondria: "Endurance training causes an increase in mitochondrial enzyme activities, which improves performance by enhancing fat oxidation and decreasing lactic acid accumulation at a given VO2."
+  *(Added 2026-09-24 at lesson 3's Stage 4 review, checked against the PubMed abstract fetched
+  through NCBI E-utilities: lesson 3 paraphrases the fraction-of-the-ceiling framing, and this entry
+  did not carry the sentence it comes from.)*
 - **Good for:** the lesson distinction between the ceiling (VO2max, set mainly by delivery: heart,
   blood) and how long and how fast you can go below it (muscle adaptations, economy, lactate
   threshold). This is the standard textbook framing.
@@ -2152,7 +2161,11 @@ past those, so those papers are abstract-only here and the entries say so.*
 - **MET-minutes, verbatim:** the 2018 US guideline volume "is equivalent to ∼500–1000 MET-min/week, which is sufficient to reduce the risks of morbidity and mortality."
 - **The limitation the course needs, verbatim:** "the Compendium can serve as a starting point for prescribing individual activities but does not reflect precise individual EE values."
   They give an example of women with obesity expending about 8% to 15% more than women without
-  obesity at the same treadmill speeds. Scope: "the 2024 Adult Compendium is intended for use in non-disabled adults and adults without significant health conditions that affect EE or metabolism".
+  obesity at the same treadmill speeds, and add the qualifier that carries the example's point:
+  "EE may still be categorized in the same general intensity level (i.e., light intensity) but may not reflect an individual's more precisely measured EE."
+  (Added 2026-09-24 at lesson 2's Stage 4 review.) The paper gives the Older Adult Compendium's
+  reason itself (reference numbers removed): "RMR is comparatively lower in older adults, so in 2024, a Compendium for Older Adults ≥60 years was developed."
+  The Adult Compendium is limited to ages 19 to 59, with data from those 60 and over removed. Scope: "the 2024 Adult Compendium is intended for use in non-disabled adults and adults without significant health conditions that affect EE or metabolism".
 - **Example values from the website tables (as printed there):**
   - 17170, 3.0 METs, "Walking, 2.5 mph, firm, level surface"
   - 17190, 3.8, "Walking, 2.8 to 3.4 mph, level, moderate pace, firm surface"
@@ -2197,7 +2210,9 @@ past those, so those papers are abstract-only here and the entries say so.*
   table of 43 published prediction equations.
 - **The history, verbatim:** "Surprisingly, there is no published record of research for this equation."
   The authors contacted Karvonen (August 2000) and Åstrand (September 2000); neither had published
-  the formula. They trace it to Fox, Naughton and Haskell (1971), a review in which the figure
+  the formula. (The Åstrand contact was in person, in Albuquerque: "We were able to discuss this topic with Dr. Åstrand in September 2000".
+  Åstrand also "did comment that in past presentations he had stated that such a formula appears close to research findings".
+  Added 2026-09-24 at lesson 2's review; "contacted" does not license "wrote to".) They trace it to Fox, Naughton and Haskell (1971), a review in which the figure
   legend itself said a single line would not adequately represent the data. On re-fitting Fox's
   plotted points (about 35 data points; no regression had been done in 1971) they got
   HRmax = 215.4 - 0.9147(age), r = 0.51, Sxy = 21 b/min, and write:
@@ -2209,6 +2224,10 @@ past those, so those papers are abstract-only here and the entries say so.*
   name Inbar's equation (205.8 - 0.685 x age, Sxy = 6.4 b/min) as the most accurate general one but
   say "the error (Sxy=6.4 b/min) is still unacceptably large."
   For training ranges they are more lenient: "For purposes of prescribing training heart rate ranges, errors ≤8 b/min are likely to be acceptable."
+  **But the passage before it concludes that current equations fail that bar**, and the lenient
+  sentence must not be quoted without it: "errors in HRmax estimation can be in excess of 11 b/min. Consequently, it is likely that current equations used to estimate HRmax are not accurate enough for prescribing exercise training heart rate ranges for a large number of individuals."
+  *(Added 2026-09-24 at lesson 2's Stage 4 review; defect 9, the lenient half had been quoted
+  alone.)*
 - **Pooling 30 healthy-sample equations** gave HRmax = 208.754 - 0.734(age), r = 0.93, Sxy = 7.2,
   "which is very close to that derived by Tanaka et al."
 - **Good for:** a set-piece lesson moment. A number printed on every gym machine has no research
@@ -2228,8 +2247,12 @@ past those, so those papers are abstract-only here and the entries say so.*
   The lab study gave 209 - 0.7 x age. "The regression line was not different between men and women, nor was it influenced by wide variations in habitual physical activity levels."
   Conclusion: "Our findings suggest that the currently used equation underestimates HRmax in older adults."
 - **Caveat the lesson must carry:** r = -0.90 is computed on *group means*, which hides
-  person-to-person scatter. Robergs & Landwehr (R3.3a) make this criticism and list Tanaka's r2 as
-  0.81 with no Sxy reported.
+  person-to-person scatter. **That criticism is this course's own reading, not Robergs &
+  Landwehr's.** Their Table 3 lists Tanaka's r2 as 0.81 with Sxy "N/A" (no error figure reported),
+  and their "The same criticism applies to the study of Tanaka et al." is about the lack of
+  statistics on variance explained by a multivariate model, not about group means.
+  *(Corrected 2026-09-24 at lesson 2's Stage 4 review: this line had said Robergs & Landwehr make
+  the group-means criticism; a search of `robergs2002.txt` finds no such passage.)*
 
 ### R3.3c Martin J, Lindsey B, Gerrity C, Ambegaonkar J. Exploratory analysis of the accuracy of age-based maximal heart rate equations across cardiorespiratory fitness levels. *PLoS One* 2025;20(10):e0335842. doi:10.1371/journal.pone.0335842. PMC12574831
 
@@ -2241,6 +2264,20 @@ past those, so those papers are abstract-only here and the entries say so.*
   220 minus age ("Fox") equation showed no significant mean or proportional bias. Verbatim:
   "LOA were wide across all equations (approximately ±18–24 bpm), indicating substantial individual-level variability."
   Conclusion: "none demonstrated high individual level accuracy, which highlights a lack of precision when estimating MHR for exercise prescription and monitoring purposes."
+- **Added 2026-09-24 at lesson 2's Stage 4 review** (full text, `martin2025.txt`; the entry had
+  carried only the paper's critical half, and the lesson inherited the selection):
+  - **The ±18–24 spans all seven equations; each equation's own limits are about ±20.** Verbatim:
+    "The 95% LOA spanned approximately ±20 bpm for all formulas. In practical terms, this degree of error could shift an individual across two heart rate training zones (e.g., from moderate to vigorous intensity), which has meaningful consequences for exercise prescription."
+    The 24 is Nes's upper limit, pulled out by its +6 mean bias. From Table 3, Tanaka's bias is
+    +0.71 and RMSE 9.21, so its own limits are about −17 to +19. Do not put ±24 around Tanaka.
+  - **Typical error:** "all equations produced typical errors of approximately ±7–10 bpm".
+  - **Tanaka's proportional bias, and the case for 220 minus age:** Tanaka, Gellish, Arena, Nes
+    and Fairbairn showed proportional bias, "where predicted values increasingly underestimated measured MHR at higher heart rates. Notably, the Fox equation [4] showed neither significant mean nor proportional bias, reflecting relatively stable performance across the full range of MHR."
+    Fox had the highest ICC. Against that, in the pairwise contrasts Tanaka, Gellish and Arena had
+    significantly lower absolute error than Fox.
+  - **The authors' own practical conclusion:** "the Fox [4] formula exhibited arguably the most consistent performance across the sample, showing comparable error to Gellish [6], Tanaka [1], and Arena [11] while avoiding proportional bias. These characteristics support its continued use as a practical and generalizable option, especially in time-limited or equipment-limited settings."
+    And: "Age-based MHR equations are useful for population-level benchmarking and for setting initial training targets".
+  - **Medicines (a safety point):** "medications such as β-blockers can blunt the chronotropic response [37], rendering HR-based zones misleading and necessitating greater reliance on alternative markers (e.g., RPE, speed/power) in certain populations."
 - **Good for:** a modern, open, plain number for the lesson: on average a formula is off by about 7
   beats, and for a given person it can be off by about 20.
 - **Does not show:** anything about sedentary or older beginners in particular (the sample was 76%
@@ -2271,6 +2308,14 @@ past those, so those papers are abstract-only here and the entries say so.*
   gas analysis. Verbatim: "At the point where speech first became difficult, exercise intensity was almost exactly equivalent to ventilatory threshold. When speech was not comfortable, exercise intensity was consistently above ventilatory threshold."
   Hedged conclusion: "These results suggest that the Talk Test may be a highly consistent method of exercise prescription."
   Figures: %HR reserve at ventilatory threshold was 84% on the treadmill and 74% on the cycle.
+  **The same sentence gives the talk test's own figures, and they matter:** %HR reserve at the
+  equivocal stage of the Talk Test (where speech first became difficult) was 80% on the treadmill
+  and 81% on the cycle. Verbatim: "The %VO2peak, %VO2 reserve, %HRpeak, and %HR reserve at ventilatory threshold on treadmill versus cycle ergometer (77%, 75%. 89%, and 84% vs 67%, 64%, 82%, and 74%) were not significantly different than the equivocal stage of the Talk Test (83%, 82%, 86%, and 80% vs 73%, 70%, 87%, and 81%)."
+  So at the same talk-test result the group's %HR reserve was nearly identical on the two machines;
+  the 10-point gap is at the gas-measured threshold only. With 16 people and "not significantly
+  different", the abstract does not show the talk test out-performing a heart-rate percentage.
+  *(Corrected 2026-09-24 at lesson 2's Stage 4 review: this entry carried only the 84 and 74, and
+  the lesson built a claim on the trim that ran opposite to the abstract.)*
 - **Reed JL, Pipe AL. The talk test: a useful tool for prescribing and monitoring exercise intensity.
   *Curr Opin Cardiol* 2014;29(5):475-480. doi:10.1097/HCO.0000000000000097.** Read level: abstract
   only (`abs_25010379.txt`). Review. Verbatim: "comfortable speech is likely possible (equivocal or last positive talk test stage) when exercise intensity is below the ventilatory or lactate threshold, and not likely possible (negative talk test stage) when exercise intensity exceeds the ventilatory or lactate threshold."
@@ -2312,7 +2357,12 @@ past those, so those papers are abstract-only here and the entries say so.*
 
 - **Read level:** full text (`weston2014.txt`, BJSM's free HTML via browser text extraction).
 - **Design:** meta-analysis of 10 randomised trials, 273 patients with coronary artery disease, heart
-  failure, hypertension, metabolic syndrome or obesity. Supervised programmes of 4 to 16 weeks. Most
+  failure, hypertension, metabolic syndrome or obesity. Programmes of 4 to 16 weeks, mostly
+  supervised throughout: "Three studies included a supervised training component as well as a self-administered home programme"
+  and "One study was supervised for the first 4 weeks, and thereafter the participants were advised to continue the training programme at home for the following 6 months."
+  Patients "were only included if their diseases were relatively well controlled or stable."
+  *(Corrected 2026-09-24 at lesson 3's Stage 4 review, against `weston2014.txt`: this line said
+  "Supervised programmes", and lesson 3 inherited "every programme was supervised".)* Most
   HIIT protocols were 4-minute intervals at 85% to 95% of maximal heart rate with 3-minute active
   recovery.
 - **Key figure:** VO2peak rose more with HIIT than MICT, mean difference 3.03 mL/kg/min (95% CI 2.00
@@ -2322,6 +2372,16 @@ past those, so those papers are abstract-only here and the entries say so.*
   (Four reported no adverse events; six did not mention them.)
 - **Safety data they cite (Rognmo et al., cardiac rehabilitation, 4846 patients), verbatim:** "The calculated event rates were 1/129 456 h of moderate-intensity exercise and 1/23 182 h of high-intensity exercise."
   They add the study was underpowered for this: "To accurately assess a cardiac event occurring during training, the study required a sample size of >20 500 patients."
+  The events themselves, from the sentence before the rates: "there was one fatal cardiac event during MICT and two non-fatal cardiac events during HIIT."
+  The authors' own reading of the same study: "Despite the study being underpowered,44 the results explore the beneficial dose–response relationship associated with HIIT and the negligible risk that is involved."
+  (the "44" is a reference number run into the text).
+- **The authors' view of safety, verbatim (discussion):** "although there are limited data, HIIT appears to be well tolerated and safe."
+  Their condition: "if participants are adequately screened and the programme is prescribed and supervised by appropriately trained and qualified individuals, then it should be an achievable training option."
+  And on sprints: "the need to separate all-out supramaximal sprint interval training from HIIT as there are concerns for the safety of this all-out approach in clinical populations."
+  *(Added 2026-09-24 at lesson 3's Stage 4 review, from `weston2014.txt`: the entry carried the
+  event rates and the underpowering but not the one death, which was in the moderate arm, nor the
+  authors' own reading, so a lesson could report their data against their conclusion without giving
+  it.)*
 - **Caveat for neutrality:** the abstract's opening line says it is "established" that HIIT is
   superior in the general population, and the "What are the new findings?" box says "HIIT is
   well-tolerated, safe", which is stronger than the adverse-event reporting in the included trials
@@ -2339,6 +2399,10 @@ past those, so those papers are abstract-only here and the entries say so.*
   weeks**, three sessions a week, in the laboratory, cycling.
 - **The protocols, verbatim:** "The SIT protocol consisted of 3x20-second ‘all-out’ cycling efforts against 0.05kg/kg body mass, separated by 2 minutes of low-intensity cycling (50W). The MICT protocol consisted of 45 minutes of continuous cycling at ~70% HRmax."
   With warm-up and cool-down the sessions were 10 and 50 minutes.
+  The abstract's own framing, verbatim: "SIT involved 1 minute of intense exercise within a 10-minute time commitment, whereas MICT involved 50 minutes of continuous exercise per session."
+  And its figures for the effort: "SIT involved 3x20-second ‘all-out’ cycle sprints (~500W) interspersed with 2 minutes of cycling at 50W, whereas MICT involved 45 minutes of continuous cycling at ~70% maximal heart rate (~110W)."
+  *(Added 2026-09-24 at lesson 3's Stage 4 review, from `gillen2016.txt`: the "one minute" framing
+  starts with the authors, and no press coverage of the study was read.)*
 - **Outcomes:** VO2peak rose 19% in both groups (SIT 32 ± 7 to 38 ± 8; MICT 34 ± 6 to 40 ± 8 mL/kg/min).
   Insulin sensitivity (intravenous glucose tolerance test) and muscle citrate synthase (a marker of
   mitochondrial content, from biopsies) rose similarly in both.
@@ -2382,6 +2446,14 @@ past those, so those papers are abstract-only here and the entries say so.*
   And: "In summary, practical, enjoyable and scalable HIT protocols exist that could form a viable population health strategy, implemented within an evolutionary health promotion framework."
   He also argues brisk incline walking can count as HIT for unfit people, because 6 METs is a large
   fraction of a low-fitness person's capacity.
+- **What dual mode theory says, and each side's evidence, verbatim** *(added 2026-09-24 at lesson 3's
+  Stage 4 review, from `biddle2015.txt`: the entry quoted Batterham's rebuttal without the theory it
+  rebuts, and lesson 3 had to say it could not explain it)*. Biddle's statement of the model:
+  "Proposition 4 states that “affective responses during strenuous exercise unify into a negative trend as the intensity of exercise approaches each individual’s functional limits” (p. 222)"
+  Biddle's evidence, a trial of inactive overweight adults: "The walking group had fewer adverse events and adherence was particularly low in the two high intensity conditions."
+  Batterham's reason, the sentence after his "bottom line": "Anticipation of impending recovery, and the recovery period per se, results in more positive affect than continuous vigorous intensity exercise."
+  His evidence: "Jung et al. [15] reported that HIT intervals were conducted at a higher intensity than in the continuous vigorous intensity condition, yet affect was more positive in HIT, contrary to dual mode theory propositions."
+  Biddle's reading of the same study: "yet HIT showed progressively negative affective reactions compared to continuous moderate physical activity, in line with dual-mode theory"
 - **Good for:** the lesson's neutral treatment of HIIT. What is established: in trials, HIIT raises
   fitness as much as or slightly more than MICT in less time. What is contested: whether ordinary
   people will do it and keep doing it.
@@ -2422,18 +2494,37 @@ past those, so those papers are abstract-only here and the entries say so.*
 
 ### R3.6b Montero D, Lundby C. Refuting the myth of non-response to exercise training: "non-responders" do respond to higher dose of training. *J Physiol* 2017;595(11):3377-3387. doi:10.1113/JP273480
 
-- **Read level:** abstract and key points only (`abs_28133739.txt`; the same abstract seen on the
-  Wiley page). The PDF is free at Wiley but the site served a bot-verification page to curl, and the
-  browser page showed only the abstract.
-- **Design:** 78 healthy adults in five groups doing one to five 60-minute sessions a week for 6
-  weeks. Non-response defined as a change in maximal cycling power within the typical measurement
-  error (±3.96%). Non-responders then did a second 6 weeks with two extra sessions a week.
+- **Read level:** full text, free on PubMed Central (PMC5451738; saved as `montero2017_pmc.txt`),
+  read for the abstract and key points, Methods (participants, design, the non-response rule), the
+  Figure 1 legend and the Limitations. *(Raised 2026-09-24 at lesson 3's Stage 4 review. This entry
+  was written from the abstract, which says "Seventy‐eight healthy adults", and so it said "78
+  healthy adults"; the Methods show they were all young men, and lesson 3 inherited "adults" and
+  built a made-up case on a woman. PMC notes the article "has been corrected" (J Physiol
+  2018;596(7):1311); the correction notice was not read.)*
+- **Design:** 78 untrained young men in five groups doing one to five 60-minute sessions a week of
+  supervised cycling for 6 weeks. Non-response defined as a change in maximal cycling power within
+  the typical measurement error (±3.96%). Non-responders then did a second 6 weeks with two extra
+  sessions a week. **No non-training comparison group**, and the participants chose their own group.
+- **Who, verbatim (Methods):** "Seventy‐eight healthy young male volunteers [age (mean ± SD) = 26.2 ± 3.4 years"
+  recruited by campus ads "looking for untrained individuals". Inclusion: "As inclusion criteria, individuals had to be to males between 18 and 35 years of age not participating in organized sports, non‐smokers and medication free."
+- **How groups were formed, verbatim:** "All individuals underwent a first period of supervised training for 6 weeks consisting of 60 min sessions of cycle ergometer exercise. Individuals could chose to participate in five groups differing in the number of exercise sessions per week."
+  So the groups were self-selected, not randomised.
+- **The non-response rule, verbatim:** "Any percentage change in W max not beyond ±1 × %TE was considered a non‐response."
+  (%TE is the typical error, ±3.96% for maximal power.)
+- **Group sizes, verbatim (Figure 1 legend):** "Non‐response was 69% (11 of 16), 40% (6 of 15), 29% (4 of 14), 0% (0 out of 17) and 0% (0 out of 16) for groups 1, 2, 3, 4 and 5, respectively."
+- **Limitations, verbatim:** "Findings were obtained from a sample of healthy young males. Further research will elucidate whether current conclusions can be extrapolated to populations including females, older individuals and/or cardio‐metabolic patients."
+  And VO2max, unlike maximal power, was tested only once at baseline, so no typical error was
+  calculated for it: the text says VO2max "measurements were not duplicated at baseline" (the
+  extraction splits the VO2max symbol, so only this much is quoted).
 - **Key figures, verbatim:** "In groups 1, 2, 3, 4 and 5, 69%, 40%, 29%, 0% and 0% of individuals, respectively, were non-responders. After the second ET period, non-response was eliminated in all individuals."
-  And: "total haemoglobin mass was the strongest independent determinant".
-- **Good for:** the dose side of the argument. At 60 minutes a week, most people did not measurably
-  improve in 6 weeks; at 240 minutes and above, everyone did.
-- **Does not show:** long-term health, or that the primary outcome (maximal power) equals VO2max.
-  Six-week periods are short, and small groups (about 15 each).
+  And: "total haemoglobin mass was the strongest independent determinant" (the abstract's sentence goes on to name VO2max as what it determines, so this is a determinant of VO2max, not directly of the power gains).
+  Key points: "The magnitude of CRF improvement is primarily attributed to changes in haemoglobin mass."
+- **Good for:** the dose side of the argument. At 60 minutes a week, most of these young men did not
+  measurably improve in 6 weeks; at 240 minutes and above, all did.
+- **Does not show:** long-term health, or that the primary outcome (maximal power) equals VO2max;
+  anything about women, older people or patients (the authors say so); true individual differences
+  in the statistical sense of R3.6c, since there was no untrained comparison group and each person
+  was classed from one test after training. Six-week periods are short, and groups of 14 to 17.
 
 ### R3.6c The statistics: Atkinson G, Batterham AM. True and false interindividual differences in the physiological response to an intervention. *Exp Physiol* 2015;100(6):577-588. doi:10.1113/EP085070; and Williamson PJ, Atkinson G, Batterham AM. Inter-individual responses of maximal oxygen uptake to exercise training: a critical review. *Sports Med* 2017;47(8):1501-1513. doi:10.1007/s40279-017-0680-8
 
@@ -2478,7 +2569,13 @@ past those, so those papers are abstract-only here and the entries say so.*
 
 ### R3.7c Critique: Storoschuk KL, Moran-MacDonald A, Gibala MJ, Gurd BJ. Much ado about zone 2: a narrative review assessing the efficacy of zone 2 training for improving mitochondrial capacity and cardiorespiratory fitness in the general population. *Sports Med* 2025;55(7):1611-1624. doi:10.1007/s40279-025-02261-y
 
-- **Read level:** abstract only (`abs_40560504.txt`).
+- **Read level:** abstract only (`abs_40560504.txt`), plus the PubMed record's declarations
+  (`pm_40560504_efetch.xml`, fetched through NCBI E-utilities 2026-09-24).
+- **How it describes the claim it tests, verbatim (the abstract's first sentence):** "Popular media has recently positioned Zone 2 training-defined as low-intensity exercise below the lactate threshold-as the optimal intensity for improving mitochondrial and fatty acid oxidative capacity, thereby supporting cardiometabolic health and chronic disease prevention."
+  *(Added 2026-09-24 at lesson 3's Stage 4 review: the lesson attributed its description of zone 2
+  to this review, and the entry did not carry the sentence.)*
+- **Declared interest, verbatim (PubMed record):** "Martin J. Gibala is an advisor to and holds equity in Longevity League, Ltd., a US-based company whose services in part relate to exercise."
+  The other three authors declare no directly relevant conflicts. *(Added 2026-09-24, same review.)*
 - **Verbatim:** "These recommendations largely stem from observational data of elite endurance athletes who engage in large volumes of Zone 2 training and possess high mitochondrial and fatty acid oxidative capacity."
   Conclusion: "We conclude that current evidence does not support Zone 2 training as the optimal intensity for improving mitochondrial or fatty acid oxidative capacity. Further, evidence suggests prioritizing higher exercise intensities (> Zone 2) is critical to maximize cardiometabolic health benefits, particularly in the context of lower training volumes."
 - **Caveat:** narrative review, and Gibala is the leading HIIT researcher (R3.4c), so this is one
@@ -2519,6 +2616,11 @@ past those, so those papers are abstract-only here and the entries say so.*
   warm-up walk and 5-minute cool-down walk. Week 1: "Run for 1 minute and walk for 1 minute 30 seconds. Do this 7 times in total"
   then a final 1-minute run. Week 5 ends with a continuous 20-minute run, week 6 with 25 minutes, week
   8 is three 28-minute runs, week 9 three 30-minute runs.
+- **Running minutes, walks excluded** *(added 2026-09-24 at lesson 3's Stage 4 review, counted from
+  `nhs_plan.txt` for the lesson's injury arithmetic)*: per run, week 1 8 (7 × 1 plus a final 1), week 2
+  9, week 3 9, week 4 16; week 5 runs of 15, 16 and 20; week 6 18, 20 and 25; week 7 25; week 8 28;
+  week 9 30. Three runs a week, that is 24 + 27 + 27 + 48 + 51 + 63 + 75 + 84 + 90 = **489 minutes,
+  about 8.2 hours, over the nine weeks.**
 - **Note the goal:** the plan's end point is time, not distance: "By the end of the 9 weeks, you’ll be running for 30 minutes."
   Many beginners will not cover 5 km in 30 minutes; the lesson can say the plan is built on time.
 - **Pace advice, verbatim:** "Remember, it’s not about speed, it’s about building stamina." And repetition is allowed: "if you need to repeat any of the runs or weeks, that’s totally okay."
@@ -2766,7 +2868,7 @@ past those, so those papers are abstract-only here and the entries say so.*
 - Kenney, Wilmore & Costill, *Physiology of Sport and Exercise*, 9th ed.: table of contents only; no chapter text.
 - Garber CE et al. ACSM Position Stand 2011 (*Med Sci Sports Exerc* 43:1334-1359): full text blocked (LWW paywall; the University of Rhode Island repository returned a page saying no PDF had been provided). Its %HRR bands for moderate and vigorous intensity are therefore **not recorded here**; the abstract gives only the minutes and MET-min targets. If a lesson needs %HRR bands, obtain Table 2 of Garber 2011 first.
 - Tanaka, Monahan & Seals 2001: abstract only; individual SD of prediction not obtained.
-- Milanović et al. 2015; Montero & Lundby 2017; Bouchard et al. 1999; Robergs et al. 2004; Brooks 2018; Bassett & Howley 2000; Hellsten & Nyberg 2015; Lundby et al. 2017; Cheung et al. 2003; Persinger et al. 2004; Reed & Pipe 2014; Borg 1982; Storoschuk et al. 2025; Sitko et al. 2025; Ross et al. 2015; Williamson et al. 2017; Nielsen et al. 2012 and 2014 (both); Pühringer & Ring-Dimitriou 2024; Hotfiel et al. 2018: abstract only (several full texts behind bot-verification pages).
+- Milanović et al. 2015; Bouchard et al. 1999; Robergs et al. 2004; Brooks 2018; Bassett & Howley 2000; Hellsten & Nyberg 2015; Lundby et al. 2017; Cheung et al. 2003; Persinger et al. 2004; Reed & Pipe 2014; Borg 1982; Storoschuk et al. 2025; Sitko et al. 2025; Ross et al. 2015; Williamson et al. 2017; Nielsen et al. 2012 and 2014 (both); Pühringer & Ring-Dimitriou 2024; Hotfiel et al. 2018: abstract only (several full texts behind bot-verification pages).
 - Borg's own descriptions of the 6-20 and CR10 anchors (e.g., Borg's 1998 book *Borg's Perceived Exertion and Pain Scales*): not read.
 - The rule that an RPE rating times 10 approximates heart rate: no source read.
 - Fox SM, Naughton JP, Haskell WL 1971 (the origin of 220 minus age): known only through Robergs & Landwehr.
