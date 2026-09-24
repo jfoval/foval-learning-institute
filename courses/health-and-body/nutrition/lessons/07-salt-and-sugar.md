@@ -669,8 +669,8 @@ This course read funding lines where an abstract printed them, not the disclosur
   This course didn't read the funding or disclosures of Mente 2016 or O'Donnell 2020.
 - **Sugar.** Erickson's review was funded through the International Life Sciences Institute, as
   above.[24] Sievenpiper's 2012 review names its primary funder as the "Canadian Institutes of Health
-  Research."[23] This course didn't read the disclosure statements of the 2014 debate or of Lustig's
-  papers.
+  Research."[23] A primary funder isn't the authors' own disclosures, and this course didn't read
+  those for Sievenpiper's review, the 2014 debate or Lustig's papers.
 
 ## What people get wrong
 

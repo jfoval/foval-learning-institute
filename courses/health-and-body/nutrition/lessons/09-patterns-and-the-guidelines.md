@@ -357,7 +357,7 @@ the paper's discussion of the stroke result, so it offers no mechanism.
 
 ## Low-carbohydrate patterns
 
-Lesson 4 promised the low-carbohydrate side's best case in diabetes. First, the American Diabetes
+Lesson 4 promised the low-carbohydrate evidence in diabetes. First, the American Diabetes
 Association, which has accepted the pattern since at least 2019. Its consensus report that year, by
 Evert and colleagues, read in its eating-pattern and carbohydrate sections, says: "For select adults
 with type 2 diabetes not meeting glycemic targets or where reducing antiglycemic medications is a
@@ -373,7 +373,7 @@ people with chronic kidney disease, disordered eating patterns, and women who ar
 "further research is needed". (VLC is very low carbohydrate.) Those are three of the groups this
 course's callout names.
 
-### The proponents' best case
+### The proponents' own trial
 
 The Virta Health trial, reported by Hallberg and colleagues in 2018 with Stephen Phinney and Jeff
 Volek among the authors, put 262 adults with type 2 diabetes into remote coaching, doctor-managed
@@ -749,7 +749,7 @@ one.
 ## Connections
 
 **Back.** Lesson 1's "you cannot change one thing" is why pattern trials exist. Lesson 4's promised
-low-carbohydrate case is Virta, design stated. Lessons 5 to 8 are the parts these patterns and
+low-carbohydrate evidence is Virta, design stated, with the randomised trials beside it. Lessons 5 to 8 are the parts these patterns and
 guides bundle.
 
 **Forward.** Lesson 10 takes supplements, B12 for vegans among them, and alcohol.

@@ -175,7 +175,8 @@ death from cardiovascular causes)".[2] A myocardial infarction is a heart attack
 Vitamin D missed both: 793 cancers against 824 on placebo, hazard ratio 0.96 (0.88 to 1.06), and 396
 cardiovascular events against 409.[2] (A hazard ratio of 1 means no difference; brackets hold the 95 percent confidence interval.) The authors'
 conclusion: "Supplementation with vitamin D did not result in a lower incidence of invasive cancer or
-cardiovascular events than placebo."[2]
+cardiovascular events than placebo."[2] Among its secondary endpoints, death from cancer came to 0.83
+(0.67 to 1.02), an interval that just crosses 1.[2]
 
 Fish oil missed both too: 386 major cardiovascular events against 419, hazard ratio 0.92 (0.80 to
 1.06).[3]
@@ -204,7 +205,9 @@ February 2012, before VITAL.
 Deaths were 12.5 percent on vitamin D and 12.7 percent without, a risk ratio of 0.97 (0.94 to 0.99).
 The authors: "Vitamin D3 seemed to decrease mortality in elderly people living independently or in
 institutional care", and "further placebo-controlled randomised trials seem warranted", because of
-dropouts and trials that didn't report deaths.[4] The same review found a harm: "Vitamin D3 combined with calcium increased nephrolithiasis", which is kidney stones (risk
+dropouts and trials that didn't report deaths.[4] In four of its trials, "Vitamin D3 statistically
+significantly decreased cancer mortality" (risk ratio 0.88, 0.78 to 0.98). The same review found a
+harm: "Vitamin D3 combined with calcium increased nephrolithiasis", which is kidney stones (risk
 ratio 1.17, 1.02 to 1.34).[4]
 
 The Endocrine Society's 2024 guideline draws a similar line.[5] This course read
@@ -523,7 +526,7 @@ diabetes mellitus".[19] So its modelled evidence found protective associations t
 conclusion went the other way. Its own
 statement of method: "Most of the evidence evaluated in this report is from systematic reviews and
 meta-analyses of “observational” cohort studies. It did not include data from quasi-experimental (e.g.,
-Mendelian randomization) studies or randomized controlled trials." Yet its introduction leans on them:
+Mendelian randomization) studies or randomized controlled trials." Its introduction does cite them:
 "Mendelian randomization studies, including those using advanced methodologies, find no protection at
 low levels of consumption for ischemic heart disease, ischemic stroke, or diabetes mellitus".[19]
 
@@ -624,7 +627,10 @@ sources aren't independent.[19][21][28] A House Oversight Committee majority rep
 called the ICCPUD study biased; this course saw it only as a search result and can't say what it
 argues. As of September 2026 only the January 2025 draft of ICCPUD's report has been published. MACH
 was paid for in part by "private donations of $67.7 million raised to date by the FNIH", the
-Foundation for the NIH; the part of the release this course read doesn't name the donors.[31]
+Foundation for the NIH; the part of the release this course read doesn't name the donors.[31] A 2020
+analysis of the trial's correspondence by Mitchell, Lesch and McCambridge, researchers who study the
+alcohol industry, read at abstract level, does: "Alcohol companies agreed to fund the MACH trial to
+advance their commercial interests rather than to help answer a major scientific question."[33]
 
 ## What people get wrong
 
@@ -801,3 +807,7 @@ says when it stops being a self-help question.
 32. HHS and USDA, *Dietary Guidelines for Americans, 2025-2030*, January 2026,
     [PDF](https://cdn.realfood.gov/DGA.pdf). **Read: the alcohol section in full**, for this lesson's
     one line; lesson 9 reads the rest.
+33. G. Mitchell, M. Lesch and J. McCambridge, "Alcohol Industry Involvement in the Moderate Alcohol
+    and Cardiovascular Health Trial", *American Journal of Public Health*, 2020, doi
+    10.2105/ajph.2019.305508. **Read: the abstract, via Europe PMC, 24 September 2026.** Supports:
+    that alcohol companies funded MACH, in the authors' words.

@@ -155,8 +155,9 @@ Two details keep this from proving more than it does. First, what people actuall
 months the low-fat arm was eating 48 percent of energy from carbohydrate and 29 percent from fat,
 and the low-carbohydrate arm 30 percent and 45 percent.[1] Thirty percent carbohydrate is a long way
 from a ketogenic diet, so DIETFITS tells you nothing directly about eating very little
-carbohydrate. The low-carbohydrate side's best case for that comes from a trial in people with type
-2 diabetes that wasn't randomised, and lesson 9 takes it up. Second, 481 of the 609 finished (79
+carbohydrate. The evidence this course read on eating that little comes from people with type 2
+diabetes, a trial run by the diet's proponents that wasn't randomised and pooled trials that were,
+and lesson 9 takes it up. Second, 481 of the 609 finished (79
 percent), and a year is a year, not five.
 
 Run lesson 1's question over it. The low-fat arm ate carbohydrate instead of fat, the
@@ -497,7 +498,10 @@ disease arising from complex interactions between genetics, neurobiology, eating
 to healthy diet, market forces, and the broader environment". It then states a position, on the
 ground that "Dietary and physical activity patterns are largely the result of environmental and
 societal conditions that greatly constrain personal choice": "Obesity is a societal rather than an
-individual responsibility".[14] The first of those is an empirical claim. The second is a value
+individual responsibility".[14] The first of those mixes an empirical claim, about what obesity
+arises from, with a classification that others draw differently: a 2025 *Lancet* commission keeps
+the word illness for what it calls clinical obesity, and describes "preclinical obesity as a state
+of excess adiposity with preserved function of other tissues and organs".[15] The second is a value
 judgement by WHO, not a finding, and the course reports it as WHO's.
 
 ## What people get wrong
@@ -672,3 +676,7 @@ RDA is, and why the protein figure became a dispute in 2026.
     December 2025. **Read: the page in full, 24 September 2026.** Supports: the three quotations and
     the December 2025 GLP-1 guideline, which this course hasn't read. That the responsibility
     sentence is a value position is this course's reading.
+15. F. Rubino and colleagues, "Definition and diagnostic criteria of clinical obesity", *Lancet
+    Diabetes & Endocrinology* 13(3), 2025, pp. 221 to 262, doi 10.1016/S2213-8587(24)00316-4.
+    **Read: the executive summary.** Supports: the preclinical obesity definition. That WHO's
+    "disease" is a classification this commission draws differently is this course's reading.

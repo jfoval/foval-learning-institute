@@ -497,7 +497,8 @@ Reynolds, are arguing about which carbohydrate, not how much.
 **"The RDA is the amount you need."** It is set two standard deviations above the average need, so
 it covers about 97.5 percent of healthy people and is more than most of them require. Eating below
 it doesn't mean you're short. Between the EAR and the RDA, the chance of being short falls from one
-half towards 2 or 3 percent.
+half towards 2 or 3 percent. That is on the DRI's own estimate of need; for protein, the IAAO
+researchers argue the estimate itself is too low, so the RDA isn't a ceiling on need either.
 
 **"More protein is always better."** Morton's trials estimated that lean mass stopped rising at
 about 1.6 g per kg, with an interval from about 1.0 to 2.2, in people who were training, and the

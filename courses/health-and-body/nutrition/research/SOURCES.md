@@ -5185,6 +5185,8 @@ the new DGA lists animal protein first.
 ### 7. Low-carbohydrate and ketogenic diets
 
 #### 7.1 The proponents' best case: Virta Health trial
+*Amended 2026-09-24, course-wide neutrality audit (N1): "best case" is this file's label, not the proponents'. The randomised evidence (Goldenberg 2021, below in this section) is at least as strong a case for them, so lessons 4 and 9 now call Virta "the proponents' own trial" and set the randomised trials beside it.*
+
 - **Citations:** Hallberg SJ, McKenzie AL, Williams PT, et al (including Phinney SD, Volek JS).
   Effectiveness and Safety of a Novel Care Model for the Management of Type 2 Diabetes at 1 Year:
   An Open-Label, Non-Randomized, Controlled Study. *Diabetes Ther* 2018;9(2):583-612.
@@ -6008,6 +6010,8 @@ Verbatim: "The National Institutes of Health plans to end funding to the Moderat
 Design (verbatim): "The MACH study was designed as a multicenter, randomized clinical trial to determine the effects of one serving of alcohol (approximately 15 grams) daily, compared to no alcohol intake, on the rate of new cases of cardiovascular disease and the rate of new cases of diabetes among participants free of diabetes at baseline."
 
 Funding (verbatim): NIAAA "expected to commit $20 million to the overall project over 10 years, of which $4 million has been spent, and in part by private donations of $67.7 million raised to date by the FNIH". The private donations came largely from alcohol companies (my summary from search results; the release excerpt I read does not name the donors).
+
+*Amended 2026-09-24, course-wide neutrality audit (N7).* Mitchell G, Lesch M, McCambridge J. "Alcohol Industry Involvement in the Moderate Alcohol and Cardiovascular Health Trial." *American Journal of Public Health* 2020. doi:10.2105/ajph.2019.305508. Read: the abstract, via Europe PMC. Verbatim: "The National Institutes of Health stopped the worldwide Moderate Alcohol and Cardiovascular Health (MACH) trial in 2018 because of institutional failings that led to the biased design of this major study." "Alcohol companies agreed to fund the MACH trial to advance their commercial interests rather than to help answer a major scientific question." "The process of soliciting research funding from corporations, which included convincing alcohol companies that the study design supported their commercial interests, was intrinsically biased." The authors study alcohol-industry influence on policy. This replaces the search-result summary above as the source for who the donors were; the NIH release's own stated reason remains study design.
 
 Teaching note: the one attempt at the settling experiment was compromised by industry funding and the way it was solicited. This is a strong case study for the course's lesson on funding and conflicts of interest.
 
