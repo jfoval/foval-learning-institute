@@ -1,6 +1,7 @@
 ---
 title: Commands, arguments, flags, and reading an error
 minutes: 135
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/computer-science-and-ai/digital-literacy/05-commands-arguments-and-reading-an-error.mp3
 objectives:
   - Identify the program, the flags and the arguments in a command you have never seen before
   - Find out what an unfamiliar command does, using --help or the manual, and get out of the manual again
