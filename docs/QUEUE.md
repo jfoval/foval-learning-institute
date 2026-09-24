@@ -129,6 +129,17 @@ Rewrite these five lines each session. Nothing else goes in this block.
   and the mandatory neutrality audit passed (entry in `research/reviews/course-wide.md`). It owes
   eight podcast scripts to be written, which are next, and eight episodes, which trail.
 
+- **Mental Fitness is in Stage 3**, 2026-09-23: nine lessons planned, 1 to 4 drafted, reviewed by two
+  fresh-context reviewers each and applied. Every lesson carries a crisis callout that `npm run
+  validate` enforces word for word. **Every cited abstract is reproduced whole in an appendix to
+  `SOURCES.md`**, because the first three reviews each found the file quoting abstracts selectively in
+  the direction of its own framing; draft lessons 5 to 9 from the appendix, not from the entries.
+- **`npm run quotes` only checks a quotation followed directly by a `[n]` marker**, so most quotations
+  in a lesson are never checked. A spliced NICE quotation in Mental Fitness lesson 4 passed it. A
+  paragraph-level check (every quoted string of 30+ characters against the research file) caught it
+  and found nothing else across four lessons. Worth folding into `scripts/quotes.mjs` behind a flag;
+  not done, because repo-wide it will flag every primary-text quotation in Bible Basics and Logic.
+
   **Five of today's Stage 1 corrections came from opening a primary the research file had held at
   summary level**, and each changed a lesson: Berres and Erdfelder (first author's name wrong, the
   moderator pattern wrong, and the outline's central claim for lesson 5 unsupported); both insomnia
