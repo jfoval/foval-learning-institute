@@ -1,6 +1,7 @@
 ---
 title: Examples, and asking for the steps
 minutes: 100
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/computer-science-and-ai/using-ai-effectively/05-examples-and-steps.mp3
 objectives:
   - >-
     Supply examples in a request, and say what examples steer that a description of the same thing
