@@ -1,6 +1,7 @@
 ---
 title: Reading a claim about your attention
 minutes: 90
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/learning-and-mind/focus-and-deep-work/07-reading-a-claim-about-your-attention.mp3
 objectives:
   - >-
     Sort a claim about attention into measurable, unmeasurable as stated, or false, and say what
