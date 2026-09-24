@@ -255,7 +255,7 @@ If you live somewhere else, follow your own country's food safety regulator, as 
 :::callout Cooking for someone at higher risk
 Food poisoning is more dangerous for anyone who is pregnant, aged 65 or over, a young child, or has a weakened immune system. If you're cooking for someone in one of these groups, cook burgers and other mince all the way through, don't give them raw dough or batter, and follow your country's rule on runny eggs in lesson 5.
 
-If they're pregnant, 65 or over, or have a weakened immune system, check your country's list of chilled ready-to-eat foods to heat or avoid (lesson 4 gives both), because those foods can carry Listeria. If they are severely immunocompromised, ask their doctor what they can eat.
+If they are pregnant, 65 or over, or have a weakened immune system, check your country's list of chilled ready-to-eat foods to heat or avoid (lesson 4 gives both), because those foods can carry Listeria. If they are severely immunocompromised, ask their doctor what they can eat.
 :::
 
 ## Emulsions: oil held apart in water
