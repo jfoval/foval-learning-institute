@@ -21,10 +21,12 @@ and it never feels that way while you are writing it.
 
 Rewrite these five lines each session. Nothing else goes in this block.
 
-- **Renders are blocked on Google's prepaid credit balance, not the cap** (HTTP 402, confirmed
-  2026-09-23 on John's AI Studio page: prepay credits depleted, $41.77 of the $45 cap used).
-  `npm run state` now reads the 402 and moves on to content until a render succeeds. John tops up
-  at ai.studio/projects; clearing all 55 owed episodes would also need the cap raised to about $56.
+- **Renders run again.** John topped up prepaid credit and raised the cap to $56 on 2026-09-23.
+  Digital Literacy's episodes were rendered one at a time that night. **Digital Literacy lesson 1
+  twice returned `finishReason: OTHER` with no audio and only input tokens billed** (not the 402, not
+  a 429); lesson 2 rendered fine straight after, so it is specific to that script or transient. If it
+  fails a third time, look at the script's content before sending again. Next render order is `npm
+  run state`.
 - **Using AI Effectively is published and written.** T1, sixth of seven. Eleven lessons, every one
   through Stage 4 with its review applied, the voice pass done, the neutrality audit passed, both
   assessments written, and eleven fact-checked podcast scripts. Nothing on it is outstanding except
@@ -129,11 +131,17 @@ Rewrite these five lines each session. Nothing else goes in this block.
   and the mandatory neutrality audit passed (entry in `research/reviews/course-wide.md`). It owes
   eight podcast scripts to be written, which are next, and eight episodes, which trail.
 
-- **Mental Fitness is in Stage 3**, 2026-09-23: nine lessons planned, 1 to 4 drafted, reviewed by two
-  fresh-context reviewers each and applied. Every lesson carries a crisis callout that `npm run
-  validate` enforces word for word. **Every cited abstract is reproduced whole in an appendix to
-  `SOURCES.md`**, because the first three reviews each found the file quoting abstracts selectively in
-  the direction of its own framing; draft lessons 5 to 9 from the appendix, not from the entries.
+- **Mental Fitness is in Stage 3**, as of 2026-09-24. Nine lessons planned. **Lessons 1 to 4:** drafted,
+  reviewed by two fresh-context reviewers each, applied. **Lesson 5:** drafted; its two reviews ran and
+  their findings are in `research/reviews/05-exercise-asked-three-ways.md`, **not yet applied**.
+  **Lesson 6:** drafted, **not yet reviewed**. **Next session:** apply lesson 5's reviews, review
+  lesson 6 (two reviewers, as the course README says), then draft 7 to 9 and both assessments, then
+  the mandatory neutrality audit, then publish.
+  Every lesson carries a crisis callout that `npm run validate` enforces word for word. **Every cited
+  abstract is reproduced whole in an appendix to `SOURCES.md`**, because the first three reviews each
+  found the file quoting abstracts selectively in the direction of its own framing; draft from the
+  appendix, not from the entries, and check every quoted string (see the next item).
+
 - **`npm run quotes` only checks a quotation followed directly by a `[n]` marker**, so most quotations
   in a lesson are never checked. A spliced NICE quotation in Mental Fitness lesson 4 passed it. A
   paragraph-level check (every quoted string of 30+ characters against the research file) caught it
