@@ -805,14 +805,23 @@ lesson.**
 - Verbatim: "One hundred forty-six randomized studies of experimental disclosure were collected and
   included in the present meta-analysis. Results of random effects analyses indicate that experimental
   disclosure is effective, with a positive and significant average r-effect size of .075."
+- Verbatim, the abstract's opening definition: "Disclosing information, thoughts, and feelings about
+  personal and meaningful topics (experimental disclosure)". The abstract does not say how much of it
+  was written rather than spoken; "expressive writing" as its best-known form is this file's gloss.
 
-**What it establishes, carefully.** An r of .075 is small; by the standard conversion it is roughly
-d = 0.15, below every other method in this file, and **the conversion is this file's arithmetic, not
+**What it establishes, carefully.** An r of .075 is small; for small r, d is about 2r, so it is
+roughly d = 0.15, at the low end of the effects this file records (and pooled across outcomes the
+abstract does not name), and **the conversion is this file's arithmetic, not
 the paper's**, so a lesson that gives the d value must say so. The abstract does not say which outcomes
 were pooled. The Europe PMC search found many recent meta-analyses in particular clinical groups
 (cancer, postpartum, test anxiety), none opened. **The course has no general-population review of
 expressive writing for anxiety or depression at more than abstract level**, and Stage 2 should decide
 whether the method gets a lesson at all or a paragraph (see Open concerns).
+
+*Correction, 2026-09-24 (lesson 07 Stage 4, F5 and F13):* this entry said d = 0.15 was "below every
+other method in this file". It is not: Bosshard and Gomez's corrected d = 0.14 (15c), Kunzler's anxiety
+SMD -0.06 and well-being SMD 0.14 (13c), and Pauley's g = 0.14 (lesson 3) are as small or smaller. The
+abstract's definition was added at the same time.
 
 ---
 
@@ -834,6 +843,17 @@ review examined convergence/divergences across 54 studies". And: "The resilience
 modal response across studies (average of 65.7% across populations, 95% CI [0.616, 0.698]), followed in
 prevalence by recovery (20.8% [0.162, 0.258]), chronicity (10.6%, [0.086, 0.127]), and delayed onset
 (8.9% [0.053, 0.133])."
+- Added 2026-09-24 (lesson 07 Stage 4, F2), from the same abstract as held in the appendix: "Sources
+  of heterogeneity in estimates primarily resulted from substantive population differences rather than
+  bias, which was observed when prospective data is lacking." The second clause matters: most of the
+  studies followed people over time, and the abstract says bias showed up where they did not. And the
+  case counts: "Of the 67 cases that emerged from the 54 studies, the most consistently observed
+  trajectories following PTEs were resilience (observed in: n = 63 cases), recovery (n = 49), chronic
+  (n = 47), and delayed onset (n = 22)." The abstract names the trajectories and does not define them.
+- **Two definitions, not one.** Bonanno (13a) treats resilience as "a distinct trajectory from the
+  process of recovery"; Kunzler (13c) defines it as "the maintenance or quick recovery of mental
+  health", which folds quick recovery in. A lesson that sets the base rate beside the training review
+  must say the two use the word differently.
 
 **13c. Kunzler AM, Helmreich I, Chmitorz A, König J, Binder H, Wessa M, Lieb K, "Psychological
 interventions to foster resilience in healthcare professionals", *Cochrane Database of Systematic
@@ -849,7 +869,16 @@ Europe PMC, 2026-09-23.**
   participants), and lower levels of stress or stress perception (SMD -0.61, 95% CI -1.07 to -0.15; 17
   studies, 997 participants)."
 - Verbatim: "There was little or no evidence of any effect of resilience training on anxiety (SMD -0.06,
-  95% CI -0.35 to 0.23; 5 studies, 231 participants; very-low certainty evidence)".
+  95% CI -0.35 to 0.23; 5 studies, 231 participants; very-low certainty evidence) or well-being or
+  quality of life (SMD 0.14, 95% CI -0.01 to 0.30; 13 studies, 1494 participants; very-low certainty
+  evidence). Effect sizes were small except for resilience and stress reduction (moderate)."
+  *(Extended 2026-09-24, lesson 07 Stage 4, F10: the entry stopped at anxiety and left out the
+  well-being null and the authors' size labels, both in the abstract as held in the appendix.)*
+- Verbatim, comparators and bias: "Of the included studies, 19 compared a resilience training based on
+  combined theoretical foundation (e.g. mindfulness and cognitive-behavioural therapy) versus
+  unspecific comparators (e.g. wait-list)." And: "Risk of bias was high or unclear for most studies in
+  performance, detection, and attrition bias domains." The abstract does not give the comparators of
+  the other 25, so "19 of 44" is a floor on the unspecific comparisons, not a count of them.
 - Verbatim, conclusions: "The findings suggest positive effects of resilience training for healthcare
   professionals, but the evidence is very uncertain."
 
@@ -871,9 +900,13 @@ is contested and the best review says "very uncertain". Two further Cochrane res
 **Read: abstract, Europe PMC, 2026-09-23.** Verbatim: "the authors predict that a ratio of positive to
 negative affect at or above 2.9 will characterize individuals in flourishing mental health.
 Participants (N=188) completed an initial survey to identify flourishing mental health and then
-provided daily reports of experienced positive and negative emotions over 28 days." And: "these
+provided daily reports of experienced positive and negative emotions over 28 days." And: "Results showed
+that the mean ratio of positive to negative affect was above 2.9 for individuals classified as
+flourishing and below that threshold for those not flourishing. Together with other evidence, these
 findings suggest that a set of general mathematical principles may describe the relations between
-positive affect and human flourishing."
+positive affect and human flourishing." *(Corrected 2026-09-24, lesson 07 Stage 4, N1: this entry
+began the last sentence at "these findings", dropping the authors' "Together with other evidence,".
+Checked against PubMed's record, PMID 16221001, the same day.)*
 
 **14b. Brown NJ, Sokal AD, Friedman HL, "The complex dynamics of wishful thinking: the critical
 positivity ratio", *American Psychologist* 68(9), 2013, pp. 801 to 813, doi 10.1037/a0032850.**
@@ -891,6 +924,14 @@ examined Losada's conceptual and mathematical work". And, her position in her ow
 scrubbed of Losada's now-questioned mathematical modeling, ample evidence continues to support the
 conclusion that, within bounds, higher positivity ratios are predictive of flourishing mental health
 and other beneficial outcomes."
+- Added 2026-09-24 (lesson 07 Stage 4, N2), from the same abstract as held in the appendix. Her
+  summary of the critique: "and concluded that mathematical claims for a critical tipping point
+  positivity ratio are unfounded." And the sentence between her two quoted above, which the entry had
+  left out: "I also underscore the necessity of modeling nonlinear effects of positivity ratios and,
+  more generally, the value of systems science approaches within affective science and positive
+  psychology." So she questions the modelling and no longer rests her case on it, and she still argues
+  that nonlinear effects of positivity ratios need modelling. The abstract does not say she "withdrew
+  from" anything; that phrase, formerly in "What the course may say" below, was this file's.
 
 **14d. The same Brown, Sokal and Friedman paper, as the authors' preprint: arXiv 1307.7006v1, posted
 26 July 2013, https://arxiv.org/abs/1307.7006.** **Read on 2026-09-24, for lesson 07 under defect 26:
@@ -912,6 +953,10 @@ quoting these passages says it is quoting the preprint.
   totally arbitrary as well". And: "Recall that Saltzman (1962) chose σ = 10 for illustrative purposes
   and purely for convenience; then Lorenz (1963) and Losada (1999) followed him." With σ = 16 they
   report "the predicted critical positivity ratio (with i = 16) is (P/N)crit = 1233/296 = 4.1655405."
+  **Only σ changes in that example**: b stays at 8/3 and i stays at 16, the same values as in their
+  derivation of 2.9013 ("Specializing to σ = 10, b = 8/3 and i = 16"). Their general point, between the
+  two sentences above, re-read on 2026-09-24 (lesson 07 Stage 4, C1 and F9): "Choose different values
+  of the parameters σ, b, i and one gets a completely different prediction".
 - On the empirical study: "there is nothing inherently implausible about the idea that people with a
   higher ratio of positive to negative emotions might experience better outcomes than those with a
   lower ratio. But the suggestion that people with a positivity ratio of 2.91 are in some discontinuous
@@ -924,9 +969,16 @@ quoting these passages says it is quoting the preprint.
   higher positivity ratio is ordinarily more desirable than a lower one. But to suggest that some form
   of discontinuity sets in at some special value of the positivity ratio — especially one that is
   independent of all demographic and cultural factors — seems far-fetched. We cannot, of course, prove
-  that no such “tipping point” exists".
+  that no such “tipping point” exists". **Keep the last sentence with the first** when quoting the
+  scope: the critics say they cannot prove no tipping point exists, only that the 2005 paper did not
+  find one.
 - On motive: "Let us stress that our concern here is with the objective properties of published texts,
-  not the subjective states of mind of the authors".
+  not the subjective states of mind of the authors". **The sentence before it is harsher, and a lesson
+  quoting the disclaimer must not leave the tone out** (lesson 07 Stage 4, N5, re-read 2026-09-24):
+  the Concluding remarks quote Andreski on mathematics used for show in the social sciences, and say
+  "But as applied to the articles of Losada (1999), Losada and Heaphy (2004), and Fredrickson and
+  Losada (2005), Andreski’s portrayal is, alas, literally accurate." The disclaimer is about motive,
+  not about the verdict on the texts.
 
 **What 14d changes.** The critics and Fredrickson's reply are closer than 14b and 14c alone suggest:
 **the critics say in terms that they do not dispute the weaker claim Fredrickson still holds.** The
@@ -936,13 +988,17 @@ debunking of positive psychology. Note that the curly quotation marks and the em
 preprint's own.
 
 **What the course may say.** The mathematical claim for a critical tipping point of 2.9013 was shown to
-be unfounded, and the first author accepted that the modelling was "now-questioned" and withdrew from
-it. **Her remaining claim, that more positive emotion relative to negative predicts flourishing
+be unfounded, and the first author calls the modelling "now-questioned" and no longer rests her case on
+it, while still arguing that nonlinear effects of positivity ratios need modelling (14c). **Her remaining claim, that more positive emotion relative to negative predicts flourishing
 "within bounds", is a separate and much weaker claim, and she still holds it.** Both must be stated,
 each in its author's words, and the lesson must not imply the whole field of positive emotion research
-fell with the ratio. **The journal's correction notice was not found** (Europe PMC returned nothing and
-the APA site blocks automated access), so the course must not use the word "retracted" or describe the
-correction's wording; "partially withdrawn" is also not verified here. Say what 14b and 14c say.
+fell with the ratio. **The journal's correction notice has now been read** (19i, 2026-09-24, as
+reprinted by Retraction Watch; the APA record itself still refuses automated access). It formally
+withdraws the modelling and the model-based ratios and says the other elements stand. The course still
+must not use the word "retracted", because the notice is a correction, not a retraction, and PubMed
+indexes it as an erratum. A lesson may say what the notice says, in its words, at that read level.
+*(Amended 2026-09-24, lesson 07 Stage 4, N2 and N3: this paragraph said Fredrickson "withdrew from"
+the modelling, which her abstract does not say, and that the notice was not found.)*
 
 ---
 
@@ -951,7 +1007,13 @@ correction's wording; "partially withdrawn" is also not verified here. Say what 
 **15a. Keller A, Litzelman K, Wisk LE, Maddox T, Cheng ER, Creswell PD, Witt WP, "Does the perception
 that stress affects health matter? The association with health and mortality", *Health Psychology*
 31(5), 2012, pp. 677 to 684, doi 10.1037/a0026743, PMC3374921.** **Read: abstract, Europe PMC,
-2026-09-23. The full text was not opened** (retrieval failed).
+2026-09-23; then the full text (the author manuscript) on 2026-09-24, as recorded in the bullets
+below.** *(Header corrected 2026-09-24, lesson 07 Stage 4: it still said "The full text was not
+opened (retrieval failed)", which was true of the first pass only.)*
+- Verbatim, the abstract's Methods, re-read in the full text on 2026-09-24: "Cox proportional hazard
+  models were used to determine the impact of perceiving that stress affects health on all-cause
+  mortality." So the abstract says "impact" once, in its Methods; its conclusion says "associated"
+  (below), and the Discussion says the study "is unable to establish a causal relationship".
 - Design, verbatim: "Data from the 1998 National Health Interview Survey were linked to prospective
   National Death Index mortality data through 2006."
 - Verbatim: "those who reported a lot of stress and that stress impacted their health a lot had a 43%
@@ -967,6 +1029,18 @@ that stress affects health matter? The association with health and mortality", *
   - Results: "This represents an increase in the predicted cumulative hazard of death due to the stress
     interaction from 3.5% to 5.1% for those who reported a lot of stress in the past 12 months and the
     perception that stress affects health a lot compared to those who did not report either."
+  - Table 3, read 2026-09-24 (lesson 07 Stage 4, F12 and D2). The reference group (HR 1.00) is "Almost
+    no stress in last 12 months" with "Hardly any, or No perception that stress affects health", so
+    1.43 is against people who reported almost no stress and hardly any or no perceived effect. The
+    table's footnote lists the adjustments: "Controlling for gender, race/ethnicity, age, education
+    level, work status, marital status, children in the household, ratio of family income to poverty
+    threshold, metropolitan statistical area, smoking status, physical activity level, chronic
+    condition, health insurance, usual source of care, and whether the individual took measures to
+    reduce stress". So the 1.43 was already adjusted for a chronic-condition flag, smoking and physical
+    activity; self-reported health was added only in the sensitivity analysis.
+  - Sensitivity analysis, its opening sentence (read 2026-09-24): "Given the strong relationship between
+    stress and health and the well-established relationship between self-reported health and mortality,
+    we examined the potential mediating role of self-reported health on stress and mortality."
   - Sensitivity analysis: "Analyses revealed that the inclusion of self-reported health mediated the
     relationship between the stress interaction term and mortality such that the highest interaction
     category (reported experiencing a lot of stress and perceiving that stress impacts their health a
@@ -983,11 +1057,22 @@ that stress affects health matter? The association with health and mortality", *
     thus limited the ability to assess the temporality of stress and health outcomes." And: "Finally,
     this study was unable to address the role of factors that may be associated with perceptions of
     stress and health outcomes such as personality (e.g. neuroticism)."
+  - Limitations, the same paragraph, read 2026-09-24: "To account for the possibility that prior health
+    status may have influenced individuals’ perceptions of how stress affected their health, a flag for
+    chronic conditions was included in the model. This did not appear to change the findings for the
+    physical or mental health outcomes; however, this measure may not have adequately captured prior
+    health status." Note the scope: the second sentence is about the health outcomes, not mortality.
+    The apostrophe is the manuscript's own curly one.
   - **What the full text changes.** The authors themselves name reverse causality, state the study
     cannot establish causation, and give the 20,231 figure only under an explicit "If this were in fact
     a causal relationship". The 43% is for one combination (a lot of stress and a belief that it
     affects health a lot), and the belief alone did not independently predict death. After adjusting
     for self-reported health the combination's hazard ratio fell to 1.18, of borderline significance.
+    **The authors call that a mediation** ("mediated", "the potential mediating role"), not a test of
+    reverse causality. The drop fits either reading, reverse causality or mediation, and a survey of
+    this design cannot tell them apart; that last point is this file's reading, and a lesson must label
+    it. *(Added 2026-09-24, lesson 07 Stage 4, F3: the entry did not flag "mediated", and the draft
+    lesson called the analysis a test of reverse causality.)*
     **Whether the popular version carries the "if" is not something this course can check**, because
     it has not read McGonigal.
 
@@ -998,7 +1083,11 @@ that stress mindsets can be altered by watching short, multimedia film clips pre
 information biased toward defining the nature of stress in 1 of 2 ways". And: "In Study 3, we
 demonstrate the effect of stress mindset on physiological and behavioral outcomes, showing that a
 stress-is-enhancing mindset is associated with moderate cortisol reactivity and high desire for
-feedback under stress."
+feedback under stress." And the abstract's last sentence, added 2026-09-24 (lesson 07 Stage 4, N4),
+from the abstract as held in the appendix: "Together, these 3 studies suggest that stress mindset is a
+distinct and meaningful variable in determining the stress response." The abstract uses both "the
+effect of" and "is associated with" for Study 3 and does not say whether mindset was manipulated in
+that study, so a lesson must not rest a causal claim on Study 3 alone; the randomised evidence is 15c.
 
 **15c. Bosshard M, Gomez P, "Effectiveness of stress arousal reappraisal and stress-is-enhancing
 mindset interventions on task performance outcomes: a meta-analysis of randomized controlled trials",
@@ -1006,6 +1095,11 @@ mindset interventions on task performance outcomes: a meta-analysis of randomize
 from PMC: the abstract, and the "Publication bias" subsection of the Results.**
 - Verbatim: "The results revealed an overall small significant improvement in task performance (d =
   0.23, p < 0.001)." And: "SIE mindset-only interventions (k = 6, d = 0.18, p = 0.22)".
+- Verbatim, the other two arms, added 2026-09-24 (lesson 07 Stage 4, N4) from the abstract as held in
+  the appendix: "mixed interventions (i.e., SAR/SIE mindset instructions combined with additional
+  content, k = 5, d = 0.45, p = 0.004)" and "SAR-only interventions (k = 33, d = 0.22, p < 0.001)". A
+  lesson giving the mindset-only arm must give the SAR-only arm beside it. That six effect sizes may be
+  too few to detect a d of 0.18 is this file's reading, not the paper's.
 - Verbatim, on bias: "Smaller studies (i.e., higher SEs) had a disproportionate amount of effect sizes
   larger than the pooled effect size. The trim and fill method72 suggested that 11 studies with a smaller
   effect size than the pooled effect were missing". And: "After adding the missing studies to the
@@ -1083,7 +1177,7 @@ first Results paragraph, the secondary-outcome paragraph, and the Discussion inc
 monotherapy for major depressive disorder in randomized, placebo controlled trials submitted to the US
 Food and Drug Administration: individual participant data analysis", *BMJ* 378, 2022, e067606, doi
 10.1136/bmj-2021-067606, PMC9344377.** **Read: the abstract (Results from the Europe PMC full text,
-the rest from the Europe PMC record), 2026-09-23.** Kirsch is among its authors; the authors' affiliations were not checked.
+the rest from the Europe PMC record), 2026-09-23.** Kirsch is among its authors; the affiliations were checked on 2026-09-24 (below).
 - Verbatim: "232 randomized, double blind, placebo controlled trials of drug monotherapy for major
   depressive disorder submitted by drug developers to the FDA between 1979 and 2016, comprising 73 388
   adult and child participants".
@@ -1096,6 +1190,62 @@ the rest from the Europe PMC record), 2026-09-23.** Kirsch is among its authors;
 - Verbatim, conclusions: "The trimodal response distributions suggests that about 15% of participants
   have a substantial antidepressant effect beyond a placebo effect in clinical trials, highlighting the
   need for predictors of meaningful responses specific to drug treatment."
+
+**16c, raised to the full text on 2026-09-24, at Stage 3 of lesson 8 (defect 26).** **Read from the PMC
+full text (PMC9344377): the author list with affiliations, the abstract, the Introduction, the
+Discussion in full (principal findings, implications, strengths and limitations), the Conclusions, the
+disclaimer, the funding and the competing interests.** Not read: the Methods, the Results section and
+its tables and figures, the supplements. The abstract's Results, as PMC prints it whole (the appendix
+copy below is garbled in the middle): "The random effects mean difference between drug and placebo
+favored drug (1.75 points, 95% confidence interval 1.63 to 1.86). Differences between drug and placebo
+increased significantly (P<0.001) with greater baseline severity. After controlling for participant
+characteristics at baseline, no trends in treatment effect or placebo response over time were found."
+And: "These distributions were designated Large, Non-specific, and Minimal responses, respectively."
+- **Affiliations**, as the page prints them: Stone, Yaseen and Kalaria at the US Food and Drug
+  Administration's Center for Drug Evaluation and Research; Miller at Johns Hopkins; Richardville at the
+  Cleveland Clinic; Kirsch at the "Program in Placebo Studies, Beth Israel Deaconess Medical Center,
+  Harvard Medical School". Disclaimer, verbatim: "This article reflects the views of the authors and
+  should not be construed to represent US Food and Drug Administration’s views or policies." "Funding:
+  None." Competing interests (summarised, not quoted): none declared except for one author (Miller), who
+  lists advisory and consulting roles including one pharmaceutical company and was an FDA medical
+  officer in 2016 to 2017.
+- Verbatim, Introduction: "Meta-analyses have shown small mean differences between drug and placebo
+  arms, and the clinical significance of these differences continues to be debated."
+- Verbatim, Introduction, the question the paper asks: "The drug effect might not be a uniform small,
+  and hence clinically unimportant, benefit across patients (ie, a shift in distribution mean without a
+  change in the shape of the distribution). Rather, it could occur as a large, and thus clinically
+  important, difference for a small subpopulation (ie, a difference in response distribution
+  composition)."
+- Verbatim, Discussion: "we found a drug effect among adults equivalent to 1.82 points, with a
+  standardized mean difference of 0.24." (Adults only; the abstract's 1.75 includes children.)
+- Verbatim, Discussion: "About two thirds of participants assigned drug and placebo had a Non-specific
+  response." And: "Thus the observed advantage of antidepressants over placebo is best understood as
+  affecting a minority of patients as either an increase in the likelihood of a Large response or a
+  decrease in the likelihood of a Minimal response."
+- Verbatim, Discussion, on the middle group: "these responses might reflect the diverse interactions of
+  individual characteristics with placebo and other effects not related to drug treatment, such as
+  response to increased clinical contact, spontaneous improvements, and regression toward the mean."
+- Verbatim, Implications, on the conventional 50% response cut-off: "These threshold definitions,
+  although useful, are arbitrary."
+- Verbatim, limitations: "The patients included in our analysis are thus likely to have had less
+  clinically complex but more acutely severe depression than is typically seen in the community." And:
+  "We cannot fully exclude the possibility that the effects of the drugs are accounted for by functional
+  unblinding." (The same paragraph, summarised: the authors give two reasons they think unblinding is
+  not the main driver, namely that the response distributions did not show the shifts or extra modes
+  they would expect from it, and that drugs with more marked unblinding potential did not show larger
+  mean effects. They do not claim to have ruled it out.)
+- Verbatim, Conclusions: "Patients with depression are likely to improve substantially from acute
+  treatment of their depression with drug or placebo. Although the mean effect of antidepressants is
+  only a small improvement over placebo, the effect of active drug seems to increase the probability
+  that any patient will benefit substantially from treatment by about 15%. Further research is needed to
+  identify the subset of patients who are likely to require antidepressants for substantial
+  improvement." And: "Because the benefits and risks might be categorically different (eg, reduced
+  sadness v anorgasmia), weighting should be done at the individual level, jointly by patients and their
+  care providers."
+- **Not for quotation in a lesson (outline decision 3).** The Discussion's Implications paragraph says
+  patients with only modest improvement "might need to switch to another treatment", and a later
+  paragraph says lower-risk treatments first "might be preferable" for mild to moderate depression. Both
+  are treatment suggestions; the course reports that the paper discusses prescribing and quotes neither.
 
 **What 16c adds, and why it is the best object for the lesson.** It has Kirsch as an author and
 reproduces his 1.8-point average almost exactly (1.75). **It then shows that an average can hide a
@@ -1128,6 +1278,21 @@ paragraphs, the Discussion in full, and the competing interests.** The Results t
   and this belief shapes how people understand their moods".
 - Their own limitation, verbatim: "Most of the included studies were rated as low quality on the
   AMSTAR-2, but the GRADE approach suggested some findings were reasonably robust."
+- **Added 2026-09-24 at Stage 3 of lesson 8, re-copied from the PMC full text (PMC10618090) within the
+  read level above; nothing new was read.** Introduction, second paragraph, verbatim: "It is often
+  assumed that the effects of antidepressants demonstrate that depression must be at least partially
+  caused by a brain-based chemical abnormality, and that the apparent efficacy of SSRIs shows that
+  serotonin is implicated. Other explanations for the effects of antidepressants have been put forward,
+  however, including the idea that they work via an amplified placebo effect or through their ability to
+  restrict or blunt emotions in general [19, 20]." Discussion, first sentence, verbatim: "Our
+  comprehensive review of the major strands of research on serotonin shows there is no convincing
+  evidence that depression is associated with, or caused by, lower serotonin concentrations or
+  activity." The public-belief sentence continues, verbatim: "leading to a pessimistic outlook on the
+  outcome of depression and negative expectancies about the possibility of self-regulation of mood".
+  Discussion, last paragraph, verbatim: "This review suggests that the huge research effort based on the
+  serotonin hypothesis has not produced convincing evidence of a biochemical basis to depression."
+  Discussion, first paragraph, verbatim: "methods to reduce serotonin availability using tryptophan
+  depletion do not consistently lower mood in volunteers."
 - Competing interests (declared on the paper, summarised here, not quoted): one author co-founded a
   company to help people stop antidepressants; another has royalties from a book titled *Evidence-biased
   Antidepressant Prescription*; the first author receives royalties for books about psychiatric drugs and
@@ -1150,6 +1315,20 @@ full on 2026-09-23 (Europe PMC full text), including the competing interests.**
   depletion and decreased plasma tryptophan in depression indicate a role for 5-HT in those vulnerable to
   or suffering from depression, and that molecular imaging suggests the system is perturbed. The proven
   efficacy of SSRIs in a proportion of people with depression lends credibility to this position."
+- **Added 2026-09-24 at Stage 3 of lesson 8, re-copied from the PMC full text (PMC10618084), which
+  prints an abstract that Europe PMC's record lacks.** Verbatim, the scope sentence: "Putting aside
+  concerns about the antiquated concept of single-gene polymorphisms and the current view of polygenetic
+  architecture of Major Depressive Disorder (MDD), and discussion of antidepressant efficacy in a review
+  that did not present any such data, we highlight substantial methodological weaknesses that make
+  interpretation of the current review challenging." Verbatim, on plasma tryptophan: "L-tryptophan
+  plasma concentrations show, after adjusting for publication bias, significant decrease in people with
+  MDD (Hedge’s g = −0.45, 95% CIs, −0.66 to −0.23), with a large effect size of g = −0.84 (95% CIs −1.27
+  to −0.4) in unmedicated people [7]." The same paragraph describes "circulating tryptophan
+  concentrations, which directly influence central serotonin synthesis". Verbatim, on SERT: "This question would have been legitimately
+  answered by a conventional umbrella review, where included studies are extracted and meta-analysed."
+  Verbatim, their interim reading of tryptophan depletion: "A more accurate interpretation is that
+  tryptophan depletion studies suggest a role for 5-HT in people vulnerable to depression and in those
+  remitted on SSRI treatment."
 - Competing interests: the declarations run to a long paragraph of pharmaceutical honoraria,
   consultancies and grants for many of the 35 authors; one author is a part-time employee and
   shareholder of Lundbeck. Several authors declare nothing.
@@ -1616,7 +1795,39 @@ service on 2026-09-23, lists under comments and corrections an entry of type "Er
 *American Psychologist* 2013 Dec;68(9):822, alongside the Brown, Sokal and Friedman critique and four
 2014 comments. **It lists no retraction.** The erratum's text was not read. So the finding in source 14
 stands and is sharpened: **the journal record carries an erratum, not a retraction**, and a lesson may
-say that PubMed indexes an erratum and must not describe what the erratum says.
+say that PubMed indexes an erratum and must not describe what the erratum says. *(That last clause is
+superseded by the next paragraph, 2026-09-24.)*
+
+**The notice itself, read on 2026-09-24 (lesson 07 Stage 4, N3).** The APA PsycNet record
+(2013-32937-001) refused automated access (HTTP 403). The notice's text was read as **reprinted in full
+by Retraction Watch** in its post of 2013-09-19,
+https://retractionwatch.com/2013/09/19/fredrickson-losada-positivity-ratio-paper-partially-withdrawn/,
+which says the notice "appeared on September 16". **Read level: the notice as Retraction Watch reprints
+it, not the journal's own page**, so a lesson quoting it says where it was read. Retraction Watch's
+headline word "partially withdrawn" is the blog's, not the notice's. Verbatim, the whole notice as
+reprinted:
+
+> Reports an error in “Positive Affect and the Complex Dynamics of Human Flourishing” by Barbara L.
+> Fredrickson and Marcial F. Losada (American Psychologist, 2005[Oct], Vol 60[7], 678-686). The
+> hypothesis tested in this article was motivated, in part, by the nonlinear dynamic model introduced in
+> Losada (1999) and advanced in Losada and Heaphy (2004) and herein (Fredrickson & Losada, 2005). This
+> model has since been called into question (Brown, Sokal, & Friedman, 2013). Losada has chosen not to
+> defend his nonlinear dynamic model in light of the Brown et al. critique. Fredrickson’s (2013)
+> published response to the Brown et al. critique conveys that although she had accepted Losada’s
+> modeling as valid, she has since come to question it. As such, the modeling element of this article
+> is formally withdrawn as invalid and, along with it, the model-based predictions about the particular
+> positivity ratios of 2.9 and 11.6. Other elements of the article remain valid and are unaffected by
+> this correction notice, notably (a) the supporting theoretical and empirical literature, (b) the data
+> drawn from two independent samples, and (c) the finding that positivity ratios were significantly
+> higher for individuals identified as flourishing relative to those identified as nonflourishing.
+
+**What this changes.** The notice is a correction ("Reports an error", "this correction notice"), which
+fits PubMed's "ErratumIn", and it is not a retraction: the word stays banned. But it does formally
+withdraw something, in its own words: "the modeling element of this article is formally withdrawn as
+invalid and, along with it, the model-based predictions about the particular positivity ratios of 2.9
+and 11.6." And it names what stands, including the finding that flourishing individuals had higher
+ratios. A lesson may now say both, quoted, at this read level. The curly quotation marks and
+apostrophes are Retraction Watch's rendering.
 
 ---
 
@@ -1723,8 +1934,11 @@ with the marketing.
 **Can resilience be trained?**
 *Possibly, in the short term:* Kunzler, positive post-test effects on resilience, depression and stress
 (13c). *Unknown, at very low certainty, with no long-term data and no effect on anxiety:* the same review.
-*The premise is wrong, because resilience is the common outcome:* Bonanno (13a, 13b). **Classification:
-contested, with the base rate established.**
+*The premise is wrong, because resilience is the common outcome:* this file's construction from
+Bonanno's base rate (13a, 13b); neither abstract mentions training, so the position is not Bonanno's
+and a lesson must not attribute it to him. Note too that Kunzler's "maintenance or quick recovery" and
+Bonanno's trajectory distinct from recovery are different definitions (13b). **Classification:
+contested, with the base rate established.** *(Label added 2026-09-24, lesson 07 Stage 4.)*
 
 **Does changing your stress mindset change outcomes?**
 *Yes, it improves performance modestly:* Bosshard and Gomez, d = 0.23 overall (15c); Crum and
@@ -1734,8 +1948,12 @@ SIE-only p = 0.22. *The famous mortality claim is an association:* Keller (15a).
 contested and small; the mortality version is an overreach of an observational finding.**
 
 **Does the positivity ratio exist?**
-*The tipping point does not:* Brown, Sokal and Friedman (14b), accepted in substance by Fredrickson
-(14c). *Higher ratios still predict flourishing within bounds:* Fredrickson (14c). **Classification: the
+*The tipping point does not:* Brown, Sokal and Friedman (14b); Fredrickson calls the modelling
+"now-questioned" and no longer rests her case on it, while still arguing for modelling nonlinear
+effects (14c); and the journal's correction notice formally withdraws the modelling and the ratios of
+2.9 and 11.6 (19i). *Higher ratios still predict flourishing within bounds:* Fredrickson (14c).
+*(Amended 2026-09-24, lesson 07 Stage 4, N2: this said "accepted in substance by Fredrickson", which
+over-reads her abstract.)* **Classification: the
 2.9013 claim is refuted; the weaker claim is contested and this course has read nothing testing it.**
 
 ## Best existing free resources (to link, not duplicate)

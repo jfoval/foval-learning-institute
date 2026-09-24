@@ -78,6 +78,7 @@ wherever it prints a number, in the form Sleep used.
 
 **6. The positivity ratio is "shown to be unfounded", never "retracted".** Source 14 and 19i: PubMed
 indexes an erratum and no retraction, and the correction notice itself was not read.
+*Amended 2026-09-24 (lesson 7 Stage 4, N3):* the notice has now been read as Retraction Watch reprints it (SOURCES 19i); it "formally" withdraws the modelling and the ratios of 2.9 and 11.6 "as invalid", so a lesson may say that in the notice's own words, and "retracted" stays banned because the notice is a correction.
 
 **7. The `unread:` line exempts McGonigal for lesson 07 only**, so that lesson can name the talk through
 which most readers met the Keller study, and says at the point of use that the course has not read
@@ -384,7 +385,9 @@ the courses before it.
 - **Lessons 5 and 6** carry enthusiasm risk: exercise and mindfulness are the methods a general reader
   most wants to hear work. Headline figures travel with their best-controlled and head-to-head figures.
 - **Lesson 7** carries the opposite risk, of sneering at popular psychology. The positivity ratio's
-  author accepted the critique in substance; say so in her words.
+  author calls the modelling "now-questioned" and no longer rests her case on it; say so in her words.
+  *(Amended 2026-09-24, lesson 7 Stage 4, N2: this said she "accepted the critique in substance",
+  which over-reads her abstract; she still argues for modelling nonlinear effects of the ratio.)*
 - **Every lesson** is read by somebody who may be struggling. No sentence may imply that needing more
   than self-help is a failure, and no sentence may imply a method will work for the reader.
 
