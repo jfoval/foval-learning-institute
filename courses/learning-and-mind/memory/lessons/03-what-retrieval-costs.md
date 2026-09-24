@@ -1,6 +1,7 @@
 ---
 title: What retrieving one thing does to its neighbours
 minutes: 85
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/learning-and-mind/memory/03-what-retrieval-costs.mp3
 objectives:
   - >-
     State what retrieval-induced forgetting is and what the meta-analysis found, with its intervals
