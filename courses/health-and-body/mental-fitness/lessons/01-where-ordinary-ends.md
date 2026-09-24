@@ -311,6 +311,8 @@ purpose.
 - **Children and teenagers.** Everything here is from adult guidelines.
 - **Insomnia.** **Sleep** lesson 6 covered what's offered for chronic insomnia.
 - **Supplements**, except where a later lesson meets one a guideline names.
+- **Religious and spiritual practice**, such as prayer. This course hasn't researched it, and nothing
+  in it is a view on it, for or against.
 - **Medication advice of any kind.** Lesson 8 describes a dispute about antidepressants. No lesson
   tells anyone to start, stop or change a medicine.
 - **A map of your health system.** In England, NHS Talking Therapies takes self-referrals: "you can

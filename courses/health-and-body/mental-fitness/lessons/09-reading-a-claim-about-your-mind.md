@@ -230,7 +230,7 @@ Fincham's breathwork row comes last, because its abstract does not say what the 
 | Exercise, Clegg 2026 (5): -0.67, and -0.46 in the seven best-run trials | *A mix, placed at no treatment:* no treatment or a control intervention | That exercise may reduce depressive symptoms, on low-certainty evidence |
 | Meditation programmes, Goyal 2014 (6): anxiety 0.38 at 8 weeks | *Attention or placebo control:* "active controls for placebo effects" | A small benefit over those controls, in clinical populations |
 | Antidepressants, Kirsch 2008 and Cipriani 2018 (8): 0.32 and 0.30 | *Placebo control:* a placebo pill | A modest average advantage over placebo, whose meaning is contested |
-| Antidepressants, Stone 2022 (8): Large responses in 24.5 against 9.6 percent, about 15 points more | *Placebo control:* a placebo pill | That the average may hide a group who benefit a lot, whom nobody can yet pick out |
+| Antidepressants, Stone 2022 (8): Large responses in 24.5 against 9.6 percent, about 15 points more | *Placebo control:* a placebo pill | That the average may hide a group who benefit a lot, whom nobody can yet pick out, while most people's improvement fell in the same middle band on either pill |
 | CBT, Cuijpers 2023 (2): 0.06 | *Another treatment:* other talking therapies | A small edge for CBT that did not survive most sensitivity analyses |
 | Self-help for anxiety, Mayo-Wilson 2013 (3): -0.23 | *Another treatment:* face-to-face therapy | A small edge for face-to-face therapy, on low-quality evidence, against therapies less thorough than routine care |
 | Exercise, Clegg 2026 (5): 0.03, moderate certainty | *Another treatment:* psychological therapy | That the two probably did about as well as each other, in ten trials |
@@ -354,7 +354,7 @@ because that is how it is usually said. But every figure in the table is a gap b
 lesson 2's conversion, an effect of 0.3 puts the average treated person ahead of about 62 percent of
 the comparison group, and that is not 62 percent of people helped.[11] Even for antidepressants, whose
 average advantage over placebo both sides of lesson 8's dispute measure, [Stone and
-colleagues](https://pmc.ncbi.nlm.nih.gov/articles/PMC9344377/) found the advantage "best understood
+colleagues](https://pmc.ncbi.nlm.nih.gov/articles/PMC9344377/) concluded, from a model they fitted, that it's "best understood
 as affecting a minority of patients".[10] The reverse holds too: a method that does not help you has not
 been shown wrong, and you have not been shown to be a particular kind of case.
 
@@ -473,7 +473,7 @@ component is for **Habits and Addiction**, also planned.
 :::callout If you take an antidepressant
 This lesson's table set two antidepressant findings beside the other methods, and none of it bears on whether any particular person should take, keep or stop a medicine.
 
-On stopping, NICE's recommendation 1.4.12 tells clinicians to "Advise people taking antidepressant medication to talk with the person who prescribed their medication (for example, their primary healthcare or mental health professional) if they want to stop taking it", and to "Explain that it is usually necessary to reduce the dose in stages over time (called 'tapering') but that most people stop antidepressants successfully. [2022]"[2]
+On stopping, NICE's recommendation 1.4.12 tells clinicians to "Advise people taking antidepressant medication to talk with the person who prescribed their medication (for example, their primary healthcare or mental health professional) if they want to stop taking it", and to "Explain that it is usually necessary to reduce the dose in stages over time (called 'tapering') but that most people stop antidepressants successfully. [2022]"[2] Recommendation 1.4.14 adds that for some people "withdrawal can sometimes be more difficult", which is one more reason that conversation comes first.[2]
 :::
 
 ## Sources

@@ -97,7 +97,7 @@ quiz:
       question about what the number measures.
 ---
 
-The next six lessons are about methods people are offered for stress, worry and low mood, and the
+The next five lessons are about methods people are offered for stress, worry and low mood, and the
 one after them is about medication. Every one of them comes with a number. This lesson is about how
 to read that number, because in this subject the number means very little until you know one more
 thing about it.

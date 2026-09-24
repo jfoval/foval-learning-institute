@@ -422,7 +422,7 @@ ratio and a mindset, where a claim is compressed even further on its way to the 
 
 Nothing in this lesson is a reason to start, stop or swap a treatment. NG222 lists group exercise among the first-line options for less severe depression. For more severe depression it comes last in the table, and its row adds: "In more severe depression, the potential advantages of providing other treatment choices with more therapist contact should be carefully considered first."[1]
 
-If you take an antidepressant and are thinking of stopping it, NICE's advice is to "talk with the person who prescribed their medication" first, because "it is usually necessary to reduce the dose in stages over time". It adds that "most people stop antidepressants successfully".[1]
+If you take an antidepressant and are thinking of stopping it, NICE's advice is to "talk with the person who prescribed their medication" first, because "it is usually necessary to reduce the dose in stages over time". It adds that "most people stop antidepressants successfully", and a later recommendation, 1.4.14, warns that "withdrawal can sometimes be more difficult" for some people, with symptoms lasting weeks or occasionally months.[1]
 :::
 
 ## Sources

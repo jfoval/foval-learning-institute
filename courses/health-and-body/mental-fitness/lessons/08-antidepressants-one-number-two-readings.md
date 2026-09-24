@@ -37,8 +37,8 @@ quiz:
       - The drug added about 2, since the 9 both arms share may reflect placebo and other effects
     answer: 3
     explain: >-
-      The drug's own contribution is the gap between the arms, about 2 points, and the rest came to
-      both arms alike. Stone and colleagues suggest the broad middle band of improvement reflects
+      What the trial credits to the drug is the gap between the arms, about 2 points, and the rest
+      came to both arms alike. Stone and colleagues suggest the broad middle band of improvement reflects
       "placebo and other effects not related to drug treatment". The option giving the drug all 11
       forgets that the drug arm had the same trial contact. The option crediting 9 points to the dummy
       pill is half right about the gap and wrong about the rest, which also includes things like
@@ -209,8 +209,11 @@ such as waiting lists and usual care, beside a drug's 0.3 against placebo.
 And look again at Kirsch's two groups. The drug groups improved by 9.60 points and the placebo groups
 by 7.80.[1] Most of the improvement happened in both. The 2022 analysis says the same in its
 conclusions: "Patients with depression are likely to improve substantially from acute treatment of
-their depression with drug or placebo."[3] So the 0.3 is the part that came from the drug, over and
-above everything else that came with being in a trial.
+their depression with drug or placebo."[3] So the 0.3 is the part the trials credit to the drug, over
+and above everything else that came with being in a trial. Whether that credit is too small or too
+large is itself argued over, and both arguments are below: Cipriani's team say dropouts can make it an
+underestimate, and Stone's team say they can't fully exclude "functional unblinding", which would make
+it an overestimate.[2][3]
 
 ## Two readings of the same 0.3
 
@@ -329,7 +332,8 @@ Real response is messier than either.
 
 This is where the two ideas in this lesson meet, on this course's reading.[7] NICE's three points was a
 line for a change a person would notice, and Kirsch applied it to a group average. An average of 1.8
-can come from a world in which some people are well past 3 points.
+can come from a world in which some people are well past 3 points, or, as in world one, from a world
+in which nobody is. The average alone can't say which.
 
 :::predict Stone's team modelled everyone's improvement, on drug and on placebo, to see which world the data looked like. Before you read on: do you expect one smooth spread of improvements, or separate groups?
 
@@ -638,6 +642,8 @@ used since the first course, and it ends on what this course cannot tell you abo
 
 Nothing in this lesson tells anyone to start, stop, reduce or switch a medicine. The research disputes it describes are about averages, mechanisms and thresholds, and none of them can say what's right for one person.
 
+Stopping has its own evidence, which this course hasn't read beyond NICE's summary of it. Recommendation 1.4.14 notes that "withdrawal can sometimes be more difficult, with symptoms lasting longer (in some cases several weeks, and occasionally several months)".[6] That's one more reason the conversation below comes first.
+
 NICE's recommendation 1.4.12, in full: "Advise people taking antidepressant medication to talk with the person who prescribed their medication (for example, their primary healthcare or mental health professional) if they want to stop taking it. Explain that it is usually necessary to reduce the dose in stages over time (called 'tapering') but that most people stop antidepressants successfully. [2022]"[6]
 :::
 
@@ -694,8 +700,8 @@ NICE's recommendation 1.4.12, in full: "Advise people taking antidepressant medi
    management*, NICE guideline NG222, 2022, https://www.nice.org.uk/guidance/ng222. **Read:
    recommendation 1.5.3, Table 1 with its heading and row order, Table 2's row order, and
    recommendations 1.4.12 to 1.4.21.** Supports: the first-line recommendation for less severe
-   depression, the SSRI row's place and the heading caveat, Table 2's first and fourth rows, and the
-   closing recommendation on stopping.
+   depression, the SSRI row's place and the heading caveat, Table 2's first and fourth rows, 1.4.14's
+   note on withdrawal, and the closing recommendation on stopping.
 7. **This course's own constructions, labelled where they appear.** The 62 and 86 percent conversions
    (lesson 2's arithmetic on the normal curve), the note that NG222 was not checked for any threshold,
    the observation that Cipriani did not set their figure against a threshold and that the course has

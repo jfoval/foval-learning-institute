@@ -97,7 +97,7 @@ quiz:
 ---
 
 Worry is the part of anxiety most people recognise in themselves: the thought that keeps coming back,
-the what-ifs at two in the morning. It's also where advice can run ahead of the evidence. This lesson
+the what-ifs at two in the morning. It is also where advice can run ahead of the evidence. This lesson
 is about both.
 
 :::callout If you're struggling right now
@@ -113,11 +113,11 @@ symptoms: restlessness, being easily fatigued, difficulty concentrating, irritab
 tension, disturbed sleep."[1]
 
 That order matters. Tiredness, irritability and poor sleep have many causes, and on their own they
-don't point to GAD; they're asked about only after the worry itself has been established as
-excessive and hard to control. That reading of why the order matters is this course's.[6] It's also
-one more reason not to score yourself: the list isn't the test.
+do not point to GAD; they're asked about only after the worry itself has been established as
+excessive and hard to control. That reading of why the order matters is this course's.[6] It is also
+one more reason not to score yourself: the list is not the test.
 
-## What NICE offers, and what it doesn't name
+## What NICE offers, and what it does not name
 
 At step 2, for "people with GAD whose symptoms have not improved after education and active monitoring
 in step 1", CG113 says to "offer 1 or more of the following as a first-line intervention, guided by the
@@ -125,15 +125,21 @@ person's preference: individual non-facilitated self-help; individual guided sel
 psychoeducational groups."[1] The verb is "offer", NICE's strong grade, and lesson 3 showed what each
 of those means.
 
-At step 3, if a person chooses a high-intensity psychological treatment: "offer either CBT or applied
+Step 3 is a choice between a high-intensity psychological treatment and a drug treatment, and CG113
+does not rank them: "Base the choice of treatment on the person's preference as there is no evidence
+that either mode of treatment (individual high-intensity psychological intervention or drug
+treatment) is better. [2011]"[1] This lesson describes the psychological side, because that's what
+this course researched; the drug side is a conversation with a prescriber, not a course.
+
+If a person chooses a high-intensity psychological treatment: "offer either CBT or applied
 relaxation." Applied relaxation is a structured treatment, not advice to relax, much as **Sleep**
-lesson 6 found CBT-I isn't being told to relax. NICE specifies it should "be based on the treatment
+lesson 6 found CBT-I is not being told to relax. NICE specifies it should "be based on the treatment
 manuals used in the clinical trials of applied relaxation for GAD", "be delivered by trained and
 competent practitioners", and "usually consist of 12 to 15 weekly sessions ... each lasting 1 hour."[1]
 Manualised means delivered from a written protocol. This course didn't read a description of the
 technique itself.
 
-Now what the page doesn't say. This course searched CG113's recommendations page, which it read in
+Now what the page does not say. This course searched CG113's recommendations page, which it read in
 full. "Mindfulness", "breathing", "yoga" and "physical activity" don't appear on it. "Exercise" appears
 twice: once as a verb ("exercise caution"), and once in a 2004 recommendation for panic disorder that
 is health advice, not treatment: "The benefits of exercise as part of good general health should be
@@ -144,7 +150,7 @@ a different guideline and a different condition; lessons 5 and 6 come to them.[2
 
 ## What the evidence shows for treating GAD
 
-The evidence that CBT beats waiting lists and usual care for GAD is consistent. Beyond that it's less
+The evidence that CBT beats waiting lists and usual care for GAD is consistent. Beyond that it is less
 clear. Every study below was read at abstract level.
 
 [The Cochrane review of psychological therapies for GAD](https://doi.org/10.1002/14651858.CD001848.pub4),
@@ -165,7 +171,7 @@ clinical response was indicated between CBT and supportive therapy at post-treat
 0.70 to 1.06), however significant heterogeneity was indicated, which was partly explained by the
 number of therapy sessions."[3] Heterogeneity means the trials disagreed with each other more than
 chance explains, as in **Sleep** lesson 3. That gloss of supportive therapy is this course's; the
-abstract doesn't define it.[6]
+abstract does not define it.[6]
 
 A 2014 meta-analysis by Cuijpers and colleagues included 41 studies; across 28 of them, psychotherapy
 against a control group gave a large effect, g = 0.84, and "The majority of studies used waiting lists
@@ -175,7 +181,7 @@ question has its answer right there.
 For internet treatment of GAD specifically, a 2021 meta-analysis by Eilert and colleagues found "large
 effect sizes for primary outcomes of anxiety (g = 0.79) and worry (g = 0.75), favoring treatment", with
 a note that matters for this lesson: "Considerable heterogeneity between studies appeared moderated by
-variability in the interventions themselves".[4] The abstract doesn't name the control conditions, so
+variability in the interventions themselves".[4] The abstract does not name the control conditions, so
 this course can't say what those figures were measured against.
 
 On CBT against applied relaxation, Cuijpers 2014 first says "The number of studies comparing CBT with
@@ -190,7 +196,7 @@ both at step 3. Contested, and small either way.
 
 Now the technique a reader is most often handed for worry. It goes by several names: worry
 postponement, or stimulus control for worry. In the trials below it meant setting aside a fixed time,
-and in one trial a fixed place, for worrying, and putting worry off until then. **That's a description
+and in one trial a fixed place, for worrying, and putting worry off until then. **That is a description
 of what the studies tested, not an instruction.** "Stimulus control" here is the same name as the
 insomnia component in **Sleep** lesson 6, applied to worry instead of to the bed, and the insomnia
 grade doesn't carry across. The method traces back to a 1983 paper by Borkovec and colleagues, which
@@ -231,7 +237,7 @@ Krzikalla and colleagues describe the field before their trial: "Worry postponem
 stimulus control rationale appears to be effective in non-clinical samples. However, preliminary
 research in participants with generalized anxiety disorder (GAD) does not support its efficacy in
 reducing negative metacognitions or worry." Negative metacognitions are beliefs about one's own
-worrying, such as that it's uncontrollable. Their trial used a different rationale, a metacognitive
+worrying, such as that it is uncontrollable. Their trial used a different rationale, a metacognitive
 one, and concludes: "WP with a metacognitive rationale seems to be effective in reducing worry in
 participants with GAD."[5]
 
@@ -258,7 +264,7 @@ GAD."[5]
 
 No, and Hoyer is the counterexample. A single component can be shown to work alone, and here it was: against applied relaxation, which NICE offers, in diagnosed patients, over fifteen sessions with a therapist, with follow-up.
 
-What makes Hoyer different from a "worry time" tip isn't that it's one technique. It's how it was tested and delivered: a diagnosed sample, a manual, a trained therapist, an active comparison. That's the gap between a component shown to work and a tip. And a package that works, like CBT for worry, doesn't show that every part of it works alone, while a part not yet shown to work alone isn't shown to fail either. That reading is this course's.[6]
+What makes Hoyer different from a "worry time" tip is not that it is one technique. It's how it was tested and delivered: a diagnosed sample, a manual, a trained therapist, an active comparison. That is the gap between a component shown to work and a tip. And a package that works, like CBT for worry, doesn't show that every part of it works alone, while a part not yet shown to work alone is not shown to fail either. That reading is this course's.[6]
 :::
 
 **Sleep** lesson 6 met a similar problem with sleep hygiene, with a difference worth noticing. Sleep
@@ -307,7 +313,7 @@ reassurance.
    they had a clinician.
 
 End with one line: is this a tested package, a component tested alone, or not found? If you found
-nothing in 25 minutes, write "not found in 25 minutes". That's a fact about your search, not about the
+nothing in 25 minutes, write "not found in 25 minutes". That is a fact about your search, not about the
 technique.
 :::
 
@@ -341,7 +347,7 @@ question gets three different answers.
 
 1. National Institute for Health and Care Excellence, CG113, 2011, updated 2020. **Read: the
    Recommendations chapter, and the appendix on assessing GAD.** Supports: the associated symptoms and
-   their order, step 2, applied relaxation's specification, the panic recommendation, the 2004 exercise
+   their order, step 2, the choice at step 3 (1.2.17), applied relaxation's specification, the panic recommendation, the 2004 exercise
    line, and what the recommendations page does not contain.
 2. National Institute for Health and Care Excellence, NG222, 2022, Table 1. **Read.** Supports: group
    exercise and group mindfulness among options for less severe depression.

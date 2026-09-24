@@ -362,7 +362,9 @@ This case does not fit Sleep's shapes, because the problem was in the paper, not
 shapes describe what can happen next. A version that still says "three to one" has dropped the
 examination and the correction, and one that says "positivity was debunked" has dropped the half both
 sides agree on. Both are the third shape in this lesson's wider sense, and in this course's reading
-both drops run toward a simpler story.[9]
+both drops run toward a simpler story.[9] And the ratio is one claim, not a field. This course
+hasn't read the wider research on positive emotion or on positive-psychology interventions, so
+nothing in this section is a verdict on either.
 
 ## The belief that stress is bad for you
 

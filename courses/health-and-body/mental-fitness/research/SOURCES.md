@@ -258,7 +258,10 @@ they want to stop taking it. Explain that it is usually necessary to reduce the 
 time (called 'tapering') but that most people stop antidepressants successfully. [2022]" 1.4.14 (in
 part): "withdrawal can sometimes be more difficult, with symptoms lasting longer (in some cases several
 weeks, and occasionally several months)". **The course may quote 1.4.12 as the single sentence on this
-subject, and nothing from 1.4.16 (the tapering method).**
+subject, and nothing from 1.4.16 (the tapering method).** *(Amended 2026-09-24, course-wide neutrality audit, N3: lesson 8's closing callout
+also quotes the 1.4.14 fragment above, before 1.4.12, because 1.4.12's "most people stop antidepressants
+successfully" was the only thing the course said about stopping, four times, and a reader sympathetic
+to the critics would insist on NICE's own caveat. It is a caveat, not a method; 1.4.16 stays out.)*
 
 **St John's Wort (1.4.38), verbatim:** "Although there is evidence that St John's Wort may be of
 benefit in less severe depression, healthcare professionals should: ... not prescribe or advise its
@@ -2096,7 +2099,8 @@ site decision the outline should raise (see Open concerns).
   to explain Cipriani's design, no advice to start, stop, reduce or switch anything. The one sentence the
   course may give on stopping is NG222 1.4.12: talk to the prescriber, it is "usually necessary to reduce
   the dose in stages over time". Any lesson on the antidepressant or serotonin disputes ends with that
-  sentence.
+  sentence. *(2026-09-24, course-wide neutrality audit: lesson 8 may also quote 1.4.14's
+  withdrawal fragment, before 1.4.12; see §2.)*
 - **Supplements.** NG222 declines to recommend St John's Wort because of interactions "including hormonal
   contraceptives, anticoagulants and anticonvulsants" (source 2); a lesson that mentions it must carry that.
 - **Meditation.** Van Dam's contraindications paragraph (9e) and NG222's Table 1 note on intensely

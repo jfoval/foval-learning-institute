@@ -108,8 +108,8 @@ quiz:
 ---
 
 These three are the methods people meet most often after exercise: a mindfulness course or app, a
-suggestion to "get active", and a breathing exercise. Each has evidence behind it, and each has been
-sold further than its evidence goes. This lesson reads all three with the same questions: what did the
+suggestion to "get active", and a breathing exercise. Each has evidence behind it, and for each the
+useful question is how far that evidence goes. This lesson reads all three with the same questions: what did the
 comparison group get, how sure is anyone, and who was left out?
 
 :::callout If you're struggling right now
@@ -201,7 +201,7 @@ those with more pronounced residual symptoms", meaning people still carrying som
 
 About 21% lower (1 minus 0.79), with an interval from 0.64 to 0.97 that stays below 1.
 
-It doesn't show MBCT beats antidepressants. The active treatments included antidepressants, but the abstract does not report the drug comparisons on their own, and the finding is about preventing relapse in people already in remission, not about treating depression. That's the fairest narrow case for mindfulness against a drug in this course's file, and it's narrow.
+It doesn't show MBCT beats antidepressants. The active treatments included antidepressants, but the abstract does not report the drug comparisons on their own, and the finding is about preventing relapse in people already in remission, not about treating depression. It's a fair case for mindfulness against a drug, and a narrow one. The other in this course's file, a trial in anxiety disorders, comes later in this lesson.
 :::
 
 It isn't evidence for mindfulness as a general stress tool, and the authors do not claim it is.[3]
@@ -491,7 +491,7 @@ between the evidence and the claim is widest of all.
 
 This lesson set a mindfulness course beside an antidepressant, and BA beside medication. None of that is a reason to start, stop or switch a treatment.
 
-If you're on an antidepressant and want to come off it, NG222 1.4.12 says to "talk with the person who prescribed their medication", since "it is usually necessary to reduce the dose in stages over time", and it also says "most people stop antidepressants successfully".[6]
+If you're on an antidepressant and want to come off it, NG222 1.4.12 says to "talk with the person who prescribed their medication", since "it is usually necessary to reduce the dose in stages over time", and it also says "most people stop antidepressants successfully". Recommendation 1.4.14 adds the other side: for some, "withdrawal can sometimes be more difficult", and it can go on for weeks or longer.[6]
 :::
 
 ## Sources
