@@ -198,3 +198,95 @@ Findings that belong to the course rather than to any one lesson, from the Stage
 - **OUTLINE's "~75 min" for lesson 6 is short**: it measures 110, mostly six mandated videos
   (about 16 minutes, unpriced by the tool) and two 10-minute exercises. Record the exception in
   OUTLINE's "Lesson length" paragraph.
+
+## From lesson 8's review (2026-09-24)
+
+- **Stretching and injury is split, and every lesson that touches it must carry both sides.**
+  Thacker 2004 and Lauersen 2014 found no shown effect on injuries in general (R4.13); Behm 2016
+  (R4.12) still recommends stretching within a warm-up "for reducing muscle injuries", and Alizadeh
+  2023 (R4.14, Behm last author, read in full) says stretching and resistance training can "decrease
+  musculotendinous injury incidence", resting on one cited study. Lesson 6 (Lauersen) and lesson 10
+  (claims) should check their wording. *(F1.)*
+- **The rhabdomyolysis signs "help distinguish"; they don't "separate".** CHAMP's lead-in says ER and
+  DOMS "can have overlapping symptoms", and Hotfiel lists swelling and restricted movement among
+  ordinary soreness's signs (R4.4, R3.10e, both now recorded). The course's line, in lesson 8: **any
+  one sign, dark urine above all, is reason to see a doctor the same day**, which is the callout's
+  last sentence. Lessons 2, 6 and 9, and First Aid and CPR, should word it the same way. *(F3, F4.)*
+- **Cheung's "Exercise is the most effective means of alleviating pain during DOMS" carries its
+  limits wherever it's quoted**: the relief is temporary, the same abstract says to reduce intensity
+  and duration for 1 to 2 days (R3.10d, now recorded), and it's about ordinary soreness only. Both
+  rhabdomyolysis sources advise rest ("complete rest", Yow; "limited physical activity", CHAMP).
+  Never put the exercise line next to the warning signs without that. *(F5.)*
+- **Yow's case 2, the regular gym-goer, drank two pints of beer straight after the class**, and both
+  sources name alcohol as a risk factor. Any lesson retelling the spin series says so. Yow's public
+  prevention list also names statins, which matters for lesson 9's older adults (R4.4). *(F6, F7.)*
+- **SOURCES corrections at this review:** Herbert's conclusion (R4.16) was recorded without "The
+  evidence from randomised studies suggests that"; Meeusen's exclusion diagnosis (R4.19) is "One
+  approach". Any lesson quoting either should carry the hedge. *(F12, F13.)*
+- **OUTLINE's lesson 8 mechanism, "why a warm-up raises performance", is unmet for lack of a
+  source.** Nothing in SOURCES covers muscle temperature, and lesson 8 says so. A later research
+  pass could add a physiology text on it. *(P8.)*
+- **The minutes model prices an exercise twice when it states "Take N minutes" and also numbers its
+  steps** (steps x 2.5 plus the stated N). Lesson 8's exercise 1 is priced at about 27 minutes for a
+  stated 15. Lesson 8 measures 125: about 48 to 50 minutes of teaching, about 12 of Sources, and the
+  two desk exercises. Record it in OUTLINE's "Lesson length" paragraph beside lessons 1 to 3, 5 and
+  6 (not edited here). *(P6.)*
+- **ACSM 2011's flexibility recommendation (R1.5, abstract) is now used in lesson 8**, with the note
+  that the 12th edition changed the numbers and wasn't read (R5.2). Lesson 9 shouldn't re-quote it.
+- **Dele in lesson 8** is introduced hypothetically ("Say his session starts with a squat to a
+  chair, holding a backpack of water bottles") and nothing else of lesson 7's plan or log is used.
+  If lesson 7 drops the chair squat or the backpack altogether, check lesson 8's "Building a
+  ten-minute warm-up" and exercise 1 step 1.
+- **Quiz keys:** lesson 8 is 3,0,2,0,1,3.
+
+## From lesson 7's review (2026-09-24)
+
+- **R2.2 now carries ten more ACSM 2026 passages verbatim**, each string-checked against the full
+  text (PMC12965823): no comparison of regions; six regions; the two sentences after "progression is
+  not necessary" ("due to inexperience ... progression is a requirement"; "Continued progression
+  could be a personal decision"); "Untrained individuals will benefit ... provided that progression
+  ... and adherence are core principles"; two relative-load sentences; what did not change strength
+  (inter-set rest, free weights against machines); the previous guidelines' details (2 to 3 min rest);
+  periodisation defined, and the "definitions vary" sentence whole; too little data on same-session
+  concurrent training; and frequency's effect on strength "diminished when volume is equated".
+  **Any lesson that quotes "progression is not necessary" carries the untrained sentence or the
+  conclusion's "should perform progressive RT" beside it.** *(F5, F3, F10, F17.)*
+- **Rippetoe's evidence is several cases plus an argument, not one case** (R5.8, corrected: "This
+  is not an isolated case", the "mathematically efficient" argument, the recovery condition on each
+  increase). He also rejects the neural account of early gains for his lifters. Lesson 10's wording
+  of him should match. *(F6, F11.)*
+- **Nuckols 2014 is a friendly amendment** ("All of them accomplish their intended purpose relatively
+  well", R5.10, corrected), and his remedy is periodising, resting on a 2004 meta-analysis not read.
+  "Junk volume" is from his 2024 article, R5.10(b). *(F7, F18.)*
+- **RP's recovery ceiling is RP's claim**: the trials read found no clear plateau for size (R5.9,
+  corrected). RP scores soreness twice, in the MEV checklist and the weekly set rule. *(F8, F26.)*
+- **Periodisation for beginners is not settled either way** (R2.11's classification corrected:
+  Williams's larger untrained gain, without equal volume; Moesgaard's trained-only undulating result).
+  Lesson 7 now says so and gives its plan's choice as practical. Lessons 9 and 10 shouldn't settle it.
+  *(F9.)*
+- **Session spacing and inter-set rest are older ACSM guidance, untested for beginners**, not bare
+  convention: Garber 2011's 48-hour rest reached the course only through Kravitz (R1.5), and the 2026
+  stand records previous guidelines' 2 to 3 minutes. Lesson 7 cites Garber via Kravitz as note 19.
+  Lessons 8 and 9 should label spacing the same way. *(F10.)*
+- **Lesson 7's plan now uses only exercises the course teaches.** Home: box squat to a chair (loaded
+  with the backpack once bodyweight gets easy, as lesson 8 assumes), elevated press-up, back-to-wall
+  hinge then stick drill then a **backpack deadlift** (lesson 6's kettlebell deadlift with the bag),
+  and a **one-arm backpack row** taught in lesson 7 with a labelled set-up. Gym: goblet squat, the
+  press-up progression, kettlebell deadlift, prone bench pull then inverted row, lat pulldown. The
+  bench press, leg press, chest press, Romanian deadlift and cable row are gone from it. Lesson 7
+  also notes the NSCA article lists the single-arm dumbbell row as a step *beyond* its sample
+  progression, so the home row asks more than the article's first steps. Lesson 8's Dele (chair
+  squat with a 6 kg backpack) still matches. Dele's worked log is now the row, not the squat.
+- **The project and lesson 7 differ in one small wording**: the project's Part 2 says "a home or gym
+  version from lesson 6", while two of lesson 7's home versions are taught in lesson 7. Lesson 7's
+  exercise says "from lesson 6 or this lesson". Worth a one-word edit to the project when it's next
+  opened. Everything else lesson 7 hands off now matches it: the screening rule (any PAR-Q+ yes means
+  a doctor or qualified exercise professional first), the three baselines, the warm-up line, the log
+  columns, the stall test, the restart rule, the litre-and-kilogram line and the rhabdomyolysis
+  quotation.
+- **Lesson 7 measures 120** (was 110): the cold-start fixes (taught home versions, a way to find a
+  starting version, the strength-goal range, the project's baselines) added about 1,300 words, and
+  the cuts P named took about 400 out. Record it in OUTLINE's "Lesson length" paragraph beside lessons
+  1 to 3, 5, 6 and 8.
+- **Quiz keys:** lesson 7 is 0,2,3,1,0,2. Its first draft of this pass, 2,0,3,1,..., shared a
+  first-four run with lesson 3, so check the whole course, not only neighbours.
