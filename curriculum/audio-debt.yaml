@@ -50,7 +50,7 @@ reset:
 
 owed:
   # course id (the folder name)   : episodes still to render
-  digital-literacy: 6
+  digital-literacy: 5
   sleep: 8
   bible-basics: 5
   using-ai-effectively: 8

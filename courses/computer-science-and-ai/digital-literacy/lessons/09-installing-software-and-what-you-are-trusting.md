@@ -1,6 +1,7 @@
 ---
 title: Installing software, and what you are trusting
 minutes: 155
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/computer-science-and-ai/digital-literacy/09-installing-software-and-what-you-are-trusting.mp3
 objectives:
   - Name the four separate parties you trust when you install a program, and say how each one fails differently from the others
   - Compare an app store, an operating system's package manager, and a download from a website by what each one actually checks
