@@ -3554,7 +3554,91 @@ through the GOV.UK Content API).*
   "Children and older people may be more vulnerable to infection so additional care may be needed when handling these products."
 - **CDC, "Raw Flour and Dough"**, re-read. Its "Do not" list is stricter on play: "Let children play with or eat dough made with raw flour", with "This includes dough for crafts." Its list of doughs not to eat includes pizza. On shop-bought edible dough, after "These products are made with heat-treated flour and pasteurized eggs or no eggs.": "Before enjoying, read the label carefully to make sure the dough is meant to be eaten without baking or cooking."
   So the two countries agree on eating raw dough and differ in strength on children playing with it.
-- **King Arthur, "Absolutely No-Knead Crusty-Chewy Bread"**, re-read. "If the dough rests too long in the crock before baking, it may fall." The page blurb calls it a "high-rising, crusty loaf" and credits King Arthur's own bread flour with "the added structure this loaf needs". It also says the flour is absorbed "after about 10 seconds of vigorous stirring", and suggests mixing "Friday night at about 10 p.m.".
+- **King Arthur, "Absolutely No-Knead Crusty-Chewy Bread"**, re-read. "If the dough rests too long in the crock before baking, it may fall. That’s OK; go ahead and bake it anyway. You’ll still have a delicious loaf, though a bit denser than the ideal." The page blurb calls it a "high-rising, crusty loaf" and credits King Arthur's own bread flour with "the added structure this loaf needs". It also says the flour is absorbed "after about 10 seconds of vigorous stirring", and suggests mixing "Friday night at about 10 p.m.".
 - **Martin Philip, "For crispy, crackly crusts, put a lid on it"**, re-read. The product it sells is "The Baking Shell", listed as "Brod & Taylor Baking Shell": a third-party cloche sold in King Arthur's shop, not a King Arthur product. It likens the covered baker to "a miniature masonry oven".
 - **PJ Hamel**, re-read. Her summary supports 190°F for the lesson's loaf: "Use a thermometer ... to assess the doneness of pan breads, freeform loaves, and soft rolls. A temperature of 190°F at the center will yield bread that's fully baked". Thin, crusty breads such as baguettes she judges by crust colour instead.
 - **King Arthur, "Yeast"**, re-read. The flavour cost is tied to dough temperature ("a dough temperature in this range is inappropriate"), not to the amount of yeast; the lesson now says applying it to quantity is its own reading.
+
+## Gate closures, lesson 12
+
+*Stage 3 top-up for lesson 12, 2026-09-24. Every page below was downloaded with curl and its text
+extracted locally (GOV.UK through the Content API; FSIS and CDC through Internet Archive captures,
+because the live sites block automated readers). Quotations are copied from that text, direct. G1
+(allergens) and G3 (smell and pathogens) were closed at lesson 4 and nothing new was needed; lesson
+12 applies them. Nothing below is on the unread line.*
+
+**Ruhlman's ratios: which were seen where, rechecked.**
+
+- **Ruhlman, *Ratio*, the publisher's description on Goodreads**,
+  https://www.goodreads.com/book/show/3931154-ratio , re-read in full, direct. It is the
+  publisher's description of the book, not the book.
+  - "When you know a culinary ratio, it’s not like knowing a single recipe, it’s instantly knowing a thousand."
+  - Cookie: "Isn’t it easier just to remember 1-2-3? That’s the ratio of ingredients that always make a basic, delicious cookie dough: 1 part sugar, 2 parts fat, and 3 parts flour."
+  - Biscuit: "Biscuit dough is 3:1:2—or 3 parts flour, 1 part fat, and 2 parts liquid."
+  - Vinaigrette: matches the lesson-10 recheck.
+  - "Ratios are the starting point from which a thousand variations begin."
+  - "Change the ratio and bread dough becomes pasta dough, cakes become muffins become popovers become crepes."
+  - **Pie dough is not on this page.** Part A 1.4's fetch-tool "3-2-1" (flour, fat, water) is not in
+    the description as served today, so it stays unconfirmed and no lesson prints it. The stock 3:2
+    remains unconfirmed too (Gate closures, lesson 10).
+- **Michael Ruhlman, "Pasta: 'Agnolotti' (and the power of ratios)"**, ruhlman.com, published 13
+  February 2013, modified 3 February 2021,
+  https://ruhlman.com/pasta-agnolotti-and-the-power-of-ratios/ . Read: full, direct, with the comments.
+  - "Again, once you have the pasta ratio, you can make pasta using one egg, two, or three, or more. Just weigh them, 2 parts egg, 3 parts AP flour."
+  - The recipe lines: "1 egg per person" and "all-purpose flour equal to 1.5 x the weight of the egg (or 2 parts egg, 3 parts flour)". Method: "mix and knead until the dough is wonderfully smooth, about 10 minutes. Cover with a towel and let rest 20 minutes to an hour or refrigerated for up to a day wrapped in plastic."
+  - A reply signed "ruhlman" to a reader asking whether the eggs are weighed in their shells: "always weigh them out of the shell (unless you intend on eating the shell, which I don't recommend)." And to a reader asking about salt: "yes salt the water till it tasted pleasantly seasoned." (Comments, so weaker than the post.)
+- **Michael Ruhlman, "Pancake Ratio"**, ruhlman.com, published 3 February 2014, modified 3 February
+  2021, https://ruhlman.com/pancake-ratio/ . Read: full, direct.
+  - "The following ratio and recipe is from my book Ratio: The Simple Codes Behind the Craft of Everyday Cooking." "2 parts liquid : 1 part egg : ½ part butter : 2 parts flour"
+  - On scaling: "Moreover, they scale to what you have or need. Say you have only one egg." And: "No matter how many times I make pancakes, I always check the ratio."
+  - "What I like about a pancake ratio is that you can tailor the amount according to how many people you want to feed, even if you just want to feed yourself. Also, you can vary it to your own taste, adding more or less liquid for thinner or thicker pancakes."
+  - The recipe: "8 ounces milk", "2 large eggs", "2 ounces butter (½ stick), melted", "8 ounces flour (1 ⅓ to 1 ½ cups)", "2 tablespoons sugar", "2 teaspoons baking powder", "1 teaspoon salt". "This ratio results in a fairly thick batter, and thick, cakey pancakes. If you like them thinner, add 1 or 2 ounces of milk." The post gives no weight for an egg, so the two eggs stand for the ratio's 1 part (4 ounces) only by implication; a lesson that scales this recipe should scale by halving, not by an egg weight.
+  - Also: "I always remember that I prefer a 5% brine, so that however much water I use, I can multiply that by .05 to determine the salt quantity." (Not used.)
+
+**Freezing, thawing and refreezing (US).**
+
+- **USDA FSIS, "Freezing and Food Safety"**,
+  https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/freezing-and-food-safety ,
+  "Last Updated: Aug 09, 2024". Read: full, via Wayback capture 20260923031306 (live page 403).
+  - "Food stored constantly at 0 °F will always be safe. Only the quality suffers with lengthy freezer storage."
+  - "Freezing to 0 °F inactivates any microbes — bacteria, yeasts and molds — present in food. Once thawed, however, these microbes can again become active, multiplying under the right conditions to levels that can lead to foodborne illness. Since they will then grow at about the same rate as microorganisms on fresh food, you must handle thawed items as you would any perishable food." (The dashes are the page's.)
+  - "Some foods simply don't freeze well. Examples are mayonnaise, cream sauce and lettuce. Raw meat and poultry maintain their quality longer than their cooked counterparts because moisture is lost during cooking."
+  - "Freezer burn does not make food unsafe, merely dry in spots."
+  - "Ideally, a food 2-inches thick should freeze completely in about 2 hours." "Never stack packages to be frozen. Instead, spread them out in one layer on various shelves, stacking them only after frozen solid."
+  - "Because freezing keeps food safe almost indefinitely, recommended storage times are for quality only."
+  - Thawing: "There are three safe ways to thaw food: in the refrigerator, in cold water, or in the microwave." Cold water: "Change the water every 30 minutes. After thawing, cook immediately." Microwave: "plan to cook it immediately after thawing because some areas of the food may become warm and begin to cook during microwaving."
+  - Refreezing, in full: "Once food is thawed in the refrigerator, it is safe to refreeze it without cooking, although there may be a loss of quality due to the moisture lost through thawing. After cooking raw foods which were previously frozen, it is safe to freeze the cooked foods. If previously cooked foods are thawed in the refrigerator, you may refreeze the unused portion. Freeze leftovers within 3-4 days. Do not refreeze any foods left outside the refrigerator longer than 2 hours; 1 hour in temperatures above 90 °F."
+  - From frozen: "Raw or cooked meat, poultry or casseroles can be cooked or reheated from the frozen state. However, it will take approximately one and a half times as long to cook."
+  - Chart, headed "Freezer Storage Chart (0 °F)" with "Note: Freezer storage is for quality only. Frozen foods remain safe indefinitely.": Casseroles 2 to 3 months; Gravy, meat or poultry 2 to 3; Meat, uncooked roasts 4 to 12; Meat, uncooked steaks or chops 4 to 12; Meat, uncooked ground 3 to 4; Meat, cooked 2 to 3; Poultry, uncooked parts 9; Poultry, cooked 4; Soups and Stews 2 to 3.
+  - "Shell eggs should not be frozen." The power-outage section belongs to Emergency Preparedness.
+
+**Freezing, thawing and leftovers (UK), rechecked.**
+
+- **FSA, "How to chill, freeze and defrost food safely"**, GOV.UK, Content API: first_published_at
+  25 June 2026 (the GOV.UK move), public_updated_at 18 December 2017. Re-read in full, direct. Part
+  B 3.2's quotations match. Passages not recorded there:
+  - "A freezer acts as a pause button - food in a freezer won’t go bad and most bacteria cannot grow in it."
+  - "leftovers and homemade goods should be frozen as soon as possible"; "cool any warm dishes before putting them in your freezer"; "to cool food quickly, divide food into smaller portions in containers or freezer bags before putting in the freezer".
+  - "label food you freeze so you don’t end up with Unidentified Frozen Objects (UFOs)"
+  - Freezer burn "affects the quality of the foods, rather than the safety." "Meats are usually best eaten within 2-3 months. Baked goods, fruit and veg are best between 3-4 months."
+  - "It’s also important to use food within 24 hours after it’s been fully defrosted – it will go bad in the same way as if it were fresh." (The dash is the page's.)
+  - "Partially defrosted food may not cook evenly and this means that harmful bacteria could survive the cooking process."
+  - "you can freeze food again once cooked, but you’ll only be able to reheat it once after that"; "freezing in individual portions will help you defrost only what you need".
+  - The page's top line on leftovers: "eat leftovers within two days or freeze if you think this won’t be possible".
+  - It says nothing about refreezing raw food that has thawed without cooking it; a lesson must not supply a UK rule for that.
+- **FSA, "Cooking your food"**, GOV.UK, re-read in full through the Content API, direct.
+  - Seafood cues: "prawns, scallops, crab, and lobster flesh should become firm and opaque"; fish flesh "should turn opaque (no longer transparent) and separates easily with a fork".
+  - Leftovers: "Leftovers can be eaten cold if they have been cooked properly, cooled, and put in the fridge within two hours." "When reheating leftovers, you should only ever reheat once. This is because repeatedly changing temperatures provides more chances for bacteria to grow and cause food poisoning." And "some leftovers, like prepared dishes such as lasagne, are better reheated in smaller portions to allow more even heating".
+  - "When following a recipe take care to follow the instructions for cooking times and temperatures carefully." (Written about safety; the lesson must not quote it against the course's point about recipe times without saying so.)
+
+**Home canning, rechecked.**
+
+- **CDC, "Prevent Botulism: Home-Canned Foods"**, Wayback capture 20260915231556, dated on the page
+  25 April 2024. Re-read, direct. Part B 5.4's quotations match. Also: "Use only recipes and cookbooks that follow the steps in the USDA guide." "You cannot see, smell, or taste the toxin that causes botulism. But taking even a small taste of food containing the toxin can be deadly." "Do not use a boiling water canner for low-acid foods because it will not protect against botulism."
+
+**What lesson 12 may say.** The directly read Ruhlman ratios are bread 5:3, pasta dough 3:2 flour
+to egg, pancakes 2:1:½:2 and the roux's 3:2 (his blog); vinaigrette 3:1, biscuit 3:1:2 and cookie
+1:2:3 are from the publisher's description, direct, and should be labelled as the description's.
+Pie dough and stock are not printed as his. Freezer times are quality, not safety, in both
+countries' words. The US allows refreezing fridge-thawed food uncooked; the UK page read says only
+that food may be frozen again once cooked, with one reheat after.
