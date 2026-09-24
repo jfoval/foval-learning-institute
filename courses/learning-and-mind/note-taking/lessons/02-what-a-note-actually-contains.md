@@ -1,6 +1,7 @@
 ---
 title: What a note actually contains
 minutes: 70
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/learning-and-mind/note-taking/02-what-a-note-actually-contains.mp3
 objectives:
   - >-
     State what proportion of lecture ideas and images students record in their notes, with the
