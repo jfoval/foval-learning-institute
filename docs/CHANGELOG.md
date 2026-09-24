@@ -11,6 +11,28 @@ Older entries refer to `docs/BACKLOG.md`, which was split on 2026-09-09 into `do
 unstarted work) and this file. Its section numbers survive only in those entries and in a few
 split-seam comments inside Bible Basics lessons, which point at `docs/DECISIONS.md` §5.
 
+## 2026-09-24 — Cooking Fundamentals is published and written
+
+**Cooking Fundamentals went live, the third course of Term 3 and the first of the School of
+Practical Life.** Twelve lessons, each drafted and then reviewed in its own fresh context with the
+fixes applied, a twenty-item test and a week-long project ("A week from five techniques"), both
+reviewed, and twelve fact-checked podcast scripts, so it is *written* and owes only its twelve
+episodes. `curriculum/audio-debt.yaml` opened at twelve in the publishing commit. It was taken from
+scaffold to written in one session, alongside another session finishing Nutrition and Strength and
+Fitness, so the two never touched the same files.
+
+**Food safety is taught as time plus temperature, US and UK side by side, and neither is called
+wrong.** Lesson 4 carries the rules; each later lesson teaches its own hazards where the food is
+cooked (rice and kidney beans in 9, big-pot cooling in 10, raw flour in 11). The higher-risk callout
+is repeated word for word in lessons 4, 5 and 7 by the outline's design, so `npm run validate`'s
+repetition warning on those three sentences is expected.
+
+**The reviews earned their keep on safety.** Lesson 4's review found the USDA washing study had
+been reported from its press release, and the paper shows the result reverses in the group given
+the USDA's own messages. Lesson 8's found a meat-free braise that allowed white kidney beans in a
+pot that never boils. Lesson 6's found Connecticut's cookware ban dated to the wrong year. Lesson
+12's cut it from 170 minutes to 95.
+
 ## 2026-09-19 — Habits and Self-Discipline is published and written, and Focus and Deep Work is drafted
 
 **Habits and Self-Discipline went live.** Seven lessons, every one through Stage 4 with its review

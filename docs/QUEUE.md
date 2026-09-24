@@ -711,10 +711,10 @@ states a different target, so there is no longer a disagreement to settle.
    Effectively, then Term 2. Start each with `/new-course`. `npm run state` names the next action
    for every course, in term order, and is the authority over anything written here.
 
-5. **In flight, 2026-09-24: Cooking Fundamentals, T3, started ahead of Nutrition and Strength
-   finishing** so two sessions could work at once without touching the same files. One session has
-   Nutrition and Strength and Fitness; the other has Cooking. A session picking up either should
-   check `git status` and the file times before assuming the other course is free.
+5. **`scripts/reading-time.mjs` ignores any stated exercise time over 60 minutes** rather than
+   capping it at 30 (line 74, `n <= 60`), found by Cooking Fundamentals lesson 5's review. A cooking
+   or making lesson whose exercise says "Take 75 minutes" is priced as if the exercise were free.
+   Lesson 5 is on the EXCEPTIONS list for it; the check itself is unfixed.
 
 ## Standing items, every week
 
