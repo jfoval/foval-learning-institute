@@ -30,10 +30,10 @@ quiz:
       it means panic disorder. Which response fits what this lesson read?
     options:
       - That it means panic disorder, since the attack itself is the defining feature
-      - That one attack isn't necessarily a disorder, and chest symptoms get checked first
-      - That it should be treated with medication first, since a panic attack is a medical event
       - That it can be ignored, since a single attack isn't worth mentioning to anyone
-    answer: 1
+      - That it should be treated with medication first, since a panic attack is a medical event
+      - That one attack isn't necessarily a disorder, and chest symptoms get checked first
+    answer: 3
     explain: >-
       CG113 says "a panic attack does not necessarily constitute a panic disorder", and adds that
       treating an attack appropriately "may limit the development of panic disorder", so it isn't
