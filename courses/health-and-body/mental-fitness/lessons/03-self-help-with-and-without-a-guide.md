@@ -44,10 +44,10 @@ quiz:
       and no significant difference from a therapist in four small trials. Which reading fits?
     options:
       - It clearly beat usual care, and it is as good as a therapist on this evidence
-      - It beat usual care, and four small trials can't show it's as good as a therapist
-      - It failed, since g = 0.5 is only moderate and usual care is an easy comparison
       - It can't be read at all, since usual care is too vague to count as a comparison
-    answer: 1
+      - It failed, since g = 0.5 is only moderate and usual care is an easy comparison
+      - It beat usual care, and four small trials can't show it's as good as a therapist
+    answer: 3
     explain: >-
       Beating usual care is a real result, and usual care isn't nothing. "No significant difference"
       in four small trials isn't a demonstration of equality, which is lesson 2's point. Usual care
@@ -82,11 +82,11 @@ quiz:
       A service offers a weekly ten-minute phone call from a volunteer who asks how you're getting on
       with a CBT workbook. Against NG222's definition of guided self-help, what's the question?
     options:
-      - Whether the caller is a trained practitioner who also reviews progress and outcomes
-      - Whether the calls are long enough, since NICE requires at least an hour each week
       - Whether the workbook is printed, since NICE's definition excludes digital materials
+      - Whether the calls are long enough, since NICE requires at least an hour each week
+      - Whether the caller is a trained practitioner who also reviews progress and outcomes
       - Whether a volunteer is allowed, since NICE says only a doctor can guide self-help
-    answer: 0
+    answer: 2
     explain: >-
       NG222 defines the support as coming from "a trained practitioner who facilitates the self-help
       intervention, encourages completion and reviews progress and outcomes". Printed and digital

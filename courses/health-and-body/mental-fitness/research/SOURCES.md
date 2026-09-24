@@ -74,7 +74,8 @@ rely solely on the number, severity and duration of symptoms" (source 1).
 **National Institute for Health and Care Excellence, *Generalised anxiety disorder and panic disorder
 in adults: management*, clinical guideline CG113, published 26 January 2011, last updated 15 June
 2020.** https://www.nice.org.uk/guidance/cg113 . **Read on 2026-09-23: the Recommendations chapter
-in full from 1.1.1 to 1.3.41, and the Appendix "Assessing generalised anxiety disorder" in full.**
+in full from 1.1.1 to 1.3.41 (and the page, which ends at 1.3.45, searched in full for the terms §19a
+lists; corrected at lesson 4's review), and the Appendix "Assessing generalised anxiety disorder" in full.**
 Not read: the remaining panic-disorder monitoring recommendations after 1.3.41, the Context chapter,
 the Recommendations for research, and the full guideline's evidence chapters. Each recommendation on
 the page carries the year it was written or amended in square brackets, and that tag must travel
