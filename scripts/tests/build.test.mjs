@@ -399,3 +399,21 @@ test("a sentence repeated only inside an HTML comment is not flagged", () => {
   const r = check(root);
   assert.ok(!/same sentence appears/.test(r.out), r.out);
 });
+
+test("a Nutrition lesson without the standard safety callout fails, and with it passes", () => {
+  const { root, course } = fixture();
+  // The check is keyed on the course folder, so move the fixture course to that name.
+  const moved = path.join(path.dirname(course), "nutrition");
+  fs.renameSync(course, moved);
+  const yml = path.join(moved, "course.yaml");
+  fs.writeFileSync(yml, fs.readFileSync(yml, "utf8").replace(/^id: .*$/m, "id: nutrition"));
+  fs.writeFileSync(path.join(root, "curriculum", "audio-debt.yaml"), "owed:\n  nutrition: 1\n");
+  let r = check(root);
+  assert.equal(r.status, 1, r.out);
+  assert.ok(r.out.includes("safety callout"), r.out);
+  const box = ":::callout Before you change anything\nThis course is education, not advice about your own diet. If you're pregnant or trying to be, have diabetes or kidney disease, take a medicine such as warfarin, or are deciding what a child should eat, talk to a doctor or a registered dietitian first. If food, eating or your weight has started to feel out of your control, tell a doctor, or call Beat on 0808 801 0677 in the UK or ANAD's peer-support helpline on 1-888-375-7767 in the US.\n:::\n\n";
+  const lesson = path.join(moved, "lessons", "01-good.md");
+  fs.writeFileSync(lesson, fs.readFileSync(lesson, "utf8").replace("A paragraph with a [link]", box + "A paragraph with a [link]"));
+  r = check(root);
+  assert.ok(!r.out.includes("safety callout"), r.out);
+});

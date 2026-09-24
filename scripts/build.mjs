@@ -813,6 +813,15 @@ function lintLessons() {
             fail(`${file}: the crisis callout is missing or differs from the standard text. Every Mental Fitness lesson carries it word for word (research/OUTLINE.md decision 1); the text is in scripts/build.mjs.`);
         }
 
+        // Nutrition outline decision 1: the same safety callout on every lesson, word for word, for
+        // the same reason as Mental Fitness's: a reader can arrive at any lesson from a search engine,
+        // and the helpline numbers live in this one string.
+        if (cdir.name === "nutrition" && path.basename(lessonsDir) === "lessons") {
+          const NUTRITION_SAFETY = ":::callout Before you change anything\nThis course is education, not advice about your own diet. If you're pregnant or trying to be, have diabetes or kidney disease, take a medicine such as warfarin, or are deciding what a child should eat, talk to a doctor or a registered dietitian first. If food, eating or your weight has started to feel out of your control, tell a doctor, or call Beat on 0808 801 0677 in the UK or ANAD's peer-support helpline on 1-888-375-7767 in the US.\n:::";
+          if (!src.replace(/\r\n/g, "\n").includes(NUTRITION_SAFETY))
+            fail(`${file}: the safety callout is missing or differs from the standard text. Every Nutrition lesson carries it word for word (research/OUTLINE.md decision 1); the text is in scripts/build.mjs.`);
+        }
+
         // STYLE_GUIDE: contractions. "Their absence is the fastest way to sound like a
         // manual." Four consecutive Digital Literacy lessons were sent back by Stage 4 for
         // this and nothing else would have caught it: 1 in 4,739 body words on lesson 8,
@@ -1050,10 +1059,13 @@ lintLessons();
 //     which is what standards 3.7 and courses/CLAUDE.md rule 6 ask for.
 //   - Mental Fitness carries the same crisis callout in every lesson, word for word, and a separate
 //     check enforces that it is identical (its outline's decision 1).
+//   - Nutrition carries the same safety callout in every lesson, word for word, enforced the same way.
 const REPETITION_EXEMPT = [
   "that cost is far more than the four hundred thousand pounds left in this year s capital budget",
   "this course holds the christian reading and says so on its first line",
   "if you re thinking about suicide or self harm or don t feel able to keep yourself safe",
+  "if you re pregnant or trying to be have diabetes or kidney disease take a medicine such as warfarin",
+  "if food eating or your weight has started to feel out of your control tell a doctor",
 ];
 
 function checkRepetition() {

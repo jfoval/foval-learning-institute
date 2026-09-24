@@ -16,20 +16,24 @@ description: >-
   and is not entitled to claim and where a reader should go instead.
 outcomes:
   - >-
-    Explain what the main study designs in nutrition can and cannot show, and why food questions are
-    harder to test than drug questions
+    Explain why a question about diet is harder to test than a question about a drug, and say what
+    each kind of nutrition study, and each way of measuring intake, can and cannot show
   - >-
-    State what the energy, protein, fat and carbohydrate findings are, with the strength of the
-    evidence behind each
+    State what the evidence shows about energy balance and the head-to-head diet trials, and describe
+    the carbohydrate-insulin dispute in terms each side would accept
   - >-
-    Compare what named dietary guidelines recommend and say where they agree and where they differ
+    Classify claims about fat, salt, sugar, processed food and meat as established or contested,
+    with the best case on each side in its own words
   - >-
-    Describe the best case for and against a contested claim (saturated fat, salt, sugar, a named
-    diet) in terms its own proponents would accept
+    Ask "instead of what?" of any claim about a food or nutrient, and explain why the swap often
+    decides the answer
   - >-
-    Trace a nutrition headline back to its study and say what changed on the way
+    Compare what named dietary guidelines recommend, including the 2025-2030 US guidelines and the
+    dispute over them, and say where they agree
   - >-
-    Decide what, if anything, to change about how you eat, and say what the decision rests on and
-    when it stops being a self-help question
-prerequisites: []
+    Say when a supplement is indicated and when the trials failed, and describe the alcohol dispute
+  - >-
+    Decide what, if anything, to change about how you eat, say what the decision rests on, and say
+    when it stops being a self-help question and who to ask
+prerequisites: [logic-and-argument, sleep]
 sensitive_domain: true
