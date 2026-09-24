@@ -21,14 +21,13 @@ and it never feels that way while you are writing it.
 
 Rewrite these five lines each session. Nothing else goes in this block.
 
-- **Term 1 is FINISHED: all seven courses have every episode live** (2026-09-24). Using AI
-  Effectively 4 to 11 rendered overnight, one call each, none re-rendered. Two are worth John's ear
-  and neither was re-rendered on a number: lesson 10's last minute has John low (78 Hz) in his
-  closing speech at a steady level, and lesson 11 has John about 6.6% above his reference throughout.
-  Term 2 renders began the same night: **Focus and Deep Work is FINISHED**, all seven live; lesson 5
-  has John low in its back half at a steady level. **Term 2 is FINISHED: every episode of all seven
-  courses is live** (2026-09-25). **The September Gemini cap is spent**; still owed is Bible Basics
-  8-12, about $1.40, rendered when John raises it.
+- **Terms 1 and 2 are FINISHED. Term 3's first three courses are published and written**
+  (2026-09-24): Nutrition, Strength and Fitness, and Cooking Fundamentals, with every lesson
+  scripted and fact-checked. **First Aid and CPR is next**: research done, outline in progress.
+  **The September Gemini cap is spent**: a render of Bible Basics 8 on 2026-09-24 was refused by
+  Google ("exceeded its monthly spending cap"), billed nothing. **38 episodes are owed**, about
+  $7.60: Bible Basics 8 to 12, Cooking 12, Nutrition 11, Strength 10. They render when John raises
+  the cap at ai.studio/spend.
 
   **What John's ear settled on 2026-09-25, which changes how a render is judged.** The engine
   sometimes gives one of John's lines to Haley. The per-window speaker share cannot be trusted to
