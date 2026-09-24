@@ -1108,6 +1108,10 @@ critique/defence debate. That is a gap this course can fill.
      21st Century: A Letter Report" (National Academies Press, 2024; NAP record 27957; PMID
      39680697). NAP OpenBook chapters Summary, 3, 5 and 6 read in full as text via curl. This is an
      official National Academies publication and reproduces the AMDR table and DRI definitions.
+     *Added 2026-09-24 at lesson 05's Stage 4:* the report's Front Matter (NAP OpenBook chapter 1,
+     fetched with curl), verbatim: "The National Academy of Medicine (formerly the Institute of
+     Medicine) was established in 1970 under the charter of the National Academy of Sciences to
+     advise the nation on medical and health issues."
   2. **Murphy SP, Yates AA, Atkinson SA, Barr SI, Dwyer J. History of Nutrition: The Long Road Leading
      to the Dietary Reference Intakes for the United States and Canada. Adv Nutr. 2016;7(1):157-168.
      doi:10.3945/an.115.010322. PMID 27180379. PMCID PMC4717892.** Full text via PMC; Table 1
@@ -1216,6 +1220,31 @@ peer-reviewed reviews that cite the IOM 2002/2005 report:
   estimates however are ~40% higher than the current protein recommendations on a body weight basis."
   This is part of the case for higher intakes in older adults. Note the authors are the IAAO method's
   developers (Pencharz, Ball, Elango), so this is the method's proponents speaking.
+- *Added 2026-09-24 at lesson 05's Stage 4:* the full text of Courtney-Martin et al. 2016 re-fetched
+  with curl from Europe PMC (PMC4997405, fullTextXML) and read for the method. Verbatim:
+  - On the method: "The fundamental concept of the method is that with decreased intake of a
+    limiting (test) amino acid, oxidation of all other amino acids, including an indicator amino
+    acid (another indispensable amino acid labeled with a stable isotope, usually
+    1-13C-Phenylalanine) will be oxidized, as there are no large stores of amino acids in the body.
+    With increasing intakes of the test amino acid, oxidation of the indicator amino acid will
+    decrease, reflecting the increasing incorporation of the test amino acid towards protein
+    synthesis. Once the requirement for the test amino acid is reached, oxidation of the indicator
+    amino acid will plateau (Figure 2a,b). The inflection/breakpoint where the oxidation plateaus,
+    identified using biphase linear regression analysis, determines the mean requirement or the
+    EAR, and the upper 95% CI determines the RDA or population safe requirement."
+  - Where it is measured: "measurement of label tracer oxidation is done in breath and urine rather
+    than blood"; and for protein, "we measured its oxidation in breath in response to graded intakes
+    of protein".
+  - The case against nitrogen balance: "Briefly, the balance method measures a very small
+    difference in whole body nitrogen intake and excretion and tends to overestimate nitrogen intake
+    and underestimate nitrogen excretion. The net result is an overtly positive balance which could
+    lead to an underestimation of the requirement".
+  - Sample sizes for the older-adult estimates: "we conducted a much larger protein requirement
+    study in elderly women (n = 12), ranging in age from 65 to 85 years"; and in men, "six men
+    ranging in age from 66–79 years".
+  - Note (researcher's): so the IAAO "RDA" is the upper 95% confidence limit of an estimated mean,
+    not the EAR plus two standard deviations of between-person spread as in the DRI method. The two
+    RDAs are built differently.
 
 #### 9.5 The 2025-2030 Dietary Guidelines for Americans on protein (recent change)
 
@@ -4980,7 +5009,28 @@ the new DGA lists animal protein first.
   people who lift, and shrinks with age. 1.6 g/kg is a plateau for this purpose, not a target for
   the population. Note the DGA's 1.2-1.6 range tops out exactly at Morton's plateau.
   (The full paper also reports a confidence interval around the breakpoint, I believe roughly 1.03
-  to 2.20 g/kg; **not verified**, full text not read.)
+  to 2.20 g/kg; **not verified**, full text not read.) *Superseded by the addition below, which
+  verifies it.*
+- *Added 2026-09-24 at lesson 05's Stage 4:* the full text fetched with curl from Europe PMC
+  (PMC5867436, fullTextXML) and read for the Methods, the breakpoint result and the Discussion.
+  Supplementary tables not opened. Verbatim:
+  - Methods, the comparison groups: "In all analyses the comparator group received an identical RET
+    intervention but was non-supplemented or placebo-supplemented."
+  - Results, the breakpoint: "Biphasic regression (42 study arms, 723 participants) explained more
+    variation than a linear regression between the change in FFM and daily protein intake (break
+    point=1.62 (1.03, 2.20) g/kg/day, slope=1.75, R2=0.19, df=36) and is presented as a segmental
+    regression despite not being statistically significant (p=0.079;figure 5)".
+  - Discussion: "Given that the CI of this estimate spanned from 1.03 to 2.20, it may be prudent to
+    recommend ~2.2 g protein/kg/d for those seeking to maximise resistance training-induced gains
+    in FFM."
+  - Discussion, limitations: "in this manuscript there were only 13 studies that met our inclusion
+    criteria in older (>45 years) individuals and only six of those studies reported baseline
+    protein intakes with changes in FFM." The same paragraph goes on: "Given that older adults
+    require more protein per day,79–81 consume less protein per day87 and that dietary protein
+    ingestion and RET are effective strategies to maintain muscle mass and function with age,67
+    future RET research should focus on using higher protein doses (or potentially higher
+    leucine), larger sample sizes and longer interventions in ageing populations." (The numbers
+    run into the words are the paper's reference markers.)
 
 #### 5.3 Older adults: PROT-AGE (Bauer 2013)
 - **Citation:** Bauer J, Biolo G, Cederholm T, et al. Evidence-based recommendations for optimal
@@ -5028,6 +5078,12 @@ the new DGA lists animal protein first.
   "Practice Point 3.3.1: Advise people with CKD to adopt healthy and diverse diets with a higher
   consumption of plant-based foods compared to animal-based foods and a lower consumption of
   ultraprocessed foods."
+  *Added 2026-09-24 at lesson 05's Stage 4,* from the same summary PDF (local copy, text extracted
+  by script), on what "G3–G5" means: Recommendation 3.15.1.1 applies to adults "with eGFR <60 ml/min
+  per 1.73 m2 but not treated with chronic dialysis or kidney transplantation (GFR categories
+  G3a–G5)", and Table 11 (standards for clinical laboratories) lists: "Reported eGFR levels <60
+  ml/min per 1.73 m2 should be flagged as being low." (The "2" is a superscript in the PDF.) The summary does not explain the grading codes
+  such as "(2C)"; the grading scheme was not read.
 - **KDOQI 2020 (US, with the Academy of Nutrition and Dietetics):** Ikizler TA et al. *Am J Kidney
   Dis* 2020;76(3 Suppl 1):S1-S107. doi:10.1053/j.ajkd.2020.05.006. Abstract read; it does not give
   the protein numbers. The 0.55-0.6 g/kg low-protein figure often cited for non-diabetic CKD 3-5 is

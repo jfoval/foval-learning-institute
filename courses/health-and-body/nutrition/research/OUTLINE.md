@@ -26,7 +26,7 @@ supplements and alcohol, then hands the reader the sort.
    sides' words.
 4. **Which diet.** Head-to-head trials, adherence, time-restricted eating, what maintenance looks
    like, and where medicine has moved (GLP-1 drugs, named only).
-5. **The numbers on the label.** The DRI family, what an RDA is and is not, protein (0.8 against the
+5. **The numbers behind the advice.** The DRI family, what an RDA is and is not, protein (0.8 against the
    new 1.2 to 1.6), carbohydrate quality and fibre, and the AMDR the National Academies now say
    should go.
 6. **Fat and the heart.** Trans fat (settled), LDL (established), saturated fat (contested at the
@@ -259,7 +259,7 @@ course does not say whether the committee report should have been set aside. The
 - **Connects:** lesson 3's energy balance; leads to lesson 5's numbers.
 - **Spaced review of:** Memory's sample question (the registry), Mental Fitness's comparator.
 
-### 5. The numbers on the label (~60 min)
+### 5. The numbers behind the advice (~60 min)
 - **Objectives:** distinguish EAR, RDA, AI, UL and AMDR, and say what each is for; compare the
   protein RDA with the 2025-2030 DGA's protein goal and state what the evidence behind each shows;
   explain what carbohydrate quality means using the fibre evidence.
