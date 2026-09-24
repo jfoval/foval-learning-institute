@@ -690,7 +690,64 @@ edited since first publication and a lesson should say it read the current versi
   graphic. This figure will depict the pooled injury risk of those getting less than 8 hours of sleep,
   relative to those getting 8 hours or more."
 
-**The cancer exchange is the lesson's best worked example**, because the two documents converge. The
+**Added at lesson 7's review, 2026-09-23, all verbatim from the same two pages.**
+
+- **The post is not a reply to the essay.** Guzey, near the top of his page: "Note: the post is
+  explicitly not a response to my essay, but rather a response to "questions from readers". Walker
+  never states any of the points I make and never responds to them directly." Walker's introduction
+  says it addresses "thoughtful questions that have been raised regarding the book and its content in
+  reviews, online forums and direct emails". The post names neither Guzey nor the essay. **A lesson
+  must not call it a reply to him.**
+- **The essay is not confined to Chapter 1.** Its main body is, but its appendices take up other
+  chapters, and the injury graph is from Chapter 6 ("Walker cites this paper in Chapter 6").
+- **The essay does make charges about conduct**: "the clearest example of deliberate data
+  manipulation" (of the graph), and appendices on Walker copying text between papers and on his
+  PhD. Its thesis: "the book consistently overstates the problem of lack of sleep, sometimes
+  egregiously so." It also links "UC Berkeley's official response regarding this essay", which this
+  course has not read. *(This entry previously said the dispute was "about specific sentences rather
+  than about character"; that describes the course's choice, not the essay.)*
+- **The WHO sentence's origin, from Guzey's appendix "Possible origin of the 'sleeplessness epidemic'
+  thing"**: the CDC had a page titled "Insufficient Sleep Is a Public Health Epidemic", and "More than
+  2 years before Why We Sleep was published, the page changed the word "epidemic" to "problem"". He
+  then offers and argues against a charitable reading: "A charitable interpretation of this would be
+  that Walker simply misremembered the organization (and added the "industrialized nations" bit)." He
+  reports a 2019 Penguin video in which Walker again attributes the phrase to the WHO. **This course
+  has checked none of this.** Walker's post supports the WHO half of its summary with a quotation it
+  attributes to "Dr. Valery Gafarov, a lead researcher at the WHO exploring cardiovascular disease".
+- **Walker on cancer, the passage in full**, after the meta-analysis sentence: "While there is ready
+  evidence associating certain cancers with short sleep, this study indicates that there are numerous
+  cancers that do not show such an association. This will be reflected in future editions of the
+  book." He lists the meta-analysis's limitations, including that its authors said its results
+  "cannot be generalized to all cancer types". Then: "Importantly, epidemiological data cannot be used
+  to inform causality. It is not correct to suggest, based on epidemiological findings, that sleeping
+  less than 6 or 7 hours causes cancer." And: "However, one similarly cannot state that sleeping less
+  than 6 hours a night does not double your risk of cancer. The same evidence cannot establish
+  causality in the negative: absence of evidence in observational epidemiology does not necessarily
+  imply evidence of absence." **That last sentence is his strongest case and a lesson must carry it.**
+- **Guzey on cancer and causation**: "There do not appear to exist any experimental studies or studies
+  that would reasonably be able to establish causality, that would support this claim."
+- **The graph, more of each side.** Walker: "The study included 112 individuals." After the passage
+  already quoted: "Related, the authors averaged the data for statistical power, comparing those
+  getting less than 8-hours with those getting more than this amount." His remedy opens: "To counter
+  any confusion, including power issues at either end of the sleep duration distribution, and to
+  better represent the statistical analysis of the study authors". He says the revised edition "will
+  note a new 2019 meta-analysis that confirms this original result". Guzey: "that 9 hours of sleep
+  column is based on exactly 1 child being injured out of 6 children who reported sleeping for 9
+  hours." The book kept that column. Neither the 2014 study nor the 2019 meta-analysis was read here.
+- **The popular-audience defence, which Guzey answers directly**: "Many people defend Walker cutting
+  of the data from the graph by saying that he is just trying to make the trend clearer for the
+  popular audience. As I noted in the Introduction of this essay, this argument is indefensible". His
+  second ground: "in 2019, Walker published an academic paper that cited Why We Sleep 4 times just on
+  its first page".
+- **Each side leans on this course's own sources.** Guzey cites Cappuccio and colleagues 2010, lesson
+  3's meta-analysis, in his own support; Walker's post cites the Van Dongen and Dinges experiment,
+  lesson 2's. Guzey adds that "Self-reported data is notoriously unreliable" about the cohorts behind
+  such meta-analyses, and says the big studies "use self-reported data on sleep duration"; that is his
+  claim, not something this course has checked.
+- *"It is the best-selling popular book on this subject" in (a) above is this file's impression and
+  has no source here.*
+
+**The cancer exchange is the lesson's best worked example**, because the two documents partly converge, and it must be taught with Walker's absence-of-evidence sentence beside Guzey's causation sentence. The
 book's sentence is about cancer in general and uses a causal verb, "demolishes". Guzey cites a review
 finding no association for cancer in general. Walker's reply agrees that the all-cancer association
 was not found in a meta-analysis and narrows the claim to specific cancers, in associational

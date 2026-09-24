@@ -383,10 +383,12 @@ not in a footnote.
 - Describe the strongest version of the case on each side
 
 **Core ideas.** SOURCES §8, the three documents. A bestselling book this course has not opened; a
-long, specific public critique; and the author's own written reply. **The reply concedes two of the
-charges in writing**, which is what makes the case teachable rather than a row: the WHO attribution
-was wrong and will be corrected, and the missing column of a graph is explained by the author with a
-reason the reader can weigh.
+long, specific public critique; and the author's own written reply. **The author's post concedes one
+charge and narrows another in writing**, which is what makes the case teachable rather than a row: the
+WHO attribution was wrong and will be corrected, the cancer sentence is narrowed to specific cancers,
+and the missing column of a graph is explained with a reason the reader can weigh. *(Corrected at
+lesson 7's review: this said the graph was conceded. And the post is not a reply to the essay; it
+answers readers' questions and names no critic.)*
 
 **Mechanism to explain.** How a claim changes shape on the way from a literature into a paragraph:
 an attribution moves from one body to a more famous one; a column with a small sample is dropped and
