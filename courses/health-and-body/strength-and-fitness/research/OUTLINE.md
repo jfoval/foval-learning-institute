@@ -24,7 +24,9 @@ the arguments as a way of reading evidence rather than as a list of optimisation
    course's question introduced: trained whom, for how long, measured on what?
 5. **What the variables do.** Load, sets, effort and frequency, individual variation, and how the
    advice changed between ACSM 2009 and 2026.
-6. **Technique: six movements and the rules about them.** Squat, hinge, push, pull, lunge, carry;
+6. **Technique: six movements and the rules about them.** Squat, hinge, horizontal and vertical push, horizontal and vertical
+   pull (the NSCA's six; the lunge sits in its squat family, and no carry is taught because nothing
+   read covers one);
    what each cue is for; what the famous rules rest on; how often lifting actually hurts people.
 7. **Writing and progressing a plan.** A first plan built from ACSM 2026, how to progress it, what a
    log is for, stalls, deloads, periodisation, cardio alongside, stopping and starting again.
@@ -254,7 +256,8 @@ the joint one both halves were drafted from.
 - **Spaced review of:** Memory's sample question and Mental Fitness's comparison group, joined here.
 
 ### 6. Technique: six movements and the rules about them (~75 min)
-- **Objectives:** describe the squat, hip hinge, push, pull, lunge and carry patterns, with the cue
+- **Objectives:** describe the NSCA's six patterns (squat, hip hinge, horizontal and vertical push,
+  horizontal and vertical pull), with the cue
   that matters most in each and what it is for; evaluate a technique rule against what the study
   behind it measured; state how often lifting injures people compared with other sports, with the
   population; explain breath-holding under load and who should avoid it.
