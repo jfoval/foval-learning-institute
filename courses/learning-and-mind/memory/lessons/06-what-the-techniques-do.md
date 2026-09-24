@@ -1,6 +1,7 @@
 ---
 title: What the techniques do
 minutes: 90
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/learning-and-mind/memory/06-what-the-techniques-do.mp3
 objectives:
   - >-
     Describe the method of loci and what the training study measured
