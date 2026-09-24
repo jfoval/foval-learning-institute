@@ -1,6 +1,7 @@
 ---
 title: Passwords, and the ladder above them
 minutes: 145
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/computer-science-and-ai/digital-literacy/10-passwords-and-the-ladder-above-them.mp3
 objectives:
   - Describe what an attacker actually does to get into an account, and show how every piece of current password guidance falls out of that one picture
   - Say why length beats composition and why forced expiry was withdrawn as advice, citing NIST and the NCSC by section rather than by reputation
