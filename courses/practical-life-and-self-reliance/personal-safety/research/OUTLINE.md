@@ -886,8 +886,9 @@ woman as people at risk across the course (decision 7), and no place name is reu
   violent burglaries (B17, gate G25). **Both slogans fail** (reconciliation 2): someone being home is
   common, violence is not; Warr's "burglaries normally occur when no one is home" given only with its
   2000 date and the figures beside it. **If you think someone is inside, don't go in**: the Suzy
-  Lamplugh Trust ("call the police – don't go and investigate by yourself", quoted with its spaced en
-  dash as its author wrote it; "don't enter the property") and the CPS/NPCC leaflet ("Wherever
+  Lamplugh Trust ("call the police" and "don't go and investigate by yourself", quoted as two
+  halves: a source's spaced dash is split around, never reproduced, because the build fails on it;
+  "don't enter the property") and the CPS/NPCC leaflet ("Wherever
   possible you should call the police"), with a forward pointer to lesson 14 for the law if it comes
   to force. **The weeks after a burglary** (lesson 3's repeat risk): fix the way they got in first.
   **The doorstep**: bogus callers (Lamplugh: call the number "on your utility bill, rather than the

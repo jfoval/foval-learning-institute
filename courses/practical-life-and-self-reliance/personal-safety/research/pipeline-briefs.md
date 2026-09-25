@@ -198,6 +198,14 @@ instead).
   and stalking" is described as the services' help and safety planning. Read every mention of it
   as a survivor would.
 
+- **From lessons 4 and 5's reviews (2026-09-25):** a source's spaced dash is split around, never
+  reproduced (the build fails on it at publish). Name funding for both sides of a question or for
+  neither. The CPS/NPCC householder leaflet is England and Wales guidance, never "UK". Hyman's phone
+  result is never causal ("people on phones noticed less", with the authors' caveat). **Quiz keys
+  (orchestrator, relaxing the drafters' own tightening, as First Aid had to):** no earlier lesson
+  shared in more than three positions, no run of three shared at any offset, not a rotation or
+  shift; chosen by script.
+
 ## Stage 4 review brief: Personal Safety (Tier B, split, two reviewers)
 
 Repo: `/Users/johnfoval/Desktop/Foval Learning Institute`. Course:

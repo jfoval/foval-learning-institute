@@ -1795,7 +1795,13 @@ crime survey asked victims and non-victims which devices they had.
 - **Explanations it offers**, none tested: households fit alarms *after* an earlier burglary, so
   the alarm marks a repeat-victim household ("Latent repeat victim", which they call plausible);
   offenders and police have adapted (police no longer always attend alarms); alarms flag that there
-  is something worth stealing; many alarms are cheap or unmonitored. This matters for neutrality:
+  is something worth stealing; many alarms are cheap or unmonitored. (Stage 4 note, lesson 05: the
+  authors call **two** of these plausible, the latent repeat victim and alarms as flags of target
+  suitability, "quite plausible although we have no data with which to test it" [V]; the original
+  adaptive-offender version they call "highly unlikely". Their Conclusion: "it would be premature to
+  conclude that domestic burglar alarms are (or have become) counter-productive" [V]. Funded by the
+  ESRC. Never teach the latent repeat victim as their one or leading explanation. See "Gate
+  closures, lesson 05".) This matters for neutrality:
   the finding is a correlation from survey data, and the authors say so.
 
 #### B16. The other side on alarms: US offender surveys and a Newark study (both funded by the alarm industry).
@@ -1834,7 +1840,8 @@ crime survey asked victims and non-victims which devices they had.
   or night (6pm to 6am)"; "in over half of incidents of domestic burglary in a dwelling where an
   offender gained entry into the dwelling, someone was at home at the time"; "it was almost equally
   likely in incidents of domestic burglary in a dwelling that the offender(s) was a stranger or
-  known by the victim". Higher-risk groups: households headed by 16 to 24 year olds, single-parent
+  known by the victim" (Stage 4 note, lesson 05: the bullet opens "in the majority of years", a
+  hedge this entry had dropped; keep it). Higher-risk groups: households headed by 16 to 24 year olds, single-parent
   households, urban households. On the decline: "households are currently four times less likely to
   be a victim of burglary than in 1995." [V] **This is 2017 data**; the drafter should check the
   current ONS "Nature of crime: burglary" tables (spreadsheet, not read) before giving figures as
@@ -1845,7 +1852,11 @@ crime survey asked victims and non-victims which devices they had.
   all household burglaries, a household member experienced some form of violent victimization." [V]
   "In 40% of unlawful entries to unoccupied residences, offenders gained access through an unlocked
   door or window". [V] When someone was home, offenders got in through an open (27%) or unlocked
-  (28%) door or window, and in 18% "someone inside the home let the offender in". [V] "Offenders
+  (28%) door or window, and in 18% "someone inside the home let the offender in". [V] (Stage 4
+  note, lesson 05: the 18% and the 12% pushed-in are shares of **unlawful (unforced) entries** to
+  occupied homes, per the PDF's Table 7, not of all burglaries with someone home, where they are
+  about 10.7% and 7.2%. The 28% includes attempted forcible entries. See "Gate closures, lesson
+  05".) "Offenders
   were known to their victims in 65% of violent burglaries; offenders were strangers in 28%." [V]
 - **The US and UK differ on "someone was at home"** (over half of UK burglaries with entry, about
   28% in the US). Different definitions and periods; do not reconcile, report both and say so.
@@ -1854,7 +1865,9 @@ crime survey asked victims and non-victims which devices they had.
   entries to *unoccupied* homes) and the UNCC spur-of-the-moment figure (41%) are different
   measures. Do not repeat the Lamplugh line.
 - **Practical guidance that matches the evidence:** Suzy Lamplugh's home page: "If you are in your
-  home and think there is an intruder, call the police – don't go and investigate by yourself" and
+  home and think there is an intruder, call the police – don't go and investigate by yourself"
+  (Stage 4 note, lesson 05: the spaced dash fails the build, so a lesson quotes the two halves
+  separately, never the dash) and
   "If you come home and suspect an intruder has been inside, don't enter the property." [V] Bogus
   callers: "Use the telephone number given in the phone book or on your utility bill, rather than
   the one on the identity card" [V], and lock other entrances before answering, because "a bogus
@@ -4286,3 +4299,146 @@ confirmed. The corrections to B9, B11, B13 and the gait synthesis are made in pl
 - Victim Support NI [vsni.txt]: [V] "02890 243133 Opening hours: Monday – Friday from 9am-5pm"
 - RAINN [rainn.txt, in-app browser]: [V] "free, confidential, 24/7 support in English and en Español. Call 800.656.HOPE (4673)"
 - VictimConnect [vc.txt]: [V] "Call or Text 855-484-2846"; [V] "We can only talk, text, or chat with you if you are currently physically safe."
+
+## Gate closures, lesson 05 (2026-09-25)
+
+Recorded by lesson 05's Stage 4 fixer from Reviewer F's findings; the drafter read the same primaries
+on the day and the reviewer re-fetched each (Tseloni PMC7089640 full text, Tilley 2015 UCL PDF,
+Catalano text-only and PDF, the ONS xlsx, the ONS 2017 overview, Lamplugh, NCPC, FTC, the UNCC and
+Rutgers releases, GOV.UK, OVC at https://ovc.ojp.gov/help-for-victims, and Report Fraud and
+ReportFraud.ftc.gov in a browser). Every quoted line below was string-matched by script against the primary saved in
+the reviewer's scratchpad (which does not survive the session) (`verbatim.txt`: 40 of 41 exact after whitespace normalisation; the 41st,
+Table 7's title, matched in two layout fragments; the GOV.UK and OVC lines matched `govuk.txt` and
+`ovc.txt` separately). Report Fraud and ReportFraud.ftc.gov lines were read in a browser on
+2026-09-25 (curl is blocked) and are as displayed.
+
+**G25 closed. ONS, "Nature of crime: burglary" dataset, tables for YE Mar 2015 to YE Mar 2025**
+(`nocburglarytables202425.xlsx`, downloaded 2026-09-25). Crime Survey for England and Wales;
+household incidents; domestic burglary in a dwelling with entry. Years: YE Mar 2015 to 2020, 2023,
+2024, 2025. Note 2: "Due to the suspension of the CSEW during the Coronavirus (COVID-19) pandemic, data
+are not available for the year ending March 2021 and the year ending March 2022." Ranges across the
+nine years:
+- Table 10b: someone at home 51.2% to 68.3% (bases 125 to 334); at home, aware and saw offender(s)
+  21.0% to 34.9%; of those, "Yes - threat/use of force/violence" 53.9% to 75.8% (bases 36 to 87; 36 in
+  YE Mar 2023, 2024, 2025). Note 30: "Incident involved some form of threat, use of force, or
+  violence." Note 31: "Unweighted base is where someone was at home and aware and did see
+  offender(s)." Note 15: "Estimates based on fewer than 50 cases should be interpreted with caution."
+- Table 3b (bases 116 to 305): door 66.9% to 80.2%; door was not locked 18.2% to 35.1%; pushed past
+  person who opened the door 6.8% to 12.2%; false pretences 2.5% to 7.8%; window 19.8% to 28.5%. Note
+  10: "Figures may not sum to 100 as more than one response possible."
+- Table 11b: able to say something about the offender 44.9% to 59.9% (bases 126 to 342); stranger
+  41.0% to 54.3% (bases 71 to 159). Note 34: "'strangers' if the victim did not have any information
+  about the offender(s), or did not know and had never seen the offender(s) before".
+- Cover: "these data are not comparable with data published before January 2019."
+
+**B14, lesson 05 additional passages (Tseloni 2017, PMC7089640, full text):**
+- "Some security devices are more effective than others in reducing the risk of burglary with entry
+  based on their SPFs from the 2008/09 to 2011/12 CSEW data (Tseloni et al. 2014 )."
+- "The most effective combination of two devices is window locks and door double or deadlocks (SPF =
+  13); the most effective combination of three involves adding external lights on a sensor (SPF =
+  34); and the most effective four adding internal lights on a timer (SPF = 49)."
+- "The sum of the SPFs of the individual devices (W = 7, I = 3, D = 3 and E = 3) is, however, only 16."
+- "The resulting metric, which is termed the security protection factor (SPF), shows how much less
+  (or more) vulnerable a target is with given security devices compared to those with 'no security'."
+- "By 'no security' we mean respondents who stated they had none of the listed security devices."
+- "For example, burglaries with forced entry per 1000 households dropped from 31 in 1993 to 7 in
+  2006/07, a fall of 77%, while unforced entry burglaries remained at 7 per 1000 households in the
+  same period."
+- "and other , such as burglar(s) having a key, pushed past, or entering by false pretences and other
+  entry."
+- "Households with 'no security' declined by 72% (from 17.65 to 4.90%) between 1992 to 1996 and
+  2008/09 to 2011/12."
+- "The fact that 'no security' in the earlier 1992–1996 CSEW sweeps means something different to 'no
+  security' in the following sweeps may to some extent explain the higher frequency of 'no security'
+  prior to 1998."
+- "Households with 'no security' were twice as likely as the general population to be burgled in
+  1992–1996 and nearly eight times more so in 2008/09 to 2011/12."
+- "Figure 9 indicates that the main drop in burglary has occurred where the house is empty rather than
+  when it is occupied."
+- "legislation to decree that these devices be required as minimum standards to be met by property
+  developers and by landlords for their tenants."
+- "From the various possible explanations for alarms' ineffectiveness leading conjectures include the
+  changing balance between risks and gains for the prospective burglar that alarms signal and/or
+  alarms normalisation for home/contents insurance coupled with poorer average quality over time
+  (Tilley et al. 2015b )."
+- "Since the cause, security, cannot be manipulated a quasi-natural experiment is not literally an
+  experiment"
+- Funding: "funding was provided from the Economic and Social Research Council, Secondary Data
+  Analysis Initiative-Phase 1"; "The funding body had no role in the design of the study and collection, analysis,
+  and interpretation of data and in writing the manuscript."
+
+**B15, Stage 4 correction (Tilley 2015, UCL Discovery PDF, Discussion and Conclusion):** the
+authors call two hypotheses plausible, not one.
+- Latent repeat victim: "This hypothesis seems plausible but cannot be tested with the current CSEW
+  data because of survey reference period constraints."
+- Flags for target suitability: "Except for adamant claims from some burglars that they avoid
+  properties with alarms, this hypothesis is quite plausible although we have no data with which to
+  test it."
+- Conclusion: "Given previous research findings suggesting that they have been effective deterrents,
+  it would be premature to conclude that domestic burglar alarms are (or have become)
+  counter-productive and hence that their installation should no longer be encouraged."
+- Funding: "This work was supported by an Economic and Social Research Council Secondary Data Analysis
+  Initiative Phase 1 grant"
+
+**B16, lesson 05 additional passages (releases only):**
+- UNCC: "The researchers delved into the decision-making processes and methods of 422 incarcerated
+  male and female burglars selected at random from state prison systems in North Carolina, Kentucky
+  and Ohio." "Among those who discovered the presence of an alarm while attempting a burglary, half
+  reported they would discontinue the attempt, while another 31 percent said they would sometimes
+  retreat."
+- Rutgers: "SCJ Professors George L. Kelling, Marcus Felson and Ronald V. Clarke and Professor Robert
+  D. McCrie of John Jay College of Criminal Justice in New York were members of the study's Faculty
+  Advisory Committee. Dr. Clarke served as committee chair." "While other studies have concluded that
+  most burglars avoid alarms systems, this is the first study to focus on alarm systems while
+  scientifically ruling out other factors that could have impacted the crime rate."
+
+**B17, Stage 4 corrections:**
+- Catalano 2010, PDF (bjs.ojp.gov/content/pub/pdf/vdhb.pdf), Table 7, "Method of entry in household
+  burglary involving unlawful entry, by presence of household member, 2003–2007": "Note: Unlawful
+  entry is a completed burglary committed by someone having no legal right to be on the premises even
+  though no force was used to gain entry." Household member present: "Someone let the offender in
+  19,960 1.6 % 109,810 17.6 %"; "Offender pushed way inside 2,750 0.2 ^ 73,790 11.8" (total present,
+  unlawful entry: 623,520). The text-only sentence "Respondents in 18% of burglaries of occupied
+  residences stated that someone inside the home let the offender in; 12% stated that someone inside
+  opened the door and the offender pushed their way in." reports this table: the base is unlawful
+  (unforced) entries to occupied homes. As shares of all burglaries with someone present (1,024,230):
+  10.7% and 7.2% (reviewer's arithmetic).
+- Catalano Table 1: "Household burglary 3,713,000 27.6 % 7.2 %"; "Completed 3,083,750 26.7 % 8.0 %";
+  "Attempted forcible entry 629,250 32.0 % 3.4 %". "Percent present is calculated as the number of
+  households in which someone was home during a burglary (N=1,025,520) divided by the number of
+  household burglaries (N=3,713,000)." (The US 28% includes attempted forcible entries.)
+- ONS 2017 overview: the stranger-or-known bullet reads "in the majority of years, it was almost
+  equally likely in incidents of domestic burglary in a dwelling that the offender(s) was a stranger
+  or known by the victim".
+- Warr's full sentence: "burglaries normally occur when no one is home, evidently because burglars do
+  not want to be injured by armed homeowners (Miethe and McCorkle 1998)."
+- Lamplugh, "Personal safety at home", re-read 2026-09-25: "Intercom systems, spy holes, door chains
+  and outside lighting can all help to safely identify callers. If you have them, make sure you use
+  them." "If a caller claims to be representing a company or organisation, ask for ID." "If you are
+  uncertain about the ID, phone the organisation to check the caller is genuine." "Try and make sure
+  other entrances into your home are locked when you answer the door." "If you come home and suspect
+  an intruder has been inside, don't enter the property. Use a mobile or a neighbour's phone to call
+  the police." (The in-home line has a spaced en dash; quote it in two parts: "If you are in your home
+  and think there is an intruder, call the police" / "don't go and investigate by yourself".)
+
+**B24, lesson 05 additional passage (FTC, "How To Avoid a Scam", re-read 2026-09-25):** "If you get
+an email or text message from a company you do business with and you think it's real, it's still best
+not to click on any links. Instead, contact them using a website you know is trustworthy. Or look up
+their phone number. Don't call a number they gave you or the number from your caller ID."
+
+**G5, lesson 05 lines (read in a browser 2026-09-25):**
+- Report Fraud home page: "Tell us what happened and we'll help you report it to the police. If you
+  live in Scotland, please report via 101." Coverage: "live in England, Wales or Northern Ireland"
+  (the sentence continues after a spaced en dash; do not quote it whole).
+- Report Fraud contact page: "You can also report and get advice about cyber crime or fraud by calling
+  0300 123 2040." Telephony "available 24 hours per day, 7 days per week (please note, you may
+  experience reduced availability 8pm to 8am ...)". "This will be charged at your standard network
+  rate." Textphone 0300 123 2050.
+- ReportFraud.ftc.gov: "We can't resolve your individual report, but we use reports to investigate
+  and bring cases against fraud, scams, and bad business practices." "Your report is shared with over
+  2,000 law enforcers."
+- GOV.UK "Contact the police" (content API, re-read 2026-09-25): "Call 999 if you are reporting a
+  crime that is in progress or if someone is in immediate danger." "Report crimes online or by calling
+  101 if they are not an emergency."
+- OVC "Help for Victims" (re-read 2026-09-25): "If at any time you feel that you are in immediate
+  danger, we strongly urge you to call your local police department's emergency number (911)."

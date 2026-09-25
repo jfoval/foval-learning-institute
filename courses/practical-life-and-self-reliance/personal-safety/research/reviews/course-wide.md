@@ -88,3 +88,28 @@
   lesson 5 can still keep every earlier lesson to 2 matches at any offset, but under value rotation
   the best such sequence matches one of them in 4 positions (checked by script). Hold to the
   drafting rule and treat rotation as advisory.
+
+## 2026-09-25 — from lesson 05's Stage 4 fix
+
+- **SOURCES B15 and B17 corrected** (notes in place, details in "Gate closures, lesson 05"). A later
+  lesson or podcast script must not say: that Tilley and colleagues' one or leading explanation for
+  the alarm finding is the latent repeat victim (they call two plausible, the other being that an
+  alarm flags something worth stealing, and they call it "premature" to conclude alarms are
+  counter-productive); that 18% of US burglaries with someone home began with someone letting the
+  offender in (18% and 12% are of unforced entries; of all burglaries with someone home they are
+  about 11% and 7%); or ONS 2017's "almost equally likely" without "in the majority of years". The
+  US 28% includes attempted forcible entries. Both England and Wales alarm papers were ESRC-funded;
+  name funding for both sides or neither.
+- **A source's spaced dash is split around, never reproduced**: quote the halves separately ("call
+  the police", "don't go and investigate by yourself"). OUTLINE lesson 5 now says so; the "Course
+  conventions" in `pipeline-briefs.md` could carry it as a standing line, since the build fails on
+  the dash once a course is published.
+- **"UK" for the intruder advice is wrong**: the CPS/NPCC leaflet is England and Wales. Lesson 14,
+  which uses the same leaflet, should describe it that way. No US source on "someone may be inside"
+  was found; lesson 14 or 15 should not imply one.
+- **Quiz keys:** lesson 5 is now 1,3,1,2,3,0. With lessons 1 to 5 in place, lesson 6's fixer should
+  rerun the at-any-offset check against all five (only six six-item sequences passed against lessons
+  1 to 4).
+- **Measured pattern seen again: a prose sentence in a report taken without its table** (Catalano's
+  "18% of burglaries of occupied residences" is Table 7's unforced-entry base). Open the table the
+  sentence reports before quoting a percentage.
