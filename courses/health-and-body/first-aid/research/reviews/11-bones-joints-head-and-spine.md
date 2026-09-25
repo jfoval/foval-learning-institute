@@ -193,3 +193,88 @@ exit 0; `npm run quotes first-aid`: 0 of 379 not found.
 **Status after review:** needs second pass. The four new quiz items, the rewritten head-injury
 lists, the St John recovery-position paragraph, the rewritten lane steps and checkpoint, the two
 new exercise cases and the final-test item are new text no reviewer has read.
+
+## 2026-09-25 — Lesson 11 — Stage 4 second pass, one reviewer (facts and safety)
+**Reviewer:** F2, fresh context, Reviewer F's brief, scoped to the fix pass (commit 228f011): the
+four new quiz items and every key and explanation, the head-injury lists, the St John spinal
+recovery position paragraph, the lane steps and checkpoint, exercise cases A and B, the final-test
+item, and the SOURCES corrections and "Gate closures, lesson 11". Checked against F's saved
+primaries in `r11f/` (AHA 2024 Wayback text, RCUK 2025, NICE NG232 1.2.2 and 1.2.3, the NHS head,
+arm and sprain pages, the four St John pages, the three British Red Cross pages, PEACE and LOVE, and
+`browser_extracts.txt` for the two American Red Cross pages, the ERC publisher page and the ILCOR
+typeset text).
+
+**Claimed fixes, verified:** F1 to F20 and P3, P8, P9 each hold against the primary. F8's partial
+decline is right: St John's head page has "they are over the age of 65" and "they had previous brain
+surgery". Every grade re-read in the AHA tables (fracture recs 1 C-EO, 2a C-EO, 2b C-EO; cold 2a
+C-LD with the 20 to 30 minutes inside the recommendation; compression 2b C-LD; spinal 1 C-EO, 3: Harm
+C-LD twice; concussion 1 B-NR, severe head injury 1 C-EO; shock leg raise 2b C-LD for no trauma or
+injury; direct pressure 1 C-LD). The SOURCES corrections (ILCOR typeset "remains unchanged", AHA rec
+2 and "Experts recommend", RCUK "Never force", PEACE and LOVE's concession, the American Red Cross
+starred lists, the British Red Cross 999 lines, the X-ray lines) each match the saved copies.
+
+**Quiz.** Keys 1,0,1,2,3,0. Option lengths 83/87/82/82, 84/82/86/86, 82/74/78/79, 87/85/88/79,
+85/77/77/80, 82/82/80/83: spreads 5, 4, 8, 9, 8, 3, as the fixer reported. Each stem executed
+against its key under the body it names: Kendal (RCUK face-down roll as a unit, verbatim), Dayton
+(AHA 3: Harm C-LD for penetrating trauma; direct pressure 1 C-LD), Wakefield (RCUK's signs and
+remove-and-refer; the ERC's "of any cause"), Truro (see S7), Oxford (NHS 111 for alcohol; NICE 1.2.3
+intoxication). **Final test** (Salisbury): key 3, options 81/81/80/81; the NHS 999 clear-fluid item,
+the drive-yourself line and the American Red Cross's starred "Blood or other fluids in nose or ears"
+all verbatim; 70 per cent of 20 is 14.
+
+**Sums redone by hand:** 2 m is 6 ft 6.7 in (6 ft 7 in); 1 m is 3 ft 3.4 in; 2 m exceeds an
+8-year-old's height (about 1.3 m); the cold range 10 to 30 minutes, and 20 minutes sits inside the
+AHA's 20 to 30, the American Red Cross's 20, the NHS's 20 and St John's 20 but not the British Red
+Cross's 10.
+
+**Findings:**
+1. S1 [minor] Head-injury UK list: the British Red Cross bullet gave four 999 items as if the whole
+   list; the page also sends less responsive, numbness, clear fluid or blood from ears or nose, a
+   seizure, and "a serious accident or ... a severe blow to the head" to 999. Fixed: ", among
+   others".
+2. S2 [minor, neutrality] "Vomiting is on ... the British Red Cross's 999 list; the NHS page sends it
+   to 111": St John's head page lists "vomiting episodes" among the signs of a serious head injury,
+   which it sends to 999, so the UK split is two pages against one. Fixed in the sentence, with [5];
+   the St John lines were not in SOURCES and are appended (see below).
+3. S3 [minor] "Its FAQ adds watching for a persistent headache or a change in vision": the FAQ says
+   to call 9-1-1 immediately for these. Fixed to "adds calling 911 for"; the FAQ sentence was not in
+   SOURCES and is appended.
+4. S4 [minor] American Red Cross fracture list: "several injuries" for "Severe or multiple
+   injuries*", and "Bleeding or" dropped from "Bleeding or bone protruding through skin*". Fixed.
+5. S5 [minor, safety] UK fracture emergency list omitted the British Red Cross broken-bone page's
+   "Call 999 if the person is unable to move for themselves or is in a lot of pain", already recorded
+   in SOURCES. Added to the UK bullet with [6].
+6. S6 [minor, safety] Exercise F answer: "In the UK the NHS lists aren't met." The NHS 999 list has
+   "problems with their vision" and the 111 list "any other symptoms you're worried about", so light
+   sensitivity is not cleanly outside them. Fixed: "the NHS lists name neither sign, though 111 takes
+   other worrying symptoms".
+7. S7 [minor, neutrality] Quiz 2 names PEACE and LOVE in its stem, but the explanation answered
+   option D only with the AHA's compression review, leaving out Dubois and Esculier's view that
+   compression "seems to reduce swelling"; D's real flaw is "tightly". Fixed: the explanation now
+   gives the AHA's "without compromising circulation" and the British Red Cross's not-tight line,
+   then both sides on whether wraps help.
+8. S8 [minor] "That's the commonest reason people skip the X-ray": a claim in the course's own voice
+   with no source. Cut.
+9. S9 [minor] "a misconception that every source here covering the neck corrects": ILCOR covers the
+   neck and names no moving exceptions (the "every source" pattern, P18). Fixed: "The guidance read
+   here names these exceptions."
+10. S10 [minor, not fixed] The NHS head page's home care also has a wrapped ice pack for the bump;
+    "For the bump itself" names only the British Red Cross and St John. Not wrong, and left because
+    the minutes budget is at the rounding line.
+
+**Also changed to hold the minutes:** "Two NHS lines are easy to miss" is "The NHS adds", and the
+Connections sentence on Strength and Fitness lesson 8 is one clause shorter. Body words 7,976; the
+model gives 90 (raw about 92.47, under the 92.5 line), so `minutes: 90` stands. **Anything added to
+the body now needs an equal cut.**
+
+**SOURCES.md:** two lines appended to "Gate closures, lesson 11" (St John's serious head injury
+signs and 999 line; the American Red Cross FAQ's 9-1-1 line), each string-matched against `r11f/`.
+
+**Checks:** `npm run validate` exit 0 (no lesson 11 warnings); `npm run quotes first-aid`: 396
+sourced quotations, 0 not found. Neutrality: no country's guidance called wrong; the St John
+recovery position difference is stated as a UK-internal difference with each side dated; PEACE and
+LOVE now appear on compression wherever the AHA review does. Safety: the callout is unchanged; every
+new instruction carries its body and year; the "course putting those together" line in the lane
+checkpoint is labelled as the course's own synthesis; no exercise involves another person.
+
+**Status after review:** clean

@@ -45,8 +45,10 @@ quiz:
       The AHA's 2a for cold is for pain and swelling, and its supporting text says cold "has not
       been demonstrated to improve function or time to recovery". Dubois and Esculier go further and
       question ice altogether. The 10-minute cap is the British Red Cross's alone; the NHS and St
-      John allow up to 20. And the systematic review the AHA cites found compression wraps "did not
-      reduce swelling or pain" in recovery, and the British Red Cross says a bandage mustn't become tight.
+      John allow up to 20. And a wrap mustn't be tight: the AHA says without compromising
+      circulation, the British Red Cross that it mustn't become tight. On whether wraps help, the
+      review the AHA cites found they "did not reduce swelling or pain" in recovery, while Dubois
+      and Esculier think compression seems to reduce swelling.
   - q: >-
       In Oxford, a man who has had several pints trips on a kerb and hits his head on a wall. He
       wasn't knocked out, he's talking sense, and he's walking steadily. Under the NHS head injury
@@ -187,8 +189,8 @@ that a broken long bone such as the thigh bone can bleed heavily.[1]
 - **Emergency call:** a limb that is blue, purple or pale (AHA/Red Cross 2024, COR 1, LOE C-EO). The
   [American Red Cross page](https://www.redcross.org/take-a-class/resources/learn-first-aid/muscle-bone-joint-injury)
   marks more signs for immediate emergency treatment: a deformed limb, grating, coldness, numbness or
-  tingling, bone through the skin, an injury to the head, neck, spine, pelvis or upper leg, a pop or
-  snap at the time, a serious cause of injury, several injuries, or signs of shock.[1][8]
+  tingling, bleeding or bone through the skin, an injury to the head, neck, spine, pelvis or upper
+  leg, a pop or snap at the time, a serious cause of injury, severe or multiple injuries, or signs of shock.[1][8]
 - **Otherwise:** avoid painful use and get medical attention (AHA/Red Cross 2024, COR 1, LOE
   C-EO).[1]
 
@@ -196,19 +198,19 @@ that a broken long bone such as the thigh bone can bleed heavily.[1]
 
 - **Emergency call:** 999 or 112 for an open fracture, a long bone, or a suspected broken back, neck
   or pelvis (St John). 999 or A&E for a numb or tingling arm, a bone through the skin, or an arm at
-  an odd angle (NHS).[5][3]
+  an odd angle (NHS). 999 if they can't move themselves or are in a lot of pain (British Red
+  Cross).[5][3][6]
 - **Otherwise:** smaller bones still go to A&E or an urgent treatment centre, but less urgently, and
   can go with a friend (St John).[5]
 
-Two NHS lines are easy to miss: don't drive yourself to A&E, and don't eat or drink, in case the
-bone needs surgery.[3] And if a person with a fracture shows signs of shock, lesson 9's table decides
+The NHS adds: don't drive yourself to A&E, and don't eat or drink, in case the bone needs
+surgery.[3] And if a person with a fracture shows signs of shock, lesson 9's table decides
 the legs. In the US the leg raise is only for someone with no trauma or injury, so not here
 (AHA/Red Cross 2024, COR 2b, LOE C-LD).[1] In the UK, St John's fractures page: "do not raise the legs
 if either are suspected to be broken or there is injury to the pelvis or a hip."[5]
 
-"But she can move it." That's the commonest reason people skip the X-ray. Both Red Crosses
-answer it: being able to move a limb, or stand on it, does not rule out a break, and the British Red
-Cross says only an X-ray can tell.[6][8]
+"But she can move it." Both Red Crosses answer that: being able to move a limb, or stand on it,
+does not rule out a break, and the British Red Cross says only an X-ray can tell.[6][8]
 
 ### The skate park
 
@@ -380,7 +382,7 @@ happened.
   cause of injury, head or neck pain, nausea or vomiting, confusion or a change in behaviour, fluid
   from the nose or ears, bruising round the eyes or behind the ears, and a damaged helmet. Its list
   of causes includes a fall from more than the person's own height, diving head first into shallow
-  water, a vehicle collision and a blow in high-impact sport. Its FAQ adds watching for a
+  water, a vehicle collision and a blow in high-impact sport. Its FAQ adds calling 911 for a
   persistent headache or a change in vision.[8]
 
 **In the UK:**
@@ -396,7 +398,7 @@ happened.
 - **The NHS page, 111 if** they're being sick, feel dizzy, take a blood thinner, were drinking or
   taking drugs at the time, or have other worrying symptoms; call 111 about a child under 5.[4]
 - **The British Red Cross page:** 999 if they become sleepy, vomit or seem confused, or if you
-  suspect concussion.[6]
+  suspect concussion, among others.[6]
 
 Behind the NHS page sits NICE's NG232, which tells services such as NHS 111 what to do with a
 caller. It sends an ambulance for, among others, anyone not fully conscious, any seizure, or a
@@ -406,8 +408,9 @@ knockout they've recovered from, "any vomiting episodes since the injury", intox
 anticoagulant or antiplatelet treatment, which are blood thinners, "(except aspirin monotherapy)",
 meaning aspirin taken on its own.[13]
 
-Vomiting is on the US emergency lists and on the British Red Cross's 999 list; the NHS page sends it
-to 111, and NICE then tells 111 to send the person to an emergency department.[1][8][6][4][13]
+Vomiting is on the US emergency lists, the British Red Cross's 999 list and St John's signs of a
+serious head injury, which it sends to 999; the NHS page sends it to 111, and NICE then tells 111 to
+send the person to an emergency department.[1][8][6][5][4][13]
 Everyone wants them seen; the NHS page takes the phone route. Blood thinners and alcohol are on the
 UK lists and not on the US guideline's. Both St John and the British Red Cross add being over 65 and
 having nobody to look after them as reasons to seek advice, the British Red Cross a past brain
@@ -520,8 +523,8 @@ mortality.[1] For a bystander, lesson 9's bleeding control comes first.
 
 ### When moving comes first
 
-"Never move someone with a neck injury, whatever happens" is a misconception that every source here
-covering the neck corrects. Between them they name these exceptions.
+"Never move someone with a neck injury, whatever happens" is a misconception. The guidance read here
+names these exceptions.
 
 1. **Danger.** The AHA's "unless safety considerations warrant movement"; the ERC's lay guide, "Do
    not move the person unless they are in an unsafe situation"; St John, unless they are in
@@ -682,8 +685,9 @@ guideline's.[4][1]
 **F.** Off the trampoline until a health professional has seen her (AHA/Red Cross 2024, COR 1, LOE
 B-NR; RCUK 2025): light sensitivity and nausea are on RCUK's concussion list.[1][2] The US
 guideline's list isn't met by those alone, but nausea is one of the American Red Cross page's 911
-signs.[1][8] In the UK the NHS lists aren't met, and the British Red Cross page says 999 for
-suspected concussion.[4][6] If she vomits, the US guideline says EMS and the NHS says 111.[1][4]
+signs.[1][8] In the UK the NHS lists name neither sign, though 111 takes other worrying symptoms,
+and the British Red Cross page says 999 for suspected concussion.[4][6] If she vomits, the US
+guideline says EMS and the NHS says 111.[1][4]
 :::
 
 :::exercise Two acronyms, fairly
@@ -709,8 +713,8 @@ Lesson 2's danger check opened both worked examples, and its breathing test deci
 gasps. Lesson 4's grading key read a section that is all C-EO, and a COR 3: Harm for the practice that
 was dropped. Lesson 7's trauma line and the ERC's "kept in supine position" carried over to the neck.
 Lesson 9's bleeding control comes before an open fracture, and its leg-raise table decides shock
-with a fracture. Strength and Fitness lesson 8 tested cold water after training; this lesson looked at
-cold on an injury, a different question with its own small evidence.
+with a fracture. Strength and Fitness lesson 8's cold water after training is a different question
+from cold on an injury.
 
 Lesson 12 turns from injuries to the two emergencies inside the body a bystander meets most:
 heart attack and stroke. Car Basics, later this term, can assume you know the road-scene danger
