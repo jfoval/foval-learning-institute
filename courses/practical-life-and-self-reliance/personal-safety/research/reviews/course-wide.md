@@ -40,3 +40,23 @@
 - **Lesson 2 now answers lesson 1's "Lesson 2 shows how to check"** in its opening; lesson 1's
   Gallup, FTC, 4.5 million and 78% figures are referred to, not repeated. Later lessons should
   point back the same way rather than restate them.
+
+## 2026-09-25 — from lesson 01's Stage 4 fix
+
+- **SOURCES now carries three lesson 1 corrections** (Stage 4 notes, and "Gate closures, lesson
+  01"): R-1's homicide rate is 5.9 per 100,000 (2024), so falls to homicide is 2.4, not "roughly
+  twice"; B12's ONS 2022 avoidance shares are of people who already felt unsafe in at least one
+  setting, not of all men or women; F-6's author is Frank Newport, a Gallup Senior Scientist. A
+  later lesson or podcast script citing R-1, B12 or F-6 uses the notes, not the first-written text.
+- **Lesson 1's content note carries the fullest set of lines** (Victim Support and Rape Crisis in
+  England and Wales; Victim Support Scotland and Rape Crisis Scotland; Victim Support NI's two hubs
+  and Rape Crisis NI; VictimConnect and RAINN), because its sections name rape. A later note on a
+  section without sexual violence can drop the Rape Crisis lines and RAINN.
+- **Never tie a victim's conduct to lesson 7.** Lesson 1 said violence "can be steered by what you
+  do, which is the whole premise of lessons 4 to 7", which reads to a survivor as abuse being theirs
+  to steer. Point avoidance and precaution at lessons 4 to 6; describe "Domestic abuse and stalking"
+  as the services' help and safety planning.
+- **Exercise sorts can use imagined evidence, said to be imagined**, so that items are new without
+  inventing findings. Lesson 1's sort does this.
+- **The minutes model prices an exercise at 2.5 minutes a numbered step plus its stated time.** A
+  fixer asked to raise "Take NN minutes" should check the priced total first.
