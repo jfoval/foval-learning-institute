@@ -763,8 +763,10 @@ only", nothing from that item may be stated in a lesson as a finding.
   Check the year on the live page in a browser before a lesson states a year.
 - **The NCVS changed instruments in 2024.** BJS ran the old and new questionnaires on half the
   sample each; *Criminal Victimization, 2024* reports the legacy half only, so its 2024 estimates are
-  less precise than usual. Numbers from the redesigned instrument will not be comparable with the
-  series. Tell learners this if a 2025 or 2026 figure looks like a jump.
+  less precise than usual. (Stage 4 correction, lesson 02: BJS does not say the redesigned
+  figures will not be comparable; it says the split sample "also allows for the continued
+  production of year-to-year comparisons". See "Gate closures, lesson 02".) If a 2025 or later
+  figure looks like a jump, check which instrument it came from.
 - **The CSEW lost and regained its accreditation.** OSR suspended it in July 2022 over quality
   concerns including a falling response rate and reinstated it in 2024. ONS pages for the years
   ending March 2023 and March 2024 carry the note that those years "are not designated as accredited
@@ -803,10 +805,14 @@ the National Crime Victimization Survey. What it establishes:
 - **Reporting to police.** [V] "Approximately 48% of violent victimizations were reported to police
   in 2024"; [V] "In 2024, 30% of property victimizations were reported". The rape or sexual assault
   reporting figure swung from 46% in 2023 to 24% in 2024, and robbery from 42% to 73%. **Do not
-  teach either single-year figure as the reporting rate.** The swings are what small subsamples do,
-  and the National Research Council panel (US-5) explains why rape estimates are especially
-  volatile. Teach "roughly half of violence and under a third of property crime reaches the police"
-  and use the swing itself as a statistics-literacy example.
+  teach either single-year figure as the reporting rate.** (Stage 4 correction, lesson 02: BJS
+  table 4 marks **both changes significant at the 95% level**, so they are not to be taught as
+  noise or "what small subsamples do". What stands is that each single-year figure is imprecise,
+  with standard errors of about 7 to 8 points for rape and 5 to 6 for robbery, and that the
+  National Research Council panel (US-5) warns that year comparisons of rape in this survey are
+  "particularly problematic". See "Gate closures, lesson 02".) Teach "roughly half of violence and
+  under a third of property crime reaches the police" as the dated rate for the 2023 and 2024
+  surveys.
 - **Relationship to offender (Table 1, 2024).** Stranger violence 3,091,500 victimizations (10.8
   per 1,000); domestic violence (intimate partners and family) 1,110,040 (3.9 per 1,000); intimate
   partner violence 782,900 (2.7 per 1,000). So **strangers account for about 46% of nonfatal
@@ -815,9 +821,12 @@ the National Crime Victimization Survey. What it establishes:
   homicide of women and for sexual violence; it is not true for nonfatal violence as a whole,
   which is dominated by simple assault among young men. A lesson has to make that distinction.
 - **Who: age and sex (Table 3).** Rates per 1,000 in 2024: ages 12 to 17, 29.3; 18 to 24, 34.8;
-  25 to 34, 31.7; 35 to 49, 27.1; 50 to 64, 20.4; **65 or older, 7.5**. Male 24.7, female 21.9 (not
-  a significant difference in 2024). Marital status: married 12.5, never married 32.5, separated
-  74.7. Risk falls steeply with age; the group most afraid in surveys (older people, section 4) is
+  25 to 34, 31.7; 35 to 49, 27.1; 50 to 64, 20.4; **65 or older, 7.5**. Male 24.7, female 21.9 (Stage 4
+  correction, lesson 03: the bulletin does **not** test the male-female difference; its only
+  significance statement on sex is that the rate "did not change significantly from 2023 to 2024".
+  Say the two are close; do not call the difference non-significant on BJS's authority). Marital
+  status: married 12.5, never married 32.5, separated 74.7 (the least precise figure in the table:
+  standard error 26.46, and 43.1 in 2023; see "Gate closures, lesson 03"). Risk falls steeply with age; the group most afraid in surveys (older people, section 4) is
   the least victimized.
 - **Where people live (Table 8).** Violent victimization per 1,000: urban 34.0, suburban 23.3,
   rural 16.7.
@@ -863,8 +872,11 @@ https://cde.ucr.cjis.gov/LATEST/resources/reports/UCR%20Summary%20of%20Reported%
   "all other" and "known and other" categories, and differences in which incidents reach police.
   The honest lesson is that "what share of violence is by strangers" has different answers in
   different sources, and you must say which.
-- The FBI's own caveat: [V] "Both collections are estimates and should be viewed as analogous
-  measures, rather than as one being more accurate than the other."
+- The FBI's caveat on **its own two estimate series** (the older SRS-based estimates and the
+  NIBRS-only estimates; Stage 4 correction, lesson 02: it is not about FBI data against the NCVS):
+  [V] "Both collections are estimates and should be viewed as analogous measures, rather than as
+  one being more accurate than the other." On the NCVS, the FBI says each program "has unique
+  strengths" (see "Gate closures, lesson 02").
 
 #### US-3. BJS, *The Nation's Two Crime Measures, 2015–2024* (Remrey and Tinney, NCJ 310700, March 2026)
 https://bjs.ojp.gov/document/ntcm1524.pdf. **Read in full** (short statistical brief). The official
@@ -883,8 +895,9 @@ reach. Property crime: NCVS 97.6 per 1,000 households, NIBRS 17.9 per 1,000 pers
 https://counciloncj.org/when-crime-statistics-diverge/. **Read in full** (curl). An independent,
 non-partisan explainer, good to link. Key finding: [V] "The nation’s two major tools for measuring
 crime, the UCR and the NCVS, show similar long-term trends for rates of serious violent crime, motor
-vehicle theft, and burglary." It also records that the 2022 to 2024 divergence between the sources
-[V] "became a heated point of political contention", and that the FBI revised figures in autumn
+vehicle theft, and burglary." It also records that the gap between the two sources' estimates of
+the change from 2021 to 2022 (a 2% fall in the UCR, a 75% rise in the NCVS; Stage 4 correction,
+lesson 02: not "2022 to 2024") [V] "became a heated point of political contention", and that the FBI revised figures in autumn
 2024 [V] "without explanation". **Neutrality note:** US crime trends since 2020 are a live partisan
 argument. The course should teach how to read the two sources and should not adjudicate whose
 narrative was right.
@@ -908,7 +921,10 @@ line). Lifetime figures: [V] "More than 1 in 3 women (nearly 43.5 million) and m
 intimate partner during their lifetimes." And [V] "Data from from the National Violent Death
 Reporting System suggests that about 1 in 5 homicide victims are killed by an intimate partner. The
 reports also found that over half of female homicide victims are killed by a current or former male
-intimate partner." (The doubled "from from" is in the source.) These are **lifetime** prevalence and
+intimate partner." (The doubled "from from" is in the source.) Stage 4 correction, lesson 03: the page's
+reference 5 behind the homicide sentences is "Surveillance for Violent Deaths — National Violent
+Death Reporting System, 27 States, 2015" [V], so those figures are **27 US states, 2015 deaths**,
+not national and not current; label them so. These are **lifetime** prevalence and
 broad definitions; the NCVS figures are **annual** and narrower. Do not set them side by side as if
 they measured the same thing. Section 6 below covers this.
 
@@ -991,8 +1007,16 @@ statement anywhere of how the "known or stranger" answer depends on who the vict
   children under 16 in the year.
 - Circumstances: [V] "Around half (51%, 266 offences) of all homicide cases were thought to have
   resulted from a quarrel, a revenge attack or a loss of temper". Only 5% were in furtherance of
-  theft. This supports the de-escalation lessons: most killings start as arguments.
-- Place: most in a residential setting; women mostly in or around a house, men mostly in public.
+  theft or gain (Stage 4 correction, lesson 03: the source's words are [V] "Furtherance of theft or
+  gain accounted for 5% of homicides (27 offences)"). The quarrel share was higher where the suspect
+  was known to the victim (59%) than unknown (44%) [V, see "Gate closures, lesson 03"], so many of
+  these quarrels are domestic: do not turn "half begin as quarrels" into de-escalation advice for an
+  abusive relationship (reconciliation 10).
+- Place: most in a residential setting. Stage 4 correction, lesson 03: Figure 8's data give female
+  victims 81% in or around a house and **male victims 46% in or around a house**, 32% street,
+  footpath or alleyway, 5% open outdoor, 5% licensed premises. "Men mostly in public" is ONS's chart
+  title and holds only if the public categories are added up; the commonest single place for men is
+  also a house.
 - Alcohol and drugs: 35% of victims were thought to be under the influence.
 - Method: sharp instrument 39%, the most common single weapon a kitchen knife.
 - A caution ONS itself makes, and the course should copy: [V] "Demographic factors discussed in
@@ -1008,15 +1032,18 @@ incidents (54%) occurred in the evening or during the night". [V] "the large maj
 of domestic violence occurred around the home (78%), whereas incidents of stranger violence were
 most likely to occur either around work (30%) or in the street (21%). Incidents of acquaintance
 violence were most likely to take place at work". (Footnote markers removed; the source
-continues "(40%, Figure 13)".) The "around
-work" category includes pubs and clubs near work; a drafter should check the footnote definitions
-before teaching it. A drafter wanting current figures should open the "Nature of crime: violence"
+continues "(40%, Figure 13)".) Stage 4 correction, lesson 03: "around work" does **not**
+include pubs and clubs. Figure 13's notes define it as [V] "Includes work premises, whether inside or
+outside or work garage or car parks." and pub or club separately as [V] "Includes pub or club
+premises, whether inside or nearby street or car parks."; stranger violence in or near a pub or
+club was 18.9% (Figure 13 data). See "Gate closures, lesson 03". A drafter wanting current figures should open the "Nature of crime: violence"
 dataset (xlsx) on ONS.
 
 #### UK-5. HMIC, *Crime-recording: making the victim count* (November 2014)
 https://assets-hmicfrs.justiceinspectorates.gov.uk/uploads/crime-recording-making-the-victim-count.pdf.
 **Summary and conclusions read** (126 pp; I read pp. 18 to 21 and the contents). The inspection that
-cost police recorded crime its accreditation. [V] "Over 800,000 crimes reported to the police have
+confirmed the problem (Stage 4 correction, lesson 02: accreditation was removed in January 2014,
+before this November 2014 report, and ONS attributes the removal to an OSR assessment). [V] "Over 800,000 crimes reported to the police have
 gone unrecorded each year. This represents an under-recording of 19 percent. The problem is greatest
 for victims of violence against the person and sexual offences, where the under-recording rates are
 33 percent and 26 percent respectively." (Footnote marker removed. The extracted text reads
@@ -1067,9 +1094,17 @@ they differ.
   (58.1). Source line: [V] "National Vital Statistics System – Mortality data (2024) via CDC WONDER".
 - "Homicide", Wayback 20260101235813 of https://www.cdc.gov/nchs/fastats/homicide.htm. **Read in
   full.** [V] "All homicides Number of deaths: 22,830 Deaths per 100,000 population: 6.8", source
-  year given as 2023. Firearm homicides 17,927.
+  year given as 2023. Firearm homicides 17,927. **Stage 4 note, lesson 01 (2026-09-25): superseded.**
+  The live page (last reviewed 20 February 2026, read in a browser) now gives 2024 data: [V] "All
+  homicides Number of deaths: 20,162 Deaths per 100,000 population: 5.9". Use **5.9 (2024)**; see
+  "Gate closures, lesson 01".
 - "Injuries" (same capture period): all firearm deaths 44,447, 13.1 per 100,000 (2024 label). Most
   US firearm deaths are suicides; a lesson comparing "gun deaths" with crime must not blur them.
+
+**Stage 4 note, lesson 01 (2026-09-25):** with all three figures from 2024 (14.2, 12.1, 5.9), the
+fall death rate is about 2.4 times the homicide rate, not "roughly twice", and the years no longer
+mix. CDC's older-adult falls page gives the 65-and-over age-adjusted rate (78.4, 2024); see "Gate
+closures, lesson 01". The paragraph below is kept as first written.
 
 **The teachable comparison**: a US adult is roughly twice as likely to die in a fall as by homicide,
 and about as likely to die on the road (14.2 and 12.1 against 6.8 per 100,000, mixing 2024 and 2023
@@ -1218,7 +1253,9 @@ https://news.gallup.com/opinion/polling-matters/698624/exploring-local-positivit
 series began in 2000. Americans’ views of the seriousness of crime nationwide over this 25-year
 period have averaged 43 percentage points higher than their views of local crime." Mechanism
 offered: local views rest on direct experience, national ones on [V] "dramatic events and broader
-narratives." This is an opinion piece by a Gallup editor, not a study; cite as such.
+narratives." This is an opinion piece, not a study; cite as such. **Stage 4 note, lesson 01
+(2026-09-25):** the author is not "a Gallup editor". The byline is Frank Newport, and the page's
+author note says [V] "Frank Newport, Ph.D., is a Gallup Senior Scientist."
 
 #### F-7. ONS, *Public perceptions of crime in England and Wales: year ending March 2016*
 https://www.ons.gov.uk/peoplepopulationandcommunity/crimeandjustice/articles/publicperceptionsofcrimeinenglandandwales/yearendingmarch2016.
@@ -1676,7 +1713,12 @@ harm to women (B20) comes from people they know, where gait is irrelevant.
   alone in all settings after dark than during the day; with women feeling less safe than men in all
   settings after dark" [V]; more people "had stopped walking in quiet places such as "parks or open
   spaces" after dark in the last month because of feeling unsafe; an increase in both men (from 18%
-  to 24%) and women (from 32% to 37%)". [V] Use: the gap between how unsafe people feel in public
+  to 24%) and women (from 32% to 37%)". [V] **Stage 4 note, lesson 01 (2026-09-25):** section 4
+  shows these are shares of people who already felt very or fairly unsafe in at least one setting,
+  not of all men or all women: [V] "The Opinions and Lifestyle Survey (OPN) asked people who said they
+  felt very or fairly unsafe in any setting, if they had stopped doing certain activities in the last
+  month." The same section reports stopping going to busy public spaces falling from 38% to 23%. Give
+  the population with the figures. Use: the gap between how unsafe people feel in public
   and where harm actually happens (B20). Snippets give "one in two women" feeling unsafe on a quiet
   street after dark; I did not extract that figure from the chart, so it is not quoted.
 
@@ -1720,7 +1762,9 @@ crime survey asked victims and non-victims which devices they had.
   at the time of the victimisation." [V] It also could not test area-level measures (Secured by
   Design, alley-gating, street lighting), and suggests security's role "is understated".
 - **Who is most at risk, same paper:** "previous burglary victimisation is the single highest
-  predictive factor of current risk". [V] So the week after a burglary is when to fix the lock.
+  predictive factor of current risk". [V] (Stage 4 correction, lesson 03: this is in the paper's
+  discussion and is **cited, not found**: the sentence ends "(Farrell and Pease 1993 ; Osborn and
+  Tseloni 1998 )". Attribute it as "the paper repeats, citing earlier research", never "found".) So the week after a burglary is when to fix the lock.
 - Companion papers: Tseloni et al. (2014), "The effectiveness of burglary security devices",
   *Security Journal* (Springer page did not download; snippet only); Farrell, Tseloni, Mailley and
   Tilley (2011), "The crime drop and the security hypothesis", *JRCD* 48(2) (not read; the parent
@@ -1878,6 +1922,11 @@ These overlap with Part A; included because each one corrects a specific piece o
 
 #### B20. Sexual violence: ONS, *Nature of sexual assault by rape or penetration, England and Wales: year ending March 2025* (released 4 November 2025).
 - **Read:** main points and the perpetrator and location sections.
+- Stage 4 correction, lesson 03: the perpetrator and location figures below are for **the survey
+  years ending March 2020 and March 2025 combined**, not one year, and the measure is **rape or
+  assault by penetration experienced at any time since age 16**. [V] "For YE March 2020 and YE March
+  2025 combined, for victims who experienced sexual assault by rape or penetration since the age of
+  16 years, the most common perpetrator was a partner or ex-partner (43.2%)." Label every figure so.
 - [V]: of victims since age 16, "around 4 in 10 (43.2%) were victimised by their partner or
   ex-partner (44.5% of females and 20.2% of males) and 16.3% were victimised by a stranger (15.0% of
   females and 37.5% of males)"; "over one-third (38.2%) were victimised in their own home and 8.0%
@@ -1891,7 +1940,12 @@ These overlap with Part A; included because each one corrects a specific piece o
   time" and "11.9% said that they thought they had been drugged". [V] Handle with great care: a
   lesson may report this only alongside the statement that responsibility lies with the offender.
 
-#### B21. Violence generally: stranger violence falls mostly on young men.
+#### B21. Violence generally: stranger violence falls more on men, and most on the young.
+
+(Stage 4 correction, lesson 03: the heading used to say "falls mostly on young men". No source
+here says that. ONS gives stranger violence by sex (1% of men, 0.4% of women, all ages) and by age
+(2.2% at 16 to 24, both sexes) separately: rates, not shares of victims, and no joint figure for
+young men. Say "more often men than women, and most often 16 to 24 year olds".)
 - **ONS, *The nature of violent crime in England and Wales: year ending March 2024*** (released 26
   September 2024). **Read:** main points. [V]: "men accounted for a higher proportion of victims of
   violence with and without injury where the perpetrator was a stranger (1% of men, compared with
@@ -1905,7 +1959,8 @@ These overlap with Part A; included because each one corrects a specific piece o
   "most violence is by people you know" line is true for women and for sexual violence but too broad
   as a general claim. A drafter must not flatten this.
 - **Myth this corrects:** "the person most at risk on the street at night is a woman alone."
-  Measured by stranger violence, it is young men. Women's fear of the street is not irrational
+  Measured by stranger violence, men are more at risk than women, and the young more than older
+  people (see the correction under the heading). Women's fear of the street is not irrational
   (harassment is common: 27% of women against 16% of men in the 2022 ONS survey [V]), but the
   greatest measured risk of serious violence to women is at home.
 
@@ -3811,3 +3866,329 @@ page's own examples. It may not present the 5Ds as evaluated (no controlled eval
 Part C §6), present Right To Be's police position in the course's voice, or call Direct unsafe or
 safe in general: the page's own four questions carry that.
 
+
+## Gate closures, lesson 03 (2026-09-25)
+
+*Recorded by lesson 3's Stage 4 fixer from the drafter's reads (gates G5 and G8) and Reviewer F's
+fetches of the primaries, all on 2026-09-25, with the helpline pages and Victim Support NI's contact
+page re-read by the fixer the same day. Pages fetched with curl (browser User-Agent) and stripped
+of HTML unless "in-app browser" is named; ONS chart data from the ONS chart CSV downloads. Raw
+copies were in the session scratchpad, which is not kept; URL and date are the record. Each [V] was
+string-matched against the raw copy. The Stage 4 corrections this section supports are marked in
+US-1, US-6, UK-3, UK-4, B14, B20 and B21 above.*
+
+**ONS, *The nature of violent crime in England and Wales: year ending March 2024*** (live page,
+same URL as UK-2). Read in full.
+- [V] "a higher proportion of men were a victim of violence with or without injury where the perpetrator was a stranger (1%) than women (0.4%)"
+- [V] "a higher percentage of younger people were a victim of violence with or without injury, with the highest rate of victimisation among those aged 16 to 24 years where the perpetrator was a stranger (2.2%) or an acquaintance (1.3%)"
+- [V] "a higher proportion of people with disabilities were a victim of violence with or without injury where the perpetrator was an acquaintance (1%) than those without disabilities (0.4%)"
+- [V] "a higher percentage of younger people experienced stalking, with the highest rate of victimisation among those aged 16 to 19 years (8.8%)"
+- [V] "a higher percentage of young people aged 16 to 19 years experienced harassment (19.8%) than those in older age groups"
+- [V] "a higher proportion of people with disabilities experienced harassment (15.3%) than those with no disabilities (7.5%)"
+- [V] "a higher proportion of gay, lesbian (21%) and bisexual people (35%) experienced harassment, compared with heterosexual people (8.4%)"
+- [V] "However, the prevalence of domestic violence is known to be underestimated, as victims may be reluctant to disclose in the presence of an interviewer."
+- [V] "Data from the CSEW for YE March 2023 and YE March 2024 are not designated as accredited official statistics."
+- The article gives no figures for older age groups by relationship to the offender; for older
+  ages use the 2018 article below, with its year.
+
+**ONS, *The nature of violent crime in England and Wales: year ending March 2018*** (live page, same
+URL as UK-4; Figures 10 and 13 chart CSVs). Read: the age, marital-status, alcohol, timing and
+location sections, and the scope note.
+- Scope: [V] "The article does not include data on robbery or sexual offences with the exception of data on police recorded offences involving a knife or firearm." So its "victim of violence" is violence with or without injury, **not robbery** (a mugging).
+- [V] "CSEW estimates indicate that adults aged 16 to 24 years were more likely to be victims of violence (4.0%) than those in older age groups"
+- Figure 10 data, "Percentage" and "All Adults" columns, England and Wales, year ending March 2018 [V, CSV rows]: "Men","2.3","1.7"; "Women","1.2","1.7"; "16 to 24 years","4.0","1.7"; "25 to 34 years","2.4","1.7"; "65 to 74 years","0.4","1.7"; "75 years and over","0.3","1.7". Sex and age are separate cuts; there is **no joint figure** (for women aged 25 to 34, say).
+- [V] "Separated adults (2.7%) were more likely to be victims of violence than adults that were married (0.9) or widowed (0.4%)."
+- Figure 13 notes: [V] "Includes work premises, whether inside or outside or work garage or car parks." (around work); [V] "Includes pub or club premises, whether inside or nearby street or car parks." (pub or club). Data [V, CSV, columns Domestic, Acquaintance, Stranger]: "Pub or club","1.2","16.3","18.9".
+
+**ONS, *Homicide in England and Wales: year ending March 2025*** (live page; Figure 8 CSV).
+- [V] "This proportion was higher where the principal suspect was known to the victim (59%), compared with when the suspect was unknown (44%)" (the proportion is the 51% from a quarrel, a revenge attack or a loss of temper).
+- [V] "Furtherance of theft or gain accounted for 5% of homicides (27 offences)"
+- [V] "The latest annual homicide rate for male victims (12.3 per million population) was over twice that for female victims (5.0 per million population)"
+- Figure 8 [V, CSV, columns Male victims (366 offences), Female victims (155 offences)]: "House dwelling (in and around)","46","81"; "Street footpath alleyway","32","6".
+
+**ONS, *Nature of sexual assault by rape or penetration, England and Wales: year ending March 2025*** (live page).
+- [V] "For year ending (YE) March 2020 and YE March 2025 combined, the most common location for rape or assault by penetration to occur was in the victim’s home (38.2%), followed by the perpetrator’s home (28.5%)."
+- [V] "For YE March 2020 and YE March 2025 combined, for victims who experienced sexual assault by rape or penetration since the age of 16 years, the most common perpetrator was a partner or ex-partner (43.2%)."
+
+**National Research Council, *Estimating the Incidence of Rape and Sexual Assault*, summary chapter** (as US-5).
+- [V] "However, in reviewing all of this material, the panel judges that it is likely that the NCVS is undercounting rape and sexual assault victimization."
+
+**CDC, "About Intimate Partner Violence", capture 20260921054056, reference 5** (as US-6).
+- [V] "Jack SP, Petrosky E, Lyons BH, et al. Surveillance for Violent Deaths — National Violent Death Reporting System, 27 States, 2015."
+
+**BJS, *Criminal Victimization, 2024*** (as US-1; pdftotext).
+- [V] "The rate of violent victimization by sex, race or Hispanic origin, or marital status did not change significantly from 2023 to 2024." This is the bulletin's only significance statement on sex: a change over time, not a male-female comparison.
+- Table 3, 2023 column: separated 43.1 (2024: 74.7). Appendix table 4, 2024 standard errors for total violent crime: male 2.22, female 1.94, 12 to 17 6.00, 18 to 24 7.09, 25 to 34 3.44, 50 to 64 2.16, 65 or older 1.50, married 1.26, separated 26.46 [table values]. So the three youngest groups overlap within their margins, the fall at 65 and over is clear, and the separated rate is the least precise number in the table.
+
+**FBI, *UCR Summary of Reported Crimes in the Nation, 2024*** (as US-2).
+- [V] "Assault offenses include aggravated assault, simple assault, and intimidation." The relationship percentages are shares of **victims**: "13.5% were assaulted by strangers", and "the relationships of all offenders to a given victim are consolidated to 1 category" [V].
+
+**Pease 1998, summary** (as RV-1). The conclusions continue past the fourth clause: [V] "and that those who repeatedly victimise the same target tend to be more established in crime careers than those who do not."
+
+**Tseloni and colleagues 2017, discussion** (as B14). [V] "Those who have already been victimised are the most vulnerable of all and previous burglary victimisation is the single highest predictive factor of current risk", followed by the citation "(Farrell and Pease 1993 ; Osborn and Tseloni 1998 )".
+
+**G5 and G8: support lines printed in lesson 3's content note**, each read on its own page on 2026-09-25:
+- Rape Crisis England & Wales, rapecrisis.org.uk/get-help/want-to-talk/: "Call free on 0808 500 2222" and [V] "A free phone and online chat service for anyone aged 16+ in England and Wales who has been affected by rape, child sexual abuse, sexual assault, sexual harassment or any other form of sexual violence."
+- Victim Support, victimsupport.org.uk/help-and-support/get-help/: "Call our Supportline free on 08 08 16 89 111 , 24/7" [V, spacing as the page has it]; [V] "Anyone affected by crime in England or Wales can contact us for free, confidential support. If you live in Scotland or Northern Ireland, you can contact Victim Support Scotland or Victim Support NI for help." About-us: [V] "regardless of whether they have reported the crime to the police or when it occurred".
+- Rape Crisis Scotland, rapecrisisscotland.org.uk/help-helpline/: [V] "Get in touch any day between 5pm – midnight: Call: 08088 01 03 02"; [V] "We support people of all genders living in Scotland aged 13+ who have been affected by sexual violence."
+- Victim Support Scotland, victimsupport.scot: "Helpline 0800 160 1985" and [V] "Call our free support helpline from 8am – 8pm Mon-Fri, and 10am – 4pm Sat-Sun" (unchanged from G6).
+- DSA Helpline (Northern Ireland), dsahelpline.org: "Call us for FREE 0808 802 1414" and [V] "The DSA helpline is a free, confidential service for anyone aged 18+, providing 24/7, 365-day support." (unchanged from G6).
+- Victim Support NI, victimsupportni.com and /about-us/contact-us/: [V] "We offer a free and confidential service, whether or not the crime has been reported, regardless of how long ago the crime took place."; Belfast Hub "02890 243133", Foyle Hub "02871 370086", each "Opening hours: Monday – Friday from 9am-5pm" [V] (unchanged from G6).
+- RAINN, rainn.org (in-app browser; curl blocked): [V] "RAINN’s National Sexual Assault Hotline offers free, confidential, 24/7 support in English and en Español." and "Call 800.656.HOPE (4673)".
+- VictimConnect, victimconnect.org: "Call or Text 855-484-2846"; [V] "VictimConnect can be reached via phone and text at 855-4-VICTIM or via online chat 24/7." and [V] "We can only talk, text, or chat with you if you are currently physically safe."
+
+**The survey's headline count and its self-completion questions.**
+- ONS 2024 article (as UK-2): [V] "Because of the sensitive nature of the subject matter, domestic abuse, sexual assault, and stalking are covered by the CSEW in a self-completion section of the survey and are reported separately from the headline estimates." So the 6.6%, 4.0% and 3.4% for women are self-completion figures.
+- ONS, *Crime in England and Wales: year ending March 2026* (as UK-1): [V] "Domestic abuse, sexual victimisation, stalking, and harassment are not included in CSEW headline crime figures." and [V] "Around 7.8% had experienced some form of non-sexual harassment". "Fraud is the commonest crime" holds for the headline count.
+
+**G8: closed** for lesson 3's lines. Re-read every number within the week before publishing (G5).
+
+## Gate closures, lesson 02 (2026-09-25)
+
+*Reviewer F for lesson 2 re-read these primaries on 2026-09-25 (curl, browser User-Agent; PDFs by
+pdftotext; HTML stripped). Every line marked [V] was string-matched by script against the extracted
+text. Corrections to entries above are listed first; the lesson 02 fixer made small targeted notes at US-1, its access note, US-2, US-4 and UK-5 pointing here.*
+
+**Corrections to entries above.**
+
+- **US-1 and OUTLINE decision 3 (rape and robbery reporting swings).** BJS marks both changes
+  significant at the 95% level (table 4: rape or sexual assault 46.0 † in 2023, 23.6 in 2024;
+  robbery 42.4 † in 2023, 73.4 in 2024; "†Difference with comparison year is significant at the
+  95% confidence level." [V]). Its text: [V] "The percentage of rape or sexual assault victimizations
+  reported to police decreased significantly, from 46% in 2023 to 24% in 2024." Standard errors
+  (appendix table 5): rape or sexual assault 8.15 (2023) and 7.07 (2024); robbery 6.45 and 5.29;
+  total violent crime 2.09% and 2.72%. So "the swings are what small subsamples do" is wrong as a
+  statement about these two rows. What stands: neither single-year figure is the reporting rate,
+  each is imprecise (the 2024 rape figure's 95% interval is about 10% to 38%, reviewer's
+  arithmetic, 23.6 plus or minus 1.96 times 7.07), and the NRC warns that year comparisons of rape
+  in this survey are "particularly problematic".
+- **US-1 access note (the 2024 redesign).** BJS does not say redesigned-instrument figures will not
+  be comparable. It says the split sample [V] "also allows for the continued production of
+  year-to-year comparisons between victimization estimates, which is critical to understanding
+  changes in crime and victimization in the United States and a strength of the NCVS data
+  collection." And on precision: [V] "Because NCVS weights are adjusted to known population totals
+  for each half of the sample, weights in 2024 were greater than in a typical year, leading to more
+  variation in estimates and higher standard errors."
+- **US-2 (the FBI's "analogous measures").** The sentence is about the FBI's own two estimates
+  (the older SRS-based CIUS estimates and the NIBRS-only estimates), not about the FBI's data
+  against the NCVS. In context: [V] "First published in “Crime in the Nation, 2021,” the newer
+  NIBRS-only estimates are based exclusively on data submitted through NIBRS. Both collections are
+  estimates and should be viewed as analogous measures, rather than as one being more accurate than
+  the other." What the FBI says about the NCVS, in the next paragraph: [V] "There are several
+  differences between BJS’s NCVS and data published by the FBI’s UCR Program, and each program has
+  unique strengths. Together, they can provide a greater understanding of crime trends in the
+  United States."
+- **US-4 (what became "a heated point of political contention").** It was the gap between the two
+  sources' estimates of the change from 2021 to 2022, not a 2022 to 2024 divergence: [V] "The UCR
+  program, which collects data from law enforcement agencies across the U.S., reported that violent
+  crime experienced a 2% drop from 2021 to 2022. But the NCVS data, which surveys about 240,000
+  people a year, showed that violent victimization rose 75% across the same period." [V] "In
+  addition, the large difference between the UCR and NCVS percentage change estimates became a
+  heated point of political contention." [V] "The controversy intensified in the fall of 2024 when
+  the FBI, without explanation, revised previously released figures, leading some to further
+  question the integrity of the UCR data." "Non-partisan" is CCJ's own description, from its About
+  page (counciloncj.org/about/): [V] "Independent and nonpartisan, the Council is an invitational
+  membership organization and think tank".
+- **UK-5.** The accreditation of police recorded crime was removed in January 2014, before HMIC's
+  report of November 2014, and ONS attributes it to an OSR assessment; "the inspection that cost
+  police recorded crime its accreditation" should read "the inspection that confirmed the problem".
+  Police recorded crime remains official statistics: [V] "Police recorded crime data and recorded
+  fraud and computer misuse are not designated as accredited official statistics and are published
+  as official statistics."
+- **Part A §6 ("survey figures are just opinion" as OSR Misunderstanding 1).** OSR's Misunderstanding
+  1 is [V] "National CSEW estimates are unreliable because they do not reflect individuals’
+  experiences or perceptions of crime". "Just opinion" is the course's own paraphrase of a common
+  claim, not OSR's.
+
+**Further lines a lesson may use.**
+
+- BJS, *Criminal Victimization, 2024*: [V] "Victims may not report a crime for a variety of
+  reasons, including fear of reprisal or getting the offender in trouble, believing that police
+  would not or could not do anything to help, and believing the crime to be a personal issue or too
+  trivial to report." [V] "Therefore, the 2024 survey covers crimes experienced from July 1, 2023 to
+  November 30, 2024, with March 15, 2024, as the middle of the reference period. Crimes are
+  classified by the year of the survey and not by the year of the crime."
+- BJS, *The Nation's Two Crime Measures, 2015–2024*: [V] "The NCVS and NIBRS collections have
+  different purposes, use different methods, and measure a set of criminal offenses that are
+  similar but not identical." [V] "Since 2022, the rate has not changed significantly." [V] "During
+  the 10-year period from 2015 to 2024, the NIBRS EP Summary Estimates rate of violent crime
+  fluctuated between 3.7 and 4.0 per 1,000 persons." [V] "The NIBRS EP Summary Estimates include
+  crimes against commercial establishments and crimes against persons age 11 or younger, persons who
+  are homeless, and persons who are institutionalized." Appendix table 1, 2024: 8.9 (95% CI 7.36 to
+  10.42), 5.3 (4.14 to 6.55), NIBRS EP 3.7 (3.62 to 3.68). The brief's police figure is the NIBRS
+  Estimation Program Summary Estimate, 3.7 per 1,000; the FBI's own 2024 estimate is 359.1 per
+  100,000 (3.6 per 1,000).
+- FBI, *UCR Summary of Reported Crimes in the Nation, 2024*: [V] "Murder and nonnegligent
+  manslaughter decreased an estimated 14.9%."
+- NRC 2014, Conclusion 7-2: [V] "Records identified as series victimizations create an outlier
+  problem in the estimation process for the National Crime Victimization Survey. The current method
+  for handling series victimization, though an improvement over the method used until 2011, allows
+  these relatively rare reports to have a large impact on the national estimates of rape and sexual
+  assault and creates large year-to-year volatility."
+- CCJ, key takeaways: [V] "When the NCVS is adjusted to be comparable to the UCR by counting only
+  incidents reported to police and matching the incident year of the offense, notable variations in
+  short-term trends emerge between the two sources." [V] "Much of the difference between the two
+  sources stems from variations in methodology, rather than inaccuracies in the data."
+- ONS, *Crime in England and Wales: year ending March 2026*: [V] "Changes in recording practices
+  have affected the reliability of these figures, particularly for violent crime. This makes them
+  better indicators of police activity than crime trends." [V] "Increases in volume over the last 10
+  years have been largely influenced by improvements in recording standards." [V] "However, this
+  was 33% lower than estimated a decade ago (1.5 million incidents in YE March 2016) and 78% lower
+  than its peak in YE December 1995 (4.5 million incidents)." [V] "The CSEW is better for tracking
+  long-term trends in:" (violence with or without injury, theft offences, criminal damage, fraud,
+  computer misuse) and "Police data are preferred for:" (homicide, offences involving weapons,
+  robbery). On robbery: [V] "This is because the CSEW estimates are subject to year-to-year
+  volatility because of the small number of victims found in the sample." [V] "The CSEW covers
+  selected crimes experienced in the 12 months before the survey interview, including those not
+  reported to the police."
+- OSR, 2 April 2026: [V] "As the UK’s independent statistics regulator, the Office for Statistics
+  Regulation (OSR)’s role is to ensure that official statistics serve the public good." [V] "Claims
+  that the CSEW undersamples cities and oversamples rural areas are incorrect." [V] "Simply because
+  they differ from personal experiences does not mean that the national CSEW estimates are
+  unreliable or incorrect."
+- Gallup, October 2025: [V] "That is, when Americans’ party matches that of the sitting president,
+  they are generally less likely to report an increase in crime; and they are more likely to say
+  crime is rising when the president hails from the other party."
+- Victim Support (re-read 2026-09-25): [V] "Call our Supportline free on 08 08 16 89 111 , 24/7"
+  (get-help page; the space before the comma is the page's). Victim Support Scotland (re-read): [V]
+  "Helpline 0800 160 1985 Call our free support helpline from 8am – 8pm Mon-Fri, and 10am – 4pm
+  Sat-Sun". Victim Support NI (re-read): [V] "We offer a free and confidential service, whether or
+  not the crime has been reported, regardless of how long ago the crime took place." Rape Crisis
+  Scotland (re-read): [V] "Get in touch any day between 5pm – midnight: Call: 08088 01 03 02".
+  Rape Crisis England & Wales (re-read): [V] "Our 24/7 Rape & Sexual Abuse Support Line is open 24
+  hours a day, every day of the year". VictimConnect (re-read): [V] "We can only talk, text, or
+  chat with you if you are currently physically safe."
+
+**Helplines re-read by the lesson 02 fixer (2026-09-25),** curl with a browser User-Agent, RAINN in
+the in-app browser (curl blocked): Victim Support "08 08 16 89 111 , 24/7"; Victim Support Scotland
+"0800 160 1985", "8am – 8pm Mon-Fri, and 10am – 4pm Sat-Sun"; Victim Support NI's "whether or not
+the crime has been reported" and its Belfast and Foyle hubs (weekdays 9am to 5pm); Rape Crisis
+England & Wales "0808 500 2222", 24/7, "anyone aged 16+ in England and Wales"; Rape Crisis Scotland
+"5pm – midnight", "08088 01 03 02", "aged 13+"; Rape Crisis Northern Ireland "0800 0246 991"; RAINN
+"800.656.HOPE (4673)", 24/7; VictimConnect "855-484-2846" and the physically-safe condition. All as
+G6 and "Gate closures, lesson 03" give them.
+
+## Gate closures, lesson 01 (2026-09-25)
+
+*Recorded at lesson 1's Stage 4 fix pass. The drafter read these primaries at drafting and the
+Stage 4 fact-checker (Reviewer F) re-read them on 2026-09-25; the lesson's Sources comments
+"lesson 01 gate closure GX" point here. Pages were fetched with curl (browser User-Agent) and
+stripped of HTML, except CDC, 911.gov and RAINN, which refuse curl and were read in the in-app
+browser. Every sentence in quotation marks below was string-matched against the saved text of the
+primary (43 of 43 found, then the fixer's re-reads) and is [V] in this file's convention, spelling
+and punctuation as the source has them. The scratch copies are not kept; the URL and date are the
+record.*
+
+**Gates.**
+- **G5 (lines re-read on the day):** 999 and press 55 (IOPC), 911 and text-to-911 (911.gov), Victim
+  Support, VictimConnect: all as below. The fixer re-read on 2026-09-25 every line lesson 1 now
+  prints: Victim Support (victimsupport.org.uk home: "call our Supportline on 08 08 16 89 111. Both
+  are free and operate 24/7."), Victim Support Scotland (victimsupport.scot: "Call our free support
+  helpline from 8am – 8pm Mon-Fri, and 10am – 4pm Sat-Sun", "Support Helpline 0800 160 1985"),
+  Victim Support NI (victimsupportni.com/about-us/contact-us/: Belfast Hub "02890 243133", Foyle
+  Hub "02871 370086", each "Opening hours: Monday – Friday from 9am-5pm"), Rape Crisis England &
+  Wales (rapecrisis.org.uk/get-help/want-to-talk/: "Call free on 0808 500 2222", "anyone aged 16+
+  in England and Wales"), Rape Crisis Scotland (rapecrisisscotland.org.uk/help-helpline/: "Get in
+  touch any day between 5pm – midnight: Call: 08088 01 03 02"), Rape Crisis Northern Ireland
+  (rapecrisisni.org.uk home: "0800 0246 991 Information & Support Line", with two sets of hours
+  on the page as G6 found, "Monday to Thursday, 10am – 12noon + 6pm – 8pm" and "Monday to Thursday,
+  6pm – 8pm"), RAINN (rainn.org, in-app browser: "RAINN’s National Sexual Assault Hotline offers
+  free, confidential, 24/7 support in English and en Español. Call 800.656.HOPE (4673)") and
+  VictimConnect (below). All unchanged from "Gate closures G6, G27, G28".
+- **G7 (landlines):** closed for England and Wales as far as the IOPC guide goes. On a landline the
+  Silent Solution is not used, and a call with no request, no answers and only background noise is
+  connected to police "as doubt exists" (guide, read in full). The guide does not say whether it
+  covers Scotland or Northern Ireland; that half stays open.
+- **G21 (accepted manuscripts):** Lee, Jackson and Ellis checked against the journal abstract via
+  Crossref (below). Jackson and Gray, and Jackson and Stafford, have no deposited journal abstract
+  and stay paraphrased. Lesson 1 now paraphrases Lee, Jackson and Ellis too, per the course
+  convention.
+- **G23 (CDC years):** closed. All three FastStats rates are 2024; homicide is 5.9 per 100,000
+  (20,162 deaths), not R-1's 6.8 (2023). Falls/homicide is 2.4 times. Older-adult falls 78.4
+  (age-adjusted, 65 and over, 2024).
+- **G24 (UK falls):** fallback taken. No official UK falls figure read; the lesson sets DfT's 1,602
+  GB road deaths (2024) beside ONS's 522 homicide victims in England and Wales (YE March 2025) with
+  the geography caveat, and builds no ratio from them.
+- **G26 (text-to-911):** the FCC page was read at drafting and is not cited; "FCC text-to-911" stays
+  on the unread line for now. The 911.gov PSAP sentence is still on the page (below), in the deaf
+  and hard-of-hearing answer; do not record it as removed.
+
+**FTC testimony, 25 March 2026** (R-5's PDF, page 1): "The reports are stored in the Consumer
+Sentinel Network (“CSN”), a secure online database that the FTC makes available to international,
+federal, state, and local law enforcement partners." (Footnote markers dropped.)
+
+
+**Warr 2000** (ojp.gov PDF, read in full)
+- "Almost two decades ago, Warr and Stafford (1983) asked residents of Seattle to report their everyday fear, not of “crime” in general, but of a variety of specific offenses ranging from violent crimes like homicide, rape, and robbery to various property and public order offenses."
+- "Even today, the rank order of offenses that emerged from their analysis remains startling to many. Murder, for example, was low on the list of fears, while residential burglary outranked all other offenses on fear."
+- "These data generally corroborate the hierarchy of fears observed by Warr and Stafford (insofar as they use comparable offenses)"
+- "Public perceptions were remarkably accurate as to the relative frequency of different crimes (for example, people recognize that homicide is less common than burglary)"
+- "The premise of this chapter is that fear is justified when perceived risk is congruent with objective risk."
+- "Early investigators often expounded on the rationality of public fear of crime, particularly when applied to specific population groups who were viewed as inordinately afraid (women, the elderly)."
+- "What price is to be put on a lost wedding album, a recording of a deceased parent, a lifetime collection of art, or the life of a favorite uncle?"
+- "In the end, social scientists may legitimately judge the perceptions or information that underlie people’s reactions to crime and gauge the gap between perception and reality."
+- "Another reason for concentrating attention on perceived risk rather than fear itself is that the same level of perceived risk often produces different levels of fear among different people, especially between men and women and young and old (Warr 1984). The reasons for this seem to have a lot to do with perceptually contemporaneous offenses. Among women, for example, the threat of rape often carries over to other crimes."
+- "In surveys of Seattle and Dallas, for example, 63 percent and 77 percent of respondents, respectively, reported that they “avoided certain places in the city,”"
+- "Those most profoundly affected by fear—fear of flying, fear of automobile accidents—may rarely experience it because they have taken extraordinary measures to avoid the source of their fear (Kenny 1963)."
+- "Crosshazard comparisons (where the risk of, say, murder is compared with the risk of an auto accident, disease, or lightning strike) can be useful for illustrating risk as well, but they can be difficult to interpret or understand if not properly constructed (Slovic, Fischhoff, and Lichtenstein 1982)."
+- Covello, von Winterfeldt and Slovic as Warr quotes them, the bullet after the noncomparable one: "Understand and recognize qualitative concerns, such as concerns about catastrophic potential, dread, equity, and controllability."
+- "Some firms are responsible and circumspect in the claims they make for their products. Others deliberately exaggerate or dramatize the risks of criminal victimization in an effort to frighten potential purchasers into buying products, some of which are of questionable utility."
+
+**CDC FastStats** (live pages, in-app browser). Supersedes R-1's 2023 homicide figure.
+- accidental-injury.htm: "Unintentional fall deaths Number of deaths: 48,308 Deaths per 100,000 population: 14.2 Source: National Vital Statistics System – Mortality data (2024) via CDC WONDER"
+- accidental-injury.htm: "Motor vehicle traffic deaths Number of deaths: 41,241 Deaths per 100,000 population: 12.1 Source: National Vital Statistics System – Mortality data (2024) via CDC WONDER"
+- homicide.htm (last reviewed February 20, 2026): "All homicides Number of deaths: 20,162 Deaths per 100,000 population: 5.9 Source: National Vital Statistics System – Mortality Data (2024) via CDC WONDER"
+- cdc.gov/falls/data-research/index.html (dated Sept. 4, 2026): "The age-adjusted fall death rate increased by 21% from 64.7 per 100,000 older adults in 2018 to 78.4 per 100,000 older adults in 2024."
+
+**IOPC Silent Solution guide** (PDF, read in full)
+- "Because it’s less likely that 999 calls are made by accident from landlines, the Silent Solution system is not used."
+- "Pressing 55 does not allow police to track your location."
+
+**911.gov FAQ** (in-app browser, last updated 03/08/2023)
+- "If you need emergency assistance, it is always best to call 911 if you can, and text if you can’t."
+- "Data from 2021 indicate that more than half of PSAPs are enabled for text-to-911, with a lot of variation among states." (Still present, in the deaf and hard-of-hearing answer.)
+
+**Gray, Jackson and Farrall 2008** (LSE accepted manuscript)
+- "in the 2003/2004 sweep of the BCS new questions were inserted into a subsection to explore the frequency and intensity of such fearful events."
+
+**Lee, Jackson and Ellis 2020** (LSE accepted manuscript; the first sentence matches the journal abstract on Crossref apart from the journal's spacing of "n = 409")
+- "We find that less than half of the participants worry about crime but that a sizable minority (13%) indicated that they have some worry about a category of crime every week of the year or more."
+- "A total of 409 respondents (n=409) residing in the City of Sydney Local Government Area were randomly selected for this study."
+
+**Jackson and Gray 2010** (LSE accepted manuscript, introduction)
+- "Drawing upon data from a representative-sample survey of residents of seven diverse London Electoral Wards, we find that around one-quarter of those individuals who said they were worried about crime, also viewed their worry as something akin to a problem-solving activity."
+
+**Jackson and Stafford 2009** (LSE accepted manuscript, abstract)
+- "This paper draws on data from a prospective cohort study (the Whitehall II study) to show a strong statistical effect of mental health and physical functioning on worry about crime."
+
+**ONS, Perceptions of personal safety, GB, Feb to Mar 2022** (section 4 read). Corrects B12's scope.
+- "The Opinions and Lifestyle Survey (OPN) asked people who said they felt very or fairly unsafe in any setting, if they had stopped doing certain activities in the last month."
+- "There was a decrease in the number of adults reporting they had stopped going to busy public spaces during the day. This fell from 38% to 23%, a decrease from 43% to 24% for men and 36% to 22% for women."
+
+**Gallup** (,). Corrects F-6's description of the author.
+- Opinion piece, byline "by Frank Newport": "Frank Newport, Ph.D., is a Gallup Senior Scientist."
+- "The local-national gap has been evident in every poll since Gallup’s crime series began in 2000."
+- Poll: "This measure, which has been tracked since 1965, finds 31% of Americans currently reporting that there is an area within a mile of their home where they would be afraid to walk alone at night, and 68% saying there is not."
+
+**ONS, Public perceptions of crime, YE March 2016** ()
+- "When asked whether they thought crime had gone up or down in the country in the past few years, the majority of adults (60%) responded that it had gone up, which is higher than in the previous year (57%)."
+- "However, the CSEW estimate of crime does not cover all types of offences and therefore may only relate to a subset of the crimes on which people base their perceptions."
+
+**ONS, Crime in England and Wales, YE March 2026** ()
+- "In year ending (YE) March 2026 CSEW, people aged 16 years and over experienced an estimated 989,000 incidents of violence with or without injury."
+- "However, this was 33% lower than estimated a decade ago (1.5 million incidents in YE March 2016) and 78% lower than its peak in YE December 1995 (4.5 million incidents)."
+- "However, it underestimates domestic violence because victims may not disclose it to interviewers."
+
+**ONS, Nature of violent crime, YE March 2024** ()
+- "The CSEW showed that in the YE March 2024: a higher proportion of women experienced harassment (11.2%) than men (6.6%)"
+
+**Scott 2003** (abstract)
+- "Results indicate higher explanations of variance are largely attributed to women having had negative experiences with strangers."
+
+**Victim Support** (Supportline page)
+- "Our Supportline operates 24/7, every day of the year, including Christmas."
+- "We’re independent of the police and anyone can contact us for support, regardless of whether the crime has been reported or how long ago it took place."
+
+**VictimConnect** (home)
+- "Call or text directly at 1-855-4VICTIM (855-484-2846) or chat online."
+- "We can only talk, text, or chat with you if you are currently physically safe."
