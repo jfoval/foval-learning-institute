@@ -181,3 +181,61 @@ quotes first-aid`: 0 not found.
 unresponsive rule, F3's breathing passage, the US/UK pairs for side position, amounts, the child and
 the call, answer G and the deliberate-overdose paragraph, quiz 1 and 5, and the final-test item are
 new text no reviewer has read, and three of them are safety calls.
+
+## 2026-09-25 — Lesson 14 — Stage 4 second pass, one reviewer (facts and safety)
+**Reviewer:** F2, fresh context, on the fix pass committed in cbf64f4, safety first. Read against the
+saved primaries in `r14f/` and `l14/`: RCUK 2025 adult BLS and first aid, the NHS seizure and
+poisoning pages, St John's seizure, diabetes and poisoning pages, Epilepsy Action, the CDC, the
+Epilepsy Foundation and PoisonHelp.org; lessons 2 and 7's cross-referenced passages and lesson 16's
+crisis section.
+
+**Checked and upheld.** Cheltenham: he opens his eyes to his name and mumbles, so he is not an
+"unresponsive person" (RCUK 2025), not unresponsive for 10 minutes and not of unknown cause (St
+John), and not yet past the NHS's "does not regain full consciousness" or the AHA's 5 to 10 minutes;
+"Not yet" is right under both countries' lists, and the checkpoint's 999-then-CPR escalation is gated
+on his stopping responding. The unresponsive-after-seizure rule matches RCUK's "Call 999 for any
+unresponsive person" and lesson 7's line and case 4. The breathing passage gates CPR on "don't
+respond" and abnormal breathing, and the doubt clause on "doesn't respond", matching RCUK's "If there
+is any doubt" and lessons 2 and 7; nothing withholds the call or CPR from an unresponsive person
+breathing abnormally. St John's airway-then-breathing line, the CDC's no-breaths line and the
+Epilepsy Foundation's tonic-phase line all match their pages. Answer G and the deliberate-overdose
+paragraph: PoisonHelp.org's tool does require "I am not trying to harm myself or others"; 911 first
+is the safe reading; lesson 16 does cover someone in crisis. Quiz 1: PoisonHelp.org's call, 911 list,
+no home remedies, no throwing up and small amount of water all match; Salem unused. Quiz 5: the NHS's
+111 line is "not sure if ... harmful", so the key is right; Kettering unused. The US/UK pairs: RCUK's
+hypo lines (15 to 20 g, 50 to 100 mL, 15 min repeat, the call line quoted exactly, 2.5 g child) and
+the NHS/RCUK glucagon difference are accurate; 6 to 8 oz is 177 to 237 mL and 50 to 100 mL is 1.69 to
+3.38 US fl oz, both redone by hand. Dorchester (final test): key and explanation match RCUK 2025
+lines 194 to 200; Dorchester unused. First-pass F1 to F20 confirmed fixed as claimed (F13's "noisy"
+is the course's lesson 7 convention rather than RCUK's word, acceptable under [3] with "(lesson 2)").
+
+**Findings:**
+1. S1 [minor, safety] Milwaukee step 2, "Not normal: onto his back and CPR": Dev is mumbling, so on
+   its literal words a responsive person with odd breathing was a CPR case. Fixed: "If he stops
+   responding and it isn't normal".
+2. S2 [minor, safety] Exercise answer H, "if it is not normal, CPR", ungated. Fixed: "if they don't
+   respond and it is not normal".
+3. S3 [minor, safety] Poisoning, "lesson 2's CPR if they are not breathing normally", ungated; the
+   NHS says "unresponsive and not breathing". Fixed: "unresponsive and not breathing normally".
+4. S4 [minor, decision 2] The new unresponsive rule (call at once) sat beside St John's listed item
+   "unresponsive for more than 10 minutes after the seizure" with no word on the difference. Fixed:
+   "St John's list waits 10 minutes; this course follows RCUK, which does not."
+5. S5 [minor] "The CDC and the Epilepsy Foundation say breathing can look as if it has stopped": the
+   CDC says only that people usually start breathing again. Fixed: the look credited to the
+   Epilepsy Foundation, the return to both.
+6. S6 [minor] Quiz 5 explanation, "had trouble breathing" under the NHS: its line is "severe
+   difficulty breathing". Fixed.
+7. S7 [minor, safety] The seizure log (Owen) never said whether he responded between 14:33 and 14:38,
+   so under the new rule the "not 999" answer depended on an unstated fact. Fixed: "his eyes open
+   when Leila says his name".
+8. S8 [minor] The breathing passage's normal branch (recovery position, stay, watch) did not mention
+   the call for someone who doesn't respond. Fixed: "with the call below if they don't respond".
+
+**To hold `minutes:` at 90** after the additions (the model went to 95): lesson 7's teenager sentence
+in the unresponsive rule (lesson 7 is still cited) and the unwatched-videos sentence in "Where to
+learn more" (pipeline talk) cut. Model now 90.
+
+**Measures.** `npm run validate` exit 0; `npm run quotes first-aid`: 417 quotations, 0 not found. No
+em dashes. The safety callout untouched. Quiz options and keys unchanged except quiz 5's explanation.
+
+**Status after review:** clean

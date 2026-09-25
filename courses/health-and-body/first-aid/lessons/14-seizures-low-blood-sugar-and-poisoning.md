@@ -88,7 +88,7 @@ quiz:
     explain: >-
       The NHS page puts not being sure whether something is harmful under NHS 111. If her mother
       thought the plant was harmful, it would be 999 or A&E, and it would be 999 if the girl lost
-      consciousness, had trouble breathing or had a seizure. The page says not to make someone sick,
+      consciousness, had severe difficulty breathing or had a seizure. The page says not to make someone sick,
       because they could choke, and not to give anything to eat or drink. Waiting to see ignores its
       warning that symptoms can take hours or days to start.
   - q: >-
@@ -206,10 +206,11 @@ This is lesson 2's check, and
 [St John's seizure page](https://www.sja.org.uk/first-aid-advice/seizure/) gives it in order:
 "When any jerky movements have stopped, open their airway and check their breathing."[10] Open it
 with lesson 7's head tilt. Don't start breaths or compressions while they are still jerking: RCUK's
-check comes once the movement stops, and the CDC and the Epilepsy Foundation say breathing can look
-as if it has stopped during a convulsion and usually comes back on its own when it ends.[3][13][14]
+check comes once the movement stops, the Epilepsy Foundation says breathing can look as if it has
+stopped during a convulsion, and it and the CDC say breathing usually comes back on its own
+afterwards.[3][14][13]
 Breathing that is quiet and regular at an ordinary pace is normal: the recovery position, stay, and
-keep watching, as lesson 7 taught. If they don't respond to you and their breathing is absent,
+keep watching, as lesson 7 taught, with the call below if they don't respond. If they don't respond to you and their breathing is absent,
 gasping, slow, laboured or noisy, it is not normal: onto the back, the call on speaker, and CPR
 (lesson 2).[3]
 
@@ -241,9 +242,8 @@ isn't their first**, and St John's rule for a seizure of unknown cause makes it 
 
 One rule comes before any seizure list. If they don't respond to you at all once the jerking stops,
 lesson 2's order applies: in the UK, RCUK 2025 says call 999 for any unresponsive person, and in the
-US a person you can't wake is still a 911 call (lesson 7).[3] Lesson 7's teenager, who had just
-stopped jerking and would not respond, was a call on both counts. The seizure lists are for a person
-who is coming round.
+US a person you can't wake is still a 911 call (lesson 7).[3] St John's list waits 10 minutes; this
+course follows RCUK, which does not.[10] The seizure lists are for a person who is coming round.
 
 The care plan is theirs. The NHS says that if you know what to do and have been trained, you can
 follow it, which may include giving an emergency medicine; the Epilepsy Foundation says the same of
@@ -446,7 +446,7 @@ Harm).[1]
 1. **Call 911** on speaker: he is unable to swallow, and has not improved within 10 minutes of the
    glucose (COR 1, LOE C-EO). Say he takes insulin for diabetes and when he had the tablets.[1]
 2. **Check his breathing.** Quiet and regular: the recovery position (AHA/Red Cross 2024, COR 2a;
-   lesson 7).[1] Not normal: onto his back and CPR (lesson 2).
+   lesson 7).[1] If he stops responding and it isn't normal: onto his back and CPR (lesson 2).
 3. **Glucagon** only if he carries it and someone there knows how to use it.[15]
 4. **Stay and watch** until the crew arrive.
 
@@ -474,7 +474,7 @@ poison expert, and a 999 or A&E matter in England. The NHS gives its reason: sym
 or days to start, so get advice quickly. It also says not to drive to A&E yourself; ask someone to
 drive, or call 999.[5] Once the person has collapsed, the two countries meet: 911 or 999, lesson
 7's recovery position if they are unresponsive and breathing normally (AHA/Red Cross 2024, COR 2a;
-the NHS says "still breathing"), and lesson 2's CPR if they are not breathing normally.[1][5]
+the NHS says "still breathing"), and lesson 2's CPR if they are unresponsive and not breathing normally.[1][5]
 
 ### What you don't do
 
@@ -563,8 +563,8 @@ toxicology position paper).[5][19]
 
 Take 10 minutes, with paper. In a café in Ely, Owen slides off his chair and jerks. His friend Leila
 notes the café clock at 14:31. A moment earlier he had said he could smell burning, though nothing
-was. His lips look bluish, and he bites his tongue. At 14:33 the jerking stops and his breathing is
-quiet and regular. At 14:38 he is sitting up, confused, asking why he is on the floor. He says he has
+was. His lips look bluish, and he bites his tongue. At 14:33 the jerking stops, his breathing is
+quiet and regular, and his eyes open when Leila says his name. At 14:38 he is sitting up, confused, asking why he is on the floor. He says he has
 epilepsy and his seizures "usually go on a couple of minutes". He has wet himself.
 
 Make a log with the NHS's headings (what he was doing before, any warning, how long, colour, which
@@ -637,8 +637,8 @@ the callout's rule; PoisonHelp.org's own online tool is not for someone trying t
 Have the bottle, the amount and the time ready. Anything by mouth, even PoisonHelp.org's small amount
 of water, is for the person on the phone to decide.[18] Lesson 16 covers what to say to her.
 
-**H.** In water: call 911 (AHA/Red Cross 2024, COR 1, LOE C-LD). Check breathing; if it is not
-normal, CPR, and lesson 6 covers the drowned person.[1]
+**H.** In water: call 911 (AHA/Red Cross 2024, COR 1, LOE C-LD). Check breathing; if they don't
+respond and it is not normal, CPR, and lesson 6 covers the drowned person.[1]
 :::
 
 One last task, off the page: save your country's numbers in your phone's contacts now (in the US,
@@ -653,8 +653,7 @@ The recovery position after a seizure is lesson 7's skill, and a class with a ma
 instructor is where to practise it and the CPR that can follow. The free practice tools this course
 points to are the BHF's [RevivR](https://www.bhf.org.uk/revivr) and RCUK's
 [Lifesaver](https://www.resus.org.uk/public-resource/how-we-save-lives/lifesaver-learning/lifesaver),
-and lesson 16 lists where to find a class. The Epilepsy Action, Epilepsy Foundation and St John videos
-have not been watched against the guidance, so none is embedded.
+and lesson 16 lists where to find a class.
 
 ## Connections
 
