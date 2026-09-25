@@ -265,3 +265,186 @@ earlier sequence.** Still chosen by script.
   Scranton, Kalamazoo, Eastbourne, Peoria, Dumfries, Olympia, Lowestoft, Cheyenne and Bradford.
 - **Quiz keys:** lesson 16 kept 0,1,3,2,1,0, re-checked against lesson 15's current 0,3,2,1,3,0.
 - **G16 not worked for lesson 16** (Commons `Steps of CPR-1964.jpg`, licence unverified); no image.
+
+## 2026-09-25 — course-wide neutrality audit
+
+**STATUS: AUDITED AND APPLIED, same session. VERDICT: PASS after fixes.** Medicine is a sensitive
+domain under standards 3.4, so this audit is mandatory before publish (`courses/CLAUDE.md` rule 6,
+standards 3.5). Eleven findings: ten fixed at sentence level in lessons 2, 6, 8, 9, 11, 12, 13 and
+16 and the project, and one reported for lesson 3 (another agent's file); two research gaps. No
+quiz item edited, no safety callout touched, every guideline-and-year parenthesis kept, nothing a
+Stage 4 review closed reopened. Lessons 1 to 15 were audited first; lesson 16 and the project were
+audited after commit 85cea2a (their Stage 4 fixes, 15:17) and then edited. Lesson 3 was read and not
+edited: it was in another agent's hands when the audit began.
+
+Fresh context. Read: standards Part 3 in full; `.claude/commands/neutrality-audit.md`; Nutrition's
+course-wide audit (7fa8baa) for shape; OUTLINE's twelve decisions (2 and 9 closely) and Neutrality
+notes; this file; all sixteen lessons in full with their quizzes; the project in full.
+
+### Counts (lessons 1 to 15, by string count of body names in lesson text, not distinct sources)
+
+| | US | UK and Europe |
+|---|---|---|
+| Guideline bodies | AHA (with AHA/Red Cross 2024) 966 | RCUK 662, ERC 225: 887 |
+| Public pages and other bodies | American Red Cross 172, CDC 24, ASA 23, Stop the Bleed 21, PoisonHelp 14, 911.gov 9, FDA 4: 267 | NHS 396, St John 252, British Red Cross 111, BHF 59, MHRA 30, British Burn Association 25, Epilepsy Action 12: 885 |
+| International | ILCOR 197 | |
+
+The guideline citations are level. The public pages run about 3.3 to 1 towards the UK, because
+RCUK 2025 has no section on burns, fractures and sprains, seizures, swallowed poisons, frostbite,
+stings or ticks, so UK advice there comes from NHS and charity pages, and the lessons say so each
+time.
+
+**Public pages named as behind, or at odds with, their own country's guideline (lessons 1 to 15):**
+UK 14 (St John DR ABC, L2; St John bed-to-floor, L3; BHF "blow hard" and BHF hands-only since
+Covid, L4; British Red Cross two fingers, L6; NHS and British Red Cross two fingers for infant
+thrusts, and a St John 2016 and a British Red Cross 2024 video, L8; NHS "any order", L8; NHS fainting
+call order, L7; NHS cuts elevation, L9 and L10; St John tourniquet page, L9, dated only; St John
+spinal recovery position, L11), Europe 1 (the ERC lay guide's 10%, L5), US 3 (American Red Cross
+infant two fingers, L8; the AHA's own 2024 infant film, L6; American Red Cross nosebleed page, L10).
+The 4.7 to 1 ratio runs ahead of the 3.3 to 1 citation ratio, and the reason is in the texts: RCUK's
+October 2025 changes (the call before the breathing check, no bed-to-floor move) left more UK pages
+out of step than the AHA's changes left US pages, and the AHA's two changes did catch the US pages
+that cover them. Every one is dated and said plainly; none sneers. Two are said more than once in
+one lesson (St John's bed page in L3, four times; BHF in L4, twice for two different lines), which
+is N11 below and a kept item.
+
+**Last word in each US/UK comparison.** About twenty comparisons. Seventeen end on the course's
+neutral line ("neither is wrong", "follow the country you're in", "the call handler decides").
+Three end on a body's own words, each even-handed: RCUK's "far better ... than to do nothing" (L6,
+favours neither order), the ERC's "not sufficient to recommend" after the AHA's 2b (L7, both
+stated), the ASA's "call for any sign" (L12).
+
+**Explained or only quoted.** The AHA prints supporting text, so it is explained more often; RCUK
+prints ungraded steps, so the UK side more often gets its instruction and "gives no reason". Counted
+"no reason given" lines: UK 7 (naloxone training condition, aspirin reasoning, second-dose clock,
+seizure side-wait, febrile cooling, BBA's 20 minutes, ice durations),
+US 6 (arm placement, leg-raise trauma limit, second-dose timing, PoisonHelp's water, CDC salt
+tablets, dressing stacking). Where the course supplied a body's reasoning it said so (L6 RCUK's step
+from cause to breaths; L4 the breaths side's reply) except once (N1). Candour words ("openly",
+"candid", "frank") go to the AHA six times, ILCOR once, because the AHA prints its limits;
+"admission" went to the AHA only, twice (N2).
+
+**Misconception lists.** Corrections landing on a US-origin position: 3 (abdominal thrusts first,
+L8; two fingers, L6, both countries' old teaching; "he can get up now", voiced by a US coach, L13).
+On a UK-origin one: 4 (hands-only since Covid and "blow hard", L4; "the order doesn't matter", L8;
+"always move them to the floor", L3). On the contested questions, mirrors are present for breaths
+(L4), naloxone (L7), ice (L11); the FAST and BE-FAST list corrected one side only (N5).
+
+### Classification (3.1)
+
+Sorted correctly throughout: the adult numbers, bystander CPR's association with survival, "acting
+beats not acting" established; every US/UK difference, the tourniquet's size of effect, improvised
+tourniquets, suction devices, shock position, PEACE and LOVE, FAST against BE-FAST, oral dilution
+contested; duty to rescue, "everyone should learn CPR", DNACPR handling value, described. One
+overclaim (N3): an observational association stated as an effect.
+
+### Perspectives checked, and what each would object to
+
+1. **AHA instructor.** Would recognise compressions first for children with its 5.74-second reason
+   (L6), the drowning split (L6), the back-blow change with its cohort (L8), aspirin's 2b (L12).
+   Would object that the course's own voice backed the UK call order (N1), that "admission" was used
+   only of the AHA (N2), and that lesson 16 and the project reduced the AHA's reasons to
+   "consistency" (N9, N10).
+2. **RCUK/ERC instructor.** Would recognise the call-first reasoning, five breaths from the cause
+   of child arrest, cool first transfer second, the anaphylaxis posture texts. Would object that
+   UK pages are named behind their guideline far more often than US ones (counted above, explained,
+   kept) and that a public-page summary in lesson 16 listed only UK-side pages bar one (N8).
+3. **Sceptic of guideline-by-consensus.** Would find the grading key (L4), "good practice
+   statement" defined as expert opinion, C-EO on every fracture line (L11), the collar history read
+   against ILCOR's cadaver caveat (L11), and "what would settle it" on BE-FAST (L12). Would object to
+   the child-breaths sentence stating an association as an effect (N3). Nothing else.
+4. **Disability and chronic-condition perspective** (epilepsy, diabetes, wheelchair user, someone
+   with a DNACPR). Would recognise "most seizures need no ambulance", the care plan as theirs, the
+   dignity line (L14), the wheelchair choking steps (L8), and awake-and-swallowing as the sugar rule.
+   The DNACPR reading ("unless you have been shown it, carry on", L1, L16) errs towards resuscitation
+   and is labelled the course's; someone who holds a DNACPR would want the ReSPECT and "should be
+   respected" lines beside it, and they are. No sentence-level objection.
+5. **Rural or remote rescuer.** Would recognise the lone rescuer with no phone (L2), the AED too
+   far to fetch (L5), refreezing (L15), elapid bandages declined with the reason (L15), cooling in
+   classic heatstroke with no tub (L15). No objection.
+6. **Person of faith uneasy about DNACPR, or about touching and undressing.** Modesty is handled from
+   ILCOR's and the ERC's text only (L5), with dignity measures labelled as the course's. No faith
+   tradition is described or judged. The omission of religious or cultural rules on touching and
+   resuscitation stands as the OUTLINE's research gap (not fixed).
+7. **Harm-reduction worker.** Would recognise public-health language, no stigmatising terms, the
+   DHSC's "Anyone can use available naloxone", the GAO Good Samaritan laws, and naloxone's safety
+   line. Would object that the lessons set the AHA's CPR-first order against "the leaflet" but never
+   describe what UK or US take-home naloxone training teaches in its own words (not in SOURCES;
+   research gap, not fixed).
+8. **Editors of the public pages (NHS, St John, British and American Red Cross, BHF).** Each lag is
+   dated and said once without scorn, bar N11 and the kept BHF item; the heatstroke wet sheet and St
+   John's legs-up are, correctly, not called lags. "Charity pages" as a label for the UK shock column
+   read as a downgrade (N7).
+9. **Clinician trained in the older US thrusts-only teaching.** Would object that the AHA's case
+   reports of thrust injury were repeated in the technique section, where the reader is being taught
+   the thrust both countries grade COR 1 or recommend (N4). L8 discloses that the case for the old
+   order was not read.
+10. **Stroke clinician on the FAST side.** Would recognise the ASA's own recall study, its funder and
+   its caveats. Would object that the misconception list corrected only the FAST side (N5).
+
+### Findings and fixes
+
+- **N1 (L2, call order).** "The breathing check you'd have done alone ... is a check a trained person
+  does better with you ... Doing it yourself first costs time and adds little." The course's voice
+  arguing RCUK's side, just before "Neither is wrong". **Fixed:** "On their reasoning, the breathing
+  check you'd have done alone, uncertain and frightened, is one a trained person does better with
+  you on the line, so doing it yourself first costs time and adds little."
+- **N2 (L6, L11).** "opens with an admission" (L6) and "its own admission that cold has not been
+  shown" (L11), both of the AHA only. **Fixed:** "opens with the AHA's own caveat"; "its own
+  statement that".
+- **N3 (L6, Kitamura).** "breaths add a great deal on top": an observational registry stated as an
+  effect (3.1). **Fixed:** "So compressions alone went with far better outcomes than standing back,
+  and in the common kind of child arrest, the children who also got breaths did far better still."
+- **N4 (L8, thrusts).** "And this is the manoeuvre the AHA's case reports of a burst stomach and a
+  torn aorta describe", a second telling of the same harm inside the how-to. **Fixed:** "The AHA's
+  case reports of injury, above, are about this manoeuvre; they describe single cases, not a rate."
+- **N5 (L12, misconceptions).** "FAST catches every stroke" with no mirror. **Fixed:** added
+  "**"BE-FAST has been shown to be better."** Not yet. Aroor's study counted no false alarms, and
+  in the ASA's own study fewer of those taught BE-FAST could say what F, A and S stood for.[15][13]"
+- **N6 (L13, Harrogate).** The wrong advice is voiced by "a visiting coach from the US", and the
+  course added "He's guessing where his guideline is silent." **Fixed:** "The visiting coach isn't
+  breaking a US rule, because the US guideline's anaphylaxis section has no posture rule; in England
+  the UK texts apply, and on this point they are explicit."
+- **N7 (L9, shock).** "the UK column comes from charity pages". **Fixed:** "public pages".
+- **N8 (L16, the lag list).** The summary of pages behind their guidelines named BHF, St John, NHS
+  twice and the ERC guide, with the American Red Cross only inside the two-finger item. **Fixed:**
+  added "the American Red Cross's nosebleed page, with a shorter pinch than the guideline it
+  co-wrote (lesson 10)".
+- **N9 (L16, case study).** "the AHA's stated reasons included consistency" picked the
+  teaching-convenience reason. **Fixed:** "the AHA's stated reasons were one cohort study, case
+  reports of injury from thrusts, and consistency, one sequence taught for every age."
+- **N10 (project, scenarios A and B).** The AHA's child-sequence reason given as "consistency" only,
+  and "RCUK says the call handler recognises arrest better than a frightened bystander", words
+  neither body uses. **Fixed:** A adds "and its finding that starting with compressions delays the
+  first breath by only seconds"; B reads "the AHA's consistency across ages and the few seconds
+  compressions first delay the first breath" and "RCUK and the ERC say the call handler is often
+  better placed than a bystander to recognise arrest".
+- **N11 (L3, reported, not edited).** St John's bed page is named four times: the table, the dated
+  sentence (line 362), the case intro "on a public page that lags" (line 475), and the
+  misconception list. Decision 2 says once. Suggested fix for lesson 3's next editor: line 475, "on
+  a public page written before RCUK's 2025 guideline", or drop that clause.
+
+### Checks
+
+`npm run validate` exits 0 (its first-aid line is the expected "status drafting, not built").
+`npm run quotes first-aid`: 417 sourced quotations, 0 not found. No em dash or spaced en dash added.
+`npm run minutes`: lessons 9, 12 and 16 measure 110, 90 and 110 against 105, 85 and 105 stamped,
+each "+5, inside precision", so `minutes:` is left as stamped. Callout unchanged in all sixteen
+lessons and the project. No quiz edited.
+
+### Not fixed, and why (for `docs/QUEUE.md`, which this audit does not edit)
+
+- **Take-home naloxone training in its own words** (L7, perspective 7): no drug-service or
+  naloxone-programme training text is in SOURCES. A Stage 1 read would let L7 set the AHA's order
+  beside what those programmes teach, not only beside "the leaflet".
+- **Religious and cultural rules on touching, undressing and resuscitation**: still the OUTLINE's
+  research gap; L5 handles modesty from ILCOR and the ERC only, correctly.
+- **The case for the older US thrusts-only order** (L8) and **US DNR and POLST forms** (L16): unread,
+  and both lessons say so.
+- **The breaths side's reply to the dispatcher trials** (L4) is the course's reading, labelled; a
+  source from that side would replace it.
+- **Kept on purpose:** the UK-heavy lag count (explained above; the annual re-check in decision 3
+  should drop each note as pages catch up); BHF flagged twice in L4 for two different lines; L11's
+  "The UK pages give no source for their figures" (true, and the American Red Cross page's source
+  was not checked, so the sentence was not widened); L1's caveat on the BHF's commissioned polls
+  (about polls, not the charity); the AHA's candour vocabulary (earned by its supporting text).

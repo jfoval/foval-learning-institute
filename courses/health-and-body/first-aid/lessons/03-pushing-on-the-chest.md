@@ -472,7 +472,7 @@ and nobody stopped to move him.
 
 ## The bed at night
 
-This case is harder, because the answer depends on the country, on a public page that lags, and on
+This case is harder, because the answer depends on the country, on a public page written before RCUK's 2025 guideline, and on
 who the rescuer is.
 
 It's two in the morning in Norwich. A woman in her late seventies makes a strange noise in her

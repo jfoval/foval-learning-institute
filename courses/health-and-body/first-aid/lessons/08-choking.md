@@ -277,7 +277,8 @@ inwards and upwards" (St John), up to five times, checking the mouth again after
 What the thrust does, the British Red Cross puts in one sentence: abdominal thrusts squeeze the air
 out of the lungs and may dislodge the blockage.[11] It says it may, not that it will. The NHS,
 writing about children, calls a thrust "an artificial cough, increasing pressure in the chest".[9]
-And this is the manoeuvre the AHA's case reports of a burst stomach and a torn aorta describe.[1]
+The AHA's case reports of injury, above, are about this manoeuvre; they describe single cases,
+not a rate.[1]
 
 :::predict Suppose the thrusts work: the food comes out on the third, and the person is coughing, tearful and insisting they're fine. Before reading on: do the guidelines say anything about the next hour, and if so, what?
 

@@ -412,9 +412,9 @@ off."
 **Whose rules.** They are in England, so the UK's, the rules the call handler will use.
 
 **Position.** He stays lying down. The MHRA's sentence fits this moment exactly: "do not stand up
-even if someone encourages you to".[6] The visiting coach is not quoting a US rule; the US
-guideline's anaphylaxis section has no posture rule for him to quote. He's guessing where his
-guideline is silent.
+even if someone encourages you to".[6] The visiting coach isn't breaking a US rule, because the
+US guideline's anaphylaxis section has no posture rule; in England the UK texts apply, and on
+this point they are explicit.
 
 **Second dose.** He has improved, so the five-minute rule does not call for one (RCUK 2025; MHRA
 2023).[2][6] But the second device stays in someone's hand: St John says repeat doses can be given

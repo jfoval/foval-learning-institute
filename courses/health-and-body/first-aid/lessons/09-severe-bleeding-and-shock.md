@@ -667,7 +667,7 @@ oxygen developed in unstable patients moved into the feet-up position.[1] Its sh
 say why it limits the leg raise to people without trauma, so this course offers no reason.
 
 Two facts put it in proportion. RCUK's 2025 first aid guideline has no section on the position for
-shock, so the UK column comes from charity pages: St John's, reviewed in April 2025, before RCUK's
+shock, so the UK column comes from public pages: St John's, reviewed in April 2025, before RCUK's
 guidelines appeared, and the British Red Cross's, which carries no date.[3][4][5] And ILCOR's 2025
 review lists "Optimal position for shock" under "Topics Not Included in the 2025 Review".[2] It is a
 contested empirical question, graded weak where it is graded at all. Follow your country's guidance

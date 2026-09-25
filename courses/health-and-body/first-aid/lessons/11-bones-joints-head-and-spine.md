@@ -319,7 +319,7 @@ never aspirin under 16.[5] The AHA/Red Cross guideline does not address painkill
 **Ice.** Dubois and Esculier: "there is no high-quality evidence on the efficacy of ice for
 treating soft-tissue injuries"; they allow that it may be mostly a painkiller and argue it "could
 potentially disrupt inflammation" and so impair repair.[11] The guideline's side is its 2a for cold, for pain
-and swelling, with its own admission that cold has not been shown to speed recovery.[1] So neither
+and swelling, with its own statement that cold has not been shown to speed recovery.[1] So neither
 side claims ice heals a sprain faster.
 
 This is a contested question, and nothing read here settles it; trials that followed recovery over

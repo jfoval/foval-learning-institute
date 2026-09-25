@@ -217,9 +217,9 @@ always recognised by bystanders on scene. In fact, most often, it is the emergen
 cardiac arrest can be challenging," and the call handler's role "is critical to early recognition
 of cardiac arrest and initiation of CPR."[1]
 
-The breathing check you'd have done alone, uncertain and frightened,
-is a check a trained person does better with you, on the line. Doing it yourself first costs time
-and adds little. That is also why RCUK tells you to make the call yourself if nobody else can,
+On their reasoning, the breathing check you'd have done alone, uncertain and
+frightened, is one a trained person does better with you on the line, so doing it yourself first
+costs time and adds little. That is also why RCUK tells you to make the call yourself if nobody else can,
 "before assessing whether breathing is normal."[1]
 
 **The US order.** The AHA's 2025 adult guidelines keep recognition first. Their first

@@ -191,8 +191,9 @@ and doesn't unpack its scale) was recorded in 7.2% of those given conventional C
 
 Two more findings from the same abstract, and both matter. Among children whose arrest *was* of
 cardiac cause, the two kinds of CPR did about equally well: 9.9% against 8.9%. And any bystander
-CPR beat none: 4.5% against 1.9% across all the children. So compressions alone are far better than
-standing back, and in the common kind of child arrest, breaths add a great deal on top. Babies
+CPR beat none: 4.5% against 1.9% across all the children. So compressions alone went with far better outcomes
+than standing back, and in the common kind of child arrest, the children who also got breaths did
+far better still. Babies
 under one did badly whatever was done, 1.7% with a good outcome.[8]
 :::
 
@@ -241,7 +242,7 @@ compressions delayed the first breath by only 5.74 seconds compared with startin
 and breaths. And keeping compressions first, it says, "allows for a consistent approach to cardiac
 arrest treatment in adults and children"; its synopsis says the sequence mirrors the adult one "to
 enhance educational simplicity in training".[2] The sentence that makes the consistency point opens
-with an admission: "Although the supporting evidence is minimal".[2]
+with the AHA's own caveat: "Although the supporting evidence is minimal".[2]
 
 **RCUK and the ERC** reason from the cause. RCUK's guideline says: "The differences in adult and
 paediatric resuscitation algorithms are primarily based on the distinct causes of cardiac

@@ -619,6 +619,9 @@ stroke, and a stroke can be a bleed.[1][2][3][6]
 BE-FAST 4.4%.[15] Neither list is complete, which is why the NHS also lists signs on neither, such
 as a severe headache (the British Red Cross says a sudden severe headache).[6][8]
 
+**"BE-FAST has been shown to be better."** Not yet. Aroor's study counted no false alarms, and in
+the ASA's own study fewer of those taught BE-FAST could say what F, A and S stood for.[15][13]
+
 ## Practice
 
 :::exercise The FAST check, out loud
