@@ -27,8 +27,8 @@ quiz:
     explain: >-
       RCUK's steps put the call first: call 999, then encourage and assist a person with cardiac
       sounding chest pain in self-administering 300 mg, not anyone with a known aspirin allergy.
-      Aspirin before the call turns that order round, and every text read in this lesson puts the
-      call first. Driving her skips the ambulance: the NHS says not to drive to A&E, and the BHF
+      Aspirin before the call turns that order round, and every aspirin text read in this lesson
+      puts the call first. Driving her skips the ambulance: the NHS says not to drive to A&E, and the BHF
       says the ambulance team gives the best care and does tests on the way. Nothing in the UK
       guidance reserves aspirin for the crew.
   - q: >-
@@ -65,8 +65,8 @@ quiz:
       prescribed medicine, so a friend's tablets, alone or on top of the spray, are outside all of
       them. Nothing in the US guidance keeps a person's own medicine for EMS.
   - q: >-
-      In Bangor, a 74-year-old suddenly can't keep her balance and her sight in one eye goes
-      blurred. Her smile is even, both arms stay up and her speech is clear. Her grandson, who
+      In Bangor, a 74-year-old suddenly feels dizzy, can't keep her balance, and her sight in one
+      eye goes blurred. Her smile is even, both arms stay up and her speech is clear. Her grandson, who
       learned FAST, says it can't be a stroke. Under the NHS stroke page, what now?
     options:
       - Nothing yet, because FAST is clear, and FAST is the check the UK guidance teaches
@@ -110,7 +110,7 @@ quiz:
     explain: >-
       The AHA/Red Cross guideline's aspirin line is for alert adults, and the American Red Cross
       page adds that the person must be awake, understand simple commands, and be able to chew or
-      swallow. He meets none of that. Stay on the line and watch him; if he stops responding and
+      swallow. Drowsy, muddled and not following a simple command, he's outside both. Stay on the line and watch him; if he stops responding and
       isn't breathing normally, it's CPR (lesson 2). No source read describes a crushed,
       under-the-tongue or halved dose for a bystander.
 ---
@@ -329,14 +329,14 @@ turned out to have a different condition, type A aortic dissection, that needed 
 For: survival benefit, and no more complications in the studies. For caution: the studies are
 observational, the aspirin was given by professionals, and chest pain isn't always a heart attack.
 The AHA's supporting
-text weighs it in two sentences: harm from aspirin in nontraumatic chest pain is uncommon, but because
-nobody has measured the risk in first aid, where there is a possible reason not to use it, it's
+text weighs it in two sentences: harm from aspirin in nontraumatic chest pain is uncommon, but
+nobody has measured the risk in first aid, so where there is a possible reason not to use it, it's
 reasonable not to encourage it before EMS arrives.[1] RCUK's page gives no reasoning of its own. The
 ERC guideline it adapts starts from the same two facts, that harm is uncommon and that no study has
 measured the risk in first aid, and draws a firmer conclusion: "Therefore, we continue to recommend
 the early prehospital administration of 150–500 mg aspirin to those with cardiac chest pain, by first
 aid providers before the arrival of EMS, unless there is a potential contraindication such as aspirin
-allergy."[3] The same evidence, read more cautiously in the US and more firmly in Europe.
+allergy."[3] The same evidence and exception, read more cautiously in the US, more firmly in Europe.
 
 ### Who each sentence is for
 

@@ -174,3 +174,58 @@ option its key selects. `npm run validate` exit 0; `npm run quotes first-aid`: 0
 **Status after review:** needs second pass. The four new quiz items, the US/UK aspirin pair, the
 no-chest-pain bullet, the ERC reasoning paragraph, the verbs paragraph, the children's paragraph,
 the new checkpoint and the final-test item are new text no reviewer has read.
+
+## 2026-09-25 — Lesson 12 — Stage 4 second pass, one reviewer (facts and safety)
+**Reviewer:** F2, fresh context, Reviewer F's brief, scoped to the fix pass's new text (a62e2c7).
+Checked against F's saved primaries in `r12f/`: RCUK chest pain steps and training principle
+(`rcuk.txt`), the AHA/Red Cross 2024 prose and take-home messages (`aha24.txt`), the chest pain table
+image (`tab21.jpg`, by eye: rec 1 is 1/C-LD, rec 2 2b/B-NR, rec 3 2b/C-EO) and the children's stroke
+table (browser extract of tab20: 1/B-NR, 2a/C-EO, 3: No Benefit/C-EO), the ERC and ILCOR browser
+extracts (ILCOR's aspirin recommendation is headed "Treatment Recommendation (2019)"), the American
+Red Cross, AHA warning-signs, NHS heart attack, NHS stroke symptoms and diagnosis, St John, British
+Red Cross and BHF copies. Every first-pass finding F1 to F25 checked: all fixed as the resolutions
+say. The US/UK aspirin pair, the no-chest-pain bullet, the verbs paragraph, the children's
+paragraph, the women table and the 78-year-old checkpoint each match their primaries. The ERC 2021
+"unclear or traumatic aetiology" wording is recorded at publisher read level in SOURCES; the
+lesson's Sources [3] line is right. Spot-checked 20 lines of the new SOURCES section against the
+saved copies: all present.
+
+**Quiz.** Keys 2,0,1,3,0,1. Option lengths: Q1 82/79/80/77, Q2 78/81/74/76, Q3 77/79/73/82, Q4
+81/78/79/79, Q5 81/81/76/81, Q6 87/87/87/83; the key is never the sole longest. Each explanation
+read against its keyed option; each stem executed against its answer.
+
+**Final test, Boulder item.** Redone by hand: 2 x 81 = 162, 4 x 81 = 324, 8 x 81 = 648; the AHA
+range is 162–325 mg (tab21 and take-home message 3, exactly), so one tablet (81) is below it and
+eight (648) far above it; the key's "162 to 324 mg" is the American Red Cross page's own figure.
+Options 81/75/79/78, key 1, after a key 3 (no adjacent repeat). 21 items, 70 per cent of 21 = 14.7,
+so fifteen to pass: correct.
+
+**Findings:**
+1. S1 [minor] Quiz 4 stem gave loss of balance and blurred sight, but its key cites the NHS's
+   "feeling dizzy" and the stem had no dizziness. Fixed: the stem now says she "suddenly feels
+   dizzy, can't keep her balance", matching the NHS's "feeling dizzy or falling over".
+2. S2 [minor] Quiz 6 explanation "He meets none of that": a drowsy man may still be awake and able
+   to swallow; what he fails is alertness and following a simple command. Fixed: "Drowsy, muddled
+   and not following a simple command, he's outside both."
+3. S3 [minor] Quiz 1 explanation "every text read in this lesson puts the call first" was wider
+   than checked (checked: AHA, RCUK, NHS, St John, British Red Cross, BHF, American Red Cross all
+   put the call before aspirin). Fixed: "every aspirin text read in this lesson".
+4. S4 [minor] The AHA paraphrase "because nobody has measured the risk in first aid, where there is
+   a possible reason not to use it, it's reasonable..." attached the condition to "first aid". The
+   AHA's text: no study measured the risk; "Therefore, if there are potential contraindications ...
+   it is reasonable not to encourage". Fixed: "but nobody has measured the risk in first aid, so
+   where there is a possible reason not to use it, it's reasonable...".
+5. S5 [minor, neutrality] "The same evidence, read more cautiously in the US and more firmly in
+   Europe" hid that the two conclusions share the contraindication exception (AHA "if there are
+   potential contraindications"; ERC "unless there is a potential contraindication"); the difference
+   is the strength of the verb. Fixed at equal length: "The same evidence and exception, read more
+   cautiously in the US, more firmly in Europe."
+
+Not findings: the verbs paragraph omits the British Red Cross's "You can offer" (SOURCES records
+it; the paragraph doesn't claim to be exhaustive). The children's paragraph renders the take-home
+message's "as an adjunct" as "alongside other signs", a fair gloss.
+
+**Measures after fixes.** `minutes:` 85 (7,719 words by the model, raw about 87.4, one word added).
+`npm run validate` exit 0; `npm run quotes first-aid`: 0 of 395 not found.
+
+**Status after review:** clean
