@@ -1105,6 +1105,9 @@ const REPETITION_EXEMPT = [
   "if a partner ex partner or family member is frightening you the lesson on domestic abuse",
   "responsibility for a crime lies with the person who commits it precautions change the odds",
   "the law differs between england and wales scotland northern ireland and each us state",
+  // and its decision 9 general-information label, which every lesson touching the law repeats.
+  "this is general information not legal advice",
+  "the law differs by state and between england and wales scotland and northern ireland",
   "this course is education not a certificate and not medical advice about anyone s own situation",
   "in an emergency call your local emergency number first 911 in the us 999 or 112 in the uk 112 across the eu",
   "it can t teach your hands how hard to push or how a back blow should feel",
