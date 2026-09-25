@@ -170,3 +170,51 @@ this file; `npm run quotes personal-safety` 0 not found. Places: Preston (pharma
 **Status after review:** needs second pass (a light one: the rewritten Farid case, the limits and
 consequence paragraph, the social and asocial passage, the new quiz 5 and quiz 6 option, and the
 Cochrane and Indianapolis wording, read by fresh eyes).
+
+## 2026-09-25 — Lesson 08 — Stage 4 second pass, one reviewer (facts and safety)
+
+**Reviewer F2**, fresh context, on the fixer's scope: the Farid case, the limits paragraph, the
+social and asocial passage, quizzes 5 and 6 and the whole quiz, the Cochrane and Indianapolis
+wording, and every first-pass finding claimed fixed. Checked against the primaries Reviewer F
+fetched (Richmond PMC3298202, MacYoung's post, Cochrane PMC6513023, the IMPD executive summary,
+OVC) and the lesson 08 gate closures. Read throughout as someone assaulted after trying to calm a
+situation.
+
+**Confirmed fixed:** F1 to F24 and P1 to P24 as the resolutions describe. The limits row and the
+paragraph after it match Domain VIII (consequence named, manner the difference). The social and
+asocial passage quotes only "for social reasons and for asocial reasons", attributes the rules'
+limits, the robber example and "makes it worse" correctly to the post, and labels the status
+summary as the course's. Farid: he can't leave with his daughter half out of the car, so talking is
+the rung; "a few steps away" and "at least two arm's lengths" agree; leaving is taken the moment a
+signal appears; the reverse-and-drive option is qualified by "only Farid can see that". The
+responsibility paragraph after the case, and "that is never the fault of the person who couldn't",
+read well to a survivor. Quiz keys 1,2,0,3,0,3, each explanation matching its key, no distractor
+named by position; option lengths 87 to 95; no item asks what a victim should have done; "just
+leave" appears nowhere. Cochrane wording matches the abstract and plain-language summary.
+Contractions: nothing reads stiff; the remaining uncontracted forms are almost all inside quotations.
+
+**Findings**
+- S1 [minor] Indianapolis: "people injured during force incidents" could include officers, whose
+  injuries did not change; the report's measure is subjects injured. Fixed: "people injured when
+  force was used on them".
+- S2 [minor] Exercise model answer (c) attributed "once" and "as information" to Project BETA,
+  which says "if necessary" and "matter-of-fact". Fixed: "Project BETA allows naming a real
+  consequence, if necessary, said matter-of-factly and not as a threat."
+- S3 [minor] Quiz 4 explanation: "repeat your message patiently"; the source says persistently
+  repeating until it is heard. Fixed: "keep repeating your message until it is heard".
+- S4 [minor] Quiz 5 explanation: "it just hasn't been done" claims no bus-driver trial exists,
+  which nothing read establishes. Fixed: "this lesson simply has none to show you".
+- S5 [minor] Quiz 6 explanation: "confronting an abuser ... advice for helpers" answered a leaflet
+  for people at risk with lesson 7's advice to helpers, and "confronting" could land on a reader who
+  once tried talking. Fixed: "no source this course read recommends a talk with the partner about
+  the violence as a first step, which is why the leaflet points to the services."
+- S6 [minor] Farid's checkpoint: OVC's wording is the local police department's emergency number.
+  Fixed: "the local police emergency number, 911".
+- S7 [note, not changed] Cochrane's one study did report changes on agitation scales (none of the
+  review's outcomes, evidence very low). The lesson's wording is accurate; adding the scales would
+  need a gate closure, and the omission does not change what the lesson claims.
+
+**Measures after fixes.** `npm run validate` exit 0, no line naming this file; `npm run quotes
+personal-safety` 177 quotations, 0 not found; `npm run minutes` 95 (7,911 words), unchanged.
+
+**Status after review:** clean

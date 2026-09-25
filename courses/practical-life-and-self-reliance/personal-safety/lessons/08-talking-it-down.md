@@ -79,7 +79,7 @@ quiz:
       Someone joining is one of the four signals, and where he stands, between the driver and the
       van, closes off the driver's way out, which is what the first signal is about. The list is
       this course's synthesis, labelled sensible, untested. A complaint repeated loudly is still
-      the same argument, and Project BETA's own advice is to repeat your message patiently; a
+      the same argument, and Project BETA's own advice is to keep repeating your message until it is heard; a
       single outburst followed by a quieter question is the conversation working; and asking for
       a manager is a request, which the driver can meet.
   - q: >-
@@ -98,7 +98,7 @@ quiz:
       review of nine such studies of nurse training found confidence, attitudes and knowledge up,
       and no significant change in patient aggression. The Cochrane review found one eligible
       study, which measured none of the outcomes it looked for, and its authors can't say whether
-      de-escalation works. And nothing stops a good trial with drivers; it just hasn't been done.
+      de-escalation works. And nothing stops a good trial with drivers; this lesson simply has none to show you.
   - q: >-
       A friend writing a workplace leaflet on de-escalation wants to add that the same steps will
       keep people safe with a partner who is violent at home. On this course's account, what
@@ -114,8 +114,8 @@ quiz:
       its judgement calming techniques there can look like managing the abuser; the services, who
       help people plan on their own terms, are the route, and "Domestic abuse and stalking" starts
       with their lines. No source here says the steps work at home, whether used every time or
-      with someone else doing the talking; and no source this course read recommends confronting
-      an abuser, while that lesson gives the services' own advice for helpers.
+      with someone else doing the talking; and no source this course read recommends a talk with the
+      partner about the violence as a first step, which is why the leaflet points to the services.
 ---
 
 Most tense moments with another person aren't muggings. They're arguments: a refusal at a
@@ -423,7 +423,7 @@ training, policy and data collection.[11] The
 [report's executive summary](https://glenn.osu.edu/sites/default/files/2025-08/NIJ_IMPD_ICAT_Evaluation_Final.pdf)
 gives a "19.6% initial reduction in subjects who had force used against them (12-month follow-up),
 and 18.3% reduction sustained over an 18-month period", and a 25.2% initial fall in the number of
-people injured during force incidents (21.8% sustained over 18 months). But officer injuries showed
+people injured when force was used on them (21.8% sustained over 18 months). But officer injuries showed
 no statistically significant change, the one result that didn't repeat Louisville's.[11] Arrests
 fell over the same period too, by 15.3%, and after allowing for that the team put the training's
 own effect at between 5.0% and 19.6% less force.[11]
@@ -573,7 +573,7 @@ nothing, and walks round the back of Farid's car until he stands behind him.
 
 :::checkpoint Stop there. Using the four signals, what has changed, and what are Farid's options now?
 
-Two of the four signals at once: someone else has joined, and he has placed himself where Farid can't see him or easily walk past him. Farid's way out is closing, and that is the moment to stop talking and leave. He can say one short, calm line ("I'm going to go"), get his daughter and himself into the car, lock it, and drive away, or carry her straight into the supermarket, where there are staff and other people (sensible, untested, in this course's labels). If either man shows a weapon, or follows him, that's a 911 call: in the US, the [Office for Victims of Crime](https://ovc.ojp.gov/help-for-victims) tells anyone who feels in immediate danger to call the local emergency number, 911.[18] Which route is safer depends on where the two men are standing, and only Farid can see that.
+Two of the four signals at once: someone else has joined, and he has placed himself where Farid can't see him or easily walk past him. Farid's way out is closing, and that is the moment to stop talking and leave. He can say one short, calm line ("I'm going to go"), get his daughter and himself into the car, lock it, and drive away, or carry her straight into the supermarket, where there are staff and other people (sensible, untested, in this course's labels). If either man shows a weapon, or follows him, that's a 911 call: in the US, the [Office for Victims of Crime](https://ovc.ojp.gov/help-for-victims) tells anyone who feels in immediate danger to call the local police emergency number, 911.[18] Which route is safer depends on where the two men are standing, and only Farid can see that.
 :::
 
 That isn't losing. The aim, from the start, was to get everyone out of the moment unhurt, and
@@ -645,7 +645,7 @@ a. "Calm down" is a command. Try: "I can see you're upset. I want to sort this o
 
 b. Try: "You should be able to get this sorted today. What I can do is..." (agreeing in principle, then a choice)
 
-c. As written, this is a threat, shouted. Project BETA would allow a real consequence said once, matter-of-factly, as information. A limit that keeps the door open: "I want to help, and I can't while you're shouting." If you truly need help, get it.
+c. As written, this is a threat, shouted. Project BETA allows naming a real consequence, if necessary, said matter-of-factly and not as a threat. A limit that keeps the door open: "I want to help, and I can't while you're shouting." If you truly need help, get it.
 
 d. This one challenges and belittles. Try: "Waiting's frustrating. It should be about five minutes." (agreeing with the odds, then a fact)
 
