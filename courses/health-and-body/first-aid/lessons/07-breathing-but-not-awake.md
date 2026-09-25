@@ -101,8 +101,8 @@ quiz:
       The NHS says to lie down with the legs raised or, if you can't, sit with the head lowered
       between the knees. ILCOR recommends physical counter-pressure manoeuvres strongly, and the
       AHA/Red Cross guideline has them used once the person is in a safe position (COR 2a, LOE
-      C-LD). Staying upright is the one thing every source read here avoids, because the injuries
-      from fainting come from the fall. Low blood sugar is one possible cause among several, and the
+      C-LD). Staying upright is what every source read here moves him away from; the AHA/Red Cross
+      text's reason is that injuries are frequent complications of fainting. Low blood sugar is one possible cause among several, and the
       sources give the position first. A faint coming on isn't a 999 call by itself on the NHS
       page; its list is for what happens after.
   - q: >-
@@ -244,8 +244,8 @@ move the person into the recovery position." (ERC 2025; RCUK 2025).[3][4]
 
 **Agonal breathing** is the gasping you met in lesson 2. The AHA describes it: "Agonal breathing is
 characterized by slow, irregular gasping respirations that are ineffective for ventilation."[2] A
-person doing that is in cardiac arrest, and the recovery position is the one position in which
-they can't be helped. The AHA's 2025 special circumstances guideline puts it flatly: "Effective
+person doing that is in cardiac arrest, and the recovery position is one in which they can't be
+given CPR. The AHA's 2025 special circumstances guideline puts it flatly: "Effective
 CPR cannot be performed in the recovery (lateral decubitus) position."[6] Lesson 2's five-a-side
 game had friends roll a man onto his side because "he's breathing", when the loud slow gasps were
 the arrest itself. That is the mistake this exclusion exists for.
@@ -422,7 +422,7 @@ fit on one card. Lesson 9 comes back to the rows about shock and bleeding.
 | Needs CPR: unresponsive with absent or abnormal breathing | On the back, and follow the CPR algorithm | COR 1, LOE C-LD |
 | Decreased alertness, no injury, breathing normally | Recovery position | COR 2a, LOE C-LD |
 | Injured and responsive, breathing normally, with a possible neck, back, hip or pelvic injury | Left as found, unless the area is unsafe | COR 1, LOE C-EO |
-| Has fainted, no injury | On the back with the feet raised about 6 to 12 in (15 to 30 cm) while waiting for the ambulance; back to flat if it causes pain or makes them worse | COR 2b, LOE C-LD |
+| Has fainted, no injury | On the back with the feet raised about 6 to 12 in (15 to 30 cm) while waiting for the ambulance; back to flat if it causes pain or makes them worse | COR 2b, LOE C-LD; back to flat, COR 2b, LOE C-EO |
 
 *AHA/Red Cross 2024, Tables 14 and 15, read from the publisher's images.[5]*
 
@@ -472,8 +472,8 @@ progresses to respiratory arrest, where breathing stops, and then to cardiac arr
 Set that beside lesson 4's two kinds of arrest. In the sudden adult kind, the blood is still full
 of oxygen when the heart stops, which is why compressions come first. An overdose is the other
 kind: the breathing fails first, the oxygen runs out, and only then does the heart stop. That is a
-hypoxic arrest, like drowning in lesson 6, and it is why the AHA asks every rescuer, lay or
-trained, for CPR with breaths here (COR 1, LOE B-NR).[6] RCUK and the ERC say start CPR, which
+hypoxic arrest, like drowning in lesson 6, and it is why the AHA asks lay rescuers for CPR with
+breaths here, and trained rescuers who find a pulse for breaths (both COR 1, LOE B-NR).[6] RCUK and the ERC say start CPR, which
 under RCUK's adult guideline means 30:2 if you're trained and compressions if you're not; neither
 gives overdose a breathing rule of its own in the text read.[4][3][1] The AHA's estimate for the
 United States is that "An estimated 1 in 6 to 1 in 3 OHCAs are related to an overdose, most
@@ -573,8 +573,8 @@ supply it without a prescription; "The regulations were amended in February 2019
 naloxone"; and regulations made in December 2024 widened supply to a longer list including police,
 prisons, probation services, nurses, midwives, pharmacists and paramedics, with a registration route
 for others that, at the September 2025 update, was still being set up.[11] The products the
-guidance names are Prenoxad, an injection, and Nyxoid, a nasal spray licensed from age 14, plus a
-1.26 mg nasal spray licensed from 18.[11] And whoever supplied it, the guidance's line for the
+guidance names are Nyxoid, a nasal spray licensed from age 14, and Prenoxad, an injection, and a
+1.26 mg nasal spray, both licensed from 18.[11] And whoever supplied it, the guidance's line for the
 moment itself is plain: "Anyone can use available naloxone to save a life in an emergency."[11]
 
 **A second kind of protection.** Lesson 1 dealt with being sued for helping. Overdoses raise a
@@ -702,8 +702,8 @@ comes back, the guideline says to call the emergency services (COR 2b, LOE C-EO)
 ### The minute after
 
 If they've fainted, the NHS page gives a sequence for a bystander: check whether they respond by
-shaking their shoulders and asking loudly if they are OK; if not, shout for help, tilt the head back
-and lift the chin, and check breathing for at least 10 seconds; if they are breathing normally, lay
+shaking their shoulders and asking loudly if they are OK; if not, shout for help, gently tilt the head
+back and lift the chin, and check breathing for at least 10 seconds; if they are breathing normally, lay
 them on their back and raise their legs; if pregnant, especially past 28 weeks, on their side.[9]
 The page says the person will usually wake within 30 seconds.[9] One thing to notice: this NHS
 page checks breathing before calling, which is the pre-2025 UK order lesson 2 described, and RCUK's
@@ -712,8 +712,8 @@ faint the difference is seconds, because they are usually awake before you'd fin
 
 The American guidance for the same moment is the leg raise you met in the positioning table:
 raising the feet about 6 to 12 in (15 to 30 cm) while waiting for the ambulance may be reasonable
-for a faint without trauma, and they go back to flat if it hurts or makes things worse (AHA/Red Cross
-2024, COR 2b, LOE C-LD).[5] Both sides agree on the position: on the back, legs up, breathing
+for a faint without trauma (AHA/Red Cross 2024, COR 2b, LOE C-LD), and they go back to flat if it
+hurts or makes things worse (COR 2b, LOE C-EO).[5] Both sides agree on the position: on the back, legs up, breathing
 watched. They don't agree on the call, which comes next.
 
 ### When a faint is an emergency call
@@ -795,8 +795,8 @@ presyncope is a safe position, because the injuries come from the fall.[9][5]
 
 **"A faint is never serious."** Usually it is not, and the NHS still wants a GP to check. Its 999
 list includes chest pain, palpitations, a seizure, difficulty with speech or movement, and fainting
-while exercising or lying down, and in the US the AHA/Red Cross guideline calls for help after any
-faint.[9][5]
+while exercising or lying down, and in the US the AHA/Red Cross guideline calls for help if someone who
+felt a faint coming on goes on to faint.[9][5]
 
 ## Practice
 
@@ -855,8 +855,8 @@ can't wake is still a 911 call.[3][4][5][1] If his breathing turns slow or noisy
 normal: onto his back and CPR.[1]
 
 **2.** On her back, and CPR. Gasping is agonal breathing, and the recovery position is excluded for
-it (ERC 2025; RCUK 2025); the AHA says assume arrest and that CPR can't be done on the side (AHA
-2025, COR 1).[3][4][2][6] 999 on speaker at once (RCUK 2025), or 911 and start (AHA 2025).[1][2]
+it (ERC 2025; RCUK 2025); the AHA says assume arrest (AHA 2025, COR 1) and that CPR can't be done
+on the side.[3][4][2][6] 999 on speaker at once (RCUK 2025), or 911 and start (AHA 2025).[1][2]
 
 **3.** Don't roll him onto his side; leave him lying and watch his breathing. Trauma excludes the
 recovery position (ERC 2025; RCUK 2025), and the AHA/Red Cross recovery-position line is only for a
@@ -869,7 +869,7 @@ recovery position under the general rule (ERC 2025; RCUK 2025), and watch him; l
 seizures properly, including the US and UK difference over when to turn someone.[3][4] 999 on
 speaker at once (RCUK 2025), or 911.[1]
 
-**5.** Not breathing normally: call, CPR with breaths (AHA 2025, COR 1, LOE B-NR; RCUK 2025), and
+**5.** On his back: he is not breathing normally, so call, and CPR with breaths (AHA 2025, COR 1, LOE B-NR; RCUK 2025), and
 naloxone alongside without delaying either (AHA 2025, COR 1, LOE C-EO; RCUK "if you are trained";
 ERC 2025 nasal naloxone).[6][4][3] If he wakes, he stays under observation.
 

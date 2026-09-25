@@ -227,3 +227,70 @@ but the rewrite touched the opening, both worked examples, the flowchart, the tr
 fainting-call sections, the misconceptions, all six quiz items and the exercise answers in a
 safety-critical lesson. One fresh reviewer on facts and safety (Reviewer F's brief), limited to the
 changed passages and the new SOURCES section, is the proportionate check.
+
+## 2026-09-25 — Lesson 07 — Stage 4 second pass, one reviewer (facts and safety)
+**Reviewer:** F2, fresh context, Reviewer F's brief (facts, neutrality, safety), scoped to the
+passages commit 5c72945 changed, the "Gate closures, lesson 7" section of SOURCES.md, the quiz and
+exercise answers in full, and the flowchart. Primaries re-fetched today: AHA 2025 Parts 4, 7 and 10
+(Internet Archive captures 20260208194135, 20251026225858, 20251027153841, `id_` raw), AHA/Red Cross
+2024 (capture 20260329073336, prose only; the recommendation tables are images and were checked
+against SOURCES' record of them, not re-read), RCUK 2025 First aid and Adult BLS, the NHS fainting
+page, the DHSC naloxone page, the British Red Cross page, the FDA release (curl), and the ERC 2025
+First Aid chapter on the publisher's page (browser pane). GAO returned Access Denied; its lines are
+unchanged from the first pass. Every quotation in the changed passages was found in its primary.
+Sums redone by hand: 6 and 12 in to 15 and 30 cm; 5% of the 30% injured; 47 states plus D.C. is
+48; ages 14 and 18; 28 weeks; 30 seconds; 11 trials, 50%, 27 people; 34 studies. The flowchart
+rendered at 420 px with the site's light and dark tokens (headless Chrome) and read: labels fit,
+Yes/No exits are clear, nothing hangs under the CPR box, both lower outcomes lead to box 4.
+
+**First-pass fixes checked.** F1: no passage now treats slow, snoring or noisy breathing as normal;
+the RCUK "Slow, laboured" and AHA "snoring respirations" quotations match their primaries; both
+worked examples, the predict, quiz 1, exercise item 1 and the misconception agree. F2: the
+leave-as-found row is labelled as the AHA's rule for a responsive person everywhere it appears
+(table, checkpoint, trauma paragraph); the ERC's "kept in supine position" is on the publisher's
+page; quiz 2 now rests on RCUK's exclusion. F3 (RCUK prints no method) confirmed on RCUK's page.
+F4, F5, F6, F7, F10, F13 (every step against the ERC's list, "gently", "carefully", no "kneel"),
+F16, F19 and F21 confirmed against the primaries. Presyncope under the ERC's Table 1 "Not included"
+confirmed. The SOURCES "Gate closures, lesson 7" section matches every primary I could open; no
+correction needed.
+
+**Findings:**
+1. S1 [minor] "the recovery position is the one position in which they can't be helped" overstates
+   the AHA's "Effective CPR cannot be performed in the recovery (lateral decubitus) position".
+   Fixed: "is one in which they can't be given CPR".
+2. S2 [minor] "the AHA asks every rescuer, lay or trained, for CPR with breaths here (COR 1, LOE
+   B-NR)": 21.11 rec 2 is for lay rescuers; rec 1 (same grade) gives trained rescuers who find a
+   pulse breaths or bag-mask ventilation. Fixed to say both.
+3. S3 [minor] The return to flat when leg raising hurts is §5.2 rec 4, COR 2b, LOE C-EO, not C-LD,
+   in the positioning table and the "minute after" prose. Fixed in both.
+4. S4 [minor] DHSC: Prenoxad is licensed from 18, like the 1.26 mg spray; the lesson gave Nyxoid's
+   14 and left Prenoxad's age out. Fixed.
+5. S5 [minor] The NHS bystander sequence dropped "gently" before "tilt" (defect 19). Fixed.
+6. S6 [minor] Exercise answer 2 put "AHA 2025, COR 1" after the ungraded supportive-text sentence
+   on CPR on the side. Fixed: the grade now sits on "assume arrest".
+7. S7 [minor] Exercise answer 5 gave no position though the exercise asks for one. Fixed: "On his
+   back".
+8. S8 [minor] Quiz 5's explanation gave the AHA's injury reason as every source's. Fixed: the
+   reason attributed to the AHA/Red Cross text. Key and options unchanged.
+9. S9 [minor] Misconception "A faint is never serious": "calls for help after any faint"; T25's
+   trigger sits in the presyncope table (the body says so). Fixed: "if someone who felt a faint
+   coming on goes on to faint".
+10. S10 [minor, not fixed] The caption says the outlined boxes are shared by both countries, but box
+    3 is credited "ERC/RCUK 2025" only. The AHA reaches the same split through its "of nontraumatic
+    cause" scope, so the caption is defensible; a later pass could add that to the caption.
+
+**Neutrality.** Checked against the AHA/US and RCUK/ERC/UK perspectives and a harm-reduction
+reader on the overdose section. Neither country is called wrong; the naloxone row gives the AHA's
+2b and the ERC's "not sufficient to recommend" as two readings; the fainting-call pair gives each
+side's line and says neither gives a reason. No loaded language found.
+
+**Safety.** Callout byte-identical (validate clean for this file). Every instruction in the changed
+passages carries its guideline and year. The partner rehearsal is within the OUTLINE's lesson 7
+practice line, with exclusions. No passage teaches a normal-breathing picture that any source
+treats as a warning sign.
+
+**Measures.** `npm run validate` exit 0, no line names this file. `npm run quotes first-aid`: 338
+sourced quotations, 1 not found, in lesson 8 (another session's file), none in lesson 7.
+`npm run minutes`: 135, matching the frontmatter.
+
+**Status after review:** clean
