@@ -463,11 +463,14 @@ here is for the outline.
     Harm; ILCOR weak against; the reversal of immobilise-everyone is itself a good lesson in how
     practice follows evidence late.
 11. **Aspirin by bystanders for chest pain.** (Contested empirical on strength and dose; value on
-    the bystander's role; C 3.) Every body endorses encouraging an alert, non-allergic adult with
-    cardiac-sounding chest pain to chew aspirin, but the US grades it 2b ("may encourage", and wait
+    the bystander's role; C 3.) Every body endorses aspirin for an alert, non-allergic adult with
+    cardiac-sounding chest pain, but the US grades it 2b ("may encourage", and wait
     if uncertain), the dose is 162 to 325 mg (US), 150 to 500 mg (ERC 2025) or 300 mg (UK), and no
-    study has measured the risk in the first aid setting (aortic dissection, bleeding). All frame it
-    as assisting self-administration, never as the bystander dosing someone.
+    study has measured the risk in the first aid setting (aortic dissection, bleeding). The verbs
+    differ: the AHA "may encourage", RCUK and the ERC's concise text "encourage and assist ...
+    self-administering", but the ERC's ABCDE section "administer", St John "Give them" and the
+    British Red Cross "offer" (corrected 2026-09-25, lesson 12 Stage 4; this previously said all
+    frame it as assisting self-administration, never as the bystander dosing someone).
 12. **FAST or BE-FAST.** (Contested empirical; C 2.) BE-FAST catches posterior strokes FAST misses
     (14.1% missed vs 4.4% in Aroor 2017, retrospective, one centre); FAST is better remembered in
     the ASA's own 2025 randomised online study (unpublished). The AHA/ARC 2024 guideline names
@@ -1581,7 +1584,7 @@ Claim classes: **Established** (guideline bodies agree, evidence or firm consens
 
 ### 2. Stroke
 
-**What to do (Established, all bodies):** recognise with a scale, call the emergency number at once, note the time symptoms started, do not give food or drink, stay and monitor.
+**What to do (Established, all bodies):** recognise with a scale, call the emergency number at once, note the time symptoms started, do not give food or drink (St John's line; see the correction below), stay and monitor.
 
 - AHA/ARC 2024 (S1), Stroke in Adults table [V-img]: "If stroke is suspected, the EMS system should be activated immediately." COR 1, LOE B-NR. Use of "a stroke recognition scale such as the Face, Arms, Speech, Time (FAST) or Cincinnati Prehospital Stroke Scale is recommended" COR 1, LOE B-NR. Measuring capillary glucose if available and not delaying EMS: COR 2a, C-EO (hypoglycaemia is a common stroke mimic). Supportive text [V]: the 2020 ILCOR review evaluated "9 different screening tools reported in 19 observational studies" and FAST "was the only tool intended for administration by laypeople". The figure reproduced in S1 is the ASA "Spot a stroke F.A.S.T." poster (2020).
 - Children (S1): FAST is "not validated" in children; paediatric stroke can present as headache, vomiting, altered mental state or seizure, especially under 1 year. No first aid paediatric tool exists.
@@ -1595,7 +1598,7 @@ Claim classes: **Established** (guideline bodies agree, evidence or firm consens
 - Case for FAST: memorability. The ASA-sponsored randomised online study (S29; 1,900 participants, April to May 2024; unpublished abstract, not peer reviewed) found intention to call 911 rose from about 70% to 90% with either acronym and did not differ; recall of the F, A and S symptoms was higher for F.A.S.T. (70% vs 50% immediately; 50% vs 40% at 30 days). Specificity falls as signs are added (dizziness and vision problems have many benign causes); I did not read a study quantifying this, so do not teach a number.
 - ILCOR and ERC take no side (no evidence one scale beats another).
 
-**Aspirin in suspected stroke (Established as practice; Value on emphasis):** no guideline I read recommends that a bystander give aspirin for suspected stroke. The aspirin recommendations (Section 3) are restricted to chest pain. A stroke may be a bleed; aspirin is withheld until imaging. NHS and SJA say nothing by mouth for stroke. I found no single lay-guideline sentence saying "do not give aspirin for stroke", so a lesson should phrase it as "no guideline recommends it, and stroke can be a bleed", citing the scope of the chest-pain recommendations.
+**Aspirin in suspected stroke (Established as practice; Value on emphasis):** no guideline I read recommends that a bystander give aspirin for suspected stroke. The aspirin recommendations (Section 3) are restricted to chest pain. A stroke may be a bleed; aspirin is withheld until imaging. SJA says nothing to eat or drink for stroke; the NHS stroke pages (symptoms, diagnosis, overview, treatment, causes) have no eat-or-drink line (corrected 2026-09-25, lesson 12 Stage 4; this line previously credited the NHS too). I found no single lay-guideline sentence saying "do not give aspirin for stroke", so a lesson should phrase it as "no guideline recommends it, and stroke can be a bleed", citing the scope of the chest-pain recommendations.
 
 **Time of onset / "wait and see" myth:** ASA (S28) [V] "Check the time so you'll know when the first symptoms appeared." and "Call 911 even if the symptoms go away." NHS says the same for 999. ASA: TIAs precede "about 15% of strokes". S30 says "nearly 2 million brain cells die every minute a stroke goes untreated" (ASA figure, 1.9 million on S28). Classify the brain-cell figure as an advocacy estimate (it derives from Saver 2006, not read).
 
@@ -1628,7 +1631,7 @@ Claim classes: **Established** (guideline bodies agree, evidence or firm consens
 Notes:
 - The brief's "300 mg UK NHS chew slowly": the current NHS page (reviewed 31 March 2026) says "Take aspirin (300mg)" with no "chew slowly"; "chew it slowly" is St John Ambulance and BRC wording.
 - The AHA background text says "162 to 324 mg" while the recommendation says "162–325 mg": both appear in S1. The difference is 4 × 81 mg vs one 325 mg US tablet.
-- Framing differs: AHA/ARC and ERC/RCUK frame it as encouraging or assisting self-administration ("encourage", "assist ... in self-administering"), not the bystander dosing someone. Classify as **Value** (scope of a lay first aider) that happens to be consistent across bodies.
+- Framing differs, and not consistently (corrected 2026-09-25, lesson 12 Stage 4; this bullet previously said every body frames it as assisting self-administration, never as the bystander dosing someone). The AHA says "may encourage"; RCUK and the ERC's concise guidance say "encourage and assist ... in self-administering". But the ERC's own ABCDE section says "administer 150–500 mg chewable aspirin" and its evidence text recommends administration "by first aid providers"; St John says "Give them one aspirin tablet (300mg)"; the British Red Cross says "You can offer"; the American Red Cross page says "assist them to take"; the NHS line is addressed to both the patient and a giver ("do not give aspirin to someone who has an aspirin allergy"). The British Red Cross aspirin answer does not mention allergy. Classify as **Value** (scope of a lay first aider), with the verbs differing by body. Verbatim lines in "Gate closures, lesson 12".
 - ERC widened the range to 150 to 500 mg in 2025 (Table 1 of S3 does not list aspirin as a change; the dose change is visible by comparing S3 with S4).
 - Under-16 exclusion: SJA says do not give to under 16s (Reye's syndrome concern, not stated on page); the guidelines speak only of adults.
 - Evidence (S1 supportive text): two observational studies, 2,122 patients with MI, higher survival with early aspirin (median 1.6 h from pain onset) than late (3.5 h), no difference in complications; "no study has evaluated the risks of aspirin administration in the first aid setting." ILCOR 2025 (S2) evidence update found none relevant but noted one study of increased bleeding in chest pain patients given aspirin and/or clopidogrel who turned out to have type A aortic dissection. S2 Table S1 lists aortic aneurysm or dissection as a knowledge gap, and the minimal effective dose as unknown.
@@ -1879,7 +1882,7 @@ Caveats: I verified that each video exists and its title and channel; I did not 
 
 ### Contested questions, each side in its proponents' terms
 
-1. **Should a bystander give aspirin?** For: mortality benefit of early aspirin in MI, low complication rate, every guideline endorses it (ILCOR weak, very low certainty). Against or cautious (AHA/ARC COR 2b, ILCOR knowledge gaps): no first-aid-setting safety data; harm if the pain is aortic dissection or the person has bleeding risk; if uncertain, wait for EMS. Framing everywhere is assisting self-administration.
+1. **Should a bystander give aspirin?** For: mortality benefit of early aspirin in MI, low complication rate, every guideline endorses it (ILCOR weak, very low certainty). Against or cautious (AHA/ARC COR 2b, ILCOR knowledge gaps): no first-aid-setting safety data; harm if the pain is aortic dissection or the person has bleeding risk; if uncertain, wait for EMS. Framing differs by body: "encourage" (AHA), "encourage and assist ... self-administering" (RCUK, ERC concise), "administer" (ERC ABCDE section), "Give them" (St John), "offer" (British Red Cross); see Section 3's notes (corrected 2026-09-25).
 2. **FAST or BE-FAST?** BE-FAST: catches posterior strokes FAST misses (14.1% missed vs 4.4%, Aroor 2017, retrospective single centre). FAST: easier to remember, same 911 intent (ASA 2025 randomised online study, unpublished), fewer false alarms; ILCOR finds no evidence to prefer either.
 3. **Oxygen by first aiders.** ERC/RCUK: trained first aiders with pulse oximetry can titrate safely and help hypoxic people. AHA/ARC: no first-aid-setting evidence of benefit, harm in COPD and no benefit in stroke.
 4. **Two auto-injectors.** UK/MHRA: 7% to 18% need a second dose and devices fail or misfire, so carry two. Critics (not read; cost and adherence arguments are common) are not represented in what I read; AHA/ARC kit standard "minimum 1, recommended 2".
@@ -5064,3 +5067,164 @@ the same day), for lesson 11's fixes:
 
 - [SJAHEAD] serious head injury signs include "vomiting episodes"; "If you think someone has a serious head injury, call 999 or 112 for emergency help and tell the emergency call handler that you suspect a serious head injury."
 - [ARC] spinal page FAQ: "If you see a change in behavior, vomiting, persistent headache, change in vision or if the person becomes unresponsive, call 9-1-1 immediately if not already done."
+
+## Gate closures, lesson 12 (2026-09-25)
+
+*Appended by the lesson 12 Stage 4 fixer, append-only. Stage 4 Reviewer F fetched every primary
+below on 2026-09-25 (curl with a browser User-Agent and an HTML stripper; the ERC 2025 First Aid
+publisher page, the ILCOR 2025 typeset text at ahajournals.org and the AHA/Red Cross 2024 presyncope
+table image read in the browser pane) and string-matched each line by script: 94 sentences, none
+missing. Tags: RCUK = RCUK 2025 first aid, live; AHA = AHA/Red Cross 2024 prose, Wayback
+20260329073336 (the text's reference number after "FAST," dropped); AHATAB = its publisher table
+images read by eye (tab20 and tab21 from Wayback, tab25 live on ahajournals.org); ARC = American Red
+Cross heart attack, Wayback 20260414033047; AHAWS = AHA warning signs of a heart attack, Wayback
+20260921133040; BHF = BHF heart attack; NHSHA = NHS heart attack (reviewed 31 March 2026); NHSSYM =
+NHS stroke symptoms and NHSDIAG = NHS diagnosing a stroke (both reviewed 12 September 2024); SJAHA
+and SJAST = St John heart attack and stroke; BRCHA and BRCST = British Red Cross heart attack and
+stroke; ASA = ASA stroke symptoms, Wayback 20260919053155; N29 and N30 = the AHA newsroom releases
+of 30 January 2025 and 1 May 2026; AROOR = PubMed 28082668 abstract; ERC = ERC 2025 First Aid,
+publisher page; ILCOR = ILCOR 2025 First Aid, typeset. [V] throughout: copied from that text.
+Nobody signed in to anything.*
+
+**Corrections made in place above, the same day** (drafting defect 26; the lesson 12 drafter found
+them and Reviewer F upheld each against the primary, finding the second wider than the drafter
+said):
+- **Part C 2, stroke:** "NHS and SJA say nothing by mouth for stroke" is St John's line only. The
+  NHS stroke symptoms, diagnosis, overview, treatment and causes pages have no eat-or-drink line.
+- **Part C 3 notes, Part C contested question 1 and the synthesis's contested question 11:** "all
+  frame it as assisting self-administration, never as the bystander dosing someone" is false. The
+  AHA says "may encourage" and RCUK and the ERC's concise text "encourage and assist ...
+  self-administering", but the ERC's own ABCDE section says "administer 150–500 mg chewable
+  aspirin" and its evidence text recommends administration "by first aid providers"; St John says
+  "Give them one aspirin tablet (300mg)"; the British Red Cross "You can offer"; the American Red
+  Cross page "assist them to take"; and the NHS line is addressed to a giver as well as the patient.
+  Contested question 11's "to chew" is also not RCUK's (RCUK says "ideally chewable or
+  dissolvable").
+- **The British Red Cross aspirin answer does not mention allergy** (live page, 2026-09-25).
+- **OUTLINE lesson 12's misconception** "women have the same symptoms as men" would have listed the
+  BHF's stated position as a misconception; corrected in OUTLINE to "no crushing chest pain, no
+  heart attack". (OUTLINE's lesson 12 core ideas still say "all framed as assisting
+  self-administration"; read that against the correction above.)
+
+**The AHA/Red Cross 2024 HTML version is not the version of record for grades.** The cpr.heart.org
+HTML rendering of the guideline (cpr.heart.org/en/resuscitation-science/2024-first-aid-guidelines)
+prints the presyncope row "The use of PCMs is not recommended when symptoms of a heart attack or
+stroke accompany presyncope." as **3: Harm, C-EO**. The publisher's table image (ahajournals.org
+tab25, opened 2026-09-25) and gate G3 give **3: No Benefit, C-EO**. The version of record governs;
+lessons 7 and 12 use it. Do not quote a COR or LOE from the HTML page. The same HTML page prints
+the chest pain aspirin row as "non-traumatic" with a comma before "unless"; the take-home message 3
+wording is "nontraumatic" with no comma. Lesson 12 quotes the take-home wording and says so.
+
+**Reviewer F's 94 script-checked sentences:**
+
+- [RCUK] "Reassure the person and sit or lie them in a comfortable position."
+- [RCUK] "Assist a person with known angina to self-administer their nitroglycerine spray or tablets."
+- [RCUK] "Stay with the person until help arrives."
+- [RCUK] "Use a stroke assessment scale (such as FAST; Face, Arm, Speech, Time) to decrease the time to recognition and call 999 for help."
+- [RCUK] "Only give oxygen if you are trained in its use and the person is showing signs of hypoxia (blue tinges to the skin and lips or, for darker skin tones, look for pallor or blue tinges inside the lips)."
+- [RCUK] "providing care within the provider’s competencies whilst recognising their limitations"
+- [AHA] "General care and safety: The first aid provider should provide care within their skill and knowledge set, seeking further medical care as needed, and be mindful of their own safety."
+- [AHA] "Assistance with administration of prescribed medications: The first aid provider should help a person self-administer prescribed lifesaving medications as needed such as inhaled bronchodilators for asthma and intramuscular epinephrine for anaphylaxis."
+- [AHA] "First aid for stroke: The use of a stroke recognition scale such as Face, Arms, Speech, Time is recommended to aid in the recognition of acute stroke in adults and may also be used as an adjunct in pediatrics, although it is not validated in that setting and should not solely be used to identify the broad presentation of stroke in children."
+- [AHA] "Common signs and symptoms associated with a heart attack include chest pain or pressure, shortness of breath, nausea, sweating, or pain in the jaw, arm(s), or back."
+- [AHA] "The prevalence of myocardial infarction in patients presenting to the ED with nontraumatic chest pain varies by age, ranging from ≈1% in patients 18 to 44 years of age to 4% in patients ≥80 years of age."
+- [AHA] "Aspirin in the dose of 162 to 324 mg improves survival in patients with myocardial infarction."
+- [AHA] "The rate of major complications associated with administration of a single dose of aspirin to an individual experiencing chest pain appears to be low, but certain individuals may have an allergy to aspirin or a bleeding risk, or they may have been advised by a health care professional not to take aspirin."
+- [AHA] "The use of EMS transportation is associated with a substantial reduction in ischemic time and treatment delays compared with transportation by personal vehicle."
+- [AHA] "Therefore, if there are potential contraindications to the use of aspirin by the lay first aid provider, it is reasonable not to encourage aspirin use while awaiting the arrival of EMS."
+- [AHA] "The FAST, which is essentially identical to the Cincinnati Prehospital Stroke Scale, was the only tool intended for administration by laypeople (Figure 3)."
+- [AHA] "If a first aid provider has the necessary knowledge and equipment to perform capillary blood glucose measurement, the measurement of blood glucose may aid in ruling out hypoglycemia, a common stroke mimic."
+- [AHA] "Symptoms can be nonspecific such as sudden or severe headache, altered mental status, and sudden onset vomiting, or they can be more localized such as focal numbness or weakness, ataxia, and speech and visual disturbances."
+- [AHA] "Although headache and vomiting can be symptoms of other common childhood diseases, their presence in association with other neurological symptoms should raise concern for stroke."
+- [AHA] "Some strokes can also present as either generalized or focal seizures, which is especially common in children <1 year of age."
+- [AHA] "We were unable to identify a pediatric stroke recognition rubric that is validated in the first aid setting."
+- [AHATAB] "It is reasonable to consider stroke when common pediatric symptoms are present in association with other neurological signs and symptoms."
+- [AHATAB] "Adult stroke scores are not validated in the pediatric population and should not solely be used to identify the broad presentation of stroke in children."
+- [AHATAB] "If pediatric stroke is suspected, EMS should be activated, and the person should be transported to an ED."
+- [AHATAB] "The use of PCMs is not recommended when symptoms of a heart attack or stroke accompany presyncope."
+- [ARC] "Because the cells in the affected area of the heart muscle are not receiving the oxygen and nutrients they need, they become damaged and can die, causing the heart to not pump normally and if untreated, stop pumping blood."
+- [ARC] "If you suspect a heart attack, always respond as if it is one."
+- [ARC] "The person may be awake, and if left untreated the heart attack may progress to cardiac arrest."
+- [ARC] "Have them stop activity and rest in a comfortable position."
+- [ARC] "If they have prescribed medication such as nitroglycerin, offer to assist with taking it."
+- [ARC] "Get or instruct someone to get an AED if there is one available."
+- [ARC] "Never drive a person to the hospital yourself."
+- [ARC] "Be prepared to give CPR or compression-only CPR based on level of training and use an AED when available if they become unresponsive and are not breathing (cardiac arrest)."
+- [ARC] "Although men often have “classic” signs and symptoms of a heart attack, such as chest pain radiating down one arm, women may have more subtle signs and symptoms or experience a heart attack differently than men do."
+- [ARC] "Sometimes individuals may not have any chest pain at all."
+- [AHAWS] "Some heart attacks are sudden and intense. Others start slowly with mild pain or discomfort."
+- [AHAWS] "It can last more than a few minutes, or it may go away and then return. It can feel like uncomfortable pressure, squeezing, fullness or pain."
+- [AHAWS] "As with men, women’s most common heart attack symptom is chest pain (angina) or discomfort. But women may have other symptoms that are typically less associated with heart attack, such as:"
+- [AHAWS] "An emergency medical services (EMS) team can begin treatment when they arrive. EMS staff are also trained to give resuscitation efforts to someone whose heart has stopped."
+- [BHF] "take 300mg aspirin if you have it and you’re not allergic"
+- [BHF] "A heart attack is not the same as a cardiac arrest."
+- [BHF] "Although symptoms can vary from person to person, women and men generally experience the same heart attack symptoms. However, research shows women tend to not recognise the symptoms as a sign of a heart attack as quickly. This is mainly because heart attacks are wrongly believed to be a “man’s problem.\""
+- [BHF] "Do not try and take yourself to hospital, as the ambulance team will give you the best care and do tests on the way."
+- [NHSHA] "chest pain which may feel like crushing or squeezing on your chest – the pain may also spread to your arm, neck and jaw"
+- [NHSHA] "feeling like you have indigestion – you may have a burning feeling in your chest and feel full or bloated"
+- [NHSHA] "pale, blue or grey skin – on black or brown skin this may be easier to see on the palms of the hands"
+- [NHSHA] "Do not drive yourself to A&E."
+- [NHSHA] "The person you speak to at 999 will give you advice about what to do."
+- [NHSHA] "Sit and rest on the floor in a comfortable position, with your knees bent and your back supported."
+- [NHSHA] "Take aspirin (300mg) if you have any – do not give aspirin to someone who has an aspirin allergy."
+- [NHSHA] "If you have angina, take your glyceryl trinitrate (GTN) spray if you have it with you."
+- [NHSHA] "Keep checking someone who may be having a heart attack to make sure they're still responding and breathing."
+- [NHSHA] "If someone stops responding to you and stops breathing, start CPR."
+- [NHSHA] "Heart attacks are usually caused by a blood clot stopping enough blood getting to your heart."
+- [NHSHA] "Cardiac arrest is when your heart stops suddenly and causes you to lose consciousness."
+- [NHSSYM] "you've had signs of a stroke within the last 24 hours even if they've now stopped"
+- [NHSSYM] "a severe headache"
+- [NHSDIAG] "If you're with someone who's had a stroke and they cannot speak, you may be asked for information about their symptoms. This helps to diagnose what type of stroke they've had."
+- [NHSDIAG] "These tests can show what type of stroke you've had."
+- [NHSDIAG] "an ischaemic stroke – this happens when a blood clot blocks blood flow to the brain. It's the most common type of stroke"
+- [NHSDIAG] "a haemorrhagic stroke – this happens when a blood vessel bursts"
+- [NHSDIAG] "A TIA should be treated as urgent. If you do not get immediate medical attention, you could be at risk of having a full stroke."
+- [SJAHA] "Call 999 or 112 for emergency help straight away and tell them you think someone is having a heart attack."
+- [SJAHA] "Help move the casualty into a comfortable position. The best position is on the floor, with their knees bent and their head and shoulders supported."
+- [SJAHA] "Do not give aspirin to the casualty if they are under 16 or if they are allergic to it."
+- [SJAHA] "Ask the casualty to take their own angina medication, if they have some."
+- [SJAHA] "have a feeling of impending doom."
+- [SJAST] "It is caused by either a blockage or a bleed in the brain's blood vessels."
+- [SJAST] "T – time to call 999 or 112 for emergency help and tell them you suspect a stroke after using the FAST guide."
+- [SJAST] "While waiting for help to arrive, keep them comfortable, supported, and reassure them."
+- [BRCHA] "Sitting will ease the strain on the heart. Sitting them on the floor also means they are less likely to hurt themselves if they collapse."
+- [BRCHA] "A heart attack can lead to cardiac arrest."
+- [BRCHA] "If they have tablets or a spray, let them take it. You may need to help them to take it."
+- [BRCHA] "The pain will not ease with rest."
+- [BRCST] "dribbling from the mouth"
+- [BRCST] "a sudden severe headache"
+- [BRCST] "difficulty maintaining balance"
+- [ASA] "Because most TIA symptoms last from only a few minutes up to 24 hours, they are often dismissed and not taken seriously."
+- [ASA] "Most of these later health problems happen within just days or weeks of the TIA, so early interventions to reduce risk are vital."
+- [ASA] "On average, 1.9 million brain cells die every minute that a stroke goes untreated."
+- [ASA] "Vertigo, sensation like the room is spinning Imbalance or one-sided arm or leg weakness"
+- [ASA] "Double vision or other vision problems"
+- [N29] "Note: The study featured in this news release is a research abstract. Abstracts presented at the American Heart Association’s scientific meetings are not peer-reviewed, and the findings are considered preliminary until published as full manuscripts in a peer-reviewed scientific journal. This research was sponsored by the American Stroke Association with funding support from the HCA Healthcare Foundation."
+- [N29] "The belief is that adding additional symptoms, loss of balance and vision, to the acronym would result in greater identification of posterior circulation strokes, which represent approximately 20% of ischemic strokes and tend to be more disabling."
+- [N29] "Assessments were made immediately after video viewing (1,900 total participants) and again 30 days later (1,393 participants; 73% recontact completion rate)."
+- [N30] "Noting when symptoms first appeared can also support treatment decisions."
+- [AROOR] "Records of all patients admitted to the University of Kentucky Stroke Center between January and December 2014 with a discharge International Classification of Diseases, Ninth Revision, Clinical Modification code for acute ischemic stroke were reviewed."
+- [AROOR] "If validated in a prospective study, a revision of public educational programs may be warranted."
+- [ERC] "If suspected cardiac chest pain – administer 150–500 mg chewable aspirin."
+- [ERC] "Patients with diabetes might express pain in the epigastric region or shortness of breath."
+- [ERC] "Therefore, we continue to recommend the early prehospital administration of 150–500 mg aspirin to those with cardiac chest pain, by first aid providers before the arrival of EMS, unless there is a potential contraindication such as aspirin allergy."
+- [ERC] "An ideal stroke assessment system for first aid use must be easily understood, learned and remembered, must have high sensitivity and must take a minimal time to be completed."
+- [ILCOR] "For first aid, we suggest the use of the Face, Arms, Speech, Time tool; Melbourne Ambulance Stroke Scale; Cincinnati Prehospital Stroke Scale; or Los Angeles Prehospital Stroke Screen for stroke assessment (weak recommendation, low-certainty evidence)."
+- [ILCOR] "We recommend that first aid providers use stroke assessment scales/tools for adults with suspected acute stroke (strong recommendation, low-certainty evidence)."
+
+**Added by the lesson 12 fixer the same day**, string-matched against F's saved copies in
+`r12f/` (13 of 13 found), for lines the fixed lesson quotes or paraphrases:
+
+- [AHA] "While awaiting the arrival of emergency medical services, first aid providers may encourage alert adults experiencing nontraumatic chest pain to chew and swallow aspirin (162–325 mg) unless the person experiencing pain has a known aspirin allergy or has been advised by a health care professional not to take aspirin."
+- [AHATAB] "While awaiting the arrival of EMS, first aid providers may encourage alert adults experiencing non-traumatic chest pain to chew and swallow aspirin (162–325 mg), unless the person experiencing pain has a known aspirin allergy or has been advised by a health care professional not to take aspirin."
+- [ARC] "If they are awake, can understand simple commands, and can chew or swallow and are allowed to have aspirin, assist them to take two to four low-dose (81-mg) aspirin tablets (162 to 324 mg) or one regular-strength (325-mg) aspirin tablet."
+- [ARC] "General Care: Heart Attack"
+- [ERC] "Although harm from aspirin in individuals with nontraumatic chest pain is uncommon, the ILCOR systematic review found no studies evaluating the risks of aspirin administration in the first aid setting."
+- [ERC] "Encourage and assist a person with cardiac sounding chest pain in self-administering 150–500 mg of chewable aspirin as soon as possible whilst awaiting transport to hospital (but not to adults with known aspirin allergy)."
+- [NHSHA] "If you think you or someone else is having a heart attack, there are some things you can do while you wait for help."
+- [BRCHA] "You can offer the person an aspirin tablet to chew slowly, as this will help thin their blood. They should not take more than 300mg in one dose."
+- [BHF] "I think I'm having a heart attack: what should I do?"
+- [NHSSYM] "blurred vision or loss of sight in 1 or both eyes"
+- [NHSSYM] "feeling dizzy or falling over"
+- [NHSSYM] "you think you're having, or have had a stroke"
+- [ASA] "If you have any of these symptoms or see someone else having them, call 911 immediately!"

@@ -415,12 +415,34 @@ quiz:
       AHA/Red Cross 2024 list says "such as", and the American Red Cross page marks fluid from the
       nose or ears for a 911 call.
 
-  # Items for lessons 12 to 15 go here as those lessons are written (OUTLINE "Assessments").
+  # --- Heart attack and stroke (L12) ---
+  - q: >-
+      In Boulder, a 57-year-old woman has had a heavy, squeezing pain in her chest for fifteen
+      minutes. She's alert, isn't allergic to aspirin, no doctor has told her not to take it, and
+      911 is on speaker. The only aspirin in the house is a bottle of 81 mg low-dose tablets. Under
+      the AHA/Red Cross 2024 guideline and the American Red Cross page, what about aspirin?
+    options:
+      - Give her one 81 mg tablet, since the low-dose kind is the one meant for the heart
+      - Encourage her to chew and swallow two to four of them, 162 to 324 mg in all
+      - Wait for EMS, since the guideline's dose needs a regular-strength 325 mg tablet
+      - Encourage her to chew eight of them, since 648 mg works more strongly than 325
+    answer: 1
+    explain: >-
+      The guideline says a first aid provider may encourage an alert adult with nontraumatic chest
+      pain to chew and swallow 162 to 325 mg of aspirin, unless they have a known aspirin allergy or
+      a health professional has told them not to take it (COR 2b, LOE B-NR). The American Red Cross
+      page spells that out as two to four low-dose (81 mg) tablets or one regular-strength (325 mg)
+      tablet, so low-dose tablets are one of its two ways and there's no reason to wait. One tablet
+      is below the range and eight is far above it. In the UK the figure is 300 mg, which the person
+      takes herself after the 999 call (RCUK 2025).
+
+  # Items for lessons 13 to 15 go here as those lessons are written (OUTLINE "Assessments").
 ---
 
-<!-- Items for lessons 12 to 15 are still to be added: this file covers lessons 1 to 11 only for now. The blueprint is in research/OUTLINE.md, "Assessments". Update the counts in the paragraph below when they go in. -->
+<!-- Items for lessons 13 to 15 are still to be added: this file covers lessons 1 to 12 only for now. The blueprint is in research/OUTLINE.md, "Assessments". Update the counts in the paragraph below when they go in. -->
 
-This test covers lessons 1 to 11. **Twenty questions, and 70 per cent to pass**, which is fourteen.
+This test covers lessons 1 to 12. **Twenty-one questions, and 70 per cent to pass**, which is fifteen
+(70 per cent of 21 is 14.7, rounded up).
 Questions on the later lessons will be added as those lessons are written.
 
 :::callout Before you need this

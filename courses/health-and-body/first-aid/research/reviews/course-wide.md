@@ -149,3 +149,25 @@ earlier sequence.** Still chosen by script.
   no shared run of three, no shift or rotation). The final test now has twenty items (fourteen to
   pass) and ends on key 3.
 - **G16 not worked for lesson 11** (a Commons arm-sling image); no image.
+
+## 2026-09-25 — from lesson 12's Stage 4
+
+- **The verbs for aspirin differ by body, and SOURCES said otherwise until today.** "Encourage"
+  (AHA), "encourage and assist ... self-administering" (RCUK, ERC concise), but "administer" (ERC's
+  own ABCDE section), "Give them" (St John), "offer" (British Red Cross), "assist them to take"
+  (American Red Cross). SOURCES is corrected; OUTLINE's lesson 12 core ideas still carry the old
+  line. Scripts and the final test should quote each body's own verb.
+- **Grades come from the version of record, never cpr.heart.org's HTML guideline.** That page prints
+  the presyncope heart-attack-or-stroke row as 3: Harm; the publisher's table says 3: No Benefit.
+- **A suspected heart attack without chest pain** is covered by neither guideline's aspirin line;
+  the public pages attach aspirin to "a heart attack" without saying. Lesson 12 sends it to the call
+  handler, labelled as the course's suggestion. Lesson 13 and scripts should not say otherwise.
+- **Contractions overshoot in fix passes.** Restoring a reviewer's list while writing new text with
+  contractions took lesson 12 to 11.8 per 1,000; measure after the fix, not before.
+- **Places:** Carlisle is used (final test). Lesson 12 uses Pittsburgh, Newcastle, Darlington,
+  Colchester, Sunderland, Toledo, Fargo, Bangor and Raleigh; the final test's lesson 12 item uses
+  Boulder. Stirling, Memphis, Anchorage and Gloucester, in the draft, are free again.
+- **Quiz keys:** lesson 12 kept 2,0,1,3,0,1. The final test now has twenty-one items (fifteen to
+  pass) and ends on key 1.
+- **G4 not worked for lesson 12's videos** (NHS Act FAST, AHA B.E. F.A.S.T., American Red Cross and
+  BHF heart attack); none embedded.

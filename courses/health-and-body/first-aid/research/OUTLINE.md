@@ -1079,7 +1079,7 @@ lesson, at least one of them a decision on a new scenario.
   arrested en route) (Part C 3); sit on the floor, knees bent, back supported; help with their own
   GTN; **the aspirin table** (Part C 3's table, rebuilt per decision 2, with gate G1 and G3
   applied): US 162 to 325 mg, "may encourage", COR 2b, and "reasonable to wait for EMS" if
-  uncertain; UK 300 mg; ERC 150 to 500 mg; all framed as assisting self-administration; not if
+  uncertain; UK 300 mg; ERC 150 to 500 mg; each body with its own verb (encourage, assist, administer, give, offer: Stage 4, 2026-09-25); not if
   allergic; St John's under-16 exclusion; the evidence (two observational studies; no study of the
   risk in the first aid setting; aortic dissection as the harm case) (Part C 3); **stroke**: call at
   once (AHA/Red Cross 2024 COR 1); FAST (NHS, RCUK, St John, the British Red Cross; the AHA/Red
@@ -1105,8 +1105,9 @@ lesson, at least one of them a decision on a new scenario.
   and then clear. Two emergencies, one call; the lesson works through what to say to the call
   handler, and why neither "it passed" nor "she's had aspirin before" changes the plan.
 - **Misconceptions:** "it's just indigestion"; "wait and see if it passes"; "drive them to hospital
-  yourself, it's quicker"; "give aspirin for any chest pain, or for a stroke"; "women have the same
-  symptoms as men"; "FAST catches every stroke".
+  yourself, it's quicker"; "give aspirin for any chest pain, or for a stroke"; "no crushing chest pain,
+  no heart attack" (corrected 2026-09-25 from "women have the same symptoms as men", which would
+  have listed the BHF's stated position as a misconception); "FAST catches every stroke".
 - **Practice:** say the FAST check aloud on a willing family member (face, arms, speech) and time
   how long it takes; decide aspirin for six people (a 15-year-old in the UK; a man on warfarin; a
   woman allergic to aspirin; an alert man with chest pain after a fall from a ladder; a man with
