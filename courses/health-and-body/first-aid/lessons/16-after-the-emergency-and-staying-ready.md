@@ -1,6 +1,6 @@
 ---
 title: After the emergency, and staying ready
-minutes: 105
+minutes: 110
 objectives:
   - >-
     Describe what happens at the handover to the ambulance crew, what a rescuer may feel afterwards,
@@ -544,7 +544,9 @@ Last, the pages most people read catch up, each on its own review schedule. This
 several that hadn't yet, each in the lesson it belongs to: the BHF's CPR page on hands-only CPR "since
 the Covid-19 pandemic" (lesson 4); St John's page on moving someone from a bed to the floor (lesson
 3); the NHS, British Red Cross and American Red Cross pages still showing two fingers for a baby
-(lessons 6 and 8); the NHS cuts page on raising the limb (lessons 9 and 10); and the ERC's own guide for the public, with a different figure for what each
+(lessons 6 and 8); the NHS cuts page on raising the limb (lessons 9 and 10); the American Red
+Cross's nosebleed page, with a shorter pinch than the guideline it co-wrote (lesson 10); and the
+ERC's own guide for the public, with a different figure for what each
 minute before a shock costs (lesson 5). Pages lag because they are reviewed on their own timetables,
 and several of these were reviewed months before October 2025.
 
@@ -568,7 +570,8 @@ and several of these were reviewed months before October 2025.
 
 Look at what moved. None of the core adult numbers did: 100 to 120 a minute, 5 to 6 cm, 30:2 for the
 trained. What changed was at the edges, where the evidence was thinnest, and in the choking change the
-AHA's stated reasons included consistency, one sequence taught for every age.
+AHA's stated reasons were one cohort study, case reports of injury from thrusts, and consistency,
+one sequence taught for every age.
 
 ### Checking an instruction yourself
 

@@ -26,7 +26,8 @@ yourself or to a friend. Nothing on the card is tested by calling it.
 
 **Never practise a technique on a living person**, with one exception, the one lesson 7 allowed:
 the recovery position's arm and knee placement on a willing adult, with no roll, no force and no
-hard floor. Compressions go into a cushion or a firm pillow. Back blows, thrusts and everything else
+hard floor; never a child, and not anyone with a neck, back, shoulder or hip problem or who is
+pregnant (lesson 7). Compressions go into a cushion or a firm pillow. Back blows, thrusts and everything else
 are spoken, or placed on a cushion or a doll. If anything hurts your wrists, back or knees, or you
 feel dizzy or unusually breathless, stop.
 
@@ -58,8 +59,8 @@ on the fridge, in the kit. It holds:
    sure it is harmful.
 4. **The nearest public defibrillator to your home, and when it can be reached.** Walk there, look
    at it, and note whether the cabinet is locked and whether the building closes at night (lesson
-   5). Don't open it: read the cabinet and its sign, because some cabinets raise an alarm when
-   opened. In the UK the public map, defibfinder.uk, is for finding one in advance; in an emergency
+   5). Don't open it: read the cabinet and its sign, and leave it closed, as lesson 5 said,
+   because it's there for an emergency. In the UK the public map, defibfinder.uk, is for finding one in advance; in an emergency
    the call handler knows where the registered ones are (lessons 2 and 5).
 5. **For each person at home with a known condition** (an allergy, asthma, epilepsy, diabetes, heart
    disease): where their medicine or device is kept, and the one rule this course taught for it,
@@ -140,8 +141,9 @@ object only if you see it when you open the airway for breaths (COR 1, LOE C-LD)
 sweep (COR 3: Harm, LOE C-LD).
 
 **Why they differ.** Only if she stops responding: breaths first in the UK, compressions first in
-the US, for the reasons lesson 6 gave (RCUK's reasoning from the usual cause of a child's arrest,
-the AHA's consistency across ages). On the device they agree: neither recommends it over back blows
+the US, for the reasons lesson 6 gave (RCUK's reasoning from the usual cause of a child's arrest;
+the AHA's consistency across ages, and its finding that starting with compressions delays the
+first breath by only seconds). On the device they agree: neither recommends it over back blows
 and thrusts, and RCUK's stated reason is that those can be given at once with nothing but your
 hands.
 
@@ -174,9 +176,10 @@ life support (RCUK 2025). A helper brings the AED; paediatric mode if he weighs 
 AED has one, standard adult mode if he is heavier (RCUK 2025).
 
 **Why they differ.** The first action and the moment of the call. Lesson 6 gave the reasons for the
-first: the AHA's consistency across ages, and RCUK's reasoning from the usual cause of a child's
-arrest. Lesson 2 gave them for the second: the AHA values a quick dispatch and a call handler's
-help, and RCUK says the call handler recognises arrest better than a frightened bystander.
+first: the AHA's consistency across ages and the few seconds compressions first delay the first
+breath, and RCUK's reasoning from the usual cause of a child's arrest. Lesson 2 gave them for the
+second: the AHA values a quick dispatch and a call handler's help, and RCUK and the ERC say the
+call handler is often better placed than a bystander to recognise arrest.
 
 **To the call handler.** The gym and its address, "an eleven-year-old boy has collapsed, he's not
 responding and he's gasping", and that there's an AED.
@@ -307,8 +310,8 @@ child who is fighting it.
 
 **In the UK.** Consider half a teaspoon (2.5 g) of table sugar under her tongue, which RCUK gives
 for a child who is uncooperative with swallowing but not unresponsive (RCUK 2025). Once she will
-swallow, glucose tablets 15 to 20 g, or 50 to 100 mL of fruit juice; repeat if she's no better after
-15 minutes (RCUK 2025). Call 999 if she becomes unresponsive or does not improve (RCUK 2025).
+swallow, glucose tablets 15 to 20 g, or, if there are none, 50 to 100 mL of fruit juice; repeat if
+she's no better after 15 minutes (RCUK 2025). Call 999 if she becomes unresponsive or does not improve (RCUK 2025).
 
 **In the US.** A slurry of granulated sugar and water under her tongue may be reasonable for a child
 who is awake but unwilling or unable to swallow glucose (AHA/Red Cross 2024, COR 2b, LOE C-LD).
@@ -394,7 +397,8 @@ if the packaging says so.
 breaths (COR 1, LOE B-NR); anyone can give naloxone, but never at the cost of the call or CPR, and in
 cardiac arrest it "may be reasonable" alongside CPR (COR 2b). An adult who responds should be
 observed in a health care setting (AHA 2025, COR 1, LOE C-LD), because the breathing can slow again
-once the naloxone fades. The relapse gets the same check and the same CPR.
+once the naloxone fades. The relapse gets the same check: unresponsive and not breathing normally,
+the same CPR.
 
 **Why they differ.** Who may give naloxone: the AHA says anyone, RCUK says "if you are trained" and
 gives no reason, and the ERC allows nasal naloxone for anyone. And where he's watched afterwards: a
@@ -442,7 +446,9 @@ lasted, and how she is now: responding or not, and how she's breathing.
 ### J. The straighteners
 
 In Bradford, a two-year-old grabs a pair of hot hair straighteners left on the bedroom floor. Her
-palm and fingers are red and already blistering. (US readers: the same, in a US home.)
+palm and fingers are red and already blistering. Under the tap she screams and snatches her hand
+away every few seconds, and her grandmother says to fetch the frozen peas instead. (US readers: the
+same, in a US home.)
 
 :::checkpoint What a sound answer to J contains
 
@@ -454,7 +460,7 @@ Cross), keeping the rest of her warm and watching a small child for over-cooling
 Association). Anything tight near the burn off before it swells. No butter, creams or ice. Cover it
 with cling film laid on, not wrapped (the NHS). Medical help: the British Red Cross says always get
 medical advice for a baby or child; the NHS says phone 111 for advice about a child under 5 if
-you're not sure, and 999 or A&E for a burn that is large or deep.
+you're not sure, and 999 or A&E for a burn that is very large or deep.
 
 **In the US.** Cool for 5 to 20 minutes (AHA/Red Cross 2024, COR 2b, LOE B-NR), watching a young
 child for hypothermia (COR 1, LOE C-LD). Anything tight near the burn off (COR 1, LOE C-EO). No
@@ -462,6 +468,15 @@ butter, creams or ice. A clean, dry, non-sticking dressing laid on loosely (COR 
 blistered and on her hand, so the guideline wants prompt evaluation by a health professional (COR
 1, LOE B-NR), and the American Red Cross page marks burns in the very young and to the hands for
 immediate emergency treatment and a 911 call.
+
+**Either way, the tap she won't stay under.** No frozen peas: the British Burn Association and St
+John say no ice, and the American Red Cross's FAQ says ice may further damage the skin. The one US
+exception, ice wrapped in cloth when there is no clean running water, is for a superficial burn with
+the skin intact (AHA/Red Cross 2024, COR 2b, LOE C-LD), and hers has blistered. The sources'
+alternatives to the tap are a cool wet compress changed often over 20 minutes (the British Burn
+Association) or a cool or cold compress (the American Red Cross); using one for a child who won't
+keep her hand under the tap is this course's reading of lines written for when there is no running
+water.
 
 **Why they differ.** How long: ILCOR found no duration it could recommend, so the AHA/Red Cross
 guideline gives a range and the UK bodies a single figure; the British Red Cross's reason is that

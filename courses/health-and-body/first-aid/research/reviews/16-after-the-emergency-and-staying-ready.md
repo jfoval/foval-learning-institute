@@ -204,3 +204,56 @@ this file; `npm run quotes first-aid` 0 not found.
 
 **Status after review:** needs second pass (six new quiz items, the DNACPR and crisis passages
 rewritten, and the ERC table changed).
+
+## 2026-09-25 — Lesson 16 — Stage 4 second pass, Reviewer F2 (facts, neutrality, safety)
+
+**Reviewer:** F2, a fresh context, on the fix pass in 85cea2a, against the brief's Reviewer F
+section, this file's first entry, "Gate closures, lesson 16" and the saved primaries (`r16f/`,
+`l16/` in the session scratchpad).
+
+**Checked, each with its verdict.**
+- **Quiz, six new items.** Keys 0,1,3,2,1,0, as recorded. Option lengths re-measured: Q1
+  90/88/87/89, Q2 87/85/89/86, Q3 80/85/83/83, Q4 87/93/87/85, Q5 90/90/89/89, Q6 84/84/85/84
+  (spread 1 to 8; the key is longest only in Q1, by one character, and tied in Q5). "since" appears
+  in all four options of Q1, Q3, Q4 and Q6, in none of Q2, and in A and D of Q5, so the key is never
+  the only option without it. No shape tell found. Each explanation read against its key: Q1 the
+  BHF's week 1 / week 5, "some" and the GP line, all on the saved page; Q2 RCUK's concrete-plan step
+  and its no-warning-signs step, both [V]; Q3 Riggs's fade, plateau and knowledge line, [V]; Q4 HSE
+  L74 paras 74 and 75, [V]; Q5 the AHA 2025 adult sentence (COR 1, LOE B-NR) and the announcement's
+  "not included in the previous guidelines", as lesson 8 has them; Q6 ILCOR's duration sentence (a
+  2021 recommendation carried in the 2025 review, as lesson 10 frames it) and the AHA/Red Cross 5 to
+  20 minutes at COR 2b. Clean.
+- **DNACPR.** Lesson 1's condition ("unless you have been shown it") restored word for word; the
+  booklet's "very unlikely" sentence and "were in place" clause match SOURCES D37; the form paragraph
+  is labelled as the course's reading; the ethics line matches the executive summary [V] and is
+  described as written about clinical teams; the legal callout sits at the point of use (decision
+  9). Clean.
+- **Crisis passages.** The RCUK column is labelled as paraphrase and each row matches the five [V]
+  sentences; the ERC's quoted steps match Part C S3 [V] ("Are you alright?", "How do you feel and
+  why?", "(How? Where? When?)", "(112)", "Give hope."); the summarising step is paraphrase at G1's
+  level, as the caption says. Numbers against the saved pages: 988 (call, text, chat; "for
+  everyone"; "24/7/365"; free and confidential), Samaritans 116 123 (free, any phone, any time), BHF
+  0808 802 1234 (weekdays 9am to 5pm; RCUK's page 09:00-17:00), Mind 0300 123 3393, CHSS 0808 801
+  0899 ("If you're in Scotland" on RCUK's page). All exact. The Mental Fitness callout is
+  byte-identical to Mental Fitness lesson 1's (cmp). "Immediate danger" is on the 988 mapping, which
+  is labelled as the course's, not on RCUK.
+- **The deliberate-overdose line.** "lesson 14's reading applies: an emergency call first, 999 (911
+  in the US)" matches lesson 14's current text ("in this course's reading and under the callout's
+  rule, an emergency call first"). Clean.
+- **The ERC table and the rest of the fixes.** F1 to F18 and P3 to P7, P10, P11, P16 to P19 checked
+  in the text: each is applied as the first entry says. The lagging list no longer carries the wet
+  sheet (F4). Survival "about one person in ten" matches lesson 4's figure (10.5% US, 9.5% England);
+  "about two thirds" matches Mental Fitness lesson 7 (65.7%).
+- **Neutrality.** Decision 2 holds: no body called wrong; each lagging page named once, in its own
+  lesson; the US gap on crisis steps stated plainly rather than filled. **Safety.** The "Before you
+  need this" callout byte-identical to lesson 1's; both exercises within decision 1.
+
+**Fixed directly.** `minutes:` 105 to 110, which is what `npm run minutes` now models for this file
+(it printed 110 against 105, "inside precision"; the brief asks for its value).
+
+**Findings.** None open.
+
+**Measures.** `npm run validate` exit 0, no line naming this file; `npm run quotes first-aid`: 417
+quotations, 0 not found. No em dashes or spaced en dashes.
+
+**Status after review:** clean
