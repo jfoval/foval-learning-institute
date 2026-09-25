@@ -319,12 +319,52 @@ quiz:
       is the American Red Cross's advice, with no evidence cited. No source read suggests water, putting off the call wastes
       the minutes help needs to arrive, and lying down alone leaves nobody to act.
 
-  # Items for lessons 9 to 15 go here as those lessons are written (OUTLINE "Assessments").
+  # --- Severe bleeding and shock (L9) ---
+  - q: >-
+      At a garden centre in Shrewsbury, a hedge trimmer slips and cuts deep into the middle of a
+      worker's forearm. Blood keeps pumping through the pad however hard you press, a PAcT kit is on
+      the wall, and 999 is on speaker. Under RCUK's 2025 first aid guideline, what now?
+    options:
+      - Tourniquet 5 to 7 cm above the wound, off the elbow, tightened till it slows and stops
+      - Keep pressing and raise the arm above his head, since the pad alone isn't doing enough
+      - Move your hands to the inside of his upper arm and press there to cut off the supply
+      - Add more pads and keep pressing, since tourniquets are only for amputations and blasts
+    answer: 0
+    explain: >-
+      RCUK 2025: "Apply a tourniquet as soon as possible for life-threatening extremity bleeding
+      that is not controlled by direct manual pressure", placed "5-7cm above the injury, but not
+      over a joint", tightened until the bleeding "slows and stops", with the time written down.
+      Blood pumping out through firm pressure is the failure both the AHA/Red Cross 2024 guideline
+      and St John describe. St John's page links tourniquets with catastrophic bleeding such as an
+      amputation, but it also says one may be needed once pressure has been tried and severe
+      bleeding continues. Raising the arm is the NHS cuts page's line for everyday cuts, and
+      pressing on the upper arm is a pressure point, which ILCOR recommends against.
+  - q: >-
+      In Durham a woman falls down a flight of concrete steps. Her lower leg is bent at an odd angle,
+      and a deep cut on it bled heavily until pressure controlled it. She's pale, cold and clammy
+      but alert, and 999 is on speaker. Under St John Ambulance's pages, how should she lie?
+    options:
+      - On her back with both legs raised on a bag, since signs of shock mean raising the legs
+      - Propped sitting up with a sweet drink, to bring her blood pressure back up as you wait
+      - Lying down with her legs left where they are and kept warm, since a leg may be broken
+      - On her side in the recovery position, since anyone with signs of shock goes on their side
+    answer: 2
+    explain: >-
+      St John's shock page lies a casualty down and raises their legs, but its fractures page says
+      to treat for shock without raising the legs "if either are suspected to be broken or there is
+      injury to the pelvis or a hip", and a leg bent at an odd angle may well be broken. So she lies
+      down with her legs as they are, kept warm and reassured. RCUK's 2025 first aid guideline has
+      no section on the position for shock, which is why the UK answer comes from these pages. The
+      American Red Cross says nothing to eat or drink, and nothing read in the UK says otherwise.
+      The recovery position isn't St John's step for shock, and RCUK says not to move a person into
+      it after trauma.
+
+  # Items for lessons 10 to 15 go here as those lessons are written (OUTLINE "Assessments").
 ---
 
-<!-- Items for lessons 9 to 15 are still to be added: this file covers lessons 1 to 8 only for now. The blueprint is in research/OUTLINE.md, "Assessments". Update the counts in the paragraph below when they go in. -->
+<!-- Items for lessons 10 to 15 are still to be added: this file covers lessons 1 to 9 only for now. The blueprint is in research/OUTLINE.md, "Assessments". Update the counts in the paragraph below when they go in. -->
 
-This test covers lessons 1 to 8. **Fifteen questions, and 70 per cent to pass**, which is eleven.
+This test covers lessons 1 to 9. **Seventeen questions, and 70 per cent to pass**, which is twelve.
 Questions on the later lessons will be added as those lessons are written.
 
 :::callout Before you need this

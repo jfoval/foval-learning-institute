@@ -77,3 +77,32 @@ the same time, recreated the file over them. The fix brief now says to append, n
   8 P2: two full AHA recommendations passed on fragments). Worth a QUEUE note for the tool.
 - **G16 was not worked for lesson 8** (three adult choking images named in OUTLINE); no UK source
   on self-rescue or a silent 999 call was found, a research gap for a later pass.
+
+## 2026-09-25 — from lesson 9's Stage 4
+
+- **RCUK 2025 First aid does set a training condition, as a general principle**: "only use
+  equipment and medications you have been trained to use", with the exception that the emergency
+  services may direct a first aider to use equipment they haven't trained on. Lesson 9's draft and
+  SOURCES Part B 12 said RCUK had none (corrected in both). Any later lesson or script on
+  tourniquets, naloxone, adrenaline or oxygen should quote the principle and the exception, not
+  "for anyone".
+- **OUTLINE decision 2 lists "St John's legs-up for bleeding (lesson 9)" as a page lagging its
+  guideline.** There is no UK guideline position for it to lag (RCUK 2025 has no shock-position
+  section; ILCOR has not reviewed it since 2020), so lesson 9 dates the page instead. Worth a
+  one-line OUTLINE correction by whoever next edits it.
+- **The fracture exception to raising the legs is St John's fractures page only**, and it covers an
+  injured hip or pelvis as well as a suspected broken leg; the British Red Cross page has none.
+  Lesson 11 (fractures) and the podcast script should use that wording.
+- **Quiz keys: 7 sequences left** against lessons 1 to 8 under the course's rule (at most two
+  positional matches, none consecutive, no constant-offset shift, no positional rotation matching
+  five of six). Lesson 9 took 1,2,0,3,1,0; lesson 10's fixer should re-run the search including it.
+- **G16 and G4 were not worked for lesson 9** (three Commons tourniquet images; the ACS and British
+  Red Cross bleeding videos).
+
+## 2026-09-25 — quiz key rule relaxed (orchestrator)
+
+Lesson 9's fixer found only 7 key sequences left that match no earlier lesson in more than two
+positions, with seven lessons still to write. That rule was a fixer's own tightening of defect 16,
+not the standard. From lesson 10 on: **no earlier lesson's sequence shared in more than three
+positions, no run of three consecutive positions shared, and not a rotation or shift of any
+earlier sequence.** Still chosen by script.
