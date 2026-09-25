@@ -193,3 +193,36 @@
   Restoring every contraction a reviewer lists overshot to 14.2; rewrite instead.
 - **Quiz keys:** lesson 8 is now 1,2,0,3,0,3. Lesson 9's fixer should rerun the at-any-offset check
   against lessons 1 to 8.
+
+## 2026-09-25 — from lesson 09's Stage 4 fix
+
+- **SOURCES Part C §2.3, §3.1 and §6 corrected** (Stage 4 notes in place; lines in "Gate closures,
+  lesson 09"). A later lesson or podcast script must not say: that OSHA 3153 "tells" or says training
+  "should include" handing over money (it is one of the topics training "may include"; the "should"
+  is "guidance to limit workers from intervening in workplace altercations"); that Parks's bar study
+  was camera footage (503 nights of in-person observation), or drop "perceived"; that Liebst's
+  published abstract "adds" the risk-factor results (the later preprint already had them). Lesson
+  10, which uses OSHA and the robbery evidence, should read the corrected entries.
+- **Right To Be's Document rule has a safety half**: "assess your own safety, and if you are safe,
+  begin documenting". Quote the first rule with it, never "film if someone is helping" alone.
+- **First Aid lesson 2's speaker rule is for CPR.** Never pair "put it on speaker" with a call made
+  near the person causing the danger; point to the safety box's silent 999 call instead, labelled
+  as the course's reading. A delegate calling from somewhere else can still use the speaker.
+- **The police question now has both sides' reasons.** Lesson 9 gives the case for calling "at its
+  strongest, as this course reads it", and says the official pages are guidance to callers, not
+  written about bystanders. Lesson 15, which takes up reporting and compensation, now carries
+  compensation that depends on a report (lesson 9's pointer names it); it should cover Northern
+  Ireland's separate scheme and say the US state programmes' rules were not read.
+- **For lesson 10 (P19):** lesson 9 says freezing is "automatic, not chosen" (changed from "common
+  and involuntary" at lesson 10's drafter's request: no source counts how often people freeze in a
+  robbery) and that memory under stress "is less exact than it feels", both as "lesson 10
+  explains", and that "all three official sources this course read" (the Met, the DC police
+  brochure, OSHA 3153) agree on handing property over. Lesson 10 must support these, or lesson 9's
+  wording changes. The "Course conventions" in `pipeline-briefs.md` could carry it.
+- **Read every lesson as the bystander who stepped in and was hurt**, not only the one who froze.
+  Lesson 9's opening now says so; later lessons on resistance (11) should keep the same line.
+- **Measured pattern seen again: a "should" list heading misread.** OSHA's "Topics may include" was
+  carried as "should include" through SOURCES into the lesson. Read the list heading above a bullet
+  before quoting the bullet.
+- **Quiz keys:** lesson 9 is 2,0,1,3,0,2 (unchanged). Lesson 10's fixer should rerun the check
+  against lessons 1 to 9 under the relaxed rule.

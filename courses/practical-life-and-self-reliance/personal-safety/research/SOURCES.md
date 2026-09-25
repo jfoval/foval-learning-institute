@@ -2463,9 +2463,12 @@ verbal de-escalation, and it says openly that it is expert consensus, not trial 
   and procedures for a facility as well as de-escalation and self-defense techniques. Both
   de-escalation and self-defense training should include a hands-on component." [V]
 - **OSHA 3153, *Recommendations for Workplace Violence Prevention Programs in Late-Night Retail
-  Establishments*** (2009, PDF, searched). Training should include "Specific instructions on how to
-  respond to a robbery such as turning over money or valuables without resistance". [V] This is the
-  official US employer position on robbery, and belongs in §3.
+  Establishments*** (2009, PDF, searched). Among the topics training "may include": "Specific
+  instructions on how to respond to a robbery such as turning over money or valuables without
+  resistance". [V] (Stage 4 note, lesson 09: the list is headed "Topics may include the following:",
+  not "should include"; the "should" sentence just before it is "guidance to limit workers from
+  intervening in workplace altercations". See "Gate closures, lesson 09".) This is the official US
+  employer position on robbery, and belongs in §3.
 - **HSE, "Violence and aggression at work"** (https://www.hse.gov.uk/violence/, employer guide
   page 1 and worker page read in full). HSE's definition: "'Any incident in which a person is
   abused, threatened or assaulted in circumstances relating to their work.'" It includes "verbal
@@ -2577,8 +2580,9 @@ situational and the victim's to make, and that nobody who complied or resisted c
   (brochure, January 2011, PDF, read in full): "Don't resist. Give up your property— don't give up
   your life." On carjacking: "If the carjacker threatens you with a gun or other weapon, GIVE UP
   YOUR CAR!" [V]
-- **OSHA 3153** (above) tells late-night retail employers to train staff in "turning over money or
-  valuables without resistance". [V]
+- **OSHA 3153** (above) lists, among the topics late-night retail training may include, "turning
+  over money or valuables without resistance". [V] (Stage 4 note, lesson 09: a recommendation and a
+  "Topics may include" item; never write that OSHA "tells" employers to train it.)
 - **Faulkner, Landsittel and Hendricks, "Robbery characteristics and employee injuries in
   convenience stores"**, *Am J Ind Med* 2001;40:703-9 (abstract, PubMed). A prospective cohort of
   460 convenience store robberies: "Injury risk was strongly associated with ... employee
@@ -2856,11 +2860,13 @@ and names of the stages, and sex differences. Practitioner lore: heart-rate thre
   non-randomised, abstract): victimisation "17% lower" on the Green Dot campus. [V] Kettrey and
   Marx, *J Youth Adolesc* 2019 (meta-analysis of 15 studies, abstract): bystander programmes have
   "a significant, desirable effect" on bystander efficacy, intentions and intervention. [V]
-- **What bystanders actually do, on camera.** Levine and colleagues, *Psychological Science* 2011
+- **What bystanders actually do, on camera and by observation.** Levine and colleagues, *Psychological Science* 2011
   (abstract, Crossref): 42 CCTV incidents; "third parties were more likely to take conciliatory
   actions than to escalate violence", and "conciliatory behaviors are more successful when carried
   out by multiple third parties than when carried out by one person." [V] Parks and colleagues,
-  *Aggressive Behavior* 2013 (abstract): 860 incidents in Toronto bars; third parties were more
+  *Aggressive Behavior* 2013 (abstract): 860 incidents in Toronto bars, from 503 nights of in-person
+  observation, not camera footage (Stage 4 note, lesson 09); authors read it as third parties
+  "responding to the perceived danger of serious harm" [V]; third parties were more
   likely to step in when aggression was more severe, and those factors predicted non-aggressive
   involvement more strongly than aggressive involvement. [V]
 - **Is it dangerous to intervene?** Liebst and colleagues (PsyArXiv preprint, 2020, abstract): 93
@@ -4778,3 +4784,91 @@ asocial) point here.
 - CrimeSolutions ICAT profile: [V] "An Effective rating implies that implementing the program is likely to result in the intended outcome(s)."
 - IMPD report: [V] "Due to resource constraints, the IMPD implemented a condensed 8-hour version of ICAT without scenario-based practice." (layout text, read across the line breaks)
 - Richmond 2012, Domain VIII: [V] "Tell the patient that injury to him or others is unacceptable."
+
+## Gate closures, lesson 09 (2026-09-25)
+
+*Recorded from lesson 9's drafter reads and Reviewer F's re-reads (scratchpad/ps-r09f/).*
+
+### G20: Liebst's published version; Lindegaard's version of record
+- **Liebst, Philpot, Levine and Lindegaard, "Cross-national CCTV footage shows low victimization
+  risk for bystander interveners in public conflicts", *Psychology of Violence* 11(1), 2021, 11-18,
+  doi 10.1037/vio0000299** (abstract, APA PsycNet and OpenAlex). "Data were a cross-national sample
+  of 93 surveillance camera recordings of real-life public disputes, capturing the potential
+  victimizations of 417 intervening and 636 nonintervening bystanders." "interveners were rarely
+  physically harmed" "at a rate of 3.6%" "noninterveners were virtually never victimized"
+  "Confirmatory regression results showed that conflict party affiliation was a moderately robust
+  predictor of bystander victimization. The gender of the intervener was a highly fragile risk
+  factor. More severe conflicts were not associated with a higher victimization likelihood." [V]
+  The abstract does not say which way affiliation ran, how serious the harm was, or which
+  countries.
+- **Two PsyArXiv versions precede it.** osf.io/wgtpm (the one Part C §6 read) already carries the
+  same three results: "conflict party affiliation was associated with bystander victimization,
+  although only moderately robust. The gender of the intervener was a highly fragile correlate with
+  the outcome. The severity of the conflict at the time of intervention was not found to increase
+  the risk of victimization." [V] An earlier version, osf.io/v3me8, gave "at a rate of
+  approximately one in twenty-five" and "conflict party affiliation and male gender were possible
+  risk factors of bystander victimization". [V] Cite the published version; never say the
+  published abstract "adds" the risk-factor results.
+- **Lindegaard, Liebst, Bernasco, Philpot, Thomas and Ejbye-Ernst, "The High Bystander Helping Rate
+  for Public Assaults Does Not Generalize to Commercial Robberies: A Video Observational Study",
+  *The Journal of Social Psychology*, online 15 September 2026, doi 10.1080/00224545.2026.2729059,
+  CC BY 4.0** (version-of-record abstract). "Using the same measurement instrument and similar kinds
+  of video data" "another dangerous violent emergency context involving fewer bystanders and more
+  weapons: commercial robberies" "We analyzed 43 CCTV-observed robbery incidents in commercial
+  settings and found that bystanders took action to help the victim in 35% of the events, a
+  frequency substantially lower than in public assaults." "While the number of bystanders present
+  was positively associated with bystander helping behavior in public assaults, this was not the
+  case in the context of commercial robberies." [V]
+**G20: closed.**
+
+### New source: Kettrey and Marx 2019, Archives of Sexual Behavior
+- **Kettrey and Marx, "Does the Gendered Approach of Bystander Programs Matter in the Prevention of
+  Sexual Assault Among Adolescents and College Students? A Systematic Review and Meta-Analysis",
+  *Arch Sex Behav* 48(7), 2019, 2037-2053, doi 10.1007/s10508-019-01503-1, PubMed 31292784**
+  (abstract). "we synthesized data from 14 independent studies (N = 7881). Twelve studies were
+  randomized controlled trials and two used high-quality quasi-experimental designs." Outcomes:
+  "(2) self-reported perpetration of sexual assault". "Findings indicated that bystander programs
+  have a significant, desirable effect on bystander intervention, but no significant effect on
+  sexual assault perpetration." [V] A lesson that reports Green Dot's perpetration result should
+  set this beside it.
+
+### Corrections to Part C
+- **§6, Parks 2013 is observation, not camera footage**: "860 incidents of verbal and physical
+  aggression from 503 nights of observation in 87 large bars and clubs in Toronto, Canada"; "The
+  findings suggest that third parties are indeed responding to the perceived danger of serious
+  harm." [V] Move it out from under "on camera", and keep "perceived".
+- **§2.3 and §3.1, OSHA 3153 (OSHA 3153-12R 2009)**: the robbery item is one of the topics training
+  "may" include, not a "should": "Training should also include guidance to limit workers from
+  intervening in workplace altercations whenever possible unless enough staff or emergency response
+  teams and security personnel are available. Topics may include the following:" then, among the
+  bullets, "Specific instructions on how to respond to a robbery such as turning over money or
+  valuables without resistance". [V] Never write that OSHA "tells" employers to train staff to hand
+  over money; write that its recommendations list it as a training topic.
+- **§6, Right To Be's police reasons in full** (live page and capture 20260827212950, identical):
+  "This is because some people may not be comfortable or safe with the involvement of law
+  enforcement. For many people and communities, a history of mistreatment and violent escalation by
+  law enforcement has led to fear and mistrust of police involvement." [V] The page frames itself
+  on "a spike in disrespect, harassment, and hate violence". [V] Delay: "Share resources with them
+  and offer to help them make a report if they want to." [V] Document's first key continues:
+  "Recording someone's experience of harm without ensuring they're already receiving help can just
+  create further trauma for them. If someone else is already helping out: assess your own safety,
+  and if you are safe, begin documenting." [V] Its reason for the second: "If the documentation
+  goes viral online, it can make that person visible in a way they may not want to be." [V]
+- **§6, the press release** (capture 20251205135030): "Right To Be (formerly Hollaback!)", "Right To
+  Be's proven 5Ds methodology", "In 2022, RALIANCE awarded Right To Be funding to support bystander
+  intervention training research." "RALIANCE was created with seed funding from the National
+  Football League." Data included "follow-up surveys to all training participants". [V]
+
+### Pages lesson 9 relies on beyond Part D §8
+- **911.gov, "Calling 911"** (live page, browser, and capture 20260907153825; "Last Updated:
+  01/24/2023"): "In an emergency, dial 911 from your phone immediately." "An emergency is any
+  situation that requires immediate assistance from the police, fire department or ambulance."
+  "Details about the emergency, such as a physical description of a person who may have committed a
+  crime" [V]
+- **GOV.UK, criminal injuries compensation** (content API): "You might also be able to claim
+  compensation if you were taking a 'justified and exceptional' risk trying to stop a crime. For
+  example somebody was in danger and it was not a situation that you were trained to deal with."
+  "The crime must be reported to the police before you apply." "The process is different if the
+  crime happened in Northern Ireland" [V]
+- **Victim Support NI, home page**: "We offer a free and confidential service, whether or not the
+  crime has been reported, regardless of how long ago the crime took place." [V]

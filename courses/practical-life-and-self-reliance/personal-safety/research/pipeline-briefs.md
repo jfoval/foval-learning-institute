@@ -219,6 +219,11 @@ instead).
   about as if beneath you, not every imperative. OSHA's topic page never mentions de-escalation:
   never write "every official body" recommends it.
 
+- **From lesson 9's review (2026-09-25):** First Aid's speaker-phone rule is for freeing your hands
+  for CPR; never offer it next to the person causing the danger (point to the silent 999 call).
+  No source counts how often people freeze in a robbery or street attack: freezing is "automatic,
+  not chosen", never "common", outside lesson 11's sourced figure.
+
 ## Stage 4 review brief: Personal Safety (Tier B, split, two reviewers)
 
 Repo: `/Users/johnfoval/Desktop/Foval Learning Institute`. Course:
