@@ -102,7 +102,8 @@ Rewrite these five lines each session. Nothing else goes in this block.
   A quick-exit button on that lesson's page, as every domestic abuse service's own site has (one
   tap to leave for a neutral page). And the lesson's "Help first" box renders after the objectives
   block, so on a phone the helplines start on the second or third screen; a way for a lesson to put
-  one callout above the objectives would fix it. The lesson has been trimmed to bring the box as
+  one callout above the objectives would fix it. Phone numbers are also plain text everywhere
+  on the site; `tel:` links would let a reader on a phone tap to call. The lesson has been trimmed to bring the box as
   high as the current layout allows.
 
 - **`npm run quotes` passes a full-sentence quotation when SOURCES.md holds only a fragment of it.**

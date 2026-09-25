@@ -206,6 +206,11 @@ instead).
   shared in more than three positions, no run of three shared at any offset, not a rotation or
   shift; chosen by script.
 
+- **From lesson 7's review (2026-09-25):** any contact route offered to a reader whose phone or
+  computer may be watched is tied to a device the abuser can't reach, labelled as the course's
+  reading; no claims about call logs or history beyond what the services themselves say. Put
+  non-breaking spaces inside every spaced phone number so it doesn't break across lines on a phone.
+
 ## Stage 4 review brief: Personal Safety (Tier B, split, two reviewers)
 
 Repo: `/Users/johnfoval/Desktop/Foval Learning Institute`. Course:

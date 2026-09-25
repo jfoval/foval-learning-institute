@@ -136,3 +136,38 @@
   police street advice had been read when SOURCES Part C recorded a brochure read in full. Before
   writing that the course has no source for something, search all four Parts, not only the one the
   outline cites.
+
+## 2026-09-25 — from lesson 07's Stage 4 fix
+
+- **SOURCES B27 corrected** (Stage 4 note in place; lines in "Gate closures, lesson 07"). A later
+  lesson or podcast script must not say: that forced sex dropped out of Campbell's multivariate
+  analysis (adjusted OR 1.87, P < .07, and the authors think their method understated it); that
+  stalking simply "wasn't a risk factor" (the authors put it down to its link with earlier threats,
+  and threats to kill carried OR 2.60); that separation was "the highest risk the study measured" or
+  that the study shows when danger peaks; or the 8.98 without saying it fell to 4.07 (1.33 to 12.4)
+  once threats were added. Lesson 14, which takes up guns, should note the 5.44 is model 5 and that
+  access was no longer significant once the abuser's use of a gun in the incident entered.
+- **ONS's "underestimates domestic violence" sentence is about the face-to-face questions**, not the
+  7.8%, which is ONS's preferred self-completion estimate. The gate-closure copy now carries its
+  subject.
+- **Two domestic abuse question sets.** The 7.8% (9.1% of women, 6.5% of men, year ending March
+  2025) is on ONS's new questions, introduced from the year ending March 2024, which ONS says can't be
+  compared with the old. Lesson 3's 6.6% and 3.0% are old-question figures (4.8% overall). Lesson 3
+  isn't wrong as labelled, but any lesson or script setting the two side by side must say so, and a
+  later pass on lesson 3 may want the new-question figures.
+- **Standing rule proposed for "Course conventions":** every contact route offered to a reader, or a
+  case, whose phone or computer is watched (calling, texting, chat, email, a printed or emailed plan)
+  is tied to a device the person frightening them can't get at, labelled as the course's reading of
+  the Hotline's and Refuge's warnings; no claim about call logs or history beyond what a service says.
+  Lessons 14 and 15, which carry lines again, should follow it.
+- **The IOPC's Silent Solution is England and Wales**, with lesson 1's hedge that the guide doesn't
+  say whether it holds in Scotland and Northern Ireland. The safety callout's "999 in the UK" stays
+  as decision 4 fixes it.
+- **Lesson 7 is accepted long** (110 minutes against ~90), cut rather than split, because every
+  earlier lesson's callout sends a reader in danger to it by title.
+- **For `docs/QUEUE.md` (platform, John's call, not a fixer's):** a quick-exit control on lesson 7's
+  page, as every service page read has; objectives render above the first callouts on every lesson,
+  which on a phone puts 525 px of reading, including "killings", above lesson 7's lines; phone numbers
+  are not `tel:` links anywhere in the repo.
+- **Quiz keys:** lesson 7 is now 3,2,3,1,0,1. Lesson 8's fixer should rerun the at-any-offset check
+  against lessons 1 to 7.

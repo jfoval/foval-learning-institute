@@ -2138,8 +2138,17 @@ numbers in the first screen, not the last.
   associated with lowered risks." [V] The separation effect: "The risk of intimate partner femicide
   was increased 9-fold by the combination of a highly controlling abuser and the couple's separation
   after living together (adjusted OR = 8.98; 95% CI = 3.25, 24.83)." [V] Abuser's access to guns:
-  adjusted OR 5.44 in the final model. [V] Stalking, forced sex and abuse in pregnancy were
-  significant only in bivariate analysis. [V]
+  adjusted OR 5.44 in model 5. [V] **Stage 4 note, lesson 07 (2026-09-25), corrected:** the 8.98
+  is model 4; with threats added (model 5) the combination fell to adjusted OR 4.07 (1.33 to 12.4),
+  "although substantially reduced, remained strong" [V], and in model 7 access to a gun was no longer
+  significant once the abuser's use of a gun in the worst incident entered. Stalking, forced sex and
+  abuse in pregnancy were significant in the bivariate analysis; in the multivariate analysis forced
+  sex remained close to significance (adjusted OR 1.87, 95% CI 0.97 to 3.63, P < .07) [V], and the
+  authors explain stalking's drop by its link with earlier threats with a weapon and threats to kill,
+  "factors that more closely predict intimate partner femicide risks" [V] (threats to kill adjusted
+  OR 2.60, model 5). Leaving: having ever left or asked the partner to leave, adjusted OR 3.19 (model
+  3); the worst incident triggered by the victim leaving for reasons other than another partner, 4.04
+  (model 7). Lines in "Gate closures, lesson 07".
 - **Limits, in its own words:** "Perhaps the most important limitation of the study is its necessary
   reliance on proxy respondents for data regarding hypothesized risk factors". [V] Urban sample only.
 - **The victim's own gun (contested; handle neutrally).** Campbell: "A victim's access to a gun could
@@ -2239,7 +2248,9 @@ numbers in the first screen, not the last.
   entry happened with someone at home, and in the US about 28% (B17).
 - **"Change your passwords regularly."** Withdrawn advice (NCSC); still on some safety charity pages
   (B25).
-- **"Just leave."** Separation from a controlling partner is the highest-risk period (B27).
+- **"Just leave."** Separation after living together, especially from a highly controlling partner,
+  went with higher odds of femicide (B27; not "the highest-risk period": a case-control study gives
+  no timing, and other factors had larger odds; Stage 4 note, lesson 07).
 - **"If I call 999 and can't speak, they'll come."** Not unless you press 55 (B26).
 - **"Earphones make you a target."** Music players did not reduce noticing in Hyman's study; phone
   conversations did (B11).
@@ -2430,6 +2441,10 @@ verbal de-escalation, and it says openly that it is expert consensus, not trial 
 - Agreeing: three ways to agree ("agreeing with the truth", "agreeing in principle", "agree with
   the odds"), and "if there is no way to honestly agree with the patient, agree to disagree." [V]
 - Limits: tell the person what is unacceptable "in a matter-of-fact way and not as a threat." [V]
+  **(Stage 4 note, lesson 08: the clause is about naming a consequence. The full passage: "If
+  necessary, tell the patient that he may be arrested and prosecuted if he assaults anyone. This
+  should be communicated in a matter-of-fact way and not as a threat." The distinction is of
+  manner, not whether a consequence is named; see "Gate closures, lesson 08".)**
 - Humiliation: "do not challenge the patient, insult him, or do anything else that can be
   perceived as humiliating." [V]
 
@@ -2485,7 +2500,10 @@ verbal de-escalation, and it says openly that it is expert consensus, not trial 
   practice". Findings: "19.6% initial reduction in subjects who had force used against them
   (12-month follow-up), and 18.3% reduction sustained over an 18-month period"; "25.2% initial
   reduction in the number of subjects injured"; but officer injuries showed no statistically
-  significant change. Arrests also fell 15.3%, and the authors bound the training's independent
+  significant change. **(Stage 4 note, lesson 08: the condensed course "was supplemented, however,
+  with additional departmentwide emphasis on the use of de-escalation tactics and skills through
+  other trainings, policies, and data collection"; the report does not attribute the officer-injury
+  result to the shorter format. See "Gate closures, lesson 08".)** Arrests also fell 15.3%, and the authors bound the training's independent
   effect on force at "-5.0% to -19.6%". Attitudes improved after training but "Many of these gains
   diminished by the follow-up period, with attitudes often returning to baseline". [V]
 
@@ -2506,8 +2524,10 @@ course's inference, and a lesson must label it.
   only; the Cochrane page returned 55 words).
 - **Heckemann and colleagues, *Nurse Education Today* 2015;35:212-9** (abstract, PubMed). Nine
   before-and-after studies of aggression-management training for hospital nurses: all "reported
-  increased confidence, improved attitude, skills, and knowledge", but "There was no significant
-  change in incidence of patient aggression." [V]
+  increased confidence, improved attitude, skills, and knowledge about risk factors post
+  training", but "There was no significant change in incidence of patient aggression." [V]
+  **(Stage 4 note, lesson 08: quotation completed; the abstract also concludes "Training does not
+  reduce the incidence of aggressive acts.")**
 - **Price and Baker, *Int J Ment Health Nurs* 2012** (abstract): de-escalation "has been
   overlooked by rigorous research, and it is often assumed that staff are able to perform these
   techniques in clinical practice." [V] **Hallett and Dickens, *Int J Nurs Stud* 2017** (abstract):
@@ -2525,8 +2545,13 @@ course's inference, and a lesson must label it.
   and a thoughtful one; it agrees closely with Richmond's domains II and IX. The blog uses coarse
   language; paraphrase rather than quote at length. MacYoung's framing of "social" versus
   "asocial" violence (credited to Miller) is widely taught: the idea that de-escalation works on
-  status contests and not on someone who has already decided to rob or hurt you. That
-  distinction is reasonable and **untested**; a lesson can teach it as a practitioner model.
+  status contests and not on someone who has already decided to rob or hurt you. **(Stage 4 note,
+  lesson 08: "status contests" and that summary are this file's gloss, not the post's. The post
+  says only that there is violence "for social reasons and for asocial reasons", that the five
+  rules "will (most likely) prevent social violence, they won't stop asocial violence", and gives a
+  robber as its asocial example; "status" and "means to an end" are not in it. See "Gate closures,
+  lesson 08".)** That distinction is reasonable and **untested**; a lesson can teach it as a
+  practitioner model.
 
 **What a lesson can say, sorted (standards 3.1).** Established: official bodies in both countries
 recommend de-escalation first, and ICAT reduced police force in two stepped-wedge trials.
@@ -4216,6 +4241,9 @@ federal, state, and local law enforcement partners." (Footnote markers dropped.)
 - "In year ending (YE) March 2026 CSEW, people aged 16 years and over experienced an estimated 989,000 incidents of violence with or without injury."
 - "However, this was 33% lower than estimated a decade ago (1.5 million incidents in YE March 2016) and 78% lower than its peak in YE December 1995 (4.5 million incidents)."
 - "However, it underestimates domestic violence because victims may not disclose it to interviewers."
+  (Stage 4 note, lesson 07: the subject of "it" is "The interviewer-administered parts of the Crime
+  Survey for England and Wales (CSEW)", and the next line points to the 7.8% as ONS's "preferred
+  prevalence estimate". The caveat is not about the 7.8%. Full lines in "Gate closures, lesson 07".)
 
 **ONS, Nature of violent crime, YE March 2024** ()
 - "The CSEW showed that in the YE March 2024: a higher proportion of women experienced harassment (11.2%) than men (6.6%)"
@@ -4555,3 +4583,198 @@ for University Women"** (*Psychology of Women Quarterly*, PMC5821219, full text 
 SOURCES Part C §4.2)
 - [V] "Some feminist scholars (e.g., Basile, 2008, as well as one of the reviewers for this article) have suggested that resistance education for women is misguided, in that perpetrators may simply move on to another woman. In other words, these critics suggest that sexual assault is prevented for the individual woman who resists, but that this would not necessarily reduce rates of sexual assault in the community overall."
 - [V] "We, along with other feminist scholars (e.g., Hollander, 2016), suspect that perpetrators may learn important lessons that then have an impact on their subsequent behavior"
+
+## Gate closures, lesson 07 (2026-09-25)
+
+From lesson 7's drafting and its Stage 4 review. Reviewer F re-fetched every primary with curl
+(browser User-Agent) on 2026-09-25, RAINN and 911.gov in a browser, and script-checked the 39 lines
+below against the captures (39 of 39 found); the fixer re-fetched Victim Support, the Hotline's home
+and safety-plan pages, the Men's Advice Line's home, About us, contact and friends pages, Refuge's
+helpline and "support someone" pages, the IOPC page, the National Stalking Helpline and VictimConnect
+the same day and found every line and number below unchanged. Page punctuation kept, including en
+dashes (18–50) and curly quotes; a lesson must not reproduce the dashes. Corrections this block
+supports: B27 (Stage 4 note in place) and the ONS YE March 2026 "underestimates" line in "Gate
+closures, lesson 01" (note in place).
+
+**Pages lesson 7 relies on, beyond B26 to B28 and G6/G27** (read in full on 2026-09-25 unless said):
+Refuge "Coercive Control" (refuge.org.uk/i-need-help-now/coercive-control/); Refuge "Support someone
+I know who is being abused" (refuge.org.uk/what-is-domestic-abuse/support-someone-i-know-who-is-being-abused/);
+the Hotline's "Types of Abuse" (thehotline.org/resources/types-of-abuse/) and "Ways to Support"
+(thehotline.org/support-others/ways-to-support-a-domestic-violence-survivor/); the Men's Advice
+Line's About us, contact and "Friends and family" pages (mensadviceline.org.uk); the National
+Domestic Abuse Helpline's "How we can support you" and "Chat to us online" pages
+(nationaldahelpline.org.uk); SPARC "Stalking Behaviors" and "What to do if you are being stalked"
+(stalkingawareness.org); Suzy Lamplugh Trust "What happens when I contact the helpline?"; Welsh
+Government, Live Fear Free "Domestic abuse" (gov.wales/live-fear-free/domestic-abuse-wales); Victim
+Support NI home page; ONS *Domestic abuse in England and Wales overview: November 2025*.
+
+**ONS, *Domestic abuse in England and Wales overview: November 2025***
+(ons.gov.uk/peoplepopulationandcommunity/crimeandjustice/bulletins/domesticabuseinenglandandwalesoverview/november2025), read in full, curl:
+- "An estimated 7.8% of people aged 16 years and over (9.1% of females and 6.5% of males) experienced domestic abuse in the last year. This equates to an estimated 3.8 million people aged 16 years and over (2.2 million females and 1.5 million males)."
+- "Data from year ending (YE) March 2024 onwards are derived using new survey questions on the Crime Survey for England and Wales (CSEW) to measure domestic abuse. Comparisons with previous years have not been made as it is not possible to compare the estimates from the new and previous question sets."
+- "A higher percentage of people aged 16 years and over experienced domestic abuse by a partner or ex-partner (6.1%) than a family member (2.7%) in the last year."
+- The figures are for YE March 2025. So lesson 3's 6.6% and 3.0% (YE March 2024, the September 2024 article, old question set; that article puts all adults at 4.8%) are not the same measure as the 7.8%, 9.1% and 6.5%.
+
+**ONS, *Crime in England and Wales: YE March 2026*** (the "underestimates" sentence with its subject):
+- "The interviewer-administered parts of the Crime Survey for England and Wales (CSEW) give the best view of trends in violence, with or without injury, for the household population."
+- "However, it underestimates domestic violence because victims may not disclose it to interviewers."
+- "Our preferred prevalence estimate can be found in Section 8: Domestic abuse"
+- Fixer, same page: "Domestic violence and sexual victimisation are also covered, but because of underreporting in interviews, these are better captured via a self-completion section and reported separately."
+- Section 8: "Our latest estimates from the YE March 2025 survey showed that an estimated 7.8% of people aged 16 years and over experienced domestic abuse in the last year (around 3.8 million people)."
+
+**ONS, *Nature of violent crime, YE March 2024*** (old question set):
+- "The Crime Survey for England and Wales (CSEW) estimated that 4.8% of people aged 16 years and over experienced domestic abuse in year ending (YE) March 2024."
+
+**Campbell and colleagues 2003, PMC1447915, full text** (model numbers from Table 3):
+- "The association between abusers’ use of forced sex on victims and increased intimate partner femicide risks approached statistical significance (adjusted OR = 1.87; 95% CI = 0.97, 3.63; P < .07)." (model 6)
+- "However, these risk factors, with the exception of forced sex, were not associated with intimate partner femicide risk in the multivariate analysis. Many of these characteristics of abuse are associated with previous threats with a weapon and previous threats to kill the victim, factors that more closely predict intimate partner femicide risks."
+- "Stalking and threats to harm children and other family members were not independently associated with intimate partner femicide risk after variables had been entered in the first models."
+- "Abusers’ previous threats with a weapon (adjusted OR = 4.08; 95% CI = 1.91, 8.72) and threats to kill (adjusted OR = 2.60; 95% CI = 1.24, 5.42) were associated with substantially higher risks for femicide." (model 5)
+- "The effects of high control with separation (adjusted OR = 4.07; 95% CI = 1.33, 12.4) and access to guns (adjusted OR = 5.44; 95% CI = 2.89, 10.22), although substantially reduced, remained strong." (model 5; the 8.98 is model 4)
+- "These incident-level effects appear to mediate those related to highly controlling abusers and separation after cohabitation." (model 7)
+- Fixer: "Having been separated from an abusive partner after living together was associated with a higher risk of femicide (adjusted OR = 3.64; 95% CI = 1.71, 7.78), as was having ever left or having asked the partner to leave (adjusted OR = 3.19; 95% CI = 1.70, 6.02)." (model 3)
+- Fixer: "When the incident was triggered by the victim’s having left the abuser for any other reason, femicide risks were also significantly increased (adjusted OR = 4.04; 95% CI = 1.80, 9.06)." (model 7; the sentence before gives 4.91 for an incident triggered by her leaving for another partner or by the abuser's jealousy)
+- Fixer: "Abuser’s use of a gun in the worst incident of abuse was associated with a 41-fold increase in risk of femicide after control for other risk factors" (model 7)
+- "Our decision to treat these “don’t know” responses as representing absence of the “exposure” produced conservative biases in our estimates of relationships with intimate partner femicide risks."
+- "Another limitation was that we excluded women who did not reside in large urban areas (other than Wichita, Kan) and control group women who did not have telephones."
+- "If so, true exposure to the risk factors of interest among women involved in abusive intimate relationships may be greater than our control data suggest, thus inflating our estimates of increased risks associated with these exposures." (the "if so" is: "women living in the most dangerous situations may have been less likely to participate as control women")
+- "Two exclusion criteria, age (18–50 years) and no previous abuse by the femicide perpetrator, resulted in the elimination of 87 additional cases"
+
+**National Domestic Violence Hotline, "What is a Safety Plan?":**
+- "At the end of the process, you’ll have a printable version of your personalized safety plan for reference whenever you need it."
+- "You can read it online, print it immediately, or send a link to your email. The link is active for 24 hours, then your information is deleted from the website."
+
+**National Domestic Violence Hotline, home page:**
+- "To browse this site safely, be sure to regularly clear your browser history."
+- "Our domestic violence informed compassionate A.I. chat, Ruth, can help when you’re unable to reach a live advocate. To speak to a live person, call, chat, or text a live advocate."
+- Fixer: "If you’re concerned your internet usage might be monitored, call us at 800.799.SAFE (7233)."
+
+**National Domestic Violence Hotline, "Ways to Support"** (fixer's lines for the lesson's paraphrase):
+- "Remembering that you cannot “rescue them,” and that decisions about their lives are up to them to make."
+- "Continuing to be supportive of them if they do end the relationship and are understandably lonely, upset, or return to their abusive partner."
+- "Don’t post information about them on social media that could be used to identify them or where they spend time."
+
+**Refuge, "Support someone I know who is being abused":**
+- "Your first instinct may be to protect her, but intervening directly can be dangerous for you and her."
+- "Offer to keep a spare set of keys for her or important documents, such as passports, bank account details and benefit information so that she can access them quickly in an emergency"
+- "Safety: She may be fearful of what the abuser will do to her and the children if they leave or attempt to leave"
+- Fixer: "Don’t tell her to leave or criticise her for staying. Although you may want her to leave, she has to make that decision in her own time."
+- Fixer: "Be patient. Leaving an abusive partner is a process."
+- Fixer: "Agree on a code word so she can signal when she is in danger and needs you to get help"
+
+**Refuge, "Coercive Control":**
+- "Controlling or coercive behaviour within an intimate or familial relationship is a crime and perpetrators can be prosecuted." (The page names no jurisdiction and no statute; Refuge's helpline is listed under England by GOV.UK, G6.)
+- Fixer: the definition, "Coercive control is an act, or a pattern of acts, of assault, threats, humiliation and intimidation that abusers use to harm, punish or frighten survivors." (the next sentence has a spaced en dash; paraphrase it)
+
+**Refuge, National Domestic Abuse Helpline page** (fixer's lines for the lesson's Kerry checkpoint):
+- "Calling the Helpline is the right place to start: An expert advisor will listen to whatever you want to tell her. She’ll offer confidential and non-judgemental information, and if you’d like, help you make a plan."
+- "Quieter periods are often evenings, nights and weekends"
+
+**National Domestic Abuse Helpline, "Chat to us online":**
+- "It doesn’t matter whether you are still with the person you want to talk to us about, or whether you have left. You may even have left many years ago."
+- Fixer, helpline home: "If you’re worried someone might be monitoring your devices, exit this site and visit from a safe device."
+
+**Men's Advice Line:**
+- Friends and family: "Confront the abuser or victim. Doing so could cause isolation, harm and contact to end."
+- Friends and family: "Listen and believe. Often people don’t believe men when they first disclose abuse."
+- Friends and family, fixer: "Leaving is often a very dangerous time, when violence and abuse escalates. Understand that careful planning is needed and help if you can."
+- About us: "Men’s Advice Line is for men including anyone who identifies as trans and non-binary, who are experiencing or have experienced domestic abuse, and for those supporting them"
+- About us: "No one has to prove that they are a victim to get a service."
+- Contact us: "Your call will not appear on itemised bills." (a statement about the bill; nothing on the page about a phone's own call history)
+
+**Suzy Lamplugh Trust:**
+- "What happens when I contact the helpline?" (suzylamplugh.org/what-happens-when-i-contact-the-helpline, updated 7 September 2026): "Among other things, the Helpline advisor will ask you if you have been to the police and how you are currently feeling."
+- "How can the helpline help?": "Press 1 for Nationally, Press 2 for London)"
+
+**Welsh Government, Live Fear Free, "Domestic abuse"** (gov.wales/live-fear-free/domestic-abuse-wales):
+- "There are refuges for Women and Men in Wales."
+
+**Victim Support NI, home page:**
+- "We offer a free and confidential service, whether or not the crime has been reported, regardless of how long ago the crime took place."
+
+**Victim Support, "Get help"** (fixer, for lesson 7's first box):
+- "Anyone affected by crime in England or Wales can contact us for free, confidential support." Supportline 08 08 16 89 111, "available across England and Wales, 24/7".
+
+**IOPC, Silent Solution page:**
+- "The Relay UK service" / ", run by BT, is designed for people who are deaf, hard of hearing or have a speech impairment. You need to register your mobile number before using the service."
+- Fixer: press 55 "to let the operator know it's a genuine emergency and you'll be put through to police".
+
+**SPARC, "What to do if you are being stalked":**
+- "If you or a friend are seeking individual assistance, please reach out to your local service provider."
+- Fixer: "If you do not know how to reach your local service provider, or for additional assistance, you may wish to contact the following hotlines:"
+- Fixer: "Keep a record or log of each contact with the stalker." / "Save evidence when possible."
+
+**VictimConnect, home:**
+- "We can only talk, text, or chat with you if you are currently physically safe."
+- Fixer: "If you are in immediate danger, please call 911 for an immediate response."
+
+## Gate closures, lesson 08 (2026-09-25)
+
+Reviewer F's verbatim block from lesson 8's Stage 4 review (every line script-checked against the
+text Reviewer F fetched on 2026-09-25; 39 of 39 matched), then the fixer's own re-reads. The Stage 4
+notes in place at Part C §2.2 (limits), §2.4 (Indianapolis), §2.5 (Heckemann) and §2.6 (social and
+asocial) point here.
+
+**Richmond and colleagues 2012 (PMC3298202, read in full)**
+- [V] "knowledge about skills can be taught in a classroom or can be learned from a book, but skills come only with practice. De-escalation skills can be learned by role playing" (guideline "Staff Must Be Adequately Trained")
+- [V] "General principles of verbal de-escalation can be found in specific psychotherapies, linguistic science, law enforcement, martial arts, and the nursing profession."
+- [V] "If necessary, tell the patient that he may be arrested and prosecuted if he assaults anyone. This should be communicated in a matter-of-fact way and not as a threat." (Domain VIII; the "matter-of-fact" clause SOURCES records is the second sentence)
+- [V] "Violation of a limit must result in a consequence, which (1) is clearly related to the specific behavior; (2) is reasonable; and (3) is presented in a respectful manner."
+- [V] "This involves persistently repeating your message to the patient until it is heard." (under the heading "Repetition Is Essential to Successful De-escalation")
+- [V] "Be mindful that these choices must be realistic. Never deceive a patient by promising something that cannot be provided for him."
+- [V] "If the patient is agitated after 3 attempts to draw his blood, one might say, “Yes, she has stuck you 3 times. Do you mind if I try?”"
+- [V] "you don't have to agree that he is correct but you can agree with him in principle by saying, “I believe everyone should be treated respectfully.”"
+- [V] "If the patient is agitated because of the wait to see the doctor and states that anyone would be upset, an appropriate response would be, “There probably are other patients who would be upset also.”"
+
+**NICE NG10**
+- [V] 1.3.14 "Separate agitated service users from others (using quiet areas of the ward, bedrooms, comfort rooms, gardens or other available spaces) to aid de‑escalation, ensuring that staff do not become isolated."
+- [V] 1.3.15 "known 'flashpoint' situations (such as refusing a service user's request, asking them to stop doing something they wish to do or asking that they do something they don't wish to do)"
+
+**CrimeSolutions ICAT profile (read in full)**
+- [V] "taking a “tactical pause” (if safe and appropriate) to develop or refine a response strategy"
+- [V] "The nine Louisville Metro Police Department patrol divisions, including eight geography-based divisions and one mobile unit operating across the city of Louisville, were grouped into three strata"
+- [V] "Then, each stratum was randomly selected for the discrete time points to receive the ICAT training."
+- [V] "The training program was delivered during two consecutive 8-hour training days (Wednesday and Thursday)"
+
+**Engel and colleagues 2022 (Crossref abstract)**
+- [V] "These significant reductions were larger than any changes in LMPD arrest patterns during the same period."
+
+**Engel, McManus and Herold 2020 (Crossref abstract)**
+- [V] "provide some confidence that de‐escalation trainings lead to slight‐to‐moderate individual and organizational improvements"
+
+**IMPD ICAT report, 30 June 2025 (executive summary)**
+- [V] "The ICAT training was supplemented, however, with additional departmentwide emphasis on the use of de-escalation tactics and skills through other trainings, policies, and data collection." (layout text; the first seven words checked as a string, the rest read by eye across the column break)
+- [V] "This indicates that even a condensed version of ICAT training can produce meaningful results when supported by other training reinforcement strategies."
+- [V] "Officers Injured: The timing of the ICAT training is not associated with any statistically significant changes in the number of use of force incidents where any officer was injured, in both the 12-month or 18-month follow-up periods."
+- [V] "Subjects Injured: 25.2% initial reduction in the number of subjects injured (12-month follow-up), and a 21.8% reduction sustained over an 18-month period." (the last clause checked as a string)
+
+**Cochrane CD012034.pub2 (abstract and plain-language summary)**
+- [V] "The study did not measure any of our primary or secondary outcomes"
+- [V] "The reliability of evidence available in the one included trial is very low and did not address important questions such as injury. Therefore, we cannot say whether de‐escalation techniques are effective."
+
+**Heckemann and colleagues 2015 (PubMed abstract)**
+- [V] "All studies reported increased confidence, improved attitude, skills, and knowledge about risk factors post training."
+- [V] "Training does not reduce the incidence of aggressive acts."
+- [V] "Two had a weak, six a moderate, and one a strong study design."
+
+**Hallett and Dickens 2017 (PubMed abstract)**
+- [V] "Five theories of de-escalation were proposed; while each was adequate in some respects, all lacked empirical support."
+
+**MacYoung 2015 blog (read in full)**
+- [V] "What Richard said is: Do not command." (the sixth rule is credited to "Richard", Dimitri in the post)
+- [V] "So ordering is not an absolute."
+- [V] "Rory Miller came up with the social, asocial model of violence."
+- [V] "while the five rules will (most likely) prevent social violence, they won't stop asocial violence."
+- Not in the post: "status", "means to an end" (searched). SOURCES Part C §2.6's "status contests" is the researcher's gloss and should be marked as such.
+
+**HSE**
+- [V] "‘Any incident in which a person is abused, threatened or assaulted in circumstances relating to their work.’" is on https://www.hse.gov.uk/violence/employer/index.htm, not on the /violence/ hub.
+- OSHA's topic page (https://www.osha.gov/workplace-violence) does not mention de-escalation (searched).
+
+**Helplines and others, re-read unchanged**
+- [V] Victim Support "Call our Supportline free on 08 08 16 89 111 , 24/7"; Victim Support Scotland "Call our free support helpline from 8am – 8pm Mon-Fri, and 10am – 4pm Sat-Sun"; Victim Support NI "Opening hours: Monday – Friday from 9am-5pm" (Belfast Hub 02890 243133, Foyle Hub 02871 370086); VictimConnect "We can only talk, text, or chat with you if you are currently physically safe."; OVC "If at any time you feel that you are in immediate danger, we strongly urge you to call your local police department’s emergency number (911)."; Suzy Lamplugh "Be aware of aggressive behaviour from others, and remove yourself from aggressive situations."
+
+**Fixer's re-reads (2026-09-25, from the same fetched copies)**
+- CrimeSolutions ICAT profile: [V] "An Effective rating implies that implementing the program is likely to result in the intended outcome(s)."
+- IMPD report: [V] "Due to resource constraints, the IMPD implemented a condensed 8-hour version of ICAT without scenario-based practice." (layout text, read across the line breaks)
+- Richmond 2012, Domain VIII: [V] "Tell the patient that injury to him or others is unacceptable."
