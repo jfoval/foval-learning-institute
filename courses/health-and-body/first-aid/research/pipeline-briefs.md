@@ -104,6 +104,22 @@ you did instead).
   the same posture when each describes half of it; a predict block asking what the sentence above
   it said; pipeline talk in learner prose; a rehearsal exercise without a stop-if-it-hurts line;
   a description of a public page as "lagging" more than once.
+- Measured patterns from lessons 6 to 9's reviews (2026-09-25), each found in two or more:
+  **normal breathing is quiet and regular, never slow, snoring or gasping** (lesson 7's draft had it
+  backwards, from the outline's own example); a person who stops responding goes straight to the
+  call and CPR with no fresh breathing check (lesson 8); a guideline sentence applied outside the
+  people it is written for (the AHA's "leave as found" is for a responsive person); a COR/LOE grade
+  attached to an ungraded supporting-text sentence; "every body says" when one does; a mechanism
+  called absent when a cited source gives one; a training condition or rule credited to the wrong
+  body, or denied when the body has one (lesson 9: RCUK does say "only use equipment ... you have
+  been trained to use"); cross-references claiming what an earlier lesson does not say; quiz items
+  that replay the body's own cases (five of six, three lessons running); **primary text paraphrased
+  that SOURCES does not record**, so each drafter lists it with URLs and each fixer appends a dated
+  "Gate closures, lesson NN" section to SOURCES. Places already used, not to reuse: Portland,
+  Seattle, Denver, Fresno, Boise, Tulsa, Spokane, Albany, Kansas City, Boston, Tucson, Omaha,
+  Swansea, Leeds, Bristol, Cardiff, Glasgow, Hull, Aberdeen, Dundee, Ipswich, Belfast, Swindon,
+  Bath, Cambridge, Derby, Exeter. Only about 19 quiz key sequences remain that match no earlier
+  lesson in more than two positions: choose by script.
 
 ---
 
