@@ -212,6 +212,13 @@ instead).
   reading; no claims about call logs or history beyond what the services themselves say. Put
   non-breaking spaces inside every spaced phone number so it doesn't break across lines on a phone.
 
+- **From lesson 8's review (2026-09-25):** any scenario that shows someone talking, resisting or
+  complying must first make leaving impossible or costly (a child in a car seat, a cornered shop
+  counter), or it contradicts the course's own order of options. Project BETA's limits may name a
+  consequence, said calmly as information, not as a threat. "Do not command" means ordering someone
+  about as if beneath you, not every imperative. OSHA's topic page never mentions de-escalation:
+  never write "every official body" recommends it.
+
 ## Stage 4 review brief: Personal Safety (Tier B, split, two reviewers)
 
 Repo: `/Users/johnfoval/Desktop/Foval Learning Institute`. Course:
