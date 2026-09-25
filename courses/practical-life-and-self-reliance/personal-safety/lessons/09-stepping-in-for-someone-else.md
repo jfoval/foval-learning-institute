@@ -421,7 +421,7 @@ abstract does not say what happened to the people who helped, and this course wi
 **The cashier may have been told what to do.** In the US, the Occupational Safety and Health
 Administration's [recommendations for late-night retail](https://www.osha.gov/sites/default/files/publications/osha3153.pdf)
 say staff training should include "guidance to limit workers from intervening in workplace
-altercations", and list, among the topics it may include, "Specific instructions on how to respond
+altercations whenever possible", and list, among the topics it may include, "Specific instructions on how to respond
 to a robbery such as turning over money or valuables without resistance".[13] Those are
 recommendations to employers, from 2009, written for staff, not customers. This course reads them as
 a reason for a customer to stay out of the way too: if Joel's plan is to hand the money over and let
@@ -429,8 +429,9 @@ the man go, a customer who steps in cuts across that plan and puts themselves in
 built to end quickly. Sensible, untested, in this course's labels.
 
 **What the man wants is property.** Lesson 10, "What fear does to you, and the robbery decision",
-takes up the case of a weapon shown and property demanded, where all three official sources this
-course read agree on handing it over. London's Metropolitan Police put it plainly in its own
+takes up the case of a weapon shown and property demanded, where the three official sources this
+course read, London's Metropolitan Police, the Washington, DC police and the OSHA guidance above, all
+point towards handing it over. London's Metropolitan Police put it plainly in its own
 [advice on street robbery](https://web.archive.org/web/20250812180728/https://www.met.police.uk/cp/crime-prevention/personal-safety-how-to-stay-safe/mugging-street-robbery/):
 "Property can be replaced, you can't."[14] Here the property is not even Theo's.
 

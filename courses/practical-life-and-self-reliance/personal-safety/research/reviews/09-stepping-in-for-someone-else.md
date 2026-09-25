@@ -180,3 +180,52 @@ Albany (New York); Toronto and Kentucky as study settings.
 **Status after review:** needs second pass (a light one: the new call-side paragraph and the
 official-pages qualifier, the rewritten bus switch paragraph, quiz 6, and the opening's line for the
 reader hurt stepping in).
+
+## 2026-09-25 — Lesson 09 — Stage 4 second pass, one reviewer (facts and safety)
+
+**Reviewer F2**, fresh context, under Reviewer F of `research/pipeline-briefs.md`, scoped to the fix
+pass (commit 3288f1d): the case-for-calling paragraph and the official-pages qualifier, the bus
+switch paragraph, quiz 6 and the whole quiz, the opening's lines, Right To Be's quotations, the
+freeze wording, and every first-pass finding claimed fixed.
+
+**Checked and holding.** Neutrality: each position recognisable to its own side (Right To Be's
+reasons in its words plus a one-line reading; the calling side's three reasons plus the official
+pages, each side carrying one scope caveat of equal weight); the positions section's last word is
+the neutral "What does not depend on the argument", and quiz 5 and the misconceptions say the
+course takes neither side. Bus paragraph: trigger (hits, grabs, threatens) is immediate danger,
+the 999 line string-matches GOV.UK's page, and the silent-call advice is labelled sensible,
+untested, with no speaker next to him. Quiz: keys 2,0,1,3,0,2; option lengths 86-91, 93-95, 84-86,
+84-88, 85-89, 88-94, no key the longest; each explanation read against its key; every stem is
+forward ("which fits", "which plan fits"), none asks what a victim or bystander should have done;
+quiz 6 is a new case (platform, wheelchair) and its explanation carries Document's safety half.
+Opening read as the bystander who froze and as the one hurt stepping in: both are named, and
+neither is graded. Freeze line at the queue checkpoint says "automatic, not chosen", which lesson
+10 supports (its lines 182, 194, 535). Right To Be: the live page returns a 5.7 KB bot page today;
+all 30 quotations string-matched against capture 20260827212950 and the drafter's copy. GOV.UK,
+911.gov, OVC, the Met and OSHA 3153 quotations re-matched against the fetched primaries. First-pass
+fixes F2, F5, F6, F7, F10 to F12, F14 to F18, P3, P7, P9 to P11, P16 and P18 each confirmed in the
+text (U+00A0 inside the four spaced numbers).
+
+**Findings**
+- S1 [minor] Line 432: "all three official sources this course read agree on handing it over"
+  named two (the Met, OSHA) and left the reader to guess the third. Fixed: "the three official
+  sources this course read, London's Metropolitan Police, the Washington, DC police and the OSHA
+  guidance above, all point towards handing it over" ("point towards", since OSHA lists it as a
+  training topic, not an instruction).
+- S2 [minor] Line 423: OSHA's "guidance to limit workers from intervening in workplace
+  altercations" quoted without "whenever possible", its own qualifier (defect 19). Fixed by
+  restoring "whenever possible" (in the gate closure's [V] text).
+- S3 [minor, records] "a nine-month study of it" (line 305) is on the press release (capture
+  20251205135030: "A nine-month study conducted by Germain Impact Solutions") but not recorded in
+  SOURCES. The lesson is right; SOURCES' gate closure for the press release should add the phrase.
+  Not edited (outside this pass's files).
+- S4 [minor, lesson 10] Lesson 10 line 301 says OSHA 3153 "tells employers to train staff to hand
+  over money without resistance", which the lesson 9 gate closure's correction to §2.3 forbids
+  ("its recommendations list it as a training topic"). For lesson 10's fixer.
+- S5 [minor, optional, not changed] Line 452, "She stayed out of a robbery she could not have
+  stopped", is the course's own assertion; kind, and harmless to a reader who froze, so left.
+
+**Measures.** `npm run validate` exit 0, no line naming this file; `npm run quotes personal-safety`
+193 quotations, 0 not found; `npm run minutes` 90 measured, `minutes: 90` unchanged.
+
+**Status after review:** clean
