@@ -84,7 +84,8 @@ quiz:
       session's history, cookies and form data on that device, and called it the right tool when
       the worry is someone later reading a shared machine's history. The Hotline's warning is wider:
       internet use can be monitored and is impossible to erase completely, and if you're worried
-      about monitoring, it says to call. Saying there's nothing he could ever find goes past what
+      about monitoring, it says to call; on this lesson's reading, from a phone he can't get at.
+      Saying there's nothing he could ever find goes past what
       the window does, because monitoring isn't the same as history left behind. The Hotline does
       suggest clearing history regularly, but it also says use can't be erased completely, so
       deleting history doesn't make her safe either. And the warning is about internet use on any
@@ -102,7 +103,7 @@ quiz:
     explain: >-
       Campbell's team compared women killed by partners, described by people who knew them, with
       abused women who weren't killed and who answered for themselves. That measures an
-      association, and the paper names its reliance on proxies as its most important limitation;
+      association, and the paper names its reliance on proxies as perhaps its most important limitation;
       it gives no reason why separation goes with danger, and this course supplies none. It didn't
       follow women over time. Proxies are a limitation, not a reason to dismiss every finding. And
       the separation finding points towards higher odds of being killed, not lower, especially
@@ -148,7 +149,7 @@ The US National Domestic Violence Hotline puts this warning at the top of its pa
 
 **Northern Ireland:** the Domestic and Sexual Abuse Helpline, 0808 802 1414, 24/7, for anyone 18 or over.[10] This course could not find a stalking line for Northern Ireland. If the person stalking you is a partner or ex-partner, the DSA Helpline is for you. Whoever it is, Victim Support NI offers free support, whether or not a crime has been reported, through its Belfast hub on 02890 243133 and its Foyle hub on 02871 370086, weekdays 9am to 5pm.[11] And in danger, 999.
 
-**Men, anywhere in the UK:** the Men's Advice Line, run by Respect, 0808 8010327, Monday to Friday 10am to 5pm, free from landlines and mobiles in the UK.[12] Outside those hours, in England and Wales, Victim Support's Supportline, 08 08 16 89 111, is free and 24/7 for anyone affected by crime, whether or not you've reported it.[16]
+**Men, anywhere in the UK:** the Men's Advice Line, run by Respect, 0808 8010327, Monday to Friday 10am to 5pm, free from landlines and mobiles in the UK.[12] Outside those hours, in England and Wales, Victim Support's Supportline, 08 08 16 89 111, is free and 24/7 for anyone affected by crime, whether or not you've reported it.[16] In Wales, Scotland and Northern Ireland, the 24-hour lines above take calls from men as well as women.[7][8][10]
 
 **The US:** the National Domestic Violence Hotline, 1.800.799.SAFE (7233), or text START to 88788, or live chat on its site; advocates answer by phone and chat 24/7. The site also offers an automated chat called Ruth; to reach a person, call, text or use live chat.[1] For young people, the National Teen Dating Abuse Helpline, 866.331.9474; for deaf and hard-of-hearing callers, the Deaf Hotline by video phone, 855.812.1001; for Native Americans and Alaska Natives, StrongHearts, 844.762.8483.[1] For stalking, VictimConnect, 855-484-2846, by call or text, 24/7; it can talk with you only if you are physically safe right now, and if you are not, call 911.[13]
 
@@ -312,10 +313,10 @@ your home or workplace unannounced or uninvited", "Using social media or technol
 activities" and "Waiting around at places you spend time."[22]
 
 SPARC notes on its [page on stalking behaviours](https://www.stalkingawareness.org/stalking-behaviors/)
-that "most stalkers engage in multiple tactics to scare their victims", and that "Stalkers' behaviors
-can escalate from more indirect ways of making contact (like phone calls or texts) to more direct
-contact (like delivering gifts or showing up where you are)."[26] Its page for victims suggests
-keeping a record of each contact and saving messages and posts as evidence.[26] That is practitioner
+that "most stalkers engage in multiple tactics to scare their victims", and its page for victims
+that "Stalkers' behaviors can escalate from more indirect ways of making contact (like phone calls or
+texts) to more direct contact (like delivering gifts or showing up where you are)."[26] The same
+page suggests keeping a record of each contact and saving messages and posts as evidence.[26] That is practitioner
 opinion. And the warning at the top applies to it: if someone checks your phone or your things, a
 record kept there could be found.
 
@@ -347,7 +348,8 @@ history, cookies or form data on that device, and it reaches nothing beyond the 
 called it the right tool for one worry, someone later reading the history on a shared machine. When
 the person who might look is the person frightening you, the Hotline's warning is wider: internet
 use can be monitored and cannot be erased completely. If you're worried your internet use is being
-monitored, the Hotline's advice is to call it instead.[1] Refuge's helpline site suggests leaving
+monitored, the Hotline's advice is to call it instead; on this course's reading, from a phone the
+person can't get at.[1] Refuge's helpline site suggests leaving
 and coming back on a safe device if you think someone might be monitoring yours.[4] The Men's Advice
 Line says calls to it do not appear on itemised bills.[12] That is a statement about the bill; it says
 nothing about what a phone itself shows.
@@ -756,7 +758,7 @@ the Core, is where relationships themselves are taught.
 13. VictimConnect Resource Center, [victimconnect.org](https://victimconnect.org/). **Read: in full, re-read 25 September 2026.** <!-- SOURCES Part D 8.3; lesson 07 gate closures -->
 14. National Domestic Violence Hotline, ["Safety Planning Around Guns and Firearms"](https://www.thehotline.org/resources/safety-planning-around-guns-and-firearms/). **Read: in full, re-read 25 September 2026.** Cited only for the lines named in this lesson. <!-- SOURCES Part B B26, B28; lesson 07 gate closures -->
 15. Refuge, ["What is domestic abuse?"](https://refuge.org.uk/what-is-domestic-abuse/). **Read: in full, re-read 25 September 2026.** <!-- SOURCES Gate closures G27 -->
-16. Victim Support, [Get help](https://www.victimsupport.org.uk/help-and-support/get-help/). **Read: in full, re-read 25 September 2026.** Covers England and Wales. <!-- SOURCES Part D 8.3, Gate closures G6; lesson 07 gate closures -->
+16. Victim Support, [Get help](https://www.victimsupport.org.uk/help-and-support/get-help/) and [About us](https://www.victimsupport.org.uk/about-us/). **Read: in full, re-read 25 September 2026.** Covers England and Wales; the point that you needn't have reported the crime is from About us. <!-- SOURCES Part D 8.3, Gate closures G6; lesson 07 gate closures -->
 17. Victim Support Scotland, [victimsupport.scot](https://victimsupport.scot/). **Read: in full, re-read 25 September 2026.** <!-- SOURCES Gate closures G6; lesson 07 gate closures -->
 18. Rape Crisis England & Wales, [24/7 Support Line](https://rapecrisis.org.uk/get-help/want-to-talk/). **Read: in full, re-read 25 September 2026.** <!-- SOURCES Gate closures G6; lesson 07 gate closures -->
 19. Rape Crisis Scotland, [helpline](https://www.rapecrisisscotland.org.uk/help-helpline/). **Read: in full, re-read 25 September 2026.** <!-- SOURCES Gate closures G6; lesson 07 gate closures -->

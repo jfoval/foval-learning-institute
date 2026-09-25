@@ -218,3 +218,64 @@ smaller than a nation.
 **Status after review:** needs second pass (the rebuilt Campbell section and "just leave" reasons,
 the new ONS paragraphs, the watched-phone wording at the box, Kerry, Maribel and the sister, the new
 quiz 3 and 4, and the contraction restoration, read by fresh eyes).
+
+## 2026-09-25 — Lesson 07 — Stage 4 second pass, one reviewer (facts and safety)
+
+**Reviewer F2**, fresh context, under the Reviewer F part of `research/pipeline-briefs.md`. Every
+page the lesson cites re-fetched today with curl (browser User-Agent); RAINN and 911.gov read in a
+browser; Campbell's full text (PMC1447915) read at Results, Table 3, Discussion and limitations; ONS's
+November 2025 overview and YE March 2026 bulletin re-read. Every helpline number, hour, text line and
+coverage statement in the box, the content note, "The right line", "If you can't speak" and the
+exercise answers checked on its live page: **all correct today** (23 numbers). Every quotation
+string-matched against the live pages. Draft built in an isolated copy and measured at 375 px.
+
+**Checked and sound.** Both criticals are fixed: the 8.98 is given as the model where it first
+appeared, with the fall to 4.07 (1.33 to 12.4), "although substantially reduced, remained strong",
+the inflation caveat, ages 18 to 50, prior abuse by the killer, the Wichita and telephone
+exclusions; forced sex 1.87, stalking's drop and the authors' reason, threats to kill 2.60; leaving
+3.19 (model 3) and 4.04 (model 7, "other reasons"); no timing claim; "highest risk" nowhere. Each
+alone 2.90 and 3.10 correct. ONS: 7.8%, 9.1% and 6.5%, 2.2 and 1.5 million, 6.1% against 2.7%, the
+"underestimates" sentence now carries its face-to-face subject, and the not-comparable statement is
+ONS's own. Sums redone by hand: one in eleven (9.09%) and one in fifteen (6.67%); 220 cases and 343
+controls. Quiz keys 3,2,3,1,0,1; each explanation read against its key; no item asks what a victim
+should have done. Cross-references to lessons 1, 2, 3, 6, Digital Literacy 8, First Aid 4 and Logic
+and Argument 9 found at the cited passages. Read as a survivor (nothing directs, blames or grades a
+choice; de-escalation paragraph now explicitly no comment on getting through the day), as a man
+(figures, Rhys, the Men line), and as a friend (Refuge, the Men's Advice Line and the Hotline
+reported faithfully; the sister's model offers the number only in a safe way). Every first-pass
+finding claimed fixed is fixed.
+
+**Findings**
+- S1 [minor] "SPARC notes on its page on stalking behaviours ... that 'Stalkers' behaviors can
+  escalate ...'": that sentence is on the victims page, not the behaviours page. Fixed.
+- S2 [major, safety: a man at risk] The box's "Men, anywhere in the UK" line gave a 24/7 route
+  outside the Men's Advice Line's hours only for England and Wales; a man in Scotland or Northern
+  Ireland was not told that the 24-hour lines listed under his nation take men (Live Fear Free
+  "anyone", Scotland's "anyone", DSA "anyone aged 18+"). Fixed with one sentence citing [7][8][10].
+- S3 [minor, safety] "Technology used to track and control": "the Hotline's advice is to call it
+  instead" was not tied to a device the abuser can't reach (convention from lesson 7's review).
+  Fixed ("on this course's reading, from a phone the person can't get at").
+- S4 [minor, safety] Quiz 4's explanation said the Hotline "says to call" with no device; same fix.
+- S5 [minor] Quiz 5's explanation dropped Campbell's "Perhaps" from "the most important
+  limitation". Fixed.
+- S6 [minor] Source [16] listed only "Get help", but "whether or not you've reported it" comes from
+  Victim Support's About us page (SOURCES "Gate closures, lesson 07" and G6 record it). About us
+  added to the entry.
+- S7 [minor, platform] At 375 px, VictimConnect's 855-484-2846 in the box breaks at a hyphen (every
+  other number, 22 of them in 31 places, stays on one line). Not fixed: a non-breaking hyphen can
+  break copy-and-dial. Belongs with the `tel:` link note already in QUEUE.
+- S8 [minor, platform, no fix] At 375 px the "Help first" box starts at 1,551 px (bottom of the
+  second screen) and its first number at 2,092 px, below the 570 px objectives box and the decision
+  4 callout. Nothing in the lesson can raise it further without moving it above the safety
+  callout, which decision 4 forbids; the objectives-above-callouts question is already platform work.
+- S9 [minor, not fixed] Quiz 5's key, "half of it from proxies", is loose (220 of 563 women were
+  described by proxies; "half" reads as one side of the comparison). Defensible; a later pass may
+  prefer "the killed women described by proxies".
+- S10 [minor, not fixed] The Men's Advice Line also has a webchat (Mon to Fri 9am to 10am, on its
+  home and contact pages today), a speech-free route for men that "If you can't speak" doesn't list.
+  Not recorded in SOURCES, so not added here; a fixer can record it in a gate closure and add it.
+
+**Measures after fixes.** `npm run minutes` 110 (unchanged). `npm run validate` exit 0, no line
+naming this file. `npm run quotes personal-safety`: 177 quotations, 0 not found.
+
+**Status after review:** clean
