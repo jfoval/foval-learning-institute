@@ -514,7 +514,7 @@ Attempted or successful, a con is worth reporting. In the UK, Take Five advises 
 at once if you think you've been scammed, which is practitioner opinion, in this course's labels.[14]
 
 - **In England, Wales and Northern Ireland,** the police's reporting service is
-  [Report Fraud](https://www.reportfraud.police.uk/), online or on 0300 123 2040.[15]
+  [Report Fraud](https://www.reportfraud.police.uk/), online or on 0300 123 2040.[15]
 - **In Scotland,** Report Fraud's own site says to report via 101.[15]
 - **In the US,** the FTC takes reports at [ReportFraud.ftc.gov](https://reportfraud.ftc.gov/), and
   says it can't resolve individual reports but shares them with law enforcement.[15]
