@@ -281,13 +281,50 @@ quiz:
       naloxone something that "may be reasonable" if it doesn't interfere with CPR (COR 2b), and
       nothing read here says a dose restarts a heart. The side position is for someone breathing
       normally, and CPR can't be given on the side (AHA 2025).
+  # --- Choking (L8) ---
+  - q: >-
+      At a pub quiz in Cambridge a man chokes on a chip. At first he coughed loudly, but now his
+      coughs are weak and almost silent, he can't answer when you ask if he's choking, and his lips
+      are turning bluish. Under RCUK's 2025 guidelines, what do you do?
+    options:
+      - Keep telling him to cough, since any cough at all means the blockage is still mild
+      - Wait until he stops coughing completely, since back blows only start after that
+      - Get 999 called and give up to five back blows, since his cough has stopped working
+      - Give abdominal thrusts at once, since a weak cough means back blows won't be enough
+    answer: 2
+    explain: >-
+      RCUK's first aid guideline starts back blows "If the person is unable to cough or the cough
+      becomes ineffective", and a cough that has gone weak and nearly silent, with no words and a
+      colour change, is the severe obstruction the AHA describes as "weak or absent coughing,
+      inability to speak, changes in color (cyanosis)". Watching a mild cough was for exactly this
+      moment, so a cough of some kind no longer means mild, and waiting for it to stop altogether
+      loses time. Abdominal thrusts come after the back blows, not instead of them (RCUK 2025).
+      RCUK's key points say to call for help early, on speaker if you're alone.
+  - q: >-
+      A man who lives alone in Omaha chokes on a piece of steak at his kitchen table. He can't
+      speak or cough, and his mobile phone is beside his plate. Under the American Red Cross's
+      advice, what should he do?
+    options:
+      - Lie down on the floor and wait, since without a second person nothing can clear it
+      - Call 911 even though he can't speak, then give himself thrusts or use a chair back
+      - Drink water in big gulps to push the food down, since thrusts need a second person
+      - Throw his back against a door frame, and call 911 only once the food has come out
+    answer: 1
+    explain: >-
+      The American Red Cross says someone choking alone should call 911 from a landline or a
+      GPS-enabled mobile, because even if they can't speak "the open line will cause the
+      dispatcher to send help". Then they can give themselves abdominal thrusts with their own
+      fist, or press the abdomen against "the back of a chair or a railing", avoiding sharp edges.
+      Neither the AHA's 2025 guideline nor RCUK's makes a recommendation on choking alone, so this
+      is the Red Cross's expert advice. No source read suggests water, putting off the call wastes
+      the minutes help needs to arrive, and lying down alone leaves nobody to act.
 
-  # Items for lessons 8 to 15 go here as those lessons are written (OUTLINE "Assessments").
+  # Items for lessons 9 to 15 go here as those lessons are written (OUTLINE "Assessments").
 ---
 
-<!-- Items for lessons 8 to 15 are still to be added: this file covers lessons 1 to 7 only for now. The blueprint is in research/OUTLINE.md, "Assessments". Update the counts in the paragraph below when they go in. -->
+<!-- Items for lessons 9 to 15 are still to be added: this file covers lessons 1 to 8 only for now. The blueprint is in research/OUTLINE.md, "Assessments". Update the counts in the paragraph below when they go in. -->
 
-This test covers lessons 1 to 7. **Thirteen questions, and 70 per cent to pass**, which is ten.
+This test covers lessons 1 to 8. **Fifteen questions, and 70 per cent to pass**, which is eleven.
 Questions on the later lessons will be added as those lessons are written.
 
 :::callout Before you need this

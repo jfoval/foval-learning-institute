@@ -63,3 +63,17 @@ the same time, recreated the file over them. The fix brief now says to append, n
   any of them. Later fixers should search by script rather than by eye.
 - **G16 was not worked for lesson 7** (Commons recovery-position images); the lesson describes the
   position in words and a table.
+
+## 2026-09-25 — from lesson 8's Stage 4
+
+- **A choking person who stops responding gets CPR with no breathing check.** Both guidelines go
+  straight from "unresponsive" to CPR (the AHA: "regardless of whether or not the patient has a
+  pulse"). Lesson 8's draft routed them through lesson 2's two-part test. Podcast scripts and the
+  final test should never put a breathing check between the collapse and CPR in a choking case.
+- **Quiz keys: 19 sequences left.** Against lessons 1 to 8, count by script before choosing
+  (at most two positional matches, none consecutive, no constant-offset rotation); lesson 8 took
+  3,1,2,0,2,3.
+- **`npm run quotes` passes a whole-sentence quotation when SOURCES holds a fragment of it** (lesson
+  8 P2: two full AHA recommendations passed on fragments). Worth a QUEUE note for the tool.
+- **G16 was not worked for lesson 8** (three adult choking images named in OUTLINE); no UK source
+  on self-rescue or a silent 999 call was found, a research gap for a later pass.

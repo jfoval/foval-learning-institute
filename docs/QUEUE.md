@@ -24,9 +24,9 @@ Rewrite these five lines each session. Nothing else goes in this block.
 - **Terms 1 and 2 are FINISHED. Term 3's first three courses are published and written**
   (2026-09-24): Nutrition, Strength and Fitness, and Cooking Fundamentals, with every lesson
   scripted and fact-checked. **First Aid and CPR is drafting** (16 lessons, `research/OUTLINE.md`): lessons 1 to 6 are
-  through Stage 4; **lesson 7 is in its fix pass, lesson 8 is under review, lesson 9 is being drafted**, then 10 to 16.
+  through Stage 4; lesson 7 is through Stage 4; **lesson 8 is in its second pass, lesson 9 is under review, lesson 10 is being drafted**, then 11 to 16.
   The course's own briefs are in `research/pipeline-briefs.md`. `assessments/final-test.md` has items for
-  lessons 1 to 7 (13 of 24); **add each later lesson's items as it passes Stage 4**, and re-check the
+  lessons 1 to 8 (15 of 24); **add each later lesson's items as it passes Stage 4**, and re-check the
   two lesson 7 items against lesson 7 once its fix pass lands.
   The review briefs (Reviewer F, Reviewer P, fix pass) are the same shape as
   `strength-and-fitness/research/pipeline-briefs.md`. Ten gates were closed in a real browser on
@@ -94,6 +94,11 @@ Rewrite these five lines each session. Nothing else goes in this block.
   Anthropic's guidance in lesson 4 and not to its own authorship. This changes what the institute
   claims about itself, so under root rule 8 it is John's decision and not a drafter's. Nothing is
   blocked: the course is live without it.
+
+- **`npm run quotes` passes a full-sentence quotation when SOURCES.md holds only a fragment of it.**
+  Found 2026-09-25 by First Aid lesson 8's Stage 4 (Reviewer P2): two whole-sentence quotations
+  passed the matcher although SOURCES carried only part of each. The fixer recorded the full text,
+  so nothing live is wrong; the gap is in the checker. Worth a session when one is free.
 
 - **Nine quoted passages in two published courses are not in their own research files.** Found on
   2026-09-19 by the widened `npm run quotes`, and written up here rather than fixed, under root
