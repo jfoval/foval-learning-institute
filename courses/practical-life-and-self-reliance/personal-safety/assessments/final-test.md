@@ -1,7 +1,7 @@
 ---
 title: Final test
 pass_mark: 0.7
-minutes: 10
+minutes: 20
 quiz:
   # --- Fear, and setting it beside an ordinary risk (L1) ---
   - q: >-
@@ -160,16 +160,174 @@ quiz:
       "the characteristics of offenders" to "the circumstances", and on the point that a feeling
       set off by how someone looks can carry prejudice as easily as pattern. In the course's
       labels it is sensible, untested.
+
+  # --- Home, the door and the doorstep (L5) ---
+  - q: >-
+      A home-security firm posts a leaflet to every house on a new housing development in Derby,
+      where nearly all the homes were built with window locks and door deadlocks. It says, "WIDE
+      homes had an SPF of 49, so adding our two lights will make your home 49 times safer." On
+      lesson 5's account, what's wrong with that promise?
+    options:
+      - Nothing, since an SPF of 49 is the drop any home gets once it has all four of the devices
+      - The 49 is against homes with none of the devices; homes with both locks are the SPF 13 group
+      - The 49 is for homes that had a burglar alarm as well, and the leaflet says nothing of alarms
+      - The 49 came from asking burglars in prison, not from counting which homes were burgled
+    answer: 1
+    explain: >-
+      Tseloni and colleagues' SPF compares households that have a set of devices with households
+      that have "no security", none of the devices the survey asked about. In the England and Wales
+      survey years 2008/09 to 2011/12 that was under one household in twenty (4.9%), and those
+      households were nearly eight times as likely as the average to be burgled. Homes with window
+      locks and door double or deadlocks already sit in the SPF 13 group, so 49 is the wrong
+      comparison for them; and even against that group the figures compare different households and
+      count devices present, not a before and after for one house, so no "times safer" follows.
+      Reading 49 as what any home gets once it has all four is the misreading lesson 5 names. There
+      is no alarm in WIDE: in the same data alarms were not identified as contributing. And asking
+      burglars in prison was a US study of alarms; the SPF comes from the Crime Survey for England
+      and Wales.
+  - q: >-
+      Two women knock at a bungalow in Llandudno, in Wales. They say they're from the electricity
+      supplier and must check the meter today or the bill will go up. When the man who lives there
+      hesitates, one holds out her own phone and says, "Our supervisor's on the line, she'll confirm
+      who we are." Which next step fits the call-back advice lesson 5 read?
+    options:
+      - Speak to the supervisor on her phone, since a real firm would put someone senior on to help
+      - Let one of them in to check the meter while the other waits outside where he can see her
+      - Check both ID cards and ring the number printed on the back of one of them to confirm it
+      - Close the door and ring his supplier on the number from his own bill or a letter he has
+    answer: 3
+    explain: >-
+      The Suzy Lamplugh Trust's advice is to use "the telephone number given in the phone book or on
+      your utility bill, rather than the one on the identity card", and the FTC says the same for
+      messages: look the number up yourself. A supervisor on the caller's own phone is whoever the
+      callers chose, so speaking to her checks nothing, and a number on their card has the same
+      flaw. Letting one in removes the point of checking, and two callers at once is the pattern the
+      Trust warns about, one keeping you at the front while the other gets in, which is why any
+      other door gets locked first. "Today or the bill goes up" is pressure, the FTC's third sign.
+      In this course's labels the call-back rule is sensible, untested. If either tries to get in,
+      that's a crime in progress and a 999 call, and if a con ever works, the person who ran it is
+      responsible.
+
+  # --- Out and away (L6) ---
+  - q: >-
+      An ice rink's guide for staff who finish at midnight in Crewe says, "Walk home on lit streets:
+      a major review proved street lighting cuts crime by 21%, so you'll be a fifth less likely to
+      be attacked." Using the course's four labels, how should the advice to walk on lit streets be
+      labelled, and why?
+    options:
+      - Sensible, untested, since the review measured crime across areas, not one walker's risk
+      - Tested, since the review pooled 13 studies, which makes it a strong comparison of harm
+      - Contested, since the UK studies found a 38% fall and the US studies only found a 7% fall
+      - Practitioner opinion, since no study of street lighting and crime has been done at all
+    answer: 0
+    explain: >-
+      Welsh and Farrington's Campbell review, which this course read as its plain-language summary,
+      found crime fell 21% in areas with improved lighting compared with similar areas without. That
+      measured crime across an area, before and after, not the risk to one person walking one
+      street, so "a fifth less likely to be attacked" turns an area figure into a personal one.
+      Lesson 6's table labels the advice sensible, untested. Pooling 13 studies doesn't make it
+      tested, because the outcome that matters, whether a walker on the lit road is harmed less,
+      wasn't measured. A smaller fall in the US studies than in the UK ones isn't evidence pointing
+      both ways: both were falls, and the summary adds that the US studies were older and several
+      counted only night-time crime. And there is a review, so practitioner opinion undersells it.
+
+  # --- Domestic abuse and stalking (L7) ---
+  - q: >-
+      A man in Bedford, in England, has decided he wants to talk to someone about his wife, who
+      controls his money and has threatened him. It's nine on a Friday evening. Of the lines lesson
+      7 gives, which is open to him then and says it takes calls from someone in his position?
+    options:
+      - The Men's Advice Line, since its phone line stays open until 10pm every weekday evening
+      - Victim Support's Supportline, which is free and open 24/7 for anyone affected by crime
+      - The National Stalking Helpline, since its Friday line stays open until 8pm or later
+      - Refuge's National Domestic Abuse Helpline, since its page says it's for men as well
+    answer: 1
+    explain: >-
+      Victim Support's Supportline, 08 08 16 89 111, is free and 24/7 in England and Wales for
+      anyone affected by crime, whether or not it has been reported, which is why lesson 7 gives it
+      to men for the hours the Men's Advice Line is closed. The Men's Advice Line is the line made
+      for him, but it runs Monday to Friday, 10am to 5pm, so it is closed then and open on a weekday
+      afternoon. The National Stalking Helpline is for stalking, closes at 4pm on Fridays, and stays
+      open to 8pm only on Mondays and Wednesdays. Refuge's helpline is for women and for people
+      supporting someone; it says it recognises that men experience abuse too and that there are
+      specialist services for them. If he is in danger, 999. If his wife ever checks his phone, this
+      course's reading of the services' warnings is to use one she can't get at. What he does next,
+      including nothing for now, is his decision.
+  - q: >-
+      A weekly paper in Chelmsford prints a letter from a woman whose husband controls her money,
+      reads her messages and has threatened her. The advice columnist replies, "It's simple. Pack a
+      bag and go tonight." A reader writes in to explain, from lesson 7, why that isn't advice.
+      Which explanation fits the lesson?
+    options:
+      - Campbell proved that leaving causes killings, so the safe advice is for her to stay put
+      - It's sound advice, since Campbell found women who had separated were at lower risk overall
+      - Leaving went with higher risk in Campbell's study; services plan it with her, at her pace
+      - It's only the timing; Campbell's study showed the danger passes after a month or so away
+    answer: 2
+    explain: >-
+      Among the abused women in Campbell's study, separation after living together went with higher
+      odds of being killed, most of all with a highly controlling abuser, and having ever left or
+      asked him to leave went with odds about three times higher (3.19) in one of its models. Refuge
+      calls leaving an abusive partner a process, tells friends not to tell a woman to leave, and
+      says "We will never tell you what to do"; the Hotline says "you are the expert in your
+      situation", and both will make a safety plan with her if she wants one. The study measured an
+      association, not a cause, and lesson 7 says plainly that none of this is an argument for
+      staying either. Its separation finding points to higher odds, not lower. And because it
+      compared cases after the event, it can't say when in a separation the danger is greatest, so
+      no waiting period follows from it. Responsibility for the abuse lies with the husband,
+      whatever she decides.
+
+  # --- Talking it down (L8) ---
+  - q: >-
+      A man arrives late at a dental practice in Carlisle and is told he'll have to rebook. He says
+      he has lost an afternoon's pay to be there and starts raising his voice. The receptionist's
+      first reply was, "Well, you should have left home earlier." Which rewrite uses Project BETA's
+      forms?
+    options:
+      - "Losing an afternoon's pay would annoy anyone. I can't fit you in today; I can book you now."
+      - "I'm so sorry, that's our fault. I'll get the dentist to see you now, however long it takes."
+      - "Please calm down and take a seat quietly, or I'll have to ask you to leave the practice."
+      - "You're not the only patient here today, and shouting at me won't get you seen any sooner."
+    answer: 0
+    explain: >-
+      Saying that losing the pay would annoy anyone is agreeing with the odds, one of Project BETA's
+      three ways to agree without conceding anything untrue. "I can't fit you in today" is a limit
+      stated matter-of-factly, and booking the next appointment on the spot is a realistic choice.
+      The apology concedes a fault that isn't the practice's and promises what the receptionist
+      can't deliver, which Project BETA warns against. "Calm down, or" is a command with a threat
+      bolted on; naming a real consequence once, calmly, as information, would be a different thing.
+      And telling him he's not the only patient challenges him, which the consensus says not to do.
+      All of it is practitioner opinion, and carrying it from emergency psychiatry to a dental
+      reception desk is this course's step.
+  - q: >-
+      At a car-boot sale near Barnsley, a man tells a stallholder that the lamp she sold him earlier
+      doesn't work and he wants his money back. She has stayed calm and brief, with her table
+      between them. Which of these is one of lesson 8's four signals to stop talking and leave?
+    options:
+      - He says it all again, louder, and adds that he'll tell everyone her stall is a rip-off
+      - He puts the lamp down and says, "Forget the refund. Hand over the cash tin instead."
+      - He asks for her name and phone number so that he can complain to the sale's organisers
+      - He swears about the price, then sighs and asks whether she'd swap it for another lamp
+    answer: 1
+    explain: >-
+      The argument about the lamp has stopped and a demand for her property has started. That is the
+      fourth signal, the demand changing, which the practitioners would call the move from social to
+      asocial and which belongs to lesson 10's decision: the point to stop talking and leave, or, if
+      she can't, to move to the next rung. The same complaint said louder is still the same
+      argument, and Project BETA's own advice is to repeat your message until it's heard. A request
+      for her details is something she can decide on. And swearing followed by an offer to swap is
+      the conversation working. The list of four is this course's synthesis, sensible, untested, and
+      whatever he chooses to do next is his responsibility, however long she talked.
 ---
 
-<!-- Items for lessons 1 to 4 only, which are the lessons through Stage 4. Each later lesson's items
+<!-- Items for lessons 1 to 8 only, which are the lessons through Stage 4. Each later lesson's items
 are appended here as that lesson passes Stage 4, per the blueprint in research/OUTLINE.md,
 "Assessments" (24 items when all fifteen are in). When you append: update the counts and the pass
 number in the intro, raise minutes, re-choose the key sequence by script, and rerun
 scripts/check-quiz-shape.cjs and scripts/check-quiz-letters.cjs. -->
 
-This test covers lessons 1 to 4 for now; questions on each later lesson are added as it is
-finished. **Seven questions, and 70 per cent to pass**, which is five (70 per cent of 7 is 4.9,
+This test covers lessons 1 to 8 for now; questions on each later lesson are added as it is
+finished. **Fourteen questions, and 70 per cent to pass**, which is ten (70 per cent of 14 is 9.8,
 rounded up).
 
 :::callout Before you rely on this
