@@ -9,23 +9,40 @@ summary: >-
   evidence and the law actually say about protecting yourself.
 description: >-
   Most harm people fear is rarer, and most harm they risk is more ordinary, than the headlines
-  suggest. This course starts from what the crime and injury data say about who is actually at risk
-  and where, then teaches awareness, avoidance, de-escalation and the basics of getting away, with
-  the law on self-defence in the US and the UK set out side by side as general information. It sits
-  after First Aid and CPR because what to do once someone is hurt is already taught there. It is a
-  page to prepare for a hands-on class, not a substitute for one.
+  suggest. This course starts from what the crime data say about who is actually at risk, from whom
+  and where, then teaches awareness and avoidance at home, on the street and online, domestic abuse
+  and stalking, de-escalation, stepping in for someone else, and the decision to hand something over
+  or resist, saying for each piece of advice whether it was tested. The law on self-defence, the home
+  and carrying something for protection is set out for England and Wales, Scotland and several US
+  states side by side, as general information. It sits after First Aid and CPR because what to do once
+  someone is hurt is already taught there. It is a page to prepare for a hands-on class, not a
+  substitute for one.
 outcomes:
   - >-
-    Read a crime or safety statistic for what it measures, and compare the risks you fear with the
-    risks you actually run
-  - Describe what situational awareness is and what the evidence says it can and cannot do
-  - Plan routes, routines and home and online habits that lower the chance of being targeted
+    Read a crime figure for what it counts (a police record or a victim survey; a count, a rate or a
+    prevalence; whose harm, and which year), and compare the risks you fear with the risks you
+    actually run without dismissing either
   - >-
-    Use de-escalation to calm a tense encounter, and recognise when to stop talking and leave
+    Explain who is most at risk of which harm, from whom, where and when, in the US and in England and
+    Wales, and why the answer differs by crime and by sex
   - >-
-    Explain what US and UK law say about using force in self-defence, as general information, and
-    why escape comes first in both
-  - Describe what a self-defence class can and cannot teach, and how to choose one
-  - Make a safety plan for yourself or your household and know where to get help afterwards
-prerequisites: []
+    Plan your home, your routes, your travel and meeting people from online around the evidence,
+    saying which advice is tested, which is sensible but untested, and which is contested
+  - >-
+    Recognise domestic abuse and stalking as the services describe them, explain why leaving can be
+    the most dangerous time, and find the right line for yourself or someone else
+  - >-
+    Use de-escalation and safe ways of stepping in for someone else, state the evidence behind each
+    honestly, and recognise when to stop talking and leave
+  - >-
+    Explain what acute fear does to perception and action, and compare the evidence on handing
+    property over, resisting, and resistance training, each side in its own terms
+  - >-
+    Explain what the law says about using force, protecting a home and property, and carrying
+    something for protection in England and Wales, Scotland and several US states, as general
+    information, and why escape comes first in practice
+  - >-
+    State what reporting a crime does and does not get you, where support is whether or not you
+    report, and what happens after someone uses force
+prerequisites: [first-aid, mental-fitness]
 sensitive_domain: true
