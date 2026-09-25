@@ -1759,7 +1759,7 @@ Supportive text [V]: seizures usually stop within 1 to 2 minutes; febrile seizur
 - AHA/ARC 2024 (S1) supportive text [V]: "There was no significant difference in the rate of body temperature reduction across water temperatures of 2 to 26° C (36° F–79° F), indicating that the act of immersion, rather than water temperature, is most important." Note this conflicts with ILCOR's technical remark that colder water cooled faster. Recommendation table not archived.
 - ERC 2025 (S3) concise [V]: "Use whole body (neck down) cold water (1 to 26 °C) immersion until the core temperature falls below 39 °C"; alternatives include tarp-assisted cooling oscillation (TACO), ice sheets, ice packs, fan, cold shower, cooling vests, mist and fan; if no core temperature "continue cooling for 15 min or until neurological symptoms resolve, whichever is first"; [V] "Remember: cool first, transfer second." Active cooling "if core temperature >40 °C". FLAG: the ERC evidence section says immersion "at 1 to 6 °C" (probably a typo for 1 to 26) and lists "ice water immersion (15 °C)" oddly; re-check against publisher before citing. It also gives a target cooling rate of 0.15 °C per minute for exertional heatstroke survival without complications.
 - RCUK 2025 (S5): "The gold standard is to use whole-body (neck down) cold water (1-26°C) immersion until the core temperature falls below 39°C."
-- UK lay pages lag: NHS (S17) [V] "Wrap the person in a cool, wet sheet, or fan them or sponge them down with cold water while you wait for help to arrive." SJA similar, plus cold packs to armpits and neck. CDC/NIOSH (S36): "With a cold water or ice bath, if possible", then wet skin, cold cloths, fanning, ice to head, neck, armpits, groin. NWS (S36): cool cloths or bath; fans may heat people when heat index is above the high 90s °F; [V] "Do NOT give fluids." for heatstroke.
+- UK lay pages don't mention immersion (not a lag: the NHS page was reviewed 28 May 2026, after RCUK 2025, and RCUK's alternatives include a fan; corrected 2026-09-25, lesson 15 Stage 4): NHS (S17) [V] "Wrap the person in a cool, wet sheet, or fan them or sponge them down with cold water while you wait for help to arrive." SJA similar, plus cold packs to armpits and neck. CDC/NIOSH (S36): "With a cold water or ice bath, if possible", then wet skin, cold cloths, fanning, ice to head, neck, armpits, groin. NWS (S36): cool cloths or bath; fans may heat people when heat index is above the high 90s °F; [V] "Do NOT give fluids." for heatstroke.
 
 **Contested:** immersion vs other methods for classic heatstroke in older people (heat waves): ILCOR makes no recommendation; immersion is impractical and evidence comes from young athletes and recruits. Water temperature: ILCOR says colder is faster, AHA says temperature does not matter within 2 to 26 °C. Measuring core (rectal) temperature is outside most lay first aid.
 
@@ -5563,3 +5563,137 @@ the archived publisher image, read by eye 2026-09-25]
 
 **America's Poison Centers, home page, https://poisoncenters.org/** [V, fetched 2026-09-25]
 - "America's Poison Centers® represents the 53 accredited poison control centers in the U.S."
+
+
+## Gate closures, lesson 15 (2026-09-25)
+
+Appended by lesson 15's Stage 4 fixer from Reviewer F's script-checked block (scratchpad, not kept).
+
+Checked by `r15f/chk.py` against `r15f/cands.txt` (102 candidates, all matched; the two already in
+SOURCES are omitted below). Normalisation: curly quotes and dashes straightened, whitespace
+collapsed, AHA reference numbers and ILCOR manuscript line numbers removed, and the spaces the
+Wayback HTML puts inside italic parentheses ("( Crotalinae , ...") closed up in the copies below. Sources: AHA Wayback
+20260329073336 prose (`r15f/aha.txt`, the drafter's section extract; rec 8 snakebite text from
+`scratchpad/aha24.txt`); RCUK live page fetched 2026-09-25; ERC publisher page read 2026-09-25;
+ILCOR 2020 CoSTR page; ILCOR 2025 FA manuscript; NHS pages fetched 2026-09-25; St John, CDC and NWS
+pages as read by the drafter on 2026-09-25. Table rows marked [V-img] were read by eye from the
+archived publisher images (`l15/`), not by script.
+
+**AHA/American Red Cross 2024, Table 26 "First Aid for Bee and Wasp Stings"** [V-img]
+- Row 4, COR 1, C-EO: "Stings to the eye should be evaluated by a trained medical professional."
+- Row 5, COR 2a, B-NR: "Removal of a stinger remaining in the skin as soon as possible by plucking or scraping can be beneficial."
+- Row 6, COR 2a, C-EO: "Over-the-counter oral antihistamines can be used to alleviate local itching."
+- Row 7, COR 2a, C-EO: "Topical corticosteroids can be used to alleviate local itching."
+- Row 8, COR 2a, C-EO: "It is reasonable to wash the area of a bee, wasp, or hornet sting with soap and water."
+- Row 9, COR 2b, C-EO: "Administration of over-the-counter acetaminophen and nonsteroidal anti-inflammatory agents may be considered to alleviate local pain."
+- Row 10, COR 2b, C-EO: "Administration of ice or cold packs may be considered for local pain relief."
+
+**AHA/American Red Cross 2024, Table 27 "First Aid for Tick Bites"** [V-img]
+- Row 1, COR 1, B-R: "Tick bites occurring in regions with high prevalence of Lyme disease should receive prompt consultation with a health care professional within 72 hours after removal of an engorged tick."
+- Row 2, COR 1, B-NR: "We recommend removal of a tick as soon as possible."
+- Row 3, COR 1, C-LD: "To remove a tick, we recommend grasping the head of the tick as close to the skin as possible with tweezers or a commercial tick removal device and pulling upward with steady, even pressure."
+
+**AHA/American Red Cross 2024, Table 32 (hypothermia), rows not yet verbatim in SOURCES** [V-img]
+- Row 1, COR 1, B-R: "A person with signs and symptoms of hypothermia should be protected from further heat loss by moving from the cold environment to a warm one, having saturated clothing removed, being allowed to passively rewarm with blankets, and being actively rewarmed if resources are available."
+- Row 4, COR 1, C-EO: "If a person with hypothermia has a decreased level of responsiveness such as unresponsiveness, inability to remain awake, mumbling speech, confusion, or inability to participate in removal of clothing or has pallor, cyanosis, or frozen skin, the emergency response system should be activated while the person is rewarmed by any available method."
+- Row 10, COR 3: Harm, C-LD: "It is potentially harmful to use a warm shower or warm water immersion for rewarming a person with hypothermia with a decreased level of responsiveness (moderate to severe hypothermia) because of the risk of core temperature after drop, hypotension, falls, and drowning."
+
+**AHA/American Red Cross 2024, prose** [V, Wayback 20260329073336]
+- "Stinging bees, wasps, and hornets result in ≈60 deaths per year in the United States." "Most deaths are due to anaphylaxis"
+- "The honeybee has a barbed stinger that often remains in the skin after the sting and can continue to deliver venom for up to 60 seconds."
+- "In an observational study evaluating honeybee stings in human volunteers, there was no significant difference in the size of wheal when the retained stinger was plucked out compared with scraping for removal." "The area of the wheal corresponded directly to the time the bee stinger remained in the skin."
+- "Although rare, stings to the eye itself (as opposed to stings to the eyelid or to the face near the eye) can lead to permanent vision loss and may require immediate medical attention."
+- "Clinical trials support the use of oral antihistamines and topical corticosteroid for local itching from mosquito bites, but data for bee, wasp, and hornet stings are lacking."
+- "Some species of tick are carriers of organisms that can cause illness such as Lyme disease or Rocky Mountain Spotted Fever if transmitted to a human host."
+- "Several clinical trials found that a single dose of prophylactic doxycycline given within 72 hours after an Ixodes scapularis tick bite could prevent Lyme disease."
+- "Although the risk of contracting a tick-borne illness appears to be more substantial if the tick is attached for >24 to 48 hours, the tick should be removed as soon as possible to minimize the risk of infection"
+- "Other methods of removal, including application of gasoline, nail polish, methylated spirits, petroleum jelly, 70% isopropyl alcohol, or a hot kitchen match, appear to be less effective."
+- "More than 95% of venomous bites in North America are caused by crotaline snakes (Crotalinae, also known as pit vipers), specifically rattlesnakes, copperheads, and cottonmouths." "Venom from crotaline snakes causes tissue injury and may also cause low blood pressure, bleeding, and muscle fasciculations leading to paralysis."
+- "In the United States, bites from coral snakes (Elapidae) occur in the Southeast (primarily Florida) and the Southwest (Texas, New Mexico, Arizona)."
+- "These recommendations are specific to snakebites occurring in the United States and Canada and involving indigenous snakes. Snakes in other parts of the world have different venom effects and may require different first aid measures."
+- "In a human experimental study, flow of an intradermally or subcutaneously injected radiotracer increased when the subject walked for ≥10 minutes." "The ideal response in each situation requires balancing the goals of reducing exertion with avoiding delay to care."
+- "The results of human and animal studies of pressure immobilization bandaging are mixed with regard to both intended effects (delayed onset of systemic toxicity) and to harms (worsening tissue injury)." "Several studies show that medical personnel and lay rescuers had a low rate of appropriate pressure immobilization bandage placement, even under ideal conditions." "Although a properly placed pressure immobilization bandage may have a role in the management of neurotoxic snakebite, >95% of snake envenomation in North America involves snakes with cytotoxic venom. Given this uncertainty, pressure immobilization bandaging is not currently recommended for use in North America."
+- Table 11, moderate hypothermia row: "Use all available passive and active rewarming methods, handle the patient gently, and activate the emergency response system."
+- "These recommendations address mild to severe/profound hypothermia in children and adults and are not applicable to infants <60 days of age and to cardiac arrest in all age groups."
+- "Decreased level of responsiveness, mumbling speech, confusion, the inability to participate in removal of wet clothing, pallor, cyanosis, stumbling, and frozen skin are potential signs of life-threatening hypothermia requiring immediate rewarming and advanced care."
+- "The researchers conclude that rescuers should cut off saturated clothing in a protected environment before wrapping wet, hypothermic people, but damp clothing need not be removed."
+- "A simulation study describing the role of extremity circulation in relation to core temperature found that heating the extremities and promoting the venous return of cold blood from the extremities may result in cooling of the central circulation."
+- "In addition, attempting to manage a person with hypothermia who is confused or has a decreased level of alertness in a shower or bathtub is potentially dangerous for the person with hypothermia and the first aid provider."
+- "The formation of ice crystals within the cells causes cellular and tissue damage."
+- "In one of these studies, rapid rewarming with warm water (45° C [113° F]) was harmful." "If a thermometer is not available, water temperature can be tested against one's wrist, where it should feel slightly warmer than body temperature."
+- "As a result, it is widely recommended that tissue refreezing be strictly avoided and first aid in-field rewarming be considered only if the risk of refreezing is negligible."
+- "Tissue of the frozen extremities will swell, so it is recommended to remove constricting items such as jewelry and tight clothing."
+- "Frostbite is a common finding in hypothermic individuals. However, rewarming the core of the person with hypothermia is the treatment priority, and rewarming the extremities first can cause the core temperature to decrease."
+- "A person with frostbitten fingers and hands or toes and feet may not be aware of ongoing damage caused by movement, especially walking."
+- "Heatstroke (heat stress accompanied by altered mental status) can lead to muscle injury, coagulopathy, organ failure, cardiovascular collapse, and death."
+- "Survival from heatstroke is related to the speed at which temperature reduction is achieved; faster cooling is associated with better survival."
+- "The listed cooling methods reduce temperature more slowly than immersion methods but more quickly than passive body cooling or application of ice packs to the axilla and groin."
+- "In the absence of pediatric-specific studies, pediatric recommendations mirror recommendations for adolescents and adults."
+- "Although core temperature measurement is typically outside the scope of lay first aid providers, it may be appropriate in some settings and circumstances."
+- "the review authors concluded that carbohydrate-electrolyte drinks (4%–9% glucose concentration) were overall associated with the highest net fluid balance."
+
+**RCUK 2025 First aid, live page, fetched 2026-09-25** [V]
+- "Suspect heat stroke if the person shows signs of confusion, agitation, disorientation, seizures or unresponsiveness."
+- "With suspected heat stroke, remove the person from the heat source and commence passive cooling by removing excess clothing and placing the person in a cooler/shaded location."
+- "Use any technique immediately available to provide active cooling."
+- "Alternatives include tarp-assisted cooling oscillation (TACO), ice sheets, commercial ice packs, a fan alone, a cold shower, hand cooling devices, cooling vests and jackets, or evaporative cooling (using mist and a fan)."
+- "If a core temperature cannot be obtained, continue cooling for 15 min or until neurological symptoms resolve, whichever is first."
+- "Continue cooling as needed during transportation to a medical facility for further evaluation and treatment."
+- "The only indigenous, highly venomous snake in the UK is the Adder (also known as the European Viper), which has a haemolytic toxic venom."
+- "Keep the bitten body part still and immobilise the affected limb, as this may slow the spread of venom."
+- "Remove tight clothes, rings or watches from the affected limb."
+- Under "Prevention of hypothermia": "Wet clothing removal: gently remove wet clothing and replace it with dry garments to prevent further cooling." "Ground isolation: place insulating materials, such as blankets or pads, between the individual and the cold ground to prevent direct contact."
+
+**ERC 2025 First Aid (110752), publisher page, read 2026-09-25** [V]
+- "Emergency medical services should be summoned simultaneously while beginning cooling, and cooling is continued during transportation to the hospital until a target core temperature below 39° C is reached."
+- "The tympanic temperature can be measured but it will only provide an approximation and not a definitive core temperature measurement."
+- "If the measurement of the core body temperature is not feasible, American first aid guidelines recommend to continue cooling for up to 15 min or until neurological symptoms resolve, whichever is first."
+- "There are no studies of cooling techniques in children or in people with non-exertional heatstroke, but the evidence from the ILCOR systematic review supports rapid cooling with similar modalities in these populations."
+- "Non-exertional heat stroke typically occurs after prolonged exposure to the sun and is often seen during heat waves."
+- "Unlike elapid snakebites with non-swelling neurotoxic venom, which may benefit from pressure immobilisation, viper envenomation's require simple limb immobilisation without compression."
+- The ranked list ("in decreasing order of effectiveness, ice water immersion (15 °C), temperate water immersion (20 to 25 °C), ...") is in `r15f/erc_fa2025_heat_snake.txt`; its temperatures are as printed and odd (see F4).
+
+**ILCOR 2020, First Aid Cooling Techniques for Heat Stroke and Exertional Hyperthermia** [V]
+- "For adults with classic heat stroke, we cannot make a recommendation for or against any specific cooling technique compared with an alternative cooling technique (no recommendation, very low certainty evidence)"
+- "For children with exertional or classic heat stroke, we cannot make a recommendation for or against any specific cooling technique compared with an alternative cooling technique (no recommendation, very low certainty evidence)."
+- "While there was heterogeneity in cooling rates between different water temperatures, colder water temperatures were associated with faster cooling rates."
+- "However, because confidence intervals cross for most of the mean weighted cooling rates for cooling techniques studied, we are unable to provide a rank order list."
+- "The Task Force recognizes that the optimal immersion time to reduce core temperature to below 39 o C is unknown." "We considered that even in the absence of core temperature measurement, the use of water immersion, if available, should be continued until there has been resolution of symptoms or for a reasonable amount of time, such as 15 minutes, as benefit is more plausible than harm."
+
+**ILCOR 2025 First Aid, accepted manuscript** [V]
+- Under "Topics Not Included in the 2025 Review": "Heatstroke cooling (FA 7242, FA 1548, SysRev 2020275, EvUp 202211)" (superscript reference numbers run into the years as printed: SysRev 2020, EvUp 2022).
+
+**NHS pages, fetched 2026-09-25** [V]
+- Heat exhaustion and heatstroke (reviewed 28 May 2026): "Heat exhaustion does not usually need emergency medical help if you can cool down within 30 minutes." "still being unwell after 30 minutes of resting in a cool place, being cooled and drinking fluids" "Cool their skin – spray or sponge them with cool water and fan them. Cold packs, wrapped in a cloth and put under the armpits or on the neck are good too." "if you're inside on a very hot day, close curtains, and close windows if it's hotter outside than in your home, and turn off electrical equipment and lights that get hot"
+- Hypothermia (9 June 2023): "Hypothermia is a dangerous drop in body temperature below 35C (normal body temperature is around 37C)." "give them a warm non-alcoholic drink and some sugary food like chocolate if they're fully awake" "do not use a hot bath, hot water bottle or heat lamp to warm them up" "do not rub their arms, legs, feet or hands"
+- Frostbite (9 June 2025): "The parts of the body most often affected are the fingers, toes, nose and ears." "do not rub the affected area" "do not use things like a fire, radiator, hot water bottle or heat lamp to warm the affected area"
+- Snake bites (17 July 2026): "Adders are grey or reddish-brown, with a dark zig-zag shaped stripe down their back." "do not take aspirin or ibuprofen, as they can make bleeding worse"
+- Insect bites and stings (1 June 2023): "Brush or scrape the stinger sideways with your fingernail or the edge of a bank card." "Do not use tweezers to pull out a stinger as you could squeeze poison out of it." "someone faints and cannot be woken up"
+- Lyme disease (3 June 2025): "Slowly pull upwards, taking care not to squeeze or crush the tick." "Ticks that may cause Lyme disease are found all over the UK, but high-risk places include grassy and wooded areas in southern England and the Scottish Highlands." "You've been bitten by a tick or visited an area in the past 3 months where infected ticks could be, and you either:"
+
+**St John Ambulance, each "Clinically reviewed: 28/04/2025"** [V]
+- Heatstroke: "Your priority is to cool the casualty down as quickly as possible and get them to hospital." "Sit them down and wrap them in a cool, wet sheet. If there isn't a sheet available, fan them or sponge them down with cold water to keep them cool. If available, use cold packs placed in the armpits and around the neck."
+- Heat exhaustion: "dizziness and confusion" (symptom list) "Help them to lie down in a cool, shaded place and raise their legs."
+- Hypothermia: "You can use your own body to shelter them and keep them warm." "Do not give them your clothes - it is important for you to stay warm yourself." "Do not place any direct heat such as hot water bottles or fires near a casualty as this can cause burns." "If the casualty is fully alert, offer them warm drinks and high energy food such as chocolate."
+- Frostbite: "Do not rub the area as this could damage their skin." "Place the affected part into warm but not hot water – around 40°C."
+
+**CDC, What to do after a tick bite (9 June 2026), Wayback 20260919133937** [V]
+- "Pull tick away from the skin with steady, even pressure. Don't twist or jerk the tick. This can cause the tick mouthparts to break off and remain in the skin."
+- "Do not use petroleum jelly, heat, nail polish, or other substances to try and make the tick detach from the skin. This may agitate the tick and force infected fluid from the tick into the skin."
+- "If you develop a rash or fever within several days to weeks after removing a tick, see your doctor."
+
+**CDC/NIOSH, Heat-related illnesses, Wayback 20260920095527** [V]
+- "Hot, dry skin or profuse sweating" "Drink water and have a snack or a drink that replaces carbohydrates and electrolytes (such as sports drinks) every 15 to 20 minutes." "Take worker to a clinic or emergency room for medical evaluation and treatment."
+
+**US National Weather Service, Heat Cramps, Exhaustion, Stroke** [V]
+- "First Aid: Call 911 or get the victim to a hospital immediately." "Use fan if heat index temperatures are below the high 90s. A fan can make you hotter at higher temperatures."
+
+**AHA/American Red Cross 2024, Table 11 "Hypothermia Signs, Symptoms, and Potential Rewarming Strategies"** [V, Wayback 20260329073336 prose extract; added by the fixer, read against the drafter's copy]
+- Cold stress, 35 to 37 °C: "Alert"; "Possibly shivering"; "Remove from cold environment; protect from further heat loss."
+- Mild hypothermia, 32 to 35 °C: "Altered level of responsiveness"; "Shivering"; "Protect from harm such as falls. Passive and active rewarming methods may be used in tandem. Seek additional care."
+- Moderate hypothermia, 28 to 32 °C: "Decreased level of responsiveness"; "±Shivering"; "±Low heart rate"; "Pale, nonblanching exposed skin"; "Associated with frozen tissue/frostbite"; "Hypothermia with decreased responsiveness, such as responding only to loud voice or pain, is a medical emergency."
+- Severe hypothermia, <28 °C (profound, <24 °C): "Unresponsive, may appear lifeless"; "Cessation of shivering"; "Slow heart rate and breathing"; "High risk for irregular heart rhythm and cardiac arrest".
+- Background: "Individuals may be "cold" or "cold stressed" with temperatures of 35° C to 37° C. Mild hypothermia begins when the core temperature falls below 35° C." "First aid providers are unlikely to be able to obtain core body temperatures, so assessment and treatment decisions must be guided by signs and symptoms."
+- Rec 10 supporting text: "Although people with simple cold stress (cold and shivering with normal mental status) were generally able to safely rewarm in a warm shower or warm water immersion in a single-patient experimental study of mild hypothermia (core temperature ≈36° C), warm bath rewarming was associated with transient core temperature drop, decreases in mean arterial pressure, and increases in heart rate and cardiac output."
+
+**Decision 2 ruling (lesson 15 Stage 4).** The NHS heat page (reviewed 28 May 2026) postdates RCUK 2025 (27 October 2025), and RCUK's alternatives include a fan, so the UK heatstroke pages are not described as lagging: they don't mention immersion. The line in Part C 10 is corrected to match.

@@ -226,3 +226,20 @@ earlier sequence.** Still chosen by script.
   pass) and ends on key 3.
 - **G4 not worked for lesson 14's videos** (Epilepsy Action, Epilepsy Foundation, St John); none
   embedded.
+
+## 2026-09-25 — from lesson 15's Stage 4
+
+- **A stricter rule the course applies must not be credited to a body that doesn't make it.**
+  Lesson 15's draft credited "no drink while confused" to the AHA, whose heatstroke row allows cool
+  liquids if the person can swallow; the NWS says no fluids. The course's own line is lesson 14's
+  rule, and it now says so. Scripts and lesson 16 should keep the attribution.
+- **Decision 2: the UK heatstroke pages are not a lag.** The NHS heat page (28 May 2026) postdates
+  RCUK 2025, and RCUK lists a fan among its alternatives. SOURCES Part C 10 and OUTLINE decision 2
+  are corrected; the lesson says only that neither UK page mentions immersion.
+- **Hypothermia stages** (AHA Table 11) are now verbatim in SOURCES, Gate closures, lesson 15.
+- **Places:** lesson 15 uses Driffield, Roanoke (Virginia), Steamboat Springs, Whitby, Allentown,
+  Cedar Rapids, Knoxville, Peterborough, Brecon Beacons, Tallahassee, Dorset, Bakersfield and
+  Exmoor; Macon, Pembrokeshire, Laramie, Lexington and Charleston, in the draft, are free again. The
+  final test's lesson 15 item uses Bismarck, North Dakota.
+- **Quiz keys:** lesson 15 kept 0,3,2,1,3,0. The final test now has its full twenty-four items
+  (seventeen to pass) and ends on key 2.

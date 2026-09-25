@@ -165,9 +165,9 @@ names both, because agreement is information too (the adult numbers, lesson 3).
   names the page, dated: BHF's "hands-only ... since the Covid-19 pandemic" (lesson 4), St John's
   bed-to-floor (lesson 3), the NHS child choking page's "any order" and two fingers (lesson 8), the
   American Red Cross infant page's two fingers (lesson 8), the NHS cuts page's elevation (lessons 9
-  and 10), the NHS and St John heatstroke wet sheet (lesson 15), the ERC lay book's 10% a minute (lesson 5). **Each is said once, plainly, without
+  and 10), the ERC lay book's 10% a minute (lesson 5). **Each is said once, plainly, without
   mockery**: pages lag, (St John's legs-up for bleeding was listed here and is
-  not a lag: RCUK 2025 has no shock-position section for it to lag, lesson 9's Stage 4, 2026-09-25), and the October 2025 guidelines came out eleven months before this course.
+  not a lag: RCUK 2025 has no shock-position section for it to lag, lesson 9's Stage 4, 2026-09-25) (nor is the NHS and St John heatstroke wet sheet: the NHS page postdates RCUK 2025 and RCUK lists a fan among its alternatives, so lesson 15 says only that neither page mentions immersion, lesson 15's Stage 4, 2026-09-25), and the October 2025 guidelines came out eleven months before this course.
 
 **3. Versioning: every guideline-based instruction carries its guideline and year in the text.**
 The convention is a parenthesis after the instruction: **"(RCUK 2025)"**, **"(AHA 2025, COR 1)"**,

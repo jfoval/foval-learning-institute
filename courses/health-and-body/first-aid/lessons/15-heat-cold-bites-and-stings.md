@@ -1,6 +1,6 @@
 ---
 title: Heat, cold, bites and stings
-minutes: 95
+minutes: 115
 objectives:
   - >-
     Distinguish heat exhaustion from heatstroke, sequence the response to each under US and UK
@@ -16,51 +16,56 @@ objectives:
     pressure bandage is ruled out for the snakes each country's guidance is written for
 quiz:
   - q: >-
-      At a preseason football practice in Macon, Georgia, a lineman becomes confused and stumbles
-      in the heat. The athletic trainer has a stock tank of iced water ready and 911 has been
-      called. Under the AHA/Red Cross 2024 guideline, what fits best?
+      At an agricultural show in Driffield, a man running a drinks stall has rested in the shade
+      for 40 minutes with water and a wet towel on his neck. He still has a headache and keeps
+      being sick, though he's talking sensibly. Under the NHS's advice, what now?
     options:
-      - Immerse him neck down now, for 15 minutes or until his thinking clears
-      - Walk him to the air-conditioned locker room and wait there for the crew
-      - Give him a litre of sports drink first and then decide whether to cool him
-      - Put ice packs in his armpits and keep the tank for when the ambulance arrives
+      - Call 999, as being unwell after 30 minutes of cooling is on its heatstroke list
+      - Keep up the water and shade, since heat exhaustion can take hours to settle
+      - Drive him home to sleep it off, and see a GP if he is still unwell in the morning
+      - Nothing more, since he's talking sensibly and so it can't have become heatstroke
     answer: 0
     explain: >-
-      Confusion in the heat is heatstroke, and for adults the guideline says immediate whole-body
-      cool to cold water immersion for 15 minutes or until neurological symptoms resolve is
-      reasonable (COR 2a, LOE C-LD). Walking him indoors to wait delays cooling. A drink is only for
-      someone able to swallow, and confusion rules that out. Ice packs are for when immersion isn't
-      available, and here it is.
+      The NHS says heat exhaustion doesn't usually need emergency help if the person can cool down
+      within 30 minutes, and its call-999 list for heatstroke includes still being unwell after 30
+      minutes of resting in a cool place, being cooled and drinking fluids. He's had 40 minutes of
+      all three, so more of the same, or a drive home, only puts off the call. Talking sensibly
+      doesn't settle it: the 30-minute line stands on its own on that list, next to confusion.
   - q: >-
-      Walking a coast path in Pembrokeshire, your friend is bitten on the ankle by a grey snake with
-      a dark zigzag down its back. Another walker offers a crepe bandage to wrap the leg firmly. 999
-      is called. Under RCUK's 2025 guideline, what do you do?
+      Clearing brush near Roanoke, Virginia, a man is bitten on the forearm by a copperhead, and 911
+      is called. One neighbour has a snakebite suction kit, another has a bag of ice, and a third
+      offers an elastic bandage to wrap the arm firmly. Under the AHA/Red Cross 2024 guideline, what
+      fits?
     options:
-      - Wrap the leg firmly from the bite upwards, the way it's taught for snakes in general
-      - Wash the bite, then cut across it so that some of the venom can drain out
-      - Walk her briskly to the car park so she reaches the ambulance a bit faster
-      - Keep her calm and still, immobilise the leg, and take off anything tight on it
+      - Use the suction kit on the bite at once, before the venom spreads further
+      - Hold the bag of ice on the bite to slow the venom while you wait for the crew
+      - Wrap the arm firmly with the elastic bandage, working up from the bite
+      - Keep him at rest with the arm still, and take his watch and rings off now
     answer: 3
     explain: >-
-      RCUK says to keep the person calm and at rest, keep the bitten part still, immobilise the
-      limb and remove tight clothing, and not to apply a pressure dressing, ice, heat or a
-      tourniquet or cut the wound. The firm bandage is the pressure dressing it rules out. A brisk
-      walk is the exertion both countries try to avoid.
+      The guideline says to rest and keep the bitten limb still and minimise exertion if that
+      doesn't delay care (COR 2a, LOE C-LD), and to remove rings and other constricting objects
+      (COR 2a, LOE C-EO). Suction is potentially harmful (3: Harm), ice is of unproven benefit and
+      may be harmful (3: No Benefit), and a pressure immobilisation bandage is potentially harmful
+      (3: Harm), all LOE C-LD. A copperhead is a pit viper, the kind behind more than 95% of North
+      American bites, and the guideline doesn't recommend pressure bandaging on that continent.
   - q: >-
-      Ice fishing near Laramie, Wyoming, a man's toes are white, hard and numb. His truck is a
-      two-hour walk away across snow, and the heater in his tent is running out of fuel. Under the
-      AHA/Red Cross 2024 guideline, what fits?
+      At a ski resort in Steamboat Springs, Colorado, a snowboarder's fingertips are white and hard.
+      She wants to thaw them under the lodge's hot tap and then take the last lift up and ride down.
+      Under the AHA/Red Cross 2024 guideline, what fits?
     options:
-      - Rub his feet hard with snow before he starts walking, to get the blood back
-      - Thaw the toes in warm water in the tent now, then pull the boots back on
-      - Leave them frozen until he's somewhere they can't freeze again, and get help
-      - Hold his feet over the heater's last flame, since fast heat is what thaws them
+      - Thaw them under the hot tap now, then take the last lift up as she'd planned
+      - Rub them hard with snow to bring the blood back, then go up for the last run
+      - She skips the last run, warms them in 37 to 40 °C water, and gets them seen
+      - Hold them close to the lodge fire, the fastest heat there is, and then ride
     answer: 2
     explain: >-
-      The guideline says to rewarm frostbitten tissue at the earliest opportunity as long as there
-      is no risk of refreezing (COR 1, LOE C-LD), and a two-hour walk through snow is that risk.
-      Thawing in the tent and then walking out invites it. The NHS and St John both rule out rubbing
-      frostbite, with snow or anything else, and warming it over a fire or other direct heat.
+      The guideline says to rewarm frostbitten tissue at the earliest opportunity as long as there's
+      no risk of refreezing, preferably in clean lukewarm water at 37 to 40 °C, and to seek prompt
+      medical attention (all COR 1). If she stays down there's no refreezing risk, so the earliest
+      opportunity is now. Thawing and then riding in the cold is the refreezing the guideline rules
+      out, and a hot tap can be too hot: water at 45 °C was harmful in an animal study. Snow and a
+      fire aren't among its warming methods, which are lukewarm water, or warm air or skin.
   - q: >-
       In Whitby, a 79-year-old is found in a cold kitchen after a fall. She's shivering, mumbling
       and doesn't follow what's said. Her son wants to run her a hot bath and make her a cup of tea.
@@ -77,45 +82,50 @@ quiz:
       NHS says no hot bath. Food and drink are only for someone alert and able to swallow (AHA) or
       fully awake (NHS). Rubbing the limbs is COR 3: Harm and on the NHS's list of things not to do.
   - q: >-
-      After a day in long grass near Lexington, Kentucky, you find a tick attached behind your
-      daughter's knee. What does the guidance in both countries agree on?
+      Near Allentown, Pennsylvania, where Lyme disease is common, you pull a tick that's swollen
+      with blood off your son's back with tweezers. It comes out whole. Under the AHA/Red Cross 2024
+      guideline, what comes next?
     options:
-      - Smother it in petroleum jelly and wait for it to let go of the skin by itself
-      - Touch it with a hot match head so that it backs out of the skin on its own
-      - Twist it round quickly several times so that the head comes out with the body
-      - Fine tweezers close to the skin, pull steadily upward, then clean the bite
+      - Cover the bite in petroleum jelly to smother anything the tick left in it
+      - Wait, and see a doctor only if he gets flu-like symptoms in the next 3 months
+      - Nothing more, since a tick that came out whole can't have passed anything on
+      - Talk to a health professional within 72 hours of taking the tick off him
     answer: 3
     explain: >-
-      The AHA/Red Cross guideline recommends removing a tick as soon as possible by grasping it as
-      close to the skin as possible with tweezers or a tool and pulling upward with steady, even
-      pressure (COR 1), and the NHS says the same with a slow pull. Petroleum jelly and a hot match
-      appear less effective (AHA), and the CDC says don't use them and don't twist or jerk.
+      For a tick bite in a region with a lot of Lyme disease, the guideline says to consult a health
+      professional within 72 hours of removing an engorged tick (COR 1, LOE B-R), and its text
+      reports trials in which one antibiotic dose in that window could prevent Lyme disease.
+      Waiting for symptoms gives that window away; the 3-month watch is the NHS's advice in the UK.
+      Coming out whole doesn't make it safe, because the risk rises with the time a tick was
+      attached. Petroleum jelly is a way of getting a tick off that the AHA calls less effective,
+      not a treatment for the bite.
   - q: >-
-      In Charleston, South Carolina, a honeybee stings a boy on the forearm and the stinger is still
-      in. He has no allergy and is breathing normally. Under the AHA/Red Cross 2024 guideline, what
-      matters most about the stinger?
+      At a picnic in Cedar Rapids, Iowa, a wasp stings a woman on the arm. Nothing is left in the
+      skin, she has no allergy, and she's breathing normally. Under the AHA/Red Cross 2024
+      guideline, what fits?
     options:
-      - Getting it out quickly, whether by plucking it or by scraping it off
-      - Only scraping it off sideways, never pulling it out with the fingers
-      - Leaving it in and waiting for a clinic to take it out with the right tools
-      - Squeezing the skin around it first so that the venom is pushed out again
+      - Wash it with soap and water, and a cold pack on it for the pain if she wants
+      - Scrape across the sting with a bank card until the stinger comes out of it
+      - Squeeze the skin round the sting firmly so the venom is pushed back out
+      - Call 911 now, since a wasp's smooth stinger lets it sting her more than once
     answer: 0
     explain: >-
-      The guideline says removing a stinger as soon as possible by plucking or scraping can be
-      beneficial (COR 2a, LOE B-NR), and its text reports no difference in the wheal between the
-      two, while the wheal grew with the time the stinger stayed in. Scrape-only is the NHS's
-      advice, not the US guideline's. Waiting and squeezing both leave venom going in.
+      Washing a bee, wasp or hornet sting with soap and water is reasonable (COR 2a, LOE C-EO), and
+      ice or cold packs may be considered for the pain (COR 2b, LOE C-EO). Nothing is left in the
+      skin, so there's nothing to scrape out: the plucking or scraping advice is for a stinger that's
+      still in. Nothing in the guideline supports squeezing. A smooth stinger does let a wasp sting
+      more than once, but the call is for lesson 13's signs of anaphylaxis, and she has none.
 ---
 
 The four emergencies in this lesson come from outside the body: heat, cold, something that stings
 and something that bites. They share a feature that makes them easy to get wrong. Each comes with a
-folk remedy that feels right: rub the cold limb, suck out the venom, pull the tick with a twist, cool
-the overheated runner in the ambulance on the way. Every one of those is ruled out by the guidelines,
-and most of them for a reason you can learn in a sentence. And the most urgent action here, cold
-water for heatstroke, is not one most people would reach for.
+move that feels right: rub the cold limb, suck out the venom, pull the tick with a twist, cool the
+overheated runner in the ambulance on the way. Every one of those is ruled out by the guidelines or
+the public health pages behind them, and most of them for a reason you can learn in a sentence. And
+the most urgent action here isn't one most people would reach for.
 
-You'll also meet a guideline saying "no recommendation", and learn to read it the way lesson 4
-taught you: as a statement about the evidence, not as permission to do nothing.
+You'll also meet a guideline saying "no recommendation", and read it with what lesson 4 taught you:
+a grade describes the evidence, not whether to act.
 
 :::callout Before you need this
 This course is education, not a certificate, and not medical advice about anyone's own situation. In an emergency, call your local emergency number first (911 in the US, 999 or 112 in the UK, 112 across the EU), put the phone on speaker, and do what the call handler tells you. Reading can teach you what to do and in what order. It can't teach your hands how hard to push or how a back blow should feel, so take a hands-on class with a manikin and an instructor, and practise between classes. Each instruction here names the guideline and year it comes from, and guidance changes.
@@ -125,27 +135,32 @@ The US guidance is the AHA and American Red Cross's
 [2024 first aid guideline](https://www.ahajournals.org/doi/10.1161/CIR.0000000000001281), which
 covers every topic in this lesson and grades each recommendation.[1] The UK guidance is
 [RCUK's 2025 first aid guideline](https://www.resus.org.uk/professional-library/2025-resuscitation-guidelines/first-aid-guidelines),
-the UK version of the European Resuscitation Council's, which covers heatstroke, hypothermia and
-snakebite but has no section on frostbite, stings or ticks.[2][3] For those three, the UK texts in
-this lesson are the NHS and St John Ambulance pages.[7][9][10] This lesson says so each time.
+the UK version of the
+[European Resuscitation Council's](https://www.resuscitationjournal.com/article/S0300-9572(25)00264-3/fulltext),
+which covers heatstroke, snakebite and the prevention of hypothermia but has no section on
+frostbite, stings or ticks.[2][3] For those three, the UK texts in this lesson are the NHS and St
+John Ambulance pages.[7][9][10] This lesson says so each time.
 
 ## Too hot: two conditions, one line between them
 
 Heat illness comes in two grades, and the whole of your response depends on which one you're looking
 at.
 
-**Heat exhaustion** is the body coping, badly. The NHS lists tiredness, dizziness, a headache,
-feeling or being sick, heavy sweating with pale, clammy skin, cramps in the arms, legs and stomach, a
-high temperature, strong thirst and irritability.[6] St John's list is much the same.[10] The NHS says
-it does not usually need emergency help if the person can cool down within 30 minutes.[6]
+**Heat exhaustion** is the body coping, badly. The
+[NHS](https://www.nhs.uk/conditions/heat-exhaustion-heatstroke/) lists tiredness, dizziness, a
+headache, feeling or being sick, heavy sweating with pale, clammy skin, cramps in the arms, legs and
+stomach, a high temperature, strong thirst and irritability.[6]
+[St John's list](https://www.sja.org.uk/first-aid-advice/heat-exhaustion/) is much the same.[10]
+The NHS says it does not usually need emergency help if the person can cool down within 30
+minutes.[6]
 
 **Heatstroke** is the body failing to cope. The AHA/Red Cross guideline defines it in its
 recommendation table as heat illness with altered mental status; RCUK says to suspect it in someone
 showing confusion, agitation, disorientation, seizures or unresponsiveness.[1][2] The European text
 adds a core temperature above 40 °C (104 °F), and says measuring one in first aid is a problem,
 because it takes a rectal thermometer: an ear reading is only an approximation, and mouth and skin
-readings are inaccurate.[3] So
-for you, the practical line is the brain. **A hot person who is confused, oddly agitated, fitting or
+readings are inaccurate, though a high reading on one can still support the suspicion.[3] So for
+you, the practical line is the brain. **A hot person who is confused, oddly agitated, fitting or
 not responding has heatstroke until someone with better tools says otherwise.**
 
 The line is not perfectly clean. St John's heat exhaustion list includes dizziness and confusion, and
@@ -165,55 +180,79 @@ being unwell after 30 minutes of cooling and fluids, on the NHS's list.[6]
 
 The two countries' steps are close.
 
-- **In the US**: move the person out of the heat, remove excess clothing, limit exertion, and give
-  cool liquids if they are able to swallow (AHA/Red Cross 2024, COR 1, LOE C-EO).[1] For someone
-  dehydrated by exertion, any rehydration drink or clean water will do, as long as there's no shock,
-  confusion or trouble swallowing (COR 1, LOE C-LD), and a 4% to 9% carbohydrate-electrolyte drink is reasonable over plain water if both are to hand (COR 2a,
-  LOE B-R).[1] The ILCOR reviews behind it found those drinks gave the best fluid balance
-  overall.[1]
+- **In the US**: the guideline has no separate heat exhaustion recommendation. Its recommendation for
+  exertional hyperthermia (a body overheated by exercise) or heatstroke says to move the person out
+  of the heat, remove excess clothing, limit exertion, and give cool liquids if they are able to
+  swallow (AHA/Red Cross 2024, COR 1, LOE C-EO).[1] For someone dehydrated by exertion, any
+  rehydration drink or clean water will do, as long as there's no shock, confusion or trouble
+  swallowing (COR 1, LOE C-LD), and a 4% to 9% carbohydrate-electrolyte drink, which is 4 to 9 g of
+  carbohydrate in every 100 mL, is reasonable over plain water if both are to hand (COR 2a, LOE
+  B-R).[1] The ILCOR reviews behind it found those drinks gave the best fluid balance overall.[1]
 - **In the UK**: the NHS gives four steps: a cool place, unnecessary clothing off, plenty of water
   (or an isotonic sports drink or rehydration salts), and cool skin, sprayed or sponged with cool
   water and fanned, with cold packs wrapped in a cloth under the armpits or on the neck. Then stay
   with them.[6] St John adds lying down with the legs raised.[10]
 
-The CDC's workplace page for heat cramps says, flatly, "Avoid salt tablets."[11] It gives no reason,
-so this course will not supply one. What it offers instead is water and a snack or a drink that
-replaces carbohydrates and electrolytes, every 15 to 20 minutes.[11]
+The [CDC's workplace page](https://www.cdc.gov/niosh/heat-stress/about/illnesses.html) for heat
+cramps says, flatly, "Avoid salt tablets."[11] It gives no reason, so this course will not supply one.
+What it offers instead is water and a snack or a drink that replaces carbohydrates and electrolytes,
+every 15 to 20 minutes.[11]
 
-Confusion, a seizure, collapse, or no better after 30 minutes makes it heatstroke, and drinking
-stops: the AHA's rehydration row excludes anyone confused, and the US National Weather Service is
-blunter, "Do NOT give fluids."[1][12] It's lesson 14's rule, nothing by mouth unless fully awake.
+Confusion, a seizure, collapse, or no better after 30 minutes makes it heatstroke. The AHA's
+heatstroke recommendation still allows cool liquids if the person can swallow, and its rehydration
+recommendation leaves out anyone confused; the US
+[National Weather Service](https://www.weather.gov/safety/heat-illness) is blunter, "Do NOT give
+fluids."[1][12] This course applies lesson 14's rule: nothing by mouth unless fully awake and able
+to swallow.
 
 ## Heatstroke: cool first, transfer second
 
 For heatstroke, both countries tell you to call and both tell you to cool, but cooling is not a
 comfort measure while you wait. It's the treatment.
 
-| | In the US | In the UK |
-|---|---|---|
-| **The call** | "For people with heatstroke (heat illness with altered mental status), first aid providers should activate emergency services." (AHA/Red Cross 2024, COR 1, LOE C-EO)[1] | RCUK's heatstroke steps don't mention the call. The European guideline's text says emergency services are summoned at the same time as cooling begins (ERC 2025), and the NHS says 999 for heatstroke[3][6] |
-| **First** | Out of the heat, excess clothing off, exertion stopped (COR 1, LOE C-EO)[1] | Out of the heat, excess clothing off, into shade (RCUK 2025)[2] |
-| **The method** | "For adults with heatstroke, it is reasonable to initiate immediate active cooling by using whole-body (neck-down) cool- to cold-water immersion for 15 minutes or until neurological symptoms resolve (whichever occurs first)." (COR 2a, LOE C-LD). The same for children, graded C-EO[1] | "The gold standard is to use whole-body (neck down) cold water (1-26°C) immersion until the core temperature falls below 39°C." Without a core temperature, "continue cooling for 15 min or until neurological symptoms resolve, whichever is first" (RCUK 2025)[2][3] |
-| **No water to immerse in** | Other active cooling: ice packs, cold showers, ice sheets and towels, cooling vests, evaporative cooling or fanning, or a combination (COR 2a, LOE C-LD)[1] | Any technique immediately available: ice sheets, commercial ice packs, a fan, a cold shower, cooling vests, or mist and fan (RCUK 2025)[2] |
-| **When to move them** | The table gives no order for transport | "Remember: cool first, transfer second." Keep cooling on the way (ERC 2025; RCUK 2025)[2][3] |
+:::predict You have a tub of cold water, some ice packs and a fan. Which do you think brings a body temperature down fastest, and why? ILCOR's 2020 review compared them.
 
+The tub. ILCOR's notes on the evidence say water immersion cooled faster than the other active
+methods it compared, including ice packs, cold showers, ice sheets and towels, cooling vests and
+fanning, though their ranges overlapped too much for ILCOR to put them in a strict order.[4] The
+European text gives an order of its own, with commercial ice packs and showers after the immersion
+methods and fanning near the bottom, above only passive cooling, hand cooling devices and
+evaporative cooling. That ordering is the ERC's; ILCOR itself declined to rank them.[3] Why water
+wins comes below.
+:::
+
+**In the US** (AHA/Red Cross 2024):
+
+- **The call**: call for anyone with heatstroke (COR 1, LOE C-EO)[1]
+- **First**: out of the heat, excess clothing off, exertion limited, cool liquids if able to swallow (COR 1, LOE C-EO)[1]
+- **Best method**: cool to cold water, neck down, 15 minutes or until thinking clears (COR 2a, LOE C-LD; children C-EO)[1]
+- **No water**: ice packs, cold showers, ice sheets and towels, cooling vests, fanning (COR 2a, LOE C-LD)[1]
+- **Moving them**: no order for transport given
+
+**In the UK** (RCUK 2025, unless another text is named):
+
+- **The call**: not in RCUK's steps; the ERC's text says call as cooling begins, and the NHS says 999[3][6]
+- **First**: out of the heat, excess clothing off, into shade[2]
+- **Best method**: cold water, 1 to 26 °C, neck down: the "gold standard"[2]
+- **No water**: ice sheets, ice packs, a fan, a cold shower, cooling vests, or mist and a fan[2]
+- **Moving them**: cool first, transfer second, and keep cooling on the way (and ERC 2025)[2][3]
+
+The US method in the AHA's words: "For adults with heatstroke, it is reasonable to initiate
+immediate active cooling by using whole-body (neck-down) cool- to cold-water immersion for 15
+minutes or until neurological symptoms resolve (whichever occurs first)." (AHA/Red Cross 2024, COR
+2a, LOE C-LD)[1] RCUK's, for the UK: "The gold standard is to use whole-body (neck down) cold water (1-26°C)
+immersion until the core temperature falls below 39°C." Without a core temperature, "continue
+cooling for 15 min or until neurological symptoms resolve, whichever is first" (RCUK 2025).[2][3]
 1 to 26 °C is about 34 to 79 °F; 39 °C is 102.2 °F. The two agree on nearly everything.
 
-Underneath both is ILCOR's review. Its 2020 recommendation, for adults with exertional hyperthermia
-or exertional heatstroke: "We recommend immediate active cooling using whole body (neck down) water
-immersion techniques (1-26°C; 33.8-78.8°F) until a core body temperature of less than 39°C (102.2°F)
-is reached (weak recommendation, very low certainty evidence)."[4] Its 2025 update lists heatstroke
-cooling among the topics not reviewed again since 2020.[5]
-
-:::predict ILCOR's review ranked cooling methods by how fast they brought the temperature down. Before you read on: where do you think fanning a person and putting ice packs in their armpits came, compared with putting them in a bath of cold water?
-
-Well below it. ILCOR's technical remark says water immersion cooled faster than the other active
-methods it compared, including ice packs, cold showers, ice sheets and towels, cooling vests and
-fanning, though their ranges overlapped too much to put them in a strict order.[4] The European
-text's list, in decreasing order, puts commercial ice packs and showers after the immersion methods,
-and fanning near the bottom, above only passive cooling, hand cooling devices and evaporative
-cooling.[3]
-:::
+Underneath both is
+[ILCOR's review](https://costr.ilcor.org/document/first-aid-cooling-techniques-for-heat-stroke-and-exertional-hyperthermia).
+Its 2020 recommendation, for adults with exertional hyperthermia or exertional heatstroke: "We
+recommend immediate active cooling using whole body (neck down) water immersion techniques (1-26°C;
+33.8-78.8°F) until a core body temperature of less than 39°C (102.2°F) is reached (weak
+recommendation, very low certainty evidence)."[4] Its 2025 update lists heatstroke cooling among the
+topics with no new systematic or scoping review since 2020; there was an evidence update in 2022,
+and the 2020 recommendation stands.[1][5]
 
 ### Why water, and why first
 
@@ -235,37 +274,45 @@ Three degrees at 0.15 °C a minute is 20 minutes (3 ÷ 0.15 = 20). That's the wh
 the ambulance. Cool from the moment you recognise it, and the runner can be close to 39 °C when the
 crew arrives. Wait for them, and the same 20 minutes happen after the crew arrives, with the
 temperature high all the while. This is arithmetic from the ERC's figure, not a study of ambulance
-times, but it's why "cool first, transfer second" is written the way it is.[3]
+times, but it's why "cool first, transfer second" is written the way it is.[3] Without a
+thermometer you would stop at 15 minutes or when her thinking clears (the next section), and the crew
+keeps cooling on the way.[2][3]
 :::
 
 ### How cold the water, and how long
 
-Here the sources read the same evidence two ways. ILCOR's technical remark says that, though cooling
-rates varied, colder water was associated with faster cooling.[4] The AHA's supporting text, citing the
-same ILCOR review: "There was no significant difference in the rate of body temperature reduction
-across water temperatures of 2 to 26° C (36° F–79° F), indicating that the act of immersion, rather
-than water temperature, is most important."[1] Neither changes what you do: use whatever water you
-have, at 26 °C (79 °F) or below.
+Here the sources read the same evidence two ways. ILCOR's notes on the evidence say that, though
+cooling rates varied, colder water was associated with faster cooling.[4] The AHA's supporting text,
+citing the same ILCOR review: "There was no significant difference in the rate of body temperature
+reduction across water temperatures of 2 to 26° C (36° F–79° F), indicating that the act of
+immersion, rather than water temperature, is most important."[1] Neither changes what you do: use
+whatever water you have, at 26 °C (79 °F) or below.
 
 Without a thermometer you can't know when they are below 39 °C, and a lay first aider will not usually
 have one: the AHA grades measuring core temperature as something trained and willing providers may
 do (COR 2b, LOE C-EO).[1] So both countries give the same stopping rule: 15 minutes, or until the
-confusion clears, whichever comes first.[1][2] ILCOR says the right time is not known and 15 minutes
-was its balance of benefit against harm.[4]
+confusion clears, whichever comes first.[1][2] It is a rule for when nobody can measure, not a claim
+that 15 minutes is always enough. ILCOR says the right time is not known and chose 15 minutes because
+benefit was more plausible than harm, and the ERC and RCUK say to keep cooling during
+transport.[2][3][4]
 
 Lesson 10 warned you against chilling a burned child's whole body under cold water. Here chilling
 the whole body is the point, because the core is dangerously hot.
 
 ### The public pages
 
-The UK public pages teach something different from their guideline. The NHS page, last reviewed on 28
-May 2026, says: "Wrap the person in a cool, wet sheet, or fan them or sponge them down with cold water
-while you wait for help to arrive."[6] St John's heatstroke page, clinically reviewed on 28 April 2025,
-teaches the wet sheet too, with cold packs in the armpits and around the neck.[10] Neither mentions
-immersion, which RCUK's October 2025 guideline calls the gold standard and lists those methods as
-alternatives to, and neither says why.[2] In the US, the CDC's workplace page lists a cold water or
-ice bath, if possible, first.[11] Teach yourself the guideline; use the wet sheet when there's no
-water to put someone in.
+The UK public pages don't mention immersion. The NHS page, last reviewed on 28 May 2026, says: "Wrap
+the person in a cool, wet sheet, or fan them or sponge them down with cold water while you wait for
+help to arrive."[6] [St John's heatstroke page](https://www.sja.org.uk/first-aid-advice/heatstroke/),
+clinically reviewed on 28 April 2025, teaches the wet sheet too, with cold packs in the armpits and
+around the neck.[10] RCUK's October 2025 guideline calls immersion the gold standard and lists a fan
+and ice sheets among its alternatives.[2] In the US, the CDC's workplace page lists a cold water or
+ice bath, if possible, first, and the National Weather Service's first line for heatstroke is to call
+911 or get the person to a hospital immediately.[11][12] Where there is water and help to put
+someone in it, immersion is what the guidelines grade best; where there isn't, the wet sheet and
+fanning are what you have. Neck down means the head stays out, and someone stays with them
+throughout. This course's reading, as in the second case below, is that you don't wrestle someone
+who can't stand into a bath.
 
 ## The finish line in Knoxville
 
@@ -281,36 +328,37 @@ signs.[11]
 **Call.** Make sure 911 is called, by you or the race medics (AHA/Red Cross 2024, COR 1).[1]
 
 **Cool, now.** She goes into the tub, neck down, with the medics, for 15 minutes or until she is
-thinking clearly (AHA/Red Cross 2024, COR 2a).[1] No drink while she's confused.[1]
+thinking clearly (AHA/Red Cross 2024, COR 2a).[1] No drink while she's confused (lesson 14's rule;
+the NWS says no fluids for heatstroke).[12]
 
 **Then transfer.** The crew takes her once she is cooled or cooling. Nobody loads her into the
-ambulance first to cool her on the way, which is the order "cool first, transfer second" rules
-out.[3]
+ambulance first to cool her on the way, which is the order the ERC and RCUK rule out ("cool first,
+transfer second", ERC 2025; RCUK 2025); the US guideline's "immediate" cooling points the same
+way.[1][2][3]
 
-**If she stops responding.** Lesson 2's test: not responding and not breathing normally, which means
-quiet, regular breathing at an ordinary pace, is cardiac arrest, and it's out of the water, CPR, the
-call handler coaching and an AED. Gasping or noisy breathing is not normal. If she stops responding but
-breathes normally, it's lesson 7's recovery position and keep cooling.
+**If she stops responding.** Normal breathing is quiet and regular at an ordinary pace; gasping or
+noisy breathing is not normal. If she stops responding and is not breathing normally, it's cardiac
+arrest (lesson 2): out of the water, CPR, the call handler coaching, and an AED. If she stops
+responding but is breathing normally, she comes out of the tub into lesson 7's recovery position,
+and cooling carries on with wet towels and ice packs.
 
 ## A heat wave, and an older neighbour
 
-The runner is the case the evidence is about. Heatstroke has another form.
-
-The European guideline describes the other kind, classic or non-exertional heatstroke: it typically
-comes after long exposure to the sun, often in heat waves, and in people whose temperature control is
-weaker, such as older people or children.[3] ILCOR looked for evidence on cooling them and found
-none:[4]
+The runner is the case the evidence is about. The European guideline describes the other kind,
+classic or non-exertional heatstroke: it typically comes after long exposure to the sun, often in
+heat waves, and in people whose temperature control is weaker, such as older people or children.[3]
+ILCOR looked for evidence on cooling them and found none:[4]
 
 - For adults with classic heatstroke, ILCOR cannot make a recommendation for or against any specific
   cooling technique (no recommendation, very low certainty evidence).
 - The same for children with either kind.
 
-Read it with lesson 4's key. "No recommendation" does not mean cooling does not matter or that
-immersion is wrong. It means nobody has compared the methods in these people. The European text reads
-the gap this way: there are no studies in children or in non-exertional heatstroke, but it says the
-evidence from ILCOR's review supports rapid cooling by similar methods in them too. That is the ERC's
-reading, not ILCOR's.[3] RCUK's step, use any technique immediately
-available, is written for suspected heatstroke without the word exertional.[2]
+"No recommendation" does not mean cooling does not matter or that immersion is wrong. It means
+nobody has compared the methods in these people. You met the same words about suction devices in
+lesson 8. The European text reads the gap this way: there are no studies in children or in
+non-exertional heatstroke, but it says the evidence from ILCOR's review supports rapid cooling by
+similar methods in them too. That is the ERC's reading, not ILCOR's.[3] RCUK's step doesn't say
+exertional: for any suspected heatstroke it says to use whatever cooling is to hand.[2]
 
 In Peterborough, during a heat wave, you let yourself into your 81-year-old neighbour's top-floor
 flat because he has not answered the door since yesterday. The rooms are stifling. He is sitting in a
@@ -321,8 +369,9 @@ You've recognised heatstroke from his confusion, and you've called 999 on speake
 
 :::checkpoint Your turn for the next step. What do you do for him in the next few minutes, and what do you rule out? Say which source backs each part.
 
-**Out of the heat and clothes off.** Open windows, take off excess clothing, and if a cooler room is
-a few steps away with help, use it (RCUK 2025).[2]
+**Out of the heat and clothes off.** Take off excess clothing, and if a cooler room is a few steps
+away with help, use it (RCUK 2025).[2] The NHS's heat-wave advice is to close curtains, and windows
+too if it's hotter outside than in.[6]
 
 **Active cooling with what's there.** He can't stand, and getting a confused man who can't stand
 into a bath risks a fall, so this course would use RCUK's alternatives rather than try.[2] A sheet
@@ -330,37 +379,61 @@ soaked in cold water, sponging and fanning are the NHS's methods, and ice sheets
 RCUK's list.[2][6] Cold packs wrapped in a cloth go in his armpits and at his neck (the NHS; St
 John); with no ice, a bag of frozen vegetables in a tea towel is this course's stand-in.[6][10]
 
-**A fan, with a warning.** The US National Weather Service says to use a fan only below a heat index
-in the high 90s °F (about 36 to 37 °C), because above that it can make a person hotter.[12] RCUK's
-version of fanning is evaporative cooling, mist and a fan together.[2]
+**A fan, with a warning.** The US National Weather Service says to use a fan only when the heat
+index, its measure of how hot the air feels once humidity is counted, is below the high 90s °F
+(about 36 to 37 °C), because above that a fan can make a person hotter.[12] That is a US page; no UK
+text this course read gives a threshold. RCUK lists a fan alone and mist with a fan.[2]
 
-**Ruled out.** No drink: he is confused (AHA/Red Cross 2024).[1] No waiting to see if he improves.
+**Ruled out.** No drink while he is confused (lesson 14's rule; the NWS).[12] No waiting to see if he
+improves.
 
-If you said "get him to hospital first", run the arithmetic from the predict above.
+If you said "get him to hospital first", RCUK's heatstroke steps, written for any suspected
+heatstroke, still say cool first, transfer second.[2]
 :::
 
 ## Too cold: hypothermia
 
-The NHS defines hypothermia as a dangerous drop in body temperature below 35 °C (95 °F), against a
-normal of about 37 °C.[7] Its signs include shivering, pale, cold, dry skin, blue or grey skin and lips,
-slurred speech, slow breathing and tiredness or confusion; a baby may be cold to the touch, floppy,
-quiet and not feeding.[7] The AHA's table of stages puts a change in responsiveness at mild
-hypothermia and shivering that may stop altogether at the severe end. This course's reading of that
-table: a person who has stopped shivering is not necessarily getting better.[1]
+The [NHS](https://www.nhs.uk/conditions/hypothermia/) defines hypothermia as a dangerous drop in
+body temperature below 35 °C (95 °F), against a normal of about 37 °C.[7] Its signs include
+shivering, pale, cold, dry skin, blue or grey skin and lips, slurred speech, slow breathing and
+tiredness or confusion; a baby may be cold to the touch, floppy, quiet and not feeding.[7]
+
+The AHA's table sorts hypothermia into stages by core temperature, which you will not have, and gives
+the signs of each.[1] **Cold stress**: alert, perhaps shivering. **Mild**: shivering, and a change
+in how responsive they are. **Moderate**: less responsive, shivering or not, pale skin, often with
+frostbite; the table calls this a medical emergency. **Severe**: unresponsive, perhaps looking
+lifeless, shivering stopped, slow heart rate and breathing. This course's reading of that table: a
+person who has stopped shivering is not necessarily getting better, and anyone who is less
+responsive than they should be gets the moderate treatment, which is the call and gentle handling.
 
 Most of the response is the same in both countries.
 
-| | In the US (AHA/Red Cross 2024) | In the UK |
-|---|---|---|
-| **Stop the heat loss** | Move them from the cold to somewhere warm, remove saturated clothing, blankets, and active rewarming if resources are available (COR 1, LOE B-R)[1] | Indoors or somewhere sheltered, wet clothing off, a blanket, sleeping bag or dry towel, head covered (the NHS). RCUK: insulation, wind protection, wet clothes gently removed and replaced with dry, and insulation from the ground[7][2] |
-| **Can't move them** | Insulate from the ground, cover head and neck, and shield from wind with a plastic or foil layer plus a dry insulating layer (COR 1, LOE C-LD)[1] | Shelter from wind, a thick dry layer underneath, a sleeping bag or blankets, a foil blanket (St John)[10] |
-| **The call** | Call if they are less responsive, can't stay awake, mumble, are confused, can't help take off their wet clothes, or are pale, blue-tinged or have frozen skin, and rewarm while you wait (COR 1, LOE C-EO)[1] | Go to A&E or call 999 if you think someone has hypothermia (the NHS). St John: 999 or 112, and never leave them alone[7][10] |
-| **Food and drink** | For cold stress or mild hypothermia in someone alert and able to swallow safely, "it is recommended to provide high-calorie foods or drinks." (COR 1, LOE C-EO)[1] | A warm non-alcoholic drink and sugary food such as chocolate, only if fully awake (the NHS); only if fully alert (St John)[7][10] |
-| **Heat packs and bottles** | Rewarming devices are allowed, with insulation between device and skin, the maker's instructions followed, and frequent checks for burns (COR 1, LOE C-LD)[1] | No hot water bottle, heat lamp or hot bath (the NHS). St John: no hot water bottles or fires near them, because of burns[7][10] |
+**In the US** (AHA/Red Cross 2024):
 
-The one real difference is the hot water bottle. The AHA allows a heat source with insulation under
-it and watches the skin; the NHS page rules the bottle out; St John rules out direct heat for its
-burn risk.[1][7][10] Everything else lines up.
+- **Stop the heat loss**: somewhere warm, soaked clothes off, blankets, and active rewarming if you have the means (COR 1, LOE B-R)[1]
+- **Can't move them**: insulate from the ground, cover head and neck, a plastic or foil layer against the wind plus a dry layer (COR 1, LOE C-LD)[1]
+- **The call**: call if they are less responsive, mumbling, confused, can't help undress, pale, blue-tinged or frozen skin (COR 1, LOE C-EO)[1]
+- **Food and drink**: for cold stress or mild hypothermia only, high-calorie food or drink if alert and able to swallow (COR 1, LOE C-EO)[1]
+- **Heat packs and bottles**: allowed, with insulation from the skin, the maker's instructions, and checks for burns and pressure injury (COR 1, LOE C-LD)[1]
+
+**In the UK**:
+
+- **Stop the heat loss**: indoors or sheltered, wet clothes off, a blanket, sleeping bag or dry towel, head covered (the NHS)[7]
+- **Can't move them**: shelter from wind, a thick dry layer underneath, blankets or a sleeping bag, a foil blanket (St John)[10]
+- **The call**: A&E or 999 for suspected hypothermia (the NHS); 999 or 112, and never leave them alone (St John)[7][10]
+- **Food and drink**: a warm non-alcoholic drink and sugary food, only if fully awake (the NHS) or fully alert (St John)[7][10]
+- **Heat packs and bottles**: no hot water bottle, heat lamp or hot bath (the NHS); no direct heat, because of burns (St John)[7][10]
+
+Active rewarming means applying heat to the body from outside, such as a heat pack; passive
+rewarming means stopping the heat loss and letting the body warm itself.[1] RCUK's list is
+for preventing hypothermia: insulation, protection from wind, wet clothing gently removed and
+replaced with dry, and insulation from the ground (RCUK 2025).[2]
+
+Three things differ. The AHA allows a heat source with insulation under it and watches the skin,
+where the NHS rules the bottle out and St John rules out direct heat for its burn risk. The AHA rules
+out a warm bath only once responsiveness is reduced; the NHS says no hot bath at all. And St John
+suggests your own body to keep them warm, which the AHA grades no better than other active methods
+(3: No Benefit).[1][7][10]
 
 ### Handle them gently, and leave the limbs alone
 
@@ -386,12 +459,15 @@ falls and drowning, and the text adds that managing a confused person in a showe
 dangerous for them and for you.[1]
 :::
 
-**Alcohol.** The NHS says not to give it, and St John says "it will make
-hypothermia worse", without giving a mechanism.[7][10]
+On alcohol, the NHS says not to give it, and St John says "it will make hypothermia worse", without
+giving a mechanism.[7][10]
 
-**Your own body.** Body-to-body warming is not better than other active methods (AHA/Red Cross 2024,
-3: No Benefit, LOE C-LD); St John says you can use your body to shelter them, but not to give them
-your clothes, because you need to stay warm yourself.[1][10]
+On your own body:
+
+- **In the US**: body-to-body warming is no better than other active methods (AHA/Red Cross 2024,
+  3: No Benefit, LOE C-LD).[1]
+- **In the UK**: St John says you can use your own body to shelter them and keep them warm, but not
+  to give them your clothes, because you need to stay warm yourself.[10]
 
 **If they stop responding.** Breathing normally, quietly and regularly: lesson 7's recovery position,
 blankets over and under, and keep watching. Not breathing normally: lesson 2, CPR with the call
@@ -402,10 +478,11 @@ and what the call handler tells you.[1]
 ## Frostbite
 
 Frostbite is skin, and sometimes the tissue beneath it, freezing. The AHA's background says ice
-crystals form inside the cells, and that the fingers, toes, nose and ears are most often affected.[1]
-The NHS says it can happen at 0 °C (32 °F) or below, and that the skin may first be cold and firm,
-numb, stinging or burning, painful, and red or pale; worse, it's hard, white, blue or blotchy, with
-swelling, loss of feeling and blisters.[7]
+crystals form inside the cells, and that the fingers, toes, nose and ears are particularly
+susceptible.[1] The [NHS](https://www.nhs.uk/conditions/frostbite/) says it can happen at 0 °C
+(32 °F) or below, and that the skin may first be cold and firm, numb, stinging or burning, painful,
+and red or pale; worse, it's hard, white, blue or blotchy, with swelling, loss of feeling and
+blisters.[7]
 
 **Rewarm, but only once.** Two COR 1 recommendations work together (AHA/Red Cross 2024, both LOE
 C-LD):[1]
@@ -422,63 +499,71 @@ avoiding refreezing.[1] Hotter is not better: in one animal study, rewarming in 
 where it should feel slightly warmer than your body.[1] If lukewarm water is not possible, let it
 rewarm in warm room air or against the person's own warm skin (COR 1, LOE C-LD).[1]
 
-**The rest of the US list** (all COR 1): prompt medical attention; rings and anything tight off, because
-the tissue will swell; for someone with moderate to severe hypothermia, warm the core before treating
-the frostbite, because warming the limbs first can drop the core temperature; protect the part and
-avoid walking on frozen feet; and loose, bulky, clean, dry dressings, including between the toes and
-fingers.[1] The walking rule has its own reason: frozen tissue can't feel damage being done to it.[1]
-Ibuprofen may be reasonable (2b), and blisters are not for first aiders to break (3: No Benefit).[1]
+The rest of the US list is all COR 1: prompt medical attention; rings and anything tight off,
+because the tissue will swell; for someone with moderate to severe hypothermia, warm the core before
+treating the frostbite, because warming the limbs first can drop the core temperature; protect the
+part and avoid walking on frozen feet; and loose, bulky, clean, dry dressings, including between the
+toes and fingers.[1] The walking rule has its own reason: frozen tissue can't feel damage being done
+to it.[1] Ibuprofen may be reasonable (2b), and blisters are not for first aiders to break (3: No
+Benefit).[1]
 
-**In the UK**, RCUK's guideline has no frostbite section. The NHS page: shelter, jewellery, gloves
-and boots off, warm the part in an armpit or a lap, then in warm (not hot) water, dry it, a light
+In the UK, RCUK's guideline has no frostbite section. The NHS page: shelter, jewellery, gloves and
+boots off, warm the part in an armpit or a lap, then in warm (not hot) water, dry it, a light
 dressing, raise it, and 999 or A&E for hard frozen skin, swelling and numbness, or blisters. No
-rubbing, no fire, radiator, hot water bottle or heat lamp, no hot bath, no alcohol.[7] St John gives the water as around 40 °C and says rubbing
-could damage the skin.[10] Neither UK page mentions refreezing; the AHA's rule is the one that decides
-the case where help is far away.
+rubbing, no fire, radiator, hot water bottle or heat lamp, no hot bath, no alcohol.[7]
+[St John](https://www.sja.org.uk/first-aid-advice/frostbite/) gives the water as around 40 °C and
+says rubbing could damage the skin.[10] Neither UK page mentions refreezing; the AHA's rule is the
+one that decides the case where help is far away.
 
-:::checkpoint A child comes in from sledging with a white, numb fingertip that feels hard. You're at home with warm water on tap and she is staying in for the evening. What do you do, in order, and does refreezing matter here?
+:::checkpoint A child comes in from sledging with a white, numb fingertip that feels hard. You're at home with warm water on tap. What do you do, in order? And what would change if she wanted to go back out after tea?
 
 Rings off, then the finger into water that feels slightly warm on your wrist, 37 to 40 °C (99 to 104
 °F) if you have a thermometer (AHA/Red Cross 2024, COR 1).[1] No rubbing and no radiator (the NHS; St
 John).[7][10] Dry it, a loose dressing, and get it seen: the AHA says prompt medical attention, and a
-hard, frozen patch is on the NHS's A&E or 999 list.[1][7] Refreezing does not stop you here, because
-she is not going back out. It would if she were.
+hard, frozen patch is on the NHS's A&E or 999 list.[1][7] Refreezing does not stop you if she is
+staying in. If she wants to go back out, it does: the AHA says rewarm only when there's no risk of
+refreezing, so warming it and sending her back into the snow is the one order to avoid, and she
+stays in.[1]
 :::
 
 ## Bee and wasp stings
 
 Most stings are a small, painful, swollen, itchy lump. The AHA puts deaths from bees, wasps and hornets
 at about 60 a year in the US, mostly from anaphylaxis.[1] Anaphylaxis from a sting is lesson 13:
-adrenaline first, the call, and in the UK lying down. The AHA's sting table starts with three rows from it:
-the person uses their auto-injector, you help if needed, and the call (COR 1).[1] What's left is the sting itself, and the countries differ on one detail.
+adrenaline first, the call, and in the UK lying down. The AHA's sting recommendations start with the
+three from it: the person uses their auto-injector, you help if needed, and the call (COR 1).[1]
+What's left is the sting itself, and the countries differ on one detail.
 
 | | In the US (AHA/Red Cross 2024) | In the UK (the NHS) |
 |---|---|---|
-| **A stinger left in** | Remove it as soon as possible, by plucking or scraping (COR 2a, LOE B-NR)[1] | Brush or scrape it out sideways with a fingernail or the edge of a bank card; don't use tweezers, because you could squeeze poison out of it[9] |
-| **Wash** | Soap and water is reasonable (COR 2a, LOE C-EO)[1] | Wash with soap and water[9] |
-| **Pain and swelling** | Ice or cold packs may be considered (2b); acetaminophen or an anti-inflammatory may be considered (2b)[1] | An ice pack wrapped in a cloth, or a cloth soaked in cold water, for at least 20 minutes if it's swollen; keep it raised; paracetamol or ibuprofen[9] |
-| **Itch** | Oral antihistamines, and steroid creams (both 2a, LOE C-EO)[1] | Antihistamines, or hydrocortisone cream[9] |
-| **Near the eye** | A sting to the eye itself should be seen by a trained professional (COR 1, LOE C-EO)[1] | Urgent GP appointment or NHS 111 for a sting in the mouth or throat, or near the eyes[9] |
+| **A stinger left in** | Out as soon as possible, plucked or scraped (COR 2a, LOE B-NR)[1] | Scrape it out sideways with a fingernail or a bank card; no tweezers[9] |
+| **Wash** | Soap and water (COR 2a, LOE C-EO)[1] | Soap and water[9] |
+| **Pain and swelling** | Ice or cold packs; acetaminophen (paracetamol) or an anti-inflammatory (both 2b)[1] | A cold pack in a cloth for at least 20 minutes if swollen, and raise it; paracetamol or ibuprofen[9] |
+| **Itch** | Oral antihistamines or a steroid cream (both 2a, LOE C-EO)[1] | Antihistamines or hydrocortisone cream[9] |
+| **The eye** | A sting to the eye itself is seen by a trained professional (COR 1, LOE C-EO)[1] | Urgent GP or NHS 111 for a sting in the mouth or throat, or near the eyes[9] |
 
-Acetaminophen is paracetamol. The difference is how the stinger comes out, and each side gives its
-reason. The NHS's is that tweezers could squeeze poison out of it. The AHA's is a study in
-volunteers: plucking and scraping made no difference to the size of the welt, but the welt grew with
-the time the stinger stayed in; its background says a honeybee's barbed stinger, which often stays
-in the skin, can keep delivering venom for up to 60 seconds.[1] So in the US reading, speed matters
-and method does not; in the UK reading, method matters. Both allow a fingernail scrape. Other bees,
-wasps and hornets have smooth stingers and can sting again and again (the AHA).[1]
+The difference is how the stinger comes out, and each side gives its reason. The
+[NHS's](https://www.nhs.uk/conditions/insect-bites-and-stings/) is that tweezers could squeeze
+poison out of it. The AHA's is a study in volunteers: plucking and scraping made no difference to the
+size of the welt, but the welt grew with the time the stinger stayed in; its background says a
+honeybee's barbed stinger, which often stays in the skin, can keep delivering venom for up to 60
+seconds.[1] So in the US reading, speed matters and method does not; in the UK reading, method
+matters. Both allow a fingernail scrape. Other bees, wasps and hornets have smooth stingers and can
+sting again and again (the AHA).[1]
 
 **When a sting is more than a sting.** The NHS's 999 list for a bite or sting is lesson 13's
 anaphylaxis list: swelling of the lips, mouth, throat or tongue, fast or difficult breathing, a tight
-throat, blue or grey skin, sudden confusion or drowsiness, a faint.[9] It sends someone who was stung
-more than once, or who has reacted badly before, to an urgent GP appointment or 111.[9]
+throat, blue or grey skin, sudden confusion or drowsiness, someone who faints and can't be woken.[9]
+It sends someone who was stung more than once, or who has reacted badly before, to an urgent GP
+appointment or 111.[9]
 
 ## Ticks
 
 A tick is a small, spider-like creature that attaches to skin and feeds on blood for days.[9] Some carry
-infections: the AHA names Lyme disease and Rocky Mountain spotted fever in the US.[1] The NHS says ticks
-that may carry Lyme disease are found all over the UK, with grassy and wooded areas in southern England
-and the Scottish Highlands among the high-risk places.[9]
+infections: the AHA names Lyme disease and Rocky Mountain spotted fever in the US.[1] The
+[NHS](https://www.nhs.uk/conditions/lyme-disease/) says ticks that may carry Lyme disease are found
+all over the UK, with grassy and wooded areas in southern England and the Scottish Highlands among
+the high-risk places.[9]
 
 Here the two countries agree almost word for word.
 
@@ -491,18 +576,23 @@ Here the two countries agree almost word for word.
   upwards without squeezing or crushing the tick.[9]
 - **Then** clean the bite with soap and water or antiseptic (the NHS).[9]
 
-The CDC's page adds the don'ts. Don't twist or jerk, because the mouthparts can break off in the skin;
-if they do and will not come out easily, leave them for the skin to push out. Don't use petroleum jelly,
-heat, nail polish or anything else to make it let go, which the CDC says may agitate the tick and
-force infected fluid into the skin.[13] The AHA's text says those methods, and a hot match, appear
-less effective than pulling it out.[1] Don't crush it in your fingers.[13]
+The [CDC's page](https://www.cdc.gov/ticks/after-a-tick-bite/index.html) adds the don'ts. Don't
+twist or jerk, because the mouthparts can break off in the skin; if they do and will not come out
+easily, leave them for the skin to push out. Don't use petroleum jelly, heat, nail polish or anything
+else to make it let go, which the CDC says may agitate the tick and force infected fluid into the
+skin.[13] The AHA's text says those methods, and a hot match, appear less effective than pulling it
+out.[1] Don't crush it in your fingers.[13]
 
-**Afterwards.** In the US, the AHA says a tick bite in a region with a lot of Lyme disease should be
-discussed with a health professional within 72 hours of removing an engorged tick, one swollen with
-blood (COR 1, LOE B-R); trials found a single antibiotic dose in that window could prevent Lyme
-disease.[1] The CDC says see a doctor for a rash or fever in the weeks after.[13] In the UK, the NHS says ask for an urgent GP appointment or call 111 if, within 3
-months of a bite or of being somewhere with infected ticks, you have flu-like symptoms or a round or
-oval rash.[9]
+Afterwards, the two countries give different advice.
+
+- **In the US**: the AHA says a tick bite in a region with a lot of Lyme disease should be discussed
+  with a health professional within 72 hours of removing an engorged tick, one swollen with blood
+  (COR 1, LOE B-R); trials found a single antibiotic dose in that window, after a bite from the
+  blacklegged tick, could prevent Lyme disease.[1] The CDC says see a doctor for a rash or fever in
+  the weeks after.[13]
+- **In the UK**: the NHS says ask for an urgent GP appointment or call 111 if, within 3 months of a
+  bite or of being somewhere with infected ticks, you have flu-like symptoms or a round or oval
+  rash.[9]
 
 ## Snakebite
 
@@ -510,28 +600,27 @@ Snakebite has the most folk remedies of anything in this lesson, and both countr
 
 | | In the US and Canada (AHA/Red Cross 2024) | In the UK (RCUK 2025; the NHS) |
 |---|---|---|
-| **The call** | "Emergency services should be activated for any person bitten by a venomous or possibly venomous snake." (COR 1, LOE C-EO)[1] | Call 999 (RCUK). The NHS: 999 or A&E for any snakebite[2][8] |
-| **Keep still** | "It is reasonable to rest and immobilize the bitten extremity and minimize exertion by the person who was bitten if it does not delay access to emergency medical care." (COR 2a, LOE C-LD)[1] | Keep the person calm and at rest, and keep the bitten part still and immobilised, which RCUK says may slow the spread of venom[2] |
-| **Tight things** | Remove rings and other constricting objects (COR 2a, LOE C-EO)[1] | Remove tight clothes, rings or watches (RCUK)[2] |
-| **Ice** | "Application of ice to a snakebite wound is of unproven benefit and may be harmful in some situations." (3: No Benefit, LOE C-LD)[1] | "Do not apply a pressure dressing, ice, heat, or use tourniquets." (RCUK)[2] |
-| **Cutting and sucking** | Suction, with or without cutting, is potentially harmful (3: Harm, LOE C-LD)[1] | "Do not cut the wound and never try to suck out the venom." (RCUK)[2] |
-| **Tourniquets, electric shock** | Each potentially harmful (3: Harm, LOE C-LD)[1] | No tourniquet (RCUK)[2] |
-| **A pressure bandage** | "The use of pressure immobilization bandaging to treat snake bites is potentially harmful." (3: Harm, LOE C-LD)[1] | No pressure dressing (RCUK)[2] |
+| **The call** | For any venomous or possibly venomous snakebite (COR 1, LOE C-EO)[1] | 999 (RCUK); the NHS says 999 or A&E for any snakebite[2][8] |
+| **Keep still** | Rest, keep the limb still, less exertion, if it doesn't delay care (COR 2a, LOE C-LD)[1] | Calm and at rest, the bitten part kept still and immobilised (RCUK)[2] |
+| **Tight things** | Rings and other tight things off (COR 2a, LOE C-EO)[1] | Tight clothes, rings or watches off (RCUK)[2] |
+| **Ruled out** | Ice (3: No Benefit); suction, tourniquets, electric shock, pressure bandages (each 3: Harm); all LOE C-LD[1] | "Do not apply a pressure dressing, ice, heat, or use tourniquets." No cutting, and never suck (RCUK)[2] |
 
 On what you do, the two agree: call, keep still, take off anything tight, and none of the rest.
 What differs is the snakes they are written for, which is the whole story of the pressure bandage.
 
-**Who.** The AHA says its recommendations are for the United States and Canada and their native
-snakes, and that snakes elsewhere have different venom and may need different first aid.[1] More than
-95% of venomous bites in North America are from pit vipers, the rattlesnakes, copperheads and
-cottonmouths, whose venom injures tissue and can cause low blood pressure and bleeding.[1] RCUK's is
-for the UK, where the only native highly venomous snake is the adder, whose venom it describes as
-haemolytic, meaning it damages the blood.[2] The NHS describes the adder as grey or reddish-brown with a
-dark zigzag stripe down its back, and says most UK bites are not serious but all need checking.[8]
+The AHA says its recommendations are for the United States and Canada and their native snakes, and
+that snakes elsewhere have different venom and may need different first aid.[1] More than 95% of
+venomous bites in North America are from pit vipers, the rattlesnakes, copperheads and cottonmouths,
+whose venom injures tissue and can cause low blood pressure and bleeding.[1] RCUK's is for the UK,
+where the only native highly venomous snake is the adder, whose venom it describes as haemolytic,
+meaning it damages the blood.[2] The [NHS](https://www.nhs.uk/conditions/snake-bites/) describes
+the adder as grey or reddish-brown with a dark zigzag stripe down its back, and says most UK bites
+are not serious but all need checking.[8]
 
-**Why keep still.** The AHA's text reports a study in which fluid injected under the skin moved faster
-when the person walked for 10 minutes or more, which could mean more venom absorbed; it says to balance
-less exertion against getting to care without delay.[1] RCUK's reason is the same idea in one clause.[2]
+Why keep still? The AHA's text reports a study in which fluid injected under the skin moved faster
+when the person walked for 10 minutes or more, which could mean more venom absorbed; it says to
+balance less exertion against getting to care without delay.[1] RCUK's reason is the same idea in one
+clause.[2]
 
 **Why no pressure bandage.** You may have heard that a tight bandage is the right first aid for a
 snakebite. For some snakes it is. The European guideline explains the split: bites from elapids, a
@@ -544,10 +633,9 @@ correctly; and though a well-placed one may have a role in bites with nerve-acti
 the AHA's rule still covers them.[1] This course has not read a guideline from a country where elapid
 bites are common, so it teaches neither the bandage nor its technique.
 
-**The NHS's other lines.** Stay calm, keep the bitten part still, lie in the recovery position if you
-can, paracetamol for pain but not aspirin or ibuprofen because they can make bleeding worse, and
-remember the snake's colour and pattern or photograph it from a distance if it's safe. Don't go near it
-or try to catch or kill it.[8] Those lines are written to the person who was bitten.
+The NHS adds two lines worth knowing: paracetamol for pain, but not aspirin or ibuprofen, because they
+can make bleeding worse; and remember the snake's colour and pattern, or photograph it from a
+distance if it's safe, without going near it.[8]
 
 ## What people get wrong
 
@@ -558,15 +646,15 @@ or try to catch or kill it.[8] Those lines are written to the person who was bit
 dry skin or heavy sweating, and the runner in Knoxville was sweating.[6][11] Confusion is the sign
 the AHA and RCUK define it by.[1][2]
 
-**"Take salt tablets in the heat."** "Avoid salt tablets." (CDC)[11]
-
-**"A drink will sort them out."** Only if they can swallow and are not confused (AHA/Red Cross 2024).[1]
+**"A drink will sort them out."** Not while they're confused. The AHA allows cool liquids only if the
+person can swallow, the NWS says no fluids for heatstroke, and this course's rule is nothing by mouth
+unless fully awake.[1][12]
 
 **"Alcohol warms you up."** Don't give it; St John says it makes hypothermia worse.[7][10]
 
 **"Rub the cold limbs."** Rubbing and heat on the limbs of a hypothermic person are COR 3: Harm
-(AHA/Red Cross 2024), and the NHS and St John both say not to rub frostbite, with snow or with
-hands.[1][7][10]
+(AHA/Red Cross 2024), and the NHS and St John both say not to rub frostbite; St John's reason is that
+it could damage the skin.[1][7][10]
 
 **"Thaw frostbite right away, whatever happens next."** Only if it will not refreeze (AHA/Red Cross 2024,
 COR 1).[1]
@@ -596,17 +684,19 @@ out, and the body and year behind each step. Answer under the country named.
 
 :::checkpoint Compare yours with these.
 
-**A.** Mumbling and fumbling at his zip are signs to call (AHA/Red Cross 2024, COR 1): 999. He can't
-be moved to warmth, so insulate him from the ground, cover his head and neck, and shield him from wind
-and rain with a plastic or foil layer plus a dry insulating layer (AHA, COR 1; RCUK 2025; St
-John).[1][2][10] The AHA's text says soaked clothing is cut off in a protected place before wrapping,
-while damp clothing can stay on.[1] Nothing to eat or drink while he is mumbling; no rubbing; someone
-stays with him.[1][10]
+**A.** Suspected hypothermia is a 999 call (the NHS; St John), and someone stays with him (St
+John).[7][10] He can't be moved to warmth, so shelter him from the wind, put a thick dry layer under
+him, and cover him with a sleeping bag or blankets and a foil blanket (St John), with his head covered (the
+NHS).[7][10] RCUK's prevention list adds wet clothing gently removed and replaced with dry, if
+there is dry clothing to change into (RCUK 2025).[2] Nothing to eat or drink while he is mumbling (St
+John: only if fully alert); no rubbing his arms or legs (the NHS).[7][10]
 
-**B.** Heat exhaustion: he is thinking clearly.[6] Shade, clothes off, a drink with carbohydrate and
-electrolytes, no salt tablets (CDC; AHA/Red Cross 2024).[11][1] The CDC's workplace page says to take a
-worker with heat exhaustion for medical evaluation, and 911 if care is not available.[11] Confusion, a
-seizure, collapse, or no better after 30 minutes makes it heatstroke and a 911 call.[1][6]
+**B.** Heat exhaustion: he is thinking clearly, and the AHA defines heatstroke by altered mental
+status.[1] Shade, excess clothing off, exertion stopped, cool liquids since he can swallow (AHA/Red
+Cross 2024, COR 1); a carbohydrate-electrolyte drink is reasonable over water (COR 2a), and no salt
+tablets (CDC).[1][11] The CDC's workplace page says to take a worker with heat exhaustion for medical
+evaluation, and 911 if care is not available.[11] Confusion or any change in his thinking makes it
+heatstroke and a 911 call (AHA/Red Cross 2024, COR 1).[1]
 
 **C.** 999; calm and at rest; the hand and arm kept still; rings and watch off; no pressure bandage,
 ice, heat, tourniquet, cutting or sucking (RCUK 2025); paracetamol, not ibuprofen or aspirin, if she
@@ -623,8 +713,8 @@ round or oval rash in the 3 months after.[9]
 
 :::exercise A heat-wave plan for someone you know
 
-Pick an older relative or neighbour who lives alone, and write a one-page plan for the next heat
-wave:
+Take 15 minutes. Pick an older relative or neighbour who lives alone, and write a one-page plan for
+the next heat wave:
 
 1. Who checks on them, and how often. No source this course read gives a frequency, so this is your
    judgement; write down why you chose it.
@@ -642,9 +732,9 @@ Show it to them. They may have views on being checked; a plan they've agreed to 
 Nothing in this lesson needs a manikin except the CPR any of it can end in. For that, keep
 practising with the BHF's [RevivR](https://www.bhf.org.uk/revivr) or RCUK's
 [Lifesaver](https://www.resus.org.uk/public-resource/how-we-save-lives/lifesaver-learning/lifesaver)
-between classes; a class near you is lesson 16's subject. The St John heatstroke, heat exhaustion and frostbite videos
-have not been watched against the guidance, and the heatstroke one teaches the wet sheet rather than
-immersion, so none is embedded. The [NHS heat page](https://www.nhs.uk/conditions/heat-exhaustion-heatstroke/),
+between classes; a class near you is lesson 16's subject. The St John heatstroke, heat exhaustion and
+frostbite videos have not been watched against the guidance, and the heatstroke one teaches the wet
+sheet, so none is embedded. The [NHS heat page](https://www.nhs.uk/conditions/heat-exhaustion-heatstroke/),
 the [NHS snakebite page](https://www.nhs.uk/conditions/snake-bites/) with its photographs of the
 adder and the two harmless UK snakes, and the
 [CDC's tick removal page](https://www.cdc.gov/ticks/after-a-tick-bite/index.html) show what the words
@@ -653,16 +743,12 @@ words.
 
 ## Connections
 
-Cooking Fundamentals lesson 2's oven and boiling-water arithmetic is the reason cold water wins for
-heatstroke. Lesson 10 cooled a burn and warned against chilling a child; here the whole body goes into
-cold water on purpose. Lesson 4's grading key read "no recommendation" for classic heatstroke, and
-lesson 13 handles any sting that becomes anaphylaxis. Lesson 14's rule, nothing by mouth unless fully
-awake, holds for the confused runner and the mumbling hiker, and lesson 2 and lesson 7 decide what
-happens if either stops responding.
-
-**Lesson 16** covers what comes after an emergency, how skills fade, where to train, and how the
-guidelines themselves change. **Emergency Preparedness** and **Wilderness Survival**, much later on the
-Core, take up heat, cold and bites far from an ambulance.
+Cooking Fundamentals lesson 2's oven and boiling-water arithmetic is this course's explanation of
+why cold water wins for heatstroke. Lesson 10 cooled a burn and warned against chilling a child;
+here the whole body goes into cold water on purpose. Lesson 4's grading key is how to read ILCOR's
+"no recommendation" for classic heatstroke, and lesson 13 handles any sting that becomes
+anaphylaxis. Lesson 14's rule, nothing by mouth unless fully awake, holds for the confused runner and
+the mumbling hiker, and lesson 2 and lesson 7 decide what happens if either stops responding.
 
 ## Go deeper
 
@@ -682,7 +768,7 @@ Core, take up heat, cold and bites far from an ambulance.
 
 1. E. K. Hewett Brumberg, M. J. Douma and colleagues, "2024 American Heart Association and American
    Red Cross Guidelines for First Aid", *Circulation* 150, 2024, e519 to e579
-   <!-- SOURCES Part C S1; Part C 10, 11, 12; Browser gate closures, G3 (T29, T32, T33, T34, T35). Table 26 rows 1 to 3 and 6 and the smooth-stinger sentence are in Gate closures, lesson 13. Not yet recorded in SOURCES: Table 26 rows 4, 5 and 7 to 10 and the sting background and supporting text (60 deaths, 60 seconds, wheal study), Table 27 (tick bites) with its supporting text, the hypothermia Table 11 "handle the patient gently" line and supporting text for recs 4, 9 and 10, the frostbite supporting text, the snakebite background and supporting text, the heatstroke background and supporting text beyond the water-temperature sentence. -->.
+   <!-- SOURCES Part C S1; Part C 10, 11, 12; Browser gate closures, G3 (T29, T32, T33, T34, T35). Table 26 rows 1 to 3 and 6 and the smooth-stinger sentence are in Gate closures, lesson 13. Table 26 rows 4, 5 and 7 to 10, Table 27, Table 11, Table 32 rows 1, 4 and 10, and the sting, tick, hypothermia, frostbite, snakebite and heatstroke text used here are in Gate closures, lesson 15. -->.
    **Read level: full, direct, from the Internet Archive capture 20260329073336**, for all prose; the
    environmental emergencies section re-read on 2026-09-25. The recommendation tables for bee and wasp
    stings (Table 26), tick bites (Table 27), snakebite (Table 29), hypothermia (Table 32), frostbite
@@ -690,16 +776,16 @@ Core, take up heat, cold and bites far from an ambulance.
    Tables 29, 32, 33, 34 and 35 were checked against the publisher's own images on 2026-09-24, and
    Tables 26, 27, 32 and 33 re-read from archived copies of those images on 2026-09-25.
 2. Resuscitation Council UK, [*2025 Resuscitation Guidelines: First aid*](https://www.resus.org.uk/professional-library/2025-resuscitation-guidelines/first-aid-guidelines),
-   27 October 2025 <!-- SOURCES Part C S5; Part C 10, 12. The prevention-of-hypothermia list, the heatstroke alternatives, "Remember: cool first, transfer second." in RCUK's text, and the snakebite lines other than the two quoted are not yet recorded verbatim in SOURCES. -->.
+   27 October 2025 <!-- SOURCES Part C S5; Part C 10, 12. The prevention-of-hypothermia, heatstroke and snakebite lines used here are in Gate closures, lesson 15. -->.
    **Read level: full, direct**; the "Prevention of hypothermia", "Heat stroke" and "Snake bite"
    sections re-read on 2026-09-25. It has no frostbite, sting or tick section.
 3. T. Djärv, J. Rogers, F. Semeraro and colleagues, "European Resuscitation Council Guidelines 2025
-   First Aid", *Resuscitation* 215 (suppl 1), 2025, 110752 <!-- SOURCES Part C S3; Part C 10, 12; Browser gate closures, G1. The classic heatstroke, thermometer, ranked cooling list and snakebite evidence passages are not yet recorded verbatim in SOURCES. -->.
+   First Aid", *Resuscitation* 215 (suppl 1), 2025, 110752 <!-- SOURCES Part C S3; Part C 10, 12; Browser gate closures, G1. The classic heatstroke, thermometer, call and snakebite passages are in Gate closures, lesson 15; the ranked cooling list is summarised there. -->.
    **Read level: full, direct, on the publisher's page**; the hypothermia, heatstroke and snakebite
    sections re-read there on 2026-09-25.
 4. ILCOR First Aid Task Force, [*First Aid Cooling Techniques for Heat Stroke and Exertional Hyperthermia*](https://costr.ilcor.org/document/first-aid-cooling-techniques-for-heat-stroke-and-exertional-hyperthermia),
    Consensus on Science with Treatment Recommendations, 2019 November (the 2020 CoSTR)
-   <!-- SOURCES Part C S7; Part C 10. The technical remarks on ranking and the 15-minute justification are paraphrased beyond SOURCES' summary. -->.
+   <!-- SOURCES Part C S7; Part C 10. The ranking and 15-minute passages are in Gate closures, lesson 15. -->.
    **Read level: full, direct**; re-read on 2026-09-25.
 5. T. Djärv, M. J. Douma and colleagues for the ILCOR First Aid Task Force, "2025 International
    Consensus on First Aid Science With Treatment Recommendations", *Circulation* 152, 2025
@@ -716,13 +802,13 @@ Core, take up heat, cold and bites far from an ambulance.
    <!-- SOURCES Part C S17 -->. **Read level: full, direct**; re-read on 2026-09-25.
 9. NHS, [Insect bites and stings](https://www.nhs.uk/conditions/insect-bites-and-stings/), last
    reviewed 1 June 2023, and [Lyme disease](https://www.nhs.uk/conditions/lyme-disease/), last reviewed
-   3 June 2025 <!-- not yet in SOURCES; read 2026-09-25 -->. **Read level: full, direct**, both read on
+   3 June 2025 <!-- SOURCES Gate closures, lesson 15 -->. **Read level: full, direct**, both read on
    2026-09-25.
 10. St John Ambulance, [Heatstroke](https://www.sja.org.uk/first-aid-advice/heatstroke/),
     [Heat exhaustion](https://www.sja.org.uk/first-aid-advice/heat-exhaustion/),
     [Hypothermia](https://www.sja.org.uk/first-aid-advice/hypothermia/) and
     [Frostbite](https://www.sja.org.uk/first-aid-advice/frostbite/), each clinically reviewed 28 April
-    2025 <!-- SOURCES Part C S18. Lines beyond Part C 10 and 11's summary are not yet recorded verbatim. -->.
+    2025 <!-- SOURCES Part C S18. Lines beyond Part C 10 and 11's summary are in Gate closures, lesson 15. -->.
     **Read level: full, direct**; all four re-read on 2026-09-25.
 11. CDC, National Institute for Occupational Safety and Health, [Heat-related illnesses](https://www.cdc.gov/niosh/heat-stress/about/illnesses.html)
     <!-- SOURCES Part C S36 -->. **Read level: full, from the Internet Archive capture
@@ -730,5 +816,5 @@ Core, take up heat, cold and bites far from an ambulance.
 12. US National Weather Service, [Heat Cramps, Exhaustion, Stroke](https://www.weather.gov/safety/heat-illness)
     <!-- SOURCES Part C S36 -->. **Read level: full, direct**; re-read on 2026-09-25.
 13. CDC, [What to do after a tick bite](https://www.cdc.gov/ticks/after-a-tick-bite/index.html), 9 June
-    2026 <!-- not yet in SOURCES; read 2026-09-25 from the Internet Archive capture 20260919133937 -->.
+    2026 <!-- SOURCES Gate closures, lesson 15 -->.
     **Read level: full, from the Internet Archive capture 20260919133937**, read on 2026-09-25.

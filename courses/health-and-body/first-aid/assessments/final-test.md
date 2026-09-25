@@ -477,14 +477,33 @@ quiz:
       AHA/Red Cross 2024 guideline says encourage oral glucose, and call EMS if she doesn't improve
       within 10 minutes.
 
-  # Items for lesson 15 go here as that lesson is written (OUTLINE "Assessments").
+  # --- Heat, cold, bites and stings (L15) ---
+  - q: >-
+      In Bismarck, North Dakota, you find your neighbour, a man in his seventies, on his back step at
+      dawn after he was locked out overnight in freezing rain. He's mumbling, pale and too clumsy to
+      help take off his soaked coat. 911 is called and the crew is 25 minutes away. You have his
+      spare key, blankets and chemical heat packs. Under the AHA/Red Cross 2024 guideline, what fits
+      while you wait?
+    options:
+      - A warm shower straight away, since getting his temperature up fast matters most
+      - Rub his hands and feet hard, then hold the heat packs on them to get him going
+      - Into the house, wet clothes off gently, blankets, heat packs wrapped in cloth
+      - Hot sweet coffee first to warm him from the inside, then blankets on the sofa
+    answer: 2
+    explain: >-
+      Mumbling and being unable to help take off wet clothing are signs to call (COR 1, LOE C-EO),
+      and the guideline says to move him from the cold to somewhere warm, remove saturated
+      clothing, and rewarm with blankets, actively if you have the means (COR 1, LOE B-R). Rewarming
+      devices are allowed with insulation between device and skin and frequent checks for burns
+      and pressure injury (COR 1, LOE C-LD), and the table of stages says to handle him gently
+      now that he's less responsive. Heat, rubbing and massage on the limbs are COR 3: Harm, as is a warm
+      shower once responsiveness is reduced, because of falls, drowning and a further drop in core
+      temperature. High-calorie drinks are for someone alert and able to swallow. In the UK the
+      NHS says 999, and no hot bath or hot water bottle at all.
 ---
 
-<!-- Items for lesson 15 are still to be added: this file covers lessons 1 to 14 only for now. The blueprint is in research/OUTLINE.md, "Assessments". Update the counts in the paragraph below when they go in. -->
-
-This test covers lessons 1 to 14. **Twenty-three questions, and 70 per cent to pass**, which is
-seventeen (70 per cent of 23 is 16.1, rounded up).
-Questions on the later lessons will be added as those lessons are written.
+This test covers lessons 1 to 15; lesson 16 is tested through the course project. **Twenty-four
+questions, and 70 per cent to pass**, which is seventeen (70 per cent of 24 is 16.8, rounded up).
 
 :::callout Before you need this
 This course is education, not a certificate, and not medical advice about anyone's own situation. In an emergency, call your local emergency number first (911 in the US, 999 or 112 in the UK, 112 across the EU), put the phone on speaker, and do what the call handler tells you. Reading can teach you what to do and in what order. It can't teach your hands how hard to push or how a back blow should feel, so take a hands-on class with a manikin and an instructor, and practise between classes. Each instruction here names the guideline and year it comes from, and guidance changes.
