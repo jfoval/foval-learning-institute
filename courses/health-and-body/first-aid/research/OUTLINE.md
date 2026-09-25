@@ -1204,8 +1204,8 @@ lesson, at least one of them a decision on a new scenario.
   know how; the child who won't cooperate (sugar under the tongue, ILCOR weak); the units (below 70
   mg/dL, below 4 mmol/L) and the US 15-15 rule; the British Red Cross's logic that sugar given to a
   conscious person whose sugar is actually high is unlikely to harm (Part C 7); **poisoning**: US
-  Poison Help 1-800-222-1222; UK 999 if unconscious, not breathing, seizing, or struggling to
-  breathe, otherwise NHS 111; don't induce vomiting (NHS; ipecac abandoned, AACT/EAPCCT 2013);
+  Poison Help 1-800-222-1222; UK 999 or A&E for any suspected swallow, touch or breath of something
+  harmful, NHS 111 only if unsure whether it is harmful (NHS; corrected 2026-09-25); don't induce vomiting (NHS; ipecac abandoned, AACT/EAPCCT 2013);
   nothing to eat or drink unless a poison centre or clinician says so (the dilution disagreement,
   reconciled) (Part C 9); activated charcoal as a hospital treatment, not first aid; chemicals on
   skin and eyes (back to lesson 10); **carbon monoxide** (colourless, odourless, symptoms better

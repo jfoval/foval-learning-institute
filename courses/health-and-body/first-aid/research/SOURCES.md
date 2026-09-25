@@ -1719,8 +1719,8 @@ Supportive text [V]: seizures usually stop within 1 to 2 minutes; febrile seizur
 ### 7. Hypoglycaemia
 
 - AHA/ARC 2024 (S1, T24) [V-img]: awake and able to swallow, encourage oral glucose, COR 1, C-LD; activate EMS if unable to swallow, has a seizure, or "does not improve within 10 minutes of oral glucose administration", COR 1, C-EO; glucose tablets preferred over gel or dietary sugar, 2a, B-NR; dietary sugars as alternative, 2a, C-LD; children awake but unwilling: slurry of granulated sugar and water under the tongue, 2b, C-LD; "Oral glucose should not be administered to people who are not awake or not able to swallow." COR 3: Harm, C-EO. Supportive text: "≥20 g oral glucose" restores glucose; Table 8 lists foods with at least 15 g simple sugar (1 tablespoon sugar or honey, 6 to 8 oz juice or non-diet soda, 15 to 25 jellybeans).
-- ILCOR 2025 (S2): unchanged. Glucose tablets for conscious adults and children, strong recommendation, low-quality evidence (2015). Dietary sugars if no tablets, weak. Oral (swallowed) glucose, strong, very low certainty; against buccal alone, weak; oral plus buccal gel if no tablet; sublingual for uncooperative children, weak. Evidence update: most recover after 15 to 20 g.
-- ERC 2025 (S3) and RCUK 2025 (S5): glucose or dextrose tablets 15 to 20 g by mouth if awake and able to swallow; alternatives "a handful of sugary sweets or 50–100 ml of fruit juice or sugar containing soda"; repeat if not improving after 15 min; child uncooperative: half a teaspoon (2.5 g) sugar under the tongue; unresponsive, no oral sugar; glucagon if prescribed and trained (injection or nasal).
+- ILCOR 2025 (S2): unchanged. Glucose tablets for conscious adults and children, strong recommendation, low-quality evidence (2015). Dietary sugars if no tablets, weak (2015). Both under "Treatment Recommendations (2015, Unchanged)". Oral (swallowed) glucose, strong, very low certainty; against buccal alone, weak; these two under "Treatment Recommendations (2021)" (years corrected 2026-09-25, Stage 4 lesson 14); oral plus buccal gel if no tablet; sublingual for uncooperative children, weak. Evidence update: most recover after 15 to 20 g.
+- ERC 2025 (S3) and RCUK 2025 (S5): glucose or dextrose tablets 15 to 20 g by mouth if awake and able to swallow; alternatives "a handful of sugary sweets or 50–100 ml of fruit juice or sugar containing soda"; repeat if not improving after 15 min; child uncooperative: half a teaspoon (2.5 g) sugar under the tongue; unresponsive, no oral sugar; glucagon if prescribed and trained (injection or nasal) (ERC only, and not re-verified; RCUK 2025's hypoglycaemia section has no glucagon line, corrected 2026-09-25, Stage 4 lesson 14).
 - US 15-15 rule: ADA (S35) "Use the 15/15 rule of 15g fast-acting carbs/15 minutes". Hypoglycaemia below 70 mg/dL (US) or 4 mmol/L (UK).
 - UK: NHS (S14) small glass of juice or sugary drink, 5 glucose tablets, 4 large jelly babies or 2 tubes of gel; check after 10 to 15 minutes. Diabetes UK (S23) 15 to 20 g, retest after 10 to 15 minutes. Unconscious: nothing by mouth, recovery position, glucagon if available and you know how, call 999 if no glucagon or no recovery in 10 minutes, or if they have been drinking alcohol (NHS).
 - Glucagon products: nasal glucagon (Baqsimi) FDA approved 24 July 2019 (openFDA). In the UK, Diabetes UK (S23) says only one glucagon injection kit (GlucaGen Hypo Kit) is available and the Ogluo pen was discontinued September 2025; Baqsimi did not appear on emc search on the read date. Do not tell UK learners nasal glucagon is available without checking.
@@ -1740,7 +1740,7 @@ Supportive text [V]: seizures usually stop within 1 to 2 minutes; febrile seizur
 
 ### 9. Poisoning
 
-- **Call for advice:** US Poison Help 1-800-222-1222 (53 accredited centres, America's Poison Centers, S37; also in S1 table: Canada 1-844-764-7669). UK: 999 if unconscious, not breathing, seizing, severe breathing difficulty; otherwise NHS 111 if unsure (S16). TOXBASE is the UK National Poisons Information Service database for health professionals (from the brief; not read).
+- **Call for advice:** US Poison Help 1-800-222-1222 (53 accredited centres, America's Poison Centers, S37; also in S1 table: Canada 1-844-764-7669). UK: the NHS poisoning page (S16) says call 999 or go to A&E if you think someone "may have swallowed, touched or breathed in something harmful" [V], and its list includes loss of consciousness, stopped breathing, severe difficulty breathing and a seizure; NHS 111 only if "you're not sure if something ... is harmful" [V] (corrected 2026-09-25, Stage 4 lesson 14: this line read "999 if unconscious ...; otherwise NHS 111 if unsure", which the page does not say). TOXBASE is the UK National Poisons Information Service database for health professionals (from the brief; not read).
 - **Do not induce vomiting (Established):** NHS [V] "do not try to make someone sick if you think they've swallowed something harmful – they could choke and stop breathing"; SJA "Do not try to make them vomit." Ipecac: AACT/EAPCCT 2013 (S41) "The routine administration of ipecac at the site of ingestion or in the emergency department should definitely be avoided." (abstract, [V]).
 - **Nothing to eat or drink vs dilution (Contested, small):** NHS and SJA: do not give anything to eat or drink. ILCOR 2010, restated in the 2022 evidence update (S8) [V]: "Administration of a diluent in first aid may be considered if a caustic substance has been ingested, if advised to do so by a healthcare provider. (weak recommendation, very low–certainty evidence". ILCOR 2025 lists oral dilution among topics not reviewed since 2020. Reconciled line: do not give drinks unless a poison centre or health professional tells you to.
 - **Activated charcoal:** NHS lists "a charcoal drink" as hospital treatment. I did not read a current first aid guideline statement on bystander charcoal; say "given in hospital, not a first aid measure" and cite NHS only.
@@ -5387,3 +5387,179 @@ publisher's image, read by eye 2026-09-25]
 **Public Law 113-48, School Access to Emergency Epinephrine Act, 13 November 2013, https://www.govinfo.gov/content/pkg/PLAW-113publ48/html/PLAW-113publ48.htm** [V, fetched 2026-09-25]
 - "the Secretary shall give additional preference to a State that provides to the Secretary the certification described in subparagraph (G) and that requires that each public elementary school and secondary school in the State--"
 - "has in place a plan for having on the premises of the school during all operating hours of the school one or more individuals who are trained personnel of the school."
+
+## Gate closures, lesson 14 (2026-09-25)
+
+Appended by lesson 14's Stage 4 fixer. The sentences below were string-matched by Reviewer F's
+script (`r14f/chk.py`, scratchpad, not kept) against F's fresh fetch of each named source on
+2026-09-25 (ILCOR against the drafter's pdftotext copy of the accepted manuscript). Normalisation:
+curly quotes to straight, en and em dash to hyphen, ® dropped, whitespace collapsed, spaces introduced
+by HTML tags before punctuation and in superscripts removed, AHA citation superscripts removed, ILCOR
+line numbers and line-end hyphen breaks removed. 113 candidates, all matched; the 106 not already in
+this file are recorded here, with Table 23 rows 2 and 3 read by eye. Lesson 14 paraphrases or quotes
+from these.
+
+**Corrections made elsewhere in this file today** (small targeted edits, Part C 7 and 9):
+- Part C 9, UK call line: the NHS poisoning page sends any suspected swallow, touch or breath of
+  something harmful to 999 or A&E; NHS 111 is only for when you are not sure whether it is harmful.
+  The line read "otherwise NHS 111 if unsure". OUTLINE lesson 14's "otherwise NHS 111" corrected to
+  match.
+- Part C 7: RCUK 2025's hypoglycaemia section has no glucagon line; the glucagon clause is left as
+  ERC's, marked not re-verified.
+- Part C 7, ILCOR years: swallowed oral glucose (and against buccal alone) is under "Treatment
+  Recommendations (2021)"; glucose tablets and dietary sugars under "Treatment Recommendations (2015,
+  Unchanged)".
+- Not an error, recorded for the record: on drinks after a swallowed poison the countries differ.
+  PoisonHelp.org gives "a small amount of water"; the NHS and St John give nothing to eat or drink.
+  Neither gives a reason.
+
+**AHA/American Red Cross 2024, Table 23 "First Aid for Seizures", row 2** [V-img, drafter's copy of
+the archived publisher image, read by eye 2026-09-25]
+- "First aid providers should minimize the risk of injury to the individual who is having a seizure by helping the person to the ground, placing the person on their side in the recovery position, and clearing the area around them." COR 1, LOE C-EO.
+- Row 3: "First aid providers should stay with the person having a seizure." COR 1, LOE C-EO.
+
+**AHA/American Red Cross 2024 Guidelines for First Aid, Wayback 20260329073336 (seizures, hypoglycemia and emergency-numbers sections; citation superscripts removed)** [V, fetched 2026-09-25, `r14f/aha.txt`]
+- "Seizures are uncontrolled electrical discharges of the neurons in the brain."
+- "Seizures can occur as a result of infections, trauma, poisonings, lack of oxygen, metabolic abnormalities (hypoglycemia), fevers (in children), and underlying neurological conditions such as epilepsy."
+- "Most seizures are followed by a postictal period in which the person appears tired and confused for several minutes."
+- "Seizures are usually self-limited and resolve spontaneously within 1 to 2 minutes."
+- "The recovery position is intended to reduce the risk of aspiration if the person vomits during the seizure or the postictal period."
+- "Febrile seizures are a common benign condition in childhood, affecting ≈2% to 4% of children."
+- "Fever treatment can help children feel better but will not prevent subsequent seizures."
+- "Restraining a person experiencing a seizure will not abort the seizure and may lead to injury of the person or the first aid provider."
+- "People experiencing seizures will often clench their jaw, which may lead to traumatic injury within the mouth."
+- "Attempting to place something in the mouth risks injury to the person's teeth or the rescuer's finger and is generally ineffective."
+- "Most seizures are followed by a postictal period in which the individual is somnolent, incoherent, and unable to swallow normally and therefore is at risk of aspiration of food, liquids, or medications placed in the mouth."
+- "Blood glucose levels are tightly regulated by several hormones, mainly insulin and glucagon."
+- "Symptoms typically develop when blood glucose falls below 50 to 60 mg/dL (2.8–3.3 mmol/L) and include dizziness, fatigue, feeling shaky or jittery, tachycardia (fast heart rate), confusion, slurred speech, and diaphoresis (sweating)."
+- "Significant hypoglycemia can lead to a state of unconsciousness and seizures."
+- "Administration of ≥20 g oral glucose or the equivalent in glucose-containing foods can rapidly restore blood glucose levels."
+- "In children who are responsive but unwilling to swallow oral glucose, applying a slurry of granulated sugar (≈1 teaspoon) and water under the tongue resolves hypoglycemia faster than oral granulated sugar."
+- "Attempting to treat severe hypoglycemia with oral glucose in a person who is not fully alert or who is unable to swallow can lead to choking and aspiration."
+- "Table 8. Dietary Sources Containing at Least 15 g Simple Sugars"
+- "First aid providers should know how to activate an on-site emergency response plan, how and when to access the EMS system, and how to contact the regional poison center (Table 4)."
+
+**RCUK 2025 First aid guidelines, Hypoglycaemia section, https://www.resus.org.uk/professional-library/2025-resuscitation-guidelines/first-aid-guidelines** [V, fetched 2026-09-25; superscript spacing normalised]
+- "Suspect hypoglycaemia in someone with diabetes or chronic malnutrition AND sudden impaired responsiveness or behavioural change."
+- "Give glucose or dextrose tablets (15-20 g) by mouth if the person is awake and able to swallow."
+- "If feasible, measure capillary blood sugar using a blood glucose meter and treat if low (a value less than 4.0 mmol L-1 or 70 mg dL-1) and repeat measurement after treatment."
+- "If glucose or dextrose tablets are not available, provide other dietary sugars, such as a handful of sugary sweets or 50-100 mL of fruit juice or a sugar-containing drink."
+- "If oral glucose is not available, give a glucose gel (partially held in the cheek, and partially swallowed)."
+- "Repeat giving oral glucose if the symptoms are still present and not improving after 15 min."
+- "For children who are uncooperative with swallowing oral glucose, but NOT unresponsive, consider administering half a teaspoon of table sugar (2.5 g) under the tongue."
+- "Call 999 if the person is/or becomes unresponsive, or the condition does not improve."
+- "Following recovery from symptoms (5-10 min after sugar intake), encourage the person to eat a light snack."
+
+**ILCOR 2025 First Aid CoSTR, accepted manuscript (ilcor.org PDF), pp. 17 to 19** [V, drafter's pdftotext copy `l14/ilcor_fa25.txt`, re-read by F; line numbers and line-end hyphen breaks removed]
+- "We recommend the use of oral glucose (swallowed) for individuals with suspected hypoglycemia who are conscious and able to swallow (strong recommendation, very low–certainty evidence)."
+- "Treatment Recommendations (2015, Unchanged)"
+- "We recommend that first aid providers administer glucose tablets for treatment of symptomatic hypoglycemia in conscious adults and children (strong recommendation, low-quality evidence)."
+- "their conclusion was that most recover after 15 to 20 g, but individual strategies based on body weight or type of insulin delivery system might be relevant in future guidelines."
+
+**Epilepsy Action, Tonic-clonic seizures, https://www.epilepsy.org.uk/info/first-aid/tonic-clonic-convulsive-seizures-first-aid (published April 2026)** [V, fetched 2026-09-25]
+- "Most tonic-clonic seizures last 1 to 3 minutes."
+- "Your breathing might sound heavy and laboured after a tonic-clonic seizure, with a deep snoring sound."
+- "Once the jerking has stopped, help their breathing by gently placing them in the recovery position (see below)"
+- "Look for an epilepsy identity card or identity jewellery – it may give you information about their seizures and what to do"
+- "They have trouble breathing after the seizure has stopped"
+- "They have had three or more seizures in the past 24 hours"
+- "Do not give them anything to eat or drink until they are fully recovered"
+- "The person having the seizure may wet themselves. You can help give them dignity by putting a light blanket or piece of clothing over their lower body."
+- "It may also help to move any bystanders away."
+- "Air might push past your voice box, which can make a sound like you're crying out"
+
+**NHS, What to do if someone has a seizure (fit) (reviewed 19 December 2023)** [V, fetched 2026-09-25]
+- "People with epilepsy do not always need an ambulance or to go to hospital every time they have a seizure."
+- "If you know what to do and have been trained then you can follow their care plan."
+- "If the person is in a wheelchair, put the brakes on and leave any seatbelt or harness on. Support them gently and cushion their head, but do not try to move them."
+- "the person has difficulty breathing after the seizure"
+
+**NHS, Epilepsy (reviewed 6 March 2025)** [V, fetched 2026-09-25]
+- "they've now had 3 or more seizures in 24 hours"
+
+**NHS, Poisoning, https://www.nhs.uk/conditions/poisoning/ (reviewed 12 June 2025)** [V, fetched 2026-09-25]
+- "you think you, a child, or someone else may have swallowed, touched or breathed in something harmful"
+- "you're not sure if something you or someone else have swallowed, touched or breathed in is harmful"
+- "start CPR if someone is unresponsive and not breathing"
+- "put the person in the recovery position if they're unconscious and still breathing"
+- "Symptoms may take a few hours or days to start, so it's important to get medical advice quickly if there's a chance you or someone else could have poisoning."
+- "a charcoal drink that can help stop some types of poisoning"
+- "Do not drive to A&E. Ask someone to drive you or call 999 and ask for an ambulance."
+
+**NHS, Carbon monoxide poisoning, https://www.nhs.uk/conditions/carbon-monoxide-poisoning/ (reviewed 16 December 2025)** [V, fetched 2026-09-25]
+- "They may get worse when you spend time in an affected room or building and get better when you leave or go outside."
+- "If you think a gas appliance is leaking carbon monoxide, call the free National Gas Helpline immediately on 0800 111 999."
+- "get a carbon monoxide alarm that makes a loud sound if there's carbon monoxide present – get 1 for each room of your home containing appliances that burn gas, oil, coal or wood"
+
+**NHS, Low blood sugar (hypoglycaemia) (reviewed 3 August 2023)** [V, fetched 2026-09-25]
+- "Low blood sugar usually affects people with diabetes who take insulin or some other diabetes medicines. It's rare in people without diabetes."
+- "Check your blood sugar after 10 to 15 minutes."
+- "Give them a glucagon injection straight away, if one is available and you know how to use it."
+- "If they start to recover within 10 minutes of having a glucagon injection and can swallow safely, give them some food or drink that will raise their blood sugar."
+- "you've given a glucagon injection and they have not recovered within 10 minutes"
+- "they've been drinking alcohol"
+- "carry a glucagon injection kit and medical ID with you"
+
+**St John Ambulance, Seizure (clinically reviewed 28 April 2025)** [V, fetched 2026-09-25]
+- "When any jerky movements have stopped, open their airway and check their breathing."
+- "If they are breathing, put them in the recovery position."
+- "If they become unresponsive at any time, prepare to call 999 or 112 for emergency help and give CPR."
+- "the cause of the seizure is unknown"
+- "the casualty is unresponsive for more than 10 minutes after the seizure"
+- "they have an injury on another part of the body, or they are not breathing normally"
+- "It can be helpful to capture a video of the seizure on your mobile phone if you can. This can aid diagnosis."
+- "noisy, difficult breathing"
+
+**St John Ambulance, Diabetic emergencies (clinically reviewed 28 April 2025)** [V, fetched 2026-09-25]
+- "they may be carrying glucose gel or glucose tablets"
+- "confusion and irrational behaviour"
+- "Stay with them until they feel completely better."
+- "If they do not improve quickly, look for any other reason why they could be unwell and call 999 or 112 for emergency help."
+- "If they are not fully alert, don't try to give them something to eat or drink as they may choke."
+
+**St John Ambulance, Poisoning (clinically reviewed 28 April 2025)** [V, fetched 2026-09-25]
+- "Poisoning can be accidental or deliberate."
+- "If the person is responsive, ask them what they have swallowed, when, and how much."
+- "Do not give the casualty anything to eat or drink."
+- "pain or burning sensation around the mouth, lips, or throat"
+
+**St John Ambulance, Carbon monoxide poisoning, https://www.sja.org.uk/first-aid-advice/carbon-monoxide-poisoning/ (clinically reviewed 28 April 2025; new source)** [V, fetched 2026-09-25]
+- "Tell the ambulance you suspect fume inhalation."
+- "Do not enter the fume-filled area yourself."
+
+**America's Poison Centers, PoisonHelp.org home page, https://www.poisonhelp.org/ (new source)** [V, fetched 2026-09-25]
+- "If an individual has collapsed, had a seizure, has trouble breathing, or can't be awakened, call 911 immediately."
+- "Gently wipe out the mouth and give a small amount of water."
+- "Do not try home remedies or try to make someone throw up."
+- "Get to fresh air right away"
+- "I am not trying to harm myself or others, and I agree to the terms and conditions"
+
+**CDC, First Aid for Seizures (dated 15 May 2024), Wayback 20260915105552** [V, fetched 2026-09-25]
+- "Seizures don't usually require emergency medical attention."
+- "Has diabetes and loses consciousness."
+- "Don't give mouth-to-mouth breaths during the seizure. People usually start breathing again on their own after a seizure."
+- "Turn them gently onto one side with their mouth pointing to the ground. This will keep their airway clear."
+- "Check to see if they are wearing a medical bracelet for information about any medical conditions, medicines, and emergency contacts."
+
+**Epilepsy Foundation, First Aid for Seizures: Stay, Safe, Side, Wayback 20260826112324** [V, fetched 2026-09-25]
+- "Waking up to a crowd can be embarrassing and confusing for a person after a seizure."
+- "Restraining a person can lead to injuries and make the person more confused, agitated, or aggressive."
+- "During a convulsion, it may look like the person has stopped breathing."
+- "As this part of a seizure ends, the muscles will relax and breathing will resume normally."
+- "Rescue breathing is generally not needed during these seizure-induced changes in a person's breathing."
+- "If this happens when something is in the mouth, the person may break and swallow the object or break their teeth!"
+- "Person is injured, pregnant, or sick"
+- "The person asks for medical help"
+
+**American Diabetes Association, Hypoglycemia (Low Blood Glucose)** [V, fetched 2026-09-25]
+- "If someone is unconscious and glucagon is not available or someone does not know how to use it, call 911 immediately."
+
+**Diabetes UK, Hypos** [V, fetched 2026-09-25]
+- "There is one type of glucagon injection available to treat severe hypos."
+- "You should rest for 10-15 minutes and then test your blood sugar again to check it is back above 4mmol/l."
+
+**British Red Cross, Diabetic emergency** [V, fetched 2026-09-25]
+- "Avoid giving them a diet drink, as it won't have any sugar in it and will not help them."
+
+**America's Poison Centers, home page, https://poisoncenters.org/** [V, fetched 2026-09-25]
+- "America's Poison Centers® represents the 53 accredited poison control centers in the U.S."

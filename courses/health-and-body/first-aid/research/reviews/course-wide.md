@@ -201,3 +201,28 @@ earlier sequence.** Still chosen by script.
   lesson 12.
 - **G16 and G4 not worked for lesson 13** (Commons EpiPen images; MHRA, British Red Cross and
   Asthma + Lung UK videos); none embedded.
+
+## 2026-09-25 — from lesson 14's Stage 4
+
+- **A seizure checkpoint must not say "don't call" for someone who isn't responding.** Lesson 14's
+  draft let the NHS seizure list overrule RCUK 2025's "Call 999 for any unresponsive person" and
+  marked the reader who followed lessons 2 and 7 wrong. The fix makes the case a groggy, responding
+  man and states the rule once: unresponsive after the jerking stops is lesson 2's call; the seizure
+  lists are for a person coming round. Scripts and lesson 16 should keep that order.
+- **CPR rules must keep "unresponsive".** "Breathing that is ... laboured or snoring: CPR" without it
+  puts a postictal person who groans and moves into CPR. Every restatement of lesson 2's rule needs
+  both halves.
+- **A stated deliberate overdose is the emergency number first.** PoisonHelp.org's online tool makes
+  the user confirm they are not trying to harm themselves or others; its crisis line is still the old
+  1-800-273-8255, not 988, which lesson 16 should know.
+- **SOURCES Part C 9 was wrong on the UK poisoning call** (now corrected, as is OUTLINE lesson 14):
+  the NHS sends any suspected swallow, touch or breath of something harmful to 999 or A&E, and 111
+  only when unsure whether it is harmful. Part C 7 credited RCUK with a glucagon line it doesn't have.
+  Scripts and the final test should use the corrected lines.
+- **Places:** lesson 14 uses Salem (Oregon), Eugene, Ogden, Wrexham, Kettering,
+  Provo, Cheltenham, Milwaukee, Ely, Stirling, Asheville, Taunton, Lubbock, Aylesbury, Flagstaff,
+  Stockton and Tempe; the final test's lesson 14 item uses Dorchester. Bolton, in the draft, is free again. Names: Dev, Owen, Leila.
+- **Quiz keys:** lesson 14 kept 3,2,0,1,2,1. The final test now has twenty-three items (seventeen to
+  pass) and ends on key 3.
+- **G4 not worked for lesson 14's videos** (Epilepsy Action, Epilepsy Foundation, St John); none
+  embedded.

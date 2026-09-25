@@ -456,13 +456,34 @@ quiz:
       responding turns a treatment into a resuscitation. In the UK the rule is a clock: no better
       five minutes after the first dose, give a second, ideally in the opposite leg (RCUK 2025).
 
-  # Items for lessons 14 and 15 go here as those lessons are written (OUTLINE "Assessments").
+  # --- Seizures, low blood sugar and poisoning (L14) ---
+  - q: >-
+      At a bus stop in Dorchester, in England, a woman who takes insulin for diabetes is shaky and
+      sweating but talking sense, and she can swallow. She has no glucose tablets or sweets; you have
+      a carton of orange juice. Under RCUK's 2025 first aid guideline, what fits?
+    options:
+      - Nothing by mouth until a crew can check her sugar, in case it's actually high
+      - Give her the juice, then call 999 at once, since every hypo needs a crew
+      - Wait 15 minutes to see whether it passes, then give juice if she's no better
+      - 50 to 100 mL of the juice now, and more if she's no better after 15 minutes
+    answer: 3
+    explain: >-
+      RCUK's first line is glucose tablets for someone awake and able to swallow; without them, a
+      handful of sugary sweets or 50 to 100 mL of fruit juice or a sugary drink. It says repeat if the
+      symptoms are still there and not improving after 15 minutes, and call 999 if she is or becomes
+      unresponsive or doesn't improve, which is not every hypo. Nothing by mouth is for someone not
+      awake or unable to swallow, and the British Red Cross says sugar is unlikely to harm someone
+      whose sugar turns out to be high. Waiting holds back a treatment she can take now. In the US the
+      AHA/Red Cross 2024 guideline says encourage oral glucose, and call EMS if she doesn't improve
+      within 10 minutes.
+
+  # Items for lesson 15 go here as that lesson is written (OUTLINE "Assessments").
 ---
 
-<!-- Items for lessons 14 and 15 are still to be added: this file covers lessons 1 to 13 only for now. The blueprint is in research/OUTLINE.md, "Assessments". Update the counts in the paragraph below when they go in. -->
+<!-- Items for lesson 15 are still to be added: this file covers lessons 1 to 14 only for now. The blueprint is in research/OUTLINE.md, "Assessments". Update the counts in the paragraph below when they go in. -->
 
-This test covers lessons 1 to 13. **Twenty-two questions, and 70 per cent to pass**, which is sixteen
-(70 per cent of 22 is 15.4, rounded up).
+This test covers lessons 1 to 14. **Twenty-three questions, and 70 per cent to pass**, which is
+seventeen (70 per cent of 23 is 16.1, rounded up).
 Questions on the later lessons will be added as those lessons are written.
 
 :::callout Before you need this
