@@ -152,3 +152,207 @@ line. The "Before you need this" callout byte-identical to lessons 1 and 16. `np
 exit 0.
 
 **Status after review:** needs second pass (seven scenarios and all ten model answers rewritten).
+
+## 2026-09-25 — Course project — Stage 4 second pass, Reviewer F2 (facts, neutrality, safety)
+
+**Reviewer:** F2, a fresh context, on the fix pass in 85cea2a. Every model answer checked against
+the **current** text of the lesson it draws on (lessons 2 to 15), body, year and grade per country.
+
+**Checked.**
+- **A** against lesson 8 (child sequence, RCUK stop rule, the British Red Cross's lighter back
+  blows, the NHS's lower-ribs warning, the unresponsive-child table, both device positions, RCUK's
+  reason) and lesson 6 (each side's reason). **B** against lesson 6 (puberty line; compressions
+  first COR 2b, LOE C-LD; depth and rate COR 2a, LOE C-LD; 30:2 and 15:2 COR 2a, LOE C-EO;
+  attenuator under 8, COR 1, LOE C-LD; paediatric mode under 25 kg) and lesson 2. **C** against
+  lessons 2, 3, 4 and 5 (assume arrest COR 1, LOE C-LD; depth COR 1, LOE B-NR; rate COR 2a, LOE
+  B-NR; compressions COR 1, LOE B-NR; CPR until pads on, COR 1; the ERC's "should not be delayed
+  whilst locating and retrieving"). **D** against lesson 13 (the MHRA's "even if in doubt about the
+  severity"; the posture table; RCUK's legs-extended line; second dose five minutes, other leg; US
+  COR 1 B-NR, C-EO, C-EO and COR 2b B-NR). **E** against lesson 12 (COR 1, LOE B-NR; the ASA quote;
+  the NHS's 24 hours, no driving, TIA urgent; St John; no aspirin). **F** against lesson 14 (RCUK's
+  2.5 g; the AHA's slurry COR 2b, LOE C-LD; tablets COR 2a, LOE B-NR; call lines COR 1, LOE C-EO;
+  COR 3: Harm). **G** against lesson 9 (tighten COR 1, LOE B-NR; "slows and stops"; a second above
+  the first; the RCUK release sentence; St John's reason; shock COR 2a and COR 2b, LOE C-LD; the legs
+  row). **H** against lesson 7 (the naloxone table and "After they wake"). **I** against lesson 14
+  (during-seizure list, the side-position timing, the call lists, the snoring line). **J** against
+  lesson 10. All grades and attributions match.
+- **"Unresponsive".** Every CPR restatement keeps it, except H's US closing line (fixed below).
+- **Nothing by mouth for anyone not fully awake.** E, F and I hold it; F's sugar under the tongue is
+  for an awake child, as both texts say.
+- **Fail list** matches OUTLINE's Assessments wording item for item. **Rubric** allows exactly
+  decision 1's willing-adult placement, as Part 2.3 does. The "Before you need this" callout is
+  byte-identical to lessons 1 and 16.
+- **Repeats, by script** (Jaccard over content words against every lesson paragraph over 150
+  characters, including quiz stems, and the final test), then by reading the top three for each:
+  A to I raise no repeat (highest 0.188, G against lesson 9's arm tourniquet case, a different
+  decision). **J repeated lesson 10's "The tea"**: a two-year-old, a blistering burn, and the same
+  call decision on the same four sources, with the hand route from lesson 10's oven-shelf
+  checkpoint. The first pass's reasoning looked only at the tea case's over-cooling checkpoint, not
+  at the call decision in the text above it. Fixed below.
+- **First-pass findings.** PF1 to PF10 and P22 to P31 each checked in the text; all applied as
+  recorded, except the P27 line (below).
+
+**Fixed directly.**
+1. **J given a twist** no lesson, quiz or test item asks: the child won't keep her hand under the
+   tap, and her grandmother wants frozen peas. The answer adds "Either way, the tap she won't stay
+   under": no ice (the British Burn Association, St John, the American Red Cross FAQ); the US
+   wrapped-ice exception is only for a superficial burn with intact skin (COR 2b, LOE C-LD), and
+   hers has blistered; the compress alternatives (the British Burn Association; the American Red
+   Cross), labelled as the course's reading since the sources write them for no running water. All
+   from lesson 10's "No running water, and ice". Re-run by script: J's top match falls to 0.119, not
+   a burn case.
+2. **P27's alarm line was unsourced**: "some cabinets raise an alarm when opened" is in no lesson or
+   SOURCES entry. Now "leave it closed, as lesson 5 said, because it's there for an emergency",
+   lesson 5's own line.
+3. **The practice rule dropped lesson 7's exclusions.** Added "never a child, and not anyone with a
+   neck, back, shoulder or hip problem or who is pregnant (lesson 7)". (The project's "no roll" is
+   stricter than lesson 7, which allows a slow, gentle roll on a carpet or bed; stricter is within
+   decision 1, so left.)
+4. **H's US line** "The relapse gets the same check and the same CPR" now reads "the same check:
+   unresponsive and not breathing normally, the same CPR".
+5. **F's UK amounts** now keep RCUK's order: juice "if there are none" of the tablets.
+6. **J's UK referral**: the NHS's "very large or deep", not "large or deep".
+
+**Measures.** `npm run validate` exit 0, no line naming this file; `npm run quotes first-aid` 0 not
+found; no em dashes or spaced en dashes. `minutes: 400` kept (the J addition is about 120 words
+inside a 45-minute decision).
+
+**Status after review:** clean
+
+## 2026-09-25 — the course-end test, reviewed whole
+
+**Scope.** `assessments/final-test.md` as a whole, after it was built a few items at a time as each
+lesson passed Stage 4, the way Nutrition's test was reviewed (its high findings: a balanced-option
+tell, and an item copied from a lesson quiz). Read against standards 4.3 and 4.4, OUTLINE's
+"Assessments" blueprint and decisions 2, 3 and 12, the current text of all 16 lessons (bodies,
+checkpoints, exercises and quizzes) and the project's ten scenarios.
+
+**Method.** Blueprint counts by hand. Reuse by script: each stem's place names, ages, numbers and
+setting nouns searched across every lesson and the project, then each hit read in context; each
+item's case compared by reading with every lesson quiz key (all 96) and the worked cases. Shape by
+the repo's `check-quiz-shape.cjs` and `check-quiz-letters.cjs`, plus a scratch script measuring
+sole-longest and sole-shortest keys, keys that are the only hedged or only absolute-free option,
+key positions, adjacent repeats and per-item spread. The balanced-option strategy by judgement,
+item by item: would a reader who has not taken the course, picking the measured, gentle,
+call-and-act or qualified option, get it right? Every key and explanation checked against the
+lesson's current text, including today's Stage 4 changes (lesson 12's aspirin verbs, lesson 13's
+who may inject, lesson 14's seizure call lists, lesson 15's no-drink attribution).
+
+### Findings
+
+**High**
+1. **The balanced-option tell, the whole test.** The mechanical measures were clean (no strategy
+   passes; key sole-longest 2 of 24), but by judgement a reader picking the measured, gentle or
+   call-and-act option got about 14 items for certain (1, 2, 4, 7, 11, 12, 15, 17, 18, 19, 20, 22,
+   23, 24) and 3 more likely (8, 14, 21): up to 17, the pass mark. The causes were distractors that
+   were extreme or silly beside a sensible key (item 11's "short, hard puffs" and "full deep
+   breath"; item 15's "drink water" and "lie down and wait"; item 18's butter), keys that were the
+   only qualified option (item 7's "unclear", item 22's "may be considered" against three
+   absolutes), and odd-one-out structure (item 1's three "carry on" options against one "let her
+   take over"). **Fixed:** distractors rewritten as the half-understood mistake, measured in tone,
+   in items 1, 7, 11, 15, 18, 19, 20 and 22, and the replaced items below written the same way
+   (item 12 has two "continuously" options, item 16 a loose tourniquet, item 24 an urgent-sounding
+   drive to A&E that is wrong). After: about 7 certain (1, 4, 17, 18, 19, 20, 23) and 6 possible
+   (5, 7, 8, 14, 15, 22), 13 at most.
+2. **Item 4 copied lesson 2's quiz item 4.** Both: a relative's headaches at home beside an old gas
+   appliance, the NHS carbon monoxide page, and options of the same shapes ("Open a window ... see
+   a GP" nearly word for word). **Replaced** with a new case on the NHS fainting page's 999 list
+   (an 81-year-old who faints lying on the sofa), a reason to call no lesson case uses; GP and 111
+   are the distractors, as in lesson 2's "999, or 111?" section.
+3. **Item 5 copied lesson 3's quiz item 1.** Both: someone practising compressions on a cushion at
+   the wrong rate, under the AHA, with "slower lets the heart refill" and "any rate if the depth is
+   right" as distractors. **Replaced** with a compression number and its reason not quizzed
+   anywhere: stops for breaths under 10 seconds (American Red Cross), because coronary perfusion
+   pressure falls almost at once (AHA 2025), with the one-second breath's stated purpose.
+4. **Item 12 copied lesson 7's quiz item 1.** Both: an unresponsive woman, quiet regular breathing,
+   no sign of injury, 999 on speaker, RCUK, key "recovery position and keep watching". **Replaced**
+   with how closely a child in the recovery position is watched (RCUK 2025 paediatric,
+   continuously or at least every minute; the AHA/Red Cross delayed-recognition line as the
+   reason).
+5. **Item 23 mirrored lesson 14's quiz item 3 with the country flipped.** Both: a person who takes
+   insulin, shaky and sweating, able to swallow, no glucose tablets, orange juice. **Replaced** with
+   the blueprint's other option, a seizure call: under the NHS page a seizure longer than the
+   person's usual is 999 before 5 minutes (lesson 14's "You often need their usual"), with the US 5
+   minutes named in the explanation (decision 12).
+
+**Medium**
+6. **Item 7's guideline line was not new.** Lesson 16 quotes the same AHA education line and says
+   how lesson 4's key reads it, so a reader of lesson 16 had the answer. **Replaced** with a line
+   quoted in no lesson, from SOURCES (AHA/Red Cross 2024, Table 26: "Stings to the eye should be
+   evaluated by a trained medical professional", COR 1, LOE C-EO), testing lesson 4's "A
+   recommendation with LOE C does not imply that the recommendation is weak."
+7. **Item 16 mirrored lesson 9's quiz item 6**: UK, a deep limb cut, blood through pressure, a PAcT
+   kit on hand, 999 on speaker. **Replaced** with a US calf wound: the AHA/Red Cross line (COR 1,
+   LOE B-NR) and Stop the Bleed's 2 to 3 inches, not over the knee; distractors a loose band
+   (Richey's reason), raising the leg (the NHS cuts page only) and a groin pressure point (AHA 2b,
+   ILCOR against). Checked against project scenario G (a tourniquet already on and failing): a
+   different decision.
+8. **Item 24 mirrored lesson 15's quiz item 4**: an older person, mumbling, hypothermia, and hot
+   bath or shower and hot drink as the wrong options. **Replaced** with the blueprint's other
+   option, heatstroke: RCUK 2025's cool first, transfer second, against a coach who wants to drive
+   to A&E; no drink while confused labelled as lesson 14's rule that lesson 15 applies; the ERC's
+   0.15 °C a minute; US grades named.
+9. **Item 2 restated lesson 2's checkpoint** after the five-a-side case (an athlete, fast deep
+   breathing, eyes open, unresponsive: does it change anything?). **Replaced** with lesson 2's
+   other recognition trap, seizure-like jerking then slow gasps (RCUK 2025, both quotes as the
+   lesson gives them).
+10. **Item 20's explanation misattributed a line.** "Don't drive yourself to A&E" is the NHS
+    broken-bone page's in lesson 11, not the head injury page's. The distractor built on it is
+    replaced ("999 only if the fluid is still running in an hour") and the explanation corrected.
+    Its stem also repeated lesson 11 quiz item 3's "wasn't knocked out and he's talking sense";
+    reworded.
+11. **Reused people and places.** Birmingham (lesson 7 quiz item 4) and a shopping centre (lesson
+    7's stairwell case, lesson 9 quiz item 6) in item 1; a sports hall (project B) in item 2; Tulsa
+    (lesson 10 quiz item 1) in item 8; a birthday party (project A) in item 10; Albuquerque (lesson
+    8's body) in item 13; a chip (lesson 8's predict) in item 14; Omaha twice inside the test (items
+    5 and 15); a garden centre (lesson 16 quiz item 4) in item 16; a bus stop (lessons 1, 7 and 13)
+    and orange juice (lesson 14 quiz item 3) in item 23; a man in his seventies (lesson 3's case,
+    lesson 9 quiz item 4) in item 24. **All changed**; the script re-run finds no place, setting or
+    person from a lesson or the project in any stem (the remaining hits are the numbers 999, 911
+    and 2025, and "rugby" and "lecture" in non-scenario sentences).
+
+**Low**
+12. Item 8 (a trained cashier unwilling to give breaths without a mask) is close to lesson 4's
+    practice rescuer B. New person, place and angle (the vomit, and the AHA's COR 1 against 2a).
+    Noted, not changed.
+13. Item 13 (naloxone) shares its key with lesson 7 quiz item 3, and item 22 applies the same two US
+    conditions as lesson 13's Des Moines checkpoint; each is a new case and a new angle (waiting
+    after a dose; a trailhead half an hour out). Noted, not changed.
+14. The intro said "The people and places are invented"; the places are real towns. Now "The people
+    and what happens to them are invented".
+15. Cosmetic: a stray line break inside item 9's explanation, no blank line before the lesson 8
+    comment, and three lines over 100 characters. Fixed.
+
+**Checked and clean.** Blueprint counts: lessons 1 to 15 at 1, 3, 2, 2, 1, 2, 2, 2, 2, 2, 1, 1, 1, 1,
+1, 24 in all, lesson 16 by the project. All 24 items put the reader in a new case, so at least 17
+are application. Every safety item names its country or has one answer under both (decision 12):
+item 6 names both, and its key is the same under each. Every key and explanation re-read against the
+lesson's current text: lesson 1's April 2018 booklet lines; lesson 3's pregnancy table; lesson 5's
+post-shock line (COR 2a, LOE B-R); lesson 6's 15:2 for the PBLS-trained; lesson 8's back-blow
+trigger and the American Red Cross's choking-alone advice; lesson 9's St John fracture exception;
+lesson 10's NHS 20 minutes within 3 hours and the eye rules; lesson 12's "may encourage ... chew and
+swallow" and the Red Cross's two to four 81 mg tablets; lesson 13's two US conditions (COR 2b, LOE
+B-NR). Explanations name each distractor by content and agree with their keys
+(`check-quiz-letters.cjs` clean). The intro's counts, 24 questions and 17 to pass, are right; no
+stale comments.
+
+**Shape, before and after** (scratch script; the repo's shape check passed both times).
+
+| | Before | After |
+|---|---|---|
+| Key sequence | CABDCBDADCDBACBACDBDBCDA | CABACBDADCDBACBACDBDBCDA |
+| Positions A/B/C/D | 4/6/7/7 | 6/6/6/6 |
+| Adjacent repeats | 0 | 0 |
+| Key sole-longest | 2 | 3 |
+| Key sole-shortest | 7 | 6 |
+| Key the only hedged option | 4 | 1 |
+| Key the only absolute-free option | 1 | 1 |
+| Widest option spread in an item | 6 characters | 9 characters |
+| Balanced-option strategy (judgement) | 14 certain, up to 17 | 7 certain, up to 13 |
+
+**Measures.** `npm run validate` exit 0, no line naming this file; `npm run build:drafts` exit 0;
+`check-quiz-shape.cjs` and `check-quiz-letters.cjs` clean on the file; no em dashes or spaced en
+dashes in it.
+
+**Status after review:** fixed, 5 high, 6 medium, 4 low; a second whole-test pass in a fresh context
+is owed on the eight replaced items (2, 4, 5, 7, 12, 16, 23, 24) before the course publishes.
