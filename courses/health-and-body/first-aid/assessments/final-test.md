@@ -316,7 +316,7 @@ quiz:
       dispatcher to send help". Then they can give themselves abdominal thrusts with their own
       fist, or press the abdomen against "the back of a chair or a railing", avoiding sharp edges.
       Neither the AHA's 2025 guideline nor RCUK's makes a recommendation on choking alone, so this
-      is the Red Cross's expert advice. No source read suggests water, putting off the call wastes
+      is the American Red Cross's advice, with no evidence cited. No source read suggests water, putting off the call wastes
       the minutes help needs to arrive, and lying down alone leaves nobody to act.
 
   # Items for lessons 9 to 15 go here as those lessons are written (OUTLINE "Assessments").

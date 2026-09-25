@@ -23,8 +23,8 @@ Rewrite these five lines each session. Nothing else goes in this block.
 
 - **Terms 1 and 2 are FINISHED. Term 3's first three courses are published and written**
   (2026-09-24): Nutrition, Strength and Fitness, and Cooking Fundamentals, with every lesson
-  scripted and fact-checked. **First Aid and CPR is drafting** (16 lessons, `research/OUTLINE.md`): lessons 1 to 6 are
-  through Stage 4; lesson 7 is through Stage 4; **lesson 8 is in its second pass, lesson 9 is under review, lesson 10 is being drafted**, then 11 to 16.
+  scripted and fact-checked. **First Aid and CPR is drafting** (16 lessons, `research/OUTLINE.md`): lessons 1 to 7 are
+  through Stage 4; **lesson 8 is in its second pass, lesson 9 is under review, lesson 10 is being drafted**, then 11 to 16.
   The course's own briefs are in `research/pipeline-briefs.md`. `assessments/final-test.md` has items for
   lessons 1 to 8 (15 of 24); **add each later lesson's items as it passes Stage 4**, and re-check the
   two lesson 7 items against lesson 7 once its fix pass lands.

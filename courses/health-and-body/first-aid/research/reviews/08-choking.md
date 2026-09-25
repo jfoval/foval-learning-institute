@@ -189,3 +189,75 @@ but the fix rewrote the whole quiz, the unresponsive-person section (a safety fi
 and child technique passages and the device conclusion, and added two course-end test items. One
 fresh reviewer on facts and safety (Reviewer F's brief), limited to those passages, the two test
 items and the new SOURCES section, is the proportionate check.
+
+## 2026-09-25 — Lesson 08 — Stage 4 second pass, one reviewer (facts and safety)
+**Reviewer:** F2, a fresh context, Reviewer F's brief, limited as the fixer asked: the six quiz
+items (keys, explanations, option lengths), "When they stop responding", the child and baby
+passages, the suction-device conclusion, the two lesson 8 items in `assessments/final-test.md`,
+and SOURCES "Gate closures, lesson 8". Checked against the primaries Reviewer F saved (`r8f/`):
+AHA Parts 6 and 7 FBAO sections, the newsroom release, RCUK First aid, RCUK Paediatric BLS, both
+RCUK choking algorithms, the RCUK suction statement, ILCOR 2020 and 2025, and the NHS, St John,
+British Red Cross and American Red Cross pages.
+
+**Checked and right.** Every COR and LOE in the scope (adult 10.1 to 10.3 and paediatric 1 to 7,
+including 2b C-LD on both device statements and C-EO on the adult visible-object line); the
+unresponsive passage (RCUK first aid and both algorithms put no breathing check before CPR; the
+AHA's "regardless of whether or not the patient has a pulse" and low-injury lines; the British Red
+Cross adult page says the same, "unresponsive and not breathing"); RCUK's stop rule, single sweep,
+five rescue breaths and "as soon as possible ... at the latest" call; the British Red Cross
+force-scaling lines (child on the adult page, baby on the baby page); the NHS lower-ribcage warning
+(it sits under the child abdominal-thrust steps, where the lesson puts it); the NHS "artificial
+cough" line (said of both baby chest and child abdominal thrusts, so "writing about children"
+holds); ILCOR 2020 "case series of 9 adults" and "suggest against"; ILCOR 2025 "17 new
+publications" and "no treatment recommendations"; the American Red Cross wheelchair, alone,
+pale-or-bluish and 1 ½ inch lines; "about 4 cm" (1.5 × 2.54 = 3.81). Pass mark redone: 70 per cent
+of 15 is 10.5, so eleven. SOURCES "Gate closures, lesson 8" spot-checked against the primaries
+(AHA 10.1 to 10.3, Part 6 §6.3, the newsroom infant sentence, RCUK First aid key points, RCUK
+Paediatric FBAO, both algorithms, the suction statement, NHS, British Red Cross, American Red
+Cross): no mismatch found. Every first-pass F finding claimed fixed is fixed (F1 to F21).
+
+**Option lengths, measured.** Lesson quiz: Q1 82/84/81/*81, Q2 85/*81/83/81, Q3 86/81/*83/84,
+Q4 *80/81/80/79, Q5 83/78/*80/80, Q6 82/83/77/*79 (the fix record says 80; one character, no
+effect); the key is never the sole longest. Final test items 14 and 15: 82/79/*82/83 and
+82/*82/82/81, as recorded; keys 2 and 1, no adjacent repeat with item 13 (key 0).
+
+**Findings:**
+1. S1 [minor, fixed] Quiz 6 explanation: "No trial read here found throat injuries; one study of
+   device users recorded a possible adverse event it could not attribute to the device." The 2023
+   study (SOURCES Part B 2.7) recorded possible adverse events, plural, including one oesophageal
+   perforation, which is a throat injury, so the sentence understated it and read as a rebuttal it
+   isn't. Replaced with: the 2025 trial used a manikin, "so it could show nothing about injuries to
+   people. The AHA doesn't advise against the devices either: it makes no recommendation, and it
+   sets no condition under which staff should use one." The body's paragraph on the 2023 study
+   already gives the adverse events correctly.
+2. S2 [minor, fixed] Suction conclusion: "What the bodies agree on today is that no device has been
+   shown to beat back blows and thrusts ... the AHA grades them COR 1 and the devices COR 2b." Only
+   the AHA says it has no evidence of superiority; RCUK and ILCOR say only that they make no
+   recommendation. And "grades the devices COR 2b" reads as a weak recommendation for them, when
+   the 2b is attached to "insufficient evidence to make a recommendation". Now: "none of them
+   recommends a device over back blows and thrusts. RCUK says those should come first; the AHA
+   grades them COR 1 and finds too little evidence to make any recommendation on the devices (COR
+   2b).[1][8][15]"
+3. S3 [minor, not fixed, outside this pass's scope] "The American Red Cross was already teaching
+   back blows and thrusts" (the "What changed in 2025" section, unchanged since the draft). The only
+   support is the Stage 1 researcher's own sentence in SOURCES Part B 2.2 ("has taught 5-and-5 for
+   longer than the AHA"), with no source; the page itself was read in 2026 and is undated.
+   Suggested fix: "The American Red Cross page also teaches back blows and thrusts; it does not say
+   since when." Neither reviewer caught it on the first pass.
+4. S4 [minor, not fixed] "this is expert advice" (Choking alone) and "the Red Cross's expert
+   advice" (final test item 15) name an evidence level no source gives the American Red Cross
+   page. "Nothing read cites any data on it" already says what matters. Suggested wording: "this is
+   the American Red Cross's advice, with no evidence cited".
+
+**Neutrality.** No change in scope alters the balance: the device case for and against keeps
+its strongest forms, and S2 makes the conclusion claim no more than each body says. **Safety.**
+The unresponsive-choking passage and quiz 4 now route a snoring or gurgling collapsed person to
+CPR in both countries; the baby and child passages carry force scaling and the ribcage warning;
+nothing in scope asks for practice on a living person. `npm run validate` exit 0, no line names
+this lesson or the final test; `npm run quotes first-aid`: 340 sourced quotations, 0 not found.
+
+**Status after review:** clean. S1 and S2 fixed here; S3 and S4 are one-line wording fixes, not
+safety matters, and can go in with the voice pass or the next edit to this lesson.
+
+Orchestrator, 2026-09-25: S3 and S4 applied as the reviewer worded them ("also teaches"; "the
+American Red Cross's advice, with no evidence cited", in the lesson and in final-test item 15).

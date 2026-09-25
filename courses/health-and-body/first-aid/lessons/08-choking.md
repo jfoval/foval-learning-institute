@@ -114,9 +114,9 @@ quiz:
     explain: >-
       The AHA says the effectiveness and safety of suction devices have not been established and
       there is insufficient evidence to make a recommendation (COR 2b, LOE C-LD). The 2025 trial
-      put lay people in front of a choking manikin, not a person. No trial read here found throat
-      injuries; one study of device users recorded a possible adverse event it could not
-      attribute to the device. The AHA sets no condition under which staff should use one.
+      put lay people in front of a choking manikin, not a person, so it could show nothing
+      about injuries to people. The AHA doesn't advise against the devices either: it makes no recommendation, and
+      it sets no condition under which staff should use one.
 ---
 
 Choking is the emergency most likely to happen in front of you with food on the table. The
@@ -184,7 +184,7 @@ COR 1, LOE B-NR).[1]
 That sentence is new. The AHA's [announcement](https://newsroom.heart.org/news/updated-cpr-guidelines-tackle-choking-response-opioid-related-emergencies-and-a-revised-chain-of-survival) of the 2025 guidelines says: "Choking guidance for
 adults was not included in the previous guidelines, and earlier guidance for children called for
 performing abdominal thrusts only."[3] Abdominal thrusts are the squeeze from behind that many
-people know as the Heimlich manoeuvre. The American Red Cross was already teaching back blows and
+people know as the Heimlich manoeuvre. The American Red Cross also teaches back blows and
 thrusts; its page does not say since when.[12]
 
 The UK and European order was already back blows first, and RCUK's 2025 first aid guideline keeps
@@ -362,7 +362,7 @@ abdominal thrusts or to press your abdomen against "the back of a chair or a rai
 sharp edges and taking care with a railing that is raised.
 
 Neither the AHA's 2025 guidelines nor RCUK's make a recommendation on self-rescue, and nothing read
-cites any data on it: this is expert advice.[12] Whether a silent 999 call in the UK is handled the
+cites any data on it: this is the American Red Cross's advice, with no evidence cited.[12] Whether a silent 999 call in the UK is handled the
 same way as a silent 911 call is something this course did not research, so it makes no claim. The
 exercise at the end asks you to plan it for your own home, with that gap in mind.
 
@@ -578,9 +578,10 @@ exactly that.[15]
 
 This is a contested empirical question, and the bodies have left it open on purpose. ILCOR has
 said what it needs next: an updated systematic review.[8] This course's own reading is that the
-gap such a review would have to fill is data on real people, collected without industry help. What the bodies agree on today is that no device has been shown
-to beat back blows and thrusts. RCUK says those should come first; the AHA grades them COR 1 and
-the devices COR 2b.[1][15]
+gap such a review would have to fill is data on real people, collected without industry help. What the bodies agree on today is that none of them
+recommends a device over back blows and thrusts. RCUK says those should come first; the AHA
+grades them COR 1 and finds too little evidence to make any recommendation on the devices (COR
+2b).[1][8][15]
 
 ## What people get wrong
 
