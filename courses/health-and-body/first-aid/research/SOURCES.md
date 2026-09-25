@@ -1656,7 +1656,7 @@ Notes:
 - UK public: NHS (S11) [V] "If your symptoms have not improved after 5 minutes, use a 2nd adrenaline auto-injector." MHRA 2023 (S24) [V] "use your second AAI if you haven't improved after 5 minutes". The superseded MHRA 2014 advice said 5 to 15 minutes (S24, 2014 article).
 - So: US AHA/ARC 5 to 10 minutes and conditional on EMS delay; UK and Europe 5 minutes flat.
 
-**Carry two (Established in UK/Europe; US recommends two in kits):** MHRA 2023 [V] "prescribers should prescribe 2 AAIs" and "you should always carry 2 AAIs at all times"; NICE "following advice from MHRA" (S6 section 8.6). NHS (S11) "carry 2 adrenaline auto-injectors with you at all times". AHA/ARC 2024 first aid kit table lists epinephrine autoinjector "Minimum 1, recommended 2 doses" [V]. Anaphylaxis UK says the same two-device rule applies to EURneffy (S26).
+**Carry two (Established in UK/Europe; in the US an optional item in the American Red Cross kit table, and the EpiPen US label says carry 2):** MHRA 2023 [V] "prescribers should prescribe 2 AAIs" and "you should always carry 2 AAIs at all times"; NICE "following advice from MHRA" (S6 section 8.6). NHS (S11) "carry 2 adrenaline auto-injectors with you at all times". AHA/ARC 2024 Table 3, "Optional Items for American Red Cross First Aid Kit", lists epinephrine autoinjector "Minimum 1, recommended 2 doses" [V] (corrected at lesson 13's Stage 4: an optional item in the American Red Cross kit table, not a general kit recommendation). EpiPen US label (S38) [V]: "Make sure to always carry 2 EpiPen or 2 EpiPen Jr auto-injectors. One dose may not be enough." Anaphylaxis UK says the same two-device rule applies to EURneffy (S26).
 
 **Device technique:**
 - Outer thigh, through clothing: EpiPen US label (S38) [V] "Place the orange needle end against the outer thigh, through clothing if needed." Jext PIL (S25): "designed to inject through the clothes".
@@ -1664,7 +1664,7 @@ Notes:
 - Emerade: MHRA recalled Emerade 150 (March 2020) and 500 (May 2020) and issued a Class 1 recall of Emerade 300 and 500 in May 2023 for potential device failure (GOV.UK search results list, titles and dates only). MHRA 2023 names the UK products as "Epipen or Jext". Treat Emerade as not currently an option to teach; not verified further.
 
 **Posture (Established in UK/Europe; lighter in US):**
-- RCUK 2021 (S6) [V]: "Changes in posture from supine to standing or sitting upright have been associated with cardiovascular collapse and death during anaphylaxis." Keeping the patient flat, with or without legs raised, "will maximise venous return"; those with mainly breathing problems may prefer semi-recumbent; pregnant patients on the left side. Cited: Pumphrey 2003 "Fatal posture in anaphylactic shock" (J Allergy Clin Immunol 112:451–2; title only, a letter, no abstract; this is the "empty ventricle" paper) and Mullins 2016. Pumphrey 2000 (S40, abstract): UK register, about 20 fatal reactions a year, median time to arrest 30 min food, 15 min venom, 5 min iatrogenic; adrenaline given before arrest in only 14% of fatal cases.
+- RCUK 2021 (S6) [V]: "Changes in posture from supine to standing or sitting upright have been associated with cardiovascular collapse and death during anaphylaxis." "Keeping a patient with cardiovascular instability flat, with or without the legs raised, will maximise venous return to the heart" (scope restored at lesson 13's Stage 4: the sentence is about a patient whose circulation is unstable); "Patients with predominantly respiratory symptoms (and no evidence of cardiovascular instability) may prefer to be in a semi-recumbent position."; pregnant patients on the left side. Cited: Pumphrey 2003 "Fatal posture in anaphylactic shock" (J Allergy Clin Immunol 112:451–2; title only, a letter, no abstract; this is the "empty ventricle" paper) and Mullins 2016. Pumphrey 2000 (S40, abstract): UK register, about 20 fatal reactions a year, median time to arrest 30 min food, 15 min venom, 5 min iatrogenic; adrenaline given before arrest in only 14% of fatal cases.
 - MHRA 2023 (S24) [V]: "if you're not already lying down, lie down flat and raise your legs (if you're pregnant, lie on your left side)"; "stay lying down even if you feel better"; "if you struggle to breathe, you can gently sit up - don't change position suddenly"; "do not stand up even if someone encourages you to".
 - NHS (S11) [V] "Lie down – you can raise your legs, and if you're struggling to breathe, raise your shoulders or sit up slowly" and "Do not stand or walk at any time, even if you feel better."
 - ERC 2025 (S3) concise [V] "Ensure that the person remains in a seated or lying position." Evidence text: supine with raised legs, or sitting with legs stretched if breathing problems, "(expert opinion)". RCUK 2025 (S5) [V] lying down "unless there are breathing difficulties, in which case they may sit up with their legs extended."
@@ -1686,9 +1686,9 @@ Notes:
 ### 5. Asthma attack
 
 - AHA/ARC 2024 (S1, T18) [V-img]: assist a person with asthma who is having difficulty breathing with their own prescribed bronchodilators, COR 1, B-R; inhaler with spacer or nebulizer preferred to inhaler alone, 2a, B-R; improvised spacer (500 mL plastic bottle or 150 mL paper cup) if no commercial one, 2a, B-R. Supportive text: salbutamol causes no clinically significant change in heart rate, blood pressure or potassium.
-- ILCOR 2025 (S2): 2015 recommendation unchanged, trained first aid providers assist with a bronchodilator (weak, very low). 2022 scoping review found no significant harm from bronchodilators even in undifferentiated breathing problems.
+- ILCOR 2025 (S2): 2015 recommendation unchanged, trained first aid providers assist with a bronchodilator (weak, very low). Its scoping review (FA 7122, ScopRev 2023) is summarised in the 2025 manuscript as: "it is unknown whether first aid providers can appropriately identify asthma exacerbations, and it is unknown whether bronchodilators could result in harm if administered to individuals with undifferentiated respiratory symptoms" [V, manuscript]. (Corrected at lesson 13's Stage 4: this file said the review "found no significant harm ... even in undifferentiated breathing problems", which the manuscript does not say.)
 - UK dosing: NHS (S12) [V] "sit up straight" and for a blue reliever "take 1 puff every 30 to 60 seconds until you feel better, up to a maximum of 10 puffs." Call 999 if worse at any time, not better after the maximum, or no inhaler; if no better after 10 minutes and no ambulance, repeat. Asthma + Lung UK (S22) the same.
-- **New in UK (2024 onward):** people on AIR (anti-inflammatory reliever) or MART inhalers follow a different attack plan. NHS (S12) [V]: "take 1 puff every 1 to 3 minutes until you feel better, up to a maximum of 6 puffs." Asthma + Lung UK the same. SJA says its 10-puff advice "is not for patients on a Maintenance and Reliever Therapy (MART) plan." NHS also says people "should not be given a blue reliever inhaler to use on its own". Teach: follow the person's own action plan; the 10-puff rule is for a blue salbutamol reliever.
+- **New in UK (2024 onward):** people on AIR (anti-inflammatory reliever) or MART inhalers follow a different attack plan. NHS (S12) [V]: "take 1 puff every 1 to 3 minutes until you feel better, up to a maximum of 6 puffs." Asthma + Lung UK the same. SJA says its 10-puff advice "is not for patients on a Maintenance and Reliever Therapy (MART) plan." The NHS's "you should not be given a blue reliever inhaler to use on its own" is a prescribing parenthesis in its list of inhaler types (a blue reliever comes with a daily preventer), not first aid advice (corrected at lesson 13's Stage 4). Teach: follow the person's own action plan; the 10-puff rule is for a blue salbutamol reliever.
 - US: no lay puff count found in S1; the AHA text is "as needed".
 
 ---
@@ -5228,3 +5228,162 @@ wording is "nontraumatic" with no comma. Lesson 12 quotes the take-home wording 
 - [NHSSYM] "feeling dizzy or falling over"
 - [NHSSYM] "you think you're having, or have had a stroke"
 - [ASA] "If you have any of these symptoms or see someone else having them, call 911 immediately!"
+
+
+## Gate closures, lesson 13 (2026-09-25)
+
+Appended by lesson 13's Stage 4 fixer. The sentences below were string-matched by Reviewer F's
+script (`r13f/check.py`, scratchpad, not kept) against F's fresh fetch of each named source on
+2026-09-25 (normalisation: curly quotes to straight, en dash to hyphen, whitespace collapsed, ®
+ignored, citation superscripts stripped from RCUK 2021 and the AHA text). All 99 candidates matched;
+the 94 not already in this file are recorded here. Lesson 13 paraphrases or quotes from these.
+
+**Corrections made elsewhere in this file today** (small targeted edits, Part C 4 and 5):
+- Part C 4, posture: RCUK 2021's "will maximise venous return" restored with its population ("a
+  patient with cardiovascular instability") and the next sentence on semi-recumbent position for
+  predominantly respiratory symptoms.
+- Part C 4, carry two: the AHA/ARC kit line is Table 3, "Optional Items for American Red Cross First
+  Aid Kit", not a general kit recommendation; the EpiPen US label's "always carry 2" added.
+- Part C 5: ILCOR's scoping review did not find "no significant harm"; the 2025 manuscript says it
+  is unknown whether bronchodilators could harm people with undifferentiated respiratory symptoms.
+- Part C 5: the NHS's "should not be given a blue reliever inhaler to use on its own" is a
+  prescribing note in its list of inhaler types, not first aid advice.
+
+**AHA/Red Cross 2024, Table 26 "First Aid for Bee and Wasp Stings"** [V-img, Wayback copy of the
+publisher's image, read by eye 2026-09-25]
+- Row 1: "If a person experiences anaphylaxis due to a bee, wasp, or hornet sting and an epinephrine autoinjector is available, the person should self-administer the autoinjector." COR 1, LOE B-NR.
+- Row 2: "A first aid provider should assist a person experiencing anaphylaxis to use the autoinjector if assistance is required." COR 1, LOE C-EO.
+- Row 3: "If a person experiences anaphylaxis due to a bee, wasp, or hornet sting, the emergency response system should be activated." COR 1, LOE C-EO.
+- Row 6: "Over-the-counter oral antihistamines can be used to alleviate local itching." COR 2a, LOE C-EO.
+
+**AHA/Red Cross 2024, asthma supportive text, fixer's additions** [V, same Wayback capture, `r13f/aha.txt`]
+- "Inhalers with spacer devices provide clinical effectiveness equal to that of nebulizer machines, including in community settings."
+- One reference cited in that section is titled "Holding chambers (spacers) versus nebulisers for beta-agonist treatment of acute asthma" (Cates 2013); title only.
+
+**RCUK 2025 First aid guidelines, https://www.resus.org.uk/professional-library/2025-resuscitation-guidelines/first-aid-guidelines ("Medical emergencies": Anaphylaxis, Asthma)** [V, fetched 2026-09-25]
+- "Remove the trigger if known and possible."
+- "Intramuscular adrenaline should be given (either self-administered or by trained individuals) as soon as possible via autoinjector into the outer thigh, which delivers the recommended dose."
+- "If symptoms persist five minutes after administration, give a second dose of adrenaline, ideally in the opposite leg."
+- "If a person with asthma is experiencing breathing difficulties, a first aid provider should help them to use their own reliever inhaler, using a spacer device if one is available."
+
+**RCUK, Emergency treatment of anaphylaxis: Guidelines for healthcare providers, May 2021, https://www.resus.org.uk/sites/default/files/2021-05/Emergency%20Treatment%20of%20Anaphylaxis%20May%202021_0.pdf (summary; 3, recognition; posture; 4.3; 5.1; 5.4; 5.6 Bronchodilators; citation superscripts removed)** [V, fetched 2026-09-25]
+- "but these may be absent in up to 20% of cases."
+- "Skin or mucosal changes alone are not a sign of anaphylaxis and may be absent in up to 20% of reactions."
+- "Breathing problems can vary from mild bronchospasm to life-threatening asthma with no other features to suggest anaphylaxis."
+- "Consider anaphylaxis in a person with sudden onset breathing difficulties, especially if known to be allergic to a food or insect sting."
+- "Circulation problems (often referred to as anaphylactic shock) can be caused by vasodilation, by capillary leak with loss of fluid from the circulation, and by direct myocardial depression (see Figure 5)."
+- "As an alpha-receptor agonist, adrenaline reverses peripheral vasodilation and reduces tissue oedema."
+- "Its beta-receptor activity dilates the bronchial airways, increases the force of myocardial contraction, and suppresses histamine and leukotriene release."
+- "Adrenaline seems to work best when given early after the onset of anaphylaxis symptoms."
+- "Delayed administration is associated with protracted reactions, hypotension and fatal outcomes."
+- "If these features are absent but there are other features of a systemic allergic reaction, the patient needs careful observation and appropriate symptomatic treatment using the ABCDE approach."
+- "The change in posture further reduces venous return to the heart; this can lead to a further reduction in cardiac output and can compromise myocardial perfusion."
+- "Keeping a patient with cardiovascular instability flat, with or without the legs raised, will maximise venous return to the heart and is therefore a key component of the initial response to anaphylaxis (see section 4.3)."
+- "Patients with predominantly respiratory symptoms (and no evidence of cardiovascular instability) may prefer to be in a semi-recumbent position."
+- "Most guidelines express concern that their use often delays administration of initial and subsequent doses of adrenaline, thereby increasing morbidity."
+- "Antihistamines can be helpful in alleviating cutaneous symptoms (whether these are due to anaphylaxis or non-anaphylaxis allergic reactions), but must not be given in preference to adrenaline to treat anaphylaxis."
+- "Individuals presenting with asthma in the context of possible exposure to a known allergen (so that anaphylaxis is a differential diagnosis) should receive treatment with intramuscular adrenaline."
+- "However, bronchodilators should not be used as an alternative to further parenteral treatment with adrenaline in the presence of persisting respiratory problems."
+- "Pregnant patients should lie on their left side to prevent aortocaval compression"
+- "Do not delay definitive treatment if removing the trigger is not feasible."
+
+**MHRA, Drug Safety Update, 27 June 2023, via https://www.gov.uk/api/content/drug-safety-update/adrenaline-auto-injectors-aais-new-guidance-and-resources-for-safe-use** [V, fetched 2026-09-25]
+- "immediately dial 999 to summon emergency medical help after administering adrenaline; say anaphylaxis ("ana-fill-axis")"
+- "if you are not already lying down, lie down flat and raise your legs (if you're pregnant, lie on your left side); this will assist blood flow to the heart and vital organs"
+- "if you struggle to breathe, you can gently sit up - don't change position suddenly; you should then lie down again as soon as you can"
+- "AAIs are intended for self-administration by the patient or for administration by the patient's carer."
+- "If there is doubt about the severity of an episode, adrenaline should be administered without delay as the risks of delay outweigh the potential risks from unnecessary administration of adrenaline."
+
+**NHS, Anaphylaxis, https://www.nhs.uk/conditions/anaphylaxis/ (page last reviewed 21 June 2023)** [V, fetched 2026-09-25]
+- "They usually start within minutes of coming into contact with something you're allergic to, such as a food, medicine or insect sting."
+- "Use an adrenaline auto-injector (such as an EpiPen) if you have one - instructions are included on the side of the injector."
+- "Call 999 for an ambulance and say that you think you're having an anaphylactic reaction."
+- "If you have been stung by an insect, try to remove the sting if it's still in the skin."
+- "practise how to use your adrenaline auto-injector by using a trainer injector (an injector that has no needle or medicine in it) - you can order one online from the company that makes your injector"
+- "teach friends, family, colleagues or carers how and when to use your adrenaline auto-injector"
+
+**NHS, Asthma, https://www.nhs.uk/conditions/asthma/ (page last reviewed 07 April 2025)** [V, fetched 2026-09-25]
+- "If you're having an asthma attack, sit up straight, to help your breathing."
+- "If your personal asthma action plan has a different maximum dose for treating an asthma attack, follow the instructions in your plan."
+- "If symptoms are no better after 10 minutes and an ambulance has not arrived, use an asthma inhaler again if you have one, taking up to the same maximum dose."
+- "Even if you feel better, it's important to see a GP within 2 days to discuss your treatment and get advice to help prevent another asthma attack."
+- "an inhaler to use only when you get symptoms - this is called an anti-inflammatory reliever (AIR) inhaler"
+- "an inhaler to use every day to help prevent symptoms, as well as when you get symptoms - this is called a maintenance and reliever therapy (MART) inhaler"
+- "Asthma symptoms happen when your airways become swollen. This makes them narrower, causing breathing problems."
+
+**St John Ambulance, Anaphylaxis, clinically reviewed 25/04/2025, https://www.sja.org.uk/first-aid-advice/anaphylaxis/** [V, fetched 2026-09-25]
+- "Check if they have one, and if they do, help them to use it or do it yourself straight away following the instructions."
+- "Help them to get comfortable. Monitor their breathing and level of response by lying the casualty down with their legs raised. If they are having breathing difficulties, then sit them up."
+- "Repeated doses of adrenaline can be given at five-minute intervals if there is no improvement or the symptoms return."
+
+**St John Ambulance, Asthma attack, clinically reviewed 28/04/2025, https://www.sja.org.uk/first-aid-advice/asthma-attack/** [V, fetched 2026-09-25]
+- "During an asthma attack, the muscles of the air passages in the lungs go into spasm."
+- "If they have a spacer available, ask them to use it with their inhaler. The inhaler is more effective with a spacer, especially when being used for young children."
+- "If the attack is severe, and they are getting worse, becoming exhausted, or if this is their first attack, call 999 or 112 for emergency help."
+- "This asthma attack information is not for patients on a Maintenance and Reliever Therapy (MART) plan."
+- "The patient will know which they should use in an emergency and may carry a written plan."
+
+**Asthma + Lung UK, Asthma attacks, https://www.asthmaandlung.org.uk/conditions/asthma/asthma-attacks** [V, fetched 2026-09-25]
+- "Call 999 if they do not feel better, or if you are worried at any point."
+- "If your symptoms are no better after repeating step 2, and the ambulance has still not arrived, contact 999 again immediately."
+- "If you managed your attack yourself using your reliever inhaler, ask for an urgent, same-day appointment with your GP or nurse."
+
+**EpiPen 0.3 mg patient leaflet, last revised July 2026, https://www.medicines.org.uk/emc/files/pil.4289.pdf** [V, fetched 2026-09-25]
+- "The EpiPen® is designed to be used easily by people without medical training."
+- "If your symptoms have not improved or have deteriorated within 5 minutes after the first injection, either you or the person with you should give a second injection."
+- "Dial 999- say anaphylaxis ("ana-fill-axis") and ask for an ambulance, even if symptoms are improving."
+- "This is because the reaction may happen again at some time later."
+- "Unconscious patients should be placed on their side in the recovery position."
+- "If in doubt use. Don't delay."
+
+**Jext patient leaflet, last revised September 2023, https://www.medicines.org.uk/emc/files/pil.5748.pdf** [V, fetched 2026-09-25]
+- "Massage the injection area for 10 seconds."
+- "Never put thumb, feet or hand over the black needle shield as this is where the needle comes out."
+- "Inform the healthcare professional that you have received an intramuscular injection of adrenaline."
+
+**EpiPen and EpiPen Jr US prescribing information and patient information, DailyMed setid 7560c201-9246-487c-a13b-6295db04274a** [V, fetched 2026-09-25]
+- "EpiPen and EpiPen Jr auto-injectors are for immediate administration by you or your caregiver."
+- "Get emergency medical help right away even if you have used the EpiPen or EpiPen Jr auto-injector."
+- "You can use a second EpiPen or EpiPen Jr auto-injector if symptoms continue or come back or if the first auto-injector is activated before the dose can be given."
+- "Anyone who may be able to administer the EpiPen or EpiPen Jr auto-injector should also understand how to use it."
+- "If you do not hold it in place long enough, the EpiPen or EpiPen Jr auto-injector might not deliver the correct dose of medicine."
+- "To minimize the risk of injection related injury when administering, hold the child's leg firmly in place and limit movement prior to and during injection."
+- "Never put your thumb, fingers or hand over the orange needle end."
+- "Make sure to always carry 2 EpiPen or 2 EpiPen Jr auto-injectors. One dose may not be enough."
+- "Since epinephrine is a strong vasoconstrictor, accidental injection into the digits, hands or feet may result in loss of blood flow to the affected area."
+- "Advise the patient to go immediately to the nearest emergency room and to inform the healthcare provider in the emergency room of the location of the accidental injection."
+
+**FDA, FDA Approves First Nasal Spray for Treatment of Anaphylaxis, 9 August 2024** [V, fetched 2026-09-25]
+- "Epinephrine is the only life-saving treatment for anaphylaxis and has previously only been available for patients as an injection."
+- "Neffy's approval is based on four studies in 175 healthy adults, without anaphylaxis, that measured the epinephrine concentrations in the blood following administration of neffy or approved epinephrine injection products."
+
+**AHA/American Red Cross 2024 Guidelines for First Aid, Wayback 20260329073336 (anaphylaxis, asthma, positioning, assessment, kit and bee-sting sections; citation superscripts removed)** [V, fetched 2026-09-25]
+- "Strong international consensus, based primarily on observational data, endorses early administration of intramuscular epinephrine given in the lateral thigh as the primary treatment of anaphylaxis regardless of the triggering agent."
+- "A person experiencing anaphylaxis may be unable to access or manipulate their autoinjector because of respiratory distress, hypotension, or altered mental status. First aid providers may assist the ill person."
+- "Epinephrine autoinjectors are often prescribed to people with a history of anaphylaxis to self-administer at the first sign of an anaphylactic reaction."
+- "It is estimated that between 7% and 18% of people with anaphylaxis require >1 dose of epinephrine."
+- "Most patients who required a second dose of epinephrine for anaphylaxis improved after administration."
+- "Any abnormalities in responsiveness or breathing and any major injuries should be viewed as an emergency and should prompt activation of EMS."
+- "It is presumed that a person who is alert will choose a position that optimizes their ability to breathe and avoids airway obstruction."
+- "When used with a metered dose inhaler, spacer devices improve the delivery of bronchodilator medications to the lungs."
+- "Bronchodilator administration is safe; treatment with albuterol/salbutamol causes no clinically significant change in heart rate,"
+- "Table 3. Optional Items for American Red Cross First Aid Kit"
+- "Other species of bees, wasps, and hornets have smooth stingers and can sting multiple times."
+
+**Pumphrey 2000, abstract, PubMed 10931122** [V, fetched 2026-09-25]
+- "The median time to respiratory or cardiac arrest was 30 min for foods, 15 min for venom and 5 min for iatrogenic reactions."
+- "All fatal reactions thought to have been due to food caused difficulty breathing that in 86% led to respiratory arrest; shock was more common in iatrogenic and venom reactions."
+- "Adrenaline (epinephrine) was used in treatment of 62% of fatal reactions but before arrest in only 14%."
+- "Immediate recognition of anaphylaxis, early use of adrenaline, inhaled beta agonists and other measures are crucial for successful treatment."
+- "Nevertheless, a few reactions will be fatal whatever treatment is given; optimal management of anaphylaxis is therefore avoidance of the cause whenever this is possible."
+- "Data obtained from other sources suggested that deaths certified as due to anaphylaxis underestimate the true incidence."
+
+**DHSC, Using emergency adrenaline auto-injectors in schools, GOV.UK summary, first published 20 September 2017** [V, fetched 2026-09-25]
+- "This guidance will help schools that choose to keep an emergency AAI create a policy for using it."
+
+**DHSC, Emergency asthma inhalers for use in schools, GOV.UK summary, first published 4 September 2014, https://www.gov.uk/government/publications/emergency-asthma-inhalers-for-use-in-schools** [V, fetched 2026-09-25]
+- "From 1 October 2014 UK schools will be allowed to purchase a salbutamol inhaler without a prescription for use in emergencies when a child with asthma cannot access their own inhaler."
+
+**Public Law 113-48, School Access to Emergency Epinephrine Act, 13 November 2013, https://www.govinfo.gov/content/pkg/PLAW-113publ48/html/PLAW-113publ48.htm** [V, fetched 2026-09-25]
+- "the Secretary shall give additional preference to a State that provides to the Secretary the certification described in subparagraph (G) and that requires that each public elementary school and secondary school in the State--"
+- "has in place a plan for having on the premises of the school during all operating hours of the school one or more individuals who are trained personnel of the school."

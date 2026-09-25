@@ -171,3 +171,33 @@ earlier sequence.** Still chosen by script.
   pass) and ends on key 1.
 - **G4 not worked for lesson 12's videos** (NHS Act FAST, AHA B.E. F.A.S.T., American Red Cross and
   BHF heart attack); none embedded.
+
+## 2026-09-25 — from lesson 13's Stage 4
+
+- **SOURCES Part C 4 and 5 carried four trims, now corrected** (Gate closures, lesson 13): RCUK
+  2021's venous-return sentence is about "a patient with cardiovascular instability"; the AHA kit
+  line is Table 3's *optional* items for an American Red Cross kit; ILCOR's asthma review is "unknown
+  whether bronchodilators could result in harm", not "no significant harm"; the NHS's "should not be
+  given a blue reliever inhaler to use on its own" is a prescribing note. Scripts and the final test
+  should use the corrected lines.
+- **RCUK 2025's adrenaline step names who gives it** ("either self-administered or by trained
+  individuals"), and its emergency-services exception is worded for equipment. Like aspirin in
+  lesson 12, the course does not say how the exception applies to a device; St John's "or do it
+  yourself" is the UK text that covers a first aider injecting.
+- **RCUK 2021 does order adrenaline before a bronchodilator** for asthma after possible exposure to a
+  known allergen (§5.6); lesson 13's draft said no source did. Lesson 15 (stings) and scripts can
+  cite it.
+- **Any exercise that puts a device in the reader's hand needs a handling line.** Lesson 13's draft
+  had the reader pick up a real auto-injector and then a look-alike trainer with no needle-end
+  warning; the fix leaves the real device to its owner. Lessons 14 to 16 (glucose, naloxone,
+  inhalers, kits) should do the same.
+- **Places:** lesson 13 uses Warrington, Blackpool, Winchester, Wigan, Akron, Grimsby, Des Moines,
+  Harrogate, Scarborough, Chattanooga and London; the final test's lesson 13 item uses Missoula.
+  Peterborough and Whitby, first chosen, were already in lesson 15's working draft. Stockport,
+  Duluth, Santa Fe and Tampa, in the draft, are free again.
+- **Quiz keys:** lesson 13 kept 0,2,3,1,0,3. The final test now has twenty-two items (sixteen to
+  pass) and ends on key 2.
+- **Contractions overshot again in the fix pass** (10.3 per 1,000 before 18 were expanded), as in
+  lesson 12.
+- **G16 and G4 not worked for lesson 13** (Commons EpiPen images; MHRA, British Red Cross and
+  Asthma + Lung UK videos); none embedded.

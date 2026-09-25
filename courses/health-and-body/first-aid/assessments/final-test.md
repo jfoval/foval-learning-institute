@@ -436,13 +436,33 @@ quiz:
       is below the range and eight is far above it. In the UK the figure is 300 mg, which the person
       takes herself after the 999 call (RCUK 2025).
 
-  # Items for lessons 13 to 15 go here as those lessons are written (OUTLINE "Assessments").
+  # --- Anaphylaxis and asthma (L13) ---
+  - q: >-
+      At a trailhead outside Missoula, a hiker stung by a hornet used his own auto-injector seven
+      minutes ago. His face is still swelling and his breathing is no better, and 911 says the
+      ambulance is about 30 minutes out. He has a second auto-injector. Under the AHA/Red Cross
+      2024 guideline, what fits?
+    options:
+      - Hold off, since the US guideline allows one dose before EMS takes over
+      - Give the second only once fifteen minutes have passed since the first
+      - A second dose may be considered, as he hasn't responded and EMS is far
+      - Keep it until he stops responding, then give it and start CPR as well
+    answer: 2
+    explain: >-
+      The guideline says a repeat dose may be considered if a person doesn't respond to the first
+      dose and the arrival of EMS will exceed 5 to 10 minutes (COR 2b, LOE B-NR). Seven minutes on
+      he's no better and the crew is half an hour away, so both conditions are met. Nothing in it
+      limits him to one dose or sets a fifteen-minute wait, and holding the device until he stops
+      responding turns a treatment into a resuscitation. In the UK the rule is a clock: no better
+      five minutes after the first dose, give a second, ideally in the opposite leg (RCUK 2025).
+
+  # Items for lessons 14 and 15 go here as those lessons are written (OUTLINE "Assessments").
 ---
 
-<!-- Items for lessons 13 to 15 are still to be added: this file covers lessons 1 to 12 only for now. The blueprint is in research/OUTLINE.md, "Assessments". Update the counts in the paragraph below when they go in. -->
+<!-- Items for lessons 14 and 15 are still to be added: this file covers lessons 1 to 13 only for now. The blueprint is in research/OUTLINE.md, "Assessments". Update the counts in the paragraph below when they go in. -->
 
-This test covers lessons 1 to 12. **Twenty-one questions, and 70 per cent to pass**, which is fifteen
-(70 per cent of 21 is 14.7, rounded up).
+This test covers lessons 1 to 13. **Twenty-two questions, and 70 per cent to pass**, which is sixteen
+(70 per cent of 22 is 15.4, rounded up).
 Questions on the later lessons will be added as those lessons are written.
 
 :::callout Before you need this
