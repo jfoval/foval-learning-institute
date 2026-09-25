@@ -171,3 +171,25 @@
   are not `tel:` links anywhere in the repo.
 - **Quiz keys:** lesson 7 is now 3,2,3,1,0,1. Lesson 8's fixer should rerun the at-any-offset check
   against lessons 1 to 7.
+
+## 2026-09-25 — from lesson 08's Stage 4 fix
+
+- **SOURCES Part C §2.2, §2.4, §2.5 and §2.6 corrected** (Stage 4 notes in place; lines in "Gate
+  closures, lesson 08"). A later lesson or podcast script must not say: that Project BETA's limits
+  carry no consequence (its own example names arrest, said "in a matter-of-fact way and not as a
+  threat"; the distinction is manner); that MacYoung or Miller define social violence as "status"
+  or asocial as "a means to an end" (the course's gloss, to be labelled as such); that the
+  Indianapolis course ran without reinforcement, or that its shorter format caused the officer-injury
+  result; or that Heckemann's nurses gained "knowledge" in general ("about risk factors").
+- **Lesson 9 uses the same techniques and should carry lesson 8's fixes**: limits may name a
+  consequence calmly; "do not command" means commands given as if to someone beneath you, not all
+  imperatives ("walk away" is one MacYoung uses); OSHA's topic page says nothing about
+  de-escalation (OSHA 3148 does), so never "every official body".
+- **A worked example must obey the lesson's own order of options.** Lesson 8's first draft had
+  Farid get out of his car to talk to an angry man at his door. Any scenario that shows talking
+  should first make leaving impossible or someone depend on the person staying, and say so.
+- **Validate's contraction count includes quotations and dialogue**, so a lesson with a lot of
+  scripted speech reads higher there than on the prose-only count (lesson 8: 10.0 against 7.9).
+  Restoring every contraction a reviewer lists overshot to 14.2; rewrite instead.
+- **Quiz keys:** lesson 8 is now 1,2,0,3,0,3. Lesson 9's fixer should rerun the at-any-offset check
+  against lessons 1 to 8.
