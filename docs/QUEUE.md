@@ -21,25 +21,21 @@ and it never feels that way while you are writing it.
 
 Rewrite these five lines each session. Nothing else goes in this block.
 
-- **Terms 1 and 2 are FINISHED. Term 3's first three courses are published and written**
-  (2026-09-24): Nutrition, Strength and Fitness, and Cooking Fundamentals, with every lesson
-  scripted and fact-checked. **First Aid and CPR is drafting** (16 lessons, `research/OUTLINE.md`): lessons 1 to 7 are
-  through Stage 4; **lesson 8 is in its second pass, lesson 9 is under review, lesson 10 is being drafted**, then 11 to 16.
-  The course's own briefs are in `research/pipeline-briefs.md`. `assessments/final-test.md` has items for
-  lessons 1 to 8 (15 of 24); **add each later lesson's items as it passes Stage 4**, and re-check the
-  two lesson 7 items against lesson 7 once its fix pass lands.
-  The review briefs (Reviewer F, Reviewer P, fix pass) are the same shape as
-  `strength-and-fitness/research/pipeline-briefs.md`. Ten gates were closed in a real browser on
-  2026-09-24 (end of `SOURCES.md`); the publishers' pages open in the in-app browser.
-  **Google is accepting renders again** (2026-09-24, later the same day): Bible Basics 8 rendered,
-  uploaded and stamped for $0.24, so John raised the cap. `scripts/podcast/budget.json` still says
-  $56 and `npm run state` therefore reports the cap as spent; **John: put the new cap from
-  aistudio.google.com/spend into budget.json** (the page needs his sign-in). Six more rendered the same evening
-  (Cooking 1 to 5), then Google returned **429: 50 requests per day per model on gemini-2.5-pro-tts**,
-  resetting about 19:00 on 2026-09-25. That is a request count, not money: the day's ceiling is
-  about 50 renders including refused attempts. Render again after the reset, in Core term order,
-  one call each, stopping at the first refusal. Episodes still owed: Cooking 6 to 12, Nutrition
-  11, Strength 10, Bible Basics 9 to 12.
+- **Terms 1 and 2 are FINISHED. Term 3's first four courses are published and written**
+  (Nutrition, Strength and Fitness, Cooking Fundamentals on 2026-09-24; **First Aid and CPR on
+  2026-09-25**: sixteen lessons, each through a Tier B two-reviewer Stage 4 plus a fresh second
+  pass where the fix was heavy, the course-wide neutrality audit, a 24-item test and the project,
+  both reviewed, and sixteen fact-checked scripts). Its briefs and measured drafting patterns are
+  in `research/pipeline-briefs.md`. **Two First Aid questions are John's, neither blocking:**
+  lesson length (lessons 2, 3, 5, 6, 7, 15 and 16 run 105 to 140 minutes against the outline's
+  65 to 85; each review file records a seam, and splitting renumbers the course), and no image or
+  video was ever cleared (gates G4 and G16 were not worked), so the course is text only.
+  **Rendering: Google allows 50 requests a day on gemini-2.5-pro-tts** (rolling; it ran out on
+  the evening of 2026-09-24 and resets about 19:00 on 2026-09-25). That is a request count, not
+  money. Render in Core term order, one call each, stopping at the first refusal. John confirmed on
+  2026-09-25 that he has raised the cap; `scripts/podcast/budget.json` still says $56 because the
+  new figure is behind his Google sign-in, so `npm run state` shows the cap as spent. **John: put
+  the new cap from aistudio.google.com/spend into budget.json.** Episodes owed: see `npm run state`.
 
   **What John's ear settled on 2026-09-25, which changes how a render is judged.** The engine
   sometimes gives one of John's lines to Haley. The per-window speaker share cannot be trusted to

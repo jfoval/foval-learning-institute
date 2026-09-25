@@ -11,6 +11,30 @@ Older entries refer to `docs/BACKLOG.md`, which was split on 2026-09-09 into `do
 unstarted work) and this file. Its section numbers survive only in those entries and in a few
 split-seam comments inside Bible Basics lessons, which point at `docs/DECISIONS.md` §5.
 
+## 2026-09-25 — First Aid and CPR is published and written
+
+**First Aid and CPR went live, the fourth course of Term 3.** Sixteen lessons, from being the first
+responder through CPR, the defibrillator, children and drowning, choking, bleeding, burns, head and
+spine, heart attack and stroke, anaphylaxis, seizures and poisoning, heat and cold, to what happens
+afterwards and where to train. A 24-item test and the project "Your household's first ten minutes"
+were each reviewed whole and then again. Sixteen fact-checked podcast scripts make it *written*;
+`curriculum/audio-debt.yaml` opens at sixteen. Lessons 7 to 16 were drafted, reviewed and fixed in
+one session, alongside finishing lessons 6 and 7 from the session before.
+
+**The US and UK/Europe are taught side by side and neither is called wrong** (outline decision 2):
+AHA and American Red Cross 2024/2025 against RCUK and ERC 2025, each instruction carrying its body,
+year and grade. The course-wide neutrality audit counted 966 AHA citations against 887 RCUK and ERC,
+and every public page described as behind its own guideline is dated.
+
+**Stage 4 caught safety errors the drafts made and the outline invited.** Lesson 7's draft taught
+slow, snoring breathing in an unresponsive person as normal (the outline's own worked example said
+"snoring softly"); every guideline treats it as a sign of arrest. Lesson 9's draft and SOURCES said
+RCUK attaches no training condition to tourniquets; it does. Lesson 14's seizure checkpoint told a
+reader not to call for a man who wasn't answering. Lesson 15 applied the ordinary arrest rule to a
+very cold person without reading the hypothermia guidance, which a targeted Stage 1 read then
+confirmed holds for lay rescuers. The repeated drafting patterns are recorded in the course's
+`research/pipeline-briefs.md` for the next safety course.
+
 ## 2026-09-24 — Cooking Fundamentals is published and written
 
 **Cooking Fundamentals went live, the third course of Term 3 and the first of the School of
