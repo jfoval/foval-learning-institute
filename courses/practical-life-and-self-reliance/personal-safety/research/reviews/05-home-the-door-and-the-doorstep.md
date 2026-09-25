@@ -171,3 +171,75 @@ locations.
 
 **Status after review:** needs second pass (a light one: the rewritten alarm section's balance, the
 four new quiz items, and the new reassurance lines, read by fresh eyes).
+
+## 2026-09-25 — Lesson 05 — Stage 4 second pass, one reviewer (facts and safety)
+
+**Reviewer:** F2, fresh context, the Reviewer F brief in `research/pipeline-briefs.md`, scoped to the
+fix pass (a9ca18f): the rewritten alarm section, the four new quiz items and the whole quiz, the new
+reassurance lines, the Catalano figures and the split Lamplugh quote. Checked against the primaries
+in the first reviewers' scratchpads (Tilley 2015 PDF Discussion and Conclusion read in full, Tseloni
+PMC text, Catalano text-only, ONS Tables 3b and 10b, the UNCC and Rutgers releases, Lamplugh, NCPC,
+FTC, Take Five) and against "Gate closures, lesson 05" in SOURCES.
+
+**First-pass fixes confirmed.** F1 (Catalano 18% and 12% now scoped to unforced entries to occupied
+homes; "nearly a fifth" for 17.6%), F2 (two plausible hypotheses), F3, F4/P5, F5, F6/P20 (the
+Lamplugh line split into "call the police" and "don't go and investigate by yourself", meaning
+intact, no dash), F8/P4 (funders named for both sides, no insinuation), F10, F11, F14, F16, F22, P3,
+P8 all hold. Sums redone by hand: 31 to 7 is 77%; 13/49 is 0.27; 17.6% is "nearly a fifth"; 72% no
+one home in the US (100 minus 27.6); ONS ranges 51.2 to 68.3, 18.2 to 35.1, 6.8 to 12.2, 2.5 to 7.8,
+21.0 to 34.9, 53.9 to 75.8, bases 36 to 87 and 116 to 342, all as printed.
+
+**Alarm balance.** Citations: England and Wales side five quoted passages across [1] and [2], US side
+three across [3] and [4] plus the new Rutgers claim; funders named for both, each with its own
+words; the section's last word ("points both ways and settles neither") takes no side; the
+misconceptions carry one error from each side. Turing test: Tilley's side would accept its
+presentation after S1; the alarm industry's would not have accepted "it asks burglars" (Rutgers
+counted burglaries) or the absence of the release's own strongest claim (S2).
+
+**Findings**
+- S1 [minor, fixed] "The others are ... many alarms are cheap or unmonitored": Tilley's list has
+  five further hypotheses, and the seventh is poor-quality and do-it-yourself systems, not "cheap".
+  Now "The others include ... many alarms are poor-quality or do-it-yourself systems". SOURCES B15's
+  summary still says "cheap or unmonitored"; a later fixer may correct it from the PDF (hypothesis 7,
+  "Heterogeneity in systems and effects").
+- S2 [minor, fixed] Alarm-industry side characterised only by the prisoner survey ("it asks
+  burglars"; "Can both be right?" answered only UNCC). Now "where one study asked burglars"; the
+  Rutgers release's own claim quoted from the gate closure ("scientifically ruling out other factors
+  that could have impacted the crime rate"); and "The Newark study counted burglaries, but by
+  neighbourhood rather than by household, so it answers a different question again."
+- S3 [minor, fixed] "Many households fit an alarm after a burglary" (predict), "so many of them were
+  targets" (Can both be right?), Q3's key "alarms often go in" and its explanation "many alarms go
+  in": Tilley says only "it is possible" and "in some cases", untestable with the data. Now "Some" in
+  each place (Q3 key 85 to 84 characters).
+- S4 [minor, fixed] Thread 3's model answer named "the latent repeat victim explanation", a term the
+  body never introduces. Now "the timing explanation", as the predict calls it.
+- S5 [minor, fixed] Misconception "Violence is the minority case (7% of US ...), though threat or
+  force is common when someone at home sees the burglar" joined a US figure to an England and Wales
+  finding without a label (decision 2). Now "though in England and Wales threat or force is common".
+- S6 [minor, fixed] Reassurance, read as someone who went to look and was hurt: the body line (lines
+  401 to 404) is right, but the misconception "If I hear someone downstairs I should go and check"
+  listed their action as an error with nothing beside it. Added "That's advice for next time, not a
+  judgement on anyone who went to look."
+- S7 [minor, fixed] Read as someone conned at the door: "A card is the easiest thing in the con to
+  fake" and Q5's "a good story is the easiest part of a con to prepare" are unsourced mechanisms
+  (decision 11) that also make being taken in sound easy to avoid; Q4's "it only helps ... when nobody
+  opens the door to the wrong person" points at the person who opened it. Now the misconception gives
+  the Lamplugh advice itself; Q5 says the call-back doesn't depend on how convincing a story is; Q4
+  ends "and someone has to get past it". The doorstep reassurance (lines 444 to 445) and Q6's
+  explanation read well.
+- S8 [minor, fixed] Go deeper: the ONS bullet ran on from the Catalano bullet ("anecdotes.- **ONS")
+  and would not render as its own item. Line break restored.
+- S9 [note, not changed] Catalano also reports that offenders were known to their victims in 65% of
+  violent burglaries, about a third intimates or former intimates. P7's cut left it out, which is
+  defensible; lesson 7's pointer in the exercise covers the case it would have served.
+
+**Quiz.** Keys 1,3,1,2,3,0, unchanged: no earlier lesson (1 to 4, 6, 7) shares more than two
+positions, no run of three at any offset, no rotation. Option lengths 78 to 87, 80 to 90, 77 to 86,
+82 to 88, 79 to 82, 79 to 82; no key the longest. Each explanation read against its keyed option and
+names distractors by content. Q2 to Q6 are new cases; none asks what a victim should have done.
+
+**Measures.** 7,580 words by the minutes model; `npm run minutes` 105, set (was 100; the additions
+moved it). `npm run validate` exit 0, no line naming this file; `npm run quotes personal-safety` 130
+sourced quotations, 0 not found. Em and spaced en dashes 0.
+
+**Status after review:** clean

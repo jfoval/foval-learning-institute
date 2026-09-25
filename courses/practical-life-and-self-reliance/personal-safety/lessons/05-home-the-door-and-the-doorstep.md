@@ -1,6 +1,6 @@
 ---
 title: Home, the door and the doorstep
-minutes: 100
+minutes: 105
 objectives:
   - >-
     Explain what the England and Wales evidence shows about locks and lights in combination, and
@@ -57,13 +57,13 @@ quiz:
       fitting. Which problem does that design leave open?
     options:
       - None, since a full year is long enough for any real difference between them to show up
-      - That alarms often go in after a burglary, so those homes may start out at higher risk
+      - That some alarms go in after a burglary, so those homes may start out at higher risk
       - Whether the alarms were loud enough, since that is what decides whether they work
       - That burglars asked in prison might disagree with whatever result it produces
     answer: 1
     explain: >-
       Without the earlier history, the comparison can't separate the alarm from the reason it was
-      fitted. A household burgled once is at higher risk of being burgled again, and many alarms go
+      fitted. A household burgled once is at higher risk of being burgled again, and some alarms go
       in after a burglary, so alarmed homes may begin riskier whatever the alarm does. A longer or
       shorter follow-up doesn't fix that. Loudness is a question about quality, which this design
       doesn't touch either, but it isn't the timing problem. What burglars say measures something
@@ -83,7 +83,7 @@ quiz:
       burglar got in, and a smaller share involved pushing past whoever opened the door or false
       pretences. None of those needed anything broken. The survey does ask how the burglar got in,
       which is where those rows come from. A strong lock matters, and it only helps when it's locked
-      and when nobody opens the door to the wrong person.
+      and someone has to get past it.
   - q: >-
       A man at a front door says he's from the council, needs to check the smoke alarm today, and
       shows a laminated card with a phone number on it, saying the resident can ring it to check.
@@ -99,7 +99,7 @@ quiz:
       already held. A number on his own card only reaches whoever he wants it to reach, which is
       why the Suzy Lamplugh Trust says to use the one on your bill rather than the one on the
       identity card. Letting him in first removes the point of checking. Quizzing him is a
-      judgement of his story, and a good story is the easiest part of a con to prepare.
+      judgement of his story, and the call-back advice doesn't depend on how convincing a story is.
   - q: >-
       A retired woman in Scotland paid a doorstep trader in advance for roof repairs that were never
       done, and he no longer answers his phone. Where does Report Fraud's own site say someone in
@@ -252,32 +252,36 @@ than decreased risk of burglary with entry. This counter-intuitive finding needs
 cautiously."[2]
 
 :::predict Households with alarms were, on average, more likely to have been burgled. Before reading on, think of an explanation for that which doesn't involve alarms attracting burglars.
-One the authors call plausible is timing. Many households fit an alarm after a burglary, and a household burgled once is at higher risk of being burgled again (lesson 3's repeat victimisation). So an alarm may mark a home that was already a target rather than make it one. If you thought of that, you reasoned the way the authors did.
+One the authors call plausible is timing. Some households fit an alarm after a burglary, and a household burgled once is at higher risk of being burgled again (lesson 3's repeat victimisation). So an alarm may mark a home that was already a target rather than make it one. If you thought of that, you reasoned the way the authors did.
 :::
 
 Tilley and colleagues offered several explanations, and they tested none of them. Beside the timing
 one, they call a second plausible, though they had no data to test it: that an alarm can flag that
-something worth stealing is inside. The others are that offenders and police have adapted (police no
-longer always attend an alarm) and that many alarms are cheap or unmonitored.[2] Each is a
-hypothesis, and nobody has yet shown which, if any, is right. The authors themselves warn that,
-given earlier research suggesting that alarms have been effective deterrents, it "would be
-premature to conclude that domestic burglar alarms are (or have become) counter-productive", and
-they call for more research.[2]
+something worth stealing is inside. The others include that offenders and police have adapted
+(police no longer always attend an alarm) and that many alarms are poor-quality or do-it-yourself
+systems.[2] Each is a hypothesis, and nobody has yet shown which, if any, is right. The authors
+themselves warn that, given earlier research suggesting that alarms have been effective deterrents,
+it "would be premature to conclude that domestic burglar alarms are (or have become)
+counter-productive", and they call for more research.[2]
 
-The other side of the question comes from the US, and it asks burglars. A team at the University of
-North Carolina at Charlotte surveyed 422 people imprisoned for burglary in three states for a 2012
-report, *Understanding Decisions to Burglarize from the Offender's Perspective*. This course read
-[the university's release about it](https://inside.charlotte.edu/news-features/2013-05-15/through-eyes-burglar-study-provides-insights-habits-and-motivations/),
+The other side of the question comes from the US, where one study asked burglars. A team at the
+University of North Carolina at Charlotte surveyed 422 people imprisoned for burglary in three
+states for a 2012 report, *Understanding Decisions to Burglarize from the Offender's Perspective*.
+This course read [the university's release about
+it](https://inside.charlotte.edu/news-features/2013-05-15/through-eyes-burglar-study-provides-insights-habits-and-motivations/),
 not the report. From the release: "Approximately 83 percent said they would try to determine if an
 alarm was present before attempting a burglary, and 60 percent said they would seek an alternative
 target if there was an alarm on-site." And: "Among those who discovered the presence of an alarm
 while attempting a burglary, half reported they would discontinue the attempt, while another 31
 percent said they would sometimes retreat."[3] A Rutgers study of burglar alarms in Newark, New
 Jersey, by S. Lee, looked at whole neighbourhoods instead of single homes. Again this course read
-only [the university's release](https://www.rutgers.edu/news/rutgers-study-finds-alarm-systems-are-valuable-crime-fighting-tool),
-which reports that "Neighborhoods in which burglar alarms were densely installed have fewer incidents
-of residential burglaries than the neighborhoods with fewer burglar alarms".[4] Its advisory
-committee included Felson and Clarke, whose work lesson 4 was built on, with Clarke as its chair.[4]
+only [the university's
+release](https://www.rutgers.edu/news/rutgers-study-finds-alarm-systems-are-valuable-crime-fighting-tool),
+which reports that "Neighborhoods in which burglar alarms were densely installed have fewer
+incidents of residential burglaries than the neighborhoods with fewer burglar alarms", and calls it
+the first study of alarms "scientifically ruling out other factors that could have impacted the
+crime rate".[4] Its advisory committee included Felson and Clarke, whose work lesson 4 was built on,
+with Clarke as its chair.[4]
 
 Who paid for each is worth knowing. The two England and Wales papers were funded by the Economic and
 Social Research Council, a public research funder, and the 2017 paper says the funder had no role in
@@ -292,9 +296,10 @@ its design.
 Yes, because they measured different things. Burglars asked in prison said what they would do on
 meeting an alarm. The England and Wales survey measured which households, with and without alarms,
 were actually burgled. On one of the explanations the 2015 paper calls plausible, an alarm might put
-some burglars off a house while alarmed houses, on average, are still riskier because so many of
-them were targets before the alarm went in. The US studies also come from a different country, with
-different alarms and police response.
+some burglars off a house while alarmed houses, on average, are still riskier because some of them
+were targets before the alarm went in. The Newark study counted burglaries, but by neighbourhood
+rather than by household, so it answers a different question again. The US studies also come from a
+different country, with different alarms and police response.
 
 So whether an alarm protects a home is a **contested** question in this course's labels. What would
 settle it is a study that records when each alarm was fitted relative to any earlier burglary, and
@@ -537,7 +542,7 @@ course's step, sensible, untested. Then the rest of WIDE: window locks, a timer 
 an outside sensor light.
 
 :::checkpoint Thread 3 is the alarm. Before reading on, work it out: what can the evidence in this lesson tell Ruth and Imran about whether an alarm will protect their home, and why is their situation the hard case?
-Whether an alarm protects a home is contested, and their situation is the exact one that makes it hard to settle: a household fitting an alarm right after a burglary is the kind the latent repeat victim explanation describes. An alarm might help them; the England and Wales data can't say that it will, and the US studies, which measured something else, can't settle it for one house either. Either choice is reasonable, as long as the locks come first. If your answer said the alarm will or won't work, go back to "Can both be right?".
+Whether an alarm protects a home is contested, and their situation is the exact one that makes it hard to settle: a household fitting an alarm right after a burglary is the kind the timing explanation describes. An alarm might help them; the England and Wales data can't say that it will, and the US studies, which measured something else, can't settle it for one house either. Either choice is reasonable, as long as the locks come first. If your answer said the alarm will or won't work, go back to "Can both be right?".
 :::
 
 **Thread 4: the sale.** Tonight-only pricing is pressure, the FTC's third sign, and the FTC's answer
@@ -559,13 +564,15 @@ counter-intuitive and warn against over-reading, and the idea that an alarm flag
 stealing is one of several explanations they give, none tested.
 
 **"Burglars attack people at home."** Violence is the minority case (7% of US household burglaries in
-2003 to 2007), though threat or force is common when someone at home sees the burglar.
+2003 to 2007), though in England and Wales threat or force is common when someone at home sees the
+burglar.
 
-**"An ID card proves who they are."** A card is the easiest thing in the con to fake. The check is a
-call to a number you already had, from your bill.
+**"An ID card proves who they are."** The Lamplugh advice is to check the card, not trust it: a
+call to the organisation on a number you already had, from your bill, not the one on the card.
 
 **"If I hear someone downstairs I should go and check."** The sources read say call the police
-instead, and don't go in if you think someone has been inside.
+instead, and don't go in if you think someone has been inside. That's advice for next time, not a
+judgement on anyone who went to look.
 
 ## Practice
 
@@ -610,7 +617,8 @@ support. Home Repair and Maintenance, the next course on the Core, teaches fitti
   of entry is the clearest example I know of testing a cause with survey data.
 - **S. Catalano, [*Victimization During Household Burglary*](https://bjs.ojp.gov/content/pub/pdf/vdhb.pdf)**,
   Bureau of Justice Statistics, 2010. Read in full here. Short, and it answers "what happens when
-  someone's home?" for the US with numbers rather than anecdotes.- **ONS, ["Nature of crime: burglary"](https://www.ons.gov.uk/peoplepopulationandcommunity/crimeandjustice/datasets/natureofcrimeburglary)**
+  someone's home?" for the US with numbers rather than anecdotes.
+- **ONS, ["Nature of crime: burglary"](https://www.ons.gov.uk/peoplepopulationandcommunity/crimeandjustice/datasets/natureofcrimeburglary)**
   tables. A spreadsheet, updated each year. Open the tables on point of entry and on contact with
   offenders, and look at the number of incidents each percentage rests on, at the bottom of each
   table: that's lesson 2 in practice.
