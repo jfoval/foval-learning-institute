@@ -1,6 +1,7 @@
 ---
 title: Your knife, your board, and mise en place
 minutes: 95
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/practical-life-and-self-reliance/cooking-fundamentals/01-your-knife-your-board-and-mise-en-place.mp3
 objectives:
   - >-
     Apply a pinch grip and the claw to cut an onion and a carrot into even pieces, and explain why
