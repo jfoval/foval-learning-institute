@@ -1,6 +1,7 @@
 ---
 title: Seasoning by taste
 minutes: 90
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/practical-life-and-self-reliance/cooking-fundamentals/03-seasoning-by-taste.mp3
 objectives:
   - >-
     Explain what salt does to the flavour of food, and why a teaspoon of one salt isn't a teaspoon of
