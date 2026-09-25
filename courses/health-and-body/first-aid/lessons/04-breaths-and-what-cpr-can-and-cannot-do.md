@@ -55,23 +55,24 @@ quiz:
       - He's right, since every recommendation that ILCOR gives on CPR is weak and very low certainty
       - He's right about breaths, but wrong on compressions, which ILCOR grades strong on RCTs
       - The grade compares two ways of doing CPR; ILCOR says both beat doing no CPR at all
-      - The grade is a typing slip, since ILCOR's full text calls breaths a strong recommendation
+      - The grade covers CPR as a whole, since ILCOR grades the package and not the choice of method
     answer: 2
     explain: >-
       The weak grade is about a choice between two ways of acting, compressions with breaths or
       without, and the evidence can't separate them well. ILCOR's own justification says "Both
       types of CPR are better than no CPR", and its dispatcher section says bystander CPR more
-      than doubles survival. Compressions for all adults is a good practice statement, which is
-      expert opinion, not a grade from trials. Not every ILCOR line is weak: dispatcher
-      instructions get a strong recommendation.
+      than doubles survival. The grade doesn't cover CPR as a whole: compressions for all adults
+      is a separate line, a good practice statement, which is expert opinion, not a grade from
+      trials. And not every ILCOR line is weak: dispatcher instructions get a strong
+      recommendation.
   - q: >-
       In Phoenix, a man who took an AHA course three years ago finds his mother collapsed in the
       kitchen, not breathing normally. He's willing to give breaths. Under the AHA's 2025
       guidelines, how does he start?
     options:
-      - Two breaths first, then compressions, since an older woman's blood is always short of oxygen
+      - Two breaths first, then compressions, since an older woman's blood is likely short of oxygen
       - Compressions first, then 30:2 with breaths, which the AHA grades as reasonable for him
-      - Compressions only, since the AHA says breaths are for health care professionals alone
+      - Compressions only, since the AHA reserves breaths for health care professionals
       - Breaths only, until she's pink again, then compressions if she still doesn't respond
     answer: 1
     explain: >-
@@ -87,13 +88,13 @@ quiz:
       - Go back to compressions, and consider that something may be blocking the airway
       - Keep trying breaths until one makes the chest rise, since compressions can wait
       - Blow harder on the third try, since the chest needs a big breath to rise at all
-      - Switch to breaths only, since the problem is plainly with the airway and not the heart
+      - Switch to breaths only, since the problem seems to be with the airway and not the heart
     answer: 0
     explain: >-
       RCUK 2025: "If you are unable to ventilate the chest after two attempts, consider foreign
       body airway obstruction". St John's page says the same: "If one or both don't work, return
-      to chest compressions." Two tries limits the pause, and the AHA warns that a pause lets the
-      pressure built by compressions fall at once. Blowing harder risks air going into the
+      to chest compressions." Two tries limits the pause, and the AHA says a pause brings an almost
+      immediate drop in the pressure the compressions built. Blowing harder risks air going into the
       stomach, which the AHA lists among the harms of too much ventilation.
   - q: >-
       A newspaper reports that people who got bystander CPR in a registry study had "an adjusted odds ratio of 1.9 for survival", under the headline "CPR nearly doubles survival". What's
@@ -127,9 +128,10 @@ This course is education, not a certificate, and not medical advice about anyone
 
 ## What goes in the pause
 
-For an adult, compressions come first in both countries. RCUK's 2025 guidelines say "Start chest
-compressions as soon as possible",[1] and the AHA's tell a lone rescuer to call and "immediately
-begin CPR, beginning with chest compressions" (AHA 2025, COR 1, LOE C-LD).[2] The American Red
+For an adult, compressions come first in both countries. RCUK's 2025 guidelines say "[Start chest
+compressions as soon as possible](https://www.resus.org.uk/professional-library/2025-resuscitation-guidelines/adult-basic-life-support-guidelines)",[1]
+and the AHA's tell a lone rescuer with a phone to call and "immediately begin CPR, beginning with
+chest compressions" (AHA 2025, COR 1, LOE C-LD).[2] The American Red
 Cross, which teaches its own mnemonic for checking a casualty, agrees on this case: "For adult
 cardiac arrest and sudden pediatric arrests, the correct resuscitation sequence is compressions
 first, followed by breaths if the rescuer is trained and able."[11]
@@ -146,8 +148,8 @@ What happens after the first thirty depends on you.
 *AHA 2025 Part 7, sections 6.2 and 8.4, and Part 4;[2][3] RCUK 2025 Adult basic life support.[1]*
 
 The two columns say the same thing in different words. Everyone pushes; people who've been
-trained, and are willing, add two breaths after every thirty pushes; the call handler assumes you
-haven't been trained until you say otherwise. ILCOR, whose evidence reviews both countries build
+trained, and are willing, add two breaths after every thirty pushes; and in the UK the call
+handler assumes you haven't been trained until you say otherwise. ILCOR, whose evidence reviews both countries build
 on, puts it in one pair of sentences, which this lesson reads word by word further down.[4]
 
 Notice two things that are not in the table. Neither country makes breaths a condition of doing
@@ -157,13 +159,14 @@ provide breaths."[2]
 
 ## How to give a breath
 
-Both countries' public versions are worth knowing word for word, because they're what you'll meet
-in a class.
+Know both countries' public versions word for word, because they're what you'll meet in a class.
 
 The American Red Cross's steps: "Open the airway to a past-neutral position using the
 head-tilt/chin-lift technique", then "Pinch the nose shut, take a normal breath, and make complete
 seal over the person’s mouth with your mouth." Then "Ensure each breath lasts about 1 second and
-makes the chest rise; allow air to exit before giving the next breath".[5] St John Ambulance's
+makes the chest rise; allow air to exit before giving the next breath".[5] (Past-neutral means
+the head tilted back, beyond the position it rests in; St John's version says it plainly.) St
+John Ambulance's
 steps in the UK: "Tilt the casualty's head backwards, lift their chin, and pinch the soft part of
 their nose closed." Then "Blow into their mouth steadily and firmly for up to one second, until the
 chest rises," and "Remove your mouth and watch the chest fall."[6] Two breaths, then straight back
@@ -176,9 +179,7 @@ relax and their tongue can block their airway so they can no longer breathe. Til
 back opens the airway by pulling the tongue forward."[8]
 
 **The pinched nose and the seal.** The AHA's description has you "pinch the person’s nose, create an
-airtight seal around the mouth, and provide a breath."[2] No guideline read here spells out why, and
-the plain reason is this course's: an open nose or a leaking seal lets the breath out before it
-reaches the lungs.
+airtight seal around the mouth, and provide a breath."[2] No guideline read here spells out why.
 
 **About one second, and only until the chest rises.** RCUK 2025: "deliver just enough air to make
 the chest start to rise; avoid excessive ventilation."[1] The AHA grades "each breath over 1 s" as
@@ -187,21 +188,22 @@ recommendation for using a 1-second inspiratory time is to keep the pauses in ch
 brief as possible during 30:2 CPR."[2] The American Red Cross asks you to keep any interruption to
 compressions under 10 seconds, and two one-second breaths fit inside that with room to spare.[5]
 
-:::predict The AHA tells the rescuer to take "a regular rather than a deep breath" before each rescue breath. Before reading on, why do you think it says that?
+:::predict The AHA tells the rescuer to take "a regular rather than a deep breath" before each rescue breath. One of its two reasons is about the person on the floor. The other is about you. Before reading on, what do you think a deep breath does to the rescuer?
 
-Two reasons, both the AHA's: "Taking a regular rather than a deep breath may help prevent the
+Both reasons, in the AHA's words: "Taking a regular rather than a deep breath may help prevent the
 rescuer from getting dizzy or lightheaded when giving mouth-to-mouth or mouth-to-mask breaths and
 prevents overinflation of the person’s lungs."[2]
 
 The second reason matters more than it looks. The AHA's list of what too much air does: "Excessive ventilation can cause gastric
 inflation, regurgitation, aspiration, and decreased cardiac output."[2] In plain words, air goes
 into the stomach, the stomach contents can come back up and be breathed into the lungs, and the
-blood the compressions are moving drops. The AHA grades the warning at the other end too: "Too
+blood the compressions are moving drops. The AHA's text warns at the other end too: "Too
 little ventilation also is harmful and is associated with decreased survival."[2]
 :::
 
-That's why one public page's wording is worth flagging. The British Heart Foundation's CPR page, in
-its instructions for breaths, says "Seal your mouth over theirs and blow hard for a second."[7] The
+That's why one public page's wording needs a flag. The British Heart Foundation's
+[CPR page](https://www.bhf.org.uk/how-you-can-help/how-to-save-a-life/how-to-do-cpr), in its
+instructions for breaths, says "Seal your mouth over theirs and blow hard for a second."[7] The
 guidelines do not say hard. They say just enough to make the chest start to rise. If you learned
 "blow hard", replace it with "until the chest rises".
 
@@ -217,26 +219,34 @@ hand, and do not delay compressions to find it.
 
 ## Why compressions come first for an adult
 
-The British Red Cross gives the reasoning in two sentences. First: "However, giving
+The [British Red Cross](https://www.redcross.org.uk/first-aid/learn-first-aid/unresponsive-and-not-breathing)
+gives the reasoning in two sentences. First: "However, giving
 chest compressions is the most important thing to do because their blood already has some oxygen
 in it and the compressions will keep that blood pumping around their body, taking oxygen to their brain." Then: "Breathing into their mouth or nose tops up the oxygen in their
 lungs."[8] Compressions move the oxygen that's already there; breaths add more.
 
-That oxygen does not last. The AHA is direct about compressions alone: "Performing chest compressions
-with passive oxygen delivery does not ensure sufficient ventilation."[2] And some arrests start
-without it. The AHA contrasts the two kinds: "Cardiac arrest following drowning is most often due to
-a hypoxic mechanism, whereas sudden cardiac arrest, particularly in adults, is more likely to occur
-with fully oxygenated blood."[9] Hypoxic means short of oxygen. A person who drowns has run short of oxygen before the heart stops,
-so the reasoning that puts compressions first for a sudden collapse does not hold in the same way.
-The AHA flags overdose too, as a kind of arrest where compressions alone may do less well, as
-you will see below.
+The Red Cross's word is "some": no guideline read here says how much oxygen that blood carries or
+how long it lasts. The AHA's reason for encouraging breaths from the trained is a sentence about
+outcomes rather than mechanism: "Because CPR with breaths may lead to improved outcomes for adults
+in comparison with chest compression–only CPR, trained rescuers are encouraged to provide breaths
+along with chest compressions."[2]
 
-How often is that? The AHA estimates that "1 in 6 to 1 in 3 OHCAs are related to an overdose, most
-commonly involving opioids."[3] (OHCA is out-of-hospital cardiac arrest.) RCUK's figure for the UK
-is that "Approximately 80% of out-of-hospital cardiac arrests are due to a cardiac cause."[20] So
-most adult arrests start with oxygenated blood, and a real minority don't. Keep that in mind; it's
-the fact the whole argument below turns on. Lesson 6 gives the sequences for children and for
-drowning, where breaths come earlier, and lesson 7 covers the overdose.
+And some arrests start without oxygenated blood. The AHA contrasts the two kinds: "Cardiac arrest
+following drowning is most often due to a hypoxic mechanism, whereas sudden cardiac arrest,
+particularly in adults, is more likely to occur with fully oxygenated blood."[9] Hypoxic means
+short of oxygen. A person who drowns has run short of oxygen before the heart stops, so the
+reasoning that puts compressions first for a sudden collapse does not hold in the same way, and
+lesson 6 gives what each guideline makes of that. The AHA flags overdose too, as a kind of arrest
+where compressions alone may do less well, as you will see below.
+
+The AHA's US estimate is that "1 in 6 to 1 in 3 OHCAs are related to an overdose, most commonly
+involving opioids."[3] (OHCA is out-of-hospital cardiac arrest.) RCUK's UK figure is that
+"Approximately 80% of out-of-hospital cardiac arrests are due to a cardiac cause."[20] The two are
+counted differently, in different countries, and don't add up to one picture. Read together with
+the AHA's sentence above, they say, on this course's reading, that most adult arrests begin with
+oxygenated blood and a real minority don't. Keep that in mind. Lesson 6 gives the sequences for
+children and for drowning, where trained rescuers give breaths earlier, and lesson 7 covers the
+overdose.
 
 ## How to read the label
 
@@ -255,24 +265,25 @@ placed on randomized controlled trials (RCTs) and meta-analyses involving RCTs."
 
 The AHA's Table 1 sets out both scales, and this is its content, shortened.[2]
 
-| Class | The AHA's name for it | Benefit against risk | Wording you'll see |
+| Class | Name | Benefit against risk | Wording you'll see |
 |---|---|---|---|
 | 1 | Strong | Benefit >>> Risk | "Is recommended", "should" |
 | 2a | Moderate | Benefit >> Risk | "Is reasonable" |
 | 2b | Weak | Benefit ≥ Risk | "May/might be reasonable", "May/might be considered" |
-| 3: No Benefit | Moderate | Benefit = Risk | "Is not recommended" |
-| 3: Harm | Strong | Risk > Benefit | "Potentially harmful", "Causes harm" |
+| 3:&nbsp;No&nbsp;Benefit | Moderate | Benefit = Risk | "Is not recommended" |
+| 3:&nbsp;Harm | Strong | Risk > Benefit | "Potentially harmful", "Causes harm" |
 
 | Level | What it rests on |
 |---|---|
 | A | "High-quality evidence‡ from more than 1 RCT", or "Meta-analyses of high-quality RCTs" |
 | B-R | "Moderate-quality evidence‡ from 1 or more RCTs" |
-| B-NR | Moderate-quality nonrandomised, observational or registry studies |
-| C-LD | Limited data: studies "with limitations of design or execution" |
+| B-NR | "Moderate-quality evidence‡ from 1 or more well-designed, well-executed nonrandomized studies, observational studies, or registry studies" |
+| C-LD | "Randomized or nonrandomized observational or registry studies with limitations of design or execution" |
 | C-EO | "Consensus of expert opinion based on clinical experience" |
 
-*From Table 1 of AHA 2025 Part 7, read from the publisher's image. The ‡ is the AHA's own footnote
-mark, on how evidence quality is judged.[2]*
+*From Table 1 of AHA 2025 Part 7, read from the publisher's image. The quoted cells are the AHA's
+words; the class names and the benefit column are its labels. The ‡ is the AHA's own footnote mark,
+on how evidence quality is judged.[2]*
 
 An RCT is a randomised controlled trial, where chance decides who gets which treatment, so the two
 groups differ only by that treatment and by luck. Registry and observational studies record what
@@ -284,8 +295,7 @@ independently (any COR may be paired with any LOE)." The second: "A recommendati
 not imply that the recommendation is weak. Many important clinical questions addressed in
 guidelines do not lend themselves to clinical trials. Although RCTs are unavailable, there may be a
 very clear clinical consensus that a particular test or therapy is useful or effective."[2] So a
-strong class can sit on expert opinion, and a weak class can sit on trials. You have to read both
-halves.
+strong class can sit on expert opinion, and a weak class can sit on trials.
 
 ### ILCOR's version: strength and certainty
 
@@ -293,20 +303,20 @@ ILCOR, the international committee that runs the evidence reviews, grades differ
 recommendation is **strong or weak**, and the evidence behind it has a **certainty** of high,
 moderate, low or very low. Its reviewers rate the evidence "based on Grading of Recommendations
 Assessment, Development, and Evaluation criteria", the GRADE system you met in Sleep.[4] In every
-ILCOR recommendation this course read, a strong one begins "We recommend" and a weak one "We
-suggest". That is this course's observation from the texts, not a rule ILCOR states, but it is
-reliable enough to help you spot the strength before you reach the brackets.
+ILCOR recommendation this course read, "We suggest" opens a weak recommendation, and "We recommend"
+opens either a strong one or a third kind of statement that carries no grade at all. That is this
+course's observation from the texts, not a rule ILCOR states. So the verb tells you a line isn't
+weak, and the brackets tell you which of the other two it is.
 
-ILCOR has a third kind of statement with no grade at all, the **good practice statement**. Its
-definition: "Good practice statements, which represent the expert opinion of the task force in
-light of very limited or no direct evidence, can be generated after ScopRevs and occasionally after
-EvUps in cases where the task force thinks providing guidance is especially important."[4]
+:::predict ILCOR's instruction that compressions be given to every adult in cardiac arrest is the most basic line in the whole of CPR, and it opens "We recommend". Before you read on: is it a strong recommendation, and if so, on what certainty of evidence?
+
+Neither strong nor weak. It's the third kind, a **good practice statement**: "We recommend that
+chest compressions be performed for all adults in cardiac arrest (good practice statement)."[4]
+
+ILCOR's definition: "Good practice statements, which represent the expert opinion of the task force
+in light of very limited or no direct evidence, can be generated after ScopRevs and occasionally
+after EvUps in cases where the task force thinks providing guidance is especially important."[4]
 (ScopRevs and EvUps are its lighter kinds of review, scoping reviews and evidence updates.)
-
-:::predict ILCOR's instruction that compressions be given to every adult in cardiac arrest is the most basic line in the whole of CPR. Before you read on, guess its label: strong, weak, or something else?
-
-Something else. It's a good practice statement: "We recommend that chest compressions be performed
-for all adults in cardiac arrest (good practice statement)."[4]
 
 So the most basic instruction in CPR carries the label ILCOR uses for "the expert opinion of the
 task force in light of very limited or no direct evidence". That tells you what the label measures.
@@ -355,7 +365,7 @@ little evidence sits under it.
 **What it doesn't say.** It doesn't say breaths beat compression-only for everyone, it doesn't tell
 untrained people to try them, and it doesn't say the choice matters little. Read the sentence
 printed just above it in the same review: "We recommend that chest compressions be performed for all
-adults in cardiac arrest (good practice statement)."[4] The pair is the recommendation.
+adults in cardiac arrest (good practice statement)."[4] Read the two together.
 
 Now look at what sits under it, because this is where reading a grade pays off. ILCOR's evidence
 for the question is thin: "No new studies that directly addressed this topic were found. The
@@ -364,16 +374,19 @@ conventional CPR at a ratio of 15:2 and 30:2 in adults without DA-CPR instructio
 dispatcher-assisted CPR, where the call handler talks you through it.) Two of those studies used a
 ratio of 15 compressions to 2 breaths, which is not taught any more. The one adult study that
 compared compression-only with today's 30:2 found higher survival with compression-only, an
-adjusted odds ratio of 1.60.[4]
+adjusted odds ratio of 1.60.[4] (An odds ratio compares two groups' odds of surviving; the section
+on the Swedish study below takes the term apart.)
 
 So the only direct adult comparison with 30:2 on the page, one observational study at very low
 certainty, points the other way, and ILCOR still
 suggests breaths for the trained. Its justification does not give one decisive reason. It lists
 considerations on both sides: that compression-only CPR "is preferred by the public and easier to
 learn and recall"; that untrained bystanders "are typically unable to deliver effective
-ventilations during simulated CPR"; and a study from the 1980s in which correctly performed 15:2
-CPR had higher unadjusted survival than compression-only, 31% against 20%. And it ends: "Both types of CPR are better than no CPR, and both
-should be taught in BLS/CPR training."[4] That last sentence is the one the weak grade sits on top of.
+ventilations during simulated CPR"; and one of three older studies that found no overall
+difference between the two, a study from the 1980s in which 15:2 done correctly had higher
+unadjusted survival than compression-only, 31% against 20%. And it ends: "Both types of CPR are
+better than no CPR, and both should be taught in BLS/CPR training."[4] That last sentence is the
+one the weak grade sits on top of.
 
 :::checkpoint Now the AHA's version of the same advice: "For lay rescuers trained in performing CPR, it is reasonable to provide ventilation (breaths) in addition to chest compressions for an adult in cardiac arrest." (COR 2a, LOE B-R). Using the tables above, translate it into a plain sentence, and say whether the B-R means a trial showed breaths save more lives.
 
@@ -396,7 +409,9 @@ and willing, on top of compressions.
 
 Imagine two people who've both read a little about this. The first says compression-only CPR is
 best, because the trials favour it. The second says breaths are best, because so many arrests now
-come from overdoses. This is a contested question, and both of them are partly right. Each case follows, in its proponents' own words.
+come from overdoses. This is a contested question, and both of them are partly right. Each case
+follows, quoted from the people who make it; where this course adds a reading of its own, it says
+so.
 
 ### The case for compressions alone
 
@@ -412,7 +427,8 @@ random to have the caller talked through either compression-only CPR or CPR with
   strategy for CPR performed by laypersons that emphasizes chest compression and minimizes the role
   of rescue breathing."[14]
 - **Hüpfl, Selig and Nagele, 2010**, pooled three randomised trials of dispatcher instructions. Together they found "14%
-  [211/1500] vs 12% [178/1531]; risk ratio 1·22, 95% CI 1·01-1·46", and their interpretation: "For
+  [211/1500] vs 12% [178/1531]; risk ratio 1·22, 95% CI 1·01-1·46" (a risk ratio is the relative
+risk Nutrition taught you), and their interpretation: "For
   adults with out-of-hospital cardiac arrest, instructions to bystanders from emergency medical
   services dispatch should focus on chest-compression-only CPR."[12]
 
@@ -440,12 +456,10 @@ It adds the point about who arrests now. Writing about those three trials, the A
 noteworthy that the adult OHCA RCTs largely predate the rise in overdose-associated OHCA seen in the
 last decade." And in its list of open questions: "Compression-only CPR is easier to implement
 because of its simplicity and reduced contact but may be less efficacious than CPR with breaths in
-some etiologies of OHCA (eg, opioid-associated OHCA)."[3] Add the mechanism from the section above,
-that compressions with passive oxygen delivery don't ensure enough ventilation, and the older
-finding ILCOR reports, that 15:2 done correctly had higher unadjusted survival than compression-only,
-and you have the
-case: when breaths are given well, by someone who knows how, they may add something, and the
-people most likely to need them are the ones the old trials had fewer of.
+some etiologies of OHCA (eg, opioid-associated OHCA)."[3] Add the one subgroup finding ILCOR
+reports for breaths, from a study that found no overall difference, and you have the case: when
+breaths are given well, by someone who knows how, they may add something, and the people most
+likely to need them are the ones the old trials had fewer of.
 
 ### What each side says about the other's evidence
 
@@ -456,14 +470,16 @@ adults, these studies are vulnerable to selection bias and confounding."[3] In p
 do not, in training, confidence or speed, and those differences, not the breaths, could explain the
 result.
 
-The breaths side's answer is about what the trials tested. Look at what they compared: bystanders following a call handler's instructions, not trained rescuers
-choosing breaths for themselves. ILCOR's 2025
-review also notes that the comparison in the dispatcher studies was often an old ratio: "As 15:2 CPR
-is no longer recommended, all outcomes were downgraded for indirectness."[4] Mental Fitness taught
-you to ask what the comparison group got. In ILCOR's table, all three adult trials compared
-compression-only with 15:2, so the comparison group got a call handler trying to teach
-mouth-to-mouth at 15:2 over the phone, during an emergency. That's a fair test of what a call
-handler should say, and not a test of what a trained rescuer should do.
+The nearest thing to a reply on the breaths side is in what the trials tested, and this reading
+is the course's. Look at what they compared: bystanders following a call handler's instructions,
+not trained rescuers choosing breaths for themselves. ILCOR's 2025 review also notes that the
+comparison in the dispatcher studies was often an old ratio: "As 15:2 CPR is no longer recommended,
+all outcomes were downgraded for indirectness."[4] Indirectness is GRADE's word for evidence about a
+slightly different question from the one being asked. Mental Fitness taught you to ask what the
+comparison group got. ILCOR's table lists 15:2 as the comparator for the three adult trials'
+survival outcome, and marked every outcome down for it, so the comparison group got a call handler
+trying to teach mouth-to-mouth at 15:2 over the phone, during an emergency. That's a fair test of
+what a call handler should say, and not a test of what a trained rescuer should do.
 
 :::predict Hüpfl's pooled trials gave a number needed to treat of 41. Before you read the answer, what do you think that means, in a sentence?
 
@@ -473,8 +489,9 @@ compression-only instructions, and 1 divided by 0.024 is about 41. So on average
 through compression-only CPR rather than standard CPR would mean one more survivor.[12]
 
 The confidence interval runs from 20 to 1250.[12] At one end, one extra survivor for every 20
-callers. At the other, one for every 1,250, which is close to no difference. That width is why the AHA describes the three trials as having "trended towards better survival
-with compression-only CPR instructions", and only the pooled analysis as significant.[3]
+callers. At the other, one for every 1,250, which is close to no difference. The AHA's own summary
+matches: the three trials "trended towards better survival with compression-only CPR
+instructions", and only the pooled analysis reached significance.[3]
 :::
 
 ### Where it stands
@@ -486,7 +503,7 @@ LOE A).[4][3] Trained, able, willing rescuers add breaths at 30:2 (ILCOR 2025, w
 very low certainty; AHA 2025, COR 2a, LOE B-R; RCUK 2025).[4][2][1] And both are far better than no
 CPR, which is the one part of this that is not contested.
 
-What would settle it? Both bodies say. ILCOR lists as a gap "The effect on outcomes of chest
+Both bodies say what would settle it. ILCOR lists as a gap "The effect on outcomes of chest
 compression–only CPR compared with 30:2 CPR without dispatcher assistance". The AHA asks for
 "Research to identify age cutoffs and etiologies for which individuals in cardiac arrest benefit
 from full CPR with breaths, as opposed to compression-only CPR".[4][3] In other words, a comparison
@@ -556,35 +573,36 @@ children, teenagers, or young adults."[21] In 2015, Portanova and colleagues rep
 with *Grey's Anatomy* and *House*: "CPR was depicted 46 times in the 91 episodes, with a survival
 rate of 69.6%."[22]
 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 300" role="img" aria-labelledby="tv-title tv-desc" style="width:100%;height:auto;font-family:inherit">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 470 300" role="img" aria-labelledby="tv-title tv-desc" style="width:100%;height:auto;font-family:inherit">
   <title id="tv-title">Survival after CPR on television and in real life</title>
   <desc id="tv-desc">Five horizontal bars. Television: 75% survived the immediate arrest and 67% appeared to survive to discharge in ER, Chicago Hope and Rescue 911 (Diem 1996); 69.6% survival in Grey's Anatomy and House (Portanova 2015). Real life: 10.5% survived to hospital discharge in the US in 2025 (CARES); 9.5% were alive at 30 days in England in 2024 (RCUK). The real figures use different definitions from each other and from the television studies.</desc>
-  <text x="260" y="24" font-size="16" text-anchor="middle" fill="var(--text, #111418)">Survival after CPR, per cent</text>
-  <text x="10" y="62" font-size="16" fill="var(--text, #111418)">TV 1994-95, immediate</text>
-  <rect x="200" y="47" width="225" height="22" fill="var(--oxblood, #8b1e2d)" fill-opacity="0.35" stroke="var(--oxblood, #8b1e2d)" stroke-width="1.5"/>
-  <text x="433" y="63" font-size="16" fill="var(--text, #111418)">75</text>
-  <text x="10" y="102" font-size="16" fill="var(--text, #111418)">TV 1994-95, discharge</text>
-  <rect x="200" y="87" width="201" height="22" fill="var(--oxblood, #8b1e2d)" fill-opacity="0.35" stroke="var(--oxblood, #8b1e2d)" stroke-width="1.5"/>
-  <text x="409" y="103" font-size="16" fill="var(--text, #111418)">67</text>
-  <text x="10" y="142" font-size="16" fill="var(--text, #111418)">TV 2010-11, immediate</text>
-  <rect x="200" y="127" width="209" height="22" fill="var(--oxblood, #8b1e2d)" fill-opacity="0.35" stroke="var(--oxblood, #8b1e2d)" stroke-width="1.5"/>
-  <text x="417" y="143" font-size="16" fill="var(--text, #111418)">69.6</text>
-  <text x="10" y="192" font-size="16" fill="var(--text, #111418)">US 2025, discharge</text>
-  <rect x="200" y="177" width="32" height="22" fill="var(--navy, #0f2a4a)" fill-opacity="0.35" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
-  <text x="240" y="193" font-size="16" fill="var(--text, #111418)">10.5</text>
-  <text x="10" y="232" font-size="16" fill="var(--text, #111418)">England 2024, 30 days</text>
-  <rect x="200" y="217" width="29" height="22" fill="var(--navy, #0f2a4a)" fill-opacity="0.35" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
-  <text x="237" y="233" font-size="16" fill="var(--text, #111418)">9.5</text>
-  <line x1="200" y1="40" x2="200" y2="250" stroke="var(--text-2, #4a5260)" stroke-width="1.5"/>
-  <text x="260" y="284" font-size="16" text-anchor="middle" fill="var(--text-2, #4a5260)">Diem 1996; Portanova 2015; CARES 2025; RCUK 2025</text>
+  <text x="235" y="24" font-size="16" text-anchor="middle" fill="var(--text, #111418)">Survival after CPR, per cent</text>
+  <text x="10" y="62" font-size="15" fill="var(--text, #111418)">TV 1994-95, immediate</text>
+  <rect x="185" y="47" width="225" height="22" fill="var(--oxblood, #8b1e2d)" fill-opacity="0.35" stroke="var(--oxblood, #8b1e2d)" stroke-width="1.5"/>
+  <text x="418" y="63" font-size="16" fill="var(--text, #111418)">75</text>
+  <text x="10" y="102" font-size="15" fill="var(--text, #111418)">TV 1994-95, discharge</text>
+  <rect x="185" y="87" width="201" height="22" fill="var(--oxblood, #8b1e2d)" fill-opacity="0.35" stroke="var(--oxblood, #8b1e2d)" stroke-width="1.5"/>
+  <text x="394" y="103" font-size="16" fill="var(--text, #111418)">67</text>
+  <text x="10" y="142" font-size="15" fill="var(--text, #111418)">TV 2010-11, immediate</text>
+  <rect x="185" y="127" width="209" height="22" fill="var(--oxblood, #8b1e2d)" fill-opacity="0.35" stroke="var(--oxblood, #8b1e2d)" stroke-width="1.5"/>
+  <text x="402" y="143" font-size="16" fill="var(--text, #111418)">69.6</text>
+  <text x="10" y="192" font-size="15" fill="var(--text, #111418)">US 2025, discharge</text>
+  <rect x="185" y="177" width="32" height="22" fill="var(--navy, #0f2a4a)" fill-opacity="0.35" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
+  <text x="225" y="193" font-size="16" fill="var(--text, #111418)">10.5</text>
+  <text x="10" y="232" font-size="15" fill="var(--text, #111418)">England 2024, 30 days</text>
+  <rect x="185" y="217" width="29" height="22" fill="var(--navy, #0f2a4a)" fill-opacity="0.35" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
+  <text x="222" y="233" font-size="16" fill="var(--text, #111418)">9.5</text>
+  <line x1="185" y1="40" x2="185" y2="250" stroke="var(--text-2, #4a5260)" stroke-width="1.5"/>
+  <text x="235" y="284" font-size="15" text-anchor="middle" fill="var(--text-2, #4a5260)">Diem 1996; Portanova 2015; CARES 2025; RCUK 2025</text>
 </svg>
 
-*Bar lengths are to scale, 3 units per percentage point. Drawn by this course from the figures in
+*Bars drawn to scale from zero. Drawn by this course from the figures in
 the two television studies' abstracts, the CARES 2025 national report and RCUK's 2025 epidemiology
 chapter.[21][22][19][20]*
 
-The real figures are about a seventh of the television ones. In the US, the CARES registry recorded
-140,144 cardiac arrests outside hospital in 2025, not caused by injury, where the emergency services
+The real figures are about a seventh of the television ones. In the US, the
+[CARES registry](https://mycares.net/sitepages/uploads/2026/CARES%202025%20Non-Traumatic%20National%20Survival%20Report.pdf)
+recorded 140,144 cardiac arrests outside hospital in 2025, not caused by injury, where the emergency services
 attempted resuscitation. Of those, 10.5% survived to leave hospital, and 8.3% left with good brain
 function.[19] In England, 9.5% of people were alive 30 days after a cardiac arrest outside hospital
 in 2024.[20]
@@ -593,7 +611,7 @@ Don't set those two side by side as if they measured the same thing. The US figu
 discharge and the English one is survival at 30 days, and the two registries count their cases
 differently. They're both roughly one in ten, and that's as far as the comparison goes.
 
-The British Red Cross is honest about what compressions alone do: "The chance of restarting the
+The British Red Cross says plainly what compressions alone do: "The chance of restarting the
 heart by chest compressions alone is very small. Usually, a heart needs an electric shock from an
 automated external defibrillator (AED) to restart." What compressions do instead: "Chest
 compressions pump a small amount of blood around the body to keep the organs alive, most importantly
@@ -604,38 +622,38 @@ what it's for, and lesson 5 is the defibrillator.
 
 The same US report breaks the 10.5% down.[19] The figures below are survival to hospital discharge
 in 2025. The bystander CPR and defibrillator rows leave out arrests in nursing homes and healthcare
-buildings, as the report's own table does.
+buildings, and arrests the ambulance crew saw happen, as the report's own table does.
 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 330" role="img" aria-labelledby="cares-title cares-desc" style="width:100%;height:auto;font-family:inherit">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 470 330" role="img" aria-labelledby="cares-title cares-desc" style="width:100%;height:auto;font-family:inherit">
   <title id="cares-title">US survival to hospital discharge after cardiac arrest in 2025, by setting and bystander action</title>
-  <desc id="cares-desc">Six horizontal bars from the CARES 2025 national report. All arrests 10.5%. At home 8.9%. In a public place 20.9%. No bystander CPR 7.7%. Bystander CPR 12.9%. Bystander used a defibrillator 32.9%, which happened in 2.5% of arrests. The last three exclude nursing home and healthcare facility arrests.</desc>
-  <text x="260" y="24" font-size="16" text-anchor="middle" fill="var(--text, #111418)">US 2025, survival to discharge, per cent</text>
+  <desc id="cares-desc">Six horizontal bars from the CARES 2025 national report. All arrests 10.5%. At home 8.9%. In a public place 20.9%. No bystander CPR 7.7%. Bystander CPR 12.9%. Bystander used a defibrillator 32.9%, which happened in 2.5% of arrests. The last three exclude nursing home and healthcare facility arrests, and arrests witnessed by the ambulance crew.</desc>
+  <text x="235" y="24" font-size="16" text-anchor="middle" fill="var(--text, #111418)">US 2025, survival to discharge, per cent</text>
   <text x="10" y="62" font-size="16" fill="var(--text, #111418)">All arrests</text>
-  <rect x="200" y="47" width="84" height="22" fill="var(--navy, #0f2a4a)" fill-opacity="0.35" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
-  <text x="292" y="63" font-size="16" fill="var(--text, #111418)">10.5</text>
+  <rect x="185" y="47" width="74" height="22" fill="var(--navy, #0f2a4a)" fill-opacity="0.35" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
+  <text x="267" y="63" font-size="16" fill="var(--text, #111418)">10.5</text>
   <text x="10" y="102" font-size="16" fill="var(--text, #111418)">At home</text>
-  <rect x="200" y="87" width="71" height="22" fill="var(--navy, #0f2a4a)" fill-opacity="0.35" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
-  <text x="279" y="103" font-size="16" fill="var(--text, #111418)">8.9</text>
+  <rect x="185" y="87" width="62" height="22" fill="var(--navy, #0f2a4a)" fill-opacity="0.35" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
+  <text x="255" y="103" font-size="16" fill="var(--text, #111418)">8.9</text>
   <text x="10" y="142" font-size="16" fill="var(--text, #111418)">In public</text>
-  <rect x="200" y="127" width="167" height="22" fill="var(--navy, #0f2a4a)" fill-opacity="0.35" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
-  <text x="375" y="143" font-size="16" fill="var(--text, #111418)">20.9</text>
+  <rect x="185" y="127" width="146" height="22" fill="var(--navy, #0f2a4a)" fill-opacity="0.35" stroke="var(--navy, #0f2a4a)" stroke-width="1.5"/>
+  <text x="339" y="143" font-size="16" fill="var(--text, #111418)">20.9</text>
   <text x="10" y="192" font-size="16" fill="var(--text, #111418)">No bystander CPR</text>
-  <rect x="200" y="177" width="62" height="22" fill="var(--oxblood, #8b1e2d)" fill-opacity="0.35" stroke="var(--oxblood, #8b1e2d)" stroke-width="1.5"/>
-  <text x="270" y="193" font-size="16" fill="var(--text, #111418)">7.7</text>
+  <rect x="185" y="177" width="54" height="22" fill="var(--oxblood, #8b1e2d)" fill-opacity="0.35" stroke="var(--oxblood, #8b1e2d)" stroke-width="1.5"/>
+  <text x="247" y="193" font-size="16" fill="var(--text, #111418)">7.7</text>
   <text x="10" y="232" font-size="16" fill="var(--text, #111418)">Bystander CPR</text>
-  <rect x="200" y="217" width="103" height="22" fill="var(--oxblood, #8b1e2d)" fill-opacity="0.35" stroke="var(--oxblood, #8b1e2d)" stroke-width="1.5"/>
-  <text x="311" y="233" font-size="16" fill="var(--text, #111418)">12.9</text>
+  <rect x="185" y="217" width="90" height="22" fill="var(--oxblood, #8b1e2d)" fill-opacity="0.35" stroke="var(--oxblood, #8b1e2d)" stroke-width="1.5"/>
+  <text x="283" y="233" font-size="16" fill="var(--text, #111418)">12.9</text>
   <text x="10" y="272" font-size="16" fill="var(--text, #111418)">Bystander used AED</text>
-  <rect x="200" y="257" width="263" height="22" fill="var(--oxblood, #8b1e2d)" fill-opacity="0.35" stroke="var(--oxblood, #8b1e2d)" stroke-width="1.5"/>
-  <text x="471" y="273" font-size="16" fill="var(--text, #111418)">32.9</text>
-  <line x1="200" y1="40" x2="200" y2="290" stroke="var(--text-2, #4a5260)" stroke-width="1.5"/>
-  <text x="260" y="316" font-size="16" text-anchor="middle" fill="var(--text-2, #4a5260)">CARES 2025 national survival report</text>
+  <rect x="185" y="257" width="230" height="22" fill="var(--oxblood, #8b1e2d)" fill-opacity="0.35" stroke="var(--oxblood, #8b1e2d)" stroke-width="1.5"/>
+  <text x="423" y="273" font-size="16" fill="var(--text, #111418)">32.9</text>
+  <line x1="185" y1="40" x2="185" y2="290" stroke="var(--text-2, #4a5260)" stroke-width="1.5"/>
+  <text x="235" y="316" font-size="16" text-anchor="middle" fill="var(--text-2, #4a5260)">CARES 2025 national survival report</text>
 </svg>
 
-*Bar lengths are to scale, 8 units per percentage point. Drawn by this course from the CARES 2025
+*Bars drawn to scale from zero. Drawn by this course from the CARES 2025
 national report, dated April 20, 2026.[19]*
 
-Three things in that chart are worth a sentence each.
+Three things in that chart need a sentence each.
 
 Arrests in public ended better than arrests at home, 20.9% against 8.9%. The report does not say
 why, and this course won't guess. Remember that the home is where most arrests happen, 71.5% of
@@ -645,7 +663,7 @@ Bystander CPR went with better survival, 12.9% against 7.7%. That's the same kin
 Swedish study, with the same caution: it is an association in a registry.
 
 A bystander used a defibrillator in only 2.5% of these arrests, and in those, 32.9% survived.[19]
-That is the biggest number on the chart and the rarest event. Lesson 5 is about why.
+That is the biggest number on the chart and the rarest event, and lesson 5 is about why.
 
 ## Who gets bystander CPR
 
@@ -682,17 +700,16 @@ AHA does discuss, for women and defibrillator pads.
 
 ## The pandemic changes, and a page that has not caught up
 
-During the COVID-19 pandemic, the resuscitation bodies modified their CPR advice. In Europe and
-the UK, those modifications are over. The ERC's 2025 adult guideline says: "COVID-19 patients
-should be treated as any other patients. Modifications to CPR are no longer required."[10] RCUK
-2025 recommends 30:2 for anyone trained, as the table at the top of this lesson shows.[1]
+The ERC's 2025 adult guideline says its COVID-19 changes are over: "COVID-19 patients should be
+treated as any other patients. Modifications to CPR are no longer required."[10] RCUK 2025
+recommends 30:2 for anyone trained, as the table at the top of this lesson shows.[1]
 
-One widely read page has not changed. The British Heart Foundation's CPR page, in answer to "Should I
-give rescue breaths?", says: "It’s your choice if you would like to give rescue breaths. Hands-only
-CPR is very effective and is the recommended way to give CPR since the Covid-19 pandemic. However,
-you may wish to give rescue breaths to a family member."[7] The middle sentence is the one that has dated: it describes pandemic-era advice that RCUK's 2025
-guidelines no longer give. Pages lag, and the October 2025 guidelines are recent. If you're trained,
-follow RCUK.
+The British Heart Foundation's CPR page has not changed. In answer to "Should I give rescue
+breaths?", it says: "It’s your choice if you would like to give rescue breaths. Hands-only CPR is
+very effective and is the recommended way to give CPR since the Covid-19 pandemic. However, you may
+wish to give rescue breaths to a family member."[7] The middle sentence dates itself: it describes
+CPR as changed by the pandemic, and RCUK's 2025 guidelines give 30:2 to anyone trained. The October
+2025 guidelines are recent. If you're trained, follow RCUK.
 
 There is also a difference inside the UK. The British Red Cross's step-by-step page for someone
 unresponsive and not breathing gives compressions only in its numbered steps, and offers breaths in
@@ -711,15 +728,15 @@ survival to discharge in the US was 10.5% in 2025, and 30-day survival in Englan
 continuous compressions, and call handlers give compression-only instructions to adults (RCUK 2025;
 AHA 2025, COR 1).[1][2][3]
 
-**"Hands-only is the recommended way since COVID."** That was pandemic-era advice. RCUK 2025 and
-the AHA 2025 give 30:2 for trained rescuers, and the ERC says the COVID modifications are no longer
-required.[1][2][10]
+**"Hands-only is the recommended way since COVID."** RCUK 2025 and the AHA 2025 give 30:2 for
+trained rescuers, and the ERC says its COVID-19 modifications are no longer required.[1][2][10]
 
 **"Blow hard."** Just enough to make the chest start to rise, over about a second (RCUK 2025; AHA
 2025, COR 2b). Too much air goes into the stomach.[1][2]
 
 **"Always tilt the head and blow first."** Not for an adult. Compressions come first in both
-countries; breaths first belong to children in the UK and to some drowning cases, in lesson 6.[1][2]
+countries; breaths first belong to children in the UK, who get five breaths before compressions,
+and to trained rescuers in some drowning cases, in lesson 6.[1][2]
 
 **"A weak recommendation means it doesn't matter."** It usually means the evidence can't separate
 two ways of acting. ILCOR says both kinds of CPR beat none.[4]
@@ -751,7 +768,7 @@ too large a volume)." (AHA 2025, COR 3: Harm, LOE C-LD)[2]
 **Line 4.** "We recommend that dispatchers provide chest compression–only CPR instructions to callers for
 adults with suspected OHCA (strong recommendation, low-certainty evidence)." (ILCOR 2025)[4]
 
-T-CPR is telephone CPR, the call handler's instructions. An advanced airway is a tube placed by a
+T-CPR is telecommunicator CPR, the call handler's instructions. An advanced airway is a tube placed by a
 professional.
 :::
 
@@ -771,8 +788,9 @@ told to avoid. The evidence is limited data. It does not give you a volume to ai
 
 **4.** "Call handlers should give adult callers compression-only instructions." Strong, on
 low-certainty evidence. So ILCOR and the AHA agree on the instruction and grade the evidence for it
-very differently, low certainty against LOE A. The two panels read largely the same trials, and ILCOR marked them down for risk of bias and for
-the old 15:2 comparison. That's why you read both halves of any label, and read it as that body's
+very differently, low certainty against LOE A. Both panels had the same three trials in front of
+them, ILCOR with a fourth and six observational studies besides, and ILCOR marked the evidence down
+for risk of bias and for the old 15:2 comparison. That's why you read both halves of any label, and read it as that body's
 judgement.
 :::
 
@@ -798,9 +816,9 @@ call handler, who will give compression-only instructions (AHA 2025, COR 1; AHA 
 LOE A). He's untrained, so breaths are not expected of him, and the AHA calls compression-only
 "appropriate" for untrained rescuers.
 
-**Rescuer B.** Compressions first, then 30:2 if she's willing (RCUK 2025). She is exactly the
-"trained, able, and willing" bystander of ILCOR's line. If she has a pocket mask in her bag she can
-use it, but not at the cost of a delay. If she's unwilling to give breaths to a stranger without
+**Rescuer B.** Compressions first, then 30:2, since she's trained (RCUK 2025) and, in ILCOR's
+words, "trained, able, and willing". If she has a pocket mask in her bag she can use it, but not at
+the cost of a delay (AHA 2025, COR 2a; RCUK 2025 gives no rule on this). If she's unwilling to give breaths to a stranger without
 one, continuous compressions are still RCUK's instruction for anyone not giving breaths. Tell the
 call handler she knows how, and they will support 30:2.
 
@@ -827,8 +845,8 @@ Lesson 3 told you to keep pauses short; this lesson filled the pause, and told y
 labels in brackets since lesson 2 now have their key, and every lesson from here uses them without
 explaining them again. **Lesson 5** is the defibrillator, the thing behind the 32.9% in the chart,
 and the reason CPR is a bridge rather than a cure. **Lesson 6** covers children and drowning, where
-the arrest usually starts from lack of oxygen and breaths come earlier, and **lesson 7** covers the
-overdose.
+the arrest usually starts from lack of oxygen and breaths come earlier for children in the UK and
+for trained rescuers, and **lesson 7** covers the overdose.
 
 From earlier on the Core: **Sleep** gave you the two halves of a guideline grade, and here they
 are in two more systems. **Mental Fitness** taught you to ask what the comparison group got; in the
@@ -842,7 +860,8 @@ goes further into odds, risks and confidence intervals.
 - **ILCOR, "Basic Life Support: 2025 International Liaison Committee on Resuscitation Consensus on
   Science With Treatment Recommendations"**, *Circulation*, 2025, free at
   [ahajournals.org](https://www.ahajournals.org/doi/10.1161/CIR.0000000000001364). This course read
-  the manuscript in full and checked the passages quoted here against the published text. The two
+  its treatment recommendations and both compression-only sections in full and skimmed the rest,
+  checking the passages quoted here against the published text. The two
   sections on compression-only CPR, with and without the dispatcher, are a few pages each and show a
   panel reasoning in public about a question it cannot settle.
 - **AHA, [Part 7: Adult Basic Life Support](https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-basic-life-support)**,
@@ -883,8 +902,9 @@ goes further into odds, risks and confidence intervals.
 4. J. E. Bray, M. A. Smyth, G. D. Perkins and colleagues for the ILCOR Basic Life Support Task Force,
    "Basic Life Support: 2025 International Liaison Committee on Resuscitation Consensus on Science
    With Treatment Recommendations", *Circulation*, 2025 <!-- SOURCES S6; Browser gate closures G5;
-   Gate closures, lesson 4 -->. **Read level: the accepted manuscript in full, direct, from
-   ilcor.org; the passages quoted here checked against the typeset text on ahajournals.org** on
+   Gate closures, lesson 4 -->. **Read level: the treatment recommendations and both compression-only
+   sections in full, the rest skimmed, from the accepted manuscript on ilcor.org; every quoted
+   sentence except the 1980s-study figures checked against the typeset text on ahajournals.org** on
    2026-09-24. Supports both compression-only sections (evidence, recommendations, justification,
    knowledge gaps), the good practice statement definition and the GRADE basis. The count of three
    adult trials of dispatcher instructions is from the manuscript's table.

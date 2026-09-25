@@ -21,10 +21,10 @@ quiz:
       normally. What does RCUK's 2025 guideline tell you to do?
     options:
       - Stop CPR and watch him, since "no shock" means the machine has found a working rhythm
-      - Restart chest compressions at once and keep following the AED's instructions after that
       - Take the pads off and wait for the crew, since the AED has shown it can't help this man
+      - Restart chest compressions at once and keep following the AED's instructions after that
       - Press the shock button anyway, in case the machine has misread his rhythm in the noise
-    answer: 1
+    answer: 2
     explain: >-
       RCUK 2025: "If no shock is indicated, immediately restart chest compressions," and continue
       to follow the AED's instructions. "No shock" covers asystole as well as a normal rhythm, so
@@ -36,11 +36,11 @@ quiz:
       Your uncle, a keen viewer of hospital dramas, says a defibrillator's job is to restart a heart
       that has stopped dead, a flat line on the monitor. What do the 2025 guidelines say?
     options:
+      - He's wrong, since an AED shocks VF and pulseless VT, and advises no shock for asystole
       - He's right, since a flat line is the rhythm an AED was designed to shock back into life
       - He's right only for adults, since an AED shocks any stopped heart once it's over 25 kg
       - He's partly right, since a flat line is shocked if CPR hasn't started it within minutes
-      - He's wrong, since an AED shocks VF and pulseless VT, and advises no shock for asystole
-    answer: 3
+    answer: 0
     explain: >-
       The ERC's 2025 guideline names the shockable rhythms as ventricular fibrillation and pulseless
       ventricular tachycardia, and says "For other heart rhythms (including asystole and a normal
@@ -52,11 +52,11 @@ quiz:
       bystander says, "Do two more minutes of CPR first, to get the heart ready for the shock."
       What do the AHA's and the ERC's 2025 guidelines say?
     options:
-      - Attach it now, since CPR goes on until the pads are on, and then the shock shouldn't wait
       - Do the two minutes first, since a primed heart is always far more likely to respond well to it
       - Stop compressions now while the pads go on, since two jobs at once risks both going wrong
       - Leave it switched off for the paramedics, since a shock given by a bystander can backfire
-    answer: 0
+      - Attach it now, since CPR goes on until the pads are on, and then the shock shouldn't wait
+    answer: 3
     explain: >-
       The AHA recommends CPR until a defibrillator or AED is applied (COR 1), and the ERC says
       "Defibrillation should not be delayed to provide additional CPR." Trials comparing a short
@@ -64,14 +64,15 @@ quiz:
       two of you, one keeps pushing while the other places the pads (ERC 2025; RCUK 2025). And the
       guidelines want bystanders using AEDs: RCUK says anyone can.
   - q: >-
-      At a gym in Leeds a woman in an underwired bra collapses in cardiac arrest. The AED has
-      arrived. What does RCUK's 2025 guideline say about the bra?
+      On a station concourse in Leeds a woman collapses in cardiac arrest. A member of staff brings
+      the AED. Under her shirt she's wearing an underwired bra. What does RCUK's 2025 guideline say
+      about the bra?
     options:
       - Put the pads straight over the bra, since the fabric doesn't matter to the machine at all
-      - Always cut the bra off first, since any metal near the pads could burn her or the rescuer
       - Pads on bare skin in the right place; if the bra is in the way of that, then remove it
+      - Always cut the bra off first, since any metal near the pads could burn her or the rescuer
       - Skip the AED and give CPR only, since exposing her chest in public isn't allowed by law
-    answer: 2
+    answer: 1
     explain: >-
       RCUK 2025: prioritise "correct pad placement and contact with bare skin". If that can be done
       quickly with the bra on, it's acceptable to leave it; "If the bra interferes with correctly
@@ -80,36 +81,41 @@ quiz:
       directly over it, and the ERC says there's no evidence it causes harm. No source read makes
       exposing the chest unlawful, and the ERC tells rescuers to put life before modesty.
   - q: >-
-      A poster in a café says, "Every minute without a defibrillator cuts the chance of survival by
-      10%." How does that compare with the figures in the 2025 guidelines?
+      In a village hall the nearest AED is a five-minute round trip away. As you start CPR, someone
+      says not to bother sending anyone for it, "because you lose 10% a minute, so it'll be useless
+      by the time it's back." What do the figures in the 2025 guidelines say about that?
     options:
-      - It matches both, since the AHA and the ERC each give exactly 10% for every minute that's lost
-      - It's too high, since the AHA gives 6% a minute and the ERC chapter gives 3 to 6% a minute
-      - It's too low, since both 2025 guidelines now say a shock after minute four rarely works at all
-      - It's a myth, since the 2025 guidelines found no link between the delay and the survival
-    answer: 1
+      - Don't send, since both 2025 guidelines report 10% a minute, so five minutes is half the chance gone
+      - Don't send, since both 2025 guidelines say a first shock after minute four almost never terminates VF
+      - Send, since the AHA reports 6% a minute and the ERC chapter 3 to 6%, and late first shocks still work
+      - Send, but only because the 2025 guidelines found no link at all between the delay and survival
+    answer: 2
     explain: >-
-      The AHA's 2025 guideline reports, from the ARREST registry, that each minute of delay to the
-      first shock was associated with a 6% lower probability of survival to discharge, and the ERC's
-      2025 chapter gives 3 to 6%. The 10% is a larger figure printed in the ERC's own 2025 guide for
-      the public. Neither guideline says shocks stop working after four minutes: in the
-      AHA's data, first shocks still worked 75% of the time beyond 16 minutes. The link between delay
-      and survival is real; the exact size is what the poster overstates.
+      Send someone, and keep pushing. The AHA's 2025 guideline reports, from the ARREST registry, that
+      each minute of delay to the first shock was associated with a 6% lower probability of survival
+      to discharge, and the ERC's 2025 chapter gives 3 to 6%; the 10% is the figure in the ERC's guide
+      for the public, not in either chapter. Neither guideline says a shock stops working after a
+      few minutes: in the registry study the AHA reports, first shocks still worked 75% of the time
+      beyond 16 minutes. The link between delay and survival is real, though, so "no link" is wrong
+      too. Fetching the AED while CPR continues is what both guidelines want (RCUK 2025; AHA 2025,
+      COR 1).
   - q: >-
       In a US state that has no AED immunity law of its own, a passer-by who has never been
       trained uses a public AED in good faith on a stranger, who later dies. What does the federal
       Cardiac Arrest Survival Act say? (General information, not legal advice.)
     options:
+      - It gives immunity from civil liability for harm from using the AED, except gross negligence
       - It protects only people with a current certificate, so untrained users are not covered by it
       - It covers the owner of the AED but not the passer-by, who has to rely on her own state's law
-      - It gives immunity from civil liability for harm from using the AED, except gross negligence
       - It gives no protection at all, because a federal law can't reach into a state's civil courts
-    answer: 2
+    answer: 0
     explain: >-
       42 U.S.C. §238q says "any person who uses or attempts to use" an AED "on a victim of a
       perceived medical emergency is immune from civil liability for any harm resulting from the
       use or attempted use of such device", with exceptions including gross negligence and wilful
-      misconduct. It says nothing about training. It applies where a state has no immunity law of
+      misconduct. It attaches no training condition to the person who uses the device; its one
+      training clause is a condition on the immunity of whoever acquired the AED, not the rescuer's,
+      so it doesn't touch the passer-by here. And it applies where a state has no immunity law of
       its own, which is this case. This is general information, not legal advice.
 ---
 
@@ -157,22 +163,21 @@ is this course's, not the AHA's.[4]*
 Look at the shaded boxes. The first three are yours. Lessons 2 to 4 were the first two links; this
 lesson is the third, and it's the last one a bystander can deliver before professionals arrive.
 
-Two details from the AHA's text are worth knowing. The chain now covers everyone: "For 2025, we
-have elected to revert to a single Chain of Survival" for adults and children, in and out of
-hospital, "for simplicity and because the writing groups felt each link of the chain could be
-applied to the different forms of cardiac arrest, although the details of this application may
-vary."[4] And the AHA says what it left out: "The missing link from the 2025 Chain of Survival is
+Two details from the AHA's text are worth knowing. The 2025 chain is a single one, for adults and
+children, in and out of hospital.[4] And the AHA says what it left out: "The missing link from the 2025 Chain of Survival is
 prevention and preparedness."[4] It plans to add that link later. Knowing where your nearest AED
 is, which is this lesson's first exercise, is a piece of preparedness.
 
 RCUK's 2025 summary speaks of a chain of survival too, but this course didn't read a figure of its
-own, so the diagram is the AHA's. The order of actions is the same in both countries. RCUK's 2025
-public steps end: "As soon as an AED is available, attach it and follow the AED instructions."[1]
+own, so the diagram is the AHA's. The order of actions is the same in both countries. [RCUK's 2025
+public steps](https://www.resus.org.uk/professional-library/2025-resuscitation-guidelines/adult-basic-life-support-guidelines)
+put the AED last among the actions: "As soon as an AED is available, attach it and follow the AED
+instructions."[1]
 
 ## What a shock can fix, and what it can't
 
-An AED, an automated external defibrillator, is a box with two sticky pads on a cable. The ERC's
-2025 guideline describes it: a portable device with pads that attach "to a patient’s chest to
+An AED, an automated external defibrillator, is a box with two sticky pads on a cable. [The ERC's
+2025 guideline](https://doi.org/10.1016/j.resuscitation.2025.110771) describes it: a portable device with pads that attach "to a patient’s chest to
 detect the heart rhythm following suspected cardiac arrest."[2] So the first thing it does is not
 shock. It reads.
 
@@ -180,29 +185,31 @@ Then it decides. "If the rhythm is a shockable rhythm (ventricular fibrillation 
 ventricular tachycardia)," the ERC goes on, the machine prompts the rescuer "to deliver a direct
 current electric shock (defibrillation) to re-establish a coordinated heart rhythm."[2]
 Ventricular fibrillation, VF for short, and pulseless ventricular tachycardia are the two rhythms a
-shock can treat. The ERC's phrase "re-establish a coordinated heart rhythm" tells you what they
-have in common: the heart's electrical activity has lost its coordination, so the heart is not
-pumping. The AHA adds that the left ventricle, the main pumping chamber you met in lesson 3, is
+shock can treat. Tachycardia means a fast rhythm; pulseless means it is producing no pulse. On
+this course's reading of the ERC's phrase "re-establish a coordinated heart rhythm", what the two
+have in common is that the heart's electrical activity has lost its coordination, so the heart is
+not pumping. The AHA adds that the left ventricle, the main pumping chamber you met in lesson 3, is
 "where VF often originates".[3] The guidelines this course read say no more about what happens
 inside the heart during VF, and this lesson won't add a description of its own.
 
 For every other rhythm, the answer is no. "For other heart rhythms (including asystole and a normal
-rhythm), no shock is advised."[2] Asystole is the flat line: no electrical activity at all.
+rhythm), no shock is advised."[2] Asystole is what people call the flat line; the guidelines this
+course read describe it no further.
 
 :::predict How many people whose cardiac arrest is treated by US emergency services have a shockable rhythm when their heart is first checked? Guess a percentage before opening.
 
-About one in five. The CARES registry's 2025 national report, covering 140,144 out-of-hospital
-arrests, recorded a shockable first rhythm in 18.4% and a non-shockable one in 81.6%.[7]
+About one in five. The CARES registry's [2025 national report](https://mycares.net/sitepages/uploads/2026/CARES%202025%20Non-Traumatic%20National%20Survival%20Report.pdf),
+covering 140,144 out-of-hospital arrests, recorded a shockable first rhythm in 18.4% and a non-shockable one in 81.6%.[7]
 
 Survival differed sharply: 29.0% to hospital discharge with a shockable rhythm, 6.4% without.[7]
 :::
 
-That split is the most useful fact in this lesson, because it cuts both ways. For the fifth of
+That split cuts both ways. (The 18.4% is the first rhythm recorded, and the report does not say
+when in each arrest that was, so read it as a rough share, not a precise one.) For the fifth of
 people in a shockable rhythm, the AED is the treatment, and nothing else a bystander carries can do
-its job. For the other four fifths, the AED will say no shock, and what keeps them going until the
-crew arrives is your compressions. So the AED is never a reason to stop pushing, and "no shock
-advised" is never good news on its own. (The report does not say when in each arrest the first
-rhythm was recorded, so read the 18.4% as a rough share, not a precise one.)
+its job. For the other four fifths, the AED will say no shock at its first check, and what keeps
+them going until the crew arrives is your compressions. So the AED is never a reason to stop
+pushing, and "no shock advised" is never good news on its own.
 
 ### Why it can't shock the wrong person
 
@@ -233,8 +240,8 @@ has fainted and is breathing normally doesn't get the pads.
 
 ## Why the minutes matter
 
-A shock works best early. The AHA's 2025 guideline reports a study from the ARREST registry in
-Amsterdam, of people who had a witnessed arrest outside hospital with VF as the first rhythm: the
+A shock works best early. [The AHA's 2025 guideline](https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-basic-life-support)
+reports a study from the ARREST registry in Amsterdam, of people who had a witnessed arrest outside hospital with VF as the first rhythm: the
 first shock succeeded 93% of the time when it came within 6 minutes, and 75% of the time when it
 was delayed beyond 16 minutes. "Every minute of delay to first shock was associated with a 6%
 decreased probability of survival to discharge."[3]
@@ -246,27 +253,29 @@ agree on the direction and roughly on the size.
 
 You may meet a bigger number. The ERC's own 2025 guide for the public says "Each minute of delay in
 getting to defibrillation reduces the probability of survival by 10%."[6] The guideline chapters,
-which set out the studies behind their figures, give 6% (AHA) and 3 to 6% (ERC), and this course
-teaches those. The guide's point, that minutes count, is the same; its number is the larger one.
+which set out the studies behind their figures, give 6% (AHA) and 3 to 6% (ERC), and those are the figures
+taught here. The guide's point, that minutes count, is the same; its number is the larger one.
 
 Two cautions on reading these. Each is "associated with", from observational data, so it describes
 what was seen across many arrests, not a law of nature. And neither guideline says how to turn "6%
-a minute" into a figure for ten minutes, so don't multiply it out. The AHA's two numbers make the
-point without arithmetic: 93% of first shocks worked early, and even beyond 16 minutes three in
-four still did. Late is worse. It is not hopeless.
+a minute" into a figure for ten minutes, so don't multiply it out. The two numbers the AHA reports
+make the point without arithmetic: 93% of first shocks worked early, and even beyond 16 minutes
+three in four still did, so late is worse without being hopeless.
 
-How long is the wait, in practice? In CARES's 2025 US figures, the median EMS response time was 7.6
-minutes.[7] The summary does not define exactly which interval that measures, but it means about half
-of arrests waited longer. That is the gap a public AED is there to fill.
+In practice the wait is long. In CARES's 2025 US figures, the median EMS response time, EMS being
+emergency medical services, the US term for the ambulance service, was 7.6 minutes.[7] The summary
+does not define exactly which interval that measures, but a median means about half of arrests
+waited longer. That is the gap a public AED is there to fill.
 
 ### So why not shock at once, before any CPR?
 
-Because the heart's reserves run down. The AHA's supporting text: "when VF/pVT persists for a
+Because, the AHA's supporting text says, the heart's reserves may run down: "when VF/pVT persists for a
 longer duration, the heart’s energy reserves may become depleted, reducing defibrillation
 effectiveness unless preceded by a period of CPR to restore these reserves before rhythm
 analysis."[3] The reserves, the AHA says, are "of oxygen and other energy substrates", and "If
 replenished by a period of CPR before shock, defibrillation success improves significantly."[3] That
-is the reason CPR comes first, and the reason it continues while the AED is fetched and set up.
+is the reason the AHA's text gives for CPR coming first, and for continuing it while the AED is
+fetched and set up; RCUK gives the instruction without a reason.
 
 But no longer than that. The AHA recommends CPR "until a defibrillator or AED is applied" (AHA
 2025, COR 1).[3] The ERC reports an ILCOR review of five randomised trials comparing a
@@ -289,14 +298,14 @@ AED, and never delay the shock once it's ready.
 ## Using one, prompt by prompt
 
 The steps are nearly word for word the same in RCUK's 2025 guideline and the ERC's, and the AHA's
-recommendations point the same way. Here is RCUK's order, with the AHA beside it where it has a
-graded recommendation.[1][2][3]
+recommendations point the same way. RCUK's order follows; the AHA's graded recommendations, which
+point the same way, come after it.[1][2][3]
 
 1. **Use it as soon as it arrives.** "Use an AED as soon as it is available" (RCUK 2025).
 2. **Switch it on.** "Open the AED case (if present). Some AEDs automatically turn on when opened.
    If not, identify the power button and turn it on."
 3. **Do what it says.** "Follow the audio/visual prompts from the AED." The machine talks you
-   through the rest, and the exact words differ from one model to another.
+   through the rest, by what the ERC calls "an audible (and sometimes visual) prompt" (ERC 2025).
 4. **Pads on bare skin.** "Attach the electrode pads to the person’s bare chest according to the
    position shown on the AED (or AED pads)." More on where, and on clothes, below.
 5. **Keep pushing while the pads go on**, if there are two of you: "If more than one rescuer is
@@ -315,7 +324,7 @@ graded recommendation.[1][2][3]
 The American Red Cross's public steps add two practical points. "If necessary, wipe the chest
 dry" before the pads go on, and say "CLEAR!" loudly before the analysis and before the shock, so
 that everyone takes their hands off.[14] Its page also tells you to plug the pad cable into the AED
-"if necessary"; on many machines it comes already connected.
+"if necessary", so on some machines it is already connected.
 
 In the US the AHA's 2025 recommendations say the same things in their own form: CPR until the AED
 is applied (COR 1), pauses before and after a shock "as short as possible" (COR 1), and "it is
@@ -324,8 +333,8 @@ CPR to perform a postshock rhythm check" (COR 2a, LOE B-R).[3] Lesson 4 explaine
 
 ### Why compressions restart straight after a shock
 
-Step 8 feels wrong the first time. If the shock worked, why push on a heart that has just
-restarted? The AHA answers in one sentence: "Defibrillation success refers to termination of
+Step 8 feels wrong the first time, because pushing on a heart that a shock has just restarted seems
+like the last thing to do. The AHA answers in one sentence: "Defibrillation success refers to termination of
 VF/pVT, although this may not result in a perfusing rhythm."[3] A perfusing rhythm is one that
 actually moves blood. So a shock can stop the VF and still leave a heart that is not pumping, and
 you can't tell which from the outside.
@@ -347,8 +356,8 @@ the fresh pair of hands gets ready.
 
 Follow the pictures. The ERC: ILCOR "has issued a good practice statement that recommends following
 the manufacturer’s AED guidance and instructions for adult pad placement", and the ERC endorses
-it.[2] The AED or its pads show the position (RCUK 2025), and the machine's voice will usually
-tell you too.[1]
+it.[2] The AED or its pads show the position, and its "audio/visual prompts" are there to be
+followed (RCUK 2025).[1]
 
 For most machines that means the front-and-side position the ERC describes. "One defibrillation pad
 should be positioned below the patient’s right clavicle, just to the right of the upper sternal
@@ -367,7 +376,7 @@ covers them.
 
 Clothes over the chest have to go, or at least move, because the pads need skin. Lesson 3 gave you
 the BHF's distinction: thin clothing can stay on for compressions, but not for the pads.[17] If the
-chest is wet, wipe it dry (American Red Cross).[14] None of the guidelines this course read says anything about chest hair, jewellery or medication patches, so this
+chest is wet, wipe it dry (American Red Cross).[14] None of the guidelines read for this lesson says anything about chest hair, jewellery or medication patches, so this
 lesson does not give rules for them; the machine's own prompts and the call handler are where that
 advice will come from.
 
@@ -396,7 +405,7 @@ the routine removal of a bra, but it may not always be necessary to remove a bra
 defibrillation. Pads must be placed on bare skin in the correct position, which may be possible by
 adjusting the bra's position rather than removing it (good practice statement)."[5] The ERC's
 chapter says the same, with one difference in wording: where the bra is in the way, it "should be
-displaced", moved rather than taken off.[2] The AHA's text, in the US, describes adjusting rather
+displaced"; the ERC's contrast throughout is with "unfastening or cutting" the bra.[2] The AHA's text, in the US, describes adjusting rather
 than removing as an option that "could mitigate factors such as discomfort with exposing a
 woman’s chest or fear of accusations of inappropriate touching or sexual assault."[3]
 
@@ -407,27 +416,24 @@ woman’s chest or fear of accusations of inappropriate touching or sexual assau
 | ILCOR 2025 and AHA 2025 | Routine removal is not supported by evidence; adjusting the bra's position may be enough. |
 
 The difference between "removed" and "displaced" is small, and neither side is wrong: both want the
-pads on skin in the right place, as fast as possible. What about the underwire? The AHA reports a
+pads on skin in the right place, as fast as possible. The underwire is the other worry. The AHA reports a
 study in pigs, published as a conference abstract, with "a 100% first-shock success rate even when
 self-adhering AED pads were applied directly over the metal underwire of a bra", and "No adverse
 events such as arcing, current redirection, or burning of the bra or the pig’s skin".[3] The ERC
 says there is "no evidence that an underwire in a bra causes harm".[2] That's one animal study, so
 it's reassurance, not proof. It is enough that nobody should delay a shock to deal with wire.
 
-And the ERC's closing line on the subject: "Rescuers should not be concerned about exposing the
-persons chest to apply defibrillation pads. They should prioritise life-saving interventions over concerns for
-modesty."[2] (The missing apostrophe is the ERC's.)
+And the ERC's closing line on the subject: rescuers "should prioritise life-saving interventions
+over concerns for modesty."[2]
 
-:::predict ILCOR's review of the evidence on bras, as the ERC reports it, found no studies of survival at all. What do you think the studies it did find were about?
+:::predict ILCOR's review of the evidence on bras, as the ERC reports it, found no studies of survival at all. Beyond the one animal study you've just met, what do you think the rest of the evidence came from?
 
-Manikins and one animal study. The ERC reports that female manikins "were less likely to be
-exposed or disrobed", and that time to defibrillation was longer with female manikins.[2] The
-animal study is the underwire one.
+Manikins. The ERC reports that female manikins "were less likely to be exposed or disrobed", and
+that time to defibrillation was longer with female manikins.[2]
 
 So even in a training room, with a plastic torso, people held back. The ERC's response is to ask
 manufacturers for more realistic manikins and to say that "CPR training should incorporate pad
-placement in people wearing bras."[2] Your class may or may not do this yet; now you know the rule
-before you meet the moment.
+placement in people wearing bras."[2] Your class may or may not do this yet.
 :::
 
 ## Where the AEDs are
@@ -439,7 +445,7 @@ about how to use them.
 implemented in communities at high risk" of out-of-hospital arrest (AHA 2025, COR 1, LOE B-NR).
 The evidence it leads with is the PAD Trial, in which training lay volunteers in CPR and AED use
 "led to a doubling of OHCA survival compared with CPR training alone (30 survivors in 107 arrests
-versus 15 survivors in 128 arrests".[4] It also admits the gap: "Despite widespread implementation
+versus 15 survivors in 128 arrests".[4] It also says how far that has got: "Despite widespread implementation
 of AEDs in public spaces, use of public access defibrillators by lay rescuers remains low."[4] In
 CARES's 2025 figures, a bystander applied an AED in 13.9% of arrests in public places.[7] The ERC
 notes where lay rescuers have done best: "The highest survival rates following lay rescuer
@@ -470,8 +476,7 @@ A public AED in a wall cabinet with a sign above it, photographed in March 2025.
 The UK has a national register, The Circuit, led by the British Heart Foundation with RCUK and
 others. RCUK calls it "the national defibrillator network", and says that if an AED isn't
 registered, "ambulance service call handlers won't know it exists when that 999 call is made".[8]
-"Over 110,000 defibrillators are registered on The Circuit," on RCUK's page when this course read
-it in September 2026.[8] RCUK's 2025 guideline: "The ambulance service should be able to direct
+"Over 110,000 defibrillators are registered on The Circuit," on RCUK's page in September 2026.[8] RCUK's 2025 guideline: "The ambulance service should be able to direct
 callers to the nearest accessible AED during the 999 call."[1]
 
 Lesson 2 told you not to search a website in an emergency, and this is why. The public map,
@@ -492,8 +497,9 @@ first person to ask.
 ### Volunteer apps
 
 Both countries now use phone alerts to send trained volunteers to an arrest nearby, often with an
-AED. ILCOR recommends that willing citizens near a suspected arrest "should be notified" by app or
-text alert (strong recommendation, very low–certainty evidence).[11] In a trial by Ringh and
+AED. ILCOR's 2020 recommendation, kept unchanged in its 2025 review, is that willing citizens near
+a suspected arrest "should be notified" by app or text alert, a strong recommendation resting on
+very low certainty evidence.[11] In a trial by Ringh and
 colleagues, published in 2015, there was bystander CPR in 62% of arrests when trained volunteers were dispatched by phone,
 against 48% without.[10] The ERC also reports a study in which survival from arrests at home rose from 26%
 to 39% after such a system was introduced.[2] But the AHA's 2025 review is candid: bystander CPR
@@ -510,24 +516,31 @@ Some public AEDs are kept in locked cabinets. The guidelines advise against it. 
 against using locked cabinets for public access defibrillator storage (good practice
 statement)."[5] RCUK 2025: "AED cabinets should be unlocked and readily accessible 24
 hours a day, 7 days a week, 365 days per year."[1] The ERC gives the reasons: a low reported risk of
-theft, missing AEDs or vandalism, under 2%, and "half of all injuries sustained while accessing an
-AED were incurred when attempting to break glass".[2] If you meet a locked one, tell the call
-handler. This course read nothing on how cabinet codes are given out, but it did read where the injuries
-came from, so don't put your fist through the glass.
+theft, missing AEDs or vandalism, under 2%, and a finding among first responders that "half of all
+injuries sustained while accessing an AED were incurred when attempting to break glass".[2] If you
+meet a locked one, tell the call handler. Nothing read here says how cabinet codes are given out,
+but the ERC does say where the injuries came from, so don't put your fist through the glass.
 
 ## The law, for AEDs
 
 This is general information, not legal advice. The law differs by state and by country.
 
 **In the US**, lesson 1 gave you the state Good Samaritan laws. On top of them sits a federal law,
-the Cardiac Arrest Survival Act of 2000. Its core sentence: "any person who uses or attempts to use
-an automated external defibrillator device on a victim of a perceived medical emergency is immune
-from civil liability for any harm resulting from the use or attempted use of such device".[12]
-Notice "perceived": on this course's reading of the word, not a court's, it covers the emergency
-as it looked to you at the time. The protection does not cover "willful or criminal misconduct, gross negligence, reckless misconduct", among other
-exceptions.[12] And it is a floor, not a ceiling: it applies "only to the extent that the State has
-no statute or regulations" giving that immunity.[12] Where your state has its own AED law, that law
-governs; where it has none, the federal one fills the gap. Nothing in it requires training.
+the [Cardiac Arrest Survival Act of 2000](https://www.law.cornell.edu/uscode/text/42/238q). Its
+core sentence: "any person who uses or attempts to use an automated external defibrillator device
+on a victim of a perceived medical emergency is immune from civil liability for any harm resulting
+from the use or attempted use of such device".[12] The Act defines "perceived medical emergency"
+itself: circumstances in which someone's behaviour "leads a reasonable person to believe" that they
+have a life-threatening condition needing an immediate response "regarding the heart or other
+cardiopulmonary functioning".[12] So the test is what a reasonable person would have made of the
+scene at the time. The protection does not cover "willful or criminal misconduct, gross negligence,
+reckless misconduct", among other exceptions.[12] And it is a floor, not a ceiling: it applies
+"only to the extent that the State has no statute or regulations" giving that immunity.[12] Where
+your state has its own AED law, that law governs; where it has none, the federal one fills the
+gap. It requires no training of the person who uses the AED. The only training it mentions is a
+condition on the immunity of whoever acquired the device, who can lose it for failing to give
+"appropriate training in the use of the device to an employee or agent" who then used it; that is
+the owner's concern, not the rescuer's.[12]
 
 **In the UK**, there's no AED statute in the sources read here. RCUK's booklet on the law, which
 lesson 1 used, covers AEDs alongside CPR, and gives as its example of acting reasonably that "it
@@ -546,13 +559,13 @@ about his breathing, you describe slow, noisy gasps, and you're told to start co
 2025).[1] The call handler asks if there's a defibrillator. There is one in reception, four floors
 down, and a third colleague runs for it.
 
-Here is what happens next, step by step. Where a step opens with a spoken prompt, the words are
-this course's paraphrase of what a machine says, not any one model's wording.
+What happens next, step by step. Where a step opens with a spoken prompt, the words are this
+course's paraphrase of what a machine says, not any one model's wording.
 
 1. **Minute three: it arrives.** You keep pushing. Priya opens the case; this model turns on as the
    lid opens and starts talking. (RCUK 2025: switch on, follow the prompts.)
 2. **Remove clothing from the chest.** Priya unbuttons his shirt and pulls it open, and his vest
-   goes up to his armpits. You haven't stopped. (RCUK 2025: CPR continues while the pads go on.)
+   (his undershirt) is pulled up and clear of his left side. You haven't stopped. (RCUK 2025: CPR continues while the pads go on.)
 3. **Attach pads as shown.** She peels the first pad and puts it under his right collarbone,
    beside the breastbone, then the second on his left side, below the armpit, matching the drawing
    on each pad. (ERC 2025; the manufacturer's diagram.)
@@ -601,8 +614,7 @@ text and ILCOR is: pads on bare skin in the right place, adjusting the bra if th
 2025, good practice statement). A sports bra covers more than most, so it may well be in the way of
 the side pad, and then it has to move.
 
-Everyone else in the room can help, by turning away and keeping others back. That part is this
-course's suggestion, not a guideline's.
+Everyone else in the room can help, and the paragraphs below say how.
 :::
 
 Now check it against the sources. The US guidance for the AED's use is the AHA's, and its text
@@ -635,16 +647,17 @@ each analysis until the paramedics arrive.
 
 Two situations change the order, and lesson 6 teaches both.
 
-**Children.** Some AEDs have a child setting or child pads. The rules differ: the AHA recommends a
-paediatric attenuator and pads under 8 years, and RCUK a paediatric mode under 25 kg. Where there's
-nothing for children, both say to use the adult AED: RCUK, "If the AED does not have instructions
-for children, use it in standard adult mode", and the AHA, that an adult AED "may be considered"
-(COR 2b).[18][3] Lesson 6 has the rest.
+**Children.** Some AEDs have a child setting or child pads. The AHA says to use them under 8
+years; RCUK says under 25 kg, which it puts at about 8 years, and lesson 6 sets the two side by
+side. Where there's nothing for children, both say to use the adult AED: RCUK, "If the AED does
+not have instructions for children, use it in standard adult mode" (RCUK 2025), and the AHA, that
+an adult AED "may be considered" (AHA 2025, COR 2b).[18][20] Lesson 6 has the rest.
 
 **Drowning.** The AHA says an arrest after drowning "is most often due to a hypoxic mechanism", lack
-of oxygen, and a shockable rhythm is rare: "In drowning, an initial shockable rhythm is present in less than
-10 % of cases" (ERC 2025).[19] The AHA recommends CPR with breaths before the AED for a drowned
-person (COR 1).[3] Lesson 6 explains why.
+of oxygen,[21] and the ERC says a shockable rhythm is rare for the same kind of reason: "In drowning,
+an initial shockable rhythm is present in less than 10 % of cases because of the cardiac response to
+hypoxia" (ERC 2025).[19] The AHA recommends CPR with breaths before the AED for a drowned person
+(AHA 2025, COR 1).[21] Lesson 6 explains why.
 
 ## What people get wrong
 
@@ -669,7 +682,10 @@ shouldn't wait (ERC 2025).[2]
 **"Cut or remove the bra every time."** Pads on bare skin in the right place; move or remove the
 bra only if it's in the way (ILCOR 2025; RCUK 2025; ERC 2025).[5][1][2]
 
-**"Each minute costs 10%."** The guideline figures are 6% (AHA 2025) and 3 to 6% (ERC 2025).[3][2]
+**"Each minute costs 10%, so after ten minutes there's nothing left."** The link between delay and
+survival is real, and the guideline chapters put it at 6% a minute (AHA 2025) and 3 to 6% (ERC
+2025).[3][2] Neither multiplies it out, and in the registry study the AHA reports, three in four
+first shocks still worked beyond 16 minutes.[3]
 
 **"Look up the nearest one online."** In the UK the call handler knows where registered AEDs are,
 and the public map isn't for emergencies (RCUK).[8][1]
@@ -689,7 +705,8 @@ Take 20 minutes over this. Nothing here involves calling an emergency number.
    it's available at all hours or only when a building is open, and whether the cabinet is locked.
 
 3. Work out how long it would take someone to fetch it and come back, on foot. Compare that with
-   CARES's median EMS response time of 7.6 minutes in the US.
+   CARES's median EMS response time of 7.6 minutes in the US (this course read no equivalent UK
+   figure, so use the US one as a rough yardstick).
 
 4. If you walk past one this week, stop and look at it: the sign, the cabinet, the handle. Leave
    it closed; it's there for an emergency.
@@ -751,8 +768,8 @@ nobody touching him, and the risk to rescuers from accidental shock is described
 **Case 2.** Follow the call handler. The ERC says "CPR should not be delayed whilst locating and
 retrieving an AED",[2] and the AHA recommends CPR until an AED is applied (AHA 2025, COR 1).[3]
 Alone, the AED at the pharmacy would mean leaving him without compressions for six minutes or more,
-and no guideline read here tells a lone rescuer to do that. Keep pushing, and tell the call handler
-you're alone. RCUK 2025 wants ambulance services linked to volunteer responder systems that can
+and no guideline read here tells a lone rescuer to do that. So, on this course's reading of those
+two sentences, you keep pushing and tell the call handler you're alone. RCUK 2025 wants ambulance services linked to volunteer responder systems that can
 bring a nearby AED, so in some areas someone may be sent with it.
 
 **Case 3.** The pads stay on. The AED will keep re-analysing at intervals (RCUK 2025), and pads that
@@ -796,10 +813,8 @@ way.
 - **[The Circuit](https://www.resus.org.uk/public-resource/defibrillation/circuit)**, RCUK's page
   on the UK's national register, read here in full. If you look after an AED at work, a club or a
   village hall, this is where to register it so a 999 call handler can send people to it.
-- **RCUK's "Defib Dani"** (81 seconds) and **the American Red Cross's "How to Use an AED on an
-  Adult"** (about 3 minutes) are short official films. This course hasn't yet checked either
-  against the 2025 guidance, so it does not embed them; look for them on each organisation's
-  channel once you've read this lesson, and trust the lesson where they differ.
+- RCUK and the American Red Cross each publish a short official AED film. This course has not
+  checked either against the 2025 guidance, so neither is embedded here.
 
 ## Sources
 
@@ -818,13 +833,15 @@ way.
    152 (suppl 2), 2025 <!-- SOURCES S1; Gate closures, lesson 5 -->. **Read level: full, from the
    Internet Archive capture 20251026225858**; sections 7.2, 9.1 and 9.2 re-read 2026-09-24, and
    the supportive-text quotations here checked on ahajournals.org the same day. The recommendation
-   grades are from the capture's tables. The child AED and drowning recommendations are from AHA
-   2025 Part 6 and Part 10 (SOURCES S2, S3).
+   grades are from the capture's tables. Read at
+   https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-basic-life-support
+   through that capture.
 4. C. Dezfulian, J. G. Cabañas, J. R. Buckley and colleagues, "Part 4: Systems of Care: 2025 AHA
    Guidelines", *Circulation* 152 (suppl 2), 2025 <!-- SOURCES S4; Browser gate closures, G14; Gate closures, lesson 5 -->.
-   **Read level: partial.** Figure 2 (the six links) read on ahajournals.org; the chain, public
-   access and mobile-technology supportive text checked there on 2026-09-24; the two recommendation
-   grades from the cpr.heart.org copy, because the published tables are images.
+   **Read level: partial, from the Internet Archive capture 20260208194135.** Figure 2 (the six
+   links) read on ahajournals.org; the chain, public access and mobile-technology supportive text
+   checked there on 2026-09-24; the two recommendation grades from the cpr.heart.org copy, because
+   the published tables are images.
 5. J. E. Bray, M. A. Smyth, G. D. Perkins and colleagues for the ILCOR BLS Task Force, "Basic Life
    Support: 2025 International Consensus on CPR and ECC Science With Treatment Recommendations",
    *Circulation*, 2025 <!-- SOURCES S6; Browser gate closures, G5 -->. **Read level: full, from the
@@ -833,7 +850,8 @@ way.
 6. European Resuscitation Council, [*The ERC Guidelines 2025 on Resuscitation for Everyone*](https://www.erc.edu/media/p5ymaeej/gl2025_layperson_book_ipdf-v11-e.pdf),
    2025 <!-- SOURCES S10; Gate closures, lesson 5 -->. **Read level: full, direct for the adult
    pages**, the AED pages re-read 2026-09-24.
-7. CARES, *2025 Non-Traumatic National Survival Report* and *2025 Metrics Summary*, April 2026
+7. CARES, [*2025 Non-Traumatic National Survival Report*](https://mycares.net/sitepages/uploads/2026/CARES%202025%20Non-Traumatic%20National%20Survival%20Report.pdf)
+   and *2025 Metrics Summary*, April 2026
    <!-- SOURCES S20; Gate closures, lesson 5 -->. **Read level: full, direct.** First rhythm,
    survival by rhythm, public AED use by sex, median EMS response time, public bystander AED rate.
 8. Resuscitation Council UK, ["The Circuit"](https://www.resus.org.uk/public-resource/defibrillation/circuit)
@@ -863,9 +881,19 @@ way.
     undated <!-- SOURCES S18 -->. **Read level: full, direct.**
 18. Resuscitation Council UK, [*2025 Resuscitation Guidelines: Paediatric basic life support*](https://www.resus.org.uk/professional-library/2025-resuscitation-guidelines/paediatric-basic-life-support-guidelines),
     27 October 2025 <!-- SOURCES S12 -->. **Read level: full, direct for the AED section.** The
-    25 kg cut-off and the adult-mode line; the AHA's under-8 attenuator is from AHA 2025 Part 6
-    (SOURCES S2).
+    25 kg cut-off, its "about 8 years", and the adult-mode line.
 19. C. Lott, V. Karageorgos, C. Abelairas-Gomez and colleagues, "European Resuscitation Council
     Guidelines 2025 Special Circumstances in Resuscitation", *Resuscitation* 215 (suppl 1), 2025,
     110753 <!-- SOURCES S8; Browser gate closures, G1 -->. **Read level: partial (drowning, opioid
-    and hypothermia passages), direct, on the publisher's page.** The drowning rhythm figure.
+    and hypothermia passages), direct, on the publisher's page.** The drowning rhythm sentence,
+    checked whole on the publisher's page on 2026-09-24.
+20. B. L. Joyner, M. Dewan, A. Bavare and colleagues, "Part 6: Pediatric Basic Life Support: 2025
+    American Heart Association and American Academy of Pediatrics Guidelines", *Circulation* 152
+    (suppl 2), 2025 <!-- SOURCES S2 -->. **Read level: full, direct, from the Internet Archive
+    capture 20251026203140.** Only the child AED recommendations are used here: the under-8 cut-off
+    (COR 1) and the adult AED "may be considered" (COR 2b).
+21. D. Cao, A. M. Arens, S. L. Chow and colleagues, "Part 10: Adult and Pediatric Special
+    Circumstances of Resuscitation: 2025 American Heart Association Guidelines", *Circulation* 152
+    (suppl 2), 2025 <!-- SOURCES S3 -->. **Read level: partial (the drowning sections among
+    others), from the Internet Archive capture 20251027153841.** The hypoxic-mechanism sentence and
+    the CPR-with-breaths-before-AED recommendation (COR 1).

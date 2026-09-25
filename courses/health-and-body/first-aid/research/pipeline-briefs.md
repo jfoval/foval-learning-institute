@@ -185,8 +185,9 @@ where you can). End with your verdicts per pass.
 Repo: `/Users/johnfoval/Desktop/Foval Learning Institute`. Course: `courses/health-and-body/first-aid`.
 You apply two reviewers' findings to one lesson, in a context that neither wrote nor reviewed it.
 Touch only: the lesson file, its review file `research/reviews/<lesson-id>.md` (create it), and
-`research/reviews/course-wide.md` if it needs an entry (create it if absent). SOURCES.md only as
-below. Do not commit or git add. Do not touch any other file (other agents work in this tree).
+`research/reviews/course-wide.md` if it needs an entry (**append a dated section with one small
+edit, never create or rewrite it**: on 2026-09-24 two fixers ran at once and the second recreated
+the file over the first's four notes). SOURCES.md only as below. Do not commit or git add. Do not touch any other file (other agents work in this tree).
 
 ## Read first
 `.claude/commands/review-lesson.md` ("After the review"), the "Defects this drafter repeats" list in

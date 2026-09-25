@@ -23,8 +23,10 @@ Rewrite these five lines each session. Nothing else goes in this block.
 
 - **Terms 1 and 2 are FINISHED. Term 3's first three courses are published and written**
   (2026-09-24): Nutrition, Strength and Fitness, and Cooking Fundamentals, with every lesson
-  scripted and fact-checked. **First Aid and CPR is drafting** (16 lessons, `research/OUTLINE.md`): lessons 1 to 3 are
-  through Stage 4; **lessons 4 and 5 are drafts owing their two reviews and fix pass**, then 6 to 16.
+  scripted and fact-checked. **First Aid and CPR is drafting** (16 lessons, `research/OUTLINE.md`): lessons 1 to 5 are
+  through Stage 4; **lesson 6 is drafted and under review, lesson 7 is being drafted**, then 8 to 16.
+  The course's own briefs are in `research/pipeline-briefs.md`. **It needs `assessments/final-test.md`**
+  (outline blueprint) before the drafts build and publishing will pass.
   The review briefs (Reviewer F, Reviewer P, fix pass) are the same shape as
   `strength-and-fitness/research/pipeline-briefs.md`. Ten gates were closed in a real browser on
   2026-09-24 (end of `SOURCES.md`); the publishers' pages open in the in-app browser.

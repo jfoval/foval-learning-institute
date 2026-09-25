@@ -4249,3 +4249,93 @@ the chest dry" and the rule that nobody touches the person. No source read gives
 of what ventricular fibrillation is beyond the ERC's "coordinated heart rhythm" and the AHA's
 "where VF often originates", and none gives a reason why AEDs re-analyse on a timer; lesson 5 says
 so rather than supplying one.
+
+## Stage 4 note, lesson 4 (2026-09-24)
+
+*By the lesson 4 fix pass, from the two Stage 4 findings files (now folded into
+`reviews/04-breaths-and-what-cpr-can-and-cannot-do.md`). Each item re-checked today against the
+saved primaries: the ILCOR BLS 2025 manuscript PDF (S6), the Internet Archive captures of AHA Part 7
+(20251026225858) and Part 4 (20260208194135), and the CARES 2025 national report PDF (S20).*
+
+- **ILCOR BLS 2025 (S6), the 1980s study: "Gate closures, lesson 4" carries a trim.** The bullet
+  above beginning "a 1980s study" reported the subgroup without its headline. The manuscript's
+  justification reads, in full [V, manuscript]: "Three additional studies reported no difference in
+  unadjusted patient outcomes between chest compression–only CPR and conventional CPR. One of these
+  studies, conducted in the 1980s, examined the impact of CPR quality. Using combined objective and
+  subjective measures, this study reported higher unadjusted survival when 15:2 was performed
+  correctly (good technique and effect), compared with incorrectly (31% versus 8%) or when compared
+  with chest compression–only CPR (31% versus 20%)." (reference numbers removed). The 31% against 20%
+  is a subgroup of a study ILCOR lists among three that found no overall difference; quote it with
+  that lead-in or not at all.
+- **AHA Part 7 (S1), "Performing chest compressions with passive oxygen delivery does not ensure
+  sufficient ventilation."** Recorded above under §8.1 without its setting. It sits in the
+  Fundamentals of Ventilation synopsis, between "Because measuring ventilation volume can be difficult
+  with the available equipment, rescuers can monitor for adequate ventilation by observing chest
+  rise" and "Furthermore, chest compressions can reduce functional residual capacity" [V]: a
+  sentence about ventilation technique with equipment (bag-mask, passive oxygen), not about lay
+  compression-only CPR. It is not a mechanism for the breaths case, and lesson 4 no longer uses it.
+  The AHA's lay-scoped reason is the §6.2 synopsis sentence "Because CPR with breaths may lead to
+  improved outcomes ...", already recorded above.
+- **AHA Part 7 (S1), §4.4, two lone-rescuer recommendations, not one.** Rec 2 (COR 1, B-NR) [V]:
+  "After identifying an adult in cardiac arrest, a lone responder should activate the emergency
+  response system first, then immediately begin CPR, beginning with chest compressions." Rec 3
+  (COR 1, C-LD) is scoped to "a lone rescuer with a mobile phone" (recorded above). A lesson quoting
+  rec 3's wording should carry its phone scope.
+- **AHA Part 4 (S4), the overdose estimate is scoped to the United States.** The synopsis opens
+  [V]: "Opioid-related overdoses continue to represent a major public health concern in the United
+  States." before "An estimated 1 in 6 to 1 in 3 OHCAs are related to an overdose, most commonly
+  involving opioids." Not a figure for the UK, and it does not reconcile with RCUK's "Approximately
+  80% ... cardiac cause".
+- **CARES 2025 national report (S20), the bystander rows' denominator.** The table's footnote reads
+  [V]: "*Bystander CPR and bystander AED use calculations exclude 911 Responder witnessed events."
+  So the 42.5%, 12.9%, 7.7%, 2.5% and 32.9% figures exclude arrests witnessed by the responding
+  crew as well as nursing home and healthcare facility arrests. Part A above says only the latter.
+- **ILCOR BLS 2025 (S6), Table 2's survival row is garbled in the manuscript PDF too**, not only
+  collapsed in the typeset page: it reads "No difference with DA CCO-CPR compared with either 15:2
+  or 30:2" beside "3 adult RCTs", with the 30:2 reference being the pilot trial in trained
+  laypersons. "All three adult trials compared with 15:2" is a reading of a broken row; say that the
+  table lists 15:2 as the comparator and that every outcome was downgraded for it.
+- **ILCOR BLS 2025 (S6), drowning (Part A 2.9, already recorded).** For lesson 4's forward pointer:
+  the compression-first strategy is for laypeople; breaths first is for health care professionals and
+  those with a duty to respond. "Breaths come earlier in drowning" is true of trained rescuers only.
+- **S6 read level, restated for the lesson's Sources entry.** S6 is "every 'Treatment
+  Recommendations' statement and the compression-only section closely, the rest skimmed", and the
+  typeset check of the 1980s-study passage stopped at "this study reported higher". A lesson may not
+  describe it as read in full.
+
+## Stage 4 note, lesson 5 (2026-09-24)
+
+*Appended by the lesson 5 fixer after Reviewers F and P found D36 incomplete. Verified today
+against 42 U.S.C. §238q at law.cornell.edu (curl, browser User-Agent), and the ERC sentence against
+the publisher's page in the browser pane.*
+
+- **Source D36, correction.** The entry records (a), (b) and (c)(1)(B) only, and the drafter's
+  "nothing in it requires training" and the gloss on "perceived" were written into the gap. The
+  statute continues [V]:
+  - (a), second half: "and in addition, any person who acquired the device is immune from such
+    liability, if the harm was not due to the failure of such acquirer of the device" (1) "to notify
+    local emergency response personnel or other appropriate entities of the most recent placement
+    of the device within a reasonable period of time after the device was placed"; (2) "to properly
+    maintain and test the device"; or (3) "to provide appropriate training in the use of the device
+    to an employee or agent of the acquirer when the employee or agent was the person who used the
+    device on the victim, except that such requirement of training does not apply if" the employee
+    "was not an employee or agent who would have been reasonably expected to use the device" or was
+    too newly engaged for training. So the training clause conditions the **acquirer's** immunity,
+    not the user's; the user's immunity in (a) carries no training condition.
+  - (e)(1): "the term “perceived medical emergency” means circumstances in which the behavior of an
+    individual leads a reasonable person to believe that the individual is experiencing a
+    life-threatening medical condition that requires an immediate medical response regarding the
+    heart or other cardiopulmonary functioning of the individual." An objective reasonable-person
+    test, not "as it looked to you".
+  - Also (b)(2) to (4): the immunity does not apply to licensed or certified health professionals
+    acting within scope, to hospitals and clinics whose employee used the device in scope, or to an
+    acquirer who leased the device to a health care entity whose employee used it in scope.
+- **ERC 2025 Special Circumstances (S8, 110753), drowning sentence whole** [V, browser pane today]:
+  "In drowning, an initial shockable rhythm is present in less than 10 % of cases because of the
+  cardiac response to hypoxia." Part A 2.9 carried the figure without the reason.
+- **RCUK 2025 Adult BLS (S11), the public steps** [V, curl today]: the CPR step's last line is "If
+  you are unsure, the ambulance service call handler will assist you.", after "As soon as an AED is
+  available, attach it and follow the AED instructions." The AED sentence is not the last line.
+- **RCUK 2025 Paediatric BLS (S12)**: Part A 2.5 records "under 25 kg (about 8 years)"; the page's
+  own words are "approximately 8 years of age" (Reviewer F, direct). Lesson 5 says "about 8 years"
+  unquoted.
