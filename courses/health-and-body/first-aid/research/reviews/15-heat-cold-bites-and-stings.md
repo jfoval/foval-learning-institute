@@ -142,3 +142,61 @@ Q5 73/77/76/72, Q6 76/74/71/76; spreads 1 to 7, key sole longest once (Q4). Call
 
 **Status after review:** needs second pass (five new quiz items, a new final test item, and the
 heatstroke and hypothermia sections restructured).
+
+## 2026-09-25 — Lesson 15 — Stage 4 second pass, one reviewer (facts and safety)
+**Reviewer:** F2, fresh context, on the fix pass committed in 1ebd7ca. Read the Reviewer F brief,
+the lessons 6 to 9 patterns, the first review above and "Gate closures, lesson 15" in SOURCES; read
+the lesson against the primaries in the session scratchpad (AHA Wayback prose extract with Table 11,
+SOURCES G3's transcriptions of Tables 29, 34 and 35, RCUK 2025 live page, NHS heat, hypothermia and
+frostbite pages, St John hypothermia, NWS, CDC/NIOSH).
+
+**Checked and sound.** All six quiz items executed against their keys (0,3,2,1,3,0; no adjacent
+repeat): Driffield against the NHS call-999 list (the 30-minute line is on it); Roanoke against T29
+(rest and immobilise 2a C-LD, rings 2a C-EO, ice 3: No Benefit, suction and pressure bandage
+3: Harm, all C-LD; copperhead a pit viper); Steamboat Springs against T33 and the supporting text
+(37 to 40 °C, earliest opportunity with no refreezing risk, prompt care, all COR 1; 45 °C harmful in
+one of the animal studies; warm room air or skin as the alternatives); Whitby; Allentown against T27
+row 1 (COR 1, B-R, engorged tick, high-prevalence region, 72 hours) and the doxycycline sentence;
+Cedar Rapids against T26 rows 8 and 10. Option lengths re-measured: Q1 79/75/81/80, Q2 73/77/70/73,
+Q3 76/76/75/75, Q4 74/77/76/75, Q5 73/77/76/72, Q6 76/74/71/76; key sole longest once (Q4). Each
+explanation reads true against its key. The US and UK heatstroke and hypothermia lists read against
+T34, T32, RCUK and the NHS and St John pages, row by row; the no-drink line credited to lesson 14's
+rule and the NWS's "Do NOT give fluids." beside the AHA's "cool liquids if able to swallow"; the
+immersion conditions (neck down, someone stays, no wrestling a person who can't stand into a bath);
+the stages against Table 11 as printed. Conversions redone by hand: 1 to 26 °C is 33.8 to 78.8 °F,
+39 °C is 102.2 °F, 37 to 40 °C is 98.6 to 104 °F, 45 °C is 113 °F, 3 ÷ 0.15 = 20. Final test:
+Bismarck item against T32 rows 1, 3, 4, 7 and 10 and Table 11 (sound; options 79/78/77/77); 24 items,
+keys 2,0,1,3,2,1,3,0,3,2,3,1,0,2,1,0,2,3,1,3,1,2,3,2 with no adjacent repeat; 70% of 24 is 16.8, so
+17 to pass, as the intro says. Places Driffield to Exmoor and Bismarck appear nowhere else in the
+course.
+
+**Findings.**
+1. S1 [minor, safety] Knoxville's breathing sentence named only gasping and noisy breathing as not
+   normal; lessons 7 and 14 and the course pattern also rule out slow and irregular. Fixed: "slow,
+   noisy, gasping or irregular breathing is not normal", with the paragraph rewrapped.
+2. S2 [minor] The US heatstroke "No water" item gave only the adult grade; T34 grades the children's
+   row C-EO, as the "Best method" item already says. Fixed: "(COR 2a, LOE C-LD; children C-EO)".
+3. S3 [minor] Moderate hypothermia "often with frostbite": Table 11 says "Associated with frozen
+   tissue/frostbite", no frequency. Fixed: "sometimes with frostbite".
+4. S4 [minor, not fixed, for QUEUE] The hypothermia "If they stop responding" paragraph applies
+   lesson 2's rule, so a severely hypothermic person with slow breathing (Table 11's own sign) gets
+   CPR. The lesson says plainly that the course has not read the hypothermic-arrest guidance and
+   defers to the call handler, which is honest, but the ERC and AHA resuscitation texts on
+   hypothermia (not read here) are the place a longer breathing check would come from. Worth a
+   Stage 1 read before the course is called written; not a change to make from this page.
+5. S5 [observation] St John's "if fully alert" condition on warm drinks is in its outdoor steps; its
+   indoor steps give a warm drink without it. The lesson's UK item is the stricter reading and
+   agrees with the NHS, so no change.
+
+**Timing.** `minutes: 115` is the model's figure (8,478 words at 140 wpm is about 61 minutes, plus
+two exercises, three predicts, four checkpoints and six quiz items). "Take 15 minutes" for a
+one-page heat-wave plan about a real person is an honest figure; the model adds it on top of 2.5
+minutes a step, so it prices that exercise at about 25, some ten minutes above what the page asks.
+The rest is reading, and getting back toward 95 would take cutting about 2,000 words of the heat,
+cold, sting, tick and snake material the objectives require. No trim made: none small enough to
+matter is available without losing teaching.
+
+**Measures.** `npm run validate` exit 0 (callout byte-identical); `npm run quotes first-aid` 417
+quotations, 0 not found; `npm run minutes` 115, unchanged.
+
+**Status after review:** clean.

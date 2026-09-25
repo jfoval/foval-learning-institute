@@ -226,7 +226,7 @@ wins comes below.
 - **The call**: call for anyone with heatstroke (COR 1, LOE C-EO)[1]
 - **First**: out of the heat, excess clothing off, exertion limited, cool liquids if able to swallow (COR 1, LOE C-EO)[1]
 - **Best method**: cool to cold water, neck down, 15 minutes or until thinking clears (COR 2a, LOE C-LD; children C-EO)[1]
-- **No water**: ice packs, cold showers, ice sheets and towels, cooling vests, fanning (COR 2a, LOE C-LD)[1]
+- **No water**: ice packs, cold showers, ice sheets and towels, cooling vests, fanning (COR 2a, LOE C-LD; children C-EO)[1]
 - **Moving them**: no order for transport given
 
 **In the UK** (RCUK 2025, unless another text is named):
@@ -336,11 +336,11 @@ ambulance first to cool her on the way, which is the order the ERC and RCUK rule
 transfer second", ERC 2025; RCUK 2025); the US guideline's "immediate" cooling points the same
 way.[1][2][3]
 
-**If she stops responding.** Normal breathing is quiet and regular at an ordinary pace; gasping or
-noisy breathing is not normal. If she stops responding and is not breathing normally, it's cardiac
-arrest (lesson 2): out of the water, CPR, the call handler coaching, and an AED. If she stops
-responding but is breathing normally, she comes out of the tub into lesson 7's recovery position,
-and cooling carries on with wet towels and ice packs.
+**If she stops responding.** Normal breathing is quiet and regular at an ordinary pace; slow,
+noisy, gasping or irregular breathing is not normal. If she stops responding and is not breathing
+normally, it's cardiac arrest (lesson 2): out of the water, CPR, the call handler coaching, and an
+AED. If she stops responding but is breathing normally, she comes out of the tub into lesson 7's
+recovery position, and cooling carries on with wet towels and ice packs.
 
 ## A heat wave, and an older neighbour
 
@@ -400,7 +400,7 @@ tiredness or confusion; a baby may be cold to the touch, floppy, quiet and not f
 
 The AHA's table sorts hypothermia into stages by core temperature, which you will not have, and gives
 the signs of each.[1] **Cold stress**: alert, perhaps shivering. **Mild**: shivering, and a change
-in how responsive they are. **Moderate**: less responsive, shivering or not, pale skin, often with
+in how responsive they are. **Moderate**: less responsive, shivering or not, pale skin, sometimes with
 frostbite; the table calls this a medical emergency. **Severe**: unresponsive, perhaps looking
 lifeless, shivering stopped, slow heart rate and breathing. This course's reading of that table: a
 person who has stopped shivering is not necessarily getting better, and anyone who is less
