@@ -5058,3 +5058,9 @@ the same day), for lesson 11's fixes:
 - [ARC] spinal page: "Keep person from getting cold or overheated."
 - [ARC] bone page, starred: "Bleeding or bone protruding through skin*", "Severe or multiple injuries*", "Signs & symptoms of shock*"
 - [ARC] bone page: "Fractures can be open (the end of the broken bone breaks through the skin) or closed (the broken bone does not break through the skin)"
+
+**Added by the second-pass reviewer (F2) the same day**, string-matched against the saved copies in
+`r11f/` (`sja_head.txt`, `browser_extracts.txt`), for lesson 11's second-pass fixes:
+
+- [SJAHEAD] serious head injury signs include "vomiting episodes"; "If you think someone has a serious head injury, call 999 or 112 for emergency help and tell the emergency call handler that you suspect a serious head injury."
+- [ARC] spinal page FAQ: "If you see a change in behavior, vomiting, persistent headache, change in vision or if the person becomes unresponsive, call 9-1-1 immediately if not already done."
