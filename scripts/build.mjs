@@ -1098,6 +1098,13 @@ lintLessons();
 //   - Cooking Fundamentals repeats its higher-risk callout in lessons 4, 5 and 7 by its outline's
 //     design; it is not enforced by a check, so a change must be made in all three.
 const REPETITION_EXEMPT = [
+  // Personal Safety's safety callout (outline decision 4), carried word for word in every lesson.
+  "this course is education not legal advice and not a self defence class",
+  "if you re in danger now call 999 in the uk or 911 in the us",
+  "on a 999 call from a mobile if you can t speak cough or tap if you can and press 55",
+  "if a partner ex partner or family member is frightening you the lesson on domestic abuse",
+  "responsibility for a crime lies with the person who commits it precautions change the odds",
+  "the law differs between england and wales scotland northern ireland and each us state",
   "this course is education not a certificate and not medical advice about anyone s own situation",
   "in an emergency call your local emergency number first 911 in the us 999 or 112 in the uk 112 across the eu",
   "it can t teach your hands how hard to push or how a back blow should feel",
