@@ -1656,8 +1656,12 @@ be picked." The evidence supports a narrower claim.
   Behavior*), the student-sample precursor, read only through the thesis (B8) and this abstract.
 - **What it adds:** the offender side. Forty-seven maximum-security inmates in Ontario rated
   walkers. "Higher Factor 1 psychopathy scores (as measured by the PCL-R; Hare 2003) were positively
-  related to accuracy in judging victim vulnerability." [V] "Accuracy" here means agreement with the
-  walkers' own reports of past victimisation, which is a stronger design than B6 and B7.
+  related to accuracy in judging victim vulnerability." [V] **Stage 4 note, lesson 04
+  (2026-09-25):** the abstract does not say what "accuracy" was scored against; an earlier gloss
+  here ("agreement with the walkers' own reports of past victimisation") is not in it and is struck.
+  Wheeler's thesis (p. 20, outside what B8 read) says her 2009 student study scored accuracy that
+  way; do not transfer that to this study. Also in the abstract: "Forty-seven inmates viewed short
+  video clips of targets walking and judged how vulnerable each target was to victimization." [V]
 
 #### B10. Fulham, L., Book, A. S., Blais, J., Ritchie, M. B., Gauthier, N. Y. and Costello, K. (2020). "The effect of hypervigilance on the relationship between sexual victimization and gait." *Journal of Interpersonal Violence* 35(19-20): 4061-4082. PMID 29294783.
 - **Read:** abstract (PubMed API).
@@ -1668,9 +1672,13 @@ be picked." The evidence supports a narrower claim.
   observer. It does not show that paying attention lowers your risk of being attacked; no study in
   this line measures later victimisation after a change in gait.
 
-**Where this leaves the gait claim (for the drafter).** Established: raters, including convicted
-offenders, agree with one another about who looks easy to attack, and they agree from movement
-alone. Reasonably supported: the cues correlate with past victimisation in some samples (B9, B10).
+**Where this leaves the gait claim (for the drafter).** Well supported: raters asked to judge ease
+of attack sort walkers from movement alone (B7), and inmates convicted of assault picked out
+potential victims from videotapes (B6, abstract). (**Stage 4 note, lesson 04 (2026-09-25):** an
+earlier "Established: raters, including convicted offenders, agree with one another ... from
+movement alone" joined two studies; no source read reports inmates agreeing with each other from
+movement alone.) Reasonably supported: walking style went with past victimisation in one study's
+samples (B10); B9's "accuracy" has no stated criterion in the abstract.
 Not shown: that changing your walk lowers your future risk. Also not shown: that street offenders
 choose victims this way in real life, as opposed to in a rating task. Any lesson that says "walk
 confidently and you will not be chosen" overstates it. The honest version is closer to: people who
@@ -1689,10 +1697,17 @@ harm to women (B20) comes from people they know, where gait is irrelevant.
   [V] The numbers: "Only 25% of the cell phone users had noticed the clown", against "51% of single
   individuals, 61% of music player users, and 71% of people in pairs." [V]
 - **Use:** this is the evidence for the practical advice "phone away when you are walking somewhere
-  unfamiliar or at night". Note it is about talking on a phone, in 2009, on a campus; music players
+  unfamiliar or at night". Note it is about talking on a phone, on one campus, published 2010; music players
   did not reduce noticing in this study, which cuts against the common "never wear earphones" rule
   (the Suzy Lamplugh "one earphone" advice, B17, is a reasonable middle). Pairs noticed most, which
   is a neat illustration of guardianship (B1).
+- **Stage 4 note, lesson 04 (2026-09-25):** the paper gives no year of data collection, only "a
+  pleasant afternoon in the spring" and "Published online 19 October 2009" [V], so write "published
+  2010", not "in 2009"; 151 walkers, 24 of them on a phone, in "a single 1-hour session" [V]; the
+  walkers were observed, not assigned, and the authors say "Something about people who choose to have
+  a cell phone conversation while walking may be the causal factor rather than the divided attention
+  requirements of a phone call." [V]; only a four-group chi-square is reported, so music users
+  "noticed more" than lone walkers is untested; say "no less".
 
 #### B12. Fear, and why too much of it is also a cost.
 - **Jackson, J. and Gray, E. (2010). "Functional fear and public insecurities about crime."**
@@ -1727,7 +1742,9 @@ harm to women (B20) comes from people they know, where gait is irrelevant.
 - **Gavin de Becker, *The Gift of Fear* (1997).** The most widely recommended practitioner book on
   intuition and "pre-incident indicators". Not read. Snippets show reviewers raising a real problem
   with "trust your gut": intuition can carry prejudice as well as pattern recognition. If a lesson
-  teaches "trust your instincts" (as Suzy Lamplugh and the State Department both do, B17, B18), it
+  teaches "trust your instincts" (as the Suzy Lamplugh Trust does, B18; **Stage 4 note, lesson 04
+  (2026-09-25):** the State Department's "Women Travelers" page, B18, never mentions instinct; its
+  nearest line is "Being safe is more important than being polite"), it
   should pair it with that caveat, and frame the cue as behaviour (someone persisting after "no",
   following, cutting off exits) rather than appearance.
 - **Jeff Cooper's colour code** (white, yellow, orange, red), taught in many firearms and
@@ -4193,3 +4210,79 @@ federal, state, and local law enforcement partners." (Footnote markers dropped.)
 **VictimConnect** (home)
 - "Call or text directly at 1-855-4VICTIM (855-484-2846) or chat online."
 - "We can only talk, text, or chat with you if you are currently physically safe."
+
+## Gate closures, lesson 04 (2026-09-25)
+
+*Recorded at lesson 04's Stage 4 fix from Reviewer F's primaries, fetched 2026-09-25 with curl (browser
+User-Agent), HTML stripped, PDFs through pdftotext; RAINN read in the in-app browser. Every line below
+was string-matched by script against the raw copy (52 of 52; whitespace collapsed and curly quotes and
+dashes normalised for the match only; the characters are the source's own). It also records the
+passages lesson 04's Sources comments marked "to be recorded", and the G22 publisher-abstract checks
+for Cohen and Felson (JSTOR), Hyman (Wiley) and Gunns (Springer), which the drafter made and Reviewer F
+confirmed. The corrections to B9, B11, B13 and the gait synthesis are made in place, each marked
+"Stage 4 note, lesson 04".*
+
+**Clarke, Introduction** (popcenter PDF, read 2026-09-25) [clarke.txt]
+- [V] "Moreover, it "punishes" the law-abiding by infringing freedom and privacy." (the Right's second objection)
+- [V] "and of political muscle in the definition of crime" (the Left's)
+- [V] "such as unemployment, racial discrimination, substandard housing, inadequate schooling and inconsistent parenting" (the liberals' root causes, citing Bottoms 1990)
+- [V] "The development of situational prevention was stimulated by the results of work on correctional treatments undertaken in the 1960s and 1970s by the Home Office Research Unit"
+- [V] "A theoretical foundation drawing principally upon routine activity and rational choice approaches"
+- [V] "routine activity theory — which has also contributed to the theoretical base of situational prevention"
+- [V] "These practices will not be changed simply by government exhortation, which runs the risk of being dismissed as "blaming the victim"" (about retailers and shoplifting; the source continues "(Karmen, 1984)", and Karmen is on the unread line)
+- [V] "Victim blaming was mentioned above in the context of persuading businesses to modify criminogenic products and practices."
+- [V] "Another vocal group on this subject are victim advocates who resist any imputation of victim responsibility because this might jeopardize the achievement of better rights and treatment for victims."
+- Quoting Felson and Clarke 1997b: [V] "The whole point of routine precautions against crime is that people can take responsibility without accepting criminal blame or even civil liability." [V] "Routine precautions by potential victims do not serve to exempt offenders from criminal responsibility." [V] "The citizen who reminds herself to lock her car door and does so still has a right to expect others not to steal that car, whether it is locked or not."
+- [V] "it raised the specter of totalitarian, "Big Brother" forms of state control"
+- [V] "Experience of situational measures has dispelled some fears of the fortress society (though not all, cf. Bottoms, 1990)."
+- [V] "situational measures can be used by the powerful to exclude undesirables — such as the poor, minorities and young people — from public places such as shopping malls, parks, town centers and particular neighborhoods"
+- [V] "In addition, many so-called exclusionary measures are not the prerogative of the rich."
+
+**Cohen and Felson 1979, full text** (UW course copy) [cf.txt]
+- [V] "We further argue that the lack of any one of these elements is sufficient to prevent the successful completion of a direct-contact predatory crime"
+
+**Hyman and colleagues 2010, full text** (spryfeet.com/get/Hyman_et_al_2010_Unicycling_clown.pdf) [hyman.txt]
+- [V] "Published online 19 October 2009"; [V] "A clown unicycled around the large sculpture in Red Square on a pleasant afternoon in the spring"; [V] "Data collection occurred during a single 1-hour session." No year of data collection is given.
+- [V] "We interviewed 151 individuals"; [V] "Of these individuals, 78 were single individuals without electronics, 24 were cell phone users, 28 were music player users and 21 were part of a pair"
+- Table 2, [V, table row] "Did you see the clown? 25.0 51.3 60.7 71.4" (phone, single, music, pair). Only a four-group chi-square is reported; no pairwise test.
+- [V] "Use of an electronic device by itself is not distracting since individuals with music players noticed the clown."
+- [V] "Their rate of seeing the clown is essentially equal to what one would expect by combining the performance of two individuals."
+- [V] "Something about people who choose to have a cell phone conversation while walking may be the causal factor rather than the divided attention requirements of a phone call."
+- [V] "Cell phone usage may cause inattentional blindness even during a simple activity that should require few cognitive resources."
+
+**Book, Costello and Camilleri 2013, abstract** (PubMed 23422847) [pubmed_23422847.txt]
+- [V] "Forty-seven inmates viewed short video clips of targets walking and judged how vulnerable each target was to victimization."
+- [V] "inmates higher on Factor 1 of psychopathy were more likely to rationalize their vulnerability judgments by mentioning the victim's gait"
+- The abstract does not say what "accuracy" was scored against. B9's gloss is struck in place.
+
+**Fulham and colleagues 2020, abstract** (PubMed 29294783) [pubmed_29294783.txt]
+- [V] "In Study 1 (N = 130), gait was coded for traits relating to vulnerability where half of the sample was unaware of being videotaped (Unaware condition) and the other half was aware (Aware condition) to induce hypervigilance"
+- [V] "A mediation analysis found that perceived impact of victimization mediated the association between victimization and vulnerable gait."
+- [V] "In Study 2, female university students (N = 62) were measured on their victimization history and hypervigilance."
+- [V] "hypervigilance was found to moderate the relationship between sexual victimization and vulnerable gait but not violent victimization and vulnerable gait"
+
+**Wheeler 2010** (Brock repository) [wheeler.txt]
+- Author: [V] "Sarah Wheeler".
+- [V] "That is, these researchers investigated the type of body language linked to others' perception of vulnerability versus body language linked to self-concept or actual victimization." (the sentence after "demographics either")
+
+**Suzy Lamplugh Trust, "Personal safety out and about"** (live, updated 29 May 2025) [lamplugh.txt]
+- [V] "trust your instincts and take action"
+- [V] "Be aware of aggressive behaviour from others, and remove yourself from aggressive situations." (festival safety)
+
+**US State Department, "Women Travelers"** (travel.state.gov/en/international-travel/planning/personal-needs/women.html; requested as 20251226183516, served as 20251226103732) [state.txt]
+- [V] "In an unsafe situation, it can help to speak loudly. This may draw attention to you and prevent unwanted actions. Being safe is more important than being polite."
+- The word "instinct" does not occur on the page. B13 corrected in place. Link for lessons: https://web.archive.org/web/20251226183516/https://travel.state.gov/en/international-travel/planning/personal-needs/women.html (the Wayback Machine served 20251226103732 for it on 2026-09-25; same text).
+
+**Twenty Five Techniques grid** [grid.txt]
+- [V] "10. Strengthen formal" surveillance, whose examples include "Burglar alarms"; "11. Conceal targets"; "12. Remove targets"; "16. Reduce frustrations and stress" (efficient queues and polite service); "17. Avoid disputes" (reduce crowding in pubs).
+
+**Support lines, each re-read on its own page on 2026-09-25** (by Reviewer F, and again by lesson 04's fixer the same day: every number, and every hour lesson 04 prints, unchanged; RAINN read in the in-app browser both times)
+- Rape Crisis E&W [rcew.txt]: [V] "Call free on 0808 500 2222"; [V] "A free phone and online chat service for anyone aged 16+ in England and Wales"
+- Victim Support [vs.txt]: [V] "Call our Supportline free on 08 08 16 89 111 , 24/7"
+- Rape Crisis Scotland [rcs.txt]: [V] "Get in touch any day between 5pm – midnight: Call: 08088 01 03 02"
+- Victim Support Scotland [vss.txt]: [V] "Support Helpline 0800 160 1985"; [V] "Call our free support helpline from 8am – 8pm Mon-Fri, and 10am – 4pm Sat-Sun"
+- DSA Helpline [dsa.txt]: [V] "Call us for FREE 0808 802 1414"; [V] "The DSA helpline is a free, confidential service for anyone aged 18+, providing 24/7, 365-day support."
+- Rape Crisis NI [rcni.txt]: [V] "0800 0246 991 Information & Support Line Monday to Thursday, 6pm – 8pm" (home page today; G6 recorded two sets of hours, so print none)
+- Victim Support NI [vsni.txt]: [V] "02890 243133 Opening hours: Monday – Friday from 9am-5pm"
+- RAINN [rainn.txt, in-app browser]: [V] "free, confidential, 24/7 support in English and en Español. Call 800.656.HOPE (4673)"
+- VictimConnect [vc.txt]: [V] "Call or Text 855-484-2846"; [V] "We can only talk, text, or chat with you if you are currently physically safe."

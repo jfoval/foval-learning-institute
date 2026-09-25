@@ -60,3 +60,31 @@
   inventing findings. Lesson 1's sort does this.
 - **The minutes model prices an exercise at 2.5 minutes a numbered step plus its stated time.** A
   fixer asked to raise "Take NN minutes" should check the priced total first.
+
+## 2026-09-25 — from lesson 04's Stage 4 fix
+
+- **SOURCES B9, B11, B13 and the gait synthesis under B10 corrected in place** (each marked "Stage 4
+  note, lesson 04"; details in "Gate closures, lesson 04"). A later lesson or podcast script must
+  not say: that the State Department teaches "trust your instincts" (only the Suzy Lamplugh Trust
+  does); that Book 2013's "accuracy" was scored against past victimisation (the abstract names no
+  criterion); that raters, "including convicted offenders, agree with one another ... from movement
+  alone" (two studies joined); that Hyman's phone result is causal, dated 2009, or that music users
+  noticed "more" (write "published 2010", "no less", and give the authors' own caveat about who
+  chooses to phone). Lesson 6's lighting section and any script on lesson 4 should read the
+  corrected entries.
+- **Content-note form, as lessons 1 to 4 now all carry it:** both Victim Support NI hubs (Belfast
+  02890 243133, Foyle 02871 370086, weekdays 9am to 5pm), VictimConnect's "only if you're physically
+  safe right now, and if you aren't, call 911", a `[n]` on every line, and the note naming every
+  section before its skip target. The "Course conventions" line in `pipeline-briefs.md` could
+  record the NI hubs and the 911 clause as standard.
+- **Measured pattern seen again: one source's claim spread to "both bodies"** (B13 said the State
+  Department teaches instinct because the Suzy Lamplugh Trust does). Search a primary for the word
+  before writing that more than one body says it.
+- **Contraction scripts leave stiff sentences, and restoring them overshoots the band.** Lesson 4
+  went from 7.5 to 16 per 1,000 when the reviewer's restorations were applied; rewriting the
+  sentences instead brought it to 7.3. Later drafters should write to the band rather than expand
+  by script.
+- **Quiz keys:** with lessons 1 to 4 at 2,1,0,3,1,3 / 3,0,2,0,1 / 1,3,0,1,2 / 1,0,2,3,2,0, a six-item
+  lesson 5 can still keep every earlier lesson to 2 matches at any offset, but under value rotation
+  the best such sequence matches one of them in 4 positions (checked by script). Hold to the
+  drafting rule and treat rotation as advisory.

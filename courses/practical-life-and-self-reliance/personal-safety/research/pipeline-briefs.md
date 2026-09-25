@@ -180,7 +180,8 @@ instead).
   Support (England and Wales), Victim Support Scotland, Victim Support NI, VictimConnect (US, with
   its "currently physically safe" condition), and where the section is about sexual violence the
   Rape Crisis lines and RAINN, all exactly as SOURCES' "Gate closures G6, G27, G28" gives them,
-  each with a `[n]` marker; never "the course did not find a line" for a nation G6 covers; plus lesson 7 by its title, "Domestic abuse and stalking"; it ends "You can
+  each with a `[n]` marker (Victim Support NI as both its Belfast and Foyle hubs; VictimConnect
+  followed by "if you aren't, call 911"); never "the course did not find a line" for a nation G6 covers; plus lesson 7 by its title, "Domestic abuse and stalking"; it ends "You can
   skip to "<heading>"". **Lesson 7 is always referred to by title**, to survive renumbering.
   **Advice labels** are written into the sentence ("sensible, untested, in this course's labels").
   **Sources entries:** a bold "**Read: …**" copied from SOURCES and an HTML comment

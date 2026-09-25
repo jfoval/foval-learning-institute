@@ -819,8 +819,9 @@ woman as people at risk across the course (decision 7), and no place name is reu
   adaptive response"); the verdict as SOURCES states it (raters agree; partial link to past
   victimisation; not shown that changing your walk lowers risk; not shown that offenders choose this
   way in life). **Warning signs are behaviour**: someone who persists after "no", follows, or cuts off
-  a way out (B13's framing); the Suzy Lamplugh Trust's and the State Department's "trust your
-  instincts", and the State Department's "Being safe is more important than being polite"; the
+  a way out (B13's framing); the Suzy Lamplugh Trust's "trust your
+  instincts", and the State Department's "Being safe is more important than being polite" (its page
+  never mentions instinct; SOURCES B13 corrected at lesson 04's Stage 4); the
   course's rule that a cue is something a person does, never how they look, labelled as the course's
   argument from Cohen and Felson's turn away from offender characteristics (decision 6).
   **The cost side again**: awareness that turns into a few habits and stops (lesson 1's functional
