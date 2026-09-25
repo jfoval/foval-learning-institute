@@ -30,3 +30,16 @@ the same time, recreated the file over them. The fix brief now says to append, n
   people, breaths first for trained duty-to-respond rescuers). Lesson 6 keeps that framing.
 - **The course needs `assessments/final-test.md`** before `npm run build:drafts` will pass with six
   or more lessons, and before publishing. The outline's Assessments section has the blueprint.
+
+## 2026-09-25 — from lesson 6's Stage 4
+
+- **RCUK's "little or no harm" runs one way only**: an adult mistakenly given the paediatric
+  algorithm. Lesson 6's exercise answer had it reversed, and a reviewer's suggested quiz key
+  repeated the reversal. Any later lesson or script that paraphrases the age boundary should quote
+  the sentence.
+- **ILCOR's 2025 lay compression-first drowning statement covers adults only** (narrowed from the
+  2023 "adults and children"). The lesson 4 entry above ("compressions first for lay people") is
+  true for adults; for a drowned child in the UK the call handler coaches five breaths first.
+- **"Both sides admit" recurred twice in one lesson** (minimal evidence on the child sequence; no
+  human comparison on drowning order). Each time only the AHA said it. Reviewers: check every
+  symmetric admission against each body's own text.
