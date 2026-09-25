@@ -1,6 +1,7 @@
 ---
 title: How heat gets into food
 minutes: 100
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/practical-life-and-self-reliance/cooking-fundamentals/02-how-heat-gets-into-food.mp3
 objectives:
   - >-
     Explain conduction, convection and radiation, and identify which one does most of the work in
