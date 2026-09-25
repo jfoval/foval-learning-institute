@@ -113,3 +113,26 @@
 - **Measured pattern seen again: a prose sentence in a report taken without its table** (Catalano's
   "18% of burglaries of occupied residences" is Table 7's unforced-entry base). Open the table the
   sentence reports before quoting a percentage.
+
+## 2026-09-25 — from lesson 06's Stage 4 fix
+
+- **SOURCES B23 corrected** (Stage 4 note in place; lines in "Gate closures, lesson 06"): NCMEC's
+  third script opens "You should not approach just anyone.", and the page pairs each script with
+  the rule it replaces. Quote the scripts whole and with their pairings.
+- **The course has read one US police force's street advice**: the Washington DC brochure (Part C
+  §3.1, January 2011, read in full). Never write that no US street guidance was read. Lesson 6 now
+  quotes it; a later lesson on robbery should use the same brochure and URL.
+- **Senn 2017's critics passage is recorded [V]** ("may simply move on to another woman", the
+  authors' "may learn important lessons"). Lesson 12, which teaches the trial, should give the
+  critics' reply as lesson 6 now does.
+- **Lesson 1 still says "the "safety work" asked of women and girls"** (its lines 472 and 564); the
+  abstract says "mandated for". A later pass on lesson 1 should use the source's word.
+- **The FCDO says "being safe is more important than being polite" too** (lesson 4 quotes the State
+  Department's version; lesson 6 quotes the FCDO's). Neither is the only body that says it; recorded
+  in "Gate closures, lesson 06".
+- **Quiz keys:** lesson 6 is now 0,3,2,1,3,2. Lesson 7's fixer should rerun the at-any-offset check
+  against lessons 1 to 6.
+- **Measured pattern seen again: a read source reported as unread.** The drafter wrote that no US
+  police street advice had been read when SOURCES Part C recorded a brochure read in full. Before
+  writing that the course has no source for something, search all four Parts, not only the one the
+  outline cites.

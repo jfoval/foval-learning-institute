@@ -469,7 +469,7 @@ randomised trial of a sexual assault resistance programme for university women, 
 entirely responsible for the crimes they commit".[19]
 
 Some researchers argue that safety advice can shade into blaming victims anyway. Vera-Gray and Kelly
-describe the "safety work" asked of women and girls in public as limiting women's space for action
+describe the "safety work" mandated for women and girls in public as limiting women's space for action
 and making them responsible for preventing violence.[20] That critique is a mainstream position in
 UK research on violence against women, and lesson 6 gives it in full beside the case for teaching
 skills.
@@ -561,7 +561,7 @@ helping them. Warr's dial has two bad ends.
 and the conclusion still careless: violence differs in kind.
 
 **"Safety advice and victim-blaming are the same thing," or "they have nothing to do with each
-other."** Both are too quick. Vera-Gray and Kelly argue that the safety work asked of women limits
+other."** Both are too quick. Vera-Gray and Kelly argue that the safety work mandated for women limits
 their freedom and makes them responsible for preventing violence. The course's commitment is that
 responsibility stays with the person who commits the crime. Whether advice to individuals can avoid
 shifting the burden is a value question, and lesson 6 gives both sides.

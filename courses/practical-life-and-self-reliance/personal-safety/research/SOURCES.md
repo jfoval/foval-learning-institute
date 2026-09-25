@@ -1795,7 +1795,7 @@ crime survey asked victims and non-victims which devices they had.
 - **Explanations it offers**, none tested: households fit alarms *after* an earlier burglary, so
   the alarm marks a repeat-victim household ("Latent repeat victim", which they call plausible);
   offenders and police have adapted (police no longer always attend alarms); alarms flag that there
-  is something worth stealing; many alarms are cheap or unmonitored. (Stage 4 note, lesson 05: the
+  is something worth stealing; some alarms are poor-quality or do-it-yourself systems (Tilley's wording, hypothesis 7; corrected at lesson 5's second pass). (Stage 4 note, lesson 05: the
   authors call **two** of these plausible, the latent repeat victim and alarms as flags of target
   suitability, "quite plausible although we have no data with which to test it" [V]; the original
   adaptive-offender version they call "highly unlikely". Their Conclusion: "it would be premature to
@@ -2019,6 +2019,13 @@ young men. Say "more often men than women, and most often 16 to 24 year olds".)
   anyone." and "Let me know right away if anyone asks you to keep a secret, makes you feel
   uncomfortable or tries to get you to go somewhere with them." And: "If you need help, look for a
   uniformed police officer, store clerk with a nametag or a parent with children." [V]
+  **Stage 4 note, lesson 06 (2026-09-25):** that third script is trimmed. In full it is "You should
+  not approach just anyone. If you need help, look for a uniformed police officer, store clerk with
+  a nametag or a parent with children." [V], and the page pairs each script with the rule it
+  replaces: the third replaces "Never talk to strangers"; the permission script replaces warning a
+  child "to stay away from people they don't know"; the "Let me know right away" script replaces
+  warnings about "bad guys" and "you can tell someone is bad just by looking at them". Verbatim
+  lines in "Gate closures, lesson 06".
 - **Scope note:** this is a course for adults. A short household section on talking to children is
   in scope; child protection as a subject is not.
 
@@ -4442,3 +4449,109 @@ their phone number. Don't call a number they gave you or the number from your ca
   101 if they are not an emergency."
 - OVC "Help for Victims" (re-read 2026-09-25): "If at any time you feel that you are in immediate
   danger, we strongly urge you to call your local police department's emergency number (911)."
+
+## Gate closures, lesson 06 (2026-09-25)
+
+Recorded by lesson 06's Stage 4 fixer from Reviewer F's findings. The drafter read these primaries
+on the day; the reviewer re-fetched each with curl (browser User-Agent; PDFs through pdftotext;
+RAINN in a browser) and string-matched every line below by script against the saved copy (73 of 73,
+whitespace collapsed and curly quotes and dashes normalised for the match only; the characters are
+the sources' own, including the pages' spacing slips). The saved copies were in the session's
+scratchpad and do not survive it. The fixer re-read the helpline pages (RAINN in a browser), the
+Firearms Act 1968 s.5 page, the DC police brochure and Senn 2017 (PMC5821219) the same day. **G22 is
+closed for Piza 2019's two quoted sentences** (publisher's abstract via Crossref). A spaced dash
+inside any line below is the source's and is split around, never reproduced, in a lesson.
+
+**Suzy Lamplugh Trust, "Personal safety out and about"** (live, "Updated: 29 th May, 2025") [lamplugh-out.txt]
+- [V] "If you think you are being followed , trust your instincts and take action . As confidently as you can, cross the road, turning to see who is behind you. If you are still being followed, keep moving. Head to a busy area and tell people what is happening. If necessary, call the police."
+- [V] "Update someone on your plans."
+- [V] "Let someone know where you're going and for how long." (under "Running Safely")
+- [V] "Consider just having one earphone in to ensure you can hear any changes in your surroundings."
+- [V] "If you are able to attract the attention of passers- by, you are more likely to get help if you shout a specific instruction – such as “Call the police!”"
+- [V] "Once you have set off your alarm, leave the situation as quickly as you can, moving to a busy area if possible. Don’t wait to check that your alarm has had the desired effect; just go."
+- [V] "DISCLAIMER: The Suzy Lamplugh Trust would like to clarify that general personal safety advice provided on our web pages is in no way intended to suggest that taking such actions will eliminate incidents of aggression and violence. The guidance merely helps readers better understand how to assess and mitigate risks to their personal safety." (same on "Safety Online")
+- [V] "This advice is also embedded in the wider advocacy work we do to address the root causes of violence and aggression across society." (the disclaimer's last sentence)
+
+**Suzy Lamplugh Trust, "Safety Online"** (live, "Updated: 7 th September, 2026") [lamplugh-online.txt]
+- [V] "Tell someone where you’re going, who you’re meeting (name, website arranged through etc) and check in with them before, during and after the date."
+- [V] "Agree that if you don’t check in as agreed or respond then your friend would call the place where you’ve met or even go there to check on you."
+- [V] "Meet in a public space and plan an exit strategy if needed."
+- [V] "When chatting with someone online consider talk ing about where you’ve been rather than where you’re going." (the page's split "talk ing")
+- [V] "Don’t give away personal information on a first date e.g. home address."
+- [V] "rather than using the automatic log-in function offered on some browsers, and change them regularly." (the password line not passed on)
+
+**FCDO, "Solo and independent travel"** (live, "Last updated: 12 June 2025") [fcdo.txt]
+- [V] "All travel comes with risk."
+- [V] "However, it may bring an increased risk of being a victim of crime or other risks to your personal safety."
+- [V] "arranging airport transfers before you arrive"; [V] "using only official, licensed and reputable taxis"
+- [V] "fire safety: check there are smoke alarms and appropriate fire exits"; [V] "carbon monoxide: badly fitted equipment such as water heaters or cookers, or poor ventilation can kill."
+- [V] "You may also want to leave photocopies of important documents, such as your passport and insurance policy."
+- [V] "remember that being safe is more important than being polite" (so the FCDO says it too, not only the State Department)
+- The page ranks no travel risk above another; "the biggest travel risks are often not crime" (B18) is a research gloss.
+
+**US Department of State, "Women Travelers"** (capture requested 20251226183516, served 20251226103732) [state-women.txt]
+- [V] "This record is useful to identify the vehicle and driver later."
+
+**Campbell Collaboration summary of Welsh and Farrington** (capture 20260920211306) [campbell.txt]
+- [V] "In general, the American studies were older and several reported just nighttime crime, rather than both nighttime and daytime crime."
+- [V] "Improved street lighting is thought to affect crime in two ways: by increasing surveillance, thus deterring potential offenders, and by signifying community investment and pride in an area."
+
+**Piza and colleagues 2019, publisher's abstract via Crossref** (DOI 10.1111/1745-9133.12419) [piza.txt] (G22 closed for the two quoted sentences, which the abstract carries)
+- [V] "The results of the analysis also demonstrated evidence of significant crime reductions within other settings, particularly residential areas."
+- [V] "CCTV schemes incorporating active monitoring generated larger effect sizes than did passive systems."
+- [V] "Of particular salience is the continued need for CCTV to be narrowly targeted on vehicle crimes and property crime and not be deployed as a “stand‐alone” crime prevention measure."
+
+**Vera-Gray and Kelly 2020, abstract** (London Met repository record 5706) [veragray.txt]
+- [V] "Here, the impact of men’s practices on women and girls is understood not only in terms of their safety, but also their freedom, highlighting how the "safety work" mandated for women and girls in public functions to limit women’s space for action and responsiblise them for preventing violence."
+- [V] "It ends in exploring the possibilities of feminist self defence as a means of making safety work visible and measurable, to both ourselves and the wider world."
+
+**NISMART-3, Wolak, Finkelhor and Sedlak, OJJDP Bulletin, June 2016** [nismart-plain.txt]
+- [V] "Victims were, most commonly, ages 12 to 17, girls, white, and living in situations other than with two biological or adoptive parents."
+- [V] "Most kidnappers were not violent at first contact with victims; instead, they lured almost 70 percent of victims through deception or nonthreatening pretexts."
+- [V] "The 2011 estimate of victims was 105 (95% CI = 40–165) and the 1997 estimate was 115 (95% CI = 55–170)."
+
+**NCMEC, "Straying Away from "Stranger Danger"", Emma Henderson Vaughan, 11-16-2023** [ncmec.txt] (B23 correction: the third script's first sentence, and the pairings)
+- [V] "Instead of saying: “Never talk to strangers,” try:" followed by [V] "“You should not approach just anyone. If you need help, look for a uniformed police officer, store clerk with a nametag or a parent with children.”"
+- [V] "In lieu of warning your child to stay away from people they don’t know, consider using this language when having safety conversations:" (followed by the permission script)
+- [V] "And instead of warning your child about “bad guys” or using wording like “you can tell someone is bad just by looking at them,” consider telling your child to pay attention to someone’s actions by using the following language:" (followed by the "Let me know right away" script)
+- [V] "more often than not, most child abductions involve a relative or someone the child knows, like a neighbor or online acquaintance."
+- [V] "KidSmartz , NCMEC’s safety program for kids in grades K-5"
+
+**ONS, *Perceptions of personal safety and experiences of harassment, Great Britain: 16 February to 13 March 2022*** [ons2022.txt]
+- [V] "The disparity was greatest “in a park or other open space”, where 82% of women reported feeling very or fairly unsafe, compared with 42% of men." (section 2)
+- [V] "Proportion of adults who felt “very or fairly unsafe” walking alone by setting and using public transport, by sex, Great Britain, 16 February to 13 March 2022" (Figure 2's title: the measure is walking alone)
+- [V] "The latest Opinions and Lifestyle Survey (OPN) data showed that in the previous 12 months, 27% of women and 16% of men had experienced at least one form of harassment." (section 3)
+
+**ONS, *Nature of sexual assault by rape or penetration, England and Wales: year ending March 2025*** [onssa.txt]
+- [V] "A higher proportion of females (39.3%) than males (21.5%) were victimised in their own home. The assault had taken place in a park, other open public space, car park or on the street for 8.0% of victims."
+
+**Metropolitan Police Department, Washington DC, "Guarding Against Robbery and Assault"** (brochure, "January 2011", mpdc.dc.gov/sites/default/files/dc/sites/mpdc/publication/attachments/robbery_assault.pdf, re-read in full; SOURCES Part C §3.1) [mpdc-plain.txt]
+- [V] "stay in groups, walk in well-lit areas, and pay" attention to your surroundings (line break in the PDF)
+- [V] "If possible, don’t walk alone during late-night hours."
+- [V] "Let a family member or friend know your destination and your estimated time of arrival or return. That way, the police can be notified as quickly as possible if there is a problem."
+- [V] "A person walking with traffic can be followed, forced into a car, and abducted more easily than a person walking against traffic."
+- [V] "Trust your instincts. If something or someone makes you uneasy, avoid the person or leave."
+- [V] "If you are wearing headphones, don’t turn up the volume so high that you cannot hear outside noises."
+
+**Firearms Act 1968, s.5** (legislation.gov.uk, live, re-read 2026-09-25) [fa1968.txt]
+- [V] "5 Weapons subject to general prohibition. E+W+S"
+- [V] "(b) any weapon of whatever description designed or adapted for the discharge of any noxious liquid, gas or other thing;"
+
+**NCSC, "The problems with forcing regular password expiry"** [ncsc.txt]
+- [V] "However, in the Password Guidance published in 2015, we explicitly advised against it."
+
+**Support lines printed in lesson 6's content note, each re-read on its own page 2026-09-25** (G5)
+- Rape Crisis E&W [rcew.txt]: [V] "Call free on 0808 500 2222"; [V] "anyone aged 16+ in England and Wales"
+- Victim Support [vs.txt]: [V] "Call our Supportline free on 08 08 16 89 111 , 24/7"; About us [vsabout.txt]: [V] "regardless of whether they have reported the crime to the police or when it occurred"
+- Rape Crisis Scotland [rcs.txt]: [V] "Get in touch any day between 5pm – midnight:" then "Call: 08088 01 03 02"
+- Victim Support Scotland [vss.txt]: [V] "Support Helpline 0800 160 1985"; [V] "Call our free support helpline from 8am – 8pm Mon-Fri, and 10am – 4pm Sat-Sun"
+- Victim Support NI [vsni.txt, vsnic.txt]: [V] "We offer a free and confidential service, whether or not the crime has been reported"; [V] "02890 243133"; [V] "02871 370086"; [V] "Opening hours: Monday – Friday from 9am-5pm"
+- Rape Crisis NI [rcni.txt]: [V] "0800 0246 991" "Information & Support Line" "Monday to Thursday, 6pm – 8pm" (the page still also gives "10am – 12noon + 6pm – 8pm" elsewhere; print no hours)
+- VictimConnect [vc.txt]: [V] "Call or Text 855-484-2846"; [V] "We can only talk, text, or chat with you if you are currently physically safe."
+- RAINN [rainn-browser.txt, in-app browser]: [V] "RAINN’s National Sexual Assault Hotline offers free, confidential, 24/7 support in English and en Español."; [V] "Call 800.656.HOPE (4673)"
+
+**Senn and colleagues 2017, "Secondary and 2-Year Outcomes of a Sexual Assault Resistance Program
+for University Women"** (*Psychology of Women Quarterly*, PMC5821219, full text re-read 2026-09-25;
+SOURCES Part C §4.2)
+- [V] "Some feminist scholars (e.g., Basile, 2008, as well as one of the reviewers for this article) have suggested that resistance education for women is misguided, in that perpetrators may simply move on to another woman. In other words, these critics suggest that sexual assault is prevented for the individual woman who resists, but that this would not necessarily reduce rates of sexual assault in the community overall."
+- [V] "We, along with other feminist scholars (e.g., Hollander, 2016), suspect that perpetrators may learn important lessons that then have an impact on their subsequent behavior"
