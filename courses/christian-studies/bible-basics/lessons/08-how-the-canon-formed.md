@@ -1,6 +1,7 @@
 ---
 title: How the canon formed, and why Catholic and Orthodox Bibles have more books
 minutes: 130
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/christian-studies/bible-basics/08-how-the-canon-formed.mp3
 objectives:
   - Explain how the Jewish canon reached the shape Christians inherited, and say which parts of that story are settled and which are argued
   - Walk the dated witnesses for the New Testament canon in order, and say what each one shows

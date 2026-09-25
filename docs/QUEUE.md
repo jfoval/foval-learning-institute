@@ -28,10 +28,12 @@ Rewrite these five lines each session. Nothing else goes in this block.
   The review briefs (Reviewer F, Reviewer P, fix pass) are the same shape as
   `strength-and-fitness/research/pipeline-briefs.md`. Ten gates were closed in a real browser on
   2026-09-24 (end of `SOURCES.md`); the publishers' pages open in the in-app browser.
-  **The September Gemini cap is spent**: a render of Bible Basics 8 on 2026-09-24 was refused by
-  Google ("exceeded its monthly spending cap"), billed nothing. **38 episodes are owed**, about
-  $7.60: Bible Basics 8 to 12, Cooking 12, Nutrition 11, Strength 10. They render when John raises
-  the cap at ai.studio/spend.
+  **Google is accepting renders again** (2026-09-24, later the same day): Bible Basics 8 rendered,
+  uploaded and stamped for $0.24, so John raised the cap. `scripts/podcast/budget.json` still says
+  $56 and `npm run state` therefore reports the cap as spent; **John: put the new cap from
+  aistudio.google.com/spend into budget.json** (the page needs his sign-in). Until then a session
+  renders in Core term order by hand and stops at the first refusal. Episodes still owed: Bible
+  Basics 9 to 12, Cooking 12, Nutrition 11, Strength 10.
 
   **What John's ear settled on 2026-09-25, which changes how a render is judged.** The engine
   sometimes gives one of John's lines to Haley. The per-window speaker share cannot be trusted to
