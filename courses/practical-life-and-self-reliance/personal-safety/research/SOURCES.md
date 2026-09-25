@@ -3531,3 +3531,283 @@ it must carry First Aid lesson 16's suicide-crisis footer word for word.
    May 2026; the NY statute is the 2024-09-06 revision; the CPS self-defence guidance is only
    available as a 2024 capture. Re-read at drafting.
 
+## Gate closures G6, G27, G28 (2026-09-25)
+
+*Read on 2026-09-25 for OUTLINE gates G6, G27 and G28. Every page below was fetched with curl
+(browser User-Agent) and stripped of HTML, except where "in-app browser" or a capture is named.
+Raw copies are in the session scratchpad (`ps-gates/`), which is not kept; the URL and date here
+are the record. All quotations are [V] in this file's convention, copied from the extracted text,
+spelling and punctuation as the page has them (including the pages' own en dashes and typos).
+Nothing here is from a search snippet.*
+
+### G6: which nations each line serves, and the lines for each nation
+
+**England and Wales lines, and what their own pages say about coverage**
+
+- **National Domestic Abuse Helpline (Refuge).** nationaldahelpline.org.uk (home, "How we can
+  support you", "What is abuse?", "Chat to us online") and
+  refuge.org.uk/i-need-help-now/how-we-can-help-you/national-domestic-abuse-helpline/. Read in
+  full. **Neither site names a nation it serves.** Who: "The National Domestic Abuse Helpline is
+  for women experiencing any kind of domestic abuse and concerned friends, family and colleagues
+  looking to support someone who may be experiencing domestic abuse." [V] Number and hours: "Call
+  for free and in confidence, 24 hours a day: 0808 2000 247." [V]; "The National Domestic Abuse
+  Helpline is open 24 hours a day and every day of the year." [V] Chat: "Monday to Friday
+  10am-10pm and 10am-6pm on weekends" [V] (Refuge's page; one line on the same page says only
+  "Monday-Friday 10am-10pm"). BSL: "Monday to Friday, 10am – 6pm." [V] Staff: "We are a team of
+  highly-trained, female advisers" and "We won't judge you or tell you what to do" [V]. On men:
+  "We recognise that men can experience domestic abuse too. ... There are specialist services to
+  support men." [V] The nation is supplied only by GOV.UK (below), which lists it for **England**.
+- **Men's Advice Line (Respect).** mensadviceline.org.uk (home, About us, Contact us, What to
+  expect, Information Hub). Read in full. "Freephone 0808 8010327 (Mon–Fri 10am–5pm) | Webchat
+  (Mon–Fri 9am–10am)" [V]; Contact page: "0808 8010327 / Monday–Friday 10am-5pm / Free from
+  landlines and mobile phones within the UK." [V] Webchat "Monday-Friday 9-10am" [V] (the hour is
+  as printed, on three pages). Who: "for men including anyone who identifies as trans and
+  non-binary, who are experiencing or have experienced domestic abuse, and for those supporting
+  them: concerned friends or family members, Frontline Workers" [V]; "No one has to prove that
+  they are a victim to get a service." [V] Coverage: the site states no service area in words, but
+  its Hub lists services "across the UK" with Scotland, Wales and Northern Ireland as regions, and
+  "Men's Advice Line is funded by the Home Office, Government of Scotland, Scottish Women's Aid and
+  London Councils." [V] GOV.UK lists it as **UK-wide** (below).
+- **National Stalking Helpline (Suzy Lamplugh Trust).** suzylamplugh.org/how-can-the-helpline-help
+  (updated 7 September 2026). Read in full. Coverage, verbatim with the page's own slip: "The Suzy
+  Lamplugh is funded offer both a pan London service and also a National service for victims in
+  England and Wales." [V] **England and Wales only.** Hours: "09:30 - 20:00, Monday and Wednesday /
+  09:30 - 16:00, Tuesday, Thursday, Friday" [V] (no weekend). "Freephone: 0808 802 0300 ( Press 1
+  for Nationally, Press 2 for London)" [V]. Who: "victims of stalking, their friends, family, and
+  professionals working with victims." [V] "What happens when I contact the helpline?" read in
+  full: the adviser "will ask you if you have been to the police" and "you can then decide what
+  next steps you wish to take." [V]
+- **Rape Crisis England & Wales, 24/7 Rape & Sexual Abuse Support Line.**
+  rapecrisis.org.uk/get-help/want-to-talk/. Read in full. "Our 24/7 Rape & Sexual Abuse Support
+  Line is open 24 hours a day, every day of the year: / Call free on 0808 500 2222" [V]; "A free
+  phone and online chat service for anyone aged 16+ in England and Wales who has been affected by
+  rape, child sexual abuse, sexual assault, sexual harassment or any other form of sexual
+  violence." [V] "Our Support Line is not an emergency service." [V] **England and Wales, 16+.**
+- **Victim Support.** victimsupport.org.uk home (re-read; Part D §8.3 read three pages). "Victim
+  Support is an independent charity dedicated to supporting victims of crime and traumatic
+  incidents in England and Wales." [V] "call our Supportline on 08 08 16 89 111. Both are free and
+  operate 24/7." [V] Its support form offers only England and Wales and says "For support for
+  Scotland, excluding terrorism, please visit the Victim Support Scotland website" [V].
+  **England and Wales.**
+
+**A second listing, for cross-checking only.** GOV.UK, "Domestic abuse: how to get help"
+(content API, public_updated_at 2025-04-29). Its table, verbatim by row: "England / Refuge's
+National Domestic Abuse Helpline / 0808 2000 247"; "Northern Ireland / Domestic and Sexual Abuse
+Helpline / 0808 802 1414"; "Scotland / Domestic Abuse and Forced Marriage Helpline / 0800 027
+1234"; "Wales / Live Fear Free / ... Welsh Government funded, 24 hour, 365 day service ... / 0808 80
+10 100"; "UK-wide / The Men's Advice Line run by Respect ... 0808 801 0327". [V, table] **Conflict:
+GOV.UK gives Live Fear Free as 0808 80 10 100; the Welsh Government's own Live Fear Free pages give
+0808 80 10 800.** The service's own page wins; do not print GOV.UK's number.
+
+**Scotland**
+
+- **Scotland's Domestic Abuse and Forced Marriage Helpline.** sdafmh.org.uk (home). Read in full.
+  "0800 027 1234" and "Text / WhatsApp: 07401288595", "helpline@sdafmh.org.uk", chat. [V] "Support
+  is available 24 hours a day, 7 days a week on Scotland's Domestic Abuse and Forced Marriage
+  Helpline." [V] Who: "Our helpline is here to support anyone experiencing domestic abuse or forced
+  marriage, as well as their family members, friends, colleagues and professionals who support
+  them." [V] Deaf access: "you can call us using a text relay service such as Relay UK. British Sign
+  Language (BSL) users can contact us through Contact Scotland BSL." [V] "The Helpline service is
+  commissioned by the Scottish Government." [V] Men and women both named in its "Who is affected?"
+  menu. [V, headings]
+- **Action Against Stalking** (Scotland). actionagainststalking.org (home, Get Support, Contact).
+  "Need help? Call our helpline at 0800 820 2427" [V]; "Action Against Stalking is here to help
+  anyone in the UK affected by the crime of stalking." [V]; "Action Against Stalking is Scotland's
+  only charity dedicated exclusively to supporting the victims of stalking, and we work UK-wide and
+  internationally." [V] **The Contact page says of the freephone: "Please note, this is a
+  voicemail-only service. Leave a message and our team will get back to you." [V]** Opening times
+  "Mon – Fri 9:00 am – 5:00 pm" [V]. A lesson must say it is voicemail, not a live line.
+- **Rape Crisis Scotland helpline.** rapecrisisscotland.org.uk/help-helpline/. Read in full. "Get
+  in touch any day between 5pm – midnight: / Call: 08088 01 03 02 / Text: 07537 410 027 / Email:
+  support@rapecrisisscotland.org.uk" [V]; "We support people of all genders living in Scotland
+  aged 13+ who have been affected by sexual violence." [V] Texts "will be charged at your normal
+  network rate" [V]. (This also closes the Rape Crisis Scotland half of G8.)
+- **Victim Support Scotland.** victimsupport.scot (home). Read in full. "Support Helpline 0800 160
+  1985" [V]; "Call our free support helpline from 8am – 8pm Mon-Fri, and 10am – 4pm Sat-Sun" [V];
+  chat the same hours [V]. "We are a national organisation serving all of Scotland" [V]. Not 24/7.
+  (Part D's "failed to connect" is superseded: the site is now victimsupport.scot.)
+
+**Wales**
+
+- **Live Fear Free (Welsh Government).** gov.wales/live-fear-free, /contact-live-fear-free,
+  /domestic-abuse-wales. Read in full. "Call: 0808 80 10 800 / Croesawir galwadau yn Gymraeg /
+  Calls are welcomed in Welsh. / Available 24 hours a day 7 days a week." [V] "Text: 07860077333"
+  and "Email: info@livefearfreehelpline.wales", each "Available 24 hours a day 7 days a week", and
+  live chat the same. [V] Who: "anyone experiencing domestic abuse or sexual violence / anyone who
+  knows someone who needs help. For example, a friend, family member or colleague / practitioners
+  seeking professional advice." [V] The pages do not state a service area in words beyond being
+  the Welsh Government's; "The Helpline is open 24 hours and can put you in touch with safe,
+  emergency accommodation through a national network of refuges across Wales and the UK." [V]
+  Also: "There are refuges for Women and Men in Wales." [V]
+- Wales is also served by the England and Wales lines above (National Stalking Helpline, Rape
+  Crisis England & Wales, Victim Support), each by its own page.
+
+**Northern Ireland**
+
+- **Domestic and Sexual Abuse Helpline.** dsahelpline.org (home). Read in full. "The Domestic and
+  Sexual Abuse Helpline provides information, advice and support to those impacted by domestic and
+  sexual abuse across Northern Ireland." [V] "The DSA helpline is a free, confidential service for
+  anyone aged 18+, providing 24/7, 365-day support." [V] "Call us for FREE / 0808 802 1414", "Email
+  us / help@dsahelpline.org", "24/7 Live chat" [V]. **18+ only.**
+- **Rape Crisis Northern Ireland.** rapecrisisni.org.uk (home). Read in full. "0800 0246 991 /
+  Information & Support Line" [V]. The page gives two sets of hours: "Freephone Monday to Thursday,
+  10am – 12noon + 6pm – 8pm" and, under Contact Us, "Monday to Thursday, 6pm – 8pm" [V]; and says
+  it serves "anyone who is 16 and over and has experienced serious sexual assault and rape in
+  adulthood" [V], where Rape Crisis England & Wales's page describes it as for "anyone aged 18 and
+  over" [V]. Print the number only with "check the page for hours"; do not state an age.
+- **Victim Support NI.** victimsupportni.com (home; About us > Contact us). Read in full. "We offer
+  a free and confidential service, whether or not the crime has been reported, regardless of how
+  long ago the crime took place." [V] No single helpline: "please choose the number of the Hub
+  closest to you, in Belfast or Foyle" [V]; Belfast "02890 243133", Foyle "02871 370086", each
+  "Opening hours: Monday – Friday from 9am-5pm" [V].
+- **No Northern Ireland stalking line was found.** The National Stalking Helpline's page names
+  England and Wales only; Action Against Stalking says it helps "anyone in the UK" but its line is
+  voicemail.
+
+**United States**
+
+- **RAINN.** rainn.org (home), curl 403, read in the in-app browser (page text of `<main>`).
+  "RAINN's National Sexual Assault Hotline offers free, confidential, 24/7 support in English and
+  en Español. / Call 800.656.HOPE (4673) / Chat at RAINN.org/hotline / Text "HOPE" to 64673" [V]
+  (the page's straight quotes). Also a Signal channel, "end-to-end encrypted messaging, 24/7" [V].
+  (This closes the RAINN half of G8.)
+- **National Domestic Violence Hotline.** thehotline.org (home; "Understand Relationship Abuse").
+  Re-read. "Call / 1.800.799.SAFE (7233)", "Chat live now", "Text "START" to 88788" [V]; "Free.
+  Confidential. 24/7." [V]; "Our advocates are available 24/7 by phone and live chat" [V] (the
+  page does not state text-line hours separately). Also: StrongHearts "844.762.8483 | Helpline for
+  Native Americans and Alaska Natives"; National Teen Dating Abuse Helpline "866.331.9474"; The
+  Deaf Hotline "Video phone: 855.812.1001" [V]. "Due to high demand, you may experience longer wait
+  times to connect with a live advocate." [V] "Please contact 911 if you feel like you are in
+  immediate danger" [V].
+- SPARC's "What to do if you are being stalked" page (read in full) lists "VictimConnect",
+  "National Domestic Violence Hotline" and "Rape, Abuse & Incest National Network" [V] and says
+  "SPARC DOES NOT PROVIDE DIRECT SERVICES TO VICTIMS OF STALKING." [V]
+
+**G6: closed.** What a lesson may say: each line with the number, hours and who it serves exactly
+as above, and each nation as its own page gives it: National Stalking Helpline, Rape Crisis England
+& Wales and Victim Support for England and Wales; Live Fear Free for Wales (0808 80 10 800, 24/7);
+Scotland's Domestic Abuse and Forced Marriage Helpline (24/7), Rape Crisis Scotland (5pm to
+midnight, 13+) and Victim Support Scotland for Scotland; the DSA Helpline (24/7, 18+) and Victim
+Support NI for Northern Ireland; the Men's Advice Line as "free from anywhere in the UK" (its words:
+"Free from landlines and mobile phones within the UK"), weekdays 10 to 5. What a lesson may not
+say: **that the National Domestic Abuse Helpline serves any particular nation on Refuge's
+authority** (Refuge's pages do not say; if a nation is given, cite GOV.UK's table, which puts it
+under England); GOV.UK's Live Fear Free number; that the Men's Advice Line or the National Stalking
+Helpline is 24-hour; that Action Against Stalking's line is answered live; any Rape Crisis NI age
+or hours. Lesson 7 says plainly that the course found no stalking-specific line for Northern
+Ireland and points there to the DSA Helpline (if the stalker is a partner or ex-partner), Victim
+Support NI and 999. Re-read every number within the week before publishing (G5).
+
+### G27: the services' own descriptions of domestic abuse and stalking
+
+- **Refuge**, refuge.org.uk/what-is-domestic-abuse/. Read in full. "Domestic abuse (sometimes
+  called 'domestic violence' or 'intimate partner violence') is an incident or a pattern of
+  behaviour that is used by someone to control or obtain power over their partner or ex-partner.
+  It is never the fault of the person who is experiencing it, and it is a crime." [V] "A common
+  myth is that it's only domestic abuse if it involves physical or sexual violence. In fact, many
+  women experience domestic abuse without ever being physically harmed." [V] **Forms it names**,
+  verbatim as a list: "Emotional abuse, including gaslighting / Coercive control / Physical abuse /
+  Tech abuse / Economic abuse / Sexual abuse" [V, headings]. "Domestic abuse can happen to anyone,
+  regardless of age, background, gender identity, sex, religion, sexual orientation or ethnicity.
+  However, statistics show most domestic abuse is carried out by men and experienced by women." [V]
+  The Helpline site's "What is abuse?" adds: "Anyone forced to change their behaviour because they
+  are frightened of their partner or ex-partner's reaction is experiencing abuse." [V] Its home
+  page asks: "Do you change your behaviour because you are frightened of your partner's reaction?
+  / Is your partner jealous or possessive? / Do you feel like you're walking on eggshells? / Do you
+  feel controlled, or isolated?" [V]
+- **National Domestic Violence Hotline (US)**, thehotline.org/identify-abuse/understand-
+  relationship-abuse/ and /resources/types-of-abuse/. Read in full. "Domestic violence (also
+  referred to as intimate partner violence (IPV), dating abuse, or relationship abuse) is a pattern
+  of behaviors used by one partner to maintain power and control over another partner in an
+  intimate relationship." [V] "Anyone can be a victim — or perpetrator — of domestic violence."
+  [V] (The Hotline's own em dashes; a lesson paraphrasing it must not carry them.) "Multiple forms
+  of abuse are usually present at the same time in abusive situations" [V]. **Forms it names**
+  (section headings of "Types of Abuse"): "Physical abuse", "Emotional abuse", "Sexual abuse",
+  "Financial abuse", "Technology-facilitated abuse", "Sexual coercion", "Reproductive coercion",
+  "Stalking", "Spiritual abuse" [V, headings]. On emotional abuse: "non-physical behaviors that are
+  meant to control, isolate, or frighten someone" [V], including "Monitoring your activities with
+  or without your knowledge, including demanding to know where you go, who you contact, and how you
+  spend your time." [V] Technology-facilitated abuse is "the use of technology ... to bully, harass,
+  stalk, intimidate, or control a partner." [V] Stalking: "Stalking occurs when someone watches,
+  follows, or harasses you repeatedly, making you feel afraid or unsafe, and may occur from someone
+  you know, a past partner, or a stranger." [V] Its examples include "Showing up at your home or
+  workplace unannounced or uninvited", "Using social media or technology to track your activities"
+  and "Waiting around at places you spend time." [V]
+- **National Stalking Helpline / Suzy Lamplugh Trust**, suzylamplugh.org/what-is-stalking. Read
+  in full. "Stalking is a pattern of repeated, unwanted behaviour that causes you to feel
+  distressed or scared. It can be perpetrated by men or women." [V] "Suzy Lamplugh Trust defines
+  stalking as 'A pattern of fixated and obsessive behaviour which is repeated, persistent,
+  intrusive and causes fear of violence or engenders alarm and distress in the victim.'" [V]
+  "Stalking can happen with or without a fear of violence." [V] **Forms it names**: "Stalking can
+  consist of any type of behaviour such as regularly sending flowers or gifts, making unwanted or
+  malicious communication, damaging property and physical or sexual assault." [V] On who stalks:
+  "About 45% of people who contact the Helpline are being stalked by ex-intimates (i.e. ex
+  partners) and a further third have had some sort of prior acquaintance with their stalker" [V]
+  (Helpline caller data, not a population figure).
+- **SPARC (US)**, stalkingawareness.org/stalking-behaviors/ (the old /what-is-stalking/ URL now
+  404s). Read in full. "SPARC categorizes stalking behaviors into SLII strategies: Surveillance,
+  Life Invasion, Intimidation, and Interference through sabotage or attack." [V] "victims are
+  unlikely to use the words 'stalking' or 'harassment' when talking about their situation" [V];
+  "most stalkers engage in multiple tactics to scare their victims." [V] Its victims' page:
+  "Stalkers' behaviors can escalate from more indirect ways of making contact (like phone calls or
+  texts) to more direct contact (like delivering gifts or showing up where you are)." [V] SPARC's
+  pages read give no one-sentence definition of stalking; do not attribute one to it.
+
+**G27: closed.** A lesson may list the forms each service names, attributed to that service
+(Refuge's six; the Hotline's nine; the Suzy Lamplugh Trust's definition and examples; SPARC's four
+SLII categories), and may teach that both Refuge and the Hotline define abuse as a pattern of power
+and control that need not be physical. It may not merge the lists into one unattributed list as if
+standard, attribute a stalking definition to SPARC, or present the Helpline's 45% ex-partner share
+as a population rate.
+
+### G28: the 5Ds, each D's description
+
+- **Right To Be, "The 5Ds of Bystander Intervention"**,
+  righttobe.org/guides/bystander-intervention-training/. curl 403; **read live in the in-app
+  browser** (page text) and checked against Internet Archive capture 20260827212950 (curl, read in
+  full). The passages below are identical in both.
+  - The set: "The 5Ds of Bystander Intervention are different methods – Distract, Delegate,
+    Document, Delay, and Direct – that you can use to support someone who's being harassed,
+    emphasize that harassment is not okay, and demonstrate to people in your life that they have
+    the power to make their community safer." [V] "They are designed to be safe and not to escalate
+    situations. In fact, four of them are indirect methods of intervention." [V]
+  - **Distract**: "Distraction is a subtle and creative way to intervene. Its aim is simply to
+    derail the incident of harassment by interrupting it." Keys: "1. Ignore the person who is
+    harassing, and engage directly with the person who is being harassed. 2. Don't talk about or
+    refer to the harassment that's happening. Instead, talk about something completely
+    unrelated." [V] Examples include "Pretend to be lost and ask the person being harassed to give
+    you directions" and "Get in the way." [V]
+  - **Delegate**: "Delegation is asking a third party for help with intervening in harassment."
+    Keys: "1. Look for a Delegate who is ready and willing to help. Often, a great choice is the
+    person right next to you. 2. When you Delegate someone to help you, try to tell them as clearly
+    as possible what you're witnessing and how you'd like them to help." [V] "In public places,
+    your Delegate could be someone who has authority in the space: a store supervisor, bus driver,
+    or a transit employee." [V] Police: "you should not contact the police unless you've checked
+    with the person being harassed and they've explicitly asked you to call the police on their
+    behalf." [V] (Neutrality flag in Part C §6 stands.)
+  - **Document**: "Documentation involves either recording or taking notes on an instance of
+    harassment." Keys: "1. Assess the situation. Is anyone helping the person being harassed? If
+    not, use another of the 5Ds." and "2. ALWAYS ask the person who was harassed what they want to
+    do with your recording and/or notes. NEVER post it online or use it without their permission."
+    [V]
+  - **Delay**: "Even if we can't act in the moment, we can still make a difference for someone
+    who's been harassed by checking in on them after the fact." [V] Examples: "Ask them if they're
+    okay, and let them know you saw what happened and it wasn't okay." "Offer to accompany them to
+    their destination or sit with them for a while." [V]
+  - **Direct**: "Sometimes, we may want to respond directly to harassment by naming the
+    inappropriate behavior confronting the person doing harm." [V] "Use this one with caution,
+    because Direct intervention can be risky – the person harassing may redirect their abuse
+    towards the intervening bystander, or may escalate the situation in another way." [V] The four
+    questions: "1. Are you physically safe? 2. Is the person being harassed physically safe? 3.
+    Does it seem unlikely that the situation will escalate? 4. Can you tell if the person being
+    harassed wants someone to speak up?" and "If you can answer yes to all of these questions, you
+    might choose a direct response." [V] "The second key to Direct intervention is to keep it short
+    and succinct." [V] Examples: "Leave them alone." and "Please stop right now." [V]
+  - "A note about safety: We don't ever want you to get hurt while trying to help someone out.
+    Always prioritize safety" [V].
+
+**G28: closed.** Lesson 9 may teach each D in Right To Be's words above, attributed, with the
+page's own examples. It may not present the 5Ds as evaluated (no controlled evaluation was found,
+Part C §6), present Right To Be's police position in the course's voice, or call Direct unsafe or
+safe in general: the page's own four questions carry that.
+
