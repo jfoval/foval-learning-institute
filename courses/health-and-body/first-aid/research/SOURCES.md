@@ -1341,18 +1341,18 @@ All sources agree: do not pull it out; pad or press around it (NHS, St John, bot
 
 - AHA/ARC 2024 (S1 §9.7): **no published first aid studies found; all recommendations C-EO.** Rec 1 (COR 1): open fracture with severe bleeding, follow the bleeding recommendations. Rec 2 (COR 1): "If a fractured extremity is blue, purple, or pale, the emergency response system should be activated immediately." [V] Rec 3 (2a): splinting "can be useful to reduce pain, reduce risk for further injury, and facilitate transport" [V]. Rec 4 (2b): treat a deformed limb "in the position found unless straightening the fracture is necessary to facilitate safe and prompt transport" [V]. Rec 5 (2b): cover open wounds with a clean dressing.
 - British Red Cross (S15): support above and below the injury with hands, cushion or clothing; "Never attempt to put dislocations back in place" [V]. St John (S14): hold the joint above and below; remove rings and watches; pad; sling for arms, broad-fold bandages for legs; 999 for open fractures, long bones, suspected back, neck or pelvis. NHS broken arm (S13): towel as a sling; ice pack wrapped "for up to 20 minutes every 2 to 3 hours" [V]; remove jewellery.
-- Movement test myth: British Red Cross and American Red Cross both say being able to move or stand on a limb does not rule out a fracture; only an X-ray can.
+- Movement test myth: British Red Cross and American Red Cross both say being able to move or stand on a limb does not rule out a fracture; only an X-ray can. *(Made precise 2026-09-25: British Red Cross "The only accurate way to diagnose a broken bone is to X-ray it." [V]; American Red Cross "An X-ray is usually required to diagnose a broken bone." [V])*
 
 #### 6.2 Sprains and strains: RICE, PRICE, POLICE, PEACE & LOVE
 
-- AHA/ARC 2024 (S1 §9.6): rec 1 (COR 1, C-EO): avoid painful activity, seek medical attention. Rec 2 (2a, C-LD): "apply cold (such as with ice and water surrounded by a damp cloth) to an acute sprain or strain for pain and swelling. Cold application should be limited to 20 to 30 minutes per application without direct contact on the skin" [V]. Supportive: cold improves pain but "has not been demonstrated to improve function or time to recovery" [V]; best cooling from a bag of ice and water in a damp cloth; experts suggest 20 to 30 minutes, 3 to 4 times daily. Rec 3 (2b, C-LD): compression wrap for comfort after ankle sprain, without compromising circulation; compression "did not reduce swelling or pain" in recovery in a systematic review [V].
+- AHA/ARC 2024 (S1 §9.6): rec 1 (COR 1, C-EO): avoid painful activity, seek medical attention. Rec 2 (2a, C-LD): "apply cold (such as with ice and water surrounded by a damp cloth) to an acute sprain or strain for pain and swelling. Cold application should be limited to 20 to 30 minutes per application without direct contact on the skin to avoid cold injury." [V] *(corrected 2026-09-25, lesson 11 Stage 4: the sentence was trimmed before "to avoid cold injury")*. Supportive: cold improves pain but "has not been demonstrated to improve function or time to recovery" [V]; best cooling from a bag of ice and water in a damp cloth; "Experts recommend limiting the duration of cold application to 20 to 30 minutes for 3 to 4 times daily." [V] Rec 3 (2b, C-LD): compression wrap for comfort after ankle sprain, without compromising circulation; compression "did not reduce swelling or pain" in recovery in a systematic review [V].
 - ILCOR (S5, 2019 rec, evidence update 2025 found no new studies): "We suggest either application of a compression bandage or no application of a compression bandage for adults with an acute closed ankle joint injury (weak recommendation, very low–certainty evidence)." [V]
 - NHS (S13): PRICE for the first 2 to 3 days (Protection, Rest, Ice "for up to 20 minutes every 2 to 3 hours" [V], Compression, Elevate); avoid heat, alcohol and massage for the first couple of days; paracetamol first, ibuprofen gel, then ibuprofen tablets if needed.
 - St John (S14): RICE (Rest, Ice max 20 minutes, Comfortable support, Elevate); paracetamol or ibuprofen, no aspirin under 16.
 - British Red Cross (S15): RICE; but "Apply the ice pack to the injury for no more than 10 minutes. Anything over 10 minutes can cause further damage." [V]
 - American Red Cross (S16): cold pack in a thin towel "for no more than 20 minutes" then wait 20 minutes [V]; heat for an acute injury "is a myth" [V].
 - **Ice duration across sources: 10 minutes max (British Red Cross), 20 minutes max (St John, NHS, American Red Cross), 20 to 30 minutes (AHA/ARC guideline).** A lesson should give the guideline range and say sources differ; never ice directly on skin.
-- PEACE & LOVE (S27), an editorial by two physiotherapists, not a guideline: acronyms evolved "from ICE to RICE, then on to PRICE and POLICE" [V]. PEACE (first days): Protect, Elevate, Avoid anti-inflammatories, Compress, Educate. LOVE (after): Load, Optimism, Vascularisation, Exercise. On NSAIDs: "Standard of care for soft-tissue injuries should not include anti-inflammatory medications." [V] On ice: "there is no high-quality evidence on the efficacy of ice for treating soft-tissue injuries" [V] and it "could potentially disrupt inflammation" [V]. Rest should be minimised; protection 1 to 3 days.
+- PEACE & LOVE (S27), an editorial by two physiotherapists, not a guideline: acronyms evolved "from ICE to RICE, then on to PRICE and POLICE" [V]. PEACE (first days): Protect, Elevate, Avoid anti-inflammatories, Compress, Educate. LOVE (after): Load, Optimism, Vascularisation, Exercise. On NSAIDs: "While anti-inflammatories show benefits on pain and function, our acronyms flag their potential harmful effects on optimal tissue repair." [V] *(concession added 2026-09-25, lesson 11 Stage 4)* and "Standard of care for soft-tissue injuries should not include anti-inflammatory medications." [V] On ice: "there is no high-quality evidence on the efficacy of ice for treating soft-tissue injuries" [V] and it "could potentially disrupt inflammation" [V]. Rest should be minimised; protection 1 to 3 days.
 - **NSAIDs debate:** NHS (S13) recommends ibuprofen gel and, if needed, tablets for sprains; St John offers ibuprofen; AHA 2024 does not address NSAIDs for sprains; Dubois and Esculier argue against routine anti-inflammatories. Classification: **Contested empirical** (short-term pain relief vs possible impaired healing). Ice for sprains: **Contested empirical** (helps pain, no shown benefit to recovery).
 
 ### 7. Head injury and concussion
@@ -1362,15 +1362,15 @@ All sources agree: do not pull it out; pad or press around it (NHS, St John, bot
 - NHS (S13) call 999 if, after hitting their head, someone: has been knocked out and not woken; cannot stay awake; has a seizure; "has fallen from a height of more than 1 metre or 5 stairs" [V]; vision or hearing problems; black eye without hitting the eye; clear fluid from ears or nose; bleeding from ears or bruising behind ears; new numbness or weakness; problems walking, balance, understanding, speaking or writing; high-speed injury; a head wound with something in it or a dent; a bruise, swelling or large cut and under 1 year old; changed behaviour. NHS 111 if vomiting, dizzy, on blood thinners, or intoxicated. At home: an adult should stay with them "for at least the first 24 hours" [V]; no contact sport "for at least 3 weeks" [V]; you do not need to keep them awake if tired; paracetamol for headache.
 - NICE NG232 (S28), 1.2.2: remote advice services should send an emergency ambulance for: unconsciousness or lack of full consciousness; any focal neurological deficit; suspected complex skull fracture or penetrating injury; any seizure; a high-energy head injury; or no other safe transport. 1.2.3 lists ED referral triggers including any loss of consciousness now recovered, amnesia, persistent headache, "any vomiting episodes since the injury" [V], previous brain surgery, bleeding or clotting disorders, anticoagulant or antiplatelet treatment "(except aspirin monotherapy)" [V], intoxication, safeguarding concerns, irritability or altered behaviour in under-5s. "High-energy head injury" includes "a fall from a height of more than 1 m or more than 5 stairs" [V], pedestrian struck, ejection, diving accident, high-speed collision, bicycle collision. NICE 1.2.1 says sources like St John Ambulance should encourage anyone with concerns after a head injury "to seek immediate medical advice" [V].
 - **Painkiller difference:** American Red Cross (S16): "Can I give them painkillers for their headache? No. Painkillers are not advised because they can mask the signs and symptoms of a serious head injury." [V] NHS (S13): paracetamol for headaches after a minor head injury at home. St John and British Red Cross: cold compress for swelling; British Red Cross: cold "for up to 20 minutes" [V]. Classification: practice difference, the NHS advice applies after assessment or where no red flags are present.
-- British Red Cross and St John: seek medical advice if over 65, previous brain injury or surgery, on blood thinners, drinking or on drugs, or no one to look after them.
+- British Red Cross and St John: seek medical advice if over 65, previous brain injury or surgery, on blood thinners, drinking or on drugs, or no one to look after them. *Made precise 2026-09-25 (lesson 11 Stage 4): both say over 65 (St John "over the age of 65", British Red Cross "They are over 65" [V]); the British Red Cross has "a previous brain injury", St John "previous brain surgery"; both have blood thinners, alcohol or drugs, and nobody to look after them. Reviewer F read St John's list as having no age; its live page has one. Also on the British Red Cross head page and not recorded before:* "If they become sleepy, vomit or seem confused, call 999." [V] *and* "Call 999 if you suspect they have concussion." [V]
 
 ### 8. Suspected spinal injury
 
 - AHA/ARC 2024 (S1 §9.4), intended for the general public: rec 1 (COR 1, C-EO): have the person "remain as still as possible (unless safety considerations warrant movement)" [V] and activate EMS. Rec 2 (COR **3: Harm**, C-LD): "We recommend against routine spinal immobilization for patients with penetrating trauma (eg, gunshot or knife wounds)." [V] Rec 3 (COR 3: Harm, C-LD): "We recommend against the routine use of rigid cervical collars and long spine boards for spinal immobilization by first aid providers." [V] Background: immobilisation practices "have been driven more by legal considerations and unproven theories than by concrete scientific or clinical evidence" [V]; deadoption by EMS "have not been associated with an increase in disabling spinal cord injuries" [V]; penetrating-trauma immobilisation associated with increased mortality. §5.1 rec 5 (positioning): a responsive, normally breathing injured person with a suspected neck, back, hip or pelvic injury "should be left in the position in which they were found ... unless the area is unsafe" [V].
-- ILCOR 2025 (S5): new scoping review of 66 studies; collars reduce neck movement "but lead to impaired respiratory and swallowing function as well as increased intracranial pressure" [V]; 5 studies found no difference in spinal cord injuries before and after spinal motion restriction protocols; self-extrication plus collar gave the least neck motion in simulated vehicle extrication. Retained 2015 treatment recommendation: "We suggest against the use of cervical collars by first aid providers (weak recommendation, very low–certainty evidence)." [V] Task force: selective use by trained first aid providers (ski patrols, lifeguards) under existing protocols is not precluded.
-- RCUK 2025 (S7): suspect after falls or dives from height, crush by machinery or heavy object, road traffic or sporting accident. "Minimise movement of the neck. If the person is awake and alert, encourage them to self-maintain their neck in a comfortable, stable position." [V] "Never force an uncooperative person into any position" [V]. Unresponsive on their back: kneel behind the head and use "the head or trapezius squeeze technique to maintain a neutral in-line position" [V]; "Airway opening, if required, always has priority over in-line immobilisation" [V]; jaw thrust. Face down: check airway; if it must be opened, log-roll with helpers keeping the neck in line. Specialised responders may use collars under their protocols.
-- St John (S14, April 2025): manual head support in neutral, with rolled blankets either side; "no matter how long it takes" [V]; jaw thrust if unresponsive; spinal recovery position if the airway cannot be maintained. American Red Cross (S16): tell them not to move; keep children in car seats; do not remove a helmet unless CPR is needed.
-- Myth, "never move someone with a neck injury no matter what": every source makes exceptions: scene danger (AHA, St John, American Red Cross), the airway (RCUK: airway has priority), CPR (American Red Cross, ERC lay brochure "Do not move the person unless they are in an unsafe situation" [V]). Unforced self-positioning by an alert person is now encouraged (RCUK).
+- ILCOR 2025 (S5): new scoping review of 66 studies; collars reduce neck movement "but lead to impaired respiratory and swallowing function as well as increased intracranial pressure" [V]; 5 studies found no difference in spinal cord injuries before and after spinal motion restriction protocols; self-extrication plus collar gave the least neck motion in simulated vehicle extrication. Retained 2015 treatment recommendation: "We suggest against the use of cervical collars by first aid providers (weak recommendation, very low–certainty evidence)." [V] Task force: selective use by trained first aid providers (ski patrols, lifeguards) under existing protocols is not precluded. *Corrected 2026-09-25 (lesson 11 Stage 4): that wording is the ilcor.org accepted manuscript's only. The typeset text says the task force "recognizes that trained first aid providers in selected circumstances (eg, ski patrols and lifeguards) might be capable of using cervical collars" but wants formal data synthesis first, and "Currently, the 2015 treatment recommendation remains unchanged." [V]. The "should not ... preclude trained first aid providers" sentence is in the ERC 2025 evidence text, reporting the task force's 2024 acknowledgement. Both in "Gate closures, lesson 11".*
+- RCUK 2025 (S7): suspect after falls or dives from height, crush by machinery or heavy object, road traffic or sporting accident. "Minimise movement of the neck. If the person is awake and alert, encourage them to self-maintain their neck in a comfortable, stable position." [V] "Never force an uncooperative person into any position, as this may exacerbate an injury." [V] *(corrected 2026-09-25, lesson 11 Stage 4: the reason was trimmed)*. Unresponsive on their back: kneel behind the head and use "the head or trapezius squeeze technique to maintain a neutral in-line position" [V]; "Airway opening, if required, always has priority over in-line immobilisation" [V]; jaw thrust. Face down: check airway; if it must be opened, log-roll with helpers keeping the neck in line. Specialised responders may use collars under their protocols.
+- St John (S14, April 2025): manual head support in neutral, with rolled blankets either side; "no matter how long it takes" [V]; jaw thrust if unresponsive; spinal recovery position if the airway cannot be maintained. Its list of causes includes "a collapsed rugby scrum" [V] *(added 2026-09-25)*. American Red Cross (S16): tell them not to move; keep children in car seats; do not remove a helmet unless CPR is needed. *Added 2026-09-25 (lesson 11 Stage 4):* "Have them remain in the position found unless you need to give CPR or cannot control bleeding." [V] (spinal page); the bone page's "Leave in position found unless you must move for safety, to perform CPR or to control bleeding." [V]; and both pages' starred sign lists, whose note says "Signs and symptoms with a * require immediate emergency medical treatment." [V] The spinal page stars, among others, "Significant cause of injury*", "Nausea or vomiting*" and "Damaged safety helmet*", and its mechanism list includes "Fall from a height greater than person’s own height" [V]. Wording in "Gate closures, lesson 11".
+- Myth, "never move someone with a neck injury no matter what": every source makes exceptions: scene danger (AHA, St John, American Red Cross, ERC lay brochure "Do not move the person unless they are in an unsafe situation" [V]), the airway (RCUK: airway has priority), CPR (American Red Cross; AHA supine for CPR). *(Corrected 2026-09-25, lesson 11 Stage 4: the ERC lay brochure line is about danger, not CPR.)* Unforced self-positioning by an alert person is now encouraged (RCUK).
 - Classification: collars by lay people, **Established** that they are not recommended (US COR 3: Harm; ILCOR weak against). Manual stabilisation technique details (head squeeze vs trapezius squeeze): expert consensus.
 
 ### 9. Eye injuries and knocked-out teeth (brief)
@@ -4897,3 +4897,164 @@ definition of the depth words its referral rule uses):
 **American Red Cross, mobile apps page (live, 2026-09-25)**
 
 - "Videos, interactive quizzes and simple step-by-step advice makes learning easy and engaging." [V]
+
+## Gate closures, lesson 11 (2026-09-25)
+
+*Appended by the lesson 11 Stage 4 fixer, append-only. Stage 4 Reviewer F fetched every primary
+below on 2026-09-25 (curl with a browser User-Agent and an HTML stripper; the ERC 2025 First Aid
+publisher page, the ILCOR 2025 typeset text at ahajournals.org and the two American Red Cross pages
+read in the browser pane, because curl got a 403 or the Red Cross maintenance page) and
+string-matched each line by script: 101 sentences, none missing. Tags: AHA = AHA/Red Cross 2024,
+Wayback 20260502024223; RCUK = RCUK 2025 first aid, live; ERC = ERC 2025 First Aid, publisher page;
+ILCOR = ILCOR 2025 First Aid, typeset; ARC = American Red Cross head-neck-spinal-injury and
+muscle-bone-joint-injury, live; NHSHEAD, NHSSPRAIN, NHSARM = NHS pages (reviewed 29 May 2025, 23
+April 2024, 26 May 2023); NICE = NG232 Recommendations; SJA* = St John pages, clinically reviewed
+28/04/2025; BRC* = British Red Cross pages; PEACE = Dubois and Esculier, Wayback 20241221192948. The
+ERC's "exits" is sic. [V] throughout: copied from that text. Nobody signed in to anything.*
+
+**Corrections made in place above, the same day** (drafting defect 26; the lesson 11 drafter found
+the first five and Reviewer F upheld each against the primary; F found the rest):
+- **Part B 8, ILCOR collars.** "Selective use by trained first aid providers ... is not precluded" is
+  the ilcor.org accepted manuscript's wording only. The typeset text has the task force's
+  "might be capable" sentence, wants formal data synthesis first, and says "Currently, the 2015
+  treatment recommendation remains unchanged." The "should not, however, preclude" sentence is the
+  ERC evidence text's report of the task force's 2024 acknowledgement.
+- **Part B 6.2, AHA §9.6 rec 2** was trimmed before "to avoid cold injury"; the supporting text's
+  "Experts recommend ... 3 to 4 times daily" is now verbatim.
+- **Part B 8, RCUK "Never force"** was trimmed before ", as this may exacerbate an injury."
+- **Part B 6.2, PEACE and LOVE** dropped its authors' concession on anti-inflammatories.
+- **Part B 8, American Red Cross** was recorded only as "tell them not to move"; the remain-in-
+  position lines and the starred emergency lists are now recorded.
+- **Part B 8, the ERC lay brochure's "unsafe situation" line** was filed under CPR; it is a danger
+  exception.
+- **Part B 7, British Red Cross head page:** its 999 lines for sleepiness, vomiting or confusion and
+  for suspected concussion were not recorded. **The St John and British Red Cross seek-advice lists**
+  are now split by body. Reviewer F said St John's list has no age; the live page (F's own saved
+  copy) has "they are over the age of 65", so the original merged line was right on age and only
+  imprecise on brain injury (British Red Cross) against brain surgery (St John).
+- **Part B 8, St John's causes** now record "a collapsed rugby scrum".
+- **Part B 6.1, the X-ray line** now carries each Red Cross's own words ("the only accurate way";
+  "usually required").
+- The airway-priority sentence is RCUK's, as Part B 8 already said; the ERC texts do not carry it.
+  No correction needed.
+
+**Reviewer F's 101 script-checked sentences:**
+
+- [AHA] "Cold application should be limited to 20 to 30 minutes per application without direct contact on the skin to avoid cold injury."
+- [AHA] "Experts recommend limiting the duration of cold application to 20 to 30 minutes for 3 to 4 times daily."
+- [AHA] "To prevent cold injury, ice should not be placed directly on the skin."
+- [AHA] "Cold application can acutely decrease pain and swelling in joint sprains and muscle strains."
+- [AHA] "In an RCT of 74 patients with sports-related soft tissue injury, cold therapy to soft tissue injuries improved pain scores at weeks 1, 2, and 4 after injury."
+- [AHA] "Often in the first aid setting, there is uncertainty about whether an injury is a sprain, strain, or a fracture; limiting use of the injured extremity avoids worsening the injury."
+- [AHA] "A person with a painful extremity injury that limits use should avoid activities that cause pain and seek medical attention."
+- [AHA] "First aid providers may consider applying a compression wrap after an acute ankle sprain or strain to promote comfort after an injury."
+- [AHA] "After an extensive literature review performed by the writing group in 2023, these recommendations were based on consensus from expert opinion because the search identified no published studies on caring for fractures in the first aid setting."
+- [AHA] "Fractures of a long bone such as the femur can cause severe external or internal bleeding, and open fractures (if the fractured bone disrupts the skin) are at high risk for infection."
+- [AHA] "Blue, purple, or pale extremities may indicate poor perfusion to the extremity, a limb-threatening injury for which professional medical care should be sought immediately."
+- [AHA] "Splinting of a fractured extremity can be useful to reduce pain, reduce risk for further injury, and facilitate transport to a medical facility."
+- [AHA] "It may be reasonable to treat a deformed fractured extremity in the position found unless straightening the fracture is necessary to facilitate safe and prompt transport to a medical facility."
+- [AHA] "Covering open wounds associated with a suspected fracture with a clean dressing may be useful to lower the risk for further contamination and infection."
+- [AHA] "Although reducing angulated fractures may reduce pain and improve blood flow, there are risks, including injury to nerves, blood vessels, and other soft tissue, as well as risk of converting a closed fracture to an open fracture."
+- [AHA] "No study evaluating whether first aid providers are able to perform fracture reduction safely could be found."
+- [AHA] "Strategies for spinal immobilization in patients with actual or potential spinal injuries have been used for decades because of concerns that movements associated with extrication and transportation could lead to worsening of original injury or additional new injury."
+- [AHA] "These recommendations are intended for the members of the general public providing first aid."
+- [AHA] "Appropriate exceptions may be made for first aid providers with additional training and special duties working in specific circumstances (eg, lifeguards treating a person with a diving injury)."
+- [AHA] "For a person with a suspected spinal injury, the first aid provider should have the person remain as still as possible (unless safety considerations warrant movement) and activate the emergency response system."
+- [AHA] "Having the injured person remain still may reduce the risk of worsening spinal cord or other injury while awaiting the arrival of EMS personnel."
+- [AHA] "A systematic review and meta-analysis found that routine spinal immobilization for penetrating trauma is associated with increased mortality and has not been shown to have a beneficial effect on mitigating neurological deficits."
+- [AHA] "Concussion is a type of mild traumatic brain injury that is caused by an action or injury that rapidly moves the head and brain back and forth."
+- [RCUK] "Suspect a cervical spine injury in a person who fell or dived from a height, was crushed by machinery or a heavy object or was involved in a road traffic or a sporting accident."
+- [RCUK] "Never force an uncooperative person into any position, as this may exacerbate an injury."
+- [RCUK] "If the person is unresponsive and lying on their back, kneel behind their head and immobilise their head and neck using the head or trapezius squeeze technique to maintain a neutral in-line position."
+- [RCUK] "Consider the need to open the person’s airway using the ‘jaw-thrust’ technique."
+- [RCUK] "Airway opening, if required, always has priority over in-line immobilisation; using a jaw thrust manoeuvre should maintain a neutral position of the neck."
+- [RCUK] "If the person is unresponsive and is lying face down, check if their airway is open and hold their neck in a stable position."
+- [RCUK] "If you need to open their airway, ask others to help you carefully roll them as a unit onto their back, while keeping their neck in line with their body and as stable as possible."
+- [RCUK] "People responding who have specialised training (e.g. lifeguard, mountain rescue) may consider the selective use of spinal motion restriction devices and collars using their existing protocols."
+- [RCUK] "Refer to a healthcare professional for assessment and further advice."
+- [ERC] "In cases of agonal breathing or trauma, do NOT move the person into the recovery position."
+- [ERC] "In unresponsive persons lying on their back, kneel behind their head and immobilise their head and neck using head or trapezius squeeze (Fig. 8)."
+- [ERC] "First aid responders with specialised training (e.g. ski patrol, lifeguard) may consider the selective use of spinal motion restriction using their existing protocols."
+- [ERC] "In 2024, the ILCOR First Aid Task Force acknowledged that this treatment recommendation should not, however, preclude trained first aid providers (e.g. lifeguards treating a person with a diving injury) from using spinal motion restriction devices (such as cervical collars) in accordance with existing local spinal motion restriction protocols."
+- [ERC] "Head injury is important to recognise because if the primary injury is missed it can lead to secondary brain injury and a worse outcome."
+- [ERC] "Concussion is difficult to recognise because of the complexity of the symptoms and signs and the variation from immediate to delayed onset."
+- [ERC] "Furthermore, no consensus definition of concussion exits despite extensive work on finding such."
+- [ERC] "The ERC recommends that persons with a suspected concussion of any cause, be removed from physical activities and seek immediate medical review."
+- [ILCOR] "Spinal Motion Restriction for Possible Traumatic Cervical Spinal Injury (FA 7311, FA 7312, FA 1547, ScopRev 2025)"
+- [ILCOR] "Most of the evidence comes from experimental studies in healthy young adult volunteers or human cadavers."
+- [ILCOR] "Therefore, the findings may not be generalizable to adults and children with possible traumatic cervical spine injury."
+- [ILCOR] "The task force recognizes that trained first aid providers in selected circumstances (eg, ski patrols and lifeguards) might be capable of using cervical collars but concluded that formal data synthesis and determination of the certainty of the vast evidence base is required to confidently withdraw the existing treatment recommendation or to formulate any further treatment recommendation or good practice statement."
+- [ILCOR] "A future systematic review of protocol-based selective spinal motion restriction may provide additional evidence for a good practice statement."
+- [ILCOR] "Currently, the 2015 treatment recommendation remains unchanged."
+- [ILCOR] "Due to a lack of identified evidence, we are unable to recommend for or against use of a compression bandage for closed joint injuries on other joints besides the ankle."
+- [NHSHEAD] "hit their head at high speed, such as in a road accident"
+- [NHSHEAD] "has a bruise, swelling or large cut on their head and they are under 1 year old"
+- [NHSHEAD] "Call 111 if you need advice for a child under 5 years old."
+- [NHSHEAD] "If you or your child have been sent home from hospital with a minor head injury, or do not need to go to hospital, you can usually look after yourself or your child at home."
+- [NHSHEAD] "take painkillers such as paracetamol for headaches"
+- [NHSHEAD] "If you’re told to go to A&E, do not drive yourself there if you have hit your head."
+- [NICE] "Remote advice services (for example, NHS 111) should refer people who have sustained a head injury to a hospital emergency department if there are any of these risk factors"
+- [NICE] "current drug or alcohol intoxication"
+- [NICE] "An injury arising from, for example, a pedestrian being struck by a motor vehicle, an occupant being ejected from a motor vehicle, a fall from a height of more than 1 m or more than 5 stairs, a diving accident, a high-speed motor vehicle collision, a rollover motor accident, an accident involving motorised recreational vehicles, a bicycle collision or any other potentially high-energy mechanism."
+- [NHSSPRAIN] "To help prevent swelling, try to avoid heat (such as hot baths and heat packs), alcohol and massages for the first couple of days."
+- [NHSSPRAIN] "At first, try painkillers like paracetamol to ease the pain and ibuprofen gel, mousse or spray to bring down swelling."
+- [NHSSPRAIN] "If needed, you can take ibuprofen tablets, capsules or syrup that you swallow."
+- [NHSSPRAIN] "Compression – wrap a bandage around the injury to support it during the day."
+- [NHSSPRAIN] "you heard a crack when you had your injury"
+- [NHSARM] "Do not drive to A&E."
+- [NHSARM] "do not eat or drink anything in case you need surgery to fix the bone when you get to hospital"
+- [NHSARM] "remove any jewellery such as rings or watches – your fingers, wrist or hand could swell up"
+- [NHSARM] "use a towel as a sling to support the affected arm"
+- [SJASPINE] "a collapsed rugby scrum"
+- [SJASPINE] "If you suspect someone has a spinal injury but cannot maintain an open airway, you need to place them in the spinal recovery position"
+- [SJASPINE] "Do not move them and do not tell them to move, unless they are in immediate danger."
+- [SJASPINE] "Open their airway using the jaw thrust technique."
+- [SJASPINE] "Continue to support their head and neck until emergency help arrives and can take over, no matter how long it takes for them to come."
+- [SJAHEAD] "Advise the casualty to seek medical help if the head injury appears to get worse or if any of the following apply:"
+- [SJAHEAD] "there is no one responsible to look after them."
+- [SJAFRAC] "Open fractures and long bones - these patients need immediate transfer to A&E by calling 999 or 112 for emergency help."
+- [SJAFRAC] "Apply pressure around the wound, but not over the protruding bone or suspected fracture site, to control any bleeding."
+- [SJAFRAC] "Remove any rings, watches, or anything that wraps around the limb as soon as possible."
+- [SJASPRAIN] "It should be left on for a maximum of 20 minutes."
+- [SJASPRAIN] "Never give aspirin to under 16-year-olds."
+- [BRCHEAD] "If they become sleepy, vomit or seem confused, call 999."
+- [BRCHEAD] "Call 999 if you suspect they have concussion."
+- [BRCHEAD] "Applying something cold to the injury for up to 20 minutes will reduce external swelling and pain."
+- [BRCHEAD] "They are over 65"
+- [BRCBONE] "Call 999 if the person is unable to move for themselves or is in a lot of pain."
+- [BRCBONE] "Try to encourage them to support the injury themselves by holding it."
+- [BRCBONE] "The only accurate way to diagnose a broken bone is to X-ray it."
+- [BRCSPRAIN] "The bandage should not be tightly wrapped and you should make sure the bandage does not become tight."
+- [BRCSPRAIN] "Warm treatments are not recommended first aid."
+- [ARC] "Fall from a height greater than person’s own height"
+- [ARC] "Significant cause of injury*"
+- [ARC] "Nausea or vomiting*"
+- [ARC] "*Note: Signs and symptoms with a * require immediate emergency medical treatment."
+- [ARC] "Have them remain in the position found unless you need to give CPR or cannot control bleeding."
+- [ARC] "If wearing a helmet, do not remove it unless you need to give CPR."
+- [ARC] "Leave in position found unless you must move for safety, to perform CPR or to control bleeding."
+- [ARC] "“Popping” or “snapping” at time of injury*"
+- [ARC] "An X-ray is usually required to diagnose a broken bone."
+- [PEACE] "While anti-inflammatories show benefits on pain and function, our acronyms flag their potential harmful effects on optimal tissue repair."
+- [PEACE] "Unload or restrict movement for 1–3 days to minimise bleeding, prevent distension of injured fibres and reduce the risk of aggravating the injury."
+- [PEACE] "Rest should be minimised as prolonged rest can compromise tissue strength and quality."
+- [PEACE] "Thus, inhibiting inflammation using medications may negatively affect long-term tissue healing, especially when higher dosages are used."
+- [PEACE] "compression after an ankle sprain seems to reduce swelling and improve quality of life."
+- [PEACE] "Even if mostly analgesic, ice could potentially disrupt inflammation, angiogenesis and revascularisation, delay neutrophil and macrophage infiltration as well as increase immature myofibres."
+
+**Added by the fixer the same day, string-matched against Reviewer F's saved copies** (`r11f/`,
+and for the fracture definitions the drafter's live copy of the American Red Cross bone page taken
+the same day), for lesson 11's fixes:
+
+- [SJAHEAD] "they are over the age of 65" and "they had previous brain surgery" (items in the seek-medical-help list above)
+- [SJASPINE] "Call 999 or 112 for emergency help or ask someone else to call for you."
+- [SJASPINE] "Hold each side of their head, spreading your fingers so that you do not cover their ears, as they need to be able to hear you."
+- [SJASPINE] "To do this, put your fingertips at the angles of the jaw and gently lift the jaw to open the airway."
+- [BRCHEAD] "They have been in a serious accident or had a severe blow to the head" (in its "Call 999 if" list)
+- [NICE] "Remote advice services (for example, NHS 111) should refer people who have sustained a head injury to the emergency ambulance services (that is, 999) for emergency transport to the emergency department if there are any of these risk factors" (1.2.2; the list includes "a high-energy head injury")
+- [NHSHEAD] "has clear fluid coming from their ears or nose" (in its "Call 999 if" list)
+- [ARC] spinal page, starred: "Head, neck or back pain or visible injury*", "Change in behavior, alertness or confusion*", "Bruising around eyes or behind ears*", "Blood or other fluids in nose or ears*"
+- [ARC] spinal page, mechanism list: "Being hit or by or thrown from vehicle within a motor vehicle collision" (sic), "Headfirst entry into shallow water", "Blow to the head or body during high-impact sport"
+- [ARC] spinal page: "Keep person from getting cold or overheated."
+- [ARC] bone page, starred: "Bleeding or bone protruding through skin*", "Severe or multiple injuries*", "Signs & symptoms of shock*"
+- [ARC] bone page: "Fractures can be open (the end of the broken bone breaks through the skin) or closed (the broken bone does not break through the skin)"

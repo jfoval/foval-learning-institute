@@ -395,12 +395,32 @@ quiz:
       Lifting a speck off with a damp tissue corner is St John's step for something sitting on the
       surface, and here the nail and the lasting feeling both say get care now.
 
-  # Items for lessons 11 to 15 go here as those lessons are written (OUTLINE "Assessments").
+  # --- Bones, joints, head and spine (L11) ---
+  - q: >-
+      In Salisbury, a man in his thirties slips on an icy step and hits the back of his head. He
+      wasn't knocked out and he's talking sense, but an hour later clear, watery fluid starts running
+      from one nostril. He says it's just a cold. Under the NHS head injury page, what should happen?
+    options:
+      - Care at home with paracetamol, since he wasn't knocked out and he's talking sense
+      - Get advice from NHS 111, since he's alert and the fluid could just be from a cold
+      - He drives himself to A&E now, since that's quicker than waiting for an ambulance
+      - Call 999, because clear fluid from the nose after hitting his head is on its list
+    answer: 3
+    explain: >-
+      The NHS page's 999 list includes someone who has hit their head and "has clear fluid coming
+      from their ears or nose", and it makes no exception for someone who seems alert. Its 111 list
+      is for being sick, dizziness, blood thinners, alcohol or drugs, and other worrying symptoms.
+      Care at home with paracetamol is the page's advice for a minor head injury that doesn't need
+      hospital, and it says not to drive yourself to A&E if you've hit your head. In the US the
+      AHA/Red Cross 2024 list says "such as", and the American Red Cross page marks fluid from the
+      nose or ears for a 911 call.
+
+  # Items for lessons 12 to 15 go here as those lessons are written (OUTLINE "Assessments").
 ---
 
-<!-- Items for lessons 11 to 15 are still to be added: this file covers lessons 1 to 10 only for now. The blueprint is in research/OUTLINE.md, "Assessments". Update the counts in the paragraph below when they go in. -->
+<!-- Items for lessons 12 to 15 are still to be added: this file covers lessons 1 to 11 only for now. The blueprint is in research/OUTLINE.md, "Assessments". Update the counts in the paragraph below when they go in. -->
 
-This test covers lessons 1 to 10. **Nineteen questions, and 70 per cent to pass**, which is fourteen.
+This test covers lessons 1 to 11. **Twenty questions, and 70 per cent to pass**, which is fourteen.
 Questions on the later lessons will be added as those lessons are written.
 
 :::callout Before you need this

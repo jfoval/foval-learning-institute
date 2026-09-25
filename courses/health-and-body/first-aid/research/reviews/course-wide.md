@@ -125,3 +125,27 @@ earlier sequence.** Still chosen by script.
 - **Quiz keys:** lesson 10 took 1,3,2,0,3,1 under the relaxed rule. The final test now has nineteen
   items (fourteen to pass) and ends on key 1.
 - **G16 not worked for lesson 10** (a Commons photograph of cling film on a burn).
+
+## 2026-09-25 — from lesson 11's Stage 4
+
+- **The American Red Cross first aid pages mark emergency signs with an asterisk** ("Signs and
+  symptoms with a * require immediate emergency medical treatment"), and the spinal page stars
+  "Significant cause of injury", "Nausea or vomiting", head or neck pain and a damaged helmet.
+  Lesson 11's draft cited only the head page's FAQ and so called the US side "signs, not heights".
+  Any later lesson or script citing an American Red Cross page should read its starred list, not
+  only its FAQ.
+- **The British Red Cross head page says 999 for vomiting and for suspected concussion**, so
+  "vomiting is 111 in the UK" is the NHS page's route, not the UK's. Credit the body, not the
+  country (the measured pattern again).
+- **St John's spinal page (April 2025) puts a spinal casualty whose airway can't be kept open into a
+  "spinal recovery position"**; RCUK and the ERC (October 2025) say not to use the recovery position
+  after trauma. A UK-internal difference; lesson 11 names it and follows the 2025 guidelines. The
+  St John recovery-position page itself was not read.
+- **Places:** the brief's do-not-reuse list was missing at least Norwich, Sacramento, Chester and
+  Savannah, and names Boise, which no current lesson uses. Build the list by script from lessons
+  and `assessments/final-test.md`. Lesson 11 uses Louisville, Truro, Oxford, Kendal, Dayton,
+  Wakefield, Richmond (Virginia) and Hereford; the final test's lesson 11 item uses Salisbury.
+- **Quiz keys:** lesson 11 kept 1,0,1,2,3,0 (at most two positional matches with lessons 1 to 10,
+  no shared run of three, no shift or rotation). The final test now has twenty items (fourteen to
+  pass) and ends on key 3.
+- **G16 not worked for lesson 11** (a Commons arm-sling image); no image.
