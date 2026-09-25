@@ -22,3 +22,21 @@
 - **Measured pattern seen again:** a source's chart title taken as its data (ONS Figure 8, "men in
   public places"), and a reference behind a web page's figure never checked for year and place (CDC,
   NVDRS 27 states 2015). Open the chart data and the page's references before labelling a figure.
+
+## 2026-09-25 — from lesson 02's Stage 4 fix
+
+- **Three SOURCES entries carried research-file glosses the primaries do not support, now
+  corrected** (see "Gate closures, lesson 02"): the NCVS rape and robbery reporting changes are
+  significant per BJS, not "what small subsamples do" (never teach them as noise, nor as the rate);
+  the FBI's "analogous measures" line is about its own two estimate series, not the FBI against the
+  NCVS; CCJ's "heated point of political contention" concerns the 2021 to 2022 estimates. Any later
+  lesson or podcast script citing US-1, US-2 or US-4 should use the corrected entries.
+- **Police recorded crime in England and Wales** lost its *accreditation* in January 2014 (before
+  HMIC's November 2014 report) and is still published as official statistics. Write "lost its
+  accreditation", never "lost its official status" or "the inspection that cost it".
+- **OSR is the UK's statistics regulator**, not England and Wales's.
+- **Two US police rates for 2024 exist:** the FBI's 359.1 per 100,000 (3.6 per 1,000) and the BJS
+  brief's NIBRS Estimation Program 3.7 per 1,000. Name which one a lesson uses.
+- **Lesson 2 now answers lesson 1's "Lesson 2 shows how to check"** in its opening; lesson 1's
+  Gallup, FTC, 4.5 million and 78% figures are referred to, not repeated. Later lessons should
+  point back the same way rather than restate them.

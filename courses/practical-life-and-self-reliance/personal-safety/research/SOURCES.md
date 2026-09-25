@@ -71,9 +71,10 @@ collected here because together they decide which sources a lesson can lean on.
    NHTSA 2025 release were read from Wayback captures; the CDC pages label their data years
    inconsistently (2024 on one, 2023 on another). Check the year on the live page.
 8. **The NCVS changed instruments in 2024** (Part A). *Criminal Victimization, 2024* reports only
-   the legacy half of the sample, so 2024 estimates are less precise than usual, and figures from
-   the redesigned instrument will not be comparable with the series. A jump in a 2025 or 2026
-   figure may be the instrument, not the world.
+   the legacy half of the sample, so 2024 estimates are less precise than usual. (Stage 4
+   correction, lesson 02: BJS says the split sample keeps year-to-year comparisons possible; it
+   does not say the new figures will not be comparable.) A jump in a 2025 or later figure may still
+   be the instrument, not the world: check which instrument, and whether BJS calls it significant.
 9. **CSEW comparability** (Part A). The regulator suspended the survey's accreditation in July 2022
    and reinstated it in 2024; the years ending March 2023 and March 2024 are "not designated as
    accredited official statistics". The sexual victimisation questions are new and **not
