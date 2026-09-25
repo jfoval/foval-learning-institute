@@ -98,6 +98,13 @@ Rewrite these five lines each session. Nothing else goes in this block.
   claims about itself, so under root rule 8 it is John's decision and not a drafter's. Nothing is
   blocked: the course is live without it.
 
+- **Two platform needs from Personal Safety lesson 7's review (2026-09-25), for a platform session.**
+  A quick-exit button on that lesson's page, as every domestic abuse service's own site has (one
+  tap to leave for a neutral page). And the lesson's "Help first" box renders after the objectives
+  block, so on a phone the helplines start on the second or third screen; a way for a lesson to put
+  one callout above the objectives would fix it. The lesson has been trimmed to bring the box as
+  high as the current layout allows.
+
 - **`npm run quotes` passes a full-sentence quotation when SOURCES.md holds only a fragment of it.**
   Found 2026-09-25 by First Aid lesson 8's Stage 4 (Reviewer P2): two whole-sentence quotations
   passed the matcher although SOURCES carried only part of each. The fixer recorded the full text,
