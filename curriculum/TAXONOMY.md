@@ -229,7 +229,7 @@ The map is deliberately ambitious. Most courses are `planned`. The point of writ
 | Car Basics | Foundation | planned | T3 | How it works, what to check, what you can fix. |
 | Gardening and Growing Food | Foundation | planned | T23 | |
 | Tools and Making Things | Foundation | planned | T23 | Wood, metal, basic fabrication. |
-| Personal Safety | Foundation | planned | T3 | Awareness, avoidance, de-escalation, basics of self-defence. |
+| Personal Safety | Foundation | research | T3 | Awareness, avoidance, de-escalation, basics of self-defence. |
 | Travel Skills | Foundation | planned | T24 | |
 
 ## 13. School of Communication and People — `communication-and-people`

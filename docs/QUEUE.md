@@ -36,6 +36,8 @@ Rewrite these five lines each session. Nothing else goes in this block.
   2026-09-25 that he has raised the cap; `scripts/podcast/budget.json` still says $56 because the
   new figure is behind his Google sign-in, so `npm run state` shows the cap as spent. **John: put
   the new cap from aistudio.google.com/spend into budget.json.** Episodes owed: see `npm run state`.
+  **Personal Safety is in Stage 1** (2026-09-25), the fifth of Term 3, `sensitive_domain: true`
+  (crime data, self-defence law, weapons).
 
   **What John's ear settled on 2026-09-25, which changes how a render is judged.** The engine
   sometimes gives one of John's lines to Haley. The per-window speaker share cannot be trusted to
