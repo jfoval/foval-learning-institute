@@ -168,3 +168,66 @@ the site). `npm run quotes personal-safety`: 61 sourced quotations, 0 not found.
 **Status after review:** needs second pass (the content note, the Derek and Priya passages, a new
 quiz item and the stranger table were rewritten, and a second pass should re-check F2 to F9 against
 the primaries as F asked).
+
+## 2026-09-25 — Lesson 03 — Stage 4 second pass, one reviewer (facts and safety)
+
+**Reviewer F2**, fresh context, under the Reviewer F brief in `research/pipeline-briefs.md`. Read
+the first-pass entry above, SOURCES "Gate closures G6, G27, G28" and "Gate closures, lesson 03", and
+lesson 1's Derek and Priya passages. Re-read on the live pages today (curl with a browser
+User-Agent; RAINN in the in-app browser, curl 403): Rape Crisis England & Wales, Victim Support
+get-help, Rape Crisis Scotland, Victim Support Scotland, DSA Helpline, Victim Support NI contact
+page, RAINN, VictimConnect. Checked against the primaries fetched by the first pass: BJS *Criminal
+Victimization, 2024* (Tables 1, 3, 8), FBI *UCR Summary 2024* pp. 6 to 9, ONS violent crime 2024 and
+2018 (with Figures 10 and 13 CSVs), ONS Homicide 2025 (with Figure 8 CSV), ONS rape or penetration
+2025, ONS crime YE March 2026, OSR statement, CDC capture, NRC summary, BJS strangers 1993 to 2010,
+Pease 1998, Tseloni 2017, FTC testimony.
+
+**Content note.** Every number, hour, age and coverage statement matches the service's own page
+today: 0808 500 2222 (24/7, 16+, England and Wales); 08 08 16 89 111 (24/7, England or Wales);
+08088 01 03 02 (any day 5pm to midnight, 13+, Scotland); 0800 160 1985 (8am to 8pm Mon to Fri, 10am
+to 4pm Sat and Sun); 0808 802 1414 (24/7, 18+, across Northern Ireland); Victim Support NI Belfast
+02890 243133 and Foyle 02871 370086, Mon to Fri 9am to 5pm, "whether or not the crime has been
+reported"; RAINN 800.656.HOPE (4673), 24/7; VictimConnect 855-484-2846, 24/7, "only ... if you are
+currently physically safe". Skip target exists. No line for a nation G6 covers is said to be missing.
+
+**Sums redone by hand:** 3,091,500 / 6,671,640 = 46.3%; 7.5 / 34.8 = 0.22 ("less than a quarter");
+40% + 16% = 56%; 1,000,000 / 12.3 = 81,300 ("one in 81,000"); 4.5 / 9.6 million = 47% ("nearly
+half"); 989,000 / 9.6 million = 10.3% ("about a tenth"); 9.5 / 4.7 = 2.0 ("about twice"); SVG bar
+widths 293, 348, 317, 271, 204, 75 = 10 x each rate.
+
+**First-pass fixes confirmed:** F1 to F9 each hold against the primaries (F2: BJS's only
+significance sentence is the 2023 to 2024 change; F3: separated 74.7, 2023 43.1, SE 26.46; F4: CDC
+reference is NVDRS, 27 states, 2015; F5: pooled YE March 2020 and 2025, since 16; F6: Figure 8, men
+46% house, 32% street; F7: stabbing fear answered with the homicide rate as the far end and the gap
+stated; F8: no "mostly young men" left; F9: timing labelled as all violence). F10 closer is neutral
+("one of lesson 1's four readings, and the other three still stand"). F11 to F26 as recorded. Quiz
+keys 1,3,0,1,2; option spreads 5, 4, 6, 4, 4; key never the longest; no three-run shared with
+lessons 1, 2 or 4 at any offset, at most one same-position match; each explanation read against its
+key. Read as a survivor (no sentence says anyone should have done otherwise; repeat-victimisation
+advice says "not a judgement on what anyone did before") and as a man at risk (stranger violence,
+male homicide and male rape victims present; Victim Support lines serve any crime).
+
+**Findings**
+- S1 [minor] Stranger table, ONS rape row: measure dropped "including attempts" and that the
+  relationship is for the most recent incident, both in the article's own framing. Fixed in the
+  table.
+- S2 [minor] "One family": the son's stranger-violence paragraph applied the all-violence injury
+  figure (42%) to "it" (stranger violence), the same slip as first-pass F9. Fixed: "across violent
+  incidents of every kind, 42% caused any physical injury".
+- S3 [minor] Misconception "Violence usually means serious injury" gave no year for the 42% and 2%.
+  Fixed: "in the year ending March 2023".
+- S4 [minor] Misconception on strangers gave the FBI 42.5% and the NCVS "nearly half" without year.
+  Fixed: "for 2024" on each.
+- S5 [minor] "In the US, lesson 2 met the FTC's 3 million fraud reports and $15.9 billion": lesson 1
+  printed both; lesson 2 cites only the 3 million and says "Lesson 1 met". Fixed to "lesson 1 met".
+- S6 [minor, victim reading] Priya "half-remembers" she is more at risk from people she knows;
+  lesson 1 has her say "I know the numbers say". Fixed: "says she knows the numbers put her more at
+  risk from people she knows".
+- S7 [minor] Quiz 2 explanation: "nothing this course read in it says who the offenders were" is
+  too broad (Table 1 gives stranger and domestic shares overall). Fixed: "who the offenders of
+  separated people were". Options untouched.
+
+Nothing larger found. `npm run validate` exit 0, no line naming this file; `npm run quotes
+personal-safety` 77 sourced quotations, 0 not found; `npm run minutes` 105, unchanged.
+
+**Status after review:** clean

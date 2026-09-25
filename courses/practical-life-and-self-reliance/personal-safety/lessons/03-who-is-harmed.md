@@ -46,7 +46,7 @@ quiz:
     explain: >-
       The bulletin gives rates by marital status and no explanation. It reports no analysis that
       holds age or income constant, so the claim that separation itself raises the risk goes
-      beyond it, and nothing this course read in it says who the offenders were, so the
+      beyond it, and nothing this course read in it says who the offenders of separated people were, so the
       new-partners story is not in it either. Far from being its most precise figure, the
       separated rate comes from a small group and is the least precise number in that table. A
       rate describes where harm fell, not what caused it, and nothing in it tells anyone whether
@@ -253,8 +253,8 @@ other figures in the answer above come from the same article, and it adds harass
 women and 6.6% of men.[2] Each is a percentage of adults aged 16 and over living in households in
 England and Wales, in the year ending March 2024.
 
-Priya, from lesson 1, is twenty-six, lives in a city in England, and half-remembers that she's more
-at risk from people she knows. For women in England and Wales the figures bear her out: domestic
+Priya, from lesson 1, is twenty-six, lives in a city in England, and says she knows the numbers put
+her more at risk from people she knows. For women in England and Wales the figures bear her out: domestic
 abuse, stalking and sexual assault (6.6%, 4.0% and 3.4%) were each far commoner than violence from a
 stranger (0.4%), which is the one harm here where men's rate is higher. If
 what she meets on the walk home is being followed or shouted at, the nearest measured harm is
@@ -280,7 +280,7 @@ with the measure, before you compare any two.
 | FBI police-recorded data (NIBRS), 2024 | Share of victims in offences known to police, by relationship | Strangers 13.5% of assault victims, 16.5% of homicide victims, 42.5% of robbery victims |
 | CDC page on partner violence, citing death records from 27 US states, 2015 | Share of homicide victims | About 1 in 5 killed by an intimate partner; over half of female victims by a current or former male partner |
 | ONS Homicide Index, England and Wales, year to March 2025 | Adult homicide victims, by sex | Women: partner or ex-partner 40%, family 16%. Men: friend or acquaintance 20%, stranger 18% |
-| ONS, rape or assault by penetration since age 16, England and Wales, survey years to March 2020 and March 2025 combined | Share of victims | Partner or ex-partner 43.2%; stranger 16.3% (15.0% of female victims, 37.5% of male) |
+| ONS, rape or assault by penetration (including attempts) since age 16, England and Wales, survey years to March 2020 and March 2025 combined | Share of victims, most recent incident | Partner or ex-partner 43.2%; stranger 16.3% (15.0% of female victims, 37.5% of male) |
 
 Sources for the rows, in order: [1], [4], [5], [6], [7].
 
@@ -439,7 +439,7 @@ leaves out domestic abuse, sexual victimisation, stalking and harassment, and ha
 as common: 7.8% of adults met non-sexual harassment that year.[3] Lessons 1 and 2 gave you the
 headline figures: 4.5 million fraud incidents of the 9.6 million the survey counted, nearly half,
 and 7.8% of adults defrauded in the year. One figure they didn't give: violence with or without
-injury was 989,000 incidents, about a tenth.[3] In the US, lesson 2 met the Federal Trade
+injury was 989,000 incidents, about a tenth.[3] In the US, lesson 1 met the Federal Trade
 Commission's 3 million fraud reports and $15.9 billion of reported losses for 2025. The same
 [testimony to
 Congress](https://www.ftc.gov/system/files/ftc_gov/pdf/ftc-testimony-jec-hearing-on-the-rising-scam-economy.pdf)
@@ -503,8 +503,9 @@ March 2024, 2.2% of people aged 16 to 24 in England and Wales were victims of vi
 stranger, the highest of any age group, and men more often than women (1% against 0.4% across all
 ages).[2] In 2018, stranger violence happened most often around work, in the street and in or near
 a pub or club, and violent incidents of every kind were more often in the evening or night (54%)
-than in the day.[8] If it happens, it most likely will not mean serious injury: 42% of violent
-incidents caused any physical injury in the year ending March 2023, and broken bones 2%.[2]
+than in the day.[8] If it happens, it most likely will not mean serious injury: across violent
+incidents of every kind, 42% caused any physical injury in the year ending March 2023, and broken
+bones 2%.[2]
 
 Now the harm his mother fears. Homicide in England and Wales in the year ending March 2025 was 12.3
 per million males, about one in 81,000 in a year, and that rate is for males of every age.[6] A
@@ -534,7 +535,7 @@ out.
 **"Most violence is by strangers,"** and its mirror, **"most violence is by people you know."** Each
 is true for some crimes and victims and false for others. Killings of women and rape: mostly by
 people known to the victim. Robbery: strangers the commonest relationship in US police data
-(42.5%). Nonfatal violence in the US survey: nearly half by strangers. Violence from strangers in
+for 2024 (42.5%). Nonfatal violence in the US survey for 2024: nearly half by strangers. Violence from strangers in
 England and Wales: more often against men than women. Say which crime, which victims and which
 source.
 
@@ -549,8 +550,8 @@ per 1,000 in 2024 against 34.8 for 18 to 24 year olds.[1] In England and Wales i
 March 2018, 0.4% of people aged 65 to 74 were victims of violence, against 4.0% of 16 to 24 year
 olds.[8]
 
-**"Violence usually means serious injury."** In England and Wales, fewer than half of violent
-incidents caused any physical injury, and broken bones were 2%.[2]
+**"Violence usually means serious injury."** In England and Wales in the year ending March 2023,
+fewer than half of violent incidents caused any physical injury, and broken bones were 2%.[2]
 
 **"Lightning does not strike twice."** Being victimised is the best single predictor of being
 victimised again, and repeats come quickly.[12]
