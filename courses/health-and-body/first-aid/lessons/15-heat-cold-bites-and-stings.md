@@ -1,6 +1,6 @@
 ---
 title: Heat, cold, bites and stings
-minutes: 115
+minutes: 120
 objectives:
   - >-
     Distinguish heat exhaustion from heatstroke, sequence the response to each under US and UK
@@ -438,8 +438,10 @@ suggests your own body to keep them warm, which the AHA grades no better than ot
 ### Handle them gently, and leave the limbs alone
 
 The AHA's table of hypothermia stages says to handle a moderately hypothermic person gently.[1] It
-does not say why in that line, and this course will not add a reason. RCUK's list says to remove wet
-clothing gently, too.[2]
+does not say why in that line, and this course will not add a reason of its own. RCUK's list says to
+remove wet clothing gently, too.[2] The ERC's flowchart for professionals gives one for moderate and
+severe hypothermia: "Minimal and cautious movements to avoid rescue collapse" (ERC 2025).[14] The
+passages this course read don't define rescue collapse, so neither will this lesson.
 
 Two things are graded as harmful, and here the AHA does give its reasons.
 
@@ -470,10 +472,47 @@ On your own body:
   to give them your clothes, because you need to stay warm yourself.[10]
 
 **If they stop responding.** Breathing normally, quietly and regularly: lesson 7's recovery position,
-blankets over and under, and keep watching. Not breathing normally: lesson 2, CPR with the call
-handler. The AHA's hypothermia recommendations don't apply to cardiac arrest (or to babies under 60 days
-old), and this course has not read the guidance on a hypothermic arrest, so do what lesson 2 taught
-and what the call handler tells you.[1]
+blankets over and under, and keep watching. Not breathing normally: lesson 2, the call and CPR. The
+AHA/Red Cross hypothermia recommendations above don't apply to cardiac arrest (or to babies under 60
+days old), so the rule for an arrest comes from the resuscitation guidelines.[1] Read at the source,
+nothing in them changes lesson 2 for a lay rescuer with a cold person. Here is what they say, and who
+each line is for.
+
+- **In the US**: "full resuscitative measures should be performed immediately and continued
+  concurrently with rewarming" for anyone with life-threatening hypothermia and no obvious lethal
+  injury (AHA 2025, COR 1; LOE C-LD for adults, C-EO for children).[15] The AHA writes this guideline
+  "primarily for North American health care professionals", and no hypothermia line in it is marked
+  for lay rescuers.[15] For you, this one means lesson 2's CPR, started now. The rewarming it pairs
+  with CPR, and the rest of its list (shocks, drugs, machines that take over the heart and lungs,
+  which hospital), are for the crew and the hospital.
+- **In the UK and Europe**: the ERC's guide for the public says "Hypothermic persons in cardiac arrest
+  should receive continuous CPR until warming has been re-established", with compressions and breaths
+  at the standard rate from your training, and says to protect them from the cold (ERC 2025).[16] For
+  you, that is lesson 2's CPR until the ambulance crew take over.
+
+The professional texts say three more things you may hear about. None is a step for you.
+
+- **The one-minute check.** RCUK's and the ERC's special circumstances guidelines say "Check vital
+  signs for up to 1 min in an unconscious hypothermic patient." (RCUK 2025; ERC 2025, ungraded)[17][14]
+  Vital signs there are pulse and breathing, the ERC's supporting text does the check with heart
+  monitoring and ultrasound as well as by examination, and the ERC's guide for the public leaves the
+  line out.[14][16][17] This course's reading is that the line is written for professionals, so it
+  doesn't teach you a longer check. Slow breathing is one of the NHS's signs of hypothermia, and RCUK
+  counts slow, laboured breathing in an unresponsive person as a sign of cardiac arrest (RCUK 2025),
+  which is one more reason the UK call comes first: the call handler helps you decide.[7][17]
+- **Delayed or stop-start CPR.** The AHA says it "may be reasonable" when standard CPR isn't possible
+  because of the conditions, to get the person out quickly (AHA 2025, COR 2b, LOE C-EO); RCUK and the
+  ERC allow it when the core temperature is below 28 °C (82.4 °F) and continuous CPR isn't feasible
+  (RCUK 2025; ERC 2025).[15][17][14] That takes a low-reading thermometer you won't have and a rescue
+  team's judgement. Your part is lesson 2's: check it's safe for you first, which the AHA also stresses
+  for a hypothermic arrest.[15]
+- **When to stop.** The AHA says severe hypothermia can produce "findings that mimic death", and
+  "Apparent rigor mortis or fixed dilated pupils may not be reliable signs of death in this setting."[15]
+  Its reason is that cold lowers the body's metabolism and oxygen use, which improves the chance of
+  survival and recovery even after a long arrest.[15] Its list of conditions for withholding CPR is in
+  the supporting text of a guideline written for professionals, and the ERC's flowchart for
+  professionals says "Do not terminate CPR" on the way to a hospital that can rewarm.[15][14] So cold
+  and stiff is not a reason for you to stop: keep going until the crew take over.
 
 ## Frostbite
 
@@ -818,3 +857,25 @@ the mumbling hiker, and lesson 2 and lesson 7 decide what happens if either stop
 13. CDC, [What to do after a tick bite](https://www.cdc.gov/ticks/after-a-tick-bite/index.html), 9 June
     2026 <!-- SOURCES Gate closures, lesson 15 -->.
     **Read level: full, from the Internet Archive capture 20260919133937**, read on 2026-09-25.
+14. C. Lott, V. Karageorgos, C. Abelairas-Gomez and colleagues, "European Resuscitation Council
+    Guidelines 2025 Special Circumstances in Resuscitation", *Resuscitation* 215 (suppl 1), 2025,
+    110753 <!-- SOURCES Part A S8; Stage 1 addition: hypothermia and arrest (2026-09-25) -->.
+    **Read level: full, direct, on the publisher's page**, for the accidental hypothermia concise
+    guideline, its evidence section and Fig. 5, read on 2026-09-25. A corrigendum (2026) has not
+    been read.
+15. D. Cao, A. M. Arens, S. L. Chow and colleagues, "Part 10: Adult and Pediatric Special
+    Circumstances of Resuscitation: 2025 American Heart Association Guidelines", *Circulation* 152
+    (suppl 2), 2025
+    <!-- SOURCES Part A S3; Stage 1 addition: hypothermia and arrest (2026-09-25) -->.
+    **Read level: full, from the Internet Archive capture 20251027153841**, for the scope and the
+    hypothermia section (introduction, both recommendation tables and their supporting text), read
+    on 2026-09-25.
+16. European Resuscitation Council, *The ERC Guidelines 2025 on Resuscitation for Everyone*, lay
+    guide, December 2025 <!-- SOURCES Part A S10; Stage 1 addition: hypothermia and arrest (2026-09-25) -->.
+    **Read level: full, direct**, for the special circumstances introduction and the hypothermia
+    passage, re-read on 2026-09-25.
+17. Resuscitation Council UK, [*2025 Resuscitation Guidelines: Special circumstances*](https://www.resus.org.uk/professional-library/2025-resuscitation-guidelines/special-circumstances-guidelines)
+    and [*Adult basic life support*](https://www.resus.org.uk/professional-library/2025-resuscitation-guidelines/adult-basic-life-support-guidelines),
+    both 27 October 2025 <!-- SOURCES Part A S15, S11; Stage 1 addition: hypothermia and arrest (2026-09-25) -->.
+    **Read level: full, direct**, for the accidental hypothermia section and the recognition of
+    cardiac arrest, read on 2026-09-25.

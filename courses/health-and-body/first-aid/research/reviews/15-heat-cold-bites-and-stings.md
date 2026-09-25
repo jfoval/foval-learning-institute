@@ -200,3 +200,45 @@ matter is available without losing teaching.
 quotations, 0 not found; `npm run minutes` 115, unchanged.
 
 **Status after review:** clean.
+
+## S4 resolved: hypothermic arrest (2026-09-25)
+
+A targeted Stage 1 read, recorded in SOURCES.md under "Stage 1 addition: hypothermia and arrest
+(2026-09-25)": AHA 2025 Part 10 §17 (Wayback 20251027153841, full for the section and its scope),
+RCUK 2025 Special circumstances and Adult BLS (full, direct), ERC 2025 Special Circumstances (full,
+on the publisher's page, with Fig. 5 from the image) and the ERC 2025 lay guide's hypothermia
+passage (full, direct). The ERC chapter's 2026 corrigendum could not be read (bot wall).
+
+**What it found.** No guideline read gives a lay rescuer a different recognition rule for a cold
+person, so lesson 2's rule stands and the paragraph's conclusion was right. The one-minute check
+S4 anticipated is real (RCUK 2025; ERC 2025, ungraded), but it is about "vital signs" (pulse and
+breathing), the ERC's evidence text does it with ECG and ultrasound, and the ERC's own lay guide
+leaves it out; the AHA gives no check duration at all. The AHA's scope says Part 10 is "designed
+primarily for North American health care professionals" and marks no hypothermia line for lay
+rescuers; its COR 1 line (full resuscitation immediately, with rewarming) is the only one a lay
+rescuer acts on. The ERC lay guide's line is continuous CPR at the standard protocol.
+
+**Changes to the lesson.**
+1. "If they stop responding" rewritten. It no longer says the course has not read the guidance.
+   It keeps lesson 2's rule and adds a decision 2 pair: AHA 2025 COR 1 (C-LD adults, C-EO
+   children), with the AHA's own scope sentence, and the ERC 2025 lay guide's continuous-CPR line.
+   Three professional-only items follow, each labelled as not a lay step: the one-minute check
+   (RCUK 2025; ERC 2025, ungraded; why the course reads it as professional, and the slow-breathing
+   point tied back to the UK call-first rule); delayed or intermittent CPR (AHA 2025 2b, C-EO;
+   RCUK and ERC below 28 °C core); and when to stop (the AHA's "findings that mimic death" and
+   unreliable signs of death, with its metabolic reason; the ERC flowchart's "Do not terminate
+   CPR"), ending on lesson 2's keep-going-until-the-crew-take-over.
+2. Handling: one sentence added quoting the ERC 2025 professional flowchart, "Minimal and cautious
+   movements to avoid rescue collapse", with a note that the passages read don't define the term.
+   "will not add a reason" became "will not add a reason of its own".
+3. Four footnotes added (14 ERC 2025 Special Circumstances, 15 AHA 2025 Part 10, 16 ERC 2025 lay
+   guide, 17 RCUK 2025 Special circumstances and Adult BLS).
+4. No quiz item or exercise depended on the paragraph (exercise A's hiker is responsive), so none
+   changed. Safety callout untouched.
+
+**Measures.** `npm run validate` exit 0; `npm run quotes first-aid` 417 quotations, 0 not found;
+every quotation in the hypothermia section also checked by hand against the new SOURCES section.
+`npm run minutes` 120 (was 115); `minutes:` set to 120.
+
+**Status:** S4 resolved. The rewritten paragraph has not had a fresh-context Stage 4 read; a
+single reviewer on the hypothermia section is worth running before the script is written.
