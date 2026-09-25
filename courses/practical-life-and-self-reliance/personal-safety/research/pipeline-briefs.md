@@ -174,6 +174,19 @@ instead).
 
 ---
 
+- **Set by lesson 1 (2026-09-25):** a short paragraph after the safety callout may explain a clause
+  or two. **Content note form:** may name several consecutive sections; lines are Victim Support
+  (England and Wales) and VictimConnect (US, with its "currently physically safe" condition), each
+  with a `[n]` marker, plus lesson 7 by its title, "Domestic abuse and stalking"; it ends "You can
+  skip to "<heading>"". **Lesson 7 is always referred to by title**, to survive renumbering.
+  **Advice labels** are written into the sentence ("sensible, untested, in this course's labels").
+  **Sources entries:** a bold "**Read: …**" copied from SOURCES and an HTML comment
+  `<!-- SOURCES Part A F-1 -->`, or `<!-- lesson NN gate closure GX -->` for facts read at drafting.
+  **Authors by surname only** unless SOURCES gives the full name. **Accepted manuscripts are
+  paraphrased, not quoted.** **Charts:** viewBox 420 wide, bars labelled directly, source and year
+  inside the chart. **The US homicide rate is 5.9 per 100,000 (CDC, 2024)**, not SOURCES R-1's 6.8
+  (2023). Contractions have been running high (8.8 in lesson 1): keep to the 5 to 8 band.
+
 ## Stage 4 review brief: Personal Safety (Tier B, split, two reviewers)
 
 Repo: `/Users/johnfoval/Desktop/Foval Learning Institute`. Course:
