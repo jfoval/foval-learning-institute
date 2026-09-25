@@ -199,3 +199,80 @@ only as helpline hubs). Safety callout byte-identical to lessons 1 and 3's. `npm
 **Status after review:** needs second pass (the content note, four quiz items, the walking-studies
 table, the Clarke paragraphs, the Hyman limits and the gut section were rewritten; a second pass
 should check them against the primaries F saved and the new gate closure).
+
+## 2026-09-25 — Lesson 04 — Stage 4 second pass, one reviewer (facts and safety)
+
+**Reviewer:** F2, fresh context, under the Reviewer F part of `research/pipeline-briefs.md`, scoped to
+what the fix pass rewrote: the content note, the four new quiz items and the whole quiz, the
+walking-studies table, the Clarke paragraphs, the Hyman limits, the gut section, and the rewritten
+sentences (read by word diff of commit 2cf4faa for meaning drift). Checked against the primaries in
+the session scratchpad (Clarke's Introduction, Cohen and Felson's full text and JSTOR abstract,
+Hyman's full text, the Book and Fulham PubMed abstracts, the State Department capture) and SOURCES B6
+to B11 and "Gate closures, lesson 04".
+
+**Re-read today.** Every number and hour in the content note, on the services' own pages by curl:
+Rape Crisis E&W (0808 500 2222, 24/7, 16+), Victim Support (08 08 16 89 111, 24/7), Rape Crisis
+Scotland (08088 01 03 02, any day 5pm to midnight), Victim Support Scotland (0800 160 1985, 8am to
+8pm Mon to Fri, 10am to 4pm Sat and Sun), DSA Helpline (0808 802 1414, 24/7, 18+), Rape Crisis NI
+(0800 0246 991, no hours printed, correctly), Victim Support NI (Belfast 02890 243133, Foyle 02871
+370086, Mon to Fri 9am to 5pm), VictimConnect (855-484-2846, call or text, "currently physically
+safe"); RAINN (800.656.HOPE (4673), 24/7) in the in-app browser, as curl is blocked. All unchanged.
+The Suzy Lamplugh page re-read: "trust your instincts and take action" (followed) and the aggressive
+behaviour line under festival safety, updated 29 May 2025. All match the lesson.
+
+**Quiz.** Keys 1,0,2,3,2,0 confirmed; option lengths 93/88/93/91, 93/94/95/93, 88/87/87/87,
+86/86/87/87, 90/91/90/92, 85/87/84/86 (spread at most 5); key sequence re-checked by script against
+lessons 1 to 3 at every offset and value rotation: at most 2 positions shared, no run of three. Each
+explanation read against its keyed option and each distractor: all correct, none named by position,
+none asks what a victim should have done. Q1 (target), Q3 (study design), Q4 (behaviour), Q6
+(guardianship) are new cases; Q5's student is new though it mentions Martin by name (acceptable).
+
+**Findings**
+- S1 [minor, fixed] Clarke paragraph: "two worries ... The other is" exclusion. In the Introduction
+  Clarke's two original fears are the fortress society and "Big Brother" state control; exclusion is
+  a separate "second concern" under distributive justice. Now "worries ... Another is".
+- S2 [minor, fixed] The inverse paragraph's lesson 3 figures dropped their measure: "rape victims
+  were raped by a stranger" for lesson 3's "victims of rape or assault by penetration since age 16
+  ... attacked by a stranger", and "street or another open public place" for "street, in a car park,
+  park, or another open public space". Now matches lesson 3 and SOURCES.
+- S3 [minor, fixed] Wheeler's thesis called "a short review of this whole line of work"; it is a
+  thesis whose literature review is that. Reworded.
+- S4 [minor, fixed] Content note named the two sections and the walking claim but not the lesson 3
+  rape and homicide figures the second section repeats (decision 7). Added "with lesson 3's figures
+  on rape and on killings of women".
+- S5 [minor, fixed] Parcel checkpoint: "nobody has trialled parcel boxes", a universal the course
+  can't know. Now "no study this course read trialled any of them".
+- S6 [note, for lesson 06's review, not this file] Lesson 06 lines 584 to 585 say phone calls "did"
+  cut noticing in lesson 4's study, the causal reading lesson 4's F2 fix removed (Hyman's own caveat).
+
+**Checked and sound.** Cohen and Felson's three quotations and the direct-contact scope line
+(against the full text and JSTOR); the predict's 1947 to 1974, labour force and single-adult
+households. Clarke's definition, displacement line, Right/Left/liberal objections, Home Office
+origins, "among other ideas", the fortress society and his partial answer, exclusion and his reply
+(public housing; the Dayton low-income community), victim blaming about businesses, victim
+advocates, and the Felson and Clarke reply (criminal blame or even civil liability; not exempting
+offenders). Hyman: 151 walkers, 24 on a phone, a single 1-hour session one spring afternoon, 25.0,
+51.3, 60.7, 71.4 rounded correctly, bars drawn at 5 px per point (125, 255, 305, 355), only a
+four-group test, observed not assigned, the authors' own "people who choose" caveat, "not
+distracting" for music, pairs as combined observers; the limits paragraph keeps every hedge. Gunns'
+three limits against B7's [V] lines; Book (47 inmates, maximum security, Ontario, Factor 1, gait
+rationalisations, no stated accuracy criterion); Fulham (Unaware condition only, moderation, the
+mediation read as ordering the harm first, "only the association"). The table's four rows each
+match the body. The State Department page does not mention instinct and the lesson says so. Lesson
+1 (Warr's fortress society, Jackson and Gray's three questions), lesson 3 (Pease), and Digital
+Literacy lesson 1 (five questions; burglars as "opportunists after identity information")
+cross-references confirmed against those lessons. Every first-pass finding claimed fixed (F1 to F25,
+P1 to P18) is fixed as described; P8's 100 minutes against ~80 stands as the fixer's judgement.
+
+**Survivor reading of the gut section.** Read as someone who had a feeling and did not act, who had
+no feeling, who froze, and who trusted the person: the new paragraph ("None of this is a test that
+anyone who was harmed failed ... The person who chose to do harm was.") answers each, and nothing
+before or after it implies a feeling ignored or a freeze was a cause. The Fulham line is framed as
+"not advice to live on guard". The misconception's gut line is labelled. No sentence places
+responsibility on anyone harmed. Read as a man at risk: Martin carries the worked example, and the
+lines are not gendered.
+
+**Measures.** `npm run minutes`: 7,913 words, 100 minutes (unchanged). `npm run validate` exit 0, no
+line naming this file. `npm run quotes personal-safety`: 93 sourced quotations, 0 not found.
+
+**Status after review:** clean

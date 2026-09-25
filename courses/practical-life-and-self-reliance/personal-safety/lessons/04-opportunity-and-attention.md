@@ -236,9 +236,9 @@ to define what counts as crime. Liberals say that by "tinkering" with symptoms i
 from the need to tackle the "root causes" of crime, such as, in his summary of their view,
 unemployment, racial discrimination, poor housing and schooling, and inconsistent parenting.[2]
 
-He also recorded two worries about how the measures are used. One is a "fortress society", the
+He also recorded worries about how the measures are used. One is a "fortress society", the
 phrase lesson 1 met in Warr: people so afraid they barricade themselves in. Clarke thought
-experience had dispelled some of that fear, though not all. The other is that the measures can be
+experience had dispelled some of that fear, though not all. Another is that the measures can be
 used by the powerful to keep out people they see as undesirable, and he names the poor, minorities
 and young people, kept out of malls, parks and town centres. He replied that many such measures
 serve people who are far from rich, and gave examples from public housing and a low-income
@@ -264,7 +264,7 @@ responsibility for a crime away from the person who committed it. That last poin
 one value commitment, and it holds whatever the frame says about odds.
 
 :::checkpoint A woman who works from home keeps a parcel delivery box on her front step. Three times this month parcels have gone from it within an hour of delivery. Using the triangle, name one change for each lever, and say which one says anything about her.
-A less suitable target: have parcels held at a collection point, or delivered when someone is home. Guardianship: ask a neighbour who is home in the day to take them in, or have the box moved where it can be seen from inside. Convergence: change delivery times so parcels no longer sit out through the hours when they've been taken. None of the three says anything about her. All three are about the parcels, the step and the hour, which is the point of the frame. And because repeats tend to come quickly, the change is most worth making now, not after a fourth. Each is sensible, untested: nobody has trialled parcel boxes.
+A less suitable target: have parcels held at a collection point, or delivered when someone is home. Guardianship: ask a neighbour who is home in the day to take them in, or have the box moved where it can be seen from inside. Convergence: change delivery times so parcels no longer sit out through the hours when they've been taken. None of the three says anything about her. All three are about the parcels, the step and the hour, which is the point of the frame. And because repeats tend to come quickly, the change is most worth making now, not after a fourth. Each is sensible, untested: no study this course read trialled any of them.
 :::
 
 ## Martin's walk to the bus
@@ -377,7 +377,7 @@ Nor does it need a theory of who is dangerous. Martin's changes were about where
 was and who was with him, not about watching anyone in particular.
 
 :::callout Content note
-The next two sections, "What the walking studies measured" and "Two sentences the evidence cannot carry", discuss research on whether people are chosen for attack by the way they walk, including a study of women who had been sexually victimised, and the claim that someone was attacked because of how they walked. If you'd like to talk to someone: in England and Wales, the Rape Crisis 24/7 Support Line is on 0808 500 2222 for anyone aged 16 or over,[12] and Victim Support's Supportline is on 08 08 16 89 111, 24/7.[12] In Scotland, Rape Crisis Scotland's helpline is on 08088 01 03 02, any day from 5pm to midnight,[12] and Victim Support Scotland is on 0800 160 1985, 8am to 8pm on weekdays and 10am to 4pm at weekends.[12] In Northern Ireland, the Domestic and Sexual Abuse Helpline is on 0808 802 1414, 24/7, for anyone 18 or over;[12] Rape Crisis Northern Ireland is on 0800 0246 991, and you should check its page for hours;[12] and Victim Support NI's Belfast hub is on 02890 243133 and its Foyle hub on 02871 370086, weekdays 9am to 5pm.[12] In the US, RAINN's National Sexual Assault Hotline is on 800.656.HOPE (4673), 24/7,[12] and VictimConnect takes calls and texts on 855-484-2846; it can talk with you only if you're physically safe right now, and if you aren't, call 911.[12] If the person who frightens you is at home, a partner, an ex or a relative, the lesson "Domestic abuse and stalking" opens with the lines for that. You can skip to "Warning signs are things people do".
+The next two sections, "What the walking studies measured" and "Two sentences the evidence cannot carry", discuss research on whether people are chosen for attack by the way they walk, including a study of women who had been sexually victimised, and the claim that someone was attacked because of how they walked, with lesson 3's figures on rape and on killings of women. If you'd like to talk to someone: in England and Wales, the Rape Crisis 24/7 Support Line is on 0808 500 2222 for anyone aged 16 or over,[12] and Victim Support's Supportline is on 08 08 16 89 111, 24/7.[12] In Scotland, Rape Crisis Scotland's helpline is on 08088 01 03 02, any day from 5pm to midnight,[12] and Victim Support Scotland is on 0800 160 1985, 8am to 8pm on weekdays and 10am to 4pm at weekends.[12] In Northern Ireland, the Domestic and Sexual Abuse Helpline is on 0808 802 1414, 24/7, for anyone 18 or over;[12] Rape Crisis Northern Ireland is on 0800 0246 991, and you should check its page for hours;[12] and Victim Support NI's Belfast hub is on 02890 243133 and its Foyle hub on 02871 370086, weekdays 9am to 5pm.[12] In the US, RAINN's National Sexual Assault Hotline is on 800.656.HOPE (4673), 24/7,[12] and VictimConnect takes calls and texts on 855-484-2846; it can talk with you only if you're physically safe right now, and if you aren't, call 911.[12] If the person who frightens you is at home, a partner, an ex or a relative, the lesson "Domestic abuse and stalking" opens with the lines for that. You can skip to "Warning signs are things people do".
 :::
 
 ## What the walking studies measured
@@ -398,8 +398,8 @@ that "potential victims may be signaling their vulnerability to would-be assaila
 gestures, posture and exaggerated movement".[6] Numbers for how many people were filmed and how many
 inmates rated them circulate widely; since this course never read the paper, it gives none.
 
-A 2010 master's thesis by Sarah Wheeler at Brock University, a short review of this whole line of
-work, summarises the cues that study found: the people judged most vulnerable "displayed longer or
+A 2010 master's thesis by Sarah Wheeler at Brock University, whose literature review is a short
+account of this whole line of work, summarises the cues that study found: the people judged most vulnerable "displayed longer or
 shorter strides, and weight that shifted up/down, forward/back, or side-to-side. They also tended to
 use only one side or part of their body when moving, and tended to lift their feet."[7]
 
@@ -485,8 +485,9 @@ chose anyone because of their walk, and the Gunns team said plainly that their d
 raters were even accurate. Where a link with victimisation was found, as in Fulham's first study, it
 was with a history of harm that had already happened, and the authors modelled the harm as coming
 first. Lesson 3 showed that in both countries most women who are killed are killed by someone they
-know, and that in England and Wales fewer than one in five rape victims were raped by a stranger and
-fewer than one in ten on a street or in another open public place. How someone walks down a street
+know, and that in England and Wales, of victims of rape or assault by penetration since age 16,
+fewer than one in five were attacked by a stranger and fewer than one in ten on a street, in a car
+park, a park or another open public space. How someone walks down a street
 has no obvious bearing on harm from a partner at home. That point is this course's reasoning, not a
 finding of the walking studies. And under all of it is the course's commitment: responsibility for
 an attack lies with the person who made it. Precautions change the odds. They don't move the blame.
