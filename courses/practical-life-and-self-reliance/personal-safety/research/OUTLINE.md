@@ -200,7 +200,8 @@ estimated...". Rules:
 - **One figure, one source.** A sentence never mixes two sources' numbers without naming each
   (reconciliation 7: near-identical numbers are different measures).
 - **Single-year figures are never taught as rates.** NCVS rape reporting (46% then 24%) and robbery
-  (42% then 73%) are taught as what small subsamples do, not as the reporting rate; "roughly half of
+  (42% then 73%) are not taught as the reporting rate: BJS marks both changes significant, but each
+  single-year figure is imprecise, and they are never taught as noise either; "roughly half of
   violence and under a third of property crime reaches the police" is the rate (Part A US-1).
 - **Lifetime and annual figures are labelled as such** and never set side by side as if they measured
   the same thing (CDC NISVS lifetime against NCVS annual).
@@ -677,18 +678,19 @@ woman as people at risk across the course (decision 7), and no place name is reu
   offences) and why recorded violence rose after 2014 (UK-5); accreditation removed in 2014 and the
   CSEW's suspension and reinstatement (UK-1, UK-6); the OSR's misunderstandings (both "police figures
   are more accurate" and "surveys are opinion"). **Volatility**: NCVS rape reporting 46% to 24% and
-  robbery 42% to 73% in a year, taught as small subsamples; the NRC's conclusion that the NCVS cannot
+  robbery 42% to 73% in a year, changes BJS marks significant, taught as imprecise single-year figures; the NRC's conclusion that the NCVS cannot
   measure rape with the precision needed (US-5); the anti-social behaviour question change; the 2024
   NCVS instrument change. **Lifetime against annual** (US-6, labelled). **The US since 2020**
   (contested question 3): CCJ's finding that the two measures show similar long-term trends and that
-  the 2022 to 2024 divergence became "a heated point of political contention"; the FBI's own
-  "analogous measures, rather than as one being more accurate"; no conclusion (decision 8). **Where to
+  the gap between their estimates for 2021 to 2022 became "a heated point of political contention";
+  BJS's and the FBI's own statements that the two differ in purpose and each has strengths (the FBI's
+  "analogous measures" line is about its own two estimate series); no conclusion (decision 8). **Where to
   look**: N-DASH, the Crime Data Explorer, the ONS bulletins. Scotland and Northern Ireland count
   separately and were not read (decision 2).
 - **Mechanism to explain:** a figure is what survives several filters (whether the victim reports,
   whether police record, what the source covers, how the offence is defined, which denominator), and
-  each filter explains one way two correct numbers differ; why small subsamples swing (the NRC's
-  account of series victimizations and low-incidence events).
+  each filter explains one way two correct numbers differ; why estimates for rare crimes are
+  imprecise (the NRC's account of series victimizations and low-incidence events).
 - **Worked examples:** (a) simple: the three 2024 US figures (8.9 NCVS, 5.3 of those reported, 3.7
   NIBRS) taken apart filter by filter until each is visibly correct and different (US-3's notes on
   denominators and coverage). (b) wrinkle: an England and Wales headline from the late 2010s that
@@ -712,8 +714,8 @@ woman as people at risk across the course (decision 7), and no place name is reu
   take sampling error further. Leads to lesson 3.
 - **Spaced review of:** lesson 1's "crime is rising", now answered with sources; Logic and Argument
   lesson 6.
-- **Neutrality:** US trends since 2020 (decision 8); OSR's and the FBI's own statements that neither
-  source is simply more accurate.
+- **Neutrality:** US trends since 2020 (decision 8); OSR's statement that neither source is simply more
+  accurate, and BJS's and the FBI's that each has its own purpose and strengths.
 
 ### 3. Who is harmed, by whom, where and when (~85 min)
 
@@ -728,7 +730,7 @@ woman as people at risk across the course (decision 7), and no place name is reu
   his number. **Sex, split by crime**: in England and Wales, men more often victims of stranger
   violence (1% against 0.4%); women more often of domestic abuse (6.6% against 3.0%), stalking (4.0%
   against 2.3%), sexual assault (3.4% against 0.8%) and harassment (11.2% against 6.6%) (UK-2, B21);
-  NCVS 2024 male 24.7 and female 21.9 per 1,000, not a significant difference (US-1). **Other
+  NCVS 2024 male 24.7 and female 21.9 per 1,000 (US-1; BJS reports only that neither changed significantly from 2023, not that the two differ insignificantly: corrected at lesson 3's Stage 4). **Other
   circumstances**: separated people 74.7 per 1,000 (US-1); urban 34.0, suburban 23.3, rural 16.7
   (US-1); harassment higher for disabled people and for gay, lesbian and bisexual people, stalking
   peaking at 16 to 19 (UK-2). **Who harms whom, as method** (reconciliation 1, contested question 2):
@@ -744,7 +746,7 @@ woman as people at risk across the course (decision 7), and no place name is reu
   evening or night, perpetrator thought drunk in 39%, domestic violence 78% around the home, stranger
   violence around work 30% and the street 21% (UK-4, dated, footnote definition of "around work"
   checked). **How killings start**: 51% of homicides in England and Wales thought to result from a
-  quarrel, revenge or loss of temper; 5% in furtherance of theft; 35% of victims thought under the
+  quarrel, revenge or loss of temper; 5% in furtherance of theft or gain (ONS wording; see SOURCES, Gate closures, lesson 03); 35% of victims thought under the
   influence; a sharp instrument in 39% (UK-3). **Injury**: 42% of violent incidents caused any injury,
   broken bones 2% (UK-2); in 2005 to 2010 22% of victims of strangers were injured against 31% of those
   who knew the offender (US-7). **The commonest crime**: fraud, 4.5 million of 9.6 million CSEW
@@ -769,7 +771,7 @@ woman as people at risk across the course (decision 7), and no place name is reu
   row: right for female homicide and for rape, wrong for US nonfatal violence as a whole, where
   strangers are about 46%, and wrong for men. The corrected sentence names crime, sex and source.
 - **Misconceptions:** "most violence is by strangers" and its mirror; "the person most at risk on the
-  street at night is a woman alone" (measured by stranger violence, young men); "older people are most
+  street at night is a woman alone" (stranger violence rates are higher for men and for the young, which ONS gives separately, not as young men: lesson 3's Stage 4); "older people are most
   at risk"; "violence usually means serious injury"; "lightning doesn't strike twice" (repeat
   victimisation).
 - **Practice:** build a household risk profile from the lesson's tables: for yourself and one other
