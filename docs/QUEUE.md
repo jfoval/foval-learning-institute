@@ -37,11 +37,12 @@ Rewrite these five lines each session. Nothing else goes in this block.
   new figure is behind his Google sign-in, so `npm run state` shows the cap as spent. **John: put
   the new cap from aistudio.google.com/spend into budget.json.** Episodes owed: see `npm run state`.
   **Personal Safety is drafting** (2026-09-25), the fifth of Term 3, `sensitive_domain: true`:
-  15 lessons in `research/OUTLINE.md`, 16 course-wide decisions, 28 Stage 1 gates, briefs in
-  `research/pipeline-briefs.md`. **Lesson 7 (domestic abuse) waits on gates G6 and G27** (which UK
-  nations each helpline serves; the services' own definitions) **and lesson 9 on G28** (Right To
-  Be's 5Ds in full): close them before drafting those. Every helpline number, statute and crime
-  figure is re-read on its live page at drafting and at each review; they change.
+  15 lessons in `research/OUTLINE.md`; lessons 1 to 5 are through Stage 4 (Tier B, two reviewers,
+  a fresh second pass after each heavy fix), 6 to 8 are in review or drafting, then 9 to 15.
+  `assessments/final-test.md` has items for lessons 1 to 4; **append each later lesson's items as
+  it passes Stage 4**. Briefs and the rules the reviews keep finding are in
+  `research/pipeline-briefs.md` ("Course conventions settled so far"). Every helpline number,
+  statute and crime figure is re-read on its live page at drafting and at each review.
 
   **What John's ear settled on 2026-09-25, which changes how a render is judged.** The engine
   sometimes gives one of John's lines to Haley. The per-window speaker share cannot be trusted to
