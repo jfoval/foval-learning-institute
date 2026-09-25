@@ -204,7 +204,8 @@ instead).
   result is never causal ("people on phones noticed less", with the authors' caveat). **Quiz keys
   (orchestrator, relaxing the drafters' own tightening, as First Aid had to):** no earlier lesson
   shared in more than three positions, no run of three shared at any offset, not a rotation or
-  shift; chosen by script.
+  shift; chosen by script. **From lesson 9 on** (no sequence passes that against eight lessons):
+  no run of three at offsets 0 or ±1; a run of three at ±2 is tolerated; value rotation advisory.
 
 - **From lesson 7's review (2026-09-25):** any contact route offered to a reader whose phone or
   computer may be watched is tied to a device the abuser can't reach, labelled as the course's
