@@ -262,3 +262,62 @@ unresponsive injured person, the shock-position explanation, the improvised-tour
 whole quiz and two course-end test items, and added a SOURCES section. One fresh reviewer on facts
 and safety (Reviewer F's brief), limited to those passages, the two test items and "Gate closures,
 lesson 9", is the proportionate check.
+
+## 2026-09-25 — Lesson 09 — Stage 4 second pass, one reviewer (facts and safety)
+**Reviewer:** F2, fresh context, Reviewer F's brief, limited to what d0db725 rewrote: "Who may use
+one" and its misconception, the drowsy and the unresponsive-but-breathing injured person (against
+lesson 7's current text), the shock-position explanation, the improvised-tourniquet hand-off, the
+whole quiz, the two lesson 9 items in `assessments/final-test.md`, and "Gate closures, lesson 9".
+Checked against the primaries Reviewer F saved (`r9f/`): RCUK 2025 First aid (the three training
+sentences, the recovery-position exclusion, the bleeding steps), AHA/Red Cross 2024 §5.2 and §9.1
+(shock recs 1 to 4, supporting text, positioning background, rec 5 leave-as-found), ILCOR typeset
+(improvised, "simpler to apply", tourniquet and haemostatic recommendations), the four St John pages
+(improvised steps and the "Ambulance control" line, legs, fractures exception, drinks), American Red
+Cross bleeding and shock captures, British Red Cross, ProtectUK (kit contents, date, "ANY person"),
+Richey, and the Teixeira abstract. 22 SOURCES strings re-matched by script, none missing.
+
+**First-pass findings claimed fixed:** F1, F3, F6, F8, F9, F11, F22, F29, P1, P2 and P19 checked in
+the text and fixed as recorded. F1 is right now: RCUK's general principle and its emergency-services
+exception are quoted verbatim, the tourniquet steps correctly said to carry no condition of their
+own, and quiz 6 and the misconception both turn on the exception. The shock-position paragraph
+matches the AHA's §5.2 wording ("to optimize circulation to vital organs such as the brain"; the
+supporting text is silent on why trauma is excluded). The improvised hand-off matches St John's
+"following the instruction of Ambulance control" and its five improvised steps.
+
+**Quiz.** Keys 1,2,0,3,1,0 confirmed. Option lengths Q1 88/*88/86/85, Q2 83/87/*85/85, Q3
+*82/84/82/80, Q4 87/82/81/*81, Q5 82/*87/90/87 (after S3), Q6 *84/85/85/85; the key is never the
+sole longest. Each explanation read against its key and its source; each stem names its country or
+body. Final test: 17 items, keys as recorded, the two lesson 9 items 86/86/84/86 (key A) and
+86/86/85/89 (key C); both correct against RCUK's bleeding steps and St John's fractures page;
+"nothing read in the UK says otherwise" on drinks holds (no UK page read mentions a drink).
+
+**Findings:**
+1. S1 [minor, safety] The drowsy injured person, US half, left out the AHA/Red Cross 2024 line
+   that applies most directly: a responsive, normally breathing injured person whose injury
+   suggests a neck, back, hip or pelvic injury "should be left in the position in which they were
+   found" unless the area is unsafe (COR 1, LOE C-EO; SOURCES Part B, §5.1 rec 5). A drowsy person
+   is still responsive, so for the lane's rider that line pulls against the shock table's recovery
+   position. **Fixed:** added to the US paragraph, with "those lines pull different ways".
+2. S2 [minor, consistency with lesson 7] The unresponsive, normally breathing injured person, US
+   half, called the shock recovery-position line "the nearest the AHA/Red Cross guideline comes",
+   while lesson 7 says the positioning caution and the leave-as-found line point towards not
+   rolling him. **Fixed:** the sentence now names both directions and leaves the call to the call
+   handler, as lesson 7 does.
+3. S3 [minor] Quiz 5 key "weak grades a choice, not a ban" reads as a garbled verb. **Fixed:**
+   "weak means a choice, not a ban" (87 characters).
+4. S4 [minor, defect 19] The tourniquet misconception said the AHA/Red Cross guideline "sets no
+   training condition" without the body's own hedge. **Fixed:** "though its text says 'Some
+   training may be required'".
+5. S5 [minor, neutrality, not fixed] The American Red Cross bleeding page read for "(if trained)"
+   also carries Dr Craig Goolsby's quoted advice that on an arm or leg "you can use the tourniquet
+   if one is available", with no training condition. The lesson's "the American Red Cross's page is
+   narrower" is true of its steps but not of the whole page. Optional: one clause, with the
+   quotation added to "Gate closures, lesson 9" first.
+6. S6 [minor, not fixed] The lane checkpoint puts ILCOR's improvised-tourniquet line under "In the
+   US". It is international; harmless, but a later edit could move it after the pair.
+
+`npm run validate` exit 0, no line for this lesson or the final test; `npm run quotes first-aid`:
+no miss in lesson 9 (the one miss is lesson 11's, another session's draft).
+
+**Status after review:** clean. S1 to S4 fixed in place; S5 and S6 are optional polish and need no
+further review pass.

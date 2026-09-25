@@ -92,7 +92,7 @@ quiz:
       What is the better reading?
     options:
       - The two bodies contradict each other, so a kit can follow whichever one he prefers
-      - Both lean towards the dressing as an add-on to pressure; weak grades a choice, not a ban
+      - Both lean towards the dressing as an add-on to pressure; weak means a choice, not a ban
       - A weak grade means the dressing was found to do harm, which ILCOR hasn't yet said outright
       - The dressing replaces pressure, so with one in the kit nobody needs to keep on pressing
     answer: 1
@@ -681,7 +681,10 @@ lesson's cases are on the other side of that line.
 airway obstruction, from decreased alertness or active vomiting, or who can't be continuously
 watched, may reasonably be put in the recovery position (AHA/Red Cross 2024, COR 2a, LOE C-LD).[1]
 The same guideline's positioning section says the recovery position may not be ideal with an injury
-to the spine, hip or pelvis.[1]
+to the spine, hip or pelvis, and that an injured person who is responsive and breathing normally,
+whose injury suggests a neck, back, hip or pelvic injury, should be left in the position in which
+they were found unless the area is unsafe (AHA/Red Cross 2024, COR 1, LOE C-EO).[1] For someone
+drowsy after being hit by a car, those lines pull different ways.
 
 **In the UK,** RCUK says: "In cases of agonal breathing or trauma, do NOT move the person into the
 recovery position" (RCUK 2025), and the ERC that a person with known trauma is kept on their back
@@ -692,9 +695,10 @@ handler, who can hear what you describe, makes that call.
 
 If they stop responding but are breathing normally, quietly and regularly at an ordinary pace,
 lesson 7's rule for an injured person holds in the UK: don't roll them, leave them on their back and
-keep checking their breathing (ERC 2025; RCUK 2025).[16][3] In the US, the shock line above is the
-nearest the AHA/Red Cross guideline comes, with the same caution, and lesson 7 found no line written
-for an injured person who won't respond; the call handler decides.
+keep checking their breathing (ERC 2025; RCUK 2025).[16][3] In the US, lesson 7 found no graded
+line written for an injured person who won't respond: the shock line above leans towards the side,
+the positioning caution and the leave-as-found line lean against moving them, and the call handler
+decides.
 
 If their breathing isn't normal, you're back at lesson 2. RCUK 2025: "Slow, laboured breathing, as
 well as other abnormal patterns such as agonal gasping or panting, must be recognised as signs of
@@ -718,7 +722,8 @@ observational, and both point the same way.
 **"You mustn't touch a tourniquet unless you're trained."** RCUK 2025's general principle is to use
 only equipment you've been trained to use, and it says the emergency services may direct you to use
 it anyway; the UK's public kits are "designed to be used by ANY person"; the AHA/Red Cross 2024
-guideline sets no training condition, and the American Red Cross page says "(if trained)".[3][8][1][6]
+guideline sets no training condition, though its text says "Some training may be required", and the
+American Red Cross page says "(if trained)".[3][8][1][6]
 If you're untrained and one is needed, tell the call handler and do what they say.
 
 **"Raise the legs of anyone in shock."** The US guideline offers the leg raise only where there's no
