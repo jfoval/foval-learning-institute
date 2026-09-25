@@ -118,8 +118,9 @@ you did instead).
   "Gate closures, lesson NN" section to SOURCES. Places already used, not to reuse: Portland,
   Seattle, Denver, Fresno, Boise, Tulsa, Spokane, Albany, Kansas City, Boston, Tucson, Omaha,
   Swansea, Leeds, Bristol, Cardiff, Glasgow, Hull, Aberdeen, Dundee, Ipswich, Belfast, Swindon,
-  Bath, Cambridge, Derby, Exeter. Only about 19 quiz key sequences remain that match no earlier
-  lesson in more than two positions: choose by script.
+  Bath, Cambridge, Derby, Exeter, Lancaster, Tacoma, Reno, Worcester, Shrewsbury, Durham,
+  Louisville, York, Plymouth, Inverness, Lincoln, Madison, Richmond, Hereford. Quiz keys: choose by
+  script under the rule in the latest `reviews/course-wide.md` entry on keys.
 
 ---
 
