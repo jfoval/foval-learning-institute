@@ -161,7 +161,7 @@ longer the burning goes on, the worse the injury; the British Burn Association s
 aid prevents further tissue damage; the AHA says cooling to stop the burn has long been advised as
 essential first aid.[5][3][1] The British Red Cross gives the payoff: cooling reduces pain,
 swelling and the risk of scarring, and the sooner and longer it's done, the smaller the injury's
-effect.[6] None goes further into the physics.
+effect.[6]
 
 The AHA's supporting text describes cooling with running water as established and beneficial with
 little risk of harm, and cites a pooled analysis of 7 observational studies (11,383 adults and
@@ -272,8 +272,8 @@ substances "seal in the heat".[8] St John adds creams and gels to its list of th
 
 What goes on a small burn in the days after is where the texts part, and none explains why. **In the
 US,** the AHA/Red Cross guideline says petroleum jelly, honey or aloe vera under a non-sticking
-dressing may be reasonable for a small partial-thickness burn being looked after at home (COR 2b,
-LOE B-R), from studies that mostly used them daily until it healed; the American Red Cross page's
+dressing may be reasonable on the open wound of a small partial-thickness burn looked after at
+home (COR 2b, LOE B-R), from studies that mostly used them daily until it healed; the American Red Cross page's
 FAQ says petroleum jelly doesn't relieve pain or help healing.[1][8] **In the UK,** the NHS's advice
 while a burn heals is "do not put any creams, oils or butter on burns or scalds", but a moisturising
 emollient if the skin gets itchy and dry, asking a pharmacist what to use.[4] That's after-care, past
@@ -357,9 +357,9 @@ acid and elemental metals.[3] For those, tell the call handler what the chemical
 poison centre can advise (AHA, COR 1, LOE C-LD).[1]
 
 A splash in the eye is the same idea, faster. **In the US,** the AHA/Red Cross guideline says to
-rinse immediately (COR 1, LOE B-NR) with "a copious amount of tap water for 15 minutes" (COR 1, LOE
-C-LD).[1] **In the UK,** St John says "at least 20 minutes", holding the eye under gently running
-water with the lids washed inside and out.[5] Both say keep the run-off away from the other eye and
+rinse immediately (COR 1, LOE B-NR) with "a copious amount of tap water for 15 minutes" unless local
+guidelines differ (COR 1, LOE C-LD).[1] **In the UK,** St John says "at least 20 minutes",
+holding the eye under gently running water with the lids washed inside and out.[5] Both say keep the run-off away from the other eye and
 from you.[1][5]
 
 ### Electrical burns
@@ -427,8 +427,8 @@ children.[1][8] Twelve minutes is inside the 5 to 20 the guideline allows (COR 2
 says more than that, so tell the call handler what you see.
 
 ILCOR's good practice statement is the same in both: watch a young child being cooled for signs of
-too much cooling.[7] If you wrote "put her in a cold bath", the British Red Cross warns against
-exactly that, for this reason.[6]
+too much cooling.[7] If you wrote "put her in a cold bath", the British Red Cross warns against that,
+for this reason.[6]
 :::
 
 ## Cuts and grazes
@@ -571,7 +571,7 @@ freezing".[7] RCUK 2025 gives the steps:[2]
 
 1. Wrap the part in a sterile dressing or clean cloth moistened with saline or water.
 2. Put it in a clean, watertight bag or container.
-3. Put that inside another bag with ice or ice water, or use a cooler or instant cold packs.
+3. Put that inside another bag with ice or ice water; without ice, a cooler or instant cold packs.
 4. No direct contact with ice, no freezing. Label it with the person's name and the time.
 5. It travels with the person, to the same hospital.
 

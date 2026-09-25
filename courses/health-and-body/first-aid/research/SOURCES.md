@@ -4799,6 +4799,7 @@ definition of the depth words its referral rule uses):
 - "the duration of the chemical’s contact with the skin is a major determinant of burn severity" [V]
 - "Continue irrigation until the patient experiences a decrease in pain or burning in the wound or until the patient has been assessed by a burn specialist." [V]
 - "Do not irrigate dry lime, phenols, muriatic acid, concentrated sulphuric acid and elemental metals with water." [V]
+- "Brush off dry powders, remove fragments of solid chemical substances and discard contaminated clothing prior to wet decontamination" [V] *(added 2026-09-25 by the lesson 10 second-pass reviewer; lesson 10 credits the BBA with brushing off)*
 - "Do not attempt to neutralize the chemical due to the potential exothermic reaction, which could contribute to further tissue destruction." [V]
 - "Isolate electrical power sources, if safe to do so before attempting rescue" [V]
 - "Cool the injury site(s) immediately with cool running tap water for 20 minutes within 3 hours of injury (after the electrical source has been controlled)" [V]
@@ -4874,6 +4875,7 @@ definition of the depth words its referral rule uses):
 - "Burns to the face, mouth, nose, hands, feed, joints or groin*" [V]
 - "Burns in very young or elderly*" [V]
 - "*Note: Signs and symptoms with a * require immediate emergency medical treatment." [V]
+- "Call 9-1-1 and get equipment if the person requires immediate emergency medical treatment." [V] *(added 2026-09-25 by the lesson 10 second-pass reviewer, from the same capture; lesson 10's "with a 911 call" rests on it)*
 - "A child has been burned." [V]
 - "The burn blisters." [V]
 

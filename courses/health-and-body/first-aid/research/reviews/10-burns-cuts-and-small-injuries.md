@@ -201,3 +201,66 @@ fourteen to pass.
 **Status after review:** needs second pass. The majors are applied, but the new quiz items, the
 burn-depth paragraph, the tea's UK call and the two final-test items are new text no reviewer has
 read.
+
+## 2026-09-25 — Lesson 10 — Stage 4 second pass, one reviewer (facts and safety)
+**Reviewer:** F2, fresh context, Reviewer F's brief. Scope as the fixer asked: quiz items 2 and 5
+and every key and explanation; the burn-depth paragraph; the tea's UK call; the chemical and tooth
+additions; the US/UK pairs and tables; the two lesson 10 items in `assessments/final-test.md`; the
+"Gate closures, lesson 10" section of SOURCES, spot-checked against F's saved primaries (AHA text
+and Tables 37, 48, 49 and 50 read from the publisher images; American Red Cross burns capture
+20260918081041; NHS burns, acid, tooth; St John burns, nosebleed; the BBA PDF).
+
+**First-pass fixes checked.** F1 to F15 and P1 to P20 as resolved above: each claimed fix is in the
+text and right against the primary. Checked in particular: the burn-depth definitions match the
+AHA background word for word in substance; the referral rule (COR 1, LOE B-NR), smoke (COR 1,
+C-EO), the tooth ladder including the third row (2b, C-EO), the eye recommendations (C-LD and
+C-EO), and every chemical grade (Table 37) are as printed; the stray-dog bite fits the NHS line; the
+tea's UK call is framed as the parent's judgement, with the NHS lines quoted accurately; the
+American Red Cross hand and very-young lines carry the asterisk the page ties to immediate
+emergency treatment.
+
+**Quiz.** Keys 1,3,2,0,3,1 confirmed; option lengths measured by script: spreads 5, 4, 3, 8, 5, 5
+characters, the key longest only on item 5 (by one). Item 2 executes: a blistered burn is not
+superficial by the AHA's definition, so it is partial- or full-thickness, and either, at more than
+her own palm, goes promptly to a professional; the explanation reads against its key. Item 5
+executes against RCUK's seven lines and ILCOR's two statements. Every other explanation read
+against the option its key selects: sound. Final test: Preston (key 3) and Wichita (key 1) execute
+against the NHS 20-minutes-within-3-hours line and the AHA's "nailing" and persistent
+foreign-body recommendations (COR 1, LOE C-LD); no adjacent key repeat; 70 per cent of 19 is 13.3,
+so fourteen is right. Sums redone by hand: 5 of 117 is 4.3 per cent; 5 cm is about 2 in.
+
+**Findings:**
+1. S1 [minor] Tea and oven checkpoint: "with a 911 call" rests on the American Red Cross's step 3,
+   "Call 9-1-1 ... if the person requires immediate emergency medical treatment", which SOURCES did
+   not record. Recorded (one [V] line) in "Gate closures, lesson 10".
+2. S2 [minor] "Brush off anything dry": the BBA's brushing line was not recorded in SOURCES,
+   though the text is in the PDF. Recorded (one [V] line).
+3. S3 [minor, defect 19] Eye splash, US: the quoted "a copious amount of tap water for 15 minutes"
+   dropped the recommendation's "Unless otherwise recommended by local guidelines" (Table 38,
+   recorded in SOURCES). Fixed: "unless local guidelines differ".
+4. S4 [minor, safety, defect 19] Amputated part, step 3: "or use a cooler or instant cold packs"
+   dropped RCUK's condition "If ice is unavailable". Fixed: "; without ice, a cooler or instant
+   cold packs."
+5. S5 [minor, defect 19] Creams, US: the AHA item (Table 48, 2b, B-R) is for "open burn wounds";
+   the lesson dropped that scope. Fixed: "on the open wound of a small partial-thickness burn".
+6. S6 [minor] "None goes further into the physics": an absence claim about several sources that
+   no one checked (the pattern "a mechanism called absent"). Cut, which also offsets S3 to S5.
+7. S7 [minor, not fixed, optional] Kettle step 4: "doesn't send it to a professional on size or
+   place" is true, but the guideline also sends any full-thickness burn, and the lesson says a
+   reader can't tell partial from full. A future edit could say "doesn't send a partial-thickness
+   burn this size, here, to a professional". Not a safety failure: the American Red Cross line
+   beside it sends her to hospital anyway.
+
+Checked and clean: the St John nosebleed times and 999 line; the NHS 999/A&E list (face, genitals,
+bottom; acid, chemical, electricity) and its 111 box; the BBA's list of chemicals not to wash with
+water; the AHA's hydrofluoric acid and phenol sentence; the NHS tooth steps and emergency-dentist
+line; the St John and British Red Cross cover lines; the AHA and St John run-off lines (Table 38's
+C-EO line and the AHA supporting text on the contralateral eye). Neutrality: unchanged from F's
+pass; neither country called wrong; the American Red Cross page's change is named once, dated,
+without comment. Safety: callout intact (validate); no instruction without its body and year.
+
+**Checks.** `npm run quotes first-aid`: 0 not found. `npm run validate`: exit 0. `npm run
+minutes`: 7,858 words, `minutes: 95`, unchanged (S3 to S5 added eight words; S6 and one word in
+the tea checkpoint took them back out).
+
+**Status after review:** clean
