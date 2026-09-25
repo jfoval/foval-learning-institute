@@ -368,7 +368,7 @@ the same commit.** Most of these need an ordinary browser and nothing else (SOUR
 | **G10 Overdose Good Samaritan laws** | 7 | Re-read GAO-21-248 in a browser (the quotes are [T]); optionally PDAPS for a current count | Say that most US states have laws protecting people who call for help at an overdose from certain drug charges, attributed to the GAO's 2021 report by its title, with **no count**, and that the count changes. |
 | **G11 AHA 2025 Part 12 (education)** | 16 | Read its COR/LOE for feedback devices, alternative compression-training objects and online training | Cite ILCOR EIT 2025 only on training (read); name no AHA education recommendation. |
 | **G12 US liability dollar figures** | 1 | Read Murphy 2020 in full, or the AHA symposium abstract | Give the paper's counts (3 suits over giving CPR against 167 over absent or late CPR, 1989 to 2019) with Part D's caution that the 167 are mostly against people with a duty; **no dollar figures**. |
-| **G13 Minor burns managed at home** | 10 | None needed: SOURCES records AHA 2b for petrolatum, honey or aloe on small partial-thickness burns *after cooling*, and the NHS "no creams" line *before assessment* | Planned around: the lesson keeps the two moments apart in adjacent sentences so neither reads as contradicting the other (Part B 4.2). |
+| **G13 Minor burns managed at home** | 10 | None needed: SOURCES records AHA 2b for petrolatum, honey or aloe on small partial-thickness burns *after cooling*, and the NHS "no creams" line *before assessment* | **Failed at lesson 10's Stage 4 (2026-09-25):** the NHS line sits under its healing-stage advice, so the two are not different moments. The lesson presents the AHA, NHS and American Red Cross positions as unreconciled and sends the reader to a pharmacist or doctor (SOURCES, Gate closures, lesson 10). |
 | **G14 AHA's revised Chain of Survival** | 5 | Read AHA 2025's chain (only the press release's headline was read) | No named chain diagram. Lesson 5 teaches the order of actions as the sources give it (call, compress, shock, hand over) without the AHA's links or their number. |
 | **G15 Red Cross on ABC and CAB** | 2, 4 | Read the Scientific Advisory Council note linked from Check, Call, Care | Lessons say what the American Red Cross's read pages teach (Check, Call, Care; its CPR steps page) and do not say the Red Cross and the AHA agree or disagree on sequence. |
 | **G16 Images** | per lesson | For each candidate below, check the Commons licence and author, and check the technique against 2025 guidance for the country the lesson attributes it to | No image. The lesson describes the position in words (already required: standards 4.6, nothing carried only by an image) and links the organisation's page. |
@@ -980,8 +980,10 @@ lesson, at least one of them a decision on a new scenario.
 - **Worked examples:** (a) simple: a scald from a kettle on a forearm, cooled, covered and judged
   for hospital under each country's rule. (b) wrinkle: a toddler pulls a mug of tea onto her chest
   in winter: the UK's 20 minutes against the risk of over-cooling a small child, ILCOR's "no
-  duration", what the parent does (cool the burn, keep the child warm, call 111 or 999 in the UK
-  for a child under 5 with a burn, and in the US seek care for a burn larger than her palm).
+  duration", what the parent does (cool the burn, keep the child warm, in the UK 999 or A&E for a
+  very large or deep burn, or 111 by phone if unsure (the NHS's 111 line is for "not sure what to
+  do", and its under-5 sentence only says to phone rather than use 111 online; corrected
+  2026-09-25), and in the US seek care for a burn larger than her palm).
 - **Misconceptions:** "butter, toothpaste or ice on a burn"; "pop the blister"; "tilt the head back
   for a nosebleed"; "store a knocked-out tooth in water"; "put a baby tooth back in"; "neutralise an
   acid with an alkali"; "a small electrical burn is a small injury"; "raise a bleeding hand above

@@ -1302,7 +1302,7 @@ All sources agree: do not pull it out; pad or press around it (NHS, St John, bot
 #### 4.2 After cooling
 
 - Remove jewellery and tight items promptly (AHA COR 1, C-EO; NHS; BBA; St John: "before the area begins to swell" [V]); do not remove anything stuck to the burn (NHS, St John, both Red Crosses).
-- Cover: UK sources say cling film laid on, not wrapped (NHS: "Do not wrap the cling film around it." [V]; BBA: loose longitudinal strips, not on the face; St John: discard the first two turns; plastic bag for a hand or foot). AHA/ARC 2024: loosely cover with a clean cloth or non-adherent dry dressing (2b, C-EO); American Red Cross page: leave uncovered unless EMS is delayed, then a clean dressing "or plastic wrap" [V]. For small partial-thickness burns managed at home after cooling, AHA 2b B-R: petrolatum, petrolatum-based antibiotic ointment, honey or aloe vera with a non-adherent dressing. Note the UK "no creams" message (NHS "do not put any creams, oils or butter on burns or scalds" [V]) is about first aid before assessment, while the AHA item is for small burns being managed at home after cooling. Different moments, not a direct contradiction, but a lesson must make the distinction clear.
+- Cover: UK sources say cling film laid on, not wrapped (NHS: "Do not wrap the cling film around it." [V]; BBA: loose longitudinal strips, not on the face; St John: discard the first two turns; plastic bag for a hand or foot). AHA/ARC 2024: loosely cover with a clean cloth or non-adherent dry dressing (2b, C-EO); American Red Cross page: leave uncovered unless EMS is delayed, then a clean dressing "or plastic wrap" [V]; *corrected 2026-09-25 (lesson 10 Stage 4): that was true of its Thermal (Heat) Burns section only up to the 18 May 2026 capture (Wayback 20260518211852). From the 29 August 2026 capture on, the thermal section says nothing about covering, the page's FAQ on bandages says "Loosely cover it with a clean, dry, non-adhesive dressing." [V], and "Leave the burn uncovered" with "plastic wrap" appears only under Chemical Burns and Electrical Burns. See "Gate closures, lesson 10".* For small partial-thickness burns managed at home after cooling, AHA 2b B-R: petrolatum, petrolatum-based antibiotic ointment, honey or aloe vera with a non-adherent dressing. The NHS "no creams" line ("do not put any creams, oils or butter on burns or scalds" [V]) *corrected 2026-09-25 (lesson 10 Stage 4): it is not about first aid before assessment. It sits in the "Don't" list under "Things you can do to help while burns and scalds heal", beside "use an emollient ointment on the affected area if it becomes itchy and dry as it heals" [V], so it is healing-stage advice, the same moment as the AHA item. The American Red Cross FAQ also says petroleum jelly "does not help relieve pain or promote healing" [V]. The three texts are not reconciled by any of them; gate G13's "different moments" reading fails.*
 - Blisters: do not burst (NHS, St John). Plasters/sticky dressings: no (NHS, both Red Crosses).
 - Pain relief: OTC analgesics reasonable (AHA 2a, B-NR; NHS paracetamol or ibuprofen).
 
@@ -1460,7 +1460,7 @@ Other: the NHS nosebleed video is hosted on Brightcove (video id 5712761714001),
 7. **Ice on sprains.** For: reduces pain (RCT of 74 patients), and oedema compared with heat. Against: no shown benefit to function or recovery time; Dubois and Esculier argue it may impair repair.
 8. **NSAIDs for soft-tissue injury.** For: NHS recommends ibuprofen gel then tablets; effective analgesia. Against: PEACE & LOVE argues inflammation is part of healing and anti-inflammatories should not be standard care.
 9. **Cervical collars.** For (limited, trained responders): reduce neck range of motion; ILCOR leaves room for ski patrol and lifeguards. Against: impaired breathing and swallowing, raised intracranial pressure, discomfort and pressure ulcers, no drop in spinal cord injury where collars were abandoned; AHA COR 3: Harm for routine lay use.
-10. **Burn cooling duration.** 20-minute side (BBA, NHS): gold standard in UK burns services, the meta-analysis of cooling benefit. 5-to-20 side (AHA/ARC): ILCOR could not show a difference by duration; long cooling risks hypothermia in children. Nobody disputes cooling itself.
+10. **Burn cooling duration.** 20-minute side (BBA, NHS): gold standard in UK burns services, the meta-analysis of cooling benefit. 5-to-20 side (AHA/ARC): ILCOR could not show a difference by duration, and "Leading international organizations recommend active cooling durations of 5 to 20 minutes." [V] *(Corrected 2026-09-25, lesson 10 Stage 4: this line gave the 5-to-20 range a hypothermia reason. The AHA's supporting text for the duration recommendation gives only the two reasons above; hypothermia in preadolescent children is the text for its separate monitoring recommendation, COR 1, C-LD.)* Nobody disputes cooling itself.
 
 ### 14. Myths experts correct (with source)
 
@@ -4635,3 +4635,263 @@ lesson 9's draft inherited them):
 with a known trauma should be kept in supine position", and the AHA/Red Cross 2024 positioning
 background, that the recovery position "may not be ideal if there are injuries to the spine, hip,
 or pelvis; if breathing is abnormal; or if CPR is needed".
+
+## Gate closures, lesson 10 (2026-09-25)
+
+*Appended by the lesson 10 Stage 4 fixer, append-only. Stage 4 Reviewer F fetched every primary
+below on 2026-09-25 (curl with a browser User-Agent and an HTML stripper, or `pdftotext`; the AHA
+recommendation tables as the publisher's images, transcribed by eye, marked [V-img]) and
+string-matched each line by script: 133 sentences, none missing (the ILCOR PDF after removing its
+margin line numbers). The American Red Cross live site returned a maintenance page that day, so
+its lines are from the Internet Archive captures named. The AHA supporting-text sentences keep the
+article's inline reference numbers as printed. [V] means copied from that text. Nobody signed in
+to anything.*
+
+**Corrections made in place above, the same day** (drafting defect 26; the lesson 10 drafter found
+all four and Reviewer F upheld each against the primary):
+- **Part B 4.2 and OUTLINE gate G13.** The NHS line "do not put any creams, oils or butter on burns
+  or scalds" is healing-stage advice, in the "Don't" list under "Things you can do to help while
+  burns and scalds heal", not first aid before assessment. G13's "different moments" reconciliation
+  fails; the NHS, the AHA's petrolatum item and the American Red Cross FAQ are three unreconciled
+  texts. (OUTLINE's G13 row still carries the old reading; noted for whoever next edits OUTLINE.)
+- **Part B 4.2, American Red Cross "Leave the burn uncovered".** True of its thermal section only
+  up to the 18 May 2026 capture; from 29 August 2026 it appears only under Chemical Burns and
+  Electrical Burns.
+- **Part B 13.10.** The 5-to-20 side was given a hypothermia reason the AHA does not give for the
+  duration; corrected to the AHA's two stated reasons.
+- **OUTLINE lesson 10, worked example (b)** read the NHS 111 line as "call 111 or 999 in the UK for
+  a child under 5 with a burn". The 111 box is for "you're not sure what to do"; its under-5
+  sentence says which channel (phone rather than 111 online), not that every under-5 burn needs
+  111. Corrected in OUTLINE the same day.
+
+**AHA/Red Cross 2024 (S1), Wayback 20260502024223, §9.8 background, burn depth** (for lesson 10's
+definition of the depth words its referral rule uses):
+
+- "Superficial (first-degree) burns are characterized by skin redness and pain without blistering or other loosening or destruction of the skin surface ( Figure 7 ). The intact skin maintains its barrier function. First-degree burns generally heal without scarring, and the risk of infection is low." [V]
+- "Partial-thickness (second-degree) and full-thickness (third-degree) burns involve destruction of the epidermis and injury to deeper layers and often require treatment beyond what can be provided in the first aid setting to speed healing, prevent infection, and reduce scarring." [V]
+
+**Added by the fixer the same day, string-matched against Reviewer F's saved copies** (for lesson
+10's fixes to its cuts, tooth and cooling passages):
+
+- AHA/Red Cross 2024 (S1), Wayback 20260502024223, §9.9 supporting text: "If immediate intervention cannot occur, minimizing extra-alveolar dry time by transporting the avulsed tooth in a medium that can preserve the viability of the periodontal ligament cells improves the chances of successful reimplantation." [V] And: "Storing the tooth in the mouth of another person involves infection risk, although in some cases (eg, a parent), the people involved may consider this risk to be acceptable." [V]
+- AHA/Red Cross 2024 (S1), §8.2 supporting text: "Patients who received immediate irrigation within 10 minutes and with a “large volume” of water for at least 15 minutes had decreased degree of full-thickness burns, number of full-thickness burns, and mean length of hospital stay compared with those who did not receive immediate irrigation." [V]
+- British Burn Association (S29), introduction: "The prompt and effective application of burns first aid has been shown to positively impact on the burn outcome, preventing further tissue damage and reducing subsequent morbidity." [V] (Its heading "STOP the burning process" covers removing the person from the source, burning clothing, electrical isolation and chemical cross-contamination, not cooling.)
+- NHS, Cuts and grazes (S13), under "What to do if the wound is bleeding a lot" [V]: "If there's nothing in the wound, put pressure on it using a bandage or a clean, folded cloth (such as a tea towel)." [V]
+- St John, Chemical burns (S14): "If the chemical is in powder form, it can be brushed or patted off the skin." [V]
+
+**AHA/Red Cross 2024 (S1), Wayback 20260502024223, supportive text**
+
+- "Thermal burns are caused by contact with flames, hot liquids, hot surfaces, and hot gases." [V]
+- "Active cooling to “stop the burn” has long been advocated as essential immediate first aid for thermal burns." [V]
+- "Cooling of burns with running water is an established and beneficial intervention with little risk of harm." [V]
+- "A meta-analysis of observational data (7 studies, 11 383 adults and children) suggests a decrease in the need for subsequent care in patients with thermal burns who receive immediate active cooling with clean running water." [V]
+- "Because of their larger surface area–to–volume ratio, preadolescent children are more likely to develop hypothermia than adolescents and adults." [V]
+- "A study of 117 children with thermal burns who received whole-body cooling in the shower reported that 5 children (4%) developed hypothermia or were visibly cold with shivering." [V]
+- "An ILCOR meta-analysis of 4 studies involving 5978 adults and children did not demonstrate a clear duration of cooling that was most effective and concluded that the ideal cooling duration is unknown." [V]
+- "Leading international organizations recommend active cooling durations of 5 to 20 minutes." [V]
+- "If cool or cold clean running water is unavailable and ice is used, the ice should be placed in a cloth or towel before being applied to the burn area and limited to 10 minutes of application time to prevent frostbite injury." [V]
+- "Griffin B, Cabilan CJ, Ayoub B, Xu HG, Palmieri T, Kimble R, Singer Y. The effect of 20 minutes of cool running water first aid within three hours of thermal burn injury on patient outcomes: a systematic review and meta-analysis." [V]
+- "Inhalation injury from hot smoke can lead rapidly to loss of the airway due to airway swelling. Evidence of inhalation injury can also be indicative of carbon monoxide poisoning." [V]
+- "Because burned tissue swells, expert consensus advocates that jewelry be removed before the onset of swelling to prevent constriction and vascular ischemia." [V]
+- "Most studies assessed the use of various burn treatments daily or continuously until complete healing; short-term use in the first aid setting has not been well studied." [V]
+- "Covering a partial- or full-thickness burn with a nonadherent bandage or clean cloth protects the wound and reduces pain while avoiding heat entrapment until the burn can be assessed by a health care professional." [V]
+
+**AHA/Red Cross 2024 (S1), recommendation tables tab47 to tab51, read from the publisher images [V-img]**
+
+- "A person with thermal burns should promptly remove all jewelry, belts, and other tight items from burned areas." [V-img]
+- "It is reasonable to give over-the-counter pain medications for pain from thermal burns." [V-img]
+- "After cooling, while awaiting evaluation by a health care professional, it may be reasonable to loosely cover a burn that has intact skin or an intact blister with a clean cloth or nonadherent dry dressing." [V-img]
+
+**AHA/Red Cross 2024 (S1), Wayback 20260502024223, supportive text**
+
+- "Removal of contaminated clothing and jewelry avoids trapping chemicals against the skin during decontamination." [V]
+- "Some chemicals such as hydrofluoric acid 8 and phenol 9 are best decontaminated with substances other than water and may require treatment other than simple decontamination." [V]
+- "Some dry chemicals such as sodium hydroxide, elemental sodium, or elemental potassium may react with water to cause caustic or thermal injury." [V]
+- "Although a 2022 Cochrane systematic review found no trials reporting wound infection that compared cleansing with tap water with no cleansing, 1 cleansing a wound to prevent infection makes empirical sense." [V]
+- "Infection rates of wounds irrigated with tap water are similar to infection rates of wounds irrigated with sterile saline solution." [V]
+- "Several studies have not demonstrated a benefit of wound cleansing with povidone-iodine in addition to irrigation." [V]
+- "Occlusive dressings such as film, petrolatum, hydrogel, and cellulose/collagen dressings result in better wound healing than dry dressings." [V]
+- "After traumatic avulsion of a permanent tooth, the chance of survival of the tooth is greatest if it can be replanted immediately after the time of injury." [V]
+- "Depending on the injured person’s age and mental status, temporary storage of the avulsed tooth in the injured person’s mouth may pose a choking hazard." [V]
+- "Two studies found harm to periodontal ligament cell viability when a tooth is stored in tap water." [V]
+
+**AHA/Red Cross 2024 (S1), recommendation tables tab47 to tab51, read from the publisher images [V-img]**
+
+- "If an avulsed permanent tooth cannot be immediately replanted and none of the above storage mediums are available, a probiotic, egg white, or almond milk may be considered." [V-img]
+
+**AHA/Red Cross 2024 (S1), Wayback 20260502024223, supportive text**
+
+- "Rubbing the eye may worsen corneal abrasion from an ocular foreign body or worsen a penetrating eye injury." [V]
+
+**AHA/Red Cross 2024 (S1), recommendation tables tab47 to tab51, read from the publisher images [V-img]**
+
+- "A person who has persistent foreign-body sensation in the eye should seek immediate medical attention." [V-img]
+- "A person with epistaxis due to trauma should seek medical attention if they experience signs of brain injury, obvious nasal deformity, or signs of facial fracture." [V-img]
+
+**AHA/Red Cross 2024 (S1), Wayback 20260502024223, supportive text**
+
+- "Leaning forward stops blood from entering the airway (which can cause trouble breathing) or the stomach (which can cause vomiting)." [V]
+
+**ILCOR 2025 First Aid CoSTR, accepted manuscript (ilcor.org PDF), PDF margin line numbers removed**
+
+- "Intervention: Active cooling using running water for 20 minutes or more as an immediate first aid intervention" [V]
+- "Young children with thermal burns being actively cooled with running water should be monitored for signs and/or symptoms of excessive body cooling (good practice statement)." [V]
+- "The evidence suggests that storage in a cooler temperature favored viability of periodontal ligament fibroblasts for all storage media, except for Hanks’ Balanced Salt Solution (a buffered salt solution)." [V]
+- "If none of the above choices are available, we suggest the use of cow’s milk, any percent fat or form, compared with tap water, buttermilk, castor oil, turmeric extract, or saline (sodium chloride) for temporary storage of an avulsed tooth (weak recommendation, very low–certainty evidence)." [V]
+- "Only 35% of patients with traumatic amputations present to the emergency department with properly preserved amputated body parts" [V]
+- "Replantation outcomes may be improved by cooling without freezing the amputated or avulsed part as soon as possible and throughout transportation to a health care facility." [V]
+
+**RCUK 2025 First aid, "Preservation of an amputated body part"**
+
+- "Manage any severe bleeding first (see ‘Control of life-threatening bleeding’)." [V]
+- "Retrieve the body part as quickly as possible and keep it cold without allowing it to freeze:" [V]
+- "Wrap the part in a sterile dressing or a clean cloth moistened with saline or water." [V]
+- "Place the wrapped part in a clean, watertight plastic bag or container." [V]
+- "Place the bag or container holding the body part inside another bag containing ice or ice water. If ice is unavailable, you can use a cooler or instant cold packs." [V]
+- "Keep the part cooled at all times. Avoid direct contact with ice or freezing. Label the container with the person’s name and the time the part was stored." [V]
+- "Transport the part with the injured person to the same hospital as quickly as possible." [V]
+
+**NHS, Burns and scalds (reviewed 31 March 2026)**
+
+- "If there's no running water available, you can use cool bottled water or a wet towel." [V]
+- "Remove any clothing or jewellery that's near the affected area – but do not remove anything that is stuck to the affected area." [V]
+- "you or your child has a burn or scald and you're not sure what to do" [V]
+- "You can call 111 or get help from 111 online . Call 111 if you need advice for a child under 5 years old." [V]
+- "Small burns and scalds can often be treated at home and can take around 2 weeks to heal." [V]
+- "Things you can do to help while burns and scalds heal" [V]
+- "use an emollient ointment on the affected area if it becomes itchy and dry as it heals – you can ask a pharmacist for advice about what to use" [V]
+- "do not use plasters or sticky dressings to cover a burn or scald" [V]
+
+**NHS, Acid and chemical burns (reviewed 5 June 2024)**
+
+- "Wear gloves to protect yourself from the chemical when helping yourself or someone else, if possible." [V]
+- "Carefully brush dry chemicals off the skin." [V]
+- "Do not put anything on the burn, such as skin creams or other chemicals." [V]
+- "you or someone else has got an acid or chemical on your skin, or in your eyes" [V]
+
+**NHS, Cuts and grazes (reviewed 2 April 2026)**
+
+- "If the wound is on your hand or arm, raise it above your head." [V]
+- "a wound has soil, pus or body fluids in it, or it's still dirty after cleaning it" [V]
+- "a cut is larger than around 5cm (2 inches)" [V]
+- "you have a bad cut on your face or the palm of your hand" [V]
+
+**NHS, Nosebleed (reviewed 5 December 2023)**
+
+- "you have a nosebleed and you're taking a medicine that helps prevent blood clots, such as warfarin" [V]
+- "your nosebleed lasts longer than 10 to 15 minutes" [V]
+
+**NHS, Knocked-out tooth (reviewed 6 February 2025)**
+
+- "Hold the tooth by the white bit that sticks out of the gum (the crown) – do not touch the root." [V]
+- "Bite down gently on a clean cloth to hold the tooth in place if it goes back in easily." [V]
+- "If you cannot put the tooth back in, you can put it in either milk or saliva." [V]
+- "you have knocked out a tooth, even if you cannot find it" [V]
+
+**British Burn Association, First Aid Clinical Practice Guidelines (April 2018), pdftotext**
+
+- "STOP the burning process" [V]
+- "Aim to complete 20 minutes of cooling. Further cooling attempts may induce hypothermia, especially in children and the elderly," [V]
+- "Cover non-burned areas during cooling and continue to warm throughout care interventions" [V]
+- "Apply a cool water compress using any clean wetted lint free cloth" [V]
+- "Cover the cooled burn with loose longitudinal strips of cling film or any clean lint free cloth or non-adherent dressing" [V]
+- "Do not apply cling film to facial burns" [V]
+- "the duration of the chemical’s contact with the skin is a major determinant of burn severity" [V]
+- "Continue irrigation until the patient experiences a decrease in pain or burning in the wound or until the patient has been assessed by a burn specialist." [V]
+- "Do not irrigate dry lime, phenols, muriatic acid, concentrated sulphuric acid and elemental metals with water." [V]
+- "Do not attempt to neutralize the chemical due to the potential exothermic reaction, which could contribute to further tissue destruction." [V]
+- "Isolate electrical power sources, if safe to do so before attempting rescue" [V]
+- "Cool the injury site(s) immediately with cool running tap water for 20 minutes within 3 hours of injury (after the electrical source has been controlled)" [V]
+
+**St John, Burns and scalds (clinically reviewed 28/04/2025)**
+
+- "The longer the burning goes on the more severe the injury." [V]
+- "If there is no water available, you could use cold milk or canned drinks." [V]
+- "Do not wrap the cling film around the burn as the area needs space to swell." [V]
+- "If the burn is on a foot or hand, you could use a clean plastic bag." [V]
+- "Do not use ice, creams or gels. They may cause damage and increase the risk of infection." [V]
+- "Do not break any blisters that may appear as this may cause infection." [V]
+
+**St John, Severe burn**
+
+- "Do not over cool the casualty in case you lower their body temperature to a dangerous level, causing hypothermia . This can be more serious in babies and older people." [V]
+
+**St John, Chemical burns**
+
+- "Wear protective gloves and if available, an apron and eye protection too - this will prevent you from coming into contact with the chemical." [V]
+- "If inside, ventilate the area such as opening windows or doors to disperse any fumes." [V]
+- "When cooling, pour the water away from yourself to avoid being hit by any chemical splashes." [V]
+
+**St John, Electrocution**
+
+- "Do not touch the casualty if they’re still in contact with the electrical source as you are at risk of electrocution." [V]
+- "Alternatively, move the casualty away from the source. You may be able to stand on some dry insulating material (such as a plastic mat or wooden box) and use a broom handle or wooden pole to push the casualty's limb away from the source." [V]
+- "a cardiac arrest." [V]
+
+**St John, Nosebleed**
+
+- "Once clean, advise them to rest, avoid exertion or blowing their nose to prevent disturbing the clots." [V]
+
+**St John, Eye injury**
+
+- "If you can see something, ask them to tip their head backwards and wash it out by pouring clean water from the inner corner of the eye from a glass or jug." [V]
+- "If this doesn’t work and the object is still on the surface of the eye, try to remove it with a moist piece of gauze or the damp corner of a clean handkerchief or tissue." [V]
+- "If there is a large object in their eye, do not try to remove it." [V]
+- "Make sure the contaminated water does not splash the uninjured eye, you, or the casualty." [V]
+
+**British Red Cross, First aid for burns**
+
+- "Cooling the burn is important because it will reduce pain, swelling and the risk of scarring. The sooner and longer a burn is cooled with cold running water, the less the impact of the injury." [V]
+- "Step 2. After the burn has been cooled, loosely cover it with cling film or a clean plastic bag." [V]
+- "This helps prevent infection by keeping the area clean. Cling film or plastic won’t stick to the burn and will reduce pain by keeping air from the skin’s surface." [V]
+- "Focus the water on the site of the burn rather than the whole limb or body. The water should be cold and at low pressure." [V]
+- "Avoid putting their whole body under a cold shower or in a cold bath as it could induce hypothermia." [V]
+- "Always seek medical advice for a baby or child who has been burned." [V]
+- "Butter and cream contain oils. Oils retain heat, which is the opposite of what you’re trying to do. Toothpaste often contains menthol, which may give a superficial feeling of cooling, but does not effectively help a burn." [V]
+- "If you put anything on top of a burn and it later needs to be removed in hospital, it may cause further pain and damage." [V]
+- "If you don't have access to cold running water, pour other cold liquids such as milk, soft drinks or beer over the burn to cool it." [V]
+- "No, don’t use any adhesive bandages as they’ll stick to the skin and can cause further damage." [V]
+- "Have our First Aid app? Open it to try the quiz and test your knowledge." [V]
+
+**British Red Cross, First aid apps**
+
+- "videos and interactive quizzes" [V]
+
+**American Red Cross, Burns, Wayback 20260918081041 (live site under maintenance 2026-09-25)**
+
+- "If there is no clean, running water to use, apply a cool or cold compress." [V]
+- "When cooling a burn over a large area of the body, be alert for signs and symptoms of hypothermia (when the body temperature drops below normal), particularly for children." [V]
+- "Remove any clothing or jewelry at the burn site, unless it is stuck to the burned area." [V]
+- "Wearing PPE is critical before touching the person to prevent chemical exposure to yourself." [V]
+- "Cool the burn as soon as possible using cool, clean, running water for at least 15 minutes." [V]
+- "Ensure the power source has been turned off before approaching the person." [V]
+- "Cool the burn as soon as possible and for at least 15 minutes." [V]
+- "If EMS was called and is delayed or transport is needed, cover the burn loosely with a sterile dressing, clean dressing or plastic wrap, if necessary." [V]
+- "Be prepared to give CPR or compression only CPR based on level of training and use an AED when available ( cardiac arrest )." [V]
+- "Electricity can affect the heart and breathing." [V]
+- "No. Butter, mayonnaise, petroleum jelly or any other greasy substance does not help relieve pain or promote healing. Using a greasy substance can seal in the heat and make the burn worse." [V]
+- "Loosely cover it with a clean, dry, non-adhesive dressing." [V]
+- "Burns to the face, mouth, nose, hands, feed, joints or groin*" [V]
+- "Burns in very young or elderly*" [V]
+- "*Note: Signs and symptoms with a * require immediate emergency medical treatment." [V]
+- "A child has been burned." [V]
+- "The burn blisters." [V]
+
+**American Red Cross, Burns, Wayback 20260117094816**
+
+- "Cool the burn as soon as possible under clean, cool, running water for 20 minutes. If clean, cool, running water is not available, use clean, lukewarm water or apply a cool or cold compress." [V]
+
+**American Red Cross, Burns, Wayback 20260518211852 (last capture with the old thermal section; 20260829060304 is the first with 5-20)**
+
+- "Never use ice, ice water, or a freezing compress to cool a burn." [V]
+
+**American Red Cross, Nosebleeds, Wayback 20260219001333 (latest capture; live site under maintenance 2026-09-25)**
+
+- "Keep the nostrils pinched shut for at least 5 minutes." [V]
+- "After 5 minutes, check to see if the bleeding has stopped." [V]
+- "If the bleeding has not stopped, keep pinching the nostrils shut for another 5 minutes." [V]
+- "This position keeps blood from pooling in the back of the throat, which can lead to choking or vomiting on blood." [V]
+
+**American Red Cross, mobile apps page (live, 2026-09-25)**
+
+- "Videos, interactive quizzes and simple step-by-step advice makes learning easy and engaging." [V]

@@ -106,3 +106,22 @@ positions, with seven lessons still to write. That rule was a fixer's own tighte
 not the standard. From lesson 10 on: **no earlier lesson's sequence shared in more than three
 positions, no run of three consecutive positions shared, and not a rotation or shift of any
 earlier sequence.** Still chosen by script.
+
+## 2026-09-25 — from lesson 10's Stage 4
+
+- **The NHS "no creams, oils or butter" line is healing-stage advice**, in its list for while a burn
+  heals, not first aid before assessment. Gate G13's reconciliation fails (SOURCES Part B 4.2
+  corrected; OUTLINE's G13 row still says the old thing, for whoever next edits OUTLINE). Podcast
+  scripts and the final test should present the NHS, the AHA's petrolatum item and the American Red
+  Cross FAQ as three unreconciled texts about after-care.
+- **The AHA's burn-depth definitions are now in SOURCES** ("Gate closures, lesson 10"): superficial
+  means no blistering; a blistered burn is partial or full thickness by that definition. Lesson 10
+  teaches it; later lessons and scripts can use the words without re-teaching them.
+- **The American Red Cross burns page changed between 18 May and 29 August 2026**; date it that way,
+  not "January".
+- **Minutes are the binding constraint on long lessons.** Lesson 10 held 95 only by declining two
+  checkpoints the reviewer asked for (P15, P17) and cutting padding; its raw measure sits a few words
+  under the rounding line. Fixers of lessons 11 to 16 should expect the same trade.
+- **Quiz keys:** lesson 10 took 1,3,2,0,3,1 under the relaxed rule. The final test now has nineteen
+  items (fourteen to pass) and ends on key 1.
+- **G16 not worked for lesson 10** (a Commons photograph of cling film on a burn).

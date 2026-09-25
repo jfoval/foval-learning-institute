@@ -359,12 +359,48 @@ quiz:
       The recovery position isn't St John's step for shock, and RCUK says not to move a person into
       it after trauma.
 
-  # Items for lessons 10 to 15 go here as those lessons are written (OUTLINE "Assessments").
+  # --- Burns, cuts and small injuries (L10) ---
+  - q: >-
+      In a flat in Preston, a man scalds the back of his hand with steam from a pan, holds it under
+      the tap for a few seconds, and carries on cooking. Two hours later it still stings, and the
+      skin is red but not blistered. He wonders whether cooling it now is any use. Under the NHS's
+      advice, what should he do?
+    options:
+      - Nothing more, since cooling only helps in the first few minutes after the burn happens
+      - Rub in some butter or a cream now, since it's too late for water to do the burn any good
+      - Hold a bag of ice on it for 10 minutes, since after two hours water is too gentle to help
+      - Hold it under cool running water for 20 minutes now, since it's still within 3 hours
+    answer: 3
+    explain: >-
+      The NHS says to hold a burn or scald under cool running water for 20 minutes, "as soon as
+      possible, within 3 hours of it happening". Two hours in, he's inside that window, and the
+      British Burn Association gives the same 20 minutes within 3 hours. Neither says cooling stops
+      helping after the first few minutes. The British Red Cross says butter and cream won't cool a
+      burn and oils hold the heat, and the British Burn Association and St John say no ice.
+  - q: >-
+      In a backyard in Wichita, a woman is hammering a nail when something flies up into her eye.
+      She rinses it with tap water for several minutes, but it still feels as if something is in
+      there. Under the AHA/Red Cross 2024 guideline, what now?
+    options:
+      - Rinse it for another 15 minutes, and see a doctor next week if it still feels scratchy then
+      - Get medical care now, without rubbing it, since the feeling that something's there persists
+      - Lift it off her eye with the corner of a damp tissue, since rinsing hasn't cleared it out
+      - Cover it with a pad and let her sleep, since tears overnight will wash out what's left
+    answer: 1
+    explain: >-
+      The guideline sends a person to medical care at once (COR 1, LOE C-LD) after an eye injury at
+      speed, as from nailing, and when something still feels as if it's there after rinsing. It
+      also says not to rub the eye (COR 1, LOE C-EO), because rubbing may make a scrape on its
+      surface, or a wound that has gone in, worse. Waiting a week or overnight ignores both reasons.
+      Lifting a speck off with a damp tissue corner is St John's step for something sitting on the
+      surface, and here the nail and the lasting feeling both say get care now.
+
+  # Items for lessons 11 to 15 go here as those lessons are written (OUTLINE "Assessments").
 ---
 
-<!-- Items for lessons 10 to 15 are still to be added: this file covers lessons 1 to 9 only for now. The blueprint is in research/OUTLINE.md, "Assessments". Update the counts in the paragraph below when they go in. -->
+<!-- Items for lessons 11 to 15 are still to be added: this file covers lessons 1 to 10 only for now. The blueprint is in research/OUTLINE.md, "Assessments". Update the counts in the paragraph below when they go in. -->
 
-This test covers lessons 1 to 9. **Seventeen questions, and 70 per cent to pass**, which is twelve.
+This test covers lessons 1 to 10. **Nineteen questions, and 70 per cent to pass**, which is fourteen.
 Questions on the later lessons will be added as those lessons are written.
 
 :::callout Before you need this
