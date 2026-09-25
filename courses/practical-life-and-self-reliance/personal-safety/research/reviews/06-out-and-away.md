@@ -194,3 +194,49 @@ figure; Washington DC only as the police force whose brochure is quoted.
 **Status after review:** needs second pass (a light one: the four new quiz items, the rebalanced
 critique and defence with the Senn 2017 reply, the children section's pairings, and the new US
 paragraph, read by fresh eyes).
+
+## 2026-09-25 — Lesson 06 — Stage 4 second pass, one reviewer (facts and safety)
+
+**Reviewer:** F2, fresh context, under the Reviewer F part of `research/pipeline-briefs.md`, scoped to
+the fix pass (commit adda490): the four new quiz items and the whole quiz, the rebalanced critique and
+defence, the children section's NCMEC pairings, the new US paragraph, and the content note. Checked
+against the primaries themselves: NCMEC's blog (saved copy), the DC police brochure (pdftotext of the
+PDF), Senn 2017 re-fetched today from PMC's BioC full text (PMC5821219), NISMART-3, the Lamplugh and
+FCDO pages. Read as someone attacked on a night out and as a parent. Quiz keys and option lengths by
+script; `npm run quotes personal-safety` 153 found, 0 not found.
+
+**First-pass findings claimed fixed, re-checked:** F1 (DC brochure quoted, US gap stated once and
+consistently with the followed section), F2/P18 (all three scripts whole, each paired with the rule
+NCMEC pairs it with, matching the page line for line), F3 (new Q5 distractor no longer contradicts
+"a parent with children"), F4/P6 (Hyman non-causal at all places), F5/P14 (the Senn 2017 passage
+matches PMC: "may simply move on to another woman", "may learn important lessons", and "which
+explanation is correct is an empirical question" paraphrased accurately), F6/P23, F7/P20, F10, F11,
+F15, F16/P15, P1, P2, P7, P8: all confirmed fixed.
+
+**Findings**
+- S1 [minor] "Its target isn't a straw man either: the Washington DC police brochure ... says "If
+  possible, don't walk alone"" offered a brochure written for everyone as an instance of advice aimed
+  at women; a defender would object, and it tilted the count. **Fixed:** "quoted earlier, written for
+  everyone rather than for women in particular, says".
+- S2 [minor] "NCMEC's own reason is that "most child abductions involve a relative..."" attached the
+  blog's opening reason for dropping "stranger danger" to the second script alone. **Fixed:** "NCMEC's
+  own reason for moving away from "stranger danger" is that".
+- S3 [minor] Misconceptions: "Stereotypical kidnappings were about a hundred" dropped the estimate's
+  hedge (105, 95% CI 40 to 165). **Fixed:** "were an estimated 105".
+- S4 [note, no change] Quiz: keys 0,3,2,1,3,2 as recorded; option lengths 72-75, 65-70, 75-78,
+  73-74, 72-77, 76-78 (spreads 3, 5, 3, 1, 5, 2); each explanation names distractors by content and
+  matches its key; no item asks what a victim should have done (Q2's "she can say no" is permission,
+  forward, and no harm has happened). Q2's key is the only option that is not a "since" sentence and
+  is the FCDO's line nearly verbatim, so a test-wise reader could find it; acceptable because the item
+  tests knowing the guidance. Against lessons 1 to 5 the sequence passes the rule; lessons 7 and 8,
+  drafted later, share runs of three with it (07 at offsets -2 and 1, 08 at offset 1), which is theirs
+  to resolve, not this lesson's.
+- S5 [note, no change] Balance after the fix: critique side Vera-Gray and Kelly, lesson 3's location
+  figures, the DC brochure as target, Scott via lesson 1, and the critics' reply in Senn 2017; defence
+  side lesson 5's burglary evidence (labelled as the defence's step), Clarke with Felson, the Lamplugh
+  disclaimer, Senn 2015 and the authors' reply in Senn 2017. The defence section ends on the critics;
+  "How they fit" gives the skills-versus-restriction point; the value paragraph states the defence's
+  answer then the critique's, then the shared commitment. Each side reads as its proponents would put
+  it. Content note in the standard form, all lines matching the gate closure, skip target present.
+
+**Status after review:** clean

@@ -470,8 +470,8 @@ the risk to women is from men they know, not strangers on the street; it's costl
 who have done nothing; and it shifts responsibility, because a list of precautions invites the
 question of which one a victim skipped. That is a mainstream position in UK research on violence
 against women, not a fringe one, and the figures in the last section are consistent with its first
-point. Its target isn't a straw man either: the Washington DC police brochure quoted earlier says "If
-possible, don't walk alone during late-night hours".[3] Lesson 1 met feminist criminologists'
+point. Its target isn't a straw man either: the Washington DC police brochure quoted earlier, written for everyone rather than for women
+in particular, says "If possible, don't walk alone during late-night hours".[3] Lesson 1 met feminist criminologists'
 related argument, as Scott summarises it, that street-crime framing hides violence behind closed
 doors.
 
@@ -554,7 +554,7 @@ kindergarten to fifth grade in US schools.[30]
 
 Look at what each script does. The first admits that a lost child will have to talk to a stranger,
 and says which one, chosen by role. The second covers people the child knows as well as strangers,
-and NCMEC's own reason is that "most child abductions involve a relative or someone the child
+and NCMEC's own reason for moving away from "stranger danger" is that "most child abductions involve a relative or someone the child
 knows, like a neighbor or online acquaintance";[30] in this course's reading it is also aimed at
 the lure, which is how the kidnapping study says most stereotypical kidnappings began. The third
 teaches the child to watch what someone does, which is lesson 4's rule for adults: behaviour, not
@@ -581,7 +581,7 @@ be in trouble." The third, with a promise added so that telling does not feel ri
 
 ## What people get wrong
 
-**"Stranger danger" is the core of child safety.** Stereotypical kidnappings were about a hundred
+**"Stranger danger" is the core of child safety.** Stereotypical kidnappings were an estimated 105
 in the US in 2011, most began with a lure, and NCMEC recommends teaching permission and behaviour
 instead.[29][30]
 
