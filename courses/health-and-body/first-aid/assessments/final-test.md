@@ -28,27 +28,30 @@ quiz:
 
   # --- Recognising arrest, the call, 999 or 111 (L2) ---
   - q: >-
-      In a lecture theatre in Coventry, a student of about twenty slumps from her seat to the floor.
-      Her arms and legs jerk for about ten seconds and then go still. She doesn't respond when you
-      shake her shoulders and shout, and every few seconds she gives a slow, snorting gasp. A friend
-      is calling 999 on speaker. Under RCUK's 2025 adult guidelines, what now?
+      In a laundromat in Duluth, Minnesota, a woman in her sixties slides off a plastic chair to the
+      floor and doesn't respond when you tap her and shout. The attendant has 911 on speaker. At
+      first she gave a loud snort every few seconds; now the snorts are quieter and come about every
+      fifteen seconds, and the attendant says she's settling. Under the AHA's 2025 adult guideline,
+      what now?
     options:
-      - Start CPR, since jerking can come at the start of an arrest and those gasps aren't breathing
-      - It was a fit, so roll her into the recovery position and watch her until the crew get there
-      - Wait a minute before acting, since breathing just after a fit can look stopped or odd at first
-      - Put something soft between her teeth first, in case the jerking starts again while you wait
+      - Start compressions now, since gasps that fade are still gasps, and fade as an arrest goes on
+      - Keep watching her, since snorts that come less often and more quietly mean she's settling
+      - Start only if the gaps pass half a minute, since that is the point where breathing has failed
+      - Wait until the snorts stop altogether, since only no breathing at all counts as an arrest
     answer: 0
     explain: >-
-      RCUK 2025: "A short period of seizure-like activity may occur at the onset of cardiac arrest.
-      Once the seizure stops, assess breathing." Her slow gasps are on its list: "Slow, laboured
-      breathing, as well as other abnormal patterns such as agonal gasping or panting, must be
-      recognised as signs of cardiac arrest." The ERC's 2025 guide for the public adds that brief,
-      seizure-like movements are often seen in younger people in cardiac arrest. So calling it a fit
-      and rolling her onto her side is the mistake: RCUK says not to use the recovery position with
-      agonal breathing, and effective CPR can't be given on the side (AHA 2025). Waiting a minute is
-      a minute with no circulation; RCUK's rule for doubt is to assume arrest and start CPR, and the
-      call handler on speaker helps you judge. Nothing goes in anyone's mouth during or after a
-      seizure (AHA/Red Cross 2024, COR 3: Harm).
+      The AHA's 2025 adult guideline says an adult who is "unconscious/unresponsive, with absent or
+      abnormal breathing (ie, only gasping)" should be assumed to be in cardiac arrest (COR 1, LOE
+      C-LD), and with 911 already called, CPR starts at once. It lists "snoring respirations" among
+      the words lay rescuers use for agonal breathing, and says agonal breathing "diminishes the
+      longer a person is in cardiac arrest", so snorts that fade are what an untreated arrest looks
+      like, not a recovery. Reading them as breathing is the mistake the AHA names as a common reason
+      bystanders miss an arrest. Waiting for them to stop altogether isn't asked of anyone:
+      abnormal breathing already counts, and the wait is time with no circulation. No source this
+      course read sets a gap between breaths at which to start; the test is whether the breathing is
+      normal, and hers isn't. The UK answer is the same: RCUK 2025 counts slow, laboured breathing
+      and agonal gasping as signs of arrest, and "If there is any doubt, assume cardiac arrest and
+      start CPR."
   - q: >-
       Your phone's battery died an hour ago. On an allotment in Lincolnshire you find your neighbour
       collapsed between the vegetable beds, not responding and not breathing normally. You shout for
@@ -70,26 +73,26 @@ quiz:
       breathing rather than a pulse. And the side position is for someone breathing normally, which
       he isn't; effective CPR can't be given on the side (AHA 2025).
   - q: >-
-      In Yeovil your grandfather, who is 81, is lying on the sofa watching television when he goes
-      limp, and for about twenty seconds you can't rouse him. Then he comes round, breathing
-      normally, knows where he is, and says he must have nodded off. He has no chest pain and isn't
-      hurt. Under the NHS fainting page, what fits?
+      In Penrith your great-aunt, who is 90, falls in her hallway and can't get up. You call 999; the
+      call handler says an ambulance is coming but may be a while, and the call ends. An hour later
+      she's still on the floor, and she has become sleepy and confused about where she is, though she
+      still answers you. Under the NHS's "When to call 999" page, what now?
     options:
-      - Call 999, since fainting while lying down is one of the NHS page's reasons to call
-      - See a GP in the next few days, since he came round fast and is fully himself again
-      - Call NHS 111 for advice, since he has recovered and you aren't sure what caused it
-      - Nothing more tonight, since waking inside a minute means it was a simple faint
+      - Call 999 again and say what has changed, since the NHS says to if her condition changes
+      - Call NHS 111 to ask if this is a worry, since an ambulance has already been booked for her
+      - Wait for the crew, since a second 999 call would put her back at the end of the queue
+      - Ring her doctor's surgery, since it has her notes and can pass the change on to the crew
     answer: 0
     explain: >-
-      The NHS fainting page's reasons to call 999 include fainting while lying down, alongside not
-      breathing, not waking within a minute, not fully recovering, chest pain or a pounding or
-      irregular heartbeat, a serious injury, a seizure, and fainting while exercising. He fainted
-      lying on the sofa, so it's 999 even though he's himself again. The page's default after a
-      faint is a GP appointment, which is right only when none of those reasons applies. NHS 111 is
-      for when you're "not sure if you need to call 999", and here the page has settled that for
-      you. Coming round quickly is usual for a faint, since the page says people usually wake
-      within 30 seconds, and it doesn't take him off the list. (In the US the AHA/Red Cross 2024 guideline
-      calls for 911 after any faint.)
+      The NHS page's list of things to do while you wait for an ambulance includes "call 999 again if
+      the person's condition changes." Becoming sleepy and confused is a change, so it's 999 again,
+      telling the call handler what's new. NHS 111 is for when you're "not sure if you need to call
+      999", and the page has already settled that for you. No page this course read says a second
+      call loses her place in a queue, and this one asks for the call. Her doctor's surgery isn't on
+      the page's route while you wait; what the page does ask is that you gather her medicines for
+      the crew. If she stops responding and isn't breathing normally, it's 999 on speaker and CPR
+      (RCUK 2025). This course read no US source on calling back, which is why the question names the
+      NHS.
 
   # --- Pushing on the chest (L3) ---
   - q: >-
@@ -196,8 +199,8 @@ quiz:
       and it reports two trials, enrolling more than 1,000 patients between them, that found no
       gain in survival from pausing to check, and observational studies linking a delay to less
       return of circulation. The pads stay on, because the AED analyses again after a set interval
-      (RCUK 2025). And lay rescuers don't check a pulse: the AHA's 2025 adult guideline bases their recognition on response and
-      breathing instead.
+      (RCUK 2025). And lay rescuers don't check a pulse: the AHA's 2025 adult guideline bases their
+      recognition on response and breathing instead.
 
   # --- Children and babies (L6) ---
   - q: >-
@@ -499,7 +502,7 @@ quiz:
       At rugby training in Gloucester on a hot afternoon, a 19-year-old forward starts stumbling and
       can't say where he is. He's awake and can walk with help. The club has a cold-water plunge tub
       the players use after matches, and a coach wants to drive him to A&E, 25 minutes away, straight
-      away. Under RCUK's 2025 first aid guideline, what fits?
+      away. Under RCUK's 2025 first aid guideline and the NHS, what fits?
     options:
       - 999, then into the plunge tub neck down with people holding him, cooling before any transfer
       - Into the coach's car at once, since the hospital can cool him faster than anything at the club
@@ -528,8 +531,8 @@ This course is education, not a certificate, and not medical advice about anyone
 :::
 
 Every question puts you somewhere the lessons didn't: a new person, a new place, a new line from a
-guideline. The people and what happens to them are invented; the rules in the explanations are the real ones the
-lessons read, each with the body and year it comes from.
+guideline. The people and what happens to them are invented; the rules in the explanations are the
+real ones the lessons read, each with the body and year it comes from.
 
 Where a safety step differs between the two countries, the question names the country whose rule
 it's asking about, and that's the rule to answer by. Where a question names neither, or says both,

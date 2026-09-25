@@ -356,3 +356,137 @@ dashes in it.
 
 **Status after review:** fixed, 5 high, 6 medium, 4 low; a second whole-test pass in a fresh context
 is owed on the eight replaced items (2, 4, 5, 7, 12, 16, 23, 24) before the course publishes.
+
+## 2026-09-25 — the course-end test, second pass
+
+**Scope.** A fresh-context second pass on `assessments/final-test.md` after the whole-test review
+above (commit c8b04ef): the eight replaced items (2, 4, 5, 7, 12, 16, 23, 24) and the seven with
+rewritten distractors (1, 11, 15, 18, 19, 20, 22), each read against the current text of its
+lesson and SOURCES.md, then the whole test once for shape.
+
+**Method.** Each key and explanation re-read against the lesson passage it rests on and the
+SOURCES line behind it (body, year, grade, audience; decision 12). Arithmetic redone (items 5, 12,
+16, 18, 22, 23, 24 and the pass mark). Reuse by script: place names, ages, settings and case nouns
+from each changed stem searched across all 16 lessons and the project, each hit read in context;
+then every changed item compared by reading with all 96 lesson quiz items and the lessons' worked
+cases, since the first pass's script finds shared words, not shared decisions. Shape by
+`check-quiz-shape.cjs`, `check-quiz-letters.cjs` and a scratch script (key positions, adjacent
+repeats, per-item spread, sole-longest and sole-shortest keys).
+
+### Findings
+
+**High**
+1. **Item 4 (new) mirrors lesson 7's quiz item 6.** Lesson 7 item 6: a man faints jogging, comes
+   round in about twenty seconds, insists he's fine; "Under the NHS fainting page, what should
+   happen?"; options GP in the next few days because he came round fast, nothing more because he
+   woke within 30 seconds, 999 because fainting while exercising is on the list, NHS 111 because he
+   has recovered. Item 4: a man faints on the sofa, comes round in about twenty seconds, says he
+   nodded off; "Under the NHS fainting page, what fits?"; the same four options in the same shapes,
+   with "while lying down" in place of "while exercising". A reader of lesson 7's quiz answers it
+   by pattern. This is the defect the first pass replaced the old item 4 for. **Not fixed: needs a
+   replacement item** (lesson 2 slot; the blueprint's other lesson 2 material is the call order,
+   the 999/111 line on a page other than fainting, or recognition).
+
+**Medium**
+2. **Item 2 (new) follows lesson 2's worked case step for step.** The five-a-side case: collapse,
+   a few seconds of jerking, then loud slow gasps; a friend says "fit" and they roll him onto his
+   side; the lesson's points 2, 3 and 5 take each apart. Item 2: collapse, ten seconds of jerking,
+   then slow snorting gasps, with "it was a fit, so the recovery position" as the lead distractor.
+   New person and place, not exercise, and the worked case is not a quiz item, so it is
+   application rather than a copy; but the decision and the trap are the lesson's own example.
+   Lesson 7's exercise case 4 is the same trap again. **Not changed**; worth replacing if item 4
+   is being rewritten anyway, since both are lesson 2 slots.
+
+**Low**
+3. Item 7's stem line is not "quoted in no lesson", as the first pass says: lesson 15's bites and
+   stings table gives it, graded, "A sting to the eye itself is seen by a trained professional
+   (COR 1, LOE C-EO)". It is paraphrased there and the item tests reading the label, not the sting
+   rule, so a lesson 15 reader is helped only to rule out option B. Noted, not changed.
+4. Item 12's option D (turn every half hour for the lower arm) echoes older ERC advice to turn
+   someone to the other side after 30 minutes, which no source this course read contains. The
+   option is wrong on the watching interval, which is what the item asks, and the explanation's
+   "No source this course read sets a half-hour turn" is scoped correctly. Noted.
+5. Item 24 asks "Under RCUK's 2025 first aid guideline" and its key starts with 999, which RCUK's
+   steps don't contain (lesson 15's table: "not in RCUK's steps"). The explanation sources the call
+   to the NHS and the ERC, so the key is sound; the stem could say "RCUK's and the NHS's". Noted.
+6. Item 23 applies lesson 14's own sentence ("4 minutes is on the NHS list for someone whose
+   seizures last 2") with new numbers, and item 18's "back of his hand" echoes lesson 10's oven
+   shelf checkpoint (a different decision, burn size). Both new cases; noted.
+7. **Fixed:** item 4's US line gave no grade; now "COR 2b, LOE C-EO", as lesson 7's table has it.
+   Three long lines rewrapped (item 4's US line, item 9's last sentence, the intro's "invented"
+   sentence at 112 characters).
+
+**Checked and clean.** Keys and explanations against the lessons' current text: item 1 (RCUK's
+April 2018 booklet, "professional rescuer", "as far as they are able", no successful claim; the
+2015 Act); item 2 (RCUK 2025 seizure-like onset and agonal breathing; the ERC's younger victims;
+"If there is any doubt"; COR 3: Harm for the mouth); item 5 (the American Red Cross's under 10
+seconds, the AHA's coronary perfusion line and one-second breath; 100 to 120 at COR 2a, LOE B-NR);
+item 7 (Table 1's class 1 "should", C-EO's wording, "does not imply ... weak"; Table 26 row 4 in
+SOURCES); item 11 (RCUK's neutral head and mouth-and-nose); item 12 (RCUK paediatric
+continuously or every minute; the ERC's don't leave; the AHA/Red Cross delayed-recognition line);
+item 15 (the American Red Cross on choking alone); item 16 (COR 1, LOE B-NR; Stop the Bleed's 2 to
+3 inches and elbow or knee; Richey; pressure points 2b and ILCOR against; the NHS cuts page's
+raise; RCUK 5-7cm); item 18 (NHS and BBA 20 minutes within 3 hours; the US 5 to 20); item 19
+(COR 1, LOE C-LD care at once; no rubbing, C-EO; St John's tissue corner); item 20 (the NHS 999
+and 111 lists; the American Red Cross's fluid from the nose); item 22 (COR 2b, LOE B-NR, both
+conditions; RCUK's five-minute clock, opposite leg); item 23 (the NHS list, "don't always need";
+restraint COR 3: Harm; the US 5 minutes at COR 1, LOE C-LD); item 24 (RCUK's gold standard 1 to 26
+°C, cool first, 15 minutes or until thinking clears; the ERC's 0.15 °C a minute; the NHS 999; lesson
+14's no-drink rule; the US COR 2a, LOE C-LD and COR 1, LOE C-EO). Arithmetic: 2 to 4 × 81 mg is 162
+to 324 and 8 × 81 is 648; two one-second breaths inside 10 seconds; 2 to 3 inches is about 5 to
+7.5 cm; two hours is inside three; seven minutes on and 30 out meets "exceed 5 to 10"; 3.5 minutes
+is 1.5 short of 5; 70 per cent of 24 is 16.8, so 17. Every changed item names its country or has one
+answer under both, and no distractor is right under the country the item names; the ones right
+elsewhere (item 18's 10 minutes under the US 5 to 20, item 23's "not yet, 5 minutes" under the US
+line) sit in items that name the UK and say so in the explanation. Explanations name each
+distractor by content. Item 16 checked against lesson 9's Tacoma item (a spike, a tourniquet above
+it): a different decision.
+
+**Shape.** Key sequence CABACBDADCDBACBACDBDBCDA; positions 6/6/6/6; no adjacent repeats; widest
+spread 9 characters (item 1); key sole-longest 3 (items 9, 21, 22), sole-shortest 6.
+`check-quiz-shape.cjs`: no strategy passes. `check-quiz-letters.cjs`: clean.
+
+**Measures.** `npm run validate` exit 0, no line naming this file; `npm run build:drafts` exit 0;
+no em dashes or spaced en dashes in the test.
+
+**Status after review:** needs further work. Item 4 needs replacing (high 1); item 2 is worth
+replacing at the same time (medium 2). Everything else is clean.
+
+### Replacements, same day
+
+Items 2 and 4 replaced in their lesson 2 slots, keys kept at A so the key sequence
+(CABACBDADCDBACBACDBDBCDA, 6/6/6/6, no adjacent repeats) holds.
+
+- **Item 2, recognition from a described breathing pattern (US, AHA 2025).** A woman who can't be
+  roused in a Duluth laundromat, 911 on speaker; her snorts are getting quieter and further apart,
+  and the attendant says she's settling. Key: start compressions, since fading gasps are still
+  gasps. It rests on the AHA's "only gasping" line (COR 1, LOE C-LD), "snoring respirations", and
+  agonal breathing "diminishes the longer a person is in cardiac arrest" (lesson 2's "Gasping is not
+  breathing"; SOURCES Part A, AHA Part 7 §6.1 to 6.2). The trap, fading gasps read as recovery, is
+  in no lesson case, quiz or exercise, and not in the project. The nearest matches, read in
+  context: lesson 2's quiz item 2 (Chicago, sighing and moaning), card 3 and the bus-bench
+  checkpoint (both sounds as breathing), lesson 7's quiz item 3 (a slow gasp every ten seconds) and
+  project H (slow breathing, opioids). Each is a sound or a slow rate read as breathing, not a
+  change over time read as improvement. The side-position distractor was dropped because it
+  mirrored lesson 2's Chicago item; it became an invented half-minute threshold. The UK answer is
+  the same (RCUK 2025), as the explanation says.
+- **Item 4, 999 against 111 (UK, NHS "When to call 999").** A 90-year-old great-aunt on the floor
+  in Penrith after a fall, the ambulance booked and the call ended; an hour on she's sleepy and
+  confused but still answers. Key: call 999 again, from the page's while-you-wait list, "call 999
+  again if the person's condition changes" (SOURCES D16). Distractors: 111 because an ambulance is
+  booked (111 is for "not sure if you need to call 999"), a second call losing her place (in no
+  source), and her doctor's surgery. The line appears only in lesson 2's body and lesson 16's
+  handover list, never as a case or quiz item, and not in the project. "Drowsy and muddled" was
+  changed to "sleepy and confused" because lesson 12's Raleigh quiz item uses the first phrase.
+- **Item 24's stem** now reads "Under RCUK's 2025 first aid guideline and the NHS", so the 999 in
+  its key has a named source in the stem (low 5 above).
+- The stem words were checked by script (place, person, setting, the pattern words) against all 16
+  lessons and the project, with no hits except generic ones read in context: "snort" in lesson 2's
+  ERC list, "hallway" in lesson 3's CPR case, "sleepy" in lesson 11's British Red Cross list, which
+  supports the same key.
+
+**Measures.** Spreads: item 2 is 4 characters, item 4 is 5. `check-quiz-shape.cjs` and
+`check-quiz-letters.cjs` are clean. `npm run validate` exited 0 with no line naming this file,
+and `npm run build:drafts` exited 0. There are no em dashes.
+
+**Status after review:** clean.
