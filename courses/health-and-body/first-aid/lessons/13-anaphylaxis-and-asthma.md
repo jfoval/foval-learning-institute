@@ -47,8 +47,8 @@ quiz:
       easily by people without medical training. RCUK's own step names the person or trained
       individuals, and it doesn't say how its exception for equipment the emergency services direct
       you to use applies here, so tell the call handler what you're doing and follow what they say.
-      Lying him down is right too, but not instead of the adrenaline, and an antihistamine isn't the
-      emergency treatment (RCUK 2021).
+      With breathing this hard St John says to sit him up rather than lay him flat, and no position
+      replaces the adrenaline; an antihistamine isn't the emergency treatment (RCUK 2021).
   - q: >-
       At a wedding in Winchester, a woman who is 30 weeks pregnant has anaphylaxis after a nut
       dessert. She has used her own auto-injector and 999 is on the way. Her breathing is not
@@ -112,7 +112,7 @@ quiz:
       St John says repeated doses can be given at five-minute intervals if there is no improvement
       or the symptoms return, and hers have returned. EpiPen's US label says the same for symptoms
       that continue or come back. RCUK's five-minute line is written for symptoms that persist;
-      St John's page covers a return. That's why the leaflets say to call even when the first dose
+      St John's page covers a return. It's also why the leaflets say to call even when the first dose
       works: the reaction may happen again later. No text here calls a returning reaction milder.
 ---
 
@@ -275,10 +275,10 @@ including ones that change after this lesson: **follow the instructions printed 
 which the NHS says are on the side of the injector.[7]
 
 The Jext leaflet and EpiPen's US label both warn never to put a thumb or hand over the needle end.
-Adrenaline injected by accident into a finger or hand can cut off the blood flow there, and EpiPen's
-US label says to go straight to the nearest emergency room if it happens.[11][12] Each device is one
-dose, and the US label tells caregivers to hold a young child's leg firmly before and during the
-injection, to lower the risk of injury.[12]
+Adrenaline injected by accident into a finger or hand may reduce or stop the blood flow there, and
+EpiPen's US label says to go straight to the nearest emergency room if it happens.[11][12] Each
+device is one dose, and the US label tells caregivers to hold a young child's leg firmly before and
+during the injection, to lower the risk of injury.[12]
 
 Nasal sprays exist now too, neffy in the US and EURneffy in the UK, each with a lower dose for
 children from 15 kg.[12][14] neffy's label puts any second dose in the same nostril with a new
@@ -305,9 +305,9 @@ The [ERC's](https://doi.org/10.1016/j.resuscitation.2025.110752) one-line summar
 split as RCUK's.[3]
 
 The US side, in this course's reading: the same guideline's shock section, which lesson 9 taught,
-puts a person in shock with no trauma or injury on their back with the feet raised about 6 to 12 in
-(AHA/Red Cross 2024, COR 2b, LOE C-LD). It does not name anaphylaxis, and this course leaves it
-there.[1]
+says that for a person in shock with no trauma or injury, raising the feet about 6 to 12 in from
+lying on their back may be reasonable (AHA/Red Cross 2024, COR 2b, LOE C-LD). It does not name
+anaphylaxis, and this course leaves it there.[1]
 
 Why lying down? With the vessels wide and leaking, less blood flows back to the heart and it fills
 poorly (RCUK 2021). Getting up makes that worse: "Changes in posture from supine to standing or

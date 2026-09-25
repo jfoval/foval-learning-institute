@@ -198,3 +198,52 @@ miss is in lesson 15, another agent's draft).
 **Status after review:** needs second pass. The six quiz items' new text, the Who-gives-it pair,
 the needle-end paragraph, the rebuilt Des Moines timing, the posture checkpoint, the US posture
 sentence, the spacer glosses, exercise 1 and the final-test item are new text no reviewer has read.
+
+## 2026-09-25 — Lesson 13 — Stage 4 second pass, one reviewer (facts and safety)
+**Reviewer:** F2, fresh context, on the fix pass committed in 9c78a55. Scope as the fixer asked: the
+six quiz items, "Who gives it", the needle-end paragraph, the Des Moines timing, the posture
+checkpoint, the US posture sentence, the spacer glosses, exercise 1 and the Missoula item in
+`assessments/final-test.md`, each checked against the saved primaries in `r13f/` (Jext and EpiPen
+UK leaflets, EpiPen US label, MHRA 2023, NHS anaphylaxis and asthma, St John anaphylaxis, RCUK 2025,
+the AHA/Red Cross 2024 capture) and lesson 9 for the shock line.
+
+**Checked and sound.** Quiz keys 0,2,3,1,0,3; option lengths 68/69/66/66, 70/68/70/68, 76/74/67/70,
+70/69/69/77, 68/70/68/67, 76/78/74/74 (Q4's second option is 69, not 70; the key is never the sole
+longest). Every explanation read against its key. Jext: "Hold the injector firmly in place against
+the thigh for 10 seconds (a slow count to 10) then remove", then "Massage the injection area for 10
+seconds": exact in Q1 and the table. EpiPen: 3 seconds (UK leaflet; US label "a full 3 seconds ...
+count slowly 1, 2, 3"). Who gives it: RCUK 2025's "either self-administered or by trained
+individuals", its trained-to-use principle and emergency-services exception, St John's "help them to
+use it or do it yourself straight away following the instructions", the MHRA's patient or carer,
+EpiPen UK's "without medical training", Table 22's "use their autoinjector": all match. Clocks
+redone by hand: Des Moines 10:14 to 10:19 is five minutes, a crew 15 minutes out exceeds 5 to 10,
+and three minutes would not; Grimsby 1:05, 1:10, 1:25 consistent; Missoula seven minutes and 30
+minutes out meets both US conditions. Posture checkpoint matches the MHRA ("lie down again as soon
+as you can", "stay lying down even if you feel better") and the NHS ("Do not stand or walk at any
+time"). Spacer glosses match the AHA text and the Cates title. Exercise 1 has no one handle a real
+device: the owner shows the instructions or the reader uses the box leaflet, the real device is put
+away first, and nothing is pressed against a person. Missoula: key 2, lengths 70/69/70/69, no
+adjacent repeat in the test's key sequence, place unused elsewhere. First-pass F and P findings
+spot-checked as fixed (F5, F11, F14, F16, F21, F22, F23, P1, P3, P5).
+
+**Findings:**
+1. S1 [major, safety, fixed] Quiz 2 explanation: "Lying him down is right too" for a man too
+   breathless to follow the steps. St John: "If they are having breathing difficulties, then sit
+   them up"; RCUK 2025 lies a person down "unless there are breathing difficulties". Now: "With
+   breathing this hard St John says to sit him up rather than lay him flat, and no position replaces
+   the adrenaline".
+2. S2 [minor, fixed] Needle-end paragraph: accidental injection "can cut off the blood flow". The
+   EpiPen US label says "may cause a loss of blood flow", the Jext leaflet "reduced blood supply".
+   Now "may reduce or stop the blood flow".
+3. S3 [minor, fixed] US posture sentence: the shock section "puts a person ... with the feet
+   raised" dropped the guideline's "may be reasonable" (defect 19). Now "says that ... raising the
+   feet about 6 to 12 in from lying on their back may be reasonable".
+4. S4 [minor, fixed] Quiz 6 explanation: "That's why the leaflets say to call" followed a sentence
+   about RCUK and St John, a non sequitur. Now "It's also why"; both leaflets carry the line.
+5. S5 [note] Contractions by the validator's method (body after front matter, Sources included):
+   51 in 6,674 words, 7.6 per 1,000, inside the band. Counted to "## Sources" only: 51 in 6,001,
+   8.5. Left as is. `minutes:` 90 (model 7,037 words, 90).
+
+**Checks.** `npm run validate` exit 0; `npm run quotes first-aid`: 404 quotations, 0 not found.
+
+**Status after review:** clean
