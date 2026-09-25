@@ -242,3 +242,74 @@ every quotation in the hypothermia section also checked by hand against the new 
 
 **Status:** S4 resolved. The rewritten paragraph has not had a fresh-context Stage 4 read; a
 single reviewer on the hypothermia section is worth running before the script is written.
+
+## 2026-09-25 — Lesson 15 — review of the hypothermic-arrest rewrite, one reviewer
+
+Scope: the "If they stop responding" section under hypothermia, the new handling sentence, and
+footnotes 14 to 17, as changed in 0480eb8. Fresh context, Reviewer F (facts and safety). Checked
+against the brief's Reviewer F part, the SOURCES section "Stage 1 addition: hypothermia and arrest
+(2026-09-25)", and the saved primaries (AHA Part 10 Wayback text, RCUK special circumstances and
+adult BLS pages, the ERC special circumstances extract and Fig. 5 image, the ERC lay guide text).
+
+**Claims checked against the primary.**
+1. "Minimal and cautious movements to avoid rescue collapse", ERC Fig. 5, Hypothermia II or III box:
+   verbatim, read from the figure image. II and III are the moderate and severe stages: correct.
+   "don't define rescue collapse": matches SOURCES. Pass.
+2. AHA "full resuscitative measures should be performed immediately and continued concurrently with
+   rewarming", no obvious lethal injury, COR 1, LOE C-LD adults and C-EO children: verbatim, both
+   tables. Pass.
+3. "primarily for North American health care professionals": verbatim, §4.1 Scope. "No hypothermia
+   line in it is marked for lay rescuers": true of §17. Pass.
+4. ERC lay guide, "Hypothermic persons in cardiac arrest should receive continuous CPR until warming
+   has been re-established": verbatim (pp. 58 to 59, across a hyphenated line break). Standard
+   training protocol rate and protection from cold: faithful paraphrase. Pass.
+5. One-minute check. The quoted wording is RCUK's ("up to 1 min"); the ERC concise line says "up to
+   one minute". The lesson attributed RCUK's wording to both. **Fixed** (below). Pulse and breathing
+   as the vital signs (RCUK Swiss staging; ERC "pulse and, especially, respiration"), ECG and
+   ultrasound in the ERC evidence text, and the lay guide's omission: all confirmed. Both ungraded:
+   confirmed.
+6. RCUK Adult BLS "Slow, laboured breathing ... must be recognised as signs of cardiac arrest", in
+   the "Recognising cardiac arrest" block that opens with an unresponsive person: the lesson's "in an
+   unresponsive person" is fair. NHS slow breathing as a hypothermia sign: in footnote 7's page as
+   the lesson already reports it (line 398). Pass.
+7. AHA delayed or intermittent CPR "may be reasonable", environmental conditions, rapid extraction,
+   2b C-EO (adults and children): pass. RCUK and ERC below 28 °C when immediate or continuous CPR is
+   not feasible: pass. Conversion redone by hand: 28 × 1.8 + 32 = 82.4 °F. Pass.
+8. AHA scene safety ("verification of scene safety prior to implementing resuscitative measures is
+   important"): pass.
+9. "findings that mimic death" and the rigor mortis sentence: verbatim, §17.1. The metabolic sentence
+   is in the same paragraph, but the AHA does not present it as the reason signs of death are
+   unreliable; the lesson said "Its reason is". **Fixed** to "It adds that" (below).
+10. Withholding conditions in AHA supportive text; ERC Fig. 5 "Do not terminate CPR" on the route to
+    an ECLS hospital: both confirmed.
+11. Footnotes: Part 10 authors Cao, Arens, Chow (SOURCES S3); ERC SC authors Lott, Karageorgos,
+    Abelairas-Gomez (S8); lay guide PDF created 10 Dec 2025 (S10); RCUK pages both published 27
+    October 2025 (confirmed on both saved pages). Read levels match the SOURCES addition, including
+    the unread ERC corrigendum. Pass.
+
+**Safety.** Nothing in the section tells a lay reader to delay the call or CPR on a clinicians' line.
+The one-minute check, delayed CPR and the withholding list are each labelled as not a lay step, and
+each bullet ends on lesson 2's rule (call, CPR, keep going until the crew take over). The only lay
+action added is scene safety, which lesson 2 already teaches. Every instruction carries its body
+and year.
+
+**Decision 2.** The US / UK and Europe pair sits as two bullets, not interleaved; each side is
+given in its own words; neither is called wrong. Observation, not a defect: the UK side rests on
+the ERC lay guide because RCUK publishes no public-facing hypothermic-arrest line; RCUK's own
+chapter adapts the ERC's, so the pairing is honest.
+
+**"Course's reading" labels.** "This course's reading is that the line is written for
+professionals" is labelled and supported (ERC lay guide calls the special-circumstances
+recommendations "mainly meant for healthcare professionals"; the check uses ECG and ultrasound;
+the lay guide omits it). "Will not add a reason of its own" and "don't define rescue collapse" are
+honest about what was read.
+
+**Fixes applied to the lesson.**
+1. One-minute check: quotation now attributed to RCUK, with the ERC's "one minute" wording noted
+   separately; each still marked ungraded.
+2. When to stop: "Its reason is that cold lowers" became "It adds that cold lowers", so the course
+   no longer states a causal link the AHA does not draw.
+
+**Measures.** `npm run minutes` 120, frontmatter 120, unchanged. `npm run validate` exit 0.
+
+**Status after review:** clean

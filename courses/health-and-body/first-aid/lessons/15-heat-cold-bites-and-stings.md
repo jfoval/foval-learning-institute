@@ -492,8 +492,9 @@ each line is for.
 
 The professional texts say three more things you may hear about. None is a step for you.
 
-- **The one-minute check.** RCUK's and the ERC's special circumstances guidelines say "Check vital
-  signs for up to 1 min in an unconscious hypothermic patient." (RCUK 2025; ERC 2025, ungraded)[17][14]
+- **The one-minute check.** RCUK's special circumstances guideline says "Check vital signs for up
+  to 1 min in an unconscious hypothermic patient." (RCUK 2025, ungraded), and the ERC's says the same
+  with "one minute" (ERC 2025, ungraded).[17][14]
   Vital signs there are pulse and breathing, the ERC's supporting text does the check with heart
   monitoring and ultrasound as well as by examination, and the ERC's guide for the public leaves the
   line out.[14][16][17] This course's reading is that the line is written for professionals, so it
@@ -508,7 +509,7 @@ The professional texts say three more things you may hear about. None is a step 
   for a hypothermic arrest.[15]
 - **When to stop.** The AHA says severe hypothermia can produce "findings that mimic death", and
   "Apparent rigor mortis or fixed dilated pupils may not be reliable signs of death in this setting."[15]
-  Its reason is that cold lowers the body's metabolism and oxygen use, which improves the chance of
+  It adds that cold lowers the body's metabolism and oxygen use, which improves the chance of
   survival and recovery even after a long arrest.[15] Its list of conditions for withholding CPR is in
   the supporting text of a guideline written for professionals, and the ERC's flowchart for
   professionals says "Do not terminate CPR" on the way to a hospital that can rewarm.[15][14] So cold
