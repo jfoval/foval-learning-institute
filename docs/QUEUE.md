@@ -33,9 +33,12 @@ Rewrite these five lines each session. Nothing else goes in this block.
   **Google is accepting renders again** (2026-09-24, later the same day): Bible Basics 8 rendered,
   uploaded and stamped for $0.24, so John raised the cap. `scripts/podcast/budget.json` still says
   $56 and `npm run state` therefore reports the cap as spent; **John: put the new cap from
-  aistudio.google.com/spend into budget.json** (the page needs his sign-in). Until then a session
-  renders in Core term order by hand and stops at the first refusal. Episodes still owed: Bible
-  Basics 9 to 12, Cooking 12, Nutrition 11, Strength 10.
+  aistudio.google.com/spend into budget.json** (the page needs his sign-in). Six more rendered the same evening
+  (Cooking 1 to 5), then Google returned **429: 50 requests per day per model on gemini-2.5-pro-tts**,
+  resetting about 19:00 on 2026-09-25. That is a request count, not money: the day's ceiling is
+  about 50 renders including refused attempts. Render again after the reset, in Core term order,
+  one call each, stopping at the first refusal. Episodes still owed: Cooking 6 to 12, Nutrition
+  11, Strength 10, Bible Basics 9 to 12.
 
   **What John's ear settled on 2026-09-25, which changes how a render is judged.** The engine
   sometimes gives one of John's lines to Haley. The per-window speaker share cannot be trusted to
