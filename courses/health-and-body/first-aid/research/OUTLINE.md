@@ -785,8 +785,8 @@ lesson, at least one of them a decision on a new scenario.
   not cardiac arrest, and why the person can stop breathing again; why tensing the legs can stop a
   faint (it pushes blood back from the legs, per the AHA's supportive text if it says so; else the
   instruction and the trial result only).
-- **Worked examples:** (a) simple: a man found drowsy after a night out, breathing normally and
-  snoring softly, put in the recovery position and watched, with the moment his breathing changes
+- **Worked examples:** (a) simple: a man found drowsy after a night out, breathing normally (quiet
+  and regular; never slow or snoring, which are signs of arrest: Stage 4, 2026-09-25), put in the recovery position and watched, with the moment his breathing changes
   and the rescuer rolls him back and starts CPR. (b) wrinkle: a young woman found in a public
   toilet, barely breathing, pinpoint pupils, a naloxone kit on the wall. The lesson sequences it
   under AHA 2025 (call, breaths and compressions if not breathing normally, naloxone without

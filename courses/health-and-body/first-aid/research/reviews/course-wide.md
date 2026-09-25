@@ -43,3 +43,23 @@ the same time, recreated the file over them. The fix brief now says to append, n
 - **"Both sides admit" recurred twice in one lesson** (minimal evidence on the child sequence; no
   human comparison on drowning order). Each time only the AHA said it. Reviewers: check every
   symmetric admission against each body's own text.
+
+## 2026-09-25 — from lesson 7's Stage 4
+
+- **Slow or snoring breathing is never normal breathing in this course.** Lesson 7's draft taught a
+  slow, softly snoring man as breathing normally; RCUK Adult BLS, the AHA's "snoring respirations"
+  and the British Red Cross all treat it as a warning sign, and lesson 2 already did. The error came
+  from OUTLINE lesson 7's worked example (a), "breathing normally and snoring softly". Lesson 14
+  (seizure recovery, low blood sugar), any podcast script and the final test should describe normal
+  breathing as quiet and regular at an ordinary pace, and never as slow or snoring.
+- **The AHA/Red Cross "leave as found" row is for a responsive injured person.** Table 14 has no
+  row for an injured person who won't respond (SOURCES, "Gate closures, lesson 7"). For that person
+  cite the ERC/RCUK exclusion and the ERC's "kept in supine position". Lesson 11 should start there.
+- **The AHA says lay rescuers and the public can give naloxone** (Part 10 Top 10); its COR 1 is
+  the narrower trained-rescuer line. RCUK is the body with the training condition.
+- **RCUK's first aid page prints no recovery-position method;** the steps are the ERC's.
+- **Quiz keys are running out of room.** Against lessons 1 to 6 and the lesson 8 draft, only 22 of
+  4,096 six-item sequences have at most two positional matches and no two consecutive matches with
+  any of them. Later fixers should search by script rather than by eye.
+- **G16 was not worked for lesson 7** (Commons recovery-position images); the lesson describes the
+  position in words and a table.
