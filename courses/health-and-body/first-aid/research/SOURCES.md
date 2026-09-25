@@ -2539,7 +2539,7 @@ varies by state and country" line.
 - **Source D42.** Yeung J, Djarv T, Hsieh MJ, et al. Spaced learning versus massed learning in
   resuscitation: a systematic review. Resuscitation 2020;156:61-71. Read level: abstract only.
   - 17 studies; 15 favoured spaced learning; "overall certainty of evidence was rated as very low"
-    [V]; "insufficient data to examine the effectiveness of spaced learning on laypeople" [V].
+    [V]; "insufficient data to examine the effectiveness of spaced learning on laypeople compared to healthcare providers" [V]. (Completed at lesson 16's Stage 4, 2026-09-25: this line stopped at "laypeople", which read as no lay data at all; the abstract's point is that lay people could not be compared with providers.)
 - **Source D43.** Riggs M, Franklin R, Saylany L. Associations between CPR knowledge,
   self-efficacy, training history and willingness to perform CPR and CPR psychomotor skills: a
   systematic review. Resuscitation 2019;138:259-272. Read level: abstract only.
@@ -5697,3 +5697,200 @@ archived publisher images (`l15/`), not by script.
 - Rec 10 supporting text: "Although people with simple cold stress (cold and shivering with normal mental status) were generally able to safely rewarm in a warm shower or warm water immersion in a single-patient experimental study of mild hypothermia (core temperature ≈36° C), warm bath rewarming was associated with transient core temperature drop, decreases in mean arterial pressure, and increases in heart rate and cardiac output."
 
 **Decision 2 ruling (lesson 15 Stage 4).** The NHS heat page (reviewed 28 May 2026) postdates RCUK 2025 (27 October 2025), and RCUK's alternatives include a fan, so the UK heatstroke pages are not described as lagging: they don't mention immersion. The line in Part C 10 is corrected to match.
+
+## Gate closures, lesson 16 (2026-09-25)
+
+Reviewer F, lesson 16 Stage 4. Every line below was script-checked against the saved primary (73 of 73 matched). Lesson 16 may quote these lines.
+
+**RCUK 2025 First aid** https://www.resus.org.uk/professional-library/2025-resuscitation-guidelines/first-aid-guidelines:
+- "If you think a person might harm themselves, ask them if they are alright, how they feel and why. Ask them if they have suicidal thoughts." [V]
+- "Assess the risk of suicide: did the person communicate about or make plans to take their own life?" [V]
+- "Explore the suicidal thoughts and listen to the individual in a non-judgmental way." [V]
+- "If the person has made concrete threats or plans for suicide, tell them you are going to ask for help, and call 999." [V]
+- "If these warning signs are not present, listen non-judgmentally and encourage seeking professional or other support (e.g. GP, suicide hotline such as Samaritans)." [V]
+- "All workplaces, leisure centres, public buildings, homes and cars should have first aid kits." [V]
+- "Public first aid kits should be clearly marked and readily accessible." [V]
+- "The content of the kits should be based on the setting, expected risks and the users." [V]
+- "All first aid kits should be inspected regularly and properly maintained." [V]
+- "Continue CPR: until professional help arrives and takes over (or tells you to stop), the individual becomes responsive (speaks, opens eyes, moves purposefully, or breathes normally), or the rescuer becomes exhausted." [V]
+
+**RCUK 2025 Adult BLS** https://www.resus.org.uk/professional-library/2025-resuscitation-guidelines/adult-basic-life-support-guidelines:
+- "Consider the wellbeing of laypeople and bystanders; offer them support." [V]
+
+**RCUK 2025 Executive summary** https://www.resus.org.uk/professional-library/2025-resuscitation-guidelines/executive-summary-main-changes-2021-guidelines:
+- "Guidelines 2025 have been developed as the result of a continuous process over the last four years led by the International Liaison Committee on Resuscitation (ILCOR)." [V]
+- "The involvement of stakeholders from around the world, including members of the public and cardiac arrest survivors." [V]
+- "resuscitation training introduced in childhood from age 4-6, continuing annually in schools." [V]
+- "The 2025 ethics in resuscitation guidance emphasises early, person-centred conversations about emergency and future care, supported by clear documentation such as ReSPECT forms that are accessible across care settings." [V]
+- "While final decisions in emergencies rest with the treating team, organisations should provide training, policies, and audit processes to ensure consistent practice." [V]
+- "The guidelines also recognise that attempting resuscitation can be distressing for lay rescuers and recommend that systems provide support after such events." [V]
+- "It is intended that the Resuscitation Council UK Guidelines will only change within the five-year cycle if there is a significant resuscitation intervention identified through the ILCOR process which affects outcome to a significant degree." [V]
+- "These Guidelines 2025 will be implemented in courses from January 2026." [V]
+
+**BHF, Support after you've given CPR (updated 1 November 2025)**:
+- "It is normal for the police to come as well. Sometimes they can be first to arrive and can help with CPR and start to gather information on what's happened." [V]
+- "If you know the person, you'll have been asked to make your way there." [V]
+- "Some people will not survive, even if the CPR is done by a healthcare professional. This could be because of the underlying cause of their cardiac arrest, or the type of cardiac arrest rhythm they're in, or the length of time before CPR or defibrillation is started." [V]
+- "Dr Marco Mion, Clinical Psychologist at Essex Cardiothoracic Centre, says that after performing CPR it's very common to have feelings of guilt, especially if the person does not survive." [V]
+- ""Try again," he says, "as they might not want to talk in week 1, but want to talk in week 5," [V]
+- "For mental health support you can contact Mind on 0300 123 3393," [V]
+- "Everyone has different ways of coping after a traumatic event and most people will feel better in time." [V]
+- "There's no right or wrong way to feel after witnessing a cardiac arrest." [V]
+- "If these signs do not go away or get worse, you should make an appointment to see your GP." [V]
+- "Get in touch with your local Ambulance Service . They may be able to talk to you about your event." [V]
+- "You can speak to one of our cardiac nurses by calling our helpline on 0808 802 1234 (freephone), Monday to Friday, 9am to 5pm." [V]
+
+**RCUK, Responder and bystander wellbeing**:
+- "If you start experiencing symptoms that are significantly impacting your quality of life, please visit your GP." [V]
+- "connects you to a qualified nurse and offers you a place to share your experience and receive guidance. Call 0808 802 1234 (freephone). The nurses are available to speak on weekdays 09:00-17:00." [V]
+- "If you'd like to speak to someone, phone the advice line on 0808 801 0899 or email" [V]
+
+**988 Lifeline home page (read 2026-09-25)**:
+- "Whether you're facing mental health struggles, emotional distress, alcohol or drug use concerns, or just need someone to talk to, our caring counselors are here for you." [V]
+- "The 988 Lifeline is available 24/7/365. Your conversations are free and confidential." [V]
+- "Take care of a friend, a loved one, or yourself. Call, text, or chat with a 988 Lifeline counselor for help during difficult moments anytime, day or night." [V]
+- "The 988 Lifeline is for everyone." [V]
+
+**Samaritans, Contact a Samaritan (read 2026-09-25)**:
+- "Whatever you're going through, you can call us any time, from any phone for FREE." [V]
+- "This number is free to call from both landlines and mobiles, including pay-as-you-go mobiles." [V]
+
+**AHA Newsroom, 21 March 2022**:
+- "Responders have cited exhaustion, guilt, flashbacks, sleep disturbances, self-doubt, anger, sadness and fear. A positive outcome to performing CPR mitigated some of the emotional responses; however, psychological responses were wide-ranging and individualized. In situations with a failed resuscitation attempt, PTSD symptom scores were twice as high for responders as those for non-witnesses." [V]
+- "debriefing and post-event support are important tools we need to be able to offer to lay responders" [V]
+- "While scientific statements inform the development of guidelines, they do not make treatment recommendations." [V]
+- "Lay responders may need support and resources to help process their experience." [V]
+
+**ERC Guidelines 2025 for Everyone (lay book)**:
+- "teaching sessions, followed, when possible, with brief annual refresher training." [V]
+- "support bystanders and first responders as they cope with the emotional toll" [V]
+- "science — every five years since 2000." [V]
+
+**Riggs 2019 abstract (PMID 30928504)**:
+- "Thirty-four articles with a total of 35,421 participants were included." [V]
+- "Skills deteriorated within 3 months, then plateaued from 3 to 6 months. Self-efficacy was weakly associated with skill level, however knowledge was not associated with skill level." [V]
+- "All laypeople should attend an instructor-led CPR training session with real-time or delayed feedback to improve CPR skills." [V]
+- "Refresher training, which focusses on skills and self-confidence rather than knowledge, should be undertaken every 3-6 months, although this timeframe needs further validation." [V]
+- "however only the use of a popular song promoted meaningful retention of a specifically targeted skill, compared to standard training methods." [V]
+
+**Yeung 2020 abstract (PMID 32926969)**:
+- "Fifteen out of seventeen studies reported improved performance with the use of spaced learning. The overall certainty of evidence was rated as very low for all outcomes primarily due to a very serious risk of bias." [V]
+- "There was also insufficient data to examine the effectiveness of spaced learning on laypeople compared to healthcare providers." [V]
+
+**Morgan 2018 abstract (PMID 29851974)**:
+- "A total of 18 trials (5936 participants) were included. Overall, effects were generally small-to-moderate post-training and up to 6 months later, with effects up to 12-months later unclear." [V]
+- "There were small improvements in the amount of help provided to a person with a mental health problem at follow-up (d = 0.23) but changes in the quality of behaviours offered were unclear." [V]
+- "Within the last 5 years all review authors have collaborated with one or both of the founders of Mental Health First Aid (Betty Kitchener and Anthony Jorm)." [V]
+
+**Roppolo 2007 abstract (PMID 17452070)**:
+- "84% of the 30-min training group still was judged, overall, to perform cardiopulmonary resuscitation adequately." [V]
+- "Moreover, 93% still were performing chest compressions adequately and 93% continued to apply the automated external defibrillator and deliver shocks correctly." [V]
+
+**American Red Cross, Take a Class, Wayback 20260917080331, "About Class Formats"**:
+- "Demonstration of skill proficiency is NOT available" [V]
+- "2-year Red Cross Certificate of Completion may not meet workplace requirements" [V]
+- "Complete online course, then demonstrate competencies with a certified instructor" [V]
+- "Combines lecture with hands-on skills sessions" [V]
+- "Satisfies OSHA workplace requirements" [V]
+
+**AHA Heartsaver course options, Wayback 20260422003426**:
+- "All Heartsaver First Aid CPR AED course options teach the same AHA science-based skills and result in the same AHA Course Completion Card." [V]
+- "Upon completion of the online portion, students must complete hands-on skills session with an AHA BLS or Heartsaver Instructor." [V]
+
+**British Red Cross, Learn first aid**:
+- "These free workshops do not give you a first aid qualification, but equip you with basic skills to help in a first aid emergency. Online and face-to-face sessions are available for adults and youth people (ages 10+)." [V]
+
+**ACS Stop the Bleed, training page**:
+- "Instructors will keep working with you until you demonstrate the correct skills to stop the bleed and save a life." [V]
+
+**BHF RevivR**:
+- "In just 15 minutes, you can learn how to save a life and receive your very own CPR certificate." [V]
+- "Camera access for real time feedback on your chest compression exercise turn on access to your camera." [V]
+- "RevivR gives you feedback on your CPR technique and will help you perfect it while you practise." [V]
+
+**RCUK Lifesaver**:
+- "Individuals can now sign up to be a GoodSAM Cardiac Responder once they have completed all 4 Lifesaver scenarios." [V]
+
+**AHA/Red Cross 2024 First Aid, Wayback 20260329073336**:
+- "These recommendations supersede the last full set of AHA/Red Cross first aid guidelines, published in 2015, and recommendations in the 2019 and 2020 focused updates." [V]
+
+**St John Ambulance home page navigation (read 2026-09-25)**:
+- "Free first aid awareness sessions" [V]
+
+
+**Notes from lesson 16's Stage 4 on what these pages do not say.**
+- The 988 home page does not use the words "suicidal crisis"; it says the Lifeline is "for everyone", for "mental health struggles, emotional distress, alcohol or drug use concerns", and for "a friend, a loved one, or yourself". The service's name is the Suicide & Crisis Lifeline.
+- RevivR's page promises "real time feedback on your chest compression exercise" and "feedback on your CPR technique". It does not say the feedback covers depth. Lessons that said "rate and depth" (lesson 3, lesson 16, the project) are corrected.
+- The quotation "The skills portion of the ACS Stop the Bleed course is still an in-person requirement ..." is from Stop the Bleed's FAQ (Part D, R14 and Gate closures, lesson 9), not its training page.
+- RCUK 2025 First aid's "concrete threats or plans" step has one trigger only; "immediate danger" is the crisis callout's wording ("don't feel able to keep yourself safe"), not RCUK's.
+- The ERC first aid chapter could not be re-fetched on 2026-09-25 (publisher bot wall). Its "summarise their feelings back" step and its two meta-analyses on Mental Health First Aid stand at the level Part C 13 and Browser gate closures G1 record them: confirmed as summarised, not quoted, and not in a verified order.
+- Riggs 2019's abstract says "knowledge was not associated with skill level"; it does not say knowledge holds up while skill fades.
+
+
+## Stage 1 addition: hypothermia and arrest (2026-09-25)
+
+Why: lesson 15's Stage 4 second pass (finding S4 in `reviews/15-heat-cold-bites-and-stings.md`)
+found that the course had never read the resuscitation guidelines' own hypothermia sections, so
+lesson 15 deferred a hypothermic arrest to lesson 2 and the call handler without knowing whether
+the guidance for a cold person differs. Read today at the primary. Fetches saved in the session
+scratchpad (`scratchpad/hypo/`). [V] = verbatim, checked character for character against the page.
+
+**Who each text is written for.**
+- AHA 2025 Part 10 (S3), §4.1 Scope: "These guidelines are designed primarily for North American health care professionals treating adults and children in cardiac arrest or a life-threatening state from a special circumstance requiring modification of BLS and ALS." [V] And: "Unless otherwise specified, the interventions recommended here are intended for use in addition to standard BLS, pediatric BLS, ALS, and pediatric ALS (PALS) resuscitation. Although many of these treatments are impractical outside of the hospital setting, several can be initiated by emergency medical services and some (eg, giving breaths to drowning victims) may be relevant to lay rescuers." [V] No hypothermia line is marked as written for lay rescuers.
+- ERC 2025 Special Circumstances (S8), abstract: "The guideline chapter provides guidance for laypeople and healthcare professionals on the modifications required to basic and advanced life support in adults for the prevention and treatment of cardiac arrest for in-hospital and out-of-hospital cardiac arrest." [V] The hypothermia lines themselves use professional terms (vital signs, core temperature, defibrillation, adrenaline, ECPR).
+- ERC 2025 lay guide (S10), special circumstances introduction, printed p. 57: "Most of the recommendations are highly technical and mainly meant for healthcare professionals who treat cardiac arrest both in-hospital and out-of-hospital." [V]
+- RCUK 2025 Special circumstances (S15) sits in RCUK's professional library, adapts the ERC chapter (it cites it as its reference), and opens: "Initiate resuscitation following the standard ALS algorithm in cardiac arrest." [V] It grades nothing.
+
+**AHA 2025 Part 10, §17 Hypothermia (S3).** Wayback 20251027153841 of
+https://cpr.heart.org/en/resuscitation-science/cpr-and-ecc-guidelines/adult-and-pediatric-special-circumstances-of-resuscitation .
+READ LEVEL: full, from the Internet Archive capture, for §17.1 to §17.3 (introduction, both
+recommendation tables, all supportive text) and the Top 10 line; version of record Circulation
+2025;152(suppl 2):S578 to S672, doi 10.1161/CIR.0000000000001380, not opened.
+- Top 10: "Hypothermia: Adults and children with life-threatening environmental hypothermia may survive with good neurological outcomes even after prolonged cardiac arrest. Patients should be rewarmed concurrently with resuscitation efforts. ECLS can be used where available." [V]
+- §17.1: "Severe environmental hypothermia (core body temperature, less than 30 °C [86 °F]) can cause cardiac arrest as well as findings that mimic death." [V] "Pulse and respiratory rates may be slow or difficult to detect, and the electrocardiogram may show asystole. Apparent rigor mortis or fixed dilated pupils may not be reliable signs of death in this setting." [V] "Hypothermia decreases the body’s metabolic rate and oxygen consumption, improving the chance of survival and neurological recovery even after prolonged cardiac arrest." [V] "Hypothermic cardiac arrest often occurs in dangerous environmental conditions, and verification of scene safety prior to implementing resuscitative measures is important." [V] "These recommendations inform the management of adults and children with life-threatening environmental hypothermia, including cardiac arrest. Other specific treatment recommendations related to adults and children with hypothermia that is not immediately life-threatening can be found in the AHA and American Red Cross 2024 Guidelines for First Aid." [V]
+- §17.2, adults, table headed "(Core Temperature less than 30 °C [86 °F])":
+  1. "For adults with life-threatening environmental hypothermia with no obvious lethal injury, full resuscitative measures should be performed immediately and continued concurrently with rewarming." [V] COR 1, LOE C-LD. Audience not specified; the only line a lay rescuer can act on (by starting BLS).
+  2. "It is reasonable to rewarm adults in hypothermic cardiac arrest using ECLS." [V] 2a, B-NR. Clinicians.
+  3. "It is reasonable to use prognostication scores to guide the decision for initiating ECLS rewarming for adults in hypothermic cardiac arrest." [V] 2a, B-NR. Clinicians.
+  4. "It may be reasonable to rewarm adults with severe environmental hypothermia (core temperature less than 28 °C [82.4 °F]) and not in cardiac arrest using ECLS." [V] 2b, C-LD. Clinicians.
+  5. "For adults in hypothermic cardiac arrest, it may be reasonable to defibrillate once and if unsuccessful, defer further defibrillation until the core temperature is ≥30 °C (86 °F)." [V] 2b, C-LD. Needs a core temperature: clinicians and EMS.
+  6. "It may be reasonable to rewarm adults with life-threatening environmental hypothermia with ECLS at a rate of 1.5–5 °C/hour (2.7–9 °F/hour)." [V] 2b, C-LD. Clinicians.
+  7. "It may be reasonable to defer administration of epinephrine until the core temperature is ≥30 °C (86 °F) for adults in hypothermic cardiac arrest." [V] 2b, C-EO. Clinicians.
+  8. "If standard CPR is not possible due to environmental conditions, it may be reasonable to perform delayed or intermittent CPR during the resuscitation of adults in hypothermic cardiac arrest to facilitate rapid extraction." [V] 2b, C-EO. Audience not specified; about extraction from dangerous terrain.
+  9. "It may be reasonable to transport adults in hypothermic cardiac arrest to a center with ECLS capability if it can be reached within 6 hours." [V] 2b, C-EO. EMS.
+  10. "It is not recommended to use end-tidal carbon dioxide (ETCO2) to predict outcomes for adults in hypothermic cardiac arrest." [V] 3: No Benefit, B-NR. Clinicians.
+- §17.3, children: the same ten topics. Line 1: "For children with life-threatening environmental hypothermia with no obvious lethal injury, full resuscitative measures should be performed immediately and continued concurrently with rewarming." [V] COR 1, **C-EO** (adults C-LD). Line 8: "If standard CPR is not possible due to environmental conditions, it may be reasonable to perform delayed or intermittent CPR during the resuscitation of children in hypothermic cardiac arrest to facilitate rapid extraction." [V] 2b, C-EO. Supportive text: "Data for chest compressions for children in cardiac arrest from environmental hypothermia is lacking, and the recommendation is extrapolated from adult data." [V]
+- Supportive text, when to withhold: "Obvious lethal injury (eg, decapitation, truncal transection, whole body incineration, or frozen solid) are suggested conditions to withhold or terminate CPR." [V] On interrupted CPR: "The acceptable frequency and duration of CPR interruptions and which adults can best tolerate this are unknown." [V]
+- Knowledge gaps list includes: "Are there circumstances in which CPR can be safely delayed in adults and children in cardiac arrest due to environmental hypothermia until rewarming is initiated?" [V]
+- **What Part 10 does not say:** no breathing-check duration for a hypothermic person, no handling instruction, and nothing addressed to lay rescuers. AHA 2025 Part 7 Adult BLS (S1, Wayback 20251026225858, searched today) has no hypothermia text at all.
+
+**RCUK 2025 Special circumstances (S15), "Accidental hypothermia".** https://www.resus.org.uk/professional-library/2025-resuscitation-guidelines/special-circumstances-guidelines , published 27 October 2025. READ LEVEL: full, direct, for the general recommendation, accidental hypothermia and drowning blocks. Ungraded. Verbatim:
+- "Check vital signs for up to 1 min in an unconscious hypothermic patient." [V]
+- "Measure core temperature with a low-reading thermometer to diagnose accidental hypothermia." [V]
+- "Use the Swiss Staging System if core temperature cannot be measured." [V] Stage III: "Unconscious, but vital signs (pulse, breathing) are present, estimated core temperature 28-24°C (82-75°F)." [V] Stage IV: "Vital signs are absent, estimated core temperature below 24°C (75°F)." [V]
+- "Transfer hypothermic patients with risk factors for imminent cardiac arrest and those in cardiac arrest directly to an ECPR centre for rewarming:" [V] (heart rate < 45, systolic < 90 mmHg, ventricular arrhythmia, core < 30 °C).
+- "Delay CPR or use intermittent CPR in hypothermic cardiac arrest patients with a core temperature below 28°C when immediate or continuous CPR is not feasible." [V]
+- "Delay further defibrillation attempts if ventricular fibrillation (VF) persists after three shocks, until core temperature is > 30°C." [V] Then adrenaline, amiodarone, mechanical CPR, HOPE score, VA-ECMO and "Initiate non-extracorporeal life support rewarming if an ECPR centre cannot be reached within a reasonable time (e.g. 6 h)." [V]
+- Drowning block: "Follow the recommendations for hypothermia if hypothermia is recognised." [V]
+- RCUK 2025 First aid "Prevention of hypothermia" (already in Gate closures, lesson 15) has no arrest line. RCUK 2025 Adult BLS (S11) has no hypothermia text; its recognition line, re-read today: "Slow, laboured breathing, as well as other abnormal patterns such as agonal gasping or panting, must be recognised as signs of cardiac arrest." [V]
+
+**ERC 2025 Special Circumstances (S8), accidental hypothermia.** Lott C, Karageorgos V, Abelairas-Gomez C, et al., Deakin CD. *Resuscitation* 2025;215 Suppl 1:110753. READ LEVEL: full, direct, **on the publisher's page** https://www.resuscitationjournal.com/article/S0300-9572(25)00265-5/fulltext in the in-app browser (curl 403), for the summary-of-changes row, the concise guideline and the whole evidence section on accidental hypothermia; Fig. 5 read from the publisher's image (gr5.jpg). Ungraded (the concise lines carry no GRADE statement). Verbatim:
+- Concise guideline: "Check vital signs for up to one minute in an unconscious hypothermic patient (Fig. 5)." [V] The remaining concise lines match RCUK's above word for word except "extracorporeal life support (ECPR) centre", "Delay further defibrillation attempts if ventricular fibrillation (VF) persists after three shocks until core temperature is > 30 °C." [V] and "Give IV 1 mg adrenaline once to facilitate ROSC unless planning imminent initiation of ECPR." [V]
+- Evidence text: "In hypothermic patients with spontaneous circulation, key interventions are insulation, and hospital triage followed by transfer and rewarming. In hypothermic patients with cardiac arrest, key interventions are continuous CPR and extracorporeal life support rewarming." [V]
+- Swiss staging notes: "No apparent respiration, no apparent palpable carotid or femoral pulse, no measurable blood pressure − check for signs of life (pulse and, especially, respiration) for up to 1 min." [V] And, under management of cardiac arrest: "Check for signs of life for one minute − not only by clinical examination but also using ECG and ultrasound." [V]
+- "Hypothermic patients should be protected from the cold environment through minimal exposure and insulation and be transferred as fast as possible to the next appropriate hospital for rewarming." [V]
+- "Hypothermic cardiac arrest patients should receive continuous CPR until circulation has been re-established. Chest compression and ventilation rate should follow the standard ALS algorithm as for normothermic patients." [V]
+- "In hypothermic arrested patients with a body temperature < 28 °C delayed CPR may be used when CPR is too dangerous, and intermittent CPR can be used when continuous CPR is not possible, for example because of technically difficult rescue (Fig. 13)." [V]
+- "The prognosis of patients with primary hypothermic cardiac arrest can be excellent" [V]; survivors of unwitnessed arrest: "Of note, the first rhythm was asystole in 48 % of these survivors." [V]
+- Fig. 5, "Emergency treatment of accidental hypothermia", read from the image: the Hypothermia II or III box lists "Minimal and cautious movements to avoid rescue collapse" [V], "Prevent further heat loss", "Active external and minimally invasive rewarming techniques" and "Airway management as required". The vital-signs-absent branch: obvious signs of death, a valid do-not-attempt-CPR order, "Conditions unsafe for rescuer" or a long avalanche burial lead to "Consider termination of CPR"; otherwise "Start CPR, do not delay transport", "If continuous CPR is not possible, consider intermittent or delayed CPR in difficult or dangerous rescue", then "Transport to hospital with ECLS" and "Do not terminate CPR". Hypothermia I box: "Warm environment and dry clothing", "Warm sweet drinks", "Active movement". The chapter's passages read here do not define "rescue collapse".
+- **Corrigendum:** *Resuscitation* 2026;228:111314, doi 10.1016/j.resuscitation.2026.111314 (PMID 42766976, 21 Sep 2026). PubMed has no text; the publisher page returned a bot-verification page and was not passed. **Not read; whether it touches the hypothermia section is unknown.**
+
+**ERC 2025 lay guide (S10), "Hypothermia", printed pp. 58 to 59** (file gl2025_layperson_book_ipdf-v11-e.pdf, re-fetched today from erc.edu). READ LEVEL: full, direct for this passage. The only hypothermia-in-arrest text any of the three bodies addresses to the public. Verbatim: "Hypothermic persons in cardiac arrest should receive continuous CPR until warming has been re-established. Hypothermic persons should be protected from the cold and be transferred as fast as possible for rewarming. Chest compression and ventilation rate should follow the standard training protocol. Chances of recovery for persons suffering cardiac arrest as a result of mild to moderate hypothermia are excellent." [V] It carries no one-minute check, no thermometer and no delayed CPR.
+
+**What this settles for a lay rescuer (this course's reading, for lesson 15).**
+- No guideline read gives a lay rescuer a different recognition rule for a cold person. The up-to-one-minute check (RCUK 2025; ERC 2025) is a professional line: it is about "vital signs" (pulse and breathing), the evidence text does it with ECG and ultrasound, and the ERC's own lay guide leaves it out. Lesson 2's rule stands for a lay rescuer, with the UK call first and the call handler helping judge the breathing; slow breathing is both a hypothermia sign (NHS) and, in an unresponsive person, a sign of arrest (RCUK 2025 Adult BLS).
+- Start CPR: AHA 2025 COR 1 (C-LD adults, C-EO children), no obvious lethal injury; ERC lay guide, continuous CPR at the standard protocol.
+- Delayed or intermittent CPR: AHA 2b C-EO when environmental conditions prevent standard CPR, to allow extraction; RCUK and ERC below 28 °C core, which a lay rescuer cannot measure. A rescue team's decision, not taught as a lay step.
+- When to stop: withholding criteria (obvious lethal injury, including "frozen solid") are in the AHA's supportive text for clinicians; the AHA warns that apparent rigor mortis and fixed dilated pupils may not be reliable signs of death; the ERC's professional flowchart says "Do not terminate CPR" on the way to an ECLS hospital. For a lay rescuer: cold and stiff is not a reason to stop; lesson 2's until-the-crew-take-over rule.
+- Handling: the ERC's professional flowchart gives "Minimal and cautious movements to avoid rescue collapse" for moderate and severe hypothermia, the reason the AHA's gentle-handling line leaves out. Undefined in the passages read.
+- Rewarming during CPR, ECLS, defibrillation limits, adrenaline, transport to an ECLS centre, prognostic scores: clinicians and EMS only.

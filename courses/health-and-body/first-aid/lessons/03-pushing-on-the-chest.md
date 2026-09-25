@@ -606,8 +606,8 @@ Choose one of two ways.
 
 **With feedback, if you can.** The BHF's free [RevivR](https://www.bhf.org.uk/revivr) course uses
 a cushion and your phone's camera to give feedback on your compressions as you do them, in about a
-quarter of an hour.[15] It tells you what a cushion alone cannot: whether your rate and depth were
-right. ILCOR's 2025 review of training says: "We recommend the use of CPR feedback devices during
+quarter of an hour.[15] That's something a cushion alone can't give you, though RevivR's page
+doesn't say whether its feedback covers depth. ILCOR's 2025 review of training says: "We recommend the use of CPR feedback devices during
 resuscitation training for health care professionals and laypersons (strong recommendation,
 moderate-certainty evidence)."[14]
 

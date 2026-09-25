@@ -243,3 +243,25 @@ earlier sequence.** Still chosen by script.
   final test's lesson 15 item uses Bismarck, North Dakota.
 - **Quiz keys:** lesson 15 kept 0,3,2,1,3,0. The final test now has its full twenty-four items
   (seventeen to pass) and ends on key 2.
+
+## 2026-09-25 — from lesson 16's and the project's Stage 4
+
+- **A reviewer's suggested twist is a claim to check, not a fix to apply.** P proposed seven new
+  twists for the project's scenarios; four repeated a lesson case (lesson 8's two-year-old, lesson
+  13's "feels fine, wants to walk", lesson 14's 3:20 case, lesson 9's groin and armpit). Search the
+  lessons for the twist before writing it in.
+- **RevivR's feedback is "on your chest compression exercise"; its page doesn't say depth.** Lesson
+  3 (line 609), lesson 16 and the project said "rate and depth" and are corrected. Scripts should say
+  "feedback on your compressions".
+- **SOURCES D42 (Yeung) is completed**: "... on laypeople compared to healthcare providers". The
+  trimmed line read as no lay data at all.
+- **The project is now `assessments/project-your-households-first-ten-minutes.md`** (renamed from
+  `project.md`; nothing linked the old path). Its findings live in `reviews/assessments.md`.
+- **Lesson 16's length, for the QUEUE:** 105 measured minutes against the outline's ~70, after P21's
+  trims; clean seam at "## How fast a skill fades". Not split (fourteen lessons and the project
+  point to "lesson 16" for the where-to-train list). John's decision, as for lessons 2, 3 and 5.
+- **Places:** lesson 16 uses Brighton, Guildford, Columbus, Swindon, Sioux Falls, Cleveland,
+  Aberystwyth and Doncaster (Tampa, Rochdale and Maine are free again); the project uses Oldham,
+  Scranton, Kalamazoo, Eastbourne, Peoria, Dumfries, Olympia, Lowestoft, Cheyenne and Bradford.
+- **Quiz keys:** lesson 16 kept 0,1,3,2,1,0, re-checked against lesson 15's current 0,3,2,1,3,0.
+- **G16 not worked for lesson 16** (Commons `Steps of CPR-1964.jpg`, licence unverified); no image.
