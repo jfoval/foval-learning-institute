@@ -190,6 +190,13 @@ instead).
   inside the chart. **The US homicide rate is 5.9 per 100,000 (CDC, 2024)**, not SOURCES R-1's 6.8
   (2023). Contractions have been running high (8.8 in lesson 1): keep to the 5 to 8 band.
 
+- **Found twice in lesson 1's reviews (2026-09-25), so a standing rule:** the course's order of
+  options (avoid, leave, talk, comply or resist, get away) is for a threatening encounter and is
+  **never** presented next to, or as covering, abuse by a partner, ex-partner or family member. No
+  sentence may imply "just leave", or that abuse follows from the victim's choices. "Domestic abuse
+  and stalking" is described as the services' help and safety planning. Read every mention of it
+  as a survivor would.
+
 ## Stage 4 review brief: Personal Safety (Tier B, split, two reviewers)
 
 Repo: `/Users/johnfoval/Desktop/Foval Learning Institute`. Course:

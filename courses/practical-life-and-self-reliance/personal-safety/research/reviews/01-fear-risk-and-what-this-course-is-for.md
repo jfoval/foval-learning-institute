@@ -164,3 +164,83 @@ crime figure attached to a named small town. `npm run validate` exit 0, no line 
 `npm run quotes personal-safety`: 0 not found.
 
 **Status after review:** clean
+
+## 2026-09-25 — Lesson 01 — Stage 4 second pass, one reviewer (facts and safety)
+
+**Reviewer F2**, fresh context, under the Reviewer F brief in `research/pipeline-briefs.md`, scoped
+to the fix pass in e990f44: the new opener; every sentence touching domestic abuse or "Domestic
+abuse and stalking", read as a survivor; the content note; the ONS avoidance figures; the
+misconception list; the new quiz and the exercise sort; the promises about lessons 2 and 3; the
+course's own steps labelled per decisions 5 and 12; and each first-pass finding claimed fixed.
+
+**Re-read today, on the services' own pages** (curl with a browser User-Agent; RAINN, 911.gov and
+CDC homicide in the in-app browser): Victim Support home and Supportline (08 08 16 89 111, free,
+24/7, "regardless of whether the crime has been reported"); Victim Support Scotland (0800 160 1985,
+8am to 8pm Mon to Fri, 10am to 4pm Sat and Sun); Victim Support NI home and contact page (free,
+"whether or not the crime has been reported"; Belfast 02890 243133, Foyle 02871 370086, Monday to
+Friday 9am to 5pm); Rape Crisis England & Wales (0808 500 2222, 24/7, 16+ in England and Wales);
+Rape Crisis Scotland (08088 01 03 02, any day 5pm to midnight); Rape Crisis NI (0800 0246 991, two
+sets of hours still on the page, so "check its page for hours" stands); VictimConnect (855-484-2846,
+call or text, "currently physically safe"); RAINN (800.656.HOPE (4673), 24/7); the IOPC guide
+(landline conditions, "as doubt exists", "Pressing 55 does not allow police to track your
+location", no word on Scotland or Northern Ireland) and page (cough or tap, press 55 if prompted);
+911.gov ("call 911 if you can, and text if you can't", last updated 03/08/2023); CDC homicide 5.9
+(2024). Every number and hour in the content note and the callout paragraph matches.
+
+**Checked against primaries and found right:** Gallup 31%, 49%, "lowest since at least 2018", 69%
+and 53%, the party sentence; Newport's 43 points and "every poll since 2000"; ONS 2016 60%, 57%,
+84%, both quotations; ONS 2026 9.6 million, 4.5 million fraud (46.9% of headline, "nearly half"),
+7.8% fraud prevalence, 10.0% harassment (the 13 August correction was to the repeated-harassment
+figure, not this one), 78% below the YE December 1995 peak, the interviewer undercount; ONS 2022
+18% to 24%, 32% to 37%, 38% to 23%, base "people who said they felt very or fairly unsafe in any
+setting", compared with June 2021; Warr's smoking and nuclear example; Jackson and Stafford's
+abstract ("Combining with existing evidence, we suggest a feedback model"); Gray, Jackson and
+Farrall's "findings show" wording supports "concluded"; Scott's 1993 Statistics Canada survey.
+Sums redone by hand: 14.2/5.9 = 2.41; 4.5/9.6 = 0.47; the SVG bars 240, 204, 100 are all about 16.9
+px per unit. `npm run quotes personal-safety`: 77 quotations, 0 not found.
+
+**Quiz and sort.** Keys 2,1,0,3,1,3, each explanation read against its keyed option; all four
+positions used, no adjacent repeat; option lengths Q1 91/88/89*/91, Q2 86/86*/85/90, Q3
+87*/85/88/86, Q4 92/84/84/87*, Q5 91/89*/85/86, Q6 88/85/81/87*, spread at most 8. By script
+against lessons 2 to 5: at most one position shared, no run longer than one. Sort a tested, b
+contested, c e f sensible untested, d practitioner opinion: consistent with the label definitions
+and with "measured on whom".
+
+**Promises.** Lesson 2 explains the CSEW (its line 148) and teaches police count against survey.
+Lesson 3 gives Derek the 0.4% (65 to 74, YE March 2018, no robbery), Priya the women's figures and
+the plain statement that no source gives women of her age together, the stranger figures for men
+and 16 to 24 year olds, and fraud. Lesson 5 calls WIDE tested and alarms contested. All hold.
+
+**First-pass fixes.** F1, F3, F4, F5, F8, F9, F10, F11, F14, F15, F21 and P1 to P4 confirmed fixed
+in the text. F4 was fixed at the sentence it named, but the survivor reading found a second route
+to the same harm (S1).
+
+**Findings**
+- S1 [major, survivor reading] The ladder paragraph said the order "avoid, leave, talk, comply or
+  resist, get away, with leaving available at every rung" "runs through the whole of" the course,
+  and then named "Domestic abuse and stalking" in the same paragraph. To a reader in an abusive
+  relationship that reads as "leaving is always available", the "just leave" the course rules out.
+  OUTLINE lesson 8 scopes the ladder to "a threatening encounter" and says "this is not advice for
+  an abusive relationship". **Fixed:** "For a threatening encounter, the course follows an order of
+  options ... That order is not advice for abuse by a partner, ex-partner or family member. "Domestic
+  abuse and stalking" is about the services' help and safety planning for that, and for stalking."
+- S2 [minor] Priya: ""Domestic abuse and stalking" covers harm from people she knows" was wider
+  than the lesson (acquaintances are not its subject). **Fixed:** "covers harm from a partner,
+  ex-partner or family member, and stalking."
+- S3 [minor] Q6's explanation said the other three readings "each accept the gap as real"; the
+  undercount reading holds that the risk side is too low, so it does not. **Fixed:** "None of the
+  other three turns on how fear is asked about: the found reading explains the gap by the structure
+  of fear, the undercount reading by harm the surveys miss, and the precaution reading by
+  avoidance."
+- S4 [minor] ONS 2022: "Over the same months" for a comparison of two surveys. **Fixed:** "Between
+  the same two surveys".
+
+**Read as a survivor, after the fixes:** no remaining sentence ties domestic abuse, or any harm, to
+the victim's choices; the exercise keeps a partner or family worry off the paper; precautions are
+said to change the odds, not the blame, at each point of use. **As a man at risk:** Derek, the
+stranger figures for men and 16 to 24 year olds, and every content-note line serve him.
+
+**Measures after the fixes.** `npm run minutes` 95 (set 95); `npm run validate` exit 0, no line for
+this file; `npm run quotes personal-safety` 0 not found.
+
+**Status after review:** clean

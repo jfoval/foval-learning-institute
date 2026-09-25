@@ -111,9 +111,10 @@ quiz:
     explain: >-
       Gray, Jackson and Farrall found that asking how often people worried shrank the share who
       reported fear, and proposed that standard questions capture a diffuse anxiety about risk. A
-      result where better questions shrink the gap is evidence for the artefact reading. The other
-      three readings each accept the gap as real and explain it differently: by the structure of
-      fear, by hidden harm, or by avoidance.
+      result where better questions shrink the gap is evidence for the artefact reading. None of
+      the other three turns on how fear is asked about: the found reading explains the gap by the
+      structure of fear, the undercount reading by harm the surveys miss, and the precaution
+      reading by avoidance.
 ---
 
 Perhaps there's a walk you no longer take after dark, a car park you go the long way round, or an
@@ -261,7 +262,7 @@ their claims and others exaggerate the risks. This course recommends no products
 The same shrinking shows up in Great Britain. In an ONS survey in February and March 2022, among
 people who felt very or fairly unsafe in at least one setting, the share of men who had stopped
 walking in quiet places such as parks after dark in the past month had risen from 18% in June 2021
-to 24%, and of women from 32% to 37%. Over the same months the share who had stopped going to busy
+to 24%, and of women from 32% to 37%. Between the same two surveys the share who had stopped going to busy
 public places by day fell, from 38% to 23%.[11]
 
 :::predict About a third of people in the 2003 to 2004 British Crime Survey, which covered England and Wales, said they were very or fairly worried about being robbed. New questions in one part of the survey then asked a different thing: how often, in the past year, had they actually worried about it? What share do you think said they hadn't worried about it once?
@@ -409,7 +410,8 @@ happened.
 
 Lesson 3 gives her the England and Wales figures for women, including the finding she
 half-remembers about people she knows, and says that no source this course read gives a figure for
-women of her age together. "Domestic abuse and stalking" covers harm from people she knows. Lesson
+women of her age together. "Domestic abuse and stalking" covers harm from a partner, ex-partner or
+family member, and stalking. Lesson
 6, "Out and away: streets, travel and meeting people", gives her the evidence on routes, travel and
 the street, with each piece of advice labelled. The course won't tell her to stay in, and it won't
 tell her the street doesn't matter.
@@ -474,10 +476,11 @@ skills.
 
 ### The ladder
 
-The course follows an order of options that runs through the whole of it: avoid, leave, talk,
-comply or resist, get away, with leaving available at every rung. Lessons 4 to 6 are about lowering
-the odds at home, on the street and when travelling. "Domestic abuse and stalking" is about the
-services' help and safety planning when the danger is someone you know. Lessons 8 and 9, "Talking
+For a threatening encounter, the course follows an order of options: avoid, leave, talk, comply or
+resist, get away, with leaving allowed at every rung. That order is not advice for abuse by a
+partner, ex-partner or family member. "Domestic abuse and stalking" is about the services' help and
+safety planning for that, and for stalking. Lessons 4 to 6 are about lowering the odds at home, on
+the street and when travelling. Lessons 8 and 9, "Talking
 it down" and "Stepping in for someone else", are about calming a situation and helping someone else
 in one. Lessons 10 to 12 are about what fear does to you in the moment and the decision to hand
 something over or resist. Then come two lessons on the law, "The law on using force" and "The home,
