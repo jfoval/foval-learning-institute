@@ -1,6 +1,7 @@
 ---
 title: Building endurance
 minutes: 125
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/health-and-body/strength-and-fitness/03-building-endurance.mp3
 objectives:
   - >-
     Explain what VO2max is, what limits it, and which parts of the oxygen supply chain change with
