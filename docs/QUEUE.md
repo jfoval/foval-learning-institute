@@ -59,7 +59,7 @@ Rewrite these five lines each session. Nothing else goes in this block.
   way are dated in `research/pipeline-briefs.md`; what each review caught is in
   `research/reviews/course-wide.md`. **Left open, none blocking:** lesson 16's recovery checkpoint
   is partly answered by the text above it (S4), and nidirect's "First aid on the road" line is not
-  yet in SOURCES (S5); lesson 6's four minor items in its review file. Lesson 17: the fourth-year report's summary line that smart motorways are "in most cases" safer than the roads they replaced is not in the lesson (a balance call, noted at its second pass as S4); record it in SOURCES and weigh it at the course-wide neutrality audit. Lesson 11: New York's airbag-lamp page has been reworded since the lesson quoted it (found at lesson 22's review, 2026-09-26); re-read and requote. Proposed: a six-monthly
+  yet in SOURCES (S5); lesson 6's four minor items in its review file. Lesson 17: the fourth-year report's summary line that smart motorways are "in most cases" safer than the roads they replaced is not in the lesson (a balance call, noted at its second pass as S4); record it in SOURCES and weigh it at the course-wide neutrality audit. Lesson 11: New York's airbag-lamp page has been reworded since the lesson quoted it (found at lesson 22's review, 2026-09-26); re-read and requote. Lesson 24: Which? also gives a second pair for cars available new (£331 franchised, £262 local); the lesson quotes only the all-cars pair (£361, £260). Weigh at the course-wide neutrality audit (S3). Proposed: a six-monthly
   re-check of its dated fees and policy facts.
 
   **What John's ear settled on 2026-09-25, which changes how a render is judged.** The engine

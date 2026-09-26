@@ -577,7 +577,7 @@ want to fill:
   may do what: reserved work, and the argument about licensing"; "Hiring a tradesperson, and when to
   stop") are the model for lessons 24 and 25: the Consumer Rights Act ss.49 to 52 are taught there for
   services in general and here only as they apply to a garage, and the licensing argument is
-  pointed to, not reopened (ASE's line that it "kept the government from licensing jobs" is reported
+  pointed to, not reopened (ASE's line that it "kept the government from licensing jobs" [no longer on ASE's page, 2026-09-26; not used] is reported
   as ASE's, beside Michigan's state certificate, as one more case).
 - **Personal Safety** (Term 3, published). Lesson 6, "Out and away: streets, travel and meeting
   people", owns threat from other people when you are out; a stranded lone driver's personal safety is

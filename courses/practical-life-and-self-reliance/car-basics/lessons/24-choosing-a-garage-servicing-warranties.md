@@ -239,7 +239,7 @@ a fixed-price servicing deal at a main dealer that can give you peace of mind ov
 going to pay."[29][30]
 
 Where they meet: every voice here agrees the schedule and the right parts matter; they differ on
-whether the maker's network is the only reliable way to get them. What would settle it is a
+whether the maker's network is the best way to get them. What would settle it is a
 comparison nobody here has published on quality, the same jobs at both kinds of garage checked
 independently. The next section shows what the law in each country lets a maker's warranty require,
 and what it doesn't.
@@ -288,7 +288,7 @@ particular repair or maintenance operation in the correct manner, or ii) to the 
 part supplied by a third party." And terms that "clearly state the consumer's right to use the services
 of an independent repairer without losing the benefit of the warranty are unlikely to give rise to
 competition concerns" (5.41). The guidance also says that where an extended warranty is sold "years
-after the purchase of the vehicle", independent garages are less likely to be shut out "even if" it
+after the purchase of the vehicle", independent garages seem less likely to be shut out "even if" it
 carries servicing or parts restrictions (5.39).[14] Which? notes that some extended warranties require
 a main dealer.[30] The block exemption order this guidance sits beside "ceases to have
 effect at the end of 31st May 2029".[15]
@@ -515,8 +515,8 @@ design, proof, and implementation of any meaningful countermeasure effectively i
 course read the complaint's quotation, not NHTSA's letter. On the need for it: "But consumers already enjoy the freedom to have their vehicles repaired at the shops of
 their choice." And: "There is no evidence that members of Auto Innovators have blocked independent
 auto repair shops from accessing data necessary to assess vehicle performance and conduct maintenance
-and repair."[26] Their interest: the makers build the systems, run the dealer networks, and answer
-for the cars' security. This course didn't read who funded either ballot committee, and says nothing
+and repair."[26] Their interest: the makers' dealers compete for the work, and the makers answer
+for the systems' security. This course didn't read who funded either ballot committee, and says nothing
 about it.
 
 ### What kind of question this is, and what would settle it
@@ -527,7 +527,7 @@ asserts an answer; neither argument quoted here cites a measurement, and this co
 would settle it: independent security testing of platforms built to the law, and evidence of which
 repairs independents can and can't do on connected cars. Part is **legal**, and that's for the court.
 And part is a **value** question: who should control the data a car sends, and how to weigh an owner's
-choice against a security risk. Voters answered it twice for Massachusetts, by large margins; that
+choice against a security risk. Voters answered it in 2020 for Massachusetts, by a large margin; that
 decided what the statute says, not whether it survives the court challenge or whether it is wise, and
 this course takes no side. Read each side at its strongest before you weigh it, as Logic and Argument lesson 7 asked.
 
@@ -542,8 +542,8 @@ new one.
 ## What people get wrong
 
 **"An independent garage voids the warranty."** Not by itself, in either country, though a claim can
-still be refused for damage caused by bad work or a failed part, and some extended warranties bought
-later do require a main dealer. The warranty section above has each country's rule.
+still be refused for damage caused by bad work or a failed part, and some extended warranties do
+require a main dealer. The warranty section above has each country's rule.
 
 **"Change the oil every 3,000 miles."** Your handbook's schedule, normal or severe, or its monitor
 within the handbook's limits.

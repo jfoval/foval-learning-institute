@@ -208,3 +208,121 @@ First Aid 07); nothing for this file.
 new strings (the statute's (f) clauses, the NHTSA quotation, 5.39, the Which? method and figures,
 YourCar-YourChoice's sentence and administration line); the re-checker re-runs balance on both
 contested blocks with the counts above.
+
+### Neutrality re-check (2026-09-26)
+
+**Re-checker:** fresh context, following `.claude/commands/neutrality-audit.md` and standards Part 3,
+against N1 to N9 and the resolutions above. Quotations re-read live (curl, generic browser
+User-Agent, no personal data; no in-app browser): Which? costs and garage pages; YourCar-YourChoice
+and IAAF home pages; Auto Care's page; CMA guidance 5.35 to 5.41 (PDF); ch. 93K § 2 on
+malegislature.gov; the 2020 Information for Voters (PDF); the Alliance complaint (IA capture
+20260530044526). **Every added string matches**, including the (f) clauses, the NHTSA quotation as the
+complaint prints it (July 2020 testimony to the Joint Committee, so "2020 testimony to the state
+legislature" is right), the Yes argument's "shop around" line, 5.39, and YourCar-YourChoice's sentence
+and "administered by the IAAF". Which? has no quality or satisfaction comparison, so "no source ...
+compares ... on quality or safety" stands.
+
+**N1 to N9: all resolved as intended.** Mazda now reads as its advice to an unsure owner; the
+independents have a UK voice; 5.39 is in, paraphrased accurately ("seems less likely ... significant
+foreclosure effect" as "less likely to be shut out"); the Massachusetts opening gives both names; the
+funding line covers both committees; the predict names each side's interest; the dealer block ends
+on the law, not on "choice".
+
+**Which? figures:** described exactly. The method is 63,334 owners surveyed April to June 2025, asked
+the total spent on servicing "including replacement parts" in the past 12 months; the lesson's "owners'
+reported yearly totals, not the same job priced at each" is right. Its commission label is given at
+first use; the second mention, in the UK warranty section, is unlabelled but concerns a point for the
+dealer side, so nothing turns on it.
+
+**Balance.**
+- *Dealer or independent:* makers 174, independents 130, neutral 196. No tilt: each side has two
+  labelled holders in their own words, and Which? carries one concrete point each way. The makers'
+  words run longer because Mazda's warning is long, not because the independents lack an argument.
+- *Right to repair:* the fixer's "for 249" includes about 45 words of neutral framing (the guide's
+  word limit and the state's disclaimer, which covers both sides), so the sides' own words are nearer
+  190 to 290. **Accepted:** the gap is the NHTSA quotation, reported through the complaint with its
+  caveat. Distinct arguments are level (for: loophole, steering to dealers, shop around, privacy
+  limited to mechanical data, "your car", Auto Care's cybersecurity and competition lines; against:
+  data grab and location, security, NHTSA, freedom already exists, no evidence of blocking), and the
+  for side's strongest points are all present. Do not add to it.
+
+**Further findings, fixed inline (net words -1):**
+- **NR1 [minor]** "Where they meet" said the voices differ on whether the maker's network is "the
+  only reliable way" to get the right schedule and parts. No maker quoted says that: Mazda asks for "a
+  reliable and qualified technician" and recommends its network; Toyota says "dealer or qualified
+  service shop". Now "the best way".
+- **NR2 [minor]** The right-to-repair interest lines were uneven: the independents "gain the work",
+  the makers "build the systems, run the dealer networks, and answer for the cars' security", which
+  names a responsibility for one side and only gain for the other. Now "the makers' dealers compete
+  for the work, and the makers answer for the systems' security" (same word count).
+
+**Noted, not fixed:**
+- **NR3 [minor, for the second pass]** "Voters answered it twice for Massachusetts": the value question
+  as the lesson states it is who controls "the data a car sends", which only the 2020 vote was on (the
+  2012 question was repair information). Not a tilt, since the sentence goes on to say the vote did not
+  decide whether the law is wise, but "twice" is loose. A same-length fix: "Voters answered it in 2020,
+  by a large margin;".
+- Order (law, votes, court, for, against, what kind of question, predict) and last word (the course's
+  own "takes no side", then a predict naming what both sides agree on) are sound. No verdict anywhere,
+  quiz 6 included. Every interest holder is labelled at use: YourCar-YourChoice and the IAAF, Which?,
+  Mazda and Ford, the Alliance (court, case against, predict, quiz), Auto Care (both sections), both
+  ballot committees.
+
+**Perspectives checked:** a UK independent garage; a carmaker and franchised dealer; a right-to-repair
+supporter; a privacy and domestic-violence advocate; an owner under warranty. None would now say its
+case is missing or put in an opponent's terms.
+
+**Verdict: BALANCED.**
+
+### Second pass (2026-09-26)
+**Reviewer:** a fresh-context second reader (truth, law, pedagogy, format; balance is the parallel
+neutrality re-check's). Re-read today by curl (generic browser User-Agent, no personal data) or the
+Internet Archive: YourCar-YourChoice and the IAAF home page; Which?'s costs page (9 Jun 2026) and garage
+page (28 Apr 2026); the Mazda3 introduction page; the CMA guidance PDF (5.35 to 5.41, fns 50 to 53);
+16 CFR 700.10 (eCFR renderer, current); 15 U.S.C. 2302(c); S.I. 2023/586 art. 13; ch. 93K § 2 (a), (c),
+(f); the 2020 Information for Voters; the Alliance complaint (capture 20260530044526); Auto Care's page;
+CalRecycle; the IMI release and TechSafe page; Ford's Maverick PDF (capture 20250505042038, printed
+pp. 456 to 458); ASE (capture 20260614094747); the FTC's three pages; Citizens Advice; the Toyota and
+Nissan handbooks. Every quotation in the lesson that these carry was string-matched.
+
+**Verified:** YourCar-YourChoice's sentence and "administered by the IAAF"; the IAAF is a trade
+association. Which?: 63,334 owners, April to June 2025, total spent on servicing including parts over
+12 months, the £361 and £260 sentence exact, the affiliate-commission line, the fixed-price sentence,
+and "some extended warranties ... require you to use a main dealer". Mazda's lead-in ("If you are unsure
+about any procedure it describes") matches "an owner unsure of a maintenance procedure". CMA 5.35 to 5.41
+as quoted. 93K § 2(a), (c) and (f) strings exact; (f) is model year 2022 on. Votes 85.7/14.3 and 75.0/25.0
+redone by hand. The NHTSA string is exact as the complaint prints it (p. 2: written testimony to the
+Joint Committee "last July", i.e. 2020). Auto Care's three strings exact. R2 (the UK caution) matches
+5.40 and 5.41. R3: "participants calling on government to mandate its use" is the release's; lesson 14
+lines 213 to 216 say it, and its "graded by training ... none of it is owner work" backs the pointer.
+R6: 700.10(c)'s last sentence as quoted. R7: CalRecycle's "no longer applies to most cars" on the live
+page, footnoted [27]. R8: quiz 5's explanation now cites nothing outside the lesson's sources. R10: Ford's
+"Never exceed" is in the display-failure paragraph (printed p. 457). OUTLINE's ASE entry (line 1949)
+matches the capture, Blue Seal included. Quiz: every explanation answers its key and each distractor by
+content; option spreads 5, 8, 5, 11, 8, 2; the key is never the sole longest. Keys 1,0,3,2,3,1 pass
+decision 20's relaxed rule by script against lessons 01 to 25 (all four used, no adjacent repeat, no
+identical or shifted sequence, no run of four at offsets 0 or ±1 with 19 to 25). No em dash, no spaced
+en dash; callout byte-identical to the brief's and to `CAR_BASICS_SAFETY`. Cross-referenced titles
+(Personal Finance 8 and 10, Digital Literacy 11, Home Repair 22) checked on disk. Places unique.
+
+**Fixed (one edit each, both obviously right, net -2 words):**
+- S1 [minor] 5.39's hedge dropped: "independent garages are less likely to be shut out" now "seem less
+  likely", as the CMA's "it seems less likely".
+- S2 [minor] The warranty misconception said "some extended warranties bought later do require a main
+  dealer"; Which?'s sentence has no "bought later" (its example is a dealer-renewed plan), and 5.39 speaks
+  only of what "seems less likely". Now "some extended warranties do require a main dealer".
+
+**Noted, not fixed:**
+- S3 [note, for the neutrality re-check] Which?'s costs page gives a second pair beside the quoted one:
+  cars available new, £331 franchised against £262 local. The lesson quotes the all-cars pair only,
+  which shows the wider gap. Decision 11's exception names only £361 and £260, so adding the second pair
+  is a convention change; the balance call is the re-check's.
+- S4 [minor, OUTLINE] OUTLINE line 580 (Home Repair boundary) still reports ASE's "kept the government
+  from licensing jobs", which R18 found gone from ASE's page. The lesson doesn't use it.
+- S5 [trivial] The FTC robocall quotation nests straight double quotes ("extended warranty") inside a
+  double-quoted string; left, since the quotes checker matches the string as is.
+
+**Measures after the fixes:** 7,441 words, `npm run minutes` 90 (claimed 90). `npm run quotes car-basics`:
+935 quotations, 0 not found. `npm run validate`: exit 0, no line naming this file.
+
+**Verdict: CLEAN.**
