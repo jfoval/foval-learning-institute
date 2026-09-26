@@ -558,8 +558,8 @@ often end up. Lesson 10, "Gas: the law and the engineer", met the law allowing m
 advice; this lesson met the same shape with ladders, and lesson 19, "Asbestos, lead paint and radon:
 what not to disturb", meets it again. Next, lesson 16, "Stepladders, and what the ladder injury
 figures count", takes the other kind of ladder and the evidence on who gets hurt.
-Lesson 17, "Keeping water out: roof, gutters, ground and walls", is mostly about things you reach
-from a leaning ladder.
+Lesson 17, "Keeping water out: roof, gutters, ground and walls", is mostly checks made from the
+ground; clearing a gutter is the one job there that goes by this lesson's rules.
 
 ## Go deeper
 

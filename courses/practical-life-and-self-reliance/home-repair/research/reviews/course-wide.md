@@ -370,3 +370,33 @@ Findings that belong to no single lesson, and notes a fixer leaves for later les
   own "occupation patterns" line wherever it is quoted. Lesson 21 (woodworm and damp) and lesson 18's
   podcast script keep the two-way dating caveat.
 - **Chemical testing** is named by GOV.UK for England and described by no source read.
+
+## 2026-09-26 — Lesson 17 fix pass: notes for later lessons
+
+- **Historic England's pages have moved and changed.** The 2023 captures recorded under "Gate
+  closures, lesson 17" are superseded; quote only the live checklist, tips and keeping-safe pages
+  (SOURCES "Stage 4 note, lesson 17"). The live site returns 403 to curl and WebFetch; read it in a
+  browser. Its plant line is now conditional ("if they are causing damage"), and several 2023 lines
+  are gone.
+- **Historic England has a householder ladder page** ("Keeping Safe When Working On an Older Home").
+  It calls ladders "handy for clearing debris from gutters" and then says "not as a working
+  platform", and offers someone holding the ladder as an alternative to tying. Lesson 17 reports the
+  tension and keeps lesson 15's order. Lesson 15's claim that RoSPA is the one British source read
+  that speaks to householders was written before this page was read; its second pass may want to
+  qualify it.
+- **HSE sheet a10 covers any gutter under an asbestos cement roof**, not only an AC gutter. Lesson
+  19 should say so wherever gutters come up.
+- **The PCA lists bridging as a cause of rising damp**, not an alternative to it. Lessons 17 and 18
+  now agree.
+- **Repetition with lesson 18 (R14):** both quote the joint position statement's "traditional"
+  definition, "may not be down to a construction failure", the PCA's "installed roughly at about 6
+  inches from the ground" and "should hopefully", and GOV.UK's "lifestyle choices" and "most common
+  form of damp". OUTLINE gives the statement's mechanism to lesson 17, so lesson 18's next pass
+  points back ("lesson 17 gave its definition of traditional construction") rather than requoting.
+  Not edited here: lesson 18 was in progress in another session.
+- **GOV.UK does address tenants:** "tenants are expected to report damp and mould in their homes",
+  and it has an Annex E of tenant guidance. No lesson should say no British page addresses tenants.
+- **Historic England's permission line** ("Simple maintenance work, such as fixing a loose roof
+  flashing, should not need any form of consent", then repairs "especially if your home is listed or
+  in a conservation area") is recorded for lesson 22.
+- **Quiz keys:** lesson 17 unchanged at 1,0,2,0,3,2.
