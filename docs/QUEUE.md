@@ -55,9 +55,9 @@ Rewrite these five lines each session. Nothing else goes in this block.
   **Conversation and Listening is in drafting** (2026-09-26), the first course of Term 4
   (People). Stage 1 is done: `research/SOURCES.md` (about 59,000 words, five parts) records what
   was read. It also settles the course's boundaries with the rest of Term 4 and points crisis
-  conversations to Mental Fitness. Next: Stage 2,
-  `/outline-course courses/communication-and-people/conversation-and-listening`, from the
-  fourteen-lesson sequence it suggests. **Before the active-listening lesson:** Weger et al. 2010
+  conversations to Mental Fitness. Stage 2 is done: `research/OUTLINE.md` plans seventeen lessons
+  (Tier B for 5, 9, 11, 14, 15 and 16; the Mental Fitness crisis callout on 10 and 11, enforced by
+  the build), a 20-item test and a listening-journal project. Next: draft lessons 1 to 4. **Before the active-listening lesson:** Weger et al. 2010
   and 2014 and Kluger et al. 2024 are abstract-only (paywall and bot blocks) and should be read in
   full. Lessons on gender and interruption, culture, autism and political dialogue get the
   neutrality pass although `sensitive_domain` is false.

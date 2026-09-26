@@ -16,13 +16,17 @@ description: >-
   separates findings that have held up from popular advice that hasn't, and it opens Term 4, the
   term on people.
 outcomes:
-  - Explain how turn-taking, questions and follow-ups shape a conversation, and what the research
-    shows about each
-  - Practise listening that checks understanding, and tell it apart from listening that only waits
-    for a turn
-  - Ask open and follow-up questions that move a conversation on, and judge when not to ask
-  - Recognise common ways conversations go wrong (interrupting, advice-giving, one-upping) and repair
-    them
-  - Weigh popular claims about conversation and body language against what the evidence supports
-prerequisites: []
+  - Explain how turns change hands in conversation, why replies are planned while the other person is
+    still talking, and what a pause or a hedged reply signals
+  - Identify the common ways listening fails, including interrupting, self-focus and unasked-for
+    advice, and state what the evidence on interruption and gender does and does not show
+  - Ask open and follow-up questions, rewrite questions that invite a false answer, and decide when not
+    to ask
+  - Check understanding by saying back what you heard until the speaker agrees, and compare what the
+    research shows about active listening with what its textbooks claim
+  - Respond to someone with a problem in ways the evidence supports, and, when a friend may be at risk
+    of suicide, do what the crisis services advise and connect them to help
+  - Weigh popular claims about conversation, body language, culture and changing minds against the
+    evidence, naming who was studied and what it was compared with
+prerequisites: [logic-and-argument, mental-fitness]
 sensitive_domain: true

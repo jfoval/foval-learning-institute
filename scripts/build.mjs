@@ -862,6 +862,14 @@ function lintLessons() {
             fail(`${file}: the safety callout is missing or differs from the standard text. Every Car Basics lesson, test and project carries it word for word (research/OUTLINE.md decision 4); the text is in scripts/build.mjs.`);
         }
 
+        // Conversation and Listening: lessons 10 and 11 (bringing a problem; when it's serious) carry
+        // Mental Fitness's crisis callout word for word. research/OUTLINE.md, the crisis decision.
+        if (cdir.name === "conversation-and-listening" && path.basename(lessonsDir) === "lessons" && /^(10|11)-/.test(path.basename(file))) {
+          const CRISIS_CL = ":::callout If you're struggling right now\nThis course is education, not care. If you're thinking about suicide or self-harm, or don't feel able to keep yourself safe, contact emergency services (911 in the US and Canada, 999 in the UK, 112 across the EU, 000 in Australia) or a crisis line: call or text 988 in the US and Canada, call Samaritans on 116 123 in the UK and Ireland, or Lifeline on 13 11 14 in Australia. Elsewhere, findahelpline.com lists free, confidential lines by country.\n:::";
+          if (!src.replace(/\r\n/g, "\n").includes(CRISIS_CL))
+            fail(`${file}: Conversation and Listening lessons 10 and 11 carry the Mental Fitness crisis callout word for word (research/OUTLINE.md); the text is in scripts/build.mjs.`);
+        }
+
         // Home Repair and Maintenance: every lesson carries the same safety callout, word for word:
         // no gas work and no wiring taught, each country's gas-leak steps, isolate first, and that
         // the reserved-work rules differ by nation and state. research/OUTLINE.md decision 4.
