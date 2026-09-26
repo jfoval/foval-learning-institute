@@ -1,10 +1,11 @@
 ---
 title: "Brakes, steering and suspension"
-minutes: 85
+minutes: 90
 objectives:
   - >-
     Explain, from what the US standards establish, why brake fluid has to be kept away from moisture,
-    and state how far the standard lets a fluid's boiling point fall once it has taken up water
+    and state how far the standard's minimum boiling point for each grade drops between fresh fluid
+    and fluid that has been through its wet test
   - >-
     Explain what ABS does and what it does not promise, in the words of the Highway Code and two
     makers' handbooks
@@ -16,9 +17,9 @@ objectives:
     not read about how those systems work
 quiz:
   - q: >-
-      A neighbour has topped up her car's brake fluid three times since the spring, and she's
-      planning to keep a bottle in the boot so she never runs short. On the handbooks read in this
-      lesson, what should she do?
+      A colleague's car has been a little lower at each of her last three monthly checks, and she's
+      added brake fluid each time from a bottle she bought at a petrol station. On the handbooks read
+      in this lesson, what should she do?
     options:
       - Carry on, since the level falls a little as the pads wear and topping up is normal
       - Have the brake system checked, since refilling this often points to a problem
@@ -33,9 +34,9 @@ quiz:
       evaporates, the grade is the one on the cap and in the handbook, not a "better" one, and nothing
       read blames overfilling for a falling level.
   - q: >-
-      A US owner's handbook specifies DOT 3 brake fluid. Using FMVSS 116's minimum boiling points in
-      degrees Fahrenheit, how far is the floor allowed to drop between fresh fluid and fluid that has
-      been through the standard's wet test?
+      As general information: a US owner's handbook specifies DOT 3 brake fluid. Using FMVSS 116's
+      minimum boiling points in degrees Fahrenheit, how much lower is the wet minimum than the dry
+      minimum?
     options:
       - By 117 °F, from a 401 °F minimum when dry to a 284 °F minimum when wet
       - By 135 °F, from a 446 °F minimum when dry to a 311 °F minimum when wet
@@ -51,7 +52,7 @@ quiz:
       A driver whose car has ABS says she can follow the car in front more closely on a wet road,
       because ABS will stop her in a shorter distance. What do the sources in this lesson say?
     options:
-      - She's right; ABS was designed to shorten every stop on a wet or slippery road
+      - She's right; ABS was designed to shorten stops on a wet or slippery road
       - She's right on a wet road, though not on gravel or snow, where ABS can't work
       - She's wrong; ABS helps her keep steering, but stops aren't promised to be shorter
       - She's wrong; ABS only works at motorway speeds, so it won't help her on town roads
@@ -63,7 +64,8 @@ quiz:
       ABS", and that they may be longer on gravel or snow. Nothing says ABS can't work on gravel or snow, and
       Nissan says its system operates above 3 to 6 mph, so it isn't limited to motorway speeds.
   - q: >-
-      A driver in a car sold in the US starts the engine, and a red light marked BRAKE stays on as she
+      As general information: a driver in a car sold in the US starts the engine, and a red light
+      marked BRAKE stays on as she
       pulls away. When she releases the parking brake fully, the light goes out and stays out. On
       FMVSS 135's list of what turns the light on, what was it telling her?
     options:
@@ -81,25 +83,24 @@ quiz:
       when the parking brake is let off. If the light had stayed on
       with the parking brake off, Ford's and Toyota's handbooks treat it as a fluid or system fault.
   - q: >-
-      A car's steering wheel shudders every time the driver brakes hard from speed, but is smooth the
-      rest of the time. On the two handbooks this lesson quotes for these signs, what does that point
-      to, and what is the label?
+      A driver notices that the steering wheel and her seat vibrate at a steady 70 mph cruise, and
+      the vibration doesn't change whether she brakes or not. On the two handbooks this lesson quotes
+      for these signs, what does that point to, and what is the label?
     options:
-      - Wheel balance, as Nissan says for vibration at speed; Yours to fix at home
-      - Under-inflated tyres, since the shudder comes from soft sidewalls; Yours
       - The brakes, as Ford says for a shudder while braking; Call someone to check
-      - Worn shock absorbers, as the bounce test shows; Yours, on conditions
+      - Worn shock absorbers, as the bounce test would show; Yours, on conditions
+      - Wheel balance, as Nissan says for vibration at highway speed; Call someone
+      - Under-inflated tyres, since soft sidewalls make the seat shake; Yours
     answer: 2
     explain: >-
-      Ford's 2024 Maverick handbook says that if the vehicle "has continuous vibration or shudder in the
-      steering wheel while braking, an authorized dealer should check your vehicle." The shudder here
-      comes only with braking. Nissan's balancing line is for a steering wheel or seat that vibrates "at
-      normal highway speeds", braking or not, and balancing isn't an owner's job anyway. No source read
-      ties a shudder to soft sidewalls or to the bounce test, which is about a car that keeps bouncing
-      after you push it down.
+      Nissan's 2024 LEAF handbook says that "If the steering wheel or seat vibrates at normal highway
+      speeds, wheel balancing may be needed." Balancing is a garage's job, so it's Call someone. Ford's
+      Maverick line is for a shudder "in the steering wheel while braking", and this one doesn't
+      change with the brakes. The bounce test is about a car that keeps bouncing after you push it
+      down, not a vibration on the move, and no source read ties seat vibration to soft sidewalls.
   - q: >-
-      As general information: a car in Great Britain comes in for its MOT. The brake fluid is below the
-      MIN mark on the transparent reservoir, but clearly visible, and no warning light is on. How does
+      As general information: a car in Great Britain comes in for its MOT. The brake fluid is just
+      below the MIN mark on the transparent reservoir, and no warning light is on. How does
       DVSA's inspection manual categorise that?
     options:
       - A major defect, so the car fails the test
@@ -118,10 +119,10 @@ quiz:
 You can't see your brakes working, and most drivers never look at them. But a car tells you a good
 deal about them if you know where to look: a see-through reservoir under the bonnet (the hood, in the US)
 with two lines on its side, a red light, a pedal that feels different, a pull, a noise. The Highway
-Code, for Great Britain, puts the stakes in one sentence: "Low brake fluid may result in brake
-failure and a crash."[1] This lesson explains what the brake fluid is for and why it wears out, what
-ABS does and doesn't do, and what each sign calls for. It ends with steering and suspension, where
-this course could read less, and says so.
+Code's advice for Great Britain puts the stakes in one sentence: "Low brake fluid may result in brake
+failure and a crash."[1] Start with the fluid: what it's for, why it wears out, what ABS does and
+doesn't do, and what each sign calls for. Steering and suspension come last, where this course could
+read less, and it says so.
 
 :::callout Before the car lets you down
 This course is education, not mechanical training, and not legal advice about your own car. If your car fails on a motorway or other fast road in Great Britain, leave at the next exit or services if you can; if you can't, go left into an emergency area or onto the hard shoulder, switch on your hazard lights, get everyone out on the side away from traffic and behind the barrier if there is one, and don't go back to the car. If you're stuck in a live lane or can't get out safely, stay in with seat belts and hazard lights on and call 999 and ask for the police. In the US, pull as far onto the right shoulder as you can, switch on your hazard lights and stay in with your seat belt on, unless the shoulder is too narrow or there's a guardrail to wait behind, in which case get out on the side away from traffic; call 911 in an emergency. Never put any part of your body under a car held up only by a jack, and never touch the orange high-voltage cables on a hybrid or electric car. The law on a car's condition differs between Great Britain, Northern Ireland and each US state, and it changes.
@@ -140,20 +141,28 @@ Northern Ireland and each US state, and they change.
 
 This is general information, not legal advice.
 
-Your car's brakes are hydraulic: they work through a liquid, the brake fluid. The US standard for the
+The brakes on all three cars this lesson reads about are hydraulic: they work through a liquid, the
+brake fluid. The US standard for the
 fluid, FMVSS No. 116, sets requirements for "fluids for use in hydraulic brake systems of motor
 vehicles", and Nissan's description of ABS, later in this lesson, talks of varying "the brake fluid
 pressure" at each wheel.[2][6] How a push on the pedal becomes enough force at the wheels to stop a
 car is something this course did not find explained in any free official source, so it won't try to
 explain it. The technicians' textbooks in Go deeper have chapters on it.
 
+The sources name the parts at the wheels without describing them: DVSA's MOT manual speaks of "Brake
+linings and pads" and "Brake discs and drums", and the US standard of "wheel cylinders or caliper
+pistons".[5][3] The US standard requires "a service brake system acting on all wheels", and "service
+brake" is its name for that main braking system.[3] How each of those parts works is in the textbooks
+too.
+
 What the sources do give is the layout, in the words of the US federal standard for car brake
 systems, [FMVSS No. 135](https://www.ecfr.gov/current/title-49/subtitle-B/chapter-V/part-571/subpart-B/section-571.135),
 which applies to passenger cars made from 1 September 2000.[3] Three things in it matter to an owner.
 
-**Two circuits, one control.** The standard defines a "split service brake system" as "two or more
+**Two or more circuits, one control.** The standard defines a "split service brake system" as "two or more
 subsystems actuated by a single control, designed so that a single failure in any subsystem ... does
-not impair the operation of any other subsystem."[3] The fluid reservoir has "a reservoir compartment
+not impair the operation of any other subsystem."[3] The standard excepts one failure from that: a
+structural failure of a housing the subsystems share.[3] The fluid reservoir has "a reservoir compartment
 for each service brake subsystem", and "Loss of fluid from one compartment shall not result in a
 complete loss of brake fluid from another compartment."[3] So a leak in one part of the system is
 meant to leave the other part working. That's a design requirement, not a reason to keep driving: the
@@ -163,7 +172,7 @@ standard also requires a warning light for exactly that failure, which comes up 
 level of fluid can be checked without need for the reservoir to be opened. This requirement is
 deemed to have been met if the vehicle is equipped with a transparent brake fluid reservoir or a
 brake fluid level indicator".[3] Near the cap, the standard requires a warning in letters at least
-3.2 mm high: "WARNING: Clean filler cap before removing. Use only ______ fluid from a sealed
+3.2 mm (1/8 inch) high: "WARNING: Clean filler cap before removing. Use only ______ fluid from a sealed
 container." with the blank filled in with the fluid the maker specifies, such as "DOT 3".[3]
 
 **A reservoir sized for wear.** The standard sets the reservoir's minimum size by the fluid displaced
@@ -173,7 +182,8 @@ is normal for the brake fluid level to go down slightly as the brake pads wear o
 level in the accumulator is high".[4] This course's reading of the two together: as the pads wear, the
 pistons at the wheels sit further out, and the fluid behind them comes from the reservoir, so its level
 falls a little. The standard doesn't say that in a sentence, and Toyota doesn't give the reason; the
-reading is this course's.
+reading is this course's. It sits well beside another line of the standard: "Wear of the service
+brakes shall be compensated for by means of a system of automatic adjustment."[3]
 
 What this means for you is simple, and it's the same in both countries. Reading the level through the
 side of the reservoir is **Yours**. Even an MOT tester in Great Britain doesn't open it: DVSA's
@@ -183,9 +193,9 @@ handbooks do describe adding fluid, for their own cars.[4][6] This course doesn'
 scope decision: a level that needs adding to is a level to have explained, and in this course's labels
 anything on the brakes beyond reading the level is **Call someone**.
 
-:::checkpoint Two readers disagree about the brake-fluid cap on their cars. One says the warning on it is just the maker being cautious; the other says it's required. Which is right for a car sold in the US, and what should the blank in the warning say on your car?
+:::checkpoint A seller shows you a used car sold in the US. The warning by the brake-fluid cap names DOT 3, and he says any DOT fluid will do because "the grades are all the same stuff". What does the cap tell you, and where do you check?
 
-For a car sold in the US, it's required: FMVSS 135 S5.4.3 requires the warning "Clean filler cap before removing. Use only ______ fluid from a sealed container." within 100 mm of the cap, with the maker's specified fluid in the blank. What goes in the blank is your car's own fluid, and your handbook says the same: Nissan specifies DOT 3 for the 2024 LEAF, Ford recommends a DOT 4 low-viscosity fluid for the 2024 Maverick, and Toyota's 2023 Corolla handbook allows DOT 3 or DOT 4. This course read no UK rule on the cap, so it can't say whether a car sold in Great Britain carries the same words.
+The cap tells you what the maker specified. For a car sold in the US that warning is required: FMVSS 135 S5.4.3 requires "Clean filler cap before removing. Use only ______ fluid from a sealed container." within 100 mm (3.94 inches) of the cap, with the maker's recommended fluid in the blank. So DOT 3 on the cap is the maker's choice for that car, not a suggestion. Check it against the car's handbook, which should name the same grade. And the grades aren't interchangeable on the makers' own word: Ford's handbook for the 2024 Maverick warns against "any fluid other than the recommended brake fluid", and Toyota's 2023 Corolla handbook allows DOT 3 or DOT 4, a choice Toyota makes for that car and no other. This course read no rule for Great Britain or Northern Ireland on the cap, so it can't say whether a car sold there carries the same words.
 :::
 
 ## Brake fluid, and what water does to it
@@ -215,8 +225,8 @@ once fresh, which it calls dry, and once after a test that loads the fluid with 
 calls wet.[2]
 
 The wet test is worth describing exactly, because it's easy to describe loosely. The fluid under test
-is humidified in the same sealed container as a reference fluid, and it comes out when the
-**reference** fluid has taken up "3.70 ±0.05 percent by weight" of water.[2] The fluid being tested may by then hold more or
+stands in an open jar beside a reference fluid, inside the same covered glass vessel over water, kept
+at 50 °C (122 °F), and it comes out when the **reference** fluid has taken up "3.70 ±0.05 percent by weight" of water.[2] The fluid being tested may by then hold more or
 less water than that; its boiling point is what's measured. So "wet" means a fluid that has sat in
 the same damp air as a reference fluid until that fluid was about 3.7 per cent water, not a fluid
 that is exactly 3.7 per cent water itself.
@@ -283,8 +293,8 @@ That makes brake fluid like the cambelt in lesson 2, "The engine: petrol, diesel
 wheels": you don't wait for it to go wrong; it's changed by the calendar or the miles. The interval
 is your handbook's. Two examples of what that looks like:
 
-- **Nissan, 2024 LEAF (US).** The standard schedule lists "Replace brake fluid" at 30,000 miles or 24
-  months, and every 30,000 miles after that; its schedule for severe use adds it at 15,000 miles or 12
+- **Nissan, 2024 LEAF (US).** The standard schedule lists "Replace brake fluid" at 30,000 miles (48,000 km)
+  or 24 months, and every 30,000 miles after that; its schedule for severe use adds it at 15,000 miles or 12
   months, so every 15,000 miles in all. Its list of severe conditions starts with "Repeated short trips
   of less than 5 miles (8 km)." Each interval is to be done at the miles or the months, "whichever
   comes first."[6]
@@ -301,8 +311,9 @@ The grade comes from the maker. Nissan's LEAF takes DOT 3; Ford recommends "Dot 
 High Performance Brake Fluid" for the Maverick; Toyota's 2023 Corolla handbook lists DOT 3 or DOT 4.[4]
 [6][7] Ford's warning is the reason the grade isn't a matter of taste: "Do not use any fluid other
 than the recommended brake fluid as this will reduce brake efficiency."[7] The US standard also
-requires a silicone-based DOT 5 fluid to be labelled as such and coloured purple, where DOT 3 and DOT 4
-are colourless to amber, so the grades can be told apart.[2]
+requires a silicone-based DOT 5 fluid to be labelled "DOT 5 SILICONE BASE" and coloured purple; DOT 3,
+DOT 4 and the non-silicone DOT 5.1 must be colourless to amber.[2] It gives no reason, and colour alone
+won't tell DOT 3 from DOT 4: the grade on the cap and in the handbook does.
 
 And it's not a pleasant liquid. Nissan: "Brake fluid is poisonous and should be stored carefully in
 marked containers out of the reach of children." and "Do not spill the fluid on any painted
@@ -335,23 +346,28 @@ Stop topping up and carrying on. Twice in a month is the "frequent refilling" To
 
 ### The red brake light
 
-FMVSS 135 says what turns the brake warning light on in a car sold in the US.[3] Among other
-things, it comes on:
+FMVSS 135 lists the conditions that must switch on a brake warning indicator in a car sold in the
+US.[3] A maker may put several of them on one light marked BRAKE, or give some of them their own
+light; a separate light for an ABS fault or a regenerative-braking fault must be yellow.[3] Nissan's
+2024 LEAF, for one, has a yellow brake system warning light for its regenerative brake as well as the
+red BRAKE light.[6] The conditions include:
 
-- on a gross loss of fluid or fluid pressure, which the maker may choose to detect by the fluid falling
+- a gross loss of fluid or fluid pressure, which the maker may choose to detect by the fluid falling
   "to less than the recommended safe level specified by the manufacturer or to one-fourth of the fluid
-  capacity of that reservoir compartment, whichever is greater", or by a loss of pressure in one
-  circuit;
-- on "Any electrical functional failure in an antilock or variable brake proportioning system";
-- on "Application of the parking brake";
-- on brake lining wear-out, but only "if the manufacturer has elected to use an electrical device" for
+  capacity of that reservoir compartment, whichever is greater", by a loss of pressure in one circuit,
+  or by a drop in a brake power unit's supply pressure;
+- "Any electrical functional failure in an antilock or variable brake proportioning system";
+- "Application of the parking brake";
+- brake lining wear-out, but only "if the manufacturer has elected to use an electrical device" for
   that warning;
-- and, in an electric car whose regenerative braking is part of the service brake, on "failure of the
+- and, in an electric car whose regenerative braking is part of the service brake, "failure of the
   RBS", the regenerative braking system that lesson 4 described.
 
-It also lights for a moment as a check when you switch on, and the standard requires it to "remain
-activated as long as the condition exists".[3] Another US standard, FMVSS 101, fixes the brake light's
-colour as red.[10] Lesson 11, "Dashboard warning lights", sets the brake light beside the others.
+The indicator must "remain activated as long as the condition exists".[3] The standard also requires a
+way to check that the light works, either by lighting it for a moment when you switch on or by a test
+the driver does, and requires the handbook to explain it; Nissan says the LEAF's BRAKE light "remains
+illuminated for about a few seconds" at switch-on.[3][6] FMVSS 101 makes the brake-system light
+red.[10] Lesson 11, "Dashboard warning lights", sets the brake light beside the others.
 
 What to do when it comes on while you're moving is the handbook's, and the three read here say it in
 different words:
@@ -360,7 +376,7 @@ different words:
 |---|---|
 | Ford, 2024 Maverick (US and Canada) | Make sure the parking brake is released; if it is, the light "indicates low brake fluid level or the brake system requires service". Elsewhere: "Driving your vehicle with the warning lamp on is dangerous. A significant decrease in braking performance may occur. It may take you longer to stop your vehicle."[7][11] |
 | Toyota, 2023 Corolla (US) | The fluid is low or the system is malfunctioning: "Immediately stop the vehicle in a safe place and contact your Toyota dealer. Continuing to drive the vehicle may be dangerous."[4] |
-| Nissan, 2024 LEAF (US) | "If the BRAKE warning light illuminates, stop the vehicle immediately and have the system checked." With a low-fluid warning: "If you judge the brake system to be safe, drive carefully to the nearest service station for repairs. Otherwise, have your vehicle towed because driving it could be dangerous."[6] |
+| Nissan, 2024 LEAF (US) | "If the BRAKE warning light illuminates, stop the vehicle immediately and have the system checked." For its separate low-fluid light: stop and check the level (Nissan's steps then include adding fluid, which this course doesn't teach). "If the brake fluid level is below the minimum or MIN mark on the brake fluid reservoir, do not drive until the brake system has been checked." Only otherwise: "If you judge the brake system to be safe, drive carefully to the nearest service station for repairs. Otherwise, have your vehicle towed because driving it could be dangerous."[6] |
 
 The three agree on more than their wording suggests. None tells you to top up and carry on, all three
 say driving on could be dangerous, and Ford's first step, checking that the parking brake is off, is
@@ -378,15 +394,15 @@ applies and releases hydraulic pressure. This action is similar to pumping the b
 Ford's handbook adds what you'll feel: "If the system activates, the brake pedal could pulse and travel
 further. Maintain pressure on the brake pedal."[7]
 
+:::predict A car with ABS and a car without it brake as hard as they can on the same wet road. Before reading on: does the Highway Code tell you the ABS car will stop shorter?
+
+No. Rule 120, which is advice in Great Britain, says "The ABS should ensure that steering control will be retained, but do not assume that a vehicle with ABS will stop in a shorter distance." Nissan goes further: "Remember that stopping distances on slippery surfaces will be longer than on normal surfaces even with ABS." And Ford lists situations where it "does not eliminate the risk of crash", including driving too close to the vehicle in front and hydroplaning.
+:::
+
 What is it for? Both makers say the same thing, and it isn't stopping sooner. Nissan: "By preventing
 each wheel from locking, the system helps the driver maintain steering control and helps to minimize
 swerving and spinning on slippery surfaces." Ford: it "helps you maintain steering control during
 emergency stops by keeping the brakes from locking."[6][7]
-
-:::predict A car with ABS and a car without it brake as hard as they can on the same wet road. Before reading on: does the Highway Code tell you the ABS car will stop shorter?
-
-No. Rule 120 says "The ABS should ensure that steering control will be retained, but do not assume that a vehicle with ABS will stop in a shorter distance." Nissan goes further: "Remember that stopping distances on slippery surfaces will be longer than on normal surfaces even with ABS." And Ford lists situations where it "does not eliminate the risk of crash", including driving too close to the vehicle in front and hydroplaning.
-:::
 
 The Highway Code's Rule 120 also says, before anything else, "you should follow the advice given in
 the vehicle handbook", which is this course's rule too.[12] It's advice (a should), not a MUST.
@@ -400,25 +416,26 @@ steering in a hard stop, so drive as if you had no ABS until it's fixed. Having 
 
 ## Signs you can notice: the pedal, the pull, the noise, the bounce
 
-Brakes, steering and suspension give signs before they give out, and an owner can notice every one of
-these from the driver's seat or the pavement. Each has a source and a label.
+Brakes, steering and suspension often give signs an owner can notice first, and the sources name
+these. Every one below can be noticed from the driver's seat or the pavement, and each has a source
+and a label.
 
 | What you notice | What the source says | Whose, and for which car | Label |
 |---|---|---|---|
-| The pedal sinks further than usual or feels spongy, or the car takes longer to stop | Visit a dealer "immediately" | Nissan, 2024 LEAF handbook (US)[6] | Call someone |
+| The pedal suddenly sinks further than normal or feels spongy, or the car takes longer to stop | Visit a dealer "immediately" | Nissan, 2024 LEAF handbook (US)[6] | Call someone |
 | The car pulls to one side when braking | "most likely to be a brake fault or incorrectly inflated tyres. Consult a garage or mechanic immediately" | Highway Code, Annex 6, advice, Great Britain[1] | Check the tyre pressures (Yours); then Call someone |
-| The brakes pull the car to one side | "Check that the brakes do not pull the vehicle to one side when applied." | Nissan, owner checks (US)[6] | As above |
-| The car pulls to one side on a straight, level road, or tyres wear unevenly | "there may be a need for wheel alignment" | Nissan, owner checks (US)[6] | Call someone |
-| The steering wheel or seat vibrates at normal highway speeds | "wheel balancing may be needed" | Nissan, owner checks (US)[6] | Call someone |
+| The brakes pull the car to one side | "Check that the brakes do not pull the vehicle to one side when applied." | Nissan, 2024 LEAF, owner checks (US)[6] | As above |
+| The car pulls to one side on a straight, level road, or tyres wear unevenly | "there may be a need for wheel alignment" | Nissan, 2024 LEAF, owner checks (US)[6] | Call someone |
+| The steering wheel or seat vibrates at normal highway speeds | "wheel balancing may be needed" | Nissan, 2024 LEAF, owner checks (US)[6] | Call someone |
 | A shudder in the steering wheel while braking | "an authorized dealer should check your vehicle" | Ford, 2024 Maverick (US and Canada)[7] | Call someone |
 | A squeal or scrape when braking | "Have the brake pads checked and replaced by your Toyota dealer as soon as possible." | Toyota, 2023 Corolla (US)[13] | Call someone |
-| Continuous grinding or squeal | "the brake linings may be worn-out and an authorized dealer should check them" | Ford, 2024 Maverick[7] | Call someone |
-| Steering with more free play, heavier, or noisy | "Check for changes in the steering conditions, such as excessive free play, hard steering or strange noises." | Nissan, owner checks (US)[6] | Noticing is Yours; the cause is Call someone |
+| Continuous grinding or squeal | "the brake linings may be worn-out and an authorized dealer should check them" | Ford, 2024 Maverick (US and Canada)[7] | Call someone |
+| Steering with more free play, heavier, or noisy | "Check for changes in the steering conditions, such as excessive free play, hard steering or strange noises." | Nissan, 2024 LEAF, owner checks (US)[6] | Noticing is Yours; the cause is Call someone |
 | The car keeps bouncing after you push down on the front or rear | "its shock absorbers are worn. Worn shock absorbers can seriously affect the operation of a vehicle and should be replaced" | Highway Code, Annex 6, advice, Great Britain[1] | The test is Yours; the fix, Call someone |
 
 A few of these need a sentence more.
 
-**The squeal is designed.** DVSA's manual explains it for testers: "Some brake pads have metal wear
+**On some pads, the squeal is designed.** DVSA's manual explains it for testers: "Some brake pads have metal wear
 indicators so that when the pads become excessively worn the metal indicator touches the disc making a
 squealing sound."[5] Toyota calls it the brake pad wear indicators, and warns that "It is dangerous to
 drive the vehicle when the wear limits of the brake pads and/or those of the brake discs are
@@ -429,14 +446,13 @@ pressure check from lesson 7, "Tyres I: pressure, the placard and TPMS", is the 
 cold, by the placard. If the pressures are right and the pull stays, it's a garage's. Lesson 7 also
 reads uneven tread wear for what it says about alignment.
 
-**Wet brakes are a different thing from wet fluid.** After driving through water, the Highway Code's
-Rule 121 says "your brakes may be less effective", and to "Test them at the first safe opportunity by
+**Wet brakes are a different thing from wet fluid.** After driving through deep water, the Highway
+Code's Rule 121 (advice, Great Britain) says "your brakes may be less effective", and to "Test them at the first safe opportunity by
 pushing gently on the brake pedal to make sure that they work. If they are not fully effective, gently
 apply light pressure while driving slowly. This will help to dry them out."[12] Nissan adds that the
 car "may pull to one side during braking" when its brakes are wet, and Ford that "Wet brakes result in
 reduced braking efficiency".[6][7] That's water on the brakes themselves, from a flood or a car wash.
-The "wet" in the boiling-point table is water absorbed into the fluid over time. Same word, two
-different things.
+The "wet" in the boiling-point table is water absorbed into the fluid over time.
 
 ### A pull and a shudder near Nashua
 
@@ -459,7 +475,7 @@ system works: a description written from general knowledge, with nothing to chec
 kind of teaching this course exists to avoid.
 
 What the sources do give is the names of the parts and the fact that someone else inspects them.
-Nissan's maintenance schedule for the 2024 LEAF lists, among the dealer's inspections, "Suspension
+Nissan's maintenance schedule for the 2024 LEAF lists, among its scheduled inspections, "Suspension
 components (shocks, sub-frame, tie rods)" and "Steering gear and linkage".[6] Ford's multi-point
 inspection for the Maverick lists "Suspension components for leaks or damage" and "Steering and
 linkage".[7] DVSA's MOT manual has a suspension section covering "Springs", "Shock absorbers",
@@ -468,7 +484,9 @@ bushes".[14] Every one of those lists puts the inspection in a trained person's 
 
 What the owner has is the signs in the table above: the steering's feel and noise (Nissan), a pull on a
 straight road and uneven tyre wear (Nissan; lesson 7), a vibration (Nissan), and the bounce test
-(Annex 6). If you want to know how the parts work, the textbooks in Go deeper are the place, and power
+(Annex 6). Annex 6's advice adds two links between them. Uneven tyre wear "may be caused by faults in
+the braking or suspension systems, or wheels which are out of alignment", and "Your brakes and
+steering will be adversely affected by under-inflated or over-inflated tyres."[1] If you want to know how the parts work, the textbooks in Go deeper are the place, and power
 steering fluid, where a car has any, is lesson 9's.
 
 ## What the MOT checks, in Great Britain
@@ -508,15 +526,15 @@ covers the states this course read.
 
 ## What people get wrong
 
-**"ABS stops you shorter."** The Highway Code: "do not assume that a vehicle with ABS will stop in a
+**"ABS stops you shorter."** The Highway Code's advice (Rule 120, Great Britain): "do not assume that a vehicle with ABS will stop in a
 shorter distance." It keeps you steering.
 
 **"If the brake-fluid light comes on, top it up and carry on."** Every handbook read says have the
 system checked, and on this course's reading a level that keeps falling means the fluid is going somewhere. Topping up hides the
 evidence.
 
-**"Brake fluid lasts for ever."** It takes up water, and the floors in the table above fall by 65 to 75
-°C when it does. Nissan's schedule replaces it every 30,000 miles or 24 months; Ford says to change it
+**"Brake fluid lasts for ever."** It takes up water, and the standard's wet floors sit 65 to 75 °C below its
+dry ones. Nissan's schedule replaces it every 30,000 miles or 24 months; Ford says to change it
 "at the specified intervals". Your handbook has yours.
 
 **"'Wet' fluid means the brakes got wet."** Wet brakes are water on the brakes after a flood or a car
@@ -526,8 +544,8 @@ makers' answer to that is changing the fluid on schedule.
 **"Regenerative braking means an electric car's brakes don't need checking."** Lesson 4 showed that
 regeneration reduces brake wear, not that it ends it, and Nissan's handbook for the LEAF, an electric
 car, still lists the brake-fluid level, the pedal and the pull among the owner's checks. And as the
-section on the red light showed, the brake warning covers a failed regenerative system too, where
-regeneration is part of the service brake.
+section on the red light showed, the standard requires a warning for a failed regenerative system too,
+where regeneration is part of the service brake, on the brake light or a yellow light of its own.
 
 ## Practice
 
@@ -536,11 +554,11 @@ Take 15 minutes over these. Use your own car, or one whose keeper agrees, and it
 
 1. From the handbook (or the maker's online handbook), write down: the brake fluid grade it specifies; the brake-fluid change interval in its service schedule, or "the handbook sends me to the maker's website" if it does; what it says to do if the brake warning light comes on while driving; and what it says about a pedal that feels different.
 
-2. Prepare the car before opening the bonnet: park on level ground, apply the parking brake, select P (or leave it in gear), and switch the car off in the way the handbook describes. Take the key or fob away from the car. If the car is a hybrid or electric, lesson 4's two warnings apply here: its engine may restart and its cooling fan may start by itself, so turn it fully off and keep your hands out of the engine bay. Open the bonnet only by the handbook's method.
+2. Prepare the car before opening the bonnet: park on level ground, apply the parking brake, select P (or leave it in gear), and switch the car off in the way the handbook describes. If it has been driven, let it cool first. Take the key or fob away from the car. If the car is a hybrid or electric, lesson 4's two warnings apply here: its engine may restart and its cooling fan may start by itself, so turn it fully off and keep your hands out of the engine bay. Open the bonnet only by the handbook's method.
 
 3. Find the brake fluid reservoir from the handbook's picture, and read the level through its side against the MIN and MAX marks. Do not open the cap, and do not add anything. Read the warning on or near the cap and write down the fluid it names. Do not touch, open or reach past anything orange, anything blue in a mild hybrid, or anything labelled high voltage. If you can't find the reservoir, write "not found" rather than searching by touch. If the level is below MIN, don't drive the car until you've read your handbook's instruction, and treat it as Call someone.
 
-4. Close the bonnet. With the car still parked on level ground, parking brake on and switched off, and nobody in it or near the wheels, do the Highway Code's bounce test: push down firmly on the front of the car with your hands flat on the body, let go, and watch whether it settles or keeps bouncing. Do the same at the rear. Don't climb on the car or put any part of yourself under it. Write down what you saw.
+4. Close the bonnet. Do this only where the car is off the road, on a drive or in a car park, never standing in a road with traffic. With the car still parked on level ground, parking brake on and switched off, and nobody in it or near the wheels, do the Highway Code's bounce test: push down firmly on the front of the car, let go, and watch whether it settles or keeps bouncing. Do the same at the rear. Don't climb on the car or put any part of yourself under it. Write down what you saw.
 :::
 
 :::checkpoint Check your notes against this. Which of your findings is Yours, which is Call someone, and which of them goes on your car file's service page?
@@ -560,7 +578,7 @@ the brake-fluid reading to your regular checks log.
 
 Lesson 2, "The engine: petrol, diesel, and the drive to the wheels", treated the cambelt as a date
 rather than a symptom, and brake fluid is the same kind of item. Lesson 4, "Hybrids and electric cars:
-how they work", explained the regenerative braking that FMVSS 135 now folds into the brake warning.
+how they work", explained the regenerative braking whose failure FMVSS 135 now requires a warning for.
 Lesson 7 reads the tyres for signs of alignment trouble. Lesson 9 makes the reservoir reading part of
 your routine; lesson 11 puts the brake and ABS lights on your warning-light card; and lesson 21, "The
 MOT and Northern Ireland's vehicle test", covers the whole test.
@@ -603,7 +621,8 @@ MOT and Northern Ireland's vehicle test", covers the whole test.
 6. Nissan North America, *2024 LEAF Owner's Manual and Maintenance Information* (US market), PDF.
    **Read in full: pages EV-7 to EV-8, CH-2, CH-12, 2-15 to 2-23, 6-10 to 6-12, 8-2, 8-5 to 8-8, 9-3
    to 9-4; and for this lesson, pp. 5-160 to 5-163 (brakes and ABS) and 9-6 to 9-9 (maintenance
-   schedules), 26 September 2026.** Used here: 2-17, 5-160 to 5-163, 8-7, 9-3 to 9-4 and 9-6 to 9-9.
+   schedules), 26 September 2026; pp. 2-17 to 2-18 and 2-20 re-read the same day.** Used here: 2-17 to
+   2-18, 2-20, 5-160 to 5-163, 8-7, 9-3 to 9-4 and 9-6 to 9-9.
    A maker's handbook for its own car. <!-- SOURCES Part B §2, §3; lesson 06 gate closures -->
 7. Ford Motor Company, *2024 Maverick Owner's Manual*, edition 202307, US and Canada, read from
    Internet Archive capture 20250505042038 (Ford's site refuses automated readers). **Read in full:

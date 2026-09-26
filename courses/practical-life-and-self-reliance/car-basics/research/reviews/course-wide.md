@@ -135,3 +135,20 @@ The key records above are history. As committed: 01 3,0,1,3,2,0; 02 3,1,0,3,2; 0
 - **Industry label short forms used in lesson 07:** "TyreSafe, the industry-backed charity"; "AAA, whose
   clubs sell roadside assistance"; "the AA, which sells breakdown cover and repairs".
 - **Quiz keys:** 07 0,3,2,0,1,0 (unchanged by the fix).
+
+## 2026-09-26 — Lesson 06 fix pass: notes for later lessons
+
+- **FMVSS 135 requires "an indicator", not "the brake light", for each condition in S5.5.1.** A maker
+  may use one common light marked BRAKE (S5.5.5(b)) or separate ones; a separate ABS light and a
+  separate RBS light must be yellow (S5.5.5(d)(3) and (6)), a separate wear light says "Brake Wear".
+  **Lesson 11 must not say the red brake light reports ABS or regenerative faults as a rule.** The LEAF
+  shows both kinds: a red BRAKE light and a yellow brake system warning light for its regenerative brake
+  (pp. 2-17 and 2-20). SOURCES "Stage 4 note, lesson 06" corrects the drafter's gate closure.
+- **S5.5.1(a) has three ways to detect fluid loss** (level, pressure difference, power-unit supply
+  pressure), and the function check (S5.5.2) is automatic at switch-on or a driver's test; either way
+  the handbook must explain it.
+- **Nissan's low-fluid "drive carefully" line travels with its MIN-mark line** (pp. 2-17 to 2-18): below
+  MIN, "do not drive until the brake system has been checked." Lessons 9 and 11.
+- **FMVSS 116's wet test** is open jars in a covered desiccator at 50 °C, not a sealed container, and the
+  standard sets dry and wet floors, not a permitted fall.
+- **Quiz keys:** 06 1,0,2,0,2,3 (unchanged by the fix).
