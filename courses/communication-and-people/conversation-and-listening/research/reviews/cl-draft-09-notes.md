@@ -4,7 +4,7 @@ File: courses/communication-and-people/conversation-and-listening/lessons/09-doe
 Body about 6,070 words (excluding Sources and the SVG); minutes 90 (measured; 100 on the first
 draft); contractions 7.2/1,000 outside quotation marks; bold 7.2/1,000, 15 of 94 paragraphs open
 bold (the "Who / What was compared" design labels and the misconception list).
-Quiz keys: 3,2,0,1,3,1 (D C A B D B). Checked by script against lessons 01 to 08 (2,3,1,2,1,0 /
+Quiz keys: 3,2,3,1,2,0 (D C D B C A; corrected at Stage 4, the file always carried these). Checked by script against lessons 01 to 08 (2,3,1,2,1,0 /
 1,0,3,2,3,0 / 2,3,0,1,2,0 / 1,0,2,3,0,2 / 3,0,1,3,2,1 / 0,2,3,1,3,0 / 1,3,0,2,1,0 / 2,0,3,0,3,1):
 all four positions, no adjacent repeat, no identical or value-shifted sequence, no run of four
 shared with 04 to 08. Option spreads 0 to 6 characters; the key is never the sole longest option.

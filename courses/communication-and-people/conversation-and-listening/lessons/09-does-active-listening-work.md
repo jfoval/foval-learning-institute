@@ -53,7 +53,7 @@ quiz:
       correlate r = .30 with the same patients' ratings of their care. What is the most accurate
       reading?
     options:
-      - Nurses who listen well improve patients' ratings of their care by about 30 percent
+      - Nurses who listen well probably raise patients' ratings of their care by around 30 percent
       - About 30 percent of patients who felt listened to also went on to rate their care highly
       - Listening explains the care ratings, since a meta-analysis pools many separate studies
       - The two ratings rise together, and one rater giving both could inflate the association
@@ -65,52 +65,53 @@ quiz:
       feeling about their stay can push both ratings the same way, which is the same-source problem
       the workplace meta-analysis found in three quarters of its data.
   - q: >-
-      An experiment tells half its participants, "Try to understand your partner's view," before a
-      disagreement. Afterwards, those participants report trying to understand no more than the
-      others did, and their partners rate their listening no differently. What follows?
+      A school tells half its teachers, "Praise pupils' effort rather than their cleverness," for a
+      term. Afterwards those teachers report praising effort no more often than the others do,
+      classroom observers see no difference either, and pupils' results don't differ. What follows?
     options:
-      - Trying to understand a partner in a disagreement has been shown to make no difference
+      - Praising pupils' effort has now been shown to make no difference to how well they do
       - The instruction didn't change what it aimed at, so the test says little about the idea
-      - Listening in a disagreement only works when it's measured by an outside observer instead
-      - The partners must have been rating their own views rather than the listening they received
+      - Praise is probably better judged by the pupils themselves than by classroom observers
+      - The teachers were probably describing their intentions rather than their own behaviour
     answer: 1
     explain: >-
-      When the manipulation check shows the instruction didn't take, the experiment never got to
-      test whether understanding helps; that is what the four-lab authors concluded about their own
-      learning goal. Saying understanding makes no difference reads a failed manipulation as a
-      finding. Nothing in the scenario says outside observers would do better, and nothing says
-      partners rated their own views.
+      When a manipulation check shows the instruction didn't change what teachers did, the study
+      never got to test whether praising effort helps; the four-lab authors drew the same conclusion
+      about their own learning goal. Reading it as proof that effort praise makes no difference
+      treats a failed manipulation as a finding. Nothing says pupils would judge praise better, and
+      the observers agree with the teachers' own reports, so it isn't only their intentions.
   - q: >-
-      In the couples' conflict controversy, what kind of study would come closest to settling
-      whether teaching partners structured listening helps their relationship?
+      A charity's parenting course teaches two skills together: hearing out a child's complaint
+      before answering, and staying calm when the child is angry. Families who took it report fewer
+      rows at home. What study would best show whether the hearing-out part helps?
     options:
-      - Recording many happy couples' arguments and counting how often they restate each other
-      - Surveying therapists on whether their clients seem to benefit from listening exercises
-      - Randomly assigning couples to listening training, soothing training, both, or neither
-      - Asking couples who stayed together which of the skills they were taught they still use
+      - Filming calm families at home and counting how often the parents restate what children say
+      - Surveying the course's trainers on whether the hearing-out part seems to help the families
+      - Randomly assigning families to the hearing-out part, the calm part, both parts, or neither
+      - Asking families who finished the course which of the two skills they still use each week
     answer: 2
     explain: >-
-      Counting what happy couples do naturally is the design both sides agree can't test training,
-      which is the heart of the dispute. Therapists' impressions and survivors' reports can't
-      separate the training from the couples who chose it and stayed. A randomised trial that takes
-      the programmes apart, component by component, with long follow-up, is what the sources name as
-      the missing evidence, and it doesn't assume either side is right.
+      Only random assignment to the parts separately shows what each part adds, and it doesn't
+      assume the answer; it is the design this course's reading names as missing in the couples
+      dispute. Counting what calm families do on their own shows what they do, not what training
+      does, which is the question at the heart of that dispute. Trainers' impressions and finishers'
+      reports can't separate the course from the families who chose it and stayed.
   - q: >-
       A friend says, "I read that paraphrasing makes people like you more, so I'm going to do it on
       dates." Using the paraphrase experiments, which reply is most accurate?
     options:
-      - In one study of student interviews it raised liking a little; dates weren't studied
-      - It's proven to raise liking, since two experiments found the same effect every time
-      - It lowers liking, since experiments found people saw paraphrasing listeners as fake
+      - Two student studies found small liking gains over bare replies; dates weren't studied
+      - It's proven to raise liking in any setting, since two experiments have both found it
+      - It lowers liking, since experiments found that people saw paraphrasing listeners as fake
       - It has no effect at all on liking, since the students felt no more understood by it
     answer: 0
     explain: >-
       In the 2010 experiment, paraphrase made an interviewer seem a little more socially attractive
-      to students giving their views on exams, and in the 2014 study active listening beat bare
-      acknowledgement on liking but not advice. Neither was about dates, and neither makes it
-      proven. No study here found paraphrase lowered liking. And feeling understood and liking were
-      separate outcomes: the 2010 students liked the paraphraser more without feeling more
-      understood.
+      than bare acknowledgement did, and in the 2014 study active listening beat bare acknowledgement
+      on liking, though not advice; both effects were small. Neither was about dates, and two small
+      student studies don't make anything proven. No study here found paraphrase lowered liking. And
+      feeling understood and liking were separate outcomes: the 2010 students liked the paraphraser
+      more without feeling more understood.
 ---
 
 "Active listening" is taught almost everywhere listening is taught. One research team opened a
@@ -119,10 +120,8 @@ couples, and suggested that perhaps no communication skill is named as often in 
 Lesson 8 taught one version: restating what you heard, reflecting a meaning, naming a feeling lightly, and letting the
 speaker correct you. So does it work? The honest answer starts with two more questions. Work at
 what, and compared with what? The studies that tested active listening have meant different things
-by it and compared it with different alternatives, and that is most of why they seem to disagree.
-
-This lesson takes the main studies in turn, reads each one as a design, and ends with the one
-setting where the argument has been loudest: couples who are fighting.
+by it and compared it with different alternatives, and, as this course reads them, that is most of
+why they seem to disagree.
 
 ## Four things called active listening
 
@@ -139,8 +138,8 @@ this course's reading of those studies, not any one paper's.
   validation.[10]
 - **The speaker's sense of being listened to.** A research programme led by Guy Itzchakov and
   Avraham Kluger studies what it calls high-quality listening, attentive, empathic and
-  non-judgmental; in its workplace studies, listening is measured by how listened-to the speaker
-felt.[4][5][9]
+  non-judgmental; in a meta-analysis of workplace studies that Kluger led, listening was measured
+  by how listened-to the speaker felt.[4][5][9]
 
 A result for one of these doesn't carry to another. If paraphrase alone does little, that tells you
 nothing about whether being listened to well does anything, and the reverse holds too. Lesson 3,
@@ -154,43 +153,46 @@ measures and it's no surprise the headlines conflict.
 
 Start with the study that tested the narrowest version. Harry Weger, Gina Castle and Melissa Emmett
 ran it at a large university in the south-eastern United States and [published it in 2010](https://doi.org/10.1080/10904010903466311).[1] This
-course read the full text. Reading it as a design means answering five questions in order: who was
-studied, what was compared, how it was measured, what was found, and what the result can and can't
-support.
+course read the full text. Reading a study as a design means asking five questions of it, and this
+lesson uses the same five throughout: what was tested, compared with what, measured how, rated by
+whom, and replicated where. Then you can say what the result supports.
 
-**Who.** 180 undergraduates from public speaking courses, 100 women and 80 men, with an average age
-of 18.5, who took part for extra credit.[1]
+**What was tested.** Paraphrase alone. 180 undergraduates from public speaking courses, 100 women and
+80 men with an average age of 18.5, took part for extra credit. Each was told the student government
+was gathering views on a proposed comprehensive exam that students would have to pass to graduate,
+and was interviewed about it by a trained student interviewer, who answered each opinion with a
+paraphrase.[1]
 
-**What was compared.** Students were told the student government was gathering views on a proposed
-comprehensive exam that students would have to pass to graduate, and were interviewed about it by a
-trained student interviewer. That cover story was the researchers' own; students were debriefed
-afterwards. In one condition the interviewer answered each opinion with a paraphrase. In the other,
-the interviewer gave simple acknowledgements such as "O.K." and "That's great". In both, the
-interviewers were told to keep the same eye contact, slight forward lean and moderate relaxation, so
-that the study "focuses on only the verbal element (i.e., paraphrasing the speaker's message)".[1]
+**Compared with what.** The same interview, with simple acknowledgements such as "O.K." and "That's
+great" instead. In both, the interviewers were told to keep the same eye contact, slight forward
+lean and moderate relaxation, so that the study "focuses on only the verbal element (i.e.,
+paraphrasing the speaker's message)".[1]
 
-**How it was measured.** Afterwards, students filled in three questionnaires presented as the
-student government's quality control: how understood they felt, how socially attractive they found
-the interviewer (whether they could imagine being friends, say), and how satisfied they were with
-the conversation.[1]
+**Measured how.** Three questionnaires, presented as the student government's quality control: how
+understood the students felt, how socially attractive they found the interviewer (whether they could
+imagine being friends, say), and how satisfied they were with the conversation.[1]
 
-:::predict Before you read the result: on which of the three measures would you expect paraphrasing to beat "O.K." and "That's great"? Feeling understood, liking the interviewer, or satisfaction with the conversation?
+**Rated by whom.** The speakers themselves. The paper reports no outside ratings of the talk.
 
-Only one: liking. Students who got paraphrases rated the interviewer as more socially attractive, a difference the authors report as r = .15. On feeling understood and on satisfaction, the difference wasn't statistically significant.[1]
+**Replicated where.** Nowhere, in this paper. It is a **single study**, and its authors list its
+limits: three interviewers only, and one topic, which the students mostly disliked.[1]
 
-If you predicted "feeling understood", you predicted what the authors did. It was their first hypothesis, because making someone feel understood is what active listening is for.
+Lesson 8 gave you this experiment's headline from its abstract: the paraphrasing interviewer seemed
+more likeable, and the students didn't feel more understood. The full text lets you ask why.
+
+:::predict The interviewers kept the same eye contact, lean and relaxation in both conditions. Why would the authors do that, and what does it let the result say about restating as a technique?
+
+It isolates the words. Anything that differs between the groups is down to the paraphrase, not to a warmer manner. The paraphrasers were liked a little more, a difference the authors report as r = .15 (a small effect, on the correlation scale this lesson explains below). On feeling understood and on satisfaction, the difference wasn't statistically significant.[1]
+
+Feeling understood had been the authors' first hypothesis, because making someone feel understood is what active listening is for. And holding the manner steady is exactly what their first explanation for the null leans on: "people may attend more to nonverbal than verbal cues", which were the same in both conditions.[1]
 :::
 
-**What it can support.** In one experiment with students giving opinions on an exam policy to a
+**What it supports.** In one experiment with students giving opinions on an exam policy to a
 stranger, paraphrasing made the listener a little more likeable and did not make the speakers feel
-more understood. It is a **single study**, and its authors list its limits: three interviewers only,
-and one topic, which the students mostly disliked.[1]
-
-**What it can't.** Anything about emotional topics, friends, or conversations the speaker cared
-about. The authors offer two possible explanations for the null result on feeling understood, and
-they are explanations, not tests: "people may attend more to nonverbal than verbal cues", which were
-the same in both conditions, and "The impersonal nature of the peer interviews" may have left
-students with little stake in whether they were understood.[1] Their conclusion was blunt about the
+more understood. It says nothing about emotional topics, friends, or conversations the speaker cared
+about. The authors' second possible explanation points the same way: "The impersonal nature of the
+peer interviews" may have left students with little stake in whether they were understood. Both are
+explanations, not tests.[1] Their conclusion was blunt about the
 state of the field in 2010: "little, if any, research clearly demonstrates that people perceive
 active listening to be superior to other types of listener responsiveness."[1]
 
@@ -211,16 +213,16 @@ The confederates responded in one of three ways, chosen by a roll of a die:
   named.
 - **Simple acknowledgement:** nods and short replies such as "I see" and "OK".[2]
 
-Nonverbal involvement was held moderate in all three, and raters who watched the videos confirmed
-that the confederates did what their condition asked.[2]
+Confederates were told to keep their nonverbal involvement moderate in all three, and raters who
+watched 107 of the videos confirmed that they paraphrased or advised as their condition asked.[2]
 
 The results split. Active listening made participants feel more understood than either advice or
 simple acknowledgement. On satisfaction with the conversation and on liking the partner, active
 listening and advice both beat bare acknowledgement and did not differ from each other, and the
 authors' abstract calls the effect sizes for those differences "small".[2] The authors' own reading
 is that "people respond to listeners' overall level of responsiveness regardless of the form it
-takes", and they concluded that active listening in first meetings is "a low-risk response strategy
-with some potential dyadic rewards".[2] They name the sample's limit themselves: "mostly young,
+takes", and they concluded that, at least on these outcomes, active listening in first meetings is
+"a low-risk response strategy with some potential dyadic rewards".[2] They name the sample's limit themselves: "mostly young,
 White, female college students".[2] It's a **single study** of strangers in a lab, talking about
 low-stakes topics.
 
@@ -231,9 +233,9 @@ Several, and the studies can't tell you which matters:
 1. What was tested. 2010 isolated paraphrase; 2014's active listening added invitations to say more.
 2. The setting. 2010 was an interview, where one person asks and the other answers; 2014 was two peers taking turns.
 3. The topic. An exam policy the students disliked, against weekend plans and a personal disappointment.
-4. The comparison. 2010 had only bare acknowledgement; 2014 also had advice, which may have made active listening look better on understanding by contrast.
+4. The listeners. 2010 had three interviewers; 2014 had ten confederates, so any one listener's style counted for less.
 
-Picking one of these as the answer is guessing. Neither paper tested any of them, and this course found no study that did.
+Picking one of these as the answer is guessing. Neither paper tested any of them, and this course found no study that did. One difference that can't explain it is the comparison: both studies had a bare-acknowledgement group, and in 2014 active listening beat it on feeling understood as well.
 :::
 
 ### Trained listeners and real problems
@@ -263,7 +265,8 @@ small, suggesting that the enactment of active listening behaviors is not a pana
 listeners women.[3]
 
 Put the three together and the technique has a consistent profile in these students: small effects,
-some outcomes and not others, and nothing for solving the problem.
+some outcomes and not others, and, in the one study that measured it, nothing for solving the
+problem.
 
 ## Being listened to well
 
@@ -285,48 +288,59 @@ What were those listeners compared with? Lesson 4, "How listening goes wrong", d
 of the programme's designs, from an article two of the researchers wrote for the *Harvard
 Business Review*: speakers whose listener was answering text messages, visibly, against speakers
 whose listener wasn't.[6] The same article describes a second study. 114 business undergraduates
-talked for twelve minutes about whether they were fit to be managers, to a listener who was trained
-to listen well, one who listened moderately, or one acting distracted. Speakers with a good listener
-gave more two-sided accounts of themselves; speakers with a poor listener gave the most confident,
-one-sided ones.[6] The article doesn't say which
-journal paper each study belongs to, so this course treats them as the magazine describes them.
+talked for twelve minutes about whether they were fit to be managers. Their listener was one of
+three: a trained listener asked "to use all their listening skills, such as asking questions and
+reflecting"; another undergraduate "instructed to listen as he or she usually does"; or a theatre
+student acting distracted. Speakers with the trained listener saw both their strengths and their
+weaknesses more than speakers in either other group; speakers with the distracted listener gave the
+most confident, one-sided accounts.[6] The article doesn't say which journal paper each study
+belongs to, so this course treats them as the magazine describes them.
 
-In the programme's studies that this course could read in any detail, the comparison was a listener
-told to be distracted, or a moderate one, which is a strong contrast.[6] The four-lab paper later in
-this lesson adds that experiments like these have generally used trained listeners facing a
-speaker, rather than two ordinary people talking.[8] And the good listeners in these experiments don't avoid technique: a
-2026 review co-written by Itzchakov notes that paraphrasing has often been one of the ways the
-programme's experiments created high-quality listening.[7]
+So the comparison isn't always a distracted listener. In the second study the trained listeners
+beat an ordinary one too, as the article reports it, and the abstract of a 2024 paper from the
+programme describes four experiments that "manipulated poor, moderate, and high-quality
+listening".[6][14] What the good listeners brought, though, was a package. The four-lab paper later
+in this lesson says experiments like these have generally used trained listeners facing a speaker,
+rather than two ordinary people talking.[8] And they used technique: the 114-student study's
+listeners asked questions and reflected, and a 2026 review co-written by Itzchakov notes that
+paraphrasing has often been one of the ways the programme's experiments created high-quality
+listening.[7]
 
 ### The comparison decides the result
 
 Two claims can both be called "active listening works":
 
-- Being listened to attentively beats being listened to by someone who is visibly distracted.
+- A trained listener, giving full attention and using technique, beats a distracted or an ordinary
+  listener.
 - Restating what someone said beats saying "OK", with the same attention in both.
 
-The first compares a whole stance with its absence. The second holds attention steady and varies
+The first compares a whole package with less of it. The second holds attention steady and varies
 one technique. Mental Fitness lesson 2, "What a small effect is, and what the other group got",
 taught the question to ask of any effect: what did the comparison group get? Here the answer
-changes what the study is about. A texting listener is a low bar, and only the second design tells
-you whether the technique itself does anything. **This course's reading** of the two literatures is
-that they don't contradict each other, because they mostly answer different questions.
+changes what the study is about. A texting listener, as in the 112-student study, is a low bar; an
+ordinary one is a higher bar. But the first design can't tell you which part of the package, the
+attention or the techniques, did the work. Only the second tells you whether a technique on its own
+does anything. **This course's reading** of the two literatures is that they don't contradict each
+other, because they mostly answer different questions.
 
 ### A headline, traced
 
 Suppose you meet this line in a management newsletter: "Research shows good listening makes people
-less anxious." Here is the trace, as far as it goes before it's your turn.
+less anxious." The trace runs three steps before it's your turn.
 
-1. **Find the study.** The nearest match this course read is the 112-student experiment from the
-   *Harvard Business Review* article, the one lesson 4 described.[6]
-2. **Who was studied?** Undergraduates, in pairs, face to face, talking about a proposal the
-   researchers chose.
-3. **What did the comparison group get?** A listener who had been told to answer text messages in
-   front of them.
+1. **Find the study.** Two things this course read match it: the 2017 experiments, known only from
+   an abstract that doesn't say what the listeners were compared with, and the 112-student
+   experiment lesson 4 described, whose comparison we do know. Trace the second.[4][6]
+2. **What was tested?** Listeners told to listen as they do at their best, with undergraduate
+   speakers, in pairs, face to face, talking about a proposal the researchers chose.
+3. **Compared with what?** The same, except that the listener had been sent text messages to answer
+   in front of the speaker.
 
-:::checkpoint Your turn. Do the last two steps. What does the study support, and what doesn't it, compared with the newsletter's sentence?
+:::checkpoint Your turn. Ask the next two questions, measured how and rated by whom, then say what the study supports and what it doesn't, compared with the newsletter's sentence.
 
-It supports this: in one experiment from one group's programme, undergraduates whose listener was undistracted reported less anxiety, and more clarity about their attitudes, than undergraduates whose listener was visibly texting. The outcome is the speakers' own report.
+Measured how, and by whom: questions to the speakers afterwards, so the outcome is the speakers' own report. Replicated where: the magazine doesn't say.
+
+It supports this: in one experiment from one group's programme, undergraduates whose listener was undistracted reported less anxiety, and more clarity about their attitudes, than undergraduates whose listener was visibly texting.
 
 It doesn't support "good listening makes people less anxious" as a general finding. It says nothing about paraphrase or any other technique, nothing about how large the effect was (this course has only the article's description), and nothing about whether a listener who is merely ordinary, rather than texting, does worse than a good one. A fair rewrite: "In one study, students talking to a visibly distracted listener felt more anxious than students talking to an attentive one."
 :::
@@ -349,12 +363,12 @@ other.[8] After exclusions, 1,407 people took part, most of them university stud
 
 :::predict Before reading on: did the partners of people given the learning goal feel better listened to than the partners of people told to persuade?
 
-No. "The goal manipulation did not influence perceived listening quality or polarization outcomes in any sample."[8] Not in Israel, Singapore, the UK or the US.
+No. "The goal manipulation did not influence perceived listening quality or polarization outcomes in any sample."[8] Not in Israel, Singapore, the UK or the US. (Polarization here means how far apart the two people's views, and their feelings about each other, ended up.)
 
 But read the next paragraph before deciding what that means.
 :::
 
-A check built into the study explains part of it. After the conversation, everyone rated how much
+A check built into the study, what researchers call a manipulation check, explains part of it. After the conversation, everyone rated how much
 they had tried to learn about their partner's view, and the people given the learning goal didn't
 report trying any harder than the people told to persuade. The authors' own conclusion is that this
 "suggests a failure of the manipulation, making it difficult to evaluate the conceptual hypothesis
@@ -375,11 +389,13 @@ without bad consequences, and more safety went with less negative views of the o
 of the measures. That part is correlational: it shows the measures moving together, not what caused what,
 and the authors say so.[8] Second, a small pilot study before the main experiment, with 107 pairs
 of US undergraduates talking about their hopes and fears for college, did find a large difference: listeners told to try to understand were rated
-far better than listeners told to listen attentively without saying anything (d = 0.98).[8] Look
-at what that comparison group got. A listener forbidden to speak is another low bar, and the main
+far better than listeners told to listen attentively without responding in words (d = 0.98, a gap
+of about one standard deviation, the kind of effect size Mental Fitness lesson 2 taught you to
+read).[8] Look at what that comparison group got. A listener told not to reply in words is another
+low bar, and the main
 study's persuaders, who could talk freely, were a much harder one.
 
-It is worth noticing who ran this test. Itzchakov and DeMarree are both authors of the programme's
+Notice who ran this test. Itzchakov and DeMarree are both authors of the programme's
 earlier papers, and the paper reports the null result in its abstract. The authors place it beside other listening
 interventions they describe as giving inconsistent results, except, as they report them, very
 intensive trainings of many hours.[8] Their summary of high-quality listening is "a promising, yet
@@ -387,8 +403,8 @@ difficult to induce, interpersonal behavior".[8]
 
 ## What a correlation of .39 means
 
-The largest body of evidence is at work. In 2023, Kluger and a team of colleagues published a
-[registered systematic review and meta-analysis](https://doi.org/10.1007/s10869-023-09897-5) of listening and work outcomes, pooling 664 effect
+The largest body of evidence is at work. Kluger and a team of colleagues published a
+[registered systematic review and meta-analysis](https://doi.org/10.1007/s10869-023-09897-5) of listening and work outcomes, online in 2023 and in print in 2024, pooling 664 effect
 sizes from 144 samples in 122 papers, with 155,143 individual participants.[9] This course read the
 full text on the publisher's open-access page. Most of the studies measured listening by
 questionnaire. The speakers were mostly customers, subordinates and patients; the listeners mostly
@@ -398,7 +414,7 @@ Across everything, perceived listening correlated with good work outcomes at an 
 .39**, with relationship quality at .51 and with performance at .36.[9] Their conclusion calls
 perceived listening "a powerful and often overlooked predictor of work outcomes".[9]
 
-A **correlation** says how closely two measures move together, on a scale from −1 (one always falls
+A **correlation**, which Time Management lesson 8 introduced as r, says how closely two measures move together, on a scale from −1 (one always falls
 as the other rises) through 0 (no relation) to 1 (they rise together perfectly). It is not a
 percentage. An r of .39 does not mean listening improves work by 39%, or that 39% of anyone does
 better. It means that in these studies, higher listening scores tended to go with better outcome
@@ -420,76 +436,89 @@ reflect the benefits of good relationships for performance, affect, and cognitio
 specific benefit of listening."[9]
 
 Keeping only the effects measured by different sources or methods, perceived listening and job
-performance still correlated at .21.[9] And experiments were rare: 30 of the 664 effects came
-from experimental designs, and by the authors' count only one paper tested listening's effect on
-actual performance experimentally.[9] The authors do suggest listening may be "a cause of superior
+performance still correlated at .21.[9] Experiments were rare: 30 of the 664 effects came from
+experimental designs. Those 30 averaged .39, about the same as the correlational designs' .40,
+which is the broad side's answer to "it's all correlational". Against that, studies that measured
+the outcome later (predictive designs) averaged .27, against .42 when both were measured at the
+same time.[9] And by the authors' count only one paper tested listening's effect on actual
+performance experimentally.[9] The authors do suggest listening may be "a cause of superior
 performance", and a few paragraphs later they are careful: "this study only exposed the possibility
-that listening predicts performance."[9] That caution is the right one to keep.
+that listening predicts performance."[9]
 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 240" role="img" aria-labelledby="cl9-r-title cl9-r-desc" style="width:100%;height:auto;font-family:inherit">
-  <title id="cl9-r-title">Two average correlations from a meta-analysis of listening at work, with 95% confidence intervals</title>
-  <desc id="cl9-r-desc">A horizontal scale of correlation from 0 to 0.5. First point: perceived listening with all work outcomes, all effects, r = .39, interval .36 to .43. Second point: perceived listening with job performance, only effects measured by different sources or methods, r = .21, interval .13 to .29. From Kluger et al., Journal of Business and Psychology, 2024: 664 effect sizes from 144 samples.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 296" role="img" aria-labelledby="cl9-r-title cl9-r-desc" style="width:100%;height:auto;font-family:inherit">
+  <title id="cl9-r-title">Three average correlations from a meta-analysis of listening at work</title>
+  <desc id="cl9-r-desc">A horizontal scale of correlation from 0 to 0.5. First point: perceived listening with all work outcomes, all effects, r = .39, 95% interval .36 to .43. Second point: perceived listening with job performance, all effects, r = .36, interval not read. Third point: perceived listening with job performance, only effects measured by different sources or methods, r = .21, interval .13 to .29. From Kluger et al., Journal of Business and Psychology, 2024: 664 effect sizes from 144 samples.</desc>
   <text x="20" y="28" font-size="15" fill="var(--text, #111418)">All work outcomes, all effects</text>
   <line x1="290" y1="48" x2="335" y2="48" stroke="var(--navy, #0f2a4a)" stroke-width="3"/>
   <circle cx="310" cy="48" r="7" fill="var(--navy, #0f2a4a)"/>
   <text x="344" y="54" font-size="15" fill="var(--text, #111418)">.39</text>
-  <text x="20" y="92" font-size="15" fill="var(--text, #111418)">Job performance, different sources</text>
-  <line x1="143" y1="112" x2="246" y2="112" stroke="var(--oxblood, #8b1e2d)" stroke-width="3"/>
-  <circle cx="194" cy="112" r="7" fill="var(--oxblood, #8b1e2d)"/>
-  <text x="254" y="118" font-size="15" fill="var(--text, #111418)">.21</text>
-  <line x1="60" y1="150" x2="380" y2="150" stroke="var(--text-2, #4a5260)" stroke-width="2"/>
-  <line x1="60" y1="150" x2="60" y2="158" stroke="var(--text-2, #4a5260)" stroke-width="2"/>
-  <line x1="188" y1="150" x2="188" y2="158" stroke="var(--text-2, #4a5260)" stroke-width="2"/>
-  <line x1="316" y1="150" x2="316" y2="158" stroke="var(--text-2, #4a5260)" stroke-width="2"/>
-  <text x="54" y="178" font-size="15" fill="var(--text-2, #4a5260)">0</text>
-  <text x="176" y="178" font-size="15" fill="var(--text-2, #4a5260)">.2</text>
-  <text x="304" y="178" font-size="15" fill="var(--text-2, #4a5260)">.4</text>
-  <text x="20" y="206" font-size="15" fill="var(--text-2, #4a5260)">Average correlation (r), with 95% interval</text>
-  <text x="20" y="230" font-size="15" fill="var(--text-2, #4a5260)">Correlations, not effects</text>
+  <text x="20" y="92" font-size="15" fill="var(--text, #111418)">Job performance, all effects (interval not read)</text>
+  <circle cx="290" cy="112" r="7" fill="var(--navy, #0f2a4a)"/>
+  <text x="304" y="118" font-size="15" fill="var(--text, #111418)">.36</text>
+  <text x="20" y="148" font-size="15" fill="var(--text, #111418)">Job performance, different sources or methods</text>
+  <line x1="143" y1="168" x2="246" y2="168" stroke="var(--oxblood, #8b1e2d)" stroke-width="3"/>
+  <circle cx="194" cy="168" r="7" fill="var(--oxblood, #8b1e2d)"/>
+  <text x="254" y="174" font-size="15" fill="var(--text, #111418)">.21</text>
+  <line x1="60" y1="206" x2="380" y2="206" stroke="var(--text-2, #4a5260)" stroke-width="2"/>
+  <line x1="60" y1="206" x2="60" y2="214" stroke="var(--text-2, #4a5260)" stroke-width="2"/>
+  <line x1="188" y1="206" x2="188" y2="214" stroke="var(--text-2, #4a5260)" stroke-width="2"/>
+  <line x1="316" y1="206" x2="316" y2="214" stroke="var(--text-2, #4a5260)" stroke-width="2"/>
+  <line x1="380" y1="206" x2="380" y2="214" stroke="var(--text-2, #4a5260)" stroke-width="2"/>
+  <text x="54" y="234" font-size="15" fill="var(--text-2, #4a5260)">0</text>
+  <text x="176" y="234" font-size="15" fill="var(--text-2, #4a5260)">.2</text>
+  <text x="304" y="234" font-size="15" fill="var(--text-2, #4a5260)">.4</text>
+  <text x="368" y="234" font-size="15" fill="var(--text-2, #4a5260)">.5</text>
+  <text x="20" y="262" font-size="15" fill="var(--text-2, #4a5260)">Average correlation (r), with 95% interval</text>
+  <text x="20" y="286" font-size="15" fill="var(--text-2, #4a5260)">Correlations, not effects</text>
 </svg>
 
 *Correlations, not effects. Top: perceived listening with all work outcomes, every effect, r = .39
-(95% interval .36 to .43). Bottom: perceived listening with job performance, keeping only effects
-where listening and performance came from different sources or methods, r = .21 (.13 to .29); the
-same correlation using every effect was .36. Kluger et al., Journal of Business and Psychology,
+(95% interval, the range the true average probably lies in, .36 to .43). Middle: perceived listening
+with job performance, every effect, r = .36 (the paper's interval for it is in a table this course
+didn't read). Bottom: the same pairing, keeping only effects where listening and performance came
+from different sources or methods, r = .21 (.13 to .29). Compare the middle and bottom rows to see
+the same-source problem. Kluger et al., Journal of Business and Psychology,
 2024: 664 effect sizes from 144 samples of employees and the people they served. Drawn by this
 course from the paper's abstract and results.[9]*
 
-:::checkpoint A consultant's slide says: "A meta-analysis of 400,000 observations proves that listening to your team improves performance." Using this section, name two things wrong with that sentence.
+:::checkpoint A consultant's slide says: "A meta-analysis of 155,000 people proves that listening to your team improves performance." Using this section, name two things wrong with that sentence.
 
 Any two of these:
 
 1. "Proves ... improves" is causal, and the evidence is almost all correlational. The authors themselves call it a possibility, and count only one paper that tested listening's effect on real performance experimentally.
-2. The headline figure mixes outcomes. The listening and performance correlation is .36 overall and .21 when listening and performance are rated by different sources; neither is a measure of improvement.
+2. The headline figure mixes outcomes. The listening and performance correlation is .36 overall and .21 when listening and performance are rated by different sources or methods; neither is a measure of improvement.
 3. Three quarters of the data came from one person rating both things, which the authors say inflates the association and may mean the scales are measuring a good relationship rather than listening.
 4. "Your team" assumes it transfers to any workplace; the speakers in the studies were mostly customers, subordinates and patients, and nearly half the studies were run in the US.
 :::
 
 ## So does it work?
 
-This is **contested**: serious researchers read the same evidence differently, and it isn't settled.
+This is **contested**: serious researchers read the same evidence differently.
 
 The case for broad benefit, in its proponents' terms: many experiments, several preregistered, on
 several outcomes, pointing the same way; being listened to well lowers speakers' anxiety and
 defensiveness and clarifies their thinking; and a registered meta-analysis of workplace studies finds
-a consistent association that survives, smaller, when the same-source problem is removed.[4][5][9]
+a consistent association that survives, smaller, when the same-source problem is removed, and its
+few experiments found as much as its correlational studies did.[4][5][9]
 On this view, the null results come from testing techniques in isolation or instructions that didn't
 take, and the phenomenon itself is sound.
 
 The case for narrow benefit, in its proponents' terms: when active listening is isolated as a
-technique and compared with ordinary alternatives, the effects are small, show up on some outcomes
-and not others, and do nothing for solving problems.[1][2][3] Advice did as well as active listening
+technique, the effects are small and show up on some outcomes and not others,[1][2][3] and in the
+one study that measured it, they did nothing for solving the problem.[3] Advice did as well as active listening
 on satisfaction and liking.[2] And [the review Itzchakov wrote with Bodie](http://www.grahambodie.com/s/ItzchakovBodie2026.pdf), whose work comes from the
 communication side of the field, concludes that paraphrasing "should not be treated as a standalone
 marker of listening quality, but as a risky intervention that can either deepen or derail
 understanding."[7]
 
-As **this course reads** the studies, both can be true at once, because the positive programme
-mostly compares a whole stance of attention with distraction, and the sceptical studies isolate a
-technique against a reasonable alternative. What would settle it, as the course's research framed
-it, is experiments that cross attention with technique (attentive or not, restating or not) in
-ordinary conversations between people who know each other, rated by the speakers and by coders, with
-later outcomes measured.[7] This course found no such study.
+As **this course reads** the studies, both can be true at once. Much of the positive programme's
+evidence sets trained listeners, who combine full attention with technique, against distracted or
+ordinary listening, so it can't say which part does the work; the sceptical studies hold attention
+steady and vary one technique. The 2026 review calls for research to move beyond "binary listening
+manipulations".[7] The design that would settle this question, as this course reads it, crosses
+attention with technique (attentive or not, restating or not) in ordinary conversations between
+people who know each other, rated by the speakers and by coders, with later outcomes measured. This
+course found no such study.
 
 ## Listening in a quarrel
 
@@ -502,7 +531,9 @@ later courses. This section covers only the dispute over listening, which is **c
 In 1998, John Gottman, James Coan, Sybil Carrère and Catherine Swanson published a study of 130
 newlywed couples from the Seattle area, in their first marriage, recruited through newspaper
 advertisements and filmed during a fifteen-minute discussion of a disagreement.[10] They followed
-the couples for three to six years, by which time 17 had divorced. This course read the full text
+the couples for three to six years, by which time 17 had divorced, and compared those 17 with 20
+couples still married and high in marital satisfaction and 20 still married and low in it. This
+course read the full text
 from [a scan on Gottman's website](https://www.johngottman.net/wp-content/uploads/2011/05/Predicting-Marital-Happiness-and-Stability-from-Newlywed-Interactions.pdf), checking every quotation below against the page image.
 
 Their definition of active listening was the widest of the four: any sequence where one spouse's
@@ -514,7 +545,8 @@ About 4 seconds out of 900. And no, they didn't predict who stayed married or wh
 :::
 
 The authors write that they were shocked, because they had recommended the approach themselves. So
-they watched every tape of the stable, happy couples again. Those couples rarely paraphrased, rarely
+they went back through every videotape and transcript of the stable, happy couples, in this study
+and in another group they had followed for 13 years. Those couples rarely paraphrased, rarely
 summarised each other's feelings, and almost never validated them; the study's "validation" code
 had mostly been catching the small nods and "mm-hm"s a listener gives.[10] What did predict divorce,
 in their data, was a pattern: a negative start-up by the wife, the husband refusing to accept
@@ -527,27 +559,37 @@ that relationship, are somewhat emotionally disabled by conflict."[10] They poin
 from therapy, where the client usually complains about someone else, while in a marriage the
 listener is the person being complained about. And they drew a conclusion for therapists, also
 conditional: "If we are right, then the implications are that marital therapy needs to do two
-things. First, it needs to abandon the active listening model in favor of a model of increased
-softening and gentleness in start-up, de-escalating", with more soothing.[10]
+things. First, it needs to abandon the active listening model", in favour of softer and gentler
+start-ups, de-escalation, the husband accepting more influence from his wife, and more physiological
+soothing. Second, it may need to work on how couples engage with each other outside conflict as
+well.[10]
 
 It is **one study, observed in recordings**: natural arguments, coded, and followed up.
 
 ### The reply from the couples-education side
 
 Scott Stanley, Thomas Bradbury and Howard Markman replied in 2000. Markman and Stanley are among the
-developers of PREP, a couples-education programme that teaches a structured speaker-listener
-exercise. This course read only the abstract. They argued that
+authors of PREP, a couples-education programme with a structured speaker-listener exercise; Weger's
+2014 paper cites the programme's leader manual and the technique to them.[2] Of their 2000 paper,
+this course read only the abstract. They argued that
 the recommendations "appear to us to be premature at best", and listed their concerns: non-random
 selection of couples, no control for how the couples differed at the start, questions about the
 observational and physiological measures and the statistics, and "the use of correlational data to
 make strong causal inferences".[11]
 
-Their deeper point, in its strongest form, is that a study of what happy couples do naturally
-cannot test a technique designed for when things go wrong. Weger's 2014 paper reports Markman and
-colleagues making exactly this argument: their speaker-listener technique "feels unnatural to
-couples because it is designed to help couples avoid natural conversation pitfalls".[2] On that
-view, finding that happy couples don't do it spontaneously is no more a test of it than finding that
-good drivers rarely use the emergency brake.
+Their side also has a positive case. As Weger's 2010 paper reports it, Stanley, Bradbury and
+Markman argued that active listening "plays an important role in communication skills training
+courses aimed at improving marital functioning", and that a review of studies suggests that
+training produces measurable improvements. Weger and colleagues add, fairly to both sides, that "improvements
+in marital functioning tied specifically to active listening do not dominate the literature."[1]
+
+The strongest form of their objection, as this course reads it (the abstract doesn't say it), is
+that a study of what happy couples do naturally can't test a technique designed for when things go
+wrong. Weger's 2014 paper sets Gottman's finding beside Markman and colleagues' statement, in a 2001
+work, that the speaker-listener technique "feels unnatural to couples because it is designed to help
+couples avoid natural conversation pitfalls".[2] On that view, and to put it in this course's terms,
+finding that happy couples don't do it spontaneously is no more a test of it than finding that good
+drivers rarely use the emergency brake.
 
 Gottman's team answered in the same journal issue; this course read only that abstract, which lists
 the critique's main themes and notes five of the 1998 paper's conclusions that the critics did not
@@ -557,29 +599,31 @@ challenge.[12] Whether the reply conceded anything on active listening, the abst
 
 One later fact bears on the argument without closing it. The Gottman Institute's own later materials include a structured exercise for disagreements, the
 [Gottman-Rapoport Conflict Blueprint](https://www.gottman.com/wp-content/uploads/2016/09/Money-Conflict-Blueprint.pdf). Its first instruction: "Postpone persuasion until each person
-can state their partner’s position to their partner’s satisfaction."[13] The listener is told to
-repeat the content of the speaker's needs, name their feelings and validate them, and either partner
-is told to take a break to calm down when flooded. That is, in shape, a restate-and-validate
-exercise, placed inside a framework of soothing. It is not a statement that the 1998 conclusion was
-wrong, and this course found no such statement from Gottman. Whether it counts as convergence is a
-reading, and each side could make it.
+can state their partner’s position to their partner’s satisfaction."[13] That is Rogers and
+Farson's ground rule from lesson 8, with the same judge: the partner. The listener is told to repeat
+the content of the speaker's needs, name their feelings and validate them; the speaker is told not
+to blame and to use "I statements", which is, in shape, the gentler start-up the 1998 paper
+recommended; and either partner is told to take a break to calm down when flooded. So it is a
+restate-and-validate exercise placed inside a framework of gentleness and soothing. It is not a
+statement that the 1998 conclusion was wrong, and this course found no such statement from Gottman.
+Whether that counts as the two sides coming together is a matter of reading, and either side could
+claim it.
 
-What would settle the question is randomised trials of couples' programmes that take them apart:
+As this course reads it, what would settle the question is randomised trials of couples' programmes
+that take them apart:
 listening training alone, soothing and calming skills alone, both, and neither, followed for years.
 This course did not read any such trial, and found none in its sources.
 
 ## What people get wrong
 
-**"Paraphrasing makes people feel understood."** In the 2010 experiment it didn't, compared with a
-bare "O.K."; in the 2014 one, paraphrase plus invitations to say more did. It depends on what was
-done and what it was set against.[1][2]
+**"Paraphrasing makes people feel understood."** Sometimes: it depends on what was done and what it
+was set against, as the 2010 and 2014 experiments showed.[1][2]
 
-**"Active listening doesn't work."** That overcorrects. Being listened to attentively, against a
-distracted listener, has consistent effects across one programme's many experiments, and the
+**"Active listening doesn't work."** That overcorrects. Being listened to by a trained, attentive listener,
+against a distracted or ordinary one, has consistent effects across one programme's many experiments, and the
 technique studies found small effects, not none.[3][4][5][9]
 
-**"Happy couples use active listening when they argue."** In Gottman's newlyweds, those exchanges
-took about 4 seconds in 900, in happy and unhappy couples alike.[10]
+**"Happy couples use active listening when they argue."** Gottman's newlyweds almost never did, happy or not.[10]
 
 **"Gottman proved active listening harms marriages," or "Gottman later took it back."** Neither. The
 1998 study observed natural arguments and couldn't test training, as its critics said; and this
@@ -603,14 +647,14 @@ This is a **rewrite on paper** exercise. Take 10 minutes. The claim below is inv
 
 > "Our two-hour active listening workshop cut team conflict by 40%. Managers who attended now listen properly, and their teams love it."
 
-1. Write the five questions this lesson used: what was taught, compared with what, measured how, rated by whom, and replicated where.
+1. Write the five questions this lesson used: what was tested, compared with what, measured how, rated by whom, and replicated where.
 2. Under each, write what the claim tells you, and what you'd need to know that it doesn't.
 3. Rewrite the claim as the strongest sentence you could honestly write if the answers turned out to be the weakest plausible ones.
 :::
 
 :::checkpoint Compare yours with this model. Your wording will differ; check you caught the same gaps.
 
-1. **What was taught?** "Active listening" could be any of the four meanings. Two hours of what: paraphrase drills, attention, or a mixture?
+1. **What was tested?** Here, what was taught. "Active listening" could be any of the four meanings. Two hours of what: paraphrase drills, attention, or a mixture?
 2. **Compared with what?** Nothing is named. A 40% cut against the same teams' previous year? Against teams whose managers didn't attend? If managers chose to attend, the keen ones may have gone first.
 3. **Measured how?** "Conflict" might be complaints logged, a survey, or the trainer's impression. "40%" of what?
 4. **Rated by whom?** If the managers rated their own listening, lesson 3 showed that is weak evidence. If the teams rated it, were they asked before and after, and did they know who attended?
@@ -627,10 +671,8 @@ Write, from memory, what you said back and how the other person responded. Then 
 
 ## For your journal
 
-This lesson adds a habit to the journal rather than a new thing to watch: when you note a
-restatement, note also what was going on around it, whether you were attending fully or half
-elsewhere, so that over several entries you can see whether the words or the stance seem to matter
-more in your own conversations. That's your judgement, not a finding, and the project can say so.
+Keep the "Stance or words?" note as a journal entry, so that over several you can see which seems to
+matter more in your own conversations; that's your judgement, not a finding.
 
 ## Connections
 
@@ -638,8 +680,7 @@ Lesson 8, "Saying it back", taught the practice this lesson weighs, and the stud
 Headlee's case against performed restating some support while giving Rogers and Farson's check a
 reason to survive: it's a guess offered for correction, not a display. Lesson 3's point about three
 ways of measuring listening runs all through this one, and the "one group's programme" label from
-lessons 4 and 6, fits the Itzchakov and Kluger work throughout.
-Mental Fitness lesson 2, "What a small effect is, and what the other group got", and Logic and
+lesson 1 fits the Itzchakov and Kluger work throughout. Mental Fitness lesson 2, "What a small effect is, and what the other group got", and Logic and
 Argument lesson 5, "Inductive strength", supplied the two questions this lesson kept asking.
 
 Lesson 10, "When someone brings you a problem", takes up advice, which did better in the 2014
@@ -651,20 +692,17 @@ controversy continues in Relationships and Family and Conflict Resolution, later
 ## Go deeper
 
 - **Graham Bodie and colleagues, ["The role of 'active listening' in informal helping conversations"](http://www.grahambodie.com/s/The-Role-of-Active-Listening-WJC_PUBLISHED.pdf)**
-  (2015). A clear experiment with honest limits, readable by a student. This course read the full
-  text.
+  (2015). A clear experiment with honest limits, readable by a student.
 - **Guy Itzchakov and Graham Bodie, ["Puzzles of interpersonal listening"](http://www.grahambodie.com/s/ItzchakovBodie2026.pdf)**
-  (2026). The field's two strands, written together, on what nobody yet knows; open access. This
-  course read the full text.
+  (2026). The field's two strands, written together, on what nobody yet knows; open access.
 - **Avraham Kluger and colleagues, ["A meta-analytic systematic review and theory of the effects of
   perceived listening on work outcomes"](https://doi.org/10.1007/s10869-023-09897-5)** (2024).
   Long, but its limitations and discriminant-validity sections are a model of a research team
-  saying what its own numbers can't show. Open access; this course read the full text.
+  saying what its own numbers can't show. Open access.
 - **John Gottman and colleagues, ["Predicting marital happiness and stability from newlywed
   interactions"](https://www.johngottman.net/wp-content/uploads/2011/05/Predicting-Marital-Happiness-and-Stability-from-Newlywed-Interactions.pdf)**
   (1998). A scan on the author's site. Read the discussion for the active-listening argument in its
-  authors' words, and then the Blueprint for what the Gottman Institute teaches now. This course read the
-  full text.
+  authors' words, and then the Blueprint for what the Gottman Institute teaches now.
 
 ## Sources
 

@@ -4273,3 +4273,213 @@ Matthieu Ricard, Tania Singer, and David DeSteno suggesting that we are better a
 people—more willing to help and better at doing so—if we care about people, but don't empathize
 with them." [V] (the studies themselves not read); "the one thing I don’t say about empathy is that
 it’s inflexible" [V].
+
+## Gate closures, lesson 10 (2026-09-26)
+
+Stage 3 drafting of lesson 10 ("When someone brings you a problem"). Everything below was fetched
+today with curl and a generic browser User-Agent (no personal data), converted with pdftotext or an
+HTML-to-text script, and strings marked [V] were copied from that text. Some PDF text layers drop the
+"fi" and "fl" ligatures ("fx" for "fix", "fow" for "flow"); those strings are given here with the
+letters restored, and nothing else is changed. OUTLINE assigns lesson 10 only G7; nothing here clears
+an entry on the unread line.
+
+**G7, crisis numbers, re-read 26 September 2026: unchanged, the callout stands as the build constant.**
+988lifeline.org: "Call, text, or chat with a 988 Lifeline counselor" [V]; "The 988 Lifeline is
+available 24/7/365." [V]. 988.ca: "Call 9-8-8", "Text 9-8-8", "If your safety is at risk, call 9-1-1
+right away." [V]. samaritans.org: "Call 116 123 for free" [V]; "116 123 Call us free, day or night,
+365 days a year" [V]; the site's nation menu lists England, Scotland, Ireland, Northern Ireland and
+Wales. lifeline.org.au: "Call us 13 11 14", "Text us 0477 13 11 14", "If life is in danger, call Triple
+Zero (000)" [V]. findahelpline.com: "Free, confidential support from a helpline or hotline near you."
+[V]. The build's `CRISIS_CL` constant (scripts/build.mjs) matches Mental Fitness lesson 1's callout
+character for character.
+
+**988 Lifeline, "Help Someone Else"** (URL as Part E §1.2), re-read: "Offer hope that alternatives are
+available but do not offer glib reassurance." [V] confirmed, in the page's do's and don'ts for talking
+with someone who may be suicidal.
+
+**Samaritans, SHUSH page** (URL as Part E §1.1), re-read: "This could mean not offering advice, not
+trying to identify what they’re going through with your own experiences and not trying to solve their
+problems." [V] confirmed; "Say it back Check you’ve understood, but don’t interrupt or offer a
+solution." [V].
+
+**Jones, Bodie, Youngvorst, Navarro and Danielson 2018** (author PDF, URL as Part C §6.1), full text.
+Design: the Jones and Guerrero (2001) data set of 264 five-minute conversations, of which 41 tapes were
+damaged, leaving 223; disclosers were students at Arizona State University ("female n = 105, male n =
+114, 4 missing" [V]; mean age 21.8), talking about an emotionally upsetting event to one of "two male
+and two female confederates who were trained to enact HPC (n = 79), MPC (n = 69), and LPC (n = 75)
+support" [V], trained "for roughly 25 hours" [V]; every confederate utterance coded on an adapted
+nine-level hierarchy. Strings [V]: "an HPC conversation does not have to contain many higher-level PC
+turns at or beyond level 7 to be rated as HPC by an independent evaluator. The average proportion of
+HPC turns (levels 7–9) is 24%"; "In terms of magnitude, LPC turns (levels 1–3) also exerted a stronger
+impact on outcomes than HPC turns"; "as the percent of LPC turns increases, the value of each dependent
+variable trends downward, though effect sizes are small."; "Level 5 messages contain sympathy
+statements (“I am so sorry”)"; level 6 messages include "questions to get more information about what
+happened", "nonfeeling-centered explanations", "paraphrases" and "advice"; "Level 4 messages, on the
+other hand, draw attention away from the stressor and the feelings associated with that stressor (e.g.,
+“Let’s go do something”) or include remarks that “everything will work out just fine,” yet offer no
+suggestions how to get there or whether it, in fact, it is realistic. Level 4 messages thus appear to
+operate much more like LPC messages than MPC messages, at least in terms of the outcomes we examined.";
+"LPC providers tended to accomplish this goal by engaging in prolonged narratives about their own
+experiences which have nothing to do with disclosers’ emotional experiences."; "it is possible that our
+results are unique to stranger dyads"; the listener in their example excerpt "cycled between MPC and
+HPC support". Also: "most studies have examined how study participants evaluate messages that vary in
+PC (message evaluations) and have largely ignored actual message outcomes" [V]; "some studies have
+reported equivalent outcomes for MPC and HPC support" [V].
+
+**High and Dillard 2012**, abstract re-read through the OpenAlex API [V-abstract]: "This article reports
+a meta-analysis testing the association between person-centered messages and social support outcomes
+across 23 studies. Our results demonstrate a positive linear association between person-centeredness
+and actual effectiveness, and an even stronger linear relationship between person-centeredness and
+perceived effectiveness. The association between person-centeredness and support outcomes was
+attenuated in confederate-based methodologies." Still abstract only; no effect sizes.
+
+**Feng and Magen 2016**, abstract re-read through OpenAlex [V-abstract]: "In two studies, undergraduate
+students and members of the general population responded to hypothetical statements of discontent from
+friends who were not asking for advice."; "participants tending to provide more unsolicited advice to
+friends toward whom they felt greater relational closeness"; "participants gave unsolicited advice to
+their friends at a very early stage of a supportive interaction in approximately 70% of cases."
+
+**MacGeorge, Feng and Guntzviller 2016** (accepted manuscript, URL as Part C §6.3), re-read: "Advice has
+the potential to threaten “negative face” when recipients perceive advice as “butting in” and
+constraining autonomy, and “positive face” when recipients perceive advice as implying a lack of
+knowledge or competence" [V]; "Face concerns become particularly salient when advice is unsolicited
+(Goldsmith, 2000; Goldsmith & Fitch, 1997), which predicts poorer evaluations" [V].
+
+**MacGeorge, Guntzviller, Hanasono and Feng 2016** (eScholarship, URL as Part C §6.3), full text
+re-read. Students "enrolled in communication classes at a large Midwestern university" [V] each brought
+a friend; "A total of 359 dyads (718 students) participated." [V]; the analysis kept the "244 advice
+recipients (166 females, 78 males)" [V] who reported getting advice; the advisor "was not specifically
+instructed to give the recipient advice" [V]; conversations of up to 15 minutes about the recipient's
+most serious undiscussed current problem. Results: message content predicted implementation intention
+(β = .75); politeness predicted advice quality (β = .71) and facilitation of coping (β = .51); advisor
+characteristics had no direct effect on any outcome, only indirect effects through content and
+politeness. Limitation [V]: "there were an unexpectedly large percentage of participants who did not
+report getting any advice"; "participants in this study were college students, aged 18 to 22 years, and
+predominantly Euro-American in ethnicity" [V].
+
+**Feng 2014** (eScholarship, URL as Part C §6.3), full text re-read. Participants: 572 US college
+students from "a large Midwestern university and a large West coast university" [V] and 540 college
+students "at a large university in Northern China" [V]; each read one of 22 transcripts of a
+conversation "putatively taking place between the participant and a friend" [V] (eleven sequences of
+emotional support, problem inquiry and advice, crossed with two problems: "failing an important exam,
+wanting salary increase for an underpaid part-time job" [V]). Strings [V]: "although the EPA sequence
+elicited more favorable responses than alternative advice giving models, its supremacy was relatively
+small"; "the advice in both scenarios was solicited in that the advice recipient made explicit
+statements indicating that he/she did not know what to do"; "the observed cultural differences were
+small in magnitude, suggesting that caution should be exercised in interpreting the implications of
+cultural differences observed in this study"; "participants’ imagined responses to hypothetical
+supportive messages may differ from their responses to those messages in real-life supportive
+interactions". The author also names cultural differences in rating-scale response styles as a limit.
+
+**Bolger and Amarel 2007** (author PDF, URL as Part C §6.4), full text re-read. "In our experiments, we
+restricted our focus to female participants and female peer confederates." [V]; Experiment 1's
+participants came "from the New York University undergraduate participant pool" [V]. The tip was "a
+common speaking tip" [V]; in the visible condition the confederate addressed it to the participant, in
+the invisible condition to the experimenter, within the participant's hearing. Strings re-confirmed
+[V]: "Visible support was either ineffective or it exacerbated reactivity."; "invisibility per se is not
+the essence of what makes invisible support effective; rather, it is (at least in part) avoiding the
+communication that the support recipient is inefficacious."
+
+**Bolger, Zuckerman and Kessler 2000** (author PDF, URL as Part C §6.4), re-read: "we studied 68
+couples in which one member was preparing to undergo a major stressful event, the New York State Bar
+Examination" [V]; 99 couples agreed, 68 completed.
+
+**SAMHSA TIP 35** (URL as Part C §6.5), whole PDF re-read. Exhibit 3.5, item 3: "Giving advice, making
+suggestions, or providing solutions prematurely or when unsolicited" [V], with "These recommendations
+often begin with phrases like “What I would do is.”" [V]; item 10: "Reassuring, sympathizing, or
+consoling" [V], with "sympathy is not the same as empathy. Such reassurance can interrupt the flow of
+communication and interfere with careful listening." [V, "flow" restored]; after the list: "However
+well intentioned, these roadblocks to listening shift the focus of the conversation from the client to
+the counselor." [V]. The righting-reflex sentence is in a counselor note on p. 120, not in chapter 3:
+"Miller and Rollnick (2013) use the term “righting reflex” to describe the natural response to “fix” a
+person’s problems from a desire to help." [V, "fix" restored].
+
+**Miller and Rollnick, "What's New (and Not New) in the 4th Edition"** (URL as Part C §8), re-read: the
+table of changed terms pairs "Elicit-Provide-Elicit" with "Ask-Offer-Ask" and "Righting Reflex" with
+"Fixing Reflex" [V]; "Offering information and advice in an MI-consistent way, recognizing that these
+are not the opposite of MI" [V].
+
+**MINT, "Understanding Motivational Interviewing"** (URL as Part E §3.1), re-read: information "is
+often offered within a structure of open questions (Elicit-Provide-Elicit) that first explores what the
+person already knows, then seeks permission to offer what the practitioner knows and then explores the
+person’s response." [V]; "refrain from unsolicited advice, confronting, instructing, directing, or
+warning" [V] confirmed.
+
+**Duhigg, *Supercommunicators*, Penguin UK sample** (URL as Part A (e)), read today through a script
+that removes the PDF's doubled words. The prologue: "many discussions are actually three different
+conversations. There are practical, decision-making conversations that focus on What’s This Really
+About? There are emotional conversations, which ask How Do We Feel? And there are social conversations
+that explore Who Are We?" [V]; of a colleague on a work project he was managing: "They had told me they needed empathy, but
+rather than listen, I replied with solutions." [V]. The three kinds are therefore the book's own words
+in the sample, not only Kirkus's summary.
+
+## Gate closures, lesson 09 review (2026-09-26)
+
+Stage 4 fix pass on lesson 9. Every primary below re-fetched today with curl and a generic browser
+User-Agent (no personal data): Weger 2010 from the Internet Archive capture of the Taylor and Francis
+full-text page (2023-10-29), Weger 2014 from the capture of 2025-07-02, Kluger et al. 2024 from the
+capture of the Springer page (2025-12-30), the HBR article from the authors' hosted PDF (URL as Part
+C §4.4), DeMarree et al. 2026 from osf.io/download/b9e2s_v2/, Itzchakov and Bodie 2026 from
+grahambodie.com, the Blueprint from gottman.com, Gottman et al. 1998 from the johngottman.net scan
+(rendered at 200 dpi and OCR'd), and the abstracts of the two PSPB papers, Itzchakov et al. 2024 and
+Stanley et al. 2000 through the OpenAlex API. Strings marked [V] were string-matched in that text.
+The two PSPB papers and Stanley et al. 2000 remain abstract only; nothing is claimed beyond their
+abstracts.
+
+- **Weger, Castle and Emmett 2010**, literature review (full text): "Stanley, Bradbury, and Markman
+  (2000) argue that active listening plays an important role in communication skills training
+  courses aimed at improving marital functioning. A review of studies suggests that measurable
+  improvements in marital functioning in communication result from communication skills training"
+  [V]; "However, improvements in marital functioning tied specifically to active listening do not
+  dominate the literature." [V] The lesson carries these as Weger's report of Stanley et al., not as
+  a reading of Stanley et al.
+- **Weger et al. 2014**: "Confederates were instructed to maintain a moderate level of nonverbal
+  involvement across conditions so that only their verbal response varied." [V]; "Due to
+  inaudibility in some videos, only 107 dyads were observed." [V] The raters coded paraphrase,
+  advice and back-channels, not nonverbal involvement. Full conclusion sentence: "It appears that
+  active listening, at least in terms of these outcomes, is a low-risk response strategy with some
+  potential dyadic rewards compared to responding with advice and minimal feedback." [V] The
+  Markman et al. (2001) report follows directly on "Gottman, Coan, Carrere, and Swanson (1998) report
+  that few married couples naturally engage in active listening during conflict." [V] The reference
+  list cites Stanley, Markman, Jenkins and Blumberg (2008), "PREP version 7.0 leader manual" [V].
+- **Itzchakov and Kluger 2018, HBR** (authors' PDF), the 114-student study: trained listeners were
+  asked "to use all their listening skills, such as asking questions and reflecting" [V]; the
+  moderate listener was "another undergraduate at the business school who was instructed to listen
+  as he or she usually does" [V]; the poor listener a theatre student "instructed to act distracted"
+  [V]; "speakers who talked to a good listener saw both strengths and weaknesses more than those in
+  the other conditions" [V]. The 112-student study's listeners were told to "listen as you listen
+  when you are at your best" [V], half then distracted by text messages; speakers with good
+  listeners "felt less anxious, more self-aware, and reported higher clarity about their attitudes"
+  [V]. **Correction to earlier readings:** the programme's comparisons are not only distraction; the
+  114-student study includes an ordinary listener, whom the good listener also beat.
+- **Itzchakov, Weinstein, Leary, Saluk and Amar 2024** [14], abstract: "Four experiments manipulated
+  poor, moderate, and high-quality listening using a video vignette (Study 1) and live interactions
+  (Studies 2-4)." [V-abstract] **PSPB 2017** abstract: listening manipulated "in different ways"
+  [V-abstract], with "consistent support for our hypotheses", one of which was that "high quality
+  listening decreases speakers' social anxiety" [V-abstract]. **PSPB 2018** abstract: "manipulating
+  listening behavior in a variety of ways" [V-abstract]. Neither abstract names the comparison.
+- **Kluger et al. 2024**: "the correlation coefficient between perceived listening and work outcomes
+  in experimental designs, r̄ = 0.39, is similar to correlational designs, r̄ = 0.40" [V]; "The
+  correlation in predictive designs, r̄ = 0.27, is weaker than that in concurrent designs, r̄ = 0.42."
+  [V] The .21 comes from effects "Based on Different Sources, Different Methods, or Both" [V] (Table
+  15 title). Performance with every effect, r̄ = .36 [V]; no interval for it in the running text
+  (tables not read). Dates: "Published: 17 July 2023", volume 39 (2024) [V].
+- **DeMarree et al. 2026**, pilot: control listeners "were asked to listen attentively without
+  verbally responding" [V]; d = 0.98, 95% CI [0.58, 1.37] [V].
+- **Itzchakov and Bodie 2026**, Future Research: researchers should "move beyond the confines of
+  static self-report measures and binary listening manipulations" [V; the two-column text layer
+  interleaves the sentence with the neighbouring column, read in order]. The review proposes
+  process-tracing, eye-tracking and physiological methods; it does not propose a crossed
+  attention-by-technique design. The lesson gives that design as its own reading.
+- **Gottman et al. 1998** [V-OCR]: "We then took 20 comparable couples with high marital satisfaction
+  and 20 with low marital satisfaction as comparison groups"; the analyses compare stable happy,
+  stable unhappy and divorced groups. The re-examination covered "the data from this study and from
+  another longitudinal cohort we have been following for 13 years. We examined in detail every
+  videotape and transcript of every stable, happy couple." The therapy sentence continues "changing
+  the balance of power in favor of the husband's increased acceptance of influence from his wife, and
+  increasing physiological soothing (by self and partner). Second, it also may need to find ways of
+  working with the couple's patterns of emotional engagement and responsiveness in contexts other
+  than conflict resolution". The lesson now ends the quotation at "the active listening model" and
+  paraphrases both items.
+- **Gottman-Rapoport Conflict Blueprint**: Speaker rules "No blaming, no “you” statements" and "Only
+  use “I statements” about a specific situation" [V].
