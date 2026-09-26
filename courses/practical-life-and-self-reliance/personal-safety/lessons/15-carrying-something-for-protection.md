@@ -553,7 +553,7 @@ who weren't:
 > the abuser and owned a gun, however, and there was no clear evidence of protective effects.[16]
 
 "No clear evidence" is not evidence of no effect, in either direction. It is a small group in one
-urban US study, published more than twenty years ago.
+urban US study.
 
 Advocates for survivors disagree about a victim's own gun, and each position here is quoted as a
 position. The National Domestic Violence Hotline, a US service, gives its position on its

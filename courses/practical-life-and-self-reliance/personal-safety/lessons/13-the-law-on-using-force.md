@@ -695,7 +695,7 @@ Some of these scenarios give the person a way out on purpose, because that is ho
 
 :::checkpoint Part one, scenario (a), set in Scotland: what is the first question the Scottish model direction would make a jury ask, and why might the case turn on it before escape or proportion come up?
 
-Whether Ines was attacked, or had reason to believe she was in imminent danger. The manual's model direction says "The danger must be immediate, not in the future", and in its law section the assault "must have started or be on the point of starting".[4] A threat about tomorrow, from a man walking away, is the kind of fact that question is about. Escape and proportion only matter if the danger was imminent. If someone has threatened you like that, it can be reported, and lesson 15, "Afterwards", covers reporting and support; if you're in danger now, the box at the top of this lesson has the numbers.
+Whether Ines was attacked, or had reason to believe she was in imminent danger. The manual's model direction says "The danger must be immediate, not in the future", and in its law section the assault "must have started or be on the point of starting".[4] A threat about tomorrow, from a man walking away, is the kind of fact that question is about. Escape and proportion only matter if the danger was imminent. If someone has threatened you like that, it can be reported, and lesson 16, "Afterwards", covers reporting and support; if you're in danger now, the box at the top of this lesson has the numbers.
 :::
 
 :::checkpoint Part one: which questions come first for scenario (b) in New York, and for scenario (c) in England and Wales and in Scotland? And which part of the lesson corrects each statement in part two?

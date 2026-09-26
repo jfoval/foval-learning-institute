@@ -242,8 +242,8 @@ Refuge: "Domestic abuse can happen to anyone, regardless of age, background, gen
 religion, sexual orientation or ethnicity. However, statistics show most domestic abuse is carried
 out by men and experienced by women."[15] Its helpline is for women, and it says so, then
 adds: "We recognise that men can experience domestic abuse too."[4] The Hotline's page
-says that anyone can be a victim, or a perpetrator.[1] Both halves of Refuge's sentence are
-true at once, and the figures below bear both out.
+says that anyone can be a victim, or a perpetrator.[1] Both halves of Refuge's sentence can
+hold at once. The figures below give victims by sex, not perpetrators.
 
 ## How common it is
 

@@ -498,8 +498,7 @@ Critics of resistance education have a reply, which the trial's authors report t
 [two-year follow-up](https://pmc.ncbi.nlm.nih.gov/articles/PMC5821219/): some feminist scholars
 argue that it is misguided, because perpetrators "may simply move on to another woman". The authors
 suspect instead that perpetrators "may learn important lessons" from being thwarted, and grant that
-which explanation is right is an empirical question.[28] And training still asks women to do the
-work, which brings back the critique's second and third points.
+which explanation is right is an empirical question.[28]
 
 ### How they fit
 

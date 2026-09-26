@@ -298,8 +298,8 @@ meeting an alarm. The England and Wales survey measured which households, with a
 were actually burgled. On one of the explanations the 2015 paper calls plausible, an alarm might put
 some burglars off a house while alarmed houses, on average, are still riskier because some of them
 were targets before the alarm went in. The Newark study counted burglaries, but by neighbourhood
-rather than by household, so it answers a different question again. The US studies also come from a
-different country, with different alarms and police response.
+rather than by household, so it answers a different question again. The two sets of studies also come from
+different countries, with different alarms and police response.
 
 So whether an alarm protects a home is a **contested** question in this course's labels. What would
 settle it is a study that records when each alarm was fitted relative to any earlier burglary, and

@@ -467,7 +467,7 @@ single predictor of victimisation; that when victimisation recurs it tends to do
 high crime rates and hot spots are as they are substantially because of rates of repeat
 victimisation; that a major reason for repetition is that offenders take later advantage of
 opportunities which the first offence throws up".[12] That last clause is the reason, and it's
-Pease's, not mine: the first crime shows someone the unlocked window, the route, the account, and
+Pease's, not this course's: the first crime shows someone the unlocked window, the route, the account, and
 it's still there next week.
 
 You may have heard a number attached to this, that 4% of people suffer 44% of crime. Pease himself

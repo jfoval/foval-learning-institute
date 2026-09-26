@@ -443,8 +443,8 @@ show why. Their critique of the "safety work" mandated for women and girls in pu
 functions "to limit women's space for action and responsiblise them for preventing violence" (their
 spelling), and their abstract ends by exploring feminist self-defence as a way of making that work
 visible.[17] Their target is advice telling women to restrict themselves, which is not what the trial
-tested. But training still asks women to do the work, which is the critics' point about cost and
-responsibility.
+tested. Whether training carries the same cost is the value question above, and the course leaves
+it there.
 
 :::checkpoint This question is a place in the course where all three kinds of claim the institute keeps apart appear together: established or tested, contested, and value. Sort these three statements, with a reason for each. (a) In a randomised trial of first-year university women in Canada, a twelve-hour programme lowered the one-year risk of completed rape. (b) Empowerment self-defence programmes reduce sexual assault wherever they're run. (c) A university's prevention budget should go to resistance classes before programmes for men.
 
