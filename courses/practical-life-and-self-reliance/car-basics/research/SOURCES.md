@@ -7197,3 +7197,275 @@ User-Agent). No earlier entry is corrected.
   unless they are in immediate danger from fire or explosion" [V]. NI Rule 286: "report the collision
   to the police immediately" [V], Law "RTO 1981 Arts 175 & 176". The page does not print 999. G-N3 stays
   open: the callout keeps "in Great Britain".
+
+## Gate closures, lesson 18/19 (2026-09-26)
+
+Read by the lessons 18 and 19 drafter on 26 September 2026 with curl (a generic browser User-Agent, no
+personal data in any header), pandoc, the GOV.UK content API, pdftotext (-layout and plain) and
+tesseract for the one scanned PDF. nhtsa.gov refuses automated readers and was read through the
+Internet Archive capture named. **[V]** as above: copied from text extracted today. Every quotation in
+lessons 18 and 19 was checked by script against today's extracted text, and the few split across a
+PDF's columns were checked by eye. Nothing here clears an entry on the `unread:` line.
+
+**Not re-readable today.** Nissan UK's online 2023 LEAF manual returned HTTP 404 on all nine pages Part
+E §4 read (stopping-vehicle-1, blocking-wheels-1, removing-or-installing-the-wheel-1, removing-tyre-1,
+installing-spare-tyre-1, temporary-use-spare-wheel-tyre-1, before-using-emergency-tyre-puncture-repair-kit-1,
+repairing-tyre-1, after-repairing-tyre-1), and the Internet Archive's CDX index has no capture of any
+of them. Its Part E §4 quotations ("Never change or repair tyres if oncoming traffic is close...", "Never
+use blocks on or under the jack.", "READY", the T-type spare's 80 km/h) are **not used** in lessons 18
+and 19. The Nissan lines in both lessons are the 2024 LEAF (US) PDF's, read today, below. The lesson 16
+drafter recorded the same outage.
+
+### Handbooks
+
+- **Toyota, 2023 Corolla (US), OM02568U** (live PDF, URL as Part E §4), pp. 370 to 379 re-read in full.
+  Part E §4's quotations all match. Additionally: p. 370, "If you have a flat tire" box: "Your vehicle
+  is equipped with a spare tire." p. 372: "Put the jack properly in its jack point." [V] "Do not start
+  the engine or drive the vehicle while the vehicle is supported by the jack." [V] "Do not use the tire
+  jack for any purpose other than replacing tires or installing and removing tire chains." [V] p. 373:
+  "If there are people nearby, warn them vocally before lowering." [V] **p. 374 chock table, read from
+  the text and the drawing:** for a front left flat, the chock goes "Behind the rear right-hand side
+  tire"; front right flat, behind the rear left; rear left flat, "In front of the front right-hand side
+  tire"; rear right flat, in front of the front left [V, table labels]. One chock, on the diagonal
+  wheel; not in front and behind. p. 375: "Do not touch the disc wheels or the area around the brakes
+  immediately after the vehicle has been driven. After the vehicle has been driven the disc wheels and
+  the area around the brakes will be extremely hot. Touching these areas with hands, feet or other body
+  parts while changing a tire, etc. may result in burns." [V] p. 376: "Failure to follow these
+  precautions could cause the wheel nuts to loosen and the tire to fall off, resulting in death or
+  serious injury." [V] "When installing the wheel nuts, be sure to install them with the tapered ends
+  facing inward." [V] "2 Install the tire and loosely tighten each wheel nut by hand by approximately
+  the same amount." [V] p. 377: "3 Lower the vehicle." [V] then "4 Firmly tighten each wheel nut two or
+  three times in the order shown in the illustration." [V] "Use the compact spare tire temporarily, and
+  only in an emergency." [V] The spare's label: "TEMPORARY USE ONLY" [V] (split across two columns in
+  the PDF text; read by eye). "As the compact spare tire is not equipped with a tire pressure warning
+  valve and transmitter, low inflation pressure of the spare tire will not be indicated by the tire
+  pressure warning system." [V] For a flat front tyre on snow or ice: "Install the compact spare tire on
+  one of the rear wheels of the vehicle." [V] p. 378: "The vehicle speed may not be correctly detected,
+  and the following systems may not operate correctly:" [V], the list opening "ABS & Brake assist",
+  "VSC", "TRAC" [V]. "The compact spare tire is not designed for driving at high speeds." [V] "Replace
+  the compact spare tire with a standard tire as soon as possible." [V] p. 379: "When a tire is repaired
+  with liquid sealants, the tire pressure warning valve and transmitter may not operate properly." [V]
+- **Honda, 2024 Civic Sedan (US), online, "If a Tire Goes Flat"** (URL as Part E §4), re-read in full.
+  Part E §4's quotations match. Additionally: "If a tire goes flat while driving, grasp the steering
+  wheel firmly, and brake gradually to reduce speed. Then, stop in a safe place." [V] "Put the
+  transmission into P." [V] (continuously variable transmission models); "Put the transmission into R."
+  [V] (manual). "Turn on the hazard warning lights and set the power mode to VEHICLE OFF." [V] "Use the
+  jack provided in your vehicle." [V] "Do not use the jack if it doesn't work properly. Call your dealer
+  or a professional towing service." [V] Manual transmission models: "Do not mount the compact spare on
+  the front. If mounted on the front, the compact spare, smaller in size than the full-size tire, may
+  damage the differential." [V] "Do not mount tire chains on a compact spare tire." [V] "5. Lower the
+  vehicle and remove the jack. Tighten the wheel nuts in the order indicated in the image. Go around,
+  tightening the nuts, two to three times in this order." [V] (so Honda tightens after lowering, as
+  Toyota and Mazda do). "Loose items can fly around the interior in a crash and can seriously injure the
+  occupants." [V] TPMS with the spare: "this is normal and is no cause for concern." [V] Both the
+  compact-spare section and the kit section carry "* Not available on all models" [V]. Kit: "If the
+  tire only has a small puncture, from a nail for instance, you can use the temporary tire repair kit so
+  that you can drive to the nearest service station for a more permanent repair." [V] "- Damage has been
+  caused by driving with the tire extremely under inflated." [V] "Do not remove a nail or screw that
+  punctured the tire. If you remove it from the tire, you may not be able to repair the puncture using
+  the kit." [V] "5. Start the engine." [V] "Keep the engine running while injecting sealant and air."
+  [V] "Running the engine with the vehicle in an enclosed or even partly enclosed area can cause a rapid
+  buildup of toxic carbon monoxide." [V] "Drive the vehicle for about 10 minutes." [V] Honda's "Tire
+  sealant contains substances that are harmful if inhaled, ingested or if contact is made with the eyes
+  or skin." [V] (not used).
+- **Mazda, Mazda3 (European English, 8GD7-EE-17H), online, "Flat Tyre"** (URLs as Part E §4), pages
+  08020100, 08020101, 08020102, 08020200, 08020201, 08020202, 08020203, 08020300, 08020301 and 08020303
+  re-read in full; 08020302 returns 404 and is not linked from the chapter today. Part E §4's quotations
+  match. Additionally: 08020100: "Your vehicle may or may not be equipped with a spare tyre, jack,
+  wheel brace, and tool bag." [V] 08020102, "Spare Tyre (Some Models)": "The temporary spare tyre is lighter and
+  smaller than a conventional tyre, and is designed only for emergency use and should be used only for
+  VERY short periods." [V] "Driving with the temporary spare tyre on one of the front driving wheels is
+  dangerous. Handling will be affected. You could lose control of the vehicle, especially on ice or snow
+  bound roads, and have an accident." [V] "Use only one temporary spare tyre on your vehicle at the same
+  time." [V] "Do not use a tyre chain on this tyre because it will not fit properly." [V] 08020201, kit
+  conditions: "The period of effective use for the tyre sealant has expired." [V] "The tear or puncture
+  exceeds about 4 mm (0.16 in)." [V] "The damage has occurred to an area of the tyre other than the
+  tread." [V] "The vehicle has been driven with nearly no air remaining in the tyre." [V] "The tyre has
+  come off the wheel rim." [V] "Damage to the wheel rim has occurred." [V] "The tyre has two or more
+  punctures." [V] 08020200: "Perform the emergency flat tyre repair without removing the nail or similar
+  sharp object which punctured the tyre." [V] 08020202: step 11 switches the ignition to ACC to run the
+  compressor [V, paraphrase]; "Carefully drive the vehicle at a speed of 80 km/h (50 mph) or less. If the
+  vehicle is driven at a speed of 80 km/h (50 mph) or more, the vehicle may vibrate." [V] "If you see a
+  decrease in the tyre inflation pressure, even if Steps 9 to 19 of the procedure are performed
+  repeatedly, stop driving:" [V] 08020300: "If you have a flat tyre, drive slowly to a level spot that is well off the road and out of
+  the way of traffic to change the tyre. Stopping in traffic or on the shoulder of a busy road is
+  dangerous." [V] (one passage on the page) "Changing a tyre is dangerous if not done properly. The
+  vehicle can slip off the jack and seriously injure someone." [V] "No person should place any portion
+  of their body under a vehicle that is supported by a jack." [V] "Allowing someone to remain in a
+  vehicle supported by a jack is dangerous. The occupant could cause the vehicle to fall resulting in
+  serious injury." [V] "1. Park on a hard, level surface off the right-of-way and firmly set the parking
+  brake." [V] "2. Put a vehicle with an automatic transaxle in Park (P), a manual transaxle in Reverse
+  (R) or 1, and turn off the engine." [V] "When blocking a tyre, use rocks or wood blocks of sufficient
+  size if possible to hold the tyre in place." [V] 08020301: "Attempting to jack the vehicle in positions
+  other than those recommended in this manual is dangerous. The vehicle could slip off the jack and
+  seriously injure or even kill someone." [V] "Jacking up the vehicle in a position other than the
+  designated jack-up position or placing objects on or under the jack is dangerous as it could deform
+  the vehicle body or the vehicle could fall off the jack resulting in an accident." [V] "Jacking the
+  vehicle with an object under the jack is dangerous. The jack could slip and someone could be seriously
+  injured by the jack or the falling vehicle." [V] "Jacking up the vehicle higher than is necessary is
+  dangerous as it could destabilize the vehicle resulting in an accident." [V] "Starting the engine or
+  shaking the vehicle while it is jacked up is dangerous as it could cause the vehicle to fall off the
+  jack resulting in an accident." [V] "Place the jack under the jack-up position closest to the tyre
+  being changed" [V]. 08020303: "When changing or replacing a tyre, not removing dirt and grime from the
+  mounting surfaces of the wheel, hub and hub bolts is dangerous. The wheel nuts could loosen while
+  driving and cause the tyre to come off, resulting in an accident." [V] "3. Install the wheel nuts with
+  the bevelled edge inward; tighten them by hand." [V] "Do not apply oil or grease to wheel nuts and bolts
+  and do not tighten the wheel nuts beyond the recommended tightening torque:" [V] "Applying oil or
+  grease to wheel nuts and bolts is dangerous. The wheel nuts could loosen while driving and cause the
+  tyre to come off, resulting in an accident. In addition, wheel nuts and bolts could be damaged if
+  tightened more than necessary." [V] "4. Turn the wheel brace anticlockwise and lower the vehicle." [V]
+  "5. Use the wheel brace to tighten the nuts in the order shown." [V] "Do not press the tyre pressure
+  monitoring system set switch after installing the spare tyre." [V]
+- **Nissan North America, 2024 LEAF (US)** (live PDF, URL as Part B §2), pp. 6-3 to 6-9 ("Flat tire",
+  "Repairing flat tire", "After repairing tire") and 8-2 read today. p. 6-4: "This vehicle does not have
+  a spare tire." [V] "If possible, have the vehicle towed to a facility that can repair or replace the
+  flat tire." [V] "The Genuine NISSAN Emergency Tire Sealant cannot permanently seal a punctured tire.
+  Continuing operation of the vehicle without a permanent tire repair can lead to a crash." [V] "After
+  using Genuine NISSAN Emergency Tire Sealant to repair a minor tire puncture, do not drive the vehicle
+  at speeds faster than 50 mph (80 km/h)." [V] Kit conditions: "when the sealant has passed its
+  expiration date (shown on the label attached to the bottle)" [V]; "when the cut or the puncture is
+  approximately 0.25 in (6 mm) or longer" [V]; "when the tire sidewall is damaged" [V]; "when the vehicle
+  has been driven with extremely low tire pressure" [V]; "when the tire has come off the inside or the
+  outside of the wheel" [V]; "when the tire wheel is damaged" [V]; "when two or more tires are flat" [V].
+  "Never repair tires when the vehicle is on a slope, ice or slippery areas. This is hazardous." [V]
+  "Never repair tires if oncoming traffic is close to your vehicle. Wait for professional road
+  assistance." [V] (both in the kit's "Stopping the vehicle" warning; the US LEAF has no spare). "Raise
+  the hood to warn other traffic and to signal professional road assistance personnel that you need
+  assistance." [V] p. 6-5: "If any foreign object (for example, a screw or nail) is embedded in the tire,
+  do not remove it." [V] p. 6-6: "The emergency repair compound may cause a malfunction of the tire
+  pressure sensors and cause the low tire pressure warning light to illuminate. Have the tire pressure
+  sensor replaced as soon as possible." [V] p. 6-8: "Do not stand directly beside the damaged tire while
+  it is being inflated because of the risk of the rupture." [V] Step 8: "Immediately drive the vehicle
+  for 10 minutes or 2 miles (3 km) at a speed below 50 mph (80 km/h) to distribute the sealant in the
+  tire." [V] Step 10: "If the pressure drops again or under 19 psi (130 kPa), the tire cannot be repaired
+  with this tire repair kit." [V] p. 8-2: "Never get under the vehicle while it is supported only by a
+  jack. If it is necessary to work under the vehicle, support it with safety stands." [V]
+
+### Law and inspection
+
+- **Road Vehicles (Construction and Use) Regulations 1986, reg 27** (legislation.gov.uk, revised text,
+  extent E+W+S), re-read in full. Reg 27(1)(a): "the tyre is unsuitable having regard to the use to
+  which the motor vehicle or trailer is being put or to the types of tyres fitted to its other wheels;"
+  [V] Reg 27(2), whole: "Paragraph (1) does not prohibit the use on a road of a motor vehicle or trailer
+  by reason only of the fact that a wheel of the vehicle or trailer is fitted with a tyre which is
+  deflated or not fully inflated and which has any of the defects described in sub-paragraph (c), (d) or
+  (e) of paragraph (1), if the tyre and the wheel to which it is fitted are so constructed as to make the
+  tyre in that condition fit for the use to which the motor vehicle or trailer is being put and the
+  outer sides of the wall of the tyre are so marked as to enable the tyre to be identified as having
+  been constructed to comply with the requirements of this paragraph." [V] Reg 27(3), whole: "Paragraph
+  (1)(a) does not prohibit the use on a road of a passenger vehicle (not being a bus) by reason only of
+  the fact that a wheel of the vehicle is fitted with a temporary use spare tyre, unless the vehicle is
+  driven at a speed exceeding 50 mph." [V] Unchanged from Part C §3.
+- **The same Regulations, reg 3(2), definition** (legislation.gov.uk): "temporary use spare tyre" means
+  "a pneumatic tyre which is designed for use on a motor vehicle only" [V] "(a) in the event of the
+  failure of one of the tyres normally fitted to a wheel of the vehicle, and" [V] "(b) at a speed lower
+  than that for which such normally fitted tyres are designed." [V] (the source's dash after "only" is
+  dropped at the quotation's end).
+- **Virginia, 19VAC30-70-130, "Tires; wheels; rims."** (law.lis.virginia.gov, page dated 9/26/2026),
+  read in full. "Inspect for and reject if:" [V] item 4: "A vehicle has installed on any axle a space
+  saver emergency spare tire that is intended for temporary use." [V] Item 8's note: "Plugs or patches
+  shall be in the tread area only." [V] (lesson 8's line; unchanged).
+
+### The roadside
+
+- **The Highway Code, Annex 6** (content API; `public_updated_at` 2022-01-29), re-read in full. The
+  burst and flat-tyre sentences in Part E §1 match, including the hyphen in "at risk - otherwise".
+- **The Highway Code, Rules 275 to 287** (content API; `public_updated_at` 2021-09-14), re-read in full.
+  Rule 275's "hard shoulders provide less protection" sentence, Rule 276's "do not stand (or let anybody
+  else stand) between your vehicle and oncoming traffic", and Rule 277's "DO NOT attempt repairs on your
+  vehicle" and "if it's dark or visibility is poor, use sidelights." match Part E §1.
+- **National Highways, "Driving on motorways"** (live), re-read in full: "Do not attempt repairs on your
+  vehicle" [V]; the 0300 123 5000 sentence and "If you've stopped in an emergency area, lay-by or on the
+  hard shoulder:" [V] match Part E §2.
+- **California Driver Handbook, Section 8** (live), re-read: "Stay inside your vehicle with your seat
+  belt on until help arrives." [V]; under the CHP Freeway Service Patrol, "During commute times, the CHP
+  FSP provides free emergency roadside services in certain areas." [V] and "Change a flat tire." [V]
+- **NHTSA, "Tires"** (https://www.nhtsa.gov/vehicle-safety/tires), Internet Archive capture
+  **20260923145155** (the newest; the page is served gzipped), read in full. "Tire Blowouts" section:
+  "A tire blowout is a rapid loss of tire air pressure that can cause your vehicle to lose control." [V]
+  "The goal in any blowout is to keep the vehicle balanced and controllable. Do not panic. Any
+  overreaction – including slamming on the brakes or abruptly removing your foot from the accelerator
+  – can result in a loss of control over the vehicle." [V] (the dashes are NHTSA's; the lessons split
+  around them). The steps, in order: "Hold the steering wheel with both hands." [V] "Maintain your
+  vehicle speed if possible and if it's safe to do so." [V] "Gradually release the accelerator." [V]
+  "Correct the steering as necessary to stabilize your vehicle and regain control. Look where you want
+  the vehicle to go and steer in that direction." [V] "Once your vehicle has stabilized, continue to slow
+  down and pull off the road where and when you judge it's safe to do so." [V] "No matter which tire
+  blows out—front or back—the steps for safely maintaining control of your vehicle are the same. The
+  difference is in how you will feel it. In a front tire blowout, you will feel the force more in the
+  vehicle's steering. In a rear blowout, you will feel it more in the seat or body of the vehicle." [V]
+  So Part B §1's two blowout lines and Part D §3's are one list on one page. Spare: "Spare tires on all
+  vehicles are prone to aging because they seldom get replaced." [V] and the full-size-spare sentence in
+  Part B §1 matches.
+- **RAC, "How to change a tyre in 10 simple steps"** (live), re-read in full; Part E §4's quotations
+  match, including the page's own dash in "stop somewhere dangerous – such as on a busy road with no
+  hard shoulder - but only drive to the nearest safe point" (the lesson splits around it). Additionally:
+  "Torch – for working at night (check batteries regularly)" [V]; "Short plank of wood – as a flat surface
+  to steady the jack" [V] in its kit list; its chock steps: "Position a chock on the opposite wheel to
+  the one with a puncture." [V] "Use chocks for both front/rear wheels (as appropriate) if you have
+  them." [V]
+- **Green Flag, "Changing a tyre"** (live), re-read in full; Part E §4's quotations match. Additionally:
+  "Check them all twice to be sure none is loose." [V] "place a reflective hazard warning triangle
+  plenty of distance behind your car" [V] (not used: the Highway Code's advice is the one the lessons
+  give for Great Britain).
+
+### Repair standards and run-flats
+
+- **BTMA, "Tyre Industry Professionals"** (live), re-read in full; Part E §4's quotations match.
+  Additionally, in its list of "'repair' methods" that "are not recognised as acceptable": "Liquid
+  sealants." [V] "Plugs applied externally to fitted tyres." [V] "Inner tubes fitted to tubeless tyres."
+  [V] "Temporary repairs." [V] "Repair in area 'T' only, requiring one of the following:" [V] "1. Rubber
+  only combination plug patch." [V] "2. Rubber only patch and penetration filling material." [V]
+  "BTMA only condones tyre repairs which are carried out in accordance with the recommendations in the
+  prevailing issue of British Standard BS AU 159, currently suffix g." [V] Footnote 5 on T-type spares:
+  "Temporary spare tyre designed for use at higher inflation pressures than for standard or reinforced
+  (extra load) tyres." [V]
+- **USTMA, "Tire Repair Basics"** (live), re-read in full; Part E §4's quotations match. Additionally:
+  "Repairs must be performed by removing the tire from the rim/wheel assembly to perform a complete
+  inspection to assess all damage that may be present." [V]
+- **TyreSafe, "The Complete Guide To Punctures and Repairs"** (live), re-read in full; Part E §4's
+  quotations match. Additionally: "It can be difficult to tell just by looking if your car's run-flat
+  tyres are in a deflated condition. This is because run-flat tyres have a reinforced sidewall." [V]
+  "Permanent repairs can only be carried out following removal of the tyre from the wheel to allow a
+  thorough inspection internally as well as externally to ensure there is no hidden damage which could
+  result in a catastrophic failure." [V] "You should not try to repair a tyre puncture on the side of a
+  road. If you cannot pull over somewhere safe to use your puncture repair kit, you should call for
+  emergency breakdown assistance." [V] (not used). Its "the advice from National Highways is not to
+  change a tyre by the side of the road" is still not found on National Highways' page and is not used.
+  Gate G-T5 stays open: no run-flat handbook read; the lesson attributes the 50 miles at 50 mph to
+  TyreSafe and says "check your handbook". G-T4: "the British Standard BS AU 159, as summarised by the
+  BTMA"; TyreSafe's "To stay compliant with the law" is reported as TyreSafe's claim with no statute
+  read.
+
+### The jack
+
+- **HSE, "Working under vehicles"** (live), re-read in full; Part E §4's quotations match. The page names
+  two HSE publications that are on the `unread:` line; neither lesson names them. Additionally: "the
+  ground is firm and level before raising a vehicle" [V] (under "Working away from the workshop"); the
+  coach incident's full sentence: "Changing coach tyres - a tyre fitter went to change 6 tyres on a school
+  coach parked on a sloping car park. Both rear nearside wheels and one offside wheel had been removed
+  and they were in the process of jacking it up when it fell onto their head and chest, killing them."
+  [V]
+- **NHTSA, Research Note, "Injuries Associated With Hazards Involving Motor Vehicle 'Jack Failures'"**
+  (September 1998; URL as Part E §4), all four pages rendered at 300 dpi and OCR'd with tesseract today,
+  checked against the page images. **[V, OCR]**: "“Jack failures” are defined as situations in which the
+  vehicle is believed to have moved either as a result of the jack or car shifting, or as a result of the
+  jack collapsing or losing pressure needed to hold the vehicle." The Part E §4 quotations (the study
+  period, "data from 102 cases", the 4,822 estimate, the 74 per cent and the 913 or 19 per cent, and
+  "funding limitations precluded this") match; the whole sentence is "However, funding limitations
+  precluded this from being done in the present instance." [V, OCR] and is preceded by "Typically, follow-back interviews are conducted to obtain a more
+  detailed description of each incident." [V, OCR] Table 3 by activity: "Repairing Vehicle 1,938 40%";
+  "Changing Tire 913 19%"; "Using Jack to Raise/Lower Vehicle 244 5%"; "Unspecified/Unknown 1,727 36%";
+  total 4,822 [V, OCR]. Table 1 by action: jack or vehicle slipped or fell 3,567 (74%); jack failed, gave
+  out or lost pressure 866 (18%); possible or unspecified 389 (8%) [V, OCR]. So the 74 per cent is what
+  hurt people, whatever they were doing, and the 19 per cent is an activity; the two are not the same
+  group. The source names the injury data system by its acronym, which is on the `unread:` line; the
+  lessons say "the US Consumer Product Safety Commission's emergency-room injury data".
+
+**Places used:** lesson 18, Ocala, and the M62 over the Pennines; lesson 19, Hornsea and Chico. Each
+checked with `grep -rlw` outside car-basics/research on 26 September 2026 and unused. Lesson 19 works
+its Hornsea case with the Mazda3's European handbook rather than OUTLINE's Corolla, because the Corolla
+handbook read is the US market's; the Corolla carries the Chico case.
+
+**Quiz keys:** lesson 18, 2,1,3,2,0; lesson 19, 3,1,0,2,0. Checked by script under the relaxed rule
+against every lesson on disk (01 to 17) and each other.
