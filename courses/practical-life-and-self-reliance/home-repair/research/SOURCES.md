@@ -482,8 +482,9 @@ optional.
    and switches, but do not state BS 7671 "safe zones" as a rule (gate G-E3).
 4. **Ladders:** give the numbers exactly (75°, 1 in 4, 1 m or 3 feet above the landing, top three
    rungs, 6 m from overhead lines, the 30-minute guide). Say the rules are written for workplaces
-   and that most injuries happen at home. CPSC's electrocution data include ladders touching
-   overhead lines (22 deaths, 2011 to 2020).
+   and that most injuries happen at home. CPSC's electrocution data count 22 deaths under "Ladder",
+   2011 to 2020, without saying what the ladders touched (Stage 4 note, lesson 15; see Gate
+   closures, lesson 12).
 5. **Asbestos:** do not tell a UK reader they may remove asbestos cement, textured coating or floor
    tiles because the law allows it. State the law and the advice together. Never suggest breaking
    AC sheets, sanding Artex or vacuuming suspected debris with a household vacuum. Artex removal is
@@ -1340,7 +1341,7 @@ What it establishes: the Regulations place duties on an employer "in relation to
 
 #### OSHA, 29 CFR 1926.1053 Ladders (construction)
 eCFR, current: https://www.ecfr.gov/current/title-29/part-1926/section-1926.1053
-Read: paragraph (b) "Use", clauses (1) to (17), in full from the eCFR renderer.
+Read: paragraph (b) "Use", clauses (1) to (17), in full from the eCFR renderer. (Stage 4 note, lesson 15: paragraph (b) has 22 clauses; (b)(18) to (b)(22) were read in "Gate closures, lesson 12".)
 What it establishes, all [V]:
 - (b)(1): when a portable ladder is used to reach an upper landing, its side rails "shall extend at least 3 feet (.9 m) above the upper landing surface". If the ladder is too short, secure it at the top and provide a grab rail.
 - (b)(5)(i): a non-self-supporting ladder is set so that the horizontal distance from the top support to the foot is "approximately one-quarter of the working length of the ladder". This is the US 4-to-1 rule.
@@ -1352,7 +1353,7 @@ This is a workplace rule, like WAHR. OSHA does not regulate householders.
 
 #### OSHA QuickCard, "Portable Ladder Safety"
 https://www.osha.gov/sites/default/files/publications/portable_ladder_qc.pdf
-Read: full two-sided card, pdftotext. Some diagram text was garbled.
+Read: full two-sided card, pdftotext. Some diagram text was garbled. (Stage 4 note, lesson 15: on 26 September 2026 the top-three-rungs line extracted whole and may be quoted; see that note.)
 Establishes: 3-point contact ("two hands and a foot, or two feet and a hand" [V]); face the ladder and keep your body near the middle of the step; do not use a stepladder as a single ladder or partly closed; "not stand on the three top rungs of a straight, single or extension ladder" (a fragment rejoined across a line break, so quote it only as a paraphrase); set the base "a quarter of the working length of the ladder from the wall" [V]; extend 3 feet above the point of support; look for overhead power lines before handling a ladder; avoid metal ladders near power.
 
 #### D'Souza AL, Smith GA, Trifiletti LB. "Ladder-related injuries treated in emergency departments in the United States, 1990-2005." *Am J Prev Med* 2007;32(5):413-8. doi:10.1016/j.amepre.2007.01.012. PMID 17478268
@@ -1385,7 +1386,7 @@ Establishes: "Persons 65 and older account for half (79) of all ladder deaths." 
 #### RoSPA, "Garden safety" and "Neil's story" (case study)
 https://www.rospa.com/home-safety/garden-safety ; https://www.rospa.com/case-studies/neil
 Read: full text of both (curl).
-Good for: the only DIY-focused UK ladder advice I read. Use a 1:4 ratio or 75° angle, keep three points of contact, don't overreach, and "Consider having another person present, especially when using leaning ladders." [V] The case study describes a hedge-cutting fall that caused a punctured lung and nine broken ribs; the man says it "should have been a two-person job".
+Good for: the only DIY-focused UK ladder advice I read. Use a 1:4 ratio or 75° angle, keep three points of contact, don't overreach, and "Consider having another person present, especially when using leaning ladders." [V] The case study describes a hedge-cutting fall that caused a punctured lung and nine broken ribs; the man says "It should have been a two-person job with somebody holding the ladder." [V] (Stage 4 note, lesson 15: this entry first trimmed the sentence after "job"; see Gate closures, lesson 12.)
 **UK ladder injury figures:** I could not find a primary source. Search summaries attribute to RoSPA figures of about 6,000 hospital admissions and about 48,000 A&E attendances a year from ladder accidents at home. These are Snippet only, from commercial training and ladder retail sites. Neither figure appears on any RoSPA page I read, and both may come from the Home Accident Surveillance System, which ended in 2002. Do not state them (see Gates).
 
 #### American Ladder Institute
@@ -2095,7 +2096,7 @@ Establishes:
 - [V] "HSE strongly advises that all gas appliances, flues and pipework should be installed, regularly maintained and serviced at least annually by a Gas Safe registered engineer."
 - [V] "It is illegal for anyone to use a gas appliance if they suspect it is unsafe."
 - Suspected leak: call the National Gas Emergency number 0800 111 999, open doors and windows, shut off at the meter control valve if you know where it is.
-- Moving a bayonet-fitted cooker temporarily to clean behind it is not "work"; [V] "Any other type of installation/reinstallation is regarded as gas work and must be carried out by a Gas Safe registered engineer." (That sentence sits in the landlord section, as item 5 of HSE's tips on tenants' own appliances, not the tenant section; corrected at Stage 4, lesson 10, 2026-09-26.)
+- Moving a bayonet-fitted cooker temporarily to clean behind it is not "work"; [V] "Any other type of installation/reinstallation is regarded as gas work and must be carried out by a Gas Safe registered engineer." (That sentence sits in the landlord section, as item 5 of HSE's tips on tenants' own appliances, and in the tenant section too; corrected at Stage 4, lesson 10, 2026-09-26.)
 - [V] "Every year around 7 people die from gas-related carbon monoxide (CO) poisoning." (HSE, undated figure.)
 - HSE Gas Safe page: Gas Safe Register covers natural gas and LPG work in [V] "Great Britain, Northern Ireland, the Isle of Man and Guernsey"; launched 1 April 2009, replacing CORGI; run by Capita Gas Registration and Ancillary Services Ltd under a concession from HSE. ID card: [V] "The front of the card has a photograph, a registration number and an expiry date and the reverse shows the different categories of work that the engineer is qualified to undertake, eg cookers, boilers, gas fires."
 
@@ -3105,9 +3106,9 @@ Read: executive summary and Table 5 (product categories), pdftotext.
   victims; more victims aged 45 to 64 than population share would predict. Fractal ("Lichtenberg")
   wood burning emerged as a major source.
 - Table 5 reported deaths 2011 to 2020 include: appliance 66, fractal wood burning 65, pole 31,
-  ladder 22 (ladders contacting power lines), pool/hot tub 19, electrical box/outlet 16, extension
-  cord 11, power tool 9. (The categories listed that are relevant to DIY: ladders near overhead
-  lines, outlets, cords, power tools.)
+  ladder 22 (the table does not say what the ladders touched; see Gate closures, lesson 12, and Stage 4 note, lesson 15), pool/hot tub 19, electrical box/outlet 16, extension
+  cord 11, power tool 9. (The categories listed that are relevant to DIY: ladders, outlets,
+  cords, power tools. Stage 4 note, lesson 15: formerly "ladders near overhead lines".)
 - Caveat: incidents associated with a product [V] "were not necessarily caused by the product."
 
 #### D39. CPSC, news release 89-031, "Easily Installed Device Protects Family Against Electrocution" (28 May 1989), and CPSC memorandum "Economic Considerations: GFCIs" (Karels, 10 March 2003)
@@ -3408,8 +3409,8 @@ URL, which now redirects here). Written for rented housing providers.
    electrical installation work; Part P/notifiable work belongs to the regulations lesson.
 7. Before drilling: use a cable and pipe detector; don't drill directly above, below or beside
    sockets and switches. (Detector limitations not sourced here.)
-8. Ladders near overhead lines appear in CPSC electrocution data (22 deaths 2011 to 2020); the
-   ladder part should cross-reference.
+8. Ladders appear in CPSC electrocution data (22 deaths under "Ladder", 2011 to 2020, what they
+   touched not stated; Stage 4 note, lesson 15); the ladder part should cross-reference.
 9. Generators: 20 feet (about 6m) from the house, exhaust away (CPSC); this is a US figure.
 10. Radon and mould: this course gives the health line only. For mould, larger areas are for
     professionals (UK guidance); use mould products rather than bleach.
@@ -5484,8 +5485,8 @@ same day. Each [V] string-matched in the extracted text.
 
 - **Correction to C15.** HSE's bayonet-cooker line and "Any other type of
   installation/reinstallation ..." sit in the **landlord** section of "Domestic gas: frequently
-  asked questions", as items 4 and 5 of HSE's tips on tenants' own appliances, not in the tenant
-  section. [V] "Free-standing cookers connected by a flexible connector (bayonet fitting), are not
+  asked questions", as items 4 and 5 of HSE's tips on tenants' own appliances, and (second pass,
+  2026-09-26) in the tenant section as well: the lines appear in both sections. [V] "Free-standing cookers connected by a flexible connector (bayonet fitting), are not
   considered to be 'readily movable', but can be moved, temporarily, eg to clean the space they
   normally occupy; this type of activity is not regarded as 'work' within the meaning of these
   Regulations." The tenant section has the specimen letter and names form LGSR1.
@@ -5643,3 +5644,57 @@ string-matched in the extracted text.
   you might want to seek specialist advice before doing so." Landing page, re-read: [V] "Every home
   in Scotland must have interlinked fire alarms." [V] "All smoke and heat alarms should be attached
   to the ceiling and be interlinked."
+
+## Stage 4 note, lesson 15 (2026-09-26)
+
+Read by the lesson 15 reviewer on 26 September 2026 (curl with a browser User-Agent, no personal
+data in any header; pandoc or pdftotext; the eCFR versioner API, title 29 current to 24 September
+2026; PubMed efetch; the Internet Archive `id_` capture 20260907020506 for the MMWR page), and the
+strings the fixer used re-read by the fixer the same day. Every [V] was string-checked against the
+extracted text.
+
+**Corrections made in place above** (small replacements, each marked "Stage 4 note, lesson 15"):
+Part B §2's OSHA entry said paragraph (b) had clauses (1) to (17); it has 22. Part B §2's RoSPA
+entry trimmed the "Neil" sentence. Part D D38, the synthesis's "Safety-critical guidance" item 4 and
+Part D's DIY note 8 said the 22 ladder electrocutions were ladders touching power lines; Table 5 says
+only "Ladder". "Gate closures, lesson 12" already recorded all three; the originals now point to it.
+
+### 29 CFR 1910.333(c)(3), "Overhead lines" (new; OSHA's electrical work practices, general industry)
+
+https://www.ecfr.gov/current/title-29/part-1910/section-1910.333, paragraph (c)(3) read whole.
+A federal rule for employers in general industry (Subpart S); construction work is under part
+1926, not read for overhead lines.
+- [V] "If work is to be performed near overhead lines, the lines shall be deenergized and grounded, or other protective measures shall be provided before work is started."
+- [V] "arrangements shall be made with the person or organization that operates or controls the electric circuits involved to deenergize and ground them"
+- (c)(3)(i)(A): an unqualified person working in an elevated position near overhead lines is placed so that [V] "the person and the longest conductive object he or she may contact cannot come closer to any unguarded, energized overhead line than the following distances"; for [V] "voltages to ground 50kV or below" the distance is [V] "10 ft. (305 cm)" (the two are joined by an em dash in the source; quote either side, not across it). Over 50 kV, 4 inches more for every 10 kV.
+- (c)(3)(i)(B): the same distances for conductive objects brought near the lines by an unqualified person on the ground.
+
+### Verified strings, lesson 15's primaries (live, 2026-09-26)
+
+HSE, "Safe use of ladders and stepladders", under https://www.hse.gov.uk/work-at-height/ladders/:
+- Page 1: [V] "Ladders and stepladders are not banned under health and safety law." [V] "ladders can be a sensible and practical option for low-risk, short-duration tasks, although they should not automatically be your first choice."
+- Page 2: [V] "Short duration is not the deciding factor in establishing whether use of a ladder is acceptable" / [V] "you must have first considered risk." [V] "As a guide, if your task would require staying up a leaning ladder or stepladder for more than 30 minutes at a time, it is recommended you use alternative equipment." [V] "eg where the ladder will be level and stable, and can be secured (where it is reasonably practicable to do so)."
+- Page 3 (how-to-check-ladder-is-safe-before-use.htm, re-read by the fixer): [V] "Before using a ladder, you should have access to user instructions from the manufacturer in case you need to refer to them." Also the stiles, feet, rungs and soft-to-hard-ground strings as "Gate closures, lesson 12" records them, and [V] "If you spot any of the above defects, do not use the ladder and tell the person in charge of the work."
+- Page 4 (types-of-ladder.htm, re-read by the fixer), **leaning-ladder list**: [V] "Maintain three points of contact when climbing and wherever possible at the work position." then [V] "Where you cannot maintain a handhold, other than for a brief period (eg to hold a nail while starting to knock it in, start a screw etc), you will need to take other measures to prevent a fall or mitigate the consequences if one happened" then [V] "Secure the ladder (eg by tying the ladder to prevent it from slipping either outwards or sideways) and have a strong upper resting point". The no-handhold sentence is in the leaning-ladder list, not the stepladder list. Also as recorded: the belt buckle, top three rungs, tool belt, 6 m, non-conductive ladder, glazing or plastic gutters, telescopic fingers and "If you are in any doubt, do not use them." lines.
+- Page 4, stepladders: [V] "two feet and one hand, or when both hands need to be free for a brief period, two feet and the body supported by the stepladder" (lesson 16's to use).
+- Page 5: [V] "Use proprietary levelling devices, not ad-hoc packing such as bricks, blocks, timbers etc"; [V] "clean (no oil, moss or leaf litter)".
+- Page 6: the four securing options as recorded; [V] "extend at least 1 m above the landing point to provide a secure handhold".
+- Page 7: [V] "Detailed visual inspections are the responsibility of the employer. They should be carried out at fixed intervals and recorded."
+
+HSE, work at height FAQ: [V] "Work at height means work in any place where, if precautions were not taken, a person could fall a distance liable to cause personal injury."; [V] "the treads of a stepladder"; [V] "You need to be competent to build, inspect, use and dismantle a tower".
+
+LA455 (Ver 1, Rev 1, 09/26): scope sentence, Figure 4's caption, "Footing is the last resort." and "Detailed visual inspections are the responsibility of the employer." as "Gate closures, lesson 12" records them. Figure 4 is captioned as correct use, one way to get a strong resting point, not the only one.
+
+WAHR 2005 reg 3 (revised, E+W+S): [V] 3(3)(a) "a [relevant self-employed person], in relation to work— (i) by him; or (ii) by a person under his control, to the extent of his control" (the source's dash; do not quote across it). So 3(3)(a) covers a relevant self-employed person's own work as well as work under their control.
+
+29 CFR 1926.1050(a), scope (re-read by the fixer): [V] "This subpart applies to all stairways and ladders used in construction, alteration, repair (including painting and decorating), and demolition workplaces covered under 29 CFR part 1926". 29 CFR 1926.1053: as "Gate closures, lesson 12" records, plus (b)(12) nonconductive siderails [V] "if they are used where the employee or the ladder could contact exposed energized electrical equipment"; (b)(13) [V] "The top or top step of a stepladder shall not be used as a step." Paragraph (b) has 22 clauses.
+
+OSHA QuickCard 3246 (re-read by the fixer, pdftotext): **the top-three-rungs line is readable whole today**: [V] "Do not stand on the three top rungs of a straight, single or extension ladder." It may be quoted. The card opens with falls from portable ladders as [V] "one of the leading causes of occupational fatalities and injuries", so it is workplace advice. Also [V] "Avoid using a metal ladder near power lines or exposed energized electrical equipment."
+
+RoSPA "Garden safety" and "Neil" as "Gate closures, lesson 12" records; injuries [V] "a punctured and collapsed lung and nine broken ribs".
+
+CPSC, *Electrocutions 2011-2020*: Table 5 row [V] "Ladder", 22, no breakdown; Appendix A scope sentence as recorded; [V] "not necessarily caused by the product."
+
+D'Souza 2007 abstract (re-read by the fixer): [V] "97.3% occurred in non-occupational settings, such as homes and farms." "Such as" gives examples, not the whole list.
+
+Socias 2014 (capture 20260907020506, re-read by the fixer): the steps sit in the Discussion and are introduced as [V] "To prevent ladder falls, employers should consider the following steps: 1) plan the work to reduce or eliminate the need for using ladders by applying safety-in-design and constructability principles to finish as much of the work as possible on the ground"; further paragraphs, a limitations paragraph and a box follow, so the list is not where the report closes.

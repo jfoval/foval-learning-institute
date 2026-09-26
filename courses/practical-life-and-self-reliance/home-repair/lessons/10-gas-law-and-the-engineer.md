@@ -122,8 +122,8 @@ quiz:
       duties as Great Britain's: competence for anyone, and membership of the approved class for
       a self-employed person, approved by "the Executive". HSE says the Gas Safe Register covers
       Northern Ireland, but that doesn't carry Great Britain's 1998 Regulations there; the 2004
-      ones apply. Regulation 3's exceptions are the hoses and regulators on portable heaters and
-      cylinders, not a like-for-like hob swap. Nothing read puts his duties on the customer.
+      ones apply. Regulation 3's exceptions are a portable heater's hose or regulator and the hose
+      from a refillable cylinder, not a like-for-like hob swap. Nothing read puts his duties on the customer.
 ---
 
 Lesson 1 gave you the gas law in two lines: registration binds businesses, and competence binds
@@ -217,7 +217,7 @@ So, under the gas safety regulations, "it's illegal to do any gas work yourself"
 because the registration duty doesn't reach a householder, and "it's legal, so it's fine" misleads,
 because the competence duty does, measured by a recognised course and an assessment. Other law can
 apply as well. In England and Wales, the Building Regulations 2010 list installing a heat-producing
-gas appliance, such as a boiler, among the jobs a member of the Gas Safe class can certify itself;
+gas appliance, such as a boiler, among the jobs a member of the Gas Safe class can self-certify;
 lesson 22 comes back to that.
 
 ### One rule that binds you in a leak
@@ -276,8 +276,8 @@ look it over when he's done. The Gas Safe Register says of this: "It is illegal 
 not Gas Safe registered to fit a gas appliance or do other gas work and then have the work checked
 by a Gas Safe registered engineer. Both parties would be breaking the law."[6] That is the
 Register's statement. If the first person does gas work as a business, regulation 3(3) covers them.
-For an unpaid relative like this one, or for the engineer who checks, this course read regulation 3
-and HSE's guidance and couldn't find the provision the Register has in mind, so it reports the
+For an unpaid helper who does have the competence, this course read regulation 3 and HSE's
+guidance and couldn't find the provision the Register has in mind, so it reports the
 sentence as Gas Safe's, not as the law. Either way, a check afterwards doesn't supply the competence
 the law asks of the person doing the work.
 
@@ -325,8 +325,8 @@ website.
 HSE, in its guidance for landlords, gives one everyday case. A free-standing cooker connected by a
 flexible connector (a bayonet fitting) can be moved temporarily, for instance to clean the space it
 stands in, and that is not "work" under the Regulations. Anything more is, and HSE says it "must be
-carried out by a Gas Safe registered engineer", which is its advice (for a householder the legal
-duty is the competence one above).[10] The Register's own advice is stricter: "never try to fix, fit
+carried out by a Gas Safe registered engineer". For a householder working on their own home that
+is advice, since the legal duty there is the competence one above.[10] The Register's own advice is stricter: "never try to fix, fit
 or move appliances like your boiler or cooker yourself".[6] So even the temporary move is **Yours, on
 conditions**: the cooker's user instructions allow it and you don't disturb the connection.
 Otherwise, Call someone.
@@ -461,14 +461,15 @@ Britain and Northern Ireland" above).
 
 **"If a registered engineer checks it afterwards, it's all right."** The Register says that
 arrangement puts both parties in breach (a statement this course couldn't match to a provision for
-an unpaid helper; see "A free hob from a brother-in-law"). Either way, a check afterwards does not
+a competent unpaid helper; see "A free hob from a brother-in-law"). Either way, a check afterwards does not
 make the first person competent.[6]
 
 **"A Gas Safe card means the engineer can do any gas job."** The back lists the categories they are
 qualified for (HSE).[9]
 
 **"Texas lets homeowners do their own gas work, so America does."** Texas's exemption is from one
-state's licence law, and says nothing about permits there or about any other state.[13]
+state's licence law, and says nothing about permits there or about any other state (see "Who may work on gas in the
+US" above).[13]
 
 ## Practice
 

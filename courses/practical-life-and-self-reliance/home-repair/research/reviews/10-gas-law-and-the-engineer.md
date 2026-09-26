@@ -184,3 +184,71 @@ with the Regulations' introduction), 15 (IA 1978 s 11) and 16 (reg 34) added; 1,
 legal-status quotations, the "both parties" disclaimer, the bayonet cooker's law and advice, the
 Building Regulations sentence and the £60 reasoning on s 53), and a fresh reviewer should read them
 against the primaries and the new Stage 4 note before the lesson is called clean.
+
+## Second pass (2026-09-26)
+
+**Reviewer:** one fresh-context reviewer, reading the fixed lesson against the primaries. Re-read
+live with curl (browser User-Agent, no personal data in any header) and pandoc or pdftotext: SI
+1998/2451 regs 2, 3, 6, 34 and 36 (each "no known outstanding effects", extent E+W+S) and its
+introduction; SR 2004/63 reg 3; HSWA 1974 s 53; Interpretation Act 1978 s 11; the Building
+Regulations 2010 Schedule 3; L56 (whole PDF; legal-status page, paras 52, 55, 81, 83, 85, 91, 95,
+121); HSE's faqownerocc, newschemecontract and faqs pages; Gas Safe captures 20251023004454 and
+20260221055602; Columbia Gas of Ohio; NYC DOB. Every quotation in the lesson that comes from these
+string-matched.
+
+**Checked and clean.** Every sentence on who may do gas work in Great Britain and Northern Ireland
+(reg 3(1), 3(3), 3(4); NI reg 3 with "the Executive"; L56 paras 52, 81, 83, 85, 91, 95; HSE's "must
+be on the Gas Safe Register"); reg 6(5) scoped to someone searching for a leak; reg 34's responsible
+person; reg 36's 12 months, 28 days, 36(7) and the licence and lease definitions. The £60 reasoning
+holds: s 53(1) defines "self-employed person" as quoted, s 11 carries HSWA's meanings into
+regulations made under it, the introduction names s 15, and reg 2 defines no contrary meaning; the
+reading is labelled the course's twice. Helpline 0800 408 5500 and Advice Line 0800 300 363 right
+on HSE's page, both with non-breaking spaces; the Advice Line hours right; the callout's numbers
+byte-identical to the briefs. General-information labels: full form once after the callout, short
+form at the top of each law-stating H2 and in the exercise, "As general information" in the stems
+of quiz 1, 3, 4, 5 and 6; none in hidden answers or explanations. New quiz items (1 to 4) match the
+lesson and the sources. Keys 0,1,3,1,3,2 re-checked by script against lessons 01 to 09 and 11 to 18
+on the full rule (all four positions, no adjacent repeat, not identical, no pure shift, no shared
+run of four at offsets 0 or ±1): passes. Option-length spread 3 to 8 per item. No em or en dashes.
+
+**Findings:**
+1. S1 [major, law] "Both parties", body: "For an unpaid relative like this one, or for the engineer
+   who checks, this course ... couldn't find the provision". What SOURCES records (synthesis; lesson
+   09 gate G-G1) is narrower: no provision making a householder who does *competent* work, then has
+   it checked, a law-breaker. This relative isn't competent (the lesson's own checkpoint), so reg
+   3(1) does reach him; and no search for the checking engineer's position is recorded anywhere in
+   SOURCES (reg 3(2), on a self-employed person "who has control to any extent of such work", was
+   not considered in writing). Fixed: "For an unpaid helper who does have the competence, ...".
+2. S2 [minor, law] Misconception 3, "a provision for an unpaid helper": same narrowing. Fixed: "a
+   competent unpaid helper".
+3. S3 [minor, law] Bayonet cooker: HSE's "must be carried out by a Gas Safe registered engineer",
+   quoted from its landlord guidance, was glossed flatly as "its advice". For a landlord, reg 36(4)
+   makes Gas Safe work on a relevant gas fitting law. Fixed: "For a householder working on their own
+   home that is advice, since the legal duty there is the competence one above."
+4. S4 [minor] Building Regulations sentence, "can certify itself": Schedule 3's heading is
+   "Self-certification Schemes". Fixed: "can self-certify".
+5. S5 [minor, decision 9] Misconception 5 restated the Texas rule with no pointer back to its
+   labelled section. Fixed: pointer to "Who may work on gas in the US".
+6. S6 [minor] Quiz 6 explanation: "the hoses and regulators on portable heaters and cylinders";
+   reg 3(4)(b) is a hose only. Fixed: "a portable heater's hose or regulator and the hose from a
+   refillable cylinder".
+7. S7 [minor, SOURCES, not edited] The Stage 4 note's "Correction to C15" says HSE's bayonet lines
+   are "not in the tenant section". The live faqs page carries them in both: items 4 and 5 of the
+   landlord tips, and again under the tenant question "Do I need to use a Gas Safe registered
+   engineer to move a bayonet fitting cooker?". The lesson's "in its guidance for landlords" is
+   still true; the SOURCES correction overstates and should say "in both sections".
+8. S8 [minor, not fixed] Reg 36's licence limb: "landlord" and "tenant" under a licence are defined
+   for England and Wales only; in Scotland both are defined by a lease. "Homes or rooms let under a
+   licence" is unscoped. Quiz 4 (Wales) is unaffected. Suggest "(in England and Wales) homes or
+   rooms let under a licence" at the next edit.
+9. S9 [minor, not fixed] Misconception 1 restates the two duties before its pointer; the convention
+   prefers the pointer alone. Short and accurate; left.
+10. S10 [minor, not fixed] The Register's "could be undertaken by another competent tradesperson"
+    is given as "can be replaced". Hedge dropped slightly; left for the next edit.
+
+**Validate:** `npm run validate` exit 0; no line names this file. `npm run minutes`: 6,016
+words, `minutes: 90`, ok.
+
+**Verdict: CLEAN.** The law is now stated as the course found it. S7 needs a one-line correction in
+SOURCES by whoever next edits it; S8 and S10 are wording refinements, not errors that mislead a
+reader about who may do gas work.
