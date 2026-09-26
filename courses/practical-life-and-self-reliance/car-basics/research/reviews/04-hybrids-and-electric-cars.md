@@ -137,3 +137,50 @@ is inside fueleconomy.gov's "12%–30%". `npm run quotes car-basics`: 156 quotat
 `npm run validate` exits 0 with no line naming this lesson.
 
 **Status after review:** clean
+
+## Second pass (2026-09-26)
+**Reviewer:** one reviewer, fresh context. Re-read live with curl (browser User-Agent, no personal data
+in any header) on 2026-09-26: AFDC all-electric, HEV "How do" and basics, PHEV "How do" and basics,
+maintenance, charging; fueleconomy.gov coldweather, evtips, hybridtech, evtech; the AA release of 23 July
+2021. Every string the fixer touched matched its primary; `npm run quotes car-basics` reports no miss in
+this lesson.
+
+**Checked and correct:** the series and parallel paragraph (every quotation on the page it is attributed
+to; "almost all of the time" is on the PHEV basics page, the same page as the series engine line, so "The
+same page adds" is right); the table's PHEV and BEV rows; DC fast's "typically a three-phase AC input";
+the transmission entry, word for word from "Transmission (electric)"; the cold figures (the page gives
+20°F against 77°F for petrol and hybrids and 20°F against 75°F for the EV no-heater line, so "at 20°F
+... against a mild day" is fair; 39%, 41%, two-thirds, 30% to 34%, "about 12% lower" all verbatim); the
+Fairbanks arithmetic (240 × 0.59 = 141.6 miles; 142 miles is 228.5 km, printed as 229, within rounding;
+from the unrounded figure it would be 228) and its predict answer (preheat tip, NHTSA antecedent,
+"also affects the performance of the regenerative braking system" all verbatim); the AA strings and
+their unranked "top two"; Q4 and Q5 after the reorder: each explanation names options by content and
+matches (Q4 key 0, "same general maintenance"; Q5 key 1, 177 km, with 123, 200 and 259 each explained).
+Callout byte-identical to the brief. No em dash; the only en dash is inside fueleconomy.gov's "12%–30%".
+
+**Fixed here (one edit each):**
+- S1 [minor] Exercise checkpoint (e) still gave the series plug-in's battery the plug alone, which R2
+  set out to remove. Now adds "as AFDC says of all plug-ins, also by the engine and by regenerative
+  braking", matching (b).
+- S2 [minor] Q4 explanation dropped AFDC's hedge: the page says the electrical system "typically
+  requires minimal scheduled maintenance". "typically" restored.
+- S3 [minor] The transmission paragraph sent the reader to Go deeper for a chapter Go deeper doesn't
+  list (Go deeper names Section X; SOURCES puts "EV and HEV Transmissions" in Section XIV), and said it
+  is "where a technician reads about it" of a book read at contents level only. Now: "The contents ...
+  list a chapter called 'EV and HEV Transmissions', in its Section XIV, which is where a technician
+  would look."
+
+**Noted, not changed:**
+- Quiz keys 0,2,3,0,1 pass the relaxed rule and the shifted-run rule against every committed lesson
+  (01, 02, 03). Two untracked drafts now on disk from another session do collide under the shifted-run
+  rule: lesson 05 (2,1,2,3,0,2) shifted +1 shares 2,3,0,1 at offset 1, and lesson 07 (1,3,0,1,3,2)
+  shifted +3 shares 0,2,3,0 at offset 0. Those are the later lessons' to change, not lesson 04's; their
+  fixers should re-key. Recorded here for them.
+- The PHEV table row's "Electricity until the battery is nearly used up, then the engine" leaves out
+  AFDC's other engine triggers ("during rapid acceleration, or when intensive heating or air
+  conditioning loads are present"); the body's quotation keeps "typically" and the Carmarthen case says
+  "could in principle", so it is not wrong. A later pass may add it.
+- Lesson 2 calls the transmission the gearbox; lesson 4 answers "what in place of a gearbox" with an
+  electric transmission the sources don't describe further. Honest, if thin; no source read says more.
+
+**Verdict: CLEAN**

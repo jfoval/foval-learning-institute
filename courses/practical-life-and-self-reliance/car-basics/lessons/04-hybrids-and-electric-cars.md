@@ -83,7 +83,7 @@ quiz:
       and fluids to change". A hybrid still has an engine, so the engine's schedule in the
       handbook still applies. For hybrids AFDC says brake systems "generally last longer" because
       of regeneration, so more frequent brake checks aren't what it says, and it says the battery,
-      motor and electronics need "minimal scheduled maintenance", which is not the engine.
+      motor and electronics typically need "minimal scheduled maintenance", which is not the engine.
   - q: >-
       An electric car's range display reads 300 km on a mild autumn day. Using the 2019 AAA test
       figure that fueleconomy.gov reports, how low could the range fall at the test's 20°F
@@ -230,8 +230,8 @@ each one explains something you'll see on the dashboard or in the handbook.
 That leaves the question lesson 2 handed on: what does an electric car have in place of a gearbox?
 AFDC's list also has an electric **transmission**, which "transfers mechanical power from the
 electric traction motor to drive the wheels".[1] The sources this course read don't describe it
-further; the chapter "EV and HEV Transmissions" in Halderman and Ward's textbook (see Go deeper) is
-where a technician reads about it.
+further. The contents of Halderman and Ward's textbook (see Go deeper) list a chapter called "EV and
+HEV Transmissions", in its Section XIV, which is where a technician would look.
 
 The drawing below puts the five in order, with the charge port and the 12 V side added. It leaves
 out the transmission between the motor and the wheels, and a hybrid's engine.
@@ -550,7 +550,7 @@ Take 20 minutes over these. Part 1 is on paper. Part 2 uses your own car's handb
 
 :::checkpoint Check your answers to part 1.
 
-(a) Battery-electric: a socket and no fuel means the plug is the only source, with braking recovering some in cars with motor generators. (b) Plug-in hybrid: it runs on electricity until the battery is nearly used up, then on the engine; charged from the plug, and AFDC says also by the engine and by regenerative braking. (c) Mild hybrid: the motor assists and cannot drive the car alone; charged by braking and the engine. (d) Full hybrid: no socket, but the motor alone moves it at low speed; charged by braking and the engine. (e) Plug-in hybrid of the series kind, the kind AFDC says is often called an extended-range electric vehicle: the motor alone drives the wheels; AFDC says its engine "is used to generate electricity for the motor", and the battery charges from the plug. If you put (d) down as mild, look again at what the motor could do by itself.
+(a) Battery-electric: a socket and no fuel means the plug is the only source, with braking recovering some in cars with motor generators. (b) Plug-in hybrid: it runs on electricity until the battery is nearly used up, then on the engine; charged from the plug, and AFDC says also by the engine and by regenerative braking. (c) Mild hybrid: the motor assists and cannot drive the car alone; charged by braking and the engine. (d) Full hybrid: no socket, but the motor alone moves it at low speed; charged by braking and the engine. (e) Plug-in hybrid of the series kind, the kind AFDC says is often called an extended-range electric vehicle: the motor alone drives the wheels; AFDC says its engine "is used to generate electricity for the motor", and the battery charges from the plug and, as AFDC says of all plug-ins, also by the engine and by regenerative braking. If you put (d) down as mild, look again at what the motor could do by itself.
 :::
 
 ## For your plan
