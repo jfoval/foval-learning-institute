@@ -1,6 +1,7 @@
 ---
 title: What the variables do
 minutes: 105
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/health-and-body/strength-and-fitness/05-what-the-variables-do.mp3
 objectives:
   - >-
     State what load, weekly sets, closeness to failure and frequency each do for strength and for
