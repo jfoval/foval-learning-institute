@@ -219,7 +219,7 @@ support. It is the most useful thing in this lesson, because every stock statist
 this course has a chain like it.
 
 :::predict Before reading on: the Acas guide says 45% of the working day goes on listening. Guess where that figure was first measured, on how many people, and how.
-It goes back to one survey, reported in 1929, of 68 adults, run by a Detroit schools researcher, who kept a log of their own communicating every fifteen minutes. And another retelling of that survey gives 42, not 45.
+It goes back to one survey, reported in 1929 and run by a Detroit schools researcher, in which 68 adults kept a log of their own communicating every fifteen minutes. And another retelling of that survey gives 42, not 45.
 :::
 
 **Link 1: Rankin's survey (1920s).** Paul Rankin worked for the Detroit public schools. In Ralph

@@ -178,3 +178,14 @@ No em dashes or spaced en dashes; no SVGs. `npm run minutes` 90, matching. `npm 
 conversation-and-listening`: 70 quotations, none missing. `npm run validate` exits 0.
 
 **Verdict: SETTLED.**
+
+## Podcast fact-check, 2026-09-26
+
+Fresh-context check of `podcast/03-hearing-is-not-listening.script.md` against this lesson and its
+primary sources (Acas guide, Nichols and Stevens pp. 5 to 7, Usera 7.1, Worthington and Bodie,
+Ickes 1993, the Rogers and Farson excerpt, Carnegie p. 105), all quotations string-matched.
+
+**One-edit fix to the lesson:** the Link 1 predict answer said the survey was "of 68 adults, run by
+a Detroit schools researcher, who kept a log of their own communicating", which attaches the log to
+the researcher. Nichols and Stevens say the 68 adults kept the tabs. Now "reported in 1929 and run
+by a Detroit schools researcher, in which 68 adults kept a log of their own communicating".
