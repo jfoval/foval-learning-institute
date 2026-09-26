@@ -34,3 +34,23 @@ Findings that belong to no single lesson, and notes a fixer leaves for later les
 - **Places now used in lesson 2:** Suffolk, Arkansas, Oklahoma, County Durham, Lincolnshire,
   Hertfordshire, Hampshire, Fife, North Dakota, Missouri. Grep for adjective uses ("a Norfolk
   bungalow") and house types (ranch, bungalow, terraced, semi, cottage), not only "in X".
+
+## 2026-09-25 — Lesson 04 fix pass: notes for later lessons
+
+- **Drain chemicals: every usage condition is Poison Control's (US).** UKHSA's sodium hydroxide page
+  gives only "correct use" and storage. Never credit goggles, gloves, ventilation, pouring or
+  never-mix to a UK body; no UK official page on mixing cleaners has been read.
+- **A method list labelled Yours needs its exclusions stated where the list is.** Lesson 4 now says
+  at the end of WaterSafe's list not to start it with a drain cleaner already in the sink. Any later
+  lesson that gives a householder's sequence (a boiler reset, a damp clean-up with bleach in lesson
+  12) should say at the list what state of things it assumes.
+- **The general-information label, as applied in lesson 4:** the full decision 9 sentence once, in
+  the introduction; "This is general information, not legal advice." opening each H2 that states law
+  and in the exercise. Two full copies in one lesson trip the 25-word repetition warning; lessons 1
+  and 2 still trip it. This follows the convention the lesson 01 fixer was recording; if the briefs
+  settle it differently, lesson 4 changes to match.
+- **Thames Water's fatberg survey** is commissioned (Opinion Matters, 2,501 adults, London and five
+  counties, late 2025), never "its own survey". **WRc's restart of testing** was written in 2024.
+  **UGA's septic pumping** is hire-a-professional, Call someone. **ASHI's jug** is an analogy, not a
+  diagnosis of a gurgle.
+- **Quiz keys unchanged for lesson 4** (3,2,0,1,3,2).
