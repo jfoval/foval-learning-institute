@@ -210,3 +210,18 @@ The key records above are history. As committed: 01 3,0,1,3,2,0; 02 3,1,0,3,2; 0
 - **Nissan's fan:** the course doesn't teach disconnecting the 12 V battery; a top-up whose filler sits
   by the fan, on a car whose handbook says to disconnect first, is Call someone.
 - **Quiz keys:** 09 1,3,2,3,0 (unchanged by the fix).
+
+## 2026-09-26 — Lesson 11 fix pass: notes for later lessons
+
+- **The RAC's EML advice travels as a pair:** "While you can typically drive ..." is never quoted
+  without "Continuing to drive with this light on will likely lead to further damage to the engine and
+  the surrounding systems." No lesson or test calls the RAC the relaxed voice on a steady engine light.
+- **Ford 2024 Maverick p. 164:** the MIL and the powertrain warning lamp lit together means "stop your
+  vehicle as soon as it is safe to do so". Any case worked from Ford's pages includes it. Ford p. 183's
+  warranty lines cover the temperature and battery lamps as well as the engine lamp.
+- **FMVSS 101 sets a symbol or a word ("Oil") for a fitted telltale, not a look**; the colour column is
+  blank for oil, temperature and charge.
+- **EPA420-F-03-042 spells it "re-circulation"** throughout; the one-word form was pdftotext's.
+- **MOT 1.1.10 (f) and (g) are both Minor.**
+- **The glow-plug light that stays on is taught in lesson 11** from DENSO; lesson 2 points there.
+- **Quiz keys:** 11 3,0,3,2,1 (unchanged by the fix).

@@ -5920,6 +5920,10 @@ named. Nothing in either lesson needs G-N1 (no phone number or fee is printed).
 recirculation (EGR) system" [V] (one word) in question 4's list that the lesson quotes; Part A's line
 has "re-circulation", which is the spelling of a different list on the same page ("oxygen sensors,
 exhaust gas re-circulation (EGR) system" [V]). Lesson 11 quotes the first list with its own spelling.
+*Withdrawn 2026-09-26 (Stage 4, lesson 11): this correction was wrong. In question 4's OBD II list the
+word breaks at a line end ("exhaust gas re-" / "circulation (EGR) system"), and pdftotext joined it;
+the fact sheet spells it "re-circulation" everywhere. Part A's spelling stands. See "Stage 4 note,
+lesson 11".*
 
 ### Lesson 11 reads
 
@@ -6058,8 +6062,8 @@ questions 1 to 8 re-read. Quoted: OBD "is additional computer software that moni
 and emission-related components/systems, along with certain engine components" [V]; "the on-board
 computer is able to determine the presence of a malfunction or deterioration that can affect emissions
 and illuminate the "Check Engine" or "Service Engine Soon" light" [V]; "catalyst efficiency, oxygen sensor
-response and heater, exhaust gas recirculation (EGR) system, fuel delivery system, engine misfire,
-evaporative system" [V]; "In some instances, the computer software may identify a problem before there
+response and heater, exhaust gas re-circulation (EGR) system, fuel delivery system, engine misfire,
+evaporative system" [V] (spelling corrected 2026-09-26 at lesson 11's Stage 4); "In some instances, the computer software may identify a problem before there
 is an overt indication to the vehicle operator." [V]; OBD II: "Malfunction indicator lamp (MIL)
 extinguishes after 3 consecutive trips where the problem did not re-occur." [V]; "The OBD requirements
 were implemented beginning with the 1994 model year." [V]; "1996 is commonly identified as the first year
@@ -6089,7 +6093,8 @@ other names." [V]; "The dashboard warning lamp for these systems might take vari
 only fail a vehicle if you're certain that the warning lamp is indicating an ESC malfunction. You might
 need to check the owner's handbook." [V]; "(e) ESC MIL indicates a system malfunction" Major [V]. **Section
 1, new for this course's warning-light reading:** 1.1.10 "(f) Brake fluid warning light illuminated or
-defective" Minor [V]; "(g) Incorrect functioning of brake fluid level warning device" Major [V]; "A brake
+defective" Minor [V]; "(g) Incorrect functioning of brake fluid level warning device" Minor [V] (corrected 2026-09-26 at
+lesson 11's Stage 4: first recorded here as Major; the live section, updated 1 June 2026, says Minor); "A brake
 fluid warning lamp may be shared with other components, for example to indicate that brake pads are worn
 or the parking brake is applied." [V]; 1.6 (ABS) "(a) Warning device not working" Major and "(b) Warning
 device shows system malfunction" Major [V]; 1.4 "(e) Electronic parking brake MIL indicates a
@@ -6426,6 +6431,9 @@ the `unread:` line.
   10" records it): "Never run your car or truck inside a garage that is attached to a house, even with
   the garage door open." [V] and "Always open the door to a detached garage to let in fresh air when you
   run a car or truck inside." [V]
+- **Road Vehicles (Construction and Use) Regulations 1986, reg 30(3)** (legislation.gov.uk, live), re-read:
+  "All glass or other transparent material fitted to a motor vehicle shall be maintained in such condition
+  that it does not obscure the vision of the driver while the vehicle is being driven on a road." [V]
 - **Toyota, 2023 Corolla Owner's Manual (OM02568U), US**, PDF re-read, p. 46 ("Exhaust gas
   precautions"): "Exhaust gases include harmful carbon monoxide (CO), which is colorless and odorless."
   [V] "Do not leave the engine running in an area with snow build-up, or where it is snowing. If
@@ -6474,7 +6482,8 @@ the `unread:` line.
   if your child doesn’t show up for care as expected." [V] "Place a personal item like a purse or
   briefcase in the back seat, as another reminder to look before you lock." [V] "Store car keys and fobs
   out of a child's reach and teach children that a vehicle is not a play area." [V] "Always lock your car
-  when you aren't using it." [V] "Over 230 children have died from vehicular heatstroke since 1998
+  when you aren't using it." [V] "Even if you don't have a child of your own, a child in your neighborhood
+  could get into your unlocked vehicle." [V] "Over 230 children have died from vehicular heatstroke since 1998
   because they gained access to a vehicle and became trapped." [V] "If you see a child alone in a locked
   car, act immediately and call 911. A child in distress due to heat should be removed from the vehicle
   as quickly as possible and rapidly cooled." [V] The page gives no mechanism for how a parked car heats
@@ -6588,3 +6597,198 @@ the `unread:` line.
   go down slightly as the brake pads wear out or when the fluid level in the accumulator is high." [V]
 - **C&U reg 34(1)**, re-read live today: "one or more efficient automatic windscreen wipers" [V]; reg
   34(6) "while a vehicle is being used on a road" [V].
+
+## Gate closures, lesson 13/14 (2026-09-26)
+
+*Read by the lesson 13 and 14 drafter on 26 September 2026 with curl and a generic browser
+User-Agent (no personal data in any header), text extracted with pdftotext (-layout and -raw),
+pandoc, or the GOV.UK content API. Quotations marked [V] were copied from that extracted text; line
+breaks and PDF hyphenation joined. Nothing here clears an entry on the `unread:` line.*
+
+**Gates.** G-N4 not closed: no photograph used in either lesson (fallback; lesson 13 has an SVG
+schematic labelled "schematic"). G-H6 not closed: what each IMI level permits was not read; lesson
+14 writes the fallback. G-R6 not closed: no normalised EV fire dataset; lesson 14 makes no
+comparison. G-H9: UK charging facts from ESF only; the DNO notification duty is left out. G-H2: Tesla
+not used. Nissan UK's online LEAF pages now load their text from JSON and were not re-read; neither
+lesson cites them. ASE's certification page returned no test list to curl; the ASE hybrid test is
+not named.
+
+**Correction to Part B §4 (the AA jump page).** Part B says the AA's booster-pack steps remove the
+leads with the engine running. As re-read today (page "Last updated: 26 June 2024" [V]), booster
+step 7 reads "Turn off the engine." [V] then "Remove the leads in the reverse order to how you placed
+them on (first disconnect the black lead, then the red lead)." [V] So the AA page is consistent with
+itself (engines off before leads come off, in both methods, and its safety list says "Don't remove
+the jump leads while the car engines are running." [V]); what it disagrees with is Ford, Nissan and
+HSE, which have the rescued car running. OUTLINE lesson 13's "the AA's internal inconsistency" is
+not carried into the lesson. Also: Ford's hybrid jump steps run over printed pp. 286 to 287, not
+p. 286 alone.
+
+- **Nissan, 2024 LEAF Owner's Manual (US)**, PDF (URL as Part B), pp. 6-10 to 6-13, EV-8, CH-2,
+  CH-12 and 8-2 re-read in full. Part B's quotations stand. New: "The booster battery must be rated
+  at 12 volt." [V]; "Whenever working on or near a 12-volt battery, always wear suitable eye
+  protectors (for example, goggles or industrial safety spectacles) and remove rings, metal bands, or
+  any other jewelry." [V]; "Do not attempt to perform a jump start on the 12-volt battery at the same
+  time that the Li-ion battery is being charged." [V] (p. 6-10); "However, a gasoline engine vehicle
+  can be used to jump start LEAF's 12-volt battery." [V]; "Do not allow the two vehicles to touch."
+  [V]; "Connect jumper cables in the sequence as illustrated" [V] (p. 6-11); "carefully disconnect
+  the negative cable and then the positive cable" [V], the sequence given as 4 to 1, with the LEAF in
+  READY and the booster's engine started at step 8 (p. 6-12); "An EV cannot be push-started or
+  tow-started. Attempting to do so may cause traction motor damage." [V] (p. 6-13). EV-8: "The system
+  can be hot during and after starting and when the vehicle is shut off." [V]; "Follow the warning
+  labels that are attached to the vehicle." [V]. CH-2: "Do not touch the plug or the Genuine NISSAN
+  Adapter if they are wet or with wet hands." [V]; "Do not touch the vehicle and EVSE when there is
+  lightning." [V]. CH-12, in its list of conditions: "Do not use the EVSE in structures using
+  fuse-based circuit protection." [V]; "Do not use the EVSE on electrical circuits with two-prong
+  outlets." [V]; "Do not use the EVSE if other devices are plugged into the same circuit." [V]. p. 8-2
+  continues after the fan sentence: "To avoid injury, always disconnect the negative 12-volt battery
+  cable before working near the fan." [V] (reported as Nissan's; the course does not teach it).
+- **Ford, 2024 Maverick Owner's Manual**, capture 20250505042038, printed pp. 184 and 283 to 287
+  re-read in full (pdftotext -raw). Part B's quotations stand. p. 184, whole: "Apply the parking
+  brake, shift into park (P), switch the ignition off and remove the key before you open the hood or
+  have any service or repair work completed. If you do not switch the ignition off, the engine could
+  restart at any time." [V]. p. 283: "In the event of damage or fire involving an electric vehicle or
+  hybrid-electric vehicle" [V]; "Move your vehicle to a safe, nearby location and remain on the
+  scene." [V]. p. 284: "Avoid contact with leaking fluids and gases, and remain out of the way of
+  oncoming traffic until emergency responders arrive." [V]; the fire paragraph whole, "As with any
+  vehicle, call emergency assistance immediately if you see sparks, smoke or flames coming from the
+  vehicle. Remain a safe distance from the vehicle and try to stay clear of the smoke." [V]. p. 285: "Park the booster vehicle close to the hood of the
+  disabled vehicle, making sure the two vehicles do not touch." [V]; "Use only a 12 volt supply to
+  start your vehicle." [V]; "Do not connect the negative jumper cable to any other part of your
+  vehicle. Use the ground point." [V]; "If you are using a jump pack or booster box, follow the
+  manufacturer's instructions." [V]; "Make sure that the cables are clear of any moving parts and fuel
+  delivery system parts." [V]. p. 286, starting: "Start the engine of the booster vehicle and
+  moderately rev the engine" [V].
+- **Toyota, 2023 Corolla Owner's Manual (US), OM02568U**, PDF (URL as Part E), pp. 383 to 386 re-read
+  (pdftotext -layout). p. 383: "You can also call your Toyota dealer or a qualified repair shop." [V].
+  p. 384: "If you have a set of jumper (or booster) cables and a second vehicle with a 12-volt battery,
+  you can jump start your vehicle by following the steps below." [V]; the four connection points, in
+  order: "Positive (+) battery terminal (your vehicle)" [V], "Positive (+) battery terminal (second
+  vehicle)" [V], "Negative (-) battery terminal (second vehicle)" [V], "Metallic point shown in the
+  illustration" [V]. p. 385: "Start the engine of the second vehicle. Increase the engine speed
+  slightly and maintain at that level for approximately 5 minutes to recharge the battery of your
+  vehicle." [V]; "Once the vehicle's engine has started, remove the jumper cables in the exact reverse
+  order from which they were connected." [V]; "Once the engine starts, have the vehicle inspected at
+  your Toyota dealer as soon as possible." [V]; "The engine cannot be started by push-starting." [V].
+  p. 386: "Do not allow the other end of the jumper cable connected to the "+" terminal to come into
+  contact with any other parts or metal surfaces in the area, such as brackets or unpainted metal."
+  [V]; "When working with the battery, always wear safety glasses" [V].
+- **HSE, INDG139(rev1)** (URL as Part B), paras 20 and 24 to 31 re-read (pdftotext -raw). Part B's
+  quotations stand. Para 20, whole first two sentences: "Many explosions happen when batteries are
+  being connected or disconnected. The sparks produced when this is done incorrectly may cause the
+  battery to explode, especially if it has just been charged." [V] (para 20's own procedure is a
+  workshop disconnection routine, not taught). Para 25: "Usually the negative terminal of the battery
+  is connected to the chassis." [V]. Para 28, the black-lead bullet whole: "Use the black jump lead to
+  connect the earthed terminal (the terminal connected to the vehicle chassis) of the good battery to
+  a suitable unpainted metal part of the chassis or engine of the dead vehicle. The point of
+  attachment should be at least 15 cm from the battery and away from fuel and brake lines." [V]. Para
+  31: "Stop the engine of the good vehicle and turn off the ignition. Leave the engine of the other
+  vehicle running" [V], the sentence continuing after the leaflet's spaced dash, "the battery is
+  still flat, so you will need to drive several miles before it has enough energy to restart the
+  engine." [V]; "Do not allow the exposed metal parts of the leads to touch each other or other metal
+  parts of the vehicles until both leads have been disconnected." [V].
+- **The AA, "How to jump start a car in 9 steps"** (URL as Part B), re-read in full. Part B's
+  quotations stand. New: "Don't let any metal objects touch the car batteries - these could cause a
+  spark and possibly make the battery explode." [V] (hyphen as in source); "Don't use jump leads that
+  are damaged" [V]; "Their car must have a fully charged battery with the same voltage as yours
+  (usually 12 volts)." [V]; "Leave both cars to idle, at a fast pace, for around 10 minutes" [V];
+  "Turn off both cars' engines and carefully disconnect the leads in the reverse order to the way they
+  were connected (remove the black lead from your car first and finish with the red lead from the
+  other car)" [V]; "If your car won't start there's probably a more serious problem requiring
+  professional help" [V]; "Yes, it's possible to jump start a car in the rain, though it's not ideal."
+  [V]. The page also says a jump start "can carry potential risks, like shocking the user" [V], which
+  sits against HSE's "little risk of electric shock"; not used.
+- **The Highway Code, "Breakdowns and incidents"** (content API, `public_updated_at` 2021-09-14).
+  Rules 276 and 277 re-read in full; Part E's quotations stand, including "DO NOT attempt repairs on
+  your vehicle" [V] under Rule 277's "you should".
+- **The Highway Code, "General rules, techniques and advice for all drivers and riders (103 to
+  158)"** (content API, `public_updated_at` 2023-09-17). Rule 121, whole: "Brakes affected by water.
+  If you have driven through deep water your brakes may be less effective. Test them at the first
+  safe opportunity by pushing gently on the brake pedal to make sure that they work. If they are not
+  fully effective, gently apply light pressure while driving slowly. This will help to dry them
+  out." [V] Advice, no MUST.
+- **The Highway Code, Annex 6** (content API, `public_updated_at` 2022-01-29). The fire paragraph
+  re-read; it stands.
+- **NHTSA, "Electric and Hybrid Vehicles"**, capture 20260924154857 re-read (no newer capture exists;
+  the live page is 403 to curl). Part B's quotations stand. New: "If your EV has been exposed to flood
+  conditions and you suspect your battery is damaged, contact your dealer and/or emergency services."
+  [V]; in the flood FAQ, "If you suspect your battery is damaged, contact your dealer and/or emergency
+  services." [V]; "Exposed electrical components, wires, and high-voltage batteries may cause
+  high-voltage shock hazards." [V]; "Physical damage to the vehicle or high-voltage battery may result
+  in immediate or delayed release of toxic and/or flammable gases and fire." [V].
+- **NFPA, "Electric Vehicles: Safe Charging at Home"**, capture 20240718031252 re-read (the live URL
+  returned "Runtime Error" today). Part B's quotations stand. New: "Cover charging station outlet to
+  keep water out." [V]; "Check chargers and cords for damage before using." [V]; "Only use outdoor
+  rated charging stations outdoors." [V].
+- **Electrical Safety First, "Electric vehicles"** (URL as Part B), re-read in full. Part B's
+  quotations stand, the AVOID list included. New: "Charge your EV at home with a dedicated EVCP." [V].
+- **Electrical Safety First, "Driven to danger"** (May 2019, URL as Part B), re-read in full. Part B's
+  quotations stand. The survey note: "All consumer research, unless otherwise stated, was undertaken
+  from 01 to 16 January 2019 by Censuswide with a sample of 1,500 adults who own a plug-in vehicle
+  (whether hybrid or all-electric) across the United Kingdom." [V]. The body text rounds the 73.7% to
+  "74%" [V].
+- **Derbyshire Fire and Rescue Service, "Electric Vehicle Safety Advice"** (URL as Part B), re-read in
+  full. Part B's quotations stand. New: "If you are charging from a 13A mains socket in your home,
+  ensure the wiring in your property has been checked prior to doing so." [V]. Its opening sentence
+  calls EV fires "rare and less likely compared to internal combustion engine (ICE) vehicles" [V] on
+  the London 2019 counts; not normalised, not used (decision 8, G-R6).
+- **GOV.UK, "Electric vehicle chargepoint grants"** (content API, `public_updated_at` 2026-04-01),
+  re-read in full. Part B's quotations stand.
+- **DVSA, MOT inspection manual, Introduction** (content API, manual updated 1 June 2026), section 20
+  re-read in full: "The high voltage components on these vehicles are often inaccessible. However,
+  where they are accessible, they are well insulated and do not present a high risk." [V]; "It is
+  considered best practice when testing these vehicles to avoid touching any high voltage components
+  and wiring." [V]; the colour, 48 V and restart sentences stand as recorded for lesson 01.
+- **AFDC, "Maintenance and Safety of Electric Vehicles"**, re-read in full. Part A's quotations stand.
+  New: "light-duty vehicles are required to have safety features that can deactivate or isolate the
+  electrical system when they detect a collision or short circuit." [V]
+- **ASE Education Foundation, 2024 Automobile Program Standards** (URL as Part A), the supplemental
+  safety task and glossary re-read: "Demonstrate knowledge of hazards related to high voltage
+  systems/electric vehicles, including electrocution, fire, explosion, arc flash, gases and fumes,
+  hazardous chemicals, and EMF, and how to properly respond to emergency situations." [V]; "HIGH
+  VOLTAGE – Automotive system voltages greater than 30 VAC or 60 VDC." [V] (the glossary's dash).
+- **IMI, "IMI TechSafe"** and the May 2026 news release (URLs as Part B), re-read in full. Part B's
+  quotations stand, including "calling on government to mandate its use" [V] and "just over a third
+  of technicians have some level of qualification to work on electric vehicles" [V].
+
+**Places used:** lesson 13, Portree and Grand Rapids; lesson 14, Haverfordwest and Sarasota. Each
+checked with `grep -rlw` outside car-basics/research on 26 September 2026 and unused.
+
+## Stage 4 note, lesson 11 (2026-09-26)
+
+Fixer, after one fresh-context Tier A review. Reads made by the fixer with curl (generic browser
+User-Agent, no personal data in any header):
+
+- **RAC, "Reasons your amber or orange engine management light (EML) is on"** (URL as Part B §3),
+  re-read live. The steady-light advice and the sentence after it, now quoted together in lesson 11:
+  "While you can typically drive whilst your engine light is on, we'd strongly recommend getting a
+  mechanic to look at your car as soon as possible." [V] "Continuing to drive with this light on will
+  likely lead to further damage to the engine and the surrounding systems." [V] The second sentence
+  must not be dropped from the first again.
+- **RAC, "Dashboard warning lights guide"** (URL as Part B §3), re-read live; the table's red row
+  "Stop driving as soon as it is safe to do so and call for recovery." [V] stands.
+- **DENSO Europe, "Why might the glow plug warning light come on?"** (URL as Part A §1), re-read live.
+  The page now shows a date, 10 November 2023 (lesson 2's footnote says "No date shown"; a later
+  pass may update it). "it should not be ignored if it remains on while the engine is running." [V];
+  new: "Generally, the most likely reasons for the warning light are an underlying issue with
+  one/all of the glow plugs or the sensors that control them, but it could also indicate a problem
+  with the engine itself." [V] Its "10 to 15 seconds" rule stays unused (Part A §1).
+- **EPA, EPA420-F-03-042** (URL as Part A §5), re-read live, pdftotext -raw. Question 4's OBD II list
+  breaks the word at a line end ("exhaust gas re-" / "circulation (EGR) system"); the OBD I list,
+  question 5, question 11 and the Attachment all spell it "re-circulation". The gate-closure
+  "correction" to Part A is withdrawn in place. Question 7: "Since most manufacturers requested and
+  received OBD waivers during the 1994 and 1995 model years, 1996 is commonly identified as the first
+  year of full implementation once waivers were no longer available." [V]
+- **DVSA, MOT inspection manual, section 1 "Brakes"** (content API, `public_updated_at`
+  2026-06-01), re-read live: 1.1.10 "(f) Brake fluid warning light illuminated or defective" Minor
+  [V]; "(g) Incorrect functioning of brake fluid level warning device" **Minor** [V]. The lesson 11/12
+  gate closure recorded (g) as Major; corrected there in place. Lesson 11 does not use (g).
+- **Ford, 2024 Maverick Owner's Manual, p. 164** (capture 20250505042038): **not re-read by the
+  fixer.** The Internet Archive was unreachable from the fixer's sandbox. Lesson 11 now quotes p. 164's
+  "stop your vehicle as soon as it is safe to do so" (the MIL and the powertrain warning lamp lit
+  together) and describes p. 183's lamps as temperature, battery and engine on the reviewer's reading
+  of the same capture that day, marked [V] in the review. The second pass re-reads pp. 164 and 183.
+- **New York DMV** threshold: the lesson now gives it as a rating, "gross vehicle weight rating
+  (GVWR) less than 8,501 pounds" (as recorded in the lesson 11/12 gate closures), with 3,856 kg added
+  (8,501 × 0.45359237 = 3,856.0).
+- **GAO-15-705** is cited in lesson 11 for the 2015 count only, as recorded in "Stage 4 note, lesson
+  01"; "fewer since" rests on Texas (Part D).

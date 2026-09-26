@@ -23,12 +23,12 @@ quiz:
     options:
       - The UN approval rule makes it red on every car sold in the US, pickups included
       - ISO 2575 is binding in US law, so red is required for every warning light
-      - FMVSS 101 requires red for the oil, temperature and charge lights on all cars
-      - FMVSS 101 sets the oil symbol but leaves its colour to the maker, who chose red
+      - FMVSS 101 requires red for the oil, temperature and charge lights on pickups
+      - FMVSS 101 sets how the oil light is marked but leaves its colour to the maker
     answer: 3
     explain: >-
-      FMVSS 101's table gives a symbol for engine oil pressure, coolant temperature and electrical
-      charge, and leaves the colour column blank for all three, so the colour is the maker's choice.
+      FMVSS 101's table gives a symbol or a word for engine oil pressure, coolant temperature and
+      electrical charge, and leaves the colour column blank for all three, so the colour is the maker's choice.
       It's UN Regulation 121 that fixes those three as red, and that's the international approval
       rule, not US federal law. ISO 2575 is a voluntary standard; it binds only where a regulation
       adopts it.
@@ -49,7 +49,7 @@ quiz:
       handbooks read say to check cold. Cooling the cap with water still leaves hot, pressurised
       coolant behind it.
   - q: >-
-      On a dual carriageway, the amber engine light on a US-market Ford starts flashing and the engine
+      On a divided highway, the amber engine light on a US-market Ford starts flashing and the engine
       judders. On Ford's handbook, what fits best?
     options:
       - Accelerate hard for a minute or two, since that often burns off whatever caused it
@@ -100,18 +100,19 @@ A light comes on while you're driving. You have a few seconds to decide what it 
 do, usually in traffic, often in the dark. Most people know that red is bad and amber is less bad,
 and that is a fair start. But the colours are not law everywhere, the same symbol can change colour
 as a fault gets worse, and a light that flashes can mean something more urgent than the same light
-glowing steadily. Your car's handbook has a page that settles all of it for your car, and by the
-end of this lesson you'll have copied it onto a card you keep in the car.
+glowing steadily. Your car's handbook has a page that settles all of it for your car, and this
+lesson ends with you copying it onto a card you keep in the car.
 
 :::callout Before the car lets you down
 This course is education, not mechanical training, and not legal advice about your own car. If your car fails on a motorway or other fast road in Great Britain, leave at the next exit or services if you can; if you can't, go left into an emergency area or onto the hard shoulder, switch on your hazard lights, get everyone out on the side away from traffic and behind the barrier if there is one, and don't go back to the car. If you're stuck in a live lane or can't get out safely, stay in with seat belts and hazard lights on and call 999 and ask for the police. In the US, pull as far onto the right shoulder as you can, switch on your hazard lights and stay in with your seat belt on, unless the shoulder is too narrow or there's a guardrail to wait behind, in which case get out on the side away from traffic; call 911 in an emergency. Never put any part of your body under a car held up only by a jack, and never touch the orange high-voltage cables on a hybrid or electric car. The law on a car's condition differs between Great Britain, Northern Ireland and each US state, and it changes.
 :::
 
-Several lights below end with "stop". Where you stop is the callout's business, and lessons 16 and
-17 teach it in full. Nothing in this lesson asks you to open anything hot or look under the car.
+Several lights below end with "stop". Where you stop is the callout's business, and lesson 16, "When the car stops: where,
+who stands where, and the call", and lesson 17, "Motorways and fast roads: go left, the live lane,
+and the smart motorway question", teach it in full. Nothing in this lesson asks you to open anything hot or look under the car.
 
-Two sections below state law: the rules on what colour a light must be, and what the MOT and New
-York's inspection do with lit lamps. Each carries this label in short; here it is in full. This is
+Three sections below state law: the rules on what colour a light must be, the US brake standard's
+start-up check, and what the MOT and New York's inspection do with lit lamps. Each carries this label in short; here it is in full. This is
 general information, not legal advice. The rules differ between England and Wales, Scotland,
 Northern Ireland and each US state, and they change.
 
@@ -137,13 +138,14 @@ which is the word that separates red from amber. Amber's list is about the longe
 working, damage "likely", a hazard that builds.
 
 The clause that surprises people is 5.5: "A given symbol may be shown in more than one of the
-colours specified in 5.1 in order to convey a change in the operating condition."[1] So the same
-picture can glow amber when something is starting to go wrong and red when it has got worse. You
+colours specified in 5.1 in order to convey a change in the operating condition."[1] So, on this course's
+reading, the same picture can glow amber when something is starting to go wrong and red when it has
+got worse. You
 cannot learn a light by its symbol alone. You learn it by its symbol and its colour, from your
 handbook.
 
 :::predict ISO 2575 is a voluntary standard. Before reading on: do you expect a red oil pressure light to be red by law in both the UK and the US?
-Not in the US. The next section shows that the international approval rule fixes the oil pressure light as red, while the US federal standard gives the oil symbol and leaves its colour to the carmaker. Most people assume the colours are law everywhere because they look the same everywhere they've been.
+Not in the US. The next section shows that the international approval rule fixes the oil pressure light as red, while the US federal standard gives a symbol or a word for the oil light and leaves its colour to the carmaker. Most people assume the colours are law everywhere because they look the same everywhere they've been.
 :::
 
 ## Where the colours are law, and where they aren't
@@ -162,20 +164,22 @@ colour shown in column 5 of this table." In that table the engine oil pressure, 
 temperature and electrical charging tell-tales are all red, and the engine malfunction light (the
 check-engine light) and the anti-lock brake light are yellow. A footnote on several symbols lets
 them "be shown in other colours than specified in column 5 in order to convey different meanings",
-following ISO 2575's colour code, which is clause 5.5's amber-then-red idea written into law.[2]
+following the colour code in paragraph 5 of the 2004 edition of ISO 2575, which this course did not
+read; the 2021 edition's clause 5.5, above, says the same kind of thing.[2]
 
 **[FMVSS 101](https://www.ecfr.gov/current/title-49/subtitle-B/chapter-V/part-571/subpart-B/section-571.101)** is the US federal standard on controls and displays. Its S5.4.1 says: "The light of
 each telltale listed in Table 1 must be of the color specified for that telltale in column 6 of that
 table."[3] Column 6 fixes brake system malfunction as red, and the anti-lock, stability control and
 low tyre (tire) pressure lights as yellow. For engine oil pressure, engine coolant temperature and
-electrical charge, the table gives a symbol and leaves the colour column blank.[3] US federal law
-tells a maker what the oil light must look like, not what colour it must be.
+electrical charge, the table gives a symbol and leaves the colour column blank.[3] US federal law,
+where a car has an oil light, says how it may be marked (the symbol, or the word "Oil"), not what
+colour it must be.
 
 | Light | UN Regulation 121 (2014 copy read) | FMVSS 101 (US federal) |
 |---|---|---|
-| Engine oil pressure | Red | Symbol set; colour not set |
-| Engine coolant temperature | Red | Symbol set; colour not set |
-| Electrical charging | Red | Symbol set; colour not set |
+| Engine oil pressure | Red | Symbol or word set; colour not set |
+| Engine coolant temperature | Red | Symbol or word set; colour not set |
+| Electrical charging | Red | Symbol or word set; colour not set |
 | Brake system malfunction | Colour set by the braking regulations, which this course didn't read | Red |
 | Anti-lock brakes (ABS) | Yellow | Yellow |
 | Brake lining wear-out | Yellow | Red |
@@ -187,17 +191,19 @@ red-orange."[3]
 Look at the brake lining row. The warning that a car's brake pads are worn is yellow in UN Regulation
 121 and red in FMVSS 101 (for cars covered by the US brake standard).[2][3] Same condition, two
 colours, both lawful where they apply. That is the plainest proof in this lesson that you can't carry
-one country's colours into another country's car.
+one rulebook's colours into a car built to another's.
 
 The US brake standard, FMVSS 135, adds a detail worth knowing. It lets a maker show several brake
 conditions (low fluid, the parking brake on, and others) on one common light, which must say
 "Brake". But where a maker gives the anti-lock system its own light, "the letters and background
 shall be of contrasting colors, one of which is yellow".[4] So a separate ABS light is yellow by
-law in the US. Nissan's 2024 LEAF shows how that looks on a real car: a red BRAKE light and a
+law in the US, and S5.5.5(d)(6) says the same of a separate regenerative-braking light.[4] Nissan's 2024 LEAF shows how that looks on a real car: a red BRAKE light and a
 separate yellow brake system light for the regenerative and electric brakes, with different
 instructions for each.[7]
 
 ## Lights at start-up
+
+This is general information, not legal advice.
 
 Switch on the ignition and most of the dashboard lights up at once. The Highway Code's Annex 6, whose
 advice applies in Great Britain, explains why and what to watch for: "When you turn the ignition key,
@@ -220,8 +226,8 @@ warn you. A light that comes on and stays on is the one Annex 6 tells you to inv
 
 ## The stop-now group
 
-Four lights are treated as stop-now by the handbooks and the motoring organisation read here: oil
-pressure, coolant temperature, brake, and, in an electric car, the 12 V charge light. What each source
+Four lights are treated as stop-now by at least one of the sources read here, a handbook or the RAC:
+oil pressure, coolant temperature, brake, and, in an electric car, the 12 V charge light. What each source
 says to do is below, with whose words they are and for which car. The RAC is a motoring organisation
 that sells breakdown cover and repairs; it is not an official body.
 
@@ -248,7 +254,7 @@ Stopping is the driver's call and it's **Yours**: pull over where it is safe, an
 happens next splits.
 
 The oil. Checking the level once the engine is off, on level ground, by the handbook's method, is
-yours; topping up is **Yours, on conditions** (the handbook's grade, level ground, engine off). The
+**Yours**; topping up is **Yours, on conditions** (the handbook's grade, level ground, engine off). The
 cause, whether a leak, a pump or something else, is **Call someone**. The RAC says so too: if the
 level is fine, "the oil pump may be faulty", and it advises calling for recovery if you have
 breakdown cover, "as driving any further could damage the engine."[8]
@@ -271,8 +277,10 @@ belong together. The first is the general one quoted above: a light that comes o
 driving means "stop and investigate the problem, as you could have a serious fault". The next
 paragraph says: "If the charge warning light comes on while you are driving, it may mean that the
 battery isn't charging. This should also be checked as soon as possible to avoid loss of power to
-lights and other electrical systems."[5] Ford says "Have your vehicle checked as soon as possible";
-the RAC says "You should not drive if the battery warning light is on."[6][8] The handbook for your
+lights and other electrical systems."[5] Ford says "Have your vehicle checked as soon as possible",
+and on its catalytic converter page, for the battery lamp among others, that continuing to drive "may
+cause reduced power or the engine to stop"; the RAC says "You should not drive if the battery warning
+light is on."[6][8] The handbook for your
 car decides.
 
 :::checkpoint A driver's red temperature light comes on. She stops safely and switches off. After a while the light goes out, she can see no leak, and the level is low. What does the RAC's page say she could do, and what does it say instead, and which label covers each step?
@@ -293,9 +301,9 @@ control and emission-related components/systems, along with certain engine compo
 "the on-board computer is able to determine the presence of a malfunction or deterioration that can
 affect emissions and illuminate the "Check Engine" or "Service Engine Soon" light".[10] What the
 second-generation system watches includes "catalyst efficiency, oxygen sensor response and heater,
-exhaust gas recirculation (EGR) system, fuel delivery system, engine misfire, evaporative
+exhaust gas re-circulation (EGR) system, fuel delivery system, engine misfire, evaporative
 system".[10] The requirements "were implemented beginning with the 1994 model year", and because
-makers got waivers for two years, "1996 is commonly identified as the first year of full
+most makers got waivers for 1994 and 1995, "1996 is commonly identified as the first year of full
 implementation".[10] This course did not read EPA's regulation itself, nor the European rules on
 when the same system was fitted to cars sold in the UK.
 
@@ -312,20 +320,22 @@ there.
 What does a steady light call for? fueleconomy.gov: "It could be something as minor as a loose gas
 cap, but it could also be a more serious issue that could reduce your fuel economy, increase
 emissions, and/or lead to costly repairs later. So, when the check engine light comes on, have your
-vehicle inspected by a mechanic."[11] The RAC: "While you can typically drive whilst your engine
-light is on, we'd strongly recommend getting a mechanic to look at your car as soon as possible."[9]
-Ford is the bluntest about waiting. On the page where it lists the lamps linked to its emission
-controls, it says: "Continuing to drive your vehicle may cause reduced power or the engine to stop.
+vehicle inspected by a mechanic."[11] The RAC, which sells breakdown cover and repairs: "While you can typically drive whilst your engine
+light is on, we'd strongly recommend getting a mechanic to look at your car as soon as possible." It
+goes on: "Continuing to drive with this light on will likely lead to further damage to the engine and
+the surrounding systems."[9] Ford adds the warranty. On its catalytic converter page, beside the
+temperature, battery and engine lamps, it says: "Continuing to drive your vehicle may cause reduced power or the engine to stop.
 Failure to respond to a warning lamp may cause damage that your vehicle Warranty may not cover. Have
 your vehicle checked as soon as possible."[6]
 
-None of those says "stop now". All of them say "soon". A steady check-engine light is a booking, not
-a lay-by, and finding its cause is **Call someone**. This course does not teach reading fault codes
-with a scanner, for the reasons lesson 1 gave.
+None of those says "stop now". All of them say have it looked at, and Ford and the RAC say as soon as
+possible. A steady check-engine light is a booking, not a lay-by, and finding its cause is **Call
+someone**. This course does not teach reading fault codes with a scanner, for the reasons lesson 1,
+"What a car is made of, and why the handbook comes first", gave.
 
 ## Steady or flashing
 
-Ford's 2024 Maverick handbook gives the one distinction every driver needs, on page 164:
+Ford's 2024 Maverick handbook gives the distinction that matters, on page 164:
 
 - Steady: "If it illuminates when the engine is running, the on-board diagnostics system is detecting
   a malfunction of the vehicle emission control system."
@@ -333,9 +343,9 @@ Ford's 2024 Maverick handbook gives the one distinction every driver needs, on p
   could damage the catalytic converter or other vehicle components. Avoid heavy acceleration and
   deceleration, and have your vehicle checked as soon as possible."[6]
 
-That's the mechanism, and it's Ford's: the misfire raises the exhaust's temperature, and the heat can
-damage the catalytic converter, which the RAC describes as controlling the emissions that come from
-the car.[9] Ford doesn't explain
+That's the mechanism as far as Ford gives it: a misfire could be occurring, and the raised exhaust
+temperatures that come with it could damage the catalytic converter, which the RAC describes as
+controlling the emissions that come from the car.[6][9] Ford doesn't explain
 the misfire itself further, and nor does this course. Page 114 of the
 same handbook says it more shortly: "If it flashes, have your vehicle checked immediately."[6] The
 RAC, for the UK: "If the light is flashing then this suggests a more serious issue and you should get
@@ -344,7 +354,7 @@ have the vehicle inspected by a qualified professional" (the grammar is the RAC'
 You may read online that a flashing light means the car could catch fire. No source this course read
 says so, and so this course does not.
 
-### A climb out of Durango
+### A climb out of the town of Durango
 
 Now a case with a gap for you. A 2024 Ford Maverick with the petrol (gasoline) engine is on a long climb out
 of Durango, towing nothing, with 40 miles (about 64 km) to go to where the driver is staying. The check-engine light
@@ -356,7 +366,7 @@ minute, and what does he do about the 40 miles?
 :::checkpoint Your answer first, then open this.
 The next minute: ease off. Ford says to "Avoid heavy acceleration and deceleration", and a long climb is heavy load, so he lets the speed fall, doesn't floor it to keep pace, and doesn't brake hard either. That part is **Yours**.
 
-The 40 miles: Ford's page 164 says "checked as soon as possible" and page 114 says "checked immediately". Neither says stop at once, and neither says finish the trip first. This course's reading of the two together is to treat it as the more urgent of them: get the car to the nearest place that can check it, gently, rather than driving the whole 40 miles and booking it in next week, and if the car won't go gently, stop somewhere safe and call for help. The cause is **Call someone**. Had it been another maker's car, that maker's handbook would govern instead.
+The 40 miles: Ford's page 164 says "checked as soon as possible" and page 114 says "checked immediately". Neither line about the engine light says stop at once, and neither says finish the trip first. This course's reading of the two together is to treat it as the more urgent of them: get the car to the nearest place that can check it, gently, rather than driving the whole 40 miles and booking it in next week, and if the car won't go gently, stop somewhere safe and call for help. One more line on page 164 matters here: if the powertrain warning lamp comes on as well, Ford says "stop your vehicle as soon as it is safe to do so". The cause is **Call someone**. Had it been another maker's car, that maker's handbook would govern instead.
 :::
 
 ## Amber lights that aren't stop-now
@@ -366,7 +376,10 @@ Most of the amber lights ask for a booking, not a stop. The ones you're likelies
 **ABS.** Ford: "Your vehicle continues to have normal braking without the anti-lock brake system
 function. Have your vehicle checked as soon as possible."[6] Nissan's LEAF handbook says the same in
 its own words: the brakes work normally but without the anti-lock assistance.[7] What you've lost is
-what lesson 6 described, the ABS's help in keeping steering control under hard braking. The RAC adds
+what lesson 6 described, the ABS's help in keeping steering control under hard braking. That is why it's amber. ISO 2575
+names "failure of anti-lock brake system" as an amber case, and on its definitions this is a system
+not working, with the normal brakes still there, not danger "immediate or imminent".[1] A red brake
+light, on this course's reading, can mean the brakes themselves are affected. The RAC adds
 the combination that changes things: if the ABS light "comes on with the brake warning light, it
 could indicate that the brake system is failing and you should stop straight away and call for
 recovery if you have breakdown cover."[8] Amber alone, book it in; amber with red, stop.
@@ -380,15 +393,20 @@ disable anything.
 required to do and why it comes on so late. On a steady light, check the tyres with a gauge; a light
 that flashes and then stays on is a fault in the system itself.
 
-**Stability control (ESC).** The RAC says a flashing light means the system is intervening, for example on a
+**Stability control (ESC).** The RAC (breakdown cover and repairs) says a flashing light means the system is intervening, for example on a
 slippery road, a light that stays on means it isn't working properly, and one with "OFF" means it has
 been switched off.[8] But makers use different symbols and names, and even the MOT manual tells testers they "might need to check the
 owner's handbook" to be sure what theirs means.[12] So should you.
 
 **Diesel particulate filter and AdBlue.** Lesson 3, "Diesel exhaust: the DPF and AdBlue", covers
-both. Briefly: a DPF light usually asks for a longer run on a suitable road, and an AdBlue countdown
-asks for a top-up, which is **Yours, on conditions**: from a sealed container, into the blue-capped
-tank only, as the car's handbook describes. The glow plug light on a diesel is lesson 2's.
+both lights and what each asks of you, including why an AdBlue top-up is **Yours, on conditions**.
+
+**Glow plugs, on a diesel.** Lesson 2, "The engine: petrol, diesel, and the drive to the wheels",
+covers the glow-plug light at starting: wait for it to go out. If it stays on once the engine is
+running, DENSO, the glow-plug maker quoted there, says it "should not be ignored". DENSO puts the
+likeliest causes in the glow plugs or the sensors that control them, and adds that it "could also
+indicate a problem with the engine itself".[14] No handbook this course read gives the step, so copy
+your handbook's onto your card, and the cause is **Call someone**.
 
 ## The RAC's table, and why the handbook still governs
 
@@ -406,14 +424,14 @@ It is a useful rule of thumb and it's where most people start. But read the rest
 the RAC softens its own red row. For the temperature light, as you saw, it gives a route by which you
 "should be fine to continue your journey".[8] For its brake light it says to stop and, "Unless you know
 how to check your brake fluid levels yourself", get to a garage, and to call for recovery if you
-have breakdown cover.[8] And for amber lights, it says of ABS alone that you "should still have
-normal, unassisted braking".[8] The table is a summary; the page's own detail is more careful than
+have breakdown cover.[8] The table is a summary; the page's own detail is more careful than
 the table.
 
 Two other things are worth saying, neither as a criticism. The RAC sells breakdown cover and
 mobile mechanics, and its page says so beside the table; "call for recovery" is a service it offers.
 And its table is for every car, while the handbooks are for one. For the charge light, the RAC says
-don't drive while Ford's handbook for its pickup says have it checked as soon as possible, and
+don't drive, while Ford's handbook for its pickup says have it checked as soon as possible and warns
+the engine may stop, and
 lesson 5 set a third maker's handbook beside them that says stop.[6][8] When
 the general rule and your handbook disagree, the handbook is written by the people who know that car,
 and every source this course read sends you to it.
@@ -441,14 +459,15 @@ was last updated on 1 June 2026, lists these as defects:[12]
 
 A Major defect fails the test; a car with only Minor defects passes, with them recorded. The manual
 says so in its introduction. Notice the last line: a lit brake fluid light is Minor on the test,
-while the handbooks read say to stop the car. Both can be true, because they answer different
+while Nissan's handbook says to stop the car immediately, and lesson 6 showed all three handbooks it
+read calling driving on dangerous. Both can be true, because they answer different
 questions. The manual sorts what a tester sees on one day into pass and fail; the handbook tells a
 driver what to do on the road. Law first, advice second, and the label follows the advice: a lit red
 brake light while driving is **Call someone**, whatever the test would say.
 
 **In New York**, the Department of Motor Vehicles' [inspection page](https://dmv.ny.gov/new-york-state-vehicle-safetyemissions-inspection-program) (read from an Internet Archive
-capture of June 2026) says most petrol vehicles from 1996 and diesels from 1997 under 8,501 pounds
-gross weight take an on-board diagnostics emissions inspection, and "This test examines the
+capture of June 2026) says most petrol vehicles from 1996 and diesels from 1997 with a gross vehicle weight
+rating under 8,501 pounds (about 3,856 kg) take an on-board diagnostics emissions inspection, and "This test examines the
 Malfunction Indicator Lamp (MIL), also known as the "check engine" light, for operation/illumination,
 and verifies the test results of the vehicle's "on-board emissions diagnostic" system." It advises:
 "If the vehicle's Malfunction Indicator Lamp (MIL, or "check engine" light) indicates there may be a
@@ -463,8 +482,10 @@ is an advisement only and not cause for rejection."[13]
 | Airbag lamp | Lit for a fault is Major | Checked; advisement only |
 | Whose rule | DVSA's manual for testers | The state DMV |
 
-Neither is right and the other wrong. They are two places' rules, and most US states have neither;
-lesson 22, "The US: state inspections, emissions tests and tread law", covers the rest.
+Neither is right and the other wrong. They are two places' rules. US states differ: GAO, the US Congress's audit
+office, counted 16 with periodic safety inspection in 2015, fewer since, and emissions testing depends
+on where a car is registered.[15] Lesson 22, "The US: state inspections, emissions tests and tread
+law", covers the rest.
 
 ## What people get wrong
 
@@ -476,7 +497,7 @@ under the other.[2][3] Your handbook shows your car's colours.
 on. The one to worry about is a light that stays on, or one that never comes on at all.[5][7]
 
 **"A steady check-engine light can wait until the next service."** Every source read says to have it
-looked at soon, and Ford's handbook says that ignoring it can cost power, stop the engine, and cause
+looked at, the RAC warns that driving on will likely do further damage, and Ford's handbook says that ignoring it can cost power, stop the engine, and cause
 damage its warranty "may not cover".[6][9][11]
 
 **"Every red light means call recovery."** It's a reasonable default, and it's the RAC's table. But
@@ -489,11 +510,11 @@ Take 15 minutes over this. Use your own car, or one whose keeper agrees, and its
 
 1. **The stop-now group.** In the handbook's warning-light pages (write the page numbers), find oil pressure, coolant temperature, brake and charge (for an electric car, its 12 V charge light). For each, sketch the symbol, write its colour, and copy what the handbook says to do, in its words. If your car has no such light (an electric car has no oil pressure light), write "none".
 
-2. **The rest.** Do the same for the check-engine light, steady and flashing ("not stated" if the handbook doesn't say), and for ABS, the airbag light and the tyre pressure light.
+2. **The rest.** Do the same for the check-engine light, steady and flashing ("not stated" if the handbook doesn't say), for ABS, the airbag light and the tyre pressure light, and (for a diesel) the glow-plug light.
 
 3. **The start-up check.** Sitting in the driver's seat, with the car still parked, switch the ignition on without starting the engine, as the handbook describes (for a hybrid or electric car, the handbook's own "on" state short of ready to drive). Watch which lights come on and go out, then switch off. If a light the handbook says should come on doesn't, note it for a garage.
 
-4. **Label each one.** Beside each light, write the course's label for what the handbook tells you to do: Yours, Yours on conditions, or Call someone.
+4. **Label each one.** Beside each light, write the course's label for what the handbook tells you to do: **Yours**, **Yours, on conditions**, or **Call someone**.
 :::
 
 Now a sort. Eight lights, as a driver might describe them:
@@ -511,7 +532,7 @@ Now a sort. Eight lights, as a driver might describe them:
 :::checkpoint Sort the eight: stop now, book it in soon, or nothing to do. Then check against this.
 Stop now (then **Call someone** for the cause): 1, 2, 4 and 7. The oil and temperature lights are the RAC's stop-now pair and Ford's temperature line; ABS with the red brake light is the RAC's "stop straight away"; the LEAF's charge light in ready is Nissan's "Immediately stop".
 
-Book it in soon (**Call someone**, without stopping on the spot): 3 and 5. ABS alone leaves normal braking, and a steady check-engine light is a "soon" in every source read.
+Book it in soon (**Call someone**, without stopping on the spot): 3 and 5. ABS alone leaves normal braking, and every source read says to have a steady check-engine light looked at.
 
 Six is between the two: ease off at once (**Yours**) and get it checked immediately, on Ford's two pages. If you put it under "stop now", your instinct was right about the urgency; if you put it under "book it in", look again at Ford's "checked immediately".
 
@@ -602,3 +623,13 @@ Ireland's vehicle test", covers the whole MOT, and lesson 22 the US emissions te
     read from Internet Archive capture 20260610152208 (the state's site refuses automated readers, and
     the later capture 20260710141515 that Stage 1 read would not load on 26 September 2026). New York.
     **Read: the page in full, 26 September 2026.** The live page is linked. <!-- SOURCES Part D §1; lesson 11/12 gate closures -->
+14. DENSO Europe, ["Why might the glow plug warning light come on?"](https://www.denso-am.eu/news/why-might-the-glow-plug-warning-light-come-on),
+    dated 10 November 2023. A glow-plug maker writing about its own product; not official. **Read:
+    full article text, re-read 26 September 2026.** Its "10 to 15 seconds" rule of thumb is not used
+    here. <!-- SOURCES Part A §1; Stage 4 note, lesson 11 -->
+15. US Government Accountability Office, [*Vehicle Safety Inspections: Improved DOT Communication
+    Could Better Inform State Programs*, GAO-15-705](https://www.gao.gov/products/gao-15-705), August
+    2015. **Read: full text**, from the PDF copy on the Vermont legislature's website; the count of
+    states re-read 26 September 2026 (SOURCES, Stage 4 note, lesson 01). That fewer states inspect
+    now rests on Texas, which ended safety inspection for non-commercial vehicles from 1 January 2025.
+    <!-- SOURCES Part D §1; Stage 4 note, lesson 01 -->

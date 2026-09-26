@@ -636,7 +636,7 @@ lesson's exercise opened becomes a conversation with a garage.
 5. fueleconomy.gov, ["Diesel Vehicles"](https://www.fueleconomy.gov/feg/di_diesels.shtml).
    **Read: full body text; re-read 26 September 2026.** No page date. <!-- SOURCES Part A §1; lesson 02 gate closure -->
 6. DENSO Europe, ["Why might the glow plug warning light come on?"](https://www.denso-am.eu/news/why-might-the-glow-plug-warning-light-come-on).
-   **Read: full article text; re-read 26 September 2026.** No date shown. A glow-plug maker writing
+   **Read: full article text; re-read 26 September 2026.** Dated 10 November 2023 on the page (date recorded at lesson 11's Stage 4). A glow-plug maker writing
    about its own product; its "10 to 15 seconds" rule of thumb and its line on glow plugs and the
    diesel particulate filter are not used here. <!-- SOURCES Part A §1; lesson 02 gate closure -->
 7. The Highway Code (GOV.UK), ["Annex 6. Vehicle maintenance, safety and security"](https://www.gov.uk/guidance/the-highway-code/annex-6-vehicle-maintenance-safety-and-security).
