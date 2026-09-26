@@ -483,8 +483,8 @@ safety planning for that, and for stalking. Lessons 4 to 6 are about lowering th
 the street and when travelling. Lessons 8 and 9, "Talking
 it down" and "Stepping in for someone else", are about calming a situation and helping someone else
 in one. Lessons 10 to 12 are about what fear does to you in the moment and the decision to hand
-something over or resist. Then come two lessons on the law, "The law on using force" and "The home,
-property, and carrying something for protection", and "Afterwards" ends the course.
+something over or resist. Then come three lessons on the law, "The law on using force", "The home and
+property" and "Carrying something for protection", and "Afterwards" ends the course.
 
 ### Four labels
 

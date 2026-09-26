@@ -53,7 +53,7 @@ in your reply which gates you closed and which fallbacks you wrote.
 - File: `courses/practical-life-and-self-reliance/personal-safety/lessons/NN-slug.md` (slug from the
   outline title, short, lowercase, hyphens).
 - **The safety callout** from OUTLINE decision 4, byte for byte, directly after the opening
-  paragraph(s). Copy it from OUTLINE (or from lesson 1 once it exists). Lessons 14 and 15 also carry
+  paragraph(s). Copy it from OUTLINE (or from lesson 1 once it exists). Lessons 15 and 16 also carry
   the crisis callout from decision 4, byte for byte, at the point of use.
 - **Content notes before, never after** (decision 7), in the standard form, for sexual violence,
   domestic abuse and homicide figures, with the lines gate G8 settled and a "skip to" heading. **Lesson
@@ -166,10 +166,13 @@ unsure of, and any place where the lesson wanted something SOURCES did not have 
 instead).
 
 ## Course conventions settled so far
-- Fifteen lessons, numbered as in OUTLINE "How many lessons, and why", with named seams in lessons 13
-  and 14. Cross-references use those numbers and titles.
+- Sixteen lessons, numbered as in OUTLINE "How many lessons, and why", with named seams in lessons 13
+  and 14 (lesson 14's fired; see below). Cross-references use those numbers and titles.
 - The advice labels (tested; sensible, untested; contested; practitioner opinion) are introduced in
   lesson 1 and used in the prose of every later lesson without re-teaching.
+- **Renumbered 2026-09-25:** lesson 14's seam fired, so the course is sixteen lessons: 14 "The home
+  and property", 15 "Carrying something for protection" (the crisis callout), 16 "Afterwards" (the
+  crisis callout). Every pointer in lessons 1 to 13 and the OUTLINE now uses these numbers.
 - Record new conventions here as lessons land.
 
 ---
@@ -277,11 +280,11 @@ SOURCES** (OUTLINE decisions 2, 3, 9 and 15).
    the whole lesson; loaded language (decision 8's terms); omitted facts. **Read the lesson three more
    ways and report each:** as someone it describes who was harmed (does any sentence imply they should
    have done otherwise, or that their fear or their freeze was a failing? decision 7); as a man at risk
-   (is he present, and served by the lines?); and, for lessons 13 and 14, as a gun-rights reader and as a
+   (is he present, and served by the lines?); and, for lessons 13 to 15, as a gun-rights reader and as a
    gun-control reader (decision 15). Name the perspectives you checked against.
 3. **Safety**: the safety callout present and byte-identical (run `npm run validate` and look for this
    file; compare with OUTLINE decision 4 by eye too, until the build check exists), and the crisis
-   callout in lessons 14 and 15; content notes placed before the material with working "skip to"
+   callout in lessons 15 and 16; content notes placed before the material with working "skip to"
    headings; in lesson 7, the lines and the monitoring warning in the first screen and "just leave"
    nowhere; every place a reader might take description as instruction they cannot safely carry out
    from a page (a technique, a tactic, a legal conclusion about their own case); every exercise within
@@ -351,7 +354,7 @@ and this lesson's section), the SOURCES.md sections the lesson cites, an earlier
    where the reviewer fetched it; **for a helpline or a statute, fetch it yourself**) before applying it;
    if a reviewer is wrong, decline it and say why. Rewrite generic passages with specifics from SOURCES;
    never add a fact that is not in SOURCES or a recorded gate closure. Keep the safety callout and, in
-   lessons 14 and 15, the crisis callout byte-identical (decision 4); keep every jurisdiction label
+   lessons 15 and 16, the crisis callout byte-identical (decision 4); keep every jurisdiction label
    (decision 2), every figure's labels (decision 3), every advice label (decision 5) and every legal
    point-of-use label (decision 9). A fix that removes a hedge or a label is not a fix.
 3. Then the voice checks, in the same pass: dashes and banned words; bold to key terms (under 25 per

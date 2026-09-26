@@ -322,7 +322,7 @@ quiz:
 
 <!-- Items for lessons 1 to 8 only, which are the lessons through Stage 4. Each later lesson's items
 are appended here as that lesson passes Stage 4, per the blueprint in research/OUTLINE.md,
-"Assessments" (24 items when all fifteen are in). When you append: update the counts and the pass
+"Assessments" (24 items when all sixteen are in). When you append: update the counts and the pass
 number in the intro, raise minutes, re-choose the key sequence by script, and rerun
 scripts/check-quiz-shape.cjs and scripts/check-quiz-letters.cjs. -->
 

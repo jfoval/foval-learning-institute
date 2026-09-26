@@ -666,7 +666,7 @@ Take 20 minutes for the first three parts, on paper; the fourth can wait for ano
 of practice under pressure; lesson 11, the freezing that no class makes anyone's fault.
 
 **Forward.** Lesson 13, "The law on using force", sets out the law a good class should teach as
-general information. Lesson 15, "Afterwards", covers reporting and support, whether or not you
+general information. Lesson 16, "Afterwards", covers reporting and support, whether or not you
 report.
 
 ## Go deeper

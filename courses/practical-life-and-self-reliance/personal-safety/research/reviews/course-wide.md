@@ -106,7 +106,7 @@
   the dash once a course is published.
 - **"UK" for the intruder advice is wrong**: the CPS/NPCC leaflet is England and Wales. Lesson 14,
   which uses the same leaflet, should describe it that way. No US source on "someone may be inside"
-  was found; lesson 14 or 15 should not imply one.
+  was found; lesson 14 or 16 should not imply one.
 - **Quiz keys:** lesson 5 is now 1,3,1,2,3,0. With lessons 1 to 5 in place, lesson 6's fixer should
   rerun the at-any-offset check against all five (only six six-item sequences passed against lessons
   1 to 4).
@@ -145,7 +145,7 @@
   stalking simply "wasn't a risk factor" (the authors put it down to its link with earlier threats,
   and threats to kill carried OR 2.60); that separation was "the highest risk the study measured" or
   that the study shows when danger peaks; or the 8.98 without saying it fell to 4.07 (1.33 to 12.4)
-  once threats were added. Lesson 14, which takes up guns, should note the 5.44 is model 5 and that
+  once threats were added. Lesson 15, which takes up guns, should note the 5.44 is model 5 and that
   access was no longer significant once the abuser's use of a gun in the incident entered.
 - **ONS's "underestimates domestic violence" sentence is about the face-to-face questions**, not the
   7.8%, which is ONS's preferred self-completion estimate. The gate-closure copy now carries its
@@ -159,7 +159,7 @@
   case, whose phone or computer is watched (calling, texting, chat, email, a printed or emailed plan)
   is tied to a device the person frightening them can't get at, labelled as the course's reading of
   the Hotline's and Refuge's warnings; no claim about call logs or history beyond what a service says.
-  Lessons 14 and 15, which carry lines again, should follow it.
+  Lessons 15 and 16, which carry lines again, should follow it.
 - **The IOPC's Silent Solution is England and Wales**, with lesson 1's hedge that the guide doesn't
   say whether it holds in Scotland and Northern Ireland. The safety callout's "999 in the UK" stays
   as decision 4 fixes it.
@@ -210,7 +210,7 @@
   as the course's reading. A delegate calling from somewhere else can still use the speaker.
 - **The police question now has both sides' reasons.** Lesson 9 gives the case for calling "at its
   strongest, as this course reads it", and says the official pages are guidance to callers, not
-  written about bystanders. Lesson 15, which takes up reporting and compensation, now carries
+  written about bystanders. Lesson 16, which takes up reporting and compensation, now carries
   compensation that depends on a report (lesson 9's pointer names it); it should cover Northern
   Ireland's separate scheme and say the US state programmes' rules were not read.
 - **For lesson 10 (P19):** lesson 9 says freezing is "automatic, not chosen" (changed from "common
@@ -263,7 +263,7 @@
   `...full-page-version#annex-a`. Cite the live page, never the 2021 capture. Its scream myth now
   reads "...then it could not have been rape"; the capture's freedom and capacity lists ("Position
   of power", "asleep or unconscious") are gone. Details and a 98-string verbatim block in SOURCES
-  "Gate closures, lesson 11". Lessons 13 to 15 and any script quoting the annex use the live text.
+  "Gate closures, lesson 11". Lessons 13 to 16 and any script quoting the annex use the live text.
 - **The annex's "reluctant but free" line is never quoted alone.** It applies "especially, but not
   exclusively, in the context of a long-term loving relationship", and the annex sets against it
   the relationship and coercive-control line and *Ali and Ashraf*. A partner-survivor reading one
@@ -319,7 +319,7 @@
 ## 2026-09-25 — from lesson 13's Stage 4 fix
 
 - **SOURCES Part D §3.1, §4.1, §4.2, §4.3 and §5.1 corrected** (Stage 4 notes in place; lines in
-  "Gate closures, lesson 13"). Lesson 14 and any script on lessons 13 or 14 must not say: that the
+  "Gate closures, lesson 13"). Lessons 14 and 15 and any script on lessons 13 to 15 must not say: that the
   MPC says "serious bodily harm" (§3.04(2)(b) and §3.06(3)(d) say "injury"); that New York's retreat
   duty covers every use of deadly force (only 2(a), against deadly force; robbery, kidnapping,
   forcible rape and burglary under 2(b) and 2(c) carry no retreat clause); that every US aggressor
@@ -333,14 +333,14 @@
 - **Neutrality on stand your ground is by parallel structure**: equal space for each side in its own
   words (Giffords' escalation and immunity lines, not only "stepping away"), RAND's mechanisms both in
   RAND's conditional voice, and any link the course draws between a side and the law drawn for both
-  sides and labelled as the course's. Lesson 14's castle-doctrine and carrying sections should keep
+  sides and labelled as the course's. Lesson 14's castle-doctrine section and lesson 15's carrying sections should keep
   the same shape.
 - **The label (decision 9) in a law-heavy lesson**: once in the intro, at the top of each H2 that
   states law, once per table, and in the exercise; not in H3s under a labelled H2, hidden answers or
   quiz explanations (the quiz stem says "as general information"). Lesson 13 went from 25 to 12.
-  Lesson 14 could follow it; the "Course conventions" line could record it.
+  Lessons 14 and 15 could follow it; the "Course conventions" line could record it.
 - **Escape rules in scenarios**: a law lesson has to test escape with an escape available. Say
   once that the way out is there because the law asks about it, not because anyone who didn't take
   it is to blame, and write scenarios without "instead".
-- **Quiz keys:** lesson 13 is now 2,1,3,0,3,1. Lesson 14's fixer should rerun the check against
+- **Quiz keys:** lesson 13 is now 2,1,3,0,3,1. The fixers of lessons 14 and 15 should rerun the check against
   lessons 1 to 13 (lesson 12's keys were read as 0,3,1,0,2,1 while its fixer was at work).

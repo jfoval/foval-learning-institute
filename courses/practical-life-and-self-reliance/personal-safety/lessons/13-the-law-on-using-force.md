@@ -624,7 +624,7 @@ criminal prosecution "includes arresting, detaining in custody, and charging or 
 This is general information, not legal advice. The law differs by state, and between England and
 Wales, Scotland and Northern Ireland.
 
-Lesson 15, "Afterwards", covers what happens next, and this lesson says only two things about it.
+Lesson 16, "Afterwards", covers what happens next, and this lesson says only two things about it.
 The householders' leaflet for England and Wales says police "may need to conduct a forensic
 examination and/or obtain your account of events".[15] In England and Wales,
 [GOV.UK](https://www.gov.uk/arrested-your-rights) says that someone arrested has the right to free
@@ -713,9 +713,10 @@ law. Lesson 2's questions about a figure sit beside RAND's grades, a research gr
 how strong the studies are, and Logic and Argument lesson 7 set the rule for the stand-your-ground
 section.
 
-**Forward.** Lesson 14, "The home, property, and carrying something for protection", takes up the
-householder rule in England and Wales, castle doctrine in the US, force to protect property, and
-what the law says about carrying anything for protection. Lesson 15, "Afterwards", covers reporting,
+**Forward.** Lesson 14, "The home and property", takes up the householder rule in England and
+Wales, castle doctrine in the US and force to protect property, and lesson 15, "Carrying something
+for protection", takes up what the law says about carrying anything for protection. Lesson 16,
+"Afterwards", covers reporting,
 support and what happens after force is used. Introduction to Law, later on the Core, owns criminal
 law in general.
 

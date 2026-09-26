@@ -408,8 +408,8 @@ calling is the option that avoids that moment. People who did go and look, or wh
 in front of them, did nothing wrong. The burglar made that moment, and this is about the options open
 to you if it ever happens.
 
-What the law says if it comes to force in your own home is lesson 14's subject, "The home, property,
-and carrying something for protection". This lesson states none of it.
+What the law says if it comes to force in your own home is lesson 14's subject, "The home and
+property". This lesson states none of it.
 
 ## The weeks after a burglary
 
@@ -520,7 +520,7 @@ at once if you think you've been scammed, which is practitioner opinion, in this
   says it can't resolve individual reports but shares them with law enforcement.[15]
 
 A distraction burglary, where someone gets in, is a burglary, and a crime in progress is a 999 or 911
-call. Lesson 15, "Afterwards", covers what reporting does and does not get you.
+call. Lesson 16, "Afterwards", covers what reporting does and does not get you.
 
 ## Ruth and Imran, a month later
 
@@ -607,7 +607,7 @@ comparison to introduce the label "tested"; now you've seen the evidence behind 
 con in full. Digital Literacy lesson 10 has passwords, which this course leaves alone.
 
 **Forward.** Lesson 6, "Out and away", takes the same grid onto the street, where the evidence is
-thinner. Lesson 14 is the law if it ever comes to force at home, and lesson 15 covers reporting and
+thinner. Lesson 14 is the law if it ever comes to force at home, and lesson 16 covers reporting and
 support. Home Repair and Maintenance, the next course on the Core, teaches fitting a lock.
 
 ## Go deeper

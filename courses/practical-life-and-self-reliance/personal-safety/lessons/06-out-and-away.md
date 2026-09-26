@@ -372,7 +372,7 @@ better plan than one that only thinks about strangers.
 One piece of travel advice carries a legal warning. The State Department says to "confirm legality
 before traveling with items like pepper spray".[4] In Great Britain the answer is that a spray
 is a prohibited weapon under the Firearms Act 1968, which makes possessing one an offence, not only
-carrying it,[12] and lesson 14, "The home, property, and carrying something for protection",
+carrying it,[12] and lesson 15, "Carrying something for protection",
 gives the law. This is general information, not legal advice. The law differs by state, and between
 England and Wales, Scotland and Northern Ireland. Travel Skills, later on the Core, takes travel
 further than this course does.
@@ -601,7 +601,7 @@ less than people walking alone; people on a phone call noticed least.[11] The La
 earphone for running is practitioner opinion.
 
 **"Carry pepper spray when you travel."** The State Department itself says to check the law
-first;[4] lesson 14, "The home, property, and carrying something for protection", has the law.
+first;[4] lesson 15, "Carrying something for protection", has the law.
 
 **"Telling someone where you are is enough."** Only if they know when to expect you and what to do
 when you don't turn up.
@@ -645,8 +645,8 @@ Literacy lesson 10 is where the password advice this lesson set aside is handled
 
 **Forward.** The lesson "Domestic abuse and stalking" is about harm from partners, ex-partners and
 family, and the help and safety planning the services offer. Lesson 12, "Resistance training, and
-choosing a class", teaches the trial that the critique and the defence both have to meet. Lesson 14,
-"The home, property, and carrying something for protection", has the law on sprays. Travel Skills,
+choosing a class", teaches the trial that the critique and the defence both have to meet. Lesson 15,
+"Carrying something for protection", has the law on sprays. Travel Skills,
 later on the Core, takes travel further.
 
 ## Go deeper

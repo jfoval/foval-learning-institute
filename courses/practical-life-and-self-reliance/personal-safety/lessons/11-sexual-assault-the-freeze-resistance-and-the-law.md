@@ -524,7 +524,7 @@ Support Line is also open to friends and family supporting someone, so you can c
 
 :::checkpoint A week later Hana asks you, "Do you think I should go to the police?" What do the sources in this lesson suggest you say, and what would you avoid?
 
-Something like: that it is her decision, and you will back whichever she makes; that support is there whether or not she reports, as Victim Support says on its own page; and that lesson 15, "Afterwards", covers what reporting involves, so you could look at it together if she wants to.
+Something like: that it is her decision, and you will back whichever she makes; that support is there whether or not she reports, as Victim Support says on its own page; and that lesson 16, "Afterwards", covers what reporting involves, so you could look at it together if she wants to.
 
 It may help her to know that many people do not report: in the ONS survey, around one in seven victims of rape or assault by penetration since 16 said they had told the police.[9] That describes what people do; it is not advice either way.
 
@@ -637,7 +637,7 @@ Logic and Argument lesson 5 supplied the four readings of a correlation, and Wri
 
 **Forward.** Lesson 12, "Resistance training, and choosing a class", teaches the randomised
 trials of resistance programmes, the argument about whether prevention should rest there, and the
-gap for men. Lesson 15, "Afterwards", covers reporting, support whether or not you report, and what
+gap for men. Lesson 16, "Afterwards", covers reporting, support whether or not you report, and what
 happens next. Anything medical after an assault belongs to First Aid and CPR, and Mental Fitness
 lesson 7 covers what reactions after a frightening event usually look like.
 

@@ -374,7 +374,7 @@ self-protection.) And they conclude: "Combined with the fact that injuries follo
 almost always relatively minor, victim resistance appears to be generally a wise course of
 action."[15] The abstract also says: "A variety of mostly forceful tactics, including resistance with
 a gun, appeared to have the strongest effects in reducing the risk of injury, though some of the
-findings were unstable due to the small numbers of sample cases." Lesson 14 deals with guns.
+findings were unstable due to the small numbers of sample cases." Lesson 15 deals with guns.
 
 Guerette and Santana, in [*Crime & Delinquency*](https://doi.org/10.1177/0011128707311644) (online in
 2008), used the same survey from 1992 to 2004 for robbery and rape. "Greater levels of victim
@@ -493,7 +493,7 @@ this course.[5]
 
 **What happens next.** However he responds, the robbers are responsible for what happens. Afterwards
 there will be a call to make, a report if he wants one, and support whether or not he reports:
-lesson 15, "Afterwards", covers all of it. And how most people fare in the months after a
+lesson 16, "Afterwards", covers all of it. And how most people fare in the months after a
 frightening event is where Mental Fitness lesson 7 starts.
 
 :::checkpoint Your turn. Suppose that in the same moment, Sanjay had pushed one man away and run instead. Write, in three short sentences: what the resistance research would say about that, what its limits are for his one case, and what this course says about his choice.
@@ -548,7 +548,7 @@ of it would make what happens next her doing.
 **Why no page can tell her what to do.** The moment in front of her is one case, and every figure
 above is an average from people who survived. Whatever she does, what happens is his responsibility.
 Lesson 12 is about the classes that practise options like these under pressure, and what the
-evidence says they can and can't do. And if something like this has happened to you, lesson 15,
+evidence says they can and can't do. And if something like this has happened to you, lesson 16,
 "Afterwards", and the lines in the note above this section are there whether or not you reported it.
 
 ## What people get wrong
@@ -620,7 +620,7 @@ under Increase the Effort.
 **Forward.** Lesson 11, "Sexual assault: the freeze, resistance and the law", applies the defence
 cascade to tonic immobility and sets out the resistance evidence for rape. Lesson 12, "Resistance
 training, and choosing a class", asks what a class can train under pressure. Lesson 13, "The law on
-using force", sets out what the law says, and lesson 15, "Afterwards", covers reporting and support.
+using force", sets out what the law says, and lesson 16, "Afterwards", covers reporting and support.
 Mental Fitness lesson 7 shows how most people fare in the months after a potentially traumatic event.
 
 ## Go deeper

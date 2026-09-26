@@ -842,15 +842,15 @@ function lintLessons() {
         // Personal Safety outline decision 4: the same safety callout on every lesson, word for word,
         // directly after the opening paragraph: emergency numbers, the silent 999 call, where the
         // domestic abuse helplines are, and that responsibility lies with the person who offends.
-        // Lessons 14 and 15 (weapons, and afterwards) also carry Mental Fitness's crisis callout.
+        // Lessons 15 and 16 (carrying and guns, and afterwards) also carry Mental Fitness's crisis callout.
         if (cdir.name === "personal-safety" && path.basename(lessonsDir) === "lessons") {
           const PERSONAL_SAFETY = ":::callout Before you rely on this\nThis course is education, not legal advice, and not a self-defence class. If you're in danger now, call 999 in the UK or 911 in the US. On a 999 call from a mobile, if you can't speak, cough or tap if you can and press 55 when you're prompted; in the US you can text 911 where that's available, but call if you can. If a partner, ex-partner or family member is frightening you, the lesson on domestic abuse and stalking starts with the helplines. Responsibility for a crime lies with the person who commits it: precautions change the odds, not the blame. The law differs between England and Wales, Scotland, Northern Ireland and each US state, and it changes.\n:::";
           const norm = src.replace(/\r\n/g, "\n");
           if (!norm.includes(PERSONAL_SAFETY))
             fail(`${file}: the safety callout is missing or differs from the standard text. Every Personal Safety lesson carries it word for word (research/OUTLINE.md decision 4); the text is in scripts/build.mjs.`);
           const CRISIS_PS = ":::callout If you're struggling right now\nThis course is education, not care. If you're thinking about suicide or self-harm, or don't feel able to keep yourself safe, contact emergency services (911 in the US and Canada, 999 in the UK, 112 across the EU, 000 in Australia) or a crisis line: call or text 988 in the US and Canada, call Samaritans on 116 123 in the UK and Ireland, or Lifeline on 13 11 14 in Australia. Elsewhere, findahelpline.com lists free, confidential lines by country.\n:::";
-          if (/^(14|15)-/.test(path.basename(file)) && !norm.includes(CRISIS_PS))
-            fail(`${file}: Personal Safety lessons 14 and 15 carry the crisis callout word for word (research/OUTLINE.md decision 4); the text is in scripts/build.mjs.`);
+          if (/^(15|16)-/.test(path.basename(file)) && !norm.includes(CRISIS_PS))
+            fail(`${file}: Personal Safety lessons 15 and 16 carry the crisis callout word for word (research/OUTLINE.md decision 4); the text is in scripts/build.mjs.`);
         }
 
         // STYLE_GUIDE: contractions. "Their absence is the fastest way to sound like a
@@ -1093,7 +1093,7 @@ lintLessons();
 //   - Nutrition carries the same safety callout in every lesson, word for word, enforced the same way.
 //   - Strength and Fitness carries the same safety callout in every lesson, enforced the same way.
 //   - First Aid and CPR carries the same safety callout in every lesson, enforced the same way.
-//   - Personal Safety carries the same safety callout in every lesson, and lessons 14 and 15 the
+//   - Personal Safety carries the same safety callout in every lesson, and lessons 15 and 16 the
 //     crisis callout too, enforced the same way.
 //   - Cooking Fundamentals repeats its higher-risk callout in lessons 4, 5 and 7 by its outline's
 //     design; it is not enforced by a check, so a change must be made in all three.

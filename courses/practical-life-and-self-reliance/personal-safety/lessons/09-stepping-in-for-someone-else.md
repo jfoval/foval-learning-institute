@@ -493,7 +493,7 @@ Put at its strongest, as this course reads it, the case for calling runs like th
 harassed may not be able to say what they want in that moment, and asking them in front of the
 person doing it can put them on the spot. Stopping a crime in progress is the police's job, not a
 passer-by's. And a report can matter to the person harmed later, in some places for compensation,
-which lesson 15, "Afterwards", takes up.
+which lesson 16, "Afterwards", takes up.
 
 ### What does not depend on the argument
 
@@ -580,7 +580,7 @@ stalking" has the services' advice for helping someone you know.
 
 **Forward.** Lesson 10, "What fear does to you, and the robbery decision", takes up the moment the
 queue in Albany left off: what fear does to the people in it, and the decision to hand property over
-or resist. Lesson 15, "Afterwards", covers reporting a crime and the support available whether or not
+or resist. Lesson 16, "Afterwards", covers reporting a crime and the support available whether or not
 you do.
 
 ## Go deeper

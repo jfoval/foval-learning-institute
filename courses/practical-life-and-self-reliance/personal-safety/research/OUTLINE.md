@@ -9,7 +9,7 @@ helpline is fact-checked against the primary, not against SOURCES.*
 
 ## How many lessons, and why
 
-**Fifteen.** SOURCES suggested twelve and said lesson 8 might split. Planned against measured time,
+**Fifteen**, now sixteen: lesson 14's seam fired on 2026-09-25 (see lesson 14 below). SOURCES suggested twelve and said lesson 8 might split. Planned against measured time,
 twelve is four sittings short. First Aid's lessons were outlined at 65 to 85 minutes and measured
 85 to 140, so this outline plans scope to fit about 90 measured minutes and splits wherever the
 suggested sequence stacked two lessons' worth of objectives into one:
@@ -70,10 +70,10 @@ suggested sequence stacked two lessons' worth of objectives into one:
 13. **The law on using force.** The shared core (necessity, proportion, imminence, belief); escape in
     five jurisdictions; the aggressor, revenge and the end of the threat; stand your ground against a
     duty to retreat.
-14. **The home, property, and carrying something for protection.** The householder rule and *Ray*;
-    castle doctrine; property; offensive weapons, blades and pepper spray; the evidence on guns for
-    protection, framed on the National Research Council.
-15. **Afterwards.** 999, 101 and the silent call; 911, text and the local number; what reporting gets
+14. **The home and property.** The householder rule and *Ray*; castle doctrine; property.
+15. **Carrying something for protection.** Offensive weapons, blades and pepper spray; the evidence on
+    guns for protection, framed on the National Research Council.
+16. **Afterwards.** 999, 101 and the silent call; 911, text and the local number; what reporting gets
     you; support whether or not you report; compensation; what happens after force; rights if
     questioned; the weeks after. The project.
 
@@ -81,7 +81,7 @@ suggested sequence stacked two lessons' worth of objectives into one:
 6308, measurement before theory) both do, but **fear before data**, because a reader who is afraid
 and is handed a table feels dismissed (Warr; Part A §11). Then the order follows the ladder the
 course teaches (SOURCES essential 10): avoid (4 to 7), talk (8, 9), comply or resist (10 to 12), the
-law of force (13, 14), and afterwards (15). Domestic abuse sits inside the avoidance block, straight
+law of force (13 to 15), and afterwards (16). Domestic abuse sits inside the avoidance block, straight
 after the street, because **the street is the smaller part of the picture for women** (8.0% of rapes
 in a public place, against 38.2% in the victim's home, B20), and putting it after three street
 lessons as an afterthought would repeat the misweighting the evidence corrects (SOURCES finding 5).
@@ -98,7 +98,7 @@ prevalence and the two measuring systems itself, and no further.
 paragraphs in lesson 5, because Personal Finance lesson 10 and Digital Literacy lesson 11 already
 teach the con in depth (SOURCES open concern 2). Children get one household section (lesson 6).
 Travel is guardianship applied and sits in lesson 6. Workplace aggression sits in lesson 8, where
-NICE, OSHA and HSE are. The gun evidence is one block in lesson 14.
+NICE, OSHA and HSE are. The gun evidence is one block in lesson 15, "Carrying something for protection".
 
 **Lesson length.** Planned between 65 and 90 measured minutes (measured minutes include exercises
 and the Sources list). **Two lessons carry named seams**: lesson 13 splits at "Stand your ground"
@@ -117,10 +117,10 @@ titles as well as numbers so a split is a find-and-replace.
   reproduce").
 - **Legal advice.** The law is general information, labelled every time (decision 9). Nothing tells a
   reader what they may lawfully do in their own situation or what to say to police.
-- **Medical care after an assault.** First Aid and CPR owns it; lesson 15 points there.
+- **Medical care after an assault.** First Aid and CPR owns it; lesson 16, "Afterwards", points there.
 - **Mental health after a crime.** Mental Fitness lesson 7 (what reactions after a potentially
   traumatic event usually look like) and First Aid lesson 16 (support lines, the crisis response) own
-  it; lesson 15 points to both and repeats neither.
+  it; lesson 16, "Afterwards", points to both and repeats neither.
 - **Online security and the con in depth.** Digital Literacy lessons 10 and 11 and Personal Finance
   lesson 10 own passwords, phishing, the payment rail and the phone scam; Cybersecurity for Everyone
   (Term 6) goes further. This course keeps the doorstep, the distraction burglary, meeting people from
@@ -252,7 +252,7 @@ on `cdir.name === "personal-safety"`, with the callout's sentences added to `REP
 First Aid's were. If gate G7 finds the landline case works the same, the words "from a mobile" come
 out of the constant and every lesson in one edit.
 
-**The crisis callout.** Lessons 14 (where guns and suicide meet) and 15 (afterwards) carry, at the
+**The crisis callout.** Lessons 15 (where guns and suicide meet) and 16 (afterwards) carry, at the
 point of use, the Mental Fitness crisis callout that First Aid lesson 16 also carries, byte for byte
 (`CRISIS` in `scripts/build.mjs`), so the institute never prints two versions of the numbers:
 
@@ -468,8 +468,8 @@ C §2.1, §2.4, §2.6, §7).
   "give people jobs". Lesson 2 taught the call: 999 or 112, 911, speakerphone, how location reaches
   the call handler, "Do not hang up". Lesson 16 taught support after an emergency, 988, Samaritans,
   the crisis response and Mental Fitness lesson 7's pointer. **This course builds on all of it by name
-  and reteaches none of it.** Lesson 9 starts from First Aid lesson 1; lessons 7 and 15 use First Aid
-  lesson 2's call; lesson 15 points to First Aid lesson 16. Anything medical after an assault is First
+  and reteaches none of it.** Lesson 9 starts from First Aid lesson 1; lessons 7 and 16 use First Aid
+  lesson 2's call; lesson 16 points to First Aid lesson 16. Anything medical after an assault is First
   Aid's.
 - **Mental Fitness** (Term 2). Lesson 4 (Worry) is lesson 1's spaced-review hook; lesson 7 owns
   reactions after a potentially traumatic event; its crisis callout is reused (decision 4).
@@ -506,7 +506,7 @@ decorative pictures. Three kinds of media are allowed:
 **15. Stage 4 and fact-check discipline for this course.** Every lesson: Tier B Stage 4 as
 `research/pipeline-briefs.md` sets it out (reviewers F and P in parallel, fresh contexts), the
 neutrality audit inside Reviewer F, and a fact-check of every number, statute quotation and helpline
-against the primary, not SOURCES. **Lessons 13 and 14** are also read by F as a gun-rights reader and
+against the primary, not SOURCES. **Lessons 13 to 15** are also read by F as a gun-rights reader and
 as a gun-control reader (Part D §10.4). **Lessons 7 and 11** are also read by F as a survivor would
 read them: does any sentence imply they should have done something else? Every lesson's Sources block
 gives the read level for each item copied from SOURCES, and for Internet Archive reads the capture ID.
@@ -537,16 +537,16 @@ John.
 | **G7 The silent 999 call: landlines, and which parts of the UK** | 1 (callout), 7, 15 | Read the full IOPC Silent Solution guide; record whether the 55 step applies to landlines and whether it covers Northern Ireland | Keep "from a mobile" in the callout; lessons state the mobile case only and say the course did not confirm the landline case. |
 | **G8 Support lines for sexual violence** | 3, 11, 12 (content notes), 15 | Read RAINN (US) and Rape Crisis England and Wales and Rape Crisis Scotland pages for numbers and hours | Content notes point to Victim Support (England and Wales, 24/7, "regardless of whether they have reported") and VictimConnect (US; its "currently physically safe" gate stated), both read, and to lesson 7's lines. No RAINN or Rape Crisis number is printed. |
 | **G9 CPS rape myths annex, current location** Closed 2026-09-25, see SOURCES end. | 11 | Find the annex on the live CPS site; re-read the quoted lines | Cite "CPS legal guidance, *Rape and Sexual Offences*, Annex A, as archived April 2026" with capture 20260421173121. |
-| **G10 CPS "Self-Defence and the Prevention of Crime", current status** | 13, 14 | Look once more on the live CPS site | Cite "CPS legal guidance, as archived July 2024" (capture 20240723174716); cite s.76(6A) from the statute, never the CPS's "76(6)". |
+| **G10 CPS "Self-Defence and the Prevention of Crime", current status** | 13 to 15 | Look once more on the live CPS site | Cite "CPS legal guidance, as archived July 2024" (capture 20240723174716); cite s.76(6A) from the statute, never the CPS's "76(6)". |
 | **G11 Model Penal Code, second copy** | 13, 14 | Check each quoted MPC clause (§3.04(1), (2)(b), §3.06(3)(d), §3.09(2)) against a second copy | Paraphrase the MPC without quotation marks, attributed by section, and say the course read it from a university teaching copy. |
-| **G12 Statutes from the live page** | 13, 14 | At drafting, re-read and read in full: CJIA 2008 s.76; CLA 1967 s.3; PCA 1953 s.1; CJA 1988 s.139; Firearms Act 1968 s.5(1)(b); Criminal Law (Consolidation) (Scotland) Act 1995 ss.47 and 49; Florida ch. 776; NY Penal Law §35.15 and §265.20(a)(14), (15); Texas Penal Code §§9.32, 9.42; California Penal Code §22810; MCL 750.224d | Quote only what SOURCES records, dated "as read on 2026-09-25", with a line telling the reader to check the live text. |
-| **G13 Pepper spray penalty** | 14 | Read Firearms Act 1968 s.51A and Schedule 6 if the lesson wants a penalty | No penalty is given; "possession, not only carrying, is the offence" carries the point. |
-| **G14 Stun guns** | 14 | Read *Flack v Baldry* or an official statement of it | Stun guns are not mentioned. |
-| **G15 Northern Ireland law** | 13, 14 | Read the Firearms (Northern Ireland) Order 2004 on sprays and the NI version of s.139 | Northern Ireland is "different again": the one fact read (s.76 extends there without the householder and retreat amendments) and nothing else. |
-| **G16 A victim's gun in domestic abuse: the proponents' own statement** | 14 | Search for the strongest domestic-abuse-specific statement in favour of armed self-defence by its proponents; read and record it | Keep the question at the general level Part D reached (NRA-ILA's "Self-defense is a fundamental right"; the NRC's lower-injury finding), set Campbell's exact finding beside it (clear danger from the abuser's access; "no clear evidence of protective effects" from the victim's, 5% of women), and the Hotline's position as the Hotline's. Lesson 7 does not raise the victim's gun at all; it points to lesson 14. |
-| **G17 A Kleck critique of the gun-in-the-home association studies** | 14 | Read one (for example Kleck 2015, *Journal of Criminal Justice*, cited by RAND) and record its argument | The other side is carried by the NRC's two sentences (lower injury among gun-using victims; the risks "could cancel or outweigh" the benefits) and by Kleck and Gertz's and English's (if G18 closes) not-fired figures. The confounding argument is not stated. |
-| **G18 English 2021 National Firearms Survey on SSRN** | 14 | Re-read the SSRN abstract (ID 3887145) in a browser and check the quoted lines | English is not cited; the NRC's range, Kleck and Gertz, Hemenway and RAND carry the section. |
-| **G19 US rights when questioned** | 15 | Read the Constitution Annotated (congress.gov) on the Fifth Amendment privilege and *Miranda*, and on the right to counsel | The US half of lesson 15 states no rights. It says the course did not read the US rules and repeats "get a lawyer's advice". |
+| **G12 Statutes from the live page** | 13 to 15 | At drafting, re-read and read in full: CJIA 2008 s.76; CLA 1967 s.3; PCA 1953 s.1; CJA 1988 s.139; Firearms Act 1968 s.5(1)(b); Criminal Law (Consolidation) (Scotland) Act 1995 ss.47 and 49; Florida ch. 776; NY Penal Law §35.15 and §265.20(a)(14), (15); Texas Penal Code §§9.32, 9.42; California Penal Code §22810; MCL 750.224d | Quote only what SOURCES records, dated "as read on 2026-09-25", with a line telling the reader to check the live text. |
+| **G13 Pepper spray penalty** | 15 | Read Firearms Act 1968 s.51A and Schedule 6 if the lesson wants a penalty | No penalty is given; "possession, not only carrying, is the offence" carries the point. |
+| **G14 Stun guns** | 15 | Read *Flack v Baldry* or an official statement of it | Stun guns are not mentioned. |
+| **G15 Northern Ireland law** | 13, 15 | Read the Firearms (Northern Ireland) Order 2004 on sprays and the NI version of s.139 | Northern Ireland is "different again": the one fact read (s.76 extends there without the householder and retreat amendments) and nothing else. |
+| **G16 A victim's gun in domestic abuse: the proponents' own statement** | 15 | Search for the strongest domestic-abuse-specific statement in favour of armed self-defence by its proponents; read and record it | Keep the question at the general level Part D reached (NRA-ILA's "Self-defense is a fundamental right"; the NRC's lower-injury finding), set Campbell's exact finding beside it (clear danger from the abuser's access; "no clear evidence of protective effects" from the victim's, 5% of women), and the Hotline's position as the Hotline's. Lesson 7 does not raise the victim's gun at all; it points to lesson 14. |
+| **G17 A Kleck critique of the gun-in-the-home association studies** | 15 | Read one (for example Kleck 2015, *Journal of Criminal Justice*, cited by RAND) and record its argument | The other side is carried by the NRC's two sentences (lower injury among gun-using victims; the risks "could cancel or outweigh" the benefits) and by Kleck and Gertz's and English's (if G18 closes) not-fired figures. The confounding argument is not stated. |
+| **G18 English 2021 National Firearms Survey on SSRN** | 15 | Re-read the SSRN abstract (ID 3887145) in a browser and check the quoted lines | English is not cited; the NRC's range, Kleck and Gertz, Hemenway and RAND carry the section. |
+| **G19 US rights when questioned** | 16 | Read the Constitution Annotated (congress.gov) on the Fifth Amendment privilege and *Miranda*, and on the right to counsel | The US half of lesson 16 states no rights. It says the course did not read the US rules and repeats "get a lawyer's advice". |
 | **G20 Liebst's published version; Lindegaard's version of record** | 9 | Search for the published version of Liebst and colleagues' "would I be hurt" study and re-read its abstract; check Lindegaard's online-first abstract | Liebst is cited as a 2020 preprint, labelled so in the prose, with its 3.6% as the preprint's figure. |
 | **G21 Accepted manuscripts** | 1, 6 | Check each quoted line of Gray, Jackson and Farrall 2008; Lee, Jackson and Ellis 2020; Jackson and Gray 2010; Jackson and Stafford 2009 against the journal versions | Paraphrase without quotation marks and cite as the LSE accepted manuscript. |
 | **G22 Third-party copies** | 4, 6, 8 | Check each quoted line of Cohen and Felson 1979, Gunns 2002, Hyman 2010, Piza 2019 and Engel 2020 against the publisher's page or abstract | Say where it was read ("read from a copy of the published article on a university course page") and quote only lines the publisher's abstract also carries. |
@@ -945,7 +945,7 @@ woman as people at risk across the course (decision 7), and no place name is reu
   noted; carbon monoxide and fire exits as a reminder that the biggest travel risks are often not
   crime); the State Department's women travellers page (app-based rides "offer a record of your
   ride"; a plan in advance; "Being safe is more important than being polite"; confirm the legality of
-  sprays before travelling, a pointer to lesson 14) and its checklist (STEP; copies with a trusted
+  sprays before travelling, a pointer to lesson 15) and its checklist (STEP; copies with a trusted
   person) (B18). **What stands behind it** (the sort, decision 5): lighting reduced crime by 21% in
   13 area studies (UK 38%, US 7%), night-time crime did not fall more than daytime, suggesting
   community pride (Welsh and Farrington summary); CCTV "a significant and modest decrease", largest in
@@ -986,7 +986,7 @@ woman as people at risk across the course (decision 7), and no place name is reu
   scripts for a seven-year-old.
 - **Misconceptions:** "stranger danger" as the core of child safety; "don't walk alone at night" as the
   core of women's safety; "CCTV means someone will come"; "streetlights work because attackers can be
-  seen"; "earphones make you a target" (lesson 4); "carry pepper spray when you travel" (lesson 14's
+  seen"; "earphones make you a target" (lesson 4); "carry pepper spray when you travel" (lesson 15's
   law, and the State Department's own caution).
 - **Practice:** write a plan for a real trip or evening in the next month, each step labelled with its
   evidence; agree a check-in with one real person (a safe, real action); rewrite two child-safety rules
@@ -994,7 +994,7 @@ woman as people at risk across the course (decision 7), and no place name is reu
 - **Images:** none needed; a small table sorting ten pieces of advice by label.
 - **Sources:** Part B B11, B12, B18, B19, B20, B21, B23, B25, B29; contested questions 4 and 6.
 - **Connects:** lessons 3 and 4; forward to lesson 7 (known people), lesson 12 (the trial the critique
-  meets) and lesson 14 (sprays). Travel Skills (Term 24) will take travel further.
+  meets) and lesson 15 (sprays). Travel Skills (Term 24) will take travel further.
 - **Spaced review of:** lesson 4's triangle on the street; lesson 3's who-harms-whom table (the 8.0%).
 - **Neutrality:** contested question 4 in its own terms; neither side's advocates caricatured.
 
@@ -1041,7 +1041,7 @@ woman as people at risk across the course (decision 7), and no place name is reu
   not serve victims directly. **The silent call**: the IOPC's Silent Solution and the case behind it (a
   woman who "had wrongly thought that police had her number"); the US has no single equivalent (text
   where available) (B26, D §8.1). **Guns**: a protective order can require an abuser to surrender guns
-  in many states (the Hotline); the question of the victim's own gun is lesson 14's, and this lesson
+  in many states (the Hotline); the question of the victim's own gun is lesson 15's, and this lesson
   says so in one sentence (gate G16). **Not de-escalation**: the course's de-escalation advice is not
   for an abusive relationship, and can look like managing the abuser (Part C §11; reconciliation 10).
   **Helping someone**: the lines take calls from friends and family (Refuge's page); the same rule
@@ -1071,10 +1071,10 @@ woman as people at risk across the course (decision 7), and no place name is reu
 - **Sources:** Part B §7 (B26 to B28); Part A UK-1 to UK-3, US-1, US-6; Part D §8.1; Part C §11;
   reconciliations 6, 8 and 10.
 - **Connects:** lesson 3 (where most serious harm to women comes from); lesson 6 (a date becoming
-  someone known); forward to lesson 8 (why de-escalation is not the tool here), lesson 14 (guns) and
-  lesson 15 (support and reporting). Relationships and Family (Term 4) owns relationships.
+  someone known); forward to lesson 8 (why de-escalation is not the tool here), lesson 15 (guns) and
+  lesson 16 (support and reporting). Relationships and Family (Term 4) owns relationships.
 - **Spaced review of:** lesson 2 (lifetime against annual; the undercount); lesson 3's homicide row.
-- **Neutrality:** reader decides; men included; the gun question deferred to lesson 14 and not
+- **Neutrality:** reader decides; men included; the gun question deferred to lesson 15 and not
   resolved there either.
 
 ### 8. Talking it down (~85 min)
@@ -1232,14 +1232,14 @@ woman as people at risk across the course (decision 7), and no place name is reu
   points toward resistance. **The law requires neither** (lesson 13). **Nobody who complied or resisted
   chose wrongly.** Gun resistance: one sentence that Tark and Kleck's abstract lists it among the most
   protective actions and says some findings "were unstable due to the small numbers of sample cases",
-  pointing to lesson 14.
+  pointing to lesson 15.
 - **Mechanism to explain:** the defence cascade as Kozlowska describes it, and Roelofs' account of the
   freeze as preparation rather than failure; the selection problem in the robbery data as the reason
   two honest bodies of evidence disagree.
 - **Worked examples:** (a) simple: at a cash machine at night, a man is approached by two men, one
   holding a knife, who want his wallet and phone. The narrow case, walked through: what each side says
   and why both agree here; what his body is likely to do (the cascade) and why that is normal; what
-  happens after (lesson 15). (b) wrinkle: in a multi-storey car park, a woman is told to get into a
+  happens after (lesson 16). (b) wrinkle: in a multi-storey car park, a woman is told to get into a
   car. The demand is for her, not her property; what the sources say changes (non-forceful resistance:
   screaming, running away, in Block and Skogan's list; lesson 11's evidence), and why no page can tell
   her what to do in the moment. Written forward, without an outcome that judges her.
@@ -1291,7 +1291,7 @@ woman as people at risk across the course (decision 7), and no place name is reu
   ex-partner, 16.3% by a stranger (15.0% of women, 37.5% of men); the victim's own home 38.2%, the
   perpetrator's 28.5%, a public place 8.0% (B20); so the precautions that matter most are about known
   people, which is lesson 12's trial. **Supporting someone who tells you**: believe them; the lines
-  (gate G8); whether to report is theirs (lesson 15).
+  (gate G8); whether to report is theirs (lesson 16).
 - **Mechanism to explain:** tonic immobility as Möller defines it and Kozlowska places it (a response of
   last resort to inescapable threat); why the order of events matters to what a resistance study can
   conclude.
@@ -1313,7 +1313,7 @@ woman as people at risk across the course (decision 7), and no place name is reu
 - **Images:** none. No chart in this lesson.
 - **Sources:** Part C §4.1, §4.2 (Senn 2017's responsibility lines only), §4.4, §5; Part B B20.
 - **Connects:** lesson 10 (the cascade); lesson 3 and lesson 7 (known people); forward to lesson 12
-  (the trial) and lesson 15 (reporting and support).
+  (the trial) and lesson 16 (reporting and support).
 - **Spaced review of:** lesson 2 (why rape estimates are volatile, the NRC); lesson 10's shared flaw.
 - **Neutrality:** responsibility; no "should have"; men included; the gaps in Scottish and US law
   stated.
@@ -1443,20 +1443,22 @@ woman as people at risk across the course (decision 7), and no place name is reu
 - **Sources:** Part D §2.1 to §2.3, §3.1, §4.1 to §4.5, §5.1, §6, §7; gates G10 to G12, G15.
 - **Connects:** lesson 10 (the law requires neither compliance nor resistance); lesson 8 (leaving is
   always allowed, now in the law's terms); First Aid lesson 1 (the law as general information).
-  Forward to lesson 14 (the home) and to Introduction to Law (Term 12).
+  Forward to lessons 14 (the home) and 15 (carrying) and to Introduction to Law (Term 12).
 - **Spaced review of:** lesson 10's stress response (why the law does not expect fine judgement);
   lesson 2 (RAND's grading as another kind of evidence label).
 - **Neutrality:** read by F as a gun-rights reader and a gun-control reader (decision 15).
 
-### 14. The home, property, and carrying something for protection (~90 min; seam: split at "Carrying something" if the draft passes 100)
+### 14. The home and property (~90 min)
+
+*2026-09-25: the seam fired. This entry was "The home, property, and carrying something for
+protection" with a seam at "Carrying something"; the carrying half alone measured 95 minutes, so the
+course is now sixteen lessons. Lesson 14 keeps the householder rule, *Ray*, castle doctrine and force
+to protect property; lesson 15, "Carrying something for protection", takes offensive weapons, blades,
+pepper spray, the US spray statutes and the gun evidence; "Afterwards" is lesson 16.*
 
 - **Objectives:** explain the householder rule in England and Wales, including what *R v Ray* settled
   and where the rule stops, and compare it with castle doctrine in the US and with Scotland, as general
-  information; state when, if ever, force may be used to protect property in each jurisdiction read;
-  explain why carrying anything "for self-defence" is an offence in England and Wales, why pepper
-  spray is a prohibited weapon in Great Britain, and how three US states regulate sprays; compare what
-  the evidence says about defensive gun use and about a gun in the home, framed on the National
-  Research Council's statement, each side in its own words.
+  information; state when, if ever, force may be used to protect property in each jurisdiction read.
 - **Core ideas:** the label (decision 9) at each legal section. **The householder rule**: s.76(5A),
   "grossly disproportionate"; the four conditions of s.76(8A) (self-defence, not property; in a
   building that is a dwelling; not a trespasser; believed the other person a trespasser), vehicles and
@@ -1471,8 +1473,33 @@ woman as people at risk across the course (decision 7), and no place name is reu
   dwelling exception; Florida's presumption for forcible entry into a dwelling, residence or occupied
   vehicle; Texas §9.32 (D §4). **Property**: England and Wales, "disproportionate force to protect
   property is still unlawful"; Scotland, no property defence; MPC §3.06(3)(d)'s narrow cases; Texas
-  §9.42 as the exception readers may have heard of (D §6, §7). **Carrying something**: the Prevention of
-  Crime Act 1953's third limb (an ordinary object carried to hit someone if attacked is an offensive
+  §9.42 as the exception readers may have heard of (D §6, §7).
+- **Mechanism to explain:** why the householder threshold differs (Parliament's choice, s.76(8A) to
+  (8F) and s.76(9)'s statement that the rest only clarifies the existing law).
+- **Worked examples:** (a) simple: at 2am a woman in a terraced house in England hears someone coming
+  through the kitchen window. The lesson sets out what the leaflet says first (call the police), then
+  the questions the householder rule asks, and beside it how Scotland and New York would frame the same
+  night, with no verdict.
+- **Misconceptions:** "householders can use any force that isn't grossly disproportionate" (*Ray*); "the
+  householder rule covers the garden"; "you can shoot someone for stealing" (not under the MPC, in
+  England or in Scotland; Texas §9.42 is narrow); "using a household object makes it worse" (the
+  leaflet says no).
+- **Practice:** a factor table for two home scenarios across three jurisdictions.
+- **Images:** none; tables for the home rules.
+- **Sources:** Part D §2.1, §2.3, §2.4, §3.1, §4, §6, §7; gates G10 to G12.
+- **Connects:** lesson 13; lesson 5 (don't go in; call the police). Forward to lesson 15 ("Carrying
+  something for protection"), lesson 16 (the investigation after force) and Introduction to Law.
+- **Spaced review of:** lesson 13's shared core.
+- **Neutrality:** gun-rights and gun-control readers (decision 15) on castle doctrine.
+
+### 15. Carrying something for protection (~95 min)
+
+- **Objectives:** explain why carrying anything "for self-defence" is an offence in England and Wales,
+  why pepper spray is a prohibited weapon in Great Britain, and how three US states regulate sprays;
+  compare what the evidence says about defensive gun use and about a gun in the home, framed on the
+  National Research Council's statement, each side in its own words.
+- **Core ideas:** the label (decision 9) at each legal section. **Carrying something**: the Prevention
+  of Crime Act 1953's third limb (an ordinary object carried to hit someone if attacked is an offensive
   weapon because of the intention); the CPS on *Evans v Hughes* as quoted ("a constant or enduring
   threat (even where genuine) does not amount to self-defence or a reasonable excuse"); blades (s.139,
   folding pocketknife under 3 inches; a lock-knife is not one; the work, religious and national costume
@@ -1495,41 +1522,34 @@ woman as people at risk across the course (decision 7), and no place name is reu
   suicide first appears. **A domestic abuse victim's gun** (contested question 16): Campbell's exact
   finding, the Hotline's position as the Hotline's, the proponents' statement from gate G16 or the
   general-level fallback; no verdict.
-- **Mechanism to explain:** why the householder threshold differs (Parliament's choice, s.76(8A) to
-  (8F) and s.76(9)'s statement that the rest only clarifies the existing law); why the intention limb
-  catches ordinary objects (the statute's definition); why defensive gun use estimates differ twentyfold
-  (question wording, rare events, false positives: each side's account).
-- **Worked examples:** (a) simple: at 2am a woman in a terraced house in England hears someone coming
-  through the kitchen window. The lesson sets out what the leaflet says first (call the police), then
-  the questions the householder rule asks, and beside it how Scotland and New York would frame the same
-  night, with no verdict. (b) wrinkle: after being followed home twice, a man in England decides to carry
+- **Mechanism to explain:** why the intention limb catches ordinary objects (the statute's
+  definition); why defensive gun use estimates differ twentyfold (question wording, rare events, false
+  positives: each side's account).
+- **Worked examples:** (b) wrinkle: after being followed home twice, a man in England decides to carry
   a heavy torch "just in case", and his cousin in Michigan carries pepper spray. The same intention,
   two legal results: why the torch can be an offensive weapon in England and Wales and why the spray in
   Michigan is lawful to carry but judged by the force rules when used; what lesson 6's lawful options
   were. Then the gun block's worked comparison: the NCVS and Kleck and Gertz estimates side by side, what
   each question asked and whom.
-- **Misconceptions:** "householders can use any force that isn't grossly disproportionate" (*Ray*); "the
-  householder rule covers the garden"; "you can shoot someone for stealing" (not under the MPC, in
-  England or in Scotland; Texas §9.42 is narrow); "pepper spray is legal in the UK if it's for
-  self-defence"; "carrying something ordinary for protection is fine"; "defensive gun use is rare" and
-  "defensive gun use is common" each stated as settled; "using a household object makes it worse" (the
-  leaflet says no).
+- **Misconceptions:** "pepper spray is legal in the UK if it's for self-defence"; "carrying something
+  ordinary for protection is fine"; "defensive gun use is rare" and "defensive gun use is common" each
+  stated as settled.
 - **Practice:** for six items (an umbrella, a lock-knife, a folding pocketknife under 3 inches for work,
   a personal alarm, pepper spray, a heavy torch carried "in case"), write which rule of England and
-  Wales law is engaged and why, as general information; a factor table for two home scenarios across
-  three jurisdictions; for the gun block, write each side's strongest sentence in its own words.
-- **Images:** none; tables for the home and carrying rules.
-- **Sources:** Part D §2.1, §2.3 to §2.6, §3.1, §4, §5.2 to §5.4, §6, §7, §8.4; Part B B27, B28;
-  reconciliation 6; gates G10 to G18.
-- **Connects:** lesson 13; lesson 5 (don't go in; call the police); lesson 7 (the abuser's gun); lesson
-  6 (the State Department's caution about sprays). Forward to lesson 15 (the investigation after force)
+  Wales law is engaged and why, as general information; for the gun block, write each side's strongest
+  sentence in its own words.
+- **Images:** none; tables for the carrying rules.
+- **Sources:** Part D §2.3, §2.5, §2.6, §3.1, §5.2 to §5.4, §6, §7, §8.4; Part B B27, B28;
+  reconciliation 6; gates G10, G12 to G18.
+- **Connects:** lesson 13; lesson 14 ("The home and property"); lesson 7 (the abuser's gun); lesson 6
+  (the State Department's caution about sprays). Forward to lesson 16 (the investigation after force)
   and Introduction to Law.
 - **Spaced review of:** lesson 2 (why two surveys disagree, applied to defensive gun use); lesson 13's
   shared core.
 - **Neutrality:** gun-rights and gun-control readers (decision 15); the NRC as frame; the crisis
   callout.
 
-### 15. Afterwards (~75 min)
+### 16. Afterwards (~75 min)
 
 - **Objectives:** decide whether a described situation calls for 999, 101 or neither in the UK, or 911
   or a local non-emergency number in the US, and how to call when you cannot speak; state what
@@ -1602,9 +1622,9 @@ woman as people at risk across the course (decision 7), and no place name is reu
   sentence in Project BETA's form; when to stop talking), 9 (1: the commercial robbery case), 10 (2:
   property against the person; what the robbery evidence's shared flaw is), 11 (1: consent and
   submission, England and Wales, general information), 12 (1: absolute against relative risk from a
-  trial), 13 (2: the escape rule in a named jurisdiction; force after the threat ended), 14 (2: the
-  householder rule's limits; carrying for protection in England and Wales), 15 (1: support without
-  reporting, or compensation's condition). **Every law item names its jurisdiction and asks which rule
+  trial), 13 (2: the escape rule in a named jurisdiction; force after the threat ended), 14 (1: the
+  householder rule's limits), 15 (1: carrying for protection in England and Wales), 16 (1: support
+  without reporting, or compensation's condition). **Every law item names its jurisdiction and asks which rule
   or factor applies, never whether someone is guilty (decisions 9 and 16). No item asks what a victim
   should have done.** No item's correct answer depends on a gate that did not close. Key sequence
   irregular, chosen by script under the rule in the briefs, all four positions used, option lengths
@@ -1612,7 +1632,7 @@ woman as people at risk across the course (decision 7), and no place name is reu
 - **Project: "Your household safety plan."** Kept private: nothing is submitted anywhere with an
   address or a name, and a reader who lives with someone who frightens them is told plainly to skip any
   part that could be found, and that the lines can help plan by phone (decision 1). Deliverable:
-  1. **The card** (from lesson 15): emergency number and silent-call method for your country; your
+  1. **The card** (from lesson 16): emergency number and silent-call method for your country; your
      local non-emergency number; the support and helplines for your country, including one for men and
      one for women; your bank's fraud line.
   2. **The home audit** (lesson 5): what you have of W, I, D and E, what you'd add in order of cost, and
@@ -1661,7 +1681,7 @@ otherwise (decision 7); and that no mechanism was added from general knowledge (
   (responsibility lies with the offender) is shared by every position and is the only one the course
   makes.
 - **Domestic abuse** (lesson 7). The services' framing (the reader decides); men as victims; no claim
-  about why people stay; the victim's gun deferred to lesson 14.
+  about why people stay; the victim's gun deferred to lesson 15.
 - **De-escalation and policing** (lessons 8, 9). ICAT reported as evidence about police training, not
   as a position on policing; Right To Be's stance on calling police attributed beside the official
   position; the course adopts neither.
@@ -1673,7 +1693,7 @@ otherwise (decision 7); and that no mechanism was added from general knowledge (
 - **Stand your ground** (lesson 13). Value question plus RAND's grading attributed to RAND with the
   deterrence rationale and RAND's caveat; the proponents' term with the opponents' named; the race
   argument attributed and brief, no figure.
-- **Guns for protection** (lesson 14). NRC-framed; Kleck and Gertz, Hemenway, RAND, Anglemyer each in
+- **Guns for protection** (lesson 15). NRC-framed; Kleck and Gertz, Hemenway, RAND, Anglemyer each in
   their own terms; read by F as a gun-rights reader and as a gun-control reader; the crisis callout
   where suicide appears; the domestic abuse question at the level the sources reached.
 - **Religion.** Nothing in SOURCES bears on a tradition's teaching about self-defence or force; the

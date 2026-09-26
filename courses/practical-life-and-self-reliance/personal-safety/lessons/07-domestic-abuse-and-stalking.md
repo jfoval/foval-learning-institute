@@ -525,7 +525,7 @@ a protective order, a kind of court order whose name and rules vary by state, ca
 require an abusive partner to turn over their guns.[14] This is general information, not legal
 advice. The law differs by state, and between England and Wales, Scotland and Northern Ireland. The
 separate question of a gun kept by the person being abused is one people disagree about, and this
-lesson leaves it to lesson 14, "The home, property, and carrying something for protection", where the
+lesson leaves it to lesson 15, "Carrying something for protection", where the
 course takes up guns for protection.
 
 ### Not a job for de-escalation
@@ -723,8 +723,8 @@ Homicide Index row and separated rate are what Campbell's study comes at from an
 Aid and CPR lesson 2 taught the emergency call; this lesson adds only the silent call.
 
 **Forward.** Lesson 8, "Talking it down", is written for a threatening stranger or a tense moment
-at work, not for an abusive relationship. Lesson 14, "The home, property, and carrying something for
-protection", takes up the question of guns for protection. Lesson 15, "Afterwards", covers
+at work, not for an abusive relationship. Lesson 15, "Carrying something for
+protection", takes up the question of guns for protection. Lesson 16, "Afterwards", covers
 reporting, support whether or not you report, and compensation. Relationships and Family, later on
 the Core, is where relationships themselves are taught.
 
