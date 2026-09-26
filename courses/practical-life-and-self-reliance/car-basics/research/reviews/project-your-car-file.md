@@ -272,3 +272,50 @@ em or en dash in the file.
 - **Neutrality audit N3:** applied as given in the tyre record (Part 2).
 
 **Verdict: needs targeted re-check (Parts 2, 3 and 6 and the rubric).**
+
+## Re-check (2026-09-26)
+
+**Reviewer:** one fresh-context reviewer, targeted at Parts 2, 3 and 6 and the rubric, after the
+resolutions above. Read CLAUDE.md, courses/CLAUDE.md, the style guide, this file and the
+neutrality audit's N3; opened lessons 8 (exercise step 3 and the positions), 10 (lines 140 to 149),
+11 (exercise and card), 16 (the NI paragraph and exercise step 4), 17 (the NI paragraph, exercise
+steps 2 to 4, source 17), 18 (space-saver law), 24 (exercise opening and step 1) and 25 (the
+stop-points table and the "Elsewhere" route) at the sentences the project relies on.
+
+- **R1 and R2, sound.** Part 6 item 2 gives Great Britain, Northern Ireland and a US state their own
+  ordinary-road and fast-road steps; item 3 ends "by your own country's steps"; Part 3's top line
+  sends each reader to their own country's steps. No Great Britain roadside or motorway step reaches
+  a Northern Ireland reader: the Part 6 cautions name Rules 276 and 277 for Great Britain only and
+  give Northern Ireland the stop as this course's reading, as lesson 25's table does. Checked live
+  (curl, 26 September 2026) against nidirect's "Breakdowns and incidents (274 to 287)": the page
+  carries both an ordinary-road breakdown rule (274: where to stop, where people stand) and
+  "Additional rules for the motorway" (275, 277), so the project's two NI instructions each have
+  something to copy, and its motorway rule does differ from Great Britain's Rule 277 (the emergency
+  telephone, waiting near the vehicle, animals left in it), as lesson 17 says. Consistent with lesson
+  16 ("a reader there follows that Code") and lesson 16's exercise step 4 (open the NI page).
+  **Fixed inline (one edit):** item 2's "the same steps copied from its own Code's page" could be
+  read as Great Britain's steps; it now reads "where to stop and where everyone stands as its own
+  Code's 'Breakdowns and incidents' page gives them".
+- **R3, sound.** The month rule is labelled "this project's own requirement, not a lesson's";
+  twice for pressures, under-bonnet and walk-round, at least once for tread and the bounce test; the
+  rubric's Thorough says "as often as Part 2 asks" and its Not yet "fewer than two rounds without a
+  reason written". No conflict.
+- **R4, sound.** The rubric's reason-line sentence covers every reading, check and lookup a level
+  names (start-up check, recall check, rounds), and the closing sentence agrees. **Fixed inline (one
+  edit):** the no-car route now asks for "no car to check" "with the date", which the rubric's
+  sentence requires.
+- **N3, sound.** The tyre line now runs "from the legal floor with Michelin's case to the earlier
+  replacement points", matching lesson 8's exercise step 3, so the full-use position can be named.
+- **Pointers, sound.** Lesson 8 (positions and holders), 10 (every garage, the course's own
+  precaution), 11 (stop-now four, the rest, the start-up check, glovebox), 16, 17 ("stuck in a
+  lane"), 24 ("do only step 1 and note who arranges the rest"), 25 (H2 "The course's main stop
+  points, in one place", the Rule 277 row's "elsewhere, this course's reading", the FTC route). **Fixed
+  inline (one edit):** Part 3's top line named no lesson for the US; it now reads "lesson 16's, your
+  state handbook's and the callout's in the US", matching Part 6 item 2.
+- **Decision 1, sound.** Walked Parts 2, 3 and 6 again: nothing lifts, loosens, jumps, changes a
+  wheel, goes under the car, touches high voltage, drives or stands at a roadside; the only engine
+  running is lesson 10's, outdoors.
+- **Callout and dashes.** Callout byte-identical to `CAR_BASICS_SAFETY` (`includes()`, true); no em
+  or en dash in the file. `npm run validate` exits 0.
+
+**Verdict: CLEAN.**

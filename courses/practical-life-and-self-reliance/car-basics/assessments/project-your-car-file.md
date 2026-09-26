@@ -95,7 +95,7 @@ Build the file for a named car whose handbook you can read online, and write at 
 and which car it is. Lesson 2 noted that Mazda and Nissan UK publish their handbooks on their own
 sites; this course didn't check other makers. Most of the file works from the handbook and official
 pages. Where a line needs the car in front of you (the checks log's readings, the start-up check on
-the card, where the kit is kept), write the layout, your chosen intervals, and "no car to check".
+the card, where the kit is kept), write the layout, your chosen intervals, and "no car to check", with the date.
 That counts as complete, with the reason written.
 
 ## Which country
@@ -233,8 +233,8 @@ instruction in its own words, and a label.
   starting, parked, and any that the handbook says should light and didn't, noted for a garage.
 
 Across the top, one line: stopping "in a safe place" means the steps for your own country on your
-breakdown plan (Part 6): the callout's and lessons 16 and 17's in Great Britain, your state
-handbook's and the callout's in the US, and Northern Ireland's own Code's in Northern Ireland.
+breakdown plan (Part 6): the callout's and lessons 16 and 17's in Great Britain, lesson 16's, your
+state handbook's and the callout's in the US, and Northern Ireland's own Code's in Northern Ireland.
 
 ## Part 4: the service page
 
@@ -331,8 +331,8 @@ handbook gives (lesson 17).
 
 **2. The steps, for your country only.** For ordinary roads: in Great Britain, lesson 16's Rules 275
 and 276, where to stop and where everyone stands, with which of Rule 276's lines are advice; in
-Northern Ireland, the same steps copied from its own Code's "Breakdowns and incidents" page, which
-lesson 16's exercise has you open, not Great Britain's; in a US state, lesson 16's US advice, with
+Northern Ireland, where to stop and where everyone stands as its own Code's "Breakdowns and
+incidents" page gives them, which lesson 16's exercise has you open, not Great Britain's; in a US state, lesson 16's US advice, with
 the callout's exceptions. For motorways and fast
 roads, lesson 17's: in Great Britain, the callout's steps as Rule 277 gives them, with each line
 marked MUST or should; in Northern Ireland, the motorway steps copied from [its own Highway
