@@ -5834,3 +5834,18 @@ The Criminal Damage Act 1971; the *Ray* and *Collins* judgments (only the CPS's 
 §§10.00, 140.00; Texas §30.01 and the Penal Code's "nighttime"; any source arguing against
 s.76(5A); any Scots source on force to protect property beyond the Jury Manual's "personal danger,
 not material loss"; anything on how Northern Ireland's courts treat force in a home.
+
+## Gate closures, lesson 15, second pass (2026-09-25)
+
+Kleck and Gertz 1997 reply (Internet Archive capture 20240709092114), pp. 1452 to 1453, read by the
+second-pass reviewer:
+- [V] "H argues that our estimates are implausible because our survey implies a number of DGUs occurring in connection with burglaries that exceeds the total number of burglaries of occupied residences estimated by the NCVS."
+- [V] "This is true because DGUs typically involve criminal behavior, such as unlawful gun possession, by the gun-using victim, who therefore is often unwilling to report the incident."
+- [V] "the 194 reported DGU incidents, of which about 40 were linked to burglaries"
+- [V] "No competent criminologist believes that the NCVS provides complete coverage of all burglaries, or any other crimes, occurring in the U.S."
+
+National Domestic Violence Hotline, guns page:
+- [V] "It’s important to note that this risk doesn’t only apply to women; anyone can be in serious danger if their abusive partner has a gun."
+
+Gate G17 stays open. No source read shows which critics published on the gun-in-the-home studies, so
+lesson 15 names none ("Kleck among them" removed at the second pass).

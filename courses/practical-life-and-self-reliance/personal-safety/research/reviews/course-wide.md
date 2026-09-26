@@ -404,3 +404,34 @@
   avoid both settings.
 - **Cross-references:** the "lesson 15, Afterwards" pointers the drafter flagged were already
   renumbered to 16 in lessons 1, 5, 7, 9, 10 and 11 (checked by grep).
+
+## 2026-09-25 — from lesson 14's Stage 4 fix
+
+- **Quiz keys:** lesson 14 stays 2,3,0,1,0,3. Checked by script under the lesson-12-on rule against
+  lessons 1 to 13, lesson 15 as on disk (0,1,3,2,1,2) and lesson 16 as 2,3,1,2,0,1: passes (all four
+  used, no adjacent repeat, not identical to or a shift of any lesson, no shared run of four at
+  offsets 0 or ±1; at most three positional matches, with lessons 1, 3, 8 and 16; longest shared run
+  with 16 is two). Reviewer P's 2,1,2,1,0,3 was not used: it would share 2,1,0,3 with lesson 1 at
+  offset 2. Lesson 16's second pass can confirm against this.
+- **SOURCES Part D §4.4 corrected** (Stage 4 note in place; §9.42 whole in "Gate closures, lesson
+  14"). No lesson or script may give Texas §9.42 as needing only that the property "cannot be
+  protected or recovered by any other means": (2)(B) covers a thief fleeing at night with the
+  property, and (3)(B) is the alternative that lesser force would risk death or serious injury.
+  Texas §9.41(b) recovery also needs no claim of right, or force, threat or fraud; §9.32(b)(1)(A)
+  covers a completed entry ("entered"), not only one in progress.
+- **Florida §776.013(3)(a)** names "a written pretrial supervision order of no contact", never a
+  general "no-contact order". The §776.032(1) immunity covers force under §§776.012, 776.013 and
+  776.031, so a castle-doctrine or property passage that lists what Florida adds should name it.
+- **Descriptions of Texas §9.42:** not "narrow" and not "the best known" in the course's voice (a
+  gun-control reader disputes the first; no source supports the second). "The rule you may have
+  heard of" and "all three of its conditions have to hold" are the forms used.
+- **The leaflet is three pages**, and its answer to "What amounts to disproportionate force?"
+  (reasonable as you believe things; disproportionate force may still be reasonable at home; "the
+  benefit of the doubt") is its most householder-friendly passage: a script on lesson 14 should keep
+  it beside *Ray*.
+- **Footnote markers after a word character** ("applies[2]") render as literal text: build.mjs
+  converts `[n]` only when not preceded by `\w`. Put the marker after a full stop, bracket or quote.
+  A linter check for `\w\[\d+\]` would catch it; not added here.
+- **The Criminal Damage Act 1971 was not read.** The CPS capture says defence of property "is governed
+  by" it; the course cites s.76(2)(aa) for force against a person to protect property and must not
+  describe the 1971 Act.
