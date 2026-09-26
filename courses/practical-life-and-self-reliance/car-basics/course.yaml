@@ -1,0 +1,27 @@
+id: car-basics
+title: Car Basics
+school: practical-life-and-self-reliance
+subject: Practical Life & Self-Reliance
+level: Foundation
+status: research
+summary: >-
+  Understand what's under the bonnet, keep a car safe and legal with a few regular checks, handle a
+  flat tyre or a breakdown, and know which jobs to leave to a garage.
+description: >-
+  Most car trouble gives notice first: a warning light, a soft tyre, a noise that wasn't there last
+  month. This course explains how a car works (engine or motor, battery, brakes, tyres, fluids and
+  lights), the checks an owner can make and the law on roadworthiness in the UK and the US side by
+  side, what to do at a breakdown or a flat, how electric and hybrid cars differ, and how to deal
+  with a garage, a service and an MOT or state inspection. It treats jacks, batteries and
+  high-voltage systems with the caution they need and says which work to leave to a mechanic. It
+  follows Home Repair and Maintenance in Term 3.
+outcomes:
+  - Explain in plain terms how the main systems of a petrol, diesel, hybrid and electric car work
+  - Carry out the owner's routine checks (tyres, fluids, lights, wipers, battery) and read what the
+    dashboard warnings mean
+  - Say what the law requires of a roadworthy car in the UK and in US states, including the MOT and
+    state inspections, and what the driver is responsible for
+  - Handle a breakdown or a flat tyre safely, and know when not to attempt a roadside fix
+  - Choose and deal with a garage, read a quote or a service record, and know your consumer rights
+prerequisites: [first-aid, home-repair]
+sensitive_domain: false
