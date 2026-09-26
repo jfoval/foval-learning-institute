@@ -173,3 +173,85 @@ lesson.
 **Status after review:** needs a second pass (the new leaflet bullet, the rewritten quiz 4, the moved
 predict, the Florida, Texas and MPC paragraphs and the new value-question lines should be read
 fresh).
+
+## Second pass (2026-09-25)
+
+**Reviewer:** one fresh-context reviewer. Read the fixed lesson against the first-pass findings, and
+string-checked the changed passages against the primaries in the session scratchpad
+(`ps-l14home/`, `ps-rev14F/`: leaflet text, CPS capture, Jury Manual chapter pp. 45.1 to 45.6, MPC
+§§3.04 and 3.06, Florida ch. 776, Texas ch. 9 from the Council file, NY §35.15). No browser used.
+
+**First-pass findings.** F1 to F16 and P1 to P22 are applied as the resolutions say; P1's decline
+stands (below). Two F7-class trims remained in text not touched by F7 (items 4 and 5 below).
+
+**Findings and what was done**
+1. [minor] Leaflet bullet: "But defending yourself ... in your home," dangled aloud, and "in the
+   heat of the moment" dropped the leaflet's "perhaps ... in extreme circumstances", so the benefit
+   of the doubt read as unconditional. **Fixed:** "But where you're defending yourself or others from
+   intruders in your home, "it might still be ... disproportionate", perhaps in extreme circumstances
+   in the heat of the moment. "The law will give you the benefit of the doubt in these
+   circumstances."" Quotations unchanged.
+2. [minor] "Afterwards" bullet made the quick, no-arrest outcome general; the leaflet says "In some
+   cases, for instance where". **Fixed:** "In some cases, such as where ...".
+3. [minor] Quiz 4 stem stated facts, but §3.06(3)(d) turns on what the actor "believes"; a mistaken
+   belief in danger would change the answer. **Fixed:** "and the person using it knows the thief
+   threatens nobody and that stopping him with less than deadly force would put no one in danger".
+   Key and options unchanged; option lengths unchanged. The body's MPC sentence now reads "Deadly force
+   is allowed only where the person believes the facts fit one of the cases §3.06(3)(d) lists."
+4. [minor] Florida §776.013(2) paraphrase dropped the completed removal ("had removed") and "or had
+   occurred". **Fixed:** "or had removed or was trying to remove someone from one against their
+   will, and the person using force knew or had reason to believe it was happening or had happened".
+5. [minor] Texas §9.32(b)(1)(B) paraphrase dropped the completed removal. **Fixed:** "had dragged
+   them out of one, or was trying to".
+6. [minor] Texas §9.41 sentence let the recovery conditions read onto protection, and put (b)(1) as
+   a fact rather than the actor's reasonable belief. **Fixed:** "and force to recover it ... where
+   the person reasonably believes the taker had no claim of right, or the taker used force, threat
+   or fraud." Tariq's Texas question likewise now asks belief for (b)(1) only ("or had the man taken
+   it by force, threat or fraud?"), since (b)(2) is objective.
+7. [minor] Scotland predict answer implied Scotland forbids force for property, which the lesson
+   elsewhere says it cannot tell. **Fixed:** added "This course read no other Scots rule on it."
+8. [minor] Misconception "You can shoot someone for stealing" said flatly "Not in ... Scotland",
+   contradicting "Protecting property" (the course read no Scots rule on property). **Fixed:** "Not in
+   England and Wales. Scotland's self-defence covers personal danger, not property, and this course
+   read no other Scots rule. Under the Model Penal Code, only ...".
+9. [minor] Kept "You'll be prosecuted" misconception: sound, and it stays (it answers the opening's
+   second claim). Named the jurisdiction ("The England and Wales leaflet"), per course-wide's "UK is
+   wrong" note, so a US reader doesn't take it as general.
+10. [info, neutrality] New castle-doctrine value lines pass: both directions ("too far or not far
+   enough"), no side taken. Unlike the England paragraph, they don't say no source on castle doctrine
+   itself was read; SOURCES records none (only RAND's count and NCSL's definition). Optional for a
+   later edit; not changed.
+11. [info] "Cruel excess" (Joanne, quiz 3, exercise key) matches para 3; "can reasonably be expected
+   to adopt" matches para 4; the defence-of-another line matches 4a. The chapter runs pp. 45.1 to
+   45.6 in the PDF (45.6 carries its last footnotes), so the lesson's page range holds; course-wide's
+   "45.1 to 45.5" is one page short. No change.
+12. [info] MPC §3.04(2)(b)(ii)(A), §3.06(1), (3)(a), (3)(d); CPS Ray line and the (8A) notes; NY
+   (2)(a)(i); Texas §§9.42 and 9.44: all verified against the primaries. Quiz 1, 2, 3, 5, 6 keys
+   correct.
+
+**Decision 9.** No verdict on a named person: *Ray* is cited only for the point of law, *Collins* is
+not named, Joanne and Tariq are answered in questions only.
+
+**Quiz keys.** 2,3,0,1,0,3 re-checked by script against lessons 1 to 13, 15 (0,1,3,2,1,2) and 16
+(2,3,1,2,0,1) as on disk: all four used, no adjacent repeat, not identical, not a rotation or
+value-rotation, not a shift by 1 or 2 of any lesson; longest shared run at offsets 0 or ±1 is three
+(lesson 3, offset 0); at most three positional matches (lessons 1, 3, 8, 16). Passes the lesson-12-on
+rule.
+
+**Voice.** No em or en dashes. The new sentences read aloud cleanly; the shoot-for-stealing line was
+split into three sentences for that reason.
+
+**Measures.** `npm run minutes`: 90 (unchanged). `npm run quotes personal-safety`: 0 not found.
+`npm run validate`: exit 0.
+
+**SOURCES (for the orchestrator; not edited here).** Texas §9.32(b) is in "Gate closures, lesson 14"
+in full, and the leaflet's "In some cases, for instance where" and "perhaps if you are acting in
+extreme circumstances" are in the lesson 16 and 14 gate closures. Part D §4.2's §776.013(2) entry
+stops at "occupied vehicle"; the lesson now paraphrases the rest, so a gate-closure line should add,
+verbatim from Florida Statutes 2026 (`ps-l14home/fl776.txt`, re-checked 25 September 2026): (2)(a)
+continues ", or if that person had removed or was attempting to remove another against that
+person’s will from the dwelling, residence, or occupied vehicle; and" and (2)(b) "The person who
+uses or threatens to use defensive force knew or had reason to believe that an unlawful and forcible
+entry or unlawful and forcible act was occurring or had occurred." [V]
+
+**Verdict: CLEAN.**

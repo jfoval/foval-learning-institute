@@ -66,8 +66,9 @@ quiz:
       doesn't remove the escape question at home, though it doesn't arise when defending another.
   - q: >-
       Under the Model Penal Code, as general information, does §3.06 treat deadly force as
-      justifiable where it is used solely to stop a thief carrying a bicycle out of a shed, the thief
-      threatens nobody, and stopping him with less than deadly force would put no one in danger?
+      justifiable where it is used solely to stop a thief carrying a bicycle out of a shed, and the
+      person using it knows the thief threatens nobody and that stopping him with less than deadly
+      force would put no one in danger?
     options:
       - Yes, since the Code allows the force believed necessary to stop movable property being taken
       - No, since the Code allows deadly force for property only in listed cases this doesn't meet
@@ -251,10 +252,11 @@ actually ask.[3]
 - **Fear counts.** "As a general rule, the more extreme the circumstances and the fear felt, the more
   force you can lawfully use in self-defence."
 - **Disproportionate isn't automatically unlawful at home.** "The force you use must always be
-  reasonable in the circumstances as you believe them to be." But defending yourself or others from
-  intruders in your home, "it might still be reasonable in the circumstances for you to use a
-  degree of force that is subsequently considered to be disproportionate", in the heat of the moment,
-  and "The law will give you the benefit of the doubt in these circumstances."
+  reasonable in the circumstances as you believe them to be." But where you're defending yourself or
+  others from intruders in your home, "it might still be reasonable in the circumstances for you to
+  use a degree of force that is subsequently considered to be disproportionate", perhaps in extreme
+  circumstances in the heat of the moment. "The law will give you the benefit of the doubt in these
+  circumstances."
 - **Not waiting.** "Do I have to wait to be attacked? No, not if you are in your own home and in fear
   for yourself or others."
 - **Where it tips over.** "If for example you had knocked an intruder unconscious and then went on to
@@ -263,7 +265,7 @@ actually ask.[3]
   someone already knocked unconscious, to punish them, and where "you knew of an intended intruder
   and set a trap to hurt or to kill them rather than involve the police".
 - **Afterwards.** "the police have a duty to investigate incidents involving a death or injury".
-  Where the facts are very clear or the injuries less serious, the investigation "will be concluded
+  In some cases, such as where the facts are very clear or the injuries less serious, the investigation "will be concluded
   very quickly, without any need for arrest", and the leaflet adds that "It is a fact that very few householders have ever been prosecuted for actions resulting from the
   use of force against intruders." The leaflet gives no number, and this course does not supply one.
 
@@ -326,8 +328,8 @@ shown, another fact is taken as established. A person is presumed to have held a
 imminent peril of death or great bodily harm" when using force that could kill or badly injure
 someone. The facts that bring it in: the other person was "in the process of unlawfully and
 forcefully entering, or had unlawfully and forcibly entered, a dwelling, residence, or occupied
-vehicle", or was trying to drag someone out of one, and the person using force knew or had reason to
-believe it was happening (§776.013(2)).[8] The statute lists four cases where the presumption does
+vehicle", or had removed or was trying to remove someone from one against their will, and the person
+using force knew or had reason to believe it was happening or had happened (§776.013(2)).[8] The statute lists four cases where the presumption does
 not apply, and the first matters most here: it does not apply against someone who has a right to be
 there, such as an owner or a tenant, unless an injunction for protection from domestic violence or a
 written pretrial supervision order of no contact is in place against them (§776.013(3)(a)).[8] If someone you live with is frightening you, the lesson "Domestic abuse and
@@ -336,8 +338,8 @@ stalking" starts with the helplines.
 **[Texas](https://statutes.capitol.texas.gov/Docs/PE/htm/PE.9.htm)** has a presumption of the same kind. A person's belief that deadly force was
 immediately necessary is presumed reasonable if they knew or had reason to believe one of three
 things: the other person had unlawfully and with force entered, or was trying to enter, their
-occupied habitation, vehicle, or place of business or employment; was trying to drag them out of
-one; or was committing one of a list of violent crimes, robbery among them. Two more conditions
+occupied habitation, vehicle, or place of business or employment; had dragged them out of one, or
+was trying to; or was committing one of a list of violent crimes, robbery among them. Two more conditions
 apply: they did not provoke the other person, and they were not engaged in criminal activity beyond
 a minor traffic offence (§9.32(b)).[9] For someone who has a right to be there, did not provoke it
 and is not engaged in criminal activity, the fact-finder "may not consider whether the actor failed
@@ -427,7 +429,7 @@ things, and the jurisdictions part company.
 
 :::predict Before you read on: which of England and Wales, Scotland, the Model Penal Code and Texas do you expect to allow force to protect property alone, and which, if any, deadly force?
 
-England and Wales allows reasonable force, never disproportionate force. The Model Penal Code and Texas allow force in set conditions, and deadly force only in cases they list. Scotland's self-defence doesn't reach property at all: "The danger anticipated must be personal danger, not material loss".[5] The rest of this section takes them one at a time.
+England and Wales allows reasonable force, never disproportionate force. The Model Penal Code and Texas allow force in set conditions, and deadly force only in cases they list. Scotland's self-defence doesn't reach property at all: "The danger anticipated must be personal danger, not material loss".[5] This course read no other Scots rule on it. The rest of this section takes them one at a time.
 :::
 
 **In England and Wales**, defence of property is one of the defences section 76 governs, but it
@@ -446,8 +448,8 @@ immediately necessary to stop an unlawful entry, a trespass or the carrying away
 or to take the property back, either straight after it was taken or, in cases the Code sets out,
 later (§3.06(1)). The Code usually wants a
 request to desist first, unless asking would be useless or dangerous, or the property would be
-damaged before the request could be made (§3.06(3)(a)).[6] Deadly force is allowed only in the
-cases §3.06(3)(d) lists. One is against someone trying to take the person's dwelling from them
+damaged before the request could be made (§3.06(3)(a)).[6] Deadly force is allowed only where the
+person believes the facts fit one of the cases §3.06(3)(d) lists. One is against someone trying to take the person's dwelling from them
 without any claim of right to it, meaning any genuine belief that they're entitled to it. The other
 is against someone committing "arson, burglary, robbery or other felonious theft or property
 destruction" who has either used or threatened deadly force, or where any lesser force would expose
@@ -455,8 +457,9 @@ the person or someone with them to "substantial danger of serious bodily injury"
 Read those again and most of them are about danger to a person, not the value of the thing.
 
 **In Texas**, the statute goes further, and it may be the rule you've heard of. Section 9.41
-allows force to protect land or property, or to recover it immediately or in fresh pursuit (chasing
-straight after it was taken), where the taker had no claim of right or used force, threat or fraud.
+allows force to protect land or property, and force to recover it immediately or in fresh pursuit
+(chasing straight after it was taken) where the person reasonably believes the taker had no claim of
+right, or the taker used force, threat or fraud.
 Section 9.42 allows deadly force "to protect land or tangible, movable property" if all of three
 things hold.[9]
 
@@ -525,8 +528,8 @@ would start again.[5]
 lesson 13 described), §9.42 does not come into it, though a man fleeing at night with property is the
 kind of case its second limb names. The question is §9.41's: did Tariq reasonably believe the force
 he used was immediately necessary to recover the property, in fresh pursuit after it was taken, and
-did he reasonably believe the man had no claim of right to it, or had taken it by force, threat or
-fraud?[9]
+did he reasonably believe the man had no claim of right to it, or had the man taken it by force,
+threat or fraud?[9]
 
 ## What people get wrong
 
@@ -542,7 +545,7 @@ to be."[3]
 **"The householder rule covers my garden, my drive and my things."** It covers force used in or partly
 in the building, in self-defence. Not the garden, and not property.[1][2]
 
-**"You'll be prosecuted for fighting off a burglar."** The leaflet says police have a duty to
+**"You'll be prosecuted for fighting off a burglar."** The England and Wales leaflet says police have a duty to
 investigate a death or injury, and also that "very few householders have ever been prosecuted".[3]
 Both hold at once.
 
@@ -555,8 +558,9 @@ Florida and Texas adds a presumption, and in Florida force the chapter justifies
 from arrest and prosecution (§776.032(1), lesson 13). None of the texts drops the requirement that force was
 believed necessary, and Florida's presumption has exceptions.[6][7][8][9]
 
-**"You can shoot someone for stealing."** Not in England and Wales or Scotland, and under the Model
-Penal Code only where the theft comes with deadly force or a danger of serious injury. Texas's §9.42
+**"You can shoot someone for stealing."** Not in England and Wales. Scotland's self-defence
+covers personal danger, not property, and this course read no other Scots rule. Under the Model
+Penal Code, only where the theft comes with deadly force or a danger of serious injury. Texas's §9.42
 is the exception you may have heard of, and all three of its conditions have to hold; Florida and New
 York also allow deadly force against some named crimes, burglary among them, as the property section
 showed.[3][5][6][7][8][9]

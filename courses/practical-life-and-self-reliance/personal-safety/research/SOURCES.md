@@ -5854,3 +5854,9 @@ lesson 15 names none ("Kleck among them" removed at the second pass).
 
 - IOPC silent solution guide: [V] "the police call handler will attempt to communicate with you by asking simple yes or no questions" (quoted in lesson 16, quiz 2 explanation).
 - IOPC Silent Solution poster, beside the Part D §8.1 poster entry: https://www.policeconduct.gov.uk/sites/default/files/documents/Silent_Solution_poster_A4_ENG.pdf
+
+## Gate closures, lesson 14, second pass (2026-09-25)
+
+Florida Statutes 2026 §776.013(2), the rest of the text Part D §4.2 stops short of (`ps-l14home/fl776.txt`, re-checked 25 September 2026):
+- (2)(a) continues [V] ", or if that person had removed or was attempting to remove another against that person’s will from the dwelling, residence, or occupied vehicle; and"
+- (2)(b) [V] "The person who uses or threatens to use defensive force knew or had reason to believe that an unlawful and forcible entry or unlawful and forcible act was occurring or had occurred."

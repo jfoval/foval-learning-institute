@@ -326,7 +326,7 @@
   rule has a way back (NY (1)(a) and Florida §776.041(1) have none); that Scotland bars whoever
   started a quarrel (para 7 and the quarrel direction say the opposite); that stand your ground in
   Florida removes "only" the duty to retreat (§776.032(1) immunity); or the Jury Manual's pages as
-  44.3 to 45.3 (45.1 to 45.5).
+  44.3 to 45.3 (45.1 to 45.6).
 - **Deadly force has a sourced gloss now**: MPC §3.11(2) (quoted) and Texas §9.01(3); New York's
   §10.00 unread; Florida's chapter defines it only for officers (§776.06). Lesson 14 can point back
   to lesson 13's paragraph rather than define it again.
