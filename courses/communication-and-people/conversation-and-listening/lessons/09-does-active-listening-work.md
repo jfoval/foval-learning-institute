@@ -40,7 +40,7 @@ quiz:
       - Both studies show that restating is what makes listening help, so they agree fully
       - The phone study shows paraphrase works, since attention always includes restating it
       - They test different claims, and only the second isolates restating as the technique
-      - Neither can say anything, because they didn't use the same outcomes or the same people
+      - Neither tells you much, because they didn't use the same outcomes or the same people
     answer: 2
     explain: >-
       The first compares a whole stance of attention with visible distraction; the second holds
@@ -548,7 +548,7 @@ The authors write that they were shocked, because they had recommended the appro
 they went back through every videotape and transcript of the stable, happy couples, in this study
 and in another group they had followed for 13 years. Those couples rarely paraphrased, rarely
 summarised each other's feelings, and almost never validated them; the study's "validation" code
-had mostly been catching the small nods and "mm-hm"s a listener gives.[10] What did predict divorce,
+had been catching only the small nods and "mm-hm"s a listener gives.[10] What did predict divorce,
 in their data, was a pattern: a negative start-up by the wife, the husband refusing to accept
 influence from his wife, the wife returning low-level negativity in kind, and the husband not
 de-escalating it.[10]
@@ -585,8 +585,8 @@ in marital functioning tied specifically to active listening do not dominate the
 
 The strongest form of their objection, as this course reads it (the abstract doesn't say it), is
 that a study of what happy couples do naturally can't test a technique designed for when things go
-wrong. Weger's 2014 paper sets Gottman's finding beside Markman and colleagues' statement, in a 2001
-work, that the speaker-listener technique "feels unnatural to couples because it is designed to help
+wrong. Weger's 2014 paper sets Gottman's finding beside a 2001 work by Markman and colleagues,
+which, in Weger's words, confirms that the speaker-listener technique "feels unnatural to couples because it is designed to help
 couples avoid natural conversation pitfalls".[2] On that view, and to put it in this course's terms,
 finding that happy couples don't do it spontaneously is no more a test of it than finding that good
 drivers rarely use the emergency brake.
@@ -621,7 +621,7 @@ was set against, as the 2010 and 2014 experiments showed.[1][2]
 
 **"Active listening doesn't work."** That overcorrects. Being listened to by a trained, attentive listener,
 against a distracted or ordinary one, has consistent effects across one programme's many experiments, and the
-technique studies found small effects, not none.[3][4][5][9]
+technique studies found small effects, not none.[3][4][5][6][9]
 
 **"Happy couples use active listening when they argue."** Gottman's newlyweds almost never did, happy or not.[10]
 

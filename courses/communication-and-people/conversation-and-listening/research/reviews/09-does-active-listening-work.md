@@ -572,3 +572,109 @@ never the sole longest. New names and places: none (the two new quiz scenarios n
 line names this file.
 
 **Status after review:** clean
+
+## Fresh second pass (2026-09-26)
+
+**Checker:** one fresh-context re-checker (neither drafter, reviewer nor fixer), against e9eabe9,
+diffing the lesson against e9eabe9~1, with a whole-lesson neutrality re-count. Re-fetched today by
+curl (generic browser User-Agent, no personal data): Weger 2010 and Weger 2014 (Internet Archive
+captures of the Taylor and Francis full-text pages, 2023-10-29 and 2025-07-02), Kluger et al. 2024
+(capture of the Springer page, 2025-12-30), the HBR article (authors' hosted PDF), DeMarree et al.
+2026 (osf.io/download/b9e2s_v2), Itzchakov and Bodie 2026 and Bodie et al. 2015 (grahambodie.com),
+the Blueprint (gottman.com), Gottman et al. 1998 (johngottman.net scan, all 19 pages at 200 dpi,
+tesseract), [14]'s abstract page (perc.wa.gov) and the two PSPB abstracts (OpenAlex). **Every new or
+changed quotation string-matched** after normalising quotes and spacing: Weger 2010's "focuses on
+only the verbal element", "people may attend more to nonverbal than verbal cues" (confirmed as the
+authors' *first* explanation), "The impersonal nature...", "plays an important role in
+communication skills training courses...", "improvements in marital functioning tied specifically
+..." and the conclusion; Weger 2014's condition wording, "overall level of responsiveness", the full
+"low-risk" sentence with "at least in terms of these outcomes", the sample limit, "feels unnatural
+...", 107 dyads, the PREP 7.0 leader manual; Kluger's four quotations, experimental .39 against
+correlational .40, predictive .27 against concurrent .42, "30 experimental effects", "Published: 17
+July 2023"; HBR's three listener descriptions, "at your best", "felt less anxious", 114, 12 minutes
+(the 112-student study's 10 minutes and proposal topics match the trace); DeMarree's four strings,
+"listen attentively without verbally responding", d = 0.98, and "past work relied on trained
+listeners ... assigned participants to the role of 'speaker'"; Itzchakov and Bodie's "risky
+intervention" sentence and "binary listening manipulations"; Bodie's "not a panacea"; the
+Blueprint's first rule, "No blaming", "I statements", "Hear and repeat the content of the speaker's
+needs", "Flooded? ... Take a break"; Gottman's "hardly ever occurred", both hedged quotations, the
+two-item therapy sentence (the lesson's paraphrase of "Second" is fair), the 20 and 20 comparison
+groups, the 13-year cohort, "every videotape and transcript", "shocked", Puget Sound, newspaper
+advertisements, first marriage. The PSPB papers are carried at abstract level only: every clause in
+lines 279 to 285 and in trace step 1 is in the abstracts, and nothing beyond them is claimed.
+
+**P1 to P14 and F1 to F19: all resolved in the text as recorded.** The five questions are one list
+used in the walk-through, the trace (first three, then two handed over) and the exercise and model.
+The new predict asks what lesson 8 couldn't answer and keeps r = .15 and the first hypothesis. The
+checkpoint's item 4 is now the listeners, and the comparison is named as the difference that can't
+explain the split. F1's reconciliation now says "package of attention and technique against
+distracted or ordinary listening", which the HBR and [14] strings support. F2's positive case is
+Weger's report of Stanley et al., and the "review of studies" sentence is cited by Weger to Stanley
+et al. 2000, so the attribution is right. F3 to F19 checked against the primaries above.
+
+**Numbers redone.** SVG at x = 60 + 640r: .39 → 309.6 (drawn 310), .36 → 290.4 (290), .43 → 335.2,
+.21 → 194.4, .13 → 143.2, .29 → 245.6; ticks 0, .2, .4, .5 at 60, 188, 316, 380. Rendered headless
+(Chrome) in both themes at 375 and 720 px: every label's `getBBox` inside the 420 × 296 viewBox
+(widest, the middle row's label, ends at x = 328; lowest text ends at y = 289); the .36 point and
+label sit clear of the row label above and the oxblood row below. Caption and `<desc>` agree with the
+rows, and "interval not read" matches the Sources line ("the tables were not read"). 17 + 20 + 20 =
+57 couples in the process comparison; d = 0.98 as "about one standard deviation"; 155,143 as
+"155,000 people". Quiz keys **3,2,3,1,2,0**; option spreads 5, 4, 4, 2, 2, 5; the key is never the
+sole longest; each explanation matches its key and answers every distractor by content.
+
+**Neutrality, re-counted across the whole lesson.** *Contested 1.* Narrow side: [1], [2], [3], [7];
+three full design readings, about ten quotations, a predict and a checkpoint. Broad side: [4], [5],
+[6], [8], [9], [14]; the abstracts' findings in their own words, both HBR studies with the ordinary
+listener now included, the four-lab paper's psychological-safety paths, Kluger's headline, its
+"powerful and often overlooked" conclusion, and now the experimental-equals-correlational reply;
+against it the same-source caveat, .21, predictive .27 and "only exposed the possibility", which are
+the authors' own. Both sides explained, not merely quoted. Last word in "So does it work?": the
+settling design, labelled the course's reading. Misconceptions: two errors from the pro-technique
+side ("paraphrasing makes people feel understood", "advice is always worse"), two from the sceptical
+side ("doesn't work", "four-lab shows it's pointless"), one neutral (.39 as 39%). Balanced.
+*Contested 2.* Gottman: [10] explained at length with hedges kept, the extreme-group design now
+stated, the Blueprint read both ways. PREP: [11]'s concerns, its positive case via [1], the Markman
+2001 point via [2], the brake analogy labelled the course's. Reply [12] reported at abstract level.
+Last word: the settling trial, labelled. Misconceptions: one popular pro-listening error, one
+combined line correcting an error in each direction. Balanced.
+
+**Turing test.** *Gottman's team:* passes. Both quotations keep "we are led to the hypothesis" and
+"If we are right"; the shock, the qualitative re-examination and the divorce pattern are given in
+their terms; the Blueprint's speaker rules are read as their gentler start-up; no retraction is
+claimed. One misconception line says the 1998 study "couldn't test training, as its critics said":
+a Gottman researcher would add that the paper framed its therapy point as a hypothesis rather than a
+test, which the body already says; not a finding. *Active-listening researchers (the Itzchakov and
+Kluger programme):* passes now. The ordinary-listener comparison, [14]'s poor/moderate/high design,
+the experimental .39 and the four-lab authors' own "difficult to induce" are all present, and the
+programme is described as a package rather than as a low bar. *Couples therapists and PREP
+authors:* passes. Their positive evidence (via Weger), their methodological concerns, the
+extreme-group design and the "unnatural by design" point are present, and the emergency-brake
+analogy is labelled the course's. *Sceptical communication scholars* and *counsellors who teach
+reflective listening:* still pass, as Reviewer F found.
+
+**Four one-edit fixes made here:**
+1. **The validation code.** The paper says observers used it "exclusively for what Duncan and Fiske
+   (1977) had called 'listener backchannels'"; the lesson said "had mostly been catching", which
+   softens a finding that weighs against validation having happened. Now "had been catching only".
+2. **The Markman string is Weger's wording, not Markman's.** Weger 2014 writes "Markman et al.
+   (2001) confirm that the speaker-listener technique (i.e., active listening) feels unnatural...";
+   the lesson called the quoted words "Markman and colleagues' statement", so a reader would take
+   them as Markman's own. Now "a 2001 work by Markman and colleagues, which, in Weger's words,
+   confirms that ...". The quotation itself is unchanged.
+3. **Misconception "Active listening doesn't work"** claims effects "against a distracted or
+   ordinary one" but did not cite [6], the only source for the ordinary listener. [6] added.
+4. **Quiz 2, defect 5.** The key was the only option without an absolute ("fully", "always",
+   "anything"). "Neither can say anything" is now "Neither tells you much" (83 characters; spread
+   still 4; the explanation's "don't make both worthless" still answers it).
+Both source readings behind fixes 1 and 2 are appended to SOURCES as "Fresh second pass, lesson 09
+(2026-09-26)".
+
+**Noted, not changed.** "Those 30 averaged .39" joins Kluger's "30 experimental effects" to H8a's
+r̄ = .39; the k behind .39 is in Table 7, which was not read, so the pairing is very likely but not
+string-verified. "Seattle area" for the paper's "Puget Sound area in Washington" is fair.
+
+No em dashes or spaced en dashes. `npm run quotes conversation-and-listening`: 168 sourced
+quotations, 0 not found. `npm run minutes`: 90 measured, 90 stated. `npm run validate` exits 0, no
+line names this lesson.
+
+**Verdict: SETTLED.**

@@ -4483,3 +4483,18 @@ abstracts.
   paraphrases both items.
 - **Gottman-Rapoport Conflict Blueprint**: Speaker rules "No blaming, no “you” statements" and "Only
   use “I statements” about a specific situation" [V].
+
+## Fresh second pass, lesson 09 (2026-09-26)
+
+Re-fetched today (curl, generic browser User-Agent, no personal data), sources as in "Gate closures,
+lesson 09 review". Two readings behind one-edit fixes:
+
+- **Gottman et al. 1998** [V-OCR, 200 dpi]: "Further examination of the validation code of the SPAFF
+  revealed that our observers were using our validation code exclusively for what Duncan and Fiske
+  (1977) had called “listener backchannels.” These are the usual brief vocalizations, head nods,
+  and facial movements that convey to the speaker that the listener is tracking." The lesson now
+  says the code had been catching "only" these, not "mostly".
+- **Weger et al. 2014** [V]: "Markman et al. (2001) confirm that the speaker-listener technique (i.e.,
+  active listening) feels unnatural to couples because it is designed to help couples avoid natural
+  conversation pitfalls." The quoted words are Weger's report of Markman et al. 2001, which this
+  course has not read; the lesson now says "in Weger's words".
