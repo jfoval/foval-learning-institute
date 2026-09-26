@@ -1,6 +1,7 @@
 ---
 title: Patterns, and the guidelines that bundle them
 minutes: 90
+audio: https://pub-f7bdc2ace9904917a8238f1557b7f247.r2.dev/health-and-body/nutrition/09-patterns-and-the-guidelines.mp3
 objectives:
   - >-
     State what the Mediterranean and DASH trials showed, including what happened to PREDIMED in 2018
