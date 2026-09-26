@@ -3,7 +3,7 @@ title: Conversation and Listening
 school: communication-and-people
 subject: Communication & People
 level: Foundation
-status: research
+status: drafting
 summary: >-
   Listen so that people feel heard and you actually understand them, keep a conversation going, ask
   better questions, and know what the research does and doesn't show about talking well.
@@ -25,4 +25,4 @@ outcomes:
     them
   - Weigh popular claims about conversation and body language against what the evidence supports
 prerequisites: []
-sensitive_domain: false
+sensitive_domain: true

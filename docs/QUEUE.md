@@ -52,10 +52,15 @@ Rewrite these five lines each session. Nothing else goes in this block.
   reviewed. **Left open, none blocking:** lessons 1, 4, 5 and 11 measure 105 minutes against the
   100 ceiling; gaps in fitting a lock, wallpaper, sticking doors and silicone (not researched); the
   audit's N9 and five small notes in `research/reviews/neutrality-audit.md`.
-  **Conversation and Listening is in research** (2026-09-26), the first course of Term 4
-  (People). Next: Stage 1, `/research-course courses/communication-and-people/conversation-and-listening`.
-  Its popular claims (body language, active listening, the 7-38-55 figure) need the replication
-  record read before anything is taught.
+  **Conversation and Listening is in drafting** (2026-09-26), the first course of Term 4
+  (People). Stage 1 is done: `research/SOURCES.md` (about 59,000 words, five parts) records what
+  was read. It also settles the course's boundaries with the rest of Term 4 and points crisis
+  conversations to Mental Fitness. Next: Stage 2,
+  `/outline-course courses/communication-and-people/conversation-and-listening`, from the
+  fourteen-lesson sequence it suggests. **Before the active-listening lesson:** Weger et al. 2010
+  and 2014 and Kluger et al. 2024 are abstract-only (paywall and bot blocks) and should be read in
+  full. Lessons on gender and interruption, culture, autism and political dialogue get the
+  neutrality pass although `sensitive_domain` is false.
 
   **Car Basics is published and written** (2026-09-26), the seventh and last of Term 3, so Term 3
   is fully published. Twenty-five lessons, test and project reviewed; twenty-five checked scripts;
