@@ -21,7 +21,7 @@ about: >-
   verdict; the episode closes on what would settle the question. Words per side, by script: replace
   earlier 279 (TyreSafe, the RAC, the AA, AAA, Tire Rack), design over depth 162 (Michelin), NHTSA
   at the floor 52, the driver 85. Leaves out what tread is for, new-tyre depth, the fines, points and
-  section 48 defence, the Hawes case, the gauge, wear bars and coins, damage, age and the spare,
+  section 48 exemption, the Hawes case, the gauge, wear bars and coins, damage, age and the spare,
   AAA's warranty claim and its brand and price-point lines, the chart, the misconceptions and the
   exercise; the sign-off names the fines and points, Hawes, measuring, damage, age and the spare,
   the chart and the exercise.
