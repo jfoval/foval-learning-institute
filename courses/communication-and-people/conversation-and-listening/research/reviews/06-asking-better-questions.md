@@ -388,3 +388,42 @@ exit 0. The chart changed only in its `<desc>`, so it was not re-opened in the b
 
 **Status after review:** clean. A targeted re-check of the changed quotations and sourced claims (R2,
 R3, R4, R5, R7, R8, R9, R13, R17, R21) is warranted before the podcast script.
+
+## Targeted re-check (2026-09-26)
+**Checker:** one fresh-context re-checker, against the fixer's commit 5c8678e. Every new or changed
+quotation and figure re-fetched today by curl (generic browser User-Agent, no personal data) and
+string-matched by script after normalising quotes and whitespace: TIP 35 (SAMHSA PDF), Acas
+*Challenging conversations* (PDF), Leydon et al. 2018 (QUT accepted manuscript), Essential Partners
+*FDAD* (PDF), StoryCorps "Great Questions", and the Internet Archive metadata for
+`lookingoutlookin0013adle` ("Adler & Proctor 2", Cengage Learning, 2010). PMC now serves a reCAPTCHA
+page to curl and to the browser pane, so Heritage et al. was read from the Internet Archive's
+capture of PMC2305862. All 41 strings match, including "Questioning or probing", the item 11 gloss,
+"Asking Open questions" first in OARS, "Why did you say that?" under Probing/reflective, "may feel
+threatened", "I haven't got any samples" / "I've got any samples.", the limitations sentence, the
+two ANY/SOME questions, and both Essential Partners sentences (§4.1.13 is about go-round questions,
+so "for a group to answer in turn" is right).
+
+**R1 to R21:** all resolved in the text as recorded. Numbers redone: 9 / 252 = 3.6%, "about 4%";
+37% is Heritage's nonintervention arm among patients with more than one concern, so "more than a
+third" fits; 320 patients against 224 visits makes the UK trial "the larger of the two"; 9% is
+Heritage's covariate-adjusted SOME figure. The gate closure's "20 of 99" is right (R6's evidence
+line said "20 of 204"; nothing in the lesson used it). Quiz: keys 0,2,3,1,3,0; spreads 10, 7, 3, 2,
+2, 9; each explanation matches its key and addresses every option. Option lengths unchanged by the
+edits below.
+
+**Four one-edit fixes made here:**
+1. R15's gloss on feasibility trial, "not large enough to test the effect", overstated: Leydon
+   powered the study to detect a 30% difference and gave "a provisional estimate of effectiveness".
+   Now "(a smaller trial run to see whether a full-scale trial could be done)"; the next sentence
+   already says it reported descriptive figures only.
+2. Quiz 3 explanation put "no visible difference" in quotation marks, which reads as the UK trial's
+   words; it is the lesson's own phrase. Now "its finding of no visible difference".
+3. R20's "That is practitioner advice" left "the reason behind them"; now "behind it".
+4. R3's new sentence said the negotiators and Acas "both warn that a 'why' can land as a demand to
+   justify yourself"; neither says that. Their words are "interrogatory" and "may feel threatened",
+   so it now reads "can land as an interrogation or a threat".
+
+No em dashes or spaced en dashes. `npm run minutes` 95, matching. `npm run quotes
+conversation-and-listening`: 71 sourced quotations, 0 not found. `npm run validate` exits 0.
+
+**Verdict: SETTLED.**

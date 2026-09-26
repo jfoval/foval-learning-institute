@@ -59,8 +59,8 @@ quiz:
       One randomised US study found "something else" drew far more further concerns than "anything
       else", without lengthening visits; the authors only suggest it "may generalize" to "Do you have
       any questions?". The UK trial had more patients, but it was a feasibility trial reporting
-      descriptive figures only, and almost nobody there left with a concern unsaid, so its "no
-      visible difference" can't carry "keep 'any'" to a pharmacy. "Proven in every setting" goes
+      descriptive figures only, and almost nobody there left with a concern unsaid, so its finding of no
+      visible difference can't carry "keep 'any'" to a pharmacy. "Proven in every setting" goes
       beyond the evidence too, and neither study found visits got longer. That "some" is worth trying is this
       course's reading of the two trials, not a tested result for pharmacies.
   - q: >-
@@ -235,7 +235,7 @@ give specific rewrites:
 - Celeste Headlee, in her TED talk, suggests asking "What was that like?" rather than "Were you
   terrified?".[7]
 
-That is **practitioner advice**, and the reason behind them is simple enough: a closed question
+That is **practitioner advice**, and the reason behind it is simple enough: a closed question
 supplies the frame (a bad week, OK or not OK, terrified or not) and leaves the other person only to
 confirm it.
 
@@ -273,7 +273,7 @@ Both are **practitioner advice**, from different settings: a negotiator talking 
 and a workplace manager or an oral historian looking for an account. This course found no study
 comparing "why" with "what" or "how" in ordinary conversation, so it leaves the disagreement where it
 is. The difference may be narrower than it looks: the negotiators and Acas both warn that a "why" can
-land as a demand to justify yourself, and they differ on how often that risk is worth taking.
+land as an interrogation or a threat, and they differ on how often that risk is worth taking.
 
 ## "Some" and "any"
 
@@ -333,8 +333,7 @@ results, including "anything" against asking nothing. So the
 next question is whether anyone repeated it, and this course found one attempt.
 
 In the UK, Geraldine Leydon and colleagues, with Heritage among the authors, ran a three-arm
-**feasibility trial** (a small trial run to see whether a full trial could be done, not large enough
-to test the effect) with 21 GPs in Dorset, Hampshire and Wiltshire and 320 patients: "Are there ANY
+**feasibility trial** (a smaller trial run to see whether a full-scale trial could be done) with 21 GPs in Dorset, Hampshire and Wiltshire and 320 patients: "Are there ANY
 other concerns that you'd like to discuss today?", the same with SOME, or usual care.[14] They drew on the US study "but not replicating the design", and as a feasibility
 study they reported descriptive figures only. The wording "seemed to have no bearing on the number of
 patient concerns elicited, on consultation length or on patient satisfaction".[14] But there was
