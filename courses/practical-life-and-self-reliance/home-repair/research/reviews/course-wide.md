@@ -187,3 +187,21 @@ Findings that belong to no single lesson, and notes a fixer leaves for later les
 - **Pointers not fixed here:** lesson 9's "the next lesson" and "lesson 10", and lessons 1, 7 and 8's
   pre-split title, are the renumbering pass's.
 - **Quiz keys:** lesson 09 unchanged at 1,3,0,1,2.
+
+## 2026-09-26 — Lesson 11 fix pass: notes for later lessons
+
+- **J3 has two wordings.** The Building Regulations 2010's own J3 ("Where a combustion appliance is
+  provided, appropriate provision having regard to the design and location of the appliance ...
+  early warning ... at levels harmful to persons") is the law; Approved Document J prints a shorter
+  version. Quote the statute when calling it law, and AD J's words only as AD J's (SOURCES "Stage 4
+  note, lesson 11").
+- **SI 2022/707**, not 2022/578, amended the 2015 alarm Regulations (D23 corrected in place).
+- **HSE's faqs.htm is "Domestic gas: frequently asked questions"**; cite it by that title.
+- **RIDDOR reg 11(1)** binds pipe-gas conveyors and LPG fillers, importers and non-retail suppliers,
+  on notice of a death, loss of consciousness or hospital visit; RIDGAS 2020/21 and 2021/22 carry
+  HSE's pandemic note.
+- **"Every source gives this order"** claims: CDC lists CO detectors first; any ranking of
+  protections is the course's own and says so.
+- **Places now used by lesson 11:** Cumbria and Kentucky (quiz), plus Cheshire, the Scottish
+  Borders, Lancashire and Indiana.
+- **Quiz keys:** lesson 11 unchanged at 2,3,1,0,3.

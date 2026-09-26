@@ -1,6 +1,6 @@
 ---
 title: "Carbon monoxide and the alarms that warn you"
-minutes: 100
+minutes: 105
 objectives:
   - >-
     Explain where carbon monoxide in a home comes from, put its protections in order (correct
@@ -14,7 +14,7 @@ objectives:
     make a generator safe
 quiz:
   - q: >-
-      As general information: a landlord in Rutland lets a house in England on a tenancy the 2015
+      As general information: a landlord in Cumbria lets a house in England on a tenancy the 2015
       Regulations cover. The kitchen has a gas cooker and a gas boiler; the lounge has a wood burner;
       upstairs there are two bedrooms and a bathroom with no appliance. Where does regulation 4
       require a carbon monoxide alarm?
@@ -30,7 +30,9 @@ quiz:
       kitchen's boiler is such an appliance, and the cooker beside it doesn't cancel it out; the
       wood burner puts the lounge in too. The storey-by-storey rule is the regulation's rule for
       smoke alarms, not carbon monoxide. And servicing is advice about the appliance, not an
-      exemption: regulation 4 says nothing about servicing at all.
+      exemption: regulation 4 says nothing about servicing at all. One reading here is this
+      course's: the regulation doesn't list kitchens, but a kitchen is used at least partly as
+      living accommodation, which is the test it sets.
   - q: >-
       A family in Wisconsin loses power in a January storm and borrows a portable generator. On
       CPSC's and CDC's advice, where should it run?
@@ -48,7 +50,7 @@ quiz:
       inside the home, whatever the window is doing.
   - q: >-
       A tenant in Cheshire notices black marks on the wall above her gas fire, and the pilot light on
-      her boiler has gone out three times this week. On HSE's advice, what fits?
+      her boiler has gone out three times this week. What should she do?
     options:
       - Keep using both and fit a carbon monoxide alarm, which will warn her if it gets worse
       - Stop using them, tell the landlord, and have a Gas Safe registered engineer check them
@@ -61,9 +63,11 @@ quiz:
       protection, never the reason to keep using an appliance showing the signs. Wiping the marks
       removes the evidence, not the cause. And an open window is not the fix HSE gives: if she
       thinks an appliance is spilling carbon monoxide, HSE's steps are to switch it off, turn off
-      the gas at the meter, ventilate and call 0800 111 999.
+      the gas at the meter, ventilate and call 0800 111 999. Telling the landlord is this course's
+      step for anyone who rents, and the check is a Gas Safe registered engineer's, as HSE and the
+      Register advise.
   - q: >-
-      A homeowner in West Virginia has just fitted a carbon monoxide alarm outside the bedrooms. She
+      A homeowner in Kentucky has just fitted a carbon monoxide alarm outside the bedrooms. She
       asks whether that means she can skip this year's furnace service. What do the sources this
       lesson read say?
     options:
@@ -116,8 +120,8 @@ feels ill indoors, is a different emergency, and First Aid and CPR has already t
 "Danger, the call, and recognising cardiac arrest", gave you carbon monoxide's signs and getting
 outside to call, and lesson 14, "Seizures, low blood sugar and poisoning", gave each country's
 response. This lesson doesn't repeat either. It deals with the house: where the gas comes from,
-what keeps it from being made, and where the alarms go. One section below states law, and it
-carries this label in short; here it is in full. This is general information, not legal advice. The
+what keeps it from being made, and where the alarms go. Two sections below state law, and they
+carry this label in short; here it is in full. This is general information, not legal advice. The
 rules differ between England, Wales, Scotland and Northern Ireland, and between US states and
 cities, and they change.
 
@@ -137,8 +141,8 @@ lethal amounts of CO without any irritating fumes to alert potential victims to 
 The second is speed. Carbon monoxide binds to haemoglobin, the oxygen carrier in blood, with "an
 affinity about 250 times that of oxygen", and with the fast-rising levels an engine produces,
 "sudden extreme hypoxia can result in rapid incapacitation and loss of consciousness, which prevent
-exposed individuals from leaving the hazardous environment."[4] So the people in those figures
-mostly didn't choose to stay; on CPSC's account, they lost the ability to leave.
+exposed individuals from leaving the hazardous environment."[4] With engine exhaust, on CPSC's
+account, people can lose the ability to leave before they know there's anything to leave.
 
 :::predict CPSC sorts the carbon monoxide deaths it estimated for 2022 by the product involved. Before reading on: which category do you think came first, home heating (furnaces, boilers, space heaters) or engines (generators and other engine-driven tools)?
 
@@ -155,7 +159,9 @@ location, and across 2020 to 2022, 59% came in the four cold months of November 
 The report leaves out fires, motor vehicles alone, work, and intentional deaths, and by its own
 measure its 2022 data are about 90% complete. The Centers for Disease Control and Prevention (CDC) gives a larger number,
 "more than 400 Americans" a year dying from carbon monoxide not linked to fires.[6] The two don't
-conflict: CDC counts every cause, cars included, and CPSC counts only the products it regulates.
+conflict. Both leave out fires and deliberate deaths, but CDC's count isn't limited to particular
+products, and its list of sources includes cars and trucks; CPSC counts only the products it
+regulates and leaves out deaths from a motor vehicle alone.
 
 The CPSC table for 2022, by the product involved:[4]
 
@@ -175,24 +181,38 @@ someone died.[4]
 
 **In Great Britain.** HSE's carbon monoxide page says: "According to the HSE statistics every year
 around 7 people die from CO poisoning caused by gas appliances and flues that have not been
-properly installed, maintained or that are poorly ventilated."[1] Its general gas FAQ gives the same "around 7".[2] Neither gives a year. The statistics page the
-carbon monoxide page links to holds HSE's table of gas incidents reported under RIDDOR, the rule
-that makes certain gas conveyors report deaths and major injuries from the supply of gas, and that
-table counts fewer: carbon monoxide deaths in Great Britain of 1, 3, 2, 2 and 1 in the five years
-2020/21 to 2024/25, the last provisional.[3] HSE's note on the table says its figures have been
-confirmed as an accurate count of deaths from domestic gas incidents, mainly piped gas but bottled
-gas too. The "around 7" may count something wider, but this course couldn't find what. So the honest statement is the one with both
-numbers and their sources, and no claim about which is right. Neither counts carbon monoxide from
-wood, coal, oil or engines.
+properly installed, maintained or that are poorly ventilated."[1] Its general gas FAQ gives the
+same "around 7".[2] Neither gives a year. The statistics page the carbon monoxide page links to
+holds HSE's table of gas incidents reported under RIDDOR, the Reporting of Injuries, Diseases and
+Dangerous Occurrences Regulations 2013. Regulation 11(1) puts the duty on "a conveyor of flammable
+gas through a fixed pipe distribution system", which in plain terms is a company that pipes gas,
+and on "a filler, importer or supplier (except by retail) of a refillable container containing
+liquefied petroleum gas". Once one of them is told of "the death, loss of consciousness or taking
+to hospital of a person because of an injury arising in connection with that gas", it has to
+report it to HSE.[18]
+
+:::predict That table counts carbon monoxide deaths in Great Britain year by year. Before reading on: over the five years to 2024/25, do you think its yearly count is higher than "around 7", about the same, or lower?
+
+Lower: 1, 3, 2, 2 and 1 in the five years 2020/21 to 2024/25, the last provisional.[3] HSE adds
+that the first two of those years may be affected by the coronavirus pandemic.
+:::
+
+HSE says its table's figures have been confirmed as an accurate count of deaths from domestic gas
+incidents, mainly piped gas but bottled gas too.[3] The carbon monoxide page, for its part, still
+gives an NHS Direct phone number that no longer runs, so some of its content is older than its
+2026 date, and this course couldn't find the year behind its "around 7" or what it counts. So this
+lesson gives you both numbers with their sources: HSE's table, and the undated figure on HSE's own
+pages. Neither counts carbon monoxide from wood, coal, oil or engines.
 
 ## The order of protection
 
-Every source this course read on carbon monoxide gives the same order, even where it doesn't
-number it. The alarm comes last.
+The order below is this course's, built on two things the sources say: England's building
+guidance says an alarm is no substitute for correct installation and regular servicing, and HSE
+says alarms are no replacement for maintenance and safety checks.[7][2] The alarm comes last.
 
-1. **The appliance is installed correctly.** For gas in Great Britain, that means a Gas Safe
-   registered engineer, and lesson 10, "Gas: the law and the engineer", has
-   the law and how to check one. **Call someone.**
+1. **The appliance is installed correctly.** For gas in Great Britain, HSE's and the Gas Safe
+   Register's advice is a Gas Safe registered engineer, and lesson 10, "Gas: the law and the
+   engineer", has the law and how to check one. **Call someone.**
 2. **It is serviced every year.** HSE "strongly advises that gas appliances and/or flues are
    regularly checked for safety at least once every 12 months".[2] For oil, wood and coal, HSE says
    to make sure the appliance "is serviced and maintained by a competent person and the chimney is
@@ -202,17 +222,18 @@ number it. The alarm comes last.
 3. **The flue or chimney is clear.** The next section.
 4. **The air it needs isn't blocked.** The Energy Saving Trust, the UK's government-funded energy
    advice body, warns people draught-proofing their homes: "You must not block fixed ventilation
-   openings needed for flueless or open-flue gas heaters."[16] That is the only ventilation rule
-   this course read for combustion appliances; England's building guidance on ventilation is
-   longer and this course didn't read it.
+   openings needed for flueless or open-flue gas heaters."[16] EST doesn't explain the two kinds
+   of heater there, and this course read no definition of them; the point EST makes is that those
+   fixed openings are there for the appliance. That is the only ventilation advice this course
+   read for combustion appliances; England's building guidance on ventilation is longer and this
+   course didn't read it.
 5. **Then an alarm.** HSE "strongly recommends the use of CO alarms as one useful precaution to
    give advance warning of CO in a property", and says they "should not be regarded as a
    replacement for regular maintenance and safety checks by a Gas Safe registered engineer."[2]
 
 Why last? An alarm measures carbon monoxide that's already in the room. The first four steps stop
 it being made or keep it going up the flue. That reasoning is this course's own, from what an alarm
-is; the sources give the order without spelling out why, but it's the order England's building
-guidance, HSE and CDC all put first.
+is. CDC's own list puts detectors first on the page, and neither CDC nor CPSC ranks the steps.
 
 ### What you can see at the appliance
 
@@ -252,9 +273,9 @@ technician, not something to adjust.
 
 ## Chimneys and flues
 
-A flue that's blocked turns a well-burning appliance into a source, because the fumes have nowhere
-to go but the room. The two countries' advice on how often to deal with it differs, and each is
-given here as its authorities give it.
+A blocked chimney or flue can let carbon monoxide build up inside the home, as CDC puts it below.[6]
+The two countries' advice on how often to deal with it differs, and each is given here as its own
+source gives it.
 
 | | In the UK | In the US |
 |---|---|---|
@@ -294,6 +315,8 @@ it, which is the part to remember when the weather makes the garage tempting.
 
 ## Two homes, two countries
 
+This is general information, not legal advice.
+
 ### An end-terrace in Lancashire
 
 This is the simple case. An owner-occupied end-terrace in Lancashire has a gas combi boiler on the
@@ -301,18 +324,21 @@ kitchen wall, replaced in 2024, and a gas cooker in the same kitchen. The two be
 upstairs. Nothing else burns fuel.
 
 1. **Which rule?** The house isn't let, so the landlord regulations below don't reach it. The
-   boiler was a replacement fixed gas appliance fitted after 1 October 2022, so England's building
-   guidance on alarms, Approved Document J, applies to that installation: "a carbon monoxide alarm
-   should be provided in the room where the appliance is located."[7] That is the kitchen.
+   boiler was a replacement fixed gas appliance fitted after 1 October 2022, so England's
+   requirement J3 applies to that installation, and Approved Document J, the government's guidance
+   on meeting it, says "a carbon monoxide alarm should be provided in the room where the appliance
+   is located."[7][17] That is the kitchen.
 2. **The cooker.** The same paragraph excludes "gas appliances used solely for cooking".[7] The
-   cooker adds nothing to the alarm rule. It still burns gas, and it still gets its annual check.
+   cooker adds nothing to the alarm rule. It still burns gas, and it still gets its annual check,
+   which HSE advises for gas appliances at least once every 12 months.[2]
 3. **Where in the kitchen.** On the ceiling at least 300 mm (about 12 inches) from any wall, or
-   high on a wall above any doors and windows but not within 150 mm (about 6 inches) of the ceiling,
+   on a wall as high up as possible, above any doors and windows, but not within 150 mm (about 6
+   inches) of the ceiling,
    and "between 1m and 3m horizontally from the appliance" (about 3 to 10 feet; the inch and foot
    figures are this course's conversions).[7]
 4. **What kind.** One that complies with BS EN 50291-1 and is powered by a battery made to last the
    alarm's working life, with a warning when that life is running out. A mains-wired alarm with
-   fixed wiring is allowed instead, but not a plug-in one.[7] A mains-wired alarm is an
+   fixed wiring and a sensor failure warning is allowed instead, but not a plug-in one.[7] A mains-wired alarm is an
    electrician's job, and this course teaches no wiring.
 5. **The order still runs first.** The boiler's annual service by a Gas Safe registered engineer,
    the flue outside kept clear, the vents left open.
@@ -336,8 +362,9 @@ plan. Find it, and say which source rules it out, before you open the answer.
 
 :::checkpoint What's the second hazard, and what do the sources say about each?
 
-The charcoal grill. CDC: "Never burn charcoal indoors."[6] An enclosed porch is indoors for this
-purpose: it's a room with walls and a roof, joined to the house. CPSC's figures for 2022 include an
+The charcoal grill. CDC: "Never burn charcoal indoors."[6] CDC doesn't define indoors; this
+course's reading is that an enclosed porch, with walls and a roof and joined to the house, is
+indoors. CPSC's figures for 2022 include an
 estimated 18 deaths involving charcoal or charcoal grills, and CPSC names charcoal among the
 devices known or suspected to have been used to heat an enclosed space.[4]
 
@@ -373,9 +400,14 @@ made since 1 October 2022) must be "repaired or replaced".[8] If you rent in Eng
 you can expect, and the landlord is the person to tell.
 
 **New or replacement appliances.** England's building regulations carry a requirement, J3, which
-is law: "Where a fixed combustion appliance is provided, appropriate provision shall be made to
-detect and give warning of the release of carbon monoxide."[7] Approved Document J is the
-government's guidance on how to meet it, and it asks for an alarm in the same room when a
+is law. In the [Building Regulations 2010](https://www.legislation.gov.uk/uksi/2010/2214/schedule/1)
+it reads: "Where a combustion appliance is provided, appropriate provision having regard to the
+design and location of the appliance shall be made to detect and give early warning of the release
+of carbon monoxide at levels harmful to persons." It "applies only to fixed combustion appliances
+located in dwellings."[17] Approved Document J is the government's guidance on how to meet it. It
+prints J3 in shorter words of its own, "Where a fixed combustion appliance is provided, appropriate
+provision shall be made to detect and give warning of the release of carbon monoxide", and it asks
+for an alarm in the same room when a
 new or replacement fixed appliance is installed: solid fuel since the 2010 edition, and gas and
 oil since amendments that "come into effect on 1 October 2022". Gas appliances used solely for
 cooking are excluded. The siting and the kind of alarm are the ones in the Lancashire example.[7]
@@ -386,7 +418,8 @@ asks an owner-occupier to add an alarm to an appliance already in place.
 ### Scotland
 
 Scotland's rule covers every home, whoever owns it. An order made in 2019 added two things to the
-standard every house must meet under the Housing (Scotland) Act 1987, including "satisfactory
+tolerable standard, the standard every house must meet under the Housing (Scotland) Act 1987,
+including "satisfactory
 equipment installed for detecting, and for giving warning of, carbon monoxide present in a
 concentration that is hazardous to health", and after a later amendment it took effect on 1
 February 2022.[9] The Scottish Government's [factsheet](https://www.gov.scot/publications/fire-and-smoke-alarms-in-scottish-homes/) says what that means in practice: "If you
@@ -394,12 +427,14 @@ have a carbon-fuelled appliance like a boiler, open fire or wood burner, you mus
 carbon monoxide detector in the same room. This does not need to be linked to the smoke alarms."
 And: "Gas cookers and hobs do not need a carbon monoxide detector."[10] A battery-powered one "must
 have a sealed battery for the duration of its lifespan", and the standard it names is "British
-Kitemark EN 50291-1".[10] Meeting it is, in the factsheet's words, "the property owner’s
+Kitemark EN 50291-1" (HSE gives a Kitemark as an example of a British or European approval
+mark).[10][2] Meeting it is, in the factsheet's words, "the property owner’s
 responsibility".[10]
 
 ### Wales and Northern Ireland
 
-Different again. This course didn't read either nation's alarm rules, so it states none.
+This course didn't read either nation's alarm rules, so it states none. If you live in Wales or
+Northern Ireland, ask your council what applies, or your landlord if you rent.
 
 ### The US
 
@@ -415,11 +450,11 @@ Two statutes, read on the states' own sites, show how far apart the rules can be
   within ten feet of each room lawfully used for sleeping purposes."[13] (Ten feet is about 3
   metres.) It also says: "No person shall remove batteries from, or in any way render inoperable,
   a required carbon monoxide alarm."[13]
-- **California** puts the condition on the house, in [Health and Safety Code section 17926](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=HSC&sectionNum=17926.). The owner must install a device approved by the
-  State Fire Marshal "in each existing dwelling unit having a fossil fuel burning heater or
+- **California** puts the condition on the house, in [Health and Safety Code section 17926](https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=HSC&sectionNum=17926.). The owner must install a device "approved and listed by the
+  State Fire Marshal", and "in each existing dwelling unit having a fossil fuel burning heater or
   appliance, fireplace, or an attached garage", and as to placement, "in a manner consistent with
   building standards applicable to new construction for the relevant type of occupancy or with the
-  manufacturer’s instructions".[12] This course didn't read those building standards.
+  manufacturer’s instructions, if it is technically feasible to do so."[12] This course didn't read those building standards.
 
 The course's question, **law or advice, whose, and where?**, applies to summaries too. NCSL's
 one-line version of the California law says it "Requires the owner of every single family dwelling
@@ -436,8 +471,8 @@ detectors near every sleeping area in your home."[6]
 
 | | Where the alarm goes | Whose, and law or advice |
 |---|---|---|
-| England, new or replacement appliance | Same room as the appliance, 1 m to 3 m from it | Approved Document J, building guidance[7] |
-| England, let homes | Any living room with a fixed appliance other than a gas cooker | 2015 Regulations, law for landlords[8] |
+| England, new or replacement appliance | Same room as the appliance, 1 m to 3 m from it | Requirement J3 (law); Approved Document J (guidance on meeting it)[17][7] |
+| England, let homes | Any room used as living accommodation (bathrooms, halls and landings included) with a fixed appliance other than a gas cooker | 2015 Regulations, law for landlords[8] |
 | Scotland, every home | Same room as a carbon-fuelled appliance; not for cookers or hobs | Tolerable standard, law, as the Scottish Government explains it[9][10] |
 | US, CPSC | Every level, and outside sleeping areas | Federal agency's advice[5] |
 | US, CDC | Near every sleeping area | Federal agency's advice[6] |
@@ -450,20 +485,23 @@ it applies.
 
 First Aid and CPR lesson 14 put its prevention point this way: "the NHS advises a carbon monoxide
 alarm in every room with an appliance that burns gas, oil, coal or wood." That is the NHS's advice,
-and it is a good default. The law is narrower in both UK nations whose rules this course read: both
-leave gas cookers out, and England's landlord rule and building guidance reach only let homes and
-new appliances. The US advice is organised by floors and bedrooms rather than rooms with
+and it is a good default. The rules are narrower in both UK nations whose rules this course read:
+the English landlord rule and building guidance, and the Scottish Government's explanation of its
+standard, all leave gas cookers out, and England's rules reach only let homes and new or
+replacement appliances. The US advice is organised by floors and bedrooms rather than rooms with
 appliances. So the refinement is this: the NHS line tells you where the risk is, and your own
 nation's or state's rule tells you what's required.
 
 :::checkpoint A two-storey house has a gas boiler in a ground-floor utility room, a gas cooker in the kitchen, and three bedrooms upstairs off one landing. Place the carbon monoxide alarms twice: first for a new boiler fitted in England, following Approved Document J, then for the same house in Minnesota, following its statute and CPSC's advice.
 
 **England, Approved Document J:** one alarm in the utility room, 1 m to 3 m from the boiler, on the
-ceiling at least 300 mm from any wall or high on a wall. None for the cooker.[7] (This course's own
+ceiling at least 300 mm from any wall or as high up as possible on a wall. None for the cooker.[7] (This course's own
 reading would add one near the bedrooms if the utility-room alarm can't be heard there.)
 
 **Minnesota:** an alarm within ten feet of each bedroom. On one landing, on this course's reading
-of the statute, a single alarm can do that if all three bedroom doors are within ten feet of it.[13] CPSC's advice adds one on the ground floor too,
+of the statute, a single alarm can do that if it is within ten feet of all three bedrooms; the
+statute doesn't say where the ten feet is measured from, so check with your local fire
+authority.[13] CPSC's advice adds one on the ground floor too,
 since it says every level, and prefers them interconnected.[5] Neither says anything about the
 utility room, though putting one there as well breaks no rule.
 :::
@@ -476,8 +514,9 @@ with British Standard EN 50291 and carries a British or European approval mark, 
 Kitemark."[7][10][2] Minnesota's statute defines an approved alarm as one certified by a testing
 laboratory "to conform to the latest Underwriters Laboratories Standards (known as UL2034
 standards)"; this course read the statute, not the standard.[13] CPSC's carbon monoxide page lists
-recent warnings to stop using particular combination smoke and carbon monoxide detectors, and
-plug-in gas and carbon monoxide detectors, that failed to alert.[5] The Scottish Government says
+recent warnings to stop using particular plug-in gas and carbon monoxide detectors that failed to
+alert to carbon monoxide, and particular combination smoke and carbon monoxide detectors that
+failed to warn of smoke and fire.[5] The Scottish Government says
 "There is no list of approved suppliers or fitters. We cannot endorse or recommend specific
 products or suppliers."[10]
 
@@ -506,15 +545,16 @@ every five years, and England's building guidance asks for a warning when an ala
 is running out.[6][7]
 
 **"Every room with a burning appliance legally needs an alarm."** It's the NHS's advice, and a good
-default. The law in England and Scotland leaves out gas cookers, and in England reaches only let
-homes and new or replacement appliances.[8][7][10]
+default. England's landlord rule and building guidance, and the Scottish Government's factsheet,
+leave out gas cookers, and in England the rules reach only let homes and new or replacement
+appliances.[8][7][10]
 
 ## Practice
 
 :::exercise The carbon monoxide walk-round
-Take 30 minutes over this. It is looking, pressing test buttons and writing. This is general
-information, not legal advice. If you rent, do the looking and the writing, and tell your landlord
-about anything missing or faulty rather than changing anything yourself.
+Take 30 minutes over this. You'll be looking, writing, and pressing test buttons. This is general
+information, not legal advice. If you rent, look and write only, and pass anything missing or
+faulty to your landlord.
 
 1. **Every fuel-burning appliance.** Boiler, furnace, fire, stove, water heater, cooker. Look only,
    with no panels off, for HSE's four signs. Write the fuel, the room, and the date of its last
@@ -523,8 +563,8 @@ about anything missing or faulty rather than changing anything yourself.
    appliance, and how it's powered (sealed battery, replaceable battery, or wired to the mains). If
    a replace-by date is visible from the floor, write it; if not, write "unknown". Don't take down a
    mains-wired alarm to look.
-3. **Test each one by its button**, as its maker's instructions say, and only if you can reach the
-   button from the floor. No ladder or chair for this exercise: lesson 15 comes first. Warn the
+3. **Press each alarm's test button**, following its maker's instructions, where you can reach it
+   standing on the floor. No ladder or chair for this exercise: lesson 15 comes first. Warn the
    household before you start. If one doesn't sound, write it down and follow its maker's
    instructions; a mains-wired one is an electrician's job.
 4. **Compare.** Write down which rules this lesson gave for where you live: England's landlord rule
@@ -560,20 +600,20 @@ This lesson adds to the **calendar**: each carbon monoxide alarm tested by its b
 says, and its replace-by year; each fuel-burning appliance serviced every year; each chimney swept
 or inspected as HETAS or CSIA advises for your fuel. It adds to the **map**: every fuel-burning
 appliance and its room, and every carbon monoxide alarm. It adds to the **stop list**: any of HSE's
-four signs at an appliance, a generator anywhere but outside and at least 20 feet off, charcoal or a
-gas oven used for heat, and a carbon monoxide alarm going off, which goes straight to First Aid and
+four signs at an appliance, a generator anywhere but outside and at least 20 feet off, charcoal
+burned indoors, a gas oven used for heat, and a carbon monoxide alarm going off, which goes straight to First Aid and
 CPR lesson 14's response.
 
 ## Connections
 
-Lesson 1, "How a house works, and where it switches off", called combustion the flow with no
-switch, and this lesson has been about keeping its way out working. Lesson 7, "Heating: boilers,
+Lesson 1, "How a house works, and where it switches off", said the way out for combustion
+products has no switch to find, and this lesson has been about keeping its way out working. Lesson 7, "Heating: boilers,
 radiators and furnaces", gave the heat exchanger and the annual service, and lesson 10, "Gas: the
 law and the engineer", covers the law on who may work on a gas appliance and
 the engineer's card. First Aid and CPR lessons 2 and 14 hold the signs and the response, and
 nothing here replaces them. The smoke alarm routine, and what England's fire figures say about why
 alarms stay silent, comes next, in lesson 12. Lesson 18, "Damp inside: condensation, mould, ventilation and
-rising damp", will come back to ventilation, where the rule from this lesson still holds: never
+rising damp", will come back to ventilation, where this lesson's advice still holds: never
 block the air a fuel-burning appliance needs. Car Basics, next on the Core, takes the car that this
 lesson only kept out of the garage.
 
@@ -584,7 +624,7 @@ lesson only kept out of the garage.
   document. Paragraphs 3.43 to 3.45 are a page, and they are the guidance for a new gas boiler in
   England.
 - **Scottish Government, ["Fire and smoke alarms: the law"](https://www.gov.scot/publications/fire-and-smoke-alarms-in-scottish-homes/)**,
-  free. Read here in its "What each home needs" and "Where and what to buy" sections. The clearest
+  free. Read for this lesson: the two sections on what each home needs and what to buy. The clearest
   statement read of what one nation's rule asks of every home, owned or rented.
 - **CPSC, ["Non-Fire Carbon Monoxide Deaths Associated with the Use of Consumer Products: 2022 Annual Estimates"](https://www.cpsc.gov/s3fs-public/Non-Fire-Carbon-Monoxide-Deaths-Associated-with-the-Use-of-Consumer-Products-2022-Annual-Estimates.pdf)**,
   May 2026, free. Read here: the summary, the introduction and Table 1. Table 1 shows eleven years
@@ -597,7 +637,7 @@ lesson only kept out of the garage.
    **Read: full text; re-read on the live page 25 September 2026.** The page is stamped 2026 but
    still gives an NHS phone number that no longer runs, so its content dates are uncertain; its
    "around 7" has no year. <!-- SOURCES Part D D27; lesson 10 gate closures -->
-2. Health and Safety Executive, ["Gas safety in the home: FAQs"](https://www.hse.gov.uk/gas/domestic/faqs.htm).
+2. Health and Safety Executive, ["Domestic gas: frequently asked questions"](https://www.hse.gov.uk/gas/domestic/faqs.htm).
    **Read: the carbon monoxide alarm, servicing and landlord passages, re-read 25 September 2026**;
    the page was searched, not read whole. <!-- SOURCES Part B §6; lesson 10 gate closures -->
 3. Health and Safety Executive, ["RIDGAS: Gas-related incidents reported under RIDDOR in Great Britain"](https://www.hse.gov.uk/statistics/assets/docs/ridgas.xlsx),
@@ -642,3 +682,9 @@ lesson only kept out of the garage.
 16. Energy Saving Trust, "Draught proofing", read from Internet Archive capture 20260916151311 (the
     live site refuses automated readers). **Read: full text.** Its savings figures are not used.
     <!-- SOURCES Part B §6; lesson 10 gate closures -->
+17. [The Building Regulations 2010 (SI 2010/2214), Schedule 1, Part J](https://www.legislation.gov.uk/uksi/2010/2214/schedule/1),
+    requirement J3 and its limit. **Read: Part J on the live page, revised text, 26 September
+    2026.** England. <!-- Stage 4 note, lesson 11 -->
+18. [The Reporting of Injuries, Diseases and Dangerous Occurrences Regulations 2013 (SI 2013/1471), regulation 11](https://www.legislation.gov.uk/uksi/2013/1471/regulation/11).
+    **Read: regulation 11 in full on the live page, 26 September 2026.** Great Britain.
+    <!-- Stage 4 note, lesson 11 -->

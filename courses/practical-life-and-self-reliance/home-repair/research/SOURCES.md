@@ -1625,6 +1625,8 @@ Establishes: at least one alarm on every level; "test them at least monthly" [V]
 
 #### HSE, "Gas safety in the home: FAQs"
 https://www.hse.gov.uk/gas/domestic/faqs.htm
+(Stage 4 note, lesson 11, 2026-09-26: the live page's title and heading are "Domestic gas:
+frequently asked questions"; lessons cite it by that title.)
 Read: the sections on servicing and checking engineers (the page is about 9,500 words; I searched it for these topics and did not read it all).
 Establishes: HSE "strongly advises that all gas appliances, flues and pipework should be installed, regularly maintained and serviced at least annually by a Gas Safe registered engineer" [V]. "Every year around 7 people die from gas-related carbon monoxide (CO) poisoning." [V] To check an engineer: the Gas Safe Register's "Check an Engineer" service using the licence number on the engineer's ID card, a freephone line, or a text service. A statutory annual check applies to landlords, which the gas part of the course covers.
 
@@ -2811,8 +2813,11 @@ Read: regulation 3 (as made) in full; HSE index page (a menu of links, 62 words)
 
 #### D23. The Smoke and Carbon Monoxide Alarm (England) Regulations 2015 (SI 2015/1693), regulation 4, as amended
 https://www.legislation.gov.uk/uksi/2015/1693/regulation/4
-Read: regulation 4 in full, current revised text (showing amendments F1 to F4). The amending SI
-2022/578 page was fetched (1,465 words) but only used to confirm the date.
+Read: regulation 4 in full, current revised text (showing amendments F1 to F4). The amending
+instrument is SI 2022/707, The Smoke and Carbon Monoxide Alarm (Amendment) Regulations 2022 (in
+force 1 October 2022). Stage 4 note, lesson 11 (2026-09-26): this entry first said "SI 2022/578",
+which is an unrelated leasehold instrument; the live page's amendments F1 to F6 all cite SI
+2022/707, and F7 and F8 cite SI 2026/325 (reg 4(4) only).
 
 - Reg 4(1)(a)(i): a smoke alarm [V] "on each storey of the premises on which there is a room used
   wholly or partly as living accommodation".
@@ -2839,9 +2844,11 @@ Read: requirement J3, the summary of changes, and paragraphs 2.34 to 2.36 and 3.
 (pdftotext of the whole 38,000-word document; searched, those passages read). GOV.UK record
 updated 30 September 2022.
 
-- Requirement J3: [V] "Where a fixed combustion appliance is provided, appropriate provision shall
+- Requirement J3 as Approved Document J prints it: [V] "Where a fixed combustion appliance is provided, appropriate provision shall
   be made to detect and give warning of the release of carbon monoxide." Applies only to fixed
-  combustion appliances in dwellings.
+  combustion appliances in dwellings. This is AD J's reprint, not the statute's wording; the
+  Building Regulations 2010's own J3 is recorded in "Stage 4 note, lesson 11 (2026-09-26)" at the
+  end of this file, and a lesson quoting J3 as law quotes that.
 - History from the document: J3 and CO alarms for new or replacement **solid fuel** appliances came
   in with the 2010 edition; the 2022 amendments extended the guidance to **gas and oil**, [V] "in
   effect on 1 October 2022" (GOV.UK record). England only.
@@ -4289,7 +4296,7 @@ and the GOV.UK record (content API; organisation now "Ministry of Housing, Commu
 Government"). Read: requirement J3 and its limit, the "Main changes made by the 2022 amendments",
 and paragraphs 2.34 to 2.36, 3.43 to 3.45 and 4.30 to 4.32. The ventilation sections are still
 unread (G-L11 stays open).
-- J3: [V] "Where a fixed combustion appliance is provided, appropriate provision shall be made to detect and give warning of the release of carbon monoxide."
+- J3, as AD J reprints it (not the statute's words; see "Stage 4 note, lesson 11"): [V] "Where a fixed combustion appliance is provided, appropriate provision shall be made to detect and give warning of the release of carbon monoxide."
 - [V] "Requirement J3 applies only to fixed combustion appliances located in dwellings."
 - 2022 changes: [V] "Guidance has been added in support of requirement J3 “Warning of release of carbon monoxide” on the provision of carbon monoxide alarms where gas burning appliances and oil burning appliances are installed."
 - 2.34: [V] "Where a new or replacement fixed solid fuel appliance is installed in a dwelling, a carbon monoxide alarm should be provided in the room where the appliance is located."
@@ -4361,7 +4368,7 @@ in full (page stamp 2026-02-10).
 - [V] "If you have one of these appliances you should make sure that it is serviced and maintained by a competent person and the chimney is regularly swept."
 - Spilling appliance: [V] "Call the National Gas Emergency Service on 0800 111 999"; [V] "Switch off the appliance and shut off the gas supply at the meter control valve"; [V] "Open all doors and windows to ventilate the room".
 
-**HSE, "Gas safety in the home: FAQs"** (Part B §6), re-read live; the CO alarm, servicing and
+**HSE, "Gas safety in the home: FAQs"** (Part B §6; live title "Domestic gas: frequently asked questions"), re-read live; the CO alarm, servicing and
 landlord passages read (the page was searched, not read whole).
 - [V] "HSE strongly recommends the use of CO alarms as one useful precaution to give advance warning of CO in a property. Importantly alarms should not be regarded as a replacement for regular maintenance and safety checks by a Gas Safe registered engineer."
 - [V] "Before purchasing a CO alarm, always ensure it complies with British Standard EN 50291 and carries a British or European approval mark, such as a Kitemark."
@@ -5344,3 +5351,127 @@ product is named. No British page on gas detectors was read.
   neighbors safe by sounding an alarm before natural gas reaches the explosive range."
 - **Atmos Energy, "Recognizing a leak"**: [V] "In addition, residential methane detectors are
   commercially available and can provide an additional ability to detect the presence of gas."
+
+## Stage 4 note, lesson 11 (2026-09-26)
+
+Recorded by lesson 11's Stage 4 fixer ("Carbon monoxide and the alarms that warn you"). The
+reviewer re-read these live or from the recorded captures on 26 September 2026; the fixer re-read
+the three legislation pages and the RIDGAS workbook the same day (curl with a browser User-Agent).
+
+**Corrections made elsewhere in this file:** D23's amending instrument corrected in place to SI
+2022/707 (SI 2022/578 is "The Leasehold Reform (Ground Rent) (Business Lease Notices) Regulations
+2022"); D25's and "Gate closures, lesson 10"'s "J3" lines marked as Approved Document J's reprint,
+not the statute; HSE's faqs.htm title corrected to "Domestic gas: frequently asked questions" at
+Part B §6 and in the lesson 10 gate closures.
+
+**The Building Regulations 2010 (SI 2010/2214), Schedule 1, Part J, requirement J3**,
+https://www.legislation.gov.uk/uksi/2010/2214/schedule/1, revised text (page and data.xml; no
+textual amendments recorded against Part J). This is the statute's wording, which differs from AD
+J's reprint:
+- J3: [V] "Where a combustion appliance is provided, appropriate provision having regard to the design and location of the appliance shall be made to detect and give early warning of the release of carbon monoxide at levels harmful to persons."
+- Limit: [V] "Requirement J3 applies only to fixed combustion appliances located in dwellings."
+
+**RIDDOR 2013 (SI 2013/1471), regulation 11(1)**, https://www.legislation.gov.uk/uksi/2013/1471/regulation/11:
+- [V] "Where a conveyor of flammable gas through a fixed pipe distribution system, or a filler, importer or supplier (except by retail) of a refillable container containing liquefied petroleum gas, receives notification of the death, loss of consciousness or taking to hospital of a person because of an injury arising in connection with that gas, that person must—" (then notify HSE without delay and report within 14 days).
+
+**HSE RIDGAS** (published 20 November 2025): Table 1 CO fatalities, Great Britain, 2020/21 1;
+2021/22 3; 2022/23 2; 2023/24r 2; 2024/25p 1. Note b: [V] "this places a duty on certain conveyors
+of gas (including LPG), to notify HSE of an incident involving a fatal or major injury that has
+occurred as a result of the distribution or supply of flammable gas (mainly piped gas but also
+includes bottled LPG)." [V] "The statistics published have been confirmed by HSE as an accurate
+representation of the number of people who have died as a result of a domestic gas incident."
+Note 4: [V] "Numbers for 2020/21 and 2021/22 are potentially affected by the impacts of the
+coronavirus pandemic."
+
+**Approved Document J (PDF)**, strings confirmed: [V] "Where a new or replacement fixed gas burning
+appliance (excluding gas appliances used solely for cooking) is installed in a dwelling, a carbon
+monoxide alarm should be provided in the room where the appliance is located."; [V] "on the ceiling
+at least 300mm from any wall or, if it is located on a wall, as high up as possible (above any doors
+and windows) but not within 150mm of the ceiling; and"; [V] "between 1m and 3m horizontally from the
+appliance."; [V] "with fixed wiring (not plug-in types) may be used as an alternative, provided they
+are fitted with a sensor failure warning device."; [V] "Provision of a carbon monoxide alarm should
+not be regarded as a substitute for the correct installation and regular servicing of combustion
+appliances." GOV.UK record: [V] "These amended provisions and guidance come into effect on 1 October
+2022."
+
+**SI 2015/1693 reg 4** (revised): 4(1)(a)(ii), 4(1)(b), 4(2) and 4(4) strings as in "Gate closures,
+lesson 10"; 4(1)(c) in full: [V] "where, following a report made on or after 1st October 2022 by a
+tenant or by their nominated representative to the landlord, a prescribed alarm is found not to be
+in proper working order, the alarm is repaired or replaced." Amendments F1 to F6: SI 2022/707; F7
+and F8: SI 2026/325.
+
+**HSE co.htm** (stamp 2026-02-10): the "around 7" sentence, the four signs, the servicing sentence
+and the three spillage steps as in "Gate closures, lesson 10". The page's "HSE statistics" link
+targets statistics/tables/index.htm, whose "Gas Safety" entry is RIDGAS.
+
+**HSE "Domestic gas: frequently asked questions"** (faqs.htm): [V] "Every year around 7 people die
+from gas-related carbon monoxide (CO) poisoning."; [V] "HSE strongly advises that gas appliances
+and/or flues are regularly checked for safety at least once every 12 months."; the CO alarm and
+EN 50291 strings as in "Gate closures, lesson 10".
+
+**SSI 2019/8 and the Scottish Government factsheet** (last updated 14 August 2024): art 2 (k), art 1
+as amended by SSI 2021/46 (1 February 2022), and the factsheet's "same room", "does not need to be
+linked", "Gas cookers and hobs", "sealed battery", "British Kitemark EN 50291-1", "property owner’s
+responsibility" and "no list of approved suppliers" strings all as in "Gate closures, lesson 10".
+
+**Minnesota Statutes 2025**, 299F.51 subd. 1(a) and subd. 4, and 299F.50 subd. 5 (UL2034), as in
+"Gate closures, lesson 10". The statute does not say where the ten feet is measured from; subd. 5's
+exceptions are for multifamily dwellings only.
+
+**California H&S Code 17926**: (a) [V] "approved and listed by the State Fire Marshal pursuant to
+Section 13263"; (b) ends [V] "or with the manufacturer’s instructions, if it is technically feasible
+to do so." 17926.1(a): [V] "shall maintain carbon monoxide devices in that dwelling unit consistent
+with this section and Section 17926."
+
+**CPSC CO page** (capture 20260908150612): the product warnings are two combination smoke and CO
+detectors (failure to warn of smoke and fire) and one plug-in natural gas and CO detector (failure
+to alert to CO). **CDC** (capture 20260920191925): under "Reducing risk", [V] "Install
+battery-operated or battery back-up CO detectors near every sleeping area in your home." is listed
+first; CDC ranks no steps and does not define "indoors". CDC's count is [V] "not linked to fires";
+it does not itself say that it includes cars (its list of sources names cars and trucks).
+
+**NCSL, HETAS, CSIA, EST, CPSC 2022 report**: every string the lesson quotes, as in "Gate closures,
+lesson 10" and Part D.
+
+## Stage 4 note, lesson 12 (2026-09-26)
+
+Recorded by lesson 12's Stage 4 fixer ("Smoke alarms: where they go, and why they stay silent").
+The reviewer re-read each page live on 26 September 2026 (curl with a browser User-Agent; GOV.UK
+through the content API, then pandoc or pdftotext); the fixer string-matched every line below in
+those saved copies the same day and re-counted FIRE0602 by script. No correction to earlier entries.
+
+**MHCLG, "Detailed analysis of fires ... year ending March 2026"** (D33), section 5:
+- [V] "As for all years since the year ending March 2011, the most common category of smoke alarm failure in dwelling fires involving any victims^([11]) was ‘other’ (including ‘alerted by other means’, ‘system damaged by fire’, ‘other’ and ‘don’t know’)"
+- Footnote 10 in full: [V] "Fire products did not reach detectors(s) can be where the smoke alarms present were poorly sited (for example not on the floor of origin) so the smoke did not reach the detector." (note "can be": the footnote gives an example, not a definition)
+- Table 5.1, second column, "Casualties" (dwelling fires with any casualty; note 1: [V] "Includes all non-fatal casualties and fire-related fatalities"): missing battery 7.2%; defective battery 8.7%; other act preventing alarm from operating 13%; fire products did not reach detector(s) 8.7%; fire in area not covered by system 10%; faulty system / incorrectly installed 13%; other 39%. (Fires column, already recorded: 1.8, 3.1, 2.6, 49, 17, 2.4, 24.) Battery reasons in the casualty column 15.9%, siting reasons 18.7%: the course's addition.
+
+**FIRE0602, "Data - fires"**, 2025/26, accidental dwelling fires (total 23,795), by detailed source
+of ignition, with MHCLG's category: Cooker incl. oven 6,324 (Cooking appliances); Wiring, cabling,
+plugs 2,497 (Electrical distribution); Smoking materials 1,819; Ring/hot plate (separate appliance)
+1,150 (Cooking appliances); Apparatus - batteries, generators 885 (Electrical distribution); Microwave
+oven 873 (Cooking appliances); Candles 844; Grill/Toaster 822 (Cooking appliances); Tumble dryer 579
+(Other electrical appliances); Heater/Fire 466 (Space heating appliances); Washing machine 409 (Other
+electrical appliances). So the tumble dryer is **not** the commonest non-cooker appliance source; it
+is the commonest outside MHCLG's cooking appliances and electrical distribution categories.
+
+**Fire Kills, "Detection"** (Part B §6), live:
+- [V] "The ideal position is on the ceiling, in the middle of a room, and on the hallway and landing, so you can hear an alarm throughout your home and so they protect your escape routes."
+- [V] "For extra safety, fit smoke alarms in the bedrooms too" (followed on the page by a spaced en dash; a lesson ends the quotation before it)
+- [V] "Heat alarms can be placed in a kitchen so you may consider installing one there."
+- [V] "Consider fitting smoke alarms in the most used rooms (including bedrooms) and a heat alarm in the kitchen."
+- [V] "Having more smoke alarms in more places in your home increases your protection"
+- The page names no department and no nation. GOV.UK's "Fire safety in the home" (D35) is marked as applying to England only (national_applicability), so the two are "England's official advice", not "the UK advice".
+
+**USFA, "Smoke alarms"** (D41), page last reviewed 21 September 2026:
+- [V] "Put smoke alarms on the ceiling or high on the wall."
+- [V] "Only qualified electricians should install hardwired smoke alarms."
+- [V] "Your city, county or state may require a specific type of alarm. Please check with your local fire marshal for information on what type of alarm you need."
+- [V] "Smoke alarms should be interconnected."
+
+**NFPA, "Smoke Alarms in U.S. Home Fires"** (D42; Ahrens, September 2015, data 2009 to 2013):
+- Chart A (fires): [V] "Fire too small to operate" 12%; [V] "Present but did not operate" 8%. Chart B (deaths): the same two categories at 1% and 21%.
+- The reasons list is headed [V] "In fires in which the smoke alarms were present but did not operate". Its categories: missing or disconnected battery 46%, dead or discharged battery 24%, unclassified 9%, hardwired power failure 7%, lack of cleaning 6%, defective unit 5%, [V] "Improper installation or placement" 3%. It has no category for smoke that did not reach the alarm. Neither NFPA nor MHCLG compares the two counts.
+
+**Scottish Government, "Fire and smoke alarms: the law"** (D26): the mains-wired line continues,
+after a spaced en dash, with [V] "these should be replaced every 10 years". Not used in a lesson:
+the open-plan rule, one alarm [V] "no more than 7.5 metres from any point in the room".
