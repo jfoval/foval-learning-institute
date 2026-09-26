@@ -100,3 +100,31 @@ found. `npm run quiz`: nothing for this course (the command exits 1 on other cou
 `npm run validate` exits 0.
 
 **Status after review:** clean.
+
+## Targeted re-check (2026-09-26)
+**Checker:** one fresh-context re-checker, against the fixer's commit e3ae885. Every new or changed
+quotation re-fetched today by curl (generic browser User-Agent) and string-matched by script:
+Tamir and Mitchell (PMC full text), Headlee (TED Ideas excerpt), Huang et al. (HBS PDF), UMN 5.2
+(Internet Archive 20241228174458), Itzchakov and Kluger (authors' HBR copy). All match, and each is
+attributed to the right source number.
+
+**R1 to R20:** all resolved as recorded above. Spot facts confirmed in the primaries: the consent
+lines name the MGH Human Studies Committee and Harvard's Committee on the Use of Human Subjects, and
+the main text gives no other demographics; Study 1a and 1b are the fMRI studies (78, 117) and Study 2
+the money study (37); response preparation sits under UMN's "Cognitive and Personal Barriers", not
+"Bad Listening Practices"; the HBR article names no place for its 112 undergraduates; Headlee's
+excerpt credits "conversational narcissism" to Derber. Quiz items 2 and 4: each explanation
+addresses every option, the keys (0 and 3) match, option-length spreads 4 and 2.
+
+**Two one-edit fixes made here:**
+1. Body, Huang et al.'s limit: "without disclosing anything in return" became "without revealing
+   enough about yourself in return". The source says "not revealing sufficient information about
+   oneself"; "anything" overstated it.
+2. Quiz 2 explanation: "neither side has been tested head to head" gained "in what this course
+   read", matching the body (l. 303 to 304), so the explanation doesn't widen the lesson's claim.
+
+No em dashes or spaced en dashes. `npm run minutes` 85, matching. `npm run quotes`: no misses in
+lesson 04 (the three misses reported are in lessons 03 and 05, another session's work in progress).
+`npm run validate` exits 0.
+
+**Verdict: SETTLED.**

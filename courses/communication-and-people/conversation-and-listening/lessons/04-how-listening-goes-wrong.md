@@ -42,12 +42,12 @@ quiz:
       - A count of how often conversations between friends include a matched story of any kind
     answer: 0
     explain: >-
-      The lesson says neither side has been tested head to head, and that what would settle it is
-      research coding second stories and support responses in real conversations and measuring how
-      understood the first speaker felt, separately for distress and sociable talk. A preference
-      survey measures taste, not what the reply did to the speaker. Tamir and Mitchell's reward
-      finding bears on why a shift might come easily, not on whether it helps. And a count tells you how
-      common matching is, not whether it works.
+      The lesson says neither side has been tested head to head in what this course read, and that
+      what would settle it is research coding second stories and support responses in real
+      conversations and measuring how understood the first speaker felt, separately for distress and
+      sociable talk. A preference survey measures taste, not what the reply did to the speaker.
+      Tamir and Mitchell's reward finding bears on why a shift might come easily, not on whether it
+      helps. And a count tells you how common matching is, not whether it works.
   - q: >-
       A study reports that speakers who talked to a listener who kept answering text messages felt
       more anxious than speakers whose listener didn't. A manager concludes, "So checking my phone
@@ -296,7 +296,7 @@ themselves indefinitely without reciprocity", and they report earlier research i
 turn-taking in reciprocal self-disclosure went with more liking (this course didn't read that
 study).[11] The same researchers, whose experiments with strangers chatting online found that
 people who asked more questions were liked more (lesson 6), suggest a limit themselves: it "may be
-the case" that you can ask too many questions without disclosing anything in return.[11] Adler's
+the case" that you can ask too many questions without revealing enough about yourself in return.[11] Adler's
 textbook outline also lists empathising and agreeing among the supporting responses, though this
 course read only the outline.[2]
 
