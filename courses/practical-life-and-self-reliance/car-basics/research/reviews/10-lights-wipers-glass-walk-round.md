@@ -102,3 +102,32 @@ regulation's text. Bold is 26 spans, about 6 per 1,000 body words. Contractions 
 **Status after review:** needs targeted re-read (R1, R2). A reader should check the garage passage and
 the CDC attribution against the capture, and look at the rendered SVG on the built page. Nothing else
 needs a second full pass.
+
+## Second pass (2026-09-26)
+**Reviewer:** fresh context, targeted re-read of R1 and R2, the new quiz 2 case, and a quick read of
+every other resolution. No edits to the lesson were needed.
+
+- **Garage passage (R1).** CDC capture 20260920191925 re-read (gzip, generic User-Agent): the quoted
+  sentence is exact, under "Automobile", page dated Jan. 12, 2026. The next line allows a detached
+  garage with the door open; the lesson doesn't quote it, says the CDC's words are about a garage
+  joined to a house, and labels the all-garages rule as this course's own ("Both precautions that
+  follow are this course's own"). Nothing says or implies an open door makes a running engine safe;
+  body and exercise both say "never inside a garage, even with the door open". Home Repair lesson 11
+  quotes the same sentence and its title is cited correctly.
+- **Zone A SVG (R2).** Extracted and rendered in headless Chrome, light and dark tokens, at 420 px and
+  at a 343 px phone column. The band's top is the exact sub-curve of the swept path's second Bézier
+  (recomputed: t 0.157 to 0.515, control 300.3,83.5), its bottom is the swept area's, and its centre is
+  the wheel's cx (292); it has no height of its own, matching the shape of the manual's
+  winscreen_zone_A.png. All labels 15px or larger; text bounding boxes run to x=333 of 420, nothing
+  overlaps (steering-wheel label ends 8 px before the circle), the source line is visible and
+  readable. MOT manual 3.2 re-read through the content API (updated 2024-11-29).
+- **Quiz 2.** 400 mm left is beyond 145 mm, so outside zone A; 30 mm is under the 40 mm figure; the key
+  says "over neither figure", which is true and claims no pass. The explanation answers all four
+  options. Option spread 4, key not the sole longest.
+- **Other fixes.** R3 to R18 read and present as recorded. The 3.5 washer row and Annex 6's "at least
+  weekly" re-verified live.
+- **Checks.** No em or en dashes. Callout byte-identical to the build's `CAR_BASICS_SAFETY`.
+  `npm run minutes`: 75 measured, 75 stated. `npm run quotes car-basics`: no miss in this lesson (the
+  13 misses are lessons 09 and 13).
+
+**Verdict: CLEAN.**
