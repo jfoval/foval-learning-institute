@@ -57,10 +57,21 @@ Rewrite these five lines each session. Nothing else goes in this block.
   was read. It also settles the course's boundaries with the rest of Term 4 and points crisis
   conversations to Mental Fitness. Stage 2 is done: `research/OUTLINE.md` plans seventeen lessons
   (Tier B for 5, 9, 11, 14, 15 and 16; the Mental Fitness crisis callout on 10 and 11, enforced by
-  the build), a 20-item test and a listening-journal project. Next: draft lessons 1 to 4. **Before the active-listening lesson:** Weger et al. 2010
-  and 2014 and Kluger et al. 2024 are abstract-only (paywall and bot blocks) and should be read in
-  full. Lessons on gender and interruption, culture, autism and political dialogue get the
-  neutrality pass although `sensitive_domain` is false.
+  the build), a 20-item test and a listening-journal project.
+  **Where it stands (2026-09-26, end of session):** lessons 1 to 6 drafted. Lessons 1 and 4 are
+  settled (Stage 4 review, fixes, targeted re-check) and have fact-checked scripts. Lessons 2 and 3
+  have their review fixes applied and each **owes a targeted re-check**, then its script. Lessons 5
+  (Tier B: split reviewers F and P) and 6 (Tier A) **owe Stage 4**; the drafter's notes for the
+  reviewers are in `research/reviews/cl-draft-05-notes.md` and `cl-draft-06-notes.md`.
+  **Gates:** G2, G4 and G20 closed. G20 changes the outline: Leydon et al. 2018 is a partial
+  replication of Heritage's "some"/"any" result, so "no replication found" is no longer true
+  (lesson 6 reports both). G5 not closed (Beckman and Frankel refused; the 18 seconds is cited as
+  Singh Ospina reports it). G3, the Gino integrity check on Yeomans et al. 2020, is open for lesson
+  16: OSF holds a 2024 integrity report; Retraction Watch still unchecked. G1, before lesson 9:
+  Weger et al. 2010 and 2014 and Kluger et al. 2024 are abstract-only and should be read in full.
+  SOURCES Part B §3.3 mislabels the first-author-gender moderator as non-significant (noted in
+  the lesson 05/06 gate closure; lesson 5 has it right). `npm run build:drafts` now wants a final
+  test, which is planned. The course is `sensitive_domain: true`.
 
   **Car Basics is published and written** (2026-09-26), the seventh and last of Term 3, so Term 3
   is fully published. Twenty-five lessons, test and project reviewed; twenty-five checked scripts;

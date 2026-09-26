@@ -3431,3 +3431,197 @@ here and is not cited. Two corrections to earlier entries are made in place and 
   dominant attention-getting psychology in America.'" [V]. The excerpt says nothing of status, class,
   gender or fairness; that reading of Derber exists in this file only from web summaries (Part A §7)
   and is not taught.
+
+## Gate closures, lesson 05/06 (2026-09-26)
+
+Stage 3 drafting of lessons 5 ("Let them finish: interruption, overlap and silence") and 6
+("Asking better questions"). Pages and PDFs re-read today with curl (generic browser User-Agent)
+and pdftotext, or through the PubMed, Europe PMC, Crossref, Unpaywall and OpenAlex APIs; Internet
+Archive captures where the live page refused. Strings marked [V] were copied from that text today;
+[V-OCR, image] means a fresh tesseract OCR of the scan, checked by eye against the page image.
+
+**G4, Zimmerman and West 1975: closed.** Scan at https://web.stanford.edu/~eckert/PDF/zimmermanwest1975.pdf
+(25 pages, no text layer), rendered at 150 dpi, OCR'd, and pp. 105, 111 to 112, 115 to 116 and 125
+read against the page images. The "98% and 100%, respectively" sentence is on p. 115, and Table 2
+("INTERRUPTIONS 96% (46) 4% (2) 100% (48)") is on p. 116. **Correction to Part B §3.2:** the two are
+on consecutive pages (the back of the same leaf), not facing pages. Quotations [V-OCR, image]:
+- p. 105: "The preliminary findings of the research reported here indicate that there are definite
+  and patterned ways in which the power and dominance enjoyed by men in other contexts are exercised
+  in their conversational interaction with women."
+- p. 125: "We are not claiming" (the scan clips the right margin of this page, so the rest of the
+  sentence is paraphrased: that male-female conversations do not invariably show the pattern, and
+  that the conditions under which it occurs are a task for further research); "at least in our
+  transcripts, men deny equal status to women".
+- pp. 111 to 112: public recordings were made by the authors as overheard; "Whenever possible,
+  conversationalists were subsequently informed of our recording and their consent obtained";
+  private-home recordings had consent "uniformly obtained after recording"; tapes erased after
+  transcription. p. 116: ten of the 11 cross-sex segments had interruptions, from 2 to 13.
+
+**G5, Beckman and Frankel 1984: attempted, not closed.** The Annals page returned 403; the Internet
+Archive capture (20250420030728) is the abstract page only; Unpaywall lists no open copy; the PubMed
+abstract (PMID 6486600) was re-read and does not contain the 18 seconds. Fallback written: the 1984
+figures only as Singh Ospina et al. report them: "Beckman et al. found that in 69% of the visits to
+a primary care internal medicine practice, the physician interrupted the patient, with a mean time
+to interruption of 18 s" [V].
+
+**Singh Ospina et al. 2019** (PMC6318197, full text re-read). "The median time to interruption was 11
+s (interquartile range 7–22; range 3 to 234)" [V]; uninterrupted patients "completed their agenda in
+a median of 6 s" [V]; the authors: "Our estimate is much briefer perhaps because many completed
+statements correspond to patients indicating that they had no concerns" [V]; interruptions "may
+clarify or focus the conversation, and thus be beneficial to patients" [V]; "it seems rather unlikely
+that an interruption, even to clarify or focus, could be beneficial at such early stage in the
+encounter" [V]. Settings: "general practices in Minnesota and Wisconsin and at the Mayo Clinic" [V].
+First author's name: Naykky Singh Ospina.
+
+**Langewitz et al. 2002** (PMC126654, full text re-read). "Doctors do not risk being swamped by their
+patients' complaints if they listen until a patient indicates that his or her list of complaints is
+complete." [V] "two minutes of listening should be possible and will be sufficient for nearly 80% of
+patients." [V] Doctors activated a stopwatch "surreptitiously" [V]; "Patients did not know that a
+timer was being used." [V]; doctors "were advised to interrupt if a patient talked for more than five
+minutes" [V]. Age groups: 17 to 29, 77 s; 30 to 49, 92 s; 50 to 87, 108 s. Tertiary referral centre;
+the authors expect "Patients in less selected groups might need even less time" [V].
+
+**Anderson and Leaper 1998** (eScholarship, https://escholarship.org/uc/item/5ws13704, full text
+re-read). Abstract: the overall difference "was associated with a negligible effect size (d = .15)"
+[V]; intrusive, "A more substantial effect size (d = .33)" [V]. Discussion: "a small but substantial
+effect size emerged (weighted d = .33)" [V]; naturalistic settings: "Only three of the 17 studies
+examining intrusive interruptions were in naturalistic settings. Therefore, the finding should be
+considered with caution." [V]; author gender: "The difference between women and men authors
+potentially reflects some form of researcher bias" [V], followed by the authors' symmetric gloss
+(some women researchers biased toward, some men researchers against, identifying men as more
+dominant). **Precision on Part B §3.3:** the "(non-significant)" there belongs to the combined
+significance level of men-authored studies; first-author gender as a moderator was significant
+(focused comparison, Z = 3.19). Familiarity (strangers .38, familiar .19) and gender composition
+(same .24, mixed .11) were **not** significant moderators. "Most studies were limited to a relatively
+short interaction time (around 10-15 minutes)" [V]. Conclusion: results "consistent with a
+contextual-interactive model of gender" [V]. The PDF text layer is kerned oddly; the strings above
+were checked word by word.
+
+**G2, Huang et al. 2017's corrected statistics: closed.** https://osf.io/rymv8/ is an OSF project
+titled "Integrity Audit" holding post-publication integrity and reproducibility reports for three
+papers (2017, 2019, 2020). Read: the 2017 integrity report and reproducibility report (Reny Baykova,
+University of Sussex; compiled 8 March 2024, updated 22 and 29 September 2024). The figures lesson 6
+prints reproduce within rounding after the authors' updates: liking 5.79 vs 5.31 (reproduced 5.78),
+d = .35; responsiveness d = .30; Study 2A d = .27 (means 6.02 and 5.79 after an updated cleaning
+script); r = −.02; the question-type shares (40.51, 27.55, 19.03, 5.52, 5.48, 1.91%). Two points a
+later lesson should know: the Table 3 estimate for full-switch questions on responsiveness reproduced
+smaller than printed (−1.74, SE .77, p = .024, against a printed −2.83), and the mediation of liking by
+the share of follow-up questions reproduced as estimate .04, 95% CI [.01, .09], p = .06, against a
+printed .06, p = .006. Lesson 6 prints neither. Correction notice (PubMed 40111841, re-read):
+"several minor errors in how some results were reported have been discovered, based on a recently
+conducted independent audit of the work and using new standards for integrity and reproducibility"
+[V]; "The audit confirmed that all the conclusions in the paper are valid. The substantive results of
+every hypothesis test in the paper remain unchanged, and no reason was found to doubt the integrity
+of the data collection." [V]; the reproduced abstract describes responsiveness as "an interpersonal
+construct that captures listening, understanding, validation, and care" [V], and "In both cases,
+responsiveness explains the effect of question-asking on liking." [V]
+
+**Huang et al. 2017, full text re-read** (HBS PDF). Study 1: 430 recruited, 398 analysed "(194 male,
+204 female)" [V], "in a behavioral lab" [V], separate cubicles, instant messages through ChatPlat,
+anonymous strangers, 15 minutes. Study 2A recruited on Amazon's Mechanical Turk. Study 2B observers
+read the Study 2A transcripts. Definitions: follow-up questions "followed up on the topic the partner
+had mentioned earlier in the conversation (almost always in the previous turn)" [V]; full-switch
+"asked about a new topic, one that was unrelated to what the partner had already discussed" [V];
+partial-switch "changed topics somewhat, but not entirely" [V]; mirror "similar in content or
+structure to a question asked by the partner in a prior turn" [V]; rhetorical "used to make a point
+rather than elicit information" [V]; introductory "the most superficial, routine questions at the
+beginning of the conversation" [V]; partial-switch and rhetorical left out of the analyses as rare
+and hard to code. The too-many-questions boundary is the authors' conjecture, not a finding: the
+relationship "may be curvilinear" [V] and "When one asks too many questions without reciprocating
+self-disclosure, liking may decrease." [V] (The full sentence before it contains an em dash.) On
+observers: "perhaps because those who answered many questions seemed like more complete, interesting
+people" [V]. **Note for lesson 4's review:** lesson 4 says the authors "flag a limit themselves: you
+can ask too many questions without disclosing anything in return", which drops the "may".
+
+**G3, the Gino integrity check: not closed for lesson 16; lesson 6 does not need it.** The 2025
+correction notice gives no reason for the audit, and lesson 6 names none. For lesson 16: the same OSF
+project holds a "Post-Publication Integrity Report" on Yeomans, Minson, Collins, Chen and Gino 2020
+(checker Nick Beazley-Long, University of Bristol; compiled 7 October 2024; read in full, three pages;
+every data-integrity item "Y", one Qualtrics entry missing from the original download) and a 2020
+reproducibility report (not read). Crossref lists no correction, retraction or other update to doi
+10.1016/j.obhdp.2020.03.011 today. Retraction Watch's database was not searched. Lesson 16's drafter
+should finish the check there.
+
+**G20, a Heritage replication: closed, with a finding.** Europe PMC lists 183 papers citing Heritage
+et al. 2007; their titles were screened today. One is a trial of the same questions:
+- **Leydon, G. M., Stuart, B., Summers, R. H., Little, P., Ekberg, S., Stevenson, F., Chew-Graham,
+  C. A., Brindle, L., Heritage, J., Drew, P., and Moore, M. V. (2018).** Findings from a feasibility
+  study to improve GP elicitation of patient concerns in UK general practice consultations. *Patient
+  Education and Counseling*, 101(8), 1394–1402. doi:10.1016/j.pec.2018.03.009. **Read: full text of
+  the accepted manuscript** (QUT ePrints, https://eprints.qut.edu.au/223692/, CC BY-NC-ND). Three-arm
+  feasibility RCT ("any", "some", usual-care control); 21 GPs in Dorset, Hampshire and Wiltshire; 320
+  patients; descriptive statistics only; fidelity 86% ("some") and 88% ("any"). "Drawing on Heritage
+  et al.'s study (but not replicating the design)" [V]. "the particular lexical variation of 'any' vs
+  'some' seemed to have no bearing on the number of patient concerns elicited, on consultation length
+  or on patient satisfaction" [V]; "the particular wording, specifically 'any' vs. 'some' may not be
+  as important as the placement of the GP solicitation" [V]. Unvoiced planned concerns were rare: 9 of
+  252 (3 control, 4 "some", 2 "any"). Differences the authors list: new and long-standing problems
+  included, recruitment, older and mostly white patients, and a service "free at the point of access"
+  [V]. Heritage is a co-author.
+- **Szojka, Z. A., Henderson, H. M., Hur, J., Siepmann, H., and Lyon, T. D. (2023).** Elaborations and
+  denials in children's responses to yes-no any/some questions in forensic interviews. *Child
+  Maltreatment*, 28(3), 407–416. **Abstract only** (PubMed 36724093): 379 children aged 4 to 12;
+  children "responded "no" more often to any/some questions than to other yes-no questions, and more
+  often to "any" than to "some" questions" [V-abstract].
+- **Allgood, S., Park, J., Soleiman, K., Saha, S., Han, D., McArthur, A., Moore, R. D., and Beach, M.
+  C. (2023).** Taxonomy and effectiveness of clinician agenda-setting questions in routine ambulatory
+  encounters. *Patient Education and Counseling*, 115, 107889. **Abstract only** (PubMed 37480792):
+  346 agenda-soliciting questions in 138 visits at "an urban academic hospital" [V-abstract];
+  "Patients were more likely to raise a concern to direct solicitation (OR 22.95, 95% CI 2.62-200.70)
+  or "what else" (OR 4.68, 95% CI 1.05-20.77) questions" [V-abstract]; the abstract does not name the
+  reference category. Observational.
+
+**Heritage et al. 2007** (PMC2305862, full text re-read): "90.3 vs 53.1%, p = .003" [V]; "eliminating
+78% of all unmet concerns (covariate-adjusted proportion of unmet concerns 9% with the SOME
+intervention, reduced from 37% in the nonintervention arm)" [V]; the "any" form, "widely promoted in
+textbooks of medical interviewing, was relatively ineffective" [V]; "It appears that the negative
+polarity of the single word 'any,' with its subtle communication of an expectation for a 'No'
+response, tends to vitiate the opportunity to raise unmet concerns" [V]; "The relative failure of the
+ANY intervention may generalize to patient responses to other questions framed in similar terms, such
+as the almost ubiquitous "Do you have any questions?"" [V].
+
+**Itzchakov and Bodie 2026, Puzzle 7** (author PDF re-read): "Question asking is not inherently good or
+bad for listening; it depends on purpose, timing, and relational stance." [V] It cites West et al.
+2025 for questioning that "predicts stronger social connections when it reflects genuine, attentive
+listening rather than conversational control" [V] and Shaughnessy et al. 2025 for elaboration
+questions that "can also backfire if delivered without attunement or perceived as interrogation" [V];
+neither cited study was read.
+
+**Practitioner pages re-read** (all [V] from today's text):
+- Samaritans, "What to do if you think someone is struggling": "If the other person has paused in
+  their response, wait a moment." "remember, you don’t have to fill every silence." The open-question
+  rewrites confirmed exactly: "instead of asking ‘have you had a bad week?’, try ‘what’s been going on
+  for you this week?’" and "instead of ‘are you OK?’, try ‘how are you feeling today?’ and follow up
+  with ‘tell me more…’".
+- R U OK?, "How to ask": "If they need time to think, sit patiently with the silence."
+- NHS Every Mind Matters, "Helping others": "Ask open questions that start with "how", "what",
+  "where" or "when"."
+- STAMMA: "Basically, people who stammer just want the time to say what they want to say. Without
+  being interrupted, rushed or spoken over." "It can be tempting to try and help by finishing
+  someone's sentences. Try not to do this. People who stammer often find it intrusive rather than
+  helpful." "This just shows that you're more focused on how they speak, than on what they're
+  saying."
+- Calgary-Cambridge 73-item list, item 10, confirmed as Part E §2.1 gives it.
+- Smithsonian, *How to Do Oral History*: "Ask one question at a time and try to ask simple
+  questions." "Don't worry about silences. Let the interviewee think and take time before they
+  answer." "If the interviewee responds with just a yes or no, ask how, why, when, where, who."
+- Poynter (live page 403; Internet Archive capture 20260728140410): "Ask one question at a time. This
+  isn’t multiple choice." "Be patient. Don’t break the silence with a new question."
+- Essential Partners, *Fostering Dialogue Across Divides*, pause section: "Most moments of silence are
+  anything but empty." "Pauses also promote better listening, because most listeners can concentrate
+  better when they know there will be a pause during which they can gather their thoughts." Question
+  agreement: "If you ask a question, be sure it reflects genuine curiosity and is not a challenge in
+  disguise."
+- Acas, *Challenging conversations*: leading questions ("You’re not suggesting that …?"; "You must
+  admit that …?") and multiple questions both "These questions should be avoided."; the open-question
+  example "Why did you leave?".
+- Vecchi, Van Hasselt and Romano 2005: "Why" statements "are usually avoided, as they tend to be
+  perceived as interrogatory."
+- Oral History Association 2025: interviewers "communicate the narrator's right to refuse to answer
+  questions".
+- StoryCorps, "Great Questions": "Do you have any regrets?" confirmed.
+- SAMHSA TIP 35, Exhibit 3.5: "If you engage in any of these 12 activities, you are talking and not
+  listening." confirmed.
+
+**Not attempted:** G19 (Project Aristotle; lesson 5 does not mention it). The Brooks and John reprint
+URL at CEBMA now returns 404; lesson 6 cites it only in Go deeper, at its HBR address.
