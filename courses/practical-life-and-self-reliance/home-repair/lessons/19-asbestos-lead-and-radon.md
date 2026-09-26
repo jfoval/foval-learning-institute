@@ -1,6 +1,6 @@
 ---
 title: "Asbestos, lead paint and radon: what not to disturb"
-minutes: 110
+minutes: 100
 objectives:
   - >-
     Identify where asbestos may be in a UK or US home, by the date of the building and by the
@@ -159,10 +159,8 @@ Old lead paint harms by a different route. The worry is mostly children, and mos
 The British Coatings Federation (BCF), the paint makers' trade body in the UK, says in its
 [guidance for the public](https://cdn.ymaws.com/coatings.org.uk/resource/resmgr/webpage_files/technical_publications/health&safety/hs_032_lead_in_painted_surfa.pdf): "Children absorb
 lead mostly by eating it or touching contaminated dust or soil and then putting their fingers into
-their mouths."[13] The UK Health Security Agency (UKHSA) names the same route: children "may be
-exposed to lead in soils, dusts, and flakes of old paint".[12] The US Centers for Disease Control
-and Prevention (CDC): "No safe level of lead in children has been identified."[19] Sanding makes
-exactly the dust that ends up on hands and toys.
+their mouths."[13] The US Centers for Disease Control
+and Prevention (CDC): "No safe level of lead in children has been identified."[19]
 
 So for both, the job makes the hazard. The BCF puts it plainly for paint: "there is only a risk if
 the paint film is unsound or disturbed."[13] HSE says the same of asbestos: "When asbestos is in good
@@ -170,30 +168,25 @@ condition and not disturbed the risk of exposure is extremely low."[2]
 
 :::predict Before the radon section: leaving a material alone is the answer for asbestos and for sound lead paint. Can leaving things alone deal with radon too?
 
-No. Radon is a gas made by the decay of the small amounts of uranium in all rocks and soils, UKHSA
-says; "Every building contains radon but the levels are usually low", and the chance of a higher level
+No. Radon is a gas made by the decay of the small amounts of uranium in all rocks and soils, the UK
+Health Security Agency (UKHSA) says; "Every building contains radon but the levels are usually low", and the chance of a higher level
 depends on the type of ground.[20] Nothing you do or don't do to the house makes it. That's why the advice for radon is the opposite of the advice for the other two: not *leave it
 alone*, but *find out*, because you can't see or smell it either.
 :::
 
 ## Asbestos: where it might be
 
-HSE's figures show the scale. It puts deaths from asbestos at "Around 5,000" a year in Great
-Britain, and its statistics count that figure across all the diseases asbestos causes: mesothelioma,
-lung cancer and asbestosis together.[2][3] Mesothelioma, one of the cancers, is counted on its own:
-HSE's latest statistics, published in July 2026, count 2,146 mesothelioma deaths in Great Britain in
-2024, one part of the 5,000, with over 70% of them in people over 75, and men who worked in the
-building industry "when asbestos was used extensively in the past" still most at risk. HSE says
-today's figures "reflect the legacy of past working conditions".[3] That matters to a householder
-because the deaths come from people who worked with asbestos, cutting and breaking it, and a job on
-your own house is the nearest thing you'll do to that. So the job is where this lesson puts its
-effort.
+HSE puts deaths from asbestos at "Around 5,000" a year in Great Britain, counting mesothelioma, lung
+cancer and asbestosis together.[2][3] Its July 2026 statistics say current figures "reflect the
+legacy of past working conditions", and that men who worked in the building industry "when asbestos
+was used extensively in the past" are still most at risk of mesothelioma.[3] A job on your own house is the nearest thing
+you'll do to that work, so the job is where this lesson puts its effort.
 
 ### In the UK
 
 For Great Britain, [HSE's asbestos FAQs](https://www.hse.gov.uk/asbestos/faq.htm) say asbestos "may be part of any commercial or domestic building which was built or
-refurbished before the year 2000", and that buildings put up after 2000 are unlikely to contain
-it.[1][2] Its list of where it's still found:[1]
+refurbished before the year 2000".[1] HSE's introduction adds that buildings put up after 2000 are
+unlikely to contain it.[2] The FAQs' list of where it's still found:[1]
 
 - asbestos cement products (pipes, flues, roofs)
 - lagging (insulation wrapped round them) on pipes and boilers
@@ -207,13 +200,11 @@ it.[1][2] Its list of where it's still found:[1]
 The corrugated cement roof of an old garage or shed is one kind of asbestos cement a householder
 may meet; that example is this course's, not HSE's.
 
-The dates behind that year 2000 come from two bodies, and they say slightly different things.
-UKHSA: "the importation of blue and brown asbestos has been banned in the UK since 1985. This ban
-was extended to include white asbestos in 1999."[4] HSE: since 1999, using asbestos in the
-construction or refurbishment of buildings has been illegal.[2] One is about bringing it into the
-country, the other about building with it. Both put the end at 1999, and HSE's "refurbished" is
-the word to hold on to: a 1930s house re-roofed in 1975 can hold asbestos in a part much younger
-than the house.
+Behind that year 2000 are two dates for 1999. UKHSA: "the importation of blue and brown asbestos
+has been banned in the UK since 1985. This ban was extended to include white asbestos in 1999."[4]
+HSE: since 1999, using asbestos in the construction or refurbishment of buildings has been
+illegal.[2] HSE's "refurbished" is the word to hold on to: a 1930s house re-roofed in 1975 can hold
+asbestos in a part much younger than the house.
 
 ### In the US
 
@@ -227,7 +218,7 @@ says, "you do not need to have your home tested for asbestos."[7]
 
 ### Leave it, and watch it
 
-Both countries' advice starts in the same place. HSE: if you're sure or strongly suspect your home
+HSE: if you're sure or strongly suspect your home
 has asbestos materials, "it is often best to leave them where they are", especially if they are in
 good condition and unlikely to be damaged, and you should check their condition from time to time.[1]
 EPA: "If you think there may be asbestos in your home, don't panic." And: "Do leave undamaged
@@ -240,18 +231,16 @@ The tank and the ceiling. The house was built before 2000, and HSE's list includ
 "textured decorative coatings (commonly referred to as Artex)".[1] The 2012 extension is after 2000,
 so on HSE's line it's unlikely to contain asbestos, though an extension does not change what's in the
 older parts of the house. If the tank and ceiling are in good condition and will not be damaged, HSE's
-advice is that it's often best to leave them where they are and check them from time to time. You
-can't tell whether they actually contain asbestos by looking, and nothing here says they do: they are
-on the list, so they are treated as if they might.
+advice is that it's often best to leave them where they are and check them from time to time. Nobody
+can tell by looking whether they do contain asbestos, so they're treated as if they might.
 :::
 
 ## Asbestos: the law and the advice, side by side
 
 This is general information, not legal advice.
 
-Lesson 10, "Gas: the law and the engineer", and lesson 15, "Ladders and working at height", both
-met the same shape: the law allows a householder more than the advice does. Asbestos is the third
-time. Here are both halves, law first.
+As with gas in lesson 10, "Gas: the law and the engineer", and ladders in lesson 15, "Ladders and
+working at height", the law allows a householder more than the advice does. Law first.
 
 ### In Great Britain
 
@@ -264,9 +253,10 @@ The Health and Safety at Work etc. Act 1974 defines work as "work as an employee
 self-employed person", and a self-employed person as someone who "works for gain or reward".[23]
 
 Regulation 3 also extends an employer's duties, so far as is reasonably practicable, to "any other
-person, whether at work or not, who may be affected by the work activity".[5] That is why HSE can say
-that contractors working in your home "have a legal duty to protect you from any risks to your health
-due to their activities."[2] HSE also says owner-occupiers "are not engaged in any work activity", but
+person, whether at work or not, who may be affected by the work activity".[5] That is one legal root
+of HSE's line that contractors working in your home "have a legal duty to protect you from any risks
+to your health due to their activities"; the other its FAQ names is the 1974 Act's general
+duties.[2][1] HSE also says owner-occupiers "are not engaged in any work activity", but
 in a sentence about something else: why they aren't legally responsible for risks to contractors.[1]
 And its guide says the duty to manage asbestos covers non-domestic premises and the common parts of
 blocks of flats, not the inside of a private home.[2]
@@ -293,8 +283,8 @@ like this one. Repairing or removing asbestos is
 **Call someone**. The label follows the advice, not the law.
 
 Two more things from HSE matter when you hire. If you're bringing in builders or other trades, you
-"should inform them of any asbestos materials in your home before they start work."[1] And the
-difference between trained and aware is real: HSE's guide for employers says "Awareness training
+"should inform them of any asbestos materials in your home before they start work."[1] And HSE's guide for
+employers says "Awareness training
 does not allow you to undertake work which will disturb asbestos", and that workers who plan to do
 non-licensed asbestos work "need additional information, instruction and training."[2] Lesson 23,
 "Hiring a tradesperson, and when to stop", is where you ask about that.
@@ -315,16 +305,13 @@ handling asbestos. It is highly recommended that sampling and minor repair also 
 and accredited asbestos professional." Removal "must be done only by a trained and accredited asbestos
 professional. Improper removal may actually increase your and your family's exposure to asbestos
 fibers." And for the people you hire: "For safety, homeowners should ensure that workers they hire to
-handle asbestos are trained and accredited."[7] EPA also suggests using one firm to inspect and a
-different one to remove, "so there is no conflict of interest".[7]
+handle asbestos are trained and accredited."[7]
 
 The label is the same as in Great Britain: repairing, removing or sampling is **Call someone**. Your
 state's rules are the next thing to check, and EPA says state agencies have the most up-to-date lists
 of accredited professionals.[7]
 
 ### The bans, and a court case
-
-Bans are law too, and they are easy to misread.
 
 In the UK, the 1985 and 1999 dates above ended the importing and the building use.[2][4] In the
 US, EPA "attempted to ban most asbestos-containing products" in 1989, and most of that ban "was
@@ -334,23 +321,13 @@ which it calls "the only known form of asbestos imported, processed or distribut
 United States".[9]
 
 That 2024 rule has been challenged in the federal appeals court for the Fifth Circuit, by chemical
-industry bodies and, separately, by public health groups and trade unions. This course read the
-court's list of filings, its docket, as CourtListener, a public website that copies court dockets,
-showed it on 26 September 2026.[11] Here is what that list shows:
-
-- February 2025: the court paused the case at EPA's request, so that EPA could brief the new
-  administration's officials on the rule.
-- June 2025: EPA asked for a longer pause, saying it would "conduct a rulemaking to reassess the
-  challenged final rule". In July it withdrew that request, and the pause ran to 8 August 2025.
-- October to November 2025: another pause, while Justice Department lawyers couldn't do their usual
-  civil litigation work.
-- 1 June 2026: the court heard argument, and it then asked for further written arguments, due that
-  month. The latest filing listed was on 22 June 2026.
-
-CourtListener's [copy of the docket](https://www.courtlistener.com/docket/68457472/texaschemistry-council-v-epa/)
-showed no decision.[11] This course read that list of filings, not the briefs, so it can't say what
-each side argues, and it can't settle the rule's status: a decision could come at any time. EPA's own
-page on the rule, updated in May 2026, does not mention the case.[9]
+industry bodies and, separately, by public health groups and trade unions. The court's list of
+filings, as [CourtListener](https://www.courtlistener.com/docket/68457472/texaschemistry-council-v-epa/),
+a public website that copies court dockets, showed it on 26 September 2026, has the case paused for
+parts of 2025 (once after EPA said it would reassess the rule, a request it withdrew a month later),
+argued on 1 June 2026, and no decision yet.[11] This course read that list, not the briefs, so it
+can't say what each side argues or settle the rule's status, and EPA's own page on the rule, updated
+in May 2026, doesn't mention the case.[9]
 
 :::predict Suppose the court upholds the 2024 rule in full. What does that do to the asbestos cement roof on a 1960s American garage?
 
@@ -358,9 +335,8 @@ Nothing. The rule is about chrysotile products still being imported, processed a
 linings, gaskets, and the diaphragms used to make chlorine.[9] It does not reach material already in
 houses, and it does not require anyone to remove it. EPA's own caution on its wider risk finding
 about asbestos in old buildings: it "does not mean that every person with asbestos-containing
-material in their house or school will suffer adverse health effects."[8] A ban stops new material,
-and the old roof is exactly as safe or unsafe as it was, which depends on its condition and what you do
-to it.
+material in their house or school will suffer adverse health effects."[8] The old roof is exactly as
+safe or unsafe as it was.
 :::
 
 ### If you've already disturbed it
@@ -375,18 +351,18 @@ your health afterwards, UKHSA says to ask your GP or NHS 111.[4] For debris in t
 EPA: "Don't dust, sweep, or vacuum debris that may contain asbestos."[7] Leave it, keep people out,
 and call someone.
 
-HSE is candid that a single slip is not usually a disaster: "Many cases of inadvertent, short-term
-exposure to asbestos will most likely have led to minimal exposure to fibres, with little likelihood
-of any long-term ill health effects."[1] The harm is cumulative, which is why the answer is to stop,
+A single slip is not usually a disaster, HSE says: "Many cases of inadvertent, short-term exposure to
+asbestos will most likely have led to minimal exposure to fibres, with little likelihood of any
+long-term ill health effects."[1] The harm is cumulative, which is why the answer is to stop,
 not to finish the job.
 
 Asbestos waste is not household rubbish. HSE: "ACMs need to be legally disposed of as hazardous
 waste. This should not be mixed with normal household waste", and "Asbestos waste should only be
 handled by a licensed disposal site." Your council can tell you how.[1] This is general information,
 not legal advice. Here the law does reach a householder: in England and Wales, the Environmental
-Protection Act 1990 puts a duty on the occupier of a home to take reasonable measures so that
-household waste from it goes only "to an authorised person or to a person for authorised transport
-purposes".[24] GOV.UK has a finder, for England and Wales, that sends you to your council's
+Protection Act 1990 puts a duty on the occupier of a home to take reasonable measures so that any
+household waste they hand on goes only "to an authorised person or to a person for authorised
+transport purposes".[24] GOV.UK has a finder, for England and Wales, that sends you to your council's
 page.[6] This course read no council's rules and none for Scotland, Northern Ireland or any US state,
 so check with your council or state before anything is bagged or moved.
 
@@ -421,16 +397,14 @@ what's in the ceiling and the roof.
    couple from their work. They don't make the couple, as owner-occupiers, responsible for risks to
    contractors, and on this course's reading they don't bind the couple's own work.[1][5] The waste
    law is different. The 1990 Act's duty on the occupier covers Wales: to take reasonable measures so
-   that household waste from the home goes only to an authorised person, however the roof comes
-   off.[24]
+   that any household waste they hand on goes only to an authorised person.[24]
 
 3. **The advice.** HSE says not to repair or remove asbestos materials without training for
    non-licensed work, and "strongly encourages the use of trained professionals".[1] Its guide for
    employers lists "drilling textured decorative coatings to install fixtures or fittings" as
    non-licensed work, and work on asbestos cement "where the material will be substantially damaged
    or broken up" as work that must also be notified to the authorities, though no licence is
-   needed.[2] Non-licensed work is still work for trained people: HSE says workers who plan to do it
-   "need additional information, instruction and training."[2] HSE's waste guidance adds that
+   needed.[2] Both are work for trained people, as above. HSE's waste guidance adds that
    intact asbestos cement sheets "should not be broken up into smaller pieces".[1]
 
 4. **Before anyone starts.** The couple tell the electrician and the roofer that the ceiling and the
@@ -439,13 +413,11 @@ what's in the ceiling and the roof.
    unsure.
 
 5. **The labels.** The ceiling light: **Call someone**, twice over, because it's wiring and because
-   it means drilling a textured coating. The garage roof: **Call someone**, on HSE's advice, even
-   though, on this course's reading, the asbestos Regulations don't bind the couple's own work.
+   it means drilling a textured coating. The garage roof: **Call someone**, on HSE's advice.
 
-The shape to notice is step 2 against step 3. The asbestos Regulations wouldn't stop them taking the
-roof off themselves; getting rid of it is another matter, because the waste law does reach them. And
-HSE says don't, without training, while UKHSA "does not recommend the DIY removal of asbestos without
-advice".[1][4]
+Notice step 2 against step 3. The asbestos Regulations wouldn't stop them taking the roof off
+themselves, though the waste law reaches what happens to it next. HSE says don't, without training,
+and UKHSA "does not recommend the DIY removal of asbestos without advice".[1][4]
 
 ## Lead paint: when it was used, and how you'd know
 
@@ -455,9 +427,7 @@ EPA: "In 1978, the federal government banned the sale of lead-based paint for us
 "Approximately three-quarters of the homes in the United States built before 1978 still contain some
 lead-based paint."[17] On its do-it-yourself page: if your home was built before 1978 it may have
 lead-based paint, "the older your home, the more likely", and "If you are unable to determine the age
-of your home, it's safest to assume the area you are renovating has lead-based paint".[18] EPA's
-reassurance is on the same page as the warning: children can live safely in these homes "as long as
-paint and surfaces are in good condition and surfaces are kept clean."[17]
+of your home, it's safest to assume the area you are renovating has lead-based paint".[18]
 
 ### In the UK
 
@@ -469,11 +439,10 @@ No single date, because the sources do not agree on one.
 | Lead pigments out of "most paints in the 1960s", and completely removed from decorative paints "by 1992"; test if renovating an old house "(Pre-1995)" | British Coatings Federation, the paint makers' trade body, 2025[13] |
 | "the sale of lead paint was banned in the UK from 1992" | UKHSA, 2024[12] |
 
-Read together: the older the paint, the likelier the lead, and paint from before the 1990s could
-contain it. The BCF's own line is that "Surfaces painted before the 1990s could contain significant
-levels of lead."[13] The one government leaflet written for householders is the withdrawn one, and
-no replacement is linked from its page.[14] The BCF's guidance still points readers to it as "The UK
-government's official advice".[13]
+The BCF's own line is that "Surfaces painted before the 1990s could contain significant levels of
+lead."[13] The one government leaflet written for householders is the withdrawn one, with no
+replacement linked from its page, though the BCF still points readers to it as "The UK
+government's official advice".[14][13]
 
 ### Test kits, and why a negative is not proof
 
@@ -481,7 +450,7 @@ The BCF: a positive means lead is present, but "a negative reading should not be
 the absence of lead. If you think there could be lead present, then a professional test should be
 carried out."[13] EPA's line is narrower than it first sounds: an EPA-recognised kit, "when used by a
 trained professional, can reliably determine that regulated lead-based paint is not present by virtue
-of a negative result."[17] Both bodies qualify a home test. EPA recommends a certified inspector or
+of a negative result."[17] EPA recommends a certified inspector or
 risk assessor to test the surfaces you'll work on.[18]
 
 ## Lead paint: the law and the advice, side by side
@@ -498,14 +467,13 @@ EPA's plainer words, childcare facilities and preschools built before 1978.[16][
 homes. However, it does apply if you rent all or part of your home, operate a childcare center in
 your home or if you buy, renovate and sell homes for profit (i.e., a house flipper)."[17] If you rent
 a pre-1978 home, EPA says your landlord "must comply with the RRP Rule when performing work that
-disturbs paint."[17] A firm you pay must be certified, and in states where EPA runs the
-programme it must give owners and occupants EPA's pamphlet, *Renovate Right*.[16][17]
+disturbs paint."[17] A firm you pay must be certified.[16][17]
 
 A word on names first. A heat gun (in the UK, usually called a hot-air gun) blows hot air; a
 blowlamp or gas torch is a naked flame. The rule and the BCF both treat the two differently.
 
-The rule's banned and restricted practices are worth knowing, because they are what a certified
-contractor should not do in your house:[16]
+The rule's banned and restricted practices, which a certified contractor should not break in your
+house:[16]
 
 - "Open-flame burning or torching of painted surfaces is prohibited."
 - Machines that remove paint at high speed (sanders, grinders, power planes, needle guns, abrasive
@@ -535,9 +503,7 @@ waste; and clean one more time.[18] Among what they include:
 - family members, and anyone not working on the job, kept out of the work area
 
 Wash your hands and face whenever you stop, and don't eat, drink or smoke in the work area.[18]
-Lesson 13, "Tools, dust and fumes: a small kit used safely", covered
-how US respirators are certified and why a mask is only as good as its seal; here a mask is one part
-of one practice out of seven, not the answer to lead dust.
+A mask is one part of one practice out of seven, not the answer to lead dust.
 
 EPA's National Lead Information Center is on 1-800-424-5323, the number EPA gives for anyone who
 suspects a problem.[17]
@@ -546,42 +512,38 @@ suspects a problem.[17]
 
 **The law.** The Control of Lead at Work Regulations 2002 put their duties on employers, and
 regulation 3 applies them to a self-employed person "as they apply to an employer and an employee".[15]
-So a decorator you pay to strip old paint is covered. You, doing your own, are not. This course read
+So a decorator you pay to strip old paint is covered. On the same reading this course gave the
+asbestos Regulations, you doing your own are not. This course read
 nothing that puts a legal duty on a householder painting their own home in any part of the UK.
 
 **The advice.** The current UK guidance for the public that this course found is the BCF's, a
-trade body's, written for "the general public".[13] Its rules:
+trade body's, written for "the general public", and its precautions are "recommended for both
+professional decorators and DIY decorators".[13] The core of it:
 
 - Do not remove sound paint: "overcoating is the safest option to prevent exposure". Overcoating
-  means painting over the old paint without taking it off. Only treat or
-  remove old lead paint if it's flaking or chipping, if dust is present, or if children might chew or
-  suck the surface.
+  means painting over the old paint without taking it off. Only treat or remove old lead paint if
+  it's flaking or chipping, if dust is present, or if children might chew or suck the surface.
 - Where sound paint needs preparing for a new coat, rub it down wet with waterproof abrasive paper,
   and don't let the debris dry into dust.
 - "Use chemical stripper or wet abrasive paper" where removal is needed. Its don'ts include "Use
   dry abrasive paper or techniques to remove lead paint", "Use blow lamps or gas torches to strip
-  the paint" and "Create lead fumes by over-heating lead-containing paints".
-- A hot-air gun may be used only to soften paint, with the warning "Take care that the paint does
-  not burn." The BCF gives no temperature.
-- "Ensure no children or pregnant women are present in any area where renovation work which involves
-  the disturbance of lead-containing surfaces is taking place." The BCF's reason: "An unborn child is
-  at particular risk from lead exposure, especially in the early weeks before pregnancy becomes
-  known."
+  the paint" and "Create lead fumes by over-heating lead-containing paints". A hot-air gun may be
+  used only to soften paint: "Take care that the paint does not burn." The BCF gives no temperature.
+- Four precautions it says "must be taken": avoid making lead dust or fumes; keep everyone not
+  involved in the work out of the area, and preferably the building, until it has been thoroughly
+  cleaned; no children or pregnant women in the area, because "An unborn child is at particular risk
+  from lead exposure, especially in the early weeks before pregnancy becomes known"; and "Do not
+  smoke, eat or drink in the work area."
 - "DIY decorators who are in any way uncertain about their ability to follow these precautions should
   consult a professional decorator."
 
-The BCF says its precautions are "recommended for both professional decorators and DIY decorators",
-and four of them "must be taken" whenever old lead paint is renovated or removed: avoid making
-lead dust or fumes; "Prohibit anyone not involved in the work from the area, and preferably the
-building until the area has been thoroughly and effectively cleaned"; keep children and pregnant
-women away, as above; and "Do not smoke, eat or drink in the work area."[13] Its preparation steps add
-furniture moved out or covered with plastic sheeting taped down, and "Wear overalls, particulate
-filter face mask, and rubber or latex gloves within the work area, and remove them before leaving the
-area." Its clean-up is washing every surface in the work area and vacuuming with a HEPA-filtered
-vacuum.[13] That document, section 5, is the method, not this summary.
+The preparation (including overalls, a "particulate filter face mask" and gloves, taken off before
+you leave the area) and the clean-up are in section 5 of the BCF's guidance, linked above, and that
+document is the method, not this summary.[13]
 
 Defra's withdrawn leaflet set a figure the BCF does not: keep a hot-air gun "below 450°C".[14] It's
-out of date by Defra's own notice, so treat it as history, not current advice.
+out of date by Defra's own notice, so treat it as history, not current advice. No source read says
+why it and EPA's figure (about 593°C) are so far apart, and this course doesn't supply a reason.
 
 ### The two countries, side by side
 
@@ -594,11 +556,6 @@ out of date by Defra's own notice, so treat it as history, not current advice.
 | Sanding | Wet only; no dry abrasive (BCF) | Mist first and wet-dry paper (EPA's DIY advice); power sanding only with a HEPA shroud (the rule, for paid work) |
 | Mask | "particulate filter face mask" (BCF) | Disposable N-100 respirator (EPA) |
 
-The two figures are far apart, 450°C and about 593°C, and no source read gives the reason for the
-difference; this course does not supply one. In the US, the figure is EPA's: below 1,100°F. In the
-UK, the current guidance read here, the BCF's, gives no temperature, only "Take care that the paint
-does not burn." The 450°C is the withdrawn leaflet's, kept here as history.
-
 ### The labels
 
 In the UK, overcoating sound paint is **Yours, on conditions**: the paint is sound, and any rubbing
@@ -610,13 +567,11 @@ them.
 
 In the US, EPA's first advice is a certified contractor for any renovation, repair or painting project
 in a pre-1978 home. Doing it yourself is **Yours, on conditions**, the conditions being EPA's seven
-practices in full; EPA's own words for that case: "If you decide to do the work yourself, make sure to
-use do-it-yourself (DIY) lead-safe work practices".[17][18] For sound paint in a pre-1978 US home, the
-EPA pages this course read give no overcoat-or-strip rule of their own, and they don't say whether
-painting over sound paint without disturbing it counts as a project. What they give is that children
-can live safely in these homes "as long as paint and surfaces are in good condition and surfaces are
-kept clean."[17] So leaving sound paint alone fits EPA's line, and a job that would disturb it starts
-with EPA's first advice. Nowhere is burning, torching or dry sanding old paint on the list.
+practices in full.[17][18] For sound paint, the EPA pages this course read give no overcoat-or-strip
+rule, and don't say whether painting over it without disturbing it counts as a project. They do say
+children can live safely in these homes "as long as paint and surfaces are in good condition and
+surfaces are kept clean."[17] So leaving sound paint alone fits EPA's line, and a job that would disturb it starts with
+EPA's first advice. Neither country's advice includes burning, torching or dry sanding old paint.
 
 ## Window frames in the Hudson Valley, with a gap for you
 
@@ -632,8 +587,8 @@ belt sander and a heat gun whose dial goes to 1,200°F.
 3. **Whether the rule reaches them.** This is general information, not legal advice. EPA: the rule
    generally does not apply to homeowners working on their own homes, "However, it does apply if you rent
    all or part of your home".[17] They rent part of theirs. What that means for frames on their own
-   floor is a question for EPA or their state's programme, not for this page. Which of the two
-   answers depends on whether their state is one of the fourteen, with one Tribe, that EPA's page
+   floor is a question for EPA or their state's programme, not for this page. Which of the two to
+   ask depends on whether their state is one of the fourteen, with one Tribe, that EPA's page
    lists as running their own programme; EPA runs it everywhere else.[17] EPA's National Lead
    Information Center (1-800-424-5323) is a place to start.
 
@@ -681,16 +636,14 @@ UKHSA's map shows where high levels are more likely. The darker the area, the gr
 less than one home in a hundred in the white areas to more than one in three in the darkest. But
 "not all buildings, even in the darkest areas, have high levels", and the map "should not be used
 for basements, cellars or underground sites", which should all be treated as having an increased
-chance whatever the area.[20] This course read no UK figure for deaths from radon, so it gives none.
+chance whatever the area.[20]
 
 ### In the US
 
 [EPA says](https://www.epa.gov/radon/health-risk-radon) radon "is the number one cause of lung cancer among non-smokers, according to EPA
 estimates", and gives a best estimate of about 21,000 lung cancer deaths a year from radon, with an
 uncertainty range of 8,000 to 45,000. That estimate dates from 2003.[21] EPA's own guidance: "Testing
-is the only way to know your level of exposure", and "All homes should be tested for radon."[22] EPA
-reports that in 2005 the Surgeon General urged Americans to test their homes; this course read EPA's
-account, not the advisory.[21]
+is the only way to know your level of exposure", and "All homes should be tested for radon."[22]
 
 EPA's tables say "Fix your home" at 4 picocuries per litre (pCi/L), which EPA gives as 150 Bq/m³, and
 "Consider fixing between 2 and 4 pCi/L (75-150 Bq/m³)". The average indoor level, on the same table,
@@ -701,8 +654,7 @@ credentialed professional.[22]
 :::predict The UK acts at 200 Bq/m³; the US says fix at 4 pCi/L. EPA's own table pairs 20 pCi/L with 740 Bq/m³, 37 to one. Which country's action level is the lower concentration?
 
 The US one. 200 Bq/m³ divided by 37 is about 5.4 pCi/L, the course's arithmetic, so the UK's action
-level sits above EPA's 4 pCi/L (EPA's own figure for that is 150 Bq/m³). EPA also says consider fixing
-from 2 pCi/L, and UKHSA says consider reducing from its target of 100 Bq/m³. Neither source explains
+level sits above EPA's 4 pCi/L (EPA's own figure for that is 150 Bq/m³). Neither source explains
 why the numbers differ, and this course does not guess. They are each country's advice, and a home is
 measured against its own country's.
 :::
@@ -733,14 +685,9 @@ this course read.
 it's in good condition; EPA says "don't panic" and leave undamaged material alone.[1][7] Removal
 done badly "may actually increase" exposure, EPA says.[7]
 
-**"The bans made old asbestos safe."** They stopped new material going in. What's already in a house
-is as safe or unsafe as its condition and what a job does to it: HSE's low risk is for material "in
-good condition and not disturbed".[2]
-
-**"It's legal, so it must be fine."** The law and the advice come apart here, as the "law and
-advice" sections above set out: on this course's reading the asbestos Regulations don't reach an
-owner-occupier's own job in Great Britain, and US federal law requires no training for a detached
-house, but HSE and EPA both still say don't repair or remove it without training.[1][7]
+**"It's legal, so it must be fine."** The "law and advice" sections above show the two coming
+apart: whatever the law allows a householder, HSE and EPA both say don't repair or remove asbestos
+without training.[1][7]
 
 **"The home test kit said no lead."** The BCF says a negative "should not be relied upon"; EPA
 says its recognised kits are reliable "when used by a trained professional".[13][17]
@@ -795,30 +742,24 @@ home has never had one.
 
 ## Connections
 
-Lesson 13, "Tools, dust and fumes: a small kit used safely", covered masks and what they do not stop;
-this lesson is why a mask alone is not the answer to lead or asbestos. Lesson 14, "Before you drill:
-cables, pipes and what's in the wall", ended with a stop at anything that might be asbestos, and this
-lesson is what comes after the stop. Lessons 10 and 15 met the law allowing more than the advice, for
-gas and ladders; asbestos and lead are the same shape. Lesson 17, "Keeping water out: roof, gutters,
-ground and walls", sent asbestos cement gutters and roofs here.
+Lesson 13, "Tools, dust and fumes: a small kit used safely", covered masks; this lesson is why a mask
+alone is not the answer. Lesson 14, "Before you drill: cables, pipes and what's in the wall", ended
+with a stop at anything that might be asbestos, and this lesson is what comes after it.
 
 Next, lesson 20, "Walls and paint: filling, preparing and painting", applies the lead rules to a real
-repaint. Lesson 22, "Who may do what: reserved work, and the argument about licensing", takes the law
-further, and lesson 23, "Hiring a tradesperson, and when to stop", is where you check that the firm
+repaint, and lesson 23, "Hiring a tradesperson, and when to stop", is where you check that the firm
 you hire is trained, licensed or certified for the work.
 
 ## Go deeper
 
-- **HSE, ["Asbestos: FAQs"](https://www.hse.gov.uk/asbestos/faq.htm).** Read here in full. The law in
-  a private home and what to do if you think you have asbestos, in HSE's own words; most of the page
-  is for employers, and the householder answers are in the middle.
+- **HSE, ["Asbestos: FAQs"](https://www.hse.gov.uk/asbestos/faq.htm).** The householder answers are
+  in the middle of a page mostly for employers.
 - **EPA, ["Protect Your Family from Exposures to Asbestos"](https://www.epa.gov/asbestos/protect-your-family-exposures-asbestos).**
-  Read here in full. The US homeowner's do's and don'ts, and what a good contractor does.
+  The US homeowner's do's and don'ts.
 - **EPA, ["Lead-Safe Renovations for DIYers"](https://www.epa.gov/lead/lead-safe-renovations-diyers).**
-  Read here in full. The seven practices, as the method to follow if you do the work yourself.
-- **British Coatings Federation, ["Lead in painted surfaces: Repainting and removal"](https://cdn.ymaws.com/coatings.org.uk/resource/resmgr/webpage_files/technical_publications/health&safety/hs_032_lead_in_painted_surfa.pdf).**
-  Read here in full. A trade body's guidance for the general public, and the most complete current UK
-  account this course found.
+  The seven practices, as the method to follow if you do the work yourself.
+- **British Coatings Federation, "Lead in painted surfaces"**, linked above. The most complete current
+  UK guidance this course found, from a trade body.
 
 ## Sources
 

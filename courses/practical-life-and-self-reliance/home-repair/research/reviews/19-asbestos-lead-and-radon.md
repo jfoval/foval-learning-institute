@@ -172,3 +172,70 @@ home-repair`: 0 not found. `npm run validate`: exit 0, nothing naming this file.
 
 **Status after review:** needs a second pass. The GB law section, the waste law and the US checkpoint
 were rewritten, two new statutes were brought in, and the lesson is 10 minutes over the ceiling.
+
+## Second pass (2026-09-26)
+
+**Reviewer:** one fresh-context second-pass reviewer, which also made the cut back to the course's
+100-minute ceiling. Read live today with curl (generic browser User-Agent, no personal data in any
+header) and string-matched: HSE's asbestos FAQ and introduction pages (index, why-and-where,
+deciding, training); CAR 2012 regs 3 and 11; HSW Act 1974 ss 52 and 53; EPA 1990 s 34; CLAW 2002
+reg 3; UKHSA's asbestos and lead pages (content API); GOV.UK "Asbestos in your home" (England and
+Wales only); HSE's July 2026 mesothelioma and asbestos-related disease PDFs; BCF HS032 v2.2; EPA's
+asbestos, RRP, DIY and three radon pages; eCFR Part 745 subpart E, §745.103 and §61.141; UKradon's
+three pages; the CourtListener docket header (argued 1 June 2026, last filing 22 June 2026, last
+updated 23 September 2026). Every quotation left in the lesson is in today's live text.
+
+**The cut.** 9,592 words to 8,727 by `npm run minutes`, **110 minutes to 100** (raw model 102.3, so
+about 20 words of headroom before it rounds to 105). The court history is now three sentences credited
+to CourtListener, keeping the 2025 pauses, the reassessment request and its withdrawal, the June 2026
+argument and "no decision yet". The BCF section keeps every precaution and condition (sound paint
+left, wet rubbing down, the removal conditions, the don'ts, the hot-air gun line, the four "must be
+taken" precautions with the pregnancy reason, the professional-decorator line) and points to section 5
+for preparation and clean-up. Also trimmed: the statistics paragraph (the 2,146 figure went), the
+1985/1999 paragraph, the second heat-difference paragraph (folded into the Defra one), the US labels
+paragraph, the "bans made old asbestos safe" misconception (the court predict carries it), EPA's
+conflict-of-interest line, the *Renovate Right* sentence, Connections, Go deeper, and a few lead-ins.
+Untouched: the stop rule, the radon checkpoint, the GB-law reasoning, every safety condition.
+
+**Findings:**
+1. S1 [major] Waste law went past s 34(2A). Vale step 2 said the duty applies "however the roof comes
+   off", and the waste passage said household waste "from it" must go to an authorised person. The
+   section's duty is on "any transfer by him"; whether a roofer taking the sheets away is a transfer by
+   the occupier is not settled by anything read. Fixed in both places: "any household waste they hand
+   on".
+2. S2 [minor] "That is why HSE can say" contractors have a legal duty to you: HSE's FAQ grounds that in
+   HSW Act s 3(1) as well as the Regulations. Fixed: reg 3(3) is "one legal root", and the FAQ's other
+   is named.
+3. S3 [minor] "Buildings put up after 2000 are unlikely" was attributed to the FAQs; it is the
+   introduction's (part 1). Fixed.
+4. S4 [minor] Lead law in Great Britain: "You, doing your own, are not" was stated flat while the
+   asbestos equivalent is labelled the course's reading. Fixed: "On the same reading this course gave
+   the asbestos Regulations".
+5. S5 [minor] "Sanding makes exactly the dust that ends up on hands and toys" is the course's inference
+   with no source (decision 13). Cut.
+6. S6 [minor] The *Renovate Right* pamphlet duty sits in §745.81 and §745.84, outside the sections
+   source 16 records as read. True on today's eCFR, but cut with the trim rather than recorded.
+7. S7 [minor] Hudson Valley step 3, "Which of the two answers depends on": unclear. Now "Which of the
+   two to ask".
+8. S8 [minor, introduced and caught in this pass] While trimming, the "legacy of past working
+   conditions" line was briefly pinned to the mesothelioma figures; it is the asbestos-related disease
+   report's, about current statistics generally. Worded to match before finishing.
+
+**Checked and sound.** The GB asbestos section is the course's labelled reading, with HSE's "not
+engaged in any work activity" left in its own context and no conclusion in HSE's mouth. The Hudson
+Valley case (the orchestrator's "Mid-Atlantic" case, moved at the first pass) leaves whether the RRP
+rule binds the couple with EPA or the state programme in step 3, the checkpoint and the label. The
+stop rule is intact. Heat limits: §745.85(a)(3)(iii) "below 1,100 degrees Fahrenheit", the DIY page's
+"Low-temperature heat gun (under 1,100 degrees Fahrenheit)", (1,100 − 32) × 5/9 = 593.3°C, the BCF
+gives no figure, and Defra's 450°C is labelled withdrawn in the prose and the table. Radon checkpoint:
+UKradon's maps page gives "less than one home in a hundred" in white areas and the basements line; EPA
+gives "All homes should be tested for radon". 200 ÷ 37 = 5.4 pCi/L, redone. Every first-pass fix
+(F1 to F19, P1 to P25) re-read and correct. Quiz keys 2,3,0,2,0,1 pass the relaxed rule (all four
+used, no adjacent repeat, no identity or pure shift with any lesson 1 to 23, no shared run of four at
+offsets 0 or ±1 with any of them); option-length spreads 5, 6, 8, 14, 7, 7. No em or en dashes in the
+file; callout byte-identical to lesson 1's; banned-list grep empty.
+
+**Measures.** 8,727 words, 100 minutes. `npm run quotes home-repair`: 609 quotations, 0 not found.
+`npm run validate`: exit 0, nothing naming this file.
+
+**Verdict: CLEAN.**
