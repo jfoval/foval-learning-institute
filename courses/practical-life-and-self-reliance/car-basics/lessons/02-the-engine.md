@@ -19,20 +19,20 @@ objectives:
 quiz:
   - q: >-
       DENSO, a company that makes glow plugs, explains why a diesel has them. On its account, what
-      goes wrong in a cold diesel cylinder without the extra heat they give?
+      can go wrong in a diesel cylinder when the air is too cold, without the extra heat they give?
     options:
       - The fuel in the tank thickens in the cold, so too little reaches the cylinder to burn
-      - The spark is too weak to jump its gap until the glow plugs have warmed the plug's tip
+      - The starter can't turn a cold engine fast enough until the glow plugs have warmed it up
       - The oil is too thick for the piston to move freely until the glow plugs have warmed it up
       - The air may not reach the temperature it needs, and so some of the fuel may not be burnt
     answer: 3
     explain: >-
       DENSO says a diesel compresses air to raise its temperature and pressure, then adds fuel, and
       "If the temperature of the air is too low, then some of the fuel that is supplied may not be
-      burnt." Glow plugs "provide extra heat to the air". A diesel has no spark to be weak, since it
-      lights its fuel by the heat of compression (DOE; AFDC). Neither thickened fuel nor thick oil is
-      what DENSO describes the plugs as being for; nothing the course read says a glow plug warms
-      oil or fuel in the tank.
+      burnt." Glow plugs "provide extra heat to the air". DENSO says nothing about helping the starter
+      turn the engine, and nothing the course read says a glow plug warms oil or fuel in the tank:
+      the heat goes to the air, which the diesel needs hot because it lights its fuel by the heat of
+      compression (DOE; AFDC).
   - q: >-
       A car's handbook (in this question's example) says to replace the cambelt every 4 years or
       50,000 miles, whichever comes first. The service record shows the last change 3 years ago, at
@@ -48,12 +48,12 @@ quiz:
       years haven't, and the RAC's rule is "whichever comes first". Waiting for the fourth year reads
       the rule as "whichever comes last". Waiting for warning signs ignores the RAC's own line, "Many
       cambelts show no obvious symptoms before failure." And the RAC says an MOT won't check the
-      cambelt at all; this course read nothing saying a US state inspection does either.
+      cambelt; this course read nothing saying a US state inspection does either.
   - q: >-
       On fueleconomy.gov's account of a conventional petrol car, where does most of the energy in
       the fuel you put in go?
     options:
-      - It's lost in the engine itself, primarily as heat, before any energy reaches the gearbox
+      - It's lost in the engine itself, primarily as heat, so only a minority reaches the gearbox
       - It moves the car, and only a small part is lost at the brakes, as heat, when it stops
       - It's lost mainly to friction between the engine's moving parts as they turn each other
       - It runs the lights, wipers, seat heaters and screens, which draw their power from the engine
@@ -80,26 +80,28 @@ quiz:
       diesel has no spark plug to fire late, and nothing read says exhaust heat is drawn back in.
   - q: >-
       Someone choosing between the manual and the automatic version of one model is told that the
-      manual will "always" use less fuel. What does fueleconomy.gov's myths page say?
+      manual will "always" use less fuel. On fueleconomy.gov's pages, what's the best reply?
     options:
-      - "That's right: an automatic always uses more fuel than the manual version of the same car"
+      - "Agree: official figures favour manuals, so the manual is the version to pick for economy"
       - The automatic often matches or beats it now, and both versions' figures can be compared
-      - That's right for petrol cars, but a diesel automatic always matches its manual version
-      - Only a CVT can match a manual, so an ordinary automatic version is bound to use more fuel
+      - Agree for petrol models, but a diesel automatic usually matches its own manual version
+      - Agree unless the automatic is a CVT, since CVTs are the automatics that caught up
     answer: 1
     explain: >-
       The myths page says advances have made "the automatic version of a vehicle often" get "the
       same or better fuel economy", and that you can compare the two versions' figures. The same
       site's transmission page says automatics are less efficient than manuals "due to parasitic
-      losses", which is why "often", not "always", is the word. Nothing read splits petrol from diesel
-      on this, or says a CVT is the only automatic that can match a manual.
+      losses", which is why "often", not "always", is the word, and why "official figures favour
+      manuals" gets the myths page backwards. Nothing read splits petrol from diesel on this, or
+      says CVTs are the automatics that caught up.
 ---
 
 You can drive for twenty years without knowing what happens inside an engine, and plenty of people
-do. But three of the jobs this course gives you only make sense once you know. The oil and coolant
-checks in lesson 9 exist because of what an engine does with its fuel, and most of what it does
-isn't moving the car. The cambelt (the timing belt, in American English) is replaced by the
-calendar and the mileage, not when it starts to complain, because it often does not complain. And a
+do. But three of the jobs this course gives you only make sense once you know. The coolant check in
+lesson 9 exists because of what an engine does with its fuel, and most of what it does isn't
+moving the car; the oil check is the harder case, and this lesson says why. The cambelt (the timing
+belt, in American English) is replaced by the calendar and the mileage, not only when it starts to
+complain, because it often doesn't. And a
 diesel's glow-plug light asks you to wait before you start, for a reason that comes straight out of
 how a diesel lights its fuel. This lesson is how a petrol (gasoline) or diesel engine turns fuel
 into motion, where most of that fuel's energy goes instead, what keeps the engine's parts in step,
@@ -162,15 +164,16 @@ depends on the fuel, and the schematic below sets petrol and diesel side by side
 
 *Schematic, drawn by this course from DOE's four named strokes and its petrol and diesel sentences,
 and AFDC's glossary for the exhaust system.[1][2][3] It shows what the sources say happens in each
-stroke, not how the piston moves. A petrol engine that injects its fuel straight into the cylinder
-isn't shown at intake, because no source read says at which stroke that fuel goes in.*
+stroke, not how the piston moves. A petrol engine that injects its fuel straight into the combustion
+chamber (AFDC's term) isn't shown at intake, because no source read says at which stroke that fuel goes in.*
 
 Notice what the sources give and what they leave out. They say what comes in, that the piston
 compresses it, what lights it, and that the expanding gas does the work. For the fourth stroke, DOE
 gives only its name, and AFDC's glossary says the exhaust system "channels the exhaust gases from
 the engine out through the tailpipe."[2] How the piston travels in each stroke, and how the gas gets
-in and out at the right moments, are not described in anything this course read beyond one line
-you'll meet in the cambelt section, so this lesson does not draw them. The textbooks in Go deeper do.
+in and out at the right moments, aren't described in anything this course read beyond one line
+you'll meet in the cambelt section, so this lesson doesn't draw them. The textbooks in Go deeper
+have chapters on engines; this course read only their contents pages.
 
 ## Spark or squeeze: petrol and diesel
 
@@ -187,7 +190,8 @@ mixture, the spark ignites it, causing combustion."[1]
 That's true of some petrol engines and not others. The Alternative Fuels Data Center (AFDC), another
 US Department of Energy site, says the fuel "is injected into either the intake manifold or the
 combustion chamber, where it is combined with air, and the air/fuel mixture is ignited by the spark
-from a spark plug."[2] So a petrol engine may mix its fuel with the air before it reaches the
+from a spark plug."[2] AFDC doesn't define the intake manifold; what matters here is only that it's
+before the combustion chamber, so fuel injected there meets the air on the way in. So a petrol engine may mix its fuel with the air before it reaches the
 combustion chamber, in the intake manifold, which is the case DOE's sentence describes, or inject it
 straight into the chamber. Either way, the spark does the lighting.
 
@@ -206,7 +210,7 @@ often go about 20% to 35% farther on a gallon of fuel than their gasoline counte
 "Diesel engines have inherently lower losses and are generally one-third more efficient than their
 gasoline counterparts."[4][5] Those are a US government site's general figures, not a verdict on any
 car. Whether a diesel suits you is not this course's question; lesson 3, "Diesel exhaust: the DPF
-and AdBlue", is what a modern diesel asks of the way it's driven.
+and AdBlue", is about what a modern diesel asks of the way it's driven.
 
 Both kinds of engine are run by a computer, which AFDC calls the electronic control module (ECM):
 "The ECM controls the fuel mixture, ignition timing, and emissions system; monitors the operation
@@ -217,9 +221,9 @@ dashboard's warning lights are lesson 11's.
 
 :::predict A diesel lights its fuel with nothing but air that compression has made hot. Before reading on: why might that be harder on a frosty morning, and what might the engine carry to help?
 
-The air starts colder, so squeezing it may not make it hot enough for all the fuel to burn. The
-help is extra heat, from glow plugs, before and as the engine starts. DENSO, which makes them,
-explains it next, in its own words.
+On this course's reading of DENSO, colder air to begin with makes it harder for compression to
+reach the temperature all the fuel needs. The help is extra heat, from glow plugs, before the
+engine starts. DENSO, which makes them, explains it next, in its own words.
 :::
 
 DENSO, a company that makes glow plugs (so it writes about its own
@@ -230,7 +234,8 @@ Its answer: "glow plugs provide extra heat to the air and ensure that the cylind
 required temperature for a clean combustion cycle."[6]
 
 It's a January morning in Thurso, on the north coast of Scotland, and the car on the drive is a
-diesel that has stood outside all night.
+diesel that has stood outside all night. (DENSO's light comes on at every start, not only in
+winter; a cold morning is just when its reason is easiest to see.)
 
 1. **The driver switches on the ignition, and a light comes on**: the glow-plug warning light. DENSO
    says it comes on "as the vehicle's ignition is turned on, because this warning is to inform the
@@ -249,7 +254,7 @@ is the authority for yours: it shows what your car's light looks like and what t
 This course did not read a diesel car's handbook page on the glow-plug light, so DENSO's line is the
 one quoted here. Waiting for the light is **yours**. Replacing glow plugs isn't: DENSO says
 "vehicle manufacturers (VMs) specify changing the glow plugs at specific intervals as part of the
-vehicle's service schedule", which makes it a garage job at the handbook's interval, and one to
+vehicle's service schedule", which, on this course's reading, makes it a garage job at the handbook's interval, and one to
 **call someone** for.[6]
 
 :::checkpoint Without scrolling up, write the four strokes in order. For each, say what differs between a petrol engine that injects its fuel before the cylinder and a diesel, if anything.
@@ -266,8 +271,8 @@ which turns the crankshaft.
 4. **Exhaust.** The gases leave through the exhaust system. The sources read describe this one
 least.
 
-If you had the petrol engine taking in air alone, you may have been thinking of the direct-injection
-kind, which AFDC's sentence allows. That's why the question said "injects its fuel before the
+If you had the petrol engine taking in air alone, you may have been thinking of the kind that injects
+into the combustion chamber, which AFDC's sentence allows. That's why the question said "injects its fuel before the
 cylinder".
 :::
 
@@ -297,19 +302,21 @@ and a highway run with no stops at an average of about 48 mph (77 km/h, by this 
 | Reaches the wheels | 14% to 20% | 22% to 30% |
 | Lost in the gearbox and the rest of the driveline | 4% to 5% | 3% to 5% |
 | Used by the pumps and systems the engine drives | 5% to 7% | 3% to 4% |
+| Used by the car's electrical accessories | 0% to 2% | 0% to 2% |
 
 *fueleconomy.gov, "Where the Energy Goes: Gasoline Vehicles", the labels on its city and highway
 diagrams, read 26 September 2026. US test cycles (EPA FTP-75 and HWFET). The page's own caution:
-"Energy use and losses vary from vehicle to vehicle."[4] The rows are ranges and don't sum to 100.*
+"Energy use and losses vary from vehicle to vehicle."[4] Each row is a range, so the rows can't be added to one exact total.
+The city diagram counts idling inside the engine and pump rows.*
 
 The last row is the pumps and systems the engine has to run for itself: "The water pump, fuel pump,
 oil pump, ignition system, and engine control system use energy generated by the engine."[4] And
-even the share that reaches the wheels does not all stay as motion. "Any time you use your brakes in
+even the share that reaches the wheels doesn't all stay as motion. "Any time you use your brakes in
 a conventional vehicle, energy initially used to overcome inertia and propel the vehicle is lost as
 heat through friction at the brakes."[4]
 
-So the one thing to carry out of this section is this: on fueleconomy.gov's figures, **most of what
-a petrol engine does with its fuel is make heat**, and moving the car is the smaller part. A diesel
+So on fueleconomy.gov's figures, **most of what a petrol engine does with its fuel is make
+heat**, and moving the car is the smaller part. A diesel
 loses less, and the same site calls diesels "generally one-third more efficient", but this course
 found no figure for how much of a diesel's fuel reaches the wheels.[4]
 
@@ -334,21 +341,25 @@ soon after topping up, it tells the owner to "Visually check the radiator, hoses
 reservoir caps, drain cock and water pump."[8] That is the water pump from fueleconomy.gov's list,
 running on the engine's own power.
 
-What the sources read don't do is trace the circuit: how the coolant carries heat from the engine
-to the radiator and what happens to it there. This course did not read a source that explains it, so
-the lesson doesn't. What it can tell you, because Toyota says it for that car, is why you never open
+The sources read don't trace the circuit: how the cooling system gets rid of that heat. None of
+them explains it, so this lesson doesn't either. What it can tell you, because Toyota says it for that car, is why you never open
 a hot system: "The cooling system may be under pressure and may spray hot coolant if the cap is
-removed, causing serious injuries, such as burns."[8] The Highway Code's advice (a "should", not a
-legal MUST) is the same in outline: "If your engine overheats, you should wait until it has cooled
-naturally."[7] Lesson 9, "Under the bonnet: oil, coolant, brake fluid and screenwash", gives the
+removed, causing serious injuries, such as burns."[8] As lesson 1 showed, the Highway Code's advice (a
+"should", not a legal MUST) is the same in outline: wait until the engine "has cooled
+naturally".[7] Lesson 9, "Under the bonnet: oil, coolant, brake fluid and screenwash", gives the
 check itself, which is **yours, on conditions**: engine cold, reservoir read closed, the handbook's
 coolant only.
 
 ### What the sources say about oil, and what they do not
 
-Oil is the harder case, because the sources this course read tell you what goes wrong without it,
-not how it protects an engine. This is what they do say.
+Oil is the harder case, because the sources this course read name oil's job and tell you what goes
+wrong without it, but not how it does that job. This is what they do say.
 
+- It lubricates the engine. The RAC, a motoring organisation that sells breakdown cover and
+  repairs, says of the oil warning light: "If the oil is not
+  lubricating the engine effectively it could lead to expensive or even irreparable engine
+  damage."[10] That's the job named; how lubrication protects the parts is not explained in
+  anything this course read.
 - An engine uses oil up. Toyota, in the same 2023 Corolla handbook: "A certain amount of engine oil
   will be consumed while driving."[8]
 - Too little or too much can harm it. Toyota puts "Check the oil level on a regular basis" under the
@@ -357,19 +368,18 @@ not how it protects an engine. This is what they do say.
 - The engine pumps it round: the "oil pump" is on fueleconomy.gov's list of what the engine drives.[4]
 - Friction comes into it. Friction is one of the smaller losses on fueleconomy.gov's energy page,
   and its maintenance page tells US drivers to look for oil labelled "Energy Conserving" on the
-  API symbol "to be sure it contains friction-reducing additives."[4][9]
-- Low oil is an emergency on the road. The RAC, a motoring organisation that sells breakdown cover
-  and repairs, says: "If the low engine oil light is on then you should stop as soon as safely
+  API performance symbol, a mark printed on US oil containers, "to be sure it contains friction-reducing additives."[4][9]
+- Low oil is an emergency on the road. The same RAC page says: "If the low engine oil light is on then you should stop as soon as safely
   possible and switch off the engine."[10] Lesson 11 takes that light, and lesson 16, "When the car stops: where, who stands
   where, and the call", the "safely".
 
-Those are the consequences. How oil does its job between the moving parts, which is the mechanism,
-is not in anything this course read, and the lesson won't supply it from general knowledge. The
+Those are the consequences. How oil does that job, which is the mechanism, is not in anything this course
+read, and the lesson won't supply it from general knowledge. The
 textbooks named in Go deeper have chapters on it. Reading the dipstick is **yours**, and topping up
 is **yours, on conditions** (the handbook's grade, level ground, engine off); both are lesson 9's.
-Changing the oil is not something this course teaches.
+This course doesn't teach an oil change.
 
-## The cambelt: a date, not a symptom
+## The cambelt: a date first, and symptoms too
 
 Go back to the four strokes. Something has to let the air in and the gases out at the right point
 in the cycle, and keep that in step with the piston. The RAC, a motoring organisation that sells
@@ -387,10 +397,11 @@ usual British name, and that elsewhere it's called a timing belt. They are the s
 
 :::predict The cambelt keeps the engine's parts in step, and the RAC says that if it fails "it could result in catastrophic damage to the engine". Would you expect a part like that to warn you before it fails?
 
-Not reliably. The RAC lists five signs that may mean trouble (a misfire, poor idling, unusual
-noises, difficulty starting, a cracked or frayed belt), and in the very next line says: "Many
-cambelts show no obvious symptoms before failure."[11] A rule that waits for a symptom will
-sometimes wait too long, which is why the rule is a date and a mileage.
+Not reliably. The RAC lists five signs of cambelt failure (a misfire, poor idling, unusual noises,
+difficulty starting, a cracked or frayed belt) and says that if you notice any of them, "it's
+important to have your vehicle checked as soon as possible by a qualified mechanic." Then it adds:
+"Many cambelts show no obvious symptoms before failure."[11] A rule that waits for a symptom will
+sometimes wait too long, which is why the RAC's rule is also a date and a mileage.
 :::
 
 ### The rule: miles or years, whichever comes first
@@ -408,14 +419,14 @@ So there are three things to know about a car's cambelt, and none of them is how
 interval does the handbook give, in miles and in years? When was the belt last changed, by date and
 by mileage? And which of the two limits comes first from that change?
 
-Two more things the RAC says. First, a test won't catch it: "At your annual MOT, your mechanic will
+Two more things the RAC says. First, the MOT won't catch it: "At your annual MOT, your mechanic will
 not check your cambelt."[11] (The MOT is Great Britain's periodic test; lesson 21, "The MOT and
 Northern Ireland's vehicle test", covers what it does and does not look at.) Second, a service
 might: "if you ask your local mechanic to check the cambelt at the annual service then they should
 inform you of any problems."[11] Asking is sensible.
 It doesn't replace the interval, and the RAC's own rule is the interval.
 
-Finding the interval and working out when it is due is **yours**. Changing the belt is a garage job,
+Finding the interval and working out when it's due is **yours**. Changing the belt is a garage job,
 so **call someone**.
 
 ### A used car in Middlesbrough
@@ -450,7 +461,7 @@ under 90,000.
 
 The next change is due at whichever comes first of eleven years old (four plus seven) or 104,000
 miles on the odometer (14,000 plus 90,000). At about 3,000 miles a year, which is this car's
-average so far, the mileage limit is decades off, so it is the years: next year.
+average so far, the mileage limit is decades off, so it's the years: next year.
 
 If you said it's overdue, you probably counted from when the car was new (ten years, against a
 limit of seven) and missed the change on the record. That is the point of keeping the record. If you
@@ -462,9 +473,9 @@ said it's nowhere near due, you probably looked only at the mileage.
 If your handbook's schedule has no cambelt or timing belt line, this course can't tell you why: it
 read no source it can rely on about engines without one, so it says nothing about them. Write
 "the handbook gives none" and ask at the next service what your engine has; that's this course's
-suggestion. And the RAC's list of
-symptoms is there for what it is worth, which is that a car showing them should be looked at soon.
-It's not a reason to leave a belt past its interval because the car seems fine.
+suggestion. And the RAC's five signs still matter: its
+advice is to have a car showing any of them checked "as soon as possible by a qualified mechanic".
+They're not a reason to leave a belt past its interval because the car seems fine.
 
 ## Four ways to the wheels: gearboxes
 
@@ -474,7 +485,7 @@ electric traction motor to drive the wheels".[1][2] Why gears at all? fueleconom
 [transmission technologies](https://www.fueleconomy.gov/feg/tech_transmission.shtml) puts it in one
 sentence: "Adding gears allows your engine to operate at a more efficient speed more often."[12]
 
-There are four kinds you will meet.
+You'll meet four kinds.
 
 - **A manual**, where the driver changes gear, and **a conventional automatic**, where the car does.
   Both, in fueleconomy.gov's words, "use a fixed number of metal gears to control the ratio between
@@ -500,7 +511,7 @@ improved their efficiency to the point that the automatic version of a vehicle o
 or better fuel economy than the version with a manual transmission."[13]
 
 This course's reading is that, read together, they don't contradict each other. One is about the kind of gearbox; the other is
-about what you will actually find when you compare the two versions of one model now. The myths page
+about what you'll actually find when you compare the two versions of one model now. The myths page
 also says what to do about it: "For vehicles offered in both automatic and manual transmissions,
 consumers can easily compare fuel economy using our Find a Car feature."[13] That's a US tool, for
 US figures. This course did not read a UK source for comparing a model's official figures.
@@ -521,7 +532,7 @@ cambelt at all.
 
 **"Every petrol engine mixes its fuel with the air before the cylinder."** DOE's sentence describes
 that kind. AFDC says the fuel is injected "into either the intake manifold or the combustion
-chamber", so some petrol engines inject it straight into the cylinder.[1][2]
+chamber", so some petrol engines inject it straight into the combustion chamber.[1][2]
 
 **"A diesel's glow plugs light the fuel, like spark plugs."** DENSO says they "provide extra heat to
 the air". The fuel is lit by the heat of compression, which is the difference the name
@@ -543,7 +554,7 @@ automatic version of a model "often gets the same or better fuel economy".[13]
 ## Practice
 
 :::exercise Your engine, from the handbook
-Take 10 minutes over this, at a table. Use the car you drive if it's yours, or if its keeper agrees; if you do not drive, use a car whose handbook you can read online (Mazda and Nissan UK publish theirs on their own sites; this course didn't check other makers). You need the handbook and, for your own car, the service record: the stamped service book or the garage's invoices. You do not need to open the bonnet or start the engine, and the exercise doesn't ask you to.
+Take 10 minutes over this, at a table. Use the car you drive if it's yours, or if its keeper agrees; if you don't drive, use a car whose handbook you can read online (Mazda and Nissan UK publish theirs on their own sites; this course didn't check other makers). You need the handbook and, for your own car, the service record: the stamped service book or the garage's invoices. You do not need to open the bonnet or start the engine, and the exercise doesn't ask you to.
 
 1. **Fuel and, for a diesel, the glow-plug light.** From the handbook, write down whether the engine is petrol or diesel. For a diesel, find the glow-plug light in the warning-light pages and copy what the handbook says to do when it lights at start-up, with the page number.
 
@@ -563,7 +574,7 @@ for a diesel, what the handbook says about the glow-plug light, with its page. T
 handbook's interval in miles and years, the date and mileage of the last change or "no record", and
 the date or mileage at which the next is due, whichever comes first; or "the handbook gives none",
 with the question to ask at the next service. And the **gearbox** type. The cambelt line goes on the
-file's calendar as a date, because the car will not remind you.
+file's calendar as a date, because the car won't remind you.
 
 ## Connections
 
@@ -590,8 +601,9 @@ lesson's exercise opened becomes a conversation with a garage.
   and diesel sentences.
 - **fueleconomy.gov, ["Where the Energy Goes: Gasoline Vehicles"](https://www.fueleconomy.gov/feg/atv.shtml).**
   Read here in full. Its diagrams let you switch between town and highway driving and see every
-  loss, including the braking and the air resistance this lesson only mentions. The site has
-  matching pages for hybrids and electric cars, which lesson 4 uses.
+  loss, including braking, which this lesson only mentions, and wind resistance, which it leaves
+  out. The site has matching pages for [hybrids](https://www.fueleconomy.gov/feg/atv-hev.shtml) and
+  [electric cars](https://www.fueleconomy.gov/feg/atv-ev.shtml).
 - **AFDC, ["How Do Gasoline Cars Work?"](https://afdc.energy.gov/vehicles/how-do-gasoline-cars-work)
   and ["How Do Diesel Vehicles Work?"](https://afdc.energy.gov/vehicles/how-do-diesel-cars-work).**
   Read here in full. Each has a labelled drawing of the whole car and a plain glossary of its parts.

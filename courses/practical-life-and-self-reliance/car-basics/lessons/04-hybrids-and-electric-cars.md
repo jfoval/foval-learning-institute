@@ -44,54 +44,56 @@ quiz:
     answer: 2
     explain: >-
       NHTSA says the high-voltage battery is "very different from a vehicle's 12-volt battery",
-      and the AA's 2021 figures put the 12 V battery among the top two causes of EV breakdowns. The 12 V battery
-      runs the lights and instruments, and in a hybrid AFDC says it starts the car "before the
-      traction battery is engaged". The DC/DC converter recharges it, but it converts power
+      and the AA's 2021 figures put the 12 V battery among the top two causes of EV breakdowns. Nissan's
+      LEAF handbook lists a car "not driven regularly" among the reasons that battery runs down. It runs the lights
+      and instruments, and in an EV, an AA patrol says, "it starts the onboard computer system". The
+      DC/DC converter recharges it, but it converts power
       rather than storing it. The onboard charger turns AC from the socket into DC for the
       traction battery; it doesn't start the car. Nothing here suggests the gauge is wrong.
   - q: >-
-      Two people drive the same electric car down the same long hill. One eases off early and
-      slows gently all the way down; the other keeps up speed and brakes hard at the bottom. On
-      fueleconomy.gov's account, what follows?
+      Two people drive the same electric car towards the same red traffic light. One eases off
+      from a long way back and slows gently; the other keeps up speed and brakes hard at the
+      line. On fueleconomy.gov's account, what follows?
     options:
       - They recover the same energy, since both of them slow from the same speed in the end
       - The late braker recovers more, since harder braking turns the motor more quickly
-      - Neither recovers any, since regeneration only works when the car is on level road
+      - Neither recovers any, since regeneration only works at steady motorway speeds
       - The gentle driver recovers more, since hard braking brings in the friction brakes
     answer: 3
     explain: >-
       fueleconomy.gov says regeneration "uses the forward motion of the wheels to turn the motor",
       and that "Hard braking causes the vehicle to use its conventional friction brakes, which do
-      not recover energy." So the hard stop at the bottom leaves more of the slowing to the
-      friction brakes, which recover nothing. Slowing from the same speed doesn't make the two equal, because
-      what matters is which brakes do the slowing. Nothing in the source limits regeneration to
-      level road.
+      not recover energy." Its advice is to "Anticipate stops and brake gently or moderately." So
+      the hard stop at the line leaves more of the slowing to the friction brakes, which recover
+      nothing. Slowing from the same speed doesn't make the two equal, because what matters is
+      which brakes do the slowing. Nothing in the source limits regeneration to motorway speeds.
   - q: >-
       A neighbour has just bought a full hybrid. He says he read that electric cars need less
       servicing, so he'll stretch the engine's service intervals. On AFDC's maintenance page,
       what's the answer?
     options:
-      - He's right, because the hybrid battery takes over the engine's work
       - A hybrid needs the same general maintenance as a conventional car
+      - He's right, because the hybrid battery takes over the engine's work
       - He's right about oil, but the brakes will need more frequent checks
       - Only the traction battery needs servicing, by a trained technician
-    answer: 1
+    answer: 0
     explain: >-
       AFDC says "PHEVs and HEVs require the same general maintenance as conventional vehicles";
       it's only all-electric cars that it says need less, because they have "fewer moving parts
       and fluids to change". A hybrid still has an engine, so the engine's schedule in the
-      handbook still applies. AFDC says brake wear is reduced by regeneration, not increased.
-      And the traction battery is the part AFDC says needs "little to no regular maintenance".
+      handbook still applies. For hybrids AFDC says brake systems "generally last longer" because
+      of regeneration, so more frequent brake checks aren't what it says, and it says the battery,
+      motor and electronics need "minimal scheduled maintenance", which is not the engine.
   - q: >-
       An electric car's range display reads 300 km on a mild autumn day. Using the 2019 AAA test
-      figure that fueleconomy.gov reports, how low could the range fall in the test's cold
-      conditions?
+      figure that fueleconomy.gov reports, how low could the range fall at the test's 20°F
+      (about −7°C)?
     options:
-      - To about 177 km, because 41% of 300 km comes off
       - To about 123 km, because 41% of 300 km is left over
+      - To about 177 km, because 41% of 300 km comes off
       - To about 200 km, because two-thirds of it is still there
       - To about 259 km, by taking 41 km off the 300 km shown
-    answer: 0
+    answer: 1
     explain: >-
       fueleconomy.gov reports that in the test "range can drop by 41%", so 41% comes off: 300 km
       times 0.59 is 177 km, by this course's arithmetic, and it's a test figure, not a promise
@@ -103,10 +105,12 @@ quiz:
 An electric car or a hybrid hides almost everything that makes it different. You get in, press a
 button, and it moves. So owners pick up their picture of it from
 advertising and from each other, and the picture is often wrong in ways that cost money or leave
-them stranded. The AA, a motoring organisation that sells breakdown cover and repairs, looked at
-its own electric-car call-outs in 2021 and [reported](https://www.theaa.com/about-us/newsroom/aa-gives-power-to-electric-drivers) that the two commonest causes were the same as for
-any car: "the low-voltage 12v battery which can be found in all cars, and tyre faults due to
-potholes, punctures and wear."[12] Running out of charge wasn't near the top. This lesson teaches the four kinds of electrified car,
+them stranded. The AA, a motoring organisation that sells breakdown cover and repairs,
+[reported](https://www.theaa.com/about-us/newsroom/aa-gives-power-to-electric-drivers) in July 2021
+that the top two causes of its electric-car call-outs were the same as for any car: "the
+low-voltage 12v battery which can be found in all cars, and tyre faults due to potholes, punctures
+and wear."[12] Running out of charge, it said, "doesn't feature within the top three EV breakdown
+causes". This lesson teaches the four kinds of electrified car,
 what each part inside one does, why the small battery still matters, and what an owner still
 checks.
 
@@ -118,7 +122,8 @@ The cable clause is the one this lesson leans on. Everything below is about how 
 and nothing in it asks you to touch, open or unplug any part of the high-voltage system. Lesson 14,
 "High voltage: hybrid and EV safety, charging at home, fire and flood", teaches the safety side in
 full. This lesson uses UK words with the US word once (bonnet, or hood; tyre, or tire; petrol, or
-gasoline), and miles, because the US government sources it relies on give their figures in miles.
+gasoline), and miles, with kilometres at first use in its own examples, because the US government
+sources it relies on give their figures in miles.
 
 ## Four kinds of car with a motor
 
@@ -133,18 +138,26 @@ A **battery-electric car** (a BEV, or just an EV) has, in AFDC's words, "an elec
 of an internal combustion engine. The vehicle uses a large traction battery pack to power the
 electric motor and must be plugged in to a wall outlet or charging equipment, also called electric
 vehicle supply equipment (EVSE)."[1] It has no fuel tank, fuel pump or fuel line. The "traction"
-battery is the big one that drives the car, and the word is worth learning, because it is how
-handbooks and breakdown services tell it apart from the small one.
+battery is the big one that drives the car. "Traction battery" is AFDC's word. Nissan's LEAF
+handbook calls it the "Li-ion battery", and Ford's handbook and the AA say "high voltage battery", so
+learn to recognise all three.
 
-A **hybrid** (HEV) has an engine and a motor, and no socket. AFDC is blunt about it: "A hybrid
+A **hybrid** (HEV) has an engine and a motor, and no socket. AFDC: "A hybrid
 electric vehicle cannot be plugged in to charge the battery. Instead, the battery is charged through
 regenerative braking and by the internal combustion engine."[2] Regenerative braking gets its own
-section below. AFDC then splits hybrids in two:
+section below. AFDC then splits hybrids in two, full and mild.
+
+:::predict A mild hybrid is crawling in a queue of traffic at walking pace, and the queue stops and starts every few seconds. Before reading on: can its motor move the car along the queue with the engine off?
+
+No. AFDC says "Mild hybrid systems cannot power the vehicle using electricity alone." The motor helps the engine and makes stop-start possible, so the engine may switch off while the car is stationary, but when the car moves, the engine is driving it. A full hybrid is the one that can creep along "for short distances and at low speeds" on the motor.
+:::
 
 - A **full hybrid** has "larger batteries and more powerful electric motors, which can power the
   vehicle for short distances and at low speeds."[2]
-- A **mild hybrid** uses a battery and motor to help the engine and to allow stop-start, but "Mild
-  hybrid systems cannot power the vehicle using electricity alone."[2] DVSA's MOT manual for Great
+- A **mild hybrid** uses a battery and motor to help the engine and to allow stop-start, which AFDC
+  says "can allow the engine to shut off when the vehicle stops (such as at traffic lights or
+  in stop-and-go traffic)". But "Mild hybrid systems cannot power the vehicle using electricity
+  alone."[2] DVSA's MOT manual for Great
   Britain adds that "Many mild hybrids only use 48V systems"[15], far below the figure Nissan gives for its
   electric car in the next section.
 
@@ -156,25 +169,23 @@ of "about 15 to 60-plus miles in current models."[3]
 AFDC also describes two ways of joining an engine and a motor to the wheels. In a parallel hybrid,
 "the most common HEV design", both are connected to the wheels mechanically. "Series hybrids, which
 use only the electric motor to drive the wheels, are more commonly found in plug-in hybrid electric
-vehicles."[2] A series plug-in's engine never turns the wheels itself, and AFDC says such cars "are
-often referred to as extended-range electric vehicles."[3]
+vehicles."[2] In a series plug-in, AFDC says, "The internal combustion engine is used to generate
+electricity for the motor", and such cars "are often referred to as extended-range electric
+vehicles." The same page adds that the motor "drives the wheels almost all of the time, but the
+vehicle can switch to work like a parallel hybrid at highway speeds when the battery is
+depleted."[3]
 
 | Kind | What turns the wheels | What charges the traction battery | Socket? |
 |---|---|---|---|
 | Battery-electric | The motor only | The plug; braking recovers some in cars with motor generators | Yes |
 | Full hybrid | Engine and motor; the motor alone for short, slow distances | Braking and the engine | No |
 | Mild hybrid | The engine, with the motor helping; never electricity alone | Braking and the engine (AFDC gives one answer for hybrids) | No |
-| Plug-in hybrid | Electricity until the battery is nearly used up, then the engine; in a series design, the motor only | The plug; see the worked example below for what happens without it | Yes |
+| Plug-in hybrid | Electricity until the battery is nearly used up, then the engine; in a series design, the motor almost all the time | The plug, and also the engine and braking (AFDC); see the worked example below for what happens without the plug | Yes |
 
 A word you will meet elsewhere, "micro hybrid", isn't used in this course. AFDC treats it as another
 name for a mild hybrid, and this course did not read a maker's or a trade body's definition that
 would settle what other sources mean by it. If your handbook uses the word, its own description of
 what the motor can do is what counts.
-
-:::predict A mild hybrid is crawling in a queue of traffic at walking pace, and the queue stops and starts every few seconds. Before reading on: can its motor move the car along the queue with the engine off?
-
-No. AFDC is explicit that "Mild hybrid systems cannot power the vehicle using electricity alone." The motor helps the engine and makes stop-start possible, so the engine may switch off while the car is stationary, but when the car moves, the engine is driving it. A full hybrid is the one that can creep along "for short distances and at low speeds" on the motor.
-:::
 
 ### How much voltage, and why the colour matters
 
@@ -182,12 +193,12 @@ The traction battery works at a far higher voltage than the 12 V battery. Nissan
 LEAF handbook sold in the US, says its system "uses high voltage up to approximately DC 400 volt".[13]
 That is Nissan's figure for its car. AFDC says electrified cars' systems typically range from
 400 to 1,000 volts, which doesn't fit the 48 V mild hybrids just described, so use your own
-handbook's figure for your own car.[5][15] For comparison, the body that sets the US standards for
-technician training programmes, the ASE Education Foundation, defines high voltage as "Automotive
+handbook's figure for your own car.[5][15] For comparison, the ASE Education Foundation, in the standards it publishes
+for US automobile technician training programmes, defines high voltage as "Automotive
 system voltages greater than 30 VAC or 60 VDC."[16]
 
 This is why the cables are coloured. Nissan: "High-voltage cables are colored orange. The vehicle
-high voltage system has no user serviceable parts."[13] Ford, in the 2024 Maverick handbook (US),
+high voltage system has no user serviceable parts."[13] Ford, in the 2024 Maverick handbook (US and Canada),
 says the high-voltage wiring is "labeled as such or covered with a solid orange convolute, or orange
 striped tape, or both."[14] DVSA's MOT manual carries two caveats that this course keeps every time
 it mentions the colour: "some imported vehicles may have high voltage wiring insulation of a
@@ -202,21 +213,30 @@ each one explains something you'll see on the dashboard or in the handbook.
 
 - **Traction battery pack**: stores the energy that drives the car.
 - **Power electronics controller**: "manages the flow of electrical energy delivered by the traction
-  battery, controlling the speed of the electric traction motor and the torque it produces."[1] You
+  battery, controlling the speed of the electric traction motor and the torque it produces."[1] (Torque is
+  turning force.) You
   may meet the word "inverter" for part of this in other books; this course uses AFDC's name, because
   it did not read a source that explains the inverter for owners.
 - **Electric traction motor**: turns the wheels. AFDC adds: "Some vehicles use motor generators that
   perform both the drive and regeneration functions."[1]
 - **Onboard charger**: "Takes the incoming AC electricity supplied via the charge port and converts
-  it to DC power for charging the traction battery."[1]
+  it to DC power for charging the traction battery."[1] AC is alternating current, what the mains
+  supplies (AFDC's slowest US charging runs from "a 120 volt (V) AC plug"[4]). DC is direct current,
+  what the traction battery takes in and gives out.
 - **DC/DC converter**: "converts higher-voltage DC power from the traction battery pack to the
   lower-voltage DC power needed to run vehicle accessories and recharge the auxiliary battery."[1]
   The auxiliary battery is the 12 V one.
 
-The drawing below puts the five in order, with the charge port and the 12 V side added. A hybrid
-has an engine as well, which the drawing leaves out.
+That leaves the question lesson 2 handed on: what does an electric car have in place of a gearbox?
+AFDC's list also has an electric **transmission**, which "transfers mechanical power from the
+electric traction motor to drive the wheels".[1] The sources this course read don't describe it
+further; the chapter "EV and HEV Transmissions" in Halderman and Ward's textbook (see Go deeper) is
+where a technician reads about it.
 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 480" width="100%" style="max-width:420px;display:block;margin:1.5em auto;font-family:system-ui,sans-serif" role="img" aria-label="Schematic of a battery-electric car's parts from AFDC's list. The charge port feeds the onboard charger, which turns AC into DC for the traction battery pack. From the traction battery, one path goes through the power electronics controller to the traction motor and then the wheels. The other path goes through the DC/DC converter, which steps the voltage down, to the 12 V battery and then to the lights, screens and accessories. A dashed line runs from the motor back up to the traction battery, showing energy returning during regenerative braking.">
+The drawing below puts the five in order, with the charge port and the 12 V side added. It leaves
+out the transmission between the motor and the wheels, and a hybrid's engine.
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 480" width="100%" style="max-width:420px;display:block;margin:1.5em auto;font-family:system-ui,sans-serif" role="img" aria-label="Schematic of a battery-electric car's parts from AFDC's list. The charge port feeds the onboard charger, which turns AC into DC for the traction battery pack. From the traction battery, one path goes through the power electronics controller to the traction motor and then the wheels. The other path goes through the DC/DC converter, which steps the voltage down, to the 12 V battery and then to the lights, screens and accessories. A dashed line runs from the motor back up to the traction battery, showing energy returning during regenerative braking; the route it takes between them is not drawn.">
   <title>Schematic: the parts of a battery-electric car, from AFDC's list</title>
   <desc>Boxes and arrows. Top row: charge port, arrow to onboard charger (AC in, DC out). Arrow down to a wide box, traction battery pack (high voltage). Left column below it: power electronics controller, then traction motor, then wheels. Right column: DC/DC converter (steps voltage down), then 12 V battery (auxiliary), then lights, screens and accessories. A dashed arrow runs from the traction motor back up to the traction battery pack for regenerative braking. Not every part on AFDC's list is drawn.</desc>
   <rect x="10" y="10" width="180" height="50" rx="6" fill="var(--navy-soft, #e8eef6)" stroke="var(--text-2, #4a5260)" stroke-width="1.5"/>
@@ -263,7 +283,7 @@ has an engine as well, which the drawing leaves out.
   <line x1="22" y1="315" x2="22" y2="169" stroke="var(--oxblood, #8b1e2d)" stroke-width="2" stroke-dasharray="6 5"/>
   <polygon points="22,158 16,170 28,170" fill="var(--oxblood, #8b1e2d)"/>
   <text x="10" y="452" font-size="15" fill="var(--text-2, #4a5260)">Dashed line: regenerative braking, the</text>
-  <text x="10" y="472" font-size="15" fill="var(--text-2, #4a5260)">motor working as a generator. Schematic.</text>
+  <text x="10" y="472" font-size="15" fill="var(--text-2, #4a5260)">motor as a generator (AFDC). Route not drawn.</text>
 </svg>
 
 The drawing is a schematic, drawn by this course from AFDC's list of parts on its "How Do
@@ -273,48 +293,50 @@ parts that energy passes through on its way back, so none are drawn.
 
 :::checkpoint An electric car is plugged in to a home charging unit that supplies AC. Name, in order, the parts the energy passes through before it can turn the wheels, and say which part changes AC into DC.
 
-Charge port, onboard charger, traction battery pack, power electronics controller, traction motor, wheels. The onboard charger is the part AFDC says "converts it to DC power for charging the traction battery". The controller then manages the flow from the battery to the motor, controlling its speed and torque. If you put the DC/DC converter in the chain, look again at the drawing: it is on the other branch, stepping the traction battery's voltage down for the 12 V side.
+Charge port, onboard charger, traction battery pack, power electronics controller, traction motor, and through the transmission to the wheels (the drawing leaves the transmission out). The onboard charger is the part AFDC says "converts it to DC power for charging the traction battery". The controller then manages the flow from the battery to the motor, controlling its speed and torque. If you put the DC/DC converter in the chain, look again at the drawing: it is on the other branch, stepping the traction battery's voltage down for the 12 V side.
 :::
 
-## Regenerative braking: the motor run backwards
+## Regenerative braking: the motor as a generator
 
 Ordinary friction brakes slow a car without getting anything back. An electrified car can recover
 some of the energy of its motion. [fueleconomy.gov](https://www.fueleconomy.gov/feg/hybridtech.shtml), run by the US Department of
-Energy and the Environmental Protection Agency, puts the mechanism in one line: regenerative braking "uses the forward motion of the wheels to turn the
-motor. This generates electricity and helps slow the vehicle."[7] The motor that drives the wheels
-is being driven by them, and a motor driven that way works as a generator. The electricity goes back
-into the traction battery, and the drag of generating it slows the car.
+Energy and the Environmental Protection Agency, says regenerative braking "uses the forward motion of the wheels to turn the
+motor. This generates electricity and helps slow the vehicle."[7] AFDC says the same from the
+battery's side: during braking "the electric motor acts as a generator, using the energy to charge
+the battery".[3] The generating is what helps slow the car.
 
 Tesla's UK manual for the Model 3 says the same thing from the other side, in its instructions for
 recovery drivers: "The motor(s) in Model 3 generates power when the wheels spin."[19] (This course
 read that page from an Internet Archive capture of October 2024, since Tesla's site refuses
 automated readers.) The page follows it straight away with "Always transport Model 3 with all four
-tires off the ground", and the breakdown lessons later in the course come back to towing.
+tires off the ground", and lesson 16, "When the car stops: where, who stands where, and the call",
+comes back to towing.
 
-There's a limit, and it explains a habit that EV drivers are taught. fueleconomy.gov: "Hard braking
-causes the vehicle to use its conventional friction brakes, which do not recover energy."[7] The
-friction brakes are still there, and hard braking brings them in. Reading the two sentences
-together: brake gently and early and more of the slowing is left to the motor; brake late and hard
-and more of it goes to the friction brakes, which recover nothing. The Energy Saving Trust, a UK organisation funded largely by government contracts,
+There's a limit, and fueleconomy.gov turns it into a tip: "Anticipate stops and brake gently or
+moderately. This allows the regenerative braking system to recover energy from the vehicle's forward
+motion and store it as electricity. Hard braking causes the vehicle to use its conventional friction
+brakes, which do not recover energy."[7] The friction brakes are still there, and hard braking
+brings them in. The Energy Saving Trust, a UK organisation funded largely by government contracts,
 gives drivers the matching advice: "use the higher levels of regen once you're comfortable to do
 so."[17] That advice assumes a car that offers more than one level of regeneration; your handbook
 says whether yours does, and how to set it.
 
 :::predict A driver has read that regeneration puts energy back into the battery, and decides her brake pads will therefore never wear out. Before reading on: what is wrong with that?
 
-Two things. The friction brakes still do part of the work, and more of it in a hard stop, so they still wear. AFDC's own words are that brake wear is "significantly reduced due to regenerative braking", which is a long way from none. And they still need checking: brakes and brake fluid in these cars are lesson 6's subject, and Nissan's 2024 LEAF handbook, for a car with no engine at all, still lists the brake-fluid level among the owner's checks.
+Two things. The friction brakes still do part of the work, and more of it in a hard stop, so they still wear. AFDC's own words are that brake wear is "significantly reduced due to regenerative braking", which is a long way from none. And they still need checking: brakes and brake fluid are lesson 6's subject, and Nissan's 2024 LEAF handbook, for a car with no engine at all, still lists the brake-fluid level among the owner's checks.
 :::
 
 ### How much of the energy reaches the wheels
 
-fueleconomy.gov gives two figures that are often put side by side. For a conventional petrol car:
+fueleconomy.gov's own EV page puts two figures side by side, and the first is the one lesson 2
+used. For a conventional petrol car:
 "Only about 12%–30% of the energy from the fuel you put in a conventional vehicle is used to move it
 down the road, depending on the drive cycle."[9] For an electric car: "EVs convert over 77% of the
 electrical energy from the grid to power at the wheels."[7] Read what each one counts before you
 compare them. The first starts at the fuel in the tank; the second starts at electricity arriving
 from the grid, and says nothing about how that electricity was made or delivered. So the two
 figures don't, on their own, settle which kind of car uses less energy overall. That wider
-question belongs to a later course on energy, and this course takes no side on which kind of car to
+question belongs to a planned course, "Energy: How the World Is Powered", and this course takes no side on which kind of car to
 buy.
 
 ## The 12 V battery that every one still has
@@ -323,12 +345,16 @@ This is the part that surprises owners. [NHTSA](https://www.nhtsa.gov/vehicle-sa
 regulator, says a car's traction
 battery "is very different from a vehicle's 12-volt battery that powers lighting and
 instrumentation systems".[10] Every source this course read that describes these cars gives them
-both, and the AA calls the 12 V battery one "which can be found in all cars".[12] An AA patrol described the pair in 2021: "In EVs it's similar, but it starts the onboard computer
+both, and the AA calls the 12 V battery one "which can be found in all cars".[12] An AA patrol explained in 2021 that in a conventional car the low-voltage battery starts the engine,
+and went on: "In EVs it's similar, but it starts the onboard computer
 system. A separate, high voltage battery powers the vehicle."[12]
 
 In a hybrid, AFDC says "the low-voltage auxiliary battery provides electricity to start the car
-before the traction battery is engaged; it also powers vehicle accessories."[2] So a hybrid with a
-flat 12 V battery may not start, however full its traction battery is.
+before the traction battery is engaged; it also powers vehicle accessories."[2] This course's
+reading of that: a hybrid with a flat 12 V battery may not start, however full its traction battery
+is. And the 12 V battery can run down in a car that isn't used. Nissan's LEAF handbook, among the
+reasons it gives for that, lists a car that is "not driven regularly and/or only driven short
+distances".[13] Lesson 5 takes that further.
 
 How it's recharged differs from a petrol or diesel car. In those, the alternator recharges the
 12 V battery while the engine runs (fueleconomy.gov names it;[8] lesson 5 comes back to it). NHTSA: "Typically, fully electric
@@ -363,13 +389,14 @@ The car has a second, 12 V battery that runs the lights and instruments, and in 
 A battery-electric car or plug-in hybrid charges from a socket or a charging unit. The onboard
 charger converts the grid's AC into DC for the traction battery. How fast depends on the supply,
 and the US names three levels. The figures below are from [AFDC's charging page](https://afdc.energy.gov/fuels/electricity-stations),
-for the US.[4]
+for the US.[4] kW (kilowatts) is the rate the charger delivers power; a higher figure charges
+faster.
 
 | US level (AFDC) | Supply | Range added, roughly | Notes from AFDC |
 |---|---|---|---|
 | Level 1 | "a 120 volt (V) AC plug" | about 5 miles per hour of charging, at 1.9 kW | The slowest of the three |
 | Level 2 | 240 V at home, 208 V in commercial buildings | about 25 miles per hour of charging | 2.9 to 19.2 kW; most home units run at up to 30 amps, 7.2 kW, on a dedicated 40-amp circuit, to meet what AFDC calls the National Electric Code's Article 625 |
-| DC fast | Not given on the page | about 100 to 200-plus miles per 30 minutes | Up to 500 kW; "also referred to as Level 3 charging" |
+| DC fast | "typically a three-phase AC input" | about 100 to 200-plus miles per 30 minutes | Up to 500 kW; "also referred to as Level 3 charging" |
 
 **In the UK**, AFDC's levels are US vocabulary. This course did not read an official UK page on
 charging speeds, connectors or the supply to a house, so it gives no UK figures here rather than borrow American ones. What it did read on home charging
@@ -377,21 +404,22 @@ in the UK is Electrical Safety First, a UK electrical safety charity: "The safes
 home is with a dedicated EVCP" (an EV charge point), which it says must be installed by "a
 registered and competent electrician".[18] Charging safety at home in both countries, including the disagreement between
 sources over extension leads, is lesson 14's subject, and Home Repair and Maintenance lessons 5 and
-6, "Electricity: what trips, and why" and "Plugs, leads and electrical fires", already cover the
-house side of it.
+6, "Electricity: what trips, and why" and "Plugs, leads and electrical fires", cover the house's
+circuits and extension leads in general.
 
 ### A plug-in hybrid that never plugs in
 
 Say a commuter in Carmarthen owns a plug-in hybrid. Her handbook (in this example, and labelled as
-the example's figure) gives an electric range of 30 miles, inside AFDC's "about 15 to 60-plus
+the example's figure) gives an electric range of 30 miles (about 48 km, by this course's conversion), inside AFDC's "about 15 to 60-plus
 miles". Her round trip to work is 24 miles. She has never plugged the car in, and it runs on petrol
 every day. What is
 she getting from the car?
 
 Start from what AFDC says about her exact case: "if the vehicle is never plugged in to charge, fuel
 economy will be about the same as a similarly sized hybrid electric vehicle."[3] So she has, in
-effect, a hybrid. AFDC does not say how each model manages its battery when it's never charged from
-the mains; it gives the result, and so does this lesson.
+effect, a hybrid. AFDC says a plug-in's battery can also be charged "by the ICE, or through
+regenerative braking",[3] but it doesn't say how each model manages its battery when it's never
+plugged in; it gives the result, and so does this lesson.
 
 Now the other side. Her commute is shorter than the handbook's electric range, and AFDC says a
 plug-in "typically runs on electric power until the battery is nearly depleted".[3] So on a day that
@@ -405,20 +433,23 @@ using.
 ### An EV in the cold
 
 Now a harder case, with a gap for you. An owner in Fairbanks sees her electric car's range fall
-sharply as winter sets in. On a mild day in September its display showed 240 miles. What does the
+sharply as winter sets in. On a mild day in September its display showed 240 miles (about 386 km). What does the
 evidence say to expect, and what does it suggest she do?
 
-NHTSA's winter page, as archived in August 2026, says it plainly: "In cold weather, gasoline and
+NHTSA's winter page, as archived in August 2026: "In cold weather, gasoline and
 diesel engines take more battery power to start, and electric and hybrid-electric vehicles' driving
 range can be reduced."[11] [fueleconomy.gov's cold-weather page](https://www.fueleconomy.gov/feg/coldweather.shtml) gives a
-size, reporting a 2019 AAA test (AAA clubs are US
+size, reporting a 2019 AAA test at 20°F (about −7°C, by this course's conversion) against a mild
+day (AAA clubs are US
 motoring clubs that sell roadside assistance and run a repair network): for electric cars, "fuel economy can
 drop roughly 39% in mixed city and highway driving, and range can drop by 41%. About two-thirds of
 the extra energy consumed is used to heat the cabin."[8] For hybrids it gives a drop of "about 30% to
-34%" in fuel economy in the cold.[8]
+34%" in fuel economy in the cold. Without the heater, the page says, EV range was "about 12%
+lower".[8]
 
-So, by this course's arithmetic: a 41% drop on 240 miles leaves about 142 miles (240 × 0.59). That is
-the test's figure, not a forecast for her car, and the word in the source is "can". The second
+So, by this course's arithmetic: a 41% drop on 240 miles leaves about 142 miles, or 229 km (240 × 0.59). That
+is the test's figure, not a forecast for her car: the word in the source is "can", and the test was
+run at one temperature, which her winter may be colder or milder than. The second
 sentence of the quotation is the more useful one: most of the extra energy went on keeping people
 warm, not on moving the car.
 
@@ -426,19 +457,19 @@ Now your part. Three habits she's been told about:
 
 1. Warm the cabin while the car is still plugged in, before she sets off.
 2. Leave the car plugged in overnight in the winter.
-3. Brake late and hard on the icy hill down to town, so the motor has more to recover.
+3. Brake late and hard on the long hill down to town, so the motor has more to recover.
 
 :::predict Before opening this: which of the three habits do the sources in this lesson support, and which do they contradict?
 
-The first is fueleconomy.gov's own tip: "preheating the cabin while plugged into the charger can extend your vehicle's range." This course's reading of why: heating is where the test found two-thirds of the extra energy went, and while the car is plugged in, the grid can supply some of it. The second is NHTSA's: its winter page names "plugging your vehicle in at night during the winter" as a common way to keep the battery warm in the cold. (A UK charity lists overnight charging among things to avoid, and lesson 14 takes up that disagreement.) The third is contradicted: hard braking brings in the friction brakes, "which do not recover energy". The winter lesson, lesson 15, comes back to cold weather.
+The first is fueleconomy.gov's own tip: "preheating the cabin while plugged into the charger can extend your vehicle's range." This course's reading of why: heating is where the test found two-thirds of the extra energy went, and while the car is plugged in, the grid can supply some of it. The second is NHTSA's: its winter page says the battery uses some of its own charge to heat itself in the cold, that the drain "can be minimized by keeping your electric vehicle as warm as possible during freezing temperatures", and that "A common way to do this is plugging your vehicle in at night during the winter". The third is contradicted: hard braking brings in the friction brakes, "which do not recover energy". fueleconomy.gov's cold-weather page adds that cold "also affects the performance of the regenerative braking system". The winter lesson, lesson 15, comes back to cold weather.
 :::
 
 ## What an owner still checks, and what is never the owner's
 
-Start with [AFDC's maintenance page](https://afdc.energy.gov/vehicles/electric-maintenance), because it is the honest version of "electric cars need no
+Start with [AFDC's maintenance page](https://afdc.energy.gov/vehicles/electric-maintenance), which answers "electric cars need no
 maintenance": "PHEVs and HEVs require the same general maintenance as conventional vehicles, but
 all-electric vehicles require less maintenance because they have fewer moving parts and fluids to
-change."[5] It gives three reasons: "The battery, motor, and associated electronics require little to
+change."[5] Among its reasons: "The battery, motor, and associated electronics require little to
 no regular maintenance"; "There are fewer fluids, such as engine oil, that require regular
 maintenance"; and "Brake wear is significantly reduced due to regenerative braking".[5] Less, not
 none.
@@ -448,10 +479,11 @@ still has a coolant reservoir ("Check the coolant level in the reservoir when th
 are cold"), a brake-fluid reservoir with MAX and MIN lines, windscreen washers, wipers, lights and
 tyres, and a 12 V battery.[13] AFDC adds that some battery systems "use liquid coolant to maintain
 safe operating temperatures. These systems may require regular checks."[5] The handbook says which
-checks are yours and how, and this course's exercises read those levels through the side of the
-reservoir without opening it. A hybrid, per AFDC, needs the same
-general maintenance as a conventional car, engine included. Tyres are on the AA's list too, and lessons 7 and 8
-teach them.
+checks are yours and how, and lesson 9, "Under the bonnet: oil, coolant, brake fluid and screenwash",
+reads those levels through the side of the reservoir without opening it. A hybrid, per AFDC, needs the same
+general maintenance as a conventional car, engine included. Tyres are on the AA's list too, and lessons 7, "Tyres I:
+pressure, the placard and TPMS", and 8, "Tyres II: tread, damage, age, and when to replace", teach
+them.
 
 Then the part that is never yours. Nissan: "The vehicle high voltage system has no user serviceable
 parts."[13] Ford, for the Maverick hybrid: "This battery pack should only be serviced by an authorized
@@ -462,7 +494,8 @@ reading a reservoir or checking a tyre, are **Yours**, done by the handbook's me
 
 One more thing changes when you open the bonnet of one of these cars: parts can move without
 warning. Ford, for its hybrid: "If you do not switch the ignition off, the engine could restart at
-any time."[14] Nissan says the LEAF's cooling fan "may come on at any time without warning".[13] And
+any time."[14] Nissan says the LEAF's cooling fan "may come on at any time without warning, even if the power
+switch is not in the ACC, ON or READY to drive position".[13] And
 DVSA's MOT manual warns testers in Great Britain that in a hybrid "the internal combustion engine may
 start without warning when electrical equipment is operated or if the battery voltage drops."[15]
 That is why the exercise below starts with the car switched off in the way its handbook describes,
@@ -510,14 +543,14 @@ Take 20 minutes over these. Part 1 is on paper. Part 2 uses your own car's handb
 
 2. From your own handbook (or the maker's online handbook if the paper one is lost), write down: which of the four kinds your car is; where the 12 V battery is, or where the handbook's jump-start points are if the battery is hidden; and where the handbook shows high-voltage warning labels or orange cables, with page numbers or section titles. If your car is petrol or diesel only, write that, and note where its 12 V battery is instead.
 
-3. If you want to see the labels on the car itself: park on level ground, apply the parking brake, select P (or leave it in gear), and switch the car off in the way the handbook describes, then take the key or fob away from the car so nothing can start. Remember from above that a hybrid's engine can restart if the ignition is left on, and that a cooling fan may come on without warning, so look without reaching in. Open the bonnet only by the handbook's method, and look. Don't touch, unplug, open or reach past anything orange, anything blue in a mild hybrid, anything labelled high voltage, or any cover over them. Don't open any cap or reservoir for this exercise. If you're unsure what something is, leave it and write "not identified".
+3. If you want to see the labels on the car itself: park on level ground, apply the parking brake, select P (or leave it in gear), and switch the car off in the way the handbook describes, then take the key or fob away from the car so nothing can start. Remember from above that a hybrid's engine can restart if the ignition is left on, and that a cooling fan may come on without warning even with the car switched off, so look without reaching in. Open the bonnet only by the handbook's method, and look. Don't touch, unplug, open or reach past anything orange, anything blue in a mild hybrid, anything labelled high voltage, or any cover over them. Don't open any cap or reservoir for this exercise. If you're unsure what something is, leave it and write "not identified".
 
 4. Add to your notes what the handbook says about charging your car, if it charges from a socket: the connector, and any charging rules the handbook gives for its own car.
 :::
 
 :::checkpoint Check your answers to part 1.
 
-(a) Battery-electric: a socket and no fuel means the plug is the only source, with braking recovering some in cars with motor generators. (b) Plug-in hybrid: it runs on electricity until the battery is nearly used up, then on the engine; charged from the plug. (c) Mild hybrid: the motor assists and cannot drive the car alone; charged by braking and the engine. (d) Full hybrid: no socket, but the motor alone moves it at low speed; charged by braking and the engine. (e) Plug-in hybrid of the series kind, the kind AFDC says is often called an extended-range electric vehicle: the motor alone drives the wheels, and it's charged from the plug. If you put (d) down as mild, look again at what the motor could do by itself.
+(a) Battery-electric: a socket and no fuel means the plug is the only source, with braking recovering some in cars with motor generators. (b) Plug-in hybrid: it runs on electricity until the battery is nearly used up, then on the engine; charged from the plug, and AFDC says also by the engine and by regenerative braking. (c) Mild hybrid: the motor assists and cannot drive the car alone; charged by braking and the engine. (d) Full hybrid: no socket, but the motor alone moves it at low speed; charged by braking and the engine. (e) Plug-in hybrid of the series kind, the kind AFDC says is often called an extended-range electric vehicle: the motor alone drives the wheels; AFDC says its engine "is used to generate electricity for the motor", and the battery charges from the plug. If you put (d) down as mild, look again at what the motor could do by itself.
 :::
 
 ## For your plan

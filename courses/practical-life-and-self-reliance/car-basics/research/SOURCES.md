@@ -4907,3 +4907,73 @@ on the `unread:` line.*
   working near the battery." [V]; "Keep children away from the battery." [V]; "Always charge the battery in
   an open area." [V]. Toyota's recharging steps are not taught.
 - **AFDC, "How Do Gasoline Cars Work?"** Re-read; Part A's battery quotation stands.
+
+## Stage 4 note, lesson 01 (2026-09-26)
+
+*Re-read on 26 September 2026 by lesson 1's Stage 4 reviewer and, for the items marked (fixer), again
+by its fixer, with curl and a browser User-Agent (no personal data in any header), text extracted with
+a small HTML stripper, the GOV.UK content API, the eCFR versioner API or pdftotext. Quotations marked
+[V] were copied from that extracted text. Nothing earlier in this file was wrong; this note adds what
+the fix used.*
+
+- **The Road Vehicles (Construction and Use) Regulations 1986, reg 27** (fixer),
+  https://www.legislation.gov.uk/uksi/1986/1078/regulation/27, the regulation read in full. Great
+  Britain. Reg 27(1)(b): a vehicle is not to be used on a road if "the tyre is not so inflated as to
+  make it fit for the use to which the motor vehicle or trailer is being put" [V]. The regulation does
+  not mention the vehicle maker's specification; the Highway Code's Annex 6 MUST line ("Tyres MUST be
+  correctly inflated to the vehicle manufacturer's specification for the load being carried." [V])
+  cites "Law CUR reg 27" [V], so the maker's-specification wording is the Code's statement of the law.
+  Reg 27(3): "Paragraph (1) (a) does not prohibit the use on a road of a passenger vehicle (not being a
+  bus) by reason only of the fact that a wheel of the vehicle is fitted with a temporary use spare
+  tyre, unless the vehicle is driven at a speed exceeding 50 mph." [V]
+- **The Road Vehicles Lighting Regulations 1989, reg 23** (fixer),
+  https://www.legislation.gov.uk/uksi/1989/1796/regulation/23. Great Britain. Reg 23(1): "No person
+  shall use, or cause or permit to be used, on a road a vehicle unless every lamp, reflector, rear
+  marking and device to which this paragraph applies is in good working order and, in the case of a
+  lamp, clean." [V] Annex 6's clean-lights MUST cites it ("Laws RVLR 1989 regs 23 & 27 , & CUR regs 30
+  & 61" [V], as recorded in "Gate closures, lesson 01").
+- **The Highway Code, Annex 6**, content API (updated 29 January 2022), re-read by the reviewer. Adds to
+  "Gate closures, lesson 01": "If your engine overheats, you should wait until it has cooled naturally.
+  Only then remove the coolant filler cap and add water or other coolant." [V] (the rule is conditional
+  on an overheat); "Tyre pressures. Check weekly. Do this before your journey, when tyres are cold." [V];
+  "Cars, light vans and light trailers MUST have a tread depth of at least 1.6 mm across the central
+  three-quarters of the breadth of the tread and around the entire circumference." [V]
+- **nidirect, "Introduction to the Highway Code"**: the "same two voices" line rests on the
+  introduction only (as "Gate closures, lesson 01" records); no Northern Ireland rule was opened.
+- **CalRecycle, "Check Your Number"** (fixer), https://calrecycle.ca.gov/usedoil/oilchange/. Part A §6's
+  quotations stand, in this order on the page: "The old standard of 3,000 miles is out of date and no
+  longer applies to most cars." [V] then "Many cars, even older models, can be driven up to 5,000,
+  7,500, 10,000, and even 15,000 miles before needing an oil change." [V], and "CalRecycle does not make
+  recommendations regarding oil change frequency for any specific make or model of vehicle" [V]. The
+  page gives a spread of figures; it declines only to recommend for a make or model.
+- **GAO-15-705** (fixer), August 2015, re-read from the Internet Archive's copy of
+  https://www.gao.gov/assets/gao-15-705.pdf (capture 20260109053421; gao.gov refuses curl). Page 1:
+  "As of July 2015, we found 16 states with periodic inspection programs." [V] The same paragraph gives
+  the mid-1970s high point as "31 states and the District of Columbia" [V]. This is the most recent
+  official national count this course found; the course does not claim it is the last one made.
+- **Toyota, 2023 Corolla Owner's Manual (US), OM02568U** (fixer), pdftotext -layout, pp. 397 and 398
+  ("Tires and wheels"). Four tyre types, not two: Type A "195/65R15 91S" and Type B "205/55R16 91H" as
+  "Gate closures, lesson 01" records; Type C "225/40R18 88V" [V] (p. 397) and Type D "225/40R18 88W"
+  [V] (p. 398), each front "33 psi (230 kPa, 2.3 kgf/cm2 or bar)" [V] and rear "30 psi (210 kPa, 2.1
+  kgf/cm2 or bar)" [V]. Compact spare "60 psi (420 kPa, 4.2 kgf/cm2 or bar)" [V] for all four.
+- **Honda, 2024 Civic Sedan, "If a Tire Goes Flat"**, re-read by the reviewer: "never get under the
+  vehicle when it is supported only by the jack" [V]; "your foot or a pipe" [V].
+- **Mazda3 (European English)**: "Never go under the vehicle while it is jacked up" [V] (SOURCES Part E
+  §4, not re-read at Stage 4). "If you are unsure of how tight the nuts should be, have them inspected at
+  an expert repairer" [V] continues ", we recommend an authorised Mazda repairer" [V].
+- **Nissan (UK), 2023 LEAF (.shtml)**, re-read by the reviewer: "DO NOT GET UNDER A VEHICLE THAT IS
+  SUPPORTED BY A JACK." [V]
+- **Ford, 2024 Maverick Owner's Manual**, capture 20250505042038, p. 309, re-read by the reviewer: "Do
+  not remove the coolant reservoir cap when the engine is on or the cooling system is hot. Wait 10
+  minutes for the cooling system to cool down. Cover the coolant reservoir cap with a thick cloth to
+  prevent..." [V, the sentence continues past the capture's extracted line]. Ford's handbook permits
+  the cap off after the wait and under a cloth, for that car; the course's "cold" condition (OUTLINE
+  decision 5) is stricter and is labelled as the course's.
+- **DVSA, MOT inspection manual, "Introduction"** (updated 1 June 2026), re-read by the reviewer. The
+  quotations in "Gate closures, lesson 01" stand, and "The MOT test must be carried out without
+  dismantling, so it is not always possible to inspect some testable items." [V]
+- **The textbook contents (Part A §4)**, not re-read: the reviewer's check of lesson 1's "the same
+  way" used Part A §4's recorded contents. Halderman puts "Tires and Wheels" inside Steering and
+  Suspension; Erjavec's "45. Tires and Wheels." sits in Suspension and Steering and "35. Hybrid
+  Vehicles." and "36. Electric Vehicles." under Engine Performance; Denton and Pells' top level is
+  engine, electrical, chassis and transmission systems. The three share a core, not a whole division.

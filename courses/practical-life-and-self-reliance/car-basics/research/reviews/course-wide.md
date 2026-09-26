@@ -45,3 +45,27 @@ Findings that belong to no single lesson, and notes a fixer leaves for later les
   2%"; the ranges can't be added to one total. Lesson 4 or 12, if it prints them, uses all five.
 - **DENSO says nothing about cold weather**; its light comes on at every start. A cold-morning framing
   is the course's reading and is labelled as such.
+
+## 2026-09-26 — Lesson 04 fix pass: notes for later lessons
+
+- **The AA's 2021 "top two" is unranked.** The release names the 12 V battery and tyre faults as the
+  "top two" EV breakdown causes and does not order them; running out of charge "doesn't feature within
+  the top three". SOURCES Part A §2's Good-for line said the 12 V battery was "still the commonest
+  failure" and is corrected. Lessons 5, 13 and 16 never put the 12 V battery first.
+- **"Traction battery" is AFDC's word only.** Nissan says "Li-ion battery"; Ford and the AA say "high
+  voltage battery". Lessons 5, 13 and 14 should name all three rather than claim handbooks say
+  "traction".
+- **A plug-in hybrid's battery charges three ways** (AFDC: the plug, "by the ICE, or through regenerative
+  braking"), and a series plug-in's motor drives the wheels "almost all of the time", not always.
+- **Nissan's fan sentence is quoted whole** ("even if the power switch is not in the ACC, ON or READY to
+  drive position"). Lesson 14 and any exercise that opens a bonnet use the full sentence.
+- **NHTSA's plug-in-at-night line** is about cutting the battery's self-heating drain, not keeping it
+  "warm" in the abstract; SOURCES Part B §6 is corrected. Lesson 15 quotes the antecedent. ESF's
+  "overnight" AVOID line stays untaught (lesson 04 had promised lesson 14 would take it up; removed).
+- **Cold figures carry their temperature**: fueleconomy.gov's are at 20°F against 77°F (75°F in the EV
+  no-heater line). No source read gives any place's winter temperatures.
+- **Safety in a practice case:** a habit posed only on energy grounds (lesson 04 had "brake late and hard
+  on the icy hill") must not describe a dangerous driving condition. Drafters check cases for this.
+- **Quiz keys:** 04 is now 0,2,3,0,1 (was 0,2,3,1,0; R27 above resolved by reordering Q4 and Q5). The
+  fixer's script also rejected shifted runs of four at any offset, which is stricter than the relaxed
+  rule; the orchestrator may want to make that the rule.

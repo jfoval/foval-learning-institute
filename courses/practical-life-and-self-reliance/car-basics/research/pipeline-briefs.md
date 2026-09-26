@@ -172,6 +172,14 @@ written, so this course does not learn it again.
 - **2026-09-26: topping up AdBlue (DEF) is Yours, on conditions** (settled at lesson 3's Stage 4):
   from a sealed container, into the blue-capped tank only, as the car's handbook describes. Lessons
   9 and 11 label it the same way, and decision 7's owner list is read as including it.
+- **2026-09-26, from lessons 2 and 4 at Stage 4:** the AA's "top two" call-out causes are unranked,
+  so no lesson puts the 12 V battery first on the AA's authority. "Traction battery" is AFDC's word;
+  Nissan says "Li-ion battery", Ford and the AA "high voltage battery", and each is quoted as its
+  own. Nissan's fan sentence (p. 8-2) is quoted whole. A cold-weather range figure always carries its
+  test temperature. The RAC's five cambelt signs travel with its "no obvious symptoms" line and its
+  advice to have the car checked. AFDC's word is "combustion chamber"; no source read says "direct
+  injection". Quiz keys: besides the relaxed rule, no run of four may match another lesson's keys
+  shifted by a constant at any offset.
 
 ## Drafting brief: Car Basics, Stage 3
 
