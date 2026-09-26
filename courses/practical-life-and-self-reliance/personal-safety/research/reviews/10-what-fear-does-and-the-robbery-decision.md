@@ -226,3 +226,64 @@ three only at +3 with lesson 4 and -3 with lesson 1). Option lengths per item: 9
 and the resistance side's summary, the "Where they agree" paragraphs including the new line for the
 reader hurt anyway, the law sentence, the Artwohl debriefing lines, the table at 375 px, and quizzes
 1, 2, 4 and 6).
+
+## 2026-09-25 — Lesson 10 — Stage 4 second pass, one reviewer (facts and safety)
+
+**Reviewer:** F2, fresh context, under the Reviewer F brief in `research/pipeline-briefs.md`, scoped to
+the fix pass's rewritten passages. Checked against the primaries fetched for the first pass (NCJRS
+Block and Skogan page, Artwohl PDF, DC brochure, PubMed 21431863) and SOURCES Part C §3, §5 and
+"Gate closures, lesson 10". Every first-pass finding claimed fixed was checked in the text: F1 to
+F20 and P1 to P21 are as the resolutions say, including the U+00A0 in all seven spaced numbers, OSHA
+as a "may include" topic, the two forces named, the law line limited to "no source this course read
+suggests", and no "both countries", "tells", "doing nothing" or dashes left.
+
+**Findings**
+- S1 [minor] Block and Skogan: "went with better outcomes than not resisting". The abstract says
+  "more favorable victim outcomes" without naming the comparison group. Fixed: "generally went with
+  more favourable outcomes ... though the abstract doesn't say which group it was compared with".
+- S2 [minor, neutrality] "Three studies are usually set on this side of the argument": no source says
+  so, and a resistance reader would not accept Block and Skogan as compliance evidence. Fixed: "often
+  cited in this argument and are set out here ... and the third fits this side poorly" (SOURCES:
+  "usually cited in this argument").
+- S3 [minor, neutrality] "one case where the argument stops", and in "Property or the person" "the
+  sources and the official advice agree on handing property over": both say more than the next
+  paragraph allows (the resistance studies don't single the case out; Tark and Kleck's conclusion
+  doesn't carve it out). Fixed: "one narrower case where the sources this course read don't pull
+  against each other"; "the official advice points to handing property over, and the resistance
+  studies don't single it out".
+- S4 [minor, decision 7] The paragraph for the reader hurt anyway, read as someone who froze, as
+  someone who complied and was hurt, and as someone who resisted and was hurt: the resister is named,
+  the freezer is not, and the complier is covered only by "whatever they do". "The violence comes
+  before anything is asked for" also narrows Smith's "prior to the removal of any property or prior
+  to any demands". Fixed: "not a verdict on anyone in that moment, whether they froze, handed
+  everything over or fought. Handing everything over doesn't protect everyone: in Smith's blitz
+  robberies, the violence comes first, before any property is taken or asked for."
+- S5 [minor] Artwohl lines. The debriefing "where each officer's version of events was set against
+  the others and against the evidence" stretches her account (the evidence is the investigation
+  reports, read later); "keep finding that perception and memory are distorted" dropped her "to
+  some degree"; "the same applies to other eyewitnesses" is, in her text, the point that inaccurate
+  memory is not lying. Fixed all three. The two-thirds, voluntary, 157, 84/79/52/21% figures, the
+  "not huge"/"certainly not trivial" pair, the debriefing reason and the lying line all match the PDF.
+- S6 [minor] "accuracy fell for everyone at first": the 2011 abstract says "for both groups". Fixed.
+- S7 [pass] Table at 375 px (build:drafts, headless measure): 358 px in a 343 px `overflow: auto`
+  wrapper, 982 px tall, page width 375 (no sideways scroll). The overflow is the last column's right
+  padding only; its text ends inside the visible column. No change.
+- S8 [pass] Law sentence: general-information label, the four UK systems and "by state", "no source
+  this course read suggests", lesson 13 by title. Matches SOURCES §3.3's note.
+- S9 [pass] Neutrality, both ways: each side's case uses only its own sources' words (Met, DC, OSHA
+  for compliance, with Zimring's claim as "may"; Tark and Kleck and Guerette and Santana for
+  resistance, with the gun and "wise course" sentences whole); the course's voice adopts neither.
+  DC paraphrases match the brochure.
+- S10 [pass] Quiz, keys 3,2,0,2,1,0: every explanation read against its key and each distractor named
+  by content; items 1, 2, 4 and 6 correct against the body and the primaries; no item asks what a
+  victim should have done; option lengths 90 to 97, 84 to 97, 87 to 88, 86 to 90, 84 to 96, 85 to 94.
+- S11 [pass, note] Exercise time "It's a twenty-minute task": honest for the task (eight short sorts
+  that send the reader back through the lesson, a one-sentence decision with a source and a line on
+  what it measured, then the comparison), about 20 minutes. It departs from the drafting brief's
+  "Take NN minutes" form, for the fixer's stated reason (the minutes model adds a "Take NN" figure on
+  top of numbered steps); validate passes. If the form is to stay, the brief should say so.
+
+**Measures.** `npm run minutes` 85, `minutes: 85` unchanged; `npm run validate` exit 0, no line naming
+this file; `npm run quotes personal-safety` 208 quotations, one miss (lesson 11's), none for lesson 10.
+
+**Status after review:** clean

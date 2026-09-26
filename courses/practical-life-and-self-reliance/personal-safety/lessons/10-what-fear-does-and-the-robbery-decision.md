@@ -216,17 +216,17 @@ Hearing less. Artwohl's results include "diminished sound 84%", "tunnel vision 7
 
 Those numbers need their caveats, and Artwohl supplies some of them herself. It was a voluntary
 written survey, not an experiment. The officers she surveyed herself, about two thirds of the total,
-were asked to fill it in only after a group debriefing, where each officer's version of events was
-set against the others and against the evidence. She did that on purpose: many officers, she writes,
+were asked to fill it in only after a group debriefing, where, as each officer told their version,
+a fuller picture of what happened came together. She did that on purpose: many officers, she writes,
 "are not fully aware of their own memory and perceptual distortions until they are confronted with
 evidence". This course's caution is that officers may also have taken on details they heard there.
 The same survey found that 21% said they had seen, heard or experienced something that didn't
 really happen, a figure she calls "not huge" but "certainly not trivial". And after comparing her
 figures with earlier studies, she wrote that "the exact percentages don't matter": what matters, in
 her account, is that studies using different methods keep finding that perception and memory are
-distorted in these events.[5]
+distorted to some degree in these events.[5]
 
-Artwohl says the same applies to other eyewitnesses, but her figures are officers'; carrying their
+Artwohl writes that the same point about memory applies to other eyewitnesses, but her figures are officers'; carrying their
 direction to a person at a cash machine is this course's step. The officers were trained, armed and
 in a situation their job had prepared them for. What carries over, on this course's reading, is the
 direction rather than the numbers: under sudden threat, expect to see less of your surroundings, to
@@ -245,7 +245,7 @@ things that often get lumped together: doing a practised movement, and deciding 
 
 In the first, [published in 2011](https://pmc.ncbi.nlm.nih.gov/articles/PMC3142543/), Nieuwenhuys
 and Oudejans had 27 officers shoot at an opponent who either shot back with coloured soap cartridges
-or did not. Under that threat, accuracy fell for everyone at first. One group then trained with the
+or did not. Under that threat, accuracy fell in both groups at first. One group then trained with the
 opponent shooting back; the other trained without. Afterwards, "shot accuracy of the experimental
 group no longer deteriorated under anxiety", and the gain was still there four months later. The
 authors' own conclusion is hedged: they say training with anxiety may have positive effects in
@@ -310,8 +310,8 @@ regulator, the Occupational Safety and Health Administration (OSHA), in its
 which lesson 9 quoted, lists among the topics staff training may include "turning over money or
 valuables without resistance".[11]
 
-Three studies are usually set on this side of the argument, though none of the official pages cites
-them, and one of them fits only partly.
+Three studies are often cited in this argument and are set out here, though none of the official
+pages cites them, and the third fits this side poorly.
 
 **A study that followed 460 shop robberies.** Faulkner, Landsittel and Hendricks followed 460
 robberies of convenience stores in the US over 1995 and 1996, using police reports, interviews with
@@ -344,8 +344,9 @@ Victims who resisted by screaming, running away, reasoning with their attackers,
 means were less likely to be injured and more likely to avoid completion of the crime." The abstract
 names its own limits: the survey "excludes crimes in which the victim dies, and it does not obtain
 data on the sequencing of victim and offender actions".[14] This one doesn't sit neatly on either
-side. It found that resisting without force went with better outcomes than not resisting, which is
-not what "Don't resist" says, and its abstract says nothing about how forceful resistance did. It
+side. It found that resisting without force generally went with more favourable outcomes, which is
+not what "Don't resist" says, though the abstract doesn't say which group it was compared with, and
+it says nothing about how forceful resistance did. It
 also says the effects varied with, among other things, "whether or not the offender used a weapon",
 without saying which way.[14]
 
@@ -447,8 +448,8 @@ stores.
 
 ### Where they agree
 
-In this course's labels the comply-or-resist question is contested, but there is one case where the
-argument stops. When a weapon is shown and all that is wanted is property, the three official sources
+In this course's labels the comply-or-resist question is contested, but there is one narrower case
+where the sources this course read don't pull against each other. When a weapon is shown and all that is wanted is property, the three official sources
 this course read all point towards handing it over: London's Met, the Washington, DC police and
 OSHA's list of training topics for late-night shops. Each goes further than that one case: the Met's
 condition is being threatened with violence, and the DC brochure says "Don't resist" once a robbery
@@ -462,9 +463,10 @@ effects varied with whether the offender had a weapon, but not in which directio
 the resistance evidence leaves this case alone is this course's reading of the abstracts, not a claim
 any of the authors made; Tark and Kleck's general conclusion doesn't carve it out either.
 
-Agreement about what to advise is not a verdict on anyone who did something else in that moment.
-Some people are hurt whatever they do: in Smith's blitz robberies, the violence comes before
-anything is asked for.[13] And people who resisted in this very case didn't choose wrongly either.
+Agreement about what to advise is not a verdict on anyone in that moment, whether they froze,
+handed everything over or fought. Handing everything over doesn't protect everyone: in Smith's blitz
+robberies, the violence comes first, before any property is taken or asked for.[13] And people who
+resisted in this very case didn't choose wrongly either.
 In every version, the responsibility is the robber's.
 
 ## At the cash machine
@@ -517,7 +519,7 @@ general reduced injury;[15] and the evidence on resistance to rape that lesson 1
 the research behind this course summarises it, points the same way.
 
 That is as far as any source goes, and it's an average drawn from survivors. In the narrow case, the
-sources and the official advice agree on handing property over. When the demand is for the person,
+official advice points to handing property over, and the resistance studies don't single it out. When the demand is for the person,
 the official pages say nothing, and the only evidence left points, on average, towards resisting.
 
 ## In the parking garage
