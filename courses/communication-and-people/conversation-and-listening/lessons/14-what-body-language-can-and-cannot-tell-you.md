@@ -20,7 +20,7 @@ quiz:
     options:
       - His equations came from messages about feelings and attitudes, and an update isn't one
       - His equations cover all speech, but an email has no tone or face for them to act on
-      - His figures held in 1967 but larger modern studies have since overturned all of them
+      - His figures held up in 1967, but larger modern studies have since gone on to overturn them
       - Nothing is wrong, since his studies found words carry 7% of the meaning in any message at all
     answer: 0
     explain: >-
@@ -30,20 +30,21 @@ quiz:
       the claim that words carry 7% of any message. No larger study overturning the figures appears
       in this lesson; the problem is how far they were stretched, not a later refutation.
   - q: >-
-      In Bond and DePaulo's meta-analysis, how did police, judges and other professionals compare
-      with everyone else at judging lies from behaviour?
+      Rosalind has watched a new hire for thirty seconds in the lift and says she can already tell
+      he's trustworthy. On the brief-glimpse research in this lesson, what's the fairest reply?
     options:
-      - Clearly better, with the best of them right about 70% of the time in real time
-      - Worse, because their training made them suspicious of nearly everyone they saw
-      - Better only on silent video, where they could watch faces without the words
-      - About the same, a difference near zero, and they averaged under 55% correct
+      - She's right, since glimpses that short judge character correctly 39% of the time
+      - She can't know anything, since a glimpse that short carries no information at all
+      - She's right only if she saw his face, since glimpses of the body and voice failed
+      - Glimpses predicted some specific outcomes moderately, not a verdict on a person
     answer: 3
     explain: >-
-      Across 20 comparisons the difference between experts and others was d = -.025, close to zero,
-      and the experts averaged under 55%. No group of professionals reached 70%. The figure is a
-      shade below zero, but the meta-analysis doesn't show training made them worse or more
-      suspicious. And silent video was the least accurate way for anyone to judge, and the meta-analysis reports
-      no expert advantage there.
+      In Ambady and Rosenthal's pooled results, judgements from under five minutes of watching
+      correlated about .39 with specific outcomes, such as students' ratings of a teacher. That's
+      a moderate relationship for particular things, not a reading of whether someone is honest or
+      kind in general. A correlation of .39 isn't "right 39% of the time", and it isn't nothing
+      either. It also didn't much matter whether the glimpse was of the face, the body, speech or
+      tone, so the face isn't the only channel that worked.
   - q: >-
       Suppose, with numbers invented for this question, that a shop has 1,000 customers a day, 2 in
       every 100 shoplift, and a quick glance at the door is seen in 30 of every 100 shoplifters and
@@ -58,30 +59,31 @@ quiz:
     explain: >-
       Count it: 20 shoplifters, of whom 6 glance; 980 honest customers, of whom 245 glance. That is
       6 of 251, a little over 2%. The 30% is how often shoplifters glance, not how often a glancer
-      is a shoplifter. A cue that's a bit more common in one group doesn't make that group the
-      majority when the group is small. And "most people who look shifty are hiding something" is
+      is a shoplifter. The 55% comes from comparing 30 with 25 and forgetting that there are 49
+      honest customers for every shoplifter. And "most people who look shifty are hiding something" is
       the belief the counting tests, not a reason.
   - q: >-
       Two researchers disagree about whether a particular facial movement reliably signals one
       emotion across people and cultures. Which evidence would do most to settle it?
     options:
-      - Records of feelings and faces at the same moments in many societies, with free answers
+      - Felt emotion and facial movement measured together, in many cultures, with open answers
       - Posed photos of actors shown to students, who each pick one emotion word from a short list
-      - A count of how many popular books and courses teach reading emotions from the face
+      - A pooled analysis of many more posed-photo studies, with ten times the participants
       - A survey of how sure people feel when they read the faces of strangers in daily life
     answer: 0
     explain: >-
       The question is whether what faces do matches what people feel, so the evidence has to measure
       both at once, in many kinds of society, without handing people a list of words to match.
       Posed photos with a short word list is the method one side says inflates agreement.
-      Confidence surveys measure how sure people feel, not whether they're right, and counting books
-      measures how popular the idea is.
+      Pooling many more studies of that kind adds participants but keeps the same method, so it
+      would repeat the problem at a larger size. Confidence surveys measure how sure people feel,
+      not whether they're right.
   - q: >-
       Zdenka plans to stand in a wide "power pose" for two minutes before a job interview because
       she read that it raises testosterone and makes people bolder. What does the evidence in this
       lesson support?
     options:
-      - The claims are sound, since a larger study in 2015 confirmed all the 2010 results
+      - The claims are sound, since a larger study in 2015 confirmed the 2010 results
       - The hormone and boldness claims failed to replicate; felt power is still argued
       - The whole idea was shown to be fraud, and the original paper was retracted
       - Posing works, but only if held for six minutes, as the authors later showed
@@ -101,21 +103,21 @@ quiz:
       - Treat it as settled, since crossed arms are one gesture with a fixed meaning
       - Copy her posture for the rest of the meeting so that she warms to him and his plan
       - Watch her face for a microexpression when he speaks, to find her real view
-      - Hold the guess loosely and ask her view, since no gesture has a fixed meaning
+      - Hold the guess loosely and ask her, since no gesture is shown to mean one thing
     answer: 3
     explain: >-
-      The review Denault and colleagues quote says there are "few, if any, body movements that have
-      invariant meaning", and this course found no study of crossed arms at all, so the gesture
-      can't settle it and asking can. Microexpressions were rare in the only published experiment a 2019
+      The handbook chapter Denault and colleagues quote says there are "few, if any, body movements
+      that have invariant meaning", and this course found no study of crossed arms at all, so the
+      gesture can't settle it and asking can. That's not proof crossed arms mean nothing; it's that
+      no gesture has been shown to carry one fixed meaning. Microexpressions were rare in the only published experiment a 2019
       review knew of, and appeared in truthful expressions too. Copying her posture rests on a mimicry effect that a
       preregistered test didn't find, and a review called fragile.
 ---
 
 You've probably been told that most of what we communicate is nonverbal, that liars can't look you
-in the eye, and that crossed arms mean someone's closed off. Each of these has a real finding
-somewhere behind it, and each has been stretched well past what that finding showed. This lesson
-traces them back. What comes out is useful: bodies and voices do carry information, mostly about
-feelings and relationships, but they tell you far less about honesty or exact emotions than
+in the eye, and that crossed arms mean someone's closed off. The first two have a real finding behind them, stretched well past what it showed. The third, as far
+as this course found, has no study behind it at all. This lesson
+traces them back. What comes out is useful: bodies and voices do carry information, about feelings among other things, but they tell you far less about honesty or exact emotions than
 popular advice claims. And the thing that works better than reading bodies is the thing this course
 keeps coming back to. Listen to what people say, and ask.
 
@@ -140,8 +142,8 @@ explains that it and his other equations "were derived from experiments dealing 
 of feelings and attitudes (i.e., like-dislike)". Then comes the sentence that matters: "Unless a
 communicator is talking about their feelings or attitudes, these equations are not applicable."[1]
 
-So the author limits his own finding. It's about one narrow thing, judging whether someone likes you
-when their word and their tone disagree. This course hasn't read the two 1967 papers themselves,
+So the author limits his own finding. It's about one narrow thing, judging how much a speaker seems to like someone
+when the word, the tone and the face don't agree. This course hasn't read the two 1967 papers themselves,
 which are behind a paywall, so it won't give their sample sizes or their arithmetic. A communication
 scholar, David Lapakko, wrote a 1997 critique of how the study gets used; this course read only its
 abstract, which says the popular applications "overlook important limitations which do not warrant
@@ -170,10 +172,7 @@ make people more accurate about what they thought, and that asking did. So on th
 the move is the same even in Mehrabian's own case: "You said fine, but you sound flat. How's it
 really going?" The tone told you there might be something to ask about. It didn't tell you what.
 
-(Lesson 7 also described the illusion of transparency: people hiding a feeling from strangers in a
-lab thought more of it showed than did. Whether Solveig, half-showing hers to a friend, thinks it
-shows more than it does is a different situation, and applying that finding to her would be this
-course's reading, not something those studies tested.)
+
 
 ## Can you tell when someone is lying?
 
@@ -195,15 +194,13 @@ are given here as paraphrase, not quotation.)
 
 - **People lean towards belief.** Truths were judged correctly 61.34% of the time, lies only 47.55%.
   Judges called more statements true than false, which the authors call a truth bias.[4]
-- **Results were strikingly consistent.** From study to study, the true spread in average accuracy
-  (its standard deviation) was only 4.52 percentage points. Nearly all studies found a little better than a
-  coin.[4]
+
 - **Watching was the worst way to judge.** Judgements from silent video, where you could see the
   person but not hear them, were less accurate than judgements from audio, from audio and video
   together, or from a written transcript.[4]
 - **Experts were no better.** In 19 studies that compared professionals (police, judges,
-  psychiatrists, job interviewers, auditors) with lay people, the difference was d = -.025, close
-  to zero, with a confidence interval running from -.105 to .055.[4]
+  psychiatrists, job interviewers, auditors) with lay people, 20 comparisons in all, the difference
+  was d = -.025, close to zero.[4]
 
 A follow-up meta-analysis by the same authors asked whether some individuals are much better than
 others. This course read only its abstract, which reports 247 samples and says that once measurement
@@ -234,31 +231,33 @@ Some cues did differ a little. Liars were somewhat less forthcoming and more ten
 were somewhat more dilated (d = 0.39, from only four estimates), their voices slightly higher
 (d = 0.21), and they were rated a little more nervous (d = 0.27). The cues were stronger when liars
 were motivated, especially when the lie touched their identity, and low-stakes lies left almost no
-trace.[6] So the honest summary isn't "the body shows nothing". It's that the differences are small,
-and the famous one, the eyes, is essentially absent.
+trace.[6] So the body does show something. The differences are small,
+and the famous one, the eyes, is close to zero.
 
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 270" role="img" aria-labelledby="cl14-gdrt-title cl14-gdrt-desc" style="width:100%;height:auto;font-family:inherit">
-  <title id="cl14-gdrt-title">How people say you can tell when someone is lying</title>
-  <desc id="cl14-gdrt-desc">Four horizontal bars showing the share of 2,320 people in 58 countries who named each sign when asked how you can tell someone is lying. Gaze aversion: 63.66%. Nervousness: 28.15%. Incoherence: 25.30%. Body movements: 25.04%. From the Global Deception Research Team 2006, Study 1.</desc>
-  <text x="20" y="28" font-size="15" fill="var(--text, #111418)">Liars look away (gaze aversion)</text>
-  <rect x="20" y="36" width="255" height="26" fill="var(--oxblood, #8b1e2d)"/>
-  <text x="283" y="55" font-size="15" fill="var(--text, #111418)">63.66%</text>
-  <text x="20" y="88" font-size="15" fill="var(--text, #111418)">Liars seem nervous</text>
-  <rect x="20" y="96" width="113" height="26" fill="var(--text-2, #4a5260)"/>
-  <text x="141" y="115" font-size="15" fill="var(--text, #111418)">28.15%</text>
-  <text x="20" y="148" font-size="15" fill="var(--text, #111418)">Liars' stories don't hang together</text>
-  <rect x="20" y="156" width="101" height="26" fill="var(--text-2, #4a5260)"/>
-  <text x="129" y="175" font-size="15" fill="var(--text, #111418)">25.30%</text>
-  <text x="20" y="208" font-size="15" fill="var(--text, #111418)">Liars move their bodies more</text>
-  <rect x="20" y="216" width="100" height="26" fill="var(--text-2, #4a5260)"/>
-  <text x="128" y="235" font-size="15" fill="var(--text, #111418)">25.04%</text>
-  <text x="20" y="263" font-size="15" fill="var(--text-2, #4a5260)">Share of respondents naming each sign</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 320" role="img" aria-labelledby="cl14-gdrt-title cl14-gdrt-desc" style="width:100%;height:auto;font-family:inherit">
+  <title id="cl14-gdrt-title">What people say liars do, against what was measured</title>
+  <desc id="cl14-gdrt-desc">Four horizontal bars showing the share of 2,320 people in 58 countries who named each sign when asked how you can tell someone is lying. Gaze aversion: 63.66%. Nervousness: 28.15%. Incoherence: 25.30%. Body movements: 25.04%. From the Global Deception Research Team 2006, Study 1. Below the bars: the measured difference between liars and truth tellers in looking away was d = 0.03, from DePaulo and colleagues 2003.</desc>
+  <text x="20" y="22" font-size="15" font-weight="600" fill="var(--text, #111418)">What people say liars do</text>
+  <text x="20" y="53" font-size="15" fill="var(--text, #111418)">Liars look away (gaze aversion)</text>
+  <rect x="20" y="61" width="255" height="26" fill="var(--oxblood, #8b1e2d)"/>
+  <text x="283" y="80" font-size="15" fill="var(--text, #111418)">63.66%</text>
+  <text x="20" y="113" font-size="15" fill="var(--text, #111418)">Liars seem nervous</text>
+  <rect x="20" y="121" width="113" height="26" fill="var(--text-2, #4a5260)"/>
+  <text x="141" y="140" font-size="15" fill="var(--text, #111418)">28.15%</text>
+  <text x="20" y="173" font-size="15" fill="var(--text, #111418)">Liars' stories don't hang together</text>
+  <rect x="20" y="181" width="101" height="26" fill="var(--text-2, #4a5260)"/>
+  <text x="129" y="200" font-size="15" fill="var(--text, #111418)">25.30%</text>
+  <text x="20" y="233" font-size="15" fill="var(--text, #111418)">Liars move their bodies more</text>
+  <rect x="20" y="241" width="100" height="26" fill="var(--text-2, #4a5260)"/>
+  <text x="128" y="260" font-size="15" fill="var(--text, #111418)">25.04%</text>
+  <text x="20" y="288" font-size="15" fill="var(--text-2, #4a5260)">Share who named each as a way to spot a liar</text>
+  <text x="20" y="313" font-size="15" font-weight="600" fill="var(--text, #111418)">Measured gap for looking away: d = 0.03</text>
 </svg>
 
 *The four signs most often named when 2,320 people in 58 countries (40 per country, mostly students)
 were asked "How can you tell when people are lying?" The Global Deception Research Team, "A world of
-lies", Journal of Cross-Cultural Psychology, 2006, Study 1. Drawn by this course from the figures in
-the paper.[7]*
+lies", Journal of Cross-Cultural Psychology, 2006, Study 1. Drawn by this course from the figures in the paper.[7] The measured gap on the last line is
+DePaulo and colleagues' 2003 result for gaze aversion.[6]*
 
 That chart is the belief side. An international team of researchers, calling themselves the
 [Global Deception Research Team](https://pmc.ncbi.nlm.nih.gov/articles/PMC2957901/), asked people in
@@ -282,9 +281,8 @@ the wrong cues": the cues people actually use and the cues that actually differ 
 truth tellers line up closely. What limits accuracy, they write, is "weaknesses in behavioral cues to
 deception".[8]
 
-That's the mechanism this lesson rests on, and it's theirs: you can't read a signal that's barely
-there. (One puzzle remains. People *say* they rely on gaze, as the chart shows, but in Hartwig and
-Bond's abstract eye contact correlated only weakly with actual lie judgements, r = -.15.[8])
+That's the explanation this lesson leans on, and it comes from them, not from me: you can't read a
+signal that's barely there.
 
 ### Eyes up and to the right, microexpressions, and training
 
@@ -296,7 +294,7 @@ colleagues [tested it three ways](https://journals.plos.org/plosone/article?id=1
 in 2012. Liars and truth tellers in filmed interviews moved their eyes no differently; people taught the NLP
 pattern judged clips no better than people who weren't (16.33 against 16.59 correct out of 32); and
 in 52 real televised appeals for missing relatives, half of them later shown to be lies, glances
-didn't differ.[11] Three small studies from one team, all null. Vrij and colleagues'
+didn't differ.[11] All three were small, all came from one team, and all found nothing. Vrij and colleagues'
 review notes that NLP's founders never claimed eye movements reveal lies.[10]
 
 **Microexpressions.** The idea is that a hidden feeling leaks out in a flash across the face, too
@@ -307,7 +305,7 @@ participant at least once, but "Microexpressions were exhibited by 21.95% of par
 all expressions, and in the upper or lower face only".[12] Aldert Vrij, Maria Hartwig and Pär Anders
 Granhag's 2019 review describes that study as "the first and, to date, only published experiment" on
 microexpressions and deception, and reports that six of the fourteen microexpressions were shown by
-people telling the truth.[10] Rare, and not specific to liars.
+people telling the truth.[10] So microexpressions were rare, and truth tellers showed them too.
 
 **Training.** Paul Ekman's Micro-Expressions Training Tool (METT) is sold to teach people to spot
 them. Jordan and colleagues randomly assigned 90 people to METT, to a bogus training designed
@@ -321,7 +319,8 @@ didn't.
 ### When professionals use the cues
 
 Behavioural cues have been built into police interviewing and airport security, and the people who
-designed those systems have their own case. Here it is in their words first.
+designed those systems have their own case. Here it is, as far as this course has it in their
+words, with the answer to it.
 
 **The Reid technique.** The Behavior Analysis Interview is the first step of the Reid technique, an
 interrogation method in which, [Vincent Denault and colleagues](https://journals.copmadrid.org/apj/art/apj2019a9) report, "more than 500,000 people have
@@ -332,8 +331,12 @@ and Jayne, 2013), as Denault and colleagues quote it, says that "generally speak
 does not make direct eye contact is probably withholding information". The same manual, they report,
 cautions that a lack of eye contact may come from other things, including the suspect's culture.[14]
 Denault and colleagues, writing in a legal psychology journal, answer that
-research "has even shown that it is not a valid sign of lying".[14] This course read Denault and
-colleagues' paper in full; it has not read the Reid manual itself.
+research "has even shown that it is not a valid sign of lying".[14] The study they say is often
+presented as supporting the interview, by Horvath, Jayne and Buckley in 1994, which this course
+hasn't read, "suffers from fatal methodological shortcomings", in their words, among them a small
+sample and no comparison group of untrained or lay evaluators. They also allow that "some other
+aspects of BAI may offer avenues for research".[14] This course read
+Denault and colleagues' paper in full; it has not read the Reid manual itself.
 
 **SPOT.** From 2007, the US Transportation Security Administration trained behaviour detection
 officers to watch passengers in airport queues, about 30 seconds each, for indicators that
@@ -348,13 +351,14 @@ The Department of Homeland Security disagreed, and GAO's report sets out its rea
 GAO, DHS argued that the published research "lacked ecological and external validity" because none
 of it was about airports, that its own research, unpublished for security reasons, supported
 behaviour detection, and that SPOT aimed to spot signs of fear or stress rather than lies as such.
-GAO answered each point and kept its conclusion.[15] This course hasn't read DHS's letter itself,
-which the report prints only as page images.
+GAO answered each point and kept its conclusion, while granting that "behavior detection holds
+promise for use in certain circumstances and in conjunction with certain other technologies".[15]
+This course hasn't read DHS's letter itself, which the report prints only as page images.
 
 On this course's reading, what would settle the practitioners' case is evidence of the kind DHS's
 objection points to: high-stakes field studies, in real settings, where the truth is later known,
-comparing trained and untrained observers. Until then, demeanour-only lie detection is about as close
-to settled as this field gets: poor. GAO's report adds
+comparing trained and untrained observers. Until then, judging lies from demeanour alone is about
+as settled as anything in this field, and the verdict is that it does poorly. GAO's report adds
 a practical warning, in its summary of a 2010 review this course hasn't read: behaviour natural to
 one culture "may appear suspicious" to members of another.[15] Lesson 15, "Different habits:
 culture, autism, age and hearing", picks that up: where a listener is expected to look differs
@@ -389,7 +393,7 @@ six of every seven candidates who look away are telling the truth, because truth
 more numerous. The rarer lying is, the more a "lie cue" misleads, which is the base-rate point from
 Logic and Argument turned on a person.
 
-What would help Tancredi is in what Lazlo says. On this course's reading of the findings below, the
+What would help Tancredi is in what Lazlo says. On this course's reading of the findings in the next section, the
 useful move is to ask for checkable detail (which tool, who else worked on it, what went wrong) and
 then check with a reference. This course teaches no interview method. The point is narrower: where
 there's anything to find, it's more likely in the content of an answer than in the eyes.
@@ -398,11 +402,13 @@ there's anything to find, it's more likely in the content of an answer than in t
 
 The field's positive advice has moved from watching bodies to listening to words.[10]
 
-- In Vrij, Hartwig and Granhag's review, 35 of 50 well-studied cues were at least partly nonverbal,
-  and 25 of those 35 showed no relation to lying. Verbal cues did better, averaging d = 0.30, with 8
-  of 18 related to deception.[10] On Mental Fitness lesson 2's table, which again is this course's
-  arithmetic, 0.3 puts the average liar ahead of about 62% of truth tellers on such a cue. Better
-  than the eyes, and still far from a lie detector.
+- In Vrij, Hartwig and Granhag's review, 35 of 50 well-studied cues were at least partly nonverbal, and 25 of those 35 showed no relation to
+  lying, so 10 of 35 did. Of 18 verbal cues, 8 were related to lying, and the authors call the verbal
+  results "more promising". Among the cues that were related, the verbal ones averaged d = 0.30 and
+  the nonverbal ones 0.26.[10] So the difference is mostly in how many cues work, not in how strong
+  the working ones are. On Mental Fitness lesson 2's table, which again is this course's arithmetic,
+  0.3 puts the average liar ahead of about 62% of truth tellers on one of those eight cues. That's
+  better than the eyes, and still far from a lie detector.
 - A meta-analysis of 30 training studies by Valerie Hauch and colleagues, read here only as an
   abstract, found a small-to-medium effect of training overall (g = 0.331) and "larger training
   effects if the training was based on verbal content cues".[16]
@@ -443,7 +449,7 @@ both read here as abstracts: Himba participants sorting photographs of posed fac
 didn't sort them into the categories the universality view predicts,[22] and Trobriand Island adolescents
 read the gasping face that Western studies call fear as anger and threat.[23]
 
-Read that correlation the way Mental Fitness lesson 2 taught: r = .32 is a real relationship
+Read that correlation the way lesson 9, "Does active listening work?", taught: r = .32 is a real relationship
 and not a percentage. It doesn't mean faces are right 32% of the time.
 
 **What both sides say.** Faces carry social information, and context changes what they mean. Both
@@ -468,7 +474,7 @@ On this course's reading, the frown is a reason to wonder, and perhaps to ask af
 Faces aren't useless, and the research on brief glimpses shows it. Nalini Ambady and Robert
 Rosenthal's 1992 meta-analysis pooled 38 results in which people predicted real outcomes from
 watching someone for under five minutes. The average correlation between the glimpse-based judgement
-and the outcome was r = .39. Observations under half a minute predicted about as well as four or five
+and the outcome was r = .39, the same size as the listening correlation in lesson 9. Observations under half a minute predicted about as well as four or five
 minutes, and it didn't much matter whether the glimpse was of the face, the body, speech or tone of
 voice.[24] That's a **replicated** finding: a moderate relationship, pooled across studies.
 
@@ -498,9 +504,10 @@ experiments, and both have a replication story like the small-talk finding in le
 **Mirroring.** In 1999 Tanya Chartrand and John Bargh reported, in experiments read here only at the
 abstract, that people unintentionally copy strangers' movements, and that being copied by a
 confederate produced smoother interactions and more liking.[25] In 2016 Joanna Hale and Antonia
-Hamilton ran a preregistered test with 40 participants talking to avatars in virtual reality, and
-being copied didn't raise rapport or trust.[26] Their review the same year says the link from mimicry
-to liking "may be fragile", and can break down when the copying is noticed.[27] Whether mirroring
+Hamilton found, with avatars in virtual reality, that 50 people felt more rapport with avatars that
+copied them. When they repeated the test with 40 people under a preregistered plan, being copied
+didn't raise rapport or trust. They call the first study exploratory and the second the more
+definitive.[26] Their review the same year says the link from mimicry to liking "may be fragile", and can break down when the copying is noticed.[27] Whether mirroring
 helps is **contested**. Deliberate mirroring has no good support in what this course read, and doing
 it covertly would mean using a technique on someone without their knowledge, which this course
 doesn't teach.
@@ -517,8 +524,8 @@ Then the replications came.
   original authors replied that the study differed in method, including six-minute poses.[32]
 - In 2016 Carney, the first author, published [a statement](https://faculty.haas.berkeley.edu/dana_carney/pdf_My%20position%20on%20power%20poses.pdf): "I do not believe that “power pose”
   effects are real." Among her reasons she listed a tiny sample, effects that were "small and barely there",
-  data collected in batches and checked along the way, and experimenters who knew the
-  hypothesis.[30]
+  data collected in batches and checked along the way, a self-report measure of power that was, in
+  her word, "p-hacked", and experimenters who knew the hypothesis.[30]
 - Joseph Simmons and Uri Simonsohn analysed the pattern of results in the 33 studies the original
   authors had cited, and found it "indistinguishable from what would be expected if (a) the average
   effect size were zero", with selective reporting explaining the significant ones.[31] Their main
@@ -535,39 +542,32 @@ outcome in its own right, reporting strong evidence for effects on felt power. T
 read that paper; it knows it through the same BPS article, which reports it that way.[32] On the
 other side, Marcus Credé pointed out, again as that article reports, that most of those studies had
 no neutral posture to compare with, so a difference between expansive and slumped poses could come
-from slumping making people feel worse.[32] A 2022 meta-analysis of 73 studies by Emma Elkjær and
-colleagues, read here as an abstract, points the same way: slumped against neutral postures showed
+from slumping making people feel worse.[32] A review of 73 studies, 48 of them pooled, by
+Emma Elkjær and colleagues, published online in 2020 and read here as an abstract, points the same way: slumped against neutral postures showed
 an effect of g = 0.45, expansive against neutral only 0.06, and they conclude "it is the absence of
 contractive displays rather than the presence of expansive displays that alters affective and
-behavioral responding".[33] Cuddy greeted the same meta-analysis differently: "At this point, anyone
+behavioral responding".[33] Cuddy greeted the same review differently: "At this point, anyone
 who claims these effects are not real cannot support that claim with science. These findings are
 vindicating", as the BPS article quotes her.[32] Whether posture changes how powerful you feel is
 **contested**; what would settle it is large preregistered studies that include a neutral posture.
 
 ## What people get wrong
 
-**"93% of communication is nonverbal."** Its author says his equations apply only when someone is
-talking about feelings or attitudes, and they came from single words and posed photographs.[1]
+**"93% of communication is nonverbal."** Only for feelings and attitudes, on its author's own
+account.[1]
 
-**"Liars avoid eye contact."** Believed in all 75 countries surveyed, and in the largest review eye
-contact and gaze aversion barely differed between liars and truth tellers (d = 0.01 and 0.03).[6][7]
+**"Liars avoid eye contact."** A belief found in all 75 countries surveyed; the measured difference
+was close to zero.[6][7]
 
-**"Looking up and to the right means lying."** Tested three ways, including real televised appeals,
-and nothing was found.[11]
+**"Looking up and to the right means lying," "Microexpressions give liars away."** The eye pattern
+wasn't found, microexpressions were rare and shown by truth tellers too, and a training tool did no
+better than a bogus one.[10][11][12][13]
 
-**"Police and body language experts can spot liars."** Professionals averaged under 55%, no better
-than lay people, and the best individual judges look like chance variation.[4][5]
-
-**"Microexpressions give liars away."** In the only published experiment a 2019 review knew of,
-they appeared in 2% of expressions,
-and in truth tellers too; a training tool did no better than a bogus one.[10][12][13]
+**"Police and other professionals can spot liars."** They averaged under 55%, like everyone else.[4]
 
 **"So nobody can ever tell a lie from the truth."** That overshoots. Accuracy is a little above
 chance, some cues differ slightly, and attention to content and good questions does better, by an
 amount researchers still argue about.[4][10][16]
-
-**"Crossed arms mean defensive."** No body movement has been shown to have one fixed meaning, and
-this course found no study of crossed arms.[14]
 
 **"A face shows exactly what someone feels."** Both sides of the face debate say context changes
 what a face means; they disagree about how much a face says alone.[18][19]
@@ -576,14 +576,12 @@ what a face means; they disagree about how much a face says alone.[18][19]
 information, emotions are recognised above chance across cultures, and brief glimpses predict some
 outcomes moderately.[18][20][24]
 
-**"Mirror their body language and they'll like you."** A preregistered test found no effect, and a
-review calls the link fragile.[26][27]
+**"Crossed arms mean defensive," "Mirror them and they'll like you."** No gesture has been shown to
+have one fixed meaning, and the mirroring effect didn't hold up under a preregistered test.[14][26]
 
-**"Power poses boost your hormones."** They didn't in a study of 200 people, and the first author
-no longer believes the effects are real.[29][30]
-
-**"Power posing was debunked, so posture does nothing to how you feel."** Also too strong: an effect
-on felt power is still argued, and slumping may matter more than standing tall.[32][33]
+**"Power posing was debunked, so posture does nothing to how you feel."** Also too strong: the
+hormone claims failed, but an effect on felt power is still argued, and slumping may matter more
+than standing tall.[29][32][33]
 
 ## Practice
 
@@ -592,9 +590,9 @@ This is a **practise with a willing partner** exercise. Take 10 minutes. You nee
 
 Before each round, your partner privately flips a coin: heads, they'll tell you something true about themselves; tails, something false. They choose small, harmless things (a food they tried once, a place they've been, a job they did as a teenager), never anything that touches a real secret or that they'd rather not discuss.
 
-They say one statement. You may ask two questions about it, and then you say "true" or "lie". Play twelve rounds. Score how many you got right, and how many of your "lie" calls were right, and for each call note what you relied on: their face, their voice, the content, or the answers to your questions.
+They say one statement. You may ask two questions about it, and then you say "true" or "lie". Play eight rounds. Score how many you got right, and how many of your "lie" calls were right, and for each call note what you relied on: their face, their voice, the content, or the answers to your questions.
 
-Compare your score with 54%, the average in the meta-analysis. Twelve rounds is far too few to show you're better or worse than average, so treat your score as a story, not a measurement. The coin keeps lies and truths about equally common, which is what makes 50% the guessing rate; the classic "two truths and a lie" game doesn't, because there guessing gets you one in three. Swap roles if your partner wants to. Don't use anything you learn to test anyone else without their knowledge.
+Compare your score with 54%, the average in the meta-analysis. Eight rounds is far too few to show you're better or worse than average, so treat your score as a story, not a measurement. The coin keeps lies and truths about equally common, which is what makes 50% the guessing rate; the classic "two truths and a lie" game doesn't, because there guessing gets you one in three. Swap roles if your partner wants to. Don't use anything you learn to test anyone else without their knowledge.
 :::
 
 :::exercise Three claims from the internet
@@ -618,11 +616,8 @@ as a liar, from their body language: the journal is about your reading, not thei
 ## Connections
 
 Lesson 7, "Ask, don't guess", gave the rule this lesson ends on: when you want to know what someone
-feels or thinks, asking beats reading, and the body is one more thing people read instead of
-asking. Lesson 3 traced one number back to its source; Mehrabian's is another. Lesson 9's "compared
-with what?" is what gives METT's null result its meaning. Logic and Argument lesson 6's counting
-shows why a weak cue misleads more when lies are rare. And lesson 12, "Strangers, small talk and
-going deeper", has a replication story of the same shape as power posing and mimicry.
+feels or thinks, asking beats reading, and on this course's reading the body is one more thing people
+read instead of asking.
 
 Next, lesson 15, "Different habits: culture, autism, age and hearing", takes up gaze again: where
 listeners look in different communities, what autistic people report about eye contact, and why
@@ -651,7 +646,7 @@ lesson's account of Mehrabian rather than reteaching it.
    [kaaj.com](http://www.kaaj.com/psych/smorder.html), copyright 1995 to 2016. **Read: the full
    page**, re-read 26 September 2026. The two 1967 studies themselves were not read. <!-- SOURCES Part D §1.3; lesson 14 gate closure G6 -->
 2. Lapakko, D. (1997). Three cheers for language: a closer examination of a widely cited study of
-   nonverbal communication. *Communication Education*, 46(1), 63–67. **Read: the abstract only**,
+   nonverbal communication. *Communication Education*, 46(1), 63–67. **Read: the abstract only.**
 <!-- SOURCES Part D §1.4 -->
 3. Zenger, J., and Folkman, J. (2016, 14 July). What great listeners actually do. *Harvard Business
    Review* (online). **Read: the full text**, from the Internet Archive capture of 20 July 2016. <!-- SOURCES Part D §7.1 -->
@@ -728,8 +723,8 @@ lesson's account of Mehrabian rather than reteaching it.
     abstract only.** <!-- SOURCES Part D §4.1 -->
 26. Hale, J., and Hamilton, A. F. de C. (2016). Testing the relationship between mimicry, trust and
     rapport in virtual reality conversations. *Scientific Reports*, 6, 35295.
-    [PMC5064448](https://pmc.ncbi.nlm.nih.gov/articles/PMC5064448/). **Read: the abstract**, which
-    this course's summary rests on. <!-- SOURCES Part D §4.2 -->
+    [PMC5064448](https://pmc.ncbi.nlm.nih.gov/articles/PMC5064448/). **Read: the abstract**, which this course's summary rests on, and the full text searched for the
+    authors' judgement of the two studies, 26 September 2026. <!-- SOURCES Part D §4.2; lesson 14 review gate closures -->
 27. Hale, J., and Hamilton, A. F. de C. (2016). Cognitive mechanisms for responding to mimicry from
     others. *Neuroscience and Biobehavioral Reviews*, 63, 106–123. **Read: the abstract only.** <!-- SOURCES Part D §4.3 -->
 28. Carney, D. R., Cuddy, A. J. C., and Yap, A. J. (2010). Power posing: brief nonverbal displays
@@ -747,8 +742,7 @@ lesson's account of Mehrabian rather than reteaching it.
 32. Loncar, T. (2021, 8 June). A decade of power posing: where do we stand? *The Psychologist*,
     British Psychological Society.
     [bps.org.uk](https://www.bps.org.uk/psychologist/decade-power-posing-where-do-we-stand). **Read:
-    the full text**, re-read 26 September 2026. The 2017 special issue, Cuddy and colleagues' 2018
-    reply, Credé's commentary and Cuddy's 2020 comment are known only as this article reports them. <!-- SOURCES Part D §4.8, §4.9; lesson 14 gate closures -->
+    the full text**, re-read 26 September 2026. The 2017 special issue, Carney, Cuddy and Yap's 2015 reply, Cuddy and colleagues' 2018 reply, Credé's commentary and Cuddy's 2020 comment are known only as this article reports them. <!-- SOURCES Part D §4.8, §4.9; lesson 14 gate closures -->
 33. Elkjær, E., Mikkelsen, M. B., Michalak, J., Mennin, D. S., and O'Toole, M. S. (2022). Expansive
     and contractive postures and movement: a systematic review and meta-analysis. *Perspectives on
     Psychological Science*, 17(1), 276–304. **Read: the abstract only.** <!-- SOURCES Part D §4.10 -->
